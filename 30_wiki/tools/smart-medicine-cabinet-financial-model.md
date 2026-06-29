@@ -8,20 +8,20 @@ title: 智能药柜单点财务模型与回本测算表
 type: tool
 status: enriched
 domain:
-- healthcare- healthcare
-- pharmaceutical-retail
-- financial-model
+  - healthcare- healthcare
+  - pharmaceutical-retail
+  - financial-model
 source_refs:
   - pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
   - pending_archive:src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
   - pending_archive:src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
   - pending_archive:src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
-- src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-- src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
-- src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
-- src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
+  - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+  - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+  - src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
+  - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 tags:
-- src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
@@ -30,25 +30,25 @@ review_date: '2026-06-14'
 confidence: 0.7
 trust_level: medium
 related:
-- [[case-lean-perfectionism-traps]]
-- [[smart-medicine-cabinet-fraud-detection]]
-- [[case-lean-wrong-demand]]
-- [[case-lean-shoe-mvp-evolution]]
-- [[case-yitang-tob-smart-park]]
-- [[master-antifragile-checklist]]
-- [[master-cognitive-bias-checklist]]
-- [[smart-medicine-cabinet-clinic-risk-observation]]
-- [[smart-medicine-cabinet-distribution]]
-- [[smart-medicine-cabinet-national-policy-redlines]]
-- [[smart-medicine-cabinet-o2o-cost-structure]]
-- [[yt-five-step-method]]
-- [[yt-unit-model-three-tools]]
+  - [[case-lean-perfectionism-traps]]
+  - [[smart-medicine-cabinet-fraud-detection]]
+  - [[case-lean-wrong-demand]]
+  - [[case-lean-shoe-mvp-evolution]]
+  - [[case-yitang-tob-smart-park]]
+  - [[master-antifragile-checklist]]
+  - [[master-cognitive-bias-checklist]]
+  - [[smart-medicine-cabinet-clinic-risk-observation]]
+  - [[smart-medicine-cabinet-distribution]]
+  - [[smart-medicine-cabinet-national-policy-redlines]]
+  - [[smart-medicine-cabinet-o2o-cost-structure]]
+  - [[yt-five-step-method]]
+  - [[yt-unit-model-three-tools]]
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 difficulty: advanced
 prerequisites: smart-medicine-cabinet-national-policy-redlines
 ---

@@ -10,20 +10,20 @@ status: enriched
 confidence: 0.85
 trust_level: medium-high
 domain:
-- ai-saas- ai
-- ai-collaboration
-- management
+  - ai-saas- ai
+  - ai-collaboration
+  - management
 source_refs:
   - pending_archive:src_20260614_d79b42d1-D同学-AI技术落地案例
-- src_20260614_d79b42d1-D同学-AI技术落地案例
+  - src_20260614_d79b42d1-D同学-AI技术落地案例
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[master-ai-info-literacy]]
-- [[industrial-ai-ops-cases]]
-- [[yt-model-prompt-engineering]]
-- [[dk-wanghuan-standard-by-iteration]]
-- [[industrial-ai-ops-cases]]
-- [[yt-entrepreneur-product-core]]
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[master-ai-info-literacy]]
+  - [[industrial-ai-ops-cases]]
+  - [[yt-model-prompt-engineering]]
+  - [[dk-wanghuan-standard-by-iteration]]
+  - [[industrial-ai-ops-cases]]
+  - [[yt-entrepreneur-product-core]]
 created_at: 2026-06-14
 updated_at: '2026-06-16'
 author: 王语嫣

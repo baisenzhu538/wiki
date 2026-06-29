@@ -10,21 +10,21 @@ status: enriched
 confidence: 0.7
 trust_level: medium
 domain:
-- yitang- business-strategy
-- product
-- entrepreneur
+  - yitang- business-strategy
+  - product
+  - entrepreneur
 source_refs:
   - pending_archive:src_20260614_909802bd-智能设备-外卖对接方案讨论
-- src_20260614_909802bd-智能设备-外卖对接方案讨论
+  - src_20260614_909802bd-智能设备-外卖对接方案讨论
 related:
-- [[ai-native-im-multi-agent]]
-- [[dk-strategy-06-dividend-to-strategy]]
-- [[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]
-- [[beverage-foodservice-channel]]
-- [[ai-complex-communication]]
-- [[beverage-foodservice-channel]]
-- [[yt-entrepreneur-channel-exploration]]
-- [[source-code-delivery-model]]
+  - [[ai-native-im-multi-agent]]
+  - [[dk-strategy-06-dividend-to-strategy]]
+  - [[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]
+  - [[beverage-foodservice-channel]]
+  - [[ai-complex-communication]]
+  - [[beverage-foodservice-channel]]
+  - [[yt-entrepreneur-channel-exploration]]
+  - [[source-code-delivery-model]]
 created_at: 2026-06-14
 updated_at: '2026-06-16'
 author: 王语嫣

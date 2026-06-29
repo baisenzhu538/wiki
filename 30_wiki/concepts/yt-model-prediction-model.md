@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-prediction-model
 confidence: 0.85
@@ -20,7 +20,7 @@ superseded_by:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260522_e71d89ff-ocr-预判模型
-- src_20260522_e71d89ff-ocr-预判模型
+  - src_20260522_e71d89ff-ocr-预判模型
 source_refs:
   - pending_archive:src_20260522_e71d89ff-ocr-预判模型
 ---

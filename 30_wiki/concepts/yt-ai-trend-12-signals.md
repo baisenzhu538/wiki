@@ -1,7 +1,7 @@
 ---
 
 domain:
-- yitang
+  - yitang
 
 
 
@@ -21,7 +21,7 @@ review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
   - pending_archive:src_20260614_82a4fdb9-凯文凯利-必然趋势分享
-- src_20260614_82a4fdb9-凯文凯利-必然趋势分享
+  - src_20260614_82a4fdb9-凯文凯利-必然趋势分享
 source_refs:
   - pending_archive:src_20260614_82a4fdb9-凯文凯利-必然趋势分享
 ---

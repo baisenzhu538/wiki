@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-questioning-practice-canvas
 confidence: 0.85
@@ -18,7 +18,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
-- src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
+  - src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
 source_refs:
   - pending_archive:src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
 ---

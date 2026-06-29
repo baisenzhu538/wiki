@@ -8,19 +8,19 @@ title: 一堂业务公式十大经典范式
 type: concept
 status: enriched
 domain:
-- yitang- yitang
-- master
-- business-strategy
+  - yitang- yitang
+  - master
+  - business-strategy
 source_refs:
   - pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
   - pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-- src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-- src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-15'
 author: 孔阳
@@ -29,18 +29,18 @@ review_date: '2026-06-14'
 confidence: 0.92
 trust_level: high
 related:
-- [[yt-business-formula-business-pattern-selector]]
-- [[case-toc-ecommerce-formula-misjudgment]]
-- [[case-saas-renewal-formula]]
-- [[yt-business-formula-abc-model]]
-- [[case-private-domain-ecommerce-formula]]
-- [[yt-management-business-formula]]
-- [[yt-business-formula-abc-model]]
-- [[yt-business-formula-parameter-iceberg]]
-- [[yt-business-formula-business-pattern-selector]]
-- [[yt-business-formula-qualitative-metrics-library]]
-- [[yt-entrepreneur-unit-model]]
-- [[yt-growth-cycle-model]]
+  - [[yt-business-formula-business-pattern-selector]]
+  - [[case-toc-ecommerce-formula-misjudgment]]
+  - [[case-saas-renewal-formula]]
+  - [[yt-business-formula-abc-model]]
+  - [[case-private-domain-ecommerce-formula]]
+  - [[yt-management-business-formula]]
+  - [[yt-business-formula-abc-model]]
+  - [[yt-business-formula-parameter-iceberg]]
+  - [[yt-business-formula-business-pattern-selector]]
+  - [[yt-business-formula-qualitative-metrics-library]]
+  - [[yt-entrepreneur-unit-model]]
+  - [[yt-growth-cycle-model]]
 ---
 # 一堂业务公式十大经典范式
 
@@ -70,9 +70,9 @@ related:
 营收 = 流量 × 转化 × 客单价 × 复购
 ```
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### ② 线索转化型（个性范式）
 
@@ -80,9 +80,9 @@ related:
 成交 = 浏览量 × 线索 × 邀约 × 预定 × 合作
 ```
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### ③ 门店收入型（线下范式）
 
@@ -90,8 +90,8 @@ related:
 门店收入 = 门前流量 × 捕获率 × 付费率 × 客单价
 ```
 
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ### ④ 用户周期型（长期范式）
 
@@ -99,9 +99,9 @@ related:
 用户价值 = 获客 × 激活 × 留存 × 收入 × 推荐
 ```
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 
@@ -113,8 +113,8 @@ related:
 用户粘性 = 粘性因素1 + 粘性因素2 + 粘性因素3 + 粘性因素4
 ```
 
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ### ⑥ 工业生产型（对内效率）
 
@@ -122,8 +122,8 @@ related:
 有效产出 = 线索量 × 第一层筛选 × 第二层筛选 × 第三层筛选
 ```
 
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 
@@ -135,8 +135,8 @@ related:
 留存 = N天活跃留存率（按活跃/订单算）
 ```
 
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ### ⑧ 留存节点型（自定义范式）
 
@@ -144,8 +144,8 @@ related:
 学习留存 = 14天学籍率 × 30天20学率 × 180天50学率
 ```
 
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ### ⑨ 连续动作型（标准范式）
 
@@ -153,8 +153,8 @@ related:
 用户参与 = 点击 × 阅读 × 点击 × 点击
 ```
 
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ### ⑩ 动作节点型（自定义范式）
 
@@ -162,8 +162,8 @@ related:
 学习完成 = 学籍 × 到场 × 听课 × 作业率
 ```
 
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 
@@ -221,14 +221,14 @@ related:
 
 ## 验证与参考
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 
 ## 置信度说明
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown

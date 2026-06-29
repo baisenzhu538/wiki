@@ -8,21 +8,21 @@ title: 业务公式 L6 魔法参数：跨行业本质公式集锦
 type: concept
 status: enriched
 domain:
-- yitang- yitang
-- master
-- business-strategy
+  - yitang- yitang
+  - master
+  - business-strategy
 source_refs:
   - pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
   - pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
   - pending_archive:src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
-- src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-- src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-- src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
+  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 孔阳
@@ -31,17 +31,17 @@ review_date: '2026-06-15'
 confidence: 0.88
 trust_level: high
 related:
-- [[framework-lean-expert-roadmap]]
-- [[modeling-level-map]]
-- [[framework-demand-lean-bridge]]
-- [[yt-business-formula-parameter-iceberg]]
-- [[yt-business-formula-six-level-logic]]
-- [[yt-business-formula-abc-model]]
-- [[yt-business-formula-parameter-iceberg]]
-- [[yt-business-formula-six-level-logic]]
-- [[yt-business-formula-ten-paradigms]]
-- [[yt-business-formula-business-pattern-selector]]
-- [[yt-business-formula-qualitative-metrics-library]]
+  - [[framework-lean-expert-roadmap]]
+  - [[modeling-level-map]]
+  - [[framework-demand-lean-bridge]]
+  - [[yt-business-formula-parameter-iceberg]]
+  - [[yt-business-formula-six-level-logic]]
+  - [[yt-business-formula-abc-model]]
+  - [[yt-business-formula-parameter-iceberg]]
+  - [[yt-business-formula-six-level-logic]]
+  - [[yt-business-formula-ten-paradigms]]
+  - [[yt-business-formula-business-pattern-selector]]
+  - [[yt-business-formula-qualitative-metrics-library]]
 ---
 # 业务公式 L6 魔法参数：跨行业本质公式集锦
 
@@ -94,23 +94,23 @@ L6 回答的不是“怎么做”，而是**“这件事为什么成立”**。�
 
 ## 使用边界
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 
 ## 关联框架
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 
 ## 置信度说明
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown

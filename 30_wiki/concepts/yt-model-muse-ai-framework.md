@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-muse-ai-framework
 confidence: 0.85
@@ -19,7 +19,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260510_62b2cfa1-一堂人工智能全景图muse模型
-- src_20260510_62b2cfa1-一堂人工智能全景图muse模型
+  - src_20260510_62b2cfa1-一堂人工智能全景图muse模型
 source_refs:
   - pending_archive:src_20260510_62b2cfa1-一堂人工智能全景图muse模型
 ---
@@ -46,14 +46,14 @@ MUSE 是「AI 共存的未来世界」的四层认知框架：从底层技术变
 ### 核心逻辑
 
 四层之间由「**涌现**」（Emergence）和「**AI 技术能力迭代**」两条线连接：
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 版本信息
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Critique
 
@@ -68,7 +68,7 @@ MUSE 是「AI 共存的未来世界」的四层认知框架：从底层技术变
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
+  - src_unknown
 
 ## Constraints & Boundaries
 

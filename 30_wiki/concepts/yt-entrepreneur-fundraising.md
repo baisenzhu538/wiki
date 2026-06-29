@@ -1,7 +1,7 @@
 ---
 
 domain:
-- entrepreneurship
+  - entrepreneurship
 
 id: yt-entrepreneur-fundraising
 confidence: 0.8
@@ -22,7 +22,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
-- src_20260614_8f80cb0f-一堂-课程地图精华串讲
+  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
   - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 ---
@@ -44,9 +44,9 @@ source_refs:
 
 ### 关键概念
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 与一堂方法论的关系
 
@@ -65,7 +65,7 @@ source_refs:
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
+  - src_unknown
 
 ## Constraints & Boundaries
 

@@ -1,7 +1,7 @@
 ---
 
 domain:
-- entrepreneurship
+  - entrepreneurship
 
 id: yt-entrepreneur-research-camp
 confidence: 0.8
@@ -19,7 +19,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260510_2ba8671c-创业-调研行动营口述01
-- src_20260510_2ba8671c-创业-调研行动营口述01
+  - src_20260510_2ba8671c-创业-调研行动营口述01
 source_refs:
   - pending_archive:src_20260510_2ba8671c-创业-调研行动营口述01
 ---
@@ -65,10 +65,10 @@ source_refs:
 
 ### 第0期的特殊性
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Critique
 

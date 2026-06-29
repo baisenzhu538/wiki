@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-y-organization
 confidence: 0.85
@@ -19,7 +19,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260613_96e45c45-qishijian-business-model
-- src_20260613_96e45c45-qishijian-business-model
+  - src_20260613_96e45c45-qishijian-business-model
 source_refs:
   - pending_archive:src_20260613_96e45c45-qishijian-business-model
 ---

@@ -1,7 +1,7 @@
 ---
 
 domain:
-- personal-growth
+  - personal-growth
 
 
 
@@ -25,7 +25,7 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
-- src_20260614_720e62a1-theme-personal-growth-summary
+  - src_20260614_720e62a1-theme-personal-growth-summary
 source_refs:
   - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
 ---
@@ -46,20 +46,20 @@ source_refs:
 ### 失败模式
 
 1. **写了逐字稿但现场照念，没有眼神交流**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 2. **逐字稿过于书面化，听起来像读论文**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 3. **每个小会议都写逐字稿，投入产出失衡**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 4. **逐字稿写完后不演练，现场卡壳**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Summary
 
@@ -79,43 +79,43 @@ source_refs:
 ### 逐字稿的写作方法
 
 **第一轮：裸写（不设限流出版）**
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 **第二轮：结构重构（逻辑层）**
-- src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 **第三轮：口话化精修（口语层）**
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 **第四轮：练习-修正循环**
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 逐字稿驱动的刻意练习
 
 逐字稿的最大价值在于它为表达提供了**可重复、可比较、可迭代、可迁移**的基准：
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 逐字稿与 IPO 模型的关系
 
 逐字稿是 IPO **输出环节从 L2（专题笔记）到 L4（分享讲解）的关键桥梁**：
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 Truman 本人在 IPO 课中讲述"自己讲一堂课的准备过程"时提到，每次课的逐字稿要经过多轮重写——这就是逐字稿在顶级表达者工作流中的实际位置。
 

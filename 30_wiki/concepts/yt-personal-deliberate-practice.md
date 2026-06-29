@@ -1,7 +1,7 @@
 ---
 
 domain:
-- personal-growth
+  - personal-growth
 
 
 
@@ -25,7 +25,7 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
-- src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
+  - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 source_refs:
   - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 ---
@@ -46,20 +46,20 @@ source_refs:
 ### 失败模式
 
 1. **只是重复做，没有针对性改进**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 2. **反馈延迟太久，错误习惯已经固化**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 3. **一直待在舒适区，练习没有挑战**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 4. **只练已经会的，回避弱项**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Summary
 
@@ -87,9 +87,9 @@ source_refs:
 **2. 极致的专注（Focused Attention）**：练习时大脑处于"非舒适区"，需要全神贯注。一堂建议单次练习 25-90 分钟（因人而异），超过这个时间注意力衰减，练习效果归零。金句："宁可高质量练 30 分钟，不要低质量练 3 小时。"
 
 **3. 即时的反馈（Immediate Feedback）**：反馈是刻意练习的核心——没有反馈的练习等于蒙眼射箭。三种反馈来源：
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 **4. 持续出舒适区（Stretch Zone）**：刻意练习的练习内容应在"会做但不熟练"到"勉强能做"之间的拉伸区。太简单（舒适区）不成长，太难（恐慌区）放弃——需要持续调整练习难度保持在拉伸区。
 
@@ -108,9 +108,9 @@ source_refs:
 ### 刻意练习与 IPO 模型的关系
 
 刻意练习本质上是对 **IPO 的 Processing 环节做刻意加速**：
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Critique
 

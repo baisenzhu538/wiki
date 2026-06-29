@@ -1,7 +1,7 @@
 ---
 
 domain:
-- entrepreneurship
+  - entrepreneurship
 
 
 
@@ -26,7 +26,7 @@ query_triggers:
 review_date: 2026-06-11
 source_refs:
   - pending_archive:src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
-- src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
+  - src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
 source_refs:
   - pending_archive:src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
 ---

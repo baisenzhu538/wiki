@@ -11,7 +11,7 @@ language: zh-CN
 domain: [strategy]
 source_refs:
   - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
-- src_unknown
+  - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown

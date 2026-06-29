@@ -18,9 +18,9 @@ source_refs:
   - pending_archive:src_20260614_606a631d-张磊-精益方法论培训
   - pending_archive:src_20260614_6d9f7671-业务公式拆解培训
   - pending_archive:src_20260616_b1e25c49-zhanglei-lean-testing-ama
-- src_20260614_606a631d-张磊-精益方法论培训
-- src_20260614_6d9f7671-业务公式拆解培训
-- src_20260616_b1e25c49-zhanglei-lean-testing-ama
+  - src_20260614_606a631d-张磊-精益方法论培训
+  - src_20260614_6d9f7671-业务公式拆解培训
+  - src_20260616_b1e25c49-zhanglei-lean-testing-ama
 tags:
 - src_unknown
 - src_unknown

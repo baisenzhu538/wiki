@@ -13,10 +13,10 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- strategy
+  - strategy
 source_refs:
   - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
-- src_unknown
+  - src_unknown
   - src_unknown
   - src_unknown
   - src_unknown
@@ -31,12 +31,12 @@ source_refs:
 ## 两步操作
 
 **Step 1：业绩差距**
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 **Step 2：机会差距**
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Agent执行指令
 

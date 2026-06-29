@@ -1,7 +1,7 @@
 ---
 
 domain:
-- yitang
+  - yitang
 
 
 id: yt-scale-economy-weapon-library
@@ -20,7 +20,7 @@ review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
   - pending_archive:src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
-- src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
+  - src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
 source_refs:
   - pending_archive:src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
 ---
@@ -41,20 +41,20 @@ source_refs:
 ### 失败模式
 
 1. **认为‘规模大=规模经济’**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 2. **忽视边际成本，只看固定成本摊薄**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 3. **行业对比对象选错**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 4. **静态分析，不考虑产能瓶颈和管理复杂度**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Summary
 

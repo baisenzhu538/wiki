@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-liberate-thinking-layers
 confidence: 0.85
@@ -18,7 +18,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260613_96e45c45-qishijian-business-model
-- src_20260613_96e45c45-qishijian-business-model
+  - src_20260613_96e45c45-qishijian-business-model
 source_refs:
   - pending_archive:src_20260613_96e45c45-qishijian-business-model
 ---
@@ -46,10 +46,10 @@ source_refs:
 
 ### 核心梯度
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 关键洞察
 

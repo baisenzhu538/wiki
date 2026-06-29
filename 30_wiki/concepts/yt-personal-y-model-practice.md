@@ -1,7 +1,7 @@
 ---
 
 domain:
-- personal-growth
+  - personal-growth
 
 
 
@@ -22,7 +22,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260614_842be4c9-一堂-Y模型实操探索营
-- src_20260614_842be4c9-一堂-Y模型实操探索营
+  - src_20260614_842be4c9-一堂-Y模型实操探索营
 source_refs:
   - pending_archive:src_20260614_842be4c9-一堂-Y模型实操探索营
 ---
@@ -43,20 +43,20 @@ source_refs:
 ### 失败模式
 
 1. **用Y模型解释已经发生的事，自圆其说**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 2. **Y模型画得很漂亮，但没有落地行动**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 3. **强行把不适合的问题塞进Y模型**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 4. **Y模型只停留在个人顿悟，无法向他人解释**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Summary
 
@@ -89,11 +89,11 @@ Y模型是一堂所有课程中"四最"课题——最难、最抽象、最值�
 
 ### 核心动词：牵
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 为什么Y模型难学
 
@@ -125,9 +125,9 @@ Y模型是一堂所有课程中"四最"课题——最难、最抽象、最值�
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Synthesis
 

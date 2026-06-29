@@ -7,13 +7,13 @@ title: 国际自动取药机/药房模式经验与启示
 type: concept
 status: enriched
 domain:
-- healthcare
-- business-strategy
+  - healthcare
+  - business-strategy
 source_refs:
   - pending_archive:src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
   - pending_archive:src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
-- src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
-- src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
+  - src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
+  - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣
@@ -22,11 +22,11 @@ review_date: 2026-06-15
 confidence: 0.82
 trust_level: high
 related:
-- [[smart-medicine-cabinet-distribution]]
-- [[case-smart-medicine-cabinet-failure-patterns-library]]
-- [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
-- [[concept-smart-medicine-cabinet-consumer-acceptance]]
-- [[smart-medicine-cabinet-national-policy-redlines]]
+  - [[smart-medicine-cabinet-distribution]]
+  - [[case-smart-medicine-cabinet-failure-patterns-library]]
+  - [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
+  - [[concept-smart-medicine-cabinet-consumer-acceptance]]
+  - [[smart-medicine-cabinet-national-policy-redlines]]
 ---
 # 国际自动取药机/药房模式经验与启示
 
@@ -56,10 +56,10 @@ related:
 
 ### 2. 日本：药妆店模式而非无人药柜
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 3. 美国：自动取药机是医院/诊所服务的延伸
 
@@ -70,14 +70,14 @@ related:
 | **Asteres ScriptCenter** | 药房外 24 小时处方自取机 | 美国 38 州约 1000 台；药师配药后放入机器 |
 | **CVS/Walgreens** | Drive-Thru、智能储物柜、处方递送 | 无大规模独立街头无人售药机 |
 
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 4. 欧洲：英国处方自取机与德国严格限制
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 5. 国际成功因素共性
 
@@ -122,16 +122,16 @@ related:
 
 ### 与已有知识的联系
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 使用建议
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 

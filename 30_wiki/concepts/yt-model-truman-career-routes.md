@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-truman-career-routes
 confidence: 0.85
@@ -19,7 +19,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
-- src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
+  - src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
 source_refs:
   - pending_archive:src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
 ---

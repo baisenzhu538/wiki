@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-scientific-questioning-map
 confidence: 0.85
@@ -18,7 +18,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
-- src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
+  - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 source_refs:
   - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 ---

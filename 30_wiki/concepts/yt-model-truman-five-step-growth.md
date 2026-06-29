@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-truman-five-step-growth
 confidence: 0.85
@@ -19,7 +19,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260522_074c72ae-ocr-truman的个人成长五步法
-- src_20260522_074c72ae-ocr-truman的个人成长五步法
+  - src_20260522_074c72ae-ocr-truman的个人成长五步法
 source_refs:
   - pending_archive:src_20260522_074c72ae-ocr-truman的个人成长五步法
 ---

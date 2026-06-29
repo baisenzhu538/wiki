@@ -1,7 +1,7 @@
 ---
 
 domain:
-- entrepreneurship
+  - entrepreneurship
 
 
 
@@ -27,7 +27,7 @@ query_triggers:
 review_date: 2026-06-06
 source_refs:
   - pending_archive:src_20260614_0e6fd2e7-theme-product-business-summary
-- src_20260614_0e6fd2e7-theme-product-business-summary
+  - src_20260614_0e6fd2e7-theme-product-business-summary
 source_refs:
   - pending_archive:src_20260614_0e6fd2e7-theme-product-business-summary
 ---

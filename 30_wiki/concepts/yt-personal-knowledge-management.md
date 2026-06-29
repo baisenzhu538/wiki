@@ -1,7 +1,7 @@
 ---
 
 domain:
-- personal-growth
+  - personal-growth
 
 
 
@@ -25,7 +25,7 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
-- src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
+  - src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
 source_refs:
   - pending_archive:src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
 ---
@@ -46,20 +46,20 @@ source_refs:
 ### 失败模式
 
 1. **只收藏不整理，笔记变成垃圾堆**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 2. **标签体系过于复杂，检索反而更慢**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 3. **笔记很多，但用的时候想不起来**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 4. **过度优化工具，忽视内容质量**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Summary
 
@@ -79,9 +79,9 @@ source_refs:
 
 核心理念：捕获系统的设计目标不是"结构完美"，而是"摩擦为零"。
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 关键：捕获的质量由频率决定，不由每次的精致度决定。
 
@@ -89,31 +89,31 @@ source_refs:
 
 核心理念：不是给知识分类，而是给"未来的自己"铺路——分类的标准是"我未来在什么场景下会怎么找这条知识"。
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 **阶段三：激活（Activate）——转化为输出**
 
 核心理念：存在知识库里不叫知识，被用出来才叫知识。
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 一堂工具选型立场
 
 一堂不强制工具选型，但给出原则性指导：
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 知识管理与 IPO 模型的关系
 
 知识管理本质上是 IPO 模型的**基础设施**：
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 Truman 在 IPO 课中的原话："大多数人大脑只有内存没有硬盘——你必须给自己找一个外部工具，建立第二大脑，积累长期复利。"这句话就是对知识管理在 IPO 体系中位置的最精确定位。
 

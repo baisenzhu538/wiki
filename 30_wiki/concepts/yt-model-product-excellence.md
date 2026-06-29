@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-product-excellence
 confidence: 0.85
@@ -20,7 +20,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
-- src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
+  - src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
 source_refs:
   - pending_archive:src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
 ---

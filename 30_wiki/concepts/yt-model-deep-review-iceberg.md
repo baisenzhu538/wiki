@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-deep-review-iceberg
 confidence: 0.85
@@ -18,7 +18,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
-- src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
+  - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 source_refs:
   - pending_archive:src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 ---
@@ -45,9 +45,9 @@ source_refs:
 
 ### 五层穿透的实践要点
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 与解放思想层级的关系
 
@@ -86,7 +86,7 @@ source_refs:
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
+  - src_unknown
 
 ## Constraints & Boundaries
 

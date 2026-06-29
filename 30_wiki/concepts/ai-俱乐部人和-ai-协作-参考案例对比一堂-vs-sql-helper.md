@@ -12,7 +12,7 @@ domain:
 status: enriched
 source_refs:
   - pending_archive:src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
-- src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
+  - src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
 created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:22:37+00:00"
 id: "ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper"

@@ -11,7 +11,7 @@ source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
   - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
   - 00_inbox/纪浩-AI协作方法论-口述.md
-- 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
+  - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
   - 00_inbox/纪浩-AI协作方法论-口述.md
 created_at: "2026-06-09"
 updated_at: "2026-06-17"

@@ -4,16 +4,16 @@
 title: Y Combinator
 type: entity
 domain:
-- entrepreneurship
-- ai-saas
-- management
-- business-strategy
+  - entrepreneurship
+  - ai-saas
+  - management
+  - business-strategy
 status: reviewed
 entity_type: organization
 aliases:
-- src_unknown
-- src_unknown
-- src_unknown Startup School
+  - src_unknown
+  - src_unknown
+  - src_unknown Startup School
 url: https://www.ycombinator.com
 location: Mountain View, California, USA
 founded_at: 2005-03-01
@@ -21,14 +21,14 @@ id: YC-Y-Combinator
 created_at: 2026-05-03
 updated_at: '2026-06-16'
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[dk-wanghuan-ai-lifts-personal-ceiling]]
-- [[dk-wanghuan-standard-by-iteration]]
-- [[concept-wanghuan-ai-native-definition]]
-- [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
-- [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
-- [[kdo-protocol]]
-- [[kimi-深度调研集群方法论-deep-research-swarm]]
+  - [[dk-modeling-ai-judgment-limit]]
+  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
+  - [[dk-wanghuan-standard-by-iteration]]
+  - [[concept-wanghuan-ai-native-definition]]
+  - [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
+  - [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
+  - [[kdo-protocol]]
+  - [[kimi-深度调研集群方法论-deep-research-swarm]]
 tags: []
 trust_level: medium
 reviewed_by: 黄药师
@@ -37,7 +37,7 @@ author: unknown
 confidence: 0.7
 source_refs:
   - pending_archive:src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
-- src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
+  - src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260430_8cc84e5b）
 ---
 # Y Combinator

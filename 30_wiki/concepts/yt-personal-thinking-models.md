@@ -1,7 +1,7 @@
 ---
 
 domain:
-- personal-growth
+  - personal-growth
 
 
 
@@ -23,7 +23,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260614_1be3d76f-一堂-思维模型案例分享
-- src_20260614_1be3d76f-一堂-思维模型案例分享
+  - src_20260614_1be3d76f-一堂-思维模型案例分享
 source_refs:
   - pending_archive:src_20260614_1be3d76f-一堂-思维模型案例分享
 ---
@@ -44,20 +44,20 @@ source_refs:
 ### 失败模式
 
 1. **只收集别人的模型，没有自己的提炼**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 2. **模型过于复杂，变量太多无法使用**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 3. **模型未经反例检验，适用范围被夸大**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 4. **模型只停留在口头，没有写入笔记或流程**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Summary
 
@@ -67,9 +67,9 @@ source_refs:
 
 ### 为什么提炼模型是最核心的能力
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### Truman 做课模型演化史
 
@@ -84,17 +84,17 @@ source_refs:
 
 核心能力：**一周交付一节原创高质量课程**
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 教学创新：角色推演法
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Critique
 
@@ -109,8 +109,8 @@ source_refs:
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Synthesis
 

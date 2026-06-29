@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-deliberate-practice-growth
 confidence: 0.85
@@ -18,7 +18,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
-- src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
+  - src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
 source_refs:
   - pending_archive:src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
 ---
@@ -74,13 +74,13 @@ source_refs:
 
 ### 内部局限性
 
-- src_unknown
+  - src_unknown
 
-- src_unknown
+  - src_unknown
 
-- src_unknown
+  - src_unknown
 
-- src_unknown
+  - src_unknown
 
 ### 外部攻击
 

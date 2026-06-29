@@ -1,7 +1,7 @@
 ---
 
 domain:
-- personal-growth
+  - personal-growth
 
 
 
@@ -29,7 +29,7 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
-- src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
+  - src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
 source_refs:
   - pending_archive:src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
 ---
@@ -50,20 +50,20 @@ source_refs:
 ### 失败模式
 
 1. **把长段落切成短句就以为是清单体**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 2. **清单项之间层级混乱，重点被淹没**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 3. **清单写完后不再使用，成为信息坟墓**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 4. **过度追求清单体，把不适合的内容硬塞成清单**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Summary
 
@@ -86,14 +86,14 @@ source_refs:
 **1. 一课一清单原则**：每学完一堂课/读完一本书/开完一个会，产出一张清单。不是"很有启发"，而是"以下 5 件事我现在就能做"。
 
 **2. 清单设计三要素**：
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 **3. 清单的层次递进（三阶清单体系）**：
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 笔记进阶五阶段（一堂笔记法能力梯队）
 
@@ -138,9 +138,9 @@ Truman 将笔记能力的成长路径分为五个阶段，每一阶段都是一�
 
 AI 时代下，清单体笔记的价值被重新放大，核心原因在于：**清单体是人类可读性与AI可解性的最大公约数**。
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 > **分工原则**：AI 可以接管50%以上的基础笔记工作（整理、备忘、排版、改错别字），人类应将省出的时间投入高阶笔记——建模、资产沉淀、解题框架。
 
@@ -153,8 +153,8 @@ AI 时代下，清单体笔记的价值被重新放大，核心原因在于：**
 ### 清单式笔记与 IPO 模型的关系
 
 在 IPO 框架中，清单式笔记是 **Output 端的核心外化形式**：
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 同时，清单也是 **Process 端"存储记忆"的外挂工具**——Truman 在 IPO 课中强调"大多数人大脑只有内存没有硬盘"，清单就是硬盘的一种最高效格式。
 
@@ -174,8 +174,8 @@ AI 时代下，清单体笔记的价值被重新放大，核心原因在于：**
 
 ### 关联框架卡
 
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Synthesis
 

@@ -1,7 +1,7 @@
 ---
 
 domain:
-- entrepreneurship
+  - entrepreneurship
 
 id: yt-entrepreneur-concentration-analysis
 confidence: 0.8
@@ -23,7 +23,7 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260522_9d98d526-business-analysis
-- src_20260522_9d98d526-business-analysis
+  - src_20260522_9d98d526-business-analysis
 source_refs:
   - pending_archive:src_20260522_9d98d526-business-analysis
 ---
@@ -45,9 +45,9 @@ source_refs:
 
 ### 关键概念
 
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 与一堂方法论的关系
 
@@ -66,7 +66,7 @@ source_refs:
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
+  - src_unknown
 
 ## Constraints & Boundaries
 

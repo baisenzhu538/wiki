@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-ipo-complete-checklist
 confidence: 0.85
@@ -20,7 +20,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
-- src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
+  - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
 source_refs:
   - pending_archive:src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
 ---
@@ -99,7 +99,7 @@ IPO 完整清单将科学学习 6 要素映射到一堂全部课程、服务和�
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
+  - src_unknown
 
 ## Constraints & Boundaries
 

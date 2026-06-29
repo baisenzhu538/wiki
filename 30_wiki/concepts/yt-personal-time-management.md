@@ -1,7 +1,7 @@
 ---
 
 domain:
-- personal-growth
+  - personal-growth
 
 
 
@@ -25,7 +25,7 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
-- src_20260614_720e62a1-theme-personal-growth-summary
+  - src_20260614_720e62a1-theme-personal-growth-summary
 source_refs:
   - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
 ---
@@ -46,20 +46,20 @@ source_refs:
 ### 失败模式
 
 1. **把时间管理变成‘做更多事’，而不是‘做对的事’**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 2. **计划排得太满，没有缓冲时间**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 3. **只管理时间，不管理精力**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 4. **计划做得很好，但从不回顾**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Summary
 
@@ -70,37 +70,37 @@ source_refs:
 ### 时间管理的三个认知升级
 
 **1. 从"效率思维"到"优先级思维"**
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 **2. 从"时间长度"到"能量密度"**
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 **3. 从"填满日历"到"保护日历"**
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 个人时间管理的三层框架
 
 **L1 日级管理（战术层）**：一天的节奏设计
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 **L2 周级管理（战役层）**：一周的主题规划
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 **L3 季度/年级管理（战略层）**：长期方向锚定
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 三层之间的关系：**L3 定方向、L2 定节奏、L1 定执行。** L1 再精细也补不上 L2 的节奏混乱，L2 再规律也补不上 L3 的方向错误。
 

@@ -1,7 +1,7 @@
 ---
 
 domain:
-- personal-growth
+  - personal-growth
 
 
 
@@ -25,7 +25,7 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
-- src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
+  - src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
 source_refs:
   - pending_archive:src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
 ---
@@ -46,20 +46,20 @@ source_refs:
 ### 失败模式
 
 1. **被动等待灵感，项目进度被拖慢**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 2. **有了灵感但不记录，过后想不起来**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 3. **灵感很多，但都不解决问题**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 4. **把灵感当结论，未经验证就执行**
-   - src_unknown
-   - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Summary
 
@@ -71,8 +71,8 @@ source_refs:
 
 传统上灵感被理解为"天才的火花"或"上天的恩赐"，这种神秘化叙事导致两个有害后果：
 
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 一堂的重新定义：**灵感 = 跨领域的模式识别在潜意识中完成后的意识涌现。** 灵感的三个必要条件：
 1. **信息浸泡**：大脑中有足够多、足够多样的素材（案例/现象/数据）
@@ -82,19 +82,19 @@ source_refs:
 ### 灵感闪现的三个触发阶段
 
 **阶段一：积累（Saturation）——"泡"进去**
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 **阶段二：暂停（Incubation）——"放"一放**
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 **阶段三：捕获（Illumination）——"接"住它**
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 与一堂其他方法论的关系
 

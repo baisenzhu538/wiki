@@ -12,7 +12,7 @@ domain:
 status: enriched
 source_refs:
   - pending_archive:src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构
-- src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构
+  - src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构
 created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:22:09+00:00"
 id: "ai-俱乐部人和-ai-协作-五层结构"
@@ -40,28 +40,28 @@ png > 提取方式：PaddleOCR (JS/ONNX) + 人工校对 > 分享者：纪浩 人
 
 ## Source Refs
 
-- src_unknown
+  - src_unknown
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Output Opportunities
 

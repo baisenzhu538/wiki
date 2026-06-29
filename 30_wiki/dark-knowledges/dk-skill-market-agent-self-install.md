@@ -12,7 +12,7 @@ source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享，第二十二节批次4精修提炼，2026-06-17
 source_refs:
   - pending_archive:src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
-- src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
+  - src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 confidence: 0.88
 trust_level: medium
 related:

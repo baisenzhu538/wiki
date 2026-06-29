@@ -4,17 +4,17 @@
 title: Kimi（月之暗面）
 type: entity
 domain:
-- kdo
-- product
-- ai-saas
-- design
+  - kdo
+  - product
+  - ai-saas
+  - design
 status: reviewed
 entity_type: company
 aliases:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown Chat
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown Chat
 url: https://kimi.moonshot.cn
 location: Beijing, China
 founded_at: 2023-04-01
@@ -22,13 +22,13 @@ id: Kimi-月之暗面
 created_at: 2026-05-03
 updated_at: '2026-06-16'
 related:
-- [[kdo-input-channel-strategy-2026-06-16]]
-- [[framework-wanghuan-harness-seven-stages]]
-- [[case-truman-ai-partner]]
-- [[kimi-深度调研集群方法论-deep-research-swarm]]
-- [[tool-agent-research-swarm]]
-- [[kimi-深度调研集群方法论-deep-research-swarm]]
-- [[graph-rag]]
+  - [[kdo-input-channel-strategy-2026-06-16]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[case-truman-ai-partner]]
+  - [[kimi-深度调研集群方法论-deep-research-swarm]]
+  - [[tool-agent-research-swarm]]
+  - [[kimi-深度调研集群方法论-deep-research-swarm]]
+  - [[graph-rag]]
 tags: []
 trust_level: medium
 reviewed_by: 黄药师
@@ -37,7 +37,7 @@ author: unknown
 confidence: 0.85
 source_refs:
   - pending_archive:src_20260503_52ae08ba-kdo_product_design_agent_final
-- src_20260503_52ae08ba-kdo_product_design_agent_final
+  - src_20260503_52ae08ba-kdo_product_design_agent_final
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 ---
 # Kimi（月之暗面）

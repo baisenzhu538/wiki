@@ -1,10 +1,10 @@
 ---
 id: graph-rag
 aliases:
-- src_unknown
+  - src_unknown
 created_at: 2026-05-03
 domain:
-- kdo
+  - kdo
 related: null
   - [[kdo-watch-health-check-layer]]
   - [[dk-yb17-product-lifestyle-photography]]
@@ -25,7 +25,7 @@ author: unknown
 confidence: 0.75
 source_refs:
   - pending_archive:src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
-- src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
+  - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）# Graph RAG — Knowledge-Graph-Powered Retrieval
 ---
 

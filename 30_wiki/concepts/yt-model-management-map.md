@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-management-map
 confidence: 0.85
@@ -21,7 +21,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260613_96e45c45-qishijian-business-model
-- src_20260613_96e45c45-qishijian-business-model
+  - src_20260613_96e45c45-qishijian-business-model
 source_refs:
   - pending_archive:src_20260613_96e45c45-qishijian-business-model
 ---
@@ -100,10 +100,10 @@ source_refs:
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Constraints & Boundaries
 

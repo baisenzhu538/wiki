@@ -7,13 +7,13 @@ title: 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析
 type: concept
 status: enriched
 domain:
-- healthcare
-- business-strategy
+  - healthcare
+  - business-strategy
 source_refs:
   - pending_archive:src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape
   - pending_archive:src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
-- src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape
-- src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
+  - src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape
+  - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣
@@ -22,11 +22,11 @@ review_date: 2026-06-15
 confidence: 0.85
 trust_level: high
 related:
-- [[concept-smart-medicine-cabinet-international-models]]
-- [[tool-smart-medicine-cabinet-site-selection-guide]]
-- [[smart-medicine-cabinet-clinic-risk-observation]]
-- [[concept-smart-medicine-cabinet-consumer-acceptance]]
-- [[smart-medicine-cabinet-o2o-cost-structure]]
+  - [[concept-smart-medicine-cabinet-international-models]]
+  - [[tool-smart-medicine-cabinet-site-selection-guide]]
+  - [[smart-medicine-cabinet-clinic-risk-observation]]
+  - [[concept-smart-medicine-cabinet-consumer-acceptance]]
+  - [[smart-medicine-cabinet-o2o-cost-structure]]
 ---
 # 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析
 
@@ -82,10 +82,10 @@ related:
 ```
 
 这条路径的优势：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 相比之下，诊所+药柜需要解决：执业范围限制、处方来源合规、医保结算主体、药品质量管理、SKU 受限、流量获取等问题，性价比更低。
 
@@ -110,15 +110,15 @@ related:
 
 ### 与已有知识的联系
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 使用建议
 
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 
 domain:
-- entrepreneurship
+  - entrepreneurship
 
 id: yt-entrepreneur-spin-selling
 confidence: 0.8
@@ -20,7 +20,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260510_349a66fd-读书会-spin销售法
-- src_20260510_349a66fd-读书会-spin销售法
+  - src_20260510_349a66fd-读书会-spin销售法
 source_refs:
   - pending_archive:src_20260510_349a66fd-读书会-spin销售法
 ---
@@ -56,10 +56,10 @@ SPIN Selling 是1988年出版的现代销售奠基之作——首次将科学实
 
 ### 核心洞见
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ### 与传统销售的关键区分
 
@@ -73,8 +73,8 @@ SPIN Selling 是1988年出版的现代销售奠基之作——首次将科学实
 
 ### 读书会结构
 
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 
 ## Critique
 
@@ -89,7 +89,7 @@ SPIN Selling 是1988年出版的现代销售奠基之作——首次将科学实
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
+  - src_unknown
 
 ## Constraints & Boundaries
 

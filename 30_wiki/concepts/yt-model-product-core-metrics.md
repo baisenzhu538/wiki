@@ -1,7 +1,7 @@
 ---
 
 domain:
-- modeling
+  - modeling
 
 id: yt-model-product-core-metrics
 confidence: 0.85
@@ -18,7 +18,7 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260510_5ef61f8f-一堂产品内核十大典型指标
-- src_20260510_5ef61f8f-一堂产品内核十大典型指标
+  - src_20260510_5ef61f8f-一堂产品内核十大典型指标
 source_refs:
   - pending_archive:src_20260510_5ef61f8f-一堂产品内核十大典型指标
 ---

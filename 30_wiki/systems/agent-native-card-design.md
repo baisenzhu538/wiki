@@ -7,24 +7,24 @@ title: Agent 原生知识卡设计规范 v2
 type: system
 status: active
 domain:
-- kdo
+  - kdo
 author: 黄药师
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
   - pending_archive:src_20260503_52ae08ba-kdo_product_design_agent_final
-- src_20260503_52ae08ba-kdo_product_design_agent_final
+  - src_20260503_52ae08ba-kdo_product_design_agent_final
 reviewed_by: pending
 created_at: 2026-06-15
 confidence: 0.7
 trust_level: medium
 updated_at: '2026-06-16'
 related:
-- [[yt-composite-pan-product-methodology]]
-- [[graph-rag-retrieval-layer]]
-- [[graph-rag]]
-- [[yt-model-pan-product-36-strategies]]
-- [[yt-model-pan-product-aesthetic-toolkit]]
+  - [[yt-composite-pan-product-methodology]]
+  - [[graph-rag-retrieval-layer]]
+  - [[graph-rag]]
+  - [[yt-model-pan-product-36-strategies]]
+  - [[yt-model-pan-product-aesthetic-toolkit]]
 ---
 # Agent 原生知识卡设计规范 v2
 

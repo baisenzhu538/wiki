@@ -5,18 +5,18 @@ title: 技能：AI落地五步执行流程
 type: tool
 status: draft
 domain:
-- ai-collaboration
-- yitang- AI
-- 落地
-- 执行
+  - ai-collaboration
+  - yitang- AI
+  - 落地
+  - 执行
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别-口述，2026-06-06
 source_refs:
   - pending_archive:src_20260606_ef4877d0-所以90的核心问题
-- src_20260606_ef4877d0-所以90的核心问题
+  - src_20260606_ef4877d0-所以90的核心问题
 wiki_refs:
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -31,7 +31,7 @@ created_at: 2026-06-11
 updated_at: '2026-06-16'
 tags: []
 pipeline:
-- src_unknown
+  - src_unknown
 reviewed_by: laowantong
 author: unknown
 confidence: 0.7

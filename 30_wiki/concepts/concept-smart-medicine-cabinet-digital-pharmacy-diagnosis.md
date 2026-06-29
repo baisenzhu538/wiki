@@ -4,11 +4,11 @@ title: 智能药柜/数字药房项目诊断：大院处方、小院续方模式
 type: concept
 status: enriched
 domain:
-- healthcare
-- business-strategy
+  - healthcare
+  - business-strategy
 source_refs:
   - pending_archive:src_20260613_98aa19d4-itingnao-deep-dive-digital-pharmacy
-- src_20260613_98aa19d4-itingnao-deep-dive-digital-pharmacy
+  - src_20260613_98aa19d4-itingnao-deep-dive-digital-pharmacy
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣
@@ -80,10 +80,10 @@ related:
 
 ## 对“大院处方、小院续方”的判断
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 
 ---
 

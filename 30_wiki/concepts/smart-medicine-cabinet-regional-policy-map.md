@@ -8,16 +8,16 @@ title: 各省市自助售药机政策差异地图
 type: concept
 status: enriched
 domain:
-- healthcare- healthcare
-- pharmaceutical-retail
-- policy-compliance
+  - healthcare- healthcare
+  - pharmaceutical-retail
+  - policy-compliance
 source_refs:
   - pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
   - pending_archive:src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
-- src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-- src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+  - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+  - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
 tags:
-- src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
@@ -26,22 +26,22 @@ review_date: '2026-06-14'
 confidence: 0.9
 trust_level: medium
 related:
-- [[case-smart-medicine-cabinet-failure-patterns-library]]
-- [[smart-medicine-cabinet-fraud-detection]]
-- [[smart-medicine-cabinet-distribution]]
-- [[concept-smart-medicine-cabinet-international-models]]
-- [[smart-medicine-cabinet-national-policy-redlines]]
-- [[master-decision-hygiene]]
-- [[smart-medicine-cabinet-clinic-risk-observation]]
-- [[smart-medicine-cabinet-distribution]]
-- [[smart-medicine-cabinet-national-policy-redlines]]
+  - [[case-smart-medicine-cabinet-failure-patterns-library]]
+  - [[smart-medicine-cabinet-fraud-detection]]
+  - [[smart-medicine-cabinet-distribution]]
+  - [[concept-smart-medicine-cabinet-international-models]]
+  - [[smart-medicine-cabinet-national-policy-redlines]]
+  - [[master-decision-hygiene]]
+  - [[smart-medicine-cabinet-clinic-risk-observation]]
+  - [[smart-medicine-cabinet-distribution]]
+  - [[smart-medicine-cabinet-national-policy-redlines]]
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 difficulty: intermediate
 prerequisites: []
 ---
