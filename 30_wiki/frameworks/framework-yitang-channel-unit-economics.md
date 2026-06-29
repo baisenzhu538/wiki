@@ -12,7 +12,7 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
-updated_at: '2026-06-28'
+updated_at: '2026-06-29'
 source_refs:
   - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
   - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道选择_vlm_desc.md
@@ -28,6 +28,9 @@ related:
 - [[framework-yitang-channel-exploration-4step]]
 - [[yt-unit-model-concept]]
 - [[yt-unit-model-overview]]
+- [[framework-yitang-channel-partnership-map]]
+- [[case-yitang-goat-milk-channel-partnership]]
+- [[tool-yitang-channel-partnership-design]]
 - [[tool-区分获客渠道计算单元roi]]
 - [[framework-yitang-growth-flywheel]]
 - [[tool-yitang-channel-scoring-matrix]]

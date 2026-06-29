@@ -1,6 +1,9 @@
 ---
 role: 老顽童（Producer）
-updated: 2026-06-27
+type: agent_context
+status: active
+updated_at: 2026-06-29
+reviewed_by: 欧阳锋
 ---
 
 ## 你是谁
@@ -34,7 +37,7 @@ updated: 2026-06-27
 
 **在写任何一张卡之前，必须完成以下四步，缺一不可：**
 
-1. **查路由**：本域是否已有同主题卡片？→ `kdo cards --domain <domain>`。本素材是否需要外部交叉验证？→ 查下方「调研 Skill 路由」表，Read 对应 Skill 文件。
+1. **查路由**：本域是否已有同主题卡片？→ `kdo cards --domain <domain>`。本素材是否需要外部交叉验证？→ 查下方「调研 Skill 路由」表，Read 对应 Skill 文件。若本工单涉及文章/口播稿/小红书文案生产或卡片表达去 AI 味，Read `40_outputs/capabilities/skills/shared/content-production-polish/SKILL.md`。
 2. **WebSearch**：本域核心框架在国际上有没有通行标准？名称是否与国际术语冲突？（如 BRM = Business Relationship Management ≠ 冉鹏的战略框架缩写）——搜完再写，不搜不写。
 3. **全量素材消费检查**：每张卡生产前，列出该卡对应的全部原始素材（VLM/OCR/逐字稿），逐条确认每段关键信息已被卡片使用。素材里有数字但卡里没数字 → 还没写完。素材里有 Critique/Synthesis/Action Triggers 但卡里没有 → 还没写完。
 4. **自攻击预留**：本批卡完成后，调用 `Read 30_wiki/frameworks/framework-kdo-self-attack.md` 和 `40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`，照四路攻击流程执行。

@@ -1,6 +1,15 @@
 ---
-
-
+id: tool-一堂-hypothesis-validation-three-axe
+title: 技能：假设验证三板斧
+type: tool
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
+updated_at: '2026-06-29'
+language: zh-CN
+domain: yitang
+confidence: 0.75
+trust_level: medium
 related:
   - [[concept-一堂-key-assumptions]]
   - [[tool-一堂-five-step-validation]]
@@ -74,11 +83,15 @@ source_refs:
 
 ## 常见失败模式
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+| 失败模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **加法不彻底** | 只拆解自己关心的层，漏掉其他环节前提假设 | 必须用框架系统性地拆解，不能只拆熟悉的部分 |
+| **减法排序不对** | 按"我关心的"而非"前置性+风险"排序 | 排序时问：这个假设不成立，整个业务会倒吗？ |
+| **验证成本过高** | 一上来就做完整产品验证假设 | 验证成本≤失败损失的1/10，用问卷/访谈/假产品 |
+| **忽略否定信号** | 发现前置假设不成立还继续投入 | 前置假设被否定=业务需终止或重大调整 |
+| **价值/增长混淆** | 产品没跑通就验证"能不能扩大" | 先验证价值假设，再验证增长假设，顺序不可颠倒 |
+| **框架迷信** | 认为用了三板斧就"考虑全面"，忽视未知未知 | 每轮验证后问：还有什么是我没想到的？ |
+| **团队权力污染** | 排序过程被内部权力结构影响而非真实风险判断 | 引入外部评审或匿名打分，隔离权力影响 |
 
 ## 为什么有效
 

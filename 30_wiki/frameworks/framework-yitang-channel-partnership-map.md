@@ -2,9 +2,10 @@
 id: framework-yitang-channel-partnership-map
 title: 小众品类渠道合伙人/区域包干决策框架（「卖地图」模式）
 type: framework
-status: draft
+status: reviewed
 author: 老顽童(Hermes分身)
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-06-29
 confidence: 0.82
 trust_level: medium
 domain:

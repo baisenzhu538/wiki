@@ -3827,4 +3827,7 @@ _Last updated: 2026-06-28T04:52:56+00:00_
 - [[tools/yt-product-kernel-ten-metrics|产品内核十大典型指标：从假设到验证的数据体系]]
 - [[tools/yt-tob-customer-sabc|To B 客户 SABC 自定义切分法]]
 - [[tools/yt-tool-business-formula-metrics-checklist|yt-tool-business-formula-metrics-checklist]]
+- [[frameworks/framework-yitang-channel-partnership-map|小众品类渠道合伙人/区域包干决策框架（「卖地图」模式）]]
+- [[cases/case-yitang-goat-milk-channel-partnership|羊奶粉「卖地图」区域代理模式案例]]
+- [[tools/tool-yitang-channel-partnership-design|区域代理/底价合伙人模式设计工具]]
 

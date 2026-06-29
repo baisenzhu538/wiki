@@ -1,5 +1,8 @@
 ---
 updated: 2026-06-29
+updated_at: 2026-06-29
+status: active
+reviewed_by: 欧阳锋
 active_branch: main
 active_task: "#28 lint 内容债按 domain 分批清理：老顽童(Kimi)已处理 31 个 WARNING（3286→3255），任务 claimed-kimi 进行中；剩余 3255 WARNING 待继续按 domain 分批处理；body 过短从 80 激增至 651 为已知副作用；欧阳锋已修复 kdo lint --domain/--summary"
 blockers:
@@ -50,7 +53,7 @@ blockers:
   - "✅ case-科学决策-深度案例01：已由老顽童九层深挖重写，欧阳锋最终审查通过，status 更新为 reviewed"
   - "✅ 泛产品设计35张卡：19张落地卡旧→新迁移(concept→tool，引用替换，归档)，14张需求/审美卡frontmatter升级，20张新卡related补全至≥8；kdo lint零新增错误"
   - "🆕 角色再调整(2026-06-27)：王语嫣升级为 Content Consultant + Direction Gatekeeper + Dashboard Maintainer + Task Annotator，负责内容咨询、任务标注、方向把关、production-queue.md / dashboard.md / kb-evolution-direction.md 维护；欧阳锋全面负责所有卡片审查终审与抽查；王语嫣不再做卡片审查/验收"
-- "🆕 临时生产分流(2026-06-27)：Hermes 老顽童负责历史批量工单 waves 1-5；启动 Kimi 老顽童临时实例负责 2026-06-27 新标注任务（刻意练习域、渠道增长域、兰毅泛产品组织）及跨域桥接卡；欧阳锋/黄药师无感知"
+  - "🆕 临时生产分流(2026-06-27)：Hermes 老顽童负责历史批量工单 waves 1-5；启动 Kimi 老顽童临时实例负责 2026-06-27 新标注任务（刻意练习域、渠道增长域、兰毅泛产品组织）及跨域桥接卡；欧阳锋/黄药师无感知"
   - "✅ 九层深挖+六层交叉验证→Skill双桥接(Claude Code+Hermes)；laowantong-context加质量闸门(100行底线/素材消费率/六段齐全/失败模式具体)"
   - "✅ Hermes老顽童API从DeepSeek切至Kimi(kimi-for-coding)"
   - "🟢 王语嫣/欧阳锋/老顽童不再自己跑kdo lint或kdo index --rebuild——全库扫描由黄药师维护"
@@ -68,6 +71,7 @@ blockers:
   - "🆕 wave1 审查任务单已创建（2026-06-28）：`60_feedback/tasks/review_20260628_ouyangfeng-wave1.md`，18 张卡清单+审查标准+判定规则；`production-queue.md` 第 1 项来源文件已指向该任务单；`ouyangfeng-context.md` 已提醒欧阳锋 wave 类任务读专门审查任务单，不要读 `laowantong-batch-2026-06-20.md` 全文"
   - "🆕 王语嫣完成羊奶「卖地图」案例跨域桥接诊断（2026-06-29）：产出 `60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md`；任务单 `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge.md` 已入 production-queue #29，待老顽童生产 3 张跨域桥接卡（framework + case + tool）"
   - "🆕 Kimi 从 YAI 对话中沉淀咨询技能（2026-06-29）：用户追问是否会遗忘，已将 9 项可迁移咨询技能写入 `20_memory/kimi-consulting-skills-from-yai-20260629.md`；包含诉求翻译、冷热分离、案例抽象、元反馈识别、队列管理、跨域桥接、验证汇报、基线接受、持久化认知"
+  - "🆕 Vikki-human-speech（讲人话/去 AI 味）skill 角色归属确认（2026-06-29）：该 skill 为文案写作/内容润色类，位于 `.claude/skills/content-production-polish/` 和 `40_outputs/capabilities/skills/shared/content-production-polish/`；洪七公（多模态/视觉）不学；老顽童（Producer）学基础版用于卡片/文章生产去 AI 味；段王爷（Publisher）学完整版用于 ship 阶段渠道改写（口播稿/小红书/公众号/直播话术）"
 
 next_session_hint: "下一步：① 老顽童(Kimi)继续处理 #28 剩余 3255 WARNING，优先处理 copy-paste（584）和 L2 Critique/no_external_attacker（846+714），body 过短（651）通过回填具体失败模式/扩展内容解决，不要再批量删除空 section；② 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
@@ -200,7 +204,7 @@ next_session_hint: "下一步：① 老顽童(Kimi)继续处理 #28 剩余 3255 
 ### 深度不足（待与用户探讨）
 1. **文章是"读后感"而非"知识合成"**——第一人称体验（"听完后我的感觉是"）占主导，缺少结构化知识创造。读者知道作者感受深，不知道怎么做
 2. **暗知识与概念卡重叠未桥接**——文章第四节与 dk-yt-checklist-max-common-divisor 主题相同（最大公约数/AI分工），但无相互引用或层次区分
-3. **攻击者论证在文章中降级为"提及"**——卡片 Critique 有真正的 Kahneman/Taleb 对话，文章只写"Kahneman在[[卡片]]中提醒我们"——是引用卡片而非与攻击者对话
+3. **攻击者论证在文章中降级为"提及"**——卡片 Critique 有真正的 Kahneman/Taleb 对话，文章只写"Kahneman在卡片中提醒我们"——是引用卡片而非与攻击者对话
 4. **Synthesis 有免责式死链**——"如果存在这张卡片"是免责声明，不是负责任的 Synthesis。写卡时不验证目标存在，等于画空中楼阁
 5. **文章缺少"边界与反例"**——概念卡有 Critique（内部局限+外部攻击+不要用），文章只有正面论证，变成推广文
 

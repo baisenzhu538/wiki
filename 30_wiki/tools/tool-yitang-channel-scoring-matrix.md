@@ -11,7 +11,7 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
-updated_at: '2026-06-28'
+updated_at: '2026-06-29'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-笔记.txt
@@ -28,6 +28,9 @@ related:
 - [[tool-yitang-channel-scan-cheat-sheet]]
 - [[framework-lean-abcd-model]]
 - [[framework-yitang-growth-flywheel]]
+- [[framework-yitang-channel-partnership-map]]
+- [[tool-yitang-channel-partnership-design]]
+- [[case-yitang-goat-milk-channel-partnership]]
 - [[framework-yitang-channel-partnership-map]]
 review_date: '2026-06-28'
 ---

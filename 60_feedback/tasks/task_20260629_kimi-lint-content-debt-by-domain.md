@@ -38,7 +38,7 @@ source_refs:
 
 ### 本轮处理后（2026-06-29 本次会话）
 
-- `kdo lint`：0 ERROR / **3255** WARNING（↓31）
+- `kdo lint`：0 ERROR / **待全量 lint 完成后回填** WARNING（↓待回填）
 - 当前主要剩余类型：
   - L2 Critique 缺关键术语：846
   - Critique section 无外部攻击者姓名：714
@@ -52,6 +52,20 @@ source_refs:
   - Artifact 未注册：7
 
 > 说明：body 过短从 80 增至 651，是因为清理空"常见失败模式" section 后暴露了原本被掩盖的 body 长度问题。需要在下一轮处理中回填具体内容。
+
+### 第二轮处理后（2026-06-29 本次会话继续）
+
+- 处理文件：17 个 tool/framework card
+  - 单元模型系列：单商圈、单城市、壁垒预判、象限分析法
+  - 一堂/纪浩工具：立即实践转化法、假设验证三板斧、内核要素三问验证法、产品内核加减法、光谱模型定位法、Agent技能市场设计法、AI工作空间与导诊台设计法、Do-first PDCA渐进迭代法、日志驱动排查法、费曼简单提炼法
+  - 医疗合规工具：诊所+智能药柜法律关系与合同要点、诊所医疗短视频合规边界、智能药柜合规快速校验清单
+- 主要动作：
+  - 重写 `## When NOT to Use`（尤其单元模型 3 张卡从 src_unknown 改为具体边界）
+  - 将 13 个 tool 卡的 `## 常见失败模式` 从 `src_unknown` 占位改写成 4-9 条具体失败模式表格
+  - 修复 4 个文件 frontmatter `source_refs` 缩进/重复导致的 YAML parse error
+  - 为 3 个一堂工具卡补充缺失的 `status`/`reviewed_by`/`updated_at`/`language`/`domain` 等必填字段
+- 单卡验证：17/17 通过 `kdo pre-submit`（部分为 PASS with warnings，无 ERROR）
+- 全量 `kdo lint --summary` 待后台任务完成后回填
 
 ## 分批计划
 
