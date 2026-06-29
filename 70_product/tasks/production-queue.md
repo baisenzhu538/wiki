@@ -1,7 +1,9 @@
 ---
 id: production-queue
 type: queue
-updated: 2026-06-28
+status: active
+updated_at: 2026-06-29
+reviewed_by: 欧阳锋
 owner: 王语嫣
 audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 ---
@@ -61,8 +63,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 26 | `task_20260629_kimi-full-frontmatter-compliance-cleanup` | 全库 frontmatter 合规修复（循环处理直到归零） | reviewed | 老顽童(Hermes) | ~88 文件 + 22 目录 | 无 | `60_feedback/tasks/task_20260629_kimi-full-frontmatter-compliance-cleanup.md` | 欧阳锋终审通过：frontmatter 类、目录结构类 ERROR 全部清零；`kdo pre-submit` 448/0 PASS；`kdo lint` 0 ERROR / 7507 WARNING；剩余 WARNING 为内容质量类，需单独任务处理 |
 | 27 | `task_20260629_kimi-lint-mechanical-noise-reduction` | lint 机械类 WARNING 直接降噪 | pending_review | 老顽童(Hermes) | ~2700 WARNING | 无 | `60_feedback/tasks/task_20260629_kimi-lint-mechanical-noise-reduction.md` | Kimi 老顽童完成：调 lint 阈值 + 修复 435 文件 source_refs + 补录 1637 页面到 index + 给 751 个 tool 卡补 section 骨架；`kdo lint` 从 7507 降到 3286 WARNING；待欧阳锋终审 |
 | 28 | `task_20260629_kimi-lint-content-debt-by-domain` | lint 内容债按 domain 分批清理 | queued | 老顽童(Hermes) | ~3286 WARNING / 14 个子任务 | 依赖 #27 reviewed | `60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md` | 按 domain 分 14 批处理剩余内容债（copy-paste + L2 深度 + body 过短等）；每批独立 `kdo lint --domain <name>` |
+| 29 | `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge` | 羊奶「卖地图」跨域桥接卡生产 | queued | 老顽童(Hermes) | 3 张卡 | 无 | `60_feedback/tasks/task_20260629_wangyuyan-goat-milk-channel-partnership-bridge.md` | 王语嫣九层深挖完成；产出 framework + case + tool 三张跨域桥接卡，连接渠道增长×商业模式×合伙激励三域 |
 
-> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡。
+> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡。
 > **当前 lint 基线**：`kdo lint` 全量 ERROR 已清零（含 frontmatter、目录结构、case section、source_refs 等）；机械类 WARNING 经 #27 处理后降至 3286；剩余为内容债（copy-paste、L2 深度、body 过短等），由 #28 按 domain 分批处理。
 > **人员状态**：A1/A2 reviewed；#24-debt reviewed；Wave 6 已完成；B1/B2/B3 已完成；#25 扩展卡已 reviewed；#26 全库 frontmatter 合规修复已 reviewed。
 > **执行顺序建议**：frontmatter 与目录结构类历史债务已全部处理完毕，进入下一阶段。剩余 7507 WARNING 建议作为内容精修任务按需分批处理，不要继续机械修复。
