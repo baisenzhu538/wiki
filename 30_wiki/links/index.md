@@ -1494,7 +1494,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concept-ji-hao-ai-collaboration-methodology]]
 - [[modeling-to-kdo-toolchain]]
 
-## [[concept-AI时代双三角竞争力||AI 时代双三角竞争力]]
+## [[concept-AI时代双三角竞争力|AI 时代双三角竞争力]]
 - [[decision-science-domain-digest]]
 
 ## [[concept-X型Y型决策习惯]]
@@ -1692,7 +1692,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[framework-yitang-channel-unit-economics]]
 - [[tool-yitang-industry-channel-arsenal-index]]
 
-## [[concept-yitang-channel-lean-validation-bridge||渠道精益验证]]
+## [[concept-yitang-channel-lean-validation-bridge|渠道精益验证]]
 - [[framework-yitang-channel-industrialization]]
 
 ## [[concept-yitang-comfort-stretch-panic-zones]]
@@ -3452,7 +3452,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tool-lean-presell]]
 - [[tool-lean-product-kernel-metrics]]
 
-## [[framework-lean-false-model||FALSE 模型]]
+## [[framework-lean-false-model|FALSE 模型]]
 - [[case-lean-building-in-vacuum]]
 
 ## [[framework-lean-four-principles]]
@@ -3470,7 +3470,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[framework-strategy-lean-validation]]
 - [[framework-strategy-six-stages]]
 
-## [[framework-lean-pivot-decision||精益转向决策框架]]
+## [[framework-lean-pivot-decision|精益转向决策框架]]
 - [[decision-science-domain-digest]]
 
 ## [[framework-lean-product-kernel]]
@@ -3510,7 +3510,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tool-lean-minimum-test-volume]]
 - [[tool-lean-minimum-version]]
 
-## [[framework-lean-six-wastes||六宗罪]]
+## [[framework-lean-six-wastes|六宗罪]]
 - [[case-lean-building-in-vacuum]]
 
 ## [[framework-lean-systematic-test-curve]]
@@ -3881,7 +3881,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tool-yitang-industry-channel-arsenal-index]]
 - [[tool-yitang-referral-channel-optimization]]
 
-## [[framework-yitang-channel-exploration-4step||渠道探索四步法]]
+## [[framework-yitang-channel-exploration-4step|渠道探索四步法]]
 - [[framework-yitang-channel-industrialization]]
 
 ## [[framework-yitang-channel-industrialization]]
@@ -3920,7 +3920,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tool-yitang-channel-scoring-matrix]]
 - [[tool-yitang-growth-flywheel-design]]
 
-## [[framework-yitang-channel-unit-economics||渠道单元经济模型]]
+## [[framework-yitang-channel-unit-economics|渠道单元经济模型]]
 - [[framework-yitang-channel-industrialization]]
 
 ## [[framework-yitang-deliberate-practice-1plus4]]
@@ -3979,7 +3979,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tool-yitang-growth-flywheel-design]]
 - [[tool-yitang-industry-channel-arsenal-index]]
 
-## [[framework-yitang-growth-flywheel||增长飞轮]]
+## [[framework-yitang-growth-flywheel|增长飞轮]]
 - [[framework-yitang-channel-industrialization]]
 
 ## [[framework-yitang-high-level-execution]]
@@ -4229,7 +4229,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tool-项目方案评估三角形]]
 - [[tool-项目背景分析]]
 
-## [[framework-科学决策三角形||科学决策三角形]]
+## [[framework-科学决策三角形|科学决策三角形]]
 - [[decision-science-domain-digest]]
 
 ## [[framework-问题边界与Problem澄清五层结构]]
@@ -6743,7 +6743,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tool-lean-minimum-test-volume]]
 - [[tool-lean-minimum-version]]
 
-## [[tool-lean-stealth-service||偷偷服务]]
+## [[tool-lean-stealth-service|偷偷服务]]
 - [[tool-lean-premium-service]]
 
 ## [[tool-mece体系框架法]]
@@ -11111,7 +11111,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[yt-decision-full-process]]
 - [[ocr-一堂-科学决策-关键假设abcd模型]]
 
-## [[yt-decision-abcd-model||关键假设 ABCD 模型]]
+## [[yt-decision-abcd-model|关键假设 ABCD 模型]]
 - [[decision-science-domain-digest]]
 
 ## [[yt-decision-ai-partner]]
