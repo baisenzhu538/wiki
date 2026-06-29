@@ -35,7 +35,7 @@ blockers:
   - "✅ WorkBuddy 完成 wave5 生产（2026-06-28）：12/12 张卡（CI 框架 3 + SATs 5 + 多智能体 4）`kdo pre-submit` 全部通过（12 passed/0 failed）；修复 wikilink 错误 4 处（`skill-半肥猫` → `tool-半肥猫`、`concepts/kimi-...` → `kimi-...`）；欧阳锋审查任务单已创建（`review_20260628_ouyangfeng-wave5.md`），状态 pending_review"
   - "✅ Hermes 老顽童完成 lint 基线清理 Batch 1（2026-06-28）：实际修复 784 个文件 frontmatter 机械错误（659 + 复查追加 125），frontmatter parse 类 ERROR 从 697 清零；`kdo lint` 剩余 890 个 ERROR 均为内容/section/source_refs/URL 类，需后续任务处理；`production-queue.md` / `dashboard.md` / 任务单已同步为 pending_review"
   - "✅ 洪七公修复 Hermes 老顽童 CLI Kimi API Key + thinking 400（2026-06-28/29）：WSL `~/.hermes/.env` + `~/.hermes/profiles/laowantong/.env` 同步更新新 key；清除 `~/.hermes/auth.json` kimi-coding 缓存；全局与 laowantong profile 的 `agent.reasoning_effort` 置空；清理所有 profile state.db 中 189 个会话的 `reasoning_config` 缓存；防御性补丁 `agent/anthropic_adapter.py` 强制所有 `kimi-*` 模型跳过 Anthropic `thinking` 参数；laowantong/default gateway 因 Feishu app_id 冲突无法与其他 gateway 并存，已停止并禁用 service，老顽童 CLI 模式可用"
-  - "🟡 Hermes 老顽童 CLI thinking 400 复发（2026-06-30）：Kimi 再次报 `invalid thinking: only type=enabled is allowed for this model`；诊断：WSL 版 `~/.hermes/hermes-agent/agent/anthropic_adapter.py` 已有 Kimi 跳过逻辑，单独测试对 `kimi-for-coding` 不会生成 `thinking` 参数，但运行时仍报错；已做双层防御：① 在 `build_anthropic_kwargs` 返回前用 `_model_name_is_kimi_family(model)` 硬删除 `thinking`/`output_config`；② 在 `ChatCompletionsTransport` 中跳过 `kimi-for-coding` 的 `extra_body.thinking`；清理了全部 `__pycache__`；需用户再次重启 hermes CLI 验证"
+  - "✅ Hermes 老顽童 CLI Kimi thinking 400 问题已解决（2026-06-30）：用户决定不再调试 Kimi /coding 端点的 thinking 参数兼容性，改为和段王爷一样使用 DeepSeek；已将 `~/.hermes/config.yaml` 和 `~/.hermes/profiles/laowantong/config.yaml` 的 model/provider/base_url 全部改为 `deepseek-v4-pro`/`deepseek`/`https://api.deepseek.com`；清理了诊断日志和 `__pycache__`；保留了对 `kimi-*` 的防御性硬删除补丁；需用户重启 hermes CLI 后验证"
   - "🆕 角色停车场机制上线（2026-06-28）：黄药师的'停车场清单'工作方式推广到全角色；已创建 `parking-lot-huangyaoshi.md` 和 `parking-lot-ouyangfeng.md`；`dashboard.md` 增加'角色停车场'汇总区块；P-1/P-6 已移入当前任务清单"
   - "✅ 黄药师完成 P0 任务（2026-06-28）：M-确认检测器稳定运行；KF-021 完成 188 个 source_refs hash 前缀→完整文件名（0 歧义，lint 522→519）；Task Q 出链门禁上线（Synthesis <2 links WARN + 跨域检测 WARN）"
   - "✅ 黄药师完成 P-1 query 分层排序（2026-06-28）：`kdo query` 实现 Core→Extended→Reference 三层排序；Core 为 domains/frameworks/systems 目录卡，Extended 为 tools/concepts/cases/dk，Reference 为 raw/_archive/trust_low；Graph RAG 和 BM25 两条路径及 `--save` 输出均生效"
@@ -96,7 +96,7 @@ next_session_hint: "下一步：① 老顽童(Kimi)继续处理 #28 剩余 2656 
 | 洪七公 | hermes-gateway-beikai | oc_71fc... | deepseek-v4-pro |
 | 段王爷 | hermes-gateway-duanwangye | oc_f3a9... | deepseek-v4-pro |
 | 王语嫣 | hermes-gateway-wangyuyan 🆕 | oc_b8bf... | deepseek-v4-pro |
-| 老顽童 | CLI `hermes` | 无 | kimi-for-coding |
+| 老顽童 | CLI `hermes` | 无 | deepseek-v4-pro |
 
 ### 关键教训
 - P-27: Provider迁移先查 models_dev_cache 确认 SDK 协议
@@ -129,7 +129,7 @@ next_session_hint: "下一步：① 老顽童(Kimi)继续处理 #28 剩余 2656 
 
 ## 模型与环境
 
-- **模型**：Kimi（kimi-for-coding，老顽童/欧阳锋/王语嫣/洪七公/段王爷共用 Kimi 订阅）
+- **模型**：DeepSeek（deepseek-v4-pro，老顽童/洪七公/段王爷/王语嫣共用）；欧阳锋仍用 Kimi 订阅
 - **飞书 WebSocket**：cc-connect 和 Hermes 均出现 keepalive ping timeout。重启即修复。P-6 已记录。
 - **切模型**：涉及五层配置（`.bashrc` / 注册表 / systemd drop-in / `cc-connect config.toml` / session 缓存）。详见 `pitfalls.md`
 
