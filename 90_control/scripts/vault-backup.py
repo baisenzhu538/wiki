@@ -14,15 +14,17 @@ from pathlib import Path
 
 VAULT = Path(r"C:\Users\Administrator\Desktop\wiki")
 NUTSTORE = Path(r"C:\Users\Administrator\Nutstore\1\我的坚果云\kdo-backups")
+LOCAL_BACKUP = Path.home() / "kdo-backups"  # 本地备份，不触发坚果云同步
 NUTSTORE.mkdir(parents=True, exist_ok=True)
+LOCAL_BACKUP.mkdir(parents=True, exist_ok=True)
 
 # ── 备份 ──
 
 def backup(output_dir: Path = None):
-    """创建 timestamped 完整备份到坚果云 + 本地（仅在有 git 变更时）。"""
-    # 检查自上次备份以来是否有 git 变更
+    """创建 timestamped 完整备份到本地（默认不触发坚果云同步）。"""
+    out_dir = output_dir or LOCAL_BACKUP
     os.chdir(VAULT)
-    existing = sorted(NUTSTORE.glob("kdo-vault-*.zip"))
+    existing = sorted(out_dir.glob("kdo-vault-*.zip"))
     if existing:
         last_ts = existing[-1].stem.replace("kdo-vault-", "")
         try:
