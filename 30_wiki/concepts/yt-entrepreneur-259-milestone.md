@@ -21,6 +21,8 @@ query_triggers:
 - src_unknown
 review_date: 2026-06-15
 reviewed_by: pending
+status: enriched
+updated_at: '2026-06-29'
 source_refs:
   - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
   - pending_archive:src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解
@@ -60,10 +62,11 @@ source_refs:
 
 ## When NOT to Use
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- **业务方向尚未验证，价值假设都不清楚**：如果连“有没有人愿意付费”都未验证，259 里程碑只是用 9 个节点包装一堆猜测。
+- **团队对核心方向没有达成共识**：里程碑需要团队共同执行，若创始人之间对目标市场、产品形态仍有根本分歧，里程碑会成为新的争论战场。
+- **创业阶段过于早期，连第一个付费用户都没有**：259 更适合已有初步交易或验证数据后做路径拆解，而非从 0 开始画蓝图。
+- **业务环境高度不确定，里程碑会迅速失效**：政策、技术、竞争格局在季度内可能剧变时，静态里程碑反而束缚试错。
+- **把里程碑当成 rigid 计划，不允许调整**：259 的核心是“可证伪的节点”，一旦验证结果推翻假设，必须删除、合并或重构后续里程碑。
 
 ---
 > 来源：一堂课程体系 | 阶段：预判阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]

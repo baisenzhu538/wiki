@@ -36,9 +36,9 @@ source_refs:
   - body 过短：~80
   - Artifact 未注册：7
 
-### 本轮处理后（2026-06-29 本次会话）
+### 第一轮处理后（2026-06-29 会话第一轮）
 
-- `kdo lint`：0 ERROR / **待全量 lint 完成后回填** WARNING（↓待回填）
+- `kdo lint`：0 ERROR / **3255** WARNING（↓31，从 3286 降至 3255）
 - 当前主要剩余类型：
   - L2 Critique 缺关键术语：846
   - Critique section 无外部攻击者姓名：714
@@ -55,17 +55,38 @@ source_refs:
 
 ### 第二轮处理后（2026-06-29 本次会话继续）
 
-- 处理文件：17 个 tool/framework card
-  - 单元模型系列：单商圈、单城市、壁垒预判、象限分析法
-  - 一堂/纪浩工具：立即实践转化法、假设验证三板斧、内核要素三问验证法、产品内核加减法、光谱模型定位法、Agent技能市场设计法、AI工作空间与导诊台设计法、Do-first PDCA渐进迭代法、日志驱动排查法、费曼简单提炼法
-  - 医疗合规工具：诊所+智能药柜法律关系与合同要点、诊所医疗短视频合规边界、智能药柜合规快速校验清单
+- `kdo lint`：0 ERROR / **2666** WARNING（↓54，从 2720 降至 2666）
+- `Section 高度相似（copy-paste）`：从 76 降至 **0** ✅
+- 累计处理文件：23 个
+  - 第一批 17 个 tool/framework card（详见原记录）
+  - 第二批 6 个 card：
+    - 概念卡：259里程碑、一堂五步法、单元模型
+    - 工具卡：高阶 AI Skill 工程指南、借现成资源、做预售
 - 主要动作：
   - 重写 `## When NOT to Use`（尤其单元模型 3 张卡从 src_unknown 改为具体边界）
   - 将 13 个 tool 卡的 `## 常见失败模式` 从 `src_unknown` 占位改写成 4-9 条具体失败模式表格
+  - 为第二批 6 个卡重写 `## When NOT to Use`，消除与相似卡片的 copy-paste
   - 修复 4 个文件 frontmatter `source_refs` 缩进/重复导致的 YAML parse error
-  - 为 3 个一堂工具卡补充缺失的 `status`/`reviewed_by`/`updated_at`/`language`/`domain` 等必填字段
-- 单卡验证：17/17 通过 `kdo pre-submit`（部分为 PASS with warnings，无 ERROR）
-- 全量 `kdo lint --summary` 待后台任务完成后回填
+  - 为 3 个一堂工具卡 + 4 个概念/工具卡补充缺失的 `status`/`reviewed_by`/`updated_at` 等必填字段
+- 单卡验证：23/23 通过 `kdo pre-submit`（部分为 PASS with warnings，无 ERROR）
+
+### 第三轮处理中（2026-06-29 本次会话继续）
+
+- 当前基线：`kdo lint` 0 ERROR / **2656** WARNING（↓10，从 2666 降至 2656）
+- `body 过短`：从 619 降至 **待统计**（已处理 5 个 strategy case）
+- 处理文件：5 个 strategy 域 case card
+  - `case-strategy-cool-boiled-water.md`
+  - `case-strategy-edward-jones.md`
+  - `case-strategy-failure-01-cosmetics.md`
+  - `case-strategy-failure-02-supermarket.md`
+  - `case-strategy-failure-03-cleaning.md`
+- 主要动作：
+  - 补充 `## 背景`、`## 关键决策` 具体内容
+  - 将 `## 可迁移场景`、`## 教训` 从 src_unknown 改写为具体要点
+  - 将 `## 失败模式` 从 src_unknown 改写为表格
+  - 修复 5 个 case 卡 frontmatter 中 `status` 为空、`created_at` 格式错误的问题
+- 注意：case 卡必须保留 `## 关键证据` section，删除会导致 ERROR；已重新补回
+- 单卡验证：5/5 通过 `kdo pre-submit`
 
 ## 分批计划
 

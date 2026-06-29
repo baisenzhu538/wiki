@@ -20,8 +20,8 @@ updated_at: '2026-06-18'
 author: 老顽童
 source_person: Truman
 source_context: 一堂建模能力培训口述稿中高阶 Skill 工程指南的完整产出过程
-reviewed_by: ''
-review_date: '2026-06-18'
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
 confidence: 0.88
 trust_level: high
 related:
@@ -133,11 +133,11 @@ diagnostic_signals:
 
 ## When NOT to Use
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- **只需要一次性 prompt，不需要工程化封装**：临时任务、一次性实验直接写 prompt 更快，不需要投入 P0/P1/P2 分级和审计。
+- **团队没有足够 Skill 封装经验，无法判断审美**：如果连“好 skill 长什么样”都缺乏共识，工程指南容易变成无法落地的纸面标准。
+- **时间紧迫，无法完成 10-15 轮迭代**：高阶 Skill 工程需要多轮“不完整、有遗漏、没顺序、不完备”的纠偏，赶工时不宜强行套用。
+- **目标是快速原型而非可复用标准**：如果只是为了验证一个想法，先出最小可用 skill，再决定是否升级工程标准。
+- **缺乏真实使用场景和反馈，封装出来无人使用**：没有 3 个以上真实调用场景和 1 个以上使用者反馈，不要过早追求工程化完美。
 
 ---
 

@@ -4,7 +4,7 @@ updated_at: 2026-06-29
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#28 lint 内容债按 domain 分批清理：老顽童(Kimi)已处理 31 个 WARNING（3286→3255），任务 claimed-kimi 进行中；剩余 3255 WARNING 待继续按 domain 分批处理；body 过短从 80 激增至 651 为已知副作用；欧阳锋已修复 kdo lint --domain/--summary"
+active_task: "#28 lint 内容债按 domain 分批清理（claimed-kimi 进行中）：老顽童(Kimi)持续处理内容债，当前 lint WARNING 基线 2671；#29 羊奶渠道桥接卡已 reviewed；#30-32 Vikki 提炼任务已入队待认领"
 blockers:
   - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已领取并处理 31 个 WARNING（3286→3255），剩余 3255 WARNING 待继续；body 过短从 80 激增至 651 为清理空 section 的已知副作用；欧阳锋已修复 kdo lint --domain/--summary，现在可直接按域过滤"
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"
@@ -69,9 +69,10 @@ blockers:
   - "🆕 失忆恢复口令文件已创建：.agent/amnesia-recovery-one-liners.md；用户可用一句话让任何 Agent 快速进入状态，无需搜索数据库"
   - "🆕 用户明确长期原则（2026-06-28）：追求知识库深度、扩宽边界、无限追求健壮和发展、提高 Agent 咨询能力边界；若用户急功近利，Agent 应阻止并给正确建议。已写入 .agent/kb-evolution-direction.md 和 20_memory/operating-principles.md"
   - "🆕 wave1 审查任务单已创建（2026-06-28）：`60_feedback/tasks/review_20260628_ouyangfeng-wave1.md`，18 张卡清单+审查标准+判定规则；`production-queue.md` 第 1 项来源文件已指向该任务单；`ouyangfeng-context.md` 已提醒欧阳锋 wave 类任务读专门审查任务单，不要读 `laowantong-batch-2026-06-20.md` 全文"
-  - "🆕 王语嫣完成羊奶「卖地图」案例跨域桥接诊断（2026-06-29）：产出 `60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md`；任务单 `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge.md` 已入 production-queue #29，待老顽童生产 3 张跨域桥接卡（framework + case + tool）"
+  - "✅ 羊奶「卖地图」跨域桥接卡生产 reviewed（2026-06-29）：欧阳锋终审通过；3 张目标卡 `kdo lint` 0 ERROR/WARNING、`kdo pre-submit` 无错误；修复索引补录、section 标题、Critique 外部反对者/关键术语、相邻域 related 回链；status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-29"
   - "🆕 Kimi 从 YAI 对话中沉淀咨询技能（2026-06-29）：用户追问是否会遗忘，已将 9 项可迁移咨询技能写入 `20_memory/kimi-consulting-skills-from-yai-20260629.md`；包含诉求翻译、冷热分离、案例抽象、元反馈识别、队列管理、跨域桥接、验证汇报、基线接受、持久化认知"
   - "🆕 Vikki-human-speech（讲人话/去 AI 味）skill 角色归属确认（2026-06-29）：该 skill 为文案写作/内容润色类，位于 `.claude/skills/content-production-polish/` 和 `40_outputs/capabilities/skills/shared/content-production-polish/`；洪七公（多模态/视觉）不学；老顽童（Producer）学基础版用于卡片/文章生产去 AI 味；段王爷（Publisher）学完整版用于 ship 阶段渠道改写（口播稿/小红书/公众号/直播话术）"
+  - "🆕 Vikki 战队群聊认知提炼任务已入队（2026-06-29）：#30 信息×情绪模型融入 content-production-polish skill（老顽童）；#31 五标签系统转化为 KDO 卡片质量标签（黄药师）；#32 开源知识使用边界概念卡（老顽童）；来源文件 `00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md`"
 
 next_session_hint: "下一步：① 老顽童(Kimi)继续处理 #28 剩余 3255 WARNING，优先处理 copy-paste（584）和 L2 Critique/no_external_attacker（846+714），body 过短（651）通过回填具体失败模式/扩展内容解决，不要再批量删除空 section；② 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---

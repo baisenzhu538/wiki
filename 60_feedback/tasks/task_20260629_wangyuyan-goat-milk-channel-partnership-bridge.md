@@ -109,6 +109,21 @@ related:
 - framework 卡 related ≥8，case/tool related ≥5
 - 相邻域卡片（`tool-strategy-profit-model-comparison` 等）视情况补充 related 回链
 
+## 欧阳锋终审记录
+
+- **审查时间**：2026-06-29
+- **审查发现与修复**：
+  1. 3 张新卡未进入 `30_wiki/index.md` → 已补录索引。
+  2. `tool-yitang-channel-partnership-design.md` 的 `When NOT to Use` 标题含中文括号，lint 无法识别 → 已改为标准 `## When NOT to Use`。
+  3. `tool-yitang-channel-partnership-design.md` 的 Critique 缺少外部反对者姓名和关键术语 → 已补充 **Michael Porter** / **Scott Galloway** 及「边界前提」段落。
+  4. `case-yitang-goat-milk-channel-partnership.md` 缺少独立 `## 教训` section → 已拆分出 `## 教训` 与 `## 失败模式`。
+  5. 相邻域卡片 `framework-yitang-channel-unit-economics.md` 与 `tool-yitang-channel-scoring-matrix.md` 未回链 → 已补充 related 并更新 `updated_at`。
+- **实测验证**：
+  - `kdo lint`：3 张目标卡均无 ERROR/WARNING ✅
+  - `kdo pre-submit`：3 张目标卡未出现在错误列表中 ✅（全量 FAIL 为 `raw/ocr` 与 `_dogfood` 历史遗留）
+- **验收状态**：3 张卡 status 已更新为 `reviewed`，`reviewed_by: 欧阳锋`，`review_date: 2026-06-29`
+- **结论**：任务通过终审，状态置为 `reviewed`。
+
 ## 交付记录
 
 ### 2026-06-29 老顽童(Hermes分身-Claude) 交付

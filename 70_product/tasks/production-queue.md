@@ -2,7 +2,7 @@
 id: production-queue
 type: queue
 status: active
-updated_at: 2026-06-29
+updated_at: 2026-06-30
 reviewed_by: 欧阳锋
 owner: 王语嫣
 audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
@@ -62,11 +62,14 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 25 | `task_20260629_laowantong-expand-ai-learning-concept-cards` | 扩展 AI 工具学习方法论原子概念卡 | reviewed | 老顽童(Hermes) | 7 | 无 | `60_feedback/tasks/task_20260629_laowantong-expand-ai-learning-concept-cards.md` | 欧阳锋终审通过：7 张新卡结构完整；修复 3 张 tool 卡标准 section；补全 4 张核心卡 related 双向链接；index.md 已收录；lint 0 新增 ERROR；pre-submit 本次产出无 ERROR（全量 FAIL 为历史遗留） |
 | 26 | `task_20260629_kimi-full-frontmatter-compliance-cleanup` | 全库 frontmatter 合规修复（循环处理直到归零） | reviewed | 老顽童(Hermes) | ~88 文件 + 22 目录 | 无 | `60_feedback/tasks/task_20260629_kimi-full-frontmatter-compliance-cleanup.md` | 欧阳锋终审通过：frontmatter 类、目录结构类 ERROR 全部清零；`kdo pre-submit` 448/0 PASS；`kdo lint` 0 ERROR / 7507 WARNING；剩余 WARNING 为内容质量类，需单独任务处理 |
 | 27 | `task_20260629_kimi-lint-mechanical-noise-reduction` | lint 机械类 WARNING 直接降噪 | reviewed | 老顽童(Hermes) | ~2700 WARNING | 无 | `60_feedback/tasks/task_20260629_kimi-lint-mechanical-noise-reduction.md` | 欧阳锋终审通过：lint 阈值调整已确认；435 文件 source_refs 规范化；1637 页面补录 index；751 个 tool 卡补 section 骨架；`kdo lint` 从 7507 降到 3286 WARNING；`kdo lint` 0 ERROR；`kdo pre-submit` PASS |
-| 28 | `task_20260629_kimi-lint-content-debt-by-domain` | lint 内容债按 domain 分批清理 | claimed-kimi | 老顽童(Hermes) | ~3255 WARNING / 14 个子任务 | 依赖 #27 reviewed | `60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md` | 第二轮：17 个 tool/framework 卡 `When NOT to Use` + `常见失败模式` 重写；4 个文件 YAML parse 修复；3 个一堂工具卡 frontmatter 必填字段补全；17/17 通过 `kdo pre-submit`；全量 lint 后台运行中 |
-| 29 | `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge` | 羊奶「卖地图」跨域桥接卡生产 | pending_review | 老顽童(Hermes分身-Claude) | 3 张卡 | 无 | `60_feedback/tasks/task_20260629_wangyuyan-goat-milk-channel-partnership-bridge.md` | ✅ 3张卡已产出：`framework-yitang-channel-partnership-map`（9 related）+ `case-yitang-goat-milk-channel-partnership`（6 related）+ `tool-yitang-channel-partnership-design`（7 related）；待欧阳锋终审 |
+| 28 | `task_20260629_kimi-lint-content-debt-by-domain` | lint 内容债按 domain 分批清理 | claimed-kimi | 老顽童(Hermes) | ~2656 WARNING / 14 个子任务 | 依赖 #27 reviewed | `60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md` | 本轮累计处理 28 个 card：copy-paste 从 76 清零；5 个 strategy case 补背景/关键决策/关键证据/可迁移场景/教训/失败模式；全量 lint 0 ERROR / 2656 WARNING（↓64）；28/28 通过 `kdo pre-submit`；下一步继续处理 body 过短 / L2 Critique / L2 Condense / L2 Synthesis |
+| 29 | `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge` | 羊奶「卖地图」跨域桥接卡生产 | reviewed | 老顽童(Hermes分身-Claude) | 3 张卡 | 无 | `60_feedback/tasks/task_20260629_wangyuyan-goat-milk-channel-partnership-bridge.md` | 欧阳锋终审通过：3 张卡已补录 index、修正 section 标题、补充 Critique 外部反对者与关键术语、补相邻域 related 回链；3 张目标卡 lint 无 ERROR/WARNING；pre-submit 目标卡无 ERROR（全量 FAIL 为 raw/ocr 与 _dogfood 历史遗留） |
+| 30 | `task_20260629_vikki-info-emotion-skill-upgrade` | Vikki「信息 × 情绪」模型融入 content-production-polish skill | queued | 老顽童(Hermes) | 1 个 skill | 无 | `60_feedback/tasks/task_20260629_vikki-info-emotion-skill-upgrade.md` | 来源：0071Vikki战队-2群认知精华提炼；将「信息是弹头，情绪是制导系统」二元模型写入讲人话 skill |
+| 31 | `task_20260629_vikki-five-tag-quality-labels` | 将 Vikki 五标签系统转化为 KDO 卡片质量标签 | queued | 黄药师 | 1 个 schema + 50 张试点卡片 | 无 | `60_feedback/tasks/task_20260629_vikki-five-tag-quality-labels.md` | 来源：0071Vikki战队-2群认知精华提炼；把 💡🎯✅🔥❤️ 迁移为 KDO 卡片质量/类型标签 |
+| 32 | `task_20260629_vikki-open-source-knowledge-boundary` | 沉淀「开源知识使用边界」概念卡 | queued | 老顽童(Hermes) | 1 张 concept 卡 | 无 | `60_feedback/tasks/task_20260629_vikki-open-source-knowledge-boundary.md` | 来源：0071Vikki战队-2群认知精华提炼；基于游侠「蒸馏」事件沉淀 KDO 知识库使用边界 |
 
-> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡。
-> **当前 lint 基线**：`kdo lint` 全量 ERROR 已清零（含 frontmatter、目录结构、case section、source_refs 等）；机械类 WARNING 经 #27 处理后降至 3286；#28 第一轮后降至 3255；剩余为内容债（copy-paste、L2 深度、body 过短等），由 #28 按 domain 分批处理；`kdo lint --domain <domain> --summary` 已可用。
+> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 3 个 Vikki 提炼任务。
+> **当前 lint 基线**：`kdo lint` 全量 0 ERROR / 2656 WARNING；机械类 WARNING 经 #27 处理后降至 3286；#28 第一轮后降至 3255，第二轮累计处理 23 张 card 后降至 2666（copy-paste 从 76 清零），第三轮处理 5 个 strategy case 后降至 2656；剩余主要为 body 过短、L2 Critique、L2 Condense、L2 Synthesis 等内容债，由 #28 按 domain 分批处理；`kdo lint --domain <domain> --summary` 已可用。
 > **人员状态**：A1/A2 reviewed；#24-debt reviewed；Wave 6 已完成；B1/B2/B3 已完成；#25 扩展卡已 reviewed；#26 全库 frontmatter 合规修复已 reviewed。
 > **执行顺序建议**：frontmatter 与目录结构类历史债务已全部处理完毕，进入下一阶段。剩余 7507 WARNING 建议作为内容精修任务按需分批处理，不要继续机械修复。
 > 历史批量工单卡数估算来自 `laowantong-batch-2026-06-20.md` 的 waves 1-5。
