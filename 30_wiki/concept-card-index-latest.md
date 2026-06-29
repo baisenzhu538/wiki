@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-06-28 18:08 UTC
+# Concept Card Index — 2026-06-29 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -45,6 +45,7 @@
 | concept-harness-cattle-not-pets | 牲口而非宠物：每次迭代用全新Generator实例 | concept | yitang, ai-collaboration |
 | concept-harness-scoring-anchors | 评分锚定：1-5分制+语义锚点+取较低值 | concept | yitang, ai-collaboration |
 | concept-ji-hao-ai-collaboration-methodology | 纪浩 AI 协作方法论：从判断到规模复用的五层体系 | concept | src_unknown, src_unknown |
+| concept-kdo-review-workflow | KDO 生产审查工作流（欧阳锋模式） | concept | ai-collaboration, knowledge-management |
 | concept-mckinsey-issue-tree | Issue Tree：问题树拆解 | concept | src_unknown, src_unknown, src_unknown |
 | concept-mckinsey-mece | MECE 原则：相互独立、完全穷尽 | concept | src_unknown, src_unknown, src_unknown |
 | concept-mcp-protocol | MCP协议：Agent调用外部工具的统一标准 | concept | yitang, research, ai-collaboration |
@@ -253,7 +254,7 @@
 | yt-management-strategy-meeting | 战略会 | concept | src_unknown, src_unknown, src_unknown, src_unknown |
 | yt-management-team-knowledge | 团队知识管理 | concept | src_unknown, src_unknown, src_unknown, src_unknown, src_unknown |
 | yt-management-toolkit-overview | 管理工具箱总览 | framework | src_unknown |
-| yt-market-size-estimation | 市场规模估算四种方法 | tool | yitang |
+| yt-market-size-estimation | 市场规模估算方法 | tool | yitang |
 | yt-model-aesthetic-progression | 审美提升的层级：从看不见到大胆想象的进化路径 | framework | src_unknown |
 | yt-model-agent-architecture | 智能体架构：PEAS与五层Agent模型 | framework | src_unknown |
 | yt-model-cognitive-upgrade-framework | 认知升级十步框架：从「读书」到「安装认知补丁」 | framework | src_unknown |
@@ -272,7 +273,7 @@
 | yt-model-prompt-engineering | 人机协作操作系统：提示词工程总框架 | framework | src_unknown, src_unknown |
 | yt-note-ai-human-division | AI时代笔记分工边界：人在哪里，AI在哪里 | concept | src_unknown |
 | yt-note-checklist-concept | 一堂笔记法：清单体笔记的核心概念与原理 | concept | src_unknown, src_unknown |
-| yt-note-deliberate-practice-four-elements | 四要素诊断模型——刻意练习的笔记落地框架 | concept | src_unknown |
+| yt-note-deliberate-practice-four-elements | 刻意练习笔记落地诊断框架 | concept | src_unknown |
 | yt-note-expert-interview-modeling | 专家访谈式笔记：边聊边建模的高阶认知工作流 | concept | src_unknown, src_unknown |
 | yt-note-extensive-research-input | 广泛涉猎式笔记：以问题为入口的多源交叉认知法 | concept | src_unknown, src_unknown |
 | yt-note-fact-pattern-insight | 事实→规律→见解：深度思考笔记的三段论结构 | concept | src_unknown, src_unknown |
@@ -427,7 +428,7 @@
 | framework-strategy-basics-02-insight | 洞察（Critical Insight）：模型+图表+假设验证，战略视野需登高望远 | framework | strategy |
 | framework-strategy-basics-03-layout | 布局（Configuration Layout）：现金流/增长/种子/撤退/突破五件事 | framework | strategy |
 | framework-strategy-basics-04-system | 体系（Creation System）：丰田供应链生态+苹果iOS生态 | framework | strategy |
-| framework-strategy-basics-04-system | 体系（Creation System）：生态体系——丰田供应链+苹果iOS | framework | strategy |
+| framework-strategy-basics-05-change | 变革（Change）：加外挂/换路/换轮子 | framework | strategy |
 | framework-strategy-blm | IBM BLM 业务领导力模型 + 华为五看三定 | framework |  |
 | framework-strategy-business-design | 业务设计六要素×三步骤——冉鹏战略规划核心操作框架（源于IBM BLM） | framework |  |
 | framework-strategy-five-basics | 冉鹏战略五基本功（5C）：定式/洞察/布局/体系/变革 | framework |  |
@@ -452,6 +453,7 @@
 | framework-yitang-18-strategy-cards | 降龙十八掌：18张调研策略卡全景图 | framework | yitang, research |
 | framework-yitang-channel-exploration-4step | 渠道探索四步法：科学找到可持续获客渠道 | framework | yitang, growth, sales |
 | framework-yitang-channel-industrialization | 渠道工业化生产：让高不确定工作持续高质量交付 | framework | yitang, growth, operations |
+| framework-yitang-channel-partnership-map | 小众品类渠道合伙人/区域包干决策框架（「卖地图」模式） | framework | yitang, growth, strategy |
 | framework-yitang-deliberate-practice-1plus4 | 刻意练习 1+4 模型：科学成长的操作系统 | framework | yitang, personal-growth |
 | framework-yitang-expert-interview-10steps | 专家访谈黄金十步法：从盲区梳理到专家匹配 | framework | yitang, research |
 | framework-yitang-four-research-types | 四类调研模型：挖掘式·系统式·爆炸式·自动式 | framework | yitang, research |
@@ -602,7 +604,7 @@
 | tool-ai-critical-reading-three-layers | 三层拆书批判法 | tool | ai_collaboration, critical_thinking, reading_methodology |
 | tool-ai-cross-reading-method | 交叉阅读法 | tool | ai_collaboration, critical_thinking, business_judgment |
 | tool-ai-evidence-check | 技能：AI输出证据核查三问法 | tool | ai-collaboration, yitang- ai-saas |
-| tool-ai-four-elements-validation | 技能：真需求四要素验证法 | tool | src_unknown, src_unknown |
+| tool-ai-four-elements-validation | 技能：真需求验证法 | tool | src_unknown, src_unknown |
 | tool-ai-info-literacy-three-layer | 技能：AI输出三层防护检查法 | tool | src_unknown, src_unknown |
 | tool-ai-narrative-test | 技能：你的方案有叙事力吗？快速测试 | tool | ai-collaboration, yitang- ai-saas |
 | tool-ai-old-small-checklist | 技能："找老的干小的"场景评估清单 | tool | ai-collaboration, yitang- ai-saas |
@@ -620,6 +622,7 @@
 | tool-ai辅助学习 | 技能：AI辅助学习 | tool | ai-collaboration, yitang- product, ai-saas, design, yitang, entrepreneurship, decision-making |
 | tool-alt-data-free | 免费替代数据：小团队的Hedge Fund武器 | tool | yitang, research |
 | tool-alt-data-overview | 替代数据总览：Hedge Fund级别的调研武器 | tool | yitang, research |
+| tool-asset-file-naming-convention | 素材文件七要素命名法 | tool | design, master |
 | tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua | 技能：按语义切分文档做向量化 | tool | src_unknown, yitang- src_unknown |
 | tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi | 技能：动态读取 + 向量化管理迭代知识 | tool | ai-collaboration, yitang- ai-collaboration |
 | tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong | 技能：飞书多维表格 + 自建机器人做团队数据协同 | tool | src_unknown, yitang- src_unknown |
@@ -640,6 +643,8 @@
 | tool-checklist-cheatsheet-modeling | 清单/小抄建模法：把经验变成可执行的检查点 | tool | src_unknown, src_unknown, src_unknown |
 | tool-ci-define-phase | CI Define 阶段工具：决策驱动的问题定义 | tool | research, strategy |
 | tool-ci-implement-phase | CI Implement 阶段工具：洞见嵌入运营节奏 | tool | research, strategy, sales |
+| tool-clinic-cabinet-legal-contract-guide | 诊所+智能药柜合作的法律关系与合同要点 | tool | healthcare, business-strategy |
+| tool-clinic-medical-shortvideo-compliance | 诊所医疗短视频/个人 IP 合规边界 checklist | tool | healthcare, business-strategy |
 | tool-cognitive-bias-12-check | 技能：12种认知偏差完整自检 | tool | decision-making, 认知, 心理学 |
 | tool-decision-delay-intuition | 技能：延迟直觉法 | tool | decision-making, 认知, 个人管理 |
 | tool-decision-outside-view | 技能：团队决策外部视角法 | tool | decision-making, 团队, 噪声减少 |
@@ -695,6 +700,7 @@
 | tool-note-keyword-bolding | 关键词加粗三重结构：视觉重心即认知重心的标记法则 | tool | learning-methodology- yitang, note-taking |
 | tool-note-layer-constraint | 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准 | tool | src_unknown, src_unknown |
 | tool-note-one-line-one-point | 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作 | tool | learning-methodology- yitang, note-taking |
+| tool-openmontage-video-factory | OpenMontage 中文 MCP 版：AI 视频工厂 | tool | video_production, multimodal, ai-agent, mcp |
 | tool-osint-maltego | Maltego：实体关系图谱——画出目标公司的隐藏网络 | tool | yitang, research |
 | tool-osint-overview | OSINT工具总览：情报界的调研武器库 | tool | yitang, research |
 | tool-osint-sherlock | Sherlock：用户名跨平台追踪——找到一个人的所有社交账号 | tool | yitang, research |
@@ -712,6 +718,7 @@
 | tool-reverse-image-search | 反向图片搜索：追踪图片来源和真实性 | tool | yitang, research |
 | tool-sabc-tier-modeling | SABC分级/段位图建模法：给事物排优先级与成长路径 | tool | src_unknown, src_unknown, src_unknown |
 | tool-scenario-selector-modeling | 场景→工具选择器：根据需求快速匹配合适的建模工具 | tool | src_unknown, src_unknown, src_unknown |
+| tool-smart-medicine-cabinet-compliance-checklist | 智能药柜/医药项目合规快速校验清单 | tool | healthcare, business-strategy |
 | tool-sop-template-modeling | SOP/模板建模法：把关键动作固化成标准工作流 | tool | src_unknown, src_unknown, src_unknown |
 | tool-strategy-activity-scope | 活动范围设计工具：What × How × Where 三问 | tool | strategy, operations |
 | tool-strategy-blue-ocean-canvas | 蓝海战略画布（价值曲线工具） | tool | strategy, market_positioning |
@@ -758,6 +765,7 @@
 | tool-yitang-business-registration-check | 工商查询：社保人数+股权穿透+关联公司 | tool | yitang, research |
 | tool-yitang-channel-agent-interview | 渠道/代理商访谈：渠道端的情报获取 | tool | yitang, research |
 | tool-yitang-channel-industrialization-node-design | 工业化生产节点设计工具：把复杂交付变成可控流程 | tool | yitang, growth, operations |
+| tool-yitang-channel-partnership-design | 区域代理/底价合伙人模式设计工具 | tool | yitang, growth, strategy |
 | tool-yitang-channel-scan-cheat-sheet | 渠道扫描小抄：线上/线下/转化/推荐获客清单 | tool | yitang, growth |
 | tool-yitang-channel-scoring-matrix | 渠道预判评分矩阵：科学排序候选渠道 | tool | yitang, growth |
 | tool-yitang-comparable-company-selection | 对标公司选择三步法：加法·减法·三原则 | tool | yitang, research |
@@ -855,10 +863,11 @@
 | tool-yitang-xiaohongshu-data | 小红书数据：种草热度和用户口碑追踪 | tool | yitang, research |
 | tool-一堂-business-prediction-15-char | tool-一堂-business-prediction-15-char | ? |  |
 | tool-一堂-five-step-validation | tool-一堂-five-step-validation | ? |  |
-| tool-一堂-hypothesis-validation-three-axe | tool-一堂-hypothesis-validation-three-axe | ? |  |
-| tool-一堂-kernel-three-questions | tool-一堂-kernel-three-questions | ? |  |
-| tool-一堂-product-kernel-add-subtract | tool-一堂-product-kernel-add-subtract | ? |  |
-| tool-一堂-spectrum-positioning | tool-一堂-spectrum-positioning | ? |  |
+| tool-一堂-hypothesis-validation-three-axe | 技能：假设验证三板斧 | tool |  |
+| tool-一堂-kernel-three-questions | 技能：内核要素三问验证法 | tool |  |
+| tool-一堂-product-kernel-add-subtract | 技能：产品内核加减法 | tool |  |
+| tool-一堂-product-kernel-canvas | 一堂产品内核画布应用技能 | tool | src_unknown |
+| tool-一堂-spectrum-positioning | 技能：光谱模型定位法 | tool |  |
 | tool-三层目标对齐法 | 技能：三层目标对齐法 | tool | src_unknown |
 | tool-三阶追问法穷尽决策要素 | 技能：三阶追问法穷尽决策要素 | tool | management, decision-making, yitang |
 | tool-专家访谈十步法 | 技能：专家访谈十步法 | tool | research- design, yitang |
@@ -1109,7 +1118,7 @@
 | tool-月白-设计基本功回归法 | 技能：设计基本功回归法 | tool |  |
 | tool-月白-设计师AI工具习惯切换 | 技能：设计师AI工具习惯切换 | tool |  |
 | tool-月白-设计师AI资产四类型沉淀 | 技能：设计师AI资产四类型沉淀 | tool |  |
-| tool-月白-设计文件八要素命名法 | 技能：设计文件八要素命名法 | tool |  |
+| tool-月白-设计文件八要素命名法 | 技能：设计文件命名法 | tool |  |
 | tool-月白-设计素材脱敏处理规范 | 技能：设计素材脱敏处理规范 | tool |  |
 | tool-月白-设计能力蒸馏封装法 | 技能：设计能力蒸馏封装法 | tool |  |
 | tool-月白-设计需求口头化表达法 | 技能：设计需求口头化表达法 | tool |  |
@@ -1194,8 +1203,10 @@
 | tool-立即实践转化法 | 技能：立即实践转化法 | tool | src_unknown |
 | tool-纪浩-AI使用边界管理法 | 技能：AI使用边界管理法 | tool | src_unknown, src_unknown |
 | tool-纪浩-AI对话上下文隔离 | tool-纪浩-AI对话上下文隔离 | ? |  |
+| tool-纪浩-AI工作空间与导诊台设计法 | 技能：AI工作空间与导诊台设计法 | tool | src_unknown, src_unknown |
 | tool-纪浩-AI工具脚本化约束 | 技能：AI工具脚本化约束 | tool | src_unknown, src_unknown |
 | tool-纪浩-Agent开工检查单制作法 | 技能：Agent开工检查单制作法 | tool | src_unknown, src_unknown |
+| tool-纪浩-Agent技能市场设计法 | 技能：Agent技能市场设计法 | tool | src_unknown, src_unknown |
 | tool-纪浩-Do-first-PDCA渐进迭代法 | 技能：Do-first PDCA渐进迭代法 | tool | src_unknown, src_unknown |
 | tool-纪浩-Problem与Question区分法 | 技能：Problem与Question区分法（纪浩版） | tool | src_unknown, src_unknown |
 | tool-纪浩-problem-validation-four-checks | 技能：四问验证法 —— 判断需求是真实Problem还是伪需求 | tool | src_unknown, src_unknown |
@@ -1204,6 +1215,7 @@
 | tool-纪浩-处理AI生成代码运行异常 | 技能：处理AI生成代码运行异常 | tool | src_unknown, src_unknown |
 | tool-纪浩-多视角切换思考法 | 技能：多视角切换思考法 | tool | ai-collaboration, yitang- ai-saas |
 | tool-纪浩-新手心态启动法 | 技能：新手心态启动法 | tool | ai-collaboration, yitang- ai-saas |
+| tool-纪浩-日志驱动排查法 | 技能：日志驱动排查法 | tool | src_unknown, src_unknown |
 | tool-纪浩-案例池构建法 | 技能：案例池构建法 | tool | ai-collaboration, yitang- ai-saas |
 | tool-纪浩-真需求四要素验证法 | 技能：真需求四要素验证法 | tool | src_unknown, src_unknown |
 | tool-纪浩-线上问题应急值守 | 技能：线上问题应急值守 | tool | ai-collaboration, yitang- ai-saas |
@@ -1483,6 +1495,7 @@
 | case-yitang-education-supply-chain | 案例：一堂是'教育供应链创新公司'——从真实实践里种菜、摘菜、炒菜 | case | yitang, modeling, education |
 | case-yitang-elderly-home-roleplay | 案例：假扮家属潜入养老院微信群 | case | yitang, research |
 | case-yitang-fake-interview-intelligence | 案例：假扮面试发现行业红利退潮 | case | yitang, research |
+| case-yitang-goat-milk-channel-partnership | 羊奶粉「卖地图」区域代理模式案例 | case | yitang, growth, strategy |
 | case-yitang-hardware-factory-photo | 案例：从朋友圈照片找到代工厂 | case | yitang, research |
 | case-yitang-homestay-reception-design | 案例：民宿接待方案——用调研优化服务体验设计 | case | yitang, research |
 | case-yitang-jtbd-story-formula | 案例：JTBD故事公式——从用户故事中提取需求 | case | yitang, research |
@@ -1611,7 +1624,7 @@
 | dk-ji-hao-ai-cant-design-structure | 暗知识：AI不会自己搞结构设计 | dk | ai-collaboration, yitang |
 | dk-ji-hao-constraint-beats-talent | 暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计 | dk | ai-collaboration, yitang |
 | dk-ji-hao-logs-fastest-ignored | 暗知识：日志增长最快但最容易被忽视 | dk | ai-collaboration, yitang |
-| dk-ji-hao-newbie-can-validate | 暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光 | dk | ai-collaboration, yitang |
+| dk-ji-hao-newbie-can-validate | 暗知识：新手也可以用工具验证——因为验证靠的是工具，不是眼光 | dk | ai-collaboration, yitang |
 | dk-ji-hao-novice-mindset-advantage | 暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口 | dk | ai-collaboration, yitang |
 | dk-ji-hao-pdca-starts-from-do | 暗知识：PDCA从Do开始不是从Plan开始 | dk | ai-collaboration, yitang |
 | dk-ji-hao-problem-vs-question | 暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem | dk | ai-collaboration, yitang |
@@ -1679,7 +1692,7 @@
 | dk-strategy-07-strategy-vs-dividend | 战略驱动 vs 红利驱动：前者创造路径，后者依赖环境 | dk | strategy |
 | dk-strategy-08-not-local-optimum | 战略≠局部优化。战略是构建完整生态系统，不是单点提效 | dk | strategy |
 | dk-strategy-consulting-jokes | 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环 | dk | strategy |
-| dk-strategy-essence-four-elements | 战略内核四要素：细分市场+竞争优势+资源配置+范围经济 | dk | strategy |
+| dk-strategy-essence-four-elements | 战略内核检测：细分市场+竞争优势+资源配置+范围经济 | dk | strategy |
 | dk-strategy-longzhong-four-failures | 隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了 | dk | strategy |
 | dk-strategy-three-must-do-moments | 三种必做战略的时刻：快速扩张/业务平台期/行业下行期 | dk | strategy |
 | dk-tool-as-answer-trap | 把工具/框架当成答案，而不是提问的脚手架 | dk | yitang, lean-startup, tob, modeling |
@@ -1744,6 +1757,6 @@
 | yt-note-p-c-role-boundary-realworld | P/C 角色真实场景边界与切换条件（基于聊天记录案例） | dk | learning-methodology |
 | yt-note-three-level-evolution | 碎片化→结构化→体系化：笔记认知的三级进化跃迁 | dk | learning-methodology |
 | yt-product-kernel-do-without-belief | "做而不信"陷阱：执行了流程，但不相信结果 | dk | product |
-| yt-product-kernel-failure-modes | 产品内核失败的5种模式 | dk | product |
+| yt-product-kernel-failure-modes | 产品内核失败模式 | dk | product |
 | yt-product-kernel-premature-optimization | 过早细化陷阱：在验证前追求完美 | dk | product |
 | 七件事集团 | 七件事集团 | entity | src_unknown, src_unknown, src_unknown |
