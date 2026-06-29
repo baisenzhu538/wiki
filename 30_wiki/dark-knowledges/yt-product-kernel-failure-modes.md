@@ -2,7 +2,7 @@
 domain:
 - product
 id: yt-product-kernel-failure-modes
-title: 产品内核失败的5种模式
+title: 产品内核失败模式
 type: dk
 dark_knowledge_type: insight
 status: enriched

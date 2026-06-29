@@ -27,7 +27,7 @@ related:
   - [[case-treadmill-demand-analysis]]
   - [[yitang-domain-digest]]
   - [[pending_unknown]]
-title: 市场规模估算四种方法
+title: 市场规模估算方法
 trust_level: medium
 type: tool
 version: 1

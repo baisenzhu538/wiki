@@ -1,6 +1,6 @@
 ---
 id: tool-ai-four-elements-validation
-title: 技能：真需求四要素验证法
+title: 技能：真需求验证法
 type: tool
 status: enriched
 domain:

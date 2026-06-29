@@ -1,7 +1,7 @@
 ---
 
 id: dk-strategy-essence-four-elements
-title: 战略内核四要素：细分市场+竞争优势+资源配置+范围经济
+title: 战略内核检测：细分市场+竞争优势+资源配置+范围经济
 type: dk
 status: enriched
 author: 老顽童

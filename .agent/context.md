@@ -66,6 +66,7 @@ blockers:
   - "🆕 用户明确长期原则（2026-06-28）：追求知识库深度、扩宽边界、无限追求健壮和发展、提高 Agent 咨询能力边界；若用户急功近利，Agent 应阻止并给正确建议。已写入 .agent/kb-evolution-direction.md 和 20_memory/operating-principles.md"
   - "🆕 wave1 审查任务单已创建（2026-06-28）：`60_feedback/tasks/review_20260628_ouyangfeng-wave1.md`，18 张卡清单+审查标准+判定规则；`production-queue.md` 第 1 项来源文件已指向该任务单；`ouyangfeng-context.md` 已提醒欧阳锋 wave 类任务读专门审查任务单，不要读 `laowantong-batch-2026-06-20.md` 全文"
   - "🆕 王语嫣完成羊奶「卖地图」案例跨域桥接诊断（2026-06-29）：产出 `60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md`；任务单 `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge.md` 已入 production-queue #29，待老顽童生产 3 张跨域桥接卡（framework + case + tool）"
+  - "🆕 Kimi 从 YAI 对话中沉淀咨询技能（2026-06-29）：用户追问是否会遗忘，已将 9 项可迁移咨询技能写入 `20_memory/kimi-consulting-skills-from-yai-20260629.md`；包含诉求翻译、冷热分离、案例抽象、元反馈识别、队列管理、跨域桥接、验证汇报、基线接受、持久化认知"
 
 next_session_hint: "下一步：① 老顽童领取 #25 扩展 AI 工具学习方法论概念卡任务；② 需另开任务处理 A2 遗留的 132 case section 缺失；③ 用户输入时间管理内容后，按同样流程拆卡并入队；④ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；⑤ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---

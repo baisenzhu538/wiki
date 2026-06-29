@@ -1,6 +1,6 @@
 ---
 id: tool-月白-设计文件八要素命名法
-title: 技能：设计文件八要素命名法
+title: 技能：设计文件命名法
 type: tool
 status: draft
 domain: design- design

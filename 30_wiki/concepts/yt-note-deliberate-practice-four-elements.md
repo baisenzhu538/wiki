@@ -1,6 +1,6 @@
 ---
 id: yt-note-deliberate-practice-four-elements
-title: 四要素诊断模型——刻意练习的笔记落地框架
+title: 刻意练习笔记落地诊断框架
 domain:
 - src_unknown
 pipeline:
