@@ -12,7 +12,7 @@ source_refs:
   - "00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md"
 related:
   - "[[yai-tcp-teacher-role]]"
-  - "[[刻意练习方法论]]"
+  - "刻意练习方法论"
   - "[[ai-learning-closed-loop]]"
   - "[[deliberate-practice-four-elements]]"
   - "[[ai-tool-learning-curve]]"
@@ -241,7 +241,7 @@ C 角色的输出有三个层级：
 | 关联概念 | 关联说明 |
 |:---|:---|
 | [[yai-tcp-teacher-role]] | T 角色是 C 角色的前置，C 角色是 T 角色的落地产出 |
-| [[刻意练习方法论]] | 四要素是刻意练习的核心框架 |
+| 刻意练习方法论 | 四要素是刻意练习的核心框架 |
 | [[ai-learning-closed-loop]] | C 角色输出的训练系统是 AI 学习闭环的具体实现 |
 | [[course-to-skill-conversion]] | C 角色调用知识库方法论并适配到个人场景，是课程到技能转化的咨询化版本 |
 

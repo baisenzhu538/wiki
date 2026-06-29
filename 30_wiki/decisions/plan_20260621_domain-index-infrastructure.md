@@ -17,8 +17,8 @@ confidence: 0.85
 trust_level: medium
 related:
   - [[five-step-domain-digest]]
-  - [[check-source-refs.py]]
-  - [[track-production-progress.py]]
+  - <code>check-source-refs.py</code>
+  - <code>track-production-progress.py</code>
 ---
 # 域索引入口卡 —— 大规模域建制的基础设施方案
 

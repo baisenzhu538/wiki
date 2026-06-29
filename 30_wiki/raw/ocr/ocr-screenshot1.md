@@ -20,7 +20,7 @@ related:
   - [[ocr-ocr_screenshot2]]
   - [[ocr-一堂-地图-创业地图_conv]]
   - [[ocr-ocr_snipaste_2026-05-15_21-39-40]]
-  - [[aima-ai思维卡-外部链接归档]]
+  - aima-ai思维卡-外部链接归档
 ---
 # OCR: screenshot1
 

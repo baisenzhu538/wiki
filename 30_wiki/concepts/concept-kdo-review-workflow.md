@@ -20,8 +20,8 @@ source_refs:
 related:
 - [[ec工业化规范手册-v2.8.0|EC 工业化规范手册]]
 - [[concept-yitang-facts-first]]
-- [[kdo-pre-submit]]
-- [[kdo-lint]]
+- <code>kdo pre-submit</code>
+- <code>kdo lint</code>
 - [[framework-kdo-self-attack|KDO 知识自攻击]]
 ---
 

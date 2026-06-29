@@ -25,7 +25,7 @@ related:
 - [[yt-tob-barriers]]
 - [[ai-short-drama-conflict-three-axes]]
 - [[dk-modeling-ai-judgment-limit]]
-- [[skill-note-one-line-one-point]]
+- skill-note-one-line-one-point
 bridges_to:
 - target: src_unknown
   relation: applies_when

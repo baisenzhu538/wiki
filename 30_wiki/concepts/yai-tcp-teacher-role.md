@@ -11,9 +11,9 @@ status: enriched
 source_refs:
   - "00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md"
 related:
-  - "[[刻意练习方法论]]"
-  - "[[咨询对话框架]]"
-  - "[[ai-consultation-mindset-shift]]"
+  - "刻意练习方法论"
+  - "咨询对话框架"
+  - "ai-consultation-mindset-shift"
   - "[[deliberate-practice-four-elements]]"
   - "[[yai-counsel-role]]"
   - "[[fixed-routine-design]]"
@@ -156,9 +156,9 @@ BJ Fogg 的行为模型强调动机 + 能力 + 提示。YAI 的最小动作把�
 
 | 关联概念 | 关联说明 |
 |:---|:---|
-| [[刻意练习方法论]] | T 角色本身就是刻意练习方法论的咨询化表达 |
-| [[咨询对话框架]] | 提供通用咨询结构，T 角色是其在一堂 YAI 体系中的具体实现 |
-| [[ai-consultation-mindset-shift]] | AI 作为咨询助手，需要从"给答案"转向"带诊断" |
+| 刻意练习方法论 | T 角色本身就是刻意练习方法论的咨询化表达 |
+| 咨询对话框架 | 提供通用咨询结构，T 角色是其在一堂 YAI 体系中的具体实现 |
+| ai-consultation-mindset-shift | AI 作为咨询助手，需要从"给答案"转向"带诊断" |
 
 ## Action Triggers
 

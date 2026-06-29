@@ -18,7 +18,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[aima-ai思维卡-外部链接归档]]
+  - aima-ai思维卡-外部链接归档
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]

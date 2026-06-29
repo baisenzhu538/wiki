@@ -22,7 +22,7 @@ source_refs:
 - https://github.com/noah-1106/openmontage-zh-mcp
 - https://github.com/calesthio/OpenMontage
 related:
-  - [[hongqigong-profile]]
+  - hongqigong-profile
   - [[pending_unknown]]
   - [[pending_unknown]]
 ---
