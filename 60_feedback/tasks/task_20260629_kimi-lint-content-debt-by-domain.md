@@ -7,6 +7,7 @@ priority: P2
 created_at: 2026-06-29
 updated_at: 2026-06-29
 reviewer: 欧阳锋
+reviewed_by: pending
 source_refs:
 - 60_feedback/tasks/task_20260629_kimi-full-frontmatter-compliance-cleanup.md
 ---
