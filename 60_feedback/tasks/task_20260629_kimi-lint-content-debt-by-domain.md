@@ -75,3 +75,9 @@ source_refs:
 ---
 
 > 本任务由 #26 frontmatter 合规修复任务拆分而来，承接剩余内容债。
+
+## 工具说明
+
+- `kdo lint --domain <domain>` 已可用：按 `30_wiki/<domain>/` 路径前缀或 frontmatter `domain` 字段过滤 WARNING。
+- `kdo lint --domain <domain> --summary` 可快速查看该 domain 的 WARNING 数量，不输出逐条明细。
+- 示例：`kdo lint --domain yitang --summary`

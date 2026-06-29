@@ -19,6 +19,7 @@
 | **依赖校验** 🆕 | `kdo verify-deps` / `kdo verify-deps <card>` | 检测上游卡片是否变更/缺失 |
 | **环境锁定** 🆕 | `kdo env-check --lock` / `kdo env-check` | 锁定并校验 Python/kdo/git 版本 |
 | **批量回退** 🆕 | `kdo snapshot` / `kdo revert` / `kdo batch -f ...` | 批量操作前打 tag，失败可回滚 |
+| **按域 lint** 🆕 | `kdo lint --domain <domain> --summary` | 只查看某个 domain 的 WARNING 数量，用于分域内容债清理 |
 
 ## 新增模板
 
