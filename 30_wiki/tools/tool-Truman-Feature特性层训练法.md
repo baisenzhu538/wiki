@@ -54,11 +54,6 @@ Feature特性层训练法是Truman在AI工具应用AMA中提出的实操方法�
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 Feature是AI原生处理的底层逻辑，掌握Feature后工具不再重要，能基于特性自由组合解决各类问题，是目前最优的AI能力构建解法

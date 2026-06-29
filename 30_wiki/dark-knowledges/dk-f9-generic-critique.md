@@ -79,8 +79,6 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
 | 失败模式 | 典型表现 | 预警信号 | 修正方向 |
 |
 |---|---|---|

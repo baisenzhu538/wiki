@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 行业最佳实践和天花板认知无法间接获得，必须通过大量实践烧出体感

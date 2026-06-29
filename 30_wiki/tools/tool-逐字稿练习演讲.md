@@ -50,9 +50,6 @@ related:
 ## 工具/环境
 - src_unknown
 
-## 常见失败模式
-- src_unknown
-
 ## 关联技能
 - src_unknown
 

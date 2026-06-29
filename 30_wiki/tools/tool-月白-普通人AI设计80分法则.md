@@ -63,11 +63,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 从80分到95分的成本呈指数级上升，对大多数日常商业场景80分已足够创造价值

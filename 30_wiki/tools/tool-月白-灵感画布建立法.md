@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 设计本质是解决问题，灵感画布帮助快速定位'想要什么'，是精准向AI许愿的前提

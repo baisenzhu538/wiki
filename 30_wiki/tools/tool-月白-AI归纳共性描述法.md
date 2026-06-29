@@ -60,11 +60,6 @@ AI归纳共性描述法是月白在AI设计师实操中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 利用AI的归纳能力，将模糊的'体感'转化为可操作的精准描述

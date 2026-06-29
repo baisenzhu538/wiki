@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 必须先有0到1的稳定形象，才能做1到10的延展；动作设计需基于对人物性格的深入理解（如阳光积极），才能让IP有灵魂

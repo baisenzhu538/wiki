@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 低价餐饮决策快，需要视觉刺激直接触发食欲；红色+蒸汽+特写是经过验证的转化率组合；价格醒目降低决策门槛

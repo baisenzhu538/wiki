@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 风格是主观判断，大量试错能突破个人偏好局限，找到最契合IP内核的视觉表达

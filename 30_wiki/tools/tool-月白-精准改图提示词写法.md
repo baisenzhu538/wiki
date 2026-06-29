@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 精准描述能降低AI理解偏差，实现无需PS的直接替换，适合宣传运营类海报

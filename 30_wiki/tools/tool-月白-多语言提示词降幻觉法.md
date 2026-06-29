@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 同一概念在不同语言中语料训练质量不同，多语言锚定可减少AI理解偏差，使幻觉无限接近于零

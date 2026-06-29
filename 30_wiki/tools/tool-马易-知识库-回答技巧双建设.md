@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 知识库解决'答什么'，回答技巧解决'怎么答'；后者才是影响转化率的难点，依赖专家经验沉淀

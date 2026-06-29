@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 行业有相对固定的配色认知，利用现成方案提高效率，但最终落地依赖设计师色感判断

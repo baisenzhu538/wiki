@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 PS扩展最快捷，AI扩展更智能能理解场景延续；标注'按左边场景延伸'给AI明确的方向参考，避免自由发挥偏离

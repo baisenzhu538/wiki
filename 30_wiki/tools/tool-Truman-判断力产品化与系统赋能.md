@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 单纯守住个人判断无法规模化，将判断力升级为系统能力是AI时代组织进化的关键路径

@@ -64,11 +64,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 文生图适用于探索阶段（0到1），图生图适用于改图阶段（10到千级）；明确元素替换时必须用图生图确保可控性

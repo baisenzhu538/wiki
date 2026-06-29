@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 大模型Attention机制存在噪音问题，300字内容在3000字无关文本中准确性降低70%，窄范围短输入有效性更高

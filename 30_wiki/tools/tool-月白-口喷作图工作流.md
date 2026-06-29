@@ -63,11 +63,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 将多维审美先翻译成完整语言，能最大化AI理解准确度；过早打开软件会限制思维，先用语言穷尽描述再执行

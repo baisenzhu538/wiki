@@ -57,9 +57,6 @@ MECE框架确保思考无遗漏，雷达图多维评估避免单点盲区
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-- src_unknown
-
 ## 关联技能
 - src_unknown
 

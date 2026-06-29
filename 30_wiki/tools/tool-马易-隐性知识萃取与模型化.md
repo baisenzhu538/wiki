@@ -53,11 +53,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AIGC时代最稀缺的是业务建模能力，将隐性经验显性化为模型，是设计师、策划等专业人士提升核心价值的关键路径

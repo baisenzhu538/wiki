@@ -50,11 +50,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 重大决策常由非理性偶然因素决定，而非表面逻辑

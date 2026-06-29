@@ -54,11 +54,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 稀疏的知识库无法支撑复杂问题解决；密集互联的知识网络是AI发挥价值的基础，能实现知识的精准调用和组合

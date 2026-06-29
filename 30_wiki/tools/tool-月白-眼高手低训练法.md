@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 审美决定作品上限，软件技能决定下限；只有眼睛够高，才能指挥AI精准施工

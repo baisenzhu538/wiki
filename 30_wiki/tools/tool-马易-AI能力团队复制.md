@@ -53,11 +53,6 @@ AI能力团队复制是马易在AI落地场景识别中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI能力复制应通过AI复制AI，而非人教人；人的学习不稳定，提示词和流程的迭代才是可持续的规模化路径

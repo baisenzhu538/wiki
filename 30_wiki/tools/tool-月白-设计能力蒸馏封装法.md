@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI能生成选项但无法判断最优解，人类设计师的行业know-how（如不同行业的品牌触点差异、特定上下游的交付标准）是封装的核心价值；真正的卡点在'度'的把握而非技术实现

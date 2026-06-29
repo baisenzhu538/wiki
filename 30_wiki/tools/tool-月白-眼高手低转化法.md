@@ -58,11 +58,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 眼=最佳实践标准，手=执行经历，AI拉平执行差距后，高审美眼光成为决定性优势

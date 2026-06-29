@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 白底图是需求原点，相当于为AIGC清洗原料提供优质语料；干净白底能排除干扰，让材质细节和造型精准清晰表达

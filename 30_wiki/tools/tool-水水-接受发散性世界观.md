@@ -50,11 +50,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 人类对秩序的执念导致错误判断，接受无序是更准确的世界观

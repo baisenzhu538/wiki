@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 两张白底图加一张场景图三张图即可合成，本质是改图环节的替换操作，大幅降低场景拍摄成本

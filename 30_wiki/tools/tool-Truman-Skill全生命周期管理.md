@@ -58,11 +58,6 @@ Skill全生命周期管理是Truman在AI工具应用AMA中提出的实操方法�
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 Skill是Feature的具象化，系统化的打磨流程能确保质量；持续迭代是应对模型和能力变化的必要手段

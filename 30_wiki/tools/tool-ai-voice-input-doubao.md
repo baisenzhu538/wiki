@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 大多数人的好想法都消失在"等到有空再记"的过程中。这个方法让你在想法出现的当下就捕捉它，不给遗忘机会。

@@ -58,11 +58,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 只有暴露真实卡点，老师才能在后续课程中针对性解决，形成闭环学习

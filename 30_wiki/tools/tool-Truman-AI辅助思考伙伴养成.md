@@ -51,11 +51,6 @@ AI辅助思考伙伴养成是Truman在AI时代判断力中提出的实操方法�
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 大脑同样存在认知偏差和情绪干扰，AI可提供稳定、可交互的思考陪练，弥补人类认知局限

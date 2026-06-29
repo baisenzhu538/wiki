@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 旧习惯抵触新工具会形成效率枷锁，资深设计师的执念反而可能成为AI时代最大的障碍

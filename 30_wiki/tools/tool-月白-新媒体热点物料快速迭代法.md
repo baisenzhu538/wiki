@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 热点时效性要求速度优先，快速试错才能找到高传播性内容；运营物料的本质是获得点击而非艺术表达

@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI时代设计能力核心从'完整技能树'转向'拆解+快速验证'，降低试错成本；MVP思维避免设计过重，适应电商/文创/联名等快节奏商业场景

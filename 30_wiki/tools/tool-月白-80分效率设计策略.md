@@ -67,11 +67,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 从80分到95分需要专业技能和时间的指数级投入，日常设计场景中80分已足够创造价值，理性预期避免过度投入，是普通人AI设计的可行天花板

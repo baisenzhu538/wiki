@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI生成的小人五官比例固定导致'都像同一个人'，人工介入调整关键参数解决likeness问题

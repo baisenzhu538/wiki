@@ -63,11 +63,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI对真实世界物理工艺的理解存在系统性缺陷，效果图可能包含无法实现的工艺（如不切实际的镂空、材质组合）；必须通过人工核对避免生产事故

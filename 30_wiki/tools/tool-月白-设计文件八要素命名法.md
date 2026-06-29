@@ -67,11 +67,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI需要'干净的家'，混乱输入导致混乱输出；协作需要共同语言，八要素命名让上下游一眼识别文件属性，时间是最后的检索保险

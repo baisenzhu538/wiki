@@ -56,11 +56,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 异步协作能扩大团队信息带宽，避免同一问题被重复询问，提问者负责准确描述，回答者负责专业解决，双方降低情绪内耗

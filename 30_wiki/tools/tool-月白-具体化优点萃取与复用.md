@@ -63,11 +63,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI对模糊夸奖无有效学习机制，具体特征描述才能被模型识别和强化；萃取复用机制将单次优秀输出转化为系统性能力提升

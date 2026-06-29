@@ -54,11 +54,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 提示词是AI能力的内核，底层方法比模板更持久有效；结合AI自身能力优化提示词是AI原生的高效方式

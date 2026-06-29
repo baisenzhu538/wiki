@@ -58,11 +58,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 创作需要发散思维，执行需要收敛验证；混用会导致既没创意也没效率

@@ -54,11 +54,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 数字员工的价值不在替代人，而在通过FD（Function Decomposition）沉淀可复用的方法模型；用户业务数据不如方法论模型具有长期壁垒价值

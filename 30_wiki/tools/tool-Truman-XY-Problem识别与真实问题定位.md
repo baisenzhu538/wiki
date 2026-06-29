@@ -51,11 +51,6 @@ XY Problem识别与真实问题定位是Truman在AI时代判断力中提出的�
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 避免为错误的中间解法消耗资源，确保AI处理的是真实问题而非表象

@@ -52,11 +52,6 @@ AI场景探索STAR模型是Truman在AI工具应用AMA中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 第一场景是AI入门的关键，没有明确场景会导致AI使用泛化；STAR模型提供结构化探索路径，帮助找到切入点

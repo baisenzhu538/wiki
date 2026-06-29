@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 短视频封面是'一秒变身'逻辑，参考音乐'音量战争'，必须在信息流中极端突出才能被看见，平=死

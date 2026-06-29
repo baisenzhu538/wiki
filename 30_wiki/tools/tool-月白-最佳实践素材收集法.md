@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 设计能力的提升依赖大量优质输入，养成保存习惯可积累个人数据库，量变引发质变

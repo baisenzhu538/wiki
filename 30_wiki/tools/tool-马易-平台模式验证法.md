@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 许多自称平台的项目两端无真实对接需求，需严格验证两端交叉点，避免伪平台陷阱

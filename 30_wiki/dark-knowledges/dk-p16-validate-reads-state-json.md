@@ -73,8 +73,6 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
 | 失败模式 | 表象 | 根因 | 修复 / 规避 |
 |---|---|---|---|
 | 修改 frontmatter 后 validate 仍报 Missing | 手动更新了 `source_refs` / `wiki_refs`，`kdo validate` 依旧报错 | validate 优先读取 `.kdo/state.json` 中的缓存，而非文件 frontmatter | 同步更新 `.kdo/state.json`；优先使用 `kdo` 命令或脚本统一写入 |

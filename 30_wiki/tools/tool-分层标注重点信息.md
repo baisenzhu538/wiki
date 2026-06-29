@@ -47,15 +47,11 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 显式标注补偿AI的注意力机制不足，降低模型在长文本中的信息迷失
 
 ## 工具/环境
 - src_unknown
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

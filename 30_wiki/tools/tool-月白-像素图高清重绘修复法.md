@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 扩图解决的是画面边界问题，高清重绘解决的是像素密度问题；Liblib的4K模型能在保持构图不变的前提下提升像素密度，避免印刷糊版

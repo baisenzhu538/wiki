@@ -54,11 +54,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 人类大脑偏好叙事而非逻辑，情感驱动传播

@@ -60,11 +60,6 @@ AI逆向反推描述法是月白在AI设计师实操中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 突破个人描述能力的局限，让AI帮你'翻译'视觉信息为语言

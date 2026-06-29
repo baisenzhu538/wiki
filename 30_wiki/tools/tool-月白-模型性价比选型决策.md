@@ -65,11 +65,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 最新模型边际收益递减，商业决策需权衡效果提升与成本增长，批量任务中成本呈指数级放大，理性选择是效率与利润的核心

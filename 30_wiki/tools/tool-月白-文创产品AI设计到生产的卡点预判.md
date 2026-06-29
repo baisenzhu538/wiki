@@ -65,11 +65,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI对材质理解不确定因素高，设计阶段效果好≠生产阶段可还原；提前预判卡点可避免设计返工和生产损失

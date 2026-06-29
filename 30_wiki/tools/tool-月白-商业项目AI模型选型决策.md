@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 商业决策需要平衡效果与成本，最新模型的边际提升往往无法覆盖批量场景下的指数级成本增长

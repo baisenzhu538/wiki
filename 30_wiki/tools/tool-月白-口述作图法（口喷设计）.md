@@ -63,11 +63,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 将脑海中的多维审美翻译成结构化语言，是AI精准执行的前提；提前完整描述可减少后续迭代次数，避免软件操作干扰思路完整性

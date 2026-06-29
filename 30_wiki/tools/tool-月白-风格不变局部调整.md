@@ -60,11 +60,6 @@ related:
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 超长提示词提供稳定基础，局部修改避免破坏已满意的整体效果，实现精准控制

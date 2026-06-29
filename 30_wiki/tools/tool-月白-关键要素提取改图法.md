@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 设计是单元模型，抓最小关键问题精准解决，避免全流程重跑

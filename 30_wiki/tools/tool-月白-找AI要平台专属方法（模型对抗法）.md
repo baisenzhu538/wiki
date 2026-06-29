@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 各AI模型训练数据带有平台生态烙印，原生了解该平台；用AI问AI相当于低成本专家访谈，但需注意方法普及后失效

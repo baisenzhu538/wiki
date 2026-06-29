@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 自己跑不通的获客模式，外部产品更跑不通；售卖获客产品者若真能跑通，早已自己运营而非卖工具

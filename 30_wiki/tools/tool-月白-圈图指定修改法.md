@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 降低操作门槛，用空间圈选替代复杂语言描述，实现'指哪打哪'

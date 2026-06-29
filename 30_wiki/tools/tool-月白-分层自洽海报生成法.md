@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 提示词足够精准且约束好时，模型幻觉无限趋近于0，信息层级清楚即可无需复杂设计流程

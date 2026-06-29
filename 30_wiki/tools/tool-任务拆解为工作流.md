@@ -48,15 +48,11 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 将隐性流程显性化、结构化，便于优化、自动化和交接
 
 ## 工具/环境
 - src_unknown
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

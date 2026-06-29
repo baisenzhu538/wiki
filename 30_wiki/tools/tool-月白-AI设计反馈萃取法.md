@@ -60,11 +60,6 @@ AI设计反馈萃取法是月白在文创案例中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 具体反馈能帮助AI明确强化方向，萃取为可复用方法可实现能力的持续积累

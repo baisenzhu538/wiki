@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 用户不会连着点两篇推文，最多点一篇；没有情绪冲击力的封面在信息流中直接输掉；设计本质是信息传播，情绪是最快的传播驱动力

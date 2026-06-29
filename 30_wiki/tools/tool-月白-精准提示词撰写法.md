@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 形容词因个人理解差异会产生模糊输出，客观具体的要素描述是精准控制和效率提升的前提

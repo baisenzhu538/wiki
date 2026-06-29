@@ -58,11 +58,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI生成中文文字的'幻觉'是普遍问题，通过明确约束或专用修复指令可大幅改善

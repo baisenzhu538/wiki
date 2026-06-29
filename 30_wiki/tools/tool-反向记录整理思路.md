@@ -48,15 +48,11 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 降低从想到写的转换成本，利用AI的结构化能力捕捉和整理非线性思维
 
 ## 工具/环境
 - src_unknown
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

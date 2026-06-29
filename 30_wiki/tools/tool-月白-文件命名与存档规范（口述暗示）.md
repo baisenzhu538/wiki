@@ -56,11 +56,6 @@ related:
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 提示词是长在自己身上的核心能力，系统化存档才能实现能力的沉淀和迭代

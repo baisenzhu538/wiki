@@ -63,11 +63,6 @@ RGB转CMYK印刷预检是月白在文创案例中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 屏幕RGB发光原理与印刷CMYK油墨反射原理不同，直接印刷会产生巨大色差，必须提前转换预览并调整

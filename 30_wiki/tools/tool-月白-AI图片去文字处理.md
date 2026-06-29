@@ -59,11 +59,6 @@ AI图片去文字处理是月白在AI设计师实操中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI生成产品文字99%会乱码变形，先去除再后期添加是唯一可靠方案；Cubox等AI修复字体工具效果不稳定且字体可能不一致

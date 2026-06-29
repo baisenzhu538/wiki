@@ -45,14 +45,10 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 打破自我陈述的惯性，外部视角的追问迫使思考深入和结构化
 
 ## 工具/环境
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

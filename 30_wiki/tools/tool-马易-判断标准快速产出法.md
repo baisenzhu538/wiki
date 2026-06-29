@@ -54,11 +54,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI的难点在于人能否清晰定义标准，而非工具本身；标准明确后执行环节极快，3-10分钟即可完成；将主观判断转化为可执行的规则是核心能力

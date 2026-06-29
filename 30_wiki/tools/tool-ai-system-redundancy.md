@@ -57,11 +57,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 大多数人的计划和系统是"紧密耦合"的——一个环节断掉，全部崩溃。这个清单能让你在设计阶段就发现缺口，而不是在事故发生后才后悔。

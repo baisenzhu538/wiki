@@ -49,15 +49,11 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 利用模型自我修正能力，通过角色分离实现内部交叉验证，减少确认偏误
 
 ## 工具/环境
 - src_unknown
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

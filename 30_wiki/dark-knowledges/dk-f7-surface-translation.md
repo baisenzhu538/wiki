@@ -88,8 +88,6 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
 | 失败模式 | 典型表现 | 为什么难以发现 | 快速自检 |
 |
 |---|---|---|

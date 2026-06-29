@@ -48,11 +48,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 大脑缺乏对随机性的接受能力，强行归因会导致自责和行为束缚

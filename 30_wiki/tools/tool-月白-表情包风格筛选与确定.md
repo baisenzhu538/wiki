@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 头身比1:1时显Q效果最佳；大量试错是风格探索的必要过程，最终选择需匹配人物真实性格特征（如阳光积极）

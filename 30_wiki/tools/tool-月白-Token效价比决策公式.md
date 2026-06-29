@@ -60,11 +60,6 @@ Token效价比决策公式是月白在文创案例中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AIGC不是万能，存在成本边界。当AI消耗的时间精力超过人工时，继续使用AI是低效且赔本的决策

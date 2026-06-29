@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 方法论提供系统框架，刻意练习将知识转化为能力，拉满执行确保效果最大化

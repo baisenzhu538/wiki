@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 隐私保护不需复杂AI方案，传统网络方法已足够；敏感信息本地物理处理可从根本上避免数据泄露风险

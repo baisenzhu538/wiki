@@ -57,11 +57,6 @@ AI能力分层学习路径是Truman在AI工具应用AMA中提出的实操方法�
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 分层学习避免信息过载，三层必学解决80%基础问题；Feature层是AI原生能力的核心，最佳实践需结合业务按需选取

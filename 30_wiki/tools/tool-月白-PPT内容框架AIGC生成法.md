@@ -57,11 +57,6 @@ PPT内容框架AIGC生成法是月白在文创案例中提出的实操方法。
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AIGC擅长信息整合与结构化，将内容框架工作外包可聚焦设计执行

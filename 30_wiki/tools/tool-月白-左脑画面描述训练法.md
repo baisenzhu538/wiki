@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 设计质量取决于可描述的画面维度数量，维度越多变量可控性越高；左脑负责逻辑化、结构化描述，是AIGC时代设计师的核心竞争力，右脑直觉需经左脑翻译才能与AI有效协作

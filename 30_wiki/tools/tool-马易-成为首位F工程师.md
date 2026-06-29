@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 只有自己掌握核心能力，才能准确判断他人水平，避免招聘失误，并理解落地全流程

@@ -47,16 +47,12 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 将推理与行动交织，模型自主决定何时需要外部信息，比纯生成更准确和及时
 
 ## 工具/环境
 - src_unknown
 - src_unknown
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

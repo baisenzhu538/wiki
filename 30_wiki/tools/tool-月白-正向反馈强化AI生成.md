@@ -63,11 +63,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 研究表明AIGC能记住威胁并倾向于解决情绪而非真正问题；正向具体反馈强化模型对有效特征的学习，形成越哄越好的进步循环

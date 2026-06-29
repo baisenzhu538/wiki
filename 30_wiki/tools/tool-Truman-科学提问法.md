@@ -58,11 +58,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 高质量的问题能激发对方的分享欲，展示提问者的思考深度，使信息交换更高效，同时驱动双方进入深度协作状态

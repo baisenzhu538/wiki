@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 不同AI工具的处理逻辑不同，免费工具常有输出限制；需了解工具边界，组合使用多个工具达到最佳效果

@@ -169,15 +169,6 @@ claim:03 [conf=0.85] **好假设的数量是2-3个，不是10个。** 初始假�
 | 实验设计中立 | 我的验证方法是否会无意识偏向证实假设？ |
 | 迭代有止境 | 我设定了停止迭代的条件吗？还是可能无限循环？ |
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-
 ## Critique
 
 ### 外部攻击：Daniel Kahneman — "确认偏误的系统性陷阱"

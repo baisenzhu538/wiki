@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 通过结构化维度拆解图片，AI能精准提取视觉要素并转化为可复用的生成指令，解决'看到但说不出'的痛点

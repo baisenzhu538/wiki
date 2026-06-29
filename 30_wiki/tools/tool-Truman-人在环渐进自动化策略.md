@@ -55,11 +55,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 现阶段大量场景需混合使用，核心是根据业务认知和审美体系判断阶段；盲目追求全自动化或拒绝AI都会降低效率

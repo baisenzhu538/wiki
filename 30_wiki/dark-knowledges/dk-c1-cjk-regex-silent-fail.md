@@ -98,8 +98,6 @@ CJK 正则静默失败不是单纯的“中文 bug”，而是一类**以英文�
 | ⚠️ 注意 | 2026-05-05 后的自动切换依赖 LLMConfig；无 API key 仍会静默失败 |
 | ⚠️ 注意 | 自定义提取器若复制 `extractors.py` 逻辑，会继承同样缺陷 |
 
-## 常见失败模式
-
 | 失败模式 | 真实症状 | 可执行修复 |
 |:-----|:------|:------|
 | regex 词边界对 CJK 失效 | `kdo enrich --all` 对中文页面返回 0 pages enriched，exit code 0 | 配置 LLMConfig 启用自动三步编译；或手动执行 Agent 浓缩→质疑→对标 |

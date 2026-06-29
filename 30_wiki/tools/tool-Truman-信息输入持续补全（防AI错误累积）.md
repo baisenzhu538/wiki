@@ -51,11 +51,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 人的输入不足时，AI再多轮优化也是在循环累计错误；持续补全信息是保障输出质量的必要投入

@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 审美智力与数学智力一样可培养，刻意练习能建立视觉判断力，在AI拉平执行力后成为核心竞争力

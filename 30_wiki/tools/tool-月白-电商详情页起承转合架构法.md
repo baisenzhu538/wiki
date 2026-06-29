@@ -63,11 +63,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 通用AIGC工具失败在于对卖点不清晰且未验证；需将电商环节拆解为语文题（文案策划）和数学题（数据分析），分别交给AI处理

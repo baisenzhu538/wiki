@@ -64,11 +64,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 实体产业链中的变量（环境对颜色的影响、材质触感）是AI无法模拟的，实物经验构成不可替代的能力

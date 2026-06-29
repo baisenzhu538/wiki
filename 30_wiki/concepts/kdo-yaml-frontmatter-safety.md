@@ -184,9 +184,7 @@ def check_roundtrip(metadata: dict) -> list[str]:
 | ❌ 不适合 | 非YAML格式文件（如纯txt/json） → 用对应格式解析器 |
 | ❌ 不适合 | 紧急修复时跳过round-trip校验 → 宁可慢，不可错 |
 
-### 常见失败模式
-
-| 模式 | 症状 | 修复 |
+#| 模式 | 症状 | 修复 |
 |:-----|:-----|:-----|
 | **手写解析器** | 逐行split(':')，嵌套结构丢失 | 统一用yaml.safe_load()，删除所有手写解析代码 |
 | **Python repr输出** | dict渲染成{'key': 'val'}而非YAML | 嵌套结构用yaml.dump()，不用str(value) |

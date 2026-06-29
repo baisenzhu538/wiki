@@ -60,11 +60,6 @@ related:
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 尺寸是影响AIGC构图排版的唯一核心因素，强约束尺寸才能控制最终版面布局

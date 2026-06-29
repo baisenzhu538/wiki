@@ -3,8 +3,6 @@
 domain:
 - entrepreneurship
 
-
-
 id: yt-entrepreneur-industrial-production
 confidence: 0.8
 created_at: 2026-05-06
@@ -84,9 +82,7 @@ source_refs:
 | ❌ 创意型工作 | 无法完全标准化 |
 | ❌ 团队不稳定 | SOP需要人来执行 |
 
-### 常见失败模式
-
-| 模式 | 症状 | 修复 |
+#| 模式 | 症状 | 修复 |
 |:-----|:------|:-----|
 | **"过早SOP"** | 没验证就标准化 | 先跑通再SOP |
 | **"过度标准化"** | 扼杀创新 | 保留创意空间 |

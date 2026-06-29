@@ -54,11 +54,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 一堂方法论核心；多数项目失败源于关键假设未识别或未验证；先验证假设再投入开发，避免资源沉没；偏业务创新属性，与AI技术解耦

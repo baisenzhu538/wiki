@@ -49,16 +49,12 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 将隐性经验显性化为可复用资产，降低每次调用的认知成本，保证质量稳定
 
 ## 工具/环境
 - src_unknown
 - src_unknown
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

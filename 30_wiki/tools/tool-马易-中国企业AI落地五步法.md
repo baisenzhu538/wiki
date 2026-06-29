@@ -53,11 +53,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 中国大型企业已完成数字化基础建设，其AI落地路径具有特殊性和可复制性，一堂五步法针对本土复杂环境设计

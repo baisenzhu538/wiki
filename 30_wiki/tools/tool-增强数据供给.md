@@ -49,7 +49,6 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 在不对模型微调的情况下，通过上下文学习注入特定能力和知识，灵活且成本低
 
@@ -57,9 +56,6 @@ related:
 - src_unknown
 - src_unknown
 - src_unknown
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

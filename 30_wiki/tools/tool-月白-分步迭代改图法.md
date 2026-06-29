@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI单次理解有限，分步聚焦避免指令混乱；不跳步保证每个环节质量，最终累积出优质结果

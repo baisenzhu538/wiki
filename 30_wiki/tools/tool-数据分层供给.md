@@ -48,16 +48,12 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 优化token使用效率，保证核心信息优先触达，灵活扩展信息边界
 
 ## 工具/环境
 - src_unknown
 - src_unknown
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

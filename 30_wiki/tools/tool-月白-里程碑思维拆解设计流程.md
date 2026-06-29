@@ -66,11 +66,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 超长提示词一口气出图本质是将多个小里程碑垒到一张图上；真实AI设计需要环节化推进，确保每个阶段可控可优化

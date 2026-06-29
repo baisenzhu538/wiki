@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 小红书生态从'美图经济'演进到'沙雕经济'，本质是经济下行期用户更需要情绪出口；掌握平台原生逻辑才能做出适配内容，而非通用模板

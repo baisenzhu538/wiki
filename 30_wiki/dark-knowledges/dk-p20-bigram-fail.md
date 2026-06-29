@@ -116,8 +116,6 @@ diagnostic_signals:
 | ⚠️ 注意 | 短期绕过会增加 LLM 调用成本，单选/低并发场景可接受 |
 | ⚠️ 注意 | 双语词典需要持续维护，否则新维度加入时仍会漏配 |
 
-## 常见失败模式
-
 | 失败模式 | 真实症状 | 可执行修复 |
 |:-----|:------|:------|
 | 英文规则匹配中文 chunk | pre-screen 返回 0 candidates，但人工阅读 chunk 明显相关 | 为 includes/excludes 补充中文关键词；或直接绕过 pre-screen 全量送 LLM |

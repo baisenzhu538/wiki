@@ -56,11 +56,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 记忆管理归根结底是上下文管理，不同工具是逐层递进关系；理解底层原理后可根据场景灵活选择，无本质区别

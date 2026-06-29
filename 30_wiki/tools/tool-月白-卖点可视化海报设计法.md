@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 服务型产品的差异化在于体验，互动场景能激活受众的代入感和情绪记忆，比功能罗列更具转化力

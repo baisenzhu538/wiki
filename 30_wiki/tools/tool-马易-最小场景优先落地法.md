@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 全球最成功功能皆从最小场景完成，头部公司如微软、蚂蚁均在原有业务优化而非重创新，降低风险积累能力

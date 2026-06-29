@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 模型幻觉源于提示词模糊和约束不足；当提示词精准且约束到位时，不同模型的输出会收敛，降低随机性风险

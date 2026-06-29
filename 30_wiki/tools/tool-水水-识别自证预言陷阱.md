@@ -51,11 +51,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 信念影响行为，行为改变他人反应，形成闭环验证

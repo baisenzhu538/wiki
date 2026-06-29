@@ -50,11 +50,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 生理状态通过影响情绪和认知资源改变判断标准

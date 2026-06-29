@@ -51,11 +51,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI存在上下文遗忘和压缩机制，人的主动管理是保障协作质量的关键

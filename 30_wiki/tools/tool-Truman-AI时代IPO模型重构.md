@@ -51,11 +51,6 @@ AI时代IPO模型重构是Truman在AI时代判断力中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI替代了Process环节的高效处理能力，但输入质量和输出判断仍需人把控，否则会导致错误累积和黑箱风险

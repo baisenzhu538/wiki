@@ -56,11 +56,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 时间序列模型是AI原生思维的代表，从故障检测转向预测规划是数字化到智能化的思维跃迁，在制造、零售、金融等领域单项目可达亿级规模

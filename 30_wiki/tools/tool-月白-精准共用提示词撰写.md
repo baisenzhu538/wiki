@@ -64,11 +64,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 形容词因个体理解差异导致语义模糊，AI难以准确解析；客观具体的要素描述降低歧义，精准是效率的前提，共用模块提升复用率

@@ -68,8 +68,6 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
 | 失败模式 | 典型信号 | 为什么格式门禁会漏 | 快速自检 |
 |
 |---|---|---|

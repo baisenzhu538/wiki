@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI对绝对尺寸理解有限，具体像素数据或相对参照物能建立可感知的比例约束

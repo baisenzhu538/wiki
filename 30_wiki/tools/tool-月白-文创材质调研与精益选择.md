@@ -63,11 +63,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 棉花娃娃已有基础形状无需重新打版（常规打版2000+），只需替换面部和服装，实现最小成本最大独特性

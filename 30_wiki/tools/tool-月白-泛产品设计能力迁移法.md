@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI降低了执行技术门槛，能力迁移比从零学习更高效；营销、传播、产品等思维与设计的'十指解读'底层相通，关键是用好AI补齐表达层

@@ -53,11 +53,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI输出质量上限由人的业务标准定义；老板/业务方若不知道'好'的标准，AI无法凭空生成合格方案；拆解到最小单元才能识别AI可介入的边界

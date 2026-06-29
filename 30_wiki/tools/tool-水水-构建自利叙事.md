@@ -51,11 +51,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 叙事决定行为方式，自利叙事可避免自我实现的负面预言

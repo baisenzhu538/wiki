@@ -49,11 +49,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 并非所有存在都有功能解释，随机性本身是进化机制

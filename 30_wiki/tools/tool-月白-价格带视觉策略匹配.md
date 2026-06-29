@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 259方法论中'解决方案'决定一切策略；同样产品在不同场景（景区/高端店/夜市）需要完全不同的视觉表达

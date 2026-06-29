@@ -54,13 +54,6 @@ related:
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 大多数人的"经验总结"其实是"目的论偏差的积累"。这个检查能让你在每次事件后停下来，避免用错误的因果解释引导下一次行动。

@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 90%的AI落地困难源于找不到场景，通过拆解工作流可将抽象问题具象化，从自身熟悉处切入降低风险

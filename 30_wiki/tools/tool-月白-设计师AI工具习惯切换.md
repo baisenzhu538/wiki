@@ -65,11 +65,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 旧习惯抵触新工具导致效率倒挂，客户要的是80分快图而非100分慢图，执念是效率的枷锁，路径依赖阻碍尝试新可能性

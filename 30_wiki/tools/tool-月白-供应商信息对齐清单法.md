@@ -63,11 +63,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 工厂只负责接单执行，信息清晰度不足会导致错误归责；前置完整信息可将打样成本控制在预算内，避免反复打样累积成大额损失

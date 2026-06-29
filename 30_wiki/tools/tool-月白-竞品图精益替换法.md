@@ -59,11 +59,6 @@ related:
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 借用竞品已验证的视觉关键元素，快速搭建可迭代基础，最终通过重抽实现差异化

@@ -65,11 +65,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 找参考困难本质是需求解决方案拆解不够；设计参考应来源于'目标人群在什么场景下看到会心动'，而非设计师个人审美

@@ -53,11 +53,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 用户即使付费也无法说出真实需求，需通过长期沉浸式观察发现其自身未意识到的痛点，如锐捷网络WiFi漫游案例

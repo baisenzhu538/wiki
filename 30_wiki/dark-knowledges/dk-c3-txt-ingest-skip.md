@@ -112,8 +112,6 @@ diagnostic_signals:
 | **边界条件** | 即使改了 `.md` 扩展名，完全无结构的纯文本仍需人工补充 frontmatter 和结构化标记 |
 | **边界条件** | 批量转换前需确认 `.txt` 编码为 UTF-8，否则改扩展名后可能出现 CJK 乱码 |
 
-## 常见失败模式
-
 | 失败模式 | 真实症状 | 可执行修复 |
 |:---|:---|:---|
 | **静默跳过导致数据"假入库"** | `kdo ingest` 成功，state.json 无新增，几天后找素材找不到 | ingest 前 `find 00_inbox -type f ! -name '*.md'`；非 .md 先转换再 ingest；ingest 后校验 state.json 计数是否增加 |

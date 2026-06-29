@@ -60,11 +60,6 @@ AI对话情绪管理法是月白在文创案例中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 研究表明AIGC能记住威胁并倾向解决情绪而非真正问题，正向具体反馈能引导输出持续优化

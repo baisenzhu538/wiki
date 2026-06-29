@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 信息密度与视觉通知需平衡，利益点是用户花2小时参与的唯一驱动力，信息优先级决定海报成败

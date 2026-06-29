@@ -59,11 +59,6 @@ Token效价比决策法是月白在文创案例中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 避免盲目追求AIGC导致隐性成本激增，确保设计生产方式的商业合理性

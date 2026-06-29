@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 短视频信息流是竞争注意力战场，手机屏幕上的视觉刺激强度直接决定点击率；类比音乐音量战争，更高的感官刺激=更高的选择概率

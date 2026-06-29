@@ -62,11 +62,6 @@ AI生成IP表情包是月白在文创案例中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 1:1头身比最能体现Q版可爱感，结合人物真实性格动作可增强IP辨识度和亲和力

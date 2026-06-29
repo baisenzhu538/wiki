@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI大模型擅长语文题式推理，但数学题需要精确逻辑；明确区分并指定代码执行能大幅提升准确性和稳定性

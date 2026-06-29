@@ -51,11 +51,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 复杂系统中的概率估计常基于不可验证假设，提供虚假确定性

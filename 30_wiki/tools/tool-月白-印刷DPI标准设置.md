@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 像素图分辨率由画布尺寸决定，建图时不足后期无法补救；扩图只增加画幅不增加清晰度，高清重绘才能提升像素质量

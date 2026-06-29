@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 创业是硬反馈系统，AI加速后错误代价更高，必须拒绝低质量动作保护团队整体效能

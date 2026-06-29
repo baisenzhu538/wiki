@@ -1,7 +1,5 @@
 ---
 
-
-
 id: sk-ai-purpose-bias-check
 title: 技能：目的论偏差快速识别法
 type: "tool"
@@ -69,13 +67,6 @@ trust_level: low
 
 ## 工具/环境
 
-- src_unknown
-
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-- src_unknown
 - src_unknown
 
 ## 为什么有效

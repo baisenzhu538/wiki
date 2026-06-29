@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 白底图是电商设计第一步，能排除干扰让焦点集中在产品本身；高清重绘解决AI生成图初始清晰度不足的问题；四视角图是产品展示的标准配置

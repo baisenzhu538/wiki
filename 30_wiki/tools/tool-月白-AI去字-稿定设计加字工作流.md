@@ -61,11 +61,6 @@ AI去字+稿定设计加字工作流是月白在文创案例中提出的实操�
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 计算token效价比：当AI调试时间成本超过人工手搓时，选择更快的手动方案，避免为技术而技术

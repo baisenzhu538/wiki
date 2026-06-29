@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 前期投入写长提示词的时间，远小于后期反复调整的时间；约束越充分，AI输出越精准，实现'一抽即用'

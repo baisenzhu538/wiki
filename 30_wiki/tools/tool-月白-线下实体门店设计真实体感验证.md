@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 同一张图在手机与实体介质上的体感完全不同，线下设计需求基于线下发生，需要真实空间验证

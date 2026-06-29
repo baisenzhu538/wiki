@@ -61,11 +61,6 @@ related:
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI不受个人能力上限限制，可以模拟专家视角做严苛点评；本质是用AI替代'找专家访谈'的环节，实现低成本复盘

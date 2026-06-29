@@ -58,11 +58,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 避免上来就做设计的盲目性，找对标是最佳实践的前提，确保方向正确再执行

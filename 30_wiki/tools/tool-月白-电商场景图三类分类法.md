@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 场景图本质是做陈列而非单纯设计，通过主体+周围搭配+氛围感构建，让普通产品身价提升；三类场景对应不同购买决策触发点

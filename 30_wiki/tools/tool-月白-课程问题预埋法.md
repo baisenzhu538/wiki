@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 首期课程为开篇，通过作业收集真实问题，后续课程才能精准解决电商白底图等实操难题

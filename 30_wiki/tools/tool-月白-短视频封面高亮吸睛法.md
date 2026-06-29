@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 手机屏幕显示环境下，亮度更高、饱和度更高的画面更容易抢占视觉注意力，类似音乐'响度战争'原理——谁更醒目谁获得观看

@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 PS已不再是人与AI与设计的最佳交互方式，对话框交互能更高效地实现AI质价比最大化

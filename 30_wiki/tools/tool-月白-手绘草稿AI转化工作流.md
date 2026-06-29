@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 手绘承载独特个人气质，AI负责效率延展；'草稿→AI探索→锁定→系列化'是AI时代保留人类创意核心价值的典型范式

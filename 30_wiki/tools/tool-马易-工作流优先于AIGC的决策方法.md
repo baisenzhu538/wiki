@@ -66,11 +66,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 工作流通过预定义节点实现确定性输出，避免大模型的随机性和高token消耗，在标准化业务中性价比极高

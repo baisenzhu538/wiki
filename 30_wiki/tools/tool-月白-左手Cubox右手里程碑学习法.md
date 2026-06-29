@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 所有知识可与设计对仗，设计知识也能映射其他领域；里程碑思维是通用的解题能力，通过工具+方法论建立系统学习框架

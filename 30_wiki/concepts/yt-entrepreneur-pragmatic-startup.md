@@ -3,8 +3,6 @@
 domain:
 - entrepreneurship
 
-
-
 id: yt-entrepreneur-pragmatic-startup
 confidence: 0.8
 created_at: 2026-05-06
@@ -84,9 +82,7 @@ source_refs:
 | ❌ 逃避现实 | 不愿看数据 |
 | ❌ 过度保守 | 什么都不敢试 |
 
-### 常见失败模式
-
-| 模式 | 症状 | 修复 |
+#| 模式 | 症状 | 修复 |
 |:-----|:------|:-----|
 | **"追风口"** | 什么热做什么 | 结合自身能力选择 |
 | **"自我欺骗"** | 只看好消息 | 主动寻找反例 |

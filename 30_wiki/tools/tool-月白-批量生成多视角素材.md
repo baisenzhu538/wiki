@@ -60,11 +60,6 @@ related:
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 利用AI免费生成特性批量许愿，绕过复杂摄影术语描述，以量取胜获取可用素材

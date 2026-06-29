@@ -47,15 +47,11 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 强制模型分配更多计算资源到推理过程，减少跳步错误，提高复杂问题准确率
 
 ## 工具/环境
 - src_unknown
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

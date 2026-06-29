@@ -57,11 +57,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 这是确定性任务（数学题），应通过代码/RPA等稳定方式实现而非依赖AI自由发挥；分层递进尝试可找到成本与效果的平衡点

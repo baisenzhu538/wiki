@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 30平与300平门店的设计维度完全不同，面积是影响设计复杂度的核心变量，需前置评估避免过度或不足设计

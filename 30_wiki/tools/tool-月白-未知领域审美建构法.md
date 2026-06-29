@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI能生成无限风格，但人类需判断'什么是对的'；广义审美决定商业成败，狭义审美只是基础；十层解读将模糊感觉转化为可讨论、可迭代的框架

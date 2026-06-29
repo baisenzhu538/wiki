@@ -55,11 +55,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AIGC内容生产的难点在于结果交付，只有通过重标注、重校验的科学方法找到真实因果要素，才能建立可持续的高转化内容生产体系，百亿级项目已验证此路径

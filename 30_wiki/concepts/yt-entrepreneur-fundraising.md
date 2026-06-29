@@ -3,8 +3,6 @@
 domain:
 - entrepreneurship
 
-
-
 id: yt-entrepreneur-fundraising
 confidence: 0.8
 created_at: 2026-05-06
@@ -83,9 +81,7 @@ source_refs:
 | ❌ 没数据 | 无法说服投资人 |
 | ❌ 只为融钱而融 | 没有战略目的 |
 
-### 常见失败模式
-
-| 模式 | 症状 | 修复 |
+#| 模式 | 症状 | 修复 |
 |:-----|:------|:-----|
 | **"融资当目标"** | 把融资额当成功标准 | 回归业务基本面 |
 | **"没PMF就融"** | 用钱买验证 | 先小成本验证PMF |

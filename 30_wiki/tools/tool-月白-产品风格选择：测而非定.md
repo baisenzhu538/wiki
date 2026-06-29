@@ -65,11 +65,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 产品内核靠测、产品体验靠升级；风格选择是商业决策，需验证而非主观判断，取决于客群审美而非设计师审美

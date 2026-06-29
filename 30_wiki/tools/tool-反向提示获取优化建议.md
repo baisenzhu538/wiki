@@ -47,14 +47,10 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 利用AI的元认知能力，将单轮生成转为双向优化循环
 
 ## 工具/环境
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

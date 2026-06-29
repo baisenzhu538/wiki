@@ -56,11 +56,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 同一词汇在不同经验背景的人脑中含义可能完全不同，语义漂移是协作低效和冲突的重要根源，主动对齐能避免'鸡同鸭讲'

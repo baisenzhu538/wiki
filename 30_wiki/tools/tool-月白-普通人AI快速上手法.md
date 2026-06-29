@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 最佳实践复制是最高效的学习路径，避免初学者在无效探索中浪费时间，先解决具体问题再逐步理解原理

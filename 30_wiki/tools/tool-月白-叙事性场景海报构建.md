@@ -63,11 +63,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 叙事场景是在陈列基础上叠加故事，让用户产生'如果XX场景发生，我会买单'的代入感，是情感购买决策的关键触发

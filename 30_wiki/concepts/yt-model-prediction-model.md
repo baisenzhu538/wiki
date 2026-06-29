@@ -3,8 +3,6 @@
 domain:
 - modeling
 
-
-
 id: yt-model-prediction-model
 confidence: 0.85
 created_at: 2026-05-11
@@ -45,9 +43,7 @@ source_refs:
 | ❌ 替代新版 | 用旧版做决策 |
 | ❌ 复杂决策只用N要素 | 工具不足 |
 
-### 常见失败模式
-
-| 模式 | 症状 | 修复 |
+#| 模式 | 症状 | 修复 |
 |:-----|:------|:-----|
 | **"用旧版做决策"** | 不看新版 | 切换到 [[yt-foresight-model-taxonomy]] |
 | **"大决策用小工具"** | 复杂决策用N要素 | 根据风险选工具 |

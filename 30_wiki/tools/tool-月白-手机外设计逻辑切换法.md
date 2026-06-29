@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 手机内外的设计是两种不同的设计逻辑，手机小屏需要冲击力，线下大视觉面需要空间体感，必须针对最终介质调整

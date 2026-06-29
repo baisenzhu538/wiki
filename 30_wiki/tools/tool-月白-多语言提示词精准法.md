@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 英文语料库的视觉样本精度和专业丰富度远高于中文；意大利语保留大量艺术/设计源术语（如Bodoni/Baseline），能激活更精准的模型理解；多语言'撞词'策略可将近乎消除幻觉

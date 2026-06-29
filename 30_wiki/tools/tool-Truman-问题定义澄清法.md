@@ -56,11 +56,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 问题定义错误会导致后续所有分析、调研和执行方向偏差，甚至产生荒谬的决策，精准定义问题是解决问题的前提

@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 单纯抄袭无法形成设计师的核心能力，将散落的经验系统化为可复用的资产，能让AI效能翻三倍，并建立差异化专业判断

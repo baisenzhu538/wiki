@@ -78,8 +78,6 @@ diagnostic_signals:
 | 工具限定 | 使用命令行 Git（而非 Obsidian Git 插件）时，auto-backup 不会干扰 |
 | 代价放大 | 团队协作场景下，混乱的 commit 历史会影响 `git blame` 和回滚操作，代价更高 |
 
-## 常见失败模式
-
 | 失败模式 | 真实症状 | 可执行修复 |
 |:-----|:------|:------|
 | 中途离开导致被 auto-backup 打包 | 准备拆 commit 时 staged 多组文件，中断后回来发现已生成 backup commit | 若已提交：用 `git reset --soft HEAD~1` 回到 staged 状态，重新分组 commit；若未推送可重写历史 |

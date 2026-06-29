@@ -61,12 +61,6 @@ related:
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 很多人以为AI任务乱是因为AI不行，其实是因为人的上下文管理不行。这个方法能让AI"记住"项目背景，减少重复解释。

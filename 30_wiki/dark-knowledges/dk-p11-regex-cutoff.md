@@ -96,8 +96,6 @@ trust_level: medium# P-11：validator `section_content` regex 在 `###` 处截�
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
 | 失败模式 | 症状 | 根因 | 修复/绕过 |
 |
 |---|---|---|

@@ -52,11 +52,6 @@ RPA数据整合法是马易在AI落地场景识别中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 目前缺乏统一的数据整合工具，RPA和自定义脚本是解决历史系统数据孤岛的有效过渡方案

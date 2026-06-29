@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI放大了基本功的价值，有素描和理论基础的设计师才能精准描述和控制画面效果

@@ -60,11 +60,6 @@ related:
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 降低描述难度，通过参考图+明确指令让AI执行替换，比纯文字描述更精准可控

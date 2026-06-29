@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 电商核心需求是产品精准呈现，通过明确的空间+特征描述避免'杯子替换成杯子'的歧义

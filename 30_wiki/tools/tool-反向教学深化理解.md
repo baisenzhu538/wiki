@@ -45,14 +45,10 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 费曼学习法的AI增强版，教是最好的学，AI反馈提供即时检验
 
 ## 工具/环境
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

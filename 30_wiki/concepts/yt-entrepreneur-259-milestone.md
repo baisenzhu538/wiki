@@ -1,8 +1,5 @@
 ---
 
-
-
-
 id: yt-entrepreneur-259-milestone
 confidence: 0.8
 created_at: 2026-05-06
@@ -71,7 +68,6 @@ source_refs:
 ---
 > 来源：一堂课程体系 | 阶段：预判阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 
-
 ## Claims
 
 ### 核心定位
@@ -124,9 +120,7 @@ Nassim Nicholas Taleb（"The Black Swan"和"Antifragile"作者）的黑天鹅理
 | ❌ 不愿验证 | 只想写计划 |
 | ❌ 只想要时间表 | 不理解假设驱动 |
 
-### 常见失败模式
-
-| 模式 | 症状 | 修复 |
+#| 模式 | 症状 | 修复 |
 |:-----|:------|:-----|
 | **"当项目计划"** | 只排时间表 | 每个里程碑配验证标准 |
 | **"不验证"** | 里程碑只是目标数字 | 设计30天验证实验 |

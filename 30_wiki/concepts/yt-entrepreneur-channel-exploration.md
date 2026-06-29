@@ -3,8 +3,6 @@
 domain:
 - entrepreneurship
 
-
-
 id: yt-entrepreneur-channel-exploration
 confidence: 0.8
 created_at: 2026-05-06
@@ -84,9 +82,7 @@ source_refs:
 | ❌ 预算充足 | 容易铺太开 |
 | ❌ 不愿测试 | 只想直接知道答案 |
 
-### 常见失败模式
-
-| 模式 | 症状 | 修复 |
+#| 模式 | 症状 | 修复 |
 |:-----|:------|:-----|
 | **"All in单一渠道"** | 不测试备选 | 至少同时测试2-3个渠道 |
 | **"渠道太多不聚焦"** | 每个都做一点 | 阶段性聚焦 |

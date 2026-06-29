@@ -58,11 +58,6 @@ related:
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI容易保留原产品图的'锈光'或错误反光，必须显式指令让AI根据新场景重新计算环境光反射

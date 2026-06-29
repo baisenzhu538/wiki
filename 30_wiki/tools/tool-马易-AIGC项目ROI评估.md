@@ -63,11 +63,6 @@ AIGC项目ROI评估是马易在AI落地场景识别中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AIGC时代交付的是结果而非工具本身，只有可量化的订单增长才能证明项目价值，效率指标无法反映真实商业回报

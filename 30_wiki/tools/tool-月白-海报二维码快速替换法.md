@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 绕过PS的技术门槛，用自然语言指令完成精准局部替换，10秒完成传统流程数分钟的操作

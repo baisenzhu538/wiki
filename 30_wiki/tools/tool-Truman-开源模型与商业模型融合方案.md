@@ -55,11 +55,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 多模型融合是业界难题，普通人应优先使用已封装好的平台；Cubox的邮箱机制是将不稳定通信转为稳定异步处理的巧妙设计

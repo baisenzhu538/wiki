@@ -59,11 +59,6 @@ AI设计三段式里程碑流程是月白在AI设计师实操中提出的实操�
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 过早人工介入会浪费AI批量迭代优势，过晚介入则无法修正底层问题

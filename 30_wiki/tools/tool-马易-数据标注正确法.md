@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 真正的数据标注需要'输入-结果'配对，而非观点摘录；未经校验的方法论无法保证AI输出可靠性，需可验证的结果数据

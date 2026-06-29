@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI时代个人能力感波动剧烈，清醒认知自身阶段才能避免过早放弃或盲目自信

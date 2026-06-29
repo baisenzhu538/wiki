@@ -62,11 +62,6 @@ RGB转CMYK色彩校准法是月白在文创案例中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 RGB为发光色（屏幕光点），CMYK为油墨反射色，原理差异导致巨大色差；提前转换并手动校准是避免印刷翻车的唯一途径

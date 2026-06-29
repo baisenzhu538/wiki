@@ -55,9 +55,6 @@ Topdown结构符合认知规律，故事线增强记忆，循环整理促进知�
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-- src_unknown
-
 ## 关联技能
 - src_unknown
 

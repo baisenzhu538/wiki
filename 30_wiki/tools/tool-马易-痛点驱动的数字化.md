@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 单纯为数字化而数字化会导致业务偏离核心需求，先有痛点再用技术解决才能产生实际价值

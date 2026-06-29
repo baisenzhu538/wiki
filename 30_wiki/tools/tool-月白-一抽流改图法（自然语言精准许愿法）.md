@@ -63,11 +63,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 用'上香式'结构化精准表达替代复杂技术操作，核心在于'精准'而非'复杂'

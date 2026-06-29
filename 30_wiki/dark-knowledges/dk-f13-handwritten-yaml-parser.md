@@ -88,8 +88,6 @@ diagnostic_signals:
 | ⚠️ 注意 | 非标准的 YAML 1.2 特有特性即使 `yaml.safe_load()` 也可能有差异，需谨慎 |
 | ⚠️ 注意 | 即使用库也建议做 round-trip 校验，库也可能改变格式或丢失注释 |
 
-## 常见失败模式
-
 | 失败模式 | 典型信号 | 根因 | 修复动作 |
 |:-----|:------|:-----|:-----|
 | 手写字符串替换解析 YAML | 脚本用 `.replace()`、regex 或 `.split("---")` 处理 frontmatter | 低估 YAML 规范复杂度，误以为"就是 key:value" | 改用 `yaml.safe_load()` + `yaml.dump()` |

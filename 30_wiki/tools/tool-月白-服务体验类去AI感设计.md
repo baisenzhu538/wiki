@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 服务类产品无实体承托，必须用'清爽感受'传递价值；图标是人类设计师信号，可打破AI同质化；质感图像建立专业信任

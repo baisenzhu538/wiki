@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI模型学习的是人类艺术史数据，掌握源头知识才能反向解码和精准控制生成结果

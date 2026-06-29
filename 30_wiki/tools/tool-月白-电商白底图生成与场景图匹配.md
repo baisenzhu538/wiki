@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 白底图是电商设计的基础，场景图能提升转化率；通过搜索场景而非产品名能找到更自然、更高级的使用情境

@@ -63,11 +63,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI会替代执行但不会替代人对好看的定义，构图版式等底层逻辑能力将成为设计师的核心护城河

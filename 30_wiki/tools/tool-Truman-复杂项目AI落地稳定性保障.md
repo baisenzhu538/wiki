@@ -57,11 +57,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 真实业务不可能直接用API，必须降到更稳定层级；最内核是大模型+提示词，外层封装是为管理复杂性和稳定性

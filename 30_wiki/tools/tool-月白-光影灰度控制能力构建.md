@@ -65,11 +65,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 没有素描基本功则无法理解光影、灰度、结构的本质，提示词控制画面需要内化的视觉知识，基本功是AI时代控制力的根源，而非工具技巧本身

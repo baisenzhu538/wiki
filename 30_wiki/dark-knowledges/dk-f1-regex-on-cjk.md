@@ -105,9 +105,7 @@ review_date: '2026-06-28'
 | 传播约束 | 自定义 extractor 脚本如果复制了 `extractors.py` 的 regex 逻辑，会继承这个缺陷 |
 | 质量约束 | 即使配置了 LLM 路径，enrich 后仍需人工抽检输出质量——自动化不等于无需验证 |
 
-### 常见失败模式
-
-| 模式 | 症状 | 修复 |
+#| 模式 | 症状 | 修复 |
 |:-----|:------|:-----|
 | 静默零返回 | `kdo enrich --all` 输出 "0 pages enriched"，exit code 为 0，未 enrich 的中文页面被跳过 | 含中文页面不走 regex，改用 LLM 路径或 Agent 三步编译；事后用 `kdo self-check` 兜底 |
 | 中文摘要碎化 | ingest/enrich 后 Summary 变成无意义汉字碎片，如"的概和心结提取课特有" | 不修复骨架，直接重写页面；完成后 `status=enriched` 并人工读一遍 |

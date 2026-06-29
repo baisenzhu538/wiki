@@ -62,11 +62,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 真实案例最有学习价值，但商业保密是底线；提前声明+技术脱敏+事后补发，平衡教学效果与风险控制

@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 必须先有0到1的基础才能做1到10的延展；赋予IP性格动作能增强角色辨识度和情感连接

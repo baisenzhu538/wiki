@@ -45,16 +45,12 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 优化成本-效果-延迟的帕累托前沿，避免对所有任务使用最贵模型
 
 ## 工具/环境
 - src_unknown
 - src_unknown
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

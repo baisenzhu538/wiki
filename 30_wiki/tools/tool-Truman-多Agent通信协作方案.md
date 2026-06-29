@@ -56,11 +56,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 多Agent通信是业界难题，不应过度纠结；核心是用最小成本解决问题，人在环往往是最务实的选择

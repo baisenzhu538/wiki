@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 用真实到店数据替代主观审美判断，找到与价格带、门店定位匹配的视觉策略

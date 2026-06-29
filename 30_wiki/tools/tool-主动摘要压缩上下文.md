@@ -47,15 +47,11 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 突破上下文长度限制，去除累积噪声，保持对话聚焦
 
 ## 工具/环境
 - src_unknown
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

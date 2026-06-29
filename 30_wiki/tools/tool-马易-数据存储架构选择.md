@@ -56,11 +56,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 集中式中台是行业验证的主流方案，标签与中台一体化避免数据孤岛；自动化标签降低维护成本；小团队简化方案可降低门槛但需权衡扩展性

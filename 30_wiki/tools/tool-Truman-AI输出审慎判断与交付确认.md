@@ -53,11 +53,6 @@ AI输出审慎判断与交付确认是Truman在AI时代判断力中提出的实�
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI擅长表面正确性，不擅长深层逻辑合理性；人的品味和判断力是防止低质量产出的最后防线

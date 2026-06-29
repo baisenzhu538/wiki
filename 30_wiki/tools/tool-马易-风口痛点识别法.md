@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 风口中的普遍机会已被大量竞争者追逐，只有解决真实痛点才能建立差异化优势并实现商业闭环

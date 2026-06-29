@@ -57,11 +57,6 @@ related:
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 小红书用户友善且内容实用，是目前独特的解决方案寻找渠道，兼顾图像参考和文本提示词

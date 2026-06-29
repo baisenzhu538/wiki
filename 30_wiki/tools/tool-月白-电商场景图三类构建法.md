@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 场景图本质是陈列而非纯设计，为产品搭建使用场景可塑造生活方式提升身价，解决用户带入感问题

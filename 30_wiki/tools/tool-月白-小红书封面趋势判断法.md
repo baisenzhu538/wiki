@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 小红书电商转化弱但种草强，封面需适应平台从精致到亲民沙雕的风格迁移，经济越不景气沙雕梗越盛行

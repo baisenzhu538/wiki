@@ -67,11 +67,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI无法替代物理世界的变量（温湿度影响颜色、材质触感），实体产业链经验形成专业壁垒，一张可触摸的明信片比十张屏幕海报更有感知价值

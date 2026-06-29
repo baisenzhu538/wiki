@@ -53,11 +53,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 复杂系统处于自组织临界状态时，任何微小扰动都可能引发崩溃

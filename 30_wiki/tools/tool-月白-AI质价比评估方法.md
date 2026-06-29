@@ -60,11 +60,6 @@ AI质价比评估方法是月白在文创案例中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 避免盲目追求AI而忽视实际效率，很多AIGC设计agent在细节修改上复杂度过高，不如传统方式

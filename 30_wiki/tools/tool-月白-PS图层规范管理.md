@@ -59,11 +59,6 @@ PS图层规范管理是月白在AI设计师实操中提出的实操方法。
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 小设计也需要规范，便于追溯修改、快速定位和迭代

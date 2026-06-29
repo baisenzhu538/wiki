@@ -63,11 +63,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 平台所属AI针对特定语料训练，最懂自家平台规则；'爹不会拒绝儿子'，源头AI能提供最贴近官方逻辑的分析；省去大量手动调研时间，实现简单事情简单做

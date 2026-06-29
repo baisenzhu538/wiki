@@ -43,12 +43,6 @@ related:
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 大多数人给AI派任务时缺少验收标准，导致AI输出"看起来对但就是不好用"。这个模板强制你在发出指令前定好"什么算对”，减少返工。

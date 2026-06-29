@@ -53,11 +53,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 双三角模型是指导内部落地和个人进化的最佳实践模型，能解决大部分AI应用困惑，核心在于结合业务理解判断工具和能力的选择

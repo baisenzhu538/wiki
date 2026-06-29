@@ -93,9 +93,7 @@ KDO ingest 的"静默跳过"不是 bug，而是**设计选择**：扩展名白�
 | ❌ 不适合 | 非 KDO CLI 环境（如直接用 Obsidian、Git 手动复制文件）——本暗知识只针对 `kdo ingest` |
 | ⚠️ 需人工干预 | 即使 `.txt` 已改为 `.md`，若内容完全无结构，仍需补充 frontmatter 和结构化标记 |
 
-### 常见失败模式
-
-| 失败模式 | 真实症状 | 可执行修复 |
+#| 失败模式 | 真实症状 | 可执行修复 |
 |:---------|:---------|:-----------|
 | 盲目信任 exit code 0 | 命令返回成功，但 `state.json` / `10_raw/sources/` 没有任何新增 | 强制做"输入-输出"对账：`find 00_inbox -type f` 计数 vs `ingested_inbox_files` 增量 |
 | 批量脚本未做扩展名过滤 | `00_inbox/` 中 `.md` 与 `.txt` 共存，只有 `.md` 被处理，`.txt` 被落下 | ingest 前运行 `find 00_inbox -type f ! -name '*.md' -print`；全部转换后再跑 ingest |

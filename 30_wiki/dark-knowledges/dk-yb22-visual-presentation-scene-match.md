@@ -1,6 +1,5 @@
 ---
 
-
 id: dk-yb22-visual-presentation-scene-match
 title: 视觉呈现方式与消费场景的匹配原则
 type: dk
@@ -60,8 +59,6 @@ diagnostic_signals:
   1. 手工拍摄但构图、光影极具艺术感（可打破规则）；
   2. 特定"反精致"定位的高端店（如主厨私房、侘寂风）。
 - src_unknown
-
-## 常见失败模式
 
 | 失败模式 | 典型场景 | 后果 | 修正方向 |
 |

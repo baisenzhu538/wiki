@@ -49,11 +49,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 万能归因不可证伪，剥夺个人能动性，阻碍成长

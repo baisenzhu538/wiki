@@ -52,11 +52,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 用户只能描述已知方案（更快的马），无法突破认知提出创新方案（汽车）；创造者需主动提出并验证

@@ -48,15 +48,11 @@ related:
 - src_unknown
 - src_unknown
 
-
 ## 为什么有效
 结构化元素覆盖提示词的关键维度，系统化迭代避免盲目修改，逐步逼近最优提示
 
 ## 工具/环境
 - src_unknown
-- src_unknown
-
-## 常见失败模式
 - src_unknown
 
 ## 关联技能

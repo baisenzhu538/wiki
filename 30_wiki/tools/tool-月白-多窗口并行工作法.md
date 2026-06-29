@@ -58,11 +58,6 @@ related:
 
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 AI会受对话历史影响，新窗口能清除错误印象；多线程并行提升效率，且新窗口免费无成本

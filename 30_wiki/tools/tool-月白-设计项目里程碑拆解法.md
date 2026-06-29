@@ -59,11 +59,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 设计本质是泛产品设计能力锤炼，里程碑思维可降低复杂度、保证交付质量、实现十倍成长

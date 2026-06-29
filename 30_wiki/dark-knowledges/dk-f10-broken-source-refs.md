@@ -87,8 +87,6 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
 | 失败模式 | 表现 | 修复方法 |
 |
 |---|---|

@@ -61,11 +61,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 白底图不完整导致每次做图都需重新拍摄后期，前置素材标准化可让后续设计效率提升70%基础分

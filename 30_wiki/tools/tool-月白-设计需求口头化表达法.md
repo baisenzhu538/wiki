@@ -60,11 +60,6 @@ related:
 - src_unknown
 - src_unknown
 
-## 常见失败模式
-
-- src_unknown
-- src_unknown
-
 ## 为什么有效
 
 口语表达强制大脑同步梳理逻辑，暴露需求盲区；AI是'先知型'存在，需要人类先想清楚'求什么、怎么求'，模糊许愿只能得到模糊结果
