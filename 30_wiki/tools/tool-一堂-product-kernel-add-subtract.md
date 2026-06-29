@@ -1,11 +1,14 @@
 ---
 
+
 related:
   - [[concept-一堂-product-kernel]]
   - [[tool-一堂-product-kernel-canvas]]
   - [[tool-一堂-kernel-three-questions]]
   - [[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]
   - [[pending_unknown]]
+source_refs:
+- pending_archive: src_unknown
 ---
 
 # 技能：产品内核加减法

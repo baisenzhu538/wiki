@@ -1,4 +1,5 @@
 ---
+
 id: pending_unknown
 title: 待补充链接（占位符）
 type: system
@@ -12,6 +13,8 @@ trust_level: placeholder
 created_at: 2026-06-28
 updated_at: 2026-06-28
 related: []
+source_refs:
+- pending_archive: src_unknown
 ---
 
 # 待补充链接（占位符）

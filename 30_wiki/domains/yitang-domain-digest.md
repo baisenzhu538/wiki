@@ -1,5 +1,6 @@
 ---
 
+
 id: yitang-domain-digest
 title: 域摘要：一堂知识体系总目
 type: index
@@ -18,6 +19,8 @@ related:
   - [[ai-collaboration-domain-digest]]
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+source_refs:
+- pending_archive: src_unknown
 ---
 
 # 域摘要：一堂知识体系

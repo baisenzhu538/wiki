@@ -1,8 +1,11 @@
----status: enriched
+---
+status: enriched
 
 id: dogfood-dk-indent
 type: dk
 domain: [test]
+source_refs:
+- pending_archive: src_unknown
 ---
 ## 原始表述
 内容

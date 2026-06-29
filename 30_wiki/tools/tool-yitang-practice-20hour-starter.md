@@ -1,5 +1,6 @@
 ---
 
+
 related:
   - [[framework-yitang-deliberate-practice-1plus4]]
   - [[framework-yitang-three-ring-ability-focus]]
@@ -9,6 +10,8 @@ related:
   - [[case-yitang-poker-parameterized-practice]]
   - [[yt-note-deliberate-practice-four-elements]]
   - [[framework-ai-deliberate-practice-loop]]
+source_refs:
+- pending_archive: src_unknown
 ---
 
 # 20 小时刻意练习入门法：快速达到够用水平

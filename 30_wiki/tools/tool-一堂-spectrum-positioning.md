@@ -1,11 +1,14 @@
 ---
 
+
 related:
   - [[tool-一堂-business-prediction-15-char]]
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+source_refs:
+- pending_archive: src_unknown
 ---
 
 # 技能：光谱模型定位法

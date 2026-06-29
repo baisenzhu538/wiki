@@ -1,11 +1,14 @@
 ---
 
+
 related:
   - [[concept-一堂-product-kernel]]
   - [[tool-一堂-product-kernel-add-subtract]]
   - [[tool-一堂-five-step-validation]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+source_refs:
+- pending_archive: src_unknown
 ---
 
 # 技能：内核要素三问验证法

@@ -1,11 +1,14 @@
 ---
 
+
 related:
   - [[business-research-skill-oscar-13-weapon-system]]
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
   - [[pending_unknown]]
+source_refs:
+- pending_archive: src_unknown
 ---
 
 # Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现
