@@ -25,11 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.78
 trust_level: medium-high
 related:
-- - - yt-tob-revenue-is-customer-cost
-- - - yt-tob-demand-scenarios
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
+- "[[yt-tob-revenue-is-customer-cost]]"
+- "[[yt-tob-demand-scenarios]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 成本占有率
   follow_up_question: 该需求对应客户成本结构中的哪一项？历史占比是否稳定、是否可持续？

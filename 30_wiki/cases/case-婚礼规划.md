@@ -19,9 +19,9 @@ source_refs:
 - Y模型在婚礼筹备场景中的实操映射
 - 新人婚后满意度回访数据（样本量约120对）
 related:
-  - [[yitang-domain-digest]]
-  - [[decision-science-domain-digest]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[decision-science-domain-digest]]"
+  - "[[pending_unknown]]"
 updated_at: '2026-06-29'
 
 ---

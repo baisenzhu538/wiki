@@ -17,13 +17,13 @@ trust_level: high
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - [[yt-demand-early-validation]]
-  - [[framework-demand-lean-bridge]]
-  - [[tool-lean-fake-product]]
-  - [[yt-demand-hierarchy-model]]
-  - [[case-demand-b2b-enterprise-erp]]
-  - [[case-demand-b2c-consumer-insight]]
-  - [[dk-demand-signal-vs-noise]]
+  - "[[yt-demand-early-validation]]"
+  - "[[framework-demand-lean-bridge]]"
+  - "[[tool-lean-fake-product]]"
+  - "[[yt-demand-hierarchy-model]]"
+  - "[[case-demand-b2b-enterprise-erp]]"
+  - "[[case-demand-b2c-consumer-insight]]"
+  - "[[dk-demand-signal-vs-noise]]"
 ---
 
 # 需求验证流水线

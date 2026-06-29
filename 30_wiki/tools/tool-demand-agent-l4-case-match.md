@@ -14,8 +14,8 @@ updated_at: '2026-06-21'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-- [[tool-demand-iceberg-l4-job-map]]
-- [[framework-multi-agent-research-architecture]]
+- "[[tool-demand-iceberg-l4-job-map]]"
+- "[[framework-multi-agent-research-architecture]]"
 
 ---
 

@@ -18,11 +18,11 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-  - [[yt-model-personal-pitch-toolkit]]
-  - [[yt-concept-weapon-arsenal]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yt-model-personal-pitch-toolkit]]"
+  - "[[yt-concept-weapon-arsenal]]"
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 query_triggers:
 - src_unknown
 - src_unknown

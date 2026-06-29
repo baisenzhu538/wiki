@@ -18,21 +18,21 @@ updated_at: '2026-06-28'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - [[tool-半肥猫-课程Skill化的八步工作流]]
-  - [[tool-ai-skill-engineering-method]]
-  - [[tool-Truman-Skill全生命周期管理]]
-  - [[paddleocr-skill]]
-  - [[case-半肥猫-course-to-skill]]
-  - [[tool-封装可复用skill]]
-  - [[course-to-skill-conversion]]
-  - [[truman-perspective-skill]]
-  - [[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]
-  - [[case-ji-hao-skill-market-problem-validation]]
-  - [[case-truman-ai-skill-self-packaging]]
-  - [[yt-skill-checklist-as-ai-protocol]]
-  - [[yt-skill-p-role-prompt-design]]
-  - [[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]
-  - [[plan_20260621_skill-iteration-standard]]
+  - "[[tool-半肥猫-课程Skill化的八步工作流]]"
+  - "[[tool-ai-skill-engineering-method]]"
+  - "[[tool-Truman-Skill全生命周期管理]]"
+  - "[[paddleocr-skill]]"
+  - "[[case-半肥猫-course-to-skill]]"
+  - "[[tool-封装可复用skill]]"
+  - "[[course-to-skill-conversion]]"
+  - "[[truman-perspective-skill]]"
+  - "[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]"
+  - "[[case-ji-hao-skill-market-problem-validation]]"
+  - "[[case-truman-ai-skill-self-packaging]]"
+  - "[[yt-skill-checklist-as-ai-protocol]]"
+  - "[[yt-skill-p-role-prompt-design]]"
+  - "[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]"
+  - "[[plan_20260621_skill-iteration-standard]]"
 diagnostic_signals:
 - framework_lens: 策略→工具映射表
   follow_up_question: 在映射表中找到对应的 wiki 卡片或 Skill

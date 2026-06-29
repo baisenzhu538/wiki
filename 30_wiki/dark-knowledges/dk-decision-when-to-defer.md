@@ -17,15 +17,15 @@ trust_level: medium
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - [[framework-decision-quality-checklist]]
-  - [[framework-decision-cognitive-bias-map]]
-  - [[dk-你的业务是一次抽样实验]]
-  - [[dk-决策经验值]]
-  - [[concept-稀缺机会窗口]]
-  - [[case-科学决策-深度案例03]]
-  - [[framework-lean-false-model]]
-  - [[concept-AI时代双三角竞争力]]
-  - [[master-decision-hygiene]]
+  - "[[framework-decision-quality-checklist]]"
+  - "[[framework-decision-cognitive-bias-map]]"
+  - "[[dk-你的业务是一次抽样实验]]"
+  - "[[dk-决策经验值]]"
+  - "[[concept-稀缺机会窗口]]"
+  - "[[case-科学决策-深度案例03]]"
+  - "[[framework-lean-false-model]]"
+  - "[[concept-AI时代双三角竞争力]]"
+  - "[[master-decision-hygiene]]"
 ---
 
 # 何时应该推迟决策

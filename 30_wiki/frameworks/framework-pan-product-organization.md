@@ -21,13 +21,13 @@ source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计实操-口述.txt
 source_person: 兰毅 / 一堂
 related:
-- [[case-panproduct-lanyi-shidonghui-npc]]
-- [[dk-panproduct-org-linear-to-circular]]
-- [[dk-panproduct-org-serve-the-lowest]]
-- [[yt-composite-pan-product-methodology]]
-- [[framework-一堂五步法-泛产品设计]]
-- [[framework-lean-abcd-model]]
-- [[framework-ai-accelerated-strategy-cycle]]
+- "[[case-panproduct-lanyi-shidonghui-npc]]"
+- "[[dk-panproduct-org-linear-to-circular]]"
+- "[[dk-panproduct-org-serve-the-lowest]]"
+- "[[yt-composite-pan-product-methodology]]"
+- "[[framework-一堂五步法-泛产品设计]]"
+- "[[framework-lean-abcd-model]]"
+- "[[framework-ai-accelerated-strategy-cycle]]"
 review_date: '2026-06-28'
 ---
 

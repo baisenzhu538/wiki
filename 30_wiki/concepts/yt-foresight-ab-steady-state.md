@@ -41,9 +41,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-- - - yt-foresight-15-char-mantra
-- - - yt-foresight-addition-subtraction
-- - - yt-foresight-business-spectrum
+- "[[yt-foresight-15-char-mantra]]"
+- "[[yt-foresight-addition-subtraction]]"
+- "[[yt-foresight-business-spectrum]]"
 ---
 
 # AB点稳态模型：行业预判的核心框架

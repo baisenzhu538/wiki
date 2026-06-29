@@ -18,13 +18,13 @@ source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
 source_person: Truman
 related:
-- [[framework-yitang-deliberate-practice-1plus4]]
-- [[tool-yitang-best-practice-as-golden-finger]]
-- [[tool-yitang-practice-20hour-starter]]
-- [[concept-yitang-comfort-stretch-panic-zones]]
-- [[framework-ai-deliberate-practice-loop]]
-- [[dk-yitang-deliberate-practice-common-traps]]
-- [[yt-note-deliberate-practice-four-elements]]
+- "[[framework-yitang-deliberate-practice-1plus4]]"
+- "[[tool-yitang-best-practice-as-golden-finger]]"
+- "[[tool-yitang-practice-20hour-starter]]"
+- "[[concept-yitang-comfort-stretch-panic-zones]]"
+- "[[framework-ai-deliberate-practice-loop]]"
+- "[[dk-yitang-deliberate-practice-common-traps]]"
+- "[[yt-note-deliberate-practice-four-elements]]"
 
 ---
 

@@ -15,11 +15,11 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/其他/Truman的个人成长五步法_vlm_desc.md
 related:
-  - [[yitang-domain-digest]]
-  - [[decision-science-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[decision-science-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---

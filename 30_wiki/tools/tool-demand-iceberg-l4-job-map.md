@@ -18,11 +18,11 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - [[yitang-domain-digest]]
-  - [[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]
-  - [[aigc文创案例设计课leo文创ip从0到1全流程]]
-  - [[tool-通过综合案例沙盘走通全流程]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]"
+  - "[[aigc文创案例设计课leo文创ip从0到1全流程]]"
+  - "[[tool-通过综合案例沙盘走通全流程]]"
+  - "[[pending_unknown]]"
 ---
 
 # L4任务地图

@@ -10,18 +10,18 @@ id: 鑫港湾HIS项目
 created_at: 2026-05-04
 updated_at: '2026-06-16'
 related:
-- [[鑫港湾]]
-- [[开源HIS系统代码深度分析报告]]
-- [[framework-wanghuan-harness-seven-stages]]
-- [[yt-tool-onboarding-90day]]
-- [[EC工业化规范手册]]
-- [[鑫港湾his系统分阶段整改报告]]
-- [[HIS系统深度调研]]
-- [[HIS系统开发实现方案-架构师指南]]
-- [[轻量级诊所HIS调研全清单]]
-- [[EC工业化规范手册]]
-- [[ec工业化规范手册-v2.8.0]]
-- [[鑫港湾]]
+- "[[鑫港湾]]"
+- "[[开源HIS系统代码深度分析报告]]"
+- "[[framework-wanghuan-harness-seven-stages]]"
+- "[[yt-tool-onboarding-90day]]"
+- "[[EC工业化规范手册]]"
+- "[[鑫港湾his系统分阶段整改报告]]"
+- "[[HIS系统深度调研]]"
+- "[[HIS系统开发实现方案-架构师指南]]"
+- "[[轻量级诊所HIS调研全清单]]"
+- "[[EC工业化规范手册]]"
+- "[[ec工业化规范手册-v2.8.0]]"
+- "[[鑫港湾]]"
 tags: []
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为

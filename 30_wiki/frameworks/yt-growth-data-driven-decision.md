@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[yt-growth-acquisition-channels]]
-  - [[yt-growth-activation-rate]]
-  - [[yt-growth-growth-hacking]]
+  - "[[yt-growth-acquisition-channels]]"
+  - "[[yt-growth-activation-rate]]"
+  - "[[yt-growth-growth-hacking]]"
 diagnostic_signals:
 - framework_lens: 数据驱动增长决策——感觉不可靠，需要数据验证
   follow_up_question: 你的关键决策有数据支撑吗？数据是否准确、及时、可衡量？

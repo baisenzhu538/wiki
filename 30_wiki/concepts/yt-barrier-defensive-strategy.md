@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[yt-barrier-brand-equity]]
-  - [[yt-barrier-culture-moat]]
-  - [[yt-barrier-data-assets]]
+  - "[[yt-barrier-brand-equity]]"
+  - "[[yt-barrier-culture-moat]]"
+  - "[[yt-barrier-data-assets]]"
 diagnostic_signals:
 - framework_lens: 防御策略——需要评估攻击强度和防御资源
   follow_up_question: 竞品的攻击方式是什么？价格、产品、还是渠道？你的防御资源是什么？

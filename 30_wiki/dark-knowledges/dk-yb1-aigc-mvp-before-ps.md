@@ -15,20 +15,20 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - [[ai-collaboration-domain-digest]]
-  - [[tool-半肥猫-课程Skill化的八步工作流]]
-  - [[yt-panproduct-execution-low-cost-mvp]]
-  - [[tool-月白-AIGC设计作业复盘法]]
-  - [[tool-月白-设计师AI工具习惯切换]]
-  - [[tool-月白-设计师AI资产四类型沉淀]]
-  - [[tool-月白-用AIGC做设计专家批评复盘]]
-  - [[tool-马易-工作流拆解找场景]]
-  - [[tool-月白-设计项目MVP拆解法]]
-  - [[tool-月白-AIGC反向拆解法]]
-  - [[tool-月白-AIGC人群画像驱动详情页规划]]
-  - [[tool-月白-PPT全AI生成工作流]]
-  - [[yt-lean-daily-chemical-mvp]]
-  - [[case-yitang-mvp-reward-interview-waste]]
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[tool-半肥猫-课程Skill化的八步工作流]]"
+  - "[[yt-panproduct-execution-low-cost-mvp]]"
+  - "[[tool-月白-AIGC设计作业复盘法]]"
+  - "[[tool-月白-设计师AI工具习惯切换]]"
+  - "[[tool-月白-设计师AI资产四类型沉淀]]"
+  - "[[tool-月白-用AIGC做设计专家批评复盘]]"
+  - "[[tool-马易-工作流拆解找场景]]"
+  - "[[tool-月白-设计项目MVP拆解法]]"
+  - "[[tool-月白-AIGC反向拆解法]]"
+  - "[[tool-月白-AIGC人群画像驱动详情页规划]]"
+  - "[[tool-月白-PPT全AI生成工作流]]"
+  - "[[yt-lean-daily-chemical-mvp]]"
+  - "[[case-yitang-mvp-reward-interview-waste]]"
 pipeline:
 - src_unknown
 author: 月白

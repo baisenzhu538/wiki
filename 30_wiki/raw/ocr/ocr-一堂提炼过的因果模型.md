@@ -15,11 +15,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[ocr-泛产品设计-落地卡片-复盘迭代]]
-  - [[case-proya-betaine-skincare-benchmark]]
-  - [[concept-一堂-key-assumptions]]
-  - [[ocr-一堂五步法画布]]
-  - [[ocr-一堂深度复盘冰山图]]
+  - "[[ocr-泛产品设计-落地卡片-复盘迭代]]"
+  - "[[case-proya-betaine-skincare-benchmark]]"
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[ocr-一堂五步法画布]]"
+  - "[[ocr-一堂深度复盘冰山图]]"
 ---
 # OCR: 一堂提炼过的因果模型
 

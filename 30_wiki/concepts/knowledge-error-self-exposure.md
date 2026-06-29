@@ -6,8 +6,8 @@ status: draft
 domain:
 - src_unknown
 related:
-  - [[kdo-flywheel]]
-  - [[master-ai-info-literacy]]
+  - "[[kdo-flywheel]]"
+  - "[[master-ai-info-literacy]]"
 query_triggers:
 - src_unknown
 - src_unknown

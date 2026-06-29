@@ -14,11 +14,11 @@ source_context: 第26节master系统暗知识精修中反复出现的模式：YA
 source_refs:
 - src_unknown
 related:
-  - [[ai-collaboration-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 bridges_to:
 - src_unknown
 - src_unknown

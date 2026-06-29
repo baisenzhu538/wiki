@@ -14,11 +14,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - [[tool-月白-课程资料文件命名规范]]
-  - [[tool-月白-文件命名与图层命名规范]]
-  - [[tool-月白-文件命名与存档规范（口述暗示）]]
-  - [[tool-月白-文件命名与平台适配规范]]
-  - [[pending_unknown]]
+  - "[[tool-月白-课程资料文件命名规范]]"
+  - "[[tool-月白-文件命名与图层命名规范]]"
+  - "[[tool-月白-文件命名与存档规范（口述暗示）]]"
+  - "[[tool-月白-文件命名与平台适配规范]]"
+  - "[[pending_unknown]]"
 pipeline:
 - src_unknown
 author: 月白

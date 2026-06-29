@@ -27,10 +27,10 @@ review_date: '2026-06-16'
 confidence: 0.68
 trust_level: medium
 related:
-  - [[yt-tob-barriers]]
-  - [[yt-tob-growth-channel]]
-  - [[yt-tob-unit-model]]
-  - [[yt-tob-sales-unit-model]]
+  - "[[yt-tob-barriers]]"
+  - "[[yt-tob-growth-channel]]"
+  - "[[yt-tob-unit-model]]"
+  - "[[yt-tob-sales-unit-model]]"
 diagnostic_signals:
 - framework_lens: 需求验证与商业模式
   follow_up_question: 除了产品注册证，医院采购还需要完成哪些招投标、学术推广和渠道建设步骤？

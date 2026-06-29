@@ -15,13 +15,13 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-19'
 related:
-  - [[dk-ji-hao-problem-vs-question]]
-  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
-  - [[dk-wanghuan-output-equals-standard-times-iteration]]
-  - [[yt-five-step-method]]
-  - [[dk-tool-as-phased-validator]]
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
+  - "[[dk-ji-hao-problem-vs-question]]"
+  - "[[dk-wanghuan-ai-lifts-personal-ceiling]]"
+  - "[[dk-wanghuan-output-equals-standard-times-iteration]]"
+  - "[[yt-five-step-method]]"
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[yitang-domain-digest]]"
 pipeline:
 - src_unknown
 - src_unknown

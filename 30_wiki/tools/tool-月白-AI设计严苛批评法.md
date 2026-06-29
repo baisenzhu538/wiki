@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- - - tool-月白-AI生图与图生图决策法
-- - - tool-月白-AI生成IP表情包
-- - - tool-月白-分层自洽海报生成法
-- - - tool-月白-AIGC生成人物证件照
-- - - tool-月白-精准提示词消除模型幻觉
+- "[[tool-月白-AI生图与图生图决策法]]"
+- "[[tool-月白-AI生成IP表情包]]"
+- "[[tool-月白-分层自洽海报生成法]]"
+- "[[tool-月白-AIGC生成人物证件照]]"
+- "[[tool-月白-精准提示词消除模型幻觉]]"
 ---
 # 技能：AI设计严苛批评法
 

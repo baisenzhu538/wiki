@@ -16,7 +16,7 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 related:
-  - [[five-step-domain-digest]]
+  - "[[five-step-domain-digest]]"
   - <code>check-source-refs.py</code>
   - <code>track-production-progress.py</code>
 ---

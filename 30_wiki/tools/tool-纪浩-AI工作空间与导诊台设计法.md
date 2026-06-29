@@ -19,11 +19,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: skill-纪浩-真需求四要素验证法
 related:
-  - [[case-lean-adult-education]]
-  - [[case-truman-ai-skill-self-packaging]]
-  - [[yt-barrier-identification-skill]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[case-lean-adult-education]]"
+  - "[[case-truman-ai-skill-self-packaging]]"
+  - "[[yt-barrier-identification-skill]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:

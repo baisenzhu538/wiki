@@ -19,13 +19,13 @@ query_triggers:
 - src_unknown
 - src_unknown怎么用
 related:
-- - - yt-composite-pan-product-methodology
-- - - yt-model-pan-product-demand-toolkit
-- - - yt-model-pan-product-aesthetic-toolkit
-- - - yt-model-pan-product-execution-toolkit
-- - - yt-model-pan-product-three-virtues
-- - - yt-model-pan-product-climbing-map
-- - - yt-model-ipo-learning-strategy
+- "[[yt-composite-pan-product-methodology]]"
+- "[[yt-model-pan-product-demand-toolkit]]"
+- "[[yt-model-pan-product-aesthetic-toolkit]]"
+- "[[yt-model-pan-product-execution-toolkit]]"
+- "[[yt-model-pan-product-three-virtues]]"
+- "[[yt-model-pan-product-climbing-map]]"
+- "[[yt-model-ipo-learning-strategy]]"
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:

@@ -21,7 +21,7 @@ author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: '2026-06-25'
 related:
-  - [[tool-建立策略-要素映射表设计对抗策略]]
+  - "[[tool-建立策略-要素映射表设计对抗策略]]"
 diagnostic_signals:
 - framework_lens: 决策优先映射
   follow_up_question: 你当前的研究动作对应哪个具体决策？如果结果不支持，会停止还是转向？

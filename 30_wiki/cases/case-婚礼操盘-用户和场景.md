@@ -17,9 +17,9 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - [[yitang-domain-digest]]
-  - [[decision-science-domain-digest]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[decision-science-domain-digest]]"
+  - "[[pending_unknown]]"
 updated_at: '2026-06-29'
 
 ---

@@ -11,13 +11,13 @@ target_roles:
 - src_unknown
 - src_unknown
 related:
-  - [[huangyaoshi-tagging-and-scope-proposal]]
-  - [[dk-yb1-aigc-mvp-before-ps]]
-  - [[dk-yb27-pseudo-layer-evasion]]
-  - [[smart-device-foodservice-automation]]
-  - [[beverage-foodservice-channel]]
-  - [[data-curator-role-division]]
-  - [[plan_20260531_data-curator-v1.3]]
+  - "[[huangyaoshi-tagging-and-scope-proposal]]"
+  - "[[dk-yb1-aigc-mvp-before-ps]]"
+  - "[[dk-yb27-pseudo-layer-evasion]]"
+  - "[[smart-device-foodservice-automation]]"
+  - "[[beverage-foodservice-channel]]"
+  - "[[data-curator-role-division]]"
+  - "[[plan_20260531_data-curator-v1.3]]"
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:

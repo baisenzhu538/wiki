@@ -14,12 +14,12 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-19'
 related:
-  - [[yt-demand-fake-demand-detection]]
-  - [[dk-mckinsey-hypothesis-driven-pitfalls]]
-  - [[dk-ai-judgment-human-responsibility]]
-  - [[yt-five-step-method]]
-  - [[dk-tool-as-phased-validator]]
-  - [[yitang-domain-digest]]
+  - "[[yt-demand-fake-demand-detection]]"
+  - "[[dk-mckinsey-hypothesis-driven-pitfalls]]"
+  - "[[dk-ai-judgment-human-responsibility]]"
+  - "[[yt-five-step-method]]"
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[yitang-domain-digest]]"
 wiki_refs:
 - src_unknown
 - src_unknown

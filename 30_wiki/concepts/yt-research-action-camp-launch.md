@@ -37,11 +37,11 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 related:
-  - [[yitang-research-domain-digest]]
-  - [[dk-jh-llm-time-blindness]]
-  - [[fix-dark-knowledge-extractor-llm]]
-  - [[dk-yb2-llm-muddy-clear-muddy]]
-  - [[pending_unknown]]
+  - "[[yitang-research-domain-digest]]"
+  - "[[dk-jh-llm-time-blindness]]"
+  - "[[fix-dark-knowledge-extractor-llm]]"
+  - "[[dk-yb2-llm-muddy-clear-muddy]]"
+  - "[[pending_unknown]]"
 ---
 
 # 一堂调研行动营 · 启动课（LLM 精炼）

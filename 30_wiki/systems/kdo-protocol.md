@@ -8,14 +8,14 @@ id: kdo-protocol
 created_at: '2026-05-02'
 updated_at: '2026-06-16'
 related:
-- - - case-半肥猫-course-to-skill
-- - - dk-modeling-ai-without-judgment
-- - - kdo_product_design_agent_final
-- - - kdo-priority-checklist
-- - - case-ban-fei-mao-conversion-hacker-skill
-- - - kdo-protocol
-- - - index
-- - - business-research-skill-oscar-13-weapon-system
+- "[[case-半肥猫-course-to-skill]]"
+- "[[dk-modeling-ai-without-judgment]]"
+- "[[kdo_product_design_agent_final]]"
+- "[[kdo-priority-checklist]]"
+- "[[case-ban-fei-mao-conversion-hacker-skill]]"
+- "[[kdo-protocol]]"
+- "[[index]]"
+- "[[business-research-skill-oscar-13-weapon-system]]"
 tags: []
 trust_level: medium
 reviewed_by: Claude

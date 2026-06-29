@@ -17,12 +17,12 @@ trust_level: medium
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - [[framework-decision-quality-checklist]]
-  - [[framework-decision-cognitive-bias-map]]
-  - [[concept-AI时代双三角竞争力]]
-  - [[dk-decision-when-to-defer]]
-  - [[case-科学决策-深度案例01]]
-  - [[case-truman-ai-skill-engineering-guide]]
+  - "[[framework-decision-quality-checklist]]"
+  - "[[framework-decision-cognitive-bias-map]]"
+  - "[[concept-AI时代双三角竞争力]]"
+  - "[[dk-decision-when-to-defer]]"
+  - "[[case-科学决策-深度案例01]]"
+  - "[[case-truman-ai-skill-engineering-guide]]"
 ---
 
 # AI 辅助决策 vs 人工决策的边界案例

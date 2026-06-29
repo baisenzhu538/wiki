@@ -20,11 +20,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-unit-model-construction]]
-  - [[yt-unit-model-selection]]
-  - [[yt-unit-model-dynamic]]
-  - [[yt-decision-y-model]]
-  - [[yt-unit-model-concept]]
+  - "[[yt-unit-model-construction]]"
+  - "[[yt-unit-model-selection]]"
+  - "[[yt-unit-model-dynamic]]"
+  - "[[yt-decision-y-model]]"
+  - "[[yt-unit-model-concept]]"
 source_refs:
 - 10_raw/sources/src_20260610_557408fa-一堂-一堂五步法-单元模型-笔记.md
 - 10_raw/sources/src_20260610_be139711-一堂-一堂五步法-单元模型-口述.md

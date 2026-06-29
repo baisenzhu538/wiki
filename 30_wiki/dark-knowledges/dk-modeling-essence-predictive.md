@@ -31,11 +31,11 @@ diagnostic_signals:
   framework_lens: 生成式模型的解释力幻觉
   follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
 related:
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

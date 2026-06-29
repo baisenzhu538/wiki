@@ -17,9 +17,9 @@ source_refs:
 created_at: 2026-06-08
 updated_at: 2026-06-28
 related:
-  - [[concept-一堂-key-assumptions]]
-  - [[yt-lean-assumption-verification-3means]]
-  - [[yitang-domain-digest]]
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[yt-lean-assumption-verification-3means]]"
+  - "[[yitang-domain-digest]]"
 wiki_refs:
 - src_unknown
 - src_unknown

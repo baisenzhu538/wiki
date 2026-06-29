@@ -23,11 +23,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622213143_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-案例-4种对比-01_vlm_desc.md
 related:
-  - [[strategy-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[strategy-domain-digest]]"
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 ---
 
 # 系统测试曲线与三大测试范式

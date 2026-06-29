@@ -17,11 +17,11 @@ reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: high
 related:
-  - [[framework-yitang-research-quality-gate]]
-  - [[framework-wanghuan-gan-three-roles]]
-  - [[concept-harness-cattle-not-pets]]
-  - [[concept-harness-scoring-anchors]]
-  - [[tool-harness-adversarial-tester]]
+  - "[[framework-yitang-research-quality-gate]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[concept-harness-cattle-not-pets]]"
+  - "[[concept-harness-scoring-anchors]]"
+  - "[[tool-harness-adversarial-tester]]"
 ---
 # KDO 质量体系升级——Harness Engineering 三原则落地
 

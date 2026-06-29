@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-AIGC产品白底图制作]]
-  - [[tool-月白-口喷作图工作流]]
-  - [[tool-月白-80分效率设计策略]]
-  - [[tool-月白-AIGC设计作业复盘法]]
-  - [[tool-月白-AIGC人群画像驱动详情页规划]]
+  - "[[tool-月白-AIGC产品白底图制作]]"
+  - "[[tool-月白-口喷作图工作流]]"
+  - "[[tool-月白-80分效率设计策略]]"
+  - "[[tool-月白-AIGC设计作业复盘法]]"
+  - "[[tool-月白-AIGC人群画像驱动详情页规划]]"
 ---
 # 技能：产品白底图标准化制作
 

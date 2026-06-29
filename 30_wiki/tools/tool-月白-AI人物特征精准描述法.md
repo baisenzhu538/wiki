@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- - - tool-月白-口喷式AIGC设计法
-- - - tool-月白-AI对话情绪管理法
-- - - tool-月白-AI生图与图生图决策法
-- - - tool-月白-关键要素提取改图法
-- - - tool-月白-文创材质调研与精益选择
+- "[[tool-月白-口喷式AIGC设计法]]"
+- "[[tool-月白-AI对话情绪管理法]]"
+- "[[tool-月白-AI生图与图生图决策法]]"
+- "[[tool-月白-关键要素提取改图法]]"
+- "[[tool-月白-文创材质调研与精益选择]]"
 ---
 # 技能：AI人物特征精准描述法
 

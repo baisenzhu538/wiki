@@ -15,11 +15,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-月白-封面情绪转化法]]
-  - [[tool-纪浩-Agent技能市场设计法]]
-  - [[tool-月白-眼高手低转化法]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-月白-封面情绪转化法]]"
+  - "[[tool-纪浩-Agent技能市场设计法]]"
+  - "[[tool-月白-眼高手低转化法]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 definition_of_done:
 - src_unknown
 - src_unknown

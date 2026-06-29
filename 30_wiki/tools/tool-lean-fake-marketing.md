@@ -17,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212119_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212119_vlm_desc.md
 related:
-  - [[strategy-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[strategy-domain-digest]]"
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---

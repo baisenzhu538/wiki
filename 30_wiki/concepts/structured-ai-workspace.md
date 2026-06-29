@@ -12,11 +12,11 @@ source_refs:
 component_of:
 - src_unknown
 related:
-- - - ai-collaboration-mindset-shift
-- - - prd-as-ai-instruction
-- - - ai-learning-closed-loop
-- - - pending_unknown
-- - - pending_unknown
+- "[[ai-collaboration-mindset-shift]]"
+- "[[prd-as-ai-instruction]]"
+- "[[ai-learning-closed-loop]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 query_triggers:
 - src_unknown
 - src_unknown

@@ -17,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212212_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212212_vlm_desc.md
 related:
-- - - strategy-domain-digest
-- - - yitang-domain-digest
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
+- "[[strategy-domain-digest]]"
+- "[[yitang-domain-digest]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 一堂 FALSE 模型 A 阶段（人工服务）
   follow_up_question: 能否用真人后台先跑一轮服务，前端只做一个简单的输入/展示界面？

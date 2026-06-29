@@ -15,22 +15,22 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - [[tool-yitang-weapon-former-employee-network]]
-  - [[framework-wanghuan-gan-three-roles]]
-  - [[tool-yitang-web-scraping-research]]
-  - [[framework-yitang-research-radar]]
-  - [[tool-mckinsey-hypothesis-driven-workflow]]
-  - [[yt-business-model-network-effects]]
-  - [[yt-model-muse-ai-framework]]
-  - [[framework-logic-cleanliness-five-levels]]
-  - [[framework-strategy-pyramid]]
-  - [[framework-yitang-channel-exploration-4step]]
-  - [[framework-lean-four-principles]]
-  - [[framework-lean-pivot-decision]]
-  - [[framework-doris-industry-report-4step]]
-  - [[framework-kdo-self-attack]]
-  - [[dk-modeling-timely-review-session-window]]
-  - [[framework-yitang-deliberate-practice-1plus4]]
+  - "[[tool-yitang-weapon-former-employee-network]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[tool-yitang-web-scraping-research]]"
+  - "[[framework-yitang-research-radar]]"
+  - "[[tool-mckinsey-hypothesis-driven-workflow]]"
+  - "[[yt-business-model-network-effects]]"
+  - "[[yt-model-muse-ai-framework]]"
+  - "[[framework-logic-cleanliness-five-levels]]"
+  - "[[framework-strategy-pyramid]]"
+  - "[[framework-yitang-channel-exploration-4step]]"
+  - "[[framework-lean-four-principles]]"
+  - "[[framework-lean-pivot-decision]]"
+  - "[[framework-doris-industry-report-4step]]"
+  - "[[framework-kdo-self-attack]]"
+  - "[[dk-modeling-timely-review-session-window]]"
+  - "[[framework-yitang-deliberate-practice-1plus4]]"
 pipeline:
 - src_unknown
 - src_unknown

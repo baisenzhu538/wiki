@@ -14,11 +14,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- [[dk-yb6-midjourney-chinese-text-fix]]
-- [[dk-yb3-diffusion-stepwise-vs-human-holistic]]
-- [[case-yitang-luckin-field-research]]
-- [[dk-yb3-diffusion-stepwise-vs-human-holistic]]
-- [[master-knowledge-compound]]
+- "[[dk-yb6-midjourney-chinese-text-fix]]"
+- "[[dk-yb3-diffusion-stepwise-vs-human-holistic]]"
+- "[[case-yitang-luckin-field-research]]"
+- "[[dk-yb3-diffusion-stepwise-vs-human-holistic]]"
+- "[[master-knowledge-compound]]"
 pipeline:
 - src_unknown
 author: 月白

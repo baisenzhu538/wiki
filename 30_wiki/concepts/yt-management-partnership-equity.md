@@ -15,11 +15,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yitang-course-map
-- - - yt-system-course-catalog
-- - - tool-yitang-channel-partnership-design
-- - - framework-yitang-channel-partnership-map
-- - - case-yitang-goat-milk-channel-partnership
+- "[[yitang-course-map]]"
+- "[[yt-system-course-catalog]]"
+- "[[tool-yitang-channel-partnership-design]]"
+- "[[framework-yitang-channel-partnership-map]]"
+- "[[case-yitang-goat-milk-channel-partnership]]"
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:

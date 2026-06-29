@@ -19,11 +19,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- [[graph-rag-retrieval-layer]]
-- [[case-truman-ai-partner]]
-- [[proposal-prompt-injection-infrastructure]]
-- [[case-ji-hao-skills-market]]
-- [[ai-native-im-multi-agent]]
+- "[[graph-rag-retrieval-layer]]"
+- "[[case-truman-ai-partner]]"
+- "[[proposal-prompt-injection-infrastructure]]"
+- "[[case-ji-hao-skills-market]]"
+- "[[ai-native-im-multi-agent]]"
 ---
 # KDO Agent 体系建设方案
 

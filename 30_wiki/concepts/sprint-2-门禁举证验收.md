@@ -15,11 +15,11 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- - - sprint-2-gate-enrich-evidence
-- - - sprint-6-cli-gap-proposal
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
+- "[[sprint-2-gate-enrich-evidence]]"
+- "[[sprint-6-cli-gap-proposal]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 ---
 
 # Sprint 2 门禁举证验收

@@ -19,9 +19,9 @@ updated_at: '2026-06-21'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - [[tool-按分阶练习路径渐进掌握方法]]
-  - [[tool-Truman-AI能力分层学习路径]]
-  - [[tool-马易-销售智能体体系搭建路径]]
+  - "[[tool-按分阶练习路径渐进掌握方法]]"
+  - "[[tool-Truman-AI能力分层学习路径]]"
+  - "[[tool-马易-销售智能体体系搭建路径]]"
 diagnostic_signals:
 - framework_lens: 端到端工作流——7步从问题到报告
   follow_up_question: 你现在卡在哪一步？每一步的产出物是什么？

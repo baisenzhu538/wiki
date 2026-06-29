@@ -28,20 +28,20 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- [[tool-yitang-18-strategy-tool-mapping]]
-- [[yitang-research-domain-digest]]
-- [[tool-yitang-research-two-dimensional-positioning]]
-- [[tool-yitang-research-single-point-sniper]]
-- [[tool-yitang-research-follow-map]]
-- [[framework-yitang-oscar-research]]
-- [[framework-yitang-18-strategy-cards]]
-- [[tool-yitang-research-two-dimensional-positioning]]
-- [[tool-yitang-research-follow-map]]
-- [[yt-research-competitor-toolkit]]
-- [[case-yitang-sanjieke-benchmark-failure]]
-- [[dk-yitang-research-starter-vs-veteran]]
-- [[dk-yitang-research-ai-hallucination]]
-- [[concept-yitang-research-mindset]]
+- "[[tool-yitang-18-strategy-tool-mapping]]"
+- "[[yitang-research-domain-digest]]"
+- "[[tool-yitang-research-two-dimensional-positioning]]"
+- "[[tool-yitang-research-single-point-sniper]]"
+- "[[tool-yitang-research-follow-map]]"
+- "[[framework-yitang-oscar-research]]"
+- "[[framework-yitang-18-strategy-cards]]"
+- "[[tool-yitang-research-two-dimensional-positioning]]"
+- "[[tool-yitang-research-follow-map]]"
+- "[[yt-research-competitor-toolkit]]"
+- "[[case-yitang-sanjieke-benchmark-failure]]"
+- "[[dk-yitang-research-starter-vs-veteran]]"
+- "[[dk-yitang-research-ai-hallucination]]"
+- "[[concept-yitang-research-mindset]]"
 
 ---
 

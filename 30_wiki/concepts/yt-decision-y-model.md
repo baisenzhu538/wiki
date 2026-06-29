@@ -20,14 +20,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-entrepreneur-key-hypotheses
-- - - yt-unit-model-build
-- - - yt-decision-canvas
-- - - yt-decision-ai-partner
-- - - yt-model-entrepreneur-map
-- - - yt-decision-width-method
-- - - yt-decision-depth-ladder
-- - - yt-five-step-method
+- "[[yt-entrepreneur-key-hypotheses]]"
+- "[[yt-unit-model-build]]"
+- "[[yt-decision-canvas]]"
+- "[[yt-decision-ai-partner]]"
+- "[[yt-model-entrepreneur-map]]"
+- "[[yt-decision-width-method]]"
+- "[[yt-decision-depth-ladder]]"
+- "[[yt-five-step-method]]"
 reviewed_by: 周伯通
 source_refs:
 - 10_raw/sources/src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02.md

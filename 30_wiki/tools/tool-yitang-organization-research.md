@@ -30,11 +30,11 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡8（组织调研）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - [[yitang-domain-digest]]
-  - [[yitang-research-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[yitang-research-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 ---
 
 # 组织调研手段：浅中深三层10大评估法

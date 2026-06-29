@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[yt-growth-strategy-overview]]
-  - [[yt-growth-to-barrier]]
-  - [[yt-product-kernel-to-business-model]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yt-growth-strategy-overview]]"
+  - "[[yt-growth-to-barrier]]"
+  - "[[yt-product-kernel-to-business-model]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 从商业模式到增长——商业模式成立≠增长自动发生
   follow_up_question: 你的商业模式成立后，增长策略是什么？获客、留存、变现的优化方向？

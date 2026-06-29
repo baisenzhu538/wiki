@@ -16,7 +16,7 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[yt-model-muse-ai-framework]]
+  - "[[yt-model-muse-ai-framework]]"
 ---
 # OCR: 一堂-个人修炼-全景图MUSE模型
 

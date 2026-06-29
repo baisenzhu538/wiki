@@ -30,11 +30,11 @@ source_refs:
 - 00_inbox/调研专题/调研雷达图_vlm_desc.md
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - [[yitang-domain-digest]]
-  - [[yitang-research-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[yitang-research-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 ---
 
 # 调研雷达图：四象限能力诊断与六种缺失识别

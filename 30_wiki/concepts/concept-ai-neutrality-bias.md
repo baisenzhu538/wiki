@@ -18,12 +18,12 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - [[tool-ai-critical-reading-three-layers]]
-  - [[tool-ai2041-source-verification-checklist]]
-  - [[framework-ai2041-critical-reading-os]]
-  - [[framework-wanghuan-ooda-loop]]
-  - [[framework-wanghuan-gan-three-roles]]
-  - [[concept-ai-chair-determines-view]]
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[tool-ai2041-source-verification-checklist]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[concept-ai-chair-determines-view]]"
 ---
 
 # 中立的暴政

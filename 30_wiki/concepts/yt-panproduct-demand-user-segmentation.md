@@ -21,11 +21,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-model-pan-product-demand-toolkit
-- - - yt-model-pan-product-36-strategies
-- - - 一堂
-- - - yt-panproduct-demand-user-perspective
-- - - yt-panproduct-demand-scenario-walkthrough
+- "[[yt-model-pan-product-demand-toolkit]]"
+- "[[yt-model-pan-product-36-strategies]]"
+- "[[一堂]]"
+- "[[yt-panproduct-demand-user-perspective]]"
+- "[[yt-panproduct-demand-scenario-walkthrough]]"
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_38ddd826-ocr-泛产品设计-用户卡片-用户分层.md

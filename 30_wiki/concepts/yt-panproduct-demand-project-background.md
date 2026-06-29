@@ -21,12 +21,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-model-pan-product-demand-toolkit
-- - - yt-model-pan-product-36-strategies
-- - - 一堂
-- - - yt-panproduct-demand-user-perspective
-- - - yt-panproduct-demand-multi-perspective
-- - - yt-panproduct-demand-industry-canvas
+- "[[yt-model-pan-product-demand-toolkit]]"
+- "[[yt-model-pan-product-36-strategies]]"
+- "[[一堂]]"
+- "[[yt-panproduct-demand-user-perspective]]"
+- "[[yt-panproduct-demand-multi-perspective]]"
+- "[[yt-panproduct-demand-industry-canvas]]"
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_115e8827-ocr-泛产品设计-用户卡片-项目背景分析.md

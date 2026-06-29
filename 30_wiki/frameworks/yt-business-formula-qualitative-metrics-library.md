@@ -2,11 +2,11 @@
 
 
 related:
-  - [[case-private-domain-ecommerce-formula]]
-  - [[case-saas-renewal-formula]]
-  - [[case-offline-catering-formula]]
-  - [[case-dental-clinic-formula]]
-  - [[case-gym-membership-formula]]
+  - "[[case-private-domain-ecommerce-formula]]"
+  - "[[case-saas-renewal-formula]]"
+  - "[[case-offline-catering-formula]]"
+  - "[[case-dental-clinic-formula]]"
+  - "[[case-gym-membership-formula]]"
 source_refs:
 - pending_archive: src_unknown
 ---

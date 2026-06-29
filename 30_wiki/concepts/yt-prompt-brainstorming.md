@@ -43,11 +43,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium-high
 related:
-  - [[yt-model-prompt-engineering]]
-  - [[yt-prompt-iterative-prompting]]
-  - [[yt-prompt-anti-flattery]]
-  - [[yt-concept-context-engineering]]
-  - [[yitang-domain-digest]]
+  - "[[yt-model-prompt-engineering]]"
+  - "[[yt-prompt-iterative-prompting]]"
+  - "[[yt-prompt-anti-flattery]]"
+  - "[[yt-concept-context-engineering]]"
+  - "[[yitang-domain-digest]]"
 ---
 
 # AI 头脑风暴工作流

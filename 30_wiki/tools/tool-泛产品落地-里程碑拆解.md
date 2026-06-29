@@ -16,11 +16,11 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-里程碑拆解_vlm_desc.md
 related:
-  - [[yitang-domain-digest]]
-  - [[decision-science-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[decision-science-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 updated_at: '2026-06-29'
 ---
 

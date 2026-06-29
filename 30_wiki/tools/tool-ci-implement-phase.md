@@ -18,11 +18,11 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 - https://blog.bestbootcamps.com/competitive-intelligence-framework/
 related:
-- - - tool-yitang-research-continuous-tracking
-- - - framework-yitang-18-strategy-cards
-- - - yt-five-step-implementation
-- - - kdo-protocol-implementation-roadmap
-- - - tool-ci-define-phase
+- "[[tool-yitang-research-continuous-tracking]]"
+- "[[framework-yitang-18-strategy-cards]]"
+- "[[yt-five-step-implementation]]"
+- "[[kdo-protocol-implementation-roadmap]]"
+- "[[tool-ci-define-phase]]"
 status: enriched
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

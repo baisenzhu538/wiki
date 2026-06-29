@@ -21,11 +21,11 @@ review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-- [[concept-smart-medicine-cabinet-international-models]]
-- [[tool-smart-medicine-cabinet-compliance-checklist]]
-- [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
-- [[smart-medicine-cabinet-clinic-risk-observation]]
-- [[互联网医院项目]]
+- "[[concept-smart-medicine-cabinet-international-models]]"
+- "[[tool-smart-medicine-cabinet-compliance-checklist]]"
+- "[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]"
+- "[[smart-medicine-cabinet-clinic-risk-observation]]"
+- "[[互联网医院项目]]"
 ---
 ## Purpose
 

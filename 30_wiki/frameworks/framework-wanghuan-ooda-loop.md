@@ -22,11 +22,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[framework-wanghuan-bitcoe-prompt-framework]]
-  - [[framework-wanghuan-task-product-system]]
-  - [[framework-wanghuan-gan-three-roles]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[framework-wanghuan-task-product-system]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

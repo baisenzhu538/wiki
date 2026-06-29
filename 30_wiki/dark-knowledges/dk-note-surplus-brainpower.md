@@ -16,11 +16,11 @@ source_refs:
 created_at: '2026-06-07'
 updated_at: '2026-06-18'
 related:
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

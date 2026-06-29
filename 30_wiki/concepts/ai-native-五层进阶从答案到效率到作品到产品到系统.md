@@ -11,11 +11,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-research-osl-framework]]
-  - [[yt-note-checklist-concept]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yt-research-osl-framework]]"
+  - "[[yt-note-checklist-concept]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 source_refs: []
 status: enriched
 title: AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统

@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[ocr-一堂-个人修炼-科学学习ipo完整清单]]
-  - [[yt-model-ipo-learning-strategy]]
-  - [[ocr-一堂-个人修炼-科学学习ipo模型]]
-  - [[yt-personal-ipo-learning]]
-  - [[dk-truman-knowledge-extraction-three-schools]]
+  - "[[ocr-一堂-个人修炼-科学学习ipo完整清单]]"
+  - "[[yt-model-ipo-learning-strategy]]"
+  - "[[ocr-一堂-个人修炼-科学学习ipo模型]]"
+  - "[[yt-personal-ipo-learning]]"
+  - "[[dk-truman-knowledge-extraction-three-schools]]"
 ---
 # OCR: 一堂-个人修炼-科学学习IPO-全景策略
 

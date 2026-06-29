@@ -16,11 +16,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[case-proya-betaine-skincare-benchmark]]
-  - [[concept-一堂-key-assumptions]]
-  - [[framework-一堂五步法-泛产品设计]]
-  - [[yt-five-step-method]]
-  - [[yt-model-five-step-canvas]]
+  - "[[case-proya-betaine-skincare-benchmark]]"
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[framework-一堂五步法-泛产品设计]]"
+  - "[[yt-five-step-method]]"
+  - "[[yt-model-five-step-canvas]]"
 ---
 # OCR: 一堂五步法画布
 

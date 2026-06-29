@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- [[yt-demand-hierarchy-model]]
-- [[yt-demand-qualitative-analysis]]
-- [[yt-demand-jtbd-application]]
-- [[yt-demand-market-size-pitfalls]]
-- [[yt-five-step-method]]
+- "[[yt-demand-hierarchy-model]]"
+- "[[yt-demand-qualitative-analysis]]"
+- "[[yt-demand-jtbd-application]]"
+- "[[yt-demand-market-size-pitfalls]]"
+- "[[yt-five-step-method]]"
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 伪需求信号1——兴趣≠需求

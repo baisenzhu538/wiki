@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[tool-泛产品落地-低成本测试MVP]]
-  - [[tool-月白-模型识别与边界测试法]]
-  - [[ocr-泛产品设计-落地卡片-低成本测试mvp]]
-  - [[tool-月白-餐饮海报AB测试法]]
-  - [[pending_unknown]]
+  - "[[tool-泛产品落地-低成本测试MVP]]"
+  - "[[tool-月白-模型识别与边界测试法]]"
+  - "[[ocr-泛产品设计-落地卡片-低成本测试mvp]]"
+  - "[[tool-月白-餐饮海报AB测试法]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 内核假设测试——假设未测试
   follow_up_question: 你的内核假设是什么？用什么方法测试？测试结果是什么？

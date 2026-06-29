@@ -13,12 +13,12 @@ domain: strategy
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:
-  - [[case-strategy-failure-05-it]]
-  - [[case-strategy-failure-06-phone-n]]
-  - [[case-strategy-failure-07-phone-l]]
-  - [[case-strategy-failure-08-video]]
-  - [[case-strategy-failure-09-boeing]]
-  - [[strategy-domain-digest]]
+  - "[[case-strategy-failure-05-it]]"
+  - "[[case-strategy-failure-06-phone-n]]"
+  - "[[case-strategy-failure-07-phone-l]]"
+  - "[[case-strategy-failure-08-video]]"
+  - "[[case-strategy-failure-09-boeing]]"
+  - "[[strategy-domain-digest]]"
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---

@@ -34,12 +34,12 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-- - - yt-barrier-analysis-cheat-sheet
-- - - yt-barrier-identification-skill
-- - - case-toy-cabinet-business-model
-- - - yt-unit-model-three-tools
-- - - yt-five-step-method
-- - - yitang-domain-digest
+- "[[yt-barrier-analysis-cheat-sheet]]"
+- "[[yt-barrier-identification-skill]]"
+- "[[case-toy-cabinet-business-model]]"
+- "[[yt-unit-model-three-tools]]"
+- "[[yt-five-step-method]]"
+- "[[yitang-domain-digest]]"
 ---
 
 # 案例：线下玩具柜的壁垒困局与突围路径

@@ -18,16 +18,16 @@ source_refs:
   - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
 source_person: 盈盈行动营
 related:
-  - [[framework-yitang-deliberate-practice-1plus4]]
-  - [[tool-yitang-practice-20hour-starter]]
-  - [[tool-yitang-best-practice-as-golden-finger]]
-  - [[tool-yitang-feedback-self-check]]
-  - [[framework-yitang-three-ring-ability-focus]]
-  - [[concept-yitang-comfort-stretch-panic-zones]]
-  - [[framework-ai-deliberate-practice-loop]]
-  - [[dk-yitang-deliberate-practice-common-traps]]
-  - [[case-yitang-poker-parameterized-practice]]
-  - [[case-yitang-ai-painting-commercialization]]
+  - "[[framework-yitang-deliberate-practice-1plus4]]"
+  - "[[tool-yitang-practice-20hour-starter]]"
+  - "[[tool-yitang-best-practice-as-golden-finger]]"
+  - "[[tool-yitang-feedback-self-check]]"
+  - "[[framework-yitang-three-ring-ability-focus]]"
+  - "[[concept-yitang-comfort-stretch-panic-zones]]"
+  - "[[framework-ai-deliberate-practice-loop]]"
+  - "[[dk-yitang-deliberate-practice-common-traps]]"
+  - "[[case-yitang-poker-parameterized-practice]]"
+  - "[[case-yitang-ai-painting-commercialization]]"
 updated_at: 2026-06-28
 ---
 

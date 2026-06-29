@@ -16,11 +16,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[yt-model-y-organization]]
-  - [[yt-management-strategy-meeting]]
-  - [[ocr-婚礼操盘-用户和场景]]
-  - [[yt-unit-model-benchmark]]
-  - [[ocr-婚礼规划]]
+  - "[[yt-model-y-organization]]"
+  - "[[yt-management-strategy-meeting]]"
+  - "[[ocr-婚礼操盘-用户和场景]]"
+  - "[[yt-unit-model-benchmark]]"
+  - "[[ocr-婚礼规划]]"
 ---
 # OCR: 一堂Y模型steps策略集
 

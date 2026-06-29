@@ -16,14 +16,14 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-  - [[yt-management-project-management]]
-  - [[yt-management-toolkit-overview]]
-  - [[yt-tool-meeting-designer]]
-  - [[yt-tool-knowledge-extraction]]
-  - [[yt-decision-canvas]]
-  - [[yt-management-goal-management]]
-  - [[master-decision-hygiene]]
-  - [[master-knowledge-compound]]
+  - "[[yt-management-project-management]]"
+  - "[[yt-management-toolkit-overview]]"
+  - "[[yt-tool-meeting-designer]]"
+  - "[[yt-tool-knowledge-extraction]]"
+  - "[[yt-decision-canvas]]"
+  - "[[yt-management-goal-management]]"
+  - "[[master-decision-hygiene]]"
+  - "[[master-knowledge-compound]]"
 contradicts: null
 query_triggers:
 - src_unknown

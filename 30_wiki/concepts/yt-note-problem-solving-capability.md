@@ -13,13 +13,13 @@ confidence: 0.88
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 related:
-  - [[tool-月白-设计能力蒸馏封装法]]
-  - [[tool-月白-泛产品设计能力迁移法]]
-  - [[tool-月白-光影灰度控制能力构建]]
-  - [[tool-马易-AI能力团队复制]]
-  - [[tool-马易-AI落地能力内化训练]]
-  - [[tool-城市合伙人模式复制能力]]
-  - [[tool-Truman-AI能力分层学习路径]]
+  - "[[tool-月白-设计能力蒸馏封装法]]"
+  - "[[tool-月白-泛产品设计能力迁移法]]"
+  - "[[tool-月白-光影灰度控制能力构建]]"
+  - "[[tool-马易-AI能力团队复制]]"
+  - "[[tool-马易-AI落地能力内化训练]]"
+  - "[[tool-城市合伙人模式复制能力]]"
+  - "[[tool-Truman-AI能力分层学习路径]]"
 query_triggers:
 - src_unknown
 - src_unknown

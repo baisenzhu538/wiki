@@ -15,9 +15,9 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-29'
 related:
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
 pipeline:
 - src_unknown
 - src_unknown

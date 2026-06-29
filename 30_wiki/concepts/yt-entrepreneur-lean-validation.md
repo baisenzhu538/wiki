@@ -20,12 +20,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yitang-course-map]]
-  - [[yt-system-course-catalog]]
-  - [[yt-entrepreneur-five-step-method]]
-  - [[yt-entrepreneur-scientific-method]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[yt-model-entrepreneur-map]]
+  - "[[yitang-course-map]]"
+  - "[[yt-system-course-catalog]]"
+  - "[[yt-entrepreneur-five-step-method]]"
+  - "[[yt-entrepreneur-scientific-method]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[yt-model-entrepreneur-map]]"
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:

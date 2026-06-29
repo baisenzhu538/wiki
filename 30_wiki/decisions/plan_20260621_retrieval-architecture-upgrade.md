@@ -16,11 +16,11 @@ reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: high
 related:
-  - [[plan_20260621_domain-index-infrastructure]]
-  - [[framework-yitang-research-quality-gate]]
-  - [[tool-yitang-18-strategy-tool-mapping]]
-  - [[yitang-research-domain-digest]]
-  - [[system-yitang-research-workflow]]
+  - "[[plan_20260621_domain-index-infrastructure]]"
+  - "[[framework-yitang-research-quality-gate]]"
+  - "[[tool-yitang-18-strategy-tool-mapping]]"
+  - "[[yitang-research-domain-digest]]"
+  - "[[system-yitang-research-workflow]]"
 ---
 # 检索架构升级方案
 

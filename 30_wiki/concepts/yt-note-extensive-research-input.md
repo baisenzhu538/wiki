@@ -13,11 +13,11 @@ confidence: 0.84
 source_refs:
 - 10_raw/sources/src_20260617_c5e5fb8e-一堂-ai时代请单体笔记-truman-口述-02.txt
 related:
-  - [[tool-清单式笔记法]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-清单式笔记法]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 query_triggers:
 - src_unknown
 - src_unknown

@@ -33,13 +33,13 @@ diagnostic_signals:
   lens: means-ends-confusion
   follow_up: 把验收标准前置，执行路径交给 AI 探索
 related:
-  - [[dk-wanghuan-tacit-decision-extraction-cross-domain]]
-  - [[dk-wanghuan-paced-sales-decision]]
-  - [[dk-wanghuan-agent-platform-director-mode]]
-  - [[yt-five-step-method]]
-  - [[dk-tool-as-phased-validator]]
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
+  - "[[dk-wanghuan-tacit-decision-extraction-cross-domain]]"
+  - "[[dk-wanghuan-paced-sales-decision]]"
+  - "[[dk-wanghuan-agent-platform-director-mode]]"
+  - "[[yt-five-step-method]]"
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[yitang-domain-digest]]"
 tags:
 - src_unknown
 - src_unknown

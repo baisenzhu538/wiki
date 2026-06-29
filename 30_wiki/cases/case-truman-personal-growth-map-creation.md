@@ -15,9 +15,9 @@ reviewed_by: 王语嫣（代欧阳锋）
 review_date: '2026-06-16'
 trust_level: medium
 related:
-- - - case-personal-map-modeling
-- - - dk-modeling-ai-without-judgment
-- - - pending_unknown
+- "[[case-personal-map-modeling]]"
+- "[[dk-modeling-ai-without-judgment]]"
+- "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

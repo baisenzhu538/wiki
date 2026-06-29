@@ -22,11 +22,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-decision-y-model
-- - - yt-decision-width-method
-- - - yt-decision-depth-ladder
-- - - yt-decision-ai-partner
-- - - yt-entrepreneur-key-hypotheses
+- "[[yt-decision-y-model]]"
+- "[[yt-decision-width-method]]"
+- "[[yt-decision-depth-ladder]]"
+- "[[yt-decision-ai-partner]]"
+- "[[yt-entrepreneur-key-hypotheses]]"
 reviewed_by: 周伯通
 source_refs:
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md

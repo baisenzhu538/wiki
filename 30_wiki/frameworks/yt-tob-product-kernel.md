@@ -26,9 +26,9 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - [[tool-yitang-b2b-gov-research]]
-  - [[case-yitang-yitu-lead-industrialization]]
-  - [[yt-tob-cash-flow]]
+  - "[[tool-yitang-b2b-gov-research]]"
+  - "[[case-yitang-yitu-lead-industrialization]]"
+  - "[[yt-tob-cash-flow]]"
 diagnostic_signals:
 - framework_lens: 分阶段多角色卖点缺失；决策链上不同角色未被分别击穿
   follow_up_question: 我们目前的卖点是否覆盖了首购决策者、复购决策者（可能已变为使用者）以及关键关联方？

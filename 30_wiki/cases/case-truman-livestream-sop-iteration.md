@@ -16,13 +16,13 @@ reviewed_by: 黄药师
 review_date: '2026-06-14'
 trust_level: high
 related:
-- - - dk-modeling-sop-execution-locks
-- - - case-zhangyang-anchor-sop-three-locks
-- - - case-livestream-sop-modeling
-- - - tool-sop-template-modeling
-- - - case-modeling-process-sop-evolution
-- - - yt-decision-y-model-philosophical-roots
-- - - case-modeling-process-sop-examples
+- "[[dk-modeling-sop-execution-locks]]"
+- "[[case-zhangyang-anchor-sop-three-locks]]"
+- "[[case-livestream-sop-modeling]]"
+- "[[tool-sop-template-modeling]]"
+- "[[case-modeling-process-sop-evolution]]"
+- "[[yt-decision-y-model-philosophical-roots]]"
+- "[[case-modeling-process-sop-examples]]"
 tags:
 - src_unknown
 - src_unknown

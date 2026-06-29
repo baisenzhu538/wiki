@@ -21,11 +21,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - 一堂方法论体系总图
-- - - yitang-course-map
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
+- "[[一堂方法论体系总图]]"
+- "[[yitang-course-map]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:

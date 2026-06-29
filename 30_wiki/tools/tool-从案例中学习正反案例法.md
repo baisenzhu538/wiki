@@ -15,16 +15,16 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-专家访谈学习]]
-  - [[tool-从案例中学习]]
-  - [[ocr-一堂-ai学习-提问工程化]]
-  - [[tool-纪浩-Agent技能市场设计法]]
-  - [[tool-Truman-AI能力分层学习路径]]
-  - [[ocr-一堂-个人修炼-科学学习ipo模型]]
-  - [[ocr-一堂-ai学习-提问进化路线图]]
-  - [[tool-深度分层学习]]
-  - [[tool-半肥猫-边学边练边沉淀的AI学习法]]
-  - [[tool-寻找学习教练法]]
+  - "[[tool-专家访谈学习]]"
+  - "[[tool-从案例中学习]]"
+  - "[[ocr-一堂-ai学习-提问工程化]]"
+  - "[[tool-纪浩-Agent技能市场设计法]]"
+  - "[[tool-Truman-AI能力分层学习路径]]"
+  - "[[ocr-一堂-个人修炼-科学学习ipo模型]]"
+  - "[[ocr-一堂-ai学习-提问进化路线图]]"
+  - "[[tool-深度分层学习]]"
+  - "[[tool-半肥猫-边学边练边沉淀的AI学习法]]"
+  - "[[tool-寻找学习教练法]]"
 definition_of_done:
 - src_unknown
 - src_unknown

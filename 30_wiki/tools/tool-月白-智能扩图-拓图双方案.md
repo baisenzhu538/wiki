@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- - - tool-月白-Token效价比决策公式
-- - - tool-月白-AI图片去文字处理
-- - - tool-月白-餐饮海报AB测试法
-- - - tool-月白-线下门店设计复杂度评估
-- - - tool-月白-控制产品画面尺寸比例
+- "[[tool-月白-Token效价比决策公式]]"
+- "[[tool-月白-AI图片去文字处理]]"
+- "[[tool-月白-餐饮海报AB测试法]]"
+- "[[tool-月白-线下门店设计复杂度评估]]"
+- "[[tool-月白-控制产品画面尺寸比例]]"
 ---
 # 技能：智能扩图/拓图双方案
 

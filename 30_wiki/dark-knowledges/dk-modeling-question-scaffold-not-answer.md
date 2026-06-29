@@ -15,15 +15,15 @@ trust_level: medium-high
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 related:
-- [[dk-modeling-explanatory-vs-predictive-essence]]
-- [[dk-tool-as-answer-trap]]
-- [[tool-scenario-selector-modeling]]
-- [[dk-modeling-case-explosion-confidence]]
-- [[dk-tool-as-phased-validator]]
-- [[dk-modeling-radar-model-not-result]]
-- [[yt-lean-assumption-prioritization]]
-- [[dk-modeling-ai-iterative-prompting]]
-- [[modeling-three-stages]]
+- "[[dk-modeling-explanatory-vs-predictive-essence]]"
+- "[[dk-tool-as-answer-trap]]"
+- "[[tool-scenario-selector-modeling]]"
+- "[[dk-modeling-case-explosion-confidence]]"
+- "[[dk-tool-as-phased-validator]]"
+- "[[dk-modeling-radar-model-not-result]]"
+- "[[yt-lean-assumption-prioritization]]"
+- "[[dk-modeling-ai-iterative-prompting]]"
+- "[[modeling-three-stages]]"
 bridges_to:
 - target: src_unknown
   relation: provides_foundation_for

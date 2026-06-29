@@ -16,15 +16,15 @@ created_at: '2026-06-23'
 author: 黄药师
 reviewed_by: pending
 related:
-  - [[yitang-domain-digest]]
-  - [[tool-ai-skill-engineering-method]]
-  - [[concept-harness-cattle-not-pets]]
-  - [[yt-prompt-engineering-andrew-ng]]
-  - [[tool-harness-adversarial-tester]]
-  - [[tool-yitang-social-engineering-research]]
-  - [[yt-concept-context-engineering]]
-  - [[yt-model-prompt-engineering]]
-  - [[concept-harness-scoring-anchors]]
+  - "[[yitang-domain-digest]]"
+  - "[[tool-ai-skill-engineering-method]]"
+  - "[[concept-harness-cattle-not-pets]]"
+  - "[[yt-prompt-engineering-andrew-ng]]"
+  - "[[tool-harness-adversarial-tester]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[yt-concept-context-engineering]]"
+  - "[[yt-model-prompt-engineering]]"
+  - "[[concept-harness-scoring-anchors]]"
 ---
 
 # 域摘要：AI 协作方法论

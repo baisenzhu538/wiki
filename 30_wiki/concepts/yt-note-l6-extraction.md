@@ -13,11 +13,11 @@ source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-  - [[yt-note-checklist-concept]]
-  - [[yt-note-l4-internalization]]
-  - [[yt-model-prediction-model]]
-  - [[dk-note-surplus-brainpower]]
-  - [[pending_unknown]]
+  - "[[yt-note-checklist-concept]]"
+  - "[[yt-note-l4-internalization]]"
+  - "[[yt-model-prediction-model]]"
+  - "[[dk-note-surplus-brainpower]]"
+  - "[[pending_unknown]]"
 query_triggers:
 - src_unknown
 - src_unknown

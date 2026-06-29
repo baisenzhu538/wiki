@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - [[tool-月白-纳米级抄大师训练法]]
-  - [[tool-马易-AI项目上线-先平行再独行]]
-  - [[tool-ai-evidence-check]]
-  - [[tool-ai-ai-workspace-setup]]
-  - [[tool-ai-old-small-checklist]]
+  - "[[tool-月白-纳米级抄大师训练法]]"
+  - "[[tool-马易-AI项目上线-先平行再独行]]"
+  - "[[tool-ai-evidence-check]]"
+  - "[[tool-ai-ai-workspace-setup]]"
+  - "[[tool-ai-old-small-checklist]]"
 ---
 # 技能：平行运行验证法
 

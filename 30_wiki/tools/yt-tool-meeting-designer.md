@@ -16,14 +16,14 @@ prerequisites: null
 component_of:
 - src_unknown
 related:
-  - [[yt-management-scientific-meetings]]
-  - [[yt-decision-y-model]]
-  - [[master-decision-hygiene]]
-  - [[yt-personal-time-management]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[yt-management-toolkit-overview]]
-  - [[yt-management-goal-management]]
-  - [[yt-management-project-management]]
+  - "[[yt-management-scientific-meetings]]"
+  - "[[yt-decision-y-model]]"
+  - "[[master-decision-hygiene]]"
+  - "[[yt-personal-time-management]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[yt-management-toolkit-overview]]"
+  - "[[yt-management-goal-management]]"
+  - "[[yt-management-project-management]]"
 contradicts: null
 query_triggers:
 - src_unknown

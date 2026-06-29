@@ -21,11 +21,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-unit-model-benchmark]]
-  - [[yt-unit-model-construction]]
-  - [[yt-unit-model-ladder]]
-  - [[yt-unit-model-ai-assisted]]
-  - [[pending_unknown]]
+  - "[[yt-unit-model-benchmark]]"
+  - "[[yt-unit-model-construction]]"
+  - "[[yt-unit-model-ladder]]"
+  - "[[yt-unit-model-ai-assisted]]"
+  - "[[pending_unknown]]"
 source_refs:
 - 10_raw/sources/src_20260609_9fd664f5-ocr-一堂-单元模型-动态预测.md
 status: enriched

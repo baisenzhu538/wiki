@@ -14,12 +14,12 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - [[obsidian-kdo-内容产出工作流-产品设计大纲]]
-  - [[dk-ai-social-progress-not-automatic]]
-  - [[tool-demand-agent-auto-verify]]
-  - [[tool-马易-AI落地场景识别与拆分]]
-  - [[smart-device-foodservice-automation]]
-  - [[obsidian-git-sync-protocol]]
+  - "[[obsidian-kdo-内容产出工作流-产品设计大纲]]"
+  - "[[dk-ai-social-progress-not-automatic]]"
+  - "[[tool-demand-agent-auto-verify]]"
+  - "[[tool-马易-AI落地场景识别与拆分]]"
+  - "[[smart-device-foodservice-automation]]"
+  - "[[obsidian-git-sync-protocol]]"
 pipeline:
 - src_unknown
 - src_unknown

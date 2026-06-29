@@ -16,12 +16,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-unit-model-concept
-- - - yt-unit-model-ladder
-- - - yt-unit-model-selection
-- - - yt-market-size-estimation
-- - - case-unit-model-gashapon
-- - - yt-growth-cycle-model
+- "[[yt-unit-model-concept]]"
+- "[[yt-unit-model-ladder]]"
+- "[[yt-unit-model-selection]]"
+- "[[yt-market-size-estimation]]"
+- "[[case-unit-model-gashapon]]"
+- "[[yt-growth-cycle-model]]"
 review_date: 2026-06-16
 reviewed_by: 王语嫣
 source_refs:

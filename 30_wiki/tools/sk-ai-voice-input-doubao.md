@@ -30,11 +30,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: []
 related:
-  - [[tool-纪浩-Agent技能市场设计法]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-纪浩-Agent技能市场设计法]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

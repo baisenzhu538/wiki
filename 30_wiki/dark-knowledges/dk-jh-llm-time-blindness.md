@@ -16,11 +16,11 @@ confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
 related:
-- [[dk-f7-surface-translation]]
-- [[dk-my-ai-landing-three-barriers]]
-- [[dk-truman-iteration-to-aesthetic-ceiling]]
-- [[dk-ai-judgment-human-responsibility]]
-- [[dk-ai-judgment-programmer-paradox]]
+- "[[dk-f7-surface-translation]]"
+- "[[dk-my-ai-landing-three-barriers]]"
+- "[[dk-truman-iteration-to-aesthetic-ceiling]]"
+- "[[dk-ai-judgment-human-responsibility]]"
+- "[[dk-ai-judgment-programmer-paradox]]"
 ---
 ## 原始表述
 

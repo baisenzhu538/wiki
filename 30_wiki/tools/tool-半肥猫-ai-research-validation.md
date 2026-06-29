@@ -14,11 +14,11 @@ source_refs:
 created_at: '2026-06-08'
 updated_at: '2026-06-28'
 related:
-  - [[case-ban-fei-mao-from-assignment-to-tool]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[case-ban-fei-mao-from-assignment-to-tool]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 wiki_refs:
 - src_unknown
 - src_unknown

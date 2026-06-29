@@ -16,12 +16,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - 一堂
-- - - yt-model-y-organization
-- - - yt-system-course-catalog
-- - - yt-model-personal-map
-- - - yt-model-management-map
-- - - yt-model-entrepreneur-map
+- "[[一堂]]"
+- "[[yt-model-y-organization]]"
+- "[[yt-system-course-catalog]]"
+- "[[yt-model-personal-map]]"
+- "[[yt-model-management-map]]"
+- "[[yt-model-entrepreneur-map]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260510_ef0a5055-堂-堂无限进步大地图十年收藏版.md

@@ -38,14 +38,14 @@ source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-23_vlm_desc.md
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-24_vlm_desc.md
 related:
-- [[framework-yitang-channel-exploration-4step]]
-- [[tool-yitang-channel-scan-cheat-sheet]]
-- [[tool-yitang-channel-scoring-matrix]]
-- [[framework-yitang-channel-industrialization]]
-- [[tool-区分获客渠道计算单元roi]]
-- [[framework-yitang-growth-flywheel]]
-- [[concept-yitang-channel-lean-validation-bridge]]
-- [[dk-yitang-channel-exploration-traps]]
+- "[[framework-yitang-channel-exploration-4step]]"
+- "[[tool-yitang-channel-scan-cheat-sheet]]"
+- "[[tool-yitang-channel-scoring-matrix]]"
+- "[[framework-yitang-channel-industrialization]]"
+- "[[tool-区分获客渠道计算单元roi]]"
+- "[[framework-yitang-growth-flywheel]]"
+- "[[concept-yitang-channel-lean-validation-bridge]]"
+- "[[dk-yitang-channel-exploration-traps]]"
 review_date: '2026-06-28'
 ---
 

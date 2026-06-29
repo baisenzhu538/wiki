@@ -2,13 +2,13 @@
 
 
 related:
-  - [[yt-unit-model-overview]]
-  - [[yt-unit-model-construction]]
-  - [[yt-unit-model-ladder]]
-  - [[yt-unit-model-dynamic]]
-  - [[yt-model-dual-triangle-competitiveness]]
-  - [[ai时代判断力口述-3]]
-  - [[yt-decision-y-model]]
+  - "[[yt-unit-model-overview]]"
+  - "[[yt-unit-model-construction]]"
+  - "[[yt-unit-model-ladder]]"
+  - "[[yt-unit-model-dynamic]]"
+  - "[[yt-model-dual-triangle-competitiveness]]"
+  - "[[ai时代判断力口述-3]]"
+  - "[[yt-decision-y-model]]"
 source_refs:
 - pending_archive: src_unknown
 ---

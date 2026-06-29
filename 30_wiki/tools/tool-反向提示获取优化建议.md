@@ -25,11 +25,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- - - tool-多轮确认防偏差
-- - - tool-主动摘要压缩上下文
-- - - tool-提示词结构化迭代
-- - - tool-渐进式披露上下文
-- - - tool-反向教学深化理解
+- "[[tool-多轮确认防偏差]]"
+- "[[tool-主动摘要压缩上下文]]"
+- "[[tool-提示词结构化迭代]]"
+- "[[tool-渐进式披露上下文]]"
+- "[[tool-反向教学深化理解]]"
 ---
 # 技能：反向提示获取优化建议
 

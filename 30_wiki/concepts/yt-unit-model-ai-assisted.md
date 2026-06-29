@@ -21,11 +21,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-unit-model-construction]]
-  - [[yt-unit-model-dynamic]]
-  - [[yt-unit-model-ladder]]
-  - [[yt-decision-ai-partner]]
-  - [[master-systems-thinking]]
+  - "[[yt-unit-model-construction]]"
+  - "[[yt-unit-model-dynamic]]"
+  - "[[yt-unit-model-ladder]]"
+  - "[[yt-decision-ai-partner]]"
+  - "[[master-systems-thinking]]"
 source_refs:
 - 10_raw/sources/一堂-单元模型-AI+单元模型口述_cleaned.md
 - 10_raw/sources/src_20260609_189cf93b-ocr-一堂-单元模型-tcpr底层网络协议.md

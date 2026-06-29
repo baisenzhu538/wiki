@@ -24,11 +24,11 @@ updated_at: 2026-06-13
 author: unknown
 reviewed_by: "欧阳锋"
 related:
-  - [[smart-medicine-cabinet-distribution]]
-  - [[yt-growth-scaling-pitfalls]]
-  - [[private-domain-saas-sales-funnel]]
-  - [[七件事集团]]
-  - [[yt-skill-storyline-problem-solving]]
+  - "[[smart-medicine-cabinet-distribution]]"
+  - "[[yt-growth-scaling-pitfalls]]"
+  - "[[private-domain-saas-sales-funnel]]"
+  - "[[七件事集团]]"
+  - "[[yt-skill-storyline-problem-solving]]"
 ---
 # 源码交付模式
 

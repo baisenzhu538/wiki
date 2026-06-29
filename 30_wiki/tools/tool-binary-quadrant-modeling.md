@@ -20,11 +20,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.91
 related:
-  - [[tool-动手建模法]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-动手建模法]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

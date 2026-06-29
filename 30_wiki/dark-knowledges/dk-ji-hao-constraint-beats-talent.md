@@ -16,13 +16,13 @@ source_refs:
 created_at: 2026-06-09
 updated_at: 2026-06-28
 related:
-  - [[dk-ji-hao-ai-cant-design-structure]]
-  - [[dk-wanghuan-spec-trap]]
-  - [[dk-wanghuan-output-equals-standard-times-iteration]]
-  - [[yt-five-step-method]]
-  - [[dk-tool-as-phased-validator]]
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
+  - "[[dk-ji-hao-ai-cant-design-structure]]"
+  - "[[dk-wanghuan-spec-trap]]"
+  - "[[dk-wanghuan-output-equals-standard-times-iteration]]"
+  - "[[yt-five-step-method]]"
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[yitang-domain-digest]]"
 wiki_refs:
 - src_unknown
 - src_unknown

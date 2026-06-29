@@ -20,7 +20,7 @@ author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: '2026-06-25'
 related:
-  - [[dk-research-triangulation-stop-rule]]
+  - "[[dk-research-triangulation-stop-rule]]"
 diagnostic_signals:
 - framework_lens: 边际收益规则
   follow_up_question: 新增一个来源预计能改变当前结论的概率是否 >30%？

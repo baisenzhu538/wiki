@@ -15,13 +15,13 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-19'
 related:
-  - [[yt-demand-fake-demand-detection]]
-  - [[dk-ai-judgment-human-responsibility]]
-  - [[dk-wanghuan-spec-trap]]
-  - [[yt-five-step-method]]
-  - [[dk-tool-as-phased-validator]]
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
+  - "[[yt-demand-fake-demand-detection]]"
+  - "[[dk-ai-judgment-human-responsibility]]"
+  - "[[dk-wanghuan-spec-trap]]"
+  - "[[yt-five-step-method]]"
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[yitang-domain-digest]]"
 wiki_refs:
 - src_unknown
 - src_unknown

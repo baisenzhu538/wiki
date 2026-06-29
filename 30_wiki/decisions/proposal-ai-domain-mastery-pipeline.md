@@ -12,15 +12,15 @@ target_roles:
 - src_unknown
 reviewer: 用户 + 欧阳锋
 related:
-  - [[dk-f2-txt-ingest-skip]]
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[kimi-深度调研集群方法论-deep-research-swarm]]
-  - [[dk-f10-broken-source-refs]]
-  - [[dk-c3-txt-ingest-skip]]
-  - [[kdo-flywheel]]
-  - [[kdo-yaml-frontmatter-safety]]
-  - [[proposal-kdo-flywheel-infrastructure]]
-  - [[three-party-data-alignment]]
+  - "[[dk-f2-txt-ingest-skip]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
+  - "[[dk-f10-broken-source-refs]]"
+  - "[[dk-c3-txt-ingest-skip]]"
+  - "[[kdo-flywheel]]"
+  - "[[kdo-yaml-frontmatter-safety]]"
+  - "[[proposal-kdo-flywheel-infrastructure]]"
+  - "[[three-party-data-alignment]]"
 risk_level: high
 decision_needed: 是否启动此方向？若启动，第一阶段的范围是什么？
 id: proposal-ai-domain-mastery-pipeline

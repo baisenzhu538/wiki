@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- [[yt-demand-hierarchy-model]]
-- [[yt-demand-fake-demand-detection]]
-- [[yt-demand-early-validation]]
-- [[yt-five-step-method]]
-- [[yt-entrepreneur-key-hypotheses]]
+- "[[yt-demand-hierarchy-model]]"
+- "[[yt-demand-fake-demand-detection]]"
+- "[[yt-demand-early-validation]]"
+- "[[yt-five-step-method]]"
+- "[[yt-entrepreneur-key-hypotheses]]"
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 需求蔓延——MVP不够M，在伪需求上堆叠功能

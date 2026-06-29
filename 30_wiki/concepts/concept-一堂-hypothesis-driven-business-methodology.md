@@ -17,11 +17,11 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 related:
-- - - concept-一堂-key-assumptions
-- - - concept-一堂-product-kernel
-- - - case-一堂-无人餐厅-hypothesis-failure
-- - - yt-foresight-15-char-mantra
-- - - concept-一堂-kernel-validation
+- "[[concept-一堂-key-assumptions]]"
+- "[[concept-一堂-product-kernel]]"
+- "[[case-一堂-无人餐厅-hypothesis-failure]]"
+- "[[yt-foresight-15-char-mantra]]"
+- "[[concept-一堂-kernel-validation]]"
 wiki_refs:
 - src_unknown
 - src_unknown

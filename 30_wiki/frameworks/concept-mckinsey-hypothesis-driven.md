@@ -23,14 +23,14 @@ diagnostic_signals:
 - framework_lens: Hypothesis-Driven 检查：初始假设是否被显式记录并可被证伪
   follow_up_question: 你们各自的核心假设是什么？这些假设中，哪些是可以用2周内的实验证伪的？
 related:
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[concept-一堂-hypothesis-driven-business-methodology]]
-  - [[yt-entrepreneur-five-step-method]]
-  - [[tool-一堂-hypothesis-validation-three-axe]]
-  - [[concept-mckinsey-mece]]
-  - [[concept-mckinsey-issue-tree]]
-  - [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
-  - [[case-一堂-无人餐厅-hypothesis-failure]]
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
+  - "[[yt-entrepreneur-five-step-method]]"
+  - "[[tool-一堂-hypothesis-validation-three-axe]]"
+  - "[[concept-mckinsey-mece]]"
+  - "[[concept-mckinsey-issue-tree]]"
+  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
+  - "[[case-一堂-无人餐厅-hypothesis-failure]]"
 tags: []
 version: 1
 created_at: 2026-06-11

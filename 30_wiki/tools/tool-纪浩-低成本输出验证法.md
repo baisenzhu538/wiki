@@ -17,11 +17,11 @@ updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 related:
-- - - tool-纪浩-Agent技能市场设计法
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
+- "[[tool-纪浩-Agent技能市场设计法]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 diagnostic_signals:
 - lens: 迭代成本高
   follow_up: 选择低成本输出出口（自媒体/图文/短视频），先小范围验证。降低单次失败成本

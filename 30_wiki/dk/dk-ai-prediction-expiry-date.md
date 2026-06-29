@@ -19,12 +19,12 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - [[tool-tech-probability-80-filter]]
-  - [[concept-ai-amara-law-business-judgment]]
-  - [[concept-ai-chair-determines-view]]
-  - [[framework-ai2041-critical-reading-os]]
-  - [[tool-ai2041-source-verification-checklist]]
-  - [[framework-ai-deconstruction-methodology]]
+  - "[[tool-tech-probability-80-filter]]"
+  - "[[concept-ai-amara-law-business-judgment]]"
+  - "[[concept-ai-chair-determines-view]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[tool-ai2041-source-verification-checklist]]"
+  - "[[framework-ai-deconstruction-methodology]]"
 ---
 
 # AI 预言的保质期

@@ -19,11 +19,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-tool-peas-agent-analysis]]
-  - [[tool-月白-后台数据AI诊断法]]
-  - [[tool-月白-小红书封面趋势判断法]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yt-tool-peas-agent-analysis]]"
+  - "[[tool-月白-后台数据AI诊断法]]"
+  - "[[tool-月白-小红书封面趋势判断法]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/aima-ai-thinking-card-20260515.html

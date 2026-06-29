@@ -25,11 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.78
 trust_level: medium
 related:
-  - [[tool-sabc-tier-modeling]]
-  - [[tool-纪浩-Problem与Question区分法]]
-  - [[ocr-一堂-单元模型-单客户模型]]
-  - [[tool-月白-普通人AI设计80分法则]]
-  - [[tool-Truman-数学题与语文题区分法]]
+  - "[[tool-sabc-tier-modeling]]"
+  - "[[tool-纪浩-Problem与Question区分法]]"
+  - "[[ocr-一堂-单元模型-单客户模型]]"
+  - "[[tool-月白-普通人AI设计80分法则]]"
+  - "[[tool-Truman-数学题与语文题区分法]]"
 diagnostic_signals:
 - framework_lens: 客户分层没有与自身业务目标对齐，导致分层失去决策意义。
   follow_up_question: 如果明天必须砍掉一半客户资源，哪类客户对今年业务目标的贡献度最大？为什么？

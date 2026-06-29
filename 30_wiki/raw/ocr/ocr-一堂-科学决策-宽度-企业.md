@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[ocr-一堂-科学决策-稀缺机会窗口]]
-  - [[ocr-一堂-科学决策-深度-案例05]]
-  - [[ocr-一堂-科学决策-roi决策评估画布-案例03]]
-  - [[ocr-一堂-科学决策-roi决策评估画布-案例02]]
-  - [[dk-modeling-radar-model-not-result]]
+  - "[[ocr-一堂-科学决策-稀缺机会窗口]]"
+  - "[[ocr-一堂-科学决策-深度-案例05]]"
+  - "[[ocr-一堂-科学决策-roi决策评估画布-案例03]]"
+  - "[[ocr-一堂-科学决策-roi决策评估画布-案例02]]"
+  - "[[dk-modeling-radar-model-not-result]]"
 ---
 # OCR: 一堂-科学决策-宽度-企业
 

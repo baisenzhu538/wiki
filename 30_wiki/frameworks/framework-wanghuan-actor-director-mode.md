@@ -22,11 +22,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[framework-wanghuan-bitcoe-prompt-framework]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

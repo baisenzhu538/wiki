@@ -19,11 +19,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-model-personal-pitch-toolkit
-- - - yt-panproduct-demand-scenario-walkthrough
-- - - yt-concept-weapon-arsenal
-- - - pending_unknown
-- - - pending_unknown
+- "[[yt-model-personal-pitch-toolkit]]"
+- "[[yt-panproduct-demand-scenario-walkthrough]]"
+- "[[yt-concept-weapon-arsenal]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库.md

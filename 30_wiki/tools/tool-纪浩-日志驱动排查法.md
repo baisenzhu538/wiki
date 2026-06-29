@@ -17,11 +17,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: skill-纪浩-AI工作空间与导诊台设计法
 related:
-  - [[case-lean-adult-education]]
-  - [[case-truman-ai-skill-self-packaging]]
-  - [[yt-barrier-identification-skill]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[case-lean-adult-education]]"
+  - "[[case-truman-ai-skill-self-packaging]]"
+  - "[[yt-barrier-identification-skill]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:

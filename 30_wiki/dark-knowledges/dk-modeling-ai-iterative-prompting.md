@@ -27,11 +27,11 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.88
 related:
-  - [[yitang-domain-digest]]
-  - [[ai-collaboration-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

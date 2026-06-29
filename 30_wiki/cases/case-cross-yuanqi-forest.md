@@ -22,14 +22,14 @@ source_refs:
 - 00_inbox/精益创业/元气森林-试错工具箱_vlm_desc.md
 - src_unknown
 related:
-  - [[framework-lean-false-model]]
-  - [[framework-lean-abcd-model]]
-  - [[framework-strategy-brm]]
-  - [[framework-strategy-lean-validation]]
-  - [[framework-lean-tenx-formula]]
-  - [[yt-decision-y-model]]
-  - [[framework-lean-six-wastes]]
-  - [[strategy-domain-digest]]
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[framework-strategy-brm]]"
+  - "[[framework-strategy-lean-validation]]"
+  - "[[framework-lean-tenx-formula]]"
+  - "[[yt-decision-y-model]]"
+  - "[[framework-lean-six-wastes]]"
+  - "[[strategy-domain-digest]]"
 ---
 
 # 元气森林：战略定位与精益试错的跨域闭环

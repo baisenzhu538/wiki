@@ -17,19 +17,19 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - [[yitang-domain-digest]]
-  - [[yt-tool-peas-agent-analysis]]
-  - [[tool-agent-research-pipeline]]
-  - [[case-ai-agent-milestone-design]]
-  - [[tool-agent-crawl4ai]]
-  - [[agent-external-brain-design]]
-  - [[dk-demand-pitfall-travel-agent]]
-  - [[tool-从案例中学习]]
-  - [[tool-纪浩-案例池构建法]]
-  - [[case-科学决策-ROI案例03]]
-  - [[tool-马易-业务问题AI化拆解-餐饮设计案例法]]
-  - [[case-科学决策-深度案例06]]
-  - [[tool-demand-agent-signal-substitute]]
+  - "[[yitang-domain-digest]]"
+  - "[[yt-tool-peas-agent-analysis]]"
+  - "[[tool-agent-research-pipeline]]"
+  - "[[case-ai-agent-milestone-design]]"
+  - "[[tool-agent-crawl4ai]]"
+  - "[[agent-external-brain-design]]"
+  - "[[dk-demand-pitfall-travel-agent]]"
+  - "[[tool-从案例中学习]]"
+  - "[[tool-纪浩-案例池构建法]]"
+  - "[[case-科学决策-ROI案例03]]"
+  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
+  - "[[case-科学决策-深度案例06]]"
+  - "[[tool-demand-agent-signal-substitute]]"
 updated_at: 2026-06-28
 
 ---

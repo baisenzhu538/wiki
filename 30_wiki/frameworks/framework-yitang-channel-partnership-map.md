@@ -20,15 +20,15 @@ source_refs:
   - 10_raw/itingnao/details/3979746.json
 source_person: 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）/ Truman（渠道方法论）
 related:
-  - [[tool-strategy-profit-model-comparison]]
-  - [[tool-yitang-channel-scoring-matrix]]
-  - [[tool-yitang-channel-agent-interview]]
-  - [[yt-management-partnership-equity]]
-  - [[framework-yitang-channel-unit-economics]]
-  - [[tool-yitang-channel-partnership-design]]
-  - [[case-yitang-goat-milk-channel-partnership]]
-  - [[framework-yitang-channel-exploration-4step]]
-  - [[yt-tool-unit-model-construction]]
+  - "[[tool-strategy-profit-model-comparison]]"
+  - "[[tool-yitang-channel-scoring-matrix]]"
+  - "[[tool-yitang-channel-agent-interview]]"
+  - "[[yt-management-partnership-equity]]"
+  - "[[framework-yitang-channel-unit-economics]]"
+  - "[[tool-yitang-channel-partnership-design]]"
+  - "[[case-yitang-goat-milk-channel-partnership]]"
+  - "[[framework-yitang-channel-exploration-4step]]"
+  - "[[yt-tool-unit-model-construction]]"
 ---
 
 # 小众品类渠道合伙人/区域包干决策框架（「卖地图」模式）

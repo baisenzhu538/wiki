@@ -20,14 +20,14 @@ review_date: '2026-06-17'
 trust_level: high
 confidence: 0.9
 related:
-  - [[tool-radar-chart-modeling]]
-  - [[tool-binary-quadrant-modeling]]
-  - [[tool-funnel-formula-modeling]]
-  - [[tool-sabc-tier-modeling]]
-  - [[tool-canvas-weapon-library-modeling]]
-  - [[tool-checklist-cheatsheet-modeling]]
-  - [[modeling-level-map]]
-  - [[tool-iceberg-triangle-modeling]]
+  - "[[tool-radar-chart-modeling]]"
+  - "[[tool-binary-quadrant-modeling]]"
+  - "[[tool-funnel-formula-modeling]]"
+  - "[[tool-sabc-tier-modeling]]"
+  - "[[tool-canvas-weapon-library-modeling]]"
+  - "[[tool-checklist-cheatsheet-modeling]]"
+  - "[[modeling-level-map]]"
+  - "[[tool-iceberg-triangle-modeling]]"
 tags:
 - src_unknown
 - src_unknown

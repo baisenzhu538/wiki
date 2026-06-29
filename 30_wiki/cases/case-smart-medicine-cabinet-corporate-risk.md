@@ -18,11 +18,11 @@ review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-- [[case-smart-medicine-cabinet-business-model-validation]]
-- [[case-smart-medicine-cabinet-failure-patterns-library]]
-- [[yt-tob-customer-tiering]]
-- [[yt-tob-cash-flow]]
-- [[yt-management-founder-role]]
+- "[[case-smart-medicine-cabinet-business-model-validation]]"
+- "[[case-smart-medicine-cabinet-failure-patterns-library]]"
+- "[[yt-tob-customer-tiering]]"
+- "[[yt-tob-cash-flow]]"
+- "[[yt-management-founder-role]]"
 source_person: 王语嫣
 source_context: "听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交叉验证"
 ---

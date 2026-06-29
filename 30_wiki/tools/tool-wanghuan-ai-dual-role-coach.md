@@ -26,11 +26,11 @@ diagnostic_signals:
 - lens: 知识未隔离
   follow_up: 让扮演用户的 AI 不知道销冠策略，教练 AI 能看到全部
 related:
-  - [[case-wanghuan-education-sales-capability-extraction]]
-  - [[case-wanghuan-education-sales-paced]]
-  - [[case-wanghuan-shenyang-software-3x-efficiency]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[case-wanghuan-education-sales-capability-extraction]]"
+  - "[[case-wanghuan-education-sales-paced]]"
+  - "[[case-wanghuan-shenyang-software-3x-efficiency]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

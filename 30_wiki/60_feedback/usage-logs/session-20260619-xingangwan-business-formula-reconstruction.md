@@ -16,16 +16,16 @@ author: Kimi Code CLI
 confidence: 0.84
 trust_level: medium
 related:
-  - [[case-cross-xingangwan-pharma]]
-  - [[contradictions]]
-  - [[鑫港湾]]
-  - [[xingangwan-pharma-business-model-calc]]
-  - [[parking-lot]]
-  - [[xingangwan-pharma-business-formulas]]
-  - [[xingangwan-pharma-business-model-calc]]
-  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
-  - [[tool-funnel-formula-modeling]]
-  - [[yt-unit-model-construction]]
+  - "[[case-cross-xingangwan-pharma]]"
+  - "[[contradictions]]"
+  - "[[鑫港湾]]"
+  - "[[xingangwan-pharma-business-model-calc]]"
+  - "[[parking-lot]]"
+  - "[[xingangwan-pharma-business-formulas]]"
+  - "[[xingangwan-pharma-business-model-calc]]"
+  - "[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]"
+  - "[[tool-funnel-formula-modeling]]"
+  - "[[yt-unit-model-construction]]"
 source_refs:
 - src_unknown
 - src_unknown

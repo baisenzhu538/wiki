@@ -18,12 +18,12 @@ review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
-- [[yt-management-business-formula]]
-- [[yt-business-formula-ten-paradigms]]
-- [[yt-business-formula-parameter-iceberg]]
-- [[yt-business-formula-six-level-logic]]
-- [[yt-unit-model-three-tools]]
-- [[yt-five-step-method]]
+- "[[yt-management-business-formula]]"
+- "[[yt-business-formula-ten-paradigms]]"
+- "[[yt-business-formula-parameter-iceberg]]"
+- "[[yt-business-formula-six-level-logic]]"
+- "[[yt-unit-model-three-tools]]"
+- "[[yt-five-step-method]]"
 
 ---
 

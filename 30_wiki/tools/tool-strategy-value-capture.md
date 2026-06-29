@@ -22,20 +22,20 @@ updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: pending
 related:
-- - - framework-strategy-ansoff
-- - - tool-strategy-business-design-template
-- - - tool-strategy-customer-selection
-- - - tool-strategy-category-role-matrix
-- - - tool-strategy-value-proposition
-- - - case-strategy-m-brand-profit-model
-- - - case-strategy-snack-export-opportunity
-- - - case-strategy-snack-industry-chain
-- - - framework-strategy-business-design
-- - - tool-strategy-activity-scope
-- - - tool-strategy-business-design-template
-- - - tool-strategy-industry-chain-analysis
-- - - tool-strategy-platform-business-map
-- - - tool-strategy-value-proposition
+- "[[framework-strategy-ansoff]]"
+- "[[tool-strategy-business-design-template]]"
+- "[[tool-strategy-customer-selection]]"
+- "[[tool-strategy-category-role-matrix]]"
+- "[[tool-strategy-value-proposition]]"
+- "[[case-strategy-m-brand-profit-model]]"
+- "[[case-strategy-snack-export-opportunity]]"
+- "[[case-strategy-snack-industry-chain]]"
+- "[[framework-strategy-business-design]]"
+- "[[tool-strategy-activity-scope]]"
+- "[[tool-strategy-business-design-template]]"
+- "[[tool-strategy-industry-chain-analysis]]"
+- "[[tool-strategy-platform-business-map]]"
+- "[[tool-strategy-value-proposition]]"
 ---
 
 # 价值获取设计工具：8 问盈利模型

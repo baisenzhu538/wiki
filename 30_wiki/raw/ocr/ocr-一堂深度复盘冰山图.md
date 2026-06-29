@@ -16,11 +16,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[ocr-泛产品设计-落地卡片-复盘迭代]]
-  - [[yt-model-deep-review-iceberg]]
-  - [[ocr-一堂提炼过的因果模型]]
-  - [[yt-decision-review]]
-  - [[tool-泛产品落地-复盘迭代]]
+  - "[[ocr-泛产品设计-落地卡片-复盘迭代]]"
+  - "[[yt-model-deep-review-iceberg]]"
+  - "[[ocr-一堂提炼过的因果模型]]"
+  - "[[yt-decision-review]]"
+  - "[[tool-泛产品落地-复盘迭代]]"
 ---
 # OCR: 一堂深度复盘冰山图
 

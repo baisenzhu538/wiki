@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[case-toy-cabinet-barrier]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[case-toy-cabinet-barrier]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 跨步三——规模化后需要壁垒保护利润
   follow_up_question: 你的壁垒是否足够强？竞品是否通过价格战侵蚀利润？

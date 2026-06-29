@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-工厂对接信息清单制作]]
-  - [[tool-月白-AI对话式海报修改（免PS）]]
-  - [[tool-月白-AI自动生成多语种专业名词提示词]]
-  - [[tool-月白-PPT内容框架AIGC生成法]]
-  - [[tool-月白-文创产品AI设计到生产的卡点预判]]
+  - "[[tool-月白-工厂对接信息清单制作]]"
+  - "[[tool-月白-AI对话式海报修改（免PS）]]"
+  - "[[tool-月白-AI自动生成多语种专业名词提示词]]"
+  - "[[tool-月白-PPT内容框架AIGC生成法]]"
+  - "[[tool-月白-文创产品AI设计到生产的卡点预判]]"
 ---
 # 技能：PPT风格锁定工作流
 

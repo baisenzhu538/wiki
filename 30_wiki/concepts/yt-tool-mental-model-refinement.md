@@ -22,11 +22,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - tool-动手建模提炼
-- - - tool-月白-社群直播海报利益点提炼法
-- - - ocr-一堂提炼过的因果模型
-- - - tool-费曼简单提炼法
-- - - tool-费曼学习法三句话提炼
+- "[[tool-动手建模提炼]]"
+- "[[tool-月白-社群直播海报利益点提炼法]]"
+- "[[ocr-一堂提炼过的因果模型]]"
+- "[[tool-费曼简单提炼法]]"
+- "[[tool-费曼学习法三句话提炼]]"
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:

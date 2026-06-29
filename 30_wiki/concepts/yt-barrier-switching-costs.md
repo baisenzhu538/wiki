@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[yt-barrier-brand-equity]]
-  - [[yt-barrier-culture-moat]]
-  - [[yt-barrier-data-assets]]
+  - "[[yt-barrier-brand-equity]]"
+  - "[[yt-barrier-culture-moat]]"
+  - "[[yt-barrier-data-assets]]"
 diagnostic_signals:
 - framework_lens: 转换成本——用户流失说明转换成本低，需要提升转换成本
   follow_up_question: 你的用户转换成本有哪些？数据、习惯、社交关系、经济成本？

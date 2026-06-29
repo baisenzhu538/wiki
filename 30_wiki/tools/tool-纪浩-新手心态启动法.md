@@ -16,11 +16,11 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
 updated_at: '2026-06-16'
 related:
-- - - tool-纪浩-项目启动五问法
-- - - tool-纪浩-线上问题应急值守
-- - - tool-纪浩-评估AI从零写UI的可行性
-- - - tool-纪浩-问题导向备课法
-- - - tool-纪浩-识别AI不可维护代码
+- "[[tool-纪浩-项目启动五问法]]"
+- "[[tool-纪浩-线上问题应急值守]]"
+- "[[tool-纪浩-评估AI从零写UI的可行性]]"
+- "[[tool-纪浩-问题导向备课法]]"
+- "[[tool-纪浩-识别AI不可维护代码]]"
 ---
 # 技能：新手心态启动法
 

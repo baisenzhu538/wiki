@@ -20,9 +20,9 @@ reviewed_by: 黄药师
 review_date: 2026-05-06
 estimated_tokens: 3300
 related:
-  - [[yt-research-action-camp-launch]]
-  - [[yt-research-competitor-toolkit]]
-  - [[yt-research-expert-interview]]
+  - "[[yt-research-action-camp-launch]]"
+  - "[[yt-research-competitor-toolkit]]"
+  - "[[yt-research-expert-interview]]"
 pipeline:
 - src_unknown
 diagnostic_signals:

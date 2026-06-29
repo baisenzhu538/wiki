@@ -19,11 +19,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[tool-设定管理杠杆率指标评估效率]]
-  - [[ocr-一堂产品内核-十大典型指标]]
-  - [[ocr-一堂五步法-产品内核画布]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-设定管理杠杆率指标评估效率]]"
+  - "[[ocr-一堂产品内核-十大典型指标]]"
+  - "[[ocr-一堂五步法-产品内核画布]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 产品内核指标——缺乏数据验证体系
   follow_up_question: 你的产品内核对应的关键指标是什么？当前数值是多少？

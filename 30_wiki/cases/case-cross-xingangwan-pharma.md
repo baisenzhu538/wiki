@@ -27,14 +27,14 @@ source_refs:
 - 30_wiki/entities/鑫港湾.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
-  - [[framework-strategy-brm]]
-  - [[framework-lean-false-model]]
-  - [[framework-lean-abcd-model]]
-  - [[yt-decision-y-model]]
-  - [[yt-lean-assumption-prioritization]]
-  - [[framework-strategy-lean-validation]]
-  - [[yt-business-model-unit-economics]]
-  - [[framework-five-step-lean-interface]]
+  - "[[framework-strategy-brm]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[yt-decision-y-model]]"
+  - "[[yt-lean-assumption-prioritization]]"
+  - "[[framework-strategy-lean-validation]]"
+  - "[[yt-business-model-unit-economics]]"
+  - "[[framework-five-step-lean-interface]]"
 ---
 
 # 鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证

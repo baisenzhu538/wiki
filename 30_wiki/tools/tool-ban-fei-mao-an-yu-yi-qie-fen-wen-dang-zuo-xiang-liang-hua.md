@@ -18,11 +18,11 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-半肥猫-课程Skill化的八步工作流]]
-  - [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
-  - [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
-  - [[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]
-  - [[dk-ban-fei-mao-atomic-no-standard]]
+  - "[[tool-半肥猫-课程Skill化的八步工作流]]"
+  - "[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]"
+  - "[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]"
+  - "[[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]"
+  - "[[dk-ban-fei-mao-atomic-no-standard]]"
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'

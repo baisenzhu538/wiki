@@ -18,11 +18,11 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - [[yitang-domain-digest]]
-  - [[tool-马易-AI任务拆解提升控制度]]
-  - [[tool-纪浩-任务交付物标准化]]
-  - [[tool-任务拆解为工作流]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[tool-马易-AI任务拆解提升控制度]]"
+  - "[[tool-纪浩-任务交付物标准化]]"
+  - "[[tool-任务拆解为工作流]]"
+  - "[[pending_unknown]]"
 ---
 
 # L3圈定核心任务

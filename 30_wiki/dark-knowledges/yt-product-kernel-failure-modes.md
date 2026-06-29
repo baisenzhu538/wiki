@@ -18,10 +18,10 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- [[yt-product-kernel-definition]]
-- [[yt-product-kernel-do-without-belief]]
-- [[yt-demand-fake-demand-detection]]
-- [[yt-five-step-method]]
+- "[[yt-product-kernel-definition]]"
+- "[[yt-product-kernel-do-without-belief]]"
+- "[[yt-demand-fake-demand-detection]]"
+- "[[yt-five-step-method]]"
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 产品内核失败模式——需求假设错误

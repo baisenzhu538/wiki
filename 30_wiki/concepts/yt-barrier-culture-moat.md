@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[yt-barrier-brand-equity]]
-  - [[yt-barrier-data-assets]]
-  - [[yt-barrier-defensive-strategy]]
+  - "[[yt-barrier-brand-equity]]"
+  - "[[yt-barrier-data-assets]]"
+  - "[[yt-barrier-defensive-strategy]]"
 diagnostic_signals:
 - framework_lens: 文化护城河——文化需要显性化，才能传承和复制
   follow_up_question: 你的文化是什么？能否用3个词描述？文化是否体现在日常行为中？

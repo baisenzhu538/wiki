@@ -19,13 +19,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - dk-f4-wrong-workdir
-- - - three-party-data-alignment
-- - - business-research-skill-oscar-13-weapon-system
-- - - system-yitang-research-workflow
-- - - modeling-capability-for-kdo
-- - - yt-decision-ai-partner
-- - - agent-external-brain-design
+- "[[dk-f4-wrong-workdir]]"
+- "[[three-party-data-alignment]]"
+- "[[business-research-skill-oscar-13-weapon-system]]"
+- "[[system-yitang-research-workflow]]"
+- "[[modeling-capability-for-kdo]]"
+- "[[yt-decision-ai-partner]]"
+- "[[agent-external-brain-design]]"
 tags:
 - src_unknown
 - src_unknown

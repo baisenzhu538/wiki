@@ -29,11 +29,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: []
 related:
-  - [[ai-collaboration-domain-digest]]
-  - [[tool-制作行业化要素检查清单]]
-  - [[tool-水水-保持系统冗余]]
-  - [[tool-纪浩-Agent技能市场设计法]]
-  - [[pending_unknown]]
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[tool-制作行业化要素检查清单]]"
+  - "[[tool-水水-保持系统冗余]]"
+  - "[[tool-纪浩-Agent技能市场设计法]]"
+  - "[[pending_unknown]]"
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88

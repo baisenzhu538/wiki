@@ -19,14 +19,14 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-  - [[concept-半肥猫-ai-learning-toolification-methodology]]
-  - [[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]
-  - [[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]
-  - [[tool-半肥猫-课程Skill化的八步工作流]]
-  - [[concept-ji-hao-ai-collaboration-methodology]]
-  - [[case-ban-fei-mao-conversion-hacker-skill]]
-  - [[dk-ban-fei-mao-silky-answer-warning]]
-  - [[dk-ban-fei-mao-skill-rejection-value]]
+  - "[[concept-半肥猫-ai-learning-toolification-methodology]]"
+  - "[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]"
+  - "[[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]"
+  - "[[tool-半肥猫-课程Skill化的八步工作流]]"
+  - "[[concept-ji-hao-ai-collaboration-methodology]]"
+  - "[[case-ban-fei-mao-conversion-hacker-skill]]"
+  - "[[dk-ban-fei-mao-silky-answer-warning]]"
+  - "[[dk-ban-fei-mao-skill-rejection-value]]"
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 pipeline:

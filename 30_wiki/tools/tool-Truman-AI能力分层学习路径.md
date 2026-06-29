@@ -16,11 +16,11 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
 related:
-- - - tool-Truman-Skill全生命周期管理
-- - - tool-Truman-提示词优化底层方法
-- - - tool-Truman-Feature特性层训练法
-- - - tool-Truman-AI场景探索STAR模型
-- - - tool-Truman-数学题与语文题区分法
+- "[[tool-Truman-Skill全生命周期管理]]"
+- "[[tool-Truman-提示词优化底层方法]]"
+- "[[tool-Truman-Feature特性层训练法]]"
+- "[[tool-Truman-AI场景探索STAR模型]]"
+- "[[tool-Truman-数学题与语文题区分法]]"
 ---
 # 技能：AI能力分层学习路径
 

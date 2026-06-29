@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-包材工艺参数核对法]]
-  - [[tool-月白-Token效价比决策公式]]
-  - [[tool-月白-印刷DPI标准设置]]
-  - [[tool-月白-RGB转CMYK印刷预检]]
-  - [[tool-月白-PS图层规范管理]]
+  - "[[tool-月白-包材工艺参数核对法]]"
+  - "[[tool-月白-Token效价比决策公式]]"
+  - "[[tool-月白-印刷DPI标准设置]]"
+  - "[[tool-月白-RGB转CMYK印刷预检]]"
+  - "[[tool-月白-PS图层规范管理]]"
 ---
 # 技能：RGB转CMYK色彩校准法
 

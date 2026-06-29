@@ -18,11 +18,11 @@ source_refs:
   - src_unknown []
 reviewer: 欧阳锋
 related:
-- [[dk-p13-token-burn]]
-- [[dk-p16-validate-reads-state-json]]
-- [[sprint-2-gate-enrich-evidence]]
-- [[dk-f3-state-json-race-condition]]
-- [[proposal-kdo-flywheel-infrastructure]]
+- "[[dk-p13-token-burn]]"
+- "[[dk-p16-validate-reads-state-json]]"
+- "[[sprint-2-gate-enrich-evidence]]"
+- "[[dk-f3-state-json-race-condition]]"
+- "[[proposal-kdo-flywheel-infrastructure]]"
 id: sprint-6-cli-gap-proposal
 reviewed_by: pending
 confidence: 0.6

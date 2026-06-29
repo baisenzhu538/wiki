@@ -14,17 +14,17 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 related:
-  - [[ai-short-drama-ice-fire-dissection-compass]]
-  - [[writing-content]]
-  - [[tool-strategy-12-word-test]]
-  - [[dk-c1-cjk-regex-silent-fail]]
-  - [[case-toc-content-platform-correlation-trap]]
-  - [[tool-yitang-content-ip-research]]
-  - [[tool-note-keyword-bolding]]
-  - [[case-lean-zhanglei-failure-counterfactual]]
-  - [[dk-f1-regex-on-cjk]]
-  - [[dk-tool-as-phased-validator]]
-  - [[yt-lean-b2b-b2c-hardware-content-testing]]
+  - "[[ai-short-drama-ice-fire-dissection-compass]]"
+  - "[[writing-content]]"
+  - "[[tool-strategy-12-word-test]]"
+  - "[[dk-c1-cjk-regex-silent-fail]]"
+  - "[[case-toc-content-platform-correlation-trap]]"
+  - "[[tool-yitang-content-ip-research]]"
+  - "[[tool-note-keyword-bolding]]"
+  - "[[case-lean-zhanglei-failure-counterfactual]]"
+  - "[[dk-f1-regex-on-cjk]]"
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[yt-lean-b2b-b2c-hardware-content-testing]]"
 diagnostic_signals:
 - src_unknown
 - src_unknown

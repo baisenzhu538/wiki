@@ -14,11 +14,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - [[kdo-batch-produce-req014]]
-  - [[dk-modeling-timely-review-session-window]]
-  - [[session-20260619-xingangwan-business-formula-reconstruction]]
-  - [[dk-p6-session-resume-fail]]
-  - [[pending_unknown]]
+  - "[[kdo-batch-produce-req014]]"
+  - "[[dk-modeling-timely-review-session-window]]"
+  - "[[session-20260619-xingangwan-business-formula-reconstruction]]"
+  - "[[dk-p6-session-resume-fail]]"
+  - "[[pending_unknown]]"
 pipeline:
 - src_unknown
 - src_unknown

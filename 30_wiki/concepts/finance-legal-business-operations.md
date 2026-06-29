@@ -24,9 +24,9 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-  - [[ai-hackathon-pitches]]
-  - [[business-validation-models-collaboration]]
-  - [[industry-ai-cases]]
+  - "[[ai-hackathon-pitches]]"
+  - "[[business-validation-models-collaboration]]"
+  - "[[industry-ai-cases]]"
 
 ---
 

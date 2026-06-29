@@ -17,13 +17,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - 一堂
-- - - yt-personal-ipo-learning
-- - - yt-personal-deep-review
-- - - yt-model-ipo-complete-checklist
-- - - yt-personal-deliberate-practice
-- - - yt-personal-checklist-notes
-- - - yt-personal-knowledge-management
+- "[[一堂]]"
+- "[[yt-personal-ipo-learning]]"
+- "[[yt-personal-deep-review]]"
+- "[[yt-model-ipo-complete-checklist]]"
+- "[[yt-personal-deliberate-practice]]"
+- "[[yt-personal-checklist-notes]]"
+- "[[yt-personal-knowledge-management]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型.md

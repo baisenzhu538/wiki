@@ -17,22 +17,22 @@ reviewed_by: 老顽童
 review_date: '2026-06-17'
 trust_level: high
 related:
-- - - kdo-input-channel-strategy-2026-06-16
-- - - kdo-protocol
-- - - tool-sabc-tier-modeling
-- - - modeling-to-kdo-toolchain
-- - - kdo-batch-produce-req014
-- - - kdo-15-dimension-label-spec
-- - - obsidian-kdo-内容产出工作流-产品设计大纲
-- - - ocr-一堂-单元模型-abcd策略模型
-- - - framework-kdo-self-attack
-- - - kdo-yaml-frontmatter-safety
-- - - yt-business-formula-abc-model
-- - - kdo-priority-checklist
-- - - ocr-一堂-科学决策-关键假设abcd模型
-- - - yt-tob-customer-sabc
-- - - tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai
-- - - kdo_product_design_agent_final
+- "[[kdo-input-channel-strategy-2026-06-16]]"
+- "[[kdo-protocol]]"
+- "[[tool-sabc-tier-modeling]]"
+- "[[modeling-to-kdo-toolchain]]"
+- "[[kdo-batch-produce-req014]]"
+- "[[kdo-15-dimension-label-spec]]"
+- "[[obsidian-kdo-内容产出工作流-产品设计大纲]]"
+- "[[ocr-一堂-单元模型-abcd策略模型]]"
+- "[[framework-kdo-self-attack]]"
+- "[[kdo-yaml-frontmatter-safety]]"
+- "[[yt-business-formula-abc-model]]"
+- "[[kdo-priority-checklist]]"
+- "[[ocr-一堂-科学决策-关键假设abcd模型]]"
+- "[[yt-tob-customer-sabc]]"
+- "[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]"
+- "[[kdo_product_design_agent_final]]"
 tags:
 - src_unknown
 - src_unknown

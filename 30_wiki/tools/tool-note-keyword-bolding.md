@@ -12,11 +12,11 @@ version: 1
 difficulty: beginner
 confidence: 0.88
 related:
-  - [[tool-note-one-line-one-point]]
-  - [[tool-note-layer-constraint]]
-  - [[dk-note-surplus-brainpower]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-note-one-line-one-point]]"
+  - "[[tool-note-layer-constraint]]"
+  - "[[dk-note-surplus-brainpower]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 tags:

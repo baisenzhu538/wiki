@@ -20,11 +20,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - [[dk-p20-bigram-fail]]
-  - [[labeling-final-consolidation]]
-  - [[labeling-research-alignment]]
-  - [[ouyangfeng-labeling-research-review]]
-  - [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
+  - "[[dk-p20-bigram-fail]]"
+  - "[[labeling-final-consolidation]]"
+  - "[[labeling-research-alignment]]"
+  - "[[ouyangfeng-labeling-research-review]]"
+  - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
 ---
 # 数据标注最佳实践调研报告
 

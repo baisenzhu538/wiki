@@ -17,13 +17,13 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 related:
-  - [[xingangwan-pharma-business-formulas]]
-  - [[smart-medicine-cabinet-distribution]]
-  - [[xingangwan-pharma-business-model-calc]]
-  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
-  - [[xingangwan-pharma-business-model-formulas]]
-  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
-  - [[parking-lot]]
+  - "[[xingangwan-pharma-business-formulas]]"
+  - "[[smart-medicine-cabinet-distribution]]"
+  - "[[xingangwan-pharma-business-model-calc]]"
+  - "[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]"
+  - "[[xingangwan-pharma-business-model-formulas]]"
+  - "[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]"
+  - "[[parking-lot]]"
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 captured_at: '2026-06-18'

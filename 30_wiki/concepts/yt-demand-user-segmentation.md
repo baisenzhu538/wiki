@@ -15,11 +15,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- [[yt-demand-hierarchy-model]]
-- [[yt-demand-qualitative-analysis]]
-- [[yt-demand-scenario-reconstruction]]
-- [[yt-demand-segmentation-canvas]]
-- [[yt-five-step-method]]
+- "[[yt-demand-hierarchy-model]]"
+- "[[yt-demand-qualitative-analysis]]"
+- "[[yt-demand-scenario-reconstruction]]"
+- "[[yt-demand-segmentation-canvas]]"
+- "[[yt-five-step-method]]"
 diagnostic_signals:
 - framework_lens: 用户分层缺失——需求定义太泛，无法聚焦
   follow_up_question: 如果只能服务100个用户，这100个人是谁？他们在什么场景下必须用你的方案？

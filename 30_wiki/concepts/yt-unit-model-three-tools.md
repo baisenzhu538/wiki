@@ -2,11 +2,11 @@
 
 
 related:
-  - [[yt-five-step-method]]
-  - [[yt-growth-cycle-model]]
-  - [[case-toy-cabinet-business-model]]
-  - [[case-treadmill-demand-analysis]]
-  - [[pending_unknown]]
+  - "[[yt-five-step-method]]"
+  - "[[yt-growth-cycle-model]]"
+  - "[[case-toy-cabinet-business-model]]"
+  - "[[case-treadmill-demand-analysis]]"
+  - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown
 ---

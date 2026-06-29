@@ -2,11 +2,11 @@
 
 
 related:
-  - [[yt-personal-ipo-learning]]
-  - [[master-knowledge-compound]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yt-personal-ipo-learning]]"
+  - "[[master-knowledge-compound]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown
 ---

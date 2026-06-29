@@ -33,9 +33,9 @@ tags:
 created_at: 2026-06-07
 updated_at: '2026-06-29'
 related:
-- - - yt-personal-checklist-notes
-- - - case-ji-hao-skills-market
-- - - pending_unknown
+- "[[yt-personal-checklist-notes]]"
+- "[[case-ji-hao-skills-market]]"
+- "[[pending_unknown]]"
 author: 老顽童
 reviewed_by: 洪七公
 confidence: 0.8

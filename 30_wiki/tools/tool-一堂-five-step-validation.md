@@ -2,11 +2,11 @@
 
 
 related:
-  - [[concept-一堂-product-kernel]]
-  - [[tool-一堂-kernel-three-questions]]
-  - [[tool-一堂-hypothesis-validation-three-axe]]
-  - [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
-  - [[pending_unknown]]
+  - "[[concept-一堂-product-kernel]]"
+  - "[[tool-一堂-kernel-three-questions]]"
+  - "[[tool-一堂-hypothesis-validation-three-axe]]"
+  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
+  - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown
 updated_at: '2026-06-29'

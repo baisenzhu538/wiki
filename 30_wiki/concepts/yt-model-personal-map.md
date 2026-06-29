@@ -16,11 +16,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - 一堂
-- - - yt-model-progress-map
-- - - yt-model-y-organization
-- - - yt-model-ipo-learning-strategy
-- - - pending_unknown
+- "[[一堂]]"
+- "[[yt-model-progress-map]]"
+- "[[yt-model-y-organization]]"
+- "[[yt-model-ipo-learning-strategy]]"
+- "[[pending_unknown]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md

@@ -13,12 +13,12 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - [[dk-strategy-consulting-jokes]]
-  - [[dk-strategy-longzhong-four-failures]]
-  - [[dk-strategy-three-must-do-moments]]
-  - [[yt-five-step-method]]
-  - [[dk-tool-as-phased-validator]]
-  - [[strategy-domain-digest]]
+  - "[[dk-strategy-consulting-jokes]]"
+  - "[[dk-strategy-longzhong-four-failures]]"
+  - "[[dk-strategy-three-must-do-moments]]"
+  - "[[yt-five-step-method]]"
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[strategy-domain-digest]]"
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'

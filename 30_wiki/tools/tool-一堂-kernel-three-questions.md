@@ -11,11 +11,11 @@ domain: yitang
 confidence: 0.75
 trust_level: medium
 related:
-  - [[concept-一堂-product-kernel]]
-  - [[tool-一堂-product-kernel-add-subtract]]
-  - [[tool-一堂-five-step-validation]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[concept-一堂-product-kernel]]"
+  - "[[tool-一堂-product-kernel-add-subtract]]"
+  - "[[tool-一堂-five-step-validation]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown
 ---

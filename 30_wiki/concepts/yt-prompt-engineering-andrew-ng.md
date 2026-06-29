@@ -19,12 +19,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-model-prompt-engineering
-- - - dk-modeling-ai-judgment-limit
-- - - dk-wanghuan-ai-lifts-personal-ceiling
-- - - yt-model-ipo-learning-strategy
-- - - yt-model-personal-pitch-toolkit
-- - - yt-panproduct-demand-motivation-resistance
+- "[[yt-model-prompt-engineering]]"
+- "[[dk-modeling-ai-judgment-limit]]"
+- "[[dk-wanghuan-ai-lifts-personal-ceiling]]"
+- "[[yt-model-ipo-learning-strategy]]"
+- "[[yt-model-personal-pitch-toolkit]]"
+- "[[yt-panproduct-demand-motivation-resistance]]"
 reviewed_by: 黄药师
 source_of:
 - src_unknown

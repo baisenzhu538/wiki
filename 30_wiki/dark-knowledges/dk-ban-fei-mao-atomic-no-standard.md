@@ -14,13 +14,13 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
-  - [[dk-ban-fei-mao-skill-rejection-value]]
-  - [[dk-ji-hao-problem-vs-question]]
-  - [[dk-wanghuan-spec-trap]]
-  - [[yt-five-step-method]]
-  - [[dk-tool-as-phased-validator]]
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
+  - "[[dk-ban-fei-mao-skill-rejection-value]]"
+  - "[[dk-ji-hao-problem-vs-question]]"
+  - "[[dk-wanghuan-spec-trap]]"
+  - "[[yt-five-step-method]]"
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[yitang-domain-digest]]"
 pipeline:
 - src_unknown
 - src_unknown

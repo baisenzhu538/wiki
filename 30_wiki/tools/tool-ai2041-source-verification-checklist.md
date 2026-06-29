@@ -18,13 +18,13 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - [[tool-tech-probability-80-filter]]
-  - [[tool-ai-critical-reading-three-layers]]
-  - [[framework-ai2041-critical-reading-os]]
-  - [[framework-ai-deconstruction-methodology]]
-  - [[framework-wanghuan-ooda-loop]]
-  - [[framework-wanghuan-bitcoe-prompt-framework]]
-  - [[framework-wanghuan-gan-three-roles]]
+  - "[[tool-tech-probability-80-filter]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
 ---
 
 # AI 预测来源验证检查单

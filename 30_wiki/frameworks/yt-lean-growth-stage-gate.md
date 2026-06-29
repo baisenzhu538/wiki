@@ -24,9 +24,9 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - [[yt-lean-beauty-store-conversion]]
-  - [[yt-lean-daily-chemical-mvp]]
-  - [[yt-lean-flower-mom-group-leader]]
+  - "[[yt-lean-beauty-store-conversion]]"
+  - "[[yt-lean-daily-chemical-mvp]]"
+  - "[[yt-lean-flower-mom-group-leader]]"
 diagnostic_signals:
 - framework_lens: 指标脱离单元模型
   follow_up_question: 这个总指标背后，单用户/单SKU/单订单模型是否成立？如果总增长来自补贴、异常大单或渠道补贴，放大后会怎么样？

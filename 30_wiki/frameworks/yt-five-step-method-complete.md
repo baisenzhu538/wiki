@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[ocr-一堂-单元模型-壁垒预判]]
-  - [[tool-单元模型-壁垒预判]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[ocr-一堂-单元模型-壁垒预判]]"
+  - "[[tool-单元模型-壁垒预判]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 五步法完整地图——五步法是从需求到壁垒的完整框架
   follow_up_question: 你的需求是什么？产品内核是什么？商业模式是什么？增长策略是什么？壁垒是什么？

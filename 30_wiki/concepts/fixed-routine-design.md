@@ -18,11 +18,11 @@ source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 - 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
 related:
-- [[deliberate-practice-four-elements]]
-- [[ai-tool-learning-curve]]
-- [[comfort-zone-expansion]]
-- [[timely-feedback-loop]]
-- [[practice-card-decomposition]]
+- "[[deliberate-practice-four-elements]]"
+- "[[ai-tool-learning-curve]]"
+- "[[comfort-zone-expansion]]"
+- "[[timely-feedback-loop]]"
+- "[[practice-card-decomposition]]"
 ---
 
 # 固定套路设计

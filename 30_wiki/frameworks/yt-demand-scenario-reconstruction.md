@@ -15,11 +15,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- [[yt-demand-hierarchy-model]]
-- [[yt-demand-qualitative-analysis]]
-- [[yt-demand-jtbd-application]]
-- [[yt-demand-peak-end-rule]]
-- [[yt-five-step-method]]
+- "[[yt-demand-hierarchy-model]]"
+- "[[yt-demand-qualitative-analysis]]"
+- "[[yt-demand-jtbd-application]]"
+- "[[yt-demand-peak-end-rule]]"
+- "[[yt-five-step-method]]"
 diagnostic_signals:
 - framework_lens: 场景缺失——停留在功能视角，未切换到用户视角
   follow_up_question: 你能描述一个典型用户，从早上醒来到晚上睡觉，会在什么具体时刻使用你的产品吗？

@@ -14,11 +14,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - [[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]
-  - [[dk-lz-code-is-disposable]]
-  - [[source-code-delivery-model]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]"
+  - "[[dk-lz-code-is-disposable]]"
+  - "[[source-code-delivery-model]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 pipeline:
 - src_unknown
 - src_unknown

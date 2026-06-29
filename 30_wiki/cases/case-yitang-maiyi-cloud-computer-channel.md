@@ -19,14 +19,14 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道选择.png
 source_person: Truman
 related:
-- [[framework-yitang-channel-exploration-4step]]
-- [[framework-yitang-channel-unit-economics]]
-- [[tool-yitang-channel-scoring-matrix]]
-- [[tool-区分获客渠道计算单元roi]]
-- [[yt-unit-model-overview]]
-- [[framework-lean-abcd-model]]
-- [[case-yitang-shuzu-channel-scan-test]]
-- [[case-yitang-xujian-invoice-saas-channel]]
+- "[[framework-yitang-channel-exploration-4step]]"
+- "[[framework-yitang-channel-unit-economics]]"
+- "[[tool-yitang-channel-scoring-matrix]]"
+- "[[tool-区分获客渠道计算单元roi]]"
+- "[[yt-unit-model-overview]]"
+- "[[framework-lean-abcd-model]]"
+- "[[case-yitang-shuzu-channel-scan-test]]"
+- "[[case-yitang-xujian-invoice-saas-channel]]"
 review_date: '2026-06-28'
 ---
 

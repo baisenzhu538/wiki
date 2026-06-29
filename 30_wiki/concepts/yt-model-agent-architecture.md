@@ -19,22 +19,22 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-tool-peas-agent-analysis]]
-  - [[ocr-一堂y模型steps策略集]]
-  - [[tool-agent-research-pipeline]]
-  - [[case-ai-agent-milestone-design]]
-  - [[tool-月白-AI模型选择策略]]
-  - [[tool-agent-crawl4ai]]
-  - [[dk-单元模型-找单元模型实操难点]]
-  - [[ocr-一堂y模型-科学成事道理]]
-  - [[ocr-一堂-单元模型-单用户模型]]
-  - [[concept-最简单元模型]]
-  - [[ocr-一堂-单元模型-对抗小抄02]]
-  - [[ocr-一堂-人机协作-双三角模型]]
-  - [[tool-模型组合调用]]
-  - [[ocr-一堂-单元模型-对抗小抄01]]
-  - [[ocr-一堂-单元模型-段位专家]]
-  - [[tool-demand-agent-signal-substitute]]
+  - "[[yt-tool-peas-agent-analysis]]"
+  - "[[ocr-一堂y模型steps策略集]]"
+  - "[[tool-agent-research-pipeline]]"
+  - "[[case-ai-agent-milestone-design]]"
+  - "[[tool-月白-AI模型选择策略]]"
+  - "[[tool-agent-crawl4ai]]"
+  - "[[dk-单元模型-找单元模型实操难点]]"
+  - "[[ocr-一堂y模型-科学成事道理]]"
+  - "[[ocr-一堂-单元模型-单用户模型]]"
+  - "[[concept-最简单元模型]]"
+  - "[[ocr-一堂-单元模型-对抗小抄02]]"
+  - "[[ocr-一堂-人机协作-双三角模型]]"
+  - "[[tool-模型组合调用]]"
+  - "[[ocr-一堂-单元模型-对抗小抄01]]"
+  - "[[ocr-一堂-单元模型-段位专家]]"
+  - "[[tool-demand-agent-signal-substitute]]"
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:

@@ -15,11 +15,11 @@ source_refs:
 confidence: 0.88
 trust_level: medium
 related:
-  - [[yitang-domain-digest]]
-  - [[concept-ceo-must-do-user-research]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[concept-ceo-must-do-user-research]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

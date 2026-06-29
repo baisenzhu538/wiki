@@ -30,18 +30,18 @@ source_refs:
 - 00_inbox/调研专题/系统调研（高水平计划）_vlm_desc.md
 - 00_inbox/调研专题/系统调研（高水平执行）_vlm_desc.md
 related:
-- [[framework-yitang-high-level-execution]]
-- [[framework-yitang-four-research-types]]
-- [[yt-research-osl-framework]]
-- [[concept-yitang-research-scope]]
-- [[framework-yitang-high-level-plan]]
-- [[framework-yitang-high-level-plan]]
-- [[framework-yitang-high-level-execution]]
-- [[framework-yitang-four-research-types]]
-- [[framework-yitang-research-radar]]
-- [[concept-yitang-research-objective]]
-- [[concept-yitang-research-scope]]
-- [[yt-research-osl-framework]]
+- "[[framework-yitang-high-level-execution]]"
+- "[[framework-yitang-four-research-types]]"
+- "[[yt-research-osl-framework]]"
+- "[[concept-yitang-research-scope]]"
+- "[[framework-yitang-high-level-plan]]"
+- "[[framework-yitang-high-level-plan]]"
+- "[[framework-yitang-high-level-execution]]"
+- "[[framework-yitang-four-research-types]]"
+- "[[framework-yitang-research-radar]]"
+- "[[concept-yitang-research-objective]]"
+- "[[concept-yitang-research-scope]]"
+- "[[yt-research-osl-framework]]"
 
 ---
 

@@ -14,11 +14,11 @@ source_context: 第27节master系统暗知识精修：P-1/P-2/P-3/P-6/P-14/F-3 �
 source_refs:
 - src_unknown
 related:
-  - [[ai-collaboration-domain-digest]]
-  - [[fix-data-curator-parse-bug]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[fix-data-curator-parse-bug]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 bridges_to:
 - src_unknown
 - src_unknown

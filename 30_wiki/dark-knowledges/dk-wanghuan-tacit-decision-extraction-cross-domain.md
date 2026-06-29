@@ -34,19 +34,19 @@ diagnostic_signals:
   lens: 个人隐性经验未转化为组织资产
   follow_up: 把专家的“判断链”而非“输出文本”萃取为可模拟、可评分的规则库
 related:
-  - [[case-wanghuan-education-sales-paced]]
-  - [[dk-wanghuan-paced-sales-decision]]
-  - [[framework-strategy-pyramid]]
-  - [[case-wanghuan-education-sales-capability-extraction]]
-  - [[tool-wanghuan-ai-dual-role-coach]]
-  - [[case-wanghuan-education-sales-paced]]
-  - [[case-wanghuan-education-sales-capability-extraction]]
-  - [[dk-wanghuan-paced-sales-decision]]
-  - [[framework-wanghuan-actor-director-mode]]
-  - [[yt-demand-b2b-vs-b2c]]
-  - [[yt-tob-customer-sabc]]
-  - [[private-domain-saas-sales-funnel]]
-  - [[concept-wanghuan-tacit-knowledge-examples]]
+  - "[[case-wanghuan-education-sales-paced]]"
+  - "[[dk-wanghuan-paced-sales-decision]]"
+  - "[[framework-strategy-pyramid]]"
+  - "[[case-wanghuan-education-sales-capability-extraction]]"
+  - "[[tool-wanghuan-ai-dual-role-coach]]"
+  - "[[case-wanghuan-education-sales-paced]]"
+  - "[[case-wanghuan-education-sales-capability-extraction]]"
+  - "[[dk-wanghuan-paced-sales-decision]]"
+  - "[[framework-wanghuan-actor-director-mode]]"
+  - "[[yt-demand-b2b-vs-b2c]]"
+  - "[[yt-tob-customer-sabc]]"
+  - "[[private-domain-saas-sales-funnel]]"
+  - "[[concept-wanghuan-tacit-knowledge-examples]]"
 tags:
 - src_unknown
 - src_unknown

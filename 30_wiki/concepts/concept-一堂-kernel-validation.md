@@ -15,13 +15,13 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-  - [[concept-一堂-key-assumptions]]
-  - [[concept-一堂-kernel-iteration]]
-  - [[concept-一堂-product-kernel]]
-  - [[case-一堂-无人餐厅-hypothesis-failure]]
-  - [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
-  - [[concept-一堂-hypothesis-driven-business-methodology]]
-  - [[yitang-domain-digest]]
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[concept-一堂-kernel-iteration]]"
+  - "[[concept-一堂-product-kernel]]"
+  - "[[case-一堂-无人餐厅-hypothesis-failure]]"
+  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
+  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
+  - "[[yitang-domain-digest]]"
 wiki_refs:
 - src_unknown
 - src_unknown

@@ -17,11 +17,11 @@ review_date: '2026-06-19'
 confidence: 0.89
 trust_level: medium
 related:
-  - [[xingangwan-pharma-business-formulas]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[xingangwan-pharma-business-formulas]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 source_refs:
 - src_unknown
 - src_unknown

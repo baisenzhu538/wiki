@@ -24,12 +24,12 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.78
 related:
-  - [[modeling-capability-system]]
-  - [[modeling-three-stages]]
-  - [[modeling-level-map]]
-  - [[modeling-weapon-library]]
-  - [[framework-kdo-self-attack]]
-  - [[yitang-domain-digest]]
+  - "[[modeling-capability-system]]"
+  - "[[modeling-three-stages]]"
+  - "[[modeling-level-map]]"
+  - "[[modeling-weapon-library]]"
+  - "[[framework-kdo-self-attack]]"
+  - "[[yitang-domain-digest]]"
 tags: []
 diagnostic_signals:
 - framework_lens: 流程建模

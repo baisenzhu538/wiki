@@ -19,9 +19,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[ocr-一堂产品内核-十大典型指标]]
-  - [[ocr-一堂五步法-产品内核画布]]
-  - [[pending_unknown]]
+  - "[[ocr-一堂产品内核-十大典型指标]]"
+  - "[[ocr-一堂五步法-产品内核画布]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 洗发水案例——内核是价值，不是功能
   follow_up_question: AI功能解决了用户什么问题？用户愿意为这个'问题解决'付费吗？

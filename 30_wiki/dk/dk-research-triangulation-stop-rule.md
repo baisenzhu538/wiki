@@ -13,12 +13,12 @@ domain: research
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:
-  - [[case-yitang-travel-receipt-analysis]]
-  - [[case-yitang-luckin-field-research]]
-  - [[case-liutao-douyin-team-leader-9m]]
-  - [[case-yitang-hardware-factory-photo]]
-  - [[case-yitang-pet-fostering-user-research]]
-  - [[yitang-research-domain-digest]]
+  - "[[case-yitang-travel-receipt-analysis]]"
+  - "[[case-yitang-luckin-field-research]]"
+  - "[[case-liutao-douyin-team-leader-9m]]"
+  - "[[case-yitang-hardware-factory-photo]]"
+  - "[[case-yitang-pet-fostering-user-research]]"
+  - "[[yitang-research-domain-digest]]"
 ---
 
 # 多源交叉验证的停止规则

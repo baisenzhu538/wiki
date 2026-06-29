@@ -14,14 +14,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
-  - [[dk-f6-cjk-skeleton-corruption]]
-  - [[yt-model-pan-product-climbing-map]]
-  - [[tool-clinic-medical-shortvideo-compliance]]
-  - [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
-  - [[sprint-2-gate-enrich-evidence]]
-  - [[dk-p11-regex-cutoff]]
-  - [[sprint-6-cli-gap-proposal]]
-  - [[case-dental-clinic-formula]]
+  - "[[dk-f6-cjk-skeleton-corruption]]"
+  - "[[yt-model-pan-product-climbing-map]]"
+  - "[[tool-clinic-medical-shortvideo-compliance]]"
+  - "[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]"
+  - "[[sprint-2-gate-enrich-evidence]]"
+  - "[[dk-p11-regex-cutoff]]"
+  - "[[sprint-6-cli-gap-proposal]]"
+  - "[[case-dental-clinic-formula]]"
 pipeline:
 - src_unknown
 - src_unknown

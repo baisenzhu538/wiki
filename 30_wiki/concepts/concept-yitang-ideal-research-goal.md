@@ -17,11 +17,11 @@ domain:
 source_refs:
 - 00_inbox/调研专题/理想调研三原则_ocr_text.md
 related:
-  - [[yitang-domain-digest]]
-  - [[yitang-research-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[yitang-research-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 updated_at: '2026-06-29'
 ---
 

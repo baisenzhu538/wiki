@@ -20,14 +20,14 @@ source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-小抄-05_vlm_desc.md
 source_person: 一堂实验室
 related:
-- [[framework-yitang-channel-exploration-4step]]
-- [[tool-yitang-channel-scoring-matrix]]
-- [[tool-yitang-industry-channel-arsenal-index]]
-- [[tool-yitang-referral-channel-optimization]]
-- [[tool-区分获客渠道计算单元roi]]
-- [[yt-unit-model-overview]]
-- [[framework-lean-abcd-model]]
-- [[framework-yitang-growth-flywheel]]
+- "[[framework-yitang-channel-exploration-4step]]"
+- "[[tool-yitang-channel-scoring-matrix]]"
+- "[[tool-yitang-industry-channel-arsenal-index]]"
+- "[[tool-yitang-referral-channel-optimization]]"
+- "[[tool-区分获客渠道计算单元roi]]"
+- "[[yt-unit-model-overview]]"
+- "[[framework-lean-abcd-model]]"
+- "[[framework-yitang-growth-flywheel]]"
 review_date: '2026-06-28'
 ---
 

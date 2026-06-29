@@ -14,11 +14,11 @@ source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-  - [[tool-专家访谈学习]]
-  - [[tool-清单式笔记法]]
-  - [[tool-专家访谈十步法]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-专家访谈学习]]"
+  - "[[tool-清单式笔记法]]"
+  - "[[tool-专家访谈十步法]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 query_triggers:
 - src_unknown
 - src_unknown

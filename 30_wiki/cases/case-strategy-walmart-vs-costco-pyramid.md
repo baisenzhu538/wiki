@@ -18,9 +18,9 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_21_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_21_vlm_desc.md
 related:
-  - [[strategy-domain-digest]]
-  - [[case-strategy-retailer-activity-scope]]
-  - [[tool-三层目标对齐法]]
+  - "[[strategy-domain-digest]]"
+  - "[[case-strategy-retailer-activity-scope]]"
+  - "[[tool-三层目标对齐法]]"
 
 ---
 

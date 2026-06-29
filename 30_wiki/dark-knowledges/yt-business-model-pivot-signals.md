@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- [[yt-business-model-definition]]
-- [[yt-business-model-unit-economics]]
-- [[yt-entrepreneur-unit-model]]
-- [[yt-five-step-method]]
-- [[yt-entrepreneur-business-growth]]
+- "[[yt-business-model-definition]]"
+- "[[yt-business-model-unit-economics]]"
+- "[[yt-entrepreneur-unit-model]]"
+- "[[yt-five-step-method]]"
+- "[[yt-entrepreneur-business-growth]]"
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 商业模式转型信号——单元模型不成立是转型信号

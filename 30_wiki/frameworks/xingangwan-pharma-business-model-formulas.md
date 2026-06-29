@@ -17,13 +17,13 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 related:
-  - [[smart-medicine-cabinet-o2o-cost-structure]]
-  - [[smart-medicine-cabinet-clinic-risk-observation]]
-  - [[case-five-step-growth-first-lever]]
-  - [[xingangwan-pharma-business-formulas]]
-  - [[xingangwan-pharma-business-model-calc]]
-  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
-  - [[shanxi-field-research-checklist-20260701]]
+  - "[[smart-medicine-cabinet-o2o-cost-structure]]"
+  - "[[smart-medicine-cabinet-clinic-risk-observation]]"
+  - "[[case-five-step-growth-first-lever]]"
+  - "[[xingangwan-pharma-business-formulas]]"
+  - "[[xingangwan-pharma-business-model-calc]]"
+  - "[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]"
+  - "[[shanxi-field-research-checklist-20260701]]"
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 captured_at: '2026-06-19'

@@ -30,11 +30,11 @@ diagnostic_signals:
 - lens: 思维瓶颈
   follow_up: 检查是否仍在演员模式执行单点任务，而非导演模式重设系统
 related:
-  - [[case-wanghuan-education-sales-capability-extraction]]
-  - [[case-wanghuan-education-sales-paced]]
-  - [[case-wanghuan-shenyang-software-3x-efficiency]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[case-wanghuan-education-sales-capability-extraction]]"
+  - "[[case-wanghuan-education-sales-paced]]"
+  - "[[case-wanghuan-shenyang-software-3x-efficiency]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

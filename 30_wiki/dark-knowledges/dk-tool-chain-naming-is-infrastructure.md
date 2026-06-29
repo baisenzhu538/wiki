@@ -14,11 +14,11 @@ source_context: 第26-27节精修中反复出现：source ID、文件名、正�
 source_refs:
 - src_unknown
 related:
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 bridges_to:
 - src_unknown
 - src_unknown

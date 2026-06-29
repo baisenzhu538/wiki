@@ -21,14 +21,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-pitch-scenarization
-- - - yt-pitch-colloquialization
-- - - yt-pitch-quantification
-- - - yt-pitch-storytelling
-- - - yt-pitch-materialization
-- - - yt-pitch-metaphor
-- - - yt-pitch-aphorism
-- - - yt-pitch-emotionalization
+- "[[yt-pitch-scenarization]]"
+- "[[yt-pitch-colloquialization]]"
+- "[[yt-pitch-quantification]]"
+- "[[yt-pitch-storytelling]]"
+- "[[yt-pitch-materialization]]"
+- "[[yt-pitch-metaphor]]"
+- "[[yt-pitch-aphorism]]"
+- "[[yt-pitch-emotionalization]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary.md

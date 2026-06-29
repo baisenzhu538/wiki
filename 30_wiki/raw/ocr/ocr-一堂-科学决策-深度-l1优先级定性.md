@@ -16,11 +16,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[ocr-一堂-科学决策-稀缺资源清单]]
-  - [[ocr-一堂-科学决策-深度-l2部分定量]]
-  - [[ocr-一堂-科学决策-深度-案例02]]
-  - [[yt-decision-depth-ladder]]
-  - [[ocr-一堂-科学决策-深度-l4严格财务公式]]
+  - "[[ocr-一堂-科学决策-稀缺资源清单]]"
+  - "[[ocr-一堂-科学决策-深度-l2部分定量]]"
+  - "[[ocr-一堂-科学决策-深度-案例02]]"
+  - "[[yt-decision-depth-ladder]]"
+  - "[[ocr-一堂-科学决策-深度-l4严格财务公式]]"
 ---
 # OCR: 一堂-科学决策-深度-L1优先级定性
 

@@ -17,12 +17,12 @@ source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 related:
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[framework-wanghuan-ooda-loop]]
-  - [[framework-wanghuan-gan-three-roles]]
-  - [[framework-wanghuan-bitcoe-prompt-framework]]
-  - [[tool-wanghuan-ai-business-profile]]
-  - [[concept-candy-ai-as-collaborator]]
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[tool-wanghuan-ai-business-profile]]"
+  - "[[concept-candy-ai-as-collaborator]]"
 ---
 
 # 三层拆书批判法

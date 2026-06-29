@@ -14,12 +14,12 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - [[dk-demand-premature-solution]]
-  - [[dk-demand-feature-stacking]]
-  - [[dk-demand-hidden-need]]
-  - [[yt-five-step-method]]
-  - [[dk-tool-as-phased-validator]]
-  - [[yitang-domain-digest]]
+  - "[[dk-demand-premature-solution]]"
+  - "[[dk-demand-feature-stacking]]"
+  - "[[dk-demand-hidden-need]]"
+  - "[[yt-five-step-method]]"
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[yitang-domain-digest]]"
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'

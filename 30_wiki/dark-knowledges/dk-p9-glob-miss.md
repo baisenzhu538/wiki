@@ -13,10 +13,10 @@ source_refs:
 created_at: 2026-06-03
 updated_at: 2026-06-28
 related:
-- [[dk-p8-toolkit-forget]]
-- [[dk-p15-unverified]]
-- [[master-first-principles]]
-- [[master-ai-info-literacy]]
+- "[[dk-p8-toolkit-forget]]"
+- "[[dk-p15-unverified]]"
+- "[[master-first-principles]]"
+- "[[master-ai-info-literacy]]"
 pipeline:
 - src_unknown
 - src_unknown

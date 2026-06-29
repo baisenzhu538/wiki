@@ -27,9 +27,9 @@ source_refs:
 source_person: 一堂课程讲师（教学推演案例）
 source_context: 一堂精益创业·低成本验证课程·医疗器械案例
 related:
-  - [[strategy-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
+  - "[[strategy-domain-digest]]"
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
 ---
 
 # 医疗器械项目里程碑测试

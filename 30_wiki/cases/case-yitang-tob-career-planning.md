@@ -29,9 +29,9 @@ review_date: '2026-06-16'
 confidence: 0.68
 trust_level: medium
 related:
-  - [[yt-tob-revenue-is-customer-cost]]
-  - [[yt-tob-product-kernel]]
-  - [[yt-tob-customer-sabc]]
+  - "[[yt-tob-revenue-is-customer-cost]]"
+  - "[[yt-tob-product-kernel]]"
+  - "[[yt-tob-customer-sabc]]"
 diagnostic_signals:
 - framework_lens: 业务天花板 / [[yt-tob-revenue-is-customer-cost]]
   follow_up_question: 这 100 亿中，有多少来自学校真实预算？可触达的头部学校有多少家？单校专项成本与成本占有率分别是多少？

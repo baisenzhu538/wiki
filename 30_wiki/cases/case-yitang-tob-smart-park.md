@@ -27,9 +27,9 @@ review_date: '2026-06-16'
 confidence: 0.68
 trust_level: medium
 related:
-  - [[yt-tob-sales-unit-model]]
-  - [[yt-tob-cash-flow]]
-  - [[pending_unknown]]
+  - "[[yt-tob-sales-unit-model]]"
+  - "[[yt-tob-cash-flow]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 商业模式 / 单元模型
   follow_up_question: 除了项目交付费，能否在合同中拆分出年度运营服务费、数据增值费或软件授权续费？

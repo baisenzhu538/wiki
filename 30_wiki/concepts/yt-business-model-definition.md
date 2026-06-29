@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[tool-李诞-销售闭环验证：从0到1的重新定义]]
-  - [[tool-李诞-个人IP的重新定义与输出策略]]
-  - [[ocr-一堂-科学决策-商业模式-完整财务公式决策]]
-  - [[tool-Truman-问题定义澄清法]]
-  - [[pending_unknown]]
+  - "[[tool-李诞-销售闭环验证：从0到1的重新定义]]"
+  - "[[tool-李诞-个人IP的重新定义与输出策略]]"
+  - "[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]"
+  - "[[tool-Truman-问题定义澄清法]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 商业模式定义——内核是价值，商业模式是变现路径
   follow_up_question: 用户愿意为内核价值付多少钱？付费方式是什么？

@@ -13,10 +13,10 @@ created_at: '2026-06-23'
 author: 黄药师
 reviewed_by: pending
 related:
-  - [[yitang-research-domain-digest]]
-  - [[strategy-domain-digest]]
-  - [[five-step-domain-digest]]
-  - [[ai-collaboration-domain-digest]]
+  - "[[yitang-research-domain-digest]]"
+  - "[[strategy-domain-digest]]"
+  - "[[five-step-domain-digest]]"
+  - "[[ai-collaboration-domain-digest]]"
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 source_refs:

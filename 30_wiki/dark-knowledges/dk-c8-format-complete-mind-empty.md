@@ -14,13 +14,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- [[case-strategy-wuxi-suntech]]
-- [[dk-small-format-error-cascades-to-system-failure]]
-- [[dk-infrastructure-guardrails-over-checklist]]
-- [[modeling-to-kdo-toolchain]]
-- [[dk-c10-batch-tool-no-dry-run]]
-- [[dk-c10-batch-tool-no-dry-run]]
-- [[master-decision-hygiene]]
+- "[[case-strategy-wuxi-suntech]]"
+- "[[dk-small-format-error-cascades-to-system-failure]]"
+- "[[dk-infrastructure-guardrails-over-checklist]]"
+- "[[modeling-to-kdo-toolchain]]"
+- "[[dk-c10-batch-tool-no-dry-run]]"
+- "[[dk-c10-batch-tool-no-dry-run]]"
+- "[[master-decision-hygiene]]"
 pipeline:
 - src_unknown
 - src_unknown

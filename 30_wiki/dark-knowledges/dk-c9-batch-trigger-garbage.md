@@ -14,10 +14,10 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- [[framework-ci-operating-model]]
-- [[tool-ci-implement-phase]]
-- [[dk-c8-format-complete-mind-empty]]
-- [[master-decision-hygiene]]
+- "[[framework-ci-operating-model]]"
+- "[[tool-ci-implement-phase]]"
+- "[[dk-c8-format-complete-mind-empty]]"
+- "[[master-decision-hygiene]]"
 pipeline:
 - src_unknown
 - src_unknown

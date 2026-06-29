@@ -33,11 +33,11 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-- - - yt-foresight-business-spectrum
-- - - yt-entrepreneur-opportunity-selection
-- - - case-coffee-shop-foresight
-- - - case-ai-time-management-tiered-growth
-- - - yitang-domain-digest
+- "[[yt-foresight-business-spectrum]]"
+- "[[yt-entrepreneur-opportunity-selection]]"
+- "[[case-coffee-shop-foresight]]"
+- "[[case-ai-time-management-tiered-growth]]"
+- "[[yitang-domain-digest]]"
 ---
 
 # 案例：陪诊业务七级演进

@@ -23,11 +23,11 @@ updated_at: 2026-06-13
 author: unknown
 reviewed_by: "欧阳锋"
 related:
-  - [[yt-growth-scaling-pitfalls]]
-  - [[source-code-delivery-model]]
-  - [[tool-yitang-pc-web-data]]
-  - [[七件事集团]]
-  - [[yt-personal-scientific-expression]]
+  - "[[yt-growth-scaling-pitfalls]]"
+  - "[[source-code-delivery-model]]"
+  - "[[tool-yitang-pc-web-data]]"
+  - "[[七件事集团]]"
+  - "[[yt-personal-scientific-expression]]"
 ---
 # 私域 SaaS 销售四步法
 

@@ -11,11 +11,11 @@ domain: yitang
 confidence: 0.75
 trust_level: medium
 related:
-  - [[tool-一堂-business-prediction-15-char]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-一堂-business-prediction-15-char]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown
 ---

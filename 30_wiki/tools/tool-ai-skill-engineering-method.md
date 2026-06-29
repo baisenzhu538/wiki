@@ -21,21 +21,21 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - [[tool-半肥猫-课程Skill化的八步工作流]]
-  - [[tool-Truman-Skill全生命周期管理]]
-  - [[tool-月白-设计能力蒸馏封装法]]
-  - [[paddleocr-skill]]
-  - [[case-半肥猫-course-to-skill]]
-  - [[tool-封装可复用skill]]
-  - [[course-to-skill-conversion]]
-  - [[truman-perspective-skill]]
-  - [[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]
-  - [[case-ji-hao-skill-market-problem-validation]]
-  - [[case-truman-ai-skill-self-packaging]]
-  - [[yt-skill-checklist-as-ai-protocol]]
-  - [[yt-skill-p-role-prompt-design]]
-  - [[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]
-  - [[plan_20260621_skill-iteration-standard]]
+  - "[[tool-半肥猫-课程Skill化的八步工作流]]"
+  - "[[tool-Truman-Skill全生命周期管理]]"
+  - "[[tool-月白-设计能力蒸馏封装法]]"
+  - "[[paddleocr-skill]]"
+  - "[[case-半肥猫-course-to-skill]]"
+  - "[[tool-封装可复用skill]]"
+  - "[[course-to-skill-conversion]]"
+  - "[[truman-perspective-skill]]"
+  - "[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]"
+  - "[[case-ji-hao-skill-market-problem-validation]]"
+  - "[[case-truman-ai-skill-self-packaging]]"
+  - "[[yt-skill-checklist-as-ai-protocol]]"
+  - "[[yt-skill-p-role-prompt-design]]"
+  - "[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]"
+  - "[[plan_20260621_skill-iteration-standard]]"
 tags:
 - src_unknown
 - src_unknown

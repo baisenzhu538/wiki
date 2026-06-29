@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[yt-entrepreneur-liberate-thinking]]
-  - [[ocr-一堂-单元模型-最简单元模型]]
-  - [[ocr-泛产品设计-落地卡片-解放思想]]
-  - [[ocr-一堂-个人修炼-科学学习ipo模型]]
-  - [[ocr-一堂-个人修炼-y模型]]
+  - "[[yt-entrepreneur-liberate-thinking]]"
+  - "[[ocr-一堂-单元模型-最简单元模型]]"
+  - "[[ocr-泛产品设计-落地卡片-解放思想]]"
+  - "[[ocr-一堂-个人修炼-科学学习ipo模型]]"
+  - "[[ocr-一堂-个人修炼-y模型]]"
 ---
 # OCR: 一堂-个人修炼-解放思想
 

@@ -15,20 +15,20 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- - - yitang-domain-digest
-- - - tool-yitang-channel-industrialization-node-design
-- - - case-ai-agent-milestone-design
-- - - case-yitang-senior-university-product-design
-- - - tool-yitang-growth-flywheel-design
-- - - case-纪浩-focus-prompt-design
-- - - agent-external-brain-design
-- - - tool-reverse-image-search
-- - - yt-panproduct-execution-design-principles
-- - - case-ji-hao-ui-design-constraint-evolution
-- - - framework-strategy-business-design
-- - - dk-yb12-ai-image-analysis-replace-training
-- - - yt-skill-p-role-prompt-design
-- - - kdo_product_design_agent_final
+- "[[yitang-domain-digest]]"
+- "[[tool-yitang-channel-industrialization-node-design]]"
+- "[[case-ai-agent-milestone-design]]"
+- "[[case-yitang-senior-university-product-design]]"
+- "[[tool-yitang-growth-flywheel-design]]"
+- "[[case-纪浩-focus-prompt-design]]"
+- "[[agent-external-brain-design]]"
+- "[[tool-reverse-image-search]]"
+- "[[yt-panproduct-execution-design-principles]]"
+- "[[case-ji-hao-ui-design-constraint-evolution]]"
+- "[[framework-strategy-business-design]]"
+- "[[dk-yb12-ai-image-analysis-replace-training]]"
+- "[[yt-skill-p-role-prompt-design]]"
+- "[[kdo_product_design_agent_final]]"
 ---
 
 # Design / Ai Image Generation

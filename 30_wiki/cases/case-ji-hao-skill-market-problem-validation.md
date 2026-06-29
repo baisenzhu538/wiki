@@ -16,9 +16,9 @@ created_at: 2026-06-09
 updated_at: 2026-06-28
 reviewed_by: 老顽童
 related:
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
 wiki_refs:
 - src_unknown
 - src_unknown

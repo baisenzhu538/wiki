@@ -17,11 +17,11 @@ confidence: 0.6
 trust_level: low
 source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/sources/src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md）
 related:
-  - [[ocr-一堂-单元模型-找全成本实操难点]]
-  - [[tool-自我反馈修正笔记姿势]]
-  - [[ocr-一堂-单元模型-abcd策略模型]]
-  - [[ocr-一堂-单元模型-外部对抗地图]]
-  - [[yt-note-deliberate-practice-four-elements]]
+  - "[[ocr-一堂-单元模型-找全成本实操难点]]"
+  - "[[tool-自我反馈修正笔记姿势]]"
+  - "[[ocr-一堂-单元模型-abcd策略模型]]"
+  - "[[ocr-一堂-单元模型-外部对抗地图]]"
+  - "[[yt-note-deliberate-practice-four-elements]]"
 ---
 # OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02
 

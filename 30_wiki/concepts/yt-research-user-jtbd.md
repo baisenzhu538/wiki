@@ -18,14 +18,14 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-  - [[yt-research-osl-framework]]
-  - [[yt-research-intelligence-map]]
-  - [[yt-research-competitor-toolkit]]
-  - [[yt-research-expert-interview]]
-  - [[yt-research-industry-canvas]]
-  - [[yt-research-hypothesis-test]]
-  - [[yt-research-mindset]]
-  - [[yt-panproduct-demand-peak-end-rule]]
+  - "[[yt-research-osl-framework]]"
+  - "[[yt-research-intelligence-map]]"
+  - "[[yt-research-competitor-toolkit]]"
+  - "[[yt-research-expert-interview]]"
+  - "[[yt-research-industry-canvas]]"
+  - "[[yt-research-hypothesis-test]]"
+  - "[[yt-research-mindset]]"
+  - "[[yt-panproduct-demand-peak-end-rule]]"
 
 
 ---

@@ -16,11 +16,11 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-  - [[case-truman-ai-skill-engineering-guide]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[case-truman-ai-skill-engineering-guide]]"
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

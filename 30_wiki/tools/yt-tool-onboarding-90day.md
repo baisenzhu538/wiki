@@ -16,14 +16,14 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-  - [[yt-management-team-knowledge]]
-  - [[yt-management-onboarding]]
-  - [[yt-management-toolkit-overview]]
-  - [[yt-tool-hiring-scorecard]]
-  - [[yt-tool-knowledge-extraction]]
-  - [[yt-management-company-culture]]
-  - [[yt-management-goal-management]]
-  - [[master-decision-hygiene]]
+  - "[[yt-management-team-knowledge]]"
+  - "[[yt-management-onboarding]]"
+  - "[[yt-management-toolkit-overview]]"
+  - "[[yt-tool-hiring-scorecard]]"
+  - "[[yt-tool-knowledge-extraction]]"
+  - "[[yt-management-company-culture]]"
+  - "[[yt-management-goal-management]]"
+  - "[[master-decision-hygiene]]"
 contradicts: null
 query_triggers:
 - src_unknown

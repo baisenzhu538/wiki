@@ -38,11 +38,11 @@ updated_at: '2026-06-28'
 author: 老顽童
 trust_level: medium-high
 related:
-  - [[yt-foresight-15-char-mantra]]
-  - [[yt-foresight-probability-engineering]]
-  - [[case-gudong-tea-shop-foresight]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yt-foresight-15-char-mantra]]"
+  - "[[yt-foresight-probability-engineering]]"
+  - "[[case-gudong-tea-shop-foresight]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 
 ---
 

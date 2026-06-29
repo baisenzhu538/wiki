@@ -12,7 +12,7 @@ domain:
 source_refs:
 - 'pending_archive:'
 related:
-- [[dk-strategy-longzhong-four-failures]]
+- "[[dk-strategy-longzhong-four-failures]]"
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 updated_at: '2026-06-28'

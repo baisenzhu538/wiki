@@ -19,13 +19,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - 一堂方法论体系总图
-- - - yitang-course-map
-- - - yt-system-course-catalog
-- - - yt-personal-ipo-learning
-- - - yt-personal-knowledge-extraction
-- - - yt-entrepreneur-needs-analysis
-- - - yt-personal-product-design
+- "[[一堂方法论体系总图]]"
+- "[[yitang-course-map]]"
+- "[[yt-system-course-catalog]]"
+- "[[yt-personal-ipo-learning]]"
+- "[[yt-personal-knowledge-extraction]]"
+- "[[yt-entrepreneur-needs-analysis]]"
+- "[[yt-personal-product-design]]"
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:

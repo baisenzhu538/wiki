@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-RGB转CMYK印刷预检]]
-  - [[tool-月白-口述作图法（口喷设计）]]
-  - [[tool-月白-新手设计师基本功训练法]]
-  - [[tool-月白-文创产品AI设计到生产的卡点预判]]
-  - [[tool-月白-实物包装落地训练法]]
+  - "[[tool-月白-RGB转CMYK印刷预检]]"
+  - "[[tool-月白-口述作图法（口喷设计）]]"
+  - "[[tool-月白-新手设计师基本功训练法]]"
+  - "[[tool-月白-文创产品AI设计到生产的卡点预判]]"
+  - "[[tool-月白-实物包装落地训练法]]"
 ---
 # 技能：Token效价比决策公式
 

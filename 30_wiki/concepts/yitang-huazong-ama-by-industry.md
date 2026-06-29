@@ -17,7 +17,7 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
 related:
-- - - yitang-huazong-ama-summary
+- "[[yitang-huazong-ama-summary]]"
 ---
 # 花总AMA按行业分类整理
 

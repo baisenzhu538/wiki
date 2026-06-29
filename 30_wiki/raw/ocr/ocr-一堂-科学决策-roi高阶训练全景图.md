@@ -19,11 +19,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[ocr-一堂-科学决策-稀缺资源清单]]
-  - [[ocr-一堂-科学决策-发现决策]]
-  - [[yt-decision-full-process]]
-  - [[ocr-一堂-科学决策-稀缺机会窗口]]
-  - [[ocr-一堂-科学决策-x型y型决策习惯对比]]
+  - "[[ocr-一堂-科学决策-稀缺资源清单]]"
+  - "[[ocr-一堂-科学决策-发现决策]]"
+  - "[[yt-decision-full-process]]"
+  - "[[ocr-一堂-科学决策-稀缺机会窗口]]"
+  - "[[ocr-一堂-科学决策-x型y型决策习惯对比]]"
 ---
 
 

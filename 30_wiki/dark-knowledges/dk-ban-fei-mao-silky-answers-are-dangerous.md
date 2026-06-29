@@ -12,12 +12,12 @@ source_refs:
 created_at: 2026-06-08
 updated_at: 2026-06-28
 related:
-  - [[dk-ban-fei-mao-skill-rejection-value]]
-  - [[dk-ai-judgment-human-responsibility]]
-  - [[dk-wanghuan-spec-trap]]
-  - [[yt-five-step-method]]
-  - [[dk-tool-as-phased-validator]]
-  - [[ai-collaboration-domain-digest]]
+  - "[[dk-ban-fei-mao-skill-rejection-value]]"
+  - "[[dk-ai-judgment-human-responsibility]]"
+  - "[[dk-wanghuan-spec-trap]]"
+  - "[[yt-five-step-method]]"
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[ai-collaboration-domain-digest]]"
 wiki_refs:
 - src_unknown
 - src_unknown

@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- - - tool-月白-AI设计反馈萃取法
-- - - tool-月白-AI自动生成多语种专业名词提示词
-- - - tool-月白-文创材质调研与精益选择
-- - - tool-月白-Token效价比决策法
-- - - tool-月白-AI课程内容深度梳理法
+- "[[tool-月白-AI设计反馈萃取法]]"
+- "[[tool-月白-AI自动生成多语种专业名词提示词]]"
+- "[[tool-月白-文创材质调研与精益选择]]"
+- "[[tool-月白-Token效价比决策法]]"
+- "[[tool-月白-AI课程内容深度梳理法]]"
 ---
 # 技能：AI对话情绪管理法
 

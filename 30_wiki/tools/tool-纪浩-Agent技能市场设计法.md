@@ -17,12 +17,12 @@ tools_required:
 - src_unknown
 prerequisite_skills: skill-纪浩-Do-first-PDCA渐进迭代法
 related:
-  - [[case-lean-adult-education]]
-  - [[case-truman-ai-skill-self-packaging]]
-  - [[yt-barrier-identification-skill]]
-  - [[case-demand-travel-agent]]
-  - [[case-ji-hao-skills-market]]
-  - [[case-truman-ai-partner]]
+  - "[[case-lean-adult-education]]"
+  - "[[case-truman-ai-skill-self-packaging]]"
+  - "[[yt-barrier-identification-skill]]"
+  - "[[case-demand-travel-agent]]"
+  - "[[case-ji-hao-skills-market]]"
+  - "[[case-truman-ai-partner]]"
 created_at: '2026-06-08'
 updated_at: '2026-06-17'
 pipeline:

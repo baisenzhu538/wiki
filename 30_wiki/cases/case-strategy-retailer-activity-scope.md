@@ -19,9 +19,9 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_vlm_desc.md
 - 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
 related:
-  - [[strategy-domain-digest]]
-  - [[case-strategy-walmart-vs-costco-pyramid]]
-  - [[tool-三层目标对齐法]]
+  - "[[strategy-domain-digest]]"
+  - "[[case-strategy-walmart-vs-costco-pyramid]]"
+  - "[[tool-三层目标对齐法]]"
 
 ---
 

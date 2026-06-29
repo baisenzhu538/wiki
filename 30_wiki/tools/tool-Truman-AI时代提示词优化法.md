@@ -16,11 +16,11 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
 related:
-- - - tool-月白-短视频封面一秒吸睛法
-- - - tool-Truman-技术社区严肃提问法
-- - - tool-Truman-语义对齐沟通法
-- - - tool-Truman-问题定义澄清法
-- - - tool-Truman-职场异步协作提问法
+- "[[tool-月白-短视频封面一秒吸睛法]]"
+- "[[tool-Truman-技术社区严肃提问法]]"
+- "[[tool-Truman-语义对齐沟通法]]"
+- "[[tool-Truman-问题定义澄清法]]"
+- "[[tool-Truman-职场异步协作提问法]]"
 ---
 # 技能：AI时代提示词优化法
 

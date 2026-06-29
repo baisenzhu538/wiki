@@ -17,9 +17,9 @@ updated_at: '2026-06-28'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - [[framework-yitang-18-strategy-cards]]
-  - [[framework-yitang-channel-exploration-4step]]
-  - [[framework-yitang-channel-industrialization]]
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[framework-yitang-channel-exploration-4step]]"
+  - "[[framework-yitang-channel-industrialization]]"
 diagnostic_signals:
 - framework_lens: 六维门禁——逐项自检
   follow_up_question: 六维中哪一维最薄弱？薄弱项回补后再提交

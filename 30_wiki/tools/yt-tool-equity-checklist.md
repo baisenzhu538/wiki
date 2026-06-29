@@ -16,14 +16,14 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-  - [[yt-management-business-formula]]
-  - [[yt-entrepreneur-lean-validation]]
-  - [[yt-management-partnership-equity]]
-  - [[yt-management-toolkit-overview]]
-  - [[yt-tool-hiring-scorecard]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[yt-decision-canvas]]
-  - [[yt-management-founder-role]]
+  - "[[yt-management-business-formula]]"
+  - "[[yt-entrepreneur-lean-validation]]"
+  - "[[yt-management-partnership-equity]]"
+  - "[[yt-management-toolkit-overview]]"
+  - "[[yt-tool-hiring-scorecard]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[yt-decision-canvas]]"
+  - "[[yt-management-founder-role]]"
 contradicts: null
 query_triggers:
 - src_unknown

@@ -10,20 +10,20 @@ domain:
 - src_unknown
 source_refs: []
 related:
-  - [[concept-X型Y型决策习惯]]
-  - [[kdo-input-channel-strategy-2026-06-16]]
-  - [[kdo-protocol]]
-  - [[ocr-一堂-科学决策-roi决策评估画布]]
-  - [[ocr-一堂-科学决策-x型y型决策习惯对比]]
-  - [[ocr-一堂-科学决策-宽度-团队]]
-  - [[modeling-to-kdo-toolchain]]
-  - [[ocr-一堂-科学决策-深度-l1优先级定性]]
-  - [[case-科学决策-ROI案例03]]
-  - [[ocr-一堂-科学决策-稀缺资源清单]]
-  - [[tool-水水-管理决策权重偏差]]
-  - [[framework-kdo-self-attack]]
-  - [[kdo-yaml-frontmatter-safety]]
-  - [[case-科学决策-深度案例06]]
+  - "[[concept-X型Y型决策习惯]]"
+  - "[[kdo-input-channel-strategy-2026-06-16]]"
+  - "[[kdo-protocol]]"
+  - "[[ocr-一堂-科学决策-roi决策评估画布]]"
+  - "[[ocr-一堂-科学决策-x型y型决策习惯对比]]"
+  - "[[ocr-一堂-科学决策-宽度-团队]]"
+  - "[[modeling-to-kdo-toolchain]]"
+  - "[[ocr-一堂-科学决策-深度-l1优先级定性]]"
+  - "[[case-科学决策-ROI案例03]]"
+  - "[[ocr-一堂-科学决策-稀缺资源清单]]"
+  - "[[tool-水水-管理决策权重偏差]]"
+  - "[[framework-kdo-self-attack]]"
+  - "[[kdo-yaml-frontmatter-safety]]"
+  - "[[case-科学决策-深度案例06]]"
 tags:
 - src_unknown
 - src_unknown

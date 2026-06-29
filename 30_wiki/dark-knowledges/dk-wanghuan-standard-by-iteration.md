@@ -20,14 +20,14 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[master-ai-info-literacy]]
-- [[dk-wanghuan-ai-lifts-personal-ceiling]]
-- [[dk-wanghuan-magic-defeats-magic]]
-- [[tool-wanghuan-ai-dual-role-coach]]
-- [[human-ai-collaboration-double-triangle]]
-- [[framework-wanghuan-actor-director-mode]]
-- [[concept-wanghuan-adversarial-generation]]
+- "[[dk-modeling-ai-judgment-limit]]"
+- "[[master-ai-info-literacy]]"
+- "[[dk-wanghuan-ai-lifts-personal-ceiling]]"
+- "[[dk-wanghuan-magic-defeats-magic]]"
+- "[[tool-wanghuan-ai-dual-role-coach]]"
+- "[[human-ai-collaboration-double-triangle]]"
+- "[[framework-wanghuan-actor-director-mode]]"
+- "[[concept-wanghuan-adversarial-generation]]"
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 标准来自迭代——标准不是想出来的，是迭代出来的

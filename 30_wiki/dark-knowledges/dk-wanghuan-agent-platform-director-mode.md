@@ -31,13 +31,13 @@ diagnostic_signals:
   lens: acceptance-gap
   follow_up: 在任务启动前把验收标准写进 prompt 或 AI 业务档案，而不是事后凭感觉修
 related:
-  - [[dk-wanghuan-spec-trap]]
-  - [[dk-wanghuan-paced-sales-decision]]
-  - [[dk-wanghuan-tacit-decision-extraction-cross-domain]]
-  - [[yt-five-step-method]]
-  - [[dk-tool-as-phased-validator]]
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
+  - "[[dk-wanghuan-spec-trap]]"
+  - "[[dk-wanghuan-paced-sales-decision]]"
+  - "[[dk-wanghuan-tacit-decision-extraction-cross-domain]]"
+  - "[[yt-five-step-method]]"
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[yitang-domain-digest]]"
 tags:
 - src_unknown
 - src_unknown

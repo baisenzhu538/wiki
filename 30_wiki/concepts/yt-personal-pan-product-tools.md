@@ -17,11 +17,11 @@ query_triggers:
 - src_unknown工具篇
 - src_unknown工具篇：出牌教学法与30张卡牌
 related:
-- - - yt-model-pan-product-36-strategies
-- - - yt-personal-pan-product-concepts
-- - - 一堂
-- - - pending_unknown
-- - - pending_unknown
+- "[[yt-model-pan-product-36-strategies]]"
+- "[[yt-personal-pan-product-concepts]]"
+- "[[一堂]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260510_e6643d52-个人修炼-泛产品设计工具篇.md

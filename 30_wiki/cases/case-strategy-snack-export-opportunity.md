@@ -18,9 +18,9 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_54_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_54_vlm_desc.md
 related:
-  - [[strategy-domain-digest]]
-  - [[tool-月白-供应商信息对齐清单法]]
-  - [[tool-Truman-语义对齐沟通法]]
+  - "[[strategy-domain-digest]]"
+  - "[[tool-月白-供应商信息对齐清单法]]"
+  - "[[tool-Truman-语义对齐沟通法]]"
 
 ---
 

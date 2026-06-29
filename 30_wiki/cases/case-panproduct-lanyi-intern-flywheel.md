@@ -21,14 +21,14 @@ source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 related:
-- [[framework-pan-product-organization]]
-- [[case-panproduct-lanyi-shidonghui-npc]]
-- [[dk-panproduct-org-linear-to-circular]]
-- [[dk-panproduct-org-serve-the-lowest]]
-- [[framework-一堂五步法-泛产品设计]]
-- [[framework-yitang-growth-flywheel]]
-- [[framework-lean-abcd-model]]
-- [[framework-ai-accelerated-strategy-cycle]]
+- "[[framework-pan-product-organization]]"
+- "[[case-panproduct-lanyi-shidonghui-npc]]"
+- "[[dk-panproduct-org-linear-to-circular]]"
+- "[[dk-panproduct-org-serve-the-lowest]]"
+- "[[framework-一堂五步法-泛产品设计]]"
+- "[[framework-yitang-growth-flywheel]]"
+- "[[framework-lean-abcd-model]]"
+- "[[framework-ai-accelerated-strategy-cycle]]"
 review_date: '2026-06-28'
 ---
 

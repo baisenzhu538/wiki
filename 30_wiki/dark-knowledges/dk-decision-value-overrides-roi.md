@@ -20,9 +20,9 @@ author: 黄药师
 reviewed_by: 黄药师
 review_date: '2026-06-17'
 related:
-- [[yt-decision-y-model]]
-- [[yt-decision-canvas]]
-- [[master-decision-hygiene]]
+- "[[yt-decision-y-model]]"
+- "[[yt-decision-canvas]]"
+- "[[master-decision-hygiene]]"
 tags:
 - src_unknown
 - src_unknown

@@ -43,11 +43,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium-high
 related:
-  - [[yt-model-prompt-engineering]]
-  - [[yt-prompt-brainstorming]]
-  - [[yt-concept-ai-guard-brain]]
-  - [[yt-model-personal-pitch-toolkit]]
-  - [[yitang-domain-digest]]
+  - "[[yt-model-prompt-engineering]]"
+  - "[[yt-prompt-brainstorming]]"
+  - "[[yt-concept-ai-guard-brain]]"
+  - "[[yt-model-personal-pitch-toolkit]]"
+  - "[[yitang-domain-digest]]"
 ---
 
 # AI 写作工作流：大纲→要点→全文

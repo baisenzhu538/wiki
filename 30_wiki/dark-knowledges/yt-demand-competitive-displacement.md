@@ -17,10 +17,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- [[yt-demand-jtbd-application]]
-- [[yt-demand-hierarchy-model]]
-- [[yt-demand-fake-demand-detection]]
-- [[yt-five-step-method]]
+- "[[yt-demand-jtbd-application]]"
+- "[[yt-demand-hierarchy-model]]"
+- "[[yt-demand-fake-demand-detection]]"
+- "[[yt-five-step-method]]"
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 需求替代陷阱——竞争是所有完成同一任务的方案

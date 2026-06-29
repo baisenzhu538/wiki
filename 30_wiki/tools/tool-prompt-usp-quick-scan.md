@@ -16,7 +16,7 @@ updated_at: '2026-06-21'
 author: 黄药师（从程诚同学提示词提取）
 reviewed_by: 欧阳锋
 related:
-- [[tool-prompt-usp-demand-analysis]]
+- "[[tool-prompt-usp-demand-analysis]]"
 
 ---
 

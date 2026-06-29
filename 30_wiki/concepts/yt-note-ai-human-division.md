@@ -9,14 +9,14 @@ version: 1
 difficulty: intermediate
 confidence: 0.72
 related:
-- - - yt-note-checklist-concept
-- - - yt-note-five-levels-training
-- - - yt-note-live-field-skill
-- - - yt-concept-ai-guard-brain
-- - - yt-model-ipo-learning-strategy
-- - - yt-decision-ai-partner
-- - - yt-concept-context-engineering
-- - - yt-personal-ai-capability
+- "[[yt-note-checklist-concept]]"
+- "[[yt-note-five-levels-training]]"
+- "[[yt-note-live-field-skill]]"
+- "[[yt-concept-ai-guard-brain]]"
+- "[[yt-model-ipo-learning-strategy]]"
+- "[[yt-decision-ai-partner]]"
+- "[[yt-concept-context-engineering]]"
+- "[[yt-personal-ai-capability]]"
 prerequisites:
 - src_unknown
 source_refs:

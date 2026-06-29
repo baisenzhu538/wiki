@@ -19,12 +19,12 @@ source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
 - src_unknown
 related:
-  - [[framework-yitang-deliberate-practice-1plus4]]
-  - [[tool-yitang-practice-20hour-starter]]
-  - [[concept-yitang-comfort-stretch-panic-zones]]
-  - [[dk-yitang-deliberate-practice-common-traps]]
-  - [[framework-ai-deliberate-practice-loop]]
-  - [[yitang-domain-digest]]
+  - "[[framework-yitang-deliberate-practice-1plus4]]"
+  - "[[tool-yitang-practice-20hour-starter]]"
+  - "[[concept-yitang-comfort-stretch-panic-zones]]"
+  - "[[dk-yitang-deliberate-practice-common-traps]]"
+  - "[[framework-ai-deliberate-practice-loop]]"
+  - "[[yitang-domain-digest]]"
 ---
 
 # 三环能力聚焦法：从 30 个能力中锁定 3 个重点

@@ -19,9 +19,9 @@ author: 欧阳锋
 reviewed_by: 欧阳锋
 confidence: 0.90
 related:
-  - [[framework-yitang-oscar-research]]
-  - [[framework-yitang-18-strategy-cards]]
-  - [[yitang-research-domain-digest]]
+  - "[[framework-yitang-oscar-research]]"
+  - "[[framework-yitang-18-strategy-cards]]"
+  - "[[yitang-research-domain-digest]]"
 ---
 # 知识卡片 → Claude Code Skill 迭代标准
 

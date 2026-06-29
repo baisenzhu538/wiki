@@ -40,9 +40,9 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-- - - yt-foresight-15-char-mantra
-- - - yt-foresight-ab-steady-state
-- - - yt-foresight-addition-subtraction
+- "[[yt-foresight-15-char-mantra]]"
+- "[[yt-foresight-ab-steady-state]]"
+- "[[yt-foresight-addition-subtraction]]"
 ---
 
 # 概率工程：把小概率变成大概率的方法论

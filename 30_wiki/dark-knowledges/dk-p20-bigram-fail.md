@@ -14,21 +14,21 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - [[dk-yb23-ai-pre-screen-three-minutes]]
-  - [[yt-entrepreneur-needs-analysis]]
-  - [[yt-entrepreneur-pragmatic-startup]]
-  - [[dk-modeling-explanatory-vs-predictive-essence]]
-  - [[ocr-screenshot2]]
-  - [[dk-yb22-visual-presentation-scene-match]]
-  - [[yt-entrepreneur-product-core]]
-  - [[yt-entrepreneur-opportunity-selection]]
-  - [[yt-entrepreneur-spin-selling]]
-  - [[yt-entrepreneur-259-milestone]]
-  - [[tool-lean-presell]]
-  - [[dk-yitang-cross-case-pattern-failure-premium]]
-  - [[yt-entrepreneur-fundraising]]
-  - [[yt-entrepreneur-channel-exploration]]
-  - [[yt-personal-scientific-expression]]
+  - "[[dk-yb23-ai-pre-screen-three-minutes]]"
+  - "[[yt-entrepreneur-needs-analysis]]"
+  - "[[yt-entrepreneur-pragmatic-startup]]"
+  - "[[dk-modeling-explanatory-vs-predictive-essence]]"
+  - "[[ocr-screenshot2]]"
+  - "[[dk-yb22-visual-presentation-scene-match]]"
+  - "[[yt-entrepreneur-product-core]]"
+  - "[[yt-entrepreneur-opportunity-selection]]"
+  - "[[yt-entrepreneur-spin-selling]]"
+  - "[[yt-entrepreneur-259-milestone]]"
+  - "[[tool-lean-presell]]"
+  - "[[dk-yitang-cross-case-pattern-failure-premium]]"
+  - "[[yt-entrepreneur-fundraising]]"
+  - "[[yt-entrepreneur-channel-exploration]]"
+  - "[[yt-personal-scientific-expression]]"
 pipeline:
 - src_unknown
 - src_unknown

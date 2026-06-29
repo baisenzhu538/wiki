@@ -18,11 +18,11 @@ confidence: 0.6
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - [[plan_20260621_domain-index-infrastructure]]
-  - [[sprint-6-cli-gap-proposal]]
-  - [[sprint-2-gate-enrich-evidence]]
-  - [[graph-rag-retrieval-layer]]
-  - [[graph-rag]]
+  - "[[plan_20260621_domain-index-infrastructure]]"
+  - "[[sprint-6-cli-gap-proposal]]"
+  - "[[sprint-2-gate-enrich-evidence]]"
+  - "[[graph-rag-retrieval-layer]]"
+  - "[[graph-rag]]"
 ---
 # Graph RAG 放射状图谱修复提案
 

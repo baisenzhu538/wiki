@@ -16,11 +16,11 @@ created_at: '2026-06-22'
 updated_at: '2026-06-29'
 reviewed_by: pending
 related:
-- - - strategy-domain-digest
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
+- "[[strategy-domain-digest]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 ---
 
 # 细分市场机会分析矩阵：10 维度判断"该不该进、用什么进"

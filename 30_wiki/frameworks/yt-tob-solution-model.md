@@ -25,11 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: medium
 related:
-  - [[yt-tob-unit-model]]
-  - [[yt-tob-customer-tiering]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yt-tob-unit-model]]"
+  - "[[yt-tob-customer-tiering]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 解决方案类型矩阵
   follow_up_question: 当前业务的需求端（客户要的是否是相对一致的标准需求）与履约端（交付动作是否可重复标准化）是否同时成立？

@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[yt-model-dual-triangle-competitiveness]]
-  - [[yitang-huazong-ama-summary]]
-  - [[case-yitang-double-triangle-confidence]]
-  - [[ocr-一堂-个人修炼-双三角模型]]
-  - [[ocr-一堂-人机协作-双三角模型]]
+  - "[[yt-model-dual-triangle-competitiveness]]"
+  - "[[yitang-huazong-ama-summary]]"
+  - "[[case-yitang-double-triangle-confidence]]"
+  - "[[ocr-一堂-个人修炼-双三角模型]]"
+  - "[[ocr-一堂-人机协作-双三角模型]]"
 ---
 # OCR: 一堂-科学决策-人机协作决策
 

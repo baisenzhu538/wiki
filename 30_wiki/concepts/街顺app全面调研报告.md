@@ -17,18 +17,18 @@ pipeline:
 author: unknown
 confidence: 0.85
 related:
-- - - 鑫港湾his系统分阶段整改报告
-- - - 开源HIS系统代码深度分析报告
-- - - tool-yitang-app-store-data
-- - - 数据标注维度最佳实践调研报告
-- - - dk-research-decision-first-mapping
-- - - case-yitang-novel-app-flywheel
-- - - case-apple-card-gender-bias
-- - - case-strategy-failure-04-appliance
-- - - tool-yitang-18-strategy-tool-mapping
-- - - tool-yitang-app-store-review
-- - - 互联网医院模式深度调研报告
-- - - 诊所o2o外卖平台业务深度调研报告
+- "[[鑫港湾his系统分阶段整改报告]]"
+- "[[开源HIS系统代码深度分析报告]]"
+- "[[tool-yitang-app-store-data]]"
+- "[[数据标注维度最佳实践调研报告]]"
+- "[[dk-research-decision-first-mapping]]"
+- "[[case-yitang-novel-app-flywheel]]"
+- "[[case-apple-card-gender-bias]]"
+- "[[case-strategy-failure-04-appliance]]"
+- "[[tool-yitang-18-strategy-tool-mapping]]"
+- "[[tool-yitang-app-store-review]]"
+- "[[互联网医院模式深度调研报告]]"
+- "[[诊所o2o外卖平台业务深度调研报告]]"
 ---
 
 # 街顺APP全面调研报告

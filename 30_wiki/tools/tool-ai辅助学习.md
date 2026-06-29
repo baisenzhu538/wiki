@@ -30,11 +30,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- - - tool-区分获客渠道计算单元roi
-- - - tool-辩证讨论深化
-- - - tool-将未中标成本纳入循环计算真实投标成本
-- - - tool-费曼学习法三句话提炼
-- - - tool-自我反馈检验
+- "[[tool-区分获客渠道计算单元roi]]"
+- "[[tool-辩证讨论深化]]"
+- "[[tool-将未中标成本纳入循环计算真实投标成本]]"
+- "[[tool-费曼学习法三句话提炼]]"
+- "[[tool-自我反馈检验]]"
 ---
 # 技能：AI辅助学习
 

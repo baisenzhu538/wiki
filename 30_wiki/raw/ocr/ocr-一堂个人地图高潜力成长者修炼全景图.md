@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[ocr-一堂-地图-个人地图]]
-  - [[ocr-一堂-地图-创业地图]]
-  - [[ocr-一堂-个人修炼-课程清单]]
-  - [[yt-model-personal-map]]
-  - [[ocr-一堂进步大地图]]
+  - "[[ocr-一堂-地图-个人地图]]"
+  - "[[ocr-一堂-地图-创业地图]]"
+  - "[[ocr-一堂-个人修炼-课程清单]]"
+  - "[[yt-model-personal-map]]"
+  - "[[ocr-一堂进步大地图]]"
 ---
 # OCR: 一堂个人地图：高潜力成长者修炼全景图
 

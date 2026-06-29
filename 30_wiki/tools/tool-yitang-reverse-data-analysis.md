@@ -27,13 +27,13 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- [[tool-yitang-weapon-product-reverse]]
-- [[tool-yitang-research-two-dimensional-positioning]]
-- [[tool-yitang-research-quantitative-modeling]]
-- [[tool-yitang-research-cross-validation]]
-- [[tool-yitang-research-exhaust-means]]
-- [[framework-yitang-research-weapon-system]]
-- [[yt-research-competitor-toolkit]]
+- "[[tool-yitang-weapon-product-reverse]]"
+- "[[tool-yitang-research-two-dimensional-positioning]]"
+- "[[tool-yitang-research-quantitative-modeling]]"
+- "[[tool-yitang-research-cross-validation]]"
+- "[[tool-yitang-research-exhaust-means]]"
+- "[[framework-yitang-research-weapon-system]]"
+- "[[yt-research-competitor-toolkit]]"
 
 ---
 

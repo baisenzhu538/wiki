@@ -30,11 +30,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: []
 related:
-  - [[tool-敏捷发布快速迭代搭建体系]]
-  - [[tool-纪浩-Agent技能市场设计法]]
-  - [[tool-马易-销售智能体体系搭建路径]]
-  - [[tool-纪浩-AI工作空间与导诊台设计法]]
-  - [[tool-提示词结构化迭代]]
+  - "[[tool-敏捷发布快速迭代搭建体系]]"
+  - "[[tool-纪浩-Agent技能市场设计法]]"
+  - "[[tool-马易-销售智能体体系搭建路径]]"
+  - "[[tool-纪浩-AI工作空间与导诊台设计法]]"
+  - "[[tool-提示词结构化迭代]]"
 author: 纪浩
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

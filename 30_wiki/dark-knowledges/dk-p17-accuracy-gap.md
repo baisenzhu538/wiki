@@ -14,17 +14,17 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - [[labeling-final-consolidation]]
-  - [[kdo-15-dimension-label-spec]]
-  - [[data-labeling-best-practices-report]]
-  - [[dk-ai-social-progress-not-automatic]]
-  - [[tool-demand-agent-auto-verify]]
-  - [[labeling-research-alignment]]
-  - [[ocr-项目背景问题思考的8个维度]]
-  - [[gold-standard-manual-labels]]
-  - [[ouyangfeng-labeling-research-review]]
-  - [[dk-c7-auto-backup-conflict]]
-  - [[label-accuracy-standard-alignment]]
+  - "[[labeling-final-consolidation]]"
+  - "[[kdo-15-dimension-label-spec]]"
+  - "[[data-labeling-best-practices-report]]"
+  - "[[dk-ai-social-progress-not-automatic]]"
+  - "[[tool-demand-agent-auto-verify]]"
+  - "[[labeling-research-alignment]]"
+  - "[[ocr-项目背景问题思考的8个维度]]"
+  - "[[gold-standard-manual-labels]]"
+  - "[[ouyangfeng-labeling-research-review]]"
+  - "[[dk-c7-auto-backup-conflict]]"
+  - "[[label-accuracy-standard-alignment]]"
 pipeline:
 - src_unknown
 - src_unknown

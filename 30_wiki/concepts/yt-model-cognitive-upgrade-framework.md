@@ -19,11 +19,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-personal-checklist-notes]]
-  - [[framework-kdo-self-attack]]
-  - [[yt-model-ipo-learning-strategy]]
-  - [[dk-modeling-explanatory-vs-predictive-essence]]
-  - [[framework-lean-false-model]]
+  - "[[yt-personal-checklist-notes]]"
+  - "[[framework-kdo-self-attack]]"
+  - "[[yt-model-ipo-learning-strategy]]"
+  - "[[dk-modeling-explanatory-vs-predictive-essence]]"
+  - "[[framework-lean-false-model]]"
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:

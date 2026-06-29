@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[tool-Truman-个人判断力系统建设（达克效应应对）]]
-  - [[tool-水水-识别饥饿效应]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-Truman-个人判断力系统建设（达克效应应对）]]"
+  - "[[tool-水水-识别饥饿效应]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 数据资产——数据需要转化为产品价值，才能形成壁垒
   follow_up_question: 你的数据是否用于优化产品？数据越多，产品是否越好？

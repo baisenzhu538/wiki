@@ -34,11 +34,11 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-- - - yt-foresight-business-spectrum
-- - - yt-ai-trend-12-signals
-- - - case-escort-service-tiered-growth
-- - - case-coffee-shop-foresight
-- - - yitang-domain-digest
+- "[[yt-foresight-business-spectrum]]"
+- "[[yt-ai-trend-12-signals]]"
+- "[[case-escort-service-tiered-growth]]"
+- "[[case-coffee-shop-foresight]]"
+- "[[yitang-domain-digest]]"
 ---
 
 # 案例：AI时间管理App七级演进

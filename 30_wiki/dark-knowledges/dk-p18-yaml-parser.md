@@ -14,12 +14,12 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 related:
-  - [[dk-p19-quote-yaml]]
-  - [[kdo-yaml-frontmatter-safety]]
-  - [[fix-data-curator-parse-bug]]
-  - [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
-  - [[proposal-yaml-frontmatter-standardization]]
-  - [[dk-f13-handwritten-yaml-parser]]
+  - "[[dk-p19-quote-yaml]]"
+  - "[[kdo-yaml-frontmatter-safety]]"
+  - "[[fix-data-curator-parse-bug]]"
+  - "[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]"
+  - "[[proposal-yaml-frontmatter-standardization]]"
+  - "[[dk-f13-handwritten-yaml-parser]]"
 pipeline:
 - src_unknown
 - src_unknown

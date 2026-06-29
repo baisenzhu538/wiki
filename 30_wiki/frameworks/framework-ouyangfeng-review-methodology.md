@@ -19,10 +19,10 @@ source_refs:
   - .agent/pitfalls.md
   - .agent/daily-review/错误模式库.md
 related:
-  - [[framework-yitang-research-quality-gate]]
-  - [[framework-yitang-six-layer-cross-validation]]
-  - [[system-yitang-research-workflow]]
-  - [[framework-yitang-research-weapon-system]]
+  - "[[framework-yitang-research-quality-gate]]"
+  - "[[framework-yitang-six-layer-cross-validation]]"
+  - "[[system-yitang-research-workflow]]"
+  - "[[framework-yitang-research-weapon-system]]"
 ---
 # 欧阳锋审查方法论
 

@@ -13,14 +13,14 @@ source_context: McKinsey 问题解决方法论核心原则，最早系统化呈�
 source_refs:
   - pending_archive:source material not yet ingested
 related:
-  - [[tool-mece体系框架法]]
-  - [[tool-泛产品落地-逻辑MECE]]
-  - [[yt-foresight-model-taxonomy]]
-  - [[concept-一堂-hypothesis-driven-business-methodology]]
-  - [[case-yitang-radar-chart-selection]]
-  - [[concept-mckinsey-issue-tree]]
-  - [[concept-minto-pyramid-principle]]
-  - [[concept-mckinsey-hypothesis-driven]]
+  - "[[tool-mece体系框架法]]"
+  - "[[tool-泛产品落地-逻辑MECE]]"
+  - "[[yt-foresight-model-taxonomy]]"
+  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
+  - "[[case-yitang-radar-chart-selection]]"
+  - "[[concept-mckinsey-issue-tree]]"
+  - "[[concept-minto-pyramid-principle]]"
+  - "[[concept-mckinsey-hypothesis-driven]]"
 wiki_refs:
 - src_unknown
 - src_unknown

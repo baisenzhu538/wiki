@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - [[tool-水水-利用叙事驱动决策]]
-  - [[tool-ai-system-redundancy]]
-  - [[tool-水水-识别关键偶然因素]]
-  - [[tool-水水-识别超级传播者风险]]
-  - [[sk-ai-purpose-bias-check]]
+  - "[[tool-水水-利用叙事驱动决策]]"
+  - "[[tool-ai-system-redundancy]]"
+  - "[[tool-水水-识别关键偶然因素]]"
+  - "[[tool-水水-识别超级传播者风险]]"
+  - "[[sk-ai-purpose-bias-check]]"
 ---
 # 技能：目的论偏差快速识别法
 

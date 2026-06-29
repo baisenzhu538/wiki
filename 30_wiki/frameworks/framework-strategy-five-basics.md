@@ -15,13 +15,13 @@ domain: strategy
 source_refs:
 - src_unknown
 related:
-  - [[strategy-domain-digest]]
-  - [[ocr-一堂-高阶体系探索营-三种咨询可能性]]
-  - [[tool-mece体系框架法]]
-  - [[一堂方法论体系总图]]
-  - [[tool-敏捷发布快速迭代搭建体系]]
-  - [[tool-马易-销售智能体体系搭建路径]]
-  - [[tool-体系框架构建]]
+  - "[[strategy-domain-digest]]"
+  - "[[ocr-一堂-高阶体系探索营-三种咨询可能性]]"
+  - "[[tool-mece体系框架法]]"
+  - "[[一堂方法论体系总图]]"
+  - "[[tool-敏捷发布快速迭代搭建体系]]"
+  - "[[tool-马易-销售智能体体系搭建路径]]"
+  - "[[tool-体系框架构建]]"
 updated_at: '2026-06-29'
 ---
 

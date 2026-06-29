@@ -12,13 +12,13 @@ source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 related:
-  - [[dk-ji-hao-problem-vs-question]]
-  - [[yt-demand-fake-demand-detection]]
-  - [[dk-yi-tang-wishful-thinking-kills-startups]]
-  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
-  - [[yt-five-step-method]]
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
+  - "[[dk-ji-hao-problem-vs-question]]"
+  - "[[yt-demand-fake-demand-detection]]"
+  - "[[dk-yi-tang-wishful-thinking-kills-startups]]"
+  - "[[dk-wanghuan-ai-lifts-personal-ceiling]]"
+  - "[[yt-five-step-method]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[yitang-domain-digest]]"
 created_at: 2026-06-08
 updated_at: 2026-06-28
 pipeline:

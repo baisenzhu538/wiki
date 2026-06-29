@@ -17,11 +17,11 @@ source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-宽度-企业_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-宽度-团队_vlm_desc.md
 related:
-  - [[yitang-domain-digest]]
-  - [[decision-science-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[decision-science-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 ---
 
 # 科学决策宽度：个人·企业·团队

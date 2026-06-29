@@ -16,11 +16,11 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - [[ocr-微信图片_20260507004811_41_32]]
-  - [[ocr-微信图片_20260507004801_37_32]]
-  - [[tinyfish-agentic-web-infrastructure]]
-  - [[ocr-微信图片_20260507004758_35_32]]
-  - [[ocr-微信图片_20260507004806_40_32]]
+  - "[[ocr-微信图片_20260507004811_41_32]]"
+  - "[[ocr-微信图片_20260507004801_37_32]]"
+  - "[[tinyfish-agentic-web-infrastructure]]"
+  - "[[ocr-微信图片_20260507004758_35_32]]"
+  - "[[ocr-微信图片_20260507004806_40_32]]"
 ---
 # PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill
 

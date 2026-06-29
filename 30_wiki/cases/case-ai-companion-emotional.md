@@ -20,21 +20,21 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - [[concept-ai-amara-law-business-judgment]]
-  - [[dk-ai-prediction-expiry-date]]
-  - [[case-chen-qiufan-ai-writing]]
-  - [[dk-ai-social-progress-not-automatic]]
-  - [[dk-ai-scarcest-resource-is-self]]
-  - [[ai-collaboration-domain-digest]]
-  - [[framework-ai2041-critical-reading-os]]
-  - [[framework-ai-deconstruction-methodology]]
-  - [[tool-ai-critical-reading-three-layers]]
-  - [[concept-ai-amara-law-business-judgment]]
-  - [[tool-tech-probability-80-filter]]
-  - [[framework-wanghuan-ooda-loop]]
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[framework-wanghuan-gan-three-roles]]
-  - [[framework-wanghuan-bitcoe-prompt-framework]]
+  - "[[concept-ai-amara-law-business-judgment]]"
+  - "[[dk-ai-prediction-expiry-date]]"
+  - "[[case-chen-qiufan-ai-writing]]"
+  - "[[dk-ai-social-progress-not-automatic]]"
+  - "[[dk-ai-scarcest-resource-is-self]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[concept-ai-amara-law-business-judgment]]"
+  - "[[tool-tech-probability-80-filter]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
 ---
 # AI 情感陪伴的市场与伦理
 

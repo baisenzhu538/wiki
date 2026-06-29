@@ -18,14 +18,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - 一堂
-- - - yt-model-progress-map
-- - - yt-model-management-map
-- - - yt-model-y-organization
-- - - yt-model-personal-map
-- - - yt-personal-deep-review
-- - - yt-personal-knowledge-extraction
-- - - yt-personal-ipo-learning
+- "[[一堂]]"
+- "[[yt-model-progress-map]]"
+- "[[yt-model-management-map]]"
+- "[[yt-model-y-organization]]"
+- "[[yt-model-personal-map]]"
+- "[[yt-personal-deep-review]]"
+- "[[yt-personal-knowledge-extraction]]"
+- "[[yt-personal-ipo-learning]]"
 reviewed_by: 王语嫣
 source_refs:
 - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md

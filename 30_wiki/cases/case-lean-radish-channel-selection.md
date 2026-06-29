@@ -20,9 +20,9 @@ source_refs:
 - 00_inbox/精益创业/萝卜干业务渠道选择预判复盘_ocr_text.md
 - 00_inbox/精益创业/萝卜干业务渠道选择预判复盘_vlm_desc.md
 related:
-  - [[lean-startup-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
+  - "[[lean-startup-domain-digest]]"
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
 ---
 
 # 萝卜干渠道选择预判复盘

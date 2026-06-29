@@ -22,13 +22,13 @@ source_refs:
 - 10_raw/sources/src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记.md
 status: reviewed
 related:
-- - - yt-five-step-method
-- - - yt-five-step-implementation
-- - - yt-demand-analysis-hiking-map
-- - - yt-product-kernel-cultivation
-- - - yt-unit-model-concept
-- - - yt-growth-cycle-model
-- - - yt-barrier-analysis-cheat-sheet
+- "[[yt-five-step-method]]"
+- "[[yt-five-step-implementation]]"
+- "[[yt-demand-analysis-hiking-map]]"
+- "[[yt-product-kernel-cultivation]]"
+- "[[yt-unit-model-concept]]"
+- "[[yt-growth-cycle-model]]"
+- "[[yt-barrier-analysis-cheat-sheet]]"
 title: 暗知识：五步法常见误区与认知陷阱
 trust_level: medium
 type: dk

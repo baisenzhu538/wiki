@@ -14,13 +14,13 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- [[dk-yb19-visual-strategy-price-match]]
-- [[dk-yb16-ecommerce-product-image-vs-lucky-draw]]
-- [[dk-yb17-product-lifestyle-photography]]
-- [[dk-yb27-pseudo-layer-evasion]]
-- [[dk-yb18-small-shop-image-mismatch]]
-- [[dk-yb21-ecommerce-pricing-independent-model]]
-- [[dk-yb16-ecommerce-product-image-vs-lucky-draw]]
+- "[[dk-yb19-visual-strategy-price-match]]"
+- "[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]"
+- "[[dk-yb17-product-lifestyle-photography]]"
+- "[[dk-yb27-pseudo-layer-evasion]]"
+- "[[dk-yb18-small-shop-image-mismatch]]"
+- "[[dk-yb21-ecommerce-pricing-independent-model]]"
+- "[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]"
 pipeline:
 - src_unknown
 - src_unknown

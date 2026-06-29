@@ -18,11 +18,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - [[case-course-milestone-model]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[case-course-milestone-model]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

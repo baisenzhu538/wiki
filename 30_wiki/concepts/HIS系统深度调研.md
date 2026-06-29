@@ -17,18 +17,18 @@ pipeline:
 author: unknown
 confidence: 0.85
 related:
-- - - 街顺app全面调研报告
-- - - 鑫港湾his系统分阶段整改报告
-- - - case-xian-franchise-location-decision
-- - - tool-yitang-store-franchise-research
-- - - HIS系统开发实现方案-架构师指南
-- - - 开源HIS系统代码深度分析报告
-- - - 数据标注维度最佳实践调研报告
-- - - 保达云诊所深度调研报告
-- - - 轻量级诊所HIS调研全清单
-- - - 鑫港湾HIS项目
-- - - 互联网医院模式深度调研报告
-- - - tool-月白-文创材质调研与精益选择
+- "[[街顺app全面调研报告]]"
+- "[[鑫港湾his系统分阶段整改报告]]"
+- "[[case-xian-franchise-location-decision]]"
+- "[[tool-yitang-store-franchise-research]]"
+- "[[HIS系统开发实现方案-架构师指南]]"
+- "[[开源HIS系统代码深度分析报告]]"
+- "[[数据标注维度最佳实践调研报告]]"
+- "[[保达云诊所深度调研报告]]"
+- "[[轻量级诊所HIS调研全清单]]"
+- "[[鑫港湾HIS项目]]"
+- "[[互联网医院模式深度调研报告]]"
+- "[[tool-月白-文创材质调研与精益选择]]"
 ---
 
 # HIS系统深度调研

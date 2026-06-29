@@ -14,11 +14,11 @@ version: 1
 difficulty: intermediate
 confidence: 0.85
 related:
-  - [[yt-model-prompt-engineering]]
-  - [[yt-model-ipo-learning-strategy]]
-  - [[yt-prompt-writing-workflow]]
-  - [[yt-concept-weapon-arsenal]]
-  - [[yt-model-personal-pitch-toolkit]]
+  - "[[yt-model-prompt-engineering]]"
+  - "[[yt-model-ipo-learning-strategy]]"
+  - "[[yt-prompt-writing-workflow]]"
+  - "[[yt-concept-weapon-arsenal]]"
+  - "[[yt-model-personal-pitch-toolkit]]"
 prerequisites:
 - src_unknown
 query_triggers:

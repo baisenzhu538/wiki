@@ -18,9 +18,9 @@ source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - 00_inbox/战略专题/_strategy_cards_implementation_status.md
 related:
-  - [[strategy-domain-digest]]
-  - [[case-strategy-li-ka-shing]]
-  - [[tool-三层目标对齐法]]
+  - "[[strategy-domain-digest]]"
+  - "[[case-strategy-li-ka-shing]]"
+  - "[[tool-三层目标对齐法]]"
 
 ---
 

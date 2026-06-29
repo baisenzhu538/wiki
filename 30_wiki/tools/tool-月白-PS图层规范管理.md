@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- - - tool-月白-多窗口并行工作法
-- - - tool-月白-印刷DPI标准设置
-- - - tool-月白-AI图片印刷落地预处理
-- - - tool-月白-餐饮海报AB测试法
-- - - tool-月白-AIGC橱窗陈列设计流程
+- "[[tool-月白-多窗口并行工作法]]"
+- "[[tool-月白-印刷DPI标准设置]]"
+- "[[tool-月白-AI图片印刷落地预处理]]"
+- "[[tool-月白-餐饮海报AB测试法]]"
+- "[[tool-月白-AIGC橱窗陈列设计流程]]"
 ---
 # 技能：PS图层规范管理
 

@@ -12,11 +12,11 @@ source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 component_of: null
 related:
-- - - structured-ai-workspace
-- - - ai-learning-closed-loop
-- - - ai-landing-scene-selection
-- - - pending_unknown
-- - - pending_unknown
+- "[[structured-ai-workspace]]"
+- "[[ai-learning-closed-loop]]"
+- "[[ai-landing-scene-selection]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 query_triggers:
 - src_unknown
 - src_unknown

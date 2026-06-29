@@ -17,17 +17,17 @@ trust_level: high
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - [[yt-decision-abcd-model]]
-  - [[framework-科学决策三角形]]
-  - [[tool-ROI决策评估画布]]
-  - [[case-科学决策-深度案例01]]
-  - [[case-科学决策-深度案例05]]
-  - [[dk-决策经验值]]
-  - [[master-decision-hygiene]]
-  - [[concept-发现决策]]
-  - [[framework-decision-cognitive-bias-map]]
-  - [[framework-lean-false-model]]
-  - [[concept-AI时代双三角竞争力]]
+  - "[[yt-decision-abcd-model]]"
+  - "[[framework-科学决策三角形]]"
+  - "[[tool-ROI决策评估画布]]"
+  - "[[case-科学决策-深度案例01]]"
+  - "[[case-科学决策-深度案例05]]"
+  - "[[dk-决策经验值]]"
+  - "[[master-decision-hygiene]]"
+  - "[[concept-发现决策]]"
+  - "[[framework-decision-cognitive-bias-map]]"
+  - "[[framework-lean-false-model]]"
+  - "[[concept-AI时代双三角竞争力]]"
 ---
 
 # 决策质量六问检查表

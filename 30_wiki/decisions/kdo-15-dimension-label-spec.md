@@ -16,14 +16,14 @@ target_roles:
 - src_unknown
 - src_unknown
 related:
-  - [[huangyaoshi-tagging-and-scope-proposal]]
-  - [[dk-modeling-ai-judgment-limit]]
-  - [[labeling-final-consolidation]]
-  - [[dk-modeling-ai-iterative-prompting]]
-  - [[labeling-research-alignment]]
-  - [[data-labeling-best-practices-report]]
-  - [[huangyaoshi-tagging-and-scope-proposal]]
-  - [[plan_20260531_data-curator-v1.3]]
+  - "[[huangyaoshi-tagging-and-scope-proposal]]"
+  - "[[dk-modeling-ai-judgment-limit]]"
+  - "[[labeling-final-consolidation]]"
+  - "[[dk-modeling-ai-iterative-prompting]]"
+  - "[[labeling-research-alignment]]"
+  - "[[data-labeling-best-practices-report]]"
+  - "[[huangyaoshi-tagging-and-scope-proposal]]"
+  - "[[plan_20260531_data-curator-v1.3]]"
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260606_6dad71f1）

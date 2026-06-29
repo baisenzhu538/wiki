@@ -25,9 +25,9 @@ tags:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-lean-beauty-store-conversion]]
-  - [[yt-lean-daily-chemical-mvp]]
-  - [[yt-lean-flower-mom-group-leader]]
+  - "[[yt-lean-beauty-store-conversion]]"
+  - "[[yt-lean-daily-chemical-mvp]]"
+  - "[[yt-lean-flower-mom-group-leader]]"
 diagnostic_signals:
 - framework_lens: 产品形态是验证手段的前置约束；同一问题在 APP、课程、线下训练营、To B 服务中的样本量与指标完全不同
   follow_up_question: 你的产品是一本书、一个 APP、一门课，还是一个线下训练营？不同形态下，验证指标和最小样本量分别是什么？

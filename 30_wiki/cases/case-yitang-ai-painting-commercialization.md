@@ -19,14 +19,14 @@ source_refs:
   - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
 source_person: 盈盈
 related:
-  - [[framework-yitang-deliberate-practice-1plus4]]
-  - [[framework-ai-deliberate-practice-loop]]
-  - [[tool-yitang-best-practice-as-golden-finger]]
-  - [[tool-yitang-feedback-self-check]]
-  - [[concept-yitang-comfort-stretch-panic-zones]]
-  - [[case-yitang-poker-parameterized-practice]]
-  - [[case-yitang-sales-routine-deconstruction]]
-  - [[ai-collaboration-domain-digest]]
+  - "[[framework-yitang-deliberate-practice-1plus4]]"
+  - "[[framework-ai-deliberate-practice-loop]]"
+  - "[[tool-yitang-best-practice-as-golden-finger]]"
+  - "[[tool-yitang-feedback-self-check]]"
+  - "[[concept-yitang-comfort-stretch-panic-zones]]"
+  - "[[case-yitang-poker-parameterized-practice]]"
+  - "[[case-yitang-sales-routine-deconstruction]]"
+  - "[[ai-collaboration-domain-digest]]"
 
 ---
 

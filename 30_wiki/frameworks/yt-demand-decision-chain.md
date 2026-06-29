@@ -16,10 +16,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- [[yt-demand-b2b-vs-b2c]]
-- [[yt-demand-scenario-reconstruction]]
-- [[yt-demand-qualitative-analysis]]
-- [[yt-five-step-method]]
+- "[[yt-demand-b2b-vs-b2c]]"
+- "[[yt-demand-scenario-reconstruction]]"
+- "[[yt-demand-qualitative-analysis]]"
+- "[[yt-five-step-method]]"
 diagnostic_signals:
 - framework_lens: ToB决策链——每个角色需求不同，必须分别分析
   follow_up_question: 决策者采购时最关注什么？ROI、合规、风险，还是效率？

@@ -20,7 +20,7 @@ author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: '2026-06-25'
 related:
-  - [[dk-yitang-behavior-over-asking]]
+  - "[[dk-yitang-behavior-over-asking]]"
 diagnostic_signals:
 - framework_lens: 行为证据优先
   follow_up_question: 你能复述用户最近一次遇到该问题的具体场景和行为吗？

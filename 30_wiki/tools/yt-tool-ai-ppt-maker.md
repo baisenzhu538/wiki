@@ -15,11 +15,11 @@ confidence: 0.78
 prerequisites: null
 component_of: null
 related:
-- [[yt-pitch-storytelling]]
-- [[yt-pitch-quantification]]
-- [[yt-tool-meeting-designer]]
-- [[yt-tool-strategy-workshop]]
-- [[yt-management-scientific-meetings]]
+- "[[yt-pitch-storytelling]]"
+- "[[yt-pitch-quantification]]"
+- "[[yt-tool-meeting-designer]]"
+- "[[yt-tool-strategy-workshop]]"
+- "[[yt-management-scientific-meetings]]"
 contradicts: null
 query_triggers:
 - src_unknown

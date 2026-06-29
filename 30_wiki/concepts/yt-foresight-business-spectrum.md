@@ -18,14 +18,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-entrepreneur-opportunity-selection
-- - - yitang-course-map
-- - - yt-model-entrepreneur-map
-- - - yt-entrepreneur-five-step-method
-- - - case-escort-service-tiered-growth
-- - - case-coffee-shop-foresight
-- - - case-ai-time-management-tiered-growth
-- - - yt-foresight-model-taxonomy
+- "[[yt-entrepreneur-opportunity-selection]]"
+- "[[yitang-course-map]]"
+- "[[yt-model-entrepreneur-map]]"
+- "[[yt-entrepreneur-five-step-method]]"
+- "[[case-escort-service-tiered-growth]]"
+- "[[case-coffee-shop-foresight]]"
+- "[[case-ai-time-management-tiered-growth]]"
+- "[[yt-foresight-model-taxonomy]]"
 review_date: 2026-06-16
 reviewed_by:
 - src_unknown

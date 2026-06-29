@@ -32,10 +32,10 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-- - - yt-foresight-business-spectrum
-- - - yt-entrepreneur-five-step-method
-- - - case-escort-service-tiered-growth
-- - - yitang-domain-digest
+- "[[yt-foresight-business-spectrum]]"
+- "[[yt-entrepreneur-five-step-method]]"
+- "[[case-escort-service-tiered-growth]]"
+- "[[yitang-domain-digest]]"
 ---
 
 # 案例：咖啡馆创业预判

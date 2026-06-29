@@ -18,12 +18,12 @@ source_refs:
   - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
 source_person: 盈盈
 related:
-  - [[framework-yitang-deliberate-practice-1plus4]]
-  - [[tool-yitang-practice-20hour-starter]]
-  - [[tool-yitang-best-practice-as-golden-finger]]
-  - [[case-yitang-sales-routine-deconstruction]]
-  - [[case-yitang-ai-painting-commercialization]]
-  - [[framework-ai-deliberate-practice-loop]]
+  - "[[framework-yitang-deliberate-practice-1plus4]]"
+  - "[[tool-yitang-practice-20hour-starter]]"
+  - "[[tool-yitang-best-practice-as-golden-finger]]"
+  - "[[case-yitang-sales-routine-deconstruction]]"
+  - "[[case-yitang-ai-painting-commercialization]]"
+  - "[[framework-ai-deliberate-practice-loop]]"
 
 ---
 

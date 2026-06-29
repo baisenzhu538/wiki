@@ -28,13 +28,13 @@ diagnostic_signals:
 - framework_lens: Trusted Advisor 检查：关系还在最低层次（Vendor/Seller），需要先抬升到诊断和信任层次
   follow_up_question: 在讨论解决方案之前，我们能先花 10 分钟把你的具体情况和目标理清吗？
 related:
-  - [[yt-entrepreneur-five-step-method]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[yt-research-expert-interview]]
-  - [[yt-tool-meeting-designer]]
-  - [[concept-mckinsey-mece]]
-  - [[concept-mckinsey-hypothesis-driven]]
-  - [[concept-mckinsey-7s]]
+  - "[[yt-entrepreneur-five-step-method]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[yt-research-expert-interview]]"
+  - "[[yt-tool-meeting-designer]]"
+  - "[[concept-mckinsey-mece]]"
+  - "[[concept-mckinsey-hypothesis-driven]]"
+  - "[[concept-mckinsey-7s]]"
 tags:
 - src_unknown
 - src_unknown

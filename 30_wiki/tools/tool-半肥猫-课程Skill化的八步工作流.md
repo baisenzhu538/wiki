@@ -18,14 +18,14 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-  - [[concept-半肥猫-ai-learning-toolification-methodology]]
-  - [[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]
-  - [[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]
-  - [[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]
-  - [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
-  - [[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
-  - [[case-ban-fei-mao-conversion-hacker-skill]]
-  - [[case-ban-fei-mao-skill-ab-test]]
+  - "[[concept-半肥猫-ai-learning-toolification-methodology]]"
+  - "[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]"
+  - "[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
+  - "[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]"
+  - "[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]"
+  - "[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]"
+  - "[[case-ban-fei-mao-conversion-hacker-skill]]"
+  - "[[case-ban-fei-mao-skill-ab-test]]"
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 pipeline:

@@ -18,11 +18,11 @@ confidence: 0.65
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - [[存储策略]]
-  - [[dk-c5-todo-false-positive]]
-  - [[sprint-2-gate-enrich-evidence]]
-  - [[graph-rag-retrieval-layer]]
-  - [[proposal-kdo-flywheel-infrastructure]]
+  - "[[存储策略]]"
+  - "[[dk-c5-todo-false-positive]]"
+  - "[[sprint-2-gate-enrich-evidence]]"
+  - "[[graph-rag-retrieval-layer]]"
+  - "[[proposal-kdo-flywheel-infrastructure]]"
 ---
 # kdo watch 定时巡检层技术说明
 

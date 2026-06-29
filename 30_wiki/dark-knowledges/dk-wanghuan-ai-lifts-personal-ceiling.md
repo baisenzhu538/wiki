@@ -20,14 +20,14 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[dk-modeling-ai-compound-leverage]]
-- [[master-ai-info-literacy]]
-- [[dk-wanghuan-standard-by-iteration]]
-- [[dk-wanghuan-magic-defeats-magic]]
-- [[human-ai-collaboration-double-triangle]]
-- [[framework-wanghuan-actor-director-mode]]
-- [[framework-wanghuan-ai-five-level-ladder]]
+- "[[dk-modeling-ai-judgment-limit]]"
+- "[[dk-modeling-ai-compound-leverage]]"
+- "[[master-ai-info-literacy]]"
+- "[[dk-wanghuan-standard-by-iteration]]"
+- "[[dk-wanghuan-magic-defeats-magic]]"
+- "[[human-ai-collaboration-double-triangle]]"
+- "[[framework-wanghuan-actor-director-mode]]"
+- "[[framework-wanghuan-ai-five-level-ladder]]"
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: AI拉升个人上限——不会≠做不了，关键是导演思维

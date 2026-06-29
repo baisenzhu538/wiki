@@ -31,11 +31,11 @@ source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 related:
-  - [[yitang-domain-digest]]
-  - [[yitang-research-domain-digest]]
-  - [[ai-collaboration-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[yitang-research-domain-digest]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 ---
 
 # AI辅助调研工作流：七工具四层深度+十大假设

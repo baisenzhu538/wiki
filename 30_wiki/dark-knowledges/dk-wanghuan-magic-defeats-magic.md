@@ -31,13 +31,13 @@ diagnostic_signals:
   lens: implicit-standard-drift
   follow_up: 用多模型/多角色对同一标准打分，取交集作为团队共享标准
 related:
-  - [[dk-wanghuan-spec-trap]]
-  - [[dk-wanghuan-paced-sales-decision]]
-  - [[dk-wanghuan-agent-platform-director-mode]]
-  - [[yt-five-step-method]]
-  - [[dk-tool-as-phased-validator]]
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
+  - "[[dk-wanghuan-spec-trap]]"
+  - "[[dk-wanghuan-paced-sales-decision]]"
+  - "[[dk-wanghuan-agent-platform-director-mode]]"
+  - "[[yt-five-step-method]]"
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[yitang-domain-digest]]"
 tags:
 - src_unknown
 - src_unknown

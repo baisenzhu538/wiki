@@ -22,11 +22,11 @@ tags:
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
-  - [[yt-ai-startup-20-risky-hypotheses]]
-  - [[yt-five-step-method]]
-  - [[case-lean-zhanglei-pivot-decision]]
-  - [[concept-ai-native-organization-five-steps]]
-  - [[yitang-domain-digest]]
+  - "[[yt-ai-startup-20-risky-hypotheses]]"
+  - "[[yt-five-step-method]]"
+  - "[[case-lean-zhanglei-pivot-decision]]"
+  - "[[concept-ai-native-organization-five-steps]]"
+  - "[[yitang-domain-digest]]"
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

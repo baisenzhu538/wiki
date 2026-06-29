@@ -27,18 +27,18 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- [[concept-yitang-research-facts-first]]
-- [[yitang-research-domain-digest]]
-- [[tool-yitang-research-cross-validation]]
-- [[tool-yitang-research-single-point-sniper]]
-- [[tool-yitang-research-follow-map]]
-- [[framework-yitang-oscar-research]]
-- [[framework-yitang-18-strategy-cards]]
-- [[tool-yitang-research-cross-validation]]
-- [[tool-yitang-research-unit-model]]
-- [[dk-yitang-research-ai-hallucination]]
-- [[dk-yitang-expert-interview-5-traps]]
-- [[concept-yitang-research-mindset]]
+- "[[concept-yitang-research-facts-first]]"
+- "[[yitang-research-domain-digest]]"
+- "[[tool-yitang-research-cross-validation]]"
+- "[[tool-yitang-research-single-point-sniper]]"
+- "[[tool-yitang-research-follow-map]]"
+- "[[framework-yitang-oscar-research]]"
+- "[[framework-yitang-18-strategy-cards]]"
+- "[[tool-yitang-research-cross-validation]]"
+- "[[tool-yitang-research-unit-model]]"
+- "[[dk-yitang-research-ai-hallucination]]"
+- "[[dk-yitang-expert-interview-5-traps]]"
+- "[[concept-yitang-research-mindset]]"
 
 ---
 

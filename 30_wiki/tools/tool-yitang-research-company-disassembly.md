@@ -28,20 +28,20 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- [[tool-strategy-competition-traps]]
-- [[tool-yitang-research-best-practice]]
-- [[yt-business-model-asset-light]]
-- [[tool-yitang-research-industry-scan]]
-- [[tool-yitang-research-competitor-tracking]]
-- [[framework-yitang-oscar-research]]
-- [[framework-yitang-18-strategy-cards]]
-- [[tool-yitang-research-industry-scan]]
-- [[tool-yitang-research-competitor-tracking]]
-- [[yt-research-competitor-toolkit]]
-- [[case-yitang-sanjieke-benchmark-failure]]
-- [[dk-yitang-research-starter-vs-veteran]]
-- [[dk-yitang-survivor-bias-in-research]]
-- [[concept-yitang-research-mindset]]
+- "[[tool-strategy-competition-traps]]"
+- "[[tool-yitang-research-best-practice]]"
+- "[[yt-business-model-asset-light]]"
+- "[[tool-yitang-research-industry-scan]]"
+- "[[tool-yitang-research-competitor-tracking]]"
+- "[[framework-yitang-oscar-research]]"
+- "[[framework-yitang-18-strategy-cards]]"
+- "[[tool-yitang-research-industry-scan]]"
+- "[[tool-yitang-research-competitor-tracking]]"
+- "[[yt-research-competitor-toolkit]]"
+- "[[case-yitang-sanjieke-benchmark-failure]]"
+- "[[dk-yitang-research-starter-vs-veteran]]"
+- "[[dk-yitang-survivor-bias-in-research]]"
+- "[[concept-yitang-research-mindset]]"
 
 ---
 

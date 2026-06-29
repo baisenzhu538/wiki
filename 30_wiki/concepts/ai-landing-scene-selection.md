@@ -12,11 +12,11 @@ source_refs:
 - 10_raw/sources/src_20260606_ef4877d0-所以90的核心问题.md
 component_of: null
 related:
-- - - find-old-do-small
-- - - ai-learning-closed-loop
-- - - course-to-skill-conversion
-- - - pending_unknown
-- - - pending_unknown
+- "[[find-old-do-small]]"
+- "[[ai-learning-closed-loop]]"
+- "[[course-to-skill-conversion]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 query_triggers:
 - src_unknown
 - src_unknown

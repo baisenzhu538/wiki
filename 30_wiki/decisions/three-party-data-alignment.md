@@ -22,11 +22,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[dk-modeling-ai-compound-leverage]]
-  - [[plan_20260531_data-curator-v1.3]]
-  - [[dk-modeling-ai-judgment-limit]]
-  - [[data-curator-role-division]]
-  - [[ouyangfeng-data-alignment-response]]
+  - "[[dk-modeling-ai-compound-leverage]]"
+  - "[[plan_20260531_data-curator-v1.3]]"
+  - "[[dk-modeling-ai-judgment-limit]]"
+  - "[[data-curator-role-division]]"
+  - "[[ouyangfeng-data-alignment-response]]"
 ---
 # 三方认知对齐：KDO 数据管线 6+1 框架
 

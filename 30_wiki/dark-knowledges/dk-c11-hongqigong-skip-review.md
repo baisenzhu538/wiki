@@ -14,13 +14,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- [[dk-p2-tmux-cache]]
-- [[dk-p6-session-resume-fail]]
-- [[dk-f12-builder-context-deadlock]]
-- [[dk-state-residue-is-the-silent-killer]]
-- [[dk-c6-large-source-overflow]]
-- [[dk-c10-batch-tool-no-dry-run]]
-- [[master-decision-hygiene]]
+- "[[dk-p2-tmux-cache]]"
+- "[[dk-p6-session-resume-fail]]"
+- "[[dk-f12-builder-context-deadlock]]"
+- "[[dk-state-residue-is-the-silent-killer]]"
+- "[[dk-c6-large-source-overflow]]"
+- "[[dk-c10-batch-tool-no-dry-run]]"
+- "[[master-decision-hygiene]]"
 pipeline:
 - src_unknown
 - src_unknown

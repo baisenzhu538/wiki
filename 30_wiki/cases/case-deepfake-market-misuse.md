@@ -20,10 +20,10 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - [[tool-水水-区分风险与不确定性]]
-  - [[tool-水水-识别超级传播者风险]]
-  - [[tool-泛产品落地-风险管理]]
-  - [[ocr-泛产品设计-落地卡片-风险管理]]
+  - "[[tool-水水-区分风险与不确定性]]"
+  - "[[tool-水水-识别超级传播者风险]]"
+  - "[[tool-泛产品落地-风险管理]]"
+  - "[[ocr-泛产品设计-落地卡片-风险管理]]"
 ---
 
 # Deepfake 的商业机会与滥用风险

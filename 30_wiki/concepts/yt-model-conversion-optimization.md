@@ -18,11 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown：动力三曲线 × 十大浪费触点
 related:
-- - - yt-management-conversion-hacking
-- - - yt-entrepreneur-growth-flywheel
-- - - 一堂
-- - - yt-model-product-core-metrics
-- - - yt-entrepreneur-five-step-method
+- "[[yt-management-conversion-hacking]]"
+- "[[yt-entrepreneur-growth-flywheel]]"
+- "[[一堂]]"
+- "[[yt-model-product-core-metrics]]"
+- "[[yt-entrepreneur-five-step-method]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260510_d5e71a5e-一堂最佳转化率动力三曲线-堂.md

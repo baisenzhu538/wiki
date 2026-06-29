@@ -19,9 +19,9 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_239_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_239_ocr_text.md
 related:
-  - [[strategy-domain-digest]]
-  - [[case-strategy-fangte-disney]]
-  - [[tool-人生红点战略对齐]]
+  - "[[strategy-domain-digest]]"
+  - "[[case-strategy-fangte-disney]]"
+  - "[[tool-人生红点战略对齐]]"
 
 ---
 

@@ -16,13 +16,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-five-step-method
-- - - yt-demand-analysis-hiking-map
-- - - yt-product-kernel-cultivation
-- - - yt-unit-model-concept
-- - - yt-growth-cycle-model
-- - - yt-barrier-analysis-cheat-sheet
-- - - yt-five-step-common-pitfalls
+- "[[yt-five-step-method]]"
+- "[[yt-demand-analysis-hiking-map]]"
+- "[[yt-product-kernel-cultivation]]"
+- "[[yt-unit-model-concept]]"
+- "[[yt-growth-cycle-model]]"
+- "[[yt-barrier-analysis-cheat-sheet]]"
+- "[[yt-five-step-common-pitfalls]]"
 review_date: 2026-06-11
 reviewed_by: 老顷童
 source_refs:

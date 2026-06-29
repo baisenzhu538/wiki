@@ -14,9 +14,9 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- [[kdo-watch-health-check-layer]]
-- [[dk-c4-selfcheck-superseded]]
-- [[master-cognitive-bias-checklist]]
+- "[[kdo-watch-health-check-layer]]"
+- "[[dk-c4-selfcheck-superseded]]"
+- "[[master-cognitive-bias-checklist]]"
 pipeline:
 - src_unknown
 - src_unknown

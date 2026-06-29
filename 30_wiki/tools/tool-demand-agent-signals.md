@@ -19,11 +19,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[yitang-domain-digest]]
-  - [[ai-collaboration-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 updated_at: '2026-06-29'
 ---
 

@@ -17,11 +17,11 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-  - [[concept-半肥猫-ai-learning-toolification-methodology]]
-  - [[tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]
-  - [[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]
-  - [[dk-ban-fei-mao-silky-answer-warning]]
-  - [[case-ban-fei-mao-skill-ab-test]]
+  - "[[concept-半肥猫-ai-learning-toolification-methodology]]"
+  - "[[tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]"
+  - "[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]"
+  - "[[dk-ban-fei-mao-silky-answer-warning]]"
+  - "[[case-ban-fei-mao-skill-ab-test]]"
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 pipeline:

@@ -18,13 +18,13 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - [[yitang-research-domain-digest]]
-  - [[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]
-  - [[tool-月白-AIGC橱窗陈列设计流程]]
-  - [[aigc文创案例设计课leo文创ip从0到1全流程]]
-  - [[tool-月白-AI设计三段式里程碑流程]]
-  - [[tool-通过综合案例沙盘走通全流程]]
-  - [[tool-月白-里程碑思维拆解设计流程]]
+  - "[[yitang-research-domain-digest]]"
+  - "[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]"
+  - "[[tool-月白-AIGC橱窗陈列设计流程]]"
+  - "[[aigc文创案例设计课leo文创ip从0到1全流程]]"
+  - "[[tool-月白-AI设计三段式里程碑流程]]"
+  - "[[tool-通过综合案例沙盘走通全流程]]"
+  - "[[tool-月白-里程碑思维拆解设计流程]]"
 tags:
 - src_unknown
 - src_unknown

@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[ocr-一堂-科学决策-商业模式-完整财务公式决策]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 现金流管理——利润≠现金流，需要关注现金周期
   follow_up_question: 你的现金周期多长？应收账款、库存、应付账款各占多少？

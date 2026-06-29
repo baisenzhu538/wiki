@@ -33,11 +33,11 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-- - - yt-unit-model-three-tools
-- - - yt-barrier-analysis-cheat-sheet
-- - - yt-scale-economy-weapon-library
-- - - yt-five-step-method
-- - - yitang-domain-digest
+- "[[yt-unit-model-three-tools]]"
+- "[[yt-barrier-analysis-cheat-sheet]]"
+- "[[yt-scale-economy-weapon-library]]"
+- "[[yt-five-step-method]]"
+- "[[yitang-domain-digest]]"
 ---
 
 # 案例：线下玩具柜商业模式

@@ -15,11 +15,11 @@ domain: strategy
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md
 related:
-  - [[strategy-domain-digest]]
-  - [[ocr-一堂个人地图高潜力成长者修炼全景图]]
-  - [[ocr-一堂-个人修炼-全景图muse模型]]
-  - [[ocr-一堂-科学决策-roi高阶训练全景图]]
-  - [[pending_unknown]]
+  - "[[strategy-domain-digest]]"
+  - "[[ocr-一堂个人地图高潜力成长者修炼全景图]]"
+  - "[[ocr-一堂-个人修炼-全景图muse模型]]"
+  - "[[ocr-一堂-科学决策-roi高阶训练全景图]]"
+  - "[[pending_unknown]]"
 updated_at: '2026-06-29'
 ---
 

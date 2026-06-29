@@ -15,11 +15,11 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- - - case-toc-content-platform-correlation-trap
-- - - tool-yitang-content-ip-research
-- - - yt-lean-b2b-b2c-hardware-content-testing
-- - - yt-prompt-writing-workflow
-- - - case-chen-qiufan-ai-writing
+- "[[case-toc-content-platform-correlation-trap]]"
+- "[[tool-yitang-content-ip-research]]"
+- "[[yt-lean-b2b-b2c-hardware-content-testing]]"
+- "[[yt-prompt-writing-workflow]]"
+- "[[case-chen-qiufan-ai-writing]]"
 ---
 
 # Writing Content

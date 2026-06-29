@@ -19,11 +19,11 @@ review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-- [[tool-smart-medicine-cabinet-site-selection-guide]]
-- [[tool-clinic-medical-shortvideo-compliance]]
-- [[smart-medicine-cabinet-clinic-risk-observation]]
-- [[concept-smart-medicine-cabinet-platform-cooperation-validation]]
-- [[tool-clinic-cabinet-legal-contract-guide]]
+- "[[tool-smart-medicine-cabinet-site-selection-guide]]"
+- "[[tool-clinic-medical-shortvideo-compliance]]"
+- "[[smart-medicine-cabinet-clinic-risk-observation]]"
+- "[[concept-smart-medicine-cabinet-platform-cooperation-validation]]"
+- "[[tool-clinic-cabinet-legal-contract-guide]]"
 ---
 ## Purpose
 

@@ -14,11 +14,11 @@ source_refs:
 component_of:
 - src_unknown
 related:
-- - - ai-landing-scene-selection
-- - - course-to-skill-conversion
-- - - ai-learning-closed-loop
-- - - pending_unknown
-- - - pending_unknown
+- "[[ai-landing-scene-selection]]"
+- "[[course-to-skill-conversion]]"
+- "[[ai-learning-closed-loop]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 query_triggers:
 - src_unknown
 - src_unknown

@@ -14,13 +14,13 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
-  - [[dk-ban-fei-mao-silky-answers-are-dangerous]]
-  - [[dk-ban-fei-mao-skill-rejection-value]]
-  - [[dk-ai-judgment-human-responsibility]]
-  - [[dk-wanghuan-spec-trap]]
-  - [[yt-five-step-method]]
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
+  - "[[dk-ban-fei-mao-silky-answers-are-dangerous]]"
+  - "[[dk-ban-fei-mao-skill-rejection-value]]"
+  - "[[dk-ai-judgment-human-responsibility]]"
+  - "[[dk-wanghuan-spec-trap]]"
+  - "[[yt-five-step-method]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[yitang-domain-digest]]"
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'

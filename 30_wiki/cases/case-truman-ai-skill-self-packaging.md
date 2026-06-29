@@ -15,20 +15,20 @@ reviewed_by: 老顽童
 review_date: '2026-06-16'
 trust_level: medium
 related:
-- - - case-strategy-practice-11-third-place
-- - - case-private-domain-ecommerce-formula
-- - - case-strategy-failure-06-phone-n
-- - - case-strategy-m-brand-profit-model
-- - - tool-Truman-提示词优化底层方法
-- - - case-five-step-growth-first-lever
-- - - yt-product-kernel-shampoo-case
-- - - case-demand-pharma-bigdata
-- - - dk-modeling-case-explosion-confidence
-- - - tool-Truman-AI能力分层学习路径
-- - - case-doris-outbound-travel-community
-- - - case-strategy-failure-04-appliance
-- - - case-hr-saas-feature-usage-trap
-- - - case-strategy-retailer-activity-scope
+- "[[case-strategy-practice-11-third-place]]"
+- "[[case-private-domain-ecommerce-formula]]"
+- "[[case-strategy-failure-06-phone-n]]"
+- "[[case-strategy-m-brand-profit-model]]"
+- "[[tool-Truman-提示词优化底层方法]]"
+- "[[case-five-step-growth-first-lever]]"
+- "[[yt-product-kernel-shampoo-case]]"
+- "[[case-demand-pharma-bigdata]]"
+- "[[dk-modeling-case-explosion-confidence]]"
+- "[[tool-Truman-AI能力分层学习路径]]"
+- "[[case-doris-outbound-travel-community]]"
+- "[[case-strategy-failure-04-appliance]]"
+- "[[case-hr-saas-feature-usage-trap]]"
+- "[[case-strategy-retailer-activity-scope]]"
 tags:
 - src_unknown
 - src_unknown

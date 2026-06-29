@@ -22,11 +22,11 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 related:
-  - [[framework-lean-abcd-model]]
-  - [[yt-decision-y-model]]
-  - [[strategy-domain-digest]]
-  - [[lean-startup-domain-digest]]
-  - [[yitang-domain-digest]]
+  - "[[framework-lean-abcd-model]]"
+  - "[[yt-decision-y-model]]"
+  - "[[strategy-domain-digest]]"
+  - "[[lean-startup-domain-digest]]"
+  - "[[yitang-domain-digest]]"
 ---
 
 # 精益验证结果如何触发战略/产品 pivot

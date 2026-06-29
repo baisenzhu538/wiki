@@ -16,11 +16,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- [[yt-product-kernel-definition]]
-- [[yt-product-kernel-shampoo-case]]
-- [[yt-model-pan-product-aesthetic-toolkit]]
-- [[yt-model-aesthetic-progression]]
-- [[yt-five-step-method]]
+- "[[yt-product-kernel-definition]]"
+- "[[yt-product-kernel-shampoo-case]]"
+- "[[yt-model-pan-product-aesthetic-toolkit]]"
+- "[[yt-model-aesthetic-progression]]"
+- "[[yt-five-step-method]]"
 diagnostic_signals:
 - framework_lens: 产品内核与审美——功能好≠体验好，审美是内核的一部分
   follow_up_question: 用户选择你们，是因为功能好，还是因为体验好？审美是否影响了选择？

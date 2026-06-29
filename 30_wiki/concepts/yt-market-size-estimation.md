@@ -22,11 +22,11 @@ source_refs:
 - src_unknown
 status: reviewed
 related:
-  - [[yt-demand-analysis-hiking-map]]
-  - [[yt-five-step-method]]
-  - [[case-treadmill-demand-analysis]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
+  - "[[yt-demand-analysis-hiking-map]]"
+  - "[[yt-five-step-method]]"
+  - "[[case-treadmill-demand-analysis]]"
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
 title: 市场规模估算方法
 trust_level: medium
 type: tool

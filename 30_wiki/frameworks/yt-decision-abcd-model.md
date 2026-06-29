@@ -17,14 +17,14 @@ source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键假设ABCD模型_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-科学决策-关键假设abcd模型.md
 related:
-  - [[yt-decision-y-model]]
-  - [[yt-decision-width-method]]
-  - [[yt-decision-depth-ladder]]
-  - [[yt-decision-height-toolkit]]
-  - [[yt-decision-consensus-iceberg]]
-  - [[yt-decision-full-process]]
-  - [[yitang-domain-digest]]
-  - [[decision-science-domain-digest]]
+  - "[[yt-decision-y-model]]"
+  - "[[yt-decision-width-method]]"
+  - "[[yt-decision-depth-ladder]]"
+  - "[[yt-decision-height-toolkit]]"
+  - "[[yt-decision-consensus-iceberg]]"
+  - "[[yt-decision-full-process]]"
+  - "[[yitang-domain-digest]]"
+  - "[[decision-science-domain-digest]]"
 ---
 
 # 一堂·关键假设ABCD模型

@@ -22,11 +22,11 @@ reviewed_by: 欧阳锋
 difficulty: intermediate
 estimated_tokens: 3500
 related:
-  - [[concept-AI时代双三角竞争力]]
-  - [[tool-Truman-AI时代提示词优化法]]
-  - [[ai时代判断力口述]]
-  - [[ai时代判断力口述-3]]
-  - [[tool-Truman-AI时代IPO模型重构]]
+  - "[[concept-AI时代双三角竞争力]]"
+  - "[[tool-Truman-AI时代提示词优化法]]"
+  - "[[ai时代判断力口述]]"
+  - "[[ai时代判断力口述-3]]"
+  - "[[tool-Truman-AI时代IPO模型重构]]"
 diagnostic_signals:
 - framework_lens: 爬虫工具匹配矩阵
   follow_up_question: 目标是单页抽取还是全站爬取？需要 JS 渲染吗？数据量多大？

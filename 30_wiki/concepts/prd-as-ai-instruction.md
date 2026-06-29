@@ -13,11 +13,11 @@ source_refs:
 component_of:
 - src_unknown
 related:
-- - - course-to-skill-conversion
-- - - voice-input-doubao
-- - - structured-ai-workspace
-- - - pending_unknown
-- - - pending_unknown
+- "[[course-to-skill-conversion]]"
+- "[[voice-input-doubao]]"
+- "[[structured-ai-workspace]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 query_triggers:
 - src_unknown
 - src_unknown

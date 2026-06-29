@@ -16,11 +16,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: null
 related:
-  - [[tool-纪浩-Agent技能市场设计法]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-纪浩-Agent技能市场设计法]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 created_at: '2026-06-08'
 updated_at: '2026-06-28'
 pipeline:

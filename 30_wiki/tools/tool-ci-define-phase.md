@@ -18,9 +18,9 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 - https://blog.bestbootcamps.com/competitive-intelligence-framework/
 related:
-- - - framework-yitang-18-strategy-cards
-- - - framework-yitang-research-weapon-system
-- - - tool-ci-implement-phase
+- "[[framework-yitang-18-strategy-cards]]"
+- "[[framework-yitang-research-weapon-system]]"
+- "[[tool-ci-implement-phase]]"
 status: enriched
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

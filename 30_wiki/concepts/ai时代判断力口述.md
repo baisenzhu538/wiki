@@ -16,11 +16,11 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- - - ai时代判断力口述-3
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
+- "[[ai时代判断力口述-3]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 ---
 
 # AI时代判断力口述

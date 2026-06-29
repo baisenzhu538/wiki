@@ -23,14 +23,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-decision-width-method
-- - - yt-decision-depth-ladder
-- - - yt-decision-canvas
-- - - yt-decision-height-toolkit
-- - - yt-decision-consensus-iceberg
-- - - yt-decision-review
-- - - yt-decision-habit-shift
-- - - yt-decision-y-model
+- "[[yt-decision-width-method]]"
+- "[[yt-decision-depth-ladder]]"
+- "[[yt-decision-canvas]]"
+- "[[yt-decision-height-toolkit]]"
+- "[[yt-decision-consensus-iceberg]]"
+- "[[yt-decision-review]]"
+- "[[yt-decision-habit-shift]]"
+- "[[yt-decision-y-model]]"
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched

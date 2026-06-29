@@ -16,11 +16,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[ocr-一堂-科学决策-x型y型决策习惯对比]]
-  - [[yt-business-formula-l6-essence-formulas]]
-  - [[ocr-一堂泛产品设计-十年修炼爬山地图]]
-  - [[modeling-level-map]]
-  - [[ocr-一堂-个人修炼-讲香基本功]]
+  - "[[ocr-一堂-科学决策-x型y型决策习惯对比]]"
+  - "[[yt-business-formula-l6-essence-formulas]]"
+  - "[[ocr-一堂泛产品设计-十年修炼爬山地图]]"
+  - "[[modeling-level-map]]"
+  - "[[ocr-一堂-个人修炼-讲香基本功]]"
 ---
 # OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图
 

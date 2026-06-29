@@ -28,19 +28,19 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- [[framework-doris-industry-report-4step]]
-- [[tool-yitang-research-industry-scan]]
-- [[business-research-skill-oscar-13-weapon-system]]
-- [[system-yitang-research-workflow]]
-- [[tool-yitang-research-single-point-sniper]]
-- [[framework-yitang-oscar-research]]
-- [[framework-yitang-18-strategy-cards]]
-- [[yt-research-hypothesis-test]]
-- [[concept-yitang-research-objective]]
-- [[case-yitang-sanjieke-benchmark-failure]]
-- [[dk-yitang-research-starter-vs-veteran]]
-- [[dk-yitang-research-ai-hallucination]]
-- [[concept-yitang-research-mindset]]
+- "[[framework-doris-industry-report-4step]]"
+- "[[tool-yitang-research-industry-scan]]"
+- "[[business-research-skill-oscar-13-weapon-system]]"
+- "[[system-yitang-research-workflow]]"
+- "[[tool-yitang-research-single-point-sniper]]"
+- "[[framework-yitang-oscar-research]]"
+- "[[framework-yitang-18-strategy-cards]]"
+- "[[yt-research-hypothesis-test]]"
+- "[[concept-yitang-research-objective]]"
+- "[[case-yitang-sanjieke-benchmark-failure]]"
+- "[[dk-yitang-research-starter-vs-veteran]]"
+- "[[dk-yitang-research-ai-hallucination]]"
+- "[[concept-yitang-research-mindset]]"
 
 ---
 

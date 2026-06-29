@@ -21,9 +21,9 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-01.txt
 related:
-  - [[lean-startup-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
+  - "[[lean-startup-domain-digest]]"
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
 ---
 
 # 张磊 AMA：假设验证实操案例

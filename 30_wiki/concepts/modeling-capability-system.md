@@ -20,8 +20,8 @@ trust_level: medium
 confidence: 0.78
 tags: []
 related:
-- [[modeling-three-stages]]
-- [[modeling-weapon-library]]
+- "[[modeling-three-stages]]"
+- "[[modeling-weapon-library]]"
 diagnostic_signals:
 - framework_lens: 流程类建模
   follow_up_question: 这个场景是否有 3 次以上重复发生？能否沉淀为 SOP 或清单？

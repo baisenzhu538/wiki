@@ -30,8 +30,8 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-- [[ai-collaboration-mindset-shift]]
-- [[ai-landing-scene-selection]]
+- "[[ai-collaboration-mindset-shift]]"
+- "[[ai-landing-scene-selection]]"
 
 ---
 

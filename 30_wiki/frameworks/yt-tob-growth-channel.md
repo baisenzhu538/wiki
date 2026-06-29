@@ -25,11 +25,11 @@ review_date: '2026-06-16'
 confidence: 0.78
 trust_level: medium-high
 related:
-  - [[yt-tob-unit-model]]
-  - [[tool-区分获客渠道计算单元roi]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yt-tob-unit-model]]"
+  - "[[tool-区分获客渠道计算单元roi]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 ---
 
 > 增长环节最常见的坑，是不做任何判断：擅长销售的人什么都想做直销，不擅长销售的人则想全部丢给渠道。核心判断标准是——**单位时间内，针对当前业务目标，哪种方式的规模化效率最高**。（口述稿 ~3218-3482；课堂笔记 §5）

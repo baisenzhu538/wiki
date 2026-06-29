@@ -29,12 +29,12 @@ tools_required:
 - src_unknown
 prerequisite_skills: null
 related:
-  - [[tool-ai-prd-for-ai]]
-  - [[prd-as-ai-instruction]]
-  - [[tool-纪浩-Agent技能市场设计法]]
-  - [[case-truman-prd-checklist-evolution]]
-  - [[tool-月白-AI改图指令精细化]]
-  - [[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]
+  - "[[tool-ai-prd-for-ai]]"
+  - "[[prd-as-ai-instruction]]"
+  - "[[tool-纪浩-Agent技能市场设计法]]"
+  - "[[case-truman-prd-checklist-evolution]]"
+  - "[[tool-月白-AI改图指令精细化]]"
+  - "[[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]"
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

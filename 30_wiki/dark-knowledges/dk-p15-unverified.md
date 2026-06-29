@@ -14,11 +14,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
 related:
-- [[ai-short-drama-script-planning-three-axes]]
-- [[dk-p10-oral-ban]]
-- [[dk-c7-auto-backup-conflict]]
-- [[dk-yb25-solution-driven-visual-design]]
-- [[dk-p17-accuracy-gap]]
+- "[[ai-short-drama-script-planning-three-axes]]"
+- "[[dk-p10-oral-ban]]"
+- "[[dk-c7-auto-backup-conflict]]"
+- "[[dk-yb25-solution-driven-visual-design]]"
+- "[[dk-p17-accuracy-gap]]"
 review_date: '2026-06-29'
 ---
 

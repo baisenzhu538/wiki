@@ -17,11 +17,11 @@ source_refs:
 - 10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 related:
-  - [[dk-tool-as-phased-validator]]
-  - [[yitang-domain-digest]]
-  - [[lean-startup-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[yitang-domain-digest]]"
+  - "[[lean-startup-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 bridges_to:
 - src_unknown
 - src_unknown

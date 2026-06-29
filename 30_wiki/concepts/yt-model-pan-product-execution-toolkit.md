@@ -22,12 +22,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-composite-pan-product-methodology
-- - - yt-model-pan-product-36-strategies
-- - - yt-model-pan-product-demand-toolkit
-- - - yt-model-pan-product-aesthetic-toolkit
-- - - yt-model-y-organization
-- - - yt-entrepreneur-lean-validation
+- "[[yt-composite-pan-product-methodology]]"
+- "[[yt-model-pan-product-36-strategies]]"
+- "[[yt-model-pan-product-demand-toolkit]]"
+- "[[yt-model-pan-product-aesthetic-toolkit]]"
+- "[[yt-model-y-organization]]"
+- "[[yt-entrepreneur-lean-validation]]"
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:

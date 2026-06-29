@@ -16,16 +16,16 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-  - [[yitang-domain-digest]]
-  - [[ocr-一堂-科学决策-深度-l1优先级定性]]
-  - [[tool-分层标注重点信息]]
-  - [[tool-月白-AIGC海报信息优先级排序法]]
-  - [[tool-使用优先级快筛卡锁定核心矛盾]]
-  - [[tool-Truman-AI能力分层学习路径]]
-  - [[tool-决策深度-L1优先级定性]]
-  - [[tool-深度分层学习]]
-  - [[tool-推行分层标准化策略]]
-  - [[tool-马易-隐私安全分层解决]]
+  - "[[yitang-domain-digest]]"
+  - "[[ocr-一堂-科学决策-深度-l1优先级定性]]"
+  - "[[tool-分层标注重点信息]]"
+  - "[[tool-月白-AIGC海报信息优先级排序法]]"
+  - "[[tool-使用优先级快筛卡锁定核心矛盾]]"
+  - "[[tool-Truman-AI能力分层学习路径]]"
+  - "[[tool-决策深度-L1优先级定性]]"
+  - "[[tool-深度分层学习]]"
+  - "[[tool-推行分层标准化策略]]"
+  - "[[tool-马易-隐私安全分层解决]]"
 tags:
 - src_unknown
 - src_unknown

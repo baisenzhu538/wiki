@@ -19,13 +19,13 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-四步法_vlm_desc.md
 source_person: Truman
 related:
-- [[framework-yitang-growth-flywheel]]
-- [[framework-yitang-channel-exploration-4step]]
-- [[framework-yitang-channel-unit-economics]]
-- [[case-yitang-amazon-growth-flywheel]]
-- [[case-yitang-novel-app-flywheel]]
-- [[tool-区分获客渠道计算单元roi]]
-- [[framework-lean-abcd-model]]
+- "[[framework-yitang-growth-flywheel]]"
+- "[[framework-yitang-channel-exploration-4step]]"
+- "[[framework-yitang-channel-unit-economics]]"
+- "[[case-yitang-amazon-growth-flywheel]]"
+- "[[case-yitang-novel-app-flywheel]]"
+- "[[tool-区分获客渠道计算单元roi]]"
+- "[[framework-lean-abcd-model]]"
 review_date: '2026-06-28'
 ---
 

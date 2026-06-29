@@ -19,13 +19,13 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-笔记.txt
 source_person: Truman
 related:
-- [[framework-yitang-growth-flywheel]]
-- [[tool-yitang-growth-flywheel-design]]
-- [[framework-yitang-channel-unit-economics]]
-- [[concept-yitang-channel-lean-validation-bridge]]
-- [[case-yitang-topcity-growth-flywheel]]
-- [[case-yitang-novel-app-flywheel]]
-- [[tool-区分获客渠道计算单元roi]]
+- "[[framework-yitang-growth-flywheel]]"
+- "[[tool-yitang-growth-flywheel-design]]"
+- "[[framework-yitang-channel-unit-economics]]"
+- "[[concept-yitang-channel-lean-validation-bridge]]"
+- "[[case-yitang-topcity-growth-flywheel]]"
+- "[[case-yitang-novel-app-flywheel]]"
+- "[[tool-区分获客渠道计算单元roi]]"
 review_date: '2026-06-28'
 ---
 

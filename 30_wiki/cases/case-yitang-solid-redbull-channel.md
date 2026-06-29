@@ -17,14 +17,14 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-笔记.txt
 source_person: Truman
 related:
-- [[framework-yitang-channel-exploration-4step]]
-- [[framework-yitang-channel-industrialization]]
-- [[tool-yitang-channel-scoring-matrix]]
-- [[tool-区分获客渠道计算单元roi]]
-- [[case-yitang-xujian-invoice-saas-channel]]
-- [[case-yitang-maiyi-cloud-computer-channel]]
-- [[framework-lean-abcd-model]]
-- [[yt-unit-model-concept]]
+- "[[framework-yitang-channel-exploration-4step]]"
+- "[[framework-yitang-channel-industrialization]]"
+- "[[tool-yitang-channel-scoring-matrix]]"
+- "[[tool-区分获客渠道计算单元roi]]"
+- "[[case-yitang-xujian-invoice-saas-channel]]"
+- "[[case-yitang-maiyi-cloud-computer-channel]]"
+- "[[framework-lean-abcd-model]]"
+- "[[yt-unit-model-concept]]"
 review_date: '2026-06-28'
 ---
 

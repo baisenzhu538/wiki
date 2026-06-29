@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[yt-growth-acquisition-channels]]
-  - [[yt-growth-activation-rate]]
-  - [[yt-growth-growth-hacking]]
+  - "[[yt-growth-acquisition-channels]]"
+  - "[[yt-growth-activation-rate]]"
+  - "[[yt-growth-growth-hacking]]"
 diagnostic_signals:
 - framework_lens: 病毒传播——自增长需要设计病毒机制，不是自然发生
   follow_up_question: 你的产品有病毒传播机制吗？用户为什么愿意分享？分享的动力是什么？

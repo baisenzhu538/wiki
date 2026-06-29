@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-AI平台算法咨询法]]
-  - [[tool-月白-AI生成IP表情包]]
-  - [[tool-月白-口喷式设计工作流]]
-  - [[tool-月白-风格探索试错法]]
-  - [[tool-月白-AIGC生成人物证件照]]
+  - "[[tool-月白-AI平台算法咨询法]]"
+  - "[[tool-月白-AI生成IP表情包]]"
+  - "[[tool-月白-口喷式设计工作流]]"
+  - "[[tool-月白-风格探索试错法]]"
+  - "[[tool-月白-AIGC生成人物证件照]]"
 ---
 # 技能：短视频封面一秒吸睛法
 

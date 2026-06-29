@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-  - [[concept-峰终定律]]
-  - [[ocr-泛产品设计-用户卡片-峰终定律]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[concept-峰终定律]]"
+  - "[[ocr-泛产品设计-用户卡片-峰终定律]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 峰终定律——用户记住的是峰值和终点，不是平均
   follow_up_question: 用户使用过程中，哪个时刻最惊喜？哪个时刻最失望？结束时感觉如何？

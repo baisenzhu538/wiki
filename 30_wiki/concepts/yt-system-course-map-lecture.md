@@ -35,11 +35,11 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 related:
-- - - yitang-domain-digest
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
+- "[[yitang-domain-digest]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 ---
 
 # 一堂课程地图精华串讲

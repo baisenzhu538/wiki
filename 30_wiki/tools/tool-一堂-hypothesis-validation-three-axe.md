@@ -11,11 +11,11 @@ domain: yitang
 confidence: 0.75
 trust_level: medium
 related:
-  - [[concept-一堂-key-assumptions]]
-  - [[tool-一堂-five-step-validation]]
-  - [[case-一堂-无人餐厅-hypothesis-failure]]
-  - [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
-  - [[pending_unknown]]
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[tool-一堂-five-step-validation]]"
+  - "[[case-一堂-无人餐厅-hypothesis-failure]]"
+  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
+  - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown
 ---

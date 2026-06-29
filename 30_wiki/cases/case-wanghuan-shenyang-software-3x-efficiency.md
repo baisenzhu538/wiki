@@ -20,9 +20,9 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[case-wanghuan-education-sales-capability-extraction]]
-  - [[case-wanghuan-education-sales-paced]]
-  - [[case-wanghuan-yiyu-qingji-medical-notes]]
+  - "[[case-wanghuan-education-sales-capability-extraction]]"
+  - "[[case-wanghuan-education-sales-paced]]"
+  - "[[case-wanghuan-yiyu-qingji-medical-notes]]"
 tags:
 - src_unknown
 - src_unknown

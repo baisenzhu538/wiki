@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[tool-使用优先级快筛卡锁定核心矛盾]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-使用优先级快筛卡锁定核心矛盾]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 网络效应——平台需要明确的网络效应类型
   follow_up_question: 你的平台是哪种类型的网络效应？同边、跨边、还是数据网络效应？

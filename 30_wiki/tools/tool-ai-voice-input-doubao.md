@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - [[sk-ai-voice-input-doubao]]
-  - [[tool-ai-ai-workspace-setup]]
-  - [[tool-ai-oral-spray-input]]
-  - [[tool-ai-prd-for-ai]]
-  - [[tool-ai-evidence-check]]
+  - "[[sk-ai-voice-input-doubao]]"
+  - "[[tool-ai-ai-workspace-setup]]"
+  - "[[tool-ai-oral-spray-input]]"
+  - "[[tool-ai-prd-for-ai]]"
+  - "[[tool-ai-evidence-check]]"
 ---
 # 技能：口喷式语音输入法
 

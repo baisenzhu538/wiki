@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[yt-business-analysis-cognitive-biases]]
-  - [[yt-business-formula-l6-essence-formulas]]
-  - [[yt-business-formula-parameter-iceberg]]
+  - "[[yt-business-analysis-cognitive-biases]]"
+  - "[[yt-business-formula-l6-essence-formulas]]"
+  - "[[yt-business-formula-parameter-iceberg]]"
 diagnostic_signals:
 - framework_lens: 平台战略——双边平台需要单边启动策略
   follow_up_question: 你的平台是先启动哪一边？单边启动策略是什么？

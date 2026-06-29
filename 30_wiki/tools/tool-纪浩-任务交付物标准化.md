@@ -17,11 +17,11 @@ updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 related:
-- - - tool-纪浩-Agent技能市场设计法
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
+- "[[tool-纪浩-Agent技能市场设计法]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 diagnostic_signals:
 - lens: 交付模糊
   follow_up: 每个任务定义明确的交付物形式（文档/代码/数据/报告）。无交付标准=无完成标准

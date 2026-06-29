@@ -15,11 +15,11 @@ query_triggers:
 - src_unknown：从看不见到大胆想象的进化路径
 - src_unknown
 related:
-- - - yt-model-pan-product-aesthetic-toolkit
-- - - yt-model-product-excellence
-- - - 一堂
-- - - yt-personal-pan-product-aesthetics
-- - - yt-model-pan-product-three-virtues
+- "[[yt-model-pan-product-aesthetic-toolkit]]"
+- "[[yt-model-product-excellence]]"
+- "[[一堂]]"
+- "[[yt-personal-pan-product-aesthetics]]"
+- "[[yt-model-pan-product-three-virtues]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260522_7d2a79f8-ocr-审美提升的层级.md

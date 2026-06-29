@@ -16,14 +16,14 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-28'
 related:
-  - [[tool-纪浩-真需求四要素验证法]]
-  - [[tool-纪浩-AI工作空间与导诊台设计法]]
-  - [[tool-纪浩-Do-first-PDCA渐进迭代法]]
-  - [[tool-纪浩-Agent技能市场设计法]]
-  - [[tool-纪浩-日志驱动排查法]]
-  - [[dk-ji-hao-ai-cant-design-structure]]
-  - [[dk-ji-hao-simple-complex-routing]]
-  - [[dk-ji-hao-pdca-starts-from-do]]
+  - "[[tool-纪浩-真需求四要素验证法]]"
+  - "[[tool-纪浩-AI工作空间与导诊台设计法]]"
+  - "[[tool-纪浩-Do-first-PDCA渐进迭代法]]"
+  - "[[tool-纪浩-Agent技能市场设计法]]"
+  - "[[tool-纪浩-日志驱动排查法]]"
+  - "[[dk-ji-hao-ai-cant-design-structure]]"
+  - "[[dk-ji-hao-simple-complex-routing]]"
+  - "[[dk-ji-hao-pdca-starts-from-do]]"
 pipeline:
 - src_unknown
 - src_unknown

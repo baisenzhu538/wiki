@@ -16,14 +16,14 @@ prerequisites: null
 component_of:
 - src_unknown
 related:
-  - [[yt-management-goal-management]]
-  - [[yt-tool-strategy-workshop]]
-  - [[yt-management-scientific-meetings]]
-  - [[yt-management-project-management]]
-  - [[yt-management-business-formula]]
-  - [[yt-management-strategy-meeting]]
-  - [[yt-decision-y-model]]
-  - [[yt-decision-width-method]]
+  - "[[yt-management-goal-management]]"
+  - "[[yt-tool-strategy-workshop]]"
+  - "[[yt-management-scientific-meetings]]"
+  - "[[yt-management-project-management]]"
+  - "[[yt-management-business-formula]]"
+  - "[[yt-management-strategy-meeting]]"
+  - "[[yt-decision-y-model]]"
+  - "[[yt-decision-width-method]]"
 contradicts: null
 query_triggers:
 - src_unknown

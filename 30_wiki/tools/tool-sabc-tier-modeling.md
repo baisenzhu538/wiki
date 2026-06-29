@@ -21,11 +21,11 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.9
 related:
-  - [[case-yitang-weekly-modeling-engine]]
-  - [[modeling-three-values]]
-  - [[tool-checklist-cheatsheet-modeling]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[case-yitang-weekly-modeling-engine]]"
+  - "[[modeling-three-values]]"
+  - "[[tool-checklist-cheatsheet-modeling]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

@@ -39,12 +39,12 @@ author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium-high
 related:
-  - [[yt-model-prompt-engineering]]
-  - [[yt-prompt-iterative-prompting]]
-  - [[yt-prompt-brainstorming]]
-  - [[yt-concept-weapon-arsenal]]
-  - [[yt-model-personal-pitch-toolkit]]
-  - [[yitang-domain-digest]]
+  - "[[yt-model-prompt-engineering]]"
+  - "[[yt-prompt-iterative-prompting]]"
+  - "[[yt-prompt-brainstorming]]"
+  - "[[yt-concept-weapon-arsenal]]"
+  - "[[yt-model-personal-pitch-toolkit]]"
+  - "[[yitang-domain-digest]]"
 ---
 
 # 上下文工程：充分≠越多越好

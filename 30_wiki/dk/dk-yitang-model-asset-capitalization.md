@@ -13,12 +13,12 @@ domain: yitang
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:
-  - [[case-yitang-weekly-modeling-engine]]
-  - [[case-yitang-model-valuation-flywheel]]
-  - [[case-yitang-model-asset-inventory]]
-  - [[case-yitang-radar-chart-selection]]
-  - [[case-yitang-double-triangle-confidence]]
-  - [[yitang-domain-digest]]
+  - "[[case-yitang-weekly-modeling-engine]]"
+  - "[[case-yitang-model-valuation-flywheel]]"
+  - "[[case-yitang-model-asset-inventory]]"
+  - "[[case-yitang-radar-chart-selection]]"
+  - "[[case-yitang-double-triangle-confidence]]"
+  - "[[yitang-domain-digest]]"
 ---
 
 # 组织级模型资产的盘点、定价与迭代

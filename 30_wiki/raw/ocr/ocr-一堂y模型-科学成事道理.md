@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[ocr-truman的个人成长五步法]]
-  - [[ocr-一堂-科学决策-深度-l3定量公式]]
-  - [[ocr-一堂-地图-创业地图_conv]]
-  - [[ocr-一堂-ai学习-提问工程化]]
-  - [[ocr-ocr_snipaste_2026-05-15_21-39-40]]
+  - "[[ocr-truman的个人成长五步法]]"
+  - "[[ocr-一堂-科学决策-深度-l3定量公式]]"
+  - "[[ocr-一堂-地图-创业地图_conv]]"
+  - "[[ocr-一堂-ai学习-提问工程化]]"
+  - "[[ocr-ocr_snipaste_2026-05-15_21-39-40]]"
 ---
 # OCR: 一堂Y模型-科学成事道理
 

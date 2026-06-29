@@ -29,14 +29,14 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡6（科技项目）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- [[tool-yitang-content-ip-research]]
-- [[tool-yitang-overseas-research]]
-- [[tool-yitang-consulting-business-research]]
-- [[tool-yitang-organization-research]]
-- [[tool-yitang-b2b-gov-research]]
-- [[framework-yitang-research-weapon-system]]
-- [[tool-yitang-reverse-data-analysis]]
-- [[yt-research-competitor-toolkit]]
+- "[[tool-yitang-content-ip-research]]"
+- "[[tool-yitang-overseas-research]]"
+- "[[tool-yitang-consulting-business-research]]"
+- "[[tool-yitang-organization-research]]"
+- "[[tool-yitang-b2b-gov-research]]"
+- "[[framework-yitang-research-weapon-system]]"
+- "[[tool-yitang-reverse-data-analysis]]"
+- "[[yt-research-competitor-toolkit]]"
 
 ---
 

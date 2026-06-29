@@ -22,9 +22,9 @@ source_refs:
 - 00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt
 - 00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md
 related:
-  - [[lean-startup-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
+  - "[[lean-startup-domain-digest]]"
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
 ---
 
 # 案例：堕落小龙虾组合测试

@@ -18,11 +18,11 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - [[framework-wanghuan-ooda-loop]]
-  - [[framework-wanghuan-gan-three-roles]]
-  - [[framework-wanghuan-bitcoe-prompt-framework]]
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[framework-ai2041-critical-reading-os]]
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-gan-three-roles]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[framework-ai2041-critical-reading-os]]"
 ---
 
 # 椅子决定视角

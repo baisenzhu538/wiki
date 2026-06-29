@@ -16,14 +16,14 @@ prerequisites: null
 component_of:
 - src_unknown
 related:
-  - [[yt-management-scientific-hiring]]
-  - [[yt-decision-width-method]]
-  - [[master-decision-hygiene]]
-  - [[yt-personal-deep-review]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[yt-management-onboarding]]
-  - [[yt-management-toolkit-overview]]
-  - [[yt-management-company-culture]]
+  - "[[yt-management-scientific-hiring]]"
+  - "[[yt-decision-width-method]]"
+  - "[[master-decision-hygiene]]"
+  - "[[yt-personal-deep-review]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[yt-management-onboarding]]"
+  - "[[yt-management-toolkit-overview]]"
+  - "[[yt-management-company-culture]]"
 contradicts: null
 query_triggers:
 - src_unknown

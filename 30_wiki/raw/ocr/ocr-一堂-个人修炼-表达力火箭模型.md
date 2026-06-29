@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[ocr-一堂-ai学习-提问进化路线图]]
-  - [[ocr-一堂-单元模型-最简单元模型]]
-  - [[ocr-一堂-个人修炼-表达力火箭模型-执行武器库]]
-  - [[yt-pitch-metaphor]]
-  - [[tool-radar-chart-modeling]]
+  - "[[ocr-一堂-ai学习-提问进化路线图]]"
+  - "[[ocr-一堂-单元模型-最简单元模型]]"
+  - "[[ocr-一堂-个人修炼-表达力火箭模型-执行武器库]]"
+  - "[[yt-pitch-metaphor]]"
+  - "[[tool-radar-chart-modeling]]"
 ---
 # OCR: 一堂-个人修炼-表达力火箭模型
 

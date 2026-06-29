@@ -24,14 +24,14 @@ source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 source_person: 一堂 / 兰毅
 related:
-- [[yt-model-pan-product-three-virtues]]
-- [[yt-model-pan-product-climbing-map]]
-- [[yt-model-pan-product-36-strategies]]
-- [[framework-pan-product-organization]]
-- [[framework-一堂五步法-泛产品设计]]
-- [[framework-lean-abcd-model]]
-- [[framework-ai-accelerated-strategy-cycle]]
-- [[framework-yitang-growth-flywheel]]
+- "[[yt-model-pan-product-three-virtues]]"
+- "[[yt-model-pan-product-climbing-map]]"
+- "[[yt-model-pan-product-36-strategies]]"
+- "[[framework-pan-product-organization]]"
+- "[[framework-一堂五步法-泛产品设计]]"
+- "[[framework-lean-abcd-model]]"
+- "[[framework-ai-accelerated-strategy-cycle]]"
+- "[[framework-yitang-growth-flywheel]]"
 review_date: '2026-06-28'
 ---
 

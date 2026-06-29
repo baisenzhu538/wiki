@@ -2,11 +2,11 @@
 
 
 related:
-  - [[concept-一堂-hypothesis-driven-business-methodology]]
-  - [[concept-一堂-product-kernel]]
-  - [[yt-foresight-15-char-mantra]]
-  - [[concept-一堂-kernel-validation]]
-  - [[case-一堂-无人餐厅-hypothesis-failure]]
+  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
+  - "[[concept-一堂-product-kernel]]"
+  - "[[yt-foresight-15-char-mantra]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[case-一堂-无人餐厅-hypothesis-failure]]"
 source_refs:
 - pending_archive: src_unknown
 ---

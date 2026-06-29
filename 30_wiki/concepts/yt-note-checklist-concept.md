@@ -11,14 +11,14 @@ version: 1
 difficulty: beginner
 confidence: 0.75
 related:
-- - - yt-note-five-levels-training
-- - - yt-note-ai-human-division
-- - - yt-note-live-field-skill
-- - - yt-model-ipo-learning-strategy
-- - - yt-concept-ai-guard-brain
-- - - yt-composite-pan-product-methodology
-- - - yt-skill-checklist-as-ai-protocol
-- - - yt-note-fact-pattern-insight
+- "[[yt-note-five-levels-training]]"
+- "[[yt-note-ai-human-division]]"
+- "[[yt-note-live-field-skill]]"
+- "[[yt-model-ipo-learning-strategy]]"
+- "[[yt-concept-ai-guard-brain]]"
+- "[[yt-composite-pan-product-methodology]]"
+- "[[yt-skill-checklist-as-ai-protocol]]"
+- "[[yt-note-fact-pattern-insight]]"
 prerequisites:
 - src_unknown
 source_refs:

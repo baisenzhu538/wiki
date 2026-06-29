@@ -15,11 +15,11 @@ domain: strategy
 source_refs:
 - src_unknown
 related:
-  - [[strategy-domain-digest]]
-  - [[tool-Truman-Skill全生命周期管理]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[strategy-domain-digest]]"
+  - "[[tool-Truman-Skill全生命周期管理]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 updated_at: 2026-06-29
 ---
 

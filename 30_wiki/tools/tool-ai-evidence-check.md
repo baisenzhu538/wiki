@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - [[tool-ai-problem-validation]]
-  - [[tool-ai-ai-workspace-setup]]
-  - [[tool-ai-voice-input-doubao]]
-  - [[tool-ai-prd-for-ai]]
-  - [[sk-ai-evidence-check]]
+  - "[[tool-ai-problem-validation]]"
+  - "[[tool-ai-ai-workspace-setup]]"
+  - "[[tool-ai-voice-input-doubao]]"
+  - "[[tool-ai-prd-for-ai]]"
+  - "[[sk-ai-evidence-check]]"
 ---
 # 技能：AI输出证据核查三问法
 

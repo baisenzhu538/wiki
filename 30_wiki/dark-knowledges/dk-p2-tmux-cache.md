@@ -14,11 +14,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - [[dk-modeling-timely-review-session-window]]
-  - [[session-20260619-xingangwan-business-formula-reconstruction]]
-  - [[dk-p6-session-resume-fail]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[dk-modeling-timely-review-session-window]]"
+  - "[[session-20260619-xingangwan-business-formula-reconstruction]]"
+  - "[[dk-p6-session-resume-fail]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 pipeline:
 - src_unknown
 - src_unknown

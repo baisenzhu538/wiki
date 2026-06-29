@@ -14,14 +14,14 @@ version: 1
 difficulty: intermediate
 confidence: 0.9
 related:
-  - [[yt-model-personal-pitch-toolkit]]
-  - [[yt-model-ipo-learning-strategy]]
-  - [[yt-panproduct-demand-motivation-resistance]]
-  - [[yt-prompt-iterative-prompting]]
-  - [[yt-prompt-anti-flattery]]
-  - [[yt-prompt-brainstorming]]
-  - [[yt-prompt-writing-workflow]]
-  - [[yt-concept-ai-guard-brain]]
+  - "[[yt-model-personal-pitch-toolkit]]"
+  - "[[yt-model-ipo-learning-strategy]]"
+  - "[[yt-panproduct-demand-motivation-resistance]]"
+  - "[[yt-prompt-iterative-prompting]]"
+  - "[[yt-prompt-anti-flattery]]"
+  - "[[yt-prompt-brainstorming]]"
+  - "[[yt-prompt-writing-workflow]]"
+  - "[[yt-concept-ai-guard-brain]]"
 query_triggers:
 - src_unknown
 - src_unknown

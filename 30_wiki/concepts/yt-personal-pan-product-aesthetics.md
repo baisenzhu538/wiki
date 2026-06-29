@@ -17,11 +17,11 @@ query_triggers:
 - src_unknown审美篇
 - src_unknown审美篇：最佳实践与审美建模
 related:
-- - - yt-model-pan-product-aesthetic-toolkit
-- - - yt-personal-pan-product-concepts
-- - - 一堂
-- - - pending_unknown
-- - - pending_unknown
+- "[[yt-model-pan-product-aesthetic-toolkit]]"
+- "[[yt-personal-pan-product-concepts]]"
+- "[[一堂]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260510_d7218337-泛产品设计审美卡片.md

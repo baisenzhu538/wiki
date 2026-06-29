@@ -20,9 +20,9 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[dk-wanghuan-paced-sales-decision]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[dk-wanghuan-paced-sales-decision]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

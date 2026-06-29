@@ -15,11 +15,11 @@ source_refs:
 component_of:
 - src_unknown
 related:
-- - - ai-learning-closed-loop
-- - - prd-as-ai-instruction
-- - - voice-input-doubao
-- - - ai-landing-scene-selection
-- - - pending_unknown
+- "[[ai-learning-closed-loop]]"
+- "[[prd-as-ai-instruction]]"
+- "[[voice-input-doubao]]"
+- "[[ai-landing-scene-selection]]"
+- "[[pending_unknown]]"
 query_triggers:
 - src_unknown
 - src_unknown

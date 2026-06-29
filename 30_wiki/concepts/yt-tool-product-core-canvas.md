@@ -21,14 +21,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yitang-course-map
-- - - yt-entrepreneur-product-core
-- - - yt-concept-ai-guard-brain
-- - - yt-concept-context-engineering
-- - - case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch
-- - - yt-entrepreneur-key-hypotheses
-- - - yt-entrepreneur-unit-model
-- - - yt-tool-meeting-designer
+- "[[yitang-course-map]]"
+- "[[yt-entrepreneur-product-core]]"
+- "[[yt-concept-ai-guard-brain]]"
+- "[[yt-concept-context-engineering]]"
+- "[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]"
+- "[[yt-entrepreneur-key-hypotheses]]"
+- "[[yt-entrepreneur-unit-model]]"
+- "[[yt-tool-meeting-designer]]"
 review_date: 2026-06-06
 source_refs:
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md

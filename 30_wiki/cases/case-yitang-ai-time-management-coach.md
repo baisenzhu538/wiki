@@ -18,9 +18,9 @@ domain:
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
-  - [[yitang-domain-digest]]
-  - [[yitang-research-domain-digest]]
-  - [[ai-collaboration-domain-digest]]
+  - "[[yitang-domain-digest]]"
+  - "[[yitang-research-domain-digest]]"
+  - "[[ai-collaboration-domain-digest]]"
 updated_at: 2026-06-28
 
 ---

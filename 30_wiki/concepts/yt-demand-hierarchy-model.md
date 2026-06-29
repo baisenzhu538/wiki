@@ -15,11 +15,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- [[yt-demand-fake-demand-detection]]
-- [[yt-demand-qualitative-analysis]]
-- [[yt-demand-scenario-reconstruction]]
-- [[yt-demand-market-size-pitfalls]]
-- [[yt-five-step-method]]
+- "[[yt-demand-fake-demand-detection]]"
+- "[[yt-demand-qualitative-analysis]]"
+- "[[yt-demand-scenario-reconstruction]]"
+- "[[yt-demand-market-size-pitfalls]]"
+- "[[yt-five-step-method]]"
 diagnostic_signals:
 - framework_lens: 需求层次模型——停留在假设层，未验证真需求
   follow_up_question: 你能描述一个具体用户，在什么具体场景下，会为了解决什么问题而付费吗？

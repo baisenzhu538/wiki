@@ -18,9 +18,9 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 related:
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
 wiki_refs:
 - src_unknown
 - src_unknown

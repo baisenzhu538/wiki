@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-Token效价比决策公式]]
-  - [[tool-月白-印刷DPI标准设置]]
-  - [[tool-月白-口述作图法（口喷设计）]]
-  - [[tool-月白-AI图片印刷落地预处理]]
-  - [[tool-月白-PS图层规范管理]]
+  - "[[tool-月白-Token效价比决策公式]]"
+  - "[[tool-月白-印刷DPI标准设置]]"
+  - "[[tool-月白-口述作图法（口喷设计）]]"
+  - "[[tool-月白-AI图片印刷落地预处理]]"
+  - "[[tool-月白-PS图层规范管理]]"
 ---
 # 技能：RGB转CMYK印刷预检
 

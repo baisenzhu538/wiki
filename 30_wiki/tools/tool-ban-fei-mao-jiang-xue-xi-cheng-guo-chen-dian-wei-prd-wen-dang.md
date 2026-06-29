@@ -18,12 +18,12 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-  - [[tool-ai-prd-for-ai]]
-  - [[prd-as-ai-instruction]]
-  - [[tool-纪浩-Agent技能市场设计法]]
-  - [[case-truman-prd-checklist-evolution]]
-  - [[knowledge-delivery-os-快速体验指南-飞书云文档]]
-  - [[sk-ai-prd-for-ai]]
+  - "[[tool-ai-prd-for-ai]]"
+  - "[[prd-as-ai-instruction]]"
+  - "[[tool-纪浩-Agent技能市场设计法]]"
+  - "[[case-truman-prd-checklist-evolution]]"
+  - "[[knowledge-delivery-os-快速体验指南-飞书云文档]]"
+  - "[[sk-ai-prd-for-ai]]"
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'

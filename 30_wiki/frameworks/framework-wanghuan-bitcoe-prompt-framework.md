@@ -22,11 +22,11 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[tool-wanghuan-ai-business-profile]]
-  - [[framework-wanghuan-ooda-loop]]
-  - [[framework-wanghuan-actor-director-mode]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-wanghuan-ai-business-profile]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-actor-director-mode]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

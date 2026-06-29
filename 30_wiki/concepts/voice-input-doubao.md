@@ -14,15 +14,15 @@ source_refs:
 component_of:
 - src_unknown
 related:
-  - [[yitang-domain-digest]]
-  - [[kdo-input-channel-strategy-2026-06-16]]
-  - [[dk-yb32-doubao-size-composition]]
-  - [[tool-ai-oral-spray-input]]
-  - [[case-yitang-voice-robot-companion-design]]
-  - [[yt-note-extensive-research-input]]
-  - [[tool-ai-voice-input-doubao]]
-  - [[case-yitang-xujian-invoice-saas-channel]]
-  - [[sk-ai-voice-input-doubao]]
+  - "[[yitang-domain-digest]]"
+  - "[[kdo-input-channel-strategy-2026-06-16]]"
+  - "[[dk-yb32-doubao-size-composition]]"
+  - "[[tool-ai-oral-spray-input]]"
+  - "[[case-yitang-voice-robot-companion-design]]"
+  - "[[yt-note-extensive-research-input]]"
+  - "[[tool-ai-voice-input-doubao]]"
+  - "[[case-yitang-xujian-invoice-saas-channel]]"
+  - "[[sk-ai-voice-input-doubao]]"
 query_triggers:
 - src_unknown
 - src_unknown

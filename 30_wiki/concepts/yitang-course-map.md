@@ -17,11 +17,11 @@ source_refs:
 - 'pending_archive: src_unknown'
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-- - - tool-yitang-research-follow-map
-- - - tool-yitang-research-cross-validation
-- - - tool-yitang-18-strategy-tool-mapping
-- - - yitang-research-domain-digest
-- - - plan_20260621_retrieval-architecture-upgrade
+- "[[tool-yitang-research-follow-map]]"
+- "[[tool-yitang-research-cross-validation]]"
+- "[[tool-yitang-18-strategy-tool-mapping]]"
+- "[[yitang-research-domain-digest]]"
+- "[[plan_20260621_retrieval-architecture-upgrade]]"
 ---
 # 一堂课程大地图
 

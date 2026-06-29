@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - [[tool-Truman-AI工具选型决策]]
-  - [[tool-Truman-提示词优化底层方法]]
-  - [[tool-Truman-开源模型与商业模型融合方案]]
-  - [[tool-Truman-AI场景探索STAR模型]]
-  - [[tool-Truman-数学题与语文题区分法]]
+  - "[[tool-Truman-AI工具选型决策]]"
+  - "[[tool-Truman-提示词优化底层方法]]"
+  - "[[tool-Truman-开源模型与商业模型融合方案]]"
+  - "[[tool-Truman-AI场景探索STAR模型]]"
+  - "[[tool-Truman-数学题与语文题区分法]]"
 ---
 # 技能：短视频自动化上传工作流
 

@@ -27,11 +27,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: medium-low
 related:
-- - - tool-马易-AI能力团队复制
-- - - tool-马易-AI任务拆解提升控制度
-- - - tool-马易-痛点驱动的数字化
-- - - tool-马易-AIGC项目ROI评估
-- - - tool-马易-AI答疑运营风格适配
+- "[[tool-马易-AI能力团队复制]]"
+- "[[tool-马易-AI任务拆解提升控制度]]"
+- "[[tool-马易-痛点驱动的数字化]]"
+- "[[tool-马易-AIGC项目ROI评估]]"
+- "[[tool-马易-AI答疑运营风格适配]]"
 ---
 # 技能：工作流优先于AIGC的决策方法
 

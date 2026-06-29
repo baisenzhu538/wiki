@@ -17,11 +17,11 @@ source_refs:
 created_at: 2026-06-11
 updated_at: 2026-06-28
 related:
-  - [[yt-foresight-15-char-mantra]]
-  - [[case-shampoo-product-kernel]]
-  - [[yt-product-kernel-cultivation]]
-  - [[case-unit-model-gashapon]]
-  - [[yitang-domain-digest]]
+  - "[[yt-foresight-15-char-mantra]]"
+  - "[[case-shampoo-product-kernel]]"
+  - "[[yt-product-kernel-cultivation]]"
+  - "[[case-unit-model-gashapon]]"
+  - "[[yitang-domain-digest]]"
 wiki_refs:
 - src_unknown
 pipeline:

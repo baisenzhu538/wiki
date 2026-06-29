@@ -17,13 +17,13 @@ trust_level: medium
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - [[framework-demand-iceberg]]
-  - [[yt-demand-decision-chain]]
-  - [[yt-tob-demand-metrics]]
-  - [[yt-demand-b2b-vs-b2c]]
-  - [[case-treadmill-demand-analysis]]
-  - [[framework-demand-validation-pipeline]]
-  - [[dk-demand-signal-vs-noise]]
+  - "[[framework-demand-iceberg]]"
+  - "[[yt-demand-decision-chain]]"
+  - "[[yt-tob-demand-metrics]]"
+  - "[[yt-demand-b2b-vs-b2c]]"
+  - "[[case-treadmill-demand-analysis]]"
+  - "[[framework-demand-validation-pipeline]]"
+  - "[[dk-demand-signal-vs-noise]]"
 ---
 
 # ToB 企业 ERP 需求分析案例

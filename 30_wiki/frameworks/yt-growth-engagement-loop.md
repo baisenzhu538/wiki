@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[yt-growth-acquisition-channels]]
-  - [[yt-growth-activation-rate]]
-  - [[yt-growth-growth-hacking]]
+  - "[[yt-growth-acquisition-channels]]"
+  - "[[yt-growth-activation-rate]]"
+  - "[[yt-growth-growth-hacking]]"
 diagnostic_signals:
 - framework_lens: 参与循环——用户需要持续回来的理由，需要设计参与循环
   follow_up_question: 你的产品是否形成了用户习惯？用户什么场景下会回来？

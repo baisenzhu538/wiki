@@ -23,12 +23,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-model-liberate-thinking-layers
-- - - yt-decision-habit-shift
-- - - yt-decision-width-method
-- - - yt-decision-depth-ladder
-- - - yt-decision-canvas
-- - - yt-decision-ai-partner
+- "[[yt-model-liberate-thinking-layers]]"
+- "[[yt-decision-habit-shift]]"
+- "[[yt-decision-width-method]]"
+- "[[yt-decision-depth-ladder]]"
+- "[[yt-decision-canvas]]"
+- "[[yt-decision-ai-partner]]"
 source_refs:
 - 10_raw/sources/src_20260609_006cb9b3-ocr-一堂-科学决策-高水平共识曲线重要.md
 status: enriched

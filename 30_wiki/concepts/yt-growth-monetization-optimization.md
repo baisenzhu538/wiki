@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[yt-growth-acquisition-channels]]
-  - [[yt-growth-activation-rate]]
-  - [[yt-growth-growth-hacking]]
+  - "[[yt-growth-acquisition-channels]]"
+  - "[[yt-growth-activation-rate]]"
+  - "[[yt-growth-growth-hacking]]"
 diagnostic_signals:
 - framework_lens: 变现优化——付费少需要分析付费转化漏斗
   follow_up_question: 你的付费转化率是多少？用户为什么不付费？是价格、价值感知、还是 friction？

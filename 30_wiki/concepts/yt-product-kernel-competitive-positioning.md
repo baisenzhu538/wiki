@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[tool-Truman-XY-Problem识别与真实问题定位]]
-  - [[tool-月白-设计参考图精准定位法]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-Truman-XY-Problem识别与真实问题定位]]"
+  - "[[tool-月白-设计参考图精准定位法]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 内核竞争定位——缺乏差异化，内核不清晰
   follow_up_question: 用户选择你们而不是竞品，最核心的原因是什么？如果说不出来，说明差异化不够。

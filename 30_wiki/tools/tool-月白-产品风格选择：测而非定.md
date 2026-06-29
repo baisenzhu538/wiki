@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[tool-月白-AIGC反向拆解法]]
-  - [[tool-月白-AIGC设计作业复盘法]]
-  - [[tool-月白-设计参考图精准定位法]]
-  - [[tool-月白-正向反馈强化AI生成]]
-  - [[tool-月白-AI工艺图人工复核法]]
+  - "[[tool-月白-AIGC反向拆解法]]"
+  - "[[tool-月白-AIGC设计作业复盘法]]"
+  - "[[tool-月白-设计参考图精准定位法]]"
+  - "[[tool-月白-正向反馈强化AI生成]]"
+  - "[[tool-月白-AI工艺图人工复核法]]"
 ---
 # 技能：产品风格选择：测而非定
 

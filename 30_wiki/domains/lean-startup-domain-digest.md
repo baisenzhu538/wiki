@@ -18,11 +18,11 @@ created_at: '2026-06-23'
 author: 黄药师
 reviewed_by: pending
 related:
-  - [[yitang-domain-digest]]
-  - [[一堂方法论体系总图]]
-  - [[kimi-深度调研集群方法论-deep-research-swarm]]
-  - [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
-  - [[tool-月白-用一堂方法论找最佳实践并拉满执行]]
+  - "[[yitang-domain-digest]]"
+  - "[[一堂方法论体系总图]]"
+  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
+  - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
+  - "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
 ---
 
 # 域摘要：精益创业方法论

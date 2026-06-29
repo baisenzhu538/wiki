@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[yt-business-analysis-cognitive-biases]]
-  - [[yt-business-formula-l6-essence-formulas]]
-  - [[yt-business-formula-parameter-iceberg]]
+  - "[[yt-business-analysis-cognitive-biases]]"
+  - "[[yt-business-formula-l6-essence-formulas]]"
+  - "[[yt-business-formula-parameter-iceberg]]"
 diagnostic_signals:
 - framework_lens: 收入模式——单一收入来源风险高，需要多元化
   follow_up_question: 如果主要收入来源失效，你有备用收入来源吗？

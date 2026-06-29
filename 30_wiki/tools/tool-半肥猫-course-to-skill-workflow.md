@@ -14,20 +14,20 @@ source_refs:
 created_at: '2026-06-08'
 updated_at: '2026-06-28'
 related:
-  - [[case-半肥猫-course-to-skill]]
-  - [[tool-半肥猫-课程Skill化的八步工作流]]
-  - [[tool-ai-skill-engineering-method]]
-  - [[tool-Truman-Skill全生命周期管理]]
-  - [[paddleocr-skill]]
-  - [[tool-封装可复用skill]]
-  - [[course-to-skill-conversion]]
-  - [[truman-perspective-skill]]
-  - [[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]
-  - [[tool-月白-课程问题预埋法]]
-  - [[case-ji-hao-skill-market-problem-validation]]
-  - [[case-truman-ai-skill-self-packaging]]
-  - [[yt-skill-checklist-as-ai-protocol]]
-  - [[yt-skill-p-role-prompt-design]]
+  - "[[case-半肥猫-course-to-skill]]"
+  - "[[tool-半肥猫-课程Skill化的八步工作流]]"
+  - "[[tool-ai-skill-engineering-method]]"
+  - "[[tool-Truman-Skill全生命周期管理]]"
+  - "[[paddleocr-skill]]"
+  - "[[tool-封装可复用skill]]"
+  - "[[course-to-skill-conversion]]"
+  - "[[truman-perspective-skill]]"
+  - "[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]"
+  - "[[tool-月白-课程问题预埋法]]"
+  - "[[case-ji-hao-skill-market-problem-validation]]"
+  - "[[case-truman-ai-skill-self-packaging]]"
+  - "[[yt-skill-checklist-as-ai-protocol]]"
+  - "[[yt-skill-p-role-prompt-design]]"
 wiki_refs:
 - src_unknown
 - src_unknown

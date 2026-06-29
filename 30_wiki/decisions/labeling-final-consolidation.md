@@ -15,15 +15,15 @@ target_roles:
 - src_unknown
 reviewer: 用户 + 欧阳锋
 related:
-- [[huangyaoshi-tagging-and-scope-proposal]]
-- [[kdo-15-dimension-label-spec]]
-- [[ouyangfeng-labeling-research-review]]
-- [[labeling-research-alignment]]
-- [[data-labeling-best-practices-report]]
-- [[data-labeling-best-practices-report]]
-- [[kdo-15-dimension-label-spec]]
-- [[labeling-research-alignment]]
-- [[ouyangfeng-labeling-research-review]]
+- "[[huangyaoshi-tagging-and-scope-proposal]]"
+- "[[kdo-15-dimension-label-spec]]"
+- "[[ouyangfeng-labeling-research-review]]"
+- "[[labeling-research-alignment]]"
+- "[[data-labeling-best-practices-report]]"
+- "[[data-labeling-best-practices-report]]"
+- "[[kdo-15-dimension-label-spec]]"
+- "[[labeling-research-alignment]]"
+- "[[ouyangfeng-labeling-research-review]]"
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260503_52ae08ba）

@@ -2,11 +2,11 @@
 
 
 related:
-  - [[yt-five-step-method]]
-  - [[master-cognitive-bias-checklist]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yt-five-step-method]]"
+  - "[[master-cognitive-bias-checklist]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown
 ---

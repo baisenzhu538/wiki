@@ -19,11 +19,11 @@ trust_level: low
 title: plan 20260501 ca61cdd7 improvement plan
 updated_at: '2026-06-16'
 related:
-  - [[plan_20260501_47264869-improvement-plan]]
-  - [[plan_20260501_e1e150b9-improvement-plan]]
-  - [[plan_20260501_85a84b92-improvement-plan]]
-  - [[plan_20260501_05858800-improvement-plan]]
-  - [[plan_20260501_8001399c-improvement-plan]]
+  - "[[plan_20260501_47264869-improvement-plan]]"
+  - "[[plan_20260501_e1e150b9-improvement-plan]]"
+  - "[[plan_20260501_85a84b92-improvement-plan]]"
+  - "[[plan_20260501_05858800-improvement-plan]]"
+  - "[[plan_20260501_8001399c-improvement-plan]]"
 ---
 # Improvement Plan plan_20260501_ca61cdd7
 

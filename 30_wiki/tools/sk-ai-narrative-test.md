@@ -29,11 +29,11 @@ updated_at: '2026-06-28'
 tools_required: []
 prerequisite_skills: null
 related:
-  - [[tool-纪浩-Agent技能市场设计法]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-纪浩-Agent技能市场设计法]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

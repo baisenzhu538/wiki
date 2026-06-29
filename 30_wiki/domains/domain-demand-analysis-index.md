@@ -17,31 +17,31 @@ trust_level: high
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - [[yt-demand-hierarchy-model]]
-  - [[yt-demand-b2b-vs-b2c]]
-  - [[yt-demand-user-segmentation]]
-  - [[yt-demand-decision-chain]]
-  - [[yt-demand-early-validation]]
-  - [[yt-demand-scenario-reconstruction]]
-  - [[yt-research-user-jtbd]]
-  - [[framework-demand-iceberg]]
-  - [[framework-demand-usp-model]]
-  - [[framework-demand-opportunity-spectrum]]
-  - [[framework-demand-lean-bridge]]
-  - [[yt-demand-jtbd-application]]
-  - [[yt-five-step-method-complete]]
-  - [[yt-demand-qualitative-analysis]]
-  - [[yt-tob-demand-metrics]]
-  - [[case-treadmill-demand-analysis]]
-  - [[case-demand-milkshake-jtbd]]
-  - [[yt-demand-fake-demand-detection]]
-  - [[yt-demand-competitive-displacement]]
-  - [[yt-demand-market-size-pitfalls]]
-  - [[yt-demand-scope-creep]]
-  - [[case-demand-b2b-enterprise-erp]]
-  - [[case-demand-b2c-consumer-insight]]
-  - [[framework-demand-validation-pipeline]]
-  - [[dk-demand-signal-vs-noise]]
+  - "[[yt-demand-hierarchy-model]]"
+  - "[[yt-demand-b2b-vs-b2c]]"
+  - "[[yt-demand-user-segmentation]]"
+  - "[[yt-demand-decision-chain]]"
+  - "[[yt-demand-early-validation]]"
+  - "[[yt-demand-scenario-reconstruction]]"
+  - "[[yt-research-user-jtbd]]"
+  - "[[framework-demand-iceberg]]"
+  - "[[framework-demand-usp-model]]"
+  - "[[framework-demand-opportunity-spectrum]]"
+  - "[[framework-demand-lean-bridge]]"
+  - "[[yt-demand-jtbd-application]]"
+  - "[[yt-five-step-method-complete]]"
+  - "[[yt-demand-qualitative-analysis]]"
+  - "[[yt-tob-demand-metrics]]"
+  - "[[case-treadmill-demand-analysis]]"
+  - "[[case-demand-milkshake-jtbd]]"
+  - "[[yt-demand-fake-demand-detection]]"
+  - "[[yt-demand-competitive-displacement]]"
+  - "[[yt-demand-market-size-pitfalls]]"
+  - "[[yt-demand-scope-creep]]"
+  - "[[case-demand-b2b-enterprise-erp]]"
+  - "[[case-demand-b2c-consumer-insight]]"
+  - "[[framework-demand-validation-pipeline]]"
+  - "[[dk-demand-signal-vs-noise]]"
 ---
 
 # 域索引：需求分析

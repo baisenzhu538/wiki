@@ -2,11 +2,11 @@
 
 
 related:
-  - [[dk-yb25-solution-driven-visual-design]]
-  - [[dk-yb22-visual-presentation-scene-match]]
-  - [[dk-ji-hao-ai-cant-design-structure]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[dk-yb25-solution-driven-visual-design]]"
+  - "[[dk-yb22-visual-presentation-scene-match]]"
+  - "[[dk-ji-hao-ai-cant-design-structure]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown
 ---

@@ -20,10 +20,10 @@ review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
-- [[yt-business-formula-abc-model]]
-- [[yt-business-formula-ten-paradigms]]
-- [[yt-business-formula-parameter-iceberg]]
-- [[yt-entrepreneur-unit-model]]
+- "[[yt-business-formula-abc-model]]"
+- "[[yt-business-formula-ten-paradigms]]"
+- "[[yt-business-formula-parameter-iceberg]]"
+- "[[yt-entrepreneur-unit-model]]"
 
 ---
 

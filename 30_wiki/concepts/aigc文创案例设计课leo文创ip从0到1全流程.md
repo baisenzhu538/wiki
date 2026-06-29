@@ -19,10 +19,10 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- - - aigc设计师实操培训01口喷设计范式与电商ai设计全流程
-- - - tool-月白-设计文件八要素命名法
-- - - tool-月白-跨境电商产品图替换法
-- - - tool-月白-设计项目MVP拆解法
+- "[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]"
+- "[[tool-月白-设计文件八要素命名法]]"
+- "[[tool-月白-跨境电商产品图替换法]]"
+- "[[tool-月白-设计项目MVP拆解法]]"
 ---
 # AIGC文创案例设计课：Leo文创IP从0到1全流程
 

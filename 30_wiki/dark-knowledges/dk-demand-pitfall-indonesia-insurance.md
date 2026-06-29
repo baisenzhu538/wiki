@@ -14,11 +14,11 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - [[yt-five-step-method]]
-  - [[yt-five-step-cross-step-1]]
-  - [[dk-ai-entrepreneur-technical-blindspot]]
-  - [[dk-strategy-02-three-paradoxes]]
-  - [[yitang-domain-digest]]
+  - "[[yt-five-step-method]]"
+  - "[[yt-five-step-cross-step-1]]"
+  - "[[dk-ai-entrepreneur-technical-blindspot]]"
+  - "[[dk-strategy-02-three-paradoxes]]"
+  - "[[yitang-domain-digest]]"
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'

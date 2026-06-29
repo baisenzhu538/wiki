@@ -11,13 +11,13 @@ target_roles:
 - src_unknown
 reviewer: 欧阳锋（Architect）
 related:
-  - [[kdo-yaml-frontmatter-safety]]
-  - [[dk-p18-yaml-parser]]
-  - [[dk-p19-quote-yaml]]
-  - [[ocr-微信图片_20260507004751_33_32]]
-  - [[dk-f13-handwritten-yaml-parser]]
-  - [[gold-standard-manual-labels]]
-  - [[kdo-15-dimension-label-spec]]
+  - "[[kdo-yaml-frontmatter-safety]]"
+  - "[[dk-p18-yaml-parser]]"
+  - "[[dk-p19-quote-yaml]]"
+  - "[[ocr-微信图片_20260507004751_33_32]]"
+  - "[[dk-f13-handwritten-yaml-parser]]"
+  - "[[gold-standard-manual-labels]]"
+  - "[[kdo-15-dimension-label-spec]]"
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:

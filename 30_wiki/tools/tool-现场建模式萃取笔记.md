@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- - - tool-提升笔记练习频次的方法
-- - - tool-获取他人反馈优化笔记
-- - - tool-反向记录整理思路
-- - - tool-用清单体记备忘笔记
-- - - tool-用topdown方式整理内化笔记
+- "[[tool-提升笔记练习频次的方法]]"
+- "[[tool-获取他人反馈优化笔记]]"
+- "[[tool-反向记录整理思路]]"
+- "[[tool-用清单体记备忘笔记]]"
+- "[[tool-用topdown方式整理内化笔记]]"
 ---
 # 技能：现场建模式萃取笔记
 

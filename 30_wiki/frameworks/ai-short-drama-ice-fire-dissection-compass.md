@@ -18,9 +18,9 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-- [[ai-short-drama-plot-three-axes]]
-- [[ai-short-drama-framework-three-axes]]
-- [[ai-short-drama-conflict-three-axes]]
+- "[[ai-short-drama-plot-three-axes]]"
+- "[[ai-short-drama-framework-three-axes]]"
+- "[[ai-short-drama-conflict-three-axes]]"
 tags:
 - src_unknown
 - src_unknown

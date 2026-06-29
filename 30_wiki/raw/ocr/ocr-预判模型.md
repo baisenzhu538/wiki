@@ -17,10 +17,10 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[ocr-一堂-单元模型-最简单元模型]]
-  - [[yt-panproduct-aesthetic-modeling]]
-  - [[yt-model-prediction-model]]
-  - [[yt-foresight-model-taxonomy]]
+  - "[[ocr-一堂-单元模型-最简单元模型]]"
+  - "[[yt-panproduct-aesthetic-modeling]]"
+  - "[[yt-model-prediction-model]]"
+  - "[[yt-foresight-model-taxonomy]]"
 ---
 # OCR: 预判模型
 

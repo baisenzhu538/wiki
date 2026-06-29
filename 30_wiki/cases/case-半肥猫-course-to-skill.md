@@ -34,11 +34,11 @@ tags:
 created_at: 2026-06-08
 updated_at: '2026-06-28'
 related:
-  - [[yt-business-analysis-cognitive-biases]]
-  - [[kdo-ec-industrialization-migration-proposal]]
-  - [[case-纪浩-from-zip-to-five-layers]]
-  - [[yt-five-step-level-blindspots]]
-  - [[modeling-capability-for-kdo]]
+  - "[[yt-business-analysis-cognitive-biases]]"
+  - "[[kdo-ec-industrialization-migration-proposal]]"
+  - "[[case-纪浩-from-zip-to-five-layers]]"
+  - "[[yt-five-step-level-blindspots]]"
+  - "[[modeling-capability-for-kdo]]"
 author: 半肥猫
 reviewed_by: 老顽童
 confidence: 0.7

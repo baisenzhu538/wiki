@@ -17,11 +17,11 @@ source_refs:
 - 10_raw/sources/src_20260614_55135154-Truman-高阶建模-本质建模-案例-02.md
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 related:
-  - [[yitang-domain-digest]]
-  - [[ai-collaboration-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[yitang-domain-digest]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 bridges_to:
 - src_unknown
 - src_unknown-level-map

@@ -17,11 +17,11 @@ author: 黄药师
 reviewed_by: 王语嫣（代欧阳锋）
 review_date: '2026-06-17'
 related:
-  - [[dk-wanghuan-magic-defeats-magic]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[dk-wanghuan-magic-defeats-magic]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

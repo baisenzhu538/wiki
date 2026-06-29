@@ -12,13 +12,13 @@ version: 1
 difficulty: intermediate
 confidence: 0.89
 related:
-  - [[yt-note-checklist-concept]]
-  - [[yt-note-ai-human-division]]
-  - [[yt-note-live-field-skill]]
-  - [[yt-model-ipo-learning-strategy]]
-  - [[yt-decision-ai-partner]]
-  - [[yt-note-deliberate-practice-four-elements]]
-  - [[yt-note-l4-internalization]]
+  - "[[yt-note-checklist-concept]]"
+  - "[[yt-note-ai-human-division]]"
+  - "[[yt-note-live-field-skill]]"
+  - "[[yt-model-ipo-learning-strategy]]"
+  - "[[yt-decision-ai-partner]]"
+  - "[[yt-note-deliberate-practice-four-elements]]"
+  - "[[yt-note-l4-internalization]]"
 prerequisites:
 - src_unknown
 - src_unknown

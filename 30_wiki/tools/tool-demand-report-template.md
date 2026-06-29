@@ -15,9 +15,9 @@ updated_at: '2026-06-21'
 author: 黄药师（从 Coze 报告结构提取 + KDO 框架映射）
 reviewed_by: 欧阳锋
 related:
-- [[tool-demand-iceberg-l6-hypothesis]]
-- [[framework-demand-opportunity-spectrum]]
-- [[yt-market-size-estimation]]
+- "[[tool-demand-iceberg-l6-hypothesis]]"
+- "[[framework-demand-opportunity-spectrum]]"
+- "[[yt-market-size-estimation]]"
 
 ---
 

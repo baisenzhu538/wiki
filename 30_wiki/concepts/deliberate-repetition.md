@@ -18,11 +18,11 @@ source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 - 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
 related:
-- [[deliberate-practice-four-elements]]
-- [[practice-card-decomposition]]
-- [[fixed-routine-design]]
-- [[comfort-zone-expansion]]
-- [[timely-feedback-loop]]
+- "[[deliberate-practice-four-elements]]"
+- "[[practice-card-decomposition]]"
+- "[[fixed-routine-design]]"
+- "[[comfort-zone-expansion]]"
+- "[[timely-feedback-loop]]"
 ---
 
 # 刻意重复

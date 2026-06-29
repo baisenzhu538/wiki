@@ -19,7 +19,7 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.65
 related:
-- [[ai-short-drama-conflict-three-axes]]
+- "[[ai-short-drama-conflict-three-axes]]"
 tags:
 - src_unknown
 - src_unknown

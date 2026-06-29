@@ -17,20 +17,20 @@ reviewed_by: 老顽童
 review_date: '2026-06-14'
 trust_level: high
 related:
-- - - case-纪浩-from-zip-to-five-layers
-- - - kdo-input-channel-strategy-2026-06-16
-- - - ocr-泛产品设计-落地卡片-攻坚会
-- - - kdo-protocol
-- - - ocr-泛产品设计落地篇
-- - - tool-泛产品落地-内核和边界
-- - - kdo-batch-produce-req014
-- - - tool-泛产品落地-灵感闪现
-- - - tool-泛产品落地-业务建模
-- - - ocr-泛产品设计-落地卡片-roi分析
-- - - tool-泛产品落地-解放思想
-- - - tool-月白-AI图片印刷落地预处理
-- - - framework-kdo-self-attack
-- - - kdo-yaml-frontmatter-safety
+- "[[case-纪浩-from-zip-to-five-layers]]"
+- "[[kdo-input-channel-strategy-2026-06-16]]"
+- "[[ocr-泛产品设计-落地卡片-攻坚会]]"
+- "[[kdo-protocol]]"
+- "[[ocr-泛产品设计落地篇]]"
+- "[[tool-泛产品落地-内核和边界]]"
+- "[[kdo-batch-produce-req014]]"
+- "[[tool-泛产品落地-灵感闪现]]"
+- "[[tool-泛产品落地-业务建模]]"
+- "[[ocr-泛产品设计-落地卡片-roi分析]]"
+- "[[tool-泛产品落地-解放思想]]"
+- "[[tool-月白-AI图片印刷落地预处理]]"
+- "[[framework-kdo-self-attack]]"
+- "[[kdo-yaml-frontmatter-safety]]"
 tags:
 - src_unknown
 - src_unknown

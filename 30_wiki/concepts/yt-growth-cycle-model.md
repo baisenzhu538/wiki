@@ -2,11 +2,11 @@
 
 
 related:
-  - [[yt-five-step-method]]
-  - [[yt-unit-model-three-tools]]
-  - [[yt-customer-acquisition-toolkit]]
-  - [[yt-barrier-analysis-cheat-sheet]]
-  - [[pending_unknown]]
+  - "[[yt-five-step-method]]"
+  - "[[yt-unit-model-three-tools]]"
+  - "[[yt-customer-acquisition-toolkit]]"
+  - "[[yt-barrier-analysis-cheat-sheet]]"
+  - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown
 ---

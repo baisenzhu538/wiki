@@ -22,26 +22,26 @@ updated_at: '2026-06-20'
 author: 王语嫣
 reviewed_by: pending
 related:
-  - [[framework-wanghuan-task-product-system]]
-  - [[framework-wanghuan-three-tier-dev-architecture]]
-  - [[framework-wanghuan-actor-director-mode]]
-  - [[concept-wanghuan-adversarial-generation]]
-  - [[framework-wanghuan-ooda-loop]]
-  - [[framework-wanghuan-actor-director-mode]]
-  - [[framework-wanghuan-ai-five-level-ladder]]
-  - [[framework-wanghuan-bitcoe-prompt-framework]]
-  - [[tool-wanghuan-ai-business-profile]]
-  - [[framework-wanghuan-ooda-loop]]
-  - [[dk-wanghuan-paced-sales-decision]]
-  - [[dk-wanghuan-standard-by-iteration]]
-  - [[dk-wanghuan-output-equals-standard-times-iteration]]
-  - [[dk-wanghuan-ai-lifts-personal-ceiling]]
-  - [[dk-wanghuan-creativity-in-description-and-taste]]
-  - [[dk-wanghuan-magic-defeats-magic]]
-  - [[dk-wanghuan-spec-trap]]
-  - [[dk-wanghuan-agent-platform-director-mode]]
-  - [[dk-wanghuan-tacit-decision-extraction-cross-domain]]
-  - [[concept-wanghuan-tacit-knowledge-examples]]
+  - "[[framework-wanghuan-task-product-system]]"
+  - "[[framework-wanghuan-three-tier-dev-architecture]]"
+  - "[[framework-wanghuan-actor-director-mode]]"
+  - "[[concept-wanghuan-adversarial-generation]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[framework-wanghuan-actor-director-mode]]"
+  - "[[framework-wanghuan-ai-five-level-ladder]]"
+  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+  - "[[tool-wanghuan-ai-business-profile]]"
+  - "[[framework-wanghuan-ooda-loop]]"
+  - "[[dk-wanghuan-paced-sales-decision]]"
+  - "[[dk-wanghuan-standard-by-iteration]]"
+  - "[[dk-wanghuan-output-equals-standard-times-iteration]]"
+  - "[[dk-wanghuan-ai-lifts-personal-ceiling]]"
+  - "[[dk-wanghuan-creativity-in-description-and-taste]]"
+  - "[[dk-wanghuan-magic-defeats-magic]]"
+  - "[[dk-wanghuan-spec-trap]]"
+  - "[[dk-wanghuan-agent-platform-director-mode]]"
+  - "[[dk-wanghuan-tacit-decision-extraction-cross-domain]]"
+  - "[[concept-wanghuan-tacit-knowledge-examples]]"
 tags:
 - src_unknown
 - src_unknown

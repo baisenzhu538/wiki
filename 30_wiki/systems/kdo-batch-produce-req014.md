@@ -19,11 +19,11 @@ confidence: 0.65
 trust_level: low
 updated_at: '2026-06-16'
 related:
-- - - plan_20260501_8ecb74e3-improvement-plan
-- - - plan_20260501_47264869-improvement-plan
-- - - plan_20260501_05858800-improvement-plan
-- - - plan_20260501_97170532-improvement-plan
-- - - plan_20260503_f3e9a2b1-improvement-plan
+- "[[plan_20260501_8ecb74e3-improvement-plan]]"
+- "[[plan_20260501_47264869-improvement-plan]]"
+- "[[plan_20260501_05858800-improvement-plan]]"
+- "[[plan_20260501_97170532-improvement-plan]]"
+- "[[plan_20260503_f3e9a2b1-improvement-plan]]"
 ---
 # REQ-014 批量 Produce 12 篇 Enriched 页面
 

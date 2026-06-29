@@ -18,12 +18,12 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[tool-Truman-提示词优化底层方法]]
-  - [[tool-Truman-AI时代提示词优化法]]
-  - [[tool-月白-AIGC餐饮海报优化一抽流]]
-  - [[tool-月白-提示词优化：信息流海报文字修复]]
-  - [[tool-反向提示获取优化建议]]
-  - [[tool-获取他人反馈优化笔记]]
+  - "[[tool-Truman-提示词优化底层方法]]"
+  - "[[tool-Truman-AI时代提示词优化法]]"
+  - "[[tool-月白-AIGC餐饮海报优化一抽流]]"
+  - "[[tool-月白-提示词优化：信息流海报文字修复]]"
+  - "[[tool-反向提示获取优化建议]]"
+  - "[[tool-获取他人反馈优化笔记]]"
 diagnostic_signals:
 - framework_lens: 渠道经济学——需要多元化渠道，降低获客成本
   follow_up_question: 你的获客渠道有几个？每个渠道的CAC分别是多少？

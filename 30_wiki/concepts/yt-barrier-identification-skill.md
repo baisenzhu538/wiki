@@ -17,11 +17,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-barrier-analysis-cheat-sheet
-- - - yt-five-step-method
-- - - yt-unit-model-three-tools
-- - - case-toy-cabinet-barrier
-- - - case-zhihu-vs-degetao-network-effect
+- "[[yt-barrier-analysis-cheat-sheet]]"
+- "[[yt-five-step-method]]"
+- "[[yt-unit-model-three-tools]]"
+- "[[case-toy-cabinet-barrier]]"
+- "[[case-zhihu-vs-degetao-network-effect]]"
 review_date: 2026-06-11
 reviewed_by: 周伯通
 source_refs:

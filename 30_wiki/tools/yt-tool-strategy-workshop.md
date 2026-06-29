@@ -15,14 +15,14 @@ prerequisites: null
 component_of:
 - src_unknown
 related:
-  - [[yt-management-strategy-meeting]]
-  - [[yt-management-scientific-decision]]
-  - [[yt-management-goal-management]]
-  - [[yt-tool-okr-cycle]]
-  - [[yt-management-scientific-meetings]]
-  - [[yt-management-founder-role]]
-  - [[yt-management-company-culture]]
-  - [[yt-decision-y-model]]
+  - "[[yt-management-strategy-meeting]]"
+  - "[[yt-management-scientific-decision]]"
+  - "[[yt-management-goal-management]]"
+  - "[[yt-tool-okr-cycle]]"
+  - "[[yt-management-scientific-meetings]]"
+  - "[[yt-management-founder-role]]"
+  - "[[yt-management-company-culture]]"
+  - "[[yt-decision-y-model]]"
 contradicts: null
 query_triggers:
 - src_unknown

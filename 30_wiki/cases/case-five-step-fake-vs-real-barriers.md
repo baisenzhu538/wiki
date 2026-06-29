@@ -46,11 +46,11 @@ author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-29'
 related:
-- - - yt-five-step-method
-- - - yt-barrier-analysis-cheat-sheet
-- - - yt-entrepreneur-barriers
-- - - case-five-step-growth-first-lever
-- - - yt-scale-economy-weapon-library
+- "[[yt-five-step-method]]"
+- "[[yt-barrier-analysis-cheat-sheet]]"
+- "[[yt-entrepreneur-barriers]]"
+- "[[case-five-step-growth-first-lever]]"
+- "[[yt-scale-economy-weapon-library]]"
 ---
 
 # 案例：五步法中识别真壁垒和假壁垒

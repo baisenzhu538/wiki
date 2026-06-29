@@ -15,13 +15,13 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-  - [[concept-一堂-kernel-validation]]
-  - [[yt-product-kernel-cultivation]]
-  - [[concept-一堂-product-kernel]]
-  - [[concept-一堂-key-assumptions]]
-  - [[case-unit-model-gashapon]]
-  - [[concept-一堂-hypothesis-driven-business-methodology]]
-  - [[yitang-domain-digest]]
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[yt-product-kernel-cultivation]]"
+  - "[[concept-一堂-product-kernel]]"
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[case-unit-model-gashapon]]"
+  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
+  - "[[yitang-domain-digest]]"
 wiki_refs:
 - src_unknown
 - src_unknown

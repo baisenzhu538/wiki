@@ -14,11 +14,11 @@ domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_vlm_desc.md
 related:
-- - - strategy-domain-digest
-- - - tool-单元模型-象限分析法
-- - - ocr-一堂-单元模型-象限分析法
-- - - pending_unknown
-- - - pending_unknown
+- "[[strategy-domain-digest]]"
+- "[[tool-单元模型-象限分析法]]"
+- "[[ocr-一堂-单元模型-象限分析法]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 review_date: '2026-06-29'
 ---
 

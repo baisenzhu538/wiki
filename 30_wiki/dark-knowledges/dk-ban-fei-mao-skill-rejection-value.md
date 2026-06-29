@@ -16,13 +16,13 @@ created_at: 2026-06-07
 updated_at: '2026-06-19'
 review_date: '2026-06-19'
 related:
-  - [[dk-wanghuan-spec-trap]]
-  - [[dk-wanghuan-agent-platform-director-mode]]
-  - [[dk-ai-judgment-human-responsibility]]
-  - [[yt-five-step-method]]
-  - [[dk-tool-as-phased-validator]]
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
+  - "[[dk-wanghuan-spec-trap]]"
+  - "[[dk-wanghuan-agent-platform-director-mode]]"
+  - "[[dk-ai-judgment-human-responsibility]]"
+  - "[[yt-five-step-method]]"
+  - "[[dk-tool-as-phased-validator]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[yitang-domain-digest]]"
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88

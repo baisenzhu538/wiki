@@ -35,11 +35,11 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-- - - yt-barrier-analysis-cheat-sheet
-- - - yt-barrier-identification-skill
-- - - yt-five-step-method
-- - - yt-scale-economy-weapon-library
-- - - yitang-domain-digest
+- "[[yt-barrier-analysis-cheat-sheet]]"
+- "[[yt-barrier-identification-skill]]"
+- "[[yt-five-step-method]]"
+- "[[yt-scale-economy-weapon-library]]"
+- "[[yitang-domain-digest]]"
 ---
 
 # 案例：知乎vs得到——网络效应壁垒的对比分析

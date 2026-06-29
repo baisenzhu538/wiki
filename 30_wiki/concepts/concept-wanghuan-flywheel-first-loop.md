@@ -28,11 +28,11 @@ diagnostic_signals:
 - lens: 飞轮资产未共享
   follow_up: 把个人业务档案升级为团队共享上下文资产
 related:
-  - [[case-wanghuan-education-sales-capability-extraction]]
-  - [[case-wanghuan-education-sales-paced]]
-  - [[case-wanghuan-shenyang-software-3x-efficiency]]
-  - [[sprint-6-cli-gap-proposal]]
-  - [[pending_unknown]]
+  - "[[case-wanghuan-education-sales-capability-extraction]]"
+  - "[[case-wanghuan-education-sales-paced]]"
+  - "[[case-wanghuan-shenyang-software-3x-efficiency]]"
+  - "[[sprint-6-cli-gap-proposal]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

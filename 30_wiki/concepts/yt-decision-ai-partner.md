@@ -22,12 +22,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-decision-y-model
-- - - yt-decision-canvas
-- - - yt-entrepreneur-key-hypotheses
-- - - yt-decision-width-method
-- - - yt-decision-depth-ladder
-- - - yt-prompt-anti-flattery
+- "[[yt-decision-y-model]]"
+- "[[yt-decision-canvas]]"
+- "[[yt-entrepreneur-key-hypotheses]]"
+- "[[yt-decision-width-method]]"
+- "[[yt-decision-depth-ladder]]"
+- "[[yt-prompt-anti-flattery]]"
 reviewed_by: 周伯通
 source_refs:
 - 10_raw/sources/src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02.md

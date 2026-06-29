@@ -39,20 +39,20 @@ domain:
 - 工作汇报
 - 复盘结构化
 related:
-- - - tool-Truman-提示词优化底层方法
-- - - tool-Truman-Skill全生命周期管理
-- - - yt-model-truman-career-routes
-- - - tool-从案例中学习
-- - - tool-Truman-人在环渐进自动化策略
-- - - ocr-truman的选择两条职业成长路线
-- - - tool-Truman-双三角模型应用
-- - - truman-perspective-skill
-- - - tool-Truman-AI能力分层学习路径
-- - - tool-纪浩-案例池构建法
-- - - tool-Truman-信息输入持续补全（防AI错误累积）
-- - - case-科学决策-ROI案例03
-- - - tool-马易-业务问题AI化拆解-餐饮设计案例法
-- - - case-科学决策-深度案例06
+- "[[tool-Truman-提示词优化底层方法]]"
+- "[[tool-Truman-Skill全生命周期管理]]"
+- "[[yt-model-truman-career-routes]]"
+- "[[tool-从案例中学习]]"
+- "[[tool-Truman-人在环渐进自动化策略]]"
+- "[[ocr-truman的选择两条职业成长路线]]"
+- "[[tool-Truman-双三角模型应用]]"
+- "[[truman-perspective-skill]]"
+- "[[tool-Truman-AI能力分层学习路径]]"
+- "[[tool-纪浩-案例池构建法]]"
+- "[[tool-Truman-信息输入持续补全（防AI错误累积）]]"
+- "[[case-科学决策-ROI案例03]]"
+- "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
+- "[[case-科学决策-深度案例06]]"
 ---
 
 # 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链

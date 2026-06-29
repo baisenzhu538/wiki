@@ -15,11 +15,11 @@ updated_at: '2026-06-29'
 author: 黄药师（从 PPT _117 提取）
 reviewed_by: 欧阳锋
 related:
-- - - strategy-domain-digest
-- - - framework-yitang-channel-partnership-map
-- - - case-yitang-goat-milk-channel-partnership
-- - - tool-yitang-channel-partnership-design
-- - - pending_unknown
+- "[[strategy-domain-digest]]"
+- "[[framework-yitang-channel-partnership-map]]"
+- "[[case-yitang-goat-milk-channel-partnership]]"
+- "[[tool-yitang-channel-partnership-design]]"
+- "[[pending_unknown]]"
 ---
 
 # 盈利模式对比框架

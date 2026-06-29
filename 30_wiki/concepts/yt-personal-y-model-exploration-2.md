@@ -20,11 +20,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-personal-y-model-practice
-- - - yt-model-y-organization
-- - - 一堂
-- - - yt-entrepreneur-scientific-method
-- - - yt-model-scientific-questioning-map
+- "[[yt-personal-y-model-practice]]"
+- "[[yt-model-y-organization]]"
+- "[[一堂]]"
+- "[[yt-entrepreneur-scientific-method]]"
+- "[[yt-model-scientific-questioning-map]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260510_6d771b2a-个人修身-y模型探索营2.md

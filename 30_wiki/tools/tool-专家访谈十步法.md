@@ -23,11 +23,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- - - tool-知识库团队管理
-- - - tool-项目复盘基本功
-- - - tool-清单式笔记法
-- - - tool-逐字稿练习演讲
-- - - tool-费曼学习法实践讲香课题
+- "[[tool-知识库团队管理]]"
+- "[[tool-项目复盘基本功]]"
+- "[[tool-清单式笔记法]]"
+- "[[tool-逐字稿练习演讲]]"
+- "[[tool-费曼学习法实践讲香课题]]"
 ---
 # 技能：专家访谈十步法
 

@@ -20,9 +20,9 @@ trust_level: medium
 confidence: 0.78
 tags: []
 related:
-- [[modeling-capability-system]]
-- [[modeling-level-map]]
-- [[modeling-weapon-library]]
+- "[[modeling-capability-system]]"
+- "[[modeling-level-map]]"
+- "[[modeling-weapon-library]]"
 diagnostic_signals:
 - framework_lens: 流程类建模
   follow_up_question: 这个任务重复发生吗？失败成本高吗？

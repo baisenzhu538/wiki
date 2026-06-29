@@ -21,11 +21,11 @@ review_date: 2026-06-15
 confidence: 0.88
 trust_level: high
 related:
-- [[dk-wanghuan-ai-lifts-personal-ceiling]]
-- [[dk-wanghuan-standard-by-iteration]]
-- [[dk-modeling-ai-compound-leverage]]
-- [[tool-yitang-content-ip-research]]
-- [[dk-modeling-ai-judgment-limit]]
+- "[[dk-wanghuan-ai-lifts-personal-ceiling]]"
+- "[[dk-wanghuan-standard-by-iteration]]"
+- "[[dk-modeling-ai-compound-leverage]]"
+- "[[tool-yitang-content-ip-research]]"
+- "[[dk-modeling-ai-judgment-limit]]"
 ---
 ## Purpose
 

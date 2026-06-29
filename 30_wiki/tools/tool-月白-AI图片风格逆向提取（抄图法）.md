@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- - - tool-月白-产品反光修复术
-- - - tool-月白-竞品图精益替换法
-- - - tool-月白-AI图片去文字处理
-- - - tool-月白-线下门店设计复杂度评估
-- - - tool-月白-AIGC橱窗陈列设计流程
+- "[[tool-月白-产品反光修复术]]"
+- "[[tool-月白-竞品图精益替换法]]"
+- "[[tool-月白-AI图片去文字处理]]"
+- "[[tool-月白-线下门店设计复杂度评估]]"
+- "[[tool-月白-AIGC橱窗陈列设计流程]]"
 ---
 # 技能：AI图片风格逆向提取（抄图法）
 

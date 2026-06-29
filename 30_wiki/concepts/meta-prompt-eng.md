@@ -16,11 +16,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- - - design-ai-image-generation
-- - - business-analysis
-- - - learning-thinking
-- - - writing-content
-- - - product-ux
+- "[[design-ai-image-generation]]"
+- "[[business-analysis]]"
+- "[[learning-thinking]]"
+- "[[writing-content]]"
+- "[[product-ux]]"
 ---
 # Meta Prompt Eng
 

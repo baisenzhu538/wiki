@@ -19,11 +19,11 @@ review_date: '2026-06-17'
 trust_level: high
 confidence: 0.88
 related:
-  - [[case-essence-education-strategy]]
-  - [[case-essence-entrepreneurship]]
-  - [[case-essence-humanity-trap]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[case-essence-education-strategy]]"
+  - "[[case-essence-entrepreneurship]]"
+  - "[[case-essence-humanity-trap]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

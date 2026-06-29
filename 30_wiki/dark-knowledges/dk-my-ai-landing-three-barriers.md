@@ -16,11 +16,11 @@ confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
 related:
-- [[tool-纪浩-处理AI生成代码运行异常]]
-- [[tool-ai-skill-engineering-guide]]
-- [[dk-jh-llm-time-blindness]]
-- [[dk-ai-judgment-human-responsibility]]
-- [[dk-ai-judgment-programmer-paradox]]
+- "[[tool-纪浩-处理AI生成代码运行异常]]"
+- "[[tool-ai-skill-engineering-guide]]"
+- "[[dk-jh-llm-time-blindness]]"
+- "[[dk-ai-judgment-human-responsibility]]"
+- "[[dk-ai-judgment-programmer-paradox]]"
 ---
 # AI落地三大壁垒：从"会用"到"用好"的黑洞
 

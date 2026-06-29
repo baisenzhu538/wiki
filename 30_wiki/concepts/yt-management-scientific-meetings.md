@@ -26,9 +26,9 @@ diagnostic_signals:
 - framework_lens: 权力压制下的伪共识
   follow_up_question: 这个会议上最后一个真实的反对意见是什么时候出现的？如果超过15分钟没有人挑战，会议可能只是在确认预设结论
 related:
-  - [[yt-management-basic-skills]]
-  - [[yt-management-business-formula]]
-  - [[yt-management-company-culture]]
+  - "[[yt-management-basic-skills]]"
+  - "[[yt-management-business-formula]]"
+  - "[[yt-management-company-culture]]"
 
 ---
 

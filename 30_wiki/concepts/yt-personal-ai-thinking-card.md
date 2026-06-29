@@ -19,10 +19,10 @@ query_triggers:
 - src_unknown
 related:
   - aima-ai思维卡-外部链接归档
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 review_date: 2026-05-15
 reviewed_by: 黄药师
 source_refs:

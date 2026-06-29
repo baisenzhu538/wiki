@@ -18,15 +18,15 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-  - [[yt-research-osl-framework]]
-  - [[yt-research-intelligence-map]]
-  - [[yt-research-competitor-toolkit]]
-  - [[yt-research-expert-interview]]
-  - [[yt-research-user-jtbd]]
-  - [[yt-research-industry-canvas]]
-  - [[yt-research-hypothesis-test]]
-  - [[master-cognitive-bias-checklist]]
-  - [[master-decision-hygiene]]
+  - "[[yt-research-osl-framework]]"
+  - "[[yt-research-intelligence-map]]"
+  - "[[yt-research-competitor-toolkit]]"
+  - "[[yt-research-expert-interview]]"
+  - "[[yt-research-user-jtbd]]"
+  - "[[yt-research-industry-canvas]]"
+  - "[[yt-research-hypothesis-test]]"
+  - "[[master-cognitive-bias-checklist]]"
+  - "[[master-decision-hygiene]]"
 
 
 ---

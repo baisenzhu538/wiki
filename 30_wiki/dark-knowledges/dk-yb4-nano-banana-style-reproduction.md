@@ -14,14 +14,14 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- [[tool-月白-AI模型选择策略]]
-- [[tool-月白-PPT全AI生成工作流]]
-- [[dk-yb1-aigc-mvp-before-ps]]
-- [[dk-yb12-ai-image-analysis-replace-training]]
-- [[dk-yb6-midjourney-chinese-text-fix]]
-- [[dk-yb11-visual-book-reverse]]
-- [[dk-yb18-small-shop-image-mismatch]]
-- [[dk-yb31-style-first-controlnet]]
+- "[[tool-月白-AI模型选择策略]]"
+- "[[tool-月白-PPT全AI生成工作流]]"
+- "[[dk-yb1-aigc-mvp-before-ps]]"
+- "[[dk-yb12-ai-image-analysis-replace-training]]"
+- "[[dk-yb6-midjourney-chinese-text-fix]]"
+- "[[dk-yb11-visual-book-reverse]]"
+- "[[dk-yb18-small-shop-image-mismatch]]"
+- "[[dk-yb31-style-first-controlnet]]"
 pipeline:
 - src_unknown
 author: 月白

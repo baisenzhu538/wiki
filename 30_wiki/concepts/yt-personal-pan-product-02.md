@@ -17,11 +17,11 @@ query_triggers:
 - src_unknown落地篇
 - src_unknown落地篇：无限进步与持续打磨
 related:
-- - - yt-model-pan-product-execution-toolkit
-- - - yt-personal-pan-product-concepts
-- - - 一堂
-- - - pending_unknown
-- - - pending_unknown
+- "[[yt-model-pan-product-execution-toolkit]]"
+- "[[yt-personal-pan-product-concepts]]"
+- "[[一堂]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260522_e4b635ac-ocr-泛产品设计落地篇.md

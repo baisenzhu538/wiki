@@ -18,10 +18,10 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- [[yt-product-kernel-definition]]
-- [[yt-product-kernel-validation]]
-- [[yt-demand-fake-demand-detection]]
-- [[yt-five-step-method]]
+- "[[yt-product-kernel-definition]]"
+- "[[yt-product-kernel-validation]]"
+- "[[yt-demand-fake-demand-detection]]"
+- "[[yt-five-step-method]]"
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 做而不信——访谈了，但不相信负面结果

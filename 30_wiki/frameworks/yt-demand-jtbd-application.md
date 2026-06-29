@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-  - [[yt-research-user-jtbd]]
-  - [[tool-prompt-jtbd-scenario-coach]]
-  - [[case-demand-milkshake-jtbd]]
-  - [[case-yitang-jtbd-story-formula]]
-  - [[pending_unknown]]
+  - "[[yt-research-user-jtbd]]"
+  - "[[tool-prompt-jtbd-scenario-coach]]"
+  - "[[case-demand-milkshake-jtbd]]"
+  - "[[case-yitang-jtbd-story-formula]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: JTBD——用户要的不是马，是更快到达目的地的方案
   follow_up_question: 用户'雇佣'这个产品是为了完成什么任务？这个任务的真正目标是什么？

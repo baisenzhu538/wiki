@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - [[ocr-一堂-单元模型-规模经济对抗武器库]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[ocr-一堂-单元模型-规模经济对抗武器库]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 规模经济——成本高说明规模不够或效率低，需要优化规模经济
   follow_up_question: 你的单位成本是多少？规模扩大后单位成本是否下降？固定成本占比多少？

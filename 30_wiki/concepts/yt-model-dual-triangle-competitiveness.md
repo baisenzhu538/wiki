@@ -15,11 +15,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - 一堂
-- - - 一堂方法论体系总图
-- - - yt-model-muse-ai-framework
-- - - yt-personal-ai-capability
-- - - yt-personal-ipo-learning
+- "[[一堂]]"
+- "[[一堂方法论体系总图]]"
+- "[[yt-model-muse-ai-framework]]"
+- "[[yt-personal-ai-capability]]"
+- "[[yt-personal-ipo-learning]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md

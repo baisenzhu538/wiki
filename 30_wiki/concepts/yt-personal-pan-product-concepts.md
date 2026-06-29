@@ -17,12 +17,12 @@ query_triggers:
 - src_unknown认知篇：重新理解泛化产品能力
 - src_unknown
 related:
-- - - yt-model-pan-product-36-strategies
-- - - yt-personal-product-design
-- - - 一堂
-- - - yt-model-pan-product-demand-toolkit
-- - - yt-model-pan-product-aesthetic-toolkit
-- - - yt-model-pan-product-execution-toolkit
+- "[[yt-model-pan-product-36-strategies]]"
+- "[[yt-personal-product-design]]"
+- "[[一堂]]"
+- "[[yt-model-pan-product-demand-toolkit]]"
+- "[[yt-model-pan-product-aesthetic-toolkit]]"
+- "[[yt-model-pan-product-execution-toolkit]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md

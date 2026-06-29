@@ -2,11 +2,11 @@
 
 
 related:
-  - [[tool-纪浩-AI工作空间与导诊台设计法]]
-  - [[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
-  - [[ai-collaboration-mindset-shift]]
-  - [[case-ji-hao-skill-market-problem-validation]]
-  - [[pending_unknown]]
+  - "[[tool-纪浩-AI工作空间与导诊台设计法]]"
+  - "[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]"
+  - "[[ai-collaboration-mindset-shift]]"
+  - "[[case-ji-hao-skill-market-problem-validation]]"
+  - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown
 ---

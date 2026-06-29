@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[dk-p3-auth-cache]]
-  - [[yt-business-model-cac-ltv]]
-  - [[dk-p2-tmux-cache]]
-  - [[tool-devils-advocacy]]
-  - [[pending_unknown]]
+  - "[[dk-p3-auth-cache]]"
+  - "[[yt-business-model-cac-ltv]]"
+  - "[[dk-p2-tmux-cache]]"
+  - "[[tool-devils-advocacy]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 单元经济学——增长快≠健康，需要看LTV和CAC
   follow_up_question: 你的获客成本（CAC）是多少？用户生命周期价值（LTV）是多少？LTV > CAC吗？

@@ -17,9 +17,9 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - [[case-ban-fei-mao-skill-ab-test]]
-  - [[case-jh-yitang-vs-sqlhelper]]
-  - [[case-strategy-walmart-vs-costco-pyramid]]
+  - "[[case-ban-fei-mao-skill-ab-test]]"
+  - "[[case-jh-yitang-vs-sqlhelper]]"
+  - "[[case-strategy-walmart-vs-costco-pyramid]]"
 tags:
 - src_unknown
 - src_unknown

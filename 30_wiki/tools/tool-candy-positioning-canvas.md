@@ -17,12 +17,12 @@ domain:
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - [[yitang-domain-digest]]
-  - [[framework-candy-transcript-workflow]]
-  - [[tool-马易-知识库-回答技巧双建设]]
-  - [[concept-candy-ai-as-collaborator]]
-  - [[case-candy-problem-os-vpn]]
-  - [[tool-candy-oral-polish]]
+  - "[[yitang-domain-digest]]"
+  - "[[framework-candy-transcript-workflow]]"
+  - "[[tool-马易-知识库-回答技巧双建设]]"
+  - "[[concept-candy-ai-as-collaborator]]"
+  - "[[case-candy-problem-os-vpn]]"
+  - "[[tool-candy-oral-polish]]"
 ---
 
 # 差异化定位画布

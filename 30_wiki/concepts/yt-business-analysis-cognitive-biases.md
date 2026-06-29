@@ -44,14 +44,14 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 related:
-  - [[yt-five-step-method]]
-  - [[yt-five-step-common-pitfalls]]
-  - [[yt-demand-analysis-hiking-map]]
-  - [[master-cognitive-bias-checklist]]
-  - [[case-five-step-fake-vs-real-barriers]]
-  - [[yt-five-step-implementation]]
-  - [[yt-unit-model-concept]]
-  - [[yt-growth-cycle-model]]
+  - "[[yt-five-step-method]]"
+  - "[[yt-five-step-common-pitfalls]]"
+  - "[[yt-demand-analysis-hiking-map]]"
+  - "[[master-cognitive-bias-checklist]]"
+  - "[[case-five-step-fake-vs-real-barriers]]"
+  - "[[yt-five-step-implementation]]"
+  - "[[yt-unit-model-concept]]"
+  - "[[yt-growth-cycle-model]]"
 ---
 
 # 暗知识：五步法中的主要认知偏差

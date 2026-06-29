@@ -16,11 +16,11 @@ source_refs:
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 related:
-  - [[dk-note-maximum-common-divisor]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[dk-note-maximum-common-divisor]]"
+  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

@@ -15,14 +15,14 @@ source_context: KDO internal record （原始 source 无法追溯，已标记为
 source_refs:
 - src_unknown
 related:
-  - [[gold-standard-manual-labels]]
-  - [[dk-f14-accuracy-measurement-mismatch]]
-  - [[proposal-prompt-injection-infrastructure]]
-  - [[dk-p17-accuracy-gap]]
-  - [[labeling-research-alignment]]
-  - [[gold-standard-manual-labels]]
-  - [[labeling-final-consolidation]]
-  - [[kdo-15-dimension-label-spec]]
+  - "[[gold-standard-manual-labels]]"
+  - "[[dk-f14-accuracy-measurement-mismatch]]"
+  - "[[proposal-prompt-injection-infrastructure]]"
+  - "[[dk-p17-accuracy-gap]]"
+  - "[[labeling-research-alignment]]"
+  - "[[gold-standard-manual-labels]]"
+  - "[[labeling-final-consolidation]]"
+  - "[[kdo-15-dimension-label-spec]]"
 id: label-accuracy-standard-alignment
 reviewed_by: pending
 confidence: 0.6

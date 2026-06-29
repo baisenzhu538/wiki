@@ -24,9 +24,9 @@ source_refs:
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
 related:
-  - [[strategy-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[strategy-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 ---
 
 **切入**：农夫山泉/怡宝/康师傅三分天下→凉白开从"高考生"这个被所有人忽略的场景切入

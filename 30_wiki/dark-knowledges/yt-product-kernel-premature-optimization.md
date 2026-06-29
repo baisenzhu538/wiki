@@ -18,12 +18,12 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-- [[yt-product-kernel-definition]]
-- [[yt-product-kernel-validation]]
-- [[yt-product-kernel-iteration]]
-- [[yt-demand-early-validation]]
-- [[yt-five-step-method]]
-- [[yt-entrepreneur-key-hypotheses]]
+- "[[yt-product-kernel-definition]]"
+- "[[yt-product-kernel-validation]]"
+- "[[yt-product-kernel-iteration]]"
+- "[[yt-demand-early-validation]]"
+- "[[yt-five-step-method]]"
+- "[[yt-entrepreneur-key-hypotheses]]"
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 过早细化——在验证前投入大量资源完善产品

@@ -18,11 +18,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[ai-collaboration-domain-digest]]
-  - [[tool-纪浩-Agent技能市场设计法]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[tool-纪浩-Agent技能市场设计法]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

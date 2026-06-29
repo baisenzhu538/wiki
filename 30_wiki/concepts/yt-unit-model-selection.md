@@ -18,13 +18,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - [[yt-unit-model-ladder]]
-  - [[yt-unit-model-construction]]
-  - [[yt-unit-model-benchmark]]
-  - [[yt-entrepreneur-five-step-method]]
-  - [[yt-unit-model-build]]
-  - [[yt-decision-y-model]]
-  - [[yt-unit-model-three-tools]]
+  - "[[yt-unit-model-ladder]]"
+  - "[[yt-unit-model-construction]]"
+  - "[[yt-unit-model-benchmark]]"
+  - "[[yt-entrepreneur-five-step-method]]"
+  - "[[yt-unit-model-build]]"
+  - "[[yt-decision-y-model]]"
+  - "[[yt-unit-model-three-tools]]"
 source_refs:
   - pending_archive:source material not yet ingested
 status: enriched

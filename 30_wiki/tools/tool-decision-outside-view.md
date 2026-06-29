@@ -30,11 +30,11 @@ author: unknown
 confidence: 0.7
 trust_level: low
 related:
-  - [[tool-decision-delay-intuition]]
-  - [[pilot-atomic-chunk-comparison]]
-  - [[master-decision-hygiene]]
-  - [[tool-first-principles-assumption-classify]]
-  - [[tool-cognitive-bias-12-check]]
+  - "[[tool-decision-delay-intuition]]"
+  - "[[pilot-atomic-chunk-comparison]]"
+  - "[[master-decision-hygiene]]"
+  - "[[tool-first-principles-assumption-classify]]"
+  - "[[tool-cognitive-bias-12-check]]"
 ---
 # 技能：团队决策外部视角法
 

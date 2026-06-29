@@ -24,11 +24,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- - - tool-月白-多窗口并行工作法
-- - - tool-月白-控制产品画面尺寸比例
-- - - tool-月白-餐饮海报AB测试法
-- - - tool-月白-AI去字-稿定设计加字工作流
-- - - tool-月白-AIGC橱窗陈列设计流程
+- "[[tool-月白-多窗口并行工作法]]"
+- "[[tool-月白-控制产品画面尺寸比例]]"
+- "[[tool-月白-餐饮海报AB测试法]]"
+- "[[tool-月白-AI去字-稿定设计加字工作流]]"
+- "[[tool-月白-AIGC橱窗陈列设计流程]]"
 ---
 # 技能：卖点可视化海报设计法
 

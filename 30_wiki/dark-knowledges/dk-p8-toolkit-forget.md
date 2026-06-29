@@ -14,14 +14,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- [[dk-p2-tmux-cache]]
-- [[agent-external-brain-design]]
-- [[dk-f12-builder-context-deadlock]]
-- [[dk-state-residue-is-the-silent-killer]]
-- [[dk-c6-large-source-overflow]]
-- [[master-knowledge-compound]]
-- [[kdo-flywheel]]
-- [[master-first-principles]]
+- "[[dk-p2-tmux-cache]]"
+- "[[agent-external-brain-design]]"
+- "[[dk-f12-builder-context-deadlock]]"
+- "[[dk-state-residue-is-the-silent-killer]]"
+- "[[dk-c6-large-source-overflow]]"
+- "[[master-knowledge-compound]]"
+- "[[kdo-flywheel]]"
+- "[[master-first-principles]]"
 pipeline:
 - src_unknown
 - src_unknown

@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - [[tool-马易-成为首位F工程师]]
-  - [[tool-马易-深度沉浸需求挖掘]]
-  - [[tool-马易-数字员工FD拆解落地]]
-  - [[tool-马易-AIGC项目ROI评估]]
-  - [[tool-马易-最小场景优先落地法]]
+  - "[[tool-马易-成为首位F工程师]]"
+  - "[[tool-马易-深度沉浸需求挖掘]]"
+  - "[[tool-马易-数字员工FD拆解落地]]"
+  - "[[tool-马易-AIGC项目ROI评估]]"
+  - "[[tool-马易-最小场景优先落地法]]"
 ---
 # 技能：中国企业AI落地五步法
 

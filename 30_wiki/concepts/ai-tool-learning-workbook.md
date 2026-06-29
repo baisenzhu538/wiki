@@ -18,10 +18,10 @@ source_refs:
 - 40_outputs/capabilities/skills/consultant-mode-yai-style/WORKBOOK.md
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
-- [[ai-tool-learning-curve]]
-- [[yai-counsel-role]]
-- [[fixed-routine-design]]
-- [[practice-card-decomposition]]
+- "[[ai-tool-learning-curve]]"
+- "[[yai-counsel-role]]"
+- "[[fixed-routine-design]]"
+- "[[practice-card-decomposition]]"
 ---
 
 # AI 工具学习工作手册

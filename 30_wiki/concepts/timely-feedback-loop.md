@@ -18,11 +18,11 @@ source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 - 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
 related:
-- [[deliberate-practice-four-elements]]
-- [[four-questions-feedback]]
-- [[ai-virtual-coach-prompt]]
-- [[fixed-routine-design]]
-- [[comfort-zone-expansion]]
+- "[[deliberate-practice-four-elements]]"
+- "[[four-questions-feedback]]"
+- "[[ai-virtual-coach-prompt]]"
+- "[[fixed-routine-design]]"
+- "[[comfort-zone-expansion]]"
 ---
 
 # 及时反馈闭环

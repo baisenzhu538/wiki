@@ -15,12 +15,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-demand-analysis-hiking-map
-- - - yt-product-kernel-cultivation
-- - - yt-unit-model-three-tools
-- - - yt-growth-cycle-model
-- - - yt-barrier-analysis-cheat-sheet
-- - - yt-foresight-business-spectrum
+- "[[yt-demand-analysis-hiking-map]]"
+- "[[yt-product-kernel-cultivation]]"
+- "[[yt-unit-model-three-tools]]"
+- "[[yt-growth-cycle-model]]"
+- "[[yt-barrier-analysis-cheat-sheet]]"
+- "[[yt-foresight-business-spectrum]]"
 review_date: 2026-06-10
 reviewed_by: 洪七公
 source_refs:

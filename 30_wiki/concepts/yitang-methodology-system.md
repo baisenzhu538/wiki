@@ -37,12 +37,12 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-  - [[yitang-domain-digest]]
-  - [[一堂方法论体系总图]]
-  - [[ocr-一堂进步大地图]]
-  - [[ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步]]
-  - [[tool-月白-用一堂方法论找最佳实践并拉满执行]]
-  - [[ocr-一堂进步大地图_compressed]]
+  - "[[yitang-domain-digest]]"
+  - "[[一堂方法论体系总图]]"
+  - "[[ocr-一堂进步大地图]]"
+  - "[[ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步]]"
+  - "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
+  - "[[ocr-一堂进步大地图_compressed]]"
 ---
 
 

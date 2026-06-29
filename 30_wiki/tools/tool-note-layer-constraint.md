@@ -12,13 +12,13 @@ version: 2
 difficulty: beginner
 confidence: 0.88
 related:
-  - [[yt-tool-meeting-designer]]
-  - [[case-truman-prd-checklist-evolution]]
-  - [[yt-management-scientific-meetings]]
-  - [[yt-note-checklist-concept]]
-  - [[tool-note-keyword-bolding]]
-  - [[tool-note-one-line-one-point]]
-  - [[dk-note-surplus-brainpower]]
+  - "[[yt-tool-meeting-designer]]"
+  - "[[case-truman-prd-checklist-evolution]]"
+  - "[[yt-management-scientific-meetings]]"
+  - "[[yt-note-checklist-concept]]"
+  - "[[tool-note-keyword-bolding]]"
+  - "[[tool-note-one-line-one-point]]"
+  - "[[dk-note-surplus-brainpower]]"
 wiki_refs:
 - src_unknown
 - src_unknown

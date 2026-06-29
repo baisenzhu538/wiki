@@ -17,11 +17,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[ocr-一堂产品内核-十大典型指标]]
-  - [[ocr-一堂泛产品设计-多出牌多练习]]
-  - [[yt-personal-product-design]]
-  - [[ocr-泛产品设计者的自我修养]]
-  - [[ocr-泛产品设计落地工具篇指南]]
+  - "[[ocr-一堂产品内核-十大典型指标]]"
+  - "[[ocr-一堂泛产品设计-多出牌多练习]]"
+  - "[[yt-personal-product-design]]"
+  - "[[ocr-泛产品设计者的自我修养]]"
+  - "[[ocr-泛产品设计落地工具篇指南]]"
 ---
 # OCR: 泛产品设计落地篇
 

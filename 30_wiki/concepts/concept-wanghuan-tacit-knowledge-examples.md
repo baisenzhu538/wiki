@@ -27,11 +27,11 @@ diagnostic_signals:
 - lens: knowledge-trap
   follow_up: 用暗规则实例库作为新人 onboarding 和 AI 上下文的共同原料
 related:
-  - [[tool-李诞-销售闭环验证：从0到1的重新定义]]
-  - [[ocr-一堂-单元模型-单销售模型]]
-  - [[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]
-  - [[tool-马易-销售智能体体系搭建路径]]
-  - [[pending_unknown]]
+  - "[[tool-李诞-销售闭环验证：从0到1的重新定义]]"
+  - "[[ocr-一堂-单元模型-单销售模型]]"
+  - "[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]"
+  - "[[tool-马易-销售智能体体系搭建路径]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

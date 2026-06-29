@@ -15,12 +15,12 @@ query_triggers:
 - src_unknown（三栏结构）
 - src_unknown
 related:
-- - - yt-entrepreneur-five-step-method
-- - - yt-entrepreneur-product-core
-- - - 一堂
-- - - yt-entrepreneur-key-hypotheses
-- - - yt-entrepreneur-lean-validation
-- - - yt-model-product-core-metrics
+- "[[yt-entrepreneur-five-step-method]]"
+- "[[yt-entrepreneur-product-core]]"
+- "[[一堂]]"
+- "[[yt-entrepreneur-key-hypotheses]]"
+- "[[yt-entrepreneur-lean-validation]]"
+- "[[yt-model-product-core-metrics]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md

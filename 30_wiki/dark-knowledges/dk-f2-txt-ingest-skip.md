@@ -14,14 +14,14 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-28'
 related:
-  - [[dk-c1-cjk-regex-silent-fail]]
-  - [[kdo-input-channel-strategy-2026-06-16]]
-  - [[kdo-protocol]]
-  - [[modeling-to-kdo-toolchain]]
-  - [[kdo-batch-produce-req014]]
-  - [[kdo-15-dimension-label-spec]]
-  - [[obsidian-kdo-内容产出工作流-产品设计大纲]]
-  - [[tool-月白-课程资料文件命名规范]]
+  - "[[dk-c1-cjk-regex-silent-fail]]"
+  - "[[kdo-input-channel-strategy-2026-06-16]]"
+  - "[[kdo-protocol]]"
+  - "[[modeling-to-kdo-toolchain]]"
+  - "[[kdo-batch-produce-req014]]"
+  - "[[kdo-15-dimension-label-spec]]"
+  - "[[obsidian-kdo-内容产出工作流-产品设计大纲]]"
+  - "[[tool-月白-课程资料文件命名规范]]"
 pipeline:
 - src_unknown
 - src_unknown

@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - [[tool-ai-purpose-bias-check]]
-  - [[sk-ai-system-redundancy]]
-  - [[tool-ai-narrative-test]]
-  - [[tool-ai-prd-for-ai]]
-  - [[sk-ai-purpose-bias-check]]
+  - "[[tool-ai-purpose-bias-check]]"
+  - "[[sk-ai-system-redundancy]]"
+  - "[[tool-ai-narrative-test]]"
+  - "[[tool-ai-prd-for-ai]]"
+  - "[[sk-ai-purpose-bias-check]]"
 ---
 # 技能：系统冗余度快速检查清单
 

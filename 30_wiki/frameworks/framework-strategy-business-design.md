@@ -16,11 +16,11 @@ updated_at: '2026-06-21'
 author: 老顽童（初版）→ 黄药师（PPT _97+_99 补强 v2）
 reviewed_by: 欧阳锋
 related:
-  - [[strategy-domain-digest]]
-  - [[framework-strategy-blm]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[strategy-domain-digest]]"
+  - "[[framework-strategy-blm]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 ---
 
 # 业务设计六要素×三步骤

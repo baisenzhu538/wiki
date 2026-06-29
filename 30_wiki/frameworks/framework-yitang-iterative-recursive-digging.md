@@ -28,20 +28,20 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- [[tool-yitang-research-deep-attribution]]
-- [[tool-yitang-18-strategy-tool-mapping]]
-- [[yitang-research-domain-digest]]
-- [[system-yitang-research-workflow]]
-- [[tool-yitang-research-follow-map]]
-- [[framework-yitang-oscar-research]]
-- [[framework-yitang-18-strategy-cards]]
-- [[framework-yitang-nine-layer-deep-dig]]
-- [[tool-yitang-research-deep-attribution]]
-- [[tool-yitang-research-cross-validation]]
-- [[dk-yitang-research-starter-vs-veteran]]
-- [[dk-yitang-survivor-bias-in-research]]
-- [[concept-yitang-research-mindset]]
-- [[case-yitang-sanjieke-benchmark-failure]]
+- "[[tool-yitang-research-deep-attribution]]"
+- "[[tool-yitang-18-strategy-tool-mapping]]"
+- "[[yitang-research-domain-digest]]"
+- "[[system-yitang-research-workflow]]"
+- "[[tool-yitang-research-follow-map]]"
+- "[[framework-yitang-oscar-research]]"
+- "[[framework-yitang-18-strategy-cards]]"
+- "[[framework-yitang-nine-layer-deep-dig]]"
+- "[[tool-yitang-research-deep-attribution]]"
+- "[[tool-yitang-research-cross-validation]]"
+- "[[dk-yitang-research-starter-vs-veteran]]"
+- "[[dk-yitang-survivor-bias-in-research]]"
+- "[[concept-yitang-research-mindset]]"
+- "[[case-yitang-sanjieke-benchmark-failure]]"
 
 ---
 

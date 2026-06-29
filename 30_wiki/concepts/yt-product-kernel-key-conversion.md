@@ -18,11 +18,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - [[tool-设定管理杠杆率指标评估效率]]
-  - [[ocr-一堂产品内核-十大典型指标]]
-  - [[ocr-一堂五步法-产品内核画布]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-设定管理杠杆率指标评估效率]]"
+  - "[[ocr-一堂产品内核-十大典型指标]]"
+  - "[[ocr-一堂五步法-产品内核画布]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 关键转化率——总用户数是虚荣指标，转化率才是核心
   follow_up_question: 从了解产品到选择产品的转化率是多少？这个数值健康吗？

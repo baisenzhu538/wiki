@@ -21,13 +21,13 @@ source_refs:
 - 10_raw/itingnao/details/3979746.json
 source_person: 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）
 related:
-- - - framework-yitang-channel-partnership-map
-- - - case-yitang-goat-milk-channel-partnership
-- - - tool-strategy-profit-model-comparison
-- - - tool-yitang-channel-scoring-matrix
-- - - yt-management-partnership-equity
-- - - framework-yitang-channel-unit-economics
-- - - tool-yitang-channel-agent-interview
+- "[[framework-yitang-channel-partnership-map]]"
+- "[[case-yitang-goat-milk-channel-partnership]]"
+- "[[tool-strategy-profit-model-comparison]]"
+- "[[tool-yitang-channel-scoring-matrix]]"
+- "[[yt-management-partnership-equity]]"
+- "[[framework-yitang-channel-unit-economics]]"
+- "[[tool-yitang-channel-agent-interview]]"
 ---
 
 # 区域代理/底价合伙人模式设计工具

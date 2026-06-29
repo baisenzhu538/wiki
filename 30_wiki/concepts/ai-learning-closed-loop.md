@@ -12,11 +12,11 @@ source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 component_of: null
 related:
-- - - ai-collaboration-mindset-shift
-- - - course-to-skill-conversion
-- - - ai-landing-scene-selection
-- - - structured-ai-workspace
-- - - pending_unknown
+- "[[ai-collaboration-mindset-shift]]"
+- "[[course-to-skill-conversion]]"
+- "[[ai-landing-scene-selection]]"
+- "[[structured-ai-workspace]]"
+- "[[pending_unknown]]"
 query_triggers:
 - src_unknown
 - src_unknown

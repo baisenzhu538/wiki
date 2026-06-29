@@ -28,11 +28,11 @@ updated_at: 2026-06-13
 author: unknown
 reviewed_by: "欧阳锋"
 related:
-- [[case-smart-medicine-cabinet-failure-patterns-library]]
-- [[source-code-delivery-model]]
-- [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
-- [[smart-medicine-cabinet-regional-policy-map]]
-- [[smart-medicine-cabinet-national-policy-redlines]]
+- "[[case-smart-medicine-cabinet-failure-patterns-library]]"
+- "[[source-code-delivery-model]]"
+- "[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]"
+- "[[smart-medicine-cabinet-regional-policy-map]]"
+- "[[smart-medicine-cabinet-national-policy-redlines]]"
 ---
 # 智能药柜分销业态洞察
 

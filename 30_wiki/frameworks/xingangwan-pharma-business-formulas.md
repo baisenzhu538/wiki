@@ -17,11 +17,11 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 related:
-  - [[xingangwan-pharma-business-model-calc]]
-  - [[ocr-一堂-科学决策-深度-l4严格财务公式]]
-  - [[tool-决策深度-L4严格财务公式]]
-  - [[ocr-一堂-科学决策-商业模式-完整财务公式决策]]
-  - [[tool-完整财务公式决策]]
+  - "[[xingangwan-pharma-business-model-calc]]"
+  - "[[ocr-一堂-科学决策-深度-l4严格财务公式]]"
+  - "[[tool-决策深度-L4严格财务公式]]"
+  - "[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]"
+  - "[[tool-完整财务公式决策]]"
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 diagnostic_signals:

@@ -15,16 +15,16 @@ source_refs:
 confidence: 0.88
 trust_level: medium
 related:
-- [[kdo-ec-industrialization-migration-proposal]]
-- [[knowledge-delivery-os-快速体验指南-飞书云文档]]
-- [[sprint-2-gate-enrich-evidence]]
-- [[plan_20260503_f3e9a2b1-improvement-plan]]
-- [[dk-f10-broken-source-refs]]
-- [[kdo-ec-industrialization-migration-proposal]]
-- [[modeling-capability-for-kdo]]
-- [[dk-f7-surface-translation]]
-- [[dk-c8-format-complete-mind-empty]]
-- [[kdo-priority-checklist]]
+- "[[kdo-ec-industrialization-migration-proposal]]"
+- "[[knowledge-delivery-os-快速体验指南-飞书云文档]]"
+- "[[sprint-2-gate-enrich-evidence]]"
+- "[[plan_20260503_f3e9a2b1-improvement-plan]]"
+- "[[dk-f10-broken-source-refs]]"
+- "[[kdo-ec-industrialization-migration-proposal]]"
+- "[[modeling-capability-for-kdo]]"
+- "[[dk-f7-surface-translation]]"
+- "[[dk-c8-format-complete-mind-empty]]"
+- "[[kdo-priority-checklist]]"
 tags:
 - src_unknown
 - src_unknown

@@ -23,11 +23,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-decision-canvas
-- - - yt-decision-y-model
-- - - yt-decision-depth-ladder
-- - - yt-decision-ai-partner
-- - - yt-management-team-knowledge
+- "[[yt-decision-canvas]]"
+- "[[yt-decision-y-model]]"
+- "[[yt-decision-depth-ladder]]"
+- "[[yt-decision-ai-partner]]"
+- "[[yt-management-team-knowledge]]"
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched

@@ -24,19 +24,19 @@ review_date: '2026-06-14'
 confidence: 0.65
 trust_level: low
 related:
-- [[smart-medicine-cabinet-o2o-cost-structure]]
-- [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
-- [[case-smart-medicine-cabinet-failure-patterns-library]]
-- [[tool-smart-medicine-cabinet-site-selection-guide]]
-- [[tool-clinic-cabinet-legal-contract-guide]]
-- [[master-cognitive-bias-checklist]]
-- [[master-decision-hygiene]]
-- [[smart-medicine-cabinet-distribution]]
-- [[smart-medicine-cabinet-financial-model]]
-- [[smart-medicine-cabinet-fraud-detection]]
-- [[smart-medicine-cabinet-national-policy-redlines]]
-- [[smart-medicine-cabinet-o2o-cost-structure]]
-- [[smart-medicine-cabinet-regional-policy-map]]
+- "[[smart-medicine-cabinet-o2o-cost-structure]]"
+- "[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]"
+- "[[case-smart-medicine-cabinet-failure-patterns-library]]"
+- "[[tool-smart-medicine-cabinet-site-selection-guide]]"
+- "[[tool-clinic-cabinet-legal-contract-guide]]"
+- "[[master-cognitive-bias-checklist]]"
+- "[[master-decision-hygiene]]"
+- "[[smart-medicine-cabinet-distribution]]"
+- "[[smart-medicine-cabinet-financial-model]]"
+- "[[smart-medicine-cabinet-fraud-detection]]"
+- "[[smart-medicine-cabinet-national-policy-redlines]]"
+- "[[smart-medicine-cabinet-o2o-cost-structure]]"
+- "[[smart-medicine-cabinet-regional-policy-map]]"
 query_triggers:
 difficulty: advanced
 prerequisites: smart-medicine-cabinet-national-policy-redlines

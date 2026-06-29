@@ -18,11 +18,11 @@ created_at: '2026-06-22'
 updated_at: '2026-06-29'
 reviewed_by: pending
 related:
-- - - strategy-domain-digest
-- - - tool-按月份摊销收入成本做计划
-- - - pending_unknown
-- - - pending_unknown
-- - - pending_unknown
+- "[[strategy-domain-digest]]"
+- "[[tool-按月份摊销收入成本做计划]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 ---
 
 # 物流费用三年节约计划：从单吨运费到全链成本

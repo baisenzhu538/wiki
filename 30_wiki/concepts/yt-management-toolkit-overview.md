@@ -31,14 +31,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yt-model-personal-map
-- - - yt-tool-project-health-radar
-- - - yt-tool-knowledge-extraction
-- - - yt-tool-meeting-designer
-- - - yt-tool-hiring-scorecard
-- - - yt-tool-onboarding-90day
-- - - yt-tool-okr-cycle
-- - - yt-tool-strategy-workshop
+- "[[yt-model-personal-map]]"
+- "[[yt-tool-project-health-radar]]"
+- "[[yt-tool-knowledge-extraction]]"
+- "[[yt-tool-meeting-designer]]"
+- "[[yt-tool-hiring-scorecard]]"
+- "[[yt-tool-onboarding-90day]]"
+- "[[yt-tool-okr-cycle]]"
+- "[[yt-tool-strategy-workshop]]"
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched

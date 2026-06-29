@@ -15,11 +15,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - [[master-decision-hygiene]]
-  - [[master-cognitive-bias-checklist]]
-  - [[yt-decision-y-model]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[master-decision-hygiene]]"
+  - "[[master-cognitive-bias-checklist]]"
+  - "[[yt-decision-y-model]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 definition_of_done:
 - src_unknown
 - src_unknown

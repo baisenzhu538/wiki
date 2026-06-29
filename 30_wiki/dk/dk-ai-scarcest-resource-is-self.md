@@ -19,18 +19,18 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - [[dk-ai-prediction-expiry-date]]
-  - [[concept-ai-chair-determines-view]]
-  - [[framework-ai2041-critical-reading-os]]
-  - [[tool-ai-cross-reading-method]]
-  - [[dk-ai-social-progress-not-automatic]]
-  - [[ai-collaboration-domain-digest]]
-  - [[framework-ai2041-critical-reading-os]]
-  - [[framework-ai-deconstruction-methodology]]
-  - [[concept-ai-chair-determines-view]]
-  - [[concept-ai-neutrality-bias]]
-  - [[tool-ai-critical-reading-three-layers]]
-  - [[tool-ai2041-source-verification-checklist]]
+  - "[[dk-ai-prediction-expiry-date]]"
+  - "[[concept-ai-chair-determines-view]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[tool-ai-cross-reading-method]]"
+  - "[[dk-ai-social-progress-not-automatic]]"
+  - "[[ai-collaboration-domain-digest]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[concept-ai-chair-determines-view]]"
+  - "[[concept-ai-neutrality-bias]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
+  - "[[tool-ai2041-source-verification-checklist]]"
 ---
 # 最稀缺的是自我
 

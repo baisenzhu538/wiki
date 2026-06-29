@@ -15,8 +15,8 @@ source_refs:
 created_at: '2026-06-08'
 updated_at: '2026-06-29'
 related:
-  - [[yt-product-kernel-cultivation]]
-  - [[concept-一堂-kernel-validation]]
+  - "[[yt-product-kernel-cultivation]]"
+  - "[[concept-一堂-kernel-validation]]"
 wiki_refs:
 - src_unknown
 - src_unknown

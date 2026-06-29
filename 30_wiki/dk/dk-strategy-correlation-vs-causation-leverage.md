@@ -13,15 +13,15 @@ domain: strategy
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:
-  - [[case-gym-membership-formula]]
-  - [[case-saas-renewal-formula]]
-  - [[framework-lean-false-model]]
-  - [[yt-business-formula-abc-model]]
-  - [[yt-business-formula-parameter-iceberg]]
-  - [[framework-strategy-brm]]
-  - [[case-dental-clinic-formula]]
-  - [[case-private-domain-ecommerce-formula]]
-  - [[strategy-domain-digest]]
+  - "[[case-gym-membership-formula]]"
+  - "[[case-saas-renewal-formula]]"
+  - "[[framework-lean-false-model]]"
+  - "[[yt-business-formula-abc-model]]"
+  - "[[yt-business-formula-parameter-iceberg]]"
+  - "[[framework-strategy-brm]]"
+  - "[[case-dental-clinic-formula]]"
+  - "[[case-private-domain-ecommerce-formula]]"
+  - "[[strategy-domain-digest]]"
 ---
 
 # 相关指标 vs 因果抓手

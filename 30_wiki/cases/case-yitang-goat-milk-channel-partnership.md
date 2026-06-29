@@ -20,12 +20,12 @@ source_refs:
   - 10_raw/itingnao/details/3979746.json
 source_person: 冉鹏（战略培训讲师）/ 王语嫣（九层深挖诊断）
 related:
-  - [[framework-yitang-channel-partnership-map]]
-  - [[tool-yitang-channel-agent-interview]]
-  - [[tool-yitang-channel-scoring-matrix]]
-  - [[tool-strategy-profit-model-comparison]]
-  - [[framework-yitang-channel-unit-economics]]
-  - [[tool-yitang-channel-partnership-design]]
+  - "[[framework-yitang-channel-partnership-map]]"
+  - "[[tool-yitang-channel-agent-interview]]"
+  - "[[tool-yitang-channel-scoring-matrix]]"
+  - "[[tool-strategy-profit-model-comparison]]"
+  - "[[framework-yitang-channel-unit-economics]]"
+  - "[[tool-yitang-channel-partnership-design]]"
 ---
 
 # 羊奶粉「卖地图」区域代理模式案例

@@ -20,11 +20,11 @@ confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
 related:
-  - [[ocr-一堂-科学决策-稀缺机会窗口]]
-  - [[tool-decision-delay-intuition]]
-  - [[tool-decision-outside-view]]
-  - [[master-decision-hygiene]]
-  - [[gold-standard-manual-labels]]
+  - "[[ocr-一堂-科学决策-稀缺机会窗口]]"
+  - "[[tool-decision-delay-intuition]]"
+  - "[[tool-decision-outside-view]]"
+  - "[[master-decision-hygiene]]"
+  - "[[gold-standard-manual-labels]]"
 ---
 # Pilot：master-decision-hygiene 真原子切分对比
 

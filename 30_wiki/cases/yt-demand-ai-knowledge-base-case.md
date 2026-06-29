@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-  - [[yt-demand-treadmill-case]]
-  - [[yt-demand-b2b-vs-b2c]]
-  - [[yt-demand-hierarchy-model]]
+  - "[[yt-demand-treadmill-case]]"
+  - "[[yt-demand-b2b-vs-b2c]]"
+  - "[[yt-demand-hierarchy-model]]"
 diagnostic_signals:
 - framework_lens: AI知识库案例——技术驱动≠需求驱动
   follow_up_question: 用户现在怎么管理知识？AI知识库比现有方案好在哪里？

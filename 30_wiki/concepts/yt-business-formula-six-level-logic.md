@@ -18,11 +18,11 @@ review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
-- [[yt-management-business-formula]]
-- [[yt-business-formula-abc-model]]
-- [[yt-business-formula-parameter-iceberg]]
-- [[yt-decision-depth-ladder]]
-- [[yt-model-deep-review-iceberg]]
+- "[[yt-management-business-formula]]"
+- "[[yt-business-formula-abc-model]]"
+- "[[yt-business-formula-parameter-iceberg]]"
+- "[[yt-decision-depth-ladder]]"
+- "[[yt-model-deep-review-iceberg]]"
 
 ---
 

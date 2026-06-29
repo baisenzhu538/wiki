@@ -19,14 +19,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yitang-course-map
-- - - yt-system-course-catalog
-- - - case-milktea-five-step
-- - - yt-entrepreneur-scientific-method
-- - - yt-entrepreneur-key-hypotheses
-- - - yt-model-entrepreneur-map
-- - - yt-demand-analysis-hiking-map
-- - - yt-entrepreneur-needs-analysis
+- "[[yitang-course-map]]"
+- "[[yt-system-course-catalog]]"
+- "[[case-milktea-five-step]]"
+- "[[yt-entrepreneur-scientific-method]]"
+- "[[yt-entrepreneur-key-hypotheses]]"
+- "[[yt-model-entrepreneur-map]]"
+- "[[yt-demand-analysis-hiking-map]]"
+- "[[yt-entrepreneur-needs-analysis]]"
 reviewed_by: 王语嫣
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md

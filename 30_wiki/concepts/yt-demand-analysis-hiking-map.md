@@ -2,11 +2,11 @@
 
 
 related:
-  - [[yt-five-step-method]]
-  - [[yt-market-size-estimation]]
-  - [[case-treadmill-demand-analysis]]
-  - [[yt-foresight-business-spectrum]]
-  - [[pending_unknown]]
+  - "[[yt-five-step-method]]"
+  - "[[yt-market-size-estimation]]"
+  - "[[case-treadmill-demand-analysis]]"
+  - "[[yt-foresight-business-spectrum]]"
+  - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown
 ---

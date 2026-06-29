@@ -15,13 +15,13 @@ target_roles:
 - src_unknown
 supersedes: null
 related:
-  - [[plan_20260531_data-curator-v1.3]]
-  - [[knowledge-delivery-os-快速体验指南-飞书云文档]]
-  - [[three-party-data-alignment]]
-  - [[kdo_product_design_agent_final]]
-  - [[kdo-protocol]]
-  - [[three-party-data-alignment]]
-  - [[plan_20260531_data-curator-v1.3]]
+  - "[[plan_20260531_data-curator-v1.3]]"
+  - "[[knowledge-delivery-os-快速体验指南-飞书云文档]]"
+  - "[[three-party-data-alignment]]"
+  - "[[kdo_product_design_agent_final]]"
+  - "[[kdo-protocol]]"
+  - "[[three-party-data-alignment]]"
+  - "[[plan_20260531_data-curator-v1.3]]"
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:

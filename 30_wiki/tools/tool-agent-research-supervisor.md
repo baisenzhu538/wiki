@@ -17,11 +17,11 @@ source_refs:
   - "https://www.langchain.com/blog/benchmarking-multi-agent-architectures"
   - "https://github.com/langchain-ai/langgraph-supervisor-py"
 related:
-  - [[framework-yitang-oscar-research]]
-  - [[case-demand-travel-agent]]
-  - [[case-ji-hao-skills-market]]
-  - [[case-truman-ai-partner]]
-  - [[case-ban-fei-mao-from-assignment-to-tool]]
+  - "[[framework-yitang-oscar-research]]"
+  - "[[case-demand-travel-agent]]"
+  - "[[case-ji-hao-skills-market]]"
+  - "[[case-truman-ai-partner]]"
+  - "[[case-ban-fei-mao-from-assignment-to-tool]]"
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: "2026-06-28"

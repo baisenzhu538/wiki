@@ -14,13 +14,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- [[dk-small-format-error-cascades-to-system-failure]]
-- [[dk-f4-wrong-workdir]]
-- [[dk-infrastructure-guardrails-over-checklist]]
-- [[dk-c8-format-complete-mind-empty]]
-- [[modeling-to-kdo-toolchain]]
-- [[dk-c8-format-complete-mind-empty]]
-- [[master-decision-hygiene]]
+- "[[dk-small-format-error-cascades-to-system-failure]]"
+- "[[dk-f4-wrong-workdir]]"
+- "[[dk-infrastructure-guardrails-over-checklist]]"
+- "[[dk-c8-format-complete-mind-empty]]"
+- "[[modeling-to-kdo-toolchain]]"
+- "[[dk-c8-format-complete-mind-empty]]"
+- "[[master-decision-hygiene]]"
 pipeline:
 - src_unknown
 - src_unknown

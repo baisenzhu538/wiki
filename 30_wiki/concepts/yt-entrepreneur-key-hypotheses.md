@@ -21,13 +21,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - yitang-course-map
-- - - yt-system-course-catalog
-- - - yt-entrepreneur-five-step-method
-- - - yt-entrepreneur-industry-forecast
-- - - yt-entrepreneur-product-core
-- - - yt-entrepreneur-unit-model
-- - - yt-model-cognitive-upgrade-framework
+- "[[yitang-course-map]]"
+- "[[yt-system-course-catalog]]"
+- "[[yt-entrepreneur-five-step-method]]"
+- "[[yt-entrepreneur-industry-forecast]]"
+- "[[yt-entrepreneur-product-core]]"
+- "[[yt-entrepreneur-unit-model]]"
+- "[[yt-model-cognitive-upgrade-framework]]"
 review_date: 2026-06-06
 source_refs:
 - 10_raw/sources/src_20260609_76e76298-ocr-一堂-科学决策-关键假设abcd模型.md

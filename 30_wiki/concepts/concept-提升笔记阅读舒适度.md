@@ -11,11 +11,11 @@ confidence: 0.85
 source_refs:
 - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 related:
-  - [[tool-提升笔记练习频次的方法]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[tool-提升笔记练习频次的方法]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 query_triggers:
 - src_unknown
 - src_unknown

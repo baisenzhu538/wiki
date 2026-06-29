@@ -14,11 +14,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - [[tool-月白-Token智甲比控制法]]
-  - [[tool-月白-Token效价比决策公式]]
-  - [[tool-月白-Token效价比决策法]]
-  - [[tool-月白-烧Token快速积累体感]]
-  - [[pending_unknown]]
+  - "[[tool-月白-Token智甲比控制法]]"
+  - "[[tool-月白-Token效价比决策公式]]"
+  - "[[tool-月白-Token效价比决策法]]"
+  - "[[tool-月白-烧Token快速积累体感]]"
+  - "[[pending_unknown]]"
 pipeline:
 - src_unknown
 - src_unknown

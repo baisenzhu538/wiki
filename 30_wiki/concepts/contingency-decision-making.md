@@ -12,11 +12,11 @@ source_refs:
 - 10_raw/sources/src_20260606_cde17edd-大的事件它可能是必然的它是被计划的.md
 component_of: null
 related:
-- - - ai-collaboration-mindset-shift
-- - - ai-landing-scene-selection
-- - - find-old-do-small
-- - - pending_unknown
-- - - pending_unknown
+- "[[ai-collaboration-mindset-shift]]"
+- "[[ai-landing-scene-selection]]"
+- "[[find-old-do-small]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 query_triggers:
 - src_unknown
 - src_unknown

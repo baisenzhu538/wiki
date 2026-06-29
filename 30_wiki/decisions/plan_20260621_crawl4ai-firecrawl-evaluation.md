@@ -17,9 +17,9 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 related:
-  - [[system-yitang-research-workflow]]
-  - [[framework-yitang-research-quality-gate]]
-  - [[tool-yitang-web-scraping-research]]
+  - "[[system-yitang-research-workflow]]"
+  - "[[framework-yitang-research-quality-gate]]"
+  - "[[tool-yitang-web-scraping-research]]"
 ---
 # Crawl4AI vs Firecrawl 选型评估
 

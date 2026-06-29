@@ -22,9 +22,9 @@ review_date: '2026-06-15'
 trust_level: medium
 confidence: 0.7
 related:
-  - [[dk-modeling-course-rnd-ripe-fruit]]
-  - [[yt-model-liberate-thinking-layers]]
-  - [[yitang-domain-digest]]
+  - "[[dk-modeling-course-rnd-ripe-fruit]]"
+  - "[[yt-model-liberate-thinking-layers]]"
+  - "[[yitang-domain-digest]]"
 tags:
 - src_unknown
 - src_unknown

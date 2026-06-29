@@ -25,9 +25,9 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - [[yt-management-basic-skills]]
-  - [[yt-management-business-formula]]
-  - [[yt-management-company-culture]]
+  - "[[yt-management-basic-skills]]"
+  - "[[yt-management-business-formula]]"
+  - "[[yt-management-company-culture]]"
 
 ---
 

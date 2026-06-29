@@ -19,13 +19,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- - - 一堂
-- - - yt-model-personal-map
-- - - yt-model-ipo-learning-strategy
-- - - yt-model-management-map
-- - - yt-model-progress-map
-- - - yt-model-y-organization
-- - - yt-system-course-catalog
+- "[[一堂]]"
+- "[[yt-model-personal-map]]"
+- "[[yt-model-ipo-learning-strategy]]"
+- "[[yt-model-management-map]]"
+- "[[yt-model-progress-map]]"
+- "[[yt-model-y-organization]]"
+- "[[yt-system-course-catalog]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md

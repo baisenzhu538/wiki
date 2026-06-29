@@ -14,13 +14,13 @@ domain:
 - ai
 - yitang
 related:
-- [[dk-modeling-ai-judgment-limit]]
-- [[dk-modeling-ai-compound-leverage]]
-- [[master-ai-info-literacy]]
-- [[dk-modeling-ai-without-judgment]]
-- [[dk-wanghuan-standard-by-iteration]]
-- [[yt-note-ai-human-division]]
-- [[yt-note-checklist-concept]]
+- "[[dk-modeling-ai-judgment-limit]]"
+- "[[dk-modeling-ai-compound-leverage]]"
+- "[[master-ai-info-literacy]]"
+- "[[dk-modeling-ai-without-judgment]]"
+- "[[dk-wanghuan-standard-by-iteration]]"
+- "[[yt-note-ai-human-division]]"
+- "[[yt-note-checklist-concept]]"
 id: truman-ai-partner-design-analysis
 reviewed_by: pending
 created_at: '2026-06-15'

@@ -11,12 +11,12 @@ target_roles:
 - src_unknown
 reviewer: 待定
 related:
-  - [[tool-yitang-job-intelligence-research]]
-  - [[agent-ecosystem-design]]
-  - [[meta-prompt-eng]]
-  - [[design-ai-image-generation]]
-  - [[ai-short-drama-framework-three-axes]]
-  - [[plan_20260531_data-curator-v1.3]]
+  - "[[tool-yitang-job-intelligence-research]]"
+  - "[[agent-ecosystem-design]]"
+  - "[[meta-prompt-eng]]"
+  - "[[design-ai-image-generation]]"
+  - "[[ai-short-drama-framework-three-axes]]"
+  - "[[plan_20260531_data-curator-v1.3]]"
 id: proposal-prompt-injection-infrastructure
 author: unknown
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为

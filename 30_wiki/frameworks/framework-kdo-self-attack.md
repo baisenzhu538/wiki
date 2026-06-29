@@ -21,11 +21,11 @@ source_refs:
   - 30_wiki/frameworks/framework-yitang-six-layer-cross-validation.md
   - 30_wiki/frameworks/framework-yitang-nine-layer-deep-dig.md
 related:
-  - [[framework-ouyangfeng-review-methodology]]
-  - [[framework-yitang-research-quality-gate]]
-  - [[framework-yitang-six-layer-cross-validation]]
-  - [[framework-yitang-nine-layer-deep-dig]]
-  - [[tool-demand-blindspot-checklist]]
+  - "[[framework-ouyangfeng-review-methodology]]"
+  - "[[framework-yitang-research-quality-gate]]"
+  - "[[framework-yitang-six-layer-cross-validation]]"
+  - "[[framework-yitang-nine-layer-deep-dig]]"
+  - "[[tool-demand-blindspot-checklist]]"
 
 ---
 

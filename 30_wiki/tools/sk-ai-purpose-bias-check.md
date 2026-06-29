@@ -26,11 +26,11 @@ tools_required:
 - src_unknown
 prerequisite_skills: null
 related:
-  - [[tool-水水-接受发散性世界观]]
-  - [[tool-ai-purpose-bias-check]]
-  - [[tool-ai-system-redundancy]]
-  - [[tool-水水-识别自证预言陷阱]]
-  - [[tool-水水-识别超级传播者风险]]
+  - "[[tool-水水-接受发散性世界观]]"
+  - "[[tool-ai-purpose-bias-check]]"
+  - "[[tool-ai-system-redundancy]]"
+  - "[[tool-水水-识别自证预言陷阱]]"
+  - "[[tool-水水-识别超级传播者风险]]"
 author: unknown
 reviewed_by: pending
 confidence: 0.7

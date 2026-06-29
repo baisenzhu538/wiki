@@ -17,11 +17,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - [[case-truman-livestream-sop-iteration]]
-  - [[framework-yitang-iterative-recursive-digging]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+  - "[[case-truman-livestream-sop-iteration]]"
+  - "[[framework-yitang-iterative-recursive-digging]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[pending_unknown]]"
 tags:
 - src_unknown
 - src_unknown

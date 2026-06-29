@@ -18,11 +18,11 @@ review_date: 2026-06-15
 confidence: 0.6
 trust_level: low
 related:
-- [[case-smart-medicine-cabinet-failure-patterns-library]]
-- [[case-smart-medicine-cabinet-corporate-risk]]
-- [[tool-泛产品落地-ROI分析]]
-- [[yt-barrier-identification-skill]]
-- [[yt-entrepreneur-lean-validation]]
+- "[[case-smart-medicine-cabinet-failure-patterns-library]]"
+- "[[case-smart-medicine-cabinet-corporate-risk]]"
+- "[[tool-泛产品落地-ROI分析]]"
+- "[[yt-barrier-identification-skill]]"
+- "[[yt-entrepreneur-lean-validation]]"
 source_person: 王语嫣
 source_context: "听脑录音 1241665/1883124/2431721/2447560 交叉验证"
 ---

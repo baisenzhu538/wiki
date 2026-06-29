@@ -22,14 +22,14 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 related:
-  - [[framework-multi-agent-research-architecture]]
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[framework-lean-false-model]]
-  - [[framework-lean-systematic-test-curve]]
-  - [[framework-strategy-brm]]
-  - [[strategy-domain-digest]]
-  - [[lean-startup-domain-digest]]
-  - [[ai-collaboration-domain-digest]]
+  - "[[framework-multi-agent-research-architecture]]"
+  - "[[framework-wanghuan-harness-seven-stages]]"
+  - "[[framework-lean-false-model]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[framework-strategy-brm]]"
+  - "[[strategy-domain-digest]]"
+  - "[[lean-startup-domain-digest]]"
+  - "[[ai-collaboration-domain-digest]]"
 ---
 
 # AI 加速的战略-验证闭环

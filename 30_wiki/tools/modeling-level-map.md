@@ -19,9 +19,9 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.78
 related:
-- [[modeling-capability-system]]
-- [[modeling-three-stages]]
-- [[modeling-weapon-library]]
+- "[[modeling-capability-system]]"
+- "[[modeling-three-stages]]"
+- "[[modeling-weapon-library]]"
 tags: []
 diagnostic_signals:
 - framework_lens: 六段能力段位图

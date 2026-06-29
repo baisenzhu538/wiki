@@ -17,11 +17,11 @@ query_triggers:
 - src_unknown实操篇：需求分析与用户洞察
 - src_unknown
 related:
-- - - yt-model-pan-product-demand-toolkit
-- - - yt-personal-pan-product-concepts
-- - - 一堂
-- - - pending_unknown
-- - - pending_unknown
+- "[[yt-model-pan-product-demand-toolkit]]"
+- "[[yt-personal-pan-product-concepts]]"
+- "[[一堂]]"
+- "[[pending_unknown]]"
+- "[[pending_unknown]]"
 reviewed_by: 黄药师
 source_refs:
 - 10_raw/sources/src_20260510_6241b565-个人修身-泛产品设计实操.md

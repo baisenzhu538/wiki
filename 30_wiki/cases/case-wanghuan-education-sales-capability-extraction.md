@@ -31,9 +31,9 @@ diagnostic_signals:
 - lens: 培训系统与真实决策脱节
   follow_up: 引入双角色 AI 对练，把培训目标从“背话术”改为“练判断”
 related:
-  - [[case-wanghuan-education-sales-paced]]
-  - [[case-wanghuan-shenyang-software-3x-efficiency]]
-  - [[case-wanghuan-yiyu-qingji-medical-notes]]
+  - "[[case-wanghuan-education-sales-paced]]"
+  - "[[case-wanghuan-shenyang-software-3x-efficiency]]"
+  - "[[case-wanghuan-yiyu-qingji-medical-notes]]"
 tags:
 - src_unknown
 - src_unknown

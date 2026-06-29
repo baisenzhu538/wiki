@@ -13,13 +13,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - [[kdo-yaml-frontmatter-safety]]
-  - [[yt-foresight-ab-steady-state]]
-  - [[dk-state-residue-is-the-silent-killer]]
-  - [[dk-f3-state-json-race-condition]]
-  - [[proposal-yaml-frontmatter-standardization]]
-  - [[dk-ji-hao-newbie-can-validate]]
-  - [[tool-yitang-research-validate-assumption]]
+  - "[[kdo-yaml-frontmatter-safety]]"
+  - "[[yt-foresight-ab-steady-state]]"
+  - "[[dk-state-residue-is-the-silent-killer]]"
+  - "[[dk-f3-state-json-race-condition]]"
+  - "[[proposal-yaml-frontmatter-standardization]]"
+  - "[[dk-ji-hao-newbie-can-validate]]"
+  - "[[tool-yitang-research-validate-assumption]]"
 pipeline:
 - src_unknown
 - src_unknown

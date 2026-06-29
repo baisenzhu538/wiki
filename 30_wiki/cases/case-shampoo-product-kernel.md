@@ -17,12 +17,12 @@ source_refs:
 created_at: 2026-06-11
 updated_at: 2026-06-28
 related:
-  - [[concept-一堂-product-kernel]]
-  - [[yt-product-kernel-cultivation]]
-  - [[case-treadmill-demand-analysis]]
-  - [[concept-一堂-key-assumptions]]
-  - [[case-zhihu-vs-degetao-network-effect]]
-  - [[yitang-domain-digest]]
+  - "[[concept-一堂-product-kernel]]"
+  - "[[yt-product-kernel-cultivation]]"
+  - "[[case-treadmill-demand-analysis]]"
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[case-zhihu-vs-degetao-network-effect]]"
+  - "[[yitang-domain-digest]]"
 wiki_refs:
 - src_unknown
 - src_unknown

@@ -14,11 +14,11 @@ confidence: 0.6
 trust_level: low
 updated_at: '2026-06-16'
 related:
-- - - sprint-6-cli-gap-proposal
-- - - sprint-2-门禁举证验收
-- - - kdo-ec-industrialization-migration-proposal
-- - - plan_20260503_f3e9a2b1-improvement-plan
-- - - dk-f1-regex-on-cjk
+- "[[sprint-6-cli-gap-proposal]]"
+- "[[sprint-2-门禁举证验收]]"
+- "[[kdo-ec-industrialization-migration-proposal]]"
+- "[[plan_20260503_f3e9a2b1-improvement-plan]]"
+- "[[dk-f1-regex-on-cjk]]"
 ---
 # Sprint 2 门禁系统 + Enrich 举证 — 设计规格
 

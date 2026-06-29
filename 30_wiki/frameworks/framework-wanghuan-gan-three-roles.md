@@ -22,18 +22,18 @@ source_refs:
 - 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - [[dk-strategy-organization-strategy-mismatch]]
-  - [[xingangwan-pharma-business-model-formulas]]
-  - [[tool-yitang-ai-assisted-organize]]
-  - [[concept-ai-native-organization-five-steps]]
-  - [[case-cross-xingangwan-pharma]]
-  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
-  - [[session-20260619-xingangwan-business-formula-reconstruction]]
-  - [[yt-model-y-organization]]
-  - [[xingangwan-pharma-business-model-calc]]
-  - [[xingangwan-pharma-business-formulas]]
-  - [[dk-lz-ai-native-organization]]
-  - [[framework-pan-product-organization]]
+  - "[[dk-strategy-organization-strategy-mismatch]]"
+  - "[[xingangwan-pharma-business-model-formulas]]"
+  - "[[tool-yitang-ai-assisted-organize]]"
+  - "[[concept-ai-native-organization-five-steps]]"
+  - "[[case-cross-xingangwan-pharma]]"
+  - "[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]"
+  - "[[session-20260619-xingangwan-business-formula-reconstruction]]"
+  - "[[yt-model-y-organization]]"
+  - "[[xingangwan-pharma-business-model-calc]]"
+  - "[[xingangwan-pharma-business-formulas]]"
+  - "[[dk-lz-ai-native-organization]]"
+  - "[[framework-pan-product-organization]]"
 tags:
 - src_unknown
 - src_unknown

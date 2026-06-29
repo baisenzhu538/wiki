@@ -17,13 +17,13 @@ trust_level: medium
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - [[case-demand-milkshake-jtbd]]
-  - [[framework-demand-usp-model]]
-  - [[yt-demand-motivation-resistance]]
-  - [[yt-demand-peak-end-rule]]
-  - [[yt-demand-user-segmentation]]
-  - [[case-demand-b2b-enterprise-erp]]
-  - [[dk-demand-signal-vs-noise]]
+  - "[[case-demand-milkshake-jtbd]]"
+  - "[[framework-demand-usp-model]]"
+  - "[[yt-demand-motivation-resistance]]"
+  - "[[yt-demand-peak-end-rule]]"
+  - "[[yt-demand-user-segmentation]]"
+  - "[[case-demand-b2b-enterprise-erp]]"
+  - "[[dk-demand-signal-vs-noise]]"
 ---
 
 # ToC 消费洞察驱动需求案例

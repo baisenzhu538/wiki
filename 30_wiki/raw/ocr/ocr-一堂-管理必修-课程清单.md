@@ -16,11 +16,11 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - [[ocr-一堂-个人修炼-课程清单]]
-  - [[yt-model-management-map]]
-  - [[ocr-一堂-地图-管理地图]]
-  - [[ocr-一堂-创业必修-课程清单]]
-  - [[ocr-一堂-案例拆解-课程清单]]
+  - "[[ocr-一堂-个人修炼-课程清单]]"
+  - "[[yt-model-management-map]]"
+  - "[[ocr-一堂-地图-管理地图]]"
+  - "[[ocr-一堂-创业必修-课程清单]]"
+  - "[[ocr-一堂-案例拆解-课程清单]]"
 ---
 # OCR: 一堂-管理必修-课程清单
 

@@ -16,11 +16,11 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - [[tool-马易-痛点驱动的数字化]]
-  - [[tool-马易-AI项目需求拆解筛选]]
-  - [[tool-马易-数字员工FD拆解落地]]
-  - [[tool-马易-隐私安全分层解决]]
-  - [[tool-马易-AIGC项目ROI评估]]
+  - "[[tool-马易-痛点驱动的数字化]]"
+  - "[[tool-马易-AI项目需求拆解筛选]]"
+  - "[[tool-马易-数字员工FD拆解落地]]"
+  - "[[tool-马易-隐私安全分层解决]]"
+  - "[[tool-马易-AIGC项目ROI评估]]"
 ---
 # 技能：数据标注正确法
 
