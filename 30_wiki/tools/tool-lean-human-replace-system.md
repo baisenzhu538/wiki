@@ -5,7 +5,7 @@ title: 人工替代复杂系统
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 欧阳锋
+reviewed_by: pending
 confidence: 0.85
 trust_level: high
 language: zh-CN

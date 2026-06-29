@@ -5,7 +5,7 @@ title: 假产品：用前端仿真验证需求
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: pending
 confidence: 0.85
 trust_level: medium
 language: zh-CN
