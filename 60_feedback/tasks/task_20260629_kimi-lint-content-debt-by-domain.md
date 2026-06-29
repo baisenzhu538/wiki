@@ -1,7 +1,7 @@
 ---
 id: task_20260629_kimi-lint-content-debt-by-domain
 type: task
-status: queued
+status: claimed-kimi
 assignee: 老顽童(Hermes)
 priority: P2
 created_at: 2026-06-29
@@ -87,6 +87,18 @@ source_refs:
   - 修复 5 个 case 卡 frontmatter 中 `status` 为空、`created_at` 格式错误的问题
 - 注意：case 卡必须保留 `## 关键证据` section，删除会导致 ERROR；已重新补回
 - 单卡验证：5/5 通过 `kdo pre-submit`
+
+## 欧阳锋中期审查（copy-paste 清零后）
+
+- **审查时间**：2026-06-29
+- **实测基线**：`kdo lint --summary` → 0 ERROR / 2656 WARNING ✅（与用户汇报一致）
+- **关键成果**：Section 高度相似（copy-paste）从 76 降至 **0** ✅；28 个处理文件均通过 `kdo pre-submit` ✅
+- **全局 pre-submit**：仍因 `raw/ocr` 与 `_dogfood` 历史遗留 FAIL，与本轮处理文件无关
+- **审查意见**：
+  - copy-paste 清零后，不要再通过删除 section 来回避问题（会导致 body 过短反弹）。
+  - 下一批优先处理 **strategy 域剩余 57 个 case 卡的 body 过短**，通过补背景/证据/可迁移场景/教训/失败模式来回填，而不是删 section。
+  - L2 Critique / no_external_attacker 可以随后用批量方式补充外部反对者姓名，但每张卡至少加一个与本卡论点相关的真实学者/从业者姓名，不要贴无关名人。
+- **状态**：继续 `claimed-kimi`，不需改为 `pending_review`，完成一个完整 domain（如 strategy）后再提交批次审核。
 
 ## 分批计划
 

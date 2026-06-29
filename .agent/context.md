@@ -4,9 +4,9 @@ updated_at: 2026-06-29
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#28 lint 内容债按 domain 分批清理（claimed-kimi 进行中）：老顽童(Kimi)持续处理内容债，当前 lint WARNING 基线 2671；#29 羊奶渠道桥接卡已 reviewed；#30-32 Vikki 提炼任务已入队待认领"
+active_task: "#28 lint 内容债按 domain 分批清理（claimed-kimi 进行中）：老顽童(Kimi)持续处理内容债，当前 lint WARNING 基线 2656，copy-paste 已清零；#29 羊奶渠道桥接卡已 reviewed；#30-32 Vikki 提炼任务已入队待认领"
 blockers:
-  - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已领取并处理 31 个 WARNING（3286→3255），剩余 3255 WARNING 待继续；body 过短从 80 激增至 651 为清理空 section 的已知副作用；欧阳锋已修复 kdo lint --domain/--summary，现在可直接按域过滤"
+  - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已处理 28 文件，copy-paste 清零（76→0），lint 从 3255 降至 2656 WARNING；body 过短 614 需回填；欧阳锋中期审查通过，继续处理 strategy 域 body 过短，然后批量补 L2 Critique 外部反对者"
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"
   - "✅ B1 frontmatter related 占位清理 reviewed（2026-06-28）：欧阳锋终审确认 256 文件真实修改，1947 src_unknown 清零，1190 pending_unknown 补入符合分层标准；`kdo lint` 0 ERROR"
   - "✅ B2 Synthesis section 清理 reviewed（2026-06-28）：235 张初处理 + 66 张补充清理，66 文件 body src_unknown 全部清零；kdo lint 140 ERROR 全为历史遗留，无新增；frontmatter src_unknown 另开任务处理"
@@ -74,7 +74,7 @@ blockers:
   - "🆕 Vikki-human-speech（讲人话/去 AI 味）skill 角色归属确认（2026-06-29）：该 skill 为文案写作/内容润色类，位于 `.claude/skills/content-production-polish/` 和 `40_outputs/capabilities/skills/shared/content-production-polish/`；洪七公（多模态/视觉）不学；老顽童（Producer）学基础版用于卡片/文章生产去 AI 味；段王爷（Publisher）学完整版用于 ship 阶段渠道改写（口播稿/小红书/公众号/直播话术）"
   - "🆕 Vikki 战队群聊认知提炼任务已入队（2026-06-29）：#30 信息×情绪模型融入 content-production-polish skill（老顽童）；#31 五标签系统转化为 KDO 卡片质量标签（黄药师）；#32 开源知识使用边界概念卡（老顽童）；来源文件 `00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md`"
 
-next_session_hint: "下一步：① 老顽童(Kimi)继续处理 #28 剩余 3255 WARNING，优先处理 copy-paste（584）和 L2 Critique/no_external_attacker（846+714），body 过短（651）通过回填具体失败模式/扩展内容解决，不要再批量删除空 section；② 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 老顽童(Kimi)继续处理 #28 剩余 2656 WARNING，优先处理 strategy 域 body 过短（约 57 个 case 卡），然后批量补 L2 Critique/no_external_attacker（846+714），不要再批量删除空 section；② 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
