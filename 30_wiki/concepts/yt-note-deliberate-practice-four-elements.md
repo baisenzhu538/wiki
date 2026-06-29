@@ -17,6 +17,7 @@ created_at: '2026-06-15'
 confidence: 0.75
 trust_level: medium
 type: concept
+status: enriched
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
@@ -129,7 +130,7 @@ related:
 
 ## Synthesis
 
-- 待补充链接
-- 待补充链接
-- 待补充链接
-- 待补充链接
+- [[yt-note-ai-human-division|AI 与人的笔记分工]] — 四要素模型中「及时反馈」在 AI 辅助场景下的分工升级
+- [[yt-note-checklist-concept|清单体笔记概念]] — 四要素模型落地的笔记形式基础
+- [[yt-note-expert-interview-modeling|专家访谈建模]] — 四要素中「最佳实践池子」的构建方法
+- [[deliberate-practice-four-elements|刻意练习四要素]] — 四要素模型的理论源头
