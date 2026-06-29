@@ -366,7 +366,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[modeling-scientific-milestones]]
 
 ## [[case-cross-xingangwan-pharma]]
-- [[usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
+- [[session-20260619-xingangwan-business-formula-reconstruction]]
 
 ## [[case-cross-yuanqi-forest]]
 - [[case-cross-xingangwan-pharma]]
@@ -2011,7 +2011,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tool-agent-research-swarm]]
 
 ## [[contradictions]]
-- [[usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
+- [[session-20260619-xingangwan-business-formula-reconstruction]]
 
 ## [[course-to-skill-conversion]]
 - [[ai-landing-scene-selection]]
@@ -5687,7 +5687,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[一堂方法论体系总图]]
 
 ## [[parking-lot]]
-- [[usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
+- [[session-20260619-xingangwan-business-formula-reconstruction]]
 - [[shanxi-field-research-checklist-20260701]]
 
 ## [[pilot-atomic-chunk-comparison]]
@@ -6572,7 +6572,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tool-decision-outside-view]]
 
 ## [[tool-funnel-formula-modeling]]
-- [[usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
+- [[session-20260619-xingangwan-business-formula-reconstruction]]
 - [[xingangwan-pharma-business-formulas]]
 - [[tool-scenario-selector-modeling]]
 - [[tool-yitang-social-engineering-research]]
@@ -10810,14 +10810,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[老朱的水感-2026年5月]]
 
 ## [[xingangwan-pharma-business-formulas]]
-- [[usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
+- [[session-20260619-xingangwan-business-formula-reconstruction]]
 - [[xingangwan-pharma-business-model-calc]]
 - [[xingangwan-pharma-business-model-formulas]]
 - [[parking-lot]]
 - [[shanxi-field-research-checklist-20260701]]
 
 ## [[xingangwan-pharma-business-model-calc]]
-- [[usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
+- [[session-20260619-xingangwan-business-formula-reconstruction]]
 - [[xingangwan-pharma-business-formulas]]
 - [[xingangwan-pharma-business-model-formulas]]
 - [[parking-lot]]
@@ -10828,7 +10828,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[shanxi-field-research-checklist-20260701]]
 
 ## [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
-- [[usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
+- [[session-20260619-xingangwan-business-formula-reconstruction]]
 - [[xingangwan-pharma-business-formulas]]
 - [[xingangwan-pharma-business-model-formulas]]
 - [[parking-lot]]
@@ -13013,7 +13013,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tool-yitang-referral-channel-optimization]]
 
 ## [[yt-unit-model-construction]]
-- [[usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
+- [[session-20260619-xingangwan-business-formula-reconstruction]]
 - [[ai单元模型口述蒋老师]]
 - [[yt-unit-model-ai-assisted]]
 - [[yt-unit-model-benchmark]]
@@ -13287,7 +13287,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[鑫港湾HIS项目]]
 
 ## [[鑫港湾]]
-- [[usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
+- [[session-20260619-xingangwan-business-formula-reconstruction]]
 
 ## [[鑫港湾HIS项目]]
 - [[parking-lot]]

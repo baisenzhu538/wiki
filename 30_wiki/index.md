@@ -2126,7 +2126,7 @@ _Last updated: 2026-06-28T04:52:56+00:00_
 
 ### 60_feedback
 
-- [[usage-logs/session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]]
+- [[session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]]
 
 
 ### _archive
