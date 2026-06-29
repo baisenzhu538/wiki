@@ -125,7 +125,7 @@ def lifecycle_strategy(company_stage: str, context: str):
 
 > 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
 
-**Clayton Christensen** 可能会质疑：这个工具依赖的 **生命周期阶段判断、S 曲线、技术 disrupt、阶段边界模糊** 是否已经被充分验证？
+**Richard Rumelt** 可能会质疑：这个工具依赖的 **生命周期阶段判断、S 曲线、技术 disrupt、阶段边界模糊** 是否已经被充分验证？
 
 - 生命周期阶段边界模糊，误判阶段会导致战略错位。
 - 新技术可能让成熟产品重新进入增长，生命周期曲线并非单行道。
