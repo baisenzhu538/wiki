@@ -71,11 +71,6 @@ Popper (1959) 提出，科学理论不是通过"证实"来确立的，而是通�
 
 Gigerenzer & Goldstein (1996) 的"简洁启发式"(Fast and Frugal Heuristics)研究表明，在时间紧迫、信息有限的情况下，简单规则（如"取第一个满足条件的选项"）比复杂模型更有效。单元模型构建器的"全清单"方法在信息充足时有效，但在创业早期，当你连有哪些成本项都不清楚时，过度追求"完整"往往是一种停滞——你花了3个月构建模型，市场机会已经没了。
 
-## When NOT to Use
-- src_unknown
-- src_unknown
-- src_unknown
-
 ## Synthesis
 
 ### 与本库其他概念的关联
