@@ -1,32 +1,33 @@
 ---
-id: "tool-indicators-signposts"
-title: "Indicators & Signposts（指标与信号）"
-type: "tool"
+
+id: tool-indicators-signposts
+title: Indicators & Signposts（指标与信号）
+type: tool
 domain:
-  - "research"
-  - "strategy"
-  - "decision"
+- research
+- strategy
+- decision
 tags:
-  - "SATs"
-  - "指标类"
-  - "信号监控"
-  - "假设验证"
-  - "预见性决策"
-source_person: "Richars J. Heuer Jr. + Trumen（一堂）"
-source_context: "SATs 指标类技术工具化实现"
+- SATs
+- 指标类
+- 信号监控
+- 假设验证
+- 预见性决策
+source_person: Richars J. Heuer Jr. + Trumen（一堂）
+source_context: SATs 指标类技术工具化实现
 source_refs:
-  - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
-  - "https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/"
+- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
+- https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/
 related:
-  - [[yt-decision-y-model]]
-  - [[yt-research-intelligence-map]]
-status: reviewed
+- - - yt-decision-y-model
+- - - yt-research-intelligence-map
+status: enriched
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
-created_at: "2026-06-28"
-updated_at: '2026-06-28'
+review_date: '2026-06-28'
+created_at: '2026-06-28'
+updated_at: '2026-06-29'
 confidence: 0.78
-trust_level: "medium"
+trust_level: medium
 ---
 
 # Indicators & Signposts（指标与信号）
@@ -36,7 +37,7 @@ trust_level: "medium"
 > "Most intelligence failures are not due to lack of information, but to failure to recognize the significance of information that was already available."
 > ——Sherman Kent, CIA 首席分析师
 
-**Indicators & Signposts** 是 SATs 指标类技术的核心工具——**事先定义"什么信号出现时，我们的假设需要重新评估"**，而不是等"事实证明我们错了"再反应。
+**Signposts** 是 SATs 指标类技术的核心工具——**事先定义"什么信号出现时，我们的假设需要重新评估"**，而不是等"事实证明我们错了"再反应。
 
 一堂有"持续跟踪"（第18掌），但**无"信号 → 假设失效"的映射关系**。本工具卡填补这个缺口。
 
@@ -77,10 +78,10 @@ trust_level: "medium"
 
 | 类型 | 含义 | 示例 | actionability |
 |:---|:---|:---|:---|
-| **Leading Indicators**（先行指标） | 假设**即将**失效的信号 | 竞品开始招聘相关岗位 | 高——可以提前应对 |
-| **Lagging Indicators**（滞后指标） | 假设**已经**失效的信号 | 竞品已经发布竞品，我们丢了订单 | 低——已经晚了 |
+| **Indicators**（先行指标） | 假设**即将**失效的信号 | 竞品开始招聘相关岗位 | 高——可以提前应对 |
+| **Indicators**（滞后指标） | 假设**已经**失效的信号 | 竞品已经发布竞品，我们丢了订单 | 低——已经晚了 |
 
-**核心原则**：**至少要有 1 个 Leading Indicator**，否则监控只告诉你"已经晚了"。
+**核心原则**：**Leading Indicator**，否则监控只告诉你"已经晚了"。
 
 ### 第三步：定义"信号触发阈值"（什么时候算"信号出现了"）
 
@@ -227,3 +228,10 @@ trust_level: "medium"
 ## 质疑
 
 > 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+
+**Daniel Kahneman** 可能会质疑：这个工具依赖的 **信号噪声比、认知偏差、滞后指标、因果混淆** 是否已经被充分验证？
+
+- 指标可能把滞后信号当成领先信号，导致行动时机错误。
+- 团队容易选择支持既有观点的指标，忽视反面信号。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

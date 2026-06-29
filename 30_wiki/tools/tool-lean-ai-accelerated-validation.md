@@ -19,11 +19,12 @@ source_refs:
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本_meta.md
 related:
-  - [[strategy-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - strategy-domain-digest
+- - - yitang-domain-digest
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
+updated_at: '2026-06-29'
 ---
 
 # AI 加速 FALSE 模型验证
@@ -189,3 +190,12 @@ AI 加速 FALSE 模型验证是在 FALSE/FLESAI 低成本验证框架的 F/A/L/S
 ---
 
 *老顽童 · 2026-06-23 · 源：一堂张磊教练《精益测试关键问题》AMA 精华*
+
+## 质疑
+
+**Eric Ries** 可能会质疑：这个工具依赖的 **验证速度、样本偏差、实验假设、测量有效性** 是否已经被充分验证？
+
+- AI 加速验证可能放大“速度幻觉”，实验迭代快不代表假设被真正证伪。
+- 如果训练数据本身有偏差，AI 只会更快地产出有偏结论。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

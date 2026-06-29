@@ -17,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212256_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212256_vlm_desc.md
 related:
-  - [[case-lean-electric-scooter-mvp]]
-  - [[strategy-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - case-lean-electric-scooter-mvp
+- - - strategy-domain-digest
+- - - yitang-domain-digest
+- - - pending_unknown
+- - - pending_unknown
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
@@ -113,3 +113,12 @@ updated_at: '2026-06-29'
 ---
 
 *老顽童 · 2026-06-23 · 源：一堂精益创业 FALSE 模型讲义*
+
+## 质疑
+
+**Gary Hamel** 可能会质疑：这个工具依赖的 **资源稀缺性、能力互补性、机会成本、资源诅咒** 是否已经被充分验证？
+
+- 杠杆资源可能带来控制权分散和长期依赖风险。
+- 如果资源组合缺乏互补性，杠杆效应会被内部摩擦抵消。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

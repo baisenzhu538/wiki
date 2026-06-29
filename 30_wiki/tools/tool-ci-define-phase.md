@@ -1,32 +1,33 @@
 ---
-id: "tool-ci-define-phase"
-title: "CI Define 阶段工具：决策驱动的问题定义"
-type: "tool"
+
+id: tool-ci-define-phase
+title: CI Define 阶段工具：决策驱动的问题定义
+type: tool
 domain:
-  - "research"
-  - "strategy"
+- research
+- strategy
 tags:
-  - "CI"
-  - "Define阶段"
-  - "KITs"
-  - "KIQs"
-  - "决策驱动提问"
-source_person: "Truman（一堂）+ Competitive Intelligence Alliance"
-source_context: "CI Operating Model Define 阶段工具化实现"
+- CI
+- Define阶段
+- KITs
+- KIQs
+- 决策驱动提问
+source_person: Truman（一堂）+ Competitive Intelligence Alliance
+source_context: CI Operating Model Define 阶段工具化实现
 source_refs:
-  - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
-  - "https://blog.bestbootcamps.com/competitive-intelligence-framework/"
+- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
+- https://blog.bestbootcamps.com/competitive-intelligence-framework/
 related:
-  - [[framework-yitang-18-strategy-cards]]
-  - [[framework-yitang-research-weapon-system]]
-  - [["tool-ci-implement-phase"]]
-status: reviewed
-reviewed_by: "欧阳锋"
-review_date: "2026-06-28"
-created_at: "2026-06-28"
-updated_at: '2026-06-28'
+- - - framework-yitang-18-strategy-cards
+- - - framework-yitang-research-weapon-system
+- - - tool-ci-implement-phase
+status: enriched
+reviewed_by: 欧阳锋
+review_date: '2026-06-28'
+created_at: '2026-06-28'
+updated_at: '2026-06-29'
 confidence: 0.78
-trust_level: "medium"
+trust_level: medium
 ---
 
 # CI Define 阶段工具：决策驱动的问题定义
@@ -47,7 +48,7 @@ Define 阶段的核心工具：**KITs（Key Intelligence Topics）** 和 **KIQs�
 
 ### 适合使用本工具的情境
 
-- 启动任何 CI 项目之前（**必须先过 Define，才能进 Gather**）
+- 启动任何 CI 项目之前（**Gather**）
 - 销售团队说"我们得了解一下竞品"但说不清为什么
 - 产品路线图讨论中，有人提出"竞品在做 X"但没人知道这改变什么决策
 - 市场团队输出的竞品报告被销售团队忽略（因为报告没有回答销售实际面临的决策问题）
@@ -204,3 +205,10 @@ KIQ = 对某个 KIT 提出的**具体可验证的问题**，必须满足：
 ## 质疑
 
 > 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+
+**Michael Porter** 可能会质疑：这个工具依赖的 **竞争情报范围、信息可信度、分析假设、行业边界** 是否已经被充分验证？
+
+- 如果情报收集范围过窄，只关注直接竞对而忽视跨界替代者，结论可能失真。
+- 情报来源的可信度和时效性直接影响判断质量，二手数据需要交叉验证。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

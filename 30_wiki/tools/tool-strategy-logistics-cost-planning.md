@@ -15,14 +15,14 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_184_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_184_vlm_desc.md
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 reviewed_by: 欧阳锋
 related:
-  - [[strategy-domain-digest]]
-  - [[tool-按月份摊销收入成本做计划]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - strategy-domain-digest
+- - - tool-按月份摊销收入成本做计划
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 ---
 
 # 物流费用三年节约计划：从单吨运费到全链成本
@@ -121,3 +121,12 @@ def logistics_cost_plan(baseline: dict):
 ---
 
 *老顽童 · 2026-06-22 · 源：冉鹏 PPT _184*
+
+## 质疑
+
+**Alfred Chandler** 可能会质疑：这个工具依赖的 **规模经济、网络结构、成本动因、服务水平的约束** 是否已经被充分验证？
+
+- 过度追求成本最低可能牺牲交付速度和客户满意度。
+- 物流成本结构受网络形态影响大，单点优化可能带来系统性失衡。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

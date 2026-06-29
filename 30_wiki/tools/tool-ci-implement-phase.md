@@ -1,34 +1,35 @@
 ---
-id: "tool-ci-implement-phase"
-title: "CI Implement 阶段工具：洞见嵌入运营节奏"
-type: "tool"
+
+id: tool-ci-implement-phase
+title: CI Implement 阶段工具：洞见嵌入运营节奏
+type: tool
 domain:
-  - "research"
-  - "strategy"
-  - "sales"
+- research
+- strategy
+- sales
 tags:
-  - "CI"
-  - "Implement阶段"
-  - "Battlecard"
-  - "运营嵌入"
-source_person: "Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps"
-source_context: "CI Operating Model Implement 阶段工具化实现"
+- CI
+- Implement阶段
+- Battlecard
+- 运营嵌入
+source_person: Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
+source_context: CI Operating Model Implement 阶段工具化实现
 source_refs:
-  - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
-  - "https://blog.bestbootcamps.com/competitive-intelligence-framework/"
+- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
+- https://blog.bestbootcamps.com/competitive-intelligence-framework/
 related:
-  - [[tool-yitang-research-continuous-tracking]]
-  - [[framework-yitang-18-strategy-cards]]
-  - [[yt-five-step-implementation]]
-  - [[kdo-protocol-implementation-roadmap]]
-  - [["tool-ci-define-phase"]]
-status: reviewed
+- - - tool-yitang-research-continuous-tracking
+- - - framework-yitang-18-strategy-cards
+- - - yt-five-step-implementation
+- - - kdo-protocol-implementation-roadmap
+- - - tool-ci-define-phase
+status: enriched
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
-created_at: "2026-06-28"
-updated_at: '2026-06-28'
+review_date: '2026-06-28'
+created_at: '2026-06-28'
+updated_at: '2026-06-29'
 confidence: 0.78
-trust_level: "medium"
+trust_level: medium
 ---
 
 # CI Implement 阶段工具：洞见嵌入运营节奏
@@ -207,9 +208,9 @@ trust_level: "medium"
 ## Action Checklist
 
 - [ ] **选择嵌入场景**：选 1 个高频业务场景（优先 forecast call），先嵌入，验证有效再扩展
-- [ ] **制作第一批 Battlecard**：只做 Tier 1 竞品（1-2 个），遵循"一页纸"标准
+- [ ] **Battlecard**：只做 Tier 1 竞品（1-2 个），遵循"一页纸"标准
 - [ ] **设立 CI 资产度量指标**：至少 1 个业务结果指标（优先"Tier 1 竞品赢单率"）
-- [ ] **建立轻量 Governance**：1 名负责人 + 1 个信息录入路径 + 1 套输出标准
+- [ ] **Governance**：1 名负责人 + 1 个信息录入路径 + 1 套输出标准
 - [ ] **和销售确认**：Battlecard 的话术和证明点，是不是销售实际能用的？（不是"产品市场部认为的结论"）
 
 ---
@@ -249,3 +250,10 @@ trust_level: "medium"
 ## 质疑
 
 > 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+
+**Michael Porter** 可能会质疑：这个工具依赖的 **执行资源、组织响应速度、情报行动假设、反馈闭环** 是否已经被充分验证？
+
+- 情报若不转化为可执行决策，只是昂贵的信息堆砌。
+- 实施阶段需要明确责任人和反馈机制，否则情报会变成一次性的报告。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

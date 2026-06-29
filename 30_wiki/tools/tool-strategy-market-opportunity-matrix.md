@@ -13,14 +13,14 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_249_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_249_vlm_desc.md
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 reviewed_by: 欧阳锋
 related:
-  - [[strategy-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - strategy-domain-digest
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 ---
 
 # 细分市场机会分析矩阵：10 维度判断"该不该进、用什么进"
@@ -111,3 +111,12 @@ def market_opportunity_matrix(candidates: list):
 ---
 
 *老顽童 · 2026-06-22 · 源：冉鹏 PPT _249*
+
+## 质疑
+
+**Michael Porter** 可能会质疑：这个工具依赖的 **市场吸引力、竞争强度、进入壁垒、能力匹配** 是否已经被充分验证？
+
+- 高吸引力市场往往竞争激烈，机会评估容易低估进入难度。
+- 矩阵假设吸引力和能力可独立评分，忽略了二者相互影响。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

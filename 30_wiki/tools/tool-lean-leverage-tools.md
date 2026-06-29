@@ -17,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212311_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212311_vlm_desc.md
 related:
-  - [[case-lean-electric-scooter-mvp]]
-  - [[strategy-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - case-lean-electric-scooter-mvp
+- - - strategy-domain-digest
+- - - yitang-domain-digest
+- - - pending_unknown
+- - - pending_unknown
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
@@ -166,3 +166,12 @@ updated_at: '2026-06-29'
 ---
 
 *老顽童 · 2026-06-23 · 源：一堂精益创业讲义《L3. 借搭建工具》*
+
+## 质疑
+
+**Peter Drucker** 可能会质疑：这个工具依赖的 **工具适配性、学习成本、流程刚性、人效假设** 是否已经被充分验证？
+
+- 工具本身不能替代判断，过度依赖工具会让团队丧失问题定义能力。
+- 新工具的学习成本和流程改造成本往往被低估。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

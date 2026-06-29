@@ -13,15 +13,15 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_93_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_93_ocr_text.md
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - [[strategy-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - strategy-domain-digest
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 ---
 
 # 零售品类角色矩阵
@@ -129,3 +129,10 @@ def category_role_matrix(categories: list[str]):
 ## 质疑
 
 > 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+
+**Al Ries** 可能会质疑：这个工具依赖的 **品类定义、角色冲突、资源分配、市场动态** 是否已经被充分验证？
+
+- 品类角色一旦固化，可能错过新兴品类机会。
+- 不同角色的 SKU 若用同一 KPI 考核，会导致行为和战略目标错位。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

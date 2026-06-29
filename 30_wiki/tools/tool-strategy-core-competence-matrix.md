@@ -13,15 +13,15 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_vlm_desc.md
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - [[strategy-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - strategy-domain-digest
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 ---
 
 # 核心能力评估矩阵：影响力 × 急迫性
@@ -136,3 +136,10 @@ def core_competence_matrix(capabilities: list[str]):
 ## 质疑
 
 > 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+
+**Michael Porter** 可能会质疑：这个工具依赖的 **核心能力识别、资源稀缺性、能力延展性、路径依赖** 是否已经被充分验证？
+
+- 核心能力可能成为核心刚性，当环境变化时反而阻碍转型。
+- 自评核心能力容易高估，需要用外部市场和客户结果验证。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

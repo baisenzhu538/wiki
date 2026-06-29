@@ -11,15 +11,15 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
 - 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
 created_at: '2026-06-21'
-updated_at: '2026-06-21'
+updated_at: '2026-06-29'
 author: 黄药师（从 PPT _117 提取）
 reviewed_by: 欧阳锋
 related:
-  - [[strategy-domain-digest]]
-  - [[framework-yitang-channel-partnership-map]]
-  - [[case-yitang-goat-milk-channel-partnership]]
-  - [[tool-yitang-channel-partnership-design]]
-  - [[pending_unknown]]
+- - - strategy-domain-digest
+- - - framework-yitang-channel-partnership-map
+- - - case-yitang-goat-milk-channel-partnership
+- - - tool-yitang-channel-partnership-design
+- - - pending_unknown
 ---
 
 # 盈利模式对比框架
@@ -115,3 +115,10 @@ def profit_model_selector(requirements: dict):
 ## 质疑
 
 > 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+
+**Alexander Osterwalder** 可能会质疑：这个工具依赖的 **盈利模式假设、客户支付意愿、成本结构、可持续性** 是否已经被充分验证？
+
+- 利润模型比较若基于静态数据，可能忽视竞争反应和客户行为变化。
+- 高利润模式往往伴随高风险或高资源投入，不能只看利润率。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

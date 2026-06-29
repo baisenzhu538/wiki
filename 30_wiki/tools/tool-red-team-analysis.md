@@ -1,35 +1,36 @@
 ---
-id: "tool-red-team-analysis"
-title: "Red Team Analysis（红队分析/竞对视角模拟）"
-type: "tool"
+
+id: tool-red-team-analysis
+title: Red Team Analysis（红队分析/竞对视角模拟）
+type: tool
 domain:
-  - "research"
-  - "strategy"
-  - "competitive-intelligence"
+- research
+- strategy
+- competitive-intelligence
 tags:
-  - "SATs"
-  - "反向类"
-  - "Red Team"
-  - "竞对视角"
-  - "模拟决策"
-source_person: "Richards J. Heuer Jr. + Truman（一堂）"
-source_context: "SATs 反向类技术工具化实现"
+- SATs
+- 反向类
+- Red Team
+- 竞对视角
+- 模拟决策
+source_person: Richards J. Heuer Jr. + Truman（一堂）
+source_context: SATs 反向类技术工具化实现
 source_refs:
-  - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
-  - "https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/"
+- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
+- https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/
 related:
-  - [[framework-yitang-18-strategy-cards]]
-  - [[case-ai-time-management-tiered-growth]]
-  - [[case-doris-2014-music-streaming-prediction]]
-  - [[case-escort-service-tiered-growth]]
-  - [[case-liutao-douyin-team-leader-9m]]
-status: reviewed
+- - - framework-yitang-18-strategy-cards
+- - - case-ai-time-management-tiered-growth
+- - - case-doris-2014-music-streaming-prediction
+- - - case-escort-service-tiered-growth
+- - - case-liutao-douyin-team-leader-9m
+status: enriched
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
-created_at: "2026-06-28"
-updated_at: '2026-06-28'
+review_date: '2026-06-28'
+created_at: '2026-06-28'
+updated_at: '2026-06-29'
 confidence: 0.78
-trust_level: "medium"
+trust_level: medium
 ---
 
 # Red Team Analysis（红队分析/竞对视角模拟）
@@ -39,7 +40,7 @@ trust_level: "medium"
 > "If I were the competitor's CEO, what would I do to attack our position?"
 > ——Red Team Analysis 核心问题
 
-**Red Team Analysis** 是 SATs 反向类技术的延伸——不只挑战内部结论（Devil's Advocacy），还**模拟对手视角**，问"如果我是竞对 CEO，我会怎么打？"。
+**Team Analysis** 是 SATs 反向类技术的延伸——不只挑战内部结论（Devil's Advocacy），还**模拟对手视角**，问"如果我是竞对 CEO，我会怎么打？"。
 
 一堂第3掌"竞对跟踪"是**观察**（竞对在做什么），Red Team 是**模拟决策**（竞对**为什么**这么做，下一步会怎么做）。
 
@@ -93,7 +94,7 @@ Red Team 目标：模拟「竞品 A」的视角
 | **客户约束** | 竞对的核心客户是谁？他们最怕什么？ | 客户案例、G2 评价、赢单/输单分析 |
 | **文化/认知约束** | 竞对的文化是什么？他们**相信**什么？ | 创始人访谈、产品哲学、公开演讲 |
 
-**Agent 如何自动扮演竞对 CEO**：
+**CEO**：
 ```
 你是竞品 A 的 CEO。
 你的战略约束：...
@@ -260,3 +261,10 @@ Red Team 目标：模拟「竞品 A」的视角
 ## 质疑
 
 > 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+
+**John Boyd** 可能会质疑：这个工具依赖的 **OODA 循环、认知偏见、模拟真实性、红队独立性** 是否已经被充分验证？
+
+- 红队若由内部人员兼任，可能受组织文化和权力关系影响，难以真正独立。
+- 模拟攻击再精妙，也无法完全复制真实对手的目标和约束。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

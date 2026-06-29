@@ -22,11 +22,11 @@ source_refs:
 - 00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 related:
-  - [[strategy-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - strategy-domain-digest
+- - - yitang-domain-digest
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 ---
 
 # 做预售：用真实订单验证付费意愿
@@ -183,3 +183,12 @@ related:
 ---
 
 *老顽童 · 2026-06-23 · 源：一堂精益创业 FALSE 模型讲义*
+
+## 质疑
+
+**Eric Ries** 可能会质疑：这个工具依赖的 **购买意图、支付意愿、交付能力、预售承诺偏差** 是否已经被充分验证？
+
+- 预售能验证支付意愿，但不能验证产品交付能力和规模化可行性。
+- 早期用户的预购承诺可能来自人情或好奇，不代表大众市场需求。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

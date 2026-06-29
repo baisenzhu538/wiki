@@ -17,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212241_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212241_vlm_desc.md
 related:
-  - [[strategy-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - strategy-domain-digest
+- - - yitang-domain-digest
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
@@ -146,3 +146,12 @@ updated_at: '2026-06-29'
 ---
 
 *老顽童 · 2026-06-23 · 源：一堂精益创业「借同行产品」讲义*
+
+## 质疑
+
+**Clayton Christensen** 可能会质疑：这个工具依赖的 **竞对能力边界、资源可迁移性、路径依赖、差异化前提** 是否已经被充分验证？
+
+- 模仿竞对可能陷入路径依赖，忽视自身独特优势和市场阶段差异。
+- 竞对成功的资源组合可能无法被复制，盲目跟随会消耗核心能力。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

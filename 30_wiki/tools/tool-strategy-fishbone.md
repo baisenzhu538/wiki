@@ -14,15 +14,15 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_44_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_48_ocr_text.md
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - [[strategy-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - strategy-domain-digest
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 ---
 
 # 鱼骨图根因分析工具
@@ -160,3 +160,10 @@ def fishbone_analysis(problem: str, categories: list[str]):
 ## 质疑
 
 > 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+
+**Kaoru Ishikawa** 可能会质疑：这个工具依赖的 **因果归因、分类完备性、根因深度、验证假设** 是否已经被充分验证？
+
+- 鱼骨图容易把症状当根因，停留在表面分类而没有深入机制。
+- 团队可能为了填满骨架而硬凑原因，忽视真正关键变量。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

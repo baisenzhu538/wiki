@@ -2710,7 +2710,7 @@ _Last updated: 2026-06-28T04:52:56+00:00_
 - [[frameworks/framework-strategy-basics-02-insight|洞察（Critical Insight）：模型+图表+假设验证，战略视野需登高望远]]
 - [[frameworks/framework-strategy-basics-03-layout|布局（Configuration Layout）：现金流/增长/种子/撤退/突破五件事]]
 - [[frameworks/framework-strategy-basics-04-system|体系（Creation System）：丰田供应链生态+苹果iOS生态]]
-- [[frameworks/framework-strategy-basics-05-change|体系（Creation System）：生态体系——丰田供应链+苹果iOS]]
+- [[frameworks/framework-strategy-basics-05-change|变革（Change）：加外挂/换路/换轮子]]
 - [[frameworks/framework-strategy-blm|IBM BLM 业务领导力模型 + 华为五看三定]]
 - [[frameworks/framework-strategy-brm|framework-strategy-brm]]
 - [[frameworks/framework-strategy-business-design|业务设计六要素×三步骤——冉鹏战略规划核心操作框架（源于IBM BLM）]]
@@ -3830,4 +3830,5 @@ _Last updated: 2026-06-28T04:52:56+00:00_
 - [[frameworks/framework-yitang-channel-partnership-map|小众品类渠道合伙人/区域包干决策框架（「卖地图」模式）]]
 - [[cases/case-yitang-goat-milk-channel-partnership|羊奶粉「卖地图」区域代理模式案例]]
 - [[tools/tool-yitang-channel-partnership-design|区域代理/底价合伙人模式设计工具]]
+- [[concepts/concept-kdo-review-workflow|KDO 生产审查工作流（欧阳锋模式）]]
 

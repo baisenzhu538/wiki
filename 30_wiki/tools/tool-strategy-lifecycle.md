@@ -13,15 +13,15 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_26_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_26_vlm_desc.md
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - [[strategy-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - strategy-domain-digest
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 ---
 
 # 企业生命周期战略：从 0 到 1、从 N 到 ∞、从 N 到 0
@@ -124,3 +124,10 @@ def lifecycle_strategy(company_stage: str, context: str):
 ## 质疑
 
 > 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+
+**Clayton Christensen** 可能会质疑：这个工具依赖的 **生命周期阶段判断、S 曲线、技术 disrupt、阶段边界模糊** 是否已经被充分验证？
+
+- 生命周期阶段边界模糊，误判阶段会导致战略错位。
+- 新技术可能让成熟产品重新进入增长，生命周期曲线并非单行道。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

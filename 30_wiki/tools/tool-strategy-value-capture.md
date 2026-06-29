@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-value-capture
 title: 价值获取设计工具：8 问盈利模型
 aliases:
@@ -17,25 +18,24 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- [[framework-strategy-ansoff]]
-- [[tool-strategy-business-design-template]]
-- [[tool-strategy-customer-selection]]
-- [[tool-strategy-category-role-matrix]]
-- [[tool-strategy-value-proposition]]
-- [[case-strategy-m-brand-profit-model]]
-- [[case-strategy-snack-export-opportunity]]
-- [[case-strategy-snack-industry-chain]]
-- [[framework-strategy-business-design]]
-- [[tool-strategy-activity-scope]]
-- [[tool-strategy-business-design-template]]
-- [[tool-strategy-industry-chain-analysis]]
-- [[tool-strategy-platform-business-map]]
-- [[tool-strategy-value-proposition]]
-
+- - - framework-strategy-ansoff
+- - - tool-strategy-business-design-template
+- - - tool-strategy-customer-selection
+- - - tool-strategy-category-role-matrix
+- - - tool-strategy-value-proposition
+- - - case-strategy-m-brand-profit-model
+- - - case-strategy-snack-export-opportunity
+- - - case-strategy-snack-industry-chain
+- - - framework-strategy-business-design
+- - - tool-strategy-activity-scope
+- - - tool-strategy-business-design-template
+- - - tool-strategy-industry-chain-analysis
+- - - tool-strategy-platform-business-map
+- - - tool-strategy-value-proposition
 ---
 
 # 价值获取设计工具：8 问盈利模型
@@ -203,3 +203,12 @@ def design_value_capture(value_proposition: str, target_customers: str):
 ---
 
 *王语嫣 v1 · 老顽童补强 Purpose/Protocol/核心洞察/When NOT to Use · 2026-06-22 · 源：冉鹏 PPT _115 / _117*
+
+## 质疑
+
+**W. Chan Kim** 可能会质疑：这个工具依赖的 **价值分配、议价能力、盈利模式、可持续性** 是否已经被充分验证？
+
+- 价值捕获能力强不代表价值创造能力强，过度攫取可能损害生态。
+- 捕获机制若缺乏壁垒，竞争者会迅速模仿并压缩利润空间。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

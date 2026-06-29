@@ -20,21 +20,21 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_129_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_ocr_text.md
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - [[strategy-domain-digest]]
-  - [[tool-月白-设计师AI工具习惯切换]]
-  - [[ai-short-drama-platform-policy-comparison]]
-  - [[tool-泛产品设计-需求工具箱指南]]
-  - [[tool-Truman-AI工具选型决策]]
-  - [[ocr-泛产品设计-需求工具箱指南]]
-  - [[dk-note-maximum-common-divisor]]
-  - [[tool-泛产品落地-风险管理]]
-  - [[tool-清单小抄工具箱法]]
-  - [[ocr-泛产品设计-审美工具箱指南]]
-  - [[concept-maister-trusted-advisor]]
+- - - strategy-domain-digest
+- - - tool-月白-设计师AI工具习惯切换
+- - - ai-short-drama-platform-policy-comparison
+- - - tool-泛产品设计-需求工具箱指南
+- - - tool-Truman-AI工具选型决策
+- - - ocr-泛产品设计-需求工具箱指南
+- - - dk-note-maximum-common-divisor
+- - - tool-泛产品落地-风险管理
+- - - tool-清单小抄工具箱法
+- - - ocr-泛产品设计-审美工具箱指南
+- - - concept-maister-trusted-advisor
 ---
 
 # 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
@@ -116,11 +116,11 @@ Likelihood       策略：接受   策略：减轻
 
 | 策略 | 适用场景 | 典型动作 |
 |--|--|--|
-| **接受 Accept** | 影响小、可能性高，或成本高于收益 | 监控即可，不额外投入 |
-| **控制 Control** | 影响大、可能性低 | 建立流程、规范、预案 |
-| **减轻 Mitigate** | 影响大、可能性高 | 主动降低概率或影响 |
-| **分担 Share** | 单方承担成本过高 | 保险、外包、合作、联盟 |
-| **规避 Avoid** | 风险不可接受 | 退出市场、停止项目、改变模式 |
+| **Accept** | 影响小、可能性高，或成本高于收益 | 监控即可，不额外投入 |
+| **Control** | 影响大、可能性低 | 建立流程、规范、预案 |
+| **Mitigate** | 影响大、可能性高 | 主动降低概率或影响 |
+| **Share** | 单方承担成本过高 | 保险、外包、合作、联盟 |
+| **Avoid** | 风险不可接受 | 退出市场、停止项目、改变模式 |
 
 ---
 
@@ -186,3 +186,10 @@ def design_risk_management(business_design: dict):
 ## 质疑
 
 > 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+
+**Nassim Taleb** 可能会质疑：这个工具依赖的 **黑天鹅事件、尾部风险、风险相关性、历史数据局限** 是否已经被充分验证？
+
+- 传统风险管理依赖历史数据，难以预测前所未见的极端事件。
+- 风险清单可能给人虚假安全感，真正的脆弱性来自未知未知。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

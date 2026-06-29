@@ -72,7 +72,10 @@ blockers:
   - "✅ 羊奶「卖地图」跨域桥接卡生产 reviewed（2026-06-29）：欧阳锋终审通过；3 张目标卡 `kdo lint` 0 ERROR/WARNING、`kdo pre-submit` 无错误；修复索引补录、section 标题、Critique 外部反对者/关键术语、相邻域 related 回链；status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-29"
   - "🆕 Kimi 从 YAI 对话中沉淀咨询技能（2026-06-29）：用户追问是否会遗忘，已将 9 项可迁移咨询技能写入 `20_memory/kimi-consulting-skills-from-yai-20260629.md`；包含诉求翻译、冷热分离、案例抽象、元反馈识别、队列管理、跨域桥接、验证汇报、基线接受、持久化认知"
   - "🆕 Vikki-human-speech（讲人话/去 AI 味）skill 角色归属确认（2026-06-29）：该 skill 为文案写作/内容润色类，位于 `.claude/skills/content-production-polish/` 和 `40_outputs/capabilities/skills/shared/content-production-polish/`；洪七公（多模态/视觉）不学；老顽童（Producer）学基础版用于卡片/文章生产去 AI 味；段王爷（Publisher）学完整版用于 ship 阶段渠道改写（口播稿/小红书/公众号/直播话术）"
-  - "🆕 Vikki 战队群聊认知提炼任务已入队（2026-06-29）：#30 信息×情绪模型融入 content-production-polish skill（老顽童）；#31 五标签系统转化为 KDO 卡片质量标签（黄药师）；#32 开源知识使用边界概念卡（老顽童）；来源文件 `00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md`"
+  - "🆕 Vikki + 大馨战队群聊认知提炼任务已有机融合并入队（2026-06-30）：#30 content-production-polish skill 2.0 升级（Vikki 信息×情绪 + 大馨 6 维度/4 模板/5 人性开关，老顽童）；#31 KDO 卡片质量标签体系（Vikki 五标签 + 大馨品牌三度，黄药师）；#32 开源知识使用边界概念卡（Vikki 蒸馏事件 + 大馨 抄作业/AI 拆解边界，老顽童）；#33 大馨核心方法论卡片化（5-6 张卡，老顽童）；#34 社群知识生产失败模式库（Vikki 5 + 大馨 5 融合，老顽童）；来源文件 `0071Vikki战队-2群 · 认知精华提炼.md` + `0017大馨战队 · 短视频内容拆解方法论精华提炼.md`"
+  - "🆕 素材文件命名规范工具卡已创建（2026-06-30）：`30_wiki/tools/tool-asset-file-naming-convention.md`，提出素材七要素命名法（类型_项目_场景_来源_版权状态_技术参数_日期_序号），区别于月白设计成品八要素命名法；pre-submit PASS"
+  - "📝 本次会话复盘已写入（2026-06-30）：`20_memory/session-retro-20260630-vikki-daxin-asset-naming.md`；关键决策：Vikki/大馨 5 任务融合入队、素材七要素命名法、AI 自动打标签采用半自动工作流"
+  - "📝 Kimi Code CLI 专项能力复盘已同步（2026-06-30）：`20_memory/kimi-capability-retro-20260630.md` + `agent复盘/Kimi/2026-06-30.md`；平均分 7.6/10；新增 5 条错误模式库记录；Keep/Improve/Add/Stop 四象限已沉淀；Kimi 启动时应自动读取本复盘"
 
 next_session_hint: "下一步：① 老顽童(Kimi)继续处理 #28 剩余 2656 WARNING，优先处理 strategy 域 body 过短（约 57 个 case 卡），然后批量补 L2 Critique/no_external_attacker（846+714），不要再批量删除空 section；② 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---

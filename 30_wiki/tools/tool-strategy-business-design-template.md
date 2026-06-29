@@ -13,15 +13,15 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_132_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_132_ocr_text.md
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - [[strategy-domain-digest]]
-  - [[tool-按图索骥改良外部模板]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - strategy-domain-digest
+- - - tool-按图索骥改良外部模板
+- - - pending_unknown
+- - - pending_unknown
+- - - pending_unknown
 ---
 
 # 业务单元业务设计模板
@@ -138,3 +138,10 @@ def business_unit_design(business_unit: str):
 ## 质疑
 
 > 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+
+**Alexander Osterwalder** 可能会质疑：这个工具依赖的 **商业模式假设、客户验证、价值主张一致性、盈利逻辑** 是否已经被充分验证？
+
+- 模板若未经过真实客户验证，容易把假设当成事实。
+- 七要素之间的内部一致性比单点设计更重要，但模板难以暴露冲突。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

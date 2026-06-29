@@ -5,11 +5,11 @@ title: 只测试最小数量
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-updated_at: 2026-06-29
+updated_at: '2026-06-29'
 domain:
 - strategy
 - yitang
@@ -20,11 +20,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212440_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212440_vlm_desc.md
 related:
-  - [[case-lean-electric-scooter-mvp]]
-  - [[framework-lean-six-wastes]]
-  - [[strategy-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
+- - - case-lean-electric-scooter-mvp
+- - - framework-lean-six-wastes
+- - - strategy-domain-digest
+- - - yitang-domain-digest
+- - - pending_unknown
 ---
 
 # 只测试最小数量
@@ -146,3 +146,12 @@ related:
 ---
 
 *老顽童 · 2026-06-23 · 源：一堂精益创业 FALSE 模型讲义*
+
+## 质疑
+
+**Eric Ries** 可能会质疑：这个工具依赖的 **统计显著性、样本代表性、假阳性、实验周期** 是否已经被充分验证？
+
+- 最小测试量若低于统计显著门槛，结论可能受随机波动影响。
+- 不同用户群体的转化率差异大，统一最小量可能掩盖细分差异。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。

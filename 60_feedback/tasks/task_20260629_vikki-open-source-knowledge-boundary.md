@@ -5,14 +5,16 @@ status: queued
 assignee: 老顽童(Hermes)
 priority: P2
 created_at: 2026-06-29
-updated_at: 2026-06-29
+updated_at: 2026-06-30
 reviewed_by: 欧阳锋
 reviewer: 欧阳锋
 source_refs:
 - 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md
+- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 related:
 - 30_wiki/concepts/concept-kdo-knowledge-boundary
 - 30_wiki/frameworks/framework-kdo-content-license
+- framework-community-knowledge-production-failure-modes
 ---
 
 # 沉淀「开源知识使用边界」概念卡
@@ -26,7 +28,9 @@ related:
 1. **Vikki 开源 3 万字知识库** → 建立了「开源不怕抄袭」的信用
 2. **游侠「蒸馏」事件** → 外部人士用渡鸦模型拆 Vikki 业务，引发信任危机
 3. **群友冲突** → 「Vikki 做开源就不怕抄袭，你在蒸馏的是别人的价值」
-4. **边界线** → 从「学习」到「蒸馏」的分界线是「是否用于商业竞争产品」
+4. **Vikki 边界线** → 从「学习」到「蒸馏」的分界线是「是否用于商业竞争产品」
+5. **大馨「抄作业」边界试探** → 群内故意用「抄作业」而非「借鉴」，引发讨论和互动，是一种精心设计的边界策略
+6. **大馨 AI 拆解 vs 人工拆解** → 用 AI 代替手动实践是否越界？边界线：AI 是工具，「拆完后的内化」才是目的
 
 ## 卡片待产出内容
 

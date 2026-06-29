@@ -40,7 +40,8 @@ def backup(output_dir: Path = None):
             pass
 
     ts = datetime.now().strftime("%Y%m%d-%H%M%S")
-    out = (output_dir or NUTSTORE) / f"kdo-vault-{ts}.zip"
+    out_dir = output_dir or LOCAL_BACKUP
+    out = out_dir / f"kdo-vault-{ts}.zip"
 
     count = 0
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as zf:
@@ -56,8 +57,8 @@ def backup(output_dir: Path = None):
     print(f"备份完成: {out}")
     print(f"  {count} 文件, {sz_mb:.1f} MB")
 
-    # 只保留最新 1 个备份（git + 坚果云已是三保险）
-    all_backups = sorted(NUTSTORE.glob("kdo-vault-*.zip"))
+    # 只保留最新 1 个本地备份
+    all_backups = sorted(out_dir.glob("kdo-vault-*.zip"))
     for old in all_backups[:-1]:
         old.unlink()
         print(f"  清理旧备份: {old.name}")

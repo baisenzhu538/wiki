@@ -10,15 +10,15 @@ domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_142_vlm_desc.md
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 author: 黄药师（从 PPT _142 提取）
 reviewed_by: 欧阳锋
 related:
-  - [[strategy-domain-digest]]
-  - [[anthropic-官方发布创始人手册打造-ai-原生初创公司]]
-  - [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - strategy-domain-digest
+- - - anthropic-官方发布创始人手册打造-ai-原生初创公司
+- - - yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
+- - - pending_unknown
+- - - pending_unknown
 ---
 
 # 战略地图
@@ -95,3 +95,10 @@ def strategy_map_alignment(business_units: list):
 ## 质疑
 
 > 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+
+**Robert Kaplan** 可能会质疑：这个工具依赖的 **因果关系链、指标选择、战略假设、动态反馈** 是否已经被充分验证？
+
+- 战略地图的因果链往往是假设而非事实，需要数据验证。
+- 指标选择若与真实战略目标脱节，地图会变成形式主义工具。
+
+- 使用前应明确本工具的 **具体假设**、适用 **边界**、潜在 **反例** 和隐含 **前提**，避免把模板输出直接当成战略结论。
