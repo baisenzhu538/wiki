@@ -5,7 +5,7 @@ title: 超值服务：用 VIP 服务验证标准服务
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 欧阳锋
+reviewed_by: pending
 confidence: 0.8
 trust_level: medium
 language: zh-CN
@@ -17,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212224_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212224_vlm_desc.md
 related:
-  - [[case-lean-electric-scooter-mvp]]
-  - [[strategy-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - case-lean-electric-scooter-mvp
+- - - strategy-domain-digest
+- - - yitang-domain-digest
+- - - pending_unknown
+- - - pending_unknown
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
@@ -177,3 +177,5 @@ updated_at: '2026-06-29'
 ---
 
 *老顽童 · 2026-06-23 · 源：一堂精益创业 FALSE 模型讲义*
+
+使用本工具前，应明确其**具体假设**（高接触 VIP 服务能映射标准化产品价值）、适用**边界**（如服务可拆解为 SOP）、把创始人亲自服务的好感当普遍需求的**反例**，以及「人工溢价可被剥离」这一隐含**前提**。

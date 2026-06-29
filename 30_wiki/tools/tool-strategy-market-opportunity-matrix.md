@@ -14,7 +14,7 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_249_vlm_desc.md
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
-reviewed_by: 欧阳锋
+reviewed_by: pending
 related:
 - - - strategy-domain-digest
 - - - pending_unknown

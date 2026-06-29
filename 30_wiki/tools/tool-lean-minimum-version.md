@@ -5,7 +5,7 @@ title: 只发布最小版本
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 欧阳锋
+reviewed_by: pending
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -17,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212406_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212406_vlm_desc.md
 related:
-  - [[case-lean-electric-scooter-mvp]]
-  - [[framework-lean-six-wastes]]
-  - [[strategy-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
+- - - case-lean-electric-scooter-mvp
+- - - framework-lean-six-wastes
+- - - strategy-domain-digest
+- - - yitang-domain-digest
+- - - pending_unknown
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
@@ -133,6 +133,7 @@ updated_at: '2026-06-29'
 
 Ries 在《精益创业》中强调 MVP 的核心是“用最小成本完成一次 Build-Measure-Learn 循环”，而不是“发布一个简陋产品”。如果团队只把“只发布最小版本”当成缩减工作量的借口，却忽略了测量与学习环节，就会陷入“为了小而小”的局部优化 [conf=0.85, source=Eric Ries《精益创业》]。
 
+使用本工具前，应明确其**具体假设**（用户愿为最小功能集付费）、适用**边界**（如合规/安全/信任硬门槛）、把尝鲜者反馈当市场信号的**反例**，以及「最小版本能独立交付完整价值」这一隐含**前提**。
 ## 案例映射
 
 ### 正例：共享电动滑板车 C 版验证

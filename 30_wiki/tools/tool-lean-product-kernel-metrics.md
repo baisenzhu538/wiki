@@ -5,7 +5,7 @@ title: 产品内核十大典型指标
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 欧阳锋
+reviewed_by: pending
 confidence: 0.82
 trust_level: medium
 language: zh-CN
@@ -17,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_ocr_text.md
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_vlm_desc.md
 related:
-  - [[case-lean-electric-scooter-mvp]]
-  - [[strategy-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - case-lean-electric-scooter-mvp
+- - - strategy-domain-digest
+- - - yitang-domain-digest
+- - - pending_unknown
+- - - pending_unknown
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
@@ -171,3 +171,5 @@ updated_at: '2026-06-29'
 ---
 
 *老顽童 · 2026-06-23 · 源：一堂精益创业「产品内核十大典型指标」讲义*
+
+使用本工具前，应明确其**具体假设**（三环节指标能真实反映产品内核健康度）、适用**边界**（如数据口径统一、团队不把指标当 KPI）、把虚荣指标当验证信号的**反例**，以及「指标能驱动每周实验决策」这一隐含**前提**。

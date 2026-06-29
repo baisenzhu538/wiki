@@ -5,7 +5,7 @@ title: 做预售：用真实订单验证付费意愿
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 欧阳锋
+reviewed_by: pending
 updated_at: '2026-06-29'
 confidence: 0.85
 trust_level: medium

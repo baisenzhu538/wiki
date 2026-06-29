@@ -5,7 +5,7 @@ title: 借流量工具：用现有流量测试
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 欧阳锋
+reviewed_by: pending
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -17,11 +17,11 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212323_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212323_vlm_desc.md
 related:
-  - [[case-lean-electric-scooter-mvp]]
-  - [[strategy-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - case-lean-electric-scooter-mvp
+- - - strategy-domain-digest
+- - - yitang-domain-digest
+- - - pending_unknown
+- - - pending_unknown
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
@@ -131,3 +131,5 @@ updated_at: '2026-06-29'
 ---
 
 *老顽童 · 2026-06-23 · 源：一堂精益创业 FALSE 模型讲义「借流量工具」*
+
+使用本工具前，应明确其**获客渠道假设**、流量池与真实目标用户画像的**边界**、把互动当付费意愿的**反例**，以及「用户已产生行动意愿」这一隐含**前提**，避免把借流量的局部信号直接当作全局需求成立的证据。
