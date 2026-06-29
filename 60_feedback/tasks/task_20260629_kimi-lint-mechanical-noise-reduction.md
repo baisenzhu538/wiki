@@ -1,7 +1,7 @@
 ---
 id: task_20260629_kimi-lint-mechanical-noise-reduction
 type: task
-status: pending_review
+status: reviewed
 assignee: 老顽童(Hermes)
 priority: P1
 created_at: 2026-06-29
@@ -77,3 +77,13 @@ source_refs:
 ---
 
 > 本任务为 #26 的延续，承接用户“继续”指令，对 lint WARNING 做机械类降噪。剩余内容债进入 `task_20260629_kimi-lint-content-debt-by-domain.md` 按域分批处理。
+
+## 欧阳锋终审记录
+
+- **审查时间**：2026-06-29
+- **实测验证**：
+  - `kdo lint`：0 ERROR / 3286 WARNING，符合任务表预期 ✅
+  - `kdo pre-submit`：Result PASS ✅
+  - `kdo/workspace.py` 阈值调整已确认：`copy-paste` 0.85→0.95，标题数字容差改为 `abs(actual - expected) > 2` ✅
+- **审查结论**：机械类降噪目标达成，状态置为 `reviewed`。
+- **下一步**：剩余 3286 WARNING 为内容债，进入 `task_20260629_kimi-lint-content-debt-by-domain.md` 按域分批处理，不再做机械修复。
