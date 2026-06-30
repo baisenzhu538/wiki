@@ -243,17 +243,6 @@ Vikki 群和大馨群的失败模式可以直接映射到 KDO 五绝：
 | 用模式库要求所有成员贡献 | 强行贡献会降低社群体验 | 先分层：核心贡献者 + 活跃参与者 + 围观者 |
 | 用模式库做短期 ROI 归因 | 社群知识生产是长期资产 | 结合 30/60/90 天指标评估 |
 
-## Synthesis
-
-| 关系 | 目标节点 | 说明 |
-|---|---|---|
-| 开源边界 | [[concept-open-source-knowledge-usage-boundary]] | 失败模式 F9 直接对应开源知识使用边界 |
-| 训练营案例 | [[case-daxin-team-content-training-camp]] | 大馨战队的 6 个失败模式是本库的子集 |
-| 内容经营 | [[framework-content-business-six-step]] | 6 步闭环帮助社群建立可持续内容生产节奏 |
-| 创始人 IP | [[framework-founder-ip-three-positioning]] | 社群中心化瓶颈与 IP 中心化风险同构 |
-| 品牌三度 | [[framework-brand-three-degree]] | 社群信任危机直接影响品牌信任度 |
-| 拆解工具 | [[tool-shortvideo-six-dimension-deconstruction]] | 大馨战队用 6 维度工具，也面临模板疲劳风险 |
-
 ### Action Triggers
 
 | 触发场景 | 第一个动作 | 成功指标 |
@@ -271,6 +260,7 @@ Vikki 群和大馨群的失败模式可以直接映射到 KDO 五绝：
 |---|---|---|
 | 开源边界 | [[concept-open-source-knowledge-usage-boundary]] | 失败模式 F9 直接对应开源知识使用边界 |
 | 训练营案例 | [[case-daxin-team-content-training-camp]] | 大馨战队的 6 个失败模式是本库的子集 |
+| 模式对比案例 | [[case-daxin-vikki-community-contrast]] | Vikki 群与大馨群的对比证据 |
 | 内容经营 | [[framework-content-business-six-step]] | 6 步闭环帮助社群建立可持续内容生产节奏 |
 | 创始人 IP | [[framework-founder-ip-three-positioning]] | 社群中心化瓶颈与 IP 中心化风险同构 |
 | 品牌三度 | [[framework-brand-three-degree]] | 社群信任危机直接影响品牌信任度 |
