@@ -53,10 +53,11 @@ def parse_frontmatter(path: Path) -> tuple[dict[str, Any], str]:
     text = path.read_text(encoding="utf-8")
     if not text.startswith("---"):
         return {}, text
-    parts = re.split(r"\n---\s*\n", text, maxsplit=2)
-    if len(parts) < 3:
+    # Match leading frontmatter block: ---\n<yaml>\n---\n<body>
+    match = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n(.*)$", text, re.DOTALL)
+    if not match:
         return {}, text
-    fm_text, body = parts[1], parts[2]
+    fm_text, body = match.group(1), match.group(2)
     if yaml is None:
         raise RuntimeError("PyYAML is required to parse frontmatter")
     data = yaml.safe_load(fm_text) or {}

@@ -1,22 +1,18 @@
 ---
-status: reviewed
-reviewed_by: 欧阳锋
-review_date: '2026-06-28'
-updated_at: '2026-06-30T15:24:56.626578+00:00'
----
----
 id: task_20260628_laowantong-lint-batch2-dk-sections
 type: task
-status: pending_review
-last_reexecuted_at: 2026-06-28T15:35:00+08:00
+status: reviewed
+last_reexecuted_at: 2026-06-28 15:35:00+08:00
 assignee: WorkBuddy 老顽童
 priority: P1
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-30T15:26:05.014688+00:00'
 reviewer: 欧阳锋
 source_refs:
 - 90_control/.tmp/lint_20260628_1620.log
 - 90_control/.tmp/lint_batch2_dk_section.json
+reviewed_by: 欧阳锋
+review_date: '2026-06-28'
 ---
 
 # lint Batch 2-B：dark-knowledge 卡 section 标准化（43 文件）

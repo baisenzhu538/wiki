@@ -1,15 +1,17 @@
 ---
 id: task_20260629_historical-debt-case-section-132
 type: task
-status: pending_review
+status: reviewed
 assignee: 老顽童(Hermes)
 priority: P2
 created_at: 2026-06-29
-updated_at: 2026-06-29
+updated_at: '2026-06-30T15:25:31.704370+00:00'
 reviewer: 欧阳锋
 source_refs:
 - 60_feedback/tasks/task_20260629_laowantong-lint-a2-case-section-completion.md
 - 30_wiki/projects/parking-lot.md
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
 ---
 
 # 历史债务处理：132 个 Case card missing section 修复
