@@ -4,7 +4,7 @@ updated_at: 2026-06-30
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#30 Vikki + 大馨 content-production-polish skill 2.0 升级（reviewed 2026-06-30）：欧阳锋终审通过；老顽童(Kimi)可继续领取 #28 lint 内容债（2656 WARNING，strategy 域 body 过短 → L2 Critique）或 #31-34 Vikki/大馨 新任务"
+active_task: "#31 Vikki 五标签 + 大馨品牌三度 → KDO 卡片质量标签体系（pending_review）：老顽童(Kimi)已完成 framework-brand-three-degree 概念卡 + system-kdo-quality-labels 指南 + 50 张试点卡片 quality_labels 迁移；kdo pre-submit 50/50 PASS + 新卡 2/2 PASS；待欧阳锋终审；#28 lint 内容债仍 queued"
 blockers:
   - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已处理 28 文件，copy-paste 清零（76→0），lint 从 3255 降至 2656 WARNING；当前实例切换至 #30，#28 已释放回 queued；后续继续处理 strategy 域 body 过短，然后批量补 L2 Critique 外部反对者"
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"
@@ -78,7 +78,7 @@ blockers:
   - "📝 本次会话复盘已写入（2026-06-30）：`20_memory/session-retro-20260630-vikki-daxin-asset-naming.md`；关键决策：Vikki/大馨 5 任务融合入队、素材七要素命名法、AI 自动打标签采用半自动工作流"
   - "📝 Kimi Code CLI 专项能力复盘已同步（2026-06-30）：`20_memory/kimi-capability-retro-20260630.md` + `agent复盘/Kimi/2026-06-30.md`；平均分 7.6/10；新增 5 条错误模式库记录；Keep/Improve/Add/Stop 四象限已沉淀；Kimi 启动时应自动读取本复盘"
 
-next_session_hint: "下一步：① 欧阳锋终审 #30 Vikki + 大馨 content-production-polish skill 2.0 升级（SKILL.md + human-speech-rules.md，kdo pre-submit 2/2 PASS）；② 老顽童(Kimi)释放 #30 后，可继续领取 #28 lint 内容债（2656 WARNING，strategy 域 body 过短）或 #31-34 新任务；③ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 欧阳锋终审 #31 KDO 卡片质量标签体系（framework-brand-three-degree + system-kdo-quality-labels + 50 张迁移卡，kdo pre-submit 全 PASS）；② 老顽童(Kimi)释放 #31 后，可继续领取 #28 lint 内容债（2656 WARNING，strategy 域 body 过短 → L2 Critique）或 #32-34 Vikki/大馨 新任务；③ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

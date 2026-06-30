@@ -106,7 +106,10 @@ class SQLiteState:
 
     def __init__(self, db_path: Path):
         self._db = sqlite3.connect(db_path, check_same_thread=False)
+        self._db.execute("PRAGMA journal_mode=WAL")
+        self._db.execute("PRAGMA synchronous=NORMAL")
         self._db.row_factory = sqlite3.Row
+        self._write_lock = threading.Lock()
         self._ensure_tables()
 
     def get(self, key: str, default=None):
@@ -130,7 +133,7 @@ class SQLiteState:
 - 支持 `for source in state.get("sources", [])`（迭代时按需查询）
 - 支持 `len(state.get("sources", []))`
 - 支持按 id 快速查找：`collection.by_id("src_xxx")`
-- 写操作（append、update）暂存在内存，调用 `save_state()` 时批量写入
+- **写操作（append、update）立即写入数据库**（受 `_write_lock` 保护），不等待 `save_state()`
 
 这样现有代码几乎不用改：
 
@@ -144,16 +147,30 @@ for source in state.get("sources", []):
 source = state["sources"].by_id(target_id)
 ```
 
-### 3.3 save_state 行为
+### 3.3 save_state 语义重新定义
+
+黄药师关键补充：SQLite 下 `save_state()` 不再是“全量序列化写文件”，而是“确认持久化 / WAL checkpoint”。
 
 ```python
 def save_state(root: Path, state: SQLiteState | dict) -> None:
     if isinstance(state, SQLiteState):
-        state.commit()
+        # 写操作已在 append()/update() 时落库；
+        # save_state 只做 WAL checkpoint 或 no-op。
+        state.checkpoint()
     else:
         # fallback：兼容旧路径/测试
         _legacy_save_state_json(root, state)
 ```
+
+对应集合操作语义：
+
+| 操作 | JSON 行为 | SQLite 行为 |
+|:---|:---|:---|
+| `state["sources"].append(record)` | 追加到内存 list | 立即 `INSERT INTO kdo_records` |
+| `state["sources"].update(record)` | 修改内存 list | 立即 `UPDATE kdo_records` |
+| `save_state(root, state)` | 把整个 dict 写回文件 | WAL checkpoint / no-op |
+
+对调用方透明，但避免“内存累积后 save 失败丢一批数据”的风险。
 
 ---
 
@@ -231,12 +248,16 @@ CREATE TABLE kdo_strings (
 - 若发现问题，可通过环境变量 `KDO_STATE_BACKEND=json` 强制使用旧 JSON。
 - 或提供命令 `kdo migrate --rollback-state` 从 SQLite 导出回 JSON。
 
-### 5.3 双写过渡期（可选）
+### 5.3 双写过渡期（不做）
 
-为了最高安全性，可以第一周保持 **SQLite 主写 + JSON 影子写**：
-- `save_state()` 同时更新 SQLite 和 state.json。
-- 启动时优先 SQLite，不一致时报警。
-- 一周后关掉 JSON 影子写。
+黄药师评审结论：**双写是过度防御，不做**。
+
+理由：
+- 增加 `save_state` 复杂度（两次写入，失败处理更麻烦）
+- `state.json.migrated` 备份已经是安全网
+- 环境变量 `KDO_STATE_BACKEND=json` 回退已经足够
+
+最终方案：**单写 + 备份 + 回退命令**。
 
 ---
 
@@ -267,14 +288,16 @@ CREATE TABLE kdo_strings (
 
 ---
 
-## 七、性能预期
+## 七、性能预期（需实测验证）
+
+> 以下数字为方向性估算，MVP 阶段必须跑实际 benchmark——`time kdo enrich --all --dry-run` 迁移前后对比。
 
 | 操作 | 当前 (JSON) | 迁移后 (SQLite) | 备注 |
 |:---|---:|---:|:---|
 | `load_state()` 首次 | ~50ms | ~10ms + 首次连接 | 连接可复用 |
 | `state["sources"].by_id()` | O(n) ~0.5ms@689 | O(log n) ~0.05ms | 10k 时差距更大 |
-| `save_state()` 小更新 | ~80ms 写 1.8MB | ~5ms 写单条 | 最大收益 |
-| `enrich --all` source 查找 | 主导耗时之一 | 下降 5–10x | 取决于 enriched 数量 |
+| `save_state()` 小更新 | ~80ms 写 1.8MB | ~5ms 写单条 | 最大收益（估算） |
+| `enrich --all` source 查找 | 主导耗时之一 | 下降 5–10x | 取决于 enriched 数量（估算） |
 | dashboard 启动 | 需全量解析 | 按需查询 | 感知明显 |
 
 ---
@@ -310,23 +333,35 @@ CREATE TABLE kdo_strings (
 | 风险 | 缓解 |
 |:---|:---|
 | SQLite 文件损坏 | 启用 WAL 模式；保留 JSON 备份；定期 `.backup` |
-| 多线程访问冲突 | `check_same_thread=False` + 显式锁；或用连接池 |
+| 多线程访问冲突 | WAL 模式 + 单连接池 + 写操作加 `threading.Lock` |
 | 迁移后数据不一致 | 迁移后校验 `count(*)` 与 JSON 记录数一致 |
 | 某些代码直接读 `.kdo/state.json` | 搜索所有直接路径引用，改为 `load_state()` |
 | Python 环境缺少 sqlite3 | Python 标准库自带，无需额外依赖 |
 
 ---
 
-## 十、实施优先级与分工
+## 十、实施优先级与分工（黄药师拍板版）
 
-| 阶段 | 工作 | 负责人 | 预计时间 |
+### 本周做
+
+| # | 工作 | 负责人 | 预计时间 |
 |:---:|:---|:---|:---:|
-| **P0** | 实现 SQLiteState + load/save_state 兼容层 | 黄药师 | 2–3 天 |
-| **P0** | 自动迁移脚本 + 回滚命令 | 黄药师 | 1 天 |
-| **P0** | 单元测试 + 副本 wiki 集成测试 | 黄药师 | 2 天 |
-| **P1** | 优化 `enrich` / `pre-submit` 中的查找路径 | 黄药师 | 2–3 天 |
-| **P1** | dashboard 统计 SQL 化 | 黄药师 | 1–2 天 |
-| **P2** | 删除 JSON shadow write，清理遗留代码 | 黄药师 | 1 天 |
+| 1 | 实现 SQLiteState + SQLiteCollection（**只支持 sources 集合**） | 黄药师 | 2–3 天 |
+| 2 | `load_state()` 自动检测 + 迁移 | 黄药师 | 1 天 |
+| 3 | 跑 `enrich` benchmark 实测性能提升 | 黄药师 | 0.5 天 |
+
+### 下周做
+
+| # | 工作 | 负责人 | 预计时间 |
+|:---:|:---|:---|:---:|
+| 4 | 扩展其余 16 个集合到 SQLite | 黄药师 | 2–3 天 |
+| 5 | 实现 `kdo migrate state --rollback` | 黄药师 | 1 天 |
+| 6 | 集成测试 + 并发安全测试 | 黄药师 | 1–2 天 |
+
+### 不做
+
+- ❌ 双写过渡期（过度防御）
+- ❌ `check_same_thread=False` 绕过（改用 WAL + Lock）
 
 ---
 
