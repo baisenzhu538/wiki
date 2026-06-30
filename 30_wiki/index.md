@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-28T04:52:56+00:00_
+_Last updated: 2026-06-30T15:02:38+00:00_
 
 - [[session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[concept-一堂-business-prediction|concept-一堂-business-prediction]] — source no source
@@ -3831,4 +3831,9 @@ _Last updated: 2026-06-28T04:52:56+00:00_
 - [[case-yitang-goat-milk-channel-partnership|羊奶粉「卖地图」区域代理模式案例]]
 - [[tool-yitang-channel-partnership-design|区域代理/底价合伙人模式设计工具]]
 - [[concept-kdo-review-workflow|KDO 生产审查工作流（欧阳锋模式）]]
+- [[framework-founder-ip-three-positioning|创始人 IP 三定位模型]]
+- [[framework-content-business-six-step|内容经营 6 步闭环]]
+- [[framework-brand-three-degree|品牌三度]]
+- [[tool-shortvideo-six-dimension-deconstruction|短视频 6 维度拆解工具]]
+- [[case-daxin-team-content-training-camp|大馨战队短视频拆解训练营]]
 
