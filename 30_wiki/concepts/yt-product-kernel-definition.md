@@ -13,6 +13,10 @@ source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
 - 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 老顽童

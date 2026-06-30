@@ -1,6 +1,10 @@
 ---
 id: yt-entrepreneur-five-step-method
 confidence: 0.8
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: 2026-05-06
 difficulty: intermediate
 domain:

@@ -14,6 +14,9 @@ domain:
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI 与本质建模）。单一完整长文档支撑，但尚未找到第二独立来源，因此 trust_level 维持 medium；待后续案例或实践验证后可升
   high。
+quality_labels:
+  - quality
+  - validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童

@@ -28,6 +28,10 @@ related:
   - "[[tool-纪浩-AI使用边界管理法]]"
   - "[[tool-纪浩-项目启动五问法]]"
   - "[[tool-纪浩-AI工作空间与导诊台设计法]]"
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: 2026-06-08
 updated_at: '2026-06-28'
 pipeline:

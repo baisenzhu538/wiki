@@ -2,6 +2,10 @@
 id: yt-five-step-common-pitfalls
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
+quality_labels:
+  - cited
+  - quality
+  - validated
 created_at: 2026-06-11
 difficulty: intermediate
 domain:

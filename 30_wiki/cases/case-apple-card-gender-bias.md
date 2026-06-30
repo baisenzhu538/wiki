@@ -4,6 +4,10 @@ id: case-apple-card-gender-bias
 title: Apple Card 信用额度性别争议
 type: case
 status: enriched
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童

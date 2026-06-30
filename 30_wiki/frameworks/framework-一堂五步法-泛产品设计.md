@@ -12,6 +12,12 @@ quality_labels:
   - principle
   - quality
   - validated
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - quality
+  - validated
 created_at: 2026-06-26
 updated_at: '2026-06-28'
 confidence: 0.82

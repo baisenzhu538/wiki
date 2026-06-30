@@ -19,6 +19,11 @@ source_refs:
 - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
 - src_unknown
 - src_unknown
+quality_labels:
+  - cited
+  - principle
+  - quality
+  - validated
 created_at: 2026-06-13
 updated_at: 2026-06-13
 author: unknown

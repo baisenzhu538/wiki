@@ -2,6 +2,10 @@
 
 id: yt-unit-model-ai-assisted
 confidence: 0.89
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: 2026-05-24
 difficulty: intermediate
 domain:

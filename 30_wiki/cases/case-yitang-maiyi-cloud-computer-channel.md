@@ -15,6 +15,10 @@ quality_labels:
   - actionable
   - cited
   - validated
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: 2026-06-27
 updated_at: '2026-06-28'
 source_refs:

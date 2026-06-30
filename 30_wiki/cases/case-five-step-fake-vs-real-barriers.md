@@ -13,6 +13,10 @@ confidence: 0.85
 difficulty: intermediate
 estimated_tokens: 2400
 language: zh-CN
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by: 黄药师（Builder体验Producer）

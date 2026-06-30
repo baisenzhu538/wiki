@@ -12,6 +12,9 @@ domain:
 - modeling
 source_person: Truman
 source_context: 一堂高阶建模能力培训（销冠广场与一堂五步法）
+quality_labels:
+  - quality
+  - validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童

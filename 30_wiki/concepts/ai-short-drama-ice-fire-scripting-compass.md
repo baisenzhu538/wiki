@@ -10,6 +10,10 @@ source_refs:
 - 10_raw/sources/src_20260613_41aceaf5-ice-fire-scripting-compass.md
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md
 - 10_raw/sources/src_20260613_12d63c1c-notes.md
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: '2026-06-13'
 updated_at: '2026-06-28'
 author: 老顽童

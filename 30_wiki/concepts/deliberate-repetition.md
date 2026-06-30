@@ -7,6 +7,11 @@ domain:
 - ai-collaboration
 - skill-building
 status: reviewed
+quality_labels:
+  - cited
+  - principle
+  - quality
+  - validated
 created_at: 2026-06-29
 updated_at: 2026-06-29
 author: 老顽童

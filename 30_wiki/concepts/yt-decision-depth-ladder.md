@@ -72,6 +72,10 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: 2026-06-15
 
 ---

@@ -27,6 +27,10 @@ quality_labels:
   - cited
   - principle
   - validated
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: 2026-06-13
 updated_at: 2026-06-13
 author: unknown

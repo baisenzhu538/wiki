@@ -14,6 +14,9 @@ source_refs:
 - 60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md
 - 60_feedback/audit/lean-startup-nine-layer-annotation.md
 - 60_feedback/audit/lean-startup-six-layer-validation.md
+quality_labels:
+  - cited
+  - validated
 created_at: '2026-06-23'
 author: 黄药师
 reviewed_by: pending

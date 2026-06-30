@@ -4,6 +4,10 @@ domain:
 - src_unknown
 id: yitang-strategy-canvas
 confidence: 0.9
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: 2026-06-17
 difficulty: intermediate
 language: zh-CN

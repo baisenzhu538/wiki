@@ -16,6 +16,10 @@ source_refs:
 - 10_raw/sources/src_20260614_fbe4a480-企业高新技术与专精特新资质申报规划.md
 - 10_raw/sources/src_20260614_40afd886-theme-finance-legal-business-summary.md
 tags: []
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童

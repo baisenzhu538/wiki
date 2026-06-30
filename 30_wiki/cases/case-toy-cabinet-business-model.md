@@ -1,6 +1,11 @@
 ---
 id: case-toy-cabinet-business-model
 confidence: 0.85
+quality_labels:
+  - actionable
+  - cited
+  - quality
+  - validated
 created_at: 2026-06-10
 difficulty: intermediate
 domain: yitang

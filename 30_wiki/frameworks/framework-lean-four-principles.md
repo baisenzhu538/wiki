@@ -9,6 +9,10 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: 2026-06-23
 updated_at: 2026-06-23
 domain:

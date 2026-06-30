@@ -86,6 +86,10 @@ def select_candidates(limit: int = 50) -> list[Path]:
         related = fm.get("related", [])
         src = fm.get("source_refs", [])
 
+        # Skip cards that already have quality_labels
+        if fm.get("quality_labels"):
+            continue
+
         # Score for selection
         score = 0
         if status in ("reviewed", "stable"):

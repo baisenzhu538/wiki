@@ -19,6 +19,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+quality_labels:
+  - cited
+  - validated
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:

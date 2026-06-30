@@ -19,6 +19,9 @@ domain:
 - ai-collaboration
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI Skill 工程指南产出过程）
+quality_labels:
+  - quality
+  - validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童

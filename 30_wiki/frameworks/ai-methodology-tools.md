@@ -21,6 +21,11 @@ source_refs:
 - 10_raw/sources/src_20260614_329d0e0c-theme-ai-methodology-tools-summary.md
 - 10_raw/sources/src_20260614_5f13a66f-何老师-智能入口开发会议.md
 tags: []
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童

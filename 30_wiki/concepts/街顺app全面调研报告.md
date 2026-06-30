@@ -1,5 +1,10 @@
 ---
 id: 街顺app全面调研报告
+quality_labels:
+  - cited
+  - principle
+  - quality
+  - validated
 created_at: 2026-04-26
 domain: healthcare
 review_date: 2026-05-03

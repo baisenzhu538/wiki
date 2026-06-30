@@ -1,6 +1,12 @@
 ---
 id: yt-five-step-method
 confidence: 0.9
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - quality
+  - validated
 created_at: 2026-06-10
 difficulty: beginner
 domain:

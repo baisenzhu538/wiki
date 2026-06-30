@@ -1,6 +1,10 @@
 ---
 id: yt-barrier-identification-skill
 confidence: 0.85
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: 2026-06-11
 difficulty: advanced
 domain:

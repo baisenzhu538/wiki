@@ -32,6 +32,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: 2026-06-07
 estimated_tokens: 4200
 pipeline:

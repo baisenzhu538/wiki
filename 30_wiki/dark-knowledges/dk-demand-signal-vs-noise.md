@@ -7,6 +7,9 @@ domain:
 - demand-analysis
 - yitang
 status: reviewed
+quality_labels:
+  - cited
+  - validated
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童

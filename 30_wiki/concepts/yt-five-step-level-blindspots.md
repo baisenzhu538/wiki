@@ -3,6 +3,9 @@
 id: yt-five-step-level-blindspots
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
+quality_labels:
+  - cited
+  - validated
 created_at: 2026-06-11
 difficulty: intermediate
 domain:

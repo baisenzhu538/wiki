@@ -15,6 +15,11 @@ quality_labels:
   - principle
   - quality
   - validated
+quality_labels:
+  - cited
+  - principle
+  - quality
+  - validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童

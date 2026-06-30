@@ -13,6 +13,11 @@ quality_labels:
   - principle
   - quality
   - validated
+quality_labels:
+  - cited
+  - principle
+  - quality
+  - validated
 created_at: 2026-05-05
 domain: research
 yitang:

@@ -12,6 +12,11 @@ trust_level: medium-high
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
+quality_labels:
+  - insight
+  - principle
+  - quality
+  - validated
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:

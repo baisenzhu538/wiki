@@ -8,6 +8,11 @@ domain:
 - decision-science
 author: 老顽童
 reviewed_by: 欧阳锋
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - validated
 created_at: 2026-06-15
 updated_at: 2026-06-26
 confidence: 0.75

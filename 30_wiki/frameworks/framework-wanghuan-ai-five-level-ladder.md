@@ -8,6 +8,10 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣

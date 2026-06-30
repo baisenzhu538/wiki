@@ -4,6 +4,10 @@ id: case-chen-qiufan-ai-writing
 title: 陈楸帆对 AI 写作的态度转向
 type: case
 status: enriched
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童

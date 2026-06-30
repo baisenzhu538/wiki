@@ -32,6 +32,10 @@ updated_at: 2026-06-16
 id: yt-management-business-formula
 author: 老顽童
 reviewed_by: 欧阳锋
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: 2026-06-15
 ---
 

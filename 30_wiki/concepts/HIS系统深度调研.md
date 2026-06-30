@@ -1,5 +1,10 @@
 ---
 id: HIS系统深度调研
+quality_labels:
+  - cited
+  - principle
+  - quality
+  - validated
 created_at: 2026-05-03
 domain: healthcare
 review_date: 2026-05-03

@@ -4,6 +4,10 @@ id: case-strategy-model-selection-quiz
 title: 10情境战略模型选择练习：什么情境配什么工具
 type: case
 status: enriched
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 reviewed_by: 欧阳锋

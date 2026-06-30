@@ -2,6 +2,11 @@
 id: yt-five-step-implementation
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
+quality_labels:
+  - actionable
+  - cited
+  - quality
+  - validated
 created_at: 2026-06-11
 difficulty: intermediate
 domain:

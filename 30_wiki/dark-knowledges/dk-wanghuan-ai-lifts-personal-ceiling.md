@@ -8,6 +8,10 @@ domain:
 - human-ai-collaboration
 - ai-collaboration
 - yitang
+quality_labels:
+  - cited
+  - quality
+  - validated
 created_at: '2026-06-19'
 updated_at: 2026-06-28
 author: 老顽童

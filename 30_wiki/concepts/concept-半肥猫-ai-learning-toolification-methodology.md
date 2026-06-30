@@ -14,6 +14,10 @@ source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 - 10_raw/sources/src_20260617_26d0ee0b-ai俱乐部-ai学习落地-半肥猫-笔记.txt
 - 10_raw/sources/src_20260617_205eaa9b-ai俱乐部-ai学习落地-半肥猫-口述.txt
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: 2026-06-07
 updated_at: '2026-06-28'
 related:

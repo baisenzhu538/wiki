@@ -10,6 +10,11 @@ source_refs:
 - 10_raw/sources/src_20260613_c17fcdb2-ice-fire-dissection-compass.md
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md
 - 10_raw/sources/src_20260613_12d63c1c-notes.md
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - validated
 created_at: '2026-06-13'
 updated_at: '2026-06-28'
 author: 老顽童

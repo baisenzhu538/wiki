@@ -4,6 +4,10 @@ id: case-ai-companion-emotional
 title: AI 情感陪伴的市场与伦理
 type: case
 status: enriched
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童

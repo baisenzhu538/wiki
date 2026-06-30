@@ -14,6 +14,9 @@ reviewed_by: 欧阳锋
 quality_labels:
   - cited
   - validated
+quality_labels:
+  - cited
+  - validated
 created_at: 2026-06-28
 updated_at: '2026-06-28'
 source_refs:

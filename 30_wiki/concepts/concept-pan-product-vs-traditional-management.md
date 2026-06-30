@@ -15,6 +15,10 @@ quality_labels:
   - cited
   - principle
   - validated
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: 2026-06-28
 updated_at: '2026-06-28'
 source_refs:

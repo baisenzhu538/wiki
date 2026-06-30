@@ -4,6 +4,10 @@ id: case-ai-job-displacement-wef
 title: WEF 对 AI 就业影响的预测
 type: case
 status: enriched
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童
