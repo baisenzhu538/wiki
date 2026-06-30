@@ -382,9 +382,34 @@ CREATE TABLE kdo_strings (
 
 1. **只迁移 `sources` 表**（689 条，enrich 最常用），其余集合继续走 JSON。
 2. **保持 `load_state()` 返回 dict 兼容对象**，不改任何调用方。
-3. **双写一周**：SQLite 主写，JSON 影子写。
+3. **单写 + 备份 + 回退命令**：不双写，`state.json.migrated` 作为备份，`KDO_STATE_BACKEND=json` 作为回退。
 
 这样风险最低，同时解决 enrich 的最大痛点。
+
+---
+
+## 十三、黄药师评审意见（2026-06-29）
+
+**总体评定：A-，采纳。从 MVP 开始做。**
+
+### 方案正确的地方
+
+- 不改 272 处调用代码，只改 `load_state()` / `save_state()` 抽象层——正确的工程直觉。
+- 统一表 + JSON 列选型对，比 15 张独立表更灵活。
+- MVP 策略务实：先只迁移 `sources`，风险最低且打中 enrich 痛点。
+- 零停机迁移 + 回滚设计合理，符合 P-21 方法论。
+
+### 纠正与补充
+
+1. **线程安全**：不用 `check_same_thread=False`，改用 **WAL 模式 + 单连接池 + 写操作加 `threading.Lock`**。
+2. **不做双写**：单写 + 备份 + 回退命令足够，双写是过度防御。
+3. **性能数字需实测**：`time kdo enrich --all --dry-run` 迁移前后对比。
+4. **`save_state` 语义重新定义**：`append()`/`update()` 立即写数据库，`save_state()` 只做 WAL checkpoint / no-op。
+
+### 执行计划
+
+- **本周**：SQLiteState + sources 集合 + 自动迁移 + enrich benchmark
+- **下周**：扩展其余 16 个集合 + rollback 命令 + 集成测试
 
 ---
 
