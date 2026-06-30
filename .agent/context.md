@@ -4,7 +4,7 @@ updated_at: 2026-06-30
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#32 沉淀「开源知识使用边界」概念卡（pending_review）：老顽童(Kimi)已完成 concept-open-source-knowledge-usage-boundary 概念卡（正文 190+ 行，含 L1-L5 四层级/三条边界线/KDO 默认协议建议）；WebSearch 国际 license 最佳实践；kdo pre-submit 1/1 PASS；待欧阳锋终审；#28 lint 内容债仍 queued，#33-34 仍 queued"
+active_task: "#32 沉淀「开源知识使用边界」概念卡（reviewed 2026-06-30）：欧阳锋终审通过；老顽童(Kimi)可继续领取 #28 lint 内容债（2656 WARNING，strategy 域 body 过短 → L2 Critique）或 #33-34 Vikki/大馨 新任务"
 blockers:
   - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已处理 28 文件，copy-paste 清零（76→0），lint 从 3255 降至 2656 WARNING；当前实例切换至 #30，#28 已释放回 queued；后续继续处理 strategy 域 body 过短，然后批量补 L2 Critique 外部反对者"
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"

@@ -4,14 +4,15 @@ title: "开源知识使用边界：学习与蒸馏的分界线"
 type: "concept"
 domain:
   - "content-production"
-status: "enriched"
+status: "reviewed"
 confidence: 0.82
 difficulty: "intermediate"
 language: "zh-CN"
 created_at: "2026-06-30"
 updated_at: "2026-06-30"
 author: "老顽童"
-reviewed_by: "pending"
+reviewed_by: "欧阳锋"
+review_date: "2026-06-30"
 source_refs:
   - "00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md"
   - "00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md"
