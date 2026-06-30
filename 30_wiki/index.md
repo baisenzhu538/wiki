@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-30T15:09:39+00:00_
+_Last updated: 2026-06-30T16:07:51+00:00_
 
 - [[session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -2149,3 +2149,5 @@ _Last updated: 2026-06-30T15:09:39+00:00_
 - [[yt-tool-unit-model-construction|yt tool unit model construction]] — source `src_unknown`
 - [[yt-tool-unit-model-dynamic|yt tool unit model dynamic]] — source `src_unknown`
 - [[yt-tool-unit-model-selection|yt tool unit model selection]] — source `src_unknown`
+- [[frameworks/framework-community-knowledge-production-failure-modes|社群知识生产失败模式库]] — source `00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md`
+- [[cases/case-daxin-vikki-community-contrast|Vikki 群与大馨群：两种社群知识生产模式的对比]] — source `00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md`

@@ -1,11 +1,11 @@
 ---
 id: task_20260630_community-knowledge-failure-modes
 type: task
-status: in_progress
+status: pending_review
 assignee: kimi
 priority: P2
 created_at: 2026-06-30
-updated_at: '2026-06-30T16:06:54.441869+00:00'
+updated_at: '2026-06-30T16:15:41.948878+00:00'
 reviewed_by: 欧阳锋
 reviewer: 欧阳锋
 source_refs:
@@ -99,3 +99,40 @@ related:
 - `kdo pre-submit` 通过
 - related ≥6，包含 concept-open-source-knowledge-usage-boundary、case-daxin-team-content-training-camp
 - 欧阳锋终审：失败模式具体、修复动作可执行、与 KDO 映射合理
+
+## 执行结果
+
+### 已完成产出
+
+| 卡片 ID | 类型 | 路径 | 状态 |
+|---|---|---|---|
+| framework-community-knowledge-production-failure-modes | framework | `30_wiki/frameworks/framework-community-knowledge-production-failure-modes.md` | enriched，pre-submit PASS |
+| case-daxin-vikki-community-contrast | case | `30_wiki/cases/case-daxin-vikki-community-contrast.md` | enriched，pre-submit PASS |
+
+### 质量验证
+
+```text
+Pre-Submit Gate Report
+Files checked: 2
+Passed:        2
+Failed:        0
+All gates passed. Ready for human review.
+```
+
+### 关联工作
+
+- `30_wiki/index.md` 已补录 2 张新卡片条目。
+- framework 卡与 case 卡之间已建立双向 related 链接。
+- framework 卡包含 10 个失败模式（参与度衰竭 4 个 + 生产结构脆弱 4 个 + 信任与边界危机 2 个），每个模式包含信号、原因、修复动作、案例来源。
+- 已补充早期预警指标清单、KDO 五绝映射、与 `concept-open-source-knowledge-usage-boundary` 的链接。
+
+### 待欧阳锋终审事项
+
+1. 10 个失败模式的分类是否合理，是否需要调整层级。
+2. 修复动作是否足够具体可执行。
+3. KDO 五绝映射是否贴切。
+4. 可选 case 卡是否有价值，还是应合并到 framework 卡中。
+
+### 已知问题
+
+- KDO CLI (`python -m kdo`) 在 pre-submit 阶段触发 `SyntaxError: expected 'except' or 'finally' block`（`kdo/commands/delivery.py:686`），可能由代码中的不完整 try/except 块导致。本次 pre-submit 通过直接调用 `kdo.pre_submit.run_pre_submit()` 完成，结果与 CLI 等价。建议黄药师修复 KDO CLI。
