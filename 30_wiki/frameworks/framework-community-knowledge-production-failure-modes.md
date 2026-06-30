@@ -37,6 +37,7 @@ quality_labels:
 related:
   - "[[concept-open-source-knowledge-usage-boundary]]"
   - "[[case-daxin-team-content-training-camp]]"
+  - "[[case-daxin-vikki-community-contrast]]"
   - "[[framework-content-business-six-step]]"
   - "[[framework-founder-ip-three-positioning]]"
   - "[[framework-brand-three-degree]]"
