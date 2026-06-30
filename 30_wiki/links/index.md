@@ -746,6 +746,32 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/smart-medicine-cabinet-regional-policy-map]]
 - [[tools/smart-medicine-cabinet-fraud-detection]]
 
+## [[case-strategy-cool-boiled-water]]
+- [[concepts/concept-strategy-evolution-cycle]]
+- [[tools/tool-strategy-12-word-test]]
+- [[tools/tool-strategy-competition-traps]]
+- [[tools/tool-strategy-five-see-three-set]]
+- [[tools/tool-strategy-four-layers]]
+- [[tools/tool-strategy-four-moves]]
+- [[tools/tool-strategy-nine-problems]]
+- [[tools/tool-strategy-pareto]]
+- [[tools/tool-strategy-three-horizons]]
+
+## [[case-strategy-edward-jones]]
+- [[concepts/concept-strategy-evolution-cycle]]
+- [[tools/tool-strategy-12-word-test]]
+- [[tools/tool-strategy-competition-traps]]
+- [[tools/tool-strategy-five-see-three-set]]
+- [[tools/tool-strategy-gap-analysis]]
+- [[tools/tool-strategy-pareto]]
+- [[tools/tool-strategy-sentence-formula]]
+- [[tools/tool-strategy-three-horizons]]
+
+## [[case-strategy-failure-01-cosmetics]]
+- [[concepts/concept-strategy-evolution-cycle]]
+- [[tools/tool-strategy-12-word-test]]
+- [[tools/tool-strategy-nine-problems]]
+
 ## [[case-strategy-failure-02-supermarket]]
 - [[dk/dk-strategy-stage-leverage-mismatch]]
 
@@ -778,14 +804,25 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-strategy-lekai-film]]
 - [[cases/case-strategy-li-ka-shing]]
 - [[concepts/学会提问在信息洪流中锻造批判性思维的利刃]]
+- [[tools/tool-strategy-four-layers]]
+
+## [[case-strategy-lekai-film]]
+- [[tools/tool-strategy-four-moves]]
 
 ## [[case-strategy-li-ka-shing]]
 - [[cases/case-strategy-fangte-disney]]
+- [[tools/tool-strategy-four-moves]]
 
 ## [[case-strategy-m-brand-profit-model]]
 - [[cases/case-truman-ai-skill-self-packaging]]
 - [[tools/tool-demand-iceberg-l6-hypothesis]]
 - [[tools/tool-strategy-value-capture]]
+
+## [[case-strategy-practice-10-turnaround]]
+- [[concepts/concept-strategy-evolution-cycle]]
+- [[tools/tool-strategy-12-word-test]]
+- [[tools/tool-strategy-gap-analysis]]
+- [[tools/tool-strategy-sentence-formula]]
 
 ## [[case-strategy-practice-11-third-place]]
 - [[cases/case-truman-ai-skill-self-packaging]]
@@ -1660,6 +1697,18 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[concept-smart-medicine-cabinet-supply-chain-validation]]
 - [[dark-knowledges/dk-ef-002-bom-version-async]]
 - [[dark-knowledges/dk-ef-003-hand-soldering-bom-divergence]]
+
+## [[concept-strategy-evolution-cycle]]
+- [[tools/tool-strategy-12-word-test]]
+- [[tools/tool-strategy-competition-traps]]
+- [[tools/tool-strategy-five-see-three-set]]
+- [[tools/tool-strategy-four-layers]]
+- [[tools/tool-strategy-four-moves]]
+- [[tools/tool-strategy-gap-analysis]]
+- [[tools/tool-strategy-nine-problems]]
+- [[tools/tool-strategy-pareto]]
+- [[tools/tool-strategy-sentence-formula]]
+- [[tools/tool-strategy-three-horizons]]
 
 ## [[concept-thousand-people-square]]
 - [[dark-knowledges/dk-weekly-modeling-iteration-growth-engine]]
@@ -7854,6 +7903,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-ai-parallel-validation]]
 - [[tools/tool-ai-old-small-checklist]]
+- [[tools/tool-strategy-gap-analysis]]
 
 ## [[tool-ai-prd-for-ai]]
 - [[cases/case-truman-prd-checklist-evolution]]
@@ -8082,6 +8132,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-f12-builder-context-deadlock]]
 - [[tools/tool-纪浩-Agent开工检查单制作法]]
 
+## [[tool-demand-assessment-triangle]]
+- [[tools/tool-strategy-gap-analysis]]
+
 ## [[tool-demand-assessment-triangle|需求评估三角形]]
 - [[domains/domain-demand-analysis-index]]
 
@@ -8301,6 +8354,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-strategy-12-word-test]]
 - [[dark-knowledges/dk-p11-regex-cutoff]]
+- [[tools/tool-strategy-four-moves]]
+- [[tools/tool-strategy-gap-analysis]]
+- [[tools/tool-strategy-pareto]]
+- [[tools/tool-strategy-sentence-formula]]
 
 ## [[tool-strategy-activity-scope]]
 - [[tools/tool-strategy-value-capture]]
@@ -8312,6 +8369,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-strategy-value-capture]]
 
 ## [[tool-strategy-competition-traps]]
+- [[tools/tool-strategy-five-see-three-set]]
+- [[tools/tool-strategy-sentence-formula]]
 - [[tools/tool-yitang-research-company-disassembly]]
 
 ## [[tool-strategy-core-competence-matrix]]
@@ -8319,6 +8378,16 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-strategy-customer-selection]]
 - [[tools/tool-strategy-value-capture]]
+
+## [[tool-strategy-five-see-three-set]]
+- [[tools/tool-strategy-four-layers]]
+- [[tools/tool-strategy-gap-analysis]]
+- [[tools/tool-strategy-nine-problems]]
+- [[tools/tool-strategy-three-horizons]]
+
+## [[tool-strategy-four-layers]]
+- [[tools/tool-strategy-competition-traps]]
+- [[tools/tool-strategy-sentence-formula]]
 
 ## [[tool-strategy-industry-chain-analysis]]
 - [[tools/tool-strategy-value-capture]]
@@ -8338,6 +8407,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-goat-milk-channel-partnership]]
 - [[frameworks/framework-yitang-channel-partnership-map]]
 - [[tools/tool-yitang-channel-partnership-design]]
+
+## [[tool-strategy-risk-management]]
+- [[tools/tool-strategy-four-moves]]
 
 ## [[tool-strategy-value-proposition]]
 - [[tools/tool-strategy-value-capture]]

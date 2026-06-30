@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-30T18:19:58+00:00_
+_Last updated: 2026-06-30T18:55:05+00:00_
 
 - [[session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -338,7 +338,7 @@ _Last updated: 2026-06-30T18:19:58+00:00_
 - [[concept-smart-medicine-cabinet-supply-chain-validation|concept-smart-medicine-cabinet-supply-chain-validation]] — source `{'pending_archive': 'src_unknown'}`
 - [[concept-strategy-2024-2026-supplement|2024-2026战略新变量：AI决策/地缘政治/ESG——冉鹏课程未覆盖的盲区]] — source `60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md`
 - [[concept-strategy-capability-pyramid|战略能力金字塔：格局→行动→决断→洞察——战略统帅四层素养]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_30_vlm_desc.md`
-- [[concept-strategy-evolution-cycle|新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期]] — source `pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown`
+- [[concept-strategy-evolution-cycle|新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期]] — source `pending_archive:src_unknown`
 - [[concept-strategy-framework-landscape|战略框架全景图：冉鹏覆盖了什么、没覆盖什么]] — source `60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md`
 - [[concept-strategy-market-segmentation-yashili|细分市场分析逻辑——雅士利/蒙牛案例（© Yashili 2021）]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_70_vlm_desc.md`
 - [[concept-streaming-extraction-pattern|流式提取模式——浏览器虚拟滚动到API分页的映射]] — source `pending_archive:src_unknown："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"`
@@ -1509,36 +1509,36 @@ _Last updated: 2026-06-30T18:19:58+00:00_
 - [[tool-smart-medicine-cabinet-compliance-checklist|智能药柜/医药项目合规快速校验清单]] — source `pending_archive:src_20260613_2286ccfb-itingnao-deep-dive-compliance`
 - [[tool-smart-medicine-cabinet-site-selection-guide|智能药柜选址深度指南：场景、指标与验证方法]] — source `pending_archive:src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures`
 - [[tool-sop-template-modeling|SOP/模板建模法：把关键动作固化成标准工作流]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
-- [[tool-strategy-12-word-test|12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略]] — source `pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown`
+- [[tool-strategy-12-word-test|12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略]] — source `pending_archive:src_unknown`
 - [[tool-strategy-activity-scope|活动范围设计工具：What × How × Where 三问]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_ocr_text.md`
 - [[tool-strategy-blue-ocean-canvas|蓝海战略画布（价值曲线工具）]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_112_vlm_desc.md`
 - [[tool-strategy-business-design-template|业务单元业务设计模板]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_132_vlm_desc.md`
 - [[tool-strategy-business-summary|业务设计总结：战略蓝图输出+关键任务卡片]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_130_vlm_desc.md`
 - [[tool-strategy-capability-matrix|核心能力评估矩阵：影响力×急迫性四象限]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_vlm_desc.md`
 - [[tool-strategy-category-role-matrix|零售品类角色矩阵]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_93_vlm_desc.md`
-- [[tool-strategy-competition-traps|竞争分析两大陷阱：假空间（表面有实际没有）+假饱和（表面没实际有）]] — source `pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown`
+- [[tool-strategy-competition-traps|竞争分析两大陷阱：假空间（表面有实际没有）+假饱和（表面没实际有）]] — source `pending_archive:src_unknown`
 - [[tool-strategy-control-points|战略控制点设计工具：价值定位模型]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_124_ocr_text.md`
 - [[tool-strategy-core-competence-matrix|核心能力评估矩阵：影响力 × 急迫性]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_ocr_text.md`
 - [[tool-strategy-customer-selection|客户选择：六步循环迭代法——场景→行为→情绪→触发器→数据→循环]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md`
 - [[tool-strategy-fishbone|鱼骨图根因分析工具]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_42_ocr_text.md`
-- [[tool-strategy-five-see-three-set|华为五看三定：看行业/市场/客户/竞争/自己 → 定控制点/目标/路径]] — source `pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown`
-- [[tool-strategy-four-layers|战略四层结构：集团→业务单元→职能→执行]] — source `pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown`
-- [[tool-strategy-four-moves|战略四招法：小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移]] — source `pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown`
-- [[tool-strategy-gap-analysis|差距分析：战略的起点——业绩差距（内部）+机会差距（外部）]] — source `pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown`
+- [[tool-strategy-five-see-three-set|华为五看三定：看行业/市场/客户/竞争/自己 → 定控制点/目标/路径]] — source `pending_archive:src_unknown`
+- [[tool-strategy-four-layers|战略四层结构：集团→业务单元→职能→执行]] — source `pending_archive:src_unknown`
+- [[tool-strategy-four-moves|战略四招法：小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移]] — source `pending_archive:src_unknown`
+- [[tool-strategy-gap-analysis|差距分析：战略的起点——业绩差距（内部）+机会差距（外部）]] — source `pending_archive:src_unknown`
 - [[tool-strategy-industry-chain-analysis|产业链机会与行动计划分析工具]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_vlm_desc.md`
 - [[tool-strategy-ksf|关键成功因素（KSF）分析工具]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_82_ocr_text.md`
 - [[tool-strategy-lifecycle|企业生命周期战略：从 0 到 1、从 N 到 ∞、从 N 到 0]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_26_ocr_text.md`
 - [[tool-strategy-logistics-cost-planning|物流费用三年节约计划：从单吨运费到全链成本的结构化拆解]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_184_ocr_text.md`
 - [[tool-strategy-map|战略地图——公司/各BU/业务单元的战略蓝图模板]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_142_vlm_desc.md`
 - [[tool-strategy-market-opportunity-matrix|细分市场机会分析矩阵：10 维度判断"该不该进、用什么进"]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_249_ocr_text.md`
-- [[tool-strategy-nine-problems|九个常见战略问题：方向/目标/定位/路径/共识/组织/能力/资源/机制]] — source `pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown`
-- [[tool-strategy-pareto|帕雷托图（80/20法则）：识别库存/客户/品类的关键少数]] — source `pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown`
+- [[tool-strategy-nine-problems|九个常见战略问题：方向/目标/定位/路径/共识/组织/能力/资源/机制]] — source `pending_archive:src_unknown`
+- [[tool-strategy-pareto|帕雷托图（80/20法则）：识别库存/客户/品类的关键少数]] — source `pending_archive:src_unknown`
 - [[tool-strategy-platform-business-map|平台商业模式地图]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_263_vlm_desc.md`
 - [[tool-strategy-profit-model-comparison|盈利模式对比框架——直营/强类直营/弱类直营/代理加盟四象限决策]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md`
 - [[tool-strategy-risk-management|业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_127_ocr_text.md`
-- [[tool-strategy-sentence-formula|战略造句公式：聚焦X市场→达到Y竞争优势→选择不做Z→采取连贯活动]] — source `pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown`
+- [[tool-strategy-sentence-formula|战略造句公式：聚焦X市场→达到Y竞争优势→选择不做Z→采取连贯活动]] — source `pending_archive:src_unknown`
 - [[tool-strategy-swot|SWOT 分析工具：从四象限到行动策略]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_ocr_text.md`
-- [[tool-strategy-three-horizons|三个地平线：现金流（现在）/增长（1-3年）/种子（3-5年）]] — source `pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown`
+- [[tool-strategy-three-horizons|三个地平线：现金流（现在）/增长（1-3年）/种子（3-5年）]] — source `pending_archive:src_unknown`
 - [[tool-strategy-value-capture|价值获取设计工具：8 问盈利模型]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_115_ocr_text.md`
 - [[tool-strategy-value-proposition|价值主张设计工具：三问 + 六维排序法]] — source `00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_107_ocr_text.md`
 - [[tool-tech-probability-80-filter|李开复 80% 概率过滤器]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
