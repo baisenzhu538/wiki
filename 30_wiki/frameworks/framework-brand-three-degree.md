@@ -1,7 +1,7 @@
 ---
 id: "framework-brand-three-degree"
 title: "品牌三度"
-type: "concept"
+type: "framework"
 domain:
   - "content-production"
 status: "enriched"

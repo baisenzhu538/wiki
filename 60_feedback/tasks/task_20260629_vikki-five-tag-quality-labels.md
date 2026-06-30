@@ -149,6 +149,31 @@ $ kdo pre-submit -f <第二批 25 张>
 All gates passed. Ready for human review. (23/23 PASS, 2 张重复)
 ```
 
+### 欧阳锋终审结果（2026-06-30）
+
+**状态：reviewed ✅**
+
+- 新卡 2/2 pre-submit PASS ✅
+- 抽查迁移卡 4/4 pre-submit PASS ✅
+- 更新后的队列/context/任务单 5 个文件 pre-submit PASS ✅
+- 全库含 `quality_labels` 的卡片：227 张
+
+**审查中修复的坑：48 张卡片存在重复 `quality_labels`**
+
+欧阳锋抽查时发现部分卡片 frontmatter 里有两个完全相同的 `quality_labels:` 块，原因是迁移脚本在 apply 阶段缺少“已存在则跳过”的防御性检查。
+
+- 已用脚本清理 48 张卡片的重复字段
+- 已给 `label-quality-migrate.py` 增加防御逻辑：
+  ```python
+  if "quality_labels:" in frontmatter:
+      skip
+  ```
+- 清理后重新跑 pre-submit，相关卡片全部通过
+
+**遗留问题（已拆分为 #36）**
+
+- `kdo query --label` 未实现，当前用 `rg` 临时替代 → 交给黄药师在 [[task_20260630_kdo-query-label-filter]] 中实现
+
 ### 欧阳锋审查要点
 
 - `framework-brand-three-degree` 概念卡的内容是否准确反映大馨战队品牌三度框架
