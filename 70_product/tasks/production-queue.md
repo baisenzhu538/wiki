@@ -62,9 +62,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 25 | `task_20260629_laowantong-expand-ai-learning-concept-cards` | 扩展 AI 工具学习方法论原子概念卡 | reviewed | 老顽童(Hermes) | 7 | 无 | `60_feedback/tasks/task_20260629_laowantong-expand-ai-learning-concept-cards.md` | 欧阳锋终审通过：7 张新卡结构完整；修复 3 张 tool 卡标准 section；补全 4 张核心卡 related 双向链接；index.md 已收录；lint 0 新增 ERROR；pre-submit 本次产出无 ERROR（全量 FAIL 为历史遗留） |
 | 26 | `task_20260629_kimi-full-frontmatter-compliance-cleanup` | 全库 frontmatter 合规修复（循环处理直到归零） | reviewed | 老顽童(Hermes) | ~88 文件 + 22 目录 | 无 | `60_feedback/tasks/task_20260629_kimi-full-frontmatter-compliance-cleanup.md` | 欧阳锋终审通过：frontmatter 类、目录结构类 ERROR 全部清零；`kdo pre-submit` 448/0 PASS；`kdo lint` 0 ERROR / 7507 WARNING；剩余 WARNING 为内容质量类，需单独任务处理 |
 | 27 | `task_20260629_kimi-lint-mechanical-noise-reduction` | lint 机械类 WARNING 直接降噪 | reviewed | 老顽童(Hermes) | ~2700 WARNING | 无 | `60_feedback/tasks/task_20260629_kimi-lint-mechanical-noise-reduction.md` | 欧阳锋终审通过：lint 阈值调整已确认；435 文件 source_refs 规范化；1637 页面补录 index；751 个 tool 卡补 section 骨架；`kdo lint` 从 7507 降到 3286 WARNING；`kdo lint` 0 ERROR；`kdo pre-submit` PASS |
-| 28 | `task_20260629_kimi-lint-content-debt-by-domain` | lint 内容债按 domain 分批清理 | claimed-kimi | 老顽童(Hermes) | ~2656 WARNING / 14 个子任务 | 依赖 #27 reviewed | `60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md` | 欧阳锋中期审查：copy-paste 已清零（76→0）；累计处理 28 文件均通过 pre-submit；lint 从 3255 降至 2656 WARNING；下一轮优先处理 strategy 域 body 过短，然后批量补 L2 Critique 外部反对者；完成一个完整 domain 后再提交批次审核 |
+| 28 | `task_20260629_kimi-lint-content-debt-by-domain` | lint 内容债按 domain 分批清理 | queued | 老顽童(Kimi) | ~2656 WARNING / 14 个子任务 | 依赖 #27 reviewed | `60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md` | 欧阳锋中期审查通过；copy-paste 已清零（76→0）；累计处理 28 文件均通过 pre-submit；lint 从 3255 降至 2656 WARNING；当前实例切换至 #30，本任务释放回队列，后续继续按 strategy 域 body 过短 → L2 Critique 外部反对者顺序处理 |
 | 29 | `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge` | 羊奶「卖地图」跨域桥接卡生产 | reviewed | 老顽童(Hermes分身-Claude) | 3 张卡 | 无 | `60_feedback/tasks/task_20260629_wangyuyan-goat-milk-channel-partnership-bridge.md` | 欧阳锋终审通过：3 张卡已补录 index、修正 section 标题、补充 Critique 外部反对者与关键术语、补相邻域 related 回链；3 张目标卡 lint 无 ERROR/WARNING；pre-submit 目标卡无 ERROR（全量 FAIL 为 raw/ocr 与 _dogfood 历史遗留） |
-| 30 | `task_20260629_vikki-info-emotion-skill-upgrade` | Vikki + 大馨：content-production-polish skill 2.0 升级 | queued | 老顽童(Hermes) | 1 个 skill | 无 | `60_feedback/tasks/task_20260629_vikki-info-emotion-skill-upgrade.md` | 来源：Vikki群 + 大馨战队；融合「信息×情绪」模型、信息密度、口语化转折 + 短视频6维度框架、4个脚本模板、5个人性开关；升级为多平台内容生产 skill |
+| 30 | `task_20260629_vikki-info-emotion-skill-upgrade` | Vikki + 大馨：content-production-polish skill 2.0 升级 | claimed-kimi | 老顽童(Kimi) | 1 个 skill | 无 | `60_feedback/tasks/task_20260629_vikki-info-emotion-skill-upgrade.md` | 来源：Vikki群 + 大馨战队；融合「信息×情绪」模型、信息密度、口语化转折 + 短视频6维度框架、4个脚本模板、5个人性开关；升级为多平台内容生产 skill；Kimi 老顽童已领取，开始执行 |
 | 31 | `task_20260629_vikki-five-tag-quality-labels` | Vikki 五标签 + 大馨品牌三度 → KDO 卡片质量标签体系 | queued | 黄药师 | 1 个 schema + 50 张试点卡片 + 1 张 framework | 无 | `60_feedback/tasks/task_20260629_vikki-five-tag-quality-labels.md` | 来源：Vikki群 + 大馨战队；把 💡🎯✅🔥❤️ 五标签与知名度/美誉度/信任度三度融合为 KDO 卡片质量标签体系；同步生产 framework-brand-three-degree |
 | 32 | `task_20260629_vikki-open-source-knowledge-boundary` | 沉淀「开源知识使用边界」概念卡 | queued | 老顽童(Hermes) | 1 张 concept 卡 | 无 | `60_feedback/tasks/task_20260629_vikki-open-source-knowledge-boundary.md` | 来源：Vikki群 + 大馨战队；基于游侠「蒸馏」事件和大馨「抄作业」边界试探，沉淀 KDO 知识库使用边界 |
 | 33 | `task_20260630_daxin-methodology-cards-production` | 大馨战队核心方法论卡片化 | queued | 老顽童(Hermes) | 5-6 张卡 | 无 | `60_feedback/tasks/task_20260630_daxin-methodology-cards-production.md` | 来源：0017大馨战队短视频拆解方法论；沉淀创始人IP三定位、品牌三度、内容经营6步闭环、短视频6维度拆解工具、大馨战队案例卡 |
@@ -117,7 +117,8 @@ done
 |:---|:---|:---|
 | 2026-06-27 | 创建统一生产队列，整合历史批量工单与新域任务 | 王语嫣 |
 | 2026-06-29 | #23 A1 reviewed；#24 A2 done；#24-debt 132 case section 缺失已修复并 pending_review；#25 AI 学习方法论扩展卡入队 | 欧阳锋/王语嫣 |
+| 2026-06-29 | 用户决策：#28 lint 内容债任务过长，改为 background batch 逐步清理，当前 Kimi 实例切换至 #30；#30 Vikki + 大馨 skill 2.0 升级任务已领取执行；#28 checkpoint 写入任务单 | 王语嫣 |
 
 ---
 
-*维护人：王语嫣 | 最后更新：2026-06-29（A2 结案，历史债务拆分）*
+*维护人：王语嫣 | 最后更新：2026-06-29（#28 挂起为 background batch，#30 优先执行）*

@@ -3,7 +3,7 @@
 Use this reference when doing a deep content review or full rewrite.  
 Each method follows a 5-part structure: **Problem → Fix → Pattern → Hard vs Human → Why it works.**
 
-> ⚠️ The 12 methods below are the detailed execution guide for the HARD CONSTRAINTS and PREFERENCES defined in SKILL.md. When a constraint is triggered (e.g., "排比不超过3行"), use the corresponding method here (#5) to execute the fix, not just the short rule.
+> ⚠️ The 15 methods below are the detailed execution guide for the HARD CONSTRAINTS and PREFERENCES defined in SKILL.md. When a constraint is triggered (e.g., "排比不超过3行"), use the corresponding method here (#5) to execute the fix, not just the short rule.
 
 ---
 
@@ -399,6 +399,171 @@ Use these labels in reviews:
 - 主线分散
 - 只有升华，没有行动
 - 有观点，但没有用户场景
+
+---
+
+## 13. 信息 × 情绪配比法（Vikki）
+
+Problem: The draft is either too dense (cognitive overload) or too emotional (no substance). Information alone feels like a lecture; emotion alone feels empty.
+
+How to fix:
+
+1. Set the platform-appropriate information density first:
+   - Short video: 1 case or key judgment per second.
+   - Live stream: breathing room, one idea per 1-2 minutes.
+   - Article: medium density, examples before concepts.
+2. Attach one emotional beat to each key information point: surprise,共鸣, or a turning question.
+3. Use the rule: **information is the warhead, emotion is the guidance system**.
+
+Pattern:
+
+```text
+信息点：____。
+情绪落点：____（你是不是也…？/ 说白了… / 问题来了。）
+```
+
+Examples:
+
+```text
+[AI/商业] Hard: AI 时代真正值钱的是会建模型的人。
+[AI/商业] Human: 会建模型的人用 AI，是在让 AI 扩大自己的判断半径。说白了，不是 AI 多厉害，是你得先知道该问什么。很多人一上来就要模板，其实连问题都没拆清楚。
+
+[亲子教育] Hard: 家长要培养孩子的内驱力。
+[亲子教育] Human: 内驱力说白了就是孩子自己想干。不是你在后面催，是他自己说"我要试试"。你有没有发现，你越催，他越慢？问题就在这：他把你当成任务发布器了。
+
+[销售] Hard: 好的销售会先诊断客户需求。
+[销售] Human: 两个销售卖同一款课。第一个开口就说"我们课特别好"。第二个先问："你现在最头疼的是找不到客户，还是找到了但成交率低？"客户一听就觉得：这个人懂我。你看，同样的产品，第二句话就赢了。
+
+[健康] Hard: 减肥的核心是建立可持续的饮食习惯。
+[健康] Human: 每次减肥前三天特别有劲，第五天就开始馋。你不是意志力差，是你的计划太极端了。说白了就是：身体扛不住，它在报复你。
+
+[知识付费] Hard: 做课要找到用户的真实痛点。
+[知识付费] Human: 很多人做课是从"我会什么"出发，而不是从"用户为什么睡不着"出发。你晚上失眠的时候，想的是"我要学个模型"，还是"我怎么才能把这件事搞定"？
+```
+
+Why it works: Information tells the audience what to know; emotion makes them care. Content without emotion is not remembered; content without information is not trusted.
+
+---
+
+## 14. 短视频 6 维度检查法（大馨）
+
+Problem: Short videos often fail not because the文案 is bad, but because a critical link — positioning, hook, structure, delivery, conversion, or data design — is missing.
+
+How to fix:
+
+Before publishing, run through the 6-dimension checklist:
+
+1. **定位与受众**：一句话说清 IP 定位；谁在看？核心痛点是什么？
+2. **选题与钩子**：工具型还是痛点型？前 3 秒有没有"你是不是… + 1 分钟就能… + 方法具体"？
+3. **文案结构**：反常识开场 → 痛点共鸣 → 方法论输出 → 案例证明 → 总结 + 转化钩子。
+4. **表现力与情绪**：亢奋型还是行动派？有没有屏幕录制/字幕高亮？场景是否建立专业感？
+5. **转化设计**：公域 → 关注/私信 → 资料/粉丝群 → 付费，路径是否清晰？
+6. **数据特征**：有没有互动设计（"试完回来告诉我"）？有没有争议点？播放量能否估算？
+
+Pattern:
+
+```text
+【定位】____（一句话 IP + 受众痛点）
+【钩子】____（3 秒公式）
+【结构】反常识 → 痛点 → 方法 → 案例 → 转化
+【表现力】____（情绪 + 演示 + 场景）
+【转化】____（下一步行动）
+【数据】____（互动 / 争议 / 估算）
+```
+
+Examples:
+
+```text
+[AI/商业] 实体获客教学型口播
+- 定位：帮高客单专业服务者从"做内容"转向"做生意"的操盘手。
+- 钩子：你是不是想做短视频，但根本不知道怎么开始？今天 1 分钟，我教你找到赛道里所有能变现的对标账号。
+- 结构：反常识（不是先拍，是先找对标）→ 痛点（不知道谁是真同行）→ 方法（3 步找账号）→ 案例（某客户找到 50 个对标后起量）→ 转化（试完回来告诉我你找到了多少）。
+- 表现力：屏幕录制 + 字幕高亮关键数字 + 办公室场景。
+- 转化：评论区扣"对标"，领完整 SOP。
+- 数据：引导"试完回来告诉我"，低门槛互动。
+
+[亲子教育] 痛点纠偏型
+- 定位：帮小学家长解决"孩子写作业磨蹭"问题。
+- 钩子：孩子写作业磨蹭，你越催他越慢？不是你脾气差，是你方法错了。
+- 结构：反常识（磨蹭不是懒）→ 痛点（催多了孩子把你当任务发布器）→ 方法（3 句话替代催促）→ 案例（朋友孩子从催不动到自己安排）→ 转化（今晚就试）。
+- 表现力：居家场景 + 真实语气 + 配合简单动作演示。
+- 转化：评论区分享你今晚想试哪一句。
+- 数据："越催越慢"是强共鸣点，适合引发评论。
+
+[销售] 创始人 IP 故事型
+- 定位：ToB 销售教练，帮销售从"推销产品"转向"解决问题"。
+- 钩子：我做了 10 年销售，发现 90% 的人第一句话就错了。
+- 结构：缘起（为什么做销售培训）→ 创业折扣点（被客户拒绝 100 次）→ 突破重生（学会先诊断）→ 方法论（3 个问题开场）→ 价值观（销售是传递价值）。
+- 表现力：办公室书架背景 + 真诚叙事 + 适度停顿。
+- 转化：私信"诊断"，领销售开场问题清单。
+- 数据："第一句话就错了"是争议点 + 好奇点。
+
+[健康] 通用可移植公式
+- 定位：帮上班族解决"反复减肥失败"。
+- 钩子：减肥失败不是你意志力差，是你的计划太反人类。
+- 结构：行业痛点（反复失败）→ 概念升级（不是减热量，是建习惯）→ 经典案例（某学员 3 个月不节食减 8 斤）→ X 步框架（3 个饮食替换法）→ 万能公式（吃饱 + 替换 + 记录）。
+- 表现力：厨房场景 + 实物展示 + 轻松语气。
+- 转化：评论区扣"替换"，领 21 天饮食替换表。
+- 数据："不节食"是贪婪开关 + 争议点。
+
+[知识付费] 痛点型钩子
+- 定位：帮知识博主做课变现。
+- 钩子：你的课卖不动，可能不是内容不好，是你把课做成了"知识百科"。
+- 结构：反常识（好课不是内容多）→ 痛点（用户买课是为了解决问题，不是为了学习）→ 方法（1 课 1 结果）→ 案例（某老师从 50 节缩到 8 节，销量翻 3 倍）→ 转化（点击下方，领做课自检表）。
+- 表现力：书桌前讲解 + 白板演示课程结构对比。
+- 转化：点击主页链接领资料。
+- 数据："知识百科"是身份攻击 + 好奇点。
+```
+
+Why it works: Short video is a system, not just文案. The 6-dimension checklist prevents fixing words while ignoring the conversion path.
+
+---
+
+## 15. 人性开关植入法（大馨 + Vikki）
+
+Problem: The draft has information and structure, but the audience still does not act or share. Rational argument changes belief; emotional triggers change behavior.
+
+How to fix:
+
+Plant at least one of the 5 human switches at the key decision point:
+
+1. **贪婪**：占便宜、稀缺、专属感（"前 50 名""免费领""错过再等一年"）。
+2. **恐惧**：错过、落后、被比较（"你再不开始，同行已经跑远了"）。
+3. **归属**：同类、圈子、身份认同（"做 IP 的人一看就懂""我们这种人"）。
+4. **好奇**：信息差、反常识、未解之谜（"很多人都不知道…""真正的秘密是…"）。
+5. **行动**：立刻试用、零风险、低门槛（"今晚就试""试完回来告诉我""先加微信领资料"）。
+
+Pattern:
+
+```text
+痛点 + 开关 + 下一步
+```
+
+Examples:
+
+```text
+[AI/商业] 贪婪 + 行动
+"这 3 个提示词模板，我自己团队内部用了半年。今天免费分享，前 100 人扫码领。领完今晚就试一条，明天告诉我效果。"
+
+[亲子教育] 归属 + 行动
+"做妈妈的都懂：孩子写作业的时候，最难的不是孩子，是我们自己。今晚试试这句话——'你先试，搞砸了我陪你'。评论区告诉我孩子的反应。"
+
+[销售] 恐惧 + 好奇
+"你有没有算过，你今年因为'我再考虑一下'丢了多少单？真正的问题不是客户犹豫，是你没问到他犹豫的是什么。下一单你试试这个问法…"
+
+[健康] 归属 + 恐惧
+"反复减肥的人都有一个共同错觉：觉得自己意志力差。其实不是。是你用的方法本来就不是给人长期坚持的。换个方法，身体会自己配合你。"
+
+[知识付费] 好奇 + 贪婪
+"为什么有些老师的课只有 8 节，却卖得比 80 节的还好？因为他们做对了一件事：把课做成了'结果承诺'，不是'知识清单'。想要这个做课框架的，评论区扣'结果'。"
+```
+
+Hard vs Human:
+
+- Hard: "点击链接购买课程。"
+- Human: "如果你也想知道为什么同样是做课，有人 8 节卖爆、有人 80 节没人买——评论区扣'结果'，我把框架发你。"
+
+Why it works: People share and buy when an emotional switch is flipped. The switch must be tied to a clear next step, or the energy dissipates.
 
 ---
 

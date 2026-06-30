@@ -1,7 +1,7 @@
 ---
 id: task_20260629_kimi-lint-content-debt-by-domain
 type: task
-status: claimed-kimi
+status: paused
 assignee: 老顽童(Hermes)
 priority: P2
 created_at: 2026-06-29
@@ -99,6 +99,22 @@ source_refs:
   - 下一批优先处理 **strategy 域剩余 57 个 case 卡的 body 过短**，通过补背景/证据/可迁移场景/教训/失败模式来回填，而不是删 section。
   - L2 Critique / no_external_attacker 可以随后用批量方式补充外部反对者姓名，但每张卡至少加一个与本卡论点相关的真实学者/从业者姓名，不要贴无关名人。
 - **状态**：继续 `claimed-kimi`，不需改为 `pending_review`，完成一个完整 domain（如 strategy）后再提交批次审核。
+
+## 暂停 Checkpoint（2026-06-29）
+
+> **用户决策**：#28 任务体量过大（2656 WARNING / 14 个 domain），改为 background batch 逐步清理，不阻塞主生产线。当前 Kimi 实例切换至 #30，本任务挂起。
+
+- **挂起时基线**：`kdo lint` 0 ERROR / **2656 WARNING**
+- **已完成成果**：
+  - copy-paste 从 76 清零 ✅
+  - 累计 28 个文件通过 `kdo pre-submit` ✅
+  - strategy 域 5 张 case 卡已回填 body 内容 ✅
+- **恢复时第一个动作**：继续处理 **strategy 域剩余 57 个 case 卡的 body 过短**（欧阳锋中期审查意见）。
+- **恢复触发器**：
+  1. #30 skill 升级任务 review 通过；或
+  2. 用户明确说“继续清 #28”；或
+  3. 每周五生产队列 review 时主动拆 1 个 domain 作为独立小任务入队。
+- **防遗忘机制**：本任务已在 `70_product/tasks/production-queue.md` #28 行标注 `paused` 和 checkpoint；每周队列 review 时必须检查是否拆 domain 入队。
 
 ## 分批计划
 
