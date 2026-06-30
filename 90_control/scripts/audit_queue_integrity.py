@@ -186,8 +186,8 @@ def main() -> int:
         if qrow["status"] != "reviewed":
             continue
         task_id = qrow["task_id"]
-        # Batch tasks reviewed via separate review files, skip
-        if is_batch_task(task_id):
+        # Batch tasks and review-only entries are reviewed via separate files
+        if is_batch_task(task_id) or is_review_only_entry(task_id):
             continue
         task_file = TASK_DIR / f"{task_id}.md"
         if not task_file.exists():

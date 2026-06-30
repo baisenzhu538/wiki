@@ -3,7 +3,7 @@
 - 审计范围: `C:\Users\Administrator\Desktop\wiki\60_feedback\tasks`
 - reviewed 任务单总数: 21
 - 任务单异常数: 27
-- 队列/任务单不一致数: 1
+- 队列/任务单不一致数: 0
 
 ## 任务单异常列表
 - `task_20260627_laowantong-deliberate-practice-cards`: reviewed 但缺少 review_date
@@ -34,5 +34,4 @@
 - `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge`: reviewed 但缺少 review_date
 - `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge`: reviewed 但无对应 review/audit 文件且无 review_date
 
-## 队列/任务单状态不一致
-- `review_20260627_ouyangfeng-self-attack-framework`: 队列 marked reviewed 但任务单文件不存在
+队列与任务单状态一致。
