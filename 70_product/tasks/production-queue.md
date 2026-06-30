@@ -25,7 +25,13 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 5. **阻塞处理**：若任务被阻塞，在「状态」列标注 `blocked` 并写明阻塞原因；阻塞解决后恢复为 `queued`。
 6. **优先级调整**：用户可随时调整队列顺序；调整时由王语嫣更新本文件，并在 `.agent/context.md` 中同步。
 7. **新任务入队**：王语嫣诊断完成后，新任务默认进入队列末尾；用户可指定插队。
-8. **🆕 领取前必须跑 gate**：老顽童领取任务前必须执行 `python 90_control/scripts/queue_gate.py next` 或 `python 90_control/scripts/queue_gate.py check <task-id>`。Gate 失败时禁止领取。`pending_review` 任务未终审前，老顽童不得领取后续任务。
+8. **🆕 所有状态变更必须通过 `queue_transition.py`**：
+   - 老顽童领取：`python 90_control/scripts/queue_transition.py claim <task-id> --instance <实例标识>`
+   - 老顽童完成提交：`python 90_control/scripts/queue_transition.py complete <task-id> --instance <实例标识>`
+   - 老顽童释放：`python 90_control/scripts/queue_transition.py release <task-id> --instance <实例标识>`
+   - 欧阳锋终审通过：`python 90_control/scripts/queue_transition.py review <task-id> --verdict pass --reviewer 欧阳锋`
+   - 欧阳锋终审不通过：`python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --reviewer 欧阳锋`
+9. **🆕 禁止手动修改状态**：任何角色不得直接编辑本文件或任务单 frontmatter 中的 `status` / `reviewed_by` / `review_date`。所有状态变更由脚本自动完成，脚本内置 gate、锁、状态机校验，防止抢跑和状态不一致。
 
 ---
 

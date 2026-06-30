@@ -97,6 +97,26 @@ Hermes 老顽童批量产出（尽力深挖，通过质量闸门后提交）
 4. Read `70_product/tasks/dashboard.md` → 历史任务全景（备用）
 5. 审查 → 分组（浅/深）→ 浅的你来写，深的发通过通知
 
+## ⚠️ 终审操作必须通过 queue_transition.py（2026-06-30 补丁）
+
+欧阳锋**禁止**手动修改 `production-queue.md` 的「状态」列或任务单的 `status` 字段。所有终审状态变更必须通过：
+
+```bash
+# 终审通过
+python 90_control/scripts/queue_transition.py review <task-id> --verdict pass --reviewer 欧阳锋
+
+# 终审不通过，退回队列
+python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --reviewer 欧阳锋
+```
+
+该脚本会：
+- 自动加锁，防止并发写坏队列；
+- 校验任务当前状态必须是 `pending_review`；
+- 通过时自动补齐任务单的 `reviewed_by: 欧阳锋` 和 `review_date`；
+- 保证队列与任务单状态一致。
+
+**终审前必须检查**：队列中该任务的 `status` 与任务单 frontmatter 的 `status` 是否一致。若不一致（如队列 `reviewed` 但任务单 `pending_review`），先执行 `python 90_control/scripts/audit_queue_integrity.py` 定位异常，按「补审」流程处理，不得直接通过或手工改状态。
+
 > 💡 **失忆恢复口令**：用户对你说「欧阳锋，切到 wiki 目录，读 startup 和队列，审第一件 pending_review」时，按此执行。
 >
 > **注意：wave 系列批量工单有专门审查任务单**。队列中 `laowantong-batch-2026-06-20-wave*` 类的 pending_review 项，来源文件列的是 `review_YYYYMMDD_ouyangfeng-waveN.md`，不要读 `laowantong-batch-2026-06-20.md` 全文。按审查任务单的清单逐卡审即可。
@@ -142,9 +162,25 @@ Hermes 老顽童批量产出（尽力深挖，通过质量闸门后提交）
 
 ## 完成任务后
 
-1. 更新卡片 → 标记 `reviewed_by: 欧阳锋`，`status: reviewed`
-2. 更新 `dashboard.md`
-3. 更新 `context.md`
+1. **使用 `queue_transition.py review` 更新队列和任务单状态**，禁止手动改文件。
+2. 更新卡片 → 标记 `reviewed_by: 欧阳锋`，`status: reviewed`，并补齐 `review_date`。
+3. 更新 `dashboard.md`
+4. 更新 `context.md`
+
+## 补审流程（2026-06-30 补丁）
+
+当发现以下情况时，启动补审：
+- 任务实际未完成但状态已为 `pending_review`（如 #33 抢跑）；
+- 队列 `reviewed` 但任务单仍为 `pending_review`（状态不一致）；
+- 用户要求「不回滚，补审」。
+
+**补审 SOP**：
+1. 不主动回滚状态；保持当前状态作为审计基线。
+2. 欧阳锋对当前产物进行完整终审， verdict 只有两种：
+   - **pass**：产物达标，使用 `queue_transition.py review --verdict pass`，脚本自动补齐元数据；
+   - **fail**：产物不达标，使用 `queue_transition.py review --verdict fail`，脚本自动退回 `queued`。
+3. 在任务单末尾追加「补审记录」小节，说明异常原因、处理决定、终审结论。
+4. 若 pass 时发现队列/任务单状态不一致，由脚本自动修复；不要手动复制状态。
 
 ## 会话结束
 
