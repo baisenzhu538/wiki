@@ -5,6 +5,8 @@ type: concept
 status: draft
 domain:
   - rust
+source_refs:
+  - pending_archive
 created_at: 2026-06-02
 ---
 

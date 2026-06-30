@@ -5,6 +5,8 @@ type: framework
 status: draft
 domain:
   - rust
+source_refs:
+  - pending_archive
 created_at: 2026-06-02
 updated_at: 2026-06-02
 ---

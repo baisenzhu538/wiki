@@ -8,6 +8,8 @@ domain:
 tags:
   - "#domain/rust"
   - "#method/thinking-tool"
+source_refs:
+  - pending_archive
 created_at: 2026-06-02
 updated_at: 2026-06-02
 ---
