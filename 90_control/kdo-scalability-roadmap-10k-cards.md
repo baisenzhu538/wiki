@@ -33,16 +33,18 @@ related:
 
 ## 一、本地实测基线（当前 2,189 张卡）
 
-| 指标 | 当前值 | 10k 线性外推 |
-|:---|---:|---:|
-| `30_wiki/*.md` 数量 | 2,189 | 10,000 |
-| `kdo lint --summary` | **1m17s** | ~6–10 min |
-| `.kdo/search_index.json` | 2.8 MB | ~13 MB |
-| `.kdo/graph_index/` | 72 MB | ~330 MB |
-| `.kdo/state.json` | 1.8 MB | ~8 MB |
-| `.kdo/baseline.json` | 12.5 MB | ~57 MB |
-| 全库 `.md` 文件 | 8,551 | ~40,000 |
+| 指标 | 当前值 | 类型 | 10k 外推 | 外推假设 |
+|:---|---:|:---|---:|:---|
+| `30_wiki/*.md` 数量 | 2,189 | 实测 | 10,000 | 线性 |
+| `kdo lint --summary` | **1m17s** | **实测** | ~6–10 min | 线性；若 O(n²) 相似度未关，可能 20min+ |
+| `.kdo/search_index.json` | 2.8 MB | 实测 | ~13 MB | 线性 |
+| `.kdo/graph_index/` | 72 MB | 实测 | ~330 MB | 线性 |
+| `.kdo/state.json` | 1.8 MB | 实测 | ~8 MB | 线性 |
+| `.kdo/baseline.json` | 12.5 MB | 实测 | ~57 MB | 线性 |
+| 全库 `.md` 文件 | 8,551 | 实测 | ~40,000 | 线性 |
 
+> **重要区分**：`1m17s` 是当前实测；`6–10min` 是线性外推估算，不是承诺。实际 10k 卡 lint 时间强烈取决于 Phase 1 改造是否完成（单次扫描、关闭相似度、baseline）。
+>
 > 实测环境：Windows + Git Bash，`kdo` 安装在系统 Python，wiki 在 `C:/Users/Administrator/Desktop/wiki`。
 
 ---
@@ -109,15 +111,15 @@ MOC 在 PKM 社区被反复验证为**唯一能在 1k→10k 阶段不崩盘**的
 
 ## 四、10k 卡能不能撑？分场景回答
 
-| 场景 | 当前架构下 | 完成本路线图后 |
-|:---|:---|:---|
-| 单纯存储 10k 卡 | ✅ 可以 | ✅ 可以 |
-| 日常 `kdo lint` | ⚠️ 6–10 min，可用但痛苦 | ✅ <30s（baseline + 增量） |
-| `kdo index` | ⚠️ 5–15 min | ✅ 增量 <1 min |
-| `kdo graph query` | ⚠️ 延迟上升 | ✅ 生产后端 <1s |
-| `kdo graph rebuild` | ❌ 30–60 min | ✅ 增量 <5 min |
-| `kdo enrich --all` | ❌ 小时级 | ✅ SQLite 状态 + 增量 |
-| 多 Agent 并发调用 kdo | ❌ 文件写入冲突风险 | ✅ 状态库 + 锁机制 |
+| 场景 | 当前架构下 | 完成本路线图后 | 关键假设 |
+|:---|:---|:---|:---|
+| 单纯存储 10k 卡 | ✅ 可以 | ✅ 可以 | Git + 文件系统无压力 |
+| 日常 `kdo lint` | ⚠️ 6–10 min（线性外推） | ✅ <30s（baseline + 增量） | 完成 Phase 1 改造 |
+| `kdo index` | ⚠️ 5–15 min（估算） | ✅ 增量 <1 min | 实现增量 index |
+| `kdo graph query` | ⚠️ 延迟上升 | ✅ <1s | 完成增量 rebuild；换后端是后半段选项 |
+| `kdo graph rebuild` | ❌ 30–60 min（全量估算） | ✅ 增量 <5 min | 只重新嵌入新增/修改/删除卡 |
+| `kdo enrich --all` | ❌ 小时级（估算） | ✅ SQLite 状态 + 增量 | state.json → SQLite |
+| 多 Agent 并发调用 kdo | ❌ 文件写入冲突风险 | ✅ 状态库 + 锁机制 | SQLite WAL + busy timeout + 文件锁 |
 
 ---
 
@@ -136,13 +138,15 @@ MOC 在 PKM 社区被反复验证为**唯一能在 1k→10k 阶段不崩盘**的
    - `30_wiki/index.md` 不再承担核心检索职责，只作为目录页。
    - 检索入口交给 MOC + Graph RAG + search index。
 
-3. **建立 Archive 机制**
-   - 新增 `30_wiki/_archive/` 或按年归档 `30_wiki/archive/2026/`。
-   - 归档触发条件：
-     - 卡片 status 为 `archived` 或 `superseded`
+3. **建立 Archive 机制（先软归档，后硬归档）**
+   - **Phase 0 采用软归档**：把卡片 `status` 改为 `archived` 或 `superseded`，**留在原目录不动**。
+   - 软归档触发条件：
+     - 卡片 status 明确为 `archived` 或 `superseded`
      - 超过 12 个月未被任何 link 引用
      - 内容被新卡完全覆盖
-   - 归档后从 `kdo lint` 默认范围排除，但保留在 Graph RAG 历史查询中。
+   - 软归档后从 `kdo lint` 默认范围排除，但保留在 Graph RAG 历史查询中。
+   - **暂不物理移动到 `30_wiki/_archive/`**：避免破坏现有 wikilink，降低 link 维护成本。等软归档规则跑稳定后，再评估是否需要物理移动。
+   - 当前 `30_wiki/_archive/` 里已有的 26 张卡保持现状，新归档卡先不改物理位置。
 
 4. **标签瘦身**
    - 从“描述内容”转向“标记状态”：`#review-needed`、`#archived`、`#high-priority`。
@@ -182,13 +186,17 @@ MOC 在 PKM 社区被反复验证为**唯一能在 1k→10k 阶段不崩盘**的
    - 根据 `mtime` 只更新变化文档，避免每次全量重建。
    - 可考虑 `whoosh`、`sqlite-fts5` 或本地向量库。
 
-3. **Graph RAG 生产后端**
-   - 最小可行方案：SQLite + Qdrant（Docker）+ Neo4j（Docker）。
-   - 更轻量方案：PostgreSQL + pgvector + AGE（图扩展）。
-   - 目标：把 `.kdo/graph_index/` 从 300MB 文件读写改成 DB 查询。
-
-4. **增量 Graph RAG**
+3. **增量 Graph RAG（优先）**
    - 默认增量 rebuild；只有新增/修改/删除的卡片触发 chunk 重新嵌入。
+   - 当前 2,189 卡、72MB index，文件后端的最大痛点是**全量 rebuild 时间**，不是查询延迟。
+   - 先实现增量 rebuild，如果查询延迟仍高，再考虑后端替换。
+
+4. **Graph RAG 生产后端（延后评估）**
+   - 当前不急着换；等增量 rebuild 完成后，根据 benchmark 决定。
+   - 候选方案：
+     - 最小可行方案：SQLite + Qdrant（Docker）+ Neo4j（Docker）
+     - 更轻量方案：PostgreSQL + pgvector + AGE（图扩展）
+   - 引入 Docker 依赖会显著增加部署复杂度，单机本地优先场景下 ROI 需重新计算。
 
 ### Phase 3：并行化与生产级（3–6 个月）
 
@@ -262,9 +270,40 @@ KDO 已有“四卡体系”（concept / skill / case / dk）。MOC 可以作为
 | 问题 | 判断 |
 |:---|:---|
 | 现在就要上数据库吗？ | 不需要。Phase 0 + Phase 1 先做完，到 5k 卡再评估。 |
-| 现在就要换 LightRAG 后端吗？ | 可以延后，但要在 5k 卡前完成；当前文件后端官方明确非生产。 |
+| 现在就要换 LightRAG 后端吗？ | 不需要。先做增量 rebuild；查询延迟仍高再评估后端替换。 |
 | MOC 是必选项吗？ | 是。没有 MOC，10k 卡的图网络会不可导航。 |
 | 需要分布式/多机吗？ | 10k 卡不需要；单机 + SSD + 16GB 内存足够。 |
+
+---
+
+## 十一、欧阳锋评审意见（2026-06-29）
+
+**总体评定**：
+- `plan-state-json-to-sqlite-migration.md`：**A-，采纳，从 MVP 开始**
+- `kdo-scalability-roadmap-10k-cards.md`：**B+，方向正确，但需补充细节**
+
+### 完全同意的点
+
+1. 不改 272 处调用，只改 `load_state()` / `save_state()` 抽象层。
+2. 统一表 + JSON 列，而不是 15 张独立表。
+3. MVP 只做 `sources` 集合。
+4. 不做双写过渡期。
+5. Phase 0（MOC + 归档）先于 Phase 2（数据库化）。
+
+### 补充与纠正
+
+1. **文档内部矛盾**：migration plan 的 MVP 小节原写“双写一周”，与 5.3 节冲突，已修正为“单写 + 备份 + 回退”。
+2. **多进程并发**：KDO 真实场景是多进程（老顽童 CLI / 黄药师 lint / 王语嫣 dashboard），需 `busy_timeout=5000` + 进程级文件锁。
+3. **`save_state` 语义改变**：批量 append 模式在 SQLite 下会立即落库，需提供显式 `state.transaction()` 上下文。
+4. **归档机制**：先采用“`status: archived` + 留在原目录 + lint 排除 archived”，避免破坏 wikilink。
+5. **性能数字**：实测与外推需明确区分，`1m17s` 是实测，`6–10min` 是假设线性外推。
+6. **Graph RAG 后端**：当前 72MB index、2,189 卡，文件后端查询延迟不是瓶颈；**增量 rebuild 优先级高于换后端**。
+
+### 明确不做
+
+- ❌ 双写过渡期
+- ❌ `check_same_thread=False` 无保护方案
+- ❌ 现在就换 Graph RAG 后端
 
 ---
 

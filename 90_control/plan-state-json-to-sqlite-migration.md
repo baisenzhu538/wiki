@@ -172,6 +172,75 @@ def save_state(root: Path, state: SQLiteState | dict) -> None:
 
 对调用方透明，但避免“内存累积后 save 失败丢一批数据”的风险。
 
+### 3.4 多进程并发安全（欧阳锋补充）
+
+黄药师的 `threading.Lock` 解决单进程多线程问题，但 KDO 真实场景是**多进程并发写**：
+
+- 老顽童 CLI 一个进程
+- 黄药师 lint 一个进程
+- 王语嫣 dashboard 一个进程
+- Obsidian git backup 可能触发外部读写
+
+SQLite WAL 模式让读者不阻塞写者，但**写者之间仍然串行**。两个进程同时写时，后一个会收到 `DATABASE LOCKED`。
+
+**推荐方案（双层保护）**：
+
+```python
+class SQLiteState:
+    def __init__(self, db_path: Path):
+        self._db = sqlite3.connect(db_path, check_same_thread=False)
+        self._db.execute("PRAGMA journal_mode=WAL")
+        self._db.execute("PRAGMA synchronous=NORMAL")
+        self._db.execute("PRAGMA busy_timeout = 5000")  # 5s 自动重试
+        self._db.row_factory = sqlite3.Row
+        self._write_lock = threading.Lock()
+        self._ensure_tables()
+```
+
+更稳的做法：在 `.kdo/` 下加进程级文件锁 `.kdo/state.sqlite.lock`：
+
+```python
+import fcntl  # Windows 可用 msvcrt/portalocker
+
+@contextmanager
+def _process_write_lock(lock_path: Path):
+    with open(lock_path, "w") as f:
+        fcntl.flock(f, fcntl.LOCK_EX)
+        yield
+        fcntl.flock(f, fcntl.LOCK_UN)
+```
+
+写操作顺序：
+1. 获取进程级文件锁
+2. 获取线程级 `threading.Lock`
+3. 执行 SQL
+4. 释放线程锁
+5. 释放文件锁
+
+### 3.5 批量写入与事务边界（欧阳锋补充）
+
+旧代码中可能存在这种模式：
+
+```python
+state["sources"].append(r1)
+state["sources"].append(r2)
+# 假设中间出错，save_state 不会被调用
+# 旧行为：r1/r2 只在内存，不会污染 state.json
+# 新行为：r1/r2 已经入库
+```
+
+如果命令中途异常退出，脏数据可能已经落库。
+
+**MVP 建议**：
+- 默认每条 `append()`/`update()` 即一个独立事务自动提交。
+- 为需要批量原子写入的场景，在 facade 层提供显式事务：
+  ```python
+  with state.transaction():
+      state["sources"].append(r1)
+      state["sources"].append(r2)
+  ```
+- 文档写明：单条 append 是原子操作；跨命令一致性由调用方用 transaction 上下文保证。
+
 ---
 
 ## 四、SQLite Schema 设计
@@ -410,6 +479,35 @@ CREATE TABLE kdo_strings (
 
 - **本周**：SQLiteState + sources 集合 + 自动迁移 + enrich benchmark
 - **下周**：扩展其余 16 个集合 + rollback 命令 + 集成测试
+
+---
+
+## 十四、欧阳锋评审意见（2026-06-29）
+
+**总体评定：A-，采纳。从 MVP 开始做。**
+
+### 完全同意的点
+
+1. 不改 272 处调用，只改 `load_state()` / `save_state()` 抽象层——Facade 模式风险最低。
+2. 统一表 + JSON 列，而非 15 张独立表——避免 premature optimization。
+3. MVP 只做 `sources` 集合——收益最大、风险最低。
+4. 不做双写过渡期——单写 + 备份 + 环境变量回退足够。
+5. 10k 路线图 Phase 0（MOC + 归档）先于 Phase 2（数据库化）——零代码、低风险。
+
+### 补充与纠正
+
+1. **文档内部矛盾已修正**：MVP 小节原写“双写一周”，与 5.3 节“不做双写”冲突，已改为“单写 + 备份 + 回退”。
+2. **多进程并发比多线程更关键**：WAL + `busy_timeout=5000` + 进程级文件锁 `.kdo/state.sqlite.lock`，解决老顽童/黄药师/王语嫣多进程同时写的问题。
+3. **`save_state` 语义改变需测试覆盖**：旧代码中“批量 append 后 save”模式在 SQLite 下会立即落库；MVP 应提供显式 `state.transaction()` 上下文处理批量原子写入。
+4. **归档机制需明确规则**：建议先采用“`status: archived` + 留在原目录 + lint 默认排除 archived”，避免大量 wikilink 迁移。
+5. **性能数字需区分实测与外推**：`1m17s` 是实测，`6–10min` 是线性假设，实际取决于 O(n²) 相似度是否关闭。
+6. **Graph RAG 后端替换 ROI 需重算**：当前 72MB index、2,189 卡，文件后端查询延迟不是瓶颈；**增量 rebuild 优先级高于换后端**。
+
+### 明确不做
+
+- ❌ 双写过渡期
+- ❌ `check_same_thread=False` 无保护方案
+- ❌ 现在就换 Graph RAG 后端
 
 ---
 
