@@ -433,9 +433,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-wanghuan-gan-three-roles]]
 
 ## [[case-daxin-team-content-training-camp]]
+- [[cases/case-daxin-vikki-community-contrast]]
+- [[frameworks/framework-community-knowledge-production-failure-modes]]
 - [[frameworks/framework-content-business-six-step]]
 - [[frameworks/framework-founder-ip-three-positioning]]
 - [[tools/tool-shortvideo-six-dimension-deconstruction]]
+
+## [[case-daxin-vikki-community-contrast]]
+- [[frameworks/framework-community-knowledge-production-failure-modes]]
 
 ## [[case-decision-ai-assisted-vs-human]]
 - [[domains/decision-science-domain-digest]]
@@ -1621,6 +1626,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[concept-open-source-knowledge-usage-boundary]]
 - [[cases/case-daxin-team-content-training-camp]]
+- [[cases/case-daxin-vikki-community-contrast]]
+- [[frameworks/framework-community-knowledge-production-failure-modes]]
 
 ## [[concept-smart-medicine-cabinet-consumer-acceptance]]
 - [[concepts/concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
@@ -3199,6 +3206,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[framework-brand-three-degree]]
 - [[cases/case-daxin-team-content-training-camp]]
 - [[concepts/concept-open-source-knowledge-usage-boundary]]
+- [[frameworks/framework-community-knowledge-production-failure-modes]]
 - [[frameworks/framework-content-business-six-step]]
 - [[frameworks/framework-founder-ip-three-positioning]]
 - [[systems/system-kdo-quality-labels]]
@@ -3213,9 +3221,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-ci-define-phase]]
 - [[tools/tool-ci-implement-phase]]
 
+## [[framework-community-knowledge-production-failure-modes]]
+- [[cases/case-daxin-vikki-community-contrast]]
+
 ## [[framework-content-business-six-step]]
 - [[cases/case-daxin-team-content-training-camp]]
+- [[cases/case-daxin-vikki-community-contrast]]
 - [[frameworks/framework-brand-three-degree]]
+- [[frameworks/framework-community-knowledge-production-failure-modes]]
 - [[frameworks/framework-founder-ip-three-positioning]]
 - [[tools/tool-shortvideo-six-dimension-deconstruction]]
 
@@ -3309,7 +3322,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[framework-founder-ip-three-positioning]]
 - [[cases/case-daxin-team-content-training-camp]]
+- [[cases/case-daxin-vikki-community-contrast]]
 - [[frameworks/framework-brand-three-degree]]
+- [[frameworks/framework-community-knowledge-production-failure-modes]]
 - [[frameworks/framework-content-business-six-step]]
 - [[tools/tool-shortvideo-six-dimension-deconstruction]]
 
@@ -7373,7 +7388,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/graph-rag]]
 
 ## [[system-kdo-quality-labels]]
+- [[cases/case-daxin-vikki-community-contrast]]
 - [[concepts/concept-open-source-knowledge-usage-boundary]]
+- [[frameworks/framework-community-knowledge-production-failure-modes]]
 - [[frameworks/framework-content-business-six-step]]
 - [[frameworks/framework-founder-ip-three-positioning]]
 
@@ -8259,6 +8276,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-shortvideo-six-dimension-deconstruction]]
 - [[cases/case-daxin-team-content-training-camp]]
+- [[frameworks/framework-community-knowledge-production-failure-modes]]
 - [[frameworks/framework-content-business-six-step]]
 - [[frameworks/framework-founder-ip-three-positioning]]
 

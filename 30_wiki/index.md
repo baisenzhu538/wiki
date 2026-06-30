@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-30T16:07:51+00:00_
+_Last updated: 2026-06-30T18:19:58+00:00_
 
 - [[session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -51,7 +51,8 @@ _Last updated: 2026-06-30T16:07:51+00:00_
 - [[case-course-milestone-model|案例：一堂课程里程碑模型——方法论级建模的六步生产流程]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[case-cross-xingangwan-pharma|鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证]] — source `30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md`
 - [[case-cross-yuanqi-forest|元气森林：战略定位与精益试错的跨域闭环]] — source `00_inbox/精益创业/元气森林-试错工具箱_ocr_text.md`
-- [[cases/case-daxin-team-content-training-camp|大馨战队短视频拆解训练营]] — source `00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md`
+- [[case-daxin-team-content-training-camp|大馨战队短视频拆解训练营]] — source `00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md`
+- [[case-daxin-vikki-community-contrast|Vikki 群与大馨群：两种社群知识生产模式的对比]] — source `00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md`
 - [[case-decision-ai-assisted-vs-human|AI 辅助决策 vs 人工决策的边界案例]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[case-deepfake-market-misuse|Deepfake 的商业机会与滥用风险]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[case-demand-ai-fitness-four-forces|案例：AI健身四力——四种力量的博弈分析]] — source `00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt`
@@ -423,14 +424,14 @@ _Last updated: 2026-06-30T16:07:51+00:00_
 - [[product-business-strategy|产品-商业战略综合：设备运营、方向取舍与产品开发：主题综合索引卡]] — source `10_raw/sources/src_20260614_5f74ed61-多人-项目问题沟通.md`
 - [[product-ux|Product Ux]] — source `10_raw/sources/src_20260522_404f58a2-product-ux.md`
 - [[productization-judgment|产品化判断四维度]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
-- [[rust-borrowing-references|Rust 借用与引用：不转移所有权的访问]] — source no source
-- [[rust-concurrency-send-sync|Rust 并发安全：Send 与 Sync 的编译期保证]] — source no source
-- [[rust-domain-overview|Rust 编程语言：零成本抽象与内存安全的系统编程]] — source no source
-- [[rust-error-handling|Rust 错误处理：Result、? 与分层策略]] — source no source
-- [[rust-lifetimes|Rust 生命周期：引用有效性的编译期保证]] — source no source
-- [[rust-ownership-basics|Rust 所有权基础：三条核心规则]] — source no source
-- [[rust-smart-pointers|Rust 智能指针：超越引用的所有权管理]] — source no source
-- [[rust-traits-generics|Rust Trait 与泛型：零成本抽象的接口设计]] — source no source
+- [[rust-borrowing-references|Rust 借用与引用：不转移所有权的访问]] — source `pending_archive`
+- [[rust-concurrency-send-sync|Rust 并发安全：Send 与 Sync 的编译期保证]] — source `pending_archive`
+- [[rust-domain-overview|Rust 编程语言：零成本抽象与内存安全的系统编程]] — source `pending_archive`
+- [[rust-error-handling|Rust 错误处理：Result、? 与分层策略]] — source `pending_archive`
+- [[rust-lifetimes|Rust 生命周期：引用有效性的编译期保证]] — source `pending_archive`
+- [[rust-ownership-basics|Rust 所有权基础：三条核心规则]] — source `pending_archive`
+- [[rust-smart-pointers|Rust 智能指针：超越引用的所有权管理]] — source `pending_archive`
+- [[rust-traits-generics|Rust Trait 与泛型：零成本抽象的接口设计]] — source `pending_archive`
 - [[smart-medicine-cabinet-distribution|智能药柜分销业态洞察]] — source `10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md`
 - [[smart-medicine-cabinet-national-policy-redlines|自助售药机国家政策与红线（2024 年第 48 号公告解读）]] — source `pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive`
 - [[smart-medicine-cabinet-o2o-cost-structure|医药 O2O 成本与毛利结构]] — source `pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive`
@@ -993,10 +994,11 @@ _Last updated: 2026-06-30T16:07:51+00:00_
 - [[framework-ai-deconstruction-methodology|王欢三层拆书法]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[framework-ai-deliberate-practice-loop|AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴]] — source `00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt`
 - [[framework-ai2041-critical-reading-os|AI 2041 批判性认知操作系统]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
-- [[frameworks/framework-brand-three-degree|品牌三度]] — source `00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md`
+- [[framework-brand-three-degree|品牌三度]] — source `00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md`
 - [[framework-candy-transcript-workflow|Candy逐字稿九步法：从素材到可交付内容的生产流程]] — source `10_raw/sources/src_20260621_candy-transcript-workflow.md`
 - [[framework-ci-operating-model|竞争情报操作系统（CI Operating Model）]] — source `60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md`
-- [[frameworks/framework-content-business-six-step|内容经营 6 步闭环]] — source `00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md`
+- [[framework-community-knowledge-production-failure-modes|社群知识生产失败模式库]] — source `00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md`
+- [[framework-content-business-six-step|内容经营 6 步闭环]] — source `00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md`
 - [[framework-course-milestone-model|课程里程碑模型：一堂做课的七步生产流程]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[framework-decision-cognitive-bias-map|商业决策常见认知偏差地图]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[framework-decision-quality-checklist|决策质量六问检查表]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
@@ -1007,7 +1009,7 @@ _Last updated: 2026-06-30T16:07:51+00:00_
 - [[framework-demand-validation-pipeline|需求验证流水线]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[framework-doris-industry-report-4step|行业报告调研四步法：7天快速建立行业认知]] — source `00_inbox/调研专题/Doris-行业报告调研-口述.txt`
 - [[framework-five-step-lean-interface|五步法与精益验证的接口]] — source `00_inbox/精益创业/transcript_低成本验证认知篇.md`
-- [[frameworks/framework-founder-ip-three-positioning|创始人 IP 三定位模型]] — source `00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md`
+- [[framework-founder-ip-three-positioning|创始人 IP 三定位模型]] — source `00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md`
 - [[framework-kdo-self-attack|KDO 知识自攻击框架：用对抗 Agent 在交付前主动找出弱点]] — source `40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`
 - [[framework-lean-abcd-model|关键假设 ABCD 模型]] — source `00_inbox/精益创业/truman-精益创业-关键假设ABCD模型_ocr_text.md`
 - [[framework-lean-expert-roadmap|精益高手十年修炼地图]] — source `00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_ocr_text.md`
@@ -1503,7 +1505,7 @@ _Last updated: 2026-06-30T16:07:51+00:00_
 - [[tool-ROI决策评估画布|ROI决策评估画布：三维度投资回报评估模板]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md`
 - [[tool-sabc-tier-modeling|SABC分级/段位图建模法：给事物排优先级与成长路径]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
 - [[tool-scenario-selector-modeling|场景→工具选择器：根据需求快速匹配合适的建模工具]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
-- [[tools/tool-shortvideo-six-dimension-deconstruction|短视频 6 维度拆解工具]] — source `00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md`
+- [[tool-shortvideo-six-dimension-deconstruction|短视频 6 维度拆解工具]] — source `00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md`
 - [[tool-smart-medicine-cabinet-compliance-checklist|智能药柜/医药项目合规快速校验清单]] — source `pending_archive:src_20260613_2286ccfb-itingnao-deep-dive-compliance`
 - [[tool-smart-medicine-cabinet-site-selection-guide|智能药柜选址深度指南：场景、指标与验证方法]] — source `pending_archive:src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures`
 - [[tool-sop-template-modeling|SOP/模板建模法：把关键动作固化成标准工作流]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
@@ -2149,5 +2151,3 @@ _Last updated: 2026-06-30T16:07:51+00:00_
 - [[yt-tool-unit-model-construction|yt tool unit model construction]] — source `src_unknown`
 - [[yt-tool-unit-model-dynamic|yt tool unit model dynamic]] — source `src_unknown`
 - [[yt-tool-unit-model-selection|yt tool unit model selection]] — source `src_unknown`
-- [[frameworks/framework-community-knowledge-production-failure-modes|社群知识生产失败模式库]] — source `00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md`
-- [[cases/case-daxin-vikki-community-contrast|Vikki 群与大馨群：两种社群知识生产模式的对比]] — source `00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md`
