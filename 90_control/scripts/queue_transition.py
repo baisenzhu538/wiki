@@ -27,6 +27,12 @@ try:
 except ImportError:  # pragma: no cover
     yaml = None
 
+# Ensure UTF-8 stdout to avoid UnicodeEncodeError on Windows Git Bash
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
+
 # Make queue_gate importable from the same directory
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_DIR))
@@ -120,6 +126,29 @@ def current_utc_date() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
+def backup(path: Path) -> str:
+    """Return current file content for rollback."""
+    return path.read_text(encoding="utf-8")
+
+
+def restore(path: Path, content: str) -> None:
+    """Restore file content on failure."""
+    path.write_text(content, encoding="utf-8")
+
+
+def apply_updates(task_id: str, new_queue_status: str, task_file: Path, **task_updates: Any) -> None:
+    """Atomically update queue and task file; rollback both on failure."""
+    queue_backup = backup(QUEUE_PATH)
+    task_backup = backup(task_file)
+    try:
+        update_queue_status(task_id, new_queue_status)
+        update_task_frontmatter(task_file, **task_updates)
+    except Exception as e:
+        restore(QUEUE_PATH, queue_backup)
+        restore(task_file, task_backup)
+        raise RuntimeError(f"状态更新失败，已自动回滚：{e}") from e
+
+
 def action_claim(task_id: str, instance: str) -> tuple[bool, str]:
     """Claim a queued task for an instance."""
     rows = parse_queue()
@@ -139,8 +168,7 @@ def action_claim(task_id: str, instance: str) -> tuple[bool, str]:
             return False, reason
 
         new_status = f"claimed-{instance}"
-        update_queue_status(task_id, new_status)
-        update_task_frontmatter(task_file, assignee=instance, status="in_progress")
+        apply_updates(task_id, new_status, task_file, assignee=instance, status="in_progress")
 
     return True, f"✅ {task_id} 已领取为 {new_status}"
 
@@ -174,8 +202,7 @@ def action_complete(task_id: str, instance: str, evidence: str | None) -> tuple[
         if task is None or task["status"] != expected:
             return False, "队列状态在加锁期间发生变化，请重试"
 
-        update_queue_status(task_id, "pending_review")
-        update_task_frontmatter(task_file, status="pending_review")
+        apply_updates(task_id, "pending_review", task_file, status="pending_review")
 
     return True, f"✅ {task_id} 已提交为 pending_review，等待欧阳锋终审"
 
@@ -196,8 +223,7 @@ def action_release(task_id: str, instance: str) -> tuple[bool, str]:
         return False, f"找不到任务单文件: {task_id}"
 
     with QueueLock("production-queue"):
-        update_queue_status(task_id, "queued")
-        update_task_frontmatter(task_file, status="queued")
+        apply_updates(task_id, "queued", task_file, status="queued")
 
     return True, f"✅ {task_id} 已释放回 queued"
 
@@ -220,8 +246,9 @@ def action_review(task_id: str, verdict: str, reviewer: str) -> tuple[bool, str]
 
     with QueueLock("production-queue"):
         if verdict == "pass":
-            update_queue_status(task_id, "reviewed")
-            update_task_frontmatter(
+            apply_updates(
+                task_id,
+                "reviewed",
                 task_file,
                 status="reviewed",
                 reviewed_by=reviewer,
@@ -229,8 +256,7 @@ def action_review(task_id: str, verdict: str, reviewer: str) -> tuple[bool, str]
             )
             return True, f"✅ {task_id} 终审通过，状态更新为 reviewed"
         else:
-            update_queue_status(task_id, "queued")
-            update_task_frontmatter(task_file, status="queued")
+            apply_updates(task_id, "queued", task_file, status="queued")
             return True, f"⚠️ {task_id} 终审不通过，状态退回 queued"
 
 
