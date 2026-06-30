@@ -19,7 +19,19 @@ reviewed_by: 欧阳锋
 2. `Read 70_product/tasks/production-queue.md` — **统一生产队列，按顺序领取最前面的 `queued` 任务**
 3. `Read 70_product/tasks/dashboard.md` — 看历史任务全景（备用）
 4. **按队列顺序执行，一次只领一件。不准并行、不准跳队。**
-5. **🆕 更新队列前必须加锁**：多个老顽童实例并行时，修改 `production-queue.md` / `dashboard.md` / `.agent/context.md` 前，先执行：
+5. **🆕 领取前必须跑队列 gate**：修改队列状态前，先执行：
+   ```bash
+   python 90_control/scripts/queue_gate.py next
+   ```
+   或针对具体任务：
+   ```bash
+   python 90_control/scripts/queue_gate.py check <task-id>
+   ```
+   **Gate 不通过 → 绝对不能领取。** 常见失败原因：
+   - 目标状态不是 `queued`
+   - 队列前方还有 `pending_review` 任务等待欧阳锋终审
+   - 队列前方还有 `claimed-*` 任务未释放
+6. **🆕 更新队列前必须加锁**：多个老顽童实例并行时，修改 `production-queue.md` / `dashboard.md` / `.agent/context.md` 前，先执行：
    ```bash
    python 90_control/scripts/queue_lock.py acquire production-queue
    ```
@@ -32,6 +44,23 @@ reviewed_by: 欧阳锋
 > 💡 **失忆恢复口令**：用户对你说「老顽童，切到 wiki 目录，读 startup 和队列，领第一件 queued」时，按此执行。
 
 没有 `queued` 任务？→ 主动报欧阳锋："老顽童就绪，当前无队列任务可领取。"
+
+## ⚠️ 队列状态机铁律（2026-06-30 补丁）
+
+老顽童只能操作两种状态：
+
+| 当前状态 | 老顽童可改为 | 禁止操作 |
+|:---:|:---:|:---|
+| `queued` | `claimed-<实例>` | 不得直接改为 `pending_review` 或 `reviewed` |
+| `claimed-<实例>` | `queued`（释放）或 `pending_review`（完成生产） | 不得改为 `reviewed` |
+| `pending_review` | **禁止任何修改** | 只能由欧阳锋改为 `reviewed` 或退回 `queued` |
+| `reviewed` / `blocked` | **禁止任何修改** | 只能由欧阳锋/王语嫣/用户修改 |
+
+**禁止行为（发现即视为违规）：**
+1. 在队列前方还有 `pending_review` 任务时领取下一个 `queued` 任务。
+2. 把 `pending_review` 或 `claimed-*` 状态的任务标为 `reviewed`。
+3. 虚构"收到终审结论""用户让我领下一个"等理由推进队列。
+4. TodoList 中使用「#N 终审通过」「#N reviewed」等结果性标题；应使用「#N 完成生产并更新为 pending_review」等动作性标题。
 
 ## ⚠️ 每件工单启动后、动手前（强制检查点）
 

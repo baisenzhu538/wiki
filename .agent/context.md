@@ -1,12 +1,15 @@
 ---
 updated: 2026-06-30
-updated_at: 2026-06-30
+updated_at: 2026-06-30T15:23:37+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
 active_task: "#33 大馨战队核心方法论卡片化（pending_review 2026-06-30）：老顽童(Kimi)已完成 5 张目标卡生产 + framework-brand-three-degree 由 concept 升级为 framework + 全量 related 回链 + index.md 补录；5/5 张卡 kdo pre-submit PASS；待欧阳锋终审"
 blockers:
+  - "🟡 #33 大馨战队核心方法论卡片化（2026-06-30）：老顽童(Kimi)已完成 5 张卡生产并提交欧阳锋终审；待欧阳锋审查 framework 边界、case 证据链、tool 可操作性、related 分层"
   - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已处理 28 文件，copy-paste 清零（76→0），lint 从 3255 降至 2656 WARNING；当前实例切换至 #30，#28 已释放回 queued；后续继续处理 strategy 域 body 过短，然后批量补 L2 Critique 外部反对者"
+
+next_session_hint: "下一步：① 欧阳锋终审 #33 大馨战队核心方法论卡片化（5 张目标卡 kdo pre-submit 5/5 PASS）；② 老顽童(Kimi)释放 #33 后，可继续领取 #34 社群知识生产失败模式库或 #28 lint 内容债（2656 WARNING）；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"
   - "✅ B1 frontmatter related 占位清理 reviewed（2026-06-28）：欧阳锋终审确认 256 文件真实修改，1947 src_unknown 清零，1190 pending_unknown 补入符合分层标准；`kdo lint` 0 ERROR"
   - "✅ B2 Synthesis section 清理 reviewed（2026-06-28）：235 张初处理 + 66 张补充清理，66 文件 body src_unknown 全部清零；kdo lint 140 ERROR 全为历史遗留，无新增；frontmatter src_unknown 另开任务处理"
@@ -78,7 +81,7 @@ blockers:
   - "📝 本次会话复盘已写入（2026-06-30）：`20_memory/session-retro-20260630-vikki-daxin-asset-naming.md`；关键决策：Vikki/大馨 5 任务融合入队、素材七要素命名法、AI 自动打标签采用半自动工作流"
   - "📝 Kimi Code CLI 专项能力复盘已同步（2026-06-30）：`20_memory/kimi-capability-retro-20260630.md` + `agent复盘/Kimi/2026-06-30.md`；平均分 7.6/10；新增 5 条错误模式库记录；Keep/Improve/Add/Stop 四象限已沉淀；Kimi 启动时应自动读取本复盘"
 
-next_session_hint: "下一步：① 欧阳锋终审 #32 开源知识使用边界概念卡（concept-open-source-knowledge-usage-boundary，kdo pre-submit 1/1 PASS）；② 老顽童(Kimi)释放 #32 后，可继续领取 #28 lint 内容债（2656 WARNING，strategy 域 body 过短 → L2 Critique）或 #33-34 Vikki/大馨 新任务；③ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+
 ---
 
 ## 📢 全厂通知（2026-06-19）

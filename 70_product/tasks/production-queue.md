@@ -2,7 +2,7 @@
 id: production-queue
 type: queue
 status: active
-updated_at: 2026-06-30
+updated_at: 2026-06-30T15:23:37+00:00
 reviewed_by: 欧阳锋
 owner: 王语嫣
 audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
@@ -25,6 +25,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 5. **阻塞处理**：若任务被阻塞，在「状态」列标注 `blocked` 并写明阻塞原因；阻塞解决后恢复为 `queued`。
 6. **优先级调整**：用户可随时调整队列顺序；调整时由王语嫣更新本文件，并在 `.agent/context.md` 中同步。
 7. **新任务入队**：王语嫣诊断完成后，新任务默认进入队列末尾；用户可指定插队。
+8. **🆕 领取前必须跑 gate**：老顽童领取任务前必须执行 `python 90_control/scripts/queue_gate.py next` 或 `python 90_control/scripts/queue_gate.py check <task-id>`。Gate 失败时禁止领取。`pending_review` 任务未终审前，老顽童不得领取后续任务。
 
 ---
 

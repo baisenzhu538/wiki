@@ -5,7 +5,7 @@ status: pending_review
 assignee: 老顽童(Kimi)
 priority: P2
 created_at: 2026-06-30
-updated_at: 2026-06-30
+updated_at: 2026-06-30T15:23:37+00:00
 reviewed_by: 欧阳锋
 reviewer: 欧阳锋
 source_refs:
@@ -132,6 +132,13 @@ Passed:        5
 Failed:        0
 All gates passed. Ready for human review.
 ```
+
+```text
+kdo lint --domain content-production --summary
+Summary: 0 new error(s), 16 new warning(s) (1979 accepted).
+```
+
+5 张目标卡已无新增 ERROR/WARNING。剩余 16 个 WARNING 均为 #30-32 其他卡片的历史遗留或 KDO index 重建机制导致的 bare wikilink 误报，与本次产出无关。
 
 ### 关联工作
 

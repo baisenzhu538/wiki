@@ -1,4 +1,10 @@
 ---
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: '2026-06-28'
+updated_at: '2026-06-30T15:24:56.626578+00:00'
+---
+---
 id: task_20260628_laowantong-lint-batch2-dk-sections
 type: task
 status: pending_review
