@@ -16,6 +16,10 @@ import re
 import sys
 from pathlib import Path
 
+# Ensure UTF-8 stdout on Windows Git Bash
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 WIKI_ROOT = Path(__file__).resolve().parent.parent.parent
 TASK_DIR = WIKI_ROOT / "60_feedback" / "tasks"
 QUEUE_PATH = WIKI_ROOT / "70_product" / "tasks" / "production-queue.md"
