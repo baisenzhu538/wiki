@@ -78,9 +78,10 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 34 | `task_20260630_community-knowledge-failure-modes` | 社群知识生产失败模式库（Vikki + 大馨融合） | reviewed | 老顽童(Hermes) | 1 张 framework + 1 张可选 case | 无 | `60_feedback/tasks/task_20260630_community-knowledge-failure-modes.md` | 来源：Vikki群 + 大馨战队；融合10个失败模式，建立KDO多Agent协作/社群运营的失败模式库与早期预警指标 |
 | 35 | `task_20260630_kdo-state-json-sqlite-migration-mvp` | KDO state.json → SQLite MVP 迁移（sources 集合） | **queued** | **黄药师** | 1 个集合 / 689 条记录 | 无；用户指定本周高优先级基础设施任务 | `60_feedback/tasks/task_20260630_kdo-state-json-sqlite-migration-mvp.md` | 用户+欧阳锋拍板：从 MVP 开始，只迁移 sources 集合；WAL + busy_timeout + 进程级文件锁；不做双写；跑 enrich benchmark 实测 |
 | 36 | `task_20260630_kdo-query-label-filter` | 实现 kdo query --label 质量标签过滤命令 | queued | 黄药师 | 1 个 CLI 参数 | 依赖 #31 reviewed；48 张重复标签问题已由欧阳锋现场修复 | `60_feedback/tasks/task_20260630_kdo-query-label-filter.md` | #31 遗留：验收标准要求 `kdo query --label actionable` 可过滤；当前用 rg 临时替代；黄药师实现后更新 system-kdo-quality-labels 指南 |
+| 37 | `task_20260630_kdo-cli-syntaxerror-fix` | 修复 kdo CLI SyntaxError（kdo/commands/delivery.py:686） | queued | 黄药师 | 1 个 bugfix | 无；老顽童在 #34 生产中发现 | `60_feedback/tasks/task_20260630_kdo-cli-syntaxerror-fix.md` | `python -m kdo pre-submit` 等命令触发 SyntaxError，需黄药师修复 delivery.py 语法错误；修复后老顽童可恢复直接使用 CLI |
 
-> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 5 个 Vikki/大馨 提炼任务（#30-34）+ **2 个黄药师基础设施任务（#35 state.json → SQLite MVP、#36 kdo query --label）**。
-> **本周高优先级基础设施任务**：#35 `state.json → SQLite MVP` 由黄药师负责，用户指定插队执行，与内容生产任务可并行；#36 可紧随其后。
+> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 5 个 Vikki/大馨 提炼任务（#30-34）+ **3 个黄药师基础设施任务（#35 state.json → SQLite MVP、#36 kdo query --label、#37 kdo CLI SyntaxError 修复）**。
+> **本周高优先级基础设施任务**：#35 `state.json → SQLite MVP` 由黄药师负责，用户指定插队执行，与内容生产任务可并行；#36、#37 可紧随其后。
 > **本周高优先级基础设施任务**：#35 `state.json → SQLite MVP` 由黄药师负责，用户指定插队执行，与内容生产任务可并行。
 > **当前 lint 基线**：`kdo lint` 全量 0 ERROR / 2656 WARNING；机械类 WARNING 经 #27 处理后降至 3286；#28 第一轮后降至 3255，第二轮累计处理 23 张 card 后降至 2666（copy-paste 从 76 清零），第三轮处理 5 个 strategy case 后降至 2656；剩余主要为 body 过短、L2 Critique、L2 Condense、L2 Synthesis 等内容债，由 #28 按 domain 分批处理；`kdo lint --domain <domain> --summary` 已可用。
 > **人员状态**：A1/A2 reviewed；#24-debt reviewed；Wave 6 已完成；B1/B2/B3 已完成；#25 扩展卡已 reviewed；#26 全库 frontmatter 合规修复已 reviewed。
