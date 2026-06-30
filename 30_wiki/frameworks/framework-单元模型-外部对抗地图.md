@@ -1,5 +1,4 @@
 ---
-
 id: framework-单元模型-外部对抗地图
 title: 外部对抗地图
 type: framework
@@ -11,27 +10,27 @@ trust_level: medium
 language: zh-CN
 domain: yitang
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 updated_at: '2026-06-29'
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-外部对抗地图_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-外部对抗地图_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-外部对抗地图.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[ocr-一堂-地图-管理地图_conv]]"
-  - "[[ocr-一堂-地图-个人地图]]"
-  - "[[ocr-一堂-单元模型-外部对抗地图]]"
-  - "[[ocr-一堂个人地图高潜力成长者修炼全景图]]"
-  - "[[ocr-一堂-地图-管理地图]]"
-  - "[[ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图]]"
-  - "[[ocr-一堂-地图-创业地图_conv]]"
-  - "[[ocr-一堂进步大地图]]"
-  - "[[ocr-一堂-地图-创业地图]]"
+- '[[yitang-domain-digest]]'
+- '[[ocr-一堂-地图-管理地图_conv]]'
+- '[[ocr-一堂-地图-个人地图]]'
+- '[[ocr-一堂-单元模型-外部对抗地图]]'
+- '[[ocr-一堂个人地图高潜力成长者修炼全景图]]'
+- '[[ocr-一堂-地图-管理地图]]'
+- '[[ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图]]'
+- '[[ocr-一堂-地图-创业地图_conv]]'
+- '[[ocr-一堂进步大地图]]'
+- '[[ocr-一堂-地图-创业地图]]'
+created_at: '2026-06-30'
 ---
-
 # 外部对抗地图
 
 ## 一句话定义

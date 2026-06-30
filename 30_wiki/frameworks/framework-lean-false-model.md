@@ -8,8 +8,8 @@ reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: high
 quality_labels:
-  - principle
-  - validated
+- principle
+- validated
 updated_at: '2026-06-28'
 language: zh-CN
 domain:
@@ -26,13 +26,13 @@ source_refs:
 - 00_inbox/精益创业/truman-低成本验证-思考策略_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-思考策略_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+created_at: '2026-06-30'
 ---
-
 # 一堂 FALSE/FLESAI 低成本验证模型
 
 > 用一条成本光谱，把"不做产品直接验证"到"全量投入"之间的所有中间策略串起来，帮助创业者在确定性不足时选择最省钱的验证路径。

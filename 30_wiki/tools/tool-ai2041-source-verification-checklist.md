@@ -1,5 +1,4 @@
 ---
-
 id: tool-ai2041-source-verification-checklist
 title: AI 预测来源验证检查单
 type: tool
@@ -18,19 +17,20 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - "[[tool-tech-probability-80-filter]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
+- '[[tool-tech-probability-80-filter]]'
+- '[[tool-ai-critical-reading-three-layers]]'
+- '[[framework-ai2041-critical-reading-os]]'
+- '[[framework-ai-deconstruction-methodology]]'
+- '[[framework-wanghuan-ooda-loop]]'
+- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- '[[framework-wanghuan-gan-three-roles]]'
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
+updated_at: '2026-06-30'
+created_at: '2026-06-30'
 ---
-
 # AI 预测来源验证检查单
 
 > **Burn line**：面对任何 AI 预测，先别问“它对不对”，先问“谁在说、坐在哪把椅子上、证据落在信息质量阶梯的哪一层”。

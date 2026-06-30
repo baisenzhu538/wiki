@@ -1,5 +1,4 @@
 ---
-
 id: framework-TCPR底层网络协议
 title: TCP-R 模型：商业管理世界的底层网络协议
 type: framework
@@ -15,25 +14,26 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-TCPR底层网络协议.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[ocr-一堂y模型steps策略集]]"
-  - "[[tool-月白-AI模型选择策略]]"
-  - "[[dk-单元模型-找单元模型实操难点]]"
-  - "[[ocr-一堂y模型-科学成事道理]]"
-  - "[[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]"
-  - "[[ocr-一堂-单元模型-段位专家]]"
-  - "[[ocr-一堂-单元模型-单用户模型]]"
-  - "[[concept-最简单元模型]]"
-  - "[[ocr-一堂-单元模型-对抗小抄02]]"
-  - "[[ocr-一堂-人机协作-双三角模型]]"
-  - "[[tool-模型组合调用]]"
-  - "[[ocr-一堂-单元模型-对抗小抄01]]"
+- '[[yitang-domain-digest]]'
+- '[[ocr-一堂y模型steps策略集]]'
+- '[[tool-月白-AI模型选择策略]]'
+- '[[dk-单元模型-找单元模型实操难点]]'
+- '[[ocr-一堂y模型-科学成事道理]]'
+- '[[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]'
+- '[[ocr-一堂-单元模型-段位专家]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[concept-最简单元模型]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- '[[ocr-一堂-人机协作-双三角模型]]'
+- '[[tool-模型组合调用]]'
+- '[[ocr-一堂-单元模型-对抗小抄01]]'
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
+updated_at: '2026-06-30'
+created_at: '2026-06-30'
 ---
-
 # TCP-R 模型：商业管理世界的底层网络协议
 
 ## 一句话定义

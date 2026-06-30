@@ -1,5 +1,4 @@
 ---
-
 id: concept-ai-chair-determines-view
 title: 椅子决定视角
 type: concept
@@ -18,17 +17,18 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-ai2041-critical-reading-os]]"
+- '[[framework-wanghuan-ooda-loop]]'
+- '[[framework-wanghuan-gan-three-roles]]'
+- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- '[[framework-wanghuan-harness-seven-stages]]'
+- '[[framework-ai2041-critical-reading-os]]'
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
+updated_at: '2026-06-30'
+created_at: '2026-06-30'
 ---
-
 # 椅子决定视角
 
 > **Burn line**：读任何关于 AI 的预测之前，先问作者坐在哪把椅子上——因为椅子决定他看得见什么、看不见什么，以及为什么他不想让你看见某些东西。

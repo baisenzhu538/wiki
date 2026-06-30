@@ -1,5 +1,4 @@
 ---
-
 id: tool-ai-cross-reading-method
 title: 交叉阅读法
 type: tool
@@ -18,20 +17,21 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[tool-tech-probability-80-filter]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
+- '[[framework-wanghuan-gan-three-roles]]'
+- '[[framework-wanghuan-ooda-loop]]'
+- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- '[[framework-wanghuan-harness-seven-stages]]'
+- '[[framework-ai-deconstruction-methodology]]'
+- '[[tool-ai-critical-reading-three-layers]]'
+- '[[tool-tech-probability-80-filter]]'
+- '[[concept-ai-amara-law-business-judgment]]'
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
+updated_at: '2026-06-30'
+created_at: '2026-06-30'
 ---
-
 # 交叉阅读法
 
 > **Burn line**：不要只读一本书，而是把 2-3 本立场相反的书放进同一个“辩论场”，让它们在脑子里对撞，原书的盲区才会显形。

@@ -1,5 +1,4 @@
 ---
-
 id: dk-单元模型-找单元模型实操难点
 title: 找单元模型实操难点
 type: dk
@@ -15,17 +14,17 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找单元模型实操难点_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-找单元模型实操难点.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[ocr-一堂-单元模型-找单元模型实操难点]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[ocr-一堂-单元模型-找单元模型实操难点]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 review_date: '2026-06-29'
 quality_labels:
-  - validated
+- validated
 updated_at: '2026-06-29'
+created_at: '2026-06-30'
 ---
-
 # 找单元模型实操难点
 
 ## 原始表述

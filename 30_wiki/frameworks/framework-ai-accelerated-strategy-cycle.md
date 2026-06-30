@@ -1,5 +1,4 @@
 ---
-
 id: framework-ai-accelerated-strategy-cycle
 title: AI 加速的战略-验证闭环
 type: framework
@@ -22,20 +21,21 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 related:
-  - "[[framework-multi-agent-research-architecture]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[framework-strategy-brm]]"
-  - "[[strategy-domain-digest]]"
-  - "[[lean-startup-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
+- '[[framework-multi-agent-research-architecture]]'
+- '[[framework-wanghuan-harness-seven-stages]]'
+- '[[framework-lean-false-model]]'
+- '[[framework-lean-systematic-test-curve]]'
+- '[[framework-strategy-brm]]'
+- '[[strategy-domain-digest]]'
+- '[[lean-startup-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
+updated_at: '2026-06-30'
+created_at: '2026-06-30'
 ---
-
 # AI 加速的战略-验证闭环
 
 > 用 AI 同时压缩战略分析（市场/竞争/用户）和精益验证（假设生成/实验执行/数据分析）的周期，让“人定方向 → AI 加速验证 → 人做决策”的闭环转得更快，但不改变决策责任归属。

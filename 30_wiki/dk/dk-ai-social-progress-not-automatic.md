@@ -1,5 +1,4 @@
 ---
-
 id: dk-ai-social-progress-not-automatic
 title: 社会进步不是自动的
 type: dk
@@ -19,19 +18,20 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[concept-ai-chair-determines-view]]"
-  - "[[concept-ai-neutrality-bias]]"
-  - "[[tool-ai2041-source-verification-checklist]]"
-  - "[[case-ai-job-displacement-wef]]"
-  - "[[dk-ai-scarcest-resource-is-self]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[dk-ai-prediction-expiry-date]]"
+- '[[framework-ai2041-critical-reading-os]]'
+- '[[concept-ai-chair-determines-view]]'
+- '[[concept-ai-neutrality-bias]]'
+- '[[tool-ai2041-source-verification-checklist]]'
+- '[[case-ai-job-displacement-wef]]'
+- '[[dk-ai-scarcest-resource-is-self]]'
+- '[[concept-ai-amara-law-business-judgment]]'
+- '[[dk-ai-prediction-expiry-date]]'
 quality_labels:
-  - cited
-  - validated
+- cited
+- validated
+updated_at: '2026-06-30'
+created_at: '2026-06-30'
 ---
-
 # 社会进步不是自动的
 
 > **Burn line**：技术会自己加速，但制度不会自己变好——焦虑技术跑太快，是对着大海喊"你别涨潮"，不如去修自己的堤坝。

@@ -1,5 +1,4 @@
 ---
-
 id: framework-lean-six-wastes
 title: 创业六宗罪 / 六大浪费
 type: framework
@@ -22,16 +21,17 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_ocr_text.md
 - 00_inbox/精益创业/精益创业-false模型-策略图_ocr_text.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 quality_labels:
-  - principle
-  - validated
+- principle
+- validated
+updated_at: '2026-06-30'
+created_at: '2026-06-30'
 ---
-
 # 创业六宗罪 / 六大浪费
 
 ## 一句话定义

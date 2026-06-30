@@ -1,5 +1,4 @@
 ---
-
 id: framework-five-step-lean-interface
 title: 五步法与精益验证的接口
 type: framework
@@ -8,9 +7,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-23
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: 2026-06-23
 confidence: 0.85
 trust_level: high
@@ -24,13 +23,13 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-false模型_ocr_text.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
-  - "[[framework-lean-false-model]]"
-  - "[[yitang-domain-digest]]"
-  - "[[lean-startup-domain-digest]]"
-  - "[[strategy-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[framework-lean-false-model]]'
+- '[[yitang-domain-digest]]'
+- '[[lean-startup-domain-digest]]'
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+updated_at: '2026-06-30'
 ---
-
 # 五步法与精益验证的接口
 
 > 把一堂五步法（需求→产品内核→商业模式→增长→壁垒）的每一步，映射到对应的精益验证工具和通过标准。

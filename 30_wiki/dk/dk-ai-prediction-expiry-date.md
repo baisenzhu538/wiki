@@ -1,5 +1,4 @@
 ---
-
 id: dk-ai-prediction-expiry-date
 title: AI 预言的保质期
 type: dk
@@ -19,17 +18,18 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - "[[tool-tech-probability-80-filter]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[concept-ai-chair-determines-view]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[tool-ai2041-source-verification-checklist]]"
-  - "[[framework-ai-deconstruction-methodology]]"
+- '[[tool-tech-probability-80-filter]]'
+- '[[concept-ai-amara-law-business-judgment]]'
+- '[[concept-ai-chair-determines-view]]'
+- '[[framework-ai2041-critical-reading-os]]'
+- '[[tool-ai2041-source-verification-checklist]]'
+- '[[framework-ai-deconstruction-methodology]]'
 quality_labels:
-  - cited
-  - validated
+- cited
+- validated
+updated_at: '2026-06-30'
+created_at: '2026-06-30'
 ---
-
 # AI 预言的保质期
 
 > **Burn line**：结论会过期，方法不会——读任何关于未来的书，先给它的判断贴一个保质期标签。

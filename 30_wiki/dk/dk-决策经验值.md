@@ -1,5 +1,4 @@
 ---
-
 id: dk-决策经验值
 title: 暗知识：决策经验值——老手和新手的隐性差距
 type: dk
@@ -15,17 +14,16 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-决策经验值_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 quality_labels:
-  - validated
+- validated
 updated_at: 2026-06-28
-
+created_at: '2026-06-30'
 ---
-
 # 暗知识：决策经验值
 
 ## 反直觉洞察

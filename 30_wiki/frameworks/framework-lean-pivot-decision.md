@@ -1,5 +1,4 @@
 ---
-
 id: framework-lean-pivot-decision
 title: 精益验证结果如何触发战略/产品 pivot
 type: framework
@@ -8,9 +7,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-23
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: 2026-06-23
 confidence: 0.85
 trust_level: high
@@ -26,13 +25,13 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 related:
-  - "[[framework-lean-abcd-model]]"
-  - "[[yt-decision-y-model]]"
-  - "[[strategy-domain-digest]]"
-  - "[[lean-startup-domain-digest]]"
-  - "[[yitang-domain-digest]]"
+- '[[framework-lean-abcd-model]]'
+- '[[yt-decision-y-model]]'
+- '[[strategy-domain-digest]]'
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
+updated_at: '2026-06-30'
 ---
-
 # 精益验证结果如何触发战略/产品 pivot
 
 > 当精益实验结果不理想时，用决策框架判断是 pivot（转型）、persevere（坚持）还是 kill（终止）。

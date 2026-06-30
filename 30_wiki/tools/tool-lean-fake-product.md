@@ -1,5 +1,4 @@
 ---
-
 id: tool-lean-fake-product
 title: 假产品：用前端仿真验证需求
 type: tool
@@ -19,17 +18,17 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212140_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212140_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 quality_labels:
-  - actionable
-  - validated
+- actionable
+- validated
 updated_at: 2026-06-29
+created_at: '2026-06-30'
 ---
-
 # 假产品：用前端仿真验证需求
 
 > 在不做真实交付的前提下，用仿真产品前端（页面、海报、包装、按钮、菜单等）测试用户是否愿意为某个概念行动。
