@@ -1,9 +1,9 @@
 # 队列完整性审计报告
 
 - 审计范围: `C:\Users\Administrator\Desktop\wiki\60_feedback\tasks`
-- reviewed 任务单总数: 18
+- reviewed 任务单总数: 21
 - 任务单异常数: 27
-- 队列/任务单不一致数: 4
+- 队列/任务单不一致数: 1
 
 ## 任务单异常列表
 - `task_20260627_laowantong-deliberate-practice-cards`: reviewed 但缺少 review_date
@@ -36,6 +36,3 @@
 
 ## 队列/任务单状态不一致
 - `review_20260627_ouyangfeng-self-attack-framework`: 队列 marked reviewed 但任务单文件不存在
-- `task_20260628_laowantong-lint-batch2-case-sections`: 队列 status=reviewed 但任务单 status=pending_review
-- `task_20260628_laowantong-lint-batch2-dk-sections`: 队列 status=reviewed 但任务单 status=pending_review
-- `task_20260629_historical-debt-case-section-132`: 队列 status=reviewed 但任务单 status=pending_review

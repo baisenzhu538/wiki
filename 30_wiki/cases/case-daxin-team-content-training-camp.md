@@ -30,7 +30,7 @@ tags:
   - "#scene/community"
   - "case-study"
 quality_labels:
-  - observed
+  - cited
   - validated
 related:
   - "[[framework-founder-ip-three-positioning]]"
