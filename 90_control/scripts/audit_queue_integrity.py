@@ -168,11 +168,6 @@ def main() -> int:
         if reviewed_by and reviewed_by.lower() in ("pending", "none", "null"):
             anomalies.append((task_id, f"reviewed 但 reviewed_by='{reviewed_by}' 不合法"))
 
-        # Check matching queue row
-        qrow = queue_by_id.get(task_id)
-        if qrow and qrow["status"] != "reviewed":
-            anomalies.append((task_id, f"任务单 status=reviewed，但队列 status={qrow['status']}"))
-
         # Check for review file
         review_file = find_review_file(task_id)
         if not review_file:
@@ -180,8 +175,23 @@ def main() -> int:
             if not review_date:
                 anomalies.append((task_id, "reviewed 但无对应 review/audit 文件且无 review_date"))
 
-    # Also report queue rows marked reviewed but task file not reviewed
-    queue_anomalies = []
+    # Bidirectional consistency check between queue and task files
+    task_ahead_inconsistencies = []  # task reviewed but queue not reviewed
+    queue_ahead_inconsistencies = []  # queue reviewed but task not reviewed
+
+    for task_file in sorted(TASK_DIR.glob("task_*.md")):
+        fm = parse_frontmatter(task_file)
+        if not fm:
+            continue
+        task_id = fm.get("id", task_file.stem)
+        task_type = fm.get("type", "")
+        task_status = fm.get("status", "")
+        if task_type == "production_task" or task_status != "reviewed":
+            continue
+        qrow = queue_by_id.get(task_id)
+        if qrow and qrow["status"] != "reviewed":
+            task_ahead_inconsistencies.append((task_id, f"任务单 status=reviewed，但队列 status={qrow['status']}"))
+
     for qrow in queue_rows:
         if qrow["status"] != "reviewed":
             continue
@@ -191,7 +201,7 @@ def main() -> int:
             continue
         task_file = TASK_DIR / f"{task_id}.md"
         if not task_file.exists():
-            queue_anomalies.append((task_id, "队列 marked reviewed 但任务单文件不存在"))
+            queue_ahead_inconsistencies.append((task_id, "队列 marked reviewed 但任务单文件不存在"))
             continue
         fm = parse_frontmatter(task_file)
         task_type = fm.get("type", "")
@@ -200,29 +210,37 @@ def main() -> int:
         if task_type == "production_task":
             continue
         if task_status != "reviewed":
-            queue_anomalies.append((task_id, f"队列 status=reviewed 但任务单 status={task_status}"))
+            queue_ahead_inconsistencies.append((task_id, f"队列 status=reviewed 但任务单 status={task_status}"))
+
+    queue_anomalies = task_ahead_inconsistencies + queue_ahead_inconsistencies
 
     lines = []
     lines.append(f"# 队列完整性审计报告")
     lines.append("")
     lines.append(f"- 审计范围: `{TASK_DIR}`")
     lines.append(f"- reviewed 任务单总数: {reviewed_count}")
-    lines.append(f"- 任务单异常数: {len(anomalies)}")
-    lines.append(f"- 队列/任务单不一致数: {len(queue_anomalies)}")
+    lines.append(f"- 任务单元数据异常数: {len(anomalies)}")
+    lines.append(f"- 队列/任务单状态不一致数: {len(queue_anomalies)}")
     lines.append("")
     if anomalies:
-        lines.append("## 任务单异常列表")
+        lines.append("## 任务单元数据异常列表（缺 review_date / reviewer / review 文件）")
         for task_id, reason in anomalies:
             lines.append(f"- `{task_id}`: {reason}")
     else:
-        lines.append("任务单无异常。")
+        lines.append("任务单元数据无异常。")
     lines.append("")
     if queue_anomalies:
-        lines.append("## 队列/任务单状态不一致")
-        for task_id, reason in queue_anomalies:
-            lines.append(f"- `{task_id}`: {reason}")
+        lines.append("## 队列/任务单状态不一致（双向）")
+        if task_ahead_inconsistencies:
+            lines.append("### 任务单已 reviewed，但队列未 reviewed")
+            for task_id, reason in task_ahead_inconsistencies:
+                lines.append(f"- `{task_id}`: {reason}")
+        if queue_ahead_inconsistencies:
+            lines.append("### 队列已 reviewed，但任务单未 reviewed")
+            for task_id, reason in queue_ahead_inconsistencies:
+                lines.append(f"- `{task_id}`: {reason}")
     else:
-        lines.append("队列与任务单状态一致。")
+        lines.append("队列与任务单状态一致（双向检查均无异常）。")
 
     report = "\n".join(lines) + "\n"
     REPORT_PATH.write_text(report, encoding="utf-8")

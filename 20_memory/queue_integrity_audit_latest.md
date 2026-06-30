@@ -2,10 +2,10 @@
 
 - 审计范围: `C:\Users\Administrator\Desktop\wiki\60_feedback\tasks`
 - reviewed 任务单总数: 24
-- 任务单异常数: 27
-- 队列/任务单不一致数: 0
+- 任务单元数据异常数: 27
+- 队列/任务单状态不一致数: 0
 
-## 任务单异常列表
+## 任务单元数据异常列表（缺 review_date / reviewer / review 文件）
 - `task_20260627_laowantong-deliberate-practice-cards`: reviewed 但缺少 review_date
 - `task_20260627_laowantong-deliberate-practice-cards`: reviewed 但缺少 reviewer/reviewed_by
 - `task_20260627_laowantong-deliberate-practice-cards`: reviewed 但无对应 review/audit 文件且无 review_date
@@ -34,4 +34,4 @@
 - `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge`: reviewed 但缺少 review_date
 - `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge`: reviewed 但无对应 review/audit 文件且无 review_date
 
-队列与任务单状态一致。
+队列与任务单状态一致（双向检查均无异常）。
