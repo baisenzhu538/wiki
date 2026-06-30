@@ -207,3 +207,49 @@ source_refs:
 - `kdo lint --domain <domain>` 已可用：按 `30_wiki/<domain>/` 路径前缀或 frontmatter `domain` 字段过滤 WARNING。
 - `kdo lint --domain <domain> --summary` 可快速查看该 domain 的 WARNING 数量，不输出逐条明细。
 - 示例：`kdo lint --domain yitang --summary`
+
+## 2026-06-30 恢复处理记录
+
+### 当前基线
+
+- `kdo lint` strategy domain：201 issues（含 148 个 index 机制误报）
+- 真实内容问题：53 个
+
+### 本轮处理
+
+- **处理 domain**：strategy
+- **处理文件数**：11 个
+  - `30_wiki/concepts/concept-strategy-evolution-cycle.md`
+  - `30_wiki/tools/tool-strategy-12-word-test.md`
+  - `30_wiki/tools/tool-strategy-competition-traps.md`
+  - `30_wiki/tools/tool-strategy-five-see-three-set.md`
+  - `30_wiki/tools/tool-strategy-four-layers.md`
+  - `30_wiki/tools/tool-strategy-four-moves.md`
+  - `30_wiki/tools/tool-strategy-gap-analysis.md`
+  - `30_wiki/tools/tool-strategy-nine-problems.md`
+  - `30_wiki/tools/tool-strategy-pareto.md`
+  - `30_wiki/tools/tool-strategy-sentence-formula.md`
+  - `30_wiki/tools/tool-strategy-three-horizons.md`
+
+- **主要动作**：
+  - 为 concept 卡补充完整结构（Summary/Claims/详解/质疑/Synthesis），body 从 190 字符扩展到 2000+ 字符
+  - 为 10 个 tool 卡补齐 Purpose/Protocol/When NOT to Use/Critique 标准 section
+  - 修复所有 tool 卡的 L2 Critique 关键词缺失问题（标题从 `## Critique` 改为 `## 质疑`）
+  - 修复所有 tool 卡的外部攻击者格式为 `**Name Surname**`（如 **Michael Porter**）
+  - 清理 frontmatter 中 `source_refs` 的多个 `src_unknown` 条目为单个 `"pending_archive:src_unknown"`
+  - 补充 `reviewed_by: pending` 和 `updated_at`
+
+- **验证结果**：
+  - 11/11 文件 `kdo pre-submit` PASS（仅有 cross-domain warning，无 ERROR）
+  - strategy domain issues 从 201 降至 148（↓53）
+  - strategy domain 真实内容问题从 53 降至 0
+
+### 发现的基础设施问题
+
+1. **KDO CLI SyntaxError**：`python -m kdo pre-submit` 触发 `SyntaxError: expected 'except' or 'finally' block`（`kdo/commands/delivery.py:686`）。已通过直接调用 `kdo.pre_submit.run_pre_submit()` 绕过。
+2. **index/lint 机制不一致**：`kdo index --rebuild` 生成 bare wikilink（如 `[[case-strategy-cool-boiled-water|...]]`），但 `kdo lint` 的 index 检查期望带路径的 wikilink（如 `[[cases/case-strategy-cool-boiled-water|...]]`），导致 148 个 "Wiki page not listed in index.md" 误报。此问题不阻塞内容清理，但会显著虚高 WARNING 数，需要黄药师修复 KDO 代码。
+
+### 下一轮计划
+
+- 继续处理 design domain（约 117 个真实内容问题，主要是 tool 卡 body 过短 + L2 Critique + 无外部攻击者）
+- 或按用户指示优先处理其他 domain
