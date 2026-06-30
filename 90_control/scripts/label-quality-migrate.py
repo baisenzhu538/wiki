@@ -155,6 +155,13 @@ def main():
             p = WIKI / rel_path
             text = p.read_text(encoding="utf-8", errors="ignore")
 
+            # Defensive: skip if frontmatter already contains quality_labels
+            parts = text.split("---", 2)
+            if len(parts) >= 2 and "quality_labels:" in parts[1]:
+                skipped += 1
+                print(f"  SKIP {rel_path}: already has quality_labels in frontmatter")
+                continue
+
             # Build quality_labels YAML block
             label_lines = "\n".join([f"  - {lb}" for lb in labels])
             quality_block = f"quality_labels:\n{label_lines}"

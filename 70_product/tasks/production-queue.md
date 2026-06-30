@@ -65,12 +65,14 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 28 | `task_20260629_kimi-lint-content-debt-by-domain` | lint 内容债按 domain 分批清理 | queued | 老顽童(Kimi) | ~2656 WARNING / 14 个子任务 | 依赖 #27 reviewed | `60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md` | 欧阳锋中期审查通过；copy-paste 已清零（76→0）；累计处理 28 文件均通过 pre-submit；lint 从 3255 降至 2656 WARNING；当前实例切换至 #30，本任务释放回队列，后续继续按 strategy 域 body 过短 → L2 Critique 外部反对者顺序处理 |
 | 29 | `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge` | 羊奶「卖地图」跨域桥接卡生产 | reviewed | 老顽童(Hermes分身-Claude) | 3 张卡 | 无 | `60_feedback/tasks/task_20260629_wangyuyan-goat-milk-channel-partnership-bridge.md` | 欧阳锋终审通过：3 张卡已补录 index、修正 section 标题、补充 Critique 外部反对者与关键术语、补相邻域 related 回链；3 张目标卡 lint 无 ERROR/WARNING；pre-submit 目标卡无 ERROR（全量 FAIL 为 raw/ocr 与 _dogfood 历史遗留） |
 | 30 | `task_20260629_vikki-info-emotion-skill-upgrade` | Vikki + 大馨：content-production-polish skill 2.0 升级 | reviewed | 老顽童(Kimi) | 1 个 skill | 无 | `60_feedback/tasks/task_20260629_vikki-info-emotion-skill-upgrade.md` | 欧阳锋终审通过：SKILL.md Core Standard 扩展为 6 条 + Step 5.5 6 项验证 + Platform Notes 5 平台模板 + Mini Scoring Rubric 6 维；human-speech-rules.md 新增 #13-#15 方法（5-part 结构 + 5 跨域示例）；`kdo pre-submit` 2/2 PASS；shared 与 `.claude/skills/` 桥接一致；审查中修正 2 处文本不一致（4→6 标准、Mini Scoring Rubric 6 维）；`agent复盘/Kimi/2026-06-30.md` 缺失记为后续微债务 |
-| 31 | `task_20260629_vikki-five-tag-quality-labels` | Vikki 五标签 + 大馨品牌三度 → KDO 卡片质量标签体系 | pending_review | 老顽童(Kimi) | 1 个 schema + 50 张试点卡片 + 1 张 framework | 原 assignee 黄药师；schema/脚本层已由黄药师完成（label-quality-migrate.py）；老顽童(Kimi)完成内容层 | `60_feedback/tasks/task_20260629_vikki-five-tag-quality-labels.md` | Kimi 老顽童已完成：framework-brand-three-degree 概念卡 + system-kdo-quality-labels 指南 + 50 张卡片 quality_labels 迁移（含 40 张缺失 created_at/updated_at 修复）；kdo pre-submit 抽查 50/50 PASS + 新卡 2/2 PASS；待欧阳锋终审 |
+| 31 | `task_20260629_vikki-five-tag-quality-labels` | Vikki 五标签 + 大馨品牌三度 → KDO 卡片质量标签体系 | reviewed | 老顽童(Kimi) | 1 个 schema + 50 张试点卡片 + 1 张 framework | 原 assignee 黄药师；schema/脚本层已由黄药师完成（label-quality-migrate.py）；老顽童(Kimi)完成内容层 | `60_feedback/tasks/task_20260629_vikki-five-tag-quality-labels.md` | 欧阳锋终审通过：framework-brand-three-degree 概念卡 + system-kdo-quality-labels 指南通过 pre-submit；50 张试点卡片标签迁移完成；审查中发现并修复 48 张卡片存在重复 `quality_labels` 字段的问题；迁移脚本已增加防御性跳过逻辑；`kdo pre-submit` 新卡 2/2 PASS + 抽查 4/4 PASS；`.agent/laowantong-context.md` 已更新 quality_labels 检查项 |
 | 32 | `task_20260629_vikki-open-source-knowledge-boundary` | 沉淀「开源知识使用边界」概念卡 | queued | 老顽童(Hermes) | 1 张 concept 卡 | 无 | `60_feedback/tasks/task_20260629_vikki-open-source-knowledge-boundary.md` | 来源：Vikki群 + 大馨战队；基于游侠「蒸馏」事件和大馨「抄作业」边界试探，沉淀 KDO 知识库使用边界 |
 | 33 | `task_20260630_daxin-methodology-cards-production` | 大馨战队核心方法论卡片化 | queued | 老顽童(Hermes) | 5-6 张卡 | 无 | `60_feedback/tasks/task_20260630_daxin-methodology-cards-production.md` | 来源：0017大馨战队短视频拆解方法论；沉淀创始人IP三定位、品牌三度、内容经营6步闭环、短视频6维度拆解工具、大馨战队案例卡 |
 | 34 | `task_20260630_community-knowledge-failure-modes` | 社群知识生产失败模式库（Vikki + 大馨融合） | queued | 老顽童(Hermes) | 1 张 framework + 1 张可选 case | 无 | `60_feedback/tasks/task_20260630_community-knowledge-failure-modes.md` | 来源：Vikki群 + 大馨战队；融合10个失败模式，建立KDO多Agent协作/社群运营的失败模式库与早期预警指标 |
+| 35 | `task_20260630_kdo-state-json-sqlite-migration-mvp` | KDO state.json → SQLite MVP 迁移（sources 集合） | **queued** | **黄药师** | 1 个集合 / 689 条记录 | 无；用户指定本周高优先级基础设施任务 | `60_feedback/tasks/task_20260630_kdo-state-json-sqlite-migration-mvp.md` | 用户+欧阳锋拍板：从 MVP 开始，只迁移 sources 集合；WAL + busy_timeout + 进程级文件锁；不做双写；跑 enrich benchmark 实测 |
 
-> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 5 个 Vikki/大馨 提炼任务（#30-34）。
+> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 5 个 Vikki/大馨 提炼任务（#30-34）+ **1 个 state.json → SQLite MVP 迁移任务（#35）**。
+> **本周高优先级基础设施任务**：#35 `state.json → SQLite MVP` 由黄药师负责，用户指定插队执行，与内容生产任务可并行。
 > **当前 lint 基线**：`kdo lint` 全量 0 ERROR / 2656 WARNING；机械类 WARNING 经 #27 处理后降至 3286；#28 第一轮后降至 3255，第二轮累计处理 23 张 card 后降至 2666（copy-paste 从 76 清零），第三轮处理 5 个 strategy case 后降至 2656；剩余主要为 body 过短、L2 Critique、L2 Condense、L2 Synthesis 等内容债，由 #28 按 domain 分批处理；`kdo lint --domain <domain> --summary` 已可用。
 > **人员状态**：A1/A2 reviewed；#24-debt reviewed；Wave 6 已完成；B1/B2/B3 已完成；#25 扩展卡已 reviewed；#26 全库 frontmatter 合规修复已 reviewed。
 > **执行顺序建议**：frontmatter 与目录结构类历史债务已全部处理完毕，进入下一阶段。剩余 7507 WARNING 建议作为内容精修任务按需分批处理，不要继续机械修复。
@@ -118,7 +120,8 @@ done
 | 2026-06-27 | 创建统一生产队列，整合历史批量工单与新域任务 | 王语嫣 |
 | 2026-06-29 | #23 A1 reviewed；#24 A2 done；#24-debt 132 case section 缺失已修复并 pending_review；#25 AI 学习方法论扩展卡入队 | 欧阳锋/王语嫣 |
 | 2026-06-29 | 用户决策：#28 lint 内容债任务过长，改为 background batch 逐步清理，当前 Kimi 实例切换至 #30；#30 Vikki + 大馨 skill 2.0 升级任务已领取执行；#28 checkpoint 写入任务单 | 王语嫣 |
+| 2026-06-29 | 欧阳锋独立评审完成：state.json → SQLite 迁移方案 A- 采纳，从 MVP 开始；#35 高优先级基础设施任务入队，黄药师负责本周执行 | 欧阳锋/王语嫣 |
 
 ---
 
-*维护人：王语嫣 | 最后更新：2026-06-29（#28 挂起为 background batch，#30 优先执行）*
+*维护人：王语嫣 | 最后更新：2026-06-29（#35 state.json → SQLite MVP 入队，用户指定本周高优先级）*
