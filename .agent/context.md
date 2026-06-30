@@ -1,15 +1,15 @@
 ---
+
 updated: 2026-06-30
 updated_at: 2026-06-30T15:23:37+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#33 大馨战队核心方法论卡片化（pending_review 2026-06-30）：老顽童(Kimi)已完成 5 张目标卡生产 + framework-brand-three-degree 由 concept 升级为 framework + 全量 related 回链 + index.md 补录；5/5 张卡 kdo pre-submit PASS；待欧阳锋终审"
+active_task: "#33 大馨战队核心方法论卡片化（reviewed 2026-06-30）：欧阳锋终审通过；5 张目标卡 status 更新为 reviewed；审查中修正 case-daxin-team-content-training-camp 的 quality_labels；老顽童(Kimi)可继续领取 #28 lint 内容债（2656 WARNING）或 #34 社群知识生产失败模式库"
 blockers:
   - "🟡 #33 大馨战队核心方法论卡片化（2026-06-30）：老顽童(Kimi)已完成 5 张卡生产并提交欧阳锋终审；待欧阳锋审查 framework 边界、case 证据链、tool 可操作性、related 分层"
   - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已处理 28 文件，copy-paste 清零（76→0），lint 从 3255 降至 2656 WARNING；当前实例切换至 #30，#28 已释放回 queued；后续继续处理 strategy 域 body 过短，然后批量补 L2 Critique 外部反对者"
 
-next_session_hint: "下一步：① 欧阳锋终审 #33 大馨战队核心方法论卡片化（5 张目标卡 kdo pre-submit 5/5 PASS）；② 老顽童(Kimi)释放 #33 后，可继续领取 #34 社群知识生产失败模式库或 #28 lint 内容债（2656 WARNING）；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"
   - "✅ B1 frontmatter related 占位清理 reviewed（2026-06-28）：欧阳锋终审确认 256 文件真实修改，1947 src_unknown 清零，1190 pending_unknown 补入符合分层标准；`kdo lint` 0 ERROR"
   - "✅ B2 Synthesis section 清理 reviewed（2026-06-28）：235 张初处理 + 66 张补充清理，66 文件 body src_unknown 全部清零；kdo lint 140 ERROR 全为历史遗留，无新增；frontmatter src_unknown 另开任务处理"
@@ -21,7 +21,8 @@ next_session_hint: "下一步：① 欧阳锋终审 #33 大馨战队核心方法
   - "🆕 #25 AI 工具学习方法论扩展卡已入队（2026-06-29）：用户要求把 YAI T/C 角色资料拆成原子概念卡；欧阳锋已创建 6 张核心卡，剩余 7 张扩展卡由老顽童补充"
   - "🆕 黄药师上线 `--expect-changes` 门禁（2026-06-28）：`kdo pre-submit -f <清单> --expect-changes <数量>`，若 git 实际变更文件数小于声称数直接 FAIL；Batch 2-A/B/C 任务单、production-queue.md、dashboard.md 已同步该门禁"
   - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 B 3.1 建模 5 张内容返工（2026-06-28）：capability-system/three-stages/level-map/weapon-library/process-modeling；每张 Claims 6 条+Critique+Visual+Reusable+OpenQuestions+Sources 全填；内容区 src_unknown 全清零（36/30/37/45/51→0）；pre-submit 5 passed/0 failed；3.2 综合卡 9 张格式转换未启动（重活，每张 283-353 行+47-97 src_unknown）"
-  - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + ---# 粘连修复，pre-submit 5 passed/0 failed"
+  - "🆕 老顽童(WorkBuddy) 完成 wave3 阶段 A 门禁清零（2026-06-28）：5 张建模卡 CRLF + diagnostic_signals 断行 + 
+next_session_hint: "下一步：① 欧阳锋终审 #33 大馨战队核心方法论卡片化（5 张目标卡 kdo pre-submit 5/5 PASS）；② 老顽童(Kimi)释放 #33 后，可继续领取 #34 社群知识生产失败模式库或 #28 lint 内容债（2656 WARNING）；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"---# 粘连修复，pre-submit 5 passed/0 failed"
   - "✅ 欧阳锋子代理完成 wave2 终审（2026-06-28）：16/16 张卡 `kdo pre-submit` 通过，status 更新为 reviewed，`reviewed_by: 欧阳锋`，`review_date: 2026-06-28`；已知遗留：frontmatter domain/related/tags/query_triggers `src_unknown` 占位（系统性债务）+ `yt-business-formula-parameter-iceberg` 与 B2 部分卡内容区占位 + `ai-short-drama-platform-policy-comparison` 缺 Critique/反事实，建议后续清理任务补齐"
   - "✅ 欧阳锋完成 wave1 终审（2026-06-28）：18/18 张卡通过审查，`kdo pre-submit` 抽查 6/6 通过，`kdo lint` 无新增 ERROR；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；`production-queue.md` 任务 #1 状态更新为 reviewed，`dashboard.md` Summary Review Done +1"
   - "✅ 欧阳锋完成刻意练习域 11 张卡终审：11/11 通过 `kdo pre-submit`、无 src_unknown、无死链、自攻击 🟡 问题已修复；全部卡片 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；任务 #2 状态更新为 reviewed"
