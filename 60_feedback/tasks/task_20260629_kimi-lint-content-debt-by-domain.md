@@ -1,11 +1,11 @@
 ---
 id: task_20260629_kimi-lint-content-debt-by-domain
 type: task
-status: paused
-assignee: 老顽童(Hermes)
+status: in_progress
+assignee: kimi
 priority: P2
 created_at: 2026-06-29
-updated_at: 2026-06-29
+updated_at: '2026-06-30T18:14:56.454984+00:00'
 reviewer: 欧阳锋
 reviewed_by: pending
 source_refs:
