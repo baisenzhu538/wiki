@@ -14,8 +14,13 @@ from collections import Counter
 WIKI = Path("30_wiki")
 
 
-def analyze_card(fm: dict) -> list[str]:
-    """Apply heuristics to determine quality_labels for a card."""
+def analyze_card(fm: dict) -> list[str] | None:
+    """Apply heuristics to determine quality_labels for a card.
+    Returns None if the card already has quality_labels."""
+    existing = fm.get("quality_labels")
+    if existing:
+        return None
+
     labels = []
 
     related = fm.get("related", [])
@@ -126,6 +131,8 @@ def main():
 
     for p, score, fm in candidates:
         labels = analyze_card(fm)
+        if labels is None:
+            continue
         if not labels:
             continue
         for lb in labels:
@@ -152,21 +159,32 @@ def main():
             label_lines = "\n".join([f"  - {lb}" for lb in labels])
             quality_block = f"quality_labels:\n{label_lines}"
 
-            # Insert right before 'created_at:' (always present, always in frontmatter)
+            # Insert into frontmatter. Try created_at -> updated_at -> end of frontmatter.
             lines = text.split("\n")
             new_lines = []
             inserted = False
-            for line in lines:
+            frontmatter_closed = False
+            for idx, line in enumerate(lines):
                 s = line.strip()
-                # Insert before created_at
+                # First try: insert before created_at
                 if s.startswith("created_at:") and not inserted:
                     new_lines.append(quality_block)
                     inserted = True
+                # Second try: insert before updated_at
+                elif s.startswith("updated_at:") and not inserted:
+                    new_lines.append(quality_block)
+                    inserted = True
+                # Third try: insert before the closing '---' of frontmatter
+                elif line == "---" and not inserted and idx > 0 and not frontmatter_closed:
+                    # Make sure this is the closing delimiter (we are still inside frontmatter)
+                    new_lines.append(quality_block)
+                    inserted = True
+                    frontmatter_closed = True
                 new_lines.append(line)
 
             if not inserted:
                 skipped += 1
-                print(f"  SKIP {rel_path}: no created_at found")
+                print(f"  SKIP {rel_path}: could not locate frontmatter insertion point")
                 continue
 
             new_text = "\n".join(new_lines)

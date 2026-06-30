@@ -28,6 +28,10 @@ related:
   - "[[tool-单元模型-壁垒预判]]"
   - "[[ai单元模型口述蒋老师]]"
   - "[[ocr-一堂-单元模型-单商圈模型]]"
+quality_labels:
+  - cited
+  - principle
+  - validated
 ---
 
 # 最简化的单元模型

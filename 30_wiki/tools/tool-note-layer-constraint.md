@@ -42,6 +42,10 @@ tags:
 - src_unknown
 author: unknown
 reviewed_by: 欧阳锋
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: '2026-06-15'
 trust_level: medium
 updated_at: '2026-06-28'

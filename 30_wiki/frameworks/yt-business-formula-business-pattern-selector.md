@@ -16,6 +16,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+quality_labels:
+  - principle
+  - validated
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 author: 孔阳

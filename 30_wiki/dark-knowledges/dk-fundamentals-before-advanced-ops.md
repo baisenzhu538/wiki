@@ -42,6 +42,8 @@ diagnostic_signals:
   framework_lens: 外包了思考
   follow_up_question: 当AI不可用时，团队是否仍能完成核心判断？# 基本功未内化就强上高阶操作——高阶工具失效的头号根因
 
+quality_labels:
+  - validated
 ---
 
 ## 原始表述 / 核心洞察

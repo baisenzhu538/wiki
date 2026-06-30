@@ -190,7 +190,8 @@ reviewed_by: 欧阳锋
 ## 下一阶段改进承诺（基于第十九、二十节评估反馈）
 
 1. **执行前核对目标卡 ID**：批量精修前先逐卡确认 `id` 与文件存在；遇到任务文件 ID 与库中不匹配，先暂停确认，不擅自推断替换。
-2. **单卡收尾检查清单**：每张卡改完后立即检查——`status` 是否 enriched、`reviewed_by` 是否非 pending/非 author、`updated_at` 是否更新、`diagnostic_signals` 是否 ≥3、是否新增 ≥1 落地模板/案例、是否新增 ≥2 互链、**是否已跑 `kdo pre-submit` 并贴输出**。
+2. **单卡收尾检查清单**：每张卡改完后立即检查——`status` 是否 enriched、`reviewed_by` 是否非 pending/非 author、`updated_at` 是否更新、`diagnostic_signals` 是否 ≥3、是否新增 ≥1 落地模板/案例、是否新增 ≥2 互链、**是否已跑 `kdo pre-submit` 并贴输出**、是否已根据内容打上 `quality_labels`（`insight/hypothesis/actionable/quotable/principle/cited/quality/validated` 中 2-4 个）。
+   - 不写无内容支撑的标签；`quotable` 必须真有 burn line/金句；`validated` 必须 source_refs 非 pending/unknown。
 3. **KF-025 三问前置到域内**：不再等一个域全部改完才回答三问，而是每改一批就回头扫一眼：这个框架卡有没有 case 支撑？有没有可提取的 dk？跨案例模式要不要写 synthesis？
 4. **主动修复系统性盲区**：进入新域时，先扫描该域框架/概念卡，主动发现"框架丰满、案例空缺"的债务，优先补 case 和 dk，而不是等审计催。
 5. **失败模式必须自带"症状+修复"**：不再写"步骤跳过→严格按步骤"这种模板话；每条失败模式都要对应一个老顽童能识别的真实信号和一个今晚就能执行的修复动作。

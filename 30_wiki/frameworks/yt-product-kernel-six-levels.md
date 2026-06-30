@@ -13,6 +13,9 @@ source_refs:
 - 10_raw/sources/src_20260610_1a72a5cb-一堂-一堂五步法-产品内核-修炼段位图.md
 - 10_raw/sources/src_20260610_d4c3edda-一堂-一堂五步法-解决方案（产品内核）-口述.md
 - 10_raw/sources/src_20260611_f1da9821-一堂-一堂五步法-产品内核-修炼段位图_paddle_ocr.md
+quality_labels:
+  - principle
+  - validated
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 老顽童

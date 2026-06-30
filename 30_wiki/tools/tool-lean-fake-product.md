@@ -24,6 +24,9 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+quality_labels:
+  - actionable
+  - validated
 updated_at: 2026-06-29
 ---
 

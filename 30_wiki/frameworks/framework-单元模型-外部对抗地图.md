@@ -10,6 +10,10 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain: yitang
+quality_labels:
+  - cited
+  - principle
+  - validated
 updated_at: '2026-06-29'
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-外部对抗地图_vlm_desc.md

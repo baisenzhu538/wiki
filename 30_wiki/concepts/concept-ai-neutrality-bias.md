@@ -24,6 +24,10 @@ related:
   - "[[framework-wanghuan-ooda-loop]]"
   - "[[framework-wanghuan-gan-three-roles]]"
   - "[[concept-ai-chair-determines-view]]"
+quality_labels:
+  - cited
+  - principle
+  - validated
 ---
 
 # 中立的暴政

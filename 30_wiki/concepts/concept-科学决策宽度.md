@@ -22,6 +22,9 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+quality_labels:
+  - principle
+  - validated
 ---
 
 # 科学决策宽度：个人·企业·团队

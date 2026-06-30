@@ -28,6 +28,10 @@ related:
   - "[[ocr-一堂-人机协作-双三角模型]]"
   - "[[tool-模型组合调用]]"
   - "[[ocr-一堂-单元模型-对抗小抄01]]"
+quality_labels:
+  - cited
+  - principle
+  - validated
 ---
 
 # TCP-R 模型：商业管理世界的底层网络协议

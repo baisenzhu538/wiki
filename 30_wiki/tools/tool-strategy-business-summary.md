@@ -8,6 +8,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
+quality_labels:
+  - actionable
+  - cited
+  - validated
 updated_at: '2026-06-29'
 language: zh-CN
 domain: strategy

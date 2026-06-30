@@ -6,6 +6,10 @@ status: enriched
 author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85

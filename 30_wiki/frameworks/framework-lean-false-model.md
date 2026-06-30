@@ -7,6 +7,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: high
+quality_labels:
+  - principle
+  - validated
 updated_at: '2026-06-28'
 language: zh-CN
 domain:

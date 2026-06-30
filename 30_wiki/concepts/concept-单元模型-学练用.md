@@ -22,6 +22,9 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+quality_labels:
+  - principle
+  - validated
 ---
 
 # 学练用：知识内化的三阶模型

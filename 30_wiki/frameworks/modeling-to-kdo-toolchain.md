@@ -11,6 +11,10 @@ confidence: 0.8
 domain:
 - src_unknown
 - src_unknown
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: '2026-06-14'
 author: 黄药师
 reviewed_by: 老顽童

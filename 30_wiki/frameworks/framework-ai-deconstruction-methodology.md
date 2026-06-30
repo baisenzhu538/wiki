@@ -34,6 +34,10 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+quality_labels:
+  - cited
+  - principle
+  - validated
 ---
 # 王欢三层拆书法
 

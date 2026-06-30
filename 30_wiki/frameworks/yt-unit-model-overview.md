@@ -12,6 +12,10 @@ id: yt-unit-model-overview
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-27'
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: 2026-06-15
 confidence: 0.8
 trust_level: medium

@@ -30,6 +30,10 @@ related:
   - "[[strategy-domain-digest]]"
   - "[[lean-startup-domain-digest]]"
   - "[[ai-collaboration-domain-digest]]"
+quality_labels:
+  - cited
+  - principle
+  - validated
 ---
 
 # AI 加速的战略-验证闭环

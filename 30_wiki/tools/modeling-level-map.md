@@ -11,6 +11,10 @@ source_refs:
 - 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+quality_labels:
+  - actionable
+  - cited
+  - validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童

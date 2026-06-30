@@ -28,6 +28,9 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+quality_labels:
+  - principle
+  - validated
 ---
 
 # 系统测试曲线与三大测试范式

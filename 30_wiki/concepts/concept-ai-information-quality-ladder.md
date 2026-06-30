@@ -23,6 +23,10 @@ related:
   - "[[tool-ai-critical-reading-three-layers]]"
   - "[[framework-ai2041-critical-reading-os]]"
   - "[[framework-ai-deconstruction-methodology]]"
+quality_labels:
+  - cited
+  - principle
+  - validated
 ---
 
 # 信息质量阶梯

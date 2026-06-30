@@ -27,6 +27,9 @@ related:
   - "[[dk-ai-scarcest-resource-is-self]]"
   - "[[concept-ai-amara-law-business-judgment]]"
   - "[[dk-ai-prediction-expiry-date]]"
+quality_labels:
+  - cited
+  - validated
 ---
 
 # 社会进步不是自动的

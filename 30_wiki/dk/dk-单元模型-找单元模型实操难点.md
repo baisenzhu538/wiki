@@ -21,6 +21,8 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 review_date: '2026-06-29'
+quality_labels:
+  - validated
 updated_at: '2026-06-29'
 ---
 

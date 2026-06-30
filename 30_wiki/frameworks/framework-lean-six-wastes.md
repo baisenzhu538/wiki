@@ -27,6 +27,9 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+quality_labels:
+  - principle
+  - validated
 ---
 
 # 创业六宗罪 / 六大浪费

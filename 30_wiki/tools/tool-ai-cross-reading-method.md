@@ -26,6 +26,10 @@ related:
   - "[[tool-ai-critical-reading-three-layers]]"
   - "[[tool-tech-probability-80-filter]]"
   - "[[concept-ai-amara-law-business-judgment]]"
+quality_labels:
+  - actionable
+  - cited
+  - validated
 ---
 
 # 交叉阅读法

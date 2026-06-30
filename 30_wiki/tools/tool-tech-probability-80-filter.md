@@ -26,6 +26,10 @@ related:
   - "[[framework-wanghuan-harness-seven-stages]]"
   - "[[framework-ai2041-critical-reading-os]]"
   - "[[concept-ai-amara-law-business-judgment]]"
+quality_labels:
+  - actionable
+  - cited
+  - validated
 ---
 
 # 李开复 80% 概率过滤器

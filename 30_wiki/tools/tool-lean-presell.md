@@ -6,6 +6,9 @@ type: tool
 status: enriched
 author: 老顽童
 reviewed_by: pending
+quality_labels:
+  - actionable
+  - validated
 updated_at: '2026-06-29'
 confidence: 0.85
 trust_level: medium

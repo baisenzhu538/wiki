@@ -9,6 +9,10 @@ reviewed_by: pending
 confidence: 0.85
 trust_level: medium
 language: zh-CN
+quality_labels:
+  - actionable
+  - cited
+  - validated
 updated_at: '2026-06-29'
 domain:
 - strategy

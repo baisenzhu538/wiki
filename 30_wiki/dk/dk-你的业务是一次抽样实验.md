@@ -20,6 +20,8 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+quality_labels:
+  - validated
 updated_at: 2026-06-28
 
 ---

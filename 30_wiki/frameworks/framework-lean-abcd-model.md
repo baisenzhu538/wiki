@@ -23,6 +23,9 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+quality_labels:
+  - principle
+  - validated
 ---
 
 # 关键假设 ABCD 模型

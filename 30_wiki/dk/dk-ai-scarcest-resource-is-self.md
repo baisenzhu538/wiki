@@ -31,6 +31,9 @@ related:
   - "[[concept-ai-neutrality-bias]]"
   - "[[tool-ai-critical-reading-three-layers]]"
   - "[[tool-ai2041-source-verification-checklist]]"
+quality_labels:
+  - cited
+  - validated
 ---
 # 最稀缺的是自我
 

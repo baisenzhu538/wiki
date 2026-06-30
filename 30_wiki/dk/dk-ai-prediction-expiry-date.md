@@ -25,6 +25,9 @@ related:
   - "[[framework-ai2041-critical-reading-os]]"
   - "[[tool-ai2041-source-verification-checklist]]"
   - "[[framework-ai-deconstruction-methodology]]"
+quality_labels:
+  - cited
+  - validated
 ---
 
 # AI 预言的保质期

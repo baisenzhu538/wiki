@@ -24,6 +24,10 @@ related:
   - "[[framework-wanghuan-bitcoe-prompt-framework]]"
   - "[[tool-ai-critical-reading-three-layers]]"
   - "[[tool-ai2041-source-verification-checklist]]"
+quality_labels:
+  - cited
+  - principle
+  - validated
 ---
 
 # AI 2041 批判性认知操作系统

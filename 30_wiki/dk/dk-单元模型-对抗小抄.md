@@ -31,6 +31,9 @@ related:
   - "[[tool-单元模型-壁垒预判]]"
   - "[[ai单元模型口述蒋老师]]"
 review_date: '2026-06-27'
+quality_labels:
+  - cited
+  - validated
 updated_at: 2026-06-28
 
 ---

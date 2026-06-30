@@ -23,6 +23,10 @@ related:
   - "[[framework-wanghuan-bitcoe-prompt-framework]]"
   - "[[framework-wanghuan-harness-seven-stages]]"
   - "[[framework-ai2041-critical-reading-os]]"
+quality_labels:
+  - cited
+  - principle
+  - validated
 ---
 
 # 椅子决定视角

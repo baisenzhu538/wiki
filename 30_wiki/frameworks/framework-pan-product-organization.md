@@ -11,6 +11,11 @@ confidence: 0.72
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - validated
 updated_at: '2026-06-28'
 note: 本卡核心案例与数字主要来自兰毅对世董会/NPC 实践的单源口述，数字已按任务单要求标注「待独立核实」；关键主张需结合传统管理、雇佣关系与组织成本视角审慎使用。
 source_refs:

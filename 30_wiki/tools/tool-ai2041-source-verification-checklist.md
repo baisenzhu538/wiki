@@ -25,6 +25,10 @@ related:
   - "[[framework-wanghuan-ooda-loop]]"
   - "[[framework-wanghuan-bitcoe-prompt-framework]]"
   - "[[framework-wanghuan-gan-three-roles]]"
+quality_labels:
+  - actionable
+  - cited
+  - validated
 ---
 
 # AI 预测来源验证检查单
