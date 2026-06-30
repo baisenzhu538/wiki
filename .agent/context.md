@@ -1,16 +1,18 @@
 ---
 updated: 2026-06-30
-updated_at: 2026-06-30T15:23:37+00:00
+updated_at: 2026-06-30T16:15:41+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#33 大馨战队核心方法论卡片化（reviewed 2026-06-30）：欧阳锋终审通过；5 张目标卡 status 更新为 reviewed；审查中修正 case-daxin-team-content-training-camp 的 quality_labels；老顽童(Kimi)可继续领取 #28 lint 内容债（2656 WARNING）或 #34 社群知识生产失败模式库"
+active_task: "#34 社群知识生产失败模式库（pending_review 2026-06-30）：老顽童(Kimi)已完成 framework-community-knowledge-production-failure-modes + 可选 case-daxin-vikki-community-contrast 生产；2/2 张卡 pre-submit PASS；已补录 index.md；待欧阳锋终审"
 blockers:
+  - "🟡 #34 社群知识生产失败模式库（2026-06-30）：老顽童(Kimi)已提交欧阳锋终审；待欧阳锋审查 10 个失败模式分类、修复动作可执行性、KDO 五绝映射合理性"
   - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已处理 28 文件，copy-paste 清零（76→0），lint 从 3255 降至 2656 WARNING；当前实例切换至 #30，#28 已释放回 queued；后续继续处理 strategy 域 body 过短，然后批量补 L2 Critique 外部反对者"
   - "🟡 A2 case section 缺失补全 reviewed（2026-06-29）：Hermes 老顽童完成 frontmatter 修复，但欧阳锋实测仍有 132 个 `Case card missing section` ERROR（33 文件），任务单基线判断错误；需另开任务处理 132 section 缺失"
   - "🟡 Hermes 全角色 WSL 实例因 WSL interop 损坏停摆（2026-06-30）：需重启 Windows 恢复 WSL interop"
+  - "🟡 KDO CLI SyntaxError（2026-06-30）：`python -m kdo pre-submit` 触发 `SyntaxError: expected 'except' or 'finally' block`（`kdo/commands/delivery.py:686`），黄药师需修复；当前通过直接调用 `kdo.pre_submit.run_pre_submit()` 绕过"
 
-next_session_hint: "下一步：① 老顽童(Kimi)释放 #33 后，可继续领取 #34 社群知识生产失败模式库或 #28 lint 内容债（2656 WARNING）；② 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 欧阳锋终审 #34 社群知识生产失败模式库（2 张目标卡 pre-submit PASS）；② 老顽童(Kimi)释放 #34 后，可继续领取 #28 lint 内容债（2656 WARNING）；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
