@@ -391,7 +391,7 @@ Use this pattern when the source draft is abstract but the core insight is usefu
 8. 结尾给用户下一步怎么做。
 ```
 
-> After completing the 8-step rewrite, run Step 5.5 verification gate from SKILL.md to ensure all 4 core standards pass.
+> After completing the 8-step rewrite, run Step 5.5 verification gate from SKILL.md to ensure all 6 core standards pass.
 
 ---
 
@@ -584,6 +584,8 @@ Why it works: People share and buy when an emotional switch is flipped. The swit
 像人说: 1-5
 信得过: 1-5
 有转化: 1-5
+记得住: 1-5
+愿意传: 1-5
 AI味风险: 低 / 中 / 高
 ```
 

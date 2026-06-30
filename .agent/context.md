@@ -4,7 +4,7 @@ updated_at: 2026-06-30
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#30 Vikki + 大馨 content-production-polish skill 2.0 升级（pending_review）：老顽童(Kimi)已完成 SKILL.md 6 标准 + Platform Notes 5 平台模板 + human-speech-rules.md 方法 #13-#15，5 跨域示例，kdo pre-submit 2/2 PASS，已桥接 .claude/skills；#28 lint 内容债已释放回 queued（2656 WARNING，strategy 域 body 过短待续）；#31-34 仍 queued"
+active_task: "#30 Vikki + 大馨 content-production-polish skill 2.0 升级（reviewed 2026-06-30）：欧阳锋终审通过；老顽童(Kimi)可继续领取 #28 lint 内容债（2656 WARNING，strategy 域 body 过短 → L2 Critique）或 #31-34 Vikki/大馨 新任务"
 blockers:
   - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已处理 28 文件，copy-paste 清零（76→0），lint 从 3255 降至 2656 WARNING；当前实例切换至 #30，#28 已释放回 queued；后续继续处理 strategy 域 body 过短，然后批量补 L2 Critique 外部反对者"
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"
