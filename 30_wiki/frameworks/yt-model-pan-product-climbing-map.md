@@ -12,6 +12,12 @@ confidence: 0.82
 trust_level: medium-high
 author: 老顽童
 reviewed_by: 欧阳锋
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - quality
+  - validated
 created_at: 2026-05-11
 updated_at: '2026-06-28'
 source_refs:

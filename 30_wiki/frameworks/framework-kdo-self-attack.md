@@ -12,6 +12,12 @@ domain:
 author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: "2026-06-27"
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - quality
+  - validated
 created_at: "2026-06-27"
 updated_at: "2026-06-27"
 source_refs:

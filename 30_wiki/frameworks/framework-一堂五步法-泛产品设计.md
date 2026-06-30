@@ -6,6 +6,12 @@ status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - quality
+  - validated
 created_at: 2026-06-26
 updated_at: '2026-06-28'
 confidence: 0.82

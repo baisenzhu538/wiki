@@ -15,6 +15,10 @@ source_refs:
 - 10_raw/sources/src_20260614_8a0317f1-产品-市场分析讨论.md
 - 10_raw/sources/src_20260614_0e6fd2e7-theme-product-business-summary.md
 tags: []
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童

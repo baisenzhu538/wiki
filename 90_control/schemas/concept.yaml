@@ -117,6 +117,36 @@ properties:
       Optional bidirectional links to other wiki pages.
       Format: [[Concept Name]] or [[folder/Concept Name]]
 
+  quality_labels:
+    type: array
+    items:
+      type: string
+      enum:
+        - insight
+        - hypothesis
+        - actionable
+        - quotable
+        - principle
+        - cited
+        - quality
+        - validated
+    maxItems: 8
+    description: >
+      Optional. Quality labels combining Vikki's five-tag system (content type)
+      and Daxin's brand three-degree framework (quality tier).
+
+      Content type (Vikki 五标签):
+        insight     — 💡 有新洞察/有价值的发现
+        hypothesis  — 🎯 待验证判断/假设
+        actionable  — ✅ 可落地执行的方法/步骤
+        quotable    — 🔥 高传播性表述/金句
+        principle   — ❤️ 解释因果机制/底层逻辑
+
+      Quality tier (大馨品牌三度):
+        cited       — 知名度：被多次引用，入度高
+        quality     — 美誉度：lint/审查质量评分高
+        validated   — 信任度：有实战验证，source_refs 可信
+
   tags:
     type: array
     items:

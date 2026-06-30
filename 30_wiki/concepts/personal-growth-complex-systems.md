@@ -16,6 +16,10 @@ source_refs:
 - 10_raw/sources/src_20260614_7963c2f2-个人中国行：使命、教学创新与平台价值.md
 - 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md
 tags: []
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童

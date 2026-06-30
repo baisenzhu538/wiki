@@ -15,6 +15,10 @@ source_refs:
 - 10_raw/sources/src_20260614_9b574611-金银花浓缩汁餐饮产品方案.md
 - 10_raw/sources/src_20260614_95352714-theme-supply-chain-beverage-summary.md
 tags: []
+quality_labels:
+  - cited
+  - principle
+  - validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童

@@ -12,6 +12,12 @@ domain:
   - yitang
   - growth
   - strategy
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - quality
+  - validated
 created_at: '2026-06-29'
 updated_at: '2026-06-29'
 source_refs:
