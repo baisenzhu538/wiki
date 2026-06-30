@@ -4,13 +4,12 @@ updated_at: 2026-07-01T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#35 state.json→SQLite MVP reviewed + #31 质量标签体系基建 ✅ + 全库 related 修复 ✅。kdo lint 0 ERROR；pytest 538 passed / 1 skipped / 1 failed（failed 为预存在 Windows GBK 编码问题）；#36 kdo query --label 待做；#37 SyntaxError 已排除"
+active_task: "#35/#36/#37 黄药师基础设施三连击均 reviewed；kdo lint 0 ERROR；CLI SyntaxError 已修复；query --label 多标签过滤已可用；当前队列只剩 #28 lint 内容债（2656 WARNING）待领取"
 blockers:
-  - "🟢 #37 KDO CLI SyntaxError 修复（2026-06-30）：欧阳锋在 #35 审查中已验证 `kdo/commands/delivery.py` 语法通过（`python -m py_compile` OK），若老顽童仍遇到报错请提供具体命令与 traceback"
-  - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已处理 28 文件，copy-paste 清零（76→0），lint 从 3255 降至 2656 WARNING；当前实例切换至 #30，#28 已释放回 queued；后续继续处理 strategy 域 body 过短，然后批量补 L2 Critique 外部反对者"
+  - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已处理 28 文件，copy-paste 清零（76→0），lint 从 3255 降至 2656 WARNING；#28 已释放回 queued；后续继续处理 strategy 域 body 过短，然后批量补 L2 Critique 外部反对者"
   - "🟡 Hermes 全角色 WSL 实例因 WSL interop 损坏停摆（2026-06-30）：需重启 Windows 恢复 WSL interop"
 
-next_session_hint: "下一步：① 黄药师可领取 #36 kdo query --label；② 老顽童(Kimi)可继续 #28 lint 内容债（2656 WARNING）；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 老顽童(Kimi)可领取 #28 lint 内容债（2656 WARNING）；② 队列已清空 pending_review，欧阳锋无待审任务；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

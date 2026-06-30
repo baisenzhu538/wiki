@@ -1,17 +1,19 @@
 ---
 id: task_20260630_kdo-cli-syntaxerror-fix
 type: task
-status: queued
+status: reviewed
 assignee: 黄药师
 priority: P1
 created_at: 2026-06-30
-updated_at: 2026-06-30
+updated_at: '2026-06-30T17:55:42.450715+00:00'
 reviewer: 欧阳锋
 source_refs:
 - 90_control/plan-state-json-to-sqlite-migration.md
 related:
 - task_20260630_kdo-query-label-filter
 - task_20260630_community-knowledge-failure-modes
+reviewed_by: 欧阳锋
+review_date: '2026-06-30'
 ---
 
 # 修复 kdo CLI SyntaxError（kdo/commands/delivery.py:686）
@@ -39,10 +41,10 @@ SyntaxError: expected 'except' or 'finally' block
 
 ## 验收标准
 
-- [ ] `python -m kdo --help` 正常输出
-- [ ] `python -m kdo pre-submit -f <卡片路径>` 不再报 SyntaxError
-- [ ] `python -m kdo lint` 能正常启动（不因此 SyntaxError 退出）
-- [ ] 回归测试：跑 `kdo lint --summary` 不因此问题失败
+- [x] `python -m kdo --help` 正常输出
+- [x] `python -m kdo pre-submit -f <卡片路径>` 不再报 SyntaxError
+- [x] `python -m kdo lint` 能正常启动（不因此 SyntaxError 退出）
+- [x] 回归测试：跑 `kdo lint --summary` 不因此问题失败
 
 ## 备注
 

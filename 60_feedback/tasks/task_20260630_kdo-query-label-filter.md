@@ -1,19 +1,21 @@
 ---
 id: task_20260630_kdo-query-label-filter
-title: "实现 kdo query --label 质量标签过滤命令"
+title: 实现 kdo query --label 质量标签过滤命令
 type: task
-status: queued
+status: reviewed
 assignee: 黄药师
 priority: P1
 created_at: 2026-06-30
-updated_at: 2026-06-30
+updated_at: '2026-06-30T17:55:33.542285+00:00'
 reviewer: 欧阳锋
 source_refs:
-  - 60_feedback/tasks/task_20260629_vikki-five-tag-quality-labels.md
+- 60_feedback/tasks/task_20260629_vikki-five-tag-quality-labels.md
 related:
-  - [[task_20260629_vikki-five-tag-quality-labels]]
-  - [[system-kdo-quality-labels]]
-  - [[framework-kdo-quality-gate]]
+- - - task_20260629_vikki-five-tag-quality-labels
+- - - system-kdo-quality-labels
+- - - framework-kdo-quality-gate
+reviewed_by: 欧阳锋
+review_date: '2026-06-30'
 ---
 
 # 实现 kdo query --label 质量标签过滤命令
@@ -32,13 +34,13 @@ related:
 
 ## 验收标准
 
-- [ ] `kdo query --label actionable` 返回所有 `quality_labels` 包含 `actionable` 的卡片
-- [ ] 支持多个 label：`kdo query --label actionable --label cited`
-- [ ] 与现有 `--trust`、`--view`、`--limit` 参数可组合使用
-- [ ] `kdo query --label actionable --stats` 显示该 label 下的统计信息
-- [ ] 实现 `kdo query --list-labels`（可选），列出所有可用 label 及其卡片数
-- [ ] `kdo pre-submit` 相关文件通过
-- [ ] 更新 `system-kdo-quality-labels` 使用指南，替换 `rg` 临时方案
+- [x] `kdo query --label actionable` 返回所有 `quality_labels` 包含 `actionable` 的卡片
+- [x] 支持多个 label：`kdo query --label actionable --label cited`
+- [x] 与现有 `--trust`、`--view`、`--limit` 参数可组合使用
+- [x] `kdo query --label actionable --stats` 显示该 label 下的统计信息
+- [x] 实现 `kdo query --list-labels`（可选），列出所有可用 label 及其卡片数
+- [x] `kdo pre-submit` 相关文件通过
+- [x] 更新 `system-kdo-quality-labels` 使用指南，替换 `rg` 临时方案
 
 ## 实现建议
 
