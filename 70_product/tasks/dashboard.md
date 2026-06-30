@@ -45,7 +45,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260628_wangyuyan-cleanup-channel-growth-residuals | 渠道增长域终审遗留问题清理（已完成） | done | 黄药师 | P2 | task_20260628_wangyuyan-cleanup-channel-growth-residuals.md | 黄药师已完成 dk/concept 目录移动 + 全库 related 链接更新 + 顺手修复 3 张 case 卡；P1 已拆分 |
 | task_20260628_laowantong-case-section-standardization | 渠道增长域 10 张 case + 1 张 dk section 标准化 | reviewed | 欧阳锋 | P1 | task_20260628_laowantong-case-section-standardization.md | 欧阳锋终审通过：11/11 文件 `kdo lint` 0 ERROR；1 处标题序号问题已现场修复 |
 | master-7-cards-layer-and-boundary | Master 域 7 张卡规范化 | reviewed | 欧阳锋 | P1 | master-7-cards-layer-and-boundary.md | Hermes 老顽童完成规范化；欧阳锋终审通过：7/7 卡 `kdo pre-submit` + `kdo lint` 通过；审查中修复 20 个缺失 source_refs 为 pending_archive 占位 |
-| task_20260628_hermes-lint-baseline-cleanup-batch1 | Hermes lint 基线清理 Batch 1：机械性 frontmatter 修复 | pending_review | Hermes 老顽童 | P1 | task_20260628_hermes-lint-baseline-cleanup-batch1.md | Hermes 已完成：修复 784 文件 frontmatter 机械错误，frontmatter parse 类 ERROR 清零；`kdo lint` 从 690→890 是因为 frontmatter 修好后原被压制的卡片暴露更多 section/source_refs 错误；890 个内容级错误由 Batch 2-A/B/C 承接；Hermes 老顽童待命 |
+| task_20260628_hermes-lint-baseline-cleanup-batch1 | Hermes lint 基线清理 Batch 1：机械性 frontmatter 修复 | reviewed | Hermes 老顽童 | P1 | task_20260628_hermes-lint-baseline-cleanup-batch1.md | 欧阳锋终审通过：783/784 safe batch 文件 frontmatter 可解析，`kdo lint` 无 frontmatter parse 类 ERROR；1 个 `_archive/plan_20260531_data-curator-v1.1.md` 历史残余 YAML 缩进未修复，已记录在任务单 |
 | task_20260628_laowantong-lint-batch2-case-sections | lint Batch 2-A：case section 标准化补全 | reviewed | WorkBuddy 老顽童 | P1 | task_20260628_laowantong-lint-batch2-case-sections.md | 欧阳锋终审通过：130/130 case 文件已真实修改，`kdo lint` Case section ERROR 清零；vault backup 自动 commit 导致 `git diff HEAD` 失效的根因已记录 |
 | task_20260628_laowantong-lint-batch2-dk-sections | lint Batch 2-B：dk section 标准化补全 | reviewed | WorkBuddy 老顽童 | P1 | task_20260628_laowantong-lint-batch2-dk-sections.md | 欧阳锋终审通过：57/57 dk 文件已真实修改，`kdo lint` DK section ERROR 清零；原 43 清单 + 14 个 extra 文件均处理 |
 | task_20260628_huangyaoshi-lint-batch2-source-refs | lint Batch 2-C：source_refs 真实存在性清理 | reviewed | 黄药师/老顽童 | P1 | task_20260628_huangyaoshi-lint-batch2-source-refs.md | 欧阳锋终审通过：黄药师修复 workspace.py 三项 skip 规则 + 中文乱码匹配；老顽童真实修改 90 个文件添加 `10_raw/sources/` 前缀；`kdo lint` source_refs ERROR 清零；Batch 2 机械性 lint 清零 |
@@ -97,7 +97,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | 黄药师 | `parking-lot-huangyaoshi.md` | 4 | 0 | 1 | 3 | 2026-06-28 |
 | 欧阳锋 | `parking-lot-ouyangfeng.md` | 1 | 0 | 1 | 0 | 2026-06-28 | O-1 已确认，待升级实施 |
 | 王语嫣 | — | 0 | 0 | 0 | 0 | — |
-| 老顽童 | `task_20260628_hermes-lint-baseline-cleanup-batch1.md` | 1 | 0 | 1 | 0 | 2026-06-28 | lint 基线清理 Batch 1：659 个 frontmatter 机械错误 Hermes 已处理，待欧阳锋抽检 |
+| 老顽童 | `task_20260628_hermes-lint-baseline-cleanup-batch1.md` | 1 | 0 | 1 | 0 | 2026-06-30 | lint 基线清理 Batch 1：欧阳锋终审通过；783/784 文件 frontmatter 可解析，1 个 `_archive` 历史残余待后续清理 |
 | 王语嫣 | `task_20260628_wangyuyan-wave6-blindspot-diagnosis.md` | 1 | 0 | 1 | 0 | 2026-06-28 | Wave 6 新盲区诊断：基于周报和对话记录识别 1-2 个新盲区并拆任务入队 |
 | 洪七公 | — | 0 | 0 | 0 | 0 | — |
 | 段王爷 | — | 0 | 0 | 0 | 0 | — |
