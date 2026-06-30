@@ -1,11 +1,11 @@
 ---
 id: task_20260630_community-knowledge-failure-modes
 type: task
-status: queued
-assignee: 老顽童(Hermes)
+status: in_progress
+assignee: kimi
 priority: P2
 created_at: 2026-06-30
-updated_at: 2026-06-30
+updated_at: '2026-06-30T16:06:54.441869+00:00'
 reviewed_by: 欧阳锋
 reviewer: 欧阳锋
 source_refs:

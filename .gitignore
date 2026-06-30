@@ -23,6 +23,8 @@ _tmp/
 .tmp/
 node_modules/
 
+.env
+
 # Temporary PCB / PDF / OCR outputs at vault root (B类：一次性临时文件)
 temp_pcb_*.json
 pcba_v22_*.json
