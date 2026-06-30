@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-maiyi-cloud-computer-channel
 type: case
 title: 案例：马毅云电脑如何扫描 60+ 渠道实现 3.7 亿营收
@@ -11,15 +12,11 @@ confidence: 0.78
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - actionable
-  - cited
-  - validated
-quality_labels:
-  - actionable
-  - cited
-  - validated
 created_at: 2026-06-27
+quality_labels:
+  - actionable
+  - cited
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt

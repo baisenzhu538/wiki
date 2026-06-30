@@ -1,5 +1,6 @@
 ---
 
+
 domain:
 - healthcare
 
@@ -23,15 +24,11 @@ source_refs:
 - src_unknown
 - src_unknown
 - src_unknown
-quality_labels:
-  - cited
-  - principle
-  - validated
-quality_labels:
-  - cited
-  - principle
-  - validated
 created_at: 2026-06-13
+quality_labels:
+  - cited
+  - principle
+  - validated
 updated_at: 2026-06-13
 author: unknown
 reviewed_by: "欧阳锋"

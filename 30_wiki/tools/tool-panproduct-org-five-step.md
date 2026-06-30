@@ -1,4 +1,5 @@
 ---
+
 id: tool-panproduct-org-five-step
 type: tool
 title: 组织场景五步法操作卡
@@ -11,17 +12,12 @@ confidence: 0.82
 trust_level: medium-high
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
 created_at: 2026-06-28
+quality_labels:
+  - actionable
+  - cited
+  - quality
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt

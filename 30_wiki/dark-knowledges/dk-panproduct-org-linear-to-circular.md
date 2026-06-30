@@ -1,4 +1,5 @@
 ---
+
 id: dk-panproduct-org-linear-to-circular
 type: dk
 title: 组织资产：从直线运动到圆周运动
@@ -11,13 +12,10 @@ confidence: 0.74
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - cited
-  - validated
-quality_labels:
-  - cited
-  - validated
 created_at: 2026-06-28
+quality_labels:
+  - cited
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md

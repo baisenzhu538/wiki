@@ -1,4 +1,5 @@
 ---
+
 id: personal-growth-complex-systems
 title: 个人成长：复杂系统、消除模糊与 AI 时代个体系统：主题综合索引卡
 type: concept
@@ -16,15 +17,11 @@ source_refs:
 - 10_raw/sources/src_20260614_7963c2f2-个人中国行：使命、教学创新与平台价值.md
 - 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md
 tags: []
-quality_labels:
-  - cited
-  - principle
-  - validated
-quality_labels:
-  - cited
-  - principle
-  - validated
 created_at: '2026-06-14'
+quality_labels:
+  - cited
+  - principle
+  - validated
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋

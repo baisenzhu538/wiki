@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-growth-flywheel-design
 type: tool
 title: 增长飞轮设计工具：从业务要素到增强回路
@@ -10,17 +11,12 @@ confidence: 0.82
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
 created_at: 2026-06-27
+quality_labels:
+  - actionable
+  - cited
+  - quality
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt

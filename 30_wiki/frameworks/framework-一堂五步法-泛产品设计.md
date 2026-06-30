@@ -1,4 +1,5 @@
 ---
+
 id: framework-一堂五步法-泛产品设计
 title: 一堂五步法在泛产品设计中的应用
 type: framework
@@ -6,19 +7,13 @@ status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
 created_at: 2026-06-26
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - quality
+  - validated
 updated_at: '2026-06-28'
 confidence: 0.82
 trust_level: medium-high

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-channel-scoring-matrix
 type: tool
 title: 渠道预判评分矩阵：科学排序候选渠道
@@ -10,17 +11,12 @@ confidence: 0.82
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
 created_at: 2026-06-27
+quality_labels:
+  - actionable
+  - cited
+  - quality
+  - validated
 updated_at: '2026-06-29'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt

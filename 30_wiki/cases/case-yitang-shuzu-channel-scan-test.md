@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-shuzu-channel-scan-test
 type: case
 title: 案例：数族如何扫描 100+ 渠道并跑通支付合作
@@ -12,15 +13,11 @@ confidence: 0.78
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - actionable
-  - cited
-  - validated
-quality_labels:
-  - actionable
-  - cited
-  - validated
 created_at: 2026-06-27
+quality_labels:
+  - actionable
+  - cited
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt

@@ -1,4 +1,5 @@
 ---
+
 id: framework-yitang-growth-flywheel
 type: framework
 title: 增长飞轮：把单点增长变成自我强化的增强回路
@@ -11,19 +12,13 @@ confidence: 0.8
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
 created_at: 2026-06-27
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - quality
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt

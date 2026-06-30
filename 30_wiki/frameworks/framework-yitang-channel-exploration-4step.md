@@ -1,4 +1,5 @@
 ---
+
 id: framework-yitang-channel-exploration-4step
 type: framework
 title: 渠道探索四步法：科学找到可持续获客渠道
@@ -11,19 +12,13 @@ confidence: 0.85
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
 created_at: 2026-06-27
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - quality
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt

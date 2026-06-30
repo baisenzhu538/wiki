@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-channel-exploration-traps
 type: dk
 title: 渠道探索常见陷阱：18 万字共建作业里的血泪教训
@@ -10,15 +11,11 @@ confidence: 0.8
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - cited
-  - quality
-  - validated
-quality_labels:
-  - cited
-  - quality
-  - validated
 created_at: 2026-06-27
+quality_labels:
+  - cited
+  - quality
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt

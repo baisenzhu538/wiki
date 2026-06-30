@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-channel-industrialization-node-design
 type: tool
 title: 工业化生产节点设计工具：把复杂交付变成可控流程
@@ -11,17 +12,12 @@ confidence: 0.8
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
 created_at: 2026-06-27
+quality_labels:
+  - actionable
+  - cited
+  - quality
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt

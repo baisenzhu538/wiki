@@ -1,5 +1,6 @@
 ---
 
+
 id: yitang-methodology-system
 title: 一堂方法论体系：从科学做事到无限进步
 type: concept
@@ -29,15 +30,11 @@ source_refs:
 - 10_raw/sources/src_20260614_faa8021d-Y模型探索营-第二节课.md
 - 10_raw/sources/src_20260614_9ca806cd-theme-yitang-methodology-summary.md
 tags: []
-quality_labels:
-  - cited
-  - principle
-  - validated
-quality_labels:
-  - cited
-  - principle
-  - validated
 created_at: '2026-06-14'
+quality_labels:
+  - cited
+  - principle
+  - validated
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋

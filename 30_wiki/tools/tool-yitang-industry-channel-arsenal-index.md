@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-industry-channel-arsenal-index
 type: tool
 title: 24 行业获客清单索引：跨行业渠道灵感库
@@ -10,15 +11,11 @@ confidence: 0.75
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - actionable
-  - cited
-  - validated
-quality_labels:
-  - actionable
-  - cited
-  - validated
 created_at: 2026-06-27
+quality_labels:
+  - actionable
+  - cited
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-01_vlm_desc.md

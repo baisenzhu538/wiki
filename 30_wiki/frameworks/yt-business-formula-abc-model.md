@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 id: yt-business-formula-abc-model
@@ -10,19 +11,13 @@ source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
 created_at: '2026-06-14'
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - quality
+  - validated
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋

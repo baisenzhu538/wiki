@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-research-action-camp-launch
 title: 一堂调研行动营 · 启动课（LLM 精炼）
 type: concept
@@ -8,16 +9,6 @@ source_refs:
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 - 00_inbox/调研专题/一堂-调研行动营-口述.txt
 - 00_inbox/调研专题/一堂-调研行动营-笔记.txt
-quality_labels:
-  - cited
-  - principle
-  - quality
-  - validated
-quality_labels:
-  - cited
-  - principle
-  - quality
-  - validated
 created_at: 2026-05-05
 domain: research
 yitang:
@@ -42,6 +33,11 @@ diagnostic_signals:
 - signal: AI只作为辅助，人掌握方向盘和目标
   framework_lens: 人控AI
   follow_up_question: 这个调研结论中，哪些部分来自AI、哪些来自你的判断？
+quality_labels:
+  - cited
+  - principle
+  - quality
+  - validated
 updated_at: 2026-06-13
 author: 老顽童
 confidence: 0.85

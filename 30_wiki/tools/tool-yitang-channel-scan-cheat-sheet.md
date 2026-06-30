@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-channel-scan-cheat-sheet
 type: tool
 title: 渠道扫描小抄：线上/线下/转化/推荐获客清单
@@ -10,17 +11,12 @@ confidence: 0.8
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
 created_at: 2026-06-27
+quality_labels:
+  - actionable
+  - cited
+  - quality
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-小抄-01_vlm_desc.md

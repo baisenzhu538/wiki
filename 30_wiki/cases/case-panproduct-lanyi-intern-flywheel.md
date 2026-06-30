@@ -1,4 +1,5 @@
 ---
+
 id: case-panproduct-lanyi-intern-flywheel
 type: case
 title: 兰毅：实习生成长飞轮的产品化设计
@@ -12,15 +13,11 @@ confidence: 0.78
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - actionable
-  - cited
-  - validated
-quality_labels:
-  - actionable
-  - cited
-  - validated
 created_at: 2026-06-28
+quality_labels:
+  - actionable
+  - cited
+  - validated
 updated_at: '2026-06-28'
 source_person: 兰毅
 source_context: 兰毅「用泛产品思维做组织」一堂分享，实习生团队产品化实践段落

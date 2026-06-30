@@ -1,4 +1,5 @@
 ---
+
 id: concept-pan-product-vs-traditional-management
 type: concept
 title: 泛产品组织 vs 传统管理：从控制范式到设计范式
@@ -11,15 +12,11 @@ confidence: 0.78
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - cited
-  - principle
-  - validated
-quality_labels:
-  - cited
-  - principle
-  - validated
 created_at: 2026-06-28
+quality_labels:
+  - cited
+  - principle
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt

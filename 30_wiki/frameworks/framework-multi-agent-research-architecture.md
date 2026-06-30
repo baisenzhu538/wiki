@@ -1,4 +1,5 @@
 ---
+
 id: "framework-multi-agent-research-architecture"
 title: "多智能体研究架构模式（Multi-Agent Research Architecture）"
 type: "framework"
@@ -28,17 +29,12 @@ related:
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: "2026-06-28"
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - validated
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - validated
 created_at: "2026-06-28"
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - validated
 updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: "medium"

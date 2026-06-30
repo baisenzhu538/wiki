@@ -1,4 +1,5 @@
 ---
+
 id: framework-yitang-channel-partnership-map
 title: 小众品类渠道合伙人/区域包干决策框架（「卖地图」模式）
 type: framework
@@ -12,19 +13,13 @@ domain:
   - yitang
   - growth
   - strategy
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
 created_at: '2026-06-29'
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - quality
+  - validated
 updated_at: '2026-06-29'
 source_refs:
   - 60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md

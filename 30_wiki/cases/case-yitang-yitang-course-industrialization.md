@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-yitang-course-industrialization
 type: case
 title: 案例：一堂如何用工业化生产保证每周高质量做课
@@ -11,17 +12,12 @@ confidence: 0.85
 trust_level: medium-high
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
 created_at: 2026-06-27
+quality_labels:
+  - actionable
+  - cited
+  - quality
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt

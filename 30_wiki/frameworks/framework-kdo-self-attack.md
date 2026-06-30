@@ -1,4 +1,5 @@
 ---
+
 id: framework-kdo-self-attack
 title: KDO 知识自攻击框架：用对抗 Agent 在交付前主动找出弱点
 type: framework
@@ -12,19 +13,13 @@ domain:
 author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: "2026-06-27"
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
 created_at: "2026-06-27"
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - quality
+  - validated
 updated_at: "2026-06-27"
 source_refs:
   - 40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md

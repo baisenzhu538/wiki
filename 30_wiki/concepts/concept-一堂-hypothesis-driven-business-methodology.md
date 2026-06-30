@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-hypothesis-driven-business-methodology
 title: 一堂假设驱动型创业分析方法论
 type: concept
@@ -14,17 +15,12 @@ source_refs:
 - 10_raw/sources/src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记.md
 - 10_raw/sources/src_20260606_7610584b-一堂-产品内核验证课-truman-笔记.md
 - 10_raw/sources/src_20260606_6fa04636-一堂-产品内核实操课-truman-笔记.md
-quality_labels:
-  - cited
-  - principle
-  - quality
-  - validated
-quality_labels:
-  - cited
-  - principle
-  - quality
-  - validated
 created_at: 2026-06-08
+quality_labels:
+  - cited
+  - principle
+  - quality
+  - validated
 updated_at: '2026-06-16'
 related:
 - "[[concept-一堂-key-assumptions]]"

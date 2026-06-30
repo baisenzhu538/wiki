@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-pan-product-three-virtues
 type: framework
 title: 泛产品三大自我修养：用户价值×最佳实践×无限进步
@@ -12,19 +13,13 @@ confidence: 0.82
 trust_level: medium-high
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
 created_at: 2026-05-11
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - quality
+  - validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt

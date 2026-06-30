@@ -1,4 +1,5 @@
 ---
+
 id: case-panproduct-lanyi-dahanghui-team
 title: 案例：兰毅——大航海战队如何被设计成组织产品
 type: case
@@ -6,17 +7,12 @@ status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
-quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
 created_at: 2026-06-28
+quality_labels:
+  - actionable
+  - cited
+  - quality
+  - validated
 updated_at: '2026-06-28'
 confidence: 0.85
 trust_level: medium-high

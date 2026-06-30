@@ -1,4 +1,5 @@
 ---
+
 id: "tool-agent-research-swarm"
 title: "Agent 调研 Swarm 模式工具"
 type: "tool"
@@ -27,15 +28,11 @@ related:
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: "2026-06-28"
-quality_labels:
-  - actionable
-  - cited
-  - validated
-quality_labels:
-  - actionable
-  - cited
-  - validated
 created_at: "2026-06-28"
+quality_labels:
+  - actionable
+  - cited
+  - validated
 updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: "medium"

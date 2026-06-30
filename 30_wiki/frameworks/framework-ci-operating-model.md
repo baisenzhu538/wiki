@@ -1,4 +1,5 @@
 ---
+
 id: "framework-ci-operating-model"
 title: "竞争情报操作系统（CI Operating Model）"
 type: "framework"
@@ -25,17 +26,12 @@ related:
 status: reviewed
 reviewed_by: "欧阳锋"
 review_date: "2026-06-28"
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - validated
-quality_labels:
-  - cited
-  - insight
-  - principle
-  - validated
 created_at: "2026-06-28"
+quality_labels:
+  - cited
+  - insight
+  - principle
+  - validated
 updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: "medium"

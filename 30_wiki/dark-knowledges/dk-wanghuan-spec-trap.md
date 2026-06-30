@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-wanghuan-spec-trap
 title: 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
 type: dk
@@ -9,15 +10,11 @@ domain:
 - human-ai-collaboration
 - ai-collaboration
 - yitang
-quality_labels:
-  - cited
-  - quality
-  - validated
-quality_labels:
-  - cited
-  - quality
-  - validated
 created_at: '2026-06-19'
+quality_labels:
+  - cited
+  - quality
+  - validated
 updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
