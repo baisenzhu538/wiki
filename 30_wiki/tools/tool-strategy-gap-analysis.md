@@ -1,76 +1,63 @@
 ---
-
-
 id: tool-strategy-gap-analysis
 title: 差距分析：战略的起点——业绩差距（内部）+机会差距（外部）
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 欧阳锋
+reviewed_by: pending
 review_date: 2026-06-21
 created_at: 2026-06-21
+updated_at: "2026-06-30T16:07:51+00:00"
 confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
   - strategy
 source_refs:
-  - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - "pending_archive:src_unknown"
 ---
 # 差距分析
 
 > BRM的起点。先搞清楚"差在哪"再谈"怎么追"。两个差距：业绩差距（自己和目标比）+机会差距（自己和对手比）。分析顺序：先看业务指标，再看组织问题。
 
-## 两步操作
+## Purpose
 
-**Step 1：业绩差距**
-  - src_unknown
-  - src_unknown
+差距分析用于在制定战略前定位当前状态与期望状态之间的落差，避免在没有共识的情况下直接讨论执行方案。它把"问题"拆成内部业绩缺口与外部机会缺口两条主线，帮助团队分清哪些是能力问题、哪些是位置问题。
 
-**Step 2：机会差距**
-  - src_unknown
-  - src_unknown
+## Protocol / Procedure
 
-## Agent执行指令
+1. **明确基准**：列出当期核心业务指标（收入、利润、用户、市占率等）与目标值。
+2. **计算业绩差距**：逐项对比目标值与实际值，量化缺口大小、持续周期、影响权重。
+3. **识别机会差距**：选取主要竞争对手或替代方案，对比同一市场维度下的表现差异。
+4. **分层归因**：将差距按业务指标、组织流程、资源配置、外部环境四层归类。
+5. **优先排序**：用影响大/可改变/证据足三维度筛选前 3 个关键差距。
+6. **形成假设**：为每个关键差距写下"如果…则…"的验证假设，作为后续战略输入。
 
-```python
-def gap_analysis(company):
-    perf_gap = [
-        (target, actual, target-actual)
-        for target, actual in company.kpis
-    ]
-    opp_gap = [
-        (competitor, metric, our_value-comp_value)
-        for competitor in company.competitors
-    ]
-    return {"业绩差距": perf_gap, "机会差距": opp_gap}
-```
+## When NOT to Use
 
-## 失败模式
+| 场景 | 原因 | 替代方案 |
+|:---|:---|:---|
+| 数据极度缺失时 | 差距分析依赖可靠基准，无数据会沦为猜测 | 先进行 [[tool-demand-assessment-triangle]] 或定性调研 |
+| 团队未就目标达成一致 | 目标值本身存在争议时，比较结果无意义 | 先用 [[tool-strategy-12-word-test]] 对齐战略意图 |
+| 仅需快速验证单点假设 | 差距分析是全景扫描，不适合单点试错 | 使用 [[tool-ai-parallel-validation]] 或最小化实验 |
+| 差距已被多次复盘且原因明确 | 重复分析造成决策延迟 | 直接进入行动与复盘闭环 |
 
-| 失败 | 症状 | 修复 |
-|:
-|:---|:---|
-| 先看人再看事 | "销售团队不行"→换人 | 先看业务指标，确认不是流程问题再判断人 |
+## Critique
 
----
+**内部局限**
 
-## 业绩差距外部原因简析
+- **具体假设**：假设历史指标能代表未来趋势，若市场结构突变则基准失效。
+- **边界**：差距分析只回答"差在哪"，不直接回答"怎么追"。
+- **反例**：某企业收入达标但利润下滑，单纯看业绩差距会掩盖商业模式恶化。
+- **前提**：组织有能力获取真实数据，且目标值本身经过校准。
 
-差距不只来自内部。三层次分析：
-- src_unknown
-- src_unknown
-- src_unknown
+**外部攻击者：Michael Porter**
 
-先排除外部因素再分析内部——避免"环境变了"被误诊为"能力不行"
+Michael Porter 会指出，差距分析若只盯着内部 KPI，容易忽视产业结构中的长期竞争优势来源。他更强调通过五力模型审视行业利润池与结构性壁垒，把机会差距从"对手对比"提升到"行业位置对比"。
 
----
+## Synthesis
 
-*卡片类型：tool | 审核状态：待审*
+- [[case-strategy-edward-jones]]
+- [[case-strategy-practice-10-turnaround]]
+- [[concept-strategy-evolution-cycle]]
+- [[tool-strategy-five-see-three-set]]
