@@ -264,6 +264,18 @@ Vikki 群和大馨群的失败模式可以直接映射到 KDO 五绝：
 | 出现知识外泄争议 | 48 小时内明确使用边界并公开沟通 | 争议不再二次发酵 |
 | Agent 输出 50%+ 未经人工校验 | 强制增加人审环节 | 人审比例回到 ≥80% |
 
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|---|---|---|
+| 开源边界 | [[concept-open-source-knowledge-usage-boundary]] | 失败模式 F9 直接对应开源知识使用边界 |
+| 训练营案例 | [[case-daxin-team-content-training-camp]] | 大馨战队的 6 个失败模式是本库的子集 |
+| 内容经营 | [[framework-content-business-six-step]] | 6 步闭环帮助社群建立可持续内容生产节奏 |
+| 创始人 IP | [[framework-founder-ip-three-positioning]] | 社群中心化瓶颈与 IP 中心化风险同构 |
+| 品牌三度 | [[framework-brand-three-degree]] | 社群信任危机直接影响品牌信任度 |
+| 拆解工具 | [[tool-shortvideo-six-dimension-deconstruction]] | 大馨战队用 6 维度工具，也面临模板疲劳风险 |
+| 质量标签 | [[system-kdo-quality-labels]] | 本 framework 卡应用 principle/validated 标签 |
+
 ## Open Questions
 
 1. 异步社群（如 Discord 论坛、GitHub Discussions）的失败模式是否与微信群有显著差异？
