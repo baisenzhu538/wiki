@@ -89,15 +89,15 @@ def update_queue_status(task_id: str, new_status: str) -> None:
     text = QUEUE_PATH.read_text(encoding="utf-8")
     lines = text.splitlines()
     updated = []
-    tid = task_id.strip("`")
+    tid = task_id.strip("`").strip("*")
     found = False
     for line in lines:
         if line.startswith("|") and not set(line.strip()) <= {"|", "-", ":", " "}:
-            cells = [c.strip() for c in line.strip("|").split("|")]
-            if len(cells) >= 4 and cells[1].strip("`") == tid:
-                cells[3] = new_status
-                # Rebuild line preserving all columns
-                updated.append("| " + " | ".join(cells) + " |")
+            cells = [c for c in line.strip("|").split("|")]
+            if len(cells) >= 4 and cells[1].strip().strip("*").strip("`").strip() == tid:
+                # Replace only the 4th cell (status), preserving surrounding formatting
+                cells[3] = f" {new_status} "
+                updated.append("|" + "|".join(cells) + "|")
                 found = True
                 continue
         updated.append(line)

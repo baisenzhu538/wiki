@@ -44,12 +44,15 @@ def parse_queue(path: Path = QUEUE_PATH) -> list[dict]:
             cells = [c.strip() for c in line.strip("|").split("|")]
             if len(cells) < 5:
                 continue
+            def clean(s: str) -> str:
+                return s.strip().strip("*").strip("`").strip()
+
             rows.append({
-                "seq": cells[0],
-                "task_id": cells[1].strip("`"),
-                "name": cells[2],
-                "status": cells[3],
-                "assignee": cells[4] if len(cells) > 4 else "",
+                "seq": clean(cells[0]),
+                "task_id": clean(cells[1]),
+                "name": clean(cells[2]),
+                "status": clean(cells[3]),
+                "assignee": clean(cells[4]) if len(cells) > 4 else "",
                 "raw": line,
             })
     return rows

@@ -27,6 +27,12 @@ REVIEW_DIRS = [
 ]
 
 
+try:
+    import yaml
+except ImportError:  # pragma: no cover
+    yaml = None
+
+
 def parse_frontmatter(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")
     if not text.startswith("---"):
@@ -34,9 +40,15 @@ def parse_frontmatter(path: Path) -> dict:
     end = text.find("---", 3)
     if end == -1:
         return {}
-    fm = text[3:end].strip()
+    fm_text = text[3:end].strip()
+    if yaml is not None:
+        try:
+            return yaml.safe_load(fm_text) or {}
+        except yaml.YAMLError:
+            pass
+    # Fallback to simple line parser
     data = {}
-    for line in fm.splitlines():
+    for line in fm_text.splitlines():
         if ":" not in line:
             continue
         key, val = line.split(":", 1)
@@ -53,6 +65,11 @@ BATCH_REVIEW_PATTERNS = [
 def is_batch_task(task_id: str) -> bool:
     """Batch tasks like laowantong-batch-2026-06-20-waveN use separate review files."""
     return task_id.startswith("laowantong-batch-")
+
+
+def is_review_only_entry(task_id: str) -> bool:
+    """Review-only entries like review_YYYYMMDD_ouyangfeng-* review a framework/card directly."""
+    return task_id.startswith("review_")
 
 
 def find_batch_review_file(task_id: str) -> Path | None:
