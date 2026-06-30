@@ -165,4 +165,4 @@ Summary: 0 new error(s), 16 new warning(s) (1979 accepted).
 - **规则加固**：已上线 `90_control/scripts/queue_transition.py` 硬状态流转门禁，后续老顽童领取/完成/释放任务必须通过该脚本，禁止手动修改队列或任务单状态。
 
 **欧阳锋补审结论**：
-> 欧阳锋正在审核 #33。终审完成后，使用 `queue_transition.py review --verdict pass|fail` 更新状态。
+> 终审通过（2026-06-30）。5 张目标卡内容质量达标，`kdo pre-submit` 5/5 PASS，所有 related 链接有效。审查中修正 1 处 `quality_labels: observed` 为受控标签 `cited`。队列抢跑异常已记录，后续老顽童必须通过 `90_control/scripts/queue_transition.py` 进行状态流转。

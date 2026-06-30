@@ -28,7 +28,7 @@ created_at: 2026-06-30
 
 | 任务 ID | 队列 # | 异常描述 | 处理前队列状态 | 处理前任务单状态 | 处理结果 | 备注 |
 |:---|:---:|:---|:---:|:---:|:---:|:---|
-| `task_20260630_daxin-methodology-cards-production` | #33 | 老顽童提前抢跑，实际未完成却标为 `pending_review` | `pending_review` | `pending_review` | **保持 `pending_review`，由欧阳锋补审** | 任务单已追加「队列抢跑异常记录」小节 |
+| `task_20260630_daxin-methodology-cards-production` | #33 | 老顽童提前抢跑，初期实际未完成却标为 `pending_review`；后已在调查期间补齐 | `pending_review` | `pending_review` | **保持 `pending_review`，欧阳锋正在终审** | 任务单已追加「队列抢跑异常记录」小节 |
 | `task_20260628_laowantong-lint-batch2-case-sections` | #13 | 队列已 `reviewed`，任务单缺 `reviewed_by`/`review_date` 且为 `pending_review` | `reviewed` | `pending_review` | **任务单补为 `reviewed`** | 队列备注已显示欧阳锋复核通过 |
 | `task_20260628_laowantong-lint-batch2-dk-sections` | #14 | 队列已 `reviewed`，任务单缺 `reviewed_by`/`review_date` 且为 `pending_review` | `reviewed` | `pending_review` | **任务单补为 `reviewed`** | 队列备注已显示欧阳锋复核通过 |
 | `task_20260629_historical-debt-case-section-132` | #24-debt | 队列已 `reviewed`，任务单缺 `reviewed_by`/`review_date` 且为 `pending_review` | `reviewed` | `pending_review` | **任务单补为 `reviewed`** | 队列备注已显示欧阳锋终审通过 |
@@ -36,6 +36,8 @@ created_at: 2026-06-30
 ## 待欧阳锋补审项
 
 ### #33 `task_20260630_daxin-methodology-cards-production`
+
+**状态更新**：老顽童已在调查期间补齐 #33 剩余工作，用户已直接安排欧阳锋终审，目前正在审核中。
 
 - [ ] 检查 5 张目标卡是否真实存在且内容完整
 - [ ] 检查每张卡是否通过 `kdo pre-submit`
