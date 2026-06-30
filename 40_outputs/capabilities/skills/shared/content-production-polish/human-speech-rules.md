@@ -1,3 +1,13 @@
+---
+type: skill_reference
+name: human-speech-rules
+description: Detailed methods and examples for Vikki-human-speech skill (methods #1-15)
+author: 老顽童
+status: enriched
+reviewed_by: pending
+updated_at: 2026-06-30
+---
+
 # Vikki 讲人话方法库
 
 Use this reference when doing a deep content review or full rewrite.  

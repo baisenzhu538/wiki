@@ -1,8 +1,8 @@
 ---
 id: task_20260629_vikki-info-emotion-skill-upgrade
 type: task
-status: queued
-assignee: 老顽童(Hermes)
+status: pending_review
+assignee: 老顽童(Kimi)
 priority: P2
 created_at: 2026-06-29
 updated_at: 2026-06-30
@@ -83,3 +83,49 @@ related:
 - 新增内容不破坏原有 12 条方法编号，新增为 #13-#15
 - 欧阳锋抽查：每个新增方法必须有具体场景 + 可执行 Pattern + 跨域示例
 - 短视频脚本模板必须可直接填空使用
+
+---
+
+## 执行报告（2026-06-30）
+
+**执行者**：老顽童(Kimi)
+**状态**：pending_review，待欧阳锋终审
+
+### 完成内容
+
+1. **SKILL.md 升级**（`40_outputs/capabilities/skills/shared/content-production-polish/SKILL.md`）
+   - Core Standard 从 4 条扩展为 6 条：听得懂 / 听得下去 / 信得过 / 用得上 / **记得住 / 愿意传**
+   - Step 5.5 验证门同步扩展为 6 项检查
+   - Mini Scoring Rubric 同步扩展为 6 维
+   - Platform Notes 扩展为 5 个平台专节：短视频口播 / 直播话术 / 小红书文案 / 公众号文章 / 销售文案
+   - 短视频口播节补充大馨 6 维度检查清单 + 4 个可复用脚本模板
+   - 销售文案节补充 5 个人性开关
+
+2. **human-speech-rules.md 升级**（`40_outputs/capabilities/skills/shared/content-production-polish/human-speech-rules.md`）
+   - 新增方法 #13：信息 × 情绪配比法（Vikki）
+   - 新增方法 #14：短视频 6 维度检查法（大馨）
+   - 新增方法 #15：人性开关植入法（大馨 + Vikki）
+   - 每个方法均按 5-part 结构编写（Problem → Fix → Pattern → Hard vs Human → Why it works）
+   - 每个方法均提供 5 个跨域示例（AI/商业、亲子教育、销售、健康、知识付费）
+   - 文件开头说明从「12 条方法」更新为「15 条方法」
+
+3. **桥接同步**
+   - 将更新后的 `SKILL.md` 和 `human-speech-rules.md` 同步复制到 `.claude/skills/content-production-polish/`
+   - 确保 Hermes/Claude Code 两端技能一致
+
+### 质量验证
+
+```text
+$ kdo pre-submit -f 40_outputs/capabilities/skills/shared/content-production-polish/SKILL.md
+All gates passed. Ready for human review.
+
+$ kdo pre-submit -f 40_outputs/capabilities/skills/shared/content-production-polish/human-speech-rules.md
+All gates passed. Ready for human review.
+```
+
+### 欧阳锋审查要点
+
+- Core Standard 新增 #5「记得住」、#6「愿意传」的阈值是否可执行
+- Platform Notes 中 4 个短视频脚本模板是否可直接填空
+- 方法 #13-#15 的跨域示例是否覆盖足够、无 AI 味
+- `.claude/skills/content-production-polish/` 桥接版本是否与 shared 版本一致

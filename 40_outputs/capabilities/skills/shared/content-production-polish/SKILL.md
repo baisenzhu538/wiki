@@ -1,6 +1,11 @@
 ---
 name: Vikki-human-speech
 description: Review and rewrite Chinese self-media content so it sounds like a real person instead of AI-generated copy. Use when checking or improving口播稿、短视频脚本、直播话术、公众号文章、小红书文案、销售文案, especially for problems like抽象难懂、AI味重、排比堆砌、概念太密、说教感强、没有场景、没有例子、转化弱, or when the user asks to"讲人话""去AI味""改得口语化""让用户听懂""让表达更有商业价值"" Vikki-human-speech".
+version: 2.0.0
+author: 老顽童
+status: enriched
+reviewed_by: pending
+updated_at: 2026-06-30
 ---
 
 # Vikki 讲人话检查

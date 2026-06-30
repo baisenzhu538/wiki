@@ -4,9 +4,9 @@ updated_at: 2026-06-30
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#28 lint 内容债按 domain 分批清理（claimed-kimi 进行中）：老顽童(Kimi)持续处理内容债，当前 lint WARNING 基线 2656，copy-paste 已清零；#29 羊奶渠道桥接卡已 reviewed；#30-32 Vikki 提炼任务已入队待认领"
+active_task: "#30 Vikki + 大馨 content-production-polish skill 2.0 升级（pending_review）：老顽童(Kimi)已完成 SKILL.md 6 标准 + Platform Notes 5 平台模板 + human-speech-rules.md 方法 #13-#15，5 跨域示例，kdo pre-submit 2/2 PASS，已桥接 .claude/skills；#28 lint 内容债已释放回 queued（2656 WARNING，strategy 域 body 过短待续）；#31-34 仍 queued"
 blockers:
-  - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已处理 28 文件，copy-paste 清零（76→0），lint 从 3255 降至 2656 WARNING；body 过短 614 需回填；欧阳锋中期审查通过，继续处理 strategy 域 body 过短，然后批量补 L2 Critique 外部反对者"
+  - "🟡 #28 lint 内容债按 domain 分批清理（2026-06-29）：老顽童(Kimi)已处理 28 文件，copy-paste 清零（76→0），lint 从 3255 降至 2656 WARNING；当前实例切换至 #30，#28 已释放回 queued；后续继续处理 strategy 域 body 过短，然后批量补 L2 Critique 外部反对者"
   - "✅ Batch 2-A/B/C reviewed（2026-06-28）：A 130 case + B 57 dk + C source_refs 数据层清理；`kdo lint` 总 ERROR 清零"
   - "✅ B1 frontmatter related 占位清理 reviewed（2026-06-28）：欧阳锋终审确认 256 文件真实修改，1947 src_unknown 清零，1190 pending_unknown 补入符合分层标准；`kdo lint` 0 ERROR"
   - "✅ B2 Synthesis section 清理 reviewed（2026-06-28）：235 张初处理 + 66 张补充清理，66 文件 body src_unknown 全部清零；kdo lint 140 ERROR 全为历史遗留，无新增；frontmatter src_unknown 另开任务处理"
@@ -78,7 +78,7 @@ blockers:
   - "📝 本次会话复盘已写入（2026-06-30）：`20_memory/session-retro-20260630-vikki-daxin-asset-naming.md`；关键决策：Vikki/大馨 5 任务融合入队、素材七要素命名法、AI 自动打标签采用半自动工作流"
   - "📝 Kimi Code CLI 专项能力复盘已同步（2026-06-30）：`20_memory/kimi-capability-retro-20260630.md` + `agent复盘/Kimi/2026-06-30.md`；平均分 7.6/10；新增 5 条错误模式库记录；Keep/Improve/Add/Stop 四象限已沉淀；Kimi 启动时应自动读取本复盘"
 
-next_session_hint: "下一步：① 老顽童(Kimi)继续处理 #28 剩余 2656 WARNING，优先处理 strategy 域 body 过短（约 57 个 case 卡），然后批量补 L2 Critique/no_external_attacker（846+714），不要再批量删除空 section；② 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 欧阳锋终审 #30 Vikki + 大馨 content-production-polish skill 2.0 升级（SKILL.md + human-speech-rules.md，kdo pre-submit 2/2 PASS）；② 老顽童(Kimi)释放 #30 后，可继续领取 #28 lint 内容债（2656 WARNING，strategy 域 body 过短）或 #31-34 新任务；③ 2026-06-29 周一 9:07 首次自动运行 kb-evolution-signals 周报；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
