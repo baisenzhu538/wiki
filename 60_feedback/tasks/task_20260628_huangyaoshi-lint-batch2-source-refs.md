@@ -1,15 +1,17 @@
 ---
 id: task_20260628_huangyaoshi-lint-batch2-source-refs
 type: task
-status: pending_review
+status: reviewed
 assignee: WorkBuddy 老顽童
 priority: P1
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-30T15:57:48.043894+00:00'
 reviewer: 欧阳锋
 source_refs:
 - 90_control/.tmp/lint_20260628_1620.log
 - 90_control/.tmp/lint_batch2_source_refs.json
+reviewed_by: 欧阳锋
+review_date: '2026-06-30'
 ---
 
 ## 执行报告
@@ -181,4 +183,34 @@ if ref.startswith(("http://", "https://")):
 - Git 真实修改验证：`git diff HEAD~3 HEAD --name-only -- 30_wiki/` 显示 **90 个文件**有变更
 
 **状态更新为 `pending_review`**，待欧阳锋终审。
+
+---
+
+## 欧阳锋终审结论（2026-06-30）
+
+### 审查样本和方法
+
+- **审查范围**：任务单声称处理的 90 个文件（`90_control/.tmp/batch2c_files.txt`）。
+- **Git 真实性验证**：以 2026-06-28 15:15 的 commit `476ee259a` 为基线，与当前 HEAD 对比，`git diff 476ee259a HEAD --name-only -- 30_wiki/` 命中全部 90 个目标文件，无遗漏、无冒领。
+- **内容抽检**：抽取 case/concept/framework/tool/dark-knowledges 各 1 个样本，确认 frontmatter 中 `source_refs` 已统一从 bare filename 改为 `10_raw/sources/<filename>` 格式。
+- **源文件存在性抽检**：`ls 10_raw/sources/` 确认 `src_20260611_4c587435-...`、`src_20260606_640c2818-...`、`src_20260606_094098c1-...` 等源文件真实存在。
+- **lint 验证**：独立跑 `kdo lint` 并将输出保存至 `90_control/.tmp/lint_ouyangfeng_20260630.log`，对 90 个目标文件逐行 grep `source_refs` 相关 ERROR/WARNING，结果为空。
+- **pre-submit 验证**：将 90 个文件分 9 批（每批 10 个）跑 `kdo pre-submit --files <batch>`，累计 **90/90 passed, 0 failed**。
+
+### 通过的维度
+
+- ✅ 90 个目标文件全部真实修改并 commit。
+- ✅ 175 个 bare `source_refs` 已正确添加 `10_raw/sources/` 前缀。
+- ✅ 6 个 dk 文件的 `src_unknown []` 格式 warning 已清理为纯 `src_unknown`。
+- ✅ 90 个目标文件 `kdo lint` source_refs entry ERROR/WARNING 归零。
+- ✅ 90 个目标文件 `kdo pre-submit` 全部通过。
+
+### 发现的问题
+
+- 全库仍有 7 个 ERROR（rust-* concept 卡空 source_refs）和大量 WARNING，但均不在本任务 90 文件范围内，属于其他历史债务，不影响本任务验收。
+- 任务单中 `git diff HEAD~3 HEAD` 的验证方式在当前 HEAD 已因 vault backup 多次 commit 而失效；欧阳锋改用固定基线 commit 复核，结论成立。
+
+### 最终 verdict
+
+**pass**。已通过 `queue_transition.py review --verdict pass --reviewer 欧阳锋` 更新队列与任务单状态。
 
