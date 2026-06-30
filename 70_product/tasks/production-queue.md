@@ -76,13 +76,13 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 32 | `task_20260629_vikki-open-source-knowledge-boundary` | 沉淀「开源知识使用边界」概念卡 | reviewed | 老顽童(Kimi) | 1 张 concept 卡 | 无 | `60_feedback/tasks/task_20260629_vikki-open-source-knowledge-boundary.md` | 欧阳锋终审通过：concept-open-source-knowledge-usage-boundary 概念卡正文 300 行，四层级（学习/引用/改编/蒸馏）+ 三条边界线 + KDO 默认协议建议（CC BY-NC-SA/CC BY-NC-ND/CC BY）+ 游侠事件/Anthropic-DeepSeek 双案例 + Critique 内部局限 + 2 个外部攻击者；`kdo pre-submit` 1/1 PASS；5 个 related 链接全部有效；WebSearch 来源建议后续补入 source_refs |
 | 33 | `task_20260630_daxin-methodology-cards-production` | 大馨战队核心方法论卡片化 | reviewed | 老顽童(Kimi) | 5 张卡（#30 skill 已覆盖脚本模板，省略 tool-shortvideo-script-templates） | 无 | `60_feedback/tasks/task_20260630_daxin-methodology-cards-production.md` | 欧阳锋终审通过：5 张目标卡全部 `kdo pre-submit` PASS；framework-brand-three-degree 从 concept 升级为 framework 并补全 6 步操作法；case-daxin-team-content-training-camp 证据链（615 条群聊）+ 6 个失败模式完整；审查中修正 1 处 `quality_labels: observed` 为受控标签 `cited`；队列抢跑异常已按补审流程处理 |
 | 34 | `task_20260630_community-knowledge-failure-modes` | 社群知识生产失败模式库（Vikki + 大馨融合） | reviewed | 老顽童(Hermes) | 1 张 framework + 1 张可选 case | 无 | `60_feedback/tasks/task_20260630_community-knowledge-failure-modes.md` | 来源：Vikki群 + 大馨战队；融合10个失败模式，建立KDO多Agent协作/社群运营的失败模式库与早期预警指标 |
-| 35 | `task_20260630_kdo-state-json-sqlite-migration-mvp` | KDO state.json → SQLite MVP 迁移（sources 集合） | **queued** | **黄药师** | 1 个集合 / 689 条记录 | 无；用户指定本周高优先级基础设施任务 | `60_feedback/tasks/task_20260630_kdo-state-json-sqlite-migration-mvp.md` | 用户+欧阳锋拍板：从 MVP 开始，只迁移 sources 集合；WAL + busy_timeout + 进程级文件锁；不做双写；跑 enrich benchmark 实测 |
+| 35 | `task_20260630_kdo-state-json-sqlite-migration-mvp` | KDO state.json → SQLite MVP 迁移（sources 集合） | reviewed | **黄药师** | 1 个集合 / 689 条记录 | 无；用户指定本周高优先级基础设施任务 | `60_feedback/tasks/task_20260630_kdo-state-json-sqlite-migration-mvp.md` | 欧阳锋终审通过（B+）：`.kdo/state.sqlite` 生成，`state.json` 已重命名为 `.migrated`，689 条 sources 一致；`kdo lint --summary` 0 新增 ERROR，`kdo status` 正常；新增 11 个 SQLite state 单元测试；审查中修复 append 不提交、reload 丢失 sources、跨线程 finalizer、多命令未关闭连接、lint 基线未复制 SQLite 等 5 处问题；`kdo enrich --all --dry-run` 当前无 TODO 页面待补测；全量 pytest 538 passed / 1 skipped / 1 failed（failed 为预存在 Windows GBK 编码问题） |
 | 36 | `task_20260630_kdo-query-label-filter` | 实现 kdo query --label 质量标签过滤命令 | queued | 黄药师 | 1 个 CLI 参数 | 依赖 #31 reviewed；48 张重复标签问题已由欧阳锋现场修复 | `60_feedback/tasks/task_20260630_kdo-query-label-filter.md` | #31 遗留：验收标准要求 `kdo query --label actionable` 可过滤；当前用 rg 临时替代；黄药师实现后更新 system-kdo-quality-labels 指南 |
 | 37 | `task_20260630_kdo-cli-syntaxerror-fix` | 修复 kdo CLI SyntaxError（kdo/commands/delivery.py:686） | queued | 黄药师 | 1 个 bugfix | 无；老顽童在 #34 生产中发现 | `60_feedback/tasks/task_20260630_kdo-cli-syntaxerror-fix.md` | `python -m kdo pre-submit` 等命令触发 SyntaxError，需黄药师修复 delivery.py 语法错误；修复后老顽童可恢复直接使用 CLI |
 
-> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 5 个 Vikki/大馨 提炼任务（#30-34）+ **3 个黄药师基础设施任务（#35 state.json → SQLite MVP、#36 kdo query --label、#37 kdo CLI SyntaxError 修复）**。
-> **本周高优先级基础设施任务**：#35 `state.json → SQLite MVP` 由黄药师负责，用户指定插队执行，与内容生产任务可并行；#36、#37 可紧随其后。
-> **本周高优先级基础设施任务**：#35 `state.json → SQLite MVP` 由黄药师负责，用户指定插队执行，与内容生产任务可并行。
+> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 5 个 Vikki/大馨 提炼任务（#30-34）+ **2 个黄药师基础设施任务（#36 kdo query --label、#37 kdo CLI SyntaxError 修复）**；#35 `state.json → SQLite MVP` 已由欧阳锋终审通过。
+> **本周高优先级基础设施任务**：#36 `kdo query --label` 与 #37 `kdo CLI SyntaxError 修复` 由黄药师负责，可紧随其后执行。
+> **#37 说明**：当前 `kdo/commands/delivery.py` 经欧阳锋 #35 审查后语法检查通过（`python -m py_compile` OK），若老顽童在 #34 中仍遇到 SyntaxError，请提供具体命令与 traceback，以便定位。
 > **当前 lint 基线**：`kdo lint` 全量 0 ERROR / 2656 WARNING；机械类 WARNING 经 #27 处理后降至 3286；#28 第一轮后降至 3255，第二轮累计处理 23 张 card 后降至 2666（copy-paste 从 76 清零），第三轮处理 5 个 strategy case 后降至 2656；剩余主要为 body 过短、L2 Critique、L2 Condense、L2 Synthesis 等内容债，由 #28 按 domain 分批处理；`kdo lint --domain <domain> --summary` 已可用。
 > **人员状态**：A1/A2 reviewed；#24-debt reviewed；Wave 6 已完成；B1/B2/B3 已完成；#25 扩展卡已 reviewed；#26 全库 frontmatter 合规修复已 reviewed。
 > **执行顺序建议**：frontmatter 与目录结构类历史债务已全部处理完毕，进入下一阶段。剩余 7507 WARNING 建议作为内容精修任务按需分批处理，不要继续机械修复。
@@ -132,7 +132,8 @@ done
 | 2026-06-29 | 用户决策：#28 lint 内容债任务过长，改为 background batch 逐步清理，当前 Kimi 实例切换至 #30；#30 Vikki + 大馨 skill 2.0 升级任务已领取执行；#28 checkpoint 写入任务单 | 王语嫣 |
 | 2026-06-29 | 欧阳锋独立评审完成：state.json → SQLite 迁移方案 A- 采纳，从 MVP 开始；#35 高优先级基础设施任务入队，黄药师负责本周执行 | 欧阳锋/王语嫣 |
 | 2026-06-30 | #31 Vikki 五标签质量体系终审通过；欧阳锋发现并修复 48 张卡片重复 `quality_labels` 字段问题；#36 `kdo query --label` 实现任务入队，黄药师负责 | 欧阳锋/王语嫣 |
+| 2026-06-30 | #35 `state.json → SQLite MVP` 由黄药师完成，欧阳锋终审通过；审查中修复 append 提交、reload 注册、跨线程 finalizer、连接关闭、lint 基线复制等 5 类问题；新增 11 个 SQLite state 单元测试 | 欧阳锋/黄药师 |
 
 ---
 
-*维护人：王语嫣 | 最后更新：2026-06-30（#31 reviewed，#36 入队）*
+*维护人：王语嫣 | 最后更新：2026-06-30（#35 reviewed）*
