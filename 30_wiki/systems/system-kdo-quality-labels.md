@@ -134,13 +134,17 @@ quality_labels:
 # 查看所有带 quality_labels 的卡片
 python 90_control/scripts/label-quality-migrate.py --dry-run
 
-# 用 grep 临时过滤
-rg "^  - actionable$" 30_wiki -g "*.md" -l
-```
-
-未来计划：
-```bash
+# 按单个标签过滤
 kdo query --label actionable
+
+# 按多个标签同时过滤（AND 关系）
+kdo query --label actionable --label cited
+
+# 查看所有标签及其卡片数
+kdo query --list-labels
+
+# 临时兼容：用 grep 过滤
+rg "^  - actionable$" 30_wiki -g "*.md" -l
 ```
 
 ## 标签组合示例
