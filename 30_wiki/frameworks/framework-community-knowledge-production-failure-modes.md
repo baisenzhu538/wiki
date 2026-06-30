@@ -41,6 +41,7 @@ related:
   - "[[framework-founder-ip-three-positioning]]"
   - "[[framework-brand-three-degree]]"
   - "[[tool-shortvideo-six-dimension-deconstruction]]"
+  - "[[system-kdo-quality-labels]]"
 pipeline:
   - "confidence-draft"
 ---
