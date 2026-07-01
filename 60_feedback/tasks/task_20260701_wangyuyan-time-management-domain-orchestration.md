@@ -2,7 +2,7 @@
 id: task_20260701_wangyuyan-time-management-domain-orchestration
 title: 王语嫣任务编排：时间管理域卡片化与升级
 type: task
-status: in_progress
+status: pending_review
 priority: P2
 assignee: kimi
 collaborators:
@@ -10,7 +10,7 @@ collaborators:
 - 欧阳锋（终审）
 - 洪七公（OCR + VLM 预处理已完成）
 created_at: 2026-07-01
-updated_at: '2026-07-01T16:08:07.546011+00:00'
+updated_at: '2026-07-01T16:37:35.027292+00:00'
 reviewer: 欧阳锋
 dependencies:
 - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
