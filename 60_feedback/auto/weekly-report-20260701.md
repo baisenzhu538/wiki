@@ -1,12 +1,12 @@
-# KDO Weekly Report — 2026-07-01 18:46 UTC
+# KDO Weekly Report — 2026-07-01 18:52 UTC
 
 ## 📊 Snapshot
 | Errors | Warnings | Wiki cards | Inbox files | Sources | Artifacts | Deliveries | Feedback |
 |---|---|---|---|---|---|---|---|
-| 1614 | 2941 | 2193 | 10104 | 689 | 34 | 7 | 2852 |
+| 10 | 2608 | 2193 | 10104 | 689 | 34 | 7 | 2852 |
 
 ## 💡 Recommendations
-- 🔴 1614 lint ERRORs — fix immediately
+- 🔴 10 lint ERRORs — fix immediately
 - 📥 Inbox 积压 — 跑 kdo inbox --grade 优先 S 级
 
 ---
