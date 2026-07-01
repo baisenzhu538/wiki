@@ -79,15 +79,16 @@ Generated: 2026-06-26T21:00:00+00:00
 
 ## Summary
 
-- **Total**: 38
+- **Total**: 40
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 7（详见 `production-queue.md`）
+- **Queued**: 9（详见 `production-queue.md`）
 - **Pending**: 2（含 Hermes lint Batch 1 待欧阳锋抽检）
 - **Review Done**: 13 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3, dark-knowledges-batch8, huangyaoshi-codex-lessons-review, master-7-cards)
 
 > 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；✅ Batch 2-A/B/C 全部 reviewed：A 130 case + B 57 dk + C 90 source_refs 文件已完成，`kdo lint` 机械性 ERROR 清零；下一阶段正式进入补链阶段（Wave 6 诊断 + B1/B2/B3）。
 > **🆕 新增 #38**：《吾辈如神》素材经独立验证为 B 级，王语嫣域诊断后入队 1 张试点卡，不批量生产；重点纠偏 BMW 85%、AGI 2029、AI 无法创造等数据/观点误读。
+> **🆕 新增 #39/#40**：欧阳锋建议、王语嫣独立判断后入队的 2 个 P1 基建任务。#39 黄药师修复 index/lint wikilink 格式不一致，使 strategy 148 个 WARNING 误报清零；#40 老顽童(WorkBuddy) 只读诊断 design 域编码损坏，诊断完成前禁止批量修改 design 文件。两个任务可与 #28 周期性批次及 #38 并行。
 
 ---
 

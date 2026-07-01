@@ -38,6 +38,8 @@ audience: 欧阳锋 / 黄药师 / 老顽童 / 洪七公 / 段王爷
 | 渠道增长域卡片化 | 老顽童生产 / 欧阳锋审查 | 🟡 生产中 | 24-25 张卡（含 2 张跨域桥接卡：单元模型、精益创业；案例审计后追加 8 张 case 卡） |
 | 每周进化信号报告 | 王语嫣 | 🟢 已定时（每周一 9:07） | `60_feedback/auto/kb-evolution-signals-weekly.md` |
 | 《吾辈如神》条件性纳入试点 | 老顽童(Hermes)生产 / 欧阳锋审查 / 王语嫣编排 | 🟡 queued | 1 张 concept 卡（`concept-cognitive-offloading-in-ai-era`），扩量需终审通过 + 二次诊断 |
+| KDO index/lint wikilink 格式对齐 | 黄药师 | 🟡 queued | 修复 KDO 代码中 index/lint 的 wikilink 格式不一致，使 strategy 148 个 / 全库约 700+ WARNING 误报清零 |
+| design domain 编码损坏诊断 | 老顽童(WorkBuddy) / 欧阳锋审查 | 🟡 queued | 只读诊断 design 域编码损坏根因，给出分类标签与后续处理建议；诊断完成前禁止批量修改 design 文件 |
 | 决策域 domain digest | 黄药师 | 🟡 待启动 | 1 张索引卡 |
 | 需求分析域 domain digest | 黄药师 | 🟡 待启动 | 1 张索引卡 |
 | 五步法子域 domain digest | 黄药师 | 🟡 待启动 | 1 张索引卡 |
@@ -94,6 +96,7 @@ audience: 欧阳锋 / 黄药师 / 老顽童 / 洪七公 / 段王爷
 | 2026-06-28 | 用户明确长期主义原则 | 知识库追求深度、边界、健壮、发展；Agent 需阻止急功近利行为 |
 | 2026-07-01 | 《吾辈如神》B 级条件性纳入 | 素材需经 6 层交叉验证 + 9 层深挖 + 全网调研后才能入队；驳回了黄药师「A 级 / 作者免检 / 批量 5-6 张卡」建议；先 1 张试点卡，扩量需终审通过 + 二次诊断 |
 | 2026-07-01 | 建立 Agent 角色切换显式协议 | 防止多角色协作中的角色漂移；明确「建议 ≠ 决策」、切换必须显式声明、执行前读取 context；文件见 `60_feedback/methods/method-agent-role-switching-protocol.md` |
+| 2026-07-01 | #28 暂停并拆分为长线周期性任务 | #28 体量过大（2656 WARNING / 14+ domain），改为 paused；配套 #39 index/lint wikilink 对齐、#40 design 编码诊断两个 P1 基建任务入队； strategy 域真实内容问题已清零 |
 
 ---
 
