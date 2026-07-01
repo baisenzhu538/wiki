@@ -1,30 +1,30 @@
 ---
 id: task_20260701_wangyuyan-time-management-domain-orchestration
-title: "王语嫣任务编排：时间管理域卡片化与升级"
+title: 王语嫣任务编排：时间管理域卡片化与升级
 type: task
-status: queued
+status: in_progress
 priority: P2
-assignee: 老顽童(Kimi)
+assignee: kimi
 collaborators:
-  - 王语嫣（域诊断 + 编排）
-  - 欧阳锋（终审）
-  - 洪七公（OCR + VLM 预处理已完成）
+- 王语嫣（域诊断 + 编排）
+- 欧阳锋（终审）
+- 洪七公（OCR + VLM 预处理已完成）
 created_at: 2026-07-01
-updated_at: 2026-07-01
+updated_at: '2026-07-01T16:08:07.546011+00:00'
 reviewer: 欧阳锋
 dependencies:
-  - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 source_refs:
-  - 60_feedback/diagnosis/diag_20260701_time-management-validation.md
-  - 00_inbox/时间管理/truman-时间管理课程-口述.txt
-  - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
-  - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
-  - 00_inbox/时间管理/_processed/vlm_summary.json
-  - 30_wiki/concepts/yt-personal-time-management.md
+- 60_feedback/diagnosis/diag_20260701_time-management-validation.md
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt
+- 00_inbox/时间管理/truman-时间管理课程-笔记.txt
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+- 00_inbox/时间管理/_processed/vlm_summary.json
+- 30_wiki/concepts/yt-personal-time-management.md
 related:
-  - [[yt-personal-time-management]]
-  - [[case-ai-time-management-tiered-growth]]
-  - [[yitang-domain-digest]]
+- - - yt-personal-time-management
+- - - case-ai-time-management-tiered-growth
+- - - yitang-domain-digest
 ---
 
 # 王语嫣任务编排：时间管理域卡片化与升级
