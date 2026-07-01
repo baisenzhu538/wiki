@@ -1,11 +1,11 @@
 ---
 id: task_20260629_kimi-lint-content-debt-by-domain
 type: task
-status: in_progress
+status: paused
 assignee: kimi
 priority: P2
 created_at: 2026-06-29
-updated_at: '2026-06-30T18:14:56.454984+00:00'
+updated_at: '2026-07-01T00:00:00+00:00'
 reviewer: 欧阳锋
 reviewed_by: pending
 source_refs:
@@ -279,3 +279,47 @@ source_refs:
 
 - 继续处理 yitang domain 剩余 tool 卡（预计还有 280+ 个待处理）
 - 或按用户指示处理其他未损坏 domain
+
+## 暂停安排（2026-07-01）
+
+经欧阳锋审查并与用户确认，#28 任务体量过大（剩余 14+ domain、约 2500+ WARNING、280+ yitang tool 卡），作为**长线周期性清理任务**统一由王语嫣安排，不再由当前 Kimi 实例连续冲刺。
+
+### 当前 checkpoint
+
+- `kdo lint` 全量基线：0 ERROR / 约 2656 WARNING（以实际最新 `--summary` 为准）
+- 已真实清零的 domain：
+  - **strategy**：真实内容问题 53 → 0，剩余 148 个 WARNING 全为 `index/lint bare wikilink` 机制误报
+- 已部分清理的 domain：
+  - **yitang**：已处理 20 个 tool 卡，WARNING 从 1972 降至 1907（↓65）
+- 暂时无法处理的 domain：
+  - **design**：文件编码损坏，utf-8/gbk 均无法正确解码，需先诊断
+
+### 暂停原因
+
+1. **任务本身的长期性**：按当前速度（20 文件/批 → 65 WARNING）估算，仅 yitang 280+ tool 卡就需要 14 批以上，全库 14+ domain 需要数月周期，不适合作为单次会议冲刺目标。
+2. **基础设施阻塞未解**：
+   - `index/lint bare wikilink` 机制误报导致 strategy 等 domain 无法真实"清零"，需黄药师修复 KDO 代码
+   - design domain 编码损坏，需先诊断再决定清理策略
+3. **需要统一编排**：由王语嫣将 #28 拆分为周期性小批次（如每周 1 个 domain 或每批 10-20 张卡），并协调基建任务插队。
+
+### 两个配套基建任务
+
+已拆分为独立任务编排建议书，等待王语嫣 review 后入队：
+
+1. **KDO index/lint wikilink 格式对齐任务**：`60_feedback/tasks/task_20260701_kdo-index-lint-wikilink-format-alignment.md`
+2. **design domain 编码损坏诊断任务**：`60_feedback/tasks/task_20260701_design-domain-encoding-diagnosis.md`
+
+### 恢复条件
+
+- 王语嫣将 #28 重新拆分为可管理的子批次并入队
+- 黄药师修复 `index/lint` 机制误报后，strategy 等 domain 可重新验证清零
+- design domain 编码诊断完成并给出安全处理方案后，可加入清理列表
+
+### 状态
+
+- 任务单：`status: paused`
+- 生产队列：建议由王语嫣更新为 `queued` 并标注"待拆分为周期性批次"
+
+---
+
+*暂停确认：欧阳锋 · 2026-07-01*
