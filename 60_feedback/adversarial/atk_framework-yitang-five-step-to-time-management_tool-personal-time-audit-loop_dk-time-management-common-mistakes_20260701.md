@@ -12,6 +12,7 @@ target_cards:
   - dk-time-management-common-mistakes
 attacker: KDO Self-Attack Agent (手动四路)
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 
 ---
 
