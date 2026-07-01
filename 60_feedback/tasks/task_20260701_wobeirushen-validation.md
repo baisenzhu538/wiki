@@ -2,7 +2,7 @@
 id: task_20260701_wobeirushen-validation
 title: "《吾辈如神》KDO 入库验证：6层交叉验证 + 9层深挖 + 全网调研"
 type: validation
-status: claimed-system
+status: reviewed
 assignee: 系统治理Agent
 priority: P1
 created_at: 2026-07-01
