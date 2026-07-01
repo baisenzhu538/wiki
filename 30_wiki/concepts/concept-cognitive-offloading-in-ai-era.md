@@ -9,7 +9,7 @@ confidence: 0.78
 difficulty: "intermediate"
 language: "zh-CN"
 created_at: "2026-07-01T00:00:00+00:00"
-updated_at: "2026-07-01T00:00:00+00:00"
+updated_at: 2026-07-02
 author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: "medium"
@@ -43,10 +43,12 @@ related:
   - "[[learning-thinking]]"
   - "[[framework-yitang-nine-layer-deep-dig]]"
   - "[[framework-kdo-self-attack]]"
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[dk-ai-design-pitfalls]]"
 pipeline:
   - "confidence-draft"
 ---
-
 # AI 时代的认知卸载：什么交给 AI，什么必须保留
 
 > **Burn line**: 认知卸载是把双刃剑：合理卸载释放注意力，过度卸载导致能力退化。AI 时代需要「杠铃策略」——高 AI 区效率优先，低 AI 区刻意保留人类认知肌肉。

@@ -1,5 +1,4 @@
 ---
-
 id: concept-AI时代双三角竞争力
 title: AI时代的双三角竞争力：人+AI协作决策
 type: concept
@@ -20,10 +19,11 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
 review_date: '2026-06-29'
-updated_at: '2026-06-29'
+updated_at: 2026-07-02
 ---
-
 # AI时代的双三角竞争力
 
 ## 一句话定义

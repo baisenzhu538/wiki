@@ -20,7 +20,7 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09T14:38:36+00:00'
-updated_at: '2026-06-16'
+updated_at: 2026-07-02
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
@@ -31,6 +31,9 @@ related:
 - "[[tool-主动摘要压缩上下文]]"
 - "[[tool-提示词结构化迭代]]"
 - "[[tool-渐进式披露上下文]]"
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[dk-ai-design-pitfalls]]"
 ---
 # 技能：多模型对比抽卡
 

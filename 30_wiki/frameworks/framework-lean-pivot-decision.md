@@ -30,7 +30,9 @@ related:
 - '[[strategy-domain-digest]]'
 - '[[lean-startup-domain-digest]]'
 - '[[yitang-domain-digest]]'
-updated_at: '2026-06-30'
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+updated_at: 2026-07-02
 ---
 # 精益验证结果如何触发战略/产品 pivot
 

@@ -17,6 +17,9 @@ related:
 - "[[ai-landing-scene-selection]]"
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[dk-ai-design-pitfalls]]"
 query_triggers:
 - src_unknown
 - src_unknown
@@ -28,7 +31,7 @@ pipeline:
 - src_unknown
 author: 老顽童
 created_at: '2026-06-15'
-updated_at: '2026-06-17'
+updated_at: 2026-07-02
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
@@ -41,7 +44,6 @@ diagnostic_signals:
 - lens: 执行者循环
   follow_up: 检查是否在做管理者动作：派活、验收、纠偏，而非只复制粘贴
 ---
-
 # AI协作思维转变：从"新手"到"管理者"
 
 > Source: src_20260606_42e11f09 (纪浩-AI协作方法论-口述)

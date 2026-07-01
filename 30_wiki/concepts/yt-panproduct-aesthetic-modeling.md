@@ -28,6 +28,10 @@ related:
 - "[[yt-panproduct-aesthetic-imagination]]"
 - "[[yt-model-prediction-model]]"
 - "[[yt-model-aesthetic-progression]]"
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[tool-scene-design-language-translation]]"
+  - "[[dk-ai-design-pitfalls]]"
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_89529426-ocr-泛产品设计-审美卡片-最佳实践建模.md
@@ -50,11 +54,10 @@ diagnostic_signals:
   follow_up_question: 两个得分相近的案例，在设计取舍上有什么不同？
 - framework_lens: 评价模型应具备生成性
   follow_up_question: 用模型评估一个你还没做的方案，它暴露的最大风险点是什么？
-updated_at: '2026-06-16'
+updated_at: 2026-07-02
 author: 老顽童
 trust_level: medium
 ---
-
 # 最佳实践建模：用评价维度打磨产品
 
 > 审美工具箱第 3 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-pool]] | [[一堂]]

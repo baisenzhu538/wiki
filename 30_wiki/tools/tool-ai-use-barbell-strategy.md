@@ -9,7 +9,7 @@ confidence: 0.82
 difficulty: "intermediate"
 language: "zh-CN"
 created_at: "2026-07-01T00:00:00+00:00"
-updated_at: "2026-07-01T00:00:00+00:00"
+updated_at: 2026-07-02
 author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: "medium"
@@ -39,10 +39,12 @@ related:
   - "[[framework-ai-deliberate-practice-loop]]"
   - "[[master-antifragile-checklist]]"
   - "[[framework-yitang-nine-layer-deep-dig]]"
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[dk-ai-design-pitfalls]]"
 pipeline:
   - "confidence-draft"
 ---
-
 # AI 使用杠铃策略：把任务分成高 AI 区和无 AI 区
 
 > **Burn line**: 不要待在 50% AI 的灰色地带。把任务明确分成「高 AI 区」和「无 AI 区」，效率与认知肌肉兼得。

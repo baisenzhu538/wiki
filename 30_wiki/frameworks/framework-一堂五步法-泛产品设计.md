@@ -1,5 +1,4 @@
 ---
-
 id: framework-一堂五步法-泛产品设计
 title: 一堂五步法在泛产品设计中的应用
 type: framework
@@ -14,7 +13,7 @@ quality_labels:
   - principle
   - quality
   - validated
-updated_at: '2026-06-28'
+updated_at: 2026-07-02
 confidence: 0.82
 trust_level: medium-high
 language: zh-CN
@@ -37,9 +36,10 @@ related:
 - "[[framework-ai-accelerated-strategy-cycle]]"
 - "[[framework-yitang-five-step-to-time-management]]"
 
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[tool-scene-design-language-translation]]"
 ---
-
-
 # 一堂五步法在泛产品设计中的应用
 
 ## 一句话

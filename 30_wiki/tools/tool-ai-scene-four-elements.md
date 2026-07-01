@@ -1,5 +1,4 @@
 ---
-
 id: tool-ai-scene-four-elements
 title: 技能：AI落地场景四要素评估法
 type: tool
@@ -25,9 +24,11 @@ tools_required:
 - src_unknown
 prerequisite_skills:
 - src_unknown
-related: null
+related:
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-scene-design-language-translation]]"
 created_at: 2026-06-11
-updated_at: '2026-06-16'
+updated_at: 2026-07-02
 tags: []
 pipeline:
   - src_unknown

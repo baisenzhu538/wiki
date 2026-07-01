@@ -1,5 +1,4 @@
 ---
-
 id: tool-最佳实践池子
 title: 最佳实践池子：建立你的最佳实践知识库
 type: tool
@@ -20,9 +19,11 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
-updated_at: '2026-06-29'
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[dk-ai-design-pitfalls]]"
+updated_at: 2026-07-02
 ---
-
 # 最佳实践池子：建立你的最佳实践知识库
 
 ## 一句话定义

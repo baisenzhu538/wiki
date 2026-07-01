@@ -13,10 +13,12 @@ source_refs:
   - 00_inbox/一堂-产品内核迭代课-Truman-笔记.txt
   - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 created_at: '2026-06-08'
-updated_at: '2026-06-29'
+updated_at: 2026-07-02
 related:
   - "[[yt-product-kernel-cultivation]]"
   - "[[concept-一堂-kernel-validation]]"
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -44,7 +46,6 @@ diagnostic_signals:
 - lens: 指标游戏
   follow_up: 内核画布需配备长期价值指标（续费率/复购率/口碑），不单看转化率
 ---
-
 # 一堂产品内核画布应用技能
 
 ## 原始表述

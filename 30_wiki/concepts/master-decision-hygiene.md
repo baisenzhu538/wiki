@@ -11,7 +11,7 @@ source_refs:
 - pending_archive:src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
 - pending_archive:src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 created_at: 2026-05-18
-updated_at: '2026-06-28'
+updated_at: 2026-07-02
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
@@ -26,9 +26,10 @@ related:
 - "[[master-knowledge-compound]]"
 - "[[framework-yitang-five-step-to-time-management]]"
 
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[dk-ai-design-pitfalls]]"
 ---
-
-
 # 决策卫生五步法
 
 > **核心定位**：团队对同一问题需要做出独立判断时，用五个步骤减少判断噪声（noise），不是消除偏差（bias），是让"不同的人对同一问题做出更一致的判断"。**使用顺序**：位于认知偏差自检（#1）之后、团队拍板之前。

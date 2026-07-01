@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-nine-layer-deep-dig
 title: 九层深挖法：商业分析的自我纠错式迭代框架
 type: framework
@@ -8,7 +7,7 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: 2026-06-21
+updated_at: 2026-07-02
 confidence: 0.92
 trust_level: high
 language: zh-CN
@@ -35,8 +34,9 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
 ---
-
 # 九层深挖法：商业分析的自我纠错式迭代框架
 
 > **实战验证**：药柜案例分析中，通过九层迭代从单点财务模型逐步补全到政策边界、失败模式、隐性成本、招商骗局、诊所协同风险，最终形成可用决策框架。

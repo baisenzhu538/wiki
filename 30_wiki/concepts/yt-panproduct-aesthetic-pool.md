@@ -27,6 +27,10 @@ related:
 - "[[一堂]]"
 - "[[yt-panproduct-aesthetic-modeling]]"
 - "[[yt-model-aesthetic-progression]]"
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[tool-scene-design-language-translation]]"
+  - "[[dk-ai-design-pitfalls]]"
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子.md
@@ -48,11 +52,10 @@ diagnostic_signals:
   follow_up_question: 当你卡在'信息层级'问题时，能否只过滤出相关案例？
 - framework_lens: 池子的价值在于持续打磨
   follow_up_question: 上一次方案评审中，池子里的哪个案例直接促成了设计改动？
-updated_at: '2026-06-16'
+updated_at: 2026-07-02
 author: 老顽童
 trust_level: medium
 ---
-
 # 最佳实践池子：用一堆最佳实践打磨产品
 
 > 审美工具箱第 2 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-collection]] | [[一堂]]

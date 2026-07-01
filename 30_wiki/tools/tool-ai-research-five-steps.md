@@ -1,5 +1,4 @@
 ---
-
 id: tool-ai-research-five-steps
 title: 技能：AI调研五步法
 type: tool
@@ -25,9 +24,11 @@ tools_required:
 - src_unknown
 - src_unknown
 prerequisite_skills: null
-related: null
+related:
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
 created_at: 2026-06-11
-updated_at: '2026-06-16'
+updated_at: 2026-07-02
 tags: []
 pipeline:
   - src_unknown

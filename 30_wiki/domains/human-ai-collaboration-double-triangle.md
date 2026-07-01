@@ -1,5 +1,4 @@
 ---
-
 id: human-ai-collaboration-double-triangle
 title: 域摘要：人机协作范式——双三角模型域
 type: index
@@ -18,7 +17,7 @@ source_refs:
 - src_unknown
 - src_unknown
 created_at: '2026-06-19'
-updated_at: '2026-06-20'
+updated_at: 2026-07-02
 author: 王语嫣
 reviewed_by: pending
 related:
@@ -42,6 +41,9 @@ related:
   - "[[dk-wanghuan-agent-platform-director-mode]]"
   - "[[dk-wanghuan-tacit-decision-extraction-cross-domain]]"
   - "[[concept-wanghuan-tacit-knowledge-examples]]"
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[dk-ai-design-pitfalls]]"
 tags:
 - src_unknown
 - src_unknown

@@ -16,7 +16,7 @@ definition_of_done:
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
-updated_at: '2026-06-16'
+updated_at: 2026-07-02
 pipeline:
 - src_unknown
 author: 月白
@@ -29,6 +29,9 @@ related:
 - "[[tool-月白-PPT全AI生成工作流]]"
 - "[[tool-月白-精准提示词消除模型幻觉]]"
 - "[[tool-月白-AI设计严苛批评法]]"
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[dk-ai-design-pitfalls]]"
 ---
 # 技能：AI模型选择策略
 
