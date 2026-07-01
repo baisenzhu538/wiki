@@ -2,30 +2,30 @@
 id: task_20260702_laowantong-vikki-daxin-dark-knowledge-pilot-production
 title: 暗知识补挖试点生产：Vikki + 大馨战队（11-13 个文件变更）
 type: task
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童(Kimi)
+assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: '2026-07-01T17:11:57.461297+00:00'
 expected_cards: 4
 source_refs:
-  - 60_feedback/diagnosis/diag_20260702_vikki-daxin-dark-knowledge-extraction.md
-  - 60_feedback/tasks/task_20260702_huangyaoshi-proposal-dark-knowledge-pilot.md
-  - 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md
-  - 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
+- 60_feedback/diagnosis/diag_20260702_vikki-daxin-dark-knowledge-extraction.md
+- 60_feedback/tasks/task_20260702_huangyaoshi-proposal-dark-knowledge-pilot.md
+- 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md
+- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 related:
-  - framework-community-knowledge-production-failure-modes
-  - framework-brand-three-degree
-  - concept-open-source-knowledge-usage-boundary
-  - case-daxin-team-content-training-camp
-  - tool-shortvideo-six-dimension-deconstruction
-  - tool-ai-skill-engineering-method
-  - yt-personal-deliberate-practice
-  - dk-content-muscle-memory-vs-knowledge
-  - dk-founding-ip-trust-over-traffic
-  - dk-content-implicit-value-without-price
-  - dk-community-lecturer-vs-crowd-model
+- framework-community-knowledge-production-failure-modes
+- framework-brand-three-degree
+- concept-open-source-knowledge-usage-boundary
+- case-daxin-team-content-training-camp
+- tool-shortvideo-six-dimension-deconstruction
+- tool-ai-skill-engineering-method
+- yt-personal-deliberate-practice
+- dk-content-muscle-memory-vs-knowledge
+- dk-founding-ip-trust-over-traffic
+- dk-content-implicit-value-without-price
+- dk-community-lecturer-vs-crowd-model
 ---
 
 # 暗知识补挖试点生产：Vikki + 大馨战队
