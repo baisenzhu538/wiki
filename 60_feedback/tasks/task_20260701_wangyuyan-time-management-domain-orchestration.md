@@ -15,6 +15,7 @@ reviewer: 欧阳锋
 dependencies:
   - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 source_refs:
+  - 60_feedback/diagnosis/diag_20260701_time-management-validation.md
   - 00_inbox/时间管理/truman-时间管理课程-口述.txt
   - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
   - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
@@ -33,14 +34,18 @@ related:
 
 ---
 
-## 一、素材评估
+## 一、素材评估（基于 6 层交叉验证 + 9 层深挖）
+
+完整诊断报告见：`60_feedback/diagnosis/diag_20260701_time-management-validation.md`
 
 | 维度 | 判断 | 说明 |
 |:---|:---|:---|
-| 来源 | 一堂内部课程（Truman） | 与现有 `yt-personal-time-management` 同源，属于 yitang 方法论体系 |
-| 质量 | 中-高 | 口述 + 笔记 + 5 张图解 + VLM 整合，结构清晰 |
+| 来源 | 一堂内部课程（Truman） | 与现有 `yt-personal-time-management` 同源，属于 yitang 方法论体系；来源评级 **A-** |
+| 质量 | 中-高 | 口述 + 笔记 + 5 张图解 + VLM 整合，结构清晰；核心逻辑自洽 |
+| 数据可信度 | B/C | "5-10 倍效率跃迁""500% 差异"等为课程主张/个人估计，非实验数据，卡片中需降级为观点 |
 | KDO 域匹配 | 高 | `personal-growth` / `yitang`；与学习方法论、AI 协作、决策域可桥接 |
-| 与现有卡重叠 | 中高 | `yt-personal-time-management.md` 已存在，但内容薄、大量 src_unknown 占位 |
+| 与现有卡重叠 | 中高 | `yt-personal-time-management.md` 已存在，但覆盖不完整、大量 src_unknown 占位；新素材可显著升级 |
+| 综合评级 | **A- / B+** | 高价值，值得纳入，但需批判性呈现 |
 | 可产出卡数 | 3-5 张 | 建议先做 1 张升级 + 2 张新建，共 3 张；后续视终审结果扩量 |
 
 ---

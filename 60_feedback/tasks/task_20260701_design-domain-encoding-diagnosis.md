@@ -1,16 +1,18 @@
 ---
 id: task_20260701_design-domain-encoding-diagnosis
 type: task
-status: pending_review
+status: reviewed
 assignee: kimi
 priority: P1
 created_at: 2026-07-01
-updated_at: '2026-07-01T13:31:04.049106+00:00'
+updated_at: '2026-07-01T13:43:36.007038+00:00'
 reviewer: 欧阳锋
 source_refs:
 - 60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
 related:
 - task_20260629_kimi-lint-content-debt-by-domain
+reviewed_by: 欧阳锋
+review_date: '2026-07-01'
 ---
 
 # design domain 编码损坏诊断任务编排建议书
