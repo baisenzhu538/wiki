@@ -91,12 +91,13 @@ updated: 2026-06-27
 
 ### 2.1 诊断前强制检查点
 
-**在下任何诊断结论之前，四步缺一不可：**
+**在下任何诊断结论之前，五步缺一不可：**
 
 1. **全量素材目录**：列出素材文件夹里每一份文件的覆盖范围，确认没有遗漏层。
 2. **叙事段落扫描**：扫描 ≥200 字连续叙事段落，完整度 ≥4 → `case` 候选；含操作心法/失败模式/判断口诀 → `dk` 候选。
 3. **路由查表 + WebSearch**：核心框架业界有没有成熟对应物？查下方路由表，Read 对应 Skill。
-4. **自攻击诊断逻辑**：调用 `Read 30_wiki/frameworks/framework-kdo-self-attack.md` 和 `40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`，四路攻击后交付。
+4. **跨课程同构映射（关键步骤）**：**任何一堂内部课程/素材，第一步不是"能拆几张卡"，而是"它跟已有的一堂方法论（五步法、IPO、单元模型、决策卫生、刻意练习、需求冰山等）以及 KDO 现有卡是什么关系"**。必须输出一张同构映射表：时间管理概念 → 一堂方法论来源 → 对应 KDO 卡 → 是否真缺口。没有这张表，不得进入卡片规划。
+5. **自攻击诊断逻辑**：调用 `Read 30_wiki/frameworks/framework-kdo-self-attack.md` 和 `40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`，四路攻击后交付。
 
 ### 2.2 方法论语境（按需 Read）
 
@@ -131,7 +132,7 @@ updated: 2026-06-27
 
 ```
 用户提出需求 / 新素材 / 方向讨论
-  → 王语嫣诊断（九层深挖 / 跨域扫描 / 自攻击）
+  → 王语嫣诊断（九层深挖 / 跨课程同构映射 / 跨域扫描 / 自攻击）
     → 写诊断报告（60_feedback/diagnosis/）
       → 写生产任务（60_feedback/tasks/ 或 70_product/tasks/）
         → 入 production-queue.md
