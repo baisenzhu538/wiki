@@ -940,6 +940,7 @@ _Last updated: 2026-07-01T15:20:36+00:00_
 - [[dk/dk-strategy-correlation-vs-causation-leverage|相关指标 vs 因果抓手]] — source `60_feedback/audit/synthesis_strategy.md`
 - [[dk/dk-strategy-organization-strategy-mismatch|组织能力与战略方向不匹配]] — source `60_feedback/audit/synthesis_strategy.md`
 - [[dk/dk-strategy-stage-leverage-mismatch|战略阶段与杠杆错配]] — source `60_feedback/audit/synthesis_strategy.md`
+- [[dk/dk-time-management-common-mistakes|时间管理三大反模式：工具迷信、二极管思维、边界模糊]] — source `00_inbox/时间管理/truman-时间管理课程-口述.txt`
 - [[dk/dk-yitang-ai-research-prompt-craft|AI调研效果取决于问题拆解和人工判断——不是提示词技巧]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
 - [[dk/dk-yitang-behavior-over-asking|调研中行为证据重于口头证据]] — source `60_feedback/audit/synthesis_yitang.md`
 - [[dk/dk-yitang-business-model-risk-over-product-risk|商业模式风险高于产品风险：别在模式没跑通前做完美产品]] — source `60_feedback/audit/synthesis_yitang.md`
@@ -1063,6 +1064,7 @@ _Last updated: 2026-07-01T15:20:36+00:00_
 - [[frameworks/framework-yitang-channel-unit-economics|渠道单元经济模型：把每个获客渠道当作独立经济单元核算]] — source `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`
 - [[frameworks/framework-yitang-deliberate-practice-1plus4|刻意练习 1+4 模型：科学成长的操作系统]] — source `00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt`
 - [[frameworks/framework-yitang-expert-interview-10steps|专家访谈黄金十步法：从盲区梳理到专家匹配]] — source `00_inbox/调研专题/一堂-专家访谈调研-口述.txt`
+- [[frameworks/framework-yitang-five-step-to-time-management|一堂五步法在时间管理中的应用：自管理场景的完整实例化]] — source `00_inbox/时间管理/truman-时间管理课程-口述.txt`
 - [[frameworks/framework-yitang-four-research-types|四类调研模型：挖掘式·系统式·爆炸式·自动式]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
 - [[frameworks/framework-yitang-growth-flywheel|增长飞轮：把单点增长变成自我强化的增强回路]] — source `00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt`
 - [[frameworks/framework-yitang-high-level-execution|高水平执行 AR：获取情报·正确归因]] — source `00_inbox/调研专题/系统调研（高水平执行）_vlm_desc.md`
@@ -1577,6 +1579,7 @@ _Last updated: 2026-07-01T15:20:36+00:00_
 - [[tools/tool-Truman-问题定义澄清法|技能：问题定义澄清法]] — source `src_unknown`
 - [[tools/tool-wanghuan-ai-business-profile|王欢AI业务档案5字段工具]] — source `src_unknown`
 - [[tools/tool-wanghuan-ai-dual-role-coach|王欢：AI 双角色教练对练工具]] — source `src_unknown`
+- [[tools/tool-personal-time-audit-loop|个人时间审计与实验循环]] — source `00_inbox/时间管理/truman-时间管理课程-口述.txt`
 - [[tools/tool-yitang-18-strategy-tool-mapping|降龙十八掌→工具映射表：每掌对应的执行工具和 Skill]] — source `30_wiki/frameworks/framework-yitang-18-strategy-cards.md`
 - [[tools/tool-yitang-ai-assisted-analysis|AI辅助分析：用AI做数据分析和模式识别]] — source `pending_archive:src_unknown`
 - [[tools/tool-yitang-ai-assisted-organize|AI辅助整理：把访谈录音/会议记录结构化]] — source `00_inbox/调研专题/调研超级武器库_ocr_text.md`
