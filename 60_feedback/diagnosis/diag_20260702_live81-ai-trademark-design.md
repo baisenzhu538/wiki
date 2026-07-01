@@ -280,7 +280,7 @@ related:
 5. **Result**：产出可提交申请的 MS 图形 logo；团队建立审美共识；形成可复用工作流。
 6. **Lessons**：60 分逻辑、调研是尺子、模型选择是决策、体系对抗体系。
 7. **Failure Modes**：直接生成、抽象许愿、硬磨错误模型、跳过调研、追求完美。
-8. **Synthesis**：桥接 `framework-一堂五步法-泛产品设计`、`human-ai-collaboration-double-triangle`、`dk-yitang-research-best-practice-first`、`master-decision-hygiene`、`concept-cognitive-offloading-in-ai-era`。
+8. **Synthesis**：桥接 `framework-一堂五步法-泛产品设计`、`human-ai-collaboration-double-triangle`、`dk-yitang-research-best-practice-first`、`master-decision-hygiene`、`concept-cognitive-offloading-in-ai-era`、`framework-lean-pivot-decision`、`tool-纪浩-项目启动五问法`、`tool-一堂-product-kernel-canvas`、`yt-panproduct-aesthetic-pool`、`yt-panproduct-aesthetic-modeling`、`tool-月白-AI模型选择策略`、`tool-多模型对比抽卡`。
 9. **Related**：≥5 条。
 
 ### Card 2: `tool-ai-deliverable-polish-loop`
@@ -355,7 +355,7 @@ related:
    - 外部反对者 1：设计师「这些方法会让设计同质化」。
    - 外部反对者 2：AI 激进派「这些方法限制了 AI 发挥」。
    - 内部局限：基于单次商标项目，部分口诀需更多案例验证。
-9. **Synthesis**：桥接 `case-live81-ai-trademark-design`、`tool-ai-deliverable-polish-loop`、`concept-cognitive-offloading-in-ai-era`、`tool-ai-use-barbell-strategy`、`master-decision-hygiene`。
+9. **Synthesis**：桥接 `case-live81-ai-trademark-design`、`tool-ai-deliverable-polish-loop`、`concept-cognitive-offloading-in-ai-era`、`tool-ai-use-barbell-strategy`、`master-decision-hygiene`、`yt-panproduct-aesthetic-pool`、`yt-panproduct-aesthetic-modeling`、`tool-月白-AI模型选择策略`、`tool-多模型对比抽卡`。
 10. **Related**：≥5 条。
 
 ### Card 4: `tool-scene-design-language-translation`
@@ -406,18 +406,18 @@ related:
 
 ## 十四、最终判断
 
-**评级：A（高价值，强跨域桥接价值，内容密度足够支撑 8 张卡）**
+**评级：A（高价值，强跨域桥接价值）**
 
 - 来源可靠：一堂 AI 俱乐部 live，分享人真实落地项目。
-- 主题契合：填补了 KDO 在「AI 交付物打磨」「业务思维指挥 AI」「设计域案例」「AI 协作上下文资产」「开放创意任务模型选择」五个缺口。
-- 可操作性极强：可直接产出 1 case + 3 tool + 4 dk。
-- 必须注意：不重复建设已有泛产品设计/双三角框架，而是做**实例化、工具化和暗知识化**。
+- 主题契合：填补了 KDO 在「AI 交付物打磨真实案例」「业务思维指挥 AI 工作流」「场景→设计语言转译工具」「AI 设计反模式」四个缺口。
+- 不重复建设：60 分起盘、模型选择、一页纸上下文、黑盒/白盒/池子审美判断等概念已有 KDO 卡覆盖，本次通过 related 引用而非新建。
+- 可操作性极强：可直接产出 1 case + 2 tool + 1 dk。
 
 **建议入队编号**：`#43`  
 **优先级**：P1-P2（设计域重要补充，但可排在 #42 暗知识试点之后）  
 **Assignee**：老顽童(Kimi)  
 **Reviewer**：欧阳锋  
-**预计卡数**：8 张（1 case + 3 tool + 4 dk）+ 13 张已有卡 related 更新
+**预计卡数**：4 张（1 case + 2 tool + 1 dk）+ 13 张已有卡 related 更新
 
 ---
 
