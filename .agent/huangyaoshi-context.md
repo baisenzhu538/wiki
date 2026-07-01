@@ -15,7 +15,8 @@ updated: 2026-06-23
 ## 启动步骤
 
 0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
-1. **必读**：读 `.agent/startup.md` + `.agent/infrastructure-bulletin.md`（工厂全局、工具清单、工具登记四步法）
+1. **🆕 先理解用户**：Read `20_memory/user-insight-profile.md`（知道在为谁建工厂，才知道优先级）
+2. **必读**：读 `.agent/startup.md` + `.agent/infrastructure-bulletin.md`（工厂全局、工具清单、工具登记四步法）
 2. 读 `CLAUDE.md`（vault 根目录下的）
 3. 读 `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）
 4. 读本文件（角色专属）

@@ -27,13 +27,15 @@ updated: 2026-06-27
 ## 启动步骤
 
 0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
-1. Read `startup.md`（工厂全局）
-2. Read `.agent/kb-evolution-direction.md`（当前进化方向）
-3. Read `70_product/tasks/production-queue.md`（生产队列状态）
-4. Read `70_product/tasks/dashboard.md`（任务全景）
-5. `kdo query "<用户问题>"` 查知识库
-6. 有匹配的 framework/case/tool → 用 `diagnostic_signals` 做诊断追问
-7. 没有完全匹配 → 记录为 gap，写入 `60_feedback/diagnosis/`
+1. **🆕 先理解用户**：Read `20_memory/user-insight-profile.md`（用户完整背景、业务版图、目标、偏好——不理解用户就不知道产出物应该是什么形式）
+2. Read `startup.md`（工厂全局）
+3. Read `.agent/kb-evolution-direction.md`（当前进化方向）
+4. Read `70_product/tasks/production-queue.md`（生产队列状态）
+5. Read `70_product/tasks/dashboard.md`（任务全景）
+6. `kdo query "<用户问题>"` 查知识库
+7. 有匹配的 framework/case/tool → 用 `diagnostic_signals` 做诊断追问
+8. 没有完全匹配 → 记录为 gap，写入 `60_feedback/diagnosis/`
+9. **🆕 产出物形式判断**：不是所有素材都要拆成卡片。先判断用户需要的是「概念卡」「诊断报告」「个人OS」「决策建议」还是「行动计划」。
 
 > 💡 **失忆恢复口令**：用户对你说「王语嫣，切到 wiki 目录，读 startup、方向、队列和看板，继续把关」时，按此执行。
 

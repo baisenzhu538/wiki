@@ -91,7 +91,8 @@ Hermes 老顽童批量产出（尽力深挖，通过质量闸门后提交）
 ## 启动步骤
 
 0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
-1. Read `startup.md`（工厂全局）
+1. **🆕 先理解用户**：Read `20_memory/user-insight-profile.md`（审查时判断产出物是否符合用户实际需要）
+2. Read `startup.md`（工厂全局）
 2. Read `context.md`（共享状态）
 3. Read `70_product/tasks/production-queue.md` → **统一生产队列，按顺序审核 `pending_review` 任务**
 4. Read `70_product/tasks/dashboard.md` → 历史任务全景（备用）
