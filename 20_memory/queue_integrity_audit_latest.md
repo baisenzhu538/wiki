@@ -1,8 +1,8 @@
 # 队列完整性审计报告
 
 - 审计范围: `C:\Users\Administrator\Desktop\wiki\60_feedback\tasks`
-- reviewed 任务单总数: 28
-- 任务单元数据异常数: 27
+- reviewed 任务单总数: 29
+- 任务单元数据异常数: 29
 - 队列/任务单状态不一致数: 0
 
 ## 任务单元数据异常列表（缺 review_date / reviewer / review 文件）
@@ -33,5 +33,7 @@
 - `task_20260629_laowantong-expand-ai-learning-concept-cards`: reviewed 但无对应 review/audit 文件且无 review_date
 - `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge`: reviewed 但缺少 review_date
 - `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge`: reviewed 但无对应 review/audit 文件且无 review_date
+- `task_20260701_wobeirushen-validation`: reviewed 但缺少 review_date
+- `task_20260701_wobeirushen-validation`: reviewed 但无对应 review/audit 文件且无 review_date
 
 队列与任务单状态一致（双向检查均无异常）。

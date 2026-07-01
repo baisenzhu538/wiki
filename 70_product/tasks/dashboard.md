@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-29
+updated: 2026-07-01
 ---
 
 > ⚠️ **2026-06-27 重要更新**：老顽童生产任务已统一进入 `70_product/tasks/production-queue.md`，按队列顺序领取和审核。本 dashboard 仍保留历史任务全景，但**当前待生产/待审核任务请以 production-queue.md 为准**。
@@ -77,14 +77,15 @@ Generated: 2026-06-26T21:00:00+00:00
 
 ## Summary
 
-- **Total**: 37
+- **Total**: 38
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 6（详见 `production-queue.md`）
+- **Queued**: 7（详见 `production-queue.md`）
 - **Pending**: 2（含 Hermes lint Batch 1 待欧阳锋抽检）
 - **Review Done**: 13 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3, dark-knowledges-batch8, huangyaoshi-codex-lessons-review, master-7-cards)
 
 > 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；✅ Batch 2-A/B/C 全部 reviewed：A 130 case + B 57 dk + C 90 source_refs 文件已完成，`kdo lint` 机械性 ERROR 清零；下一阶段正式进入补链阶段（Wave 6 诊断 + B1/B2/B3）。
+> **🆕 新增 #38**：《吾辈如神》素材经独立验证为 B 级，王语嫣域诊断后入队 1 张试点卡，不批量生产；重点纠偏 BMW 85%、AGI 2029、AI 无法创造等数据/观点误读。
 
 ---
 
