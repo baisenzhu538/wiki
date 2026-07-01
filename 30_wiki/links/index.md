@@ -1006,10 +1006,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-novel-app-flywheel]]
 - [[cases/case-yitang-topcity-growth-flywheel]]
 - [[frameworks/framework-yitang-growth-flywheel]]
+- [[tools/tool-yitang-amazon-bestseller]]
 - [[tools/tool-yitang-growth-flywheel-design]]
 
 ## [[case-yitang-competitor-pricing-intelligence]]
 - [[dk/dk-research-identity-craft-for-closed-information]]
+- [[tools/tool-yitang-bp-analysis]]
 
 ## [[case-yitang-consumer-offline-channel-decision]]
 - [[dk/dk-yitang-behavior-over-asking]]
@@ -1028,6 +1030,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-yitang-fake-interview-intelligence]]
 - [[dk/dk-research-identity-craft-for-closed-information]]
+- [[tools/tool-yitang-anonymous-roundtable]]
 
 ## [[case-yitang-goat-milk-channel-partnership]]
 - [[concepts/concept-open-source-knowledge-usage-boundary]]
@@ -1055,6 +1058,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-yitang-luckin-field-research]]
 - [[dark-knowledges/dk-yb2-llm-muddy-clear-muddy]]
 - [[dk/dk-research-triangulation-stop-rule]]
+- [[tools/tool-yitang-baidu-index]]
+- [[tools/tool-yitang-business-registration-check]]
 
 ## [[case-yitang-maiyi-cloud-computer-channel]]
 - [[cases/case-yitang-shuzu-channel-scan-test]]
@@ -1110,6 +1115,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-expert-interview-10steps]]
 - [[frameworks/framework-yitang-iterative-recursive-digging]]
 - [[frameworks/framework-yitang-six-layer-cross-validation]]
+- [[tools/tool-yitang-app-store-review]]
 - [[tools/tool-yitang-research-best-practice]]
 - [[tools/tool-yitang-research-company-disassembly]]
 - [[tools/tool-yitang-research-competitive-quadrant]]
@@ -1128,6 +1134,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-maiyi-cloud-computer-channel]]
 - [[cases/case-yitang-xujian-invoice-saas-channel]]
 - [[dark-knowledges/dk-yitang-channel-exploration-traps]]
+- [[tools/tool-yitang-channel-scan-cheat-sheet]]
 - [[tools/tool-yitang-channel-scoring-matrix]]
 
 ## [[case-yitang-ski-project-user-as-expert]]
@@ -1738,6 +1745,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/concept-ai-native-organization-five-steps]]
 - [[concepts/kimi-深度调研集群方法论-deep-research-swarm]]
 
+## [[concept-yitang-ai-research-human-loop]]
+- [[tools/tool-yitang-ai-assisted-analysis]]
+- [[tools/tool-yitang-ai-assisted-organize]]
+- [[tools/tool-yitang-ai-report-drafting]]
+
 ## [[concept-yitang-channel-lean-validation-bridge]]
 - [[cases/case-yitang-amazon-growth-flywheel]]
 - [[cases/case-yitang-novel-app-flywheel]]
@@ -1767,9 +1779,13 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/concept-kdo-review-workflow]]
 - [[tools/tool-纪浩-Do-first-PDCA渐进迭代法]]
 
+## [[concept-yitang-facts-first|事实优先]]
+- [[tools/tool-yitang-behavioral-observation]]
+
 ## [[concept-yitang-research-facts-first]]
 - [[concepts/business-research-skill-oscar-13-weapon-system]]
 - [[frameworks/framework-yitang-high-level-execution]]
+- [[tools/tool-yitang-baidu-index]]
 - [[tools/tool-yitang-research-cross-validation]]
 - [[tools/tool-yitang-research-quantitative-modeling]]
 - [[tools/tool-纪浩-Do-first-PDCA渐进迭代法]]
@@ -3070,6 +3086,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-yitang-survivor-bias-in-research]]
 - [[frameworks/framework-yitang-iterative-recursive-digging]]
+- [[tools/tool-yitang-app-store-review]]
 - [[tools/tool-yitang-research-best-practice]]
 - [[tools/tool-yitang-research-company-disassembly]]
 - [[tools/tool-yitang-research-follow-map]]
@@ -3699,6 +3716,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-growth-flywheel]]
 - [[frameworks/framework-yitang-research-quality-gate]]
 - [[tools/tool-demand-iceberg-l6-hypothesis]]
+- [[tools/tool-yitang-amazon-bestseller]]
+- [[tools/tool-yitang-baidu-index]]
+- [[tools/tool-yitang-bp-analysis]]
 - [[tools/tool-yitang-channel-industrialization-node-design]]
 - [[tools/tool-yitang-channel-scan-cheat-sheet]]
 - [[tools/tool-yitang-channel-scoring-matrix]]
@@ -3728,6 +3748,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-growth-flywheel]]
 - [[frameworks/framework-yitang-research-quality-gate]]
 - [[tools/tool-yitang-channel-industrialization-node-design]]
+- [[tools/tool-yitang-channel-scan-cheat-sheet]]
 - [[tools/tool-yitang-industry-channel-arsenal-index]]
 - [[tools/tool-yitang-referral-channel-optimization]]
 
@@ -3777,6 +3798,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-feedback-self-check]]
 - [[tools/tool-yitang-practice-20hour-starter]]
 
+## [[framework-yitang-expert-interview-10steps]]
+- [[tools/tool-yitang-anonymous-roundtable]]
+
 ## [[framework-yitang-four-research-types]]
 - [[frameworks/framework-yitang-high-level-execution]]
 - [[frameworks/framework-yitang-high-level-plan]]
@@ -3823,6 +3847,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-expert-interview-10steps]]
 - [[frameworks/framework-yitang-high-level-execution]]
 - [[frameworks/framework-yitang-oscar-research]]
+- [[tools/tool-yitang-ai-assisted-analysis]]
 
 ## [[framework-yitang-iterative-recursive-digging]]
 - [[concepts/concept-yitang-research-objective]]
@@ -3868,6 +3893,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-kdo-self-attack]]
 - [[frameworks/framework-ouyangfeng-review-methodology]]
 - [[systems/system-kdo-quality-labels]]
+- [[tools/tool-yitang-ai-assisted-analysis]]
+- [[tools/tool-yitang-ai-assisted-organize]]
+- [[tools/tool-yitang-ai-report-drafting]]
 
 ## [[framework-yitang-research-radar]]
 - [[concepts/kimi-深度调研集群方法论-deep-research-swarm]]
@@ -3875,22 +3903,32 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-high-level-execution]]
 - [[frameworks/framework-yitang-high-level-plan]]
 - [[frameworks/framework-yitang-oscar-research]]
+- [[tools/tool-yitang-app-store-data]]
+- [[tools/tool-yitang-bidding-analysis]]
 
 ## [[framework-yitang-research-weapon-system]]
 - [[frameworks/framework-ci-operating-model]]
 - [[frameworks/framework-ouyangfeng-review-methodology]]
 - [[frameworks/framework-yitang-research-weapon-supplement-2026]]
 - [[tools/tool-ci-define-phase]]
+- [[tools/tool-yitang-ai-monitoring-alert]]
+- [[tools/tool-yitang-business-registration-check]]
 - [[tools/tool-yitang-consulting-business-research]]
 - [[tools/tool-yitang-consumer-goods-research]]
 - [[tools/tool-yitang-product-full-experience]]
 - [[tools/tool-yitang-reverse-data-analysis]]
 - [[tools/tool-yitang-tech-project-research]]
 
+## [[framework-yitang-research-weapon-system|调研武器系统]]
+- [[tools/tool-yitang-behavioral-observation]]
+
 ## [[framework-yitang-six-layer-cross-validation]]
 - [[frameworks/framework-kdo-self-attack]]
 - [[frameworks/framework-ouyangfeng-review-methodology]]
 - [[frameworks/framework-yitang-growth-flywheel]]
+- [[tools/tool-yitang-anonymous-product-testing]]
+- [[tools/tool-yitang-business-registration-check]]
+- [[tools/tool-yitang-channel-agent-interview]]
 
 ## [[framework-yitang-three-ring-ability-focus]]
 - [[cases/case-yitang-sales-routine-deconstruction]]
@@ -6831,22 +6869,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-strategy-value-proposition]]
 - [[tools/tool-wanghuan-ai-business-profile]]
 - [[tools/tool-wanghuan-ai-dual-role-coach]]
-- [[tools/tool-yitang-ai-assisted-analysis]]
-- [[tools/tool-yitang-ai-assisted-organize]]
-- [[tools/tool-yitang-ai-monitoring-alert]]
 - [[tools/tool-yitang-ai-report-drafting]]
 - [[tools/tool-yitang-ai-research-workflow]]
-- [[tools/tool-yitang-amazon-bestseller]]
 - [[tools/tool-yitang-anonymous-product-testing]]
 - [[tools/tool-yitang-anonymous-roundtable]]
-- [[tools/tool-yitang-app-store-data]]
-- [[tools/tool-yitang-app-store-review]]
 - [[tools/tool-yitang-b2b-gov-research]]
-- [[tools/tool-yitang-baidu-index]]
 - [[tools/tool-yitang-behavioral-observation]]
-- [[tools/tool-yitang-bidding-analysis]]
-- [[tools/tool-yitang-bp-analysis]]
-- [[tools/tool-yitang-business-registration-check]]
 - [[tools/tool-yitang-comparable-company-selection]]
 - [[tools/tool-yitang-competitor-financial-analysis]]
 - [[tools/tool-yitang-conference-networking]]
@@ -8442,17 +8470,29 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-research-competitive-quadrant]]
 - [[tools/tool-yitang-research-follow-map]]
 
+## [[tool-yitang-ai-assisted-analysis]]
+- [[tools/tool-yitang-ai-assisted-organize]]
+
 ## [[tool-yitang-ai-assisted-organize]]
 - [[frameworks/framework-wanghuan-gan-three-roles]]
+- [[tools/tool-yitang-ai-assisted-analysis]]
 
 ## [[tool-yitang-ai-research-workflow]]
 - [[frameworks/framework-yitang-research-weapon-supplement-2026]]
+- [[tools/tool-yitang-ai-assisted-analysis]]
+- [[tools/tool-yitang-ai-monitoring-alert]]
+- [[tools/tool-yitang-ai-report-drafting]]
+
+## [[tool-yitang-anonymous-roundtable]]
+- [[tools/tool-yitang-anonymous-product-testing]]
 
 ## [[tool-yitang-app-store-data]]
 - [[concepts/街顺app全面调研报告]]
+- [[tools/tool-yitang-bidding-analysis]]
 
 ## [[tool-yitang-app-store-review]]
 - [[concepts/街顺app全面调研报告]]
+- [[tools/tool-yitang-app-store-data]]
 
 ## [[tool-yitang-b2b-gov-research]]
 - [[concepts/yt-tob-cash-flow]]
@@ -8473,6 +8513,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-sales-routine-deconstruction]]
 - [[tools/tool-yitang-feedback-self-check]]
 - [[tools/tool-yitang-practice-20hour-starter]]
+
+## [[tool-yitang-business-registration-check]]
+- [[tools/tool-yitang-bidding-analysis]]
 
 ## [[tool-yitang-channel-agent-interview]]
 - [[cases/case-yitang-goat-milk-channel-partnership]]
@@ -8518,15 +8561,25 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-industry-channel-arsenal-index]]
 - [[tools/tool-yitang-referral-channel-optimization]]
 
+## [[tool-yitang-competitor-financial-analysis]]
+- [[tools/tool-yitang-bidding-analysis]]
+- [[tools/tool-yitang-bp-analysis]]
+
 ## [[tool-yitang-consulting-business-research]]
 - [[tools/tool-yitang-consumer-goods-research]]
 - [[tools/tool-yitang-tech-project-research]]
+
+## [[tool-yitang-consumer-goods-research]]
+- [[tools/tool-yitang-amazon-bestseller]]
 
 ## [[tool-yitang-content-ip-research]]
 - [[concepts/writing-content]]
 - [[dark-knowledges/dk-p11-regex-cutoff]]
 - [[tools/tool-clinic-medical-shortvideo-compliance]]
 - [[tools/tool-yitang-tech-project-research]]
+
+## [[tool-yitang-court-record-search]]
+- [[tools/tool-yitang-business-registration-check]]
 
 ## [[tool-yitang-database-index]]
 - [[frameworks/framework-yitang-research-weapon-supplement-2026]]
@@ -8547,6 +8600,16 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/kimi-深度调研集群方法论-deep-research-swarm]]
 - [[tools/tool-yitang-consumer-goods-research]]
 
+## [[tool-yitang-field-research|实地调研/蹲店]]
+- [[tools/tool-yitang-behavioral-observation]]
+
+## [[tool-yitang-financial-report-intelligence]]
+- [[tools/tool-yitang-bp-analysis]]
+- [[tools/tool-yitang-business-registration-check]]
+
+## [[tool-yitang-government-data-search]]
+- [[tools/tool-yitang-bidding-analysis]]
+
 ## [[tool-yitang-growth-flywheel-design]]
 - [[cases/case-yitang-amazon-growth-flywheel]]
 - [[cases/case-yitang-topcity-growth-flywheel]]
@@ -8559,11 +8622,19 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-yitang-industry-channel-arsenal-index]]
 - [[tools/tool-yitang-channel-scan-cheat-sheet]]
 
+## [[tool-yitang-industry-report-search]]
+- [[tools/tool-yitang-bp-analysis]]
+
 ## [[tool-yitang-job-intelligence-research]]
 - [[raw/ocr/ocr-一堂-个人修炼-提问刻意练习画布]]
 - [[tools/tool-yitang-consulting-business-research]]
 
+## [[tool-yitang-news-monitoring]]
+- [[tools/tool-yitang-ai-monitoring-alert]]
+- [[tools/tool-yitang-bp-analysis]]
+
 ## [[tool-yitang-online-product-experience]]
+- [[tools/tool-yitang-bp-analysis]]
 - [[tools/tool-yitang-product-full-experience]]
 
 ## [[tool-yitang-organization-research]]
@@ -8572,9 +8643,13 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-tech-project-research]]
 
 ## [[tool-yitang-overseas-research]]
+- [[tools/tool-yitang-amazon-bestseller]]
 - [[tools/tool-yitang-consulting-business-research]]
 - [[tools/tool-yitang-consumer-goods-research]]
 - [[tools/tool-yitang-tech-project-research]]
+
+## [[tool-yitang-patent-analysis]]
+- [[tools/tool-yitang-bidding-analysis]]
 
 ## [[tool-yitang-pc-web-data]]
 - [[frameworks/private-domain-saas-sales-funnel]]
@@ -8587,6 +8662,13 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-three-ring-ability-focus]]
 - [[tools/tool-yitang-best-practice-as-golden-finger]]
 - [[tools/tool-yitang-feedback-self-check]]
+
+## [[tool-yitang-product-full-experience]]
+- [[tools/tool-yitang-anonymous-product-testing]]
+- [[tools/tool-yitang-bp-analysis]]
+
+## [[tool-yitang-public-information-research]]
+- [[tools/tool-yitang-bp-analysis]]
 
 ## [[tool-yitang-public-sentiment-research]]
 - [[concepts/kimi-深度调研集群方法论-deep-research-swarm]]
@@ -8610,6 +8692,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-research-two-dimensional-positioning]]
 
 ## [[tool-yitang-research-competitor-tracking]]
+- [[tools/tool-yitang-ai-monitoring-alert]]
+- [[tools/tool-yitang-app-store-data]]
 - [[tools/tool-yitang-research-best-practice]]
 - [[tools/tool-yitang-research-company-disassembly]]
 
@@ -8623,6 +8707,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-high-level-execution]]
 - [[frameworks/framework-yitang-iterative-recursive-digging]]
 - [[frameworks/framework-yitang-six-layer-cross-validation]]
+- [[tools/tool-yitang-ai-report-drafting]]
+- [[tools/tool-yitang-anonymous-product-testing]]
+- [[tools/tool-yitang-app-store-data]]
+- [[tools/tool-yitang-app-store-review]]
+- [[tools/tool-yitang-bp-analysis]]
+- [[tools/tool-yitang-channel-agent-interview]]
 - [[tools/tool-yitang-research-deep-attribution]]
 - [[tools/tool-yitang-research-follow-map]]
 - [[tools/tool-yitang-research-quantitative-modeling]]
@@ -8633,6 +8723,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-yitang-research-deep-attribution]]
 - [[concepts/kimi-深度调研集群方法论-deep-research-swarm]]
 - [[frameworks/framework-yitang-iterative-recursive-digging]]
+- [[tools/tool-yitang-ai-monitoring-alert]]
 
 ## [[tool-yitang-research-exhaust-means]]
 - [[concepts/concept-yitang-research-objective]]
@@ -8668,6 +8759,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-research-competitor-tracking]]
 
 ## [[tool-yitang-research-normalize-summary]]
+- [[tools/tool-yitang-ai-assisted-organize]]
 - [[tools/tool-yitang-research-cross-validation]]
 
 ## [[tool-yitang-research-quantitative-modeling]]
@@ -8710,9 +8802,22 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-consumer-goods-research]]
 - [[tools/tool-yitang-tech-project-research]]
 
+## [[tool-yitang-securities-research]]
+- [[tools/tool-yitang-bp-analysis]]
+
+## [[tool-yitang-shareholder-analysis]]
+- [[tools/tool-yitang-business-registration-check]]
+
 ## [[tool-yitang-social-engineering-research]]
 - [[domains/ai-collaboration-domain-digest]]
 - [[tools/tool-yitang-consulting-business-research]]
+
+## [[tool-yitang-social-media-interview]]
+- [[tools/tool-yitang-business-registration-check]]
+
+## [[tool-yitang-social-media-monitoring]]
+- [[tools/tool-yitang-baidu-index]]
+- [[tools/tool-yitang-bidding-analysis]]
 
 ## [[tool-yitang-stock-data]]
 - [[cases/case-toc-content-platform-correlation-trap]]
@@ -8734,9 +8839,18 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-yitang-user-interview-5steps]]
 - [[dk/dk-yitang-behavior-over-asking]]
+- [[tools/tool-yitang-anonymous-roundtable]]
+- [[tools/tool-yitang-app-store-review]]
+- [[tools/tool-yitang-channel-agent-interview]]
+
+## [[tool-yitang-user-interview-5steps|用户访谈五步法]]
+- [[tools/tool-yitang-behavioral-observation]]
 
 ## [[tool-yitang-weapon-ai-tools]]
 - [[concepts/tools-workflows]]
+
+## [[tool-yitang-weapon-anonymous-identity]]
+- [[tools/tool-yitang-anonymous-roundtable]]
 
 ## [[tool-yitang-weapon-former-employee-network]]
 - [[dark-knowledges/dk-p6-session-resume-fail]]
@@ -12689,14 +12803,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-prompt-iceberg-demand-analysis]]
 - [[tools/tool-reverse-image-search]]
 - [[tools/tool-yitang-ai-assisted-analysis]]
-- [[tools/tool-yitang-ai-assisted-organize]]
 - [[tools/tool-yitang-ai-monitoring-alert]]
 - [[tools/tool-yitang-ai-report-drafting]]
 - [[tools/tool-yitang-ai-research-workflow]]
 - [[tools/tool-yitang-amazon-bestseller]]
 - [[tools/tool-yitang-anonymous-product-testing]]
 - [[tools/tool-yitang-anonymous-roundtable]]
-- [[tools/tool-yitang-app-store-data]]
 - [[tools/tool-yitang-app-store-review]]
 - [[tools/tool-yitang-b2b-gov-research]]
 - [[tools/tool-yitang-baidu-index]]
@@ -12938,14 +13050,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-osint-wayback]]
 - [[tools/tool-reverse-image-search]]
 - [[tools/tool-yitang-ai-assisted-analysis]]
-- [[tools/tool-yitang-ai-assisted-organize]]
 - [[tools/tool-yitang-ai-monitoring-alert]]
 - [[tools/tool-yitang-ai-report-drafting]]
 - [[tools/tool-yitang-ai-research-workflow]]
 - [[tools/tool-yitang-amazon-bestseller]]
 - [[tools/tool-yitang-anonymous-product-testing]]
 - [[tools/tool-yitang-anonymous-roundtable]]
-- [[tools/tool-yitang-app-store-data]]
 - [[tools/tool-yitang-app-store-review]]
 - [[tools/tool-yitang-b2b-gov-research]]
 - [[tools/tool-yitang-baidu-index]]
