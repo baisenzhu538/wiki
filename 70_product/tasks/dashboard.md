@@ -74,7 +74,8 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260701_kdo-index-lint-wikilink-format-alignment | KDO index/lint wikilink 格式对齐 | queued | 黄药师 | P1 | task_20260701_kdo-index-lint-wikilink-format-alignment.md | 欧阳锋建议、王语嫣入队：修复 `kdo index --rebuild` 与 `kdo lint` 的 wikilink 格式不一致，使 strategy 148 个 / 全库约 700+ WARNING 误报清零；阻塞 #28 strategy 域真实清零验证 |
 | task_20260701_design-domain-encoding-diagnosis | design domain 编码损坏诊断 | queued | 老顽童(Kimi) | P1 | task_20260701_design-domain-encoding-diagnosis.md | 欧阳锋建议、王语嫣入队：只读诊断 design 域编码损坏根因，分类 healthy/display-only/recoverable/corrupted；诊断完成前禁止批量修改 design 文件；阻塞 #28 design 域清理 |
 | task_20260701_wangyuyan-wobeirushen-pilot-orchestration | 《吾辈如神》条件性纳入 + 3 张卡 | claimed-kimi | 老顽童(Kimi) | P1 | task_20260701_wangyuyan-wobeirushen-pilot-orchestration.md | 王语嫣价值判断：B 级素材，不做试点，直接产出 3 张卡——`concept-cognitive-offloading-in-ai-era`（已有初稿，需终审）、`tool-ai-use-barbell-strategy`（新建）、`concept-abundance-paradox`（新建）；纠偏 BMW 85%/AGI 2029/AI 无法创造；其余概念本次不纳入，封账 |
-| task_20260701_wangyuyan-time-management-domain-orchestration | 时间管理域升级：3 张高密度桥接卡 | queued | 老顽童(Kimi) | P2 | task_20260701_wangyuyan-time-management-domain-orchestration.md | 王语嫣独立判断：接受黄药师 critique，从原 9 卡压缩为 3 张高密度卡——framework 五步法桥接 + tool 时间审计循环 + dk 常见陷阱；王语嫣经九层深挖返工：时间管理 = 一堂五步法/IPO/单元模型/决策卫生在自管理场景的实例化；保留操作模板以满足每天任务咨询需求；反向更新 ≥10 张已有框架卡 related；详见 `diag_20260701_time-management-nine-layer-isomorphism.md`
+| task_20260701_wangyuyan-time-management-domain-orchestration | 时间管理域升级：3 张高密度桥接卡 | queued | 老顽童(Kimi) | P2 | task_20260701_wangyuyan-time-management-domain-orchestration.md | 王语嫣经九层深挖返工：时间管理 = 一堂五步法/IPO/单元模型/决策卫生在自管理场景的实例化；3 张高密度卡 + 反向更新 ≥10 张已有框架卡 related；保留操作模板以满足每天任务咨询需求；详见 `diag_20260701_time-management-nine-layer-isomorphism.md` |
+| task_20260702_laowantong-vikki-daxin-dark-knowledge-pilot-production | 暗知识补挖试点生产：Vikki + 大馨战队 | queued | 老顽童(Kimi) | P1 | task_20260702_laowantong-vikki-daxin-dark-knowledge-pilot-production.md | 黄药师试点建议书：王语嫣用第6步「一句话金矿扫描」产出 22 条暗知识清单，建议 4 张新 dk + 7-9 张已有卡补充；欧阳锋抽检 ≥3 张验证有效性；有效则推广为 SOP |
 
 ---
 
@@ -93,6 +94,7 @@ Generated: 2026-06-26T21:00:00+00:00
 > **🆕 新增 #38/#39**：欧阳锋建议、王语嫣独立判断后入队的 2 个 P1 基建任务，已插队到 #38、#39。#38 黄药师修复 index/lint wikilink 格式不一致，使 strategy 148 个 WARNING 误报清零；#39 老顽童(Kimi) 只读诊断 design 域编码损坏，诊断完成前禁止批量修改 design 文件。两个任务可与 #28 周期性批次及 #40 内容任务并行。
 > **🆕 #40 确定**：原 #38《吾辈如神》因基建任务插队后移到 #40；王语嫣取消「试点」表述，明确产出 3 张卡（认知卸载 / AI 使用杠铃策略 / 富足悖论），保持 P1，不阻塞。
 > **🆕 新增 #41**：洪七公完成 OCR+VLM 预处理后，王语嫣按 6 层交叉验证 + 9 层深挖完成诊断；经黄药师跨域桥接建议书 critique 后，王语嫣独立判断将原 9 卡方案压缩为 3 张高密度桥接卡——`framework-yitang-five-step-to-time-management`（五步法→时间管理完整映射）、`tool-personal-time-audit-loop`（日/周审计 + 2 周实验循环）、`dk-time-management-common-mistakes`（3 个反模式）；同时反向更新 ≥10 张已有框架卡 related；诊断报告 `diag_20260701_time-management-validation.md`。
+> **🆕 新增 #42**：黄药师暗知识补挖试点建议书已确认；王语嫣用 context 第 6 步「一句话金矿扫描」通读 Vikki 561 条 + 大馨 615 条群聊精华，提取 22 条暗知识清单，建议 4 张新 dk 卡（肌肉记忆、创始人 IP 信任>流量、隐性价值传递、讲师 vs 群众社群）+ 7-9 张已有卡补充；欧阳锋抽检 ≥3 张验证有效性，有效则写 SOP 推广到全库。
 
 ---
 

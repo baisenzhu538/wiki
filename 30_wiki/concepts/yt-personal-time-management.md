@@ -138,6 +138,9 @@ source_refs:
 | 关联工具 | [[yt-personal-knowledge-extraction]] | 知识萃取；Truman 在时间管理课的研发过程中准备了 20 万字素材、访谈十几位专家、400 人共建 17 万字作业——这本身就是一堂级别的时间投入（准备系数 10x） |
 | 关联工具 | [[yt-personal-inspiration-flash]] | 灵感闪现；两课在"结构化时间"和"非结构化时间"之间存在需要对话的张力——如何在高效执行和创意涌现之间分配时间 |
 | 关联工具 | [[yt-personal-deliberate-practice]] | 刻意练习；时间管理 L1-L2 为刻意练习提供"每天保护多少时间用于练习"的执行框架 |
+| 关联框架 | [[framework-yitang-five-step-to-time-management]] | 一堂五步法在时间管理场景下的完整桥接；将时间管理从孤立概念升级为跨域方法论实例 |
+| 关联工具 | [[tool-personal-time-audit-loop]] | 个人时间审计与实验循环；把三门模型转化为每周可执行的假设-验证流程 |
+| 关联暗知识 | [[dk-time-management-common-mistakes]] | 时间管理三大反模式（工具迷信、二极管思维、边界模糊）与一堂反打 |
 
 ### 不要用的场景
 

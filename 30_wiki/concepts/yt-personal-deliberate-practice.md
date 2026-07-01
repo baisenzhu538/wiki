@@ -137,6 +137,9 @@ source_refs:
 | 关联工具 | [[yt-personal-checklist-notes]] | 清单式笔记；清单为刻意练习提供"标准动作"的参照系——没有清单，练什么不清楚 |
 | 关联工具 | [[yt-personal-deep-review]] | 深度复盘课；复盘是刻意练习中"反馈"环节的核心工具——高质量复盘 = 高质量反馈 |
 | 关联工具 | [[yt-personal-knowledge-extraction]] | 知识萃取；Truman 自身六阶段成长就是刻意练习的活案例——从清单到建模到行业级方法论的持续拉伸 |
+| 关联框架 | [[framework-yitang-five-step-to-time-management]] | 时间管理能力本身是刻意练习的对象；L4-L6 进阶依赖固定套路、非舒适区、反馈与重复 |
+| 关联工具 | [[tool-personal-time-audit-loop]] | 时间审计与实验循环为刻意练习提供"稳定模型"和"持续反馈" |
+| 关联暗知识 | [[dk-time-management-common-mistakes]] | 二极管思维会破坏刻意练习的"非舒适区"原则——一次失败就放弃整个系统 |
 
 ### 不要用的场景
 

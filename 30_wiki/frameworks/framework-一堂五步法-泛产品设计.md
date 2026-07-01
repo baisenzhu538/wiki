@@ -35,6 +35,7 @@ related:
 - "[[framework-pan-product-organization]]"
 - "[[framework-lean-abcd-model]]"
 - "[[framework-ai-accelerated-strategy-cycle]]"
+- "[[framework-yitang-five-step-to-time-management]]"
 
 ---
 

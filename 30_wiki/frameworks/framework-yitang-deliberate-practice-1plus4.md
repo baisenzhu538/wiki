@@ -30,7 +30,7 @@ source_refs:
 related:
   - "[[framework-ai-deliberate-practice-loop]]"
   - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+  - "[[framework-yitang-five-step-to-time-management]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 ---

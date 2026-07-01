@@ -41,6 +41,7 @@ related:
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[concept-yitang-research-mindset]]"
 - "[[tool-yitang-research-competitive-quadrant]]"
+- "[[framework-yitang-five-step-to-time-management]]"
 
 ---
 

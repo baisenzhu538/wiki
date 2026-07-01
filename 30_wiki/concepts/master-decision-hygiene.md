@@ -24,6 +24,7 @@ related:
 - "[[master-systems-thinking]]"
 - "[[master-antifragile-checklist]]"
 - "[[master-knowledge-compound]]"
+- "[[framework-yitang-five-step-to-time-management]]"
 
 ---
 
