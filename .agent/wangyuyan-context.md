@@ -60,7 +60,13 @@ updated: 2026-06-27
 ## 启动步骤
 
 0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
-1. **🆕 先理解用户**：Read `20_memory/user-insight-profile.md`（用户完整背景、业务版图、目标、偏好——不理解用户就不知道产出物应该是什么形式）
+1. **🆕 加载用户模型（必须）**：
+   - Read `20_memory/user-insight-profile.md`（完整背景、业务版图、目标）
+   - Read `30_wiki/personal-os/zhu-time-os.md`（时间配置、双峰安排）
+   - Read `30_wiki/personal-os/zhu-feedback-patterns.md`（已识别的偏好和盲区）
+   - Read `30_wiki/personal-os/zhu-domain-index.md`（各域使用频率）
+   - 查 SQLite：`SELECT * FROM zhu_decisions ORDER BY ts DESC LIMIT 10`（最近10条决策）
+   - **不理解用户模型就不知道产出物应该是什么形式、什么深度、什么风格。**
 2. Read `startup.md`（工厂全局）
 3. Read `.agent/kb-evolution-direction.md`（当前进化方向）
 4. Read `70_product/tasks/production-queue.md`（生产队列状态）
@@ -263,7 +269,13 @@ updated: 2026-06-27
 1. 诊断记录 → `60_feedback/diagnosis/diag_YYYYMMDD_<slug>.md`
 2. 队列/看板/方向变化 → 同步更新相关元文件
 3. 写入桌面 `agent复盘/王语嫣/daily_cognitive_review/每日复盘/YYYY-MM-DD.md`
-4. **🆕 最小闭环记录（强制，每次必做）**：本次对话中，用户做了什么决策、用了什么框架、产生了什么反馈信号？更新到 `20_memory/user-insight-profile.md` 和 `20_memory/zhu-time-os.md`（哪怕只有一句话）。格式：`日期 | 决策 | 用了哪个框架 | 结果/反馈`。这是用户模型的核心数据源——不记录=用户模型不增长。
+4. **🆕 最小闭环记录（强制，每次必做）**：
+   - 本次对话中，用户做了什么决策、用了什么框架、产生了什么反馈信号？
+   - 写入 SQLite：`INSERT INTO zhu_decisions (id, ts, domain, decision, framework_used, outcome, feedback_signal, updated_at) VALUES (...)`
+   - 更新 `30_wiki/personal-os/zhu-domain-index.md`（域使用频率 + 最近决策表）
+   - 如有新的重复模式，更新 `30_wiki/personal-os/zhu-feedback-patterns.md`
+   - 格式：`日期 | 决策 | 用了哪个框架 | 结果/反馈`
+   - **不记录 = 用户模型不增长 = 你下次启动时和这次一样不瞭解他。**
 
 ---
 
