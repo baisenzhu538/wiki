@@ -40,10 +40,10 @@ related:
   - "[[tool-shortvideo-six-dimension-deconstruction]]"
   - "[[concept-open-source-knowledge-usage-boundary]]"
   - "[[case-yitang-yitang-shortvideo-industrialization]]"
-  - "[[dk-content-community-info-density]]"
-  - "[[dk-content-mini-case-writing]]"
-  - "[[dk-content-open-source-explicit-compensation]]"
-  - "[[dk-content-anchor-design]]"
+  - "[[dk-content-muscle-memory-vs-knowledge]]"
+  - "[[dk-founding-ip-trust-over-traffic]]"
+  - "[[dk-content-implicit-value-without-price]]"
+  - "[[dk-community-lecturer-vs-crowd-model]]"
 pipeline:
   - "confidence-draft"
 ---
@@ -80,11 +80,11 @@ pipeline:
 
 每次拆解固定走：定位与受众 → 选题与钩子 → 文案结构 → 表现力与情绪 → 转化设计 → 数据特征与可复制性。
 
-这个决策让分享从自由讨论变成结构化训练，学员能快速套用，但也带来「模板疲劳」风险。缓解模板疲劳的关键不是换框架，而是为真实案主写出可执行的小案例（参见 [[dk-content-mini-case-writing]]）。
+这个决策让分享从自由讨论变成结构化训练，学员能快速套用，但也带来「模板疲劳」风险。模板疲劳的深层原因不只是框架重复，而是短视频拆解中大量审美判断（节奏、情绪、镜头感）属于肌肉记忆，难以通过换框架解决。参见 [[dk-content-muscle-memory-vs-knowledge]]。
 
 ### 关键决策 2：设置案主大馨作为唯一锚点
 
-每次拆解最终都要为大馨输出一条定制脚本。这让群有明确的输出目标，但也让群的价值高度依赖单一案主。案主锚点设计是围观群持续的关键，但需要用多案主分散风险（参见 [[dk-content-anchor-design]]）。
+每次拆解最终都要为大馨输出一条定制脚本。这让群有明确的输出目标，但也让群的价值高度依赖单一案主。大馨战队是「讲师中心模式」的典型实例：由讲师主导输出、学员围观学习。这种模式的优点是质量稳定，缺点是成员贡献深度受限。参见 [[dk-community-lecturer-vs-crowd-model]]。
 
 ### 关键决策 3：多讲师轮流上场
 
@@ -92,7 +92,7 @@ pipeline:
 
 ### 关键决策 4：采用「围观群」定位
 
-降低参与门槛，吸引更多旁观者，但也降低了贡献期待。5 月 28 日分享时只有 2 人在线，6 月 10 日甚至宣布「这可能是围观群最后一次分享」。低在线人数也是社群信息密度不足的表现之一（参见 [[dk-content-community-info-density]]）。
+降低参与门槛，吸引更多旁观者，但也降低了贡献期待。5 月 28 日分享时只有 2 人在线，6 月 10 日甚至宣布「这可能是围观群最后一次分享」。围观群定位是讲师中心模式的放大器：门槛越低，成员越像旁观者，贡献期待越弱。
 
 ## 关键证据
 
@@ -136,7 +136,7 @@ pipeline:
 
 ### 教训 2：围观群定位是一把双刃剑
 
-降低门槛能扩大受众，但也会降低贡献期待。当群里大多数人只是「看看」时，群的可持续性和讲师动力都会受损。开源知识生产需要显性回报机制，不能只靠讲师用爱发电（参见 [[dk-content-open-source-explicit-compensation]]）。
+降低门槛能扩大受众，但也会降低贡献期待。当群里大多数人只是「看看」时，群的可持续性和讲师动力都会受损。
 
 ### 教训 3：多讲师能缓解疲劳，但核心支柱仍不可少
 
@@ -148,7 +148,27 @@ pipeline:
 
 ### 教训 5：案主定制输出是强锚点，但也需要多案主分散风险
 
-单一案主让群有明确目标，但长期过度依赖会让群变成「大馨专属服务群」，失去通用教学价值。案主锚点需要聚焦，也需要备份（参见 [[dk-content-anchor-design]]）。
+单一案主让群有明确目标，但长期过度依赖会让群变成「大馨专属服务群」，失去通用教学价值。
+
+## 暗知识补充
+
+### 拆解就是刻意练习审美的过程
+
+> *「拆解就是刻意练习审美的过程。」* —— 魏千洛，大馨战队
+
+**盲区说明**：本案例强调“结构化拆解 + 多讲师 + 定制脚本”的流程，但没有点明拆解的本质。这条暗知识说明：拆解不是知识搬运，而是通过反复对比、分析、判断来训练审美肌肉记忆。学员如果只套用模板而不反复拆，就无法形成手感。参见 [[dk-content-muscle-memory-vs-knowledge]]。
+
+### 没有什么比自己动手更有效
+
+> *「没有什么比自己动手更有效了。」* —— 大馨战队群友
+
+**盲区说明**：核心假设 1 认为“成员可以通过观看拆解学会”，但这条暗知识指出：观看不等于学会，动手产出才是学习闭环。这也是教训 2 中“围观群降低贡献期待”的反面——设计训练营时必须把“动手”变成门槛，而不是可选项。
+
+### 拆完后你心里有没有对这个视频的逻辑更清晰？
+
+> *「拆完后你心里有没有对这个视频的逻辑更清晰？」* —— 升华，大馨战队
+
+**盲区说明**：本案例的可迁移场景中强调“输出飞书文档 + 定制脚本”，但没有给出验收标准。这条暗知识提供了一个极简验收问题：如果拆解后学员对视频逻辑没有更清晰，说明拆解停留在表面，没有内化。这个问题可以用来判断一次拆解是否真正有效。
 
 ## 失败模式
 
@@ -171,10 +191,10 @@ pipeline:
 | 内容经营闭环 | [[framework-content-business-six-step]] | 群总结出用户定位→内容定位→人设表达→内容生产→转化承接→数据复盘 |
 | 开源边界 | [[concept-open-source-knowledge-usage-boundary]] | 群聊开源素材如何提炼为 KDO 知识资产 |
 | 工业化对比 | [[case-yitang-yitang-shortvideo-industrialization]] | 大馨战队是训练营模式，易唐是工业化生产线，两者可互补 |
-| 暗知识：信息密度 | [[dk-content-community-info-density]] | 低在线人数和“扣个1”人数是信息密度不足的信号 |
-| 暗知识：小案例写作 | [[dk-content-mini-case-writing]] | “为大馨定制脚本”是小案例写作的实战形态 |
-| 暗知识：开源回报 | [[dk-content-open-source-explicit-compensation]] | 讲师准备 2-3 小时/次，需要显性回报机制支撑 |
-| 暗知识：案主锚点 | [[dk-content-anchor-design]] | 大馨作为唯一案主，既聚焦也存在系统性风险 |
+| 暗知识：肌肉记忆 vs 知识 | [[dk-content-muscle-memory-vs-knowledge]] | 拆解中的审美判断需要肌肉记忆，不是模板能替代 |
+| 暗知识：信任 > 流量 | [[dk-founding-ip-trust-over-traffic]] | 魏千洛在群中提出的创始人 IP 核心目标 |
+| 暗知识：隐性价值传递 | [[dk-content-implicit-value-without-price]] | 升华提出的高客单转化心法，本案例有实例 |
+| 暗知识：讲师中心 vs 群众中心 | [[dk-community-lecturer-vs-crowd-model]] | 大馨战队是讲师中心模式的典型案例 |
 
 ### Action Triggers
 

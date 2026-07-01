@@ -36,8 +36,6 @@ related:
   - "[[yt-skill-p-role-prompt-design]]"
   - "[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]"
   - "[[plan_20260621_skill-iteration-standard]]"
-  - "[[dk-content-mini-case-writing]]"
-  - "[[dk-content-open-source-explicit-compensation]]"
 tags:
 - src_unknown
 - src_unknown
@@ -160,6 +158,8 @@ diagnostic_signals:
 | **没有审计清单** | 指南很长，但无法用来审计新 Skill | 没有把原则转化为可执行检查项 | 把指南转化为 P0/P1/P2 分级检查清单 |
 | **人类完全放手** | AI 审计后直接采用，不再人工确认 | 过度信任 AI 输出 | P0 级问题必须由人终审 |
 | **标杆选择错误** | 指南吸收了低质量或过时的做法 | 标杆来源本身不可靠 | 优先选择官方文档、权威报告、经过验证的专家实践 |
+| **喂太杂输出不稳定** | 同一 Skill/Agent 里塞入过多异构知识，AI 输出风格和质量波动大 | 智能体不知道优先调用逻辑 | 按场景拆分 Skill，明确每个 Skill 的调用边界和优先级；先窄后宽 |
+| **AI 仿写文案还需人工校准** | AI 选题好用，但直接仿写文案会失真 | 文案涉及审美、语感、人设，AI 无法一次性对齐 | AI 做选题/初稿，人做仿写校准和风格微调 |
 
 ---
 
@@ -244,8 +244,8 @@ diagnostic_signals:
 
 | 关系 | 目标节点 | 说明 |
 |---|---|---|
-| 暗知识：小案例写作 | [[dk-content-mini-case-writing]] | Skill 工程指南需要配套真实小案例，才能从“可审计”走向“可落地” |
-| 暗知识：开源回报 | [[dk-content-open-source-explicit-compensation]] | 封装 Skill 时若引用他人知识，需明确署名与回报机制 |
+| 暗知识：喂太杂输出不稳定 | Vikki 战队观察 | 同一 Skill 塞入过多异构知识会导致 AI 输出不稳定，需拆分 Skill 并明确调用边界 |
+| 暗知识：AI 选题 vs 仿写边界 | 大馨战队观察 | AI 做选题已经好用，但仿写文案还需人工校准，这决定了 Skill 中哪些环节可外包给 AI |
 
 ---
 

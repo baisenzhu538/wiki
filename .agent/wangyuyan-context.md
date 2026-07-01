@@ -65,6 +65,7 @@ updated: 2026-06-27
    - Read `30_wiki/personal-os/zhu-time-os.md`（时间配置、双峰安排）
    - Read `30_wiki/personal-os/zhu-feedback-patterns.md`（已识别的偏好和盲区）
    - Read `30_wiki/personal-os/zhu-domain-index.md`（各域使用频率）
+   - Read `30_wiki/personal-os/opc-ai-sales-agent-architecture.md`（OPC AI销售智能体架构——老朱的长期战略方向）
    - 查 SQLite：`SELECT * FROM zhu_decisions ORDER BY ts DESC LIMIT 10`（最近10条决策）
    - **不理解用户模型就不知道产出物应该是什么形式、什么深度、什么风格。**
 2. Read `startup.md`（工厂全局）

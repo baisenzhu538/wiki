@@ -37,8 +37,7 @@ related:
   - "[[framework-brand-three-degree]]"
   - "[[case-daxin-team-content-training-camp]]"
   - "[[case-yitang-yitang-shortvideo-industrialization]]"
-  - "[[dk-content-mini-case-writing]]"
-  - "[[dk-content-community-info-density]]"
+  - "[[dk-content-muscle-memory-vs-knowledge]]"
 pipeline:
   - "confidence-draft"
 ---
@@ -117,9 +116,16 @@ pipeline:
 - 争议点设计：有没有故意制造讨论的切入点？（如"抄作业"vs"借鉴"）
 - 播放量估算：点赞数 ÷ 平均点赞率（干货类 3-5%）= 估算播放量
 - 这条视频的哪些元素可以直接迁移到自己的内容中？
-- 小案例/定制脚本：能否立即为某个真实案主写一条可拍摄的脚本？（参见 [[dk-content-mini-case-writing]]）
+- 内化检验：拆完后，你心里是否对这个视频的逻辑更清晰？（参见大馨战队升华的验收口诀）
+- 审美肌肉记忆：哪些判断（节奏、情绪、镜头感）不是靠模板能教会的，需要反复拆才能形成手感？（参见 [[dk-content-muscle-memory-vs-knowledge]]）
 
-**验收信号**：能提炼出 3 个可复用元素，或输出一条可直接落地的定制脚本。
+**验收信号**：能提炼出 3 个可复用元素，并能回答“拆完后我对这条视频的逻辑是否更清晰”。
+
+## 暗知识：拆解就是刻意练习审美的过程
+
+> *「拆解就是刻意练习审美的过程。」* —— 魏千洛，大馨战队
+
+**盲区说明**：6 维度拆解工具把爆款视频结构化了，但没有解释“为什么拆多了就会变强”。这条暗知识说明：拆解的本质不是填表，而是通过反复对比、分析、判断来训练审美肌肉记忆。模板可以帮你看到结构，但节奏、情绪张力、镜头感等判断必须靠大量拆解积累。参见 [[dk-content-muscle-memory-vs-knowledge]]。
 
 ## 6 维度检查清单
 
@@ -170,8 +176,7 @@ pipeline:
 | 下游评估 | [[framework-brand-three-degree]] | 拆解后判断视频服务品牌三度中的哪一度 |
 | 训练案例 | [[case-daxin-team-content-training-camp]] | 大馨战队每次拆解都用 6 维度框架 |
 | 工业化案例 | [[case-yitang-yitang-shortvideo-industrialization]] | 一堂短视频工业化是 6 维度拆解的规模化应用 |
-| 暗知识：小案例写作 | [[dk-content-mini-case-writing]] | Step 6 的可复制性需要落到真实小案例/定制脚本 |
-| 暗知识：信息密度 | [[dk-content-community-info-density]] | 拆解时需评估视频的信息密度，避免认知过载或空洞 |
+| 暗知识：肌肉记忆 vs 知识 | [[dk-content-muscle-memory-vs-knowledge]] | 拆解是训练审美肌肉记忆，不是填表 |
 
 ### Action Triggers
 

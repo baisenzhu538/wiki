@@ -39,7 +39,6 @@ related:
   - "[[case-yitang-goat-milk-channel-partnership]]"
   - "[[framework-yitang-research-quality-gate]]"
   - "[[business-formula-to-kdo-card-quality]]"
-  - "[[dk-content-open-source-explicit-compensation]]"
 pipeline:
   - "confidence-draft"
 ---
@@ -83,9 +82,17 @@ Vikki 开源 3 万字知识库，建立的是"我敢公开，所以你不怕我�
 
 当社群扩大，贡献者和消费者比例失衡（如 Vikki 群 80% 消息来自不到 10 人），"搭便车"和"蒸馏"行为会消耗核心贡献者的热情。没有明确使用协议的社群，冲突只能靠人肉调解，最终走向沉默或分裂。
 
-### 暗知识：协议之外，还需要显性回报
+### 暗知识：开源不怕抄袭 vs 蒸馏别人价值
 
-使用协议解决"能不能用"，显性回报解决"谁愿意继续生产"。Vikki 的"开源不怕抄袭"建立的是信任信用，而大馨战队讲师每次拆解准备 2-3 小时、多数成员只看不做的现实，说明协议 alone 无法阻止核心贡献者耗尽。署名、反馈、机会、经济等可感知的价值回流，才是让开源知识生产可持续的底层燃料。详见 [[dk-content-open-source-explicit-compensation]]。
+> *「Vikki 做开源就不怕抄袭，你在蒸馏的是别人的价值。」* —— Vikki 战队 2 群，5.31 游侠冲突中群友发言
+
+**盲区说明**：Claim 1 讲“开源分享建立信任信用”，但没有讲清“不怕抄袭”的边界。这条暗知识说明：开源不怕的是“学习借鉴”，怕的是“蒸馏别人价值”——即把社群贡献者的知识提取后用于竞争产品。这是学习/引用/改编/蒸馏四层级中，L4 蒸馏的典型触发场景。
+
+### 暗知识：学习与蒸馏的分界线是“是否用于商业竞争产品”
+
+> *「从『学习』到『蒸馏』的分界线是『是否用于商业竞争产品』。」* —— 段王爷提炼，Vikki 战队 2 群
+
+**盲区说明**：Claim 2 提出分界线是“用于什么”，这条暗知识进一步把它可操作化：如果产出物会进入商业竞争（课程、咨询、AI 模型、产品功能），并且结构与原作者知识高度相似，就越界。这个判断可以帮助社群成员在灰色地带快速定位自己的行为。
 
 ## Key Evidence
 
@@ -280,7 +287,6 @@ Vikki 开源 3 万字知识库，建立的是"我敢公开，所以你不怕我�
 | 与渠道案例关联 | [[case-yitang-goat-milk-channel-partnership]] | 渠道合作中的知识共享也需要边界约定 |
 | 与研究质量门禁关联 | [[framework-yitang-research-quality-gate]] | 引用外部资料时需评估来源可信度和使用边界 |
 | 与卡片质量标准关联 | [[business-formula-to-kdo-card-quality]] | 高质量卡片应明确标注 source_refs，降低边界争议 |
-| 暗知识：开源回报 | [[dk-content-open-source-explicit-compensation]] | 使用协议解决"边界"，回报机制解决"持续" |
 
 ### Action Triggers
 

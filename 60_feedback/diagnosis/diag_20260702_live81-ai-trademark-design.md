@@ -245,11 +245,18 @@ related:
 
 ---
 
-## 十二、建议产出的 8 张卡
+## 十二、建议产出的 4 张卡
 
-基于以上诊断，建议产出 **1 case + 3 tool + 4 dk**，全部放在设计域和 AI 协作域的桥接位置。
+基于以上诊断，建议产出 **1 case + 2 tool + 1 dk**，全部放在设计域和 AI 协作域的桥接位置。
 
-> 说明：原方案 3 张卡把大量可独立沉淀的高价值点压平了。扩展后，案例、通用循环工具、一页纸协作工具、场景转译工具、反模式、模型选择启发式、60 分起盘逻辑、审美判断三重池各有一张卡，既保留深度，又避免与已有泛产品设计/双三角框架重复。
+> 说明：原方案 3 张卡把部分高价值点压平了；但进一步交叉验证发现，「一页纸顶层文档」「模型选择」「60 分起盘逻辑」「黑盒/白盒/池子审美判断」等概念在一堂已有卡中已有框架覆盖（见下表）。本次不重复建设，只在 4 张新卡中引用并建立 related；真正新建的是 Live81 独有的**案例**、**场景设计语言转译工具**、**AI 交付物打磨循环**和 **AI 设计反模式**。
+>
+> | Live81 概念 | 已有 KDO 卡 | 处理方式 |
+> |:---|:---|:---|
+> | 一页纸顶层文档 / 需求对齐 | `tool-纪浩-项目启动五问法`、`tool-一堂-product-kernel-canvas` | 在 case/tool 中引用，不新建 |
+> | 跨模型抽卡 / 模型选择 | `tool-月白-AI模型选择策略`、`tool-多模型对比抽卡` | 在 tool 的模型选择指南中引用 |
+> | 黑盒/白盒/池子审美判断 | `yt-panproduct-aesthetic-pool`、`yt-panproduct-aesthetic-modeling` | 在 case/dk 中引用 |
+> | 60 分起点 / MVP 逻辑 | `framework-lean-pivot-decision`、`framework-一堂五步法-泛产品设计` | 在 case/tool 中引用 |
 
 ### Card 1: `case-live81-ai-trademark-design`
 
@@ -284,7 +291,7 @@ related:
 
 **必须包含的 section**：
 1. **When to Use**：交付物需求模糊、资源有限、时间紧、需要快速产出 60 分可用版本。
-2. **What You Need**：一页纸顶层文档、调研渠道、至少 2 个不同能力的 AI 模型、审美参照系。
+2. **What You Need**：一页纸顶层文档（可用 `tool-纪浩-项目启动五问法` + `tool-一堂-product-kernel-canvas` 生成）、调研渠道、至少 2 个不同能力的 AI 模型、审美参照系（`yt-panproduct-aesthetic-pool` / `yt-panproduct-aesthetic-modeling`）。
 3. **Steps**：
    - Step 1: 需求对齐（把默认变成白纸黑字）
    - Step 2: 策略匹配（选方法论框架）
@@ -303,6 +310,7 @@ related:
    - 画面/视觉执行：Midjourney / 即梦 / 豆包
    - 文档整理：通用大模型
    - 法律/注册：必须交给人或专业机构
+   - 详细模型选择策略参考 `tool-月白-AI模型选择策略` 和 `tool-多模型对比抽卡`；本卡只保留 Live81 实战经验（意图/执行二分、3 版无质变则换）。
 5. **Checklist**：≥10 项自检。
 6. **Anti-patterns**：抽象许愿、单模型硬磨、跳过调研、追求完美、把 AI 输出当终稿。
 7. **Critique**：
@@ -310,7 +318,7 @@ related:
    - 外部反对者 2：AI 激进派「AI 可以全权负责」；
    - 外部反对者 3：传统管理者「应该外包给专业公司」。
    - 内部局限：该方法适合 60 分场景，不适合高完成度品牌项目。
-8. **Synthesis**：桥接 `framework-一堂五步法-泛产品设计`、`human-ai-collaboration-double-triangle`、`case-live81-ai-trademark-design`、`concept-cognitive-offloading-in-ai-era`、`tool-ai-use-barbell-strategy`。
+8. **Synthesis**：桥接 `framework-一堂五步法-泛产品设计`、`human-ai-collaboration-double-triangle`、`case-live81-ai-trademark-design`、`concept-cognitive-offloading-in-ai-era`、`tool-ai-use-barbell-strategy`、`tool-月白-AI模型选择策略`、`tool-多模型对比抽卡`、`yt-panproduct-aesthetic-pool`、`yt-panproduct-aesthetic-modeling`。
 9. **Related**：≥5 条。
 
 ### Card 3: `dk-ai-design-pitfalls`
@@ -331,7 +339,7 @@ related:
    - 口诀：模型选择本身是设计决策。
 3. **Pattern 3: 跳过调研陷阱**
    - 症状：有审美没思路，面对 AI 产出不知道选哪个。
-   - 反打：先建黑盒/白盒/池子，让判断有尺子。
+   - 反打：先建黑盒/白盒/池子，让判断有尺子（具体操作见 `yt-panproduct-aesthetic-pool`、`yt-panproduct-aesthetic-modeling`、`tool-最佳实践池子`）。
    - 口诀：调研不是为了喂 AI，是为了刻进自己脑子。
 4. **Pattern 4: AI 伪完美陷阱**
    - 症状：AI 给出字面完美、逻辑闭环的方案，人没有体系就被规训。
@@ -350,31 +358,7 @@ related:
 9. **Synthesis**：桥接 `case-live81-ai-trademark-design`、`tool-ai-deliverable-polish-loop`、`concept-cognitive-offloading-in-ai-era`、`tool-ai-use-barbell-strategy`、`master-decision-hygiene`。
 10. **Related**：≥5 条。
 
-### Card 4: `tool-ai-collaboration-one-pager`
-
-**类型**：tool  
-**主域**：ai-collaboration / business-alignment  
-**定位**：把「一页纸顶层文档」做成可复用模板，作为人与 AI 协作的上下文资产。
-
-**必须包含的 section**：
-1. **Purpose**：在业务起盘/模糊任务启动时，把团队默认共识变成白纸黑字，降低返工和 AI 跑偏风险。
-2. **When to Use**：任务模糊、协作默契未建立、需要把业务背景交给 AI 时。
-3. **Template Fields**：
-   - **Background**：业务方向、已知约束、时间/资源边界。
-   - **Stakeholders & Decision Rights**：谁拍板、谁复核、谁执行。
-   - **Kernel & Boundary**：必须抓死什么、明确不做什么。
-   - **Key Path & Decision Nodes**：从目标倒拆的关键路径和必须做出的判断。
-   - **Constraints & Assumptions**：法律/平台/技术/审美约束，以及最敏感假设。
-   - **Success Criteria**：60 分可用标准 vs 100 分理想标准。
-   - **AI Scope**：哪些交给 AI、哪些必须人或专业机构。
-4. **Examples**：至少 1 个商标设计场景 + 1 个非设计场景（如活动方案、内容选题）。
-5. **Anti-patterns**：直接复制粘贴当 prompt、写得过长、只写目标不写边界、写完不更新。
-6. **Checklist**：≥8 项。
-7. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
-8. **Synthesis**：桥接 `case-live81-ai-trademark-design`、`tool-ai-deliverable-polish-loop`、`ai-collaboration-mindset-shift`、`concept-cognitive-offloading-in-ai-era`。
-9. **Related**：≥5 条。
-
-### Card 5: `tool-scene-design-language-translation`
+### Card 4: `tool-scene-design-language-translation`
 
 **类型**：tool  
 **主域**：design / product-design  
@@ -395,68 +379,8 @@ related:
 7. **Anti-patterns**：场景分类重叠遗漏、只列场景不做分级、设计语言停留在形容词、忽略售后/文档等小场景。
 8. **Checklist**：≥8 项。
 9. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
-10. **Synthesis**：桥接 `case-live81-ai-trademark-design`、`framework-一堂五步法-泛产品设计`、`dk-aesthetic-judgment-triple-pool`、`tool-ai-deliverable-polish-loop`。
+10. **Synthesis**：桥接 `case-live81-ai-trademark-design`、`framework-一堂五步法-泛产品设计`、`yt-panproduct-aesthetic-pool`、`yt-panproduct-aesthetic-modeling`、`tool-ai-deliverable-polish-loop`。
 11. **Related**：≥5 条。
-
-### Card 6: `dk-ai-model-selection-heuristics`
-
-**类型**：dark-knowledge  
-**dark_knowledge_type**：heuristic  
-**主域**：ai-collaboration  
-**定位**：在开放创意任务中，用启发式规则判断哪个模型适合当前环节、什么时候该换模型。
-
-**必须包含的 section**：
-1. **Core Heuristics**：
-   - 任务二分：意图理解/找方向 vs 画面执行/精确生成。
-   - 能力匹配：推理型模型（Claude/GPT/DeepSeek）适合抽象沟通；生图模型（Midjourney/即梦/豆包/banana pro）适合画面执行。
-   - 上限判断：同一模型迭代 3 版无明显质变，优先考虑换模型而非调提示词。
-   - 跨模型抽卡：用不同模型扩大可能性，再由人筛选方向。
-2. **Decision Matrix**：按任务开放度 × 输出类型 × 质量要求给出模型选择建议。
-3. **When to Switch**：3 个明确信号。
-4. **Common Mistakes**：单模型硬磨、迷信最贵模型、把执行模型当策略顾问、忽略法律/注册必须交给人。
-5. **Action Triggers**：≥3 条。
-6. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
-7. **Synthesis**：桥接 `tool-ai-deliverable-polish-loop`、`dk-ai-design-pitfalls`、`human-ai-collaboration-double-triangle`、`tool-ai-use-barbell-strategy`。
-8. **Related**：≥5 条。
-
-### Card 7: `dk-sixty-point-launch-logic`
-
-**类型**：dark-knowledge  
-**dark_knowledge_type**：principle  
-**主域**：ai-collaboration / startup  
-**定位**：起盘阶段「完成比完美重要」的 AI 时代版本：不是降低标准，而是把有限资源投入生死线。
-
-**必须包含的 section**：
-1. **Core Claim**：起盘交付物常以 60 分为起点；AI 提供两种杠杆——质量拔高 10 分，或时间压缩 80%。
-2. **When to Use**：业务方向模糊、资源见底、时间窗口紧、需要快速验证或合规前置。
-3. **Why It Works**：避免完美主义自杀；释放核心带宽解决 AI 解决不了的新问题。
-4. **Failure Modes**：100 分幻想、60 分借口（无限降低标准）、把 AI 当遮羞布、跳过验收。
-5. **Action Triggers**：≥3 条。
-6. **Checklist**：≥5 项。
-7. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
-8. **Synthesis**：桥接 `case-live81-ai-trademark-design`、`tool-ai-deliverable-polish-loop`、`master-decision-hygiene`、`framework-lean-pivot-decision`。
-9. **Related**：≥5 条。
-
-### Card 8: `dk-aesthetic-judgment-triple-pool`
-
-**类型**：dark-knowledge  
-**dark_knowledge_type**：model  
-**主域**：design / decision  
-**定位**：在 AI 生成大量方案时，用「黑盒直觉 + 白盒标准 + 外部参照池」三重系统做审美判断。
-
-**必须包含的 section**：
-1. **Model**：黑盒（快速感觉不对劲）、白盒（能说清楚为什么）、池子（外部最佳实践参照系）。
-2. **How to Build Each**：
-   - 黑盒：大量看案例，记录第一直觉。
-   - 白盒：从场景/用户/品牌目标中提炼可执行标准。
-   - 池子：200/20/SABC 最佳实践池。
-3. **How to Use Together**：黑盒发现异常 → 白盒解释原因 → 池子客观校准。
-4. **Failure Modes**：只有黑盒说不出所以然、只有白盒脱离实际、只有池子变成抄袭。
-5. **Action Triggers**：≥3 条。
-6. **Examples**：用 Live81 商标调研过程做示例。
-7. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
-8. **Synthesis**：桥接 `case-live81-ai-trademark-design`、`tool-scene-design-language-translation`、`dk-yitang-research-best-practice-first`、`master-decision-hygiene`。
-9. **Related**：≥5 条。
 
 ---
 
