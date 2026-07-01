@@ -1,6 +1,6 @@
 ---
 id: task_20260702_laowantong-live81-ai-trademark-design-production
-title: Live81 AI 赋能商标设计：1 case + 1 tool + 1 dk（设计域 / AI 协作域桥接）
+title: Live81 AI 赋能商标设计：1 case + 3 tool + 4 dk（设计域 / AI 协作域桥接）
 type: task
 status: queued
 priority: P1
@@ -8,7 +8,7 @@ assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 created_at: 2026-07-02
 updated_at: 2026-07-02
-expected_cards: 3
+expected_cards: 8
 source_refs:
   - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-口述.txt
   - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-笔记.txt
@@ -17,16 +17,21 @@ source_refs:
 related:
   - case-live81-ai-trademark-design
   - tool-ai-deliverable-polish-loop
+  - tool-ai-collaboration-one-pager
+  - tool-scene-design-language-translation
   - dk-ai-design-pitfalls
+  - dk-ai-model-selection-heuristics
+  - dk-sixty-point-launch-logic
+  - dk-aesthetic-judgment-triple-pool
   - framework-一堂五步法-泛产品设计
   - human-ai-collaboration-double-triangle
   - concept-AI时代双三角竞争力
 ---
 
-# Live81 AI 赋能商标设计：1 case + 1 tool + 1 dk
+# Live81 AI 赋能商标设计：1 case + 3 tool + 4 dk
 
 > 任务来源：王语嫣入口质量门诊断 `diag_20260702_live81-ai-trademark-design.md`
-> 王语嫣判断：Live81 不是「AI 设计教程」，而是 **一堂方法论 + AI 协作 + 调研方法 + 决策卫生在「AI 交付物打磨」场景下的综合实例化**。核心价值在跨域桥接，应产出 1 case + 1 tool + 1 dk，并反向补链 10 张已有卡。
+> 王语嫣判断：Live81 不是「AI 设计教程」，而是 **一堂方法论 + AI 协作 + 调研方法 + 决策卫生在「AI 交付物打磨」场景下的综合实例化**。核心价值在跨域桥接与暗知识沉淀，应产出 **1 case + 3 tool + 4 dk**，并反向补链 13 张已有卡。
 
 ---
 
@@ -39,7 +44,7 @@ related:
 
 ---
 
-## 二、3 张目标卡
+## 二、8 张目标卡
 
 ### Card 1: `case-live81-ai-trademark-design`
 
