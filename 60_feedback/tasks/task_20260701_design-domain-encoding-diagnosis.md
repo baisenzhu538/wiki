@@ -1,11 +1,11 @@
 ---
 id: task_20260701_design-domain-encoding-diagnosis
 type: task
-status: queued
-assignee: 老顽童(WorkBuddy)
+status: in_progress
+assignee: kimi
 priority: P1
 created_at: 2026-07-01
-updated_at: 2026-07-01
+updated_at: '2026-07-01T13:22:20.421974+00:00'
 reviewer: 欧阳锋
 source_refs:
 - 60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md

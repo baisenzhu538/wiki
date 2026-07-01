@@ -40,6 +40,7 @@ audience: 欧阳锋 / 黄药师 / 老顽童 / 洪七公 / 段王爷
 | 《吾辈如神》条件性纳入试点 | 老顽童(Hermes)生产 / 欧阳锋审查 / 王语嫣编排 | 🟡 queued | 1 张 concept 卡（`concept-cognitive-offloading-in-ai-era`），扩量需终审通过 + 二次诊断 |
 | KDO index/lint wikilink 格式对齐 | 黄药师 | 🟡 queued | 修复 KDO 代码中 index/lint 的 wikilink 格式不一致，使 strategy 148 个 / 全库约 700+ WARNING 误报清零 |
 | design domain 编码损坏诊断 | 老顽童(WorkBuddy) / 欧阳锋审查 | 🟡 queued | 只读诊断 design 域编码损坏根因，给出分类标签与后续处理建议；诊断完成前禁止批量修改 design 文件 |
+| 时间管理域卡片化与升级 | 老顽童(Kimi) / 欧阳锋审查 | 🟡 queued | 洪七公 OCR+VLM 预处理完成；升级 `yt-personal-time-management` + 新建三元模型 framework + 深度工作冰山 concept；首批 3 张卡 |
 | 决策域 domain digest | 黄药师 | 🟡 待启动 | 1 张索引卡 |
 | 需求分析域 domain digest | 黄药师 | 🟡 待启动 | 1 张索引卡 |
 | 五步法子域 domain digest | 黄药师 | 🟡 待启动 | 1 张索引卡 |

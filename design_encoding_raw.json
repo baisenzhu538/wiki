@@ -1,0 +1,3334 @@
+[
+  {
+    "path": "30_wiki\\dark-knowledges\\dk-yb27-pseudo-layer-evasion.md",
+    "bytes": 3781,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xab in position 86: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0x9b in position 52: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-按分阶练习路径渐进掌握方法.md",
+    "bytes": 1976,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 52: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-80分效率设计策略.md",
+    "bytes": 2201,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xa5 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-A-B双轨反推模式选择.md",
+    "bytes": 1781,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 59: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AIGC产品白底图制作.md",
+    "bytes": 2040,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x9c in position 45: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AIGC人群画像驱动详情页规划.md",
+    "bytes": 1866,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x92 in position 57: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AIGC反向拆解法.md",
+    "bytes": 1831,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 39: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AIGC文字大小精确控制.md",
+    "bytes": 2025,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 60: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AIGC模型选型决策法.md",
+    "bytes": 2208,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 45: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AIGC橱窗陈列设计流程.md",
+    "bytes": 2049,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 60: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AIGC海报信息优先级排序法.md",
+    "bytes": 2068,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 66: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AIGC生成人物证件照.md",
+    "bytes": 1763,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xa7 in position 45: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AIGC设计作业复盘法.md",
+    "bytes": 1973,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 45: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AIGC餐饮海报优化一抽流.md",
+    "bytes": 2195,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 45: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI一句话改图尺寸.md",
+    "bytes": 1892,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 25: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI人物特征精准描述法.md",
+    "bytes": 2375,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 49: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI去字-稿定设计加字工作流.md",
+    "bytes": 1987,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x81 in position 56: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI去文字-稿定设计快速出图法.md",
+    "bytes": 2055,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x97 in position 31: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI图片印刷落地预处理.md",
+    "bytes": 2269,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x86 in position 49: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI图片去文字处理.md",
+    "bytes": 1893,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x86 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI图片风格逆向提取（抄图法）.md",
+    "bytes": 2085,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x89 in position 61: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI图生图尺寸快速转换.md",
+    "bytes": 1949,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xa2 in position 49: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI对话式海报修改（免PS）.md",
+    "bytes": 1962,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x89 in position 54: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI对话情绪管理法.md",
+    "bytes": 1942,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI工艺图人工复核法.md",
+    "bytes": 2040,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 58: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI平台算法咨询法.md",
+    "bytes": 2032,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI归纳共性描述法.md",
+    "bytes": 1843,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 33: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI抽卡效率控制法.md",
+    "bytes": 2213,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI提示词精准约束法.md",
+    "bytes": 2014,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 58: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI改图指令精细化.md",
+    "bytes": 2034,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x96 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI智价比评估决策.md",
+    "bytes": 1883,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x96 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI模型选择决策法.md",
+    "bytes": 2098,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI模型选择策略.md",
+    "bytes": 2126,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 52: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI海报快速生成法（15分钟无PS）.md",
+    "bytes": 2005,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 33: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI生图与图生图决策法.md",
+    "bytes": 2027,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 49: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI生成IP表情包.md",
+    "bytes": 1895,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x85 in position 39: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI生成图小字控制法.md",
+    "bytes": 1997,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 58: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI生成图片排版控制-尺寸优先法.md",
+    "bytes": 2067,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI生成棉花娃娃形象.md",
+    "bytes": 1977,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 58: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI生成电商白底图.md",
+    "bytes": 2030,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xbe in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI电商图人工过审处理.md",
+    "bytes": 2411,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x86 in position 49: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI精准替换产品技巧.md",
+    "bytes": 2049,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI自动生成多语种专业名词提示词.md",
+    "bytes": 2160,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 76: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI设计-质价比-决策框架.md",
+    "bytes": 2180,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x94 in position 38: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI设计三段式里程碑流程.md",
+    "bytes": 1919,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 64: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI设计严苛批评法.md",
+    "bytes": 1989,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI设计反馈萃取法.md",
+    "bytes": 1920,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI设计底层逻辑：从设计到作图到改图.md",
+    "bytes": 2247,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 82: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI设计落地文件标准生成.md",
+    "bytes": 2035,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 64: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI设计里程碑拆解法.md",
+    "bytes": 2110,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 58: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI课程内容深度梳理法.md",
+    "bytes": 2010,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 49: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI质价比评估方法.md",
+    "bytes": 1899,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI逆向反推描述法.md",
+    "bytes": 1824,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI需求拆解咨询法.md",
+    "bytes": 2004,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 25: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI高清重绘去模糊.md",
+    "bytes": 1980,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x8a in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-PPT全AI生成工作流.md",
+    "bytes": 1932,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x81 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-PPT内容框架AIGC生成法.md",
+    "bytes": 1742,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 48: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-PPT风格锁定工作流.md",
+    "bytes": 1909,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x81 in position 44: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-PS图层规范管理.md",
+    "bytes": 1753,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 52: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-RGB转CMYK印刷预检.md",
+    "bytes": 1868,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 54: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-RGB转CMYK色彩校准法.md",
+    "bytes": 1942,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 45: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-Token效价比决策公式.md",
+    "bytes": 1987,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x8f in position 46: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-Token效价比决策法.md",
+    "bytes": 1963,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 55: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-Token智甲比控制法.md",
+    "bytes": 2204,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 55: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-一抽流改图法（自然语言精准许愿法）.md",
+    "bytes": 2096,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 23: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-一抽流长提示词写作法.md",
+    "bytes": 1977,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 23: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-三步作业反馈法.md",
+    "bytes": 1745,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-产品反光修复术.md",
+    "bytes": 1846,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xaf in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-产品替换式场景合成法.md",
+    "bytes": 2048,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-产品白底图标准化制作.md",
+    "bytes": 1871,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-产品风格选择：测而非定.md",
+    "bytes": 2110,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x9a in position 53: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-价格带视觉策略匹配.md",
+    "bytes": 2093,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x8d in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-供应商信息对齐清单法.md",
+    "bytes": 2145,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-像素图高清重绘修复法.md",
+    "bytes": 1974,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-光影灰度控制能力构建.md",
+    "bytes": 2089,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-关键要素提取改图法.md",
+    "bytes": 1864,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-具体化优点萃取与复用.md",
+    "bytes": 2053,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-分层自洽海报生成法.md",
+    "bytes": 1923,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-分步迭代改图法.md",
+    "bytes": 1907,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-创作与执行双模式切换.md",
+    "bytes": 1843,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-包材工艺参数核对法.md",
+    "bytes": 2087,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-卖点可视化海报设计法.md",
+    "bytes": 2013,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-印刷DPI标准设置.md",
+    "bytes": 1896,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 53: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-叙事性场景海报构建.md",
+    "bytes": 2010,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xba in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-口喷作图工作流.md",
+    "bytes": 1983,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x81 in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-口喷式AIGC设计法.md",
+    "bytes": 2231,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 42: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-口喷式设计工作流.md",
+    "bytes": 1839,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 56: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-口述作图法（口喷设计）.md",
+    "bytes": 2080,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x89 in position 53: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-后台数据AI诊断法.md",
+    "bytes": 1962,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-商业项目AI模型选型决策.md",
+    "bytes": 2031,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 64: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-图像信息逆向解析训练.md",
+    "bytes": 1981,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-图片逆向反推提示词法.md",
+    "bytes": 2230,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-图片逆向提示词提取.md",
+    "bytes": 2105,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x96 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-图生图产品替换与场景合成.md",
+    "bytes": 2179,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 68: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-圈图指定修改法.md",
+    "bytes": 1862,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-基于基础形象做动作延展（1到10）.md",
+    "bytes": 2033,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xb0 in position 60: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-基于白底图做动作延展.md",
+    "bytes": 1811,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-基于需求拆解找设计参考.md",
+    "bytes": 2082,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 29: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-多窗口并行工作法.md",
+    "bytes": 1853,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 56: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-多语种专业名词提示词策略.md",
+    "bytes": 2136,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 68: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-多语言提示词精准法.md",
+    "bytes": 2083,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 29: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-多语言提示词降幻觉法.md",
+    "bytes": 1954,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 29: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-官方提示词最佳实践迁移.md",
+    "bytes": 1949,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xbb in position 53: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-实物包装产业链实践.md",
+    "bytes": 2109,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xb5 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-实物包装落地训练法.md",
+    "bytes": 2007,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-审美刻意练习法.md",
+    "bytes": 1842,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-封面情绪转化法.md",
+    "bytes": 1982,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-小红书双重搜索法.md",
+    "bytes": 1785,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 56: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-小红书封面趋势判断法.md",
+    "bytes": 2162,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-小红书平台内容策略：从美图经济到沙雕梗图.md",
+    "bytes": 2296,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 92: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-工厂对接信息清单制作.md",
+    "bytes": 2082,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-左手Cubox右手里程碑学习法.md",
+    "bytes": 2003,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 67: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-左脑画面描述训练法.md",
+    "bytes": 2112,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-强约束画面尺寸比例.md",
+    "bytes": 1924,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x8b in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-微信公众号封面AI设计-尺寸强约束法.md",
+    "bytes": 2226,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 80: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-手机外设计逻辑切换法.md",
+    "bytes": 1989,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 37: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-手绘草稿AI转化工作流.md",
+    "bytes": 2102,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x81 in position 49: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-批量生成多视角素材.md",
+    "bytes": 1870,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x90 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-找AI要平台专属方法（模型对抗法）.md",
+    "bytes": 2078,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 79: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-控制产品画面尺寸比例.md",
+    "bytes": 1919,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-提示词优化：信息流海报文字修复.md",
+    "bytes": 2048,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x8d in position 65: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-提示词长度控制法.md",
+    "bytes": 2189,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 56: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-文件命名与图层命名规范.md",
+    "bytes": 1950,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x83 in position 53: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-文件命名与存档规范（口述暗示）.md",
+    "bytes": 1905,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x89 in position 65: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-文件命名与平台适配规范.md",
+    "bytes": 1820,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-文创产品AI设计到生产的卡点预判.md",
+    "bytes": 2208,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 76: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-文创材质成本调研与精益选择.md",
+    "bytes": 2001,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 55: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-文创材质调研与精益选择.md",
+    "bytes": 1958,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 49: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-新媒体平台流量逻辑-问平台亲儿子AI法.md",
+    "bytes": 2415,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-新媒体热点物料快速迭代法.md",
+    "bytes": 1988,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 68: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-新手设计师基本功训练法.md",
+    "bytes": 2087,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 53: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-普通人AI快速上手法.md",
+    "bytes": 2011,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 25: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-普通人AI设计80分法则.md",
+    "bytes": 2047,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 25: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-智能扩图-拓图双方案.md",
+    "bytes": 2003,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x88 in position 48: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-替换大法改图.md",
+    "bytes": 1822,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 50: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-最佳实践素材收集法.md",
+    "bytes": 1875,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 23: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-服务体验类去AI感设计.md",
+    "bytes": 2189,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xa1 in position 49: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-未知领域审美建构法.md",
+    "bytes": 2133,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-模型性价比选型决策.md",
+    "bytes": 2092,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 37: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-模型识别与边界测试法.md",
+    "bytes": 1916,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-正向反馈强化AI生成.md",
+    "bytes": 2074,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 58: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-泛产品设计能力迁移法.md",
+    "bytes": 2078,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-海报二维码快速替换法.md",
+    "bytes": 1900,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-海报文字错误修复法.md",
+    "bytes": 1919,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-灵感画布建立法.md",
+    "bytes": 1968,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-烧Token快速积累体感.md",
+    "bytes": 1881,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 33: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-用AIGC做设计专家批评复盘.md",
+    "bytes": 1996,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x98 in position 54: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-用一堂方法论找最佳实践并拉满执行.md",
+    "bytes": 1879,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 80: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-电商场景图三类分类法.md",
+    "bytes": 2147,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-电商场景图三类构建法.md",
+    "bytes": 2092,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-电商白底图生成与场景图匹配.md",
+    "bytes": 2014,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x8d in position 59: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-电商白底图生成与高清处理.md",
+    "bytes": 1972,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 68: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-电商白底图生成与高清重绘.md",
+    "bytes": 2015,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 68: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-电商详情页起承转合架构法.md",
+    "bytes": 2099,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 68: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-眼高手低训练法.md",
+    "bytes": 1832,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-眼高手低转化法.md",
+    "bytes": 1826,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-短视频封面-音量战争-设计法.md",
+    "bytes": 2146,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xa2 in position 35: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-短视频封面一秒吸睛法.md",
+    "bytes": 2021,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-短视频封面高亮吸睛法.md",
+    "bytes": 1963,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-社群直播海报利益点提炼法.md",
+    "bytes": 2018,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 68: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-竞品图精益替换法.md",
+    "bytes": 1819,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 56: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-精准共用提示词撰写.md",
+    "bytes": 2040,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x99 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-精准提示词撰写法.md",
+    "bytes": 1920,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 56: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-精准提示词消除模型幻觉.md",
+    "bytes": 1940,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x89 in position 53: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-精准改图提示词写法.md",
+    "bytes": 1813,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-纳米级抄大师训练法.md",
+    "bytes": 2102,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-线下实体门店设计真实体感验证.md",
+    "bytes": 1962,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 74: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-线下门店设计复杂度评估.md",
+    "bytes": 2054,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xb0 in position 53: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-背景消除与分辨率修复.md",
+    "bytes": 2003,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-色块分区控制法.md",
+    "bytes": 1820,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-薅AIGC羊毛资源法.md",
+    "bytes": 2430,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 42: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-行业配色快速确定法.md",
+    "bytes": 1899,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 37: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-表情包风格筛选与确定.md",
+    "bytes": 1903,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-视角替换专用提示法.md",
+    "bytes": 1847,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-设计参考图精准定位法.md",
+    "bytes": 2057,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 31: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-设计基本功回归法.md",
+    "bytes": 1887,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 56: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-设计师AI工具习惯切换.md",
+    "bytes": 2154,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 61: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-设计师AI资产四类型沉淀.md",
+    "bytes": 2153,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 52: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-设计文件八要素命名法.md",
+    "bytes": 2305,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-设计素材脱敏处理规范.md",
+    "bytes": 2146,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-设计能力蒸馏封装法.md",
+    "bytes": 2152,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 47: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-设计需求口头化表达法.md",
+    "bytes": 2069,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 29: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-设计项目MVP拆解法.md",
+    "bytes": 2179,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 44: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-设计项目里程碑拆解法.md",
+    "bytes": 1856,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-课程资料文件命名规范.md",
+    "bytes": 1796,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-课程问题预埋法.md",
+    "bytes": 1825,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-资深设计师AI工具切换法.md",
+    "bytes": 2052,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 52: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-跨境电商产品图替换法.md",
+    "bytes": 2099,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 62: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-醒图人脸精修法.md",
+    "bytes": 1859,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-里程碑思维-找对标优先于做设计.md",
+    "bytes": 1871,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 31: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-里程碑思维拆解设计流程.md",
+    "bytes": 2136,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 31: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-风格不变局部调整.md",
+    "bytes": 1863,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x80 in position 35: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-风格探索试错法.md",
+    "bytes": 1814,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 41: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-餐饮海报AB测试法.md",
+    "bytes": 1913,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 43: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-餐饮类线下设计调性把控.md",
+    "bytes": 2111,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0xa7 in position 53: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  },
+  {
+    "path": "30_wiki\\tools\\tool-李诞-内容创作中的观察训练法.md",
+    "bytes": 1921,
+    "chardet": {
+      "encoding": "utf-8",
+      "confidence": 0.99,
+      "language": "zh",
+      "mime_type": "text/plain"
+    },
+    "decodings": {
+      "utf-8": "OK",
+      "utf-8-sig": "OK",
+      "gb18030": "ERROR: 'gb18030' codec can't decode byte 0x95 in position 53: illegal multibyte sequence",
+      "big5": "ERROR: 'big5' codec can't decode byte 0xe6 in position 14: illegal multibyte sequence",
+      "latin-1": "OK"
+    }
+  }
+]
