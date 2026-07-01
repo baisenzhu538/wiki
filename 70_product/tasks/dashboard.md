@@ -71,6 +71,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | kdo-infrastructure-backlog-proposal | 黄药师 KDO 基础设施 backlog 提案 | approved | 黄药师 | P0-P2 | kdo-infrastructure-backlog-proposal.md |
 | calibration-understanding-gate-motivation-peakend | 校准任务：用两张旧卡建立理解深度标尺 | completed | 黄药师 | P1 | calibration-understanding-gate-motivation-peakend.md |
 | sprint-13-kdo-mechanism-iterations | Sprint 13：KDO 机制迭代——lint 基线、卡片清册、变更 diff、理解门禁辅助 | completed | 黄药师 | P1 | sprint-13-kdo-mechanism-iterations.md |
+| task_20260701_wangyuyan-wobeirushen-pilot-orchestration | 《吾辈如神》条件性纳入 + 1 张试点卡 | queued | 老顽童(Hermes) | P1 | task_20260701_wangyuyan-wobeirushen-pilot-orchestration.md | 王语嫣基于验证报告编排：B 级素材，AI 协作域缺「认知边界/心态层」；试点 `concept-cognitive-offloading-in-ai-era`；纠偏 BMW 85%/AGI 2029/AI 无法创造；扩量需终审通过 + 二次诊断 |
 
 ---
 
