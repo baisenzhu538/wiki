@@ -1556,6 +1556,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[domains/decision-science-domain-digest]]
 - [[frameworks/framework-decision-cognitive-bias-map]]
 
+## [[concept-abundance-paradox]]
+- [[concepts/concept-cognitive-offloading-in-ai-era]]
+- [[tools/tool-ai-use-barbell-strategy]]
+
 ## [[concept-ai-amara-law-business-judgment]]
 - [[cases/case-ai-companion-emotional]]
 - [[cases/case-ai-job-displacement-wef]]
@@ -1601,6 +1605,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[concept-ceo-must-do-user-research]]
 - [[dark-knowledges/dk-modeling-radar-model-not-result]]
 
+## [[concept-cognitive-offloading-in-ai-era]]
+- [[concepts/concept-abundance-paradox]]
+- [[tools/tool-ai-use-barbell-strategy]]
+
 ## [[concept-feishu-api-pagination-trap]]
 - [[concepts/concept-streaming-extraction-pattern]]
 - [[dark-knowledges/dk-p3-auth-cache]]
@@ -1621,6 +1629,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[concept-ji-hao-ai-collaboration-methodology]]
 - [[concepts/concept-cognitive-offloading-in-ai-era]]
 - [[concepts/concept-半肥猫-ai-learning-toolification-methodology]]
+- [[tools/tool-ai-use-barbell-strategy]]
 - [[tools/tool-半肥猫-边学边练边沉淀的AI学习法]]
 
 ## [[concept-maister-trusted-advisor]]
@@ -3252,6 +3261,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dk/dk-yitang-deliberate-practice-common-traps]]
 - [[frameworks/framework-yitang-deliberate-practice-1plus4]]
 - [[frameworks/framework-yitang-three-ring-ability-focus]]
+- [[tools/tool-ai-use-barbell-strategy]]
 - [[tools/tool-yitang-best-practice-as-golden-finger]]
 - [[tools/tool-yitang-feedback-self-check]]
 - [[tools/tool-yitang-practice-20hour-starter]]
@@ -3307,6 +3317,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[framework-decision-cognitive-bias-map]]
 - [[cases/case-decision-ai-assisted-vs-human]]
+- [[concepts/concept-abundance-paradox]]
 - [[dark-knowledges/dk-decision-when-to-defer]]
 - [[domains/decision-science-domain-digest]]
 - [[frameworks/framework-decision-quality-checklist]]
@@ -3861,6 +3872,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-research-deep-attribution]]
 
 ## [[framework-yitang-nine-layer-deep-dig]]
+- [[concepts/concept-abundance-paradox]]
 - [[concepts/concept-cognitive-offloading-in-ai-era]]
 - [[dark-knowledges/dk-yitang-channel-exploration-traps]]
 - [[frameworks/framework-kdo-self-attack]]
@@ -3868,6 +3880,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-growth-flywheel]]
 - [[frameworks/framework-yitang-iterative-recursive-digging]]
 - [[frameworks/framework-yitang-research-weapon-supplement-2026]]
+- [[tools/tool-ai-use-barbell-strategy]]
 - [[tools/tool-key-assumptions-check]]
 
 ## [[framework-yitang-oscar-research]]
@@ -4277,6 +4290,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/ai-complex-communication]]
 
 ## [[master-antifragile-checklist]]
+- [[concepts/concept-abundance-paradox]]
 - [[concepts/graph-rag]]
 - [[concepts/master-ai-info-literacy]]
 - [[concepts/master-cognitive-bias-checklist]]
@@ -4291,6 +4305,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-research-mindset]]
 - [[concepts/yt-research-osl-framework]]
 - [[tools/smart-medicine-cabinet-financial-model]]
+- [[tools/tool-ai-use-barbell-strategy]]
 
 ## [[master-cognitive-bias-checklist]]
 - [[cases/smart-medicine-cabinet-clinic-risk-observation]]
@@ -4322,6 +4337,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[master-decision-hygiene]]
 - [[cases/smart-medicine-cabinet-clinic-risk-observation]]
+- [[concepts/concept-abundance-paradox]]
 - [[concepts/concept-cognitive-offloading-in-ai-era]]
 - [[concepts/master-ai-info-literacy]]
 - [[concepts/master-antifragile-checklist]]
@@ -7981,6 +7997,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-ai-old-small-checklist]]
 - [[tools/tool-ai-prd-for-ai]]
 - [[tools/tool-ai-purpose-bias-check]]
+
+## [[tool-ai-use-barbell-strategy]]
+- [[concepts/concept-abundance-paradox]]
+- [[concepts/concept-cognitive-offloading-in-ai-era]]
 
 ## [[tool-ai-voice-input-doubao]]
 - [[concepts/voice-input-doubao]]

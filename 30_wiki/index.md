@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-07-01T15:07:28+00:00_
+_Last updated: 2026-07-01T15:20:36+00:00_
 
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[_archive/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -309,6 +309,7 @@ _Last updated: 2026-07-01T15:07:28+00:00_
 - [[concepts/challenge-point-design|挑战点设计]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
 - [[concepts/comfort-zone-expansion|舒适区扩展]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
 - [[concepts/completion-criteria-design|完成标准设定]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
+- [[concepts/concept-abundance-paradox|富足悖论：为什么技术越富足，新问题越多]] — source `60_feedback/audit/20260701-wobeirushen-validation-report.md`
 - [[concepts/concept-ai-amara-law-business-judgment|阿马拉定律与商业判断校准]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[concepts/concept-ai-chair-determines-view|椅子决定视角]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[concepts/concept-ai-information-quality-ladder|信息质量阶梯]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
@@ -1404,6 +1405,7 @@ _Last updated: 2026-07-01T15:07:28+00:00_
 - [[tools/tool-ai-skill-engineering-guide|高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[tools/tool-ai-skill-engineering-method|AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[tools/tool-ai-system-redundancy|技能：系统冗余度快速检查清单]] — source `src_unknown`
+- [[tools/tool-ai-use-barbell-strategy|AI 使用杠铃策略：把任务分成高 AI 区和无 AI 区]] — source `60_feedback/audit/20260701-wobeirushen-validation-report.md`
 - [[tools/tool-ai-voice-input-doubao|技能：口喷式语音输入法]] — source `src_unknown`
 - [[tools/tool-ai2041-source-verification-checklist|AI 预测来源验证检查单]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[tools/tool-ai辅助学习|技能：AI辅助学习]] — source `10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`

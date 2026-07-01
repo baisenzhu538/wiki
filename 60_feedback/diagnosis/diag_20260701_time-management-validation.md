@@ -315,4 +315,21 @@ updated_at: 2026-07-01
 
 ---
 
+## 八、方案调整记录
+
+2026-07-01 黄药师提交《时间管理素材的跨域桥接——王语嫣诊断返工》建议书，指出原 9 卡方案过度原子化，把课程降解为孤立概念，真正价值在于「一堂五步法在自管理场景下的完整实例化」。
+
+**王语嫣独立判断**：
+1. **接受黄药师核心 critique**：原 9 卡方案（3 理论 + 3 案例 + 3 dk）确实稀释了跨域桥接价值。
+2. **增加操作厚度**：用户未来需要「每天任务咨询」级别的操作细度，不能只做 1 张薄桥接卡。
+3. **最终方案**：从 9 卡压缩为 **3 张高密度卡** + 反向更新 ≥10 张已有框架卡 related：
+   - `framework-yitang-five-step-to-time-management`：五步法→时间管理完整映射 + 10 个方法论桥接 + 三门模型/深度工作/双峰/暗时间等 operational section。
+   - `tool-personal-time-audit-loop`：日/周时间审计 + 2 周实验循环 + 可直接抄作业的 Markdown 模板。
+   - `dk-time-management-common-mistakes`：工具迷信、二极管思维、边界模糊 3 个反模式 + 一堂方法论反打。
+4. **不再单独成卡**：双峰哲学、暗时间、场景激发、状态触发、工作深度冰山等吸收为 framework/tool 的 section；Truman 个人案例作为 inline example；不新建孤立术语解释卡。
+
+调整后任务单：`70_product/tasks/task_20260701_wangyuyan-time-management-domain-orchestration.md`。
+
+---
+
 *王语嫣 2026-07-01*

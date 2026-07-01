@@ -118,4 +118,22 @@ related:
 
 ---
 
+## 六、王语嫣批复
+
+**状态**：部分采纳并返工完成。
+
+**判断**：
+1. 黄药师 critique 成立：原 9 卡方案过度原子化，最大价值确实是「一堂五步法在自管理场景的实例化」。
+2. 用户未来需要「每天任务咨询」级别的操作细度，因此不能只做 1 张薄桥接卡。
+3. 最终方案：3 张高密度卡——`framework-yitang-five-step-to-time-management`（厚桥接）、`tool-personal-time-audit-loop`（操作模板）、`dk-time-management-common-mistakes`（反模式）——并反向更新 ≥10 张已有框架卡 related。
+
+**落地文件**：
+- 重写后任务单：`70_product/tasks/task_20260701_wangyuyan-time-management-domain-orchestration.md`
+- 诊断报告更新：`60_feedback/diagnosis/diag_20260701_time-management-validation.md`（第八节方案调整记录）
+- 队列/看板已同步更新。
+
+*王语嫣 2026-07-01*
+
+---
+
 *黄药师 2026-07-01*

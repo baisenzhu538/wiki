@@ -1,14 +1,14 @@
 ---
 id: task_20260701_wangyuyan-time-management-domain-orchestration
-title: 时间管理域卡片化与升级
+title: 时间管理域升级：从 9 张孤立卡调整为 3 张高密度桥接卡
 type: task
 status: queued
 priority: P2
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 created_at: 2026-07-01
-updated_at: 2026-07-01
-expected_cards: 9
+updated_at: 2026-07-01T16:00:00+00:00
+expected_cards: 3
 source_refs:
   - 00_inbox/时间管理/truman-时间管理课程-口述.txt
   - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
@@ -20,307 +20,282 @@ source_refs:
   - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
   - 00_inbox/时间管理/_processed/vlm_summary.json
   - 60_feedback/diagnosis/diag_20260701_time-management-validation.md
+  - 60_feedback/tasks/task_20260701_huangyaoshi-proposal-time-management-bridge.md
+related:
+  - yt-personal-time-management
+  - framework-yitang-five-step-to-time-management
+  - tool-personal-time-audit-loop
+  - dk-time-management-common-mistakes
 ---
 
-# 时间管理域卡片化与升级
+# 时间管理域升级：从 9 张孤立卡调整为 3 张高密度桥接卡
 
-> 任务来源：王语嫣入口质量门诊断（`60_feedback/diagnosis/diag_20260701_time-management-validation.md`）
-> 诊断结论：素材综合评级 **A-/B+**，高价值、值得纳入。
-> 核心纠偏：Truman 的「5-10 倍」「500%」等数字降级为课程主张；L1-L6、三元模型等标注为一堂课程模型，非普适量表。
-
----
-
-## 一、任务目标
-
-把一堂科学时间管理课程（Truman，2026）沉淀为 **可迁移的理论卡 + 可复刻的案例卡 + 可直接抄作业的暗知识卡**，填补 KDO 在「个人时间管理方法论」域的缺口。
-
-| 层次 | 数量 | 作用 |
-|:---|:---:|:---|
-| 理论层 | 3 张 | 建立认知框架 |
-| 案例层 | 3 张 | 提供可迁移的真实实验 |
-| 暗知识层 | 3 张 | 提供可直接尝试的启发式 / SOP |
-| **合计** | **9 张** | 形成「知道为什么→看到怎么做→拿到具体技巧」的完整知识链 |
+> 任务来源：王语嫣入口质量门诊断 + 黄药师跨域桥接建议书
+> 王语嫣独立判断：黄药师 critique 成立——原 9 卡方案过度原子化，把一堂时间管理课程降解为孤立概念；真正价值是「一堂五步法在自管理场景下的完整实例化」。但用户未来需要**每天任务咨询级别的操作细度**，因此不能只做 1 张薄桥接卡，而要产出 **1 张厚桥接 framework + 1 张日常审计 tool + 1 张反模式 dk**，并把 10+ 已有框架卡双向链接补齐。
 
 ---
 
-## 二、素材清单
+## 一、王语嫣独立判断
 
-| 素材 | 形式 | 核心覆盖 | 质量 |
-|:---|:---|:---|:---:|
-| `truman-时间管理课程-口述.txt` | 口述转录（2624 行） | 课程完整讲述 + Truman 个人 2-3 年迭代实验 | A- |
-| `truman-时间管理课程-笔记.txt` | 结构化笔记（176 行） | 核心概念、精华、术语解释 | B+ |
-| `时间管理_整合笔记.md` | VLM + 人工整合 | 五大图解 + 口述要点结构化 | A- |
-| `vlm_summary.json` | 5 张图解 OCR + 解析 | 修炼进阶图、冰山图、矩阵图、双环矩阵、双峰模型 | A- |
+### 1.1 黄药师建议书的核心价值
+
+黄药师指出：
+- 一堂时间管理课不是一门「新课」，而是 **一堂五步法在「管理自己」场景下的实例化**。
+- 10 个方法论映射（需求分析→科学建模派、泛产品设计→三门模型、五步法阶梯→L1-L6、Y 模型→科学管理循环、刻意练习→刻意练习四要素、需求冰山→工作深度冰山、场景分层→双峰哲学、决策卫生→灰度精进、学习曲线→工具迷信→自己建模、单元模型→时间 ROI）才是这张素材的最大公约数。
+- 1 张桥接 framework 卡 + 10 张已有卡 related 更新，比 9 张孤岛概念卡更有连接密度。
+
+**判断：接受。** 原 9 卡方案（3 理论 + 3 案例 + 3 dk）确实把课程拆成了孤立概念，会稀释跨域价值。
+
+### 1.2 为什么不能只做 1 张薄桥接卡
+
+用户明确说：「时间管理域将来要结合深度的内容和一堂的知识，对我进行深度的每天的一个任务咨询，内容一定要做得足够细」。
+
+只做 1 张 framework 桥接卡会出现两个问题：
+1. **操作细节不够**：daily consulting 需要具体步骤、模板、触发器、检查清单，不能只有概念映射。
+2. **没有持续迭代机制**：时间管理是每周/每天重复的实验循环，需要一张 tool 卡承载「时间审计 → 假设 → 实验 → 复盘」。
+
+**判断：在桥接 framework 之外，增加 1 张 operational tool 卡和 1 张 dk 反模式卡。本次上限 3 张卡，封账。**
+
+### 1.3 最终方案
+
+| 卡 | 类型 | 定位 | 与黄药师建议的关系 |
+|:---|:---|:---|:---|
+| `framework-yitang-five-step-to-time-management` | framework | 五步法→时间管理的完整桥接；包含 10 个方法论映射、五步法映射、三元模型、深度工作、双峰、暗时间、灰度精进、时间 ROI | 接受黄药师核心建议，但把内容做厚 |
+| `tool-personal-time-audit-loop` | tool | 个人时间审计与实验循环：日级/周级时间审计、假设生成、2 周实验、复盘模板 | 补充黄药师未覆盖的日常咨询操作层 |
+| `dk-time-management-common-mistakes` | dark-knowledge | 3 个常见陷阱（工具迷信、二极管思维、边界模糊）+ 一堂方法论反打 | 接受黄药师建议 |
+
+**不再单独成卡的内容**（吸收进上述 3 张卡作为 section）：
+- 双峰哲学、暗时间、场景激发、状态触发、工作深度冰山 L1-L5 → 作为 framework 的 operational section。
+- Truman 通勤/文案/会议室案例 → 作为 framework/tool 的 inline example。
+- 孤立术语解释 → 不建卡。
 
 ---
 
-## 三、高价值段落索引（王语嫣详细标注）
+## 二、3 张卡详细规格
 
-### 3.1 核心定义与边界（P0）
+### 2.1 Card 1: `framework-yitang-five-step-to-time-management`
 
-| 主题 | 素材位置 | 建议出卡 | 关键引用 |
-|:---|:---|:---|:---|
-| 科学时间管理定义 | 口述 160-168 行 | `yt-personal-time-management` | "针对自己的时间、精力和眼下的任务，持续迭代，成倍提升自己的时间 ROI" |
-| 课程边界 | 口述 150-156 行 | `yt-personal-time-management` | 只讲个人工作时间的科学配置；不讲人生成功/精力管理/项目管理 |
-| 三大流派批判 | 口述 110-135 行 | `yt-personal-time-management` Critique | 人生成功派、模糊泛化派、神奇工具派 |
-| 三大认知误区 | 笔记 8-21 行 | `yt-personal-time-management` | 工具迷信、边界模糊、二极管思维 |
-| L1-L6 修炼进阶 | 修炼进阶图 / 口述 2360-2382 行 | `yt-personal-time-management` | 忽略时间→套用工具→善用工具→自己建模→创新实验→持续迭代 |
-| 三次飞跃 | 口述 736-756 行 / 1350-1368 行 | `yt-personal-time-management` | 从粗放到工具 → 从工具到建模 → 从建模到创新 |
-| 六大自我修养 | 口述 1756-2204 行 | `yt-personal-time-management` | 破除工具迷信、善于选择工具、深刻理解任务/时间/匹配、理解背后原理、持续提出假设 |
-| 刻意练习四要素 | 口述 2384-2414 行 | 桥接 `yt-personal-deliberate-practice` | 稳定模型、非舒适区、大量重复、持续反馈 |
+**类型**：framework  
+**主域**：personal-growth  
+**confidence**：0.88  
+**trust_level**：medium  
+**核心主张**：时间管理不是独立方法论，而是一堂五步法在「自管理」场景的实例化。
 
-### 3.2 三元模型（P0）
+**必须包含的 section**：
 
-| 主题 | 素材位置 | 建议出卡 | 关键引用 |
-|:---|:---|:---|:---|
-| 时间·任务·匹配三元模型 | 口述 358 行 / 整合笔记 35-51 行 | `framework-yitang-time-management-triad` | "你建模也就这三个模型，没有第四个了" |
-| 时间模型的四层理解 | 口述 1770-1832 行 | `framework-yitang-time-management-triad` | 7×24 格子 → 大块小块 → 波峰波谷 → 场景质量 |
-| 事情模型 L1-L5 | 口述 1574-1606 行 / 冰山图 | `concept-yitang-deep-work-iceberg` | 事情除大小、重要紧急外，最重要的维度是深度 |
-| 匹配模型三原则 | 口述 1906-2068 行 | `framework-yitang-time-management-triad` | 大对大/小对小、双峰哲学、暗时间 |
+1. **Definition & Boundary**
+   - 一堂科学时间管理课的定义（针对自己的时间、精力、任务，持续迭代，提升时间 ROI）。
+   - 边界：只讲个人工作时间的科学配置；不讲人生成功、精力管理、项目管理。
 
-### 3.3 深度工作冰山图（P0）
+2. **Why This Bridge Matters**
+   - 市场常见时间管理课的问题：人生成功派（太虚）、模糊泛化派（无法操作）、神奇工具派（迷信工具）。
+   - 一堂解法的独特处：用已有方法论体系（五步法）重新框定时间管理，避免从零发明新概念。
 
-| 主题 | 素材位置 | 建议出卡 | 关键引用 |
-|:---|:---|:---|:---|
-| L1-L5 五层工作深度 | 冰山图 / 口述 1590-1606 行 | `concept-yitang-deep-work-iceberg` | 简单执行→简单协作→独立专注→深度思考→才华涌现 |
-| 深度拆解案例：写文案 | 口述 1626-1724 行 | `case-truman-copywriting-depth-split` | 40 分钟路上 L5 + 睡前 L4/L3 + 第二天 7 小时 L1/L2，ROI 翻倍 |
-| 拆解原则：努力拆解，不大不小刚刚好 | 口述 1726-1754 行 | `concept-yitang-deep-work-iceberg` | 四种拆法：里程碑、多版本、大纲与细化、酝酿与动手 |
+3. **五步法 → 时间管理映射**（核心骨架）
 
-### 3.4 双峰哲学与场景匹配（P1）
+   | 五步法 | 时间管理映射 | 关键问题 |
+   |:---|:---|:---|
+   | 需求分析 | 分析你的时间需求 | 时间现在去哪了？任务深度分布如何？哪些是假紧急？ |
+   | 产品内核 | 建立三门模型 | 时间模型 × 任务模型 × 匹配模型 |
+   | 单元模型 | 计算时间 ROI | 单位时间产出、高杠杆时段、边际收益曲线 |
+   | 增长 | 假设-验证循环 | 每周提 1-2 个优化假设 → 两周实验 → 复盘 |
+   | 壁垒 | 个人时间操作系统 | 持续迭代后形成别人抄不走的判断力和习惯 |
 
-| 主题 | 素材位置 | 建议出卡 | 关键引用 |
-|:---|:---|:---|:---|
-| 双峰哲学定义 | 口述 398-448 行 / 双峰模型图 | `concept-yitang-bimodal-philosophy` | 主动把协作和独立工作分开 |
-| 分时策略 | 口述 1928-1942 行 | `concept-yitang-bimodal-philosophy` | 按小时/按天/按周/按年划分 |
-| Truman 个人实践 | 口述 400-448 行 | `case-truman-bimodal-experiment` | 周四周五在家车库创作、周一到周三在公司协作 |
-| 会议室/场景匹配实验 | 口述 508-544 行 / 1136-1150 行 | `case-truman-meeting-room-match` | 头脑风暴用沙发、攻坚会用会议桌、四种磨课配四种办公室 |
+4. **10 个一堂方法论映射**（结构化展开黄药师表）
+   - 每个映射包含：时间管理概念 → 一堂方法论来源 → 桥接关系 → KDO 中对应的现有卡。
+   - 必须覆盖：科学建模派/需求分析、三门模型/泛产品设计、L1-L6 进阶/五步法阶梯、科学管理循环/Y 模型、刻意练习四要素/刻意练习域、工作深度冰山/需求冰山、双峰哲学/场景分层、灰度精进/决策卫生、工具迷信→自己建模/学习曲线、时间 ROI/单元模型。
 
-### 3.5 暗时间利用（P1）
+5. **三门模型详解**（作为 framework 的 operational core）
+   - 时间模型四层理解：7×24 格子 → 大块/小块 → 波峰波谷 → 场景质量。
+   - 任务模型 L1-L5：简单执行 → 简单协作 → 独立专注 → 深度思考 → 才华涌现（含冰山图逻辑）。
+   - 匹配模型三原则：大对大/小对小、双峰哲学、暗时间。
 
-| 主题 | 素材位置 | 建议出卡 | 关键引用 |
-|:---|:---|:---|:---|
-| 暗时间定义 | 口述 1992-2002 行 | `concept-yitang-dark-time` | "脑力 CPU 不饱和，那个时间本质上是被占了，但脑力没有" |
-| 通勤时间实验 | 口述 452-472 行 / 1052-1080 行 | `case-truman-commute-time-experiment` | 上班路上写方案、下班路上磨课、50 分钟 = 办公室 5 小时 |
-| 听汇报写大纲 | 口述 524-528 行 / 1130-1134 行 | `dk-truman-dark-time-practice` | 教研 PM 汇报时整理知识清单，ROI 巨高 |
-| 暗时间 + 场景激发 | 口述 2012-2014 行 | `dk-truman-scene-elicitation` | "按时间 × 场景激发，是巨大的杀器" |
-| 时间叠加 | 口述 1180-1184 行 | `dk-truman-dark-time-practice` | 一边交付一边跑步、一边听汇报一边写大纲 |
+6. **Action Triggers**（≥5 个，用于 daily consulting）
+   - 例：周一上午 30 分钟「本周时间预算」；每天下班前 5 分钟「时间块真实性检查」；每两周一次「假设-实验复盘」。
 
-### 3.6 状态调节与个人 SOP（P1）
+7. **Critique**
+   - 外部反对者 1：Oliver Burkeman《4000 周》——效率优化加剧焦虑，接受有限性比优化更重要。
+   - 外部反对者 2：Cal Newport「慢生产力」——砍掉项目比优化排序更重要。
+   - 外部反对者 3：响应型工作者——整块深度时间不可行。
+   - 内部局限：L1-L5 / L1-L6 是课程自创模型，非普适量表；部分数字（5-10x、500%）降级为课程主张。
 
-| 主题 | 素材位置 | 建议出卡 | 关键引用 |
-|:---|:---|:---|:---|
-| 专注环境配置 | 口述 484-502 行 / 1090-1110 行 | `dk-truman-state-triggers` | 屏蔽软件、手机扔远、模拟键盘声、背景音乐、显示器配置 |
-| 心流触发 SOP | 口述 2226-2236 行 | `dk-truman-state-triggers` | 嘚瑟歌单、洗澡、穿正式衣服、看表白墙、写金句牌子 |
-| 状态快速调整 | 口述 554-556 行 / 1160-1162 行 | `dk-truman-state-triggers` | 讲课前喝脉动、吃红肠提升会议氛围 |
-| 垂帘听政 | 口述 2260-2272 行 | `case-truman-meeting-room-match` / dk | 线上接入线下会，把线下场域优点和线上记笔记优点结合 |
+8. **Synthesis**
+   - 桥接 ≥10 张已有卡，包括：`yt-five-step-method-complete`、`framework-一堂五步法-泛产品设计`、`framework-yitang-deliberate-practice-1plus4`、`master-decision-hygiene`、`yt-unit-model-overview`、`concept-yitang-research-scope`、`yt-personal-time-management`、`yt-personal-ipo-learning`、`yt-personal-knowledge-management`、`yt-personal-deliberate-practice`。
+   - 同时反向更新这些卡的 `related`，加入 `framework-yitang-five-step-to-time-management`。
+
+9. **Related**：≥5 条，含跨域回链。
 
 ---
 
-## 四、卡片规格
+### 2.2 Card 2: `tool-personal-time-audit-loop`
 
-### 4.1 理论层（3 张）
+**类型**：tool  
+**主域**：personal-growth  
+**confidence**：0.85  
+**trust_level**：medium  
+**核心主张**：把时间管理从「一次性规划」变成「每周审计 + 双周实验」的闭环。
 
-#### Card 1: `yt-personal-time-management`（concept 升级）
+**必须包含的 section**：
 
-| 字段 | 要求 |
-|:---|:---|
-| **domain** | `personal-growth` |
-| **confidence** | 0.85 |
-| **trust_level** | medium |
-| **source_refs** | 口述稿、笔记、整合笔记、5 张图解 |
-| **核心内容** | ① 科学时间管理定义；② 课程边界（只讲个人工作时间的科学配置）；③ 三大流派批判；④ 三大认知误区；⑤ L1-L6 进阶地图；⑥ 三次飞跃；⑦ 六大自我修养；⑧ 刻意练习四要素 |
-| **Critique** | 必须包含：Cal Newport「慢生产力」、Oliver Burkeman「4000 周」、模型迷信风险、课程数字（5-10x/500%）降级为观点 |
-| **Synthesis** | 桥接 `yt-personal-ipo-learning`、`yt-personal-deliberate-practice`、`yt-personal-knowledge-management` |
-| **Action Triggers** | 至少 3 个可执行触发器 |
+1. **When to Use**
+   - 感觉每天很忙但周末想不起做了什么重要的事；重要工作总在低能量时段完成；想尝试新工具但不知道从何开始。
 
-#### Card 2: `framework-yitang-time-management-triad`（framework 新建）
+2. **What You Need**
+   - 一周日历/时间记录；一个固定 30 分钟审计时段；一个假设记录模板。
 
-| 字段 | 要求 |
-|:---|:---|
-| **domain** | `personal-growth` |
-| **confidence** | 0.88 |
-| **trust_level** | medium |
-| **source_refs** | 口述 358 行、整合笔记 35-51 行、口述 1770-2068 行 |
-| **核心内容** | ① 三元模型定义；② 时间模型四层理解；③ 事情模型 L1-L5；④ 匹配模型三原则（大对大/小对小、双峰、暗时间）；⑤ 操作步骤与示例 |
-| **Critique** | 边界：高度响应型工作不适用；层级划分有主观性 |
-| **Synthesis** | 桥接 `concept-yitang-deep-work-iceberg`、`concept-yitang-bimodal-philosophy`、`concept-yitang-dark-time` |
-| **diagnostic_signals** | 至少 5 个诊断信号 |
+3. **Steps**
+   - **Step 1: 时间审计（每周一次，30 分钟）**
+     - 把上周 ≥30 分钟的时间块分为 A（服务 L3 核心目标）、B（维持必需）、C（既非 A 也非 B）。
+     - 计算 A/B/C 占比；标注高/低能量时段。
+   - **Step 2: 生成假设（10 分钟）**
+     - 例：「下周把周三上午 9-11 点设为无会议深度块」「把通勤时间从 C 转为 A」。
+     - 每条假设必须可验证、有具体指标。
+   - **Step 3: 2 周实验**
+     - 只改 1-2 个变量；保持其他变量稳定；每天 30 秒记录执行度。
+   - **Step 4: 复盘**
+     - 指标是否改善？意外干扰是什么？是否值得固化进 SOP？
+   - **Step 5: 固化或放弃**
+     - 有效 → 写入个人时间操作系统；无效 → 记录失败模式。
 
-#### Card 3: `concept-yitang-deep-work-iceberg`（concept 新建）
+4. **Template**（必须给出可直接抄作业的模板）
+   - 周时间审计表（Markdown 表格）。
+   - 假设-实验卡（假设 / 指标 / 实验周期 / 结果 / 下一步）。
 
-| 字段 | 要求 |
-|:---|:---|
-| **domain** | `personal-growth` |
-| **confidence** | 0.82 |
-| **trust_level** | medium |
-| **source_refs** | 口述 1574-1754 行、冰山图、vlm_summary |
-| **核心内容** | ① L1-L5 五层定义与典型任务；② 水面上下分界；③ 层级错配与伪深度陷阱；④ 努力拆解/不大不小刚刚好原则；⑤ Truman 写文案案例引用 |
-| **Critique** | 外部攻击：Cal Newport Deep Work、心流理论边界、L4/L5 边界模糊、过度结构化扼杀创造力 |
-| **Synthesis** | 桥接 `framework-yitang-time-management-triad`、`yt-personal-deliberate-practice` |
-| **Action Triggers** | 如何做一周时间审计、如何保护 L4/L5 时段 |
+5. **Examples**
+   - Truman 通勤时间实验：上班路上写方案、下班路上磨课。
+   - Truman 文案拆解：路上 L5 灵感 + 睡前 L4/L3 故事线 + 第二天 L1/L2 执行。
+   - 会议室场景匹配：沙发→头脑风暴、会议桌→攻坚会。
 
-### 4.2 案例层（3 张）
+6. **Anti-patterns**
+   - 一次改太多变量；把记录本身当成目标；审计后不生成假设；假设不可验证。
 
-#### Card 4: `case-truman-commute-time-experiment`
+7. **Critique**
+   - 外部反对者 1：时间记录造成焦虑（柳比歇夫式记录对某些人增压）。
+   - 外部反对者 2：高响应型工作无法稳定实验。
+   - 内部局限：模板需要根据个人工作节奏校准；不适合团队强制推行。
 
-| 字段 | 要求 |
-|:---|:---|
-| **type** | case |
-| **domain** | `personal-growth` |
-| **confidence** | 0.85 |
-| **trust_level** | medium |
-| **source_refs** | 口述 452-472 行、1052-1080 行、1180-1184 行 |
-| **正文结构** | 原始表述 → 问题（每天 90-120 分钟通勤被浪费）→ 方案（上班路上写方案/下班路上磨课/听汇报写大纲）→ 结果（50 分钟 = 办公室 5 小时）→ 可迁移点 |
-| **problem_domains** | 碎片时间利用、通勤时间管理、暗时间 |
-| **industry** | 知识服务 / 在线教育 |
-| **scale** | 个人 |
+8. **Synthesis**
+   - 桥接 `framework-yitang-five-step-to-time-management`、`yt-personal-time-management`、`dk-time-management-common-mistakes`。
 
-#### Card 5: `case-truman-copywriting-depth-split`
-
-| 字段 | 要求 |
-|:---|:---|
-| **type** | case |
-| **domain** | `personal-growth` |
-| **confidence** | 0.88 |
-| **trust_level** | medium |
-| **source_refs** | 口述 1626-1724 行 |
-| **正文结构** | 原始表述 → 问题（deadline 前 10 小时团队干扰、灵感被压制）→ 方案（路上 40 分钟 L5 灵感 + 睡前 L4/L3 故事线 + 第二天 7 小时 L1/L2 执行）→ 结果（ROI 至少翻倍）→ 可迁移点 |
-| **problem_domains** | 深度工作、创意任务拆解、时间匹配 |
-| **industry** | 知识服务 / 在线教育 |
-| **scale** | 个人 |
-
-#### Card 6: `case-truman-meeting-room-match`
-
-| 字段 | 要求 |
-|:---|:---|
-| **type** | case |
-| **domain** | `personal-growth` |
-| **confidence** | 0.82 |
-| **trust_level** | medium |
-| **source_refs** | 口述 508-544 行、1136-1150 行、2260-2272 行 |
-| **正文结构** | 原始表述 → 问题（同样会议在不同场域效率差一倍）→ 方案（沙发对话→头脑风暴、会议桌→攻坚会、四种磨课配四种办公室、垂帘听政）→ 结果（效率翻倍）→ 可迁移点 |
-| **problem_domains** | 协作效率、场域设计、团队时间管理 |
-| **industry** | 知识服务 / 在线教育 |
-| **scale** | 团队 |
-
-### 4.3 暗知识层（3 张）
-
-#### Card 7: `dk-truman-dark-time-practice`
-
-| 字段 | 要求 |
-|:---|:---|
-| **type** | dark-knowledge |
-| **dark_knowledge_type** | workflow |
-| **domain** | `personal-growth` |
-| **trust_level** | medium |
-| **source_person** | Truman |
-| **source_context** | 一堂科学时间管理课程，2026 |
-| **source_refs** | 口述 1992-2068 行、524-528 行、1180-1184 行 |
-| **正文 6 段** | 原始表述 → 使用场景 → 操作方法 → 适用边界 → 为什么值钱 → 与其他知识的关联 |
-| **核心内容** | CPU 不饱和隐喻、听汇报写大纲、通勤路上写方案、时间叠加、暗时间与多任务切换成本的边界 |
-
-#### Card 8: `dk-truman-scene-elicitation`
-
-| 字段 | 要求 |
-|:---|:---|
-| **type** | dark-knowledge |
-| **dark_knowledge_type** | insight |
-| **domain** | `personal-growth` |
-| **trust_level** | medium |
-| **source_person** | Truman |
-| **source_context** | 一堂科学时间管理课程，2026 |
-| **source_refs** | 口述 508-522 行、516 行、518-520 行、2336-2340 行 |
-| **正文 6 段** | 原始表述 → 使用场景 → 操作方法 → 适用边界 → 为什么值钱 → 与其他知识的关联 |
-| **核心内容** | 压马路激发故事线、洗澡酝酿中心思想、如厕/睡前想关键词、线下交付现场记 Flomo |
-
-#### Card 9: `dk-truman-state-triggers`
-
-| 字段 | 要求 |
-|:---|:---|
-| **type** | dark-knowledge |
-| **dark_knowledge_type** | tool_usage |
-| **domain** | `personal-growth` |
-| **trust_level** | medium |
-| **source_person** | Truman |
-| **source_context** | 一堂科学时间管理课程，2026 |
-| **source_refs** | 口述 484-502 行、554-556 行、2226-2236 行 |
-| **正文 6 段** | 原始表述 → 使用场景 → 操作方法 → 适用边界 → 为什么值钱 → 与其他知识的关联 |
-| **核心内容** | 专注环境配置（屏蔽软件、手机扔远、模拟键盘声）、心流触发 SOP（嘚瑟歌单、洗澡、正式衣服、表白墙）、状态快速调整（脉动、红肠） |
+9. **Related**：≥5 条。
 
 ---
 
-## 五、关键纠偏与边界
+### 2.3 Card 3: `dk-time-management-common-mistakes`
+
+**类型**：dark-knowledge  
+**dark_knowledge_type**：pattern  
+**主域**：personal-growth  
+**confidence**：0.85  
+**trust_level**：medium  
+**核心主张**：时间管理失败往往不是工具问题，而是用一堂方法论反打这三个陷阱。
+
+**必须包含的 section**：
+
+1. **Pattern 1: 工具迷信**
+   - 症状：不断换工具，以为新 App 能解决时间管理问题。
+   - 反打：需求分析先于工具选择——先建模任务/时间/匹配，再选工具。
+   - 案例：双环矩阵对称替换逻辑（任务清单↔任务池、晨间日记↔周报等）。
+
+2. **Pattern 2: 二极管思维**
+   - 症状：要么完全规划到分钟，要么彻底躺平；要么完全早起，要么彻底熬夜。
+   - 反打：灰度精进——小步实验、两周迭代、接受波动。
+   - 案例：从「每天 5 点起床」改为「下周尝试 3 天 7:30 开工，观察高能量时段」。
+
+3. **Pattern 3: 边界模糊**
+   - 症状：把人生成功、精力管理、项目管理全部塞进时间管理；或者把工作时间无限侵入生活。
+   - 反打：明确课程边界——只优化个人工作时间的科学配置；非工作时间用其他方法论。
+   - 案例：Truman 课程边界声明。
+
+4. **预警信号**
+   - ≥5 条可识别的早期信号。
+
+5. **修复动作**
+   - 每个陷阱对应 1 个即时动作 + 1 个长期动作。
+
+6. **Critique**
+   - 外部反对者：有些场景确实需要更强工具（复杂项目协作）。
+   - 内部局限：反模式基于一堂课程观察，非大规模实证。
+
+7. **Synthesis**
+   - 桥接 `framework-yitang-five-step-to-time-management`、`tool-personal-time-audit-loop`、`master-cognitive-bias-checklist`。
+
+8. **Related**：≥5 条。
+
+---
+
+## 三、已有卡 related 补链清单
+
+framework 卡生产完成后，必须反向在以下已有卡的 `related` 中加入 `[[framework-yitang-five-step-to-time-management]]`：
+
+1. `yt-five-step-method-complete`
+2. `framework-一堂五步法-泛产品设计`
+3. `framework-yitang-deliberate-practice-1plus4`
+4. `master-decision-hygiene`
+5. `yt-unit-model-overview`
+6. `concept-yitang-research-scope`
+7. `yt-personal-time-management`
+8. `yt-personal-ipo-learning`
+9. `yt-personal-knowledge-management`
+10. `yt-personal-deliberate-practice`
+
+---
+
+## 四、关键纠偏与边界
 
 1. **数字降级**：
    - ❌ 不得把 "5-10 倍效率跃迁"、"500% 差异"、"50 分钟 = 5 小时" 作为普遍事实。
-   - ✅ 应表述为「Truman 的课程主张/个人经验估计/激励性口号/特定场景下的个案」。
+   - ✅ 应表述为「Truman 的课程主张 / 个人经验估计 / 激励性口号 / 特定场景下的个案」。
 
 2. **模型归属**：
-   - L1-L6、三元模型、双环矩阵、冰山图均为 **一堂课程模型**，非普适心理学量表，需明确标注来源。
-   - 艾森豪威尔矩阵/四象限引用时需说明 Eisenhower（1954）+ Covey（1989）来源。
+   - L1-L6、三元模型、双环矩阵、冰山图均为 **一堂课程模型**，非普适心理学量表。
+   - 艾森豪威尔矩阵 / 四象限引用时需说明 Eisenhower（1954）+ Covey（1989）来源。
    - 暗时间"CPU 不饱和"是隐喻，需说明多任务切换成本与背景加工的区别。
 
 3. **边界声明**：
-   - 课程方法主要适用于 **知识工作者、管理者、内容创作者**。
+   - 主要适用于 **知识工作者、管理者、内容创作者**。
    - 不适用于：任务单一且时间自主权极低的环境、高度响应型职业（急诊、客服、运维危机模式）。
 
 4. **不覆盖**：
    - 不新建独立的 GTD/番茄/OKR 工具卡（已有相关素材或过于通用）。
    - 不讨论人生使命、家庭关系、精力管理（超出课程边界）。
+   - 不新建孤立的概念卡、术语解释卡、案例卡——所有素材吸收进 3 张目标卡。
 
 ---
 
-## 六、验收标准
+## 五、验收标准
 
 老顽童提交时必须满足：
 
-1. **kdo pre-submit**：目标卡 9/9 PASS，无新增 ERROR。
+1. **kdo pre-submit**：目标卡 3/3 PASS，无新增 ERROR。
 2. **kdo lint**：目标卡 0 ERROR，新增 WARNING 需在任务单中说明。
-3. **自攻击**：调用 `/kdo-self-attack` 对 9 张卡跑四路攻击，修复所有 🔴 致命问题和大部分 🟡 严重问题。
+3. **自攻击**：调用 `/kdo-self-attack` 对 3 张卡跑四路攻击，修复所有 🔴 致命问题和大部分 🟡 严重问题。
 4. **source_refs**：所有关键 Claim 有来源引用；找不到真实源文件的用 `pending_archive` 占位。
-5. **related**：每张卡至少 5 条有效 wikilink。
-   - 理论卡桥接：`yt-personal-ipo-learning`、`yt-personal-deliberate-practice`、`yt-personal-knowledge-management`。
-   - 案例卡桥接：对应的理论卡和暗知识卡。
-   - 暗知识卡桥接：对应的理论卡和案例卡。
+5. **related**：
+   - 每张卡至少 5 条有效 wikilink。
+   - framework 卡必须桥接 ≥10 张已有卡，并完成反向 related 更新。
 6. **Critique**：每张卡必须包含至少 2 个外部反对者视角或失败模式。
-7. **Action Triggers**：framework/concept 卡至少 3 个可执行触发器；case 卡必须有「可迁移」段落；dk 卡必须有「操作方法」和「适用边界」段落。
+7. **Action Triggers / 操作模板**：
+   - framework 卡至少 5 个可执行触发器。
+   - tool 卡必须给出可直接使用的 Markdown 模板。
+   - dk 卡必须有「操作方法」和「适用边界」段落。
 8. **目录规范**：
-   - concept/framework 入 `30_wiki/concepts/` 或 `30_wiki/frameworks/`。
-   - case 入 `30_wiki/cases/`。
+   - framework 入 `30_wiki/frameworks/`。
+   - tool 入 `30_wiki/tools/`。
    - dk 入 `30_wiki/dk/`。
 
 ---
 
-## 七、生产顺序建议
-
-老顽童可分两批生产：
+## 六、生产顺序建议
 
 | 批次 | 卡片 | 说明 |
 |:---|:---|:---|
-| **第一批** | `yt-personal-time-management`（升级） | 先定总览，其他卡引用它 |
-| | `framework-yitang-time-management-triad` | 理论框架 |
-| | `concept-yitang-deep-work-iceberg` | 核心模型 |
-| **第二批** | `case-truman-commute-time-experiment` | 暗时间案例 |
-| | `case-truman-copywriting-depth-split` | 深度拆解案例 |
-| | `case-truman-meeting-room-match` | 场域匹配案例 |
-| | `dk-truman-dark-time-practice` | 暗时间 workflow |
-| | `dk-truman-scene-elicitation` | 场景激发 insight |
-| | `dk-truman-state-triggers` | 状态调节 tool_usage |
+| **第一批** | `framework-yitang-five-step-to-time-management` | 先建桥接骨架，确定所有概念边界和 related 更新清单 |
+| **第二批** | `tool-personal-time-audit-loop` + `dk-time-management-common-mistakes` | 在桥接骨架上长出操作细节和反模式 |
 
 ---
 
-## 八、自攻击要点（老顽童生产前必读）
-
-按 `framework-kdo-self-attack.md` 四路攻击：
-
-- **逻辑攻击**：L1-L5 层级是否过于任意？L4/L5 边界是否清晰？暗时间是否混淆了"并行"与"背景加工"？
-- **证据攻击**："5-10 倍"、"500%"、"50 分钟 = 5 小时" 是否有证据？是否应该降级为个案？
-- **完整性攻击**：是否遗漏了响应型工作者、创意工作者的反例？是否说明了多任务切换成本？
-- **时效性攻击**：Cal Newport 的 Deep Work（2016）在 2025-2026 年是否仍适用？
-
----
-
-## 九、任务状态流转
+## 七、任务状态流转
 
 - 当前状态：`queued`
 - 领取后：`claimed-kimi`
@@ -329,4 +304,4 @@ source_refs:
 
 ---
 
-*王语嫣 2026-07-01*
+*王语嫣 2026-07-01（已按黄药师建议返工并加入日常咨询深度要求）*
