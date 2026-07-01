@@ -3,11 +3,13 @@
 domain:
   - personal-growth
 
-
-
 id: yt-personal-deliberate-practice
+title: 科学成长（刻意练习）
+type: concept
+status: reviewed
 confidence: 0.8
 created_at: 2026-05-06
+updated_at: 2026-06-30
 difficulty: foundational
 language: zh-CN
 query_triggers:
@@ -26,8 +28,6 @@ reviewed_by: "黄药师"
 source_refs:
   - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
   - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
-source_refs:
-  - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 related:
   - "[[dk-content-mini-case-writing]]"
   - "[[dk-content-community-info-density]]"
