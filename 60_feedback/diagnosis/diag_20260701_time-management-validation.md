@@ -273,32 +273,31 @@ updated_at: 2026-07-01
 
 | KDO 现有卡片 | 覆盖情况 | 缺口 |
 |:---|:---|:---|
-| `yt-personal-time-management` | 有基础框架，但大量 src_unknown | 未覆盖 L1-L6 进阶、三元模型、深度工作冰山、双环矩阵、双峰哲学 |
+| `yt-personal-time-management` | 有基础框架，但大量 src_unknown | 未覆盖 L1-L6 进阶、三元模型、深度工作冰山、双环矩阵、双峰哲学、暗时间 |
 | `case-ai-time-management-tiered-growth` | 商业案例 | 与个人方法论无关 |
+| 其他 | 无 | 无 Truman 个人实验案例卡、无暗知识卡 |
 
-**结论**：新素材能显著升级现有概念卡并填补 2-3 个新模型缺口。
+**结论**：新素材能显著升级现有概念卡，并填补理论模型、真实案例、暗知识三层缺口。完整规划见 `70_product/tasks/task_20260701_wangyuyan-time-management-domain-orchestration.md`。
 
 ---
 
 ## 六、王语嫣编排建议
 
-### 6.1 首批卡片（3 张）
+### 6.1 完整卡片规划（9 张）
 
-| 卡片 | 类型 | 核心定位 |
-|:---|:---|:---|
-| `yt-personal-time-management` | concept 升级 | 一堂科学时间管理总览，补齐 src_unknown，覆盖 L1-L6 和三元模型 |
-| `framework-yitang-time-management-triad` | framework 新建 | 任务-时间-匹配三元模型 + 操作步骤 |
-| `concept-yitang-deep-work-iceberg` | concept 新建 | 工作深度 L1-L5，与心流/AI 协作桥接 |
+| 层次 | 卡片 | 类型 | 核心定位 |
+|:---|:---|:---|:---|
+| 理论层 | `yt-personal-time-management` | concept 升级 | 一堂科学时间管理总览：定义、边界、三大流派批判、L1-L6、三次飞跃、六大修养 |
+| 理论层 | `framework-yitang-time-management-triad` | framework 新建 | 任务-时间-匹配三元模型 + 操作步骤 |
+| 理论层 | `concept-yitang-deep-work-iceberg` | concept 新建 | 工作深度 L1-L5、拆解原则、伪深度陷阱 |
+| 案例层 | `case-truman-commute-time-experiment` | case 新建 | 通勤时间从浪费到高产出：上班路上写方案、下班路上磨课、听汇报写大纲 |
+| 案例层 | `case-truman-copywriting-depth-split` | case 新建 | 文案工作三段拆解：路上 L5 灵感 + 睡前 L4/L3 故事线 + 第二天 L1/L2 执行 |
+| 案例层 | `case-truman-meeting-room-match` | case 新建 | 会议室/场景匹配实验：沙发对话、会议桌攻坚、四种磨课配四种办公室、垂帘听政 |
+| 暗知识层 | `dk-truman-dark-time-practice` | dk 新建 | 暗时间 workflow：CPU 不饱和隐喻、时间叠加、听汇报写大纲 |
+| 暗知识层 | `dk-truman-scene-elicitation` | dk 新建 | 场景激发 insight：压马路、洗澡、如厕、线下交付现场记 Flomo |
+| 暗知识层 | `dk-truman-state-triggers` | dk 新建 | 状态调节 tool_usage：专注环境配置、心流触发 SOP、状态快速调整 |
 
-### 6.2 第二批候选（首批终审后评估）
-
-| 卡片 | 类型 | 核心定位 |
-|:---|:---|:---|
-| `concept-yitang-dark-time` | concept | 暗时间定义、CPU 不饱和隐喻、Truman 实验案例、与多任务切换成本的边界 |
-| `concept-yitang-bimodal-philosophy` | concept | 双峰哲学定义、分时策略、与 Cal Newport 四哲学的对照 |
-| `tool-yitang-dual-loop-matrix` | tool | 双环矩阵四象限、工具选择逻辑、对称替换、操作步骤 |
-
-### 6.3 关键纠偏
+### 6.2 关键纠偏
 
 - 不引用 "5-10 倍"、"500%" 作为事实
 - 艾森豪威尔矩阵 / 四象限若引用，需说明来源
@@ -312,7 +311,7 @@ updated_at: 2026-07-01
 
 - 来源可信，核心模型与现有 KDO 互补
 - 需批判性呈现，避免把课程主张绝对化
-- 首批 3 张卡，扩量需终审通过
+- 首批建议先产 3 张理论卡，第二批 6 张案例/暗知识卡可并行或分批；完整 9 张卡规划已写入任务单
 
 ---
 
