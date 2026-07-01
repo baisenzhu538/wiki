@@ -2,14 +2,14 @@
 id: task_20260701_wangyuyan-wobeirushen-pilot-orchestration
 title: 王语嫣任务编排：《吾辈如神》条件性纳入 + 3 张卡（认知卸载 / AI 杠铃策略 / 富足悖论）
 type: task
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童(Hermes)
+assignee: 老顽童(Kimi)
 collaborators:
 - 王语嫣（域诊断 + 编排）
 - 欧阳锋（3 张卡终审）
 created_at: 2026-07-01
-updated_at: '2026-07-01T15:10:00+00:00'
+updated_at: '2026-07-01T15:11:55.217477+00:00'
 reviewer: 欧阳锋
 dependencies:
 - task_20260701_wobeirushen-validation-report reviewed
