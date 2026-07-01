@@ -1,16 +1,18 @@
 ---
 id: task_20260701_kdo-index-lint-wikilink-format-alignment
 type: task
-status: queued
+status: reviewed
 assignee: 黄药师
 priority: P1
 created_at: 2026-07-01
-updated_at: 2026-07-01
+updated_at: '2026-07-01T14:08:43.008914+00:00'
 reviewer: 欧阳锋
 source_refs:
 - 60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
 related:
 - task_20260629_kimi-lint-content-debt-by-domain
+reviewed_by: 欧阳锋
+review_date: '2026-07-01'
 ---
 
 # KDO index/lint wikilink 格式对齐任务编排建议书
@@ -30,6 +32,32 @@ related:
   - 若含 `/`，按 `30_wiki/<path>.md` 解析
   - 若 bare，默认按 `30_wiki/concepts/<id>.md` 解析
 - 结果：cases/、tools/、frameworks/ 等目录下的卡片被错误地认为不在 index.md 中，产生大量误报。
+
+## 执行结果
+
+### 代码修改
+
+- `kdo/commands/curation.py::auto_update_index`：将 bare wikilink `[[{card_id}|{title}]]` 改为相对 `30_wiki/` 的路径格式 `[[{relative_path}|{title}]]`
+- `kdo/workspace.py::sync_wiki_index`：去掉错误的 `concepts/` 前缀注入，改为直接去掉 `30_wiki/` 前缀和 `.md` 后缀
+
+### 验证指标
+
+| 指标 | 修复前 | 修复后 |
+|---|---|---|
+| strategy 域 WARNING | 148 | 0 |
+| 全库 WARNING | 4329 | 2570（↓1759） |
+| 全库 ERROR | 0 | 0 |
+| pytest | - | 547 passed / 1 skipped / 2 failed（无新增失败） |
+
+### 新增测试
+
+- `tests/test_index_wikilink_format.py`：覆盖 `auto_update_index` 生成路径化 wikilink、非 concepts 目录卡片不再使用 bare ID
+
+### 复查结论
+
+- `kdo lint --domain strategy --summary`：Lint passed. No new issues found.
+- `kdo lint --summary`：0 new error(s), 2570 new warning(s)
+- strategy 域 "Wiki page not listed in 30_wiki/index.md" 误报已清零
 
 ## 目标
 

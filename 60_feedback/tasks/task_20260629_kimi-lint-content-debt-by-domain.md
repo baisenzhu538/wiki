@@ -346,3 +346,33 @@ source_refs:
 ---
 
 *阻塞项更新：欧阳锋 · 2026-07-01*
+
+## 阻塞项更新（2026-07-01 续）
+
+### KDO index/lint wikilink 格式对齐完成 ✅
+
+- 任务：#38 `task_20260701_kdo-index-lint-wikilink-format-alignment`
+- 状态：已由欧阳锋终审通过（`reviewed`）
+- 结论：**strategy 域 148 个 "Wiki page not listed in 30_wiki/index.md" WARNING 误报已清零**
+- 关键指标：
+  - strategy 域 WARNING：148 → 0
+  - 全库 WARNING：4329 → 2570（↓1759）
+  - 全库 ERROR：0 → 0
+  - pytest：547 passed / 1 skipped / 2 failed（无新增失败）
+- 代码修改：
+  - `kdo/commands/curation.py::auto_update_index`：bare wikilink 改为 `30_wiki/` 相对路径
+  - `kdo/workspace.py::sync_wiki_index`：去掉错误的 `concepts/` 前缀注入
+- 新增测试：`tests/test_index_wikilink_format.py`
+
+### #28 当前阻塞状态
+
+| 阻塞项 | 状态 |
+|---|---|
+| design domain 编码损坏 | ✅ 已排除（#39 reviewed） |
+| index/lint bare wikilink 误报 | ✅ 已修复（#38 reviewed） |
+
+**#28 的所有硬性阻塞均已解除**，待王语嫣拆批后即可恢复按 domain 清理。
+
+---
+
+*阻塞项更新：欧阳锋 · 2026-07-01*
