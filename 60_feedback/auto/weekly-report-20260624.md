@@ -1,9 +1,9 @@
-# KDO Weekly Report — 2026-07-01 19:11 UTC
+# KDO Weekly Report — 2026-06-24 18:00 UTC
 
 ## 📊 Snapshot
 | Errors | Warnings | Wiki cards | Inbox files | Sources | Artifacts | Deliveries | Feedback |
 |---|---|---|---|---|---|---|---|
-| 1 | 2608 | 2193 | 10104 | 689 | 34 | 7 | 2852 |
+| 5 | 3000 | 2100 | 9500 | 600 | 30 | 5 | 2000 |
 
 ## 📦 Inbox Top 5
 | Dir | Files |
