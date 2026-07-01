@@ -36,6 +36,8 @@ related:
   - "[[yt-skill-p-role-prompt-design]]"
   - "[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]"
   - "[[plan_20260621_skill-iteration-standard]]"
+  - "[[dk-content-mini-case-writing]]"
+  - "[[dk-content-open-source-explicit-compensation]]"
 tags:
 - src_unknown
 - src_unknown
@@ -235,6 +237,15 @@ diagnostic_signals:
 
 - src_unknown
 - src_unknown
+
+---
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|---|---|---|
+| 暗知识：小案例写作 | [[dk-content-mini-case-writing]] | Skill 工程指南需要配套真实小案例，才能从“可审计”走向“可落地” |
+| 暗知识：开源回报 | [[dk-content-open-source-explicit-compensation]] | 封装 Skill 时若引用他人知识，需明确署名与回报机制 |
 
 ---
 

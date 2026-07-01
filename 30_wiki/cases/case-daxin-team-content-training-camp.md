@@ -40,6 +40,10 @@ related:
   - "[[tool-shortvideo-six-dimension-deconstruction]]"
   - "[[concept-open-source-knowledge-usage-boundary]]"
   - "[[case-yitang-yitang-shortvideo-industrialization]]"
+  - "[[dk-content-community-info-density]]"
+  - "[[dk-content-mini-case-writing]]"
+  - "[[dk-content-open-source-explicit-compensation]]"
+  - "[[dk-content-anchor-design]]"
 pipeline:
   - "confidence-draft"
 ---
@@ -76,11 +80,11 @@ pipeline:
 
 每次拆解固定走：定位与受众 → 选题与钩子 → 文案结构 → 表现力与情绪 → 转化设计 → 数据特征与可复制性。
 
-这个决策让分享从自由讨论变成结构化训练，学员能快速套用，但也带来「模板疲劳」风险。
+这个决策让分享从自由讨论变成结构化训练，学员能快速套用，但也带来「模板疲劳」风险。缓解模板疲劳的关键不是换框架，而是为真实案主写出可执行的小案例（参见 [[dk-content-mini-case-writing]]）。
 
 ### 关键决策 2：设置案主大馨作为唯一锚点
 
-每次拆解最终都要为大馨输出一条定制脚本。这让群有明确的输出目标，但也让群的价值高度依赖单一案主。
+每次拆解最终都要为大馨输出一条定制脚本。这让群有明确的输出目标，但也让群的价值高度依赖单一案主。案主锚点设计是围观群持续的关键，但需要用多案主分散风险（参见 [[dk-content-anchor-design]]）。
 
 ### 关键决策 3：多讲师轮流上场
 
@@ -88,7 +92,7 @@ pipeline:
 
 ### 关键决策 4：采用「围观群」定位
 
-降低参与门槛，吸引更多旁观者，但也降低了贡献期待。5 月 28 日分享时只有 2 人在线，6 月 10 日甚至宣布「这可能是围观群最后一次分享」。
+降低参与门槛，吸引更多旁观者，但也降低了贡献期待。5 月 28 日分享时只有 2 人在线，6 月 10 日甚至宣布「这可能是围观群最后一次分享」。低在线人数也是社群信息密度不足的表现之一（参见 [[dk-content-community-info-density]]）。
 
 ## 关键证据
 
@@ -132,7 +136,7 @@ pipeline:
 
 ### 教训 2：围观群定位是一把双刃剑
 
-降低门槛能扩大受众，但也会降低贡献期待。当群里大多数人只是「看看」时，群的可持续性和讲师动力都会受损。
+降低门槛能扩大受众，但也会降低贡献期待。当群里大多数人只是「看看」时，群的可持续性和讲师动力都会受损。开源知识生产需要显性回报机制，不能只靠讲师用爱发电（参见 [[dk-content-open-source-explicit-compensation]]）。
 
 ### 教训 3：多讲师能缓解疲劳，但核心支柱仍不可少
 
@@ -144,7 +148,7 @@ pipeline:
 
 ### 教训 5：案主定制输出是强锚点，但也需要多案主分散风险
 
-单一案主让群有明确目标，但长期过度依赖会让群变成「大馨专属服务群」，失去通用教学价值。
+单一案主让群有明确目标，但长期过度依赖会让群变成「大馨专属服务群」，失去通用教学价值。案主锚点需要聚焦，也需要备份（参见 [[dk-content-anchor-design]]）。
 
 ## 失败模式
 
@@ -167,6 +171,10 @@ pipeline:
 | 内容经营闭环 | [[framework-content-business-six-step]] | 群总结出用户定位→内容定位→人设表达→内容生产→转化承接→数据复盘 |
 | 开源边界 | [[concept-open-source-knowledge-usage-boundary]] | 群聊开源素材如何提炼为 KDO 知识资产 |
 | 工业化对比 | [[case-yitang-yitang-shortvideo-industrialization]] | 大馨战队是训练营模式，易唐是工业化生产线，两者可互补 |
+| 暗知识：信息密度 | [[dk-content-community-info-density]] | 低在线人数和“扣个1”人数是信息密度不足的信号 |
+| 暗知识：小案例写作 | [[dk-content-mini-case-writing]] | “为大馨定制脚本”是小案例写作的实战形态 |
+| 暗知识：开源回报 | [[dk-content-open-source-explicit-compensation]] | 讲师准备 2-3 小时/次，需要显性回报机制支撑 |
+| 暗知识：案主锚点 | [[dk-content-anchor-design]] | 大馨作为唯一案主，既聚焦也存在系统性风险 |
 
 ### Action Triggers
 

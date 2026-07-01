@@ -38,6 +38,8 @@ related:
   - "[[yt-barrier-brand-equity]]"
   - "[[writing-content]]"
   - "[[case-yitang-goat-milk-channel-partnership]]"
+  - "[[dk-content-mini-case-writing]]"
+  - "[[dk-content-anchor-design]]"
 pipeline:
   - "confidence-draft"
 ---
@@ -174,6 +176,8 @@ Aaker 的品牌资产十要素模型包含品牌忠诚、品牌认知、感知�
 | 应用到内容写作 | [[writing-content]] | 品牌三度决定选题方向，写作方法决定表达质量 |
 | 应用到渠道增长 | [[case-yitang-goat-milk-channel-partnership]] | 渠道增长解决"怎么触达"，品牌三度解决"触达后用户信不信" |
 | 上游来源 | `0017大馨战队 · 短视频内容拆解方法论精华提炼.md` | 品牌三度来自大馨战队魏千洛的操盘手框架 |
+| 暗知识：小案例写作 | [[dk-content-mini-case-writing]] | 美誉度/信任度内容需要真实小案例支撑，避免空洞 |
+| 暗知识：案主锚点 | [[dk-content-anchor-design]] | 创始人 IP 内容训练营可用案主锚点提升信任度内容产出 |
 
 ### Action Triggers
 

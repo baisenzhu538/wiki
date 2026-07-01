@@ -44,6 +44,10 @@ related:
   - "[[framework-brand-three-degree]]"
   - "[[tool-shortvideo-six-dimension-deconstruction]]"
   - "[[system-kdo-quality-labels]]"
+  - "[[dk-content-community-info-density]]"
+  - "[[dk-content-mini-case-writing]]"
+  - "[[dk-content-open-source-explicit-compensation]]"
+  - "[[dk-content-anchor-design]]"
 pipeline:
   - "confidence-draft"
 ---
@@ -209,6 +213,15 @@ Vikki 群和大馨群的失败模式可以直接映射到 KDO 五绝：
 | F9 知识外泄争议 | 30_wiki 卡片被外部未授权使用 | 默认 CC BY-NC-SA 4.0 + 使用边界说明 |
 | F10 AI 替代思考 | Agent 用 AI 生成代替判断 | 关键判断必须由人做，AI 输出需标注置信度 |
 
+## 暗知识映射表
+
+| 失败模式 | 暗知识节点 | 说明 |
+|---|---|---|
+| F4 信号退化 | [[dk-content-community-info-density]] | 信息密度是社群信号质量的隐性指标，表情包/二进制消息占比上升是早期信号 |
+| F6 讲师烧尽 | [[dk-content-open-source-explicit-compensation]] | 讲师作为核心贡献者，需要署名、反馈、机会、经济等显性回报 |
+| F7 模板筋肉疲劳 | [[dk-content-mini-case-writing]] | 用真实小案例/定制脚本让模板从“看懂”走到“会用” |
+| F8 平台依赖风险 | [[dk-content-anchor-design]] | 案主锚点既是聚焦杠杆，也可能把价值锁死在单一外部对象上 |
+
 ## 质疑
 
 ### 内部局限
@@ -267,6 +280,10 @@ Vikki 群和大馨群的失败模式可以直接映射到 KDO 五绝：
 | 品牌三度 | [[framework-brand-three-degree]] | 社群信任危机直接影响品牌信任度 |
 | 拆解工具 | [[tool-shortvideo-six-dimension-deconstruction]] | 大馨战队用 6 维度工具，也面临模板疲劳风险 |
 | 质量标签 | [[system-kdo-quality-labels]] | 本 framework 卡应用 principle/validated 标签 |
+| 暗知识：信息密度 | [[dk-content-community-info-density]] | F4 信号退化的隐性衡量指标 |
+| 暗知识：小案例写作 | [[dk-content-mini-case-writing]] | 让模板/方法论落地的翻译层 |
+| 暗知识：开源回报 | [[dk-content-open-source-explicit-compensation]] | F3 搭便车、F6 讲师烧尽背后的贡献者激励问题 |
+| 暗知识：案主锚点 | [[dk-content-anchor-design]] | F5/F8 的聚焦与风险分散设计 |
 
 ## Open Questions
 

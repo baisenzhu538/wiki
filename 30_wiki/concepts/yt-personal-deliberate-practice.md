@@ -28,6 +28,9 @@ source_refs:
   - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 source_refs:
   - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
+related:
+  - "[[dk-content-mini-case-writing]]"
+  - "[[dk-content-community-info-density]]"
 ---
 # 科学成长（刻意练习）
 
@@ -140,6 +143,8 @@ source_refs:
 | 关联框架 | [[framework-yitang-five-step-to-time-management]] | 时间管理能力本身是刻意练习的对象；L4-L6 进阶依赖固定套路、非舒适区、反馈与重复 |
 | 关联工具 | [[tool-personal-time-audit-loop]] | 时间审计与实验循环为刻意练习提供"稳定模型"和"持续反馈" |
 | 关联暗知识 | [[dk-time-management-common-mistakes]] | 二极管思维会破坏刻意练习的"非舒适区"原则——一次失败就放弃整个系统 |
+| 暗知识：小案例写作 | [[dk-content-mini-case-writing]] | 刻意练习的单元往往是"真实小案例"，把方法套进场景才算真正练习 |
+| 暗知识：信息密度 | [[dk-content-community-info-density]] | 学习社群的反馈密度不能过低，否则刻意练习变成"蒙眼射箭" |
 
 ### 不要用的场景
 

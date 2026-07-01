@@ -25,6 +25,8 @@ related:
 - "[[master-antifragile-checklist]]"
 - "[[master-knowledge-compound]]"
 - "[[framework-yitang-five-step-to-time-management]]"
+- "[[dk-content-community-info-density]]"
+- "[[dk-content-mini-case-writing]]"
 
 ---
 
@@ -261,6 +263,13 @@ Step 5 延迟直觉：
 3. **不能消除系统性偏差**：五步法减少的是"噪声"（随机误差），不是"偏差"（系统性误差）。如果所有人都被同一个框架误导，五步法会让错误更一致。
 4. **外部视角可能过时**：历史基率只在"环境稳定"时有效。在技术变革、政策剧变、黑天鹅频发的时代，外部视角可能引入"过时假设"。
 5. **聚合方法有陷阱**：中位数对极端值不敏感——但如果极端值恰好包含了关键信息（Taleb 的"肥尾"），中位数会丢失这些信息。重大决策建议同时看"中位数"和"最极端的两个估计"。
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|---|---|---|
+| 暗知识：信息密度 | [[dk-content-community-info-density]] | 团队判断前，先检查输入信息密度，避免低信号噪音干扰独立评估 |
+| 暗知识：小案例写作 | [[dk-content-mini-case-writing]] | 复杂判断可先用真实小案例训练团队，再进入五步法聚合 |
 
 ## Critique
 
