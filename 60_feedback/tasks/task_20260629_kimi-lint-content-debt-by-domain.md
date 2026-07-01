@@ -249,7 +249,33 @@ source_refs:
 1. **KDO CLI SyntaxError**：`python -m kdo pre-submit` 触发 `SyntaxError: expected 'except' or 'finally' block`（`kdo/commands/delivery.py:686`）。已通过直接调用 `kdo.pre_submit.run_pre_submit()` 绕过。
 2. **index/lint 机制不一致**：`kdo index --rebuild` 生成 bare wikilink（如 `[[case-strategy-cool-boiled-water|...]]`），但 `kdo lint` 的 index 检查期望带路径的 wikilink（如 `[[cases/case-strategy-cool-boiled-water|...]]`），导致 148 个 "Wiki page not listed in index.md" 误报。此问题不阻塞内容清理，但会显著虚高 WARNING 数，需要黄药师修复 KDO 代码。
 
+### 2026-06-30 yitang domain 处理记录
+
+- **处理 domain**：yitang
+- **处理文件数**：20 个 yitang tool 卡
+  - 第一批：`tool-yitang-ai-assisted-analysis`、`tool-yitang-ai-assisted-organize`、`tool-yitang-ai-monitoring-alert`、`tool-yitang-ai-report-drafting`、`tool-yitang-amazon-bestseller`、`tool-yitang-anonymous-product-testing`、`tool-yitang-anonymous-roundtable`、`tool-yitang-app-store-data`、`tool-yitang-app-store-review`、`tool-yitang-baidu-index`
+  - 第二批：`tool-yitang-behavioral-observation`、`tool-yitang-best-practice-as-golden-finger`、`tool-yitang-bidding-analysis`、`tool-yitang-bp-analysis`、`tool-yitang-business-registration-check`、`tool-yitang-channel-agent-interview`、`tool-yitang-channel-industrialization-node-design`、`tool-yitang-channel-partnership-design`、`tool-yitang-channel-scan-cheat-sheet`、`tool-yitang-channel-scoring-matrix`
+
+- **主要动作**：
+  - 补齐 Purpose/Protocol/When NOT to Use/质疑 标准 section
+  - 扩展 body 到 ≥500 字符
+  - 修复 L2 Critique 关键词缺失（具体假设/边界/反例/前提）
+  - 修复外部攻击者格式为 `**Name Surname**`（如 **Michael Porter**、**Peter Drucker**）
+  - 补充 Synthesis 与有效 yitang 域 wikilink
+  - 清理 `related` 中的 `[[pending_unknown]]` 占位符
+  - 更新 `reviewed_by: pending` 和 `updated_at`
+
+- **验证结果**：
+  - 20/20 文件 `kdo pre-submit` PASS
+  - yitang domain WARNING 从 1972 降至 1907（↓65）
+
+### 当前累计
+
+- strategy domain：真实内容问题清零，剩余 148 个 index 机制误报
+- yitang domain：已处理 20 个 tool 卡，WARNING 减少 65 个
+- design domain：文件编码损坏，暂无法处理
+
 ### 下一轮计划
 
-- 继续处理 design domain（约 117 个真实内容问题，主要是 tool 卡 body 过短 + L2 Critique + 无外部攻击者）
-- 或按用户指示优先处理其他 domain
+- 继续处理 yitang domain 剩余 tool 卡（预计还有 280+ 个待处理）
+- 或按用户指示处理其他未损坏 domain

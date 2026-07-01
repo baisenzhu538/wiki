@@ -5,7 +5,7 @@ title: 商业计划书分析：从竞对BP中提取商业模式
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 欧阳锋
+reviewed_by: pending
 review_date: 2026-06-21
 created_at: 2026-06-21
 confidence: 0.85
@@ -19,40 +19,62 @@ source_refs:
 related:
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-updated_at: '2026-06-29'
+  - "[[tool-yitang-research-cross-validation]]"
+  - "[[tool-yitang-competitor-financial-analysis]]"
+  - "[[framework-yitang-channel-exploration-4step]]"
+updated_at: "2026-06-30T16:07:51+00:00"
 ---
 
 # 商业计划书分析
 
 > 竞对的BP/路演PPT——浓缩版的商业模式说明书。如果竞对融过资，BP大概率在投资人圈子里流传。
 
-**做法**：通过投资人/FA/行业圈子获取竞对的BP或路演材料。分析：他们怎么定义市场？怎么描述商业模式？怎么讲故事？
+**一句话**：通过投资人、FA、行业社群等渠道获取竞对商业计划书或路演材料，逆向拆解其商业模式、战略重心与潜在软肋。
 
-**价值**：BP是竞对"最想让人相信的版本"——反过来看，他们刻意强调的=他们的战略重心，他们刻意回避的=他们的软肋。
+---
 
-**坑**：BP数据可能严重夸大。用招股书/年报数据做交叉验证。
+## Purpose
+
+解决"竞对到底想怎么赚钱、凭什么认为自己能赢"的问题。适用于：
+
+- 新赛道进入前，快速理解竞对商业模式与叙事逻辑
+- 融资/战略会议前，掌握竞对向资本市场兜售的故事
+- 制定竞争策略时，识别竞对刻意强调的战略重心与刻意回避的软肋
+
+## Protocol
+
+1. **获取材料**：通过投资人、FA、行业社群、路演活动或公开融资信息平台，获取竞对BP、路演PPT或投资人memo。
+2. **结构拆解**：用一页纸梳理以下要素：目标市场定义、核心价值主张、商业模式、获客与渠道策略、竞争壁垒、融资用途与里程碑。
+3. **叙事分析**：标注竞对反复使用的关键词、数据与案例，判断其试图让市场相信的"核心假设"是什么。
+4. **软肋识别**：重点阅读被轻描淡写或缺失的部分——例如成本结构、客户留存、监管风险、核心团队稳定性。
+5. **交叉验证**：将BP中的关键数据与招股书、年报、行业报告、第三方数据平台进行比对，识别夸大或选择性披露。
+6. **输出洞察**：形成一份"BP反向解读报告"，明确竞对的战略重心、可信边界与可利用的弱点。
+
+## When NOT to Use
+
+| 场景 | 原因 | 替代方案 |
+|:---|:---|:---|
+| 竞对尚未融资或BP无法获取 | 缺乏核心输入材料，分析会变成臆测 | [[tool-yitang-public-information-research]] + [[tool-yitang-industry-report-search]] |
+| BP数据严重过时（超过18个月） | 战略与经营假设已发生根本变化 | [[tool-yitang-news-monitoring]] + [[tool-yitang-financial-report-intelligence]] |
+| 需要精确财务验证 | BP中的财务数据通常经过美化，不具备审计效力 | [[tool-yitang-competitor-financial-analysis]] + [[tool-yitang-securities-research]] |
+| 分析目的是评估产品用户体验 | BP侧重商业叙事，不反映真实产品细节 | [[tool-yitang-product-full-experience]] + [[tool-yitang-online-product-experience]] |
+
+## 质疑
+
+- **具体假设**：BP中的市场规模、增长率、转化率等数字，往往基于一组未被披露的具体假设。我们需要追问：这些假设来自哪份报告？是否经过第三方验证？
+- **边界**：BP分析只能反映竞对"想让人相信的版本"，无法直接观察其真实运营数据。它的边界在于叙事与现实的差距。
+- **反例**：某竞对在BP中宣称"用户月活增长300%"，但实际招股书显示付费转化率不足1%。这说明BP可能通过选取有利指标制造增长幻觉。
+- **前提**：本方法有效的前提是获取的BP具有真实性，且分析者能将其与独立来源进行交叉验证。若把BP当作唯一事实，极易被误导。
+
+> **外部反对者**：**Michael Porter** 可能会指出，过度关注竞对BP会让你陷入"追赶对手叙事"的陷阱，而忽视行业结构性机会与自身差异化定位的建立。
+
+## Synthesis
+
+- [[tool-yitang-research-cross-validation]]：BP中的关键数字必须用多源交叉验证，才能判断可信度。
+- [[tool-yitang-competitor-financial-analysis]]：当需要更严谨的财务验证时，切换到竞对财务分析工具。
+- [[framework-yitang-channel-exploration-4step]]：从BP中提取的渠道策略，可结合四步渠道探索框架进一步落地。
+- [[case-yitang-competitor-pricing-intelligence]]：BP中的定价与价值主张，可与实际竞品定价情报相互印证。
 
 ---
 
 *卡片类型：tool | 审核状态：待审*
-
-## 目的
-
-> 待补充：这个工具解决什么问题？适用于什么场景？
-
-## 操作步骤
-
-1. **步骤一**：待补充
-2. **步骤二**：待补充
-3. **步骤三**：待补充
-
-## 不要用的场景
-
-> 待补充：什么情况下这个工具效果有限或不应该使用？
-
-## 质疑
-
-> 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
