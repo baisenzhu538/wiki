@@ -4,13 +4,14 @@ updated_at: 2026-07-01T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#39 design domain 编码损坏诊断（pending_review 2026-07-01）：老顽童(Kimi)已完成诊断；结论为 196/196 文件 healthy，无真实编码损坏；报告已输出至 60_feedback/reviews/design-encoding-diagnosis-20260701.md；待欧阳锋终审"
+active_task: "#40 《吾辈如神》试点三卡（pending_review 2026-07-01）：老顽童(Kimi)已完成 concept-cognitive-offloading-in-ai-era + tool-ai-use-barbell-strategy + concept-abundance-paradox 生产；3/3 卡 kdo lint 0 ERROR/WARNING、pre-submit PASS；审计跟踪已输出；待欧阳锋终审"
 blockers:
-  - "🟡 #39 design domain 编码损坏诊断（2026-07-01）：老顽童(Kimi)已提交欧阳锋终审；结论为 196/196 文件 healthy，根因是 GBK 终端显示 UTF-8 中文导致乱码；design domain 可安全加入 #28 清理"
+  - "🟡 #40 《吾辈如神》试点三卡（2026-07-01）：老顽童(Kimi)已提交欧阳锋终审；待欧阳锋复核 3 张卡质量、外部反对者充分性、是否按当前 3 张卡封账"
+  - "🟡 #39 design domain 编码损坏诊断（2026-07-01）：老顽童(Kimi)已提交欧阳锋终审；结论为 196/196 文件 healthy，根因是 GBK 终端显示 UTF-8 中文导致乱码"
   - "🟡 #28 lint 内容债（2026-07-01）：strategy domain 真实内容问题清零，剩余 148 个 WARNING 为 index/lint bare wikilink 机制误报；yitang domain 已处理 20 个 tool 卡，减少 65 个 WARNING"
   - "🟡 Hermes 全角色 WSL 实例因 WSL interop 损坏停摆（2026-06-30）：需重启 Windows 恢复 WSL interop"
 
-next_session_hint: "下一步：① 欧阳锋终审 #39；② 老顽童(Kimi)可继续 #28 yitang/design domain 批量清理；③ 队列无 pending_review；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 欧阳锋终审 #40；② 队列无 pending_review；③ 老顽童(Kimi)可继续 #28 yitang/design domain 批量清理，或领取 #41 时间管理域卡片化；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
