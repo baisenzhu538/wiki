@@ -17,13 +17,11 @@ source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[case-live81-ai-trademark-design]]"
   - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[yitang-domain-digest]]"
+  - "[[yitang-research-domain-digest]]"
 updated_at: 2026-07-02
 ---
 # 做重要设计前先摸行业最佳实践

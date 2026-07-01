@@ -34,18 +34,18 @@ quality_labels:
   - cited
   - validated
 related:
-  - "[[concept-ji-hao-ai-collaboration-methodology]]"
-  - "[[tool-ai-use-barbell-strategy]]"
+  - "[[framework-kdo-self-attack]]"
+  - "[[master-decision-hygiene]]"
   - "[[concept-abundance-paradox]]"
   - "[[framework-ai-deliberate-practice-loop]]"
-  - "[[master-decision-hygiene]]"
-  - "[[deliberate-practice-four-elements]]"
   - "[[learning-thinking]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[framework-kdo-self-attack]]"
+  - "[[deliberate-practice-four-elements]]"
   - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[framework-yitang-nine-layer-deep-dig]]"
   - "[[dk-ai-design-pitfalls]]"
+  - "[[tool-ai-use-barbell-strategy]]"
+  - "[[concept-ji-hao-ai-collaboration-methodology]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
 pipeline:
   - "confidence-draft"
 ---

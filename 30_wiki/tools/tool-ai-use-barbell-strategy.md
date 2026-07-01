@@ -33,15 +33,15 @@ quality_labels:
   - cited
   - validated
 related:
-  - "[[concept-cognitive-offloading-in-ai-era]]"
   - "[[concept-abundance-paradox]]"
-  - "[[concept-ji-hao-ai-collaboration-methodology]]"
   - "[[framework-ai-deliberate-practice-loop]]"
   - "[[master-antifragile-checklist]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
   - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[framework-yitang-nine-layer-deep-dig]]"
   - "[[dk-ai-design-pitfalls]]"
+  - "[[concept-ji-hao-ai-collaboration-methodology]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[concept-cognitive-offloading-in-ai-era]]"
 pipeline:
   - "confidence-draft"
 ---

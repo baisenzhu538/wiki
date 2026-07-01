@@ -14,14 +14,12 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
   - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
   - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
   - "[[dk-ai-design-pitfalls]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[yitang-domain-digest]]"
 updated_at: 2026-07-02
 ---
 # 最佳实践池子：建立你的最佳实践知识库

@@ -15,11 +15,11 @@ created_at: 2026-06-09
 updated_at: 2026-07-02
 related:
   - "[[ai-collaboration-domain-digest]]"
-  - "[[yitang-domain-digest]]"
   - "[[pending_unknown]]"
   - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
   - "[[dk-ai-design-pitfalls]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[yitang-domain-digest]]"
 wiki_refs:
 - src_unknown
 - src_unknown

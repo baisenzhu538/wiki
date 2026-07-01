@@ -18,17 +18,16 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-- "[[master-ai-info-literacy]]"
-- "[[master-cognitive-bias-checklist]]"
-- "[[master-first-principles]]"
-- "[[master-systems-thinking]]"
-- "[[master-antifragile-checklist]]"
-- "[[master-knowledge-compound]]"
-- "[[framework-yitang-five-step-to-time-management]]"
-
+  - "[[master-antifragile-checklist]]"
+  - "[[framework-yitang-five-step-to-time-management]]"
   - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
   - "[[dk-ai-design-pitfalls]]"
+  - "[[master-first-principles]]"
+  - "[[master-ai-info-literacy]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[master-cognitive-bias-checklist]]"
+  - "[[master-knowledge-compound]]"
+  - "[[master-systems-thinking]]"
 ---
 # 决策卫生五步法
 

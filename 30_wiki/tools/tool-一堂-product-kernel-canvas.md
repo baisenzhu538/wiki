@@ -15,10 +15,10 @@ source_refs:
 created_at: '2026-06-08'
 updated_at: 2026-07-02
 related:
-  - "[[yt-product-kernel-cultivation]]"
-  - "[[concept-一堂-kernel-validation]]"
   - "[[case-live81-ai-trademark-design]]"
   - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[yt-product-kernel-cultivation]]"
 wiki_refs:
 - src_unknown
 - src_unknown

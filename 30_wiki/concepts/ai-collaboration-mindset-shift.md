@@ -12,14 +12,13 @@ source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 component_of: null
 related:
-- "[[structured-ai-workspace]]"
-- "[[ai-learning-closed-loop]]"
-- "[[ai-landing-scene-selection]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+  - "[[pending_unknown]]"
+  - "[[ai-learning-closed-loop]]"
+  - "[[structured-ai-workspace]]"
+  - "[[ai-landing-scene-selection]]"
   - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
   - "[[dk-ai-design-pitfalls]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
 query_triggers:
 - src_unknown
 - src_unknown

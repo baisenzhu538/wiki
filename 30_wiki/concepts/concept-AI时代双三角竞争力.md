@@ -14,13 +14,11 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-人机协作决策_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
+  - "[[pending_unknown]]"
   - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
   - "[[case-live81-ai-trademark-design]]"
   - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[yitang-domain-digest]]"
 review_date: '2026-06-29'
 updated_at: 2026-07-02
 ---

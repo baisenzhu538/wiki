@@ -22,16 +22,16 @@ query_triggers:
 - src_unknown·审美卡片：最佳实践建模
 - src_unknown
 related:
-- "[[yt-model-pan-product-aesthetic-toolkit]]"
-- "[[yt-panproduct-aesthetic-pool]]"
-- "[[一堂]]"
-- "[[yt-panproduct-aesthetic-imagination]]"
-- "[[yt-model-prediction-model]]"
-- "[[yt-model-aesthetic-progression]]"
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[yt-panproduct-aesthetic-pool]]"
+  - "[[一堂]]"
+  - "[[yt-model-prediction-model]]"
+  - "[[yt-panproduct-aesthetic-imagination]]"
+  - "[[yt-model-aesthetic-progression]]"
+  - "[[yt-model-pan-product-aesthetic-toolkit]]"
   - "[[tool-scene-design-language-translation]]"
+  - "[[case-live81-ai-trademark-design]]"
   - "[[dk-ai-design-pitfalls]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_89529426-ocr-泛产品设计-审美卡片-最佳实践建模.md

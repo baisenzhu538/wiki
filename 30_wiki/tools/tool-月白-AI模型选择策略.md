@@ -24,14 +24,14 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-关键要素提取改图法]]"
-- "[[tool-月白-多语言提示词精准法]]"
-- "[[tool-月白-PPT全AI生成工作流]]"
-- "[[tool-月白-精准提示词消除模型幻觉]]"
-- "[[tool-月白-AI设计严苛批评法]]"
+  - "[[tool-月白-AI设计严苛批评法]]"
   - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[tool-月白-多语言提示词精准法]]"
   - "[[dk-ai-design-pitfalls]]"
+  - "[[tool-月白-关键要素提取改图法]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[tool-月白-精准提示词消除模型幻觉]]"
+  - "[[tool-月白-PPT全AI生成工作流]]"
 ---
 # 技能：AI模型选择策略
 
