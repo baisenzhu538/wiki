@@ -82,7 +82,8 @@ Generated: 2026-06-26T21:00:00+00:00
 - **Total**: 40
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 9（详见 `production-queue.md`）
+- **Queued**: 8（详见 `production-queue.md` #38-#40 等）
+- **Long-term / Paused**: 1（#28 lint 内容债，待拆批，不直接领取）
 - **Pending**: 2（含 Hermes lint Batch 1 待欧阳锋抽检）
 - **Review Done**: 13 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3, dark-knowledges-batch8, huangyaoshi-codex-lessons-review, master-7-cards)
 
