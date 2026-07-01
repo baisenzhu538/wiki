@@ -83,12 +83,14 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 39 | `task_20260701_kdo-index-lint-wikilink-format-alignment` | KDO index/lint wikilink 格式对齐 | queued | 黄药师 | 1 个 KDO 代码修复 + 1 个测试 | 无；阻塞 #28 strategy 域真实清零 | `60_feedback/tasks/task_20260701_kdo-index-lint-wikilink-format-alignment.md` | 欧阳锋建议插队；根因：`kdo index --rebuild` 生成 bare wikilink，`kdo lint` 期望带路径 wikilink，导致 strategy 148 个 / 全库约 700+ WARNING 误报；修复后 strategy 域可真实清零；预计 0.5-1 天 |
 | 40 | `task_20260701_design-domain-encoding-diagnosis` | design domain 编码损坏诊断 | queued | 老顽童(WorkBuddy) | 1 份诊断报告 | 无；阻塞 #28 design 域清理 | `60_feedback/tasks/task_20260701_design-domain-encoding-diagnosis.md` | 欧阳锋建议插队；目标：只读诊断 design 域文件编码损坏根因，给出 healthy/display-only/recoverable/corrupted 分类及后续处理建议；诊断完成前禁止批量修改 design 文件；预计 0.5-1 天 |
 
-> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-38 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 5 个 Vikki/大馨 提炼任务（#30-34）+ **2 个黄药师基础设施任务（#36 kdo query --label、#37 kdo CLI SyntaxError 修复）** + **1 个王语嫣编排任务（#38《吾辈如神》试点卡）**；#35 `state.json → SQLite MVP` 已由欧阳锋终审通过。
-> **本周高优先级基础设施任务**：#36 `kdo query --label` 与 #37 `kdo CLI SyntaxError 修复` 由黄药师负责，可紧随其后执行。
+> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-40 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 5 个 Vikki/大馨 提炼任务（#30-34）+ **2 个已 reviewed 黄药师基础设施任务（#36 kdo query --label、#37 kdo CLI SyntaxError 修复）** + **1 个王语嫣编排任务（#38《吾辈如神》试点卡）** + **2 个新入队 P1 基建任务（#39 index/lint wikilink 对齐、#40 design 编码诊断）**；#35 `state.json → SQLite MVP` 已由欧阳锋终审通过。
+> **本周高优先级基础设施任务**：#39 `kdo index/lint wikilink 格式对齐` 与 #40 `design domain 编码损坏诊断` 由王语嫣独立判断后入队；#36/#37 已由欧阳锋终审通过。
+> **#28 状态更新**：已由欧阳锋审查并暂停为长线周期性任务，任务单 status 改为 `paused`，队列保持 `queued` 并标注「待拆分为周期性批次」。当前 strategy 域真实内容问题已清零，剩余 148 个 WARNING 为 #39 机制误报；yitang 已处理 20 个 tool 卡（WARNING ↓65）；design 域编码损坏待 #40 诊断。
 > **#38 说明**：《吾辈如神》素材经 6 层交叉验证 + 9 层深挖 + 全网调研后评级为 **B（条件性纳入）**，不是 A 级，不能免检，不能批量生产 5-6 张卡。王语嫣域诊断后选定 `concept-cognitive-offloading-in-ai-era` 为唯一试点卡，纠偏 BMW 85%、AGI 2029、AI 无法创造等误读；扩量需试点卡终审通过 + 二次域诊断。
+> **#39 / #40 说明**：欧阳锋建议、王语嫣独立判断后入队。两个基建任务可与 #28 周期性批次及 #38 内容任务并行，互不等对方完成。#39 修复后 #28 strategy 域可真实清零；#40 诊断完成前禁止批量修改 design 文件。
 > **当前 lint 基线**：`kdo lint` 全量 0 ERROR / 2656 WARNING；机械类 WARNING 经 #27 处理后降至 3286；#28 第一轮后降至 3255，第二轮累计处理 23 张 card 后降至 2666（copy-paste 从 76 清零），第三轮处理 5 个 strategy case 后降至 2656；剩余主要为 body 过短、L2 Critique、L2 Condense、L2 Synthesis 等内容债，由 #28 按 domain 分批处理；`kdo lint --domain <domain> --summary` 已可用。
 > **人员状态**：A1/A2 reviewed；#24-debt reviewed；Wave 6 已完成；B1/B2/B3 已完成；#25 扩展卡已 reviewed；#26 全库 frontmatter 合规修复已 reviewed。
-> **执行顺序建议**：frontmatter 与目录结构类历史债务已全部处理完毕，进入下一阶段。剩余 7507 WARNING 建议作为内容精修任务按需分批处理，不要继续机械修复。#38 试点卡可与 #36/#37 基建任务并行。
+> **执行顺序建议**：frontmatter 与目录结构类历史债务已全部处理完毕，进入下一阶段。剩余 7507 WARNING 建议作为内容精修任务按需分批处理，不要继续机械修复。#38 试点卡、#39/#40 基建任务、#28 周期性批次可并行推进。
 > 历史批量工单卡数估算来自 `laowantong-batch-2026-06-20.md` 的 waves 1-5。
 >
 > **🆘 临时分流（2026-06-27）**：Hermes 老顽童历史任务重，启动 Kimi 老顽童临时协助生产 2026-06-27 新标注任务。历史批量工单 waves 1-5 仍由 Hermes 负责；刻意练习域、渠道增长域、兰毅泛产品组织内容及跨域桥接卡由 Kimi 负责。欧阳锋/黄药师无感知——他们只按 pending_review 顺序审卡。

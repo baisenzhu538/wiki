@@ -72,6 +72,8 @@ Generated: 2026-06-26T21:00:00+00:00
 | calibration-understanding-gate-motivation-peakend | 校准任务：用两张旧卡建立理解深度标尺 | completed | 黄药师 | P1 | calibration-understanding-gate-motivation-peakend.md |
 | sprint-13-kdo-mechanism-iterations | Sprint 13：KDO 机制迭代——lint 基线、卡片清册、变更 diff、理解门禁辅助 | completed | 黄药师 | P1 | sprint-13-kdo-mechanism-iterations.md |
 | task_20260701_wangyuyan-wobeirushen-pilot-orchestration | 《吾辈如神》条件性纳入 + 1 张试点卡 | queued | 老顽童(Hermes) | P1 | task_20260701_wangyuyan-wobeirushen-pilot-orchestration.md | 王语嫣基于验证报告编排：B 级素材，AI 协作域缺「认知边界/心态层」；试点 `concept-cognitive-offloading-in-ai-era`；纠偏 BMW 85%/AGI 2029/AI 无法创造；扩量需终审通过 + 二次诊断 |
+| task_20260701_kdo-index-lint-wikilink-format-alignment | KDO index/lint wikilink 格式对齐 | queued | 黄药师 | P1 | task_20260701_kdo-index-lint-wikilink-format-alignment.md | 欧阳锋建议、王语嫣入队：修复 `kdo index --rebuild` 与 `kdo lint` 的 wikilink 格式不一致，使 strategy 148 个 / 全库约 700+ WARNING 误报清零；阻塞 #28 strategy 域真实清零验证 |
+| task_20260701_design-domain-encoding-diagnosis | design domain 编码损坏诊断 | queued | 老顽童(WorkBuddy) | P1 | task_20260701_design-domain-encoding-diagnosis.md | 欧阳锋建议、王语嫣入队：只读诊断 design 域编码损坏根因，分类 healthy/display-only/recoverable/corrupted；诊断完成前禁止批量修改 design 文件；阻塞 #28 design 域清理 |
 
 ---
 
