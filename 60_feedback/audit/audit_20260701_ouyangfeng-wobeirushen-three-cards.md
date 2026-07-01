@@ -4,7 +4,7 @@ title: "《吾辈如神》试点三卡审计跟踪"
 type: "audit"
 domain:
   - "knowledge-management"
-status: "pending"
+status: "reviewed"
 confidence: 0.9
 language: "zh-CN"
 created_at: "2026-07-01T00:00:00+00:00"

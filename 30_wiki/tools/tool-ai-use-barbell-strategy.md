@@ -11,7 +11,7 @@ language: "zh-CN"
 created_at: "2026-07-01T00:00:00+00:00"
 updated_at: "2026-07-01T00:00:00+00:00"
 author: "老顽童"
-reviewed_by: "pending"
+reviewed_by: "欧阳锋"
 trust_level: "medium"
 source_refs:
   - "60_feedback/audit/20260701-wobeirushen-validation-report.md"

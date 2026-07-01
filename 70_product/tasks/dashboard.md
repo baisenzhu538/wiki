@@ -74,7 +74,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260701_kdo-index-lint-wikilink-format-alignment | KDO index/lint wikilink 格式对齐 | queued | 黄药师 | P1 | task_20260701_kdo-index-lint-wikilink-format-alignment.md | 欧阳锋建议、王语嫣入队：修复 `kdo index --rebuild` 与 `kdo lint` 的 wikilink 格式不一致，使 strategy 148 个 / 全库约 700+ WARNING 误报清零；阻塞 #28 strategy 域真实清零验证 |
 | task_20260701_design-domain-encoding-diagnosis | design domain 编码损坏诊断 | queued | 老顽童(Kimi) | P1 | task_20260701_design-domain-encoding-diagnosis.md | 欧阳锋建议、王语嫣入队：只读诊断 design 域编码损坏根因，分类 healthy/display-only/recoverable/corrupted；诊断完成前禁止批量修改 design 文件；阻塞 #28 design 域清理 |
 | task_20260701_wangyuyan-wobeirushen-pilot-orchestration | 《吾辈如神》条件性纳入 + 3 张卡 | claimed-kimi | 老顽童(Kimi) | P1 | task_20260701_wangyuyan-wobeirushen-pilot-orchestration.md | 王语嫣价值判断：B 级素材，不做试点，直接产出 3 张卡——`concept-cognitive-offloading-in-ai-era`（已有初稿，需终审）、`tool-ai-use-barbell-strategy`（新建）、`concept-abundance-paradox`（新建）；纠偏 BMW 85%/AGI 2029/AI 无法创造；其余概念本次不纳入，封账 |
-| task_20260701_wangyuyan-time-management-domain-orchestration | 时间管理域升级：3 张高密度桥接卡 | queued | 老顽童(Kimi) | P2 | task_20260701_wangyuyan-time-management-domain-orchestration.md | 王语嫣独立判断：接受黄药师 critique，从原 9 卡压缩为 3 张高密度卡——framework 五步法桥接 + tool 时间审计循环 + dk 常见陷阱；保留操作模板以满足每天任务咨询需求；同时反向更新 ≥10 张已有框架卡 related
+| task_20260701_wangyuyan-time-management-domain-orchestration | 时间管理域升级：3 张高密度桥接卡 | queued | 老顽童(Kimi) | P2 | task_20260701_wangyuyan-time-management-domain-orchestration.md | 王语嫣独立判断：接受黄药师 critique，从原 9 卡压缩为 3 张高密度卡——framework 五步法桥接 + tool 时间审计循环 + dk 常见陷阱；王语嫣经九层深挖返工：时间管理 = 一堂五步法/IPO/单元模型/决策卫生在自管理场景的实例化；保留操作模板以满足每天任务咨询需求；反向更新 ≥10 张已有框架卡 related；详见 `diag_20260701_time-management-nine-layer-isomorphism.md`
 
 ---
 

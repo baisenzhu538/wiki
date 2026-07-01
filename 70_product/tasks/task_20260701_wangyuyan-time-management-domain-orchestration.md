@@ -20,6 +20,7 @@ source_refs:
   - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
   - 00_inbox/时间管理/_processed/vlm_summary.json
   - 60_feedback/diagnosis/diag_20260701_time-management-validation.md
+  - 60_feedback/diagnosis/diag_20260701_time-management-nine-layer-isomorphism.md
   - 60_feedback/tasks/task_20260701_huangyaoshi-proposal-time-management-bridge.md
 related:
   - yt-personal-time-management
@@ -30,8 +31,8 @@ related:
 
 # 时间管理域升级：从 9 张孤立卡调整为 3 张高密度桥接卡
 
-> 任务来源：王语嫣入口质量门诊断 + 黄药师跨域桥接建议书
-> 王语嫣独立判断：黄药师 critique 成立——原 9 卡方案过度原子化，把一堂时间管理课程降解为孤立概念；真正价值是「一堂五步法在自管理场景下的完整实例化」。但用户未来需要**每天任务咨询级别的操作细度**，因此不能只做 1 张薄桥接卡，而要产出 **1 张厚桥接 framework + 1 张日常审计 tool + 1 张反模式 dk**，并把 10+ 已有框架卡双向链接补齐。
+> 任务来源：王语嫣入口质量门诊断 + 黄药师跨域桥接建议书 + **九层深挖返工版诊断**
+> 王语嫣独立判断：黄药师 critique 成立——初诊过度原子化，把一堂时间管理课程降解为孤立概念。经 `framework-yitang-nine-layer-deep-dig` 返工后，核心洞察为：**时间管理不是独立域，而是一堂五步法、IPO、单元模型、决策卫生等方法论在「自管理」场景下的完整实例化**。真正价值在桥接层，但用户未来需要**每天任务咨询级别的操作细度**，因此产出 **1 张厚桥接 framework + 1 张日常审计 tool + 1 张反模式 dk**，并把 10+ 已有框架卡双向链接补齐。
 
 ---
 
