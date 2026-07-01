@@ -23,6 +23,8 @@ related:
   - "[[framework-brand-three-degree]]"
   - "[[tool-shortvideo-six-dimension-deconstruction]]"
   - "[[case-daxin-team-content-training-camp]]"
+  - "[[framework-content-business-six-step]]"
+  - "[[framework-founder-ip-three-positioning]]"
 tags:
   - "#source_type/workflow"
   - "#content-production"

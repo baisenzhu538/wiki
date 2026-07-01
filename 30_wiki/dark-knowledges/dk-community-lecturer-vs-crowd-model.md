@@ -24,6 +24,8 @@ related:
   - "[[framework-community-knowledge-production-failure-modes]]"
   - "[[case-daxin-team-content-training-camp]]"
   - "[[framework-founder-ip-three-positioning]]"
+  - "[[concept-open-source-knowledge-usage-boundary]]"
+  - "[[framework-content-business-six-step]]"
 tags:
   - "#source_type/comparison"
   - "#scene/community"

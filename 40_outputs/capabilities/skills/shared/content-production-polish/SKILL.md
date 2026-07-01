@@ -29,6 +29,20 @@ Use this skill to make content satisfy six standards:
 
 Do not merely make the copy simpler. Preserve useful sharpness, business judgment, and conversion intent.
 
+## 信息 × 情绪 二元模型（暗知识补充）
+
+> *「信息是弹头，情绪是制导系统。核弹和导弹搭配起来效果才最大。」* —— 张若微，Vikki 战队 2 群
+
+**盲区说明**：Core Standard 的 6 个维度分别处理了“信息是否清楚”和“情绪是否到位”，但没有把它们作为一对必须同时起作用的二元模型来强调。这条暗知识说明：
+- **信息（弹头）**：观点、方法、案例、数据——解决“用户获得了什么认知”。
+- **情绪（制导系统）**：节奏、代入感、信任感、紧迫感——决定“用户是否愿意接受并行动”。
+- 信息再硬，没有情绪引导，用户听不进去；情绪再满，没有信息支撑，用户会觉得空洞。
+
+**应用方式**：
+- 在 Step 2 提取核心论点后，同时检查：这个论点有没有一个情绪锚点（痛点、好奇、身份认同）？
+- 在 Step 5 改写时，确保每一个信息点都有对应的情绪节奏：是“痛点共鸣”还是“希望触发”？
+- 在 Platform Notes 的短视频口播中，前 3 秒钩子负责情绪启动，方法论输出负责信息交付，转化钩子负责情绪-行动连接。
+
 ## Default Workflow
 
 When the user provides a draft, perform this sequence:

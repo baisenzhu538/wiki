@@ -23,6 +23,9 @@ related:
   - "[[framework-brand-three-degree]]"
   - "[[case-daxin-team-content-training-camp]]"
   - "[[framework-founder-ip-three-positioning]]"
+  - "[[tool-shortvideo-six-dimension-deconstruction]]"
+  - "[[framework-content-business-six-step]]"
+  - "[[case-yitang-yitang-shortvideo-industrialization]]"
 tags:
   - "#source_type/insight"
   - "#content-production"

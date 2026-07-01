@@ -23,6 +23,8 @@ related:
   - "[[yt-personal-deliberate-practice]]"
   - "[[tool-ai-skill-engineering-method]]"
   - "[[tool-shortvideo-six-dimension-deconstruction]]"
+  - "[[case-daxin-team-content-training-camp]]"
+  - "[[framework-community-knowledge-production-failure-modes]]"
 tags:
   - "#source_type/insight"
   - "#content-production"
