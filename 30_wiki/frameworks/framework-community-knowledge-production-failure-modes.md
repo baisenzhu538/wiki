@@ -44,10 +44,8 @@ related:
   - "[[framework-brand-three-degree]]"
   - "[[tool-shortvideo-six-dimension-deconstruction]]"
   - "[[system-kdo-quality-labels]]"
-  - "[[dk-content-community-info-density]]"
-  - "[[dk-content-mini-case-writing]]"
-  - "[[dk-content-open-source-explicit-compensation]]"
-  - "[[dk-content-anchor-design]]"
+  - "[[dk-community-lecturer-vs-crowd-model]]"
+  - "[[dk-content-muscle-memory-vs-knowledge]]"
 pipeline:
   - "confidence-draft"
 ---
