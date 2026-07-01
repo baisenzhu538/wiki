@@ -1,6 +1,6 @@
 ---
 id: task_20260702_laowantong-yitang-scientific-sales-methodology-production
-title: "一堂科学销售方法论：1 framework + 5 tool + 1 framework + 2 case + 1 dk（销售域 / OPC 智能体底层）"
+title: "一堂科学销售方法论：1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体 / 销售域）"
 type: task
 status: queued
 priority: P1
@@ -8,7 +8,7 @@ assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 created_at: 2026-07-02
 updated_at: 2026-07-02
-expected_cards: 10
+expected_cards: 12
 source_refs:
   - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
   - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
@@ -35,15 +35,20 @@ related:
   - dk-yitang-sales-common-pitfalls
   - case-yitang-sales-transformation-jubensha-saas
   - case-yitang-sales-transformation-meirongyuan
+  - case-yitang-sales-transformation-tuliaogongsi
+  - tool-opc-sales-dialogue-assistant
   - opc-ai-sales-agent-architecture
 ---
 
-# 一堂科学销售方法论：1 framework + 5 tool + 1 framework + 2 case + 1 dk
+# 一堂科学销售方法论：1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体）
 
 > 任务来源：王语嫣入口质量门诊断 `diag_20260702_yitang-scientific-sales-methodology.md`
 > 王语嫣判断：本专题是「一堂方法论 + 假设驱动 + 工具化」在销售管理场景的完整实例化；KDO 目前几乎没有独立销售方法论卡片，本任务填补明显空白。用户分层、价值主张、目标管理、工具化等概念已有 KDO 卡覆盖，本次只做销售域实例化，通过 related 关联已有卡。
 > OPC 适配：科学销售五步法可直接映射为 OPC 智能体军团，已有 `opc-ai-sales-agent-architecture.md` 作为承接，本次产出需反向更新其 related。
-> 版本说明：初版规划 6 张卡，经用户挑战后重新判断：6 张会牺牲「未来直接拿来咨询可用」的深度，扩展为 10 张卡——用户分层与卖点提炼独立成卡，新增 2 个转型 case 和 1 张反模式 dk。
+> 版本说明：
+> - 初版规划 6 张卡，经用户挑战后扩展为 10 张卡。
+> - 黄药师建议：在 10 张基础上增加操作层工具卡、案例卡与 OPC 智能体规格卡，预计 12-15 张。
+> - 王语嫣独立判断：操作层细节（SABC 算法、A/B 测试、状态机等）并入现有 tool/framework 卡的 OPC 适配小节，不再单独建卡；新增 **1 个涂料公司 case** 覆盖传统工业分销场景，新增 **1 张 `tool-opc-sales-dialogue-assistant` 作为 MVP 智能体规格卡**；智能体层不一次性铺开 8-10 张，先做可直接当 system prompt 运行的对话助手。最终确定为 **12 张卡**。
 
 ---
 
@@ -66,7 +71,7 @@ related:
 
 ---
 
-## 二、10 张目标卡
+## 二、12 张目标卡
 
 ### Card 1: `framework-yitang-scientific-sales-five-step`
 
@@ -331,6 +336,8 @@ related:
 24. `human-ai-collaboration-double-triangle`
 25. `framework-lean-pivot-decision`
 26. `dk-yitang-channel-exploration-traps`
+27. `case-yitang-sales-transformation-tuliaogongsi`
+28. `tool-opc-sales-dialogue-assistant`
 
 ---
 
@@ -338,8 +345,10 @@ related:
 
 1. **不重复建设**：用户分层、价值主张、目标管理、工具化、决策卫生等概念已有 KDO 卡覆盖，本次只做销售域实例化，通过 related 引用。
 2. **用户分层与卖点独立成卡**：未来咨询「该重点跟进哪些客户」和「怎么写卖点」可分别调用，避免合并后检索困难。
-3. **案例处理**：剧本杀 SaaS 和美容院作为两个完整转型案例独立成卡，覆盖 To B 与 To C 场景；快钱支付、涂料公司、儿童记忆力培训、iPhone 充电器等作为工具卡嵌入式证据。
+3. **案例处理**：剧本杀 SaaS、美容院、涂料公司作为三个完整转型案例独立成卡，分别覆盖 To B 初创 SaaS、To C 门店零售、传统工业分销；快钱支付、儿童记忆力培训、iPhone 充电器等作为工具卡嵌入式证据。
 4. **数字降级**：课程中的「2 天」「60 分」「200 个案例」「20 个记录」「85-90% 完成率」等描述为项目经验/个人做法，不当作普适真理。
+5. **OPC 智能体适配内嵌**：`tool-yitang-customer-segmentation-4step`、`tool-yitang-value-proposition-4step`、`tool-yitang-sales-process-decomposition`、`tool-yitang-sales-performance-management`、`framework-yitang-sales-incentive-6d` 等卡必须包含「OPC 智能体适配」小节，说明如何映射为 system prompt；不单独为这些子模块建卡，避免碎片化。
+6. **MVP 智能体优先**：智能体层只新建 `tool-opc-sales-dialogue-assistant` 一张卡，其余 10 个智能体规格待本批卡片终审后根据反馈分批扩展。
 5. **法律声明**：商标/合同/提成等涉及法律判断的案例，工具卡和 framework 卡中必须明确「AI/课程只提供公共知识扫盲，最终法律结论需专业机构复核」。
 6. **OPC 改编**：激励团队、周会三要点、拆目标到个人等模块不直接适用于 OPC，需在相关卡片中明确 OPC 版改编提示。
 7. **跨域融合**：每张卡必须同时桥接 sales 域和对应底层方法论域（strategy / management / ai-collaboration 等），不能只讲销售技巧。
@@ -348,7 +357,7 @@ related:
 
 ## 五、验收标准
 
-- [ ] 10 张目标卡 `kdo pre-submit` PASS，无新增 ERROR。
+- [ ] 12 张目标卡 `kdo pre-submit` PASS，无新增 ERROR。
 - [ ] 10 张目标卡 `kdo lint` 0 ERROR；新增 WARNING 需在任务单中说明。
 - [ ] `framework-yitang-scientific-sales-five-step` 包含五步法总图、六大通病、与一堂五步法关系、OPC 改编提示。
 - [ ] `tool-yitang-customer-segmentation-4step` 包含四步法、SABC 分级、分层假设清单、验证方法、≥8 项 checklist。
@@ -360,6 +369,8 @@ related:
 - [ ] `dk-yitang-sales-common-pitfalls` 包含 6 个反模式、≥6 条预警信号、每个陷阱的修复动作。
 - [ ] `case-yitang-sales-transformation-jubensha-saas` 包含 Background/Problem/Decision/Process/Result/Lessons/Failure Modes。
 - [ ] `case-yitang-sales-transformation-meirongyuan` 包含 Background/Problem/Decision/Process/Result/Lessons/Failure Modes。
+- [ ] `case-yitang-sales-transformation-tuliaogongsi` 包含 Background/Problem/Decision/Process/Result/Lessons/Failure Modes。
+- [ ] `tool-opc-sales-dialogue-assistant` 包含 When to Use/输入/输出/工作逻辑/System Prompt 模板/边界与风险/Checklist/Anti-patterns/Critique/Synthesis/Related。
 - [ ] 每张卡 Critique 包含 ≥3 个外部反对者与 ≥2 个内部局限。
 - [ ] 每张卡 related ≥ 5，且至少 2 条跨域。
 - [ ] ≥26 张已有卡的 related 已反向更新。
@@ -377,7 +388,8 @@ related:
 | 第三批 | `tool-yitang-sales-process-decomposition` | Step 2 过程工具 |
 | 第四批 | `tool-yitang-sales-performance-management` | Step 3 业绩工具 |
 | 第五批 | `framework-yitang-sales-incentive-6d` + `tool-yitang-sales-toolkit-radar` | Step 4 激励 + Step 5 工具箱 |
-| 第六批 | `dk-yitang-sales-common-pitfalls` + `case-yitang-sales-transformation-jubensha-saas` + `case-yitang-sales-transformation-meirongyuan` | 反模式 + 两个转型案例 |
+| 第六批 | `dk-yitang-sales-common-pitfalls` + `case-yitang-sales-transformation-jubensha-saas` + `case-yitang-sales-transformation-meirongyuan` + `case-yitang-sales-transformation-tuliaogongsi` | 反模式 + 三个转型案例 |
+| 第七批 | `tool-opc-sales-dialogue-assistant` | OPC 智能体 MVP 规格卡，放在最后以便聚合前五步工具逻辑 |
 
 ---
 

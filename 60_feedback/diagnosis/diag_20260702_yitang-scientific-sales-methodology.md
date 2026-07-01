@@ -24,6 +24,8 @@ related:
   - "[[dk-yitang-sales-common-pitfalls]]"
   - "[[case-yitang-sales-transformation-jubensha-saas]]"
   - "[[case-yitang-sales-transformation-meirongyuan]]"
+  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
 ---
 
 # 一堂科学销售方法论：九层深挖 · 跨域桥接诊断
@@ -230,7 +232,7 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 | 12 | 剧本杀 SaaS 转型案例 | 泛产品设计 / 精益创业 | `framework-一堂五步法-泛产品设计` / `framework-lean-pivot-decision` | To B 销售体系从零搭建 | ✅ 新建 `case-yitang-sales-transformation-jubensha-saas` |
 | 13 | 美容院转型案例 | 渠道探索 / 目标管理 | `framework-yitang-channel-exploration-4step` / `yt-management-goal-management` | To C 门店销售体系改造 | ✅ 新建 `case-yitang-sales-transformation-meirongyuan` |
 | 14 | 销售案例（蓝军/崔磊） | 刻意练习 / AI 协作 | `case-yitang-sales-routine-deconstruction` / `case-yitang-ai-painting-commercialization` | 销售能力可被结构化训练 | 否，作为已有 case 反向补链 |
-| 15 | OPC 智能体军团 | AI 协作 / 个人 OS | `opc-ai-sales-agent-architecture` / `human-ai-collaboration-double-triangle` | 销售能力代码化 | 否，已有 system 文件，需反向更新 related |
+| 15 | OPC 智能体军团 | AI 协作 / 个人 OS | `opc-ai-sales-agent-architecture` / `human-ai-collaboration-double-triangle` | 销售能力代码化 | ✅ 新增 `tool-opc-sales-dialogue-assistant`（MVP 对话助手规格卡）；11 智能体架构总图仍由已有 `opc-ai-sales-agent-architecture.md` 承接，需反向更新 related |
 
 ### 10.3 缺口识别：什么是真缺口？
 
@@ -269,11 +271,15 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 
 ---
 
-## 十二、建议产出的 10 张卡
+## 十二、建议产出的 12 张卡
 
-基于以上诊断，建议产出 **1 framework + 5 tool + 1 framework + 2 case + 1 dk**。
+基于以上诊断，建议产出 **1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体）**。
 
-> 说明：用户分层与卖点提炼拆分为两张独立工具卡，未来咨询「该重点跟进哪些客户」和「怎么写卖点」可分别调用；剧本杀 SaaS 和美容院作为两个完整转型案例独立成卡，覆盖 To B 与 To C 场景；新增一张销售反模式 dk 卡，沉淀最常见陷阱。
+> 说明：
+> - 用户分层与卖点提炼拆分为两张独立工具卡，未来咨询「该重点跟进哪些客户」和「怎么写卖点」可分别调用。
+> - 剧本杀 SaaS、美容院、涂料公司作为三个完整转型案例独立成卡，分别覆盖 To B 初创 SaaS、To C 门店零售、传统工业分销三个场景。
+> - 新增一张销售反模式 dk 卡，沉淀最常见陷阱。
+> - 在黄药师建议基础上，王语嫣独立判断：智能体层不一次性产出 8-10 张，而是先产出 **1 张 MVP 对话助手智能体规格卡**（读对话 → 想策略 → 给话术），直接解决 OPC 最大痛点；其余智能体待本批卡片终审后，根据使用反馈再分批扩展。
 
 ### Card 1: `framework-yitang-scientific-sales-five-step`
 
@@ -475,11 +481,63 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 8. **Synthesis**：桥接 `framework-yitang-scientific-sales-five-step`、`tool-yitang-customer-segmentation-4step`、`tool-yitang-sales-process-decomposition`、`tool-yitang-sales-performance-management`、`framework-yitang-sales-incentive-6d`、`tool-yitang-sales-toolkit-radar`、`framework-yitang-channel-exploration-4step`。
 9. **Related**：≥5 条。
 
+### Card 11: `case-yitang-sales-transformation-tuliaogongsi`
+
+**类型**：case  
+**主域**：sales / manufacturing-distribution / b2b / yitang  
+**定位**：传统工业分销场景下的用户分层与销售资源配置转型案例，带明确数据。
+
+**必须包含的 section**：
+1. **Background**：涂料公司，面临海量线索但转化率低，销售精力分散。
+2. **Problem**：10 万个注册线索里分不清谁是真客户；销售平均分配精力，S 级客户被淹没；没有基于目标的分层假设。
+3. **Decision**：用一堂用户分层四步法重新做 SABC 分级，把有限资源集中到高价值客户。
+4. **Process**：
+   - 明确阶段目标：短期要利润还是长期要标杆客户？
+   - 提出分层假设：根据公司规模、项目类型、采购周期、地域等维度假设 S/A/B/C 标准
+   - 验证假设：分析历史成交客户画像，抽样访谈 20 个已成交和 20 个未成交客户
+   - 执行分层：从 10 万线索中筛出约 20 条 S 级、200 条 A 级，其余进入自动化培育
+5. **Result**：销售团队把 80% 精力放在 Top 220 客户上，S 级客户转化率显著提升；整体线索处理效率提高。
+6. **Lessons**：分层必须和目标挂钩；没有验证的分层是拍脑袋；自动化培育可以让 B/C 级线索不浪费。
+7. **Failure Modes**：只看线索数量不看质量、分层标准常年不更新、B/C 级线索直接丢弃不用培育、销售抵制"只给少量线索"。
+8. **Synthesis**：桥接 `framework-yitang-scientific-sales-five-step`、`tool-yitang-customer-segmentation-4step`、`tool-yitang-sales-performance-management`、`master-decision-hygiene`。
+9. **Related**：≥5 条。
+
+### Card 12: `tool-opc-sales-dialogue-assistant`
+
+**类型**：tool  
+**主域**：personal-os / ai-sales-agent / yitang  
+**定位**：OPC 销售智能体 MVP 规格卡，可直接作为 system prompt 使用。解决一人公司同时聊多个客户时"跟丢、跟乱、跟错节奏"的痛点。
+
+**必须包含的 section**：
+1. **When to Use**：一人公司创始人同时跟进多个客户、对话散落在微信/邮件/通话中、容易忘记客户阶段、回复前需要快速判断局势。
+2. **核心功能**：读对话 → 想策略 → 给话术。
+3. **输入**：客户对话记录（微信/邮件/通话转写/CRM 备注）、当前客户分层标签（可选）、当前销售阶段（可选）。
+4. **输出**：
+   - 客户意图与阶段判断（接触/购买/付款/履约 + 情绪/抗拒点）
+   - 下一步建议（该做什么、不该做什么）
+   - 2-3 个回复选项（可直接选用或微调）
+5. **工作逻辑**：
+   - 用 `tool-yitang-customer-segmentation-4step` 判断客户等级
+   - 用 `tool-yitang-sales-process-decomposition` 识别当前阶段和关键决策点
+   - 用 `tool-yitang-value-proposition-4step` 选择匹配卖点
+   - 用 `tool-yitang-sales-performance-management` 判断是否需要推进/预警
+   - 生成 2-3 个不同风格回复（直接型/共情型/提问型）
+6. **System Prompt 模板**：提供一份可直接复制到 Claude/GPT 自定义指令的精简模板。
+7. **边界与风险提示**：
+   - 不替代关键人际信任建立
+   - 不自动发送消息，只输出建议
+   - 涉及客户隐私数据需本地/合规处理
+8. **Checklist**：≥8 项。
+9. **Anti-patterns**：完全照搬话术不调整、把AI建议当最终决策、在关键谈判中让AI代写、忽视客户情绪信号。
+10. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
+11. **Synthesis**：桥接 `opc-ai-sales-agent-architecture`、`human-ai-collaboration-double-triangle`、`framework-yitang-scientific-sales-five-step`、`tool-yitang-customer-segmentation-4step`、`tool-yitang-value-proposition-4step`、`tool-yitang-sales-process-decomposition`、`tool-yitang-sales-performance-management`。
+12. **Related**：≥5 条。
+
 ---
 
 ## 十三、已有卡补链建议
 
-产出 10 张新卡后，反向更新以下已有卡的 `related`：
+产出 12 张新卡后，反向更新以下已有卡的 `related`：
 
 1. `yt-five-step-method-complete`
 2. `yitang-methodology-system`
@@ -507,6 +565,8 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 24. `human-ai-collaboration-double-triangle`
 25. `framework-lean-pivot-decision`
 26. `dk-yitang-channel-exploration-traps`
+27. `case-yitang-sales-transformation-tuliaogongsi`
+28. `tool-opc-sales-dialogue-assistant`
 
 ---
 
@@ -523,8 +583,13 @@ OPC 目标与销售五步法高度匹配，但需做以下改编：
 | 业绩管理三步法 | 业绩预测 + 跟进编排智能体：周计划 + Gap 提醒 |
 | 六维激励团队 | 替换为创始人自我驱动机制（目标-行动-反馈循环） |
 | 销售武器库 | 智能体提示词库 + 提案模板库 + 案例库 |
+| **MVP 首选** | **对话助手智能体**：读对话 → 想策略 → 给话术（详见 `tool-opc-sales-dialogue-assistant`） |
 
-这些改编已在 `opc-ai-sales-agent-architecture.md` 中记录。本次新产出的 10 张 KDO 卡应成为该架构的底层方法论来源，需在 `opc-ai-sales-agent-architecture` 的 related 中回链。
+**为什么先做对话助手？**
+
+基于一人公司"资源少、见效快、能闭环"的原则，第一个 MVP 不是做 8 个智能体，而是做 1 个对话助手。它把三件事合在一起：读对话识别客户意图和阶段、想策略判断下一步该做什么、给话术生成 2-3 个回复选项。这直接解决 OPC 最大痛点——一个人同时聊多个客户时，容易跟丢、跟乱、跟错节奏。这个智能体不改变销售动作，只是每次对话后递一张"小抄"。
+
+这些改编已在 `opc-ai-sales-agent-architecture.md` 中记录。本次新产出的 12 张 KDO 卡应成为该架构的底层方法论来源；其中 `tool-opc-sales-dialogue-assistant` 是首个可直接作为 system prompt 运行的规格卡，需在 `opc-ai-sales-agent-architecture` 的 related 中回链，并在该架构中补充 MVP 启动路径。
 
 ---
 
@@ -535,7 +600,7 @@ OPC 目标与销售五步法高度匹配，但需做以下改编：
 - 来源可靠：一堂内部课程 + 李蕊二十多年实战。
 - 主题契合：KDO 目前几乎没有独立销售方法论卡片，本专题填补明显空白。
 - 不重复建设：用户分层、价值主张、目标管理、工具化等概念已有 KDO 卡覆盖，本次只做销售域实例化。
-- 可操作性强：可直接产出 1 framework + 5 tool + 1 framework + 2 case + 1 dk，并反向更新 ≥26 张已有卡 related。
+- 可操作性强：可直接产出 1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体），并反向更新 ≥28 张已有卡 related。
 - 未来咨询可用：当用户问「我的线索该怎么分」「卖点怎么写」「销售过程怎么拆」「业绩怎么管」「团队怎么激励」「该建什么销售工具」时，可直接调用对应工具卡给出可执行方案。
 - OPC 适配：科学销售五步法可直接映射为 OPC 智能体军团，已有 `opc-ai-sales-agent-architecture.md` 作为承接。
 
@@ -543,7 +608,7 @@ OPC 目标与销售五步法高度匹配，但需做以下改编：
 **优先级**：P1（销售域重要补充，OPC 战略落地关键）  
 **Assignee**：老顽童(Kimi)  
 **Reviewer**：欧阳锋  
-**预计卡数**：10 张（1 framework + 5 tool + 1 framework + 2 case + 1 dk） + 反向更新 ≥26 张已有卡 related
+**预计卡数**：12 张（1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体）） + 反向更新 ≥28 张已有卡 related
 
 ---
 
