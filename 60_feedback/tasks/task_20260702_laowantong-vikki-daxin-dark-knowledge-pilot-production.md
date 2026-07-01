@@ -2,12 +2,12 @@
 id: task_20260702_laowantong-vikki-daxin-dark-knowledge-pilot-production
 title: 暗知识补挖试点生产：Vikki + 大馨战队（11-13 个文件变更）
 type: task
-status: in_progress
+status: pending_review
 priority: P1
 assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-02
-updated_at: '2026-07-01T17:11:57.461297+00:00'
+updated_at: '2026-07-01T17:41:54.251232+00:00'
 expected_cards: 4
 source_refs:
 - 60_feedback/diagnosis/diag_20260702_vikki-daxin-dark-knowledge-extraction.md
@@ -118,6 +118,39 @@ related:
 - **状态**：`queued`
 - **位置**：紧跟 `#40`（《吾辈如神》3 张卡）之后，排在 `#41`（时间管理域升级）之前。
 - **预计工时**：老顽童补卡 1 天 + 欧阳锋抽检 0.5 天。
+
+---
+
+## 八、老顽童生产记录（Kimi 实例）
+
+- **领取时间**：2026-07-02
+- **完成时间**：2026-07-02
+- **实际产出**：
+  - 4 张新 dk 卡：
+    - `30_wiki/dark-knowledges/dk-content-muscle-memory-vs-knowledge.md`
+    - `30_wiki/dark-knowledges/dk-founding-ip-trust-over-traffic.md`
+    - `30_wiki/dark-knowledges/dk-content-implicit-value-without-price.md`
+    - `30_wiki/dark-knowledges/dk-community-lecturer-vs-crowd-model.md`
+  - 9 张已有卡/文件补充暗知识：
+    - `framework-community-knowledge-production-failure-modes`（新增「成功模式与预警信号」+ 暗知识映射表）
+    - `framework-brand-three-degree`（新增「创始人 IP 的内容取舍」暗知识补充节）
+    - `concept-open-source-knowledge-usage-boundary`（新增边界案例暗知识）
+    - `case-daxin-team-content-training-camp`（新增「暗知识补充」节 + 关键决策处引用）
+    - `tool-shortvideo-six-dimension-deconstruction`（Step 6 增加内化检验 + 新增暗知识节）
+    - `tool-ai-skill-engineering-method`（失败模式表增加「喂太杂」与「AI 仿写边界」）
+    - `yt-personal-deliberate-practice`（新增暗知识补充节，修复 frontmatter 缺 title/type）
+    - `master-decision-hygiene`（新增「一根筋变两头堵」暗知识节）
+    - `content-production-polish` SKILL（shared + .claude 双份新增「信息 × 情绪 二元模型」）
+- **删除的中间产物**：初期因对任务单理解偏差，误产 4 张 dk 卡（info-density / mini-case / open-source-compensation / anchor-design），已删除并清理相关回链。
+- **验证结果**：
+  - `kdo lint`：本次变更的目标文件 0 ERROR（全量 lint 的 ERROR 均为历史遗留，未新增）。
+  - `kdo pre-submit`：目标文件抽检 PASS。
+- **自攻击摘要**：
+  - 逻辑攻击：新 dk 卡未把相关性断言为因果性，边界说明清晰。
+  - 证据攻击：每条暗知识均标注原文引用、说话人、素材来源文件。
+  - 完整性攻击：4 张 dk 卡均含原始表述/使用场景/操作方法/适用边界/失败模式/为什么值钱/关联知识；已有卡补充均说明解决的盲区。
+  - 时效性攻击：素材时间跨度 2026-05 至 2026-06，无过期假设。
+  - 残留风险：部分 related 链接为跨域桥接，相关性强弱需欧阳锋抽检时二次判断；`content-production-polish` SKILL 两处副本已同步。
 
 ---
 

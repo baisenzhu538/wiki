@@ -386,7 +386,7 @@ related:
 
 ## 十三、已有卡补链建议
 
-产出 8 张新卡后，反向更新以下已有卡的 `related`：
+产出 4 张新卡后，反向更新以下已有卡的 `related`：
 
 1. `framework-一堂五步法-泛产品设计`
 2. `human-ai-collaboration-double-triangle`
@@ -401,6 +401,13 @@ related:
 11. `tool-ai-research-five-steps`
 12. `tool-ai-scene-four-elements`
 13. `framework-lean-pivot-decision`
+14. `tool-纪浩-项目启动五问法`
+15. `tool-一堂-product-kernel-canvas`
+16. `yt-panproduct-aesthetic-pool`
+17. `yt-panproduct-aesthetic-modeling`
+18. `tool-最佳实践池子`
+19. `tool-月白-AI模型选择策略`
+20. `tool-多模型对比抽卡`
 
 ---
 
@@ -417,7 +424,7 @@ related:
 **优先级**：P1-P2（设计域重要补充，但可排在 #42 暗知识试点之后）  
 **Assignee**：老顽童(Kimi)  
 **Reviewer**：欧阳锋  
-**预计卡数**：4 张（1 case + 2 tool + 1 dk）+ 13 张已有卡 related 更新
+**预计卡数**：4 张（1 case + 2 tool + 1 dk）+ 20 张已有卡 related 更新
 
 ---
 
