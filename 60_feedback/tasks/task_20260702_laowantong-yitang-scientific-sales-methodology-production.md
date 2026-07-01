@@ -365,7 +365,7 @@ related:
 
 ## 三、已有卡 related 补链清单
 
-10 张新卡产出后，必须反向在以下已有卡的 `related` 中加入新卡链接：
+12 张新卡产出后，必须反向在以下已有卡的 `related` 中加入新卡链接：
 
 1. `yt-five-step-method-complete`
 2. `yitang-methodology-system`
@@ -440,7 +440,7 @@ related:
 
 | 批次 | 卡片 | 说明 |
 |:---|:---|:---|
-| 第一批 | `framework-yitang-scientific-sales-five-step` | 先建总图，作为后续 9 张卡的引用基础 |
+| 第一批 | `framework-yitang-scientific-sales-five-step` | 先建总图，作为后续 11 张卡的引用基础 |
 | 第二批 | `tool-yitang-customer-segmentation-4step` + `tool-yitang-value-proposition-4step` | Step 1 两张工具卡 |
 | 第三批 | `tool-yitang-sales-process-decomposition` | Step 2 过程工具 |
 | 第四批 | `tool-yitang-sales-performance-management` | Step 3 业绩工具 |
