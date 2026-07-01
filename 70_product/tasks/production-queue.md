@@ -79,13 +79,14 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 35 | `task_20260630_kdo-state-json-sqlite-migration-mvp` | KDO state.json → SQLite MVP 迁移（sources 集合） | reviewed | **黄药师** | 1 个集合 / 689 条记录 | 无；用户指定本周高优先级基础设施任务 | `60_feedback/tasks/task_20260630_kdo-state-json-sqlite-migration-mvp.md` | 欧阳锋终审通过（B+）：`.kdo/state.sqlite` 生成，`state.json` 已重命名为 `.migrated`，689 条 sources 一致；`kdo lint --summary` 0 新增 ERROR，`kdo status` 正常；新增 11 个 SQLite state 单元测试；审查中修复 append 不提交、reload 丢失 sources、跨线程 finalizer、多命令未关闭连接、lint 基线未复制 SQLite 等 5 处问题；`kdo enrich --all --dry-run` 当前无 TODO 页面待补测；全量 pytest 538 passed / 1 skipped / 1 failed（failed 为预存在 Windows GBK 编码问题） |
 | 36 | `task_20260630_kdo-query-label-filter` | 实现 kdo query --label 质量标签过滤命令 | reviewed | 黄药师 | 1 个 CLI 参数 | 依赖 #31 reviewed；48 张重复标签问题已由欧阳锋现场修复 | `60_feedback/tasks/task_20260630_kdo-query-label-filter.md` | #31 遗留：验收标准要求 `kdo query --label actionable` 可过滤；当前用 rg 临时替代；黄药师实现后更新 system-kdo-quality-labels 指南 |
 | 37 | `task_20260630_kdo-cli-syntaxerror-fix` | 修复 kdo CLI SyntaxError（kdo/commands/delivery.py:686） | reviewed | 黄药师 | 1 个 bugfix | 无；老顽童在 #34 生产中发现 | `60_feedback/tasks/task_20260630_kdo-cli-syntaxerror-fix.md` | `python -m kdo pre-submit` 等命令触发 SyntaxError，需黄药师修复 delivery.py 语法错误；修复后老顽童可恢复直接使用 CLI |
+| 38 | `task_20260701_wangyuyan-wobeirushen-pilot-orchestration` | 《吾辈如神》条件性纳入 + 1 张试点卡 | queued | 老顽童(Hermes) | 1 张 concept 卡 | 无；验证报告已完成 | `60_feedback/tasks/task_20260701_wangyuyan-wobeirushen-pilot-orchestration.md` | 王语嫣域诊断结论：AI 协作域缺「认知边界/心态层」；选定 `concept-cognitive-offloading-in-ai-era` 为试点；纠正 BMW 85%、AGI 2029、AI 无法创造等数据/观点误读；仅 1 张试点卡，扩量需终审通过 + 二次诊断 |
 
-> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-37 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 5 个 Vikki/大馨 提炼任务（#30-34）+ **2 个黄药师基础设施任务（#36 kdo query --label、#37 kdo CLI SyntaxError 修复）**；#35 `state.json → SQLite MVP` 已由欧阳锋终审通过。
+> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-38 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 5 个 Vikki/大馨 提炼任务（#30-34）+ **2 个黄药师基础设施任务（#36 kdo query --label、#37 kdo CLI SyntaxError 修复）** + **1 个王语嫣编排任务（#38《吾辈如神》试点卡）**；#35 `state.json → SQLite MVP` 已由欧阳锋终审通过。
 > **本周高优先级基础设施任务**：#36 `kdo query --label` 与 #37 `kdo CLI SyntaxError 修复` 由黄药师负责，可紧随其后执行。
-> **#37 说明**：当前 `kdo/commands/delivery.py` 经欧阳锋 #35 审查后语法检查通过（`python -m py_compile` OK），若老顽童在 #34 中仍遇到 SyntaxError，请提供具体命令与 traceback，以便定位。
+> **#38 说明**：《吾辈如神》素材经 6 层交叉验证 + 9 层深挖 + 全网调研后评级为 **B（条件性纳入）**，不是 A 级，不能免检，不能批量生产 5-6 张卡。王语嫣域诊断后选定 `concept-cognitive-offloading-in-ai-era` 为唯一试点卡，纠偏 BMW 85%、AGI 2029、AI 无法创造等误读；扩量需试点卡终审通过 + 二次域诊断。
 > **当前 lint 基线**：`kdo lint` 全量 0 ERROR / 2656 WARNING；机械类 WARNING 经 #27 处理后降至 3286；#28 第一轮后降至 3255，第二轮累计处理 23 张 card 后降至 2666（copy-paste 从 76 清零），第三轮处理 5 个 strategy case 后降至 2656；剩余主要为 body 过短、L2 Critique、L2 Condense、L2 Synthesis 等内容债，由 #28 按 domain 分批处理；`kdo lint --domain <domain> --summary` 已可用。
 > **人员状态**：A1/A2 reviewed；#24-debt reviewed；Wave 6 已完成；B1/B2/B3 已完成；#25 扩展卡已 reviewed；#26 全库 frontmatter 合规修复已 reviewed。
-> **执行顺序建议**：frontmatter 与目录结构类历史债务已全部处理完毕，进入下一阶段。剩余 7507 WARNING 建议作为内容精修任务按需分批处理，不要继续机械修复。
+> **执行顺序建议**：frontmatter 与目录结构类历史债务已全部处理完毕，进入下一阶段。剩余 7507 WARNING 建议作为内容精修任务按需分批处理，不要继续机械修复。#38 试点卡可与 #36/#37 基建任务并行。
 > 历史批量工单卡数估算来自 `laowantong-batch-2026-06-20.md` 的 waves 1-5。
 >
 > **🆘 临时分流（2026-06-27）**：Hermes 老顽童历史任务重，启动 Kimi 老顽童临时协助生产 2026-06-27 新标注任务。历史批量工单 waves 1-5 仍由 Hermes 负责；刻意练习域、渠道增长域、兰毅泛产品组织内容及跨域桥接卡由 Kimi 负责。欧阳锋/黄药师无感知——他们只按 pending_review 顺序审卡。
