@@ -73,7 +73,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | sprint-13-kdo-mechanism-iterations | Sprint 13：KDO 机制迭代——lint 基线、卡片清册、变更 diff、理解门禁辅助 | completed | 黄药师 | P1 | sprint-13-kdo-mechanism-iterations.md |
 | task_20260701_kdo-index-lint-wikilink-format-alignment | KDO index/lint wikilink 格式对齐 | queued | 黄药师 | P1 | task_20260701_kdo-index-lint-wikilink-format-alignment.md | 欧阳锋建议、王语嫣入队：修复 `kdo index --rebuild` 与 `kdo lint` 的 wikilink 格式不一致，使 strategy 148 个 / 全库约 700+ WARNING 误报清零；阻塞 #28 strategy 域真实清零验证 |
 | task_20260701_design-domain-encoding-diagnosis | design domain 编码损坏诊断 | queued | 老顽童(Kimi) | P1 | task_20260701_design-domain-encoding-diagnosis.md | 欧阳锋建议、王语嫣入队：只读诊断 design 域编码损坏根因，分类 healthy/display-only/recoverable/corrupted；诊断完成前禁止批量修改 design 文件；阻塞 #28 design 域清理 |
-| task_20260701_wangyuyan-wobeirushen-pilot-orchestration | 《吾辈如神》条件性纳入 + 1 张试点卡 | queued | 老顽童(Hermes) | P1 | task_20260701_wangyuyan-wobeirushen-pilot-orchestration.md | 王语嫣基于验证报告编排：B 级素材，AI 协作域缺「认知边界/心态层」；试点 `concept-cognitive-offloading-in-ai-era`；纠偏 BMW 85%/AGI 2029/AI 无法创造；扩量需终审通过 + 二次诊断 |
+| task_20260701_wangyuyan-wobeirushen-pilot-orchestration | 《吾辈如神》条件性纳入 + 3 张卡 | queued | 老顽童(Hermes) | P1 | task_20260701_wangyuyan-wobeirushen-pilot-orchestration.md | 王语嫣价值判断：B 级素材，不做试点，直接产出 3 张卡——`concept-cognitive-offloading-in-ai-era`（已有初稿，需终审）、`tool-ai-use-barbell-strategy`（新建）、`concept-abundance-paradox`（新建）；纠偏 BMW 85%/AGI 2029/AI 无法创造；其余概念本次不纳入，封账 |
 | task_20260701_wangyuyan-time-management-domain-orchestration | 时间管理域卡片化与升级 | queued | 老顽童(Kimi) | P2 | task_20260701_wangyuyan-time-management-domain-orchestration.md | 王语嫣已完成入口质量门深度标注：6 层交叉验证 + 9 层深挖 + 完整高价值段落索引；完整规划 9 张卡——理论层 3 张（总览/三元模型/深度工作冰山）、案例层 3 张（通勤时间/文案拆解/场景匹配）、暗知识层 3 张（暗时间/场景激发/状态触发）；关键纠偏 5-10x/500% 等数字降级为课程观点；分两批生产：先理论卡，后案例/暗知识卡 |
 
 ---
@@ -89,9 +89,9 @@ Generated: 2026-06-26T21:00:00+00:00
 - **Review Done**: 13 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3, dark-knowledges-batch8, huangyaoshi-codex-lessons-review, master-7-cards)
 
 > 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；✅ Batch 2-A/B/C 全部 reviewed：A 130 case + B 57 dk + C 90 source_refs 文件已完成，`kdo lint` 机械性 ERROR 清零；下一阶段正式进入补链阶段（Wave 6 诊断 + B1/B2/B3）。
-> **🆕 新增 #38**：《吾辈如神》素材经独立验证为 B 级，王语嫣域诊断后入队 1 张试点卡，不批量生产；重点纠偏 BMW 85%、AGI 2029、AI 无法创造等数据/观点误读。
+> **🆕 新增 #38**：《吾辈如神》素材经独立验证为 B 级，王语嫣做出价值判断：直接产出 3 张卡（认知卸载 / AI 使用杠铃策略 / 富足悖论），不试点、不批量；重点纠偏 BMW 85%、AGI 2029、AI 无法创造等数据/观点误读。
 > **🆕 新增 #38/#39**：欧阳锋建议、王语嫣独立判断后入队的 2 个 P1 基建任务，已插队到 #38、#39。#38 黄药师修复 index/lint wikilink 格式不一致，使 strategy 148 个 WARNING 误报清零；#39 老顽童(Kimi) 只读诊断 design 域编码损坏，诊断完成前禁止批量修改 design 文件。两个任务可与 #28 周期性批次及 #40 内容任务并行。
-> **🆕 #40 后移**：原 #38《吾辈如神》试点卡因基建任务插队，队列位置后移到 #40，保持 P1，不阻塞。
+> **🆕 #40 确定**：原 #38《吾辈如神》因基建任务插队后移到 #40；王语嫣取消「试点」表述，明确产出 3 张卡（认知卸载 / AI 使用杠铃策略 / 富足悖论），保持 P1，不阻塞。
 > **🆕 新增 #41**：洪七公完成 OCR+VLM 预处理后，王语嫣已按 6 层交叉验证 + 9 层深挖完成诊断并编排任务：升级 `yt-personal-time-management` + 新建三元模型 framework + 深度工作冰山 concept，首批 3 张卡，P2；诊断报告 `diag_20260701_time-management-validation.md`。
 
 ---

@@ -1619,6 +1619,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-wanghuan-harness-seven-stages]]
 
 ## [[concept-ji-hao-ai-collaboration-methodology]]
+- [[concepts/concept-cognitive-offloading-in-ai-era]]
 - [[concepts/concept-半肥猫-ai-learning-toolification-methodology]]
 - [[tools/tool-半肥猫-边学边练边沉淀的AI学习法]]
 
@@ -2093,6 +2094,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/challenge-point-design]]
 - [[concepts/comfort-zone-expansion]]
 - [[concepts/completion-criteria-design]]
+- [[concepts/concept-cognitive-offloading-in-ai-era]]
 - [[concepts/deliberate-repetition]]
 - [[concepts/fixed-routine-design]]
 - [[concepts/four-questions-feedback]]
@@ -3245,6 +3247,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-ai-painting-commercialization]]
 - [[cases/case-yitang-poker-parameterized-practice]]
 - [[cases/case-yitang-sales-routine-deconstruction]]
+- [[concepts/concept-cognitive-offloading-in-ai-era]]
 - [[concepts/concept-yitang-comfort-stretch-panic-zones]]
 - [[dk/dk-yitang-deliberate-practice-common-traps]]
 - [[frameworks/framework-yitang-deliberate-practice-1plus4]]
@@ -3395,6 +3398,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-shortvideo-six-dimension-deconstruction]]
 
 ## [[framework-kdo-self-attack]]
+- [[concepts/concept-cognitive-offloading-in-ai-era]]
 - [[concepts/kdo-yaml-frontmatter-safety]]
 - [[concepts/kdo_product_design_agent_final]]
 - [[concepts/modeling-capability-system]]
@@ -3857,6 +3861,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-research-deep-attribution]]
 
 ## [[framework-yitang-nine-layer-deep-dig]]
+- [[concepts/concept-cognitive-offloading-in-ai-era]]
 - [[dark-knowledges/dk-yitang-channel-exploration-traps]]
 - [[frameworks/framework-kdo-self-attack]]
 - [[frameworks/framework-structured-analytic-techniques]]
@@ -4248,6 +4253,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[learning-thinking]]
 - [[concepts/business-analysis]]
+- [[concepts/concept-cognitive-offloading-in-ai-era]]
 - [[concepts/meta-prompt-eng]]
 - [[concepts/product-ux]]
 - [[raw/ocr/ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01]]
@@ -4316,6 +4322,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[master-decision-hygiene]]
 - [[cases/smart-medicine-cabinet-clinic-risk-observation]]
+- [[concepts/concept-cognitive-offloading-in-ai-era]]
 - [[concepts/master-ai-info-literacy]]
 - [[concepts/master-antifragile-checklist]]
 - [[concepts/master-cognitive-bias-checklist]]

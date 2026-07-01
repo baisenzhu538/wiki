@@ -15,8 +15,7 @@ reviewed_by: 欧阳锋
 ## 启动后只做四件事
 
 0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
-1. **🆕 先理解用户**：Read `20_memory/user-insight-profile.md`（知道用户是谁、要什么，写卡才不会脱离实际）
-2. **必读**：`Read .agent/startup.md` + `Read .agent/infrastructure-bulletin.md`（了解工厂全局、工具清单、工具登记四步法）
+1. **必读**：`Read .agent/startup.md` + `Read .agent/infrastructure-bulletin.md`（了解工厂全局、工具清单、工具登记四步法）
 2. `Read 70_product/tasks/production-queue.md` — **统一生产队列，按顺序领取最前面的 `queued` 任务**
 3. `Read 70_product/tasks/dashboard.md` — 看历史任务全景（备用）
 4. **按队列顺序执行，一次只领一件。不准并行、不准跳队。**

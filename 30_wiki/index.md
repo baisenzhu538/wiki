@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-07-01T13:57:45+00:00_
+_Last updated: 2026-07-01T15:07:28+00:00_
 
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[_archive/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -317,6 +317,7 @@ _Last updated: 2026-07-01T13:57:45+00:00_
 - [[concepts/concept-AI时代双三角竞争力|AI时代的双三角竞争力：人+AI协作决策]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-人机协作决策_vlm_desc.md`
 - [[concepts/concept-candy-ai-as-collaborator|Candy：AI是协作者而非代写工具]] — source `10_raw/sources/src_20260621_candy-transcript-workflow.md`
 - [[concepts/concept-ceo-must-do-user-research|CEO必须亲自做用户调研]] — source `00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md`
+- [[concepts/concept-cognitive-offloading-in-ai-era|AI 时代的认知卸载：什么交给 AI，什么必须保留]] — source `60_feedback/audit/20260701-wobeirushen-validation-report.md`
 - [[concepts/concept-feishu-api-pagination-trap|飞书API分页陷阱——静默截断比报错更危险]] — source `src_unknown`
 - [[concepts/concept-five-step-growth-to-barrier-transition|五步法衔接：什么时候从增长切换到壁垒建设]] — source `10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md`
 - [[concepts/concept-harness-cattle-not-pets|牲口而非宠物：每次迭代用全新Generator实例]] — source `10_raw/sources/src_20260621_harness-engineering-wanghuan.md`
