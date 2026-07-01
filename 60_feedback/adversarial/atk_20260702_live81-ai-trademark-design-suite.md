@@ -3,7 +3,7 @@
 id: atk_20260702_live81-ai-trademark-design-suite
 title: 自攻击报告：Live81 AI 商标设计 4 张新卡
 type: report
-status: draft
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-07-02
