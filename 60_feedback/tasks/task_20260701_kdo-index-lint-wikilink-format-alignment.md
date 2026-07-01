@@ -37,12 +37,12 @@ related:
 
 ## 验收标准
 
-- [ ] `kdo index --rebuild` 生成的 `30_wiki/index.md` 中，每个 wikilink 都使用相对 `30_wiki/` 的路径格式（如 `[[cases/case-strategy-cool-boiled-water|...]]`、`[[tools/tool-strategy-12-word-test|...]]`）
-- [ ] `kdo lint --fix-index` 追加的缺失条目使用与 `--rebuild` 一致的格式
-- [ ] 修复后，`kdo lint --domain strategy --summary` 的 "Wiki page not listed in 30_wiki/index.md" 从 148 降至 0
-- [ ] 全量 `kdo lint --summary` 的 WARNING 基数下降约 700+（全库范围误报）
-- [ ] 新增或更新至少 1 个单元测试，覆盖 `auto_update_index` 与 `_lint_index_coverage` 的格式一致性
-- [ ] `python -m pytest tests/ -q` 不引入新的失败
+- [x] `kdo index --rebuild` 生成的 `30_wiki/index.md` 中，每个 wikilink 都使用相对 `30_wiki/` 的路径格式（如 `[[cases/case-strategy-cool-boiled-water|...]]`、`[[tools/tool-strategy-12-word-test|...]]`）
+- [x] `kdo lint --fix-index` 追加的缺失条目使用与 `--rebuild` 一致的格式
+- [x] 修复后，`kdo lint --domain strategy --summary` 的 "Wiki page not listed in 30_wiki/index.md" 从 148 降至 0
+- [x] 全量 `kdo lint --summary` 的 WARNING 基数下降约 700+（全库范围误报）
+- [x] 新增或更新至少 1 个单元测试，覆盖 `auto_update_index` 与 `_lint_index_coverage` 的格式一致性
+- [x] `python -m pytest tests/ -q` 不引入新的失败
 
 ## 实现建议
 
