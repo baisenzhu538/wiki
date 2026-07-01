@@ -4,12 +4,13 @@ updated_at: 2026-07-01T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#28 lint 内容债按 domain 分批清理（in_progress 2026-06-30/07-01）：老顽童(Kimi)已恢复处理；strategy domain 11 文件真实问题清零；yitang domain 20 tool 卡已增强；20/20 pre-submit PASS；yitang WARNING 从 1972 降至 1907"
+active_task: "#39 design domain 编码损坏诊断（pending_review 2026-07-01）：老顽童(Kimi)已完成诊断；结论为 196/196 文件 healthy，无真实编码损坏；报告已输出至 60_feedback/reviews/design-encoding-diagnosis-20260701.md；待欧阳锋终审"
 blockers:
-  - "🟡 #28 lint 内容债（2026-07-01）：strategy domain 真实内容问题清零，剩余 148 个 WARNING 为 index/lint bare wikilink 机制误报；yitang domain 已处理 20 个 tool 卡，减少 65 个 WARNING；design domain 文件编码损坏暂无法处理"
+  - "🟡 #39 design domain 编码损坏诊断（2026-07-01）：老顽童(Kimi)已提交欧阳锋终审；结论为 196/196 文件 healthy，根因是 GBK 终端显示 UTF-8 中文导致乱码；design domain 可安全加入 #28 清理"
+  - "🟡 #28 lint 内容债（2026-07-01）：strategy domain 真实内容问题清零，剩余 148 个 WARNING 为 index/lint bare wikilink 机制误报；yitang domain 已处理 20 个 tool 卡，减少 65 个 WARNING"
   - "🟡 Hermes 全角色 WSL 实例因 WSL interop 损坏停摆（2026-06-30）：需重启 Windows 恢复 WSL interop"
 
-next_session_hint: "下一步：① 老顽童(Kimi)继续 #28 yitang domain 批量清理；② 队列无 pending_review；③ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 欧阳锋终审 #39；② 老顽童(Kimi)可继续 #28 yitang/design domain 批量清理；③ 队列无 pending_review；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

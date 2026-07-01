@@ -1,11 +1,11 @@
 ---
 id: task_20260701_design-domain-encoding-diagnosis
 type: task
-status: in_progress
+status: pending_review
 assignee: kimi
 priority: P1
 created_at: 2026-07-01
-updated_at: '2026-07-01T13:22:20.421974+00:00'
+updated_at: '2026-07-01T13:31:04.049106+00:00'
 reviewer: 欧阳锋
 source_refs:
 - 60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
@@ -39,12 +39,47 @@ related:
 
 ## 验收标准
 
-- [ ] 输出一份诊断报告（Markdown，存放于 `60_feedback/reviews/design-encoding-diagnosis-20260701.md`）
-- [ ] 报告中包含：抽样文件清单、字节序检测、编码推测、与备份对比结果、损坏程度评估
-- [ ] 对 design domain 下所有 `.md` 文件给出分类标签：`healthy` / `display-only` / `recoverable` / `corrupted`
-- [ ] 报告中给出下一步明确建议：继续清理 / 批量恢复 / 批量转换 / 弃用重建
-- [ ] 整个诊断过程中**不修改任何原始文件**（只读操作）
-- [ ] 若发现 content 本身已无法恢复，列出需要重新生产的卡片清单
+- [x] 输出一份诊断报告（Markdown，存放于 `60_feedback/reviews/design-encoding-diagnosis-20260701.md`）
+- [x] 报告中包含：抽样文件清单、字节序检测、编码推测、与备份对比结果、损坏程度评估
+- [x] 对 design domain 下所有 `.md` 文件给出分类标签：`healthy` / `display-only` / `recoverable` / `corrupted`
+- [x] 报告中给出下一步明确建议：继续清理 / 批量恢复 / 批量转换 / 弃用重建
+- [x] 整个诊断过程中**不修改任何原始文件**（只读操作）
+- [x] 若发现 content 本身已无法恢复，列出需要重新生产的卡片清单（结果：0 个 corrupted）
+
+## 执行结果
+
+### 已产出
+
+| 文件 | 路径 | 说明 |
+|---|---|---|
+| 诊断报告 | `60_feedback/reviews/design-encoding-diagnosis-20260701.md` | 完整诊断报告，含结论、方法、数据、抽样验证、建议 |
+| 分类数据 | `60_feedback/reviews/design-encoding-classification-20260701.json` | 196 个文件的详细检测数据 |
+
+### 核心结论
+
+- **总文件数**：196
+- **healthy**：196
+- **display-only**：0
+- **recoverable**：0
+- **corrupted**：0
+
+**根因**：design domain 文件没有真实编码损坏。所谓"乱码"是 Windows Git Bash 终端用 GBK 编码显示 UTF-8 中文导致的显示层问题。所有文件内容均可正常 UTF-8 解码，git 历史可追溯，文件从首次提交起即为 UTF-8。
+
+### 验证
+
+```text
+Pre-Submit Gate Report
+Files checked: 1
+Passed:        1
+Failed:        0
+All gates passed. Ready for human review.
+```
+
+### 下一步建议
+
+- design domain 文件可以安全加入 #28 清理列表。
+- 清理时需使用 UTF-8 环境（Python 脚本），避免在 GBK 终端中直接操作中文文件名。
+- 建议统一行尾符为 LF（当前多为 CRLF）。
 
 ## 实现建议
 
