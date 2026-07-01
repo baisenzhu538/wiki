@@ -81,7 +81,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 38 | `task_20260701_kdo-index-lint-wikilink-format-alignment` | KDO index/lint wikilink 格式对齐 | queued | 黄药师 | 1 个 KDO 代码修复 + 1 个测试 | 无；阻塞 #28 strategy 域真实清零 | `60_feedback/tasks/task_20260701_kdo-index-lint-wikilink-format-alignment.md` | 欧阳锋建议插队；根因：`kdo index --rebuild` 生成 bare wikilink，`kdo lint` 期望带路径 wikilink，导致 strategy 148 个 / 全库约 700+ WARNING 误报；修复后 strategy 域可真实清零；预计 0.5-1 天 |
 | 39 | `task_20260701_design-domain-encoding-diagnosis` | design domain 编码损坏诊断 | reviewed | 老顽童(Kimi) | 1 份诊断报告 | 无；阻塞 #28 design 域清理 | `60_feedback/tasks/task_20260701_design-domain-encoding-diagnosis.md` | 欧阳锋建议插队；目标：只读诊断 design 域文件编码损坏根因，给出 healthy/display-only/recoverable/corrupted 分类及后续处理建议；诊断完成前禁止批量修改 design 文件；预计 0.5-1 天 |
 | 40 | `task_20260701_wangyuyan-wobeirushen-pilot-orchestration` | 《吾辈如神》条件性纳入 + 1 张试点卡 | queued | 老顽童(Hermes) | 1 张 concept 卡 | 无；验证报告已完成 | `60_feedback/tasks/task_20260701_wangyuyan-wobeirushen-pilot-orchestration.md` | 王语嫣域诊断结论：AI 协作域缺「认知边界/心态层」；选定 `concept-cognitive-offloading-in-ai-era` 为试点；纠正 BMW 85%、AGI 2029、AI 无法创造等数据/观点误读；仅 1 张试点卡，扩量需终审通过 + 二次诊断 |
-| 41 | `task_20260701_wangyuyan-time-management-domain-orchestration` | 时间管理域卡片化与升级 | queued | 老顽童(Kimi) | 1 张升级 + 2 张新建 | 无；洪七公 OCR+VLM 预处理已完成 | `60_feedback/tasks/task_20260701_wangyuyan-time-management-domain-orchestration.md` | 王语嫣域诊断：personal-growth/yitang 域现有 `yt-personal-time-management` 内容薄、src_unknown 多；首批升级 1 张概念卡 + 新建 2 张卡（三元模型 framework + 深度工作冰山 concept）；双环矩阵/双峰哲学/四象限暂缓 |
+| 41 | `task_20260701_wangyuyan-time-management-domain-orchestration` | 时间管理域卡片化与升级 | queued | 老顽童(Kimi) | 1 张升级 + 2 张新建 | 无；洪七公 OCR+VLM 预处理已完成 | `60_feedback/tasks/task_20260701_wangyuyan-time-management-domain-orchestration.md` | 王语嫣已完成 6 层交叉验证 + 9 层深挖，诊断报告见 `60_feedback/diagnosis/diag_20260701_time-management-validation.md`；综合评级 A-/B+，高价值值得纳入；首批升级 1 张概念卡 + 新建 2 张卡（三元模型 framework + 深度工作冰山 concept）；双环矩阵/双峰哲学/四象限暂缓；关键纠偏：5-10x/500% 等数字需降级为课程观点 |
 
 > **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-41 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 5 个 Vikki/大馨 提炼任务（#30-34）+ **2 个已 reviewed 黄药师基础设施任务（#36 kdo query --label、#37 kdo CLI SyntaxError 修复）** + **2 个新入队 P1 基建任务（#38 index/lint wikilink 对齐、#39 design 编码诊断）** + **2 个王语嫣编排内容任务（#40《吾辈如神》试点卡、#41 时间管理域升级）** + **1 个长线周期性任务（#28 lint 内容债）**；#35 `state.json → SQLite MVP` 已由欧阳锋终审通过。
 > **本周高优先级基础设施任务**：#38 `kdo index/lint wikilink 格式对齐` 与 #39 `design domain 编码损坏诊断` 由王语嫣独立判断后入队；#36/#37 已由欧阳锋终审通过。
@@ -132,7 +132,7 @@ done
 
 | ID | 任务单 ID | 任务名称 | 状态 | Assignee | 规模 | 依赖 | 任务单路径 | 备注 |
 |---:|---|---|---|---:|---|---:|---|---|
-| 28 | `task_20260629_kimi-lint-content-debt-by-domain` | lint 内容债按 domain 分批清理 | queued | 老顽童(Kimi) | ~2656 WARNING / 14 个子任务 | 依赖 #27 reviewed | `60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md` | 已暂停，作为长线周期性任务待王语嫣统一拆批；strategy 域真实内容问题清零（剩余 148 个 index/lint 机制误报），yitang 已处理 20 个 tool 卡（WARNING ↓65），design 域编码损坏待诊断；配套基建任务见 #39 index-lint 与 #40 design-encoding。本任务不直接领取，拆批后的子任务以新 ID 入队。 |
+| 28 | `task_20260629_kimi-lint-content-debt-by-domain` | lint 内容债按 domain 分批清理 | queued | 老顽童(Kimi) | ~2656 WARNING / 14 个子任务 | 依赖 #27 reviewed | `60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md` | 已暂停，作为长线周期性任务待王语嫣统一拆批；strategy 域真实内容问题清零（剩余 148 个 index/lint 机制误报），yitang 已处理 20 个 tool 卡（WARNING ↓65），design 域编码损坏已排除（#39 reviewed，196/196 healthy）；配套基建任务 #38 index-lint 仍待黄药师修复。本任务不直接领取，拆批后的子任务以新 ID 入队。 |
 
 ---
 

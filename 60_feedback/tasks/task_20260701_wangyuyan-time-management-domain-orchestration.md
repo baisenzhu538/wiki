@@ -56,7 +56,7 @@ related:
 
 | 现有卡片 | 状态 | 问题 |
 |:---|:---|:---|
-| `yt-personal-time-management` | reviewed（黄药师） | 内容薄，大量 `src_unknown` 占位，未覆盖新课程中的 L1-L6 进阶、深度工作冰山、双环矩阵、双峰哲学 |
+| `yt-personal-time-management` | reviewed（黄药师） | 覆盖不完整，大量 `src_unknown` 占位，未覆盖新课程中的 L1-L6 进阶、深度工作冰山、双环矩阵、双峰哲学 |
 | `case-ai-time-management-tiered-growth` | enriched | 商业案例，与个人时间管理方法论无关 |
 
 ### 2.2 缺口

@@ -323,3 +323,26 @@ source_refs:
 ---
 
 *暂停确认：欧阳锋 · 2026-07-01*
+
+## 阻塞项更新（2026-07-01）
+
+### design domain 编码损坏诊断完成 ✅
+
+- 任务：#39 `task_20260701_design-domain-encoding-diagnosis`
+- 状态：已由欧阳锋终审通过（`reviewed`）
+- 结论：**design domain 文件没有真实编码损坏**
+  - 总文件数：196
+  - healthy：196
+  - display-only / recoverable / corrupted：0
+- 根因：Windows Git Bash 终端用 GBK 编码显示 UTF-8 中文，导致中文文件名和内容在控制台显示为乱码；文件系统和文件内容均为 UTF-8，无损坏
+- 影响：#28 恢复后，**design domain 可安全加入清理列表**
+- 注意：清理 design domain 时必须使用 Python UTF-8 脚本读写，避免在 GBK 终端中直接操作中文文件名
+
+### 当前剩余阻塞
+
+- **index/lint bare wikilink 机制误报**：仍需黄药师修复（任务 #index-lint：`task_20260701_kdo-index-lint-wikilink-format-alignment.md`）
+- #28 仍作为长线周期性任务暂停，等待王语嫣统一拆批
+
+---
+
+*阻塞项更新：欧阳锋 · 2026-07-01*
