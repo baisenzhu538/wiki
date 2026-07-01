@@ -12,12 +12,7 @@ OUTPUT_DIR = INPUT_DIR / "_processed"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # 初始化 OCR（中文+英文，默认模型会自动下载）
-ocr = PaddleOCR(
-    use_angle_cls=True,
-    lang="ch",
-    show_log=False,
-    use_gpu=False,
-)
+ocr = PaddleOCR(lang="ch")
 
 image_files = sorted(INPUT_DIR.glob("时间管理-*.png"))
 
