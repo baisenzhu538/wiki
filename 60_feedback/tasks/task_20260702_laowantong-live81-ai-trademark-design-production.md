@@ -2,12 +2,12 @@
 id: task_20260702_laowantong-live81-ai-trademark-design-production
 title: Live81 AI 赋能商标设计：1 case + 2 tool + 1 dk（设计域 / AI 协作域桥接）
 type: task
-status: in_progress
+status: pending_review
 priority: P1
 assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-02
-updated_at: '2026-07-01T17:58:13.780091+00:00'
+updated_at: '2026-07-01T18:43:28.964492+00:00'
 expected_cards: 4
 source_refs:
 - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-口述.txt

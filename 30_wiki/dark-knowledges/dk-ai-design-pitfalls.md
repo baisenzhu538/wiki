@@ -14,6 +14,10 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260702_live81-ai-trademark-design.md
 domain:
 - yitang
+tags:
+- "#ai-collaboration"
+- "#design"
+- "#pitfall"
 trust_level: medium
 reviewed_by: 欧阳锋
 related:
