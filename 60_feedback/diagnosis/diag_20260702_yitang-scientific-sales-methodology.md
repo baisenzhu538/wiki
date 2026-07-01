@@ -14,6 +14,16 @@ related:
   - "[[yt-five-step-method-complete]]"
   - "[[framework-一堂五步法-泛产品设计]]"
   - "[[yitang-methodology-system]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[tool-yitang-sales-performance-management]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[case-yitang-sales-transformation-jubensha-saas]]"
+  - "[[case-yitang-sales-transformation-meirongyuan]]"
 ---
 
 # 一堂科学销售方法论：九层深挖 · 跨域桥接诊断
@@ -61,9 +71,9 @@ related:
 
 **结论**：这门课不是教「怎么把东西卖出去」，而是教「怎么让团队能持续把东西卖出去」。
 
-### 2.2 OPC（一人公司）版公式
+### 2.3 OPC（一人公司）版公式
 
-对老朱的 OPC 目标而言，公式变形为：
+对 OPC 目标而言，公式变形为：
 
 ```
 OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交付物质量） / （个人时间 × AI 调用成本 × 返工风险）
@@ -139,7 +149,7 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 | OPC 智能体军团 | 中（时间） | 一人公司、创始人时间稀缺、愿意把销售能力代码化 |
 | 外包销售团队 | 高 | 需要快速起量但不想自建团队 |
 
-**结论**：对 KDO 知识库而言，6 张高密度卡是覆盖五步法 + OPC 改编的最佳平衡；对 OPC 落地而言，先从「用户分层 + 过程拆解」两个智能体开始。
+**结论**：对 KDO 知识库而言，10 张高密度卡是覆盖五步法 + 实操案例 + 反模式 + OPC 适配的最佳平衡；对 OPC 落地而言，先从「用户分层 + 过程拆解」两个智能体开始。
 
 ---
 
@@ -199,7 +209,7 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 **最小验证路径**：
 1. 完成本九层深挖 ✅
 2. 确认跨课程同构映射无重大遗漏 ✅
-3. 产出 6 张卡并提交欧阳锋终审
+3. 产出 10 张卡并提交欧阳锋终审
 4. 根据终审结果决定是否补链或扩展
 
 ### 10.2 跨课程同构映射（核心交付）
@@ -207,29 +217,34 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 | # | 科学销售概念 | 一堂方法论来源 | 对应 KDO 卡 | 同构关系 | 是否需新建卡 |
 |:---:|:---|:---|:---|:---|:---:|
 | 1 | 科学销售五步法 | 一堂五步法 / 方法论系统 | `yt-five-step-method-complete` / `yitang-methodology-system` | 销售是五步法在销售管理场景的专项实例化 | ✅ 新建 `framework-yitang-scientific-sales-five-step` |
-| 2 | 用户分层四步法 | 需求分析 / 场景分层 / 假设驱动 | `framework-demand-validation-pipeline` / `concept-一堂-hypothesis-driven-business-methodology` / `tool-iceberg-triangle-modeling` | 提假设→验证→分层是通用科学方法 | 合并入 `tool-yitang-customer-segmentation-and-value-prop` |
-| 3 | 卖点提炼四步法 | 价值主张 / 产品内核 | `tool-strategy-value-proposition` / `framework-一堂五步法-泛产品设计` / `yt-panproduct-aesthetic-pool` | 把功能语言转成用户价值语言 | 合并入 `tool-yitang-customer-segmentation-and-value-prop` |
-| 4 | SABC 分级 | 二八法则 / 优先级分层 | `master-decision-hygiene` / `yt-five-step-method-complete` | 集中优势兵力打主要客户 | 合并入 `tool-yitang-customer-segmentation-and-value-prop` |
+| 2 | 用户分层四步法 | 需求分析 / 场景分层 / 假设驱动 | `framework-demand-validation-pipeline` / `concept-一堂-hypothesis-driven-business-methodology` / `tool-iceberg-triangle-modeling` | 提假设→验证→分层是通用科学方法 | ✅ 新建 `tool-yitang-customer-segmentation-4step` |
+| 3 | 卖点提炼四步法 | 价值主张 / 产品内核 | `tool-strategy-value-proposition` / `framework-一堂五步法-泛产品设计` / `yt-panproduct-aesthetic-pool` | 把功能语言转成用户价值语言 | ✅ 新建 `tool-yitang-value-proposition-4step` |
+| 4 | SABC 分级 | 二八法则 / 优先级分层 | `master-decision-hygiene` / `yt-five-step-method-complete` | 集中优势兵力打主要客户 | 并入 `tool-yitang-customer-segmentation-4step` |
 | 5 | 销售过程拆解三步法 | 泛产品设计 / 用户决策路径 | `framework-一堂五步法-泛产品设计` / `framework-yitang-channel-exploration-4step` | 把黑盒过程变成可管理地图 | ✅ 新建 `tool-yitang-sales-process-decomposition` |
-| 6 | 四类用户决策（接触/购买/付款/履约） | 需求冰山 / 决策成本 | `yt-business-formula-parameter-iceberg` / `tool-iceberg-triangle-modeling` | 从用户视角识别关键节点 | 合并入 `tool-yitang-sales-process-decomposition` |
+| 6 | 四类用户决策（接触/购买/付款/履约） | 需求冰山 / 决策成本 | `yt-business-formula-parameter-iceberg` / `tool-iceberg-triangle-modeling` | 从用户视角识别关键节点 | 并入 `tool-yitang-sales-process-decomposition` |
 | 7 | 业绩管理三步法 | 单元模型 / 目标管理 / PDCA | `yt-unit-model-overview` / `yt-management-goal-management` / `framework-yitang-nine-layer-deep-dig` | 拆目标→定策略→追过程 | ✅ 新建 `tool-yitang-sales-performance-management` |
-| 8 | Pipeline / Gap 分析 | 业务公式 / 数据驱动 | `yt-business-formula-six-level-logic` / `yt-unit-model-overview` | 业绩预测与风险管理 | 合并入 `tool-yitang-sales-performance-management` |
+| 8 | Pipeline / Gap 分析 | 业务公式 / 数据驱动 | `yt-business-formula-six-level-logic` / `yt-unit-model-overview` | 业绩预测与风险管理 | 并入 `tool-yitang-sales-performance-management` |
 | 9 | 六维激励模型 | 刻意练习 / 能力成长 | `framework-yitang-deliberate-practice-1plus4` / `yt-personal-deliberate-practice` | 多维度组合激励 | ✅ 新建 `framework-yitang-sales-incentive-6d` |
 | 10 | 销售武器库六维雷达图 | 工具化 / IPO / 最佳实践池 | `yt-panproduct-aesthetic-pool` / `tool-yitang-best-practice-as-golden-finger` / `tool-agent-research-swarm` | 把成功经验沉淀为可复用工具 | ✅ 新建 `tool-yitang-sales-toolkit-radar` |
-| 11 | 销售案例（蓝军/崔磊） | 刻意练习 / AI 协作 | `case-yitang-sales-routine-deconstruction` / `case-yitang-ai-painting-commercialization` | 销售能力可被结构化训练 | 否，作为已有 case 反向补链 |
-| 12 | OPC 智能体军团 | AI 协作 / 个人 OS | `opc-ai-sales-agent-architecture` / `human-ai-collaboration-double-triangle` | 销售能力代码化 | 否，已有 system 文件，需反向更新 related |
+| 11 | 销售反模式 | 失败模式 / 决策卫生 | `framework-kdo-self-attack` / `master-decision-hygiene` | 常见陷阱与判断口诀 | ✅ 新建 `dk-yitang-sales-common-pitfalls` |
+| 12 | 剧本杀 SaaS 转型案例 | 泛产品设计 / 精益创业 | `framework-一堂五步法-泛产品设计` / `framework-lean-pivot-decision` | To B 销售体系从零搭建 | ✅ 新建 `case-yitang-sales-transformation-jubensha-saas` |
+| 13 | 美容院转型案例 | 渠道探索 / 目标管理 | `framework-yitang-channel-exploration-4step` / `yt-management-goal-management` | To C 门店销售体系改造 | ✅ 新建 `case-yitang-sales-transformation-meirongyuan` |
+| 14 | 销售案例（蓝军/崔磊） | 刻意练习 / AI 协作 | `case-yitang-sales-routine-deconstruction` / `case-yitang-ai-painting-commercialization` | 销售能力可被结构化训练 | 否，作为已有 case 反向补链 |
+| 15 | OPC 智能体军团 | AI 协作 / 个人 OS | `opc-ai-sales-agent-architecture` / `human-ai-collaboration-double-triangle` | 销售能力代码化 | 否，已有 system 文件，需反向更新 related |
 
 ### 10.3 缺口识别：什么是真缺口？
 
-上表说明：**框架层面的概念大多能被现有 KDO 卡解释，但缺少把一堂方法论实例化到「销售管理」这一商业能力的专门卡片**。
+上表说明：**框架层面的概念大多能被现有 KDO 卡解释，但缺少把一堂方法论实例化到「销售管理」这一商业能力的专门卡片，以及可直接调用的案例和反模式卡**。
 
-真正的新增价值有三类：
+真正的新增价值有五类：
 
 1. **体系层**：一张完整的科学销售五步法 framework，把销售管理作为独立商业能力组织起来。
-2. **工具层**：用户分层/卖点、过程拆解、业绩管理、销售工具箱四张可操作工具。
+2. **工具层**：用户分层、卖点提炼、过程拆解、业绩管理、销售工具箱五张可操作工具。
 3. **组织层**：六维激励模型一张 framework，填补激励设计的空白。
+4. **案例层**：剧本杀 SaaS、美容院两张转型 case，分别覆盖 To B 和 To C 场景。
+5. **反模式层**：一张 dk 卡，沉淀最常见销售管理陷阱和判断口诀。
 
-剧本杀 SaaS、美容院、快钱支付等案例将作为工具卡和 framework 卡的嵌入式证据，不单独生产 case 卡（已有 `case-yitang-sales-routine-deconstruction` 覆盖刻意练习视角的销售训练）。
+快钱支付、涂料公司、儿童记忆力培训、iPhone 充电器等案例将作为工具卡的嵌入式证据，不单独生产 case 卡。
 
 ---
 
@@ -238,14 +253,14 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 | # | 原文 | 来源 | 一堂/已有框架映射 | 处理方式 | 类型 |
 |:---:|:---|:---|:---|:---|:---|
 | 1 | 「销售复制不是找人，而是建体系。」 | 李蕊 | 组织能力 / 工业化 | 作为 framework 核心主张 | 判断口诀 |
-| 2 | 「用户分层和卖点提炼是一切销售管理的源头。」 | 李蕊 | 需求分析 / 产品内核 | 作为 Step 1 tool 核心主张 | 判断口诀 |
-| 3 | 「用户分层没有标准答案，它和目标高度相关。」 | 李蕊 | 目标管理 / 决策卫生 | 作为 Step 1 tool 边界判断 | 边界判断 |
+| 2 | 「用户分层和卖点提炼是一切销售管理的源头。」 | 李蕊 | 需求分析 / 产品内核 | 作为 Step 1 工具核心主张 | 判断口诀 |
+| 3 | 「用户分层没有标准答案，它和目标高度相关。」 | 李蕊 | 目标管理 / 决策卫生 | 作为用户分层工具边界判断 | 边界判断 |
 | 4 | 「卖点不是设计出来的，是测出来的。」 | 李蕊 | 假设驱动 / Y 模型 | 作为卖点提炼四步法心法 | 操作心法 |
 | 5 | 「创业公司资源有限，不做分层=兵力分散，不做提炼=打动不了客户。」 | 李蕊 | 单元模型 / 资源约束 | 作为 OPC 改编核心依据 | 边界判断 |
-| 6 | 「销售过程拆解的本质是降低每个决策点的决策成本。」 | 李蕊 | 泛产品设计 / 用户决策路径 | 作为 Step 2 tool 核心主张 | 判断口诀 |
+| 6 | 「销售过程拆解的本质是降低每个决策点的决策成本。」 | 李蕊 | 泛产品设计 / 用户决策路径 | 作为 Step 2 工具核心主张 | 判断口诀 |
 | 7 | 「80%的丢单是在关键决策点卡住了，不是在价格。」 | 李蕊 | 决策卫生 | 作为 process decomposition 暗知识 | 反直觉判断 |
-| 8 | 「标准化关键动作，保留灵活发挥空间。」 | 李蕊 | 流程与人判断力边界 | 作为 Step 2 tool 边界判断 | 操作心法 |
-| 9 | 「业绩管理不是只看结果，而是拆目标、定策略、追过程。」 | 李蕊 | 单元模型 / PDCA | 作为 Step 3 tool 核心主张 | 判断口诀 |
+| 8 | 「标准化关键动作，保留灵活发挥空间。」 | 李蕊 | 流程与人判断力边界 | 作为 Step 2 工具边界判断 | 操作心法 |
+| 9 | 「业绩管理不是只看结果，而是拆目标、定策略、追过程。」 | 李蕊 | 单元模型 / PDCA | 作为 Step 3 工具核心主张 | 判断口诀 |
 | 10 | 「目标要拆到客户/渠道/具体动作，而不是平均分配。」 | 李蕊 | 目标管理 | 作为业绩管理操作心法 | 操作心法 |
 | 11 | 「激励不是事后奖励，而是事前设计的发动机。」 | 李蕊 | 激励机制 | 作为 incentive framework 核心主张 | 判断口诀 |
 | 12 | 「只用金钱激励，时间长了销售做点事都要看钱。」 | 李蕊 | 双因素理论 | 作为 incentive 失败模式 | 失败模式 |
@@ -254,11 +269,11 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 
 ---
 
-## 十二、建议产出的 6 张卡
+## 十二、建议产出的 10 张卡
 
-基于以上诊断，建议产出 **1 framework + 4 tool + 1 framework（激励）**。案例将作为嵌入式证据嵌入工具卡，不单独生产 case 卡。
+基于以上诊断，建议产出 **1 framework + 5 tool + 1 framework + 2 case + 1 dk**。
 
-> 说明：用户分层、卖点提炼、SABC 分级被合并为一张卡，因为课程把它们作为 Step 1「提炼卖点」的相互依赖的两半；业绩管理中的 Pipeline/Gap 分析被合并入业绩管理工具卡；四类用户决策被合并入过程拆解工具卡。
+> 说明：用户分层与卖点提炼拆分为两张独立工具卡，未来咨询「该重点跟进哪些客户」和「怎么写卖点」可分别调用；剧本杀 SaaS 和美容院作为两个完整转型案例独立成卡，覆盖 To B 与 To C 场景；新增一张销售反模式 dk 卡，沉淀最常见陷阱。
 
 ### Card 1: `framework-yitang-scientific-sales-five-step`
 
@@ -275,65 +290,85 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 6. **Synthesis**：桥接 `yt-five-step-method-complete`、`yitang-methodology-system`、`framework-一堂五步法-泛产品设计`、`framework-yitang-channel-exploration-4step`、`yt-unit-model-overview`。
 7. **Related**：≥5 条。
 
-### Card 2: `tool-yitang-customer-segmentation-and-value-prop`
+### Card 2: `tool-yitang-customer-segmentation-4step`
 
 **类型**：tool  
 **主域**：sales / marketing / strategy  
-**定位**：Step 1 落地工具，把「用户分层四步法」和「卖点提炼四步法」合并为一张可执行卡。
+**定位**：Step 1 前半段落地工具，判断「哪些客户值得重点打」。
 
 **必须包含的 section**：
-1. **When to Use**：线索多但转化率低、卖点不统一、资源分散。
-2. **用户分层四步法**：确定销售目标 → 提出分层假设 → 验证分层假设 → 全面执行分层。
-3. **SABC 分级表**：S/A/B/C 定义、分配资源原则、跟进策略。
-4. **卖点提炼四步法**：写初始版本 → 建立审美 → 多轮打磨 → 落地应用。
-5. **好卖点三原则**：匹配场景、能打动人、好听好记。
-6. **案例嵌入**：涂料公司（10 万→20 条 S 级）、儿童记忆力培训（3-6 年级成绩差学生）、iPhone 充电器（小冰块）、支付公司商旅分层。
-7. **Checklist**：≥10 项。
-8. **Anti-patterns**：平均分配线索、卖点列一桌、分层不做验证、卖点只写不用。
+1. **When to Use**：线索多但转化率低、资源分散、销售精力平均分配。
+2. **四步法**：确定销售目标 → 提出分层假设 → 验证分层假设 → 全面执行分层。
+3. **SABC 分级表**：定义、资源分配原则、跟进策略差异。
+4. **分层假设来源清单**：产品特性、行业常识、历史数据、同行案例、专家访谈。
+5. **验证方法**：定量分析 + 定性测试。
+6. **案例嵌入**：支付公司商旅分层、涂料公司 10 万→20 条 S 级。
+7. **Checklist**：≥8 项。
+8. **Anti-patterns**：平均分配线索、分层不做验证、脱离目标分层、只分层不分配策略。
 9. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
-10. **Synthesis**：桥接 `tool-strategy-value-proposition`、`framework-demand-validation-pipeline`、`concept-一堂-hypothesis-driven-business-methodology`、`yt-panproduct-aesthetic-pool`、`framework-brand-three-degree`。
+10. **Synthesis**：桥接 `framework-demand-validation-pipeline`、`concept-一堂-hypothesis-driven-business-methodology`、`tool-iceberg-triangle-modeling`、`master-decision-hygiene`。
 11. **Related**：≥5 条。
 
-### Card 3: `tool-yitang-sales-process-decomposition`
+### Card 3: `tool-yitang-value-proposition-4step`
+
+**类型**：tool  
+**主域**：sales / marketing / product-design  
+**定位**：Step 1 后半段落地工具，把功能语言转成用户愿意掏钱的价值语言。
+
+**必须包含的 section**：
+1. **When to Use**：卖点不统一、销售各说各话、产品介绍停留在功能罗列。
+2. **四步法**：写初始版本 → 建立审美 → 多轮打磨 → 落地应用。
+3. **卖点结构**：Top3、1+N、逻辑型结构。
+4. **建立审美方法**：拆解竞品 + 用户视角分析。
+5. **好卖点三原则**：匹配场景、能打动人、好听好记。
+6. **落地触点**：话术、海报、PPT、客服沟通、详情页。
+7. **案例嵌入**：儿童记忆力培训（成绩不好跟记不住有关）、iPhone 充电器（小冰块）。
+8. **Checklist**：≥8 项。
+9. **Anti-patterns**：卖点列一桌、自嗨式表达、只写不用、想卖给所有人。
+10. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
+11. **Synthesis**：桥接 `tool-strategy-value-proposition`、`framework-一堂五步法-泛产品设计`、`yt-panproduct-aesthetic-pool`、`yt-panproduct-aesthetic-modeling`、`framework-brand-three-degree`。
+12. **Related**：≥5 条。
+
+### Card 4: `tool-yitang-sales-process-decomposition`
 
 **类型**：tool  
 **主域**：sales / yitang  
 **定位**：Step 2 落地工具，把销售过程从黑盒变成可管理的成交地图。
 
 **必须包含的 section**：
-1. **When to Use**：销售周期长、客户推进不透明、老销售经验无法复制、新人成长慢。
+1. **When to Use**：销售周期长、客户推进不透明、老销售经验无法复制、新人成长慢、丢单原因不清楚。
 2. **三步法**：拆路径 → 划阶段 → 配动作。
 3. **四类用户决策**：接触决策、购买决策、付款决策、履约决策。
-4. **里程碑定义**：聚焦用户高成本决策点。
-5. **案例嵌入**：剧本杀 SaaS（添加微信→见面→探店→施工→上线）、美容院（美团咨询→到店→转化 20+ 节点）。
-6. **动作设计原则**：做足加法、匹配精准动作、定义动作标准、配套工具。
+4. **里程碑定义**：聚焦用户高成本决策点，用定性和定量方法识别。
+5. **动作设计原则**：做足加法、匹配精准动作、定义动作标准、配套销售工具。
+6. **案例嵌入**：剧本杀 SaaS（添加微信→见面→探店→施工→上线）、美容院（美团咨询→到店→转化 20+ 节点）。
 7. **Checklist**：≥8 项。
-8. **Anti-patterns**：从销售视角拆、阶段不可量化、只拆不配套动作、过度复杂。
+8. **Anti-patterns**：从销售视角拆、阶段不可量化、只拆不配套动作、过度复杂、忽略履约决策。
 9. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
 10. **Synthesis**：桥接 `framework-一堂五步法-泛产品设计`、`yt-business-formula-parameter-iceberg`、`tool-iceberg-triangle-modeling`、`framework-yitang-channel-exploration-4step`。
 11. **Related**：≥5 条。
 
-### Card 4: `tool-yitang-sales-performance-management`
+### Card 5: `tool-yitang-sales-performance-management`
 
 **类型**：tool  
 **主域**：sales / management  
 **定位**：Step 3 落地工具，让业绩从「过山车」变成「可预测」。
 
 **必须包含的 section**：
-1. **When to Use**：业绩波动大、现金流不可预测、只会压目标不会追过程。
+1. **When to Use**：业绩波动大、现金流不可预测、只会压目标不会追过程、周会变成流水账。
 2. **三步法**：拆目标 → 定策略 → 追过程。
-3. **目标拆解维度**：时间、客户、团队/个人、渠道、产品；乐观/中性/悲观三版。
-4. **业绩管理画布**：核心目标 → 拆解维度 → 策略设计 → 过程跟进。
+3. **目标拆解维度**：时间、客户、团队/个人、渠道、产品；乐观/中性/悲观三版；预留 Buffer。
+4. **业绩管理画布**：核心目标 → 拆解维度 → 策略设计（核心+备选） → 过程跟进。
 5. **Pipeline 与 Gap 分析**：客户清单、阶段、预期、差距、策略。
 6. **周会三要点**：看 Gap → 找原因 → 定策略。
 7. **案例嵌入**：快钱支付 To B（完成率 40-50% → 85-90%）、手机配件电商（按小时监控策略）。
 8. **Checklist**：≥10 项。
-9. **Anti-patterns**：只看结果、平均分配目标、不开周会、没有 Plan B。
+9. **Anti-patterns**：只看结果、平均分配目标、不开周会、没有 Plan B、目标不拆到客户/渠道。
 10. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
 11. **Synthesis**：桥接 `yt-unit-model-overview`、`yt-management-goal-management`、`yt-business-formula-six-level-logic`、`framework-yitang-nine-layer-deep-dig`。
 12. **Related**：≥5 条。
 
-### Card 5: `framework-yitang-sales-incentive-6d`
+### Card 6: `framework-yitang-sales-incentive-6d`
 
 **类型**：framework  
 **主域**：sales / management  
@@ -348,12 +383,12 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 6. **发钱三大设计重点**：杠杆点、公平点、感知点。
 7. **OPC 改编提示**：六维激励对 OPC 不适用，替换为「目标-行动-反馈」自我驱动循环。
 8. **Checklist**：≥8 项。
-9. **Anti-patterns**：只发钱、目标拍脑袋、规则不透明、激励与目标割裂。
+9. **Anti-patterns**：只发钱、目标拍脑袋、规则不透明、激励与目标割裂、频繁改规则。
 10. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
 11. **Synthesis**：桥接 `framework-yitang-deliberate-practice-1plus4`、`yt-personal-deliberate-practice`、`yt-management-goal-management`。
 12. **Related**：≥5 条。
 
-### Card 6: `tool-yitang-sales-toolkit-radar`
+### Card 7: `tool-yitang-sales-toolkit-radar`
 
 **类型**：tool  
 **主域**：sales / yitang  
@@ -363,23 +398,88 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 1. **When to Use**：新人上手慢、经验无法沉淀、销售专业度不足、想规模化复制 Top Sales。
 2. **销售工具箱三步法**：选择合适工具 → 提炼运用工具 → 复盘迭代工具。
 3. **六维雷达图**：
-   - 60 分：公司有实力、话术讲人话
-   - 75 分：服务很专业、销售有能力
-   - 85 分：团队有效率、攻坚有策略
+   - 60 分基础：公司有实力、话术讲人话
+   - 75 分进阶：服务很专业、销售有能力
+   - 85 分最佳实践：团队有效率、攻坚有策略
 4. **60/75/85 分典型工具清单**：每级 4-6 个工具示例。
 5. **常见工具类型**：公司介绍、产品一页纸、价格表、话术、案例集、流程手册、培训资料、CRM、作战地图。
 6. **案例嵌入**：剧本杀 SaaS 产品演示视频、美容院数据表单优化。
 7. **Checklist**：≥8 项。
-8. **Anti-patterns**：工具由不一线人员编写、话术像台词脚本、工具不迭代。
+8. **Anti-patterns**：工具由不一线人员编写、话术像台词脚本、工具不迭代、工具与场景背离。
 9. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
 10. **Synthesis**：桥接 `yt-panproduct-aesthetic-pool`、`tool-yitang-best-practice-as-golden-finger`、`tool-agent-research-swarm`、`framework-yitang-deliberate-practice-1plus4`。
 11. **Related**：≥5 条。
+
+### Card 8: `dk-yitang-sales-common-pitfalls`
+
+**类型**：dark-knowledge  
+**dark_knowledge_type**：pattern  
+**主域**：sales / management  
+**定位**：销售管理中最常见陷阱和判断口诀。
+
+**必须包含的 section**：
+1. **Pattern 1: 迷信销冠陷阱** — 认为销售靠天赋，招不到牛人就做不起来；反打是把销冠经验显性化、体系化。
+2. **Pattern 2: 平均分配线索陷阱** — 缺乏分层意识；反打是 SABC 分级、集中火力。
+3. **Pattern 3: 卖点五花八门陷阱** — 缺乏统一价值语言；反打是卖点提炼四步法。
+4. **Pattern 4: 过程黑盒陷阱** — 只盯结果；反打是拆解过程、识别关键决策点。
+5. **Pattern 5: 目标拍脑袋陷阱** — 缺乏科学拆解；反打是业绩管理三步法。
+6. **Pattern 6: 只靠金钱激励陷阱** — 激励手段单一；反打是六维组合激励。
+7. **预警信号**：≥6 条。
+8. **修复动作**：每个陷阱 1 个即时动作 + 1 个长期动作。
+9. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
+10. **Synthesis**：桥接 `framework-yitang-scientific-sales-five-step`、`tool-yitang-customer-segmentation-4step`、`tool-yitang-value-proposition-4step`、`tool-yitang-sales-process-decomposition`、`tool-yitang-sales-performance-management`、`framework-yitang-sales-incentive-6d`、`master-decision-hygiene`。
+11. **Related**：≥5 条。
+
+### Card 9: `case-yitang-sales-transformation-jubensha-saas`
+
+**类型**：case  
+**主域**：sales / ai-saas / yitang  
+**定位**：To B 销售体系从零搭建的完整转型案例。
+
+**必须包含的 section**：
+1. **Background**：剧本杀 SaaS 公司，业务刚起步，只有一个专职销售 + 一群兼职销售，年目标 200 万。
+2. **Problem**：无用户分层、无统一卖点、无过程拆解、无目标拆解、无激励机制、无销售工具。
+3. **Decision**：引入科学销售五步法，用兼职团队把整套打法打磨沉淀。
+4. **Process**（五步改造）：
+   - 用户分层：聚焦即将开店和翻新老店两类客户
+   - 卖点提炼：省成本、降依赖、提服务
+   - 过程拆解：8 个销售环节，关键节点必须见面、客户探店
+   - 业绩管理：月成单≥5 单、客单价≥4 万、每天加 16 个微信
+   - 激励 + 工具：分组 PK、红包、提成、话术、产品视频
+5. **Result**：团队建立基本打法、数据开始沉淀、为全职销售团队奠定基础。
+6. **Lessons**：60 分起点、资源有限也能建体系、兼职团队可打磨方法论。
+7. **Failure Modes**：扫街无重点、卖点各说各话、凭感觉推进、不好意思分目标。
+8. **Synthesis**：桥接 `framework-yitang-scientific-sales-five-step`、`tool-yitang-customer-segmentation-4step`、`tool-yitang-value-proposition-4step`、`tool-yitang-sales-process-decomposition`、`tool-yitang-sales-performance-management`、`framework-yitang-sales-incentive-6d`、`tool-yitang-sales-toolkit-radar`。
+9. **Related**：≥5 条。
+
+### Card 10: `case-yitang-sales-transformation-meirongyuan`
+
+**类型**：case  
+**主域**：sales / retail / yitang  
+**定位**：To C 门店销售体系改造案例，覆盖总部与门店利益协同。
+
+**必须包含的 section**：
+1. **Background**：美容院连锁，年营收上千万，新销售总监目标 2000 万。
+2. **Problem**：总部与门店利益冲突、店长不配合数据填报、新渠道响应不及时、目标拆不下去。
+3. **Decision**：从用户分层、过程拆解、目标拆解、激励机制、数据表单五方面改造。
+4. **Process**：
+   - 重新明确进店用户画像，按消费能力/稳定性/尝鲜度分层
+   - 梳理美团咨询到转化的 20+ 关键节点
+   - 用两家样板店验证，再推广到所有门店
+   - 目标拆到门店、技师、客户
+   - 调整激励机制统一总部和门店利益
+   - 优化数据表单，总部派专人协助填关键数据
+5. **Result**：在线咨询响应提升后新客到店转化率从 15-20% 提升至 25%；总部与门店不再打架。
+6. **Lessons**：样板店验证、利益统一、数据表单要轻量化、关键节点数据化。
+7. **Failure Modes**：总部强压门店、表单太复杂、忽视店长利益、新渠道不维护。
+8. **Synthesis**：桥接 `framework-yitang-scientific-sales-five-step`、`tool-yitang-customer-segmentation-4step`、`tool-yitang-sales-process-decomposition`、`tool-yitang-sales-performance-management`、`framework-yitang-sales-incentive-6d`、`tool-yitang-sales-toolkit-radar`、`framework-yitang-channel-exploration-4step`。
+9. **Related**：≥5 条。
 
 ---
 
 ## 十三、已有卡补链建议
 
-产出 6 张新卡后，反向更新以下已有卡的 `related`：
+产出 10 张新卡后，反向更新以下已有卡的 `related`：
 
 1. `yt-five-step-method-complete`
 2. `yitang-methodology-system`
@@ -405,23 +505,26 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 22. `case-yitang-ai-painting-commercialization`
 23. `opc-ai-sales-agent-architecture`
 24. `human-ai-collaboration-double-triangle`
+25. `framework-lean-pivot-decision`
+26. `dk-yitang-channel-exploration-traps`
 
 ---
 
 ## 十四、OPC 智能体落地特别说明
 
-老朱的 OPC 目标与销售五步法高度匹配，但需做以下改编：
+OPC 目标与销售五步法高度匹配，但需做以下改编：
 
 | 原版（带团队） | OPC 版（一人+AI） |
 |:---|:---|
 | 用户分层四步法 | 用户分层智能体：判断「这个客户值不值得我亲自跟」 |
+| 卖点提炼四步法 | 卖点提炼智能体：针对不同客户生成差异化卖点 |
 | 客户意图识别 | 客户意图识别智能体：识别决策阶段/抗拒点/情绪 |
 | 销售过程拆解 | 销售过程拆解智能体：追踪里程碑、卡点预警 |
 | 业绩管理三步法 | 业绩预测 + 跟进编排智能体：周计划 + Gap 提醒 |
 | 六维激励团队 | 替换为创始人自我驱动机制（目标-行动-反馈循环） |
 | 销售武器库 | 智能体提示词库 + 提案模板库 + 案例库 |
 
-这些改编已在 `opc-ai-sales-agent-architecture.md` 中记录。本次新产出的 6 张 KDO 卡应成为该架构的底层方法论来源，需在 `opc-ai-sales-agent-architecture` 的 related 中回链。
+这些改编已在 `opc-ai-sales-agent-architecture.md` 中记录。本次新产出的 10 张 KDO 卡应成为该架构的底层方法论来源，需在 `opc-ai-sales-agent-architecture` 的 related 中回链。
 
 ---
 
@@ -432,14 +535,15 @@ OPC 销售复制 ROI = （线索分层准确率 × 关键节点转化率 × 交�
 - 来源可靠：一堂内部课程 + 李蕊二十多年实战。
 - 主题契合：KDO 目前几乎没有独立销售方法论卡片，本专题填补明显空白。
 - 不重复建设：用户分层、价值主张、目标管理、工具化等概念已有 KDO 卡覆盖，本次只做销售域实例化。
-- 可操作性强：可直接产出 1 framework + 4 tool + 1 framework，并反向更新 ≥24 张已有卡 related。
+- 可操作性强：可直接产出 1 framework + 5 tool + 1 framework + 2 case + 1 dk，并反向更新 ≥26 张已有卡 related。
+- 未来咨询可用：当用户问「我的线索该怎么分」「卖点怎么写」「销售过程怎么拆」「业绩怎么管」「团队怎么激励」「该建什么销售工具」时，可直接调用对应工具卡给出可执行方案。
 - OPC 适配：科学销售五步法可直接映射为 OPC 智能体军团，已有 `opc-ai-sales-agent-architecture.md` 作为承接。
 
 **建议入队编号**：`#44`  
 **优先级**：P1（销售域重要补充，OPC 战略落地关键）  
 **Assignee**：老顽童(Kimi)  
 **Reviewer**：欧阳锋  
-**预计卡数**：6 张（1 framework + 4 tool + 1 framework） + 反向更新 ≥24 张已有卡 related
+**预计卡数**：10 张（1 framework + 5 tool + 1 framework + 2 case + 1 dk） + 反向更新 ≥26 张已有卡 related
 
 ---
 

@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-06-30 18:08 UTC
+# Concept Card Index — 2026-07-01 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -36,6 +36,7 @@
 | completion-criteria-design | 完成标准设定 | tool | learning-methodology, personal-growth, yitang |
 | concept-AI时代双三角竞争力 | AI时代的双三角竞争力：人+AI协作决策 | concept | yitang, decision-science |
 | concept-X型Y型决策习惯 | X型 vs Y型：两种决策习惯对比 | concept | yitang, decision-science |
+| concept-abundance-paradox | 富足悖论：为什么技术越富足，新问题越多 | concept | decision-making |
 | concept-ai-amara-law-business-judgment | 阿马拉定律与商业判断校准 | concept | ai_collaboration, critical_thinking, business_judgment |
 | concept-ai-chair-determines-view | 椅子决定视角 | concept | ai_collaboration, critical_thinking, business_judgment |
 | concept-ai-information-quality-ladder | 信息质量阶梯 | concept | ai_collaboration, critical_thinking, business_judgment |
@@ -43,6 +44,7 @@
 | concept-ai-neutrality-bias | 中立的暴政 | concept | ai_collaboration, critical_thinking, business_judgment |
 | concept-candy-ai-as-collaborator | Candy：AI是协作者而非代写工具 | concept | yitang, content-production, ai-collaboration |
 | concept-ceo-must-do-user-research | CEO必须亲自做用户调研 | concept | yitang, research |
+| concept-cognitive-offloading-in-ai-era | AI 时代的认知卸载：什么交给 AI，什么必须保留 | concept | ai-collaboration |
 | concept-feishu-api-pagination-trap | 飞书API分页陷阱——静默截断比报错更危险 | concept | feishu, content-extraction, publishing, yitang |
 | concept-five-step-growth-to-barrier-transition | 五步法衔接：什么时候从增长切换到壁垒建设 | concept | src_unknown |
 | concept-harness-cattle-not-pets | 牲口而非宠物：每次迭代用全新Generator实例 | concept | yitang, ai-collaboration |
@@ -357,7 +359,7 @@
 | yt-personal-ai-thinking-card | AI思维卡：从「读书」到「安装认知补丁」 | tool | src_unknown |
 | yt-personal-checklist-notes | yt-personal-checklist-notes | ? | personal-growth |
 | yt-personal-deep-review | 深度复盘 | tool | src_unknown |
-| yt-personal-deliberate-practice | yt-personal-deliberate-practice | ? | personal-growth |
+| yt-personal-deliberate-practice | 科学成长（刻意练习） | concept | personal-growth |
 | yt-personal-inspiration-flash | yt-personal-inspiration-flash | ? | personal-growth |
 | yt-personal-ipo-learning | IPO 科学学习 | tool | src_unknown |
 | yt-personal-knowledge-extraction | 知识萃取方法论 | tool | src_unknown |
@@ -533,6 +535,7 @@
 | framework-yitang-channel-unit-economics | 渠道单元经济模型：把每个获客渠道当作独立经济单元核算 | framework | yitang, growth, unit-model |
 | framework-yitang-deliberate-practice-1plus4 | 刻意练习 1+4 模型：科学成长的操作系统 | framework | yitang, personal-growth |
 | framework-yitang-expert-interview-10steps | 专家访谈黄金十步法：从盲区梳理到专家匹配 | framework | yitang, research |
+| framework-yitang-five-step-to-time-management | 一堂五步法在时间管理中的应用：自管理场景的完整实例化 | framework | personal-growth, yitang, methodology |
 | framework-yitang-four-research-types | 四类调研模型：挖掘式·系统式·爆炸式·自动式 | framework | yitang, research |
 | framework-yitang-growth-flywheel | 增长飞轮：把单点增长变成自我强化的增强回路 | framework | yitang, growth, strategy |
 | framework-yitang-high-level-execution | 高水平执行 AR：获取情报·正确归因 | framework | yitang, research |
@@ -700,6 +703,7 @@
 | tool-ai-skill-engineering-guide | 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流 | tool | src_unknown, src_unknown, src_unknown |
 | tool-ai-skill-engineering-method | AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位 | tool | src_unknown, src_unknown, src_unknown, src_unknown, src_unknown |
 | tool-ai-system-redundancy | 技能：系统冗余度快速检查清单 | tool | ai-collaboration, yitang- ai-saas |
+| tool-ai-use-barbell-strategy | AI 使用杠铃策略：把任务分成高 AI 区和无 AI 区 | tool | ai-collaboration |
 | tool-ai-voice-input-doubao | 技能：口喷式语音输入法 | tool | ai-collaboration, yitang- ai-saas |
 | tool-ai2041-source-verification-checklist | AI 预测来源验证检查单 | tool | ai_collaboration, critical_thinking, business_judgment |
 | tool-ai辅助学习 | 技能：AI辅助学习 | tool | ai-collaboration, yitang- product, ai-saas, design, yitang, entrepreneurship, decision-making |
@@ -791,6 +795,7 @@
 | tool-osint-spiderfoot | SpiderFoot：一键自动化OSINT扫描 | tool | yitang, research |
 | tool-osint-wayback | Wayback Machine：网站时光机——看竞对的每一个历史版本 | tool | yitang, research |
 | tool-panproduct-org-five-step | 组织场景五步法操作卡 | tool | panproduct, organization, yitang |
+| tool-personal-time-audit-loop | 个人时间审计与实验循环 | tool | personal-growth, yitang |
 | tool-prompt-iceberg-demand-analysis | 冰山图 L1-L6 需求深挖——多层引导提示词模板 | prompt-template |  |
 | tool-prompt-jtbd-scenario-coach | JTBD 场景推演教练——六层需求深挖提示词模板 | prompt-template |  |
 | tool-prompt-usp-demand-analysis | USP 深度洞察引擎——需求分析提示词模板 | prompt-template | src_unknown |
@@ -1680,6 +1685,9 @@
 | dk-c7-auto-backup-conflict | C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交 | dk | master |
 | dk-c8-format-complete-mind-empty | C-8：批处理格式升级产生格式完整但思维空洞的卡片 | dk | master |
 | dk-c9-batch-trigger-garbage | C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没 | dk | master |
+| dk-community-lecturer-vs-crowd-model | 讲师中心 vs 群众中心：社群知识生产的两种模式 | dark-knowledge | content-production, knowledge-management, entrepreneur |
+| dk-content-implicit-value-without-price | 全文不提价格，但处处暗示价值 | dark-knowledge | content-production, business-strategy, entrepreneur |
+| dk-content-muscle-memory-vs-knowledge | 内容创作中的肌肉记忆：很多能力不是知识 | dark-knowledge | content-production, personal-growth, ai-collaboration |
 | dk-decision-value-overrides-roi | Y 模型失效场景：当价值观权重超过经济理性时，广义 ROI 公式不再适用 | dk | yitang, master, decision-making |
 | dk-decision-when-to-defer | 何时应该推迟决策 | dk | decision-science, yitang |
 | dk-demand-feature-stacking | 功能堆叠陷阱：加功能≠满足需求 | dk | yitang, five-step-method |
@@ -1715,6 +1723,7 @@
 | dk-five-step-framework-legitimizes-bias | 暗知识：框架不会自动降噪，反而可能「合法化」偏见——用了五步法不代表科学分析 | dk | yitang, entrepreneur |
 | dk-foresight-source-material-blindness | 暗知识：素材命名不一致导致完整口述稿被遗漏 | dk | yitang |
 | dk-foresight-tier-skip-illusion | 暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快 | dk | yitang, business-strategy |
+| dk-founding-ip-trust-over-traffic | 创始人 IP 追求信任，网红追求流量 | dark-knowledge | content-production, business-strategy, entrepreneur |
 | dk-fundamentals-before-advanced-ops | 基本功未内化就强上高阶操作——高阶工具失效的头号根因 | dk | yitang, note-taking, modeling, ai-collaboration |
 | dk-infrastructure-guardrails-over-checklist | 基础设施工具不能只有检查清单，还必须有硬护栏 | dk | master, kdo, ai-collaboration |
 | dk-jh-llm-time-blindness | LLM时间盲症：AI不知道现在是什么时候——纪浩的隐形风险识别 | dk | ai-saas |
