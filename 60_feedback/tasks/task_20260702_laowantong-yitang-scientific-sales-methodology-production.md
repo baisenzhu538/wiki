@@ -306,6 +306,63 @@ related:
 
 ---
 
+### Card 11: `case-yitang-sales-transformation-tuliaogongsi`
+
+**类型**：case  
+**主域**：sales / manufacturing-distribution / b2b / yitang  
+**confidence**：0.80  
+**trust_level**：medium
+
+**必须包含的 section**：
+1. **Background**：涂料公司，海量注册线索但转化率低，销售精力分散。
+2. **Problem**：10 万线索分不清谁是真客户；销售平均分配精力；S 级客户被淹没；分层脱离目标。
+3. **Decision**：用一堂用户分层四步法重做 SABC 分级，把资源集中到高价值客户。
+4. **Process**：
+   - 明确阶段目标（利润 vs 标杆）
+   - 提出分层假设（公司规模、项目类型、采购周期、地域）
+   - 验证假设（历史成交画像 + 抽样访谈）
+   - 执行分层（10 万 → 20 S 级 + 200 A 级，其余自动培育）
+5. **Result**：销售 80% 精力聚焦 Top 220 客户，S 级转化率显著提升。
+6. **Lessons**：分层和目标挂钩；没有验证的分层是拍脑袋；B/C 级线索需自动培育。
+7. **Failure Modes**：只看数量不看质量、分层标准不更新、B/C 级直接丢弃、销售抵制少量线索。
+8. **Synthesis**：桥接 `framework-yitang-scientific-sales-five-step`、`tool-yitang-customer-segmentation-4step`、`tool-yitang-sales-performance-management`、`master-decision-hygiene`。
+9. **Related**：≥5 条。
+
+---
+
+### Card 12: `tool-opc-sales-dialogue-assistant`
+
+**类型**：tool  
+**主域**：personal-os / ai-sales-agent / yitang  
+**confidence**：0.85  
+**trust_level**：high
+
+**定位**：OPC 销售智能体 MVP 规格卡，可直接作为 system prompt 使用。
+
+**必须包含的 section**：
+1. **When to Use**：一人公司创始人同时跟进多个客户、对话散落、容易忘记阶段、回复前需快速判断。
+2. **核心功能**：读对话 → 想策略 → 给话术。
+3. **输入**：客户对话记录（微信/邮件/通话转写/CRM 备注）、可选分层标签、可选当前阶段。
+4. **输出**：
+   - 客户意图与阶段判断（接触/购买/付款/履约 + 情绪/抗拒点）
+   - 下一步建议（该做/不该做什么）
+   - 2-3 个可直接选用或微调的回复选项
+5. **工作逻辑**：
+   - 用 `tool-yitang-customer-segmentation-4step` 判断客户等级
+   - 用 `tool-yitang-sales-process-decomposition` 识别阶段与关键决策点
+   - 用 `tool-yitang-value-proposition-4step` 选择匹配卖点
+   - 用 `tool-yitang-sales-performance-management` 判断推进/预警
+   - 生成 2-3 个不同风格回复（直接型/共情型/提问型）
+6. **System Prompt 模板**：提供可直接复制到 Claude/GPT 自定义指令的精简模板。
+7. **边界与风险提示**：不替代关键信任建立；不自动发送消息；隐私数据需合规处理。
+8. **Checklist**：≥8 项。
+9. **Anti-patterns**：照搬话术不调整、把 AI 建议当最终决策、关键谈判让 AI 代写、忽视客户情绪。
+10. **Critique**：≥3 个外部反对者 + ≥2 个内部局限。
+11. **Synthesis**：桥接 `opc-ai-sales-agent-architecture`、`human-ai-collaboration-double-triangle`、`framework-yitang-scientific-sales-five-step`、4 张 Step tool 卡。
+12. **Related**：≥5 条。
+
+---
+
 ## 三、已有卡 related 补链清单
 
 10 张新卡产出后，必须反向在以下已有卡的 `related` 中加入新卡链接：
@@ -349,16 +406,16 @@ related:
 4. **数字降级**：课程中的「2 天」「60 分」「200 个案例」「20 个记录」「85-90% 完成率」等描述为项目经验/个人做法，不当作普适真理。
 5. **OPC 智能体适配内嵌**：`tool-yitang-customer-segmentation-4step`、`tool-yitang-value-proposition-4step`、`tool-yitang-sales-process-decomposition`、`tool-yitang-sales-performance-management`、`framework-yitang-sales-incentive-6d` 等卡必须包含「OPC 智能体适配」小节，说明如何映射为 system prompt；不单独为这些子模块建卡，避免碎片化。
 6. **MVP 智能体优先**：智能体层只新建 `tool-opc-sales-dialogue-assistant` 一张卡，其余 10 个智能体规格待本批卡片终审后根据反馈分批扩展。
-5. **法律声明**：商标/合同/提成等涉及法律判断的案例，工具卡和 framework 卡中必须明确「AI/课程只提供公共知识扫盲，最终法律结论需专业机构复核」。
-6. **OPC 改编**：激励团队、周会三要点、拆目标到个人等模块不直接适用于 OPC，需在相关卡片中明确 OPC 版改编提示。
-7. **跨域融合**：每张卡必须同时桥接 sales 域和对应底层方法论域（strategy / management / ai-collaboration 等），不能只讲销售技巧。
+7. **法律声明**：商标/合同/提成等涉及法律判断的案例，工具卡和 framework 卡中必须明确「AI/课程只提供公共知识扫盲，最终法律结论需专业机构复核」。
+8. **OPC 改编**：激励团队、周会三要点、拆目标到个人等模块不直接适用于 OPC，需在相关卡片中明确 OPC 版改编提示。
+9. **跨域融合**：每张卡必须同时桥接 sales 域和对应底层方法论域（strategy / management / ai-collaboration 等），不能只讲销售技巧。
 
 ---
 
 ## 五、验收标准
 
 - [ ] 12 张目标卡 `kdo pre-submit` PASS，无新增 ERROR。
-- [ ] 10 张目标卡 `kdo lint` 0 ERROR；新增 WARNING 需在任务单中说明。
+- [ ] 12 张目标卡 `kdo lint` 0 ERROR；新增 WARNING 需在任务单中说明。
 - [ ] `framework-yitang-scientific-sales-five-step` 包含五步法总图、六大通病、与一堂五步法关系、OPC 改编提示。
 - [ ] `tool-yitang-customer-segmentation-4step` 包含四步法、SABC 分级、分层假设清单、验证方法、≥8 项 checklist。
 - [ ] `tool-yitang-value-proposition-4step` 包含四步法、卖点结构、好卖点三原则、落地触点、≥8 项 checklist。
@@ -373,8 +430,8 @@ related:
 - [ ] `tool-opc-sales-dialogue-assistant` 包含 When to Use/输入/输出/工作逻辑/System Prompt 模板/边界与风险/Checklist/Anti-patterns/Critique/Synthesis/Related。
 - [ ] 每张卡 Critique 包含 ≥3 个外部反对者与 ≥2 个内部局限。
 - [ ] 每张卡 related ≥ 5，且至少 2 条跨域。
-- [ ] ≥26 张已有卡的 related 已反向更新。
-- [ ] `opc-ai-sales-agent-architecture.md` 的 related 已加入 10 张新卡回链。
+- [ ] ≥28 张已有卡的 related 已反向更新。
+- [ ] `opc-ai-sales-agent-architecture.md` 的 related 已加入 12 张新卡回链。
 - [ ] 欧阳锋终审通过。
 
 ---
@@ -398,7 +455,7 @@ related:
 - **入队编号**：`#44`
 - **状态**：`queued`
 - **位置**：排在 `#43`（Live81 AI 赋能商标设计）之后。
-- **预计工时**：老顽童生产 4-5 天 + 欧阳锋终审 1 天。
+- **预计工时**：老顽童生产 5-6 天 + 欧阳锋终审 1-2 天。
 
 ---
 
