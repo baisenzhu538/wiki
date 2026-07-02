@@ -7,7 +7,7 @@ priority: P1
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 created_at: 2026-07-03
-updated_at: 2026-07-03
+updated_at: 2026-07-03（王语嫣裁定：Card 1 改为重写 yt-decision-y-model）
 expected_cards: 7
 dependencies: []
 source_refs:
@@ -47,7 +47,7 @@ related:
 
 ---
 
-## 二、7 张目标卡
+## 二、7 张目标卡（1 张重写 + 6 张新建）
 
 ### Card 1: `yt-decision-y-model`（就地重写升级）
 
@@ -204,9 +204,9 @@ related:
 
 | 旧卡 | 处理方式 |
 |:---|:---|
-| `yt-entrepreneur-scientific-method` | 标记 `status: deprecated`；正文顶部加「本卡已被 `framework-yitang-Y-model` 重写升级，请使用新卡」；related 指向新卡 |
-| `yt-entrepreneur-truth-seeking` | 标记 `status: deprecated`；正文顶部加「本卡已被 `framework-yitang-shishi-qiushi` 重写升级」；related 指向新卡 |
-| `yt-model-liberate-thinking-layers` | 标记 `status: deprecated`；正文顶部加「本卡已被 `framework-yitang-jiefang-sixiang` 重写升级」；related 指向新卡 |
+| `yt-entrepreneur-scientific-method` | 正文顶部加「本卡已被 `yt-decision-y-model` 重写升级，请使用新卡」；`related` 指向 `yt-decision-y-model`；可标记 `status: deprecated`（不引入新 schema 字段） |
+| `yt-entrepreneur-truth-seeking` | 正文顶部加「本卡已被 `framework-yitang-shishi-qiushi` 重写升级」；`related` 指向新卡；可标记 `status: deprecated` |
+| `yt-model-liberate-thinking-layers` | 正文顶部加「本卡已被 `framework-yitang-jiefang-sixiang` 重写升级」；`related` 指向新卡；可标记 `status: deprecated` |
 
 ---
 
@@ -236,7 +236,7 @@ related:
 
 ## 五、关键纠偏与边界
 
-1. **科学理念 = Y模型**：不单独建 `concept-yitang-scientific-idea`。
+1. **科学理念 = Y模型**：不单独建 `concept-yitang-scientific-idea`；直接重写升级现有 `yt-decision-y-model`。
 2. **实事求是 / 解放思想 不是平行于 Y模型**：必须在 framework 卡中明确演化关系。
 3. **旧卡处理**：重写升级后原卡标记 deprecated，不删除，避免链接断裂。
 4. **案例卡不重复建设**：口述中的时间管理、起名字等例子作为 framework/tool 卡嵌入式证据，不单独建 case。
@@ -250,7 +250,7 @@ related:
 
 - [ ] 7 张目标卡 `kdo pre-submit` PASS，无新增 ERROR。
 - [ ] 7 张目标卡 `kdo lint` 0 ERROR；新增 WARNING 需在任务单中说明。
-- [ ] `framework-yitang-Y-model` 包含四层结构图、五步法、与一堂其他课程关系、哲学呼应、跨域迁移。
+- [ ] `yt-decision-y-model` 已就地重写升级，包含四层结构图、五步法、与一堂其他课程关系、KDO 根节点映射、哲学呼应、跨域迁移。
 - [ ] `framework-yitang-shishi-qiushi` 包含在 Y模型中的位置、核心动作、自欺信号、验证成本阶梯。
 - [ ] `framework-yitang-jiefang-sixiang` 包含六层认知模型、隐含假设挖掘方法、跨域桥接。
 - [ ] `tool-yitang-Y-model-application` 包含五步法清单、输入/输出、红卡/蓝卡、示例、≥10 项 checklist。
@@ -269,7 +269,7 @@ related:
 
 | 批次 | 卡片 | 说明 |
 |:---|:---|:---|
-| 第一批 | `framework-yitang-Y-model` | 先建总图，作为后续 6 张卡的引用基础 |
+| 第一批 | `yt-decision-y-model`（重写升级） | 先定根节点，作为后续 6 张卡的引用基础 |
 | 第二批 | `framework-yitang-shishi-qiushi` + `framework-yitang-jiefang-sixiang` | 两大姿势 framework |
 | 第三批 | `tool-yitang-Y-model-application` | 操作工作流 |
 | 第四批 | `dk-yitang-Y-model-pitfalls` | 反模式 |
