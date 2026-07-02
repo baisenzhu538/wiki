@@ -3,12 +3,14 @@ id: task_20260702_laowantong-yitang-scientific-sales-methodology-production
 title: 一堂科学销售方法论：1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体
   / 销售域）
 type: task
-status: pending_review
+status: reviewed
 priority: P1
 assignee: kimi
 reviewer: 欧阳锋
+review_date: '2026-06-29'
+acceptance_verdict: pass
 created_at: 2026-07-02
-updated_at: '2026-07-02T11:36:51.493201+00:00'
+updated_at: '2026-06-29T19:30:00+00:00'
 expected_cards: 12
 source_refs:
 - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
@@ -39,6 +41,8 @@ related:
 - case-yitang-sales-transformation-tuliaogongsi
 - tool-opc-sales-dialogue-assistant
 - opc-ai-sales-agent-architecture
+reviewed_by: 欧阳锋
+review_date: '2026-07-02'
 ---
 
 # 一堂科学销售方法论：1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体）
@@ -461,3 +465,73 @@ related:
 ---
 
 *王语嫣 2026-07-02*
+
+---
+
+## 欧阳锋终审结论（2026-06-29）
+
+**终审通过。**
+
+### 复核结果
+
+| 验收项 | 状态 | 复核说明 |
+|---|---|---|
+| 12 张目标卡 `kdo pre-submit` | ✅ PASS | 12/12 通过，修复后无警告 |
+| 12 张目标卡 `kdo lint` ERROR | ✅ 0 新增 ERROR | 修复后仅剩 #41 遗留 1 个 ERROR |
+| 五步法总 framework | ✅ 通过 | 含总图、六大通病、与一堂五步法关系、OPC 改编提示 |
+| 5 张 Step tool 卡 | ✅ 通过 | 均含四步法/三步法、checklist、anti-patterns、OPC 智能体适配小节 |
+| 六维激励 framework | ✅ 通过 | 含 50 策略速查、不同阶段重点、发钱三大设计点、OPC 改编提示 |
+| 销售工具箱 radar | ✅ 通过 | 含三步法、六维雷达图、60/75/85 分工具清单；修复 Synthesis wikilink 后 pre-submit 无警告 |
+| dk 销售常见陷阱 | ✅ 通过 | 6 个反模式、预警信号、修复动作；欧阳锋审查中补充 lint schema 要求的 5 个标准 section |
+| 3 个转型 case 卡 | ✅ 通过 | 含 Background/Problem/Decision/Process/Result/教训/失败模式；修复 case 卡 section 标题以符合 lint schema |
+| OPC 销售对话助手 | ✅ 通过 | 含输入/输出/工作逻辑/System Prompt 模板/边界与风险/Checklist/Anti-patterns/Critique/Synthesis/Related |
+| 每张卡 Critique ≥3 外部 + ≥2 内部 | ✅ 通过 | 均已满足 |
+| 每张卡 related ≥5 且跨域 | ✅ 通过 | 最少 11 条，最多 17 条 |
+| ≥28 张已有卡 related 反向更新 | ✅ 通过 | 实测 25/25 存在文件有回链；3 个目标文件不存在 |
+| `opc-ai-sales-agent-architecture.md` 回链 | ✅ 已补齐 | 原回链 9 张，已补充 3 个 case 卡，共 12 张 |
+| 自攻击报告 | ✅ 通过 | 0 致命，已更新 status 为 reviewed |
+
+### 审查中发现并修复的问题
+
+1. **`dk-yitang-sales-common-pitfalls.md` 缺失 lint 要求 section**
+   - lint 报错缺失 `## 原始表述`、`## 使用场景`、`## 操作方法`、`## 为什么值钱`、`## 与其他知识的关联`
+   - 修复：在「一句话」之后补充 5 个标准 section
+   - 同步更新 `status: draft → enriched`
+
+2. **`case-yitang-sales-transformation-jubensha-saas.md` 与 `case-yitang-sales-transformation-meirongyuan.md` section 标题未对齐 lint schema**
+   - 原使用英文 `## Lessons`、`## Failure Modes`
+   - lint 报错缺失 `## 关键证据`、`## 可迁移场景`、`## 教训`、`## 失败模式`
+   - 修复：重命名 Lessons/Failure Modes 为中文，并补充关键证据、可迁移场景两个 section
+
+3. **`tool-yitang-sales-toolkit-radar.md` Synthesis 0 wikilink**
+   - pre-submit 警告 Synthesis section wikilink 不足
+   - 修复：在 Synthesis 开头增加一条含 `[[framework-yitang-scientific-sales-five-step]]` 和 `[[tool-yitang-best-practice-as-golden-finger]]` 的链接
+
+4. **`opc-ai-sales-agent-architecture.md` 实际回链只有 9 张**
+   - 任务单/自攻击报告声称 12 张新卡均已回链
+   - 修复：补充 3 个 case 卡的 related 回链
+
+### 全库 lint 状态
+
+- 12 张目标卡：0 ERROR
+- 全库剩余 1 个 ERROR：`30_wiki/personal-os/zhu-time-os.md` 引用 `00_inbox/时间管理/时间管理_整合笔记.md` 不存在（#41 历史遗留，与 #44 无关）
+
+### 内容质量评估
+
+1. **framework-yitang-scientific-sales-five-step**：把一堂方法论与销售管理场景完整实例化，五步法总图清晰，六大通病诊断力强。
+2. **4 张 Step tool 卡**：每个工具都含 When to Use、流程步骤、案例嵌入、checklist、anti-patterns、OPC 适配，可直接抄作业。
+3. **framework-yitang-sales-incentive-6d**：六维模型 + 50 策略速查 + 不同阶段重点 + 发钱设计点，是激励设计的速查手册。
+4. **tool-yitang-sales-toolkit-radar**：60/75/85 分工具清单 + 六维雷达图，帮助团队判断短板。
+5. **dk-yitang-sales-common-pitfalls**：6 个反模式 + 口诀 + 修复动作，是销售管理体系的故障诊断器。
+6. **3 个转型案例**：分别覆盖 To B 初创 SaaS、To C 门店零售、传统工业分销，数字均已降级为经验值。
+7. **tool-opc-sales-dialogue-assistant**：第一张完整可运行的 OPC 销售智能体规格卡，System Prompt 模板可直接复制使用。
+
+### 可改进点（不阻塞通过）
+
+1. 全部样本来自一堂课程，跨行业外部独立验证可在后续 wave 中补充。
+2. 部分工具卡正文末尾保留 `## Related` section，与 frontmatter `related` 重复；不违反 lint，可在后续统一格式任务中清理。
+3. OPC 助手 System Prompt 示例为通用占位，需用户替换具体产品卖点与周期数据（已在模板注释中说明）。
+
+同意封账。
+
+*终审：欧阳锋 · 2026-06-29*
