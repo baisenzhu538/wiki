@@ -24,6 +24,7 @@ related:
   - "[[tool-yitang-sales-process-decomposition]]"
   - "[[tool-yitang-sales-performance-management]]"
   - "[[tool-agent-spec-yitang-value-proposition]]"
+  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
   - "[[framework-yitang-sales-incentive-6d]]"
   - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[dk-yitang-sales-common-pitfalls]]"

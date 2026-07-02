@@ -30,6 +30,7 @@ related:
   - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[tool-yitang-value-proposition-4step]]"
   - "[[tool-agent-spec-yitang-value-proposition]]"
+  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
   - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[tool-yitang-sales-performance-management]]"
   - "[[case-yitang-sales-transformation-jubensha-saas]]"
