@@ -24,6 +24,9 @@ related:
   - "[[framework-yitang-sales-incentive-6d]]"
   - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[case-yitang-sales-transformation-jubensha-saas]]"
+  - "[[case-yitang-sales-transformation-meirongyuan]]"
+  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
 ---
 # OPC AI 销售智能体架构
 
