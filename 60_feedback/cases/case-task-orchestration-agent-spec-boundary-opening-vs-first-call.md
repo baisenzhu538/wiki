@@ -5,6 +5,7 @@ subtitle: 以 OPC 开场 3 分钟助手为例，讨论「用户要销售话术�
 type: case
 status: enriched
 author: 欧阳锋
+reviewed_by: 欧阳锋
 related:
   - "[[tool-agent-spec-yitang-opening-3min]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
