@@ -35,7 +35,7 @@ related:
   - "[[tool-agent-spec-yitang-value-proposition]]"
   - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: 2026-07-03
 ---
 # OPC 销售过程追踪助手 Agent Spec
 
@@ -127,6 +127,8 @@ updated_at: 2026-07-02
 
 # Output Format
 每次输出必须包含以下六部分，用 Markdown 标题分隔：
+> 阶段判断的默认框架：如果用户未提供定制化的销售里程碑清单，默认使用「接触 → 购买 → 付款 → 履约」四阶段框架进行判断，并在方法论溯源中说明这是默认假设。仍给出高/中/低置信度，不降低为「粗略草案」。
+
 
 ## 1. 当前阶段判断
 - 决策阶段：接触 / 购买 / 付款 / 履约（说明理由）
@@ -346,6 +348,22 @@ updated_at: 2026-07-02
 **结论**：修正后输出达到 MVP 可用标准，但在真实客户对话中需持续验证阶段判断与卡点识别的稳定性。
 
 ---
+
+### 测试轮次 2：真实模型 Wave 1（2026-07-03）
+
+**测试时间**：2026-07-03  
+**模型**：deepseek-v4-pro  
+**测试场景**：
+1. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-sales-process-tracker__智能药柜多轮推进.md|智能药柜多轮推进]]
+2. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-sales-process-tracker__剧本杀_SaaS_多轮推进.md|剧本杀 SaaS 多轮推进]]
+
+**关键发现**：
+- 阶段判断合理，能识别卡点和 contingency，下一步动作可执行。
+- **P2**：当用户未提供定制里程碑清单时，Agent 会声明「当前输出为粗略判断草案」，导致可用性下降。
+
+**已修正**：
+- System Prompt 升级为 v1.1：在未提供里程碑清单时，默认使用「接触 → 购买 → 付款 → 履约」四阶段框架，仍给出高/中/低置信度判断，并提示「如需更精准定位，请补充贵司定制里程碑清单」。
+
 
 ## Anti-patterns
 

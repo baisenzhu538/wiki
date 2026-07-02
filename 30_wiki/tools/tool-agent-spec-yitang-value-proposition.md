@@ -34,7 +34,7 @@ related:
   - "[[tool-agent-spec-yitang-sales-process-tracker]]"
   - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: 2026-07-03
 ---
 # OPC 卖点提炼助手 Agent Spec
 
@@ -331,6 +331,23 @@ updated_at: 2026-07-02
 **结论**：修正后输出达到 MVP 可用标准，但需在真实客户对话中持续验证卖点打动效果。
 
 ---
+
+### 测试轮次 2：真实模型 Wave 1（2026-07-03）
+
+**测试时间**：2026-07-03  
+**模型**：deepseek-v4-pro  
+**测试场景**：
+1. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-value-proposition__智能药柜卖给连锁药店.md|智能药柜卖给连锁药店]]
+2. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-value-proposition__剧本杀_SaaS_卖给桌游吧.md|剧本杀 SaaS 卖给桌游吧]]
+
+**关键发现**：
+- 输出稳定，Top3 卖点、一句话表达、四版话术结构均符合预期。
+- 医保合规话术有边界，能主动避免「彻底解决医保合规」等绝对化表述。
+- **P2**：PPT / 海报版话术偏文字堆叠，视觉记忆点不足。
+
+**已修正**：
+- System Prompt 升级为 v1.1：在 Output Format 的 PPT/海报版中增加「每版控制在 3 行以内，每行一个视觉记忆点，避免长段落」。
+
 
 ## Anti-patterns
 

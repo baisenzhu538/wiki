@@ -41,7 +41,7 @@ related:
   - "[[human-ai-collaboration-double-triangle]]"
   - "[[tool-agent-spec-yitang-opening-3min]]"
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: 2026-07-03
 ---
 # OPC 客户异议处理助手 Agent Spec
 
@@ -379,6 +379,24 @@ updated_at: 2026-07-02
 **结论**：修正后输出达到 MVP 可用标准，但在真实客户对话中需持续验证复合异议识别与优先级排序的稳定性。
 
 ---
+
+### 测试轮次 2：真实模型 Wave 1（2026-07-03）
+
+**测试时间**：2026-07-03  
+**模型**：deepseek-v4-pro  
+**测试场景**：
+1. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-objection-handler__智能药柜价格异议.md|智能药柜价格异议]]
+2. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-objection-handler__剧本杀_SaaS_时机异议.md|剧本杀 SaaS 时机异议]]
+
+**关键发现**：
+- 异议类型判断准确，能区分显性异议与真实顾虑。
+- 回复选项可直接使用或微调，三风格（直接/共情/提问）覆盖不同场景。
+- 对「未经授权降价」「贬低竞品」等禁忌把握到位。
+- **P2**：当客户主动透露竞品报价时，仅做通用提醒，未明确要求转交创始人。
+
+**已修正**：
+- System Prompt 升级为 v1.1：在边界与风险提示中增加「若客户透露竞品具体报价或方案细节，立即建议转交创始人处理，避免法律/商业纠纷」。
+
 
 ## Anti-patterns
 

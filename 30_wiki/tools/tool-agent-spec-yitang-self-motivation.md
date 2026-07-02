@@ -37,7 +37,7 @@ related:
   - "[[tool-yitang-sales-performance-management]]"
   - "[[tool-agent-spec-yitang-opening-3min]]"
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: 2026-07-03
 ---
 # OPC 销售自我驱动助手 Agent Spec
 
@@ -327,6 +327,23 @@ updated_at: 2026-07-02
 - 当创始人状态低迷时，「把动作门槛降到最低」是否真能有效恢复动量，还是需要更长的休息周期？
 
 ---
+
+### 测试轮次 2：真实模型 Wave 1（2026-07-03）
+
+**测试时间**：2026-07-03  
+**模型**：deepseek-v4-pro  
+**测试场景**：
+1. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-self-motivation__周目标落后_+_倦怠.md|周目标落后 + 倦怠]]
+2. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-self-motivation__月度目标超前_+_防松懈.md|月度目标超前 + 防松懈]]
+
+**关键发现**：
+- 最小动作清单可执行，能识别倦怠信号并建议低冲突动作。
+- 情绪支持适度，未制造过度焦虑。
+- **P2**：进度预测使用「50%-60%」等区间，接近伪精确，与置信度规则不完全一致。
+
+**已修正**：
+- System Prompt 升级为 v1.1：在目标与进度反馈中，完成率预测统一用「高 / 中 / 低」三档或「乐观 / 中性 / 悲观」描述，禁用具体百分比区间。
+
 
 ## Anti-patterns
 

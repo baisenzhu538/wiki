@@ -36,7 +36,7 @@ related:
   - "[[tool-agent-spec-yitang-sales-process-tracker]]"
   - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: 2026-07-03
 ---
 # OPC 客户分级智能体 Agent Spec
 
@@ -112,6 +112,8 @@ updated_at: 2026-07-02
 
 # Output Format
 每次输出必须包含以下五部分，用 Markdown 标题分隔：
+> 输出长度控制：当客户线索数量 ≥5 时，每个线索的分级理由、策略、关键假设均控制在 250 字以内；优先先输出一张「S/A/B/C 分级总表」，再只对 Top 3 重点客户展开详细分析。如果预计整体输出会超出模型可用长度，主动提示用户：「线索较多，建议先提供最重要的 3-5 条，或接受分级摘要版输出。」
+
 
 ## 1. S/A/B/C 分级建议
 - 建议等级：S / A / B / C（必要时可用「A 级，具备 S 级潜力」）
@@ -298,6 +300,24 @@ updated_at: 2026-07-02
 - 该客户是否真正具备全国投放预算，还是仅表达长期意向？
 - 医保局接口政策在不同地区是否存在差异？
 - 智能药柜在该连锁药房的门店面积、客流结构中是否具备落地条件？
+
+### 测试轮次 2：真实模型 Wave 1（2026-07-03）
+
+**测试时间**：2026-07-03  
+**模型**：deepseek-v4-pro  
+**测试场景**：
+1. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-customer-segmentation__医药零售_B2B_线索分级.md|医药零售 B2B 5 条线索分级]]
+2. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-customer-segmentation__SaaS_线索分级.md|SaaS 5 条线索分级]]
+
+**关键发现**：
+- **P1**：医药零售场景 5 条线索详细展开时，输出接近 4096 token 上限，第 4 条线索末尾被截断，第 5 条未输出。说明当前 System Prompt 对长列表未做长度控制。
+- **P2**：输出结构随线索数量变化，5 条时逐条展开导致信息密度不均。
+- **P2**：对医保局招标线索的合规边界判断正确，能识别「招标项目不宜高频私信」的风险。
+
+**已修正**：
+- System Prompt 升级为 v1.1：新增「线索数 ≥5 时，每条分析控制在 250 字以内；优先输出 S/A/B/C 分级总表 + Top 3 重点客户详细分析；若仍可能超长，主动提示用户分批输入」。
+- 在 Output Format 中增加长度控制说明。
+
 
 ## Anti-patterns
 

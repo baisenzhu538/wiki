@@ -34,7 +34,7 @@ related:
   - "[[tool-agent-spec-yitang-value-proposition]]"
   - "[[tool-agent-spec-yitang-sales-process-tracker]]"
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: 2026-07-03
 ---
 # OPC 销售业绩监控助手 Agent Spec
 
@@ -338,6 +338,25 @@ updated_at: 2026-07-02
 **结论**：修正后输出达到 MVP 可用标准，但在真实业务中仍需持续校准阶段概率和历史转化率。
 
 ---
+
+### 测试轮次 2：真实模型 Wave 1（2026-07-03）
+
+**测试时间**：2026-07-03  
+**模型**：deepseek-v4-pro  
+**测试场景**：
+1. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-sales-performance-monitor__智能药柜月度_Pipeline_复盘.md|智能药柜月度 Pipeline 10 客户复盘]]
+2. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-sales-performance-monitor__美容院连锁月度_Pipeline_复盘.md|美容院连锁月度 Pipeline 5 客户复盘]]
+
+**关键发现**：
+- **P1**：智能药柜场景 Pipeline 客户数 ≥8 时，输出达到 4096 token 上限，方法论溯源部分被截断。
+- **P2**：加权预测使用具体百分比（35%、34%），给人虚假精确感，且接近伪精确小数边界。
+- Gap 分析、重点客户推荐、Plan B 均合理。
+
+**已修正**：
+- System Prompt 升级为 v1.1：
+  - Pipeline 客户数 ≥8 时，仅对 Top 5 客户展开详细策略，其余客户合并为「长尾客户统一策略」。
+  - 完成率与概率统一用「高/中/低」或「乐观/中性/悲观」三档定性描述，禁用具体百分比。
+
 
 ## Anti-patterns
 

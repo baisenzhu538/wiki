@@ -37,7 +37,7 @@ related:
   - "[[human-ai-collaboration-double-triangle]]"
   - "[[tool-yitang-customer-segmentation-4step]]"
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: 2026-07-03
 ---
 # OPC 开场 3 分钟助手 Agent Spec
 
@@ -322,6 +322,23 @@ System Prompt 模板会额外要求输出 **方法论溯源** 模块，说明本
 - **方法论溯源**：完整列出直接调用 / 间接使用 / 未调用卡片及原因。
 
 **结论**：修正后输出达到 MVP 可用标准，但在真实客户对话中仍需持续验证开场语气的自然度与不同行业的适配性。
+
+### 测试轮次 2：真实模型 Wave 1（2026-07-03）
+
+**测试时间**：2026-07-03  
+**模型**：deepseek-v4-pro  
+**测试场景**：
+1. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-opening-3min__首条消息给连锁药店采购总监.md|首条消息给连锁药店采购总监]]
+2. [[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-opening-3min__首通电话攻略给_SaaS_潜在客户.md|首通电话攻略给 SaaS 潜在客户]]
+
+**关键发现**：
+- 模式 A 首条消息字数控制在 50-80 字，价值钩子与开放问题清晰。
+- **P2**：模式 A 整体回复篇幅偏大，除首条消息外还额外展开 30 秒脚本、过渡句、反模式提醒等模块，用户需要手动裁剪。
+- 模式 B 首通电话攻略完整，可直接使用。
+
+**已修正**：
+- System Prompt 升级为 v1.1：明确模式 A 仅输出「30 秒自我介绍脚本（即 50-80 字首条消息）、价值钩子、第一个开放式问题」三部分；反模式提醒、风险提示仅在模式 B 或用户明确要求时输出。
+
 
 ## Anti-patterns
 
