@@ -1,39 +1,39 @@
 ---
 id: task_20260702_laowantong-opc-sales-agent-specs-production
-title: "OPC 销售智能体军团首批规格卡：从 #44 方法论卡片编译 4 张 agent-spec"
+title: 'OPC 销售智能体军团首批规格卡：从 #44 方法论卡片编译 4 张 agent-spec'
 type: task
-status: in_progress
+status: pending_review
 priority: P1
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: '2026-07-02T13:59:42.535884+00:00'
 started_at: 2026-07-02
 expected_cards: 4
 dependencies:
-  - "[[task_20260702_laowantong-yitang-scientific-sales-methodology-production]]"
+- '[[task_20260702_laowantong-yitang-scientific-sales-methodology-production]]'
 source_refs:
-  - "[[KDO-Agent化审计报告-20260702]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[opc-ai-sales-agent-architecture]]"
+- '[[KDO-Agent化审计报告-20260702]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[opc-ai-sales-agent-architecture]]'
 related:
-  - tool-agent-spec-yitang-customer-segmentation
-  - tool-agent-spec-yitang-value-proposition
-  - tool-agent-spec-yitang-sales-process-tracker
-  - tool-agent-spec-yitang-sales-performance-monitor
-  - framework-yitang-scientific-sales-five-step
-  - tool-yitang-customer-segmentation-4step
-  - tool-yitang-value-proposition-4step
-  - tool-yitang-sales-process-decomposition
-  - tool-yitang-sales-performance-management
-  - tool-opc-sales-dialogue-assistant
-  - opc-ai-sales-agent-architecture
-  - human-ai-collaboration-double-triangle
+- tool-agent-spec-yitang-customer-segmentation
+- tool-agent-spec-yitang-value-proposition
+- tool-agent-spec-yitang-sales-process-tracker
+- tool-agent-spec-yitang-sales-performance-monitor
+- framework-yitang-scientific-sales-five-step
+- tool-yitang-customer-segmentation-4step
+- tool-yitang-value-proposition-4step
+- tool-yitang-sales-process-decomposition
+- tool-yitang-sales-performance-management
+- tool-opc-sales-dialogue-assistant
+- opc-ai-sales-agent-architecture
+- human-ai-collaboration-double-triangle
 ---
 
 # OPC 销售智能体军团首批规格卡：从 #44 方法论卡片编译 4 张 agent-spec
