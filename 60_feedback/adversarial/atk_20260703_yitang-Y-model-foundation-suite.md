@@ -3,7 +3,7 @@
 id: atk_20260703_yitang-Y-model-foundation-suite
 title: 自攻击报告：一堂 Y模型底层逻辑域 7 张卡生产
 type: adversarial
-status: enriched
+status: reviewed
 language: zh-CN
 reviewed_by: 欧阳锋
 related:
