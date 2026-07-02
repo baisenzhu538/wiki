@@ -3,12 +3,12 @@ id: task_20260702_laowantong-yitang-scientific-sales-methodology-production
 title: 一堂科学销售方法论：1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体
   / 销售域）
 type: task
-status: in_progress
+status: pending_review
 priority: P1
 assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-02
-updated_at: '2026-07-02T10:42:12.100979+00:00'
+updated_at: '2026-07-02T11:36:51.493201+00:00'
 expected_cards: 12
 source_refs:
 - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt

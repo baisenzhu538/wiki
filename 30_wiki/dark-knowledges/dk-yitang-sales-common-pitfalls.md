@@ -2,7 +2,7 @@
 id: dk-yitang-sales-common-pitfalls
 title: 一堂科学销售常见陷阱：六大反模式与修复动作
 type: dark-knowledge
-dark_knowledge_type: pattern
+dark_knowledge_type: failure
 status: draft
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售管理失败模式提炼
@@ -11,8 +11,6 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
 domain:
 - yitang
-- business-strategy
-- management
 tags:
 - "#sales"
 - "#failure-pattern"
