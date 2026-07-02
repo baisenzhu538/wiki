@@ -1,43 +1,43 @@
 ---
 id: task_20260702_laowantong-opc-sales-agent-testing-wave1
-title: "OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证"
+title: OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证
 type: task
-status: in_progress
+status: pending_review
 priority: P1
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 started_at: 2026-07-02
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: '2026-07-02T17:17:43.977171+00:00'
 expected_outputs:
-  - "7 张 agent-spec 卡在 Claude/GPT 真实环境的测试记录"
-  - "每个 agent-spec 至少 2 个真实场景的迭代日志更新"
-  - "失败/成功案例归档"
-  - "触发的 KDO 回流清单"
+- 7 张 agent-spec 卡在 Claude/GPT 真实环境的测试记录
+- 每个 agent-spec 至少 2 个真实场景的迭代日志更新
+- 失败/成功案例归档
+- 触发的 KDO 回流清单
 dependencies:
-  - "[[task_20260702_laowantong-opc-sales-agent-specs-production]]"
-  - "[[task_20260702_laowantong-opc-sales-agent-incremental-specs]]"
+- '[[task_20260702_laowantong-opc-sales-agent-specs-production]]'
+- '[[task_20260702_laowantong-opc-sales-agent-incremental-specs]]'
 source_refs:
-  - "[[tool-agent-spec-yitang-customer-segmentation]]"
-  - "[[tool-agent-spec-yitang-value-proposition]]"
-  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
-  - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
-  - "[[tool-agent-spec-yitang-opening-3min]]"
-  - "[[tool-agent-spec-yitang-objection-handler]]"
-  - "[[tool-agent-spec-yitang-self-motivation]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[opc-ai-sales-agent-architecture]]"
+- '[[tool-agent-spec-yitang-customer-segmentation]]'
+- '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[tool-agent-spec-yitang-sales-process-tracker]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+- '[[tool-agent-spec-yitang-opening-3min]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[opc-ai-sales-agent-architecture]]'
 related:
-  - tool-agent-spec-yitang-customer-segmentation
-  - tool-agent-spec-yitang-value-proposition
-  - tool-agent-spec-yitang-sales-process-tracker
-  - tool-agent-spec-yitang-sales-performance-monitor
-  - tool-agent-spec-yitang-opening-3min
-  - tool-agent-spec-yitang-objection-handler
-  - tool-agent-spec-yitang-self-motivation
-  - tool-opc-sales-dialogue-assistant
-  - opc-ai-sales-agent-architecture
-  - agent-native-card-design
+- tool-agent-spec-yitang-customer-segmentation
+- tool-agent-spec-yitang-value-proposition
+- tool-agent-spec-yitang-sales-process-tracker
+- tool-agent-spec-yitang-sales-performance-monitor
+- tool-agent-spec-yitang-opening-3min
+- tool-agent-spec-yitang-objection-handler
+- tool-agent-spec-yitang-self-motivation
+- tool-opc-sales-dialogue-assistant
+- opc-ai-sales-agent-architecture
+- agent-native-card-design
 ---
 
 # OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证
