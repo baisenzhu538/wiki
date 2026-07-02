@@ -80,6 +80,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260702_laowantong-yitang-scientific-sales-methodology-production | 一堂科学销售方法论：1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体） | reviewed | - | P1 | task_20260702_laowantong-yitang-scientific-sales-methodology-production.md | 王语嫣九层深挖诊断：本专题是「一堂方法论+假设驱动+工具化」在销售管理场景的完整实例化；经用户挑战深度后扩展为 10 张，再按黄药师建议+王语嫣判断扩展为 12 张；新增 `case-yitang-sales-transformation-tuliaogongsi`（涂料公司/10 万->20 S 级）和 `tool-opc-sales-dialogue-assistant`（读对话->想策略->给话术的 MVP 智能体规格卡，可直接当 system prompt）；12 张目标卡均已生产并通过欧阳锋终审；反向更新 >=28 张已有卡 related；OPC 架构由 `opc-ai-sales-agent-architecture.md` 承接并补充 MVP 启动路径 |
 | task_20260702_laowantong-opc-sales-agent-specs-production | OPC 销售智能体军团首批规格卡：从 #44 方法论卡片编译 4 张 agent-spec | reviewed | - | P1 | task_20260702_laowantong-opc-sales-agent-specs-production.md | 欧阳锋终审通过：4/4 agent-spec 卡 pre-submit PASS，lint 0 新增 ERROR，schema 扩展通过，方法论溯源/输入门/迭代日志齐全；可改进点：System Prompt 尚未在真实模型运行、仅覆盖医药零售 B2B 场景、opc-ai-sales-agent-architecture.md 正文映射可细化 |
 | task_20260702_laowantong-opc-sales-agent-incremental-specs | OPC 销售智能体军团增量：开场/异议/自我驱动 3 张 agent-spec | reviewed | - | P2 | task_20260702_laowantong-opc-sales-agent-incremental-specs.md | 欧阳锋终审通过：3/3 agent-spec 卡 pre-submit PASS，lint 0 新增 ERROR，输入门/输出/触发条件/边界/方法论溯源/迭代日志/示例修正均齐全；opc-ai-sales-agent-architecture.md 正文新增 7 张 agent-spec 调用关系图；可改进点：System Prompt 尚未在真实模型运行、场景仍以医药零售 B2B 为主、self-motivation 可补充个人节律输入门 |
+| task_20260702_laowantong-opc-sales-agent-testing-wave1 | OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证 | queued | 老顽童(Kimi) | P1 | task_20260702_laowantong-opc-sales-agent-testing-wave1.md | 欧阳锋 #47/#49 首要改进点；把 7 张 agent-spec 的 System Prompt 放到 Claude/GPT 真实环境跑一遍；覆盖医药零售 B2B / SaaS / 门店零售 / 传统分销四个场景；每张卡至少 2 个真实场景；产出迭代日志 + KDO 回流清单 + case 归档 |
 
 ---
 
@@ -105,6 +106,8 @@ Generated: 2026-06-26T21:00:00+00:00
 > **🆕 新增 #47**：KDO Agent 化审计结论：知识库不缺方法论卡，缺可直接运行的「智能体规格卡」层；本任务把 #44 销售专题中的 4 张核心 tool 卡编译成 agent-spec：客户分级助手 / 卖点生成助手 / 销售阶段追踪助手 / 业绩监控助手；它们既是独立可调用智能体，也是 `tool-opc-sales-dialogue-assistant` 的底层专业技能模块；依赖 #44 终审通过；Agent 做带宽、人做判断，只输出建议不自动执行。
 >
 > **🆕 新增 #49**：用户提出「边做边玩」补充智能体军团缺口，新增 3 张 agent-spec：开场 3 分钟助手 / 异议处理助手 / OPC 自我驱动助手；优先级 P2；依赖 #44 和 #47 部分进度；反向更新 OPC 架构与对话助手 related。
+>
+> **🆕 新增 #50**：OPC 销售智能体实测 Wave 1，针对欧阳锋 #47/#49 终审提出的「System Prompt 尚未在真实模型运行」这一首要改进点；由老顽童(Kimi) 在 Claude/GPT 真实环境中测试 7 张 agent-spec，覆盖四个行业场景；产出迭代日志、KDO 回流清单、case 归档；为后续 Wave 2 和底层逻辑域升级积累实测数据。
 
 ---
 

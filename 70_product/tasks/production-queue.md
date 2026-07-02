@@ -158,3 +158,4 @@ done
 ---
 
 *维护人：王语嫣 | 最后更新：2026-06-30（#35 reviewed）*
+| 50 | `task_20260702_laowantong-opc-sales-agent-testing-wave1` | OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证 | claimed-kimi | 老顽童(Kimi) | 7 张 agent-spec 实测 | 依赖 #47/#49 终审通过 | `60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-testing-wave1.md` | 欧阳锋 #47/#49 首要改进点；把 7 张 agent-spec 的 System Prompt 放到 Claude/GPT 真实环境跑一遍；覆盖医药零售 B2B / SaaS / 门店零售 / 传统分销四个场景；每张卡至少 2 个真实场景；产出迭代日志 + KDO 回流清单 + case 归档；Agent 做带宽、人做判断 |
