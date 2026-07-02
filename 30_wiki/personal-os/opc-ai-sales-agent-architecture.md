@@ -3,8 +3,10 @@ id: opc-ai-sales-agent-architecture
 title: "OPC AI 销售智能体架构"
 type: system
 status: active
+author: 王语嫣
+reviewed_by: 欧阳锋
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: '2026-07-02'
 domain:
   - personal-os
   - sales
@@ -21,6 +23,7 @@ related:
   - "[[tool-yitang-value-proposition-4step]]"
   - "[[tool-yitang-sales-process-decomposition]]"
   - "[[tool-yitang-sales-performance-management]]"
+  - "[[tool-agent-spec-yitang-value-proposition]]"
   - "[[framework-yitang-sales-incentive-6d]]"
   - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[dk-yitang-sales-common-pitfalls]]"

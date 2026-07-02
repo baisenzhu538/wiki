@@ -29,6 +29,7 @@ related:
   - "[[opc-ai-sales-agent-architecture]]"
   - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[tool-yitang-value-proposition-4step]]"
+  - "[[tool-agent-spec-yitang-value-proposition]]"
   - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[tool-yitang-sales-performance-management]]"
   - "[[case-yitang-sales-transformation-jubensha-saas]]"
