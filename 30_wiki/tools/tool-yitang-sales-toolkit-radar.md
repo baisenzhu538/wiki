@@ -212,6 +212,7 @@ updated_at: 2026-07-02
 
 ## Synthesis
 
+- 本工具与 [[framework-yitang-scientific-sales-five-step]]、[[tool-yitang-best-practice-as-golden-finger]] 共同构成「销售方法 → 实践经验 → 可复用工具」的完整链路。
 - 本工具是 `framework-yitang-scientific-sales-five-step` 中「打造工具」步骤的落地化，与「提炼卖点 → 拆解过程 → 推进业绩 → 激励团队」四步形成闭环：前四步产生可被沉淀的经验，本工具负责把这些经验变成组织资产。
 - 工具箱建设中的「提炼运用工具」与 `tool-yitang-best-practice-as-golden-finger` 同构：都是从优秀实践中提炼可复用模板，让新手快速站上 60 分。
 - 六维雷达图的「公司有实力」「话术讲人话」「服务很专业」与 `yt-panproduct-aesthetic-pool` 中的审美池和表达训练相通：销售工具本质上也是产品价值表达的一种形式。

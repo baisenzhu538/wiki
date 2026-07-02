@@ -3,7 +3,7 @@ id: dk-yitang-sales-common-pitfalls
 title: 一堂科学销售常见陷阱：六大反模式与修复动作
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售管理失败模式提炼
 source_refs:
@@ -45,6 +45,58 @@ updated_at: 2026-07-02
 ## 一句话
 
 **销售复制不是找人，而是建体系；最常见的陷阱，是把系统问题归咎于个人能力。**
+
+---
+
+## 原始表述
+
+> "销售管理的失败，往往不是某个销售不努力，而是组织用错误的方式放大了随机性。"
+>
+> —— 一堂科学销售方法论课程，李蕊口述
+
+---
+
+## 使用场景
+
+- 销售团队业绩高度依赖个别销冠，人员流动带来业绩地震。
+- 线索平均分配，S 级重点客户被淹没在低价值线索中。
+- 销售话术版本过多，客户接收不到统一价值主张。
+- 销售周会只报结果数字，客户卡在哪个阶段管理层不清楚。
+- 月度目标拍脑袋，完成率忽高忽低但说不出差距在哪。
+- 激励手段只有提成，销售只挖老客户不愿拓新。
+
+---
+
+## 操作方法
+
+1. **自检**：对照「六大反模式」逐项检查团队当前症状。
+2. **识别信号**：查看「预警信号清单」，判断已踩中哪些陷阱。
+3. **即时止血**：按「修复动作」表执行本周可做的即时动作。
+4. **建立体系**：在 30-90 天内建立对应工具/流程/激励机制，把隐性经验显性化。
+5. **持续复盘**：每月用反模式清单做一次销售管理体检。
+
+---
+
+## 适用边界
+
+- **适合**：已有产品价值验证、需要规模化复制的销售团队；处于探索期到成熟期的 B2B/面销/门店零售场景。
+- **谨慎**：产品价值尚未验证、线索极少、销售周期极短的冲动消费业务。
+- **不适合**：完全依赖个人关系的顶级顾问式销售（如家族办公室、艺术品经纪）。
+
+---
+
+## 为什么值钱
+
+这些反模式来自一堂与李蕊共创的销售管理课程，是对多家不同阶段企业销售失败案例的归纳。公开语料中较少系统整理「销售组织级失败模式 + 修复动作」的可操作清单，本卡把隐性经验转化为可自检、可执行的诊断器。
+
+---
+
+## 与其他知识的关联
+
+- 概念卡：[[framework-yitang-scientific-sales-five-step]]（科学销售五步法）
+- 工具卡：[[tool-yitang-customer-segmentation-4step]]、[[tool-yitang-value-proposition-4step]]、[[tool-yitang-sales-process-decomposition]]、[[tool-yitang-sales-performance-management]]、[[framework-yitang-sales-incentive-6d]]、[[tool-yitang-sales-toolkit-radar]]
+- 暗知识卡：[[dk-yitang-channel-exploration-traps]]
+- 决策卫生：[[master-decision-hygiene]]
 
 ---
 
