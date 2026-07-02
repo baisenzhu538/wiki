@@ -1,0 +1,100 @@
+{
+  "tool-agent-spec-yitang-customer-segmentation": [
+    {
+      "scenario": "医药零售 B2B 线索分级",
+      "domain": "医药零售 B2B",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-customer-segmentation__医药零售_B2B_线索分级.md",
+      "status": "ok"
+    },
+    {
+      "scenario": "SaaS 线索分级",
+      "domain": "SaaS / 企业服务",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-customer-segmentation__SaaS_线索分级.md",
+      "status": "ok"
+    }
+  ],
+  "tool-agent-spec-yitang-value-proposition": [
+    {
+      "scenario": "智能药柜卖给连锁药店",
+      "domain": "医药零售 B2B",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-value-proposition__智能药柜卖给连锁药店.md",
+      "status": "ok"
+    },
+    {
+      "scenario": "剧本杀 SaaS 卖给桌游吧",
+      "domain": "SaaS / 企业服务",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-value-proposition__剧本杀_SaaS_卖给桌游吧.md",
+      "status": "ok"
+    }
+  ],
+  "tool-agent-spec-yitang-sales-process-tracker": [
+    {
+      "scenario": "智能药柜多轮推进",
+      "domain": "医药零售 B2B",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-sales-process-tracker__智能药柜多轮推进.md",
+      "status": "ok"
+    },
+    {
+      "scenario": "剧本杀 SaaS 多轮推进",
+      "domain": "SaaS / 企业服务",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-sales-process-tracker__剧本杀_SaaS_多轮推进.md",
+      "status": "ok"
+    }
+  ],
+  "tool-agent-spec-yitang-sales-performance-monitor": [
+    {
+      "scenario": "智能药柜月度 Pipeline 复盘",
+      "domain": "医药零售 B2B",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-sales-performance-monitor__智能药柜月度_Pipeline_复盘.md",
+      "status": "ok"
+    },
+    {
+      "scenario": "美容院连锁月度 Pipeline 复盘",
+      "domain": "门店零售 / 美业",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-sales-performance-monitor__美容院连锁月度_Pipeline_复盘.md",
+      "status": "ok"
+    }
+  ],
+  "tool-agent-spec-yitang-opening-3min": [
+    {
+      "scenario": "首条消息给连锁药店采购总监",
+      "domain": "医药零售 B2B",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-opening-3min__首条消息给连锁药店采购总监.md",
+      "status": "ok"
+    },
+    {
+      "scenario": "首通电话攻略给 SaaS 潜在客户",
+      "domain": "SaaS / 企业服务",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-opening-3min__首通电话攻略给_SaaS_潜在客户.md",
+      "status": "ok"
+    }
+  ],
+  "tool-agent-spec-yitang-objection-handler": [
+    {
+      "scenario": "智能药柜价格异议",
+      "domain": "医药零售 B2B",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-objection-handler__智能药柜价格异议.md",
+      "status": "ok"
+    },
+    {
+      "scenario": "剧本杀 SaaS 时机异议",
+      "domain": "SaaS / 企业服务",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-objection-handler__剧本杀_SaaS_时机异议.md",
+      "status": "ok"
+    }
+  ],
+  "tool-agent-spec-yitang-self-motivation": [
+    {
+      "scenario": "周目标落后 + 倦怠",
+      "domain": "OPC 创始人",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-self-motivation__周目标落后_+_倦怠.md",
+      "status": "ok"
+    },
+    {
+      "scenario": "月度目标超前 + 防松懈",
+      "domain": "OPC 创始人",
+      "trace": "60_feedback\\agent-traces\\2026-07-02\\tool-agent-spec-yitang-self-motivation__月度目标超前_+_防松懈.md",
+      "status": "ok"
+    }
+  ]
+}
