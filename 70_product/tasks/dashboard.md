@@ -81,7 +81,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260702_laowantong-opc-sales-agent-specs-production | OPC 销售智能体军团首批规格卡：从 #44 方法论卡片编译 4 张 agent-spec | reviewed | - | P1 | task_20260702_laowantong-opc-sales-agent-specs-production.md | 欧阳锋终审通过：4/4 agent-spec 卡 pre-submit PASS，lint 0 新增 ERROR，schema 扩展通过，方法论溯源/输入门/迭代日志齐全；可改进点：System Prompt 尚未在真实模型运行、仅覆盖医药零售 B2B 场景、opc-ai-sales-agent-architecture.md 正文映射可细化 |
 | task_20260702_laowantong-opc-sales-agent-incremental-specs | OPC 销售智能体军团增量：开场/异议/自我驱动 3 张 agent-spec | reviewed | - | P2 | task_20260702_laowantong-opc-sales-agent-incremental-specs.md | 欧阳锋终审通过：3/3 agent-spec 卡 pre-submit PASS，lint 0 新增 ERROR，输入门/输出/触发条件/边界/方法论溯源/迭代日志/示例修正均齐全；opc-ai-sales-agent-architecture.md 正文新增 7 张 agent-spec 调用关系图；可改进点：System Prompt 尚未在真实模型运行、场景仍以医药零售 B2B 为主、self-motivation 可补充个人节律输入门 |
 | task_20260702_laowantong-opc-sales-agent-testing-wave1 | OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证 | reviewed | 老顽童(Kimi) | P1 | task_20260702_laowantong-opc-sales-agent-testing-wave1.md | 欧阳锋终审通过：deepseek-v4-pro 14 个首轮场景 + 2 个 v1.1 复测；P0 阻塞 0、P1 截断已修复并复测、P2 优化项已升级 System Prompt；Trace 归档 17 个文件；KDO 回流清单 9 项完成；新建 case-opc-agent-wave1-real-model-testing.md；自攻击报告 0 致命；同意封账；可改进点进入 Wave 2 / 停车场 |
-| task_20260703_laowantong-yitang-Y-model-foundation-production | 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 framework + 2 新建 framework + 1 tool + 1 dk + 2 case） | queued | 老顽童(Kimi) | P1 | task_20260703_laowantong-yitang-Y-model-foundation-production.md | 王语嫣裁定：Y模型就地重写升级 `yt-decision-y-model`，不新建卡、不改 ID；实事求是/解放思想仍新建 framework；旧卡加迁移提示，可用 status: deprecated 但不引入新 schema 字段；反向更新 ≥17 张已有卡 related |
+| task_20260703_laowantong-yitang-Y-model-foundation-production | 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 + 2 新建 framework + 1 tool + 1 dk + 2 case） | queued | 老顽童(Kimi) | P1 | task_20260703_laowantong-yitang-Y-model-foundation-production.md | 王语嫣裁定：Y模型就地重写升级 `yt-decision-y-model`；实事求是/解放思想仍新建 framework；当前可先产 5 张卡，剩余 2 张等用户输入素材；旧卡加迁移提示，可用 status: deprecated 但不引入新 schema 字段 |
 | task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure | Y模型根节点化：GraphRAG rebuild + 索引维护 + pipeline 监控 | queued | 黄药师 | P1 | task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md | 王语嫣裁定：本周不做 schema 改造、不新增 lint 规则、不创建文档；只做 #51 完成后的 kdo index --rebuild，验证 yt-decision-y-model 成为查询中心，并用 kdo pipeline 监控 Agent 反馈信号 |
 
 ---
@@ -111,7 +111,7 @@ Generated: 2026-06-26T21:00:00+00:00
 >
 > **🆕 新增 #50**：OPC 销售智能体实测 Wave 1，针对欧阳锋 #47/#49 终审提出的「System Prompt 尚未在真实模型运行」这一首要改进点；由老顽童(Kimi) 在 Claude/GPT 真实环境中测试 7 张 agent-spec，覆盖四个行业场景；产出迭代日志、KDO 回流清单、case 归档；为后续 Wave 2 和底层逻辑域升级积累实测数据。
 >
-> **🆕 新增 #51**：一堂底层逻辑域建设：Y模型 + 实事求是 + 解放思想；王语嫣裁定 Y模型就地重写升级现有 `yt-decision-y-model`（不新建卡、不改 ID），作为 KDO 根节点；实事求是/解放思想仍新建 framework；产出 1 重写 + 2 新建 framework + 1 tool + 1 dk + 2 case 共 7 张卡；旧卡加迁移提示，可用 `status: deprecated` 但不引入新 schema 字段；为后续 Y模型教练 Agent 奠定方法论底座。
+> **🆕 新增 #51**：一堂底层逻辑域建设：Y模型 + 实事求是 + 解放思想；王语嫣裁定 Y模型就地重写升级现有 `yt-decision-y-model`（不新建卡、不改 ID），作为 KDO 根节点；实事求是/解放思想仍新建 framework；当前可先产 5 张卡（Y-model 重写 + tool + dk + 2 case），剩余 2 张等用户输入素材；旧卡加迁移提示，可用 `status: deprecated` 但不引入新 schema 字段；为后续 Y模型教练 Agent 奠定方法论底座。
 >
 > **🆕 新增 #52**：Y模型根节点化基础设施，由黄药师负责；王语嫣裁定本周不做 schema 改造、不新增 lint 规则、不创建文档；只做 #51 完成后的 `kdo index --rebuild`，验证 `yt-decision-y-model` 成为查询中心，并用 `kdo pipeline` 监控 Agent 反馈信号；schema/deprecation 字段设计进入 backlog。
 

@@ -7,7 +7,7 @@ priority: P1
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 created_at: 2026-07-03
-updated_at: 2026-07-03（王语嫣裁定：Card 1 改为重写 yt-decision-y-model）
+updated_at: 2026-07-03（王语嫣裁定：Card 1 改为重写 yt-decision-y-model；Card 2-3 阻塞于用户素材）
 expected_cards: 7
 dependencies: []
 source_refs:
