@@ -1,36 +1,36 @@
 ---
 id: task_20260702_laowantong-opc-sales-agent-incremental-specs
-title: "OPC 销售智能体军团增量：开场/异议/自我驱动 3 张 agent-spec"
+title: OPC 销售智能体军团增量：开场/异议/自我驱动 3 张 agent-spec
 type: task
-status: in_progress
+status: pending_review
 priority: P2
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: '2026-07-02T14:51:28.671176+00:00'
 started_at: 2026-07-02
 expected_cards: 3
 dependencies:
-  - "[[task_20260702_laowantong-yitang-scientific-sales-methodology-production]]"
-  - "[[task_20260702_laowantong-opc-sales-agent-specs-production]]"
+- '[[task_20260702_laowantong-yitang-scientific-sales-methodology-production]]'
+- '[[task_20260702_laowantong-opc-sales-agent-specs-production]]'
 source_refs:
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[opc-ai-sales-agent-architecture]]"
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[opc-ai-sales-agent-architecture]]'
 related:
-  - tool-agent-spec-yitang-opening-3min
-  - tool-agent-spec-yitang-objection-handler
-  - tool-agent-spec-yitang-self-motivation
-  - tool-agent-spec-yitang-customer-segmentation
-  - tool-agent-spec-yitang-value-proposition
-  - tool-agent-spec-yitang-sales-process-tracker
-  - tool-agent-spec-yitang-sales-performance-monitor
-  - tool-opc-sales-dialogue-assistant
-  - opc-ai-sales-agent-architecture
+- tool-agent-spec-yitang-opening-3min
+- tool-agent-spec-yitang-objection-handler
+- tool-agent-spec-yitang-self-motivation
+- tool-agent-spec-yitang-customer-segmentation
+- tool-agent-spec-yitang-value-proposition
+- tool-agent-spec-yitang-sales-process-tracker
+- tool-agent-spec-yitang-sales-performance-monitor
+- tool-opc-sales-dialogue-assistant
+- opc-ai-sales-agent-architecture
 ---
 
 # OPC 销售智能体军团增量：开场/异议/自我驱动 3 张 agent-spec
