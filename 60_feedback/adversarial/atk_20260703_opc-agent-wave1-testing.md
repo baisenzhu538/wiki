@@ -3,7 +3,7 @@
 id: atk_20260703_opc-agent-wave1-testing
 title: 自攻击报告：OPC 销售智能体 Wave 1 真实模型测试
 type: report
-status: draft
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-07-03

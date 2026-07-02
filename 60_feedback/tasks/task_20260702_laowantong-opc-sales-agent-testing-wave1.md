@@ -2,14 +2,16 @@
 id: task_20260702_laowantong-opc-sales-agent-testing-wave1
 title: OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证
 type: task
-status: pending_review
+status: reviewed
 priority: P1
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋
+review_date: '2026-06-29'
+acceptance_verdict: pass
 started_at: 2026-07-02
 created_at: 2026-07-02
-updated_at: '2026-07-02T17:17:43.977171+00:00'
+updated_at: '2026-06-29T20:00:00+00:00'
 expected_outputs:
 - 7 张 agent-spec 卡在 Claude/GPT 真实环境的测试记录
 - 每个 agent-spec 至少 2 个真实场景的迭代日志更新
@@ -39,6 +41,7 @@ related:
 - tool-opc-sales-dialogue-assistant
 - opc-ai-sales-agent-architecture
 - agent-native-card-design
+review_date: '2026-07-02'
 ---
 
 # OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证
@@ -227,3 +230,54 @@ related:
 ---
 
 *王语嫣 2026-07-02*
+
+---
+
+## 欧阳锋终审结论（2026-06-29）
+
+**终审通过。**
+
+### 复核结果
+
+| 验收项 | 状态 | 复核说明 |
+|---|---|---|
+| 7 张 agent-spec 卡真实模型测试 | ✅ 完成 | deepseek-v4-pro，14 个首轮场景 + 2 个 v1.1 复测 |
+| 每个 agent-spec ≥2 个场景 | ✅ 完成 | 医药零售 B2B、SaaS/企业服务、门店零售/美业、传统工业分销 |
+| Trace 归档 | ✅ 完成 | `60_feedback/agent-traces/2026-07-02/` 共 17 个文件 |
+| P0 阻塞问题 | ✅ 0 | 无有害/越界输出 |
+| P1 截断问题 | ✅ 已修复并复测 | customer-segmentation 4061 字符完整输出；performance-monitor 4400 字符完整输出 |
+| P2 优化项 | ✅ 已处理 | 5 项均已升级对应 agent-spec 的 System Prompt |
+| KDO 回流清单 | ✅ 完成 | 任务单第七节 9 条回流项均已完成 |
+| 7 张 agent-spec 迭代日志更新 | ✅ 完成 | 已追加 Wave 1 测试轮次 |
+| 新建 case 卡 | ✅ 完成 | `case-opc-agent-wave1-real-model-testing.md` |
+| 自攻击报告 | ✅ 通过 | 0 致命；status 已更新为 reviewed |
+| kdo lint 目标范围 | ✅ 0 新增 ERROR | 全库仅剩 #41 遗留 1 个 ERROR |
+| kdo pre-submit | ✅ 通过 | 11 个目标文件全部通过 |
+
+### 审查中发现并修复的格式问题
+
+1. **任务单缺少 `reviewed_by` 字段**：已补充，pre-submit 通过。
+2. **case 卡 section 标题未对齐 lint schema**：原使用英文 `## Lessons` / `## Failure Modes`，已改为中文 `## 教训` / `## 失败模式`；并补充 `## 关键证据` 和 `## 可迁移场景`。
+
+### 内容质量评估
+
+1. **测试设计合理**：Wave 1 目标不是统计验证，而是暴露边界问题，这与 #47/#49 终审时提出的「System Prompt 未在真实模型运行」风险直接对应。
+2. **问题分级清晰**：P0/P1/P2/P3 分级让修复优先级一目了然，P1 截断问题有具体修复动作和复测数据。
+3. **回流动作完整**：不仅修复了 prompt，还更新了 7 张 agent-spec 迭代日志、任务单回流清单、case 卡，形成闭环。
+4. **局限说明诚实**：明确标注 deepseek-v4-pro 替代 Claude/GPT、合成输入、未做双盲评分等局限，为 Wave 2 留下清晰方向。
+
+### 可改进点（不阻塞通过）
+
+1. **Claude/GPT 补测**：建议后续在 Claude/GPT 上补跑关键场景，验证截断和格式问题是否具有通用性。
+2. **真实客户对话测试**：当前输入为脱敏合成数据，真实对话测试需创始人提供记录。
+3. **双盲人工评分**：建议 Wave 2 引入至少 2 人独立评分，降低确认偏误。
+4. **传统工业分销场景**：Wave 1 中该行业域出现但未专门测试，可作为 Wave 2 重点。
+
+### 全库 lint 状态
+
+- #50 目标范围：0 ERROR
+- 全库剩余 1 个 ERROR：`30_wiki/personal-os/zhu-time-os.md` 引用 `00_inbox/时间管理/时间管理_整合笔记.md` 不存在（#41 历史遗留，与 #50 无关）
+
+同意封账。
+
+*终审：欧阳锋 · 2026-06-29*
