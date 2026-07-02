@@ -80,7 +80,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260702_laowantong-yitang-scientific-sales-methodology-production | 一堂科学销售方法论：1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体） | reviewed | - | P1 | task_20260702_laowantong-yitang-scientific-sales-methodology-production.md | 王语嫣九层深挖诊断：本专题是「一堂方法论+假设驱动+工具化」在销售管理场景的完整实例化；经用户挑战深度后扩展为 10 张，再按黄药师建议+王语嫣判断扩展为 12 张；新增 `case-yitang-sales-transformation-tuliaogongsi`（涂料公司/10 万->20 S 级）和 `tool-opc-sales-dialogue-assistant`（读对话->想策略->给话术的 MVP 智能体规格卡，可直接当 system prompt）；12 张目标卡均已生产并通过欧阳锋终审；反向更新 >=28 张已有卡 related；OPC 架构由 `opc-ai-sales-agent-architecture.md` 承接并补充 MVP 启动路径 |
 | task_20260702_laowantong-opc-sales-agent-specs-production | OPC 销售智能体军团首批规格卡：从 #44 方法论卡片编译 4 张 agent-spec | reviewed | - | P1 | task_20260702_laowantong-opc-sales-agent-specs-production.md | 欧阳锋终审通过：4/4 agent-spec 卡 pre-submit PASS，lint 0 新增 ERROR，schema 扩展通过，方法论溯源/输入门/迭代日志齐全；可改进点：System Prompt 尚未在真实模型运行、仅覆盖医药零售 B2B 场景、opc-ai-sales-agent-architecture.md 正文映射可细化 |
 | task_20260702_laowantong-opc-sales-agent-incremental-specs | OPC 销售智能体军团增量：开场/异议/自我驱动 3 张 agent-spec | reviewed | - | P2 | task_20260702_laowantong-opc-sales-agent-incremental-specs.md | 欧阳锋终审通过：3/3 agent-spec 卡 pre-submit PASS，lint 0 新增 ERROR，输入门/输出/触发条件/边界/方法论溯源/迭代日志/示例修正均齐全；opc-ai-sales-agent-architecture.md 正文新增 7 张 agent-spec 调用关系图；可改进点：System Prompt 尚未在真实模型运行、场景仍以医药零售 B2B 为主、self-motivation 可补充个人节律输入门 |
-| task_20260702_laowantong-opc-sales-agent-testing-wave1 | OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证 | queued | 老顽童(Kimi) | P1 | task_20260702_laowantong-opc-sales-agent-testing-wave1.md | 欧阳锋 #47/#49 首要改进点；把 7 张 agent-spec 的 System Prompt 放到 Claude/GPT 真实环境跑一遍；覆盖医药零售 B2B / SaaS / 门店零售 / 传统分销四个场景；每张卡至少 2 个真实场景；产出迭代日志 + KDO 回流清单 + case 归档 |
+| task_20260702_laowantong-opc-sales-agent-testing-wave1 | OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证 | reviewed | 老顽童(Kimi) | P1 | task_20260702_laowantong-opc-sales-agent-testing-wave1.md | 欧阳锋终审通过：deepseek-v4-pro 14 个首轮场景 + 2 个 v1.1 复测；P0 阻塞 0、P1 截断已修复并复测、P2 优化项已升级 System Prompt；Trace 归档 17 个文件；KDO 回流清单 9 项完成；新建 case-opc-agent-wave1-real-model-testing.md；自攻击报告 0 致命；同意封账；可改进点进入 Wave 2 / 停车场 |
 | task_20260703_laowantong-yitang-Y-model-foundation-production | 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 framework + 2 新建 framework + 1 tool + 1 dk + 2 case） | queued | 老顽童(Kimi) | P1 | task_20260703_laowantong-yitang-Y-model-foundation-production.md | 王语嫣裁定：Y模型就地重写升级 `yt-decision-y-model`，不新建卡、不改 ID；实事求是/解放思想仍新建 framework；旧卡加迁移提示，可用 status: deprecated 但不引入新 schema 字段；反向更新 ≥17 张已有卡 related |
 | task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure | Y模型根节点化：GraphRAG rebuild + 索引维护 + pipeline 监控 | queued | 黄药师 | P1 | task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md | 王语嫣裁定：本周不做 schema 改造、不新增 lint 规则、不创建文档；只做 #51 完成后的 kdo index --rebuild，验证 yt-decision-y-model 成为查询中心，并用 kdo pipeline 监控 Agent 反馈信号 |
 
@@ -91,10 +91,10 @@ Generated: 2026-06-26T21:00:00+00:00
 - **Total**: 43
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 11（详见 `production-queue.md` #38-#52 等）
+- **Queued**: 10（详见 `production-queue.md` #38-#52 等）
 - **Long-term / Paused**: 1（#28 lint 内容债，待拆批，不直接领取）
 - **Pending**: 2（含 Hermes lint Batch 1 待欧阳锋抽检）
-- **Review Done**: 13 (panproduct-35, p0b-decision-science, p0a-unit-model, self-attack-framework, deliberate-practice-cards, wave1, wave2, channel-growth-cards, lanyi-panproduct-organization, wave3, dark-knowledges-batch8, huangyaoshi-codex-lessons-review, master-7-cards)
+- **Review Done**: 14 (#50 reviewed)
 
 > 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；✅ Batch 2-A/B/C 全部 reviewed：A 130 case + B 57 dk + C 90 source_refs 文件已完成，`kdo lint` 机械性 ERROR 清零；下一阶段正式进入补链阶段（Wave 6 诊断 + B1/B2/B3）。
 > **🆕 新增 #38**：《吾辈如神》素材经独立验证为 B 级，王语嫣做出价值判断：直接产出 3 张卡（认知卸载 / AI 使用杠铃策略 / 富足悖论），不试点、不批量；重点纠偏 BMW 85%、AGI 2029、AI 无法创造等数据/观点误读。
