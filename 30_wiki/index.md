@@ -227,6 +227,9 @@ _Last updated: 2026-07-01T15:20:36+00:00_
 - [[cases/case-yitang-radar-chart-selection|案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[cases/case-yitang-redburger-selection-industrialization|案例：熊猫现烤汉堡如何用工业化流程破解选品难题]] — source `00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt`
 - [[cases/case-yitang-sales-routine-deconstruction|案例：社恐销售蓝军如何通过拆解销冠套路半年成亚军]] — source `00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt`
+- [[cases/case-yitang-sales-transformation-jubensha-saas|案例：剧本杀 SaaS 销售体系从零搭建——兼职团队打磨科学销售五步法]] — source `00_inbox/销售专题/_processed/销售专题_整合笔记.md`
+- [[cases/case-yitang-sales-transformation-meirongyuan|案例：美容院连锁销售体系改造——从总部门店冲突到新客转化率提升]] — source `00_inbox/销售专题/_processed/销售专题_整合笔记.md`
+- [[cases/case-yitang-sales-transformation-tuliaogongsi|案例：涂料公司“意图”——从 10 万线索中筛出 220 个高价值客户的分层转型]] — source `00_inbox/销售专题/_processed/销售专题_整合笔记.md`
 - [[cases/case-yitang-sanjieke-benchmark-failure|案例：对标三节课做C端，半年后发现对方已转型B端]] — source `00_inbox/调研专题/一堂-专家访谈调研-口述.txt`
 - [[cases/case-yitang-senior-university-product-design|案例：老年大学——用假设链逐层验证赛道可行性]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
 - [[cases/case-yitang-shuzu-channel-scan-test|案例：数族如何扫描 100+ 渠道并跑通支付合作]] — source `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`
