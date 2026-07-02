@@ -2,12 +2,13 @@
 id: task_20260702_laowantong-opc-sales-agent-specs-production
 title: "OPC 销售智能体军团首批规格卡：从 #44 方法论卡片编译 4 张 agent-spec"
 type: task
-status: queued
+status: in_progress
 priority: P1
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 created_at: 2026-07-02
 updated_at: 2026-07-02
+started_at: 2026-07-02
 expected_cards: 4
 dependencies:
   - "[[task_20260702_laowantong-yitang-scientific-sales-methodology-production]]"
