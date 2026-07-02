@@ -6,6 +6,7 @@ status: pending_review
 priority: P1
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 started_at: 2026-07-02
 created_at: 2026-07-02
 updated_at: '2026-07-02T17:17:43.977171+00:00'
