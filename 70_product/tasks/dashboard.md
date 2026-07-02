@@ -78,6 +78,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260702_laowantong-vikki-daxin-dark-knowledge-pilot-production | 暗知识补挖试点生产：Vikki + 大馨战队 | queued | 老顽童(Kimi) | P1 | task_20260702_laowantong-vikki-daxin-dark-knowledge-pilot-production.md | 黄药师试点建议书：王语嫣用第6步「一句话金矿扫描」产出 22 条暗知识清单，建议 4 张新 dk + 7-9 张已有卡补充；欧阳锋抽检 ≥3 张验证有效性；有效则推广为 SOP |
 | task_20260702_laowantong-live81-ai-trademark-design-production | Live81 AI 赋能商标设计：1 case + 2 tool + 1 dk | queued | 老顽童(Kimi) | P1 | task_20260702_laowantong-live81-ai-trademark-design-production.md | 王语嫣九层深挖诊断：Live81 是「一堂方法论+AI协作+调研+决策卫生」在 AI 交付物打磨场景的实例化；核心产出 1 case + 2 tool + 1 dk（case-live81 / tool-ai-deliverable-polish-loop / tool-scene-design-language-translation / dk-ai-design-pitfalls）；60 分起盘、模型选择、一页纸上下文、黑盒/白盒/池子审美判断等概念已有 KDO 卡覆盖，本次通过 related 关联而非新建；反向更新 20 张已有卡 related |
 | task_20260702_laowantong-yitang-scientific-sales-methodology-production | 一堂科学销售方法论：1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体） | queued | 老顽童(Kimi) | P1 | task_20260702_laowantong-yitang-scientific-sales-methodology-production.md | 王语嫣九层深挖诊断：本专题是「一堂方法论+假设驱动+工具化」在销售管理场景的完整实例化；经用户挑战深度后扩展为 10 张，再按黄药师建议+王语嫣判断扩展为 12 张；新增 `case-yitang-sales-transformation-tuliaogongsi`（涂料公司/10 万->20 S 级）和 `tool-opc-sales-dialogue-assistant`（读对话->想策略->给话术的 MVP 智能体规格卡，可直接当 system prompt）；反向更新 >=28 张已有卡 related；OPC 架构由 `opc-ai-sales-agent-architecture.md` 承接并补充 MVP 启动路径 |
+| task_20260702_laowantong-opc-sales-agent-specs-production | OPC 销售智能体军团首批规格卡：从 #44 方法论卡片编译 4 张 agent-spec | queued | 老顽童(Kimi) | P1 | task_20260702_laowantong-opc-sales-agent-specs-production.md | KDO Agent 化审计结论：把 #44 中 4 张核心 tool 卡编译成可直接当 system prompt 使用的 agent-spec：客户分级助手 / 卖点生成助手 / 销售阶段追踪助手 / 业绩监控助手；Agent 做带宽、人做判断；依赖 #44 终审通过；反向更新 OPC 架构与对话助手 related |
 
 ---
 
@@ -99,6 +100,8 @@ Generated: 2026-06-26T21:00:00+00:00
 > **🆕 新增 #42**：黄药师暗知识补挖试点建议书已确认；王语嫣用 context 第 6 步「一句话金矿扫描」通读 Vikki 561 条 + 大馨 615 条群聊精华，提取 22 条暗知识清单，建议 4 张新 dk 卡（肌肉记忆、创始人 IP 信任>流量、隐性价值传递、讲师 vs 群众社群）+ 7-9 张已有卡补充；欧阳锋抽检 ≥3 张验证有效性，有效则写 SOP 推广到全库。
 > **🆕 新增 #43**：Live81（陈舒妍 AI 赋能商标设计）已完成九层深挖诊断；王语嫣判断其价值不在「AI 设计教程」，而在「一堂方法论 + AI 协作 + 调研方法 + 决策卫生在 AI 交付物打磨场景的跨域实例化」；核心产出 1 case + 2 tool + 1 dk（`case-live81-ai-trademark-design` / `tool-ai-deliverable-polish-loop` / `tool-scene-design-language-translation` / `dk-ai-design-pitfalls`），60 分起盘、模型选择、一页纸上下文、黑盒/白盒/池子审美判断等概念已有 KDO 卡覆盖，本次通过 related 关联而非新建；反向更新 20 张已有卡 related；强调深度与跨域融合，不与泛产品设计/双三角已有框架重叠。
 > **🆕 新增 #44**：一堂科学销售方法论已完成九层深挖诊断；王语嫣评级 A；经用户挑战深度后从 6 张扩展为 10 张，再按黄药师建议+王语嫣独立判断扩展为 12 张：1 framework（五步法总览） + 5 tool（用户分层 / 卖点提炼 / 过程拆解 / 业绩管理 / 工具箱） + 1 framework（六维激励） + 3 case（剧本杀 SaaS / 美容院 / 涂料公司） + 1 dk（销售反模式） + 1 tool（`tool-opc-sales-dialogue-assistant` MVP 对话助手）；MVP 对话助手解决 OPC 同时聊多客户跟丢/跟乱/跟错节奏的痛点，不改变销售动作，只输出「小抄」；反向更新 >=28 张已有卡 related；`opc-ai-sales-agent-architecture.md` 需回链并补充 MVP 启动路径。
+>
+> **🆕 新增 #47**：KDO Agent 化审计结论：知识库不缺方法论卡，缺可直接运行的「智能体规格卡」层；本任务把 #44 销售专题中的 4 张核心 tool 卡编译成 agent-spec：客户分级助手 / 卖点生成助手 / 销售阶段追踪助手 / 业绩监控助手；它们既是独立可调用智能体，也是 `tool-opc-sales-dialogue-assistant` 的底层专业技能模块；依赖 #44 终审通过；Agent 做带宽、人做判断，只输出建议不自动执行。
 
 ---
 
