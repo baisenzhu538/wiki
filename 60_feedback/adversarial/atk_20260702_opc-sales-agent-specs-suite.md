@@ -3,7 +3,7 @@
 id: atk_20260702_opc-sales-agent-specs-suite
 title: 自攻击报告：OPC 销售智能体军团首批 4 张 agent-spec 卡
 type: report
-status: draft
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-07-02

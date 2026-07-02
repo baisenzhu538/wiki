@@ -18,7 +18,7 @@ reviewed_by: pending
 created_at: 2026-06-15
 confidence: 0.7
 trust_level: medium
-updated_at: '2026-06-16'
+updated_at: '2026-07-02'
 related:
   - [[yt-composite-pan-product-methodology]]
   - [[graph-rag-retrieval-layer]]
@@ -343,3 +343,63 @@ yt-composite-pan-product-methodology.md       ← composite-concept（10-15 clai
 **Hub Page**：放弃。Composite-concept 的 Framework Gallery 节 + 图边已覆盖导航。
 
 开始执行。我会在你产出第一张 composite-concept 和第一张升级后的 framework 卡后做审查。
+
+---
+
+## Agent 迭代成果回流 KDO（2026-07-02 补充）
+
+> 由王语嫣基于 OPC 销售智能体实测经验提出，作为 agent-native 卡片设计规范的补充。
+
+### 为什么需要回流
+
+Agent 在实际对话中迭代出来的改进，不只是 system prompt 的措辞调整，往往反映了：
+- 方法论卡本身的表达 gap
+- 人类使用 Agent 时的典型失败模式
+- 跨场景的通用交互经验
+
+这些成果如果只留在 agent-spec 卡的迭代日志里，无法被其他 Agent 或人类复用。必须按类型回流到 KDO。
+
+### 回流规则
+
+| 迭代发现类型 | 回流目标 | 负责人 |
+|:---|:---|:---|
+| system prompt 表达不清、示例不足 | 更新对应 `agent-spec` 卡 | 老顽童 |
+| 暴露出 source tool/framework 的 gap | 更新源方法论卡 | 老顽童修改，王语嫣诊断确认 |
+| 反复出现的用户错误 / Agent 误用 | 新建/更新 `dk` 卡 | 王语嫣判断后入队 |
+| 典型成功/失败场景 | 新建/更新 `case` 卡 | 王语嫣判断后入队 |
+| 跨 Agent 通用的设计模式 | 新建/更新 `concept/framework` 卡 | 王语嫣 + 黄药师架构评审 |
+
+### 回流触发条件
+
+满足以下任一条件时，必须启动回流：
+
+1. 同一个问题在 ≥2 次真实对话测试中被发现。
+2. 某张 agent-spec 卡的 system prompt 经过 ≥2 轮迭代。
+3. 用户明确反馈「Agent 的建议和 KDO 卡不一致」。
+4. Agent 输出中反复出现某种 anti-pattern。
+
+### 回流格式
+
+每张 agent-spec 卡的 `## 迭代日志` 末尾必须增加一行：
+
+```markdown
+- **KDO 回流**：本次迭代发现 [问题]，已更新 [卡片 ID]，原因 [一句话]。
+```
+
+### 基础设施要求
+
+- `kdo` CLI 未来应支持 `--agent-trace` 标志，导出一次 Agent 调用的完整输入/输出/引用卡片。
+- `kdo lint` 应检查 agent-spec 卡是否包含 `## 迭代日志` 和 `KDO 回流` 字段。
+- GraphRAG 索引时，应将 agent-spec 卡的 `迭代日志` 作为卡片更新历史的边权重参考。
+
+### 谁来做
+
+| 环节 | 角色 |
+|:---|:---|
+| 记录迭代日志 | 老顽童 |
+| 判断是否需要回流 KDO | 王语嫣 |
+| 源方法论卡修改 | 老顽童 |
+| 架构层/工具链支持 | 黄药师 |
+| 终审回流质量 | 欧阳锋 |
+
+

@@ -2,12 +2,14 @@
 id: task_20260702_laowantong-opc-sales-agent-specs-production
 title: 'OPC 销售智能体军团首批规格卡：从 #44 方法论卡片编译 4 张 agent-spec'
 type: task
-status: pending_review
+status: reviewed
 priority: P1
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
+review_date: '2026-06-29'
+acceptance_verdict: pass
 created_at: 2026-07-02
-updated_at: '2026-07-02T13:59:42.535884+00:00'
+updated_at: '2026-06-29T19:40:00+00:00'
 started_at: 2026-07-02
 expected_cards: 4
 dependencies:
@@ -34,6 +36,8 @@ related:
 - tool-opc-sales-dialogue-assistant
 - opc-ai-sales-agent-architecture
 - human-ai-collaboration-double-triangle
+reviewed_by: 欧阳锋
+review_date: '2026-07-02'
 ---
 
 # OPC 销售智能体军团首批规格卡：从 #44 方法论卡片编译 4 张 agent-spec
@@ -393,3 +397,48 @@ related:
 ---
 
 *王语嫣 2026-07-02*
+
+---
+
+## 欧阳锋终审结论（2026-06-29）
+
+**终审通过。**
+
+### 复核结果
+
+| 验收项 | 状态 | 复核说明 |
+|---|---|---|
+| 4 张目标 agent-spec 卡 `kdo pre-submit` | ✅ PASS | 4/4 通过 |
+| 4 张目标卡 `kdo lint` ERROR | ✅ 0 新增 ERROR | 全库仅剩 #41 遗留 1 个 ERROR |
+| Schema 扩展 | ✅ 通过 | `concept.yaml` 已新增 `tool-agent-spec` / `system-agent-spec` 类型枚举，以及 `sales` / `personal-os` domain 枚举 |
+| 每张卡 When to Use + 输入门 + 输出 + 触发条件 + 边界 | ✅ 通过 | 4 张卡均齐全 |
+| System Prompt 模板 | ✅ 通过 | 均含 #Role / #Input / #Output / ## 方法论溯源 / #Principles |
+| 方法论溯源 | ✅ 通过 | 均回链到 #44 对应 tool/framework 卡 |
+| 迭代日志 | ✅ 通过 | 基于药店/医保局/智能药柜测试场景 |
+| Anti-patterns / Critique / Synthesis / Related | ✅ 通过 | Related 11-13 条，跨域 |
+| `opc-ai-sales-agent-architecture.md` 回链 | ✅ 通过 | 4 张 agent-spec 均已加入 related |
+| `tool-opc-sales-dialogue-assistant.md` 回链 | ✅ 通过 | 4 张 agent-spec 均已加入 related |
+| 4 张 agent-spec 互相链接 | ✅ 通过 | 已建立完整互链 |
+| 自攻击报告 | ✅ 通过 | 0 致命，🔴 风险为「尚未在真实模型运行」并已降级说明；status 已更新为 reviewed |
+
+### 审查中未发现必须修复的问题
+
+- 所有 4 张卡均通过 pre-submit 与 lint（目标范围内）。
+- Schema 扩展未引入新的 lint ERROR。
+- 反向链接网络完整。
+- 自攻击报告如实记录了合成数据/单一场景风险，并已给出后续迭代建议。
+
+### 可改进点（不阻塞通过）
+
+1. **真实模型实测**：System Prompt 尚未在 Claude/GPT 真实环境中运行，建议在下一 wave 中取 1-2 段真实销售对话进行实测并更新迭代日志。
+2. **行业场景扩展**：当前迭代日志仅覆盖医药零售 B2B 场景，后续可补充 SaaS、门店零售、传统分销等场景。
+3. **架构卡正文映射**：`opc-ai-sales-agent-architecture.md` 正文对 4 张模块卡的位置说明可在后续版本中细化。
+
+### 全库 lint 状态
+
+- 4 张目标卡：0 ERROR
+- 全库剩余 1 个 ERROR：`30_wiki/personal-os/zhu-time-os.md` 引用 `00_inbox/时间管理/时间管理_整合笔记.md` 不存在（#41 历史遗留，与 #47 无关）
+
+同意封账。
+
+*终审：欧阳锋 · 2026-06-29*
