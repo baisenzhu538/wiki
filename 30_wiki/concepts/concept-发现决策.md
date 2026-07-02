@@ -1,5 +1,4 @@
 ---
-
 id: concept-发现决策
 title: 发现决策：决策不是「做」出来的，是「发现」出来的
 type: concept
@@ -15,15 +14,17 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-发现决策_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[dk-yitang-Y-model-pitfalls]]'
 review_date: '2026-06-29'
-updated_at: '2026-06-29'
+updated_at: '2026-07-03'
 ---
-
 # 发现决策
 
 ## 一句话定义

@@ -11,23 +11,26 @@ source_refs:
 - pending_archive:src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
 - pending_archive:src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 created_at: 2026-05-18
-updated_at: 2026-07-02
+updated_at: '2026-07-03'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-  - "[[master-antifragile-checklist]]"
-  - "[[framework-yitang-five-step-to-time-management]]"
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[dk-ai-design-pitfalls]]"
-  - "[[master-first-principles]]"
-  - "[[master-ai-info-literacy]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[master-cognitive-bias-checklist]]"
-  - "[[master-knowledge-compound]]"
-  - "[[master-systems-thinking]]"
+- '[[master-antifragile-checklist]]'
+- '[[framework-yitang-five-step-to-time-management]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[dk-ai-design-pitfalls]]'
+- '[[master-first-principles]]'
+- '[[master-ai-info-literacy]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-knowledge-compound]]'
+- '[[master-systems-thinking]]'
+- '[[yt-decision-y-model]]'
+- '[[dk-yitang-Y-model-pitfalls]]'
+- '[[tool-yitang-Y-model-application]]'
 ---
 # 决策卫生五步法
 

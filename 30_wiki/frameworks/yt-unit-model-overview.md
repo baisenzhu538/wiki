@@ -12,9 +12,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-27'
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: 2026-06-15
 confidence: 0.8
 trust_level: medium
@@ -31,24 +31,27 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单sku模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md
-updated_at: 2026-07-02
+updated_at: '2026-07-03'
 related:
-  - "[[framework-yitang-five-step-to-time-management]]"
-  - "[[concept-最简单元模型]]"
-  - "[[ocr-一堂-单元模型-规模经济对抗武器库]]"
-  - "[[tool-单元模型-壁垒预判]]"
-  - "[[ocr-一堂-单元模型-单用户模型]]"
-  - "[[ocr-一堂-单元模型-对抗小抄02]]"
-  - "[[ocr-一堂-单元模型-单履约模型]]"
-  - "[[ocr-一堂-单元模型-找基准值实操难点]]"
-  - "[[ocr-一堂-单元模型-对抗小抄01]]"
-  - "[[ocr-一堂-单元模型-外部对抗地图]]"
-  - "[[dk-单元模型-找单元模型实操难点]]"
-  - "[[ocr-一堂-单元模型-段位专家]]"
-  - "[[ai单元模型口述蒋老师]]"
-  - "[[ocr-一堂-单元模型-单商圈模型]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-sales-performance-management]]"
+- '[[framework-yitang-five-step-to-time-management]]'
+- '[[concept-最简单元模型]]'
+- '[[ocr-一堂-单元模型-规模经济对抗武器库]]'
+- '[[tool-单元模型-壁垒预判]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- '[[ocr-一堂-单元模型-单履约模型]]'
+- '[[ocr-一堂-单元模型-找基准值实操难点]]'
+- '[[ocr-一堂-单元模型-对抗小抄01]]'
+- '[[ocr-一堂-单元模型-外部对抗地图]]'
+- '[[dk-单元模型-找单元模型实操难点]]'
+- '[[ocr-一堂-单元模型-段位专家]]'
+- '[[ai单元模型口述蒋老师]]'
+- '[[ocr-一堂-单元模型-单商圈模型]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[case-yitang-Y-model-seven-applications]]'
 diagnostic_signals:
 - framework_lens: 缺少最小经济单元视角——总账会掩盖单元的真实盈利能力
   follow_up_question: 如果把这个业务拆成最小可复制单元，哪个单元的盈亏会最先让公司崩盘？

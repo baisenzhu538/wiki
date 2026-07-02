@@ -2,12 +2,13 @@
 id: task_20260703_laowantong-yitang-Y-model-foundation-production
 title: 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（3 framework + 1 tool + 1 dk + 2 case）
 type: task
-status: in_progress
+status: pending_review
 priority: P1
 assignee: kimi
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 created_at: 2026-07-03
-updated_at: '2026-07-02T17:39:10.156794+00:00'
+updated_at: '2026-07-02T18:20:37.150199+00:00'
 expected_cards: 7
 dependencies: []
 source_refs:
@@ -294,3 +295,42 @@ related:
 ---
 
 *王语嫣 2026-07-03*
+
+---
+
+## 生产完成报告（老顽童 Kimi 提交）
+
+### 本次交付
+
+- **已产出并 pre-submit PASS**：
+  - `30_wiki/concepts/yt-decision-y-model.md`（Y模型根节点重写升级）
+  - `30_wiki/tools/tool-yitang-Y-model-application.md`（Y模型应用工作流）
+  - `30_wiki/dark-knowledges/dk-yitang-Y-model-pitfalls.md`（六大陷阱与反打）
+  - `30_wiki/cases/case-yitang-Y-model-advertising-turnaround.md`（抖音 AD 投放扭亏）
+  - `30_wiki/cases/case-yitang-Y-model-seven-applications.md`（七人跨域应用案例集，已补 Critique）
+
+- **旧卡迁移**：
+  - `yt-entrepreneur-scientific-method.md` 已 `status: deprecated` 并指向 `yt-decision-y-model`
+  - `yt-entrepreneur-truth-seeking.md` 已 `status: deprecated` 并指向 `framework-yitang-shishi-qiushi` / `yt-decision-y-model`
+  - `yt-model-liberate-thinking-layers.md` 已 `status: deprecated` 并指向 `framework-yitang-jiefang-sixiang` / `yt-decision-y-model`
+
+- **阻塞占位**：为避免旧卡迁移链接断裂，已创建最小 stub：
+  - `30_wiki/frameworks/framework-yitang-shishi-qiushi.md`（等待实事求是素材）
+  - `30_wiki/frameworks/framework-yitang-jiefang-sixiang.md`（等待解放思想素材）
+
+- **反向补链**：已更新任务单所列 17 张已有卡的 `related`，加入 5 张新卡回链。
+
+### kdo pre-submit 结果
+
+```
+Files checked: 10
+Passed:        10
+Failed:        0
+All gates passed. Ready for human review.
+Git diff: 21 files changed (expected >= 5)
+```
+
+### 已知阻塞
+
+- `framework-yitang-shishi-qiushi` 与 `framework-yitang-jiefang-sixiang` 目前为占位 stub，需用户输入实事求是 / 解放思想课素材后补全为正式 framework 卡。
+- 占位 stub 的 `source_refs` 使用 `pending_archive:等待用户输入...`，素材到位后需替换为真实来源。

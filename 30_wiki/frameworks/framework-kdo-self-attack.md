@@ -1,5 +1,4 @@
 ---
-
 id: framework-kdo-self-attack
 title: KDO 知识自攻击框架：用对抗 Agent 在交付前主动找出弱点
 type: framework
@@ -7,36 +6,36 @@ status: reviewed
 confidence: 0.86
 trust_level: high
 domain:
-  - kdo
-  - quality
-  - meta-methodology
+- kdo
+- quality
+- meta-methodology
 author: 王语嫣
 reviewed_by: 欧阳锋
-review_date: "2026-06-27"
-created_at: "2026-06-27"
+review_date: '2026-06-27'
+created_at: '2026-06-27'
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
-updated_at: "2026-06-27"
+- cited
+- insight
+- principle
+- quality
+- validated
+updated_at: '2026-07-03'
 source_refs:
-  - 40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md
-  - 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md
-  - 30_wiki/frameworks/framework-yitang-research-quality-gate.md
-  - 30_wiki/frameworks/framework-yitang-six-layer-cross-validation.md
-  - 30_wiki/frameworks/framework-yitang-nine-layer-deep-dig.md
+- 40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md
+- 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md
+- 30_wiki/frameworks/framework-yitang-research-quality-gate.md
+- 30_wiki/frameworks/framework-yitang-six-layer-cross-validation.md
+- 30_wiki/frameworks/framework-yitang-nine-layer-deep-dig.md
 related:
-  - "[[framework-ouyangfeng-review-methodology]]"
-  - "[[framework-yitang-research-quality-gate]]"
-  - "[[framework-yitang-six-layer-cross-validation]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[tool-demand-blindspot-checklist]]"
-
+- '[[framework-ouyangfeng-review-methodology]]'
+- '[[framework-yitang-research-quality-gate]]'
+- '[[framework-yitang-six-layer-cross-validation]]'
+- '[[framework-yitang-nine-layer-deep-dig]]'
+- '[[tool-demand-blindspot-checklist]]'
+- '[[yt-decision-y-model]]'
+- '[[dk-yitang-Y-model-pitfalls]]'
+- '[[tool-yitang-Y-model-application]]'
 ---
-
-
 # KDO 知识自攻击框架：用对抗 Agent 在交付前主动找出弱点
 
 > 一句话：在知识卡片交付审查之前，用四路对抗 Agent 主动攻击其逻辑、证据、完整性和时效性，把问题发现在用户和终审者之前。

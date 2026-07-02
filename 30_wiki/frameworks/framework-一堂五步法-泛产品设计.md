@@ -8,12 +8,12 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 created_at: 2026-06-26
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
-updated_at: 2026-07-02
+- cited
+- insight
+- principle
+- quality
+- validated
+updated_at: '2026-07-03'
 confidence: 0.82
 trust_level: medium-high
 language: zh-CN
@@ -29,22 +29,25 @@ source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 source_person: 一堂 / 兰毅
 related:
-  - "[[framework-lean-abcd-model]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[framework-ai-accelerated-strategy-cycle]]"
-  - "[[framework-pan-product-organization]]"
-  - "[[yt-model-pan-product-three-virtues]]"
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[yt-composite-pan-product-methodology]]"
-  - "[[framework-yitang-five-step-to-time-management]]"
-  - "[[tool-scene-design-language-translation]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
-  - "[[case-yitang-sales-transformation-meirongyuan]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
+- '[[framework-lean-abcd-model]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[framework-ai-accelerated-strategy-cycle]]'
+- '[[framework-pan-product-organization]]'
+- '[[yt-model-pan-product-three-virtues]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[framework-yitang-five-step-to-time-management]]'
+- '[[tool-scene-design-language-translation]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
+- '[[case-yitang-sales-transformation-meirongyuan]]'
+- '[[case-yitang-sales-transformation-tuliaogongsi]]'
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[case-yitang-Y-model-advertising-turnaround]]'
 ---
 # 一堂五步法在泛产品设计中的应用
 

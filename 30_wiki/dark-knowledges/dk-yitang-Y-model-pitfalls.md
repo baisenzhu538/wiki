@@ -3,36 +3,36 @@ id: dk-yitang-Y-model-pitfalls
 title: Y模型常见六大陷阱与反打
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 source_person: 李善友 / 一堂课程设计
 source_context: 一堂底层逻辑域·Y模型课程（2026-07-03）
 source_refs:
-  - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
-  - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt
-  - 00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md
-  - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
+- 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
+- 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt
+- 00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md
+- 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
 domain:
-  - yitang
+- yitang
 tags:
-  - "#epistemic-foundations"
-  - "#decision-science"
-  - "#Y-model"
-  - "#pitfall"
+- '#epistemic-foundations'
+- '#decision-science'
+- '#Y-model'
+- '#pitfall'
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋
 related:
-  - "[[yt-decision-y-model]]"
-  - "[[tool-yitang-Y-model-application]]"
-  - "[[case-yitang-Y-model-advertising-turnaround]]"
-  - "[[case-yitang-Y-model-seven-applications]]"
-  - "[[master-decision-hygiene]]"
-  - "[[concept-X型Y型决策习惯]]"
-  - "[[framework-kdo-self-attack]]"
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[case-yitang-Y-model-advertising-turnaround]]'
+- '[[case-yitang-Y-model-seven-applications]]'
+- '[[master-decision-hygiene]]'
+- '[[concept-X型Y型决策习惯]]'
+- '[[framework-kdo-self-attack]]'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
+author: 老顽童
 ---
-
 # Y模型常见六大陷阱与反打
 
 > 任务单原要求 `dark_knowledge_type: pattern`，但当前 schema 仅允许 `failure / workflow / tool_usage / learning_path / insight / comparison`。本卡按 `failure` 类型写入，保留「反模式」实质。
@@ -42,6 +42,63 @@ updated_at: '2026-07-03'
 Y模型不是「填空就能成功」的模板，而是一套需要持续修炼的科学做事系统。在口述稿中，李善友把 Y模型的 11 个要素做成「红卡」（正确姿势）与「蓝卡」（常见错误）一一对应：出现盲目迷信就用「科学笃定」修炼，知行分裂就用「知行合一」修炼，主观臆测就用「实事求是」修炼，错误类比就用「科学类比」修炼，不会建模就用「替代模型」修炼，忽略事实就用「追求事实」修炼。
 
 本卡聚焦其中最具破坏性、也最常见的六种蓝卡陷阱。它们不是 Y模型的 bug，而是使用 Y模型时人性最容易滑入的系统性偏差。识别症状、掌握反打动作，才能把 Y模型从「知道」变成「能用」。
+
+---
+
+## 原始表述
+
+> "Y模型有 11 个要素，我们把它做成红卡（正确姿势）和蓝卡（常见错误）。出现盲目迷信就用科学笃定修炼，知行分裂就用知行合一修炼，主观臆测就用实事求是修炼，错误类比就用科学类比修炼，不会建模就用替代模型修炼，忽略事实就用追求事实修炼。"
+>
+> —— 李善友，一堂「底层逻辑之一：Y模型」课程口述
+
+---
+
+## 使用场景
+
+- 团队刚开始用 Y模型，把画布当填空模板，填完就认为分析完成了。
+- 会议讨论全是「我认为」「我觉得」，没有事实和假设区分。
+- 某人搬出德鲁克、王兴名言作为决策依据，忽视边界条件。
+-  analogy 被当作论证：「A 成功了，所以我们抄 A」。
+- 方案很宏大，但找不到 48 小时内可验证的最小动作。
+- 复盘时功劳归模型、失败归运气，没有真正归因。
+
+---
+
+## 操作方法
+
+1. **对照自检**：每次用 Y模型后，逐条检查六大陷阱清单。
+2. **会议信号拦截**：发现「我认为」「我觉得」密集出现时，要求改为「我假设」并附证伪条件。
+3. **红蓝卡配对**：为每个关键判断同时写出「红卡（正确姿势）」和「蓝卡（可能陷阱）」。
+4. **找反例**：每引用一个成功案例或理论，强制找 1 个反例并说明边界。
+5. **最小验证闭环**：每个分析必须带一个 48 小时内可验证的动作和指标。
+6. **定期复盘**：每月用陷阱清单做一次团队决策质量体检。
+
+---
+
+## 适用边界
+
+- **适合**：已经了解 Y模型基本结构、开始在实际决策中使用的个人或团队。
+- **谨慎**：在高压、时间极短的危机决策中，过度结构化可能拖慢响应速度。
+- **不适合**：尚未学习 Y模型、没有基本决策框架的团队（会沦为另一套空话）。
+
+---
+
+## 为什么值钱
+
+这些陷阱不是简单的「注意事项清单」，而是来自一堂课程设计中「红卡/蓝卡」配对的系统总结。公开语料中很少有把「科学做事方法的常见偏差 + 反打动作 + 口诀 + 即时/长期修复」整理成可自检清单的资料。本卡把隐性经验显性化，让 Y模型使用者能持续自我校正。
+
+---
+
+## 与其他知识的关联
+
+- 根节点卡：[[yt-decision-y-model]]（Y模型：一堂科学做事系统）
+- 应用工具卡：[[tool-yitang-Y-model-application]]
+- 决策卫生：[[master-decision-hygiene]]
+- 决策习惯：[[concept-X型Y型决策习惯]]
+- 案例卡：[[case-yitang-Y-model-advertising-turnaround]]、[[case-yitang-Y-model-seven-applications]]
+- 自攻击框架：[[framework-kdo-self-attack]]
+
+---
 
 ## 六大陷阱
 

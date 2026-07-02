@@ -30,23 +30,26 @@ source_refs:
 tags: []
 created_at: '2026-06-14'
 quality_labels:
-  - cited
-  - principle
-  - validated
-updated_at: 2026-07-02
+- cited
+- principle
+- validated
+updated_at: '2026-07-03'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-  - "[[一堂方法论体系总图]]"
-  - "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
-  - "[[ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步]]"
-  - "[[ocr-一堂进步大地图]]"
-  - "[[yitang-domain-digest]]"
-  - "[[ocr-一堂进步大地图_compressed]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
+- '[[一堂方法论体系总图]]'
+- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
+- '[[ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步]]'
+- '[[ocr-一堂进步大地图]]'
+- '[[yitang-domain-digest]]'
+- '[[ocr-一堂进步大地图_compressed]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[dk-yitang-Y-model-pitfalls]]'
 ---
 # 一堂方法论体系：从科学做事到无限进步
 

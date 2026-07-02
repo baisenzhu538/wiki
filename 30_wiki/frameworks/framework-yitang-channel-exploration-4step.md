@@ -13,12 +13,12 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
-updated_at: 2026-07-02
+- cited
+- insight
+- principle
+- quality
+- validated
+updated_at: '2026-07-03'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-笔记.txt
@@ -34,22 +34,25 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-反案例-渠道建模踩坑_vlm_desc.md
 source_person: Truman
 related:
-  - "[[tool-区分获客渠道计算单元roi]]"
-  - "[[framework-yitang-channel-industrialization]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[tool-yitang-channel-scan-cheat-sheet]]"
-  - "[[yt-unit-model-concept]]"
-  - "[[tool-yitang-channel-scoring-matrix]]"
-  - "[[framework-yitang-growth-flywheel]]"
-  - "[[case-yitang-xujian-invoice-saas-channel]]"
-  - "[[case-yitang-solid-redbull-channel]]"
-  - "[[case-yitang-yitang-self-growth-channel]]"
-  - "[[case-yitang-maiyi-cloud-computer-channel]]"
-  - "[[concept-yitang-channel-lean-validation-bridge]]"
-  - "[[framework-yitang-channel-unit-economics]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[framework-yitang-channel-industrialization]]'
+- '[[framework-lean-abcd-model]]'
+- '[[tool-yitang-channel-scan-cheat-sheet]]'
+- '[[yt-unit-model-concept]]'
+- '[[tool-yitang-channel-scoring-matrix]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[case-yitang-xujian-invoice-saas-channel]]'
+- '[[case-yitang-solid-redbull-channel]]'
+- '[[case-yitang-yitang-self-growth-channel]]'
+- '[[case-yitang-maiyi-cloud-computer-channel]]'
+- '[[concept-yitang-channel-lean-validation-bridge]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[dk-yitang-Y-model-pitfalls]]'
 review_date: '2026-06-28'
 ---
 # 渠道探索四步法：科学找到可持续获客渠道

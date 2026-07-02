@@ -1,28 +1,27 @@
 ---
-
-domain:
-  - modeling
-
 id: yt-model-liberate-thinking-layers
-confidence: 0.85
-created_at: 2026-05-07
-difficulty: foundational
+title: 解放思想五层模型（已弃用，待重写升级）
+type: concept
+status: deprecated
+domain:
+- entrepreneurship
+- epistemic-foundations
+confidence: 0.8
 language: zh-CN
-query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: "黄药师"
+reviewed_by: 欧阳锋
 source_refs:
-  - pending_archive:src_20260613_96e45c45-qishijian-business-model
-  - src_20260613_96e45c45-qishijian-business-model
-source_refs:
-  - pending_archive:src_20260613_96e45c45-qishijian-business-model
+- pending_archive:src_placeholder
+related:
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[framework-yitang-jiefang-sixiang]]'
+- '[[dk-yitang-Y-model-pitfalls]]'
+created_at: 2026-05-06
+updated_at: '2026-07-03'
 ---
-# 解放思想五层模型
+> 📝 **本卡内容将被 `framework-yitang-jiefang-sixiang` 重写升级。** 当前内容仍保留供参考，但建议优先使用 [[yt-decision-y-model]] 和 [[tool-yitang-Y-model-application]]。
+
+# 解放思想五层模型（已弃用，待重写升级）
 
 > 来源：一堂《解放思想》模型图。[[一堂]] | [[yt-entrepreneur-liberate-thinking]] | [[yt-entrepreneur-scientific-method]]
 

@@ -12,23 +12,26 @@ source_refs:
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
 created_at: '2026-06-14'
 quality_labels:
-  - cited
-  - principle
-  - quality
-  - validated
-updated_at: 2026-07-02
+- cited
+- principle
+- quality
+- validated
+updated_at: '2026-07-03'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
-  - "[[yt-business-formula-abc-model]]"
-  - "[[yt-model-deep-review-iceberg]]"
-  - "[[yt-management-business-formula]]"
-  - "[[yt-business-formula-parameter-iceberg]]"
-  - "[[yt-decision-depth-ladder]]"
-  - "[[tool-yitang-sales-performance-management]]"
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-model-deep-review-iceberg]]'
+- '[[yt-management-business-formula]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[case-yitang-Y-model-advertising-turnaround]]'
 ---
 # 业务公式六层逻辑关系（L1 模糊 → L6 动态）
 

@@ -12,16 +12,20 @@ source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
 created_at: '2026-06-20'
-updated_at: 2026-07-02
+updated_at: '2026-07-03'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[framework-yitang-five-step-to-time-management]]"
-  - "[[tool-单元模型-壁垒预判]]"
-  - "[[pending_unknown]]"
-  - "[[ocr-一堂-单元模型-壁垒预判]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
+- '[[framework-yitang-five-step-to-time-management]]'
+- '[[tool-单元模型-壁垒预判]]'
+- '[[pending_unknown]]'
+- '[[ocr-一堂-单元模型-壁垒预判]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[case-yitang-Y-model-advertising-turnaround]]'
+- '[[case-yitang-Y-model-seven-applications]]'
 diagnostic_signals:
 - framework_lens: 五步法完整地图——五步法是从需求到壁垒的完整框架
   follow_up_question: 你的需求是什么？产品内核是什么？商业模式是什么？增长策略是什么？壁垒是什么？

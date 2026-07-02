@@ -12,21 +12,24 @@ domain:
 - src_unknown
 - src_unknown
 quality_labels:
-  - actionable
-  - validated
+- actionable
+- validated
 created_at: '2026-06-14'
-updated_at: 2026-07-02
+updated_at: '2026-07-03'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: high
 confidence: 0.9
 related:
-  - "[[pending_unknown]]"
-  - "[[ocr-一堂深度复盘冰山图]]"
-  - "[[tool-动手建模法]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[tool-yitang-sales-performance-management]]"
+- '[[pending_unknown]]'
+- '[[ocr-一堂深度复盘冰山图]]'
+- '[[tool-动手建模法]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[yt-decision-y-model]]'
+- '[[case-yitang-Y-model-seven-applications]]'
 tags:
 - src_unknown
 - src_unknown

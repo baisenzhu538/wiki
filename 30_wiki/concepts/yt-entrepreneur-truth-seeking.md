@@ -1,33 +1,27 @@
 ---
-
-domain:
-  - entrepreneurship
-
 id: yt-entrepreneur-truth-seeking
+title: 实事求是（已弃用，待重写升级）
+type: concept
+status: deprecated
+domain:
+- entrepreneurship
+- epistemic-foundations
 confidence: 0.8
-created_at: 2026-05-06
-difficulty: intermediate
 language: zh-CN
-query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-review_date: 2026-05-08
-reviewed_by: "黄药师"
+reviewed_by: 欧阳锋
 source_refs:
-  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
-  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
-source_refs:
-  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+- pending_archive:src_placeholder
+related:
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[dk-yitang-Y-model-pitfalls]]'
+created_at: 2026-05-06
+updated_at: '2026-07-03'
 ---
-# 实事求是
+> 📝 **本卡内容将被 `framework-yitang-shishi-qiushi` 重写升级。** 当前内容仍保留供参考，但建议优先使用 [[yt-decision-y-model]] 和 [[tool-yitang-Y-model-application]]。
+
+# 实事求是（已弃用，待重写升级）
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

@@ -9,40 +9,42 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - ai-collaboration
-  - business-strategy
-  - yitang
+- ai-collaboration
+- business-strategy
+- yitang
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断，OPC 智能体 MVP 规格
 source_refs:
-  - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
-  - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
-  - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
-  - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
+- 00_inbox/销售专题/_processed/销售专题_整合笔记.md
+- 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
+- 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
+- 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
 related:
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[tool-agent-spec-yitang-customer-segmentation]]"
-  - "[[zhu-domain-index]]"
-  - "[[zhu-time-os]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
-  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
-  - "[[tool-agent-spec-yitang-value-proposition]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[human-ai-collaboration-double-triangle]]"
-  - "[[case-yitang-sales-transformation-meirongyuan]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-agent-spec-yitang-opening-3min]]"
-  - "[[tool-agent-spec-yitang-objection-handler]]"
-  - "[[tool-agent-spec-yitang-self-motivation]]"
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-agent-spec-yitang-customer-segmentation]]'
+- '[[zhu-domain-index]]'
+- '[[zhu-time-os]]'
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
+- '[[tool-agent-spec-yitang-sales-process-tracker]]'
+- '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+- '[[case-yitang-sales-transformation-tuliaogongsi]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[human-ai-collaboration-double-triangle]]'
+- '[[case-yitang-sales-transformation-meirongyuan]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-agent-spec-yitang-opening-3min]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-Y-model-application]]'
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: '2026-07-03'
 ---
 # OPC 销售对话助手智能体
 

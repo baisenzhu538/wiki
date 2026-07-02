@@ -74,6 +74,7 @@ properties:
       - revised
       - active
       - deprecated
+      - deprecated
       - superseded
       - redirect
     description: >

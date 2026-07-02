@@ -1,32 +1,27 @@
 ---
-
-domain:
-  - entrepreneurship
-
 id: yt-entrepreneur-scientific-method
+title: Y模型/科学方法（已弃用）
+type: concept
+status: deprecated
+domain:
+- entrepreneurship
+- epistemic-foundations
 confidence: 0.8
-created_at: 2026-05-06
-difficulty: intermediate
 language: zh-CN
-query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: "黄药师"
+reviewed_by: 欧阳锋
 source_refs:
-  - pending_archive:src_20260614_faa8021d-Y模型探索营-第二节课
-  - src_20260614_faa8021d-Y模型探索营-第二节课
-source_refs:
-  - pending_archive:src_20260614_faa8021d-Y模型探索营-第二节课
+- pending_archive:src_20260614_faa8021d-Y模型探索营-第二节课
+- src_20260614_faa8021d-Y模型探索营-第二节课
+related:
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[dk-yitang-Y-model-pitfalls]]'
+created_at: 2026-05-06
+updated_at: '2026-07-03'
 ---
-# Y模型/科学方法
+> ⚠️ **本卡已被 [[yt-decision-y-model]] 重写升级，内容不再维护。** 请使用新卡《Y模型：一堂科学做事系统（KDO 根节点）》。
+
+# Y模型/科学方法（已弃用）
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]
 
