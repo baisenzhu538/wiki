@@ -2,7 +2,7 @@
 id: task_20260703_huangyaoshi-proposal-kdo-next-phase-orchestration
 title: "黄药师建议书：KDO 下一阶段任务编排"
 type: proposal
-status: draft
+status: wangyuyan-confirmed
 author: 黄药师
 target_reviewer: 王语嫣（方向把关）+ 欧阳锋（终审）
 created_at: 2026-07-03
@@ -96,6 +96,27 @@ KDO 此前在**理论臂**上建体系（框架/概念/工具/暗知识）。现
 | GraphRAG rebuild | 线 A 完成后执行 |
 | kdo pipeline 持续监控 | 观察 Agent 反馈是否产生新的 lint 信号 |
 | 不新增工具 | Phase shift 后基建重心是"维护闭环"，不是"新建能力" |
+
+---
+
+## 六、王语嫣裁定
+
+> 详见 `60_feedback/decisions/dec_20260703_wangyuyan-Y-model-root-minimal-retrofit.md`
+
+### 核心结论
+
+- **采纳** Phase shift 与三条线并行框架。
+- **线 A 做减法**：不重造 schema、不新增 card type/目录；把 `yt-decision-y-model` 就地重写为根节点卡；所有 framework/concept/tool/case/dk 批量补 `[[yt-decision-y-model]]`。
+- **#51 调整**：Card 1 从新建 `framework-yitang-Y-model` 改为重写 `yt-decision-y-model`；其余 6 张卡仍新建；旧卡加迁移提示，可标记 `status: deprecated`，但不引入新 schema 字段。
+- **#52 调整**：从「schema + GraphRAG + deprecation 基础设施」压缩为「GraphRAG rebuild + 批量 related 后索引维护 + pipeline 监控」；黄药师本周只做维护，不新增工具。
+- **执行顺序**：老顽童现在即可领取 #51（线 A 先行）；欧阳锋继续审 #50（与 #51 并行）；黄药师待命，等线 A 完成后 rebuild GraphRAG。
+
+### 不要做的事
+
+- 不要为 Y模型新建卡片或新 ID。
+- 不要新增 schema 字段（`is_root_node` / `replaces` / `deprecated_by`）。
+- 黄药师不要新增 `--agent-trace` 工具；先用手工迭代日志。
+- 不要把「跨域模式层」目录化。
 
 ---
 

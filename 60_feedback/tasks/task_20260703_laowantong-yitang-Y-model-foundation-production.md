@@ -17,7 +17,7 @@ source_refs:
   - 00_inbox/底层逻辑之一-Y模型/科学理念-Y模型.png
   - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
 related:
-  - framework-yitang-Y-model
+  - yt-decision-y-model
   - framework-yitang-shishi-qiushi
   - framework-yitang-jiefang-sixiang
   - tool-yitang-Y-model-application
@@ -33,7 +33,7 @@ related:
 
 > 任务来源：王语嫣入口质量门诊断 `diag_20260703_yitang-Y-model-foundation.md`
 > 王语嫣判断：Y模型是一堂最底层的元框架，科学理念 = Y模型，实事求是和解放思想是从 Y模型生长出来的两层能力。本任务填补 KDO 底层逻辑域空白，为后续 Agent 实践提供方法论底座。
-> 旧卡处理：重写升级 `yt-entrepreneur-scientific-method`、`yt-entrepreneur-truth-seeking`、`yt-model-liberate-thinking-layers`，原卡标记 deprecated 并指向新卡。
+> 旧卡处理：重写升级 `yt-entrepreneur-scientific-method`、`yt-entrepreneur-truth-seeking`、`yt-model-liberate-thinking-layers`，原卡顶部加迁移提示并指向新卡；可用现有 `status: deprecated` 标记，但不引入新 schema 字段。
 
 ---
 
@@ -49,23 +49,25 @@ related:
 
 ## 二、7 张目标卡
 
-### Card 1: `framework-yitang-Y-model`
+### Card 1: `yt-decision-y-model`（就地重写升级）
 
 **类型**：framework  
 **主域**：epistemic-foundations / yitang / decision-science  
 **confidence**：0.92  
 **trust_level**：high
 
-**必须包含的 section**：
-1. 一句话：Y模型 = 以客观因果规律为根，通过理论+事实双路径，用三大姿势和四大工具，实现快速入门与无限进步的科学做事系统。
-2. Y模型四层结构图：根（客观因果规律）→ 双路径（理论/事实）→ 三大姿势（知行合一、实事求是、解放思想）→ 四大工具（定性定量、科学类比、假设驱动、提炼建模）。
-3. 科学做事五步法：明确核心问题 → 拆解变量/业务公式 → 理论端 → 事实端 → 知行迭代。
-4. 与一堂其他课程的关系：五步法、基本功、转化率、业务公式、知识管理等如何被 Y模型统一解释。
-5. 哲学呼应：与《实践论》《矛盾论》、王阳明心学的内在联系（仅作说明，不构成学术结论）。
-6. 跨域迁移：子女教育、个人成长、内容创作、SaaS 产品等非商业场景示例。
-7. OPC 智能体适配：可映射为 `tool-agent-spec-yitang-Y-model-coach`（问题拆解 + 因果建模 + 验证建议）。
-8. Critique：≥3 个外部反对者 + ≥2 个内部局限。
-9. Related：≥5 条，含跨域。
+**升级要点**：
+1. 保留原 ID `yt-decision-y-model`，标题改为「Y模型：一堂科学做事系统（KDO 根节点）」或类似表述。
+2. 一句话：Y模型 = 以客观因果规律为根，通过理论+事实双路径，用三大姿势和四大工具，实现快速入门与无限进步的科学做事系统。
+3. Y模型四层结构图：根（客观因果规律）→ 双路径（理论/事实）→ 三大姿势（知行合一、实事求是、解放思想）→ 四大工具（定性定量、科学类比、假设驱动、提炼建模）。
+4. 科学做事五步法：明确核心问题 → 拆解变量/业务公式 → 理论端 → 事实端 → 知行迭代。
+5. 与一堂其他课程的关系：五步法、基本功、转化率、业务公式、知识管理等如何被 Y模型统一解释。
+6. KDO 根节点映射：理论臂、事实臂、知行合一轴；KDO 工厂（诊断→生产→审查→使用→回流）是 Y模型实例。
+7. 哲学呼应：与《实践论》《矛盾论》、王阳明心学的内在联系（仅作说明，不构成学术结论）。
+8. 跨域迁移：子女教育、个人成长、内容创作、SaaS 产品等非商业场景示例。
+9. OPC 智能体适配：可映射为 `tool-agent-spec-yitang-Y-model-coach`（问题拆解 + 因果建模 + 验证建议）。
+10. Critique：≥3 个外部反对者 + ≥2 个内部局限。
+11. Related：≥5 条，含跨域。
 
 ---
 
