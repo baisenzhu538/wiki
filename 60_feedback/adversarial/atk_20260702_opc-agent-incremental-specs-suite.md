@@ -3,7 +3,7 @@
 id: atk_20260702_opc-agent-incremental-specs-suite
 title: 自攻击报告：OPC 销售智能体增量 3 张 agent-spec 卡
 type: report
-status: draft
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-07-02
