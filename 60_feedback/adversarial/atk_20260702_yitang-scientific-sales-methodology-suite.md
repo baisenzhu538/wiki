@@ -3,7 +3,7 @@
 id: atk_20260702_yitang-scientific-sales-methodology-suite
 title: 自攻击报告：一堂科学销售方法论 12 张新卡
 type: report
-status: draft
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-07-02
