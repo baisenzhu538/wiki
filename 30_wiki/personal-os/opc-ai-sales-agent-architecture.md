@@ -27,6 +27,10 @@ related:
   - "[[case-yitang-sales-transformation-jubensha-saas]]"
   - "[[case-yitang-sales-transformation-meirongyuan]]"
   - "[[case-yitang-sales-transformation-tuliaogongsi]]"
+  - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[case-yitang-sales-transformation-jubensha-saas]]"
+  - "[[case-yitang-sales-transformation-meirongyuan]]"
+  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
 ---
 # OPC AI 销售智能体架构
 
