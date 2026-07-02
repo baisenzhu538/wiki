@@ -358,6 +358,14 @@ updated_at: 2026-07-03
   - 完成率与概率统一用「高/中/低」或「乐观/中性/悲观」三档定性描述，禁用具体百分比。
 
 
+### v1.1 复测（2026-07-03）
+
+- **模型**：deepseek-v4-pro
+- **复测场景**：智能药柜月度 Pipeline 10 客户复盘
+- **Trace**：[[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-sales-performance-monitor__智能药柜月度_Pipeline_复盘_v1.1.md]]
+- **结果**：输出长度 4400 字符，完整覆盖 Top 5 客户 + 长尾策略 + 方法论溯源，未出现截断；完成率已改用高中低描述。
+
+
 ## Anti-patterns
 
 | 反模式 | 表现 | 后果 | 反打 |

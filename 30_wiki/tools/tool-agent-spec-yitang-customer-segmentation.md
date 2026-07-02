@@ -319,6 +319,14 @@ updated_at: 2026-07-03
 - 在 Output Format 中增加长度控制说明。
 
 
+### v1.1 复测（2026-07-03）
+
+- **模型**：deepseek-v4-pro
+- **复测场景**：医药零售 B2B 5 条线索分级
+- **Trace**：[[60_feedback/agent-traces/2026-07-02/tool-agent-spec-yitang-customer-segmentation__医药零售_B2B_线索分级_v1.1.md]]
+- **结果**：输出长度 4061 字符，完整覆盖 5 条线索并正常结束于方法论溯源，未出现截断。
+
+
 ## Anti-patterns
 
 | 反模式 | 表现 | 后果 | 修复 |
