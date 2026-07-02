@@ -1,43 +1,44 @@
 ---
 id: task_20260702_laowantong-yitang-scientific-sales-methodology-production
-title: "一堂科学销售方法论：1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体 / 销售域）"
+title: 一堂科学销售方法论：1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体
+  / 销售域）
 type: task
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童(Kimi)
+assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: '2026-07-02T10:42:12.100979+00:00'
 expected_cards: 12
 source_refs:
-  - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
-  - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
-  - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
-  - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
-  - 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt
-  - 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-笔记.txt
-  - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt
-  - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-笔记.txt
-  - 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt
-  - 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-笔记.txt
-  - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt
-  - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-笔记.txt
-  - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
-  - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
+- 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
+- 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
+- 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
+- 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
+- 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt
+- 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-笔记.txt
+- 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt
+- 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-笔记.txt
+- 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt
+- 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-笔记.txt
+- 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt
+- 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-笔记.txt
+- 00_inbox/销售专题/_processed/销售专题_整合笔记.md
+- 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
 related:
-  - framework-yitang-scientific-sales-five-step
-  - tool-yitang-customer-segmentation-4step
-  - tool-yitang-value-proposition-4step
-  - tool-yitang-sales-process-decomposition
-  - tool-yitang-sales-performance-management
-  - framework-yitang-sales-incentive-6d
-  - tool-yitang-sales-toolkit-radar
-  - dk-yitang-sales-common-pitfalls
-  - case-yitang-sales-transformation-jubensha-saas
-  - case-yitang-sales-transformation-meirongyuan
-  - case-yitang-sales-transformation-tuliaogongsi
-  - tool-opc-sales-dialogue-assistant
-  - opc-ai-sales-agent-architecture
+- framework-yitang-scientific-sales-five-step
+- tool-yitang-customer-segmentation-4step
+- tool-yitang-value-proposition-4step
+- tool-yitang-sales-process-decomposition
+- tool-yitang-sales-performance-management
+- framework-yitang-sales-incentive-6d
+- tool-yitang-sales-toolkit-radar
+- dk-yitang-sales-common-pitfalls
+- case-yitang-sales-transformation-jubensha-saas
+- case-yitang-sales-transformation-meirongyuan
+- case-yitang-sales-transformation-tuliaogongsi
+- tool-opc-sales-dialogue-assistant
+- opc-ai-sales-agent-architecture
 ---
 
 # 一堂科学销售方法论：1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体）
