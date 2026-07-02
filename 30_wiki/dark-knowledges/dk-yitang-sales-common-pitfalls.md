@@ -1,5 +1,4 @@
 ---
-
 id: dk-yitang-sales-common-pitfalls
 title: 一堂科学销售常见陷阱：六大反模式与修复动作
 type: dark-knowledge
@@ -23,22 +22,22 @@ tags:
 trust_level: high
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[master-decision-hygiene]]"
+  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
   - "[[case-yitang-sales-transformation-jubensha-saas]]"
   - "[[case-yitang-sales-transformation-meirongyuan]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
   - "[[framework-yitang-nine-layer-deep-dig]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[master-decision-hygiene]]"
+  - "[[tool-yitang-sales-performance-management]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
-
+updated_at: 2026-07-02
 ---
-
 # 一堂科学销售常见陷阱：六大反模式与修复动作
 
 > 销售管理的失败，往往不是某个销售不努力，而是组织用错误的方式放大了随机性。六大陷阱彼此勾连：没有分层就分不好资源，没有卖点就说不准价值，没有过程拆解就看不清卡点，没有过程管理就定不准目标，没有多元激励就留不住人，没有工具箱就复制不了成功。

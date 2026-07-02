@@ -29,15 +29,22 @@ source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 source_person: 一堂 / 兰毅
 related:
+  - "[[framework-lean-abcd-model]]"
+  - "[[tool-ai-deliverable-polish-loop]]"
   - "[[framework-ai-accelerated-strategy-cycle]]"
-  - "[[tool-scene-design-language-translation]]"
-  - "[[framework-yitang-five-step-to-time-management]]"
+  - "[[framework-pan-product-organization]]"
+  - "[[yt-model-pan-product-three-virtues]]"
   - "[[case-live81-ai-trademark-design]]"
   - "[[yt-composite-pan-product-methodology]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[framework-pan-product-organization]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[yt-model-pan-product-three-virtues]]"
+  - "[[framework-yitang-five-step-to-time-management]]"
+  - "[[tool-scene-design-language-translation]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[case-yitang-sales-transformation-jubensha-saas]]"
+  - "[[case-yitang-sales-transformation-meirongyuan]]"
+  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
 ---
 # 一堂五步法在泛产品设计中的应用
 

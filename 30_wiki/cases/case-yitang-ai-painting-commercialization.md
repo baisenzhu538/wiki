@@ -17,23 +17,23 @@ quality_labels:
   - cited
   - validated
 created_at: 2026-06-27
-updated_at: 2026-06-28
+updated_at: 2026-07-02
 source_refs:
   - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
   - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
 source_person: 盈盈
 related:
-  - "[[framework-yitang-deliberate-practice-1plus4]]"
   - "[[framework-ai-deliberate-practice-loop]]"
-  - "[[tool-yitang-best-practice-as-golden-finger]]"
-  - "[[tool-yitang-feedback-self-check]]"
-  - "[[concept-yitang-comfort-stretch-panic-zones]]"
   - "[[case-yitang-poker-parameterized-practice]]"
+  - "[[tool-yitang-feedback-self-check]]"
   - "[[case-yitang-sales-routine-deconstruction]]"
+  - "[[concept-yitang-comfort-stretch-panic-zones]]"
+  - "[[framework-yitang-deliberate-practice-1plus4]]"
   - "[[ai-collaboration-domain-digest]]"
-
+  - "[[tool-yitang-best-practice-as-golden-finger]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[tool-yitang-value-proposition-4step]]"
 ---
-
 # 案例：崔磊如何通过 AI 绘画练习实现商业化交付
 
 ## Burn Line

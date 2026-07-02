@@ -1,5 +1,4 @@
 ---
-
 id: dk-yitang-channel-exploration-traps
 type: dk
 title: 渠道探索常见陷阱：18 万字共建作业里的血泪教训
@@ -16,7 +15,7 @@ quality_labels:
   - cited
   - quality
   - validated
-updated_at: '2026-06-28'
+updated_at: 2026-07-02
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-反案例-渠道扫描错误案例.png
@@ -24,21 +23,22 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-反案例-渠道建模踩坑.png
 source_person: Truman
 related:
-- "[[framework-yitang-channel-exploration-4step]]"
-- "[[framework-yitang-channel-industrialization]]"
-- "[[framework-yitang-growth-flywheel]]"
-- "[[tool-yitang-channel-scoring-matrix]]"
-- "[[tool-yitang-channel-scan-cheat-sheet]]"
-- "[[tool-区分获客渠道计算单元roi]]"
-- "[[framework-yitang-channel-unit-economics]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-yitang-nine-layer-deep-dig]]"
-- "[[case-yitang-yitang-self-growth-channel]]"
-- "[[case-yitang-shuzu-channel-scan-test]]"
+  - "[[tool-区分获客渠道计算单元roi]]"
+  - "[[framework-yitang-channel-industrialization]]"
+  - "[[framework-lean-abcd-model]]"
+  - "[[tool-yitang-channel-scan-cheat-sheet]]"
+  - "[[framework-yitang-channel-exploration-4step]]"
+  - "[[framework-yitang-growth-flywheel]]"
+  - "[[tool-yitang-channel-scoring-matrix]]"
+  - "[[case-yitang-yitang-self-growth-channel]]"
+  - "[[case-yitang-shuzu-channel-scan-test]]"
+  - "[[framework-yitang-channel-unit-economics]]"
+  - "[[framework-yitang-nine-layer-deep-dig]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[case-yitang-sales-transformation-meirongyuan]]"
 review_date: '2026-06-28'
 ---
-
-
 # 渠道探索常见陷阱：18 万字共建作业里的血泪教训
 
 ## 为什么值钱

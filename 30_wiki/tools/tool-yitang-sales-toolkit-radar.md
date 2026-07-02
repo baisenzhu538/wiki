@@ -19,17 +19,24 @@ source_refs:
   - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-笔记.txt
   - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt
 related:
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[yt-panproduct-aesthetic-pool]]"
-  - "[[tool-yitang-best-practice-as-golden-finger]]"
   - "[[tool-agent-research-swarm]]"
-  - "[[framework-yitang-deliberate-practice-1plus4]]"
-  - "[[opc-ai-sales-agent-architecture]]"
   - "[[human-ai-collaboration-double-triangle]]"
+  - "[[opc-ai-sales-agent-architecture]]"
+  - "[[yt-panproduct-aesthetic-pool]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[framework-yitang-deliberate-practice-1plus4]]"
+  - "[[tool-yitang-best-practice-as-golden-finger]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[tool-yitang-sales-performance-management]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
+  - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[case-yitang-sales-transformation-jubensha-saas]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # 一堂销售工具箱六维雷达图
 
 ## 一句话

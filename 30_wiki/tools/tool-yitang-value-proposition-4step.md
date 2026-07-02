@@ -21,19 +21,23 @@ source_refs:
   - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
 related:
   - "[[tool-strategy-value-proposition]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[yt-panproduct-aesthetic-pool]]"
-  - "[[yt-panproduct-aesthetic-modeling]]"
-  - "[[framework-brand-three-degree]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[framework-brand-three-degree]]"
+  - "[[yt-panproduct-aesthetic-modeling]]"
   - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[yt-panproduct-aesthetic-pool]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
   - "[[master-decision-hygiene]]"
+  - "[[framework-一堂五步法-泛产品设计]]"
+  - "[[tool-yitang-sales-performance-management]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[case-yitang-sales-transformation-jubensha-saas]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # 一堂卖点提炼四步法：把功能语言变成客户愿意掏钱的价值语言
 
 > **一句话**：卖点不是功能清单，而是客户在特定场景里愿意为之付费的价值承诺；科学卖点提炼 = 写初始版本 → 建立审美 → 多轮打磨 → 落地应用。

@@ -13,10 +13,18 @@ source_refs:
   - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
   - 对话记录：2026-07-02 王语嫣 × 老朱 OPC战略讨论
 related:
-  - "[[zhu-time-os]]"
   - "[[zhu-domain-index]]"
+  - "[[zhu-time-os]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[tool-yitang-sales-performance-management]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[dk-yitang-sales-common-pitfalls]]"
 ---
-
 # OPC AI 销售智能体架构
 
 > 来源：2026-07-02 王语嫣 × 老朱 OPC 战略讨论

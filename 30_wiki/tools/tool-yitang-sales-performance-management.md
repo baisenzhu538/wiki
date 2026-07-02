@@ -20,18 +20,24 @@ source_refs:
   - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-笔记.txt
   - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt
 related:
-  - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[tool-yitang-customer-segmentation-4step]]"
   - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[yt-unit-model-overview]]"
   - "[[yt-management-goal-management]]"
-  - "[[yt-business-formula-six-level-logic]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
   - "[[opc-ai-sales-agent-architecture]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[yt-business-formula-six-level-logic]]"
+  - "[[yt-unit-model-overview]]"
+  - "[[framework-yitang-nine-layer-deep-dig]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[case-yitang-sales-transformation-meirongyuan]]"
+  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # 一堂销售业绩管理三步法
 
 ## 一句话

@@ -1,6 +1,4 @@
 ---
-
-
 id: yitang-methodology-system
 title: 一堂方法论体系：从科学做事到无限进步
 type: concept
@@ -35,23 +33,21 @@ quality_labels:
   - cited
   - principle
   - validated
-updated_at: '2026-06-28'
+updated_at: 2026-07-02
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-  - "[[yitang-domain-digest]]"
   - "[[一堂方法论体系总图]]"
-  - "[[ocr-一堂进步大地图]]"
-  - "[[ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步]]"
   - "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
+  - "[[ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步]]"
+  - "[[ocr-一堂进步大地图]]"
+  - "[[yitang-domain-digest]]"
   - "[[ocr-一堂进步大地图_compressed]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
 ---
-
-
-
 # 一堂方法论体系：从科学做事到无限进步
 
 > Source: 90_control/itingnao-kit/work/theme-yitang-methodology-summary.md（26 条听脑 AI 录音 meetingSummary 综合提炼）

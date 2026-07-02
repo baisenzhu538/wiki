@@ -1,5 +1,4 @@
 ---
-
 title: 单元模型概览：十大单元模型与三角色分工
 date: 2026-06-26
 type: framework
@@ -32,22 +31,24 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单sku模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md
-updated_at: '2026-06-28'
+updated_at: 2026-07-02
 related:
-  - "[[dk-单元模型-找单元模型实操难点]]"
-  - "[[ocr-一堂-单元模型-段位专家]]"
-  - "[[ocr-一堂-单元模型-单用户模型]]"
-  - "[[ocr-一堂-单元模型-对抗小抄01]]"
+  - "[[framework-yitang-five-step-to-time-management]]"
+  - "[[concept-最简单元模型]]"
   - "[[ocr-一堂-单元模型-规模经济对抗武器库]]"
+  - "[[tool-单元模型-壁垒预判]]"
+  - "[[ocr-一堂-单元模型-单用户模型]]"
+  - "[[ocr-一堂-单元模型-对抗小抄02]]"
   - "[[ocr-一堂-单元模型-单履约模型]]"
   - "[[ocr-一堂-单元模型-找基准值实操难点]]"
+  - "[[ocr-一堂-单元模型-对抗小抄01]]"
   - "[[ocr-一堂-单元模型-外部对抗地图]]"
-  - "[[concept-最简单元模型]]"
-  - "[[ocr-一堂-单元模型-对抗小抄02]]"
-  - "[[tool-单元模型-壁垒预判]]"
+  - "[[dk-单元模型-找单元模型实操难点]]"
+  - "[[ocr-一堂-单元模型-段位专家]]"
   - "[[ai单元模型口述蒋老师]]"
   - "[[ocr-一堂-单元模型-单商圈模型]]"
-  - "[[framework-yitang-five-step-to-time-management]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[tool-yitang-sales-performance-management]]"
 diagnostic_signals:
 - framework_lens: 缺少最小经济单元视角——总账会掩盖单元的真实盈利能力
   follow_up_question: 如果把这个业务拆成最小可复制单元，哪个单元的盈亏会最先让公司崩盘？
@@ -55,9 +56,7 @@ diagnostic_signals:
   follow_up_question: 我们争论的是"哪个单元更本质"还是"哪个单元更容易算"？当前阶段最需要盯紧的是哪个？
 - framework_lens: 选了错误的"主模型"——容易算的单元不代表业务核心经济逻辑
   follow_up_question: 除了单订单，单销售、单客户LTV、单城市/单门店的账是否也算过？哪个单元是真正拖累总账的漏项？
-
 ---
-
 ## Reusable Knowledge
 
 ### 核心定义

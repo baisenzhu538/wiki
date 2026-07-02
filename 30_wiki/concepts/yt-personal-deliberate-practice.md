@@ -1,5 +1,4 @@
 ---
-
 domain:
   - personal-growth
 
@@ -9,7 +8,7 @@ type: concept
 status: reviewed
 confidence: 0.8
 created_at: 2026-05-06
-updated_at: 2026-06-30
+updated_at: 2026-07-02
 difficulty: foundational
 language: zh-CN
 query_triggers:
@@ -30,6 +29,7 @@ source_refs:
   - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 related:
   - "[[dk-content-muscle-memory-vs-knowledge]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
 ---
 # 科学成长（刻意练习）
 

@@ -9,7 +9,7 @@ confidence: 0.85
 difficulty: "intermediate"
 language: "zh-CN"
 created_at: 2026-06-30T14:17:42+00:00
-updated_at: 2026-06-30T15:23:37+00:00
+updated_at: 2026-07-02
 author: "老顽童"
 reviewed_by: "欧阳锋"
 review_date: "2026-06-30"
@@ -32,18 +32,18 @@ quality_labels:
   - principle
   - validated
 related:
-  - "[[framework-founder-ip-three-positioning]]"
   - "[[framework-content-business-six-step]]"
+  - "[[dk-founding-ip-trust-over-traffic]]"
   - "[[case-yitang-yitang-shortvideo-industrialization]]"
-  - "[[yt-barrier-brand-equity]]"
   - "[[writing-content]]"
   - "[[case-yitang-goat-milk-channel-partnership]]"
-  - "[[dk-founding-ip-trust-over-traffic]]"
+  - "[[yt-barrier-brand-equity]]"
   - "[[dk-content-implicit-value-without-price]]"
+  - "[[framework-founder-ip-three-positioning]]"
+  - "[[tool-yitang-value-proposition-4step]]"
 pipeline:
   - "confidence-draft"
 ---
-
 # 品牌三度
 
 > **Burn line**: 网红追求流量，创始人 IP 追求信任。流量只解决"知不知道"，品牌三度解决"信不信、买不买"。

@@ -21,17 +21,23 @@ source_refs:
   - 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-笔记.txt
   - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
 related:
+  - "[[tool-iceberg-triangle-modeling]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[framework-yitang-channel-exploration-4step]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[framework-一堂五步法-泛产品设计]]"
   - "[[yt-business-formula-parameter-iceberg]]"
-  - "[[tool-iceberg-triangle-modeling]]"
-  - "[[framework-yitang-channel-exploration-4step]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
   - "[[tool-yitang-sales-performance-management]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[case-yitang-sales-transformation-jubensha-saas]]"
+  - "[[case-yitang-sales-transformation-meirongyuan]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # 一堂销售过程拆解三步法（用户决策路径地图）
 
 ## 一句话

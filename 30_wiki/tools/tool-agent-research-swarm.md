@@ -1,5 +1,4 @@
 ---
-
 id: "tool-agent-research-swarm"
 title: "Agent 调研 Swarm 模式工具"
 type: "tool"
@@ -20,11 +19,12 @@ source_refs:
   - "https://edison-a-n.github.io/2026/04/19/multi-agent-architecture-survey/"
   - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
 related:
-  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
   - "[[case-demand-travel-agent]]"
-  - "[[case-ji-hao-skills-market]]"
   - "[[case-truman-ai-partner]]"
   - "[[case-ban-fei-mao-from-assignment-to-tool]]"
+  - "[[case-ji-hao-skills-market]]"
+  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: "2026-06-28"
@@ -33,11 +33,10 @@ quality_labels:
   - actionable
   - cited
   - validated
-updated_at: '2026-06-28'
+updated_at: 2026-07-02
 confidence: 0.78
 trust_level: "medium"
 ---
-
 # Agent 调研 Swarm 模式工具
 
 ## 原始表述

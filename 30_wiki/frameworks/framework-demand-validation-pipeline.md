@@ -1,5 +1,4 @@
 ---
-
 id: framework-demand-validation-pipeline
 title: 需求验证流水线
 type: framework
@@ -14,7 +13,7 @@ quality_labels:
   - quality
   - validated
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: 2026-07-02
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
@@ -23,15 +22,16 @@ trust_level: high
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - "[[yt-demand-early-validation]]"
   - "[[framework-demand-lean-bridge]]"
-  - "[[tool-lean-fake-product]]"
-  - "[[yt-demand-hierarchy-model]]"
   - "[[case-demand-b2b-enterprise-erp]]"
   - "[[case-demand-b2c-consumer-insight]]"
+  - "[[yt-demand-early-validation]]"
+  - "[[tool-lean-fake-product]]"
   - "[[dk-demand-signal-vs-noise]]"
+  - "[[yt-demand-hierarchy-model]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[tool-yitang-value-proposition-4step]]"
 ---
-
 # 需求验证流水线
 
 > **Burn line**: 从「我觉得用户需要」到「验证用户确实需要」，中间隔着一条流水线。跳过任何环节，都会让需求判断变成赌博。

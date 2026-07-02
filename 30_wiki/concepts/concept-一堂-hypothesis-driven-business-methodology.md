@@ -1,5 +1,4 @@
 ---
-
 id: concept-一堂-hypothesis-driven-business-methodology
 title: 一堂假设驱动型创业分析方法论
 type: concept
@@ -21,13 +20,16 @@ quality_labels:
   - principle
   - quality
   - validated
-updated_at: '2026-06-16'
+updated_at: 2026-07-02
 related:
-- "[[concept-一堂-key-assumptions]]"
-- "[[concept-一堂-product-kernel]]"
-- "[[case-一堂-无人餐厅-hypothesis-failure]]"
-- "[[yt-foresight-15-char-mantra]]"
-- "[[concept-一堂-kernel-validation]]"
+  - "[[yt-foresight-15-char-mantra]]"
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[concept-一堂-kernel-validation]]"
+  - "[[concept-一堂-product-kernel]]"
+  - "[[case-一堂-无人餐厅-hypothesis-failure]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -54,7 +56,6 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 ---
-
 # 一堂假设驱动型创业分析方法论
 
 ## 核心定义

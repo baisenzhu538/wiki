@@ -1,5 +1,4 @@
 ---
-
 title: 目标管理
 type: concept
 domain:
@@ -26,9 +25,11 @@ related:
   - "[[一堂方法论体系总图]]"
   - "[[yitang-course-map]]"
   - "[[yt-system-course-catalog]]"
-  - "[[yt-tool-okr-cycle]]"
   - "[[yt-management-business-formula]]"
-updated_at: '2026-06-28'
+  - "[[yt-tool-okr-cycle]]"
+  - "[[tool-yitang-sales-performance-management]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
+updated_at: 2026-07-02
 id: yt-management-goal-management
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -38,9 +39,7 @@ trust_level: medium-high
 source_refs:
 - 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
 source_context: （原始 source 无法追溯，source_refs 已清空，待后续补充）
-
 ---
-
 # 目标管理
 
 > 来源：一堂管理必修课「管业务」模块，含认知篇+OKR工具篇。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

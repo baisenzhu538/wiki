@@ -22,19 +22,20 @@ source_refs:
   - 00_inbox/销售专题/_processed/销售体系之序-案例-剧本杀-销售阶段拆解_vlm.md
   - 00_inbox/销售专题/_processed/销售体系之序-案例-剧本杀-产品卖给谁_vlm.md
 related:
-  - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
   - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[tool-yitang-sales-performance-management]]"
   - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[framework-lean-pivot-decision]]"
   - "[[opc-ai-sales-agent-architecture]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[tool-yitang-sales-performance-management]]"
+  - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # 案例：剧本杀 SaaS 销售体系从零搭建——兼职团队跑通科学销售五步法
 
 > 核心结论：一家为剧本杀门店提供全息影像 SaaS 系统的早期创业公司，在只有 1 名专职销售 + 多名兼职销售、年目标约 200 万元的资源约束下，通过「用户分层 → 卖点提炼 → 过程拆解 → 目标到人 → 激励 + 工具」五步改造，把原本「扫街无重点、卖点各说各话、凭感觉推进」的粗放销售，变成可跟踪、可复盘、可沉淀的基础打法。本案例说明：To B 初创 SaaS 即便没有专职销售铁军，也可以用兼职团队把科学销售方法论打磨出来，为后续规模化复制奠定基础。

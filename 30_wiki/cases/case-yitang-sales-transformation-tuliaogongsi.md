@@ -20,20 +20,20 @@ source_refs:
   - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
   - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
 related:
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[master-decision-hygiene]]"
-  - "[[framework-demand-validation-pipeline]]"
-  - "[[yt-management-goal-management]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
   - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[framework-demand-validation-pipeline]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
   - "[[case-yitang-sales-transformation-meirongyuan]]"
   - "[[case-yitang-sales-transformation-jubensha-saas]]"
+  - "[[yt-management-goal-management]]"
+  - "[[framework-yitang-nine-layer-deep-dig]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[master-decision-hygiene]]"
+  - "[[tool-yitang-sales-performance-management]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # 案例：涂料公司“意图”——从 10 万线索中筛出 220 个高价值客户的分层转型
 
 > 核心结论：一家做工程涂料的 B2B 公司，在“什么客户都做”的阶段差点资金链断裂；后来用一堂用户分层四步法，把约 10 万条线索逐层过滤为约 20 条 S 级 + 约 200 条 A 级重点客户，销售约 80% 的精力聚焦在 Top 220 客户上，逐步从危机走向数千万级稳定营收。本案例说明：传统工业分销场景下，**分层不是简单贴标签，而是把有限销售资源押注在最能完成阶段目标的那批客户上**。

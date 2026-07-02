@@ -36,17 +36,22 @@ tags:
   - "#incentive"
   - "#yitang"
 related:
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[yt-management-goal-management]]"
+  - "[[yt-personal-deliberate-practice]]"
+  - "[[opc-ai-sales-agent-architecture]]"
+  - "[[framework-yitang-deliberate-practice-1plus4]]"
   - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[tool-yitang-sales-performance-management]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[framework-yitang-deliberate-practice-1plus4]]"
-  - "[[yt-personal-deliberate-practice]]"
-  - "[[yt-management-goal-management]]"
-  - "[[opc-ai-sales-agent-architecture]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[case-yitang-sales-transformation-meirongyuan]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # 一堂六维销售激励模型
 
 > **一句话**：激励不是事后奖励，而是事前设计的发动机。

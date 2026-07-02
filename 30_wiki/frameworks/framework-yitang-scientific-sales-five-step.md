@@ -20,16 +20,26 @@ source_refs:
   - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
   - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
 related:
-  - "[[yt-five-step-method-complete]]"
   - "[[yitang-methodology-system]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
+  - "[[yt-five-step-method-complete]]"
   - "[[framework-yitang-channel-exploration-4step]]"
-  - "[[yt-unit-model-overview]]"
   - "[[opc-ai-sales-agent-architecture]]"
+  - "[[framework-一堂五步法-泛产品设计]]"
+  - "[[yt-unit-model-overview]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[tool-yitang-sales-performance-management]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[case-yitang-sales-transformation-jubensha-saas]]"
+  - "[[case-yitang-sales-transformation-meirongyuan]]"
+  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # 一堂科学销售五步法
 
 ## 一句话

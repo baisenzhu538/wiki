@@ -1,5 +1,4 @@
 ---
-
 domain:
 - yitang
 id: yt-business-formula-six-level-logic
@@ -17,22 +16,20 @@ quality_labels:
   - principle
   - quality
   - validated
-updated_at: '2026-06-28'
+updated_at: 2026-07-02
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
-- "[[yt-management-business-formula]]"
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-decision-depth-ladder]]"
-- "[[yt-model-deep-review-iceberg]]"
-
+  - "[[yt-business-formula-abc-model]]"
+  - "[[yt-model-deep-review-iceberg]]"
+  - "[[yt-management-business-formula]]"
+  - "[[yt-business-formula-parameter-iceberg]]"
+  - "[[yt-decision-depth-ladder]]"
+  - "[[tool-yitang-sales-performance-management]]"
 ---
-
-
 # 业务公式六层逻辑关系（L1 模糊 → L6 动态）
 
 > 一堂把人对业务公式的理解深度分为 6 层：从 L1「模糊」的安慰剂，到 L6「动态」的导航仪。每一层不仅对应公式的复杂度，更对应管理者的决策能力。  

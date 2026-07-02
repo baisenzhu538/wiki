@@ -22,15 +22,17 @@ source_refs:
   - 00_inbox/销售专题/_processed/销售体系之序-案例-美容院-销售过程拆解_vlm.md
   - 00_inbox/销售专题/_processed/销售体系之序-案例-美容院-激励机制调整_vlm.md
 related:
-  - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[framework-yitang-channel-exploration-4step]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
   - "[[yt-management-goal-management]]"
   - "[[framework-yitang-nine-layer-deep-dig]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[tool-yitang-sales-performance-management]]"
+  - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
 diagnostic_signals:
   - signal: 总部新目标拆不到门店/客户，店长不配合填表
     framework_lens: 销售管理 / 组织协同
@@ -42,9 +44,8 @@ diagnostic_signals:
     framework_lens: 激励设计 / 利益对齐
     follow_up_question: 激励是否覆盖了「到店—成交—复购」全链路，而不是只奖励前端或后端？
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # 案例：美容院连锁销售体系改造——从总部门店冲突到新客转化率提升
 
 > 核心结论：一家年营收约千万级的美容院连锁，在新总监将目标翻倍时遭遇了「总部想管、门店抗拒、新渠道荒废」的典型复制期冲突。通过「用户分层 → 过程拆解 → 目标拆细 → 利益重绑 → 数据减负」五方面改造，样板店新客到店转化率从约 15%-20% 提升至约 25%，总部与门店从对抗走向协同。本案例说明：To C 门店销售体系改造，必须先统一利益、再谈数据；先做样板、再推全国。

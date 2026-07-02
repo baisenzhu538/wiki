@@ -1,5 +1,4 @@
 ---
-
 domain:
 - yitang
 id: yt-business-formula-parameter-iceberg
@@ -17,22 +16,21 @@ quality_labels:
   - principle
   - quality
   - validated
-updated_at: '2026-06-28'
+updated_at: 2026-07-02
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
-- "[[yt-management-business-formula]]"
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-six-level-logic]]"
-- "[[yt-entrepreneur-unit-model]]"
-- "[[yt-model-deep-review-iceberg]]"
-
+  - "[[yt-business-formula-abc-model]]"
+  - "[[yt-model-deep-review-iceberg]]"
+  - "[[yt-entrepreneur-unit-model]]"
+  - "[[yt-business-formula-six-level-logic]]"
+  - "[[yt-management-business-formula]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[tool-yitang-sales-performance-management]]"
 ---
-
-
 # 业务公式参数冰山（L1-L6）
 
 > 一堂把业务公式中的参数按深度分为 6 层：水面上的 L1-L2 是「靠经验」的基础/财务参数，水面下的 L3-L4 是「靠分析」的分层/转化参数，最深层的 L5-L6 是「靠创新」的创新/魔法参数。  

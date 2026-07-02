@@ -20,21 +20,23 @@ source_refs:
   - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
   - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
 related:
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[human-ai-collaboration-double-triangle]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[zhu-time-os]]"
   - "[[zhu-domain-index]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[zhu-time-os]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[human-ai-collaboration-double-triangle]]"
+  - "[[opc-ai-sales-agent-architecture]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[tool-yitang-sales-performance-management]]"
+  - "[[case-yitang-sales-transformation-jubensha-saas]]"
+  - "[[case-yitang-sales-transformation-meirongyuan]]"
+  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # OPC 销售对话助手智能体
 
 ## 一句话

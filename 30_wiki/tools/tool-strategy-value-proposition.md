@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-value-proposition
 title: 价值主张设计工具：三问 + 六维排序法
 aliases:
@@ -21,17 +20,15 @@ quality_labels:
   - actionable
   - validated
 created_at: '2026-06-22'
-updated_at: '2026-06-29'
+updated_at: 2026-07-02
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- "[[strategy-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+  - "[[strategy-domain-digest]]"
+  - "[[pending_unknown]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
 ---
-
 # 价值主张设计工具：三问 + 六维排序法
 
 > 业务设计六要素第 2 要素。核心问题：**我们提供什么独特价值，让客户选择我们而不是对手？**

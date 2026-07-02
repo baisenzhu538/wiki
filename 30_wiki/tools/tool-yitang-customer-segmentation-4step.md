@@ -21,17 +21,25 @@ source_refs:
   - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
   - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
 related:
-  - "[[framework-demand-validation-pipeline]]"
-  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
-  - "[[tool-iceberg-triangle-modeling]]"
-  - "[[master-decision-hygiene]]"
-  - "[[yt-five-step-method-complete]]"
   - "[[yitang-methodology-system]]"
+  - "[[tool-iceberg-triangle-modeling]]"
+  - "[[framework-demand-validation-pipeline]]"
+  - "[[yt-five-step-method-complete]]"
+  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
+  - "[[master-decision-hygiene]]"
   - "[[framework-一堂五步法-泛产品设计]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[tool-yitang-sales-performance-management]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # 一堂用户分层四步法（SABC 分级）
 
 ## 一句话

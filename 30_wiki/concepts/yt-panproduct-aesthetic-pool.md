@@ -22,15 +22,17 @@ query_triggers:
 - src_unknown·审美卡片：最佳实践池子
 - src_unknown
 related:
+  - "[[yt-panproduct-aesthetic-collection]]"
+  - "[[dk-ai-design-pitfalls]]"
+  - "[[yt-model-aesthetic-progression]]"
   - "[[一堂]]"
   - "[[yt-panproduct-aesthetic-modeling]]"
-  - "[[yt-panproduct-aesthetic-collection]]"
-  - "[[yt-model-aesthetic-progression]]"
   - "[[yt-model-pan-product-aesthetic-toolkit]]"
-  - "[[tool-scene-design-language-translation]]"
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[dk-ai-design-pitfalls]]"
   - "[[tool-ai-deliverable-polish-loop]]"
+  - "[[case-live81-ai-trademark-design]]"
+  - "[[tool-scene-design-language-translation]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子.md
