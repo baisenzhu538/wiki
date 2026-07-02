@@ -6,7 +6,7 @@ status: active
 author: 王语嫣
 reviewed_by: 欧阳锋
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 domain:
   - personal-os
   - sales
@@ -15,26 +15,24 @@ source_refs:
   - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
   - 对话记录：2026-07-02 王语嫣 × 老朱 OPC战略讨论
 related:
-  - "[[zhu-domain-index]]"
   - "[[zhu-time-os]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[tool-yitang-sales-performance-management]]"
+  - "[[case-yitang-sales-transformation-meirongyuan]]"
+  - "[[case-yitang-sales-transformation-jubensha-saas]]"
   - "[[tool-agent-spec-yitang-value-proposition]]"
-  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
+  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
   - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[tool-yitang-sales-performance-management]]"
   - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
-  - "[[case-yitang-sales-transformation-meirongyuan]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
-  - "[[case-yitang-sales-transformation-meirongyuan]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
+  - "[[zhu-domain-index]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
+  - "[[tool-agent-spec-yitang-customer-segmentation]]"
+  - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
 ---
 # OPC AI 销售智能体架构
 

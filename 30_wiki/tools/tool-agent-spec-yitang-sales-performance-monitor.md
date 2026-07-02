@@ -22,18 +22,20 @@ source_refs:
   - 30_wiki/personal-os/opc-ai-sales-agent-architecture.md
   - 30_wiki/frameworks/framework-yitang-scientific-sales-five-step.md
 related:
-  - "[[tool-opc-sales-dialogue-assistant]]"
+  - "[[zhu-time-os]]"
+  - "[[yt-management-goal-management]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[opc-ai-sales-agent-architecture]]"
   - "[[tool-yitang-sales-performance-management]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[human-ai-collaboration-double-triangle]]"
-  - "[[zhu-time-os]]"
   - "[[yt-business-formula-six-level-logic]]"
-  - "[[yt-management-goal-management]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
+  - "[[human-ai-collaboration-double-triangle]]"
+  - "[[tool-agent-spec-yitang-customer-segmentation]]"
+  - "[[tool-agent-spec-yitang-value-proposition]]"
+  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # OPC 销售业绩监控助手 Agent Spec
 
 > **一句话**：基于「一堂销售业绩管理三步法」，把创始人手中的目标、Pipeline 和跟进记录变成一份可执行的「本周 Gap 诊断 + 优先级排序 + 策略建议」，只输出建议，不自动执行任何跟进动作。

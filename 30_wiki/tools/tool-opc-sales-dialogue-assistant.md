@@ -20,22 +20,24 @@ source_refs:
   - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
   - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
 related:
+  - "[[zhu-time-os]]"
+  - "[[case-yitang-sales-transformation-meirongyuan]]"
+  - "[[case-yitang-sales-transformation-jubensha-saas]]"
+  - "[[tool-agent-spec-yitang-value-proposition]]"
+  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[opc-ai-sales-agent-architecture]]"
+  - "[[tool-yitang-sales-performance-management]]"
   - "[[dk-yitang-sales-common-pitfalls]]"
   - "[[zhu-domain-index]]"
   - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[zhu-time-os]]"
+  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
   - "[[tool-yitang-sales-process-decomposition]]"
   - "[[human-ai-collaboration-double-triangle]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-agent-spec-yitang-value-proposition]]"
-  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
-  - "[[case-yitang-sales-transformation-meirongyuan]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
+  - "[[tool-agent-spec-yitang-customer-segmentation]]"
+  - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

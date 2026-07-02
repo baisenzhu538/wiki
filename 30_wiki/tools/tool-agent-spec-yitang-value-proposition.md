@@ -21,19 +21,21 @@ source_refs:
   - 30_wiki/tools/tool-opc-sales-dialogue-assistant.md
   - 30_wiki/personal-os/opc-ai-sales-agent-architecture.md
 related:
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[human-ai-collaboration-double-triangle]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[framework-brand-three-degree]]"
-  - "[[tool-strategy-value-proposition]]"
   - "[[zhu-time-os]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[opc-ai-sales-agent-architecture]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
+  - "[[human-ai-collaboration-double-triangle]]"
+  - "[[tool-strategy-value-proposition]]"
+  - "[[framework-brand-three-degree]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[tool-agent-spec-yitang-customer-segmentation]]"
+  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
+  - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # OPC 卖点提炼助手 Agent Spec
 
 > **一句话**：把产品功能语言翻译成特定客户愿意为之付费的价值语言，输出可直接选用或微调的 Top3 卖点、多触点话术与风险提示。

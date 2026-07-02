@@ -22,20 +22,22 @@ source_refs:
   - 30_wiki/personal-os/opc-ai-sales-agent-architecture.md
   - 30_wiki/frameworks/framework-yitang-scientific-sales-five-step.md
 related:
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[human-ai-collaboration-double-triangle]]"
   - "[[zhu-time-os]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[opc-ai-sales-agent-architecture]]"
   - "[[tool-yitang-sales-performance-management]]"
   - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[tool-opc-sales-dialogue-assistant]]"
+  - "[[human-ai-collaboration-double-triangle]]"
+  - "[[tool-yitang-sales-process-decomposition]]"
+  - "[[tool-yitang-value-proposition-4step]]"
+  - "[[tool-agent-spec-yitang-value-proposition]]"
+  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
+  - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
 created_at: 2026-07-02
-updated_at: '2026-07-02'
+updated_at: 2026-07-02
 ---
-
 # OPC 客户分级智能体 Agent Spec
 
 ## 一句话
