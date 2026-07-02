@@ -182,6 +182,9 @@ properties:
         - ai-saas
         - sales
         - personal-os
+        - epistemic-foundations
+        - decision-science
+        - marketing
     description: >
       Knowledge domain classification. Multiple domains allowed.
 

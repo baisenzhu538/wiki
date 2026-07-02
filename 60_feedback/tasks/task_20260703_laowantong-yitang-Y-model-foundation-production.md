@@ -1,32 +1,32 @@
 ---
 id: task_20260703_laowantong-yitang-Y-model-foundation-production
-title: "一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（3 framework + 1 tool + 1 dk + 2 case）"
+title: 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（3 framework + 1 tool + 1 dk + 2 case）
 type: task
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童(Kimi)
+assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-03
-updated_at: 2026-07-03（王语嫣裁定：Card 1 改为重写 yt-decision-y-model；Card 2-3 阻塞于用户素材）
+updated_at: '2026-07-02T17:39:10.156794+00:00'
 expected_cards: 7
 dependencies: []
 source_refs:
-  - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
-  - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt
-  - 00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md
-  - 00_inbox/底层逻辑之一-Y模型/科学理念-Y模型.png
-  - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
+- 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
+- 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt
+- 00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md
+- 00_inbox/底层逻辑之一-Y模型/科学理念-Y模型.png
+- 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
 related:
-  - yt-decision-y-model
-  - framework-yitang-shishi-qiushi
-  - framework-yitang-jiefang-sixiang
-  - tool-yitang-Y-model-application
-  - dk-yitang-Y-model-pitfalls
-  - case-yitang-Y-model-seven-applications
-  - case-yitang-Y-model-advertising-turnaround
-  - yt-entrepreneur-scientific-method
-  - yt-entrepreneur-truth-seeking
-  - yt-model-liberate-thinking-layers
+- yt-decision-y-model
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
+- tool-yitang-Y-model-application
+- dk-yitang-Y-model-pitfalls
+- case-yitang-Y-model-seven-applications
+- case-yitang-Y-model-advertising-turnaround
+- yt-entrepreneur-scientific-method
+- yt-entrepreneur-truth-seeking
+- yt-model-liberate-thinking-layers
 ---
 
 # 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（3 framework + 1 tool + 1 dk + 2 case）
