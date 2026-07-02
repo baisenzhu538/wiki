@@ -157,4 +157,4 @@ done
 ---
 
 *维护人：王语嫣 | 最后更新：2026-06-30（#35 reviewed）*
-|49|`task_20260702_laowantong-opc-sales-agent-incremental-specs`|OPC 销售智能体军团增量：开场/异议/自我驱动 3 张 agent-spec| in_progress | 老顽童(Kimi) |3 张|依赖 #44 终审通过；建议 #47 完成至少 2 张后再启动|`60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-incremental-specs.md`|用户提出「边做边玩」补充销售智能体军团缺口：开场 3 分钟助手 / 异议处理助手 / 自我驱动助手；优先级 P2；Agent 做带宽、人做判断；反向更新 OPC 架构与对话助手 related|
+|49|`task_20260702_laowantong-opc-sales-agent-incremental-specs`|OPC 销售智能体军团增量：开场/异议/自我驱动 3 张 agent-spec| claimed-kimi | 老顽童(Kimi) |3 张|依赖 #44 终审通过；建议 #47 完成至少 2 张后再启动|`60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-incremental-specs.md`|用户提出「边做边玩」补充销售智能体军团缺口：开场 3 分钟助手 / 异议处理助手 / 自我驱动助手；优先级 P2；Agent 做带宽、人做判断；反向更新 OPC 架构与对话助手 related|

@@ -15,30 +15,34 @@ source_refs:
   - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
   - 对话记录：2026-07-02 王语嫣 × 老朱 OPC战略讨论
 related:
-  - "[[zhu-time-os]]"
-  - "[[case-yitang-sales-transformation-meirongyuan]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
-  - "[[tool-agent-spec-yitang-value-proposition]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[zhu-domain-index]]"
+  - "[[tool-agent-spec-yitang-customer-segmentation]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[zhu-domain-index]]"
+  - "[[zhu-time-os]]"
+  - "[[dk-yitang-sales-common-pitfalls]]"
+  - "[[case-yitang-sales-transformation-jubensha-saas]]"
   - "[[tool-agent-spec-yitang-sales-process-tracker]]"
+  - "[[framework-yitang-sales-incentive-6d]]"
+  - "[[tool-agent-spec-yitang-value-proposition]]"
+  - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
   - "[[tool-yitang-sales-process-decomposition]]"
   - "[[tool-yitang-value-proposition-4step]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[tool-agent-spec-yitang-customer-segmentation]]"
   - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
+  - "[[tool-yitang-sales-performance-management]]"
+  - "[[case-yitang-sales-transformation-meirongyuan]]"
+  - "[[tool-yitang-customer-segmentation-4step]]"
+  - "[[tool-agent-spec-yitang-opening-3min]]"
+  - "[[tool-agent-spec-yitang-objection-handler]]"
+  - "[[tool-agent-spec-yitang-self-motivation]]"
 ---
 # OPC AI 销售智能体架构
 
 > 来源：2026-07-02 王语嫣 × 老朱 OPC 战略讨论
 > 对齐框架：一堂科学销售五步法（A.提炼卖点 → B.拆解过程 → C.推进业绩 → D.激励团队 → E.打造工具）
 > 更新规则：每次讨论OPC架构后更新此文件
+> 最近更新：2026-07-02 补充 #47 / #49 共 7 张 agent-spec 卡及其调用关系
 
 ---
 
@@ -220,7 +224,67 @@ related:
 
 ---
 
-## 四、OPC 特别注意事项
+## 四、已落地的 7 张 agent-spec 卡
+
+#47 和 #49 已将一堂科学销售方法论中的高频能力编译为可直接运行的 agent-spec 卡。它们既可以被 `tool-opc-sales-dialogue-assistant` 作为主 Agent 调用，也可以独立使用。
+
+### 4.1 调用关系图
+
+```
+                    ┌─────────────────────────────┐
+                    │  tool-opc-sales-dialogue-assistant │
+                    │      （用户面对的主 Agent）      │
+                    └─────────────┬───────────────┘
+                                  │ 根据对话上下文调度
+        ┌─────────────────────────┼─────────────────────────┐
+        │                         │                         │
+        ▼                         ▼                         ▼
+┌──────────────────┐   ┌──────────────────┐   ┌──────────────────┐
+│  tool-agent-spec │   │  tool-agent-spec │   │  tool-agent-spec │
+│  -yitang-opening │   │  -yitang-value   │   │  -yitang-sales   │
+│       -3min      │   │  -proposition    │   │ -process-tracker │
+│   开场 3 分钟     │   │   卖点提炼        │   │   阶段追踪        │
+└────────┬─────────┘   └────────┬─────────┘   └────────┬─────────┘
+         │                      │                      │
+         └──────────────────────┼──────────────────────┘
+                                │
+              ┌─────────────────┴─────────────────┐
+              │  tool-agent-spec-yitang-customer-segmentation │
+              │            客户分级（P0 前置）              │
+              └───────────────────────────────────┘
+                                │
+         ┌──────────────────────┼──────────────────────┐
+         │                      │                      │
+         ▼                      ▼                      ▼
+┌──────────────────┐   ┌──────────────────┐   ┌──────────────────┐
+│  tool-agent-spec │   │  tool-agent-spec │   │  tool-agent-spec │
+│  -yitang-objection│   │  -yitang-sales   │   │  -yitang-self    │
+│    -handler      │   │ -performance-monitor│   │   -motivation   │
+│   异议处理        │   │   业绩监控        │   │   自我驱动        │
+└──────────────────┘   └──────────────────┘   └──────────────────┘
+```
+
+### 4.2 各卡触发场景
+
+| 对话阶段 | 触发的 agent-spec | 输出价值 |
+|:---|:---|:---|
+| **首次接触** | `tool-agent-spec-yitang-opening-3min` | 30 秒自我介绍 + 价值钩子 + 第一个开放问题 |
+| **建立信任/诊断需求** | `tool-agent-spec-yitang-customer-segmentation` | S/A/B/C 分级 + 跟进策略 |
+| **准备方案/话术** | `tool-agent-spec-yitang-value-proposition` | 针对该客户的 Top3 卖点 + 多触点话术 |
+| **推进中** | `tool-agent-spec-yitang-sales-process-tracker` | 阶段判断 + 卡点 + 下一步动作 |
+| **客户提出异议** | `tool-agent-spec-yitang-objection-handler` | 异议类型 + 真实顾虑 + 应对策略 + 回复选项 |
+| **周/月复盘** | `tool-agent-spec-yitang-sales-performance-monitor` | Gap 诊断 + 优先级客户 + 下周策略 |
+| **个人倦怠/拖延** | `tool-agent-spec-yitang-self-motivation` | 最小动作清单 + 动机提醒 + 倦怠预警 |
+
+### 4.3 人机边界
+
+- **Agent 做带宽**：信息处理、初稿生成、提醒预警、标准化判断。
+- **人做判断**：首次信任建立、关键谈判、复杂异议、价格/合同/法律承诺、最终发送确认。
+- **不自动执行**：所有 agent-spec 只输出建议，不直接发送消息、不修改 CRM、不代替创始人做最终决策。
+
+---
+
+## 五、OPC 特别注意事项
 
 原版销售五步法假设"有销售团队"，OPC 需要改编：
 
