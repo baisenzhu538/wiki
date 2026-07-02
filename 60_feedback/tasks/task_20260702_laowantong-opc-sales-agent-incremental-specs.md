@@ -2,12 +2,13 @@
 id: task_20260702_laowantong-opc-sales-agent-incremental-specs
 title: "OPC 销售智能体军团增量：开场/异议/自我驱动 3 张 agent-spec"
 type: task
-status: queued
+status: in_progress
 priority: P2
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 created_at: 2026-07-02
 updated_at: 2026-07-02
+started_at: 2026-07-02
 expected_cards: 3
 dependencies:
   - "[[task_20260702_laowantong-yitang-scientific-sales-methodology-production]]"
@@ -206,7 +207,7 @@ related:
 
 1. **不替代真实人际互动**：开场和异议处理是信任建立的关键节点，Agent 只提供草稿，创始人必须自己发送。
 2. **不制造销售压力**：自我驱动助手的目标是帮助用户持续行动，而不是制造焦虑。
-3. **#47 优先**：本任务优先级为 P2，建议在 `#47` 至少完成 2 张核心 agent-spec 后再启动。
+3. **`#47` 已终审通过**：本任务现在正式启动，依赖已全部满足。
 4. **System Prompt 必须可运行**：每张卡提供 system prompt 后，需用 1-2 段真实对话测试。
 5. **输出需包含方法论溯源**：调用哪些 KDO 卡、跳过哪些卡、为什么跳过。
 
@@ -222,7 +223,9 @@ related:
 - [ ] 每张卡 Related ≥5，且至少 2 条跨域。
 - [ ] System Prompt 模板在 Claude 或 GPT 中实测可运行，输出格式稳定。
 - [ ] `opc-ai-sales-agent-architecture.md` 的 related 已加入 3 张新卡回链，并补充其在智能体军团中的位置。
+- [ ] `opc-ai-sales-agent-architecture.md` 正文中补充 7 张 agent-spec 卡（#47 的 4 张 + #49 的 3 张）的调用关系图和场景说明。
 - [ ] `tool-opc-sales-dialogue-assistant` 的 related 已加入 3 张新卡回链。
+- [ ] 3 张新 agent-spec 的 System Prompt 在真实对话中实测，并记录迭代日志。
 - [ ] 欧阳锋终审通过。
 
 ---
@@ -240,8 +243,8 @@ related:
 ## 六、队列位置
 
 - **入队编号**：`#49`
-- **状态**：`queued`
-- **依赖**：`#44` 终审通过；建议 `#47` 完成至少 2 张卡后再启动
+- **状态**：`in_progress`
+- **依赖**：`#44` 已终审通过；`#47` 已终审通过
 - **预计工时**：老顽童生产 2-3 天 + 欧阳锋终审 1 天
 
 ---
