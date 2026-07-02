@@ -41,6 +41,30 @@ updated_at: '2026-07-03'
 
 ---
 
+## 关键证据
+
+| 证据点 | 来源 | 可检验性 |
+|:---|:---|:---|
+| 14 个真实模型测试场景 | `60_feedback/agent-traces/2026-07-02/` 下的 16 个 trace 文件 | 可复现：用 `run_agent_spec_tests.py` + 同版本 System Prompt 可重新跑 |
+| 2 个 P1 截断问题 | customer-segmentation 5 线索、performance-monitor 10 客户 Pipeline 首轮输出 | 可在 trace 文件中看到输出在方法论溯源前截断 |
+| v1.1 复测通过 | customer-segmentation 4061 字符完整输出；performance-monitor 4400 字符完整输出 | trace 文件名含 `v1.1`，可核对输出长度与完整性 |
+| 0 P0 阻塞问题 | 7 张 agent-spec 的 14 个首轮输出人工检查 | 无有害、违法、越界输出 |
+| 9 条 KDO 回流项 | 任务单第七节「KDO 回流清单」 | 每条对应一个 agent-spec 文件的迭代日志更新 |
+
+> 注：测试输入为基于 #44 课程案例脱敏改编的合成数据；真实客户对话测试需后续创始人提供。
+
+---
+
+## 可迁移场景
+
+1. **任何带 System Prompt 的 agent-spec 卡上线前验证**：不仅是销售域，产品、运营、内容生成等 agent 都可复用「真实模型 + 多场景 + 截断检查」的 Wave 1 方法。
+2. **输出长度敏感的长 Prompt 场景**：当 System Prompt 本身已占用 2000–3000 token 时，必须设计「摘要 + Top N 展开」策略。
+3. **输入不完整的真实使用场景**：用户不会每次都提供完整上下文，agent-spec 需要内置默认框架和降级策略。
+4. **伪精确风险**：任何涉及完成率、概率、置信度的 agent，都应优先使用高/中/低或乐观/中性/悲观描述。
+5. **KDO 回流工作流**：测试发现 → 更新 agent-spec → 更新迭代日志 → 更新回流清单 → 新建/更新 case 卡。
+
+---
+
 ## 一、Background：为什么测
 
 - #47 和 #49 产出了 7 张 OPC 销售智能体 agent-spec 卡，每张都带 System Prompt 模板。
@@ -90,7 +114,7 @@ updated_at: '2026-07-03'
 - customer-segmentation 医药零售 5 线索 v1.1：输出 4061 字符，完整覆盖 5 条线索，方法论溯源未截断。
 - performance-monitor 智能药柜 10 客户 v1.1：输出 4400 字符，完整覆盖 Top 5 + 长尾策略 + 方法论溯源，未截断。
 
-## 六、Lessons：可迁移教训
+## 教训
 
 1. **System Prompt 必须跑真实模型才能发现长度问题**。人在写 prompt 时很难感知 4096 token 输出上限。
 2. **「输入门」设计要包含「超长怎么办」**。如果用户一次塞太多线索或客户，Agent 需要主动建议分批或输出摘要。
@@ -98,7 +122,7 @@ updated_at: '2026-07-03'
 4. **完成率/概率要用高中低，不要用具体百分比**。伪精确会削弱 Agent 的可信度。
 5. **测试自动化脚本要保留**。`run_agent_spec_tests.py` 和场景 JSON 可以作为 Wave 2、Wave 3 的复用基础。
 
-## 七、Failure Modes：常见踩坑
+## 失败模式
 
 | 失败模式 | 症状 | 修复 |
 |:---|:---|:---|
