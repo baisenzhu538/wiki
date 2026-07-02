@@ -186,12 +186,28 @@ related:
 - [ ] 所有测试输入/输出记录保存到 `60_feedback/agent-traces/2026-07-02/`（或等效路径）。
 - [ ] 至少产出 1 份「KDO 回流清单」，列明需要回流的卡片和原因。
 - [ ] 至少产出 1 个新的 `case` 卡或更新 1 个现有 `case` 卡。
-- [ ] 若发现 P0/P1 问题，对应 agent-spec 卡必须修复后重新测试。
+- [x] 若发现 P0/P1 问题，对应 agent-spec 卡必须修复后重新测试。
 - [ ] 欧阳锋终审通过。
 
 ---
 
-## 七、可扩展方向（不在本任务内，仅记录）
+## 七、KDO 回流清单
+
+| 发现 | 回流动作 | 目标文件 | 状态 |
+|:---|:---|:---|:---:|
+| customer-segmentation 5 线索场景输出截断 | 在 System Prompt 中增加长度控制：≥5 线索时先输出分级总表 + Top 3 详细分析 | `30_wiki/tools/tool-agent-spec-yitang-customer-segmentation.md` | 已完成 |
+| performance-monitor 10 客户 Pipeline 输出截断 | 增加 Pipeline 客户数 ≥8 时仅展开 Top 5，其余合并为长尾策略 | `30_wiki/tools/tool-agent-spec-yitang-sales-performance-monitor.md` | 已完成 |
+| performance-monitor 使用具体百分比 | 完成率/概率统一改用高/中/低三档定性描述 | `30_wiki/tools/tool-agent-spec-yitang-sales-performance-monitor.md` | 已完成 |
+| sales-process-tracker 缺里程碑时降级为粗略草案 | 默认使用「接触→购买→付款→履约」四阶段框架，仍给高/中/低置信度 | `30_wiki/tools/tool-agent-spec-yitang-sales-process-tracker.md` | 已完成 |
+| opening-3min 模式 A 输出篇幅偏大 | 明确模式 A 仅输出自我介绍脚本 + 价值钩子 + 开放问题 | `30_wiki/tools/tool-agent-spec-yitang-opening-3min.md` | 已完成 |
+| value-proposition PPT/海报版文字堆叠 | 增加「每版 3 行以内，每行一个视觉记忆点」限制 | `30_wiki/tools/tool-agent-spec-yitang-value-proposition.md` | 已完成 |
+| objection-handler 竞品报价处理不足 | 增加「客户透露竞品报价时立即转交创始人」边界 | `30_wiki/tools/tool-agent-spec-yitang-objection-handler.md` | 已完成 |
+| self-motivation 进度预测用百分比 | 完成率预测改用高/中/低或乐观/中性/悲观描述 | `30_wiki/tools/tool-agent-spec-yitang-self-motivation.md` | 已完成 |
+| Wave 1 测试过程本身有价值 | 新建 case 卡归档测试方法、发现、修复、教训 | `30_wiki/cases/case-opc-agent-wave1-real-model-testing.md` | 已完成 |
+
+---
+
+## 八、可扩展方向（不在本任务内，仅记录）
 
 1. **Wave 2**：针对 Wave 1 修复后的 agent-spec，增加更多行业场景和边缘 case。
 2. **底层逻辑域升级**：科学理念 / 实事求是 / 解放思想三张卡重写。
