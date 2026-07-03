@@ -6,7 +6,7 @@ status: pending_review
 priority: P1
 assignee: kimi
 reviewer: 欧阳锋
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-07-03
 updated_at: '2026-07-03T16:39:32.913483+00:00'
 expected_outputs:

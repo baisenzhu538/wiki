@@ -2,9 +2,9 @@
 id: atk_20260703_yitang-Y-model-os-suite
 title: 自攻击报告：Y模型 OS 共享底层 prompt + Coach 模式
 type: adversarial
-status: pending
+status: reviewed
 language: zh-CN
-reviewed_by: pending
+reviewed_by: 欧阳锋
 related:
 - "[[task_20260703_laowantong-agent-spec-yitang-Y-model-coach]]"
 - "[[system-yitang-Y-model-os]]"

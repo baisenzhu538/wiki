@@ -4,7 +4,8 @@ title: Agent 能力分层引入 TCPR 角色模型：所有 Agent 协作前必须
 type: task
 status: queued
 priority: P1
-assignee: 黄药师/老顽童(Kimi)
+assignee: 老顽童(Kimi)
+co_architect: 黄药师
 reviewer: 欧阳锋
 created_at: 2026-07-01
 updated_at: 2026-07-01
