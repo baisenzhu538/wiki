@@ -82,6 +82,15 @@ TCP-R（教学 Teach / 咨询 Consult / 实践 Practice / 研究 Research）原�
 - [ ] `kdo lint` 增加对 `agent-spec` 类型卡片的 TCPR 字段校验（可先做 WARNING，不做阻塞）
 - [ ] 产出一份 retrofit 指南，便于未来新增 agent-spec 时直接套用
 
+### 5. 中途切换身份支持（用户明确要求）
+
+- [ ] `system-agent-role-selector.md` 必须包含同一会话内从 C→P、C→R、P→C 等常见切换协议。
+- [ ] 所有 agent-spec 卡的 System Prompt 必须支持用户说"切换到教学/咨询/实践/研究"，切换时 Agent 要：
+  - 明确声明新身份和新目标；
+  - 复述继承的事实/分析；
+  - 检查新身份所需事实输入是否完整，缺失时返回 `INPUT_MISSING`；
+  - 高风险动作仍标注 `需人工确认`。
+
 ## 验收标准
 
 1. `agent-native-card-design.md` 新增 TCPR 身份协议章节，并通过 `kdo pre-submit`。
