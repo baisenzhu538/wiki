@@ -8,7 +8,7 @@ updated_at: 2026-07-01
 domain:
   - personal-os
 source_refs:
-  - 00_inbox/时间管理/时间管理_整合笔记.md
+  - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
   - 20_memory/user-insight-profile.md
   - 20_memory/user-preferences.md
 related:
