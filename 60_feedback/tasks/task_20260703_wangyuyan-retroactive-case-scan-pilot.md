@@ -1,30 +1,30 @@
 ---
 id: task_20260703_wangyuyan-retroactive-case-scan-pilot
-title: "已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略（#54）"
+title: 已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略（#54）
 type: task
-status: queued
+status: in_progress
 priority: P2
-assignee: 老顽童(Kimi)
+assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-03
-updated_at: 2026-07-03
+updated_at: '2026-07-03T18:20:09.866635+00:00'
 expected_outputs:
-  - "3 个高优先级域的案例候选清单"
-  - "每个候选标注来源段落、长度、可锚定的概念/工具卡"
-  - "王语嫣判断：哪些候选值得产出完整 case 卡"
-  - "（可选）3-5 张可直接生产的 case 卡骨架"
+- 3 个高优先级域的案例候选清单
+- 每个候选标注来源段落、长度、可锚定的概念/工具卡
+- 王语嫣判断：哪些候选值得产出完整 case 卡
+- （可选）3-5 张可直接生产的 case 卡骨架
 dependencies:
-  - "#42 暗知识补挖试点可并行，不阻塞"
+- '#42 暗知识补挖试点可并行，不阻塞'
 source_refs:
-  - 60_feedback/tasks/task_20260703_huangyaoshi-proposal-retroactive-case-scan.md
-  - 00_inbox/科学决策/
-  - 00_inbox/泛产品设计/
-  - 00_inbox/战略专题/
+- 60_feedback/tasks/task_20260703_huangyaoshi-proposal-retroactive-case-scan.md
+- 00_inbox/科学决策/
+- 00_inbox/泛产品设计/
+- 00_inbox/战略专题/
 related:
-  - task_20260702_laowantong-vikki-daxin-dark-knowledge-pilot-production
-  - task_20260703_laowantong-case-backfill-wobeirushen-time-management
-  - yt-decision-y-model
-  - yitang-domain-digest
+- task_20260702_laowantong-vikki-daxin-dark-knowledge-pilot-production
+- task_20260703_laowantong-case-backfill-wobeirushen-time-management
+- yt-decision-y-model
+- yitang-domain-digest
 ---
 
 # 已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略（#54）

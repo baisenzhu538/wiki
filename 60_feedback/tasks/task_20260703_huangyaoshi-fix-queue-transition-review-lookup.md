@@ -85,3 +85,34 @@ id 与文件名不一致，导致 `find_task_file(task_id)` 返回 `None`，revi
 
 - 类似 #55 的 id/文件名不一致情况未来可能再次出现（尤其是任务单标题很长或中途改名时），本修复是预防性债务清理。
 - 修复范围应仅限于 `review` 分支的查找逻辑，不建议改动任务单命名规范。
+
+---
+
+## 黄药师完成报告（2026-07-04）
+
+### 修了什么
+
+`find_task_file()` 和 `find_task_file_by_frontmatter_id()` 各加了一层 prefix fallback。
+
+精确匹配失败后，用 task_id 前 40 个字符做前缀匹配，扫描同名目录下的 `*.md` 文件。
+
+### 代码改动
+
+| 文件 | 改动 |
+|:---|:---|
+| `queue_transition.py:find_task_file()` | + prefix fallback ~10行 + docstring 更新 |
+| `queue_transition.py:find_task_file_by_frontmatter_id()` | + prefix fallback ~10行 |
+
+### 验收
+
+| 验收项 | 结果 |
+|:---|:---|
+| review 通过 frontmatter id 找到不一致文件名 | ✅ |
+| claim/complete/release 不受影响 | ✅ 精确匹配优先 |
+| 文件名=id 时精确匹配仍然优先 | ✅ |
+
+### 已知限制
+
+前缀匹配使用 40 字符。如果两个任务单共享前缀（如拆分后的原任务和子任务），fallback 返回先扫描到的。建议未来保留 id 在文件名中。
+
+*黄药师 2026-07-04*

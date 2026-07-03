@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-07-02 18:08 UTC
+# Concept Card Index — 2026-07-03 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -258,7 +258,7 @@
 | yt-entrepreneur-research-cognition | 调研认知 | tool | src_unknown |
 | yt-entrepreneur-scientific-method | Y模型/科学方法（已弃用） | concept | entrepreneurship, epistemic-foundations |
 | yt-entrepreneur-spin-selling | yt-entrepreneur-spin-selling | ? | entrepreneurship |
-| yt-entrepreneur-truth-seeking | yt-entrepreneur-truth-seeking | ? | entrepreneurship |
+| yt-entrepreneur-truth-seeking | 实事求是（已弃用，待重写升级） | concept | entrepreneurship, epistemic-foundations |
 | yt-entrepreneur-unit-model | 单元模型 | tool | src_unknown |
 | yt-five-step-common-pitfalls | 暗知识：五步法常见误区与认知陷阱 | dk | src_unknown |
 | yt-five-step-implementation | 五步法落地实操：从故事版到分工版 | tool | src_unknown |
@@ -313,7 +313,7 @@
 | yt-model-five-step-canvas | 五步法画布 × 产品内核画布：从假设到壁垒的实操工具 | framework | src_unknown |
 | yt-model-ipo-complete-checklist | yt-model-ipo-complete-checklist | ? | modeling |
 | yt-model-ipo-learning-strategy | IPO 科学学习全景策略 | framework | src_unknown |
-| yt-model-liberate-thinking-layers | yt-model-liberate-thinking-layers | ? | modeling |
+| yt-model-liberate-thinking-layers | 解放思想五层模型（已弃用，待重写升级） | concept | entrepreneurship, epistemic-foundations |
 | yt-model-management-map | yt-model-management-map | ? | modeling |
 | yt-model-muse-ai-framework | yt-model-muse-ai-framework | ? | modeling |
 | yt-model-pan-product-36-strategies | 泛产品设计36计·全套官方工具箱 | framework | src_unknown |
@@ -541,6 +541,7 @@
 | framework-yitang-high-level-execution | 高水平执行 AR：获取情报·正确归因 | framework | yitang, research |
 | framework-yitang-high-level-plan | 高水平计划 OSC：锁定目标·缩小范围·罗列清单 | framework | yitang, research |
 | framework-yitang-iterative-recursive-digging | 迭代递归深挖法：从表层到内核的认知穿透 | framework | yitang, research |
+| framework-yitang-jiefang-sixiang | 解放思想：不被行业常识和既有框架绑架 | framework | epistemic-foundations, decision-science, yitang |
 | framework-yitang-nine-layer-deep-dig | 九层深挖法：商业分析的自我纠错式迭代框架 | framework | yitang, research, business-analysis |
 | framework-yitang-oscar-research | OSCAR调研模型：从目标锁定到正确归因的五步法 | framework | yitang, research |
 | framework-yitang-research-quality-gate | 调研质量自检框架：六维门禁——判断调研是否"足够好" | framework | src_unknown |
@@ -549,6 +550,7 @@
 | framework-yitang-research-weapon-system | 调研超级武器库：三层八模块十四节点 | framework | yitang, research |
 | framework-yitang-sales-incentive-6d | 一堂六维销售激励模型 | framework | business-strategy, management, yitang |
 | framework-yitang-scientific-sales-five-step | 一堂科学销售五步法 | framework | business-strategy, yitang, management |
+| framework-yitang-shishi-qiushi | 实事求是：把「我希望是真的」和「事实是什么」分开 | framework | epistemic-foundations, decision-science, yitang |
 | framework-yitang-six-layer-cross-validation | 六层交叉验证：从单源到多源的信息可信度提升 | framework | yitang, research |
 | framework-yitang-three-ring-ability-focus | 三环能力聚焦法：从 30 个能力中锁定 3 个重点 | framework | yitang, personal-growth |
 | framework-一堂五步法-泛产品设计 | 一堂五步法在泛产品设计中的应用 | framework | panproduct, yitang, methodology |
@@ -685,6 +687,7 @@
 | tool-agent-research-pipeline | Agent 调研 Pipeline 模式工具 | tool | AI, research, agent |
 | tool-agent-research-supervisor | Agent 调研 Supervisor 模式工具 | tool | AI, research, agent |
 | tool-agent-research-swarm | Agent 调研 Swarm 模式工具 | tool | AI, research, agent |
+| tool-agent-spec-yitang-Y-model-coach | Y模型 Coach 模式 Agent Spec | tool-agent-spec | epistemic-foundations, decision-science, yitang, ai-collaboration |
 | tool-agent-spec-yitang-customer-segmentation | OPC 客户分级智能体 Agent Spec | tool-agent-spec | personal-os, sales, ai-collaboration, yitang |
 | tool-agent-spec-yitang-objection-handler | OPC 客户异议处理助手 Agent Spec | tool-agent-spec | personal-os, sales, ai-collaboration, yitang |
 | tool-agent-spec-yitang-opening-3min | OPC 开场 3 分钟助手 Agent Spec | tool-agent-spec | personal-os, sales, ai-collaboration, yitang |
@@ -1443,10 +1446,12 @@
 | case-ai-companion-emotional | AI 情感陪伴的市场与伦理 | case | ai_collaboration, critical_thinking, business_judgment |
 | case-ai-job-displacement-wef | WEF 对 AI 就业影响的预测 | case | ai_collaboration, critical_thinking, business_judgment |
 | case-ai-time-management-tiered-growth | 案例：AI时间管理App七级演进 | case | yitang, ai |
+| case-ai-writing-homogenization | 内容平台 AI 洗稿同质化：当生成式 AI 压低表达多样性 | case | ai-collaboration, content-industry, epistemic-foundations |
 | case-apple-card-gender-bias | Apple Card 信用额度性别争议 | case | ai_collaboration, critical_thinking, business_judgment |
 | case-ban-fei-mao-conversion-hacker-skill | 案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程 | case | ai-collaboration, yitang |
 | case-ban-fei-mao-from-assignment-to-tool | 案例：半肥猫把一堂课程作业变成可复用调研工具 | case | src_unknown, src_unknown |
 | case-ban-fei-mao-skill-ab-test | 案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比 | case | ai-collaboration, yitang |
+| case-bmw-human-ai-collaboration-idle-time | BMW 工厂人机协作案例：idle time 减少 85% 被误读为产能提升 85% | case | ai-collaboration, manufacturing, yitang |
 | case-cambridge-novelists-survey | 剑桥小说家对 AI 创作态度调查 | case | ai_collaboration, critical_thinking, business_judgment |
 | case-candy-problem-os-vpn | 案例：VPN场景——一个低质量提问如何消耗双方关系 | case | yitang, content-production |
 | case-chen-qiufan-ai-writing | 陈楸帆对 AI 写作的态度转向 | case | ai_collaboration, critical_thinking, business_judgment |
@@ -1596,6 +1601,7 @@
 | case-truman-poker-deck-roi | 扑克牌案例：同样的任务，两个同学评估结果截然相反 | case | src_unknown, src_unknown, src_unknown |
 | case-truman-prd-checklist-evolution | Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平 | case | src_unknown, src_unknown |
 | case-truman-sales-report-structure | 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链 | case | 工作汇报, 复盘结构化 |
+| case-truman-time-management-commute-experiment | Truman 通勤实验：用时间审计把「废时间」变成产能杠杆 | case | time-management, personal-productivity, yitang |
 | case-truman-yitang-foresight | Truman一堂：市场扫描→六方向→Plan ABC试错 | case | yitang |
 | case-unit-model-gashapon | 扭蛋机案例：玩具店规模化扩张三阶段决策 | case |  |
 | case-wanghuan-education-sales-capability-extraction | 王欢案例：教育机构销冠能力萃取系统 | case | src_unknown, src_unknown, src_unknown |
@@ -1613,6 +1619,7 @@
 | case-yitang-beauty-device-overseas-sales | 案例：美容仪出海——用行业报告判断海外市场 | case | yitang, research |
 | case-yitang-competitor-pricing-intelligence | 案例：假装订货套取竞品真实价格 | case | yitang, research |
 | case-yitang-consumer-offline-channel-decision | 案例：消费品线下渠道决策——先访谈再算账 | case | yitang, research |
+| case-yitang-copywriting-time-decomposition | 一堂文案团队时间拆解：把「写稿」拆成可测量的工序 | case | time-management, marketing, yitang |
 | case-yitang-doorstep-nail-service-context | 案例：上门美甲——在用户真实场景中访谈 | case | yitang, research |
 | case-yitang-doorstep-pet-feeding-trust | 案例：上门宠物喂养——用调研解决信任障碍 | case | yitang, research |
 | case-yitang-double-triangle-confidence | 案例：一堂把双三角模型变成 AI 难题的通用解题底盘 | case | src_unknown, src_unknown, src_unknown |

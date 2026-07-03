@@ -1,17 +1,18 @@
 ---
-updated: 2026-07-01
-updated_at: 2026-07-01T14:01:00+00:00
+updated: 2026-07-03
+updated_at: 2026-07-03T18:10:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#53 案例卡补挖：吾辈如神 + 时间管理域（claimed-kimi 2026-07-01）；老顽童(Kimi) 已领取并执行；#28 已 paused 交 workbuddy 后台分批执行；#51/#55 已 reviewed"
+active_task: "#54 已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略（claimed-kimi 2026-07-03）；老顽童(Kimi) 已领取；#53 已 reviewed；#57-#60 仍 queued"
 blockers:
+  - "#57 GraphRAG orphan 比例降低（2026-07-03）：已入队，assignee 老顽童(Kimi)；依赖 #52 reviewed（已满足）"
   - "#58 TCPR Agent 身份协议（2026-07-01）：已入队，assignee 老顽童(Kimi)，黄药师任 co_architect；#55 已 reviewed，对齐基础已具备"
   - "#59 Agent Prompt 编译器（2026-07-01）：已入队，assignee 黄药师；按队列顺序等待领取；MCP 方案现在不做"
   - "#60 KDO 工具链修复（2026-07-01）：已入队，assignee 黄药师；修复 queue_transition.py review 按 frontmatter id 查找任务单；可在 #59 之前或间隙处理"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
 
-next_session_hint: "下一步：① 老顽童(Kimi) 执行 #53，完成后按顺序推进 #54/#57/#58；② workbuddy 在空闲时分批处理 #28；③ 黄药师按队列顺序领取 #59/#60；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 老顽童(Kimi) 执行 #54，产出 3 个域案例候选清单；② 老顽童(Kimi) 完成后按顺序领取 #57/#58；③ workbuddy 在空闲时分批处理 #28；④ 黄药师按队列顺序领取 #59/#60；⑤ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

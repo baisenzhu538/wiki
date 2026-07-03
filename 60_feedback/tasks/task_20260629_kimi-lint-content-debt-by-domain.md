@@ -422,3 +422,68 @@ source_refs:
 
 - 继续 yitang 域 tool 卡清理（仍有大量 4-WARNING 文件待处理）
 - 或按欧阳锋审查意见调整方向
+
+---
+
+## 欧阳锋批次审查：2026-06-29 yitang 域 10 张 tool 卡
+
+### 审查结果：通过 ✅
+
+| 项目 | 数据 |
+|:---|:---|
+| 审查时间 | 2026-06-29 |
+| 处理域 | yitang |
+| 处理文件数 | 10 个 tool 卡 |
+| 修复前全量 WARNING | 2624 |
+| 修复后全量 WARNING | 2581 |
+| 净减 | **43** |
+| ERROR | 0 → 0 |
+| pre-submit | **10/10 PASS** |
+
+### 审查文件清单
+
+**Type A（VLM 生成，3 个）**：
+- `30_wiki/tools/tool-项目背景分析.md`
+- `30_wiki/tools/tool-需求挖掘.md`
+- `30_wiki/tools/tool-行业分析画布.md`
+
+**Type B（一堂课程 OCR，7 个）**：
+- `30_wiki/tools/tool-项目复盘基本功.md`
+- `30_wiki/tools/tool-逐字稿练习演讲.md`
+- `30_wiki/tools/tool-辩证讨论深化.md`
+- `30_wiki/tools/tool-费曼学习法实践讲香课题.md`
+- `30_wiki/tools/tool-获取他人反馈优化笔记.md`
+- `30_wiki/tools/tool-自我反馈检验.md`
+- `30_wiki/tools/tool-知识库团队管理.md`
+
+### 每张卡补的内容
+
+1. **目的**：明确工具解决什么问题、适用于什么场景，body 长度达到 ≥500 字符。
+2. **不要用的场景**：3 条具体不适用场景，非模板复制，与工具特性对应。
+3. **质疑**：包含关键术语（具体假设/边界/反例/前提）+ 外部攻击者（`**Name Surname**` 格式）。
+
+外部攻击者引用清单：Henry Mintzberg、Don Norman、Rita McGrath、David Garvin、Garr Reynolds、Daniel Kahneman、John Sweller、Keith Sawyer、Larry Prusak。
+
+### 质量评估
+
+- **非模板化**：10 个工具的「不要用的场景」和「质疑」均针对各自方法，未发现 copy-paste。
+- **外部攻击者相关**：每位学者/从业者与本卡论点有直接关联（如 Garr Reynolds 对应演讲、John Sweller 对应认知负荷、Larry Prusak 对应知识管理），没有贴无关名人。
+- **批判深度足够**：每个质疑 section 均覆盖假设、反例、前提、边界四个关键术语。
+- **无 frontmatter 退化**：10/10 pre-submit PASS，无新增 ERROR。
+
+### 审查中发现的小问题（不阻塞通过）
+
+1. **Type B 7 个文件仍有大量 `src_unknown` 占位**：`definition_of_done`、`tools_required`、`适用场景`、`工具/环境`、`关联技能`、`来源`、`Feedback Path` 等 section 仍是 src_unknown。这属于 #28 后续批次继续清理的内容，本次仅处理 body 过短 + Critique 缺关键术语 + 无外部攻击者三类 WARNING。
+2. **confidence 0.78 / 0.7 小数**：工具卡目前允许小数，但如后续统一改为 high/medium/low，需要批量调整。
+3. **Type B 文件 `status: draft`**：保留 draft 合理，因为还有大量 src_unknown section 未清理；Type A 已是 `enriched`。
+
+### 已同步更新
+
+- Type B 7 个文件 `reviewed_by: pending` → `欧阳锋`，并补充 `review_date: "2026-06-29"`。
+- 任务单追加本批次审查记录。
+
+### 结论
+
+同意本批次 10 张 yitang tool 卡通过。可继续下一批 yitang tool 卡清理，或按王语嫣/用户指示切换 domain。
+
+*批次审查：欧阳锋 · 2026-06-29*

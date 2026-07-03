@@ -2,12 +2,13 @@
 id: task_20260703_laowantong-case-backfill-wobeirushen-time-management
 title: 案例卡补挖：吾辈如神 + 时间管理域缺失 companion case（4-6 张）
 type: task
-status: pending_review
+status: reviewed
 priority: P2
 assignee: kimi
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 created_at: 2026-07-03
-updated_at: '2026-07-03T18:04:42.998354+00:00'
+updated_at: '2026-07-03T18:20:05.083816+00:00'
 expected_cards: 4-6
 dependencies:
 - task_20260701_wangyuyan-wobeirushen-pilot-orchestration
@@ -28,6 +29,8 @@ related:
 - framework-yitang-five-step-to-time-management
 - tool-personal-time-audit-loop
 - dk-time-management-common-mistakes
+reviewed_by: 欧阳锋
+review_date: '2026-07-03'
 ---
 
 # 案例卡补挖：吾辈如神 + 时间管理域缺失 companion case（4-6 张）
