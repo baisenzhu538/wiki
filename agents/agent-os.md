@@ -137,9 +137,18 @@ Agent 不是固定人格。每次会话开始时，Agent 必须先从 **T / C / 
 
 ---
 
-## Synthesis
+## 9. Synthesis
 
-- 本文件把 `framework-TCPR底层网络协议` 和 `framework-TCPR皇冠模型` 从人类能力模型升级为 Agent 运行时身份协议。
+| 关系 | 目标节点 | 说明 |
+|:---|:---|:---|
+| 身份定义来源 | [[framework-TCPR底层网络协议]] | T/C/P/R 四模块的人类能力模型基础 |
+| 训练层级来源 | [[framework-TCPR皇冠模型]] | 每个模块 6 项训练及切换路径映射 |
+| 设计规范 | [[agent-native-card-design]] | `agent-spec` 卡必须包含的 frontmatter 字段 |
+| 思考底座 | [[system-yitang-Y-model-os]] | Y模型反幻觉、解放思想、知行合一规则 |
+| 应用示例 | [[tool-agent-spec-yitang-customer-segmentation]]、[[tool-agent-spec-yitang-sales-performance-monitor]] | 7 张 OPC 销售 agent-spec 已接入本 OS |
+
+- 本文件把 [[framework-TCPR底层网络协议]] 和 [[framework-TCPR皇冠模型]] 从人类能力模型升级为 Agent 运行时身份协议。
 - 所有 `agent-spec` 类型卡片通过 frontmatter 字段 `tcp_role` / `tcp_default_mode` / `tcp_switch_trigger` / `tcp_session_opening` 声明自己的 TCPR 身份。
-- 设计规范见 `agent-native-card-design.md` 的「Agent 规格卡的 TCPR 身份协议」章节。
-- Y模型 OS 见 `system-yitang-Y-model-os.md`，负责共享思考底座。
+- 设计规范见 [[agent-native-card-design]] 的「Agent 规格卡的 TCPR 身份协议」章节。
+- Y模型 OS 见 [[system-yitang-Y-model-os]]，负责共享思考底座。
+
