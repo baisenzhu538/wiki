@@ -1,32 +1,32 @@
 ---
 id: task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure
-title: "Y模型根节点化：GraphRAG rebuild + 索引维护 + pipeline 监控"
+title: Y模型根节点化：GraphRAG rebuild + 索引维护 + pipeline 监控
 type: task
-status: queued
+status: in_progress
 priority: P1
-assignee: 黄药师
+assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-03
-updated_at: 2026-07-03（王语嫣裁定：压缩为轻量维护任务，不做 schema 改造）
+updated_at: '2026-07-03T13:22:05.633460+00:00'
 expected_outputs:
-  - "线 A 完成后执行 kdo index --rebuild"
-  - "yt-decision-y-model 成为查询扩散默认中心节点"
-  - "kdo pipeline 持续监控 Agent 反馈产生的 lint/链接信号"
-  - "原 schema/deprecation 字段设计进入 backlog"
+- 线 A 完成后执行 kdo index --rebuild
+- yt-decision-y-model 成为查询扩散默认中心节点
+- kdo pipeline 持续监控 Agent 反馈产生的 lint/链接信号
+- 原 schema/deprecation 字段设计进入 backlog
 dependencies:
-  - "[[task_20260703_laowantong-yitang-Y-model-foundation-production]]"
+- '[[task_20260703_laowantong-yitang-Y-model-foundation-production]]'
 source_refs:
-  - "60_feedback/tasks/task_20260703_huangyaoshi-proposal-kdo-next-phase-orchestration.md"
-  - "60_feedback/decisions/dec_20260703_wangyuyan-Y-model-root-minimal-retrofit.md"
+- 60_feedback/tasks/task_20260703_huangyaoshi-proposal-kdo-next-phase-orchestration.md
+- 60_feedback/decisions/dec_20260703_wangyuyan-Y-model-root-minimal-retrofit.md
 related:
-  - yt-decision-y-model
-  - framework-yitang-shishi-qiushi
-  - framework-yitang-jiefang-sixiang
-  - yt-entrepreneur-scientific-method
-  - yt-entrepreneur-truth-seeking
-  - yt-model-liberate-thinking-layers
-  - agent-native-card-design
-  - opc-ai-sales-agent-architecture
+- yt-decision-y-model
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
+- yt-entrepreneur-scientific-method
+- yt-entrepreneur-truth-seeking
+- yt-model-liberate-thinking-layers
+- agent-native-card-design
+- opc-ai-sales-agent-architecture
 ---
 
 # Y模型根节点化：GraphRAG rebuild + 索引维护 + pipeline 监控

@@ -91,7 +91,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 |49|`task_20260702_laowantong-opc-sales-agent-incremental-specs`|OPC 销售智能体军团增量：开场/异议/自我驱动 3 张 agent-spec| reviewed | 老顽童(Kimi) |3 张|依赖 #44 终审通过；建议 #47 完成至少 2 张后再启动|`60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-incremental-specs.md`|用户提出「边做边玩」补充销售智能体军团缺口：开场 3 分钟助手 / 异议处理助手 / 自我驱动助手；优先级 P2；Agent 做带宽、人做判断；反向更新 OPC 架构与对话助手 related|
 |50|`task_20260702_laowantong-opc-sales-agent-testing-wave1`|OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证| reviewed | 老顽童(Kimi) |7 张 agent-spec 实测|依赖 #47/#49 终审通过|`60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-testing-wave1.md`|欧阳锋 #47/#49 首要改进点；把 7 张 agent-spec 的 System Prompt 放到 Claude/GPT 真实环境跑一遍；覆盖医药零售 B2B / SaaS / 门店零售 / 传统分销四个场景；每张卡至少 2 个真实场景；产出迭代日志 + KDO 回流清单 + case 归档；Agent 做带宽、人做判断|
 | 51 | `task_20260703_laowantong-yitang-Y-model-foundation-production` | 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 framework + 2 新建 framework + 1 tool + 1 dk + 2 case） | reviewed | 老顽童(Kimi) | 7 张（5 张可立即开工，2 张阻塞于用户输入） | 无；王语嫣九层深挖诊断已完成；实事求是/解放思想素材尚未输入 | `60_feedback/tasks/task_20260703_laowantong-yitang-Y-model-foundation-production.md` | 王语嫣裁定：Y模型就地重写升级 `yt-decision-y-model`；实事求是/解放思想仍新建 framework；当前可先产 5 张卡（Y-model 重写 + tool + dk + 2 case），剩余 2 张等用户输入素材；旧卡加迁移提示，可用 status: deprecated 但不引入新 schema 字段 |
-| 52 | `task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure` | Y模型根节点化：GraphRAG rebuild + 索引维护 + pipeline 监控 | queued | 黄药师 | GraphRAG rebuild + 监控 | 依赖 #51 线 A 完成（yt-decision-y-model 重写 + 批量 related） | `60_feedback/tasks/task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md` | 王语嫣裁定：本周不做 schema 改造、不新增 lint 规则、不创建文档；只做 #51 完成后的 kdo index --rebuild，验证 yt-decision-y-model 成为查询中心，并用 kdo pipeline 监控 Agent 反馈信号；schema/deprecation 字段设计进入 backlog |
+| 52 | `task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure` | Y模型根节点化：GraphRAG rebuild + 索引维护 + pipeline 监控 | claimed-kimi | 黄药师 | GraphRAG rebuild + 监控 | 依赖 #51 线 A 完成（yt-decision-y-model 重写 + 批量 related） | `60_feedback/tasks/task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md` | 王语嫣裁定：本周不做 schema 改造、不新增 lint 规则、不创建文档；只做 #51 完成后的 kdo index --rebuild，验证 yt-decision-y-model 成为查询中心，并用 kdo pipeline 监控 Agent 反馈信号；schema/deprecation 字段设计进入 backlog |
 
 > **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-41 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 5 个 Vikki/大馨 提炼任务（#30-34）+ **2 个已 reviewed 黄药师基础设施任务（#36 kdo query --label、#37 kdo CLI SyntaxError 修复）** + **2 个新入队 P1 基建任务（#38 index/lint wikilink 对齐、#39 design 编码诊断）** + **2 个王语嫣编排内容任务（#40《吾辈如神》试点卡、#41 时间管理域升级）** + **1 个长线周期性任务（#28 lint 内容债）**；#35 `state.json → SQLite MVP` 已由欧阳锋终审通过。
 > **本周高优先级基础设施任务**：#38 `kdo index/lint wikilink 格式对齐` 与 #39 `design domain 编码损坏诊断` 由王语嫣独立判断后入队；#36/#37 已由欧阳锋终审通过。
@@ -157,7 +157,7 @@ done
 | 2026-06-29 | 欧阳锋独立评审完成：state.json → SQLite 迁移方案 A- 采纳，从 MVP 开始；#35 高优先级基础设施任务入队，黄药师负责本周执行 | 欧阳锋/王语嫣 |
 | 2026-06-30 | #31 Vikki 五标签质量体系终审通过；欧阳锋发现并修复 48 张卡片重复 `quality_labels` 字段问题；#36 `kdo query --label` 实现任务入队，黄药师负责 | 欧阳锋/王语嫣 |
 | 2026-06-30 | #35 `state.json → SQLite MVP` 由黄药师完成，欧阳锋终审通过；审查中修复 append 提交、reload 注册、跨线程 finalizer、连接关闭、lint 基线复制等 5 类问题；新增 11 个 SQLite state 单元测试 | 欧阳锋/黄药师 |
-| 2026-07-03 | #51 一堂底层逻辑域任务入队；#52 Y模型根节点化基础设施任务入队；随后王语嫣裁定：#51 中 Y模型改为就地重写 `yt-decision-y-model`（不新建卡），#52 压缩为 GraphRAG rebuild + 索引维护 + pipeline 监控（本周不做 schema 改造） | 王语嫣/黄药师 |
+| 2026-07-03 | #51 一堂底层逻辑域任务入队；#52 Y模型根节点化基础设施任务入队；随后王语嫣裁定：#51 中 Y模型改为就地重写 `yt-decision-y-model`（不新建卡），#52 压缩为 GraphRAG rebuild + 索引维护 + pipeline 监控（本周不做 schema 改造）；#53 案例卡补挖任务入队（#40/#41 companion case backfill）；#54 已消化素材案例卡补扫试点入队（科学决策 / 泛产品设计 / 战略，不全量） | 王语嫣/黄药师 |
 
 ---
 
@@ -165,4 +165,6 @@ done
 
 ---
 
-*维护人：王语嫣 | 最后更新：2026-07-03（#52 入队）*
+*维护人：王语嫣 | 最后更新：2026-07-03（#54 已消化素材案例卡补扫试点入队）*
+| 53 | `task_20260703_laowantong-case-backfill-wobeirushen-time-management` | 案例卡补挖：吾辈如神 + 时间管理域缺失 companion case（4-6 张） | queued | 老顽童(Kimi) | 4-6 张 case | 依赖 #40/#41 reviewed | `60_feedback/tasks/task_20260703_laowantong-case-backfill-wobeirushen-time-management.md` | 王语嫣复盘发现 #40/#41 只产 concept/tool/dk/framework 卡，未提炼 companion case；用户反馈案例卡应该更多；本任务从已有素材补挖 4-6 张 case 卡，为已有卡提供事实臂锚点；P2 backfill，不阻塞 #40/#41 封账 |
+| 54 | `task_20260703_wangyuyan-retroactive-case-scan-pilot` | 已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略 | queued | 老顽童(Kimi) | 3 个域候选清单（科学决策≥20 / 泛产品设计≥30 / 战略≥20） | 不阻塞 #42/#51/#53 | `60_feedback/tasks/task_20260703_wangyuyan-retroactive-case-scan-pilot.md` | 王语嫣独立判断：做但不全量；先试点 3 个高优先级域；不与 #42 合并；排除已由 #53 覆盖的时间管理/吾辈如神；只扫描标记候选，不直接产完整 case 卡 |

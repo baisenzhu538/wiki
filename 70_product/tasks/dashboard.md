@@ -83,15 +83,17 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260702_laowantong-opc-sales-agent-testing-wave1 | OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证 | reviewed | 老顽童(Kimi) | P1 | task_20260702_laowantong-opc-sales-agent-testing-wave1.md | 欧阳锋终审通过：deepseek-v4-pro 14 个首轮场景 + 2 个 v1.1 复测；P0 阻塞 0、P1 截断已修复并复测、P2 优化项已升级 System Prompt；Trace 归档 17 个文件；KDO 回流清单 9 项完成；新建 case-opc-agent-wave1-real-model-testing.md；自攻击报告 0 致命；同意封账；可改进点进入 Wave 2 / 停车场 |
 | task_20260703_laowantong-yitang-Y-model-foundation-production | 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 + 2 新建 framework + 1 tool + 1 dk + 2 case） | queued | 老顽童(Kimi) | P1 | task_20260703_laowantong-yitang-Y-model-foundation-production.md | 王语嫣裁定：Y模型就地重写升级 `yt-decision-y-model`；实事求是/解放思想仍新建 framework；当前可先产 5 张卡，剩余 2 张等用户输入素材；旧卡加迁移提示，可用 status: deprecated 但不引入新 schema 字段 |
 | task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure | Y模型根节点化：GraphRAG rebuild + 索引维护 + pipeline 监控 | queued | 黄药师 | P1 | task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md | 王语嫣裁定：本周不做 schema 改造、不新增 lint 规则、不创建文档；只做 #51 完成后的 kdo index --rebuild，验证 yt-decision-y-model 成为查询中心，并用 kdo pipeline 监控 Agent 反馈信号 |
+| task_20260703_laowantong-case-backfill-wobeirushen-time-management | 案例卡补挖：吾辈如神 + 时间管理域缺失 companion case（4-6 张） | queued | 老顽童(Kimi) | P2 | task_20260703_laowantong-case-backfill-wobeirushen-time-management.md | 王语嫣复盘发现 #40/#41 未提炼 companion case；用户反馈案例卡应更多；本任务从已有素材补挖 4-6 张 case 卡；P2 backfill，不阻塞已有任务 |
+| task_20260703_wangyuyan-retroactive-case-scan-pilot | 已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略 | queued | 老顽童(Kimi) | P2 | task_20260703_wangyuyan-retroactive-case-scan-pilot.md | 王语嫣独立判断：做但不全量；先试点 3 个高优先级域；不与 #42 合并；排除已由 #53 覆盖的时间管理/吾辈如神；只扫描标记候选，不直接产完整 case 卡 |
 
 ---
 
 ## Summary
 
-- **Total**: 43
+- **Total**: 45
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 10（详见 `production-queue.md` #38-#52 等）
+- **Queued**: 12（详见 `production-queue.md` #38-#54 等）
 - **Long-term / Paused**: 1（#28 lint 内容债，待拆批，不直接领取）
 - **Pending**: 2（含 Hermes lint Batch 1 待欧阳锋抽检）
 - **Review Done**: 14 (#50 reviewed)
@@ -114,6 +116,10 @@ Generated: 2026-06-26T21:00:00+00:00
 > **🆕 新增 #51**：一堂底层逻辑域建设：Y模型 + 实事求是 + 解放思想；王语嫣裁定 Y模型就地重写升级现有 `yt-decision-y-model`（不新建卡、不改 ID），作为 KDO 根节点；实事求是/解放思想仍新建 framework；当前可先产 5 张卡（Y-model 重写 + tool + dk + 2 case），剩余 2 张等用户输入素材；旧卡加迁移提示，可用 `status: deprecated` 但不引入新 schema 字段；为后续 Y模型教练 Agent 奠定方法论底座。
 >
 > **🆕 新增 #52**：Y模型根节点化基础设施，由黄药师负责；王语嫣裁定本周不做 schema 改造、不新增 lint 规则、不创建文档；只做 #51 完成后的 `kdo index --rebuild`，验证 `yt-decision-y-model` 成为查询中心，并用 `kdo pipeline` 监控 Agent 反馈信号；schema/deprecation 字段设计进入 backlog。
+>
+> **🆕 新增 #53**：案例卡补挖任务；王语嫣复盘发现 #40《吾辈如神》和 #41 时间管理域升级只产出 concept/tool/dk/framework 卡，未提炼 companion case；用户反馈案例卡应更多；本任务从已有素材补挖 4-6 张 case 卡，为 #40/#41 提供事实臂锚点；P2 backfill，不阻塞已有任务封账。
+>
+> **🆕 新增 #54**：已消化素材案例卡补扫试点；黄药师建议全量补扫 8 批素材，王语嫣独立判断后改为只试点 3 个高优先级域（科学决策 / 泛产品设计 / 战略）；不与 #42 暗知识补挖合并；排除已由 #53 覆盖的时间管理/吾辈如神；只扫描标记候选，不直接产完整 case 卡。
 
 ---
 
