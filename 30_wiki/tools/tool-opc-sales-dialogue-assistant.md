@@ -43,6 +43,8 @@ related:
 - tool-agent-spec-yitang-self-motivation
 - yt-decision-y-model
 - tool-yitang-Y-model-application
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
 created_at: 2026-07-02
 updated_at: '2026-07-03'
 ---

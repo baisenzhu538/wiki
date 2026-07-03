@@ -35,6 +35,8 @@ related:
 - yt-decision-y-model
 - dk-yitang-Y-model-pitfalls
 - tool-yitang-Y-model-application
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
 ---
 # KDO 知识自攻击框架：用对抗 Agent 在交付前主动找出弱点
 

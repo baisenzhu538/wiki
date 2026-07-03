@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-07-03T14:06:24+00:00_
+_Last updated: 2026-07-03T14:38:40+00:00_
 
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[_archive/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -1084,7 +1084,7 @@ _Last updated: 2026-07-03T14:06:24+00:00_
 - [[frameworks/framework-yitang-high-level-execution|高水平执行 AR：获取情报·正确归因]] — source `00_inbox/调研专题/系统调研（高水平执行）_vlm_desc.md`
 - [[frameworks/framework-yitang-high-level-plan|高水平计划 OSC：锁定目标·缩小范围·罗列清单]] — source `00_inbox/调研专题/系统调研（高水平计划）_vlm_desc.md`
 - [[frameworks/framework-yitang-iterative-recursive-digging|迭代递归深挖法：从表层到内核的认知穿透]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
-- [[frameworks/framework-yitang-jiefang-sixiang|解放思想：不被行业常识和既有框架绑架]] — source `pending_archive:等待用户输入解放思想课素材`
+- [[frameworks/framework-yitang-jiefang-sixiang|解放思想：不被行业常识和既有框架绑架]] — source `00_inbox/解放思想/_processed/解放思想_整合笔记.md`
 - [[frameworks/framework-yitang-nine-layer-deep-dig|九层深挖法：商业分析的自我纠错式迭代框架]] — source `40_outputs/capabilities/skills/nine-layer-business-dig/SKILL.md`
 - [[frameworks/framework-yitang-oscar-research|OSCAR调研模型：从目标锁定到正确归因的五步法]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
 - [[frameworks/framework-yitang-research-quality-gate|调研质量自检框架：六维门禁——判断调研是否"足够好"]] — source `30_wiki/domains/yitang-research-domain-digest.md`
@@ -1093,7 +1093,7 @@ _Last updated: 2026-07-03T14:06:24+00:00_
 - [[frameworks/framework-yitang-research-weapon-system|调研超级武器库：三层八模块十四节点]] — source `00_inbox/调研专题/调研超级武器库_vlm_desc.md`
 - [[frameworks/framework-yitang-sales-incentive-6d|一堂六维销售激励模型]] — source `00_inbox/销售专题/_processed/销售专题_整合笔记.md`
 - [[frameworks/framework-yitang-scientific-sales-five-step|一堂科学销售五步法]] — source `00_inbox/销售专题/_processed/销售专题_整合笔记.md`
-- [[frameworks/framework-yitang-shishi-qiushi|实事求是：把「我希望是真的」和「事实是什么」分开]] — source `pending_archive:等待用户输入实事求是课素材`
+- [[frameworks/framework-yitang-shishi-qiushi|实事求是：把「我希望是真的」和「事实是什么」分开]] — source `00_inbox/实事求是/_processed/实事求是_整合笔记.md`
 - [[frameworks/framework-yitang-six-layer-cross-validation|六层交叉验证：从单源到多源的信息可信度提升]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[frameworks/framework-yitang-three-ring-ability-focus|三环能力聚焦法：从 30 个能力中锁定 3 个重点]] — source `00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt`
 - [[frameworks/framework-一堂五步法-泛产品设计|一堂五步法在泛产品设计中的应用]] — source `00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt`
@@ -1172,7 +1172,7 @@ _Last updated: 2026-07-03T14:06:24+00:00_
 - [[personal-os/zhu-domain-index|老朱个人域索引]] — source no source
 - [[personal-os/zhu-feedback-patterns|老朱反馈模式库]] — source no source
 - [[personal-os/zhu-strategic-conclusions|老朱战略结论存档]] — source no source
-- [[personal-os/zhu-time-os|老朱个人时间操作系统]] — source `00_inbox/时间管理/时间管理_整合笔记.md`
+- [[personal-os/zhu-time-os|老朱个人时间操作系统]] — source `00_inbox/时间管理/_processed/时间管理_整合笔记.md`
 - [[projects/parking-lot|停车场清单]] — source `10_raw/sources/src_20260619_9b664d88_30_wiki_projects_单柜财务测算.json`
 - [[projects/shanxi-field-research-checklist-20260701|山西 7 月 1 日智慧药柜项目调研清单]] — source `10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md`
 - [[projects/互联网医院项目|互联网医院项目]] — source `src_unknown []`

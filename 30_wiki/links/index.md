@@ -1670,6 +1670,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dk/dk-research-decision-first-mapping]]
 - [[domains/decision-science-domain-digest]]
 - [[frameworks/framework-decision-cognitive-bias-map]]
+- [[frameworks/framework-yitang-jiefang-sixiang]]
+- [[frameworks/framework-yitang-shishi-qiushi]]
 - [[tools/tool-yitang-Y-model-application]]
 
 ## [[concept-X型Y型决策习惯|X型 vs Y型决策习惯]]
@@ -3189,6 +3191,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-Y-model-advertising-turnaround]]
 - [[cases/case-yitang-Y-model-seven-applications]]
 - [[concepts/yt-decision-y-model]]
+- [[frameworks/framework-yitang-jiefang-sixiang]]
+- [[frameworks/framework-yitang-shishi-qiushi]]
 - [[tools/tool-yitang-Y-model-application]]
 
 ## [[dk-yitang-behavior-over-asking]]
@@ -3946,6 +3950,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-channel-partnership-map]]
 - [[frameworks/framework-yitang-channel-unit-economics]]
 - [[frameworks/framework-yitang-growth-flywheel]]
+- [[frameworks/framework-yitang-jiefang-sixiang]]
 - [[frameworks/framework-yitang-research-quality-gate]]
 - [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[tools/tool-demand-iceberg-l6-hypothesis]]
@@ -4103,6 +4108,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-research-best-practice]]
 - [[tools/tool-yitang-research-deep-attribution]]
 
+## [[framework-yitang-jiefang-sixiang]]
+- [[frameworks/framework-yitang-shishi-qiushi]]
+
 ## [[framework-yitang-nine-layer-deep-dig]]
 - [[cases/case-yitang-sales-transformation-meirongyuan]]
 - [[cases/case-yitang-sales-transformation-tuliaogongsi]]
@@ -4230,6 +4238,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-sales-transformation-meirongyuan]]
 - [[cases/case-yitang-sales-transformation-tuliaogongsi]]
 
+## [[framework-yitang-shishi-qiushi]]
+- [[frameworks/framework-yitang-jiefang-sixiang]]
+
 ## [[framework-yitang-six-layer-cross-validation]]
 - [[frameworks/framework-ouyangfeng-review-methodology]]
 - [[frameworks/framework-yitang-growth-flywheel]]
@@ -4259,6 +4270,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-candy-transcript-workflow]]
 - [[frameworks/framework-pan-product-organization]]
 - [[frameworks/framework-yitang-five-step-to-time-management]]
+- [[frameworks/framework-yitang-jiefang-sixiang]]
 - [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[frameworks/yt-composite-pan-product-methodology]]
 - [[frameworks/yt-model-pan-product-climbing-map]]
@@ -4683,6 +4695,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[domains/decision-science-domain-digest]]
 - [[frameworks/framework-decision-quality-checklist]]
 - [[frameworks/framework-yitang-five-step-to-time-management]]
+- [[frameworks/framework-yitang-jiefang-sixiang]]
+- [[frameworks/framework-yitang-shishi-qiushi]]
 - [[tools/smart-medicine-cabinet-fraud-detection]]
 - [[tools/tool-decision-outside-view]]
 - [[tools/tool-yitang-Y-model-application]]
@@ -8659,6 +8673,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-wanghuan-harness-seven-stages]]
 
 ## [[tool-iceberg-triangle-modeling]]
+- [[frameworks/framework-yitang-jiefang-sixiang]]
 - [[tools/modeling-level-map]]
 - [[tools/tool-scenario-selector-modeling]]
 - [[tools/tool-yitang-Y-model-application]]
@@ -13924,6 +13939,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-business-formula-l6-essence-formulas]]
 - [[concepts/yt-business-formula-parameter-iceberg]]
 - [[concepts/yt-decision-y-model]]
+- [[frameworks/framework-yitang-shishi-qiushi]]
 - [[frameworks/yt-business-formula-abc-model]]
 - [[tools/tool-agent-spec-yitang-sales-performance-monitor]]
 - [[tools/tool-yitang-sales-performance-management]]
@@ -14590,6 +14606,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-entrepreneur-truth-seeking]]
 - [[concepts/yt-entrepreneur-scientific-method]]
+- [[frameworks/framework-yitang-shishi-qiushi]]
 
 ## [[yt-entrepreneur-unit-model]]
 - [[cases/case-dental-clinic-formula]]
@@ -14747,6 +14764,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[domains/domain-demand-analysis-index]]
 - [[frameworks/framework-yitang-five-step-to-time-management]]
 - [[frameworks/framework-yitang-scientific-sales-five-step]]
+- [[frameworks/framework-yitang-shishi-qiushi]]
 - [[tools/tool-yitang-Y-model-application]]
 - [[tools/tool-yitang-customer-segmentation-4step]]
 
@@ -15206,6 +15224,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-model-deep-review-iceberg]]
 - [[concepts/yt-personal-thinking-models]]
 - [[concepts/yt-personal-y-model-practice]]
+- [[frameworks/framework-yitang-jiefang-sixiang]]
 - [[tools/tool-demand-iceberg-l6-hypothesis]]
 
 ## [[yt-model-management-map]]
@@ -16398,6 +16417,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-channel-unit-economics]]
 - [[frameworks/framework-yitang-five-step-to-time-management]]
 - [[frameworks/framework-yitang-scientific-sales-five-step]]
+- [[frameworks/framework-yitang-shishi-qiushi]]
 - [[tools/tool-yitang-channel-industrialization-node-design]]
 - [[tools/tool-yitang-channel-scan-cheat-sheet]]
 - [[tools/tool-yitang-sales-performance-management]]

@@ -50,6 +50,8 @@ related:
 - yt-decision-y-model
 - tool-yitang-Y-model-application
 - dk-yitang-Y-model-pitfalls
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
 ---
 # 一堂方法论体系：从科学做事到无限进步
 

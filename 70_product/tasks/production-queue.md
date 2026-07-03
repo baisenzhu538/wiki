@@ -49,7 +49,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 8 | `laowantong-batch-2026-06-20-wave4` | 老顽童批量工单第 4 波：新域建设 | reviewed | Hermes 老顽童 | 15 | 已解锁（wave3 + 第八批均 reviewed） | `review_20260628_ouyangfeng-wave4.md` | 欧阳锋终审通过：15/15 张卡 status 更新为 reviewed，reviewed_by: 欧阳锋，review_date: 2026-06-28；审查中修复 4.1 source_refs 18 处、4.2 domain 占位 7 处及正文 src_unknown 占位 30+ 处；wave4 已解锁 wave5 |
 | 9 | `laowantong-batch-2026-06-20-wave5` | 老顽童批量工单第 5 波：外部探索三个新盲区 | reviewed | WorkBuddy 老顽童 | 12 | 依赖 wave4 完成（已 reviewed，解锁） | `review_20260628_ouyangfeng-wave5.md` | 欧阳锋终审通过：12/12 张卡 `kdo pre-submit` 通过；审查中修复 12 张卡 frontmatter（补 `status: reviewed`、统一 `reviewed_by: 欧阳锋`、更新 `updated_at`）；wave5 已解锁 |
 | 10 | `task_20260628_hermes-lint-baseline-cleanup-batch1` | Hermes lint 基线清理 Batch 1：机械性 frontmatter 修复 | reviewed | Hermes 老顽童 | 784（安全机械修复，含复查追加 125） | 无 | `60_feedback/tasks/task_20260628_hermes-lint-baseline-cleanup-batch1.md` | Hermes 已完成：frontmatter parse 类 ERROR 清零；`kdo lint` 从 690→890 是因为 frontmatter 修好后原被压制的卡片暴露更多 section/source_refs 错误；890 个内容级错误由 Batch 2-A/B/C 承接；Hermes 老顽童待命 |
-| 11 | `review_20260627_ouyangfeng-self-attack-framework` | 欧阳锋审核：自攻击方法论框架卡 | reviewed | 欧阳锋 | 1 | 无 | `30_wiki/frameworks/framework-kdo-self-attack.md` | review-only；pre-submit 已通过；欧阳锋审查结论：deep 通过 |
 | 11 | `task_20260628_wangyuyan-cleanup-channel-growth-residuals` | 渠道增长域终审遗留问题清理（P2+P3 已完成，P1 已拆分） | done | 黄药师 | 0（清理任务） | 无 | `task_20260628_wangyuyan-cleanup-channel-growth-residuals.md` | 黄药师已完成 dk/concept 目录移动 + 全库 related 链接更新 + 顺手修复 3 张 case 卡；P1 剩余 10 张 case + 1 张 dk section 调整已拆分为独立任务 #12 |
 | 12 | `task_20260628_laowantong-case-section-standardization` | 渠道增长域 10 张 case + 1 张 dk section 标准化 | reviewed | 欧阳锋 | 11 | 无 | `task_20260628_laowantong-case-section-standardization.md` | 欧阳锋终审通过：11/11 文件 `kdo lint` 0 ERROR；1 处标题序号问题已现场修复 |
 | 13 | `task_20260628_laowantong-lint-batch2-case-sections` | lint Batch 2-A：case section 标准化补全（130 文件） | reviewed | WorkBuddy 老顽童 | 130 | 无 | `60_feedback/tasks/task_20260628_laowantong-lint-batch2-case-sections.md` | 欧阳锋复核通过：申诉成立，130/130 case 文件已真实修改并 commit，`kdo lint` Case section ERROR 清零；之前 `git diff HEAD` 检查失效根因是 vault backup 自动 commit |
@@ -63,12 +62,11 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 21 | `task_20260628_laowantong-wave6-decision-science-systematization` | Wave 6-A：决策科学域系统化 | reviewed | 老顽童(Hermes) | 5 | 依赖 Wave 6 诊断 reviewed | `60_feedback/tasks/task_20260628_laowantong-wave6-decision-science-systematization.md` | 欧阳锋终审通过：5/5 卡片结构完整，lint 148 ERROR 全为历史遗留无新增；删除 framework-decision-quality-checklist 中重复 related；决策科学域 reviewed 从 14→18 |
 | 22 | `task_20260628_laowantong-wave6-demand-analysis-deepening` | Wave 6-B：需求分析域深化 | reviewed | 老顽童(Hermes) | 5 | 依赖 Wave 6 诊断 reviewed | `60_feedback/tasks/task_20260628_laowantong-wave6-demand-analysis-deepening.md` | 欧阳锋终审通过：5/5 卡片结构完整，case section 英文标题改为中文；lint 140 ERROR 全为历史遗留无新增，且修复 8 个历史 case section 错误；5 张卡全部加入 index.md；pre-submit 5/5 PASS |
 | 23 | `task_20260629_huangyaoshi-lint-a1-empty-source-refs` | A1：空 source_refs 清理 | reviewed | 黄药师 | 8 | 无 | `60_feedback/tasks/task_20260629_huangyaoshi-lint-a1-empty-source-refs.md` | 欧阳锋终审通过：8/8 文件 source_refs 补为 pending_archive；`kdo lint` empty source_refs ERROR 清零；pre-submit 8/8 PASS |
-:
 | 24 | `task_20260629_laowantong-lint-a2-case-section-completion` | A2：case section 缺失补全 | done | 老顽童(Hermes) | 83 | 依赖 A1 无冲突 | `60_feedback/tasks/task_20260629_laowantong-lint-a2-case-section-completion.md` | frontmatter 修复目标已完成（日期字段/parse error/title/type）；欧阳锋终审通过；132 个 `Case card missing section` 历史遗留已拆分为独立债务任务 #24-debt |
-| 24-debt | `task_20260629_historical-debt-case-section-132` | 历史债务：132 个 Case card missing section 修复 | reviewed | 老顽童(Hermes) | 43 | 无 | `60_feedback/tasks/task_20260629_historical-debt-case-section-132.md` | 欧阳锋终审通过：43 文件 132 section 已补全；8 个战略 case 补全 reviewed_by/review_date；`kdo lint` 无 Case card missing section；pre-submit 本次产出无 ERROR |
 | 25 | `task_20260629_laowantong-expand-ai-learning-concept-cards` | 扩展 AI 工具学习方法论原子概念卡 | reviewed | 老顽童(Hermes) | 7 | 无 | `60_feedback/tasks/task_20260629_laowantong-expand-ai-learning-concept-cards.md` | 欧阳锋终审通过：7 张新卡结构完整；修复 3 张 tool 卡标准 section；补全 4 张核心卡 related 双向链接；index.md 已收录；lint 0 新增 ERROR；pre-submit 本次产出无 ERROR（全量 FAIL 为历史遗留） |
 | 26 | `task_20260629_kimi-full-frontmatter-compliance-cleanup` | 全库 frontmatter 合规修复（循环处理直到归零） | reviewed | 老顽童(Hermes) | ~88 文件 + 22 目录 | 无 | `60_feedback/tasks/task_20260629_kimi-full-frontmatter-compliance-cleanup.md` | 欧阳锋终审通过：frontmatter 类、目录结构类 ERROR 全部清零；`kdo pre-submit` 448/0 PASS；`kdo lint` 0 ERROR / 7507 WARNING；剩余 WARNING 为内容质量类，需单独任务处理 |
 | 27 | `task_20260629_kimi-lint-mechanical-noise-reduction` | lint 机械类 WARNING 直接降噪 | reviewed | 老顽童(Hermes) | ~2700 WARNING | 无 | `60_feedback/tasks/task_20260629_kimi-lint-mechanical-noise-reduction.md` | 欧阳锋终审通过：lint 阈值调整已确认；435 文件 source_refs 规范化；1637 页面补录 index；751 个 tool 卡补 section 骨架；`kdo lint` 从 7507 降到 3286 WARNING；`kdo lint` 0 ERROR；`kdo pre-submit` PASS |
+| 28 | `task_20260629_kimi-lint-content-debt-by-domain` | lint 内容债按 domain 分批清理 | queued | 老顽童(Kimi) | ~2656 WARNING / 14 个子任务 | 依赖 #27 reviewed | `60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md` | 已暂停，作为长线周期性任务待王语嫣统一拆批；strategy 域已真实清零（#38 修复后 WARNING 148→0），yitang 已处理 20 个 tool 卡（WARNING ↓65），design 域编码损坏已排除（#39 reviewed，196/196 healthy）；#38 index/lint 修复后全库 WARNING 4329→2570。本任务不直接领取，拆批后的子任务以新 ID 入队。 |
 | 29 | `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge` | 羊奶「卖地图」跨域桥接卡生产 | reviewed | 老顽童(Hermes分身-Claude) | 3 张卡 | 无 | `60_feedback/tasks/task_20260629_wangyuyan-goat-milk-channel-partnership-bridge.md` | 欧阳锋终审通过：3 张卡已补录 index、修正 section 标题、补充 Critique 外部反对者与关键术语、补相邻域 related 回链；3 张目标卡 lint 无 ERROR/WARNING；pre-submit 目标卡无 ERROR（全量 FAIL 为 raw/ocr 与 _dogfood 历史遗留） |
 | 30 | `task_20260629_vikki-info-emotion-skill-upgrade` | Vikki + 大馨：content-production-polish skill 2.0 升级 | reviewed | 老顽童(Kimi) | 1 个 skill | 无 | `60_feedback/tasks/task_20260629_vikki-info-emotion-skill-upgrade.md` | 欧阳锋终审通过：SKILL.md Core Standard 扩展为 6 条 + Step 5.5 6 项验证 + Platform Notes 5 平台模板 + Mini Scoring Rubric 6 维；human-speech-rules.md 新增 #13-#15 方法（5-part 结构 + 5 跨域示例）；`kdo pre-submit` 2/2 PASS；shared 与 `.claude/skills/` 桥接一致；审查中修正 2 处文本不一致（4→6 标准、Mini Scoring Rubric 6 维）；`agent复盘/Kimi/2026-06-30.md` 缺失记为后续微债务 |
 | 31 | `task_20260629_vikki-five-tag-quality-labels` | Vikki 五标签 + 大馨品牌三度 → KDO 卡片质量标签体系 | reviewed | 老顽童(Kimi) | 1 个 schema + 50 张试点卡片 + 1 张 framework | 原 assignee 黄药师；schema/脚本层已由黄药师完成（label-quality-migrate.py）；老顽童(Kimi)完成内容层 | `60_feedback/tasks/task_20260629_vikki-five-tag-quality-labels.md` | 欧阳锋终审通过：framework-brand-three-degree 概念卡 + system-kdo-quality-labels 指南通过 pre-submit；50 张试点卡片标签迁移完成；审查中发现并修复 48 张卡片存在重复 `quality_labels` 字段的问题；迁移脚本已增加防御性跳过逻辑；`kdo pre-submit` 新卡 2/2 PASS + 抽查 4/4 PASS；`.agent/laowantong-context.md` 已更新 quality_labels 检查项 |
@@ -81,91 +79,19 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 38 | `task_20260701_kdo-index-lint-wikilink-format-alignment` | KDO index/lint wikilink 格式对齐 | reviewed | 黄药师 | 1 个 KDO 代码修复 + 1 个测试 | 无；阻塞 #28 strategy 域真实清零 | `60_feedback/tasks/task_20260701_kdo-index-lint-wikilink-format-alignment.md` | 欧阳锋建议插队；根因：`kdo index --rebuild` 生成 bare wikilink，`kdo lint` 期望带路径 wikilink，导致 strategy 148 个 / 全库约 700+ WARNING 误报；修复后 strategy 域可真实清零；预计 0.5-1 天 |
 | 39 | `task_20260701_design-domain-encoding-diagnosis` | design domain 编码损坏诊断 | reviewed | 老顽童(Kimi) | 1 份诊断报告 | 无；阻塞 #28 design 域清理 | `60_feedback/tasks/task_20260701_design-domain-encoding-diagnosis.md` | 欧阳锋建议插队；目标：只读诊断 design 域文件编码损坏根因，给出 healthy/display-only/recoverable/corrupted 分类及后续处理建议；诊断完成前禁止批量修改 design 文件；预计 0.5-1 天 |
 | 40 | `task_20260701_wangyuyan-wobeirushen-pilot-orchestration` | 《吾辈如神》条件性纳入 + 3 张卡 | reviewed | 老顽童(Kimi) | 3 张卡（1 concept + 1 tool + 1 concept） | 无；验证报告已完成 | `60_feedback/tasks/task_20260701_wangyuyan-wobeirushen-pilot-orchestration.md` | 王语嫣价值判断：B 级素材，不做试点，直接产出 3 张卡——`concept-cognitive-offloading-in-ai-era`（已有初稿，需终审）、`tool-ai-use-barbell-strategy`（新建）、`concept-abundance-paradox`（新建）；纠正 BMW 85%/AGI 2029/AI 无法创造等误读；其余概念本次不纳入，封账 |
+| 41 | `task_20260701_wangyuyan-time-management-domain-orchestration` | 时间管理域升级：3 张高密度桥接卡 | reviewed | 老顽童(Kimi) | 3 张（1 framework 桥接 + 1 tool 审计循环 + 1 dk 反模式） | 无；洪七公 OCR+VLM 预处理已完成 | `70_product/tasks/task_20260701_wangyuyan-time-management-domain-orchestration.md` | 王语嫣经九层深挖返工：时间管理 = 一堂五步法/IPO/单元模型/决策卫生在自管理场景的实例化；3 张高密度卡 + 反向更新 ≥10 张已有框架卡 related；详见 `diag_20260701_time-management-nine-layer-isomorphism.md` |
 | 42 | `task_20260702_laowantong-vikki-daxin-dark-knowledge-pilot-production` | 暗知识补挖试点生产：Vikki + 大馨战队 | reviewed | 老顽童(Kimi) | 4 张新 dk + 7-9 张已有卡补充 | 依赖王语嫣诊断 `diag_20260702_vikki-daxin-dark-knowledge-extraction.md` | `60_feedback/tasks/task_20260702_laowantong-vikki-daxin-dark-knowledge-pilot-production.md` | 黄药师试点建议书：验证「一句话金矿扫描」流程；王语嫣已扫描 22 条暗知识，建议 4 张新 dk（肌肉记忆/创始人 IP 信任>流量/隐性价值传递/讲师 vs 群众社群），其余 18 条补充到已有卡；欧阳锋抽检 ≥3 张 |
 | 43 | `task_20260702_laowantong-live81-ai-trademark-design-production` | Live81 AI 赋能商标设计：1 case + 2 tool + 1 dk | reviewed | 老顽童(Kimi) | 4 张（1 case + 2 tool + 1 dk） | 无；王语嫣九层深挖诊断已完成 | `60_feedback/tasks/task_20260702_laowantong-live81-ai-trademark-design-production.md` | 欧阳锋审查通过：4 张新卡 pre-submit PASS、lint 0 新增 ERROR；审查中修复 case/dk 卡 section 标题以符合 lint schema，补充 dk 卡缺失的 5 个标准 section；反向更新约 20 张已有卡 related；自攻击报告 0 致命；同意封账 |
 | 44 | `task_20260702_laowantong-yitang-scientific-sales-methodology-production` | 一堂科学销售方法论：1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体） | reviewed | - | 12 张 | 无；王语嫣九层深挖诊断已完成；#44 已按黄药师建议+王语嫣独立判断从 6->10->12 张扩展 | `60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md` | 王语嫣独立判断：10 张已覆盖销售方法论，但缺 OPC 可立即执行的智能体规格卡和带数据的工业分销案例；扩展为 12 张：新增 `case-yitang-sales-transformation-tuliaogongsi`（涂料公司/10 万->20 S 级）+ `tool-opc-sales-dialogue-assistant`（读对话->想策略->给话术，可直接当 system prompt）；智能体层不一次性铺开 8-10 张，先做 MVP 对话助手；反向更新 >=28 张已有卡 related；OPC 智能体军团由 `opc-ai-sales-agent-architecture.md` 承接并补充 MVP 启动路径 |
 | 45 | `task_20260702_huangyaoshi-kdo-inbox-grade` | kdo inbox --grade 自动分级命令 | reviewed | 黄药师 | 1 个 CLI 命令 | 无；Sprint 6 lake transparency 基建 | `60_feedback/tasks/task_20260702_huangyaoshi-kdo-inbox-grade.md` | 欧阳锋审查通过：新增 `kdo inbox --grade`，按 S/A/B/C 自动给 00_inbox/ 素材打分；10104 文件分级 S 2832 / A 40 / B 6559 / C 673；pytest 548 passed；建议下一步加 `--grade --ready` 过滤和 C 级清理任务；缺 inbox grade 单元测试，记为微债务 |
 | 46 | `task_20260702_huangyaoshi-kdo-pipeline-dashboard` | kdo pipeline 管线可视化 Dashboard | reviewed | 黄药师 | 1 个 CLI 命令 | 无；Sprint 6 lake transparency 基建 | `60_feedback/tasks/task_20260702_huangyaoshi-kdo-pipeline-dashboard.md` | 欧阳锋审查通过：新增 `kdo pipeline`，按 CAPTURE→INGEST→PRODUCE→SHIP→WIKI 五段展示 KDO 管线健康度；自动检测 inbox/enrich/review 瓶颈并给建议；修复 state SQLite 连接未关闭问题；pytest 548 passed；缺 pipeline 单元测试，记为微债务 |
 |47|`task_20260702_laowantong-opc-sales-agent-specs-production`|OPC 销售智能体军团首批规格卡：从 #44 方法论卡片编译 4 张 agent-spec| reviewed | 老顽童(Kimi) |4 张|依赖 #44 终审通过|`60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-specs-production.md`|KDO Agent 化审计结论：不缺方法论卡，缺智能体规格卡；本任务把 #44 中 4 张核心 tool 卡编译成可直接当 system prompt 使用的 agent-spec：客户分级助手 / 卖点生成助手 / 销售阶段追踪助手 / 业绩监控助手；Agent 做带宽、人做判断；不改变销售动作，只输出建议；反向更新 `opc-ai-sales-agent-architecture.md` 和 `tool-opc-sales-dialogue-assistant` related|
-| 41 | `task_20260701_wangyuyan-time-management-domain-orchestration` | 时间管理域升级：3 张高密度桥接卡 | reviewed | 老顽童(Kimi) | 3 张（1 framework 桥接 + 1 tool 审计循环 + 1 dk 反模式） | 无；洪七公 OCR+VLM 预处理已完成 | `70_product/tasks/task_20260701_wangyuyan-time-management-domain-orchestration.md` | 王语嫣经九层深挖返工：时间管理 = 一堂五步法/IPO/单元模型/决策卫生在自管理场景的实例化；3 张高密度卡 + 反向更新 ≥10 张已有框架卡 related；详见 `diag_20260701_time-management-nine-layer-isomorphism.md` |
 |49|`task_20260702_laowantong-opc-sales-agent-incremental-specs`|OPC 销售智能体军团增量：开场/异议/自我驱动 3 张 agent-spec| reviewed | 老顽童(Kimi) |3 张|依赖 #44 终审通过；建议 #47 完成至少 2 张后再启动|`60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-incremental-specs.md`|用户提出「边做边玩」补充销售智能体军团缺口：开场 3 分钟助手 / 异议处理助手 / 自我驱动助手；优先级 P2；Agent 做带宽、人做判断；反向更新 OPC 架构与对话助手 related|
-|50|`task_20260702_laowantong-opc-sales-agent-testing-wave1`|OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证| reviewed | 老顽童(Kimi) |7 张 agent-spec 实测|依赖 #47/#49 终审通过|`60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-testing-wave1.md`|欧阳锋 #47/#49 首要改进点；把 7 张 agent-spec 的 System Prompt 放到 Claude/GPT 真实环境跑一遍；覆盖医药零售 B2B / SaaS / 门店零售 / 传统分销四个场景；每张卡至少 2 个真实场景；产出迭代日志 + KDO 回流清单 + case 归档；Agent 做带宽、人做判断|
+| 50 | `task_20260702_laowantong-opc-sales-agent-testing-wave1` | OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证 | reviewed | 老顽童(Kimi) | 7 张 agent-spec 实测 | 依赖 #47/#49 终审通过 | `60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-testing-wave1.md` | 欧阳锋 #47/#49 首要改进点；把 7 张 agent-spec 的 System Prompt 放到 Claude/GPT 真实环境跑一遍；覆盖医药零售 B2B / SaaS / 门店零售 / 传统分销四个场景；每张卡至少 2 个真实场景；产出迭代日志 + KDO 回流清单 + case 归档；Agent 做带宽、人做判断 |
 | 51 | `task_20260703_laowantong-yitang-Y-model-foundation-production` | 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 + 2 新建 framework + 1 tool + 1 dk + 2 case） | reviewed | 老顽童(Kimi) | 7 张（5 可交付 + 2 stub） | 无；王语嫣九层深挖诊断已完成 | `60_feedback/tasks/task_20260703_laowantong-yitang-Y-model-foundation-production.md` | 欧阳锋审查通过：5 张新卡 + 2 张阻塞 stub + 3 张旧卡迁移；dk 卡与 2 张 case 卡已补齐 lint schema section；17 张已有卡反向补链；0 新增 ERROR；实事求是/解放思想素材未到位，保留 stub 待补全 |
 | 52 | `task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure` | Y模型根节点化：GraphRAG rebuild + 索引维护 + pipeline 监控 | reviewed | 黄药师 | GraphRAG rebuild + 监控 | 依赖 #51 线 A 完成（yt-decision-y-model 重写 + 批量 related） | `60_feedback/tasks/task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md` | 欧阳锋审查通过：index/graph rebuild 成功；yt-decision-y-model degree 100 / top 0.24%；4 条典型路径 2 hops；pipeline 基线无 lint/链接/格式异常；related 改为 bare id 后 GraphRAG 边生效；7 天连续监控未在会话内完成，已记录为后续每日动作 |
-
-> **当前总待生产卡数**：约 98-99 张（含历史批量工单 62 张 + 新任务 36-41 张）+ lint Batch 2 约 280 文件修复 + 补链 350-700 文件 + Wave 6 新域 10 张卡 + 7 张 AI 学习方法论扩展卡 + 3 张羊奶渠道桥接卡（已 reviewed）+ 5 个 Vikki/大馨 提炼任务（#30-34）+ **2 个已 reviewed 黄药师基础设施任务（#36 kdo query --label、#37 kdo CLI SyntaxError 修复）** + **2 个新入队 P1 基建任务（#38 index/lint wikilink 对齐、#39 design 编码诊断）** + **2 个王语嫣编排内容任务（#40《吾辈如神》试点卡、#41 时间管理域升级）** + **1 个长线周期性任务（#28 lint 内容债）**；#35 `state.json → SQLite MVP` 已由欧阳锋终审通过。
-> **本周高优先级基础设施任务**：#38 `kdo index/lint wikilink 格式对齐` 与 #39 `design domain 编码损坏诊断` 由王语嫣独立判断后入队；#36/#37 已由欧阳锋终审通过。
-> **#28 状态更新**：已由欧阳锋审查并暂停为**长线周期性任务**，任务单 status 改为 `paused`，队列移入「三、长线周期性任务」区域、不直接领取，待王语嫣拆批后以新 ID 入队。当前 strategy 域真实内容问题已清零，剩余 148 个 WARNING 为 #38 机制误报；yitang 已处理 20 个 tool 卡（WARNING ↓65）；design 域编码损坏待 #39 诊断。
-> **#38 / #39 说明**：欧阳锋建议、王语嫣独立判断后入队。两个基建任务可与 #28 周期性批次及 #40 内容任务并行，互不等对方完成。#38 修复后 #28 strategy 域可真实清零；#39 诊断完成前禁止批量修改 design 文件。
-> **#40 说明**：《吾辈如神》素材经 6 层交叉验证 + 9 层深挖 + 全网调研后评级为 **B（条件性纳入）**，不是 A 级，不能免检，不能批量生产 5-6 张卡。王语嫣做出明确价值判断：**值得产出 3 张卡**，分别为 `concept-cognitive-offloading-in-ai-era`（已有初稿，需终审）、`tool-ai-use-barbell-strategy`（新建）、`concept-abundance-paradox`（新建）。必须纠偏 BMW 85%、AGI 2029、AI 无法创造等误读；3 张卡之间需互相建立 wikilink；其余概念本次不纳入，封账。
-> **#44 说明**：一堂科学销售方法论素材经九层深挖诊断，王语嫣评级 A；经用户挑战深度后从 6 张扩展为 10 张，再经黄药师建议+王语嫣独立判断扩展为 12 张：1 framework（五步法总览） + 5 tool（用户分层 / 卖点提炼 / 过程拆解 / 业绩管理 / 工具箱） + 1 framework（六维激励） + 3 case（剧本杀 SaaS / 美容院 / 涂料公司） + 1 dk（销售反模式） + 1 tool（`tool-opc-sales-dialogue-assistant` MVP 对话助手）；MVP 对话助手解决一人公司同时聊多客户时跟丢/跟乱/跟错节奏的痛点，不改变销售动作，只输出「小抄」；反向更新 >=28 张已有卡 related；`opc-ai-sales-agent-architecture.md` 需回链并补充 MVP 启动路径。
-> **当前 lint 基线**：`kdo lint` 全量 0 ERROR / 2656 WARNING；机械类 WARNING 经 #27 处理后降至 3286；#28 第一轮后降至 3255，第二轮累计处理 23 张 card 后降至 2666（copy-paste 从 76 清零），第三轮处理 5 个 strategy case 后降至 2656；剩余主要为 body 过短、L2 Critique、L2 Condense、L2 Synthesis 等内容债，由 #28 按 domain 分批处理；`kdo lint --domain <domain> --summary` 已可用。
-> **人员状态**：A1/A2 reviewed；#24-debt reviewed；Wave 6 已完成；B1/B2/B3 已完成；#25 扩展卡已 reviewed；#26 全库 frontmatter 合规修复已 reviewed。
-> **执行顺序建议**：frontmatter 与目录结构类历史债务已全部处理完毕，进入下一阶段。剩余 7507 WARNING 建议作为内容精修任务按需分批处理，不要继续机械修复。#38 成为下一个可直接领取的任务；#39/#40 与 #28 拆批后的子任务可并行推进；#41 时间管理域升级可与 #40 内容任务并行。
-> 历史批量工单卡数估算来自 `laowantong-batch-2026-06-20.md` 的 waves 1-5。
->
-> **🆘 临时分流（2026-06-27）**：Hermes 老顽童历史任务重，启动 Kimi 老顽童临时协助生产 2026-06-27 新标注任务。历史批量工单 waves 1-5 仍由 Hermes 负责；刻意练习域、渠道增长域、兰毅泛产品组织内容及跨域桥接卡由 Kimi 负责。欧阳锋/黄药师无感知——他们只按 pending_review 顺序审卡。
->
-> **2026-06-29 更新**：A1 已完成 reviewed；A2 基线判断错误，132 case section 缺失需另开任务；#25 AI 学习方法论扩展卡已入队。
-
----
-
-## 状态流转图
-
-```
-queued
-  ↓ 老顽童领取
-claimed
-  ↓ 老顽童生产完成 + pre-submit 通过
-pending_review
-  ↓ 欧阳锋审核
-reviewed
-  ↓ 王语嫣最终验收（如需）
-done
-```
-
-**中间状态**：
-- `blocked`：任务被阻塞，需用户/其他角色先解决
-- `paused`：任务暂停，等待用户决策或外部输入
-
----
-
-## 各角色启动时必读
-
-- **老顽童**：启动后先读 `.agent/startup.md` → `.agent/kb-evolution-direction.md` → `70_product/tasks/production-queue.md`，领取队列最前面的 `queued` 任务。
-- **欧阳锋**：启动后先读 `.agent/startup.md` → `.agent/kb-evolution-direction.md` → `70_product/tasks/production-queue.md`，按顺序审核 `pending_review` 任务。
-- **黄药师**：关注队列中任务的 KDO 基建依赖（如 lint/index），按需支持。
-- **用户**：可随时查看本队列，回复「调整顺序」「插队」「暂停某任务」。
-
----
-
-## 三、长线周期性任务（不直接领取，待拆批）
-
-| ID | 任务单 ID | 任务名称 | 状态 | Assignee | 规模 | 依赖 | 任务单路径 | 备注 |
-|---:|---|---|---|---:|---|---:|---|---|
-| 28 | `task_20260629_kimi-lint-content-debt-by-domain` | lint 内容债按 domain 分批清理 | queued | 老顽童(Kimi) | ~2656 WARNING / 14 个子任务 | 依赖 #27 reviewed | `60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md` | 已暂停，作为长线周期性任务待王语嫣统一拆批；strategy 域已真实清零（#38 修复后 WARNING 148→0），yitang 已处理 20 个 tool 卡（WARNING ↓65），design 域编码损坏已排除（#39 reviewed，196/196 healthy）；#38 index/lint 修复后全库 WARNING 4329→2570。本任务不直接领取，拆批后的子任务以新 ID 入队。 |
-
----
-
-## 变更日志
-
-| 日期 | 变更 | 变更人 |
-|:---|:---|:---|
-| 2026-06-27 | 创建统一生产队列，整合历史批量工单与新域任务 | 王语嫣 |
-| 2026-06-29 | #23 A1 reviewed；#24 A2 done；#24-debt 132 case section 缺失已修复并 pending_review；#25 AI 学习方法论扩展卡入队 | 欧阳锋/王语嫣 |
-| 2026-06-29 | 用户决策：#28 lint 内容债任务过长，改为 background batch 逐步清理，当前 Kimi 实例切换至 #30；#30 Vikki + 大馨 skill 2.0 升级任务已领取执行；#28 checkpoint 写入任务单 | 王语嫣 |
-| 2026-06-29 | 欧阳锋独立评审完成：state.json → SQLite 迁移方案 A- 采纳，从 MVP 开始；#35 高优先级基础设施任务入队，黄药师负责本周执行 | 欧阳锋/王语嫣 |
-| 2026-06-30 | #31 Vikki 五标签质量体系终审通过；欧阳锋发现并修复 48 张卡片重复 `quality_labels` 字段问题；#36 `kdo query --label` 实现任务入队，黄药师负责 | 欧阳锋/王语嫣 |
-| 2026-06-30 | #35 `state.json → SQLite MVP` 由黄药师完成，欧阳锋终审通过；审查中修复 append 提交、reload 注册、跨线程 finalizer、连接关闭、lint 基线复制等 5 类问题；新增 11 个 SQLite state 单元测试 | 欧阳锋/黄药师 |
-| 2026-07-03 | #51 一堂底层逻辑域任务入队；#52 Y模型根节点化基础设施任务入队；随后王语嫣裁定：#51 中 Y模型改为就地重写 `yt-decision-y-model`（不新建卡），#52 压缩为 GraphRAG rebuild + 索引维护 + pipeline 监控（本周不做 schema 改造）；#53 案例卡补挖任务入队（#40/#41 companion case backfill）；#54 已消化素材案例卡补扫试点入队（科学决策 / 泛产品设计 / 战略，不全量）；实事求是、解放思想素材均已处理并就位，#51 全部 7 张卡可开工；#55 由"Y模型教练独立 Agent"修正为"Y模型 OS 共享底层 prompt + 可选 Coach 模式" | 王语嫣/黄药师 |
-
----
-
-| 50 | `task_20260702_laowantong-opc-sales-agent-testing-wave1` | OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证 | reviewed | 老顽童(Kimi) | 7 张 agent-spec 实测 | 依赖 #47/#49 终审通过 | `60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-testing-wave1.md` | 欧阳锋 #47/#49 首要改进点；把 7 张 agent-spec 的 System Prompt 放到 Claude/GPT 真实环境跑一遍；覆盖医药零售 B2B / SaaS / 门店零售 / 传统分销四个场景；每张卡至少 2 个真实场景；产出迭代日志 + KDO 回流清单 + case 归档；Agent 做带宽、人做判断 |
-
----
-
-*维护人：王语嫣 | 最后更新：2026-07-03（#55 修正为 Y模型 OS 共享底层 prompt + 可选 Coach 模式）*
 | 53 | `task_20260703_laowantong-case-backfill-wobeirushen-time-management` | 案例卡补挖：吾辈如神 + 时间管理域缺失 companion case（4-6 张） | queued | 老顽童(Kimi) | 4-6 张 case | 依赖 #40/#41 reviewed | `60_feedback/tasks/task_20260703_laowantong-case-backfill-wobeirushen-time-management.md` | 王语嫣复盘发现 #40/#41 只产 concept/tool/dk/framework 卡，未提炼 companion case；用户反馈案例卡应该更多；本任务从已有素材补挖 4-6 张 case 卡，为已有卡提供事实臂锚点；P2 backfill，不阻塞 #40/#41 封账 |
 | 54 | `task_20260703_wangyuyan-retroactive-case-scan-pilot` | 已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略 | queued | 老顽童(Kimi) | 3 个域候选清单（科学决策≥20 / 泛产品设计≥30 / 战略≥20） | 不阻塞 #42/#51/#53 | `60_feedback/tasks/task_20260703_wangyuyan-retroactive-case-scan-pilot.md` | 王语嫣独立判断：做但不全量；先试点 3 个高优先级域；不与 #42 合并；排除已由 #53 覆盖的时间管理/吾辈如神；只扫描标记候选，不直接产完整 case 卡 |
 | 55 | `task_20260703_laowantong-yitang-Y-model-os` | Y模型 OS：所有 Agent 的共享底层 prompt + 可选 Coach 模式 | queued | 老顽童(Kimi) | 1 张 system OS 卡 + agent-native-card-design 更新 + 1 张可选 Coach 模式 agent-spec + 1 个域 Agent 集成示例 | 依赖 #51 reviewed | `60_feedback/tasks/task_20260703_laowantong-agent-spec-yitang-Y-model-coach.md` | 黄药师提出正确 Agent 分层：Y模型+实事求是+解放思想是所有 Agent 共享底层 OS；本任务把 OS 写成可复用 prompt 片段，所有 agent-spec 默认加载；Coach 模式只作为可选入口，不替代域 Agent |
+| 56 | `task_20260703_laowantong-yitang-Y-model-stub-completion` | #51 收尾：实事求是 / 解放思想 framework 卡补全 | queued | 老顽童(Kimi) | 2 张 framework | 依赖 #51 reviewed；素材已就位 | `60_feedback/tasks/task_20260703_laowantong-yitang-Y-model-stub-completion.md` | #51 终审时因素材未到位保留 2 个 framework stub；现在实事求是/解放思想素材已处理就位，需补全后重新提交终审 |
+| 57 | `task_20260703_laowantong-graphrag-orphan-reduction` | GraphRAG 健康度提升：跨域 related 补链降低 orphan 比例 | queued | 老顽童(Kimi) | orphan 分析报告 + 100-200 张卡补链 | 依赖 #52 reviewed | `60_feedback/tasks/task_20260703_laowantong-graphrag-orphan-reduction.md` | #52 终审可改进点：orphan 比例 36%、1235 个 connected components；本任务分析 orphan 来源并补充跨域 related 链接，目标 orphan ≤30%、components ≤900、健康度 ≥72/100 |

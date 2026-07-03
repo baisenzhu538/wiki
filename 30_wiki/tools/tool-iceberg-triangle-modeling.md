@@ -30,6 +30,8 @@ related:
 - tool-yitang-Y-model-application
 - yt-decision-y-model
 - case-yitang-Y-model-seven-applications
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
 tags:
 - src_unknown
 - src_unknown

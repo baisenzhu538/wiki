@@ -23,9 +23,11 @@ updated_at: '2026-07-03'
 ## 审查范围
 
 - 任务单：`task_20260703_laowantong-yitang-Y-model-foundation-production`
-- 目标卡：7 张（5 张可交付 + 2 张阻塞占位）
+- 目标卡：7 张完整 framework/tool/dk/case 卡
 - 检查文件：
   - `30_wiki/concepts/yt-decision-y-model.md`
+  - `30_wiki/frameworks/framework-yitang-shishi-qiushi.md`
+  - `30_wiki/frameworks/framework-yitang-jiefang-sixiang.md`
   - `30_wiki/tools/tool-yitang-Y-model-application.md`
   - `30_wiki/dark-knowledges/dk-yitang-Y-model-pitfalls.md`
   - `30_wiki/cases/case-yitang-Y-model-advertising-turnaround.md`
@@ -33,21 +35,25 @@ updated_at: '2026-07-03'
   - `30_wiki/concepts/yt-entrepreneur-scientific-method.md`
   - `30_wiki/concepts/yt-entrepreneur-truth-seeking.md`
   - `30_wiki/concepts/yt-model-liberate-thinking-layers.md`
-  - `30_wiki/frameworks/framework-yitang-shishi-qiushi.md`（占位 stub）
-  - `30_wiki/frameworks/framework-yitang-jiefang-sixiang.md`（占位 stub）
 - 反向补链文件：任务单所列 17 张已有卡
 
 ## 生产结果
 
-- **5 张主目标卡已产出**：yt-decision-y-model（重写升级）、tool-yitang-Y-model-application、dk-yitang-Y-model-pitfalls、case-yitang-Y-model-advertising-turnaround、case-yitang-Y-model-seven-applications。
+- **7 张主目标卡已产出**：
+  - framework：`yt-decision-y-model`（重写升级）、`framework-yitang-shishi-qiushi`、`framework-yitang-jiefang-sixiang`
+  - tool：`tool-yitang-Y-model-application`
+  - dk：`dk-yitang-Y-model-pitfalls`
+  - case：`case-yitang-Y-model-advertising-turnaround`、`case-yitang-Y-model-seven-applications`
 - **3 张旧卡已标记 deprecated**：`yt-entrepreneur-scientific-method`、`yt-entrepreneur-truth-seeking`、`yt-model-liberate-thinking-layers`，顶部加迁移提示并指向新卡。
-- **2 张阻塞 framework 卡创建最小 stub**：`framework-yitang-shishi-qiushi`、`framework-yitang-jiefang-sixiang`，避免旧卡迁移链接断裂，待用户输入素材后补全。
-- **17 张已有卡 related 已反向更新**。
+- **17 张已有卡 related 已反向更新**；补充后重新执行 `kdo index --rebuild` 与 `kdo graph rebuild --full`。
+- **素材使用**：`framework-yitang-shishi-qiushi` 使用 `00_inbox/实事求是/_processed/实事求是_整合笔记.md` 与 `vlm_summary.json`；`framework-yitang-jiefang-sixiang` 使用 `00_inbox/解放思想/_processed/解放思想_整合笔记.md` 与 `CASE_CANDIDATES.md`。
 
 ## 验证结果
 
 - `python 90_control/scripts/kdo_lint.py <target files>`：**PASS**，0 ERROR。
-- `python -m kdo pre-submit --expect-changes 5 --files <target files>`：**PASS**，10/10 通过。
+- `python -m kdo pre-submit --files <target files>`：**PASS**，9/9 通过。
+- `kdo index --rebuild` + `kdo graph rebuild --full`：成功。
+- 图中心性：`yt-decision-y-model` degree 100 / rank 8 / top 0.24%；`framework-yitang-shishi-qiushi` 与 `framework-yitang-jiefang-sixiang` degree 14 / rank 181 / top 5.3%。
 
 ## 攻击维度与发现
 
@@ -67,8 +73,8 @@ updated_at: '2026-07-03'
 ### 3. 链接与网络完整性
 
 - **首次 pre-submit 失败**：旧卡 `yt-entrepreneur-truth-seeking` 与 `yt-model-liberate-thinking-layers` 的 `related` 包含指向尚未存在的 `framework-yitang-shishi-qiushi` 和 `framework-yitang-jiefang-sixiang`，触发 WIKILINK ERROR。
-- **修复**：创建两张最小占位 stub 后，pre-submit 通过。
-- **反向链接**：17 张已有卡已补 related，新增链接 40+ 条，无重复。
+- **修复**：先创建最小占位 stub 通过验证，待素材到位后将 stub 重写为正式 framework 卡。
+- **反向链接**：17 张已有卡已补 related，新增链接 50+ 条，无重复；补充后重新 rebuild index 与 graph。
 
 ### 4. Schema 与状态合规
 
@@ -101,13 +107,11 @@ updated_at: '2026-07-03'
 
 ## 剩余风险与后续动作
 
-1. **素材阻塞**：`framework-yitang-shishi-qiushi` 与 `framework-yitang-jiefang-sixiang` 为占位 stub，需用户输入实事求是 / 解放思想课素材后重写为正式 framework 卡。
-2. **占位 stub source_refs**：当前使用 `pending_archive:等待用户输入...`，素材到位后必须替换为真实来源文件。
-3. **旧卡正文精简**：素材补全后，建议将 `yt-entrepreneur-truth-seeking` 与 `yt-model-liberate-thinking-layers` 正文压缩为迁移提示 + 新卡链接，减少历史噪音。
-4. **OPC 智能体落地**：yt-decision-y-model 与 tool-yitang-Y-model-application 已给出 Agent 映射，但尚未产出独立 `tool-agent-spec-yitang-Y-model-coach`，可在后续 Agent 化任务中跟进。
+1. **旧卡正文精简**：建议将 `yt-entrepreneur-truth-seeking` 与 `yt-model-liberate-thinking-layers` 正文压缩为迁移提示 + 新卡链接，减少历史噪音。
+2. **OPC 智能体落地**：yt-decision-y-model 与 tool-yitang-Y-model-application 已给出 Agent 映射，但尚未产出独立 `tool-agent-spec-yitang-Y-model-coach`，可在后续 Agent 化任务中跟进。
+3. **持续验证**：7 张卡中的案例与定量数字多来自课程口述/作业，后续可补充更多真实业务场景的 Y模型应用案例。
 
 ##  verdict
 
-- **5 张可交付卡**：通过 lint 与 pre-submit，可进入欧阳锋终审。
-- **2 张 framework 卡**：因素材未到位，以占位 stub 形式存在，阻塞待解。
-- **0 个致命问题**；已修复 1 个中等问题（case-seven 缺 Critique）和 1 个链接问题（未来卡 stub）。
+- **7 张目标卡**：全部通过 lint 与 pre-submit，可进入欧阳锋终审。
+- **0 个致命问题**；已修复 1 个中等问题（case-seven 初稿缺 Critique）和 1 个链接问题（未来卡先以 stub 占位后补全）。

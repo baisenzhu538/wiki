@@ -23,6 +23,8 @@ related:
 - - - yt-model-pan-product-aesthetic-toolkit
 - yt-decision-y-model
 - tool-yitang-Y-model-application
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
 ---
 # Agent 原生知识卡设计规范 v2
 

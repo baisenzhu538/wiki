@@ -22,6 +22,8 @@ related:
 - yt-decision-y-model
 - tool-yitang-Y-model-application
 - dk-yitang-Y-model-pitfalls
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
 review_date: '2026-06-29'
 updated_at: '2026-07-03'
 ---

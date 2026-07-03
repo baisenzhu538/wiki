@@ -86,18 +86,20 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260703_laowantong-case-backfill-wobeirushen-time-management | 案例卡补挖：吾辈如神 + 时间管理域缺失 companion case（4-6 张） | queued | 老顽童(Kimi) | P2 | task_20260703_laowantong-case-backfill-wobeirushen-time-management.md | 王语嫣复盘发现 #40/#41 未提炼 companion case；用户反馈案例卡应更多；本任务从已有素材补挖 4-6 张 case 卡；P2 backfill，不阻塞已有任务 |
 | task_20260703_wangyuyan-retroactive-case-scan-pilot | 已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略 | queued | 老顽童(Kimi) | P2 | task_20260703_wangyuyan-retroactive-case-scan-pilot.md | 王语嫣独立判断：做但不全量；先试点 3 个高优先级域；不与 #42 合并；排除已由 #53 覆盖的时间管理/吾辈如神；只扫描标记候选，不直接产完整 case 卡 |
 | task_20260703_laowantong-yitang-Y-model-os | Y模型 OS：所有 Agent 的共享底层 prompt + 可选 Coach 模式 | queued | 老顽童(Kimi) | P1 | task_20260703_laowantong-agent-spec-yitang-Y-model-coach.md | 黄药师提出正确 Agent 分层：Y模型+实事求是+解放思想是所有 Agent 共享底层 OS；本任务把 OS 写成可复用 prompt 片段，所有 agent-spec 默认加载；Coach 模式只作为可选入口，不替代域 Agent |
+| task_20260703_laowantong-yitang-Y-model-stub-completion | #51 收尾：实事求是 / 解放思想 framework 卡补全 | queued | 老顽童(Kimi) | P1 | task_20260703_laowantong-yitang-Y-model-stub-completion.md | #51 终审时因素材未到位保留 2 个 framework stub；现在素材已处理就位，需补全后重新提交欧阳锋终审 |
+| task_20260703_laowantong-graphrag-orphan-reduction | GraphRAG 健康度提升：跨域 related 补链降低 orphan 比例 | queued | 老顽童(Kimi) | P2 | task_20260703_laowantong-graphrag-orphan-reduction.md | #52 终审可改进点：orphan 比例 36%、1235 个 connected components；本任务分析 orphan 来源并补充跨域 related 链接 |
 
 ---
 
 ## Summary
 
-- **Total**: 46
+- **Total**: 56
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 13（详见 `production-queue.md` #38-#55 等）
-- **Long-term / Paused**: 1（#28 lint 内容债，待拆批，不直接领取）
-- **Pending**: 2（含 Hermes lint Batch 1 待欧阳锋抽检）
-- **Review Done**: 14 (#50 reviewed)
+- **Queued**: 6（详见 `production-queue.md` #53-#57 等）
+- **Long-term / Paused**: 0（#28 lint 内容债，待拆批，不直接领取）
+- **Pending**: 0
+- **Review Done**: 47 (#50/#51/#52 reviewed)
 
 > 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；✅ Batch 2-A/B/C 全部 reviewed：A 130 case + B 57 dk + C 90 source_refs 文件已完成，`kdo lint` 机械性 ERROR 清零；下一阶段正式进入补链阶段（Wave 6 诊断 + B1/B2/B3）。
 > **🆕 新增 #38**：《吾辈如神》素材经独立验证为 B 级，王语嫣做出价值判断：直接产出 3 张卡（认知卸载 / AI 使用杠铃策略 / 富足悖论），不试点、不批量；重点纠偏 BMW 85%、AGI 2029、AI 无法创造等数据/观点误读。
@@ -123,6 +125,10 @@ Generated: 2026-06-26T21:00:00+00:00
 > **🆕 新增 #54**：已消化素材案例卡补扫试点；黄药师建议全量补扫 8 批素材，王语嫣独立判断后改为只试点 3 个高优先级域（科学决策 / 泛产品设计 / 战略）；不与 #42 暗知识补挖合并；排除已由 #53 覆盖的时间管理/吾辈如神；只扫描标记候选，不直接产完整 case 卡。
 >
 > **🆕 新增 #55**：Y模型 OS；黄药师提出正确 Agent 分层：Y模型+实事求是+解放思想是所有 Agent 共享底层 OS，不是独立元 Agent；本任务把 OS 写成可复用 prompt 片段，所有 agent-spec 默认加载；域层按需建设，用户层持续迭代；Coach 模式只作为可选入口，不替代域 Agent；依赖 #51 终审通过。
+>
+> **🆕 新增 #56**：#51 收尾任务；#51 终审时因素材未到位保留 2 个 framework stub（实事求是/解放思想），现在素材已处理就位，老顽童补全后重新提交欧阳锋终审。
+>
+> **🆕 新增 #57**：GraphRAG 健康度提升；#52 终审指出 orphan 比例 36%、1235 个 connected components；本任务分析 orphan 来源并补充跨域 related 链接，目标 orphan ≤30%、components ≤900、健康度 ≥72/100。
 
 ---
 

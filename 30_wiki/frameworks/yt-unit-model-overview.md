@@ -52,6 +52,8 @@ related:
 - yt-decision-y-model
 - tool-yitang-Y-model-application
 - case-yitang-Y-model-seven-applications
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
 diagnostic_signals:
 - framework_lens: 缺少最小经济单元视角——总账会掩盖单元的真实盈利能力
   follow_up_question: 如果把这个业务拆成最小可复制单元，哪个单元的盈亏会最先让公司崩盘？

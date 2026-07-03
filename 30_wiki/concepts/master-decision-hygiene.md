@@ -31,6 +31,8 @@ related:
 - yt-decision-y-model
 - dk-yitang-Y-model-pitfalls
 - tool-yitang-Y-model-application
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
 ---
 # 决策卫生五步法
 

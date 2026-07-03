@@ -32,6 +32,8 @@ related:
 - yt-decision-y-model
 - tool-yitang-Y-model-application
 - case-yitang-Y-model-advertising-turnaround
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
 ---
 # 业务公式六层逻辑关系（L1 模糊 → L6 动态）
 
