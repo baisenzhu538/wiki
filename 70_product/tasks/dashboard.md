@@ -81,12 +81,12 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260702_laowantong-opc-sales-agent-specs-production | OPC 销售智能体军团首批规格卡：从 #44 方法论卡片编译 4 张 agent-spec | reviewed | - | P1 | task_20260702_laowantong-opc-sales-agent-specs-production.md | 欧阳锋终审通过：4/4 agent-spec 卡 pre-submit PASS，lint 0 新增 ERROR，schema 扩展通过，方法论溯源/输入门/迭代日志齐全；可改进点：System Prompt 尚未在真实模型运行、仅覆盖医药零售 B2B 场景、opc-ai-sales-agent-architecture.md 正文映射可细化 |
 | task_20260702_laowantong-opc-sales-agent-incremental-specs | OPC 销售智能体军团增量：开场/异议/自我驱动 3 张 agent-spec | reviewed | - | P2 | task_20260702_laowantong-opc-sales-agent-incremental-specs.md | 欧阳锋终审通过：3/3 agent-spec 卡 pre-submit PASS，lint 0 新增 ERROR，输入门/输出/触发条件/边界/方法论溯源/迭代日志/示例修正均齐全；opc-ai-sales-agent-architecture.md 正文新增 7 张 agent-spec 调用关系图；可改进点：System Prompt 尚未在真实模型运行、场景仍以医药零售 B2B 为主、self-motivation 可补充个人节律输入门 |
 | task_20260702_laowantong-opc-sales-agent-testing-wave1 | OPC 销售智能体实测 Wave 1：7 张 agent-spec 真实模型验证 | reviewed | 老顽童(Kimi) | P1 | task_20260702_laowantong-opc-sales-agent-testing-wave1.md | 欧阳锋终审通过：deepseek-v4-pro 14 个首轮场景 + 2 个 v1.1 复测；P0 阻塞 0、P1 截断已修复并复测、P2 优化项已升级 System Prompt；Trace 归档 17 个文件；KDO 回流清单 9 项完成；新建 case-opc-agent-wave1-real-model-testing.md；自攻击报告 0 致命；同意封账；可改进点进入 Wave 2 / 停车场 |
-| task_20260703_laowantong-yitang-Y-model-foundation-production | 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 + 2 新建 framework + 1 tool + 1 dk + 2 case） | queued | 老顽童(Kimi) | P1 | task_20260703_laowantong-yitang-Y-model-foundation-production.md | 王语嫣裁定：Y模型就地重写升级 `yt-decision-y-model`；实事求是/解放思想仍新建 framework；7 张卡全部可开工；解放思想案例候选 148 条，不轻易丢弃，需二次判断 |
+| task_20260703_laowantong-yitang-Y-model-foundation-production | 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 + 2 新建 framework + 1 tool + 1 dk + 2 case） | pending_review | 老顽童(Kimi) | P1 | task_20260703_laowantong-yitang-Y-model-foundation-production.md | 老顽童已完成全部 7 张卡产出，欧阳锋正在终审 |
 | task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure | Y模型根节点化：GraphRAG rebuild + 索引维护 + pipeline 监控 | queued | 黄药师 | P1 | task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md | 王语嫣裁定：本周不做 schema 改造、不新增 lint 规则、不创建文档；只做 #51 完成后的 kdo index --rebuild，验证 yt-decision-y-model 成为查询中心，并用 kdo pipeline 监控 Agent 反馈信号 |
 | task_20260703_laowantong-case-backfill-wobeirushen-time-management | 案例卡补挖：吾辈如神 + 时间管理域缺失 companion case（4-6 张） | queued | 老顽童(Kimi) | P2 | task_20260703_laowantong-case-backfill-wobeirushen-time-management.md | 王语嫣复盘发现 #40/#41 未提炼 companion case；用户反馈案例卡应更多；本任务从已有素材补挖 4-6 张 case 卡；P2 backfill，不阻塞已有任务 |
 | task_20260703_wangyuyan-retroactive-case-scan-pilot | 已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略 | queued | 老顽童(Kimi) | P2 | task_20260703_wangyuyan-retroactive-case-scan-pilot.md | 王语嫣独立判断：做但不全量；先试点 3 个高优先级域；不与 #42 合并；排除已由 #53 覆盖的时间管理/吾辈如神；只扫描标记候选，不直接产完整 case 卡 |
 | task_20260703_laowantong-yitang-Y-model-os | Y模型 OS：所有 Agent 的共享底层 prompt + 可选 Coach 模式 | queued | 老顽童(Kimi) | P1 | task_20260703_laowantong-agent-spec-yitang-Y-model-coach.md | 黄药师提出正确 Agent 分层：Y模型+实事求是+解放思想是所有 Agent 共享底层 OS；本任务把 OS 写成可复用 prompt 片段，所有 agent-spec 默认加载；Coach 模式只作为可选入口，不替代域 Agent |
-| task_20260703_laowantong-yitang-Y-model-stub-completion | #51 收尾：实事求是 / 解放思想 framework 卡补全 | queued | 老顽童(Kimi) | P1 | task_20260703_laowantong-yitang-Y-model-stub-completion.md | #51 终审时因素材未到位保留 2 个 framework stub；现在素材已处理就位，需补全后重新提交欧阳锋终审 |
+| task_20260703_laowantong-yitang-Y-model-stub-completion | #51 收尾：实事求是 / 解放思想 framework 卡补全 | closed_cancelled | — | P1 | task_20260703_laowantong-yitang-Y-model-stub-completion.md | 取消：#51 已全部完成，无需单独收尾任务 |
 | task_20260703_laowantong-graphrag-orphan-reduction | GraphRAG 健康度提升：跨域 related 补链降低 orphan 比例 | queued | 老顽童(Kimi) | P2 | task_20260703_laowantong-graphrag-orphan-reduction.md | #52 终审可改进点：orphan 比例 36%、1235 个 connected components；本任务分析 orphan 来源并补充跨域 related 链接 |
 
 ---
@@ -96,10 +96,10 @@ Generated: 2026-06-26T21:00:00+00:00
 - **Total**: 56
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 6（详见 `production-queue.md` #53-#57 等）
+- **Queued**: 5（详见 `production-queue.md` #28/#53-#55/#57 等）
 - **Long-term / Paused**: 0（#28 lint 内容债，待拆批，不直接领取）
-- **Pending**: 0
-- **Review Done**: 47 (#50/#51/#52 reviewed)
+- **Pending**: 1 (#51 欧阳锋终审中)
+- **Review Done**: 46 (#50/#52 reviewed; #51 pending_review)
 
 > 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；✅ Batch 2-A/B/C 全部 reviewed：A 130 case + B 57 dk + C 90 source_refs 文件已完成，`kdo lint` 机械性 ERROR 清零；下一阶段正式进入补链阶段（Wave 6 诊断 + B1/B2/B3）。
 > **🆕 新增 #38**：《吾辈如神》素材经独立验证为 B 级，王语嫣做出价值判断：直接产出 3 张卡（认知卸载 / AI 使用杠铃策略 / 富足悖论），不试点、不批量；重点纠偏 BMW 85%、AGI 2029、AI 无法创造等数据/观点误读。
