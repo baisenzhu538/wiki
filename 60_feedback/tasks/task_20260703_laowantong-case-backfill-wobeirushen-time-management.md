@@ -1,33 +1,33 @@
 ---
 id: task_20260703_laowantong-case-backfill-wobeirushen-time-management
-title: "案例卡补挖：吾辈如神 + 时间管理域缺失 companion case（4-6 张）"
+title: 案例卡补挖：吾辈如神 + 时间管理域缺失 companion case（4-6 张）
 type: task
-status: queued
+status: in_progress
 priority: P2
-assignee: 老顽童(Kimi)
+assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-03
-updated_at: 2026-07-03
+updated_at: '2026-07-03T17:14:45.051842+00:00'
 expected_cards: 4-6
 dependencies:
-  - task_20260701_wangyuyan-wobeirushen-pilot-orchestration
-  - task_20260701_wangyuyan-time-management-domain-orchestration
+- task_20260701_wangyuyan-wobeirushen-pilot-orchestration
+- task_20260701_wangyuyan-time-management-domain-orchestration
 source_refs:
-  - 60_feedback/audit/20260701-wobeirushen-validation-report.md
-  - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
-  - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt
-  - 60_feedback/diagnosis/diag_20260701_time-management-validation.md
-  - 00_inbox/时间管理/truman-时间管理课程-口述.txt
-  - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
-  - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
-  - 00_inbox/时间管理/_processed/vlm_summary.json
+- 60_feedback/audit/20260701-wobeirushen-validation-report.md
+- 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
+- 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt
+- 60_feedback/diagnosis/diag_20260701_time-management-validation.md
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt
+- 00_inbox/时间管理/truman-时间管理课程-笔记.txt
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+- 00_inbox/时间管理/_processed/vlm_summary.json
 related:
-  - concept-cognitive-offloading-in-ai-era
-  - tool-ai-use-barbell-strategy
-  - concept-abundance-paradox
-  - framework-yitang-five-step-to-time-management
-  - tool-personal-time-audit-loop
-  - dk-time-management-common-mistakes
+- concept-cognitive-offloading-in-ai-era
+- tool-ai-use-barbell-strategy
+- concept-abundance-paradox
+- framework-yitang-five-step-to-time-management
+- tool-personal-time-audit-loop
+- dk-time-management-common-mistakes
 ---
 
 # 案例卡补挖：吾辈如神 + 时间管理域缺失 companion case（4-6 张）
