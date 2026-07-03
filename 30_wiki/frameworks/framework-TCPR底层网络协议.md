@@ -19,6 +19,15 @@ related:
 - '[[opc-ai-sales-agent-architecture]]'
 - '[[tool-opc-sales-dialogue-assistant]]'
 - '[[agent-os]]'
+- '[[agent-native-card-design]]'
+- '[[system-yitang-Y-model-os]]'
+- '[[tool-agent-spec-yitang-customer-segmentation]]'
+- '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[tool-agent-spec-yitang-sales-process-tracker]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+- '[[tool-agent-spec-yitang-opening-3min]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[yitang-domain-digest]]'
@@ -36,6 +45,16 @@ related:
 - '[[ocr-一堂-单元模型-对抗小抄01]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+query_triggers:
+- 让 Agent 以什么身份帮我
+- 切换到研究模式
+- 切换到教学模式
+- 切换到实践模式
+- 切换到咨询模式
+- TCPR 是什么
+- 为什么 Agent 要声明身份
+- Agent 身份协议
+- 教学咨询实践研究四种身份
 quality_labels:
 - cited
 - principle
@@ -71,10 +90,10 @@ TCP-R 模型把商业管理能力类比为网络协议，将知识工作者的�
 1. **自评 T/C/P/R 能力分布**：对自己或团队成员在四个模块上打分（1-5 分），找出最强项与最弱项 [conf=0.75, source=一堂原创]。
 2. **识别当前角色的主导模块**：培训师偏 T，咨询师偏 C，创业者偏 P，方法论研究者偏 R。
 3. **诊断能力缺口**：
-   - src_unknown
-   - src_unknown
-   - src_unknown
-   - src_unknown
+   - 最强模块是否足以支撑当前产品化路径？（例如 T 强但 P 弱时，课程内容可能缺乏真实业务验证）
+   - 最弱模块是否正在阻碍规模化？（例如 C 强但 T 弱时，1V1 咨询难以变成课程或 SaaS）
+   - 团队组合是否覆盖了 T/C/P/R 四个角？缺角需要补人还是补流程？
+   - 当前阶段业务更需要「讲清楚」「 diagnose」「拿结果」还是「建模型」？
 4. **设计能力提升计划**：通过项目实践、课程打磨、案例复盘等方式补齐短板。
 5. **构建团队能力组合**：个人难以四角全强，团队可以通过 T/C/P/R 互补形成完整交付能力。
 
@@ -95,14 +114,15 @@ TCP-R 模型把商业管理能力类比为网络协议，将知识工作者的�
 
 ## 与已有框架的关系
 
-- src_unknown
-- src_unknown
-- src_unknown
+- **Y模型**：Y模型回答「问题怎么拆」，TCP-R 回答「由什么能力的人来拆」。两者叠加：先用 TCP-R 判断当前该由 T/C/P/R 哪种身份的 Agent/人主导，再用 Y模型做结构化分析。
+- **实事求是**：P（实践）和 R（研究）需要事实输入；实事求是规则确保 TCP-R 角色切换时不凭空猜测。
+- **解放思想**：R（研究）最容易陷入既有模型；解放思想规则要求 R 身份主动挑战隐含假设。
+- **一堂五步法 / 单元模型**：P（实践）在销售、产品、增长场景中落地时，可直接调用五步法或单元模型作为行动框架。
 
 **现有框架未覆盖的缺口**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 没有说明「谁来做」：Y模型和五步法告诉你要做什么，但没说明 T/C/P/R 哪种身份更适合当前任务。
+- 没有说明「怎么做规模化」：T 负责规模化传播，C 负责深度服务，P 负责拿结果，R 负责沉淀模型，四者组合才能产品化。
+- 没有说明「怎么切换身份」：同一问题在不同阶段需要不同身份，TCP-R 提供了切换的坐标系。
 
 ## 可迁移场景
 
@@ -113,11 +133,42 @@ TCP-R 模型把商业管理能力类比为网络协议，将知识工作者的�
 
 ## 行动 Checklist
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [ ] 明确当前任务最需要 T/C/P/R 中哪种身份主导。
+- [ ] 列出自己或团队在四个模块上的 1-5 分自评，标出最强项与最弱项。
+- [ ] 判断最弱项是否会阻塞当前阶段目标；如果是，设计最小补能力动作。
+- [ ] 如果是团队，检查四角是否有人覆盖；缺角决定补人、补流程还是补工具。
+- [ ] 如果是设计 Agent，在 `agent-spec` 卡的 frontmatter 中写入 `tcp_role` / `tcp_default_mode` / `tcp_switch_trigger` / `tcp_session_opening`。
+
+## TCPR 作为 Agent 身份协议
+
+TCP-R 不仅是人类能力模型，也是 Agent 协作的轻量身份协议。
+
+### 为什么 Agent 需要身份协议
+
+1. **防止角色漂移**：同一个 Agent 在不同会话中可能被期望做教学、诊断、执行或分析；没有显式身份时，Agent 会默认混合多种行为，让用户困惑。
+2. **统一开场预期**：用户一进入对话就知道 Agent 会以什么目标、什么边界协作，减少试探成本。
+3. **支持中途切换**：复杂任务常需要先从 C（咨询）诊断，再切到 P（实践）生成动作，或切到 R（研究）复盘规律；身份协议让切换有章可循。
+
+### Agent 身份选择指南
+
+| 默认任务 | 推荐身份 | 典型开场 |
+|:---|:---|:---|
+| 解释方法论、训练用户 | T 教学 | 「我本次以 T（教学）身份，帮你理解……」 |
+| 诊断问题、给出建议 | C 咨询 | 「我本次以 C（咨询）身份，先帮你诊断……」 |
+| 生成动作清单、推动落地 | P 实践 | 「我本次以 P（实践）身份，帮你把目标拆成动作……」 |
+| 复盘数据、提炼规律 | R 研究 | 「我本次以 R（研究）身份，帮你分析整体结构……」 |
+
+### 切换边界
+
+- 同一会话内一次只有一个主导身份。
+- 切换时必须声明新身份、复述已确认事实、检查输入完整性。
+- 高风险动作（价格承诺、对外发送、合同条款）无论切换到什么身份，都必须标注「需人工确认」。
+
+### 与 KDO 规范的关系
+
+- 设计规范：`agent-native-card-design.md` 的「Agent 规格卡的 TCPR 身份协议」章节定义了 frontmatter 字段。
+- 运行时 OS：`agents/agent-os.md` 定义了默认 C 身份、切换触发语和五条硬边界。
+- 思考底座：`system-yitang-Y-model-os.md` 把 TCPR 身份选择作为共享 prompt 的第 0 步。
 
 ## Critique
 
