@@ -194,3 +194,67 @@ test_no_prefix_side_effect PASSED
 
 *黄药师 2026-07-04*
 
+---
+
+## 欧阳锋重审结论（2026-07-03）
+
+**任务**：#60 修复 queue_transition.py review 按 frontmatter id 查找任务单
+
+**重审结论**：`pass`
+
+### 首次 fail 改进点逐条复核
+
+| # | 改进要求 | 复核结果 | 说明 |
+|:---|:---|:---:|:---|
+| 1 | `action_review()` 在 `find_task_file()` 失败后调用 `find_task_file_by_frontmatter_id()` | ✅ | 已通过 `_find_task_file_dual()` 统一入口实现：`find_task_file(task_id) or find_task_file_by_frontmatter_id(task_id)` |
+| 2 | `find_task_file_by_frontmatter_id()` 删除前缀 fallback，仅保留 frontmatter id 精确匹配 | ✅ | 代码 L108-111 仅比较 `fm.get("id") == task_id`，无 prefix 逻辑 |
+| 3 | `action_claim()` / `action_complete()` / `action_release()` 统一双重查找顺序 | ✅ | 三者全部改用 `_find_task_file_dual(task_id)`（L186、L214、L248） |
+| 4 | 错误信息改为：`找不到任务单文件: {task_id}（已按文件名和 frontmatter id 双重查找）` | ✅ | L188、L216、L250、L272 均使用该格式 |
+| 5 | 更新 `find_task_file()` 与 `find_task_file_by_frontmatter_id()` 的 docstring | ✅ | L82-88 说明精确文件名匹配 + 应 fallback 到 frontmatter；L100-103 说明按 frontmatter `id` 精确扫描 |
+| 6 | 在 `90_control/AGENTS.md` 补充队列规则 | ✅ | AGENTS.md L299-305 已新增「队列规则」章节，明确文件名可与 frontmatter id 不一致、id 必须唯一、查找顺序为文件名优先再 frontmatter |
+| 7 | 新增回归测试 `tests/test_queue_transition.py` | ✅ | 测试位于 `90_control/scripts/tests/test_queue_transition.py`，7 用例全部通过 |
+
+### 测试验证结果
+
+- **测试文件位置**：`C:/Users/Administrator/Desktop/wiki/90_control/scripts/tests/test_queue_transition.py`
+- **运行命令**：`python -m pytest 90_control/scripts/tests/test_queue_transition.py -v`
+- **结果**：`7 passed in 1.22s`
+- **覆盖用例**：
+  - `test_exact_filename_match_returns_correct_file` — 文件名=id 时精确命中
+  - `test_frontmatter_id_match_finds_renamed_file` — #55 文件名不一致场景
+  - `test_dual_lookup_exact_preferred` — 双重查找优先精确文件名
+  - `test_dual_lookup_falls_back_to_frontmatter` — 文件名失败后 fallback 到 frontmatter
+  - `test_dual_lookup_returns_none_when_both_fail` — 两者都失败返回 None
+  - `test_missing_file_returns_none` — 缺失文件返回 None
+  - `test_no_prefix_side_effect` — 前缀不再导致误命中 foundation-production 文件
+
+### 实际场景验证
+
+- **#55 场景**：`task_id = task_20260703_laowantong-yitang-Y-model-os`，实际文件名为 `task_20260703_laowantong-agent-spec-yitang-Y-model-coach.md`
+- **验证方式**：Python 直接调用 `_find_task_file_dual(task_id)`（未真实修改队列状态）
+- **结果**：`dual: C:\...\task_20260703_laowantong-agent-spec-yitang-Y-model-coach.md`，正确找到 #55 任务单。
+- **dry-run 说明**：`queue_transition.py` 当前不支持 `--dry-run` 参数；本次验证通过直接调用查找函数完成，未触发任何状态变更。
+
+### claim / complete / release 未破坏性验证
+
+手动调用 `_find_task_file_dual()` 检查以下任务 id：
+
+- `#60`（`task_20260703_huangyaoshi-fix-queue-transition-review-lookup`）：文件名=id，精确命中自身文件，未误命中同前缀文件 ✅
+- `#55`（`task_20260703_laowantong-yitang-Y-model-os`）：文件名不匹配，fallback 到 frontmatter，命中 coach 文件，未命中 foundation-production ✅
+- `#51`（`task_20260703_laowantong-yitang-Y-model-foundation-production`）：精确文件名命中自身，未与前缀冲突任务混淆 ✅
+
+### 具体改进点
+
+无。
+
+### 下一步
+
+- 本次重审 **实质结论为 pass**。
+- 因当前 `#57` 仍为 `claimed-kimi`，`queue_transition.py` 状态机暂无法将 `#60` 移入 `pending_review`；正式状态变更（`queued → claimed → pending_review → reviewed`）需等 `#57` 释放后按队列规则执行。
+- 待 `#60` 进入 `pending_review` 后，可正式运行：
+  ```bash
+  python 90_control/scripts/queue_transition.py review task_20260703_huangyaoshi-fix-queue-transition-review-lookup --verdict pass --reviewer 欧阳锋
+  ```
+
+*欧阳锋 2026-07-03*
+

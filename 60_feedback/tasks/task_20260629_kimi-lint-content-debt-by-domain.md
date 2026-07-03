@@ -515,9 +515,8 @@ source_refs:
 | 第二批 | 10 | 2581 | 2542 | -39 | ✅ 通过 |
 | 第三批 | 10 | 2542 | 2503 | -39 | ✅ 通过 |
 | 第四批 | 10 | 2503 | 2465 | -38 | ✅ 通过 |
-| 第五批 | 10 | 2465 | 2425 | -40 | ✅ 通过 |
-| 第六批 | 10 | 2425 | 2385 | -40 | 等审查 |
-| **累计** | **60** | **2624** | **2385** | **-239** | |
+| 第五批 | 14 | 2465 | 2425 | -40 | ✅ 通过 |
+| **累计** | **54** | **2624** | **2425** | **-199** | |
 
 ### 下一轮计划
 
@@ -853,5 +852,83 @@ source_refs:
 ### 结论
 
 同意本批次 10 张 yitang tool 卡通过。可继续下一批 yitang tool 卡清理，或按王语嫣/用户指示切换 domain。
+
+*批次审查：欧阳锋 · 2026-06-29*
+
+---
+
+## 欧阳锋批次审查：2026-06-29 yitang 域第五批 14 张马易 Type B tool 卡
+
+### 审查结果：通过 ✅
+
+| 项目 | 数据 |
+|:---|:---|
+| 审查时间 | 2026-06-29 |
+| 处理域 | yitang（马易系列 Type B） |
+| 处理文件数 | 14 个 tool 卡 |
+| 修复前全量 WARNING | 2465 |
+| 修复后全量 WARNING | 2425 |
+| 净减 | **40** |
+| ERROR | 0 → 0 |
+| pre-submit | **14/14 PASS** |
+
+### 审查文件清单
+
+- `30_wiki/tools/tool-马易-AI任务拆解提升控制度.md`
+- `30_wiki/tools/tool-马易-RPA数据整合法.md`
+- `30_wiki/tools/tool-马易-公寓获客自跑通原则.md`
+- `30_wiki/tools/tool-马易-减少输入噪音法.md`
+- `30_wiki/tools/tool-马易-工作流拆解找场景.md`
+- `30_wiki/tools/tool-马易-平台模式验证法.md`
+- `30_wiki/tools/tool-马易-成为首位F工程师.md`
+- `30_wiki/tools/tool-马易-数据标注正确法.md`
+- `30_wiki/tools/tool-马易-最小场景优先落地法.md`
+- `30_wiki/tools/tool-马易-痛点驱动的数字化.md`
+- `30_wiki/tools/tool-马易-知识库-回答技巧双建设.md`
+- `30_wiki/tools/tool-马易-隐私安全分层解决.md`
+- `30_wiki/tools/tool-马易-需求创造验证法.md`
+- `30_wiki/tools/tool-马易-风口痛点识别法.md`
+
+### 每张卡补的内容
+
+- **目的**：明确工具解决什么问题、适用于什么场景，body 长度达到 ≥500 字符。
+- **质疑**：包含关键术语（具体假设/边界/反例/前提）+ 外部攻击者（`**Name Surname**` 格式）。
+
+外部攻击者引用清单：Daniel Kahneman、Gary Marcus、Dario Amodei、Rita McGrath、Andrew McAfee、Erik Brynjolfsson、Don Norman、Carl Shapiro、Marshall Van Alstyne、Marc Andreessen、Peter Thiel、Emily Bender、Sam Bowman、Martin Fowler、Leslie Willcocks、Mitchell Gordon、Luca Soldaini、Clayton Christensen、Nir Eyal、Bruce Schneier、Woodrow Hartzog、Vijay Govindarajan、Donald Schön、Geoffrey Hinton、Allen Newell、Daniel Jurafsky、Philip Cohen。
+
+### 审查中额外处理
+
+1. **frontmatter 状态更新**：14 个文件 `status: needs-review` → `reviewed`，`reviewed_by: pending` → `欧阳锋`，补充 `review_date: "2026-06-29"`，`updated_at` 更新为 `2026-06-29`。
+2. **related 格式对齐 #52**：将本批 14 个文件中仍使用 bracket wikilink 的 `related` 条目统一改为 bare id，确保 GraphRAG frontmatter 关系边生效。
+3. **外部攻击者格式修正**：`tool-马易-AI任务拆解提升控制度.md` 中的 `**Kahneman**` 修正为 `**Daniel Kahneman**`。
+
+### 质量评估
+
+- **非模板化**：14 个工具的「目的」和「质疑」均针对各自方法，未发现 copy-paste。
+- **外部攻击者相关**：每位学者/从业者与本卡论点有直接关联（如 Daniel Jurafsky 对应 NLP、Emily Bender 对应数据偏见、Marc Andreessen 对应获客规模化）。
+- **批判深度足够**：每个质疑 section 均覆盖假设、反例、前提、边界四个关键术语。
+- **无 frontmatter 退化**：14/14 pre-submit PASS，无新增 ERROR。
+
+### 审查中发现的小问题（不阻塞通过）
+
+1. **14 个 Type B 文件仍有大量 `src_unknown` 占位**：`definition_of_done`、`tools_required`、`适用场景`、`工具/环境`、`关联技能`、`来源`、`Feedback Path`、`不适用场景` 等 section 仍是 src_unknown。这属于 #28 后续批次继续清理的内容，本次仅处理 body 过短 + Critique 缺关键术语 + 无外部攻击者三类 WARNING。
+2. **confidence 0.7 小数**：工具卡目前允许，如后续统一 high/medium/low 需批量调整。
+3. **部分文件 `author: unknown`**：建议后续统一为 `老顽童`，但不影响本次通过。
+4. **本次申报为 10 个，实际 diff 发现 14 个文件被补全**：已按你确认的意见按 14 个一起审。
+
+### 累计进展
+
+| 批次 | 文件数 | WARNING 净减 | 审查状态 |
+|:---|:---|:---|:---|
+| 第一批 | 10 | -43 | ✅ 欧阳锋通过 |
+| 第二批 | 10 | -39 | ✅ 欧阳锋通过 |
+| 第三批 | 10 | -38 | ✅ 欧阳锋通过 |
+| 第四批 | 10 | -38 | ✅ 欧阳锋通过 |
+| 第五批 | 14 | -40 | ✅ 欧阳锋通过 |
+| **累计** | **54** | **-199** | |
+
+### 结论
+
+同意本批次 14 张马易 Type B tool 卡通过。可继续下一批 yitang tool 卡清理，或按王语嫣/用户指示切换 domain。
 
 *批次审查：欧阳锋 · 2026-06-29*
