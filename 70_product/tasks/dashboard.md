@@ -98,8 +98,8 @@ Generated: 2026-06-26T21:00:00+00:00
 - **Total**: 58
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 7（详见 `production-queue.md` #28/#53-#55/#57-#59 等）
-- **Long-term / Paused**: 0（#28 lint 内容债，待拆批，不直接领取）
+- **Queued**: 6（详见 `production-queue.md` #53-#55/#57-#59 等）
+- **Long-term / Paused**: 1（#28 lint 内容债，workbuddy 后台分批执行）
 - **Pending**: 1 (#51 欧阳锋终审中)
 - **Review Done**: 46 (#50/#52 reviewed; #51 pending_review)
 

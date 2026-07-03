@@ -2,7 +2,7 @@
 id: task_20260629_kimi-lint-content-debt-by-domain
 type: task
 status: paused
-assignee: kimi
+assignee: workbuddy
 priority: P2
 created_at: 2026-06-29
 updated_at: '2026-07-01T00:00:00+00:00'
@@ -376,3 +376,8 @@ source_refs:
 ---
 
 *阻塞项更新：欧阳锋 · 2026-07-01*
+## 负责人与执行方式调整
+
+- **负责人**：workbuddy（老顽童 WorkBuddy 实例）
+- **执行方式**：后台长期分批清理，不阻塞主线队列
+- **原因**：#28 是 lint 内容债长期任务，占用队列首位导致后续任务无法推进；改为 paused 状态，由 WorkBuddy 在空闲时慢慢做
