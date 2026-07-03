@@ -176,6 +176,17 @@ def validate_file(fp: Path, schemas: dict) -> list:
     if status == "enriched" and (not related or related == []):
         errors.append(f"{rel}: WARN: status=enriched but related is empty — card has no outgoing links")
 
+    # 🆕 Check: agent-spec cards should declare TCPR role fields
+    if isinstance(page_type, str) and "agent-spec" in page_type:
+        for field in ("tcp_role", "tcp_default_mode", "tcp_switch_trigger", "tcp_session_opening"):
+            if field not in fm or not fm[field]:
+                errors.append(f"{rel}: WARN: agent-spec card missing TCPR field '{field}'")
+        tcp_role = fm.get("tcp_role")
+        if tcp_role is not None and tcp_role not in ("", "T", "C", "P", "R"):
+            errors.append(f"{rel}: WARN: agent-spec tcp_role '{tcp_role}' invalid (must be T/C/P/R)")
+        if "## TCPR 身份声明" not in content:
+            errors.append(f"{rel}: WARN: agent-spec System Prompt missing TCPR identity declaration")
+
     # source_refs 文件存在性检查
     errors.extend(check_source_refs_exist(fm, rel))
 
