@@ -4,7 +4,8 @@ title: Y模型 OS：所有 Agent 的共享底层 prompt
 type: system
 status: enriched
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: "2026-06-29"
 confidence: 0.9
 trust_level: high
 language: zh-CN

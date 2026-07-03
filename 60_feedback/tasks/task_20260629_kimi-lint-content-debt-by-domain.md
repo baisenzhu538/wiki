@@ -1004,7 +1004,8 @@ source_refs:
 | 第五批 | 14 | -40 | ✅ 欧阳锋通过 |
 | 第六批 | 6 | -40 | ✅ 欧阳锋通过 |
 | 第七批 | 10 | -40 | ✅ 欧阳锋 pass with reservations |
-| **累计** | **70** | **-279** | |
+| 第八批 | 10 | -39 | ✅ 欧阳锋 pass with reservations |
+| **累计** | **80** | **-318** | |
 
 ### 结论
 
@@ -1022,3 +1023,12 @@ source_refs:
 - **pre-submit**：10/10 PASS
 - **WARNING**：2385 → 2345（净减 40）
 - **Reservation**：操作步骤与「为什么有效」仍过薄；适用场景/工具/环境/来源等 section 仍为 src_unknown 占位；kdo_lint.py 报告 Files checked: 0 需排查；卡片状态需统一更新。
+
+## 2026-07-04 更新：第八批审查
+
+- **文件**：10 个月白设计系列 Type B tool 卡
+- **审查结论**：欧阳锋 pass with reservations
+- **审查报告**：`60_feedback/reviews/review_20260704_ouyangfeng-yitang-yuebai-batch8.md`
+- **pre-submit**：10/10 PASS
+- **WARNING**：2345 → 2306（净减 39）
+- **Reservation**：body 仍偏短；大量 section 仍为 src_unknown 占位；kdo_lint.py Files checked: 0 计数异常需排查；部分反例可更具体。

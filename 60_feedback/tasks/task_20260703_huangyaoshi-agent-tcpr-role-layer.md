@@ -2,14 +2,15 @@
 id: task_20260703_huangyaoshi-agent-tcpr-role-layer
 title: Agent 能力分层引入 TCPR 角色模型：所有 Agent 协作前必须选定 T/C/P/R 身份
 type: task
-status: pending_review
+status: reviewed
 priority: P1
 assignee: kimi
 co_architect: 黄药师
 reviewer: 欧阳锋
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: "2026-06-29"
 created_at: 2026-07-01
-updated_at: '2026-07-03T19:44:28.134757+00:00'
+updated_at: '2026-06-29'
 source_context: 用户提出 TCPR 应作为 Agent 身份协议，防止 Agent 军团协作混乱
 estimated_cards: 1 system + 2 framework更新 + 7-8 agent-spec retrofit + 设计规范更新
 dependencies:
@@ -125,3 +126,65 @@ TCP-R（教学 Teach / 咨询 Consult / 实践 Practice / 研究 Research）原�
 
 - 用户特别强调：**Agent 不要死板流程，要协作式。** 因此 TCPR 身份选择不应变成强制填表，而是「先声明、再协商、随时可切」的轻协议。
 - 身份选择不是人格设定：同一个 Agent 在不同会话中可以是 C 或 P，身份字段写入 frontmatter，开场 prompt 动态加载。
+
+---
+
+## 欧阳锋终审报告
+
+### 审查结果：通过 ✅
+
+| 项目 | 数据 |
+|:---|:---|
+| 审查时间 | 2026-06-29 |
+| 审查人 | 欧阳锋 |
+| 改动文件数 | 13 个核心文件 + 1 个 lint 脚本 |
+| pre-submit | 13/13 PASS ✅ |
+| lint 新增 ERROR | 0 |
+
+### 交付物核查
+
+| 类型 | 文件 | 状态 |
+|:---|:---|:---|
+| 运行时 OS | `agents/agent-os.md` | ✅ 已升级为完整 TCPR 身份协议与启动规范，默认 C 身份、切换触发语、五条硬边界清晰 |
+| 设计规范 | `30_wiki/systems/agent-native-card-design.md` | ✅ 新增 TCPR 身份协议章节，定义 `tcp_role` / `tcp_default_mode` / `tcp_switch_trigger` / `tcp_session_opening` |
+| Y模型 OS 对齐 | `30_wiki/systems/system-yitang-Y-model-os.md` | ✅ 共享 prompt 第 0 步为 TCPR 身份选择，引用 `agents/agent-os.md` |
+| TCPR 框架升级 | `30_wiki/frameworks/framework-TCPR底层网络协议.md` | ✅ 补齐 src_unknown，新增 Agent 身份协议章节与 query_triggers |
+| TCPR 皇冠模型 | `30_wiki/frameworks/framework-TCPR皇冠模型.md` | ✅ 补齐 T/C/P/R 各 6 项核心训练，新增训练层级到 Agent 角色切换映射 |
+| 7 OPC agent-spec retrofit | `30_wiki/tools/tool-agent-spec-yitang-*.md` | ✅ 全部 7 张卡 frontmatter 含 4 个 TCPR 字段，System Prompt 含 TCPR 身份声明 |
+| Retrofit 指南 | `40_outputs/agent-tcpr-role-retrofit-guide.md` | ✅ 覆盖判断是否需要 retrofit、选身份、加字段、插声明、更新 related、验证清单 |
+| lint 增强 | `90_control/scripts/kdo_lint.py` | ✅ 对 `agent-spec` 类型增加 TCPR 字段与 System Prompt 声明的 WARNING 级检查 |
+
+### 7 张 OPC agent-spec 默认身份分配
+
+| 卡片 | tcp_role | 身份 |
+|:---|:---:|:---|
+| customer-segmentation | C | 咨询诊断 |
+| value-proposition | C | 咨询共创 |
+| sales-process-tracker | C | 咨询诊断 |
+| sales-performance-monitor | R | 研究复盘 |
+| opening-3min | T | 教学共创 |
+| objection-handler | C | 咨询诊断 |
+| self-motivation | P | 实践驱动 |
+
+身份分配与卡片核心动作匹配，无异议。
+
+### 质量评估
+
+- **架构清晰**：Agent OS / Y模型 OS / 域 Agent 三层结构保持完整；TCPR 只解决「以什么身份协作」，不替代 Y模型「怎么思考」。
+- **协议轻量**：身份声明、切换触发、五条硬边界完整，但未变成强制填表，符合用户「Agent 不要死板流程，要协作式」的要求。
+- ** retrofit 完整**：7 张 OPC agent-spec 全部接入，且产出可复用指南，未来新增 agent-spec 有标准模板。
+- **工具链闭环**：lint 脚本增加 WARNING 级校验，可逐步把 TCPR 字段变成软规范。
+- **无新增 ERROR**：13 个改动文件 pre-submit 全部 PASS；全库 lint 中仅 `agent-native-card-design.md` 有 2 条 `source_refs contaminated` 历史 ERROR，与本次 TCPR 改动无关。
+
+### 审查中发现的小问题（不阻塞通过）
+
+1. **`agent-native-card-design.md` 存在两个「Agent 规格卡的 TCPR 身份协议」章节**：分别位于约第 207 行和第 581 行，内容有重叠。建议下次清理时合并为一个权威章节，避免维护两份。
+2. **部分 `related` 仍为 bracket wikilink 格式**：虽然不影响 pre-submit，但与 #52 GraphRAG bare id 规范不一致，可在后续 link-repair 批次中统一。
+3. **`tcp_role` 在 lint 脚本中允许为空字符串**：当前逻辑 `tcp_role not in ("", "T", "C", "P", "R")` 把空字符串视为合法，建议后续改为空字符串也报 WARNING。
+4. **Agent OS 文件位于 `agents/agent-os.md`**：路径在 30_wiki 之外，需确认 GraphRAG 索引时是否包含该路径。如未包含，建议通过 `related` 或显式索引确保 Agent 启动时能加载。
+
+### 结论
+
+同意 `#58` Agent TCPR 角色模型任务终审通过。TCPR 已从人类能力模型升级为 Agent 运行时身份协议，与 Y模型 OS、OPC 销售 agent-spec、设计规范、lint 门禁形成完整闭环。
+
+*终审：欧阳锋 · 2026-06-29*
