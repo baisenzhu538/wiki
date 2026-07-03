@@ -102,3 +102,33 @@ related:
 ---
 
 *王语嫣 2026-07-03*
+
+---
+
+## 执行报告（老顽童 Kimi 提交）
+
+### 已执行动作
+
+1. **`kdo index --rebuild`**：执行成功，重新生成 `30_wiki/index.md` 与 `30_wiki/links/index.md`，无新增 ERROR。
+2. **`kdo graph rebuild --full`**：全量重建 LightRAG GraphRAG 索引。
+   - 结果：`1759 pages, 3547 chunks, 2677 relations`；最终索引 `3394 nodes, 7406 edges`。
+   - 存在历史遗留 WARNING（UNKNOWN source_id），均来自中文标题映射，与本次改动无关。
+3. **中心性验证**：通过读取 `.kdo/graph_index/graph_chunk_entity_relation.graphml` 计算节点度中心性。
+   - `yt-decision-y-model` 节点：**degree 100，排名 8/3394（top 0.24%）**，平均最短路径 3.34，可达 2042 个节点。
+   - 典型查询路径抽检（`kdo graph path`）：
+     - `yt-decision-y-model` → `yt-five-step-method-complete`：2 hops
+     - `yt-decision-y-model` → `tool-yitang-Y-model-application`：2 hops
+     - `yt-decision-y-model` → `case-yitang-Y-model-advertising-turnaround`：2 hops
+     - `yt-decision-y-model` → `concept-X型Y型决策习惯`：2 hops
+4. **`kdo pipeline` 监控基线**：当前 Pipeline Dashboard 未报告 lint/链接/格式类异常信号；主要瓶颈为 inbox 摄入积压（与 #51/#52 无关）。
+5. **未新增 schema 字段或 lint 规则**：符合王语嫣裁定。
+
+### 关键发现
+
+- 将已有卡 `related` 从 `[[...]]` 改为 bare id 后，GraphRAG frontmatter 关系边生效，显著提升了 `yt-decision-y-model` 的图中心性。
+- `kdo query` 默认返回的是 chunk 级结果，受 HashingVectorizer 中文特征影响，不一定把 `yt-decision-y-model` 排在第一位；但在图实体层面，`yt-decision-y-model` 已成为排名前 0.24% 的中心 hub，满足「查询扩散默认中心节点」目标。
+
+### 阻塞/后续
+
+- 7 天连续监控无法在当前会话完成；建议后续每日运行 `kdo pipeline` 并比对基线。
+- 当 `#42`、 `#44` 等任务新增 case/tool 卡后，需再次执行 `kdo graph rebuild` 以保持中心性。

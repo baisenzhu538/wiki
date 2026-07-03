@@ -231,7 +231,3 @@ related:
 
 **状态变更**：`status: enriched` → `reviewed`，`reviewed_by: pending` → `欧阳锋`。
 
-
-## Y模型根节点连接
-
-本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。

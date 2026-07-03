@@ -7,7 +7,7 @@ priority: P1
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 created_at: 2026-07-03
-updated_at: 2026-07-03（素材全部就位；新增 AI 反幻觉映射 + 科学类比执行模板要求；解放思想案例候选 148 条待二次判断）
+updated_at: 2026-07-03（素材全部就位；新增 AI 反幻觉映射 + Agent Y模型三段映射 + 科学类比执行模板要求；解放思想案例候选 148 条待二次判断）
 expected_cards: 7
 dependencies: []
 source_refs:
@@ -256,7 +256,8 @@ related:
 6. **OPC 改编**：每张 framework/tool 卡必须包含「OPC 智能体适配」小节。
 7. **哲学引用**：引用《实践论》《矛盾论》、王阳明心学时要明确「用于说明内在联系，不构成学术结论」。
 8. **AI 反幻觉映射**：`yt-decision-y-model`、`framework-yitang-shishi-qiushi`、`framework-yitang-jiefang-sixiang` 三张 framework 卡必须各含一个「AI 反幻觉」小节，说明如何把该框架用于识别/抑制 AI 幻觉（例如：事实核查清单、红队蓝队、隐含假设挖掘）。
-9. **科学类比执行模板**：每张 case 卡必须包含「可迁移规律」和「场景化抄作业方案」两个 section；每张 framework/tool 卡必须包含「科学类比使用说明」小节，让用户未来做类似事情时，能按图索骥调用已沉淀案例。
+9. **Agent Y模型三段映射**：三张 framework 卡和 `tool-yitang-Y-model-application` 必须各含「理论来源 / 事实输入 / 知行合一 / 幻觉风险 / fallback」小节，明确 Agent 调用时的三段结构。
+10. **科学类比执行模板**：每张 case 卡必须包含「可迁移规律」和「场景化抄作业方案」两个 section；每张 framework/tool 卡必须包含「科学类比使用说明」小节，让用户未来做类似事情时，能按图索骥调用已沉淀案例。
 
 ---
 
@@ -264,10 +265,10 @@ related:
 
 - [ ] 7 张目标卡全部 `kdo pre-submit` PASS，无新增 ERROR。
 - [ ] 7 张目标卡 `kdo lint` 0 ERROR；新增 WARNING 需在任务单中说明。
-- [ ] `yt-decision-y-model` 已就地重写升级，包含四层结构图、五步法、与一堂其他课程关系、KDO 根节点映射、哲学呼应、跨域迁移、AI 反幻觉映射、科学类比使用说明。
-- [ ] `framework-yitang-shishi-qiushi` 包含在 Y模型中的位置、核心动作、自欺信号、验证成本阶梯、AI 反幻觉映射、科学类比使用说明。
-- [ ] `framework-yitang-jiefang-sixiang` 包含六层认知模型、隐含假设挖掘方法、跨域桥接、AI 反幻觉映射、科学类比使用说明。
-- [ ] `tool-yitang-Y-model-application` 包含五步法清单、输入/输出、红卡/蓝卡、示例、≥10 项 checklist。
+- [ ] `yt-decision-y-model` 已就地重写升级，包含四层结构图、五步法、与一堂其他课程关系、KDO 根节点映射、哲学呼应、跨域迁移、AI 反幻觉映射、Agent Y模型三段映射、科学类比使用说明。
+- [ ] `framework-yitang-shishi-qiushi` 包含在 Y模型中的位置、核心动作、自欺信号、验证成本阶梯、AI 反幻觉映射、Agent Y模型三段映射、科学类比使用说明。
+- [ ] `framework-yitang-jiefang-sixiang` 包含六层认知模型、隐含假设挖掘方法、跨域桥接、AI 反幻觉映射、Agent Y模型三段映射、科学类比使用说明。
+- [ ] `tool-yitang-Y-model-application` 包含五步法清单、输入/输出、红卡/蓝卡、示例、≥10 项 checklist、Agent Y模型三段映射。
 - [ ] `dk-yitang-Y-model-pitfalls` 包含 6 个反模式、≥6 条预警信号、修复动作。
 - [ ] `case-yitang-Y-model-seven-applications` 包含七人案例对标、共同短板、Lessons、Failure Modes、可迁移规律、场景化抄作业方案。
 - [ ] `case-yitang-Y-model-advertising-turnaround` 包含 Background/Problem/Decision/Process/Result/Lessons/Failure Modes、可迁移规律、场景化抄作业方案。
