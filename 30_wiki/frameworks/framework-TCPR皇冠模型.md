@@ -40,6 +40,7 @@ query_triggers:
 - Agent 训练层级
 - 从训练体系到 Agent 角色切换
 review_date: '2026-06-29'
+created_at: '2026-06-29'
 updated_at: '2026-06-29'
 ---
 
