@@ -46,10 +46,13 @@ TCP-R（教学 Teach / 咨询 Consult / 实践 Practice / 研究 Research）原�
   - 新增「Agent 规格卡的 TCPR 身份协议」强制章节
   - 要求所有 `agent-spec` 类型卡片必须包含 `tcp_role` / `tcp_default_mode` / `tcp_switch_trigger` / `tcp_session_opening`
   - 给出 System Prompt 开场模板
+  - **切换协议本身不写在设计规范里，而是引用 `agents/agent-os.md`**
 
-- [ ] 新建 `30_wiki/systems/system-agent-role-selector.md`（或 `tool-agent-tcpr-mode-switch.md`）
-  - 通用会话启动协议：身份声明 → 目标确认 → 模式切换提示 → 默认兜底
-  - 可被任何 agent-spec 通过 related 链接引用
+- [ ] 更新/确认 `agents/agent-os.md`
+  - 作为所有 Agent 启动时必读的底层 OS 文件
+  - 包含 TCPR 身份定义、默认 C 身份、切换触发语
+  - 包含同一会话内切换的五条硬边界协议
+  - 可被任何 agent-spec 通过文件路径或 related 链接引用
 
 ### 2. TCPR 框架卡升级
 
@@ -57,7 +60,7 @@ TCP-R（教学 Teach / 咨询 Consult / 实践 Practice / 研究 Research）原�
   - 补齐 `src_unknown` 占位
   - 新增「TCPR 作为 Agent 身份协议」章节
   - 补充 `query_triggers`："让 Agent 以什么身份帮我"、"切换到研究模式" 等
-  - related 回链到所有现有 agent-spec 和 system-agent-role-selector
+  - related 回链到所有现有 agent-spec 和 `agents/agent-os.md`
 
 - [ ] 更新 `30_wiki/frameworks/framework-TCPR皇冠模型.md`
   - 补齐训练层级与 6 项核心训练的详细内容
@@ -84,7 +87,7 @@ TCP-R（教学 Teach / 咨询 Consult / 实践 Practice / 研究 Research）原�
 
 ### 5. 中途切换身份支持（用户明确要求）
 
-- [ ] `system-agent-role-selector.md` 必须包含同一会话内从 C→P、C→R、P→C 等常见切换协议。
+- [ ] `agents/agent-os.md` 必须包含同一会话内从 C→P、C→R、P→C 等常见切换协议（已写入，需确认并补 frontmatter/引用）。
 - [ ] 所有 agent-spec 卡的 System Prompt 必须支持用户说"切换到教学/咨询/实践/研究"，切换时 Agent 要：
   - 明确声明新身份和新目标；
   - 复述继承的事实/分析；
