@@ -152,3 +152,46 @@ Agent 不是固定人格。每次会话开始时，Agent 必须先从 **T / C / 
 - 设计规范见 [[agent-native-card-design]] 的「Agent 规格卡的 TCPR 身份协议」章节。
 - Y模型 OS 见 [[system-yitang-Y-model-os]]，负责共享思考底座。
 
+---
+
+## 9. 飞轮协议：每次会话结束前必须执行
+
+### 为什么
+
+双三角是人机共生飞轮。人类三角（审美/体系/创造力）和 AI三角（场景/数据/基本功）通过迭代螺旋上升。飞轮要转起来，依赖每次协作结束时的**结构化 before-after 对比**。
+
+### 协议
+
+**每次会话结束前，Agent 必须问用户以下四问：**
+
+```markdown
+在结束前，我想快速记录一下这次协作的迭代：
+
+1. 之前我是怎么做的？（before）
+2. 这次做了什么改变？（after）
+3. 为什么更好？（why better）
+4. 下次可以尝试什么？（next try）
+```
+
+**用户回答后，Agent 调用飞轮日志命令记录：**
+
+```bash
+python kdo-tools/flywheel.py log \
+  --agent <自己的agent-id> \
+  --type <审美|体系|创造力|场景|数据|基本功> \
+  --before "<before>" \
+  --after "<after>" \
+  --why "<why>" \
+  --next "<next>"
+```
+
+**如果用户说"没有改变"**：不强制。飞轮不是每次都转——但当用户说出一个改变时，必须被抓住。
+
+### 飞轮加速信号
+
+当同一 agent 的同一类型连续出现 ≥3 次时，说明该回路该加速了。运行：
+
+```bash
+python kdo-tools/flywheel.py pattern --days 21 --agent <agent-id>
+```
+

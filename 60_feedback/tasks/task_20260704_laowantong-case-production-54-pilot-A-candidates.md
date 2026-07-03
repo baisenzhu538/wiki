@@ -2,13 +2,13 @@
 id: task_20260704_laowantong-case-production-54-pilot-A-candidates
 title: '#54 试点 A 级候选投产：7 张 companion case 卡'
 type: task
-status: pending_review
+status: changes_requested
 priority: P2
 assignee: kimi
 reviewer: 欧阳锋
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-07-04
-updated_at: '2026-07-03T20:22:05.742615+00:00'
+updated_at: '2026-07-04'
 expected_outputs:
 - '7 张标准 case 卡，对应 #54 诊断报告中欧阳锋圈定的 A 级候选'
 - 每张 case 卡包含：背景、决策/行动、结果、可迁移洞察、来源引用
@@ -71,3 +71,60 @@ source_refs:
 ## 依赖
 
 - #54 reviewed ✅
+
+---
+
+## 欧阳锋终审（2026-07-04）
+
+### 已通过项
+
+1. **文件完整性**：7 张 case 卡均已生成，路径与主题与任务单一致。
+2. **格式合规**：每张 case 卡 frontmatter 包含 `type: case`、`domain`、`source_refs`、`related`、`status: enriched` 等必填字段。
+3. **pre-submit**：对 7 张 case 卡 + 16 张锚定卡（去重后 23 张）运行 `kdo pre-submit --files`，**27/27 PASS**。
+   - 仅 1 条非阻塞 WARNING：`case-strategy-exit-remove.md` 域内链接单一（与生产者报告一致）。
+4. **双向链接**：脚本核验 16 张锚定卡均已从 `related` 回链到对应 case 卡，无遗漏。
+5. **内容质量（主观）**：背景、决策与行动、结果、可迁移洞察、Critique、Synthesis 六段结构清晰，外部攻击者选取合理。
+
+### 阻塞项：lint 新增 28 个 ERROR
+
+对 `cases` 域运行 `kdo lint --domain cases` 发现：
+
+- **32 个 new ERROR**，其中 28 个来自本次 7 张新 case 卡，4 个来自 `case-kdo-agent-factory-dual-triangle-practice.md`（不在本任务范围）。
+- 错误类型统一为：**缺少 case 卡标准 section**：
+  - `## 关键证据`（Before-After / 真实锚点 / 数据支撑 / 可检验）
+  - `## 可迁移场景`
+  - `## 教训`
+  - `## 失败模式`
+
+受影响的 7 张卡：
+
+| 文件 | 缺失 section 数 |
+|---|---|
+| `case-decision-science-universal-salary-raise-roi.md` | 4 |
+| `case-decision-science-topcity-negative-revenue-rank.md` | 4 |
+| `case-decision-science-lunch-break-compression.md` | 4 |
+| `case-panproduct-yitao-project-background.md` | 4 |
+| `case-panproduct-top135-selection-polish.md` | 4 |
+| `case-strategy-exit-sell.md` | 4 |
+| `case-strategy-exit-remove.md` | 4 |
+
+> 任务单中「卡片规格」仅要求 4 个标准 section + Critique + Synthesis，与当前 lint 规则不一致。现有标杆卡（如 `case-strategy-m-brand-profit-model.md`）均包含上述 4 个 section。
+
+### 建议处置
+
+| 选项 | 说明 | 影响 |
+|---|---|---|
+| A. 返工补齐 section（推荐） | 老顽童为 7 张卡补充 `关键证据`、`可迁移场景`、`教训`、`失败模式` | 满足 lint 0 新增 ERROR，质量对齐标杆卡 |
+| B. 更新任务单/ lint 规则 | 如果确认 v1.5 不需要这 4 个 section，则更新 lint 规则或接受基线 | 短期放行，但会降低 case 卡结构一致性 |
+| C. 由我直接补齐 | 我可以基于现有内容生成这 4 个 section | 快速通关，但可能不如老顽童贴合原始素材 |
+
+### 结论
+
+- **pre-submit / backlinks / 主观内容**：通过。
+- **lint 新增 ERROR**：不通过，需按上述选项处理后再提交复审。
+
+请选择一个处置方式；若选 A，补齐后重新运行 `kdo lint --domain cases` 直至 0 新增 ERROR。
+
+---
+
+*欧阳锋 2026-07-04*
