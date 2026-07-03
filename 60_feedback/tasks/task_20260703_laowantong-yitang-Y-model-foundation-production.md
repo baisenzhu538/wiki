@@ -49,16 +49,17 @@ review_date: '2026-07-02'
 3. `00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md`
 4. `00_inbox/底层逻辑之一-Y模型/科学理念-Y模型.png`
 5. `60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md`
+6. `00_inbox/实事求是/_processed/实事求是_整合笔记.md`
+7. `00_inbox/实事求是/_processed/vlm_summary.json`
 
 ### 尚未就位（阻塞中）
-- 实事求是课素材：用户未输入
 - 解放思想课素材：用户未输入
 
-> 因此老顽童可以先执行 **Card 1 + Cards 4-7**（5 张卡），Card 2-3 等素材到位后再补。
+> 因此老顽童可以先执行 **Card 1 + Card 2 + Cards 4-7**（6 张卡），Card 3 等素材到位后再补。
 
 ---
 
-## 二、7 张目标卡（1 张重写 + 6 张新建；其中 2 张 framework 阻塞于用户输入）
+## 二、7 张目标卡（1 张重写 + 6 张新建；其中 1 张 framework 已解锁，1 张仍阻塞）
 
 ### Card 1: `yt-decision-y-model`（就地重写升级）
 
@@ -282,10 +283,11 @@ review_date: '2026-07-02'
 | 批次 | 卡片 | 说明 | 状态 |
 |:---|:---|:---|:---|
 | 第一批 | `yt-decision-y-model`（重写升级） | 先定根节点，作为后续 6 张卡的引用基础 | 可立即开工 |
-| 第二批 | `tool-yitang-Y-model-application` | 操作工作流 | 可立即开工 |
-| 第三批 | `dk-yitang-Y-model-pitfalls` | 反模式 | 可立即开工 |
-| 第四批 | `case-yitang-Y-model-advertising-turnaround` + `case-yitang-Y-model-seven-applications` | 两个案例 | 可立即开工 |
-| 第五批 | `framework-yitang-shishi-qiushi` + `framework-yitang-jiefang-sixiang` | 两大姿势 framework | **阻塞：等待用户输入实事求是/解放思想素材** |
+| 第二批 | `framework-yitang-shishi-qiushi` | 实事求是 framework | 可立即开工 |
+| 第三批 | `tool-yitang-Y-model-application` | 操作工作流 | 可立即开工 |
+| 第四批 | `dk-yitang-Y-model-pitfalls` | 反模式 | 可立即开工 |
+| 第五批 | `case-yitang-Y-model-advertising-turnaround` + `case-yitang-Y-model-seven-applications` | 两个案例 | 可立即开工 |
+| 第六批 | `framework-yitang-jiefang-sixiang` | 解放思想 framework | **阻塞：等待用户输入解放思想素材** |
 
 ---
 
