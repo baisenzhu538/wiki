@@ -7,8 +7,10 @@ priority: P1
 assignee: kimi
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋
+review_date: '2026-06-29'
+acceptance_verdict: pass
 created_at: 2026-07-03
-updated_at: '2026-07-03T16:39:32.913483+00:00'
+updated_at: '2026-06-29T20:40:00+00:00'
 expected_outputs:
 - 1 张 system 卡：system-yitang-Y-model-os.md（共享底层 prompt 片段）
 - agent-native-card-design.md 更新：所有 agent-spec 卡必须包含 Y模型 OS 层
