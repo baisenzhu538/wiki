@@ -56,7 +56,7 @@ TRANSITIONS: dict[tuple[str, str], str] = {
 
 def parse_frontmatter(path: Path) -> tuple[dict[str, Any], str]:
     """Return (frontmatter_dict, body)."""
-    text = path.read_text(encoding="utf-8")
+    text = path.read_text(encoding="utf-8", errors="ignore")
     if not text.startswith("---"):
         return {}, text
     # Match leading frontmatter block: ---\n<yaml>\n---\n<body>

@@ -296,6 +296,14 @@ KDO 知识工厂六角色分工，协作规则定义在 `90_control/debate-proto
 3. 用户只传一句话："去 xxx文件看回复"，不需要转发内容
 4. 达成共识后，双方确认并将结论更新到表格或决策记录中
 
+## 队列规则
+
+生产队列使用 `queue_transition.py` 管理状态流转。任务单文件必须遵守以下命名规则：
+
+- **任务单文件名可与 frontmatter `id` 不一致**（如 queue 中为 `yitang-Y-model-os` 但文件名为 `agent-spec-yitang-Y-model-coach.md`），但 **`id` 必须保持唯一**。
+- `queue_transition.py` 查找任务单时按以下顺序：先精确匹配文件名，再扫描 frontmatter `id` 字段。两者都找不到才报错。
+- 任务单创建后若需改名，必须同步更新 `production-queue.md` 中对应的 `task_id` 引用。
+
 ## 禁止清单
 
 以下操作已造成过实际事故。违反前请确认你理解了对应的失败模式。

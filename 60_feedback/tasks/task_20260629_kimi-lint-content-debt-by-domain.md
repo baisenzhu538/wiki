@@ -513,13 +513,57 @@ source_refs:
 |:---|:---|:---|:---|:---|:---|
 | 第一批 | 10 | 2624 | 2581 | -43 | ✅ 通过 |
 | 第二批 | 10 | 2581 | 2542 | -39 | ✅ 通过 |
-| 第三批 | 10 | 2542 | 2503 | -39 | 等审查 |
-| **累计** | **30** | **2624** | **2503** | **-121** | |
+| 第三批 | 10 | 2542 | 2503 | -39 | ✅ 通过 |
+| 第四批 | 10 | 2503 | 2465 | -38 | 等审查 |
+| **累计** | **40** | **2624** | **2465** | **-159** | |
 
 ### 下一轮计划
 
 - 继续 yitang 域 tool 卡清理（仍有大量 4-WARNING 文件待处理）
 - 或按欧阳锋审查意见调整方向
+
+---
+
+## 第四批：2026-07-04 yitang 域 10 张 tool 卡
+
+### 基本信息
+
+| 项目 | 数据 |
+|:---|:---|
+| 处理域 | yitang |
+| 处理文件数 | 10 个 tool 卡 |
+| 修复前全量 WARNING | 2503 |
+| 修复后全量 WARNING | 2465 |
+| 净减 | **38** |
+| ERROR | 0 → 0 |
+| pre-submit | **10/10 PASS** |
+
+### 文件清单
+
+**Type A（VLM 生成，9 个，泛产品落地系列续）**：
+- `30_wiki/tools/tool-泛产品落地-复盘迭代.md`
+- `30_wiki/tools/tool-泛产品落地-善用佳软.md`
+- `30_wiki/tools/tool-泛产品落地-十倍速验证.md`
+- `30_wiki/tools/tool-泛产品落地-努力仿真.md`
+- `30_wiki/tools/tool-泛产品落地-内核和边界.md`
+- `30_wiki/tools/tool-泛产品落地-假设拆解.md`
+- `30_wiki/tools/tool-泛产品落地-低成本测试MVP.md`
+- `30_wiki/tools/tool-泛产品落地-业务建模.md`
+- `30_wiki/tools/tool-泛产品落地-ROI分析.md`
+
+**Type B（一堂课程 OCR，1 个）**：
+- `30_wiki/tools/tool-通过请吃饭获取行业内部资料.md`
+
+### 每张卡补的内容
+
+1. **目的**：明确工具解决什么问题、适用于什么场景，body 长度达到 ≥500 字符。
+2. **操作步骤**（Type A）：3 步具体操作流程。
+3. **不要用的场景**：3 条针对性不适用场景。
+4. **质疑**：包含关键术语（具体假设/边界/反例/前提）+ 外部攻击者（`**Name Surname**` 格式）。
+
+外部攻击者引用清单：Daniel Kahneman、Atul Gawande、Rita McGrath、Bent Flyvbjerg、Clayton Christensen、Eric Ries、Don Norman、Russell Ackoff、Roger Martin、Pamela Samuelson、Gary Klein。
+
+*生产者：老顽童 · 2026-07-04*
 
 ### 审查结果：通过 ✅
 
@@ -654,5 +698,79 @@ source_refs:
 ### 结论
 
 同意本批次 10 张 yitang tool 卡通过。可继续下一批 yitang tool 卡清理，或按王语嫣/用户指示切换 domain。
+
+*批次审查：欧阳锋 · 2026-06-29*
+
+---
+
+## 欧阳锋批次审查：2026-06-29 yitang 域第三批 10 张 tool 卡（泛产品系列）
+
+### 审查结果：通过 ✅
+
+| 项目 | 数据 |
+|:---|:---|
+| 审查时间 | 2026-06-29 |
+| 处理域 | yitang |
+| 处理文件数 | 10 个 tool 卡 |
+| 修复前全量 WARNING | 2503 |
+| 修复后全量 WARNING | 2465 |
+| 净减 | **38** |
+| ERROR | 0 → 0 |
+| pre-submit | **10/10 PASS** |
+
+### 审查文件清单
+
+全部 Type A（VLM 生成，泛产品系列）：
+- `30_wiki/tools/tool-泛产品设计-需求工具箱指南.md`
+- `30_wiki/tools/tool-泛产品落地-风险管理.md`
+- `30_wiki/tools/tool-泛产品落地-里程碑拆解.md`
+- `30_wiki/tools/tool-泛产品落地-酝酿式打磨.md`
+- `30_wiki/tools/tool-泛产品落地-逻辑MECE.md`
+- `30_wiki/tools/tool-泛产品落地-设计原则.md`
+- `30_wiki/tools/tool-泛产品落地-解放思想.md`
+- `30_wiki/tools/tool-泛产品落地-管理三段论.md`
+- `30_wiki/tools/tool-泛产品落地-灵感闪现.md`
+- `30_wiki/tools/tool-泛产品落地-攻坚会.md`
+
+### 每张卡补的内容
+
+- **目的**：明确工具解决什么问题、适用于什么场景。
+- **操作步骤**：3-4 条具体可执行步骤。
+- **不要用的场景**：3 条具体不适用场景，非模板复制。
+- **质疑**：包含关键术语（具体假设/边界/反例/前提）+ 外部攻击者（`**Name Surname**` 格式）。
+
+外部攻击者引用清单：Alan Cooper、Nassim Taleb、Bent Flyvbjerg、Barbara Minto、Edward de Bono、Patrick Lencioni、Teresa Amabile、Herbert Simon、Donella Meadows、Gary Klein。
+
+### 质量评估
+
+- **非模板化**：10 个工具的不适用场景和质疑均针对各自方法，未发现 copy-paste。
+- **外部攻击者相关**：每位学者与本卡论点直接关联（如 Nassim Taleb 对应风险管理、Barbara Minto 对应 MECE、Patrick Lencioni 对应会议）。
+- **批判深度足够**：每个质疑 section 均覆盖假设、反例、前提、边界四个关键术语。
+- **操作步骤具体**：需求工具箱、风险管理、里程碑拆解、解放思想、攻坚会等均有清晰步骤。
+- **无 frontmatter 退化**：10/10 pre-submit PASS，无新增 ERROR。
+
+### 审查中发现的小问题（不阻塞通过）
+
+1. **10 个文件 `related` 中仍有 3 个 `[[pending_unknown]]` 占位**：这是 VLM 系列卡片的共同问题，后续批次可统一替换为真实相关卡。
+2. **confidence 0.75 小数**：工具卡目前允许，如后续统一 high/medium/low 需批量调整。
+3. **部分文件 frontmatter 顶部有空行**：如 `tool-泛产品设计-需求工具箱指南.md` 第一行为空行，不影响 pre-submit，但建议后续统一格式。
+
+### 已同步更新
+
+- 10 个文件 `review_date` 统一更新为 `2026-06-29`（保留 `reviewed_by: 欧阳锋`）。
+- 任务单追加本批次审查记录。
+
+### 累计进展
+
+| 批次 | 文件数 | WARNING 净减 | 审查状态 |
+|:---|:---|:---|:---|
+| 第一批 | 10 | -43 | ✅ 欧阳锋通过 |
+| 第二批 | 10 | -39 | ✅ 欧阳锋通过 |
+| 第三批 | 10 | -38 | ✅ 欧阳锋通过 |
+| **累计** | **30** | **-120** | |
+
+### 结论
+
+同意本批次 10 张泛产品系列 tool 卡通过。可继续下一批 yitang tool 卡清理，或按王语嫣/用户指示切换 domain。
 
 *批次审查：欧阳锋 · 2026-06-29*

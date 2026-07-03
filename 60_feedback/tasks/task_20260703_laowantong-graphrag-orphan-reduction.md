@@ -1,26 +1,26 @@
 ---
 id: task_20260703_laowantong-graphrag-orphan-reduction
-title: "GraphRAG 健康度提升：跨域 related 补链降低 orphan 比例"
+title: GraphRAG 健康度提升：跨域 related 补链降低 orphan 比例
 type: task
-status: queued
+status: in_progress
 priority: P2
-assignee: 老顽童(Kimi)
+assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-03
-updated_at: 2026-07-03
+updated_at: '2026-07-03T18:48:18.029009+00:00'
 expected_outputs:
-  - "orphan 卡片来源分析报告"
-  - "跨域 related 补链方案"
-  - "至少 100-200 张 orphan 卡补完 related（目标：orphan 比例从 36% 降至 ≤30%）"
-  - "kdo graph stats --health 复测报告"
+- orphan 卡片来源分析报告
+- 跨域 related 补链方案
+- 至少 100-200 张 orphan 卡补完 related（目标：orphan 比例从 36% 降至 ≤30%）
+- kdo graph stats --health 复测报告
 dependencies:
-  - "task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure reviewed"
+- task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure reviewed
 source_refs:
-  - 60_feedback/tasks/task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md
+- 60_feedback/tasks/task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md
 related:
-  - yt-decision-y-model
-  - agent-native-card-design
-  - graph-rag
+- yt-decision-y-model
+- agent-native-card-design
+- graph-rag
 ---
 
 # GraphRAG 健康度提升：跨域 related 补链降低 orphan 比例

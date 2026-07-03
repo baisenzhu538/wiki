@@ -1,19 +1,18 @@
 ---
-updated: 2026-07-03
-updated_at: 2026-07-03T18:25:00+00:00
+updated: 2026-07-04
+updated_at: 2026-07-04T10:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#54 已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略（pending_review 2026-07-03）；老顽童(Kimi) 已完成提交，产出诊断报告 diag_20260704_retroactive-case-scan-pilot.md，3 个域候选均超额满足≥20/30/20 标准，推荐 20 条 A 级候选；欧阳锋审核中"
+active_task: "#57 GraphRAG orphan 比例降低（claimed-kimi 2026-07-04）；老顽童(Kimi) 已领取并执行；#54 已 reviewed；#58-#61  queued；#60 待黄药师 rework"
 blockers:
-  - "#54 待欧阳锋终审（2026-07-03）：pending_review，3 个域候选清单已产出；等欧阳锋子代理审"
   - "#60 queue_transition 修复（2026-07-03）：欧阳锋实质审查结论 fail；黄药师需 rework；队列状态仍为 queued"
-  - "#57 GraphRAG orphan 比例降低（2026-07-03）：已入队，assignee 老顽童(Kimi)；依赖 #52 reviewed（已满足）；#54 reviewed 后可领取"
-  - "#58 TCPR Agent 身份协议（2026-07-01）：已入队，assignee 老顽童(Kimi)，黄药师任 co_architect；#55 已 reviewed，对齐基础已具备"
+  - "#58 TCPR Agent 身份协议（2026-07-01）：已入队，assignee 老顽童(Kimi)，黄药师任 co_architect；#55 已 reviewed，对齐基础已具备；#57 reviewed 后可领取"
   - "#59 Agent Prompt 编译器（2026-07-01）：已入队，assignee 黄药师；按队列顺序等待领取；MCP 方案现在不做"
+  - "#61 #54 A 级候选投产（2026-07-04）：已入队，assignee 老顽童(Kimi)；产出 7 张 companion case 卡；P2，排在 #58 之后"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
 
-next_session_hint: "下一步：① 欧阳锋审 #54；② #54 reviewed 后老顽童领取 #57；③ 黄药师继续 rework #60；④ workbuddy 在空闲时分批处理 #28。"
+next_session_hint: "下一步：① 老顽童(Kimi) 执行 #57；② 黄药师 rework #60；③ workbuddy 在空闲时分批处理 #28；④ #57 reviewed 后老顽童按顺序领取 #58/#61。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

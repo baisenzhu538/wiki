@@ -162,3 +162,35 @@ id 与文件名不一致，导致 `find_task_file(task_id)` 返回 `None`，revi
 
 本修复未达验收标准，**必须 fail**。黄药师需按上述 7 条改进点修复后，重新提交欧阳锋再审。因当前 #54 仍在 pending_review，#60 暂无法通过队列状态机进入 pending_review；本次 fail 为实质审查结论，正式状态变更待 #54 审过后由 `queue_transition.py review` 执行。
 
+---
+
+## 黄药师 Rework 完成报告（2026-07-04）
+
+按欧阳锋 7 条要求逐条修复：
+
+| # | 要求 | 修复 |
+|:---|:---|:---|
+| 1 | action_review() 加 frontmatter fallback | `_find_task_file_dual()` 统一入口 |
+| 2 | find_task_file_by_frontmatter_id() 删前缀匹配 | 只保留 frontmatter id 精确匹配 |
+| 3 | claim/complete/release 统一双重查找 | 全部改为 `_find_task_file_dual()` |
+| 4 | 错误信息更新 | 改为"找不到任务单文件: {task_id}（已按文件名和 frontmatter id 双重查找）" |
+| 5 | docstring 更新 | find_task_file / find_task_file_by_frontmatter_id 均已更新 |
+| 6 | AGENTS.md 补充队列规则 | 新增「队列规则」章节 |
+| 7 | 新增回归测试 | `90_control/scripts/tests/test_queue_transition.py` — 7 passed |
+
+### 测试结果
+
+```
+test_exact_filename_match_returns_correct_file PASSED
+test_frontmatter_id_match_finds_renamed_file PASSED
+test_dual_lookup_exact_preferred PASSED
+test_dual_lookup_falls_back_to_frontmatter PASSED
+test_dual_lookup_returns_none_when_both_fail PASSED
+test_missing_file_returns_none PASSED
+test_no_prefix_side_effect PASSED
+```
+
+---
+
+*黄药师 2026-07-04*
+
