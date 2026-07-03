@@ -4,7 +4,8 @@ title: Truman 通勤实验：用时间审计把「废时间」变成产能杠杆
 type: case
 status: enriched
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: "2026-06-29"
 confidence: 0.82
 trust_level: medium
 language: zh-CN

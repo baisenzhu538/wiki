@@ -116,3 +116,49 @@ id 与文件名不一致，导致 `find_task_file(task_id)` 返回 `None`，revi
 前缀匹配使用 40 字符。如果两个任务单共享前缀（如拆分后的原任务和子任务），fallback 返回先扫描到的。建议未来保留 id 在文件名中。
 
 *黄药师 2026-07-04*
+
+---
+
+## 欧阳锋实质审查结论（2026-07-03）
+
+**审查结论：fail**
+
+### 逐条验收结果
+
+| 验收标准 | 结果 | 说明 |
+|:---|:---:|:---|
+| 1. review 命令在文件名一致/不一致两种情况下都能成功 | ❌ | `action_review()` 仅调用 `find_task_file()`，未调用 `find_task_file_by_frontmatter_id()`。实测对 #55 场景（id=`task_20260703_laowantong-yitang-Y-model-os`，文件名=`task_20260703_laowantong-agent-spec-yitang-Y-model-coach.md`），`find_task_file()` 返回了错误的 `task_20260703_laowantong-yitang-Y-model-foundation-production.md`，会修改错误任务单。 |
+| 2. 新增回归测试通过 | ❌ | wiki 目录与 KDO CLI 源码目录均未找到 `tests/` 目录或 `test_queue_transition.py`。 |
+| 3. 不影响 claim/complete/release | ❌ | `action_release()` 只用 `find_task_file()`，前缀匹配已可在 #55 场景返回错误文件；`action_claim()`/`action_complete()` 虽加了 fallback，但优先的 `find_task_file()` 仍可命中错误文件。 |
+| 4. kdo pre-submit 无新增 ERROR | ✅/🟡 | `kdo_lint.py` 不检查 scripts 目录，显示 Files checked: 0；`py_compile` 语法通过。无新增 lint ERROR，但此检查对脚本不适用。 |
+
+### 代码质量评估
+
+- **改动非最小**：本可在 `action_review()` 中增加 `find_task_file_by_frontmatter_id()` fallback 即可，实际却改了两处并引入 40 字符前缀匹配。
+- **引入副作用**：前缀匹配在 #55 同族任务中已返回错误文件，破坏 action_release / claim / complete 的准确性。
+- **40 字符边界风险已实际触发**：`task_id[:40]` 为 `task_20260703_laowantong-yitang-Y-model-`，glob 命中了 foundation-production 文件。
+- **错误信息不符**：任务单要求"找不到任务单文件: {task_id}（已按文件名和 frontmatter id 双重查找）"，实际仍为"找不到任务单文件: {task_id}"。
+- **docstring 未按任务单更新**：`find_task_file()` docstring 仅说明前缀匹配，未说明支持 frontmatter id 查找。
+- **AGENTS.md 未补充**：未补充"任务单文件名可与 frontmatter id 不一致，但 id 必须唯一"的队列规则。
+
+### 测试评估
+
+无回归测试。需新增 `tests/test_queue_transition.py`，覆盖：
+1. 文件名 == id 时 `review` 成功；
+2. 文件名 != id 但 frontmatter id == id 时 `review` 成功；
+3. 多个任务共享前缀时不会误命中。
+
+### 必须修复的具体改进点
+
+1. `action_review()` 中 `find_task_file()` 失败后调用 `find_task_file_by_frontmatter_id()`。
+2. `find_task_file_by_frontmatter_id()` 删除前缀 fallback，仅保留 frontmatter id 精确匹配。
+3. 统一 `action_claim()` / `action_complete()` / `action_release()` 均使用 `find_task_file()` → `find_task_file_by_frontmatter_id()` 的查找顺序。
+4. 将"找不到任务单文件"错误信息更新为任务单要求格式。
+5. 更新 `find_task_file()` 与 `find_task_file_by_frontmatter_id()` 的 docstring。
+6. 在 `90_control/AGENTS.md` 补充队列规则：任务单文件名可与 frontmatter id 不一致，但 id 必须唯一。
+7. 新增 `tests/test_queue_transition.py`，覆盖两种查找场景及前缀冲突场景。
+
+### 下一步
+
+本修复未达验收标准，**必须 fail**。黄药师需按上述 7 条改进点修复后，重新提交欧阳锋再审。因当前 #54 仍在 pending_review，#60 暂无法通过队列状态机进入 pending_review；本次 fail 为实质审查结论，正式状态变更待 #54 审过后由 `queue_transition.py review` 执行。
+

@@ -2,12 +2,12 @@
 id: task_20260703_wangyuyan-retroactive-case-scan-pilot
 title: 已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略（#54）
 type: task
-status: in_progress
+status: pending_review
 priority: P2
 assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-03
-updated_at: '2026-07-03T18:20:09.866635+00:00'
+updated_at: '2026-07-03T18:28:21.897337+00:00'
 expected_outputs:
 - 3 个高优先级域的案例候选清单
 - 每个候选标注来源段落、长度、可锚定的概念/工具卡

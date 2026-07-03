@@ -84,13 +84,13 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260703_laowantong-yitang-Y-model-foundation-production | 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 + 2 新建 framework + 1 tool + 1 dk + 2 case） | reviewed | 老顽童(Kimi) | P1 | task_20260703_laowantong-yitang-Y-model-foundation-production.md | 欧阳锋终审通过：7 张完整卡 + 3 张旧卡迁移；17 张已有卡反向补链；全库 lint 0 ERROR；yt-decision-y-model degree 100 / top 0.24% |
 | task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure | Y模型根节点化：GraphRAG rebuild + 索引维护 + pipeline 监控 | queued | 黄药师 | P1 | task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md | 王语嫣裁定：本周不做 schema 改造、不新增 lint 规则、不创建文档；只做 #51 完成后的 kdo index --rebuild，验证 yt-decision-y-model 成为查询中心，并用 kdo pipeline 监控 Agent 反馈信号 |
 | task_20260703_laowantong-case-backfill-wobeirushen-time-management | 案例卡补挖：吾辈如神 + 时间管理域缺失 companion case（4 张） | reviewed | 老顽童(Kimi) | P2 | task_20260703_laowantong-case-backfill-wobeirushen-time-management.md | 欧阳锋终审通过：新增 4 张 case 卡 + 反向更新 8 张锚定卡 related；pre-submit 12/12 PASS；lint 0 新增 ERROR |
-| task_20260703_wangyuyan-retroactive-case-scan-pilot | 已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略 | claimed-kimi | 老顽童(Kimi) | P2 | task_20260703_wangyuyan-retroactive-case-scan-pilot.md | 老顽童(Kimi) 已领取；产出 3 个域案例候选清单，每个候选标注来源段落、可锚定卡；王语嫣判断哪些值得产完整 case 卡 |
+| task_20260703_wangyuyan-retroactive-case-scan-pilot | 已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略 | pending_review | 老顽童(Kimi) | P2 | task_20260703_wangyuyan-retroactive-case-scan-pilot.md | 老顽童(Kimi) 已完成提交：诊断报告 `diag_20260704_retroactive-case-scan-pilot.md`；科学决策 551 条 / 泛产品设计 224 条 / 战略 205 条，均超额满足≥20/30/20；推荐 20 条 A 级候选；等欧阳锋终审 |
 | task_20260703_laowantong-yitang-Y-model-os | Y模型 OS：所有 Agent 的共享底层 prompt + 可选 Coach 模式 | reviewed | 老顽童(Kimi) | P1 | task_20260703_laowantong-agent-spec-yitang-Y-model-coach.md | 欧阳锋终审通过：system-yitang-Y-model-os.md / Coach agent-spec / agent-native-card-design.md 三层结构 / OPC 集成示例 / 2 个真实场景测试 / 自攻击 0 致命；status: reviewed |
 | task_20260703_laowantong-yitang-Y-model-stub-completion | #51 收尾：实事求是 / 解放思想 framework 卡补全 | closed_cancelled | — | P1 | task_20260703_laowantong-yitang-Y-model-stub-completion.md | 取消：#51 已全部完成，无需单独收尾任务 |
 | task_20260703_laowantong-graphrag-orphan-reduction | GraphRAG 健康度提升：跨域 related 补链降低 orphan 比例 | queued | 老顽童(Kimi) | P2 | task_20260703_laowantong-graphrag-orphan-reduction.md | #52 终审可改进点：orphan 比例 36%、1235 个 connected components；本任务分析 orphan 来源并补充跨域 related 链接 |
 | task_20260703_huangyaoshi-agent-tcpr-role-layer | Agent 能力分层引入 TCPR 角色模型：所有 Agent 协作前必须选定 T/C/P/R 身份 | queued | 老顽童(Kimi) | P1 | `60_feedback/tasks/task_20260703_huangyaoshi-agent-tcpr-role-layer.md` | 用户提出 TCPR 应作为 Agent 身份协议，防止 Agent 军团协作混乱；需更新 agent-native-card-design.md、framework-TCPR*、现有 agent-spec 卡 |
 | task_20260703_huangyaoshi-agent-prompt-compiler | Agent Prompt 编译器：把 agent-os.md + 域卡编译为可注入的 system prompt | queued | 黄药师 | P1 | `60_feedback/tasks/task_20260703_huangyaoshi-agent-prompt-compiler.md` | 用户判定 Kimi/Hermes 无法 Read 文件，需把 agent-os.md + 域卡编译为静态 system prompt；MCP 方案现在不做 |
-| task_20260703_huangyaoshi-fix-queue-transition-review-lookup | 修复 queue_transition.py review 按 frontmatter id 查找任务单 | queued | 黄药师 | P2 | `60_feedback/tasks/task_20260703_huangyaoshi-fix-queue-transition-review-lookup.md` | 欧阳锋终审 #55 时发现 review 命令按 id 找不到任务单文件（id 与文件名不一致）；黄药师修复查找逻辑并补回归测试 |
+| task_20260703_huangyaoshi-fix-queue-transition-review-lookup | 修复 queue_transition.py review 按 frontmatter id 查找任务单 | queued | 黄药师 | P2 | `60_feedback/tasks/task_20260703_huangyaoshi-fix-queue-transition-review-lookup.md` | 欧阳锋实质审查结论 fail：action_review() 未调用 find_task_file_by_frontmatter_id()，40 字符前缀匹配在 #55 同族任务中命中错误文件；无回归测试；需黄药师 rework 后重审（队列状态待 #54 reviewed 后同步） |
 
 ---
 
@@ -98,10 +98,10 @@ Generated: 2026-06-26T21:00:00+00:00
 
 - **Total**: 59
 - **Done**: 23
-- **In Progress**: 1 (#54 老顽童(Kimi) 已领取)
+- **In Progress**: 0 （#54 已提交 pending_review，老顽童当前无执行中任务）
 - **Queued**: 4（详见 `production-queue.md` #57-#60）
 - **Long-term / Paused**: 1（#28 lint 内容债，workbuddy 后台分批执行）
-- **Pending Review**: 0
+- **Pending Review**: 1 (#54 案例卡补扫试点，欧阳锋审核中)
 - **Review Done**: 49 (#50/#51/#52/#53/#55 reviewed)
 
 > 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；✅ Batch 2-A/B/C 全部 reviewed：A 130 case + B 57 dk + C 90 source_refs 文件已完成，`kdo lint` 机械性 ERROR 清零；下一阶段正式进入补链阶段（Wave 6 诊断 + B1/B2/B3）。

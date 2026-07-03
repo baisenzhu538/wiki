@@ -425,7 +425,101 @@ source_refs:
 
 ---
 
-## 欧阳锋批次审查：2026-06-29 yitang 域 10 张 tool 卡
+## 2026-07-04 第二批处理记录（老顽童 WorkBuddy 实例）
+
+### 本轮前基线
+
+- `kdo lint` 全量：0 ERROR / **2581** WARNING（1937 accepted）
+- 欧阳锋已审查通过第一批 10 个 yitang tool 卡 ✅
+
+### 本轮处理
+
+- **处理 domain**：yitang
+- **处理文件数**：10 个 yitang tool 卡（均为 body 过短 + Critique 缺关键术语 + Critique 无外部攻击者）
+  - Type A（VLM 生成，2 个）：
+    - `30_wiki/tools/tool-用户视角.md`
+    - `30_wiki/tools/tool-用户分层.md`
+  - Type B（一堂课程 OCR，8 个）：
+    - `30_wiki/tools/tool-清单式笔记法.md`
+    - `30_wiki/tools/tool-清单小抄制作.md`
+    - `30_wiki/tools/tool-深度分层学习.md`
+    - `30_wiki/tools/tool-用清单体记备忘笔记.md`
+    - `30_wiki/tools/tool-用topdown方式整理内化笔记.md`
+    - `30_wiki/tools/tool-现场建模式萃取笔记.md`
+    - `30_wiki/tools/tool-渐进式披露上下文.md`
+    - `30_wiki/tools/tool-费曼学习法三句话提炼.md`
+
+- **主要动作**：
+  - 为每个 tool 卡填充「目的」section
+  - 为每个 tool 卡填充「不要用的场景」section（3 条具体不适用场景）
+  - 为每个 tool 卡重写「质疑」section：包含关键术语（具体假设/边界/反例/前提）+ 外部攻击者（`**Name Surname**` 格式）
+  - Type A 卡补充「操作步骤」section 的具体步骤
+  - 外部攻击者涵盖：Don Norman、Frederick Reichheld、Sönke Ahrens、Atul Gawande、David Perkins、John Sweller、Roger Schank、Gary Klein、Emily Bender、Daniel Willingham
+
+- **验证结果**：
+  - 10/10 文件 `kdo pre-submit` PASS ✅
+  - 全量 `kdo lint`：0 ERROR / **2542** WARNING（↓39，从 2581 降至 2542）
+  - 无新增 ERROR，无 frontmatter 退化
+
+### 累计进展
+
+| 批次 | 文件数 | 修复前 WARNING | 修复后 WARNING | 净减 |
+|:---|:---|:---|:---|:---|
+| 第一批 | 10 | 2624 | 2581 | -43 |
+| 第二批 | 10 | 2581 | 2542 | -39 |
+| **累计** | **20** | **2624** | **2542** | **-82** |
+
+### 下一轮计划
+
+- 继续 yitang 域 tool 卡清理（仍有大量 4-WARNING 文件待处理）
+- 或按欧阳锋审查意见调整方向
+
+---
+
+## 2026-07-04 第三批处理记录（老顽童 WorkBuddy 实例）
+
+### 本轮前基线
+
+- `kdo lint` 全量：0 ERROR / **2542** WARNING（1937 accepted）
+- 欧阳锋已审查通过第二批 10 个 yitang tool 卡 ✅
+
+### 本轮处理
+
+- **处理 domain**：yitang
+- **处理文件数**：10 个 yitang tool 卡（均为 Type A VLM 生成，泛产品设计/落地系列）
+  - `30_wiki/tools/tool-泛产品设计-需求工具箱指南.md`
+  - `30_wiki/tools/tool-泛产品落地-风险管理.md`
+  - `30_wiki/tools/tool-泛产品落地-里程碑拆解.md`
+  - `30_wiki/tools/tool-泛产品落地-酝酿式打磨.md`
+  - `30_wiki/tools/tool-泛产品落地-逻辑MECE.md`
+  - `30_wiki/tools/tool-泛产品落地-设计原则.md`
+  - `30_wiki/tools/tool-泛产品落地-解放思想.md`
+  - `30_wiki/tools/tool-泛产品落地-管理三段论.md`
+  - `30_wiki/tools/tool-泛产品落地-灵感闪现.md`
+  - `30_wiki/tools/tool-泛产品落地-攻坚会.md`
+
+- **主要动作**：
+  - 为每个 tool 卡填充「目的」「操作步骤」「不要用的场景」「质疑」四个 section
+  - 外部攻击者涵盖：Alan Cooper、Nassim Taleb、Bent Flyvbjerg、Robert Boice、Barbara Minto、Jared Spool、Edward de Bono、Henry Mintzberg、Keith Sawyer、Patrick Lencioni
+
+- **验证结果**：
+  - 10/10 文件 `kdo pre-submit` PASS ✅
+  - 全量 `kdo lint`：0 ERROR / **2503** WARNING（↓39，从 2542 降至 2503）
+  - 无新增 ERROR，无 frontmatter 退化
+
+### 累计进展
+
+| 批次 | 文件数 | 修复前 WARNING | 修复后 WARNING | 净减 | 审查状态 |
+|:---|:---|:---|:---|:---|:---|
+| 第一批 | 10 | 2624 | 2581 | -43 | ✅ 通过 |
+| 第二批 | 10 | 2581 | 2542 | -39 | ✅ 通过 |
+| 第三批 | 10 | 2542 | 2503 | -39 | 等审查 |
+| **累计** | **30** | **2624** | **2503** | **-121** | |
+
+### 下一轮计划
+
+- 继续 yitang 域 tool 卡清理（仍有大量 4-WARNING 文件待处理）
+- 或按欧阳锋审查意见调整方向
 
 ### 审查结果：通过 ✅
 
@@ -481,6 +575,81 @@ source_refs:
 
 - Type B 7 个文件 `reviewed_by: pending` → `欧阳锋`，并补充 `review_date: "2026-06-29"`。
 - 任务单追加本批次审查记录。
+
+### 结论
+
+同意本批次 10 张 yitang tool 卡通过。可继续下一批 yitang tool 卡清理，或按王语嫣/用户指示切换 domain。
+
+*批次审查：欧阳锋 · 2026-06-29*
+
+---
+
+## 欧阳锋批次审查：2026-06-29 yitang 域第二批 10 张 tool 卡
+
+### 审查结果：通过 ✅
+
+| 项目 | 数据 |
+|:---|:---|
+| 审查时间 | 2026-06-29 |
+| 处理域 | yitang |
+| 处理文件数 | 10 个 tool 卡 |
+| 修复前全量 WARNING | 2542 |
+| 修复后全量 WARNING | 2503 |
+| 净减 | **39** |
+| ERROR | 0 → 0 |
+| pre-submit | **10/10 PASS** |
+
+### 审查文件清单
+
+**Type A（VLM 生成，2 个）**：
+- `30_wiki/tools/tool-用户视角.md`
+- `30_wiki/tools/tool-用户分层.md`
+
+**Type B（一堂课程 OCR，8 个）**：
+- `30_wiki/tools/tool-清单式笔记法.md`
+- `30_wiki/tools/tool-清单小抄制作.md`
+- `30_wiki/tools/tool-深度分层学习.md`
+- `30_wiki/tools/tool-用清单体记备忘笔记.md`
+- `30_wiki/tools/tool-用topdown方式整理内化笔记.md`
+- `30_wiki/tools/tool-现场建模式萃取笔记.md`
+- `30_wiki/tools/tool-渐进式披露上下文.md`
+- `30_wiki/tools/tool-费曼学习法三句话提炼.md`
+
+### 每张卡补的内容
+
+- **Type A**：补充「目的」「操作步骤」「不要用的场景」「质疑」四部分。
+- **Type B**：补充「目的」「不要用的场景」「质疑」三部分。
+- **质疑 section**：均包含关键术语（具体假设/边界/反例/前提）+ 外部攻击者（`**Name Surname**` 格式）。
+
+外部攻击者引用清单：Don Norman、Frederick Reichheld、Sönke Ahrens、Atul Gawande、David Perkins、John Sweller、Roger Schank、Gary Klein、Emily Bender、Daniel Willingham。
+
+### 质量评估
+
+- **非模板化**：10 个工具的「不要用的场景」和「质疑」均针对各自方法，未发现 copy-paste。
+- **外部攻击者相关**：每位学者与本卡论点有直接关联（如 Atul Gawande 对应清单、Emily Bender 对应 LLM、John Sweller 对应认知负荷），没有贴无关名人。
+- **批判深度足够**：每个质疑 section 均覆盖假设、反例、前提、边界四个关键术语。
+- **Type A 操作步骤具体**：用户视角给出场景还原→痛点挖掘→需求提炼；用户分层给出选择维度→定义边界→差异化策略。
+- **无 frontmatter 退化**：10/10 pre-submit PASS，无新增 ERROR。
+
+### 审查中发现的小问题（不阻塞通过）
+
+1. **Type B 8 个文件仍有大量 `src_unknown` 占位**：`definition_of_done`、`tools_required`、`适用场景`、`工具/环境`、`关联技能`、`来源`、`Feedback Path` 等 section 仍是 src_unknown。这属于 #28 后续批次继续清理的内容，本次仅处理 body 过短 + Critique 缺关键术语 + 无外部攻击者三类 WARNING。
+2. **confidence 0.78 / 0.7 小数**：工具卡目前允许小数，但如后续统一改为 high/medium/low，需要批量调整。
+3. **Type B 文件 `status: draft`**：保留 draft 合理，因为还有 src_unknown section 未清理；Type A 已是 `enriched`。
+4. **「亨利·福特」不是外部学者**：`tool-用户视角.md` 质疑中出现「亨利·福特的名言」，建议后续替换为可溯源的学者姓名；本次不阻塞通过。
+
+### 已同步更新
+
+- Type B 8 个文件 `reviewed_by: pending` → `欧阳锋`，并补充 `review_date: "2026-06-29"`。
+- 任务单追加本批次审查记录。
+
+### 累计进展
+
+| 批次 | 文件数 | WARNING 净减 | 审查状态 |
+|:---|:---|:---|:---|
+| 第一批 | 10 | -43 | ✅ 欧阳锋通过 |
+| 第二批 | 10 | -39 | ✅ 欧阳锋通过 |
+| **累计** | **20** | **-82** | |
 
 ### 结论
 

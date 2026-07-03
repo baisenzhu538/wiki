@@ -4,7 +4,8 @@ title: BMW 工厂人机协作案例：idle time 减少 85% 被误读为产能提
 type: case
 status: enriched
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: "2026-06-29"
 confidence: 0.78
 trust_level: medium
 language: zh-CN

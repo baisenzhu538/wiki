@@ -79,12 +79,12 @@ def write_frontmatter(path: Path, fm: dict[str, Any], body: str) -> None:
 
 
 def find_task_file(task_id: str) -> Path | None:
-    """Locate task file by id in known task directories.
+    """Locate task file by exact filename match.
 
-    Searches first by exact filename match, then by prefix match (handles
-    cases where the queue lists one id but the file was renamed, e.g.
-    queue has ``task_20260703_laowantong-yitang-Y-model-os`` but file is
-    ``task_20260703_laowantong-agent-spec-yitang-Y-model-coach.md``).
+    Searches only by filename in known task directories.  If the filename
+    does not match the task id (e.g. queue has one id but the file was
+    renamed), the caller should fall back to
+    ``find_task_file_by_frontmatter_id()`` which scans frontmatter.
     """
     candidates = [
         TASK_DIR / f"{task_id}.md",
@@ -93,20 +93,15 @@ def find_task_file(task_id: str) -> Path | None:
     for c in candidates:
         if c.exists():
             return c
-
-    # Fallback: prefix match when queue id ≠ filename (e.g. queue has
-    # task_20260703_laowantong-yitang-Y-model-os but file is renamed)
-    for d in (TASK_DIR, BATCH_DIR):
-        if not d.exists():
-            continue
-        for path in d.glob(f"{task_id[:40]}*.md"):
-            return path
-
     return None
 
 
 def find_task_file_by_frontmatter_id(task_id: str) -> Path | None:
-    """Locate task file whose frontmatter id equals task_id."""
+    """Locate task file whose frontmatter ``id`` field equals *task_id*.
+
+    Scans all ``.md`` files in the task directories.  Used as a fallback
+    when the filename does not match the queue id.
+    """
     for d in (TASK_DIR, BATCH_DIR):
         if not d.exists():
             continue
@@ -114,19 +109,12 @@ def find_task_file_by_frontmatter_id(task_id: str) -> Path | None:
             fm, _ = parse_frontmatter(path)
             if fm.get("id") == task_id:
                 return path
-
-    # Fallback: prefix match on filename when frontmatter id differs
-    prefix = task_id[:40]
-    for d in (TASK_DIR, BATCH_DIR):
-        if not d.exists():
-            continue
-        for path in d.glob(f"{prefix}*.md"):
-            fm, _ = parse_frontmatter(path)
-            # Return if frontmatter id starts with same prefix
-            if fm.get("id", "").startswith(prefix):
-                return path
-
     return None
+
+
+def _find_task_file_dual(task_id: str) -> Path | None:
+    """Find task file: filename first, then frontmatter id fallback."""
+    return find_task_file(task_id) or find_task_file_by_frontmatter_id(task_id)
 
 
 def update_queue_status(task_id: str, new_status: str) -> None:
@@ -195,9 +183,9 @@ def action_claim(task_id: str, instance: str) -> tuple[bool, str]:
     if not ok:
         return False, reason
 
-    task_file = find_task_file(task_id) or find_task_file_by_frontmatter_id(task_id)
+    task_file = _find_task_file_dual(task_id)
     if task_file is None:
-        return False, f"找不到任务单文件: {task_id}"
+        return False, f"找不到任务单文件: {task_id}（已按文件名和 frontmatter id 双重查找）"
 
     with QueueLock("production-queue"):
         # Re-check gate inside lock
@@ -223,9 +211,9 @@ def action_complete(task_id: str, instance: str, evidence: str | None) -> tuple[
     if task["status"] != expected:
         return False, f"任务 {task_id} 状态为 {task['status']}，不是由 {instance} 领取的 {expected}"
 
-    task_file = find_task_file(task_id) or find_task_file_by_frontmatter_id(task_id)
+    task_file = _find_task_file_dual(task_id)
     if task_file is None:
-        return False, f"找不到任务单文件: {task_id}"
+        return False, f"找不到任务单文件: {task_id}（已按文件名和 frontmatter id 双重查找）"
 
     fm, _ = parse_frontmatter(task_file)
     if evidence is None:
@@ -257,9 +245,9 @@ def action_release(task_id: str, instance: str) -> tuple[bool, str]:
     if task["status"] != expected:
         return False, f"任务 {task_id} 状态为 {task['status']}，不是 {expected}"
 
-    task_file = find_task_file(task_id)
+    task_file = _find_task_file_dual(task_id)
     if task_file is None:
-        return False, f"找不到任务单文件: {task_id}"
+        return False, f"找不到任务单文件: {task_id}（已按文件名和 frontmatter id 双重查找）"
 
     with QueueLock("production-queue"):
         apply_updates(task_id, "queued", task_file, status="queued")
@@ -279,9 +267,9 @@ def action_review(task_id: str, verdict: str, reviewer: str) -> tuple[bool, str]
     if task["status"] != "pending_review":
         return False, f"任务 {task_id} 状态为 {task['status']}，不是 pending_review，无法终审"
 
-    task_file = find_task_file(task_id)
+    task_file = _find_task_file_dual(task_id)
     if task_file is None:
-        return False, f"找不到任务单文件: {task_id}"
+        return False, f"找不到任务单文件: {task_id}（已按文件名和 frontmatter id 双重查找）"
 
     with QueueLock("production-queue"):
         if verdict == "pass":

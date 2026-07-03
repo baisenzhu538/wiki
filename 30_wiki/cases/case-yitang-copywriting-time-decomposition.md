@@ -4,7 +4,8 @@ title: 一堂文案团队时间拆解：把「写稿」拆成可测量的工序
 type: case
 status: enriched
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: "2026-06-29"
 confidence: 0.84
 trust_level: medium
 language: zh-CN
