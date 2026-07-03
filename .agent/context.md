@@ -4,15 +4,14 @@ updated_at: 2026-07-04T10:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#57 GraphRAG orphan 比例降低（claimed-kimi 2026-07-04）；老顽童(Kimi) 已领取并执行；#60 欧阳锋重审通过，待 #57 释放后正式移入 reviewed；#58/#59/#61 queued"
+active_task: "#57/#58 已 reviewed；#59 Agent Prompt 编译器待黄药师领取；#60 queue_transition 修复待正式状态变更；#61 #54 A 级候选投产待老顽童领取"
 blockers:
-  - "#60 queue_transition 修复（2026-07-04）：欧阳锋子代理重审通过；7/7 tests passed；#55 场景验证正确；因 #57 仍 claimed，queue_transition.py 状态机暂无法执行 review；待 #57 释放后正式更新为 reviewed"
-  - "#58 TCPR Agent 身份协议（2026-07-01）：已入队，assignee 老顽童(Kimi)，黄药师任 co_architect；#55 已 reviewed，对齐基础已具备；#57 reviewed 后可领取"
-  - "#59 Agent Prompt 编译器（2026-07-01）：已入队，assignee 黄药师；按队列顺序等待领取；MCP 方案现在不做"
-  - "#61 #54 A 级候选投产（2026-07-04）：已入队，assignee 老顽童(Kimi)；产出 7 张 companion case 卡；P2，排在 #58 之后"
+  - "#60 queue_transition 修复（2026-07-04）：欧阳锋重审通过；7/7 tests passed；因 #57 仍 claimed，queue_transition.py 状态机暂无法执行 review；待 #57 释放后正式更新为 reviewed"
+  - "#59 Agent Prompt 编译器（2026-07-01）：已入队，assignee 黄药师；依赖 #55/#58 reviewed（已满足），可立即领取"
+  - "#61 #54 A 级候选投产（2026-07-04）：已入队，assignee 老顽童(Kimi)；产出 7 张 companion case 卡；P2，#58 reviewed 后可领取"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
 
-next_session_hint: "下一步：① 老顽童(Kimi) 继续执行 #57 并提交；② #57 reviewed 后按顺序领取 #58/#61；③ #57 释放后同步将 #60 正式 review 为 reviewed；④ workbuddy 在空闲时分批处理 #28。"
+next_session_hint: "下一步：① 黄药师领取 #59；② 老顽童领取 #61；③ #57 释放后把 #60 正式 review 为 reviewed；④ workbuddy 在空闲时分批处理 #28。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
