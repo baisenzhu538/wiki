@@ -31,6 +31,8 @@ related:
   - "[[master-decision-hygiene]]"
   - "[[concept-cognitive-offloading-in-ai-era]]"
   - "[[tool-ai-use-barbell-strategy]]"
+  - "[[case-bmw-human-ai-collaboration-idle-time]]"
+  - "[[case-ai-writing-homogenization]]"
   - "[[tool-纪浩-项目启动五问法]]"
   - "[[tool-一堂-product-kernel-canvas]]"
   - "[[yt-panproduct-aesthetic-pool]]"

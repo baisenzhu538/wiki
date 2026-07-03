@@ -34,6 +34,8 @@ quality_labels:
 related:
   - "[[concept-cognitive-offloading-in-ai-era]]"
   - "[[tool-ai-use-barbell-strategy]]"
+  - "[[case-ai-writing-homogenization]]"
+  - "[[case-bmw-human-ai-collaboration-idle-time]]"
   - "[[master-antifragile-checklist]]"
   - "[[master-decision-hygiene]]"
   - "[[framework-decision-cognitive-bias-map]]"

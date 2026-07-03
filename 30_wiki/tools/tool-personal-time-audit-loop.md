@@ -27,6 +27,8 @@ related:
   - "[[dk-time-management-common-mistakes]]"
   - "[[yt-personal-ipo-learning]]"
   - "[[framework-yitang-deliberate-practice-1plus4]]"
+  - "[[case-truman-time-management-commute-experiment]]"
+  - "[[case-yitang-copywriting-time-decomposition]]"
 
 ---
 

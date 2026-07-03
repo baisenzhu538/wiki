@@ -87,6 +87,15 @@ def find_task_file(task_id: str) -> Path | None:
     for c in candidates:
         if c.exists():
             return c
+
+    # Fallback: prefix match when queue id ≠ filename (e.g. queue has
+    # task_20260703_laowantong-yitang-Y-model-os but file is renamed)
+    for d in (TASK_DIR, BATCH_DIR):
+        if not d.exists():
+            continue
+        for path in d.glob(f"{task_id[:40]}*.md"):
+            return path
+
     return None
 
 
@@ -99,6 +108,18 @@ def find_task_file_by_frontmatter_id(task_id: str) -> Path | None:
             fm, _ = parse_frontmatter(path)
             if fm.get("id") == task_id:
                 return path
+
+    # Fallback: prefix match on filename when frontmatter id differs
+    prefix = task_id[:40]
+    for d in (TASK_DIR, BATCH_DIR):
+        if not d.exists():
+            continue
+        for path in d.glob(f"{prefix}*.md"):
+            fm, _ = parse_frontmatter(path)
+            # Return if frontmatter id starts with same prefix
+            if fm.get("id", "").startswith(prefix):
+                return path
+
     return None
 
 

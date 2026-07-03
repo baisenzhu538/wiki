@@ -41,6 +41,8 @@ related:
   - "[[learning-thinking]]"
   - "[[deliberate-practice-four-elements]]"
   - "[[case-live81-ai-trademark-design]]"
+  - "[[case-bmw-human-ai-collaboration-idle-time]]"
+  - "[[case-ai-writing-homogenization]]"
   - "[[framework-yitang-nine-layer-deep-dig]]"
   - "[[dk-ai-design-pitfalls]]"
   - "[[tool-ai-use-barbell-strategy]]"

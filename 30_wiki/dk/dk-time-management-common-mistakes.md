@@ -28,6 +28,8 @@ related:
   - "[[yt-personal-time-management]]"
   - "[[yt-personal-knowledge-management]]"
   - "[[master-decision-hygiene]]"
+  - "[[case-truman-time-management-commute-experiment]]"
+  - "[[case-yitang-copywriting-time-decomposition]]"
 
 ---
 

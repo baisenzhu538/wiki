@@ -37,6 +37,8 @@ related:
   - "[[framework-ai-deliberate-practice-loop]]"
   - "[[master-antifragile-checklist]]"
   - "[[case-live81-ai-trademark-design]]"
+  - "[[case-bmw-human-ai-collaboration-idle-time]]"
+  - "[[case-ai-writing-homogenization]]"
   - "[[framework-yitang-nine-layer-deep-dig]]"
   - "[[dk-ai-design-pitfalls]]"
   - "[[concept-ji-hao-ai-collaboration-methodology]]"

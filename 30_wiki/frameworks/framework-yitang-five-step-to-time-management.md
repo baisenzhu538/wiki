@@ -38,6 +38,8 @@ related:
   - "[[yt-personal-deliberate-practice]]"
   - "[[tool-personal-time-audit-loop]]"
   - "[[dk-time-management-common-mistakes]]"
+  - "[[case-truman-time-management-commute-experiment]]"
+  - "[[case-yitang-copywriting-time-decomposition]]"
 
 ---
 

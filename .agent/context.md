@@ -6,13 +6,12 @@ reviewed_by: 欧阳锋
 active_branch: main
 active_task: "#53 案例卡补挖：吾辈如神 + 时间管理域（claimed-kimi 2026-07-01）；老顽童(Kimi) 已领取并执行；#28 已 paused 交 workbuddy 后台分批执行；#51/#55 已 reviewed"
 blockers:
-  - "#51 一堂底层逻辑域（2026-07-01）：欧阳锋终审通过，状态 reviewed"
-  - "#55 Y模型 OS（2026-07-01）：欧阳锋终审通过，状态 reviewed"
-  - "🟡 #58 TCPR Agent 身份协议（2026-07-01）：已入队，assignee 调整为老顽童(Kimi)，黄药师任 co_architect；需与 #55 Y模型 OS 对齐"
+  - "#58 TCPR Agent 身份协议（2026-07-01）：已入队，assignee 老顽童(Kimi)，黄药师任 co_architect；#55 已 reviewed，对齐基础已具备"
   - "#59 Agent Prompt 编译器（2026-07-01）：已入队，assignee 黄药师；按队列顺序等待领取；MCP 方案现在不做"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
+  - "🟡 KDO 工具链债务：queue_transition.py review 仍按文件名查找任务单，当 id 与文件名不一致时失败（如 #55）。建议黄药师修复 find_task_file_by_frontmatter_id 在 review 分支的同步"
 
-next_session_hint: "下一步：① 老顽童(Kimi) 领取 #53 并按顺序推进 #54/#57/#58；② workbuddy 在空闲时分批处理 #28；③ 黄药师等待队列排到 #59 后领取；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 老顽童(Kimi) 执行 #53，完成后按顺序推进 #54/#57/#58；② workbuddy 在空闲时分批处理 #28；③ 黄药师等待队列排到 #59 后领取；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

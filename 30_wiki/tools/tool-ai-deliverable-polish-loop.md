@@ -22,6 +22,8 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260702_live81-ai-trademark-design.md
 related:
   - "[[case-live81-ai-trademark-design]]"
+  - "[[case-bmw-human-ai-collaboration-idle-time]]"
+  - "[[case-ai-writing-homogenization]]"
   - "[[tool-scene-design-language-translation]]"
   - "[[dk-ai-design-pitfalls]]"
   - "[[framework-一堂五步法-泛产品设计]]"

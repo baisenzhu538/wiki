@@ -247,7 +247,7 @@ source_refs:
 ### 发现的基础设施问题
 
 1. **KDO CLI SyntaxError**：`python -m kdo pre-submit` 触发 `SyntaxError: expected 'except' or 'finally' block`（`kdo/commands/delivery.py:686`）。已通过直接调用 `kdo.pre_submit.run_pre_submit()` 绕过。
-2. **index/lint 机制不一致**：`kdo index --rebuild` 生成 bare wikilink（如 `[[case-strategy-cool-boiled-water|...]]`），但 `kdo lint` 的 index 检查期望带路径的 wikilink（如 `[[cases/case-strategy-cool-boiled-water|...]]`），导致 148 个 "Wiki page not listed in index.md" 误报。此问题不阻塞内容清理，但会显著虚高 WARNING 数，需要黄药师修复 KDO 代码。
+2. **index/lint 机制不一致**：`kdo index --rebuild` 生成 bare wikilink（如 `case-strategy-cool-boiled-water`），但 `kdo lint` 的 index 检查期望带路径的 wikilink（如 `cases/case-strategy-cool-boiled-water`），导致 148 个 "Wiki page not listed in index.md" 误报。此问题不阻塞内容清理，但会显著虚高 WARNING 数，需要黄药师修复 KDO 代码。
 
 ### 2026-06-30 yitang domain 处理记录
 
