@@ -1001,10 +1001,22 @@ source_refs:
 | 第四批 | 10 | -38 | ✅ 欧阳锋通过 |
 | 第五批 | 14 | -40 | ✅ 欧阳锋通过 |
 | 第六批 | 6 | -40 | ✅ 欧阳锋通过 |
-| **累计** | **60** | **-239** | |
+| 第七批 | 10 | -40 | ✅ 欧阳锋 pass with reservations |
+| **累计** | **70** | **-279** | |
 
 ### 结论
 
 同意本批次 6 个新 tool 卡通过。可继续下一批 yitang / 一堂 / 水水 tool 卡清理，或按王语嫣/用户指示切换 domain。
 
 *批次审查：欧阳锋 · 2026-06-29*
+
+---
+
+## 2026-07-04 更新：第七批审查
+
+- **文件**：10 个水水系列 Type B tool 卡
+- **审查结论**：欧阳锋 pass with reservations
+- **审查报告**：`60_feedback/reviews/review_20260704_ouyangfeng-yitang-shuishui-batch7.md`
+- **pre-submit**：10/10 PASS
+- **WARNING**：2385 → 2345（净减 40）
+- **Reservation**：操作步骤与「为什么有效」仍过薄；适用场景/工具/环境/来源等 section 仍为 src_unknown 占位；kdo_lint.py 报告 Files checked: 0 需排查；卡片状态需统一更新。

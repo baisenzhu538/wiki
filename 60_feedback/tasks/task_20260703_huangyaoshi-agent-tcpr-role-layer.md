@@ -2,14 +2,14 @@
 id: task_20260703_huangyaoshi-agent-tcpr-role-layer
 title: Agent 能力分层引入 TCPR 角色模型：所有 Agent 协作前必须选定 T/C/P/R 身份
 type: task
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童(Kimi)
+assignee: kimi
 co_architect: 黄药师
 reviewer: 欧阳锋
 reviewed_by: pending
 created_at: 2026-07-01
-updated_at: 2026-07-01
+updated_at: '2026-07-03T19:31:35.820595+00:00'
 source_context: 用户提出 TCPR 应作为 Agent 身份协议，防止 Agent 军团协作混乱
 estimated_cards: 1 system + 2 framework更新 + 7-8 agent-spec retrofit + 设计规范更新
 dependencies:
