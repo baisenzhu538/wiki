@@ -5,22 +5,23 @@ type: tool
 domain:
   - personal-growth
   - design
-status: needs-review
+status: reviewed
 author: unknown
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: "2026-06-29"
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
-  - "[[tool-水水-接受发散性世界观]]"
-  - "[[tool-水水-区分风险与不确定性]]"
-  - "[[tool-水水-利用基因漂变视角]]"
-  - "[[tool-水水-利用叙事驱动决策]]"
-  - "[[tool-水水-识别自证预言陷阱]]"
+  - tool-水水-接受发散性世界观
+  - tool-水水-区分风险与不确定性
+  - tool-水水-利用基因漂变视角
+  - tool-水水-利用叙事驱动决策
+  - tool-水水-识别自证预言陷阱
 ---
 # 技能：降低故事逻辑要求
 

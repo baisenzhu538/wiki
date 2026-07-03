@@ -3,22 +3,23 @@ id: tool-水水-避免原生家庭万能归因
 title: 技能：避免原生家庭万能归因
 type: tool
 domain: personal-growth
-status: needs-review
+status: reviewed
 author: unknown
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: "2026-06-29"
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
-  - "[[tool-水水-用感性维度构建溢价]]"
-  - "[[tool-水水-利用基因漂变视角]]"
-  - "[[tool-水水-识别关键偶然因素]]"
-  - "[[tool-水水-识别自证预言陷阱]]"
-  - "[[tool-水水-识别超级传播者风险]]"
+  - tool-水水-用感性维度构建溢价
+  - tool-水水-利用基因漂变视角
+  - tool-水水-识别关键偶然因素
+  - tool-水水-识别自证预言陷阱
+  - tool-水水-识别超级传播者风险
 ---
 # 技能：避免原生家庭万能归因
 

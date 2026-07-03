@@ -4,6 +4,7 @@ title: KDO 多库架构设计方案
 type: improvement-plan
 status: draft
 author: 黄药师
+reviewed_by: 黄药师
 created_at: 2026-07-01
 updated_at: '2026-06-29'
 domain:

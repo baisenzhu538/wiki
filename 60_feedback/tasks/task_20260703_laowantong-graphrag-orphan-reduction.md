@@ -2,12 +2,12 @@
 id: task_20260703_laowantong-graphrag-orphan-reduction
 title: GraphRAG 健康度提升：跨域 related 补链降低 orphan 比例
 type: task
-status: in_progress
+status: pending_review
 priority: P2
 assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-03
-updated_at: '2026-07-03T18:48:18.029009+00:00'
+updated_at: '2026-07-03T19:24:40.239826+00:00'
 expected_outputs:
 - orphan 卡片来源分析报告
 - 跨域 related 补链方案
