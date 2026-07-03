@@ -1,16 +1,13 @@
 ---
 id: task_20260703_laowantong-yitang-Y-model-foundation-production
-title: 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（3 framework + 1 tool + 1 dk + 2 case）
+title: 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 + 2 新建 framework + 1 tool + 1 dk + 2 case；解放思想素材待输入）
 type: task
-status: reviewed
+status: queued
 priority: P1
-assignee: kimi
+assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
-reviewed_by: 欧阳锋
-review_date: '2026-06-29'
-acceptance_verdict: pass
 created_at: 2026-07-03
-updated_at: '2026-06-29T20:10:00+00:00'
+updated_at: 2026-07-03（王语嫣裁定：Card 1 改为重写 yt-decision-y-model；Card 2 实事求是素材已就位；Card 3 解放思想素材待输入）
 expected_cards: 7
 dependencies: []
 source_refs:
@@ -19,6 +16,8 @@ source_refs:
 - 00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md
 - 00_inbox/底层逻辑之一-Y模型/科学理念-Y模型.png
 - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
+- 00_inbox/实事求是/_processed/实事求是_整合笔记.md
+- 00_inbox/实事求是/_processed/vlm_summary.json
 related:
 - yt-decision-y-model
 - framework-yitang-shishi-qiushi
@@ -30,10 +29,9 @@ related:
 - yt-entrepreneur-scientific-method
 - yt-entrepreneur-truth-seeking
 - yt-model-liberate-thinking-layers
-review_date: '2026-07-02'
 ---
 
-# 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（3 framework + 1 tool + 1 dk + 2 case）
+# 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 + 2 新建 framework + 1 tool + 1 dk + 2 case；解放思想素材待输入）
 
 > 任务来源：王语嫣入口质量门诊断 `diag_20260703_yitang-Y-model-foundation.md`
 > 王语嫣判断：Y模型是一堂最底层的元框架，科学理念 = Y模型，实事求是和解放思想是从 Y模型生长出来的两层能力。本任务填补 KDO 底层逻辑域空白，为后续 Agent 实践提供方法论底座。
