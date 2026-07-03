@@ -9,30 +9,29 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - epistemic-foundations
-  - marketing
-  - yitang
+- epistemic-foundations
+- marketing
+- yitang
 source_person: 李善友 / 一堂课程设计
 source_context: 一堂底层逻辑域·Y模型课程（2026-07-03），王语嫣九层深挖诊断
 source_refs:
-  - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
-  - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt
-  - 00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md
-  - 00_inbox/底层逻辑之一-Y模型/科学理念-Y模型.png
-  - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
+- 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
+- 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt
+- 00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md
+- 00_inbox/底层逻辑之一-Y模型/科学理念-Y模型.png
+- 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
 related:
-  - "[[yt-decision-y-model]]"
-  - "[[tool-yitang-Y-model-application]]"
-  - "[[dk-yitang-Y-model-pitfalls]]"
-  - "[[case-yitang-Y-model-seven-applications]]"
-  - "[[master-decision-hygiene]]"
-  - "[[concept-X型Y型决策习惯]]"
-  - "[[yt-business-formula-six-level-logic]]"
-  - "[[yt-five-step-method]]"
+- yt-decision-y-model
+- tool-yitang-Y-model-application
+- dk-yitang-Y-model-pitfalls
+- case-yitang-Y-model-seven-applications
+- master-decision-hygiene
+- concept-X型Y型决策习惯
+- yt-business-formula-six-level-logic
+- yt-five-step-method
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 ---
-
 # 一堂抖音 AD 投放扭亏：Y模型科学投放实战
 
 > **一句话**：一堂 2023 年尝试抖音 AD 投放，经历外包失败、内部团队临摹也失败后，创始人亲自用 Y模型搭建「四大模型 + A本/B本 + 每周 AB 测试」的科学投放体系，最终把付费流量变成核心增长引擎。

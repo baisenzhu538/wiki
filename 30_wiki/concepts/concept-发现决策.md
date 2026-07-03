@@ -14,14 +14,14 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-发现决策_vlm_desc.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[yt-decision-y-model]]'
-- '[[tool-yitang-Y-model-application]]'
-- '[[dk-yitang-Y-model-pitfalls]]'
+- yitang-domain-digest
+- decision-science-domain-digest
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- yt-decision-y-model
+- tool-yitang-Y-model-application
+- dk-yitang-Y-model-pitfalls
 review_date: '2026-06-29'
 updated_at: '2026-07-03'
 ---
@@ -50,3 +50,8 @@ updated_at: '2026-07-03'
 ---
 
 *基于 VLM 描述生产。*
+
+
+## Y模型根节点连接
+
+本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。

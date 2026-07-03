@@ -34,25 +34,25 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-反案例-渠道建模踩坑_vlm_desc.md
 source_person: Truman
 related:
-- '[[tool-区分获客渠道计算单元roi]]'
-- '[[framework-yitang-channel-industrialization]]'
-- '[[framework-lean-abcd-model]]'
-- '[[tool-yitang-channel-scan-cheat-sheet]]'
-- '[[yt-unit-model-concept]]'
-- '[[tool-yitang-channel-scoring-matrix]]'
-- '[[framework-yitang-growth-flywheel]]'
-- '[[case-yitang-xujian-invoice-saas-channel]]'
-- '[[case-yitang-solid-redbull-channel]]'
-- '[[case-yitang-yitang-self-growth-channel]]'
-- '[[case-yitang-maiyi-cloud-computer-channel]]'
-- '[[concept-yitang-channel-lean-validation-bridge]]'
-- '[[framework-yitang-channel-unit-economics]]'
-- '[[framework-yitang-scientific-sales-five-step]]'
-- '[[tool-yitang-sales-process-decomposition]]'
-- '[[case-yitang-sales-transformation-jubensha-saas]]'
-- '[[yt-decision-y-model]]'
-- '[[tool-yitang-Y-model-application]]'
-- '[[dk-yitang-Y-model-pitfalls]]'
+- tool-区分获客渠道计算单元roi
+- framework-yitang-channel-industrialization
+- framework-lean-abcd-model
+- tool-yitang-channel-scan-cheat-sheet
+- yt-unit-model-concept
+- tool-yitang-channel-scoring-matrix
+- framework-yitang-growth-flywheel
+- case-yitang-xujian-invoice-saas-channel
+- case-yitang-solid-redbull-channel
+- case-yitang-yitang-self-growth-channel
+- case-yitang-maiyi-cloud-computer-channel
+- concept-yitang-channel-lean-validation-bridge
+- framework-yitang-channel-unit-economics
+- framework-yitang-scientific-sales-five-step
+- tool-yitang-sales-process-decomposition
+- case-yitang-sales-transformation-jubensha-saas
+- yt-decision-y-model
+- tool-yitang-Y-model-application
+- dk-yitang-Y-model-pitfalls
 review_date: '2026-06-28'
 ---
 # 渠道探索四步法：科学找到可持续获客渠道
@@ -336,3 +336,8 @@ Truman 反复强调：可持续获客是项目生存的关键标志之一，但�
 - [ ] 跑通后立刻拆业务公式，定位 3–5 个核心参数
 - [ ] 持续提转化率，建立工业化生产机制延长渠道生命周期
 - [ ] 成熟期布局 3–5 个不同类型渠道，避免单一渠道风险
+
+
+## Y模型根节点连接
+
+本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。

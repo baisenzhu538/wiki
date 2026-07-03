@@ -22,14 +22,14 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.9
 related:
-- '[[pending_unknown]]'
-- '[[ocr-一堂深度复盘冰山图]]'
-- '[[tool-动手建模法]]'
-- '[[tool-yitang-sales-process-decomposition]]'
-- '[[tool-yitang-sales-performance-management]]'
-- '[[tool-yitang-Y-model-application]]'
-- '[[yt-decision-y-model]]'
-- '[[case-yitang-Y-model-seven-applications]]'
+- pending_unknown
+- ocr-一堂深度复盘冰山图
+- tool-动手建模法
+- tool-yitang-sales-process-decomposition
+- tool-yitang-sales-performance-management
+- tool-yitang-Y-model-application
+- yt-decision-y-model
+- case-yitang-Y-model-seven-applications
 tags:
 - src_unknown
 - src_unknown
@@ -242,3 +242,8 @@ diagnostic_signals:
 ---
 
 *老顽童 · 2026-06-14 起草 · 欧阳锋 2026-06-18 复核 · 基于一堂建模能力培训课程（Truman 口述）*
+
+
+## Y模型根节点连接
+
+本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。

@@ -29,25 +29,25 @@ source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 source_person: 一堂 / 兰毅
 related:
-- '[[framework-lean-abcd-model]]'
-- '[[tool-ai-deliverable-polish-loop]]'
-- '[[framework-ai-accelerated-strategy-cycle]]'
-- '[[framework-pan-product-organization]]'
-- '[[yt-model-pan-product-three-virtues]]'
-- '[[case-live81-ai-trademark-design]]'
-- '[[yt-composite-pan-product-methodology]]'
-- '[[framework-yitang-five-step-to-time-management]]'
-- '[[tool-scene-design-language-translation]]'
-- '[[framework-yitang-scientific-sales-five-step]]'
-- '[[tool-yitang-customer-segmentation-4step]]'
-- '[[tool-yitang-value-proposition-4step]]'
-- '[[tool-yitang-sales-process-decomposition]]'
-- '[[case-yitang-sales-transformation-jubensha-saas]]'
-- '[[case-yitang-sales-transformation-meirongyuan]]'
-- '[[case-yitang-sales-transformation-tuliaogongsi]]'
-- '[[yt-decision-y-model]]'
-- '[[tool-yitang-Y-model-application]]'
-- '[[case-yitang-Y-model-advertising-turnaround]]'
+- framework-lean-abcd-model
+- tool-ai-deliverable-polish-loop
+- framework-ai-accelerated-strategy-cycle
+- framework-pan-product-organization
+- yt-model-pan-product-three-virtues
+- case-live81-ai-trademark-design
+- yt-composite-pan-product-methodology
+- framework-yitang-five-step-to-time-management
+- tool-scene-design-language-translation
+- framework-yitang-scientific-sales-five-step
+- tool-yitang-customer-segmentation-4step
+- tool-yitang-value-proposition-4step
+- tool-yitang-sales-process-decomposition
+- case-yitang-sales-transformation-jubensha-saas
+- case-yitang-sales-transformation-meirongyuan
+- case-yitang-sales-transformation-tuliaogongsi
+- yt-decision-y-model
+- tool-yitang-Y-model-application
+- case-yitang-Y-model-advertising-turnaround
 ---
 # 一堂五步法在泛产品设计中的应用
 
@@ -294,3 +294,8 @@ related:
 - 保留了原标题、id、type 和原创建时间（2026-06-26）。
 - 原正文中“一堂五步法在泛产品设计中的应用是泛产品设计工具箱中的一项”这一句核心意图被保留，但重写为更完整的定义。
 - 原“对应科学决策三角形深度维度”的关系说明因无法验证且与本次素材关联较弱，被删除。
+
+
+## Y模型根节点连接
+
+本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。

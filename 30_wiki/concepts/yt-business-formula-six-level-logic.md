@@ -23,15 +23,15 @@ review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-model-deep-review-iceberg]]'
-- '[[yt-management-business-formula]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[tool-yitang-sales-performance-management]]'
-- '[[yt-decision-y-model]]'
-- '[[tool-yitang-Y-model-application]]'
-- '[[case-yitang-Y-model-advertising-turnaround]]'
+- yt-business-formula-abc-model
+- yt-model-deep-review-iceberg
+- yt-management-business-formula
+- yt-business-formula-parameter-iceberg
+- yt-decision-depth-ladder
+- tool-yitang-sales-performance-management
+- yt-decision-y-model
+- tool-yitang-Y-model-application
+- case-yitang-Y-model-advertising-turnaround
 ---
 # 业务公式六层逻辑关系（L1 模糊 → L6 动态）
 
@@ -196,3 +196,8 @@ R_t = f(A_t, B_t, C_t, 外部变量_t)
 - src_unknown
 - src_unknown
 - src_unknown
+
+
+## Y模型根节点连接
+
+本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。

@@ -9,28 +9,27 @@ confidence: 0.84
 trust_level: medium
 language: zh-CN
 domain:
-  - epistemic-foundations
-  - yitang
+- epistemic-foundations
+- yitang
 source_person: 李善友 / 一堂课程设计；段王爷（作业整理与点评）
 source_context: 一堂底层逻辑域·Y模型课程（2026-07-03），段王爷整理《Y模型火种·科学做事思考合集》
 source_refs:
-  - "00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md"
-  - "00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt"
-  - "00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt"
-  - "60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md"
+- 00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md
+- 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
+- 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt
+- 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
 related:
-  - "[[yt-decision-y-model]]"
-  - "[[tool-yitang-Y-model-application]]"
-  - "[[dk-yitang-Y-model-pitfalls]]"
-  - "[[case-yitang-Y-model-advertising-turnaround]]"
-  - "[[master-decision-hygiene]]"
-  - "[[concept-X型Y型决策习惯]]"
-  - "[[yt-five-step-method-complete]]"
-  - "[[yt-unit-model-overview]]"
+- yt-decision-y-model
+- tool-yitang-Y-model-application
+- dk-yitang-Y-model-pitfalls
+- case-yitang-Y-model-advertising-turnaround
+- master-decision-hygiene
+- concept-X型Y型决策习惯
+- yt-five-step-method-complete
+- yt-unit-model-overview
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 ---
-
 # Y模型七人跨域应用案例集
 
 ## Background

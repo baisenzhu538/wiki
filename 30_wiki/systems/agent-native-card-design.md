@@ -21,8 +21,8 @@ related:
 - - - graph-rag
 - - - yt-model-pan-product-36-strategies
 - - - yt-model-pan-product-aesthetic-toolkit
-- '[[yt-decision-y-model]]'
-- '[[tool-yitang-Y-model-application]]'
+- yt-decision-y-model
+- tool-yitang-Y-model-application
 ---
 # Agent 原生知识卡设计规范 v2
 
@@ -401,3 +401,8 @@ Agent 在实际对话中迭代出来的改进，不只是 system prompt 的措�
 | 终审回流质量 | 欧阳锋 |
 
 
+
+
+## Y模型根节点连接
+
+本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。

@@ -33,25 +33,25 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md
 updated_at: '2026-07-03'
 related:
-- '[[framework-yitang-five-step-to-time-management]]'
-- '[[concept-最简单元模型]]'
-- '[[ocr-一堂-单元模型-规模经济对抗武器库]]'
-- '[[tool-单元模型-壁垒预判]]'
-- '[[ocr-一堂-单元模型-单用户模型]]'
-- '[[ocr-一堂-单元模型-对抗小抄02]]'
-- '[[ocr-一堂-单元模型-单履约模型]]'
-- '[[ocr-一堂-单元模型-找基准值实操难点]]'
-- '[[ocr-一堂-单元模型-对抗小抄01]]'
-- '[[ocr-一堂-单元模型-外部对抗地图]]'
-- '[[dk-单元模型-找单元模型实操难点]]'
-- '[[ocr-一堂-单元模型-段位专家]]'
-- '[[ai单元模型口述蒋老师]]'
-- '[[ocr-一堂-单元模型-单商圈模型]]'
-- '[[framework-yitang-scientific-sales-five-step]]'
-- '[[tool-yitang-sales-performance-management]]'
-- '[[yt-decision-y-model]]'
-- '[[tool-yitang-Y-model-application]]'
-- '[[case-yitang-Y-model-seven-applications]]'
+- framework-yitang-five-step-to-time-management
+- concept-最简单元模型
+- ocr-一堂-单元模型-规模经济对抗武器库
+- tool-单元模型-壁垒预判
+- ocr-一堂-单元模型-单用户模型
+- ocr-一堂-单元模型-对抗小抄02
+- ocr-一堂-单元模型-单履约模型
+- ocr-一堂-单元模型-找基准值实操难点
+- ocr-一堂-单元模型-对抗小抄01
+- ocr-一堂-单元模型-外部对抗地图
+- dk-单元模型-找单元模型实操难点
+- ocr-一堂-单元模型-段位专家
+- ai单元模型口述蒋老师
+- ocr-一堂-单元模型-单商圈模型
+- framework-yitang-scientific-sales-five-step
+- tool-yitang-sales-performance-management
+- yt-decision-y-model
+- tool-yitang-Y-model-application
+- case-yitang-Y-model-seven-applications
 diagnostic_signals:
 - framework_lens: 缺少最小经济单元视角——总账会掩盖单元的真实盈利能力
   follow_up_question: 如果把这个业务拆成最小可复制单元，哪个单元的盈亏会最先让公司崩盘？
@@ -222,3 +222,8 @@ Christensen 在《The Innovator's Dilemma》(1997) 中证明，当颠覆性技�
 - src_unknown
 - src_unknown
 - src_unknown
+
+
+## Y模型根节点连接
+
+本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。

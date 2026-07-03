@@ -1,13 +1,13 @@
 ---
 id: task_20260703_laowantong-yitang-Y-model-foundation-production
-title: 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 + 2 新建 framework + 1 tool + 1 dk + 2 case；解放思想素材待输入）
+title: 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 + 2 新建 framework + 1 tool + 1 dk + 2 case）
 type: task
 status: queued
 priority: P1
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 created_at: 2026-07-03
-updated_at: 2026-07-03（王语嫣裁定：Card 1 改为重写 yt-decision-y-model；Card 2 实事求是素材已就位；Card 3 解放思想素材待输入）
+updated_at: 2026-07-03（素材全部就位；新增 AI 反幻觉映射 + 科学类比执行模板要求；解放思想案例候选 148 条待二次判断）
 expected_cards: 7
 dependencies: []
 source_refs:
@@ -18,6 +18,8 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
 - 00_inbox/实事求是/_processed/实事求是_整合笔记.md
 - 00_inbox/实事求是/_processed/vlm_summary.json
+- 00_inbox/解放思想/_processed/解放思想_整合笔记.md
+- 00_inbox/解放思想/_processed/CASE_CANDIDATES.md
 related:
 - yt-decision-y-model
 - framework-yitang-shishi-qiushi
@@ -31,7 +33,7 @@ related:
 - yt-model-liberate-thinking-layers
 ---
 
-# 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 + 2 新建 framework + 1 tool + 1 dk + 2 case；解放思想素材待输入）
+# 一堂底层逻辑域：Y模型 + 实事求是 + 解放思想（1 重写 + 2 新建 framework + 1 tool + 1 dk + 2 case）
 
 > 任务来源：王语嫣入口质量门诊断 `diag_20260703_yitang-Y-model-foundation.md`
 > 王语嫣判断：Y模型是一堂最底层的元框架，科学理念 = Y模型，实事求是和解放思想是从 Y模型生长出来的两层能力。本任务填补 KDO 底层逻辑域空白，为后续 Agent 实践提供方法论底座。
@@ -49,15 +51,15 @@ related:
 5. `60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md`
 6. `00_inbox/实事求是/_processed/实事求是_整合笔记.md`
 7. `00_inbox/实事求是/_processed/vlm_summary.json`
+8. `00_inbox/解放思想/_processed/解放思想_整合笔记.md`
+9. `00_inbox/解放思想/_processed/CASE_CANDIDATES.md`
+10. `00_inbox/解放思想/_processed/vlm_summary.json`（如存在）
 
-### 尚未就位（阻塞中）
-- 解放思想课素材：用户未输入
-
-> 因此老顽童可以先执行 **Card 1 + Card 2 + Cards 4-7**（6 张卡），Card 3 等素材到位后再补。
+> 全部 7 张目标卡素材均已就位；`framework-yitang-jiefang-sixiang` 需重点复用 `CASE_CANDIDATES.md` 中的案例候选，不轻易丢弃。
 
 ---
 
-## 二、7 张目标卡（1 张重写 + 6 张新建；其中 1 张 framework 已解锁，1 张仍阻塞）
+## 二、7 张目标卡（1 张重写 + 6 张新建；全部素材已就位）
 
 ### Card 1: `yt-decision-y-model`（就地重写升级）
 
@@ -253,21 +255,22 @@ related:
 5. **数字降级**：口述中「每周亏一辆小米汽车」「翻四倍」等描述为项目经验，不当作普适真理。
 6. **OPC 改编**：每张 framework/tool 卡必须包含「OPC 智能体适配」小节。
 7. **哲学引用**：引用《实践论》《矛盾论》、王阳明心学时要明确「用于说明内在联系，不构成学术结论」。
+8. **AI 反幻觉映射**：`yt-decision-y-model`、`framework-yitang-shishi-qiushi`、`framework-yitang-jiefang-sixiang` 三张 framework 卡必须各含一个「AI 反幻觉」小节，说明如何把该框架用于识别/抑制 AI 幻觉（例如：事实核查清单、红队蓝队、隐含假设挖掘）。
+9. **科学类比执行模板**：每张 case 卡必须包含「可迁移规律」和「场景化抄作业方案」两个 section；每张 framework/tool 卡必须包含「科学类比使用说明」小节，让用户未来做类似事情时，能按图索骥调用已沉淀案例。
 
 ---
 
 ## 六、验收标准
 
-- [ ] 可立即开工的 5 张目标卡（Card 1 + Cards 4-7）`kdo pre-submit` PASS，无新增 ERROR。
-- [ ] 可立即开工的 5 张目标卡 `kdo lint` 0 ERROR；新增 WARNING 需在任务单中说明。
-- [ ] Card 2-3（实事求是/解放思想）在用户素材到位后补全，验收标准相同。
-- [ ] `yt-decision-y-model` 已就地重写升级，包含四层结构图、五步法、与一堂其他课程关系、KDO 根节点映射、哲学呼应、跨域迁移。
-- [ ] `framework-yitang-shishi-qiushi` 包含在 Y模型中的位置、核心动作、自欺信号、验证成本阶梯。
-- [ ] `framework-yitang-jiefang-sixiang` 包含六层认知模型、隐含假设挖掘方法、跨域桥接。
+- [ ] 7 张目标卡全部 `kdo pre-submit` PASS，无新增 ERROR。
+- [ ] 7 张目标卡 `kdo lint` 0 ERROR；新增 WARNING 需在任务单中说明。
+- [ ] `yt-decision-y-model` 已就地重写升级，包含四层结构图、五步法、与一堂其他课程关系、KDO 根节点映射、哲学呼应、跨域迁移、AI 反幻觉映射、科学类比使用说明。
+- [ ] `framework-yitang-shishi-qiushi` 包含在 Y模型中的位置、核心动作、自欺信号、验证成本阶梯、AI 反幻觉映射、科学类比使用说明。
+- [ ] `framework-yitang-jiefang-sixiang` 包含六层认知模型、隐含假设挖掘方法、跨域桥接、AI 反幻觉映射、科学类比使用说明。
 - [ ] `tool-yitang-Y-model-application` 包含五步法清单、输入/输出、红卡/蓝卡、示例、≥10 项 checklist。
 - [ ] `dk-yitang-Y-model-pitfalls` 包含 6 个反模式、≥6 条预警信号、修复动作。
-- [ ] `case-yitang-Y-model-seven-applications` 包含七人案例对标、共同短板、Lessons、Failure Modes。
-- [ ] `case-yitang-Y-model-advertising-turnaround` 包含 Background/Problem/Decision/Process/Result/Lessons/Failure Modes。
+- [ ] `case-yitang-Y-model-seven-applications` 包含七人案例对标、共同短板、Lessons、Failure Modes、可迁移规律、场景化抄作业方案。
+- [ ] `case-yitang-Y-model-advertising-turnaround` 包含 Background/Problem/Decision/Process/Result/Lessons/Failure Modes、可迁移规律、场景化抄作业方案。
 - [ ] 每张卡 Critique 包含 ≥3 个外部反对者与 ≥2 个内部局限。
 - [ ] 每张卡 related ≥ 5，且至少 2 条跨域。
 - [ ] 3 张旧卡已标记 deprecated 并指向新卡。
@@ -282,10 +285,10 @@ related:
 |:---|:---|:---|:---|
 | 第一批 | `yt-decision-y-model`（重写升级） | 先定根节点，作为后续 6 张卡的引用基础 | 可立即开工 |
 | 第二批 | `framework-yitang-shishi-qiushi` | 实事求是 framework | 可立即开工 |
-| 第三批 | `tool-yitang-Y-model-application` | 操作工作流 | 可立即开工 |
-| 第四批 | `dk-yitang-Y-model-pitfalls` | 反模式 | 可立即开工 |
-| 第五批 | `case-yitang-Y-model-advertising-turnaround` + `case-yitang-Y-model-seven-applications` | 两个案例 | 可立即开工 |
-| 第六批 | `framework-yitang-jiefang-sixiang` | 解放思想 framework | **阻塞：等待用户输入解放思想素材** |
+| 第三批 | `framework-yitang-jiefang-sixiang` | 解放思想 framework；需重点复用 `CASE_CANDIDATES.md` 案例候选 | 可立即开工 |
+| 第四批 | `tool-yitang-Y-model-application` | 操作工作流 | 可立即开工 |
+| 第五批 | `dk-yitang-Y-model-pitfalls` | 反模式 | 可立即开工 |
+| 第六批 | `case-yitang-Y-model-advertising-turnaround` + `case-yitang-Y-model-seven-applications` | 两个案例 | 可立即开工 |
 
 ---
 

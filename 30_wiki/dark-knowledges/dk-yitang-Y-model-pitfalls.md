@@ -22,13 +22,13 @@ confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋
 related:
-- '[[yt-decision-y-model]]'
-- '[[tool-yitang-Y-model-application]]'
-- '[[case-yitang-Y-model-advertising-turnaround]]'
-- '[[case-yitang-Y-model-seven-applications]]'
-- '[[master-decision-hygiene]]'
-- '[[concept-X型Y型决策习惯]]'
-- '[[framework-kdo-self-attack]]'
+- yt-decision-y-model
+- tool-yitang-Y-model-application
+- case-yitang-Y-model-advertising-turnaround
+- case-yitang-Y-model-seven-applications
+- master-decision-hygiene
+- concept-X型Y型决策习惯
+- framework-kdo-self-attack
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 author: 老顽童

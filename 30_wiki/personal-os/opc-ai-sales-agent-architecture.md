@@ -15,29 +15,29 @@ source_refs:
 - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
 - 对话记录：2026-07-02 王语嫣 × 老朱 OPC战略讨论
 related:
-- '[[framework-yitang-scientific-sales-five-step]]'
-- '[[tool-agent-spec-yitang-customer-segmentation]]'
-- '[[tool-opc-sales-dialogue-assistant]]'
-- '[[zhu-domain-index]]'
-- '[[zhu-time-os]]'
-- '[[dk-yitang-sales-common-pitfalls]]'
-- '[[case-yitang-sales-transformation-jubensha-saas]]'
-- '[[tool-agent-spec-yitang-sales-process-tracker]]'
-- '[[framework-yitang-sales-incentive-6d]]'
-- '[[tool-agent-spec-yitang-value-proposition]]'
-- '[[tool-yitang-sales-toolkit-radar]]'
-- '[[case-yitang-sales-transformation-tuliaogongsi]]'
-- '[[tool-yitang-sales-process-decomposition]]'
-- '[[tool-yitang-value-proposition-4step]]'
-- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
-- '[[tool-yitang-sales-performance-management]]'
-- '[[case-yitang-sales-transformation-meirongyuan]]'
-- '[[tool-yitang-customer-segmentation-4step]]'
-- '[[tool-agent-spec-yitang-opening-3min]]'
-- '[[tool-agent-spec-yitang-objection-handler]]'
-- '[[tool-agent-spec-yitang-self-motivation]]'
-- '[[yt-decision-y-model]]'
-- '[[tool-yitang-Y-model-application]]'
+- framework-yitang-scientific-sales-five-step
+- tool-agent-spec-yitang-customer-segmentation
+- tool-opc-sales-dialogue-assistant
+- zhu-domain-index
+- zhu-time-os
+- dk-yitang-sales-common-pitfalls
+- case-yitang-sales-transformation-jubensha-saas
+- tool-agent-spec-yitang-sales-process-tracker
+- framework-yitang-sales-incentive-6d
+- tool-agent-spec-yitang-value-proposition
+- tool-yitang-sales-toolkit-radar
+- case-yitang-sales-transformation-tuliaogongsi
+- tool-yitang-sales-process-decomposition
+- tool-yitang-value-proposition-4step
+- tool-agent-spec-yitang-sales-performance-monitor
+- tool-yitang-sales-performance-management
+- case-yitang-sales-transformation-meirongyuan
+- tool-yitang-customer-segmentation-4step
+- tool-agent-spec-yitang-opening-3min
+- tool-agent-spec-yitang-objection-handler
+- tool-agent-spec-yitang-self-motivation
+- yt-decision-y-model
+- tool-yitang-Y-model-application
 ---
 # OPC AI 销售智能体架构
 
@@ -301,3 +301,8 @@ related:
 
 *来源：2026-07-02 王语嫣 × 老朱 对话*
 *维护人：王语嫣 + 黄药师*
+
+
+## Y模型根节点连接
+
+本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。

@@ -40,16 +40,16 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-- '[[一堂方法论体系总图]]'
-- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
-- '[[ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步]]'
-- '[[ocr-一堂进步大地图]]'
-- '[[yitang-domain-digest]]'
-- '[[ocr-一堂进步大地图_compressed]]'
-- '[[framework-yitang-scientific-sales-five-step]]'
-- '[[yt-decision-y-model]]'
-- '[[tool-yitang-Y-model-application]]'
-- '[[dk-yitang-Y-model-pitfalls]]'
+- 一堂方法论体系总图
+- tool-月白-用一堂方法论找最佳实践并拉满执行
+- ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步
+- ocr-一堂进步大地图
+- yitang-domain-digest
+- ocr-一堂进步大地图_compressed
+- framework-yitang-scientific-sales-five-step
+- yt-decision-y-model
+- tool-yitang-Y-model-application
+- dk-yitang-Y-model-pitfalls
 ---
 # 一堂方法论体系：从科学做事到无限进步
 
@@ -346,3 +346,8 @@ AI 数据必修课提出「数据是给 AI 的食材」；公司 AI 转型强调
 | NPC 体系（可进可退、可复制、可培养） | 讲师口述 | 未独立验证 |
 | TCPR 四维度定义 | 课程方法论 | 已核对原文 |
 | 九层宝塔/波特五力层级 | 课程方法论 | 已核对原文 |
+
+
+## Y模型根节点连接
+
+本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。

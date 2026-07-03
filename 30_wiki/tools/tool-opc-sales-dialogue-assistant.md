@@ -20,29 +20,29 @@ source_refs:
 - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
 - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
 related:
-- '[[framework-yitang-scientific-sales-five-step]]'
-- '[[opc-ai-sales-agent-architecture]]'
-- '[[tool-agent-spec-yitang-customer-segmentation]]'
-- '[[zhu-domain-index]]'
-- '[[zhu-time-os]]'
-- '[[dk-yitang-sales-common-pitfalls]]'
-- '[[case-yitang-sales-transformation-jubensha-saas]]'
-- '[[tool-agent-spec-yitang-sales-process-tracker]]'
-- '[[tool-agent-spec-yitang-value-proposition]]'
-- '[[tool-yitang-sales-toolkit-radar]]'
-- '[[case-yitang-sales-transformation-tuliaogongsi]]'
-- '[[tool-yitang-sales-process-decomposition]]'
-- '[[tool-yitang-value-proposition-4step]]'
-- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
-- '[[tool-yitang-sales-performance-management]]'
-- '[[human-ai-collaboration-double-triangle]]'
-- '[[case-yitang-sales-transformation-meirongyuan]]'
-- '[[tool-yitang-customer-segmentation-4step]]'
-- '[[tool-agent-spec-yitang-opening-3min]]'
-- '[[tool-agent-spec-yitang-objection-handler]]'
-- '[[tool-agent-spec-yitang-self-motivation]]'
-- '[[yt-decision-y-model]]'
-- '[[tool-yitang-Y-model-application]]'
+- framework-yitang-scientific-sales-five-step
+- opc-ai-sales-agent-architecture
+- tool-agent-spec-yitang-customer-segmentation
+- zhu-domain-index
+- zhu-time-os
+- dk-yitang-sales-common-pitfalls
+- case-yitang-sales-transformation-jubensha-saas
+- tool-agent-spec-yitang-sales-process-tracker
+- tool-agent-spec-yitang-value-proposition
+- tool-yitang-sales-toolkit-radar
+- case-yitang-sales-transformation-tuliaogongsi
+- tool-yitang-sales-process-decomposition
+- tool-yitang-value-proposition-4step
+- tool-agent-spec-yitang-sales-performance-monitor
+- tool-yitang-sales-performance-management
+- human-ai-collaboration-double-triangle
+- case-yitang-sales-transformation-meirongyuan
+- tool-yitang-customer-segmentation-4step
+- tool-agent-spec-yitang-opening-3min
+- tool-agent-spec-yitang-objection-handler
+- tool-agent-spec-yitang-self-motivation
+- yt-decision-y-model
+- tool-yitang-Y-model-application
 created_at: 2026-07-02
 updated_at: '2026-07-03'
 ---
@@ -255,6 +255,11 @@ updated_at: '2026-07-03'
 - 工具箱沉淀可参考 [[tool-yitang-sales-toolkit-radar]]，把常用卖点、话术、案例库作为助手的输入资产持续迭代。
 - 常见失败模式参考 [[dk-yitang-sales-common-pitfalls]]，避免迷信话术、平均分配精力、过程黑盒等陷阱。
 - 在 OPC 个人操作系统层面，可与 [[zhu-time-os]] 的周计划机制结合，把助手输出的「本周跟进重点」写入个人任务管理。
+
+
+## Y模型根节点连接
+
+本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。
 
 ## Related
 

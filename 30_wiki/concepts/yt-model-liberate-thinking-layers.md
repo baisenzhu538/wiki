@@ -12,10 +12,10 @@ reviewed_by: 欧阳锋
 source_refs:
 - pending_archive:src_placeholder
 related:
-- '[[yt-decision-y-model]]'
-- '[[tool-yitang-Y-model-application]]'
-- '[[framework-yitang-jiefang-sixiang]]'
-- '[[dk-yitang-Y-model-pitfalls]]'
+- yt-decision-y-model
+- tool-yitang-Y-model-application
+- framework-yitang-jiefang-sixiang
+- dk-yitang-Y-model-pitfalls
 created_at: 2026-05-06
 updated_at: '2026-07-03'
 ---
@@ -113,3 +113,8 @@ updated_at: '2026-07-03'
 | 读了一堆案例和最佳实践但不知道怎么用 | 从最近读的3个案例中各提取1条"在什么条件下通用的规律"（L1→L3），写下来对照你的实际情况 | 产出≥3条从案例提取的通用规律，每条能用"当X条件成立时，Y通常有效"的格式写出，且至少1条对你当前场景有直接映射 |
 | 准备做重大决策，不确定判断依据够不够坚实 | 把支撑你判断的信息按五层分类——多少L1经验、多少L2常识、多少L3方法模型、多少L4本质理解、多少L5经典理论。如果全部在L1-L2，决策基础脆弱 | 列出决策依据的层级分布，L3及以上至少占30%才进入决策。否则推迟决策，先补方法模型层输入 |
 | 发现自己在用"新方法"但其实可能是盲目创新（L0） | 填空："这个方法和已有方法的关系是___"——是已有方法的重新组合？在特定边界下的修正？还是完全新的底层假设？答不出就是L0 | 用≤3句话描述你的方法和已有方法的继承/修正关系。找不到已有方法对标是red flag——你可能在L0 |
+
+
+## Y模型根节点连接
+
+本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。

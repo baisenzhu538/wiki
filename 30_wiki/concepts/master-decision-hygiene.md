@@ -18,19 +18,19 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-- '[[master-antifragile-checklist]]'
-- '[[framework-yitang-five-step-to-time-management]]'
-- '[[case-live81-ai-trademark-design]]'
-- '[[dk-ai-design-pitfalls]]'
-- '[[master-first-principles]]'
-- '[[master-ai-info-literacy]]'
-- '[[tool-ai-deliverable-polish-loop]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[master-knowledge-compound]]'
-- '[[master-systems-thinking]]'
-- '[[yt-decision-y-model]]'
-- '[[dk-yitang-Y-model-pitfalls]]'
-- '[[tool-yitang-Y-model-application]]'
+- master-antifragile-checklist
+- framework-yitang-five-step-to-time-management
+- case-live81-ai-trademark-design
+- dk-ai-design-pitfalls
+- master-first-principles
+- master-ai-info-literacy
+- tool-ai-deliverable-polish-loop
+- master-cognitive-bias-checklist
+- master-knowledge-compound
+- master-systems-thinking
+- yt-decision-y-model
+- dk-yitang-Y-model-pitfalls
+- tool-yitang-Y-model-application
 ---
 # 决策卫生五步法
 
@@ -302,3 +302,8 @@ Step 5 延迟直觉：
 |------|-----------|---------|
 | 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问"这个结论现在还成立吗？有没有新的反例出现？" |
 | 在无专业背景的情况下做出重大决策 | 框架是信息输入，不是决策代理 | 结合自身业务场景做二次判断 |
+
+
+## Y模型根节点连接
+
+本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。

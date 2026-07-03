@@ -17,15 +17,15 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- '[[framework-yitang-five-step-to-time-management]]'
-- '[[tool-单元模型-壁垒预判]]'
-- '[[pending_unknown]]'
-- '[[ocr-一堂-单元模型-壁垒预判]]'
-- '[[framework-yitang-scientific-sales-five-step]]'
-- '[[yt-decision-y-model]]'
-- '[[tool-yitang-Y-model-application]]'
-- '[[case-yitang-Y-model-advertising-turnaround]]'
-- '[[case-yitang-Y-model-seven-applications]]'
+- framework-yitang-five-step-to-time-management
+- tool-单元模型-壁垒预判
+- pending_unknown
+- ocr-一堂-单元模型-壁垒预判
+- framework-yitang-scientific-sales-five-step
+- yt-decision-y-model
+- tool-yitang-Y-model-application
+- case-yitang-Y-model-advertising-turnaround
+- case-yitang-Y-model-seven-applications
 diagnostic_signals:
 - framework_lens: 五步法完整地图——五步法是从需求到壁垒的完整框架
   follow_up_question: 你的需求是什么？产品内核是什么？商业模式是什么？增长策略是什么？壁垒是什么？
@@ -164,3 +164,8 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+
+
+## Y模型根节点连接
+
+本卡与 [[Y模型：一堂科学做事系统（KDO 根节点）|Y模型]] 根节点相连，属于其科学做事系统在相关域的展开。
