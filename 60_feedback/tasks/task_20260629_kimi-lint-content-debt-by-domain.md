@@ -1,7 +1,7 @@
 ---
 id: task_20260629_kimi-lint-content-debt-by-domain
 type: task
-status: paused
+status: in-progress
 assignee: workbuddy
 priority: P2
 created_at: 2026-06-29
@@ -381,3 +381,44 @@ source_refs:
 - **负责人**：workbuddy（老顽童 WorkBuddy 实例）
 - **执行方式**：后台长期分批清理，不阻塞主线队列
 - **原因**：#28 是 lint 内容债长期任务，占用队列首位导致后续任务无法推进；改为 paused 状态，由 WorkBuddy 在空闲时慢慢做
+
+## 2026-07-04 恢复处理记录（老顽童 WorkBuddy 实例）
+
+### 恢复前基线
+
+- `kdo lint` 全量：0 ERROR / **2624** WARNING（1937 accepted）
+- 所有硬性阻塞已解除（#38 index/lint 对齐 reviewed ✅；#39 design 域编码诊断 reviewed ✅）
+
+### 本轮处理
+
+- **处理 domain**：yitang
+- **处理文件数**：10 个 yitang tool 卡（均为 body 过短 + Critique 缺关键术语 + Critique 无外部攻击者）
+  - Type A（VLM 生成，3 个）：
+    - `30_wiki/tools/tool-项目背景分析.md`
+    - `30_wiki/tools/tool-需求挖掘.md`
+    - `30_wiki/tools/tool-行业分析画布.md`
+  - Type B（一堂课程 OCR，7 个）：
+    - `30_wiki/tools/tool-项目复盘基本功.md`
+    - `30_wiki/tools/tool-逐字稿练习演讲.md`
+    - `30_wiki/tools/tool-辩证讨论深化.md`
+    - `30_wiki/tools/tool-费曼学习法实践讲香课题.md`
+    - `30_wiki/tools/tool-获取他人反馈优化笔记.md`
+    - `30_wiki/tools/tool-自我反馈检验.md`
+    - `30_wiki/tools/tool-知识库团队管理.md`
+
+- **主要动作**：
+  - 为每个 tool 卡填充「目的」section：明确工具解决什么问题、适用什么场景
+  - 为每个 tool 卡填充「不要用的场景」section：3 条具体不适用场景（非模板复制）
+  - 为每个 tool 卡重写「质疑」section：包含关键术语（具体假设/边界/反例/前提）+ 外部攻击者（`**Name Surname**` 格式）
+  - 为 Type A 卡补充「操作步骤」section 的具体步骤
+  - 外部攻击者涵盖：Henry Mintzberg、Don Norman、Rita McGrath、David Garvin、Garr Reynolds、Daniel Kahneman、John Sweller、Keith Sawyer、Larry Prusak
+
+- **验证结果**：
+  - 10/10 文件 `kdo pre-submit` PASS ✅
+  - 全量 `kdo lint`：0 ERROR / **2581** WARNING（↓43，从 2624 降至 2581）
+  - 无新增 ERROR，无 frontmatter 退化
+
+### 下一轮计划
+
+- 继续 yitang 域 tool 卡清理（仍有大量 4-WARNING 文件待处理）
+- 或按欧阳锋审查意见调整方向
