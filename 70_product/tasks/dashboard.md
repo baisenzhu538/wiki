@@ -85,15 +85,16 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure | Y模型根节点化：GraphRAG rebuild + 索引维护 + pipeline 监控 | queued | 黄药师 | P1 | task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md | 王语嫣裁定：本周不做 schema 改造、不新增 lint 规则、不创建文档；只做 #51 完成后的 kdo index --rebuild，验证 yt-decision-y-model 成为查询中心，并用 kdo pipeline 监控 Agent 反馈信号 |
 | task_20260703_laowantong-case-backfill-wobeirushen-time-management | 案例卡补挖：吾辈如神 + 时间管理域缺失 companion case（4-6 张） | queued | 老顽童(Kimi) | P2 | task_20260703_laowantong-case-backfill-wobeirushen-time-management.md | 王语嫣复盘发现 #40/#41 未提炼 companion case；用户反馈案例卡应更多；本任务从已有素材补挖 4-6 张 case 卡；P2 backfill，不阻塞已有任务 |
 | task_20260703_wangyuyan-retroactive-case-scan-pilot | 已消化素材案例卡补扫试点：科学决策 / 泛产品设计 / 战略 | queued | 老顽童(Kimi) | P2 | task_20260703_wangyuyan-retroactive-case-scan-pilot.md | 王语嫣独立判断：做但不全量；先试点 3 个高优先级域；不与 #42 合并；排除已由 #53 覆盖的时间管理/吾辈如神；只扫描标记候选，不直接产完整 case 卡 |
+| task_20260703_laowantong-yitang-Y-model-os | Y模型 OS：所有 Agent 的共享底层 prompt + 可选 Coach 模式 | queued | 老顽童(Kimi) | P1 | task_20260703_laowantong-agent-spec-yitang-Y-model-coach.md | 黄药师提出正确 Agent 分层：Y模型+实事求是+解放思想是所有 Agent 共享底层 OS；本任务把 OS 写成可复用 prompt 片段，所有 agent-spec 默认加载；Coach 模式只作为可选入口，不替代域 Agent |
 
 ---
 
 ## Summary
 
-- **Total**: 45
+- **Total**: 46
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 12（详见 `production-queue.md` #38-#54 等）
+- **Queued**: 13（详见 `production-queue.md` #38-#55 等）
 - **Long-term / Paused**: 1（#28 lint 内容债，待拆批，不直接领取）
 - **Pending**: 2（含 Hermes lint Batch 1 待欧阳锋抽检）
 - **Review Done**: 14 (#50 reviewed)
@@ -120,6 +121,8 @@ Generated: 2026-06-26T21:00:00+00:00
 > **🆕 新增 #53**：案例卡补挖任务；王语嫣复盘发现 #40《吾辈如神》和 #41 时间管理域升级只产出 concept/tool/dk/framework 卡，未提炼 companion case；用户反馈案例卡应更多；本任务从已有素材补挖 4-6 张 case 卡，为 #40/#41 提供事实臂锚点；P2 backfill，不阻塞已有任务封账。
 >
 > **🆕 新增 #54**：已消化素材案例卡补扫试点；黄药师建议全量补扫 8 批素材，王语嫣独立判断后改为只试点 3 个高优先级域（科学决策 / 泛产品设计 / 战略）；不与 #42 暗知识补挖合并；排除已由 #53 覆盖的时间管理/吾辈如神；只扫描标记候选，不直接产完整 case 卡。
+>
+> **🆕 新增 #55**：Y模型 OS；黄药师提出正确 Agent 分层：Y模型+实事求是+解放思想是所有 Agent 共享底层 OS，不是独立元 Agent；本任务把 OS 写成可复用 prompt 片段，所有 agent-spec 默认加载；域层按需建设，用户层持续迭代；Coach 模式只作为可选入口，不替代域 Agent；依赖 #51 终审通过。
 
 ---
 

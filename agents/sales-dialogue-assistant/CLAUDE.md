@@ -4,6 +4,10 @@
 
 ## 启动
 
+**先读共享 OS**：Read `C:\Users\Administrator\Desktop\wiki\agents\agent-os.md`
+
+然后读你的完整工作手册：
+
 每次启动，先读你的完整工作手册：
 
 Read `C:\Users\Administrator\Desktop\wiki\30_wiki\tools\tool-opc-sales-dialogue-assistant.md`
