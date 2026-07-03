@@ -25,6 +25,7 @@ related:
 - '[[pending_unknown]]'
 - tool-strategy-five-see-three-set
 - yt-business-model-canvas
+- case-strategy-exit-remove
 ---
 # 业务设计六要素×三步骤
 

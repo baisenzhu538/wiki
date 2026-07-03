@@ -22,6 +22,8 @@ related:
 - '[[pending_unknown]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- case-decision-science-universal-salary-raise-roi
+- case-panproduct-top135-selection-polish
 updated_at: '2026-06-29'
 ---
 # 落地卡片：ROI分析

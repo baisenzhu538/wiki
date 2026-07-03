@@ -1,0 +1,66 @@
+---
+id: case-decision-science-lunch-break-compression
+title: 案例：把2小时休息压缩为1小时的ROI决策
+type: case
+status: enriched
+domain:
+- decision-science
+- yitang
+author: 老顽童
+reviewed_by: pending
+confidence: 0.8
+trust_level: medium
+language: zh-CN
+created_at: '2026-06-29'
+updated_at: '2026-06-29'
+source_refs:
+- 00_inbox/科学决策/一堂-科学决策-ROI决策深度实操课口述03.txt
+related:
+- '[[framework-yitang-five-step-to-time-management]]'
+- '[[dk-time-management-common-mistakes]]'
+- '[[case-gym-membership-formula]]'
+---
+# 案例：把2小时休息压缩为1小时的ROI决策
+
+> 来源：`00_inbox/科学决策/一堂-科学决策-ROI决策深度实操课口述03.txt`
+
+## 背景
+
+- 一堂 ROI 决策深度实操课中的一个微决策场景：是否可以把员工正常的 2 小时休息压缩为 1 小时，甚至让 1 小时休息边吃饭边聊业务。
+- 表面看是「压榨时间」，实质是时间管理的 ROI 评估：休息带来的恢复收益 vs 工作时长增加的机会收益。
+
+## 决策与行动
+
+- 决策者尝试把休息恢复、员工疲劳、长期健康、团队士气等变量都纳入 ROI 框架，估算「省下的 1 小时」能否创造超过「恢复损失」的价值。
+- 同时考虑替代方案：不是简单压缩休息，而是把部分低效会议、冗余流程砍掉，释放真正的高效时间。
+
+## 结果
+
+- 案例本身没有给出绝对结论，而是展示了「把日常管理动作放进 ROI 框架」的思维方式。
+- 学员得到的最大收获是：任何「感觉应该这样做」的管理习惯，都可以被重新评估其真实投入产出。
+
+## 可迁移洞察
+
+- **关键洞察 1：时间管理的终极问题是「单位时间的真实产出」**。不是工时越长越好，而是有效决策和高质量动作的比重是否提升。
+- **关键洞察 2：压缩休息的隐性成本是疲劳累积和创造力下降**。短期可能增加产出，长期可能提高错误率和流失率。
+- **关键洞察 3：ROI 思维的价值在于暴露「理所当然」的浪费**。一旦开始估算，很多管理动作就会从「必须做」变成「值得重新评估」。
+
+## Critique
+
+### 内部局限
+
+- 案例偏理念展示，缺少真实企业的执行数据（如压缩休息前后的产出、离职率、错误率）。
+- 把人的恢复需求完全量化存在伦理和操作难度，容易滑向过度理性化。
+
+### 外部攻击者
+
+- Arianna Huffington：睡眠和休息不是效率的敌人，而是可持续高绩效的基础；压缩休息是短视。
+- Daniel Pink：认知型工作的产出与精力状态高度相关，简单延长工时往往降低单位产出质量。
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|:---|:---|:---|
+| 锚定 | [[framework-yitang-five-step-to-time-management]] | 本案例用于说明该方法论/工具的真实应用场景 |
+| 锚定 | [[dk-time-management-common-mistakes]] | 本案例用于说明该方法论/工具的真实应用场景 |
+| 锚定 | [[case-gym-membership-formula]] | 本案例用于说明该方法论/工具的真实应用场景 |

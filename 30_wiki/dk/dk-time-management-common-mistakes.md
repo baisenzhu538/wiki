@@ -1,38 +1,36 @@
 ---
-
 id: dk-time-management-common-mistakes
 title: 时间管理三大反模式：工具迷信、二极管思维、边界模糊
 type: dark-knowledge
 dark_knowledge_type: pattern
 status: enriched
 domain:
-  - personal-growth
-  - yitang
+- personal-growth
+- yitang
 confidence: 0.85
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-07-01'
 created_at: '2026-07-01'
-updated_at: '2026-07-01'
+updated_at: '2026-06-29'
 source_refs:
-  - 00_inbox/时间管理/truman-时间管理课程-口述.txt
-  - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
-  - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
-  - 00_inbox/时间管理/_processed/vlm_summary.json
-  - 00_inbox/时间管理/时间管理-双环矩阵图.png
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt
+- 00_inbox/时间管理/truman-时间管理课程-笔记.txt
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+- 00_inbox/时间管理/_processed/vlm_summary.json
+- 00_inbox/时间管理/时间管理-双环矩阵图.png
 related:
-  - "[[framework-yitang-five-step-to-time-management]]"
-  - "[[tool-personal-time-audit-loop]]"
-  - "[[master-cognitive-bias-checklist]]"
-  - "[[yt-personal-time-management]]"
-  - "[[yt-personal-knowledge-management]]"
-  - "[[master-decision-hygiene]]"
-  - "[[case-truman-time-management-commute-experiment]]"
-  - "[[case-yitang-copywriting-time-decomposition]]"
-
+- '[[framework-yitang-five-step-to-time-management]]'
+- '[[tool-personal-time-audit-loop]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[yt-personal-time-management]]'
+- '[[yt-personal-knowledge-management]]'
+- '[[master-decision-hygiene]]'
+- '[[case-truman-time-management-commute-experiment]]'
+- '[[case-yitang-copywriting-time-decomposition]]'
+- case-decision-science-lunch-break-compression
 ---
-
 # 时间管理三大反模式：工具迷信、二极管思维、边界模糊
 
 > **一句话**：时间管理失败往往不是工具问题，而是用一堂方法论反打这三个陷阱——先建模再选工具、灰度精进迭代、明确课程边界。

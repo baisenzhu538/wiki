@@ -1,5 +1,4 @@
 ---
-
 id: framework-decision-quality-checklist
 title: 决策质量六问检查表
 type: framework
@@ -8,13 +7,13 @@ domain:
 - yitang
 status: reviewed
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
+- cited
+- insight
+- principle
+- quality
+- validated
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
@@ -23,19 +22,19 @@ trust_level: high
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - "[[yt-decision-abcd-model]]"
-  - "[[framework-科学决策三角形]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[case-科学决策-深度案例01]]"
-  - "[[case-科学决策-深度案例05]]"
-  - "[[dk-决策经验值]]"
-  - "[[master-decision-hygiene]]"
-  - "[[concept-发现决策]]"
-  - "[[framework-decision-cognitive-bias-map]]"
-  - "[[framework-lean-false-model]]"
-  - "[[concept-AI时代双三角竞争力]]"
+- '[[yt-decision-abcd-model]]'
+- '[[framework-科学决策三角形]]'
+- '[[tool-ROI决策评估画布]]'
+- '[[case-科学决策-深度案例01]]'
+- '[[case-科学决策-深度案例05]]'
+- '[[dk-决策经验值]]'
+- '[[master-decision-hygiene]]'
+- '[[concept-发现决策]]'
+- '[[framework-decision-cognitive-bias-map]]'
+- '[[framework-lean-false-model]]'
+- '[[concept-AI时代双三角竞争力]]'
+- case-decision-science-universal-salary-raise-roi
 ---
-
 # 决策质量六问检查表
 
 > **Burn line**: 一个决策做出前，必须回答六个问题。不是「能不能做」，而是「应不应该做、值不值得做、有没有更好的做法」。

@@ -1,5 +1,4 @@
 ---
-
 id: tool-ai-deliverable-polish-loop
 title: AI 交付物打磨循环：从模糊需求到 60 分可用版本
 type: tool
@@ -21,27 +20,26 @@ source_refs:
 - 00_inbox/yitang-AI club/live81/AI赋能商标设计体系重构 — Live81逐字稿 副本.md
 - 60_feedback/diagnosis/diag_20260702_live81-ai-trademark-design.md
 related:
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[case-bmw-human-ai-collaboration-idle-time]]"
-  - "[[case-ai-writing-homogenization]]"
-  - "[[tool-scene-design-language-translation]]"
-  - "[[dk-ai-design-pitfalls]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[human-ai-collaboration-double-triangle]]"
-  - "[[concept-AI时代双三角竞争力]]"
-  - "[[concept-cognitive-offloading-in-ai-era]]"
-  - "[[tool-ai-use-barbell-strategy]]"
-  - "[[tool-纪浩-项目启动五问法]]"
-  - "[[tool-一堂-product-kernel-canvas]]"
-  - "[[yt-panproduct-aesthetic-pool]]"
-  - "[[yt-panproduct-aesthetic-modeling]]"
-  - "[[tool-月白-AI模型选择策略]]"
-  - "[[tool-多模型对比抽卡]]"
+- '[[case-live81-ai-trademark-design]]'
+- '[[case-bmw-human-ai-collaboration-idle-time]]'
+- '[[case-ai-writing-homogenization]]'
+- '[[tool-scene-design-language-translation]]'
+- '[[dk-ai-design-pitfalls]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[human-ai-collaboration-double-triangle]]'
+- '[[concept-AI时代双三角竞争力]]'
+- '[[concept-cognitive-offloading-in-ai-era]]'
+- '[[tool-ai-use-barbell-strategy]]'
+- '[[tool-纪浩-项目启动五问法]]'
+- '[[tool-一堂-product-kernel-canvas]]'
+- '[[yt-panproduct-aesthetic-pool]]'
+- '[[yt-panproduct-aesthetic-modeling]]'
+- '[[tool-月白-AI模型选择策略]]'
+- '[[tool-多模型对比抽卡]]'
+- case-panproduct-top135-selection-polish
 created_at: 2026-07-02
-updated_at: '2026-07-02'
-
+updated_at: '2026-06-29'
 ---
-
 # AI 交付物打磨循环：从模糊需求到 60 分可用版本
 
 > 把任何「需求模糊、资源有限、时间紧」的 AI 交付任务，从一次随机的生成尝试，变成一套有框架、有判断、有迭代的打磨工作流。

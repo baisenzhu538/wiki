@@ -18,8 +18,9 @@ related:
 - strategy-domain-digest
 - tool-月白-A-B双轨反推模式选择
 - tool-快招品牌总部模拟调研
+- case-strategy-exit-sell
+- case-strategy-exit-remove
 ---
-
 **背景**：M品牌（示例中的零食/零售品牌）在"盈利模式"模块中，用多列对比表展示直营、强类直营、弱类直营、代理加盟四种扩张模式。
 
 **四种模式核心差异**：

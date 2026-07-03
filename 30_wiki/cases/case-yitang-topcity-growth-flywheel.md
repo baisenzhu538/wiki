@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-topcity-growth-flywheel
 type: case
 title: 案例：Top City 如何用六大要素搭建内容-商户双端飞轮
@@ -14,10 +13,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 quality_labels:
-  - actionable
-  - cited
-  - validated
-updated_at: '2026-06-28'
+- actionable
+- cited
+- validated
+updated_at: '2026-06-29'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-案例-top city.png
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-案例-top city_vlm_desc.md
@@ -25,17 +24,16 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt
 source_person: Truman
 related:
-- "[[framework-yitang-growth-flywheel]]"
-- "[[case-yitang-amazon-growth-flywheel]]"
-- "[[case-yitang-novel-app-flywheel]]"
-- "[[tool-yitang-growth-flywheel-design]]"
-- "[[framework-yitang-channel-exploration-4step]]"
-- "[[framework-yitang-channel-unit-economics]]"
-- "[[concept-yitang-channel-lean-validation-bridge]]"
+- '[[framework-yitang-growth-flywheel]]'
+- '[[case-yitang-amazon-growth-flywheel]]'
+- '[[case-yitang-novel-app-flywheel]]'
+- '[[tool-yitang-growth-flywheel-design]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[concept-yitang-channel-lean-validation-bridge]]'
+- case-decision-science-topcity-negative-revenue-rank
 review_date: '2026-06-28'
 ---
-
-
 # 案例：Top City 如何用六大要素搭建内容-商户双端飞轮
 
 ## 一句话

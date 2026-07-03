@@ -29,6 +29,7 @@ related:
 - '[[tool-yitang-value-proposition-4step]]'
 - '[[framework-yitang-scientific-sales-five-step]]'
 - tool-yitang-research-single-point-sniper
+- case-panproduct-yitao-project-background
 ---
 # 价值主张设计工具：三问 + 六维排序法
 

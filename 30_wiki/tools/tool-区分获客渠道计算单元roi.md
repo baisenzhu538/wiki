@@ -32,6 +32,7 @@ related:
 - '[[tool-将未中标成本纳入循环计算真实投标成本]]'
 - '[[tool-费曼学习法三句话提炼]]'
 - tool-ai-prd-for-ai
+- case-decision-science-topcity-negative-revenue-rank
 ---
 # 技能：区分获客渠道计算单元ROI
 

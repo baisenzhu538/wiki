@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-growth-channel-roi
@@ -13,25 +12,26 @@ source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
 created_at: '2026-06-20'
-updated_at: '2026-06-28'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[ocr-一堂-科学决策-roi决策评估画布]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例02]]"
-  - "[[yt-panproduct-execution-roi-analysis]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例01]]"
-  - "[[ocr-泛产品设计-落地卡片-roi分析]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例04]]"
-  - "[[case-科学决策-ROI案例02]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[case-truman-poker-deck-roi]]"
-  - "[[tool-泛产品落地-ROI分析]]"
-  - "[[ocr-一堂-科学决策-roi高阶训练全景图]]"
-  - "[[tool-马易-AIGC项目ROI评估]]"
-  - "[[dk-decision-value-overrides-roi]]"
+- '[[ocr-一堂-科学决策-roi决策评估画布]]'
+- '[[tool-ROI决策评估画布]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+- '[[yt-panproduct-execution-roi-analysis]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
+- '[[ocr-泛产品设计-落地卡片-roi分析]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
+- '[[case-科学决策-ROI案例02]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[case-truman-poker-deck-roi]]'
+- '[[tool-泛产品落地-ROI分析]]'
+- '[[ocr-一堂-科学决策-roi高阶训练全景图]]'
+- '[[tool-马易-AIGC项目ROI评估]]'
+- '[[dk-decision-value-overrides-roi]]'
+- case-panproduct-top135-selection-polish
 diagnostic_signals:
 - framework_lens: 渠道ROI评估——需要建立渠道归因模型，明确每个渠道的贡献
   follow_up_question: 你的渠道归因模型是什么？最后点击、首次点击、还是多触点归因？
@@ -43,9 +43,7 @@ diagnostic_signals:
   follow_up_question: 你的渠道集中度是多少？是否有计划拓展新渠道？
 - framework_lens: 渠道ROI评估——渠道成本上升需要优化或寻找替代渠道
   follow_up_question: 成本上升是因为竞争加剧还是渠道本身效率下降？有没有替代渠道？
-
 ---
-
 # 渠道ROI评估与优化
 
 > 一堂五步法：渠道ROI不是CAC越低越好，而是LTV/CAC越高越好。渠道优化 = 增量预算给ROI高的渠道。

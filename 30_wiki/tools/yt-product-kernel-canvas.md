@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-product-kernel-canvas
@@ -14,24 +13,25 @@ source_refs:
 - 10_raw/sources/src_20260522_dc5c80df-ocr-一堂五步法-产品内核画布.md
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 created_at: '2026-06-19'
-updated_at: '2026-06-28'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[ocr-一堂-科学决策-roi决策评估画布]]"
-  - "[[tool-月白-设计师AI工具习惯切换]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[tool-泛产品设计-需求工具箱指南]]"
-  - "[[tool-Truman-AI工具选型决策]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例02]]"
-  - "[[ocr-泛产品设计-需求工具箱指南]]"
-  - "[[ocr-一堂五步法画布]]"
-  - "[[tool-清单小抄工具箱法]]"
-  - "[[ocr-泛产品设计-审美工具箱指南]]"
-  - "[[tool-提问刻意练习画布]]"
-  - "[[ocr-一堂-个人修炼-提问刻意练习画布]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例01]]"
+- '[[ocr-一堂-科学决策-roi决策评估画布]]'
+- '[[tool-月白-设计师AI工具习惯切换]]'
+- '[[tool-ROI决策评估画布]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[tool-Truman-AI工具选型决策]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+- '[[ocr-泛产品设计-需求工具箱指南]]'
+- '[[ocr-一堂五步法画布]]'
+- '[[tool-清单小抄工具箱法]]'
+- '[[ocr-泛产品设计-审美工具箱指南]]'
+- '[[tool-提问刻意练习画布]]'
+- '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
+- case-panproduct-yitao-project-background
 diagnostic_signals:
 - framework_lens: 产品内核画布——结构化工具帮助对齐认知
   follow_up_question: 你们团队一起填过产品内核画布吗？每个格子的答案一致吗？
@@ -43,9 +43,7 @@ diagnostic_signals:
   follow_up_question: 你们上次迭代是基于画布的哪个格子发现的问题？
 - framework_lens: 产品内核画布——画布输出就是价值描述
   follow_up_question: 你能用画布中的'一句话价值描述'向客户介绍产品吗？
-
 ---
-
 # 产品内核画布：从问题到解决方案的结构化工具
 
 > 一堂五步法：产品内核画布是把"用户问题→解决方案→验证指标"结构化的工具，帮助团队对齐认知、指导迭代。

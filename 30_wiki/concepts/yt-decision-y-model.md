@@ -33,8 +33,11 @@ related:
 - case-yitang-Y-model-advertising-turnaround
 - case-yitang-Y-model-seven-applications
 - agent-native-card-design
+- case-decision-science-universal-salary-raise-roi
+- case-decision-science-topcity-negative-revenue-rank
+- case-strategy-exit-sell
 created_at: 2026-07-03
-updated_at: '2026-07-03'
+updated_at: '2026-06-29'
 ---
 # Y模型：一堂科学做事系统（KDO 根节点）
 
