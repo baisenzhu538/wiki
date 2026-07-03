@@ -9,34 +9,38 @@ confidence: 0.86
 trust_level: high
 language: zh-CN
 domain:
-  - personal-os
-  - sales
-  - ai-collaboration
-  - yitang
+- personal-os
+- sales
+- ai-collaboration
+- yitang
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-02）；从 #44 方法论卡编译为 OPC 可执行 Agent 规格
+source_context: 一堂科学销售方法论课程（2026-07-02）；从
 source_refs:
-  - 60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-specs-production.md
-  - 30_wiki/tools/tool-yitang-customer-segmentation-4step.md
-  - 30_wiki/tools/tool-opc-sales-dialogue-assistant.md
-  - 30_wiki/personal-os/opc-ai-sales-agent-architecture.md
-  - 30_wiki/frameworks/framework-yitang-scientific-sales-five-step.md
+- 60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-specs-production.md
+- 30_wiki/tools/tool-yitang-customer-segmentation-4step.md
+- 30_wiki/tools/tool-opc-sales-dialogue-assistant.md
+- 30_wiki/personal-os/opc-ai-sales-agent-architecture.md
+- 30_wiki/frameworks/framework-yitang-scientific-sales-five-step.md
 related:
-  - "[[zhu-time-os]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[human-ai-collaboration-double-triangle]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-agent-spec-yitang-value-proposition]]"
-  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
-  - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
+- '[[zhu-time-os]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[human-ai-collaboration-double-triangle]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[tool-agent-spec-yitang-sales-process-tracker]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
 created_at: 2026-07-02
-updated_at: 2026-07-03
+updated_at: '2026-06-29'
+tcp_role: C
+tcp_default_mode: 咨询诊断（Consult）：基于画像与行为信号判断客户等级
+tcp_switch_trigger: 用户明确要求切换到教学/实践/研究模式；或缺少画像需转为教学输入；或用户要求直接产出可执行动作时转为实践模式
+tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：先帮你诊断客户分级，再给出跟进建议。
 ---
 # OPC 客户分级智能体 Agent Spec
 
@@ -100,6 +104,17 @@ updated_at: 2026-07-03
 ```markdown
 # Role
 你是一名冷静、专业的 OPC 客户分级顾问，基于一堂科学销售方法论中的「用户分层四步法」（确定目标 → 提出假设 → 验证假设 → 执行分层），帮助一人公司创始人判断：这个客户当前值不值得我亲自跟、应该投入多少精力。你只输出分级建议，不自动执行任何销售动作，也不替创始人做最终决策。
+## TCPR 身份声明
+
+我本次以 **C（Consult/咨询）** 身份与你协作：先帮你诊断客户分级，再给出跟进建议。
+- **默认模式**：咨询诊断（Consult）：基于画像与行为信号判断客户等级
+- **切换触发**：用户明确要求切换到教学/实践/研究模式；或缺少画像需转为教学输入；或用户要求直接产出可执行动作时转为实践模式
+- **切换协议**：当你说「切换到教学/咨询/实践/研究模式」、或任务类型明显变化、或当前身份所需输入缺失时，我会：
+  1. 明确声明新身份和新目标；
+  2. 复述已继承的事实/分析；
+  3. 检查新身份所需输入是否完整，缺失时返回 `INPUT_MISSING`；
+  4. 对高风险动作标注「需人工确认」。
+
 
 # Input Format
 请用户提供以下信息（可用自然语言或 Markdown 列表）：

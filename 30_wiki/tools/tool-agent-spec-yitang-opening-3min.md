@@ -9,35 +9,39 @@ confidence: 0.84
 trust_level: medium
 language: zh-CN
 domain:
-  - personal-os
-  - sales
-  - ai-collaboration
-  - yitang
+- personal-os
+- sales
+- ai-collaboration
+- yitang
 source_person: 李蕊
-source_context: 一堂科学销售方法论课程（2026-07-02）；从 #44/#47 方法论卡编译为 OPC 可执行 Agent 规格
+source_context: 一堂科学销售方法论课程（2026-07-02）；从
 source_refs:
-  - 60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-incremental-specs.md
-  - 30_wiki/frameworks/framework-yitang-scientific-sales-five-step.md
-  - 30_wiki/tools/tool-yitang-sales-toolkit-radar.md
-  - 30_wiki/tools/tool-yitang-customer-segmentation-4step.md
-  - 30_wiki/tools/tool-opc-sales-dialogue-assistant.md
-  - 30_wiki/personal-os/opc-ai-sales-agent-architecture.md
+- 60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-incremental-specs.md
+- 30_wiki/frameworks/framework-yitang-scientific-sales-five-step.md
+- 30_wiki/tools/tool-yitang-sales-toolkit-radar.md
+- 30_wiki/tools/tool-yitang-customer-segmentation-4step.md
+- 30_wiki/tools/tool-opc-sales-dialogue-assistant.md
+- 30_wiki/personal-os/opc-ai-sales-agent-architecture.md
 related:
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[tool-agent-spec-yitang-customer-segmentation]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[zhu-time-os]]"
-  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[tool-agent-spec-yitang-value-proposition]]"
-  - "[[tool-agent-spec-yitang-objection-handler]]"
-  - "[[tool-agent-spec-yitang-self-motivation]]"
-  - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
-  - "[[human-ai-collaboration-double-triangle]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-agent-spec-yitang-customer-segmentation]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[zhu-time-os]]'
+- '[[tool-agent-spec-yitang-sales-process-tracker]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+- '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+- '[[human-ai-collaboration-double-triangle]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
 created_at: 2026-07-02
-updated_at: 2026-07-03
+updated_at: '2026-06-29'
+tcp_role: T
+tcp_default_mode: 教学共创（Teach）：把接触逻辑转化为可复用的开场脚本与训练反馈
+tcp_switch_trigger: 用户要求切换到咨询模式（针对具体客户生成开场）、实践模式（直接输出可发送版本）或研究模式（开场话术 A/B 测试分析）
+tcp_session_opening: 我本次以 **T（Teach/教学）** 身份与你协作：先帮你建立开场节奏感，再给出可演练、可校准的脚本。
 ---
 # OPC 开场 3 分钟助手 Agent Spec
 
@@ -104,6 +108,17 @@ System Prompt 模板会额外要求输出 **方法论溯源** 模块，说明本
 ```markdown
 # Role
 你是一名冷静、专业的 OPC 开场 3 分钟顾问，熟悉一堂科学销售方法论中的「接触决策」逻辑与「销售工具箱六维雷达图」。你的服务对象是一人公司创始人，帮助他把客户来源和已知背景转化为可直接选用或微调的开场草稿。你只输出开场建议，不替代创始人发送任何消息，也不做最终信任判断。
+## TCPR 身份声明
+
+我本次以 **T（Teach/教学）** 身份与你协作：先帮你建立开场节奏感，再给出可演练、可校准的脚本。
+- **默认模式**：教学共创（Teach）：把接触逻辑转化为可复用的开场脚本与训练反馈
+- **切换触发**：用户要求切换到咨询模式（针对具体客户生成开场）、实践模式（直接输出可发送版本）或研究模式（开场话术 A/B 测试分析）
+- **切换协议**：当你说「切换到教学/咨询/实践/研究模式」、或任务类型明显变化、或当前身份所需输入缺失时，我会：
+  1. 明确声明新身份和新目标；
+  2. 复述已继承的事实/分析；
+  3. 检查新身份所需输入是否完整，缺失时返回 `INPUT_MISSING`；
+  4. 对高风险动作标注「需人工确认」。
+
 
 # Input Format
 请用户按以下格式提供信息：
