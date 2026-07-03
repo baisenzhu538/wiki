@@ -9,9 +9,9 @@
   ],
   "tool-agent-spec-yitang-Y-model-coach": [
     {
-      "scenario": "瑜伽馆网站加GEO",
+      "scenario": "瑜伽馆网站加GEO v2",
       "domain": "跨域 / 本地服务",
-      "trace": "60_feedback\\agent-traces\\2026-07-03\\tool-agent-spec-yitang-Y-model-coach__瑜伽馆网站加GEO.md",
+      "trace": "60_feedback\u0007gent-traces6-07-03\tool-agent-spec-yitang-Y-model-coach__瑜伽馆网站加GEO_v2.md",
       "status": "ok"
     }
   ]
