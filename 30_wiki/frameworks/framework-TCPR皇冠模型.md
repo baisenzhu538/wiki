@@ -168,12 +168,12 @@ TCP-R 皇冠模型不仅用于训练人类，也用于指导 Agent 的**运行�
 | 关系 | 目标节点 | 说明 |
 |:---|:---|:---|
 | 高阶训练版本 | [[framework-TCPR底层网络协议]] | 底层协议回答「是什么」，本卡回答「怎么练」 |
-| 运行时协议来源 | [[agents/agent-os]] | 为身份切换协议提供训练层级依据 |
+| 运行时协议来源 | [[agent-os]] | 为身份切换协议提供训练层级依据 |
 | 设计规范 | [[agent-native-card-design]] | `agent-spec` 卡的 `tcp_role` 字段与 System Prompt 结构 |
 | 思考底座 | [[system-yitang-Y-model-os]] | TCPR 决定「以什么身份协作」，Y模型决定「怎么结构化思考」 |
 | 应用示例 | [[tool-agent-spec-yitang-customer-segmentation]]、[[tool-agent-spec-yitang-sales-performance-monitor]] | 7 张 OPC 销售 agent-spec 已按本卡训练层级映射身份 |
 
 - 本卡是 [[framework-TCPR底层网络协议]] 的高阶训练版本，回答「怎么练」而不是「是什么」。
-- 本卡为 [[agents/agent-os]] 的身份切换协议提供训练层级依据：切换后应激活新身份的 L1 能力。
+- 本卡为 [[agent-os]] 的身份切换协议提供训练层级依据：切换后应激活新身份的 L1 能力。
 - 所有 `agent-spec` 卡的 `tcp_role` 字段可对照本卡的 6 项训练层级设计 System Prompt 行为。
 - 与 [[system-yitang-Y-model-os]] 叠加使用：TCPR 决定「以什么身份协作」，Y模型决定「怎么结构化思考」。
