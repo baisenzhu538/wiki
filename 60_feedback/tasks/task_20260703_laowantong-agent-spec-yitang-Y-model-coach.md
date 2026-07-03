@@ -2,13 +2,13 @@
 id: task_20260703_laowantong-yitang-Y-model-os
 title: Y模型 OS：所有 Agent 的共享底层 prompt + 可选 Coach 模式
 type: task
-status: in_progress
+status: pending_review
 priority: P1
 assignee: kimi
 reviewer: 欧阳锋
 reviewed_by: pending
 created_at: 2026-07-03
-updated_at: '2026-07-03T15:23:15.324117+00:00'
+updated_at: '2026-07-03T16:39:32.913483+00:00'
 expected_outputs:
 - 1 张 system 卡：system-yitang-Y-model-os.md（共享底层 prompt 片段）
 - agent-native-card-design.md 更新：所有 agent-spec 卡必须包含 Y模型 OS 层

@@ -196,7 +196,7 @@ def action_complete(task_id: str, instance: str, evidence: str | None) -> tuple[
     if task["status"] != expected:
         return False, f"任务 {task_id} 状态为 {task['status']}，不是由 {instance} 领取的 {expected}"
 
-    task_file = find_task_file(task_id)
+    task_file = find_task_file(task_id) or find_task_file_by_frontmatter_id(task_id)
     if task_file is None:
         return False, f"找不到任务单文件: {task_id}"
 
