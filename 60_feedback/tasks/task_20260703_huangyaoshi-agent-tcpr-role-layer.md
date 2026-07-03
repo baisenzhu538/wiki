@@ -7,6 +7,7 @@ priority: P1
 assignee: 老顽童(Kimi)
 co_architect: 黄药师
 reviewer: 欧阳锋
+reviewed_by: pending
 created_at: 2026-07-01
 updated_at: 2026-07-01
 source_context: 用户提出 TCPR 应作为 Agent 身份协议，防止 Agent 军团协作混乱
@@ -108,10 +109,17 @@ TCP-R（教学 Teach / 咨询 Consult / 实践 Practice / 研究 Research）原�
 - `#50` OPC 销售智能体实测 Wave 1（reviewed）：已有 7 张 agent-spec 卡，是 retrofit 的对象。
 - `#55` Y模型 OS（queued）：本任务可与 #55 并行设计，最终需与其对齐，避免 OS 层与 TCPR 层冲突。
 
+## 负责人调整
+
+- **主执行人**：老顽童(Kimi)
+- **架构对齐**：黄药师（co_architect）
+- 黄药师专注 #59 Agent Prompt 编译器，#58 的具体卡片改造由老顽童执行；涉及 `agents/agent-os.md` 和 `agent-native-card-design.md` 的架构变更需黄药师评审。
+
 ## 用户决策
 
 - **单列执行**：本任务不与 #55 Y模型 OS 合并，保持独立任务单，避免执行中回退和任务混乱。
 - **入队方式**：以后新任务按顺序追加到队列末尾，不随意插队或合并。
+- **队列顺序**：#59 按队列规则等待 #55 终审及前面 queued 任务清空后，再由黄药师领取。
 
 ## 备注
 

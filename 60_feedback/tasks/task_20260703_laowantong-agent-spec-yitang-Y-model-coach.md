@@ -157,3 +157,53 @@ Y模型 OS（怎么思考）        ← 所有 Agent 共享，建一次
 ---
 
 *王语嫣 2026-07-03*
+
+---
+
+## 欧阳锋终审结论（2026-06-29）
+
+**终审通过。**
+
+### 复核结果
+
+| 验收项 | 状态 | 复核说明 |
+|---|---|---|
+| `system-yitang-Y-model-os.md` | ✅ 通过 | 含角色声明、协作原则、反幻觉规则、解放思想规则、知行合一规则、个人域加载规则 |
+| `agent-native-card-design.md` 更新 | ✅ 通过 | 新增「Agent Prompt 三层结构」章节：OS 层 / 域层 / 用户层 |
+| `tool-agent-spec-yitang-Y-model-coach.md` | ✅ 通过 | 定位为可选 Coach 模式，非调度器；含触发条件、输入门、输出格式、边界、Anti-patterns、Critique、Synthesis |
+| `tool-opc-sales-dialogue-assistant.md` 集成示例 | ✅ 通过 | System Prompt 顶部显式加载 `{{system-yitang-Y-model-os.md}}` |
+| 真实模型测试 | ✅ 完成 | 销售场景（智能药柜多轮推进）+ 跨域场景（瑜伽馆网站+GEO）均输出置信度、风险提示、可执行下一步 |
+| 自攻击报告 | ✅ 通过 | 0 致命；已修复 Coach 示例缺少风险提示问题；status 已更新为 reviewed |
+| kdo lint 目标范围 | ✅ PASS / 0 ERROR | 全库 lint 0 ERROR |
+| kdo pre-submit 6 文件 | ✅ PASS / 6/6 | 5 个产出文件 + 任务单 |
+| 图中心性（关联） | ✅ 未退化 | `yt-decision-y-model` 仍保持 degree 100 / top 0.24% |
+
+### 审查中发现的问题
+
+1. **queue_transition.py 无法按 frontmatter id 找到任务单文件**
+   - `review` 命令使用任务 id `task_20260703_laowantong-yitang-Y-model-os`，但实际文件名是 `task_20260703_laowantong-agent-spec-yitang-Y-model-coach.md`。
+   - 提示找不到任务单文件，本次终审改为手动更新任务单状态和生产队列。
+   - 已记录到本结论中，建议黄药师把 `find_task_file_by_frontmatter_id` 修复同步到 `review` 分支。
+
+### 关键设计判断
+
+- **Agent 分层清晰**：OS 层回答「怎么思考」，域层回答「思考什么」，用户层回答「跟谁协作」，解决了此前「Y模型教练是否应成为独立元 Agent」的摇摆。
+- **Coach 模式定位正确**：不是调度器，而是所有域 Agent 的可选入口；只在用户问题跨域/无明确域归属时触发。
+- **OPC 销售对话助手集成示例可用**：System Prompt 顶部加载 OS 层后，输出中出现「判断置信度：中高」「法律风险提醒」「若周四面谈后仍不推进」等 OS 层规则显式体现。
+- **真实模型测试覆盖关键张力**：销售场景验证 OS 层不越俎代庖；跨域场景验证 Coach 模式能结构化模糊问题。
+
+### 可改进点（不阻塞通过）
+
+1. **个人域加载规则未定义格式**：当前 OS 层仅预留接口，建议后续任务明确个人域读取格式（如 `.agent/personal-os.md` 或 KDO 个人域卡）。
+2. **Coach 模式域卡片不全**：示例中 SEO/GEO/网站设计域 Agent 尚不存在，候选建议写「待建」；后续域建设完成后需回流更新本卡。
+3. **真实模型测试样本扩展**：当前 2 个场景覆盖销售 + 跨域；建议后续增加设计、个人成长等域验证 OS 层鲁棒性。
+4. **lint 自动化检查**：建议增加规则检查 `tool-agent-spec` 卡 System Prompt 是否包含 `{{system-yitang-Y-model-os.md}}`。
+
+### 全库 lint 状态
+
+- #55 目标范围：0 ERROR
+- 全库：0 ERROR，2615 WARNING（1937 accepted）
+
+同意封账。
+
+*终审：欧阳锋 · 2026-06-29*
