@@ -6,6 +6,7 @@ status: queued
 priority: P1
 assignee: 黄药师
 reviewer: 欧阳锋
+reviewed_by: pending
 created_at: 2026-07-01
 updated_at: 2026-07-01
 source_context: 用户判定 agent-os.md 不能依赖 Claude 的 Read 文件能力，Kimi/Hermes 需要静态 system prompt 注入；要求单列任务建设编译器
