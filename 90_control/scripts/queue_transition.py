@@ -90,6 +90,18 @@ def find_task_file(task_id: str) -> Path | None:
     return None
 
 
+def find_task_file_by_frontmatter_id(task_id: str) -> Path | None:
+    """Locate task file whose frontmatter id equals task_id."""
+    for d in (TASK_DIR, BATCH_DIR):
+        if not d.exists():
+            continue
+        for path in d.glob("*.md"):
+            fm, _ = parse_frontmatter(path)
+            if fm.get("id") == task_id:
+                return path
+    return None
+
+
 def update_queue_status(task_id: str, new_status: str) -> None:
     """Atomically update the status cell in production-queue.md."""
     text = QUEUE_PATH.read_text(encoding="utf-8")
@@ -156,7 +168,7 @@ def action_claim(task_id: str, instance: str) -> tuple[bool, str]:
     if not ok:
         return False, reason
 
-    task_file = find_task_file(task_id)
+    task_file = find_task_file(task_id) or find_task_file_by_frontmatter_id(task_id)
     if task_file is None:
         return False, f"找不到任务单文件: {task_id}"
 

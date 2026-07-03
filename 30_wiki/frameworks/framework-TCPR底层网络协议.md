@@ -14,6 +14,13 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-TCPR底层网络协议.md
 related:
+- '[[yt-decision-y-model]]'
+- '[[framework-TCPR皇冠模型]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[agent-os]]'
+- '[[framework-yitang-jiefang-sixiang]]'
+- '[[framework-yitang-shishi-qiushi]]'
 - '[[yitang-domain-digest]]'
 - '[[ocr-一堂y模型steps策略集]]'
 - '[[tool-月白-AI模型选择策略]]'

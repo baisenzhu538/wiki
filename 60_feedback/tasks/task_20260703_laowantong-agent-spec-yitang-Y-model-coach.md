@@ -1,35 +1,35 @@
 ---
 id: task_20260703_laowantong-yitang-Y-model-os
-title: "Y模型 OS：所有 Agent 的共享底层 prompt + 可选 Coach 模式"
+title: Y模型 OS：所有 Agent 的共享底层 prompt + 可选 Coach 模式
 type: task
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童(Kimi)
+assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-03
-updated_at: 2026-07-03（用户纠偏：从独立元 Agent 改为共享 OS 层 + 可选 Coach 模式）
+updated_at: '2026-07-03T15:23:15.324117+00:00'
 expected_outputs:
-  - "1 张 system 卡：system-yitang-Y-model-os.md（共享底层 prompt 片段）"
-  - "agent-native-card-design.md 更新：所有 agent-spec 卡必须包含 Y模型 OS 层"
-  - "1 张可选 agent-spec 卡：tool-agent-spec-yitang-Y-model-coach（作为 Coach 模式，非调度器）"
-  - "1 个域 Agent 集成示例：修改 OPC 销售对话助手 System Prompt 展示如何加载 OS 层"
-  - "至少 2 个真实场景测试（销售、GEO/网站）"
+- 1 张 system 卡：system-yitang-Y-model-os.md（共享底层 prompt 片段）
+- agent-native-card-design.md 更新：所有 agent-spec 卡必须包含 Y模型 OS 层
+- 1 张可选 agent-spec 卡：tool-agent-spec-yitang-Y-model-coach（作为 Coach 模式，非调度器）
+- 1 个域 Agent 集成示例：修改 OPC 销售对话助手 System Prompt 展示如何加载 OS 层
+- 至少 2 个真实场景测试（销售、GEO/网站）
 dependencies:
-  - "task_20260703_laowantong-yitang-Y-model-foundation-production reviewed"
+- task_20260703_laowantong-yitang-Y-model-foundation-production reviewed
 source_refs:
-  - 30_wiki/systems/agent-native-card-design.md
-  - 30_wiki/systems/agent-external-brain-design.md
-  - 60_feedback/tasks/task_20260703_laowantong-yitang-Y-model-foundation-production.md
+- 30_wiki/systems/agent-native-card-design.md
+- 30_wiki/systems/agent-external-brain-design.md
+- 60_feedback/tasks/task_20260703_laowantong-yitang-Y-model-foundation-production.md
 related:
-  - yt-decision-y-model
-  - framework-yitang-shishi-qiushi
-  - framework-yitang-jiefang-sixiang
-  - tool-yitang-Y-model-application
-  - dk-yitang-Y-model-pitfalls
-  - agent-native-card-design
-  - agent-external-brain-design
-  - tool-opc-sales-dialogue-assistant
-  - opc-ai-sales-agent-architecture
+- yt-decision-y-model
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
+- tool-yitang-Y-model-application
+- dk-yitang-Y-model-pitfalls
+- agent-native-card-design
+- agent-external-brain-design
+- tool-opc-sales-dialogue-assistant
+- opc-ai-sales-agent-architecture
 ---
 
 # Y模型 OS：所有 Agent 的共享底层 prompt + 可选 Coach 模式
