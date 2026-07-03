@@ -6,6 +6,7 @@ status: in_progress
 priority: P1
 assignee: kimi
 reviewer: 欧阳锋
+reviewed_by: pending
 created_at: 2026-07-03
 updated_at: '2026-07-03T15:23:15.324117+00:00'
 expected_outputs:
@@ -122,14 +123,14 @@ Y模型 OS（怎么思考）        ← 所有 Agent 共享，建一次
 
 ## 三、验收标准
 
-- [ ] `system-yitang-Y-model-os.md` 创建并通过 `kdo pre-submit`。
-- [ ] `agent-native-card-design.md` 增加"Agent Prompt 三层结构"章节，明确所有 agent-spec 必须加载 OS 层。
-- [ ] `tool-agent-spec-yitang-Y-model-coach` 创建，定位为"可选 Coach 模式"，不是调度器。
-- [ ] OPC 销售对话助手 System Prompt 更新，展示 OS 层加载方式。
-- [ ] 至少 2 个真实场景测试：
+- [x] `system-yitang-Y-model-os.md` 创建并通过 `kdo pre-submit`。
+- [x] `agent-native-card-design.md` 增加"Agent Prompt 三层结构"章节，明确所有 agent-spec 必须加载 OS 层。
+- [x] `tool-agent-spec-yitang-Y-model-coach` 创建，定位为"可选 Coach 模式"，不是调度器。
+- [x] OPC 销售对话助手 System Prompt 更新，展示 OS 层加载方式。
+- [x] 至少 2 个真实场景测试：
   - 销售场景：用户直接问销售问题，Agent 用 OS + 销售域知识回答。
   - 跨域/模糊场景：用户问"我想做个顶级网站+GEO"，Agent 先用 Coach 模式结构化，再建议调用设计/SEO Agent。
-- [ ] 所有关键判断标注置信度。
+- [x] 所有关键判断标注置信度。
 - [ ] 欧阳锋终审通过。
 
 ---
