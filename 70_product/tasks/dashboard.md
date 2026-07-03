@@ -89,21 +89,22 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260703_laowantong-yitang-Y-model-stub-completion | #51 收尾：实事求是 / 解放思想 framework 卡补全 | closed_cancelled | — | P1 | task_20260703_laowantong-yitang-Y-model-stub-completion.md | 取消：#51 已全部完成，无需单独收尾任务 |
 | task_20260703_laowantong-graphrag-orphan-reduction | GraphRAG 健康度提升：跨域 related 补链降低 orphan 比例 | reviewed | 老顽童(Kimi) | P2 | task_20260703_laowantong-graphrag-orphan-reduction.md | 欧阳锋终审通过：orphan 18% (621/3468)、components 669、health 90/100，三项指标均达标；578 张卡 pre-submit 全部 PASS；日志 `60_feedback/diagnosis/diag_20260704_graphrag-orphan-linking-log.json` |
 | task_20260703_huangyaoshi-agent-tcpr-role-layer | Agent 能力分层引入 TCPR 角色模型：所有 Agent 协作前必须选定 T/C/P/R 身份 | reviewed | 老顽童(Kimi) | P1 | `60_feedback/tasks/task_20260703_huangyaoshi-agent-tcpr-role-layer.md` | 欧阳锋终审通过：agent-os.md 升级为运行时 OS；agent-native-card-design.md 新增 TCPR 章节；7 张 OPC agent-spec 补全 TCPR 字段与 System Prompt 身份声明；Y模型 OS 第 0 步对齐；kdo_lint.py 新增 WARNING 级 TCPR 校验；13 个改动文件 pre-submit 全部 PASS |
-| task_20260703_huangyaoshi-agent-prompt-compiler | Agent Prompt 编译器：把 agent-os.md + 域卡编译为可注入的 system prompt | queued | 黄药师 | P1 | `60_feedback/tasks/task_20260703_huangyaoshi-agent-prompt-compiler.md` | 用户判定 Kimi/Hermes 无法 Read 文件，需把 agent-os.md + 域卡编译为静态 system prompt；MCP 方案现在不做 |
-| task_20260703_huangyaoshi-fix-queue-transition-review-lookup | 修复 queue_transition.py review 按 frontmatter id 查找任务单 | queued | 黄药师 | P2 | `60_feedback/tasks/task_20260703_huangyaoshi-fix-queue-transition-review-lookup.md` | 欧阳锋重审通过：7 条改进全部满足，7/7 tests passed，#55 场景验证正确，claim/complete/release 未破坏；待 #57 释放后 queue_transition.py 正式更新为 reviewed |
-| task_20260704_laowantong-case-production-54-pilot-A-candidates | #54 试点 A 级候选投产：7 张 companion case 卡 | queued | 老顽童(Kimi) | P2 | `60_feedback/tasks/task_20260704_laowantong-case-production-54-pilot-A-candidates.md` | 王语嫣追加：把 #54 诊断报告中欧阳锋圈定的 7 条 A 级候选转化为完整 case 卡；验证扫描流程的候选质量；排在 #58 之后 |
+| task_20260703_huangyaoshi-agent-prompt-compiler | Agent Prompt 编译器：把 agent-os.md + 域卡编译为可注入的 system prompt | reviewed | 黄药师 | P1 | `60_feedback/tasks/task_20260703_huangyaoshi-agent-prompt-compiler.md` | 欧阳锋终审通过：编译器代码通过，3 个试点编译产物 pre-submit PASS；产生 2 项微债务待 #62 跟进 |
+| task_20260703_huangyaoshi-fix-queue-transition-review-lookup | 修复 queue_transition.py review 按 frontmatter id 查找任务单 | queued | 黄药师 | P2 | `60_feedback/tasks/task_20260703_huangyaoshi-fix-queue-transition-review-lookup.md` | 欧阳锋重审通过：7 条改进全部满足，7/7 tests passed，#55 场景验证正确，claim/complete/release 未破坏；待 #61 释放后 queue_transition.py 正式更新为 reviewed |
+| task_20260704_laowantong-case-production-54-pilot-A-candidates | #54 试点 A 级候选投产：7 张 companion case 卡 | claimed-kimi | 老顽童(Kimi) | P2 | `60_feedback/tasks/task_20260704_laowantong-case-production-54-pilot-A-candidates.md` | 老顽童(Kimi) 已领取；产出 7 张 companion case 卡；正在执行 |
+| task_20260704_huangyaoshi-agent-prompt-compiler-micro-debt | #59 微债务：Agent Prompt 设计规范补全与 source 字段标准化 | queued | 黄药师 | P2 | `60_feedback/tasks/task_20260704_huangyaoshi-agent-prompt-compiler-micro-debt.md` | 欧阳锋终审 #59 提出的 2 项微债务；补充 agent-native-card-design.md 三层编译章节与 os_sources/domain_sources/user_sources 字段规范；P2 |
 
 ---
 
 ## Summary
 
-- **Total**: 60
+- **Total**: 61
 - **Done**: 23
-- **In Progress**: 0 （老顽童当前无执行中任务）
-- **Queued**: 4（详见 `production-queue.md` #59-#61）
+- **In Progress**: 1 (#61 老顽童(Kimi) 已领取)
+- **Queued**: 2（详见 `production-queue.md` #60/#62）
 - **Long-term / Paused**: 1（#28 lint 内容债，workbuddy 后台分批执行）
 - **Pending Review**: 0
-- **Review Done**: 52 (#50/#51/#52/#53/#54/#55/#57/#58 reviewed)
+- **Review Done**: 53 (#50/#51/#52/#53/#54/#55/#57/#58/#59 reviewed)
 
 > 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；✅ Batch 2-A/B/C 全部 reviewed：A 130 case + B 57 dk + C 90 source_refs 文件已完成，`kdo lint` 机械性 ERROR 清零；下一阶段正式进入补链阶段（Wave 6 诊断 + B1/B2/B3）。
 > **🆕 新增 #38**：《吾辈如神》素材经独立验证为 B 级，王语嫣做出价值判断：直接产出 3 张卡（认知卸载 / AI 使用杠铃策略 / 富足悖论），不试点、不批量；重点纠偏 BMW 85%、AGI 2029、AI 无法创造等数据/观点误读。

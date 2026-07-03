@@ -85,18 +85,11 @@ def compile_prompt(agent_id: str, dry_run: bool = False) -> str | None:
     domain_sources = fm.get("domain_sources", [])
     user_sources = fm.get("user_sources", [])
 
-    sections = []
+    content_sections = []
     total_tokens = 0
 
-    # ── Header ──
-    now = datetime.now(timezone.utc).isoformat()
-    sections.append(f"# {title} — 编译后 System Prompt\n")
-    sections.append(f"> 编译时间: {now}")
-    sections.append(f"> Agent ID: {agent_id}")
-    sections.append(f"> TCPR 默认身份: {tcp_role}\n")
-
     # ── OS Layer ──
-    sections.append("---\n## 元层：共享 OS\n")
+    content_sections.append("---\n## 元层：共享 OS\n")
     for src_rel in os_sources:
         src_path = WIKI / src_rel
         if not src_path.exists():
@@ -106,20 +99,20 @@ def compile_prompt(agent_id: str, dry_run: bool = False) -> str | None:
         h = hash_content(content)
         tk = estimate_tokens(content)
         total_tokens += tk
-        sections.append(f"<!-- source: {src_rel} hash:{h} -->\n")
-        sections.append(content)
-        sections.append("")
+        content_sections.append(f"<!-- source: {src_rel} hash:{h} -->\n")
+        content_sections.append(content)
+        content_sections.append("")
 
     # ── Domain Layer ──
-    sections.append("---\n## 域层：领域专业知识\n")
+    content_sections.append("---\n## 域层：领域专业知识\n")
     # Always include the agent-spec card itself
     domain_content = read_content(card_path)
     h = hash_content(domain_content)
     tk = estimate_tokens(domain_content)
     total_tokens += tk
-    sections.append(f"<!-- source: {card_path.relative_to(WIKI)} hash:{h} -->\n")
-    sections.append(domain_content)
-    sections.append("")
+    content_sections.append(f"<!-- source: {card_path.relative_to(WIKI)} hash:{h} -->\n")
+    content_sections.append(domain_content)
+    content_sections.append("")
 
     for src_rel in domain_sources:
         src_path = WIKI / src_rel
@@ -130,13 +123,13 @@ def compile_prompt(agent_id: str, dry_run: bool = False) -> str | None:
         h = hash_content(content)
         tk = estimate_tokens(content)
         total_tokens += tk
-        sections.append(f"<!-- source: {src_rel} hash:{h} -->\n")
-        sections.append(content)
-        sections.append("")
+        content_sections.append(f"<!-- source: {src_rel} hash:{h} -->\n")
+        content_sections.append(content)
+        content_sections.append("")
 
     # ── User Layer ──
     if user_sources:
-        sections.append("---\n## 用户层：个人上下文\n")
+        content_sections.append("---\n## 用户层：个人上下文\n")
         for src_rel in user_sources:
             src_path = WIKI / src_rel
             if not src_path.exists():
@@ -146,9 +139,37 @@ def compile_prompt(agent_id: str, dry_run: bool = False) -> str | None:
             h = hash_content(content)
             tk = estimate_tokens(content)
             total_tokens += tk
-            sections.append(f"<!-- source: {src_rel} hash:{h} -->\n")
-            sections.append(content)
-            sections.append("")
+            content_sections.append(f"<!-- source: {src_rel} hash:{h} -->\n")
+            content_sections.append(content)
+            content_sections.append("")
+
+    # ── Header (frontmatter) must be built after token count is known ──
+    now = datetime.now(timezone.utc).isoformat()
+    header_meta = (
+        f"---\n"
+        f"id: {agent_id}\n"
+        f"title: {title}\n"
+        f"type: compiled-prompt\n"
+        f"source_agent: {agent_id}\n"
+        f"status: compiled\n"
+        f"reviewed_by: agent-prompt-compiler\n"
+        f"compiled_at: {now}\n"
+        f"updated_at: {now}\n"
+        f"estimated_tokens: {total_tokens}\n"
+        f"os_sources: {os_sources}\n"
+        f"domain_sources: {domain_sources}\n"
+        f"user_sources: {user_sources}\n"
+        f"---\n"
+    )
+
+    sections = [
+        header_meta,
+        f"# {title} — 编译后 System Prompt\n",
+        f"> 编译时间: {now}",
+        f"> Agent ID: {agent_id}",
+        f"> TCPR 默认身份: {tcp_role}\n",
+    ]
+    sections.extend(content_sections)
 
     compiled = "\n".join(sections)
 

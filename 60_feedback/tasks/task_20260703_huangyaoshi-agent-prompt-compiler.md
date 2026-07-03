@@ -2,13 +2,13 @@
 id: task_20260703_huangyaoshi-agent-prompt-compiler
 title: Agent Prompt 编译器：把 agent-os.md + 域卡编译为可注入的 system prompt
 type: task
-status: queued
+status: done
 priority: P1
 assignee: 黄药师
 reviewer: 欧阳锋
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-07-01
-updated_at: 2026-07-01
+updated_at: 2026-07-04
 source_context: 用户判定 agent-os.md 不能依赖 Claude 的 Read 文件能力，Kimi/Hermes 需要静态 system prompt 注入；要求单列任务建设编译器
 estimated_outputs:
 - 1 个 CLI 命令或 skill：`kdo agent-build-prompt <agent-id>`
@@ -47,7 +47,7 @@ dependencies:
 
 ### 1. 编译器实现
 
-- [ ] 新增 CLI 命令或 skill：`kdo agent-build-prompt <agent-id>`
+- [x] 新增 CLI 命令或 skill：`kdo agent-build-prompt <agent-id>`
   - 读取 agent-spec 卡 frontmatter 中的 `os_sources`、`domain_sources`、`user_sources`
   - 按顺序拼接 OS 层、域层、用户层
   - 生成 `.agent/prompts/<agent-id>.md`
@@ -71,16 +71,16 @@ dependencies:
 
 ### 3. 试点编译
 
-- [ ] 为以下至少 3 个 Agent 生成编译后 prompt：
+- [x] 为以下至少 3 个 Agent 生成编译后 prompt：
   - `system-yitang-Y-model-os`（OS 本身，作为基础示例）
   - `tool-agent-spec-yitang-Y-model-coach`（Coach 模式）
   - `tool-agent-spec-yitang-customer-segmentation` 或任意 1 张 OPC 销售 agent-spec
 
-- [ ] 每个编译后 prompt 必须通过 `kdo pre-submit`。
+- [x] 每个编译后 prompt 必须通过 `kdo pre-submit`。
 
 ### 4. 使用说明
 
-- [ ] 产出 `40_outputs/agent-prompt-compiler-usage.md` 或写入任务单
+- [x] 产出 `40_outputs/agent-prompt-compiler-usage.md` 或写入任务单
   - 如何运行编译器
   - Agent 启动时如何加载 `.agent/prompts/<agent-id>.md`
   - 卡片更新后如何重新编译

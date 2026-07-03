@@ -1,6 +1,21 @@
+---
+id: tool-opc-sales-dialogue-assistant
+title: OPC 销售对话助手智能体
+type: compiled-prompt
+source_agent: tool-opc-sales-dialogue-assistant
+status: compiled
+reviewed_by: agent-prompt-compiler
+compiled_at: 2026-07-03T20:08:46.088822+00:00
+updated_at: 2026-07-03T20:08:46.088822+00:00
+estimated_tokens: 7556
+os_sources: ['30_wiki/systems/system-yitang-Y-model-os.md', 'agents/agent-os.md']
+domain_sources: []
+user_sources: []
+---
+
 # OPC 销售对话助手智能体 — 编译后 System Prompt
 
-> 编译时间: 2026-07-03T19:56:09.830823+00:00
+> 编译时间: 2026-07-03T20:08:46.088822+00:00
 > Agent ID: tool-opc-sales-dialogue-assistant
 > TCPR 默认身份: C
 

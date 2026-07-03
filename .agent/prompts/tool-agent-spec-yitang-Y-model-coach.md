@@ -1,6 +1,21 @@
+---
+id: tool-agent-spec-yitang-Y-model-coach
+title: Y模型 Coach 模式 Agent Spec
+type: compiled-prompt
+source_agent: tool-agent-spec-yitang-Y-model-coach
+status: compiled
+reviewed_by: agent-prompt-compiler
+compiled_at: 2026-07-03T20:08:46.351303+00:00
+updated_at: 2026-07-03T20:08:46.351303+00:00
+estimated_tokens: 6838
+os_sources: ['30_wiki/systems/system-yitang-Y-model-os.md', 'agents/agent-os.md']
+domain_sources: []
+user_sources: []
+---
+
 # Y模型 Coach 模式 Agent Spec — 编译后 System Prompt
 
-> 编译时间: 2026-07-03T19:56:10.163503+00:00
+> 编译时间: 2026-07-03T20:08:46.351303+00:00
 > Agent ID: tool-agent-spec-yitang-Y-model-coach
 > TCPR 默认身份: C
 
