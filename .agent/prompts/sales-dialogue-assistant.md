@@ -9,7 +9,7 @@ estimated_tokens: 3500
 ---
 # 销售对话助手 — 编译后 System Prompt
 
-> 本文件由 agent-os.md + 域层核心卡 + 用户层文件编译而成。
+> 本文件由 system-yitang-Y-model-os（元层）+ tool-opc-sales-dialogue-assistant（域层）+ personal-os（用户层）编译而成。
 > 直接注入到 Agent 的 system prompt 中。卡片更新后需重新编译。
 
 ---
