@@ -97,7 +97,7 @@ Generated: 2026-06-26T21:00:00+00:00
 
 - **Total**: 58
 - **Done**: 23
-- **In Progress**: 0
+- **In Progress**: 1 (#53 老顽童(Kimi) 已领取)
 - **Queued**: 6（详见 `production-queue.md` #53-#55/#57-#59 等）
 - **Long-term / Paused**: 1（#28 lint 内容债，workbuddy 后台分批执行）
 - **Pending**: 1 (#51 欧阳锋终审中)
