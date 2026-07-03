@@ -1,17 +1,15 @@
 ---
 updated: 2026-07-01
-updated_at: 2026-07-01T00:00:00+00:00
+updated_at: 2026-07-01T14:01:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#40 《吾辈如神》试点三卡（pending_review 2026-07-01）：老顽童(Kimi)已完成 concept-cognitive-offloading-in-ai-era + tool-ai-use-barbell-strategy + concept-abundance-paradox 生产；3/3 卡 kdo lint 0 ERROR/WARNING、pre-submit PASS；审计跟踪已输出；待欧阳锋终审"
+active_task: "#58 TCPR 角色模型嵌入 Agent 能力分层（queued 2026-07-01）：用户指出每次 Agent 协作应先选 T/C/P/R 身份并明确目标；已新建任务单并更新 agent-native-card-design.md 强制规范；待黄药师/老顽童领取执行"
 blockers:
-  - "🟡 #40 《吾辈如神》试点三卡（2026-07-01）：老顽童(Kimi)已提交欧阳锋终审；待欧阳锋复核 3 张卡质量、外部反对者充分性、是否按当前 3 张卡封账"
-  - "🟡 #39 design domain 编码损坏诊断（2026-07-01）：老顽童(Kimi)已提交欧阳锋终审；结论为 196/196 文件 healthy，根因是 GBK 终端显示 UTF-8 中文导致乱码"
-  - "🟡 #28 lint 内容债（2026-07-01）：strategy domain 真实内容问题清零，剩余 148 个 WARNING 为 index/lint bare wikilink 机制误报；yitang domain 已处理 20 个 tool 卡，减少 65 个 WARNING"
-  - "🟡 Hermes 全角色 WSL 实例因 WSL interop 损坏停摆（2026-06-30）：需重启 Windows 恢复 WSL interop"
+  - "🟡 #51 一堂底层逻辑域（2026-07-01）：老顽童已完成全部 7 张卡产出，欧阳锋正在终审"
+  - "🟡 #58 TCPR Agent 身份协议（2026-07-01）：已入队，待黄药师/老顽童(Kimi) 领取；需与 #55 Y模型 OS 对齐"
 
-next_session_hint: "下一步：① 欧阳锋终审 #40；② 队列无 pending_review；③ 老顽童(Kimi)可继续 #28 yitang/design domain 批量清理，或领取 #41 时间管理域卡片化；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 欧阳锋终审 #51；② 推进 #55 Y模型 OS；③ 启动 #58 TCPR Agent 身份协议设计与现有 agent-spec 卡 retrofit；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
