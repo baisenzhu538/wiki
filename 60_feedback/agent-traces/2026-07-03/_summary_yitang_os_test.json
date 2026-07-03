@@ -1,0 +1,18 @@
+{
+  "tool-opc-sales-dialogue-assistant": [
+    {
+      "scenario": "智能药柜多轮推进_WITH_OS",
+      "domain": "医药零售 B2B",
+      "trace": "60_feedback\\agent-traces\\2026-07-03\\tool-opc-sales-dialogue-assistant__智能药柜多轮推进_WITH_OS.md",
+      "status": "ok"
+    }
+  ],
+  "tool-agent-spec-yitang-Y-model-coach": [
+    {
+      "scenario": "瑜伽馆网站加GEO",
+      "domain": "跨域 / 本地服务",
+      "trace": "60_feedback\\agent-traces\\2026-07-03\\tool-agent-spec-yitang-Y-model-coach__瑜伽馆网站加GEO.md",
+      "status": "ok"
+    }
+  ]
+}
