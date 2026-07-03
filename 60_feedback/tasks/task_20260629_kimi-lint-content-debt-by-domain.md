@@ -514,8 +514,9 @@ source_refs:
 | 第一批 | 10 | 2624 | 2581 | -43 | ✅ 通过 |
 | 第二批 | 10 | 2581 | 2542 | -39 | ✅ 通过 |
 | 第三批 | 10 | 2542 | 2503 | -39 | ✅ 通过 |
-| 第四批 | 10 | 2503 | 2465 | -38 | 等审查 |
-| **累计** | **40** | **2624** | **2465** | **-159** | |
+| 第四批 | 10 | 2503 | 2465 | -38 | ✅ 通过 |
+| 第五批 | 10 | 2465 | 2425 | -40 | 等审查 |
+| **累计** | **50** | **2624** | **2425** | **-199** | |
 
 ### 下一轮计划
 
@@ -772,5 +773,84 @@ source_refs:
 ### 结论
 
 同意本批次 10 张泛产品系列 tool 卡通过。可继续下一批 yitang tool 卡清理，或按王语嫣/用户指示切换 domain。
+
+*批次审查：欧阳锋 · 2026-06-29*
+
+---
+
+## 欧阳锋批次审查：2026-06-29 yitang 域第四批 10 张 tool 卡
+
+### 审查结果：通过 ✅
+
+| 项目 | 数据 |
+|:---|:---|
+| 审查时间 | 2026-06-29 |
+| 处理域 | yitang |
+| 处理文件数 | 10 个 tool 卡（9 Type A + 1 Type B） |
+| 修复前全量 WARNING | 2503 |
+| 修复后全量 WARNING | 2465 |
+| 净减 | **38** |
+| ERROR | 0 → 0 |
+| pre-submit | **10/10 PASS** |
+
+### 审查文件清单
+
+**Type A（泛产品落地系列续，9 个）**：
+- `30_wiki/tools/tool-泛产品落地-复盘迭代.md`
+- `30_wiki/tools/tool-泛产品落地-善用佳软.md`
+- `30_wiki/tools/tool-泛产品落地-十倍速验证.md`
+- `30_wiki/tools/tool-泛产品落地-努力仿真.md`
+- `30_wiki/tools/tool-泛产品落地-内核和边界.md`
+- `30_wiki/tools/tool-泛产品落地-假设拆解.md`
+- `30_wiki/tools/tool-泛产品落地-低成本测试MVP.md`
+- `30_wiki/tools/tool-泛产品落地-业务建模.md`
+- `30_wiki/tools/tool-泛产品落地-ROI分析.md`
+
+**Type B（一堂课程 OCR，1 个）**：
+- `30_wiki/tools/tool-通过请吃饭获取行业内部资料.md`
+
+### 每张卡补的内容
+
+- **Type A**：目的 + 操作步骤 + 不要用的场景 + 质疑。
+- **Type B**：目的 + 不要用的场景 + 质疑（该卡原操作步骤已存在，未改动）。
+- **质疑 section**：均包含关键术语（具体假设/边界/反例/前提）+ 外部攻击者（`**Name Surname**` 格式）。
+
+外部攻击者引用清单：Daniel Kahneman、Atul Gawande、Rita McGrath、Bent Flyvbjerg、Clayton Christensen、Eric Ries、Don Norman、Russell Ackoff、Roger Martin、Pamela Samuelson、Gary Klein。
+
+### 质量评估
+
+- **非模板化**：10 个工具的不适用场景和质疑均针对各自方法，未发现 copy-paste。
+- **外部攻击者相关**：每位学者与本卡论点直接关联（如 Clayton Christensen 对应 disruption、Eric Ries 对应 MVP、Roger Martin 对应业务建模、Pamela Samuelson 对应信息产权）。
+- **批判深度足够**：每个质疑 section 均覆盖假设、反例、前提、边界四个关键术语，部分卡还加入了后见之明偏差、工具链碎片化、法律风险等具体讨论。
+- **操作步骤具体**：复盘迭代、善用佳软、低成本测试 MVP、ROI 分析等均有清晰可执行步骤。
+- **Type B 处理得当**：「通过请吃饭获取行业内部资料」这类非正式信息获取方法，质疑部分明确点出商业秘密法、信息可信度、销售过滤偏差等风险。
+- **无 frontmatter 退化**：10/10 pre-submit PASS，无新增 ERROR。
+
+### 审查中发现的小问题（不阻塞通过）
+
+1. **Type A 9 个文件 `related` 中仍有 3 个 `[[pending_unknown]]` 占位**：VLM 系列共同问题，后续批次可统一替换。
+2. **Type B 文件仍有大量 `src_unknown` 占位**：`definition_of_done`、`tools_required`、`适用场景`、`工具/环境`、`关联技能`、`来源`、`Feedback Path` 等仍是 src_unknown，后续批次继续清理。
+3. **confidence 0.75 / 0.7 小数**：工具卡目前允许，后续如统一 high/medium/low 需批量调整。
+4. **Type B 文件 `author: unknown`**：建议后续统一为 `老顽童`，但不影响本次通过。
+
+### 已同步更新
+
+- 9 个 Type A 文件 `review_date` 更新为 `2026-06-29`。
+- Type B 文件 `reviewed_by: pending` → `欧阳锋`，并补充 `review_date: 2026-06-29`。
+- 任务单追加本批次审查记录。
+
+### 累计进展
+
+| 批次 | 文件数 | WARNING 净减 | 审查状态 |
+|:---|:---|:---|:---|
+| 第一批 | 10 | -43 | ✅ 欧阳锋通过 |
+| 第二批 | 10 | -39 | ✅ 欧阳锋通过 |
+| 第三批 | 10 | -38 | ✅ 欧阳锋通过 |
+| 第四批 | 10 | -38 | ✅ 欧阳锋通过 |
+| **累计** | **40** | **-158** | |
+
+### 结论
+
+同意本批次 10 张 yitang tool 卡通过。可继续下一批 yitang tool 卡清理，或按王语嫣/用户指示切换 domain。
 
 *批次审查：欧阳锋 · 2026-06-29*
