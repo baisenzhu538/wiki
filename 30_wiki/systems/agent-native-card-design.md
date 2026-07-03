@@ -16,15 +16,17 @@ confidence: 0.7
 trust_level: medium
 updated_at: '2026-07-03'
 related:
-- - - yt-composite-pan-product-methodology
-- - - graph-rag-retrieval-layer
-- - - graph-rag
-- - - yt-model-pan-product-36-strategies
-- - - yt-model-pan-product-aesthetic-toolkit
+- yt-composite-pan-product-methodology
+- graph-rag-retrieval-layer
+- graph-rag
+- yt-model-pan-product-36-strategies
+- yt-model-pan-product-aesthetic-toolkit
 - yt-decision-y-model
 - tool-yitang-Y-model-application
 - framework-yitang-shishi-qiushi
 - framework-yitang-jiefang-sixiang
+- system-yitang-Y-model-os
+- tool-agent-spec-yitang-Y-model-coach
 ---
 # Agent 原生知识卡设计规范 v2
 
@@ -346,6 +348,72 @@ yt-composite-pan-product-methodology.md       ← composite-concept（10-15 clai
 
 ---
 
+## Agent Prompt 三层结构（2026-07-03 补充）
+
+> 由黄药师提出、王语嫣确认：Y模型 + 实事求是 + 解放思想 是所有 Agent 的共享底层 OS，不是独立元 Agent。
+
+### 核心分层
+
+```
+┌─────────────────────────────────────┐
+│  OS 层：system-yitang-Y-model-os.md  │  ← 怎么思考（共享底座）
+├─────────────────────────────────────┤
+│  域层：framework / tool / case / dk   │  ← 思考什么（每域一套）
+├─────────────────────────────────────┤
+│  用户层：个人 OS / 历史决策 / 偏好     │  ← 跟谁协作（持续迭代）
+└─────────────────────────────────────┘
+```
+
+### 强制要求
+
+1. **所有 `tool-agent-spec` 卡和 `system-agent-spec` 卡的 System Prompt 必须显式分层**：
+   - 顶部加载 OS 层：`{{system-yitang-Y-model-os.md}}`
+   - 中间声明域知识来源：列出本 Agent 直接调用的 framework/tool/case/dk 卡 id
+   - 底部说明用户层加载规则：若可用则读取个人上下文，若不可用则声明降级
+
+2. **OS 层不替代域层**：OS 层回答「怎么思考」，域层回答「思考什么」。禁止把 Y模型五步法当域知识重复写入每张 agent-spec 卡。
+
+3. **用户层尚未实现时声明降级**：若当前无法读取个人 OS，System Prompt 中必须写一句：「若个人域未加载，输出为通用建议，请用户复核是否匹配自身情况。」
+
+4. **Coach 模式作为可选入口**：跨域或无域归属问题时，域 Agent 可切换到 `tool-agent-spec-yitang-Y-model-coach` 模式；Coach 模式只使用 OS 层 + 通用对话，不替代域 Agent。
+
+### 模板示例
+
+```markdown
+## System Prompt 模板
+
+```markdown
+[OS 层]
+{{system-yitang-Y-model-os.md}}
+
+[域层]
+你是 <域> <角色>。你的域知识来自：
+- framework-xxx
+- tool-yyy
+- case-zzz
+- dk-www
+
+[用户层]
+若可用，加载当前用户的个人 OS、历史决策偏好与任务上下文；
+若不可用，明确说明「未加载个人域，输出为通用建议」。
+
+# Role
+...
+```
+```
+
+### 谁来做
+
+| 环节 | 角色 |
+|:---|:---|
+| 写 OS 层 | 老顽童 |
+| 更新 agent-native-card-design 规范 | 老顽童 |
+| 把 OS 层嵌入已有 agent-spec 卡 | 老顽童 |
+| 架构评审 | 黄药师 |
+| 终审 | 欧阳锋 |
+
+---
+
 ## Agent 迭代成果回流 KDO（2026-07-02 补充）
 
 > 由王语嫣基于 OPC 销售智能体实测经验提出，作为 agent-native 卡片设计规范的补充。
@@ -478,6 +546,20 @@ Agent 的幻觉和不可执行问题，本质上是 Y模型三段失衡：
 2. **目标确认**："本次会话的核心目标是：[一句话]。"
 3. **模式切换提示**："如果你需要我切换成 [其他角色]，直接说'切换到教学/咨询/实践/研究'。"
 4. **默认兜底**：若用户未指定目标，按 `tcp_default_mode` 进入，先问 1-3 个澄清问题，再做判断。
+
+### 中途切换身份协议
+
+用户可以在同一会话中要求 Agent 切换 TCPR 身份（例如从 C 咨询切换到 P 实践），Agent 应基于已有上下文继续协作，而不是新建会话。但必须遵守以下协议，防止身份漂移或越权执行：
+
+1. **切换必须由用户显式触发**：Agent 不得自行切换身份。触发语示例："现在切换到 P 角色"、"请以实践身份帮我落地刚才的方案"。
+2. **Agent 必须确认切换**：回复中应明确声明新身份、新目标，并简要复述将从上下文中继承哪些事实/分析，避免"换身份丢上下文"。
+3. **切换后必须重新评估事实完整性**：
+   - **C → P**：咨询阶段给出的建议不等于可执行动作。进入 P 角色后，必须检查是否具备执行所需的事实输入（如责任人、截止时间、资源约束），缺失时返回 `INPUT_MISSING`。
+   - **C → R**：研究角色不能简单把建议当结论，必须重新要求证据链和可迁移规律。
+   - **P → C**：执行中遇到困难想回头诊断时，必须区分"已发生的事实"和"原来的假设"。
+4. **输出形态必须随身份改变**：切换后，输出结构、语气、风险等级按新身份执行，不能继续沿用旧身份格式。
+5. **高风险动作仍需人类复核**：切换到 P 不意味着 Agent 可以自动执行。涉及对外发送、资金、法律、医疗等动作，输出中必须标注 `需人工确认`。
+6. **上下文继承边界**：Agent 应说明"我会基于本轮已确认的事实继续"，并允许用户说"不对，那个假设已经变了"来修正上下文。
 
 ### 设计原则
 
