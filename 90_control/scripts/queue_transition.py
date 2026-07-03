@@ -79,7 +79,13 @@ def write_frontmatter(path: Path, fm: dict[str, Any], body: str) -> None:
 
 
 def find_task_file(task_id: str) -> Path | None:
-    """Locate task file by id in known task directories."""
+    """Locate task file by id in known task directories.
+
+    Searches first by exact filename match, then by prefix match (handles
+    cases where the queue lists one id but the file was renamed, e.g.
+    queue has ``task_20260703_laowantong-yitang-Y-model-os`` but file is
+    ``task_20260703_laowantong-agent-spec-yitang-Y-model-coach.md``).
+    """
     candidates = [
         TASK_DIR / f"{task_id}.md",
         BATCH_DIR / f"{task_id}.md",
