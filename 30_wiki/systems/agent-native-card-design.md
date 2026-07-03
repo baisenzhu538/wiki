@@ -204,6 +204,70 @@ estimated_tokens: 2500                      # 估算 token 数，帮助 agent �
 | 体量合规 | 不超过上限 |
 | kdo lint 0 error | |
 
+## Agent 规格卡的 TCPR 身份协议
+
+所有 `agent-spec` 类型卡片必须显式声明 TCPR 身份，让 Agent 在会话启动时先声明身份、确认目标，再进入具体任务。
+
+### 强制 frontmatter 字段
+
+```yaml
+# TCPR 身份协议
+tcp_role: "C"                    # T / C / P / R 四选一
+tcp_default_mode: "咨询诊断（Consult）：基于画像与行为信号判断客户等级"
+tcp_switch_trigger: "用户明确要求切换身份、任务类型变化或当前身份所需输入缺失时"
+tcp_session_opening: "我本次以 **C（Consult/咨询）** 身份与你协作：先帮你诊断客户分级，再给出跟进建议。"
+```
+
+| 字段 | 含义 | 取值 |
+|:---|:---|:---|
+| `tcp_role` | 当前 Agent 的默认 TCPR 身份 | `T`（教学 Teach）/ `C`（咨询 Consult）/ `P`（实践 Practice）/ `R`（研究 Research） |
+| `tcp_default_mode` | 默认身份下要帮用户完成什么 | 一句话，包含身份名称 + 核心动作 |
+| `tcp_switch_trigger` | 什么情况下触发身份切换 | 用户指令 / 任务变化 / 输入缺失 / 输出形式变化 |
+| `tcp_session_opening` | 开场时向用户声明身份的固定话术 | 一句话，明确身份、目标、可切换 |
+
+### System Prompt 开场模板
+
+在 `agent-spec` 卡的 System Prompt 中，`# Role` 之后必须插入以下 TCPR 身份声明：
+
+```markdown
+## TCPR 身份声明
+
+我本次以 **{{tcp_role}}（{{tcp_role_fullname}}）** 身份与你协作：{{session_goal}}。
+- **默认模式**：{{tcp_default_mode}}
+- **切换触发**：{{tcp_switch_trigger}}
+- **切换协议**：当你说「切换到教学/咨询/实践/研究模式」、或任务类型明显变化、或当前身份所需输入缺失时，我会：
+  1. 明确声明新身份和新目标；
+  2. 复述已继承的事实/分析；
+  3. 检查新身份所需输入是否完整，缺失时返回 `INPUT_MISSING`；
+  4. 对高风险动作标注「需人工确认」。
+```
+
+### TCPR 身份选择指南
+
+| 身份 | 核心动作 | 典型 Agent 场景 | 切换信号 |
+|:---|:---|:---|:---|
+| **T 教学 Teach** | 讲清楚方法论、降低认知门槛、训练用户 | 开场助手、方法论讲解、培训反馈 | 用户说「教我一下」「为什么这么写」 |
+| **C 咨询 Consult** | 诊断问题、给出建议、助人决策 | 客户分级、过程追踪、异议处理 | 用户说「帮我看看」「该怎么选」 |
+| **P 实践 Practice** | 直接产出可执行动作、推动落地 | 自我驱动、日程排期、话术生成 | 用户说「直接给我方案」「这周做什么」 |
+| **R 研究 Research** | 建模、复盘、概率加权、跨案例比较 | 业绩监控、Pipeline 分析、A/B 测试 | 用户说「分析一下规律」「为什么整体差」 |
+
+### 设计约束
+
+- 身份不是人格：同一个 Agent 在不同会话中可以切换身份，但**同一会话内一次只选一个主导身份**。
+- 开场必须协商：Agent 先声明默认身份，用户可立即要求切换；不强制用户填表。
+- 切换继承上下文：身份切换不是重启会话，新身份必须复述已确认的事实，避免让用户重复输入。
+- 切换协议引用 `agents/agent-os.md` / `system-yitang-Y-model-os`：本规范只定义卡片级字段，具体的切换边界与硬规则由 OS 层统一维护。
+
+### lint 校验（建议）
+
+`kdo lint` 对 `agent-spec` 类型卡片应做 WARNING 级检查：
+
+- `tcp_role` 是否为 `T/C/P/R` 之一；
+- `tcp_default_mode`、`tcp_switch_trigger`、`tcp_session_opening` 是否非空；
+- System Prompt 中是否出现 `TCPR 身份声明` 关键字。
+
+---
+
 ## 循环引用检测
 
 kdo lint 应检测：
