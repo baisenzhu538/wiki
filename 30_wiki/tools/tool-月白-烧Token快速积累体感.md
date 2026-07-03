@@ -20,15 +20,16 @@ updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 author: 月白
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: "2026-06-29"
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-多窗口并行工作法]]'
-- '[[tool-月白-竞品图精益替换法]]'
-- '[[tool-月白-餐饮海报AB测试法]]'
-- '[[tool-月白-线下门店设计复杂度评估]]'
-- '[[tool-月白-控制产品画面尺寸比例]]'
+- tool-月白-多窗口并行工作法
+- tool-月白-竞品图精益替换法
+- tool-月白-餐饮海报AB测试法
+- tool-月白-线下门店设计复杂度评估
+- tool-月白-控制产品画面尺寸比例
 - tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi
 - productization-judgment
 ---

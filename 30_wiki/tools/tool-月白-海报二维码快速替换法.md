@@ -16,19 +16,20 @@ definition_of_done:
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 author: 月白
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: "2026-06-29"
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-课程问题预埋法]]"
-- "[[tool-月白-提示词长度控制法]]"
-- "[[tool-月白-AI需求拆解咨询法]]"
-- "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
-- "[[tool-月白-三步作业反馈法]]"
+- tool-月白-课程问题预埋法
+- tool-月白-提示词长度控制法
+- tool-月白-AI需求拆解咨询法
+- tool-月白-用一堂方法论找最佳实践并拉满执行
+- tool-月白-三步作业反馈法
 ---
 # 技能：海报二维码快速替换法
 
