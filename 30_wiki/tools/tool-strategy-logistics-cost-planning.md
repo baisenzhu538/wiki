@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-logistics-cost-planning
 title: 物流费用三年节约计划：从单吨运费到全链成本的结构化拆解
 type: tool
@@ -18,13 +17,13 @@ created_at: '2026-06-22'
 updated_at: '2026-06-29'
 reviewed_by: pending
 related:
-- "[[strategy-domain-digest]]"
-- "[[tool-按月份摊销收入成本做计划]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[tool-按月份摊销收入成本做计划]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-strategy-three-horizons
 ---
-
 # 物流费用三年节约计划：从单吨运费到全链成本
 
 > 物流成本不是"运费"一个数字，而是由运量、单吨运费、运费总额、运费率、仓储费用共同构成的系统。三年计划模板的价值，在于强迫你把"降本"从口号拆成可追踪的结构。

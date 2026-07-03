@@ -1,11 +1,10 @@
 ---
-
 id: case-lean-zhanglei-pivot-decision
 title: 张磊 AMA：创业者 pivot 决策案例
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -23,11 +22,11 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-02.txt
 related:
-  - "[[lean-startup-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- framework-strategy-lean-validation
 ---
-
 # 张磊 AMA：创业者 pivot 决策案例
 
 > 核心结论：pivot/坚持/退出不是一次「拍脑袋」决策，而是一组按五步法拆出来的 A 类商业成败假设；张磊在 AMA Q6、Q9 中反复演示：先算单元模型和自由现金流两笔账，再用 ABCD 模型区分「低谷 vs 模式失效」，最后用 FALSE 模型左侧的低成本手段逐个证伪，才能避免沉没成本绑架。

@@ -1,5 +1,4 @@
 ---
-
 id: tool-osint-spiderfoot
 title: SpiderFoot：一键自动化OSINT扫描
 type: tool
@@ -18,14 +17,15 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- agent-native-card-design
+- tinyfish-agentic-web-infrastructure
 updated_at: '2026-06-29'
 ---
-
 # SpiderFoot：自动化OSINT扫描
 
 > 开源、免费、一键式。输入目标（域名/IP/邮箱/姓名），SpiderFoot自动跑200+数据源扫描——情报界的"全自动侦察兵"。

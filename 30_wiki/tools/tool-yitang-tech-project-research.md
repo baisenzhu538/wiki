@@ -7,7 +7,7 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: 2026-06-21
+updated_at: '2026-06-29'
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -29,17 +29,17 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡6（科技项目）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- "[[tool-yitang-content-ip-research]]"
-- "[[tool-yitang-overseas-research]]"
-- "[[tool-yitang-consulting-business-research]]"
-- "[[tool-yitang-organization-research]]"
-- "[[tool-yitang-b2b-gov-research]]"
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[yt-research-competitor-toolkit]]"
-
+- '[[tool-yitang-content-ip-research]]'
+- '[[tool-yitang-overseas-research]]'
+- '[[tool-yitang-consulting-business-research]]'
+- '[[tool-yitang-organization-research]]'
+- '[[tool-yitang-b2b-gov-research]]'
+- '[[framework-yitang-research-weapon-system]]'
+- '[[tool-yitang-reverse-data-analysis]]'
+- '[[yt-research-competitor-toolkit]]'
+- tool-yitang-research-company-disassembly
+- framework-yitang-six-layer-cross-validation
 ---
-
 # 科技型项目调研手段：浅中深三层10大评估法
 
 > **一句话**：科技项目的调研难在两点——技术信息在水下，市场反馈太少。浅层用公开信息反向推导，中层用逆向工程和展会渗透，深层直接找科学家和供应商。

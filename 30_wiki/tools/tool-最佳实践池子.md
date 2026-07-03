@@ -14,13 +14,15 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[pending_unknown]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[dk-ai-design-pitfalls]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[yitang-domain-digest]]"
-updated_at: 2026-07-02
+- '[[pending_unknown]]'
+- '[[decision-science-domain-digest]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[dk-ai-design-pitfalls]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[yitang-domain-digest]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
+updated_at: '2026-06-29'
 ---
 # 最佳实践池子：建立你的最佳实践知识库
 

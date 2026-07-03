@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-pet-fostering-user-research
 title: 案例：宠物寄养——观察现有替代方案
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：宠物寄养——观察替代方案
 
 **问题**：创业者想做宠物寄养服务，但不确定用户的真实需求和支付意愿。

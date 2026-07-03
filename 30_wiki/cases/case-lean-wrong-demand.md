@@ -1,11 +1,10 @@
 ---
-
 id: case-lean-wrong-demand
 title: 需求找错案例集
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8
@@ -25,11 +24,11 @@ source_refs:
 - 00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_ocr_text.md
 - 00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- case-lean-building-in-vacuum
 ---
-
 # 需求找错案例集
 
 ## 核心洞察

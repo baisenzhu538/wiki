@@ -1,12 +1,11 @@
 ---
-
 id: pilot-atomic-chunk-comparison
 title: Pilot：master-decision-hygiene 真原子切分对比
 type: analysis
 domain:
-  - ai-saas
-  - decision-making
-  - master
+- ai-saas
+- decision-making
+- master
 status: draft
 created_at: 2026-05-31
 source_refs:
@@ -18,13 +17,14 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
-  - "[[ocr-一堂-科学决策-稀缺机会窗口]]"
-  - "[[tool-decision-delay-intuition]]"
-  - "[[tool-decision-outside-view]]"
-  - "[[master-decision-hygiene]]"
-  - "[[gold-standard-manual-labels]]"
+- '[[ocr-一堂-科学决策-稀缺机会窗口]]'
+- '[[tool-decision-delay-intuition]]'
+- '[[tool-decision-outside-view]]'
+- '[[master-decision-hygiene]]'
+- '[[gold-standard-manual-labels]]'
+- data-curator-role-division
 ---
 # Pilot：master-decision-hygiene 真原子切分对比
 

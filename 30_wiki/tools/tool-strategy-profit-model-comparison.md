@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-profit-model-comparison
 title: 盈利模式对比框架——直营/强类直营/弱类直营/代理加盟四象限决策
 type: tool
@@ -15,13 +14,13 @@ updated_at: '2026-06-29'
 author: 黄药师（从 PPT _117 提取）
 reviewed_by: 欧阳锋
 related:
-- "[[strategy-domain-digest]]"
-- "[[framework-yitang-channel-partnership-map]]"
-- "[[case-yitang-goat-milk-channel-partnership]]"
-- "[[tool-yitang-channel-partnership-design]]"
-- "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[framework-yitang-channel-partnership-map]]'
+- '[[case-yitang-goat-milk-channel-partnership]]'
+- '[[tool-yitang-channel-partnership-design]]'
+- '[[pending_unknown]]'
+- case-strategy-m-brand-profit-model
 ---
-
 # 盈利模式对比框架
 
 > 冉鹏 PPT _117——四种盈利模式的全维度对比。业务设计六要素第 3 要素"价值获取"的操作工具。

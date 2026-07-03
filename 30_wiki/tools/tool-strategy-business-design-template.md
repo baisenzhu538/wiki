@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-business-design-template
 title: 业务单元业务设计模板
 type: tool
@@ -17,13 +16,13 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- "[[strategy-domain-digest]]"
-- "[[tool-按图索骥改良外部模板]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[tool-按图索骥改良外部模板]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- yt-business-model-definition
 ---
-
 # 业务单元业务设计模板
 
 > 为公司各业态/业务单元快速梳理业务设计的轻量模板，从客户场景到价值主张、产品服务、盈利模式，再到底层核心能力和业务策略。

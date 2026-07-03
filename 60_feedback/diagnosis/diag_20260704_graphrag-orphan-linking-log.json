@@ -1,0 +1,4317 @@
+[
+  {
+    "path": "30_wiki\\decisions\\kdo-priority-checklist.md",
+    "added": [
+      "kdo-protocol-implementation-roadmap"
+    ],
+    "score": 7.142659574468085
+  },
+  {
+    "path": "30_wiki\\concepts\\2026-05-17-深夜感想.md",
+    "added": [
+      "yt-system-course-map-lecture"
+    ],
+    "score": 27.506132075471697
+  },
+  {
+    "path": "30_wiki\\concepts\\aima-ai思维卡-外部链接归档.md",
+    "added": [
+      "yt-system-course-map-lecture"
+    ],
+    "score": 31.93316326530612
+  },
+  {
+    "path": "30_wiki\\concepts\\ai时代判断力口述.md",
+    "added": [
+      "yt-system-course-map-lecture"
+    ],
+    "score": 18.82732558139535
+  },
+  {
+    "path": "30_wiki\\concepts\\business-analysis.md",
+    "added": [
+      "yt-system-course-map-lecture",
+      "yt-case-mandatory-cases"
+    ],
+    "score": 14.858333333333333
+  },
+  {
+    "path": "30_wiki\\concepts\\design-ai-image-generation.md",
+    "added": [
+      "yt-system-course-map-lecture"
+    ],
+    "score": 29.67205882352941
+  },
+  {
+    "path": "30_wiki\\concepts\\learning-thinking.md",
+    "added": [
+      "yt-system-course-map-lecture"
+    ],
+    "score": 24.512012987012984
+  },
+  {
+    "path": "30_wiki\\concepts\\meta-prompt-eng.md",
+    "added": [
+      "yt-system-course-map-lecture",
+      "yt-case-mandatory-cases"
+    ],
+    "score": 14.858333333333333
+  },
+  {
+    "path": "30_wiki\\concepts\\product-ux.md",
+    "added": [
+      "yt-system-course-map-lecture",
+      "yt-case-mandatory-cases"
+    ],
+    "score": 15.615909090909092
+  },
+  {
+    "path": "30_wiki\\concepts\\tools-workflows.md",
+    "added": [
+      "yt-system-course-map-lecture"
+    ],
+    "score": 17.73552631578947
+  },
+  {
+    "path": "30_wiki\\concepts\\writing-content.md",
+    "added": [
+      "yt-system-course-map-lecture"
+    ],
+    "score": 20.051315789473684
+  },
+  {
+    "path": "30_wiki\\concepts\\在设计小伙伴的反馈还挺好的.md",
+    "added": [
+      "yt-system-course-map-lecture"
+    ],
+    "score": 30.525
+  },
+  {
+    "path": "30_wiki\\concepts\\存储策略.md",
+    "added": [
+      "yt-system-course-map-lecture",
+      "yt-case-mandatory-cases"
+    ],
+    "score": 18.152906976744184
+  },
+  {
+    "path": "30_wiki\\concepts\\老朱的水感-2026年5月.md",
+    "added": [
+      "yt-system-course-map-lecture"
+    ],
+    "score": 24.070454545454545
+  },
+  {
+    "path": "30_wiki\\concepts\\视觉prompt三层操作系统-srom-visual-os.md",
+    "added": [
+      "yt-system-course-map-lecture"
+    ],
+    "score": 25.810714285714283
+  },
+  {
+    "path": "30_wiki\\concepts\\那今天不会.md",
+    "added": [
+      "yt-system-course-map-lecture"
+    ],
+    "score": 24.070454545454545
+  },
+  {
+    "path": "30_wiki\\concepts\\ai-俱乐部人和-ai-协作-五层结构.md",
+    "added": [
+      "yt-system-course-map-lecture"
+    ],
+    "score": 24.584322033898303
+  },
+  {
+    "path": "30_wiki\\concepts\\data-labeling-best-practices-report.md",
+    "added": [
+      "kdo-15-dimension-label-spec",
+      "labeling-research-alignment"
+    ],
+    "score": 10.753317757009345
+  },
+  {
+    "path": "30_wiki\\concepts\\pilot-atomic-chunk-comparison.md",
+    "added": [
+      "data-curator-role-division",
+      "tool-decision-outside-view"
+    ],
+    "score": 12.734285714285715
+  },
+  {
+    "path": "30_wiki\\tools\\tool-1视角升级思考法.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.40388888888889
+  },
+  {
+    "path": "30_wiki\\tools\\tool-ai-oral-spray-input.md",
+    "added": [
+      "case-decision-ai-assisted-vs-human"
+    ],
+    "score": 8.98529702970297
+  },
+  {
+    "path": "30_wiki\\tools\\tool-ai-purpose-bias-check.md",
+    "added": [
+      "tool-ai-narrative-test"
+    ],
+    "score": 9.14
+  },
+  {
+    "path": "30_wiki\\tools\\tool-ai辅助学习.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 17.015
+  },
+  {
+    "path": "30_wiki\\tools\\tool-react行动推理循环.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.40388888888889
+  },
+  {
+    "path": "30_wiki\\tools\\tool-Truman-AI工具选型决策.md",
+    "added": [
+      "productization-judgment"
+    ],
+    "score": 6.292777777777777
+  },
+  {
+    "path": "30_wiki\\tools\\tool-Truman-AI时代IPO模型重构.md",
+    "added": [
+      "yt-model-ipo-learning-strategy"
+    ],
+    "score": 13.097169811320756
+  },
+  {
+    "path": "30_wiki\\tools\\tool-Truman-AI能力分层学习路径.md",
+    "added": [
+      "ai-methodology-tools"
+    ],
+    "score": 7.740806451612903
+  },
+  {
+    "path": "30_wiki\\tools\\tool-Truman-Feature特性层训练法.md",
+    "added": [
+      "plan_20260531_data-curator-v1.3",
+      "data-curator-role-division"
+    ],
+    "score": 6.63
+  },
+  {
+    "path": "30_wiki\\tools\\tool-Truman-Skill全生命周期管理.md",
+    "added": [
+      "case-ai-agent-milestone-design",
+      "tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie"
+    ],
+    "score": 7.4540243902439025
+  },
+  {
+    "path": "30_wiki\\tools\\tool-Truman-人在环渐进自动化策略.md",
+    "added": [
+      "tool-ai-deliverable-polish-loop",
+      "case-ai-agent-milestone-design"
+    ],
+    "score": 7.332727272727273
+  },
+  {
+    "path": "30_wiki\\tools\\tool-Truman-复杂项目AI落地稳定性保障.md",
+    "added": [
+      "tinyfish-agentic-web-infrastructure"
+    ],
+    "score": 11.075555555555555
+  },
+  {
+    "path": "30_wiki\\tools\\tool-Truman-多Agent通信协作方案.md",
+    "added": [
+      "tool-纪浩-项目启动五问法",
+      "tool-ai-ai-workspace-setup"
+    ],
+    "score": 7.872142857142857
+  },
+  {
+    "path": "30_wiki\\tools\\tool-Truman-本地记忆与云端记忆管理.md",
+    "added": [
+      "case-decision-ai-assisted-vs-human"
+    ],
+    "score": 7.3405813953488375
+  },
+  {
+    "path": "30_wiki\\tools\\tool-Truman-知识库最佳实践构建.md",
+    "added": [
+      "case-truman-ai-partner",
+      "yt-note-checklist-concept"
+    ],
+    "score": 6.117402597402597
+  },
+  {
+    "path": "30_wiki\\tools\\tool-Truman-短视频自动化上传工作流.md",
+    "added": [
+      "tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi"
+    ],
+    "score": 7.594102564102564
+  },
+  {
+    "path": "30_wiki\\tools\\tool-三阶追问法穷尽决策要素.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.605909090909092
+  },
+  {
+    "path": "30_wiki\\tools\\tool-专家访谈十步法.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 15.27109756097561
+  },
+  {
+    "path": "30_wiki\\tools\\tool-专家访谈学习.md",
+    "added": [
+      "tool-寻找学习教练法"
+    ],
+    "score": 18.229285714285716
+  },
+  {
+    "path": "30_wiki\\tools\\tool-专题笔记整理.md",
+    "added": [
+      "tool-专题笔记脑图整理法",
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 15.948962264150945
+  },
+  {
+    "path": "30_wiki\\tools\\tool-主动摘要压缩上下文.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 15.771410256410256
+  },
+  {
+    "path": "30_wiki\\tools\\tool-人生红点战略对齐.md",
+    "added": [
+      "tool-ai-prd-for-ai",
+      "yt-model-ipo-learning-strategy"
+    ],
+    "score": 15.27109756097561
+  },
+  {
+    "path": "30_wiki\\tools\\tool-从案例中学习.md",
+    "added": [
+      "tool-从案例中学习正反案例法"
+    ],
+    "score": 38.58907407407408
+  },
+  {
+    "path": "30_wiki\\tools\\tool-代入场景推演要素法.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.81732558139535
+  },
+  {
+    "path": "30_wiki\\tools\\tool-任务拆解为工作流.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.40388888888889
+  },
+  {
+    "path": "30_wiki\\tools\\tool-体系框架构建.md",
+    "added": [
+      "tool-mece体系框架法"
+    ],
+    "score": 25.515
+  },
+  {
+    "path": "30_wiki\\tools\\tool-使用优先级快筛卡锁定核心矛盾.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.848333333333333
+  },
+  {
+    "path": "30_wiki\\tools\\tool-使用概念辨析卡区分易混淆概念.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.848333333333333
+  },
+  {
+    "path": "30_wiki\\tools\\tool-六维窗口期扫描法.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.657857142857143
+  },
+  {
+    "path": "30_wiki\\tools\\tool-分层标注重点信息.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 15.771410256410256
+  },
+  {
+    "path": "30_wiki\\tools\\tool-创始人二当家分工协作模式.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.210652173913044
+  },
+  {
+    "path": "30_wiki\\tools\\tool-制作行业化要素检查清单.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.67826530612245
+  },
+  {
+    "path": "30_wiki\\tools\\tool-动手建模提炼.md",
+    "added": [
+      "tool-动手建模法"
+    ],
+    "score": 22.800714285714285
+  },
+  {
+    "path": "30_wiki\\tools\\tool-区分获客渠道计算单元roi.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.062169811320755
+  },
+  {
+    "path": "30_wiki\\tools\\tool-反向提示获取优化建议.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 16.041315789473686
+  },
+  {
+    "path": "30_wiki\\tools\\tool-反向教学深化理解.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 16.32581081081081
+  },
+  {
+    "path": "30_wiki\\tools\\tool-反向记录整理思路.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 16.32581081081081
+  },
+  {
+    "path": "30_wiki\\tools\\tool-反向采访挖掘深度.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 15.771410256410256
+  },
+  {
+    "path": "30_wiki\\tools\\tool-城市合伙人模式复制能力.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 15.038809523809524
+  },
+  {
+    "path": "30_wiki\\tools\\tool-增强数据供给.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.358137254901962
+  },
+  {
+    "path": "30_wiki\\tools\\tool-复盘推演练习.md",
+    "added": [
+      "tool-复盘推演法"
+    ],
+    "score": 34.083627450980394
+  },
+  {
+    "path": "30_wiki\\tools\\tool-多模型对比抽卡.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.40388888888889
+  },
+  {
+    "path": "30_wiki\\tools\\tool-多轮确认防偏差.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 15.515
+  },
+  {
+    "path": "30_wiki\\tools\\tool-对标借鉴他人决策维度.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.40388888888889
+  },
+  {
+    "path": "30_wiki\\tools\\tool-封装可复用skill.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 15.515
+  },
+  {
+    "path": "30_wiki\\tools\\tool-将未中标成本纳入循环计算真实投标成本.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.358137254901962
+  },
+  {
+    "path": "30_wiki\\tools\\tool-应用人员降级公式实现标准化.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.67826530612245
+  },
+  {
+    "path": "30_wiki\\tools\\tool-建立知识联系.md",
+    "added": [
+      "tool-四层联系建立法"
+    ],
+    "score": 29.696818181818184
+  },
+  {
+    "path": "30_wiki\\tools\\tool-建立策略-要素映射表设计对抗策略.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.515
+  },
+  {
+    "path": "30_wiki\\tools\\tool-快招品牌总部模拟调研.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.210652173913044
+  },
+  {
+    "path": "30_wiki\\tools\\tool-思维链显化推理.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 15.27109756097561
+  },
+  {
+    "path": "30_wiki\\tools\\tool-思维验证交叉检验.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 15.27109756097561
+  },
+  {
+    "path": "30_wiki\\tools\\tool-执行对标研究三步法.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.062169811320755
+  },
+  {
+    "path": "30_wiki\\tools\\tool-按分阶练习路径渐进掌握方法.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.515
+  },
+  {
+    "path": "30_wiki\\tools\\tool-按图索骥改良外部模板.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.67826530612245
+  },
+  {
+    "path": "30_wiki\\tools\\tool-按月份摊销收入成本做计划.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.848333333333333
+  },
+  {
+    "path": "30_wiki\\tools\\tool-推行分层标准化策略.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.210652173913044
+  },
+  {
+    "path": "30_wiki\\tools\\tool-提升笔记练习频次的方法.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.411551724137931
+  },
+  {
+    "path": "30_wiki\\tools\\tool-提示词结构化迭代.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.787727272727274
+  },
+  {
+    "path": "30_wiki\\tools\\tool-敏捷发布快速迭代搭建体系.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.605909090909092
+  },
+  {
+    "path": "30_wiki\\tools\\tool-数据分层供给.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.605909090909092
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AIGC模型选型决策法.md",
+    "added": [
+      "aigc设计基础01ai生图原理与提示词基本功"
+    ],
+    "score": 7.924090909090908
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI去文字-稿定设计快速出图法.md",
+    "added": [
+      "sk-ai-question-problem-checklist"
+    ],
+    "score": 6.635
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI智价比评估决策.md",
+    "added": [
+      "tool-纪浩-项目启动五问法",
+      "tinyfish-agentic-web-infrastructure"
+    ],
+    "score": 7.023771929824561
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI模型选择策略.md",
+    "added": [
+      "aigc设计基础01ai生图原理与提示词基本功"
+    ],
+    "score": 10.112701149425288
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI生成电商白底图.md",
+    "added": [
+      "aigc设计基础01ai生图原理与提示词基本功"
+    ],
+    "score": 6.046645569620253
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI设计里程碑拆解法.md",
+    "added": [
+      "tool-yitang-research-deep-attribution"
+    ],
+    "score": 13.858333333333333
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-AI质价比评估方法.md",
+    "added": [
+      "tool-纪浩-项目启动五问法"
+    ],
+    "score": 7.288584905660377
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-Token智甲比控制法.md",
+    "added": [
+      "tool-agent-research-supervisor"
+    ],
+    "score": 5.959024390243902
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-分步迭代改图法.md",
+    "added": [
+      "tool-纪浩-问题导向备课法",
+      "productization-judgment"
+    ],
+    "score": 7.361153846153846
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-创作与执行双模式切换.md",
+    "added": [
+      "framework-yitang-shishi-qiushi",
+      "yt-model-entrepreneur-map"
+    ],
+    "score": 6.621923076923077
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-小红书封面趋势判断法.md",
+    "added": [
+      "tool-纪浩-problem-validation-four-checks",
+      "sk-ai-question-problem-checklist"
+    ],
+    "score": 6.704603174603174
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-控制产品画面尺寸比例.md",
+    "added": [
+      "tool-yitang-reverse-data-analysis"
+    ],
+    "score": 7.676666666666666
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-烧Token快速积累体感.md",
+    "added": [
+      "tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi",
+      "productization-judgment"
+    ],
+    "score": 6.9782758620689656
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-精准提示词消除模型幻觉.md",
+    "added": [
+      "aigc设计基础01ai生图原理与提示词基本功"
+    ],
+    "score": 8.218703703703703
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-纳米级抄大师训练法.md",
+    "added": [
+      "modeling-three-stages",
+      "tool-ai-parallel-validation"
+    ],
+    "score": 8.492368421052632
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-设计素材脱敏处理规范.md",
+    "added": [
+      "tool-ai-deliverable-polish-loop"
+    ],
+    "score": 5.832727272727273
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-设计项目MVP拆解法.md",
+    "added": [
+      "aigc文创案例设计课leo文创ip从0到1全流程"
+    ],
+    "score": 9.1925
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-里程碑思维-找对标优先于做设计.md",
+    "added": [
+      "tool-yitang-research-deep-attribution",
+      "yt-product-kernel-to-business-model"
+    ],
+    "score": 11.343181818181817
+  },
+  {
+    "path": "30_wiki\\tools\\tool-月白-里程碑思维拆解设计流程.md",
+    "added": [
+      "tool-yitang-research-deep-attribution"
+    ],
+    "score": 15.958962264150944
+  },
+  {
+    "path": "30_wiki\\tools\\tool-模型匹配调度.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 15.515
+  },
+  {
+    "path": "30_wiki\\tools\\tool-模型组合调用.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 15.771410256410256
+  },
+  {
+    "path": "30_wiki\\tools\\tool-深度分层学习.md",
+    "added": [
+      "framework-wanghuan-ai-five-level-ladder",
+      "framework-yitang-18-strategy-cards"
+    ],
+    "score": 10.726680672268907
+  },
+  {
+    "path": "30_wiki\\tools\\tool-清单小抄制作.md",
+    "added": [
+      "tool-清单小抄工具箱法"
+    ],
+    "score": 11.465495049504952
+  },
+  {
+    "path": "30_wiki\\tools\\tool-现场建模式萃取笔记.md",
+    "added": [
+      "yt-entrepreneur-research-cognition",
+      "yt-note-l6-extraction"
+    ],
+    "score": 5.24940170940171
+  },
+  {
+    "path": "30_wiki\\tools\\tool-用旗舰店替代纯招商投入.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.922407407407407
+  },
+  {
+    "path": "30_wiki\\tools\\tool-知识库团队管理.md",
+    "added": [
+      "tool-yitang-bp-analysis"
+    ],
+    "score": 6.5042753623188405
+  },
+  {
+    "path": "30_wiki\\tools\\tool-稀缺资源机会成本比对法.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.67826530612245
+  },
+  {
+    "path": "30_wiki\\tools\\tool-自我反馈修正笔记姿势.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.062169811320755
+  },
+  {
+    "path": "30_wiki\\tools\\tool-设计对抗效果追踪看板.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.40388888888889
+  },
+  {
+    "path": "30_wiki\\tools\\tool-费曼学习法三句话提炼.md",
+    "added": [
+      "tool-费曼简单提炼法"
+    ],
+    "score": 12.969545454545454
+  },
+  {
+    "path": "30_wiki\\tools\\tool-费曼学习法实践讲香课题.md",
+    "added": [
+      "tool-分享输出检验法"
+    ],
+    "score": 5.3498623853211
+  },
+  {
+    "path": "30_wiki\\tools\\tool-辩证讨论深化.md",
+    "added": [
+      "tool-辩证讨论法"
+    ],
+    "score": 13.575606060606061
+  },
+  {
+    "path": "30_wiki\\tools\\tool-逐字稿练习演讲.md",
+    "added": [
+      "tool-panproduct-org-five-step"
+    ],
+    "score": 6.533759398496241
+  },
+  {
+    "path": "30_wiki\\tools\\tool-通过综合案例沙盘走通全流程.md",
+    "added": [
+      "yt-five-step-method-complete",
+      "tool-yitang-research-deep-attribution"
+    ],
+    "score": 12.990405405405406
+  },
+  {
+    "path": "30_wiki\\tools\\tool-马易-AI落地四阶段验证法.md",
+    "added": [
+      "tool-ai-landing-five-steps"
+    ],
+    "score": 10.625384615384617
+  },
+  {
+    "path": "30_wiki\\tools\\tool-马易-AI落地场景筛选-四有新人法则.md",
+    "added": [
+      "tool-ai-deliverable-polish-loop"
+    ],
+    "score": 7.412941176470588
+  },
+  {
+    "path": "30_wiki\\tools\\tool-马易-AI落地场景识别-拆工作流找场景.md",
+    "added": [
+      "ai-landing-scene-selection"
+    ],
+    "score": 6.146578947368421
+  },
+  {
+    "path": "30_wiki\\tools\\tool-马易-AI项目上线-先平行再独行.md",
+    "added": [
+      "tool-ai-parallel-validation"
+    ],
+    "score": 7.489135802469136
+  },
+  {
+    "path": "30_wiki\\tools\\tool-马易-RPA数据整合法.md",
+    "added": [
+      "tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi"
+    ],
+    "score": 6.8991588785046725
+  },
+  {
+    "path": "30_wiki\\tools\\tool-马易-工作流优先于AIGC的决策方法.md",
+    "added": [
+      "tool-ai-deliverable-polish-loop"
+    ],
+    "score": 7.469638554216867
+  },
+  {
+    "path": "30_wiki\\tools\\tool-马易-平台模式验证法.md",
+    "added": [
+      "yt-panproduct-demand-user-perspective",
+      "tool-yitang-ai-report-drafting"
+    ],
+    "score": 5.525784313725491
+  },
+  {
+    "path": "30_wiki\\tools\\tool-马易-数字员工FD拆解落地.md",
+    "added": [
+      "tool-纪浩-项目启动五问法"
+    ],
+    "score": 8.14
+  },
+  {
+    "path": "30_wiki\\tools\\tool-马易-数据标注正确法.md",
+    "added": [
+      "tool-yitang-bp-analysis"
+    ],
+    "score": 5.1175
+  },
+  {
+    "path": "30_wiki\\tools\\tool-马易-最小场景优先落地法.md",
+    "added": [
+      "tool-yitang-bp-analysis"
+    ],
+    "score": 5.142301587301587
+  },
+  {
+    "path": "30_wiki\\tools\\tool-马易-知识库-回答技巧双建设.md",
+    "added": [
+      "tool-yitang-bp-analysis"
+    ],
+    "score": 5.093461538461538
+  },
+  {
+    "path": "30_wiki\\tools\\tool-马易-需求创造验证法.md",
+    "added": [
+      "tool-yitang-bp-analysis"
+    ],
+    "score": 5.142301587301587
+  },
+  {
+    "path": "30_wiki\\tools\\tool-马易-风口痛点识别法.md",
+    "added": [
+      "tool-yitang-bp-analysis"
+    ],
+    "score": 5.036481481481482
+  },
+  {
+    "path": "30_wiki\\decisions\\proposal-kdo-flywheel-infrastructure.md",
+    "added": [
+      "kdo-flywheel",
+      "knowledge-delivery-os-快速体验指南-飞书云文档"
+    ],
+    "score": 9.493372093023256
+  },
+  {
+    "path": "30_wiki\\decisions\\proposal-yaml-frontmatter-standardization.md",
+    "added": [
+      "huangyaoshi-tagging-and-scope-proposal",
+      "tool-ai-voice-input-doubao"
+    ],
+    "score": 5.396792452830189
+  },
+  {
+    "path": "30_wiki\\decisions\\sprint-6-cli-gap-proposal.md",
+    "added": [
+      "knowledge-delivery-os-快速体验指南-飞书云文档",
+      "agent-native-card-design"
+    ],
+    "score": 9.463275862068965
+  },
+  {
+    "path": "30_wiki\\decisions\\proposal-graph-rag-star-fix.md",
+    "added": [
+      "modeling-to-kdo-toolchain"
+    ],
+    "score": 10.102701149425288
+  },
+  {
+    "path": "30_wiki\\cases\\case-truman-motivation-map-12-versions.md",
+    "added": [
+      "case-truman-personal-growth-map-creation",
+      "case-course-milestone-model"
+    ],
+    "score": 10.058435114503817
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-ceo-must-do-user-research.md",
+    "added": [
+      "tool-yitang-amazon-bestseller",
+      "tool-yitang-ai-monitoring-alert"
+    ],
+    "score": 7.103333333333333
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-research-delegation-in-scaling.md",
+    "added": [
+      "tool-yitang-ai-assisted-analysis"
+    ],
+    "score": 8.937621359223302
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-research-responsibility-boundary.md",
+    "added": [
+      "tool-yitang-amazon-bestseller",
+      "tool-yitang-ai-monitoring-alert"
+    ],
+    "score": 7.797777777777777
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-yitang-ai-research-10-assumptions.md",
+    "added": [
+      "tool-yitang-research-cross-validation",
+      "tool-yitang-research-company-disassembly"
+    ],
+    "score": 6.6866666666666665
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-yitang-ai-research-human-loop.md",
+    "added": [
+      "tool-yitang-amazon-bestseller",
+      "tool-yitang-ai-monitoring-alert"
+    ],
+    "score": 7.060816326530611
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-yitang-facts-first.md",
+    "added": [
+      "concept-yitang-research-facts-first"
+    ],
+    "score": 6.705672268907564
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-yitang-ideal-research-goal.md",
+    "added": [
+      "tool-yitang-amazon-bestseller",
+      "tool-yitang-ai-monitoring-alert"
+    ],
+    "score": 7.217802197802198
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-yitang-research-aesthetic.md",
+    "added": [
+      "tool-yitang-amazon-bestseller",
+      "tool-yitang-ai-monitoring-alert"
+    ],
+    "score": 7.060816326530611
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-yitang-research-mindset.md",
+    "added": [
+      "tool-yitang-amazon-bestseller",
+      "tool-yitang-ai-monitoring-alert"
+    ],
+    "score": 7.147659574468085
+  },
+  {
+    "path": "30_wiki\\concepts\\product-business-strategy.md",
+    "added": [
+      "business-validation-models-collaboration",
+      "supply-chain-beverage"
+    ],
+    "score": 8.332692307692309
+  },
+  {
+    "path": "30_wiki\\concepts\\source-code-delivery-model.md",
+    "added": [
+      "七件事集团",
+      "yt-panproduct-demand-user-perspective"
+    ],
+    "score": 10.321793893129772
+  },
+  {
+    "path": "30_wiki\\concepts\\yt-lean-essence.md",
+    "added": [
+      "yt-lean-assumption-prioritization"
+    ],
+    "score": 17.43
+  },
+  {
+    "path": "30_wiki\\concepts\\yt-tob-cash-flow.md",
+    "added": [
+      "yt-tob-demand-metrics"
+    ],
+    "score": 8.29063909774436
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-yitang-nine-layer-deep-dig.md",
+    "added": [
+      "framework-structured-analytic-techniques"
+    ],
+    "score": 8.167857142857143
+  },
+  {
+    "path": "30_wiki\\frameworks\\yt-lean-false-model-ai.md",
+    "added": [
+      "yt-lean-assumption-verification-3means",
+      "yt-lean-daily-probability-decision"
+    ],
+    "score": 10.783584905660378
+  },
+  {
+    "path": "30_wiki\\frameworks\\yt-lean-qualitative-quantitative-research.md",
+    "added": [
+      "yitang-qualitative-to-quantitative"
+    ],
+    "score": 43.64616822429907
+  },
+  {
+    "path": "30_wiki\\frameworks\\yt-tob-product-kernel.md",
+    "added": [
+      "yt-tob-demand-metrics"
+    ],
+    "score": 10.368333333333334
+  },
+  {
+    "path": "30_wiki\\frameworks\\yt-tob-unit-model.md",
+    "added": [
+      "yt-tool-unit-model-selection",
+      "yt-tob-solution-model"
+    ],
+    "score": 10.04612676056338
+  },
+  {
+    "path": "30_wiki\\tools\\mineru-pdf-parsing-setup.md",
+    "added": [
+      "tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua"
+    ],
+    "score": 7.215537634408602
+  },
+  {
+    "path": "30_wiki\\tools\\tool-doris-industry-report-search-tips.md",
+    "added": [
+      "tool-yitang-research-follow-map",
+      "framework-yitang-18-strategy-cards"
+    ],
+    "score": 7.2572222222222225
+  },
+  {
+    "path": "30_wiki\\tools\\tool-doris-industry-report-source-evaluation.md",
+    "added": [
+      "framework-yitang-six-layer-cross-validation"
+    ],
+    "score": 10.98539603960396
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-ai-research-workflow.md",
+    "added": [
+      "case-decision-ai-assisted-vs-human"
+    ],
+    "score": 10.240806451612904
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-b2b-gov-research.md",
+    "added": [
+      "framework-yitang-six-layer-cross-validation",
+      "concept-yitang-research-objective"
+    ],
+    "score": 10.303688524590164
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-comparable-company-selection.md",
+    "added": [
+      "tool-yitang-research-deep-attribution"
+    ],
+    "score": 11.106632653061224
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-consulting-business-research.md",
+    "added": [
+      "framework-yitang-six-layer-cross-validation",
+      "concept-yitang-research-objective"
+    ],
+    "score": 10.44380341880342
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-consumer-goods-research.md",
+    "added": [
+      "framework-yitang-six-layer-cross-validation",
+      "concept-yitang-research-objective"
+    ],
+    "score": 10.798584905660379
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-content-ip-research.md",
+    "added": [
+      "framework-yitang-six-layer-cross-validation",
+      "concept-yitang-research-objective"
+    ],
+    "score": 10.199603174603174
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-database-index.md",
+    "added": [
+      "tool-yitang-business-registration-check"
+    ],
+    "score": 11.68463503649635
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-field-research.md",
+    "added": [
+      "framework-doris-industry-report-4step",
+      "concept-yitang-research-scope"
+    ],
+    "score": 6.981747572815534
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-financial-report-intelligence.md",
+    "added": [
+      "yt-business-model-unit-economics",
+      "tool-yitang-research-unit-model"
+    ],
+    "score": 7.252272727272727
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-hardware-product-disassembly.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.657857142857143
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-ipo-annual-report-cheat-sheet.md",
+    "added": [
+      "tool-yitang-sales-toolkit-radar"
+    ],
+    "score": 6.609999999999999
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-job-intelligence-research.md",
+    "added": [
+      "tool-yitang-research-exhaust-means",
+      "framework-yitang-growth-flywheel"
+    ],
+    "score": 6.914158878504672
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-online-product-experience.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.532543859649124
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-organization-research.md",
+    "added": [
+      "framework-yitang-six-layer-cross-validation"
+    ],
+    "score": 8.315076335877864
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-overseas-research.md",
+    "added": [
+      "framework-yitang-six-layer-cross-validation"
+    ],
+    "score": 8.350581395348838
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-public-information-research.md",
+    "added": [
+      "tool-yitang-research-competitive-quadrant",
+      "framework-yitang-growth-flywheel"
+    ],
+    "score": 6.869862385321101
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-public-sentiment-research.md",
+    "added": [
+      "tool-yitang-research-unit-model",
+      "tool-yitang-research-competitor-tracking"
+    ],
+    "score": 10.638603603603604
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-recruit-user-interview.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.787727272727274
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-review-analysis.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.922407407407407
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-security-guard-intel.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.411551724137931
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-social-engineering-research.md",
+    "added": [
+      "framework-yitang-growth-flywheel",
+      "tool-yitang-research-continuous-tracking"
+    ],
+    "score": 6.597301587301587
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-store-franchise-research.md",
+    "added": [
+      "framework-yitang-six-layer-cross-validation",
+      "concept-yitang-research-objective"
+    ],
+    "score": 10.414830508474576
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-supplier-interview.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.922407407407407
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-supply-chain-research.md",
+    "added": [
+      "tool-yitang-research-continuous-tracking"
+    ],
+    "score": 8.679867256637168
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-tech-project-research.md",
+    "added": [
+      "tool-yitang-research-company-disassembly",
+      "framework-yitang-six-layer-cross-validation"
+    ],
+    "score": 8.689867256637168
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-user-interview-5steps.md",
+    "added": [
+      "tool-yitang-research-deep-attribution",
+      "tool-yitang-research-cross-validation"
+    ],
+    "score": 8.966176470588236
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-ai-tools.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.657857142857143
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-anonymous-identity.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 11.765
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-field-reconnaissance.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.657857142857143
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-former-employee-network.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.657857142857143
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-full-product-experience.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.358137254901962
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-industry-expert.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.532543859649124
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-insider-intelligence.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.657857142857143
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-media-search.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.787727272727274
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-partner-research.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.532543859649124
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-product-reputation.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.062169811320755
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-product-reverse.md",
+    "added": [
+      "tool-yitang-reverse-data-analysis",
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.676666666666668
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-public-official-info.md",
+    "added": [
+      "tool-ai-prd-for-ai",
+      "tool-yitang-business-registration-check"
+    ],
+    "score": 11.148802816901409
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-third-party-database.md",
+    "added": [
+      "tool-yitang-business-registration-check",
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 10.16
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weapon-user-direct-interview.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.411551724137931
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-web-scraping-research.md",
+    "added": [
+      "web-scraping-三剑客-scrapling-crawl4ai-firecrawl",
+      "framework-multi-agent-research-architecture"
+    ],
+    "score": 10.448271604938272
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-wechat-group-infiltration.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.294661016949153
+  },
+  {
+    "path": "30_wiki\\cases\\case-doris-2014-music-streaming-prediction.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.962368421052632
+  },
+  {
+    "path": "30_wiki\\cases\\case-doris-beauty-ecommerce-channel.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 8.494338842975207
+  },
+  {
+    "path": "30_wiki\\cases\\case-doris-catering-chain-benchmark.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 10.124589041095891
+  },
+  {
+    "path": "30_wiki\\cases\\case-doris-crossborder-ecommerce-opportunity.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.718703703703703
+  },
+  {
+    "path": "30_wiki\\cases\\case-doris-grab-industry-cognition.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.962368421052632
+  },
+  {
+    "path": "30_wiki\\cases\\case-doris-outbound-travel-community.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 10.181666666666667
+  },
+  {
+    "path": "30_wiki\\cases\\case-liutao-douyin-team-leader-9m.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.206489361702129
+  },
+  {
+    "path": "30_wiki\\cases\\case-liutao-electric-bike-localization.md",
+    "added": [
+      "framework-yitang-high-level-execution",
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 10.878709677419355
+  },
+  {
+    "path": "30_wiki\\cases\\case-neworiental-prospectus-marketing.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.861153846153847
+  },
+  {
+    "path": "30_wiki\\cases\\case-popmart-prospectus-pricing.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.911103896103896
+  },
+  {
+    "path": "30_wiki\\cases\\case-proya-betaine-skincare-benchmark.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 10.124589041095891
+  },
+  {
+    "path": "30_wiki\\cases\\case-xian-franchise-location-decision.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.10778350515464
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-ai-time-management-coach.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.911103896103896
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-beauty-device-overseas-sales.md",
+    "added": [
+      "tool-yitang-amazon-bestseller"
+    ],
+    "score": 9.961176470588235
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-competitor-pricing-intelligence.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.765
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-consumer-offline-channel-decision.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.6294578313253
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-doorstep-nail-service-context.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.385786516853933
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-doorstep-pet-feeding-trust.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.6294578313253
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-elderly-home-roleplay.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 8.927621359223302
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-fake-interview-intelligence.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.348333333333334
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-hardware-factory-photo.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.812468354430381
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-homestay-reception-design.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.586428571428572
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-jtbd-story-formula.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.385786516853933
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-luckin-field-research.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.718703703703703
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-mahjong-machine-fake-order.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.718703703703703
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-mvp-reward-interview-waste.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.718703703703703
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-pet-fostering-user-research.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.861153846153847
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-sanjieke-benchmark-failure.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.962368421052632
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-senior-university-product-design.md",
+    "added": [
+      "concept-yitang-research-objective",
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 10.196666666666665
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-ski-project-user-as-expert.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.765
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-supplier-security-guard.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.503372093023255
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-tob-grinding-machine.md",
+    "added": [
+      "case-yitang-tob-career-planning",
+      "case-yitang-tob-smart-park"
+    ],
+    "score": 19.095808080808084
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-track-selection-research.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.911103896103896
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-travel-receipt-analysis.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.503372093023255
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-voice-robot-companion-design.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.503372093023255
+  },
+  {
+    "path": "30_wiki\\cases\\case-zhanglan-amusement-park-undercover.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.586428571428572
+  },
+  {
+    "path": "30_wiki\\cases\\case-zhanglei-furniture-overseas-market-selection.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.673536585365854
+  },
+  {
+    "path": "30_wiki\\cases\\case-zhanglei-nursing-home-family.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.348333333333334
+  },
+  {
+    "path": "30_wiki\\cases\\case-zhanglei-twist-egg-machine-yogurt-nursing.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.586428571428572
+  },
+  {
+    "path": "30_wiki\\cases\\yt-lean-beauty-store-conversion.md",
+    "added": [
+      "yt-model-five-step-canvas"
+    ],
+    "score": 6.789385964912281
+  },
+  {
+    "path": "30_wiki\\cases\\yt-lean-daily-chemical-mvp.md",
+    "added": [
+      "yt-lean-assumption-verification-3means"
+    ],
+    "score": 10.11077519379845
+  },
+  {
+    "path": "30_wiki\\cases\\yt-lean-flower-mom-group-leader.md",
+    "added": [
+      "yt-lean-assumption-prioritization",
+      "yt-pitch-conflict"
+    ],
+    "score": 9.992962962962963
+  },
+  {
+    "path": "30_wiki\\decisions\\kdo-input-channel-strategy-2026-06-16.md",
+    "added": [
+      "agent-native-card-design",
+      "tinyfish-agentic-web-infrastructure"
+    ],
+    "score": 10.813157894736843
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260501_05858800-improvement-plan.md",
+    "added": [
+      "agent-ecosystem-design",
+      "kdo-protocol-implementation-roadmap"
+    ],
+    "score": 8.584054054054054
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260501_47264869-improvement-plan.md",
+    "added": [
+      "agent-ecosystem-design",
+      "kdo-protocol-implementation-roadmap"
+    ],
+    "score": 8.584054054054054
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260501_8001399c-improvement-plan.md",
+    "added": [
+      "agent-ecosystem-design",
+      "kdo-protocol-implementation-roadmap"
+    ],
+    "score": 8.53
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260501_85a84b92-improvement-plan.md",
+    "added": [
+      "agent-ecosystem-design",
+      "kdo-protocol-implementation-roadmap"
+    ],
+    "score": 8.477368421052631
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260501_8ecb74e3-improvement-plan.md",
+    "added": [
+      "agent-ecosystem-design",
+      "kdo-protocol-implementation-roadmap"
+    ],
+    "score": 9.007611940298506
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260501_97170532-improvement-plan.md",
+    "added": [
+      "agent-ecosystem-design",
+      "kdo-protocol-implementation-roadmap"
+    ],
+    "score": 9.075454545454546
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260501_ca61cdd7-improvement-plan.md",
+    "added": [
+      "agent-ecosystem-design",
+      "kdo-protocol-implementation-roadmap"
+    ],
+    "score": 8.477368421052631
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260501_e1e150b9-improvement-plan.md",
+    "added": [
+      "agent-ecosystem-design",
+      "kdo-protocol-implementation-roadmap"
+    ],
+    "score": 8.87782608695652
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260621_domain-index-infrastructure.md",
+    "added": [
+      "huangyaoshi-tagging-and-scope-proposal"
+    ],
+    "score": 8.618695652173914
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260621_retrieval-architecture-upgrade.md",
+    "added": [
+      "fix-data-curator-parse-bug"
+    ],
+    "score": 9.015
+  },
+  {
+    "path": "30_wiki\\decisions\\xingangwan-pharma-mall-cabinet-internet-hospital-model.md",
+    "added": [
+      "shanxi-field-research-checklist-20260701",
+      "xingangwan-pharma-business-model-formulas"
+    ],
+    "score": 15.696056910569107
+  },
+  {
+    "path": "30_wiki\\concepts\\ai-native-im-multi-agent.md",
+    "added": [
+      "personal-growth-complex-systems",
+      "ai-methodology-tools"
+    ],
+    "score": 7.765806451612903
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-ai-amara-law-business-judgment.md",
+    "added": [
+      "concept-ai-neutrality-bias"
+    ],
+    "score": 10.508260869565216
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-AI时代双三角竞争力.md",
+    "added": [
+      "yt-decision-ai-partner",
+      "concept-X型Y型决策习惯"
+    ],
+    "score": 16.222307692307695
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-candy-ai-as-collaborator.md",
+    "added": [
+      "tool-yitang-amazon-bestseller",
+      "tool-yitang-ai-monitoring-alert"
+    ],
+    "score": 7.04020202020202
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-feishu-api-pagination-trap.md",
+    "added": [
+      "kdo-yaml-frontmatter-safety",
+      "tool-strategy-pareto"
+    ],
+    "score": 7.998372093023256
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-harness-cattle-not-pets.md",
+    "added": [
+      "business-research-skill-oscar-13-weapon-system",
+      "tool-yitang-amazon-bestseller"
+    ],
+    "score": 7.045202020202021
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-harness-scoring-anchors.md",
+    "added": [
+      "tool-yitang-amazon-bestseller",
+      "tool-yitang-ai-monitoring-alert"
+    ],
+    "score": 7.04020202020202
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-mcp-protocol.md",
+    "added": [
+      "framework-multi-agent-research-architecture",
+      "agent-native-card-design"
+    ],
+    "score": 8.99529702970297
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-pan-product-vs-traditional-management.md",
+    "added": [
+      "case-panproduct-lanyi-shidonghui-npc",
+      "tool-panproduct-org-five-step"
+    ],
+    "score": 11.726470588235294
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-smart-medicine-cabinet-consumer-acceptance.md",
+    "added": [
+      "HIS系统深度调研",
+      "互联网医院模式深度调研报告"
+    ],
+    "score": 6.824911504424779
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-smart-medicine-cabinet-digital-pharmacy-diagnosis.md",
+    "added": [
+      "smart-medicine-cabinet-clinic-risk-observation"
+    ],
+    "score": 5.374158878504672
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet.md",
+    "added": [
+      "smart-medicine-cabinet-clinic-risk-observation",
+      "诊所O2O项目"
+    ],
+    "score": 8.581923076923077
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-smart-medicine-cabinet-international-models.md",
+    "added": [
+      "smart-medicine-cabinet-clinic-risk-observation",
+      "互联网医院模式深度调研报告"
+    ],
+    "score": 6.84875
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-smart-medicine-cabinet-platform-cooperation-validation.md",
+    "added": [
+      "诊所O2O项目"
+    ],
+    "score": 9.564411764705882
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-strategy-2024-2026-supplement.md",
+    "added": [
+      "tool-yitang-amazon-bestseller",
+      "tool-yitang-ai-monitoring-alert"
+    ],
+    "score": 5.159344262295082
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-strategy-capability-pyramid.md",
+    "added": [
+      "framework-yitang-sales-incentive-6d"
+    ],
+    "score": 5.13
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-strategy-framework-landscape.md",
+    "added": [
+      "tool-strategy-pareto"
+    ],
+    "score": 6.619999999999999
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-strategy-market-segmentation-yashili.md",
+    "added": [
+      "tool-strategy-four-moves"
+    ],
+    "score": 6.4188888888888895
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-thousand-people-square.md",
+    "added": [
+      "case-thousand-people-square"
+    ],
+    "score": 33.29406976744186
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-yitang-channel-lean-validation-bridge.md",
+    "added": [
+      "framework-yitang-channel-exploration-4step"
+    ],
+    "score": 16.792307692307695
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-两种典型思考习惯.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 15.482686567164178
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-单元模型-学练用.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 12.02
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-多视角思考.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 13.162857142857142
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-峰终定律.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 9.245806451612903
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-思考深度分级.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 10.938032786885245
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-惊喜公式.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.877142857142857
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-最佳实践建模.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 19.924761904761905
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-最简单元模型.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 9.353333333333333
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-科学决策宽度.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 13.27
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-稀缺机会窗口.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 15.266376811594203
+  },
+  {
+    "path": "30_wiki\\concepts\\concept-美好作品想象.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 19.647906976744185
+  },
+  {
+    "path": "30_wiki\\concepts\\fd-forward-deployment.md",
+    "added": [
+      "personal-growth-complex-systems"
+    ],
+    "score": 7.424615384615385
+  },
+  {
+    "path": "30_wiki\\concepts\\modeling-three-values.md",
+    "added": [
+      "modeling-to-kdo-toolchain"
+    ],
+    "score": 17.45570422535211
+  },
+  {
+    "path": "30_wiki\\concepts\\smart-medicine-cabinet-national-policy-redlines.md",
+    "added": [
+      "smart-medicine-cabinet-clinic-risk-observation"
+    ],
+    "score": 6.891792452830189
+  },
+  {
+    "path": "30_wiki\\concepts\\smart-medicine-cabinet-o2o-cost-structure.md",
+    "added": [
+      "smart-medicine-cabinet-clinic-risk-observation",
+      "诊所O2O项目"
+    ],
+    "score": 8.917621359223302
+  },
+  {
+    "path": "30_wiki\\concepts\\smart-medicine-cabinet-regional-policy-map.md",
+    "added": [
+      "smart-medicine-cabinet-clinic-risk-observation"
+    ],
+    "score": 6.6310162601626015
+  },
+  {
+    "path": "30_wiki\\concepts\\yt-business-formula-l6-essence-formulas.md",
+    "added": [
+      "case-private-domain-ecommerce-formula"
+    ],
+    "score": 10.44380341880342
+  },
+  {
+    "path": "30_wiki\\concepts\\yt-business-formula-ten-paradigms.md",
+    "added": [
+      "case-private-domain-ecommerce-formula",
+      "case-dental-clinic-formula"
+    ],
+    "score": 7.589102564102564
+  },
+  {
+    "path": "30_wiki\\frameworks\\ai-complex-communication.md",
+    "added": [
+      "personal-growth-complex-systems"
+    ],
+    "score": 7.697894736842105
+  },
+  {
+    "path": "30_wiki\\frameworks\\beverage-foodservice-channel.md",
+    "added": [
+      "personal-growth-complex-systems"
+    ],
+    "score": 7.731489361702128
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-ai-deliberate-practice-loop.md",
+    "added": [
+      "framework-yitang-deliberate-practice-1plus4",
+      "framework-一堂五步法-泛产品设计"
+    ],
+    "score": 11.065606060606061
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-demand-iceberg.md",
+    "added": [
+      "framework-demand-lean-bridge"
+    ],
+    "score": 12.560454545454547
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-demand-opportunity-spectrum.md",
+    "added": [
+      "yt-foresight-business-spectrum"
+    ],
+    "score": 10.85228813559322
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-demand-usp-model.md",
+    "added": [
+      "proposal-prompt-injection-infrastructure",
+      "tool-yitang-amazon-bestseller"
+    ],
+    "score": 7.838333333333334
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-lean-expert-roadmap.md",
+    "added": [
+      "tool-lean-minimum-version"
+    ],
+    "score": 8.300076335877863
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-lean-false-model.md",
+    "added": [
+      "tool-lean-minimum-version",
+      "tool-lean-premium-service"
+    ],
+    "score": 8.762293577981652
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-lean-six-wastes.md",
+    "added": [
+      "case-lean-building-in-vacuum"
+    ],
+    "score": 8.390952380952381
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-lean-systematic-test-curve.md",
+    "added": [
+      "modeling-three-stages",
+      "framework-lean-four-principles"
+    ],
+    "score": 9.075303030303031
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-lean-tenx-formula.md",
+    "added": [
+      "tool-lean-product-kernel-metrics",
+      "framework-lean-four-principles"
+    ],
+    "score": 8.616206896551724
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-ansoff.md",
+    "added": [
+      "yt-five-step-method-complete",
+      "yt-demand-quantitative-estimation"
+    ],
+    "score": 5.54578431372549
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-basics-01-core.md",
+    "added": [
+      "kdo-protocol-implementation-roadmap",
+      "tool-strategy-five-see-three-set"
+    ],
+    "score": 6.934354838709678
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-basics-02-insight.md",
+    "added": [
+      "framework-lean-four-principles",
+      "tool-strategy-five-see-three-set"
+    ],
+    "score": 6.533759398496241
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-basics-03-layout.md",
+    "added": [
+      "tool-strategy-three-horizons"
+    ],
+    "score": 8.36375
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-basics-04-system.md",
+    "added": [
+      "yt-barrier-supply-chain"
+    ],
+    "score": 7.203571428571429
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-basics-05-change.md",
+    "added": [
+      "yt-business-model-channel-economics"
+    ],
+    "score": 5.5051980198019805
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-blm.md",
+    "added": [
+      "tool-strategy-five-see-three-set",
+      "yt-five-step-method-complete"
+    ],
+    "score": 9.549411764705882
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-brm.md",
+    "added": [
+      "tool-strategy-gap-analysis"
+    ],
+    "score": 10.235
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-business-design.md",
+    "added": [
+      "tool-strategy-five-see-three-set",
+      "yt-business-model-canvas"
+    ],
+    "score": 8.850188679245283
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-five-basics.md",
+    "added": [
+      "tool-strategy-pareto"
+    ],
+    "score": 8.459024390243902
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-five-forces.md",
+    "added": [
+      "yt-five-step-method",
+      "yt-barrier-defensive-strategy"
+    ],
+    "score": 6.166578947368421
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-kai-innovation-directions.md",
+    "added": [
+      "concept-yitang-research-objective",
+      "tool-yitang-research-exhaust-means"
+    ],
+    "score": 7.038771929824562
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-mckinsey-7s.md",
+    "added": [
+      "concept-mckinsey-7s"
+    ],
+    "score": 24.095454545454547
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-pyramid.md",
+    "added": [
+      "tool-strategy-four-layers"
+    ],
+    "score": 16.950693069306933
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-six-stages.md",
+    "added": [
+      "tool-strategy-pareto"
+    ],
+    "score": 6.5703875968992245
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-strategy-three-horizons.md",
+    "added": [
+      "tool-strategy-three-horizons"
+    ],
+    "score": 8.722702702702701
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-TCPR底层网络协议.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 9.28086956521739
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-TCPR皇冠模型.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 10.635384615384616
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-yitang-channel-partnership-map.md",
+    "added": [
+      "case-strategy-m-brand-profit-model",
+      "framework-yitang-deliberate-practice-1plus4"
+    ],
+    "score": 9.713703703703702
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-yitang-channel-unit-economics.md",
+    "added": [
+      "yt-business-model-unit-economics",
+      "yt-growth-channel-roi"
+    ],
+    "score": 12.304661016949153
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-yitang-research-quality-gate.md",
+    "added": [
+      "framework-yitang-high-level-plan",
+      "framework-yitang-oscar-research"
+    ],
+    "score": 10.483271604938272
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-yitang-research-weapon-supplement-2026.md",
+    "added": [
+      "yt-model-agent-architecture",
+      "proposal-ai-domain-mastery-pipeline"
+    ],
+    "score": 5.164344262295082
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-个人成长五步法.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 16.791929824561404
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-单元模型-外部对抗地图.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 9.245806451612903
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-科学决策三角形.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "yt-decision-height-toolkit"
+    ],
+    "score": 11.02
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-问题边界与Problem澄清五层结构.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 10.245352112676056
+  },
+  {
+    "path": "30_wiki\\frameworks\\framework-高水平共识曲线.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 11.725882352941177
+  },
+  {
+    "path": "30_wiki\\frameworks\\model-quality-four-levels.md",
+    "added": [
+      "case-thousand-people-square",
+      "case-course-milestone-model"
+    ],
+    "score": 10.11577519379845
+  },
+  {
+    "path": "30_wiki\\frameworks\\smart-device-foodservice-automation.md",
+    "added": [
+      "personal-growth-complex-systems"
+    ],
+    "score": 7.267272727272727
+  },
+  {
+    "path": "30_wiki\\frameworks\\yt-business-formula-business-pattern-selector.md",
+    "added": [
+      "case-private-domain-ecommerce-formula",
+      "case-saas-renewal-formula"
+    ],
+    "score": 13.185377358490568
+  },
+  {
+    "path": "30_wiki\\tools\\smart-medicine-cabinet-fraud-detection.md",
+    "added": [
+      "smart-medicine-cabinet-financial-model"
+    ],
+    "score": 13.550454545454548
+  },
+  {
+    "path": "30_wiki\\tools\\tool-agent-crawl4ai.md",
+    "added": [
+      "web-scraping-三剑客-scrapling-crawl4ai-firecrawl"
+    ],
+    "score": 11.773157894736842
+  },
+  {
+    "path": "30_wiki\\tools\\tool-agent-firecrawl.md",
+    "added": [
+      "web-scraping-三剑客-scrapling-crawl4ai-firecrawl",
+      "agent-native-card-design"
+    ],
+    "score": 10.573291139240506
+  },
+  {
+    "path": "30_wiki\\tools\\tool-agent-native-overview.md",
+    "added": [
+      "framework-multi-agent-research-architecture",
+      "web-scraping-三剑客-scrapling-crawl4ai-firecrawl"
+    ],
+    "score": 11.191666666666666
+  },
+  {
+    "path": "30_wiki\\tools\\tool-ai-four-elements-validation.md",
+    "added": [
+      "tool-ai-problem-validation",
+      "tool-ai-problem-question-check"
+    ],
+    "score": 34.36714285714286
+  },
+  {
+    "path": "30_wiki\\tools\\tool-alt-data-free.md",
+    "added": [
+      "business-research-skill-oscar-13-weapon-system",
+      "tool-yitang-app-store-data"
+    ],
+    "score": 8.909615384615385
+  },
+  {
+    "path": "30_wiki\\tools\\tool-alt-data-overview.md",
+    "added": [
+      "tool-yitang-app-store-data"
+    ],
+    "score": 11.92625
+  },
+  {
+    "path": "30_wiki\\tools\\tool-asset-file-naming-convention.md",
+    "added": [
+      "tool-strategy-12-word-test",
+      "system-kdo-quality-labels"
+    ],
+    "score": 5.343181818181819
+  },
+  {
+    "path": "30_wiki\\tools\\tool-candy-oral-polish.md",
+    "added": [
+      "proposal-prompt-injection-infrastructure",
+      "framework-demand-validation-pipeline"
+    ],
+    "score": 7.282777777777778
+  },
+  {
+    "path": "30_wiki\\tools\\tool-candy-positioning-canvas.md",
+    "added": [
+      "tool-yitang-research-industry-scan",
+      "tool-yitang-research-best-practice"
+    ],
+    "score": 9.449090909090907
+  },
+  {
+    "path": "30_wiki\\tools\\tool-clinic-cabinet-legal-contract-guide.md",
+    "added": [
+      "tool-strategy-gap-analysis",
+      "tool-ai-use-barbell-strategy"
+    ],
+    "score": 9.802973856209151
+  },
+  {
+    "path": "30_wiki\\tools\\tool-clinic-medical-shortvideo-compliance.md",
+    "added": [
+      "tool-strategy-gap-analysis",
+      "tool-ai-use-barbell-strategy"
+    ],
+    "score": 9.760806451612904
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-agent-auto-verify.md",
+    "added": [
+      "kdo-protocol-implementation-roadmap"
+    ],
+    "score": 9.32452380952381
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-agent-case-match.md",
+    "added": [
+      "tool-yitang-amazon-bestseller",
+      "tool-yitang-ai-monitoring-alert"
+    ],
+    "score": 6.943076923076923
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-agent-l4-case-match.md",
+    "added": [
+      "business-research-skill-oscar-13-weapon-system",
+      "framework-一堂五步法-泛产品设计"
+    ],
+    "score": 9.216489361702129
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-agent-multi-hypothesis.md",
+    "added": [
+      "tool-yitang-amazon-bestseller"
+    ],
+    "score": 6.961747572815534
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-agent-signal-substitute.md",
+    "added": [
+      "web-scraping-三剑客-scrapling-crawl4ai-firecrawl"
+    ],
+    "score": 10.215882352941177
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-agent-signals.md",
+    "added": [
+      "tool-yitang-app-store-data"
+    ],
+    "score": 8.628695652173914
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-assessment-triangle.md",
+    "added": [
+      "yt-market-size-estimation",
+      "proposal-prompt-injection-infrastructure"
+    ],
+    "score": 9.07622448979592
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-blindspot-checklist.md",
+    "added": [
+      "yt-demand-decision-chain"
+    ],
+    "score": 7.890786516853932
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-four-forces.md",
+    "added": [
+      "proposal-prompt-injection-infrastructure",
+      "case-ai-agent-milestone-design"
+    ],
+    "score": 7.53530303030303
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-iceberg-l1-user.md",
+    "added": [
+      "proposal-prompt-injection-infrastructure",
+      "business-research-skill-oscar-13-weapon-system"
+    ],
+    "score": 7.730806451612903
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-iceberg-l2-scenario.md",
+    "added": [
+      "proposal-prompt-injection-infrastructure",
+      "tool-yitang-research-industry-scan"
+    ],
+    "score": 7.446176470588235
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-iceberg-l3-core-job.md",
+    "added": [
+      "proposal-prompt-injection-infrastructure",
+      "business-research-skill-oscar-13-weapon-system"
+    ],
+    "score": 7.662894736842105
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-iceberg-l4-job-map.md",
+    "added": [
+      "proposal-prompt-injection-infrastructure",
+      "business-research-skill-oscar-13-weapon-system"
+    ],
+    "score": 7.597783505154639
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-iceberg-l5-forces.md",
+    "added": [
+      "proposal-prompt-injection-infrastructure",
+      "tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie"
+    ],
+    "score": 7.6964893617021275
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-iceberg-l6-hypothesis.md",
+    "added": [
+      "tool-yitang-research-validate-assumption"
+    ],
+    "score": 10.733703703703702
+  },
+  {
+    "path": "30_wiki\\tools\\tool-demand-report-template.md",
+    "added": [
+      "framework-yitang-six-layer-cross-validation"
+    ],
+    "score": 8.679867256637168
+  },
+  {
+    "path": "30_wiki\\tools\\tool-dns-intelligence.md",
+    "added": [
+      "business-research-skill-oscar-13-weapon-system"
+    ],
+    "score": 6.894158878504673
+  },
+  {
+    "path": "30_wiki\\tools\\tool-google-dorking.md",
+    "added": [
+      "modeling-scientific-milestones",
+      "tool-纪浩-problem-validation-four-checks"
+    ],
+    "score": 6.828181818181818
+  },
+  {
+    "path": "30_wiki\\tools\\tool-harness-adversarial-tester.md",
+    "added": [
+      "tool-red-team-analysis",
+      "framework-structured-analytic-techniques"
+    ],
+    "score": 9.09142857142857
+  },
+  {
+    "path": "30_wiki\\tools\\tool-lean-ai-accelerated-validation.md",
+    "added": [
+      "tool-lean-leverage-tools",
+      "tool-lean-minimum-version"
+    ],
+    "score": 12.24228813559322
+  },
+  {
+    "path": "30_wiki\\tools\\tool-lean-fake-marketing.md",
+    "added": [
+      "tool-lean-premium-service"
+    ],
+    "score": 10.159606299212598
+  },
+  {
+    "path": "30_wiki\\tools\\tool-lean-fake-product.md",
+    "added": [
+      "tool-lean-premium-service"
+    ],
+    "score": 10.93156862745098
+  },
+  {
+    "path": "30_wiki\\tools\\tool-lean-human-replace-rnd.md",
+    "added": [
+      "tool-lean-minimum-version",
+      "tool-lean-leverage-tools"
+    ],
+    "score": 8.574102564102564
+  },
+  {
+    "path": "30_wiki\\tools\\tool-lean-human-replace-system.md",
+    "added": [
+      "tool-lean-premium-service"
+    ],
+    "score": 10.458275862068964
+  },
+  {
+    "path": "30_wiki\\tools\\tool-lean-leverage-competitor.md",
+    "added": [
+      "framework-lean-four-principles"
+    ],
+    "score": 8.807777777777778
+  },
+  {
+    "path": "30_wiki\\tools\\tool-lean-presell.md",
+    "added": [
+      "tool-lean-leverage-tools",
+      "tool-lean-minimum-version"
+    ],
+    "score": 14.509587155963304
+  },
+  {
+    "path": "30_wiki\\tools\\tool-lean-stealth-service.md",
+    "added": [
+      "yt-demand-early-validation",
+      "yt-composite-pan-product-methodology"
+    ],
+    "score": 7.272293577981651
+  },
+  {
+    "path": "30_wiki\\tools\\tool-metadata-extraction.md",
+    "added": [
+      "proposal-prompt-injection-infrastructure",
+      "concept-ai-native-organization-five-steps"
+    ],
+    "score": 5.229137931034482
+  },
+  {
+    "path": "30_wiki\\tools\\tool-openmontage-video-factory.md",
+    "added": [
+      "agent-native-card-design"
+    ],
+    "score": 9.471568627450981
+  },
+  {
+    "path": "30_wiki\\tools\\tool-osint-maltego.md",
+    "added": [
+      "proposal-prompt-injection-infrastructure",
+      "tool-agent-spec-yitang-objection-handler"
+    ],
+    "score": 7.047372881355932
+  },
+  {
+    "path": "30_wiki\\tools\\tool-osint-overview.md",
+    "added": [
+      "tool-yitang-research-exhaust-means",
+      "framework-doris-industry-report-4step"
+    ],
+    "score": 7.195537634408602
+  },
+  {
+    "path": "30_wiki\\tools\\tool-osint-sherlock.md",
+    "added": [
+      "proposal-prompt-injection-infrastructure",
+      "business-research-skill-oscar-13-weapon-system"
+    ],
+    "score": 7.2322727272727265
+  },
+  {
+    "path": "30_wiki\\tools\\tool-osint-shodan.md",
+    "added": [
+      "tinyfish-agentic-web-infrastructure"
+    ],
+    "score": 11.23698113207547
+  },
+  {
+    "path": "30_wiki\\tools\\tool-osint-spiderfoot.md",
+    "added": [
+      "agent-native-card-design",
+      "tinyfish-agentic-web-infrastructure"
+    ],
+    "score": 7.883333333333334
+  },
+  {
+    "path": "30_wiki\\tools\\tool-osint-wayback.md",
+    "added": [
+      "tinyfish-agentic-web-infrastructure"
+    ],
+    "score": 10.721680672268906
+  },
+  {
+    "path": "30_wiki\\tools\\tool-prompt-iceberg-demand-analysis.md",
+    "added": [
+      "yt-business-formula-parameter-iceberg",
+      "yt-research-user-jtbd"
+    ],
+    "score": 6.622301587301587
+  },
+  {
+    "path": "30_wiki\\tools\\tool-prompt-jtbd-scenario-coach.md",
+    "added": [
+      "yt-system-course-map-lecture",
+      "yt-entrepreneur-needs-analysis"
+    ],
+    "score": 6.764130434782609
+  },
+  {
+    "path": "30_wiki\\tools\\tool-prompt-usp-demand-analysis.md",
+    "added": [
+      "framework-wanghuan-ai-five-level-ladder",
+      "framework-yitang-18-strategy-cards"
+    ],
+    "score": 11.93125
+  },
+  {
+    "path": "30_wiki\\tools\\tool-prompt-usp-quick-scan.md",
+    "added": [
+      "tool-yitang-ai-assisted-organize"
+    ],
+    "score": 6.646016260162601
+  },
+  {
+    "path": "30_wiki\\tools\\tool-reverse-image-search.md",
+    "added": [
+      "tinyfish-agentic-web-infrastructure"
+    ],
+    "score": 9.258317757009344
+  },
+  {
+    "path": "30_wiki\\tools\\tool-ROI决策评估画布.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 9.390786516853932
+  },
+  {
+    "path": "30_wiki\\tools\\tool-smart-medicine-cabinet-compliance-checklist.md",
+    "added": [
+      "tool-strategy-gap-analysis",
+      "tool-ai-use-barbell-strategy"
+    ],
+    "score": 9.760806451612904
+  },
+  {
+    "path": "30_wiki\\tools\\tool-smart-medicine-cabinet-site-selection-guide.md",
+    "added": [
+      "smart-medicine-cabinet-financial-model",
+      "tool-strategy-gap-analysis"
+    ],
+    "score": 10.505
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-activity-scope.md",
+    "added": [
+      "framework-five-step-lean-interface",
+      "tool-red-team-analysis"
+    ],
+    "score": 7.005
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-business-design-template.md",
+    "added": [
+      "yt-business-model-definition"
+    ],
+    "score": 7.161363636363637
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-business-summary.md",
+    "added": [
+      "framework-five-step-lean-interface"
+    ],
+    "score": 6.579803149606299
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-control-points.md",
+    "added": [
+      "yt-tool-unit-model-dynamic",
+      "case-ether-online-acquisition"
+    ],
+    "score": 5.343181818181819
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-customer-selection.md",
+    "added": [
+      "proposal-prompt-injection-infrastructure",
+      "kdo-yaml-frontmatter-safety"
+    ],
+    "score": 7.801703296703297
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-lifecycle.md",
+    "added": [
+      "case-essence-entrepreneurship"
+    ],
+    "score": 6.667892561983471
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-logistics-cost-planning.md",
+    "added": [
+      "tool-strategy-three-horizons"
+    ],
+    "score": 8.310076335877863
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-map.md",
+    "added": [
+      "tool-strategy-pareto"
+    ],
+    "score": 8.674867256637167
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-market-opportunity-matrix.md",
+    "added": [
+      "tool-strategy-three-horizons",
+      "tool-strategy-five-see-three-set"
+    ],
+    "score": 8.52
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-profit-model-comparison.md",
+    "added": [
+      "case-strategy-m-brand-profit-model"
+    ],
+    "score": 29.551666666666666
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-risk-management.md",
+    "added": [
+      "yt-demand-qualitative-analysis"
+    ],
+    "score": 5.23440170940171
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-swot.md",
+    "added": [
+      "tool-strategy-12-word-test"
+    ],
+    "score": 7.025
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-value-capture.md",
+    "added": [
+      "yt-five-step-method",
+      "yt-business-model-definition"
+    ],
+    "score": 5.618333333333333
+  },
+  {
+    "path": "30_wiki\\tools\\tool-strategy-value-proposition.md",
+    "added": [
+      "tool-yitang-research-single-point-sniper"
+    ],
+    "score": 5.284385964912281
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-18-strategy-tool-mapping.md",
+    "added": [
+      "framework-yitang-18-strategy-cards"
+    ],
+    "score": 16.32777777777778
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-competitor-financial-analysis.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.02563829787234
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-conference-networking.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.787727272727274
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-court-record-search.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.02563829787234
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-douyin-data.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.657857142857143
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-employee-directory.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.515
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-executive-speech-analysis.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.848333333333333
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-expert-network-platform.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.532543859649124
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-fake-complaint-research.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.411551724137931
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-feedback-self-check.md",
+    "added": [
+      "tool-yitang-best-practice-as-golden-finger",
+      "case-truman-personal-growth-map-creation"
+    ],
+    "score": 9.778620689655172
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-financing-intelligence.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.072377049180329
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-forum-data.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.848333333333333
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-gossip-intelligence.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.532543859649124
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-government-data-search.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.787727272727274
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-in-home-experience-research.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.072377049180329
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-industry-report-search.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 11.485149253731343
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-news-monitoring.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.358137254901962
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-partner-data-analysis.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.072377049180329
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-patent-analysis.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.532543859649124
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-pc-web-data.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.787727272727274
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-people-network-database.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.181666666666668
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-securities-research.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.532543859649124
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-shareholder-analysis.md",
+    "added": [
+      "tool-ai-prd-for-ai",
+      "tool-yitang-business-registration-check"
+    ],
+    "score": 12.657857142857143
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-signup-statistics.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.181666666666668
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-social-media-interview.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.532543859649124
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-social-media-monitoring.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.411551724137931
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-stock-data.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.848333333333333
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-trend-data.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 12.411551724137931
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-wechat-index.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 14.02563829787234
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-weibo-index.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.515
+  },
+  {
+    "path": "30_wiki\\tools\\tool-yitang-xiaohongshu-data.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 13.67826530612245
+  },
+  {
+    "path": "30_wiki\\tools\\tool-Y模型STEPS策略集.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 11.966612903225807
+  },
+  {
+    "path": "30_wiki\\tools\\tool-Y模型实操工作流.md",
+    "added": [
+      "tool-ai-prd-for-ai"
+    ],
+    "score": 11.229285714285716
+  },
+  {
+    "path": "30_wiki\\tools\\tool-决策深度-L1优先级定性.md",
+    "added": [
+      "tool-ai-prd-for-ai",
+      "concept-X型Y型决策习惯"
+    ],
+    "score": 12.411551724137931
+  },
+  {
+    "path": "30_wiki\\tools\\tool-决策深度-L2部分定量.md",
+    "added": [
+      "tool-ai-prd-for-ai",
+      "concept-X型Y型决策习惯"
+    ],
+    "score": 12.657857142857143
+  },
+  {
+    "path": "30_wiki\\tools\\tool-决策深度-L3定量公式.md",
+    "added": [
+      "tool-ai-prd-for-ai",
+      "concept-X型Y型决策习惯"
+    ],
+    "score": 13.207307692307694
+  },
+  {
+    "path": "30_wiki\\tools\\tool-决策深度-L4严格财务公式.md",
+    "added": [
+      "tool-ai-prd-for-ai",
+      "concept-X型Y型决策习惯"
+    ],
+    "score": 12.181666666666668
+  },
+  {
+    "path": "30_wiki\\tools\\tool-动力阻力分析.md",
+    "added": [
+      "tool-ai-prd-for-ai",
+      "concept-X型Y型决策习惯"
+    ],
+    "score": 14.210652173913044
+  },
+  {
+    "path": "30_wiki\\tools\\tool-单元模型-单商圈.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.877142857142857
+  },
+  {
+    "path": "30_wiki\\tools\\tool-单元模型-单城市.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.877142857142857
+  },
+  {
+    "path": "30_wiki\\tools\\tool-单元模型-壁垒预判.md",
+    "added": [
+      "case-toy-cabinet-barrier"
+    ],
+    "score": 12.926960784313726
+  },
+  {
+    "path": "30_wiki\\tools\\tool-单元模型-象限分析法.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 9.429090909090908
+  },
+  {
+    "path": "30_wiki\\tools\\tool-场景推演.md",
+    "added": [
+      "tool-ai-prd-for-ai",
+      "concept-X型Y型决策习惯"
+    ],
+    "score": 14.02563829787234
+  },
+  {
+    "path": "30_wiki\\tools\\tool-完整财务公式决策.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 11.321075268817204
+  },
+  {
+    "path": "30_wiki\\tools\\tool-审美工具箱.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 18.22408163265306
+  },
+  {
+    "path": "30_wiki\\tools\\tool-提问刻意练习画布.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 9.211489361702128
+  },
+  {
+    "path": "30_wiki\\tools\\tool-最佳实践收集.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 18.22408163265306
+  },
+  {
+    "path": "30_wiki\\tools\\tool-最佳实践池子.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 18.02
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-ROI分析.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.759130434782608
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-业务建模.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.700672268907563
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-低成本测试MVP.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.906792452830189
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-假设拆解.md",
+    "added": [
+      "concept-X型Y型决策习惯"
+    ],
+    "score": 8.562372881355932
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-内核和边界.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.744137931034482
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-努力仿真.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.729401709401709
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-十倍速验证.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.744137931034482
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-善用佳软.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.714915254237288
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-复盘迭代.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.714915254237288
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-攻坚会.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.729401709401709
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-灵感闪现.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.77438596491228
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-管理三段论.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.789911504424778
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-解放思想.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.714915254237288
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-设计原则.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.77438596491228
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-逻辑MECE.md",
+    "added": [
+      "concept-mckinsey-mece",
+      "tool-mece体系框架法"
+    ],
+    "score": 11.81531914893617
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-酝酿式打磨.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.744137931034482
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-里程碑拆解.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.729401709401709
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品落地-风险管理.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.714915254237288
+  },
+  {
+    "path": "30_wiki\\tools\\tool-泛产品设计-需求工具箱指南.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 6.729401709401709
+  },
+  {
+    "path": "30_wiki\\tools\\tool-用户分层.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.722702702702701
+  },
+  {
+    "path": "30_wiki\\tools\\tool-用户视角.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.562372881355932
+  },
+  {
+    "path": "30_wiki\\tools\\tool-科学决策关键训练清单.md",
+    "added": [
+      "tool-ai-prd-for-ai",
+      "concept-X型Y型决策习惯"
+    ],
+    "score": 10.643205128205128
+  },
+  {
+    "path": "30_wiki\\tools\\tool-科学学习IPO完整清单.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 15.06225352112676
+  },
+  {
+    "path": "30_wiki\\tools\\tool-科学提问刻意练习.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 14.964444444444444
+  },
+  {
+    "path": "30_wiki\\tools\\tool-稀缺资源清单.md",
+    "added": [
+      "tool-ai-prd-for-ai",
+      "concept-X型Y型决策习惯"
+    ],
+    "score": 10.009382022471911
+  },
+  {
+    "path": "30_wiki\\tools\\tool-纪浩-Problem与Question区分法.md",
+    "added": [
+      "tool-纪浩-Agent开工检查单制作法",
+      "tool-纪浩-处理AI生成代码运行异常"
+    ],
+    "score": 17.37842105263158
+  },
+  {
+    "path": "30_wiki\\tools\\tool-行业分析画布.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.674867256637167
+  },
+  {
+    "path": "30_wiki\\tools\\tool-讲香十指模型-超级武器库.md",
+    "added": [
+      "tool-ai-prd-for-ai",
+      "concept-X型Y型决策习惯"
+    ],
+    "score": 11.229285714285716
+  },
+  {
+    "path": "30_wiki\\tools\\tool-讲香基本功-十指模型.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 15.8325
+  },
+  {
+    "path": "30_wiki\\tools\\tool-需求挖掘.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.584102564102563
+  },
+  {
+    "path": "30_wiki\\tools\\tool-项目方案评估三角形.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 12.575555555555555
+  },
+  {
+    "path": "30_wiki\\tools\\tool-项目背景分析.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.722702702702701
+  },
+  {
+    "path": "30_wiki\\tools\\yt-tob-customer-sabc.md",
+    "added": [
+      "yt-product-kernel-to-business-model",
+      "yt-product-kernel-shampoo-case"
+    ],
+    "score": 8.444354838709678
+  },
+  {
+    "path": "30_wiki\\cases\\case-ai-companion-emotional.md",
+    "added": [
+      "tool-ai-cross-reading-method",
+      "tool-ai-critical-reading-three-layers"
+    ],
+    "score": 8.718571428571428
+  },
+  {
+    "path": "30_wiki\\cases\\case-apple-card-gender-bias.md",
+    "added": [
+      "tool-ai-cross-reading-method",
+      "tool-ai-critical-reading-three-layers"
+    ],
+    "score": 8.604102564102563
+  },
+  {
+    "path": "30_wiki\\cases\\case-cambridge-novelists-survey.md",
+    "added": [
+      "kdo-protocol-implementation-roadmap"
+    ],
+    "score": 9.054823008849558
+  },
+  {
+    "path": "30_wiki\\cases\\case-candy-problem-os-vpn.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 8.669867256637168
+  },
+  {
+    "path": "30_wiki\\cases\\case-chen-qiufan-ai-writing.md",
+    "added": [
+      "tool-ai-cross-reading-method",
+      "tool-ai-critical-reading-three-layers"
+    ],
+    "score": 6.891851851851851
+  },
+  {
+    "path": "30_wiki\\cases\\case-compas-racial-bias.md",
+    "added": [
+      "tool-ai-cross-reading-method",
+      "tool-ai-critical-reading-three-layers"
+    ],
+    "score": 8.742702702702701
+  },
+  {
+    "path": "30_wiki\\cases\\case-deepfake-market-misuse.md",
+    "added": [
+      "tool-ai-cross-reading-method",
+      "tool-ai-critical-reading-three-layers"
+    ],
+    "score": 8.54
+  },
+  {
+    "path": "30_wiki\\cases\\case-demand-ai-fitness-four-forces.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing",
+      "tool-yitang-ai-monitoring-alert"
+    ],
+    "score": 9.673536585365854
+  },
+  {
+    "path": "30_wiki\\cases\\case-demand-dialer.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.348333333333334
+  },
+  {
+    "path": "30_wiki\\cases\\case-demand-elderly-smart-device.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.385786516853933
+  },
+  {
+    "path": "30_wiki\\cases\\case-demand-equestrian-three-tasks.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.765
+  },
+  {
+    "path": "30_wiki\\cases\\case-demand-financial-literacy.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 10.069054054054055
+  },
+  {
+    "path": "30_wiki\\cases\\case-demand-indonesia-insurance.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.385786516853933
+  },
+  {
+    "path": "30_wiki\\cases\\case-demand-milkshake-jtbd.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 8.35875
+  },
+  {
+    "path": "30_wiki\\cases\\case-demand-pharma-bigdata.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 10.300714285714285
+  },
+  {
+    "path": "30_wiki\\cases\\case-demand-restaurant-hiring.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 9.911103896103896
+  },
+  {
+    "path": "30_wiki\\cases\\case-demand-rural-5g.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 10.069054054054055
+  },
+  {
+    "path": "30_wiki\\cases\\case-demand-silver-parenting.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 10.426764705882354
+  },
+  {
+    "path": "30_wiki\\cases\\case-demand-tier4-housekeeping.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 10.189603174603175
+  },
+  {
+    "path": "30_wiki\\cases\\case-demand-travel-agent.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 8.377204724409449
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-2b-gray-test.md",
+    "added": [
+      "case-lean-building-in-vacuum"
+    ],
+    "score": 10.235806451612904
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-adult-education.md",
+    "added": [
+      "case-lean-building-in-vacuum"
+    ],
+    "score": 10.017518796992482
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-combination-test-paradigm.md",
+    "added": [
+      "case-shampoo-product-kernel"
+    ],
+    "score": 6.404310344827587
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-crayfish-combo-test.md",
+    "added": [
+      "tool-yitang-channel-scan-cheat-sheet",
+      "case-lean-building-in-vacuum"
+    ],
+    "score": 6.759130434782608
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-electric-scooter-mvp.md",
+    "added": [
+      "framework-five-step-lean-interface",
+      "yt-five-step-method"
+    ],
+    "score": 8.757293577981653
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-genki-forest-toolkit.md",
+    "added": [
+      "case-cross-yuanqi-forest"
+    ],
+    "score": 13.446764705882353
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-medical-device-milestone.md",
+    "added": [
+      "case-lean-building-in-vacuum"
+    ],
+    "score": 10.288688524590164
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-perfectionism-traps.md",
+    "added": [
+      "case-lean-building-in-vacuum"
+    ],
+    "score": 10.288688524590164
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-premature-expansion.md",
+    "added": [
+      "case-lean-building-in-vacuum",
+      "case-lean-premature-refinement"
+    ],
+    "score": 10.262032520325203
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-radish-channel-selection.md",
+    "added": [
+      "case-yitang-xujian-invoice-saas-channel"
+    ],
+    "score": 8.415952380952382
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-shampoo-selling-points.md",
+    "added": [
+      "case-lean-building-in-vacuum",
+      "case-yitang-redburger-selection-industrialization"
+    ],
+    "score": 6.584803149606299
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-shoe-mvp-evolution.md",
+    "added": [
+      "case-lean-building-in-vacuum"
+    ],
+    "score": 10.343333333333334
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-weak-solution.md",
+    "added": [
+      "case-lean-building-in-vacuum"
+    ],
+    "score": 8.429354838709678
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-wrong-demand.md",
+    "added": [
+      "case-lean-building-in-vacuum"
+    ],
+    "score": 12.283504273504272
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-zhanglei-failure-counterfactual.md",
+    "added": [
+      "framework-demand-lean-bridge",
+      "framework-strategy-lean-validation"
+    ],
+    "score": 6.816801801801802
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-zhanglei-hypothesis-validation.md",
+    "added": [
+      "framework-demand-lean-bridge",
+      "framework-strategy-lean-validation"
+    ],
+    "score": 6.667892561983471
+  },
+  {
+    "path": "30_wiki\\cases\\case-lean-zhanglei-pivot-decision.md",
+    "added": [
+      "framework-strategy-lean-validation"
+    ],
+    "score": 8.51
+  },
+  {
+    "path": "30_wiki\\cases\\case-modeling-abstraction-reliability-ladder.md",
+    "added": [
+      "case-modeling-process-livestream-prep",
+      "case-modeling-essence-levels"
+    ],
+    "score": 14.353333333333332
+  },
+  {
+    "path": "30_wiki\\cases\\case-modeling-abstraction-yitang-models.md",
+    "added": [
+      "case-modeling-process-livestream-prep",
+      "case-modeling-essence-levels"
+    ],
+    "score": 15.853333333333332
+  },
+  {
+    "path": "30_wiki\\cases\\case-modeling-essence-schools.md",
+    "added": [
+      "case-modeling-essence-levels",
+      "case-modeling-process-livestream-prep"
+    ],
+    "score": 19.215
+  },
+  {
+    "path": "30_wiki\\cases\\case-modeling-process-livestream-roles.md",
+    "added": [
+      "case-modeling-process-livestream-prep"
+    ],
+    "score": 21.94857142857143
+  },
+  {
+    "path": "30_wiki\\cases\\case-modeling-process-sop-evolution.md",
+    "added": [
+      "case-modeling-process-livestream-prep"
+    ],
+    "score": 22.27925925925926
+  },
+  {
+    "path": "30_wiki\\cases\\case-modeling-process-sop-examples.md",
+    "added": [
+      "case-modeling-process-livestream-prep"
+    ],
+    "score": 21.640689655172412
+  },
+  {
+    "path": "30_wiki\\cases\\case-roblox-ai-npc-education.md",
+    "added": [
+      "agent-native-card-design",
+      "tinyfish-agentic-web-infrastructure"
+    ],
+    "score": 7.775806451612903
+  },
+  {
+    "path": "30_wiki\\cases\\case-smart-medicine-cabinet-business-model-validation.md",
+    "added": [
+      "yt-research-industry-canvas",
+      "smart-medicine-cabinet-financial-model"
+    ],
+    "score": 5.010588235294118
+  },
+  {
+    "path": "30_wiki\\cases\\case-smart-medicine-cabinet-corporate-risk.md",
+    "added": [
+      "case-cross-xingangwan-pharma"
+    ],
+    "score": 7.4079411764705885
+  },
+  {
+    "path": "30_wiki\\cases\\case-smart-medicine-cabinet-failure-patterns-library.md",
+    "added": [
+      "case-course-milestone-model",
+      "case-demand-b2c-consumer-insight"
+    ],
+    "score": 9.240806451612904
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-cool-boiled-water.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing",
+      "case-strategy-practice-12-zero-loss"
+    ],
+    "score": 7.015
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-edward-jones.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing",
+      "case-strategy-practice-12-zero-loss"
+    ],
+    "score": 6.934354838709678
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-failure-01-cosmetics.md",
+    "added": [
+      "case-strategy-failure-09-boeing",
+      "case-strategy-failure-04-appliance"
+    ],
+    "score": 11.526503496503496
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-failure-02-supermarket.md",
+    "added": [
+      "case-strategy-failure-09-boeing",
+      "case-strategy-failure-04-appliance"
+    ],
+    "score": 13.056845637583892
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-failure-03-cleaning.md",
+    "added": [
+      "case-strategy-failure-09-boeing",
+      "case-strategy-failure-04-appliance"
+    ],
+    "score": 11.653188405797101
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-failure-05-it.md",
+    "added": [
+      "case-strategy-failure-04-appliance",
+      "case-strategy-failure-09-boeing"
+    ],
+    "score": 12.756708074534162
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-failure-06-phone-n.md",
+    "added": [
+      "case-strategy-failure-09-boeing",
+      "case-strategy-failure-04-appliance"
+    ],
+    "score": 11.276753246753247
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-failure-07-phone-l.md",
+    "added": [
+      "case-strategy-failure-09-boeing",
+      "case-strategy-failure-04-appliance"
+    ],
+    "score": 11.214713375796178
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-failure-08-video.md",
+    "added": [
+      "case-strategy-failure-09-boeing",
+      "case-strategy-failure-04-appliance"
+    ],
+    "score": 11.341258278145695
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-lekai-film.md",
+    "added": [
+      "case-strategy-practice-12-zero-loss",
+      "case-strategy-practice-11-third-place"
+    ],
+    "score": 6.33718954248366
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-longzhong-plan.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing",
+      "case-strategy-practice-12-zero-loss"
+    ],
+    "score": 6.85875
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-model-selection-quiz.md",
+    "added": [
+      "yt-unit-model-build",
+      "tool-yitang-research-quantitative-modeling"
+    ],
+    "score": 5.038759398496241
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-practice-10-turnaround.md",
+    "added": [
+      "case-strategy-practice-11-third-place"
+    ],
+    "score": 9.627402597402597
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-practice-ranpeng-crossborder.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing",
+      "case-strategy-practice-12-zero-loss"
+    ],
+    "score": 7.217702702702702
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-practice-ranpeng-milk-powder.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing",
+      "case-strategy-practice-12-zero-loss"
+    ],
+    "score": 7.015
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-retailer-activity-scope.md",
+    "added": [
+      "yt-business-model-canvas",
+      "kdo-protocol-implementation-roadmap"
+    ],
+    "score": 5.310714285714286
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-revival-14-gucci.md",
+    "added": [
+      "case-strategy-revival-13-bestore",
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 8.172857142857142
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-snack-business-design.md",
+    "added": [
+      "case-strategy-m-brand-profit-model",
+      "case-lean-premature-refinement"
+    ],
+    "score": 6.5725
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-snack-industry-chain.md",
+    "added": [
+      "case-strategy-revival-13-bestore"
+    ],
+    "score": 6.48985401459854
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-walmart-vs-costco-pyramid.md",
+    "added": [
+      "tool-strategy-four-layers",
+      "case-strategy-failure-09-boeing"
+    ],
+    "score": 6.438439716312057
+  },
+  {
+    "path": "30_wiki\\cases\\case-strategy-xiaobear.md",
+    "added": [
+      "case-strategy-practice-12-zero-loss"
+    ],
+    "score": 6.249512195121952
+  },
+  {
+    "path": "30_wiki\\cases\\case-toc-content-platform-correlation-trap.md",
+    "added": [
+      "case-offline-catering-formula",
+      "case-private-domain-ecommerce-formula"
+    ],
+    "score": 21.30835051546392
+  },
+  {
+    "path": "30_wiki\\cases\\case-truman-ai-skill-engineering-guide.md",
+    "added": [
+      "case-course-milestone-model",
+      "tool-ai-skill-engineering-method"
+    ],
+    "score": 19.359827586206897
+  },
+  {
+    "path": "30_wiki\\cases\\case-truman-ai-skill-self-packaging.md",
+    "added": [
+      "case-child-drawing-rhyme",
+      "case-truman-personal-growth-map-creation"
+    ],
+    "score": 16.002905982905983
+  },
+  {
+    "path": "30_wiki\\cases\\case-truman-livestream-sop-iteration.md",
+    "added": [
+      "modeling-three-stages"
+    ],
+    "score": 8.694606299212598
+  },
+  {
+    "path": "30_wiki\\cases\\case-unit-model-gashapon.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 7.722702702702702
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-ai-painting-commercialization.md",
+    "added": [
+      "modeling-personal-practice-loop",
+      "tool-yitang-channel-scan-cheat-sheet"
+    ],
+    "score": 8.459024390243902
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-double-triangle-confidence.md",
+    "added": [
+      "yt-model-dual-triangle-competitiveness",
+      "yt-decision-ai-partner"
+    ],
+    "score": 8.99529702970297
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-goat-milk-channel-partnership.md",
+    "added": [
+      "yt-management-scientific-meetings",
+      "concept-ai-native-organization-five-steps"
+    ],
+    "score": 5.1398031496062995
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-model-valuation-flywheel.md",
+    "added": [
+      "case-essence-entrepreneurship",
+      "case-decision-ai-assisted-vs-human"
+    ],
+    "score": 12.400964912280703
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-radar-chart-selection.md",
+    "added": [
+      "case-child-drawing-rhyme",
+      "case-truman-personal-growth-map-creation"
+    ],
+    "score": 16.950693069306933
+  },
+  {
+    "path": "30_wiki\\cases\\case-yitang-yitang-shortvideo-industrialization.md",
+    "added": [
+      "case-yitang-amazon-growth-flywheel",
+      "case-yitang-yitang-course-industrialization"
+    ],
+    "score": 16.398636363636363
+  },
+  {
+    "path": "30_wiki\\cases\\case-婚礼操盘-用户和场景.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 8.35875
+  },
+  {
+    "path": "30_wiki\\cases\\case-婚礼规划.md",
+    "added": [
+      "case-opc-agent-wave1-real-model-testing"
+    ],
+    "score": 8.415000000000001
+  },
+  {
+    "path": "30_wiki\\cases\\case-科学决策-L4案例01.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.353333333333333
+  },
+  {
+    "path": "30_wiki\\cases\\case-科学决策-ROI案例01.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.245806451612903
+  },
+  {
+    "path": "30_wiki\\cases\\case-科学决策-ROI案例02.md",
+    "added": [
+      "yt-decision-height-toolkit"
+    ],
+    "score": 10.03438202247191
+  },
+  {
+    "path": "30_wiki\\cases\\case-科学决策-ROI案例03.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.096923076923076
+  },
+  {
+    "path": "30_wiki\\cases\\case-科学决策-ROI案例04.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 7.918550724637681
+  },
+  {
+    "path": "30_wiki\\cases\\case-科学决策-深度案例01.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 7.836901408450704
+  },
+  {
+    "path": "30_wiki\\cases\\case-科学决策-深度案例02.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 7.797777777777777
+  },
+  {
+    "path": "30_wiki\\cases\\case-科学决策-深度案例03.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.05030303030303
+  },
+  {
+    "path": "30_wiki\\cases\\case-科学决策-深度案例04.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.194603174603174
+  },
+  {
+    "path": "30_wiki\\cases\\case-科学决策-深度案例05.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.145
+  },
+  {
+    "path": "30_wiki\\cases\\case-科学决策-深度案例06.md",
+    "added": [
+      "concept-X型Y型决策习惯",
+      "concept-发现决策"
+    ],
+    "score": 8.05030303030303
+  },
+  {
+    "path": "30_wiki\\cases\\industrial-ai-ops-cases.md",
+    "added": [
+      "case-dental-clinic-formula",
+      "personal-growth-complex-systems"
+    ],
+    "score": 6.061645569620254
+  },
+  {
+    "path": "30_wiki\\systems\\system-yitang-research-workflow.md",
+    "added": [
+      "business-research-skill-oscar-13-weapon-system"
+    ],
+    "score": 12.142977528089888
+  },
+  {
+    "path": "30_wiki\\systems\\workflow-knowledge-collision.md",
+    "added": [
+      "framework-doris-industry-report-4step",
+      "tool-yitang-research-industry-scan"
+    ],
+    "score": 7.397142857142858
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260621_crawl4ai-firecrawl-evaluation.md",
+    "added": [
+      "web-scraping-三剑客-scrapling-crawl4ai-firecrawl"
+    ],
+    "score": 15.72917808219178
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260621_kdo-quality-harness-upgrade.md",
+    "added": [
+      "labeling-final-consolidation"
+    ],
+    "score": 8.850188679245283
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260621_skill-iteration-standard.md",
+    "added": [
+      "tinyfish-agentic-web-infrastructure"
+    ],
+    "score": 13.972380952380952
+  },
+  {
+    "path": "30_wiki\\decisions\\plan_20260701_kdo-multi-repo-architecture.md",
+    "added": [
+      "tool-agent-spec-yitang-self-motivation",
+      "tool-agent-spec-yitang-sales-process-tracker"
+    ],
+    "score": 5.782222222222222
+  },
+  {
+    "path": "30_wiki\\decisions\\truman-ai-partner-design-analysis.md",
+    "added": [
+      "case-ai-agent-milestone-design",
+      "agent-ecosystem-design"
+    ],
+    "score": 9.240806451612904
+  }
+]

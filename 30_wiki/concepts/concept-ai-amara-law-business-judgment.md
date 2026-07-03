@@ -1,32 +1,33 @@
 ---
-
 id: concept-ai-amara-law-business-judgment
 title: 阿马拉定律与商业判断校准
 type: concept
 status: enriched
 author: 老顽童
 reviewed_by: 待审
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - ai_collaboration
-  - critical_thinking
-  - business_judgment
+- ai_collaboration
+- critical_thinking
+- business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - "[[tool-ai2041-source-verification-checklist]]"
-  - "[[dk-ai-prediction-expiry-date]]"
-  - "[[concept-ai-chair-determines-view]]"
-  - "[[dk-ai-social-progress-not-automatic]]"
-  - "[[dk-ai-scarcest-resource-is-self]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+- '[[tool-ai2041-source-verification-checklist]]'
+- '[[dk-ai-prediction-expiry-date]]'
+- '[[concept-ai-chair-determines-view]]'
+- '[[dk-ai-social-progress-not-automatic]]'
+- '[[dk-ai-scarcest-resource-is-self]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[framework-wanghuan-harness-seven-stages]]'
+- '[[framework-wanghuan-ooda-loop]]'
+- '[[framework-wanghuan-gan-three-roles]]'
+- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- concept-ai-neutrality-bias
+updated_at: '2026-06-29'
 ---
 # 阿马拉定律与商业判断校准
 

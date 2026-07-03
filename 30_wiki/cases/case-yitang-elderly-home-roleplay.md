@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-elderly-home-roleplay
 title: 案例：假扮家属潜入养老院微信群
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：假扮家属潜入养老院微信群
 
 **背景**：创业者想调研连锁养老院的真实运营数据。需要了解的不是当前的入住率，而是早期的入住爬坡过程——这个数据从外部永远看不到。

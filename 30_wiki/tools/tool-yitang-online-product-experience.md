@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-online-product-experience
 title: 线上产品完整体验：从注册到售后的全流程
 type: tool
@@ -17,14 +16,14 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 ---
-
 # 线上产品完整体验
 
 > 以真实用户身份走完竞品从注册到售后的全流程。

@@ -19,16 +19,17 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-28'
+updated_at: '2026-06-29'
 author: 徐剑
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - "[[tool-yitang-b2b-gov-research]]"
-  - "[[case-yitang-yitu-lead-industrialization]]"
-  - "[[yt-tob-revenue-is-customer-cost]]"
+- '[[tool-yitang-b2b-gov-research]]'
+- '[[case-yitang-yitu-lead-industrialization]]'
+- '[[yt-tob-revenue-is-customer-cost]]'
+- yt-tob-demand-metrics
 diagnostic_signals:
 - framework_lens: 单元模型双口径验证 — 财务确认口径 vs 现金流口径
   follow_up_question: 同一单元模型用现金流口径重新测算，自由现金流何时转正？规模化复制是否会放大资金缺口？
@@ -37,8 +38,6 @@ diagnostic_signals:
 - framework_lens: 自由现金流健康度 — 增长质量优于增长规模
   follow_up_question: 当前增长是否以负向自由现金流为代价？何时达到规模复制的现金流拐点？
 ---
-
-
 > “就算是单元模型早就算清楚了、跑通了，整个业务也非常辛苦，因为现金流难题。很多实体生意有大量的流水、稳定合理的利润率，但始终不赚钱——就是因为自由现金流是负的，负得越久、付得越多。” — 徐剑，To B 五步法口述稿（src_20260616_0e684368，~3124-3202）
 
 To B 业务因成交、交付、回款周期长，极易出现“账面盈利、现金枯竭”的错配。徐剑在商业模式部分强调：算账不能只看财务确认口径的利润，还必须用**现金流口径**再算一次单元模型；在规模化复制前，须通过双口径交叉验证确认业务真实健康。

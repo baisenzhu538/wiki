@@ -1,5 +1,4 @@
 ---
-
 id: tool-项目背景分析
 title: 项目背景分析：启动前的环境扫描
 type: tool
@@ -15,15 +14,16 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
-
 # 项目背景分析：启动前的环境扫描
 
 ## 一句话定义

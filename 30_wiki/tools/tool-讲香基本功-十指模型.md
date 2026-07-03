@@ -1,5 +1,4 @@
 ---
-
 id: tool-讲香基本功-十指模型
 title: 讲香基本功：十指模型修炼地图
 type: tool
@@ -15,14 +14,15 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-讲香基本功-十指模型修炼地图_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 updated_at: '2026-06-29'
 ---
-
 # 讲香基本功：十指模型修炼地图
 
 ## 一句话定义

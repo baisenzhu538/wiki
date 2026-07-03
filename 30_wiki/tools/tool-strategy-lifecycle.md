@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-lifecycle
 title: 企业生命周期战略：从 0 到 1、从 N 到 ∞、从 N 到 0
 type: tool
@@ -17,13 +16,13 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- "[[strategy-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- case-essence-entrepreneurship
 ---
-
 # 企业生命周期战略：从 0 到 1、从 N 到 ∞、从 N 到 0
 
 > 企业不同阶段的核心任务、陷阱、战略重点和决策方式完全不同。用生命周期视角做战略，才能避免“用成熟企业的方法做初创”或“用初创的方法做转型”。

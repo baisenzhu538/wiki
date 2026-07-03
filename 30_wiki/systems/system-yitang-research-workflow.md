@@ -1,5 +1,4 @@
 ---
-
 id: system-yitang-research-workflow
 title: 调研工作流：从问题到报告的端到端执行路径
 type: system
@@ -15,19 +14,18 @@ source_refs:
 - 30_wiki/domains/yitang-research-domain-digest.md
 - 40_outputs/capabilities/skills/shared/research/SKILL.md
 created_at: '2026-06-21'
-updated_at: '2026-06-21'
+updated_at: '2026-06-29'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - "[[tool-按分阶练习路径渐进掌握方法]]"
-  - "[[tool-Truman-AI能力分层学习路径]]"
-  - "[[tool-马易-销售智能体体系搭建路径]]"
+- '[[tool-按分阶练习路径渐进掌握方法]]'
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-马易-销售智能体体系搭建路径]]'
+- business-research-skill-oscar-13-weapon-system
 diagnostic_signals:
 - framework_lens: 端到端工作流——7步从问题到报告
   follow_up_question: 你现在卡在哪一步？每一步的产出物是什么？
-
 ---
-
 # 调研工作流：从问题到报告的端到端执行路径
 
 > 接到调研任务 → 7 步走到可交付报告。每步有明确产出物、用到的卡片、可调用的 Skill。

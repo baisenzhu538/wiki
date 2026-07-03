@@ -1,48 +1,45 @@
 ---
-
-
-
-
 id: smart-medicine-cabinet-national-policy-redlines
 title: 自助售药机国家政策与红线（2024 年第 48 号公告解读）
 type: concept
 status: enriched
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - policy-compliance
+- healthcare- healthcare
+- pharmaceutical-retail
+- policy-compliance
 source_refs:
-  - pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-  - pending_archive:src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
-  - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-  - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+- pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+- pending_archive:src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+- src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+- src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
 tags:
-  - src_unknown
+- src_unknown
 created_at: '2026-06-14'
-updated_at: '2026-06-14'
+updated_at: '2026-06-29'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
 confidence: 0.95
 trust_level: high
 related:
-  - [[case-smart-medicine-cabinet-failure-patterns-library]]
-  - [[smart-medicine-cabinet-fraud-detection]]
-  - [[smart-medicine-cabinet-distribution]]
-  - [[smart-medicine-cabinet-regional-policy-map]]
-  - [[concept-smart-medicine-cabinet-international-models]]
-  - [[master-decision-hygiene]]
-  - [[master-systems-thinking]]
-  - [[smart-medicine-cabinet-clinic-risk-observation]]
-  - [[smart-medicine-cabinet-distribution]]
-  - [[smart-medicine-cabinet-fraud-detection]]
-  - [[smart-medicine-cabinet-regional-policy-map]]
+- - - case-smart-medicine-cabinet-failure-patterns-library
+- - - smart-medicine-cabinet-fraud-detection
+- - - smart-medicine-cabinet-distribution
+- - - smart-medicine-cabinet-regional-policy-map
+- - - concept-smart-medicine-cabinet-international-models
+- - - master-decision-hygiene
+- - - master-systems-thinking
+- - - smart-medicine-cabinet-clinic-risk-observation
+- - - smart-medicine-cabinet-distribution
+- - - smart-medicine-cabinet-fraud-detection
+- - - smart-medicine-cabinet-regional-policy-map
+- smart-medicine-cabinet-clinic-risk-observation
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 difficulty: intermediate
 ---
 # 自助售药机国家政策与红线（2024 年第 48 号公告解读）

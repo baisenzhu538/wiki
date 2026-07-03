@@ -1,5 +1,4 @@
 ---
-
 id: tool-动力阻力分析
 title: 动力阻力分析：用户行为的推拉模型
 type: tool
@@ -15,14 +14,15 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
+- concept-X型Y型决策习惯
 updated_at: '2026-06-29'
 ---
-
 # 动力阻力分析：用户行为的推拉模型
 
 ## 一句话定义

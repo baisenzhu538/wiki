@@ -1,11 +1,10 @@
 ---
-
 id: case-lean-medical-device-milestone
 title: 医疗器械项目里程碑测试
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.78
@@ -27,11 +26,11 @@ source_refs:
 source_person: 一堂课程讲师（教学推演案例）
 source_context: 一堂精益创业·低成本验证课程·医疗器械案例
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- case-lean-building-in-vacuum
 ---
-
 # 医疗器械项目里程碑测试
 
 ## 核心洞察

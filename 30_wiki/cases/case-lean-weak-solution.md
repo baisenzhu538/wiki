@@ -1,11 +1,10 @@
 ---
-
 id: case-lean-weak-solution
 title: 方案做错案例集
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.8
@@ -21,11 +20,11 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- case-lean-building-in-vacuum
 ---
-
 # 方案做错案例集
 
 ## 核心洞察

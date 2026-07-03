@@ -24,20 +24,21 @@ review_date: 2026-06-15
 confidence: 0.8
 trust_level: high
 related:
-- "[[ocr-一堂y模型steps策略集]]"
-- "[[ocr-一堂-地图-管理地图_conv]]"
-- "[[ocr-一堂-科学决策-roi决策评估画布]]"
-- "[[ocr-一堂-高阶体系探索营-三种咨询可能性]]"
-- "[[ocr-一堂-科学决策-x型y型决策习惯对比]]"
-- "[[ocr-一堂y模型-科学成事道理]]"
-- "[[ocr-一堂-科学决策-宽度-团队]]"
-- "[[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]"
-- "[[tool-一堂-spectrum-positioning]]"
-- "[[ocr-一堂-单元模型-单用户模型]]"
-- "[[tool-纪浩-案例池构建法]]"
-- "[[ocr-一堂-ai学习-提问工程化]]"
-- "[[case-科学决策-ROI案例03]]"
-- "[[ocr-一堂-单元模型-对抗小抄02]]"
+- '[[ocr-一堂y模型steps策略集]]'
+- '[[ocr-一堂-地图-管理地图_conv]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布]]'
+- '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'
+- '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
+- '[[ocr-一堂y模型-科学成事道理]]'
+- '[[ocr-一堂-科学决策-宽度-团队]]'
+- '[[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]'
+- '[[tool-一堂-spectrum-positioning]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[ocr-一堂-ai学习-提问工程化]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- case-modeling-process-livestream-prep
 diagnostic_signals:
 - framework_lens: 流程建模 / SOP
   follow_up_question: 这个任务过去 3 个月重复了几次？单次失败成本是多少？有没有可被固定下来的关键步骤？
@@ -48,7 +49,6 @@ diagnostic_signals:
 - framework_lens: 流程建模适用边界
   follow_up_question: 哪些步骤必须标准化（高失败成本），哪些环节应该保留判断空间？这份 SOP 是否用在了不该标准化的创意型任务上？
 ---
-
 # 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 
 > 来源：Truman-高阶建模-流程建模-图-01 | 一堂建模能力培训（Truman）

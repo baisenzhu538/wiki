@@ -1,5 +1,4 @@
 ---
-
 id: tool-科学学习IPO完整清单
 title: 科学学习IPO完整清单：Input-Process-Output学习系统
 type: tool
@@ -15,14 +14,15 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-科学学习IPO完整清单_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 updated_at: '2026-06-29'
 ---
-
 # 科学学习IPO完整清单
 
 ## 一句话定义

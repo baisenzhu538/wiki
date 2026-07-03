@@ -16,7 +16,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-28'
+updated_at: '2026-06-29'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-17'
@@ -30,13 +30,12 @@ diagnostic_signals:
 - framework_lens: 精益本质（少量试错成本降低系统性风险）
   follow_up_question: 这些实验中哪些与核心成败假设相关？能否砍掉 80% 的低风险实验？
 related:
-  - "[[yt-lean-beauty-store-conversion]]"
-  - "[[yt-lean-daily-chemical-mvp]]"
-  - "[[yt-lean-flower-mom-group-leader]]"
-
+- '[[yt-lean-beauty-store-conversion]]'
+- '[[yt-lean-daily-chemical-mvp]]'
+- '[[yt-lean-flower-mom-group-leader]]'
+- yt-lean-assumption-verification-3means
+- yt-lean-daily-probability-decision
 ---
-
-
 # 一堂精益小抄 FALSE 模型在 AI 时代的加速应用
 
 > 精益的本质不是“不花钱、不花时间”，而是**用少量的试错成本，大幅降低系统性的风险**。AI并没有改变精益的本质，而是把一堂精益小抄中的 FALSE 模型每个节点的验证成本降到了原来的1/10甚至更低。  

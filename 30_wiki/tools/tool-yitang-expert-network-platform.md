@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-expert-network-platform
 title: 专家网络付费平台：快速找到对的人
 type: tool
@@ -17,14 +16,14 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 ---
-
 # 专家网络付费平台
 
 > 凯盛/GLG/在行等专家网络平台——花钱买时间，1小时内拿到行业老兵10年的认知。

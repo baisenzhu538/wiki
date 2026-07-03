@@ -1,5 +1,4 @@
 ---
-
 id: framework-strategy-business-design
 title: 业务设计六要素×三步骤——冉鹏战略规划核心操作框架（源于IBM BLM）
 type: framework
@@ -12,20 +11,21 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_99_vlm_desc.md
 - 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
 quality_labels:
-  - principle
-  - validated
+- principle
+- validated
 created_at: '2026-06-21'
-updated_at: '2026-06-21'
+updated_at: '2026-06-29'
 author: 老顽童（初版）→ 黄药师（PPT _97+_99 补强 v2）
 reviewed_by: 欧阳锋
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[framework-strategy-blm]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[framework-strategy-blm]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-strategy-five-see-three-set
+- yt-business-model-canvas
 ---
-
 # 业务设计六要素×三步骤
 
 > 源于 IBM BLM（Business Leadership Model）。冉鹏 30 年中国实战改编。六要素是"设计什么"，三步骤是"怎么设计"。

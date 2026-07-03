@@ -1,5 +1,4 @@
 ---
-
 id: case-doris-crossborder-ecommerce-opportunity
 title: 案例：跨境电商机会识别——从报告到行动
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：跨境电商机会识别
 
 **问题**：想在跨境电商领域找机会，但品类太多、市场太多，不知道从哪切入。

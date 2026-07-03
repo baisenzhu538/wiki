@@ -1,5 +1,4 @@
 ---
-
 id: tool-demand-iceberg-l3-core-job
 title: L3圈定核心任务：方案中立的动词+对象+语境
 type: tool
@@ -7,7 +6,7 @@ status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
-updated_at: '2026-06-21'
+updated_at: '2026-06-29'
 created_at: 2026-06-21
 confidence: 0.9
 trust_level: high
@@ -18,13 +17,14 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[tool-马易-AI任务拆解提升控制度]]"
-  - "[[tool-纪浩-任务交付物标准化]]"
-  - "[[tool-任务拆解为工作流]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[tool-马易-AI任务拆解提升控制度]]'
+- '[[tool-纪浩-任务交付物标准化]]'
+- '[[tool-任务拆解为工作流]]'
+- '[[pending_unknown]]'
+- proposal-prompt-injection-infrastructure
+- business-research-skill-oscar-13-weapon-system
 ---
-
 # L3圈定核心任务
 
 > 如果L1/L2是"谁在什么情况下有什么问题"，L3就是"他们真正要完成什么"。关键：方案中立——不能用特定产品/技术的语言描述任务。

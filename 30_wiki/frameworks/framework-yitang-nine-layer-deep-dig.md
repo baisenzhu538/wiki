@@ -7,7 +7,7 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: 2026-07-02
+updated_at: '2026-06-29'
 confidence: 0.92
 trust_level: high
 language: zh-CN
@@ -29,13 +29,14 @@ source_refs:
 - 40_outputs/capabilities/skills/nine-layer-business-dig/SKILL.md
 - 10_raw/sources/src_20260614_78622699-战略培训-九层宝塔模型.md
 related:
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[pending_unknown]]"
-  - "[[yitang-domain-digest]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[yitang-research-domain-digest]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[pending_unknown]]'
+- '[[yitang-domain-digest]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[case-yitang-sales-transformation-tuliaogongsi]]'
+- framework-structured-analytic-techniques
 ---
 # 九层深挖法：商业分析的自我纠错式迭代框架
 

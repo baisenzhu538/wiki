@@ -16,17 +16,18 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09T15:07:29+00:00'
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- "[[tool-用旗舰店替代纯招商投入]]"
-- "[[tool-快招品牌总部模拟调研]]"
-- "[[tool-敏捷发布快速迭代搭建体系]]"
-- "[[tool-城市合伙人模式复制能力]]"
-- "[[tool-通过请吃饭获取行业内部资料]]"
+- '[[tool-用旗舰店替代纯招商投入]]'
+- '[[tool-快招品牌总部模拟调研]]'
+- '[[tool-敏捷发布快速迭代搭建体系]]'
+- '[[tool-城市合伙人模式复制能力]]'
+- '[[tool-通过请吃饭获取行业内部资料]]'
+- tool-ai-prd-for-ai
 ---
 # 技能：按图索骥改良外部模板
 

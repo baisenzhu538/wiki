@@ -1,39 +1,45 @@
 ---
-
 id: source-code-delivery-model
-title: "源码交付模式"
+title: 源码交付模式
 type: concept
 status: stable
 domain:
-  - SaaS
-  - 商业模式
-  - 软件交付
+- SaaS
+- 商业模式
+- 软件交付
 confidence: 0.85
 trust_level: high
 diagnostic_signals:
-  - {'signal': '客户是否具备二次开发与长期运维能力', 'framework_lens': '能力匹配 / 总拥有成本', 'follow_up_question': '交付后维护成本是否被低估？'}
-  - {'signal': '厂商是否有除一次性授权外的经常性收入设计', 'framework_lens': '商业模式 / 现金流', 'follow_up_question': '版本碎片化是否可控？'}
-  - {'signal': '源码交付是否被当成逃避 SaaS 订阅锁定的方式', 'framework_lens': '锁定 vs 自主 / 隐性成本', 'follow_up_question': '客户是否意识到数据与安全责任转移？'}
+- signal: 客户是否具备二次开发与长期运维能力
+  framework_lens: 能力匹配 / 总拥有成本
+  follow_up_question: 交付后维护成本是否被低估？
+- signal: 厂商是否有除一次性授权外的经常性收入设计
+  framework_lens: 商业模式 / 现金流
+  follow_up_question: 版本碎片化是否可控？
+- signal: 源码交付是否被当成逃避 SaaS 订阅锁定的方式
+  framework_lens: 锁定 vs 自主 / 隐性成本
+  follow_up_question: 客户是否意识到数据与安全责任转移？
 source_refs:
 - 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
 - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
 - src_unknown
 - src_unknown
 quality_labels:
-  - cited
-  - principle
-  - quality
-  - validated
+- cited
+- principle
+- quality
+- validated
 created_at: 2026-06-13
-updated_at: 2026-06-13
+updated_at: '2026-06-29'
 author: unknown
-reviewed_by: "欧阳锋"
+reviewed_by: 欧阳锋
 related:
-  - "[[smart-medicine-cabinet-distribution]]"
-  - "[[yt-growth-scaling-pitfalls]]"
-  - "[[private-domain-saas-sales-funnel]]"
-  - "[[七件事集团]]"
-  - "[[yt-skill-storyline-problem-solving]]"
+- '[[smart-medicine-cabinet-distribution]]'
+- '[[yt-growth-scaling-pitfalls]]'
+- '[[private-domain-saas-sales-funnel]]'
+- '[[七件事集团]]'
+- '[[yt-skill-storyline-problem-solving]]'
+- yt-panproduct-demand-user-perspective
 ---
 # 源码交付模式
 

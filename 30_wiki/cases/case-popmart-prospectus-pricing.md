@@ -1,5 +1,4 @@
 ---
-
 id: case-popmart-prospectus-pricing
 title: 案例：泡泡玛特招股书——IP产品毛利率60-70%
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：泡泡玛特招股书中的定价基准
 
 **问题**：徐鱼在课上举的例子——如果你做消费品（动漫周边），如何判断你的定价策略和毛利是否合理？

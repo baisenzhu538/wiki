@@ -1,5 +1,4 @@
 ---
-
 id: tool-泛产品落地-逻辑MECE
 title: 落地卡片：逻辑MECE
 type: tool
@@ -16,14 +15,15 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-逻辑MECE_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- concept-mckinsey-mece
+- tool-mece体系框架法
 updated_at: '2026-06-29'
 ---
-
 # 落地卡片：逻辑MECE
 
 落地卡片：逻辑MECE是泛产品设计落地工具箱中的一项——把产品想法变成可执行动作的具体方法 [conf=0.75, source=原图/VLM描述]。

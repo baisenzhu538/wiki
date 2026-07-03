@@ -1,5 +1,4 @@
 ---
-
 id: tool-Y模型STEPS策略集
 title: Y模型STEPS策略集：五步策略框架
 type: tool
@@ -15,14 +14,14 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-Y模型_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 ---
-
 # Y模型STEPS策略集
 
 ## 一句话定义

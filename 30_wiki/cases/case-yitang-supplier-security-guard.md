@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-supplier-security-guard
 title: 案例：通过保安打听到工厂收购价
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：通过保安打听到工厂收购价
 
 **背景**：创业者做萝卜干生意，想自己掌控供应链。考虑收购一个小工厂但不知道花多少钱。

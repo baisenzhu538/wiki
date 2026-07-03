@@ -14,13 +14,15 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-人机协作决策_vlm_desc.md
 related:
-  - "[[pending_unknown]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[yitang-domain-digest]]"
+- '[[pending_unknown]]'
+- '[[decision-science-domain-digest]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[yitang-domain-digest]]'
+- yt-decision-ai-partner
+- concept-X型Y型决策习惯
 review_date: '2026-06-29'
-updated_at: 2026-07-02
+updated_at: '2026-06-29'
 ---
 # AI时代的双三角竞争力
 

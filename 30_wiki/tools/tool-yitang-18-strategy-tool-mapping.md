@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-18-strategy-tool-mapping
 title: 降龙十八掌→工具映射表：每掌对应的执行工具和 Skill
 type: tool
@@ -14,35 +13,34 @@ source_refs:
 - 30_wiki/domains/yitang-research-domain-digest.md
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: '2026-06-21'
-updated_at: '2026-06-28'
+updated_at: '2026-06-29'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-  - "[[tool-半肥猫-课程Skill化的八步工作流]]"
-  - "[[tool-ai-skill-engineering-method]]"
-  - "[[tool-Truman-Skill全生命周期管理]]"
-  - "[[paddleocr-skill]]"
-  - "[[case-半肥猫-course-to-skill]]"
-  - "[[tool-封装可复用skill]]"
-  - "[[course-to-skill-conversion]]"
-  - "[[truman-perspective-skill]]"
-  - "[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]"
-  - "[[case-ji-hao-skill-market-problem-validation]]"
-  - "[[case-truman-ai-skill-self-packaging]]"
-  - "[[yt-skill-checklist-as-ai-protocol]]"
-  - "[[yt-skill-p-role-prompt-design]]"
-  - "[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]"
-  - "[[plan_20260621_skill-iteration-standard]]"
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[tool-Truman-Skill全生命周期管理]]'
+- '[[paddleocr-skill]]'
+- '[[case-半肥猫-course-to-skill]]'
+- '[[tool-封装可复用skill]]'
+- '[[course-to-skill-conversion]]'
+- '[[truman-perspective-skill]]'
+- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
+- '[[case-truman-ai-skill-self-packaging]]'
+- '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[yt-skill-p-role-prompt-design]]'
+- '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
+- '[[plan_20260621_skill-iteration-standard]]'
+- framework-yitang-18-strategy-cards
 diagnostic_signals:
 - framework_lens: 策略→工具映射表
   follow_up_question: 在映射表中找到对应的 wiki 卡片或 Skill
-
 ---
-
 # 降龙十八掌→工具映射表
 
 > 十八掌是"做什么"，这张卡是"用什么做"。每掌给出对应的 wiki 卡片 + Claude Code Skill + 应急方案。

@@ -1,11 +1,10 @@
 ---
-
 id: case-strategy-failure-06-phone-n
 title: 案例：手机公司N——组织僵化。组织不适致迭代缓慢
 type: case
 status: enriched
 created_at: '2026-06-28'
-updated_at: 2026-06-29
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.85
@@ -20,12 +19,12 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_22_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_22_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[tool-三层目标对齐法]]"
-  - "[[case-strategy-failure-07-phone-l]]"
-
+- '[[strategy-domain-digest]]'
+- '[[tool-三层目标对齐法]]'
+- '[[case-strategy-failure-07-phone-l]]'
+- case-strategy-failure-09-boeing
+- case-strategy-failure-04-appliance
 ---
-
 **表面问题**：产品迭代速度远慢于对手。
 **战略根因**：组织僵化——大公司病。组织架构不适配快速变化的市场，流程成为创新的障碍。
 **问题类型**：九问题 #6 组织僵化。

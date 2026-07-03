@@ -1,5 +1,4 @@
 ---
-
 id: case-demand-ai-fitness-four-forces
 title: 案例：AI健身四力——四种力量的博弈分析
 type: case
@@ -17,22 +16,22 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[tool-从案例中学习]]"
-  - "[[ocr-一堂-案例拆解-课程清单]]"
-  - "[[ocr-一堂-科学决策-深度-案例02]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例02]]"
-  - "[[case-科学决策-深度案例02]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例01]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
-  - "[[ocr-一堂-科学决策-深度-案例04]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[tool-从案例中学习]]'
+- '[[ocr-一堂-案例拆解-课程清单]]'
+- '[[ocr-一堂-科学决策-深度-案例02]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
+- case-opc-agent-wave1-real-model-testing
+- tool-yitang-ai-monitoring-alert
+updated_at: '2026-06-29'
 ---
-
 # 案例：AI健身四力分析
 
 **场景**：AI健身App如何让用户从"不去健身房"切换到"在家用AI健身"？

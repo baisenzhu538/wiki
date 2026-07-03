@@ -27,11 +27,13 @@ related:
 - '[[tool-单元模型-壁垒预判]]'
 - '[[ai单元模型口述蒋老师]]'
 - '[[ocr-一堂-单元模型-单商圈模型]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 quality_labels:
 - cited
 - principle
 - validated
-updated_at: '2026-06-30'
+updated_at: '2026-06-29'
 created_at: '2026-06-30'
 ---
 # 最简化的单元模型

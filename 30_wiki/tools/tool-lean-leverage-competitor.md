@@ -1,5 +1,4 @@
 ---
-
 id: tool-lean-leverage-competitor
 title: 借同行产品：用竞品认知验证假设
 type: tool
@@ -17,15 +16,15 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212241_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212241_vlm_desc.md
 related:
-- "[[strategy-domain-digest]]"
-- "[[yitang-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- framework-lean-four-principles
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
-
 # 借同行产品：用竞品认知验证假设
 
 > 同行产品已经在市场上跑出来的认知，对我也有效——用竞品的销售、转化与用户反馈，替代自研产品去验证关键假设。

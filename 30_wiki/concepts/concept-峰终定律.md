@@ -1,5 +1,4 @@
 ---
-
 id: concept-峰终定律
 title: 峰终定律：用户体验的二八定律
 type: concept
@@ -15,15 +14,16 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
-
 # 峰终定律：用户体验的二八定律
 
 ## 一句话定义

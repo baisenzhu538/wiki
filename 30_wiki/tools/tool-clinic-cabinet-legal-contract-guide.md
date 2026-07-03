@@ -1,6 +1,4 @@
 ---
-
-
 id: tool-clinic-cabinet-legal-contract-guide
 title: 诊所+智能药柜合作的法律关系与合同要点
 type: tool
@@ -9,23 +7,25 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-  - pending_archive:src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
-  - pending_archive:src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
-  - src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
-  - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
+- pending_archive:src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
+- pending_archive:src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
+- src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
+- src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: '2026-06-29'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-- "[[concept-smart-medicine-cabinet-international-models]]"
-- "[[tool-smart-medicine-cabinet-compliance-checklist]]"
-- "[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]"
-- "[[smart-medicine-cabinet-clinic-risk-observation]]"
-- "[[互联网医院项目]]"
+- '[[concept-smart-medicine-cabinet-international-models]]'
+- '[[tool-smart-medicine-cabinet-compliance-checklist]]'
+- '[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]'
+- '[[smart-medicine-cabinet-clinic-risk-observation]]'
+- '[[互联网医院项目]]'
+- tool-strategy-gap-analysis
+- tool-ai-use-barbell-strategy
 ---
 ## Purpose
 

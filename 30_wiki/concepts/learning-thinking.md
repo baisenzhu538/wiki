@@ -9,25 +9,25 @@ source_refs:
 status: enriched
 title: Learning Thinking
 type: concept
-updated_at: 2026-05-22
+updated_at: '2026-06-29'
 pipeline: null
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- "[[yt-model-liberate-thinking-layers]]"
-- "[[yt-tool-best-practice-learning]]"
-- "[[yt-personal-ai-thinking-card]]"
-- "[[yt-personal-thinking-models]]"
-- "[[ai-learning-closed-loop]]"
-- "[[master-systems-thinking]]"
-- "[[yt-personal-ipo-learning]]"
-- "[[yt-model-ipo-learning-strategy]]"
-- "[[yt-panproduct-execution-liberate-thinking]]"
-- "[[dk-yi-tang-wishful-thinking-kills-startups]]"
+- '[[yt-model-liberate-thinking-layers]]'
+- '[[yt-tool-best-practice-learning]]'
+- '[[yt-personal-ai-thinking-card]]'
+- '[[yt-personal-thinking-models]]'
+- '[[ai-learning-closed-loop]]'
+- '[[master-systems-thinking]]'
+- '[[yt-personal-ipo-learning]]'
+- '[[yt-model-ipo-learning-strategy]]'
+- '[[yt-panproduct-execution-liberate-thinking]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+- yt-system-course-map-lecture
 ---
-
 # Learning Thinking
 
 ## Summary

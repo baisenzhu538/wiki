@@ -21,10 +21,12 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 quality_labels:
 - principle
 - validated
-updated_at: '2026-06-30'
+updated_at: '2026-06-29'
 created_at: '2026-06-30'
 ---
 # 科学决策宽度：个人·企业·团队

@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-value-capture
 title: 价值获取设计工具：8 问盈利模型
 aliases:
@@ -18,30 +17,31 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: pending
 related:
-- "[[framework-strategy-ansoff]]"
-- "[[tool-strategy-business-design-template]]"
-- "[[tool-strategy-customer-selection]]"
-- "[[tool-strategy-category-role-matrix]]"
-- "[[tool-strategy-value-proposition]]"
-- "[[case-strategy-m-brand-profit-model]]"
-- "[[case-strategy-snack-export-opportunity]]"
-- "[[case-strategy-snack-industry-chain]]"
-- "[[framework-strategy-business-design]]"
-- "[[tool-strategy-activity-scope]]"
-- "[[tool-strategy-business-design-template]]"
-- "[[tool-strategy-industry-chain-analysis]]"
-- "[[tool-strategy-platform-business-map]]"
-- "[[tool-strategy-value-proposition]]"
+- '[[framework-strategy-ansoff]]'
+- '[[tool-strategy-business-design-template]]'
+- '[[tool-strategy-customer-selection]]'
+- '[[tool-strategy-category-role-matrix]]'
+- '[[tool-strategy-value-proposition]]'
+- '[[case-strategy-m-brand-profit-model]]'
+- '[[case-strategy-snack-export-opportunity]]'
+- '[[case-strategy-snack-industry-chain]]'
+- '[[framework-strategy-business-design]]'
+- '[[tool-strategy-activity-scope]]'
+- '[[tool-strategy-business-design-template]]'
+- '[[tool-strategy-industry-chain-analysis]]'
+- '[[tool-strategy-platform-business-map]]'
+- '[[tool-strategy-value-proposition]]'
+- yt-five-step-method
+- yt-business-model-definition
 ---
-
 # 价值获取设计工具：8 问盈利模型
 
 > 业务设计六要素第 3 要素。核心问题：**我们如何从提供的价值中获利？盈利模式是什么？**

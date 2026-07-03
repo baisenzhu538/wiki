@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-store-franchise-research
 title: 门店加盟调研手段：浅中深三层10大评估法
 type: tool
@@ -8,7 +7,7 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: 2026-06-21
+updated_at: '2026-06-29'
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -30,13 +29,14 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡1（门店）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- framework-yitang-six-layer-cross-validation
+- concept-yitang-research-objective
 ---
-
 # 门店加盟调研手段：浅中深三层10大评估法
 
 > **一句话**：评估一个门店加盟靠不靠谱，看三层——浅层看公开数据排除硬伤，中层蹲店体验交叉验证，深层访谈失败者获取真相。

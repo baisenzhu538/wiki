@@ -18,24 +18,23 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-28'
+updated_at: '2026-06-29'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - "[[yt-lean-daily-chemical-mvp]]"
-  - "[[yt-lean-flower-mom-group-leader]]"
-  - "[[yt-lean-daily-probability-decision]]"
+- '[[yt-lean-daily-chemical-mvp]]'
+- '[[yt-lean-flower-mom-group-leader]]'
+- '[[yt-lean-daily-probability-decision]]'
+- yt-model-five-step-canvas
 diagnostic_signals:
 - framework_lens: 产品内核假设 / 关键转化链路
   follow_up_question: 是价格过高、效果不明显、信任不够，还是两类目标客户画像本身与3980套餐不匹配？
 - framework_lens: 里程碑依赖 / 过早固化
   follow_up_question: 200→4000转化率是否已拿到初步肯定判断？加盟意愿测试是否应放在第三里程碑而非现在就做？
 ---
-
-
 > "你的产品结构是三层漏斗：200元体验 → 3980元套餐 → 2万加盟。表面上看是在问'测200还是测3980'，但这个问题背后真正的命题是：这个漏斗里，最大风险的假设到底是什么？" —— 张磊，AMA Q7
 
 ## Background

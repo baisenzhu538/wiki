@@ -1,5 +1,4 @@
 ---
-
 id: framework-ai-deliberate-practice-loop
 type: framework
 title: AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
@@ -14,11 +13,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
 quality_labels:
-  - insight
-  - principle
-  - validated
+- insight
+- principle
+- validated
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: '2026-06-29'
 source_refs:
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
@@ -29,13 +28,14 @@ source_refs:
 - pending_archive:S. Guo et al., "Using generative AI and multi-agents to provide
   automatic feedback," arXiv:2411.07407, 2024
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- framework-yitang-deliberate-practice-1plus4
+- framework-一堂五步法-泛产品设计
 ---
-
 # AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
 
 ## 一句话

@@ -4,24 +4,26 @@ title: 知识卡片 → Claude Code Skill 迭代标准与全库扫描方案
 type: improvement-plan
 status: approved
 domain:
-  - master
-  - kdo
+- master
+- kdo
 source_refs:
-  - .claude/skills/research/SKILL.md
-  - .claude/skills/research-osint/SKILL.md
-  - .claude/skills/research-cross-validation/SKILL.md
-  - .claude/skills/research-web-scraping/SKILL.md
-  - .claude/skills/research-financial-report/SKILL.md
-  - .claude/skills/research-industry-report/SKILL.md
-  - .claude/skills/research-expert-interview/SKILL.md
-created_at: "2026-06-21"
+- .claude/skills/research/SKILL.md
+- .claude/skills/research-osint/SKILL.md
+- .claude/skills/research-cross-validation/SKILL.md
+- .claude/skills/research-web-scraping/SKILL.md
+- .claude/skills/research-financial-report/SKILL.md
+- .claude/skills/research-industry-report/SKILL.md
+- .claude/skills/research-expert-interview/SKILL.md
+created_at: '2026-06-21'
 author: 欧阳锋
 reviewed_by: 欧阳锋
-confidence: 0.90
+confidence: 0.9
 related:
-  - "[[framework-yitang-oscar-research]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[yitang-research-domain-digest]]"
+- '[[framework-yitang-oscar-research]]'
+- '[[framework-yitang-18-strategy-cards]]'
+- '[[yitang-research-domain-digest]]'
+- tinyfish-agentic-web-infrastructure
+updated_at: '2026-06-29'
 ---
 # 知识卡片 → Claude Code Skill 迭代标准
 

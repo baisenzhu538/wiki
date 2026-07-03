@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-weapon-former-employee-network
 title: 武器库策略6：前员工人脉网络——六度人脉的实战应用
 type: tool
@@ -18,13 +17,14 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
+updated_at: '2026-06-29'
 ---
-
 # 武器库策略6：前员工人脉网络
 
 > 通过人脉链找到曾在目标公司工作过的人——朋友的朋友、前同事的前同事。

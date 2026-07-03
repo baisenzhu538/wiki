@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-social-media-monitoring
 title: 社交媒体监控：持续追踪竞对的公开动态
 type: tool
@@ -17,14 +16,14 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 ---
-
 # 社交媒体监控
 
 > 竞对的微博/公众号/抖音/小红书——持续追踪公开动态，捕捉战略信号。

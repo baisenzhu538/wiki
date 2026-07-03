@@ -1,5 +1,4 @@
 ---
-
 id: tool-讲香十指模型-超级武器库
 title: 讲香十指模型：超级武器库——表达力的十种武器
 type: tool
@@ -15,14 +14,15 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-讲香十指模型-超级武器库_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
+- concept-X型Y型决策习惯
 updated_at: '2026-06-29'
 ---
-
 # 讲香十指模型：超级武器库
 
 ## 一句话定义

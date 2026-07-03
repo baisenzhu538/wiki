@@ -1,11 +1,10 @@
 ---
-
 id: case-roblox-ai-npc-education
 title: Roblox AI NPC 与教育场景
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.8
@@ -20,11 +19,12 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - "[[case-panproduct-lanyi-shidonghui-npc]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[case-panproduct-lanyi-shidonghui-npc]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- agent-native-card-design
+- tinyfish-agentic-web-infrastructure
 ---
-
 # Roblox AI NPC 与教育场景
 
 > **Burn line**：当游戏平台把生成式 AI NPC 放进数以亿计未成年人的虚拟课堂时，真正的问题不是「它能不能教」，而是「它在教孩子成为什么样的人」。

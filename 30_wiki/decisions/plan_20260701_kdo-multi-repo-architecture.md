@@ -1,23 +1,24 @@
 ---
 id: plan_20260701_kdo-multi-repo-architecture
-title: "KDO 多库架构设计方案"
+title: KDO 多库架构设计方案
 type: improvement-plan
 status: draft
 author: 黄药师
 created_at: 2026-07-01
-updated_at: 2026-07-01
+updated_at: '2026-06-29'
 domain:
-  - kdo
-  - infrastructure
+- kdo
+- infrastructure
 source_refs:
-  - 20_memory/user-insight-profile.md
-  - 20_memory/zhu-time-os.md
+- 20_memory/user-insight-profile.md
+- 20_memory/zhu-time-os.md
 related:
-  - "[[kdo-system-manual]]"
-  - "[[plan-kdo-infrastructure-disaster-prevention]]"
-  - "[[zhu-time-os]]"
+- '[[kdo-system-manual]]'
+- '[[plan-kdo-infrastructure-disaster-prevention]]'
+- '[[zhu-time-os]]'
+- tool-agent-spec-yitang-self-motivation
+- tool-agent-spec-yitang-sales-process-tracker
 ---
-
 # KDO 多库架构设计方案
 
 > 老朱的核心目标：用AI重塑工作模式 → OPC公司。主库是武器库，副库是战场。

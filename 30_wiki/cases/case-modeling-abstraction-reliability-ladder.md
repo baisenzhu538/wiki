@@ -1,5 +1,4 @@
 ---
-
 id: case-modeling-abstraction-reliability-ladder
 title: 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
 type: case
@@ -15,7 +14,7 @@ source_refs:
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags: []
 created_at: 2026-06-15
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-抽象建模-案例-图-02
@@ -24,20 +23,21 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[tool-从案例中学习]]"
-  - "[[ocr-一堂-案例拆解-课程清单]]"
-  - "[[ocr-一堂-科学决策-深度-案例02]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例02]]"
-  - "[[case-科学决策-深度案例02]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例01]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
-  - "[[ocr-一堂-科学决策-深度-案例04]]"
+- '[[yitang-domain-digest]]'
+- '[[tool-从案例中学习]]'
+- '[[ocr-一堂-案例拆解-课程清单]]'
+- '[[ocr-一堂-科学决策-深度-案例02]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
+- case-modeling-process-livestream-prep
+- case-modeling-essence-levels
 ---
-
 # 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
 
 > 来源：Truman-高阶建模-抽象建模-案例-图-02 | 一堂建模能力培训（Truman）

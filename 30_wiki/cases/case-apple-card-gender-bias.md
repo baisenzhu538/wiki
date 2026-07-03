@@ -1,15 +1,14 @@
 ---
-
 id: case-apple-card-gender-bias
 title: Apple Card 信用额度性别争议
 type: case
 status: enriched
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.8
@@ -24,14 +23,15 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - "[[yt-personal-ai-thinking-card]]"
-  - "[[yt-tool-hiring-scorecard]]"
-  - "[[business-formula-to-kdo-card-quality]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[concept-card-index-latest]]"
-  - "[[agent-native-card-design]]"
+- '[[yt-personal-ai-thinking-card]]'
+- '[[yt-tool-hiring-scorecard]]'
+- '[[business-formula-to-kdo-card-quality]]'
+- '[[framework-yitang-18-strategy-cards]]'
+- '[[concept-card-index-latest]]'
+- '[[agent-native-card-design]]'
+- tool-ai-cross-reading-method
+- tool-ai-critical-reading-three-layers
 ---
-
 # Apple Card 信用额度性别争议
 
 > **Burn line**：一张标榜“简洁、公平、无 Fees”的苹果信用卡，在 2019 年因夫妻共同申请却出现 20 倍额度差而被推上风口浪尖——监管最终认定未违反公平借贷法，却暴露了算法黑箱、客户申诉无门与公众信任之间的深层裂缝。

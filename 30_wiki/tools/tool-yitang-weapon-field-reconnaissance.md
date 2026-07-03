@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-weapon-field-reconnaissance
 title: 武器库策略14：线下门店侦察——蹲店·数人头·看运营
 type: tool
@@ -18,14 +17,14 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 ---
-
 # 武器库策略14：线下门店侦察
 
 > 业务现场是所有答案的源头。去现场——蹲店、数人头、看运营。

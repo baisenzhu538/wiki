@@ -1,5 +1,4 @@
 ---
-
 id: tool-osint-maltego
 title: Maltego：实体关系图谱——画出目标公司的隐藏网络
 type: tool
@@ -18,14 +17,15 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- proposal-prompt-injection-infrastructure
+- tool-agent-spec-yitang-objection-handler
 updated_at: '2026-06-29'
 ---
-
 # Maltego：实体关系图谱
 
 > 输入一个域名、人名、公司名或邮箱，Maltego自动搜索并绘制关联网络——谁控股谁、谁认识谁、谁和谁有共同利益。

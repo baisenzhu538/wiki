@@ -1,5 +1,4 @@
 ---
-
 title: KDO Protocol Priority Checklist
 type: improvement-plan
 domain:
@@ -7,8 +6,9 @@ domain:
 status: draft
 id: kdo-priority-checklist
 created_at: '2026-05-03'
-updated_at: '2026-06-16'
-related: null
+updated_at: '2026-06-29'
+related:
+- kdo-protocol-implementation-roadmap
 tags: null
 trust_level: medium
 author: unknown

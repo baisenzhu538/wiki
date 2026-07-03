@@ -3,8 +3,8 @@ id: tool-Truman-知识库最佳实践构建
 title: 技能：知识库最佳实践构建
 type: tool
 domain:
-  - ai-collaboration
-  - yitang- yitang
+- ai-collaboration
+- yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -14,13 +14,15 @@ trust_level: low
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
-  - "[[tool-Truman-AI工具选型决策]]"
-  - "[[tool-Truman-提示词优化底层方法]]"
-  - "[[tool-Truman-开源模型与商业模型融合方案]]"
-  - "[[tool-Truman-AI场景探索STAR模型]]"
-  - "[[tool-Truman-数学题与语文题区分法]]"
+- '[[tool-Truman-AI工具选型决策]]'
+- '[[tool-Truman-提示词优化底层方法]]'
+- '[[tool-Truman-开源模型与商业模型融合方案]]'
+- '[[tool-Truman-AI场景探索STAR模型]]'
+- '[[tool-Truman-数学题与语文题区分法]]'
+- case-truman-ai-partner
+- yt-note-checklist-concept
 ---
 # 技能：知识库最佳实践构建
 

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-weapon-third-party-database
 title: 武器库策略11：第三方数据库——15+核心数据源
 type: tool
@@ -17,14 +16,15 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-yitang-business-registration-check
+- tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 ---
-
 # 武器库策略11：第三方数据库
 
 > 公开可访问的数据库——整理成清单，随用随查。

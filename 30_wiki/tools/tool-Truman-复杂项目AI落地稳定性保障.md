@@ -14,13 +14,14 @@ trust_level: low
 source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
-- "[[tool-Truman-数学题与语文题区分法]]"
-- "[[tool-Truman-提示词优化底层方法]]"
-- "[[tool-Truman-多Agent通信协作方案]]"
-- "[[tool-Truman-AI场景探索STAR模型]]"
-- "[[tool-Truman-人在环渐进自动化策略]]"
+- '[[tool-Truman-数学题与语文题区分法]]'
+- '[[tool-Truman-提示词优化底层方法]]'
+- '[[tool-Truman-多Agent通信协作方案]]'
+- '[[tool-Truman-AI场景探索STAR模型]]'
+- '[[tool-Truman-人在环渐进自动化策略]]'
+- tinyfish-agentic-web-infrastructure
 ---
 # 技能：复杂项目AI落地稳定性保障
 

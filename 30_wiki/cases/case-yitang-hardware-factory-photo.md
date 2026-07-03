@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-hardware-factory-photo
 title: 案例：从朋友圈照片找到代工厂
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：从朋友圈照片找到代工厂
 
 **背景**：创业者做硬件产品，需要找车架代工厂开模。发现知乎上有一个人在做类似产品，比自己早。加微信聊了，但对方不可能直接告诉他是哪个工厂——这是商业机密。

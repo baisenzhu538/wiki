@@ -1,5 +1,4 @@
 ---
-
 id: framework-strategy-basics-05-change
 title: 变革（Change）：加外挂/换路/换轮子
 type: framework
@@ -15,21 +14,21 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[ocr-一堂-高阶体系探索营-三种咨询可能性]]"
-  - "[[yt-barrier-ecosystem-lock-in]]"
-  - "[[tool-mece体系框架法]]"
-  - "[[case-truman-personal-growth-map-creation]]"
-  - "[[yt-system-course-catalog]]"
-  - "[[一堂方法论体系总图]]"
-  - "[[tool-敏捷发布快速迭代搭建体系]]"
-  - "[[yitang-methodology-system]]"
-  - "[[yt-tob-demand-scenarios]]"
-  - "[[tool-马易-销售智能体体系搭建路径]]"
-  - "[[master-systems-thinking]]"
-  - "[[personal-growth-complex-systems]]"
+- '[[strategy-domain-digest]]'
+- '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'
+- '[[yt-barrier-ecosystem-lock-in]]'
+- '[[tool-mece体系框架法]]'
+- '[[case-truman-personal-growth-map-creation]]'
+- '[[yt-system-course-catalog]]'
+- '[[一堂方法论体系总图]]'
+- '[[tool-敏捷发布快速迭代搭建体系]]'
+- '[[yitang-methodology-system]]'
+- '[[yt-tob-demand-scenarios]]'
+- '[[tool-马易-销售智能体体系搭建路径]]'
+- '[[master-systems-thinking]]'
+- '[[personal-growth-complex-systems]]'
+- yt-business-model-channel-economics
 ---
-
 **三种变革方式**（对应不同阶段）：
 1. **加外挂**：在现有业务和能力基础上，叠加新能力或新渠道，提升效率和规模。
 2. **换路**：当原赛道增长见顶或竞争恶化，切换到新的价值曲线或商业模式。

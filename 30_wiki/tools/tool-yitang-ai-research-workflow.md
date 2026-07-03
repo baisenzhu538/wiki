@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-ai-research-workflow
 title: AI辅助调研工作流：七工具四层深度+十大假设
 type: tool
@@ -8,11 +7,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-21
-updated_at: 2026-06-21
+updated_at: '2026-06-29'
 confidence: 0.9
 trust_level: high
 language: zh-CN
@@ -35,13 +34,13 @@ source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- case-decision-ai-assisted-vs-human
 ---
-
 # AI辅助调研工作流：七工具四层深度+十大假设
 
 > **一句话**：AI做深度案例调研的上限非常高——但前提是人必须清楚地知道调研什么、什么是好的调研。AI不是替代你的判断，是放大你的判断。

@@ -1,5 +1,4 @@
 ---
-
 id: tool-candy-oral-polish
 title: Candy口语化润色：七条原则让文字"读出声来"
 type: tool
@@ -17,13 +16,15 @@ domain:
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[framework-candy-transcript-workflow]]"
-  - "[[tool-candy-positioning-canvas]]"
-  - "[[concept-candy-ai-as-collaborator]]"
-  - "[[case-candy-problem-os-vpn]]"
+- '[[yitang-domain-digest]]'
+- '[[framework-candy-transcript-workflow]]'
+- '[[tool-candy-positioning-canvas]]'
+- '[[concept-candy-ai-as-collaborator]]'
+- '[[case-candy-problem-os-vpn]]'
+- proposal-prompt-injection-infrastructure
+- framework-demand-validation-pipeline
+updated_at: '2026-06-29'
 ---
-
 # 口语化润色七条原则
 
 > Step 8——结构稳定后才润色。润色不是重写，是让文字"读出声来也不别扭"。

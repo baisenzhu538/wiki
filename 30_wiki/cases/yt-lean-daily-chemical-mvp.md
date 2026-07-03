@@ -19,16 +19,17 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: '2026-06-28'
+updated_at: '2026-06-29'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - "[[yt-lean-beauty-store-conversion]]"
-  - "[[yt-lean-flower-mom-group-leader]]"
-  - "[[yt-lean-daily-probability-decision]]"
+- '[[yt-lean-beauty-store-conversion]]'
+- '[[yt-lean-flower-mom-group-leader]]'
+- '[[yt-lean-daily-probability-decision]]'
+- yt-lean-assumption-verification-3means
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -46,8 +47,6 @@ diagnostic_signals:
 - framework_lens: 时光机理论 / 诚实调研
   follow_up_question: 同样资源、同样条件的竞品已经跑出了哪些信息？日本/东南亚等先行市场的数据能否迁移到本地？
 ---
-
-
 # 日化沐浴露MVP：不生产产品验证行业机会
 
 > "你不是在验证这个产品本身，而是在验证它背后的核心假设——验证它背后的用户群体，验证它背后的核心卖点，甚至是核心卖点的某一项选项。" —— 张磊，AMA Q4（来源：src_20260616_b1e25c49）

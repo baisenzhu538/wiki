@@ -1,5 +1,4 @@
 ---
-
 id: tool-lean-human-replace-rnd
 title: 人工替代高阶研发
 type: tool
@@ -17,15 +16,16 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212341_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212341_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-lean-minimum-version
+- tool-lean-leverage-tools
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
-
 # 人工替代高阶研发
 
 > 在验证「高阶研发是否值得做」之前，先用人工执行原本由算法/系统/硬件承担的任务，把不可退的技术投入降级为可证伪的服务实验。

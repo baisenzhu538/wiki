@@ -1,5 +1,4 @@
 ---
-
 id: tool-用户分层
 title: 用户分层：按价值和行为细分用户群
 type: tool
@@ -15,14 +14,15 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 updated_at: '2026-06-29'
 ---
-
 # 用户分层：按价值和行为细分用户群
 
 ## 一句话定义

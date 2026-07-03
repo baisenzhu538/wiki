@@ -1,5 +1,4 @@
 ---
-
 id: concept-yitang-research-mindset
 title: 调研心态：从"找答案"到"拆假设"
 type: concept
@@ -18,14 +17,15 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-yitang-amazon-bestseller
+- tool-yitang-ai-monitoring-alert
 updated_at: '2026-06-29'
 ---
-
 # 调研心态：从"找答案"到"拆假设"
 
 > 调研新手的心态是"我想找到答案"。老兵的心态是"我先拆掉自己最危险的假设"。

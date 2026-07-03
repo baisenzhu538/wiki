@@ -1,5 +1,4 @@
 ---
-
 id: data-labeling-best-practices-report
 title: 数据标注最佳实践调研报告
 type: concept
@@ -11,7 +10,7 @@ source_refs:
 - src_unknown
 - src_unknown
 created_at: 2026-05-31
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 - src_unknown
@@ -20,11 +19,12 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-  - "[[dk-p20-bigram-fail]]"
-  - "[[labeling-final-consolidation]]"
-  - "[[labeling-research-alignment]]"
-  - "[[ouyangfeng-labeling-research-review]]"
-  - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
+- '[[dk-p20-bigram-fail]]'
+- '[[labeling-final-consolidation]]'
+- '[[labeling-research-alignment]]'
+- '[[ouyangfeng-labeling-research-review]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- kdo-15-dimension-label-spec
 ---
 # 数据标注最佳实践调研报告
 

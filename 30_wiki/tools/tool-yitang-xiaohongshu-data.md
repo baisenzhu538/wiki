@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-xiaohongshu-data
 title: 小红书数据：种草热度和用户口碑追踪
 type: tool
@@ -17,14 +16,14 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 ---
-
 # 小红书数据
 
 > 小红书——消费决策的核心平台。种草笔记数量=品牌热度，差评笔记=产品缺陷。

@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-model-valuation-flywheel
 title: 案例：一堂内部给模型"定价"——从 5000 元到 10 万美金的价值飞轮
 type: case
@@ -30,7 +29,7 @@ related_cases:
 - src_unknown
 - src_unknown
 created_at: '2026-06-15'
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 王语嫣
 confidence: 0.8
@@ -40,20 +39,21 @@ domain:
 - 组织激励
 - 模型质量管理
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[tool-从案例中学习]]"
-  - "[[ocr-一堂-案例拆解-课程清单]]"
-  - "[[ocr-一堂-科学决策-深度-案例02]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例02]]"
-  - "[[case-科学决策-深度案例02]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例01]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
-  - "[[ocr-一堂-科学决策-深度-案例04]]"
+- '[[yitang-domain-digest]]'
+- '[[tool-从案例中学习]]'
+- '[[ocr-一堂-案例拆解-课程清单]]'
+- '[[ocr-一堂-科学决策-深度-案例02]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[ocr-一堂-科学决策-深度-案例04]]'
+- case-essence-entrepreneurship
+- case-decision-ai-assisted-vs-human
 ---
-
 # 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
 
 ## 原始表述

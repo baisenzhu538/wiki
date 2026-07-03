@@ -1,5 +1,4 @@
 ---
-
 id: case-candy-problem-os-vpn
 title: 案例：VPN场景——一个低质量提问如何消耗双方关系
 type: case
@@ -8,7 +7,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -18,21 +17,21 @@ domain:
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[ocr-泛产品设计-用户卡片-场景推演]]"
-  - "[[tool-从案例中学习]]"
-  - "[[ocr-一堂-案例拆解-课程清单]]"
-  - "[[ocr-一堂-科学决策-深度-案例02]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[tool-马易-工作流拆解找场景]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例02]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[tool-场景推演]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
-  - "[[tool-月白-电商白底图生成与场景图匹配]]"
+- '[[yitang-domain-digest]]'
+- '[[ocr-泛产品设计-用户卡片-场景推演]]'
+- '[[tool-从案例中学习]]'
+- '[[ocr-一堂-案例拆解-课程清单]]'
+- '[[ocr-一堂-科学决策-深度-案例02]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[tool-马易-工作流拆解找场景]]'
+- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[tool-场景推演]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[tool-月白-电商白底图生成与场景图匹配]]'
+- case-opc-agent-wave1-real-model-testing
 ---
-
 # 案例：VPN场景
 
 > Candy在Problem OS逐字稿中使用的核心案例——展示一个低质量提问如何一步步消耗双方。

@@ -7,7 +7,7 @@ source_refs:
 status: enriched
 title: AIMA AI思维卡 — 外部链接归档
 type: concept
-updated_at: 2026-05-22
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 author: unknown
@@ -15,11 +15,12 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- "[[ocr-truman的个人成长五步法]]"
-- "[[ocr-一堂y模型-科学成事道理]]"
-- "[[ocr-ocr_screenshot2]]"
-- "[[ocr-一堂-地图-创业地图_conv]]"
-- "[[ocr-ocr_snipaste_2026-05-15_21-39-40]]"
+- '[[ocr-truman的个人成长五步法]]'
+- '[[ocr-一堂y模型-科学成事道理]]'
+- '[[ocr-ocr_screenshot2]]'
+- '[[ocr-一堂-地图-创业地图_conv]]'
+- '[[ocr-ocr_snipaste_2026-05-15_21-39-40]]'
+- yt-system-course-map-lecture
 ---
 # AIMA AI思维卡 — 外部链接归档
 

@@ -1,28 +1,26 @@
 ---
-
-
-
 id: concept-smart-medicine-cabinet-platform-cooperation-validation
 title: 智能药柜平台合作命题交叉验证（美团/饿了么/阿里健康/京东）
 type: concept
 status: enriched
 domain:
-  - healthcare
-  - business-strategy
+- healthcare
+- business-strategy
 source_refs:
-  - pending_archive:src_20260613_945a21d7-itingnao-deep-dive-platforms
-  - src_20260613_945a21d7-itingnao-deep-dive-platforms
+- pending_archive:src_20260613_945a21d7-itingnao-deep-dive-platforms
+- src_20260613_945a21d7-itingnao-deep-dive-platforms
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: '2026-06-29'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
 related:
-  - [[smart-medicine-cabinet-financial-model]]
-  - [[tool-smart-medicine-cabinet-compliance-checklist]]
-  - [[smart-medicine-cabinet-o2o-cost-structure]]
+- - - smart-medicine-cabinet-financial-model
+- - - tool-smart-medicine-cabinet-compliance-checklist
+- - - smart-medicine-cabinet-o2o-cost-structure
+- 诊所O2O项目
 ---
 # 智能药柜平台合作命题交叉验证
 

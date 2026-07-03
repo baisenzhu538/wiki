@@ -1,5 +1,4 @@
 ---
-
 id: framework-strategy-ansoff
 title: 安索夫矩阵：产品-市场增长战略
 type: framework
@@ -13,26 +12,27 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_91_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_91_vlm_desc.md
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[ocr-泛产品设计-用户卡片-场景推演]]"
-  - "[[ocr-泛产品设计-落地卡片-攻坚会]]"
-  - "[[ocr-泛产品设计落地篇]]"
-  - "[[ocr-泛产品设计者的三大自我修养]]"
-  - "[[ocr-泛产品设计-用户卡片-惊喜公式]]"
-  - "[[tool-泛产品落地-内核和边界]]"
-  - "[[tool-泛产品落地-灵感闪现]]"
-  - "[[tool-泛产品落地-业务建模]]"
-  - "[[ocr-泛产品设计-落地卡片-roi分析]]"
-  - "[[tool-泛产品落地-解放思想]]"
-  - "[[tool-泛产品设计-需求工具箱指南]]"
-  - "[[tool-Truman-判断力产品化与系统赋能]]"
-  - "[[ocr-泛产品设计-落地卡片-低成本测试mvp]]"
+- '[[strategy-domain-digest]]'
+- '[[ocr-泛产品设计-用户卡片-场景推演]]'
+- '[[ocr-泛产品设计-落地卡片-攻坚会]]'
+- '[[ocr-泛产品设计落地篇]]'
+- '[[ocr-泛产品设计者的三大自我修养]]'
+- '[[ocr-泛产品设计-用户卡片-惊喜公式]]'
+- '[[tool-泛产品落地-内核和边界]]'
+- '[[tool-泛产品落地-灵感闪现]]'
+- '[[tool-泛产品落地-业务建模]]'
+- '[[ocr-泛产品设计-落地卡片-roi分析]]'
+- '[[tool-泛产品落地-解放思想]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[tool-Truman-判断力产品化与系统赋能]]'
+- '[[ocr-泛产品设计-落地卡片-低成本测试mvp]]'
+- yt-five-step-method-complete
+- yt-demand-quantitative-estimation
 ---
-
 # 安索夫矩阵：产品-市场增长战略
 
 > 安索夫矩阵（Ansoff Matrix）由伊戈尔·安索夫（Igor Ansoff）于 1957 年提出，帮助企业系统思考增长路径。

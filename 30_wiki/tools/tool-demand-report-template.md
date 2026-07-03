@@ -11,16 +11,15 @@ source_refs:
 - 30_wiki/tools/tool-demand-iceberg-l6-hypothesis.md
 - 30_wiki/frameworks/framework-demand-opportunity-spectrum.md
 created_at: '2026-06-21'
-updated_at: '2026-06-21'
+updated_at: '2026-06-29'
 author: 黄药师（从 Coze 报告结构提取 + KDO 框架映射）
 reviewed_by: 欧阳锋
 related:
-- "[[tool-demand-iceberg-l6-hypothesis]]"
-- "[[framework-demand-opportunity-spectrum]]"
-- "[[yt-market-size-estimation]]"
-
+- '[[tool-demand-iceberg-l6-hypothesis]]'
+- '[[framework-demand-opportunity-spectrum]]'
+- '[[yt-market-size-estimation]]'
+- framework-yitang-six-layer-cross-validation
 ---
-
 # 需求分析报告模板
 
 > 端到端报告结构。Agent 跑完需求分析后，按此模板输出——不只是"分析结论"，是可投递给用户的完整报告。

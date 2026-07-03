@@ -17,13 +17,14 @@ type: concept
 reviewed_by: pending
 confidence: 0.65
 trust_level: low
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
-- "[[plan_20260501_8ecb74e3-improvement-plan]]"
-- "[[plan_20260501_47264869-improvement-plan]]"
-- "[[plan_20260501_05858800-improvement-plan]]"
-- "[[plan_20260501_97170532-improvement-plan]]"
-- "[[plan_20260503_f3e9a2b1-improvement-plan]]"
+- '[[plan_20260501_8ecb74e3-improvement-plan]]'
+- '[[plan_20260501_47264869-improvement-plan]]'
+- '[[plan_20260501_05858800-improvement-plan]]'
+- '[[plan_20260501_97170532-improvement-plan]]'
+- '[[plan_20260503_f3e9a2b1-improvement-plan]]'
+- knowledge-delivery-os-快速体验指南-飞书云文档
 ---
 # REQ-014 批量 Produce 12 篇 Enriched 页面
 

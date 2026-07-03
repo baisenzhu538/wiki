@@ -1,5 +1,4 @@
 ---
-
 id: concept-yitang-facts-first
 title: 事实优先：调研的基本纪律
 type: concept
@@ -18,14 +17,14 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- concept-yitang-research-facts-first
 updated_at: '2026-06-29'
 ---
-
 # 事实优先
 
 > 降龙十八掌第13掌。调研的第一纪律：事实优先于观点，数据优先于解读，一手优先于二手。

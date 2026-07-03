@@ -1,5 +1,4 @@
 ---
-
 id: tool-demand-iceberg-l1-user
 title: L1粗拆用户标签：识别任务执行者的核心角色
 type: tool
@@ -7,7 +6,7 @@ status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
-updated_at: '2026-06-21'
+updated_at: '2026-06-29'
 created_at: 2026-06-21
 confidence: 0.9
 trust_level: high
@@ -19,13 +18,14 @@ source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- proposal-prompt-injection-infrastructure
+- business-research-skill-oscar-13-weapon-system
 ---
-
 # L1粗拆用户标签
 
 > 不能只看"职场人"这种大标签。要深入到身心状态、特别时刻和空间环境。三维拆解缩小切口。

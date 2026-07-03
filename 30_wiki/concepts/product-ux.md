@@ -7,7 +7,7 @@ source_refs:
 status: draft
 title: Product Ux
 type: concept
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 - src_unknown
@@ -16,11 +16,13 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- "[[design-ai-image-generation]]"
-- "[[business-analysis]]"
-- "[[learning-thinking]]"
-- "[[meta-prompt-eng]]"
-- "[[writing-content]]"
+- '[[design-ai-image-generation]]'
+- '[[business-analysis]]'
+- '[[learning-thinking]]'
+- '[[meta-prompt-eng]]'
+- '[[writing-content]]'
+- yt-system-course-map-lecture
+- yt-case-mandatory-cases
 ---
 # Product Ux
 

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-shareholder-analysis
 title: 股东信息穿透：从股权结构看利益格局
 type: tool
@@ -17,14 +16,15 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
+- tool-yitang-business-registration-check
 updated_at: '2026-06-29'
 ---
-
 # 股东信息穿透
 
 > 穿透竞对的股权结构——谁控制公司、谁的利益绑在一起、谁可能退出。

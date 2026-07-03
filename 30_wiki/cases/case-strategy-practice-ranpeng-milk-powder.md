@@ -13,11 +13,12 @@ source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - pending_archive: 合生元益生菌/奶粉市场公开报道待本地归档
 reviewed_by: pending
-updated_at: 2026-06-29
+updated_at: '2026-06-29'
 related:
 - strategy-domain-digest
+- case-opc-agent-wave1-real-model-testing
+- case-strategy-practice-12-zero-loss
 ---
-
 **起点**：最初品牌叫"干饭娃"（益生菌/肠胃方向）。
 
 **转型**：弃益生菌（合生元垄断）→ 身高方向 → 命名"一米八八"。

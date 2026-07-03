@@ -1,5 +1,4 @@
 ---
-
 id: framework-strategy-five-forces
 title: 波特五力分析框架
 type: framework
@@ -13,17 +12,18 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_74_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_74_vlm_desc.md
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- yt-five-step-method
+- yt-barrier-defensive-strategy
 ---
-
 # 波特五力分析框架
 
 > 迈克尔·波特（Michael E. Porter）提出的行业竞争分析框架，用于评估行业吸引力和盈利潜力。

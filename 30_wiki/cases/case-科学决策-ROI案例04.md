@@ -1,5 +1,4 @@
 ---
-
 id: case-科学决策-ROI案例04
 title: 案例：员工共学项目的ROI决策
 type: case
@@ -18,13 +17,13 @@ source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例04_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例04.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 updated_at: '2026-06-29'
-
 ---
-
 # 案例：员工共学项目的 ROI 决策
 
 ## 案例来源

@@ -1,5 +1,4 @@
 ---
-
 title: YAML 标注对 KDO 知识库的启发——从自由填字段到结构化索引
 type: improvement-plan
 domain: kdo
@@ -7,7 +6,7 @@ status: draft
 source_refs:
 - src_unknown
 created_at: 2026-06-06
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 id: proposal-yaml-frontmatter-standardization
 author: unknown
 reviewed_by: pending
@@ -15,11 +14,13 @@ confidence: 0.7
 trust_level: low
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - "[[dk-tool-chain-naming-is-infrastructure]]"
-  - "[[dk-f13-handwritten-yaml-parser]]"
-  - "[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]"
-  - "[[data-curator-role-division]]"
-  - "[[dk-p19-quote-yaml]]"
+- '[[dk-tool-chain-naming-is-infrastructure]]'
+- '[[dk-f13-handwritten-yaml-parser]]'
+- '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+- '[[data-curator-role-division]]'
+- '[[dk-p19-quote-yaml]]'
+- huangyaoshi-tagging-and-scope-proposal
+- tool-ai-voice-input-doubao
 ---
 # YAML 标注对 KDO 知识库的启发
 

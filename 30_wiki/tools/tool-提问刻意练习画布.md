@@ -1,5 +1,4 @@
 ---
-
 id: tool-提问刻意练习画布
 title: 提问刻意练习画布：L1-L4四级提问能力进阶
 type: tool
@@ -15,14 +14,15 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-提问刻意练习画布_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 updated_at: '2026-06-29'
 ---
-
 # 提问刻意练习画布
 
 ## 一句话定义

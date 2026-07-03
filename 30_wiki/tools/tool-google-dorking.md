@@ -1,5 +1,4 @@
 ---
-
 id: tool-google-dorking
 title: Google Dorking：高级搜索语法——挖出搜索引擎的隐藏信息
 type: tool
@@ -18,14 +17,15 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- modeling-scientific-milestones
+- tool-纪浩-problem-validation-four-checks
 updated_at: '2026-06-29'
 ---
-
 # Google Dorking：高级搜索语法
 
 > 零成本、零门槛、最高ROI。Google的高级搜索操作符能挖出普通搜索永远找不到的信息——竞对的内部文档、暴露的配置文件、忘记设权限的敏感页面。

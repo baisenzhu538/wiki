@@ -1,13 +1,12 @@
 ---
-
 id: case-strategy-model-selection-quiz
 title: 10情境战略模型选择练习：什么情境配什么工具
 type: case
 status: enriched
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 reviewed_by: 欧阳锋
@@ -22,19 +21,20 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_203_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_204_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[tool-月白-AI模型选择策略]]"
-  - "[[ocr-一堂刻意练习十年成长指数]]"
-  - "[[ocr-一堂-个人修炼-科学提问刻意练习]]"
-  - "[[tool-月白-AI模型选择决策法]]"
-  - "[[tool-按分阶练习路径渐进掌握方法]]"
-  - "[[ocr-一堂-个人修炼-提问刻意练习画布]]"
-  - "[[tool-月白-审美刻意练习法]]"
-  - "[[tool-复盘推演练习]]"
-  - "[[tool-提问刻意练习画布]]"
-  - "[[tool-提升笔记练习频次的方法]]"
+- '[[strategy-domain-digest]]'
+- '[[tool-月白-AI模型选择策略]]'
+- '[[ocr-一堂刻意练习十年成长指数]]'
+- '[[ocr-一堂-个人修炼-科学提问刻意练习]]'
+- '[[tool-月白-AI模型选择决策法]]'
+- '[[tool-按分阶练习路径渐进掌握方法]]'
+- '[[ocr-一堂-个人修炼-提问刻意练习画布]]'
+- '[[tool-月白-审美刻意练习法]]'
+- '[[tool-复盘推演练习]]'
+- '[[tool-提问刻意练习画布]]'
+- '[[tool-提升笔记练习频次的方法]]'
+- yt-unit-model-build
+- tool-yitang-research-quantitative-modeling
 ---
-
 **背景**：冉鹏课程中的"模型选择"互动练习，要求学员根据业务情境把左侧情境与右侧模型连线配对。OCR 原始表格存在列错位，以下按情境-任务-模型匹配逻辑整理。
 
 **模型选择的心智模式**（PPT _204）：

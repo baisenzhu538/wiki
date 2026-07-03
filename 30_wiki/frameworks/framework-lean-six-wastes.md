@@ -26,10 +26,11 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- case-lean-building-in-vacuum
 quality_labels:
 - principle
 - validated
-updated_at: '2026-06-30'
+updated_at: '2026-06-29'
 created_at: '2026-06-30'
 ---
 # 创业六宗罪 / 六大浪费

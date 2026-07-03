@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-executive-speech-analysis
 title: 高管公开发言分析：从CEO讲话中提取战略信号
 type: tool
@@ -17,14 +16,14 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 ---
-
 # 高管公开发言分析
 
 > CEO/高管的公开演讲和采访——他们说的和没说的，都在暴露公司的战略方向和焦虑。

@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-doorstep-nail-service-context
 title: 案例：上门美甲——在用户真实场景中访谈
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：上门美甲——在真实场景中访谈
 
 **问题**：创业者想做上门美甲服务，但不确定用户到底在什么场景下需要、最在意什么。

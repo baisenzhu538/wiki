@@ -3,8 +3,8 @@ id: tool-Truman-Skill全生命周期管理
 title: 技能：Skill全生命周期管理
 type: tool
 domain:
-  - ai-collaboration
-  - yitang- yitang
+- ai-collaboration
+- yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -14,13 +14,15 @@ trust_level: low
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
-  - "[[tool-Truman-AI能力分层学习路径]]"
-  - "[[tool-Truman-提示词优化底层方法]]"
-  - "[[tool-马易-隐性知识萃取与模型化]]"
-  - "[[tool-Truman-Feature特性层训练法]]"
-  - "[[tool-Truman-数学题与语文题区分法]]"
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-Truman-提示词优化底层方法]]'
+- '[[tool-马易-隐性知识萃取与模型化]]'
+- '[[tool-Truman-Feature特性层训练法]]'
+- '[[tool-Truman-数学题与语文题区分法]]'
+- case-ai-agent-milestone-design
+- tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
 ---
 # 技能：Skill全生命周期管理
 

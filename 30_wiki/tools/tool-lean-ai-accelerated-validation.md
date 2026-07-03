@@ -23,6 +23,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- tool-lean-leverage-tools
+- tool-lean-minimum-version
 quality_labels:
 - actionable
 - validated

@@ -16,7 +16,7 @@ definition_of_done:
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 author: 月白
@@ -24,11 +24,13 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-口喷作图工作流]]"
-  - "[[tool-月白-文创产品AI设计到生产的卡点预判]]"
-  - "[[tool-月白-文创材质成本调研与精益选择]]"
-  - "[[tool-月白-小红书平台内容策略：从美图经济到沙雕梗图]]"
-  - "[[tool-月白-正向反馈强化AI生成]]"
+- '[[tool-月白-口喷作图工作流]]'
+- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
+- '[[tool-月白-文创材质成本调研与精益选择]]'
+- '[[tool-月白-小红书平台内容策略：从美图经济到沙雕梗图]]'
+- '[[tool-月白-正向反馈强化AI生成]]'
+- tool-纪浩-problem-validation-four-checks
+- sk-ai-question-problem-checklist
 ---
 # 技能：小红书封面趋势判断法
 

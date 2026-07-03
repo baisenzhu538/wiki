@@ -7,7 +7,7 @@ source_refs:
 status: enriched
 title: Tools Workflows
 type: concept
-updated_at: 2026-05-22
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 - src_unknown
@@ -16,14 +16,14 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- "[[yt-panproduct-execution-good-tools]]"
-- "[[tool-yitang-weapon-ai-tools]]"
-- "[[yt-unit-model-three-tools]]"
-- "[[yt-personal-pan-product-tools]]"
-- "[[tool-lean-leverage-tools]]"
-- "[[ai-methodology-tools]]"
+- '[[yt-panproduct-execution-good-tools]]'
+- '[[tool-yitang-weapon-ai-tools]]'
+- '[[yt-unit-model-three-tools]]'
+- '[[yt-personal-pan-product-tools]]'
+- '[[tool-lean-leverage-tools]]'
+- '[[ai-methodology-tools]]'
+- yt-system-course-map-lecture
 ---
-
 # Tools Workflows
 
 ## Summary

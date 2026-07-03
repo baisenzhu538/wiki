@@ -1,5 +1,4 @@
 ---
-
 id: kdo-input-channel-strategy-2026-06-16
 title: KDO 输入渠道策略：飞书、微信、听脑如何接入
 type: decision
@@ -7,18 +6,20 @@ status: proposed
 domain: kdo-infrastructure
 author: kimi
 reviewed_by: pending
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 source_refs:
 - src_unknown
 created_at: 2026-06-16
-updated_at: 2026-06-16
+updated_at: '2026-06-29'
 related:
-  - "[[Kimi-月之暗面]]"
-  - "[[dk-p5-cc-connect-config]]"
-  - "[[dk-p1-model-switch-env]]"
-  - "[[tool-ai-voice-input-doubao]]"
-  - "[[knowledge-delivery-os-快速体验指南-飞书云文档]]"
+- '[[Kimi-月之暗面]]'
+- '[[dk-p5-cc-connect-config]]'
+- '[[dk-p1-model-switch-env]]'
+- '[[tool-ai-voice-input-doubao]]'
+- '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+- agent-native-card-design
+- tinyfish-agentic-web-infrastructure
 ---
 # KDO 输入渠道策略：飞书、微信、听脑如何接入
 

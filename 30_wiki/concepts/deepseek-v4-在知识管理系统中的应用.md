@@ -7,7 +7,7 @@ source_refs:
 status: enriched
 title: DeepSeek V4 在知识管理系统中的应用
 type: concept
-updated_at: 2026-05-05
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 author: unknown
@@ -15,13 +15,13 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- "[[ocr-泛产品设计的应用场景示意图]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[ocr-泛产品设计的应用场景示意图]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- yt-concept-context-engineering
 ---
-
 # DeepSeek V4 在知识管理系统中的应用
 
 ## Summary

@@ -12,28 +12,26 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 created_at: 2026-06-27
-updated_at: 2026-06-27
+updated_at: '2026-06-29'
 source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
 source_person: Truman
 related:
-- "[[framework-yitang-deliberate-practice-1plus4]]"
-- "[[tool-yitang-best-practice-as-golden-finger]]"
-- "[[tool-yitang-practice-20hour-starter]]"
-- "[[concept-yitang-comfort-stretch-panic-zones]]"
-- "[[framework-ai-deliberate-practice-loop]]"
-- "[[dk-yitang-deliberate-practice-common-traps]]"
-- "[[yt-note-deliberate-practice-four-elements]]"
-
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[tool-yitang-best-practice-as-golden-finger]]'
+- '[[tool-yitang-practice-20hour-starter]]'
+- '[[concept-yitang-comfort-stretch-panic-zones]]'
+- '[[framework-ai-deliberate-practice-loop]]'
+- '[[dk-yitang-deliberate-practice-common-traps]]'
+- '[[yt-note-deliberate-practice-four-elements]]'
+- case-truman-personal-growth-map-creation
 ---
-
-
 # 无导师反馈自检法：自己给自己找差距
 
 ## Burn line

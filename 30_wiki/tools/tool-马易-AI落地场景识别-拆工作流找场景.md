@@ -3,8 +3,8 @@ id: tool-马易-AI落地场景识别-拆工作流找场景
 title: 技能：AI落地场景识别-拆工作流找场景
 type: tool
 domain:
-  - ai-collaboration
-  - yitang- ai-saas
+- ai-collaboration
+- yitang- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -14,13 +14,14 @@ trust_level: medium-low
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
-  - "[[tool-马易-低置信度样本黄金漏斗处理]]"
-  - "[[tool-马易-AI能力团队复制]]"
-  - "[[tool-马易-AI项目需求拆解筛选]]"
-  - "[[tool-马易-AIGC项目ROI评估]]"
-  - "[[tool-马易-AI答疑运营风格适配]]"
+- '[[tool-马易-低置信度样本黄金漏斗处理]]'
+- '[[tool-马易-AI能力团队复制]]'
+- '[[tool-马易-AI项目需求拆解筛选]]'
+- '[[tool-马易-AIGC项目ROI评估]]'
+- '[[tool-马易-AI答疑运营风格适配]]'
+- ai-landing-scene-selection
 ---
 # 技能：AI落地场景识别-拆工作流找场景
 

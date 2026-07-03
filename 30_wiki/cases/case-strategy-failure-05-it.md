@@ -1,11 +1,10 @@
 ---
-
 id: case-strategy-failure-05-it
 title: 案例：IT公司H——共识不足。高层反复横跳致市值下降
 type: case
 status: enriched
 created_at: '2026-06-28'
-updated_at: 2026-06-29
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.85
@@ -20,12 +19,12 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_22_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_22_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[tool-三层目标对齐法]]"
-  - "[[tool-Truman-语义对齐沟通法]]"
-
+- '[[strategy-domain-digest]]'
+- '[[tool-三层目标对齐法]]'
+- '[[tool-Truman-语义对齐沟通法]]'
+- case-strategy-failure-04-appliance
+- case-strategy-failure-09-boeing
 ---
-
 **表面问题**：市值持续下降。
 **战略根因**：共识不足——高层在战略方向上反复横跳，每次换方向都耗费组织资源和市场信心。
 **问题类型**：九问题 #5 共识不足。

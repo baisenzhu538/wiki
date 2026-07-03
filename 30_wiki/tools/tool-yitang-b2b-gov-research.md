@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-b2b-gov-research
 title: To B/To G调研手段：浅中深三层10大评估法
 type: tool
@@ -8,10 +7,10 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 quality_labels:
-  - actionable
-  - validated
+- actionable
+- validated
 created_at: 2026-06-21
-updated_at: 2026-06-21
+updated_at: '2026-06-29'
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -33,13 +32,14 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡7（B、G端）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- framework-yitang-six-layer-cross-validation
+- concept-yitang-research-objective
 ---
-
 # To B/To G调研手段：浅中深三层10大评估法
 
 > **一句话**：To B/To G 生意的核心不是产品好不好，而是你搞不搞得清楚四件事——准入条件是什么、隐形需求在哪、政策窗口什么时候开、决策链上谁说了算。

@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-mahjong-machine-fake-order
 title: 案例：假装订货套取麻将机竞品数据
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：假装订货套取麻将机竞品数据
 
 **做法**：创业者想了解麻将机行业竞品的真实价格和出货量。直接问不可能拿到——那就假装一个连锁棋牌室的采购方，报一个有吸引力的年采购量。

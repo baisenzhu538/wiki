@@ -16,7 +16,7 @@ definition_of_done:
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 author: 月白
@@ -24,11 +24,13 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-Token效价比决策公式]]"
-  - "[[tool-月白-RGB转CMYK印刷预检]]"
-  - "[[tool-月白-口述作图法（口喷设计）]]"
-  - "[[tool-月白-AI生成图小字控制法]]"
-  - "[[tool-月白-普通人AI设计80分法则]]"
+- '[[tool-月白-Token效价比决策公式]]'
+- '[[tool-月白-RGB转CMYK印刷预检]]'
+- '[[tool-月白-口述作图法（口喷设计）]]'
+- '[[tool-月白-AI生成图小字控制法]]'
+- '[[tool-月白-普通人AI设计80分法则]]'
+- modeling-three-stages
+- tool-ai-parallel-validation
 ---
 # 技能：纳米级抄大师训练法
 

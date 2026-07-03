@@ -1,6 +1,4 @@
 ---
-
-
 plan_id: plan_20260501_05858800
 type: improvement-plan
 domain: kdo
@@ -12,18 +10,20 @@ id: plan_20260501_05858800-improvement-plan
 author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260501_58b6edef）
 source_refs:
-  - src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲
+- src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 title: plan 20260501 05858800 improvement plan
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
-  - "[[plan_20260501_8ecb74e3-improvement-plan]]"
-  - "[[plan_20260501_47264869-improvement-plan]]"
-  - "[[plan_20260501_85a84b92-improvement-plan]]"
-  - "[[plan_20260501_97170532-improvement-plan]]"
-  - "[[plan_20260501_8001399c-improvement-plan]]"
+- '[[plan_20260501_8ecb74e3-improvement-plan]]'
+- '[[plan_20260501_47264869-improvement-plan]]'
+- '[[plan_20260501_85a84b92-improvement-plan]]'
+- '[[plan_20260501_97170532-improvement-plan]]'
+- '[[plan_20260501_8001399c-improvement-plan]]'
+- agent-ecosystem-design
+- kdo-protocol-implementation-roadmap
 ---
 # Improvement Plan plan_20260501_05858800
 

@@ -1,5 +1,4 @@
 ---
-
 id: case-proya-betaine-skincare-benchmark
 title: 案例：贝泰妮招股书——敏感肌市场的完整画像
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：贝泰妮（薇诺娜）——招股书的完整商业拆解
 
 **调研对象**：贝泰妮（薇诺娜品牌母公司），国产敏感肌护肤品龙头。

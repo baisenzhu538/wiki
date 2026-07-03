@@ -1,5 +1,4 @@
 ---
-
 id: case-婚礼操盘-用户和场景
 title: 案例：婚礼操盘——用户和场景分析
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
-
 ---
-
 # 案例：婚礼操盘——用户和场景
 
 ## 案例来源

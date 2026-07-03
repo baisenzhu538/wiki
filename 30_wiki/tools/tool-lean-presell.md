@@ -29,6 +29,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- tool-lean-leverage-tools
+- tool-lean-minimum-version
 created_at: '2026-06-30'
 ---
 # 做预售：用真实订单验证付费意愿

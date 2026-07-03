@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-swot
 title: SWOT 分析工具：从四象限到行动策略
 type: tool
@@ -15,13 +14,13 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- "[[strategy-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-strategy-12-word-test
 ---
-
 # SWOT 分析工具：从四象限到行动策略
 
 > SWOT 是最基础的战略分析工具，将内部优势（S）、劣势（W）与外部机会（O）、威胁（T）交叉，形成四种行动策略。

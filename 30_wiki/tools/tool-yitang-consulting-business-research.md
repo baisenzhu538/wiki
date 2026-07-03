@@ -7,7 +7,7 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: 2026-06-21
+updated_at: '2026-06-29'
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -29,17 +29,17 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡4（咨询类）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- "[[tool-yitang-tech-project-research]]"
-- "[[tool-yitang-overseas-research]]"
-- "[[tool-yitang-store-franchise-research]]"
-- "[[tool-yitang-organization-research]]"
-- "[[tool-yitang-b2b-gov-research]]"
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-social-engineering-research]]"
-- "[[tool-yitang-job-intelligence-research]]"
-
+- '[[tool-yitang-tech-project-research]]'
+- '[[tool-yitang-overseas-research]]'
+- '[[tool-yitang-store-franchise-research]]'
+- '[[tool-yitang-organization-research]]'
+- '[[tool-yitang-b2b-gov-research]]'
+- '[[framework-yitang-research-weapon-system]]'
+- '[[tool-yitang-social-engineering-research]]'
+- '[[tool-yitang-job-intelligence-research]]'
+- framework-yitang-six-layer-cross-validation
+- concept-yitang-research-objective
 ---
-
 # 咨询类业务调研手段：浅中深三层10大评估法
 
 > **一句话**：想做咨询，先摸清六个关键决策——赛道选哪个、服务卖什么、客户是谁、怎么定价、怎么获客转化、怎么交付履约。

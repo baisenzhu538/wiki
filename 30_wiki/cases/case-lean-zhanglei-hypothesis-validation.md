@@ -1,11 +1,10 @@
 ---
-
 id: case-lean-zhanglei-hypothesis-validation
 title: 张磊 AMA：假设验证实操案例
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -21,11 +20,12 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-01.txt
 related:
-  - "[[lean-startup-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- framework-demand-lean-bridge
+- framework-strategy-lean-validation
 ---
-
 # 张磊 AMA：假设验证实操案例
 
 > 核心结论：张磊在 AMA 中以自身内衣洗衣液项目为例，演示了如何用 FALSE 模型左侧工具（对标调研 + 3D 打印假包装 + 场景测试）把“要不要做这个产品”的 A 象限商业成败假设，拆解成可低成本证伪的 B 象限关键决策，而不是直接跳进生产和全量投入。

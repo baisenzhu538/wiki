@@ -1,49 +1,47 @@
 ---
-
-
-
-
 id: smart-medicine-cabinet-o2o-cost-structure
 title: 医药 O2O 成本与毛利结构
 type: concept
 status: enriched
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - o2o
-  - financial-model
+- healthcare- healthcare
+- pharmaceutical-retail
+- o2o
+- financial-model
 source_refs:
-  - pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-  - pending_archive:src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
-  - pending_archive:src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
-  - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-  - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
-  - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
+- pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+- pending_archive:src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+- pending_archive:src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
+- src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+- src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+- src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 tags:
-  - src_unknown
+- src_unknown
 created_at: '2026-06-14'
-updated_at: '2026-06-14'
+updated_at: '2026-06-29'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
 confidence: 0.85
 trust_level: medium
 related:
-  - [[concept-smart-medicine-cabinet-consumer-acceptance]]
-  - [[case-smart-medicine-cabinet-failure-patterns-library]]
-  - [[smart-medicine-cabinet-clinic-risk-observation]]
-  - [[七件事集团]]
-  - [[tool-smart-medicine-cabinet-site-selection-guide]]
-  - [[master-antifragile-checklist]]
-  - [[smart-medicine-cabinet-distribution]]
-  - [[smart-medicine-cabinet-financial-model]]
-  - [[yt-unit-model-three-tools]]
+- - - concept-smart-medicine-cabinet-consumer-acceptance
+- - - case-smart-medicine-cabinet-failure-patterns-library
+- - - smart-medicine-cabinet-clinic-risk-observation
+- - - 七件事集团
+- - - tool-smart-medicine-cabinet-site-selection-guide
+- - - master-antifragile-checklist
+- - - smart-medicine-cabinet-distribution
+- - - smart-medicine-cabinet-financial-model
+- - - yt-unit-model-three-tools
+- smart-medicine-cabinet-clinic-risk-observation
+- 诊所O2O项目
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 difficulty: intermediate
 prerequisites: []
 ---

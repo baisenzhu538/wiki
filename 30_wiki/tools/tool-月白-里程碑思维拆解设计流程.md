@@ -16,7 +16,7 @@ definition_of_done:
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 - src_unknown
@@ -25,11 +25,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-AIGC产品白底图制作]]"
-  - "[[tool-月白-封面情绪转化法]]"
-  - "[[tool-月白-AI设计里程碑拆解法]]"
-  - "[[tool-月白-里程碑思维-找对标优先于做设计]]"
-  - "[[tool-月白-AI生成图片排版控制-尺寸优先法]]"
+- '[[tool-月白-AIGC产品白底图制作]]'
+- '[[tool-月白-封面情绪转化法]]'
+- '[[tool-月白-AI设计里程碑拆解法]]'
+- '[[tool-月白-里程碑思维-找对标优先于做设计]]'
+- '[[tool-月白-AI生成图片排版控制-尺寸优先法]]'
+- tool-yitang-research-deep-attribution
 ---
 # 技能：里程碑思维拆解设计流程
 

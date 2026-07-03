@@ -15,22 +15,24 @@ reviewed_by: 黄药师
 review_date: '2026-06-14'
 trust_level: medium
 related:
-- "[[ocr-一堂y模型steps策略集]]"
-- "[[tool-Truman-提示词优化底层方法]]"
-- "[[tool-Truman-Skill全生命周期管理]]"
-- "[[tool-月白-AI模型选择策略]]"
-- "[[yt-model-truman-career-routes]]"
-- "[[dk-单元模型-找单元模型实操难点]]"
-- "[[ocr-一堂y模型-科学成事道理]]"
-- "[[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]"
-- "[[ocr-一堂-单元模型-单用户模型]]"
-- "[[tool-Truman-AI能力分层学习路径]]"
-- "[[concept-最简单元模型]]"
-- "[[tool-Truman-信息输入持续补全（防AI错误累积）]]"
-- "[[ocr-一堂-单元模型-对抗小抄02]]"
-- "[[ocr-一堂-人机协作-双三角模型]]"
-- "[[tool-模型组合调用]]"
-- "[[tool-Truman-判断力产品化与系统赋能]]"
+- '[[ocr-一堂y模型steps策略集]]'
+- '[[tool-Truman-提示词优化底层方法]]'
+- '[[tool-Truman-Skill全生命周期管理]]'
+- '[[tool-月白-AI模型选择策略]]'
+- '[[yt-model-truman-career-routes]]'
+- '[[dk-单元模型-找单元模型实操难点]]'
+- '[[ocr-一堂y模型-科学成事道理]]'
+- '[[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[concept-最简单元模型]]'
+- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- '[[ocr-一堂-人机协作-双三角模型]]'
+- '[[tool-模型组合调用]]'
+- '[[tool-Truman-判断力产品化与系统赋能]]'
+- case-thousand-people-square
+- case-course-milestone-model
 tags:
 - src_unknown
 - src_unknown
@@ -44,9 +46,8 @@ diagnostic_signals:
   follow_up_question: 你用的模型中了哪一条？最致命的是哪条？
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 ---
-
 # 模型可信度四层标准 + 千人广场模型
 
 > **Burn line**: 科学是靠反例驱动的。我们建模型——看到一个反例，就认为自己模型不合格。

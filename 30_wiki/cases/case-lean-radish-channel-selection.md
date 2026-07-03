@@ -1,11 +1,10 @@
 ---
-
 id: case-lean-radish-channel-selection
 title: 萝卜干渠道选择预判复盘
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8
@@ -20,11 +19,11 @@ source_refs:
 - 00_inbox/精益创业/萝卜干业务渠道选择预判复盘_ocr_text.md
 - 00_inbox/精益创业/萝卜干业务渠道选择预判复盘_vlm_desc.md
 related:
-  - "[[lean-startup-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- case-yitang-xujian-invoice-saas-channel
 ---
-
 # 萝卜干渠道选择预判复盘
 
 ## 核心洞察

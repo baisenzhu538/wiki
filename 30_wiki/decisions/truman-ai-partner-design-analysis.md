@@ -1,33 +1,32 @@
 ---
-
-
-
 date: 2026-06-07
 author: 黄药师（Builder）
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
-  - src_unknown []
+- src_unknown []
 status: draft
 type: analysis
 domain:
 - ai
 - yitang
 related:
-- "[[dk-modeling-ai-judgment-limit]]"
-- "[[dk-modeling-ai-compound-leverage]]"
-- "[[master-ai-info-literacy]]"
-- "[[dk-modeling-ai-without-judgment]]"
-- "[[dk-wanghuan-standard-by-iteration]]"
-- "[[yt-note-ai-human-division]]"
-- "[[yt-note-checklist-concept]]"
+- '[[dk-modeling-ai-judgment-limit]]'
+- '[[dk-modeling-ai-compound-leverage]]'
+- '[[master-ai-info-literacy]]'
+- '[[dk-modeling-ai-without-judgment]]'
+- '[[dk-wanghuan-standard-by-iteration]]'
+- '[[yt-note-ai-human-division]]'
+- '[[yt-note-checklist-concept]]'
+- case-ai-agent-milestone-design
+- agent-ecosystem-design
 id: truman-ai-partner-design-analysis
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
 title: truman ai partner design analysis
-updated_at: '2026-06-16'# Truman AI Partner（阿蕊老师）设计反推
+updated_at: '2026-06-29'
 ---
 ## 摘要
 

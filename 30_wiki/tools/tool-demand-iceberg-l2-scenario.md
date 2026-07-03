@@ -1,5 +1,4 @@
 ---
-
 id: tool-demand-iceberg-l2-scenario
 title: L2粗拆场景问题：捕捉表层的痛点和需求
 type: tool
@@ -7,7 +6,7 @@ status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
-updated_at: '2026-06-21'
+updated_at: '2026-06-29'
 created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
@@ -18,21 +17,22 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[tool-泛产品设计-需求工具箱指南]]"
-  - "[[tool-马易-需求创造验证法]]"
-  - "[[tool-纪浩-线上问题应急值守]]"
-  - "[[ocr-泛产品设计-需求工具箱指南]]"
-  - "[[framework-问题边界与Problem澄清五层结构]]"
-  - "[[tool-马易-深度沉浸需求挖掘]]"
-  - "[[tool-纪浩-真需求四要素验证法]]"
-  - "[[tool-月白-课程问题预埋法]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
-  - "[[ocr-项目背景问题思考的8个维度]]"
-  - "[[tool-月白-AI需求拆解咨询法]]"
-  - "[[tool-月白-设计需求口头化表达法]]"
+- '[[yitang-domain-digest]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[tool-马易-需求创造验证法]]'
+- '[[tool-纪浩-线上问题应急值守]]'
+- '[[ocr-泛产品设计-需求工具箱指南]]'
+- '[[framework-问题边界与Problem澄清五层结构]]'
+- '[[tool-马易-深度沉浸需求挖掘]]'
+- '[[tool-纪浩-真需求四要素验证法]]'
+- '[[tool-月白-课程问题预埋法]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[ocr-项目背景问题思考的8个维度]]'
+- '[[tool-月白-AI需求拆解咨询法]]'
+- '[[tool-月白-设计需求口头化表达法]]'
+- proposal-prompt-injection-infrastructure
+- tool-yitang-research-industry-scan
 ---
-
 # L2粗拆场景问题
 
 > L1确定了"谁"，L2回答"在什么情况下遇到什么问题"。场景是连接用户和需求的桥梁。

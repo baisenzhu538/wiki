@@ -16,7 +16,7 @@ definition_of_done:
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 author: 月白
@@ -24,11 +24,13 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-多窗口并行工作法]]"
-- "[[tool-月白-竞品图精益替换法]]"
-- "[[tool-月白-餐饮海报AB测试法]]"
-- "[[tool-月白-线下门店设计复杂度评估]]"
-- "[[tool-月白-控制产品画面尺寸比例]]"
+- '[[tool-月白-多窗口并行工作法]]'
+- '[[tool-月白-竞品图精益替换法]]'
+- '[[tool-月白-餐饮海报AB测试法]]'
+- '[[tool-月白-线下门店设计复杂度评估]]'
+- '[[tool-月白-控制产品画面尺寸比例]]'
+- tool-纪浩-问题导向备课法
+- productization-judgment
 ---
 # 技能：分步迭代改图法
 

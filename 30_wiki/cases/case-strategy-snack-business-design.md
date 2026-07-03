@@ -1,5 +1,4 @@
 ---
-
 id: case-strategy-snack-business-design
 title: 零食企业业务设计示例：从大众散货到家庭健康亲子零食专家
 type: case
@@ -19,11 +18,12 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_104_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[ocr-一堂-单元模型-示例01]]"
-  - "[[ocr-一堂-单元模型-示例]]"
+- '[[strategy-domain-digest]]'
+- '[[ocr-一堂-单元模型-示例01]]'
+- '[[ocr-一堂-单元模型-示例]]'
+- case-strategy-m-brand-profit-model
+- case-lean-premature-refinement
 ---
-
 **案例**：某零食企业用"六要素 × 三步骤"业务设计矩阵，展示从现状到期望设计的完整跃迁
 
 **业务设计六要素诊断 → 设计 → 挑战**：

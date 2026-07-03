@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: beverage-foodservice-channel
 title: 餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架
 type: framework
@@ -10,29 +6,30 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-  - yitang- business-strategy
-  - product
-  - entrepreneur
+- yitang- business-strategy
+- product
+- entrepreneur
 source_refs:
-  - pending_archive:src_20260614_8a0317f1-产品-市场分析讨论
-  - pending_archive:src_20260614_16c4bf0d-双柚汁产品成本沟通
-  - pending_archive:src_20260614_d6ab6fb6-产品调配-口感与成本讨论
-  - pending_archive:src_20260614_9b574611-金银花浓缩汁餐饮产品方案
-  - src_20260614_8a0317f1-产品-市场分析讨论
-  - src_20260614_16c4bf0d-双柚汁产品成本沟通
-  - src_20260614_d6ab6fb6-产品调配-口感与成本讨论
-  - src_20260614_9b574611-金银花浓缩汁餐饮产品方案
+- pending_archive:src_20260614_8a0317f1-产品-市场分析讨论
+- pending_archive:src_20260614_16c4bf0d-双柚汁产品成本沟通
+- pending_archive:src_20260614_d6ab6fb6-产品调配-口感与成本讨论
+- pending_archive:src_20260614_9b574611-金银花浓缩汁餐饮产品方案
+- src_20260614_8a0317f1-产品-市场分析讨论
+- src_20260614_16c4bf0d-双柚汁产品成本沟通
+- src_20260614_d6ab6fb6-产品调配-口感与成本讨论
+- src_20260614_9b574611-金银花浓缩汁餐饮产品方案
 related:
-  - [[ai-native-im-multi-agent]]
-  - [[fd-forward-deployment]]
-  - [[鑫港湾]]
-  - [[smart-device-foodservice-automation]]
-  - [[ai-complex-communication]]
-  - [[yt-entrepreneur-channel-exploration]]
-  - [[yt-entrepreneur-product-core]]
-  - [[source-code-delivery-model]]
+- - - ai-native-im-multi-agent
+- - - fd-forward-deployment
+- - - 鑫港湾
+- - - smart-device-foodservice-automation
+- - - ai-complex-communication
+- - - yt-entrepreneur-channel-exploration
+- - - yt-entrepreneur-product-core
+- - - source-code-delivery-model
+- personal-growth-complex-systems
 created_at: 2026-06-14
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-14

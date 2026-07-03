@@ -1,11 +1,10 @@
 ---
-
 id: case-lean-combination-test-paradigm
 title: 组合测试范式实操案例
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -26,11 +25,11 @@ source_refs:
 - 00_inbox/精益创业/洗发水案例卖点组合_ocr_text.md
 - 00_inbox/精益创业/洗发水案例卖点组合_vlm_desc.md
 related:
-  - "[[lean-startup-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- case-shampoo-product-kernel
 ---
-
 # 组合测试范式实操案例
 
 > 核心启示：当产品卖点、品类或商业模式存在大量并列选项时，与其凭直觉押注单一方向，不如用「多维度列举 → 小范围投票/访谈 → 关键组合试销 → 迭代文案」的组合测试，把错误选项的浪费前置到极低成本阶段。

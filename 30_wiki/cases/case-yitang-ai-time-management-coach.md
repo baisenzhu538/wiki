@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-ai-time-management-coach
 title: 案例：AI辅助调研——时间管理教练产品验证
 type: case
@@ -18,13 +17,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：AI辅助调研——产品验证
 
 **背景**：一堂调研行动营案例。创业者想做AI时间管理教练产品，需要快速验证市场需求和竞品格局。

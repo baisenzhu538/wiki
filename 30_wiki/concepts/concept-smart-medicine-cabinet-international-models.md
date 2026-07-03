@@ -1,32 +1,31 @@
 ---
-
-
-
 id: concept-smart-medicine-cabinet-international-models
 title: 国际自动取药机/药房模式经验与启示
 type: concept
 status: enriched
 domain:
-  - healthcare
-  - business-strategy
+- healthcare
+- business-strategy
 source_refs:
-  - pending_archive:src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
-  - pending_archive:src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
-  - src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
-  - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
+- pending_archive:src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
+- pending_archive:src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
+- src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
+- src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: '2026-06-29'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.82
 trust_level: high
 related:
-  - [[smart-medicine-cabinet-distribution]]
-  - [[case-smart-medicine-cabinet-failure-patterns-library]]
-  - [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
-  - [[concept-smart-medicine-cabinet-consumer-acceptance]]
-  - [[smart-medicine-cabinet-national-policy-redlines]]
+- - - smart-medicine-cabinet-distribution
+- - - case-smart-medicine-cabinet-failure-patterns-library
+- - - concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet
+- - - concept-smart-medicine-cabinet-consumer-acceptance
+- - - smart-medicine-cabinet-national-policy-redlines
+- smart-medicine-cabinet-clinic-risk-observation
+- 互联网医院模式深度调研报告
 ---
 # 国际自动取药机/药房模式经验与启示
 

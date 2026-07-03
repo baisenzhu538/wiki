@@ -1,6 +1,4 @@
 ---
-
-
 id: tool-smart-medicine-cabinet-compliance-checklist
 title: 智能药柜/医药项目合规快速校验清单
 type: tool
@@ -9,21 +7,23 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-  - pending_archive:src_20260613_2286ccfb-itingnao-deep-dive-compliance
-  - src_20260613_2286ccfb-itingnao-deep-dive-compliance
+- pending_archive:src_20260613_2286ccfb-itingnao-deep-dive-compliance
+- src_20260613_2286ccfb-itingnao-deep-dive-compliance
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: '2026-06-29'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-- "[[tool-smart-medicine-cabinet-site-selection-guide]]"
-- "[[tool-clinic-medical-shortvideo-compliance]]"
-- "[[smart-medicine-cabinet-clinic-risk-observation]]"
-- "[[concept-smart-medicine-cabinet-platform-cooperation-validation]]"
-- "[[tool-clinic-cabinet-legal-contract-guide]]"
+- '[[tool-smart-medicine-cabinet-site-selection-guide]]'
+- '[[tool-clinic-medical-shortvideo-compliance]]'
+- '[[smart-medicine-cabinet-clinic-risk-observation]]'
+- '[[concept-smart-medicine-cabinet-platform-cooperation-validation]]'
+- '[[tool-clinic-cabinet-legal-contract-guide]]'
+- tool-strategy-gap-analysis
+- tool-ai-use-barbell-strategy
 ---
 ## Purpose
 

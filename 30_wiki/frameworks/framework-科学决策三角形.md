@@ -1,5 +1,4 @@
 ---
-
 id: framework-科学决策三角形
 title: 科学决策三角形：宽度×高度×深度三维决策框架
 type: framework
@@ -16,15 +15,16 @@ source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-决策三角形_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-决策三角形_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- yt-decision-height-toolkit
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
-
 # 科学决策三角形
 
 ## 一句话定义

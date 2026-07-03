@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-weapon-partner-research
 title: 武器库策略4：合作方调研——上下游的信息金矿
 type: tool
@@ -18,14 +17,14 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 ---
-
 # 武器库策略4：合作方调研
 
 > 竞对可以对你保密，但不会对供应商保密。上下游合作方掌握大量水下信息。

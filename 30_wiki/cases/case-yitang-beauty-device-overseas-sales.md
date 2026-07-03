@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-beauty-device-overseas-sales
 title: 案例：美容仪出海——用行业报告判断海外市场
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- tool-yitang-amazon-bestseller
+updated_at: '2026-06-29'
 ---
-
 # 案例：美容仪出海市场判断
 
 **问题**：想做美容仪器出海，需要判断目标市场的规模、增速和进入门槛。

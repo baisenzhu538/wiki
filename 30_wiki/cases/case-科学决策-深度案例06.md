@@ -1,5 +1,4 @@
 ---
-
 id: case-科学决策-深度案例06
 title: 案例：电话外呼的ROI分析
 type: case
@@ -17,13 +16,14 @@ source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例06_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例06.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 updated_at: '2026-06-29'
 review_date: '2026-06-29'
 ---
-
 # 案例：电话外呼的 ROI 分析
 
 ## 案例来源

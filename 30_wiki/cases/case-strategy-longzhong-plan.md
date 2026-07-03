@@ -14,11 +14,12 @@ source_refs:
 - pending_archive: 《三国志·诸葛亮传》隆中对原文待本地归档
 - pending_archive: 武都大地震与秦岭古道地理变迁公开资料待本地归档
 reviewed_by: pending
-updated_at: 2026-06-29
+updated_at: '2026-06-29'
 related:
 - strategy-domain-digest
+- case-opc-agent-wave1-real-model-testing
+- case-strategy-practice-12-zero-loss
 ---
-
 **战略内容**：成就霸业→三足鼎立→四击北伐。六大举措+执行团队（诸葛亮/关羽/马超/李辉）。
 
 **失败四因**：

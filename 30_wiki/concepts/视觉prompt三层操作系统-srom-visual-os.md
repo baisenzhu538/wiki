@@ -9,7 +9,7 @@ source_refs:
 status: enriched
 title: 视觉Prompt三层操作系统 (SROM Visual OS)
 type: concept
-updated_at: 2026-06-12
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 author: 月白
@@ -17,22 +17,22 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- "[[yt-prompt-engineering-andrew-ng]]"
-- "[[鑫港湾his系统分阶段整改报告]]"
-- "[[case-纪浩-focus-prompt-design]]"
-- "[[meta-prompt-eng]]"
-- "[[dk-yb22-visual-presentation-scene-match]]"
-- "[[tool-prompt-iceberg-demand-analysis]]"
-- "[[HIS系统开发实现方案-架构师指南]]"
-- "[[开源HIS系统代码深度分析报告]]"
-- "[[proposal-prompt-injection-infrastructure]]"
-- "[[tool-Truman-判断力产品化与系统赋能]]"
-- "[[tool-prompt-jtbd-scenario-coach]]"
-- "[[yt-prompt-brainstorming]]"
-- "[[tool-Truman-个人判断力系统建设（达克效应应对）]]"
-- "[[yt-skill-p-role-prompt-design]]"
+- '[[yt-prompt-engineering-andrew-ng]]'
+- '[[鑫港湾his系统分阶段整改报告]]'
+- '[[case-纪浩-focus-prompt-design]]'
+- '[[meta-prompt-eng]]'
+- '[[dk-yb22-visual-presentation-scene-match]]'
+- '[[tool-prompt-iceberg-demand-analysis]]'
+- '[[HIS系统开发实现方案-架构师指南]]'
+- '[[开源HIS系统代码深度分析报告]]'
+- '[[proposal-prompt-injection-infrastructure]]'
+- '[[tool-Truman-判断力产品化与系统赋能]]'
+- '[[tool-prompt-jtbd-scenario-coach]]'
+- '[[yt-prompt-brainstorming]]'
+- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
+- '[[yt-skill-p-role-prompt-design]]'
+- yt-system-course-map-lecture
 ---
-
 # 视觉Prompt三层操作系统 (SROM Visual OS)
 
 ## Summary

@@ -1,52 +1,49 @@
 ---
-
-
-
-
 id: smart-medicine-cabinet-fraud-detection
 title: 智能药柜/智慧药房招商骗局识别清单
 type: tool
 status: enriched
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - risk-warning
+- healthcare- healthcare
+- pharmaceutical-retail
+- risk-warning
 source_refs:
-  - pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-  - pending_archive:src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
-  - pending_archive:src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
-  - pending_archive:src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
-  - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-  - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
-  - src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
-  - src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
+- pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+- pending_archive:src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+- pending_archive:src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
+- pending_archive:src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
+- src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+- src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+- src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
+- src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
 tags:
-  - src_unknown
+- src_unknown
 created_at: '2026-06-14'
-updated_at: '2026-06-14'
+updated_at: '2026-06-29'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
 confidence: 0.92
 trust_level: high
 related:
-  - [[case-smart-medicine-cabinet-failure-patterns-library]]
-  - [[smart-medicine-cabinet-distribution]]
-  - [[smart-medicine-cabinet-regional-policy-map]]
-  - [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
-  - [[smart-medicine-cabinet-national-policy-redlines]]
-  - [[master-cognitive-bias-checklist]]
-  - [[master-decision-hygiene]]
-  - [[smart-medicine-cabinet-clinic-risk-observation]]
-  - [[smart-medicine-cabinet-distribution]]
-  - [[smart-medicine-cabinet-financial-model]]
-  - [[smart-medicine-cabinet-national-policy-redlines]]
+- - - case-smart-medicine-cabinet-failure-patterns-library
+- - - smart-medicine-cabinet-distribution
+- - - smart-medicine-cabinet-regional-policy-map
+- - - xingangwan-pharma-mall-cabinet-internet-hospital-model
+- - - smart-medicine-cabinet-national-policy-redlines
+- - - master-cognitive-bias-checklist
+- - - master-decision-hygiene
+- - - smart-medicine-cabinet-clinic-risk-observation
+- - - smart-medicine-cabinet-distribution
+- - - smart-medicine-cabinet-financial-model
+- - - smart-medicine-cabinet-national-policy-redlines
+- smart-medicine-cabinet-financial-model
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 difficulty: intermediate
 ---
 # 智能药柜/智慧药房招商骗局识别清单

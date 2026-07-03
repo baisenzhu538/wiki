@@ -1,5 +1,4 @@
 ---
-
 id: framework-高水平共识曲线
 title: 高水平共识曲线：决策质量的团队对齐模型
 type: framework
@@ -15,15 +14,16 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-高水平共识曲线（重要）_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
-
 # 高水平共识曲线
 
 ## 一句话定义

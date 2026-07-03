@@ -23,10 +23,11 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- tool-lean-premium-service
 quality_labels:
 - actionable
 - validated
-updated_at: 2026-06-29
+updated_at: '2026-06-29'
 created_at: '2026-06-30'
 ---
 # 假产品：用前端仿真验证需求

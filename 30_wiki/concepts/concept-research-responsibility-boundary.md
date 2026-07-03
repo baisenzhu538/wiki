@@ -1,5 +1,4 @@
 ---
-
 id: concept-research-responsibility-boundary
 title: 调研责任边界：道德、法律与生存的平衡
 type: concept
@@ -18,14 +17,15 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-yitang-amazon-bestseller
+- tool-yitang-ai-monitoring-alert
 updated_at: '2026-06-29'
 ---
-
 # 调研责任边界
 
 > "你自己算清楚——一个情报带来的价值跟你一部分所谓的妥协之间的平衡。对自己做的事负责任。" ——Truman

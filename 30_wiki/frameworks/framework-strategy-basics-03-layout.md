@@ -1,5 +1,4 @@
 ---
-
 id: framework-strategy-basics-03-layout
 title: 布局（Configuration Layout）：现金流/增长/种子/撤退/突破五件事
 type: framework
@@ -15,16 +14,16 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-strategy-three-horizons
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
-
 **五件事**：
 1. **现金流业务**：当前利润池，必须守住并持续优化效率。
 2. **增长业务**：第二曲线，已经验证模式、需要加大投入。

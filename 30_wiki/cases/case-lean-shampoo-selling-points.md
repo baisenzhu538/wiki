@@ -1,11 +1,10 @@
 ---
-
 id: case-lean-shampoo-selling-points
 title: 洗发水卖点组合测试
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
@@ -21,11 +20,12 @@ source_refs:
 - 00_inbox/精益创业/洗发水案例卖点组合_vlm_desc.md
 - 00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt
 related:
-  - "[[lean-startup-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- case-lean-building-in-vacuum
+- case-yitang-redburger-selection-industrialization
 ---
-
 # 洗发水卖点组合测试
 
 > 核心启示：洗发水等高SKU快消品的卖点不是单一概念，而是「功效 × 成分 × 香味 × 背书」的乘积空间；组合测试把数万个可能的价值主张，先用低成本投票、访谈、假页面筛选到3–5个可验证组合，再进入小批量试销，从而避免「凭直觉押错卖点」导致的库存与品牌双重浪费。

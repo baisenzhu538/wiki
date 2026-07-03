@@ -1,11 +1,10 @@
 ---
-
 id: case-lean-electric-scooter-mvp
 title: 案例：共享电动滑板车 A/B/C/D 四级 MVP 验证
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -26,11 +25,12 @@ source_refs:
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例-4种对比-01_ocr_text.md
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例-4种对比-01_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- framework-five-step-lean-interface
+- yt-five-step-method
 ---
-
 # 案例：共享电动滑板车 A/B/C/D 四级 MVP 验证
 
 ## 核心洞察

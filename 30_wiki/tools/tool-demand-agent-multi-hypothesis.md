@@ -1,5 +1,4 @@
 ---
-
 id: tool-demand-agent-multi-hypothesis
 title: Agent L3多假设并行：5个核心任务同时推演
 type: tool
@@ -18,14 +17,14 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-yitang-amazon-bestseller
 updated_at: '2026-06-29'
 ---
-
 # Agent L3多假设并行
 
 > L3的传统做法是"选一个核心任务深挖"。Agent可以生成5个不同视角的核心任务假设，用Swarm模式并行推演，交叉对比后选出最精准的。

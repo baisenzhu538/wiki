@@ -1,11 +1,10 @@
 ---
-
 id: case-deepfake-market-misuse
 title: Deepfake 的商业机会与滥用风险
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.8
@@ -20,12 +19,13 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - "[[tool-水水-区分风险与不确定性]]"
-  - "[[tool-水水-识别超级传播者风险]]"
-  - "[[tool-泛产品落地-风险管理]]"
-  - "[[ocr-泛产品设计-落地卡片-风险管理]]"
+- '[[tool-水水-区分风险与不确定性]]'
+- '[[tool-水水-识别超级传播者风险]]'
+- '[[tool-泛产品落地-风险管理]]'
+- '[[ocr-泛产品设计-落地卡片-风险管理]]'
+- tool-ai-cross-reading-method
+- tool-ai-critical-reading-three-layers
 ---
-
 # Deepfake 的商业机会与滥用风险
 
 > **Burn line**：deepfake 同时是最具商业想象力的生成式 AI 赛道之一，也是最快的信任腐蚀剂——它挣的钱越大，社会为“眼见为实”崩塌付出的代价就越高。

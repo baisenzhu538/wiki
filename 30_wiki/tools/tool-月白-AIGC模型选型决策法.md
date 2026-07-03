@@ -16,7 +16,7 @@ definition_of_done:
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 author: 月白
@@ -24,11 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-关键要素提取改图法]]"
-  - "[[tool-月白-分层自洽海报生成法]]"
-  - "[[tool-月白-多语言提示词精准法]]"
-  - "[[tool-月白-AI设计三段式里程碑流程]]"
-  - "[[tool-月白-AI设计严苛批评法]]"
+- '[[tool-月白-关键要素提取改图法]]'
+- '[[tool-月白-分层自洽海报生成法]]'
+- '[[tool-月白-多语言提示词精准法]]'
+- '[[tool-月白-AI设计三段式里程碑流程]]'
+- '[[tool-月白-AI设计严苛批评法]]'
+- aigc设计基础01ai生图原理与提示词基本功
 ---
 # 技能：AIGC模型选型决策法
 

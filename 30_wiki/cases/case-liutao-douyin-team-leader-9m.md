@@ -1,5 +1,4 @@
 ---
-
 id: case-liutao-douyin-team-leader-9m
 title: 案例：刘涛——从信息碎片拼出抖音团长赛道真相
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：从信息碎片拼出赛道真相
 
 **人物**：刘涛（化名），被Truman形容为"聪明人各有各的聪明法"。

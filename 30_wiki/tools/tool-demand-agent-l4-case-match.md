@@ -10,15 +10,15 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260621_冰山策略增强_外部探索.md
 - src_unknown
 created_at: '2026-06-21'
-updated_at: '2026-06-21'
+updated_at: '2026-06-29'
 author: 黄药师
 reviewed_by: 欧阳锋
 related:
-- "[[tool-demand-iceberg-l4-job-map]]"
-- "[[framework-multi-agent-research-architecture]]"
-
+- '[[tool-demand-iceberg-l4-job-map]]'
+- '[[framework-multi-agent-research-architecture]]'
+- business-research-skill-oscar-13-weapon-system
+- framework-一堂五步法-泛产品设计
 ---
-
 # Agent 做 L4：案例库自动检索匹配
 
 > 人的 L4 凭经验填 8 步表。Agent 不做从零推演——先检索案例库中相似任务的 8 步地图，用历史摩擦点作为推演起点。

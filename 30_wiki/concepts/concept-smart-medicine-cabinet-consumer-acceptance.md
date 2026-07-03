@@ -1,33 +1,32 @@
 ---
-
-
-
 id: concept-smart-medicine-cabinet-consumer-acceptance
 title: 消费者购药行为与智能药柜接受度
 type: concept
 status: enriched
 domain:
-  - healthcare
-  - business-strategy
-  - product
+- healthcare
+- business-strategy
+- product
 source_refs:
-  - pending_archive:src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
-  - pending_archive:src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
-  - src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
-  - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
+- pending_archive:src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
+- pending_archive:src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
+- src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
+- src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: '2026-06-29'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.78
 trust_level: medium
 related:
-  - [[concept-smart-medicine-cabinet-international-models]]
-  - [[tool-smart-medicine-cabinet-site-selection-guide]]
-  - [[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]
-  - [[smart-medicine-cabinet-national-policy-redlines]]
-  - [[smart-medicine-cabinet-o2o-cost-structure]]
+- - - concept-smart-medicine-cabinet-international-models
+- - - tool-smart-medicine-cabinet-site-selection-guide
+- - - concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet
+- - - smart-medicine-cabinet-national-policy-redlines
+- - - smart-medicine-cabinet-o2o-cost-structure
+- HIS系统深度调研
+- 互联网医院模式深度调研报告
 ---
 # 消费者购药行为与智能药柜接受度
 

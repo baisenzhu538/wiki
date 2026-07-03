@@ -1,5 +1,4 @@
 ---
-
 id: tool-demand-blindspot-checklist
 title: 2B/2C盲区和机会清单：场景拆解的维度小抄
 type: tool
@@ -17,14 +16,14 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-盲区和机会清单-图-01_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- yt-demand-decision-chain
 updated_at: '2026-06-29'
 ---
-
 # 盲区和机会清单
 
 > L1/L2场景拆解时容易遗漏维度。本卡是快速小抄（5 维度 + 2B 专项）。完整全量字典（150+ 标签）见 `tool-demand-iceberg-l1-user` + `tool-demand-iceberg-l2-scenario`。

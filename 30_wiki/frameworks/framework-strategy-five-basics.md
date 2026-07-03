@@ -1,5 +1,4 @@
 ---
-
 id: framework-strategy-five-basics
 title: 冉鹏战略五基本功（5C）：定式/洞察/布局/体系/变革
 type: framework
@@ -15,16 +14,16 @@ domain: strategy
 source_refs:
 - src_unknown
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[ocr-一堂-高阶体系探索营-三种咨询可能性]]"
-  - "[[tool-mece体系框架法]]"
-  - "[[一堂方法论体系总图]]"
-  - "[[tool-敏捷发布快速迭代搭建体系]]"
-  - "[[tool-马易-销售智能体体系搭建路径]]"
-  - "[[tool-体系框架构建]]"
+- '[[strategy-domain-digest]]'
+- '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'
+- '[[tool-mece体系框架法]]'
+- '[[一堂方法论体系总图]]'
+- '[[tool-敏捷发布快速迭代搭建体系]]'
+- '[[tool-马易-销售智能体体系搭建路径]]'
+- '[[tool-体系框架构建]]'
+- tool-strategy-pareto
 updated_at: '2026-06-29'
 ---
-
 # 战略五基本功（5C）
 
 > 战略不只是"定目标"——五基本功覆盖了从框架到执行的完整能力链。大多数公司只练了其中1-2个。

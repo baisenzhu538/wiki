@@ -1,5 +1,4 @@
 ---
-
 id: concept-harness-scoring-anchors
 title: 评分锚定：1-5分制+语义锚点+取较低值
 type: concept
@@ -17,14 +16,15 @@ domain:
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-yitang-amazon-bestseller
+- tool-yitang-ai-monitoring-alert
 updated_at: '2026-06-29'
 ---
-
 # 评分锚定
 
 > LLM评估者天然偏向中位数——用1-10分制时集中打7-8分，无法区分质量。Harness的三个解法：1-5分制 + 语义锚点 + 取较低值。

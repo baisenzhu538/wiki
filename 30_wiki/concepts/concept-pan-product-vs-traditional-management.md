@@ -1,5 +1,4 @@
 ---
-
 id: concept-pan-product-vs-traditional-management
 type: concept
 title: 泛产品组织 vs 传统管理：从控制范式到设计范式
@@ -14,10 +13,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-28
 quality_labels:
-  - cited
-  - principle
-  - validated
-updated_at: '2026-06-28'
+- cited
+- principle
+- validated
+updated_at: '2026-06-29'
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
@@ -26,17 +25,17 @@ source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt
 source_person: 兰毅 / 一堂
 related:
-- "[[framework-pan-product-organization]]"
-- "[[yt-composite-pan-product-methodology]]"
-- "[[framework-一堂五步法-泛产品设计]]"
-- "[[yt-model-pan-product-three-virtues]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-ai-accelerated-strategy-cycle]]"
-- "[[framework-yitang-growth-flywheel]]"
+- '[[framework-pan-product-organization]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[yt-model-pan-product-three-virtues]]'
+- '[[framework-lean-abcd-model]]'
+- '[[framework-ai-accelerated-strategy-cycle]]'
+- '[[framework-yitang-growth-flywheel]]'
+- case-panproduct-lanyi-shidonghui-npc
+- tool-panproduct-org-five-step
 review_date: '2026-06-28'
 ---
-
-
 # 泛产品组织 vs 传统管理：从控制范式到设计范式
 
 ## 一句话

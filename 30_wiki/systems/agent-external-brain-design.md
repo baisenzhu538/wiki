@@ -1,29 +1,27 @@
 ---
-
-
-
 title: Agent 外挂大脑设计
 type: system
 status: enriched
 domain:
-  - master
+- master
 id: agent-external-brain-design
 author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
-  - pending_archive:src_20260503_52ae08ba-kdo_product_design_agent_final
-  - src_20260503_52ae08ba-kdo_product_design_agent_final
+- pending_archive:src_20260503_52ae08ba-kdo_product_design_agent_final
+- src_20260503_52ae08ba-kdo_product_design_agent_final
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
-  - [[dk-state-residue-is-the-silent-killer]]
-  - [[dk-p13-token-burn]]
-  - [[tool-demand-agent-case-match]]
-  - [[dk-c6-large-source-overflow]]
-  - [[dk-p8-toolkit-forget]]
+- - - dk-state-residue-is-the-silent-killer
+- - - dk-p13-token-burn
+- - - tool-demand-agent-case-match
+- - - dk-c6-large-source-overflow
+- - - dk-p8-toolkit-forget
+- tinyfish-agentic-web-infrastructure
 ---
 # Agent 外挂大脑设计
 

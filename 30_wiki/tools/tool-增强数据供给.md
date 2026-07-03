@@ -21,17 +21,18 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09T14:38:36+00:00'
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- "[[tool-反向提示获取优化建议]]"
-- "[[tool-多轮确认防偏差]]"
-- "[[tool-主动摘要压缩上下文]]"
-- "[[tool-提示词结构化迭代]]"
-- "[[tool-渐进式披露上下文]]"
+- '[[tool-反向提示获取优化建议]]'
+- '[[tool-多轮确认防偏差]]'
+- '[[tool-主动摘要压缩上下文]]'
+- '[[tool-提示词结构化迭代]]'
+- '[[tool-渐进式披露上下文]]'
+- tool-ai-prd-for-ai
 ---
 # 技能：增强数据供给
 

@@ -1,5 +1,4 @@
 ---
-
 id: tool-osint-wayback
 title: Wayback Machine：网站时光机——看竞对的每一个历史版本
 type: tool
@@ -18,14 +17,14 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tinyfish-agentic-web-infrastructure
 updated_at: '2026-06-29'
 ---
-
 # Wayback Machine：网站时光机
 
 > 看竞对官网的每一个历史版本——什么时候改了定位？什么时候删了产品？什么时候换了团队介绍？这些都是公开的战略信号。

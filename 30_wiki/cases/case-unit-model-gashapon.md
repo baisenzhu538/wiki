@@ -1,11 +1,10 @@
 ---
-
 id: case-unit-model-gashapon
 title: 扭蛋机案例：玩具店规模化扩张三阶段决策
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78
@@ -17,11 +16,12 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-扭蛋机案例_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-扭蛋机案例.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[ocr-一堂-单元模型-扭蛋机案例]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[ocr-一堂-单元模型-扭蛋机案例]]'
+- '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 ---
-
 # 扭蛋机案例：玩具店规模化扩张三阶段决策
 
 ## 案例来源

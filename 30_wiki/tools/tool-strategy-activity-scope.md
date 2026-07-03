@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-activity-scope
 title: 活动范围设计工具：What × How × Where 三问
 aliases:
@@ -18,20 +17,21 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_vlm_desc.md
 quality_labels:
-  - actionable
-  - validated
+- actionable
+- validated
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- "[[strategy-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- framework-five-step-lean-interface
+- tool-red-team-analysis
 ---
-
 # 活动范围设计工具：What × How × Where 三问
 
 > 业务设计六要素第 4 要素。核心问题：**我们在价值链上做哪些事、不做哪些事？经营边界和角色是什么？**

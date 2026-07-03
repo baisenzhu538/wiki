@@ -12,14 +12,13 @@ prompt_version: 1.0.0
 source_refs:
 - 00_inbox/五步法之需求分析/AI辅助探讨需求选项的提示词.md
 created_at: '2026-06-21'
-updated_at: '2026-06-21'
+updated_at: '2026-06-29'
 author: 黄药师（从程诚同学提示词提取）
 reviewed_by: 欧阳锋
 related:
-- "[[tool-prompt-usp-demand-analysis]]"
-
+- '[[tool-prompt-usp-demand-analysis]]'
+- tool-yitang-ai-assisted-organize
 ---
-
 # USP 快速需求拆解
 
 > `prompt-template` — 3分钟单轮提示词。与 USP 深度洞察引擎（重型）互补——这个是快速版。

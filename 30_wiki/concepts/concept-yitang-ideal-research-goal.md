@@ -1,5 +1,4 @@
 ---
-
 id: concept-yitang-ideal-research-goal
 title: 理想调研目标三原则：敏感·短期·支撑
 type: concept
@@ -17,14 +16,15 @@ domain:
 source_refs:
 - 00_inbox/调研专题/理想调研三原则_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-yitang-amazon-bestseller
+- tool-yitang-ai-monitoring-alert
 updated_at: '2026-06-29'
 ---
-
 # 理想调研目标三原则
 
 > 不是所有问题都值得调研。一个好的调研目标必须同时满足三个原则。

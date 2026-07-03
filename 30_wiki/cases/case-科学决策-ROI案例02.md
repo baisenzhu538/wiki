@@ -1,5 +1,4 @@
 ---
-
 id: case-科学决策-ROI案例02
 title: 案例：是否搭建虚拟影棚
 type: case
@@ -18,13 +17,12 @@ source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例02_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例02.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- yt-decision-height-toolkit
 updated_at: '2026-06-29'
-
 ---
-
 # 案例：是否搭建虚拟影棚
 
 ## 案例来源

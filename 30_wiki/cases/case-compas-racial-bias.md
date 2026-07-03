@@ -1,11 +1,10 @@
 ---
-
 id: case-compas-racial-bias
 title: COMPAS 再犯算法种族偏见
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.8
@@ -20,11 +19,12 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - "[[ai-short-drama-ice-fire-dissection-compass]]"
-  - "[[ai-short-drama-ice-fire-scripting-compass]]"
-  - "[[pending_unknown]]"
+- '[[ai-short-drama-ice-fire-dissection-compass]]'
+- '[[ai-short-drama-ice-fire-scripting-compass]]'
+- '[[pending_unknown]]'
+- tool-ai-cross-reading-method
+- tool-ai-critical-reading-three-layers
 ---
-
 # COMPAS 再犯算法种族偏见
 
 > **Burn line**：一份被包装成“科学中立”的再犯风险评分，把美国刑事司法历史中的种族差异重新编码为数字，让黑人被告在“没犯罪却被判高风险”和“犯罪却被判低风险”两个错误方向上遭受不对称伤害。

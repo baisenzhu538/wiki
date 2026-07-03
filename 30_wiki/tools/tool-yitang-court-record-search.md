@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-court-record-search
 title: 裁判文书检索：从法律纠纷中挖掘商业情报
 type: tool
@@ -17,14 +16,14 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 ---
-
 # 裁判文书检索
 
 > 裁判文书网——被严重低估的商业情报源。法律纠纷中暴露的信息远超新闻稿。

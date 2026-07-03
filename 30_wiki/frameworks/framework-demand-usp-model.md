@@ -1,5 +1,4 @@
 ---
-
 id: framework-demand-usp-model
 title: USP需求洞察模型：Demand = User × Situation × Problem
 type: framework
@@ -17,23 +16,25 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求洞察USP模型-图-01_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yt-note-problem-solving-capability]]"
-  - "[[yt-demand-level-assessment]]"
-  - "[[ocr-一堂y模型steps策略集]]"
-  - "[[tool-demand-iceberg-l1-user]]"
-  - "[[case-demand-pharma-bigdata]]"
-  - "[[yt-demand-peak-end-rule]]"
-  - "[[tool-月白-AI模型选择策略]]"
-  - "[[ocr-一堂-单元模型-单用户模型]]"
-  - "[[tool-demand-iceberg-l3-core-job]]"
-  - "[[tool-demand-iceberg-l6-hypothesis]]"
-  - "[[yt-demand-insight-extraction]]"
-  - "[[concept-最简单元模型]]"
-  - "[[case-treadmill-demand-analysis]]"
-  - "[[ocr-一堂-单元模型-对抗小抄02]]"
+- '[[yitang-domain-digest]]'
+- '[[yt-note-problem-solving-capability]]'
+- '[[yt-demand-level-assessment]]'
+- '[[ocr-一堂y模型steps策略集]]'
+- '[[tool-demand-iceberg-l1-user]]'
+- '[[case-demand-pharma-bigdata]]'
+- '[[yt-demand-peak-end-rule]]'
+- '[[tool-月白-AI模型选择策略]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[tool-demand-iceberg-l3-core-job]]'
+- '[[tool-demand-iceberg-l6-hypothesis]]'
+- '[[yt-demand-insight-extraction]]'
+- '[[concept-最简单元模型]]'
+- '[[case-treadmill-demand-analysis]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- proposal-prompt-injection-infrastructure
+- tool-yitang-amazon-bestseller
+updated_at: '2026-06-29'
 ---
-
 # USP需求洞察模型
 
 > Demand = User × Situation × Problem。需求不来自"用户是谁"，来自"用户在特定场景下遇到了什么阻碍"。

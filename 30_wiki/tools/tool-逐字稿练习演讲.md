@@ -17,18 +17,19 @@ definition_of_done:
 tools_required:
 - src_unknown
 created_at: '2026-06-09T16:00:43+00:00'
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
 related:
-- "[[tool-知识库团队管理]]"
-- "[[tool-项目复盘基本功]]"
-- "[[tool-清单式笔记法]]"
-- "[[tool-费曼学习法实践讲香课题]]"
-- "[[tool-专家访谈十步法]]"
+- '[[tool-知识库团队管理]]'
+- '[[tool-项目复盘基本功]]'
+- '[[tool-清单式笔记法]]'
+- '[[tool-费曼学习法实践讲香课题]]'
+- '[[tool-专家访谈十步法]]'
+- tool-panproduct-org-five-step
 ---
 # 技能：逐字稿练习演讲
 

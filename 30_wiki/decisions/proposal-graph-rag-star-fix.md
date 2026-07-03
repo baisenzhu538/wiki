@@ -1,12 +1,11 @@
 ---
-
 id: proposal-graph-rag-star-fix
 title: Graph RAG 放射状图谱修复提案
 type: improvement-plan
 status: draft
 domain:
-  - infrastructure
-  - knowledge-graph
+- infrastructure
+- knowledge-graph
 created_at: 2026-06-11
 author: unknown
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为
@@ -16,13 +15,14 @@ source_refs:
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 related:
-  - "[[plan_20260621_domain-index-infrastructure]]"
-  - "[[sprint-6-cli-gap-proposal]]"
-  - "[[sprint-2-gate-enrich-evidence]]"
-  - "[[graph-rag-retrieval-layer]]"
-  - "[[graph-rag]]"
+- '[[plan_20260621_domain-index-infrastructure]]'
+- '[[sprint-6-cli-gap-proposal]]'
+- '[[sprint-2-gate-enrich-evidence]]'
+- '[[graph-rag-retrieval-layer]]'
+- '[[graph-rag]]'
+- modeling-to-kdo-toolchain
 ---
 # Graph RAG 放射状图谱修复提案
 

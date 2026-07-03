@@ -27,10 +27,12 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- modeling-three-stages
+- framework-lean-four-principles
 quality_labels:
 - principle
 - validated
-updated_at: '2026-06-30'
+updated_at: '2026-06-29'
 created_at: '2026-06-30'
 ---
 # 系统测试曲线与三大测试范式

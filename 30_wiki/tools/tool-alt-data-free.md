@@ -1,5 +1,4 @@
 ---
-
 id: tool-alt-data-free
 title: 免费替代数据：小团队的Hedge Fund武器
 type: tool
@@ -18,14 +17,15 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- business-research-skill-oscar-13-weapon-system
+- tool-yitang-app-store-data
 updated_at: '2026-06-29'
 ---
-
 # 免费替代数据
 
 > ⚠️ 注意：免费API和网站可能随时变化或关闭。本卡信息截至2026-06，使用前验证。

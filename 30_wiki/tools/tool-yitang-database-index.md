@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-database-index
 title: 第三方数据库与行业报告来源索引
 type: tool
@@ -8,7 +7,7 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: 2026-06-21
+updated_at: '2026-06-29'
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -28,13 +27,13 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-yitang-business-registration-check
 ---
-
 # 第三方数据库与行业报告来源索引
 
 > **一句话**：Truman做了一个"超级大抄"——100+具体渠道。这里按品类梳理，让你在调研时知道去哪找，不轻易认怂。

@@ -1,45 +1,45 @@
 ---
-
 id: case-chen-qiufan-ai-writing
 title: 陈楸帆对 AI 写作的态度转向
 type: case
 status: enriched
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 待审
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - ai_collaboration
-  - critical_thinking
-  - business_judgment
+- ai_collaboration
+- critical_thinking
+- business_judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[case-dutch-childcare-scandal]]"
-  - "[[case-ai-companion-emotional]]"
-  - "[[case-cambridge-novelists-survey]]"
-  - "[[dk-ai-prediction-expiry-date]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
-  - "[[concept-ai-amara-law-business-judgment]]"
-  - "[[tool-tech-probability-80-filter]]"
-  - "[[case-cambridge-novelists-survey]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[framework-wanghuan-harness-seven-stages]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
+- '[[concept-ai-amara-law-business-judgment]]'
+- '[[case-dutch-childcare-scandal]]'
+- '[[case-ai-companion-emotional]]'
+- '[[case-cambridge-novelists-survey]]'
+- '[[dk-ai-prediction-expiry-date]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[framework-ai2041-critical-reading-os]]'
+- '[[framework-ai-deconstruction-methodology]]'
+- '[[tool-ai-critical-reading-three-layers]]'
+- '[[concept-ai-amara-law-business-judgment]]'
+- '[[tool-tech-probability-80-filter]]'
+- '[[case-cambridge-novelists-survey]]'
+- '[[framework-wanghuan-ooda-loop]]'
+- '[[framework-wanghuan-harness-seven-stages]]'
+- '[[framework-wanghuan-gan-three-roles]]'
+- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- tool-ai-cross-reading-method
 ---
 # 陈楸帆对 AI 写作的态度转向
 

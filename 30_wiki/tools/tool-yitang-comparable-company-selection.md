@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-comparable-company-selection
 title: 对标公司选择三步法：加法·减法·三原则
 type: tool
@@ -8,7 +7,7 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: 2026-06-21
+updated_at: '2026-06-29'
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -26,13 +25,13 @@ query_triggers:
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-yitang-research-deep-attribution
 ---
-
 # 对标公司选择三步法：加法·减法·三原则
 
 > **一句话**：先做加法广撒网（20-30家公司），再做减法聚焦（5-10家重点研究）。选择三原则：时间越近越好、业务越近越好、市场越近越好。

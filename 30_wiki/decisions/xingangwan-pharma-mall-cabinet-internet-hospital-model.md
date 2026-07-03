@@ -1,16 +1,14 @@
 ---
-
-
 id: xingangwan-pharma-mall-cabinet-internet-hospital-model
 title: 鑫港湾小程序医药商城+药店+HIS+互联网医院合规商业模式设计（山西首发版）
 type: decision
 status: proposed
 decision_date: '2026-06-18'
 domain:
-  - healthcare- healthcare
-  - pharmaceutical-retail
-  - compliance
-  - business-strategy
+- healthcare- healthcare
+- pharmaceutical-retail
+- compliance
+- business-strategy
 source_refs:
 - src_unknown
 - src_unknown
@@ -21,29 +19,30 @@ source_refs:
 - src_unknown
 captured_at: '2026-06-18'
 created_at: '2026-06-13'
-updated_at: '2026-06-18'
+updated_at: '2026-06-29'
 author: unknown
 reviewed_by: pending
 confidence: 0.84
 trust_level: medium
 related:
-  - "[[smart-medicine-cabinet-fraud-detection]]"
-  - "[[xingangwan-pharma-business-formulas]]"
-  - "[[shanxi-field-research-checklist-20260701]]"
-  - "[[smart-medicine-cabinet-distribution]]"
-  - "[[smart-medicine-cabinet-national-policy-redlines]]"
-  - "[[互联网医院项目]]"
-  - "[[鑫港湾HIS项目]]"
-  - "[[诊所O2O项目]]"
-  - "[[smart-medicine-cabinet-national-policy-redlines]]"
-  - "[[smart-medicine-cabinet-regional-policy-map]]"
-  - "[[smart-medicine-cabinet-distribution]]"
-  - "[[smart-medicine-cabinet-o2o-cost-structure]]"
-  - "[[互联网医院模式深度调研报告]]"
-  - "[[诊所o2o外卖平台业务深度调研报告]]"
-  - "[[shanxi-field-research-checklist-20260701]]"
-  - "[[xingangwan-pharma-business-formulas]]"
-  - "[[xingangwan-pharma-business-model-calc]]"
+- '[[smart-medicine-cabinet-fraud-detection]]'
+- '[[xingangwan-pharma-business-formulas]]'
+- '[[shanxi-field-research-checklist-20260701]]'
+- '[[smart-medicine-cabinet-distribution]]'
+- '[[smart-medicine-cabinet-national-policy-redlines]]'
+- '[[互联网医院项目]]'
+- '[[鑫港湾HIS项目]]'
+- '[[诊所O2O项目]]'
+- '[[smart-medicine-cabinet-national-policy-redlines]]'
+- '[[smart-medicine-cabinet-regional-policy-map]]'
+- '[[smart-medicine-cabinet-distribution]]'
+- '[[smart-medicine-cabinet-o2o-cost-structure]]'
+- '[[互联网医院模式深度调研报告]]'
+- '[[诊所o2o外卖平台业务深度调研报告]]'
+- '[[shanxi-field-research-checklist-20260701]]'
+- '[[xingangwan-pharma-business-formulas]]'
+- '[[xingangwan-pharma-business-model-calc]]'
+- xingangwan-pharma-business-model-formulas
 tags:
 - src_unknown
 - src_unknown
@@ -54,7 +53,6 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
 # 鑫港湾小程序医药商城+药店+HIS+互联网医院合规商业模式设计（山西首发版）
 

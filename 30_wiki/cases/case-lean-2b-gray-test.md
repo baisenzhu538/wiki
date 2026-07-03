@@ -1,11 +1,10 @@
 ---
-
 id: case-lean-2b-gray-test
 title: 一堂 2B 内训灰度测试
 type: case
 status: enriched
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.75
@@ -21,11 +20,11 @@ source_refs:
 - 00_inbox/精益创业/一堂2B内训的灰度测试_ocr_text.md
 - 00_inbox/精益创业/一堂2B内训的灰度测试_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- case-lean-building-in-vacuum
 ---
-
 # 一堂 2B 内训灰度测试
 
 ## 核心洞察

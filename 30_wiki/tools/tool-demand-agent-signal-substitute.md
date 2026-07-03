@@ -1,5 +1,4 @@
 ---
-
 id: tool-demand-agent-signal-substitute
 title: Agent L5信号提取：替代微观体感的非结构化数据分析
 type: tool
@@ -18,14 +17,14 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 updated_at: '2026-06-29'
 ---
-
 # Agent L5信号提取
 
 > L5的"微观体感推演"需要人的共情能力——Agent做不到。但Agent可以替代另一个维度：从非结构化数据中提取四种力量和三种任务的信号模式。

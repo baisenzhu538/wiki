@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: ai-native-im-multi-agent
 title: AI 原生 IM：让 Agent 成为一等公民的协作基础设施
 type: concept
@@ -10,21 +6,23 @@ status: enriched
 confidence: 0.85
 trust_level: medium-high
 domain:
-  - ai-saas- ai
-  - product
-  - ai-collaboration
+- ai-saas- ai
+- product
+- ai-collaboration
 source_refs:
-  - pending_archive:src_20260614_c5115d2c-龙虾-AI原生IM工具演示
-  - src_20260614_c5115d2c-龙虾-AI原生IM工具演示
+- pending_archive:src_20260614_c5115d2c-龙虾-AI原生IM工具演示
+- src_20260614_c5115d2c-龙虾-AI原生IM工具演示
 related:
-  - [[case-ji-hao-skills-market]]
-  - [[dk-skill-market-agent-self-install]]
-  - [[case-truman-ai-partner]]
-  - [[dk-f12-builder-context-deadlock]]
-  - [[ai-complex-communication]]
-  - [[industrial-ai-ops-cases]]
+- - - case-ji-hao-skills-market
+- - - dk-skill-market-agent-self-install
+- - - case-truman-ai-partner
+- - - dk-f12-builder-context-deadlock
+- - - ai-complex-communication
+- - - industrial-ai-ops-cases
+- personal-growth-complex-systems
+- ai-methodology-tools
 created_at: 2026-06-14
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-14

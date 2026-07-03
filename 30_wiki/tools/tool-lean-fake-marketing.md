@@ -1,5 +1,4 @@
 ---
-
 id: tool-lean-fake-marketing
 title: 假营销：用故事验证兴趣
 type: tool
@@ -17,15 +16,15 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212119_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212119_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-lean-premium-service
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
-
 # 假营销：用故事验证兴趣
 
 > 在产品还没做出来之前，先用一个「可信的故事」去接触目标用户，观察他们是否产生兴趣、愿意进一步了解，甚至主动留下联系方式。

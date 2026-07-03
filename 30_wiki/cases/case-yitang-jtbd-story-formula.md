@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-jtbd-story-formula
 title: 案例：JTBD故事公式——从用户故事中提取需求
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：JTBD故事公式——从故事中提取真实需求
 
 **方法**：用JTBD（Jobs To Be Done）故事公式做用户访谈——不是问"你有什么需求"，而是引导用户讲一个完整的"雇佣产品"的故事：

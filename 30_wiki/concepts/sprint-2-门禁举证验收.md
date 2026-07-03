@@ -7,7 +7,7 @@ source_refs:
 status: enriched
 title: Sprint 2 门禁举证验收
 type: concept
-updated_at: 2026-05-09
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 author: unknown
@@ -15,13 +15,14 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- "[[sprint-2-gate-enrich-evidence]]"
-- "[[sprint-6-cli-gap-proposal]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[sprint-2-gate-enrich-evidence]]'
+- '[[sprint-6-cli-gap-proposal]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- yt-system-course-map-lecture
+- yt-case-mandatory-cases
 ---
-
 # Sprint 2 门禁举证验收
 
 ## Summary

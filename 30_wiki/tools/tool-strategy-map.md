@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-map
 title: 战略地图——公司/各BU/业务单元的战略蓝图模板
 type: tool
@@ -14,13 +13,13 @@ updated_at: '2026-06-29'
 author: 黄药师（从 PPT _142 提取）
 reviewed_by: 欧阳锋
 related:
-- "[[strategy-domain-digest]]"
-- "[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]"
-- "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-strategy-pareto
 ---
-
 # 战略地图
 
 > PPT _142。冉鹏方法论中用于公司/各 BU/业务单元的标准化战略蓝图。不是"目标拆解"——是"每个业务单元的战略一致性检查"。

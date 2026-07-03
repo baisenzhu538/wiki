@@ -1,5 +1,4 @@
 ---
-
 id: tool-doris-industry-report-source-evaluation
 title: 行业报告可信度评估：多信数据，少信观点
 type: tool
@@ -8,7 +7,7 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: 2026-06-21
+updated_at: '2026-06-29'
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -27,13 +26,13 @@ source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- framework-yitang-six-layer-cross-validation
 ---
-
 # 行业报告可信度评估：多信数据，少信观点
 
 > **一句话**：Doris来自顶级咨询公司的经验——多信数据，少信解读，警惕观点。数据的可信度 > 解读的可信度 ≫ 观点的可信度。

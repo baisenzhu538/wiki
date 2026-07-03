@@ -19,20 +19,21 @@ review_date: '2026-06-16'
 trust_level: medium
 confidence: 0.7
 related:
-- "[[tool-半肥猫-课程Skill化的八步工作流]]"
-- "[[tool-ai-skill-engineering-method]]"
-- "[[tool-Truman-提示词优化底层方法]]"
-- "[[ocr-一堂-高阶体系探索营-三种咨询可能性]]"
-- "[[tool-Truman-Skill全生命周期管理]]"
-- "[[yt-model-truman-career-routes]]"
-- "[[paddleocr-skill]]"
-- "[[case-半肥猫-course-to-skill]]"
-- "[[tool-Truman-AI能力分层学习路径]]"
-- "[[tool-纪浩-案例池构建法]]"
-- "[[tool-Truman-信息输入持续补全（防AI错误累积）]]"
-- "[[case-科学决策-ROI案例03]]"
-- "[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]"
-- "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[tool-Truman-提示词优化底层方法]]'
+- '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'
+- '[[tool-Truman-Skill全生命周期管理]]'
+- '[[yt-model-truman-career-routes]]'
+- '[[paddleocr-skill]]'
+- '[[case-半肥猫-course-to-skill]]'
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- case-course-milestone-model
 tags:
 - src_unknown
 - src_unknown
@@ -48,7 +49,6 @@ diagnostic_signals:
 - framework_lens: 没有把指南转化为可复用资产
   follow_up_question: 你最近封装新 Skill 时，是否先让 AI 用工程指南做一遍自查？
 ---
-
 # 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 
 > **Burn line**: 不是让 AI 随便写个 Skill，而是用工程指南把 AI 的输出质量锁死在你的审美上限。

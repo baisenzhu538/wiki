@@ -1,5 +1,4 @@
 ---
-
 id: case-doris-grab-industry-cognition
 title: 案例：Doris 7天从零建立行业认知
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：7天建立行业认知
 
 **人物**：Doris，Grab（东南亚最大独角兽）产品经理，多次从零进入全新行业。

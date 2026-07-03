@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-senior-university-product-design
 title: 案例：老年大学——用假设链逐层验证赛道可行性
 type: case
@@ -17,13 +16,13 @@ domain:
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- concept-yitang-research-objective
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：老年大学——用假设链验证赛道
 
 **案例来源**：Truman在行动营中的教学案例——"假如你想做老年大学，怎么调研？"

@@ -1,5 +1,4 @@
 ---
-
 id: tool-prompt-iceberg-demand-analysis
 title: 冰山图 L1-L6 需求深挖——多层引导提示词模板
 type: prompt-template
@@ -13,14 +12,15 @@ prompt_version: 1.0.0
 source_refs:
 - 00_inbox/五步法之需求分析/优秀提示词合集.md
 created_at: '2026-06-21'
-updated_at: '2026-06-21'
+updated_at: '2026-06-29'
 author: 黄药师（从程诚同学提示词提取）
 reviewed_by: 欧阳锋
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[ocr-一堂深度复盘冰山图]]"
+- '[[yitang-domain-digest]]'
+- '[[ocr-一堂深度复盘冰山图]]'
+- yt-business-formula-parameter-iceberg
+- yt-research-user-jtbd
 ---
-
 # 冰山图 L1-L6 需求深挖
 
 > `prompt-template` — 多层递进引导。与 JTBD 教练互补：JTBD教练是"我给选项你选"，冰山图是"我引导你自己想"。

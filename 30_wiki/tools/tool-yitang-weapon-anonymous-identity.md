@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-weapon-anonymous-identity
 title: 武器库策略7：匿名身份访谈——社会工程学的四种方式
 type: tool
@@ -18,14 +17,14 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 ---
-
 # 武器库策略7：匿名身份访谈
 
 > 取得另一个身份，重新进入目标场景做访谈。合法范围内最高效的信息获取方式。

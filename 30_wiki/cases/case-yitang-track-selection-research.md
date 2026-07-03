@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-track-selection-research
 title: 案例：一堂赛道选择——用调研方法论选创业方向
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：一堂赛道选择——自己用调研方法论选方向
 
 **背景**：一堂在决定做"创业教育/方法论"这个赛道之前，系统性地用OSL五步法做了赛道调研。

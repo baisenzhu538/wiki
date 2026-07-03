@@ -1,5 +1,4 @@
 ---
-
 id: framework-lean-expert-roadmap
 title: 精益高手十年修炼地图
 type: framework
@@ -16,15 +15,15 @@ source_refs:
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_ocr_text.md
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_vlm_desc.md
 related:
-  - "[[lean-startup-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-lean-minimum-version
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
-
 # 精益高手十年修炼地图
 
 > 把「精益创业」从一句口号拆成可修行的六段功夫：从「习惯憋大招」到「能大量迁移」，每段都有明确的标志、坑和训练路径。

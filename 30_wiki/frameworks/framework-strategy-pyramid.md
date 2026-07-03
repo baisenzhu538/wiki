@@ -1,5 +1,4 @@
 ---
-
 id: framework-strategy-pyramid
 title: 企业战略金字塔：公司、业务与职能协同
 type: framework
@@ -11,17 +10,17 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_20_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_21_ocr_text.md
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]"
-  - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-strategy-four-layers
 ---
-
 # 企业战略金字塔：公司、业务与职能协同
 
 > 战略管理的四层结构：公司战略 → 业务战略 → 职能战略 → 运营计划。同一战略目标，不同战略主题，会导向完全不同的行动、能力和 KPI。

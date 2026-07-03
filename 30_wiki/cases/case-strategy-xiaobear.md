@@ -1,5 +1,4 @@
 ---
-
 id: case-strategy-xiaobear
 title: 小熊电器：跳出行业范式——定位年轻单身男性
 type: case
@@ -16,13 +15,13 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_239_ocr_text.md
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 reviewed_by: pending
-updated_at: 2026-06-29
+updated_at: '2026-06-29'
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
+- '[[pending_unknown]]'
+- case-strategy-practice-12-zero-loss
 ---
-
 **反常识**：家电品牌定位年轻单身男性——"最穷最没消费欲的人群"
 **成功**：别人都在抢家庭主妇，小熊电器选了被所有人忽略的群体——年轻人租房，需要便宜的小家电
 **核心洞察**：逆向投资不是"跟所有人反着干"，是找到"所有人都忽略但真实存在的需求"

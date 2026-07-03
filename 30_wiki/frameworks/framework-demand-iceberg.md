@@ -1,5 +1,4 @@
 ---
-
 id: framework-demand-iceberg
 title: 需求洞察冰山模型：L1-L6六层深度推演框架
 type: framework
@@ -18,14 +17,14 @@ source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- framework-demand-lean-bridge
 updated_at: '2026-06-29'
 ---
-
 # 需求洞察冰山模型
 
 > "在彻底理解问题空间之前跳进解决方案空间，是创业的大忌。" 冰山模型六层递进：拆（L1用户标签+L2场景问题）→ 推（L3核心任务+L4任务地图+L5隐藏洞察+L6需求假设）→ 评。与其说它是分析框架，不如说它是"防止你自嗨"的纪律工具。

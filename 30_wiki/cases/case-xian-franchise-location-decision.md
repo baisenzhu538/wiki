@@ -1,5 +1,4 @@
 ---
-
 id: case-xian-franchise-location-decision
 title: 案例：西安加盟选址——系统调研vs拍脑袋
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：西安加盟选址——避免"想当然"式调研
 
 **案例来源**：Truman在行动营中的练习场景——"我想在西安加盟一个全国连锁奶茶品牌，它在一线城市做得很好，但西安刚开了几家。怎么判断能不能赚钱？"

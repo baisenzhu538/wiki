@@ -7,7 +7,7 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: 2026-06-21
+updated_at: '2026-06-29'
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -29,18 +29,18 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡3（消费品）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- "[[tool-yitang-tech-project-research]]"
-- "[[tool-yitang-overseas-research]]"
-- "[[tool-yitang-store-franchise-research]]"
-- "[[tool-yitang-consulting-business-research]]"
-- "[[tool-yitang-organization-research]]"
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[tool-yitang-field-research]]"
-- "[[yt-research-competitor-toolkit]]"
-
+- '[[tool-yitang-tech-project-research]]'
+- '[[tool-yitang-overseas-research]]'
+- '[[tool-yitang-store-franchise-research]]'
+- '[[tool-yitang-consulting-business-research]]'
+- '[[tool-yitang-organization-research]]'
+- '[[framework-yitang-research-weapon-system]]'
+- '[[tool-yitang-reverse-data-analysis]]'
+- '[[tool-yitang-field-research]]'
+- '[[yt-research-competitor-toolkit]]'
+- framework-yitang-six-layer-cross-validation
+- concept-yitang-research-objective
 ---
-
 # 消费品调研手段：浅中深三层10大评估法
 
 > **一句话**：设计一款消费品前，先做三件事——浅层用差评和卖点摸清用户真实需求，中层拆解产品倒推成本和原料，深层摸清供应链和渠道政策算毛利。

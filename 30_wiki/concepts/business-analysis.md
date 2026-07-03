@@ -7,7 +7,7 @@ source_refs:
 status: draft
 title: Business Analysis
 type: concept
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 - src_unknown
@@ -16,11 +16,13 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- "[[ocr-一堂-单元模型-找基准值实操难点]]"
-- "[[learning-thinking]]"
-- "[[meta-prompt-eng]]"
-- "[[writing-content]]"
-- "[[product-ux]]"
+- '[[ocr-一堂-单元模型-找基准值实操难点]]'
+- '[[learning-thinking]]'
+- '[[meta-prompt-eng]]'
+- '[[writing-content]]'
+- '[[product-ux]]'
+- yt-system-course-map-lecture
+- yt-case-mandatory-cases
 ---
 # Business Analysis
 

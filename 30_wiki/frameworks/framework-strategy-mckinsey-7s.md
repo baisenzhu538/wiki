@@ -1,5 +1,4 @@
 ---
-
 id: framework-strategy-mckinsey-7s
 title: 麦肯锡 7S 模型：组织诊断与变革管理
 type: framework
@@ -15,29 +14,29 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_128_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_203_ocr_text.md
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[ocr-一堂y模型steps策略集]]"
-  - "[[tool-月白-AI模型选择策略]]"
-  - "[[dk-单元模型-找单元模型实操难点]]"
-  - "[[ocr-一堂y模型-科学成事道理]]"
-  - "[[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]"
-  - "[[ocr-一堂-单元模型-段位专家]]"
-  - "[[ocr-一堂-单元模型-单用户模型]]"
-  - "[[concept-最简单元模型]]"
-  - "[[ocr-一堂-单元模型-对抗小抄02]]"
-  - "[[ocr-一堂-人机协作-双三角模型]]"
-  - "[[tool-模型组合调用]]"
-  - "[[ocr-一堂-单元模型-对抗小抄01]]"
+- '[[strategy-domain-digest]]'
+- '[[ocr-一堂y模型steps策略集]]'
+- '[[tool-月白-AI模型选择策略]]'
+- '[[dk-单元模型-找单元模型实操难点]]'
+- '[[ocr-一堂y模型-科学成事道理]]'
+- '[[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]'
+- '[[ocr-一堂-单元模型-段位专家]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[concept-最简单元模型]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- '[[ocr-一堂-人机协作-双三角模型]]'
+- '[[tool-模型组合调用]]'
+- '[[ocr-一堂-单元模型-对抗小抄01]]'
+- concept-mckinsey-7s
 ---
-
 # 麦肯锡 7S 模型：组织诊断与变革管理
 
 > 麦肯锡 7S 模型用于全面扫描组织的软硬要素，判断战略与组织能力的匹配度，尤其适合变革管理、数字化转型、并购整合等场景。

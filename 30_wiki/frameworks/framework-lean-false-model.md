@@ -10,7 +10,7 @@ trust_level: high
 quality_labels:
 - principle
 - validated
-updated_at: '2026-06-28'
+updated_at: '2026-06-29'
 language: zh-CN
 domain:
 - strategy
@@ -31,6 +31,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- tool-lean-minimum-version
+- tool-lean-premium-service
 created_at: '2026-06-30'
 ---
 # 一堂 FALSE/FLESAI 低成本验证模型

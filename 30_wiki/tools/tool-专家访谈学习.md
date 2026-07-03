@@ -18,17 +18,18 @@ tools_required:
 - src_unknown
 - src_unknown
 created_at: '2026-06-09T15:59:56+00:00'
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- "[[tool-区分获客渠道计算单元roi]]"
-- "[[tool-辩证讨论深化]]"
-- "[[tool-对标借鉴他人决策维度]]"
-- "[[tool-ai辅助学习]]"
-- "[[tool-费曼学习法三句话提炼]]"
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[tool-辩证讨论深化]]'
+- '[[tool-对标借鉴他人决策维度]]'
+- '[[tool-ai辅助学习]]'
+- '[[tool-费曼学习法三句话提炼]]'
+- tool-寻找学习教练法
 ---
 # 技能：专家访谈学习
 

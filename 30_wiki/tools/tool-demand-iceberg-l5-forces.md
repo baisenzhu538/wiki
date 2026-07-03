@@ -1,5 +1,4 @@
 ---
-
 id: tool-demand-iceberg-l5-forces
 title: L5隐藏洞察：四种力量+三种任务+微观体感
 type: tool
@@ -7,7 +6,7 @@ status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
-updated_at: '2026-06-21'
+updated_at: '2026-06-29'
 created_at: 2026-06-21
 confidence: 0.9
 trust_level: high
@@ -18,13 +17,14 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- proposal-prompt-injection-infrastructure
+- tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
 ---
-
 # L5隐藏洞察
 
 > L4告诉你在哪切入，L5告诉你用户会不会真的切换过来。人改变习惯不是因为"更好的功能"，是因为推力+拉力 > 焦虑+习惯。

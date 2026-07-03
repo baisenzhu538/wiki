@@ -1,5 +1,4 @@
 ---
-
 id: case-toc-content-platform-correlation-trap
 title: ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘
 type: case
@@ -22,7 +21,7 @@ tags:
 - src_unknown
 - src_unknown
 created_at: '2026-06-16'
-updated_at: 2026-06-28
+updated_at: '2026-06-29'
 author: 孔阳
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系章节中的错误示范
@@ -31,19 +30,20 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: high
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[kdo-protocol]]"
-  - "[[tool-yitang-stock-data]]"
-  - "[[tool-月白-AI平台算法咨询法]]"
-  - "[[concept-mcp-protocol]]"
-  - "[[紫鲸ai_智能体工作流平台_深度分析与产品设计]]"
-  - "[[case-toc-ecommerce-formula-misjudgment]]"
-  - "[[tool-月白-小红书平台内容策略：从美图经济到沙雕梗图]]"
-  - "[[tool-马易-平台模式验证法]]"
-  - "[[yt-skill-checklist-as-ai-protocol]]"
-  - "[[obsidian-git-sync-protocol]]"
+- '[[yitang-domain-digest]]'
+- '[[kdo-protocol]]'
+- '[[tool-yitang-stock-data]]'
+- '[[tool-月白-AI平台算法咨询法]]'
+- '[[concept-mcp-protocol]]'
+- '[[紫鲸ai_智能体工作流平台_深度分析与产品设计]]'
+- '[[case-toc-ecommerce-formula-misjudgment]]'
+- '[[tool-月白-小红书平台内容策略：从美图经济到沙雕梗图]]'
+- '[[tool-马易-平台模式验证法]]'
+- '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[obsidian-git-sync-protocol]]'
+- case-offline-catering-formula
+- case-private-domain-ecommerce-formula
 ---
-
 # ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘
 
 > 一堂业务公式拆解培训中的“相关≠因果”错误示范：一个月 GMV 800 万、付费用户 3 万的内容付费平台，团队把“流量和转化率正相关”当成因果，加大投放后 ROI 崩盘。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。

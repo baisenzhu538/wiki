@@ -1,5 +1,4 @@
 ---
-
 id: tool-osint-shodan
 title: Shodan：互联网设备搜索引擎——发现竞对的技术栈
 type: tool
@@ -18,14 +17,14 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tinyfish-agentic-web-infrastructure
 updated_at: '2026-06-29'
 ---
-
 # Shodan：互联网设备搜索引擎
 
 > Shodan不是搜网页，是搜互联网上所有联网设备——服务器、摄像头、数据库、工控系统。输入竞对域名，看他们暴露了什么技术基础设施。

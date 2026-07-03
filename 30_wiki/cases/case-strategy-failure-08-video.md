@@ -1,11 +1,10 @@
 ---
-
 id: case-strategy-failure-08-video
 title: 案例：视频平台B——资源短缺。版权库太弱致转型失败
 type: case
 status: enriched
 created_at: '2026-06-28'
-updated_at: 2026-06-29
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.85
@@ -20,12 +19,12 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_22_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_22_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[tool-三层目标对齐法]]"
-  - "[[case-strategy-failure-05-it]]"
-
+- '[[strategy-domain-digest]]'
+- '[[tool-三层目标对齐法]]'
+- '[[case-strategy-failure-05-it]]'
+- case-strategy-failure-09-boeing
+- case-strategy-failure-04-appliance
 ---
-
 **表面问题**：转型内容平台后用户流失。
 **战略根因**：资源短缺——版权库太弱，与头部平台的内容储备差距无法靠运营弥补。
 **问题类型**：九问题 #8 资源短缺。

@@ -16,7 +16,7 @@ definition_of_done:
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 author: 月白
@@ -24,11 +24,12 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-多窗口并行工作法]]"
-- "[[tool-月白-控制产品画面尺寸比例]]"
-- "[[tool-月白-眼高手低训练法]]"
-- "[[tool-月白-线下门店设计复杂度评估]]"
-- "[[tool-月白-AIGC橱窗陈列设计流程]]"
+- '[[tool-月白-多窗口并行工作法]]'
+- '[[tool-月白-控制产品画面尺寸比例]]'
+- '[[tool-月白-眼高手低训练法]]'
+- '[[tool-月白-线下门店设计复杂度评估]]'
+- '[[tool-月白-AIGC橱窗陈列设计流程]]'
+- aigc文创案例设计课leo文创ip从0到1全流程
 ---
 # 技能：设计项目MVP拆解法
 

@@ -1,5 +1,4 @@
 ---
-
 id: tool-lean-human-replace-system
 title: 人工替代复杂系统
 type: tool
@@ -17,15 +16,15 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212351_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212351_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-lean-premium-service
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
-
 # 人工替代复杂系统
 
 > 在核心业务假设尚未被证实时，用人工流程临时顶替调度、订单、会员、客服等复杂系统，以验证「用户真的需要这些系统功能」以及「系统背后的业务逻辑是否成立」，而不是直接投入研发。

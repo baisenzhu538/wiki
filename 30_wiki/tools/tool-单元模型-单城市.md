@@ -1,5 +1,4 @@
 ---
-
 id: tool-单元模型-单城市
 title: 单元模型：单城市模型
 type: tool
@@ -10,26 +9,27 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain: yitang
-updated_at: 2026-06-29
+updated_at: '2026-06-29'
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-单城市模型.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[dk-单元模型-找单元模型实操难点]]"
-  - "[[ocr-一堂-单元模型-段位专家]]"
-  - "[[ocr-一堂-单元模型-单用户模型]]"
-  - "[[ocr-一堂-单元模型-对抗小抄01]]"
-  - "[[ocr-一堂-单元模型-规模经济对抗武器库]]"
-  - "[[ocr-一堂-单元模型-单履约模型]]"
-  - "[[ocr-一堂-单元模型-找基准值实操难点]]"
-  - "[[concept-最简单元模型]]"
-  - "[[ocr-一堂-单元模型-对抗小抄02]]"
-  - "[[tool-单元模型-壁垒预判]]"
-  - "[[ai单元模型口述蒋老师]]"
+- '[[yitang-domain-digest]]'
+- '[[dk-单元模型-找单元模型实操难点]]'
+- '[[ocr-一堂-单元模型-段位专家]]'
+- '[[ocr-一堂-单元模型-单用户模型]]'
+- '[[ocr-一堂-单元模型-对抗小抄01]]'
+- '[[ocr-一堂-单元模型-规模经济对抗武器库]]'
+- '[[ocr-一堂-单元模型-单履约模型]]'
+- '[[ocr-一堂-单元模型-找基准值实操难点]]'
+- '[[concept-最简单元模型]]'
+- '[[ocr-一堂-单元模型-对抗小抄02]]'
+- '[[tool-单元模型-壁垒预判]]'
+- '[[ai单元模型口述蒋老师]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 ---
-
 # 单元模型：单城市模型
 
 ## Purpose

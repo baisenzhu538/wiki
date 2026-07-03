@@ -1,11 +1,10 @@
 ---
-
 id: case-strategy-failure-07-phone-l
 title: 案例：国产手机L——能力缺失。无软件生态致收购失败
 type: case
 status: enriched
 created_at: '2026-06-28'
-updated_at: 2026-06-29
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.85
@@ -20,12 +19,12 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_22_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_22_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[tool-三层目标对齐法]]"
-  - "[[case-strategy-failure-06-phone-n]]"
-
+- '[[strategy-domain-digest]]'
+- '[[tool-三层目标对齐法]]'
+- '[[case-strategy-failure-06-phone-n]]'
+- case-strategy-failure-09-boeing
+- case-strategy-failure-04-appliance
 ---
-
 **表面问题**：斥巨资收购后整合失败。
 **战略根因**：能力缺失——硬件强但缺乏软件生态能力，收购来的软件团队无法融入。
 **问题类型**：九问题 #7 能力缺失。

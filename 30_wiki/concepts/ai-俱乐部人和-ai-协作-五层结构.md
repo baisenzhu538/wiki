@@ -1,33 +1,31 @@
 ---
-
-
-title: "AI 俱乐部·人和 AI 协作 — 五层结构"
+title: AI 俱乐部·人和 AI 协作 — 五层结构
 type: concept
 domain:
-  - management
-  - ai-saas
-  - design
-  - yitang
-  - decision-making
+- management
+- ai-saas
+- design
+- yitang
+- decision-making
 status: enriched
 source_refs:
-  - pending_archive:src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构
-  - src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构
-created_at: "2026-06-09T14:03:49+00:00"
-updated_at: "2026-06-09T14:22:09+00:00"
-id: "ai-俱乐部人和-ai-协作-五层结构"
-author: "纪浩"
-reviewed_by: "欧阳锋"
+- pending_archive:src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构
+- src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构
+created_at: '2026-06-09T14:03:49+00:00'
+updated_at: '2026-06-29'
+id: ai-俱乐部人和-ai-协作-五层结构
+author: 纪浩
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-  - [[ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01]]
-  - [[dk-ji-hao-ai-cant-design-structure]]
-  - [[dk-modeling-ai-compound-leverage]]
-  - [[dk-modeling-ai-judgment-limit]]
-  - [[master-ai-info-literacy]]
+- - - ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01
+- - - dk-ji-hao-ai-cant-design-structure
+- - - dk-modeling-ai-compound-leverage
+- - - dk-modeling-ai-judgment-limit
+- - - master-ai-info-literacy
+- yt-system-course-map-lecture
 ---
-
 # AI 俱乐部·人和 AI 协作 — 五层结构
 
 ## Summary

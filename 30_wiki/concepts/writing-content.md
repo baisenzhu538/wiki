@@ -7,7 +7,7 @@ source_refs:
 status: enriched
 title: Writing Content
 type: concept
-updated_at: 2026-05-22
+updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 author: unknown
@@ -15,13 +15,13 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- "[[case-toc-content-platform-correlation-trap]]"
-- "[[tool-yitang-content-ip-research]]"
-- "[[yt-lean-b2b-b2c-hardware-content-testing]]"
-- "[[yt-prompt-writing-workflow]]"
-- "[[case-chen-qiufan-ai-writing]]"
+- '[[case-toc-content-platform-correlation-trap]]'
+- '[[tool-yitang-content-ip-research]]'
+- '[[yt-lean-b2b-b2c-hardware-content-testing]]'
+- '[[yt-prompt-writing-workflow]]'
+- '[[case-chen-qiufan-ai-writing]]'
+- yt-system-course-map-lecture
 ---
-
 # Writing Content
 
 ## Summary

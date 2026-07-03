@@ -1,5 +1,4 @@
 ---
-
 id: tool-稀缺资源清单
 title: 稀缺资源清单：识别和配置决策中的关键约束
 type: tool
@@ -15,14 +14,15 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-稀缺资源清单_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-ai-prd-for-ai
+- concept-X型Y型决策习惯
 updated_at: '2026-06-29'
 ---
-
 # 稀缺资源清单
 
 ## 一句话定义

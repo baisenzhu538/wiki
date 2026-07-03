@@ -12,15 +12,15 @@ prompt_version: 1.0.0
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 created_at: '2026-06-21'
-updated_at: '2026-06-21'
+updated_at: '2026-06-29'
 author: 黄药师（从 inbox 提示词提取）
 reviewed_by: 欧阳锋
 related:
-- "[[tool-prompt-usp-demand-analysis]]"
-- "[[yt-demand-analysis-hiking-map]]"
-
+- '[[tool-prompt-usp-demand-analysis]]'
+- '[[yt-demand-analysis-hiking-map]]'
+- yt-system-course-map-lecture
+- yt-entrepreneur-needs-analysis
 ---
-
 # JTBD 场景推演教练
 
 > `prompt-template` — 六层需求深挖。主动引导，不给开放式问题。

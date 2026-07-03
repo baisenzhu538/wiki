@@ -1,5 +1,4 @@
 ---
-
 id: tool-openmontage-video-factory
 title: OpenMontage 中文 MCP 版：AI 视频工厂
 type: tool
@@ -7,7 +6,7 @@ status: enriched
 author: 洪七公
 reviewed_by: 待审
 created_at: 2026-06-30
-updated_at: '2026-06-30'
+updated_at: '2026-06-29'
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -17,16 +16,17 @@ domain:
 - ai-agent
 - mcp
 source_refs:
-- 00_inbox/AI-study/openmontage/【观察团专享】Noah（OPT版）：Github上最火的AI视频项目OpenMontage，我改了个中文MCP版 副本.md
+- 00_inbox/AI-study/openmontage/【观察团专享】Noah（OPT版）：Github上最火的AI视频项目OpenMontage，我改了个中文MCP版
+  副本.md
 - 40_outputs/capabilities/skills/openmontage-video/SKILL.md
 - https://github.com/noah-1106/openmontage-zh-mcp
 - https://github.com/calesthio/OpenMontage
 related:
-  - hongqigong-profile
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- hongqigong-profile
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- agent-native-card-design
 ---
-
 # OpenMontage 中文 MCP 版：AI 视频工厂
 
 > 一句话：把 KDO 知识卡片或自然语言需求，通过 Agent 驱动的 7 阶段管线，自动转化为可交付的 MP4 视频。洪七公的多模态武器库核心组件。

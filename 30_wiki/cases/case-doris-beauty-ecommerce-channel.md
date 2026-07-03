@@ -1,5 +1,4 @@
 ---
-
 id: case-doris-beauty-ecommerce-channel
 title: 案例：美妆行业渠道效率发现
 type: case
@@ -17,13 +16,12 @@ domain:
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-updated_at: 2026-06-28
-
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
+updated_at: '2026-06-29'
 ---
-
 # 案例：美妆行业渠道效率发现
 
 **调研**：通过贝恩与阿里妈妈联合发布的行业报告，分析了美妆行业各渠道的转化效率。

@@ -4,35 +4,37 @@ type: case
 title: 案例：崔磊如何通过 AI 绘画练习实现商业化交付
 status: reviewed
 domain:
-  - yitang
-  - personal-growth
-  - ai-collaboration
+- yitang
+- personal-growth
+- ai-collaboration
 confidence: 0.72
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-27
-updated_at: 2026-07-02
+updated_at: '2026-06-29'
 source_refs:
-  - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
-  - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
+- 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
+- 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
 source_person: 盈盈
 related:
-  - "[[framework-ai-deliberate-practice-loop]]"
-  - "[[case-yitang-poker-parameterized-practice]]"
-  - "[[tool-yitang-feedback-self-check]]"
-  - "[[case-yitang-sales-routine-deconstruction]]"
-  - "[[concept-yitang-comfort-stretch-panic-zones]]"
-  - "[[framework-yitang-deliberate-practice-1plus4]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-yitang-best-practice-as-golden-finger]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
+- '[[framework-ai-deliberate-practice-loop]]'
+- '[[case-yitang-poker-parameterized-practice]]'
+- '[[tool-yitang-feedback-self-check]]'
+- '[[case-yitang-sales-routine-deconstruction]]'
+- '[[concept-yitang-comfort-stretch-panic-zones]]'
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[tool-yitang-best-practice-as-golden-finger]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- modeling-personal-practice-loop
+- tool-yitang-channel-scan-cheat-sheet
 ---
 # 案例：崔磊如何通过 AI 绘画练习实现商业化交付
 

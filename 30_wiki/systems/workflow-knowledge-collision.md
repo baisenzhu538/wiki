@@ -19,13 +19,15 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[dk-f4-wrong-workdir]]"
-- "[[three-party-data-alignment]]"
-- "[[business-research-skill-oscar-13-weapon-system]]"
-- "[[system-yitang-research-workflow]]"
-- "[[modeling-capability-for-kdo]]"
-- "[[yt-decision-ai-partner]]"
-- "[[agent-external-brain-design]]"
+- '[[dk-f4-wrong-workdir]]'
+- '[[three-party-data-alignment]]'
+- '[[business-research-skill-oscar-13-weapon-system]]'
+- '[[system-yitang-research-workflow]]'
+- '[[modeling-capability-for-kdo]]'
+- '[[yt-decision-ai-partner]]'
+- '[[agent-external-brain-design]]'
+- framework-doris-industry-report-4step
+- tool-yitang-research-industry-scan
 tags:
 - src_unknown
 - src_unknown
@@ -33,7 +35,7 @@ tags:
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 ---
 > 核心原则：在产出之前，先拿当前问题去碰撞知识库里的已有框架。不只是查定义——是测试框架在问题上的适用性，找出"对得上""对不上""缺什么"三个区域。
 

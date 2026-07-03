@@ -1,5 +1,4 @@
 ---
-
 id: tool-泛产品设计-需求工具箱指南
 title: 需求工具箱指南
 type: tool
@@ -16,14 +15,15 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-需求工具箱指南_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 updated_at: '2026-06-29'
 ---
-
 # 需求工具箱指南
 
 需求工具箱指南是泛产品设计工具箱中的一项——把产品想法变成可执行动作的具体方法 [conf=0.75, source=原图/VLM描述]。

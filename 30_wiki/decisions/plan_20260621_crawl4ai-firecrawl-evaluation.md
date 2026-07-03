@@ -4,22 +4,24 @@ title: Crawl4AI vs Firecrawl 选型评估——KDO 检索架构 Phase 2 爬虫�
 type: decision
 status: proposed
 domain:
-  - master
-  - kdo
+- master
+- kdo
 source_refs:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-created_at: "2026-06-21"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+created_at: '2026-06-21'
 author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 related:
-  - "[[system-yitang-research-workflow]]"
-  - "[[framework-yitang-research-quality-gate]]"
-  - "[[tool-yitang-web-scraping-research]]"
+- '[[system-yitang-research-workflow]]'
+- '[[framework-yitang-research-quality-gate]]'
+- '[[tool-yitang-web-scraping-research]]'
+- web-scraping-三剑客-scrapling-crawl4ai-firecrawl
+updated_at: '2026-06-29'
 ---
 # Crawl4AI vs Firecrawl 选型评估
 

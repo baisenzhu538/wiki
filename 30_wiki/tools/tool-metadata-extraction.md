@@ -1,5 +1,4 @@
 ---
-
 id: tool-metadata-extraction
 title: 元数据提取：从文件中提取隐藏信息
 type: tool
@@ -18,14 +17,15 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- proposal-prompt-injection-infrastructure
+- concept-ai-native-organization-five-steps
 updated_at: '2026-06-29'
 ---
-
 # 元数据提取
 
 > 竞对发的每一张图片、每一份PDF、每一个Office文件——里面都可能嵌着作者、时间、GPS坐标、软件版本。元数据是"不注意就会泄露"的信息层。

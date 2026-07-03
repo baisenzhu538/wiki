@@ -18,18 +18,20 @@ definition_of_done:
 tools_required:
 - src_unknown
 created_at: '2026-06-09T14:40:41+00:00'
-updated_at: '2026-06-16'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
 related:
-- "[[tool-提升笔记练习频次的方法]]"
-- "[[tool-获取他人反馈优化笔记]]"
-- "[[tool-反向记录整理思路]]"
-- "[[tool-用清单体记备忘笔记]]"
-- "[[tool-用topdown方式整理内化笔记]]"
+- '[[tool-提升笔记练习频次的方法]]'
+- '[[tool-获取他人反馈优化笔记]]'
+- '[[tool-反向记录整理思路]]'
+- '[[tool-用清单体记备忘笔记]]'
+- '[[tool-用topdown方式整理内化笔记]]'
+- yt-entrepreneur-research-cognition
+- yt-note-l6-extraction
 ---
 # 技能：现场建模式萃取笔记
 

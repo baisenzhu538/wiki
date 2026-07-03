@@ -1,5 +1,4 @@
 ---
-
 id: case-婚礼规划
 title: 案例：婚礼规划——完整决策流程
 type: case
@@ -19,13 +18,12 @@ source_refs:
 - Y模型在婚礼筹备场景中的实操映射
 - 新人婚后满意度回访数据（样本量约120对）
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
-
 ---
-
 # 案例：婚礼规划
 
 ## 案例来源

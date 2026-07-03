@@ -1,5 +1,4 @@
 ---
-
 id: framework-lean-tenx-formula
 title: 十倍速公式：避免系统性失败
 type: framework
@@ -17,15 +16,16 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-lean-product-kernel-metrics
+- framework-lean-four-principles
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
-
 # 十倍速公式：避免系统性失败
 
 > 用"常识→情报→实验→全量投入"的递进阶梯，把认知学习的成本压到最低，把重投入的确定性提到最高，从而避免一次性押上全部资源的系统性失败。

@@ -1,5 +1,4 @@
 ---
-
 id: concept-candy-ai-as-collaborator
 title: Candy：AI是协作者而非代写工具
 type: concept
@@ -18,13 +17,15 @@ domain:
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- tool-yitang-amazon-bestseller
+- tool-yitang-ai-monitoring-alert
+updated_at: '2026-06-29'
 ---
-
 # AI是协作者而非代写工具
 
 > 方向感必须是人的。AI可以跑很快，但不知道往哪跑。

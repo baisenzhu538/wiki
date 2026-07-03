@@ -1,5 +1,4 @@
 ---
-
 id: tool-泛产品落地-解放思想
 title: 落地卡片：解放思想
 type: tool
@@ -16,14 +15,15 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-解放思想_vlm_desc.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- concept-X型Y型决策习惯
+- concept-发现决策
 updated_at: '2026-06-29'
 ---
-
 # 落地卡片：解放思想
 
 落地卡片：解放思想是泛产品设计落地工具箱中的一项——把产品想法变成可执行动作的具体方法 [conf=0.75, source=原图/VLM描述]。

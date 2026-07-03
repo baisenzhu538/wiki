@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-research-weapon-supplement-2026
 title: 调研武器库补充：2025-2026年新武器——OSINT工具+Agent原生+替代数据+验证技术
 type: framework
@@ -12,23 +11,26 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
+- yitang
+- research
 source_refs:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 related:
-  - "[[tool-alt-data-free]]"
-  - "[[tool-agent-native-overview]]"
-  - "[[tool-osint-overview]]"
-  - "[[tool-yitang-web-scraping-research]]"
-  - "[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]"
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[tool-yitang-ai-research-workflow]]"
-  - "[[tool-yitang-database-index]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
+- '[[tool-alt-data-free]]'
+- '[[tool-agent-native-overview]]'
+- '[[tool-osint-overview]]'
+- '[[tool-yitang-web-scraping-research]]'
+- '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
+- '[[framework-yitang-research-weapon-system]]'
+- '[[tool-yitang-ai-research-workflow]]'
+- '[[tool-yitang-database-index]]'
+- '[[framework-yitang-nine-layer-deep-dig]]'
+- yt-model-agent-architecture
+- proposal-ai-domain-mastery-pipeline
+updated_at: '2026-06-29'
 ---
 # 调研武器库补充：2025-2026年新武器
 

@@ -1,6 +1,4 @@
 ---
-
-
 id: tool-clinic-medical-shortvideo-compliance
 title: 诊所医疗短视频/个人 IP 合规边界 checklist
 type: tool
@@ -9,23 +7,25 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-  - pending_archive:src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
-  - pending_archive:src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
-  - src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
-  - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
+- pending_archive:src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
+- pending_archive:src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
+- src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
+- src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: '2026-06-29'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.88
 trust_level: high
 related:
-- "[[dk-wanghuan-ai-lifts-personal-ceiling]]"
-- "[[dk-wanghuan-standard-by-iteration]]"
-- "[[dk-modeling-ai-compound-leverage]]"
-- "[[tool-yitang-content-ip-research]]"
-- "[[dk-modeling-ai-judgment-limit]]"
+- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+- '[[dk-wanghuan-standard-by-iteration]]'
+- '[[dk-modeling-ai-compound-leverage]]'
+- '[[tool-yitang-content-ip-research]]'
+- '[[dk-modeling-ai-judgment-limit]]'
+- tool-strategy-gap-analysis
+- tool-ai-use-barbell-strategy
 ---
 ## Purpose
 

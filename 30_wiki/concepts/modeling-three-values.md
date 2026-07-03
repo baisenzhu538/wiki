@@ -7,18 +7,19 @@ source_refs:
 status: enriched
 domain:
 - src_unknown
-updated_at: '2026-06-17'
+updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.75
 related:
-- "[[tool-水水-区分风险与不确定性]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[tool-水水-区分风险与不确定性]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- modeling-to-kdo-toolchain
 tags:
 - src_unknown
 - src_unknown
@@ -36,7 +37,6 @@ diagnostic_signals:
 - lens: 经验未沉淀
   follow_up: 检查是否有本质建模输出，经验是否被提炼为可迁移模式
 ---
-
 # 建模的三重价值：确定性、框架性、迁移性
 
 > **Burn line**: 所有模型最终都是为了解决三个问题：让输出更确定、让思考有框架、让经验可迁移。

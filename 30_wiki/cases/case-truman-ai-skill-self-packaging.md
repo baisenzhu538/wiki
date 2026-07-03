@@ -15,20 +15,22 @@ reviewed_by: 老顽童
 review_date: '2026-06-16'
 trust_level: medium
 related:
-- "[[case-strategy-practice-11-third-place]]"
-- "[[case-private-domain-ecommerce-formula]]"
-- "[[case-strategy-failure-06-phone-n]]"
-- "[[case-strategy-m-brand-profit-model]]"
-- "[[tool-Truman-提示词优化底层方法]]"
-- "[[case-five-step-growth-first-lever]]"
-- "[[yt-product-kernel-shampoo-case]]"
-- "[[case-demand-pharma-bigdata]]"
-- "[[dk-modeling-case-explosion-confidence]]"
-- "[[tool-Truman-AI能力分层学习路径]]"
-- "[[case-doris-outbound-travel-community]]"
-- "[[case-strategy-failure-04-appliance]]"
-- "[[case-hr-saas-feature-usage-trap]]"
-- "[[case-strategy-retailer-activity-scope]]"
+- '[[case-strategy-practice-11-third-place]]'
+- '[[case-private-domain-ecommerce-formula]]'
+- '[[case-strategy-failure-06-phone-n]]'
+- '[[case-strategy-m-brand-profit-model]]'
+- '[[tool-Truman-提示词优化底层方法]]'
+- '[[case-five-step-growth-first-lever]]'
+- '[[yt-product-kernel-shampoo-case]]'
+- '[[case-demand-pharma-bigdata]]'
+- '[[dk-modeling-case-explosion-confidence]]'
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[case-doris-outbound-travel-community]]'
+- '[[case-strategy-failure-04-appliance]]'
+- '[[case-hr-saas-feature-usage-trap]]'
+- '[[case-strategy-retailer-activity-scope]]'
+- case-child-drawing-rhyme
+- case-truman-personal-growth-map-creation
 tags:
 - src_unknown
 - src_unknown
@@ -45,7 +47,6 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
   high）
 updated_at: '2026-06-29'
 ---
-
 # AI 自复盘自封装：Truman 怎么让 AI 把自己包装成一个技能
 
 > **Burn line**: 不是人写 skill——是 AI 扫描你所有的纠偏记录，自己把自己的经验封装成 skill。
