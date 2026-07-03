@@ -4,12 +4,14 @@ updated_at: 2026-07-01T14:01:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#58 TCPR 角色模型嵌入 Agent 能力分层（queued 2026-07-01）：用户指出每次 Agent 协作应先选 T/C/P/R 身份并明确目标；已新建任务单并更新 agent-native-card-design.md 强制规范；待黄药师/老顽童领取执行"
+active_task: "#59 Agent Prompt 编译器（queued 2026-07-01）：用户判定 Kimi/Hermes 无法 Read 文件，需把 agent-os.md + 域卡编译为静态 system prompt；已新建任务单并入队；待黄药师领取"
 blockers:
   - "🟡 #51 一堂底层逻辑域（2026-07-01）：老顽童已完成全部 7 张卡产出，欧阳锋正在终审"
+  - "🟡 #55 Y模型 OS（2026-07-01）：Kimi 实例已基本完成产出，待提交欧阳锋终审"
   - "🟡 #58 TCPR Agent 身份协议（2026-07-01）：已入队，待黄药师/老顽童(Kimi) 领取；需与 #55 Y模型 OS 对齐"
+  - "🟡 #59 Agent Prompt 编译器（2026-07-01）：已入队，待黄药师领取；MCP 方案现在不做"
 
-next_session_hint: "下一步：① 欧阳锋终审 #51；② 推进 #55 Y模型 OS；③ 启动 #58 TCPR Agent 身份协议设计与现有 agent-spec 卡 retrofit；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 欧阳锋终审 #51；② 推进 #55 Y模型 OS 提交终审；③ 启动 #58 TCPR Agent 身份协议设计与 retrofit；④ 黄药师领取 #59 Agent Prompt 编译器；⑤ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

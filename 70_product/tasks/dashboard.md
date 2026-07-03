@@ -89,15 +89,16 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260703_laowantong-yitang-Y-model-stub-completion | #51 收尾：实事求是 / 解放思想 framework 卡补全 | closed_cancelled | — | P1 | task_20260703_laowantong-yitang-Y-model-stub-completion.md | 取消：#51 已全部完成，无需单独收尾任务 |
 | task_20260703_laowantong-graphrag-orphan-reduction | GraphRAG 健康度提升：跨域 related 补链降低 orphan 比例 | queued | 老顽童(Kimi) | P2 | task_20260703_laowantong-graphrag-orphan-reduction.md | #52 终审可改进点：orphan 比例 36%、1235 个 connected components；本任务分析 orphan 来源并补充跨域 related 链接 |
 | task_20260703_huangyaoshi-agent-tcpr-role-layer | Agent 能力分层引入 TCPR 角色模型：所有 Agent 协作前必须选定 T/C/P/R 身份 | queued | 黄药师/老顽童(Kimi) | P1 | `60_feedback/tasks/task_20260703_huangyaoshi-agent-tcpr-role-layer.md` | 用户提出 TCPR 应作为 Agent 身份协议，防止 Agent 军团协作混乱；需更新 agent-native-card-design.md、framework-TCPR*、现有 agent-spec 卡 |
+| task_20260703_huangyaoshi-agent-prompt-compiler | Agent Prompt 编译器：把 agent-os.md + 域卡编译为可注入的 system prompt | queued | 黄药师 | P1 | `60_feedback/tasks/task_20260703_huangyaoshi-agent-prompt-compiler.md` | 用户判定 Kimi/Hermes 无法 Read 文件，需把 agent-os.md + 域卡编译为静态 system prompt；MCP 方案现在不做 |
 
 ---
 
 ## Summary
 
-- **Total**: 57
+- **Total**: 58
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 6（详见 `production-queue.md` #28/#53-#55/#57/#58 等）
+- **Queued**: 7（详见 `production-queue.md` #28/#53-#55/#57-#59 等）
 - **Long-term / Paused**: 0（#28 lint 内容债，待拆批，不直接领取）
 - **Pending**: 1 (#51 欧阳锋终审中)
 - **Review Done**: 46 (#50/#52 reviewed; #51 pending_review)
