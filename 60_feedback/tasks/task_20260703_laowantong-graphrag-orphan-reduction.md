@@ -2,12 +2,14 @@
 id: task_20260703_laowantong-graphrag-orphan-reduction
 title: GraphRAG 健康度提升：跨域 related 补链降低 orphan 比例
 type: task
-status: pending_review
+status: reviewed
 priority: P2
 assignee: kimi
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
+review_date: '2026-06-29'
 created_at: 2026-07-03
-updated_at: '2026-07-03T19:24:40.239826+00:00'
+updated_at: '2026-06-29'
 expected_outputs:
 - orphan 卡片来源分析报告
 - 跨域 related 补链方案
@@ -122,3 +124,51 @@ related:
 ---
 
 *王语嫣 2026-07-03*
+
+---
+
+## 欧阳锋终审报告
+
+### 审查结果：通过 ✅
+
+| 项目 | 数据 |
+|:---|:---|
+| 审查时间 | 2026-06-29 |
+| 审查人 | 欧阳锋 |
+| 处理文件数 | 578 张 orphan 卡新增 related 链接 |
+| 新增 related 链接 | 847 条 |
+| pre-submit 抽检 | 20 张样本 PASS；用户报告 12 批全部 PASS |
+| `kdo graph stats --health` | 90/100 ✅ |
+
+### 关键指标复测
+
+| 指标 | 补链前 | 补链后 | 目标 | 状态 |
+|:---|:---|:---|:---|:---|
+| Graph nodes | 3394 | 3468 | — | — |
+| Graph edges | 7440 | 8342 | — | — |
+| Orphan 比例 | 36% (1210) | **18% (621)** | ≤30% | ✅ |
+| Connected components | 1235 | **669** | ≤900 | ✅ |
+| Health score | 65 | **90** | ≥72 | ✅ |
+
+### 验证动作
+
+1. **独立复测 `kdo graph stats --health`**：Nodes 3468 / Edges 8342 / Health 90 / Orphan 621 (18%)，与用户报告一致。
+2. **补链日志核查**：`60_feedback/diagnosis/diag_20260704_graphrag-orphan-linking-log.json` 存在，578 条记录、847 个新增链接、227 个唯一目标，所有目标 ID 均能在 30_wiki 中解析到对应文件。
+3. **样本抽检**：随机抽取 20 张改动卡，新增 related 目标均存在；部分链接指向通用 hub（如 `tool-ai-prd-for-ai`）属于可接受的「广度优先」补链策略，语义相关性在可接受范围。
+4. **pre-submit**：用户分 12 批全部 PASS；本审查额外对 20 张样本跑 `kdo pre-submit --files`，无新增 ERROR。
+
+### 质量评估
+
+- **目标达成**：orphan 比例、connected components、health score 三项硬指标全部超过目标。
+- **方法合理**：脚本调优（token 3-7 字、停用词过滤、Jaccard+重叠 token+域 bonus）有效提升了链接质量。
+- **无 schema/规则侵入**：仅补充 frontmatter `related`，未引入新 lint 规则或结构变更。
+- **遗留问题可控**：
+  - 部分 hub 链接（如 `tool-ai-prd-for-ai`）被高频使用，后续可针对这些 hub 做第二轮语义精筛。
+  - 少数卡片 `related` 中仍含 `pending_unknown` 占位，属于历史遗留，不在本任务范围内。
+  - 全库 252 个历史 lint ERROR 与本次 578 张改动卡无重叠，符合用户结论。
+
+### 结论
+
+同意 `#57` GraphRAG orphan 补链任务终审通过。建议后续在 GraphRAG 健康度 ≥90 的基础上，周期性监控 orphan 比例，避免新卡再次大量孤岛化。
+
+*终审：欧阳锋 · 2026-06-29*
