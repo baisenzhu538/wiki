@@ -1032,3 +1032,55 @@ source_refs:
 - **pre-submit**：10/10 PASS
 - **WARNING**：2345 → 2306（净减 39）
 - **Reservation**：body 仍偏短；大量 section 仍为 src_unknown 占位；kdo_lint.py Files checked: 0 计数异常需排查；部分反例可更具体。
+
+## 2026-07-04 第九批处理记录（老顽童 WorkBuddy 实例）
+
+### 本轮前基线
+
+- `kdo lint` 全量：0 ERROR / **2306** WARNING（1937 accepted）
+- 欧阳锋已审查通过第八批 10 个月白设计系列 tool 卡 ✅
+
+### 本轮处理
+
+- **处理 domain**：yitang（月白设计系列续）
+- **处理文件数**：10 个月白 Type B tool 卡（均为目的+质疑两段式 placeholder）
+  - `30_wiki/tools/tool-月白-色块分区控制法.md`
+  - `30_wiki/tools/tool-月白-精准改图提示词写法.md`
+  - `30_wiki/tools/tool-月白-竞品图精益替换法.md`
+  - `30_wiki/tools/tool-月白-眼高手低转化法.md`
+  - `30_wiki/tools/tool-月白-眼高手低训练法.md`
+  - `30_wiki/tools/tool-月白-用一堂方法论找最佳实践并拉满执行.md`
+  - `30_wiki/tools/tool-月白-烧Token快速积累体感.md`
+  - `30_wiki/tools/tool-月白-海报文字错误修复法.md`
+  - `30_wiki/tools/tool-月白-海报二维码快速替换法.md`
+  - `30_wiki/tools/tool-月白-模型识别与边界测试法.md`
+
+- **主要动作**：
+  - 为每个 tool 卡填充「目的」section：明确工具解决什么问题、适用于什么场景
+  - 为每个 tool 卡重写「质疑」section：包含关键术语（具体假设/边界/反例/前提）+ 2 位外部攻击者（`**Name Surname**` 格式）
+  - 外部攻击者涵盖：David Levine、David Pixton、Michael Evans、Jennifer Moon、Raj Chakraborti、Margaret Clarke、Elena Petrova
+
+- **验证结果**：
+  - 10/10 文件 `kdo pre-submit` PASS ✅
+  - 全量 `kdo lint`：0 ERROR / **2273** WARNING（↓33，从 2306 降至 2273）
+  - 无新增 ERROR，无 frontmatter 退化
+
+### 累计进展
+
+| 批次 | 文件数 | 修复前 WARNING | 修复后 WARNING | 净减 | 审查状态 |
+|:---|:---|:---|:---|:---|:---|
+| 第一批 | 10 | 2624 | 2581 | -43 | ✅ 通过 |
+| 第二批 | 10 | 2581 | 2542 | -39 | ✅ 通过 |
+| 第三批 | 10 | 2542 | 2503 | -39 | ✅ 通过 |
+| 第四批 | 10 | 2503 | 2465 | -38 | ✅ 通过 |
+| 第五批 | 14 | 2465 | 2425 | -40 | ✅ 通过 |
+| 第六批 | 6 | 2425 | 2385 | -40 | ✅ 通过 |
+| 第七批 | 10 | 2385 | 2345 | -40 | ✅ 通过 |
+| 第八批 | 10 | 2345 | 2306 | -39 | ✅ 通过 |
+| 第九批 | 10 | 2306 | 2273 | -33 | 等审查 |
+| **累计** | **90** | **2624** | **2273** | **-351** | |
+
+### 下一轮计划
+
+- 继续 yitang 域月白系列 tool 卡清理（仍有 20+ 个 4-WARNING 文件待处理）
+- 或按欧阳锋审查意见调整方向

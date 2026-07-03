@@ -118,3 +118,47 @@ dependencies:
 - 编译器不要一次性处理全库所有 agent-spec，先试点 3 个，验证流程后再批量推广。
 - 编译后 prompt 的文件路径 `.agent/prompts/<agent-id>.md` 是建议，实际路径可由 `kdo` CLI 配置决定。
 - 用户层（personal-os）当前未实现，编译器只需预留接口，不要求真实加载。
+
+---
+
+## 黄药师完成报告（2026-07-04）
+
+### 做了什么
+
+`kdo-tools/agent-prompt-compiler.py`：读取 agent-spec 卡的 frontmatter，把 OS层 + 域层 + 用户层编译成一段可注入的 system prompt。
+
+### 使用方式
+
+```bash
+python kdo-tools/agent-prompt-compiler.py tool-opc-sales-dialogue-assistant   # 编译
+python kdo-tools/agent-prompt-compiler.py <agent-id> --dry-run                # 预览
+```
+
+### 编译逻辑
+
+| 层 | 来源 | 默认值 |
+|:---|:---|:---|
+| OS 层 | frontmatter `os_sources` | `system-yitang-Y-model-os.md` + `agents/agent-os.md` |
+| 域层 | frontmatter `domain_sources` + agent-spec 卡自身 | agent-spec 卡总是被包含 |
+| 用户层 | frontmatter `user_sources`（可选） | 无 |
+
+输出到 `.agent/prompts/<agent-id>.md`，含编译时间、来源 hash、估算 token。
+
+### 试点结果（3 个）
+
+| Agent | Tokens |
+|:---|:---|
+| tool-opc-sales-dialogue-assistant | ~7556 |
+| tool-agent-spec-yitang-Y-model-coach | ~6838 |
+| tool-agent-spec-yitang-customer-segmentation | ~9046 |
+
+### 使用说明
+
+- Claude Agent：CLAUDE.md 指向 `.agent/prompts/<agent-id>.md`
+- Kimi/Hermes：把文件内容作为 system prompt 注入
+- 卡片更新后：重新运行编译器
+- vs kdo query：编译器覆盖核心卡（3-7张），kdo query 处理偶发查询
+
+---
+
+*黄药师 2026-07-04*

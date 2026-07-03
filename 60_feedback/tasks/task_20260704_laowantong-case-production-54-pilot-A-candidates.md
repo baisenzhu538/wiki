@@ -1,23 +1,23 @@
 ---
 id: task_20260704_laowantong-case-production-54-pilot-A-candidates
-title: "#54 试点 A 级候选投产：7 张 companion case 卡"
+title: '#54 试点 A 级候选投产：7 张 companion case 卡'
 type: task
-status: queued
+status: in_progress
 priority: P2
-assignee: 老顽童(Kimi)
+assignee: kimi
 reviewer: 欧阳锋
 reviewed_by: pending
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-03T19:56:03.925511+00:00'
 expected_outputs:
-  - "7 张标准 case 卡，对应 #54 诊断报告中欧阳锋圈定的 A 级候选"
-  - "每张 case 卡包含：背景、决策/行动、结果、可迁移洞察、来源引用"
-  - "反向更新 ≥7 张锚定概念/工具/framework 卡的 related 字段"
-  - "kdo pre-submit 全部 PASS，lint 0 新增 ERROR"
+- '7 张标准 case 卡，对应 #54 诊断报告中欧阳锋圈定的 A 级候选'
+- 每张 case 卡包含：背景、决策/行动、结果、可迁移洞察、来源引用
+- 反向更新 ≥7 张锚定概念/工具/framework 卡的 related 字段
+- kdo pre-submit 全部 PASS，lint 0 新增 ERROR
 dependencies:
-  - "#54 已 reviewed（已满足）"
+- '#54 已 reviewed（已满足）'
 source_refs:
-  - 60_feedback/diagnosis/diag_20260704_retroactive-case-scan-pilot.md
+- 60_feedback/diagnosis/diag_20260704_retroactive-case-scan-pilot.md
 ---
 
 # #54 试点 A 级候选投产：7 张 companion case 卡
