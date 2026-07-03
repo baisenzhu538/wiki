@@ -15,8 +15,10 @@ domain:
 source_person: Truman（一堂学员/时间管理经验分享者）
 source_context: 一堂时间管理域案例分享（2026-07-01），个人实验记录
 source_refs:
-- 00_inbox/时间管理域素材/Truman-通勤实验-口述.txt
-- 00_inbox/时间管理域素材/Truman-通勤实验-笔记.txt
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt
+- 00_inbox/时间管理/truman-时间管理课程-笔记.txt
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+- 00_inbox/时间管理/_processed/vlm_summary.json
 related:
 - framework-yitang-five-step-to-time-management
 - tool-personal-time-audit-loop

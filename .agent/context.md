@@ -8,10 +8,10 @@ active_task: "#53 案例卡补挖：吾辈如神 + 时间管理域（claimed-kim
 blockers:
   - "#58 TCPR Agent 身份协议（2026-07-01）：已入队，assignee 老顽童(Kimi)，黄药师任 co_architect；#55 已 reviewed，对齐基础已具备"
   - "#59 Agent Prompt 编译器（2026-07-01）：已入队，assignee 黄药师；按队列顺序等待领取；MCP 方案现在不做"
+  - "#60 KDO 工具链修复（2026-07-01）：已入队，assignee 黄药师；修复 queue_transition.py review 按 frontmatter id 查找任务单；可在 #59 之前或间隙处理"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
-  - "🟡 KDO 工具链债务：queue_transition.py review 仍按文件名查找任务单，当 id 与文件名不一致时失败（如 #55）。建议黄药师修复 find_task_file_by_frontmatter_id 在 review 分支的同步"
 
-next_session_hint: "下一步：① 老顽童(Kimi) 执行 #53，完成后按顺序推进 #54/#57/#58；② workbuddy 在空闲时分批处理 #28；③ 黄药师等待队列排到 #59 后领取；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
+next_session_hint: "下一步：① 老顽童(Kimi) 执行 #53，完成后按顺序推进 #54/#57/#58；② workbuddy 在空闲时分批处理 #28；③ 黄药师按队列顺序领取 #59/#60；④ 用户可随时用 .agent/amnesia-recovery-one-liners.md 中的口令让 Agent 失忆恢复。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
