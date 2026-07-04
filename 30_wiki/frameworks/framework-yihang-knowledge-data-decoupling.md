@@ -2,9 +2,10 @@
 id: framework-yihang-knowledge-data-decoupling
 title: 知识层与数据层解耦：核心词 + data pack 插件式组合
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-05
 confidence: 0.85
 trust_level: high
 language: zh-CN

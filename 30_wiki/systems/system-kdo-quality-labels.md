@@ -201,6 +201,7 @@ rg "^  - actionable$" 30_wiki -g "*.md" -l
 1. `quotable` 是否应该有更客观的判定标准（如被其他卡片引用的次数）？
 2. `cited` 的阈值 3 个 wikilink 是否合理？是否应该按 domain 调整？
 3. 质量标签是否需要定期重新计算（如 confidence 变化、related 更新后）？
+4. **前提质疑**：8个受控标签的划分是否穷尽？是否存在"经验验证但未审查通过"的中间态标签缺失？**边界**：`validated` 要求真实来源，但"真实"的判定标准在 OCR 卡片（source_refs 全是 src_unknown）场景下如何操作化？
 
 ## 来源
 

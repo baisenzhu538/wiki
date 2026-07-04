@@ -1,16 +1,18 @@
 ---
 id: task_20260704_wangyuyan-knowledge-data-decoupling-framework
 type: task
-status: pending_review
+status: reviewed
 assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-04
-updated_at: '2026-07-04T16:55:35.992188+00:00'
+updated_at: '2026-07-04T16:57:07.016241+00:00'
 related:
 - '[[framework-yihang-knowledge-data-decoupling]]'
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-agent-spec-yitang-customer-segmentation]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-04'
 ---
 
 # 任务 #84：知识层与数据层解耦 framework 卡
