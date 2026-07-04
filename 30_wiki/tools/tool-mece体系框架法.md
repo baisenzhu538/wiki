@@ -78,6 +78,8 @@ diagnostic_signals:
 
 ## Critique
 
+
+**Clayton Christensen**（哈佛商学院教授）会质疑：现有方法论框架的有效性依赖于环境稳定性——当环境发生颠覆性变化时，旧框架不仅无效，还可能误导。
 1. **MECE 不是“分类完美主义”，而是“思考不遗漏的安全网”**
    - src_unknown
    - src_unknown

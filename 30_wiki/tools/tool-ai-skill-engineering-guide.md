@@ -143,6 +143,8 @@ diagnostic_signals:
 
 ## Critique
 
+
+**Peter Drucker**（管理学大师）会质疑：工具的价值不在于方法论本身，而在于执行者的判断力——没有判断力的执行只是走流程。
 ### 内部局限
 
 - src_unknown

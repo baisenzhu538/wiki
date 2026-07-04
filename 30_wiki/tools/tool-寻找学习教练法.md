@@ -76,6 +76,8 @@ diagnostic_signals:
 
 ## Critique
 
+
+**Daniel Kahneman**（诺贝尔经济学奖得主）会质疑：结构化流程本身可能制造'流程完成感'——执行者觉得走完了流程就等于做了好决策。
 1. **教练的价值不在于“给答案”，而在于“给反馈”**
    - src_unknown
    - src_unknown

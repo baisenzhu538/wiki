@@ -77,6 +77,8 @@ diagnostic_signals:
 
 ## Critique
 
+
+**Amy Edmondson**（哈佛商学院教授）会质疑：工具只是能力放大器——如果使用者的判断力不足，工具只会放大错误而非放大正确。
 1. **清单的价值在于“精简”不在于“全面”**
    - src_unknown
    - src_unknown
