@@ -1765,4 +1765,38 @@ source_refs:
 
 **累计**：180 文件，WARNING 2624→2038，净减 586
 
+---
+
+### Batch 19 — yitang 调研武器库/数据指数系列（第三批）
+
+**日期**：2026-07-04
+
+**处理范围**：10 个 yitang 域调研工具卡（证券研报、差评分析、招募用户访谈、人脉库检索、PC/Web数据、专利分析、合作方案数据、抖音数据、裁判文书检索、财报/招股书情报）
+
+| # | 文件 | 类型 | pre-submit |
+|:---|:---|:---|:---|
+| 1 | tool-yitang-securities-research | Type A | PASS ✅ |
+| 2 | tool-yitang-review-analysis | Type A | PASS ✅ |
+| 3 | tool-yitang-recruit-user-interview | Type A | PASS ✅ |
+| 4 | tool-yitang-people-network-database | Type A | PASS ✅ |
+| 5 | tool-yitang-pc-web-data | Type A | PASS ✅ |
+| 6 | tool-yitang-patent-analysis | Type A | PASS ✅ |
+| 7 | tool-yitang-partner-data-analysis | Type A | PASS ✅ |
+| 8 | tool-yitang-douyin-data | Type A | PASS ✅ |
+| 9 | tool-yitang-court-record-search | Type A + src_unknown修复 | PASS ✅ |
+| 10 | tool-yitang-financial-report-intelligence | Type A + 大量src_unknown修复 | PASS ✅ |
+
+**修复后全量 WARNING**：2038 → **2001**（↓37）
+
+**修复模式**：
+- 10 个 Type A 卡：填充「目的」「操作步骤」「不要用的场景」「质疑」四个 section
+- 2 个卡同时修复 src_unknown：
+  - court-record-search：检索维度 4 条 src_unknown → 被告/原告/供应商客户纠纷/执行信息
+  - financial-report-intelligence：query_triggers 7 条 + 对标公司 3 条 + Step1 调研目标 3 条 + Step3 快速浏览 3 条 + 案例3贝泰妮 4 条 + 来源与验证 4 条 = 共 24 条 src_unknown 全部修复
+- 每条质疑含 2 位外部攻击者（`**Name Surname**` 格式）+ 关键术语
+
+**外部攻击者引用**：Brad Barber、Ana Albuquerque、Bing Pan、Duncan Watts、Janet Weiss、Steve Portigal、Ron Burt、Martin Kilduff、Helen Nissenbaum、Brian Dean、Avi Goldstein、Adam Jaffe、Bronwyn Hall、Oliver Williamson、Maxim Sytch、Scott Galloway、Marc Galanter、Daniel Solove、Howard Schilit、Aswath Damodaran
+
+**累计**：190 文件，WARNING 2624→2001，净减 623
+
 
