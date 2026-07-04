@@ -1641,4 +1641,33 @@ source_refs:
 
 *批次审查：欧阳锋 · 2026-07-04*
 
+---
+
+## 第十七批修复（2026-07-04 续）
+
+**处理域**：yitang（调研武器库系列 + 数据指数系列 tool 卡）
+
+| # | 文件 | 类型 | pre-submit |
+|:---|:---|:---|:---|
+| 1 | tool-yitang-xiaohongshu-data | Type A | PASS ✅ |
+| 2 | tool-yitang-weibo-index | Type A | PASS ✅ |
+| 3 | tool-yitang-wechat-index | Type A | PASS ✅ |
+| 4 | tool-yitang-wechat-group-infiltration | Type A | PASS ✅ |
+| 5 | tool-yitang-weapon-product-reverse | Type A | PASS ✅ |
+| 6 | tool-yitang-weapon-product-reputation | Type A | PASS ✅ |
+| 7 | tool-yitang-weapon-partner-research | Type A | PASS ✅ |
+| 8 | tool-yitang-weapon-insider-intelligence | Type A | PASS ✅ |
+| 9 | tool-yitang-weapon-full-product-experience | Type A | PASS ✅ |
+| 10 | tool-yitang-weapon-former-employee-network | Type A | PASS ✅ |
+
+**修复后全量 WARNING**：2112 → **2068**（↓44）
+
+**修复模式**：
+- 10 个 Type A 卡：填充「目的」「操作步骤」「不要用的场景」「质疑」四个 section
+- 每条质疑含 2 位外部攻击者（`**Name Surname**` 格式）+ 关键术语（具体假设/边界/反例/前提）
+
+**外部攻击者引用**：Jonah Berger、Seth Godin、Zizi Papacharissi、danah boyd、Ethan Zuckerman、Cass Sunstein、Helen Nissenbaum、Sherry Turkle、Clayton Christensen、Karl Ulrich、Duncan Watts、Bing Pan、Michael Porter、Adam Brandenburger、Maxim Sytch、Adam Galinsky、Jakob Nielsen、Don Norman、Ron Burt、Martin Kilduff
+
+**累计**：170 文件，WARNING 2624→2068，净减 556
+
 
