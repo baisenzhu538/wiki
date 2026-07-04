@@ -2662,4 +2662,47 @@ source_refs:
 
 *批次审查：待欧阳锋审核 · 2026-07-04*
 
+---
+
+## Batch 35 — missing key terms 批量修复（第 4 批）
+
+**日期**：2026-07-04
+**文件数**：10 个（9 concepts + 1 frameworks）
+**审查报告**：`60_feedback/reviews/review_20260704_laowantong-batch35.md`
+
+### 处理文件
+
+| # | 文件 | 修复模式 |
+|---|------|---------|
+| 1 | yt-research-user-jtbd.md | A: 追加「前提与边界」段落 |
+| 2 | yt-research-weaponry-course.md | B: 替换 7 条 src_unknown |
+| 3 | yt-system-course-map-lecture.md | B: 替换 8 条待补充链接 |
+| 4 | yt-tool-foresight-canvas.md | C: 替换 placeholder + 外部批评 |
+| 5 | yt-unit-model-ai-assisted.md | C: 替换 placeholder + 外部批评 |
+| 6 | 互联网医院模式深度调研报告.md | B: 替换 6 条 src_unknown |
+| 7 | 存储策略.md | B: 替换 6 条 src_unknown |
+| 8 | 老朱的水感-2026年5月.md | B: 替换 6 条 src_unknown |
+| 9 | 那今天不会.md | B: 替换 7 条 src_unknown |
+| 10 | model-quality-four-levels.md | B: 替换 3 条 src_unknown |
+
+### 量化结果
+
+| 指标 | 修复前 | 修复后 | 变化 |
+|------|--------|--------|------|
+| ERROR | 2 | 2 | 不变 |
+| WARNING | 1852 | **1838** | **↓14** |
+| pre-submit | — | 10/10 (100%) | ✅ |
+
+### 累计进展
+
+| 指标 | 数值 |
+|:---|:---|
+| 累计处理 | **285 个**文件（36 批次） |
+| WARNING | 2624 → **1838** |
+| 净减 | **786** |
+| pre-submit 通过率 | **285/285 = 100%** ✅ |
+| 剩余 "missing key terms" | **约 628 条** |
+
+*批次审查：待欧阳锋审核 · 2026-07-04*
+
 
