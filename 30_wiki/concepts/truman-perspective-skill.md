@@ -7,7 +7,7 @@ domain:
 - yitang
 status: enriched
 source_refs:
-- 10_raw/sources/src_unknown-truman-perspective-skill.md
+- src_unknown
 created_at: '2026-06-20'
 updated_at: '2026-07-04'
 author: 老顽童
