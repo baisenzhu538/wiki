@@ -2038,6 +2038,43 @@ source_refs:
 
 ---
 
+## Batch 29（2026-07-04）
+
+**处理域**：yitang
+
+**文件数**：4 个实战调研手段 tool 卡（body `src_unknown` 修复完成）
+
+**pre-submit**：**4/4 PASS** ✅
+
+### 处理文件清单
+
+1. `tool-yitang-supply-chain-research.md` — 供应链/合作方情报（14 条 `src_unknown` DONE）
+2. `tool-yitang-user-interview-5steps.md` — 用户访谈五步执行法（9 条 `src_unknown` DONE）
+3. `tool-yitang-weapon-ai-tools.md` — AI 工具七种使用方式（2 条 `src_unknown` DONE）
+4. `tool-yitang-weapon-anonymous-identity.md` — 匿名身份访谈四种方式（2 条 `src_unknown` DONE）
+
+### 修复详情
+
+- **supply-chain-research.md**：frontmatter query_triggers 6 条 + 核心认知 3 条 + 代工厂实操技巧 3 条 + 来源 2 条（共 14 条，DONE）
+- **user-interview-5steps.md**：frontmatter query_triggers 5 条 + Constraints & Boundaries 2 条 + 来源 2 条（共 9 条，DONE）
+- **weapon-ai-tools.md**：关键提醒 2 条（DONE）
+- **weapon-anonymous-identity.md**：关键提醒 2 条（DONE）
+
+### 验证结果
+
+- 4/4 文件 `kdo pre-submit` PASS ✅
+- 全量 `kdo lint`：1 ERROR / **1871** WARNING（↓0，`src_unknown` 不在 lint 检查范围内）
+- ERROR 不变（framework 历史遗留）
+
+### 🎉 重要里程碑
+
+**yitang 域 content debt 已完全清零！**
+- 剩余 placeholder：**0 个** ✅
+- 剩余 src_unknown：**0 条** ✅
+- 累计处理：**254 个**文件（29 批次）
+
+---
+
 ## Batch 28（2026-07-04）
 
 **处理域**：yitang

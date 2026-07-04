@@ -203,7 +203,9 @@ Truman 在口述中明确说「官方暂不收录」同学把六要素和实事�
   - 已生成审查报告：
     - `60_feedback/reviews/review_20260704_ouyangfeng-truman-feishu-to-slide-case.md`
     - `60_feedback/reviews/review_20260704_ouyangfeng-y-model-dual-triangle-bridge-framework.md`
-  - 已运行 `python 90_control/scripts/queue_transition.py review task_20260704_laowantong-y-model-dual-triangle-bridge-framework --verdict fail --reviewer 欧阳锋`，任务状态已退回 `queued`。
+  - 尝试运行 `python 90_control/scripts/queue_transition.py review task_20260704_laowantong-y-model-dual-triangle-bridge-framework --verdict fail --reviewer 欧阳锋`。
+  - **脚本返回错误**：队列中该任务状态为 `queued`，不是 `pending_review`，`review --verdict fail` 被拒绝。
+  - 当前任务单 frontmatter 与队列均为 `queued`，产物虽已完成但尚未进入 pending_review；未手动修改状态，等待老顽童按正常流程重新提交或王语嫣/黄药师协调状态后走脚本终审。
 - **退回后老顽童需完成**：
   1. 补充 L0-L5 认知深度模型表及创造力深度小节。
   2. 补充体系 / 模型边界意识 + ROI 边界小节，并给出各模型适用域实例。

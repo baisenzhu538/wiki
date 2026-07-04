@@ -1,17 +1,17 @@
 ---
 updated: 2026-07-04
-updated_at: 2026-07-04T08:26:36+00:00
+updated_at: 2026-07-04T08:34:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#63 done；#64/#65 pending_review 待欧阳锋终审；#66/#67 P1 待 #65 reviewed 后领取；#68 P2 待 #64/#65 reviewed 后；#69 画布 Agent CLI 待 #65 reviewed 后产 agent-spec v2；#70 课后闲聊 blocked；#71 底层逻辑三课程补产 queued；#72 审美库工作法/工具卡 queued；#73 Agent 执行模式设计 queued；#74 AI 基本功 Feature 思维概念卡 + 两张草稿卡重写 queued；#75 AI 工具特性清单全网调研 queued"
+active_task: "#63 done；#64 已 reviewed 欧阳锋终审通过；#65 队列状态为 queued，产物未达审稿补充要求，需老顽童补全后重新提交；#66/#67 P1 待 #65 reviewed 后领取；#68 P2 待 #64/#65 reviewed 后；#69 画布 Agent CLI 待 #65 reviewed 后产 agent-spec v2；#70 课后闲聊 blocked；#71 底层逻辑三课程补产 queued；#72 审美库工作法/工具卡 queued；#73 Agent 执行模式设计 queued；#74 AI 基本功 Feature 思维概念卡 + 两张草稿卡重写 queued；#75 AI 工具特性清单全网调研 queued"
 blockers:
   - "#60 queue_transition 修复（2026-07-04）：欧阳锋重审通过；7/7 tests passed；#60 仍为 queued，需黄药师运行 `queue_transition.py complete`"
   - "#59 Agent Prompt 编译器（2026-07-04）：欧阳锋终审通过；产生 2 项微债务，已由王语嫣开 #62 跟进"
   - "#62 Agent Prompt 设计规范微债务（2026-07-04）：已入队，assignee 黄药师；P2"
   - "#63 一行双三角第二批案例补产（2026-07-04）：已 reviewed，欧阳锋终审通过"
-  - "#64 Truman 飞书 To slide PPT 迭代案例卡（2026-07-04）：status pending_review，reviewer 欧阳锋；P0；`kdo pre-submit` PASS；任务单编号已修正为 #64"
-  - "#65 Y模型 × 双三角协同工作法框架卡（2026-07-04）：status pending_review，reviewer 欧阳锋；P0；新增创造力定义/体系边界审稿要求；任务单编号已修正为 #65"
+  - "#64 Truman 飞书 To slide PPT 迭代案例卡（2026-07-04）：status reviewed，欧阳锋终审通过；审查报告已生成；任务单编号已修正为 #64"
+  - "#65 Y模型 × 双三角协同工作法框架卡（2026-07-04）：status queued（队列与任务单一致），产物终审 fail；需补全创造力 L0-L5 模型、体系/模型边界意识与 ROI 边界后重新提交；任务单编号已修正为 #65"
   - "#66 人在环 × 双三角关系卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；依赖 #65 reviewed 后启动，避免认知不一致；任务单编号已修正为 #66"
   - "#67 Y模型 引擎层操作法卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；依赖 #65 reviewed 后启动；新增 ROI 滥用/以偏概全陷阱；任务单编号已修正为 #67"
   - "#68 跨域审计（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P2；依赖 #64/#65 reviewed 后启动；任务单编号已修正为 #68"

@@ -142,4 +142,6 @@ review_date: 2026-07-04
 
 ## 执行动作
 
-- 已运行 `python 90_control/scripts/queue_transition.py review task_20260704_laowantong-y-model-dual-triangle-bridge-framework --verdict fail --reviewer 欧阳锋`，队列与任务单状态已自动退回 `queued`。
+- 尝试运行 `python 90_control/scripts/queue_transition.py review task_20260704_laowantong-y-model-dual-triangle-bridge-framework --verdict fail --reviewer 欧阳锋`。
+- **脚本返回错误**：任务当前在队列中的状态为 `queued`，不是 `pending_review`，因此无法执行 `review --verdict fail`。
+- **当前状态**：任务单 frontmatter 与队列均为 `queued`，与产物已完成的实际情况不符；按「禁止手动修改状态列」的规则，未强行绕过脚本 gate。建议老顽童先通过正常流程（`claim` → `complete`）将任务重新提交为 `pending_review` 后，欧阳锋再执行终审 fail；或在本轮补审中由有权限角色先将状态置为 `pending_review` 后走脚本。
