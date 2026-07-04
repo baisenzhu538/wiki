@@ -1,9 +1,11 @@
 ---
 id: task_20260704_laowantong-fix-staticization-yt-decision-y-model
 type: task
-status: queued
+status: reviewed
 assignee: 老顽童
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
+review_date: 2026-07-04
 priority: P0
 created_at: 2026-07-04
 updated_at: 2026-07-04

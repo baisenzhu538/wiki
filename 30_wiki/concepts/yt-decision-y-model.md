@@ -2,9 +2,10 @@
 id: yt-decision-y-model
 title: Y模型：一堂科学做事系统（KDO 根节点）
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
+review_date: 2026-07-04
 confidence: 0.92
 trust_level: high
 language: zh-CN
