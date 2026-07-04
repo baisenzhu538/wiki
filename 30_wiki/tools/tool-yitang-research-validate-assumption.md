@@ -222,9 +222,9 @@ Step 5: 决策（Go / No-Go / 需验证）
 | 低 | 数小时 | 影响有限 | 低 |
 
 ### 核心原则
-- src_unknown
-- src_unknown
-- src_unknown
+- 验证成本 << 试错成本：验证成本应该远小于试错成本，否则验证没有价值
+- 优先验证"极高"和"高"重要性的假设：这些假设错误会直接导致项目失败
+- 不要过度验证：验证成本超过试错成本的假设，不值得验证，应该直接行动
 
 ---
 
@@ -274,23 +274,23 @@ Step 5: 决策（Go / No-Go / 需验证）
 
 ## 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- [[tool-yitang-research-industry-scan]]：行业扫描，验证市场假设
+- [[tool-yitang-research-single-point-sniper]]：单点狙击，精准验证关键假设
+- [[framework-yitang-oscar-research]]：OSCAR 框架，系统化调研
+- [[tool-yitang-research-unit-model]]：单元模型，验证商业模式假设
+- [[yt-research-hypothesis-test]]：假设检验概念卡，理解理论基础
+- [[concept-yitang-research-objective]]：调研目标，明确要验证什么
+- [[case-yitang-sanjieke-benchmark-failure]]：三节课案例，假设验证失败教训
+- [[dk-yitang-research-ai-hallucination]]：AI 幻觉，避免验证中的认知偏差
 
 ---
 
 ## 来源与验证
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 一堂调研武器库培训口述记录：调研先行，在行动前杀死错误想法
+- 商业研究技能文档 SKILL.md：假设验证五步法和模板
+- 验证案例：三节课（假设验证失败）、Uber（假设验证成功）、Airbnb（假设验证成功）
+- 交叉验证：与行业扫描、单元模型、竞品分析交叉验证，确保假设验证全面
 
 ---
 
