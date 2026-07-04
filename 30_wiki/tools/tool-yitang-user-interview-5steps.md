@@ -18,11 +18,12 @@ difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 用户访谈怎么聊出真话
+- 用户画像怎么定义
+- 访谈提问技巧多问过去少问未来
+- 用户访谈建立信任方法
+- 访谈信息真伪判断方法
+
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt

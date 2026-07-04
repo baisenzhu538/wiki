@@ -2038,6 +2038,50 @@ source_refs:
 
 ---
 
+## Batch 28（2026-07-04）
+
+**处理域**：yitang
+
+**文件数**：2 个逆向数据分析和科技项目调研 tool 卡（已完成文件）
+
+**pre-submit**：**2/2 PASS** ✅
+
+### 处理文件清单
+
+1. `tool-yitang-reverse-data-analysis.md` — 逆向数据分析四法
+2. `tool-yitang-tech-project-research.md` — 科技型项目调研三层 10 大手段
+
+### 修复详情
+
+**Body `src_unknown` 修复（18 条）：**
+- ✅ `reverse-data-analysis.md`：分析方法 4 条 + 风险提示 3 条（共 7 条，DONE）
+- ✅ `tech-project-research.md`：query_triggers 6 条 + 核心难点 3 条 + 适用场景 3 条（共 12 条，DONE）
+
+**部分修复文件（留到 Batch 29）：**
+- `tool-yitang-supply-chain-research.md` — 方法论章节 14 条待修复
+- `tool-yitang-user-interview-5steps.md` — 方法论章节 9 条待修复
+- `tool-yitang-weapon-ai-tools.md` — 方法论章节 2 条待修复
+- `tool-yitang-weapon-anonymous-identity.md` — 方法论章节 2 条待修复
+
+### 验证结果
+
+- **kdo pre-submit**：2/2 PASS ✅
+- **全量 kdo lint**：1 ERROR / **1871** WARNING（↓0，部分修复未降低 WARNING）
+- ERROR 不变（framework 历史遗留）
+
+### 累计进展
+
+- 累计处理：**250 个**文件（28 批次）
+- WARNING：2624 → **1871**
+- 净减：**753**
+- pre-submit 通过率：**250/250 = 100%**
+- 剩余 placeholder：**0 个** ✅
+- 剩余 src_unknown：**约 27 条**（4 个文件，主要是方法论章节）
+
+*批次审查：待欧阳锋审核 · 2026-07-04*
+
+---
+
 ## Batch 27（2026-07-04）
 
 **处理域**：yitang

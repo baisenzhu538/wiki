@@ -18,12 +18,12 @@ difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 供应链情报怎么获取
+- 怎么从供应商拿竞对数据
+- 代工厂调研话术
+- 渠道商情报获取方法
+- 合作方口中的竞对数据
+- 供应商交叉验证技巧
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
@@ -44,9 +44,9 @@ related:
 
 三端调研的"合作方端"——产品左边的用户、产品右边的合作方（供应商、渠道商、服务商），是信息金矿。合作方出于商业利益，愿意分享信息：
 
-- src_unknown：想接更多单 → 愿意展示"我们服务过哪些大客户"
-- src_unknown
-- src_unknown
+- **供应商有动力分享**：想接更多单 → 愿意展示"我们服务过哪些大客户"、生产能力、工艺水平
+- **信息比财报更真实**：财报可以美化，但供应商的供货量、生产排期、原材料采购量骗不了人
+- **竞对不会对供应商保密**：竞对可以对你保密，但不会对每天打交道的供应商保密（供应商掌握着竞对的真实产量、成本结构和技术参数）
 
 ---
 
