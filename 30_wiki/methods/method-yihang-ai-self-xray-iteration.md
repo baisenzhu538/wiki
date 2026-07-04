@@ -2,9 +2,10 @@
 id: method-yihang-ai-self-xray-iteration
 title: AI 自我 X 光拆解：让 AI 在行动前主动暴露六要素盲区
 type: method
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-05
 confidence: 0.85
 trust_level: high
 language: zh-CN
