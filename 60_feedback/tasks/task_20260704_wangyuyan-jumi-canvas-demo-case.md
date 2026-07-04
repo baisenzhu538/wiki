@@ -1,12 +1,12 @@
 ---
 id: task_20260704_wangyuyan-jumi-canvas-demo-case
 type: task
-status: in_progress
+status: pending_review
 assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-04
-updated_at: '2026-07-04T17:34:18.933768+00:00'
+updated_at: '2026-07-04T17:35:23.964921+00:00'
 related:
 - '[[tool-yihang-dual-triangle-canvas]]'
 - '[[concept-yihang-dual-triangle-core]]'
