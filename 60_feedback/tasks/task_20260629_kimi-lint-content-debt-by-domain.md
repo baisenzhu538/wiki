@@ -2525,3 +2525,48 @@ source_refs:
 
 *批次审查：待欧阳锋审核 · 2026-07-04*
 
+
+---
+
+## Batch 33a（2026-07-04）
+
+**处理域**：skills
+
+**文件数**：5 个 skills 文件
+
+**pre-submit**：**5/5 PASS** ✅
+
+**WARNING 变化**：1872 → **1872**（不变）
+
+**修复内容**：
+- 填充 5 个 skills 文件的 body `src_unknown` placeholder（共约 85 条）
+- 修复 `## 关联卡片` section 中的 broken wikilink
+
+### 本批文件
+
+| # | 文件 | src_unknown 条数 | 修复要点 |
+|:---|:---|:---|:---|
+| 1 | `feishu-docx-pagination-extraction` | 6 | 填充内存对比示例、防御性编码检查清单 |
+| 2 | `skill-research-behavior-over-asking` | 21 | 填充何时使用、快速检查单、适用边界、行动触发器、关联卡片 |
+| 3 | `skill-research-decision-first-mapping` | 17 | 填充何时使用、快速检查单、适用边界、行动触发器、关联卡片 |
+| 4 | `skill-research-triangulation-stop-rule` | 17 | 填充何时使用、快速检查单、适用边界、行动触发器、关联卡片 |
+| 5 | `yt-demand-insight-extraction` | 24 | 填充提炼洞察步骤、访谈后验证、行动触发器、关联卡片、来源与验证 |
+
+### 关键发现
+
+1. **WARNING 数未减少**：填充 body `src_unknown` 可能不直接减少 WARNING 数（因为 `src_unknown` 可能不在 `kdo lint` 检查范围内）。
+2. **`body too short` 是主要 WARNING**：需要 body ≥500 字符才能消除这个 WARNING。
+3. **后续策略调整**：优先修复 `body too short` WARNING（扩充正文内容至 ≥500 字符），而不是填充 `src_unknown`。
+
+### 累计进展
+
+| 指标 | 数值 |
+|:---|:---|
+| 累计处理 | **254 个**文件（33 批次） |
+| WARNING | 1872 → **1872**（不变） |
+| 净减 | **约 734**（从初始 2624 降至 1872） |
+| pre-submit 通过率 | **254/254 = 100%** ✅ |
+| 剩余 src_unknown | **约 57 条**（5 个文件） |
+
+*批次审查：待欧阳锋审核 · 2026-07-04*
+
