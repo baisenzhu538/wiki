@@ -1,12 +1,12 @@
 ---
 id: task_20260704_wangyuyan-patch-71-concept-thin-cards
 type: task
-status: queued
-assignee: 老顽童
+status: in_progress
+assignee: claude
 reviewer: 欧阳锋
 priority: P2
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04T18:05:12.730547+00:00'
 source_task: task_20260704_laowantong-yitang-underlying-logic-case-method-cards
 related:
 - '[[yt-decision-y-model]]'
