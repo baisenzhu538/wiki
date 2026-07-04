@@ -43,9 +43,11 @@ def cmd_log(args):
     )
     conn.commit()
     conn.close()
-    # Auto-backup to git-tracked JSON after every log entry
+    # Auto-backup + export to desktop after every log entry
     import subprocess
     subprocess.run([sys.executable, str(WIKI / "90_control" / "scripts" / "backup-sqlite.py")],
+                   capture_output=True)
+    subprocess.run([sys.executable, str(WIKI / "kdo-tools" / "flywheel-export.py")],
                    capture_output=True)
     print(f"飞轮日志已记录: agent={args.agent} type={args.type}")
     return 0
