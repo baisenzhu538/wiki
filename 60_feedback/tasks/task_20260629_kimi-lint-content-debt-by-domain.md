@@ -1670,4 +1670,37 @@ source_refs:
 
 **累计**：170 文件，WARNING 2624→2068，净减 556
 
+---
+
+### Batch 18 — yitang 调研武器库/数据指数系列（第二批）
+
+**日期**：2026-07-04
+
+**处理范围**：10 个 yitang 域调研工具卡（门店侦察、卖点四步法、趋势数据、供应商访谈、股票数据、社媒监控、社媒采访、签约统计、股东穿透、保安情报）
+
+| # | 文件 | 类型 | pre-submit |
+|:---|:---|:---|:---|
+| 1 | tool-yitang-weapon-field-reconnaissance | Type A + src_unknown修复 | PASS ✅ |
+| 2 | tool-yitang-value-proposition-4step | 英文section卡（补 Purpose/Protocol/When NOT to Use + 修 Critique bold） | PASS ✅ |
+| 3 | tool-yitang-trend-data | Type A | PASS ✅ |
+| 4 | tool-yitang-supplier-interview | Type A | PASS ✅ |
+| 5 | tool-yitang-stock-data | Type A + src_unknown修复 | PASS ✅ |
+| 6 | tool-yitang-social-media-monitoring | Type A | PASS ✅ |
+| 7 | tool-yitang-social-media-interview | Type A | PASS ✅ |
+| 8 | tool-yitang-signup-statistics | Type A | PASS ✅ |
+| 9 | tool-yitang-shareholder-analysis | Type A + src_unknown修复 | PASS ✅ |
+| 10 | tool-yitang-security-guard-intel | Type A | PASS ✅ |
+
+**修复后全量 WARNING**：2068 → **2038**（↓30）
+
+**修复模式**：
+- 8 个 Type A 卡：填充「目的」「操作步骤」「不要用的场景」「质疑」四个 section
+- 3 个卡同时修复 src_unknown（field-reconnaissance 关键原则、stock-data 用法、shareholder-analysis 分析维度）
+- 1 个英文 section 卡（value-proposition-4step）：补 Purpose / Protocol/Procedure / When NOT to Use 三个英文 section + 修复 Critique 外部攻击者 bold 格式
+- 每条质疑含 2 位外部攻击者（`**Name Surname**` 格式）+ 关键术语
+
+**外部攻击者引用**：Meridian Wang、Horst Rittel、Nassim Taleb、Philip Tetlock、Fiona Scott Morton、Robert Eccles、Howard Schilit、Aswath Damodaran、Marshall McLuhan、Kate Starbird、Eszter Hargittai、Robert Kozinets、Avi Ruben、Carl Bergstrom、Lucian Bebchuk、Ronald Gilson、Robert Pape、Susan Fiske、Clayton Christensen、David Ogilvy、Daniel Kahneman、Richard Thaler
+
+**累计**：180 文件，WARNING 2624→2038，净减 586
+
 
