@@ -46,14 +46,14 @@ DeepseekV4Pro Thinking: Ultra 63% YOLO 56条反向链接 23个笔记属性 2,146
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 截图内容仅为 DeepseekV4Pro 的界面截图，具体假设是"截图能传达完整信息"——但 OCR 提取的碎片化文本是否足以理解原始场景？
+- "56条反向链接、23个笔记属性"这些数据的边界是什么？它们是某个 Obsidian 库的统计还是通用指标？
+- OCR 文本中"HowcanIhelpyoutoday?"存在连字问题，这如何影响对界面功能的理解？前提是 OCR pipeline 需要人工校对。
+- 截图中"YOLO 56条反向链接"的标注是否有反例——YOLO 在此语境下是目标检测算法还是其他含义？
+- 这张截图的来源和上下文完全缺失，如何判断它是否值得作为知识库素材？适用边界需要明确。
+- OCR 提取丢失了视觉结构信息（标题/正文/表格分块），这对理解截图布局的影响有多大？
+- "DeepseekV4Pro Thinking: Ultra 63%"——这个 63% 是置信度还是性能指标？具体假设不同会导致完全不同的解读。
+- 截图中的信息密度很低（主要是界面元素），作为知识卡片的值钱程度如何？是否应该直接归档而非入库？
 
 
 ## Critique

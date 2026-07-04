@@ -48,14 +48,14 @@ png` KimiCodeAPI同时兼容OpenAl和Anthropic两种协议。
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- KimiCodeAPI 同时兼容 OpenAI 和 Anthropic 两种协议，具体假设是"两种协议可以无缝切换"——但实际使用中是否存在协议差异导致的功能损失？
+- "BaseURL vs 完整端点"的适用边界：哪些工具只需 BaseURL，哪些需要完整端点？这个分类的前提是什么？
+- 截图中提到 ClaudeCode 只需填写 BaseURL，反例：是否存在某些 ClaudeCode 版本不支持自动拼接路径？
+- OCR 提取的内容非常简短（仅两段说明），作为知识卡片的值钱程度如何？是否需要补充更多上下文？
+- 截图来源和完整配置说明在哪里？前提是这张截图只是某篇教程的片段，需要找到原文。
+- 不同工具对地址配置的要求不同，但截图没有列出完整工具列表——如何确保配置指南的覆盖率边界？
+- KimiCodeAPI 的 API key 生命周期管理在截图中未提及，这是否是一个重要的遗漏？
+- OCR 文本丢失了截图中的视觉布局信息，这是否影响对配置流程的理解？前提是配置步骤有顺序依赖。
 
 
 ## Critique

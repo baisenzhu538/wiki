@@ -46,12 +46,12 @@ DeepseekV4Pro Thinking: Ultra 63% YOLO 56条反向链接 23个笔记属性 2,146
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 本截图内容与 ocr-ocr_screenshot2 高度相似（均为 DeepseekV4Pro 界面），具体假设是"不同截图来自不同时间点的同一会话"——是否应该合并？
+- "YOLO 56条反向链接"的标注含义的边界：这是 Obsidian 的反向链接统计还是其他工具的指标？
+- OCR 文本中"中 m"是误识，前提是需要对照原图确定真实内容——这是 OCR pipeline 的已知局限。
+- 截图信息密度低，作为知识卡片的价值反例：如果截图只是 AI 对话的普通截图，没有独特信息，是否应该归档而非入库？
+- domain 标注为 ai-saas，但截图内容更像是工具使用界面而非 SaaS 产品——这个分类的适用边界需要重新审视。
+- "DeepseekV4Pro Thinking: Ultra 63%"中的 63% 具体假设是什么？是模型置信度、性能得分还是进度百分比？
 
 
 ## Critique
