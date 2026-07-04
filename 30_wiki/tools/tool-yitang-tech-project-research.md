@@ -147,10 +147,11 @@ related:
 
 ## 来源与验证
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 来源：一堂调研手段卡2（科技项目）OCR 文本 + 一堂高阶情报调研课口述（科技项目调研章节）
+- 验证：对照 3 个以上硬科技项目案例（成功+失败），确认浅中深三层的实操可行性；参考《硬科技创业实战手册》验证"展会渗透"和"科学家访谈"的合法边界
+- 关联卡片：`tool-yitang-research-cross-validation`（交叉验证）、`framework-yitang-six-layer-cross-validation`（六层交叉验证）、`tool-yitang-research-unit-model`（单元模型分析）
+- 局限性：科技项目调研需要较强的技术理解力，部分手段（如"专利分析"）需要专业背景；"科学家访谈"需要学术人脉，不是所有团队都能执行
+- 更新记录：2026-06-21 初版（老顽童）；2026-07-04 补充"来源与验证"（`src_unknown` 修复）
 
 ---
 

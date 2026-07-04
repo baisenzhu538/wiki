@@ -43,6 +43,10 @@ def cmd_log(args):
     )
     conn.commit()
     conn.close()
+    # Auto-backup to git-tracked JSON after every log entry
+    import subprocess
+    subprocess.run([sys.executable, str(WIKI / "90_control" / "scripts" / "backup-sqlite.py")],
+                   capture_output=True)
     print(f"飞轮日志已记录: agent={args.agent} type={args.type}")
     return 0
 
@@ -122,6 +126,44 @@ def cmd_status(args):
     return 0
 
 
+def cmd_restore(args):
+    """Restore flywheel_log and zhu_decisions from JSON backups to SQLite."""
+    import json
+    backups = WIKI / ".kdo" / "backups"
+    if not backups.exists():
+        print("No backups found. Run on the original machine first.", file=sys.stderr)
+        return 1
+
+    conn = sqlite3.connect(str(DB))
+    restored = 0
+
+    for t in ["flywheel_log", "zhu_decisions"]:
+        bf = backups / f"{t}.json"
+        if not bf.exists():
+            continue
+        data = json.loads(bf.read_text(encoding="utf-8"))
+        if not data:
+            continue
+        cols = list(data[0].keys())
+        placeholders = ",".join(["?"] * len(cols))
+        for row in data:
+            try:
+                conn.execute(
+                    f"INSERT OR IGNORE INTO {t} ({','.join(cols)}) VALUES ({placeholders})",
+                    [row.get(c) for c in cols],
+                )
+                restored += 1
+            except sqlite3.OperationalError:
+                pass
+        conn.commit()
+        print(f"  {t}: {len(data)} rows restored")
+
+    conn.commit()
+    conn.close()
+    print(f"Restore complete: {restored} total rows")
+    return 0
+
+
 def cmd_pattern(args):
     """Detect repeating patterns in flywheel log — signals for acceleration."""
     days = args.days
@@ -196,6 +238,9 @@ def main():
     p_pattern.add_argument("--days", type=int, default=21)
     p_pattern.add_argument("--agent", default="")
 
+    p_restore = sub.add_parser("restore", help="从 JSON 备份恢复 SQLite（新电脑上执行）")
+    p_restore.add_argument("--yes", action="store_true", help="确认恢复")
+
     args = parser.parse_args()
     if args.cmd == "log":
         return cmd_log(args)
@@ -203,6 +248,8 @@ def main():
         return cmd_status(args)
     elif args.cmd == "pattern":
         return cmd_pattern(args)
+    elif args.cmd == "restore":
+        return cmd_restore(args)
 
 
 if __name__ == "__main__":

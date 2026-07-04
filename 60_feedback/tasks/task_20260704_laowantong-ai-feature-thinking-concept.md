@@ -37,6 +37,7 @@ related:
 - `00_inbox/AI-study/一堂-AI学习-AI工具应用AMA口述.txt` 行 154-192、行 450-454、行 902、行 2742-2748、行 2778-2784
 - `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`（Truman 自用的 AI FeatureSet 四层结构）
 - 王语嫣入口标注：`60_feedback/annotations/annotation-yihang-ai-feature-thinking.md`
+- **王语嫣产出的概念卡骨架**：`60_feedback/annotations/concept-yihang-ai-feature-thinking-skeleton.md`（老顽童按此骨架转正式卡）
 - 王语嫣完整深读报告：`60_feedback/annotations/annotation-yihang-dual-triangle-master.md` 第 3.6 节（已更新）
 - 现有草稿卡：`30_wiki/tools/tool-Truman-Feature特性层训练法.md`、`30_wiki/tools/tool-Truman-AI能力分层学习路径.md`
 

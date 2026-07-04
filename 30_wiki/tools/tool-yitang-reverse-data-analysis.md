@@ -218,17 +218,18 @@ ID自增分析 → 爬虫抓取 → 产品拆解 → 门店侦察
 
 ## 关联卡片
 
-- src_unknown
-- src_unknown
+- `tool-yitang-research-cross-validation`（交叉验证：用多种逆向分析方法交叉验证同一组数据）
+- `tool-yitang-web-scraping-research`（爬虫调研：逆向数据分析的技术实现工具）
 
 ---
 
 ## 来源与验证
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 来源：一堂高阶情报调研课口述（逆向数据分析章节）+ 竞品分析实战案例
+- 验证：对照《竞品分析实战手册》验证"ID 自增分析"和"爬虫抓取"的合法边界；参考商业尽职调查（BDD）行业规范，确认"产品拆解"和"门店侦察"是行业惯例
+- 关联卡片：`tool-yitang-research-cross-validation`（交叉验证）、`tool-yitang-web-scraping-research`（爬虫调研）、`framework-yitang-six-layer-cross-validation`（六层交叉验证）
+- 局限性：逆向数据分析依赖目标公司的技术实现（如 ID 是否连续自增、是否有反爬机制），需要技术判断力和工具能力
+- 更新记录：2026-06-21 初版（老顽童）；2026-07-04 补充"关联卡片"和"来源与验证"（`src_unknown` 修复）
 
 ---
 

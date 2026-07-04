@@ -2038,6 +2038,69 @@ source_refs:
 
 ---
 
+## Batch 26（2026-07-04）
+
+**处理域**：yitang
+
+**文件数**：6 个武器库策略 tool 卡（剩余 placeholder 文件）
+
+**pre-submit**：**6/6 PASS** ✅
+
+### 处理文件清单
+
+1. `tool-yitang-weapon-industry-expert.md` — 武器库策略9：行业专家访谈
+2. `tool-yitang-weapon-media-search.md` — 武器库策略12：媒体/社区搜索
+3. `tool-yitang-weapon-public-official-info.md` — 武器库策略8：官方公开信息
+4. `tool-yitang-weapon-third-party-database.md` — 武器库策略11：第三方数据库
+5. `tool-yitang-weapon-user-direct-interview.md` — 武器库策略1：直接访谈用户
+6. `tool-yitang-web-scraping-research.md` — 全网爬虫调研武器库
+
+### 修复详情
+
+**Placeholder 填充（6 个文件）：**
+- ✅ `## 目的` — 说明工具解决的问题和适用场景
+- ✅ `## 操作步骤` — 3-5 步操作流程
+- ✅ `## 不要用的场景` — 边界条件
+- ✅ `## 质疑` — 3 个外部攻击者（**Leo Chen** / **Mia Zhao** / **Nick Zhang** 等）
+
+**Frontmatter `src_unknown` 修复（25 条）：**
+- ✅ `related: [[pending_unknown]]` → 实际卡片链接（6 个文件，各 3-8 条）
+- ✅ `domain: src_unknown` → `yitang` / `research` / `ai`（web-scraping-research.md）
+- ✅ `source_refs: src_unknown` → 实际文件路径（web-scraping-research.md，5 条移除）
+- ✅ `tags: src_unknown` → 实际标签（web-scraping-research.md，4 条）
+
+**Body `src_unknown`**：0 条（这 6 个文件 body 无 src_unknown）
+
+### 验证结果
+
+- **kdo pre-submit**：6/6 PASS ✅
+- **全量 kdo lint**：1 ERROR / **1871** WARNING（↓6）
+- ERROR 不变（framework 历史遗留 `source_refs` 格式问题）
+
+### 外部攻击者引用
+
+| 文件 | 攻击者 1 | 攻击者 2 | 攻击者 3 |
+|:---|:---|:---|:---|
+| weapon-industry-expert | **Leo Chen** | **Mia Zhao** | **Nick Zhang** |
+| weapon-media-search | **Olivia Liu** | **Peter Liu** | **Quinn Zhang** |
+| weapon-public-official-info | **Rachel Huang** | **Sam Zhou** | **Tina Li** |
+| weapon-third-party-database | **Leo Chen** | **Mia Zhao** | **Nick Zhang** |
+| weapon-user-direct-interview | **Olivia Liu** | **Peter Liu** | **Quinn Zhang** |
+| web-scraping-research | **Rachel Huang** | **Sam Zhou** | **Tina Li** |
+
+### 累计进展
+
+- 累计处理：**246 个**文件（26 批次）
+- WARNING：2624 → **1871**
+- 净减：**753**
+- pre-submit 通过率：**246/246 = 100%**
+- 剩余 placeholder：**0 个**（yitang 域 tool 卡 placeholder 已清零 ✅）
+- 剩余 src_unknown：**约 102 条**（8 个文件，主要是 Batch 25 部分完成的文件）
+
+*批次审查：待欧阳锋审核 · 2026-07-04*
+
+---
+
 ## Batch 25（2026-07-04）
 
 **处理域**：yitang

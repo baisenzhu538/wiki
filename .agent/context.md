@@ -4,7 +4,7 @@ updated_at: 2026-07-04T18:30:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#63 done；#64/#65 老顽童(Kimi) 生产中；#66/#67 P1 待 #65 reviewed 后领取；#68 P2 待 #64/#65 reviewed 后；#69 画布 Agent CLI 待 #65 reviewed 后产 agent-spec v2；#70 课后闲聊 blocked；#71 底层逻辑三课程补产 queued（入口标注已产出）；#72 审美库工作法/工具卡 queued（入口标注已产出）；#73 Agent 执行模式设计 queued（Phase 1 设计骨架已产出）；#74 AI 基本功 Feature 思维概念卡 queued（入口标注已产出）；#75 AI 工具特性清单全网调研 queued（王语嫣负责）"
+active_task: "#63 done；#64/#65 老顽童(Kimi) 生产中；#66/#67 P1 待 #65 reviewed 后领取；#68 P2 待 #64/#65 reviewed 后；#69 画布 Agent CLI 待 #65 reviewed 后产 agent-spec v2；#70 课后闲聊 blocked；#71 底层逻辑三课程补产 queued；#72 审美库工作法/工具卡 queued；#73 Agent 执行模式设计 queued；#74 AI 基本功 Feature 思维概念卡 + 两张草稿卡重写 queued；#75 AI 工具特性清单全网调研 queued"
 blockers:
   - "#60 queue_transition 修复（2026-07-04）：欧阳锋重审通过；7/7 tests passed；#60 仍为 queued，需黄药师运行 `queue_transition.py complete`"
   - "#59 Agent Prompt 编译器（2026-07-04）：欧阳锋终审通过；产生 2 项微债务，已由王语嫣开 #62 跟进"
@@ -20,7 +20,7 @@ blockers:
   - "#71 底层逻辑三课程补产（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；P0 新增 `concept-yitang-model-system-boundary` 回应 ROI/体系边界；P0 建议 #65 reviewed 后启动；P1/P2 parking 直到王语嫣再次评估"
   - "#72 审美库工作法/工具卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；工具原型已就位，可与 #64/#65 并行领取，优先回应用户批评"
   - "#73 Agent 卡片/Skill 执行模式设计（2026-07-04）：queued，assignee 黄药师，reviewer 欧阳锋；P1；分 Phase 交付：Phase 1 设计文档+框架卡可立即启动；Phase 2 原型依赖 #72 工具卡和 #59 编译器；Agent 必须能判断任务类型并声明工具边界"
-  - "#74 AI 基本功 Feature 思维概念卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；直接回应用户批评；入口标注 `annotation-yihang-ai-feature-thinking.md` 已产出；建议 #65 reviewed 后校准"
+  - "#74 AI 基本功 Feature 思维概念卡 + 两张草稿卡重写（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；直接回应用户批评；新增 concept 卡 + 重写 `tool-Truman-Feature特性层训练法` 和 `tool-Truman-AI能力分层学习路径`；素材含 AI上手第一课 AMA 和 Truman 自用 FeatureSet"
   - "#75 AI 工具特性清单全网调研（2026-07-04）：queued，assignee 王语嫣，reviewer 欧阳锋；P1；回应用户追问；入口标注 `annotation-ai-feature-inventory-research.md` 已产出；需 web research 公开领域 + 访谈黄药师/老顽童梳理 Hermes/龙虾特性"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
 
