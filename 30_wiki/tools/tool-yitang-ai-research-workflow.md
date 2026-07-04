@@ -23,12 +23,12 @@ difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- AI调研工作流
+- AI幻觉问题
+- 深度搜索工具
+- AI辅助调研
+- 人机协作调研
+- 多轮迭代搜索
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
@@ -213,9 +213,10 @@ L4: 系统性深度调研 — 人类导演 + AI执行团队，多轮迭代
 
 ## 来源与验证
 
-- src_unknown
-- src_unknown
-- src_unknown三个硬伤分析：`一堂-调研武器库培训-口述.txt`（幻觉、浅尝辄止、结果不一致）
+- 一堂-调研武器库培训-口述.txt — Truman 口述 AI 调研三大硬伤和四层深度
+- 一堂-高阶情报调研课-口述.txt — 情报调研十大假设框架
+- 提升AI调研能力的10条关键假设_vlm_desc.md — 十大假设视觉描述
+- 三个硬伤分析：幻觉、浅尝辄止、结果不一致（口述稿原文）
 
 ---
 

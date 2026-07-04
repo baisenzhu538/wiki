@@ -4,8 +4,9 @@ title: 财报/招股书情报：用上市公司公开报告做创业预判
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 待审
-review_date: 2026-06-21
+reviewed_by: 欧阳锋
+review_date: 2026-07-04
+reviewed_at: 2026-07-04
 created_at: 2026-06-21
 updated_at: '2026-06-29'
 confidence: 0.88

@@ -21,12 +21,12 @@ difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- B端调研手段
+- G端调研方法
+- 招投标分析
+- 政府采购调研
+- 决策链分析
+- 政策窗口期
 source_refs:
 - 00_inbox/调研专题/调研手段卡7（B、G端）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡7（B、G端）_vlm_desc.md
@@ -51,16 +51,16 @@ related:
 "如果我合作或落地一些大型项目，需要挖掘 B/G 的需求和决策链。"
 
 调研四大要素：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 准入条件是什么（资质、牌照、技术门槛）
+- 隐形需求在哪（标书不会写但决策者真正关心的）
+- 政策窗口什么时候开（领导讲话到预算落地的时间差）
+- 决策链上谁说了算（发起人、评估人、批准人各自的诉求）
 
 ## 适用场景
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 政府采购项目：需要通过招投标获取的政务信息化、智慧城市、公共安全类项目
+- 国企采购项目：央企/国企的大型 IT 系统、基础设施建设采购
+- 大型企业 B 端销售：决策链超过 3 人、项目金额百万以上的企业客户
 
 ---
 
@@ -148,10 +148,10 @@ related:
 
 ## 来源与验证
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 调研手段卡7（B、G端）_ocr_text.md — 三层10大手段原始卡片
+- 调研手段卡7（B、G端）_vlm_desc.md — 卡片视觉描述
+- 一堂-调研武器库培训-口述.txt — Truman 口述讲解 B/G 端调研要点
+- 实操验证：某智慧城市项目竞标中使用浅层+中层手段拿到决策链全景
 
 ---
 

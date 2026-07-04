@@ -18,10 +18,10 @@ difficulty: basic
 estimated_tokens: 1500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 对标公司选择
+- 上市公司研究
+- 竞品筛选方法
+- 加法减法三原则
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
@@ -81,7 +81,7 @@ related:
 
 ## 来源
 
-- src_unknown
+- 一堂-上市公司报告解读-口述.txt — Truman 口述对标公司选择三步法
 
 ---
 

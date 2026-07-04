@@ -6,7 +6,8 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-- src_unknown
+- yitang
+- research
 source_refs:
 - 30_wiki/frameworks/framework-yitang-18-strategy-cards.md
 - 30_wiki/concepts/yt-research-osl-framework.md
