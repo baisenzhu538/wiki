@@ -1,14 +1,25 @@
 ---
-
-
+id: truman-perspective-skill
+title: Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现
+type: concept
+domain:
+- ai-collaboration
+- yitang
+status: enriched
+source_refs:
+- 10_raw/sources/src_unknown-truman-perspective-skill.md
+created_at: '2026-06-20'
+updated_at: '2026-07-04'
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
 related:
   - "[[business-research-skill-oscar-13-weapon-system]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
-source_refs:
-- pending_archive: src_unknown
 ---
 
 # Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现
@@ -155,10 +166,10 @@ Step 3: Truman式回答（基于事实 + 心智模型 + 表达DNA）
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 人格模拟的边界在哪里——什么场景下 Truman 视角会导致误导性建议？
+- 6 Agent 调研的具体假设：是否覆盖了 Truman 思维演变的全部关键转折点？反例：未覆盖的早期经历是否影响模型完整性？
+- 表达 DNA 的可迁移性前提——非母语使用者能否有效调用这个 Skill？
+- 5 个心智模型之间的优先级关系——在不同决策场景下，哪个模型应该优先调用？
 
 ## Output Opportunities
 

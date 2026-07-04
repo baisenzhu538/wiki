@@ -50,14 +50,14 @@ volcengine.
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 6 种 prompt archetype 中，哪些在中文场景下需要调整具体假设？
+- Coze 工作流的三阶段确认协议在边界情况下（用户沉默、部分修改）如何处理？
+- GEO 医疗内容适配的前提条件是什么——是否需要领域专家审核？
+- "善用佳软"精确匹配框架的反例：什么场景下工具匹配反而不如自由选择？
+- 超级角色选角的适用边界——多轮对话中角色一致性如何保证？
+- 客服 AI 的关键假设：用户意图分类的准确率达到多少才可用？
+- 提示词模式选择的决策树前提——是否假设用户已具备基本的 prompt engineering 知识？
+- 工具层策略与其他 5 种模式的关联：是否存在互斥场景？
 
 ## Output Opportunities
 
