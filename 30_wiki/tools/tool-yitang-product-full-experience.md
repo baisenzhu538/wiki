@@ -123,32 +123,32 @@ related:
 ## 产品体验报告
 
 ### 产品信息
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 产品名称：[填写产品名称]
+- 体验版本：[填写体验的版本/套餐]
+- 体验时长：[填写体验时长]
+- 体验设备：[填写体验设备/浏览器]
 
 ### 注册体验
-- src_unknown
-- src_unknown
+- 注册流程评分（1-5 分）：[填写]
+- 关键发现：[填写]
 
 ### 核心功能体验
-- src_unknown
-- src_unknown
+- 核心功能评分（1-5 分）：[填写]
+- 关键发现：[填写]
 
 ### 边缘功能体验
-- src_unknown
-- src_unknown
+- 边缘功能评分（1-5 分）：[填写]
+- 关键发现：[填写]
 
 ### 服务体验
-- src_unknown
-- src_unknown
+- 客服响应评分（1-5 分）：[填写]
+- 关键发现：[填写]
 
 ### 整体评估
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 功能完整性评分（1-5 分）：[填写]
+- 用户体验评分（1-5 分）：[填写]
+- 稳定性评分（1-5 分）：[填写]
+- 创新性评分（1-5 分）：[填写]
 ```
 
 ---
@@ -199,19 +199,19 @@ related:
 
 ## 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- tool-yitang-research-competitive-quadrant（竞品象限：用二维矩阵可视化竞品定位和自己的差异化机会）
+- tool-yitang-research-single-point-sniper（单点狙击：聚焦一个竞品做深完整体验）
+- tool-yitang-research-follow-map（跟进地图：把竞品体验发现变成可执行的产品优化清单）
+- tool-yitang-hardware-product-disassembly（硬件产品拆解：实体产品的完整体验方法补充）
 
 ---
 
 ## 来源与验证
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 一堂-调研武器库培训-口述.txt（完整体验产品：从用户视角理解产品全貌方法论）
+- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md（商业调研技能完整方法论，含产品体验五步法）
+- 实战关键认知：体验报告必须在体验过程中记录（截图+即时感受），事后凭记忆写报告准确度下降 50% 以上
+- 跨产品交叉验证：同一用户画像下，不同产品的体验差异揭示了"产品定位"而非"用户体验"的差异
 
 ---
 
