@@ -92,13 +92,40 @@ def interactive_run():
         canvas[field] = answer
         print()
 
+    # Confidence labeling
+    labeled = {}
+    risks = []
+    for field, answer in canvas.items():
+        ans = answer.strip()
+        if ans in ("", "不知道", "待探索"):
+            label = "[空白]"
+            risks.append(field)
+        elif any(w in ans for w in ("可能", "大概", "也许", "不确定", "应该")):
+            label = "[假设]"
+            risks.append(field)
+        else:
+            label = "[确认]"
+        labeled[field] = (ans, label)
+
     # Output canvas
     print("═" * 60)
     print(f"双三角画布：{task_name}")
     print("═" * 60)
     for field, _ in CANVAS_FIELDS:
-        print(f"\n【{field}】")
-        print(f"  {canvas[field]}")
+        ans, label = labeled[field]
+        print(f"\n【{field}】 {label}")
+        print(f"  {ans}")
+
+    # Risk summary
+    print(f"\n── 风险摘要 ——")
+    blanks = [f for f in risks if labeled[f][1] == "[空白]"]
+    assumes = [f for f in risks if labeled[f][1] == "[假设]"]
+    if blanks:
+        print(f"  🔴 空白（高风险）：{', '.join(blanks)} — 需要立即补全")
+    if assumes:
+        print(f"  🟡 假设（需验证）：{', '.join(assumes)} — 需要事实验证")
+    if not blanks and not assumes:
+        print(f"  🟢 六要素全部确认 — 风险可控")
 
     print(f"\n── 画布填充完成 ——")
     print(f"下次迭代时，对比这次的内容看哪些变了。")
