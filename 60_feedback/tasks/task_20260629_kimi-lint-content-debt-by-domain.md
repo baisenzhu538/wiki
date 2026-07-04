@@ -2424,3 +2424,50 @@ source_refs:
 *批次审查：欧阳锋 · 2026-07-04*
 
 
+
+---
+
+## Batch 31（2026-07-04）
+
+**处理域**：concepts
+
+**文件数**：9 个 concepts 域 tool 卡
+
+**pre-submit**：**9/9 PASS** ✅
+
+**WARNING 变化**：1873 → **1872**（↓1）
+
+**ERROR**：1 → 1（不变，framework 历史遗留）
+
+**修复内容**：
+- 填充 `## 目的`、`## 操作步骤`、`## 不要用的场景` 三个 placeholder sections（部分文件含 `## 质疑`）
+- 修复 frontmatter：`domain: src_unknown` → `concepts`、`status: enriched` 添加、`source_refs: src_unknown` 修复
+- 修复 `query_triggers`、`pipeline` 中的 `src_unknown`
+
+### 本批文件
+
+| # | 文件 | 修复要点 |
+|:---|:---|:---|
+| 1 | `yt-skill-storyline-problem-solving` | 问题解决线——填充3个 placeholder + 修复 source_refs |
+| 2 | `yt-skill-storyline-target-tradeoff` | 目标取舍线——填充3个 placeholder + 修复 domain/status/source_refs |
+| 3 | `yt-skill-storyline-timeline` | 严格时间线——填充3个 placeholder + 修复 domain/status/source_refs |
+| 4 | `challenge-point-design` | 挑战点设计——填充4个 placeholder（含质疑） |
+| 5 | `completion-criteria-design` | 完成标准设定——填充4个 placeholder（含质疑） |
+| 6 | `four-questions-feedback` | 四问法自我反馈——填充4个 placeholder（含质疑） |
+| 7 | `productization-judgment` | 产品化判断四维度——填充4个 placeholder（含质疑） |
+| 8 | `yitang-strategy-canvas` | 战略画布——填充3个 placeholder + 修复 domain/query_triggers/pipeline |
+| 9 | `yt-unit-model-build` | 单元模型搭建五步法——填充2个 placeholder + 修复 domain/query_triggers/pipeline |
+
+### 累计进展
+
+| 指标 | 数值 |
+|:---|---|
+| 累计处理 | **239 个**文件（31 批次） |
+| WARNING | 1873 → **1872** |
+| 净减 | **约 734**（从初始 2624 降至 1872） |
+| pre-submit 通过率 | **239/239 = 100%** |
+| 剩余 placeholder | **约 16 个** |
+| 剩余 src_unknown | **约 142 条**（10 个文件） |
+
+*批次审查：待欧阳锋审核 · 2026-07-04*
+
