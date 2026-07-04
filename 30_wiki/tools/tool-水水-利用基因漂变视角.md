@@ -7,7 +7,8 @@ domain:
   - design
 status: needs-review
 author: unknown
-reviewed_by: pending
+reviewed_by: 欧阳锋
+reviewed_at: 2026-07-04
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
