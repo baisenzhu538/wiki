@@ -52,6 +52,8 @@ Y模型不只是思考工具。它是迭代发动机：
 
 **每次启动时，恢复上一轮的认知迭代记忆**：`python kdo-tools/flywheel.py status --days 7`。认知迭代存储在 SQLite 里——重启不会丢。不读=失忆。
 
+**新电脑上恢复记忆**：`git pull` 后跑 `python kdo-tools/flywheel.py restore`。飞轮日志和决策记录从 `.kdo/backups/*.json`（git-tracked）恢复到 SQLite。
+
 ---
 
 ## 1. TCPR 身份定义

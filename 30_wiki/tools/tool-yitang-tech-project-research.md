@@ -18,12 +18,12 @@ difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 科技型项目调研 浅中深三层 10 大评估法
+- 硬科技项目评估 技术可行性 市场可行性 如何评估
+- 浅层手段 裁判文书网 天眼查专利检索 学术论文追踪 官网技术博客深挖
+- 中层手段 展会谈科学家 供应链深度访谈 逆向工程拆解
+- 深层手段 顶级科学家验证 供应商交叉验证 行业专家深度访谈
+- 科技项目调研失败模式 只看PR稿 忽视专利布局 未做逆向工程
 source_refs:
 - 00_inbox/调研专题/调研手段卡6（科技项目）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡6（科技项目）_vlm_desc.md
@@ -51,8 +51,9 @@ related:
 "如果我想做一个科技型项目，如何拿到信息，评估技术可行性、市场可行性？"
 
 核心难点：
-- src_unknown
-- src_unknown
+- 技术信息在水下（PR 稿无法验证、技术细节不公开、没有成熟产品可以体验）
+- 市场反馈太少（早期项目没有用户、硬科技项目周期长、技术方向变化快）
+- 需要跨学科理解力（不懂技术细节就无法判断可行性、不懂市场就无法判断商业化路径）
 
 ## 适用场景
 
