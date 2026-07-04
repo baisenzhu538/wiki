@@ -90,3 +90,23 @@ How to Become a Yitang Dual Triangle Master in 10 Years
 - 底部提升路径箭头带（开始认知提升 → 开始实操提升 → 开始体系复利）与上方三阶段是否一一对应，需确认
 - 图中"一堂"与"Yitang Dual Triangle"是否属专有品牌术语，建议标注
 - "高频口喷"用词较口语化，可能存在 OCR 风险，需复核
+
+
+## 关键证据
+
+待补充（src_unknown）
+
+
+## 可迁移场景
+
+待补充（src_unknown）
+
+
+## 教训
+
+待补充（src_unknown）
+
+
+## 失败模式
+
+待补充（src_unknown）

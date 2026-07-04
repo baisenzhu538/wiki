@@ -110,3 +110,23 @@ Agent工具（TRAE）
   - 右下角二维码内容未识别
   - "二堂"角标含义待确认（可能为系列编号）
 - 疑似专业术语需确认：Truman微观体感、Mr. Ranedeer、TRAE、Human3.0
+
+
+## 关键证据
+
+待补充（src_unknown）
+
+
+## 可迁移场景
+
+待补充（src_unknown）
+
+
+## 教训
+
+待补充（src_unknown）
+
+
+## 失败模式
+
+待补充（src_unknown）

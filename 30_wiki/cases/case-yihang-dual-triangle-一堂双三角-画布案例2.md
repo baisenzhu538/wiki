@@ -66,3 +66,23 @@ reviewed_by: pending
 - 疑似方法论关键词：MECE 分类、SABC 分级、用户心智模型
 - 疑似 AI 工具名：即梦、banana pro、豆包
 - 不清晰或可能OCR错误：英文副标题中的"Construction"需确认是否原文如此；底部"提醒2"中"排优先级"是否原为"排好优先级"
+
+
+## 关键证据
+
+待补充（src_unknown）
+
+
+## 可迁移场景
+
+待补充（src_unknown）
+
+
+## 教训
+
+待补充（src_unknown）
+
+
+## 失败模式
+
+待补充（src_unknown）

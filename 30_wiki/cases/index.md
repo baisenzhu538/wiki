@@ -73,3 +73,23 @@ kdo case list --query "Agent" → 按关键词搜索
 ```
 打开 index.md → 按领域找到对应案例 → 阅读完整案例卡
 ```
+
+
+## 关键证据
+
+待补充（src_unknown）
+
+
+## 可迁移场景
+
+待补充（src_unknown）
+
+
+## 教训
+
+待补充（src_unknown）
+
+
+## 失败模式
+
+待补充（src_unknown）

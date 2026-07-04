@@ -237,3 +237,23 @@ reviewed_by: pending
 
 ---
 *Tier 1 - 双三角核心框架解析*
+
+
+## 关键证据
+
+待补充（src_unknown）
+
+
+## 可迁移场景
+
+待补充（src_unknown）
+
+
+## 教训
+
+待补充（src_unknown）
+
+
+## 失败模式
+
+待补充（src_unknown）
