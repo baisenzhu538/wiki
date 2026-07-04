@@ -1,13 +1,13 @@
 ---
 id: task_20260704_laowantong-y-model-dual-triangle-bridge-framework
 type: task
-status: queued
-assignee: 老顽童
+status: pending_review
+assignee: kimi
 reviewer: 欧阳锋
 reviewed_by: pending
 priority: P0
 created_at: 2026-07-04
-updated_at: '2026-07-04T08:33:45.765966+00:00'
+updated_at: '2026-07-04T08:44:15.370247+00:00'
 source_task: null
 related:
 - '[[annotation-yihang-dual-triangle-master]]'
