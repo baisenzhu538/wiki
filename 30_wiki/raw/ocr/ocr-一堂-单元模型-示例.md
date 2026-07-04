@@ -48,7 +48,7 @@ related:
 
 ## Open Questions
 
-- src_unknown
+- 健身房示例中"收入摊入未来每个月"的具体假设是什么？如果会员退费率高于预期，这个模型会如何失效？其适用边界是否限于预付费制商业模式？
 
 ## Output Opportunities
 

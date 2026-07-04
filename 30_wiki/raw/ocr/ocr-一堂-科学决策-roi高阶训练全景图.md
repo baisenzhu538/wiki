@@ -62,8 +62,8 @@ YitangAdvancedROICompetencyTraining·PanoramicMap
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
+- "以为决策一次性就能想清楚"——在什么具体假设下多轮迭代比单次决策更有效？是否存在反例（如紧急决策中多轮迭代反而贻误时机）？
+- "好的复盘能无限进步"这一结论的边界在哪里——是否所有类型的决策都适合复盘？
 
 ## Output Opportunities
 
