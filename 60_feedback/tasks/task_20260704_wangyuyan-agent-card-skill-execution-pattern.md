@@ -2,9 +2,11 @@
 id: task_20260704_wangyuyan-agent-card-skill-execution-pattern
 title: Agent 基于 KDO 卡片/Skill 解决实际问题的执行模式设计
 type: task
-status: queued
+status: reviewed
 assignee: 黄药师
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
+review_date: 2026-07-04
 priority: P1
 created_at: 2026-07-04
 updated_at: 2026-07-04T19:25:00+00:00

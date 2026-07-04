@@ -107,6 +107,8 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260704_laowantong-ai-feature-thinking-concept | #74 AI 基本功 Feature 思维 concept + 2 tool 重写 | reviewed | 欧阳锋 | P1 | `60_feedback/tasks/task_20260704_laowantong-ai-feature-thinking-concept.md` | 2026-07-04 终审通过：3 案例 + FeatureSet 六层 + 9 类 Feature，🟡 related 不足 |
 | task_20260704_laowantong-aesthetic-library-method-tool-cards | #72 审美工作法 + 审美库工具 + case 3 张卡 | reviewed | 欧阳锋 | P1 | `60_feedback/tasks/task_20260704_laowantong-aesthetic-library-method-tool-cards.md` | 2026-07-04 终审通过：审美三边界约束 + 5161→244 数字密度 + 五子命令可执行 |
 | task_20260704_wangyuyan-patch-canvas-risk-judgment | #81 画布 Agent 风险判断输出 | reviewed | 欧阳锋 | P2 | `60_feedback/tasks/task_20260704_wangyuyan-patch-canvas-risk-judgment.md` | 2026-07-04 终审通过：[确认]/[假设]/[空白] 三级标注 + 风险摘要 + agent-spec 行为规则 |
+| task_20260704_wangyuyan-dual-triangle-canvas-agent-cli | #69 双三角画布 Agent CLI 交付 | reviewed | 欧阳锋 | P1 | `60_feedback/tasks/task_20260704_wangyuyan-dual-triangle-canvas-agent-cli.md` | 2026-07-04 终审通过：canvas-agent.py + agent-spec v2 多轮迭代交付（TCPR/风险判断），KDO Agent 化首个试点 |
+| task_20260704_wangyuyan-agent-card-skill-execution-pattern | #73 Agent 执行模式设计 Phase 1 | reviewed | 欧阳锋 | P1 | `60_feedback/tasks/task_20260704_wangyuyan-agent-card-skill-execution-pattern.md` | 2026-07-04 终审通过：design doc + framework 卡，三种执行模式+六步循环+工具边界声明；agent-solver.py Phase 2 依赖 #72/#59 |
 
 ---
 
