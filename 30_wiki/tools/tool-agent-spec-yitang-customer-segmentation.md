@@ -41,7 +41,13 @@ tcp_role: C
 tcp_default_mode: 咨询诊断（Consult）：基于画像与行为信号判断客户等级
 tcp_switch_trigger: 用户明确要求切换到教学/实践/研究模式；或缺少画像需转为教学输入；或用户要求直接产出可执行动作时转为实践模式
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：先帮你诊断客户分级，再给出跟进建议。
+os_sources:
+- 30_wiki/systems/system-yitang-Y-model-os.md
+- agents/agent-os.md
+domain_sources:
+- 30_wiki/tools/tool-yitang-customer-segmentation-4step.md
 ---
+
 # OPC 客户分级智能体 Agent Spec
 
 ## 一句话

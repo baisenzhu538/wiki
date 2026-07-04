@@ -20,15 +20,21 @@ source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-清单版画布.png
 - 00_inbox/人机协作双三角/一堂双三角-解释版画布.png
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[tool-yihang-dual-triangle-canvas]]"
-- "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
-- "[[method-dual-triangle-flywheel-engine]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[method-dual-triangle-flywheel-engine]]'
 aliases:
 - 画布填充 Agent
 - 双三角挖掘师
 - 九层深挖画布 Agent
+os_sources:
+- 30_wiki/systems/system-yitang-Y-model-os.md
+- agents/agent-os.md
+domain_sources:
+- 30_wiki/tools/agent-spec-dual-triangle-canvas-filler.md
 ---
+
 
 # 双三角画布填充 Agent（九层深挖版）
 

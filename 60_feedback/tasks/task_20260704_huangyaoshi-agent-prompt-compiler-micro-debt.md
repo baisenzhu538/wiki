@@ -116,3 +116,31 @@ related:
 
 - 双三角画布填充 Agent 已按新规范预留了 `os_sources` / `domain_sources` / `user_sources` 字段（当前为空），本任务可将其作为验证对象。
 - 不要修改编译器核心逻辑，只补设计规范和 frontmatter 标准。编译器若因字段缺失报错，优先改规范而不是改编译器。
+
+---
+
+## 黄药师完成报告（2026-07-04）
+
+### 做了什么
+
+1. **设计规范更新**：`agent-native-card-design.md` 新增「Agent Prompt 编译规范」章节，含编译流程、Source 字段规范、编译产物规范、编译器用法。
+
+2. **4 张试点卡 source 字段补全**：
+
+| 卡 | os_sources | domain_sources |
+|:---|:---|:---|
+| tool-opc-sales-dialogue-assistant | ✅ | ✅ 4张方法论卡 |
+| tool-agent-spec-yitang-Y-model-coach | ✅ | ✅ |
+| tool-agent-spec-yitang-customer-segmentation | ✅ | ✅ 用户分层四步法 |
+| agent-spec-dual-triangle-canvas-filler | ✅ | ✅ |
+
+### 验收
+
+- [x] agent-native-card-design.md 新增编译规范章节
+- [x] 4 张卡 source 字段补全
+- [x] 编译器可正确读取 source 字段
+- [x] 全库无新增 lint ERROR
+
+---
+
+*黄药师 2026-07-04*

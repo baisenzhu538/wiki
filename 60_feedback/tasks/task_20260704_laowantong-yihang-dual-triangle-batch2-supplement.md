@@ -2,15 +2,15 @@
 id: task_20260704_laowantong-yihang-dual-triangle-batch2-supplement
 title: 一行双三角第二批案例补产：天末/阿豪/花总/陈天 4 张 case 卡
 type: task
-status: queued
+status: in_progress
 author: 王语嫣
 reviewed_by: pending
 priority: P1
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04T03:12:40.759761+00:00'
 due_date: 2026-07-08
 owner: 老顽童
-assignee: 老顽童(Kimi)
+assignee: kimi
 domain:
 - yitang
 - ai-collaboration
@@ -21,9 +21,9 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-跨行业速解工业级难题_vlm.md
 - 00_inbox/人机协作双三角/_processed/陈天同学案例口述_page001_vlm.md
 related:
-- "[[plan_20260704_yihang_dual_triangle_batch2]]"
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-dual-triangle-flywheel-engine]]"
+- '[[plan_20260704_yihang_dual_triangle_batch2]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-dual-triangle-flywheel-engine]]'
 ---
 
 # 一行双三角第二批案例补产：天末 / 阿豪 / 花总 / 陈天 4 张 case 卡

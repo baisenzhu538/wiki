@@ -101,11 +101,11 @@ Generated: 2026-06-26T21:00:00+00:00
 
 - **Total**: 63
 - **Done**: 23
-- **In Progress**: 1 (#61 老顽童(Kimi) 已领取)
+- **In Progress**: 0
 - **Queued**: 3（详见 `production-queue.md` #60/#62/#63）
 - **Long-term / Paused**: 1（#28 lint 内容债，workbuddy 后台分批执行）
 - **Pending Review**: 0
-- **Review Done**: 53 (#50/#51/#52/#53/#54/#55/#57/#58/#59 reviewed)
+- **Review Done**: 54 (#50/#51/#52/#53/#54/#55/#57/#58/#59/#61 reviewed)
 
 > 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；✅ Batch 2-A/B/C 全部 reviewed：A 130 case + B 57 dk + C 90 source_refs 文件已完成，`kdo lint` 机械性 ERROR 清零；下一阶段正式进入补链阶段（Wave 6 诊断 + B1/B2/B3）。
 > **🆕 新增 #38**：《吾辈如神》素材经独立验证为 B 级，王语嫣做出价值判断：直接产出 3 张卡（认知卸载 / AI 使用杠铃策略 / 富足悖论），不试点、不批量；重点纠偏 BMW 85%、AGI 2029、AI 无法创造等数据/观点误读。
@@ -139,6 +139,8 @@ Generated: 2026-06-26T21:00:00+00:00
 > **🆕 新增 #62**：#59 Agent Prompt 编译器微债务；王语嫣已开任务单并入队；黄药师负责补全 `agent-native-card-design.md` 三层编译章节（OS/域/用户）与 source 字段规范（`os_sources`/`domain_sources`/`user_sources`/`compiled_at`/`compiler_version`）；至少补全 4 张试点 agent-spec 卡 frontmatter；P2。
 >
 > **🆕 新增 #63**：一行双三角第二批案例补产；用户指令「老顽童在王语嫣基础上再重做一次补充任务」；老顽童(Kimi) 负责基于第一批 14 张卡和 4 张占位卡，补产天末/阿豪/花总/陈天 4 张完整 case 卡；同时交叉检查第一批 14 张卡，反向修复实质性缺口；P1。
+>
+> **✅ #61 终审通过（2026-07-04）**：老顽童(Kimi) 产出的 7 张 companion case 卡通过欧阳锋终审，`queue_transition.py` 状态已更新为 `reviewed`；#60 queue_transition 修复正式解锁，但 #60 仍为 `queued` 状态，需黄药师先运行 `complete` 再由欧阳锋 review。
 
 ---
 

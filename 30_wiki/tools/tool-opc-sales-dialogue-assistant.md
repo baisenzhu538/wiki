@@ -49,7 +49,16 @@ related:
 - framework-yitang-jiefang-sixiang
 created_at: 2026-07-02
 updated_at: '2026-07-03'
+os_sources:
+- 30_wiki/systems/system-yitang-Y-model-os.md
+- agents/agent-os.md
+domain_sources:
+- 30_wiki/tools/tool-yitang-customer-segmentation-4step.md
+- 30_wiki/tools/tool-yitang-sales-process-decomposition.md
+- 30_wiki/tools/tool-yitang-value-proposition-4step.md
+- 30_wiki/tools/tool-yitang-sales-performance-management.md
 ---
+
 # OPC 销售对话助手智能体
 
 ## 一句话

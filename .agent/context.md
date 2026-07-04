@@ -4,16 +4,15 @@ updated_at: 2026-07-04T18:30:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#57/#58/#59/#60 已 reviewed（#60 待 #61 释放后正式状态变更）；#61 老顽童执行中；#62 黄药师微债务已入队；#63 老顽童一行双三角第二批案例补产已入队"
+active_task: "#57/#58/#59/#61 已 reviewed；#60 黄药师已完成待正式 complete；#62 黄药师微债务已入队；#63 老顽童一行双三角第二批案例补产已入队"
 blockers:
-  - "#60 queue_transition 修复（2026-07-04）：欧阳锋重审通过；7/7 tests passed；queue_transition.py 状态机因 #61 claimed 暂无法执行 review；待 #61 释放后正式更新为 reviewed"
+  - "#60 queue_transition 修复（2026-07-04）：欧阳锋重审通过；7/7 tests passed；#61 已释放，但 #60 仍为 queued 状态，需黄药师运行 `queue_transition.py complete` 后，欧阳锋才能正式 review"
   - "#59 Agent Prompt 编译器（2026-07-04）：欧阳锋终审通过；编译器代码通过，3 个试点编译产物 pre-submit PASS；产生 2 项微债务，已由王语嫣开 #62 跟进"
-  - "#61 #54 A 级候选投产（2026-07-04）：已入队，assignee 老顽童(Kimi)；产出 7 张 companion case 卡；P2，正在执行；阻塞 #60 正式 review"
   - "#62 Agent Prompt 设计规范微债务（2026-07-04）：已入队，assignee 黄药师；补充 agent-native-card-design.md 三层编译章节与 source 字段规范；P2"
   - "#63 一行双三角第二批案例补产（2026-07-04）：已入队，assignee 老顽童(Kimi)；基于王语嫣第一批 14 张卡和 4 张占位卡，补产天末/阿豪/花总/陈天 4 张 case 卡，并交叉检查第一批卡；P1"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
 
-next_session_hint: "下一步：① 老顽童优先收尾 #61 并提交；② #61 释放后同步将 #60 正式 review 为 reviewed；③ 黄药师按队列领取 #62；④ 老顽童 #61 完成后领取 #63；⑤ workbuddy 在空闲时分批处理 #28。"
+next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`，然后欧阳锋 review 为 reviewed；② 黄药师按队列领取 #62；③ 老顽童按队列领取 #63；④ workbuddy 在空闲时分批处理 #28。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

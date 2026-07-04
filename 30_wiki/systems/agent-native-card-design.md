@@ -637,3 +637,60 @@ Agent 的幻觉和不可执行问题，本质上是 Y模型三段失衡：
 | 更新 `framework-TCPR*` 两张卡，补充 Agent 身份协议视角 | 老顽童 |
 | 终审 | 欧阳锋 |
 | 工具链支持（lint 校验 tcp_role 字段） | 黄药师 |
+
+---
+
+## Agent Prompt 编译规范（2026-07-04 补充）
+
+> 由黄药师在 #59 Agent Prompt 编译器中实现，王语嫣确认规范。
+
+### 编译流程
+
+```
+agent-spec 卡 frontmatter 中的 source 字段
+        ↓
+  agent-prompt-compiler.py 读取并拼接
+        ↓
+  .agent/prompts/<agent-id>.md（含 frontmatter + 编译时间戳 + 来源 hash）
+        ↓
+  Claude Agent：CLAUDE.md 指向此文件
+  Kimi/Hermes：注入为 system prompt
+```
+
+### Source 字段规范
+
+所有 `tool-agent-spec` 和 `system-agent-spec` 类型卡片必须声明以下字段：
+
+| 字段 | 类型 | 必填 | 说明 |
+|:---|:---|:---|:---|
+| `os_sources` | list | ✅ | OS 层来源卡路径。默认值：`["30_wiki/systems/system-yitang-Y-model-os.md", "agents/agent-os.md"]` |
+| `domain_sources` | list | ✅ | 域层来源卡路径。至少包含本卡自身，可追加 framework/tool/case/dk 路径 |
+| `user_sources` | list | ❌ | 用户层来源路径。当前预留，未来指向 personal-os 文件 |
+
+### 编译产物规范
+
+编译后的 `.agent/prompts/<agent-id>.md` 必须包含：
+- YAML frontmatter（`id`, `type: compiled-prompt`, `compiled_at`, `estimated_tokens`, `os_sources`, `domain_sources`）
+- 元层内容（OS 文件的 body）
+- 域层内容（agent-spec 卡 body + domain_sources 指向的卡 body）
+- 用户层内容（如果 user_sources 非空）
+- 每段内容标注来源文件路径和内容 hash
+
+### 编译器
+
+`kdo-tools/agent-prompt-compiler.py`：读取 frontmatter source 字段 → 拼接 → 输出编译产物。
+
+用法：
+```bash
+python kdo-tools/agent-prompt-compiler.py <agent-id>          # 编译
+python kdo-tools/agent-prompt-compiler.py <agent-id> --dry-run # 预览
+```
+
+### 谁来做
+
+| 环节 | 角色 |
+|:---|:---|
+| 在 agent-spec 卡中补全 os_sources / domain_sources | 黄药师（#62） |
+| 编译器实现 | 黄药师（#59 已完成） |
+| 规范文档维护 | 王语嫣 |
+| 终审 | 欧阳锋 |

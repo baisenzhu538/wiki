@@ -13,7 +13,8 @@ domain:
 - decision-science
 - yitang
 - ai-collaboration
-source_context: 一堂底层逻辑域·Y模型课程（2026-07-03），黄药师提出 Agent 分层：Y模型 OS 是所有 Agent 共享底座，Coach 模式只作为可选入口
+source_context: 一堂底层逻辑域·Y模型课程（2026-07-03），黄药师提出 Agent 分层：Y模型 OS 是所有 Agent 共享底座，Coach
+  模式只作为可选入口
 source_refs:
 - 30_wiki/systems/system-yitang-Y-model-os.md
 - 30_wiki/concepts/yt-decision-y-model.md
@@ -34,7 +35,13 @@ related:
 - human-ai-collaboration-double-triangle
 created_at: 2026-07-03
 updated_at: '2026-07-03'
+os_sources:
+- 30_wiki/systems/system-yitang-Y-model-os.md
+- agents/agent-os.md
+domain_sources:
+- 30_wiki/tools/tool-agent-spec-yitang-Y-model-coach.md
 ---
+
 
 # Y模型 Coach 模式 Agent Spec
 

@@ -2,13 +2,13 @@
 id: task_20260704_laowantong-case-production-54-pilot-A-candidates
 title: '#54 试点 A 级候选投产：7 张 companion case 卡'
 type: task
-status: done
+status: reviewed
 priority: P2
 assignee: kimi
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋
 created_at: 2026-07-04
-updated_at: '2026-07-04'
+updated_at: '2026-07-04T03:12:16.227070+00:00'
 expected_outputs:
 - '7 张标准 case 卡，对应 #54 诊断报告中欧阳锋圈定的 A 级候选'
 - 每张 case 卡包含：背景、决策/行动、结果、可迁移洞察、来源引用
@@ -18,6 +18,7 @@ dependencies:
 - '#54 已 reviewed（已满足）'
 source_refs:
 - 60_feedback/diagnosis/diag_20260704_retroactive-case-scan-pilot.md
+review_date: '2026-07-04'
 ---
 
 # #54 试点 A 级候选投产：7 张 companion case 卡
