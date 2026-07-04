@@ -1,10 +1,10 @@
 ---
 updated: 2026-07-04
-updated_at: 2026-07-04T22:00:00+00:00
+updated_at: 2026-07-04T18:30:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#63 done；#64/#65 老顽童(Kimi) 生产中；#70 双三角课后闲聊洞察卡片化 blocked（等用户看完视频）；#66/#67 P1 待领取；#68 P2 待 #64/#65 后；#69 画布 Agent CLI 待 agent-spec v2"
+active_task: "#63 done；#64/#65 老顽童(Kimi) 生产中；#70 双三角课后闲聊洞察卡片化 blocked（等用户看完视频）；#66/#67 P1 待领取；#68 P2 待 #64/#65 后；#69 画布 Agent CLI 待 agent-spec v2；#71 底层逻辑三课程补产 queued（王语嫣补挖后追加）"
 blockers:
   - "#60 queue_transition 修复（2026-07-04）：欧阳锋重审通过；7/7 tests passed；#60 仍为 queued，需黄药师运行 `queue_transition.py complete`"
   - "#59 Agent Prompt 编译器（2026-07-04）：欧阳锋终审通过；产生 2 项微债务，已由王语嫣开 #62 跟进"
@@ -17,9 +17,10 @@ blockers:
   - "#68 跨域审计（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P2；#64/#65 reviewed 后启动"
   - "#69 双三角画布 Agent CLI 交付（2026-07-04）：queued，assignee 黄药师，reviewer 欧阳锋；P1；等 #64/#65 完成后老顽童产 agent-spec v2，王语嫣把关，黄药师再实现 CLI"
   - "#70 双三角课后闲聊洞察卡片化（2026-07-04）：blocked/on-hold，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；王语嫣已从口述 3500-5176 行提取 14 个高密度洞察并产出候选卡清单；等待用户看完完整视频后再启动，用户确认后 unlock"
+  - "#71 底层逻辑三课程补产（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；王语嫣补挖三课程口述稿后追加，产出 P0 12 张 + P1 13 张 + P2 6 张；不与 #51 重复；建议 #64/#65 完成后用最新 dual-triangle 理解校准"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
 
-next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`；② 老顽童完成 #64/#65 生产并提交欧阳锋终审；③ 老顽童可在 #64/#65 间隙领取 #66/#67（P1）；④ 老顽童在 #64/#65 reviewed 后启动 #68 审计；⑤ #70 课后闲聊卡片化等用户看完完整视频后再启动；⑥ 黄药师完成 #62 后等待 #69 agent-spec v2 到位再启动 CLI 实现；⑦ workbuddy 空闲处理 #28。"
+next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`；② 老顽童完成 #64/#65 生产并提交欧阳锋终审；③ 老顽童可在 #64/#65 间隙领取 #66/#67/#71（P1）；④ 老顽童在 #64/#65 reviewed 后启动 #68 审计；⑤ #70 课后闲聊卡片化等用户看完完整视频后再启动；⑥ 黄药师完成 #62 后等待 #69 agent-spec v2 到位再启动 CLI 实现；⑦ workbuddy 空闲处理 #28。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
