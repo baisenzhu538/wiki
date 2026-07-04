@@ -20,7 +20,8 @@ updated_at: '2026-06-29'
 pipeline:
 - src_unknown
 author: 月白
-reviewed_by: pending
+reviewed_by: 欧阳锋
+reviewed_at: '2026-07-04'
 confidence: 0.6
 trust_level: low
 related:

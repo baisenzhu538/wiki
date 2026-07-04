@@ -18,6 +18,9 @@ domain:
 source_refs:
 - C:/Users/Administrator/Desktop/老朱×洪七公_人机协作深度洞察.md
 - 00_inbox/人机协作双三角/_processed/洪七公_双三角深度理解.md
+- https://arxiv.org/abs/2506.12469
+- https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study
+- https://www.faros.ai/blog/harness-engineering
 related:
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[framework-yihang-dual-triangle-weapon-library]]"
@@ -43,11 +46,11 @@ aliases:
 
 三条独立主线支撑这一判断：
 
-| 主线 | 来源 | 核心洞察 |
-|:---|:---|:---|
-| **自主性分级** | Feng et al. (2025) | 五级自主性：操作者→协作者→顾问→审批者→观察者。自主性不是能力的必然结果，而是设计决策。 |
-| **人在环位置** | ApFramework (2026) | 三环模型：Human-in-the-Loop → Human-on-the-Loop → Human-out-of-the-Loop。人类角色演进：执行者→审查者→协作者→治理者。 |
-| **Harness Engineering** | Harness Engineering (2026) | 协作模式从 Prompt Engineering → Context Engineering → Harness Engineering。人的角色漂移为「意图设定者」。 |
+| 主线 | 来源 | 验证状态 | 核心洞察 |
+|:---|:---|:---|:---|
+| **自主性分级** | Feng, McDonald & Zhang (2025), *Levels of Autonomy for AI Agents*, arXiv:2506.12469 | ✅ 已验证 | 五级自主性：操作者→协作者→顾问→审批者→观察者。自主性不是能力的必然结果，而是设计决策。 |
+| **人在环位置** | HITL/HOTL 工业界实践 + UK DRCF 2026 五级自主性光谱 | ⚠️ 概念存在，但「ApFramework (2026)」作为单一命名框架未独立核实 | 三环模型：Human-in-the-Loop → Human-on-the-Loop → Human-out-of-the-Loop。人类角色演进：执行者→审查者→协作者→治理者。 |
+| **Harness Engineering** | Mitchell Hashimoto / Martin Fowler / Ryan Lopopolo 等 2026 年工程实践论述 | ⚠️ 作为工程趋势已验证，正式命名框架边界待进一步明确 | 协作模式从 Prompt Engineering → Context Engineering → Harness Engineering。人的角色漂移为「意图设定者」。 |
 
 这三条主线指向同一个方向：**未来竞争力不在「会不会用 AI」，而在「人和 AI 能不能形成一个互训飞轮」。**
 
