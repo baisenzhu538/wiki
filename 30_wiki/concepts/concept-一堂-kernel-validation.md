@@ -5,6 +5,7 @@ title: 产品内核验证：三维度评估 + 六策略验证
 type: concept
 status: reviewed
 reviewed_by: 周伯通
+review_date: "2026-07-05"
 domain:
 - product
 - yitang

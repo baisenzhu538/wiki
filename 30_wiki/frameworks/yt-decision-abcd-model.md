@@ -8,6 +8,7 @@ domain:
 - decision-science
 author: 老顽童
 reviewed_by: 欧阳锋
+review_date: "2026-07-05"
 quality_labels:
   - cited
   - insight

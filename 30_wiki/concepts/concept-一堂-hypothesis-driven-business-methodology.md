@@ -4,6 +4,7 @@ title: 一堂假设驱动型创业分析方法论
 type: concept
 status: reviewed
 reviewed_by: 周伯通
+review_date: "2026-07-05"
 domain:
 - src_unknown
 - src_unknown

@@ -5,6 +5,7 @@ title: 产品内核：用户愿意选择你的最小解决方案
 type: concept
 status: reviewed
 reviewed_by: 周伯通
+review_date: "2026-07-05"
 domain:
 - product
 - yitang

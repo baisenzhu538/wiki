@@ -3,7 +3,8 @@
 id: concept-mckinsey-hypothesis-driven
 title: Hypothesis-Driven Approach：假设驱动工作法
 type: framework
-source_refs: []
+source_refs:
+- pending_archive: src_unknown
 status: enriched
 domain:
 - src_unknown
