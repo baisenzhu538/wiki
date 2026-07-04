@@ -19,11 +19,12 @@ difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 持续跟踪 动态 监控
+- 跟踪对象 监控 机制
+- 认知 更新 迭代
+- 策略 动态调整 响应
+- 信息 监控 预警 机制
+- 持续 调研 认知 迭代
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md

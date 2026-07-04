@@ -18,12 +18,12 @@ difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 竞对跟踪 监控 动态
+- 竞争对手 监控 清单
+- 竞对 信息 收集 渠道
+- 竞对 分析 判断 预警
+- 竞对 响应 策略 动作
+- 竞争情报 系统 建立
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md

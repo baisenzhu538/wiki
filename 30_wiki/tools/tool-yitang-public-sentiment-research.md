@@ -18,12 +18,12 @@ difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 舆情 口碑 批量收集
+- 差评 机会 好评 内核
+- 口碑 收集 平台 品类
+- 评论 分析 AI 辅助
+- 动力 阻力 触点 口碑映射
+- 舆情 口碑 批量收集 分析
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:

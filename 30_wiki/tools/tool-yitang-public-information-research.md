@@ -18,12 +18,12 @@ difficulty: basic
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 公开信息 调研 渠道
+- 公司 官网 BP 招股书 财报
+- CEO 演讲 采访 信息提取
+- 公开信息 读出 没说什么
+- 竞品 公开信息 交叉验证
+- 公开信息 局限 补强 路径
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:

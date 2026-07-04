@@ -18,12 +18,12 @@ difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 出海调研 手段
+- 海外市场 进入 评估
+- 浅中深 三层 调研 方法
+- 出海 认证 关税 资金回国
+- 海外 本地化 市场调研
+- 出海 竞品 本地市场分析
 source_refs:
 - 00_inbox/调研专题/调研手段卡5（出海）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡5（出海）_vlm_desc.md

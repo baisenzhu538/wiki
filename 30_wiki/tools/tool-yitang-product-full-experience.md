@@ -18,11 +18,11 @@ difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 产品体验 完整体验
+- 竞品分析 用户体验
+- 产品 注册体验 核心功能 边缘功能
+- 产品体验报告 模板
+- 用户体验 评估 维度 weighted
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md

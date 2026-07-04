@@ -18,12 +18,12 @@ difficulty: beginner
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 最佳实践 调研 标杆
+- 行业 标杆 复制 成功因素
+- 最佳实践 调研 四步法
+- 标杆案例 寻找 筛选
+- 成功因素 分析 框架
+- 最佳实践 借鉴 计划
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md

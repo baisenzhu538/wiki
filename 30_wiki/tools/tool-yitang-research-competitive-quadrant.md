@@ -18,12 +18,12 @@ difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 竞争象限 二维矩阵 可视化
+- 竞争格局 分析 定位
+- 二维矩阵 维度 选择
+- 竞品 位置 标注 机会
+- 竞争象限 空白区 识别
+- 竞争 定位 差异化 策略
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md

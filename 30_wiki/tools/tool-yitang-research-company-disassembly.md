@@ -18,12 +18,12 @@ difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 公司拆解 竞争对手 分析
+- 六维框架 战略 组织 产品
+- 竞品 深度分析 框架
+- 公司拆解 报告 模板
+- 竞争对手 优势 劣势 借鉴
+- 公司拆解 时间 分配
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
