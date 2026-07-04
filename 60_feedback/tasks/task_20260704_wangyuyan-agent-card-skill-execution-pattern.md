@@ -17,7 +17,7 @@ related:
 - "[[agent-native-card-design]]"
 - "[[framework-yitang-y-model-dual-triangle-synergy]]"
 - "[[tool-yihang-dual-triangle-canvas]]"
-- "[[tool-aesthetic-library-builder]]"
+- "kdo-tools/aesthetic-library-builder.py"
 ---
 
 # 任务 #73：Agent 基于 KDO 卡片/Skill 解决实际问题的执行模式设计
