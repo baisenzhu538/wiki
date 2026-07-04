@@ -2,7 +2,7 @@
 id: case-yihang-dual-triangle-tianmo-design-delivery
 title: 一行双三角案例：天末4天商业级室内设计交付
 type: case
-status: pending_review
+status: reviewed
 domain:
 - yitang
 - ai-collaboration

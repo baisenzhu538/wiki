@@ -2,9 +2,10 @@
 id: atk_case-yihang-dual-triangle-ahao-product-selection_20260704
 title: 自攻击报告：case-yihang-dual-triangle-ahao-product-selection
 type: adversarial-report
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+reviewed_at: 2026-07-04
 created_at: 2026-07-04
 updated_at: 2026-07-04
 target_card: case-yihang-dual-triangle-ahao-product-selection

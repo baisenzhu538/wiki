@@ -2,7 +2,7 @@
 id: case-yihang-dual-triangle-huazao-synthetic-data
 title: 一行双三角案例：花总让AI先造数据破解工业级难题
 type: case
-status: pending_review
+status: reviewed
 domain:
 - yitang
 - ai-collaboration

@@ -2,7 +2,7 @@
 id: case-yihang-dual-triangle-chentian-knowledge-agent
 title: 一行双三角案例：陈天从知识管理到多Agent系统
 type: case
-status: pending_review
+status: reviewed
 domain:
 - yitang
 - ai-collaboration

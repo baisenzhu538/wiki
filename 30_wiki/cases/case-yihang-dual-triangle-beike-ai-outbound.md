@@ -2,9 +2,10 @@
 id: case-yihang-dual-triangle-beike-ai-outbound
 title: 一行双三角案例：贝壳找房110个场景的AI外呼
 type: case
-status: draft
+status: reviewed
 author: 王语嫣
-reviewed_by: pending
+reviewed_by: 欧阳锋
+reviewed_at: 2026-07-04
 confidence: 0.85
 trust_level: high
 language: zh-CN

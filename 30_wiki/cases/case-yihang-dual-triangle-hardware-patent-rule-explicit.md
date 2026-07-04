@@ -2,9 +2,10 @@
 id: case-yihang-dual-triangle-hardware-patent-rule-explicit
 title: 一行双三角案例：硬件公司专利落地的规则显性化与一号位决心
 type: case
-status: draft
+status: reviewed
 author: 王语嫣
-reviewed_by: pending
+reviewed_by: 欧阳锋
+reviewed_at: 2026-07-04
 confidence: 0.86
 trust_level: high
 language: zh-CN

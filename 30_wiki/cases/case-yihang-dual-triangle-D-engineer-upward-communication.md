@@ -2,9 +2,10 @@
 id: case-yihang-dual-triangle-D-engineer-upward-communication
 title: 一行双三角案例：D同学用红蓝军破解向上沟通
 type: case
-status: draft
+status: reviewed
 author: 王语嫣
-reviewed_by: pending
+reviewed_by: 欧阳锋
+reviewed_at: 2026-07-04
 confidence: 0.82
 trust_level: high
 language: zh-CN

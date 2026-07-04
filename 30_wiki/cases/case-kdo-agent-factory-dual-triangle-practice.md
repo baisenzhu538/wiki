@@ -2,9 +2,10 @@
 id: case-kdo-agent-factory-dual-triangle-practice
 title: KDO 多 Agent 工厂：人机协作双三角的组织化实践
 type: case
-status: draft
+status: reviewed
 author: 王语嫣
-reviewed_by: pending
+reviewed_by: 欧阳锋
+reviewed_at: 2026-07-04
 confidence: 0.75
 trust_level: medium-low
 language: zh-CN

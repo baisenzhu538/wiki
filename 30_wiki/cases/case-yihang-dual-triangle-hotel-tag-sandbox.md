@@ -2,9 +2,10 @@
 id: case-yihang-dual-triangle-hotel-tag-sandbox
 title: 一行双三角案例：酒店AI标签审核的边缘切入与沙盒练兵
 type: case
-status: draft
+status: reviewed
 author: 王语嫣
-reviewed_by: pending
+reviewed_by: 欧阳锋
+reviewed_at: 2026-07-04
 confidence: 0.85
 trust_level: high
 language: zh-CN

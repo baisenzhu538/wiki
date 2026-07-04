@@ -2,9 +2,10 @@
 id: case-laozhu-hongqigong-human-ai-partner-evolution
 title: 从Copilot到Partner：老朱×洪七公的人机协作跃迁诊断
 type: case
-status: draft
+status: reviewed
 author: 王语嫣
-reviewed_by: pending
+reviewed_by: 欧阳锋
+reviewed_at: 2026-07-04
 confidence: 0.84
 trust_level: high
 language: zh-CN
