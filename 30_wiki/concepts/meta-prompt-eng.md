@@ -44,8 +44,8 @@ md` > 条目数：5 你是一个智能助理，你需要帮用户结构化提取
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
+- Meta Prompt 的**具体假设**是"可以用一个元提示词统一管理所有子提示词"。但这个假设的**边界**在哪里——跨领域（如医疗 vs 编程）的提示词是否可以用同一个 Meta Prompt 管理？
+- **反例**：当任务上下文过于复杂时，Meta Prompt 反而增加了认知负担——不如直接写专用提示词。阈值在哪里？
 
 ## Output Opportunities
 

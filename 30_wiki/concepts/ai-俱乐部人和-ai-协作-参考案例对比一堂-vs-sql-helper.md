@@ -55,14 +55,13 @@ png > 提取方式：PaddleOCR (JS/ONNX) + 人工校对 > 分享者：纪浩 | �
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 一堂和 SQL-Helper 在"导诊台"设计上的差异，是否根因在于任务复杂度？复杂任务需要导诊台，简单任务不需要——这个**前提**是否成立？
+- **边界**：本对比的适用边界是"知识工作型 AI 协作"。对于非知识工作（如自动化测试、数据管道），对比结论是否有效？
+- ForAgent 信息在两个案例中都缺失，这是否说明 ForAgent 是一个尚未被验证的概念？需要更多实践案例。
+- **反例**：如果 SQL-Helper 也引入导诊台（即使任务很简单），是否会增加不必要的延迟？还是说导诊台在简单场景下也能提供价值？
+- 一堂的领域知识体系（课程运营、复盘营等）是否可以复用到其他教育类 AI 产品？
+- AGENTS.md 的设计模式是否适用于多 Agent 协作场景？还是只适用于单 Agent？
+- 两个案例的增长速度都是"缓慢"，是否存在加速领域知识沉淀的方法？
 
 ## Output Opportunities
 
