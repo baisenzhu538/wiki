@@ -269,7 +269,7 @@ related:
 ## 关联卡片
 
 - [[tool-yitang-research-company-disassembly]]：公司拆解，理解业务结构
-- [[tool-yitang-research-financial-metrics]]：财务指标，量化业务健康度
+- [[tool-yitang-competitor-financial-analysis]]：财务指标，量化业务健康度
 - [[tool-yitang-research-validate-assumption]]：假设验证，验证单元模型假设
 - [[framework-yitang-oscar-research]]：OSCAR 框架，系统化调研
 - [[yt-business-model-unit-economics]]：单元经济概念卡，理解理论基础

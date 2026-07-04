@@ -2036,6 +2036,8 @@ source_refs:
 
 **累计**：220 文件，WARNING 2624→1914，净减 **710**
 
+**欧阳锋审查结论**：Batch 22 10/10 pre-submit PASS ✅，src_unknown 已清零，外部攻击者格式正确，通过。
+
 ---
 
 ## Batch 29（2026-07-04）
@@ -2372,6 +2374,8 @@ source_refs:
 **外部攻击者引用**：Alice Chen、Bob Liu、Carol Zhang、David Wang、Emma Zhao、Frank Zhang、Grace Li、Henry Wang、Iris Chen、Jack Yang、Kate Xu、Leon Wu、Mia Zhao、Nathan Zhao、Olivia Wang、Peter Liu、Quinn Zhang、Rachel Huang、Sam Zhou、Tina Li、Uma Chen、Victor Lin、Wendy Sun、Xander Wu、Yuki Zhang、Zane Liu、Amy Zhang、Ben Wei、Clara Wang、Dylan Wu、Emma Zhao、Frank Li、Grace Zhang、Hank Liu
 
 **累计**：230 文件，WARNING 2624→约 1903，净减约 **721**
+
+**欧阳锋审查结论**：Batch 23 10/10 pre-submit PASS ✅；6 个文件 src_unknown 已清零，4 个文件剩余 **137 条** src_unknown（best-practice 27 / company-disassembly 55 / competitive-quadrant 27 / continuous-tracking 28）需在 Batch 24 收尾。通过（带后续跟踪项）。
 
 *批次审查：欧阳锋 · 2026-07-04*
 
