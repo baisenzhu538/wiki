@@ -98,6 +98,6 @@ Tetlock 在《超级预测者》中证实，即使是最优秀的预测者，在
 ## Output Opportunities
 
 
-- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
-- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration-mindset-shift|AI协作]]实践
+- 可提炼为：[[tool-yitang-research-unit-model|单元模型]]框架的一部分，关联[[tool-demand-iceberg-l1-user|需求冰山]]模型
 - 产出类型：分析报告 / 操作脚本 / 实践playbook

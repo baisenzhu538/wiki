@@ -93,8 +93,8 @@ KDO（Knowledge Delivery Orchestrator）是一款面向内容创作者和知识�
 **前提与边界**：以上问题的具体假设是 KDO 在个人/小团队场景下的成本可预测。边界：当知识库规模超过 5000 条目时，LLM 上下文窗口和搜索性能可能成为瓶颈。反例：如果 LLM API 价格在 2026 年大幅上涨，$0.6/月的假设完全失效。前提：用户有能力维护 Markdown 知识库的基本结构质量。
 ## Output Opportunities
 
-- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
-- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration-mindset-shift|AI协作]]实践
+- 可提炼为：[[tool-yitang-research-unit-model|单元模型]]框架的一部分，关联[[tool-demand-iceberg-l1-user|需求冰山]]模型
 - 产出类型：分析报告 / 操作脚本 / 实践playbook
 
 ## Action Triggers

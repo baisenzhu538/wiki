@@ -70,8 +70,8 @@ Gigerenzer & Goldstein (1996) 的"简洁启发式"(Fast and Frugal Heuristics)�
 ## Output Opportunities
 
 
-- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
-- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration-mindset-shift|AI协作]]实践
+- 可提炼为：[[tool-yitang-research-unit-model|单元模型]]框架的一部分，关联[[tool-demand-iceberg-l1-user|需求冰山]]模型
 - 产出类型：分析报告 / 操作脚本 / 实践playbook
 
 ## Action Triggers
