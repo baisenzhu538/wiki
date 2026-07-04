@@ -37,7 +37,10 @@ def parse_frontmatter(path: Path) -> tuple[dict, str]:
     if len(parts) < 3:
         return {}, text
     import yaml
-    return yaml.safe_load(parts[1]) or {}, parts[2]
+    try:
+        return yaml.safe_load(parts[1]) or {}, parts[2]
+    except Exception:
+        return {}, parts[2]
 
 
 def read_content(path: Path) -> str:
