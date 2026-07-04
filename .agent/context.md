@@ -1,18 +1,18 @@
 ---
 updated: 2026-07-04
-updated_at: 2026-07-04T08:34:00+00:00
+updated_at: 2026-07-04T20:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#63 done；#64 已 reviewed 欧阳锋终审通过；#65 队列状态为 queued，产物未达审稿补充要求，需老顽童补全后重新提交；#66/#67 P1 待 #65 reviewed 后领取；#68 P2 待 #64/#65 reviewed 后；#69 画布 Agent CLI 待 #65 reviewed 后产 agent-spec v2；#70 课后闲聊 blocked；#71 底层逻辑三课程补产 queued；#72 审美库工作法/工具卡 queued；#73 Agent 执行模式设计 queued；#74 AI 基本功 Feature 思维概念卡 + 两张草稿卡重写 queued；#75 AI 工具特性清单全网调研 queued"
+active_task: "#63 done；#64 reviewed 欧阳锋终审通过；#65 reviewed 欧阳锋终审通过；#66 reviewed 欧阳锋终审通过（2026-07-04 终审，192行十段齐全，3外部攻击者，5失败模式）；#67 P1 依赖 #65 reviewed 已满足，可领取；#68 P2 依赖 #64/#65 reviewed 已满足，可启动；#69 画布 Agent CLI 依赖 #65 reviewed 已满足，待老顽童产 agent-spec v2；#70 课后闲聊 blocked；#71-#75 queued"
 blockers:
   - "#60 queue_transition 修复（2026-07-04）：欧阳锋重审通过；7/7 tests passed；#60 仍为 queued，需黄药师运行 `queue_transition.py complete`"
   - "#59 Agent Prompt 编译器（2026-07-04）：欧阳锋终审通过；产生 2 项微债务，已由王语嫣开 #62 跟进"
   - "#62 Agent Prompt 设计规范微债务（2026-07-04）：已入队，assignee 黄药师；P2"
   - "#63 一行双三角第二批案例补产（2026-07-04）：已 reviewed，欧阳锋终审通过"
   - "#64 Truman 飞书 To slide PPT 迭代案例卡（2026-07-04）：status reviewed，欧阳锋终审通过；审查报告已生成；任务单编号已修正为 #64"
-  - "#65 Y模型 × 双三角协同工作法框架卡（2026-07-04）：status queued（队列与任务单一致），产物终审 fail；需补全创造力 L0-L5 模型、体系/模型边界意识与 ROI 边界后重新提交；任务单编号已修正为 #65"
-  - "#66 人在环 × 双三角关系卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；依赖 #65 reviewed 后启动，避免认知不一致；任务单编号已修正为 #66"
+  - "#65 Y模型 × 双三角协同工作法框架卡（2026-07-04）：status reviewed，欧阳锋终审通过；审查报告已生成；任务单编号已修正为 #65"
+  - "#66 人在环 × 双三角关系卡（2026-07-04）：status reviewed，欧阳锋终审通过（PASS）；192行十段齐全；3 外部攻击者（HITL Purist / Lean Startup / Automation Maximalist）视角互不重叠；5 失败模式各有症状/根因/修复；🟡 3 个外部 URL 在 source_refs 中待后续统一处理"
   - "#67 Y模型 引擎层操作法卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；依赖 #65 reviewed 后启动；新增 ROI 滥用/以偏概全陷阱；任务单编号已修正为 #67"
   - "#68 跨域审计（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P2；依赖 #64/#65 reviewed 后启动；任务单编号已修正为 #68"
   - "#69 双三角画布 Agent CLI 交付（2026-07-04）：queued，assignee 黄药师，reviewer 欧阳锋；P1；依赖 #65 reviewed 后老顽童产 agent-spec v2，Agent 必须具备模型/体系边界意识"
@@ -24,7 +24,7 @@ blockers:
   - "#75 AI 工具特性清单全网调研（2026-07-04）：queued，assignee 王语嫣，reviewer 欧阳锋；P1；回应用户追问；入口标注 `annotation-ai-feature-inventory-research.md` 已产出；需 web research 公开领域 + 访谈黄药师/老顽童梳理 Hermes/龙虾特性"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
 
-next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`；② 老顽童完成 #64/#65 生产并提交欧阳锋终审；③ 老顽童可并行领取 #72 审美库卡和 #74 Feature 思维概念卡；④ 王语嫣启动 #75 AI 工具特性清单全网调研；⑤ #65 reviewed 后老顽童依次领取 #66/#67/#71 P0；⑥ #64/#65 reviewed 后老顽童启动 #68 审计；⑦ #70 课后闲聊等用户 unlock；⑧ 黄药师基于设计骨架启动 #73 Phase 1；⑨ workbuddy 空闲处理 #28。"
+next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`；② #64/#65/#66 全部 reviewed，#67/#68/#69 depend 全部满足，老顽童可依次领取；③ 老顽童可并行领取 #72 审美库卡和 #74 Feature 思维概念卡；④ 王语嫣启动 #75 AI 工具特性清单全网调研；⑤ #70 课后闲聊等用户 unlock；⑥ 黄药师基于设计骨架启动 #73 Phase 1；⑦ workbuddy 空闲处理 #28。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
