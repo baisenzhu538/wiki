@@ -25,6 +25,10 @@ related:
 - "[[agent-spec-dual-triangle-canvas-filler]]"
 - "[[method-dual-triangle-human-ai-division]]"
 - "[[case-laozhu-hongqigong-human-ai-partner-evolution]]"
+- '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
+- '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
+- '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
+- '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 aliases:
 - 双三角飞轮
 - 飞轮引擎

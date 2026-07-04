@@ -25,6 +25,10 @@ related:
 - "[[framework-yihang-dual-triangle-three-stages-six-changes]]"
 - "[[tool-yihang-dual-triangle-canvas]]"
 - "[[agent-spec-dual-triangle-canvas-filler]]"
+- '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
+- '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
+- '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
+- '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 aliases:
 - 双三角AI落地五部曲
 - AI落地五部曲

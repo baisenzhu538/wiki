@@ -26,6 +26,10 @@ related:
 - "[[framework-yihang-dual-triangle-three-stages-six-changes]]"
 - "[[agent-spec-dual-triangle-canvas-filler]]"
 - "[[method-dual-triangle-flywheel-engine]]"
+- '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
+- '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
+- '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
+- '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 aliases:
 - 人机分工原则
 - AI组织行为学

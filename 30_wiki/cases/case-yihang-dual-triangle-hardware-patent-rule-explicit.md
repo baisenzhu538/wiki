@@ -24,6 +24,10 @@ related:
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
 - "[[method-dual-triangle-human-ai-division]]"
+- '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
+- '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
+- '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
+- '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 aliases:
 - 硬件公司专利案例
 - 规则显性化案例

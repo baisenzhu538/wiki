@@ -24,6 +24,10 @@ related:
 - '[[tool-yihang-dual-triangle-canvas]]'
 - '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
 - '[[method-dual-triangle-flywheel-engine]]'
+- '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
+- '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
+- '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
+- '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 aliases:
 - 画布填充 Agent
 - 双三角挖掘师

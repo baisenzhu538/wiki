@@ -27,6 +27,10 @@ related:
 - "[[system-yitang-Y-model-os]]"
 - "[[agent-native-card-design]]"
 - "[[tool-opc-sales-dialogue-assistant]]"
+- '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
+- '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
+- '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
+- '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 ---
 
 # KDO 多 Agent 工厂：人机协作双三角的组织化实践

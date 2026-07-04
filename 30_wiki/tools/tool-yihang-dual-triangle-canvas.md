@@ -26,6 +26,10 @@ related:
 - "[[framework-yihang-dual-triangle-weapon-library]]"
 - "[[framework-yihang-dual-triangle-three-stages-six-changes]]"
 - "[[agent-spec-dual-triangle-canvas-filler]]"
+- '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
+- '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
+- '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
+- '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 aliases:
 - 双三角画布
 - 一行双三角画布

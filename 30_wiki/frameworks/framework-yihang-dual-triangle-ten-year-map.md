@@ -23,6 +23,10 @@ related:
 - "[[framework-yihang-dual-triangle-weapon-library]]"
 - "[[framework-yihang-dual-triangle-three-stages-six-changes]]"
 - "[[framework-yitang-deliberate-practice-1plus4]]"
+- '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
+- '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
+- '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
+- '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 aliases:
 - 双三角段位图
 - 双三角十年地图

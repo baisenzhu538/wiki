@@ -37,6 +37,10 @@ related:
 - "[[concept-AI时代双三角竞争力]]"
 - "[[yt-decision-y-model]]"
 - "[[system-yitang-Y-model-os]]"
+- '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
+- '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
+- '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
+- '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 aliases:
 - 一行双三角
 - 一堂双三角
