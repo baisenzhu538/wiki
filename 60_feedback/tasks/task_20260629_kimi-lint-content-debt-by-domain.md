@@ -1246,6 +1246,37 @@ source_refs:
 
 ---
 
+## 第十五批修复（2026-07-04 续）
+
+**处理域**：yitang（一行双三角画布 + 智能药柜系列 + 通用落地系列）
+
+| # | 文件 | 类型 | pre-submit |
+|:---|:---|:---|:---|
+| 1 | tool-yihang-dual-triangle-canvas | Type A（追加标准section） | PASS ✅ |
+| 2 | tool-ai-scene-four-elements | Type A | PASS ✅ |
+| 3 | tool-建立策略-要素映射表设计对抗策略 | Type B | PASS ✅ |
+| 4 | tool-建立知识联系 | Type B | PASS ✅ |
+| 5 | tool-应用人员降级公式实现标准化 | Type B | PASS ✅ |
+| 6 | tool-封装可复用skill | Type B | PASS ✅ |
+| 7 | tool-审美工具箱 | Type A+步骤 | PASS ✅ |
+| 8 | tool-smart-medicine-cabinet-site-selection-guide | Type A（追加中文section） | PASS ✅ |
+| 9 | smart-medicine-cabinet-fraud-detection | Type A（追加中文section） | PASS ✅ |
+| 10 | smart-medicine-cabinet-financial-model | Type A（追加中文section） | PASS ✅ |
+
+**修复后全量 WARNING**：2161 → **2144**（↓17）
+**修复后全量 ERROR**：25 → **1**（↓24，大幅改善）
+
+**修复模式**：
+- Type A / Type B：填充「目的」「不要用的场景」「质疑」，部分文件追加标准中文 section
+- `tool-yihang-dual-triangle-canvas.md` 在 Action Triggers 前插入三个标准 section
+- 智能药柜系列英文 section 文件，在文末追加中文标准 section
+
+**外部攻击者引用**：Donald Schön、Luigi Sacco、Erik Brynjolfsson、Kate Crawford、Roger Martin、Rita McGrath、Andy Clark、Gillian Tett、Clayton Christensen、David Autor、Jeremy Howard、Rachel Thomas、Don Norman、Juhan Vitten、Richard Thaler、Howard Kunreuther、Dan Ariely、Bent Flyvbjerg
+
+**累计**：150 文件，WARNING 2624→2144，净减 480
+
+---
+
 ## 欧阳锋批次审查：2026-07-04 yitang 域第十批 10 张月白设计系列 Type B tool 卡
 
 ### 审查动作
