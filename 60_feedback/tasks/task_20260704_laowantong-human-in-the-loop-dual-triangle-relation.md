@@ -1,18 +1,18 @@
 ---
 id: task_20260704_laowantong-human-in-the-loop-dual-triangle-relation
 type: task
-status: queued
-assignee: 老顽童
+status: in_progress
+assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04T10:06:33.552604+00:00'
 source_task: null
 related:
-- "[[annotation-yihang-dual-triangle-master]]"
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[yt-decision-y-model]]"
-- "[[framework-yitang-y-model-dual-triangle-synergy]]"
+- '[[annotation-yihang-dual-triangle-master]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[yt-decision-y-model]]'
+- '[[framework-yitang-y-model-dual-triangle-synergy]]'
 ---
 
 # 任务 #66：人在环 × 双三角关系卡

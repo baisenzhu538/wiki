@@ -2,14 +2,15 @@
 id: task_20260703_huangyaoshi-agent-prompt-compiler
 title: Agent Prompt 编译器：把 agent-os.md + 域卡编译为可注入的 system prompt
 type: task
-status: done
+status: queued
 priority: P1
-assignee: 黄药师
+assignee: claude
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋
 created_at: 2026-07-01
-updated_at: 2026-07-04
-source_context: 用户判定 agent-os.md 不能依赖 Claude 的 Read 文件能力，Kimi/Hermes 需要静态 system prompt 注入；要求单列任务建设编译器
+updated_at: '2026-07-04T10:06:26.490112+00:00'
+source_context: 用户判定 agent-os.md 不能依赖 Claude 的 Read 文件能力，Kimi/Hermes 需要静态 system prompt
+  注入；要求单列任务建设编译器
 estimated_outputs:
 - 1 个 CLI 命令或 skill：`kdo agent-build-prompt <agent-id>`
 - 1 张设计规范更新：`agent-native-card-design.md` 增加 prompt 编译字段
@@ -17,7 +18,8 @@ estimated_outputs:
 - 1 份使用说明 / 集成示例
 dependencies:
 - task_20260703_laowantong-yitang-Y-model-os（reviewed 或 pending_review）：提供 system-yitang-Y-model-os.md
-- task_20260703_huangyaoshi-agent-tcpr-role-layer（queued）：提供 agent-os.md 中的 TCPR 身份协议，编译器需识别 tcp_role 字段
+- task_20260703_huangyaoshi-agent-tcpr-role-layer（queued）：提供 agent-os.md 中的 TCPR 身份协议，编译器需识别
+  tcp_role 字段
 ---
 
 # Agent Prompt 编译器：把 agent-os.md + 域卡编译为可注入的 system prompt
