@@ -1426,4 +1426,92 @@ source_refs:
 
 ---
 
-## 欧阳锋批次审查：2026-06-29 yitang 域第十批 10 张月白设计系列 Type B tool 卡
+## 第十三批 月白/水水/模型 tool 卡处理记录（2026-07-04 续）
+
+**处理域**：yitang（月白 3 + 水水 6）/ model（模型 1）
+
+| # | 文件 | 类型 | 系列 | pre-submit |
+|:---|:---|:---|:---|:---|
+| 1 | `tool-月白-AIGC反向拆解法.md` | Type B | 月白 | PASS ✅ |
+| 2 | `tool-月白-AIGC人群画像驱动详情页规划.md` | Type B | 月白 | PASS ✅ |
+| 3 | `tool-月白-A-B双轨反推模式选择.md` | Type B | 月白 | PASS ✅ |
+| 4 | `tool-水水-构建自利叙事.md` | Type B | 水水 | PASS ✅ |
+| 5 | `tool-水水-接受发散性世界观.md` | Type B | 水水 | PASS ✅ |
+| 6 | `tool-水水-区分风险与不确定性.md` | Type B | 水水 | PASS ✅ |
+| 7 | `tool-水水-利用基因漂变视角.md` | Type B | 水水 | PASS ✅ |
+| 8 | `tool-水水-利用叙事驱动决策.md` | Type B | 水水 | PASS ✅ |
+| 9 | `tool-水水-保持系统冗余.md` | Type B | 水水 | PASS ✅ |
+| 10 | `tool-模型组合调用.md` | Type A | 模型 | PASS ✅ |
+
+**修复模式**：
+- 月白/水水 Type B：填充「目的」+「质疑」section，每条质疑含 2 位外部攻击者（`**Name Surname**` 格式）。
+- 模型 Type A：填充「目的」+「不要用的场景」+「质疑」section；质疑补充 具体假设/边界/反例/前提 四类关键术语。
+
+**外部攻击者引用**：
+- 月白：Lucy Suchman、Ethan Mollick、Christian Madsbjerg、Julie Zhuo、Ellen Lupton、Dunne & Raby
+- 水水：Robert Trivers、Carol Tavris、Nassim Taleb、Philip Tetlock、Gerd Gigerenzer、Daniel Kahneman、Stephen Jay Gould、Jared Diamond、Jonathan Gottschall、Paul Bloom、Charles Perrow、Clayton Christensen
+- 模型：Chip Huyen、Jack Clark
+
+**修复后全量 WARNING**：2226 → **2193**（↓33）
+**修复后全量 ERROR**：41 → **1**（其余 ERROR 已被其他任务修复）
+
+**累计**：130 文件，WARNING 2624→2193，净减 431。
+
+---
+
+## 欧阳锋批次审查：2026-07-04 yitang/model 域第十三批 10 张 tool 卡
+
+### 审查动作
+
+1. 核对用户清单与文件实际存在性，确认 10 个文件均位于 `30_wiki/tools/`。
+2. 对 10 个文件运行 `kdo pre-submit --files`。
+3. 对 `design`、`yitang`、`model` domain 分别运行 `kdo lint --domain <domain>`，过滤本批文件相关 ERROR/WARNING。
+4. 抽检 `tool-模型组合调用.md`，发现其质疑 section 缺少 `具体假设/边界/反例/前提` 四类关键术语，已现场补全。
+5. 将 10 个文件的 `reviewed_by: pending` 更新为 `欧阳锋`，并补充 `reviewed_at: 2026-07-04`。
+
+### 审查结果
+
+| 检查项 | 结果 |
+|---|---|
+| 10/10 文件 pre-submit | **PASS** ✅ |
+| 本批 10 个文件 lint ERROR | **0** ✅ |
+| 本批 10 个文件 lint WARNING | **0** ✅ |
+| `## 目的` section | 10/10 已填充 |
+| `## 质疑` section | 10/10 已填充，含关键术语 + 2 位外部攻击者 |
+| `reviewed_by` / `reviewed_at` | 10/10 已更新 |
+
+### 观察项
+
+- 月白系列所有 4-WARNING 文件已清零，本批 3 个月白文件均干净通过。
+- 水水系列 6 个文件首次进入清理，状态良好，未发现 copy-paste。
+- 用户汇报本轮实测为 **1 ERROR / 2193 WARNING（1937 accepted）**；欧阳锋审查时全库已进一步降至 **1 ERROR / 2112 WARNING（1937 accepted）**，说明其他并行任务（如 cases 域修复）也在推进。
+- 剩余 **1 个 ERROR** 来自 `30_wiki/frameworks/framework-yihang-dual-triangle-ai-landing-five-steps.md` 的 `source_refs` 文件路径不存在，与本批 tool 卡无关，建议另开任务或在 #63 相关任务中修复。
+- 10 张 tool 卡仍有大量 `src_unknown` 占位 section（适用场景、工具/环境、关联技能、来源等），属 #28 长期债务，不在本批目标范围内。
+
+### 累计进展
+
+| 批次 | 文件数 | WARNING 净减 | 审查状态 |
+|:---|:---|:---|:---|
+| 第一批 | 10 | -43 | ✅ 欧阳锋通过 |
+| 第二批 | 10 | -39 | ✅ 欧阳锋通过 |
+| 第三批 | 10 | -38 | ✅ 欧阳锋通过 |
+| 第四批 | 10 | -38 | ✅ 欧阳锋通过 |
+| 第五批 | 14 | -40 | ✅ 欧阳锋通过 |
+| 第六批 | 6 | -40 | ✅ 欧阳锋通过 |
+| 第七批 | 10 | -40 | ✅ 欧阳锋通过 |
+| 第八批 | 10 | -39 | ✅ 欧阳锋通过 |
+| 第九批 | 10 | -33 | ✅ 欧阳锋通过 |
+| 第十批 | 10 | -（被新增抵消） | ✅ 欧阳锋通过 |
+| 第十一批 | 10 | - | ✅ 欧阳锋通过 |
+| 第十二批 | 10 | - | ✅ 欧阳锋通过 |
+| **第十三批** | **10** | **-33** | **✅ 欧阳锋通过** |
+| **累计** | **130** | **-431** | |
+
+### 结论
+
+- **第十三批 10 张月白/水水/模型 tool 卡**：通过。
+- 建议继续按当前节奏处理水水系列剩余 Type B tool 卡，并跟进剩余 1 个 framework source_refs ERROR。
+
+*批次审查：欧阳锋 · 2026-07-04*
+
+
