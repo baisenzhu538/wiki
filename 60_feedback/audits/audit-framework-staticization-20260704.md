@@ -4,7 +4,8 @@ title: 跨域审计：KDO 框架是否被静态化
 type: audit
 status: completed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-04
 created_at: 2026-07-04
 updated_at: 2026-07-04
 related:
