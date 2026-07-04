@@ -42,13 +42,13 @@ jpg` (no text detected) - 本文件由 PaddleOCR ONNX pipeline 自动提取 - �
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 本卡片 OCR 完全失败（"no text detected"），无法从内容中提取有效信息——这个**前提**是否意味着该卡片应该被归档而非修复？
+- IPO 模型的核心框架（Input→Process→Output）是否适用于所有类型的学习？**反例**：某些学习是"涌现式"的，无法被流程化
+- 当 OCR 失败时，卡片的**边界**在哪里——是否应该保留空壳卡片等待人工转录，还是直接删除？
+- "科学学习"的**具体假设**是：学习可以被科学化、流程化。但如 Papert 所批判，学习可能是"建构"而非"处理"
+- IPO 模型与全景策略图、完整清单之间的关系是什么？三者是否冗余？**前提**是每个卡片提供独特价值
+- 当原始材料丢失时，如何评估卡片的知识价值？**边界**：没有内容支撑的卡片无法被有效质疑或迁移
+- 是否应该重新 OCR 或人工转录原图？**具体假设**是原图仍可用——但如果原图已丢失，这个假设不成立
 
 ## Critique
 
