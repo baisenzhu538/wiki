@@ -67,6 +67,15 @@ def discover_agents() -> list[dict]:
                     "title": fm.get("title", p.stem),
                 }
 
+    # Also include agents that only appear in flywheel log (e.g. Claude Code CLI agents like huangyaoshi)
+    if DB.exists():
+        conn = sqlite3.connect(str(DB))
+        flywheel_agents = conn.execute("SELECT DISTINCT agent_id FROM flywheel_log").fetchall()
+        conn.close()
+        for (aid,) in flywheel_agents:
+            if aid not in agents:
+                agents[aid] = {"id": aid, "source": "flywheel", "title": aid}
+
     return list(agents.values())
 
 

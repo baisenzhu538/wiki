@@ -4,7 +4,7 @@ updated_at: 2026-07-04T18:30:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#57/#58/#59/#61 已 reviewed；#60 黄药师已完成待正式 complete；#62 黄药师微债务已入队；#63 老顽童一行双三角第二批案例补产 pending_review；#64-#68 王语嫣已更新任务单并入队，强调 Y模型 引擎层而非静态框架"
+active_task: "#63 已 reviewed；#64/#65 已由老顽童(Kimi) claimed 并生产中；#66/#67 P1 待老顽童领取；#68 P2 审计待 #64/#65 后启动；#69 画布 Agent CLI 待 #64/#65 完成后由老顽童产 agent-spec v2"
 blockers:
   - "#60 queue_transition 修复（2026-07-04）：欧阳锋重审通过；7/7 tests passed；#61 已释放，但 #60 仍为 queued 状态，需黄药师运行 `queue_transition.py complete` 后，欧阳锋才能正式 review"
   - "#59 Agent Prompt 编译器（2026-07-04）：欧阳锋终审通过；编译器代码通过，3 个试点编译产物 pre-submit PASS；产生 2 项微债务，已由王语嫣开 #62 跟进"
@@ -13,10 +13,13 @@ blockers:
   - "#64 Truman 飞书 To slide PPT 迭代案例卡（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P0；王语嫣入口标注已完成，必须含人物/动作/时间线和 Y模型 循环映射"
   - "#65 Y模型 × 双三角协同工作法框架卡（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P0；把双三角是 Y模型 在 AI 协作领域的框架性认识变成可调用资产"
   - "#66 人在环与双三角关系说明卡（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；澄清原则 ↔ 能力关系"
-  - "#67 双三角画布 Agent CLI 交付（2026-07-04）：已入队，assignee 黄药师，reviewer 欧阳锋；P1；王语嫣不再直接写 agent-spec v2，建议等 #64/#65 完成后再由老顽童/黄药师确定最终版本；飞书/Hermes Agent 入停车场"
+  - "#66 人在环 × 双三角关系卡（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；强调人在环会进化，用 Truman PPT 案例展示三层形态"
+  - "#67 Y模型 引擎层操作法卡（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；Truman PPT 案例作为最佳演示"
+  - "#68 跨域审计（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P2；可在 #64/#65 后后台执行"
+  - "#69 双三角画布 Agent CLI 交付（2026-07-04）：已入队，assignee 黄药师，reviewer 欧阳锋；P1；画布 Agent 默认 C 角色但 TCPR 可切换；agent-spec v2 由老顽童基于 #64/#65 产出，王语嫣方向把关；飞书/Hermes Agent 入停车场；这是 KDO Agent 化第一个试点，后续系列化"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
 
-next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`，然后欧阳锋 review 为 reviewed；② 老顽童按队列领取 #64/#65（P0 优先）；③ 黄药师按队列领取 #62，#67 建议等 #64/#65 完成后启动；④ 欧阳锋终审 #63；⑤ workbuddy 在空闲时分批处理 #28。"
+next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`，然后欧阳锋 review 为 reviewed；② 欧阳锋终审 #63；③ 老顽童按优先级领取 #64/#65（P0，可并行但终审前互相对照）；④ 老顽童在 #64/#65 完成后产 #69 的 agent-spec v2；⑤ 黄药师完成 #62 后，等 #69 agent-spec v2 到位再启动 CLI 实现；⑥ workbuddy 在空闲时分批处理 #28；⑦ #66/#67 可由老顽童在 #64/#65 间隙并行推进；⑧ #68 P2 审计不阻塞主线，可在 #64/#65 reviewed 后启动。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
