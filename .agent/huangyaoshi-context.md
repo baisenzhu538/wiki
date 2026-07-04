@@ -20,8 +20,9 @@ updated: 2026-06-23
 3. 读 `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）
 4. 读本文件（角色专属）
 5. 读 `.agent/kb-evolution-direction.md`（当前进化方向）
-6. 读 `70_product/tasks/dashboard.md` 看历史任务全景
-7. 读 `70_product/tasks/huangyaoshi-next-tasks.md` 看详细任务清单
+6. **🆕 恢复认知迭代记忆**：`python kdo-tools/flywheel.py status --days 7`（最近7天的认知迭代——Y模型引擎每轮转了多少）
+7. 读 `70_product/tasks/dashboard.md` 看历史任务全景
+8. 读 `70_product/tasks/huangyaoshi-next-tasks.md` 看详细任务清单
 
 > 💡 **失忆恢复口令**：用户对你说「黄药师，切到 wiki 目录，读 startup 和方向，继续基建」时，按此执行。
 
