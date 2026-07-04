@@ -4,7 +4,8 @@ title: Y模型 Coach 模式 Agent Spec
 type: tool-agent-spec
 status: enriched
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+reviewed_at: '2026-07-04'
 confidence: 0.86
 trust_level: medium-high
 language: zh-CN

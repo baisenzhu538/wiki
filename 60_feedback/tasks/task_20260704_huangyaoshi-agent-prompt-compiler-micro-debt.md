@@ -2,9 +2,9 @@
 id: task_20260704_huangyaoshi-agent-prompt-compiler-micro-debt
 title: '#59 微债务：Agent Prompt 设计规范补全与 source 字段标准化'
 type: task
-status: queued
+status: done
 author: 王语嫣
-reviewed_by: pending
+reviewed_by: 欧阳锋
 priority: P2
 created_at: 2026-07-04
 updated_at: 2026-07-04
@@ -140,6 +140,44 @@ related:
 - [x] 4 张卡 source 字段补全
 - [x] 编译器可正确读取 source 字段
 - [x] 全库无新增 lint ERROR
+
+---
+
+## 欧阳锋终审（2026-07-04）
+
+### 审查动作
+
+1. 读取 `30_wiki/systems/agent-native-card-design.md`，确认新增「Agent Prompt 三层结构」与「Agent Prompt 编译规范」章节。
+2. 检查 4 张试点 agent-spec 卡 frontmatter 的 `os_sources` / `domain_sources` / `user_sources` 字段。
+3. 用 `kdo-tools/agent-prompt-compiler.py` 重新编译 4 张卡，验证 source 字段可被正确读取。
+4. 对 4 张源卡 + 4 张编译产物 + 规范文档运行 `kdo pre-submit`。
+5. 对 `design` / `agent` / `cases` 域跑 lint，确认本任务文件未引入新 ERROR。
+
+### 审查结果
+
+| 检查项 | 结果 |
+|---|---|
+| `agent-native-card-design.md` 新增三层编译章节 | ✅ 存在且 ≥300 字 |
+| `agent-native-card-design.md` 新增 source 字段规范 | ✅ 存在且 ≥200 字 |
+| 4 张源 agent-spec 卡 source 字段补全 | ✅ |
+| 重新编译 4 张卡 | ✅ 编译器正确读取 domain_sources，产物 token 合理 |
+| 4 张源卡 + 4 张编译产物 pre-submit | **8/8 PASS** |
+| 规范文档 pre-submit | **PASS** |
+| lint 新增 ERROR | **0** |
+
+### 观察项
+
+- **路径不一致**：任务单 `source_refs` 写 `30_wiki/frameworks/agent-native-card-design.md`，实际文件在 `30_wiki/systems/agent-native-card-design.md`。已按实际路径审查，任务单中的路径可后续统一修正。
+- **编译产物 `reviewed_by`**：`.agent/prompts/*.md` 中 `reviewed_by: agent-prompt-compiler` 是编译器自动写入的，符合产物规范。
+
+### 结论
+
+- **#60 通过**，关闭。
+- 4 张试点卡已可纳入编译器常规维护。
+
+---
+
+*欧阳锋 2026-07-04*
 
 ---
 

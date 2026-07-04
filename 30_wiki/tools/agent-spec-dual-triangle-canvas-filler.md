@@ -4,7 +4,8 @@ title: 双三角画布填充 Agent（九层深挖版）
 type: agent-spec
 status: draft
 author: 王语嫣
-reviewed_by: pending
+reviewed_by: 欧阳锋
+reviewed_at: '2026-07-04'
 confidence: 0.82
 trust_level: high
 language: zh-CN

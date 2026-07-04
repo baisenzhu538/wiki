@@ -9,7 +9,8 @@ domain:
 - e-commerce
 - operations
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+reviewed_at: '2026-07-04'
 confidence: 0.85
 trust_level: high
 language: zh-CN

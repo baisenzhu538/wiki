@@ -2,12 +2,12 @@
 id: task_20260704_laowantong-yihang-dual-triangle-batch2-supplement
 title: 一行双三角第二批案例补产：天末/阿豪/花总/陈天 4 张 case 卡
 type: task
-status: in_progress
+status: changes_requested
 author: 王语嫣
-reviewed_by: pending
+reviewed_by: 欧阳锋
 priority: P1
 created_at: 2026-07-04
-updated_at: '2026-07-04T03:12:40.759761+00:00'
+updated_at: '2026-07-04'
 due_date: 2026-07-08
 owner: 老顽童
 assignee: kimi
@@ -179,7 +179,11 @@ related:
 
 | 日期 | 修改文件 | 修改内容 | 原因 |
 |---|---|---|---|
-| | | | |
+| 2026-06-29 | 30_wiki/cases/case-yihang-dual-triangle-tianmo-design-delivery.md | 完整重写为 pending_review；新增关键证据/可迁移场景/教训/失败模式四节 | 占位符补全为第二批标准 case 卡 |
+| 2026-06-29 | 30_wiki/cases/case-yihang-dual-triangle-ahao-product-selection.md | 完整重写为 pending_review；新增关键证据/可迁移场景/教训/失败模式四节 | 占位符补全为第二批标准 case 卡 |
+| 2026-06-29 | 30_wiki/cases/case-yihang-dual-triangle-huazao-synthetic-data.md | 完整重写为 pending_review；新增关键证据/可迁移场景/教训/失败模式四节 | 占位符补全为第二批标准 case 卡 |
+| 2026-06-29 | 30_wiki/cases/case-yihang-dual-triangle-chentian-knowledge-agent.md | 完整重写为 pending_review；新增关键证据/可迁移场景/教训/失败模式四节 | 占位符补全为第二批标准 case 卡 |
+| 2026-06-29 | 第一批 14 张双三角核心/框架/方法/工具/案例卡 | 在 related 中追加 4 张第二批 case id | 建立第二批案例与第一批知识网络的双向回链 |
 
 ---
 
@@ -188,3 +192,54 @@ related:
 - 双三角命名统一使用「一行双三角」，不要在卡中使用「一堂双三角」作为正式名称（aliases 中可注明）。
 - 第二批 4 张卡完成后，一行双三角第一版知识库共计 **18 张完整卡 + 1 张计划文档**。
 - 完成后由欧阳锋终审，王语嫣验收。
+
+---
+
+## 欧阳锋终审（2026-07-04）
+
+### 审查动作
+
+1. 抽检 4 张新 case 卡的结构与内容深度。
+2. 统计每张卡中文字数，确认 ≥5000 字。
+3. 对 4 张新 case 卡运行 `kdo pre-submit --files`。
+4. 对 `cases` 域运行 `kdo lint --domain cases`，过滤本批 4 张卡的 ERROR/WARNING。
+5. 检查第一批 14 张卡的双向回链是否包含 4 张新 case id。
+6. 检查验收标准中的自攻击报告是否存在。
+
+### 已通过项
+
+| 检查项 | 结果 |
+|---|---|
+| 4 张新 case 卡 pre-submit | **4/4 PASS** ✅ |
+| 中文字数 | 天末 5650 / 阿豪 5416 / 花总 5535 / 陈天 5725 ✅ |
+| 4 张卡 lint ERROR | **0** ✅ |
+| 4 张卡 lint WARNING | 仅 4 条 index 未收录（机械类） |
+| 关键证据 / 可迁移场景 / 教训 / 失败模式 | 4/4 已补齐 ✅ |
+| 暗知识数量 | 均 ≥5 条，且有口述原文依据 ✅ |
+| Critique 外部攻击者 | 已包含真实学者/从业者姓名 ✅ |
+| 第一批 14 张卡 related 回链 | 任务单「反向修复记录」显示已追加 4 张新 case id ✅ |
+
+### 阻塞项
+
+1. **缺少自攻击报告**：验收标准明确要求每张新 case 卡产出 `60_feedback/adversarial/atk_<card-id>_20260704.md`。当前仅找到 `atk_concept-yihang-dual-triangle-core_20260704.md`，4 张新 case 卡的自攻击报告缺失。
+2. **第一批 case 卡仍有 lint ERROR**：`cases` 域当前 24 个 ERROR 全部来自第一批 6 张双三角 case 卡（`case-yihang-dual-triangle-beike-ai-outbound.md`、`case-yihang-dual-triangle-chentian-knowledge-agent.md` 等）缺少标准 section。任务单要求老顽童对第一批做交叉检查并修复，但「反向修复记录」中未体现对这些卡的修复。
+
+### 建议处置
+
+- **必须补**：为 4 张新 case 卡各补一份自攻击报告（可用 `framework-kdo-self-attack.md` 四路攻击模板），确认无 🔴 致命问题。
+- **建议补**：对第一批 6 张有 lint ERROR 的 case 卡补齐 `关键证据/可迁移场景/教训/失败模式` 四节；若确定不在 #62 范围，需明确说明并转交王语嫣另开任务。
+- 补完后重新运行：
+  ```bash
+  kdo pre-submit --files <4 张新 case 卡路径>
+  kdo lint --domain cases
+  ```
+
+### 结论
+
+- **4 张新 case 卡内容质量**：通过。
+- **pre-submit / lint（目标卡）**：通过。
+- **#62 整体状态**：因缺少自攻击报告，改为 `changes_requested`，补全后复审。
+
+---
+
+*欧阳锋 2026-07-04*
