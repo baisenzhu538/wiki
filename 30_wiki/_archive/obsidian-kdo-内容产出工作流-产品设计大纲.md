@@ -41,29 +41,26 @@ KDO（Knowledge Delivery Orchestrator）是一款面向内容创作者和知识�
 ## Critique
 
 **对结论1（双模态填补空白）：**
-- src_unknown
-- src_unknown
-- src_unknown
+- 具体假设：Notion/Tana/Mem.ai 不会在 12 个月内推出"本地优先+画布+流水线"组合。如果它们推出，KDO 的差异化窗口就会关闭。
+- 反例：Obsidian 社区已有插件（Dataview、Templater）实现了类似流程纪律，KDO 的八阶段流水线是否真的比这些插件组合更优？
 
 **对结论2（三大支柱）：**
-- src_unknown
-- src_unknown
-- src_unknown
+- 边界：SHA-256 快照+修订链在 2-5 人团队中是否过度设计？如果团队只有 1 人，反馈闭环的维护成本可能超过收益。
+- 前提：AI 每次启动时查询 wiki 恢复上下文——这假设了 wiki 的结构化程度足够高，AI 能正确解析。如果 wiki 质量低，AI 的上下文恢复反而会产生误导。
 
 **对结论3（三类目标用户）：**
-- src_unknown
-- src_unknown
-- src_unknown
+- 具体假设：三类用户共享同一套流程。但深度 Obsidian 用户需要的是"产出纪律"，小型团队需要的是"协作管道"，两者的需求可能不兼容。
+- 反例：如果小型团队更看重实时协作（如飞书文档），KDO 的本地优先架构反而是协作障碍。
 
 **对结论4（Enrich 分级策略）：**
-- src_unknown
-- src_unknown
-- src_unknown
+- 边界：Level 1（无 LLM）结构化提取的最小可行效果未定义。如果 Level 1 只能提取标题和列表，那它的价值是否足以让用户继续使用？
+- 前提：分级策略假设了用户愿意在不同 LLM 可用性之间切换。但实际上用户可能直接弃用 Level 1。
 
 **对结论5（本地优先=长期基础设施）：**
-- src_unknown
-- src_unknown
-- src_unknown
+- 反例：Markdown 标准本身在演化（Obsidian Flavored Markdown、MDX 等），"纯 Markdown 存储"并不能保证十年后的可读性。
+- 边界：断网环境运转的前提是本地 LLM（如 Ollama）能力足够。如果本地模型能力远低于云端，产出的内容质量会显著下降。
+
+**前提与边界**：以上质疑基于 2025 年中的工具生态快照。KDO 的核心假设——"创作者需要画布+流水线双模态"——在 AI 原生工具（如 Cursor、v0）快速演化的背景下可能需要重新验证。如果 AI 原生工具内建了类似的结构化产出能力，KDO 作为"外挂层"的定位就会被削弱。
 
 ## Synthesis
 
