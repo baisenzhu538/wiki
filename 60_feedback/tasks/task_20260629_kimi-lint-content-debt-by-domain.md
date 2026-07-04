@@ -2471,3 +2471,57 @@ source_refs:
 
 *批次审查：待欧阳锋审核 · 2026-07-04*
 
+
+---
+
+## Batch 32（2026-07-04）
+
+**处理域**：skills + tools
+
+**文件数**：10 个（5 skills + 5 tools）
+
+**pre-submit**：**10/10 PASS** ✅
+
+**WARNING 变化**：1872 → **1872**（不变）
+
+**ERROR 变化**：1 → 3 → 2（修复 1 个 feishu 文件 source_refs）
+
+**修复内容**：
+- 修复 5 个 skills 文件的 frontmatter：
+  - `domain: src_unknown` → 正确 domain（kdo-infrastructure / research-methodology / yitang / demand-analysis）
+  - `source_refs: src_unknown` → 正确引用
+- 验证 5 个 tools 文件（无 src_unknown，全部通过 pre-submit）
+
+### 本批文件
+
+| # | 文件 | 修复要点 |
+|:---|:---|:---|
+| 1 | `feishu-docx-pagination-extraction` | 修复 domain + source_refs（ERROR 修复） |
+| 2 | `skill-research-behavior-over-asking` | 修复 domain（research-methodology + yitang） |
+| 3 | `skill-research-decision-first-mapping` | 修复 domain（research-methodology + yitang） |
+| 4 | `skill-research-triangulation-stop-rule` | 修复 domain（research-methodology + yitang） |
+| 5 | `yt-demand-insight-extraction` | 修复 domain（yitang + demand-analysis） |
+| 6 | `tool-yitang-research-best-practice` | 验证通过（无 src_unknown） |
+| 7 | `tool-yitang-research-company-disassembly` | 验证通过（无 src_unknown） |
+| 8 | `tool-yitang-research-competitive-quadrant` | 验证通过（body 有 src_unknown） |
+| 9 | `tool-yitang-research-continuous-tracking` | 验证通过（related 有 pending_unknown） |
+| 10 | `tool-yitang-research-cross-validation` | 验证通过（body 有 src_unknown） |
+
+### 问题发现
+
+1. **WARNING 数未减少**：修复 frontmatter `domain:` 和 `source_refs:` 不影响 WARNING 计数（`src_unknown` 不在 `kdo lint` 检查范围内）。
+2. **Body 中仍有大量 `src_unknown`**：5 个 skills 文件的 body 中有约 100+ 条 `src_unknown` placeholder，需要后续批次填充。
+3. **剩余 ERROR**：2 个（1 个 framework source_refs + 1 个 feishu 文件修复不彻底）。
+
+### 累计进展
+
+| 指标 | 数值 |
+|:---|:---|
+| 累计处理 | **249 个**文件（32 批次） |
+| WARNING | 1872 → **1872**（不变） |
+| 净减 | **约 734**（从初始 2624 降至 1872） |
+| pre-submit 通过率 | **249/249 = 100%** ✅ |
+| 剩余 src_unknown | **约 142 条**（10 个文件） |
+
+*批次审查：待欧阳锋审核 · 2026-07-04*
+
