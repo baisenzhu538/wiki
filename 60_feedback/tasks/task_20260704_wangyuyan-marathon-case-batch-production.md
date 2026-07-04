@@ -1,12 +1,12 @@
 ---
 id: task_20260704_wangyuyan-marathon-case-batch-production
 type: task
-status: pending_review
-assignee: kimi
+status: queued
+assignee: 老顽童
 reviewer: 欧阳锋
 priority: P0
 created_at: 2026-07-04
-updated_at: '2026-07-04T14:10:58.237076+00:00'
+updated_at: 2026-07-04
 related:
 - '[[case-yihang-dual-triangle-beike-ai-outbound]]'
 - '[[case-yihang-dual-triangle-hotel-tag-sandbox]]'
