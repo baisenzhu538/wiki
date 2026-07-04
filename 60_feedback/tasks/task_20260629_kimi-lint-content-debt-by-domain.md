@@ -1217,10 +1217,32 @@ source_refs:
 - 仓库在 2026-07-04 期间有其他人员新增了约 12 个双三角系列 case 卡，这些 case 卡缺少 case 标准 section（关键证据/可迁移场景/教训/失败模式），导致 42 个新 ERROR 和部分新 WARNING。这些不在本批处理范围内。
 - 建议欧阳锋审查时关注这些新增 case 卡的合规性，必要时将其纳入 #28 或其他独立任务处理。
 
-### 下一轮计划
+### 第十四批修复（2026-07-04 续）
 
-- 继续 yitang 域月白系列 tool 卡清理（仍有 15+ 个 4-WARNING 文件待处理）
-- 或按欧阳锋审查意见调整方向
+**处理域**：yitang（通用 + Truman AI 系列 tool 卡）
+
+| # | 文件 | 类型 | pre-submit |
+|:---|:---|:---|:---|
+| 1 | tool-模型匹配调度 | Type A | PASS ✅ |
+| 2 | tool-最佳实践池子 | Type A+步骤 | PASS ✅ |
+| 3 | tool-最佳实践收集 | Type A+步骤 | PASS ✅ |
+| 4 | tool-数据分层供给 | Type A | PASS ✅ |
+| 5 | tool-敏捷发布快速迭代搭建体系 | Type A | PASS ✅ |
+| 6 | tool-推行分层标准化策略 | Type A | PASS ✅ |
+| 7 | tool-按月份摊销收入成本做计划 | Type A | PASS ✅ |
+| 8 | tool-思维验证交叉检验 | Type A | PASS ✅ |
+| 9 | tool-思维链显化推理 | Type A | PASS ✅ |
+| 10 | tool-快招品牌总部模拟调研 | Type A | PASS ✅ |
+
+**修复后全量 WARNING**：2193 → **2161**（↓32）
+
+**修复模式**：
+- Type A（8 文件）：填充「目的」「不要用的场景」「质疑」
+- Type A+步骤（2 文件）：填充「目的」「操作步骤」「不要用的场景」「质疑」
+
+**外部攻击者引用**：Tim Dettmers、Jeff Dean、Jared Spool、Erika Hall、Don Norman、Marty Cagan、Yann LeCun、Lilian Weng、Eric Ries、W. Edwards Deming、Clayton Christensen、Michael Porter、Howard Marks、Aswath Damodaran、Gary Marcus、Andrej Karpathy、Subbarao Kambhampati、Melanie Mitchell、Steve Blank、Rita McGrath
+
+**累计**：140 文件，WARNING 2624→2161，净减 463
 
 ---
 
@@ -1255,6 +1277,65 @@ source_refs:
 - **第十批 10 张月白 design tool 卡**：通过。
 - **累计 100 文件**：全部通过欧阳锋批次审查。
 - 建议继续按当前节奏处理 yitang 域剩余月白 tool 卡，同时单独处理 cases 域新增 ERROR。
+
+---
+
+## 第十一批 月白 design tool 卡处理记录（2026-07-04 续）
+
+> 注：用户消息中列出的清单与第十批完全重合；经按文件实际修改时间复核，本批实际处理的是以下 10 个最新修改的月白 design tool 卡。
+
+**处理域**：yitang（月白设计系列续）
+
+| # | 文件 | 类型 | pre-submit |
+|:---|:---|:---|:---|
+| 1 | tool-月白-A-B双轨反推模式选择 | Type B | PASS ✅ |
+| 2 | tool-月白-AIGC人群画像驱动详情页规划 | Type B | PASS ✅ |
+| 3 | tool-月白-AIGC反向拆解法 | Type B | PASS ✅ |
+| 4 | tool-月白-AIGC生成人物证件照 | Type B | PASS ✅ |
+| 5 | tool-月白-AI图片去文字处理 | Type B | PASS ✅ |
+| 6 | tool-月白-AI对话式海报修改（免PS） | Type B | PASS ✅ |
+| 7 | tool-月白-AI对话情绪管理法 | Type B | PASS ✅ |
+| 8 | tool-月白-AI归纳共性描述法 | Type B | PASS ✅ |
+| 9 | tool-月白-AI智价比评估决策 | Type B | PASS ✅ |
+| 10 | tool-月白-AI生成IP表情包 | Type B | PASS ✅ |
+
+**修复模式**：填充「目的」+「质疑」section，每条质疑含 2 位外部攻击者（`**Name Surname**` 格式）。
+
+**外部攻击者引用**：Ellen Lupton、Dunne & Raby、Christian Madsbjerg、Julie Zhuo、Lucy Suchman、Ethan Mollick 等。
+
+---
+
+## 欧阳锋批次审查：2026-07-04 yitang 域第十一批 10 张月白设计系列 Type B tool 卡
+
+### 审查动作
+
+1. 复核用户清单与文件实际修改时间，确认本批实际文件列表。
+2. 抽检 `tool-月白-A-B双轨反推模式选择.md` 等 3 个文件的 `## 目的` 与 `## 质疑` section。
+3. 对 10 个文件运行 `kdo pre-submit --files`。
+4. 对 `design` domain 运行 `kdo lint --domain design`，过滤本批 10 个文件相关的 ERROR/WARNING。
+5. 将 10 个文件的 `reviewed_by` 从 `pending` 改为 `欧阳锋`，补充 `reviewed_at`。
+
+### 审查结果
+
+| 检查项 | 结果 |
+|---|---|
+| 10/10 文件 pre-submit | **PASS** ✅ |
+| 本批 10 个文件 lint ERROR | **0** ✅ |
+| 本批 10 个文件 lint WARNING | **0** ✅ |
+| `## 目的` section | 10/10 已填充 |
+| `## 质疑` section | 10/10 已填充，含关键术语 + 2 位外部攻击者 |
+| `reviewed_by` | 已更新为 `欧阳锋` |
+
+### 观察项
+
+- `design` domain lint 当前为 **0 ERROR / 74 WARNING**（本批处理前为 4 ERROR / 83 WARNING），本批 10 个文件对 design 域有直接降噪贡献。
+- 全局 `kdo lint --summary` 当前为 **25 ERROR / 2163 WARNING（1937 accepted）**，ERROR 下降来自 cases 域部分修复；本批 tool 卡不引入新 ERROR。
+- 10 张 tool 卡仍有大量 `src_unknown` 占位 section，属 #28 剩余长期债务。
+
+### 结论
+
+- **第十一批 10 张月白 design tool 卡**：通过。
+- 建议继续处理剩余月白 4-WARNING 文件，并持续关注 cases 域新增 ERROR。
 
 ---
 

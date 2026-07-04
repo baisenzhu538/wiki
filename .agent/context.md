@@ -9,10 +9,11 @@ blockers:
   - "#60 queue_transition 修复（2026-07-04）：欧阳锋重审通过；7/7 tests passed；#61 已释放，但 #60 仍为 queued 状态，需黄药师运行 `queue_transition.py complete` 后，欧阳锋才能正式 review"
   - "#59 Agent Prompt 编译器（2026-07-04）：欧阳锋终审通过；编译器代码通过，3 个试点编译产物 pre-submit PASS；产生 2 项微债务，已由王语嫣开 #62 跟进"
   - "#62 Agent Prompt 设计规范微债务（2026-07-04）：已入队，assignee 黄药师；补充 agent-native-card-design.md 三层编译章节与 source 字段规范；P2"
-  - "#63 一行双三角第二批案例补产（2026-07-04）：已入队，assignee 老顽童(Kimi)；基于王语嫣第一批 14 张卡和 4 张占位卡，补产天末/阿豪/花总/陈天 4 张 case 卡，并交叉检查第一批卡；P1"
+  - "#63 一行双三角第二批案例补产（2026-07-04）：pending_review，assignee 老顽童(Kimi)；基于王语嫣第一批 14 张卡和 4 张占位卡，补产天末/阿豪/花总/陈天 4 张 case 卡，并交叉检查第一批卡；P1"
+  - "#64 双三角画布 Agent CLI 交付（2026-07-04）：已入队，assignee 黄药师，reviewer 欧阳锋；王语嫣先完成 agent-spec v2，黄药师再动工实现 CLI；飞书/Hermes Agent 入停车场；P1"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
 
-next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`，然后欧阳锋 review 为 reviewed；② 黄药师按队列领取 #62；③ 老顽童按队列领取 #63；④ workbuddy 在空闲时分批处理 #28。"
+next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`，然后欧阳锋 review 为 reviewed；② 王语嫣完成 #64 的 agent-spec v2；③ 黄药师按队列领取 #62，并在 agent-spec v2 完成后动工 #64；④ 老顽童等待 #63 终审；⑤ workbuddy 在空闲时分批处理 #28。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
