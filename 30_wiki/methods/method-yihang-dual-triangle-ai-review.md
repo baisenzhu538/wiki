@@ -2,9 +2,10 @@
 id: method-yihang-dual-triangle-ai-review
 title: 双三角 AI 辅助复盘法：让 AI 拆解你自己的协作过程
 type: method
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-05
 confidence: 0.88
 trust_level: high
 language: zh-CN

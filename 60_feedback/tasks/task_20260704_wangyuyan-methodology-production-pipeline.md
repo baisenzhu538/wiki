@@ -1,16 +1,18 @@
 ---
 id: task_20260704_wangyuyan-methodology-production-pipeline
 type: task
-status: queued
-assignee: 老顽童
+status: reviewed
+assignee: claude
 reviewer: 欧阳锋
 priority: P2
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04T17:17:29.224641+00:00'
 related:
 - '[[dk-yihang-scientific-community-moat]]'
 - '[[concept-yihang-research-driven-company]]'
 - '[[framework-yihang-dual-triangle-core]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-04'
 ---
 
 # 任务 #86：方法论生产流水线 concept 卡

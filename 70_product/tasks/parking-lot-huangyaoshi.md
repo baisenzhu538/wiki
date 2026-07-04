@@ -26,7 +26,8 @@ owner: 黄药师
 | P-9 | **多库架构设计**：四库拓扑（主库+个人OS+销售域+项目管理）。`30_wiki/decisions/plan_20260701_kdo-multi-repo-architecture.md` | 黄药师 2026-07-01 | P2 | 待定 | 待讨论 | 需用户详细梳理后讨论 |
 | P-10 | **跨域模式层**：一堂课程表面独立、底层共享同一套方法论（"分层+匹配"模式在需求冰山/工作深度/用户分层/能力阶梯中重复出现五次以上）。建 `30_wiki/cross-domain-patterns/` 索引目录，每张索引记录一个底层模式在哪些域、哪些卡中被用到及用法差异。首批三个模式：`pattern-layered-matching`（分层+匹配）、`pattern-hypothesis-validation`（假设+验证）、`pattern-tool-vs-model`（工具迷信→自己建模）。不需要新概念卡——只做已有卡片的连接索引 | 用户 2026-07-01 | P1 | 1-2d | 待排期 | 等AI+商业域内容先堆上来再启动 |
 | P-8 | **content-production-polish → v2 后续**：Vikki 的 4 标准（听得懂/听得下去/信得过/用得上）可转化为 `kdo validate` 的内容质量 gate。等 12 张 dk 卡入库后，基于萃取结果设计 WARN 规则 | 黄药师 2026-06-29 | P3 | 待定 | 待讨论 | 依赖王语嫣派老顽童萃取 12 张 dk 卡 |
-| P-11 | **Y模型 Deferred 项**（欧阳锋 #52 审查建议）：`is_root_node` / `replaces` / `deprecated_by` schema 字段、deprecation lint 规则、显式 GraphRAG 边类型、`system-kdo-factory-as-Y-model` 文档。Phase shift 后基建重心是维护闭环，这些字段暂时不进 schema——等 Agent 闭环跑通后再评估 | 欧阳锋 2026-07-03 | P2 | 待定 | 待评估 | 标签 `post-agent-loop` |
+| P-11 | **Y模型 Deferred 项**（欧阳锋 #52 审查建议） | 欧阳锋 2026-07-03 | P2 | 待定 | 待评估 | 标签 `post-agent-loop` |
+| P-12 | **Agent Trace 回放自动验证**：`agent-trace.py` 已支持存取，但对比仍需手动。同一场景积累 3+ 次迭代后，自动回放历史 trace 到 Agent，验证"上次漏掉的这次修好了吗"。等 agent-trace 数据积累到 3+ 次后再建 | 黄药师 2026-07-05 | P2 | 待定 | 依赖 agent-trace 积累 ≥3 次迭代 |
 
 ---
 
