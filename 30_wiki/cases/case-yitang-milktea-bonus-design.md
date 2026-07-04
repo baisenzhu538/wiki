@@ -2,14 +2,14 @@
 id: case-yitang-milktea-bonus-design
 title: 案例：奶茶店奖金——追问"发奖金的本质"重构薪酬设计
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 source_refs:

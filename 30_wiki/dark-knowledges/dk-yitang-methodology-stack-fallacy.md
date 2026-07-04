@@ -2,14 +2,14 @@
 id: dk-yitang-methodology-stack-fallacy
 title: 方法论金句堆叠乱用，不如不懂
 type: dk
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 - decision-science

@@ -2,14 +2,14 @@
 id: case-yitang-course-start-time-evolution
 title: 案例：一堂开课时间——从"同行七八点"到"用户真正需要九点"
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 source_refs:

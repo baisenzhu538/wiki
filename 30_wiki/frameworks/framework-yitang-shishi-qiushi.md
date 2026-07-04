@@ -3,7 +3,7 @@
 id: framework-yitang-shishi-qiushi
 title: 实事求是：把「我希望是真的」和「事实是什么」分开
 type: framework
-status: enriched
+status: reviewed
 domain:
 - epistemic-foundations
 - decision-science
@@ -31,7 +31,7 @@ related:
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 created_at: 2026-07-03
-updated_at: '2026-07-03'
+updated_at: '2026-07-04'
 
 ---
 

@@ -2,10 +2,10 @@
 id: framework-strategy-brm
 title: 冉鹏版 BRM 框架（源于 IBM BLM 方法论）
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: 2026-06-21
+review_date: 2026-07-04
 created_at: 2026-06-21
 confidence: 0.9
 trust_level: high
@@ -33,7 +33,7 @@ source_refs:
 related:
 - tool-strategy-gap-analysis
 - case-strategy-exit-remove
-updated_at: '2026-06-29'
+updated_at: '2026-07-04'
 ---
 # 冉鹏版 BRM 框架（源于 IBM BLM 方法论）
 

@@ -2,14 +2,14 @@
 id: case-yitang-truman-time-management-transformation
 title: 案例：Truman 用 Y模型 重构时间管理——从被动打断到科学体系
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 - personal-os

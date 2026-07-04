@@ -2,14 +2,14 @@
 id: case-yitang-aquaculture-stress-protection
 title: 案例：水产养殖——从行业经验到学科原理的上层创新
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 source_refs:

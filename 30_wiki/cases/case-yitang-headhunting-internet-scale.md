@@ -2,14 +2,14 @@
 id: case-yitang-headhunting-internet-scale
 title: 案例：猎头互联网做大——忽视行业结构性限制
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.82
 trust_level: medium
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 - decision-science

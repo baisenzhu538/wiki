@@ -2,14 +2,14 @@
 id: case-yitang-live-commerce-scale-misjudgment
 title: 案例：直播电商规模误判——以电视购物做类比导致以偏概全
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 - decision-science

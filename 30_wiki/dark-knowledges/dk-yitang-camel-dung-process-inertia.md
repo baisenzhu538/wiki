@@ -2,14 +2,14 @@
 id: dk-yitang-camel-dung-process-inertia
 title: 流程经验不与底层原因对齐，会长期低效存在
 type: dk
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.90
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 source_refs:

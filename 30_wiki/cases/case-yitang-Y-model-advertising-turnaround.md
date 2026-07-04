@@ -2,7 +2,7 @@
 id: case-yitang-Y-model-advertising-turnaround
 title: 一堂抖音 AD 投放扭亏：Y模型科学投放实战
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85
@@ -30,7 +30,7 @@ related:
 - yt-business-formula-six-level-logic
 - yt-five-step-method
 created_at: 2026-07-03
-updated_at: '2026-07-03'
+updated_at: '2026-07-04'
 ---
 # 一堂抖音 AD 投放扭亏：Y模型科学投放实战
 

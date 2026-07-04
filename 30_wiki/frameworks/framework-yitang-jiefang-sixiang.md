@@ -3,7 +3,7 @@
 id: framework-yitang-jiefang-sixiang
 title: 解放思想：不被行业常识和既有框架绑架
 type: framework
-status: enriched
+status: reviewed
 domain:
 - epistemic-foundations
 - decision-science
@@ -31,7 +31,7 @@ related:
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 created_at: 2026-07-03
-updated_at: '2026-07-03'
+updated_at: '2026-07-04'
 
 ---
 

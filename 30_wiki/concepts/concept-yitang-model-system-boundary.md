@@ -2,14 +2,14 @@
 id: concept-yitang-model-system-boundary
 title: 体系与模型边界：每个模型都有内涵、成本和适用域
 type: concept
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 - decision-science

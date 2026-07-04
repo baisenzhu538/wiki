@@ -2,14 +2,14 @@
 id: dk-yitang-over-abstraction
 title: 过度抽象无法指导工作，就失去意义
 type: dk
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 - decision-science

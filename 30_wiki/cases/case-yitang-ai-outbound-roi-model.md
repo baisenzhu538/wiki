@@ -2,14 +2,14 @@
 id: case-yitang-ai-outbound-roi-model
 title: 案例：AI 外呼——ROI模型统一"真人 vs. AI"矛盾经验
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 - ai-collaboration

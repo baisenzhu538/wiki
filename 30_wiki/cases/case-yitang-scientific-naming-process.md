@@ -2,14 +2,14 @@
 id: case-yitang-scientific-naming-process
 title: 案例：科学起名——用 Y模型 把「玄学」变成可验证流程
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 - decision-science

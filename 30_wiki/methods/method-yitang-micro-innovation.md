@@ -2,14 +2,14 @@
 id: method-yitang-micro-innovation
 title: 破除创新迷信：小范围流程级创新同样有效
 type: method
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 source_refs:

@@ -2,10 +2,10 @@
 id: framework-demand-iceberg
 title: 需求洞察冰山模型：L1-L6六层深度推演框架
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: 2026-06-21
+review_date: 2026-07-04
 created_at: 2026-06-21
 confidence: 0.92
 trust_level: high
@@ -23,7 +23,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - framework-demand-lean-bridge
-updated_at: '2026-06-29'
+updated_at: '2026-07-04'
 ---
 # 需求洞察冰山模型
 

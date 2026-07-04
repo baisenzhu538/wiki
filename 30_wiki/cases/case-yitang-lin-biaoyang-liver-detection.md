@@ -2,14 +2,14 @@
 id: case-yitang-lin-biaoyang-liver-detection
 title: 案例：林标阳肝病检测——L5 学科层推翻商业层二三十年惯例
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04'
 domain:
 - yitang
 source_refs:
