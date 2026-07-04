@@ -43,6 +43,10 @@ related:
 - [[dk-yihang-dual-triangle-strategic-bet]]：双三角作为战略操作系统——操作系统需要社区来跑应用。
 
 
+## 操作方法
+
+待补充（src_unknown）
+
 ## 适用边界
 
 待补充（src_unknown）
