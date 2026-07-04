@@ -44,13 +44,10 @@ png` 一堂五步法画布YitangFive-stepCanvas 假设 需求 解决方案 商�
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 具体假设：假设→需求→解决方案→商业模式→增长/壁垒可以按顺序逐步验证。但 Christensen 证明增长和壁垒天然对立，合并处理可能让创业者忽略根本性张力。
+- 边界：本画布适用于有清晰商业模式的创业项目，不适用于探索期或公益类项目。
+- 反例：在技术变革加速的时代，投入大量资源构建壁垒可能使企业变得僵化，McGrath 认为持续竞争优势已不复存在。
+- 前提：创业者能在"假设"阶段就识别出未来的壁垒——但很多壁垒是在执行过程中偶然涌现的。
 
 ## Critique
 

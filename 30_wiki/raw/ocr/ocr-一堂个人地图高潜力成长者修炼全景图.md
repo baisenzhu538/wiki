@@ -50,15 +50,10 @@ png` 一堂个人地图：高潜力成长者修炼全景地图 YITANGPERSONALGRO
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 具体假设：个人成长可以被编码为"基础→迭代→领先→追求"四层金字塔。但"天花板"隐喻暗含"越高越好"的价值观，排斥了横向拓展或向下扎根的成长路径。
+- 边界：本地图适用于追求职场晋升的高潜力成长者，不适用于追求生活平衡或深度专精的人群。
+- 反例：许多高成就者通过"降维"（如从高管回归手艺）实现了更大的满足感和影响力——图中没有任何向下的视觉通道。
+- 前提：学习者有足够的时间和资源完成所有层级的修炼——但"时间管理"本身被放在基础层，说明时间稀缺是普遍约束。
 
 
 ## Critique

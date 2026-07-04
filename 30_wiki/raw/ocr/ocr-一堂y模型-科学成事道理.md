@@ -45,14 +45,10 @@ png` 一堂Y模型：科学成事道路 堂 YitangYModel:ScientificPathToSuccess
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 具体假设："理论-事实-认知"三元结构能覆盖所有成事路径。但情感、运气、社会资本等关键因素被排除在外。
+- 边界：本模型适用于有明确问题和目标的理性决策场景，不适用于探索性或情感驱动的选择。
+- 反例：按 Y 模型严格执行的创业者仍然大量失败，说明"成事道理"的因果链可能存在不可控的中间变量。
+- 前提："实事求是"和"知行合一"可以被标准化操作——但这两个概念本身就是高度依赖语境的实践智慧。
 
 ## Critique
 

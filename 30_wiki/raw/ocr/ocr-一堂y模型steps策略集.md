@@ -49,13 +49,10 @@ png` 一堂Y模型STEPS策略集VO.
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 具体假设：STEPS 五模块（Scope/Target/Element/Predict/Support）可以覆盖所有创业策略场景。但不同行业的策略关键维度差异巨大。
+- 边界：本框架适用于有明确商业模式的早期创业项目，不适用于探索期或转型期企业。
+- 反例：同时追求"长期激励"和"短期反馈"两个目标在资源有限时天然对立，框架未提供取舍规则。
+- 前提：3-5 个模块的认知负荷对创业者是可承受的——但 Simon 的有限理性理论表明，同时处理 2 个以上目标就会降低决策质量。
 
 ## Critique
 

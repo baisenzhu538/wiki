@@ -52,14 +52,10 @@ Mintzberg 在《策略进程的各个层次》中指出，战略是“形成中�
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 具体假设：评估三角形的三个维度（ROI/机会成本/机会窗口）可以被同时定量计算。但机会窗口的"关闭时间"在实际中几乎无法预测。
+- 边界：本框架适用于有历史数据支撑的成熟业务决策，不适用于探索性创新项目。
+- 反例：高 ROI 但窗口极短的项目，三角形框架无法给出明确取舍规则，最终仍靠直觉拍板。
+- 前提：决策者能准确估算"最佳替代方案"的机会成本——但这在不确定性极高的创业环境中几乎不可能。
 
 ## Synthesis
 

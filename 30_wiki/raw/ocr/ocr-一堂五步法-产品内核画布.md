@@ -48,13 +48,10 @@ png` 堂五步法实操·产品内核画布 堂 YitangFive-stepPracticalOperatio
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 具体假设：产品内核可以通过"加法（备选假设）→减法（核心假设）→验证（迭代认知）"的三步流程确定。但核心假设的取舍标准未明确定义。
+- 边界：本画布适用于有明确目标用户和可量化指标的数字产品，不适用于制度设计或个人知识体系等"风险性手艺"对象。
+- 反例：将确定性手艺的"快速验证"方法论迁移到风险性手艺（如制度设计）上，可能导致用手术刀切豆腐的效果。
+- 前提：决策者能准确识别"决定产品质量的 1-3 个关键转化率"——但这本身就需要深度的行业认知。
 
 
 ## Critique

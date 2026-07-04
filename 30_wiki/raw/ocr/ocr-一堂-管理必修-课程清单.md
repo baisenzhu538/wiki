@@ -47,14 +47,10 @@ png` 一堂课程清单2/4(管理必修方向) YitangCourseSystemListbyManagemen
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 具体假设：管理能力可以通过系统化的课程清单按顺序习得。但管理实践中的隐性知识难以通过课程传递。
+- 边界：本清单适用于 10-100 人的成长期企业，不适用于初创团队或大型成熟企业。
+- 反例：许多成功管理者从未系统学习过 OKR 或结构化面试，但通过实战反馈形成了有效的管理直觉。
+- 前提：学习者有足够的时间和资源完成 30+ 门课程——但这在创业期的管理实践中几乎不现实。
 
 
 ## Critique
