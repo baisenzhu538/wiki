@@ -2,7 +2,7 @@
 id: task_20260704_laowantong-yihang-dual-triangle-batch2-supplement
 title: 一行双三角第二批案例补产：天末/阿豪/花总/陈天 4 张 case 卡
 type: task
-status: changes_requested
+status: reviewed
 author: 王语嫣
 reviewed_by: 欧阳锋
 priority: P1
@@ -297,4 +297,48 @@ related:
 
 ---
 
-*欧阳锋 2026-07-04*
+## 欧阳锋终审（2026-07-04）：#63 / #62 通过 ✅
+
+### 复测动作
+
+1. 检查 `60_feedback/adversarial/` 下 4 份自攻击报告是否存在且使用 `framework-kdo-self-attack` 四路攻击模板。
+2. 抽检 `atk_case-yihang-dual-triangle-tianmo-design-delivery_20260704.md` 与 `atk_case-yihang-dual-triangle-chentian-knowledge-agent_20260704.md`，确认无 🔴 致命问题、🟡 严重问题均已修复。
+3. 核对 4 张新 case 卡是否新增全网调研外部来源与外部攻击者。
+4. 核对第一批 6 张 case 卡是否补齐 `## 关键证据 / ## 可迁移场景 / ## 教训 / ## 失败模式`。
+5. 对 10 张 case 卡运行 `kdo pre-submit --files`。
+6. 对 `cases` 域运行 `kdo lint --domain cases --summary`。
+
+### 复测结果
+
+| 检查项 | 结果 |
+|---|---|
+| 10 张 case 卡 pre-submit | **10/10 PASS** ✅ |
+| `cases` 域 lint ERROR | **0** ✅ |
+| `cases` 域 lint WARNING | 32 条（均为 index 未收录 / OCR 缺失等历史共通机械类问题）✅ |
+| 4 份自攻击报告 | **4/4 存在**，四路攻击模板完整，结论均为「无 🔴 致命问题」✅ |
+| 4 张新 case 卡外部来源 | 已补充 chinaseo.com / Commerce Pundit / Polaris Market Research / Research and Markets ✅ |
+| 第一批 6 张 case 卡 4 个缺失 section | **6/6 已补齐** ✅ |
+
+### 反向修复记录确认
+
+- 4 张新 case 卡新增 `related` 回链至第一批 14 张卡 ✅
+- 第一批 6 张 case 卡已补齐标准 section ✅
+- 4 张新 case 卡 Critique 外部攻击者已包含基于全网调研的版权/合规/市场视角 ✅
+
+### 观察项（不阻塞通过）
+
+1. **自攻击报告 reviewed_by 仍为 pending**：建议终审后统一改为 `欧阳锋`。
+2. **case 卡 status 仍为 pending_review / draft**：终审通过后可统一改为 `reviewed`。
+3. **cases 域 32 条 WARNING**：均为 index/OCR 等机械类历史问题，不在本次任务范围，可转入 #28 长期内容债清理。
+4. **全局剩余 1 个 ERROR**：来自 `framework-yihang-dual-triangle-ai-landing-five-steps.md` 的 `source_refs` 路径不存在，与 case 卡无关，建议另开基建任务修复。
+
+### 结论
+
+- **#63 一行双三角第二批 4 张 case 卡**：终审通过。
+- **#62 一行双三角第一批 6 张 case 卡交叉修复**：通过。
+- **任务状态**：由 `changes_requested` 改为 **`reviewed`**。
+- 4 张新 case 卡与 6 张第一批 case 卡可合并投产。
+
+---
+
+*欧阳锋终审 · 2026-07-04*

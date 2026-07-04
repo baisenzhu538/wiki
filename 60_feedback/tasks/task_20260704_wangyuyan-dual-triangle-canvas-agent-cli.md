@@ -16,7 +16,7 @@ related:
 - "[[method-dual-triangle-flywheel-engine]]"
 ---
 
-# 任务 #64：双三角画布 Agent CLI 交付
+# 双三角画布 Agent CLI 交付
 
 ## 目标
 

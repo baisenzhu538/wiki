@@ -10,10 +10,13 @@ blockers:
   - "#59 Agent Prompt 编译器（2026-07-04）：欧阳锋终审通过；编译器代码通过，3 个试点编译产物 pre-submit PASS；产生 2 项微债务，已由王语嫣开 #62 跟进"
   - "#62 Agent Prompt 设计规范微债务（2026-07-04）：已入队，assignee 黄药师；补充 agent-native-card-design.md 三层编译章节与 source 字段规范；P2"
   - "#63 一行双三角第二批案例补产（2026-07-04）：pending_review，assignee 老顽童(Kimi)；基于王语嫣第一批 14 张卡和 4 张占位卡，补产天末/阿豪/花总/陈天 4 张 case 卡，并交叉检查第一批卡；P1"
-  - "#64 双三角画布 Agent CLI 交付（2026-07-04）：已入队，assignee 黄药师，reviewer 欧阳锋；王语嫣先完成 agent-spec v2，黄药师再动工实现 CLI；飞书/Hermes Agent 入停车场；P1"
+  - "#64 Truman 飞书 To slide PPT 迭代案例卡（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P0；王语嫣入口标注已完成，必须含人物/动作/时间线和 Y模型 循环映射"
+  - "#65 Y模型 × 双三角协同工作法框架卡（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P0；把双三角是 Y模型 在 AI 协作领域的框架性认识变成可调用资产"
+  - "#66 人在环与双三角关系说明卡（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；澄清原则 ↔ 能力关系"
+  - "#67 双三角画布 Agent CLI 交付（2026-07-04）：已入队，assignee 黄药师，reviewer 欧阳锋；P1；王语嫣不再直接写 agent-spec v2，建议等 #64/#65 完成后再由老顽童/黄药师确定最终版本；飞书/Hermes Agent 入停车场"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
 
-next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`，然后欧阳锋 review 为 reviewed；② 王语嫣完成 #64 的 agent-spec v2；③ 黄药师按队列领取 #62，并在 agent-spec v2 完成后动工 #64；④ 老顽童等待 #63 终审；⑤ workbuddy 在空闲时分批处理 #28。"
+next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`，然后欧阳锋 review 为 reviewed；② 老顽童按队列领取 #64/#65（P0 优先）；③ 黄药师按队列领取 #62，#67 建议等 #64/#65 完成后启动；④ 欧阳锋终审 #63；⑤ workbuddy 在空闲时分批处理 #28。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
