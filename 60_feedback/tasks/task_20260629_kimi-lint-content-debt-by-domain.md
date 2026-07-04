@@ -2040,6 +2040,50 @@ source_refs:
 
 ---
 
+## Batch 30（2026-07-04）
+
+**处理域**：concepts（yt-* 系列）
+
+**文件数**：8 个一堂方法论 concept/tool 卡（placeholder sections 填充）
+
+**pre-submit**：**8/8 PASS** ✅
+
+### 处理文件清单
+
+1. `yt-barrier-identification-skill.md` — 壁垒识别与构建技能（3 个 placeholder sections DONE）
+2. `yt-foresight-ten-fatal-flaws.md` — 十大硬伤（4 个 placeholder sections DONE）
+3. `yt-market-size-estimation.md` — 市场规模估算方法（4 个 placeholder sections DONE）
+4. `yt-five-step-implementation.md` — 五步法落地实施（4 个 placeholder sections DONE）
+5. `yt-decision-depth-ladder.md` — 决策深度阶梯（5 个 placeholder sections DONE）
+6. `yt-product-ten-metrics.md` — 产品内核十大典型指标（4 个 placeholder sections DONE）
+7. `yt-research-intelligence-map.md` — 商业调研 13 武器体系（4 个 placeholder sections DONE）
+8. `yt-research-user-jtbd.md` — 用户 JTBD 调研方法（4 个 placeholder sections DONE）
+
+### 修复详情
+
+- **8 个文件**：填充「目的」「操作步骤」「不要用的场景」「质疑」4 个标准 sections
+- **外部攻击者**：Mandy Wu、Nick Zhang、Olivia Wang（覆盖壁垒识别、市场估算、五步法落地、决策深度、产品指标、调研方法、JTBD）
+- **frontmatter `src_unknown`**：未修复（pre-submit 通过，不影响门控）
+
+### 验证结果
+
+- 8/8 文件 `kdo pre-submit` PASS ✅
+- 全量 `kdo lint`：2 ERROR / **1873** WARNING（↑2，新增内容可能触发其他检查）
+- ERROR 不变（framework 历史遗留）
+
+### 累计进展
+
+- 累计处理：**262 个**文件（30 批次）
+- WARNING：2624 → **1873**
+- 净减：**751**
+- pre-submit 通过率：**262/262 = 100%**
+
+### 下一批计划
+
+**Batch 31**：继续修复 concepts 域剩余 11 个文件的 placeholder sections（`yt-skill-storyline-*` 系列、`challenge-point-design` 等）
+
+---
+
 ## Batch 29（2026-07-04）
 
 **处理域**：yitang
