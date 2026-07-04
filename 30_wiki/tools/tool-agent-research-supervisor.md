@@ -253,4 +253,7 @@ worker_analyze：
 
 ## 质疑
 
-> 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+- **具体假设**：Supervisor 模式假设"中央协调者能提高输出质量"，但 Supervisor 本身也是 LLM，它的"审核"可能引入新的错误——当 Supervisor 对某个领域不熟悉时，它可能错误地否决正确的 Worker 输出，或放行错误的 Worker 输出。这是该模式的**边界**。
+- **反例**：Supervisor 在 multi-domain 任务中性能下降（LangChain benchmark 已证实），因为 Supervisor 无法在所有领域都做出可靠的质量判断。
+
+**Harrison Chase**（LangChain 创始人）会质疑：Supervisor 的"翻译层"误差不是 bug，而是架构的固有代价——每多一层中介，信息就多一次"有损压缩"。优化选项（`remove_handoff_messages`、`forward_message`）只是减少损失，而非消除损失。真正的问题在于：什么场景下值得为"可靠性"接受这种信息损失？

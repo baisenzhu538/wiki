@@ -2,9 +2,10 @@
 id: method-yihang-knowledge-battle-station
 title: 知识站场：从"试工具→失败→清零"到"建站场→持续积累→花开了"
 type: method
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-05
 confidence: 0.88
 trust_level: high
 language: zh-CN

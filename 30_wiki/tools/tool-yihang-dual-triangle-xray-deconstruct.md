@@ -2,9 +2,10 @@
 id: tool-yihang-dual-triangle-xray-deconstruct
 title: X光拆解：双三角案例逆向工程——从"用了什么工具"到"背后的双三角怎么支撑"
 type: tool
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-05
 confidence: 0.88
 trust_level: high
 language: zh-CN

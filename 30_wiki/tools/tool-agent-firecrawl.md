@@ -95,4 +95,7 @@ curl -X POST https://api.firecrawl.dev/v1/scrape \
 
 ## 质疑
 
-> 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+- **具体假设**：该工具假设"URL → Markdown 的转换是无损的"，但网页中的交互元素（折叠面板、Tab 切换、懒加载内容）在静态抓取时会丢失——Markdown 输出的完整性取决于页面的渲染模式，这是其适用**边界**。
+- **反例**：需要登录才能查看的内容（如 LinkedIn 个人资料、付费墙后的文章），Firecrawl 无法获取——此时"干净 Markdown"只是公开部分的子集。
+
+**Roy Fielding**（Apache HTTP Server 联合创始人，REST 架构风格作者）会质疑：Firecrawl 将网页转为 Markdown 喂给 LLM，但 REST 的核心理念是"超媒体作为应用状态的引擎"（HATEOAS）——剥离超链接后的 Markdown 丢失了状态转移信息，AI 可能做出错误的上下文推断。
