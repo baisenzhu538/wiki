@@ -1339,4 +1339,60 @@ source_refs:
 
 ---
 
+## 第十二批 月白 AI 系列 tool 卡处理记录（2026-07-04 续）
+
+**处理域**：yitang（月白 AI 系列）
+
+| # | 文件 | 类型 | pre-submit |
+|:---|:---|:---|:---|
+| 1 | tool-月白-AI质价比评估方法 | Type B | PASS ✅ |
+| 2 | tool-月白-AI设计反馈萃取法 | Type B | PASS ✅ |
+| 3 | tool-月白-AI设计三段式里程碑流程 | Type B | PASS ✅ |
+| 4 | tool-月白-AI生成IP表情包 | Type B | PASS ✅ |
+| 5 | tool-月白-AI智价比评估决策 | Type B | PASS ✅ |
+| 6 | tool-月白-AI归纳共性描述法 | Type B | PASS ✅ |
+| 7 | tool-月白-AI对话情绪管理法 | Type B | PASS ✅ |
+| 8 | tool-月白-AI对话式海报修改（免PS） | Type B | PASS ✅ |
+| 9 | tool-月白-AI图片去文字处理 | Type B | PASS ✅ |
+| 10 | tool-月白-AIGC生成人物证件照 | Type B | PASS ✅ |
+
+**修复模式**：填充「目的」+「质疑」section，每条质疑含 2 位外部攻击者（`**Name Surname**` 格式）。
+
+**外部攻击者引用**：Don Norman、Kevin Kelly、Gary Marcus、Molly Wright Steenson、John Maeda、Sarah Gibbons 等。
+
+---
+
+## 欧阳锋批次审查：2026-07-04 yitang 域第十二批 10 张月白 AI 系列 Type B tool 卡
+
+### 审查动作
+
+1. 抽检 3 个新进入本批的文件（AI质价比评估方法、AI设计反馈萃取法、AI设计三段式里程碑流程），确认 `## 目的` 与 `## 质疑` 已填充。
+2. 对 10 个文件运行 `kdo pre-submit --files`。
+3. 对 `design` domain 运行 `kdo lint --domain design`，过滤本批 10 个文件相关的 ERROR/WARNING。
+4. 将尚未更新的 3 个文件 `reviewed_by` 改为 `欧阳锋`，补充 `reviewed_at`。
+
+### 审查结果
+
+| 检查项 | 结果 |
+|---|---|
+| 10/10 文件 pre-submit | **PASS** ✅ |
+| 本批 10 个文件 lint ERROR | **0** ✅ |
+| 本批 10 个文件 lint WARNING | **0** ✅ |
+| `## 目的` section | 10/10 已填充 |
+| `## 质疑` section | 10/10 已填充，含关键术语 + 2 位外部攻击者 |
+| `reviewed_by` | 10/10 已更新为 `欧阳锋` |
+
+### 观察项
+
+- `design` domain lint 保持 **0 ERROR / 74 WARNING**，本批 10 个文件无新增问题。
+- 全局 ERROR 从 42 降至 41（用户数据），cases 域部分修复持续进行。
+- 10 张 tool 卡仍有 `src_unknown` 占位 section，属 #28 长期债务。
+
+### 结论
+
+- **第十二批 10 张月白 AI 系列 tool 卡**：通过。
+- 建议继续清理剩余月白 4-WARNING 文件，并跟进 cases 域 ERROR。
+
+---
+
 ## 欧阳锋批次审查：2026-06-29 yitang 域第十批 10 张月白设计系列 Type B tool 卡
