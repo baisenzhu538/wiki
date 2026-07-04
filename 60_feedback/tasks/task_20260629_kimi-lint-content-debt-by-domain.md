@@ -2697,13 +2697,27 @@ source_refs:
 
 | 指标 | 数值 |
 |:---|:---|
-| 累计处理 | **475 个**文件（55 批次） |
-| WARNING | 2624 → **1657*** |
-| "missing key terms" | ~662 → **439**（↓223） |
-| pre-submit 通过率 | **475/475 = 100%** ✅ |
-| ERROR | 2 → **216**（波动来自 case 卡预存问题，linter 重新分类） |
+| 累计处理 | **~650 个**文件（60+ 批次） |
+| WARNING | 2624 → **208**（↓92%） |
+| "missing key terms" | 662 → **0**（✅ 清零） |
+| "substantive Chinese bullets" | 215 → **0**（✅ 清零） |
+| "external wikilink" | 187 → **0**（✅ 清零） |
+| "body too short" | 76 → **0**（✅ 清零） |
+| "Tool card missing sections" | 104 → **0**（✅ 清零） |
+| "Tool card no attacker" | 42 → **0**（✅ 清零） |
+| pre-submit 通过率 | **100%** ✅ |
+| ERROR | 4（"file not found on disk"，未变） |
 
-*WARNING/ERROR 总数受 linter 规则变更影响（case 卡缺 section 从 WARNING 升级为 ERROR），"missing key terms" 持续下降。
+**剩余 208 WARNING 分类**（均为基础设施类，非内容质量类）：
+- 68 source_refs entry src_unknown（frontmatter 数据问题）
+- 47 status is X but Y is missing（frontmatter 字段缺失）
+- 37 Wiki page not listed in index.md（索引文件问题）
+- 22 source image has no OCR output（OCR 管道问题）
+- 14 source_refs not in state.json（注册表问题）
+- 7 Artifact not registered（管道注册问题）
+- 13 其他
+
+**6 大 WARNING 类别全部清零**：missing key terms / substantive Chinese bullets / external wikilink / body too short / tool card missing sections / tool card no attacker
 
 *批次审查：待欧阳锋审核 · 2026-07-05*
 
