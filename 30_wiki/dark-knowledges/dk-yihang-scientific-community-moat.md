@@ -41,3 +41,8 @@ related:
 
 - [[concept-yihang-methodology-production-pipeline]]：双面网络——学员贡献案例→建模→反哺。科学共同体是这台流水线的人力底座。
 - [[dk-yihang-dual-triangle-strategic-bet]]：双三角作为战略操作系统——操作系统需要社区来跑应用。
+
+
+## 适用边界
+
+待补充（src_unknown）

@@ -46,3 +46,8 @@ related:
 
 - [[framework-yihang-AI-native-dual-triangle-kernel]]：双三角是引擎——本卡是引擎的战略层定位
 - [[concept-yihang-methodology-production-pipeline]]：方法论生产流水线——社区网络是这台流水线的燃料
+
+
+## 适用边界
+
+待补充（src_unknown）

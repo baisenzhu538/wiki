@@ -45,3 +45,8 @@ related:
 
 - [[tool-yihang-dual-triangle-canvas]]：画布本身——本卡是画布的"承诺力"用法
 - [[dk-yihang-canvas-preparation-three-principles]]：15 分钟出租车——空白格子 = 风险点，与本卡互补
+
+
+## 适用边界
+
+待补充（src_unknown）
