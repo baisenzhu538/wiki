@@ -1,0 +1,47 @@
+---
+id: task_20260704_wangyuyan-canvas-preparation-method-dk
+type: task
+status: queued
+assignee: 老顽童
+reviewer: 欧阳锋
+priority: P1
+created_at: 2026-07-04
+updated_at: 2026-07-04
+related:
+- '[[tool-yihang-dual-triangle-canvas]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[concept-yihang-dual-triangle-core]]'
+---
+
+# 任务 #100：双三角画布筹备三原则 dk 卡
+
+## 来源
+
+口述稿 L2652-2898。Truman 讲进阶用法"筹备用"时的三个操作洞察。
+
+## 三个核心洞察
+
+### 1. 花总转折——准备 = 双三角（L2676-2682）
+
+花总一句话把一堂碎片化的准备方法统一了。之前：一页纸/雷达图/工作流，不同老师不同版本，无法沉淀。之后：所有 AI 项目启动前先填双三角画布。
+
+**暗知识**：双三角不是"又一个准备工具"——是把碎片化方法统一成一个标准操作。类似五步法统一了商业分析语言。
+
+### 2. 先加法后减法——只用 10-30%（L2832-2840）
+
+画布填的时候使劲写，不加限制。写完排序砍掉 70-90%。不砍的是关键信号。
+
+### 3. 15 分钟出租车——时间越紧画布越有用（L2712-2718）
+
+不是因��画布快，是因为画布逼你在动手前看一圈自己缺什么。空白格子 = 风险点。带着风险意识开工 > 盲目开工。
+
+## 任务目标
+
+产出 1 张 dk 卡，三条原则各含 Truman 原文引用 + 操作信号。
+
+## 验收标准
+
+- `kdo pre-submit` PASS
+- 三条原则各含口述稿原文
+- related ≥ 4
+- 欧阳锋终审通过
