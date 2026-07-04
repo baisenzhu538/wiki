@@ -2615,3 +2615,51 @@ source_refs:
 
 *批次审查：待欧阳锋审核 · 2026-07-04*
 
+---
+
+## Batch 34（2026-07-04）— missing key terms 修复（concepts 域第二批）
+
+**策略**：在 `## 质疑`/`## Open Questions` section 中添加关键词（具体假设/边界/反例/前提）
+
+### 处理文件（10 个）
+
+| # | 文件 | 修复模式 |
+|---|------|---------|
+| 1 | `modeling-capability-system` | A: 追加「前提与边界」段落 |
+| 2 | `tools-workflows` | B: 替换 8 条 src_unknown |
+| 3 | `truman-perspective-skill` | B: 替换 4 条 src_unknown + 修复 frontmatter |
+| 4 | `voice-input-doubao` | C: 替换 placeholder |
+| 5 | `writing-content` | B: 替换 8 条 src_unknown |
+| 6 | `yt-case-mandatory-cases` | B: 替换 7 条 src_unknown |
+| 7 | `yt-decision-depth-ladder` | A: 追加「前提与边界」段落 |
+| 8 | `yt-five-step-implementation` | A: 追加「前提与边界」段落 |
+| 9 | `yt-market-size-estimation` | A: 追加「前提与边界」段落 |
+| 10 | `yt-product-ten-metrics` | A: 追加「前提与边界」段落 |
+
+### 修复模式
+
+- **模式 A**：已有详细 critique，追加含关键词的「前提与边界」段落
+- **模式 B**：替换 src_unknown 为含关键词的真实问题
+- **模式 C**：替换 placeholder 为含关键词的真实内容 + 外部反对者批评
+
+### 量化结果
+
+| 指标 | 修复前 | 修复后 | 变化 |
+|------|--------|--------|------|
+| ERROR | 2 | 2 | 不变 |
+| WARNING | 1862 | **1852** | **↓10** |
+| pre-submit | — | 10/10 (100%) | ✅ |
+
+### 累计进展
+
+| 指标 | 数值 |
+|:---|:---|
+| 累计处理 | **275 个**文件（35 批次） |
+| WARNING | 2624 → **1852** |
+| 净减 | **772** |
+| pre-submit 通过率 | **275/275 = 100%** ✅ |
+| 剩余 "missing key terms" | **约 642 条** |
+
+*批次审查：待欧阳锋审核 · 2026-07-04*
+
+
