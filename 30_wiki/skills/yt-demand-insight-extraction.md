@@ -1,6 +1,7 @@
 ---
 domain:
-- src_unknown
+- yitang
+- demand-analysis
 id: yt-demand-insight-extraction
 title: 从用户访谈中提取真实需求：访谈技巧与偏见规避
 type: skill

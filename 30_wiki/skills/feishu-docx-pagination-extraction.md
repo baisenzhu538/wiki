@@ -7,15 +7,11 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-source_person: 段王爷
-source_context: 拆书会第208期《AI 2041》逐字稿提取——因API分页遗漏导致内容静默截断，用户纠偏后定位+修复+固化
+- kdo-infrastructure
+- ai-tooling
 source_refs:
-- src_unknown
-- src_unknown
-created_at: '2026-06-23'
+- 10_raw/sources/src_20260623_feishu_docx_pagination_bug.md
+- 30_wiki/dk/dk-f6-cjk-skeleton-corruption.md
 updated_at: '2026-06-28'
 author: 段王爷（南帝）
 reviewed_by: 欧阳锋

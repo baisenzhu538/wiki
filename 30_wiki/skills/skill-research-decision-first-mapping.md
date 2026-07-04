@@ -8,10 +8,8 @@ confidence: 0.8
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-source_person: 王语嫣
-source_context: research 域 40 张 case 卡跨案例合成，洞察 3
+- research-methodology
+- yitang
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 - 30_wiki/dk/dk-research-decision-first-mapping.md

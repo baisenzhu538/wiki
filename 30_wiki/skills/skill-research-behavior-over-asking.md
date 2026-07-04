@@ -7,10 +7,8 @@ confidence: 0.8
 trust_level: high
 language: zh-CN
 domain:
-- src_unknown
-- src_unknown
-source_person: 王语嫣
-source_context: yitang 域 152 张 case 卡跨案例合成，洞察 1
+- research-methodology
+- yitang
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 - 30_wiki/dk/dk-yitang-behavior-over-asking.md
