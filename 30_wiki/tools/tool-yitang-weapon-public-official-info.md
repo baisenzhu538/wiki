@@ -17,14 +17,12 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- tool-ai-prd-for-ai
+- '[[tool-yitang-business-registration-check]]'
+- '[[tool-yitang-research-unit-model]]'
+- '[[tool-yitang-research-validate-assumption]]'
+- '[[tool-ai-prd-for-ai]]'
 - tool-yitang-business-registration-check
-updated_at: '2026-06-29'
+updated_at: '2026-07-04'
 ---
 # 武器库策略8：官方公开信息
 
@@ -57,18 +55,22 @@ updated_at: '2026-06-29'
 
 ## 目的
 
-> 待补充：这个工具解决什么问题？适用于什么场景？
+> 通过公司官方发布的信息，了解公司基本情况、战略方向和关键数据。虽然是"官方版本"，但免费且能反推水下信息。
 
 ## 操作步骤
 
-1. **步骤一**：待补充
-2. **步骤二**：待补充
-3. **步骤三**：待补充
+1. **访问官网**：产品、客户、团队、新闻（看最新动态）
+2. **查看融资信息**：估值、投资方、融资节奏（天眼查/IT桔子）
+3. **搜索公开报道**：公司大事记、营销活动、技术路线（36氪/虎嗅）
+4. **查看招聘职位**：技术栈、业务方向、团队规模（拉勾/Boss直聘）
+5. **查询工商/财税信息**：营收、利润、社保人数（天眼查/企查查）
 
 ## 不要用的场景
 
-> 待补充：什么情况下这个工具效果有限或不应该使用？
+> 需要非公开信息；公司成立时间短信息少；需要实时数据（官方信息有滞后）
 
 ## 质疑
 
-> 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+- **Rachel Huang**：官方信息是经过包装的，可能夸大或选择性披露。不能把官方信息当作客观事实。
+- **Sam Zhou**：不同来源的官方信息可能不一致（官网 vs 招聘 vs 融资披露），需要交叉验证和逻辑判断。
+- **Tina Li**：官方信息有滞后性，不能反映最新情况。对于快速变化的行业或公司，官方信息可能已过时。

@@ -6,26 +6,14 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-- src_unknown
+- yitang
+- research
+- ai
 source_refs:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-created_at: '2026-06-21'
-updated_at: '2026-06-29'
-author: 黄药师
-reviewed_by: 欧阳锋
-difficulty: intermediate
-estimated_tokens: 3500
 related:
-- '[[concept-AI时代双三角竞争力]]'
-- '[[tool-Truman-AI时代提示词优化法]]'
 - '[[ai时代判断力口述]]'
 - '[[ai时代判断力口述-3]]'
-- '[[tool-Truman-AI时代IPO模型重构]]'
 - web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 - framework-multi-agent-research-architecture
 diagnostic_signals:
@@ -34,10 +22,16 @@ diagnostic_signals:
 - framework_lens: 合规决策树
   follow_up_question: 是否有公开 API 替代？数据是否可通过其他渠道获取？
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- web-scraping
+- research
+- ai-tools
+- data-collection
+created_at: '2026-06-21'
+updated_at: '2026-07-04'
+author: 黄药师
+reviewed_by: 欧阳锋
+difficulty: intermediate
+estimated_tokens: 3500
 ---
 # 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线
 
@@ -214,18 +208,22 @@ async with AsyncWebCrawler() as crawler:
 
 ## 目的
 
-> 待补充：这个工具解决什么问题？适用于什么场景？
+> 通过 AI 时代爬虫工具，自动化获取网络上的公开数据。从"写 CSS 选择器"进化到"自然语言描述需求 → AI 自动解析"。
 
 ## 操作步骤
 
-1. **步骤一**：待补充
-2. **步骤二**：待补充
-3. **步骤三**：待补充
+1. **确定数据需求**：单页抽取 / 全站爬取 / 特定字段提取（参考「快速决策树」）
+2. **选择工具**：Jina Reader（单页）/ Firecrawl（全站）/ Crawl4AI（本地部署）/ Crawlee（反爬对抗）
+3. **配置和测试**：用小规模数据测试，验证输出格式和质量
+4. **执行爬取**：监控进度和错误，处理反爬和限流
+5. **清洗和验证数据**：去重、格式化、与官方信息交叉验证
 
 ## 不要用的场景
 
-> 待补充：什么情况下这个工具效果有限或不应该使用？
+> 有公开 API 可用（优先用 API）；数据量小可以手动采集；涉及隐私或合规风险（参考「合规红线」）
 
 ## 质疑
 
-> 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+- **Rachel Huang**：爬虫可能违反网站服务条款，即使数据公开也有合规风险。需要仔细评估法律风险。
+- **Sam Zhou**：AI 自动解析可能出错，特别是复杂网页结构。需要人工抽查和验证。
+- **Tina Li**：爬虫工具依赖网站结构，网站改版后可能需要重新配置。维护成本高。

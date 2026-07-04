@@ -16,14 +16,11 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- tool-yitang-business-registration-check
-- tool-ai-prd-for-ai
-updated_at: '2026-06-29'
+- '[[tool-yitang-research-exhaust-means]]'
+- '[[tool-yitang-reverse-data-analysis]]'
+- '[[tool-yitang-business-registration-check]]'
+- '[[tool-ai-prd-for-ai]]'
+updated_at: '2026-07-04'
 ---
 # 武器库策略11：第三方数据库
 
@@ -55,18 +52,22 @@ updated_at: '2026-06-29'
 
 ## 目的
 
-> 待补充：这个工具解决什么问题？适用于什么场景？
+> 通过公开数据库，快速获取行业数据、公司数据和趋势数据。整理成清单，随用随查。
 
 ## 操作步骤
 
-1. **步骤一**：待补充
-2. **步骤二**：待补充
-3. **步骤三**：待补充
+1. **确定需要的数据类型**：宏观数据 / 行业报告 / 公司信息 / 趋势数据 / 社交热度
+2. **选择合适的数据库**：参考「15类核心数据源」表格，按需求匹配
+3. **查询并导出数据**：使用数据库的查询功能，导出所需数据
+4. **清洗和整理数据**：去重、格式化、统一口径
+5. **分析并交叉验证**：与官方信息、专家观点交叉验证
 
 ## 不要用的场景
 
-> 待补充：什么情况下这个工具效果有限或不应该使用？
+> 需要非常细分的数据（数据库没有覆盖）；需要实时数据（数据库有滞后）；数据库需要付费且预算不足
 
 ## 质疑
 
-> 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+- **Leo Chen**：数据库数据可能不准确或过时，需要交叉验证。免费数据库的数据质量可能不如付费数据库。
+- **Mia Zhao**：不同数据库的数据可能不一致，需要判断哪个更可靠。数据库可能覆盖不全（特别是新兴行业）。
+- **Nick Zhang**：数据库查询需要一定的技能和经验。对于简单的数据需求，直接搜索可能更快。

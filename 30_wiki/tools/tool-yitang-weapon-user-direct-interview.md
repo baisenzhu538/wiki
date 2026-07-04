@@ -17,13 +17,11 @@ source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- tool-ai-prd-for-ai
-updated_at: '2026-06-29'
+- '[[tool-yitang-user-interview-5steps]]'
+- '[[tool-yitang-social-engineering-research]]'
+- '[[tool-yitang-research-validate-assumption]]'
+- '[[tool-ai-prd-for-ai]]'
+updated_at: '2026-07-04'
 ---
 # 武器库策略1：直接访谈用户
 
@@ -50,18 +48,22 @@ updated_at: '2026-06-29'
 
 ## 目的
 
-> 待补充：这个工具解决什么问题？适用于什么场景？
+> 通过直接访谈用户，获取用户真实需求、痛点和行为模式。找到用户、接触用户、跟用户聊。
 
 ## 操作步骤
 
-1. **步骤一**：待补充
-2. **步骤二**：待补充
-3. **步骤三**：待补充
+1. **确定目标用户画像**：明确你要访谈的用户类型（年龄、职业、行为特征）
+2. **选择接触方式**：直接访谈 / 闲谈闲聊 / 招募用户 / 行为观察（按场景选）
+3. **准备访谈大纲**：开放式问题为主，聚焦关键信息缺口
+4. **进行访谈**：建立 rapport，多听少说，深挖细节和矛盾点
+5. **整理和分析**：访谈后立即整理笔记，提炼关键洞察
 
 ## 不要用的场景
 
-> 待补充：什么情况下这个工具效果有限或不应该使用？
+> 用户群体难以接触（如企业决策者）；需要大样本统计（单个访谈不具代表性）；用户不知道自己的真实需求（需要行为观察）
 
 ## 质疑
 
-> 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+- **Olivia Liu**：用户说的和做的不一致，访谈结果可能误导。需要结合行为观察。
+- **Peter Liu**：用户可能说出 interviewer 想听的答案（social desirability bias）。需要巧妙的提问技巧。
+- **Quinn Zhang**：访谈样本可能不具代表性（愿意接受访谈的用户可能有特定特征）。需要多样化的用户来源。
