@@ -1,25 +1,24 @@
 ---
 updated: 2026-07-04
-updated_at: 2026-07-04T18:30:00+00:00
+updated_at: 2026-07-04T20:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
 active_task: "#63 已 reviewed；#64/#65 已由老顽童(Kimi) claimed 并生产中；#66/#67 P1 待老顽童领取；#68 P2 审计待 #64/#65 后启动；#69 画布 Agent CLI 待 #64/#65 完成后由老顽童产 agent-spec v2"
 blockers:
-  - "#60 queue_transition 修复（2026-07-04）：欧阳锋重审通过；7/7 tests passed；#61 已释放，但 #60 仍为 queued 状态，需黄药师运行 `queue_transition.py complete` 后，欧阳锋才能正式 review"
-  - "#59 Agent Prompt 编译器（2026-07-04）：欧阳锋终审通过；编译器代码通过，3 个试点编译产物 pre-submit PASS；产生 2 项微债务，已由王语嫣开 #62 跟进"
-  - "#62 Agent Prompt 设计规范微债务（2026-07-04）：已入队，assignee 黄药师；补充 agent-native-card-design.md 三层编译章节与 source 字段规范；P2"
-  - "#63 一行双三角第二批案例补产（2026-07-04）：pending_review，assignee 老顽童(Kimi)；基于王语嫣第一批 14 张卡和 4 张占位卡，补产天末/阿豪/花总/陈天 4 张 case 卡，并交叉检查第一批卡；P1"
-  - "#64 Truman 飞书 To slide PPT 迭代案例卡（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P0；王语嫣入口标注已完成，必须含人物/动作/时间线和 Y模型 循环映射"
-  - "#65 Y模型 × 双三角协同工作法框架卡（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P0；把双三角是 Y模型 在 AI 协作领域的框架性认识变成可调用资产"
-  - "#66 人在环与双三角关系说明卡（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；澄清原则 ↔ 能力关系"
-  - "#66 人在环 × 双三角关系卡（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；强调人在环会进化，用 Truman PPT 案例展示三层形态"
-  - "#67 Y模型 引擎层操作法卡（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；Truman PPT 案例作为最佳演示"
-  - "#68 跨域审计（2026-07-04）：已入队，assignee 老顽童(Kimi)，reviewer 欧阳锋；P2；可在 #64/#65 后后台执行"
-  - "#69 双三角画布 Agent CLI 交付（2026-07-04）：已入队，assignee 黄药师，reviewer 欧阳锋；P1；画布 Agent 默认 C 角色但 TCPR 可切换；agent-spec v2 由老顽童基于 #64/#65 产出，王语嫣方向把关；飞书/Hermes Agent 入停车场；这是 KDO Agent 化第一个试点，后续系列化"
+  - "#60 queue_transition 修复（2026-07-04）：欧阳锋重审通过；7/7 tests passed；#60 仍为 queued，需黄药师运行 `queue_transition.py complete`"
+  - "#59 Agent Prompt 编译器（2026-07-04）：欧阳锋终审通过；产生 2 项微债务，已由王语嫣开 #62 跟进"
+  - "#62 Agent Prompt 设计规范微债务（2026-07-04）：已入队，assignee 黄药师；P2"
+  - "#63 一行双三角第二批案例补产（2026-07-04）：已 reviewed，欧阳锋终审通过"
+  - "#64 Truman 飞书 To slide PPT 迭代案例卡（2026-07-04）：claimed-老顽童(Kimi)，reviewer 欧阳锋；P0；生产中"
+  - "#65 Y模型 × 双三角协同工作法框架卡（2026-07-04）：claimed-老顽童(Kimi)，reviewer 欧阳锋；P0；生产中；与 #64 互相对照"
+  - "#66 人在环 × 双三角关系卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；可与 #64/#65 并行"
+  - "#67 Y模型 引擎层操作法卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；可与 #64/#65 并行"
+  - "#68 跨域审计（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P2；#64/#65 reviewed 后启动"
+  - "#69 双三角画布 Agent CLI 交付（2026-07-04）：queued，assignee 黄药师，reviewer 欧阳锋；P1；等 #64/#65 完成后老顽童产 agent-spec v2，王语嫣把关，黄药师再实现 CLI"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
 
-next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`，然后欧阳锋 review 为 reviewed；② 欧阳锋终审 #63；③ 老顽童按优先级领取 #64/#65（P0，可并行但终审前互相对照）；④ 老顽童在 #64/#65 完成后产 #69 的 agent-spec v2；⑤ 黄药师完成 #62 后，等 #69 agent-spec v2 到位再启动 CLI 实现；⑥ workbuddy 在空闲时分批处理 #28；⑦ #66/#67 可由老顽童在 #64/#65 间隙并行推进；⑧ #68 P2 审计不阻塞主线，可在 #64/#65 reviewed 后启动。"
+next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`；② 老顽童完成 #64/#65 生产并提交欧阳锋终审；③ 老顽童可在 #64/#65 间隙领取 #66/#67（P1）；④ 老顽童在 #64/#65 reviewed 后启动 #68 审计；⑤ 黄药师完成 #62 后等待 #69 agent-spec v2 到位再启动 CLI 实现；⑥ workbuddy 空闲处理 #28。"
 ---
 
 ## 📢 全厂通知（2026-06-19）
