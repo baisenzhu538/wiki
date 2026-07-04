@@ -33,6 +33,8 @@ related:
 - "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
 - "[[method-dual-triangle-human-ai-division]]"
 - "[[case-yihang-dual-triangle-beike-ai-outbound]]"
+- '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
+- '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 aliases:
 - 天末案例
 - 设计交付案例

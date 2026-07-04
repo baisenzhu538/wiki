@@ -5,29 +5,31 @@ title: 解放思想：不被行业常识和既有框架绑架
 type: framework
 status: enriched
 domain:
-  - epistemic-foundations
-  - decision-science
-  - yitang
+- epistemic-foundations
+- decision-science
+- yitang
 confidence: 0.86
 trust_level: high
 language: zh-CN
 author: 老顽童
 reviewed_by: 欧阳锋
 source_refs:
-  - 00_inbox/解放思想/_processed/解放思想_整合笔记.md
-  - 00_inbox/解放思想/_processed/CASE_CANDIDATES.md
-  - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
+- 00_inbox/解放思想/_processed/解放思想_整合笔记.md
+- 00_inbox/解放思想/_processed/CASE_CANDIDATES.md
+- 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
 related:
-  - yt-decision-y-model
-  - framework-yitang-shishi-qiushi
-  - tool-yitang-Y-model-application
-  - dk-yitang-Y-model-pitfalls
-  - yt-model-liberate-thinking-layers
-  - framework-yitang-channel-exploration-4step
-  - tool-iceberg-triangle-modeling
-  - framework-一堂五步法-泛产品设计
-  - master-decision-hygiene
-  - concept-X型Y型决策习惯
+- yt-decision-y-model
+- framework-yitang-shishi-qiushi
+- tool-yitang-Y-model-application
+- dk-yitang-Y-model-pitfalls
+- yt-model-liberate-thinking-layers
+- framework-yitang-channel-exploration-4step
+- tool-iceberg-triangle-modeling
+- framework-一堂五步法-泛产品设计
+- master-decision-hygiene
+- concept-X型Y型决策习惯
+- '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
+- '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 

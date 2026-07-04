@@ -26,6 +26,8 @@ related:
 - "[[method-dual-triangle-human-ai-division]]"
 - "[[tool-yihang-dual-triangle-canvas]]"
 - "[[case-yihang-dual-triangle-beike-ai-outbound]]"
+- '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
+- '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 aliases:
 - 花总案例
 - 合成数据案例

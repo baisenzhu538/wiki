@@ -2,7 +2,7 @@
 id: framework-yitang-y-model-dual-triangle-synergy
 title: Y模型 × 双三角协同工作法
 type: framework
-status: draft
+status: pending_review
 domain:
 - yitang
 - decision-science
@@ -26,7 +26,7 @@ related:
 - "[[framework-yitang-jiefang-sixiang]]"
 - "[[method-dual-triangle-flywheel-engine]]"
 - "[[tool-yihang-dual-triangle-canvas]]"
-- "case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution"
+- "[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"
 aliases:
 - Y模型双三角协同
 - 双三角迭代发动机

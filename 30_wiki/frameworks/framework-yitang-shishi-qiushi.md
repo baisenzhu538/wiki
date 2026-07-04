@@ -5,29 +5,31 @@ title: 实事求是：把「我希望是真的」和「事实是什么」分开
 type: framework
 status: enriched
 domain:
-  - epistemic-foundations
-  - decision-science
-  - yitang
+- epistemic-foundations
+- decision-science
+- yitang
 confidence: 0.88
 trust_level: high
 language: zh-CN
 author: 老顽童
 reviewed_by: 欧阳锋
 source_refs:
-  - 00_inbox/实事求是/_processed/实事求是_整合笔记.md
-  - 00_inbox/实事求是/_processed/vlm_summary.json
-  - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
+- 00_inbox/实事求是/_processed/实事求是_整合笔记.md
+- 00_inbox/实事求是/_processed/vlm_summary.json
+- 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
 related:
-  - yt-decision-y-model
-  - tool-yitang-Y-model-application
-  - dk-yitang-Y-model-pitfalls
-  - framework-yitang-jiefang-sixiang
-  - yt-entrepreneur-truth-seeking
-  - master-decision-hygiene
-  - concept-X型Y型决策习惯
-  - yt-five-step-method-complete
-  - yt-unit-model-overview
-  - yt-business-formula-six-level-logic
+- yt-decision-y-model
+- tool-yitang-Y-model-application
+- dk-yitang-Y-model-pitfalls
+- framework-yitang-jiefang-sixiang
+- yt-entrepreneur-truth-seeking
+- master-decision-hygiene
+- concept-X型Y型决策习惯
+- yt-five-step-method-complete
+- yt-unit-model-overview
+- yt-business-formula-six-level-logic
+- '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
+- '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 

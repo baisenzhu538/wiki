@@ -36,6 +36,8 @@ related:
 - case-decision-science-universal-salary-raise-roi
 - case-decision-science-topcity-negative-revenue-rank
 - case-strategy-exit-sell
+- '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
+- '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 created_at: 2026-07-03
 updated_at: '2026-06-29'
 ---

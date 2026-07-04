@@ -1,19 +1,19 @@
 ---
 id: task_20260704_laowantong-y-model-dual-triangle-bridge-framework
 type: task
-status: queued
+status: pending_review
 assignee: 老顽童
 reviewer: 欧阳锋
 priority: P0
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04T05:54:58.549693+00:00'
 source_task: null
 related:
-- "[[annotation-yihang-dual-triangle-master]]"
-- "[[yt-decision-y-model]]"
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yitang-shishi-qiushi]]"
-- "[[framework-yitang-jiefang-sixiang]]"
+- '[[annotation-yihang-dual-triangle-master]]'
+- '[[yt-decision-y-model]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[framework-yitang-jiefang-sixiang]]'
 ---
 
 # 任务 #66：Y模型 × 双三角协同工作法框架卡

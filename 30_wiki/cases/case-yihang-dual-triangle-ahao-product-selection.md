@@ -34,6 +34,8 @@ related:
 - "[[method-dual-triangle-flywheel-engine]]"
 - "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
 - "[[case-yihang-dual-triangle-beike-ai-outbound]]"
+- '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
+- '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 aliases:
 - 阿豪案例
 - 电商选品案例
