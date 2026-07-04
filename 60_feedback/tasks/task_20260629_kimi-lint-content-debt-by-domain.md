@@ -1162,3 +1162,62 @@ source_refs:
 同意本批次 10 张月白设计系列 Type B tool 卡通过。可继续下一批月白系列 tool 卡清理，或按王语嫣/用户指示切换 domain。
 
 *批次审查：欧阳锋 · 2026-06-29*
+
+## 2026-07-04 第十批处理记录（老顽童 WorkBuddy 实例）
+
+### 本轮前基线
+
+- `kdo lint` 全量：0 ERROR / **2273** WARNING（1937 accepted）
+- 欧阳锋已审查通过第九批 10 个月白设计系列 tool 卡 ✅
+
+### 本轮处理
+
+- **处理 domain**：yitang（月白设计系列续）
+- **处理文件数**：10 个月白 Type B tool 卡（均为目的+质疑两段式 placeholder）
+  - `30_wiki/tools/tool-月白-最佳实践素材收集法.md`
+  - `30_wiki/tools/tool-月白-替换大法改图.md`
+  - `30_wiki/tools/tool-月白-文件命名与平台适配规范.md`
+  - `30_wiki/tools/tool-月白-文件命名与存档规范（口述暗示）.md`
+  - `30_wiki/tools/tool-月白-控制产品画面尺寸比例.md`
+  - `30_wiki/tools/tool-月白-批量生成多视角素材.md`
+  - `30_wiki/tools/tool-月白-小红书双重搜索法.md`
+  - `30_wiki/tools/tool-月白-审美刻意练习法.md`
+  - `30_wiki/tools/tool-月白-多窗口并行工作法.md`
+  - `30_wiki/tools/tool-月白-基于白底图做动作延展.md`
+
+- **主要动作**：
+  - 为每个 tool 卡填充「目的」section：明确工具解决什么问题、适用于什么场景
+  - 为每个 tool 卡重写「质疑」section：包含关键术语（具体假设/边界/反例/前提）+ 2 位外部攻击者（`**Name Surname**` 格式）
+  - 外部攻击者涵盖：Sönke Ahrens、David Perkins、Hany Farid、Philipp Schmitt、Tiago Forte、Lisa Feldman Barrett、Margaret Clarke、Gary Klein、William J. Mitchell、Donald Norman、Marc Levoy、danah boyd、Safiya Noble、Howard Gardner、John Hattie、Gary Marcus、Scott McCloud、Jennifer Moon
+
+- **验证结果**：
+  - 10/10 文件 `kdo pre-submit` PASS ✅
+  - 全量 `kdo lint`：**42** ERROR / **2288** WARNING（1937 accepted）
+  - 42 ERROR 全部来自 `30_wiki/cases/` 下其他人员新增的 case 卡缺少标准 section，与本批 10 个月白 tool 卡无关
+  - WARNING 从 2273 升至 2288（+15），原因是仓库其他文件在此期间新增了内容债，本批 10 个文件自身的 WARNING 已被清理
+
+### 累计进展
+
+| 批次 | 文件数 | 修复前 WARNING | 修复后 WARNING | 净减 | 审查状态 |
+|:---|:---|:---|:---|:---|:---|
+| 第一批 | 10 | 2624 | 2581 | -43 | ✅ 通过 |
+| 第二批 | 10 | 2581 | 2542 | -39 | ✅ 通过 |
+| 第三批 | 10 | 2542 | 2503 | -39 | ✅ 通过 |
+| 第四批 | 10 | 2503 | 2465 | -38 | ✅ 通过 |
+| 第五批 | 14 | 2465 | 2425 | -40 | ✅ 通过 |
+| 第六批 | 6 | 2425 | 2385 | -40 | ✅ 通过 |
+| 第七批 | 10 | 2385 | 2345 | -40 | ✅ 通过 |
+| 第八批 | 10 | 2345 | 2306 | -39 | ✅ 通过 |
+| 第九批 | 10 | 2306 | 2273 | -33 | ✅ 通过 |
+| 第十批 | 10 | 2273 | 2288 | -（被其他文件新增抵消） | 等审查 |
+| **累计** | **100** | **2624** | **2288** | **≥-351（实际更多，被新增掩盖）** | |
+
+### 注意
+
+- 仓库在 2026-07-04 期间有其他人员新增了约 12 个双三角系列 case 卡，这些 case 卡缺少 case 标准 section（关键证据/可迁移场景/教训/失败模式），导致 42 个新 ERROR 和部分新 WARNING。这些不在本批处理范围内。
+- 建议欧阳锋审查时关注这些新增 case 卡的合规性，必要时将其纳入 #28 或其他独立任务处理。
+
+### 下一轮计划
+
+- 继续 yitang 域月白系列 tool 卡清理（仍有 20+ 个 4-WARNING 文件待处理）
+- 或按欧阳锋审查意见调整方向
