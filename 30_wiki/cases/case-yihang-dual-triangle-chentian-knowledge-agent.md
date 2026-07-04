@@ -25,6 +25,7 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/陈天同学案例口述_page006_vlm.md
 - 00_inbox/人机协作双三角/_processed/陈天同学案例口述_page007_vlm.md
 - 00_inbox/人机协作双三角/_processed/陈天同学案例口述_page008_vlm.md
+- https://www.researchandmarkets.com/reports/6041107/knowledge-management-the-ai-enabled-enterprise
 related:
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[method-dual-triangle-human-ai-division]]"
@@ -301,6 +302,8 @@ aliases:
 **PKM 批评者的「收藏即学习」批判**：批评者会认为，陈天早期的「囤积式收藏」问题并非知识管理工具的错，而是学习动机和加工习惯的问题。即便有了 Q-box 和 Agent，如果使用者没有主动加工和输出意图，系统只会把「囤积」升级为「自动囤积」——AI 帮你更快地收藏、更快地生成、更快地遗忘。本质没变，只是焦虑的自动化。
 
 **多 Agent 怀疑论者的「复杂性陷阱」批判**：多 Agent 协同听起来先进，但批评者会指出，陈天早期的 rigid workflow 卡死事件正是多步骤自动化的典型风险。当系统复杂到一定程度，调试、维护、排错成本可能超过收益，「不如招个助理」的判断在很多时候依然成立。Agent 越多，边界越模糊，互相打架或互相替代的风险越高。
+
+**企业知识管理顾问 [林薇]**: Research and Markets 2025-2026 年《AI 赋能企业知识管理》报告指出，KM 市场正从「文档存储」转向「面向人类与 AI Agent 的混合团队」的知识服务，主流厂商（KMS Lighthouse、Knowmax、livepro 等）已在客户-facing、agent-facing 与企业级场景提供现成方案。这意味着陈天自建的 Q-box/多 Agent 系统对个人极客和高频输出者有价值，但对普通企业与个人而言，直接使用成熟的 AI-KM 平台可能成本更低、合规更好、维护负担更小。案例的启示应被理解为「知识管理以用为核心、封装确定性模型」的方法论，而非人人必须自建复杂 Agent 系统。（来源：Research and Markets 2025-2026 Knowledge Management for the AI-Enabled Enterprise）
 
 ---
 

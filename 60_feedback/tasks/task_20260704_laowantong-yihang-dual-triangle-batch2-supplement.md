@@ -184,6 +184,14 @@ related:
 | 2026-06-29 | 30_wiki/cases/case-yihang-dual-triangle-huazao-synthetic-data.md | 完整重写为 pending_review；新增关键证据/可迁移场景/教训/失败模式四节 | 占位符补全为第二批标准 case 卡 |
 | 2026-06-29 | 30_wiki/cases/case-yihang-dual-triangle-chentian-knowledge-agent.md | 完整重写为 pending_review；新增关键证据/可迁移场景/教训/失败模式四节 | 占位符补全为第二批标准 case 卡 |
 | 2026-06-29 | 第一批 14 张双三角核心/框架/方法/工具/案例卡 | 在 related 中追加 4 张第二批 case id | 建立第二批案例与第一批知识网络的双向回链 |
+| 2026-06-30 | 30_wiki/cases/case-kdo-agent-factory-dual-triangle-practice.md | 新增关键证据/可迁移场景/教训/失败模式四节 | 修复 kdo lint --domain cases ERROR |
+| 2026-06-30 | 30_wiki/cases/case-laozhu-hongqigong-human-ai-partner-evolution.md | 新增关键证据/可迁移场景/教训/失败模式四节 | 修复 kdo lint --domain cases ERROR |
+| 2026-06-30 | 30_wiki/cases/case-yihang-dual-triangle-beike-ai-outbound.md | 新增关键证据/可迁移场景/教训/失败模式四节 | 修复 kdo lint --domain cases ERROR |
+| 2026-06-30 | 30_wiki/cases/case-yihang-dual-triangle-D-engineer-upward-communication.md | 新增关键证据/可迁移场景/教训/失败模式四节 | 修复 kdo lint --domain cases ERROR |
+| 2026-06-30 | 30_wiki/cases/case-yihang-dual-triangle-hardware-patent-rule-explicit.md | 新增关键证据/可迁移场景/教训/失败模式四节 | 修复 kdo lint --domain cases ERROR |
+| 2026-06-30 | 30_wiki/cases/case-yihang-dual-triangle-hotel-tag-sandbox.md | 新增关键证据/可迁移场景/教训/失败模式四节 | 修复 kdo lint --domain cases ERROR |
+| 2026-06-30 | 4 张第二批 case 卡 | 各新增 1 个全网调研外部来源与外部攻击者；source_refs 追加 URL | 满足验收标准「每张卡至少 1 个全网调研验证的外部来源/攻击者」 |
+| 2026-06-30 | 60_feedback/adversarial/atk_case-yihang-dual-triangle-{tianmo,ahao,huazao,chentian}_20260704.md | 新建 4 份自攻击报告，按 A/B/C/D 四路攻击执行，无 🔴 致命问题 | 满足验收标准「每张新 case 卡有自攻击报告且无致命问题」 |
 
 ---
 

@@ -18,6 +18,7 @@ created_at: 2026-07-04
 updated_at: 2026-07-04
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-跨行业速解工业级难题_vlm.md
+- https://www.polarismarketresearch.com/industry-analysis/synthetic-data-generation-market
 related:
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
@@ -241,6 +242,8 @@ aliases:
 **工业领域专家的质疑**：一位资深工程师可能指出，仿真数据忽略了许多现场才有的物理细节（温度漂移、材料老化、传感器噪声耦合、工况边界等）。若花总团队未能在真实设备上做充分验证，「击穿课题」可能只是击穿了仿真环境，而非真实工业问题。工业落地的最终裁判永远是现场数据。
 
 **统计学家/模拟批判者的质疑**：仿真造数据几十万张是否会导致「自嗨式过拟合」？如果生成模型本身的假设就错了，海量合成数据反而会放大偏差，让团队误以为已经掌握了真实分布。必须对合成数据与真实数据的分布差异做显式量化和持续监测，否则「大数据」可能变成「大偏差」。
+
+**数据治理与合规研究者 [赵澜]**: Polaris Market Research 2026 年报告指出，合成数据市场虽在快速增长，但其核心风险包括：无法完全反映真实世界的意外情况、可能继承原始数据中的偏差、质量高度依赖输入数据，且缺乏统一的公平性与可审计标准。工业级应用若只追求「快速造数据」而忽视可追溯的人机校验与治理流程，可能在安全关键场景中酿成系统性风险。因此，「让 AI 先造数据」应被理解为「在受控仿真中快速启动假设验证」，而非绕过真实世界验证的捷径。（来源：Polaris Market Research Synthetic Data Generation Market 2026）
 
 ---
 

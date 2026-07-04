@@ -26,6 +26,7 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/阿豪案例的口述_page007_vlm.md
 - 00_inbox/人机协作双三角/_processed/阿豪案例的口述_page008_vlm.md
 - 00_inbox/人机协作双三角/_processed/阿豪的双三角模型_vlm.md
+- https://www.commercepundit.com/blog/ai-automation-for-ecommerce/
 related:
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[method-dual-triangle-human-ai-division]]"
@@ -236,6 +237,8 @@ aliases:
 **运营务实派**：当月 40 万新增收入听着漂亮，但并未公开计入临时团队成本、后续维护成本、平台接口变动带来的 RPA 重配成本。一旦平台反爬升级或字段改版，3 分钟的优势可能迅速消失，实际 ROI 需要更长期的财务核算。而且，把决策从人转移到系统后，谁来对错误选品负责？责任边界模糊会影响团队信任。
 
 **AI 技术派**：过度强调「函数替代模型」可能走向另一个极端——把本可以交给 LLM 的非结构化理解任务也硬写成规则，导致系统僵化、遗漏长尾信号。真正的最佳实践应是「规则兜底 + 模型补位」，而不是一刀切地排斥大模型。
+
+**电商运营顾问 [陈敏]**: 2026 年电商 AI 落地的共识是「规则可解释、AI 自适应，两者并存」。Commerce Pundit 对 600+ 品牌的实践总结指出：AI 自动化确实能提升规模与个性化，但它依赖干净、结构化的数据；规则自动化易于审计，适合高频确定性决策，而 LLM 更适合处理异常语义和创新探索。因此，阿豪的路径在数据基础薄弱、SKU 量大、决策高频的场景下极具参考价值，但若品牌 SKU 少、强调调性与故事（如奢侈品），过度函数化反而可能削弱差异化竞争力。（来源：commercepundit.com 2026 AI for Ecommerce）
 
 ---
 

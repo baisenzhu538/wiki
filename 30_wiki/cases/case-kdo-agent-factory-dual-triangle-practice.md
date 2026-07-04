@@ -103,6 +103,44 @@ KDO 的实际协作不是静态乘积，而是循环：
 
 这与王语嫣 context 中的「循环优先于深度」原则一致。
 
+## 关键证据
+
+| 证据点 | Before | After | 来源 / 可检验性 |
+|:---|:---|:---|:---|
+| 双三角从抽象框架落到角色分工 | 只有「人的三角 × AI 的三角」概念卡 | 用户=创造力+判断力、王语嫣=体系、欧阳锋子代理=判断力、老顽童/黄药师=执行力；Kimi=场景适配+数据包+基本功 | 本 case 文件「人的三角 / AI 的三角 / 关键动作链」表格 |
+| TCPR 从人类能力模型升级为 Agent 身份协议 | `agent-native-card-design.md` 无 TCPR 字段；7 张 OPC agent-spec 未声明身份 | 13 个文件接入 `tcp_role` / `tcp_default_mode` / `tcp_switch_trigger` / `tcp_session_opening`；7 张 OPC agent-spec System Prompt 含身份声明；13/13 pre-submit PASS | `60_feedback/tasks/task_20260703_huangyaoshi-agent-tcpr-role-layer.md` 欧阳锋终审报告 |
+| GraphRAG 健康度因跨域补链提升 | orphan 36%（1210/3394）、connected components 1235、health 65/100 | orphan 18%（621/3468）、components 669、health 90/100；578 张 orphan 卡新增 847 条 related | `60_feedback/tasks/task_20260703_laowantong-graphrag-orphan-reduction.md` 指标对比表；可复测 `kdo graph stats --health` |
+| Agent Prompt 编译器解决模型无法 Read 文件问题 | Kimi/Hermes 不能读取本地文件，System Prompt 只能靠手动拼装 | 编译器代码通过，3 个试点编译产物 `kdo pre-submit` PASS，产出 2 项微债务并入 #62 | `70_product/tasks/production-queue.md` #59 备注；`70_product/tasks/dashboard.md` #59 行 |
+| 状态机由手动编辑升级为脚本驱动 | 角色直接编辑 `status` / `reviewed_by`，曾出现抢跑、重复审、状态不一致 | `queue_transition.py` 内置 gate、锁、状态机校验；领取/完成/释放/终审全部走脚本 | `70_product/tasks/production-queue.md`「队列规则」第 8–9 条；可验证 `python 90_control/scripts/queue_transition.py --help` |
+| queue_transition.py 按 frontmatter id 查找任务单修复 | #55 终审时 `review` 命令因 id 与文件名不一致而找不到任务单 | 黄药师修复查找逻辑 + 补 7 个回归测试，7/7 tests passed，#55 场景验证正确 | `.agent/context.md` blockers 与 next_session_hint；`70_product/tasks/production-queue.md` #60 备注 |
+
+## 可迁移场景
+
+- **多 Agent 知识工厂 / 内容管线**：用队列+状态机+子代理审查放大内容生产带宽，人只做方向与终审判断。
+- **软件研发的代码审查流水线**：把 lint、单元测试、回归验证交给 AI 子代理批量跑，核心架构决策与合并审批保留给 Tech Lead。
+- **销售 / 客服智能体军团**：把方法论卡编译为 agent-spec，按 TCPR 身份开场，Agent 给建议、销售代表做最终话术与合规判断。
+- **教育 / 教练场景**：同一 Agent 在不同会话中切换 T（教学）/ C（咨询）/ P（实践）/ R（研究）身份，先声明目标再进入任务。
+- **大型 GraphRAG / 知识图谱治理**：通过跨域 related 补链降低 orphan 比例，周期性监控图健康度，防止新卡持续孤岛化。
+
+## 教训
+
+- **先建硬结构，再放 Agent**：在让 AI 跑流程之前，先把队列规则、状态机、角色边界写成可执行文件（`production-queue.md`、`queue_transition.py`、角色 context），否则 AI 会抢跑、重复审、漏审。
+- **Agent 做带宽，人做判断**：审查类工作可以交给子代理批量跑，但 verdict 的边界条件（pass / fail / pass with reservations）以及是否接受 reservations，必须由人拍板。
+- **数据包完整度决定输出质量**：当 Agent 读了最新 `context.md`、`production-queue.md`、任务单和 source refs 后，判断会显著更准确；遗漏 context 时建议容易与当前状态脱节。
+- **把抽象框架变成可执行字段**：双三角、TCPR 等框架只有落到具体字段（`tcp_role`、`tcp_default_mode`、agent-spec frontmatter）和 lint 规则里，才能避免停在概念层。
+- **小步循环优于单点深度**：KDO 工厂的价值来自「人给方向 → AI 执行 → AI/人审查 → 人拍板 → 状态更新 → 下一轮」的持续循环，而非一次性的长链路推理。
+
+## 失败模式
+
+| 失败模式 | 症状 | 修复 |
+|:---|:---|:---|
+| Agent 未读最新 context 就给出建议 | 子代理建议与当前队列状态脱节，例如推荐已 reviewed 的任务继续生产 | 会话启动协议强制先读 `.agent/context.md`、`production-queue.md`、任务单；将「数据包完整性」作为 pre-submit 前置检查 |
+| 手动修改状态导致状态机紊乱 | 抢跑、重复审、同一任务被多个实例领取、`status` 与 `reviewed_by` 不一致 | 所有状态变更必须通过 `queue_transition.py`；脚本内置 gate、锁、状态机校验；禁止任何角色直接编辑 frontmatter 状态字段 |
+| 子代理 verdict 噪声 | 同一批文件换实例/换模型后结论不同，例如 #60 欧阳锋子代理两次审查给出 fail，但其他实例可能直接 pass | 保留人工终审；对关键 verdict 引入多人/多实例校准；把 verdict 边界条件写进任务单验收标准 |
+| 中央状态机单点故障 | `queue_transition.py` 出 bug（如按 id 找不到任务单）时全厂状态流转瘫痪 | 为脚本写回归测试（#60 修复后补 7 个 test）；关键路径定期跑 `pytest`；状态变更失败时回滚并报警 |
+| 抽象框架停在概念层 | 团队能画双三角、谈 TCPR，但 agent-spec 卡里没有对应字段，System Prompt 不声明身份 | 把框架要求写入设计规范（`agent-native-card-design.md`）和 lint WARNING；新卡必须显式声明 `tcp_role` 与默认模式 |
+| 用户对子代理给出模糊指令 | 说「你去审查一下」但没给任务 ID、文件路径、验收标准，子代理跑偏或漏审 | 任务单模板强制包含 ID、source_refs、验收标准；王语嫣在派生前先做「请求结构化」并把参数写进子代理 prompt |
+
 ## Critique
 
 ### 内部局限
