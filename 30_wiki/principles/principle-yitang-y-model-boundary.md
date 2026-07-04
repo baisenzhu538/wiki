@@ -2,14 +2,14 @@
 id: principle-yitang-y-model-boundary
 title: Y模型 只服务于"希望在未来真实世界持续成事的人"
 type: principle
-status: reviewed
+status: draft
 author: 老顽童
-reviewed_by: 欧阳锋
+reviewed_by: pending
 confidence: 0.90
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: '2026-07-04'
+updated_at: 2026-07-05
 domain:
 - yitang
 source_refs:
@@ -18,6 +18,7 @@ source_refs:
 related:
 - "[[yt-decision-y-model]]"
 - "[[concept-yitang-model-system-boundary]]"
+- "[[method-yitang-y-model-engine-cycle]]"
 ---
 
 # Y模型 只服务于"希望在未来真实世界持续成事的人"
@@ -40,6 +41,40 @@ related:
 ## 为什么这个边界声明重要
 
 很多方法论被滥用，不是因为方法论本身有问题，而是用的人不在它的服务范围内。一个只想"了解了解"的人用 Y模型 会觉得太重；一个真正需要持续成事的人用 Y模型 会觉得刚刚好。
+
+---
+
+## Critique
+
+**[Universal Framework Skeptic]**
+> "说 Y模型 只服务于'持续成事的人'听起来像是在给自己设边界，但实际上任何方法论都可以这么说。这个边界声明太宽了——几乎所有人都觉得自己'希望持续成事'。"
+
+**回应**：边界的真正作用不是排除人，是排除使用场景。"只服务于成事的人"意味着：如果你只是想了解了解、学完不用、或者用来解释过去，Y模型 不是给你用的。它要求知行合一——不落地就等于没用。
+
+**[Simplicity Advocate]**
+> "四个边界条件本身就需要判断力来判断自己是否符合。一个还没入门的人怎么知道自己是不是'希望在未来真实世界持续成事'？"
+
+**回应**：如果你看到这四个条件还在犹豫自己是否符合，那你大概率就是它的服务对象——因为纯知识消费者根本不会犹豫，他们知道自己只是来"学学"。
+
+---
+
+## Synthesis
+
+| 关系 | 目标卡 | 说明 |
+|:---|:---|:---|
+| 底层系统 | [[yt-decision-y-model]] | 本卡是 Y模型 核心框架的边界声明 |
+| 边界意识 | [[concept-yitang-model-system-boundary]] | 本卡是模型边界概念的具体示例 |
+| 操作入口 | [[method-yitang-y-model-engine-cycle]] | 确认自己符合四个条件后，从这里启动引擎 |
+
+---
+
+## Action Triggers
+
+| 触发场景 | 第一个动作 |
+|:---|:---|
+| 不确定自己是否需要 Y模型 | 过四个条件——缺任何一个都不需要勉强 |
+| 团队有人质疑"方法论太重" | 先用四个条件对齐——如果他不属于服务对象，不强推 |
+| 感觉学了很多方法论但没什么用 | 检查第四条件"成事"——有没有在真实项目里落地过？ |
 
 ## 与其他知识的关联
 

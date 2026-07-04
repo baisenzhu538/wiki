@@ -2,14 +2,14 @@
 id: concept-yitang-education-formula
 title: 教育 = 教材 + 教学 + 积极改变
 type: concept
-status: reviewed
+status: draft
 author: 老顽童
-reviewed_by: 欧阳锋
+reviewed_by: pending
 confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: '2026-07-04'
+updated_at: 2026-07-05
 domain:
 - yitang
 source_refs:
@@ -18,6 +18,8 @@ source_refs:
 related:
 - "[[framework-yitang-jiefang-sixiang]]"
 - "[[yt-decision-y-model]]"
+- "[[method-yitang-y-model-engine-cycle]]"
+- "[[concept-yihang-dual-triangle-core]]"
 ---
 
 # 教育 = 教材 + 教学 + 积极改变
@@ -48,8 +50,35 @@ related:
 
 ---
 
+## 四、Critique
+
+**[Pedagogy Purist]**
+> "教育 = 教材 + 教学 + 积极改变 是一个供给端视角的公式。从学习者的角度看，教育 = 动机 × 练习 × 反馈。你们这个公式忽略了学习动机这个最关键变量。"
+
+**回应**：成立。"积极改变"隐含了动机假设——如果学员没有改变的动机，教学动作再完美也没用。这个公式更适合"学员已经有动机"的场景（付费培训、内部培训），对"需要先激发动机"的场景（义务教育、强制培训）需要补动机要素。
+
+**[EdTech Skeptic]**
+> "现在 AI 可以同时充当教材、教学和反馈三个角色。如果 AI 能做全部三个要素，那'教育'和'AI 教育'的边界在哪？"
+
+**回应**：AI 可以做教材（生成内容）、教学（引导学习）、评估改变（追踪数据），但"积极改变"的最终定义权在人——什么算"变好了"、什么值得教、什么不值得教，这些判断是人的。AI 可以执行教育公式，但不能定义教育的目标。
+
+---
+
+## 五、Synthesis
+
+| 关系 | 目标卡 | 说明 |
+|:---|:---|:---|
+| 方法论基础 | [[framework-yitang-jiefang-sixiang]] | 本公式是解放思想课程中 L4 本质思考的具体产物 |
+| 底层引擎 | [[yt-decision-y-model]] | 三要素是 Y模型 在教育领域的框架性认识——可被持续验证和迭代 |
+| 能力框架 | [[concept-yihang-dual-triangle-core]] | 教材=数据、教学=体系、积极改变=审美——三要素映射到双三角 |
+| 操作法 | [[method-yitang-y-model-engine-cycle]] | 每次教育产品迭代 = 一轮 Y模型 循环——用三要素做 V1，验证后更新 V2 |
+
+---
+
 ## Action Triggers
 
 | 触发场景 | 第一个动作 |
 |:---|:---|
 | 设计一个新的教学/培训产品 | 用三要素逐一检查：教材够不够结构化？教学方式匹配吗？怎么衡量积极改变？ |
+| 教学效果不如预期 | 用三要素诊断：是教材不够好？教学方式不对？还是改变没有被有效衡量？ |
+| 想把已有课程/培训 AI 化 | 先拆成三要素，再看每个要素里 AI 可以替代什么、人必须守住什么 |
