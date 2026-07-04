@@ -5,7 +5,7 @@ type: case
 status: reviewed
 author: 王语嫣
 reviewed_by: 欧阳锋
-reviewed_at: 2026-07-04
+review_date: 2026-07-04
 confidence: 0.75
 trust_level: medium-low
 language: zh-CN
