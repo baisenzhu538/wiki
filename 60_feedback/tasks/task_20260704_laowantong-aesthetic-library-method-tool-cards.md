@@ -13,9 +13,7 @@ source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
 - "[[annotation-yihang-dual-triangle-master]]"
-- "[[method-yihang-aesthetic-fast-build]]"
-- "[[tool-aesthetic-library-builder]]"
-- "[[framework-yihang-knowledge-data-decoupling]]"
+- "[[extraction-yihang-dual-triangle-main]]"
 ---
 
 # 任务 #72：审美快速建立工作法 + 审美库采集工具卡
