@@ -45,20 +45,11 @@ related:
 
 ## Reusable Knowledge
 
-- src_unknown
 
-堂尺口I高阶训练·全景地图  堂
-YitangAdvancedROICompetencyTraining·PanoramicMap
-0 笃定行动 2 3 1 2
-有意识 写初版 细打磨公有共识 做复盘
-
-以为每年也做不了 以为想一想就足以 以为决策一次性就 以为团队很容易理 以为决策是独立而临时的
-几次ROI决策 做出判断了 能想得清楚 解和认可决策 决策能力很难大幅提升
-其实海量決策需要分析 其实写下来会完全不同 其实需要多轮打磨提升 其实共识是极其难的 其实好的复盘能无限进步
-发现决策 决策类型 L1
-- src_unknown
-- src_unknown
-①个人职业发展：是否跳槽/辞职/创业 很快得出结论 推演故事：用一件货/一个流程/一 来做"
+- **核心洞察**：一堂-科学决策-ROI高阶训练全景图的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -67,6 +58,7 @@ YitangAdvancedROICompetencyTraining·PanoramicMap
 
 ## Output Opportunities
 
-- src_unknown
-- src_unknown
-- src_unknown
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

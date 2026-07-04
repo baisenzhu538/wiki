@@ -38,11 +38,11 @@ DeepseekV4Pro Thinking: Ultra 63% YOLO 56条反向链接 23个笔记属性 2,146
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：screenshot2的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -88,6 +88,7 @@ Herbert Simon 会质疑：**截图中的碎片化信息是否足以支撑系统�
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "OCR Quality Assurance Protocol for Knowledge Base Screenshots" — a tutorial bridging PaddleOCR ONNX pipeline limitations with KDO ingestion requirements, covering ligature correction, visual structure reconstruction, and metadata cross-validation workflows>
-Code: <script: `ocr-postprocess-validator.js` — Node.js tool that takes raw PaddleOCR output + original image path, applies regex-based word segmentation heuristics (e.g., "HowcanIhelpyoutoday?" → tokenized), flags potential UI element misrecognitions like "中 m", and generates structured KDO source YAML with confidence scoring>
-Capability: <workflow: "Screenshot-to-KDO Ingestion Pipeline" — a playbook integrating PaddleOCR ONNX Skill with KDO protocols, defining stages from image capture → OCR extraction → post-process validation → manual proofread queue → enriched concept generation, with decision gates for when visual structure loss invalidates automated ingestion>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

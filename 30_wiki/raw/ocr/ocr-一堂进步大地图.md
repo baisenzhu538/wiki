@@ -38,14 +38,11 @@ png` 堂 堂无限进步大地图『十年收藏版 - 不要急不要停：人�
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：一堂进步大地图的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -95,9 +92,10 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "一堂四阶修炼框架精校版" — 基于OCR乱码文本与方法论体系总图的交叉验证，重建"个人-管理-创业-无限"四张地图的完整定义、辩证关系与跃迁条件，附Y模型结构还原和增长飞轮要素补全>
-Code: <tool: `yitang-ocr-reconstructor.js` — Node.js脚本，输入PaddleOCR原始输出+一堂方法论术语词典，应用约束解码（constrained decoding）和结构模板匹配，自动修复"逾水屋""身起織"等典型误识，输出结构化四阶地图JSON>
-Capability: <workflow: "OCR-方法论图谱交叉验证工作流" — 针对教育/知识类图片的KDO ingestion流程：①PaddleOCR提取 → ②术语词典约束校正 → ③与现有知识图谱（如一堂方法论体系总图）对齐补全 → ④人工校验开放问题 → ⑤生成 enriched concept 文档>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook
 
 ## Visual Analysis
 

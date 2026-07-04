@@ -38,12 +38,11 @@ png` 刻意练习·一堂10年成长指数 堂 DeliberatePractice:Yitang10-YearG
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：一堂刻意练习十年成长指数的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -91,6 +90,7 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "一堂刻意练习指数深度解读——从OCR碎片到可执行成长系统" — 结合一堂方法论体系总图中的"科学成长（刻意练习）"课程（406），将OCR提取的五大要素与"1+4要素模型"交叉验证，澄清"固定套路"与"低端重复"的边界，并回答Open Questions中的视觉结构疑问>
-Code: <tool: `yitang-ocr-visualizer.html` — 交互式SVG重构工具，输入OCR文本+原图路径，手动标注"无限进步区"曲线、"e"符号位置、五要素空间布局，输出一堂方法论标准可视化模板>
-Capability: <workflow: "KDO-OCR-Methodology Triangulation Playbook" — 当OCR来源为教育/方法论类图片时，自动关联domain知识库（如yitang）、提取课程ID交叉索引、标记视觉结构存疑点、触发人工校对队列的标准化操作流程>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

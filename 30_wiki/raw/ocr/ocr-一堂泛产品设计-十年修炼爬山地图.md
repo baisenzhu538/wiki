@@ -39,14 +39,11 @@ png` 堂泛产品设计·十年峰炼爬山地图 堂 YitangTenYears'ClimbingRoa
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：一堂泛产品设计-十年修炼爬山地图的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -96,11 +93,10 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 - 待补充链接
 ## Output Opportunities
 
-Content: <analysis: "一堂泛产品设计L1-L6层级框架的批判性解构与能力评估量表" — 针对OCR提取的"十年修炼爬山地图"进行系统性审视，结合Related Document 2中"个人修炼地图"的顶天立地模型与刻意练习方法论，构建可操作的层级自评checklist，同时回应Open Questions中关于线性递进结构、工具箱完成标准、刻意练习概念迁移等核心质疑>
 
-Code: <script: `yitang-level-auditor.py` — Python工具输入OCR原始文本+原图路径，自动提取L1-L6层级结构并生成结构化JSON，对比Related Document 2的课程清单（course_id 泛产品设计等）进行交叉映射，标记OCR遗漏的视觉路径信息（如爬山隐喻的连接线），输出层级完整性报告与缺失字段预警>
-
-Capability: <playbook: "KDO OCR源材料-结构化知识转化工作流" — 整合Related Document 1的PaddleOCR ONNX双模部署经验与Related Document 3的OCR后处理验证脚本，定义从原始图片→OCR提取→人工校对→视觉结构重建→知识层级建模→开放问题追踪的六步标准作业程序，特别针对"堂泛产品设计"类层级框架图设计表格还原与隐喻信息补全机制>
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook
 
 ## Visual Analysis
 

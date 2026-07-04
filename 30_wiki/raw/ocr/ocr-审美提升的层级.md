@@ -36,14 +36,11 @@ png` 天花板 无限 " 你执行力的上限 探索 进步 解放思想 超越 
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：审美提升的层级的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -91,6 +88,7 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 - 待补充链接
 ## Output Opportunities
 
-Content: <analysis: "审美层级模型与一堂个人修炼地图的跨域映射" — 将OCR提取的六层审美进阶框架（基础→天花板）与一堂"顶天立地模型"（时间管理下限/人生红点上限）进行结构对齐，识别"从实事求是到解放思想"与IPO科学学习、刻意练习、复盘等方法论的接口，输出领域迁移可行性评估>
-Code: <template: `aesthetic-level-assessment.md` — 结构化诊断模板，将六层审美层级转化为可自评的检查清单，每层包含行为指标、典型误区、升级动作和验证标准，兼容KDO笔记属性系统>
-Capability: <workflow: "图像→结构化知识" — 整合PaddleOCR ONNX双模Skill与KDO ingestion的端到端工作流，覆盖OCR提取→视觉结构重建→人工校对→层级模型标注→开放问题追踪→相关文档交叉引用，解决OCR输出中视觉信息丢失和连字误识的系统性问题>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

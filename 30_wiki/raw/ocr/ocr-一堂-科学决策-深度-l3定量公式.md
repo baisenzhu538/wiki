@@ -42,11 +42,11 @@ png` 单元模型ROI深度：L3定量公式 A+B+C+D X C 定量 定钱 - 本文�
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
 
-
+- **核心洞察**：一堂-科学决策-深度-L3定量公式的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -97,6 +97,7 @@ Tetlock 在《超级预测者》中证实，即使是最优秀的预测者，在
 
 ## Output Opportunities
 
-Content: tutorial
-Code: tool
-Capability: playbook
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

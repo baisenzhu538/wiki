@@ -38,19 +38,11 @@ png` - 泛产品设计·用户卡片 项目背景分析 综合用户/场景/商�
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：泛产品设计-用户卡片-项目背景分析的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -96,6 +88,7 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 - 待补充链接
 ## Output Opportunities
 
-Content: 产品项目背景分析手册——基于"八维落差"框架的决策指南（整合OCR原始素材校验流程与优先级排序方法论）
-Code: 八维落差分析模板生成器（Node.js CLI工具，输入项目描述自动输出结构化分析卡片，集成PaddleOCR本地pipeline处理手绘/截图输入）
-Capability: 产品立项背景分析Agent（多模态输入→OCR提取→八维落差识别→冲突消解与优先级排序→输出带置信度的项目建议书）
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

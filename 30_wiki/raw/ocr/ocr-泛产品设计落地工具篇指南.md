@@ -38,12 +38,11 @@ A8  自 🌈 😂 🌈    47a 8 9ara 10 11 12 努力仿真 顶层文档 管理�
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：泛产品设计落地工具篇指南的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -88,6 +87,7 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "泛产品设计工具箱实战手册——从OCR乱码到结构化知识资产的19项工具解码指南" — 基于PaddleOCR ONNX pipeline的OCR质量缺陷案例，系统还原一堂方法论中"具象-打磨-青出于蓝"三阶段与19项工具的组合逻辑，填补视觉编码（编号体系、色块标记、符号系统）的信息缺口，建立可验证的验收节点与过度打磨风险识别框架>
-Code: <template: `yitang-toolkit-visual-decoder.html` — 交互式SVG模板，将OCR受损的"1aa-2 3 4 5a 6"编号体系与"🌈 😂 🌈"符号映射为可点击的知识节点，支持分层展开（独立小作品/复杂协作产品/高难度创新产品），内置"填充色块区"判定算法与工具依赖关系图（内核和边界→清单体笔记→十指讲评→...→解放思想）>
-Capability: <workflow: "OCR-受损方法论文档的KDO抢救性还原SOP" — 整合PaddleOCR ONNX双模部署、视觉结构推断、一堂四张地图交叉验证的三段式工作流：①OCR输出置信度评分与乱码标记 → ②对照yitang-course-map课程索引进行语义补全 → ③生成带trust_level和reviewed_by标注的enriched概念文档，解决培训场景方法论向企业自主应用迁移的有效性验证问题>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

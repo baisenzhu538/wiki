@@ -36,11 +36,11 @@ png` 一堂·泛产品设计看的三大自我修养 堂 Yitang·TheWayofGeneral
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：泛产品设计者的三大自我修养的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -89,6 +89,7 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 - 待补充链接
 ## Output Opportunities
 
-Content: <analysis: "一堂泛产品设计方法论批判性解构" — 针对原文三大工具箱框架，结合"一堂方法论体系总图"中个人修炼地图的顶天立地模型，系统回答Open Questions中的8个核心质疑，输出带辩证结构的评估报告，明确3天课程与10年修炼之间的转化机制设计>
-Code: <tool: `yitang-card-deck-evaluator.js` — 基于原文"36张卡牌"未展开的设计，构建可配置卡牌评估器，输入具体产品场景自动映射审美/落地/需求三维度权重，输出GAP识别报告与迭代优先级建议，解决"动态权重调整机制"缺失问题>
-Capability: <workflow: "OCR-KDO双模校验流水线" — 整合PaddleOCR ONNX本地部署与原文档的元数据交叉验证，建立从图片摄入→OCR提取→结构重建→人工校对→KDO入库的闭环，特别针对"视觉结构信息未体现"和"连字误识"两类已知缺陷设计拦截规则>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

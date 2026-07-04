@@ -38,13 +38,11 @@ png` 当有了这个逻辑以后，就可以用一页纸， 解释我所有的�
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：Truman的个人成长五步法的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -92,6 +90,7 @@ Carol Dweck 会质疑：**当你把"成长型思维"变成"五步法"时，你�
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "Truman's Five-Step Personal Growth Framework — Decoded & Contextualized: A Comparative Analysis with 一堂's '顶天立地' Methodology" — reconciling OCR-corrupted capability taxonomy with validated 一堂 curriculum structure, resolving '高效IPO' semantic ambiguity through cross-reference with course 402's Input-Process-Output model, and mapping the 'free innovator' dual classification against 一堂's four-map progression>
-Code: <template: `yitang-growth-one-pager.html` — interactive visual template reconstructing Truman's spatial framework with drag-drop capability-resource-path-milestone alignment, integrating 一堂's verified course IDs as hover annotations, and exporting structured YAML for KDO ingestion>
-Capability: <playbook: "OCR-Corrupted Knowledge Source Recovery Protocol" — systematic workflow for triaging PaddleOCR ONNX output against domain-specific concept maps (here 一堂 methodology), using known-validated structures to infer and flag uncertain extractions, with decision trees for when to human-in-the-loop versus auto-reconcile>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

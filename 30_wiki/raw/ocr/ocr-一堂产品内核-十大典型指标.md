@@ -36,16 +36,11 @@ png` 一堂产品内核・十大典型指标 环节 指标 一句话说明 销�
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：一堂产品内核-十大典型指标的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -90,6 +85,7 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "一堂产品指标诊断手册——从十大典型指标到增长飞轮设计" — 系统解析获客/服务/复购三环节指标的因果关系与计算口径，针对留存率周期模糊、满意率测量方式矛盾、复购与续费边界重叠等开放问题建立标准化定义框架，并输出各环节指标联动的诊断模板>
-Code: <tool: `yitang-metrics-calculator.html` — 交互式单页应用，输入各环节原始数据后自动计算十大指标、可视化漏斗转化与环比趋势，内置"指标冲突检测"模块（如标记同一用户续费行为是否重复计入复购率）、支持导出KDO格式的分析报告YAML>
-Capability: <playbook: "OCR-结构化知识生产流水线" — 整合PaddleOCR ONNX本地推理、视觉结构重建（表格/层级标题识别）、人工校对触发规则与KDO source YAML自动生成，解决OCR输出中视觉信息丢失、连字误识、指标分类层级模糊等系统性问题，形成从图片→结构化知识→指标诊断的闭环工作流>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

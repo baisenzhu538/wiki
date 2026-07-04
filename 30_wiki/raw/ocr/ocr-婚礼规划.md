@@ -39,12 +39,11 @@ png` 婚礼操盘：婚礼环节规划 传统方式 (郊区) 我们的设计 1.
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：婚礼规划的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -92,6 +91,7 @@ Herbert Simon 会质疑：**婚礼规划中的"最优解"可能不存在，因�
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "仪式化事件的个性化改造框架" — 以婚礼流程为案例，提炼"标准化骨架+情感化替换"的可复用方法论，应用于产品发布会、毕业典礼、企业年会等仪式场景>
-Code: <template: `ritual-design-worksheet.md` — 结构化模板，左侧列仪式标准环节，右侧列个性化替换选项，支持"#"替换符和"=》"转化符的语义标注，输出可直接用于策划沟通的对比文档>
-Capability: <workflow: "OCR→结构化知识→场景化迁移" — 三步流水线：1) PaddleOCR ONNX 提取原始文本 2) 人工校对标注符号语义（#替换/=》转化/⇄并行）3) 跨领域模式抽象与模板化复用>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

@@ -37,13 +37,11 @@ png` Y模型实操工作流 像一个顶级科学家一样创业 第一步 第�
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：一堂Y模型实操工作流的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -87,9 +85,10 @@ Henry Mintzberg 在《战略进程的具体结构》中对比了"计划战略"�
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "Y模型五步工作流实战手册" — 将一堂Y模型与KDO知识管理结合，针对OCR提取的创业方法论结构化落地，包含边界限定工具、1+N维度目标拆解模板、3-5模块认知聚焦检查表、四阶迭代进化路径图、组织配套四要素配置指南>
-Code: <script: `y-model-workflow-cli.js` — Node.js交互式工具，引导用户逐步完成Y模型五步流程，自动生成分阶段Markdown文档与Obsidian/Dendron兼容的YAML frontmatter，集成PaddleOCR pipeline实现白板/手写笔记直接摄入>
-Capability: <playbook: "OCR-方法论-结构化三角验证工作流" — 定义从原始图像(PaddleOCR ONNX提取)→人工校对→KDO概念卡片→方法论体系交叉引用→输出机会识别的标准操作程序，解决OCR视觉结构丢失与创业知识结构化之间的gap>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook
 
 ## Visual Analysis
 

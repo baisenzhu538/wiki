@@ -39,10 +39,11 @@ png` 泛产品设计的应用场景示意图 堂 sketchmapofproductdesignapplica
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：泛产品设计的应用场景示意图的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -91,6 +92,7 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "泛产品设计跨域迁移评估框架" — 针对一堂方法论中"地图级产品能力"的批判性分析文章，系统梳理装修设计/婚礼设计/SaaS等13个垂直领域的产品岗位成熟度差异，建立"领域产品化指数"评估模型，回应Open questions中关于范畴扩张理论依据与岗位需求真伪的质疑>
-Code: <script: `yitang-course-ocr-validator.ps1` — PowerShell工具扩展，专为一堂课程截图OCR优化：自动检测"一堂"品牌水印、识别课程编号（如402/418）、提取"地图"层级结构，输出结构化YAML并与[[一堂方法论体系总图]]的course_id交叉验证，解决"堂"字孤立识别和视觉框架丢失问题>
-Capability: <workflow: "OCR知识源批判性审校工作流" — 整合PaddleOCR ONNX pipeline的已知局限（dict索引偏移、视觉结构丢失、连字误识）与KDO源文本的Open questions生成机制，建立"提取→标注质疑→关联领域文档→生成可验证假设"的四步工作流，适用于教育/方法论类截图的知识入库>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

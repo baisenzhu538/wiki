@@ -36,10 +36,11 @@ png` ❤ 泛产品设计者的自我修养 的创业课 永远以"用户价值"�
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：泛产品设计者的自我修养的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -84,6 +85,7 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "泛产品设计者修养框架的批判性应用指南" — 结合一堂方法论体系，将"用户价值—最佳实践—无限进步"三条原则与四张地图（个人/管理/创业/无限修炼）交叉映射，提供优先级冲突决策树与领域适配检查清单>
-Code: <tool: `ocr-yitang-validator.js` — Node.js 扩展模块，在现有 PaddleOCR ONNX pipeline 基础上增加"一堂课程截图"专用后处理：识别课程编号（如402/418）、修复"的创业课"类语义断裂（基于语料库补全为"创业者的必修课"）、自动提取课程元数据并生成 KDO 结构化 source 文件>
-Capability: <workflow: "OCR 知识资产化闭环" — 从 00_inbox 图片捕获 → PaddleOCR ONNX 提取 → 人工校对队列（标记"中 m"类异常）→ 关联一堂/泛产品等既有知识图谱 → 生成 enriched concept 卡片 → 触发输出机会评估的端到端 playbook，含质量门禁与回滚机制>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

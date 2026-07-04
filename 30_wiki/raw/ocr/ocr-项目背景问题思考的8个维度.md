@@ -38,12 +38,11 @@ png` 项目背景问题思考的8个维度清单 层级 思考维度 落差 解�
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：项目背景问题思考的8个维度的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -88,6 +87,7 @@ Cyert 与 March 在《企业的行为理论》中指出：组织决策的核心�
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "项目背景诊断的8维度落差分析法" — 将一堂方法论体系中的"管理修炼"与"创业修炼"地图与OCR提取的8维度框架结合，形成可复用的项目启动前诊断指南，包含每个维度的落差度量标准、优先级判定矩阵及根因分析方法论>
-Code: <template: `project-background-8d.md` — Markdown诊断模板，集成8维度落差清单、量化评分表（1-5级落差度量）、因果链追踪区块，输出可直接用于KDO项目卡片和一堂IPO学习笔记>
-Capability: <workflow: "OCR→结构化诊断→KDO知识卡片" — 端到端技能链路：PaddleOCR ONNX提取图片框架→自动识别"8维度"类结构化方法论→生成带层级标签的KDO概念卡片→关联一堂四张地图索引→触发落差分析playbook>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

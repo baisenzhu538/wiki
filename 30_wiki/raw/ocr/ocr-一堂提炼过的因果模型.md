@@ -35,14 +35,11 @@ png` 一堂提炼过的因果模型 果(范围/目标) 因(基本框架) 商业�
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：一堂提炼过的因果模型的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -90,6 +87,7 @@ Nassim Taleb 在《反脆脆》中证明：复杂系统中的因果关系是非�
 - 待补充链接
 ## Output Opportunities
 
-Content: <analysis: "一堂因果模型体系解构报告" — 对OCR提取的18个因果模型进行形式化分析，逐一验证因→果的逻辑完备性、维度正交性、操作边界与权重缺失，输出结构化批判框架供方法论课程迭代参考>
-Code: <tool: `yitang-causal-model-validator` — Python脚本，输入一堂式"因→果"模型文本，自动检测：维度是否MECE、因变量是否可量化、操作定义是否完整、是否存在循环论证或层级混淆，输出诊断报告与改进建议>
-Capability: <playbook: "OCR-方法论-KDO 三级校验工作流" — 将PaddleOCR ONNX pipeline的原始输出，经视觉结构重建→术语对齐→因果逻辑验证→知识图谱嵌入，形成从非结构化图片到可执行知识资产的标准化SOP>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

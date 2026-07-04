@@ -36,11 +36,11 @@ png` 一堂五步法画布YitangFive-stepCanvas 假设 需求 解决方案 商�
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：一堂五步法画布的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -84,6 +84,7 @@ Rita McGrath 在《临时优势的竞争》中提出：在当今快速变化的�
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "一堂五步法画布实战手册" — 结构化教程，将OCR提取的框架与一堂方法论体系总图中的四张地图对齐，提供从假设验证到壁垒构建的完整工作流，含画布填写示例与常见逻辑陷阱（如"假设-需求"循环风险）的规避策略>
-Code: <script: `yitang-canvas-ocr-reconstructor.py` — Python工具，输入PaddleOCR原始输出+一堂五步法画布模板结构，自动修复"增衣→增长"等典型误识，重建画布五栏视觉布局，输出Markdown格式结构化画布及置信度标注>
-Capability: <playbook: "OCR-方法论画布联合校验工作流" — 整合PaddleOCR ONNX pipeline的已知bug教训（dict索引偏移、全角空格处理）与一堂类结构化画布的语义校验规则，建立"OCR提取→术语库匹配→人工复核→KDO入库"的四阶段标准作业程序>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

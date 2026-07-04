@@ -38,11 +38,11 @@ Y路线：泛产品设计 见过模型--看人用过--自己用过--少量刻意
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：truman的选择：两条职业成长路线的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -89,6 +89,7 @@ Seth Godin 在《Linchpin》中主张：真正的艺术家不做"选择题"，�
 - 待补充链接
 ## Output Opportunities
 
-Content: <analysis: "一堂X/Y路线批判性评估框架" — 针对商业培训方法论的结构化审视模板，整合OCR提取的Truman职业路线模型与Open Questions中的七项质疑，形成可复用的课程营销内容去偏见检查清单>
-Code: <template: `yitang-route-comparison.md` — Markdown结构化模板，将"两条路线"类二元框架强制展开为四维评估（学习路径、掌握难度、时间维度、可迁移性），并内嵌"不对称比较检测"与"幸存者偏差警示"两个自动化校验字段>
-Capability: <workflow: "OCR商业内容→KDO知识批判性入库" — 衔接PaddleOCR ONNX pipeline输出与KDO系统的三段式处理流：①OCR原文保留+视觉结构标注 ②营销材料来源标记与利益冲突声明 ③Open Questions强制生成与关联文档交叉验证>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

@@ -40,13 +40,11 @@ volcengine.
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：Tools Workflows的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -61,6 +59,7 @@ volcengine.
 
 ## Output Opportunities
 
-Content: <article: "Prompt Engineering Pattern Library" — cataloging the 6 reusable prompt archetypes from the source (inspiration flash, GEO adaptation, customer service AI, super-character casting, Coze workflow design, tool-layer strategy) with cross-references to the "善用佳软" precision-matching framework, plus a decision tree for selecting the right pattern based on task type, output format, and verification requirements>
-Code: <script: "Coze Workflow Stage-Gate Validator" — automates the three-phase confirmation protocol from the source, with built-in handling for edge cases (silence, partial modification, ambiguous response) that the source leaves undefined, integrating the "必须获得用户明确肯定" constraint with timeout/escalation logic>
-Capability: <workflow: "AI Content Adaptation Safety Protocol" — addresses the open question about GEO medical content risk by adding a mandatory "Accuracy Verification Gate" before any health/science GEO adaptation, with role-based sign-off (domain expert + legal review) and provenance tracking for source claims>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

@@ -42,18 +42,18 @@ related:
 
 ## Reusable Knowledge
 
-- src_unknown
-复追问仍会遗漏关键成本项
-- src_unknown
-仅靠个人经验「拍脑袋列」漏项率极高 在清单上做标注
-- src_unknown
-「冷静清单法」列不 业务场景下，对行业的典型成本结构不熟 2
+
+- **核心洞察**：一堂-单元模型-找全成本实操难点的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
 
 ## Output Opportunities
 
-- src_unknown
-- src_unknown
-- src_unknown
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

@@ -38,14 +38,11 @@ png` 一堂Y模型STEPS策略集VO.
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：一堂Y模型steps策略集的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -89,6 +86,7 @@ Richard Rumelt 在《好战略坏战略》中指出：大多数"坏战略"的共
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "Y模型STEPS策略集操作手册" — 将OCR提取的原始策略框架转化为可执行的认知建模指南，整合Scope/Target/Element/Predict/Support五模块的审美标准、避坑清单与行动检查表，适配个人学习者和团队两种场景>
-Code: <script: `y-model-steps-checker.js` — 交互式诊断工具，输入问题描述自动评估是否符合Y模型三维度（重要/困难/有效），输出目标结构建议（Top1+N分解）、框架范式推荐（清单/MECE/逻辑链/全面建模四级）及配套资源缺口分析>
-Capability: <workflow: "OCR→结构化知识→可执行框架" 三联闭环 — 衔接PaddleOCR ONNX pipeline的原始输出、KDO source YAML规范与Y模型认知工具，包含：①视觉结构重建（表格/层级还原）②提取知识验证（交叉Related Document 2的四张地图体系）③行动化封装（生成带审美标准和避坑指南的Markdown模板）>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

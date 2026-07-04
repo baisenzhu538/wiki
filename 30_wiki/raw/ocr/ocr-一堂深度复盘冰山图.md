@@ -38,13 +38,11 @@ png` 一堂深度复盘冰山图 堂 思考：这一轮复盘，你能挖到第�
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：一堂深度复盘冰山图的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -91,6 +89,7 @@ Karl Weick 在《组织文化与意义构建》中提出：复盘的本质不是
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "五层复盘冰山图：从OCR误序到认知校准——一堂方法论的结构化勘误与深度解析" — 结合OCR原文与提取知识的顺序矛盾，逐层验证五层递进结构的正确逻辑，产出可复用的知识提取校验框架>
-Code: <template: `yitang-iceberg-review.md` — Markdown模板将一堂深度复盘五层结构（客观事实→主观感受→背后原因→底层模型→能力建设）转化为可填写的复盘工作表，每层嵌入认知飞跃提示与常见偏误检查清单>
-Capability: <workflow: "OCR-KDO 结构化校验流水线" — 针对PaddleOCR ONNX pipeline输出的知识提取场景，建立原文-提取知识-相关文档的三向交叉验证机制，自动标记顺序矛盾、维度跳跃、语义模糊三类结构性风险，并触发人工复核节点>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

@@ -38,14 +38,11 @@ png` 堂泛产品36计·全套官方工具箱 堂 YitangGeneralProductDesignTool
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：一堂泛产品设计36计-全套地图的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -95,9 +92,10 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "一堂泛产品设计36计卡牌化实战指南" — 将36计方法论体系转化为可交互的数字卡牌工作流，覆盖需求/审美/落地三大工具箱的跨层级应用（A/B/C级产品），并整合"十倍速验证"原则与KDO知识管理系统的项目复盘闭环>
-Code: <tool: "yitang-36-cards-workflow.js" — Obsidian/Logseq插件脚本，将OCR提取的36计卡牌数据自动解析为结构化JSON，生成三级产品层级（A/B/C）的决策树导航，集成PaddleOCR ONNX pipeline实现原图→卡牌→KDO source的自动化入库链路，包含"动力阻力"分析矩阵和"峰终定律"MOT标记功能>
-Capability: <playbook: "一堂方法论×KDO双环迭代工作流" — 融合一堂四张地图（个人/管理/创业/无限修炼）与KDO知识管理协议，建立"输入（OCR/课程笔记）→处理（IPO科学学习模型）→输出（卡牌化产品设计）→复盘（深度复盘五层模型）"的闭环能力系统，特别解决"黑盒感觉→白盒要素"转化机制与"用户价值vs商业参数"冲突裁决标准>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook
 
 ## Visual Analysis
 

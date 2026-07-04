@@ -38,11 +38,11 @@ png` 一堂最佳转化率·动力三曲线 堂 YitangMotivationBoosting·Three-
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：一堂最佳转化率动力曲线图的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -89,6 +89,7 @@ Robert Cialdini 本人可能会质疑：他在《影响力》中提出的六大�
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "一堂转化率动力模型的批判性拆解与验证框架" — 分析性文章，将OCR提取的"三曲线模型"与西奥迪尼影响力原则、FAB法则进行概念溯源，建立可证伪的评估维度表，回应Open Questions中关于"概念拼贴vs实证验证"的核心质疑>
-Code: <script: `yitang-model-validator.py` — 工具脚本，输入一堂课程截图OCR文本，自动检测六大影响力原则与FAB要素的标注完整性，输出结构化解构报告（含置信度评分与缺失项标记），辅助判断模型是系统框架还是营销包装>
-Capability: <workflow: "OCR知识资产入库校验流水线" — 整合PaddleOCR ONNX双模Skill与KDO协议，定义从图片→OCR提取→人工校对→结构化YAML→交叉引用→Open Questions生成的标准作业程序，解决视觉结构丢失与概念错位问题>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook

@@ -36,11 +36,11 @@ png` - 堂泛产品设计实操：多出牌多练  堂 CultivateProductSense:Des
 
 ## Reusable Knowledge
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- **核心洞察**：一堂泛产品设计-多出牌多练习的关键信息点——从原始材料中提取的结构化知识，需要结合上下文理解。
+- **适用场景**：该知识点在AI协作、需求分析、产品设计等场景中的具体应用方式。
+- **关联知识**：与一堂方法论体系中的单元模型、需求拆解、场景识别等模块存在关联。
+- **实践要点**：在实际应用中需注意边界条件——工具的有效性取决于场景匹配度和执行者的判断力。
 
 ## Open Questions
 
@@ -88,6 +88,7 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 - 待补充链接
 ## Output Opportunities
 
-Content: <article: "泛产品设计刻意练习手册——从一堂'多出牌'方法论到个人修炼系统" — 将OCR提取的"多出牌多练习"框架与一堂个人修炼地图（刻意练习、IPO科学学习、清单体笔记）交叉整合，输出可执行的36张卡牌使用指南，覆盖职业/生活/学习全场景的出牌策略与反馈机制设计>
-Code: <script: `yitang-card-dealer.js` — 基于一堂"多出牌"三分类（更专业/更勇敢/更追求）的交互式练习工具，输入场景自动推荐出牌类型（A/B/C）、量化目标（5-20张/1-5张）及关联的一堂课程卡片（course_id映射），输出Markdown格式的刻意练习计划并同步KDO>
-Capability: <workflow: "OCR→结构化→方法论激活→刻意练习闭环" — 打通PaddleOCR ONNX pipeline的原始文本提取、一堂知识体系的自动关联、以及个人修炼地图的IPO学习循环（Input→Process→Output），形成从信息捕捉到能力成长的完整agentic playbook>
+
+- 可输出为：[[learning-thinking|学习方法论]]卡片，关联[[ai-collaboration|AI协作]]实践
+- 可提炼为：[[unit-model|单元模型]]框架的一部分，关联[[demand-iceberg-l1-observable|需求冰山]]模型
+- 产出类型：分析报告 / 操作脚本 / 实践playbook
