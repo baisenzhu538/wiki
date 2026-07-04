@@ -2038,6 +2038,52 @@ source_refs:
 
 ---
 
+## Batch 27（2026-07-04）
+
+**处理域**：yitang
+
+**文件数**：2 个社会工程学和门店调研 tool 卡（已完成文件）
+
+**pre-submit**：**2/2 PASS** ✅
+
+### 处理文件清单
+
+1. `tool-yitang-social-engineering-research.md` — 社会工程学调研：身份设计与信息获取的合法边界
+2. `tool-yitang-store-franchise-research.md` — 门店加盟调研手段：浅中深三层10大评估法
+
+### 修复详情
+
+**Body `src_unknown` 修复（27 条）：**
+- ✅ `social-engineering-research.md`：三条红线 12 条 + 来源与验证 3 条（共 16 条，DONE）
+- ✅ `store-franchise-research.md`：调研重点 3 条 + 适用场景 3 条 + 来源与验证 5 条（共 11 条，DONE）
+
+**部分修复文件（留到 Batch 28）：**
+- `tool-yitang-reverse-data-analysis.md` — 关联卡片 2 条 + 来源与验证 4 条（DONE），方法论章节约 7 条待修复
+- `tool-yitang-tech-project-research.md` — 来源与验证 4 条（DONE），方法论章节约 11 条待修复
+- `tool-yitang-supply-chain-research.md` — 方法论章节 14 条待修复
+- `tool-yitang-user-interview-5steps.md` — 方法论章节 9 条待修复
+- `tool-yitang-weapon-ai-tools.md` — 方法论章节 2 条待修复
+- `tool-yitang-weapon-anonymous-identity.md` — 方法论章节 2 条待修复
+
+### 验证结果
+
+- **kdo pre-submit**：2/2 PASS ✅
+- **全量 kdo lint**：1 ERROR / **1871** WARNING（↓0，部分修复未降低 WARNING）
+- ERROR 不变（framework 历史遗留）
+
+### 累计进展
+
+- 累计处理：**248 个**文件（27 批次）
+- WARNING：2624 → **1871**
+- 净减：**753**
+- pre-submit 通过率：**248/248 = 100%**
+- 剩余 placeholder：**0 个** ✅
+- 剩余 src_unknown：**约 52 条**（6 个文件，主要是方法论章节）
+
+*批次审查：待欧阳锋审核 · 2026-07-04*
+
+---
+
 ## Batch 26（2026-07-04）
 
 **处理域**：yitang
