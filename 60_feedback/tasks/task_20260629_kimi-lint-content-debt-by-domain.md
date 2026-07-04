@@ -2038,6 +2038,60 @@ source_refs:
 
 ---
 
+## Batch 25（2026-07-04）
+
+**处理域**：yitang
+
+**文件数**：10 个实战调研手段 tool 卡
+
+**pre-submit**：**10/10 PASS** ✅
+
+**WARNING 变化**：1890 → **1877**（↓13，lint 缓存刷新后）
+
+**ERROR**：1 → 1（不变，framework 历史遗留）
+
+**修复内容**：
+- 10 个文件：填充「目的」「操作步骤」「不要用的场景」「质疑」placeholder sections
+- 10 个文件：修复 `query_triggers`（每个 5-6 条，共约 55 条）
+- 3 个文件：开始修复 body `src_unknown`（unit-model 32 条 DONE、validate-assumption 30 条 DONE、reverse-data-analysis 33 条部分完成）
+
+**src_unknown 修复**：**约 62 条**（unit-model 32 + validate-assumption 30）
+- unit-model：单元定义原则 3 + 模板 17 + 关联卡片 8 + 来源与验证 4（共 32 条）
+- validate-assumption：优先级排序 3 + 验证标准 3 + 执行原则 3 + 结论 3 + 决策原则 3 + 核心原则 3 + 关联卡片 8 + 来源与验证 4（共 30 条）
+- reverse-data-analysis：ID自增分析原理 2 + 注意事项 3 + 爬虫抓取原理 2 + 注意事项 3 + 产品拆解原理 2 + 注意事项 3 + 门店侦察原理 2 + 注意事项 3 + ...（部分完成，约 17 条）
+
+**剩余 src_unknown**：约 **102 条**（8 个文件：reverse-data-analysis 约 16 + social-engineering-research 16 + store-franchise-research 11 + supply-chain-research 14 + tech-project-research 15 + user-interview-5steps 9 + weapon-ai-tools 2 + weapon-anonymous-identity 2）
+
+### 本批文件
+
+| # | 文件 | 亮点 |
+|:---|:---|:---|
+| 1 | `research-unit-model` | 单元模型分析框架 + 修复 32 条 src_unknown |
+| 2 | `research-validate-assumption` | 假设验证五步法 + 修复 30 条 src_unknown |
+| 3 | `reverse-data-analysis` | 逆向数据分析四法（placeholder 已填，src_unknown 部分修复） |
+| 4 | `social-engineering-research` | 社会工程学调研（placeholder 已填，src_unknown 待修复） |
+| 5 | `store-franchise-research` | 门店加盟调研三层 10 大手段（placeholder 已填，src_unknown 待修复） |
+| 6 | `supply-chain-research` | 供应链/合作方情报（placeholder 已填，src_unknown 待修复） |
+| 7 | `tech-project-research` | 科技型项目调研三层 10 大手段（placeholder 已填，src_unknown 待修复） |
+| 8 | `user-interview-5steps` | 用户访谈五步执行法（placeholder 已填，src_unknown 待修复） |
+| 9 | `weapon-ai-tools` | AI 工具七种使用方式（placeholder 已填，src_unknown 待修复） |
+| 10 | `weapon-anonymous-identity` | 匿名身份访谈四种方式（placeholder 已填，src_unknown 待修复） |
+
+### 累计进展
+
+| 指标 | 数值 |
+|:---|---|
+| 累计处理 | **240 个**文件（25 批次） |
+| WARNING | 2624 → **1877** |
+| 净减 | **747** |
+| pre-submit 通过率 | **240/240 = 100%** |
+| 剩余 placeholder | **约 16 个**（估算） |
+| 剩余 src_unknown | **约 102 条**（8 个文件） |
+
+*批次审查：待欧阳锋审核 · 2026-07-04*
+
+---
+
 ## Batch 24（2026-07-04）
 
 **处理域**：yitang

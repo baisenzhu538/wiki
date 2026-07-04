@@ -3,6 +3,7 @@
 .claude/
 .claudian/
 .kdo/
+!.kdo/backups/
 .config/
 
 # OS junk
