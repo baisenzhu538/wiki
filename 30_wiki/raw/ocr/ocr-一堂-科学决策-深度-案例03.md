@@ -47,13 +47,10 @@ png` 公司要不要自研IM+CRM系统 具体项 能否定量 补充解释 关�
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 具体假设：自研 IM+CRM 系统的 8 万元开发成本是否包含了后续迭代和维护的人力投入？
+- 边界：本案例仅适用于有 2 名以上研发人员的团队，不适用于无技术团队的外采优先场景。
+- 反例：如果外采 SaaS 的年费为 3 万/年，3 年总成本 9 万 vs 自研 8 万+维护，外采可能更经济。
+- 前提：班主任节省的时间确实能转化为每年 10 万元的价值，且系统使用率达标。
 
 ## Output Opportunities
 

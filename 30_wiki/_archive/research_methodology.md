@@ -87,9 +87,10 @@ source_context: （原 legacy，已从 title/context/filename 推断为 10_raw/s
 - 待补充链接
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 具体假设：≥10 个子 Agent 并行时，每个 Agent 的搜索空间是否真正独立？如果多个 Agent 搜索相同关键词的不同变体，是否会产生伪独立？
+- 边界：本方法论适用于中大型主题（需≥10维度分解），对于小型主题（如"某单一功能竞品分析"）是否过度设计？
+- 反例：如果所有子 Agent 都依赖同一个 LLM（如 GPT-4），它们的"独立"搜索是否会受同一 LLM 的知识偏差影响？
+- 前提：用户有足够的 API 预算支撑 ≥200 次搜索和 ≥10 个 Agent 的并行调用。
 
 ## Output Opportunities
 

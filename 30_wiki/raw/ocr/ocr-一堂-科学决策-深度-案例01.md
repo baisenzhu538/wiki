@@ -49,14 +49,10 @@ png` 关键决策ROI分析：是否全员涨薪20% 周期：以年为单位看�
 
 ## Open Questions
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 具体假设：涨薪 20% 后员工保留率是否会从当前水平提升？这个假设基于什么历史数据？
+- 边界：本案例仅适用于人力成本占营收 30% 以下的企业，超出此比例则 20% 涨薪的现金流压力过大。
+- 反例：如果涨薪后竞争对手以 30% 幅度挖人，20% 涨薪是否反而成为"留不住但花了钱"的沉没成本？
+- 前提：公司能准确识别"优质员工"——但这个识别标准本身可能存在偏差。
 
 ## Output Opportunities
 

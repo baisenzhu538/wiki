@@ -89,6 +89,8 @@ KDO（Knowledge Delivery Orchestrator）是一款面向内容创作者和知识�
 4. **跨设备状态一致性**：当两个设备各自通过 KDO 修改同一知识库的 pipeline 状态时（如一台设备标记某页面为 enriched，另一台仍显示 draft），如何解决状态冲突？Obsidian Sync 只解决文件内容同步，不解决 KDO 的 `.kdo/state.json` 冲突。
 5. **竞品响应时间**：Notion 或 Tana 在 2025-2026 年是否会发布类似的"画布+流水线"或"本地优先"功能？KDO 的窗口期有多长？
 6. **单机月成本 $0.6 假设的有效性**：这个估算基于哪些 LLM API 调用频率的假设？在实际使用中（如每日运行一次完整的 enrich→produce→validate 循环），月度成本的上限是多少？
+
+**前提与边界**：以上问题的具体假设是 KDO 在个人/小团队场景下的成本可预测。边界：当知识库规模超过 5000 条目时，LLM 上下文窗口和搜索性能可能成为瓶颈。反例：如果 LLM API 价格在 2026 年大幅上涨，$0.6/月的假设完全失效。前提：用户有能力维护 Markdown 知识库的基本结构质量。
 ## Output Opportunities
 
 - src_unknown
