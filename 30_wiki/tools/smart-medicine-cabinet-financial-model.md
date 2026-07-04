@@ -58,6 +58,13 @@ prerequisites: smart-medicine-cabinet-national-policy-redlines
 
 
 
+## 操作步骤
+
+1. 明确当前问题的边界和目标
+2. 选择合适的工具/方法进行拆解
+3. 按步骤执行，记录关键决策点
+4. 验证结果，根据反馈调整
+
 ## Purpose
 
 本工具解决以下问题：

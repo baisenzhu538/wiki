@@ -57,6 +57,13 @@ superseded_by: framework-一堂五步法-泛产品设计
 
 > 需求工具箱高级卡牌。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[yt-five-step-method]] | [[yt-five-step-common-pitfalls]] | [[一堂]]
 
+## 不要用的场景
+
+- 在问题边界尚不清晰时，不要急于使用此工具——先做探索性分析。
+- 在数据严重不足时，工具的输出质量会急剧下降——宁可暂停也不要强行推进。
+- 在团队缺乏该领域基础认知时，工具会放大错误而非纠正错误。
+- 在需要快速决策的紧急场景中，完整的工具流程可能过于耗时。
+
 ## Constraints & Boundaries
 
 ### 适用边界
