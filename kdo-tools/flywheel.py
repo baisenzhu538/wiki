@@ -3,9 +3,9 @@
 双三角飞轮引擎：记录每次Agent会话的 before-after 迭代。
 
 Usage:
-  kdo flywheel log --agent <id> --type <审美|体系|创造力|场景|数据|基本功> [--before <...> --after <...> --why <...> --next <...>]
-  kdo flywheel status [--days 21] [--agent <id>]
-  kdo flywheel pattern [--days 21]   # 检测重复模式
+  python kdo-tools/flywheel.py log --agent <id> --type <审美|体系|创造力|场景|数据|基本功> [--before <...> --after <...> --why <...> --next <...>]
+  python kdo-tools/flywheel.py status [--days 21] [--agent <id>]
+  python kdo-tools/flywheel.py pattern [--days 21]   # 检测重复模式
 """
 
 import argparse
@@ -47,31 +47,44 @@ def cmd_log(args):
     return 0
 
 
+def _where_clause(agent_id, days):
+    """Return (where_sql, params). days is inserted directly for SQLite date math."""
+    params = []
+    where = f"ts > date('now', '-{days} days')"
+    if agent_id:
+        where += " AND agent_id = ?"
+        params.append(agent_id)
+    return where, params
+
+
 def cmd_status(args):
     if not DB.exists():
         print("Flywheel not initialized. Run kdo status first.")
         return 1
 
     days = args.days
-    agent_filter = f"AND agent_id = '{args.agent}'" if args.agent else ""
+    where, params = _where_clause(args.agent, days)
 
     conn = sqlite3.connect(str(DB))
     conn.row_factory = sqlite3.Row
 
     total = conn.execute(
-        f"SELECT COUNT(*) as cnt FROM flywheel_log WHERE ts > date('now', '-{days} days') {agent_filter}"
+        f"SELECT COUNT(*) as cnt FROM flywheel_log WHERE {where}", params
     ).fetchone()["cnt"]
 
     by_type = conn.execute(
         f"""SELECT triangle_type, COUNT(*) as cnt FROM flywheel_log
-            WHERE ts > date('now', '-{days} days') {agent_filter}
-            GROUP BY 1 ORDER BY cnt DESC"""
+            WHERE {where}
+            GROUP BY 1 ORDER BY cnt DESC""",
+        params,
     ).fetchall()
 
+    loop_where = f"{where} AND impact_loop != ''"
     by_loop = conn.execute(
         f"""SELECT impact_loop, COUNT(*) as cnt FROM flywheel_log
-            WHERE ts > date('now', '-{days} days') {agent_filter} AND impact_loop != ''
-            GROUP BY 1 ORDER BY cnt DESC"""
+            WHERE {loop_where}
+            GROUP BY 1 ORDER BY cnt DESC""",
+        params,
     ).fetchall()
 
     pending = conn.execute(
@@ -79,7 +92,11 @@ def cmd_status(args):
     ).fetchone()["cnt"]
 
     recent = conn.execute(
-        f"SELECT agent_id, triangle_type, before_note, after_note, why_better FROM flywheel_log WHERE ts > date('now', '-{days} days') {agent_filter} ORDER BY ts DESC LIMIT 5"
+        f"""SELECT agent_id, triangle_type, before_note, after_note, why_better
+            FROM flywheel_log
+            WHERE {where}
+            ORDER BY ts DESC LIMIT 5""",
+        params,
     ).fetchall()
 
     print(f"飞轮状态 (最近 {days} 天)")
@@ -108,7 +125,7 @@ def cmd_status(args):
 def cmd_pattern(args):
     """Detect repeating patterns in flywheel log — signals for acceleration."""
     days = args.days
-    agent_filter = f"AND agent_id = '{args.agent}'" if args.agent else ""
+    where, params = _where_clause(args.agent, days)
 
     conn = sqlite3.connect(str(DB))
     conn.row_factory = sqlite3.Row
@@ -116,15 +133,17 @@ def cmd_pattern(args):
     # Find triangle types that appear >=3 times — acceleration signal
     frequent = conn.execute(
         f"""SELECT triangle_type, COUNT(*) as cnt FROM flywheel_log
-            WHERE ts > date('now', '-{days} days') {agent_filter}
-            GROUP BY 1 HAVING cnt >= 3 ORDER BY cnt DESC"""
+            WHERE {where}
+            GROUP BY 1 HAVING cnt >= 3 ORDER BY cnt DESC""",
+        params,
     ).fetchall()
 
     # Find agents with most iterations
     top_agents = conn.execute(
         f"""SELECT agent_id, COUNT(*) as cnt FROM flywheel_log
-            WHERE ts > date('now', '-{days} days') {agent_filter}
-            GROUP BY 1 ORDER BY cnt DESC LIMIT 5"""
+            WHERE {where}
+            GROUP BY 1 ORDER BY cnt DESC LIMIT 5""",
+        params,
     ).fetchall()
 
     # Find pending reflows that have accumulated

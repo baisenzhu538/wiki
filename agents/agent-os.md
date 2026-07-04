@@ -26,7 +26,7 @@ related:
 - tool-agent-spec-yitang-self-motivation
 - tool-agent-spec-yitang-Y-model-coach
 created_at: 2026-07-01
-updated_at: '2026-06-29'
+updated_at: '2026-07-04'
 ---
 
 # Agent OS：TCPR 身份协议与启动规范
@@ -154,7 +154,7 @@ Agent 不是固定人格。每次会话开始时，Agent 必须先从 **T / C / 
 
 ---
 
-## 9. 飞轮协议：每次会话结束前必须执行
+## 10. 飞轮协议：每次会话结束前必须执行
 
 ### 为什么
 

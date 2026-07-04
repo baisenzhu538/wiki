@@ -1,8 +1,9 @@
 ---
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 > ⚠️ **2026-06-27 重要更新**：老顽童生产任务已统一进入 `70_product/tasks/production-queue.md`，按队列顺序领取和审核。本 dashboard 仍保留历史任务全景，但**当前待生产/待审核任务请以 production-queue.md 为准**。
+> 🆕 **2026-07-04 更新**：王语嫣已开 #62/#63 任务单并入队。#62 黄药师处理 Agent Prompt 设计规范微债务；#63 老顽童补产一行双三角第二批 4 张 case 卡。
 
 # Task Dashboard
 
@@ -98,10 +99,10 @@ Generated: 2026-06-26T21:00:00+00:00
 
 ## Summary
 
-- **Total**: 61
+- **Total**: 63
 - **Done**: 23
 - **In Progress**: 1 (#61 老顽童(Kimi) 已领取)
-- **Queued**: 2（详见 `production-queue.md` #60/#62）
+- **Queued**: 3（详见 `production-queue.md` #60/#62/#63）
 - **Long-term / Paused**: 1（#28 lint 内容债，workbuddy 后台分批执行）
 - **Pending Review**: 0
 - **Review Done**: 53 (#50/#51/#52/#53/#54/#55/#57/#58/#59 reviewed)
@@ -134,6 +135,10 @@ Generated: 2026-06-26T21:00:00+00:00
 > **🆕 新增 #56**：#51 收尾任务；#51 终审时因素材未到位保留 2 个 framework stub（实事求是/解放思想），现在素材已处理就位，老顽童补全后重新提交欧阳锋终审。
 >
 > **🆕 新增 #57**：GraphRAG 健康度提升；#52 终审指出 orphan 比例 36%、1235 个 connected components；本任务分析 orphan 来源并补充跨域 related 链接，目标 orphan ≤30%、components ≤900、健康度 ≥72/100。
+>
+> **🆕 新增 #62**：#59 Agent Prompt 编译器微债务；王语嫣已开任务单并入队；黄药师负责补全 `agent-native-card-design.md` 三层编译章节（OS/域/用户）与 source 字段规范（`os_sources`/`domain_sources`/`user_sources`/`compiled_at`/`compiler_version`）；至少补全 4 张试点 agent-spec 卡 frontmatter；P2。
+>
+> **🆕 新增 #63**：一行双三角第二批案例补产；用户指令「老顽童在王语嫣基础上再重做一次补充任务」；老顽童(Kimi) 负责基于第一批 14 张卡和 4 张占位卡，补产天末/阿豪/花总/陈天 4 张完整 case 卡；同时交叉检查第一批 14 张卡，反向修复实质性缺口；P1。
 
 ---
 

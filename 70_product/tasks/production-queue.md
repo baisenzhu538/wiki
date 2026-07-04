@@ -2,7 +2,7 @@
 id: production-queue
 type: queue
 status: active
-updated_at: 2026-06-30T15:23:37+00:00
+updated_at: 2026-07-04T18:30:00+00:00
 reviewed_by: 欧阳锋
 owner: 王语嫣
 audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
@@ -100,3 +100,4 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 60 | `task_20260703_huangyaoshi-fix-queue-transition-review-lookup` | 修复 queue_transition.py review 按 frontmatter id 查找任务单 | queued | 黄药师 | 1 个 bugfix + 1 个回归测试 + 文档注释更新 | 无 | `60_feedback/tasks/task_20260703_huangyaoshi-fix-queue-transition-review-lookup.md` | 欧阳锋终审 #55 时发现 review 命令按 id 找不到任务单文件（id 与文件名不一致）；黄药师修复查找逻辑并补回归测试 |
 | 61 | `task_20260704_laowantong-case-production-54-pilot-A-candidates` | #54 试点 A 级候选投产：7 张 companion case 卡 | pending_review | 老顽童(Kimi) | 7 张 case 卡 | 依赖 #54 reviewed（已满足） | `60_feedback/tasks/task_20260704_laowantong-case-production-54-pilot-A-candidates.md` | 王语嫣追加：把 #54 诊断报告中欧阳锋圈定的 7 条 A 级候选转化为完整 case 卡；验证扫描流程的候选质量；P2，排在 #58 之后 |
 | 62 | `task_20260704_huangyaoshi-agent-prompt-compiler-micro-debt` | #59 微债务：Agent Prompt 设计规范补全与 source 字段标准化 | queued | 黄药师 | 1 个设计规范更新 + 3+ agent-spec 卡 frontmatter 补全 + lint 规则增强 | 依赖 #59 reviewed（已满足） | `60_feedback/tasks/task_20260704_huangyaoshi-agent-prompt-compiler-micro-debt.md` | 欧阳锋终审 #59 时提出的 2 项微债务：agent-native-card-design.md 缺三层编译章节与 source 字段规范；试点 agent-spec 卡未显式声明 source 字段；P2 |
+| 63 | `task_20260704_laowantong-yihang-dual-triangle-batch2-supplement` | 一行双三角第二批案例补产：天末/阿豪/花总/陈天 4 张 case 卡 | queued | 老顽童(Kimi) | 4 张完整 case 卡 + 第一批 14 张卡交叉检查 | 依赖王语嫣第一批 14 张卡 pre-submit PASS | `60_feedback/tasks/task_20260704_laowantong-yihang-dual-triangle-batch2-supplement.md` | 王语嫣已创建占位卡和详细计划；老顽童需用九层深挖法补产，并对第一批卡做反向修复 |
