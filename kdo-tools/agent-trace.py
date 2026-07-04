@@ -78,6 +78,7 @@ def cmd_save(args):
     return 0
 
 def cmd_list(args):
+    init_table()
     conn = sqlite3.connect(str(DB))
     conn.row_factory = sqlite3.Row
 
@@ -99,6 +100,7 @@ def cmd_list(args):
     return 0
 
 def cmd_compare(args):
+    init_table()
     conn = sqlite3.connect(str(DB))
     conn.row_factory = sqlite3.Row
 
