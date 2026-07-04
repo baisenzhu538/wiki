@@ -2,9 +2,10 @@
 id: case-yihang-dual-triangle-jumi-canvas-demo
 title: 双三角画布演示：巨米推广——从模糊需求到九层可执行计划
 type: case
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-05
 confidence: 0.82
 trust_level: medium
 language: zh-CN

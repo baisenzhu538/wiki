@@ -1,12 +1,12 @@
 ---
 id: task_20260704_wangyuyan-ai-self-xray-decomposition
 type: task
-status: queued
-assignee: 老顽童
+status: pending_review
+assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04T17:37:11.684034+00:00'
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-yihang-dual-triangle-ai-review]]'
