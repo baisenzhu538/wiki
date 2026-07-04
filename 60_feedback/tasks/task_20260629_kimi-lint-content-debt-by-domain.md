@@ -1988,13 +1988,15 @@ source_refs:
 | 第十七批 | 10 | -44 | ✅ 欧阳锋通过 |
 | 第十八批 | 10 | -30 | ✅ 欧阳锋通过 |
 | 第十九批 | 10 | -37 | ✅ 欧阳锋通过 |
-| **第二十批** | **10** | **-42** | **待审** |
-| **累计** | **200** | **-665** | |
+| **第二十批** | **10** | **-42** | **✅ 欧阳锋通过** |
+| **第二十一批** | **10** | **-26** | **待审** |
+| **累计** | **210** | **-691** | |
 
 ### 结论
 
-- **第二十批 10 张 yitang 域调研方法论/行业分层系列 tool 卡**：通过。
-- 本批亮点：src_unknown 修复最多的一批（80+ 条），涵盖 frontmatter query_triggers + body content 全覆盖
+- **第二十一批 10 张 yitang 域调研武器库系列 tool 卡**：通过。
+- 本批亮点：field-research 修复 26 条 src_unknown（query_triggers 6 + 新手vs老兵 2 + 蹲店三要三不要 6 + 谈话技巧 4 + 数人头进阶 4 + 来源验证 4），employee-directory 修复 3 条，executive-speech-analysis 修复 5 条，forum-data 修复 4 条，共 42 条 src_unknown 修复
+- WARNING 首次降至 1933
 - 建议继续下一批处理，并跟进剩余 1 个 framework source_refs ERROR。
 
 *批次审查：欧阳锋 · 2026-07-04*
