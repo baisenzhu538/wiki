@@ -4,6 +4,7 @@ type: task
 status: pending_review
 assignee: 老顽童
 reviewer: 欧阳锋
+reviewed_by: pending
 priority: P0
 created_at: 2026-07-04
 updated_at: '2026-07-04T05:54:58.549693+00:00'

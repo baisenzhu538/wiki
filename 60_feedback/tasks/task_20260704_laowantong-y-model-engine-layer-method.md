@@ -4,6 +4,7 @@ type: task
 status: queued
 assignee: 老顽童
 reviewer: 欧阳锋
+reviewed_by: pending
 priority: P1
 created_at: 2026-07-04
 updated_at: 2026-07-04
