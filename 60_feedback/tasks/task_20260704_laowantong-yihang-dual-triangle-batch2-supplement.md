@@ -2,12 +2,13 @@
 id: task_20260704_laowantong-yihang-dual-triangle-batch2-supplement
 title: 一行双三角第二批案例补产：天末/阿豪/花总/陈天 4 张 case 卡
 type: task
-status: reviewed
+status: done
 author: 王语嫣
 reviewed_by: 欧阳锋
 priority: P1
 created_at: 2026-07-04
 updated_at: '2026-07-04'
+closed_at: '2026-07-04'
 due_date: 2026-07-08
 owner: 老顽童
 assignee: kimi
