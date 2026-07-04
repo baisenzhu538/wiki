@@ -22,7 +22,6 @@ related:
 - "[[tool-Truman-Feature特性层训练法]]"
 - "[[tool-Truman-AI能力分层学习路径]]"
 - "[[method-yitang-y-model-engine-cycle]]"
-- "[[tool-ai-feature-inventory]]"
 ---
 
 # AI 基本功的 Feature 思维：把工具拆成最小可操作技术特性
