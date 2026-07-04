@@ -2,7 +2,7 @@
 .obsidian/
 .claude/
 .claudian/
-.kdo/
+.kdo/*
 !.kdo/backups/
 .config/
 

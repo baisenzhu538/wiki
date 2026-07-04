@@ -22,17 +22,23 @@ related:
 
 ## 任务目标
 
-产出一张 concept 卡 `concept-yihang-ai-feature-thinking`，把 Truman 在双三角课程中提出的 **Feature 思维** 固化成 KDO 可调用资产。
+1. 产出一张 concept 卡 `concept-yihang-ai-feature-thinking`，把 Truman 的 **Feature 思维** 固化成 KDO 可调用资产。
+2. **重制两张已有的低质量草稿卡**：
+   - `tool-Truman-Feature特性层训练法`（当前大量 src_unknown 占位，需用真实素材重写）
+   - `tool-Truman-AI能力分层学习路径`（当前大量 src_unknown 占位，需用真实素材重写）
 
-**核心命题**：基本功不是「会用工具」，而是掌握 AI 工具的**最小可操作技术特性（Feature）**，并能用 Feature 组合来解决问题。
+**核心命题**：基本功不是「会用工具」，而是掌握 AI 工具的**最小可操作技术特性（Feature）**，并能用 Feature 组合来解决问题。Feature 层是 Y模型 的底层结构，位于大模型与具体工具之间。
 
 ---
 
 ## 原始素材
 
 - `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt` 行 1210、1380-1468
+- `00_inbox/AI-study/一堂-AI学习-AI工具应用AMA口述.txt` 行 154-192、行 450-454、行 902、行 2742-2748、行 2778-2784
+- `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`（Truman 自用的 AI FeatureSet 四层结构）
 - 王语嫣入口标注：`60_feedback/annotations/annotation-yihang-ai-feature-thinking.md`
 - 王语嫣完整深读报告：`60_feedback/annotations/annotation-yihang-dual-triangle-master.md` 第 3.6 节（已更新）
+- 现有草稿卡：`30_wiki/tools/tool-Truman-Feature特性层训练法.md`、`30_wiki/tools/tool-Truman-AI能力分层学习路径.md`
 
 ---
 
@@ -87,14 +93,26 @@ Feature 思维 = 把 AI 工具拆成最小可操作技术特性，用特性组�
 
 ---
 
+## 建议产出
+
+| 产出 | ID | 类型 | 优先级 | 说明 |
+|:---|:---|:---:|:---:|:---|
+| Feature 思维概念卡 | `concept-yihang-ai-feature-thinking` | concept | P0 | 新增 |
+| Feature 特性层训练法 | `tool-Truman-Feature特性层训练法` | tool | P0 | **重写现有草稿卡**，清除 src_unknown 占位 |
+| AI 能力分层学习路径 | `tool-Truman-AI能力分层学习路径` | tool | P0 | **重写现有草稿卡**，清除 src_unknown 占位 |
+| AI 工具特性清单 | `tool-ai-feature-inventory` | tool | P1 | 可与 #75 联动 |
+
+---
+
 ## 验收标准
 
-- 卡片 `kdo pre-submit` 通过。
+- 3 张 P0 卡全部 `kdo pre-submit` 通过。
 - 必须出现 temperature 参数让成本降到约 1/40 的具体案例。
 - 必须区分 Feature、工具、Skill 三层概念。
-- 必须包含至少 8 个常见 Feature 示例。
+- 必须引用「AI上手第一课 / AI工具应用 AMA」行 154-192 和 Truman 自用 FeatureSet 作为更早来源。
+- 必须包含至少 8 个常见 Feature 示例，并说明其来源（双三角口述 / AMA / FeatureSet）。
 - 必须说明对 Agent 设计和 KDO 建设的启示。
-- 至少反向更新 3 张已有卡 `related`（如 `concept-yihang-dual-triangle-core`、`method-yitang-y-model-engine-cycle` 等）。
+- 至少反向更新 5 张已有卡 `related`（含 `concept-yihang-dual-triangle-core`、`method-yitang-y-model-engine-cycle`、`tool-Truman-提示词优化底层方法` 等）。
 - 欧阳锋终审通过。
 
 ---
