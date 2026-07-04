@@ -1,23 +1,23 @@
 ---
 id: task_20260704_laowantong-dual-triangle-afterclass-chat-cards
 type: task
-status: blocked
-assignee: 老顽童
+status: pending_review
+assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04T18:28:25.886535+00:00'
 source_task: null
 reviewed_by: pending
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[annotation-yihang-dual-triangle-afterclass-chat]]"
-- "[[annotation-yihang-dual-triangle-master]]"
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-dual-triangle-flywheel-engine]]"
-- "[[framework-yitang-y-model-dual-triangle-synergy]]"
-- "[[extraction-yihang-dual-triangle-main]]"
+- '[[annotation-yihang-dual-triangle-afterclass-chat]]'
+- '[[annotation-yihang-dual-triangle-master]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+- '[[framework-yitang-y-model-dual-triangle-synergy]]'
+- '[[extraction-yihang-dual-triangle-main]]'
 ---
 
 # 任务 #70：双三角课后闲聊洞察卡片化
