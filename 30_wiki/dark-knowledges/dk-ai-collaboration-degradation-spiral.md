@@ -2,9 +2,10 @@
 id: dk-ai-collaboration-degradation-spiral
 title: 人机协作退化螺旋：飞轮反转的两种死亡模式
 type: dk
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-05
 confidence: 0.90
 trust_level: high
 language: zh-CN
