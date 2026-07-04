@@ -1,15 +1,17 @@
 ---
 id: task_20260704_wangyuyan-dual-triangle-oral-spray-skill
 type: task
-status: pending_review
+status: reviewed
 assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-04
-updated_at: '2026-07-04T17:18:05.771589+00:00'
+updated_at: '2026-07-04T17:23:49.252373+00:00'
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-yihang-dual-triangle-deliberate-practice]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-04'
 ---
 
 # 任务 #87：口喷 Skill——双三角内功 + 九字诀外功

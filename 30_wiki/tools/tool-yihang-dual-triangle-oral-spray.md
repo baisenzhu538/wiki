@@ -2,9 +2,10 @@
 id: tool-yihang-dual-triangle-oral-spray
 title: 口喷：双三角内功 + 九字诀外功——语音驱动 AI 协作
 type: tool
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-05
 confidence: 0.88
 trust_level: high
 language: zh-CN
