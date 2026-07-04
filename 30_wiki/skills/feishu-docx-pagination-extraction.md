@@ -136,10 +136,14 @@ while has_more:
 ```
 
 **内存对比：**
-- src_unknown
-- src_unknown
 
----
+| 方式 | 内存占用 | 适用场景 |
+|---|---|---|
+| 全量加载 | O(n)，n = 总 block 数 | 小规模文档（<1000 blocks） |
+| 流式提取 | O(k)，k = page_size（500） | 大规模文档（>1000 blocks） |
+| 增量更新 | O(Δ)，Δ = 变更 block 数 | 实时同步场景 |
+
+- src_unknown
 
 ## 三、P0 事故复盘
 
@@ -156,7 +160,17 @@ while has_more:
 
 ## 四、防御性编码检查清单
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+在调用任何分页 API 时，检查以下四项：
+
+1. **是否检查了 `has_more`？**
+   没有 `while has_more` 循环 = 静默截断风险。
+2. **`page_size` 是否达到上限？**
+   飞书 Docx API 的 `page_size=500` 是硬上限，超过必须分页。
+3. **是否有分页警告日志？**
+   当页数 >1 时，打印警告（避免静默分页）。
+4. **提取后是否打印总数？**
+   对比预期 block 数，发现遗漏。
+5. **是否处理了嵌套子节点？**
+   只用 `for b in all_blocks` 会遗漏动态新增的 children，必须用队列。
+6. **是否有超时重试？**
+   API 调用应有 timeout 和重试逻辑（本例省略，生产环境需补充）。
