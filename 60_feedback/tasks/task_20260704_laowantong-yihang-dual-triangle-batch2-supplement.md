@@ -242,4 +242,51 @@ related:
 
 ---
 
+## 欧阳锋复审（2026-07-04 晚）：#63 返工后仍有两项阻塞
+
+### 复测动作
+
+1. 重新检查 `60_feedback/adversarial/` 目录下 4 张新 case 卡的自攻击报告。
+2. 对 4 张新 case 卡重新运行 `kdo pre-submit --files`。
+3. 对 `cases` 域运行 `kdo lint --domain cases`，确认第一批 case 卡 lint ERROR 是否已修复。
+
+### 复测结果
+
+| 检查项 | 结果 |
+|---|---|
+| 4 张新 case 卡 pre-submit | **4/4 PASS** ✅ |
+| 4 张新 case 卡 lint ERROR | **0** ✅ |
+| 4 张新 case 卡 lint WARNING | 仅 index 未收录（机械类） |
+| 自攻击报告 `60_feedback/adversarial/atk_<card-id>_20260704.md` | **4/4 缺失** ❌ |
+| 第一批 6 张 case 卡 lint ERROR | **24 个 ERROR 仍存在** ❌ |
+
+第一批仍有 lint ERROR 的文件：
+
+- `case-kdo-agent-factory-dual-triangle-practice.md`
+- `case-laozhu-hongqigong-human-ai-partner-evolution.md`
+- `case-yihang-dual-triangle-beike-ai-outbound.md`
+- `case-yihang-dual-triangle-D-engineer-upward-communication.md`
+- `case-yihang-dual-triangle-hardware-patent-rule-explicit.md`
+- `case-yihang-dual-triangle-hotel-tag-sandbox.md`
+
+### 阻塞项（仍未解决）
+
+1. **4 张新 case 卡自攻击报告缺失**。
+2. **第一批 6 张 case 卡缺少标准 section 导致的 24 个 lint ERROR 未修复**。
+
+### 建议处置
+
+| 选项 | 说明 |
+|---|---|
+| A. 补齐后复审（推荐） | 老顽童补 4 份自攻击报告；同时补齐第一批 6 张 case 卡的 `关键证据/可迁移场景/教训/失败模式` 四节 |
+| B. 自攻击报告豁免 | 如果用户确认自攻击报告不是 #63 硬性门禁，可接受当前状态，但需在任务单注明 |
+| C. 第一批 ERROR 转交 | 若第一批 6 张卡不在 #63 范围，明确转交王语嫣另开任务，并在任务单中记录 |
+
+### 结论
+
+- **4 张新 case 卡内容质量 / pre-submit / lint（目标卡）**：通过。
+- **#63 / #62 整体状态**：仍 `changes_requested`，需补齐自攻击报告并处理第一批 case 卡 lint ERROR 后再次提交复审。
+
+---
+
 *欧阳锋 2026-07-04*
