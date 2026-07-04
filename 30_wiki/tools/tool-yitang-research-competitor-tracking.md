@@ -176,10 +176,11 @@ related:
 | **竞对合作** | 寻找替代合作、加强自有能力 | 寻找新合作伙伴 |
 
 ### 响应原则
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+- 保持战略定力：不盲目跟随竞对每一步动作，回到自身战略目标和用户需求做判断；竞对降价≠你必须降价
+- 快速评估：预警触发后 24 小时内完成"影响评估+响应决策"，不拖延也不冲动；用影响评估矩阵（高/低影响 × 高/低紧急）决定响应优先级
+- 内外平衡：不过度关注竞对而忽视自身产品迭代和用户反馈；每次竞对跟踪后，强制输出"对我们自己的启发"而不仅是"竞对做了什么"
+- 留痕复盘：每次响应后记录"竞对动作→我们的响应→效果评估"，形成响应知识库；季度复盘哪些响应有效、哪些无效，迭代响应策略
 
 ---
 
@@ -230,24 +231,24 @@ related:
 
 ## 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- tool-yitang-research-company-disassembly（竞品深度拆解是跟踪的基础：先拆解，再跟踪变化）
+- tool-yitang-research-intelligence-map-in-hand（情报地图：把跟踪到的信息沉淀为可执行的知识地图）
+- tool-yitang-research-continuous-tracking（持续跟踪：竞对跟踪的底层方法和监控机制设计）
+- framework-yitang-oscar-research（OSCAR 框架中的 O=竞对跟踪，系统定位竞对跟踪的位置）
+- framework-yitang-18-strategy-cards（战略 18 卡中的竞对分析维度，跟踪内容的设计依据）
+- case-yitang-sanjieke-benchmark-failure（三节课案例：跟踪了但误判了竞对战略意图）
+- dk-yitang-research-starter-vs-veteran（新手 vs 老兵：新手跟踪"动作"，老兵跟踪"意图"）
+- dk-yitang-research-source-freshness（信息新鲜度：不同维度应该设置什么跟踪频率）
+- concept-yitang-research-mindset（调研心态：跟踪是为了"更好地做自己"，不是"成为竞对"）
 
 ---
 
 ## 来源与验证
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 一堂-调研武器库培训-口述.txt（竞对跟踪系统化方法：监控清单→信息收集→分析判断→预警通知→响应行动）
+- 实战关键认知：预警等级需要"角色视角校准"——销售看到竞品降价是"红色"，产品看到同样是"黄色"；让四方一起定义预警等级
+- 响应决策框架：什么情况下跟进（竞对动作影响自身核心指标）/不跟进（竞对动作是噪音或战略干扰）/差异化响应（竞对降价，我们提升服务而非降价）
+- 监控工具验证：Google Alerts 对英文媒体效果好，中文需加百度指数+微信搜一搜；RSS 适合行业博客；爬虫需注意目标网站 ToS
 
 ---
 
