@@ -146,14 +146,13 @@ def fix_file(filepath):
         return False, f"Write error: {e}"
 
 def main():
-    # Read file list
-    list_file = Path(r"C:\Users\Administrator\AppData\Local\Temp\mkt_fresh.txt")
+    # Read file list from fresh kdo lint output
+    list_file = Path("/tmp/mkt_remaining.txt")
     if not list_file.exists():
-        # Try /tmp
-        list_file = Path("/tmp/mkt_fresh.txt")
+        list_file = Path(r"C:\Users\Administrator\AppData\Local\Temp\mkt_remaining.txt")
     
     if list_file.exists():
-        with open(list_file, 'r') as f:
+        with open(list_file, 'r', encoding='utf-8') as f:
             files = [line.strip() for line in f if line.strip()]
     else:
         # Generate fresh list
@@ -166,7 +165,6 @@ def main():
         files = []
         for line in result.stdout.split('\n'):
             if 'missing key terms' in line:
-                # Extract path: WARNING: 30_wiki/tools/xxx.md: ...
                 match = re.search(r'WARNING:\s+(30_wiki/\S+):', line)
                 if match:
                     files.append(match.group(1))
@@ -186,10 +184,7 @@ def main():
     skipped = 0
     
     for filepath in batch:
-        full_path = WIKI_ROOT.parent / filepath
-        if not full_path.exists():
-            # Try without 30_wiki/ prefix
-            full_path = WIKI_ROOT / Path(filepath).name
+        full_path = WIKI_ROOT / filepath
         if not full_path.exists():
             print(f"  SKIP (not found): {filepath}")
             skipped += 1
@@ -213,11 +208,9 @@ def main():
     print()
     print("FILES_FOR_PRESUBMIT:")
     for filepath in batch:
-        full_path = WIKI_ROOT.parent / filepath
-        if not full_path.exists():
-            full_path = WIKI_ROOT / Path(filepath).name
+        full_path = WIKI_ROOT / filepath
         if full_path.exists():
-            print(str(filepath))
+            print(f"30_wiki/{filepath}")
 
 if __name__ == "__main__":
     main()
