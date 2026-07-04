@@ -2,9 +2,10 @@
 id: framework-yihang-AI-native-dual-triangle-kernel
 title: AI 原生是结果，双三角是引擎
 type: framework
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-05
 confidence: 0.88
 trust_level: high
 language: zh-CN
