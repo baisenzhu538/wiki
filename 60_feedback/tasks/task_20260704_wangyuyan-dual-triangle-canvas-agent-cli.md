@@ -22,6 +22,8 @@ related:
 
 交付一个可运行、可测试的一行双三角画布填充 CLI Agent（`kdo-tools/canvas-agent.py`），让用户通过命令行完成九层深挖对话，最终输出标准化双三角画布，并自动记录飞轮迭代。
 
+**建设方法**：这个 Agent 本身必须用 Truman PPT 案例所展示的同一套方法建设——以双三角六要素为设计支架，用 Y模型 作为迭代发动机，先跑起来再每天迭代，而不是一次性追求完美。它是 KDO Agent 化的第一个试点，后面会有一系列 Agent 用同样流水线产出。
+
 ## 验收标准
 
 - `python kdo-tools/canvas-agent.py run` 能完成至少 3 个真实场景的交互式九层画布填充。
@@ -42,11 +44,29 @@ related:
 
 | 子任务 | 负责人 | 输出 | 阻塞 |
 |:---|:---|:---|:---|
-| 1. agent-spec v2 | 王语嫣 | `30_wiki/tools/agent-spec-dual-triangle-canvas-filler.md` v2 | 无 |
+| 1. agent-spec v2 | 老顽童/王语嫣 | `30_wiki/tools/agent-spec-dual-triangle-canvas-filler.md` v2 | 无；必须基于 #64/#65 完成后 dual-triangle 最新理解 |
 | 2. CLI 工具实现 | 黄药师 | `kdo-tools/canvas-agent.py` | 依赖子任务 1 |
 | 3. 测试场景设计 | 王语嫣 | `60_feedback/agent-traces/canvas-agent/scenarios.json` | 依赖子任务 1 |
 | 4. 真实模型测试 | 老顽童 | `60_feedback/agent-traces/canvas-agent/2026-07-0X/` trace | 依赖子任务 2、3 |
 | 5. 文档与注册 | 黄药师 | README 登记 + 工具卡更新 + 队列更新 | 依赖子任务 2、4 |
+| 6. 每日迭代机制 | 老顽童 | 每日/每周基于真实使用 trace 微调 prompt 和状态机 | Agent 上线后持续进行；不阻塞初次交付 |
+
+**关键原则**：子任务 1 的 agent-spec v2 不再由王语嫣单独写，而是由老顽童基于 #64/#65 产出的最新 dual-triangle 理解来生产，王语嫣负责方向把关。这与 Truman 做 partner 的方法一致：先双三角画布，再 Agent。
+
+## Agent 设计支架：用双三角六要素自检
+
+在写 agent-spec v2 和实现 CLI 之前，必须先填一张该 Agent 自身的双三角画布：
+
+| 要素 | 本 Agent 的画布答案（初版，会迭代） |
+|:---|:---|
+| 审美 | 输出的画布要「结构完整、不编造、用户可确认」；教练式追问 > 直接给答案 |
+| 体系 | 九层深挖状态机 → 场景 → 审美 → 体系 → 创造力 → 数据 → 基本功 → 飞轮四问 → 输出画布 |
+| 创造力 | 不替代用户思考，而是把用户零散表达结构化；未来可扩展到 voice/飞书/多 Agent 协作 |
+| 场景 | 用户面对一个复杂 AI 协作目标，需要快速搭出双三角画布；适合 CLI 单用户深度会话 |
+| 数据 | 双三角核心概念卡、案例卡、方法卡作为 RAG 来源；用户历史画布作为个人数据 |
+| 基本功 | Python CLI、DeepSeek API、YAML agent-spec、可选 card-reader RAG、flywheel log |
+
+**说明**：这张画布本身就是第一版朴素框架认知，会随着 Agent 上线后的真实使用而迭代。
 
 ## CLI 功能规格
 
@@ -96,6 +116,17 @@ class CanvasSession:
 | 项目 | 原因 | 重启条件 |
 |:---|:---|:---|
 | Hermes / 飞书 Agent | 本期聚焦 CLI 验证；飞书部署复杂，需额外处理并发、鉴权、消息格式 | CLI Agent 通过欧阳锋终审，且用户明确需要群聊/多用户版本时 |
+| 多 Agent 协作画布 | 本期先让单 Agent 跑通；多 Agent 协作（如 10 个 Agent 同时填画布）是下一阶段 | 单 Agent 日活稳定、用户反馈闭环跑通后 |
+
+## 系列化规划
+
+画布 Agent 是 KDO 用「双三角 + Y模型」方法建设的**第一个 Agent**。后续可用同一流水线建设：
+- 审美反馈 Agent
+- 数据飞轮设计 Agent
+- Y模型 迭代教练 Agent
+- 案例拆解 Agent
+
+每个 Agent 都遵循：**先画自身双三角画布 → 写 agent-spec → CLI 验证 → 每日 trace 迭代**。
 
 ## 风险
 
