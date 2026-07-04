@@ -1,16 +1,18 @@
 ---
 id: task_20260704_wangyuyan-agent-config-human-portrait-template
 type: task
-status: pending_review
+status: reviewed
 assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-04
-updated_at: '2026-07-04T17:43:05.066021+00:00'
+updated_at: '2026-07-04T17:44:01.654812+00:00'
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-agent-spec-yitang-customer-segmentation]]'
 - '[[method-yihang-dual-triangle-oral-spray]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-04'
 ---
 
 # 任务 #99：Agent 配置——人类画像+规则匹配 tool 卡

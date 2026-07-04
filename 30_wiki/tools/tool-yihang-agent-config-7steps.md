@@ -2,9 +2,10 @@
 id: tool-yihang-agent-config-7steps
 title: Agent 配置 7 步法：人类画像 + 规则匹配
 type: tool
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-05
 confidence: 0.88
 trust_level: high
 language: zh-CN
