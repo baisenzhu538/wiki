@@ -1,12 +1,12 @@
 ---
 id: task_20260704_laowantong-human-in-the-loop-dual-triangle-relation
 type: task
-status: in_progress
+status: pending_review
 assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-04
-updated_at: '2026-07-04T10:06:33.552604+00:00'
+updated_at: '2026-07-04T10:21:05.156739+00:00'
 source_task: null
 related:
 - '[[annotation-yihang-dual-triangle-master]]'
