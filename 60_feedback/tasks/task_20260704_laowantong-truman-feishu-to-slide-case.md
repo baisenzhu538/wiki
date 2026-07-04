@@ -1,18 +1,20 @@
 ---
 id: task_20260704_laowantong-truman-feishu-to-slide-case
 type: task
-status: pending_review
+status: reviewed
 assignee: 老顽童
 reviewer: 欧阳锋
 priority: P0
 created_at: 2026-07-04
-updated_at: '2026-07-04T05:54:58.372864+00:00'
+updated_at: '2026-07-04T08:34:06.423483+00:00'
 source_task: null
 related:
 - '[[annotation-yihang-dual-triangle-master]]'
 - '[[yt-decision-y-model]]'
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-yihang-dual-triangle-canvas]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-04'
 ---
 
 # 任务 #64：Truman「飞书 To slide」PPT 迭代案例卡

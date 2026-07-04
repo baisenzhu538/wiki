@@ -126,15 +126,15 @@ related:
 
 ## Constraints & Boundaries
 
-- src_unknown
-- src_unknown
+- 访谈对象必须是"真实潜在用户"，不是朋友、同事或家人（他们会给"友好反馈"而不是"真实反馈"）
+- 访谈数量不必多，但必须"深度"——1个深度访谈（60-90分钟）胜过10个表面访谈（15分钟）
 
 ---
 
 ## 来源
 
-- src_unknown
-- src_unknown
+- 一堂用户调研实操课-口述_ocr.md
+- 一堂用户调研实操课-笔记.txt
 
 ---
 

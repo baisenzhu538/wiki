@@ -2,14 +2,15 @@
 id: framework-yitang-y-model-dual-triangle-synergy
 title: Y模型 × 双三角协同工作法
 type: framework
-status: pending_review
+status: reviewed
 domain:
 - yitang
 - decision-science
 - ai-collaboration
 - methodology
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-04
 confidence: 0.85
 trust_level: high
 language: zh-CN

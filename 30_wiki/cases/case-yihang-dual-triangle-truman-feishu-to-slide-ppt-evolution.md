@@ -2,14 +2,15 @@
 id: case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution
 title: 一行双三角案例：Truman「飞书 To slide」PPT 迭代进化
 type: case
-status: pending_review
+status: reviewed
 domain:
 - yitang
 - ai-collaboration
 - productivity
 - presentation
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-04
 confidence: 0.85
 trust_level: high
 language: zh-CN
