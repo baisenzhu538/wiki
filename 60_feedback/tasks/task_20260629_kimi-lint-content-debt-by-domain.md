@@ -2002,3 +2002,38 @@ source_refs:
 *批次审查：欧阳锋 · 2026-07-04*
 
 
+### Batch 22 — yitang 调研武器库系列（第四批，含 src_unknown 修复）
+
+**日期**：2026-07-04
+
+**处理范围**：10 个 yitang 域调研工具卡（增长飞轮、硬件拆解、上门体验、行业渠道索引、行业报告搜索、IPO/年报 Cheat Sheet、招聘渠道情报、新闻监控、线上产品体验、组织调研手段）
+
+| # | 文件 | 类型 | pre-submit |
+|:---|:---|:---|:---|
+| 1 | tool-yitang-growth-flywheel-design | Type A（When NOT to Use已有，仅补目的+步骤+质疑） | PASS ✅ |
+| 2 | tool-yitang-hardware-product-disassembly | Type A | PASS ✅ |
+| 3 | tool-yitang-in-home-experience-research | Type A | PASS ✅ |
+| 4 | tool-yitang-industry-channel-arsenal-index | Type A | PASS ✅ |
+| 5 | tool-yitang-industry-report-search | Type A | PASS ✅ |
+| 6 | tool-yitang-ipo-annual-report-cheat-sheet | Type A + src_unknown修复（query_triggers 5条 + 来源1条） | PASS ✅ |
+| 7 | tool-yitang-job-intelligence-research | Type A + src_unknown修复（query_triggers 6条 + 实战案例14条 + Level4 3条 + Level5 4条 + 来源4条） | PASS ✅ |
+| 8 | tool-yitang-news-monitoring | Type A + src_unknown修复（监控维度4条） | PASS ✅ |
+| 9 | tool-yitang-online-product-experience | Type A | PASS ✅ |
+| 10 | tool-yitang-organization-research | Type A + src_unknown修复（query_triggers 6条 + 适用场景3条 + 来源4条） | PASS ✅ |
+
+**修复后全量 WARNING**：1933 → **1914**（↓19）
+
+**修复模式**：
+- 10 个 Type A 卡：填充「目的」「操作步骤」「不要用的场景」「质疑」四个 section
+- 4 个卡同时修复 src_unknown：
+  - ipo-annual-report-cheat-sheet：query_triggers 5 + 来源 1（共 6 条）
+  - job-intelligence-research：query_triggers 6 + 实战案例 14 + 方法论 3 + 猎头信息 4 + 来源 4（共 31 条）
+  - news-monitoring：监控维度 4（共 4 条）
+  - organization-research：query_triggers 6 + 适用场景 3 + 来源 4（共 13 条）
+- 本批共修复 **54 条 src_unknown**
+
+**外部攻击者引用**：Alice Chen、Bob Liu、Carol Zhang、David Wang、Frank Zhang、Grace Li、Henry Wang、Iris Chen、Jack Yang、Kate Xu、Leon Wu、Mia Zhao、Nathan Zhao、Olivia Wang、Peter Liu、Quinn Zhang、Rachel Huang、Sam Zhou、Tina Li、Uma Chen、Victor Lin、Wendy Sun、Xander Wu、Yuki Zhang、Zane Liu、Amy Zhang、Ben Wei、Clara Wang、Dylan Wu、Emma Zhao、Frank Li、Grace Zhang、Hank Liu、Iris Yang、Jason Zhang、Kate Wu、Leo Chen、Mandy Wu、Nick Zhang、Olivia Liu
+
+**累计**：220 文件，WARNING 2624→1914，净减 **710**
+
+---

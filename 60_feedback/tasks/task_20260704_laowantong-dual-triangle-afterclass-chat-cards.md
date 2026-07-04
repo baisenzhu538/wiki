@@ -1,19 +1,23 @@
 ---
 id: task_20260704_laowantong-dual-triangle-afterclass-chat-cards
 type: task
-status: queued
+status: blocked
 assignee: 老顽童
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-04
 updated_at: 2026-07-04
 source_task: null
+reviewed_by: pending
+source_refs:
+- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
 - "[[annotation-yihang-dual-triangle-afterclass-chat]]"
 - "[[annotation-yihang-dual-triangle-master]]"
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[method-dual-triangle-flywheel-engine]]"
 - "[[framework-yitang-y-model-dual-triangle-synergy]]"
+- "[[extraction-yihang-dual-triangle-main]]"
 ---
 
 # 任务 #70：双三角课后闲聊洞察卡片化
@@ -28,6 +32,7 @@ related:
 
 - `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt` 第 3500–5176 行
 - 王语嫣入口标注：`60_feedback/annotations/annotation-yihang-dual-triangle-afterclass-chat.md`
+- 王语嫣完整深读报告：`60_feedback/extractions/extraction-yihang-dual-triangle-main.md` 第 4.11 节「课后闲聊部分高密度洞察」
 
 ## 产出清单与优先级
 
@@ -35,27 +40,27 @@ related:
 
 | # | 建议卡片 ID | 类型 | 核心内容 |
 |---:|---|:---:|:---|
-| 1 | `method-yihang-dual-triangle-deliberate-practice` | method | 双三角刻意练习法：Truman 个人 1000 次口喷 + 一堂每月千轮 + 公司每年 100–200 次业务应用 |
-| 2 | `method-yihang-aesthetic-fast-build` | method | 审美快速建立三步法：细颗粒度拆解 → 超量案例浸泡 → 想象美好作品 → 减法还原（源自软装案例） |
-| 3 | `framework-yihang-knowledge-data-decoupling` | framework | 知识层与数据层解耦：核心 prompt = 审美+体系，data pack = 可插拔最小数据单位 |
+| 1 | `method-yihang-dual-triangle-deliberate-practice` | method | 双三角刻意练习法：公式 = 长期追求 + 固定套路 × 非舒适区 × 及时反馈 × 大量重复；用“刻意练习教练补丁”把通用教练升级为双三角版本（行 3382-3418） |
+| 2 | `method-yihang-aesthetic-fast-build` | method | 审美快速建立三步法：拆细颗粒度话题 → 找超出想象的案例 → 幻想美好作品；源自软装案例（行 4228-4250） |
+| 3 | `framework-yihang-knowledge-data-decoupling` | framework | 知识层与数据层解耦：Partner 核心提示词（审美+体系）与 DataPack 解耦，像插件一样组合；对 KDO Agent 设计的直接启示（行 5026-5078） |
 
 ### 第二批：P1（战略/教育/服务化方向）
 
 | # | 建议卡片 ID | 类型 | 核心内容 |
 |---:|---|:---:|:---|
-| 4 | `dk-yihang-dual-triangle-strategic-bet` | dk | 双三角作为一堂未来五年战略底牌：从五步法到双三角的代际跃迁 |
-| 5 | `framework-yihang-aesthetic-judgment-training` | framework | AI 时代审美判断力训练系统：A/B 对比 → 指出好坏 → 专业语言解释 |
+| 4 | `dk-yihang-dual-triangle-strategic-bet` | dk | 双三角作为一堂未来 5 年战略操作系统；比的是笃定、迭代速度、知行合一；方法论开源不怕抄（行 3474-3586） |
+| 5 | `framework-yihang-aesthetic-judgment-training` | framework | AI 时代审美判断力训练系统：A/B 对比 → 指出好坏 → 专业语言解释；未来教育核心转向（行 4010-4062） |
 | 6 | `framework-yihang-ai-implementation-consultant` | framework | AI 落地顾问/FD 工程师培养体系：双三角笃定 + 技术产品背景 + 学习能力强 + 价值观正 |
-| 7 | `concept-yihang-data-pack-ethics` | concept | 数据包使用伦理：个人学习可用，批量规模化流通会破坏信任 |
-| 8 | `method-yihang-knowledge-versioning` | method | 课程多版本压缩法：3 分钟/15 分钟/1 小时/3 小时版本，速通版 vs 互动版 |
+| 7 | `concept-yihang-data-pack-ethics` | concept | 数据包使用伦理：个人学习可用；反对 30-50 个以上连续数据包的规模化批量抓取/流通（行 4918-4984） |
+| 8 | `method-yihang-knowledge-versioning` | method | 课程多版本压缩法：3 分钟/15 分钟/1 小时/3 小时版本，降低学习成本（行 4710-4802） |
 
 ### 第三批：P2（组织/文化/认知方向）
 
 | # | 建议卡片 ID | 类型 | 核心内容 |
 |---:|---|:---:|:---|
-| 9 | `concept-yihang-research-driven-company` | concept | 研发型公司 vs 工程型公司：做未知问题、质量线优先于 deadline、挑难题解 |
-| 10 | `dk-yihang-scientific-community-moat` | dk | 科学共同体/实践共同体作为一堂核心资产 |
-| 11 | `dk-yihang-dual-triangle-commitment-confidence` | dk | 双三角让团队敢承诺：画布一画就知道能交付什么 |
+| 9 | `concept-yihang-research-driven-company` | concept | 研发型公司 vs 工程型公司：做“过去做不出来的东西”；品控线优先于 deadline（行 4478-4496） |
+| 10 | `dk-yihang-scientific-community-moat` | dk | 科学共同体/实践共同体作为一堂核心资产；冲向最大难题，解不掉就把过程稿交给下一个人（行 4542-4564） |
+| 11 | `dk-yihang-dual-triangle-commitment-confidence` | dk | 双三角让团队敢承诺：画布一画就知道能交付什么（行 4596-4604） |
 
 ## 卡片深度要求
 
@@ -91,4 +96,5 @@ related:
 
 ## 备注
 
-这段闲聊的密度极高，不亚于正式课程。王语嫣建议不要把它降解成「案例引用」，而是作为独立的一批卡片产出。其中「知识层与数据层解耦」对 KDO Agent 设计有直接影响，应优先处理。
+- 这段闲聊的密度极高，不亚于正式课程。王语嫣建议不要把它降解成「案例引用」，而是作为独立的一批卡片产出。其中「知识层与数据层解耦」对 KDO Agent 设计有直接影响，应优先处理。
+- 当前状态为 **blocked**：等待用户看完完整视频后再启动生产。深读和提取已完成，本任务单已基于完整口述稿重新校准，unlock 后可直接开工。

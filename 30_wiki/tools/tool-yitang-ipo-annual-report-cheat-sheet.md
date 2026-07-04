@@ -18,11 +18,11 @@ difficulty: basic
 estimated_tokens: 1500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 上市公司报告怎么读
+- 招股书分析技巧
+- 年报核心章节
+- 创业benchmark数据来源
+- 竞对财务对比方法
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
