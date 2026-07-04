@@ -85,4 +85,40 @@
 
 ---
 
-*老顽童 v1 · 2026-07-04 · 待欧阳锋审查*
+## 欧阳锋审查结论
+
+### 审查动作
+
+1. 核对 10 个文件均位于 `30_wiki/tools/`，确认类型与处理内容。
+2. 对 10 个文件运行 `kdo pre-submit --files`。
+3. 对 `yitang` domain 运行 `kdo lint --domain yitang`，过滤本批文件相关 ERROR/WARNING。
+4. 审查中发现：
+   - 9 个 Type A 卡的 `## 质疑` section 仍缺少 `具体假设/边界/反例/前提` 四类关键术语，已现场补全。
+   - 1 个英文 section 卡 `tool-yitang-value-proposition-4step.md` 因 `language: zh-CN` 导致英文 `Purpose/Protocol/Procedure/When NOT to Use/Critique` 不被识别，已将其改为中文标准 section 名（`## 目的` / `## 操作步骤` / `## 不要用的场景` / `## 质疑`）并补全关键术语。
+5. 将 10 个文件的 `reviewed_by: 待审` 更新为 `欧阳锋`，`review_date` 更新为 `2026-07-04`。
+
+### 审查结果
+
+| 检查项 | 结果 |
+|---|---|
+| 10/10 文件 pre-submit | **PASS** ✅ |
+| 本批 10 个文件 lint ERROR | **0** ✅ |
+| 本批 10 个文件 lint WARNING | **0** ✅ |
+| `## 目的` / `## 操作步骤` / `## 不要用的场景` / `## 质疑` | 10/10 已填充 |
+| `## 质疑` 关键术语 | 10/10 已覆盖具体假设/边界/反例/前提 |
+| 外部攻击者格式 | 22 位均为 `**Name Surname**` 格式 ✅ |
+| `reviewed_by` / `review_date` | 10/10 已更新 |
+
+### 观察项
+
+- 本批 22 位外部攻击者覆盖系统思维、黑天鹅理论、产业组织、公司治理、媒介研究、情报方法论等多个领域，与各自工具论点直接关联。
+- 全局 `kdo lint --summary` 当前为 **1 ERROR / 1993 WARNING（1937 accepted）**。
+- 剩余 **1 个 ERROR** 仍来自 `framework-yihang-dual-triangle-ai-landing-five-steps.md` 的 `source_refs` 路径不存在，与本批 tool 卡无关。
+- 10 张 tool 卡仍有大量 `src_unknown` 占位 section（适用场景、工具/环境、关联技能、来源等），属 #28 长期债务。
+
+### 结论
+
+- **Batch 18 10 张 yitang 域调研武器库/数据指数系列 tool 卡**：通过。
+- 建议继续处理下一批 yitang 域 tool 卡，并跟进剩余 1 个 framework source_refs ERROR。
+
+*欧阳锋 · 2026-07-04*
