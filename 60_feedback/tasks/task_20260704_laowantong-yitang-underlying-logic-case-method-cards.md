@@ -62,6 +62,7 @@ related:
 | `tool-yitang-quantitative-research-checklist` | tool | 实事求是 | 创业者定量研究清单：市场/需求/收入/成本/指标/运营六维 | 直接支撑双三角「数据」要素 |
 | `tool-yitang-method-ab-sides-checklist` | tool | 实事求是 | 创业方法 AB 面清单：对立金句的适用场景 | 直接支撑「审美/体系」边界判断 |
 | `tool-yitang-shishi-qiushi-cheat-sheet` | tool | 实事求是 | 实事小抄 + 求是小抄两套关键问句 | 团队训练工具 |
+| `concept-yitang-model-system-boundary` | concept | 科学理念/Y模型 | 体系与模型边界：每个模型/体系都有内涵、成本和适用域；ROI 只是决策工具，不是执行体系 | 直接回应用户 ROI 边界纠正，为 Agent 和后续框架卡提供边界意识 |
 
 ### 第二批 P1：高价值 but 可延后
 
@@ -118,8 +119,8 @@ related:
 
 ## 验收标准
 
-- P0 12 张卡全部 `kdo pre-submit` 通过
-- P0 中至少 8 张通过欧阳锋终审
+- P0 13 张卡全部 `kdo pre-submit` 通过
+- P0 中至少 9 张通过欧阳锋终审
 - P1/P2 分批提交，至少各通过 50%
 - 所有新卡反向更新 ≥5 张已有卡的 `related`
 - 新卡必须补充到 `epistemic-foundations` 或 `yitang` domain 的 `index.md`

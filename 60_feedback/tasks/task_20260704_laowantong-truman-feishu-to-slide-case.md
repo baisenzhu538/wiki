@@ -15,7 +15,7 @@ related:
 - '[[tool-yihang-dual-triangle-canvas]]'
 ---
 
-# 任务 #65：Truman「飞书 To slide」PPT 迭代案例卡
+# 任务 #64：Truman「飞书 To slide」PPT 迭代案例卡
 
 ## 任务目标
 

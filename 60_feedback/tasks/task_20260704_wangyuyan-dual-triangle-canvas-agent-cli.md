@@ -16,7 +16,7 @@ related:
 - "[[method-dual-triangle-flywheel-engine]]"
 ---
 
-# 双三角画布 Agent CLI 交付
+# 任务 #69：双三角画布 Agent CLI 交付
 
 ## 目标
 
@@ -54,7 +54,10 @@ related:
 | 5. 文档与注册 | 黄药师 | README 登记 + 工具卡更新 + 队列更新 | 依赖子任务 2、4 |
 | 6. 每日迭代机制 | 老顽童 | 每日/每周基于真实使用 trace 微调 prompt 和状态机 | Agent 上线后持续进行；不阻塞初次交付 |
 
-**关键原则**：子任务 1 的 agent-spec v2 不再由王语嫣单独写，而是由老顽童基于 #64/#65 产出的最新 dual-triangle 理解来生产，王语嫣负责方向把关。这与 Truman 做 partner 的方法一致：先双三角画布，再 Agent。
+**关键原则**：
+- 子任务 1 的 agent-spec v2 不再由王语嫣单独写，而是由老顽童基于 #64/#65 产出的最新 dual-triangle 理解来生产，王语嫣负责方向把关。这与 Truman 做 partner 的方法一致：先双三角画布，再 Agent。
+- Agent 必须具备「模型/体系边界意识」：默认根据用户问题判断任务类型（决策型 / 执行型 / 探索型 / 验证型），再选择对应框架或工具；不能把所有问题都塞进 ROI 或双三角画布。
+- Agent 调用的 method/tool 卡必须显式说明其适用边界，不能编造。
 
 ## Agent 设计支架：用双三角六要素自检
 

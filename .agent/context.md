@@ -4,25 +4,26 @@ updated_at: 2026-07-04T18:30:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#63 done；#64/#65 老顽童(Kimi) 生产中；#70 双三角课后闲聊洞察卡片化 blocked（等用户看完视频）；#66/#67 P1 待领取；#68 P2 待 #64/#65 后；#69 画布 Agent CLI 待 agent-spec v2；#71 底层逻辑三课程补产 queued；#72 审美库工作法/工具卡 queued（工具原型已就位）；#73 Agent 卡片/Skill 执行模式设计 queued（黄药师）"
+active_task: "#63 done；#64/#65 老顽童(Kimi) 生产中（已注入体系/模型边界审稿要求）；#66/#67 P1 待 #65 reviewed 后领取；#68 P2 待 #64/#65 reviewed 后；#69 画布 Agent CLI 待 #65 reviewed 后产 agent-spec v2；#70 课后闲聊 blocked；#71 底层逻辑三课程补产 queued（P0 +1 concept-yitang-model-system-boundary，入口标注已产出）；#72 审美库工作法/工具卡 queued（入口标注已产出，可与 #64/#65 并行）；#73 Agent 执行模式设计 queued（黄药师，Phase 1 设计骨架已产出）；#74 AI 基本功 Feature 思维概念卡 queued（入口标注已产出，回应用户批评）"
 blockers:
   - "#60 queue_transition 修复（2026-07-04）：欧阳锋重审通过；7/7 tests passed；#60 仍为 queued，需黄药师运行 `queue_transition.py complete`"
   - "#59 Agent Prompt 编译器（2026-07-04）：欧阳锋终审通过；产生 2 项微债务，已由王语嫣开 #62 跟进"
   - "#62 Agent Prompt 设计规范微债务（2026-07-04）：已入队，assignee 黄药师；P2"
   - "#63 一行双三角第二批案例补产（2026-07-04）：已 reviewed，欧阳锋终审通过"
-  - "#64 Truman 飞书 To slide PPT 迭代案例卡（2026-07-04）：claimed-老顽童(Kimi)，reviewer 欧阳锋；P0；生产中"
-  - "#65 Y模型 × 双三角协同工作法框架卡（2026-07-04）：claimed-老顽童(Kimi)，reviewer 欧阳锋；P0；生产中；与 #64 互相对照"
-  - "#66 人在环 × 双三角关系卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；可与 #64/#65 并行"
-  - "#67 Y模型 引擎层操作法卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；可与 #64/#65 并行"
-  - "#68 跨域审计（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P2；#64/#65 reviewed 后启动"
-  - "#69 双三角画布 Agent CLI 交付（2026-07-04）：queued，assignee 黄药师，reviewer 欧阳锋；P1；等 #64/#65 完成后老顽童产 agent-spec v2，王语嫣把关，黄药师再实现 CLI"
-  - "#70 双三角课后闲聊洞察卡片化（2026-07-04）：blocked/on-hold，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；王语嫣已从口述 3500-5176 行提取 14 个高密度洞察并产出候选卡清单；等待用户看完完整视频后再启动，用户确认后 unlock"
-  - "#71 底层逻辑三课程补产（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；王语嫣补挖三课程口述稿后追加，产出 P0 12 张 + P1 13 张 + P2 6 张；不与 #51 重复；建议 #64/#65 完成后用最新 dual-triangle 理解校准"
-  - "#72 审美库工作法/工具卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；回应用户批评，把 Truman 审美库建设的具体做法/工具/数字固化成 3 张卡；工具原型 kdo-tools/aesthetic-library-builder.py 已就位"
-  - "#73 Agent 卡片/Skill 执行模式设计（2026-07-04）：queued，assignee 黄药师，reviewer 欧阳锋；P1；直接回应用户‘Agent 怎么根据知识库卡片/skill 解决实际问题’的质疑；产出设计文档 + 可运行原型"
+  - "#64 Truman 飞书 To slide PPT 迭代案例卡（2026-07-04）：claimed-老顽童(Kimi)，reviewer 欧阳锋；P0；生产中；任务单编号已修正为 #64"
+  - "#65 Y模型 × 双三角协同工作法框架卡（2026-07-04）：claimed-老顽童(Kimi)，reviewer 欧阳锋；P0；生产中；新增创造力定义/体系边界审稿要求；任务单编号已修正为 #65"
+  - "#66 人在环 × 双三角关系卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；依赖 #65 reviewed 后启动，避免认知不一致；任务单编号已修正为 #66"
+  - "#67 Y模型 引擎层操作法卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；依赖 #65 reviewed 后启动；新增 ROI 滥用/以偏概全陷阱；任务单编号已修正为 #67"
+  - "#68 跨域审计（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P2；依赖 #64/#65 reviewed 后启动；任务单编号已修正为 #68"
+  - "#69 双三角画布 Agent CLI 交付（2026-07-04）：queued，assignee 黄药师，reviewer 欧阳锋；P1；依赖 #65 reviewed 后老顽童产 agent-spec v2，Agent 必须具备模型/体系边界意识"
+  - "#70 双三角课后闲聊洞察卡片化（2026-07-04）：blocked/on-hold，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；等待用户看完完整视频后再启动，用户确认后 unlock"
+  - "#71 底层逻辑三课程补产（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；P0 新增 `concept-yitang-model-system-boundary` 回应 ROI/体系边界；P0 建议 #65 reviewed 后启动；P1/P2 parking 直到王语嫣再次评估"
+  - "#72 审美库工作法/工具卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；工具原型已就位，可与 #64/#65 并行领取，优先回应用户批评"
+  - "#73 Agent 卡片/Skill 执行模式设计（2026-07-04）：queued，assignee 黄药师，reviewer 欧阳锋；P1；分 Phase 交付：Phase 1 设计文档+框架卡可立即启动；Phase 2 原型依赖 #72 工具卡和 #59 编译器；Agent 必须能判断任务类型并声明工具边界"
+  - "#74 AI 基本功 Feature 思维概念卡（2026-07-04）：queued，assignee 老顽童(Kimi)，reviewer 欧阳锋；P1；直接回应用户批评；入口标注 `annotation-yihang-ai-feature-thinking.md` 已产出；建议 #65 reviewed 后校准"
   - "#28 lint 内容债（2026-07-01）：状态 paused，assignee 改为 workbuddy，后台分批清理，不阻塞主线队列"
 
-next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`；② 老顽童完成 #64/#65 生产并提交欧阳锋终审；③ 老顽童可在 #64/#65 间隙领取 #66/#67/#71/#72（P1）；④ 老顽童在 #64/#65 reviewed 后启动 #68 审计；⑤ #70 课后闲聊卡片化等用户看完完整视频后再启动；⑥ 黄药师启动 #73 Agent 执行模式设计；⑦ 黄药师完成 #62 后等待 #69 agent-spec v2 到位再启动 CLI 实现；⑧ workbuddy 空闲处理 #28。"
+next_session_hint: "下一步：① 黄药师对 #60 运行 `queue_transition.py complete`；② 老顽童完成 #64/#65 生产并提交欧阳锋终审；③ 老顽童可并行领取 #72 审美库卡（入口标注已就位）和 #74 Feature 思维概念卡（入口标注已就位）；④ #65 reviewed 后老顽童依次领取 #66/#67/#71 P0；⑤ #64/#65 reviewed 后老顽童启动 #68 审计；⑥ #70 课后闲聊等用户 unlock；⑦ 黄药师基于设计骨架启动 #73 Phase 1 框架卡 + Phase 2 原型，Phase 2 等 #72 reviewed；⑧ 黄药师完成 #62 后等待 #69 agent-spec v2 到位再启动 CLI；⑨ workbuddy 空闲处理 #28。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

@@ -1,7 +1,7 @@
 ---
 id: task_20260704_laowantong-human-in-loop-dual-triangle-principle
 type: task
-status: queued
+status: closed_cancelled
 assignee: 老顽童
 reviewer: 欧阳锋
 priority: P1
@@ -15,7 +15,9 @@ related:
 - "[[framework-yitang-shishi-qiushi]]"
 ---
 
-# 任务 #67：人在环与双三角关系说明卡
+# 任务 #66 早期草案：人在环与双三角关系说明卡（已废弃）
+
+> **废弃说明**：本草案已被 `task_20260704_laowantong-human-in-the-loop-dual-triangle-relation.md`（生产队列 #66）取代。请勿按本文件执行；相关需求、验收标准和依赖请以 #66 为准。
 
 ## 任务目标
 

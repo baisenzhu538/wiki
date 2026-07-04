@@ -46,12 +46,17 @@ related:
 
 ## 设计目标
 
-产出一份可执行的设计文档 + 一个最小可运行原型，明确：
+产出：
+1. 一份可执行的设计文档 `60_feedback/design/agent-card-skill-execution-pattern.md`
+2. 一张可复用框架/方法卡 `framework-kdo-agent-card-skill-execution-pattern`（或 `method-kdo-agent-uses-cards`），把执行模式固化为 KDO 资产
+3. 一个最小可运行原型 `kdo-tools/agent-solver.py`
+
+设计文档必须明确：
 
 | 模块 | 目标 |
 |:---|:---|
 | 检索层 | Agent 如何根据用户问题调用 `kdo query` / `kdo link-suggest` / `kdo cards` 找到相关卡片 |
-| 规划层 | Agent 如何把问题映射到双三角画布，判断缺哪些要素 |
+| 规划层 | Agent 如何把问题映射到双三角画布，判断缺哪些要素；**同时判断任务类型，不把决策框架硬套到执行问题** |
 | 执行层 | Agent 如何调用 Skill/Tool（包括 `aesthetic-library-builder.py` 这类新工具）完成任务 |
 | 输出层 | Agent 如何给出可落地、可验证、可追溯的结果 |
 | 回流层 | Agent 如何把对话/结果写入 `flywheel_log`，更新相关卡片 `related` |
@@ -140,6 +145,29 @@ agent.run(
 
 ---
 
+## 阶段划分
+
+| 阶段 | 输出 | 依赖 | 是否阻塞主线 |
+|:---|:---|:---|:---:|
+| Phase 1：设计文档 + 框架卡 | `60_feedback/design/agent-card-skill-execution-pattern.md` + `framework-kdo-agent-card-skill-execution-pattern` | #59 已 reviewed，可立即启动 | 否 |
+| Phase 2：最小可运行原型 | `kdo-tools/agent-solver.py` + 3 个测试场景通过 | #72 审美库工具卡 reviewed（作为试点工具） | 是 |
+| Phase 3：与 #69 画布 Agent 集成 | 把执行模式接入画布 Agent 的 tool 调用层 | #69 agent-spec v2 + CLI 实现 | 否 |
+
+**说明**：Phase 1 可以独立产出；Phase 2 需要等 #72 审美库工具卡产出后才能用真实工具做端到端测试；Phase 3 是可选增强，不阻塞本任务验收。
+
+---
+
+## 模型/体系边界意识
+
+Agent 不能默认把所有问题都塞进双三角画布或 ROI 框架。设计文档和原型必须包含：
+
+1. **任务类型判断**：用户问题是决策型、执行型、探索型还是验证型？
+2. **框架选择规则**：决策型优先调用 `yt-decision-y-model` / ROI 相关卡；执行型优先调用 method/tool 卡；探索型优先调用解放思想/关键假设相关卡；验证型优先调用实事求是/定量研究相关卡。
+3. **边界声明**：每次调用 method/tool 卡时，Agent 必须向用户说明该工具的适用边界和不适用场景。
+4. **不自作聪明**：当知识库没有直接答案时，Agent 必须说「我缺少 X 卡，建议先补 X」，而不是用漂亮话搪塞。
+
+---
+
 ## 输入素材
 
 - `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt` 行 2852-2900（partner 用法）
@@ -155,9 +183,10 @@ agent.run(
 ## 验收标准
 
 - 设计文档 `60_feedback/design/agent-card-skill-execution-pattern.md` 完成，覆盖上述 5 个问题
+- 框架/方法卡 `framework-kdo-agent-card-skill-execution-pattern`（或等效 ID）产出并 `kdo pre-submit` 通过
 - `kdo-tools/agent-solver.py` 可运行，并通过至少 3 个测试场景
 - 原型必须真实调用 `kdo query` 和 `aesthetic-library-builder.py`，不伪造结果
-- 输出必须引用具体卡片 ID，不是抽象建议
+- 输出必须引用具体卡片 ID，不是抽象建议；必须能说明所用工具的边界
 - `kdo pre-submit` 通过
 - 欧阳锋终审通过
 

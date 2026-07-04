@@ -14,7 +14,7 @@ related:
 - "[[method-yitang-y-model-engine-cycle]]"
 ---
 
-# 任务 #69：跨域审计——框架是否被静态化
+# 任务 #68：跨域审计——框架是否被静态化
 
 ## 任务目标
 

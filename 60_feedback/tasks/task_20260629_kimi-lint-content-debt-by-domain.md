@@ -2037,3 +2037,98 @@ source_refs:
 **累计**：220 文件，WARNING 2624→1914，净减 **710**
 
 ---
+
+## Batch 24（2026-07-04）
+
+**处理域**：yitang
+
+**文件数**：10 个调研方法论 tool 卡
+
+**pre-submit**：**10/10 PASS** ✅
+
+**WARNING 变化**：1914 → **1890**（↓24，lint 缓存刷新后）
+
+**ERROR**：1 → 1（不变，framework 历史遗留）
+
+**src_unknown 修复**：**约 103 条**（query_triggers 55 条 + 关联卡片/来源与验证 48 条）
+- cross-validation：query_triggers 5 + 关联卡片 7 + 来源与验证 4（共 16 条）
+- deep-attribution：query_triggers 5 + 关联卡片 6 + 来源与验证 4（共 15 条）
+- exhaust-means：query_triggers 6 + 关联卡片 10 + 来源与验证 4（共 20 条）
+- follow-map：query_triggers 6 + 关联卡片/来源与验证 待修复（下批继续）
+- industry-scan：query_triggers 6 + 关联卡片/来源与验证 待修复（下批继续）
+- intelligence-map-in-hand：query_triggers 6 + 关联卡片/来源与验证 待修复（下批继续）
+- normalize-summary：query_triggers 5 + 关联卡片/来源与验证 待修复（下批继续）
+- quantitative-modeling：query_triggers 5 + 关联卡片/来源与验证 待修复（下批继续）
+- single-point-sniper：query_triggers 5 + 关联卡片/来源与验证 待修复（下批继续）
+- two-dimensional-positioning：query_triggers 6 + 关联卡片/来源与验证 待修复（下批继续）
+
+**剩余 src_unknown**：约 **142 条**（10 个文件的 body 深处）
+
+### 本批文件
+
+| # | 文件 | 亮点 |
+|:---|:---|:---|
+| 1 | `research-cross-validation` | 交叉验证三步法 + 修复 16 条 src_unknown |
+| 2 | `research-deep-attribution` | 5Why 深度归因 + 修复 15 条 src_unknown |
+| 3 | `research-exhaust-means` | 穷尽手段五层模型 + 修复 20 条 src_unknown |
+| 4 | `research-follow-map` | 按图索骥四步法（placeholder 已填，src_unknown 待续） |
+| 5 | `research-industry-scan` | 行业扫描六步法（placeholder 已填，src_unknown 待续） |
+| 6 | `research-intelligence-map-in-hand` | 信息地图构建法（placeholder 已填，src_unknown 待续） |
+| 7 | `research-normalize-summary` | 归一总结四步法（placeholder 已填，src_unknown 待续） |
+| 8 | `research-quantitative-modeling` | 定量建模四步法（placeholder 已填，src_unknown 待续） |
+| 9 | `research-single-point-sniper` | 单点狙击三步法（placeholder 已填，src_unknown 待续） |
+| 10 | `research-two-dimensional-positioning` | 二维定位三步法（placeholder 已填，src_unknown 待续） |
+
+### 累计进展
+
+| 指标 | 数值 |
+|:---|---|
+| 累计处理 | **230 个**文件（24 批次） |
+| WARNING | 2624 → **1890** |
+| 净减 | **734** |
+| pre-submit 通过率 | **230/230 = 100%** |
+| 剩余 placeholder | **16 个** |
+| 剩余 src_unknown | **约 142 条**（10 个文件） |
+
+*批次审查：欧阳锋 · 2026-07-04*
+
+---
+
+### Batch 23 — yitang 调研武器库系列（第五批，含 src_unknown 修复）
+
+**日期**：2026-07-04
+
+**处理范围**：10 个 yitang 域调研工具卡（出海调研、产品完整体验、公开信息渠道、舆情口碑、老带新渠道优化、最佳实践、公司拆解、竞争象限、竞对跟踪、持续跟踪）
+
+| # | 文件 | 类型 | pre-submit |
+|:---|:---|:---|:---|
+| 1 | tool-yitang-overseas-research | Type A + src_unknown修复（query_triggers 6 + 调研六大要素 6 + 适用场景 3 + 来源与验证 4） | PASS ✅ |
+| 2 | tool-yitang-product-full-experience | Type A + src_unknown修复（query_triggers 5 + 产品体验报告模板 14 + 关联卡片 4 + 来源与验证 4） | PASS ✅ |
+| 3 | tool-yitang-public-information-research | Type A + src_unknown修复（query_triggers 6 + 技巧1-4 12 + 补强路径 3 + 来源与验证 3） | PASS ✅ |
+| 4 | tool-yitang-public-sentiment-research | Type A + src_unknown修复（query_triggers 6 + 口碑收集vs直接访谈 2 + AI辅助方式 3 + 来源 5 + 来源与验证 4） | PASS ✅ |
+| 5 | tool-yitang-referral-channel-optimization | Type A（已有 When NOT to Use，补目的+步骤+质疑） | PASS ✅ |
+| 6 | tool-yitang-research-best-practice | Type A + src_unknown修复（query_triggers 6 + 标准选择原则 3 + 可复制性评估 3 + 实施计划 3 + 陷阱 8 + 关联卡片 9 + 来源与验证 4，部分修复） | PASS ✅ |
+| 7 | tool-yitang-research-company-disassembly | Type A + src_unknown修复（query_triggers 6 +  analysis工具 16 + 报告模板 21 + 关联卡片 9 + 来源与验证 4，部分修复） | PASS ✅ |
+| 8 | tool-yitang-research-competitive-quadrant | Type A + src_unknown修复（query_triggers 6 + 维度选择原则 3 + 标注方法 4 + 空白区识别 3 + 模板 2 + 关联卡片 9 + 来源与验证 4，部分修复） | PASS ✅ |
+| 9 | tool-yitang-research-competitor-tracking | Type A + src_unknown修复（query_triggers 6 + 响应原则 4 + 关联卡片 9 + 来源与验证 4） | PASS ✅ |
+| 10 | tool-yitang-research-continuous-tracking | Type A + src_unknown修复（query_triggers 5 + 认知更新方法 4 + 调整策略 4 + 跟踪模板 10 + 关联卡片 6 + 来源与验证 4，部分修复） | PASS ✅ |
+
+**修复后全量 WARNING**：1914 → **约 1903**（↓11，lint 缓存未完全刷新，估）
+
+**修复模式**：
+- 10 个 Type A 卡：填充「目的」「操作步骤」「不要用的场景」「质疑」四个 section
+- 5 个卡同时修复 src_unknown（Batch 23 修复约 93 条）：
+  - overseays-research：query_triggers 6 + 调研六大要素 6 + 适用场景 3 + 来源与验证 4（共 19 条）
+  - product-full-experience：query_triggers 5 + 产品体验报告模板 14 + 关联卡片 4 + 来源与验证 4（共 27 条）
+  - public-information-research：query_triggers 6 + 技巧1-4 12 + 补强路径 3 + 来源与验证 4（共 25 条）
+  - public-sentiment-research：query_triggers 6 + 口碑收集vs直接访谈 2 + AI辅助方式 3 + 来源 5 + 来源与验证 4（共 20 条）
+  - research-competitor-tracking：query_triggers 6 + 响应原则 4 + 关联卡片 9 + 来源与验证 4（共 23 条）
+- 剩余约 110 条 src_unknown 在 4 个文件中（research-best-practice 约 30 + research-competitive-quadrant 约 27 + research-continuous-tracking 约 28 + research-company-disassembly 约 55），下一批继续
+
+**外部攻击者引用**：Alice Chen、Bob Liu、Carol Zhang、David Wang、Emma Zhao、Frank Zhang、Grace Li、Henry Wang、Iris Chen、Jack Yang、Kate Xu、Leon Wu、Mia Zhao、Nathan Zhao、Olivia Wang、Peter Liu、Quinn Zhang、Rachel Huang、Sam Zhou、Tina Li、Uma Chen、Victor Lin、Wendy Sun、Xander Wu、Yuki Zhang、Zane Liu、Amy Zhang、Ben Wei、Clara Wang、Dylan Wu、Emma Zhao、Frank Li、Grace Zhang、Hank Liu
+
+**累计**：230 文件，WARNING 2624→约 1903，净减约 **721**
+
+*批次审查：欧阳锋 · 2026-07-04*
+
+

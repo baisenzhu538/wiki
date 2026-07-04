@@ -15,7 +15,7 @@ related:
 - "[[framework-yitang-y-model-dual-triangle-synergy]]"
 ---
 
-# 任务 #67：人在环 × 双三角关系卡
+# 任务 #66：人在环 × 双三角关系卡
 
 ## 任务目标
 
