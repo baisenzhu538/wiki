@@ -1,12 +1,12 @@
 ---
 id: task_20260704_wangyuyan-ai-native-dual-triangle-kernel
 type: task
-status: queued
-assignee: 老顽童
+status: pending_review
+assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04T16:50:12.246773+00:00'
 source_task: null
 related:
 - '[[framework-yihang-dual-triangle-core]]'
