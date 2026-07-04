@@ -4,8 +4,9 @@ title: 微信指数：公众号内容热度追踪
 type: tool
 status: enriched
 author: 老顽童
-reviewed_by: 待审
-review_date: 2026-06-21
+reviewed_by: 欧阳锋
+review_date: 2026-07-04
+reviewed_at: 2026-07-04
 created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
