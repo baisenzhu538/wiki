@@ -2,13 +2,13 @@
 id: task_20260704_laowantong-yitang-underlying-logic-case-method-cards
 title: 底层逻辑三课程补产：案例 + 方法 + 工具卡
 type: task
-status: queued
-assignee: 老顽童
+status: in_progress
+assignee: claude
 reviewer: 欧阳锋
 reviewed_by: pending
 priority: P1
 created_at: 2026-07-04
-updated_at: 2026-07-04T18:20:00+00:00
+updated_at: '2026-07-04T12:27:01.999846+00:00'
 source_task: null
 related:
 - '[[annotation-yihang-dual-triangle-master]]'
