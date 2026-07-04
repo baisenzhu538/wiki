@@ -95,15 +95,16 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260704_laowantong-case-production-54-pilot-A-candidates | #54 试点 A 级候选投产：7 张 companion case 卡 | claimed-kimi | 老顽童(Kimi) | P2 | `60_feedback/tasks/task_20260704_laowantong-case-production-54-pilot-A-candidates.md` | 老顽童(Kimi) 已领取；产出 7 张 companion case 卡；正在执行 |
 | task_20260704_huangyaoshi-agent-prompt-compiler-micro-debt | #59 微债务：Agent Prompt 设计规范补全与 source 字段标准化 | queued | 黄药师 | P2 | `60_feedback/tasks/task_20260704_huangyaoshi-agent-prompt-compiler-micro-debt.md` | 欧阳锋终审 #59 提出的 2 项微债务；补充 agent-native-card-design.md 三层编译章节与 os_sources/domain_sources/user_sources 字段规范；P2 |
 | task_20260704_wangyuyan-dual-triangle-degradation-spiral | #76 双三角死亡飞轮：人机协作退化螺旋 dk 卡 | queued | 老顽童(Kimi) | P1 | `60_feedback/tasks/task_20260704_wangyuyan-dual-triangle-degradation-spiral.md` | 王语嫣独立判断：补全双三角失败模式缺口。两种退化螺旋（互相糊弄+判断力退化）口述稿 L1680-1688/L3942-3992，KDO 无卡覆盖；1 张 dk，P1 |
+| task_20260704_wangyuyan-hITL-dual-triangle-supplement | #77 #66 追补：人在环历史定位 | queued | 老顽童(Kimi) | P2 | `60_feedback/tasks/task_20260704_wangyuyan-hITL-dual-triangle-supplement.md` | 口述稿 L4557"人在环也不是为了AI准备的"未纳入 #66 原始素材；单点追补，改一处不返工 |
 
 ---
 
 ## Summary
 
-- **Total**: 64
+- **Total**: 65
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 4（详见 `production-queue.md` #60/#62/#63/#76）
+- **Queued**: 5（详见 `production-queue.md` #60/#62/#63/#76/#77）
 - **Long-term / Paused**: 1（#28 lint 内容债，workbuddy 后台分批执行）
 - **Pending Review**: 0
 - **Review Done**: 54 (#50/#51/#52/#53/#54/#55/#57/#58/#59/#61 reviewed)

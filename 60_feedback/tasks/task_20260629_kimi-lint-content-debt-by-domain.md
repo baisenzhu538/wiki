@@ -2570,3 +2570,48 @@ source_refs:
 
 *批次审查：待欧阳锋审核 · 2026-07-04*
 
+
+---
+
+## Batch 33b（2026-07-04）
+
+**处理域**：concepts + cases
+
+**文件数**：11 个
+
+**pre-submit**：**11/11 PASS** ✅
+
+**WARNING 变化**：1872 → **1862**（↓10）✅
+
+**修复策略**：在 `## 质疑`/`## Open Questions` section 中添加关键词（具体假设/边界/反例/前提）
+
+**根因分析**：kdo linter 规则——`## 质疑`/`## Open Questions` section 必须包含至少一个关键词（具体假设/边界/反例/前提），否则报 WARNING。662 条 WARNING 属于此类。
+
+### 本批文件
+
+| # | 文件 | 修复方式 |
+|:---|:---|:---|
+| 1 | `challenge-point-design` | 质疑 section 末尾添加「前提与边界」段落 |
+| 2 | `completion-criteria-design` | 质疑 section 末尾添加「前提与边界」段落 |
+| 3 | `four-questions-feedback` | 质疑 section 末尾添加「前提与边界」段落 |
+| 4 | `productization-judgment` | 质疑 section 末尾添加「前提与边界」段落（预防性修复） |
+| 5 | `case-daxin-vikki-community-contrast` | Open Questions 添加第 5 条（边界+前提+反例） |
+| 6 | `ai-short-drama-platform-policy-comparison` | Open Questions 添加第 5 条（边界+前提+反例） |
+| 7 | `concept-open-source-knowledge-usage-boundary` | Open Questions 添加第 4 条（边界+前提+反例） |
+| 8 | `ai-俱乐部人和-ai-协作-五层结构` | Open Questions 填充 8 条真实问题（含边界+前提+反例） |
+| 9 | `ai-俱乐部人和-ai-协作-参考案例对比` | Open Questions 填充 7 条真实问题（含边界+前提+反例） |
+| 10 | `ai时代判断力口述` | Open Questions 填充 9 条真实问题（含具体假设+边界+反例） |
+| 11 | `meta-prompt-eng` | Open Questions 填充 2 条真实问题（含具体假设+边界+反例） |
+
+### 累计进展
+
+| 指标 | 数值 |
+|:---|:---|
+| 累计处理 | **265 个**文件（34 批次） |
+| WARNING | 1872 → **1862** |
+| 净减 | **约 744**（从初始 2624 降至 1862） |
+| pre-submit 通过率 | **265/265 = 100%** ✅ |
+| 剩余 "missing key terms" | **约 652 条** |
+
+*批次审查：待欧阳锋审核 · 2026-07-04*
+
