@@ -1,15 +1,17 @@
 ---
 id: task_20260704_laowantong-case-section-linter-error-cleanup
 type: task
-status: pending_review
+status: reviewed
 assignee: claude
 reviewer: 欧阳锋
 priority: P2
 created_at: 2026-07-04
-updated_at: '2026-07-04T18:18:09.726875+00:00'
+updated_at: '2026-07-04T18:20:47.640236+00:00'
 source_task: task_20260629_kimi-lint-content-debt-by-domain
 related:
 - '[[case-yihang-dual-triangle-beike-ai-outbound]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-04'
 ---
 
 # 任务 #96：linter 规则升级暴露的 56 张 case 卡标准 section 补全
