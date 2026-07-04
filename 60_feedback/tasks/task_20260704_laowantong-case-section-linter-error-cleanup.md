@@ -1,12 +1,12 @@
 ---
 id: task_20260704_laowantong-case-section-linter-error-cleanup
 type: task
-status: queued
-assignee: 老顽童
+status: in_progress
+assignee: claude
 reviewer: 欧阳锋
 priority: P2
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-04T18:12:14.865902+00:00'
 source_task: task_20260629_kimi-lint-content-debt-by-domain
 related:
 - '[[case-yihang-dual-triangle-beike-ai-outbound]]'
