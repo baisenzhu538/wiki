@@ -2,9 +2,10 @@
 id: dk-yihang-canvas-preparation-three-principles
 title: 画布筹备三原则：花总转折 / 先加后减 / 15分钟出租车
 type: dk
-status: draft
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-05
 confidence: 0.88
 trust_level: high
 language: zh-CN
