@@ -2,7 +2,7 @@
 id: task_20260704_laowantong-case-production-54-pilot-A-candidates
 title: '#54 试点 A 级候选投产：7 张 companion case 卡'
 type: task
-status: changes_requested
+status: done
 priority: P2
 assignee: kimi
 reviewer: 欧阳锋
@@ -124,6 +124,41 @@ source_refs:
 - **lint 新增 ERROR**：不通过，需按上述选项处理后再提交复审。
 
 请选择一个处置方式；若选 A，补齐后重新运行 `kdo lint --domain cases` 直至 0 新增 ERROR。
+
+---
+
+## 欧阳锋终审·返工后复审（2026-07-04）
+
+### 复测动作
+
+1. 抽检 `case-decision-science-universal-salary-raise-roi.md`，确认 4 个缺失 section 已补齐且结构符合标杆卡。
+2. 对 7 张 case 卡 + 16 张锚定卡运行 `kdo pre-submit --files`。
+3. 对 `cases` 域运行 `kdo lint --domain cases`，并过滤出 7 张目标卡的 ERROR/WARNING。
+4. 将 7 张 case 卡的 `reviewed_by` 从 `pending` 更新为 `欧阳锋`，并补充 `reviewed_at`。
+
+### 复测结果
+
+| 检查项 | 结果 |
+|---|---|
+| `kdo pre-submit --files`（23 个相关文件） | **23/23 PASS** |
+| 7 张目标 case 卡 lint ERROR | **0** |
+| 7 张目标 case 卡 lint WARNING | 7 条 `Wiki page not listed in 30_wiki/index.md`（机械类）+ 1 条 `case-strategy-exit-remove.md` 跨域链接单一 |
+| 锚定卡回链 | **16/16 完整** |
+
+> 全局 `cases` 域仍有 41 个 new ERROR，均指向任务范围外的 `case-yihang-dual-triangle-*.md` 系列卡，与本次 #61 无关。
+
+### 观察项
+
+- **Index 维护**：7 张新 case 卡尚未加入 `30_wiki/index.md`，产生机械 WARNING。建议后续统一运行 `kdo lint --fix-index` 处理，不在 #61 阻塞。
+- **case-strategy-exit-remove.md**：仍只有战略域内链接，跨域链接单一 WARNING 为既有设计选择，可接受。
+
+### 终审结论
+
+- **7 张 A 级候选 case 卡**：通过。
+- **16 张锚定卡 related 回链**：通过。
+- **pre-submit**：通过。
+- **lint（目标卡）**：通过（0 ERROR）。
+- **任务状态**：#61 完成，关闭。
 
 ---
 
