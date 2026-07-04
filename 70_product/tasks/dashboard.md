@@ -94,15 +94,16 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260703_huangyaoshi-fix-queue-transition-review-lookup | 修复 queue_transition.py review 按 frontmatter id 查找任务单 | queued | 黄药师 | P2 | `60_feedback/tasks/task_20260703_huangyaoshi-fix-queue-transition-review-lookup.md` | 欧阳锋重审通过：7 条改进全部满足，7/7 tests passed，#55 场景验证正确，claim/complete/release 未破坏；待 #61 释放后 queue_transition.py 正式更新为 reviewed |
 | task_20260704_laowantong-case-production-54-pilot-A-candidates | #54 试点 A 级候选投产：7 张 companion case 卡 | claimed-kimi | 老顽童(Kimi) | P2 | `60_feedback/tasks/task_20260704_laowantong-case-production-54-pilot-A-candidates.md` | 老顽童(Kimi) 已领取；产出 7 张 companion case 卡；正在执行 |
 | task_20260704_huangyaoshi-agent-prompt-compiler-micro-debt | #59 微债务：Agent Prompt 设计规范补全与 source 字段标准化 | queued | 黄药师 | P2 | `60_feedback/tasks/task_20260704_huangyaoshi-agent-prompt-compiler-micro-debt.md` | 欧阳锋终审 #59 提出的 2 项微债务；补充 agent-native-card-design.md 三层编译章节与 os_sources/domain_sources/user_sources 字段规范；P2 |
+| task_20260704_wangyuyan-dual-triangle-degradation-spiral | #76 双三角死亡飞轮：人机协作退化螺旋 dk 卡 | queued | 老顽童(Kimi) | P1 | `60_feedback/tasks/task_20260704_wangyuyan-dual-triangle-degradation-spiral.md` | 王语嫣独立判断：补全双三角失败模式缺口。两种退化螺旋（互相糊弄+判断力退化）口述稿 L1680-1688/L3942-3992，KDO 无卡覆盖；1 张 dk，P1 |
 
 ---
 
 ## Summary
 
-- **Total**: 63
+- **Total**: 64
 - **Done**: 23
 - **In Progress**: 0
-- **Queued**: 3（详见 `production-queue.md` #60/#62/#63）
+- **Queued**: 4（详见 `production-queue.md` #60/#62/#63/#76）
 - **Long-term / Paused**: 1（#28 lint 内容债，workbuddy 后台分批执行）
 - **Pending Review**: 0
 - **Review Done**: 54 (#50/#51/#52/#53/#54/#55/#57/#58/#59/#61 reviewed)
@@ -141,6 +142,7 @@ Generated: 2026-06-26T21:00:00+00:00
 > **🆕 新增 #63**：一行双三角第二批案例补产；用户指令「老顽童在王语嫣基础上再重做一次补充任务」；老顽童(Kimi) 负责基于第一批 14 张卡和 4 张占位卡，补产天末/阿豪/花总/陈天 4 张完整 case 卡；同时交叉检查第一批 14 张卡，反向修复实质性缺口；P1。
 >
 > **✅ #61 终审通过（2026-07-04）**：老顽童(Kimi) 产出的 7 张 companion case 卡通过欧阳锋终审，`queue_transition.py` 状态已更新为 `reviewed`；#60 queue_transition 修复正式解锁，但 #60 仍为 `queued` 状态，需黄药师先运行 `complete` 再由欧阳锋 review。
+> **🆕 新增 #76（2026-07-04）**：王语嫣重读双三角口述稿全文后发现飞轮模型只覆盖正向循环，缺失败模式。口述稿 L1680-1688（互相糊弄死亡飞轮）和 L3942-3992（判断力退化飞轮）KDO 目前无卡覆盖。新建 1 张 dk 卡 `dk-ai-collaboration-degradation-spiral`，P1，排队尾。同时向 #64/#65/#66/#72/#74/#70 追加暗知识补充素材（不改变各任务状态和优先级）。
 
 ---
 
