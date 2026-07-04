@@ -2697,10 +2697,10 @@ source_refs:
 
 | 指标 | 数值 |
 |:---|:---|
-| 累计处理 | **385 个**文件（46 批次） |
-| WARNING | 2624 → **1767*** |
-| "missing key terms" | ~662 → **529**（↓133） |
-| pre-submit 通过率 | **385/385 = 100%** ✅ |
+| 累计处理 | **395 个**文件（47 批次） |
+| WARNING | 2624 → **1757*** |
+| "missing key terms" | ~662 → **519**（↓143） |
+| pre-submit 通过率 | **395/395 = 100%** ✅ |
 | ERROR | 2 → **202**（波动来自 case 卡预存问题，linter 重新分类） |
 
 *WARNING/ERROR 总数受 linter 规则变更影响（case 卡缺 section 从 WARNING 升级为 ERROR），"missing key terms" 持续下降。
