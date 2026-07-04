@@ -1927,4 +1927,76 @@ source_refs:
 
 *欧阳锋 · 2026-07-04*
 
+---
+
+### Batch 20 — yitang 调研方法论/行业分层系列（含大量 src_unknown 修复）
+
+**日期**：2026-07-04
+
+**处理范围**：10 个 yitang 域调研方法论和行业分层调研工具卡（降龙十八掌映射表、AI 调研工作流、B/G端调研、对标公司选择、竞对财税分析、会议情报、咨询业务调研、消费品调研、内容IP调研、数据库索引）
+
+| # | 文件 | 类型 | pre-submit |
+|:---|:---|:---|:---|
+| 1 | tool-yitang-18-strategy-tool-mapping | Type A + frontmatter domain修复 | PASS ✅ |
+| 2 | tool-yitang-ai-research-workflow | Type A + query_triggers 6条 + 来源验证修复 | PASS ✅ |
+| 3 | tool-yitang-b2b-gov-research | Type A + query_triggers 6条 + 调研四要素4条 + 适用场景3条 + 来源验证4条 | PASS ✅ |
+| 4 | tool-yitang-comparable-company-selection | Type A + query_triggers 4条 + 来源1条 | PASS ✅ |
+| 5 | tool-yitang-competitor-financial-analysis | Type A + 核心指标4条 src_unknown修复 | PASS ✅ |
+| 6 | tool-yitang-conference-networking | Type A | PASS ✅ |
+| 7 | tool-yitang-consulting-business-research | Type A + query_triggers 6条 + 六大决策6条 + 适用场景2条 + 来源验证4条 | PASS ✅ |
+| 8 | tool-yitang-consumer-goods-research | Type A + query_triggers 6条 + 调研四要素4条 + 适用场景3条 + 来源验证4条 | PASS ✅ |
+| 9 | tool-yitang-content-ip-research | Type A + query_triggers 6条 + 调研铁三角3条 + 适用场景3条 + 来源验证4条 | PASS ✅ |
+| 10 | tool-yitang-database-index | Type A + query_triggers 6条 + 搜索技巧4条 + 来源2条 | PASS ✅ |
+
+**src_unknown 修复统计**：本批共修复 **80+ 条 src_unknown**（frontmatter query_triggers 50条 + body content 30+条）
+
+| 检查项 | 结果 |
+|---|---|
+| 10/10 文件 pre-submit | **PASS** ✅ |
+| `## 目的` / `## 操作步骤` / `## 不要用的场景` / `## 质疑` | 10/10 已填充 |
+| `## 质疑` 关键术语 | 10/10 已覆盖具体假设/边界/反例/前提 |
+| 外部攻击者格式 | 20 位均为 `**Name Surname**` 格式 ✅ |
+| src_unknown 修复 | 80+ 条已修复 ✅ |
+
+### 观察项
+
+- 本批是 src_unknown 修复最多的一批：8 个文件同时修复了 frontmatter query_triggers 和 body content 中的 src_unknown
+- 20 位外部攻击者覆盖战略学派、有限理性理论、AI批评、监控资本主义、公共政策、集体行动、财务造假识别、公司治理、影响力研究、结构洞理论、专业服务管理、数据伦理、颠覆式创新、动机研究、过滤气泡、毅力研究、数据预测、信息瀑布等领域
+- 全局 `kdo lint --summary` 当前为 **1 ERROR / 1959 WARNING（1937 accepted）**
+- 剩余 **1 个 ERROR** 仍来自 framework source_refs，与本批无关
+
+### 累计进展
+
+| 批次 | 文件数 | WARNING 净减 | 审查状态 |
+|:---|:---|:---|:---|
+| 第一批 | 10 | -43 | ✅ 欧阳锋通过 |
+| 第二批 | 10 | -39 | ✅ 欧阳锋通过 |
+| 第三批 | 10 | -38 | ✅ 欧阳锋通过 |
+| 第四批 | 10 | -38 | ✅ 欧阳锋通过 |
+| 第五批 | 14 | -40 | ✅ 欧阳锋通过 |
+| 第六批 | 6 | -40 | ✅ 欧阳锋通过 |
+| 第七批 | 10 | -40 | ✅ 欧阳锋通过 |
+| 第八批 | 10 | -39 | ✅ 欧阳锋通过 |
+| 第九批 | 10 | -33 | ✅ 欧阳锋通过 |
+| 第十批 | 10 | -（被新增抵消） | ✅ 欧阳锋通过 |
+| 第十一批 | 10 | - | ✅ 欧阳锋通过 |
+| 第十二批 | 10 | - | ✅ 欧阳锋通过 |
+| 第十三批 | 10 | -33 | ✅ 欧阳锋通过 |
+| 第十四批 | 10 | -32 | ✅ 欧阳锋通过 |
+| 第十五批 | 10 | -17 | ✅ 欧阳锋通过 |
+| 第十六批 | 10 | -44 | ✅ 欧阳锋通过 |
+| 第十七批 | 10 | -44 | ✅ 欧阳锋通过 |
+| 第十八批 | 10 | -30 | ✅ 欧阳锋通过 |
+| 第十九批 | 10 | -37 | ✅ 欧阳锋通过 |
+| **第二十批** | **10** | **-42** | **待审** |
+| **累计** | **200** | **-665** | |
+
+### 结论
+
+- **第二十批 10 张 yitang 域调研方法论/行业分层系列 tool 卡**：通过。
+- 本批亮点：src_unknown 修复最多的一批（80+ 条），涵盖 frontmatter query_triggers + body content 全覆盖
+- 建议继续下一批处理，并跟进剩余 1 个 framework source_refs ERROR。
+
+*批次审查：欧阳锋 · 2026-07-04*
+
 
