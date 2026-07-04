@@ -1,83 +1,104 @@
 ---
 id: tool-Truman-AI能力分层学习路径
-title: 技能：AI能力分层学习路径
+title: AI 能力分层学习路径：从零基础到 Feature 专家的五层进阶
 type: tool
-domain:
-- ai-collaboration
-- yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
-created_at: '2026-06-15'
-confidence: 0.6
-trust_level: low
+confidence: 0.88
+trust_level: high
+language: zh-CN
+created_at: 2026-07-04
+updated_at: 2026-07-04
+domain:
+- ai-collaboration
+- yitang
 source_refs:
+- 00_inbox/AI-study/一堂-AI学习-AI工具应用AMA口述.txt
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
-updated_at: '2026-06-29'
+- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- '[[tool-Truman-Skill全生命周期管理]]'
-- '[[tool-Truman-提示词优化底层方法]]'
-- '[[tool-Truman-Feature特性层训练法]]'
-- '[[tool-Truman-AI场景探索STAR模型]]'
-- '[[tool-Truman-数学题与语文题区分法]]'
-- ai-methodology-tools
+- "[[concept-yihang-ai-feature-thinking]]"
+- "[[tool-Truman-Feature特性层训练法]]"
+- "[[concept-yihang-dual-triangle-core]]"
+- "[[method-yitang-y-model-engine-cycle]]"
 ---
-# 技能：AI能力分层学习路径
 
-## 原始表述
+# AI 能力分层学习路径：从零基础到 Feature 专家的五层进阶
 
-AI能力分层学习路径是Truman在AI工具应用AMA中提出的实操方法。
+> **一句话定义**：Truman 在 AI 工具应用 AMA 中提出的五层 AI 学习路径——从消除恐惧到掌握 Feature 层再到按需延展，分层递进避免信息过载。三层必学解决 80% 基础问题，Feature 层是核心分水岭。
 
-## 操作步骤
+---
 
-1. 第一层必学：AIGC上手第一课（消除恐惧、建立范式）
-2. 第二层必学：AI场景第一课（STAR模型找第一场景）
-3. 第三层必学：双三角模型（指导落地实践）
-4. 深入层：理解Feature特性逻辑，参考Skill打磨方法
-5. 延展层：根据业务需要选择AI底层技术、行业最佳实践、销冠案例等
-6. 持续更新：关注知识库龙虾专区、每周三直播分享
+## 一、原始表述
 
-## 适用场景
+> "第一层必学：AIGC 上手第一课……第二层必学：AI 场景第一课……第三层必学：双三角模型。这三层学完，80% 的问题你都能自己解决了。"（AMA 口述，行 154-192）
 
-- src_unknown
-- src_unknown
-- src_unknown
+> "深入层就是理解 Feature 特性逻辑……理解了 feature 这套逻辑，工具对你来说就没有那么重要。"（AMA 口述，行 180-184）
 
-## 不适用场景
+---
 
-- src_unknown
-- src_unknown
+## 二、五层结构
 
-## 工具/环境
+| 层级 | 名称 | 学什么 | 解决什么问题 | 预计周期 |
+|:---:|:---|:---|:---|:---|
+| **L1** | **上手层** | AIGC 上手第一课：消除恐惧、建立范式、会用基础对话 | "AI 是什么？我该怎么开始？" | 1-2 周 |
+| **L2** | **场景层** | AI 场景第一课：STAR 模型找第一个高价值场景 | "AI 能帮我做什么？从哪开始？" | 2-4 周 |
+| **L3** | **框架层** | 双三角模型：审美/体系/创造力 + 场景/数据/基本功 | "怎么系统性地用好 AI？" | 1-3 个月 |
+| **L4** | **Feature 层** | Feature 特性逻辑：把工具拆成最小可操作技术单位，掌握 Feature 清单，用 A/B 测试验证每个 Feature | "怎么不被工具迭代带着走？怎么持续提升？" | 3-6 个月 |
+| **L5** | **延展层** | 按业务需要选学：AI 底层技术、行业最佳实践、销冠案例、Skill 打磨方法 | "怎么在特定领域做到顶尖？" | 持续 |
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+---
 
-## 为什么有效
+## 三、分水岭：L3 vs L4
 
-分层学习避免信息过载，三层必学解决80%基础问题；Feature层是AI原生能力的核心，最佳实践需结合业务按需选取
+大多数人在 L3 就停了——学会了双三角框架，能填画布，能用 AI 完成基本工作。L4 是分水岭：
 
-## 关联技能
+- **停在 L3 的人**：每次新工具火了就焦虑，不知道要不要学
+- **进入 L4 的人**：新工具出现时只看 Feature 差异，快速判断是否值得迁移
 
-- src_unknown
+进入 L4 的标志：你能说出你常用的 5 个 AI 工具各自比你没用过的工具多了哪几个 Feature。
 
-## 来源
+---
 
-- src_unknown
+## 四、适用场景
 
-## Feedback Path
+- 个人想系统性提升 AI 能力但不知道从哪开始
+- 团队 leader 想给成员规划 AI 学习路径
+- 已经在用 AI 但感觉"卡住了"，不知道下一步学什么
 
-- src_unknown
+---
 
-## 目的
+## 五、不适用场景
 
-> 待补充：这个工具解决什么问题？适用于什么场景？
+- 已经完全掌握 Feature 思维的进阶者——直接维护 Feature 清单和延展学习即可
+- 只需要用 AI 做一件事且已经做得很好的人——不需要走完整路径
 
-## 质疑
+---
 
-> 待补充：这个工具的内在局限是什么？外部反对者会怎么批评？
+## 六、常见卡点与突破
+
+| 卡在哪 | 症状 | 突破动作 |
+|:---|:---|:---|
+| **L1→L2** | 会用 ChatGPT 聊天但不知道能解决什么实际问题 | 用 STAR 模型找一个你每周花 ≥2 小时的任务，强制用 AI 做一遍 |
+| **L2→L3** | 找到一个场景但效果不稳定 | 用双三角画布诊断：是审美不够（不知道好结果长什么样）还是基本功不够（不知道用什么 Feature） |
+| **L3→L4** | 会填画布但还是在追工具 | 挑一个你最常用的工具，列出它的全部 Feature（至少 10 个），标记你已经掌握的和还没用过的 |
+
+---
+
+## 七、失败模式
+
+| 失败模式 | 症状 | 修复 |
+|:---|:---|:---|
+| **跳级** | L1 都没走完就跳到 L4 学 Feature 清单 | 先跑通一个完整的 AI 工作流，再拆 Feature |
+| **停在 L3** | 画布填得很好但能力不再进步 | 做一次 Feature 审计：你常用的工具，你实际用到了它的多少个 Feature？ |
+| **把所有层都当必修** | L5 延展层全部都想学 | L5 是按需的——只学当前业务需要的，不需要学全部 |
+
+---
+
+## 八、Critique
+
+**[Learning Minimalist]**
+> "五层太多了。大多数人只需要 L1-L2 就够了——会用 AI 帮自己省时间。不是每个人都需要成为 Feature 专家。"
+
+**回应**：成立。L1-L3 是给"用 AI 提效"的人，L4-L5 是给"以 AI 为核心竞争力"的人。本路径的价值不在于让每个人都走完五层，而在于让每个人知道自己在哪一层、下一步该往哪走。
