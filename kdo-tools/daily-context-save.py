@@ -1,51 +1,72 @@
 #!/usr/bin/env python3
 """
-Agent 每日上下文自动存储——形成可复用的数据包。
+Agent 每日上下文自动存储——双写管线。
 
-每天每个Agent的对话存到 agent复盘/<agent>/daily-context/YYYY-MM-DD.md
-不用手动触发——Agent在会话结束前按飞轮协议自动执行本脚本。
+每次保存同时写入两个位置：
+  1. 桌面 agent复盘/<agent>/daily-context/YYYY-MM-DD.md  （人看）
+  2. 60_feedback/session-archives/YYYY-MM-DD/{agent-id}.md （Agent检索+kdo query可查）
 
 Usage:
-  python kdo-tools/daily-context-save.py --agent <id> --input <对话文件>
-  python kdo-tools/daily-context-save.py --agent <id> --text "<一句话摘要>"
+  python kdo-tools/daily-context-save.py save --agent <id> --text "<摘要>" [--before "<...>" --after "<...>"]
+  python kdo-tools/daily-context-save.py list --agent <id>
 """
 
 import argparse
-import shutil
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 WIKI = Path(__file__).resolve().parent.parent
 REVIEW_DIR = Path.home() / "Desktop" / "agent复盘"
+ARCHIVE_DIR = WIKI / "60_feedback" / "session-archives"
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 
+def now_iso():
+    return datetime.now(timezone.utc).isoformat()
+
+
 def cmd_save(args):
     agent = args.agent
     today = datetime.now().strftime("%Y-%m-%d")
-    dest_dir = REVIEW_DIR / agent / "daily-context"
-    dest_dir.mkdir(parents=True, exist_ok=True)
-    dest = dest_dir / f"{today}.md"
+    ts = now_iso()
+    session_id = f"{agent}-{today}"
 
-    content = []
-    content.append(f"# {agent} · {today} 上下文\n")
+    # Build frontmatter
+    fm_lines = [
+        "---",
+        f"session_id: {session_id}",
+        f"agent_id: {agent}",
+        f"date: {today}",
+        f"created_at: {ts}",
+        f"updated_at: {ts}",
+    ]
+    if args.before:
+        fm_lines.append(f'before: "{args.before[:200]}"')
+    if args.after:
+        fm_lines.append(f'after: "{args.after[:200]}"')
+    fm_lines.append("---")
+    fm = "\n".join(fm_lines)
 
-    if args.input:
-        src = Path(args.input)
-        if src.exists():
-            content.append(src.read_text(encoding="utf-8", errors="ignore"))
-        else:
-            content.append(f"(输入文件不存在: {src})")
-    elif args.text:
-        content.append(args.text)
-    else:
-        content.append("(无内容)")
+    body = args.text or "(无内容)"
+    content = f"{fm}\n\n# {agent} · {today}\n\n{body}\n"
 
-    dest.write_text("\n".join(content), encoding="utf-8")
-    print(f"已保存：{dest}")
+    # Write 1: Desktop (human-readable)
+    desktop_dir = REVIEW_DIR / agent / "daily-context"
+    desktop_dir.mkdir(parents=True, exist_ok=True)
+    desktop_path = desktop_dir / f"{today}.md"
+    desktop_path.write_text(content, encoding="utf-8")
+
+    # Write 2: Archive (agent-searchable, kdo query can find)
+    archive_dir = ARCHIVE_DIR / today
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    archive_path = archive_dir / f"{agent}.md"
+    archive_path.write_text(content, encoding="utf-8")
+
+    print(f"已保存：{desktop_path}")
+    print(f"已存档：{archive_path.relative_to(WIKI)}")
     return 0
 
 
@@ -69,8 +90,9 @@ def main():
 
     p_save = sub.add_parser("save", help="保存今日上下文")
     p_save.add_argument("--agent", required=True)
-    p_save.add_argument("--input", help="对话文件路径")
-    p_save.add_argument("--text", help="一句话摘要")
+    p_save.add_argument("--text", default="", help="上下文摘要")
+    p_save.add_argument("--before", default="")
+    p_save.add_argument("--after", default="")
 
     p_list = sub.add_parser("list", help="列出历史上下文")
     p_list.add_argument("--agent", required=True)

@@ -49,6 +49,13 @@ def cmd_log(args):
                    capture_output=True)
     subprocess.run([sys.executable, str(WIKI / "kdo-tools" / "flywheel-export.py")],
                    capture_output=True)
+    # Also auto-save daily context so agents don't need to remember
+    subprocess.run([sys.executable, str(WIKI / "kdo-tools" / "daily-context-save.py"),
+                    "save", "--agent", args.agent,
+                    "--text", f"飞轮迭代: {args.type} | {args.why[:100]}",
+                    "--before", args.before or "",
+                    "--after", args.after or ""],
+                   capture_output=True)
     print(f"飞轮日志已记录: agent={args.agent} type={args.type}")
     return 0
 

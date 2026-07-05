@@ -217,12 +217,18 @@ Agent 调用双三角模型分析本次对话：
 - 方法论卡更新：____
 ```
 
-**记录到飞轮日志**：`python kdo-tools/flywheel.py log --agent <id> --type <要素> --before "..." --after "..." --why "..." --next "..."`
+**会话结束必须执行以下两步（硬规则，不执行=会话未完成）**：
 
-**保存每日上下文到数据包**：`python kdo-tools/daily-context-save.py save --agent <id> --text "<今日关键发现和上下文摘要>"`
+```bash
+# 1. 记录飞轮迭代
+python kdo-tools/flywheel.py log --agent <id> --type <要素> --before "..." --after "..." --why "..." --next "..."
 
-> 数据包路径：`桌面/agent复盘/<agent>/daily-context/YYYY-MM-DD.md`
-> 这是未来训练更聪明Agent的数据燃料——每次对话存一点，三周后回来看。
+# 2. 保存每日上下文到桌面数据包（路径固定，不可写错）
+python kdo-tools/daily-context-save.py save --agent <id> --text "<今日关键发现和上下文摘要>"
+```
+
+> 上下文路径：`桌面/agent复盘/<agent>/daily-context/YYYY-MM-DD.md`
+> Agent 不需要创建目录——脚本自动处理。记不住路径就记一句话：**存到 agent复盘 下面，你自己的名字下面。**
 
 **Truman原文**（口述稿L2220-2312）："不要光拆别人，拆自己更开心。你去学一下双三角，帮我还原一下刚才咱们所有的工作过程——你做了什么，我做了什么，咱们两个如何互补的。这篇报告存下来可以迭代训练AI，让AI变得更聪明。"
 
