@@ -1,12 +1,12 @@
 ---
 id: task_20260705_wangyuyan-kdo-agent-design-meta-method.md
 type: task
-status: queued
-assignee: 王语嫣
+status: pending_review
+assignee: wangyuyan
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-05
-updated_at: 2026-07-05
+updated_at: '2026-07-05T19:56:18.278316+00:00'
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[agent-spec-dual-triangle-canvas-filler]]'
