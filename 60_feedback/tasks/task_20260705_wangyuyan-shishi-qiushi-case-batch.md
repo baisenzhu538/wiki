@@ -1,12 +1,12 @@
 ---
 id: task_20260705_wangyuyan-shishi-qiushi-case-batch
 type: task
-status: pending_review
+status: reviewed
 assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-05
-updated_at: '2026-07-05T03:42:13.044589+00:00'
+updated_at: '2026-07-05T03:53:59.967813+00:00'
 source_refs:
 - 00_inbox/实事求是/_processed/实事求是_整合笔记.md
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
@@ -15,6 +15,8 @@ related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[dk-yitang-over-abstraction]]'
 - '[[dk-yitang-over-prediction-danger]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-05'
 ---
 
 # 任务 #109：实事求是十坑案例卡批量生产（10 张 case 卡）
