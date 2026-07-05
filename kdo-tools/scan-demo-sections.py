@@ -149,21 +149,44 @@ def generate_compilation(path: Path) -> Path:
             lines.append("")
 
     # ── Suspicious zone scan: do BEFORE writing the file ──
-    suspicious = []
+    # Oral transcripts have very short lines (one sentence per line).
+    # Instead of single-line length, look for 5+ consecutive non-empty lines
+    # without any signal words — these are "quietly delivered" narrative passages.
+    suspicious_runs = []
+    current_run = []
+    current_start = 0
     for i, line in enumerate(transcript_lines):
-        if len(line) > 200 and not any(s in line for s in SIGNAL_WORDS):
-            if "。" in line or "？" in line or "！" in line:
-                suspicious.append({"line": i + 1, "text": line[:200]})
+        has_signal = any(s in line for s in SIGNAL_WORDS)
+        has_content = len(line.strip()) > 10  # skip blank/short lines
+        if has_content and not has_signal:
+            if not current_run:
+                current_start = i + 1
+            current_run.append(line)
+        else:
+            if len(current_run) >= 5:  # 5+ consecutive lines without signals
+                suspicious_runs.append({
+                    "start": current_start,
+                    "lines": len(current_run),
+                    "text": " ".join(current_run)[:200],
+                })
+            current_run = []
+    # Check final run
+    if len(current_run) >= 5:
+        suspicious_runs.append({
+            "start": current_start,
+            "lines": len(current_run),
+            "text": " ".join(current_run)[:200],
+        })
 
-    if suspicious:
+    if suspicious_runs:
         lines.append("---")
-        lines.append("## ⚠️ 怀疑区：无信号词但超过200字的叙事段落")
-        lines.append(f"> 共 {len(suspicious)} 处。没有触发信号词，但可能是'安静地'讲的重要内容。建议抽查。")
+        lines.append("## ⚠️ 怀疑区：连续5行以上无信号词的叙事段落")
+        lines.append(f"> 共 {len(suspicious_runs)} 处。这些区域可能包含'安静地'讲的重要内容，建议抽查。")
         lines.append("")
-        for s in suspicious[:15]:
-            lines.append(f"- L{s['line']}: {s['text'][:120]}...")
-        if len(suspicious) > 15:
-            lines.append(f"- ...还有 {len(suspicious) - 15} 处")
+        for s in suspicious_runs[:15]:
+            lines.append(f"- L{s['start']}（{s['lines']}行）: {s['text'][:150]}")
+        if len(suspicious_runs) > 15:
+            lines.append(f"- ...还有 {len(suspicious_runs) - 15} 处")
 
     # Write to _processed/
     out_dir = path.parent / "_processed"
