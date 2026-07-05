@@ -1,12 +1,12 @@
 ---
 id: task_20260705_wangyuyan-fde-ai-native-org-framework
 type: task
-status: queued
-assignee: 老顽童
+status: pending_review
+assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-05
-updated_at: 2026-07-05
+updated_at: '2026-07-05T18:04:17.830673+00:00'
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L3116-3167
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L4358-4498
