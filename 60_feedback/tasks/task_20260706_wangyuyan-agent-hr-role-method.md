@@ -1,18 +1,20 @@
 ---
 id: task_20260706_wangyuyan-agent-hr-role-method
 type: task
-status: pending_review
+status: reviewed
 assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-06
-updated_at: '2026-07-05T17:22:54.384492+00:00'
+updated_at: '2026-07-05T17:32:55.927496+00:00'
 source_refs:
 - 对话记录：2026-07-05 老朱 Agent 纠察队/HR 角色实践
 related:
 - '[[method-yihang-ai-self-xray-iteration]]'
 - '[[method-yihang-dual-triangle-ai-review]]'
 - '[[agent-spec-dual-triangle-canvas-filler]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-05'
 ---
 
 # 任务 #116：Agent HR 角色（元 Agent）method 卡
