@@ -101,6 +101,16 @@ def build_index(transcript_path: Path) -> Path:
         lines.append("")
     summary_path.write_text("\n".join(lines), encoding="utf-8")
 
+    # Auto-register
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("transcript_registry", str(WIKI / "kdo-tools" / "transcript-registry.py"))
+        reg = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(reg)
+        reg.register(transcript_path)
+    except Exception:
+        pass
+
     print(f"索引已生成：{out_path.relative_to(WIKI)}")
     print(f"主题索引：{summary_path.relative_to(WIKI)}")
     print(f"  {len(paragraphs)} 段，{len(index)} 个关键词")
