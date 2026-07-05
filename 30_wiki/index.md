@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-07-04T13:08:45+00:00_
+_Last updated: 2026-07-05T03:28:39+00:00_
 
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[_archive/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -213,6 +213,7 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[cases/case-xiaolong-ecommerce-foresight|小龙电商：四层剥离——从服装到正装裤]] — source `pending_archive:src_20260606_f6cb0868-一堂-机会预判课-Truman-口述`
 - [[cases/case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch|案例：AI高考志愿填报产品因内核错位而失敗]] — source `10_raw/sources/src_20260606_6fa04636-一堂-产品内核实操课-truman-笔记.md`
 - [[cases/case-yihang-dual-triangle-ahao-product-selection|一行双三角案例：阿豪电商选品函数替代模型]] — source `00_inbox/人机协作双三角/_processed/阿豪案例的口述_page001_vlm.md`
+- [[cases/case-yihang-dual-triangle-ai-organizational-behavior|双三角案例：Truman 一夜深挖 AI 组织行为学——四个模型交叉验证]] — source `00_inbox/人机协作双三角/_processed/AI组织行为学的口述_text.md`
 - [[cases/case-yihang-dual-triangle-AI三角-场景|AI三角-场景 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/AI三角-场景_vlm.md`
 - [[cases/case-yihang-dual-triangle-AI三角-基本功|AI三角-基本功 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/AI三角-基本功_vlm.md`
 - [[cases/case-yihang-dual-triangle-AI三角-数据|AI三角-数据 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/AI三角-数据_vlm.md`
@@ -221,32 +222,38 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[cases/case-yihang-dual-triangle-AI基本功|AI基本功 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/AI基本功_vlm.md`
 - [[cases/case-yihang-dual-triangle-AI数据|AI数据 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/AI数据_vlm.md`
 - [[cases/case-yihang-dual-triangle-beike-ai-outbound|一行双三角案例：贝壳找房110个场景的AI外呼]] — source `00_inbox/人机协作双三角/[【组织】贝壳找房案例口述.pdf`
+- [[cases/case-yihang-dual-triangle-canvas-thesis-review|双三角画布案例：AI 论文初审——五维评分+三色灯阻断]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-画布案例1_vlm.md`
+- [[cases/case-yihang-dual-triangle-canvas-trademark-design|双三角画布案例：商标设计——两天内产出 60 分可用版本]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-画布案例2_vlm.md`
 - [[cases/case-yihang-dual-triangle-chentian-knowledge-agent|一行双三角案例：陈天从知识管理到多Agent系统]] — source `00_inbox/人机协作双三角/_processed/陈天同学案例口述_page001_vlm.md`
 - [[cases/case-yihang-dual-triangle-D-engineer-upward-communication|一行双三角案例：D同学用红蓝军破解向上沟通]] — source `00_inbox/人机协作双三角/D同学的案例口述.pdf`
+- [[cases/case-yihang-dual-triangle-guoshuai-ai-editorial|双三角案例：郭帅 AI 编辑部——智能体拉微信群协作内容生产]] — source `pending_archive`
 - [[cases/case-yihang-dual-triangle-hardware-patent-rule-explicit|一行双三角案例：硬件公司专利落地的规则显性化与一号位决心]] — source `00_inbox/人机协作双三角/【组织】硬件公司专利案例口述.pdf`
 - [[cases/case-yihang-dual-triangle-hotel-tag-sandbox|一行双三角案例：酒店AI标签审核的边缘切入与沙盒练兵]] — source `00_inbox/人机协作双三角/【组织】酒店行业-AI标签审核案例.png`
 - [[cases/case-yihang-dual-triangle-huazao-synthetic-data|一行双三角案例：花总让AI先造数据破解工业级难题]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-跨行业速解工业级难题_vlm.md`
+- [[cases/case-yihang-dual-triangle-jumi-canvas-demo|双三角画布演示：巨米推广——从模糊需求到九层可执行计划]] — source `00_inbox/人机协作双三角/_processed/测试_巨米推广_双三角画布.md`
+- [[cases/case-yihang-dual-triangle-kunte-virtual-idol|双三角案例：鲲特虚拟艺人——AI 产出越多，人类筛选越值钱]] — source `pending_archive`
+- [[cases/case-yihang-dual-triangle-tanzhaichao-ai-growth|双三角案例：谭再超——从 AI 小白到 MCP 大航海 MVP，半年蜕变]] — source `00_inbox/人机协作双三角/_processed/谭再超案例口述_page001_vlm.md`
 - [[cases/case-yihang-dual-triangle-tianmo-design-delivery|一行双三角案例：天末4天商业级室内设计交付]] — source `00_inbox/人机协作双三角/_processed/天末的案例口述_page001_vlm.md`
 - [[cases/case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution|一行双三角案例：Truman「飞书 To slide」PPT 迭代进化]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[cases/case-yihang-dual-triangle-一堂DOC-20260704025752|一堂DOC-20260704025752 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂DOC-20260704025752_vlm.md`
 - [[cases/case-yihang-dual-triangle-一堂双三角-AI企业经营数据分析|一堂双三角-AI企业经营数据分析 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-AI企业经营数据分析_vlm.md`
 - [[cases/case-yihang-dual-triangle-一堂双三角-AI时代的竞争力武器库|一堂双三角-AI时代的竞争力武器库 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-AI时代的竞争力武器库_vlm.md`
 - [[cases/case-yihang-dual-triangle-一堂双三角-AI落地五部曲|一堂双三角-AI落地五部曲 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-AI落地五部曲_vlm.md`
-- [[cases/case-yihang-dual-triangle-一堂双三角-IP选题智能体挑战交付上限|一堂双三角-IP选题智能体挑战交付上限 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-IP选题智能体挑战交付上限_vlm.md`
+- [[cases/case-yihang-dual-triangle-一堂双三角-IP选题智能体挑战交付上限|case-yihang-dual-triangle-一堂双三角-IP选题智能体挑战交付上限]] — source no source
 - [[cases/case-yihang-dual-triangle-一堂双三角-一个引擎-三阶六变|一堂双三角-一个引擎-三阶六变 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-一个引擎-三阶六变_vlm.md`
 - [[cases/case-yihang-dual-triangle-一堂双三角-人生红点教练parther探索|一堂双三角-人生红点教练parther探索 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-人生红点教练parther探索_vlm.md`
 - [[cases/case-yihang-dual-triangle-一堂双三角-作业洞察和特别表白|一堂双三角-作业洞察和特别表白 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-作业洞察和特别表白_vlm.md`
 - [[cases/case-yihang-dual-triangle-一堂双三角-十年爬山地图|一堂双三角-十年爬山地图 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-十年爬山地图_vlm.md`
 - [[cases/case-yihang-dual-triangle-一堂双三角-双三角预判画布|一堂双三角-双三角预判画布 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-双三角预判画布_vlm.md`
-- [[cases/case-yihang-dual-triangle-一堂双三角-图书分析AI工具|一堂双三角-图书分析AI工具 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-图书分析AI工具_vlm.md`
-- [[cases/case-yihang-dual-triangle-一堂双三角-教育新官网制作|一堂双三角-教育新官网制作 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-教育新官网制作_vlm.md`
-- [[cases/case-yihang-dual-triangle-一堂双三角-数字化营销提效十倍|一堂双三角-数字化营销提效十倍 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-数字化营销提效十倍_vlm.md`
+- [[cases/case-yihang-dual-triangle-一堂双三角-图书分析AI工具|case-yihang-dual-triangle-一堂双三角-图书分析AI工具]] — source no source
+- [[cases/case-yihang-dual-triangle-一堂双三角-教育新官网制作|case-yihang-dual-triangle-一堂双三角-教育新官网制作]] — source no source
+- [[cases/case-yihang-dual-triangle-一堂双三角-数字化营销提效十倍|case-yihang-dual-triangle-一堂双三角-数字化营销提效十倍]] — source no source
 - [[cases/case-yihang-dual-triangle-一堂双三角-清单版画布|一堂双三角-清单版画布 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-清单版画布_vlm.md`
 - [[cases/case-yihang-dual-triangle-一堂双三角-画布案例1|一堂双三角-画布案例1 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-画布案例1_vlm.md`
 - [[cases/case-yihang-dual-triangle-一堂双三角-画布案例2|一堂双三角-画布案例2 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-画布案例2_vlm.md`
 - [[cases/case-yihang-dual-triangle-一堂双三角-解释版画布|一堂双三角-解释版画布 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-解释版画布_vlm.md`
-- [[cases/case-yihang-dual-triangle-一堂双三角-跨行业速解工业级难题|一堂双三角-跨行业速解工业级难题 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-跨行业速解工业级难题_vlm.md`
-- [[cases/case-yihang-dual-triangle-一堂双三角-龙虾训练实验|一堂双三角-龙虾训练实验 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-龙虾训练实验_vlm.md`
+- [[cases/case-yihang-dual-triangle-一堂双三角-跨行业速解工业级难题|case-yihang-dual-triangle-一堂双三角-跨行业速解工业级难题]] — source no source
+- [[cases/case-yihang-dual-triangle-一堂双三角-龙虾训练实验|case-yihang-dual-triangle-一堂双三角-龙虾训练实验]] — source no source
 - [[cases/case-yihang-dual-triangle-人创造力|人创造力 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/人创造力_vlm.md`
 - [[cases/case-yihang-dual-triangle-人审美|人审美 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/人审美_vlm.md`
 - [[cases/case-yihang-dual-triangle-人类三角-创造力|人类三角-创造力 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/人类三角-创造力_vlm.md`
@@ -254,10 +261,11 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[cases/case-yihang-dual-triangle-人类三角-练体系|人类三角-练体系 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/人类三角-练体系_vlm.md`
 - [[cases/case-yihang-dual-triangle-人练体系|人练体系 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/人练体系_vlm.md`
 - [[cases/case-yihang-dual-triangle-双三角-竞争力武器库|双三角-竞争力武器库 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/双三角-竞争力武器库_vlm.md`
-- [[cases/case-yihang-dual-triangle-天末的双三角模型|天末的双三角模型 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/天末的双三角模型_vlm.md`
-- [[cases/case-yihang-dual-triangle-组织-硬件公司-AI专利落地案例|【组织】硬件公司-AI专利落地案例 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/【组织】硬件公司-AI专利落地案例_vlm.md`
-- [[cases/case-yihang-dual-triangle-组织-酒店行业-AI标签审核案例|【组织】酒店行业-AI标签审核案例 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/【组织】酒店行业-AI标签审核案例_vlm.md`
-- [[cases/case-yihang-dual-triangle-阿豪的双三角模型|阿豪的双三角模型 — 双三角案例]] — source `00_inbox/人机协作双三角/_processed/阿豪的双三角模型_vlm.md`
+- [[cases/case-yihang-dual-triangle-天末的双三角模型|case-yihang-dual-triangle-天末的双三角模型]] — source no source
+- [[cases/case-yihang-dual-triangle-组织-硬件公司-AI专利落地案例|case-yihang-dual-triangle-组织-硬件公司-AI专利落地案例]] — source no source
+- [[cases/case-yihang-dual-triangle-组织-酒店行业-AI标签审核案例|case-yihang-dual-triangle-组织-酒店行业-AI标签审核案例]] — source no source
+- [[cases/case-yihang-dual-triangle-阿豪的双三角模型|case-yihang-dual-triangle-阿豪的双三角模型]] — source no source
+- [[cases/case-yihang-truman-aesthetic-library-practices|case-yihang-truman-aesthetic-library-practices]] — source no source
 - [[cases/case-yitang-ai-outbound-roi-model|案例：AI 外呼——ROI模型统一"真人 vs. AI"矛盾经验]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
 - [[cases/case-yitang-ai-painting-commercialization|案例：崔磊如何通过 AI 绘画练习实现商业化交付]] — source `00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt`
 - [[cases/case-yitang-ai-time-management-coach|案例：AI辅助调研——时间管理教练产品验证]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
@@ -332,6 +340,11 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[cases/case-yitang-yitang-shortvideo-industrialization|案例：一堂如何用 ABCD 模型实现口播短视频工业化]] — source `00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt`
 - [[cases/case-yitang-yitang-transcript-strategy|案例：一堂逐字稿——用 ROI+内容壁垒打破"不能给"的行业惯例]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
 - [[cases/case-yitang-yitu-lead-industrialization|案例：益涂如何用漏斗模型工业化筛选 To B 销售线索]] — source `00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt`
+- [[cases/case-yitang-ymodel-ai-business-dialogue|Y模型 案例：AI+Y模型——充电桩/养老院的黑盒报告 vs 拆开迭代]] — source `00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md`
+- [[cases/case-yitang-ymodel-b2b-sales-conversion|Y模型 案例：To B 顾问销售——一号位脑子里的结构用 Y模型 显性化]] — source `00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md`
+- [[cases/case-yitang-ymodel-children-reading-retention|Y模型 案例：小学生在线阅读——外行看一眼画布就能平等对话]] — source `00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md`
+- [[cases/case-yitang-ymodel-vicki-cross-domain-transfer|Y模型 案例：Vicki 开店→短视频跨域迁移——Y模型 比五步法更底层 1-2 层]] — source `00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md`
+- [[cases/case-yitang-ymodel-watermelon-challenge|Y模型 案例：拍西瓜满级挑战——1000次循环从普通人到顶尖选手]] — source `00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md`
 - [[cases/case-zhanglan-amusement-park-undercover|案例：张兰假扮游乐园店长卧底15天]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
 - [[cases/case-zhanglei-furniture-overseas-market-selection|案例：张磊——洗衣液蹲超市+假扮促销员]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[cases/case-zhanglei-nursing-home-family|案例：假扮孙子调研养老院真实状况]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
@@ -371,7 +384,7 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[concepts/ai-landing-scene-selection|AI落地场景识别：从找老的干小的开始]] — source `10_raw/sources/src_20260606_ef4877d0-所以90的核心问题.md`
 - [[concepts/ai-learning-closed-loop|AI学习闭环：从听懂到能力的转化路径]] — source `10_raw/sources/src_20260606_90b44191-没有人呀现在.md`
 - [[concepts/ai-native-im-multi-agent|AI 原生 IM：让 Agent 成为一等公民的协作基础设施]] — source `pending_archive:src_20260614_c5115d2c-龙虾-AI原生IM工具演示`
-- [[concepts/ai-native-五层进阶从答案到效率到作品到产品到系统|AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统]] — source no source
+- [[concepts/ai-native-五层进阶从答案到效率到作品到产品到系统|AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统]] — source `{'pending_archive': 'src_unknown'}`
 - [[concepts/ai-short-drama-ice-fire-scripting-compass|冰火写本罗盘：AI短剧剧本策划全流程体系]] — source `10_raw/sources/src_20260613_41aceaf5-ice-fire-scripting-compass.md`
 - [[concepts/ai-short-drama-platform-policy-comparison|主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果]] — source `10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md`
 - [[concepts/ai-tool-learning-curve|AI工具循序渐进学习曲线]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
@@ -436,8 +449,12 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[concepts/concept-wanghuan-power-of-standards|王欢：标准的力量——质量乘数]] — source `src_unknown`
 - [[concepts/concept-wanghuan-tacit-knowledge-examples|王欢：行业暗规则实例库（招聘/招投标/销售/培训）]] — source `10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md`
 - [[concepts/concept-X型Y型决策习惯|X型 vs Y型：两种决策习惯对比]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-X型Y型决策习惯对比_vlm_desc.md`
+- [[concepts/concept-yihang-ai-feature-thinking|concept-yihang-ai-feature-thinking]] — source no source
+- [[concepts/concept-yihang-data-pack-ethics|数据包使用伦理——个人学习可用，禁止规模化批量抓取流通]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[concepts/concept-yihang-dual-triangle-core|一行双三角：人机协作的元模型]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-逐字稿.md`
 - [[concepts/concept-yihang-human-in-the-loop-dual-triangle|人在环 × 双三角：从治理原则到能力地图]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
+- [[concepts/concept-yihang-methodology-production-pipeline|方法论生产流水线：一堂的"双面网络"——学员既是消费者也是生产者]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
+- [[concepts/concept-yihang-research-driven-company|研发型公司 vs 工程型公司——做"过去做不出来的东西"]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[concepts/concept-yitang-ai-research-10-assumptions|AI调研十大假设：人机协作的底层原则]] — source `00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md`
 - [[concepts/concept-yitang-ai-research-human-loop|AI调研中人机协作的判断节点]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
 - [[concepts/concept-yitang-channel-lean-validation-bridge|渠道精益验证：把渠道 0→1 测试当作一种 MVP]] — source `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`
@@ -822,6 +839,7 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[concepts/轻量级诊所HIS调研全清单|轻量级诊所HIS调研全清单]] — source `10_raw/sources/src_20260503_5c91e867-轻量级诊所HIS调研全清单.md`
 - [[concepts/那今天不会|那今天不会。]] — source `10_raw/sources/src_20260522_642ab512-那今天不会.md`
 - [[concepts/鑫港湾his系统分阶段整改报告|鑫港湾his系统分阶段整改报告]] — source `{'pending_archive': 'src_unknown'}`
+- [[dark-knowledges/dk-ai-collaboration-degradation-spiral|人机协作退化螺旋：飞轮反转的两种死亡模式]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[dark-knowledges/dk-ai-design-pitfalls|AI 设计交付物的五个常见陷阱与反打]] — source `00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-口述.txt`
 - [[dark-knowledges/dk-ai-entrepreneur-technical-blindspot|暗知：AI创业者最大的盲区——'我们能做出来'≠'用户需要这个']] — source `10_raw/sources/src_20260610_ac25d82a-一堂-机会预判-三维排列组合01.md`
 - [[dark-knowledges/dk-ai-judgment-human-responsibility|人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果]] — source `00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt`
@@ -1011,6 +1029,11 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[dark-knowledges/dk-yb8-file-naming-eight-elements|AI增效前置：文件命名八要素体系]] — source `src_unknown`
 - [[dark-knowledges/dk-yb9-cubox-deployment-failure|Cubox及AI协作工具的团队部署失败模式]] — source `src_unknown`
 - [[dark-knowledges/dk-yi-tang-wishful-thinking-kills-startups|暗知：'愿望思维'是创业最大的陷阱]] — source `10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt`
+- [[dark-knowledges/dk-yihang-canvas-preparation-three-principles|画布筹备三原则：花总转折 / 先加后减 / 15分钟出租车]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
+- [[dark-knowledges/dk-yihang-dual-triangle-commitment-confidence|双三角让团队敢承诺——画布一画就知道能交付什么]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
+- [[dark-knowledges/dk-yihang-dual-triangle-strategic-bet|双三角作为一堂未来5年战略操作系统——笃定、迭代速度、知行合一]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
+- [[dark-knowledges/dk-yihang-report-book-learner|报告书型学习者：不听课直接读卡也能学会的极简路径]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
+- [[dark-knowledges/dk-yihang-scientific-community-moat|科学共同体作为一堂核心资产——冲向最大难题，解不掉就交给下一个人]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[dark-knowledges/dk-yitang-business-formula-plus-times-trap|业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策]] — source `pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript`
 - [[dark-knowledges/dk-yitang-camel-dung-process-inertia|流程经验不与底层原因对齐，会长期低效存在]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
 - [[dark-knowledges/dk-yitang-channel-exploration-traps|渠道探索常见陷阱：18 万字共建作业里的血泪教训]] — source `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`
@@ -1091,8 +1114,9 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[frameworks/business-formula-to-kdo-card-quality|业务公式 ABC → KDO 卡片质量：用公式思维诊断知识卡的健康度]] — source `10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md`
 - [[frameworks/concept-maister-trusted-advisor|Trusted Advisor：可信顾问信任模型]] — source `src_unknown`
 - [[frameworks/concept-mckinsey-7s|7-S Framework：组织诊断的七维模型]] — source `src_unknown`
-- [[frameworks/concept-mckinsey-hypothesis-driven|Hypothesis-Driven Approach：假设驱动工作法]] — source no source
+- [[frameworks/concept-mckinsey-hypothesis-driven|Hypothesis-Driven Approach：假设驱动工作法]] — source `{'pending_archive': 'src_unknown'}`
 - [[frameworks/concept-minto-pyramid-principle|金字塔原理：结论先行的结构化沟通框架]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- [[frameworks/framework-agent-card-execution-pattern|Agent 执行模式：从卡片到可执行动作]] — source `30_wiki/tools/agent-spec-dual-triangle-canvas-filler.md`
 - [[frameworks/framework-ai-accelerated-strategy-cycle|AI 加速的战略-验证闭环]] — source `60_feedback/audit/cross-domain-bridge-design-specs.md`
 - [[frameworks/framework-ai-deconstruction-methodology|王欢三层拆书法]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[frameworks/framework-ai-deliberate-practice-loop|AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴]] — source `00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt`
@@ -1157,10 +1181,14 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[frameworks/framework-wanghuan-say-think-do-toolchain|王欢说→想→做工具链框架]] — source `src_unknown`
 - [[frameworks/framework-wanghuan-task-product-system|王欢任务→产品→系统演进框架]] — source `src_unknown`
 - [[frameworks/framework-wanghuan-three-tier-dev-architecture|王欢三层开发架构：需求拆解→AI开发→哨兵质检]] — source `10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md`
+- [[frameworks/framework-yihang-aesthetic-judgment-training|AI 时代审美判断力训练系统——未来教育的核心转向]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
+- [[frameworks/framework-yihang-ai-implementation-consultant|AI 落地顾问培养体系——双三角笃定 + 技术产品背景 + 学习能力 + 价值观]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
+- [[frameworks/framework-yihang-AI-native-dual-triangle-kernel|AI 原生是结果，双三角是引擎]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[frameworks/framework-yihang-dual-triangle-ai-landing-five-steps|一行双三角AI落地五部曲]] — source `00_inbox/人机协作双三角/一堂双三角-AI落地五部曲.png`
 - [[frameworks/framework-yihang-dual-triangle-ten-year-map|一行双三角十年爬山地图]] — source `00_inbox/人机协作双三角/一堂双三角-十年爬山地图.png`
 - [[frameworks/framework-yihang-dual-triangle-three-stages-six-changes|一行双三角三阶六变]] — source `00_inbox/人机协作双三角/一堂双三角-一个引擎-三阶六变.png`
 - [[frameworks/framework-yihang-dual-triangle-weapon-library|一行双三角六要素武器库]] — source `00_inbox/人机协作双三角/一堂双三角-AI时代的竞争力武器库.png`
+- [[frameworks/framework-yihang-knowledge-data-decoupling|知识层与数据层解耦：核心词 + data pack 插件式组合]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[frameworks/framework-yitang-18-strategy-cards|降龙十八掌：18张调研策略卡全景图]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[frameworks/framework-yitang-channel-exploration-4step|渠道探索四步法：科学找到可持续获客渠道]] — source `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`
 - [[frameworks/framework-yitang-channel-industrialization|渠道工业化生产：让高不确定工作持续高质量交付]] — source `00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt`
@@ -1252,14 +1280,20 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[frameworks/yt-tob-customer-tiering|To B 客户分层：头部、腰部、腿部]] — source `10_raw/sources/xujian-tob-fivestep-oral.md`
 - [[frameworks/yt-tob-demand-metrics|To B 需求测算双指标：成本占有率 + 业务天花板]] — source `pending_archive: src_unknown`
 - [[frameworks/yt-tob-demand-scenarios|To B 需求场景四象限]] — source `10_raw/sources/xujian-tob-fivestep-oral.md`
-- [[frameworks/yt-tob-growth-channel|To B 增长模式取舍：直销 vs 渠道]] — source no source
+- [[frameworks/yt-tob-growth-channel|To B 增长模式取舍：直销 vs 渠道]] — source `{'pending_archive': 'src_unknown'}`
 - [[frameworks/yt-tob-product-kernel|To B 产品内核：面向决策者研究付费，面向使用者夯实价值]] — source `10_raw/sources/xujian-tob-fivestep-oral.md`
-- [[frameworks/yt-tob-solution-model|To B 解决方案类型矩阵]] — source no source
+- [[frameworks/yt-tob-solution-model|To B 解决方案类型矩阵]] — source `{'pending_archive': 'src_unknown'}`
 - [[frameworks/yt-tob-unit-model|To B 单元模型选择与跑通]] — source `pending_archive: src_unknown`
 - [[frameworks/yt-unit-model-ladder|单元模型六段进阶：从拍脑袋到动态预测]] — source `pending_archive: src_unknown`
 - [[frameworks/yt-unit-model-overview|单元模型概览：十大单元模型与三角色分工]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md`
 - [[methods/method-dual-triangle-flywheel-engine|双三角飞轮引擎与制度化运行]] — source `00_inbox/人机协作双三角/_processed/任务建议_双三角画布填充Prompt.md`
 - [[methods/method-dual-triangle-human-ai-division|双三角人机分工与AI组织行为学]] — source `00_inbox/人机协作双三角/_processed/AI组织行为学的口述_text.md`
+- [[methods/method-yihang-aesthetic-fast-build|method-yihang-aesthetic-fast-build]] — source no source
+- [[methods/method-yihang-ai-self-xray-iteration|AI 自我 X 光拆解：让 AI 在行动前主动暴露六要素盲区]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
+- [[methods/method-yihang-dual-triangle-ai-review|双三角 AI 辅助复盘法：让 AI 拆解你自己的协作过程]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
+- [[methods/method-yihang-dual-triangle-deliberate-practice|双三角刻意练习法：长期追求 + 固定套路 × 非舒适区 × 及时反馈 × 大量重复]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
+- [[methods/method-yihang-knowledge-battle-station|知识站场：从"试工具→失败→清零"到"建站场→持续积累→花开了"]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
+- [[methods/method-yihang-knowledge-versioning|课程多版本压缩法——3分钟/15分钟/1小时/3小时版本]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[methods/method-yitang-micro-innovation|破除创新迷信：小范围流程级创新同样有效]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
 - [[methods/method-yitang-y-model-engine-cycle|Y模型引擎层：从分析框架到迭代发动机的操作法]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
 - [[methods/method-yitang-y-model-structured-form|Y模型 解决真实难题的结构化填表法]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
@@ -1504,6 +1538,7 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[tools/smart-medicine-cabinet-financial-model|智能药柜单点财务模型与回本测算表]] — source `pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive`
 - [[tools/smart-medicine-cabinet-fraud-detection|智能药柜/智慧药房招商骗局识别清单]] — source `pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive`
 - [[tools/tool-1视角升级思考法|技能：+1视角升级思考法]] — source `10_raw/sources/src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要.md`
+- [[tools/tool-aesthetic-library-builder|tool-aesthetic-library-builder]] — source no source
 - [[tools/tool-agent-crawl4ai|Crawl4AI：开源AI爬虫——自然语言描述即可提取]] — source `src_unknown`
 - [[tools/tool-agent-firecrawl|Firecrawl：专为LLM设计的Web抓取API]] — source `src_unknown`
 - [[tools/tool-agent-native-overview|Agent原生调研工具总览：2025-2026新范式]] — source `src_unknown`
@@ -1686,10 +1721,10 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[tools/tool-Truman-AI工具选型决策|技能：AI工具选型决策]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
 - [[tools/tool-Truman-AI时代IPO模型重构|技能：AI时代IPO模型重构]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
 - [[tools/tool-Truman-AI时代提示词优化法|技能：AI时代提示词优化法]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
-- [[tools/tool-Truman-AI能力分层学习路径|技能：AI能力分层学习路径]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
+- [[tools/tool-Truman-AI能力分层学习路径|tool-Truman-AI能力分层学习路径]] — source no source
 - [[tools/tool-Truman-AI辅助思考伙伴养成|技能：AI辅助思考伙伴养成]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
 - [[tools/tool-Truman-AI输出审慎判断与交付确认|技能：AI输出审慎判断与交付确认]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
-- [[tools/tool-Truman-Feature特性层训练法|技能：Feature特性层训练法]] — source `src_unknown`
+- [[tools/tool-Truman-Feature特性层训练法|tool-Truman-Feature特性层训练法]] — source no source
 - [[tools/tool-Truman-Skill全生命周期管理|技能：Skill全生命周期管理]] — source `src_unknown`
 - [[tools/tool-Truman-XY-Problem识别与真实问题定位|技能：XY Problem识别与真实问题定位]] — source `src_unknown`
 - [[tools/tool-Truman-上下文质量管理（AI协作）|技能：上下文质量管理（AI协作）]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
@@ -1714,7 +1749,10 @@ _Last updated: 2026-07-04T13:08:45+00:00_
 - [[tools/tool-Truman-问题定义澄清法|技能：问题定义澄清法]] — source `src_unknown`
 - [[tools/tool-wanghuan-ai-business-profile|王欢AI业务档案5字段工具]] — source `src_unknown`
 - [[tools/tool-wanghuan-ai-dual-role-coach|王欢：AI 双角色教练对练工具]] — source `src_unknown`
+- [[tools/tool-yihang-agent-config-7steps|Agent 配置 7 步法：人类画像 + 规则匹配]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[tools/tool-yihang-dual-triangle-canvas|一行双三角画布（三版合一）]] — source `00_inbox/人机协作双三角/一堂双三角-清单版画布.png`
+- [[tools/tool-yihang-dual-triangle-oral-spray|口喷：双三角内功 + 九字诀外功——语音驱动 AI 协作]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
+- [[tools/tool-yihang-dual-triangle-xray-deconstruct|X光拆解：双三角案例逆向工程——从"用了什么工具"到"背后的双三角怎么支撑"]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[tools/tool-yitang-18-strategy-tool-mapping|降龙十八掌→工具映射表：每掌对应的执行工具和 Skill]] — source `30_wiki/frameworks/framework-yitang-18-strategy-cards.md`
 - [[tools/tool-yitang-ai-assisted-analysis|AI辅助分析：用AI做数据分析和模式识别]] — source `pending_archive:src_unknown`
 - [[tools/tool-yitang-ai-assisted-organize|AI辅助整理：把访谈录音/会议记录结构化]] — source `00_inbox/调研专题/调研超级武器库_ocr_text.md`
