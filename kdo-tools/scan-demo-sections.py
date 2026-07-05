@@ -196,8 +196,8 @@ def generate_compilation(path: Path) -> Path:
 
     print(f"  汇编已生成：{out_path.relative_to(WIKI)}")
     print(f"    {len(results)} 处标记，按 {len(by_category)} 个分类组织")
-    if suspicious:
-        print(f"    ⚠️  {len(suspicious)} 处怀疑区（无信号词叙事段落）——建议抽查")
+    if suspicious_runs:
+        print(f"    ⚠️  {len(suspicious_runs)} 处怀疑区（无信号词叙事段落）——建议抽查")
     return out_path
 
 
