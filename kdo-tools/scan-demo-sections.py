@@ -148,14 +148,7 @@ def generate_compilation(path: Path) -> Path:
             lines.append("- 通用: 这段能不能变成可复用的模板/skill/workflow？")
             lines.append("")
 
-    # Write to _processed/
-    out_dir = path.parent / "_processed"
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / f"{path.stem}_高价值段落汇编.md"
-    out_path.write_text("\n".join(lines), encoding="utf-8")
-
-    # ── Suspicious zone scan: paragraphs with no signal words ──
-    # Uses transcript_lines (original text), not 'lines' (compilation output)
+    # ── Suspicious zone scan: do BEFORE writing the file ──
     suspicious = []
     for i, line in enumerate(transcript_lines):
         if len(line) > 200 and not any(s in line for s in SIGNAL_WORDS):
@@ -172,6 +165,10 @@ def generate_compilation(path: Path) -> Path:
         if len(suspicious) > 15:
             lines.append(f"- ...还有 {len(suspicious) - 15} 处")
 
+    # Write to _processed/
+    out_dir = path.parent / "_processed"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / f"{path.stem}_高价值段落汇编.md"
     out_path.write_text("\n".join(lines), encoding="utf-8")
 
     print(f"  汇编已生成：{out_path.relative_to(WIKI)}")
