@@ -1,12 +1,12 @@
 ---
 id: task_20260705_wangyuyan-register-xiaohongshu-skill
 type: task
-status: queued
-assignee: 老顽童
+status: pending_review
+assignee: claude
 reviewer: 欧阳锋
 priority: P2
 created_at: 2026-07-05
-updated_at: 2026-07-05
+updated_at: '2026-07-05T13:39:18.038513+00:00'
 source_refs:
 - 40_outputs/capabilities/skills/xiaohongshu-positioning/SKILL.md
 related:
