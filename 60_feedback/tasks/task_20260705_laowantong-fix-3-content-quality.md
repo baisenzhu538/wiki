@@ -1,12 +1,12 @@
 ---
 id: task_20260705_laowantong-fix-3-content-quality
 type: task
-status: queued
-assignee: 老顽童
+status: in_progress
+assignee: claude
 reviewer: 欧阳锋
 priority: P2
 created_at: 2026-07-05
-updated_at: 2026-07-05
+updated_at: '2026-07-05T13:06:31.343296+00:00'
 ---
 
 # 任务 #110：修复 3 条内容质量问题
