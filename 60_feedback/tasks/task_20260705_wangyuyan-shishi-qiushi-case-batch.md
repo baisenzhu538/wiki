@@ -1,12 +1,12 @@
 ---
 id: task_20260705_wangyuyan-shishi-qiushi-case-batch
 type: task
-status: in_progress
+status: pending_review
 assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-05
-updated_at: '2026-07-05T03:38:21.769300+00:00'
+updated_at: '2026-07-05T03:42:13.044589+00:00'
 source_refs:
 - 00_inbox/实事求是/_processed/实事求是_整合笔记.md
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
