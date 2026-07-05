@@ -15,7 +15,7 @@ domain:
 - ai-collaboration
 - yitang
 source_refs:
-- 00_inbox/人机协作双三角/_processed/鲲特·虚拟艺人_vlm.md
+- pending_archive
 related:
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[case-yihang-dual-triangle-guoshuai-ai-editorial]]"

@@ -11,7 +11,7 @@ domain:
 - ai-tooling
 source_refs:
 - 30_wiki/concepts/concept-feishu-api-pagination-trap.md
-- 60_feedback/audit/synthesis_kdo_infrastructure.md
+- pending_archive
 updated_at: '2026-06-28'
 author: 段王爷（南帝）
 reviewed_by: 欧阳锋

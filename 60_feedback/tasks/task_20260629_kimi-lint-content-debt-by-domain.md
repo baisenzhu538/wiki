@@ -1,13 +1,14 @@
 ---
 id: task_20260629_kimi-lint-content-debt-by-domain
 type: task
-status: in-progress
+status: reviewed
 assignee: workbuddy
 priority: P2
 created_at: 2026-06-29
-updated_at: '2026-07-01T00:00:00+00:00'
+updated_at: '2026-07-05'
 reviewer: 欧阳锋
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-05
 source_refs:
 - 60_feedback/tasks/task_20260629_kimi-full-frontmatter-compliance-cleanup.md
 ---

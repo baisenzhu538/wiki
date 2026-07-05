@@ -17,7 +17,7 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-AI落地五部曲.png
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-逐字稿.md
-- 00_inbox/人机协作双三角/_processed/【组织】贝壳找房案例口述_text.md
+- 00_inbox/人机协作双三角/_processed/【组织】[【组织】贝壳找房案例口述.pdf
 - 00_inbox/人机协作双三角/_processed/组织硬件公司专利案例口述_text.md
 - 00_inbox/人机协作双三角/_processed/组织酒店行业AI标签案例口述_text.md
 related:

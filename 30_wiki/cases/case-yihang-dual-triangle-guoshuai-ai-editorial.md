@@ -14,7 +14,7 @@ domain:
 - ai-collaboration
 - yitang
 source_refs:
-- 00_inbox/人机协作双三角/_processed/郭帅·AI编辑部_vlm.md
+- pending_archive
 related:
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[case-yihang-dual-triangle-一堂双三角-IP选题智能体挑战交付上限]]"

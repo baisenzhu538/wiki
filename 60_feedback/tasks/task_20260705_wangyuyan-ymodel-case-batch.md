@@ -1,12 +1,12 @@
 ---
 id: task_20260705_wangyuyan-ymodel-case-batch
 type: task
-status: queued
-assignee: 老顽童
+status: reviewed
+assignee: claude
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-05
-updated_at: 2026-07-05
+updated_at: '2026-07-05T03:14:16.183561+00:00'
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
 - 00_inbox/ideas/一堂-个人修炼-Y模型实操口述版.md
@@ -14,6 +14,8 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[method-yitang-y-model-engine-cycle]]'
 - '[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-05'
 ---
 
 # 任务 #106：Y模型 口述稿案例批量生产（5 张 case 卡）
