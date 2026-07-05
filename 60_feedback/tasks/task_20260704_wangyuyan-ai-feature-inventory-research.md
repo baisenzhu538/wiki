@@ -2,12 +2,12 @@
 id: task_20260704_wangyuyan-ai-feature-inventory-research
 title: AI 工具特性清单全网调研与建设
 type: task
-status: pending_review
+status: reviewed
 assignee: wangyuyan
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-04
-updated_at: '2026-07-05T19:38:15.240569+00:00'
+updated_at: '2026-07-05T19:47:00.169610+00:00'
 source_task: null
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
@@ -16,6 +16,8 @@ related:
 - '[[concept-yihang-ai-feature-thinking]]'
 - '[[tool-ai-feature-inventory]]'
 - '[[task_20260704_laowantong-ai-feature-thinking-concept]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-05'
 ---
 
 # 任务 #75：AI 工具特性清单全网调研与建设
