@@ -2,8 +2,10 @@
 id: method-kdo-agent-design-meta
 title: KDO Agent 设计元方法——用双三角加速 Agent 建设
 type: method
-status: draft
+status: reviewed
 author: 王语嫣
+reviewed_by: 欧阳锋
+review_date: 2026-07-06
 confidence: 0.85
 trust_level: high
 created_at: 2026-07-06
@@ -89,3 +91,17 @@ Agent v0 → 真实场景测试 → trace 复盘 → 暴露缺口
 - 三步法的核心是 Truman 的方法论，KDO 只是操作化。如果 Truman 的原始方法有缺陷，这套也会继承。
 - "3-5 天下饺子"是 Truman 一堂团队的体感，KDO 目前尚未验证这个速度。
 - 外部 Agent 设计画布（MongoDB/Abundly）比 KDO 画布多了 Trigger 和 Interface 维度——KDO 画布需要升级。
+
+## Action Triggers
+
+| 触发场景 | 第一个动作 | 成功指标 |
+|:---|:---|:---|
+| 决定新建一个 KDO Agent | 先填 Agent 双三角画布（10 格），不跳过 | 画布六要素 + Trigger + Interface 全部有内容 |
+| 画布填完准备动手 | 选最小可行性版本——只做一个场景、一个输出格式 | v0 在 1-2 天内可跑 |
+| Agent v0 跑完第一轮测试 | 跑自复盘→暴露缺口→回补画布 | 画布至少更新 1 个角的认知 |
+| 多个 Agent 需要协作 | 先画 Agent 交互拓扑图，再各自优化 prompt | 拓扑图明确谁先动、谁后动、什么情况下叫停 |
+| Agent 连续 3 轮迭代无明显改进 | 回到"不该用 Agent"清单检查——可能这个场景根本不适合 Agent | 做出 go/no-go 判断 |
+
+## Synthesis
+
+本方法是 KDO Agent 化的操作系统——上承 [[method-kdo-agent-distillation]]（蒸馏对话→prompt），下接 [[agent-spec-dual-triangle-canvas-filler]]（第一个走完三步法的试点 Agent），左靠 [[method-dual-triangle-flywheel-engine]]（引擎迭代），右依 [[method-yihang-ai-self-xray-iteration]]（自复盘闭环）。四张卡共同构成 KDO Agent 从设计→蒸馏→迭代→自进化的完整流水线。
