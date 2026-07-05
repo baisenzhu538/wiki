@@ -26,6 +26,7 @@
 | **内容生产** | `content-production/SKILL.md` | Candy 九步逐字稿法 |
 | **口语化润色** | `content-production-polish/SKILL.md` | 七条原则让文字"读出声来" |
 | **差异化定位** | `content-production-positioning/SKILL.md` | 定位画布——"这篇东西凭什么存在" |
+| **小红书定位** | `xiaohongshu-positioning/SKILL.md` | 四大定位模型+7步工作流+质量门控 |
 
 ## 老顽童（周伯通）— 主力生产
 

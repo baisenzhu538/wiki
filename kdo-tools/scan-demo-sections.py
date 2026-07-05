@@ -83,6 +83,8 @@ def generate_compilation(path: Path) -> Path:
     Returns the path to the compiled markdown file.
     This is what 王语嫣 reads instead of the full transcript.
     """
+    text = path.read_text(encoding="utf-8", errors="ignore")
+    transcript_lines = text.split("\n")
     results = scan_file(path, full_context=True)
     if not results:
         return None
@@ -103,6 +105,19 @@ def generate_compilation(path: Path) -> Path:
         rel = path
     lines.append(f"> 原文路径：{rel}")
     lines.append("")
+    # Signal density map
+    density_buckets = defaultdict(int)
+    for r in results:
+        bucket = (r["line"] // 500) * 500
+        density_buckets[bucket] += 1
+
+    lines.append("## 信号密度地图（优先读密集区）")
+    lines.append("")
+    for start, count in sorted(density_buckets.items()):
+        bar = "█" * min(count, 20)
+        lines.append(f"- L{start}-{start+500}: {count}处 {bar}")
+    lines.append("")
+
     lines.append("## 建议阅读顺序")
     lines.append("")
     priority_order = ["案例演示", "操作心法", "转折/突破", "可执行提示", "高潮/总结", "叙事结构", "其他"]
@@ -139,8 +154,30 @@ def generate_compilation(path: Path) -> Path:
     out_path = out_dir / f"{path.stem}_高价值段落汇编.md"
     out_path.write_text("\n".join(lines), encoding="utf-8")
 
+    # ── Suspicious zone scan: paragraphs with no signal words ──
+    # Uses transcript_lines (original text), not 'lines' (compilation output)
+    suspicious = []
+    for i, line in enumerate(transcript_lines):
+        if len(line) > 200 and not any(s in line for s in SIGNAL_WORDS):
+            if "。" in line or "？" in line or "！" in line:
+                suspicious.append({"line": i + 1, "text": line[:200]})
+
+    if suspicious:
+        lines.append("---")
+        lines.append("## ⚠️ 怀疑区：无信号词但超过200字的叙事段落")
+        lines.append(f"> 共 {len(suspicious)} 处。没有触发信号词，但可能是'安静地'讲的重要内容。建议抽查。")
+        lines.append("")
+        for s in suspicious[:15]:
+            lines.append(f"- L{s['line']}: {s['text'][:120]}...")
+        if len(suspicious) > 15:
+            lines.append(f"- ...还有 {len(suspicious) - 15} 处")
+
+    out_path.write_text("\n".join(lines), encoding="utf-8")
+
     print(f"  汇编已生成：{out_path.relative_to(WIKI)}")
     print(f"    {len(results)} 处标记，按 {len(by_category)} 个分类组织")
+    if suspicious:
+        print(f"    ⚠️  {len(suspicious)} 处怀疑区（无信号词叙事段落）——建议抽查")
     return out_path
 
 
