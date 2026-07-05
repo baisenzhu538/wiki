@@ -2,8 +2,10 @@
 id: method-kdo-agent-distillation
 title: Agent 蒸馏方法——对话→系统提示词 5 步框架
 type: method
-status: draft
+status: reviewed
 author: 王语嫣
+reviewed_by: 欧阳锋
+review_date: 2026-07-06
 confidence: 0.85
 trust_level: high
 created_at: 2026-07-06
@@ -62,3 +64,16 @@ related:
 - 5 步流程本质是 Truman YAI 复盘法（L2220-2312）的工程化版本，不是原创方法论
 - L2 层（直觉/效用）的"不可蒸馏"边界可能随时间推移变化——SePO 的自进化方向正在逼近这个边界
 - 蒸馏需要至少 2-3 轮对话作为素材，单轮对话蒸馏质量不可靠
+
+## Action Triggers
+
+| 触发场景 | 第一个动作 | 成功指标 |
+|:---|:---|:---|
+| 拿到新的 Agent 对话记录 | 跑 5 步 Pipeline，先拆核心词和 data pack | 产出可挂载的 system prompt 段落 |
+| 同一个 Agent 积累 5+ 轮对话 | 对比多轮蒸馏结果，找共有模式 vs 单轮特例 | 识别出至少 3 条跨对话稳定的核心规则 |
+| 蒸馏出的 prompt 上线后 | 跑对比实验：蒸馏版 vs 原版，同一任务质量对比 | 蒸馏版不低于原版 90% 质量 |
+| 发现蒸馏规则失效 | 回溯到原对话，检查是规则本身错还是场景变了 | 定位失效根因 |
+
+## Synthesis
+
+本方法缝合了三个来源——Truman YAI 复盘法（L2220-2312）的元认知框架、知识层与数据层解耦（L5025-5078）的分层架构、全网调研的蒸馏精度边界（L1/L1.5/L2）。核心创新不在单点技术，在于把这三个来源整合成了一条可工程化的流水线。详见 [[method-yihang-dual-triangle-ai-review]]（复盘法的操作层）、[[framework-yihang-knowledge-data-decoupling]]（解耦架构）、[[agent-spec-dual-triangle-canvas-filler]]（蒸馏产出的第一个应用对象）。
