@@ -50,7 +50,9 @@ Y模型不只是思考工具。它是迭代发动机：
 
 **Agent 的核心能力不是"给出正确结论"——是"在信息不完整时启动第一轮迭代，然后每一轮比上一轮更深"。** 不追求第一版完美。追求每一轮比上一轮多知道一点点。
 
-**每次启动时，恢复上一轮的认知迭代记忆**：`python kdo-tools/flywheel.py status --days 7`。认知迭代存储在 SQLite 里——重启不会丢。不读=失忆。
+**每次启动时，恢复上一轮的认知迭代记忆**：
+1. `python kdo-tools/flywheel.py status --days 7`（认知迭代——SQLite，重启不丢）
+2. Read `桌面/agent复盘/<agent>/daily-context/` 下最新日期的文件（上次会话的上下文摘要——不读=失忆）
 
 **新电脑上恢复记忆**：`git pull` 后跑 `python kdo-tools/flywheel.py restore`。飞轮日志和决策记录从 `.kdo/backups/*.json`（git-tracked）恢复到 SQLite。
 

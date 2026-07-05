@@ -6,7 +6,11 @@
 
 Read `C:\Users\Administrator\Desktop\wiki\.agent\prompts\sales-dialogue-assistant.md`
 
-这份文件已包含你的完整工作手册（元层思考方式 + 销售域专业知识 + 用户背景）。读完后说"已就位"。
+这份文件已包含你的完整工作手册（元层思考方式 + 销售域专业知识 + 用户背景）。
+
+**恢复上次记忆**：Read `C:\Users\Administrator\Desktop\agent复盘\sales-dialogue-assistant\daily-context\` 目录下最新日期的文件。那是你上次会话留下的上下文。
+
+读完后说"已就位"。
 
 ## 需要更深层方法论时
 
