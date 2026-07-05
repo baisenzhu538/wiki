@@ -323,6 +323,7 @@ def main() -> int:
     evidence = None
     verdict = None
     reviewer = None
+    grade = None
 
     i = 2
     while i < len(args):
@@ -337,6 +338,12 @@ def main() -> int:
             i += 2
         elif args[i] == "--reviewer" and i + 1 < len(args):
             reviewer = args[i + 1]
+            i += 2
+        elif args[i] == "--grade" and i + 1 < len(args):
+            grade = args[i + 1]
+            if grade not in ("A", "A-", "B+", "B", "B-", "C"):
+                print("--grade 需要 A|A-|B+|B|B-|C", file=sys.stderr)
+                return 1
             i += 2
         else:
             print(f"未知参数: {args[i]}", file=sys.stderr)
