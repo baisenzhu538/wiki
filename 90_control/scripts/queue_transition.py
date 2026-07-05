@@ -7,7 +7,7 @@ Usage:
     python queue_transition.py claim <task-id> --instance <name>
     python queue_transition.py complete <task-id> --instance <name> [--evidence <path>]
     python queue_transition.py release <task-id> --instance <name>
-    python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋
+    python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C]
 
 Exit codes:
     0 = transition applied
@@ -255,7 +255,7 @@ def action_release(task_id: str, instance: str) -> tuple[bool, str]:
     return True, f"✅ {task_id} 已释放回 queued"
 
 
-def action_review(task_id: str, verdict: str, reviewer: str) -> tuple[bool, str]:
+def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None = None) -> tuple[bool, str]:
     """Ouyangfeng-only: review a pending_review task."""
     if reviewer != "欧阳锋":
         return False, "只有欧阳锋可以执行 review 操作"
@@ -273,15 +273,16 @@ def action_review(task_id: str, verdict: str, reviewer: str) -> tuple[bool, str]
 
     with QueueLock("production-queue"):
         if verdict == "pass":
-            apply_updates(
-                task_id,
-                "reviewed",
-                task_file,
-                status="reviewed",
-                reviewed_by=reviewer,
-                review_date=current_utc_date(),
-            )
-            return True, f"✅ {task_id} 终审通过，状态更新为 reviewed"
+            updates = {
+                "status": "reviewed",
+                "reviewed_by": reviewer,
+                "review_date": current_utc_date(),
+            }
+            if grade:
+                updates["grade"] = grade
+            apply_updates(task_id, "reviewed", task_file, **updates)
+            grade_note = f"，等级 {grade}" if grade else ""
+            return True, f"✅ {task_id} 终审通过，状态更新为 reviewed{grade_note}"
         else:
             apply_updates(task_id, "queued", task_file, status="queued")
             return True, f"⚠️ {task_id} 终审不通过，状态退回 queued"
@@ -362,7 +363,7 @@ def main() -> int:
             return 1
         if not reviewer:
             reviewer = "欧阳锋"
-        ok, msg = action_review(task_id, verdict, reviewer)
+        ok, msg = action_review(task_id, verdict, reviewer, grade)
     else:
         print(__doc__, file=sys.stderr)
         return 1
