@@ -1,16 +1,18 @@
 ---
 id: task_20260705_wangyuyan-register-xiaohongshu-skill
 type: task
-status: pending_review
+status: reviewed
 assignee: claude
 reviewer: 欧阳锋
 priority: P2
 created_at: 2026-07-05
-updated_at: '2026-07-05T13:39:18.038513+00:00'
+updated_at: '2026-07-05T16:01:54.479408+00:00'
 source_refs:
 - 40_outputs/capabilities/skills/xiaohongshu-positioning/SKILL.md
 related:
 - '[[tool-ai-content-polish-v2]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-05'
 ---
 
 # 任务 #113：小红书定位 Skill 注册入库
