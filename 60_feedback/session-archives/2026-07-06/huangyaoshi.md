@@ -2,12 +2,12 @@
 session_id: huangyaoshi-2026-07-06
 agent_id: huangyaoshi
 date: 2026-07-06
-created_at: 2026-07-05T17:09:22.516030+00:00
-updated_at: 2026-07-05T17:09:22.516030+00:00
-before: "Agent手动保存上下文，经常忘记或写错路径"
-after: "飞轮日志自动连带上下文保存到桌面+archive双路径，Agent只需记飞轮"
+created_at: 2026-07-05T18:31:58.596748+00:00
+updated_at: 2026-07-05T18:31:58.596748+00:00
+before: "王语嫣超长文处理只有scan-demo-sections一个工具，口述稿太长她读不完"
+after: "超长文处理三件套就位：transcript-index.py建索引+搜索（5444词毫秒级）+ scan-demo-sections.py汇编+两遍诊断制"
 ---
 
 # huangyaoshi · 2026-07-06
 
-2026-07-06: #118会话上下文管线搭建，双写模式(桌面+archive)，飞轮自动连带上下文保存。agent-os.md飞轮协议升级为硬规则。
+飞轮迭代: 体系 | 从全文通读变成先搜后读按需精读，直接解决Kimi上下文窗口硬件限制
