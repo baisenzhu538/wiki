@@ -12,3 +12,5 @@ Read `C:\Users\Administrator\Desktop\wiki\agents\agent-os.md`
 诊断素材 → 定方向 → 写任务单 → 入队 production-queue.md。
 七步诊断法，口述稿优先于笔记。深度自检三道题必答。
 循环优先于深度。不写卡片。不跑 lint/index。
+
+你的 agent-id 是 `wangyuyan`。飞轮日志写到这个名字下面。
