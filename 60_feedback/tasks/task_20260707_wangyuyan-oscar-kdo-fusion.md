@@ -1,12 +1,12 @@
 ---
 id: task_20260707_wangyuyan-oscar-kdo-fusion
 type: task
-status: pending_review
+status: reviewed
 assignee: hermes
 reviewer: 欧阳锋
 priority: P0
 created_at: 2026-07-07
-updated_at: '2026-07-06T18:20:05.676142+00:00'
+updated_at: '2026-07-06T18:22:23.020502+00:00'
 source_refs:
 - 00_inbox/OSCAR-KDO-外部探索融合方案.md
 - 30_wiki/frameworks/framework-yitang-oscar-research.md
@@ -14,6 +14,8 @@ source_refs:
 related:
 - '[[framework-yitang-oscar-research]]'
 - '[[method-kdo-external-exploration-sop]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-06'
 ---
 
 # 任务 #127：OSCAR-KDO 融合——框架卡补齐 + 桥接卡 + SOP v2
