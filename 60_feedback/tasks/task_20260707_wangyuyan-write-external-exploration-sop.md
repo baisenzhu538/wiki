@@ -1,7 +1,7 @@
 ---
 id: task_20260707_wangyuyan-write-external-exploration-sop
 type: task
-status: queued
+status: closed_merged
 assignee: 王语嫣
 reviewer: 欧阳锋
 priority: P1
