@@ -1,12 +1,12 @@
 ---
 id: task_20260707_wangyuyan-oscar-kdo-fusion
 type: task
-status: in_progress
+status: pending_review
 assignee: hermes
 reviewer: 欧阳锋
 priority: P0
 created_at: 2026-07-07
-updated_at: '2026-07-06T18:05:16.440027+00:00'
+updated_at: '2026-07-06T18:20:05.676142+00:00'
 source_refs:
 - 00_inbox/OSCAR-KDO-外部探索融合方案.md
 - 30_wiki/frameworks/framework-yitang-oscar-research.md
