@@ -43,6 +43,27 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 
+RETRIEVAL_SIGNALS = [
+    "kdo query", "kdo-tools", "wiki", "检索", "知识库检索",
+    "cross-domain-patterns", "Read 30_wiki", "Read .agent",
+    "查了知识库", "查了wiki", "搜了wiki",
+]
+RETRIEVAL_DISCOVERY = [
+    "发现", "找到", "纠正", "之前不知道", "才知道",
+    "漏了", "没找到", "没有覆盖", "不存在",
+]
+
+
+def check_retrieval(content: str) -> dict:
+    """检查复盘中是否包含 wiki 检索行为（§10.4.1 要求）。"""
+    has_mention = any(sig.lower() in content.lower() for sig in RETRIEVAL_SIGNALS)
+    has_discovery = any(sig in content for sig in RETRIEVAL_DISCOVERY)
+    return {
+        "has_retrieval": has_mention,
+        "has_discovery": has_mention and has_discovery,
+    }
+
+
 def check_content_depth(content: str, size: int) -> dict:
     """检查复盘内容深度，返回等级和详情。"""
     chapters_found = [ch for ch in TEN_CHAPTERS if ch in content]
@@ -59,10 +80,16 @@ def check_content_depth(content: str, size: int) -> dict:
         blindspot_count = blindspot_section.count("\n") // 2  # rough estimate
         blindspot_has_why = any(kw in blindspot_section for kw in ["为什么漏", "为什么没", "根因", "原因"])
 
-    if size >= 3000 and chapter_count == 10 and blindspot_count >= 2 and blindspot_has_why:
+    retrieval = check_retrieval(content)
+
+    # A 级：≥3000B + 10章 + 盲点≥2且有追问 + 检索有发现（§10.4.1 A级要求）
+    if (size >= 3000 and chapter_count == 10
+            and blindspot_count >= 2 and blindspot_has_why
+            and retrieval["has_discovery"]):
         grade = "A"
         emoji = "🟢"
-    elif size >= 1500 and chapter_count >= 8:
+    # B 级：≥1500B + 8章以上 + 盲点≥1 + 至少提及检索（§10.4.1 B级要求）
+    elif size >= 1500 and chapter_count >= 8 and retrieval["has_retrieval"]:
         grade = "B"
         emoji = "🟡"
     else:
@@ -77,6 +104,7 @@ def check_content_depth(content: str, size: int) -> dict:
         "missing": missing,
         "blindspot_count": blindspot_count,
         "blindspot_has_why": blindspot_has_why,
+        "retrieval": retrieval,
     }
 
 
@@ -128,12 +156,23 @@ def print_report(results: list, today: str):
         elif r["status"] == "inactive":
             print(f"  {r['agent']:<28} ⏸️ 非活跃")
         elif r["grade"] == "A":
-            print(f"  {r['agent']:<28} 🟢 A级 ({r['size']}B) — {r['chapter_count']}/10章，盲点≥2且有追问")
+            retrieval_note = " 📚检索有发现" if r.get("retrieval", {}).get("has_discovery") else ""
+            print(f"  {r['agent']:<28} 🟢 A级 ({r['size']}B) — {r['chapter_count']}/10章，盲点≥2且有追问{retrieval_note}")
         elif r["grade"] == "B":
             missing_str = f"，缺{'、'.join(r['missing'][:3])}" if r['missing'] else ""
-            print(f"  {r['agent']:<28} 🟡 B级 ({r['size']}B) — {r['chapter_count']}/10章{missing_str}")
+            retrieval_note = " ✅已检索" if r.get("retrieval", {}).get("has_retrieval") else ""
+            print(f"  {r['agent']:<28} 🟡 B级 ({r['size']}B) — {r['chapter_count']}/10章{missing_str}{retrieval_note}")
         else:
-            why = "盲点未追问" if (r.get('blindspot_count', 0) > 0 and not r.get('blindspot_has_why')) else f"仅{r['size']}B"
+            reasons = []
+            if r.get('size', 0) < 1500:
+                reasons.append(f"仅{r['size']}B")
+            if r.get('chapter_count', 0) < 8:
+                reasons.append(f"仅{r.get('chapter_count', 0)}/10章")
+            if r.get('blindspot_count', 0) > 0 and not r.get('blindspot_has_why'):
+                reasons.append("盲点未追问")
+            if not r.get("retrieval", {}).get("has_retrieval"):
+                reasons.append("未检索wiki")
+            why = "、".join(reasons) if reasons else f"仅{r['size']}B"
             print(f"  {r['agent']:<28} 🔴 C级 ({r['size']}B) — {why}")
 
     print(f"  {'─' * 60}")

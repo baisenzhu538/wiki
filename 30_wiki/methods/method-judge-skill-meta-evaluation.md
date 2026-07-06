@@ -2,7 +2,7 @@
 id: method-judge-skill-meta-evaluation
 title: Judge Skill——评判 Skill 的 Skill：五维度元评估与3轮迭代法
 type: method
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

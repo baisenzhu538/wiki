@@ -1,18 +1,20 @@
 ---
 id: task_20260707_wangyuyan-judge-skill-meta-evaluation.md
 type: task
-status: in_progress
+status: reviewed
 assignee: hermes
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-07
-updated_at: '2026-07-06T18:28:14.045800+00:00'
+updated_at: '2026-07-06T18:36:51.099768+00:00'
 source_refs:
 - C:/Users/Administrator/Desktop/从知识库到agent.txt
 related:
 - '[[agent-spec-dual-triangle-canvas-filler]]'
 - '[[method-kdo-agent-design-meta]]'
 - '[[framework-yihang-dual-triangle-weapon-library]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-06'
 ---
 
 # 任务 #128：Judge Skill——KDO Agent/Skill 元评估 method 卡
