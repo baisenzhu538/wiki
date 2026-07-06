@@ -37,3 +37,14 @@ python kdo-tools/flywheel.py log --agent sales-dialogue-assistant --type ...
 # 上下文自动存到
 # 桌面/agent复盘/sales-dialogue-assistant/daily-context/
 ```
+
+## ⛔ 会话结束强制动作（不执行=会话未完成）
+
+每次会话结束前必须依次执行：
+
+1. **写 Truman 10章复盘** — 格式见 `C:\Users\Administrator\Desktop\wiki\agents\agent-os.md` §10.2（10章缺一不可）
+2. **保存** — 执行：
+   ```
+   python kdo-tools/daily-context-save.py save --agent sales-dialogue-assistant --truman --text "<你的 Truman 10章完整复盘内容>"
+   ```
+3. **自检** — 执行 `python kdo-tools/review-check.py --agent sales-dialogue-assistant`，确认输出为 B 级以上（🟢 或 🟡）

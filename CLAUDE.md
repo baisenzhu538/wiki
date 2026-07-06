@@ -24,7 +24,12 @@
 **!!! 每次会话快结束时，必须先回答三个问题再关会话：**
 1. **今天产生了什么新资产？** → 确保已写入 `30_wiki/`、`00_inbox/` 或 `10_raw/sources/`
 2. **今天发现了什么新问题/阻塞？** → 确保已写入 `.agent/context.md`（更新 active_task、进度、blockers）
-3. **下次启动最需要记住什么？** → 确保已写入桌面 `agent复盘/<角色>/daily_cognitive_review/每日复盘/YYYY-MM-DD.md`
+3. **下次启动最需要记住什么？** → 写入 Truman 10章复盘 → 执行：
+   ```
+   python kdo-tools/daily-context-save.py save --agent huangyaoshi --truman --text "<复盘内容>"
+   python kdo-tools/review-check.py --agent huangyaoshi
+   ```
+   复盘格式见 `agents/agent-os.md` §10.2。**不执行=会话未完成。**
 有新坑追加到 `pitfalls.md`。!!!
 
 **禁止用 Claude Code `/memory` 替代 `.agent/` 文件**。`/memory` 是工具私有记忆，换电脑/换工具就丢。`.agent/` 是项目公共记忆，跟着 git 走。后者是唯一真相源。
