@@ -278,11 +278,11 @@ footer{{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;padd
     print(f"   待领取: {counts['queued']}  |  审查中: {counts['pending']}  |  进行中: {counts['active']}  |  已完成: {counts['done']}")
 
 
-def main():
-    input_path = Path(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_INPUT
-    output_path = Path(sys.argv[2]) if len(sys.argv) > 2 else DEFAULT_OUTPUT
+def main(input_path=None, output_path=None):
+    input_path = Path(input_path) if input_path else DEFAULT_INPUT
+    output_path = Path(output_path) if output_path else DEFAULT_OUTPUT
     if not input_path.exists():
-        print(f"❌ 找不到 {input_path}")
+        print(f"❌ 找不到 {input_path}", file=sys.stderr)
         sys.exit(1)
     tasks = parse_queue(input_path)
     generate_html(tasks, output_path)

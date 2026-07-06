@@ -162,7 +162,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 123 | `task_20260707_wangyuyan-patch-76-tool-upgrade-trap` | #76 补充——工具升级陷阱 | reviewed | 老顽童(Kimi) | 1 个退化模式追加 | 无 | `60_feedback/tasks/task_20260707_wangyuyan-patch-76-tool-upgrade-trap.md` | P2：新退化模式+熙熙案例写入 dk-ai-collaboration-degradation-spiral |
 | 124 | `task_20260707_wangyuyan-oscar-enrichment` | ~~OSCAR 框架卡补齐~~ | closed_merged | — | — | 并入 #127 | — | 被飞书Agent融合方案替代 |
 | 125 | `task_20260707_wangyuyan-write-external-exploration-sop` | ~~external-exploration-sop~~ | closed_merged | — | — | 并入 #127 | — | 被 SOP v2 替代 |
-| 126 | `task_20260707_huangyaoshi-review-check-retrieval` | review-check.py 增加检索行为检查 | queued | 黄药师 | 1 个功能追加 | 无 | `60_feedback/tasks/task_20260707_huangyaoshi-review-check-retrieval.md` | P1：自动化验证 Agent 复盘是否包含检索行为 |
+| 126 | `task_20260707_huangyaoshi-review-check-retrieval` | review-check.py 增加检索行为检查 | reviewed | 黄药师 | 1 个功能追加 | 无 | `60_feedback/tasks/task_20260707_huangyaoshi-review-check-retrieval.md` | P1：check_retrieval函数+A/B/C三级门槛。欧阳锋终审通过 |
 | 127 | `task_20260707_wangyuyan-oscar-kdo-fusion` | OSCAR-KDO 融合——框架卡补齐+桥接卡+SOP v2 | reviewed | 老顽童 | 2 张卡补齐 + 1 张桥接卡 + SOP v2 | 无 | `60_feedback/tasks/task_20260707_wangyuyan-oscar-kdo-fusion.md` | P0：OSCAR前轻后重补KDO前三步 |
 | 128 | `task_20260707_wangyuyan-judge-skill-meta-evaluation` | Judge Skill——KDO Agent/Skill 元评估 method 卡 | reviewed | 老顽童 | 1 张 method | 无 | `60_feedback/tasks/task_20260707_wangyuyan-judge-skill-meta-evaluation.md` | P1：蓝鱼Judge Skill方法论——五维度打分（标准/边界/坑/约束/门控），30分→95分3轮迭代 |
 | 129 | `task_20260707_wangyuyan-skill-seven-elements-upgrade` | Skill/Agent-spec 七要素升级 dk 卡 | claimed-hermes | 老顽童 | 1 张 dk | 无 | `60_feedback/tasks/task_20260707_wangyuyan-skill-seven-elements-upgrade.md` | P2：蓝鱼Skill七要素。KDO agent-spec缺纠错和小循环 |

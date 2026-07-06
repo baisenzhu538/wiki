@@ -40,6 +40,23 @@ sys.path.insert(0, str(SCRIPT_DIR))
 from queue_gate import QUEUE_PATH, can_claim, find_task, parse_queue
 from queue_lock import QueueLock
 
+# 看板自动刷新
+import importlib.util
+_dash_spec = importlib.util.spec_from_file_location(
+    "generate_dashboard",
+    str(Path(__file__).resolve().parent.parent.parent / "kdo-tools" / "generate-dashboard.py")
+)
+_gen_dash = importlib.util.module_from_spec(_dash_spec)
+_dash_spec.loader.exec_module(_gen_dash)
+
+
+def _refresh_dashboard():
+    """队列变更后自动刷新 dashboard.html。"""
+    try:
+        _gen_dash.main()
+    except Exception:
+        pass  # 看板刷新失败不阻塞队列操作
+
 TASK_DIR = Path(__file__).resolve().parent.parent.parent / "60_feedback" / "tasks"
 BATCH_DIR = Path(__file__).resolve().parent.parent.parent / "70_product" / "tasks"
 
@@ -376,6 +393,8 @@ def main() -> int:
         return 1
 
     print(msg)
+    if ok:
+        _refresh_dashboard()
     return 0 if ok else 1
 
 

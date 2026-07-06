@@ -113,6 +113,29 @@ Hermes 老顽童批量产出（尽力深挖，通过质量闸门后提交）
 
 **不写等级=审查未完成。** 审查结论必须包含：等级 + 通过维度 + 改进点。
 
+## ⚠️ 终审三处同步（2026-07-07 强制门禁）
+
+**终审通过后必须检查三处状态一致，缺一不叫"审完"：**
+
+1. **任务单 frontmatter**：`status: reviewed` / `reviewed_by: 欧阳锋` / `review_date: YYYY-MM-DD`
+2. **production-queue.md 状态列**：`reviewed`
+3. **dashboard.md**（有新增任务时）
+
+**标准流程**：
+```bash
+# 优先走脚本（同步前两处）
+python 90_control/scripts/queue_transition.py review <task-id> --verdict pass --reviewer 欧阳锋
+
+# 脚本跑不通时手动修三处，并在任务单末尾加 <!-- 手动终审：原因 --> 注释
+```
+
+**常见脚本失败场景**：
+- 任务不在 production-queue.md 中 → 手动更新任务单 + 看板，队列不用加
+- 队列状态是 `queued` 不是 `pending_review` → 手动改任务单和队列两处
+- 子任务（如 #68-P0）→ 只改任务单，队列不加
+
+**禁止**：审完了只改任务单不改队列。这是最近 3 次卡住老顽童的根因。违反此条=Agent 被阻塞。
+
 ## ⚠️ 终审操作必须通过 queue_transition.py（2026-06-30 补丁）
 
 欧阳锋**禁止**手动修改 `production-queue.md` 的「状态」列或任务单的 `status` 字段。所有终审状态变更必须通过：

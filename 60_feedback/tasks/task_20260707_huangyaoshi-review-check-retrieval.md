@@ -1,9 +1,11 @@
 ---
 id: task_20260707_huangyaoshi-review-check-retrieval
 type: task
-status: queued
+status: reviewed
 assignee: 黄药师
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
+review_date: 2026-07-07
 priority: P1
 created_at: 2026-07-07
 updated_at: 2026-07-07
