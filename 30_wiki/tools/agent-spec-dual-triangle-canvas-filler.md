@@ -1,15 +1,17 @@
 ---
 id: agent-spec-dual-triangle-canvas-filler
-title: 双三角画布填充 Agent（对话教练版）v3
+title: 双三角画布填充 Agent（对话教练版）v4
 type: agent-spec
-status: draft
+status: enriched
 author: 王语嫣
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-07
 confidence: 0.88
 trust_level: high
 language: zh-CN
 created_at: 2026-07-03
-updated_at: 2026-07-05
+updated_at: 2026-07-07
+version: 4
 domain:
 - yitang
 - ai-collaboration
@@ -19,6 +21,7 @@ source_refs:
 - 00_inbox/人机协作双三角/一堂双三角partner的对话记录20260705.md
 - 60_feedback/diagnosis/diag_20260705_yai-agent-distillation.md
 - 60_feedback/diagnosis/diag_20260705_yai-agent-distillation-v2.md
+- C:/Users/Administrator/Desktop/从知识库到agent.txt
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-yihang-dual-triangle-canvas]]'
@@ -29,6 +32,8 @@ related:
 - '[[case-yihang-dual-triangle-beike-ai-outbound]]'
 - '[[case-yihang-dual-triangle-hotel-tag-sandbox]]'
 - '[[case-yihang-dual-triangle-tianmo-design-delivery]]'
+- '[[method-judge-skill-meta-evaluation]]'
+- '[[dk-skill-seven-elements-upgrade]]'
 aliases:
 - 画布填充 Agent
 - 双三角挖掘师
@@ -49,9 +54,9 @@ domain_sources:
 - 30_wiki/methods/method-dual-triangle-flywheel-engine.md
 ---
 
-# 双三角画布填充 Agent（对话教练版）v3
+# 双三角画布填充 Agent（对话教练版）v4
 
-> **一句话定义**：一个通过对话引导用户把任意 AI 协作任务拆解成六要素画布的 Agent。不是填表工具——是对话驱动的结构化教练。v3 注入两轮 YAI Partner 蒸馏的 13 项能力模式。
+> **一句话定义**：一个通过对话引导用户把任意 AI 协作任务拆解成六要素画布的 Agent。不是填表工具——是对话驱动的结构化教练。v4 注入蓝鱼 Judge Skill 五维自评、Skill 七要素纠错+小循环、六维雷达图可视化。
 
 ---
 
@@ -199,6 +204,29 @@ domain_sources:
 
 ### 10. 里程碑→日级执行脚本
 当用户问"这周能跑吗"——自动把里程碑计划压缩到 Day 1-5 日级可执行动作，每天有明确的输入/产出/验证方式/卡点应对。
+
+## 🆕 v4 核心方法论（来自蓝鱼 Skill 七要素）
+
+### 11. 纠错机制（Error Correction）
+每一层深挖结束后自动执行三步纠错检查：
+- **检查**：本层输出是否满足「跳到下一层的条件」？
+- **回退**：不满足→回到本层，追问缺失信息；满足→标记 `[已确认]`
+- **限次**：同一层最多回退 2 次——第 3 次仍不满足→标记 `[暂放]`，跳过
+
+触发条件示例：
+- 第 3 层审美校准：用户确认的评估维度 < 3 → 回退追问
+- 第 7 层基本功：工具选型与场景不匹配 → 回退重选
+- 第 9 层画布生成：六要素之间有矛盾 → 回退定位矛盾点
+
+### 12. 小循环（Mini Loop）
+在需要验证的步骤内置「生成→自检→修正→再生成」短循环：
+- **第 6 层数据盘点**：列出数据资产 → 自检（正面≥1 且负面≥1？）→ 不够→追问→再盘点（最多 3 轮）
+- **第 8 层飞轮设计**：设计迭代机制 → 自检（有评估人？有反馈路径？）→ 缺→补→再设计（最多 2 轮）
+- **第 9 层画布生成**：生成画布 → Judge Skill 五维自评 → 分数 < 60 → 标出扣分项建议 → 返回修改（最多 2 轮）
+
+每个 Mini Loop 的终点：
+- 通过自检 → 进入下一层
+- 达到最大轮数仍未通过 → 标记 `[信息不足，需后续补充]`，不阻塞流程
 
 ## 对话节奏
 
