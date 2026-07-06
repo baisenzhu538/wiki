@@ -34,26 +34,13 @@ updated: 2026-06-23
 - **Sprint 5**（validate→ship 闭环）：⏸️ 欧阳锋裁定暂缓
 - **当前**：Data Curator Skill v1.0 方案已批准，pilot dry-run 完成。方案：`30_wiki/decisions/plan_20260531_data-curator-v1.md`。Skill：`40_outputs/capabilities/skills/data-curator/`
 
-## 自动复盘流程
+## 复盘（强制门禁）
 
-**触发词**：用户说"复盘"、"复盘一下"、"总结一下今天"、"今天的工作"。
+**统一使用 agent-os.md §10（Truman YAI复盘法 v2.0）——不再使用6文件体系。**
 
-**执行流程**：自动加载 `huangyaoshi/daily_cognitive_review/` 目录，生成/更新 6 个文件：
+会话结束前必须执行：跑 Truman 10章复盘 → `daily-context-save.py save --agent huangyaoshi` → 存入 `agent复盘/huangyaoshi/daily-context/YYYY-MM-DD.md`
 
-| # | 文件 | 更新方式 |
-|:--:|------|------|
-| 1 | `索引.md` | 更新日期、累计天数、统计、最近7天表 |
-| 2 | `错误模式库.md` | 新错误追加行；已有错误更新次数和日期 |
-| 3 | `技能进化日志.md` | 最上方追加当天 Keep/Improve/Add/Stop |
-| 4 | `能力雷达图.md` | 追加当天评分行（6维度：基础设施/协议调试/工具集成/架构/诊断/元认知） |
-| 5 | `用户反馈档案.md` | 有新反馈则追加行 |
-| 6 | `每日复盘/YYYY-MM-DD.md` | 新建：概要+关键决策+思维盲点+顿悟+过程资产+元反思 |
-
-**核心原则**：
-- 诚实优先。无新错误就写"无"，不编造
-- 元反思必须回答"下次怎么做才能不一样"
-- 能力评分必须诚实，可有波动
-- 同步到桌面 `agent复盘/黄药师/daily_cognitive_review/`
+> 格式、时机、质量等级、审计流程全部见 `agents/agent-os.md` §10。本文件不再定义独立模板。
 
 ## 依赖——不要动
 
@@ -68,7 +55,7 @@ updated: 2026-06-23
 每次会话结束前，必须先回答再关（CLAUDE.md 已有，此处为备份）：
 1. **今天产生了什么新资产？** → KDO CLI 代码/工具/脚本确认已提交；方案/设计文档确认已入 `30_wiki/decisions/`
 2. **今天发现了什么新问题/阻塞？** → 更新 `.agent/context.md` 的 active_task 和 blockers
-3. **下次启动最需要记住什么？** → 写入桌面 `agent复盘/黄药师/daily_cognitive_review/每日复盘/YYYY-MM-DD.md`（6 文件全更新）
+3. **下次启动最需要记住什么？** → 写入桌面 `agent复盘/huangyaoshi/daily-context/YYYY-MM-DD.md`（Truman 10章复盘，格式见 agent-os.md §10）
 
 ## 铁律（2026-06-12 教训）
 

@@ -1,25 +1,176 @@
 #!/usr/bin/env python3
-"""Agent 复盘检查——一眼看出谁复盘了、谁没复盘。"""
+"""Agent 复盘检查 v2 — 格式统一 + 内容深度验证 + 审计日报。
+
+Usage:
+  python kdo-tools/review-check.py          # 全量检查，输出审计日报
+  python kdo-tools/review-check.py --json   # JSON 输出，供脚本消费
+  python kdo-tools/review-check.py --agent huangyaoshi  # 单 Agent 检查
+"""
+
+import json
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 REVIEW_DIR = Path.home() / "Desktop" / "agent复盘"
 
-AGENTS = ["huangyaoshi", "wangyuyan", "laowantong", "ouyangfeng", "sales-dialogue-assistant"]
+# Agent ID 映射：程序ID → (中文名, 是否活跃)
+AGENTS = {
+    "huangyaoshi":              ("黄药师", True),
+    "wangyuyan":                ("王语嫣", True),
+    "laowantong":               ("老顽童", True),
+    "ouyangfeng":               ("欧阳锋", True),
+    "hongqigong":               ("洪七公", True),
+    "duanwangye":               ("段王爷", True),
+    "sales-dialogue-assistant": ("销售对话参谋", True),
+}
 
-today = datetime.now().strftime("%Y-%m-%d")
+# Truman 10章必须标题（用于格式完整性检查）
+TEN_CHAPTERS = [
+    "概要",
+    "关键决策",
+    "思维盲点",
+    "顿悟",
+    "过程资产",
+    "元反思",
+    "逐轮映射",
+    "飞轮效应",
+    "对照实验",
+    "下次改进",
+]
 
-print(f"Agent 复盘检查 — {today}\n")
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
-for agent in AGENTS:
-    d = REVIEW_DIR / agent / "daily-context"
-    f = d / f"{today}.md"
-    if f.exists():
-        size = f.stat().st_size
-        content = f.read_text(encoding="utf-8", errors="ignore")
-        has_truman = "逐轮映射" in content or "对照实验" in content or "飞轮效应" in content
-        status = "✅ Truman格式" if has_truman else "⚠️ 旧格式"
-        print(f"  {agent:<30} {status} ({size}B)")
+
+def check_content_depth(content: str, size: int) -> dict:
+    """检查复盘内容深度，返回等级和详情。"""
+    chapters_found = [ch for ch in TEN_CHAPTERS if ch in content]
+    chapter_count = len(chapters_found)
+    missing = [ch for ch in TEN_CHAPTERS if ch not in content]
+
+    # 检查盲点是否追问了"为什么"
+    blindspot_has_why = False
+    blindspot_count = 0
+    if "思维盲点" in content:
+        bs_start = content.find("思维盲点")
+        bs_end = content.find("##", bs_start + 1) if content.find("##", bs_start + 1) > 0 else len(content)
+        blindspot_section = content[bs_start:bs_end]
+        blindspot_count = blindspot_section.count("\n") // 2  # rough estimate
+        blindspot_has_why = any(kw in blindspot_section for kw in ["为什么漏", "为什么没", "根因", "原因"])
+
+    if size >= 3000 and chapter_count == 10 and blindspot_count >= 2 and blindspot_has_why:
+        grade = "A"
+        emoji = "🟢"
+    elif size >= 1500 and chapter_count >= 8:
+        grade = "B"
+        emoji = "🟡"
     else:
-        print(f"  {agent:<30} ❌ 未复盘")
+        grade = "C"
+        emoji = "🔴"
+
+    return {
+        "grade": grade,
+        "emoji": emoji,
+        "size": size,
+        "chapter_count": chapter_count,
+        "missing": missing,
+        "blindspot_count": blindspot_count,
+        "blindspot_has_why": blindspot_has_why,
+    }
+
+
+def check_agent(agent_id: str, today: str) -> dict:
+    """检查单个 Agent 的复盘状态。"""
+    cn_name, active = AGENTS.get(agent_id, (agent_id, True))
+
+    if not active:
+        return {"agent": agent_id, "cn_name": cn_name, "status": "inactive", "grade": None}
+
+    f = REVIEW_DIR / agent_id / "daily-context" / f"{today}.md"
+
+    if not f.exists():
+        return {"agent": agent_id, "cn_name": cn_name, "status": "missing", "grade": None, "emoji": "❌", "size": 0}
+
+    try:
+        content = f.read_text(encoding="utf-8", errors="ignore")
+        size = f.stat().st_size
+    except Exception:
+        return {"agent": agent_id, "cn_name": cn_name, "status": "error", "grade": None, "emoji": "❌", "size": 0}
+
+    depth = check_content_depth(content, size)
+    return {
+        "agent": agent_id,
+        "cn_name": cn_name,
+        "status": "ok",
+        **depth,
+    }
+
+
+def print_report(results: list, today: str):
+    """输出审计日报（人读格式）。"""
+    ok = [r for r in results if r["status"] == "ok"]
+    missing = [r for r in results if r["status"] == "missing"]
+    inactive = [r for r in results if r["status"] == "inactive"]
+
+    a_count = sum(1 for r in ok if r["grade"] == "A")
+    b_count = sum(1 for r in ok if r["grade"] == "B")
+    c_count = sum(1 for r in ok if r["grade"] == "C")
+    total_active = len(results) - len(inactive)
+
+    print(f"Agent 复盘审计 — {today}\n")
+
+    for r in results:
+        if r["status"] == "missing":
+            print(f"  {r['agent']:<28} ❌ 未复盘")
+        elif r["status"] == "error":
+            print(f"  {r['agent']:<28} ❌ 读取失败")
+        elif r["status"] == "inactive":
+            print(f"  {r['agent']:<28} ⏸️ 非活跃")
+        elif r["grade"] == "A":
+            print(f"  {r['agent']:<28} 🟢 A级 ({r['size']}B) — {r['chapter_count']}/10章，盲点≥2且有追问")
+        elif r["grade"] == "B":
+            missing_str = f"，缺{'、'.join(r['missing'][:3])}" if r['missing'] else ""
+            print(f"  {r['agent']:<28} 🟡 B级 ({r['size']}B) — {r['chapter_count']}/10章{missing_str}")
+        else:
+            why = "盲点未追问" if (r.get('blindspot_count', 0) > 0 and not r.get('blindspot_has_why')) else f"仅{r['size']}B"
+            print(f"  {r['agent']:<28} 🔴 C级 ({r['size']}B) — {why}")
+
+    print(f"  {'─' * 60}")
+    print(f"  覆盖率：{len(ok)}/{total_active}   A级率：{a_count}/{total_active}   B级以上：{a_count + b_count}/{total_active}")
+
+    # 连续达标追踪
+    if len(missing) == 0 and c_count == 0:
+        print(f"  🏆 全 Agent 复盘达标（B 级以上）")
+    else:
+        if missing:
+            names = ", ".join(r["cn_name"] for r in missing)
+            print(f"  ⚠️ 未复盘：{names}")
+        if c_count > 0:
+            names = ", ".join(r["cn_name"] for r in ok if r["grade"] == "C")
+            print(f"  ⚠️ 形式主义：{names}")
+
+    return 0 if len(missing) == 0 and c_count == 0 else 1
+
+
+def main():
+    today = datetime.now().strftime("%Y-%m-%d")
+    use_json = "--json" in sys.argv
+    single_agent = None
+
+    for i, arg in enumerate(sys.argv):
+        if arg == "--agent" and i + 1 < len(sys.argv):
+            single_agent = sys.argv[i + 1]
+
+    agents_to_check = [single_agent] if single_agent else list(AGENTS.keys())
+    results = [check_agent(a, today) for a in agents_to_check]
+
+    if use_json:
+        print(json.dumps({"date": today, "results": results}, ensure_ascii=False, indent=2))
+    else:
+        rc = print_report(results, today)
+        sys.exit(rc)
+
+
+if __name__ == "__main__":
+    main()

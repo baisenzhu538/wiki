@@ -236,4 +236,4 @@ reviewed_by: 欧阳锋
 每次会话结束前，必须先回答再关（CLAUDE.md 已有，此处为备份）：
 1. **今天产生了什么新资产？** → 新卡片/文章确认已入 `30_wiki/`，源文件确认已归档 `10_raw/sources/`
 2. **今天发现了什么新问题/阻塞？** → 更新 `.agent/context.md` 的 blockers
-3. **下次启动最需要记住什么？** → 写入桌面 `agent复盘/老顽童/daily_cognitive_review/每日复盘/YYYY-MM-DD.md`
+3. **下次启动最需要记住什么？** → 写入桌面 `agent复盘/laowantong/daily-context/YYYY-MM-DD.md`（Truman 10章复盘，格式见 agent-os.md §10）

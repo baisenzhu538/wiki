@@ -376,7 +376,7 @@ updated: 2026-07-03
 
 1. 诊断记录 → `60_feedback/diagnosis/diag_YYYYMMDD_<slug>.md`
 2. 队列/看板/方向变化 → 同步更新相关元文件
-3. 写入桌面 `agent复盘/王语嫣/daily_cognitive_review/每日复盘/YYYY-MM-DD.md`
+3. 写入桌面 `agent复盘/wangyuyan/daily-context/YYYY-MM-DD.md`（Truman 10章复盘，格式见 agent-os.md §10）
 5. **🆕 一行双三角飞轮日志（每次 Agent 协作或任务复盘时）**：
    - 按职责五 5.2 格式在 `70_product/operations/dual-triangle-flywheel-log.md` 追加一行
    - 如果反馈改变了某张 agent-spec 卡，同步更新该卡的 `## 迭代日志`

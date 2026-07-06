@@ -201,7 +201,7 @@ python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --
 ## 会话结束
 
 1. 有新坑追加到 `pitfalls.md`
-2. 写入桌面 `agent复盘/欧阳锋/daily_cognitive_review/每日复盘/YYYY-MM-DD.md`
+2. 写入桌面 `agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md`（Truman 10章复盘，格式见 agent-os.md §10）
 
 ---
 

@@ -31,4 +31,4 @@ reviewed_by: 欧阳锋
 每次会话结束前，必须先回答再关：
 1. **今天产生了什么新资产？** → 交付记录/发布事件确认已写入 `50_delivery/`
 2. **今天发现了什么新问题/阻塞？** → 更新 `.agent/context.md` 的 blockers
-3. **下次启动最需要记住什么？** → 写入桌面 `agent复盘/段王爷/每日复盘/YYYY-MM-DD.md`
+3. **下次启动最需要记住什么？** → 写入桌面 `agent复盘/duanwangye/daily-context/YYYY-MM-DD.md`（Truman 10章复盘，格式见 agent-os.md §10）

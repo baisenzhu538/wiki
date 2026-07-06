@@ -31,4 +31,4 @@ updated: 2026-05-24
 每次会话结束前，必须先回答再关：
 1. **今天产生了什么新资产？** → 视觉资产/OCR 结果/设计稿确认已放入对应目录
 2. **今天发现了什么新问题/阻塞？** → 更新 `.agent/context.md` 的 blockers
-3. **下次启动最需要记住什么？** → 写入桌面 `agent复盘/洪七公/每日复盘/YYYY-MM-DD.md`
+3. **下次启动最需要记住什么？** → 写入桌面 `agent复盘/hongqigong/daily-context/YYYY-MM-DD.md`（Truman 10章复盘，格式见 agent-os.md §10）
