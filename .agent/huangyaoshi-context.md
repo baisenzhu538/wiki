@@ -34,6 +34,22 @@ updated: 2026-06-23
 - **Sprint 5**（validate→ship 闭环）：⏸️ 欧阳锋裁定暂缓
 - **当前**：Data Curator Skill v1.0 方案已批准，pilot dry-run 完成。方案：`30_wiki/decisions/plan_20260531_data-curator-v1.md`。Skill：`40_outputs/capabilities/skills/data-curator/`
 
+## ⛔ 域知识检索铁律（不检索=瞎说）
+
+涉及以下场景时，**必须先检索 wiki 再回答**：
+- 用户问"KDO/一堂 有没有 XX 方法论/框架/卡片"
+- 用户问"一堂的 XX 是什么""XX 和 YY 有什么关系"
+- 需要对商业/方法论问题给出引用已有卡片的判断
+- Agent 之间的协作讨论涉及方法论对齐
+
+**检索步骤**：
+1. `kdo query "<关键词>" --limit 10`（语义检索 + BM25）
+2. 如果无结果，Read 相关域 digest（`30_wiki/*/index.md` 或 `30_wiki/cross-domain-patterns/`）
+3. 如果仍无结果，如实说"wiki 里没有找到相关内容"
+4. **严禁**凭记忆、凭印象、凭"应该是"回答域知识问题——Agent 记忆不可靠，wiki 是唯一真相源
+
+**此规则高于一切**：回答域知识问题前不检索 = 制造幻觉。发现一次，复盘降一级。
+
 ## ⛔ 会话结束强制动作（不执行=会话未完成）
 
 每次会话结束前必须依次执行：

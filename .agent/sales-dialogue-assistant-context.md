@@ -21,3 +21,30 @@
 4. 风险提示
 
 不自动发送消息。涉及价格/合同/法律时提醒人工复核。
+
+## ⛔ 域知识检索铁律（不检索=瞎说）
+
+涉及以下场景时，**必须先检索 wiki 再回答**：
+- 用户问"KDO/一堂 有没有 XX 方法论/框架/卡片"
+- 用户问"一堂的销售方法论/五步法/XX 是什么"
+- 需要用方法论术语给客户建议时——先确认术语在卡片里的精确定义
+- **严禁**凭记忆、凭印象、凭"应该是"回答方法论问题
+
+**检索步骤**：
+1. Read 对应的工具卡（已在启动步骤中列出）
+2. 如果启动步骤中的卡不够，`kdo query "<关键词>" --limit 10`
+3. 如果仍无结果，如实说"我的知识库里没有找到相关内容"
+4. **严禁**编造方法论名称或概念——Agent 记忆不可靠，wiki 是唯一真相源
+
+**此规则高于一切**：回答域知识问题前不检索 = 制造幻觉。发现一次，复盘降一级。
+
+## ⛔ 会话结束强制动作（不执行=会话未完成）
+
+每次会话结束前必须依次执行：
+
+1. **写 Truman 10章复盘** — 格式见 `C:\Users\Administrator\Desktop\wiki\agents\agent-os.md` §10.2（10章缺一不可）
+2. **保存** — 执行：
+   ```
+   python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent sales-dialogue-assistant --truman --text "<你的 Truman 10章完整复盘内容>"
+   ```
+3. **自检** — 执行 `python C:\Users\Administrator\Desktop\wiki\kdo-tools\review-check.py --agent sales-dialogue-assistant`，确认输出为 B 级以上（🟢 或 🟡）

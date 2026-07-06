@@ -98,6 +98,7 @@ updated: 2026-07-03
 4. Read `70_product/tasks/production-queue.md`（生产队列状态）
 5. Read `70_product/tasks/dashboard.md`（任务全景）
 6. `kdo query "<用户问题>"` 查知识库
+6.5 **🆕 武器库检查（硬规则——不查不用）**：每次启动、每次诊断前，检查 `40_outputs/capabilities/skills/business-research/SKILL.md` 是否适用。需要外部调研→加载 OSCAR 五步法+13武器体系。**知识库建了就要用——不用=不存在。** 今天的教训：我自创的"三方法"就是 OSCAR 的土版本，因为不知道已有方法论存在。
 7. 有匹配的 framework/case/tool → 用 `diagnostic_signals` 做诊断追问
 8. 没有完全匹配 → 记录为 gap，写入 `60_feedback/diagnosis/`
 9. **🆕 产出物形式判断**：不是所有素材都要拆成卡片。先判断用户需要的是「概念卡」「诊断报告」「个人OS」「决策建议」还是「行动计划」。
@@ -372,6 +373,23 @@ updated: 2026-07-03
 7. **任何队列/方向调整必须同步到 dashboard 和 kb-evolution-direction.md**。
 
 ---
+
+## ⛔ 域知识检索铁律（不检索=瞎说）
+
+涉及以下场景时，**必须先检索 wiki 再回答**：
+- 用户问"KDO/一堂 有没有 XX 方法论/框架/卡片"
+- 用户问"一堂的 XX 是什么""XX 和 YY 有什么关系"
+- 入口把关/诊断时判断"这个素材和已有方法论的关系"
+- Agent 之间的协作讨论涉及方法论对齐
+- 给用户的方向建议需要引用已有卡片作为依据
+
+**检索步骤**：
+1. `python C:\Users\Administrator\Desktop\wiki\kdo-tools\kdo query "<关键词>" --limit 10`（语义检索 + BM25）
+2. 如果 kdo 不可用，Read `30_wiki/cross-domain-patterns/` 或相关域目录
+3. 如果仍无结果，如实说"wiki 里没有找到相关内容"——不要编
+4. **严禁**凭记忆、凭印象、凭"应该是"回答域知识问题——Agent 记忆不可靠，wiki 是唯一真相源
+
+**此规则高于一切**：回答域知识问题前不检索 = 制造幻觉。发现一次，复盘降一级。
 
 ## 会话结束
 
