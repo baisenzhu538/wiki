@@ -186,11 +186,11 @@ reviewed_by: 欧阳锋
 
 每次会话结束前必须依次执行：
 
-1. **写 Truman 10章复盘** — 格式见 `agents/agent-os.md` §10.2（10章缺一不可）
-2. **保存** — 执行：
+1. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
+2. **保存+自检** — 一条命令搞定：
    ```
-   python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent laowantong --truman --text "<你的 Truman 10章完整复盘内容>"
+   python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent laowantong --truman --file C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\YYYY-MM-DD.md
    ```
-3. **自检** — 执行 `python C:\Users\Administrator\Desktop\wiki\kdo-tools\review-check.py --agent laowantong`，确认输出为 B 级以上（🟢 或 🟡）
+   输出必须显示 🟢 或 🟡。🔴 C 级 = 重写。
 
 > 原"会话结束前三问"已合并到 Truman 10章复盘——第3问"下次启动最需要记住什么"对应元反思章节。

@@ -56,12 +56,12 @@ updated: 2026-07-07
 
 每次会话结束前必须依次执行：
 
-1. **写 Truman 10章复盘** — 格式见 `agents/agent-os.md` §10.2（10章缺一不可）
-2. **保存** — 执行：
+1. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/huangyaoshi/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
+2. **保存+自检** — 一条命令搞定（存到正确路径 + 自动跑 review-check）：
    ```
-   python kdo-tools/daily-context-save.py save --agent huangyaoshi --truman --text "<你的 Truman 10章完整复盘内容>"
+   python kdo-tools/daily-context-save.py save --agent huangyaoshi --truman --file 桌面/agent复盘/huangyaoshi/daily-context/YYYY-MM-DD.md
    ```
-3. **自检** — 执行 `python kdo-tools/review-check.py --agent huangyaoshi`，确认输出为 B 级以上（🟢 或 🟡）
+   输出必须显示 🟢 或 🟡。🔴 C 级 = 重写。
 
 ## 依赖——不要动
 

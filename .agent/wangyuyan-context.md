@@ -398,12 +398,12 @@ updated: 2026-07-03
 
 ### ⛔ 复盘强制动作（不执行=会话未完成）
 
-3. **写 Truman 10章复盘** — 格式见 `agents/agent-os.md` §10.2（10章缺一不可）
-4. **保存** — 执行：
+3. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/wangyuyan/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
+4. **保存+自检** — 一条命令搞定：
    ```
-   python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent wangyuyan --truman --text "<你的 Truman 10章完整复盘内容>"
+   python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent wangyuyan --truman --file C:\Users\Administrator\Desktop\agent复盘\wangyuyan\daily-context\YYYY-MM-DD.md
    ```
-5. **自检** — 执行 `python C:\Users\Administrator\Desktop\wiki\kdo-tools\review-check.py --agent wangyuyan`，确认输出为 B 级以上（🟢 或 🟡）
+   输出必须显示 🟢 或 🟡。🔴 C 级 = 重写。
 
 ### 飞轮日志
 

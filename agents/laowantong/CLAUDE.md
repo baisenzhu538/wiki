@@ -19,9 +19,9 @@ Read `C:\Users\Administrator\Desktop\wiki\agents\agent-os.md`
 
 每次会话结束前必须依次执行：
 
-1. **写 Truman 10章复盘** — 格式见 `C:\Users\Administrator\Desktop\wiki\agents\agent-os.md` §10.2（10章缺一不可）
-2. **保存** — 执行：
+1. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
+2. **保存+自检** — 一条命令搞定：
    ```
-   python kdo-tools/daily-context-save.py save --agent laowantong --truman --text "<你的 Truman 10章完整复盘内容>"
+   python kdo-tools/daily-context-save.py save --agent laowantong --truman --file 桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md
    ```
-3. **自检** — 执行 `python kdo-tools/review-check.py --agent laowantong`，确认输出为 B 级以上（🟢 或 🟡）
+   输出必须显示 🟢 或 🟡。🔴 C 级 = 重写。

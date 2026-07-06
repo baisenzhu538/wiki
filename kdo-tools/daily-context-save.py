@@ -89,10 +89,13 @@ def now_iso():
 def _run_review_check(agent: str) -> str:
     """运行 review-check.py 并返回等级字符串。"""
     try:
-        import review_check
-        from datetime import datetime as dt
-        today = dt.now().strftime("%Y-%m-%d")
-        result = review_check.check_agent(agent, today)
+        import importlib.util
+        rc_path = Path(__file__).parent / "review-check.py"
+        spec = importlib.util.spec_from_file_location("review_check", str(rc_path))
+        rc = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(rc)
+        today = datetime.now().strftime("%Y-%m-%d")
+        result = rc.check_agent(agent, today)
         if result["status"] != "ok":
             return "❌ 未复盘"
         g = result.get("grade", "?")
