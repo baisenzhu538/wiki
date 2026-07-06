@@ -2,16 +2,16 @@
 id: framework-yitang-oscar-research
 title: OSCAR调研模型：从目标锁定到正确归因的五步法
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
-review_date: 2026-06-20
+reviewed_by: 欧阳锋
+review_date: 2026-07-07
 quality_labels:
   - cited
   - principle
   - validated
 created_at: 2026-06-20
-updated_at: 2026-06-20
+updated_at: 2026-07-07
 confidence: 0.9
 trust_level: high
 language: zh-CN
@@ -22,12 +22,12 @@ difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 怎么做调研
+- 行业研究用什么框架
+- 竞品分析流程
+- 尽职调查步骤
+- 市场进入调研
+- 如何验证调研结论
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
@@ -39,14 +39,21 @@ related:
 - "[[yt-research-osl-framework]]"
 - "[[concept-yitang-research-scope]]"
 - "[[framework-yitang-high-level-plan]]"
-- "[[framework-yitang-high-level-plan]]"
-- "[[framework-yitang-high-level-execution]]"
-- "[[framework-yitang-four-research-types]]"
 - "[[framework-yitang-research-radar]]"
 - "[[concept-yitang-research-objective]]"
-- "[[concept-yitang-research-scope]]"
-- "[[yt-research-osl-framework]]"
-
+- "[[method-kdo-external-exploration-sop]]"
+- "[[tool-oscar-kdo-external-exploration]]"
+- "[[yt-research-weaponry-course]]"
+diagnostic_signals:
+- signal: 调研启动时无法一句话说清"这次调研要回答什么问题"
+  lens: O步骤缺失——目标未锁定
+  follow-up: 强制用四种类型（选择题/解答题/设计题/竞争题）分类后重试
+- signal: 搜索方向超过5个，跨了宏观/中观/微观多个层面
+  lens: S步骤失控——范围未缩小
+  follow-up: 写剥离清单，明确"本次不搜什么"
+- signal: 每次外部探索用的都是同一套搜索词
+  lens: C步骤僵化——清单套模板
+  follow-up: 根据本次目标重新设计关键词和来源类型
 ---
 
 # OSCAR调研模型：从目标锁定到正确归因的五步法
@@ -80,14 +87,14 @@ R - Reasoning  正确归因     "怎么判断情报是否可信？"
 ### 核心原则：调研是解答题，不是了解题
 
 **错误目标**：
-- src_unknown
-- src_unknown
-- src_unknown
+- "了解一下XX行业"——无决策指向，调研无终点
+- "看看竞品在做什么"——目的不明确，看不出什么算完成
+- "我感兴趣想学学"——纯个人学习，不需要调研方法论的强制约束
 
 **正确目标**：
-- src_unknown
-- src_unknown
-- src_unknown
+- "A、B、C三个市场，选哪个进入？"——选择题，需要选项对比表
+- "为什么用户流失率从5%升到15%？"——解答题，需要根因分析
+- "如何设计一个面向老年人的App？"——设计题，需要方案+验证计划
 
 ### 四种调研目标类型
 
@@ -105,16 +112,16 @@ R - Reasoning  正确归因     "怎么判断情报是否可信？"
 ### 三原则：专注·专业·剥离
 
 **专注原则**：一次只解决一个核心问题
-- src_unknown
-- src_unknown
+- 用"不知道这个信息，决策会错吗？"筛选——答"不会"的砍掉
+- 如果调研不改变决策方向，就不是核心问题
 
 **专业原则**：调研深度要匹配决策重要性
-- src_unknown
-- src_unknown
+- 几万块的小决策，不值得用几十小时调研
+- 几千万的战略决策，"差不多就行"的调研等于没做
 
 **剥离原则**：剥离与核心问题无关的信息
-- src_unknown
-- src_unknown
+- 写"剥离清单"——明确记录"本次不调研什么"，防止范围在过程中悄悄扩大
+- 每发现一条有趣但无关的信息，记入"停车区"而非当场深追
 
 ### 四个调研层面
 
@@ -132,19 +139,19 @@ R - Reasoning  正确归因     "怎么判断情报是否可信？"
 ### 三步骤：认识竞争·寻找最优·逐步挖掘
 
 **认识竞争**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 先画竞争全景图——这个领域有哪些玩家？他们分别在什么位置？
+- 用"替代品+直接竞品+潜在进入者"三维度定位
+- 列出每个竞品的核心差异点，不急于判断好坏
 
 **寻找最优**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 在竞争全景图中找到标杆——不是最大的，而是"最值得学习的"
+- 拆解标杆的做法：他们做了什么？为什么有效？我能学到什么？
+- 不为抄而看——理解标杆成功的条件是否可迁移
 
 **逐步挖掘**：
-- src_unknown
-- src_unknown
-- src_unknown
+- 从公开信息开始（官网、年报、新闻）→ 半公开（招聘、专利）→ 深度（专家访谈、逆向工程）
+- 每一步验证上一层的假设，不一致时停下来深究
+- 清单不是铁板一块——根据前一步发现实时调整下一步
 
 ---
 
@@ -191,24 +198,24 @@ R - Reasoning  正确归因     "怎么判断情报是否可信？"
 
 ```
 Step 1: 明确决策问题（O）
-   - src_unknown
-   - src_unknown
+   - 写出核心决策问题（一句话）
+   - 用四种类型分类（选择题/解答题/设计题/竞争题）
    ↓
 Step 2: 选择调研层面（S）
-   - src_unknown
-   - src_unknown
+   - 确定调研层面（宏观/中观/微观/单点）
+   - 写剥离清单（本次不搜什么）
    ↓
 Step 3: 设计执行清单（C）
-   - src_unknown
-   - src_unknown
+   - 每方向列出关键词+来源类型+预期产出
+   - 设定门控条件（信息源≥3？覆盖率≥70%？）
    ↓
 Step 4: 执行情报获取（A）
-   - src_unknown
-   - src_unknown
+   - 公开层：官网/报告/新闻 → 半公开层：招聘/专利（条件触发）
+   - 广撒网→深追搜（视门控条件）
    ↓
 Step 5: 验证与归因（R）
-   - src_unknown
-   - src_unknown
+   - 交叉验证（≥2独立来源）→ 归因四步法
+   - 标注结论置信度
 ```
 
 ---
@@ -228,8 +235,8 @@ Step 5: 验证与归因（R）
 1. **简单事实查询**：如"竞品A的官网是什么"
 2. **紧急响应**：如"竞品突然降价，立即反应"
 3. **纯执行型任务**：如"按模板填写调研表"
-4. **个人学习**：如"我想了解这个行业"
-5. **高度不确定环境**：无法锁定目标
+4. **个人学习**：如"我想了解这个行业"——无决策压力
+5. **高度不确定环境**：无法锁定目标——先缩小不确定性再调研
 
 ---
 
@@ -250,6 +257,14 @@ Step 5: 验证与归因（R）
 
 ---
 
+## 与 KDO 的融合
+
+OSCAR 与 KDO 外部探索 SOP 形成互补：OSCAR 前重后轻（O/S/C 三步细致，A/R 较粗），KDO SOP 后重前轻（A/R 有六层比对+四路 Attacker）。融合方案见 `[[tool-oscar-kdo-external-exploration]]`——用 OSCAR 的前端设计补 KDO 的前三步，KDO 的后端验证保留为增强版 R。
+
+详见 `[[method-kdo-external-exploration-sop]]`（v2 OSCAR注入版）。
+
+---
+
 ## 行动触发器
 
 1. **新项目启动**：用OSCAR设计调研计划
@@ -262,23 +277,18 @@ Step 5: 验证与归因（R）
 
 ## 关联卡片
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- `[[framework-yitang-high-level-execution]]`：高水平执行框架——OSCAR R步骤的实战展开
+- `[[framework-yitang-four-research-types]]`：四种调研类型——OSCAR O步骤的类型学基础
+- `[[yt-research-osl-framework]]`：OSL调研框架——与OSCAR互补的另一个调研视角
+- `[[framework-yitang-research-radar]]`：调研雷达——OSCAR S步骤的层面选择工具
+- `[[tool-oscar-kdo-external-exploration]]`：OSCAR-KDO融合桥接卡——OSCAR在KDO中的具体落地
+- `[[method-kdo-external-exploration-sop]]`：KDO外部探索SOP——v2版已注入OSCAR前三个步骤
+- `[[yt-research-weaponry-course]]`：调研武器库——OSCAR A步骤的13武器操作层
 
 ---
 
 ## 来源与验证
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-
----
-
-*卡片类型：framework | 置信度：0.9 | 审核状态：待审*
+- 一堂系统式调研口述稿（`00_inbox/调研专题/一堂-系统式调研-口述.txt`）：OSCAR框架原始出处
+- Business Research Skill v2.1.0（`10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md`）：13武器体系的KDO实现
+- 系统调研高水平计划/执行 VLM 描述（`00_inbox/调研专题/`）：实战案例验证

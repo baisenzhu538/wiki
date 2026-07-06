@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-07-03 18:08 UTC
+# Concept Card Index — 2026-07-06 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -76,12 +76,19 @@
 | concept-wanghuan-flywheel-first-loop | 王欢：AI 飞轮第一圈 | concept | src_unknown, src_unknown, src_unknown |
 | concept-wanghuan-power-of-standards | 王欢：标准的力量——质量乘数 | concept | src_unknown, src_unknown, src_unknown |
 | concept-wanghuan-tacit-knowledge-examples | 王欢：行业暗规则实例库（招聘/招投标/销售/培训） | concept | src_unknown, src_unknown, src_unknown |
+| concept-yihang-data-pack-ethics | 数据包使用伦理——个人学习可用，禁止规模化批量抓取流通 | concept | ai-collaboration, yitang |
+| concept-yihang-dual-triangle-core | 一行双三角：人机协作的元模型 | concept | yitang, ai-collaboration, personal-os, organizational-transformation |
+| concept-yihang-human-in-the-loop-dual-triangle | 人在环 × 双三角：从治理原则到能力地图 | concept | yitang, ai-collaboration |
+| concept-yihang-methodology-production-pipeline | 方法论生产流水线：一堂的"双面网络"——学员既是消费者也是生产者 | concept | ai-collaboration, yitang |
+| concept-yihang-research-driven-company | 研发型公司 vs 工程型公司——做"过去做不出来的东西" | concept | ai-collaboration, yitang |
 | concept-yitang-ai-research-10-assumptions | AI调研十大假设：人机协作的底层原则 | concept | yitang, research, ai-collaboration |
 | concept-yitang-ai-research-human-loop | AI调研中人机协作的判断节点 | concept | yitang, research, ai-collaboration |
 | concept-yitang-channel-lean-validation-bridge | 渠道精益验证：把渠道 0→1 测试当作一种 MVP | concept | yitang, growth, lean-startup |
 | concept-yitang-comfort-stretch-panic-zones | 练习区域分层：舒适区、拉伸区、困难区、恐慌区 | concept | yitang, personal-growth |
+| concept-yitang-education-formula | 教育 = 教材 + 教学 + 积极改变 | concept | yitang |
 | concept-yitang-facts-first | 事实优先：调研的基本纪律 | concept | yitang, research |
 | concept-yitang-ideal-research-goal | 理想调研目标三原则：敏感·短期·支撑 | concept | yitang, research |
+| concept-yitang-model-system-boundary | 体系与模型边界：每个模型都有内涵、成本和适用域 | concept | yitang, decision-science, methodology |
 | concept-yitang-research-aesthetic | 调研审美：判断"什么是好的调研"的能力 | concept | yitang, research |
 | concept-yitang-research-facts-first | 事实优先：区分事实与观点的认知纪律 | concept | yitang, research |
 | concept-yitang-research-mindset | 调研心态：从"找答案"到"拆假设" | concept | yitang, research |
@@ -167,7 +174,7 @@
 | timely-feedback-loop | 及时反馈闭环 | framework | ai-collaboration, skill-building |
 | tinyfish-agentic-web-infrastructure | TinyFish — Agentic Web 基础设施建设层 Skill | concept |  |
 | tools-workflows | Tools Workflows | concept |  |
-| truman-perspective-skill | truman-perspective-skill | ? |  |
+| truman-perspective-skill | Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现 | concept | ai-collaboration, yitang |
 | voice-input-doubao | voice input doubao | tool | ai-collaboration- product, ai-saas, decision-making, yitang |
 | web-scraping-三剑客-scrapling-crawl4ai-firecrawl | Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl | concept | ai-saas |
 | writing-content | Writing Content | concept |  |
@@ -179,7 +186,7 @@
 | yitang-huazong-ama-summary | 花总AMA精华摘要（商业突破大航海） | concept | healthcare |
 | yitang-methodology-system | 一堂方法论体系：从科学做事到无限进步 | concept | yitang, methodology |
 | yitang-qualitative-to-quantitative | 一堂·从定性到定量：先证伪、后测量 | concept | src_unknown, src_unknown, src_unknown |
-| yitang-strategy-canvas | 战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线 | tool | src_unknown |
+| yitang-strategy-canvas | 战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线 | tool | concepts, strategy |
 | yt-ai-startup-20-risky-hypotheses | yt-ai-startup-20-risky-hypotheses | ? | yitang |
 | yt-ai-trend-12-signals | yt-ai-trend-12-signals | ? | yitang |
 | yt-barrier-analysis-cheat-sheet | yt-barrier-analysis-cheat-sheet | ? |  |
@@ -412,11 +419,11 @@
 | yt-scale-economy-weapon-library | yt-scale-economy-weapon-library | ? | yitang |
 | yt-skill-checklist-as-ai-protocol | 清单体作为AI的I/O协议——用笔记替代prompt工程 | concept | src_unknown |
 | yt-skill-p-role-prompt-design | P 角色 Prompt 设计——执行者型 AI 的交付规范 | concept | src_unknown |
-| yt-skill-storyline-contrast-analysis | 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度 | tool | src_unknown |
+| yt-skill-storyline-contrast-analysis | 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度 | tool | concepts |
 | yt-skill-storyline-key-elements | 清单体故事线⑥：关键要素线——用结构拆解'什么才是真正重要的' | tool | src_unknown |
-| yt-skill-storyline-problem-solving | 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链 | tool | src_unknown |
-| yt-skill-storyline-target-tradeoff | 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架 | tool | src_unknown |
-| yt-skill-storyline-timeline | 清单体故事线①：严格时间线——用时间轴重构事件因果链 | tool | src_unknown |
+| yt-skill-storyline-problem-solving | 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链 | tool | concepts |
+| yt-skill-storyline-target-tradeoff | 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架 | tool | concepts |
+| yt-skill-storyline-timeline | 清单体故事线①：严格时间线——用时间轴重构事件因果链 | tool | concepts |
 | yt-system-course-catalog | 一堂全课程目录索引 | concept | yitang |
 | yt-system-course-map-lecture | 一堂课程地图精华串讲 | concept |  |
 | yt-three-dimension-opportunity-matrix | 三维排列组合找机会 | tool | src_unknown |
@@ -433,7 +440,7 @@
 | yt-tool-y-model-ruler | Y模型尺子刻度法：从模糊经验到可复用评估模型 | tool | src_unknown |
 | yt-unit-model-ai-assisted | AI+单元模型：TCP-R双导师与出口式咨询实践 | tool | src_unknown, src_unknown, src_unknown |
 | yt-unit-model-benchmark | 单元模型基准值：科学类比、三点预测与基准值共建 | tool | src_unknown, src_unknown |
-| yt-unit-model-build | 单元模型搭建五步法 | tool | src_unknown |
+| yt-unit-model-build | 单元模型搭建五步法 | tool | concepts, unit-model |
 | yt-unit-model-concept | 单元模型：商业模式评估的核心工具 | framework | src_unknown |
 | yt-unit-model-construction | 单元模型构建法：拆推评算与ABCD模型分类 | tool | src_unknown, src_unknown |
 | yt-unit-model-dynamic | 动态单元模型：规模变量、拐点预判与规模经济对抗 | tool | src_unknown, src_unknown |
@@ -466,6 +473,7 @@
 | concept-minto-pyramid-principle | 金字塔原理：结论先行的结构化沟通框架 | framework | src_unknown, src_unknown |
 | framework-TCPR底层网络协议 | TCP-R 模型：商业管理世界的底层网络协议 | framework |  |
 | framework-TCPR皇冠模型 | TCP-R皇冠模型：教学·咨询·实践·研究的统一框架 | framework | yitang, decision-science |
+| framework-agent-card-execution-pattern | Agent 执行模式：从卡片到可执行动作 | framework | kdo, ai-collaboration |
 | framework-ai-accelerated-strategy-cycle | AI 加速的战略-验证闭环 | framework | strategy, lean-startup, ai-collaboration, yitang |
 | framework-ai-deconstruction-methodology | 王欢三层拆书法 | framework | ai_collaboration, critical_thinking, business_judgment |
 | framework-ai-deliberate-practice-loop | AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴 | framework | yitang, personal-growth, ai-collaboration |
@@ -528,6 +536,15 @@
 | framework-wanghuan-say-think-do-toolchain | 王欢说→想→做工具链框架 | framework | src_unknown, src_unknown, src_unknown, src_unknown |
 | framework-wanghuan-task-product-system | 王欢任务→产品→系统演进框架 | framework | src_unknown, src_unknown, src_unknown, src_unknown |
 | framework-wanghuan-three-tier-dev-architecture | 王欢三层开发架构：需求拆解→AI开发→哨兵质检 | framework | src_unknown, src_unknown, src_unknown, src_unknown, src_unknown |
+| framework-yihang-AI-native-dual-triangle-kernel | AI 原生是结果，双三角是引擎 | framework | ai-collaboration, yitang |
+| framework-yihang-aesthetic-judgment-training | AI 时代审美判断力训练系统——未来教育的核心转向 | framework | ai-collaboration, yitang |
+| framework-yihang-ai-implementation-consultant | AI 落地顾问培养体系——双三角笃定 + 技术产品背景 + 学习能力 + 价值观 | framework | ai-collaboration, yitang |
+| framework-yihang-dual-triangle-ai-landing-five-steps | 一行双三角AI落地五部曲 | framework | yitang, ai-collaboration, implementation |
+| framework-yihang-dual-triangle-ten-year-map | 一行双三角十年爬山地图 | framework | yitang, ai-collaboration, deliberate-practice |
+| framework-yihang-dual-triangle-three-stages-six-changes | 一行双三角三阶六变 | framework | yitang, ai-collaboration, application-framework |
+| framework-yihang-dual-triangle-weapon-library | 一行双三角六要素武器库 | framework | yitang, ai-collaboration, competency-model |
+| framework-yihang-fde-ai-native-org | FDE 工程 × AI 原生组织——用双三角建中国风格 FD 工程师培养体系 | framework | ai-collaboration, yitang |
+| framework-yihang-knowledge-data-decoupling | 知识层与数据层解耦：核心词 + data pack 插件式组合 | framework | ai-collaboration, yitang |
 | framework-yitang-18-strategy-cards | 降龙十八掌：18张调研策略卡全景图 | framework | yitang, research |
 | framework-yitang-channel-exploration-4step | 渠道探索四步法：科学找到可持续获客渠道 | framework | yitang, growth, sales |
 | framework-yitang-channel-industrialization | 渠道工业化生产：让高不确定工作持续高质量交付 | framework | yitang, growth, operations |
@@ -553,6 +570,7 @@
 | framework-yitang-shishi-qiushi | 实事求是：把「我希望是真的」和「事实是什么」分开 | framework | epistemic-foundations, decision-science, yitang |
 | framework-yitang-six-layer-cross-validation | 六层交叉验证：从单源到多源的信息可信度提升 | framework | yitang, research |
 | framework-yitang-three-ring-ability-focus | 三环能力聚焦法：从 30 个能力中锁定 3 个重点 | framework | yitang, personal-growth |
+| framework-yitang-y-model-dual-triangle-synergy | Y模型 × 双三角协同工作法 | framework | yitang, decision-science, ai-collaboration, methodology |
 | framework-一堂五步法-泛产品设计 | 一堂五步法在泛产品设计中的应用 | framework | panproduct, yitang, methodology |
 | framework-个人成长五步法 | 个人成长五步法：Truman的个人版本 | framework | yitang, decision-science |
 | framework-单元模型-外部对抗地图 | 外部对抗地图 | framework |  |
@@ -624,6 +642,7 @@
 | yt-tob-unit-model | To B 单元模型选择与跑通 | framework | src_unknown, src_unknown, src_unknown, src_unknown |
 | yt-unit-model-ladder | 单元模型六段进阶：从拍脑袋到动态预测 | framework | yitang, decision-science |
 | yt-unit-model-overview | 单元模型概览：十大单元模型与三角色分工 | framework | src_unknown, src_unknown, src_unknown |
+| agent-spec-dual-triangle-canvas-filler | 双三角画布填充 Agent（对话教练版）v3 | agent-spec | yitang, ai-collaboration, agent |
 | ai-short-drama-conflict-three-axes | 矛盾冲突三板斧：短剧冲突分层设计工具 | tool | ai-saas- yitang, ai-collaboration, product |
 | ai-short-drama-framework-three-axes | 框架三板斧：短剧英雄之旅结构工具 | tool | ai-saas- yitang, ai-collaboration, product |
 | ai-short-drama-plot-three-axes | 剧情三板斧：短剧剧本的情节张力设计工具 | tool | ai-saas- yitang, ai-collaboration, product |
@@ -653,10 +672,8 @@
 | tool-Truman-AI工具选型决策 | 技能：AI工具选型决策 | tool | ai-collaboration, yitang- yitang |
 | tool-Truman-AI时代IPO模型重构 | 技能：AI时代IPO模型重构 | tool | ai-collaboration, yitang- yitang |
 | tool-Truman-AI时代提示词优化法 | 技能：AI时代提示词优化法 | tool | ai-collaboration, yitang- yitang |
-| tool-Truman-AI能力分层学习路径 | 技能：AI能力分层学习路径 | tool | ai-collaboration, yitang- yitang |
 | tool-Truman-AI辅助思考伙伴养成 | 技能：AI辅助思考伙伴养成 | tool | ai-collaboration, yitang- yitang |
 | tool-Truman-AI输出审慎判断与交付确认 | 技能：AI输出审慎判断与交付确认 | tool | ai-collaboration, yitang- yitang |
-| tool-Truman-Feature特性层训练法 | 技能：Feature特性层训练法 | tool | ai-collaboration, yitang- yitang |
 | tool-Truman-Skill全生命周期管理 | 技能：Skill全生命周期管理 | tool | ai-collaboration, yitang- yitang |
 | tool-Truman-XY-Problem识别与真实问题定位 | 技能：XY Problem识别与真实问题定位 | tool | ai-collaboration, yitang- yitang |
 | tool-Truman-上下文质量管理（AI协作） | 技能：上下文质量管理（AI协作） | tool | ai-collaboration, yitang- yitang |
@@ -700,6 +717,7 @@
 | tool-ai-cross-reading-method | 交叉阅读法 | tool | ai_collaboration, critical_thinking, business_judgment |
 | tool-ai-deliverable-polish-loop | AI 交付物打磨循环：从模糊需求到 60 分可用版本 | tool | ai-collaboration, design, yitang |
 | tool-ai-evidence-check | 技能：AI输出证据核查三问法 | tool | ai-collaboration, yitang- ai-saas |
+| tool-ai-feature-inventory | AI 工具特性清单——原子化 Feature 分类框架 | tool |  |
 | tool-ai-four-elements-validation | 技能：真需求验证法 | tool | src_unknown, src_unknown |
 | tool-ai-info-literacy-three-layer | 技能：AI输出三层防护检查法 | tool | src_unknown, src_unknown |
 | tool-ai-landing-five-steps | 技能：AI落地五步执行流程 | tool | ai-collaboration, yitang- AI, 落地, 执行 |
@@ -860,7 +878,11 @@
 | tool-tech-probability-80-filter | 李开复 80% 概率过滤器 | tool | ai_collaboration, critical_thinking, business_judgment |
 | tool-wanghuan-ai-business-profile | 王欢AI业务档案5字段工具 | tool | src_unknown, src_unknown, src_unknown, src_unknown |
 | tool-wanghuan-ai-dual-role-coach | 王欢：AI 双角色教练对练工具 | tool |  |
-| tool-yitang-18-strategy-tool-mapping | 降龙十八掌→工具映射表：每掌对应的执行工具和 Skill | tool | src_unknown |
+| tool-yihang-agent-config-7steps | Agent 配置 7 步法：人类画像 + 规则匹配 | tool | ai-collaboration, yitang |
+| tool-yihang-dual-triangle-canvas | 一行双三角画布（三版合一） | tool | yitang, ai-collaboration, planning |
+| tool-yihang-dual-triangle-oral-spray | 口喷：双三角内功 + 九字诀外功——语音驱动 AI 协作 | tool | ai-collaboration, yitang |
+| tool-yihang-dual-triangle-xray-deconstruct | X光拆解：双三角案例逆向工程——从"用了什么工具"到"背后的双三角怎么支撑" | tool | ai-collaboration, yitang |
+| tool-yitang-18-strategy-tool-mapping | 降龙十八掌→工具映射表：每掌对应的执行工具和 Skill | tool | yitang, research |
 | tool-yitang-Y-model-application | Y模型应用工作流：把科学做事框架变成具体问题上的操作清单 | tool | epistemic-foundations, decision-science, yitang |
 | tool-yitang-ai-assisted-analysis | AI辅助分析：用AI做数据分析和模式识别 | tool | yitang, research |
 | tool-yitang-ai-assisted-organize | AI辅助整理：把访谈录音/会议记录结构化 | tool | yitang, research |
@@ -912,6 +934,7 @@
 | tool-yitang-industry-report-search | 行业报告搜索：拓宽关键词+多平台交叉 | tool | yitang, research |
 | tool-yitang-ipo-annual-report-cheat-sheet | 上市公司报告价值Cheat Sheet：创业各阶段该读什么 | tool | yitang, research |
 | tool-yitang-job-intelligence-research | 招聘渠道情报：五层递进挖掘竞对内部信息 | tool | yitang, research |
+| tool-yitang-method-ab-sides-checklist | 创业方法 AB 面清单：对立金句的适用场景判断 | tool | yitang, decision-science |
 | tool-yitang-news-monitoring | 新闻媒体监控：从报道频率和角度追踪竞对 | tool | yitang, research |
 | tool-yitang-online-product-experience | 线上产品完整体验：从注册到售后的全流程 | tool | yitang, research |
 | tool-yitang-organization-research | 组织调研手段：浅中深三层10大评估法 | tool | yitang, research |
@@ -924,7 +947,9 @@
 | tool-yitang-product-full-experience | 完整体验产品：从用户视角理解产品全貌 | tool | yitang, research |
 | tool-yitang-public-information-research | 官方公开信息渠道：公司自己发布的信息最有价值 | tool | yitang, research |
 | tool-yitang-public-sentiment-research | 舆情/口碑批量收集：好评决定内核，差评决定机会 | tool | yitang, research |
+| tool-yitang-quantitative-research-checklist | 创业者定量研究清单：六维指标 + 强制五问 | tool | yitang, decision-science |
 | tool-yitang-recruit-user-interview | 招募用户访谈：公开招募+激励设计 | tool | yitang, research |
+| tool-yitang-red-blue-cards | 红蓝卡：Y模型 团队自检/纠偏/激励行为工具 | tool | yitang, decision-science |
 | tool-yitang-referral-channel-optimization | 老带新渠道优化工具：动力 × 触点 × 阻力 | tool | yitang, growth |
 | tool-yitang-research-best-practice | 最佳实践调研：找到行业标杆，复制成功因素 | tool | yitang, research |
 | tool-yitang-research-company-disassembly | 公司拆解：深度分析竞争对手的六维框架 | tool | yitang, research |
@@ -951,6 +976,7 @@
 | tool-yitang-securities-research | 证券研报：券商分析师的行业深度报告 | tool | yitang, research |
 | tool-yitang-security-guard-intel | 保安/门卫情报：非正式但有效的信息源 | tool | yitang, research |
 | tool-yitang-shareholder-analysis | 股东信息穿透：从股权结构看利益格局 | tool | yitang, research |
+| tool-yitang-shishi-qiushi-cheat-sheet | 实事求是团队训练小抄：实事问句 + 求是问句 | tool | yitang, decision-science |
 | tool-yitang-signup-statistics | 线上签约统计：通过自增ID推算用户/订单量 | tool | yitang, research |
 | tool-yitang-social-engineering-research | 社会工程学调研：身份设计与信息获取的合法边界 | tool | yitang, research |
 | tool-yitang-social-media-interview | 社交媒体采访：在用户活跃的平台做轻量访谈 | tool | yitang, research |
@@ -977,7 +1003,7 @@
 | tool-yitang-weapon-public-official-info | 武器库策略8：官方公开信息——公司的十大公开信息源 | tool | yitang, research |
 | tool-yitang-weapon-third-party-database | 武器库策略11：第三方数据库——15+核心数据源 | tool | yitang, research |
 | tool-yitang-weapon-user-direct-interview | 武器库策略1：直接访谈用户——四种接触方式 | tool | yitang, research |
-| tool-yitang-web-scraping-research | 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线 | tool | src_unknown |
+| tool-yitang-web-scraping-research | 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线 | tool | yitang, research, ai |
 | tool-yitang-wechat-group-infiltration | 微信群潜伏：加入竞对的用户/加盟商社群 | tool | yitang, research |
 | tool-yitang-wechat-index | 微信指数：公众号内容热度追踪 | tool | yitang, research |
 | tool-yitang-weibo-index | 微博指数：公共话题热度追踪 | tool | yitang, research |
@@ -1338,7 +1364,7 @@
 | tool-纪浩-新手心态启动法 | 技能：新手心态启动法 | tool | ai-collaboration, yitang- ai-saas |
 | tool-纪浩-日志驱动排查法 | 技能：日志驱动排查法 | tool | src_unknown, src_unknown |
 | tool-纪浩-案例池构建法 | 技能：案例池构建法 | tool | ai-collaboration, yitang- ai-saas |
-| tool-纪浩-真需求四要素验证法 | 技能：真需求四要素验证法 | tool | src_unknown, src_unknown |
+| tool-纪浩-真需求四要素验证法 | 真需求四要素验证法 | tool | src_unknown, src_unknown |
 | tool-纪浩-线上问题应急值守 | 技能：线上问题应急值守 | tool | ai-collaboration, yitang- ai-saas |
 | tool-纪浩-评估AI从零写UI的可行性 | 技能：评估AI从零写UI的可行性 | tool | ai-collaboration, yitang- ai-saas |
 | tool-纪浩-识别AI不可维护代码 | 技能：识别AI不可维护代码 | tool | ai-collaboration, yitang- ai-saas |
@@ -1464,6 +1490,9 @@
 | case-daxin-team-content-training-camp | 大馨战队短视频拆解训练营 | case | content-production, knowledge-management |
 | case-daxin-vikki-community-contrast | Vikki 群与大馨群：两种社群知识生产模式的对比 | case | content-production, knowledge-management |
 | case-decision-ai-assisted-vs-human | AI 辅助决策 vs 人工决策的边界案例 | case | decision-science, ai-collaboration |
+| case-decision-science-lunch-break-compression | 案例：把2小时休息压缩为1小时的ROI决策 | case | decision-science, yitang |
+| case-decision-science-topcity-negative-revenue-rank | 案例：Top City 负收益消减与自动排名 | case | decision-science, yitang |
+| case-decision-science-universal-salary-raise-roi | 案例：全员涨薪20%的ROI测算 | case | decision-science, yitang |
 | case-deepfake-market-misuse | Deepfake 的商业机会与滥用风险 | case | ai_collaboration, critical_thinking, business_judgment |
 | case-demand-ai-fitness-four-forces | 案例：AI健身四力——四种力量的博弈分析 | case | yitang, five-step-method |
 | case-demand-b2b-enterprise-erp | ToB 企业 ERP 需求分析案例 | case | demand-analysis, yitang |
@@ -1504,6 +1533,8 @@
 | case-ji-hao-skill-market-problem-validation | 案例：一堂Skill市场从伪需求到真实需求的四问验证 | case | ai-collaboration, yitang |
 | case-ji-hao-skills-market | 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助 | case | src_unknown, src_unknown |
 | case-ji-hao-ui-design-constraint-evolution | 案例：纪浩从'求你了'到1100行约束文档的UI设计迭代 | case | ai-collaboration, yitang |
+| case-kdo-agent-factory-dual-triangle-practice | KDO 多 Agent 工厂：人机协作双三角的组织化实践 | case | yitang, ai-saas, personal-os |
+| case-laozhu-hongqigong-human-ai-partner-evolution | 从Copilot到Partner：老朱×洪七公的人机协作跃迁诊断 | case | yitang, ai-collaboration, personal-os, organizational-transformation |
 | case-lean-2b-gray-test | 一堂 2B 内训灰度测试 | case | strategy, yitang, product |
 | case-lean-adult-education | 成人技能教育精益验证 | case | lean-startup, yitang |
 | case-lean-building-in-vacuum | 闭门造车案例集 | case | strategy, yitang, product |
@@ -1544,6 +1575,8 @@
 | case-panproduct-lanyi-dahanghui-team | 案例：兰毅——大航海战队如何被设计成组织产品 | case | panproduct, organization, yitang |
 | case-panproduct-lanyi-intern-flywheel | 兰毅：实习生成长飞轮的产品化设计 | case | panproduct, organization, yitang, talent |
 | case-panproduct-lanyi-shidonghui-npc | 兰毅：世董会与 NPC 的组织产品化实践 | case | panproduct, organization, yitang |
+| case-panproduct-top135-selection-polish | 案例：top 1/top 3/top 5 筛选打磨 | case | product-design, yitang |
+| case-panproduct-yitao-project-background | 案例：一淘项目背景与三大难题 | case | product-design, yitang |
 | case-personal-map-modeling | 案例：一堂个人地图的完整建模过程（方法论视角） | case | src_unknown, src_unknown, src_unknown |
 | case-popmart-prospectus-pricing | 案例：泡泡玛特招股书——IP产品毛利率60-70% | case | yitang, research |
 | case-private-domain-ecommerce-formula | 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升级路径" | case | yitang, e-commerce, business-strategy |
@@ -1556,6 +1589,8 @@
 | case-smart-medicine-cabinet-failure-patterns-library | 智能药柜失败模式案例库 | case | src_unknown, src_unknown |
 | case-strategy-cool-boiled-water | 凉白开：细分垄断——从高考生切入，两年30亿 | case | strategy |
 | case-strategy-edward-jones | 爱德华琼斯：每个小镇只招一人——0办公位的券商模式 | case | strategy |
+| case-strategy-exit-remove | 案例：撤退型布局2——去除（IBM郭士纳复兴） | case | strategy, yitang |
+| case-strategy-exit-sell | 案例：撤退型布局1——出售（Musical.ly） | case | strategy, yitang |
 | case-strategy-failure-01-cosmetics | 案例：长尾品类化妆品——方向错误。天花板低+营销浪费 | case | strategy |
 | case-strategy-failure-02-supermarket | 案例：精品超市O——目标错误。高速增长期追求盈利反噬增长 | case | strategy |
 | case-strategy-failure-03-cleaning | 案例：清洁用品L——定位错误。盲目高端丢低端市场 | case | strategy |
@@ -1611,15 +1646,63 @@
 | case-xian-franchise-location-decision | 案例：西安加盟选址——系统调研vs拍脑袋 | case | yitang, research |
 | case-xiaolong-ecommerce-foresight | 小龙电商：四层剥离——从服装到正装裤 | case | yitang |
 | case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch | 案例：AI高考志愿填报产品因内核错位而失敗 | case | src_unknown, src_unknown, src_unknown, src_unknown, src_unknown |
+| case-yihang-dual-triangle-AI三角-场景 | AI三角-场景 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-AI三角-基本功 | AI三角-基本功 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-AI三角-数据 | AI三角-数据 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-AI可以落地的场景假设 | AI可以落地的场景假设 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-AI场景 | AI场景 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-AI基本功 | AI基本功 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-AI数据 | AI数据 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-D-engineer-upward-communication | 一行双三角案例：D同学用红蓝军破解向上沟通 | case | yitang, ai-collaboration, communication, organizational-politics |
+| case-yihang-dual-triangle-ahao-product-selection | 一行双三角案例：阿豪电商选品函数替代模型 | case | yitang, ai-collaboration, e-commerce, operations |
+| case-yihang-dual-triangle-ai-organizational-behavior | 双三角案例：Truman 一夜深挖 AI 组织行为学——四个模型交叉验证 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-beike-ai-outbound | 一行双三角案例：贝壳找房110个场景的AI外呼 | case | yitang, ai-collaboration, real-estate, call-center, organizational-transformation |
+| case-yihang-dual-triangle-canvas-thesis-review | 双三角画布案例：AI 论文初审——五维评分+三色灯阻断 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-canvas-trademark-design | 双三角画布案例：商标设计——两天内产出 60 分可用版本 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-chentian-knowledge-agent | 一行双三角案例：陈天从知识管理到多Agent系统 | case | yitang, ai-collaboration, personal-knowledge-management, multi-agent |
+| case-yihang-dual-triangle-guoshuai-ai-editorial | 双三角案例：郭帅 AI 编辑部——智能体拉微信群协作内容生产 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-hardware-patent-rule-explicit | 一行双三角案例：硬件公司专利落地的规则显性化与一号位决心 | case | yitang, ai-collaboration, r-and-d, patent, organizational-transformation |
+| case-yihang-dual-triangle-hotel-tag-sandbox | 一行双三角案例：酒店AI标签审核的边缘切入与沙盒练兵 | case | yitang, ai-collaboration, hospitality, content-moderation, organizational-transformation |
+| case-yihang-dual-triangle-huazao-synthetic-data | 一行双三角案例：花总让AI先造数据破解工业级难题 | case | yitang, ai-collaboration, industrial-ai, research |
+| case-yihang-dual-triangle-jumi-canvas-demo | 双三角画布演示：巨米推广——从模糊需求到九层可执行计划 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-kunte-virtual-idol | 双三角案例：鲲特虚拟艺人——AI 产出越多，人类筛选越值钱 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-tanzhaichao-ai-growth | 双三角案例：谭再超——从 AI 小白到 MCP 大航海 MVP，半年蜕变 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-tianmo-design-delivery | 一行双三角案例：天末4天商业级室内设计交付 | case | yitang, ai-collaboration, design, interior-design |
+| case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution | 一行双三角案例：Truman「飞书 To slide」PPT 迭代进化 | case | yitang, ai-collaboration, productivity, presentation |
+| case-yihang-dual-triangle-一堂DOC-20260704025752 | 一堂DOC-20260704025752 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-一堂双三角-AI企业经营数据分析 | 一堂双三角-AI企业经营数据分析 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-一堂双三角-AI时代的竞争力武器库 | 一堂双三角-AI时代的竞争力武器库 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-一堂双三角-AI落地五部曲 | 一堂双三角-AI落地五部曲 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-一堂双三角-一个引擎-三阶六变 | 一堂双三角-一个引擎-三阶六变 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-一堂双三角-人生红点教练parther探索 | 一堂双三角-人生红点教练parther探索 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-一堂双三角-作业洞察和特别表白 | 一堂双三角-作业洞察和特别表白 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-一堂双三角-十年爬山地图 | 一堂双三角-十年爬山地图 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-一堂双三角-双三角预判画布 | 一堂双三角-双三角预判画布 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-一堂双三角-清单版画布 | 一堂双三角-清单版画布 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-一堂双三角-画布案例1 | 一堂双三角-画布案例1 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-一堂双三角-画布案例2 | 一堂双三角-画布案例2 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-一堂双三角-解释版画布 | 一堂双三角-解释版画布 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-人创造力 | 人创造力 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-人审美 | 人审美 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-人类三角-创造力 | 人类三角-创造力 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-人类三角-审美 | 人类三角-审美 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-人类三角-练体系 | 人类三角-练体系 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-人练体系 | 人练体系 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yihang-dual-triangle-双三角-竞争力武器库 | 双三角-竞争力武器库 — 双三角案例 | case | ai-collaboration, yitang |
 | case-yitang-Y-model-advertising-turnaround | 一堂抖音 AD 投放扭亏：Y模型科学投放实战 | case | epistemic-foundations, marketing, yitang |
 | case-yitang-Y-model-seven-applications | Y模型七人跨域应用案例集 | case | epistemic-foundations, yitang |
+| case-yitang-ai-outbound-roi-model | 案例：AI 外呼——ROI模型统一"真人 vs. AI"矛盾经验 | case | yitang, ai-collaboration |
 | case-yitang-ai-painting-commercialization | 案例：崔磊如何通过 AI 绘画练习实现商业化交付 | case | yitang, personal-growth, ai-collaboration |
 | case-yitang-ai-time-management-coach | 案例：AI辅助调研——时间管理教练产品验证 | case | yitang, research, ai-collaboration |
 | case-yitang-amazon-growth-flywheel | 案例：亚马逊增长飞轮的五层逻辑 | case | yitang, growth, strategy |
+| case-yitang-aquaculture-stress-protection | 案例：水产养殖——从行业经验到学科原理的上层创新 | case | yitang |
 | case-yitang-beauty-device-overseas-sales | 案例：美容仪出海——用行业报告判断海外市场 | case | yitang, research |
+| case-yitang-coke-spill-compensation | 案例：可乐撒了——ROI/Y模型重构客户赔偿流程 | case | yitang |
 | case-yitang-competitor-pricing-intelligence | 案例：假装订货套取竞品真实价格 | case | yitang, research |
 | case-yitang-consumer-offline-channel-decision | 案例：消费品线下渠道决策——先访谈再算账 | case | yitang, research |
 | case-yitang-copywriting-time-decomposition | 一堂文案团队时间拆解：把「写稿」拆成可测量的工序 | case | time-management, marketing, yitang |
+| case-yitang-county-led-wrong-analogy | 案例：县城 LED 屏对标分众——错误类比忽视前提条件 | case | yitang, decision-science |
+| case-yitang-course-start-time-evolution | 案例：一堂开课时间——从"同行七八点"到"用户真正需要九点" | case | yitang |
 | case-yitang-doorstep-nail-service-context | 案例：上门美甲——在用户真实场景中访谈 | case | yitang, research |
 | case-yitang-doorstep-pet-feeding-trust | 案例：上门宠物喂养——用调研解决信任障碍 | case | yitang, research |
 | case-yitang-double-triangle-confidence | 案例：一堂把双三角模型变成 AI 难题的通用解题底盘 | case | src_unknown, src_unknown, src_unknown |
@@ -1628,28 +1711,48 @@
 | case-yitang-fake-interview-intelligence | 案例：假扮面试发现行业红利退潮 | case | yitang, research |
 | case-yitang-goat-milk-channel-partnership | 羊奶粉「卖地图」区域代理模式案例 | case | yitang, growth, strategy |
 | case-yitang-hardware-factory-photo | 案例：从朋友圈照片找到代工厂 | case | yitang, research |
+| case-yitang-headhunting-internet-scale | 案例：猎头互联网做大——忽视行业结构性限制 | case | yitang, decision-science |
 | case-yitang-homestay-reception-design | 案例：民宿接待方案——用调研优化服务体验设计 | case | yitang, research |
 | case-yitang-jtbd-story-formula | 案例：JTBD故事公式——从用户故事中提取需求 | case | yitang, research |
 | case-yitang-lianjia-site-selection-industrialization | 案例：链家如何用 IBM 咨询实现选址工业化 | case | yitang, growth, operations |
+| case-yitang-lin-biaoyang-liver-detection | 案例：林标阳肝病检测——L5 学科层推翻商业层二三十年惯例 | case | yitang |
+| case-yitang-live-commerce-scale-misjudgment | 案例：直播电商规模误判——以电视购物做类比导致以偏概全 | case | yitang, decision-science |
 | case-yitang-luckin-field-research | 案例：瑞幸做空——实地调研的教科书 | case | yitang, research |
 | case-yitang-mahjong-machine-fake-order | 案例：假装订货套取麻将机竞品数据 | case | yitang, research |
 | case-yitang-maiyi-cloud-computer-channel | 案例：马毅云电脑如何扫描 60+ 渠道实现 3.7 亿营收 | case | yitang, growth, b2b |
+| case-yitang-mao-scientific-culture | 案例：毛泽东"主义清单"——红蓝卡的历史原型 | case | yitang |
+| case-yitang-milktea-bonus-design | 案例：奶茶店奖金——追问"发奖金的本质"重构薪酬设计 | case | yitang |
 | case-yitang-model-asset-inventory | 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式 | case | src_unknown, src_unknown, src_unknown |
 | case-yitang-model-valuation-flywheel | 案例：一堂内部给模型"定价"——从 5000 元到 10 万美金的价值飞轮 | case | yitang, 组织激励, 模型质量管理 |
 | case-yitang-mvp-reward-interview-waste | 案例：MVP阶段花钱做用户访谈的浪费 | case | yitang, research |
 | case-yitang-novel-app-flywheel | 案例：小说 app 如何用 SEO 补全增长飞轮 | case | yitang, growth |
+| case-yitang-online-education-expansion | 案例：在线教育融资扩张——不会定量的代价 | case | yitang, decision-science |
 | case-yitang-pet-fostering-user-research | 案例：宠物寄养——观察现有替代方案 | case | yitang, research |
 | case-yitang-poker-parameterized-practice | 案例：德州扑克玩家乔牌如何通过参数化训练成为大使 | case | yitang, personal-growth |
 | case-yitang-radar-chart-selection | 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」 | case | src_unknown, src_unknown, src_unknown |
+| case-yitang-redburger-lettuce-clip | 案例：楚门生菜夹子——L1 追问到 L2 就能产生流程创新 | case | yitang |
 | case-yitang-redburger-selection-industrialization | 案例：熊猫现烤汉堡如何用工业化流程破解选品难题 | case | yitang, growth, operations |
 | case-yitang-sales-routine-deconstruction | 案例：社恐销售蓝军如何通过拆解销冠套路半年成亚军 | case | yitang, personal-growth, sales |
 | case-yitang-sales-transformation-jubensha-saas | 案例：剧本杀 SaaS 销售体系从零搭建——兼职团队跑通科学销售五步法 | case | yitang, ai-saas, business-strategy |
 | case-yitang-sales-transformation-meirongyuan | 案例：美容院连锁销售体系改造——从总部门店冲突到新客转化率提升 | case | yitang, business-strategy, entrepreneur |
 | case-yitang-sales-transformation-tuliaogongsi | 案例：涂料公司“意图”——从 10 万线索中筛出 220 个高价值客户的分层转型 | case | business-strategy, entrepreneur, yitang |
 | case-yitang-sanjieke-benchmark-failure | 案例：对标三节课做C端，半年后发现对方已转型B端 | case | yitang, research |
+| case-yitang-scientific-naming-process | 案例：科学起名——用 Y模型 把「玄学」变成可验证流程 | case | yitang, decision-science |
 | case-yitang-senior-university-product-design | 案例：老年大学——用假设链逐层验证赛道可行性 | case | yitang, research |
+| case-yitang-shishi-qiushi-pitfall-1-subjective-speculation | 实事求是十坑·主观臆测：废品回收站从单店成功到多店失败 | case | yitang, decision-science |
+| case-yitang-shishi-qiushi-pitfall-10-over-abstraction | 实事求是十坑·过度抽象：问到"下周具体做什么"时答不上来 | case | yitang, decision-science |
+| case-yitang-shishi-qiushi-pitfall-2-ignore-facts | 实事求是十坑·忽略事实：小黄狗回收柜烧光融资 | case | yitang, decision-science |
+| case-yitang-shishi-qiushi-pitfall-3-overgeneralization | 实事求是十坑·以偏概全：直播电商规模误判 | case | yitang, decision-science |
+| case-yitang-shishi-qiushi-pitfall-4-no-quantification | 实事求是十坑·不会定量：在线教育融资扩张失败 | case | yitang, decision-science |
+| case-yitang-shishi-qiushi-pitfall-5-over-prediction | 实事求是十坑·过度预测：早期项目 3-10 年精确财务预测 | case | yitang, decision-science |
+| case-yitang-shishi-qiushi-pitfall-6-deny-patterns | 实事求是十坑·不信规律：猎头互联网做大的结构性失败 | case | yitang, decision-science |
+| case-yitang-shishi-qiushi-pitfall-7-underestimate-patterns | 实事求是十坑·轻视规律：一堂 199 元单课模式试错 | case | yitang, decision-science |
+| case-yitang-shishi-qiushi-pitfall-8-wrong-analogy | 实事求是十坑·错误类比：县城 LED 屏对标分众传媒 | case | yitang, decision-science |
+| case-yitang-shishi-qiushi-pitfall-9-methodology-superstition | 实事求是十坑·金句迷信：方法论堆叠比不懂更危险 | case | yitang, decision-science |
 | case-yitang-shuzu-channel-scan-test | 案例：数族如何扫描 100+ 渠道并跑通支付合作 | case | yitang, growth, b2b, fintech |
+| case-yitang-single-course-199-failure | 案例：一堂 199 元单课——轻视行业规律的试错 | case | yitang |
 | case-yitang-ski-project-user-as-expert | 案例：滑雪项目——把用户当专家访谈 | case | yitang, research |
+| case-yitang-smart-microphone-color | 案例：智能麦克风颜色——投资人凭个人喜好做产品决策 | case | yitang, decision-science |
 | case-yitang-solid-redbull-channel | 案例：固体红牛如何通过渠道探索找到司机群体 | case | yitang, growth |
 | case-yitang-supplier-security-guard | 案例：通过保安打听到工厂收购价 | case | yitang, research |
 | case-yitang-tob-artificial-bone | 案例：人工骨医疗器械上市失败复盘 | case | src_unknown, src_unknown, src_unknown, src_unknown |
@@ -1659,13 +1762,22 @@
 | case-yitang-topcity-growth-flywheel | 案例：Top City 如何用六大要素搭建内容-商户双端飞轮 | case | yitang, growth, strategy |
 | case-yitang-track-selection-research | 案例：一堂赛道选择——用调研方法论选创业方向 | case | yitang, research |
 | case-yitang-travel-receipt-analysis | 案例：旅行公司收据分析——从单据反推真实数据 | case | yitang, research |
+| case-yitang-truman-time-management-transformation | 案例：Truman 用 Y模型 重构时间管理——从被动打断到科学体系 | case | yitang, personal-os |
 | case-yitang-voice-robot-companion-design | 案例：陪伴式语音机器人——声音设计如何调研 | case | yitang, research |
+| case-yitang-waste-recycling-subjective-failure | 案例：废品回收站——主观臆测从单店成功到多店失败 | case | yitang, decision-science |
 | case-yitang-weekly-modeling-engine | 案例：一堂的"周对周建模迭代"——把周五课程逼成公司增长引擎 | case | src_unknown, src_unknown, src_unknown |
+| case-yitang-xiaohuangdog-recycling-cabinet | 案例：小黄狗回收柜——忽略事实的典型代价 | case | yitang, decision-science |
 | case-yitang-xujian-invoice-saas-channel | 案例：徐建发票 SaaS 如何通过渠道探索找到支付推手 | case | yitang, growth, b2b, saas |
 | case-yitang-yitang-course-industrialization | 案例：一堂如何用工业化生产保证每周高质量做课 | case | yitang, growth, operations |
 | case-yitang-yitang-self-growth-channel | 案例：一堂自身如何三年增长十倍 | case | yitang, growth |
 | case-yitang-yitang-shortvideo-industrialization | 案例：一堂如何用 ABCD 模型实现口播短视频工业化 | case | yitang, growth, content-operations |
+| case-yitang-yitang-transcript-strategy | 案例：一堂逐字稿——用 ROI+内容壁垒打破"不能给"的行业惯例 | case | yitang |
 | case-yitang-yitu-lead-industrialization | 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索 | case | yitang, growth, b2b |
+| case-yitang-ymodel-ai-business-dialogue | Y模型 案例：AI+Y模型——充电桩/养老院的黑盒报告 vs 拆开迭代 | case | yitang |
+| case-yitang-ymodel-b2b-sales-conversion | Y模型 案例：To B 顾问销售——一号位脑子里的结构用 Y模型 显性化 | case | yitang |
+| case-yitang-ymodel-children-reading-retention | Y模型 案例：小学生在线阅读——外行看一眼画布就能平等对话 | case | yitang |
+| case-yitang-ymodel-vicki-cross-domain-transfer | Y模型 案例：Vicki 开店→短视频跨域迁移——Y模型 比五步法更底层 1-2 层 | case | yitang |
+| case-yitang-ymodel-watermelon-challenge | Y模型 案例：拍西瓜满级挑战——1000次循环从普通人到顶尖选手 | case | yitang |
 | case-zhanglan-amusement-park-undercover | 案例：张兰假扮游乐园店长卧底15天 | case | yitang, research |
 | case-zhanglei-furniture-overseas-market-selection | 案例：张磊——洗衣液蹲超市+假扮促销员 | case | yitang, research |
 | case-zhanglei-nursing-home-family | 案例：假扮孙子调研养老院真实状况 | case | yitang, research |
@@ -1698,6 +1810,7 @@
 | yt-lean-daily-chemical-mvp | 日化沐浴露MVP：不生产产品验证行业机会 | case | src_unknown, src_unknown, src_unknown |
 | yt-lean-flower-mom-group-leader | 生活鲜花宝妈团长：拆C端与小B的分阶段验证 | case | src_unknown, src_unknown, src_unknown |
 | yt-product-kernel-shampoo-case | 洗发水案例：产品内核实战——从"去屑"到"专业形象" | case | src_unknown |
+| dk-ai-collaboration-degradation-spiral | 人机协作退化螺旋：飞轮反转的两种死亡模式 | dk | ai-collaboration, yitang |
 | dk-ai-design-pitfalls | AI 设计交付物的五个常见陷阱与反打 | dark-knowledge | yitang |
 | dk-ai-entrepreneur-technical-blindspot | 暗知：AI创业者最大的盲区——'我们能做出来'≠'用户需要这个' | dk | yitang, ai |
 | dk-ai-judgment-human-responsibility | 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果 | dk | ai-saas, yitang |
@@ -1885,9 +1998,22 @@
 | dk-yb8-file-naming-eight-elements | AI增效前置：文件命名八要素体系 | dk | design |
 | dk-yb9-cubox-deployment-failure | Cubox及AI协作工具的团队部署失败模式 | dk | design, management, ai-collaboration |
 | dk-yi-tang-wishful-thinking-kills-startups | 暗知：'愿望思维'是创业最大的陷阱 | dk | yitang, business-strategy |
+| dk-yihang-ai-false-certainty | AI 错误笃定模式——被设计来回答问题，未被设计来"意识到自己不知道" | dk | ai-collaboration, yitang |
+| dk-yihang-canvas-preparation-three-principles | 画布筹备三原则：花总转折 / 先加后减 / 15分钟出租车 | dk | ai-collaboration, yitang |
+| dk-yihang-dual-triangle-commitment-confidence | 双三角让团队敢承诺——画布一画就知道能交付什么 | dk | ai-collaboration, yitang |
+| dk-yihang-dual-triangle-strategic-bet | 双三角作为一堂未来5年战略操作系统——笃定、迭代速度、知行合一 | dk | ai-collaboration, yitang |
+| dk-yihang-multi-ai-cross-validation | 多 AI 交叉比对验证法——没有标准答案时用 AI 互校验 | dk | ai-collaboration, yitang |
+| dk-yihang-non-expert-judgment | 非专家判断替代法——不懂的领域用 AI 集群建立可用判断力 | dk | ai-collaboration, yitang |
+| dk-yihang-report-book-learner | 报告书型学习者：不听课直接读卡也能学会的极简路径 | dk | ai-collaboration, yitang |
+| dk-yihang-scientific-community-moat | 科学共同体作为一堂核心资产——冲向最大难题，解不掉就交给下一个人 | dk | ai-collaboration, yitang |
+| dk-yihang-technical-domain-aesthetic | 严格技术域审美——"对就是对错就是错"域不需要品位，需要验证机制 | dk | ai-collaboration, yitang |
 | dk-yitang-Y-model-pitfalls | Y模型常见六大陷阱与反打 | dark-knowledge | yitang |
 | dk-yitang-business-formula-plus-times-trap | 业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策 | dk | yitang, master |
+| dk-yitang-camel-dung-process-inertia | 流程经验不与底层原因对齐，会长期低效存在 | dk | yitang |
 | dk-yitang-channel-exploration-traps | 渠道探索常见陷阱：18 万字共建作业里的血泪教训 | dk | yitang, growth |
+| dk-yitang-methodology-stack-fallacy | 方法论金句堆叠乱用，不如不懂 | dk | yitang, decision-science |
+| dk-yitang-over-abstraction | 过度抽象无法指导工作，就失去意义 | dk | yitang, decision-science |
+| dk-yitang-over-prediction-danger | 早期项目长期精确财务预测是过度预测 | dk | yitang, decision-science |
 | dk-yitang-sales-common-pitfalls | 一堂科学销售常见陷阱：六大反模式与修复动作 | dark-knowledge | yitang |
 | yt-business-model-pivot-signals | 商业模式转型信号：何时该 pivot | dk | business-model |
 | yt-demand-competitive-displacement | 需求替代陷阱：竞品不是敌人，替代方案才是 | dk | demand-analysis |
