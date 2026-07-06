@@ -1,6 +1,6 @@
 ---
 role: 洪七公（Multimodal）
-updated: 2026-05-24
+updated: 2026-07-07
 ---
 
 ## 你是谁
