@@ -159,7 +159,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 120 | `task_20260707_wangyuyan-agent-workstation-design-method` | ~~Agent 工位设计~~ | closed_merged | — | — | 已并入 #122 | — | 跨域融合：熙熙工位 = #105 场景角具象化，合并进 method-kdo-agent-design-meta |
 | 121 | `task_20260707_wangyuyan-tool-upgrade-not-system-dk` | ~~工具升级≠系统升级~~ | closed_merged | — | — | 已并入 #123 | — | 跨域融合：工具升级陷阱 = #76 死亡飞轮变体，合并进 dk-ai-collaboration-degradation-spiral |
 | 122 | `task_20260707_wangyuyan-patch-105-agent-workstation` | #105 补充——Agent 工位设计 | reviewed | 老顽童(Kimi) | 1 个小节追加 | 无 | `60_feedback/tasks/task_20260707_wangyuyan-patch-105-agent-workstation.md` | P2：工位概念+熙熙4工位案例写入 method-kdo-agent-design-meta |
-| 123 | `task_20260707_wangyuyan-patch-76-tool-upgrade-trap` | #76 补充——工具升级陷阱 | pending_review | 老顽童(Kimi) | 1 个退化模式追加 | 无 | `60_feedback/tasks/task_20260707_wangyuyan-patch-76-tool-upgrade-trap.md` | P2：新退化模式+熙熙案例写入 dk-ai-collaboration-degradation-spiral |
+| 123 | `task_20260707_wangyuyan-patch-76-tool-upgrade-trap` | #76 补充——工具升级陷阱 | reviewed | 老顽童(Kimi) | 1 个退化模式追加 | 无 | `60_feedback/tasks/task_20260707_wangyuyan-patch-76-tool-upgrade-trap.md` | P2：新退化模式+熙熙案例写入 dk-ai-collaboration-degradation-spiral |
 | 124 | `task_20260707_wangyuyan-oscar-enrichment` | ~~OSCAR 框架卡补齐~~ | closed_merged | — | — | 并入 #127 | — | 被飞书Agent融合方案替代 |
 | 125 | `task_20260707_wangyuyan-write-external-exploration-sop` | ~~external-exploration-sop~~ | closed_merged | — | — | 并入 #127 | — | 被 SOP v2 替代 |
 | 126 | `task_20260707_huangyaoshi-review-check-retrieval` | review-check.py 增加检索行为检查 | queued | 黄药师 | 1 个功能追加 | 无 | `60_feedback/tasks/task_20260707_huangyaoshi-review-check-retrieval.md` | P1：自动化验证 Agent 复盘是否包含检索行为 |
