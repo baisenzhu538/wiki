@@ -2,7 +2,7 @@
 id: dk-skill-seven-elements-upgrade
 title: Skill ≠ Prompt——蓝鱼七要素告诉你完整 Skill 缺了什么
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07
