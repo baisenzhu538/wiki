@@ -88,7 +88,7 @@ related:
 |:---|:---|:---|
 | [[framework-yitang-scientific-sales-five-step]] | 销售五步法：用户分层→卖点→过程拆解→业绩管理→激励 | 每步→对应工具和方法 |
 | [[tool-opc-sales-dialogue-assistant]] | 销售对话阶段分层 | 开场/需求挖掘/异议处理/促成→不同话术策略 |
-| [[agent-spec-opc-sales-stage-tracker]] | 销售阶段追踪 | 不同阶段→不同跟进频率和内容 |
+| [[tool-agent-spec-yitang-sales-process-tracker]] | 销售阶段追踪 | 不同阶段→不同跟进频率和内容 |
 
 **用法差异**：销售域的分层是"流程导向"的——分层的目的是在正确的时间做正确的动作。
 

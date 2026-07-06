@@ -1,12 +1,12 @@
 ---
 id: task_20260707_wangyuyan-human-self-distillation-method
 type: task
-status: in_progress
+status: queued
 assignee: kimi
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-07
-updated_at: '2026-07-06T16:40:38.102655+00:00'
+updated_at: '2026-07-06T16:51:53.255731+00:00'
 source_refs:
 - 00_inbox/内容生产域/专家分享｜AI x 内容工业化生产（熙熙）— 逐字稿.md L535-537
 related:
