@@ -231,9 +231,15 @@ reviewed_by: 欧阳锋
 - 不碰其他角色的 context 文件
 - 不绕过 `kdo produce` 管线
 
-## 会话结束前三问
+## ⛔ 会话结束强制动作（不执行=会话未完成）
 
-每次会话结束前，必须先回答再关（CLAUDE.md 已有，此处为备份）：
-1. **今天产生了什么新资产？** → 新卡片/文章确认已入 `30_wiki/`，源文件确认已归档 `10_raw/sources/`
-2. **今天发现了什么新问题/阻塞？** → 更新 `.agent/context.md` 的 blockers
-3. **下次启动最需要记住什么？** → 写入桌面 `agent复盘/laowantong/daily-context/YYYY-MM-DD.md`（Truman 10章复盘，格式见 agent-os.md §10）
+每次会话结束前必须依次执行：
+
+1. **写 Truman 10章复盘** — 格式见 `agents/agent-os.md` §10.2（10章缺一不可）
+2. **保存** — 执行：
+   ```
+   python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent laowantong --truman --text "<你的 Truman 10章完整复盘内容>"
+   ```
+3. **自检** — 执行 `python C:\Users\Administrator\Desktop\wiki\kdo-tools\review-check.py --agent laowantong`，确认输出为 B 级以上（🟢 或 🟡）
+
+> 原"会话结束前三问"已合并到 Truman 10章复盘——第3问"下次启动最需要记住什么"对应元反思章节。

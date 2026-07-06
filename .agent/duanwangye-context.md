@@ -26,9 +26,15 @@ reviewed_by: 欧阳锋
 - **KDO 视频试点 ship**：✅ final.mp4 已就绪（11810 KB, 500.08s）。待补全交付记录 JSON（审批链+门禁+贡献者）
 - **文案润色 skill 已就位**：`40_outputs/capabilities/skills/shared/content-production-polish/`（Vikki-human-speech）。ship 阶段将 wiki 内容改写为口播稿/小红书/公众号/直播话术时必读
 
-## 会话结束前三问
+## ⛔ 会话结束强制动作（不执行=会话未完成）
 
-每次会话结束前，必须先回答再关：
-1. **今天产生了什么新资产？** → 交付记录/发布事件确认已写入 `50_delivery/`
-2. **今天发现了什么新问题/阻塞？** → 更新 `.agent/context.md` 的 blockers
-3. **下次启动最需要记住什么？** → 写入桌面 `agent复盘/duanwangye/daily-context/YYYY-MM-DD.md`（Truman 10章复盘，格式见 agent-os.md §10）
+每次会话结束前必须依次执行：
+
+1. **写 Truman 10章复盘** — 格式见 `C:\Users\Administrator\Desktop\wiki\agents\agent-os.md` §10.2（10章缺一不可）
+2. **保存** — 执行：
+   ```
+   python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent duanwangye --truman --text "<你的 Truman 10章完整复盘内容>"
+   ```
+3. **自检** — 执行 `python C:\Users\Administrator\Desktop\wiki\kdo-tools\review-check.py --agent duanwangye`，确认输出为 B 级以上（🟢 或 🟡）
+
+> 原"会话结束前三问"已合并到 Truman 10章复盘——第3问"下次启动最需要记住什么"对应元反思章节。

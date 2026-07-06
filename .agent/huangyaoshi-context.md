@@ -34,13 +34,16 @@ updated: 2026-06-23
 - **Sprint 5**（validate→ship 闭环）：⏸️ 欧阳锋裁定暂缓
 - **当前**：Data Curator Skill v1.0 方案已批准，pilot dry-run 完成。方案：`30_wiki/decisions/plan_20260531_data-curator-v1.md`。Skill：`40_outputs/capabilities/skills/data-curator/`
 
-## 复盘（强制门禁）
+## ⛔ 会话结束强制动作（不执行=会话未完成）
 
-**统一使用 agent-os.md §10（Truman YAI复盘法 v2.0）——不再使用6文件体系。**
+每次会话结束前必须依次执行：
 
-会话结束前必须执行：跑 Truman 10章复盘 → `daily-context-save.py save --agent huangyaoshi` → 存入 `agent复盘/huangyaoshi/daily-context/YYYY-MM-DD.md`
-
-> 格式、时机、质量等级、审计流程全部见 `agents/agent-os.md` §10。本文件不再定义独立模板。
+1. **写 Truman 10章复盘** — 格式见 `agents/agent-os.md` §10.2（10章缺一不可）
+2. **保存** — 执行：
+   ```
+   python kdo-tools/daily-context-save.py save --agent huangyaoshi --truman --text "<你的 Truman 10章完整复盘内容>"
+   ```
+3. **自检** — 执行 `python kdo-tools/review-check.py --agent huangyaoshi`，确认输出为 B 级以上（🟢 或 🟡）
 
 ## 依赖——不要动
 

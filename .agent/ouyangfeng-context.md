@@ -201,7 +201,15 @@ python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --
 ## 会话结束
 
 1. 有新坑追加到 `pitfalls.md`
-2. 写入桌面 `agent复盘/ouyangfeng/daily-context/YYYY-MM-DD.md`（Truman 10章复盘，格式见 agent-os.md §10）
+
+### ⛔ 复盘强制动作（不执行=会话未完成）
+
+2. **写 Truman 10章复盘** — 格式见 `agents/agent-os.md` §10.2（10章缺一不可）
+3. **保存** — 执行：
+   ```
+   python kdo-tools/daily-context-save.py save --agent ouyangfeng --truman --text "<你的 Truman 10章完整复盘内容>"
+   ```
+4. **自检** — 执行 `python kdo-tools/review-check.py --agent ouyangfeng`，确认输出为 B 级以上（🟢 或 🟡）
 
 ---
 

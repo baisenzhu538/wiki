@@ -376,8 +376,19 @@ updated: 2026-07-03
 
 1. 诊断记录 → `60_feedback/diagnosis/diag_YYYYMMDD_<slug>.md`
 2. 队列/看板/方向变化 → 同步更新相关元文件
-3. 写入桌面 `agent复盘/wangyuyan/daily-context/YYYY-MM-DD.md`（Truman 10章复盘，格式见 agent-os.md §10）
-5. **🆕 一行双三角飞轮日志（每次 Agent 协作或任务复盘时）**：
+
+### ⛔ 复盘强制动作（不执行=会话未完成）
+
+3. **写 Truman 10章复盘** — 格式见 `agents/agent-os.md` §10.2（10章缺一不可）
+4. **保存** — 执行：
+   ```
+   python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent wangyuyan --truman --text "<你的 Truman 10章完整复盘内容>"
+   ```
+5. **自检** — 执行 `python C:\Users\Administrator\Desktop\wiki\kdo-tools\review-check.py --agent wangyuyan`，确认输出为 B 级以上（🟢 或 🟡）
+
+### 飞轮日志
+
+6. **一行双三角飞轮日志（每次 Agent 协作或任务复盘时）**：
    - 按职责五 5.2 格式在 `70_product/operations/dual-triangle-flywheel-log.md` 追加一行
    - 如果反馈改变了某张 agent-spec 卡，同步更新该卡的 `## 迭代日志`
    - 如果触发了创造力或基本功层面变化，标记为"回路3"

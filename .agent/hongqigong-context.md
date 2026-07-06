@@ -26,9 +26,15 @@ updated: 2026-05-24
 - **单元模型域 VA 前置**：OCR 39/39 ✅，7 张 yt-unit-model 卡 VA 执行中
 - **文章重启**（≥3篇）：⏳ 等单元模型 VA 完成
 
-## 会话结束前三问
+## ⛔ 会话结束强制动作（不执行=会话未完成）
 
-每次会话结束前，必须先回答再关：
-1. **今天产生了什么新资产？** → 视觉资产/OCR 结果/设计稿确认已放入对应目录
-2. **今天发现了什么新问题/阻塞？** → 更新 `.agent/context.md` 的 blockers
-3. **下次启动最需要记住什么？** → 写入桌面 `agent复盘/hongqigong/daily-context/YYYY-MM-DD.md`（Truman 10章复盘，格式见 agent-os.md §10）
+每次会话结束前必须依次执行：
+
+1. **写 Truman 10章复盘** — 格式见 `C:\Users\Administrator\Desktop\wiki\agents\agent-os.md` §10.2（10章缺一不可）
+2. **保存** — 执行：
+   ```
+   python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent hongqigong --truman --text "<你的 Truman 10章完整复盘内容>"
+   ```
+3. **自检** — 执行 `python C:\Users\Administrator\Desktop\wiki\kdo-tools\review-check.py --agent hongqigong`，确认输出为 B 级以上（🟢 或 🟡）
+
+> 原"会话结束前三问"已合并到 Truman 10章复盘——第3问"下次启动最需要记住什么"对应元反思章节。
