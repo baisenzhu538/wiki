@@ -1,12 +1,12 @@
 ---
 id: task_20260707_wangyuyan-judge-skill-meta-evaluation.md
 type: task
-status: queued
-assignee: 老顽童
+status: in_progress
+assignee: hermes
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-07
-updated_at: 2026-07-07
+updated_at: '2026-07-06T18:28:14.045800+00:00'
 source_refs:
 - C:/Users/Administrator/Desktop/从知识库到agent.txt
 related:
