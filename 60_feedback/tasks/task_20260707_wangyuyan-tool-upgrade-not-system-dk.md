@@ -1,7 +1,7 @@
 ---
 id: task_20260707_wangyuyan-tool-upgrade-not-system-dk
 type: task
-status: queued
+status: closed_merged
 assignee: 老顽童
 reviewer: 欧阳锋
 priority: P2
