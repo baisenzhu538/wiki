@@ -1,4 +1,12 @@
-# 黄药师后续任务（顺序执行）
+# ⛔ 已废弃 — 2026-07-07
+
+> **此文件不再维护。** 黄药师当前任务见 `production-queue.md` 和 `parking-lot-huangyaoshi.md`。
+> 本文件保留为历史档案（含 dogfood 测试规则、Task E/F/G 历史等），仅供参考。
+> 黄药师启动后读 `production-queue.md` 和 `parking-lot-huangyaoshi.md`，不要读这个文件。
+
+---
+
+# 黄药师后续任务（历史档案）
 
 ## 任务方：黄药师（WSL tmux `claude`）
 

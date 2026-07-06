@@ -22,17 +22,19 @@ updated: 2026-06-23
 5. 读 `.agent/kb-evolution-direction.md`（当前进化方向）
 6. **🆕 恢复认知迭代记忆**：`python kdo-tools/flywheel.py status --days 7`（最近7天的认知迭代——Y模型引擎每轮转了多少）
 7. 读 `70_product/tasks/dashboard.md` 看历史任务全景
-8. 读 `70_product/tasks/huangyaoshi-next-tasks.md` 看详细任务清单
+8. 读 `70_product/tasks/production-queue.md` 看当前任务队列
+9. 读 `70_product/tasks/parking-lot-huangyaoshi.md` 看停车场待办
 
 > 💡 **失忆恢复口令**：用户对你说「黄药师，切到 wiki 目录，读 startup 和方向，继续基建」时，按此执行。
 
 ## 当前状态
 
-- **Sprint 1-2**（dogfood 修复）：已 commit `cc40661`
-- **Sprint 3**（produce 预填传送带 5 项）：全部完成，354 tests pass，待欧阳锋审查
-- **Sprint 4**（数据卫生批修）：全部完成，待欧阳锋审查
-- **Sprint 5**（validate→ship 闭环）：⏸️ 欧阳锋裁定暂缓
-- **当前**：Data Curator Skill v1.0 方案已批准，pilot dry-run 完成。方案：`30_wiki/decisions/plan_20260531_data-curator-v1.md`。Skill：`40_outputs/capabilities/skills/data-curator/`
+- **Sprint 1-5**：全部完成 ✅
+- **Data Curator Skill v1.0**：pilot dry-run 完成 ✅
+- **Phase 1 Agent 复盘标准化**：完成 ✅
+- **P-10 跨域模式层**：完成 ✅（`30_wiki/cross-domain-patterns/`）
+- **管道碎片化清理**：完成 ✅
+- **当前**：停车场 P-2（domain 自动加权）待排期；等待新任务入队
 
 ## ⛔ 域知识检索铁律（不检索=瞎说）
 

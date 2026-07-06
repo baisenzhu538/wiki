@@ -23,8 +23,9 @@ reviewed_by: 欧阳锋
 
 ## 当前状态
 
-- **KDO 视频试点 ship**：✅ final.mp4 已就绪（11810 KB, 500.08s）。待补全交付记录 JSON（审批链+门禁+贡献者）
-- **文案润色 skill 已就位**：`40_outputs/capabilities/skills/shared/content-production-polish/`（Vikki-human-speech）。ship 阶段将 wiki 内容改写为口播稿/小红书/公众号/直播话术时必读
+- **KDO 视频试点 ship**：完成 ✅
+- **文案润色 skill**：已就位（`40_outputs/capabilities/skills/shared/content-production-polish/`）
+- **当前**：待命。任务由欧阳锋通过飞书直接分配。
 
 ## ⛔ 域知识检索铁律（不检索=瞎说）
 

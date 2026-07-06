@@ -1,12 +1,12 @@
 ---
 id: task_20260707_wangyuyan-patch-76-tool-upgrade-trap
 type: task
-status: queued
-assignee: 老顽童
+status: in_progress
+assignee: hermes
 reviewer: 欧阳锋
 priority: P2
 created_at: 2026-07-07
-updated_at: 2026-07-07
+updated_at: '2026-07-06T17:51:53.439666+00:00'
 source_task: task_20260704_wangyuyan-dual-triangle-degradation-spiral
 related:
 - '[[dk-ai-collaboration-degradation-spiral]]'
