@@ -2,7 +2,7 @@
 id: task_20260707_wangyuyan-human-self-distillation-method
 type: task
 status: queued
-assignee: kimi
+assignee: 老顽童
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-07
