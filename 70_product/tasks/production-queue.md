@@ -163,4 +163,4 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 124 | `task_20260707_wangyuyan-oscar-enrichment` | ~~OSCAR 框架卡补齐~~ | closed_merged | — | — | 并入 #127 | — | 被飞书Agent融合方案替代 |
 | 125 | `task_20260707_wangyuyan-write-external-exploration-sop` | ~~external-exploration-sop~~ | closed_merged | — | — | 并入 #127 | — | 被 SOP v2 替代 |
 | 126 | `task_20260707_huangyaoshi-review-check-retrieval` | review-check.py 增加检索行为检查 | queued | 黄药师 | 1 个功能追加 | 无 | `60_feedback/tasks/task_20260707_huangyaoshi-review-check-retrieval.md` | P1：自动化验证 Agent 复盘是否包含检索行为 |
-| 127 | `task_20260707_wangyuyan-oscar-kdo-fusion` | OSCAR-KDO 融合——框架卡补齐+桥接卡+SOP v2 | queued | 老顽童 | 2 张卡补齐 + 1 张桥接卡 + SOP v2 | 无 | `60_feedback/tasks/task_20260707_wangyuyan-oscar-kdo-fusion.md` | P0：OSCAR前轻后重补KDO前三步。O锁定目标+S缩小范围+C罗列清单 → A获取情报(增强) → R归因(保留KDO六层比对+四路Attacker) |
+| 127 | `task_20260707_wangyuyan-oscar-kdo-fusion` | OSCAR-KDO 融合——框架卡补齐+桥接卡+SOP v2 | claimed-hermes | 老顽童 | 2 张卡补齐 + 1 张桥接卡 + SOP v2 | 无 | `60_feedback/tasks/task_20260707_wangyuyan-oscar-kdo-fusion.md` | P0：OSCAR前轻后重补KDO前三步。O锁定目标+S缩小范围+C罗列清单 → A获取情报(增强) → R归因(保留KDO六层比对+四路Attacker) |
