@@ -2,7 +2,7 @@
 id: method-yihang-human-self-distillation
 title: 人侧蒸馏法——把自己的隐性判断一步一步显性化
 type: method
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

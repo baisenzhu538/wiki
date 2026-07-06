@@ -180,7 +180,60 @@ capture → ingest → enrich → produce → validate → ship → feedback →
 
 ---
 
-## 8. Context Snapshot (Updated by AI after each session)
+## 8. 任务启动自检规则（AI must execute before any task）
+
+> 生效范围：王语嫣、老顽童、黄药师等所有 AI 角色。任何诊断/生产/调研任务启动前必执行。
+
+### 8.1 自检流程
+
+```
+任务启动
+  ↓
+Step A：读 Skill
+  加载与任务匹配的 skill（如 entry-quality-gate、nine-layer-deep-dig）
+  ↓
+Step B：扫 Wiki 查更优框架
+  search_files 扫 30_wiki/ 按任务关键词搜索 frameworks/ tools/ concepts/
+  → 是否存在比当前 skill 更优或互补的方法论框架？
+  → 如有 → 融合，标注来源卡片
+  → 如无 → 按 skill 执行，标注"wiki 此方向无覆盖，仅依赖 skill"
+  ↓
+Step C：查已有覆盖
+  search_files 扫 30_wiki/ 确认是否已有同名/同类产出
+  → 防止重复劳动（=外部探索 SOP 的"先排除再定位"原则）
+  ↓
+Step D：开始执行
+```
+
+### 8.2 自检触发条件
+
+| 触发条件 | 自检范围 | 示例 |
+|:---|:---|:---|
+| 外部探索/调研任务 | 扫 research 域 frameworks + tools | 发现 OSCAR → 融合到当前 SOP |
+| 诊断/标注任务 | 扫对应域 frameworks + 六层比对相关卡 | 发现九层深挖法 → 判断是否加层 |
+| 生产/写卡任务 | 扫目标域全部卡片 + 失败模式卡 | 发现 F-EQG 系列 → 防止重复犯 |
+| 验收/审核任务 | 扫验收清单 + 质量标尺卡 | 发现 verification-checklist → 不用重写 |
+
+### 8.3 自检产出
+
+每次任务启动自检后，在诊断报告或生产日志开头追加一行：
+
+```
+🔍 启动自检：已扫 wiki 命中 [N] 条关联卡 → 融合了 [X] / 无更优框架 / 此方向 wiki 无覆盖
+```
+
+### 8.4 反模式
+
+| 反模式 | 症状 | 修正 |
+|:---|:---|:---|
+| Skill 盲信 | 接到任务→读 skill→直接执行，不查 wiki | 强制 Step B |
+| 单源锁定 | 只读一张卡就确定方法论 | 至少扫 frameworks + tools 两个目录 |
+| 旧的优先 | 先读了旧版 skill，发现有冲突也不融合 | 发现冲突→出对照表→请求裁决 |
+| 跳过自检记录 | 自检了但没写那行 🔍 记录 | 产出开头强制写自检行 |
+
+---
+
+## 9. Context Snapshot (Updated by AI after each session)
 
 ```yaml
 # This section is AI-maintained. Append only.
@@ -203,15 +256,16 @@ attention_required:
 
 ---
 
-## 9. Changelog
+## 10. Changelog
 
 | Date | Version | Change | Author |
 |------|---------|--------|--------|
 | 2026-05-02 | 0.1 | Initial protocol draft | AI (Claude) + Human |
+| 2026-07-07 | 0.4 | Add §8 任务启动自检规则（OSCAR融合事件驱动） | 王语嫣 |
 
 ---
 
-## 10. Related Control Files
+## 11. Related Control Files
 
 - `AGENTS.md` — Agent behavior rules
 - `routing-rules.md` — Task routing logic

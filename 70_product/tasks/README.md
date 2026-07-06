@@ -1,51 +1,36 @@
 ---
-title: KDO Task Board
+title: KDO 任务目录
 type: index
-auto_generated: true
-updated_at: 2026-05-05
+updated_at: 2026-07-07
 ---
 
-# KDO Task Board
+# KDO 任务目录
 
-> 自动生成自 `70_product/tasks/task-*.md` frontmatter。上次刷新：2026-05-05。
-> 状态流转：`queued` → `doing` → `done`。
+## 活跃文件（Agent 日常使用）
 
-## 统计
+| 文件 | 用途 | 维护人 |
+|:---|:---|:---|
+| **`production-queue.md`** | **唯一任务领取源**——老顽童领取/欧阳锋审核 | 王语嫣 |
+| `dashboard.md` | 历史任务全景（备用，日常不读） | 王语嫣 |
+| `parking-lot-huangyaoshi.md` | 黄药师停车场 | 黄药师 |
+| `parking-lot-ouyangfeng.md` | 欧阳锋停车场 | 欧阳锋 |
 
-| 状态 | 数量 |
-|------|:----:|
-| ✅ 已完成 | 6 |
-| 🔄 进行中 | 0 |
-| ⏳ P0 排队 | 1 |
-| 📋 P1 排队 | 0 |
-| 📌 P2 排队 | 3 |
-| **合计** | **10** |
+## 已废弃文件（2026-07-07）
 
-## P0 — 本周
+以下文件不再维护，Agent 启动时**不要读**：
 
-| 编号 | 任务 | 负责人 | 状态 | 创建日期 |
-|:-----|------|:------:|:----:|:--------:|
-| 20260504-req011-survey-methodology | ["一堂调研行动营 → 调研方法论文章"](task-20260504-req011-survey-methodology.md) | "黄药师" | ⏳ queued | "2026-05-04" |
-| 20260506-req025-yitang-knowledge-system | ["一堂知识体系建设 Phase 1"](task-20260506-req025-yitang-knowledge-system.md) | "黄药师" | ✅ done | "2026-05-06" |
+- `laowantong-next-tasks.md`（3305行，最后更新 2026-06-16）
+- `laowantong-batch-2026-06-20.md`（waves 已全部 reviewed）
+- `laowantong-assignment-2026-06-20.md`
+- `hongqigong-next-tasks.md`
+- `duanwangye-next-tasks.md`
+- `wangyuyan-next-tasks.md`
+- `huangyaoshi-next-tasks.md`（1365行，历史档案）
 
-## P1 — 本月
+## 历史任务文件（按日期）
 
-| 编号 | 任务 | 负责人 | 状态 | 创建日期 |
-|:-----|------|:------:|:----:|:--------:|
-| 20260504-kdo-watch-health-check | ["kdo watch 增加定时巡检层"](task-20260504-kdo-watch-health-check.md) | "黄药师" | ✅ done | "2026-05-04" |
-| 20260504-req015-kdo-watch-production | ["kdo watch 生产就绪"](task-20260504-req015-kdo-watch-production.md) | "黄药师" | ✅ done | "2026-05-04" |
-| 20260504-req016-cjk-enrich-auto | ["CJK enrich 自动化"](task-20260504-req016-cjk-enrich-auto.md) | "黄药师" | ✅ complete | "2026-05-04" |
-| 20260504-req017-memory-lifecycle | ["记忆生命周期管理"](task-20260504-req017-memory-lifecycle.md) | "黄药师" | ✅ complete | "2026-05-04" |
-| 20260504-req024-skill-routing | ["kdo watch 自动识别 skill 路由"](task-20260504-req024-skill-routing.md) | "黄药师" | ✅ done | "2026-05-04" |
+`task-*.md`、`task_*.md`、`sprint-*.md` 等文件是已完成的历史任务档案。仅供参考，不作为当前任务领取依据。
 
-## P2 — 远期
+## 当前任务规格
 
-| 编号 | 任务 | 负责人 | 状态 | 创建日期 |
-|:-----|------|:------:|:----:|:--------:|
-| 20260504-req018-feedback-loop | ["60_feedback 闭环回路"](task-20260504-req018-feedback-loop.md) | "黄药师" | ⏳ queued | "2026-05-04" |
-| 20260504-req019-roadmap | ["70_product 路线图"](task-20260504-req019-roadmap.md) | "黄药师" | ⏳ queued | "2026-05-04" |
-| 20260504-req020-ec-template-migration | ["跨项目 EC 卡模板迁移"](task-20260504-req020-ec-template-migration.md) | "黄药师" | ⏳ queued | "2026-05-04" |
-
----
-
-> 本文件由脚本自动生成。修改 task 状态请直接编辑对应的 `task-*.md` frontmatter，然后重刷本文件。
+活跃任务的规格文件在 `60_feedback/tasks/task_*.md`，由 `production-queue.md` 引用。

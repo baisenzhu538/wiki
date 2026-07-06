@@ -99,78 +99,13 @@ reviewed_by: 欧阳锋
 
 > **未跑 pre-submit 就提交 → 欧阳锋直接退回，不审内容。**
 
-## ⚠️ 当前待办：统一生产队列
+## 任务领取
 
-**所有生产任务已集中到 `70_product/tasks/production-queue.md`，按队列顺序领取。**
+**唯一任务源：`70_product/tasks/production-queue.md`。**
 
-- 每个实例一次只领一件，把状态改为 `claimed-<实例标识>`（如 `claimed-hermes`、`claimed-kimi`）。
-- 当队列中有多个无依赖的 `queued` 任务时，可启动多个老顽童实例并行生产。
-- **临时分流（2026-06-27）**：Hermes 负责历史批量工单 waves 1-5；Kimi 负责 2026-06-27 新标注任务（刻意练习域、渠道增长域、兰毅泛产品组织）及跨域桥接卡。欧阳锋/黄药师无感知。
-
-当前队列前 4 项：
-1. `laowantong-batch-2026-06-20-wave1`：门禁快速清理（11 张卡）
-2. `task_20260627_laowantong-deliberate-practice-cards`：刻意练习域 12 张卡（含 1 张 AI 协作桥接 framework）
-3. `task_20260627_laowantong-channel-growth-cards`：渠道增长域 24-25 张卡（含 2 张跨域桥接卡；案例审计后追加 8 张 case 卡）
-
-**总待生产卡数**：约 98-99 张（历史批量工单 62 张 + 新任务 36-37 张）。
-
-> 旧文件 `70_product/tasks/laowantong-next-tasks.md` 和 `laowantong-batch-2026-06-20.md` 仍保留详细规格，但**领取顺序以 production-queue.md 为准**。
-- **老顽童停车场**：`laowantong/parking-lot.md`（LW-PL-001/002/003）
-
-**已暂停/过期（不要继续）**：
-- `70_product/tasks/laowantong-batch-2026-06-20.md` waves 1-2 因战略域 PPT 补强插入而暂停，未取消；重启需欧阳锋/用户明确指令
-
-## 🆕 当前待办（2026-06-25 更新，优先级从高到低）
-
-> 来源：`wiki/.agent/context.md` + `60_feedback/tasks/` 系列任务文件。**黄药师跨域审计脚本已修复并通过王语嫣验收（Rule 2=0），可直接启动 AI 2041 P0。**
-
-### 当前最高优先级
-
-1. **王欢《AI 2041》卡片化**（`task_20260624_laowantong-ai2041-cards.md`）
-   - P0：5 张（2 framework + 2 tool + 1 concept）
-   - P1：9 张（2 concept + 2 tool + 5 case）
-   - P2：8 张（1 concept + 4 case + 3 dk）
-   - 说明：AI 2041 是独立新域，不依赖跨域审计脚本；按 P0→P1→P2 顺序执行，每完成 2-3 张通知欧阳锋审查
-
-### 与 AI 2041 并行（5 分钟修复）
-
-2. **修复王语嫣验收报告轻微建议**（`60_feedback/audit/lean-cross-domain-production-audit-20260625.md`）
-   - `framework-ai-accelerated-strategy-cycle`：将张磊 AMA 中“成本降到约 1/10”等经验数字的置信度从 0.85 降至 0.75-0.80，并注明为讲师经验断言
-   - 说明：此修复与 AI 2041 P0 并行，不阻塞启动
-
-### P2 小修（AI 2041 P0 完成后）
-
-3. **补充 domain digest 跨域链接**（`60_feedback/audit/cross-domain-audit-script-acceptance-20260625.md`）
-   - `five-step-domain-digest`：补充 2+ 个相关域 digest 链接
-   - `yitang-research-domain-digest`：当前仅链接 five-step-domain-digest，需再补 1+ 个
-   - 说明：跨域审计脚本 Rule 3 剩余 2 项，P2 级导航优化
-
-### 已验收完成（不要再继续）
-
-- ✅ **跨域融合计划 P1/P2**（`task_20260623_laowantong-cross-domain-bridge-cards.md`）
-  - `framework-lean-pivot-decision`
-  - `framework-ai-accelerated-strategy-cycle`
-  - `framework-demand-lean-bridge`
-  - 2 张跨域案例卡
-  - 10 张枢纽卡 related 补全
-  - 验收：`60_feedback/audit/lean-cross-domain-production-audit-20260625.md`，verdict 有条件通过
-
-- ✅ **精益创业 P2 收尾**（`task_20260623_laowantong-lean-startup-cards.md`）
-  - `framework-lean-expert-roadmap`
-  - `case-lean-crayfish-combo-test`
-  - `case-lean-shampoo-selling-points`
-  - `case-lean-radish-channel-selection`
-  - `case-lean-adult-education`
-  - 验收：同上
-
-- ✅ **精益创业 P1 案例补完批次**（`task_20260623_laowantong-lean-startup-case-supplement.md`）
-  - 共 5 张案例卡（原 7 张中 2 张因源文件缺失已取消）
-  - `case-lean-zhanglei-pivot-decision`
-  - `case-lean-zhanglei-hypothesis-validation`
-  - `case-lean-zhanglei-failure-counterfactual`
-  - `case-lean-gray-test-paradigm`
-  - `case-lean-combination-test-paradigm`
-  - 验收：同上
+- 启动后读 production-queue.md，找到第一个 `queued` 任务，用 `queue_transition.py claim` 领取
+- 队列里没有 `queued` 任务 → 主动报欧阳锋：”老顽童就绪，当前无队列任务可领取”
+- **严禁**读 `laowantong-next-tasks.md`、`laowantong-batch-*.md` 等其他任务文件——那些是历史档案，已废弃
 
 ## 铁律（执行前读一遍）
 

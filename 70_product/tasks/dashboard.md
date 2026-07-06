@@ -1,5 +1,5 @@
 ---
-updated: 2026-07-04
+updated: 2026-07-07
 ---
 
 > ⚠️ **2026-06-27 重要更新**：老顽童生产任务已统一进入 `70_product/tasks/production-queue.md`，按队列顺序领取和审核。本 dashboard 仍保留历史任务全景，但**当前待生产/待审核任务请以 production-queue.md 为准**。
@@ -115,51 +115,17 @@ Generated: 2026-06-26T21:00:00+00:00
 
 ## Summary
 
-- **Total**: 65
-- **Done**: 23
-- **In Progress**: 0
-- **Queued**: 5（详见 `production-queue.md` #60/#62/#63/#76/#77）
-- **Long-term / Paused**: 1（#28 lint 内容债，workbuddy 后台分批执行）
-- **Pending Review**: 0
-- **Review Done**: 54 (#50/#51/#52/#53/#54/#55/#57/#58/#59/#61 reviewed)
+> **当前任务状态见 `production-queue.md`（唯一真相源）。本 dashboard 保留历史任务全景，日常领任务不读这个文件。**
 
-> 老顽童当前待生产任务约 98-99 张卡；lint 基线清理 Batch 1 已由 Hermes 完成机械修复（784 文件），frontmatter parse 类 ERROR 清零；✅ Batch 2-A/B/C 全部 reviewed：A 130 case + B 57 dk + C 90 source_refs 文件已完成，`kdo lint` 机械性 ERROR 清零；下一阶段正式进入补链阶段（Wave 6 诊断 + B1/B2/B3）。
-> **🆕 新增 #38**：《吾辈如神》素材经独立验证为 B 级，王语嫣做出价值判断：直接产出 3 张卡（认知卸载 / AI 使用杠铃策略 / 富足悖论），不试点、不批量；重点纠偏 BMW 85%、AGI 2029、AI 无法创造等数据/观点误读。
-> **🆕 新增 #38/#39**：欧阳锋建议、王语嫣独立判断后入队的 2 个 P1 基建任务，已插队到 #38、#39。#38 黄药师修复 index/lint wikilink 格式不一致，使 strategy 148 个 WARNING 误报清零；#39 老顽童(Kimi) 只读诊断 design 域编码损坏，诊断完成前禁止批量修改 design 文件。两个任务可与 #28 周期性批次及 #40 内容任务并行。
-> **🆕 #40 确定**：原 #38《吾辈如神》因基建任务插队后移到 #40；王语嫣取消「试点」表述，明确产出 3 张卡（认知卸载 / AI 使用杠铃策略 / 富足悖论），保持 P1，不阻塞。
-> **🆕 新增 #41**：洪七公完成 OCR+VLM 预处理后，王语嫣按 6 层交叉验证 + 9 层深挖完成诊断；经黄药师跨域桥接建议书 critique 后，王语嫣独立判断将原 9 卡方案压缩为 3 张高密度桥接卡——`framework-yitang-five-step-to-time-management`（五步法→时间管理完整映射）、`tool-personal-time-audit-loop`（日/周审计 + 2 周实验循环）、`dk-time-management-common-mistakes`（3 个反模式）；同时反向更新 ≥10 张已有框架卡 related；诊断报告 `diag_20260701_time-management-validation.md`。
-> **🆕 新增 #42**：黄药师暗知识补挖试点建议书已确认；王语嫣用 context 第 6 步「一句话金矿扫描」通读 Vikki 561 条 + 大馨 615 条群聊精华，提取 22 条暗知识清单，建议 4 张新 dk 卡（肌肉记忆、创始人 IP 信任>流量、隐性价值传递、讲师 vs 群众社群）+ 7-9 张已有卡补充；欧阳锋抽检 ≥3 张验证有效性，有效则写 SOP 推广到全库。
-> **🆕 新增 #43**：Live81（陈舒妍 AI 赋能商标设计）已完成九层深挖诊断；王语嫣判断其价值不在「AI 设计教程」，而在「一堂方法论 + AI 协作 + 调研方法 + 决策卫生在 AI 交付物打磨场景的跨域实例化」；核心产出 1 case + 2 tool + 1 dk（`case-live81-ai-trademark-design` / `tool-ai-deliverable-polish-loop` / `tool-scene-design-language-translation` / `dk-ai-design-pitfalls`），60 分起盘、模型选择、一页纸上下文、黑盒/白盒/池子审美判断等概念已有 KDO 卡覆盖，本次通过 related 关联而非新建；反向更新 20 张已有卡 related；强调深度与跨域融合，不与泛产品设计/双三角已有框架重叠。
-> **🆕 新增 #44**：一堂科学销售方法论已完成九层深挖诊断；王语嫣评级 A；经用户挑战深度后从 6 张扩展为 10 张，再按黄药师建议+王语嫣独立判断扩展为 12 张：1 framework（五步法总览） + 5 tool（用户分层 / 卖点提炼 / 过程拆解 / 业绩管理 / 工具箱） + 1 framework（六维激励） + 3 case（剧本杀 SaaS / 美容院 / 涂料公司） + 1 dk（销售反模式） + 1 tool（`tool-opc-sales-dialogue-assistant` MVP 对话助手）；MVP 对话助手解决 OPC 同时聊多客户跟丢/跟乱/跟错节奏的痛点，不改变销售动作，只输出「小抄」；反向更新 >=28 张已有卡 related；`opc-ai-sales-agent-architecture.md` 需回链并补充 MVP 启动路径。
->
-> **🆕 新增 #47**：KDO Agent 化审计结论：知识库不缺方法论卡，缺可直接运行的「智能体规格卡」层；本任务把 #44 销售专题中的 4 张核心 tool 卡编译成 agent-spec：客户分级助手 / 卖点生成助手 / 销售阶段追踪助手 / 业绩监控助手；它们既是独立可调用智能体，也是 `tool-opc-sales-dialogue-assistant` 的底层专业技能模块；依赖 #44 终审通过；Agent 做带宽、人做判断，只输出建议不自动执行。
->
-> **🆕 新增 #49**：用户提出「边做边玩」补充智能体军团缺口，新增 3 张 agent-spec：开场 3 分钟助手 / 异议处理助手 / OPC 自我驱动助手；优先级 P2；依赖 #44 和 #47 部分进度；反向更新 OPC 架构与对话助手 related。
->
-> **🆕 新增 #50**：OPC 销售智能体实测 Wave 1，针对欧阳锋 #47/#49 终审提出的「System Prompt 尚未在真实模型运行」这一首要改进点；由老顽童(Kimi) 在 Claude/GPT 真实环境中测试 7 张 agent-spec，覆盖四个行业场景；产出迭代日志、KDO 回流清单、case 归档；为后续 Wave 2 和底层逻辑域升级积累实测数据。
->
-> **🆕 新增 #51**：一堂底层逻辑域建设：Y模型 + 实事求是 + 解放思想；王语嫣裁定 Y模型就地重写升级现有 `yt-decision-y-model`（不新建卡、不改 ID），作为 KDO 根节点；实事求是/解放思想仍新建 framework；实事求是、解放思想素材均已就位，7 张卡全部可开工；从解放思想口述稿中扫描出 148 条案例候选，不轻易丢弃，需二次判断；旧卡加迁移提示，可用 `status: deprecated` 但不引入新 schema 字段；为后续 Y模型教练 Agent 奠定方法论底座。
->
-> **🆕 新增 #52**：Y模型根节点化基础设施，由黄药师负责；王语嫣裁定本周不做 schema 改造、不新增 lint 规则、不创建文档；只做 #51 完成后的 `kdo index --rebuild`，验证 `yt-decision-y-model` 成为查询中心，并用 `kdo pipeline` 监控 Agent 反馈信号；schema/deprecation 字段设计进入 backlog。
->
-> **🆕 新增 #53**：案例卡补挖任务；王语嫣复盘发现 #40《吾辈如神》和 #41 时间管理域升级只产出 concept/tool/dk/framework 卡，未提炼 companion case；用户反馈案例卡应更多；本任务从已有素材补挖 4-6 张 case 卡，为 #40/#41 提供事实臂锚点；P2 backfill，不阻塞已有任务封账。
->
-> **🆕 新增 #54**：已消化素材案例卡补扫试点；黄药师建议全量补扫 8 批素材，王语嫣独立判断后改为只试点 3 个高优先级域（科学决策 / 泛产品设计 / 战略）；不与 #42 暗知识补挖合并；排除已由 #53 覆盖的时间管理/吾辈如神；只扫描标记候选，不直接产完整 case 卡。
->
-> **🆕 新增 #55**：Y模型 OS；黄药师提出正确 Agent 分层：Y模型+实事求是+解放思想是所有 Agent 共享底层 OS，不是独立元 Agent；本任务把 OS 写成可复用 prompt 片段，所有 agent-spec 默认加载；域层按需建设，用户层持续迭代；Coach 模式只作为可选入口，不替代域 Agent；依赖 #51 终审通过。
->
-> **🆕 新增 #56**：#51 收尾任务；#51 终审时因素材未到位保留 2 个 framework stub（实事求是/解放思想），现在素材已处理就位，老顽童补全后重新提交欧阳锋终审。
->
-> **🆕 新增 #57**：GraphRAG 健康度提升；#52 终审指出 orphan 比例 36%、1235 个 connected components；本任务分析 orphan 来源并补充跨域 related 链接，目标 orphan ≤30%、components ≤900、健康度 ≥72/100。
->
-> **🆕 新增 #62**：#59 Agent Prompt 编译器微债务；王语嫣已开任务单并入队；黄药师负责补全 `agent-native-card-design.md` 三层编译章节（OS/域/用户）与 source 字段规范（`os_sources`/`domain_sources`/`user_sources`/`compiled_at`/`compiler_version`）；至少补全 4 张试点 agent-spec 卡 frontmatter；P2。
->
-> **🆕 新增 #63**：一行双三角第二批案例补产；用户指令「老顽童在王语嫣基础上再重做一次补充任务」；老顽童(Kimi) 负责基于第一批 14 张卡和 4 张占位卡，补产天末/阿豪/花总/陈天 4 张完整 case 卡；同时交叉检查第一批 14 张卡，反向修复实质性缺口；P1。
->
-> **✅ #61 终审通过（2026-07-04）**：老顽童(Kimi) 产出的 7 张 companion case 卡通过欧阳锋终审，`queue_transition.py` 状态已更新为 `reviewed`；#60 queue_transition 修复正式解锁，但 #60 仍为 `queued` 状态，需黄药师先运行 `complete` 再由欧阳锋 review。
-> **🆕 新增 #76（2026-07-04）**：王语嫣重读双三角口述稿全文后发现飞轮模型只覆盖正向循环，缺失败模式。口述稿 L1680-1688（互相糊弄死亡飞轮）和 L3942-3992（判断力退化飞轮）KDO 目前无卡覆盖。新建 1 张 dk 卡 `dk-ai-collaboration-degradation-spiral`，P1，排队尾。
-> **🆕 新增 #77-#83（2026-07-04）**：人在环追补、AI原生引擎、静态化修复、报告书型学习者、画布修补、审美修补、Feature修补。建立修补任务模式：新洞察→新任务→队尾，不往已有任务文件追加内容。
-> **🆕 新增 #84-#86（2026-07-04）**：从"逆向一堂YAI"拆出的三层架构洞察——知识层与数据层解耦 framework（#84）、AI辅助双三角复盘法 method（#85）、方法论生产流水线 concept（#86）。
+- **Production Queue**: #60-#118 全部 reviewed/done（2026-07-07）
+- **Active Tasks**: 无——上一轮生产周期已结束，等待新任务入队
+- **黄药师**: P-10 跨域模式层完成；管道碎片化清理中
+- **王语嫣**: 任务编排建议书已提交（OSCAR 卡补齐 / external-exploration-sop 补写）
+- **老顽童**: 待命，production-queue 无 queued 任务
+- **欧阳锋**: 月度抽检模式
+- **洪七公/段王爷**: 待命
+
+> **管道收拢（2026-07-07）**：以下旧文件已废弃——`laowantong-next-tasks.md`、`laowantong-batch-2026-06-20.md`、`laowantong-assignment-2026-06-20.md`、`hongqigong-next-tasks.md`、`duanwangye-next-tasks.md`、`wangyuyan-next-tasks.md`。Agent 启动后只读 `production-queue.md`。
 
 ---
 
