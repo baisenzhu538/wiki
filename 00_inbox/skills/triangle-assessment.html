@@ -1,0 +1,1717 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>三角形成长测评 · 蓝鱼青少年自驱力</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --human:#E74C3C;
+  --human-light:#FDEDEC;
+  --human-dark:#C0392B;
+  --ai:#1A73E8;
+  --ai-light:#E8F0FE;
+  --ai-dark:#1557B0;
+  --bg:#F7F8FA;
+  --card:#FFFFFF;
+  --text:#2D3436;
+  --text-light:#636E72;
+  --border:#E8EAED;
+  --shadow:0 2px 12px rgba(0,0,0,0.06);
+  --shadow-lg:0 8px 32px rgba(0,0,0,0.1);
+  --radius:16px;
+}
+html,body{height:100%;}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  -webkit-tap-highlight-color:transparent;
+}
+
+/* ===== Landing Page ===== */
+#landing{
+  height:100vh;
+  height:100dvh;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  background:#E84C3D;
+  overflow:hidden;
+  position:relative;
+}
+.landing-side{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:88px 20px 40px;
+  cursor:pointer;
+  overflow:hidden;
+  -webkit-tap-highlight-color:transparent;
+}
+.landing-side.red{background:#E84C3D;color:rgba(255,255,255,.96);}
+.landing-side.blue{background:#1A73E8;color:rgba(255,255,255,.96);}
+.landing-side::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:radial-gradient(ellipse 70% 55% at 50% 25%,rgba(255,255,255,.18) 0%,rgba(255,255,255,0) 70%);
+  pointer-events:none;
+  z-index:0;
+}
+.landing-side.red::after{
+  content:'';
+  position:absolute;
+  right:0;top:0;bottom:0;width:0;
+  background:transparent;
+  pointer-events:none;
+  z-index:1;
+}
+.landing-side .side-stack{
+  position:relative;
+  z-index:3;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  max-width:280px;
+  width:100%;
+  height:100%;
+  justify-content:flex-start;
+  padding-top:30%;
+  gap:0;
+}
+.landing-side .side-tag{
+  font-size:clamp(9px,1.05vw,11px);
+  font-weight:600;
+  letter-spacing:clamp(3px,.42vw,5px);
+  opacity:.55;
+  text-transform:uppercase;
+  margin-bottom:clamp(22px,3.2vh,36px);
+  color:rgba(255,255,255,.85);
+}
+.landing-side .side-name{
+  font-size:clamp(26px,3.4vw,40px);
+  font-weight:800;
+  letter-spacing:clamp(1.5px,.28vw,3.5px);
+  line-height:1.1;
+  margin-bottom:clamp(8px,1.6vh,16px);
+  color:#fff;
+  text-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+.landing-side .side-sub{
+  font-size:clamp(9.5px,.95vw,12px);
+  font-weight:500;
+  letter-spacing:clamp(1.5px,.25vw,3px);
+  opacity:.6;
+  margin-bottom:clamp(6px,1.1vh,12px);
+  color:rgba(255,255,255,.95);
+}
+.landing-side .side-dots{
+  font-size:clamp(9.5px,.95vw,12px);
+  font-weight:400;
+  letter-spacing:clamp(.5px,.1vw,1.2px);
+  opacity:.75;
+  color:rgba(255,255,255,.98);
+  margin-bottom:0;
+}
+.landing-side .side-cta{
+  position:absolute;
+  z-index:3;
+  left:50%;
+  bottom:30%;
+  transform:translateX(-50%);
+  font-size:clamp(10.5px,1.05vw,13px);
+  font-weight:500;
+  letter-spacing:clamp(4px,.55vw,7px);
+  padding:clamp(10px,1.4vh,14px) 0;
+  width:clamp(150px,16vw,200px);
+  text-align:center;
+  border-top:1px solid rgba(255,255,255,.5);
+  border-bottom:1px solid rgba(255,255,255,.5);
+  transition:all .35s cubic-bezier(.2,.7,.2,1);
+  padding-left:6px;
+}
+.landing-side:hover .side-cta{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.7);letter-spacing:8px;}
+.landing-side:active .side-cta{background:rgba(255,255,255,.18);}
+.landing-poem-top{
+  position:absolute;
+  top:clamp(16px,2.4vh,28px);
+  left:0;
+  right:0;
+  z-index:5;
+  text-align:center;
+  font-weight:300;
+  line-height:1.5;
+  pointer-events:none;
+  padding:0 20px;
+}
+.landing-poem-top .line1{
+  font-size:clamp(9.5px,1vw,12px);
+  letter-spacing:clamp(3px,.55vw,7px);
+  color:rgba(255,255,255,.85);
+  font-weight:400;
+  text-transform:uppercase;
+  margin-bottom:6px;
+}
+.landing-poem-top .line1::before,.landing-poem-top .line1::after{
+  content:'';
+  display:inline-block;
+  width:clamp(10px,1.4vw,22px);height:1px;
+  background:rgba(255,255,255,.5);
+  vertical-align:middle;
+  margin:0 clamp(6px,.8vw,14px);
+}
+.landing-poem-top .line2{
+  font-size:clamp(8.5px,.9vw,11px);
+  letter-spacing:clamp(1.5px,.28vw,3.5px);
+  color:rgba(255,255,255,.6);
+  font-weight:300;
+}
+.landing-credit{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:clamp(14px,2.4vh,32px);
+  z-index:6;
+  text-align:center;
+  font-weight:300;
+  color:rgba(255,255,255,.82);
+  pointer-events:none;
+  padding:0 20px;
+  line-height:1.75;
+  font-size:clamp(8.5px,.92vw,11.5px);
+  letter-spacing:.6px;
+  white-space:nowrap;
+  display:flex;
+  align-items:baseline;
+  justify-content:center;
+}
+.landing-credit .credit-key{
+  font-weight:700;
+  color:#fff;
+  letter-spacing:clamp(.8px,.13vw,1.6px);
+  position:relative;
+  padding-bottom:2px;
+}
+.landing-credit .credit-full{
+  flex:0 0 auto;
+}
+.landing-credit .credit-sep{
+  display:inline-block;
+  margin:0 14px;
+  color:rgba(255,255,255,.6);
+  font-weight:300;
+  flex:0 0 auto;
+  position:relative;
+  z-index:6;
+}
+.landing-credit .credit-key{
+  font-weight:700;
+  color:#fff;
+  letter-spacing:1.4px;
+  position:relative;
+  padding-bottom:2px;
+}
+.landing-credit .credit-key::after{
+  content:'';
+  position:absolute;
+  left:8%;
+  right:8%;
+  bottom:0;
+  height:1px;
+  background:rgba(255,255,255,.85);
+}
+@media(max-width:600px){
+  .landing-side{padding:78px 12px 30px;}
+  .landing-side .side-stack{max-width:240px;padding-top:24%;}
+  .landing-poem-top .line1{letter-spacing:3px;}
+  .landing-poem-top .line1::before,.landing-poem-top .line1::after{width:10px;margin:0 6px;}
+  .landing-poem-top .line2{letter-spacing:1.5px;}
+  .landing-credit .credit-sep{margin:0 9px;}
+  .landing-credit{white-space:normal;line-height:1.65;}
+}
+
+/* ===== Top Tab Switcher ===== */
+.top-tabs{
+  position:sticky;
+  top:0;
+  z-index:200;
+  background:#fff;
+  display:flex;
+  border-bottom:1px solid #E8EAED;
+  box-shadow:0 1px 4px rgba(0,0,0,.05);
+}
+.top-tabs .tab{
+  flex:1;
+  text-align:center;
+  padding:14px 8px 12px;
+  font-size:14px;
+  font-weight:600;
+  color:var(--text-light);
+  cursor:pointer;
+  position:relative;
+  transition:color .2s;
+  background:transparent;
+  border:none;
+  -webkit-tap-highlight-color:transparent;
+}
+.top-tabs .tab.active.red{color:var(--human);}
+.top-tabs .tab.active.blue{color:var(--ai);}
+.top-tabs .tab .tab-sub{
+  display:block;
+  font-size:10px;
+  font-weight:500;
+  color:#999;
+  margin-top:2px;
+  letter-spacing:.3px;
+}
+.top-tabs .tab.active.red .tab-sub{color:var(--human);}
+.top-tabs .tab.active.blue .tab-sub{color:var(--ai);}
+.top-tabs .tab.active::after{
+  content:'';
+  position:absolute;
+  left:50%;transform:translateX(-50%);
+  bottom:0;
+  width:32px;height:3px;
+  border-radius:2px;
+}
+.top-tabs .tab.active.red::after{background:var(--human);}
+.top-tabs .tab.active.blue::after{background:var(--ai);}
+.top-tabs .tab .badge{
+  display:inline-block;
+  font-size:9px;
+  padding:1px 5px;
+  border-radius:8px;
+  background:#F1F3F5;
+  color:#999;
+  margin-left:4px;
+  font-weight:500;
+}
+.top-tabs .tab.active.red .badge{background:var(--human-light);color:var(--human);}
+.top-tabs .tab.active.blue .badge{background:var(--ai-light);color:var(--ai);}
+
+/* ===== Assessment / Results Container ===== */
+#stage{display:none;min-height:100vh;min-height:100dvh;padding-bottom:80px;}
+#stage.show{display:block;}
+
+/* Theme accents: human = red, ai = blue (default fallback uses current triangle) */
+body.theme-human{--accent:var(--human);--accent-light:var(--human-light);--accent-dark:var(--human-dark);}
+body.theme-ai{--accent:var(--ai);--accent-light:var(--ai-light);--accent-dark:var(--ai-dark);}
+
+/* ===== Step Pager (one step per "page") ===== */
+.dim-step{display:none;}
+.dim-step.show{display:block;animation:fadeIn .35s ease;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
+
+.progress-bar-wrap{
+  padding:14px 20px 12px;
+  background:#fff;
+  border-bottom:1px solid #F1F3F5;
+}
+.progress-bar-wrap .top-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:8px;
+}
+.progress-bar-wrap .dim-label{font-size:14px;font-weight:600;}
+.progress-bar-wrap .progress-text{font-size:12px;color:var(--text-light);}
+.progress-track{height:5px;background:var(--border);border-radius:3px;overflow:hidden;}
+.progress-fill{height:100%;border-radius:3px;transition:width .4s ease;}
+
+.assessment-container{
+  max-width:760px;
+  margin:0 auto;
+  padding:24px 20px;
+}
+.dim-header{
+  text-align:center;
+  margin-bottom:22px;
+}
+.dim-header .dim-icon{
+  width:52px;height:52px;
+  border-radius:14px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:22px;
+  font-weight:700;
+  color:#fff;
+  margin:0 auto 10px;
+}
+.dim-header h2{font-size:20px;font-weight:700;margin-bottom:4px;}
+.dim-header p{font-size:13px;color:var(--text-light);line-height:1.5;}
+
+.submodule-group{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:22px 20px;
+  margin-bottom:14px;
+  box-shadow:var(--shadow);
+}
+.submodule-group .sub-header{
+  display:flex;align-items:center;gap:8px;
+  margin-bottom:14px;
+  padding-bottom:10px;
+  border-bottom:1px solid var(--border);
+}
+.submodule-group .sub-tag{
+  font-size:11px;font-weight:700;
+  padding:3px 8px;border-radius:5px;color:#fff;
+}
+.submodule-group .sub-name{font-size:15px;font-weight:600;}
+
+.question-item{
+  padding:14px 0;
+  border-bottom:1px solid #F1F3F5;
+}
+.question-item:last-child{border-bottom:none;}
+.question-item .q-text{
+  font-size:14.5px;margin-bottom:10px;
+  display:flex;gap:8px;line-height:1.6;
+}
+.question-item .q-num{
+  color:var(--text-light);font-weight:600;flex-shrink:0;
+}
+.question-item .q-reverse{
+  font-size:10px;margin-left:6px;padding:1px 5px;border-radius:3px;
+  white-space:nowrap;
+  color:#fff;
+  background:#888;
+}
+
+.scale-options{display:flex;gap:6px;}
+.scale-btn{
+  flex:1;padding:10px 2px;border:2px solid var(--border);
+  border-radius:10px;background:#fff;cursor:pointer;
+  text-align:center;
+  transition:all .2s;
+  -webkit-tap-highlight-color:transparent;
+}
+.scale-btn .scale-num{display:block;font-size:18px;font-weight:700;margin-bottom:1px;}
+.scale-btn .scale-label{font-size:10px;color:var(--text-light);}
+.scale-btn.selected{border-color:currentColor;color:#fff;}
+.scale-btn.selected .scale-label{color:rgba(255,255,255,.85);}
+.scale-btn.red.selected{background:var(--human);border-color:var(--human);}
+.scale-btn.blue.selected{background:var(--ai);border-color:var(--ai);}
+
+.nav-buttons{
+  display:flex;justify-content:space-between;gap:12px;
+  max-width:760px;margin:0 auto;padding:0 20px;
+}
+.btn-nav{
+  flex:1;padding:12px 16px;
+  border:2px solid var(--border);
+  border-radius:12px;background:#fff;
+  font-size:15px;font-weight:600;
+  cursor:pointer;
+  color:var(--text);
+  -webkit-tap-highlight-color:transparent;
+}
+.btn-nav.primary-red{background:var(--human);color:#fff;border-color:var(--human);}
+.btn-nav.primary-blue{background:var(--ai);color:#fff;border-color:var(--ai);}
+.btn-nav:disabled{opacity:.4;cursor:not-allowed;}
+
+/* ===== Results ===== */
+.dim-step.results-show{padding:24px 0;}
+.results-container{max-width:800px;margin:0 auto;padding:0 20px;}
+.results-header{text-align:center;margin-bottom:24px;}
+.results-header h1{font-size:24px;font-weight:700;margin-bottom:6px;}
+.results-header p{font-size:13px;color:var(--text-light);}
+
+.dim-cards{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:10px;
+  margin-bottom:20px;
+}
+.dim-card{
+  background:var(--card);
+  border-radius:14px;
+  padding:18px 12px;
+  text-align:center;
+  box-shadow:var(--shadow);
+  position:relative;
+  overflow:hidden;
+}
+.dim-card::before{
+  content:'';position:absolute;
+  top:0;left:0;right:0;height:3px;
+}
+.dim-card.aes::before{background:var(--human);}
+.dim-card.sce::before{background:var(--human);}
+.dim-card.sys::before{background:var(--ai);}
+.dim-card.ski::before{background:var(--ai);}
+.dim-card.inn::before{background:#7B68EE;}
+.dim-card.dat::before{background:#7B68EE;}
+.dim-card .dim-name{font-size:12px;color:var(--text-light);margin-bottom:6px;}
+.dim-card .dim-level{font-size:18px;font-weight:700;margin-bottom:3px;}
+.dim-card .dim-sub{font-size:11px;color:var(--text-light);}
+
+.score-section{
+  background:var(--card);
+  border-radius:14px;
+  padding:22px 20px;
+  margin-bottom:14px;
+  box-shadow:var(--shadow);
+}
+.score-section h3{font-size:15px;font-weight:600;margin-bottom:14px;display:flex;align-items:center;gap:8px;}
+.score-section h3 .dot{width:8px;height:8px;border-radius:50%;}
+.score-bar-item{margin-bottom:11px;}
+.score-bar-item .bar-header{
+  display:flex;justify-content:space-between;
+  font-size:12.5px;margin-bottom:5px;
+}
+.score-bar-item .bar-name{font-weight:500;}
+.score-bar-item .bar-score{font-weight:600;color:var(--text-light);}
+.score-bar-track{height:7px;background:#F1F3F5;border-radius:4px;overflow:hidden;}
+.score-bar-fill{height:100%;border-radius:4px;transition:width .8s ease;}
+.score-bar-fill.pass{background:linear-gradient(90deg,#2ECC71,#27AE60);}
+.score-bar-fill.fail{background:linear-gradient(90deg,#F39C12,#E67E22);}
+
+.analysis-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px;
+}
+.analysis-card{
+  background:var(--card);
+  border-radius:14px;
+  padding:18px;
+  box-shadow:var(--shadow);
+}
+.analysis-card h3{
+  font-size:14px;font-weight:600;margin-bottom:10px;
+  display:flex;align-items:center;gap:6px;
+}
+.analysis-card.strength h3{color:#27AE60;}
+.analysis-card.weakness h3{color:#E67E22;}
+.analysis-card ul{list-style:none;}
+.analysis-card li{
+  font-size:12.5px;color:var(--text-light);
+  padding:5px 0 5px 18px;position:relative;line-height:1.55;
+}
+.analysis-card.strength li::before{content:'+';position:absolute;left:0;color:#27AE60;font-weight:700;}
+.analysis-card.weakness li::before{content:'!';position:absolute;left:0;color:#E67E22;font-weight:700;}
+
+.bottleneck-card{
+  background:linear-gradient(135deg,#FFF5F5,#FFF0F0);
+  border:1px solid #FFD0D0;
+  border-radius:14px;padding:18px;margin-bottom:14px;
+}
+.bottleneck-card h3{font-size:14px;font-weight:600;color:#E74C3C;margin-bottom:8px;}
+.bottleneck-card p{font-size:13px;color:#C0392B;line-height:1.7;}
+
+.growth-plan{
+  border-radius:14px;padding:24px 20px;
+  color:#fff;margin-bottom:14px;
+}
+.growth-plan.red{background:linear-gradient(135deg,#FF6B6B 0%,#E74C3C 60%,#C0392B 100%);}
+.growth-plan.blue{background:linear-gradient(135deg,#4A90E2 0%,#1A73E8 60%,#1557B0 100%);}
+.growth-plan .plan-tag{
+  display:inline-block;font-size:11px;
+  padding:3px 10px;background:rgba(255,255,255,.22);
+  border-radius:5px;margin-bottom:12px;
+}
+.growth-plan h2{font-size:19px;font-weight:700;margin-bottom:6px;}
+.growth-plan .plan-subtitle{font-size:13px;opacity:.85;margin-bottom:18px;line-height:1.6;}
+.plan-section{margin-bottom:14px;}
+.plan-section .plan-label{font-size:11px;opacity:.7;margin-bottom:6px;letter-spacing:1px;}
+.plan-tasks{list-style:none;margin-top:6px;}
+.plan-tasks li{padding:6px 0 6px 26px;position:relative;font-size:13.5px;line-height:1.65;}
+.plan-tasks li::before{content:'';position:absolute;left:0;top:12px;width:16px;height:16px;border-radius:50%;background:rgba(255,255,255,.22);}
+.plan-tasks li::after{content:attr(data-num);position:absolute;left:5px;top:11px;font-size:11px;font-weight:700;}
+.plan-stop{background:rgba(255,255,255,.12);border-radius:8px;padding:11px 12px;font-size:13px;line-height:1.6;}
+.plan-timeline{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;}
+.timeline-item{flex:1;min-width:90px;background:rgba(255,255,255,.12);border-radius:8px;padding:11px 8px;text-align:center;}
+.timeline-item .tl-label{font-size:10px;opacity:.7;margin-bottom:3px;}
+.timeline-item .tl-value{font-size:13px;font-weight:600;line-height:1.4;}
+
+.radar-section{
+  background:var(--card);
+  border-radius:14px;padding:20px;
+  margin-bottom:14px;
+  box-shadow:var(--shadow);
+  text-align:center;
+  overflow-x:auto;
+}
+.radar-section h3{font-size:15px;font-weight:600;margin-bottom:12px;text-align:left;}
+#radar-svg{max-width:100%;height:auto;}
+
+.actions{display:flex;justify-content:center;gap:12px;margin-top:24px;flex-wrap:wrap;padding:0 20px;}
+.btn-action{
+  padding:11px 22px;
+  border:2px solid var(--border);
+  border-radius:10px;
+  background:#fff;
+  font-size:14px;font-weight:600;
+  cursor:pointer;
+  color:var(--text);
+  -webkit-tap-highlight-color:transparent;
+}
+.btn-action.primary-red{background:var(--human);color:#fff;border-color:var(--human);}
+.btn-action.primary-blue{background:var(--ai);color:#fff;border-color:var(--ai);}
+
+/* ===== Floating Widget ===== */
+.bf-float{position:fixed;z-index:9999;user-select:none;-webkit-user-select:none;}
+.bf-trigger{
+  width:48px;height:48px;border-radius:50%;
+  background:linear-gradient(135deg,#0ea5e9,#0369a1);
+  box-shadow:0 4px 14px rgba(14,165,233,.4),0 2px 6px rgba(0,0,0,.12);
+  cursor:pointer;display:flex;align-items:center;justify-content:center;
+  font-size:24px;color:#fff;
+  transition:transform .25s,box-shadow .25s;
+  border:none;outline:none;-webkit-tap-highlight-color:transparent;position:relative;
+}
+.bf-trigger:hover{transform:scale(1.08);}
+.bf-trigger:active{transform:scale(.95);}
+.bf-trigger .bf-pulse{position:absolute;width:100%;height:100%;border-radius:50%;background:rgba(14,165,233,.35);animation:bfpulse 2s ease-in-out infinite;pointer-events:none;}
+@keyframes bfpulse{0%,100%{transform:scale(1);opacity:.5;}50%{transform:scale(1.45);opacity:0;}}
+.bf-popup{
+  position:absolute;bottom:58px;right:0;
+  background:#1a1a1a;color:#fff;
+  padding:9px 14px;
+  border-radius:8px;
+  white-space:nowrap;
+  font-size:12.5px;
+  letter-spacing:.3px;
+  font-weight:500;
+  box-shadow:0 6px 20px rgba(0,0,0,.22);
+  opacity:0;visibility:hidden;
+  transform:translateY(6px);
+  transition:all .25s ease;
+  pointer-events:none;
+}
+.bf-popup.show{opacity:1;visibility:visible;transform:translateY(0);pointer-events:auto;}
+.bf-popup::after{
+  content:'';position:absolute;
+  right:18px;bottom:-5px;
+  width:10px;height:10px;
+  background:#1a1a1a;
+  transform:rotate(45deg);
+}
+.bf-popup .bf-popup-handle{
+  display:inline-block;
+  width:18px;height:18px;
+  border-radius:50%;
+  background:linear-gradient(135deg,#0ea5e9,#0369a1);
+  vertical-align:-4px;
+  margin-right:6px;
+  font-size:11px;
+  text-align:center;
+  line-height:18px;
+}
+
+/* ===== Mobile Optimizations ===== */
+@media(max-width:600px){
+  .dim-cards{grid-template-columns:1fr;}
+  .analysis-grid{grid-template-columns:1fr;}
+  .scale-btn .scale-label{display:none;}
+  .landing-cards{gap:10px;}
+  .lc{min-height:180px;padding:14px 12px;}
+  .lc-icon{font-size:32px;}
+  .lc-title{font-size:16px;}
+  .plan-timeline{flex-direction:column;}
+  .top-tabs .tab{font-size:13px;padding:12px 6px 10px;}
+  .nav-buttons{flex-direction:column;gap:8px;}
+  .btn-nav{text-align:center;}
+  .dim-header h2{font-size:18px;}
+  .question-item .q-text{font-size:13.5px;}
+  .scale-btn{padding:9px 1px;}
+  .scale-btn .scale-num{font-size:16px;}
+  .lc-desc{font-size:11px;}
+  .lc-cta{font-size:11px;}
+}
+</style>
+</head>
+<body>
+
+<!-- ===== Landing Page ===== -->
+<div id="landing">
+  <div class="landing-poem-top">
+    <div class="line1">TWO  TRIANGLES</div>
+    <div class="line2">看见不同侧面的自己</div>
+  </div>
+  <div class="landing-side red" onclick="enter('human')">
+    <div class="side-stack">
+      <div class="side-tag">Part 01</div>
+      <div class="side-name">人类三角形</div>
+      <div class="side-sub">HUMAN  TRIANGLE</div>
+      <div class="side-dots">审美 · 体系 · 创新</div>
+      <div class="side-cta">开 始 测 评</div>
+    </div>
+  </div>
+  <div class="landing-side blue" onclick="enter('ai')">
+    <div class="side-stack">
+      <div class="side-tag">Part 02</div>
+      <div class="side-name">AI 三角形</div>
+      <div class="side-sub">AI  TRIANGLE</div>
+      <div class="side-dots">场景 · 基本功 · 数据</div>
+      <div class="side-cta">开 始 测 评</div>
+    </div>
+  </div>
+  <div class="landing-credit">
+    <span class="credit-full"><span class="credit-key">Yitang.top</span> 双三角</span><span class="credit-sep">·</span><span class="credit-full">Design by <span class="credit-key">blue2fish</span></span>
+  </div>
+</div>
+
+<!-- ===== Stage: Assessment + Results ===== -->
+<div id="stage" style="display:none;">
+  <!-- Top Tab Switcher (always visible) -->
+  <div class="top-tabs">
+    <button class="tab" id="tab-human" onclick="enter('human')">
+      人类三角形
+      <span class="tab-sub">审美 · 体系 · 创新</span>
+      <span class="badge" id="badge-human">未测</span>
+    </button>
+    <button class="tab" id="tab-ai" onclick="enter('ai')">
+      AI 三角形
+      <span class="tab-sub">场景 · 基本功 · 数据</span>
+      <span class="badge" id="badge-ai">未测</span>
+    </button>
+  </div>
+  <!-- Step container -->
+  <div id="step-container">
+    <!-- Per-step content gets injected here -->
+  </div>
+</div>
+
+<!-- ===== Floating Widget (only on stage) ===== -->
+<div class="bf-float" id="bfFloat" style="right:18px;bottom:18px;display:none;">
+  <button class="bf-trigger" id="bfTrigger">
+    <span class="bf-pulse"></span>🐟
+  </button>
+  <div class="bf-popup" id="bfPopup">微信号：son-flower</div>
+</div></div>
+
+<script>
+// ===== Data =====
+const humanQuestions = [
+  // 审美 - A1 主动模仿
+  {id:1,dim:'aesthetic',sub:'A1',text:'我经常主动收藏优质内容。',reverse:false},
+  {id:2,dim:'aesthetic',sub:'A1',text:'看到优秀作品时，我会反复研究。',reverse:false},
+  {id:3,dim:'aesthetic',sub:'A1',text:'我会模仿优秀作者的表达或结构。',reverse:false},
+  {id:4,dim:'aesthetic',sub:'A1',text:'我愿意长期阅读经典作品，而不仅是热点内容。',reverse:false},
+  // 审美 - A2 我能看见
+  {id:5,dim:'aesthetic',sub:'A2',text:'我能够快速判断一篇内容是否专业。',reverse:false},
+  {id:6,dim:'aesthetic',sub:'A2',text:'我能清晰说出一篇内容为什么优秀。',reverse:false},
+  {id:7,dim:'aesthetic',sub:'A2',text:'我能识别内容中的逻辑漏洞。',reverse:false},
+  {id:8,dim:'aesthetic',sub:'A2',text:'我能区分事实、观点、案例和情绪表达。',reverse:false},
+  // 审美 - A3 筛选入围
+  {id:9,dim:'aesthetic',sub:'A3',text:'我有明确的学习主题和研究方向。',reverse:false},
+  {id:10,dim:'aesthetic',sub:'A3',text:'我知道哪些内容不值得学习。',reverse:false},
+  {id:11,dim:'aesthetic',sub:'A3',text:'我有自己的选书标准。',reverse:false},
+  {id:12,dim:'aesthetic',sub:'A3',text:'面对大量信息时，我能够主动舍弃大部分内容。',reverse:false},
+  // 审美 - A4 提炼模型
+  {id:13,dim:'aesthetic',sub:'A4',text:'我阅读时会主动总结规律。',reverse:false},
+  {id:14,dim:'aesthetic',sub:'A4',text:'我经常绘制知识图谱或结构图。',reverse:false},
+  {id:15,dim:'aesthetic',sub:'A4',text:'我能够把一本书提炼成几个核心模型。',reverse:false},
+  {id:16,dim:'aesthetic',sub:'A4',text:'我能够发现不同领域之间的共同规律。',reverse:false},
+
+  // 体系 - S1 散点阶段
+  {id:17,dim:'system',sub:'S1',text:'我的知识资料分散在多个平台中。',reverse:true},
+  {id:18,dim:'system',sub:'S1',text:'我经常找不到以前保存过的资料。',reverse:true},
+  {id:19,dim:'system',sub:'S1',text:'我拥有统一的知识收集入口。',reverse:false},
+  {id:20,dim:'system',sub:'S1',text:'我会定期整理自己的知识库。',reverse:false},
+  // 体系 - S2 TopN优先级
+  {id:21,dim:'system',sub:'S2',text:'我清楚自己当前最重要的研究主题。',reverse:false},
+  {id:22,dim:'system',sub:'S2',text:'我不会同时研究过多主题。',reverse:false},
+  {id:23,dim:'system',sub:'S2',text:'我的学习主要围绕现实问题展开。',reverse:false},
+  {id:24,dim:'system',sub:'S2',text:'我会主动放弃次要信息。',reverse:false},
+  // 体系 - S3 MECE结构
+  {id:25,dim:'system',sub:'S3',text:'我会系统地对知识进行分类。',reverse:false},
+  {id:26,dim:'system',sub:'S3',text:'我能够搭建主题知识框架。',reverse:false},
+  {id:27,dim:'system',sub:'S3',text:'我的分类能够做到尽量不重不漏。',reverse:false},
+  {id:28,dim:'system',sub:'S3',text:'我经常绘制主题地图或知识树。',reverse:false},
+  // 体系 - S4 逻辑链MECE
+  {id:29,dim:'system',sub:'S4',text:'我习惯分析问题背后的原因。',reverse:false},
+  {id:30,dim:'system',sub:'S4',text:'我能够建立完整的因果链。',reverse:false},
+  {id:31,dim:'system',sub:'S4',text:'我能够设计系统解决方案。',reverse:false},
+  {id:32,dim:'system',sub:'S4',text:'我能将知识转化为行动步骤。',reverse:false},
+
+  // 创新 - I1 流程创新
+  {id:33,dim:'innovation',sub:'I1',text:'我拥有固定的知识输入流程。',reverse:false},
+  {id:34,dim:'innovation',sub:'I1',text:'我拥有固定的知识处理流程。',reverse:false},
+  {id:35,dim:'innovation',sub:'I1',text:'我拥有固定的知识输出流程。',reverse:false},
+  {id:36,dim:'innovation',sub:'I1',text:'我会持续优化自己的工作流。',reverse:false},
+  // 创新 - I2 方案创新
+  {id:37,dim:'innovation',sub:'I2',text:'面对一个问题，我通常能够想到多个解决方案。',reverse:false},
+  {id:38,dim:'innovation',sub:'I2',text:'我喜欢尝试新的学习方法。',reverse:false},
+  {id:39,dim:'innovation',sub:'I2',text:'我经常改进已有方案。',reverse:false},
+  {id:40,dim:'innovation',sub:'I2',text:'我能够针对不同对象设计不同方案。',reverse:false},
+  // 创新 - I3 商业要素创新
+  {id:41,dim:'innovation',sub:'I3',text:'我会思考同一个知识如何服务不同用户。',reverse:false},
+  {id:42,dim:'innovation',sub:'I3',text:'我会思考新的传播渠道。',reverse:false},
+  {id:43,dim:'innovation',sub:'I3',text:'我会思考新的产品形式。',reverse:false},
+  {id:44,dim:'innovation',sub:'I3',text:'我会主动研究优秀商业模式。',reverse:false},
+  // 创新 - I4 产品重构创新
+  {id:45,dim:'innovation',sub:'I4',text:'我能把一本书转化成课程。',reverse:false},
+  {id:46,dim:'innovation',sub:'I4',text:'我能把课程转化成社群活动。',reverse:false},
+  {id:47,dim:'innovation',sub:'I4',text:'我能把知识设计成训练营。',reverse:false},
+  {id:48,dim:'innovation',sub:'I4',text:'我经常重新设计已有产品。',reverse:false},
+  // 创新 - I5 技术应用创新
+  {id:49,dim:'innovation',sub:'I5',text:'我经常使用AI辅助学习。',reverse:false},
+  {id:50,dim:'innovation',sub:'I5',text:'我使用AI辅助写作和输出。',reverse:false},
+  {id:51,dim:'innovation',sub:'I5',text:'我使用自动化工具提升效率。',reverse:false},
+  {id:52,dim:'innovation',sub:'I5',text:'我会持续学习新的数字工具。',reverse:false},
+  // 创新 - I6 技术自研创新
+  {id:53,dim:'innovation',sub:'I6',text:'我拥有自己的原创模型。',reverse:false},
+  {id:54,dim:'innovation',sub:'I6',text:'我拥有自己的原创方法论。',reverse:false},
+  {id:55,dim:'innovation',sub:'I6',text:'我曾设计过原创工具或Skill。',reverse:false},
+  {id:56,dim:'innovation',sub:'I6',text:'我的模型或方法正在被别人使用。',reverse:false},
+];
+const humanSubModules = {
+
+  'A1':{name:'主动模仿',dim:'aesthetic',dimName:'审美',order:1,desc:'主动收藏、研究、模仿优质内容'},
+  'A2':{name:'我能看见',dim:'aesthetic',dimName:'审美',order:2,desc:'快速判断内容质量，识别逻辑漏洞'},
+  'A3':{name:'筛选入围',dim:'aesthetic',dimName:'审美',order:3,desc:'有明确主题，有选书标准，主动舍弃'},
+  'A4':{name:'提炼模型',dim:'aesthetic',dimName:'审美',order:4,desc:'总结规律，绘制图谱，提炼核心模型'},
+  'S1':{name:'散点管理',dim:'system',dimName:'体系',order:1,desc:'统一入口，定期整理，告别分散'},
+  'S2':{name:'TopN聚焦',dim:'system',dimName:'体系',order:2,desc:'聚焦核心主题，主动放弃次要'},
+  'S3':{name:'MECE结构',dim:'system',dimName:'体系',order:3,desc:'系统分类，搭建框架，不重不漏'},
+  'S4':{name:'逻辑链系统',dim:'system',dimName:'体系',order:4,desc:'因果链分析，系统方案，行动转化'},
+  'I1':{name:'流程创新',dim:'innovation',dimName:'创新',order:1,desc:'固定的输入-处理-输出工作流'},
+  'I2':{name:'方案创新',dim:'innovation',dimName:'创新',order:2,desc:'多方案思维，尝试新方法，持续改进'},
+  'I3':{name:'商业创新',dim:'innovation',dimName:'创新',order:3,desc:'知识服务多用户，探索新渠道新形态'},
+  'I4':{name:'产品创新',dim:'innovation',dimName:'创新',order:4,desc:'书变课程，课程变社群，知识变训练营'},
+  'I5':{name:'技术应用',dim:'innovation',dimName:'创新',order:5,desc:'AI辅助学习写作，自动化工具提效'},
+  'I6':{name:'技术自研',dim:'innovation',dimName:'创新',order:6,desc:'原创模型、方法论、工具与Skill'},
+};
+const humanTaskMatrix = {
+
+  'A1':{
+    focus:'建立主动模仿习惯，积累优质内容素材',
+    mainTask:['每周拆解3篇优秀文章（记录结构、表达、亮点）','建立审美标准库：收藏50篇标杆内容并标注优秀原因','连续30天输出观察笔记（每天至少1条）'],
+    stopDoing:'停止无目的浏览，每次阅读都要有明确的学习意图'
+  },
+  'A2':{
+    focus:'培养内容鉴赏与批判能力',
+    mainTask:['每周深度评析2篇内容，用文字说清"好在哪里"','建立内容质量评估清单（5个维度打分）','每天练习1次区分事实与观点'],
+    stopDoing:'停止只收藏不分析，每收藏一篇至少写一句评价'
+  },
+  'A3':{
+    focus:'建立内容筛选标准，学会主动舍弃',
+    mainTask:['明确3个核心研究主题并写在显眼位置','建立选书/选内容标准清单（至少5条标准）','每周清理一次收藏夹，主动舍弃80%内容'],
+    stopDoing:'停止什么都收藏，学会用标准过滤信息'
+  },
+  'A4':{
+    focus:'从内容中提炼核心模型，发现跨领域规律',
+    mainTask:['每读完一本书提炼3个核心模型（用一句话概括）','绘制5张知识结构图（主题级可视化）','每月寻找1个跨领域共同规律并记录'],
+    stopDoing:'停止只读书不提炼，读完必须产出模型'
+  },
+  'S1':{
+    focus:'建立统一知识管理入口，告别分散',
+    mainTask:['建立统一Inbox：所有内容先进入一个入口','搭建PARA基础结构（Projects/Areas/Resources/Archives）','每周固定30分钟整理知识库'],
+    stopDoing:'停止在多个平台分散保存资料，统一到一个入口'
+  },
+  'S2':{
+    focus:'聚焦核心主题，学会放弃',
+    mainTask:['确定Top 3优先研究主题，写在知识库首页','建立"暂不研究"清单，主动搁置次要主题','每月做一次聚焦复盘：是否在核心主题上'],
+    stopDoing:'停止同时追求过多主题，学会对次要信息说不'
+  },
+  'S3':{
+    focus:'搭建知识框架，做到不重不漏',
+    mainTask:['为每个核心主题搭建MECE知识框架','绘制5张主题知识地图（思维导图）','建立个人分类标准文档'],
+    stopDoing:'停止碎片化学习，先建框架再填充细节'
+  },
+  'S4':{
+    focus:'建立因果链与行动转化能力',
+    mainTask:['练习5Why因果链分析（每周1个核心问题）','为每个核心问题设计系统解决方案','将知识转化为可执行的行动清单'],
+    stopDoing:'停止只积累不应用，知识必须转化为行动步骤'
+  },
+  'I1':{
+    focus:'建立稳定的IPO工作流',
+    mainTask:['建立IPO工作流：输入-处理-输出的固定流程','每周完成1次完整输入输出闭环','每月优化一个工作流环节'],
+    stopDoing:'停止随机学习，建立固定的输入-处理-输出节奏'
+  },
+  'I2':{
+    focus:'培养多元方案思维',
+    mainTask:['每个问题至少想3个解决方案再选最优','每月尝试1种新的学习方法','改进1个已有方案并记录对比效果'],
+    stopDoing:'停止满足于第一个方案，养成多方案思维习惯'
+  },
+  'I3':{
+    focus:'探索知识商业化路径',
+    mainTask:['研究3个优秀商业模式案例并拆解','设计知识产品矩阵（同一知识多形态输出）','探索1个新传播渠道并测试'],
+    stopDoing:'停止只做内容不做产品，开始思考商业化'
+  },
+  'I4':{
+    focus:'知识产品化能力',
+    mainTask:['把1本书转化为课程大纲（至少5节课）','设计1个训练营方案（含打卡机制）','重新设计1个已有产品，提升用户体验'],
+    stopDoing:'停止只输出免费内容，尝试产品化封装'
+  },
+  'I5':{
+    focus:'善用AI与数字工具提效',
+    mainTask:['每周使用AI辅助学习3次以上','建立AI写作工作流（提示词模板+流程）','每月学习1个新数字工具并投入使用'],
+    stopDoing:'停止纯手工操作，用AI和工具提升效率'
+  },
+  'I6':{
+    focus:'创造原创模型与工具',
+    mainTask:['提炼1个原创模型（命名+要素+适用场景）','设计1套原创方法论（步骤+工具+案例）','开发1个工具或Skill并投入使用'],
+    stopDoing:'停止只用别人的方法，开始创造自己的体系'
+  },
+};
+const humanDimensions = {
+
+  'aesthetic':{
+    name:'审美',color:'#E76F51',light:'#FCEEEA',
+    subs:['A1','A2','A3','A4'],
+    icon:'A',desc:'看见优质、判断好坏、提炼模型的能力'
+  },
+  'system':{
+    name:'体系',color:'#2A9D8F',light:'#E8F5F3',
+    subs:['S1','S2','S3','S4'],
+    icon:'S',desc:'从散点到结构，从结构到逻辑链的系统能力'
+  },
+  'innovation':{
+    name:'创新',color:'#7B68EE',light:'#F0EDFC',
+    subs:['I1','I2','I3','I4','I5','I6'],
+    icon:'I',desc:'从流程到产品，从应用到自研的进化能力'
+  },
+};
+
+const aiQuestions = [
+  // ========== 场景维度 - 知识体系搭建的 STAR 矩阵 (16题) ==========
+  // S1 探索定位 Seek — 知识热情与方向 (4题)
+  {id:1,dim:'scene',sub:'S1',text:'我能清晰说出"用AI搭建知识体系"对我个人的核心价值是什么，不是为了赶时髦。',reverse:false},
+  {id:2,dim:'scene',sub:'S1',text:'我清楚自己当前最想突破的认知领域（如：商业/技术/心理/创作），并以此为知识体系主轴。',reverse:false},
+  {id:3,dim:'scene',sub:'S1',text:'我设定了明确的"知识体系搭建"阶段性目标（如：3个月/半年/1年），而不是漫无目的积累。',reverse:false},
+  {id:4,dim:'scene',sub:'S1',text:'我选择用AI搭建知识体系，是因为它能解决我的真实痛点（记忆/检索/输出/连接），不是看别人都在用。',reverse:false},
+
+  // S2 变革视野 Transform — 长期战略与终局预判 (4题)
+  {id:5,dim:'scene',sub:'S2',text:'我思考过知识体系搭建的"终局"：3年后我的知识库应该长什么样、能输出什么价值。',reverse:false},
+  {id:6,dim:'scene',sub:'S2',text:'我的知识体系搭建有清晰路径图（采集→整理→建模→输出→迭代），不是边走边想。',reverse:false},
+  {id:7,dim:'scene',sub:'S2',text:'我能区分"个人知识库"和"对外内容资产"两类目标，并分别规划搭建路径。',reverse:false},
+  {id:8,dim:'scene',sub:'S2',text:'我把知识体系搭建与自己的事业/创作/影响力等长期目标关联起来。',reverse:false},
+
+  // S3 提速场景 Accelerate — 效率优化与瓶颈击破 (4题)
+  {id:9,dim:'scene',sub:'S3',text:'我清楚当前知识体系搭建中最高频/最痛的具体环节（如：采集/分类/检索/输出），并已用AI优先攻克。',reverse:false},
+  {id:10,dim:'scene',sub:'S3',text:'我用AI搭建知识体系后，确能量化感受到"每周处理/消化信息的量"明显提升。',reverse:false},
+  {id:11,dim:'scene',sub:'S3',text:'我曾用AI自动化至少一个知识处理环节（如：自动摘要/自动归类/自动生成脑图/自动提取关键词）。',reverse:false},
+  {id:12,dim:'scene',sub:'S3',text:'我聚焦用AI解决"输入→消化→输出"链路中的杠杆点，而不是把它当万能工具乱用。',reverse:false},
+
+  // S4 落地场景 Realize — 知识价值化与对外输出 (4题)
+  {id:13,dim:'scene',sub:'S4',text:'我用AI+知识库产出的内容/课程/咨询/社群，已经或即将带来实际收益。',reverse:false},
+  {id:14,dim:'scene',sub:'S4',text:'我把知识体系封装成了可复用的资产（如：Skill/提示词模板/工作流），不是每次从零开始。',reverse:false},
+  {id:15,dim:'scene',sub:'S4',text:'我能算清AI知识体系的投入产出比：投入时间/工具/订阅费 vs 带来的效率提升/收入。',reverse:false},
+  {id:16,dim:'scene',sub:'S4',text:'我的知识库从"个人消化"走向了"可分享/可协作/可对外交付"的阶段。',reverse:false},
+
+  // ========== 基本功维度 — 知识体系搭建的AI能力栈 (20题) ==========
+  // K1 AI认知 — 入门基础 (4题)
+  {id:17,dim:'skill',sub:'K1',text:'我理解大语言模型/Embeddings/向量库等基本概念，知道AI为什么能辅助知识管理。',reverse:false},
+  {id:18,dim:'skill',sub:'K1',text:'我用AI时保持"人在回路"——AI负责检索/总结/连接，我负责判断/筛选/创新。',reverse:false},
+  {id:19,dim:'skill',sub:'K1',text:'我能在30分钟内上手一个新的AI知识工具（如：Notion AI/思乎/Wolai AI），并完成一个最小可用流程。',reverse:false},
+  {id:20,dim:'skill',sub:'K1',text:'我不怕AI工具更新迭代快，反而把每次更新视为优化知识体系的新机会。',reverse:false},
+
+  // K2 提示工程 — 知识处理核心 (4题)
+  {id:21,dim:'skill',sub:'K2',text:'我有一套针对知识处理的提示词结构（如：角色+背景+任务+示例+输出格式），不是临时提问。',reverse:false},
+  {id:22,dim:'skill',sub:'K2',text:'当AI总结/分类效果差时，我知道如何迭代提示词（如：给示例/分步/指定粒度），不是换工具。',reverse:false},
+  {id:23,dim:'skill',sub:'K2',text:'我会用Few-shot/思维链/结构化输出等技巧，让AI产出更符合我知识库规范的总结。',reverse:false},
+  {id:24,dim:'skill',sub:'K2',text:'我积累了至少10个针对知识处理场景（总结/翻译/提取/归类）的提示词模板。',reverse:false},
+
+  // K3 智能体与RAG — 进阶能力 (4题)
+  {id:25,dim:'skill',sub:'K3',text:'我用AI+知识库搭建过问答/检索/总结的自动化流程（如：Coze/Dify/Make/扣子等），而不只是单轮聊天。',reverse:false},
+  {id:26,dim:'skill',sub:'K3',text:'我了解RAG（检索增强生成）原理，能让AI在回答时引用我知识库中的具体内容。',reverse:false},
+  {id:27,dim:'skill',sub:'K3',text:'我能用AI把碎片输入（聊天记录/截图/灵感/网页）自动整理为结构化笔记，节省手动整理时间。',reverse:false},
+  {id:28,dim:'skill',sub:'K3',text:'我设计过"采集→处理→入库→检索→输出"的多步骤AI工作流，端到端串联知识流。',reverse:false},
+
+  // K4 向量化与编程融合 — 高级实践 (4题)
+  {id:29,dim:'skill',sub:'K4',text:'我理解Embeddings/向量检索的基本概念，能用它做"语义搜索"而非关键词搜索。',reverse:false},
+  {id:30,dim:'skill',sub:'K4',text:'我用AI辅助写过知识管理的小工具/脚本/插件（如：自动归类/批量打标签/自动备份），不依赖纯手工。',reverse:false},
+  {id:31,dim:'skill',sub:'K4',text:'我知道AI知识库的局限（如：幻觉/上下文限制/成本），并在体系设计中做了对应规避。',reverse:false},
+  {id:32,dim:'skill',sub:'K4',text:'我了解不同AI模型的特点（长文本/多模态/推理/成本），能根据知识任务选择最合适的。',reverse:false},
+
+  // K5 体系化思维 — 专家水平 (4题)
+  {id:33,dim:'skill',sub:'K5',text:'我用PARA/CODER/MOC等知识管理方法论指导AI知识库的设计，不是只堆内容。',reverse:false},
+  {id:34,dim:'skill',sub:'K5',text:'我设计过"输入-处理-输出"全链路的AI知识工作流，并形成可复用的SOP。',reverse:false},
+  {id:35,dim:'skill',sub:'K5',text:'我用AI+知识库真实解决了具体场景（写作/选题/教学/咨询/决策），不是为了"搭建"而搭建。',reverse:false},
+  {id:36,dim:'skill',sub:'K5',text:'我的AI知识体系经历过"搭建→用→优化→重构"的循环，已经迭代过至少2轮。',reverse:false},
+
+  // ========== 数据维度 — 知识体系搭建的数据资产 (16题) ==========
+  // D1 数据认知 — 知识质量意识 (4题)
+  {id:37,dim:'data',sub:'D1',text:'我理解"垃圾进垃圾出"——知识库价值取决于入库素材的质量，AI不能化腐朽为神奇。',reverse:false},
+  {id:38,dim:'data',sub:'D1',text:'我会筛选优质信源（一手/经典/权威），避免把低质信息大量喂入AI知识库。',reverse:false},
+  {id:39,dim:'data',sub:'D1',text:'我清楚什么样的素材适合结构化（书籍/课程/干货），什么样的适合留存原文（聊天/灵感/日记）。',reverse:false},
+  {id:40,dim:'data',sub:'D1',text:'我有数据/隐私意识，知道什么资料可以传AI（公开/匿名），什么不能（敏感/隐私/版权受限）。',reverse:false},
+
+  // D2 数据整理 — 结构化与标签体系 (4题)
+  {id:41,dim:'data',sub:'D2',text:'我的知识库有统一的标签/分类体系（如：领域/类型/状态/优先级），不是乱放。',reverse:false},
+  {id:42,dim:'data',sub:'D2',text:'我会用AI辅助打标签/分类/提取关键信息，把碎片内容结构化入库。',reverse:false},
+  {id:43,dim:'data',sub:'D2',text:'我的笔记/资料有双向链接或关联关系，不是孤立的单篇文档（支持网络化检索）。',reverse:false},
+  {id:44,dim:'data',sub:'D2',text:'我的知识库分散在3个以上平台，找资料时经常不知道去哪查（反向计分）。',reverse:true},
+
+  // D3 数据资产 — 知识库就绪度 (4题)
+  {id:45,dim:'data',sub:'D3',text:'我拥有可以被AI直接读取的结构化知识库（如：Markdown库/Obsidian/Notion），不是Word/PDF散件。',reverse:false},
+  {id:46,dim:'data',sub:'D3',text:'我的知识库有持续维护和更新习惯（每周至少整理/补充一次），不是搭建完就放着。',reverse:false},
+  {id:47,dim:'data',sub:'D3',text:'当我需要某个领域的资料时，能在2分钟内在知识库中准确定位到。',reverse:false},
+  {id:48,dim:'data',sub:'D3',text:'我经常找不到以前入库的重要资料（反向计分）。',reverse:true},
+
+  // D4 数据飞轮 — AI与知识库的正向循环 (4题)
+  {id:49,dim:'data',sub:'D4',text:'我会把AI的输出（如：总结/分析/脑图）反哺回知识库，作为后续的输入素材。',reverse:false},
+  {id:50,dim:'data',sub:'D4',text:'我让AI基于我的知识库做"二次创作"（如：用我读过的书辅助写新文章），而不是只用通用知识。',reverse:false},
+  {id:51,dim:'data',sub:'D4',text:'我能感受到"好素材入库→AI更好理解我→产出更准→更多好素材"的正向飞轮。',reverse:false},
+  {id:52,dim:'data',sub:'D4',text:'我建立了机制把日常碎片（卡片/笔记/对话）持续沉淀为知识库的可复用资产。',reverse:false},
+];
+const aiSubModules = {
+
+  // 场景维度（知识体系搭建视角）
+  'S1':{name:'探索定位 Seek',dim:'scene',dimName:'场景',order:1,desc:'明确用AI搭建知识体系的目的与主轴领域，避免盲目跟风'},
+  'S2':{name:'变革视野 Transform',dim:'scene',dimName:'场景',order:2,desc:'知识体系的终局预判与长期路径规划，与个人事业/创作关联'},
+  'S3':{name:'效率加速 Accelerate',dim:'scene',dimName:'场景',order:3,desc:'用AI攻克采集/整理/检索/输出等具体瓶颈，量化时间收益'},
+  'S4':{name:'价值落地 Realize',dim:'scene',dimName:'场景',order:4,desc:'知识库从个人消化走向对外交付，复用与ROI清晰'},
+
+  // 基本功维度（AI辅助知识处理能力栈）
+  'K1':{name:'AI认知入门',dim:'skill',dimName:'基本功',order:1,desc:'理解大模型/Embeddings/向量检索原理，建立人在回路的心态'},
+  'K2':{name:'提示工程核心',dim:'skill',dimName:'基本功',order:2,desc:'针对知识处理场景的结构化提示词与模板库'},
+  'K3':{name:'智能体与RAG',dim:'skill',dimName:'基本功',order:3,desc:'用智能体/RAG搭建自动化知识工作流，端到端串联知识流'},
+  'K4':{name:'编程融合进阶',dim:'skill',dimName:'基本功',order:4,desc:'Embeddings/语义搜索/AI辅助小工具，了解模型差异与局限'},
+  'K5':{name:'体系化思维',dim:'skill',dimName:'基本功',order:5,desc:'用PARA/MOC等方法论指导AI知识库设计，全链路SOP与多轮迭代'},
+
+  // 数据维度（知识资产成熟度）
+  'D1':{name:'数据质量意识',dim:'data',dimName:'数据',order:1,desc:'理解GIGO原则，筛选优质信源，明确哪些素材适合入知识库'},
+  'D2':{name:'数据整理能力',dim:'data',dimName:'数据',order:2,desc:'统一标签/分类/双向链接体系，AI辅助结构化入库'},
+  'D3':{name:'数据资产就绪',dim:'data',dimName:'数据',order:3,desc:'拥有AI可读的结构化知识库，持续维护，2分钟可定位'},
+  'D4':{name:'数据飞轮增值',dim:'data',dimName:'数据',order:4,desc:'AI输出反哺知识库，AI基于私域知识做二次创作，形成正向循环'},
+};
+const aiTaskMatrix = {
+
+  // === 场景维度 ===
+  'S1':{
+    focus:'明确"知识体系搭建"对你个人的核心价值，找到主轴领域',
+    mainTask:[
+      '用 30 分钟回答 3 个问题：为什么是现在？为什么要用 AI？为什么是这个主轴领域（写作/商业/技术…）？',
+      '列出你过去 3 个月积累的所有知识素材，标记"留/砍/转"——只留下与主轴强相关的内容',
+      '写下一句话使命：「用 AI 帮我搭建关于____的体系，3 年后能____」，贴在每天能看到的地方'
+    ],
+    stopDoing:'停止用 AI 什么都尝试，先问"这件事是否服务于我的主轴领域"'
+  },
+  'S2':{
+    focus:'规划知识体系搭建的"终局"，倒推里程碑',
+    mainTask:[
+      '画出 3 年终局图：你的知识库长什么样？输出什么内容/课程/服务？带来什么价值？',
+      '拆解路径图：采集→整理→建模→输出→迭代，5 步分别要达到什么标准',
+      '区分"个人知识库"和"对外内容资产"，为两类目标分别设 KPI'
+    ],
+    stopDoing:'停止"先做起来再说"——没有终局预判的搭建，三年后会变成一仓库存货'
+  },
+  'S3':{
+    focus:'用 AI 攻克知识体系搭建中的具体瓶颈，量化收益',
+    mainTask:[
+      '做"知识流审计"：记录一周（采集→整理→检索→输出），找出 Top 3 最耗时环节',
+      '针对每个环节设计 AI 自动化方案（如：用 AI 自动归类/摘要/生成脑图），计时对比',
+      '建立"AI 周记"：每周记录 AI 为知识体系节省了多少小时，累计追踪 ROI'
+    ],
+    stopDoing:'停止在低杠杆环节（如手写笔记）反复打磨 AI，先打最痛的点'
+  },
+  'S4':{
+    focus:'让知识体系从"自用"走向"可交付、可复用、可变现"',
+    mainTask:[
+      '把最成熟的 AI 知识工作流封装成 SOP（让别人看了也能复现）',
+      '设计 1 个"AI+知识库"的可交付产品（MVP 即可）：课程/Skill/咨询/模板',
+      '算清知识体系的完整 ROI：投入时间 + 工具订阅 - 效率提升 - 实际收益'
+    ],
+    stopDoing:'停止把知识库当成私人日记，开始思考"这套体系能服务谁、带来什么价值"'
+  },
+
+  // === 基本功维度 ===
+  'K1':{
+    focus:'建立 AI 知识库相关的基础认知与正确心态',
+    mainTask:[
+      '完成 1 门 AI 入门课（推荐：吴恩达 AI For Everyone），重点理解 LLM/Embeddings/向量库',
+      '每天用 AI 做 1 件与知识库相关的小事（总结/翻译/分类），连续 21 天养成习惯',
+      '建立"AI 知识库探索日志"：记录每个工具的上手体验、适用场景、不适用场景'
+    ],
+    stopDoing:'停止把 AI 当魔法黑盒——理解原理才能用 AI 真正服务知识体系'
+  },
+  'K2':{
+    focus:'掌握面向知识处理的提示词工程方法论',
+    mainTask:[
+      '建立"知识处理提示词模板库"：按场景分类（总结/翻译/提取/归类/出题），积累 20 个模板',
+      '用"迭代法"练习：同一篇文章用 3 版不同提示词总结，记录哪版最好及原因',
+      '实践 3 种上下文技巧：Few-shot 示例、Chain-of-Thought 思维链、角色设定（"你是一个严谨编辑"）'
+    ],
+    stopDoing:'停止"一锤子买卖"式提问——提示词要像调试代码一样迭代'
+  },
+  'K3':{
+    focus:'从单轮对话升级到知识库自动化工作流',
+    mainTask:[
+      '选 1 个智能体平台（Coze/Dify/Make/扣子），完成新手教程，搭建第一个知识库问答流',
+      '把自己最常做的"信息收集→整理→入库"工作流自动化（哪怕只是半自动）',
+      '搭建一个 RAG 问答机器人，基于你自己的 10 篇文章/笔记，测试问答效果'
+    ],
+    stopDoing:'停止每次都从头粘贴上下文给 AI——用知识库和工作流让 AI 自动调取'
+  },
+  'K4':{
+    focus:'用 AI 编程能力扩展知识库的边界',
+    mainTask:[
+      '用 Cursor/Copilot/Claude 等 AI 编程工具，写 1 个知识管理小工具（如：批量打标签脚本）',
+      '尝试 Embeddings 语义搜索：用 API 把 50 条笔记转为向量，做语义化检索（用 ChromaDB 等）',
+      '为知识库写 1 个简单 Web UI（用 VibeCoding），让自己能搜索/浏览/标注'
+    ],
+    stopDoing:'停止"不会编程所以做不了高级功能"——VibeCoding 让知识库可以无代码扩展'
+  },
+  'K5':{
+    focus:'建立体系化思维，把 AI 知识库当成长期系统来运营',
+    mainTask:[
+      '选定 1 套方法论（PARA/CODER/MOC/卡片笔记）指导 AI 知识库设计，写出实施 SOP',
+      '设计端到端工作流：采集→AI 处理→入库→语义检索→AI 输出，每步都有明确工具和规则',
+      '发起 1 个真实场景的 AI 知识库项目（如：用 AI 帮你准备某个考试/课程/咨询），走完全链路',
+      '每季度做一次知识库"复盘+重构"，让体系随需求进化'
+    ],
+    stopDoing:'停止"用 AI 写写摘要就完了"——知识体系是 5-10 年的复利工程'
+  },
+
+  // === 数据维度 ===
+  'D1':{
+    focus:'建立"知识素材质量"意识，知道什么值得入知识库',
+    mainTask:[
+      '盘点过去 3 个月积累的所有数字资料，按"优质一手/经典/权威" vs "碎片/二手/营销文"分类',
+      '用 AI 抽样检测 10 份资料：让 AI 基于这份资料回答一个问题，看效果如何',
+      '制定"入库标准清单"（如：3 个作者、2 门以上课程都提到的概念，才入主库）'
+    ],
+    stopDoing:'停止"看到就存"——低质素材会污染整个知识库'
+  },
+  'D2':{
+    focus:'建立统一的标签/分类/链接体系，让知识库可被 AI 检索',
+    mainTask:[
+      '统一到不超过 2 个平台（推荐：Obsidian + 微信读书/Notion），制定统一命名规范',
+      '建立 3 级标签体系：领域（如商业/技术/心理）× 类型（如方法论/案例/数据）× 状态（如待消化/已掌握）',
+      '每月用 AI 批量处理 100 条旧笔记：自动打标签/提取关键词/找关联'
+    ],
+    stopDoing:'停止"先存下来再说"——不分类的素材等于不存在'
+  },
+  'D3':{
+    focus:'把知识库升级为"AI 可直接调用"的结构化资产',
+    mainTask:[
+      '选择 AI 友好的知识库工具（Obsidian + Markdown / Notion 数据库），迁移最核心的 100 份资料',
+      '将 PDF/图片/微信文章转为 Markdown 结构化笔记（带标题/标签/正文/来源）',
+      '建立"2 分钟定位规则"：任何领域的资料，必须能在 2 分钟内找到，否则就是没入库'
+    ],
+    stopDoing:'停止把知识锁在 PDF/截图/微信收藏里——AI 读不懂这些格式'
+  },
+  'D4':{
+    focus:'启动知识库-AI 正向飞轮，让体系越用越增值',
+    mainTask:[
+      '建立"AI 输出回收"机制：每次有价值的 AI 回答（如总结/分析/脑图）都自动存到知识库',
+      '用 AI 做"二次创作"：让 AI 读你过去的 10 篇笔记，帮你产出 1 篇新文章',
+      '设计自动化沉淀：每日新笔记/卡片 → 自动归类 → 自动构建关联 → 自动更新主题地图'
+    ],
+    stopDoing:'停止"用完 AI 就关掉"——AI 输出是你知识库未来的输入'
+  },
+};
+const aiDimensions = {
+
+  'scene':{
+    name:'场景 STAR',fullName:'场景定位（STAR矩阵）',color:'#E76F51',light:'#FCEEEA',
+    subs:['S1','S2','S3','S4'],
+    icon:'⭐',desc:'从探索定位到价值落地的战略场景把控能力'
+  },
+  'skill':{
+    name:'基本功 Skills',fullName:'AI 基本功（循序渐进）',color:'#2A9D8F',light:'#E8F5F3',
+    subs:['K1','K2','K3','K4','K5'],
+    icon:'💪',desc:'从 AI 认知到自主创新的技能进阶路径'
+  },
+  'data':{
+    name:'数据 Data',fullName:'数据资产（质量三角）',color:'#7B68EE',light:'#F0EDFC',
+    subs:['D1','D2','D3','D4'],
+    icon:'📊',desc:'从数据意识到飞轮增值的资产成熟度'
+  },
+};
+
+const TRIANGLES = {
+  human: {
+    name: '人类三角形',
+    color: 'red', primary: 'var(--human)', dark: 'var(--human-dark)',
+    questions: humanQuestions, subModules: humanSubModules, taskMatrix: humanTaskMatrix, dimensions: humanDimensions,
+    dimKeys: ['aesthetic','system','innovation'],
+    titleShort: '知识体系成长画像', subtitle: '基于人类三角形模型 · 52题完整测评结果',
+    mainThemes: { aesthetic:'提升审美鉴赏力，建立优质内容标准', system:'建立个人知识操作系统', innovation:'建立稳定输出流程，激活创新引擎' }
+  },
+  ai: {
+    name: 'AI 三角形',
+    color: 'blue', primary: 'var(--ai)', dark: 'var(--ai-dark)',
+    questions: aiQuestions, subModules: aiSubModules, taskMatrix: aiTaskMatrix, dimensions: aiDimensions,
+    dimKeys: ['scene','skill','data'],
+    titleShort: 'AI × 知识体系搭建画像', subtitle: '基于 AI 三角形模型 · 知识体系搭建场景 · 52题完整测评结果',
+    mainThemes: { scene:'明确知识体系搭建的战略定位，从"什么都学"到"沿主轴深耕"', skill:'夯实 AI 辅助知识处理的基本功', data:'升级知识资产质量，进入飞轮驱动阶段' }
+  }
+};
+
+const scaleLabels = ['完全不符合','偶尔符合','一般符合','比较符合','非常符合'];
+
+// ===== State =====
+const state = {
+  current: 'human',  // current triangle being viewed
+  currentStep: 0,    // 0/1/2 = dim, 3 = results
+  answers: {
+    human: {},
+    ai: {}
+  },
+  completed: { human: false, ai: false }
+};
+
+// ===== Navigation =====
+function enter(which){
+  // hide landing, show stage
+  document.getElementById('landing').style.display = 'none';
+  document.getElementById('stage').style.display = 'block';
+  document.getElementById('stage').classList.add('show');
+  document.getElementById('bfFloat').style.display = 'block';
+  document.body.classList.remove('theme-human','theme-ai');
+  document.body.classList.add(which === 'human' ? 'theme-human' : 'theme-ai');
+
+  // if switching to a new triangle, reset its step; if it has results, go to results step
+  state.current = which;
+  if(state.completed[which]){
+    state.currentStep = 3; // results
+  } else {
+    // try to resume from last step in progress
+    const t = TRIANGLES[which];
+    let resumeStep = 0;
+    for(let i=0;i<t.dimKeys.length;i++){
+      const dq = t.questions.filter(q => q.dim === t.dimKeys[i]);
+      if(dq.every(q => state.answers[which][q.id] !== undefined)){
+        resumeStep = i + 1;
+      } else {
+        break;
+      }
+    }
+    state.currentStep = Math.min(resumeStep, 2);
+  }
+  updateTabs();
+  renderStep();
+  window.scrollTo({top:0,behavior:'instant'});
+}
+
+function backToLanding(){
+  if(state.completed.human || state.completed.ai){
+    if(!confirm('已完成的测评结果会保留。确认回到首页？')) return;
+  }
+  document.getElementById('stage').style.display = 'none';
+  document.getElementById('stage').classList.remove('show');
+  document.getElementById('landing').style.display = 'grid';
+  document.getElementById('bfFloat').style.display = 'none';
+  document.getElementById('bfPopup').classList.remove('show');
+  document.body.classList.remove('theme-human','theme-ai');
+  window.scrollTo({top:0,behavior:'instant'});
+}
+
+function updateTabs(){
+  ['human','ai'].forEach(k => {
+    const tab = document.getElementById('tab-'+k);
+    const t = TRIANGLES[k];
+    tab.classList.remove('active','red','blue');
+    if(k === state.current) tab.classList.add('active', t.color);
+    const badge = document.getElementById('badge-'+k);
+    if(state.completed[k]){
+      badge.textContent = '已测';
+    } else {
+      const answered = Object.keys(state.answers[k]).length;
+      const total = t.questions.length;
+      if(answered === 0) badge.textContent = '未测';
+      else if(answered < total) badge.textContent = answered + '/' + total;
+      else badge.textContent = '已测';
+    }
+  });
+}
+
+function renderStep(){
+  const t = TRIANGLES[state.current];
+  const container = document.getElementById('step-container');
+  if(state.currentStep < 3){
+    renderDimensionStep(t);
+  } else {
+    renderResultsStep(t);
+  }
+}
+
+function renderDimensionStep(t){
+  const dimKey = t.dimKeys[state.currentStep];
+  const dim = t.dimensions[dimKey];
+  const dimQuestions = t.questions.filter(q => q.dim === dimKey);
+
+  // Use icon mapping; human icons are letters (A/S/I), AI uses emojis
+  const isAI = state.current === 'ai';
+  const accent = isAI ? 'blue' : 'red';
+
+  let html = `
+    <div class="dim-step show">
+      <div class="progress-bar-wrap">
+        <div class="top-row">
+          <span class="dim-label">${dim.fullName || dim.name}</span>
+          <span class="progress-text">第 ${state.currentStep+1} / 3 步</span>
+        </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width:${((state.currentStep+1)/3)*100}%;background:var(--accent);"></div>
+      </div>
+    </div>
+    <div class="assessment-container">
+      <div class="dim-header">
+        <div class="dim-icon" style="background:var(--accent);">${dim.icon}</div>
+        <h2>${dim.name}维度</h2>
+        <p>${dim.desc}</p>
+      </div>
+`;
+
+  dim.subs.forEach(subKey => {
+    const sub = t.subModules[subKey];
+    const subQuestions = dimQuestions.filter(q => q.sub === subKey);
+    html += `
+      <div class="submodule-group">
+        <div class="sub-header">
+          <span class="sub-tag" style="background:var(--accent);">${subKey}</span>
+          <span class="sub-name">${sub.name}</span>
+        </div>
+    `;
+    subQuestions.forEach(q => {
+      html += `
+        <div class="question-item">
+          <div class="q-text">
+            <span class="q-num">Q${q.id}</span>
+            <span>${q.text}</span>
+            ${q.reverse ? '<span class="q-reverse">反向</span>' : ''}
+          </div>
+          <div class="scale-options">
+      `;
+      for(let i=1;i<=5;i++){
+        const selected = state.answers[state.current][q.id] === i ? 'selected' : '';
+        html += `
+          <div class="scale-btn ${accent} ${selected}" data-qid="${q.id}" data-score="${i}" onclick="selectAnswer(${q.id},${i})">
+            <span class="scale-num">${i}</span>
+            <span class="scale-label">${scaleLabels[i-1]}</span>
+          </div>
+        `;
+      }
+      html += `</div></div>`;
+    });
+    html += `</div>`;
+  });
+
+  html += `</div>`; // assessment-container
+  html += `
+    <div class="nav-buttons">
+      <button class="btn-nav" id="btn-prev" onclick="prevStep()" style="visibility:${state.currentStep === 0 ? 'hidden' : 'visible'};">上一步</button>
+      <button class="btn-nav ${state.currentStep === 2 ? 'primary-'+accent : ''}" id="btn-next" onclick="nextStep()">${state.currentStep === 2 ? '查看结果' : '下一步'}</button>
+    </div>
+  `;
+  html += `</div>`; // dim-step
+
+  document.getElementById('step-container').innerHTML = html;
+  updateNextButton();
+}
+
+function selectAnswer(qid, score){
+  state.answers[state.current][qid] = score;
+  document.querySelectorAll(`.scale-btn[data-qid="${qid}"]`).forEach(btn => {
+    btn.classList.remove('selected');
+    if(parseInt(btn.dataset.score) === score){
+      btn.classList.add('selected');
+    }
+  });
+  updateNextButton();
+}
+
+function updateNextButton(){
+  const t = TRIANGLES[state.current];
+  const dimKey = t.dimKeys[state.currentStep];
+  const dimQuestions = t.questions.filter(q => q.dim === dimKey);
+  const allAnswered = dimQuestions.every(q => state.answers[state.current][q.id] !== undefined);
+  const btn = document.getElementById('btn-next');
+  if(btn) btn.disabled = !allAnswered;
+}
+
+function prevStep(){
+  if(state.currentStep > 0){
+    state.currentStep--;
+    renderStep();
+    window.scrollTo({top:0,behavior:'instant'});
+  }
+}
+
+function nextStep(){
+  const t = TRIANGLES[state.current];
+  const dimKey = t.dimKeys[state.currentStep];
+  const dimQuestions = t.questions.filter(q => q.dim === dimKey);
+  const allAnswered = dimQuestions.every(q => state.answers[state.current][q.id] !== undefined);
+  if(!allAnswered){
+    alert('请完成当前维度所有题目的评分');
+    return;
+  }
+  if(state.currentStep < 2){
+    state.currentStep++;
+    renderStep();
+    window.scrollTo({top:0,behavior:'instant'});
+  } else {
+    state.completed[state.current] = true;
+    state.currentStep = 3;
+    updateTabs();
+    renderResultsStep(t);
+    window.scrollTo({top:0,behavior:'instant'});
+  }
+}
+
+// ===== Scoring =====
+function calculateScores(t, which){
+  const answers = state.answers[which];
+  const scores = {};
+  for(const subKey of Object.keys(t.subModules)){
+    const subQuestions = t.questions.filter(q => q.sub === subKey);
+    let sum = 0;
+    for(const q of subQuestions){
+      let score = answers[q.id];
+      if(q.reverse) score = 6 - score;
+      sum += score;
+    }
+    scores[subKey] = sum / subQuestions.length;
+  }
+  const dimScores = {};
+  for(const dimKey of Object.keys(t.dimensions)){
+    const subs = t.dimensions[dimKey].subs;
+    let sum = 0;
+    for(const sub of subs) sum += scores[sub];
+    dimScores[dimKey] = sum / subs.length;
+  }
+  return {subScores: scores, dimScores};
+}
+
+function determineLevel(t, dimKey, subScores){
+  const subs = t.dimensions[dimKey].subs;
+  let highestPassIdx = -1;
+  for(let i=0;i<subs.length;i++){
+    if(subScores[subs[i]] >= 3.5) highestPassIdx = i;
+    else break;
+  }
+  if(highestPassIdx === -1){
+    return { level:'未建立', levelSub:null, nextSub:subs[0], nextSubName:t.subModules[subs[0]].name };
+  }
+  const passedSub = subs[highestPassIdx];
+  const isHighest = highestPassIdx === subs.length - 1;
+  return {
+    level:t.subModules[passedSub].name,
+    levelSub:passedSub, levelSubName:t.subModules[passedSub].name,
+    nextSub: isHighest ? null : subs[highestPassIdx+1],
+    nextSubName: isHighest ? null : t.subModules[subs[highestPassIdx+1]].name,
+    isHighest
+  };
+}
+
+// ===== Results =====
+function renderResultsStep(t){
+  const which = state.current;
+  const {subScores, dimScores} = calculateScores(t, which);
+  const levels = {};
+  t.dimKeys.forEach(k => levels[k] = determineLevel(t, k, subScores));
+
+  const sortedSubs = Object.keys(subScores).sort((a,b) => subScores[b] - subScores[a]);
+  const strengths = sortedSubs.slice(0,3).filter(s => subScores[s] >= 3.5);
+  const weaknesses = sortedSubs.slice(-3).filter(s => subScores[s] < 3.5);
+
+  const dimAvgs = t.dimKeys.map(k => ({key:k, score:dimScores[k], level:levels[k]}))
+    .sort((a,b) => a.score - b.score);
+  const weakestDim = dimAvgs[0];
+  const weakestLevel = weakestDim.level;
+  const bottleneckSub = weakestLevel.nextSub || weakestLevel.levelSub;
+  const bottleneckTask = t.taskMatrix[bottleneckSub];
+
+  const secondWeakest = dimAvgs[1];
+  const secondLevel = secondWeakest.level;
+  const supportSub = secondLevel.nextSub || secondLevel.levelSub;
+  const supportTask = t.taskMatrix[supportSub];
+
+  const mainTheme = t.mainThemes[weakestDim.key];
+  const weakestAvg = weakestDim.score;
+  let estTime;
+  if(weakestAvg <= 2.4) estTime = '10-14 周';
+  else if(weakestAvg <= 3.2) estTime = '8-12 周';
+  else if(weakestAvg <= 4.0) estTime = '6-8 周';
+  else estTime = '4-6 周';
+
+  const nextTarget = weakestLevel.nextSub
+    ? `${t.subModules[weakestLevel.nextSub].name}（${weakestLevel.nextSub}）`
+    : '维持最高段位，持续深耕';
+
+  const strengthTexts = strengths.map(s =>
+    `${t.subModules[s].name}（${s}）得分 ${subScores[s].toFixed(1)}，${t.subModules[s].desc}`
+  );
+  if(strengthTexts.length === 0){
+    strengthTexts.push('目前各模块尚在起步阶段，所有方向都有巨大成长空间');
+  }
+  const weaknessTexts = weaknesses.map(s =>
+    `${t.subModules[s].name}（${s}）得分 ${subScores[s].toFixed(1)}，${t.subModules[s].desc}`
+  );
+  if(weaknessTexts.length === 0){
+    weaknessTexts.push('各模块均已达较高水平，建议聚焦从"优秀"到"卓越"的突破');
+  }
+
+  const isAI = which === 'ai';
+  const accent = isAI ? 'blue' : 'red';
+  const cardCls = isAI ? ['sce','ski','dat'] : ['aes','sys','inn'];
+  const iconMap = isAI ? ['⭐','💪','📊'] : ['A','S','I'];
+
+  let html = `
+    <div class="dim-step results-show show">
+      <div class="results-container">
+        <div class="results-header">
+          <h1>你的 ${t.titleShort}</h1>
+          <p>${t.subtitle}</p>
+        </div>
+
+        <div class="dim-cards">
+          ${t.dimKeys.map((k,i) => `
+            <div class="dim-card ${cardCls[i]}">
+              <div class="dim-name">${iconMap[i]} ${t.dimensions[k].name}</div>
+              <div class="dim-level">${levels[k].level}</div>
+              <div class="dim-sub">${levels[k].levelSub ? levels[k].levelSub : t.dimensions[k].subs.join('-')} · 均分 ${dimScores[k].toFixed(1)}</div>
+            </div>
+          `).join('')}
+        </div>
+
+        <div class="radar-section">
+          <h3>各模块得分全景图</h3>
+          ${renderRadarChart(t, subScores)}
+        </div>
+  `;
+
+  t.dimKeys.forEach((dimKey,i) => {
+    const dim = t.dimensions[dimKey];
+    html += `
+      <div class="score-section">
+        <h3><span class="dot" style="background:${dim.color};"></span>${dim.name}维度 · 各模块得分</h3>
+    `;
+    dim.subs.forEach(sub => {
+      const score = subScores[sub];
+      const passed = score >= 3.5;
+      const pct = (score/5)*100;
+      html += `
+        <div class="score-bar-item">
+          <div class="bar-header">
+            <span class="bar-name">${sub} ${t.subModules[sub].name}</span>
+            <span class="bar-score">${score.toFixed(1)} / 5.0 ${passed ? '✓' : ''}</span>
+          </div>
+          <div class="score-bar-track">
+            <div class="score-bar-fill ${passed?'pass':'fail'}" style="width:${pct}%;"></div>
+          </div>
+        </div>
+      `;
+    });
+    html += `</div>`;
+  });
+
+  html += `
+        <div class="analysis-grid">
+          <div class="analysis-card strength">
+            <h3>核心优势</h3>
+            <ul>${strengthTexts.map(t => `<li>${t}</li>`).join('')}</ul>
+          </div>
+          <div class="analysis-card weakness">
+            <h3>核心短板</h3>
+            <ul>${weaknessTexts.map(t => `<li>${t}</li>`).join('')}</ul>
+          </div>
+        </div>
+
+        <div class="bottleneck-card">
+          <h3>核心瓶颈</h3>
+          <p>当前最大瓶颈在 <strong>${t.dimensions[weakestDim.key].name}</strong> 维度（段位：<strong>${weakestLevel.level}</strong>）。下一个待突破的模块是 <strong>${bottleneckSub} ${t.subModules[bottleneckSub].name}</strong>。${bottleneckTask.focus}，这是当前阶段最关键的成长杠杆。</p>
+        </div>
+
+        <div class="growth-plan ${accent}">
+          <span class="plan-tag">90天成长计划</span>
+          <h2>未来 90 天唯一主线</h2>
+          <p class="plan-subtitle">${mainTheme}</p>
+
+          <div class="plan-section">
+            <div class="plan-label">主线任务 · ${bottleneckSub} ${t.subModules[bottleneckSub].name}</div>
+            <ul class="plan-tasks">
+              ${bottleneckTask.mainTask.map((tk,i) => `<li data-num="${i+1}">${tk}</li>`).join('')}
+            </ul>
+          </div>
+
+          <div class="plan-section">
+            <div class="plan-label">辅助任务 · ${supportSub} ${t.subModules[supportSub].name}</div>
+            <ul class="plan-tasks">
+              ${supportTask.mainTask.slice(0,2).map((tk,i) => `<li data-num="${i+1}">${tk}</li>`).join('')}
+            </ul>
+          </div>
+
+          <div class="plan-section">
+            <div class="plan-label">停止做</div>
+            <div class="plan-stop">${bottleneckTask.stopDoing}</div>
+          </div>
+
+          <div class="plan-timeline">
+            <div class="timeline-item"><div class="tl-label">晋级目标</div><div class="tl-value">${nextTarget}</div></div>
+            <div class="timeline-item"><div class="tl-label">当前段位</div><div class="tl-value">${weakestLevel.level}</div></div>
+            <div class="timeline-item"><div class="tl-label">预计时间</div><div class="tl-value">${estTime}</div></div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="btn-action" onclick="window.print()">保存/打印</button>
+          <button class="btn-action primary-${accent}" onclick="retakeCurrent()">重新测评</button>
+          <button class="btn-action" onclick="backToLanding()">返回首页</button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  document.getElementById('step-container').innerHTML = html;
+
+  setTimeout(() => {
+    document.querySelectorAll('.score-bar-fill').forEach(el => {
+      const w = el.style.width;
+      el.style.width = '0';
+      setTimeout(() => el.style.width = w, 50);
+    });
+  }, 100);
+}
+
+function retakeCurrent(){
+  if(!confirm('确定要重新测评' + TRIANGLES[state.current].name + '？现有答案会清空。')) return;
+  state.answers[state.current] = {};
+  state.completed[state.current] = false;
+  state.currentStep = 0;
+  updateTabs();
+  renderStep();
+  window.scrollTo({top:0,behavior:'instant'});
+}
+
+// ===== Radar Chart (SVG) =====
+function renderRadarChart(t, subScores){
+  const allSubs = t.dimKeys.flatMap(k => t.dimensions[k].subs);
+  const n = allSubs.length;
+  const size = Math.max(360, 36 * n);
+  const cx = size/2;
+  const cy = size/2;
+  const maxR = Math.min(140, size/2 - 50);
+  const angleStep = (2*Math.PI)/n;
+
+  let gridSVG = '';
+  for(let r=1;r<=5;r++){
+    const radius = (maxR*r)/5;
+    gridSVG += `<circle cx="${cx}" cy="${cy}" r="${radius}" fill="none" stroke="#E8EAED" stroke-width="1"/>`;
+  }
+  let gridLines = '';
+  for(let i=0;i<n;i++){
+    const angle = i*angleStep - Math.PI/2;
+    const x = cx + maxR*Math.cos(angle);
+    const y = cy + maxR*Math.sin(angle);
+    gridLines += `<line x1="${cx}" y1="${cy}" x2="${x}" y2="${y}" stroke="#E8EAED" stroke-width="1"/>`;
+  }
+
+  let dataPoints = '';
+  for(let i=0;i<n;i++){
+    const sub = allSubs[i];
+    const score = subScores[sub];
+    const angle = i*angleStep - Math.PI/2;
+    const r = (maxR*score)/5;
+    const x = cx + r*Math.cos(angle);
+    const y = cy + r*Math.sin(angle);
+    dataPoints += `${x},${y} `;
+  }
+  const isAI = state.current === 'ai';
+  const polyColor = isAI ? '#1A73E8' : '#E74C3C';
+  const polyFill = isAI ? 'rgba(26,115,232,0.15)' : 'rgba(231,76,60,0.15)';
+  const dataPath = `<polygon points="${dataPoints.trim()}" fill="${polyFill}" stroke="${polyColor}" stroke-width="2"/>`;
+
+  let dataDots = '';
+  for(let i=0;i<n;i++){
+    const sub = allSubs[i];
+    const score = subScores[sub];
+    const angle = i*angleStep - Math.PI/2;
+    const r = (maxR*score)/5;
+    const x = cx + r*Math.cos(angle);
+    const y = cy + r*Math.sin(angle);
+    const color = score >= 3.5 ? '#27AE60' : '#E67E22';
+    dataDots += `<circle cx="${x}" cy="${y}" r="4" fill="${color}" stroke="#fff" stroke-width="1.5"/>`;
+  }
+
+  let labels = '';
+  for(let i=0;i<n;i++){
+    const sub = allSubs[i];
+    const angle = i*angleStep - Math.PI/2;
+    const labelR = maxR + 22;
+    const x = cx + labelR*Math.cos(angle);
+    const y = cy + labelR*Math.sin(angle);
+    const dim = t.subModules[sub].dim;
+    const color = t.dimensions[dim].color;
+    labels += `<text x="${x}" y="${y}" text-anchor="middle" dominant-baseline="middle" font-size="10" font-weight="600" fill="${color}">${sub}</text>`;
+    const scoreR = maxR + 36;
+    const sx = cx + scoreR*Math.cos(angle);
+    const sy = cy + scoreR*Math.sin(angle);
+    labels += `<text x="${sx}" y="${sy}" text-anchor="middle" dominant-baseline="middle" font-size="9" fill="#999">${subScores[sub].toFixed(1)}</text>`;
+  }
+
+  const thresholdR = (maxR*3.5)/5;
+  const thresholdCircle = `<circle cx="${cx}" cy="${cy}" r="${thresholdR}" fill="none" stroke="#27AE60" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>`;
+
+  return `
+    <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" id="radar-svg">
+      ${gridSVG}
+      ${gridLines}
+      ${thresholdCircle}
+      ${dataPath}
+      ${dataDots}
+      ${labels}
+      <text x="${cx}" y="${cy+4}" text-anchor="middle" font-size="9" fill="#bbb">达标线 3.5</text>
+    </svg>
+  `;
+}
+
+// ===== Floating Widget Logic =====
+(function(){
+  const floatEl = document.getElementById('bfFloat');
+  const trigger = document.getElementById('bfTrigger');
+  let isDragging = false;
+  let startX, startY, initX, initY;
+  let didDrag = false;
+
+  trigger.addEventListener('mousedown', function(e){
+    isDragging = true; didDrag = false;
+    startX = e.clientX; startY = e.clientY;
+    const rect = floatEl.getBoundingClientRect();
+    initX = rect.left; initY = rect.top;
+    floatEl.style.right = 'auto'; floatEl.style.bottom = 'auto';
+    floatEl.style.left = initX + 'px'; floatEl.style.top = initY + 'px';
+    floatEl.style.transform = 'none';
+    e.preventDefault();
+  });
+  trigger.addEventListener('touchstart', function(e){
+    const t = e.touches[0];
+    isDragging = true; didDrag = false;
+    startX = t.clientX; startY = t.clientY;
+    const rect = floatEl.getBoundingClientRect();
+    initX = rect.left; initY = rect.top;
+    floatEl.style.right = 'auto'; floatEl.style.bottom = 'auto';
+    floatEl.style.left = initX + 'px'; floatEl.style.top = initY + 'px';
+    floatEl.style.transform = 'none';
+    e.preventDefault();
+  },{passive:false});
+
+  function onMove(e){
+    if(!isDragging) return;
+    const cx = e.touches ? e.touches[0].clientX : e.clientX;
+    const cy = e.touches ? e.touches[0].clientY : e.clientY;
+    const dx = cx - startX, dy = cy - startY;
+    if(Math.hypot(dx, dy) > 5){ didDrag = true; }
+    let nx = initX + dx, ny = initY + dy;
+    nx = Math.max(0, Math.min(nx, window.innerWidth - floatEl.offsetWidth));
+    ny = Math.max(0, Math.min(ny, window.innerHeight - floatEl.offsetHeight));
+    floatEl.style.left = nx + 'px'; floatEl.style.top = ny + 'px';
+    if(e.cancelable) e.preventDefault();
+  }
+  window.addEventListener('mousemove', onMove);
+  window.addEventListener('touchmove', onMove,{passive:false});
+
+  function endDrag(){
+    if(!isDragging) return;
+    isDragging = false;
+    if(!didDrag){ toggleBfPopup(); }
+  }
+  window.addEventListener('mouseup', endDrag);
+  window.addEventListener('touchend', endDrag);
+})();
+
+function toggleBfPopup(){
+  const p = document.getElementById('bfPopup');
+  p.classList.toggle('show');
+}
+</script>
+</body>
+</html>
