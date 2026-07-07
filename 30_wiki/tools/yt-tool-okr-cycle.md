@@ -293,4 +293,5 @@ Q5：上个季度 OKR 的关键教训是什么？_____
     ├── 关联：[[yt-management-project-management]]（项目目标对接）
     ├── 关联：[[yt-management-business-formula]]（KR 来源）
     └── 关联：[[yt-management-strategy-meeting]]（战略会转化为 OKR）
+  - "[[framework-yitang-project-breakdown]]"
 ```

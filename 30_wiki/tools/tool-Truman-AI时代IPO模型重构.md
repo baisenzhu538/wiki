@@ -21,6 +21,7 @@ related:
 - '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
 - '[[tool-Truman-XY-Problem识别与真实问题定位]]'
 - '[[tool-Truman-AI输出审慎判断与交付确认]]'
+  - "[[framework-yitang-project-retrospective]]"
 - yt-model-ipo-learning-strategy
 ---
 # 技能：AI时代IPO模型重构

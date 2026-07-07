@@ -272,6 +272,7 @@ Snowden 将系统分为五种域，其中与本工具最相关的是三种：
 | 主域方法 | [[master-knowledge-compound]] | 主域——每次萃取都是知识复利的复利节点 |
 | 跨域桥梁 | [[yt-concept-weapon-arsenal]] | 武器库元概念——知识萃取器是组织武器库中"从人身上取武器"的工具 |
 | 同层工具 | [[yt-tool-best-practice-learning]] | 管理域——最佳实践学习器，常与萃取器组合使用：萃取产出进入学习器做团队推广 |
+  - "[[framework-yitang-project-retrospective]]"
 
 ### 不要用的场景
 

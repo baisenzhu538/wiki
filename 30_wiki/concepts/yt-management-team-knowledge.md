@@ -36,6 +36,7 @@ related:
 # 团队知识管理
 
 > 来源：一堂管理必修课「管团队」模块，《知识库：团队知识管理必修课》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
+  - "[[framework-yitang-project-retrospective]]"
 
 ## Constraints & Boundaries
 

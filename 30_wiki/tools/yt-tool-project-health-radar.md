@@ -190,6 +190,7 @@ Eliyahu Goldratt 在《目标》中提出：任何系统的产出都受限于其
 | 跨域工具 | [[yt-management-goal-management]] | 管理域——项目目标应与 OKR 对齐 |
 | 主域方法 | [[master-decision-hygiene]] | 主域——决策卫生是项目基线质量的底层保障 |
 | 主域方法 | [[master-knowledge-compound]] | 主域——每次项目复盘都是知识复利的关键节点 |
+  - "[[framework-yitang-project-execution]]"
 
 ## Action Triggers
 
