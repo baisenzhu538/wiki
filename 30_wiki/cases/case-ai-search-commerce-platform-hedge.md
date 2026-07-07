@@ -1,8 +1,8 @@
----
+﻿---
 id: case-ai-search-commerce-platform-hedge
 title: AI 搜索导流品牌官网，但不会取代电商平台
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.80

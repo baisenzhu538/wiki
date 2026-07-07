@@ -1,8 +1,8 @@
----
+﻿---
 id: concept-jevons-paradox-in-ai
 title: 杰文斯悖论在 AI 时代
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

@@ -1,9 +1,9 @@
----
+﻿---
 id: dk-ai-builder-illusion
 title: Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到 1
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88

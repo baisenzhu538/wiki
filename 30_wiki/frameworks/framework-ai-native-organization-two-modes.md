@@ -1,8 +1,8 @@
----
+﻿---
 id: framework-ai-native-organization-two-modes
 title: AI 原生组织的两种形态：AI 控制台 vs Agent 平台
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.84

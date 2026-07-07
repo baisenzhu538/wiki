@@ -1,8 +1,8 @@
----
+﻿---
 id: agent-spec-codex-teammate
 title: Codex 队友式使用规范
 type: agent-spec
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.87

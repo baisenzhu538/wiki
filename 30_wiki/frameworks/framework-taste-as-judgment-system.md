@@ -1,8 +1,8 @@
----
+﻿---
 id: framework-taste-as-judgment-system
 title: 品味系统：判断力 × 审美 × 系统思维
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

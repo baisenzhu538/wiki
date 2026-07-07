@@ -1,8 +1,8 @@
----
+﻿---
 id: concept-token-capital
 title: Token Capital：AI 时代的第三种资本结构
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.82
