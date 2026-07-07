@@ -3,31 +3,43 @@ id: task_20260701_wangyuyan-time-management-domain-orchestration
 title: 时间管理域升级：从 9 张孤立卡调整为 3 张高密度桥接卡
 type: task
 status: queued
-priority: P2
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋
+priority: P2
 created_at: 2026-07-01
-updated_at: 2026-07-01T16:00:00+00:00
-expected_cards: 3
+updated_at: 2026-07-01 16:00:00+00:00
 source_refs:
-  - 00_inbox/时间管理/truman-时间管理课程-口述.txt
-  - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
-  - 00_inbox/时间管理/时间管理-修炼进阶图.png
-  - 00_inbox/时间管理/时间管理-深度工作冰山图.png
-  - 00_inbox/时间管理/时间管理-时间管理矩阵图.png
-  - 00_inbox/时间管理/时间管理-双环矩阵图.png
-  - 00_inbox/时间管理/时间管理-双峰哲学模型.png
-  - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
-  - 00_inbox/时间管理/_processed/vlm_summary.json
-  - 60_feedback/diagnosis/diag_20260701_time-management-validation.md
-  - 60_feedback/diagnosis/diag_20260701_time-management-nine-layer-isomorphism.md
-  - 60_feedback/tasks/task_20260701_huangyaoshi-proposal-time-management-bridge.md
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L110-L145
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L150-L168
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L358-L364,L968-L1036
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L398-L448,L1928-L1942
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L1590-L1612,L1626-L1754
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L1770-L1832
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L1906-L2068
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L642-L720
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L2384-L2414
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L842-L878
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L2360-L2382
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L138-L142,L782-L790
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L226-L230
+- 00_inbox/时间管理/truman-时间管理课程-笔记.txt L9-L21,L25-L65
+- 00_inbox/时间管理/时间管理-修炼进阶图.png
+- 00_inbox/时间管理/时间管理-深度工作冰山图.png
+- 00_inbox/时间管理/时间管理-时间管理矩阵图.png
+- 00_inbox/时间管理/时间管理-双环矩阵图.png
+- 00_inbox/时间管理/时间管理-双峰哲学模型.png
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+- 00_inbox/时间管理/_processed/vlm_summary.json
+- 60_feedback/diagnosis/diag_20260701_time-management-validation.md
+- 60_feedback/diagnosis/diag_20260701_time-management-nine-layer-isomorphism.md
+- 60_feedback/tasks/task_20260701_huangyaoshi-proposal-time-management-bridge.md
 related:
-  - yt-personal-time-management
-  - framework-yitang-five-step-to-time-management
-  - tool-personal-time-audit-loop
-  - dk-time-management-common-mistakes
+- yt-personal-time-management
+- framework-yitang-five-step-to-time-management
+- tool-personal-time-audit-loop
+- dk-time-management-common-mistakes
+expected_cards: 3
 ---
 
 # 时间管理域升级：从 9 张孤立卡调整为 3 张高密度桥接卡
@@ -307,3 +319,14 @@ framework 卡生产完成后，必须反向在以下已有卡的 `related` 中�
 ---
 
 *王语嫣 2026-07-01（已按黄药师建议返工并加入日常咨询深度要求）*
+
+---
+
+## 附录：外部引用
+
+- Eisenhower Matrix / Covey 四象限：https://www.franklincovey.com/the-7-habits/；https://en.wikipedia.org/wiki/Time_management#Eisenhower_Matrix
+- GTD：https://gettingthingsdone.com/what-is-gtd/
+- Pomodoro Technique：https://francescocirillo.com/products/the-pomodoro-technique
+- Cal Newport《深度工作》：https://calnewport.com/books/deep-work/
+- Mihaly Csikszentmihalyi《Flow》：https://www.harpercollins.com/products/flow-mihaly-csikszentmihalyi
+- Anders Ericsson deliberate practice：https://en.wikipedia.org/wiki/Anders_Ericsson

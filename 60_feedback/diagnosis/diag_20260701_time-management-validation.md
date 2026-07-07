@@ -1,12 +1,25 @@
 ---
 id: diag_20260701_time-management-validation
-title: "时间管理课程素材诊断报告"
+title: 时间管理课程素材诊断报告
 type: diagnosis
 status: active
-source: 00_inbox/时间管理/
 reviewer: 欧阳锋
 created_at: 2026-07-01
 updated_at: 2026-07-01
+source_refs:
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L150-L168
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L110-L145
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L358-L364
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L1590-L1612
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L1770-L1832
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L1928-L2068
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L642-L720
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L2384-L2414
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L842-L878
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L138-L142
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L226-L230
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L164,L174-L176
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 ---
 
 # 时间管理课程素材诊断报告
@@ -333,3 +346,38 @@ updated_at: 2026-07-01
 ---
 
 *王语嫣 2026-07-01*
+
+---
+
+## 九、When NOT to Use 与失败模式补充
+
+### When NOT to Use
+
+本课程的方法论不建议在以下场景直接套用：
+
+1. **高度响应型职业**：急诊、客服、运维危机模式等时间自主权极低的环境。
+2. **时间自主权极低的环境**：流水线、排班制岗位，个人无法决定时间块分配。
+3. **焦虑型人格且记录本身造成压力**：若时间审计让使用者更焦虑、更自责，应暂停审计，先处理心理安全感。
+4. **把课程作为健康/医疗建议**：状态调节技巧（如脉动、红肠）属于个人经验，不能替代专业健康建议。
+5. **把课程作为人生成功/家庭关系解决方案**：课程边界只覆盖个人工作时间的科学配置。
+
+### 失败模式补充
+
+| 失败模式 | 共因 | 预警信号 | 一堂反打 |
+|:---|:---|:---|:---|
+| **灰度缺失** | 二极管思维（要么 5 点起，要么躺平） | 一次失败就放弃整个系统 | 灰度精进：小步实验、两周迭代 |
+| **边界模糊** | 把工作时间管理扩展到人生成功、家庭关系 | 觉得「时间管理好了人生就成功了」 | 产品内核：明确课程边界 |
+
+---
+
+## 附录：外部引用与待验证声明
+
+- Eisenhower Matrix / Covey 四象限：https://www.franklincovey.com/the-7-habits/；https://en.wikipedia.org/wiki/Time_management#Eisenhower_Matrix
+- GTD：https://gettingthingsdone.com/what-is-gtd/
+- Pomodoro Technique：https://francescocirillo.com/products/the-pomodoro-technique
+- Cal Newport《深度工作》：https://calnewport.com/books/deep-work/
+- Cal Newport《Slow Productivity》：https://calnewport.com/my-new-book-slow-productivity/
+- Mihaly Csikszentmihalyi《Flow》：https://www.harpercollins.com/products/flow-mihaly-csikszentmihalyi
+- Anders Ericsson deliberate practice：https://en.wikipedia.org/wiki/Anders_Ericsson；https://www.psychologytoday.com/us/basics/deliberate-practice
+- Alexander Lyubishchev：https://en.wikipedia.org/wiki/Alexander_Lyubishchev（原始著作无权威在线全文，标注 `待验证`）
+- Oliver Burkeman《4000 Weeks》：https://www.oliverburkeman.com/books
