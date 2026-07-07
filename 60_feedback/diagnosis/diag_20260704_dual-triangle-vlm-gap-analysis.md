@@ -6,6 +6,15 @@ status: draft
 created_at: 2026-07-04
 source: 00_inbox/人机协作双三角/_processed/ 全部 VLM 文件
 method: 6层交叉验证
+source_refs:
+  - 00_inbox/人机协作双三角/_processed/vlm_summary.json
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-数字化营销提效十倍_vlm.md
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-IP选题智能体挑战交付上限_vlm.md
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-图书分析AI工具_vlm.md
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-AI企业经营数据分析_vlm.md
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-人生红点教练parther探索_vlm.md
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-龙虾训练实验_vlm.md
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-教育新官网制作_vlm.md
 ---
 
 # 双三角 VLM 素材交叉验证与入库缺口诊断
@@ -68,3 +77,44 @@ method: 6层交叉验证
 ## 五、任务标注
 
 已建任务 #92 覆盖 7 张 case 卡 + 其余素材分类归档。不需额外新建任务。
+
+---
+
+## 六、VLM→case 边界条件
+
+将 VLM 输出转化为正式 case 卡时，必须同时满足以下边界条件，否则应退回原始素材或降级为 draft：
+
+1. **六要素可映射**：VLM 中的关键信息能明确对应到双三角六要素（AI 落地五部曲、三阶六变、竞争力武器库、十年爬山地图、双三角预判画布、跨行业迁移），不存在无法归类的游离信息。
+2. **决策/迭代过程完整**：案例必须包含「问题 → 决策 → 行动 → 结果/复盘」的闭环，不能只是观点或口号。
+3. **关键事实可核验**：人名、公司名、业务数据、时间线等关键事实能与原始口述/课堂记录交叉核对。
+4. **无已有卡重叠**：在 `30_wiki/` 中已存在同主题 reviewed 卡时，优先合并到已有卡，不重复建卡。
+5. **来源可追溯**：case 卡的 `source_refs` 必须指向本诊断列出的 8 个 VLM 文件之一或原始口述稿。
+
+## 七、失败模式
+
+1. **把 VLM 标签当正文**：仅复制六要素标签，缺少叙事逻辑与决策细节，导致 case 卡空洞。
+2. **未核验 OCR/VLM 提取结果**：将 VLM 误读的数字、人名、业务结论直接写入 case，造成事实失真。
+3. **方法论与 case 混淆**：把「人类三角/AI三角维度展开」等方法论素材误判为独立案例。
+4. **重复建卡**：未先查已有 Wiki 卡，导致同一知识点产生多张低质量 draft。
+5. **将课堂轶事当作确定结论**：对 VLM 中「待验证」的课堂故事未加标注，直接写成正式结论。
+
+## 八、When NOT to Use
+
+- **不要**用本诊断中的 VLM 文件替代原始素材进行终审；VLM 只是提取草稿，原始素材才是权威来源。
+- **不要**仅凭 VLM 标题就新建 case；必须先核对六要素映射与正文内容是否一致。
+- **不要**把只有标题和标签、缺乏过程与结果的 VLM 片段直接 enrichment 为正式 case。
+- **不要**在已有同主题 reviewed 卡存在时另建新卡；应通过 `related` 桥接或补充已有卡内容。
+
+## 九、7 张拟建 case 与已有卡片桥接表
+
+| 拟建 case ID | 来源 VLM | 可桥接的已有卡片 | 桥接说明 |
+|:---|:---|:---|:---|
+| `case-yihang-moufeimao-digital-marketing` | 一堂双三角-数字化营销提效十倍_vlm.md | `framework-yihang-dual-triangle-ai-landing-five-steps`、`framework-yihang-dual-triangle-weapon-library` | 营销提效对应 AI 落地五部曲与武器库选型 |
+| `case-yihang-vikki-ip-topic-selection` | 一堂双三角-IP选题智能体挑战交付上限_vlm.md | `framework-yihang-dual-triangle-three-stages-six-changes`、`concept-yihang-dual-triangle-core` | IP 选题是「三阶六变」在内容生产中的具体应用 |
+| `case-yihang-liukai-book-analysis` | 一堂双三角-图书分析AI工具_vlm.md | `tool-yihang-dual-triangle-canvas`、`framework-yihang-dual-triangle-weapon-library` | 图书分析工具是画布+武器库的组合实践 |
+| `case-yihang-xujian-enterprise-data` | 一堂双三角-AI企业经营数据分析_vlm.md | `framework-yihang-dual-triangle-ai-landing-five-steps`、`framework-yihang-dual-triangle-ten-year-map` | 企业经营数据分析对应 AI 落地与长期能力地图 |
+| `case-yihang-life-reddot-coach` | 一堂双三角-人生红点教练parther探索_vlm.md | `framework-yihang-dual-triangle-ten-year-map`、`tool-yihang-dual-triangle-canvas` | 人生红点教练是十年地图在个人决策场景的延伸 |
+| `case-yihang-lobster-training` | 一堂双三角-龙虾训练实验_vlm.md | `framework-yihang-dual-triangle-weapon-library`、`framework-yihang-dual-triangle-three-stages-six-changes` | 龙虾训练实验展示武器库与三阶六变的训练闭环 |
+| `case-yihang-yitang-edu-website` | 一堂双三角-教育新官网制作_vlm.md | `framework-yihang-dual-triangle-ai-landing-five-steps`、`case-yihang-dual-triangle-huazao-synthetic-data` | 新官网制作与花总跨行业案例共同构成「AI 落地五部曲」的企业级证据 |
+
+*注：桥接表中的已有卡片均来自本诊断「VLM → 已有 Wiki 卡」一节，拟建 case 上线后应反向更新这些已有卡的 `related`。*

@@ -5,10 +5,25 @@ status: reviewed
 assignee: claude
 reviewer: 欧阳锋
 priority: P1
+estimated_cards: 10
 created_at: 2026-07-04
 updated_at: '2026-07-04T15:01:23.718599+00:00'
 reviewed_by: 欧阳锋
 review_date: '2026-07-04'
+source_refs:
+  - 00_inbox/人机协作双三角/_processed/vlm_summary.json
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-数字化营销提效十倍_vlm.md
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-IP选题智能体挑战交付上限_vlm.md
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-图书分析AI工具_vlm.md
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-AI企业经营数据分析_vlm.md
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-人生红点教练parther探索_vlm.md
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-龙虾训练实验_vlm.md
+  - 00_inbox/人机协作双三角/_processed/一堂双三角-教育新官网制作_vlm.md
+related:
+  - '[[concept-yihang-dual-triangle-core]]'
+  - '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+  - '[[framework-yihang-dual-triangle-weapon-library]]'
+  - '[[tool-yihang-dual-triangle-canvas]]'
 ---
 # 双三角 VLM 案例批量 enrichment
 
