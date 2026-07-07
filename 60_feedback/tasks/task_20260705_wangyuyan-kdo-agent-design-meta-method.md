@@ -6,7 +6,15 @@ assignee: wangyuyan
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-05
-updated_at: '2026-07-05T20:08:20.407681+00:00'
+updated_at: '2026-07-08T00:00:00+00:00'
+estimated_cards: 3
+source_refs:
+- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L462-L600
+- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L2118-L2136
+- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L2220-L2312
+- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L2330-L2610
+- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L5025-L5078
+- 00_inbox/人机协作双三角/一堂双三角partner的对话记录20260705.md L20-L38,L44-L144,L250-L259,L269-L478,L507-L620,L680-L699,L719-L849,L854-L983
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[agent-spec-dual-triangle-canvas-filler]]'

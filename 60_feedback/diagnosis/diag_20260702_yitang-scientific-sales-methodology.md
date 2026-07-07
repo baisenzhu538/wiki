@@ -4,7 +4,23 @@ title: "一堂科学销售方法论：九层深挖 · 跨域桥接诊断"
 type: diagnosis
 status: active
 source: 00_inbox/销售专题/
+source_refs:
+  - 00_inbox/销售专题/_processed/销售专题_整合笔记.md L5,L28-L43,L17-L27,L56-L64,L65-L69,L71-L78,L113-L127,L153-L177,L197-L207,L243-L252,L278-L309,L311-L323
+  - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L100,L116,L138-L264,L286-L352,L512-L518,L590-L598,L742-L758,L832-L844,L1140-L1154,L1258-L1278
+  - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt L112-L124,L230,L354-L362,L456-L462,L540,L580-L588,L618,L702,L820,L842-L850,L1000-L1002,L1022,L1064,L1128-L1154,L1372,L1532,L1552,L1770,L1808-L1816,L2098-L2100,L2246-L2268
+  - 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt L82,L134-L136,L200,L318-L322,L560-L584,L620-L642,L706-L716,L910-L912,L1104,L1184,L1378-L1380
+  - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L46-L66,L80-L110,L282-L308,L510,L698,L734-L790,L928,L1220-L1226,L1390-L1394,L1612
+  - 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt L80-L82,L104-L106,L116-L134,L1738
+  - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L20-L24,L138-L140,L172-L184,L220-L270,L338-L350,L488,L1196-L1198,L1764,L1846
+  - https://en.wikipedia.org/wiki/ABC_analysis
+  - https://en.wikipedia.org/wiki/Purchase_funnel
+  - https://en.wikipedia.org/wiki/PDCA
+  - https://en.wikipedia.org/wiki/Pareto_principle
+  - https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs
+  - https://en.wikipedia.org/wiki/Two-factor_theory
+  - https://en.wikipedia.org/wiki/Expectancy_theory
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 created_at: 2026-07-02
 updated_at: 2026-07-02
 related:
@@ -611,5 +627,21 @@ OPC 目标与销售五步法高度匹配，但需做以下改编：
 **预计卡数**：12 张（1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体）） + 反向更新 ≥28 张已有卡 related
 
 ---
+
+## 十六、外部参考附录（待验证）
+
+以下公开概念/框架可作为本诊断中部分通用术语的对照来源，但涉及「一堂科学销售五步法」「SABC 分级」「六维激励模型」「销售武器库六维雷达图」等具体框架，均为一堂课程与李蕊实战提炼，除非另有外部独立验证，否则应标注为一堂课程主张。
+
+| 通用概念 | 公开来源 | 状态 |
+|:---|:---|:---|
+| SABC / 客户分级 | https://en.wikipedia.org/wiki/ABC_analysis | 待验证对照 |
+| 销售漏斗 / 用户决策路径 | https://en.wikipedia.org/wiki/Purchase_funnel | 待验证对照 |
+| PDCA / 过程管理循环 | https://en.wikipedia.org/wiki/PDCA | 待验证对照 |
+| 二八法则 / 资源集中 | https://en.wikipedia.org/wiki/Pareto_principle | 待验证对照 |
+| 马斯洛需求层次 | https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs | 待验证对照 |
+| 双因素理论 | https://en.wikipedia.org/wiki/Two-factor_theory | 待验证对照 |
+| 期望理论 | https://en.wikipedia.org/wiki/Expectancy_theory | 待验证对照 |
+
+> 说明：上表中的 Wikipedia 条目仅用于说明通用概念，不等同于一堂课程中的操作定义；具体案例数据（如快钱支付完成率 85-90%、涂料公司 10 万→20 条 S 级等）均来自课程口述，未经验证前仅作为课程主张引用。
 
 *王语嫣 2026-07-02*

@@ -10,6 +10,13 @@ updated_at: '2026-07-05T19:53:06.961749+00:00'
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L2118-2136
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L2220-2312
+- https://arxiv.org/abs/2606.04465 （SePO）
+- https://arxiv.org/abs/2502.02533 （MASS）
+- https://www.anthropic.com/engineering/building-effective-agents （Anthropic）
+- https://www.mongodb.com/company/blog/technical/build-ai-agents-worth-keeping-canvas-framework （MongoDB Canvas）
+- https://www.abundly.ai/blog/AI-agent-design-canvas （Abundly）
+- https://link.springer.com/book/10.1007/978-3-032-01402-3 （Agentic Design Patterns）
+- HuggingFace「提示词消亡」claim — 待验证（原始出处未确认）
 related:
 - '[[method-yihang-ai-self-xray-iteration]]'
 - '[[method-yihang-dual-triangle-ai-review]]'

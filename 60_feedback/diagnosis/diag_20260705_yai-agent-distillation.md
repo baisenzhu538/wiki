@@ -4,8 +4,13 @@ title: YAI 双三角 Partner Agent 蒸馏报告
 type: diagnosis
 status: draft
 created_at: 2026-07-05
+updated_at: '2026-07-08T00:00:00+00:00'
+reviewed_by: 欧阳锋
 source: 00_inbox/人机协作双三角/YAI双三角agent对话记录.md
 method: 核心词+data pack 两层拆解
+source_refs:
+- 00_inbox/人机协作双三角/一堂双三角partner的对话记录20260705.md L20-L38,L44-L144,L157-L169,L181-L239,L250-L259,L269-L478,L483-L500,L507-L620,L680-L699,L719-L849,L854-L983
+- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L2118-L2136,L2220-L2312,L5025-L5078
 ---
 
 # YAI 双三角 Partner Agent 蒸馏报告
@@ -96,3 +101,71 @@ v0.1 → v0.1（更新）→ v0.1（更新·基本功角）→ v0.3 → v0.4
 4. **保底策略**：信心不足时不硬推，压到最小实践版本
 5. **里程碑计划生成**：从画布→可执行计划的自动转换（YAI Partner 的 M1-M6 模板）
 6. **备忘录格式**：输出结构可复用到 canvas-agent.py 的最终输出
+
+---
+
+## 附录：九层深挖结构
+
+### L1 业务公式 / 单元模型
+
+```
+Agent 蒸馏 = 核心词层（审美+体系+创造力约束） + data pack 层（场景+数据+基本功）
+            → system prompt 段落 → 可挂载到具体 Agent
+```
+
+### L2 关键假设审计
+
+| 假设 | 保守 | 中性 | 乐观 | 敏感点 |
+|:---|:---|:---|:---|:---|
+| 结构化规则可精确蒸馏 | 只能覆盖 60% | 覆盖 80-90% | 100% 覆盖 | ⚠️ 语气/风格等 L1.5 层只能给出方向 |
+| 对话记录足以还原 Partner 行为 | 只能还原单一场景 | 可还原同类场景 | 可还原全部场景 | 🔴 单轮对话可能过拟合 |
+| 人在环可以逐步退出 | 始终需要人 | 简单任务可自动 | 全部自动 | ⚠️ 审美/创造力判断仍需人 |
+
+### L3 边界条件
+
+- 输入必须包含真实多轮对话，不能只有最终备忘录。
+- 核心词层需与已有 KDO 卡（双三角六要素、画布填充逻辑）对齐。
+- data pack 层必须按场景可替换，不能写死到 system prompt。
+- 上下文窗口有限，需对长对话做 Cite-Compress 预处理。
+
+### L4 失败模式
+
+1. **过拟合单轮对话**：把一次成功的追问模板当成通用规则。
+2. **风格失真**：只提取规则，丢失 TCPR 中 C 角色的诚实边界。
+3. **直觉被错误编码**：把用户现场的判断偏好写成死规则。
+4. **提示词膨胀**：data pack 全部塞进 system prompt，导致 token 爆炸。
+5. **缺少评估闭环**：蒸馏完不跑真实场景测试。
+
+### L5 决策框架
+
+采用正文中的 5 步流程：
+
+```
+Cite → Compress → Connect → Codify → Evaluate
+```
+
+### L6 外部验证
+
+- SePO / MASS 等蒸馏精度研究（见 `task_20260705_wangyuyan-agent-distillation-method.md` 外部 URL 附录）。
+- Anthropic Building Effective Agents 原则。
+- MongoDB Canvas / Abundly Canvas 等 Agent 设计画布。
+
+### L7 与已有 KDO 卡交叉比对
+
+| 新洞察 | 对应已有卡 | 关系 |
+|:---|:---|:---|
+| 核心词+data pack 两层拆解 | `method-kdo-agent-distillation` | 直接产物 |
+| 画布 Agent 追问逻辑 | `agent-spec-dual-triangle-canvas-filler` | 需注入 v3/v4 |
+| 自复盘飞轮 | `method-yihang-ai-self-xray-iteration` | 上游方法 |
+| 双三角 AI 复盘 | `method-yihang-dual-triangle-ai-review` | 下游应用 |
+
+### L8 可执行动作（M1）
+
+1. 将本报告中的 6 条直接启示写成 `agent-spec-dual-triangle-canvas-filler` 的 system prompt 段落。
+2. 用下一版真实 YAI Partner 对话做回归测试。
+3. 记录失败案例，回流到 data pack。
+
+### L9 风险与监控
+
+- 每次对话版本变化后重跑蒸馏，防止 prompt 漂移。
+- 用「新 AI 接手测试」作为验收：把 system prompt 给一个新对话窗口，看它能否复现 Partner 行为。
