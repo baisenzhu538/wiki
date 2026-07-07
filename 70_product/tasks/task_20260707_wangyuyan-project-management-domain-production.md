@@ -8,23 +8,24 @@ reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-07
 updated_at: 2026-07-07
-estimated_cards: 12
+estimated_cards: 13
 dependencies: []
 source_diagnosis: 60_feedback/diagnosis/diag_20260707_yitang-project-management-nine-layer.md
 ---
 
-# 管项目域卡片化生产：12 张卡 + 1 个项目管理助手 agent-spec
+# 管项目域卡片化 P1 核心：13 张卡 + 项目管理助手 agent-spec
 
 > 来源：`00_inbox/管项目`（洪七公 OCR+VLM 已预处理）
 > 诊断：`60_feedback/diagnosis/diag_20260707_yitang-project-management-nine-layer.md`
-> 目标：把一堂管理必修课「管项目」四课素材沉淀为 KDO 卡片，并产出可直接当 system prompt 使用的「项目管理助手」agent-spec。
+> 目标：把一堂管理必修课「管项目」四课素材沉淀为 KDO 骨架卡，并产出可直接当 system prompt 使用的「项目管理助手」agent-spec。
+> 说明：本任务为 P1 核心骨架；case、武器库入口、批量 tool、L5/L6 暗知识已拆分为 #132 延后补产。
 
 ---
 
 ## 一、任务目标
 
 1. 重写/ enrich 现有总纲概念卡 `yt-management-project-management`。
-2. 新建 4 张 framework 卡：定方案、拆计划、管过程、做复盘。
+2. 新建 5 张 framework 卡：ABCD 复杂度分类、定方案、拆计划、管过程、做复盘。
 3. 新建 4 张 tool 卡：定方案画布、拆计划小抄、启动会模板、复盘画布。
 4. 新建 1 张 skill 卡：螺旋思考。
 5. 新建 1 张 workflow 卡：四步闭环工作流。
@@ -72,18 +73,19 @@ source_diagnosis: 60_feedback/diagnosis/diag_20260707_yitang-project-management-
 
 | 序号 | 卡片 ID | 类型 | 标题 | 核心内容 | 质量要求 |
 |------|---------|------|------|----------|----------|
-| 1 | `yt-management-project-management` | concept（重写） | 科学项目管理：一堂管项目四步闭环 | 项目定义、vs 运营、A/B/C/D 分级、四步闭环、五大自我修养、武器库矩阵、案例 | 保留原卡外部攻击（Flyvbjerg/Goldratt），新增四课细节和案例 |
-| 2 | `framework-yitang-project-plan-design` | framework | 项目定方案：背景-目标-关键路径三段论 | 三段论、8 维落差、SMART 目标、ROI/机会成本/窗口期、风险预判、签字画押 | 含 When NOT to Use、失败模式、Action Triggers |
-| 3 | `tool-yitang-project-plan-canvas` | tool | 项目定方案一页纸画布 | 背景/目标/关键路径/评估三角/风险/签字画押的填写模板与检查清单 | 进入标准、操作步骤、退出标准、最小可行版本 |
-| 4 | `framework-yitang-project-breakdown` | framework | 项目拆计划：六维敏感度驱动的拆解框架 | 敏感度模型、里程碑、WBS 三原则、253 优先级、RASCI、依赖与关键路径 | 含案例（西红柿炒鸡蛋、开店、创业工具手册） |
-| 5 | `tool-yitang-project-breakdown-cheatsheet` | tool | 项目拆计划作弊小抄 | 一页纸速查：里程碑检查、WBS、RASCI、排期工具选择 | 可直接打印/屏幕使用 |
-| 6 | `framework-yitang-project-execution` | framework | 项目管过程：进度/质量/变更 + 人 | 进度管理三要素、质量管理节点、变更四步、向上管理三心二意、体验管理十五字、冲突管理 24 字 | 含敏感度-管理动作匹配表 |
-| 7 | `tool-yitang-project-kickoff-meeting` | tool | 项目启动会设计模板 | 启动会目标、议程、必须对齐的 6 件事、会后跟进 | 与 `yt-tool-meeting-designer` 互链 |
-| 8 | `framework-yitang-project-retrospective` | framework | 项目复盘：美团 16 字原则 | 复盘价值、16 字原则、深度选择 5 维、常见误区 | 含主持人话术和情绪管理 |
-| 9 | `tool-yitang-retrospective-canvas` | tool | 项目复盘关键成果画布 | 整体评价/亮点/问题/坚持做/放弃做/新任务/过程资产 | 可直接填写 |
-| 10 | `skill-yitang-project-spiral-thinking` | skill | 项目螺旋思考法 | 先顶层再细节、先选择再执行、先确认再推进；与 Y模型引擎层对齐 | 可迁移到非项目场景 |
-| 11 | `workflow-yitang-project-four-step-loop` | workflow | 项目四步闭环工作流 | 定方案→拆计划→管过程→做复盘的触发条件、输入输出、质量门 | 每步含进入/退出标准 |
-| 12 | `agent-spec-project-management-assistant` | agent-spec | 项目管理助手（对话教练版） | 接收项目描述→输出 A/B/C/D 分级+敏感度雷达+三段论草稿+里程碑/RASCI/排期建议+启动会 agenda+复盘画布 | 含 System Prompt、输入门、输出门、TCPR、Few-shot、迭代日志 |
+| 1 | `yt-management-project-management` | concept（重写） | 科学项目管理：一堂管项目四步闭环 | 项目定义、vs 运营、A/B/C/D 分级、四步闭环、五大自我修养、武器库矩阵、案例 | 保留原卡外部攻击（Flyvbjerg/Goldratt），新增四课细节和案例；source_refs 从空补全，confidence 提至 0.90+ |
+| 2 | `framework-yitang-project-abcd-classification` | framework | 项目 ABCD 复杂度分类 | A 口头/B 简单/C 跨部门/D 战略级；每级工具复杂度、决策权限、PM 投入度、失败模式 | 含 go/no-go 条件、When NOT to Use、升级/降级触发器 |
+| 3 | `framework-yitang-project-plan-design` | framework | 项目定方案：背景-目标-关键路径三段论 | 三段论、8 维落差、SMART 目标、ROI/机会成本/窗口期、风险预判、签字画押 | 含 When NOT to Use、失败模式、Action Triggers |
+| 4 | `tool-yitang-project-plan-canvas` | tool | 项目定方案一页纸画布 | 背景/目标/关键路径/评估三角/风险/签字画押的填写模板与检查清单 | 进入标准、操作步骤、退出标准、最小可行版本 |
+| 5 | `framework-yitang-project-breakdown` | framework | 项目拆计划：六维敏感度驱动的拆解框架 | 敏感度模型、里程碑、WBS 三原则、253 优先级、RASCI、依赖与关键路径 | 含案例（西红柿炒鸡蛋、开店、创业工具手册） |
+| 6 | `tool-yitang-project-breakdown-cheatsheet` | tool | 项目拆计划作弊小抄 | 一页纸速查：里程碑检查、WBS、RASCI、排期工具选择 | 可直接打印/屏幕使用 |
+| 7 | `framework-yitang-project-execution` | framework | 项目管过程：进度/质量/变更 + 人 | 进度管理三要素、质量管理节点、变更四步、向上管理三心二意、体验管理十五字、冲突管理 24 字 | 含敏感度-管理动作匹配表 |
+| 8 | `tool-yitang-project-kickoff-meeting` | tool | 项目启动会设计模板 | 启动会目标、议程、必须对齐的 6 件事、会后跟进 | 与 `yt-tool-meeting-designer` 互链 |
+| 9 | `framework-yitang-project-retrospective` | framework | 项目复盘：美团 16 字原则 | 复盘价值、16 字原则、深度选择 5 维、常见误区 | 含主持人话术和情绪管理 |
+| 10 | `tool-yitang-retrospective-canvas` | tool | 项目复盘关键成果画布 | 整体评价/亮点/问题/坚持做/放弃做/新任务/过程资产 | 可直接填写 |
+| 11 | `skill-yitang-project-spiral-thinking` | skill | 项目螺旋思考法 | 先顶层再细节、先选择再执行、先确认再推进；与 Y模型引擎层对齐 | 可迁移到非项目场景 |
+| 12 | `workflow-yitang-project-four-step-loop` | workflow | 项目四步闭环工作流 | 定方案→拆计划→管过程→做复盘的触发条件、输入输出、质量门 | 每步含进入/退出标准 |
+| 13 | `agent-spec-project-management-assistant` | agent-spec | 项目管理助手（对话教练版） | 接收项目描述→输出 A/B/C/D 分级+敏感度雷达+三段论草稿+里程碑/RASCI/排期建议+启动会 agenda+复盘画布 | 含 System Prompt、输入门、输出门、TCPR、Few-shot、迭代日志 |
 
 ---
 
@@ -196,12 +198,12 @@ agent-spec 卡内需包含至少 3 个示例：
 
 ## 六、生产顺序建议
 
-1. **第一批**：`yt-management-project-management`（总纲重写）
-2. **第二批**：`framework-yitang-project-plan-design`、`framework-yitang-project-breakdown`
-3. **第三批**：`tool-yitang-project-plan-canvas`、`tool-yitang-project-breakdown-cheatsheet`
-4. **第四批**：`framework-yitang-project-execution`、`tool-yitang-project-kickoff-meeting`
-5. **第五批**：`framework-yitang-project-retrospective`、`tool-yitang-retrospective-canvas`
-6. **第六批**：`skill-yitang-project-spiral-thinking`、`workflow-yitang-project-four-step-loop`
+1. **第一批**：`yt-management-project-management`（总纲重写）+ `framework-yitang-project-abcd-classification`
+2. **第二批**：`framework-yitang-project-plan-design` + `tool-yitang-project-plan-canvas`
+3. **第三批**：`framework-yitang-project-breakdown` + `tool-yitang-project-breakdown-cheatsheet`
+4. **第四批**：`framework-yitang-project-execution` + `tool-yitang-project-kickoff-meeting`
+5. **第五批**：`framework-yitang-project-retrospective` + `tool-yitang-retrospective-canvas`
+6. **第六批**：`skill-yitang-project-spiral-thinking` + `workflow-yitang-project-four-step-loop`
 7. **第七批**：`agent-spec-project-management-assistant`
 8. **第八批**：反向更新 14 张已有卡片 related
 
@@ -209,7 +211,7 @@ agent-spec 卡内需包含至少 3 个示例：
 
 ## 七、验收标准
 
-1. 12 张目标卡全部 `kdo pre-submit` PASS。
+1. 13 张目标卡全部 `kdo pre-submit` PASS。
 2. 所有新卡 `related ≥ 7`；agent-spec `related ≥ 10`。
 3. 14 张已有卡完成反向 related 更新，无新增死链。
 4. 口述稿重复区不得被当作素材引用。
@@ -227,13 +229,24 @@ agent-spec 卡内需包含至少 3 个示例：
 | 与现有 `yt-management-project-management` 外部攻击冲突 | 重写时丢失高质量 Critique | 保留并扩展原卡 Flyvbjerg/Goldratt 攻击 |
 | agent-spec 过度承诺自动化 | 用户误以为 Agent 可替代项目经理 | 在输入门/输出门/反幻觉规则中反复强调「Agent 做带宽，人做判断」 |
 | 跨域 related 更新遗漏 | GraphRAG 桥接效果差 | 使用诊断报告第 6 层清单逐项核对 |
+| ABCD 框架与 concept 重写边界不清 | 两张卡内容重叠 | concept 做「总纲+定位」，ABCD 做「分级规则+工具匹配」；互链不重复 |
 
 ---
 
-## 九、产出后动作
+## 九、与老顽童标注的交叉比对
+
+- 老顽童报告：`60_feedback/diagnosis/diag_20260707_laowantong-project-management-annotation.md`
+- 王语嫣独立判断：
+  - 采纳：升级 `yt-management-project-management`、ABCD 独立 framework、复盘方法论 P0、PMBOK 外部对标写入 Critique。
+  - 部分采纳/延后：方案评估三角形、RASCI 不单独建卡，功能并入画布与拆计划框架；Leo 案例、一堂 2022 复盘、武器库入口、批量 tool、L5/L6 暗知识放入 #132。
+  - 不采纳：不一次性生产 30-40 张卡，避免单任务过大、挤压其他域生产队列。
+
+---
+
+## 十、产出后动作
 
 1. 老顽童完成生产并跑 `kdo pre-submit`。
-2. 将本任务状态改为 `pending_review`。
+2. 将本任务状态改为 `pending_review`（使用 `queue_transition.py`）。
 3. 欧阳锋按队列终审。
 4. 终审通过后，黄药师执行 `kdo index --rebuild` 并监控 GraphRAG 桥接效果。
-5. 王语嫣更新 `.agent/kb-evolution-direction.md`，将本任务移入「已完成重大方向决策」。
+5. 王语嫣在 `.agent/kb-evolution-direction.md` 中将本任务移入「已完成重大方向决策」，并激活 #132。
