@@ -15,7 +15,6 @@ version: 1
 domain:
 - yitang
 - management
-- agent
 source_refs:
 - 00_inbox/管项目/项目管理-入门篇-口述.txt
 - 00_inbox/管项目/项目管理-定方案-口述.txt
