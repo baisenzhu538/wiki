@@ -6,6 +6,7 @@ status: queued
 priority: P2
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 created_at: 2026-07-01
 updated_at: 2026-07-01T16:00:00+00:00
 expected_cards: 3

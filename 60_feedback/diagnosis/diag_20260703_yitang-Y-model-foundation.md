@@ -6,6 +6,7 @@ status: final
 confidence: 0.90
 domain: epistemic-foundations / yitang / decision-science
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 created_at: 2026-07-03
 updated_at: 2026-07-08
 source_refs:

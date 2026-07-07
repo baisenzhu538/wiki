@@ -1,10 +1,12 @@
 ---
 id: task_20260708_wangyuyan-claude-retrospective-p0-fix
+title: 'Claude 王语嫣回溯审计 P0 修复：元数据一致性与关键内容校准'
 type: task
 status: in_progress
 owner: 王语嫣
 assignee: kimi-code
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 priority: P0
 created_at: 2026-07-08
 updated_at: '2026-07-07T17:49:27.133950+00:00'
