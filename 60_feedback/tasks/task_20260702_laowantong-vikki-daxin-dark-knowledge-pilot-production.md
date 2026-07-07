@@ -7,7 +7,7 @@ priority: P1
 assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-02
-updated_at: '2026-07-01T17:55:12.687428+00:00'
+updated_at: '2026-07-02T00:00:00+00:00'
 expected_cards: 4
 source_refs:
 - 60_feedback/diagnosis/diag_20260702_vikki-daxin-dark-knowledge-extraction.md
@@ -27,7 +27,7 @@ related:
 - dk-content-implicit-value-without-price
 - dk-community-lecturer-vs-crowd-model
 reviewed_by: 欧阳锋
-review_date: '2026-07-01'
+review_date: '2026-07-02'
 ---
 
 # 暗知识补挖试点生产：Vikki + 大馨战队

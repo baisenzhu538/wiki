@@ -7,7 +7,7 @@ confidence: 0.90
 domain: epistemic-foundations / yitang / decision-science
 reviewer: 欧阳锋
 created_at: 2026-07-03
-updated_at: 2026-07-03
+updated_at: 2026-07-08
 source_refs:
   - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
   - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt
@@ -15,7 +15,7 @@ source_refs:
   - 00_inbox/底层逻辑之一-Y模型/科学理念-Y模型.png
 related:
   - "[[task_20260703_laowantong-yitang-Y-model-foundation-production]]"
-  - "[[framework-yitang-Y-model]]"
+  - "[[yt-decision-y-model]]"
   - "[[framework-yitang-shishi-qiushi]]"
   - "[[framework-yitang-jiefang-sixiang]]"
   - "[[tool-yitang-Y-model-application]]"
@@ -23,7 +23,7 @@ related:
   - "[[case-yitang-Y-model-seven-applications]]"
   - "[[case-yitang-Y-model-advertising-turnaround]]"
 ---
-
+> 任务单与终审采用原 ID `yt-decision-y-model`，本诊断此前的 `framework-yitang-Y-model` 为初稿建议，已对齐。
 # 底层逻辑域诊断：Y模型、实事求是、解放思想
 
 > 诊断范围：一堂「底层逻辑之一：Y模型」课程素材，含口述稿、学习笔记、段王爷整理的同学实操案例合集。
@@ -99,7 +99,7 @@ related:
 
 | 旧卡 | 当前状态 | 处理方式 |
 |:---|:---|:---|
-| `yt-entrepreneur-scientific-method` | 浅层 concept，大量 placeholder | 重写升级为 `framework-yitang-Y-model` |
+| `yt-entrepreneur-scientific-method` | 浅层 concept，大量 placeholder | 重写升级为 `yt-decision-y-model` |
 | `yt-entrepreneur-truth-seeking` | 浅层 concept，大量 placeholder | 重写升级为 `framework-yitang-shishi-qiushi` |
 | `yt-model-liberate-thinking-layers` | 有六层模型内容，但 source 非本课程 | 重写升级为 `framework-yitang-jiefang-sixiang` |
 
@@ -109,7 +109,7 @@ related:
 
 ## 四、建议产出的 7 张卡
 
-### Card 1: `framework-yitang-Y-model`
+### Card 1: `yt-decision-y-model`
 
 **类型**：framework  
 **定位**：一堂最底层元框架，所有其他课程的解码器。

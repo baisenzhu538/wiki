@@ -7,10 +7,10 @@ status: reviewed
 priority: P1
 assignee: kimi
 reviewer: 欧阳锋
-review_date: '2026-06-29'
+review_date: '2026-07-02'
 acceptance_verdict: pass
 created_at: 2026-07-02
-updated_at: '2026-06-29T19:30:00+00:00'
+updated_at: '2026-07-02T00:00:00+00:00'
 expected_cards: 12
 source_refs:
 - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
@@ -42,7 +42,6 @@ related:
 - tool-opc-sales-dialogue-assistant
 - opc-ai-sales-agent-architecture
 reviewed_by: 欧阳锋
-review_date: '2026-07-02'
 ---
 
 # 一堂科学销售方法论：1 framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool（OPC 智能体）
@@ -419,25 +418,25 @@ review_date: '2026-07-02'
 
 ## 五、验收标准
 
-- [ ] 12 张目标卡 `kdo pre-submit` PASS，无新增 ERROR。
-- [ ] 12 张目标卡 `kdo lint` 0 ERROR；新增 WARNING 需在任务单中说明。
-- [ ] `framework-yitang-scientific-sales-five-step` 包含五步法总图、六大通病、与一堂五步法关系、OPC 改编提示。
-- [ ] `tool-yitang-customer-segmentation-4step` 包含四步法、SABC 分级、分层假设清单、验证方法、≥8 项 checklist。
-- [ ] `tool-yitang-value-proposition-4step` 包含四步法、卖点结构、好卖点三原则、落地触点、≥8 项 checklist。
-- [ ] `tool-yitang-sales-process-decomposition` 包含三步法、四类用户决策、里程碑定义、剧本杀/美容院案例、≥8 项 checklist。
-- [ ] `tool-yitang-sales-performance-management` 包含三步法、目标拆解维度、业绩管理画布、Pipeline/Gap 分析、周会三要点、快钱支付/电商案例、≥10 项 checklist。
-- [ ] `framework-yitang-sales-incentive-6d` 包含四大问题、六维模型、50 策略速查、不同阶段重点、发钱三大设计点、OPC 改编提示。
-- [ ] `tool-yitang-sales-toolkit-radar` 包含工具箱三步法、六维雷达图、60/75/85 分工具清单、≥8 项 checklist。
-- [ ] `dk-yitang-sales-common-pitfalls` 包含 6 个反模式、≥6 条预警信号、每个陷阱的修复动作。
-- [ ] `case-yitang-sales-transformation-jubensha-saas` 包含 Background/Problem/Decision/Process/Result/Lessons/Failure Modes。
-- [ ] `case-yitang-sales-transformation-meirongyuan` 包含 Background/Problem/Decision/Process/Result/Lessons/Failure Modes。
-- [ ] `case-yitang-sales-transformation-tuliaogongsi` 包含 Background/Problem/Decision/Process/Result/Lessons/Failure Modes。
-- [ ] `tool-opc-sales-dialogue-assistant` 包含 When to Use/输入/输出/工作逻辑/System Prompt 模板/边界与风险/Checklist/Anti-patterns/Critique/Synthesis/Related。
-- [ ] 每张卡 Critique 包含 ≥3 个外部反对者与 ≥2 个内部局限。
-- [ ] 每张卡 related ≥ 5，且至少 2 条跨域。
-- [ ] ≥28 张已有卡的 related 已反向更新。
-- [ ] `opc-ai-sales-agent-architecture.md` 的 related 已加入 12 张新卡回链。
-- [ ] 欧阳锋终审通过。
+- [x] 12 张目标卡 `kdo pre-submit` PASS，无新增 ERROR。
+- [x] 12 张目标卡 `kdo lint` 0 ERROR；新增 WARNING 需在任务单中说明。
+- [x] `framework-yitang-scientific-sales-five-step` 包含五步法总图、六大通病、与一堂五步法关系、OPC 改编提示。
+- [x] `tool-yitang-customer-segmentation-4step` 包含四步法、SABC 分级、分层假设清单、验证方法、≥8 项 checklist。
+- [x] `tool-yitang-value-proposition-4step` 包含四步法、卖点结构、好卖点三原则、落地触点、≥8 项 checklist。
+- [x] `tool-yitang-sales-process-decomposition` 包含三步法、四类用户决策、里程碑定义、剧本杀/美容院案例、≥8 项 checklist。
+- [x] `tool-yitang-sales-performance-management` 包含三步法、目标拆解维度、业绩管理画布、Pipeline/Gap 分析、周会三要点、快钱支付/电商案例、≥10 项 checklist。
+- [x] `framework-yitang-sales-incentive-6d` 包含四大问题、六维模型、50 策略速查、不同阶段重点、发钱三大设计点、OPC 改编提示。
+- [x] `tool-yitang-sales-toolkit-radar` 包含工具箱三步法、六维雷达图、60/75/85 分工具清单、≥8 项 checklist。
+- [x] `dk-yitang-sales-common-pitfalls` 包含 6 个反模式、≥6 条预警信号、每个陷阱的修复动作。
+- [x] `case-yitang-sales-transformation-jubensha-saas` 包含 Background/Problem/Decision/Process/Result/Lessons/Failure Modes。
+- [x] `case-yitang-sales-transformation-meirongyuan` 包含 Background/Problem/Decision/Process/Result/Lessons/Failure Modes。
+- [x] `case-yitang-sales-transformation-tuliaogongsi` 包含 Background/Problem/Decision/Process/Result/Lessons/Failure Modes。
+- [x] `tool-opc-sales-dialogue-assistant` 包含 When to Use/输入/输出/工作逻辑/System Prompt 模板/边界与风险/Checklist/Anti-patterns/Critique/Synthesis/Related。
+- [x] 每张卡 Critique 包含 ≥3 个外部反对者与 ≥2 个内部局限。
+- [x] 每张卡 related ≥ 5，且至少 2 条跨域。
+- [x] ≥28 张已有卡的 related 已反向更新。
+- [x] `opc-ai-sales-agent-architecture.md` 的 related 已加入 12 张新卡回链。
+- [x] 欧阳锋终审通过。
 
 ---
 

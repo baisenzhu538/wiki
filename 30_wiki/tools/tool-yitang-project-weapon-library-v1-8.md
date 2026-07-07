@@ -54,10 +54,10 @@ updated_at: 2026-07-08
 
 | 项目规模 →<br>管理阶段 ↓ | **A. 单人项目**<br>（1人，≤3天） | **B. 小项目**<br>（2-5人，1-4周） | **C. 中项目**<br>（跨部门，1-3月） | **D. 大项目**<br>（公司级/战略级） |
 |:---|:---|:---|:---|:---|
-| **① 定方案**<br>想清楚再动手 | 先读 [[framework-yitang-project-abcd-classification\|ABCD分级]] 确认项目级别；<br>口头确认目标即可 | **必选**：[[framework-yitang-project-plan-design\|定方案框架]] + [[tool-yitang-project-plan-canvas\|一页纸画布]]（最小版：背景+目标+1个里程碑） | **必选**：[[framework-yitang-project-plan-design\|定方案框架]] + [[tool-yitang-project-plan-canvas\|一页纸画布]]（三段论+评估三角+风险预判） | **必选**：[[framework-yitang-project-plan-design\|定方案框架]] + [[tool-yitang-project-plan-canvas\|一页纸画布]]（完整版：8维度背景分析+ROI+机会成本+窗口期+风险清单） |
-| **② 拆计划**<br>拆明白才能执行 | 口头分工 + 随口对齐时间 | **必选**：[[framework-yitang-project-breakdown\|拆计划框架]] + [[tool-yitang-project-breakdown-cheatsheet\|拆计划小抄]]（简单排期表+RASCI极简版） | **必选**：[[framework-yitang-project-breakdown\|拆计划框架]] + [[tool-yitang-project-breakdown-cheatsheet\|拆计划小抄]]（WBS+RASCI+里程碑+甘特图） | **必选**：[[framework-yitang-project-breakdown\|拆计划框架]] + [[tool-yitang-project-breakdown-cheatsheet\|拆计划小抄]]（甘特图+依赖关系图+分层拆解D→C→B/A+六维敏感度预判） |
-| **③ 管执行**<br>跟到位保落地 | 站会/随口同步即可 | **必选**：[[framework-yitang-project-execution\|管执行框架]]；<br>**可选**：[[tool-yitang-project-kickoff-meeting\|启动会模板]]（15分钟极简版） | **必选**：[[framework-yitang-project-execution\|管执行框架]] + [[tool-yitang-project-kickoff-meeting\|启动会模板]]；<br>**推荐**：[[yt-tool-project-health-radar\|健康度雷达]]（里程碑节点诊断） | **必选**：[[framework-yitang-project-execution\|管执行框架]] + [[tool-yitang-project-kickoff-meeting\|启动会模板]] + [[yt-tool-project-health-radar\|健康度雷达]]（周度诊断+变更管理+质量门） |
-| **④ 做复盘**<br>挖金矿变资产 | 口头复盘（这次哪好哪不好，下次注意） | **必选**：[[framework-yitang-project-retrospective\|复盘框架]] + [[tool-yitang-retrospective-canvas\|复盘画布]]（文档复盘，异步十六字流程） | **必选**：[[framework-yitang-project-retrospective\|复盘框架]] + [[tool-yitang-retrospective-canvas\|复盘画布]]（正式复盘会 3-6h） | **必选**：[[framework-yitang-project-retrospective\|复盘框架]] + [[tool-yitang-retrospective-canvas\|复盘画布]]（深度复盘会 6-8h + 复盘画布 + 过程资产沉淀） |
+| **① 定方案**<br>想清楚再动手 | 先读 [[framework-yitang-project-abcd-classification\]] 确认项目级别；<br>口头确认目标即可 | **必选**：[[framework-yitang-project-plan-design\]] + [[tool-yitang-project-plan-canvas\]]（最小版：背景+目标+1个里程碑） | **必选**：[[framework-yitang-project-plan-design\]] + [[tool-yitang-project-plan-canvas\]]（三段论+评估三角+风险预判） | **必选**：[[framework-yitang-project-plan-design\]] + [[tool-yitang-project-plan-canvas\]]（完整版：8维度背景分析+ROI+机会成本+窗口期+风险清单） |
+| **② 拆计划**<br>拆明白才能执行 | 口头分工 + 随口对齐时间 | **必选**：[[framework-yitang-project-breakdown\]] + [[tool-yitang-project-breakdown-cheatsheet\]]（简单排期表+RASCI极简版） | **必选**：[[framework-yitang-project-breakdown\]] + [[tool-yitang-project-breakdown-cheatsheet\]]（WBS+RASCI+里程碑+甘特图） | **必选**：[[framework-yitang-project-breakdown\]] + [[tool-yitang-project-breakdown-cheatsheet\]]（甘特图+依赖关系图+分层拆解D→C→B/A+六维敏感度预判） |
+| **③ 管执行**<br>跟到位保落地 | 站会/随口同步即可 | **必选**：[[framework-yitang-project-execution\]]；<br>**可选**：[[tool-yitang-project-kickoff-meeting\]]（15分钟极简版） | **必选**：[[framework-yitang-project-execution\]] + [[tool-yitang-project-kickoff-meeting\]]；<br>**推荐**：[[yt-tool-project-health-radar\]]（里程碑节点诊断） | **必选**：[[framework-yitang-project-execution\]] + [[tool-yitang-project-kickoff-meeting\]] + [[yt-tool-project-health-radar\]]（周度诊断+变更管理+质量门） |
+| **④ 做复盘**<br>挖金矿变资产 | 口头复盘（这次哪好哪不好，下次注意） | **必选**：[[framework-yitang-project-retrospective\]] + [[tool-yitang-retrospective-canvas\]]（文档复盘，异步十六字流程） | **必选**：[[framework-yitang-project-retrospective\]] + [[tool-yitang-retrospective-canvas\]]（正式复盘会 3-6h） | **必选**：[[framework-yitang-project-retrospective\]] + [[tool-yitang-retrospective-canvas\]]（深度复盘会 6-8h + 复盘画布 + 过程资产沉淀） |
 
 > **递进逻辑说明**：B级包含A级全部工具，C级包含B级全部工具，D级包含C级全部工具。越往右，管理工具越丰富、越正式。但核心框架（五个 framework-yitang-project-*）贯穿所有级别——差异在于工具的使用深度。
 
@@ -69,17 +69,17 @@ updated_at: 2026-07-08
 
 | 场景 | → 直接跳转 |
 |:---|:---|
-| **"我要启动一个新项目，不知道从哪开始"** | → 先读 [[framework-yitang-project-abcd-classification\|ABCD分级]]（1分钟定项目级别）→ 再读 [[framework-yitang-project-plan-design\|定方案框架]] → 然后用 [[tool-yitang-project-plan-canvas\|一页纸画布]] 填方案 |
-| **"方案写完了，不知道怎么拆成执行计划"** | → [[framework-yitang-project-breakdown\|拆计划框架]] + [[tool-yitang-project-breakdown-cheatsheet\|拆计划小抄]] |
-| **"计划在执行，但总觉得要失控了"** | → [[framework-yitang-project-execution\|管执行框架]] + [[yt-tool-project-health-radar\|健康度雷达]]（15分钟诊断项目真实状态） |
-| **"项目做完了，想好好复盘但不知道怎么做"** | → [[framework-yitang-project-retrospective\|复盘框架]] + [[tool-yitang-retrospective-canvas\|复盘画布]]（十六字流程：成败认定→场景还原→得失分析→总结提炼） |
-| **"马上要开项目启动会，我需要一个议程模板"** | → [[tool-yitang-project-kickoff-meeting\|启动会模板]]（两小时对齐六件事） |
-| **"我想完整理解一堂项目管理体系的全部逻辑"** | → 先读 [[yt-management-project-management\|科学项目管理概念卡]] → 再读 [[workflow-yitang-project-four-step-loop\|四步闭环工作流]]（全景图）→ 然后逐个读五个 framework 框架卡 |
-| **"团队项目管理能力整体薄弱，想系统提升"** | → [[skill-yitang-project-spiral-thinking\|项目螺旋思维技能]]（从单次项目到持续进步的元能力） |
-| **"我需要管理工具箱的完整目录"** | → [[yt-management-toolkit-overview\|管理工具箱总览]]（覆盖管项目/管目标/管团队/管决策等全部管理域） |
-| **"项目目标和OKR怎么对齐"** | → [[yt-management-goal-management\|目标管理概念卡]] |
-| **"项目会议总是低效、各说各话"** | → [[yt-management-scientific-meetings\|科学开会概念卡]] |
-| **"我刚接手项目管理，需要补基础"** | → [[yt-management-basic-skills\|管理基础技能概念卡]] |
+| **"我要启动一个新项目，不知道从哪开始"** | → 先读 [[framework-yitang-project-abcd-classification\]]（1分钟定项目级别）→ 再读 [[framework-yitang-project-plan-design\]] → 然后用 [[tool-yitang-project-plan-canvas\]] 填方案 |
+| **"方案写完了，不知道怎么拆成执行计划"** | → [[framework-yitang-project-breakdown\]] + [[tool-yitang-project-breakdown-cheatsheet\]] |
+| **"计划在执行，但总觉得要失控了"** | → [[framework-yitang-project-execution\]] + [[yt-tool-project-health-radar\]]（15分钟诊断项目真实状态） |
+| **"项目做完了，想好好复盘但不知道怎么做"** | → [[framework-yitang-project-retrospective\]] + [[tool-yitang-retrospective-canvas\]]（十六字流程：成败认定→场景还原→得失分析→总结提炼） |
+| **"马上要开项目启动会，我需要一个议程模板"** | → [[tool-yitang-project-kickoff-meeting\]]（两小时对齐六件事） |
+| **"我想完整理解一堂项目管理体系的全部逻辑"** | → 先读 [[yt-management-project-management\]] → 再读 [[workflow-yitang-project-four-step-loop\]]（全景图）→ 然后逐个读五个 framework 框架卡 |
+| **"团队项目管理能力整体薄弱，想系统提升"** | → [[skill-yitang-project-spiral-thinking\]]（从单次项目到持续进步的元能力） |
+| **"我需要管理工具箱的完整目录"** | → [[yt-management-toolkit-overview\]]（覆盖管项目/管目标/管团队/管决策等全部管理域） |
+| **"项目目标和OKR怎么对齐"** | → [[yt-management-goal-management\]] |
+| **"项目会议总是低效、各说各话"** | → [[yt-management-scientific-meetings\]] |
+| **"我刚接手项目管理，需要补基础"** | → [[yt-management-basic-skills\]] |
 
 ---
 
