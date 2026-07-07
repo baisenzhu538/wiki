@@ -1,7 +1,10 @@
 ---
 id: task_20260708_wangyuyan-claude-retrospective-p1-supplement
 type: task
-status: pending_review
+status: reviewed
+review_verdict: pass
+review_grade: A
+review_notes: 17/17 pre-submit PASS。四项补全（source_refs行号精确化、外部URL附录、诊断深度补充、交叉比对表）全部到位。
 owner: 王语嫣
 assignee: kimi-code
 reviewer: 欧阳锋
