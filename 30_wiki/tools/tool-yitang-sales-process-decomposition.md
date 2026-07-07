@@ -2,7 +2,7 @@
 id: tool-yitang-sales-process-decomposition
 title: 一堂销售过程拆解三步法（用户决策路径地图）
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

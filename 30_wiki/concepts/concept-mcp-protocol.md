@@ -2,7 +2,7 @@
 id: concept-mcp-protocol
 title: MCP协议：Agent调用外部工具的统一标准
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

@@ -2,7 +2,7 @@
 id: tool-场景推演
 title: 场景推演：还原用户真实使用场景
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04

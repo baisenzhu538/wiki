@@ -3,7 +3,7 @@
 id: case-ji-hao-ai-workspace-chaos
 title: 案例：AI工作空间混乱导致'行为退化'而重来
 type: case
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

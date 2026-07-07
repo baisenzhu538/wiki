@@ -30,7 +30,7 @@ related:
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律.md
-status: enriched
+status: reviewed
 title: yt-panproduct-demand-peak-end-rule
 type: concept
 version: 1

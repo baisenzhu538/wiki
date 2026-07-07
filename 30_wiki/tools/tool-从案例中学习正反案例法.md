@@ -3,7 +3,7 @@
 id: tool-从案例中学习正反案例法
 title: 技能：从案例中学习（正反案例法）
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 source_person: 一堂课程

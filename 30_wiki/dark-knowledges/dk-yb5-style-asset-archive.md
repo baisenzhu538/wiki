@@ -4,7 +4,7 @@ id: dk-yb5-style-asset-archive
 title: AI绘图降本的前提：风格资产工程化归档
 type: dk
 dark_knowledge_type: workflow
-status: enriched
+status: reviewed
 domain:
 - design
 - ai-collaboration

@@ -2,7 +2,7 @@
 id: case-demand-equestrian-three-tasks
 title: 案例：马术三层任务——功能/情感/社交的完美展演
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

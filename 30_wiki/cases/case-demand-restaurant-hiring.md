@@ -2,7 +2,7 @@
 id: case-demand-restaurant-hiring
 title: 案例：麦家小馆人才选拔——频次高估
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

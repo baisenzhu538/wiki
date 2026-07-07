@@ -41,7 +41,7 @@ related:
 - "[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]"
 source_refs:
 - 10_raw/sources/src_20260614_9ca806cd-theme-yitang-methodology-summary.md
-status: enriched
+status: reviewed
 title: 宽度分析工具：列推建查四步法+三层盲区清单
 trust_level: medium
 type: tool

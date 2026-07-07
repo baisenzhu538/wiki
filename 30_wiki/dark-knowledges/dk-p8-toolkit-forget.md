@@ -4,7 +4,7 @@ id: dk-p8-toolkit-forget
 title: P-8：欧阳锋忘记本地已有武器——重新调研已部署工具
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

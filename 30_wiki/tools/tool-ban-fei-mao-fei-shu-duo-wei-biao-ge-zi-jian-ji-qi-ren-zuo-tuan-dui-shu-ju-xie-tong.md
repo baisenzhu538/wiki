@@ -3,7 +3,7 @@
 id: tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong
 title: 技能：飞书多维表格 + 自建机器人做团队数据协同
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - yitang- src_unknown

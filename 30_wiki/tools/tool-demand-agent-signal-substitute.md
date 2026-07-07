@@ -2,7 +2,7 @@
 id: tool-demand-agent-signal-substitute
 title: Agent L5信号提取：替代微观体感的非结构化数据分析
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

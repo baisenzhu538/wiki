@@ -5,7 +5,7 @@ title: 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 10
 type: case
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

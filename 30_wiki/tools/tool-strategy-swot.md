@@ -2,7 +2,7 @@
 id: tool-strategy-swot
 title: SWOT 分析工具：从四象限到行动策略
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 domain: strategy

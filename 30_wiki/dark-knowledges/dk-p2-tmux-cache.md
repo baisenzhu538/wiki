@@ -4,7 +4,7 @@ id: dk-p2-tmux-cache
 title: P-2：tmux session 缓存旧配置
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

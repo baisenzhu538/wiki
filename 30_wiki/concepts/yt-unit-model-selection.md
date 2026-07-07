@@ -27,7 +27,7 @@ related:
   - "[[yt-unit-model-three-tools]]"
 source_refs:
   - pending_archive:source material not yet ingested
-status: enriched
+status: reviewed
 title: 单元模型选择法：复制哪个算哪个，找到核心经济单元
 trust_level: medium
 type: tool

@@ -4,7 +4,7 @@ title: "富足悖论：为什么技术越富足，新问题越多"
 type: "concept"
 domain:
   - "decision-making"
-status: "enriched"
+status: reviewed
 confidence: 0.78
 difficulty: "intermediate"
 language: "zh-CN"

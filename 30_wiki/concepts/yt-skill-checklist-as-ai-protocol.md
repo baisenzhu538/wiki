@@ -3,7 +3,7 @@
 id: yt-skill-checklist-as-ai-protocol
 title: 清单体作为AI的I/O协议——用笔记替代prompt工程
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 language: zh-CN

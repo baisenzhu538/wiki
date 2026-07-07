@@ -4,7 +4,7 @@ id: dk-f13-handwritten-yaml-parser
 title: F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
   - master
 source_person: system

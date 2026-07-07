@@ -3,7 +3,7 @@
 id: yitang-research-domain-digest
 title: 域摘要：调研方法论（90+张卡）
 type: index
-status: enriched
+status: reviewed
 confidence: 0.95
 trust_level: high
 domain: yitang

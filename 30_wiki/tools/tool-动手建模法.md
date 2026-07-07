@@ -3,7 +3,7 @@
 id: tool-动手建模法
 title: 技能：动手建模法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 source_person: 一堂课程

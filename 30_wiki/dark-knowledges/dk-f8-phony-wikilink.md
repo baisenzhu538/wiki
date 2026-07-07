@@ -4,7 +4,7 @@ id: dk-f8-phony-wikilink
 title: F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

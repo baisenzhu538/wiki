@@ -5,7 +5,7 @@ domain:
 id: yt-demand-insight-extraction
 title: 从用户访谈中提取真实需求：访谈技巧与偏见规避
 type: skill
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——用户访谈方法

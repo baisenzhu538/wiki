@@ -4,7 +4,7 @@ id: dk-ji-hao-problem-vs-question
 title: 暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem
 type: dk
 dark_knowledge_type: principle
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

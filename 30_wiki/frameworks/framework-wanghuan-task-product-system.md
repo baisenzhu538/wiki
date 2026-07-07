@@ -3,7 +3,7 @@
 id: framework-wanghuan-task-product-system
 title: 王欢任务→产品→系统演进框架
 type: framework
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

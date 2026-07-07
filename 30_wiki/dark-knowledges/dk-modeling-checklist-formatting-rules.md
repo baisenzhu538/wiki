@@ -4,7 +4,7 @@ id: dk-modeling-checklist-formatting-rules
 title: 清单体写不好，模型就建不好：换行、分层、优先级、完备
 type: dk
 dark_knowledge_type: workflow
-status: enriched
+status: reviewed
 domain:
 - yitang
 - ai-saas

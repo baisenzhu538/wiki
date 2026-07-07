@@ -2,7 +2,7 @@
 id: tool-demand-agent-l4-case-match
 title: Agent做L4：案例库自动检索匹配——用历史摩擦点作为推演起点
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.88
 trust_level: high
 domain: yitang

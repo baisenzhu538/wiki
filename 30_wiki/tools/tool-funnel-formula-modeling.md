@@ -8,7 +8,7 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

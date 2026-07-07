@@ -5,7 +5,7 @@ title: 结构化面试打分卡
 type: tool
 source_refs:
 - 10_raw/sources/src_20260619_642947cb_30_wiki_concepts_yt_management_scientific_hiring.md
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 language: zh-CN

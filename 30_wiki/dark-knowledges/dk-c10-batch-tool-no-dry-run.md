@@ -4,7 +4,7 @@ id: dk-c10-batch-tool-no-dry-run
 title: C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: 欧阳锋

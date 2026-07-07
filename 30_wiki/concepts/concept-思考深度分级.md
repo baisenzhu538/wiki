@@ -2,7 +2,7 @@
 id: concept-思考深度分级
 title: 思考深度分级：从表象到本质的认知阶梯
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

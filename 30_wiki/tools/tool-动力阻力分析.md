@@ -2,7 +2,7 @@
 id: tool-动力阻力分析
 title: 动力阻力分析：用户行为的推拉模型
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

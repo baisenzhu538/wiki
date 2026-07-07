@@ -31,7 +31,7 @@ related:
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_1ec27760-ocr-泛产品设计-用户卡片-动力阻力.md
-status: enriched
+status: reviewed
 title: yt-panproduct-demand-motivation-resistance
 type: concept
 version: 1

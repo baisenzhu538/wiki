@@ -3,7 +3,7 @@
 id: case-ji-hao-skills-market
 title: 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助
 type: case
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

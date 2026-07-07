@@ -4,7 +4,7 @@ id: dk-c3-txt-ingest-skip
 title: C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain: master
 source_person: Builder
 source_context: 2026-05-03

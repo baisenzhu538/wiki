@@ -2,7 +2,7 @@
 id: case-yitang-sales-transformation-jubensha-saas
 title: 案例：剧本杀 SaaS 销售体系从零搭建——兼职团队跑通科学销售五步法
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.82

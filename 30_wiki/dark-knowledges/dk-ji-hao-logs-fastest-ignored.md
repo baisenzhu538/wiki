@@ -3,7 +3,7 @@
 id: dk-ji-hao-logs-fastest-ignored
 title: 暗知识：日志增长最快但最容易被忽视
 type: dk
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

@@ -2,7 +2,7 @@
 id: tool-纪浩-Agent开工检查单制作法
 title: 技能：Agent开工检查单制作法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

@@ -2,7 +2,7 @@
 id: tool-yitang-18-strategy-tool-mapping
 title: 降龙十八掌→工具映射表：每掌对应的执行工具和 Skill
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:

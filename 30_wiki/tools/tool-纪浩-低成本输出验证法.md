@@ -2,7 +2,7 @@
 id: tool-纪浩-低成本输出验证法
 title: 技能：低成本输出验证法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

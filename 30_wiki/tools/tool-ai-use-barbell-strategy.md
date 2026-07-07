@@ -4,7 +4,7 @@ title: "AI 使用杠铃策略：把任务分成高 AI 区和无 AI 区"
 type: "tool"
 domain:
   - "ai-collaboration"
-status: "enriched"
+status: reviewed
 confidence: 0.82
 difficulty: "intermediate"
 language: "zh-CN"

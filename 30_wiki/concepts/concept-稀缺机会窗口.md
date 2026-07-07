@@ -2,7 +2,7 @@
 id: concept-稀缺机会窗口
 title: 稀缺机会窗口：不缺机会，缺识别窗口的能力
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

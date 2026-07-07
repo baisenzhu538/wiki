@@ -4,7 +4,7 @@ created_at: 2026-05-25
 domain: healthcare
 source_refs:
 - 10_raw/sources/src_20260525_6748cc27-ai时代判断力口述.md
-status: enriched
+status: reviewed
 title: AI时代判断力口述
 type: concept
 updated_at: '2026-06-29'

@@ -2,7 +2,7 @@
 id: case-decision-science-universal-salary-raise-roi
 title: 案例：全员涨薪20%的ROI测算
 type: case
-status: enriched
+status: reviewed
 domain:
 - decision-science
 - yitang

@@ -2,7 +2,7 @@
 id: case-strategy-exit-remove
 title: 案例：撤退型布局2——去除（IBM郭士纳复兴）
 type: case
-status: enriched
+status: reviewed
 domain:
 - strategy
 - yitang

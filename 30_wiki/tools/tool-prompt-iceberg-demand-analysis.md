@@ -2,7 +2,7 @@
 id: tool-prompt-iceberg-demand-analysis
 title: 冰山图 L1-L6 需求深挖——多层引导提示词模板
 type: prompt-template
-status: enriched
+status: reviewed
 confidence: 0.88
 trust_level: high
 domain: yitang

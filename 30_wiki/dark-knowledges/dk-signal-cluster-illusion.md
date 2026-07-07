@@ -4,7 +4,7 @@ id: dk-signal-cluster-illusion
 title: 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - yitang
 - ai

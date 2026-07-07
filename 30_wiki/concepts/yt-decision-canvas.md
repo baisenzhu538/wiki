@@ -31,7 +31,7 @@ reviewed_by: 周伯通
 source_refs:
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md
 - 10_raw/sources/src_20260616_aac184cc-yitang-tob-five-step-homework-collection.md
-status: enriched
+status: reviewed
 title: Y模型决策画布（一页纸工具）
 trust_level: medium
 type: tool

@@ -4,7 +4,7 @@ id: dk-modeling-sop-execution-locks
 title: SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
 type: dk
 dark_knowledge_type: workflow
-status: enriched
+status: reviewed
 domain:
 - yitang
 - master

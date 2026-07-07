@@ -3,7 +3,7 @@
 id: yt-note-expert-interview-modeling
 title: 专家访谈式笔记：边聊边建模的高阶认知工作流
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

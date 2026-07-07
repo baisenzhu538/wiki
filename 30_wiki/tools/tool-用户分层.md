@@ -2,7 +2,7 @@
 id: tool-用户分层
 title: 用户分层：按价值和行为细分用户群
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

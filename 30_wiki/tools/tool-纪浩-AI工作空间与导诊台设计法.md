@@ -2,7 +2,7 @@
 id: tool-纪浩-AI工作空间与导诊台设计法
 title: 技能：AI工作空间与导诊台设计法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

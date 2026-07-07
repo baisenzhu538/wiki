@@ -3,7 +3,7 @@
 id: dk-research-decision-first-mapping
 title: 研究活动如何服务决策
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

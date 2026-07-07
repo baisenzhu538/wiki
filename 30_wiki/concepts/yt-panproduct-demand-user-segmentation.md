@@ -29,7 +29,7 @@ related:
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_38ddd826-ocr-泛产品设计-用户卡片-用户分层.md
-status: enriched
+status: reviewed
 title: yt-panproduct-demand-user-segmentation
 type: concept
 version: 1

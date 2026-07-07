@@ -2,7 +2,7 @@
 id: tool-yitang-wechat-group-infiltration
 title: 微信群潜伏：加入竞对的用户/加盟商社群
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

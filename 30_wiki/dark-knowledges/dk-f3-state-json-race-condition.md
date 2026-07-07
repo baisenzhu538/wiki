@@ -4,7 +4,7 @@ id: dk-f3-state-json-race-condition
 title: F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

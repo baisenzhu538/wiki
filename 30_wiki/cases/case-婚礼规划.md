@@ -2,7 +2,7 @@
 id: case-婚礼规划
 title: 案例：婚礼规划——完整决策流程
 type: case
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋

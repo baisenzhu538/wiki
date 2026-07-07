@@ -5,7 +5,7 @@ title: 科学建模七步里程碑：从边界到封装的方法论生产流程
 type: framework
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-status: enriched
+status: reviewed
 domain:
 - modeling- yitang
 - modeling

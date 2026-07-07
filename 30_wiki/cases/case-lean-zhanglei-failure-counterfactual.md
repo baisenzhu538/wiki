@@ -2,7 +2,7 @@
 id: case-lean-zhanglei-failure-counterfactual
 title: 张磊 AMA：判断力训练产品的验证陷阱与反事实推演
 type: case
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 author: 老顽童

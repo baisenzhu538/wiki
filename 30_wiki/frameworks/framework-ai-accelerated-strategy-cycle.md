@@ -2,7 +2,7 @@
 id: framework-ai-accelerated-strategy-cycle
 title: AI 加速的战略-验证闭环
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75

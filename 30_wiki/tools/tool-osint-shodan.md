@@ -2,7 +2,7 @@
 id: tool-osint-shodan
 title: Shodan：互联网设备搜索引擎——发现竞对的技术栈
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

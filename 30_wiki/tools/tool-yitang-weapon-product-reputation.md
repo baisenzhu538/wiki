@@ -2,7 +2,7 @@
 id: tool-yitang-weapon-product-reputation
 title: 武器库策略2：收集产品口碑/舆情——批量获取用户声音
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

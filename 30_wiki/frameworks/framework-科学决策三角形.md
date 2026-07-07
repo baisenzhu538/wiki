@@ -2,7 +2,7 @@
 id: framework-科学决策三角形
 title: 科学决策三角形：宽度×高度×深度三维决策框架
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.82

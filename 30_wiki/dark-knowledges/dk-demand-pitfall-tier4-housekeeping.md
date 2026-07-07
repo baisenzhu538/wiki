@@ -3,7 +3,7 @@
 id: dk-demand-pitfall-tier4-housekeeping
 title: 踩坑：四线家政——天花板误判。普遍性高≠能做大
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.88
 trust_level: high

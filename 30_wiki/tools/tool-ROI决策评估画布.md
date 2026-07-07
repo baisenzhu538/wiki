@@ -2,7 +2,7 @@
 id: tool-ROI决策评估画布
 title: ROI决策评估画布：三维度投资回报评估模板
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

@@ -2,7 +2,7 @@
 id: tool-yitang-patent-analysis
 title: 专利分析：从知识产权反推技术路线
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

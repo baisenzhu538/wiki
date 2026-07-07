@@ -2,7 +2,7 @@
 id: tool-纪浩-任务交付物标准化
 title: 技能：任务交付物标准化
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

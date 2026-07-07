@@ -2,7 +2,7 @@
 id: case-strategy-revival-14-gucci
 title: 案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千禧一代
 type: case
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 reviewed_by: 欧阳锋

@@ -3,7 +3,7 @@
 id: dk-strategy-essence-four-elements
 title: 战略内核检测：细分市场+竞争优势+资源配置+范围经济
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.9
 trust_level: high

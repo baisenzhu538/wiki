@@ -2,7 +2,7 @@
 id: case-candy-problem-os-vpn
 title: 案例：VPN场景——一个低质量提问如何消耗双方关系
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

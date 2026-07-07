@@ -2,7 +2,7 @@
 id: tool-纪浩-处理AI生成代码运行异常
 title: 技能：处理AI生成代码运行异常
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

@@ -3,7 +3,7 @@
 id: tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo
 title: 技能：用 Skill 做对比测试验证效果
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - yitang- src_unknown

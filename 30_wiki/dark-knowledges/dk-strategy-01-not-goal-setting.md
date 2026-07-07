@@ -3,7 +3,7 @@
 id: dk-strategy-01-not-goal-setting
 title: 战略≠定目标。"三年100亿"不是战略，从现状到100亿的路径才是
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.9
 trust_level: high

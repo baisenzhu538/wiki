@@ -2,7 +2,7 @@
 id: tool-yitang-customer-segmentation-4step
 title: 一堂用户分层四步法（SABC 分级）
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.86

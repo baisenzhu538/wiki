@@ -2,7 +2,7 @@
 id: dk-单元模型-找全成本实操难点
 title: 找全成本实操难点
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

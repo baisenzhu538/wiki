@@ -2,7 +2,7 @@
 id: framework-TCPR皇冠模型
 title: TCP-R皇冠模型：教学·咨询·实践·研究的统一框架
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.82

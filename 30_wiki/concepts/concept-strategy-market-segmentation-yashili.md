@@ -2,7 +2,7 @@
 id: concept-strategy-market-segmentation-yashili
 title: 细分市场分析逻辑——雅士利/蒙牛案例（© Yashili 2021）
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.82
 trust_level: medium

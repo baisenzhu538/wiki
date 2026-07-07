@@ -2,7 +2,7 @@
 id: tool-决策深度-L3定量公式
 title: 决策深度L3：定量公式
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.82

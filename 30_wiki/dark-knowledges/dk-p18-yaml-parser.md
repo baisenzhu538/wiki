@@ -4,7 +4,7 @@ id: dk-p18-yaml-parser
 title: P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

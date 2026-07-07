@@ -4,7 +4,7 @@ id: dk-p4-batch-format-empty
 title: P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

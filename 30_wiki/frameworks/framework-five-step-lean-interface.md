@@ -2,7 +2,7 @@
 id: framework-five-step-lean-interface
 title: 五步法与精益验证的接口
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-23

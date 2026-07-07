@@ -4,7 +4,7 @@ id: dk-note-surplus-brainpower
 title: “剩余脑力”：高阶笔记的唯一货币与分水岭
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - yitang
 - note-taking

@@ -4,7 +4,7 @@ created_at: 2026-05-03
 domain: healthcare
 source_refs:
 - 10_raw/sources/src_20260503_1a1f0312-HIS系统开发实现方案-架构师指南.md
-status: enriched
+status: reviewed
 title: HIS系统开发实现方案-架构师指南
 type: concept
 updated_at: 2026-05-03

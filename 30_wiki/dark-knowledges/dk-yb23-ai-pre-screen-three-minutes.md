@@ -4,7 +4,7 @@ id: dk-yb23-ai-pre-screen-three-minutes
 title: AI出图前置筛选：三分钟十套方案定风格
 type: dk
 dark_knowledge_type: workflow
-status: enriched
+status: reviewed
 domain:
 - design
 source_person: 月白

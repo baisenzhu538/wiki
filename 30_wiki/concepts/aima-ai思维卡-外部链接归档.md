@@ -4,7 +4,7 @@ created_at: 2026-05-21
 domain: healthcare
 source_refs:
 - 10_raw/sources/src_20260522_a8e05d98-aima-ai思维卡-外部链接归档.md
-status: enriched
+status: reviewed
 title: AIMA AI思维卡 — 外部链接归档
 type: concept
 updated_at: '2026-06-29'

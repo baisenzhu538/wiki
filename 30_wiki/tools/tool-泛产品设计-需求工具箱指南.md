@@ -2,7 +2,7 @@
 id: tool-泛产品设计-需求工具箱指南
 title: 需求工具箱指南
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-29

@@ -3,7 +3,7 @@
 id: concept-maister-trusted-advisor
 title: Trusted Advisor：可信顾问信任模型
 type: framework
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

@@ -4,7 +4,7 @@ id: dk-yb10-theory-moat-designer
 title: AI时代设计师的理论护城河
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - design
 - business-strategy

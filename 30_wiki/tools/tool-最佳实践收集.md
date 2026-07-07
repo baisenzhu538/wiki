@@ -2,7 +2,7 @@
 id: tool-最佳实践收集
 title: 最佳实践收集：系统性收集团队/行业的最佳做法
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04

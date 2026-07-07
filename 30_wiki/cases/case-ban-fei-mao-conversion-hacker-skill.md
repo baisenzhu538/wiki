@@ -3,7 +3,7 @@
 id: case-ban-fei-mao-conversion-hacker-skill
 title: 案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程
 type: case
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

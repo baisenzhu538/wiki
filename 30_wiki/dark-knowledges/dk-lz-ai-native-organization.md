@@ -4,7 +4,7 @@ id: dk-lz-ai-native-organization
 title: AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - ai-saas
 - business-strategy

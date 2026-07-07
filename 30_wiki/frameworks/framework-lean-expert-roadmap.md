@@ -2,7 +2,7 @@
 id: framework-lean-expert-roadmap
 title: 精益高手十年修炼地图
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

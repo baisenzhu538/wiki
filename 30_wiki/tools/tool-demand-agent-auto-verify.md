@@ -2,7 +2,7 @@
 id: tool-demand-agent-auto-verify
 title: Agent L6自动预验证：RAT的竞品数据+趋势快速验证
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

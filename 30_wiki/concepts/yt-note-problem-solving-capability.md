@@ -3,7 +3,7 @@
 id: yt-note-problem-solving-capability
 title: 笔记能力=解决问题能力：从备忘工具到问题解决系统
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

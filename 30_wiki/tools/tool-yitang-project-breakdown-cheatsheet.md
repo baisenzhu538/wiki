@@ -2,7 +2,7 @@
 id: tool-yitang-project-breakdown-cheatsheet
 title: 项目拆计划一页纸小抄
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

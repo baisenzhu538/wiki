@@ -3,7 +3,7 @@
 id: framework-wanghuan-bitcoe-prompt-framework
 title: 王欢BITCOE提示词框架
 type: framework
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

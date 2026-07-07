@@ -3,7 +3,7 @@
 id: case-child-drawing-rhyme
 title: 案例：孩子控笔「画画歌」——最小单元的建模实践
 type: case
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

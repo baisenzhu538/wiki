@@ -3,7 +3,7 @@
 id: tool-strategy-core-competence-matrix
 title: 核心能力评估矩阵：影响力 × 急迫性
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 domain:

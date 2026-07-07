@@ -2,7 +2,7 @@
 id: tool-决策深度-L1优先级定性
 title: 决策深度L1：优先级定性
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

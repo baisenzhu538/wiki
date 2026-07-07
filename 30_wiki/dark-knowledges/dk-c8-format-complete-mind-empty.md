@@ -4,7 +4,7 @@ id: dk-c8-format-complete-mind-empty
 title: C-8：批处理格式升级产生格式完整但思维空洞的卡片
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: 欧阳锋

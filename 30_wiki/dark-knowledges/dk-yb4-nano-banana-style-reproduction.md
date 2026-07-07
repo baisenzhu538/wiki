@@ -4,7 +4,7 @@ id: dk-yb4-nano-banana-style-reproduction
 title: Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o
 type: dk
 dark_knowledge_type: tool_usage
-status: enriched
+status: reviewed
 domain:
 - design
 source_person: 月白

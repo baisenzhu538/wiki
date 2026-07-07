@@ -2,7 +2,7 @@
 id: case-lean-crayfish-combo-test
 title: 案例：堕落小龙虾组合测试
 type: case
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 author: 老顽童

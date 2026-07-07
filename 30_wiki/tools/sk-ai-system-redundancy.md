@@ -3,7 +3,7 @@
 id: sk-ai-system-redundancy
 title: 技能：系统冗余度快速检查清单
 type: tool
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang- ai-collaboration

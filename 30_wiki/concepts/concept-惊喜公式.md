@@ -2,7 +2,7 @@
 id: concept-惊喜公式
 title: 惊喜公式：超越预期的用户体验设计
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

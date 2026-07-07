@@ -2,7 +2,7 @@
 id: tool-strategy-profit-model-comparison
 title: 盈利模式对比框架——直营/强类直营/弱类直营/代理加盟四象限决策
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain: strategy

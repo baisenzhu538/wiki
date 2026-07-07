@@ -4,7 +4,7 @@ id: dk-truman-document-is-real-project-is-fake
 title: 文档是真的，项目是假的——面向过去建模型，面向未来解决问题
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - yitang
 - personal-growth

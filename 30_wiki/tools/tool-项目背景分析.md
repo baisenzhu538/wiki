@@ -2,7 +2,7 @@
 id: tool-项目背景分析
 title: 项目背景分析：启动前的环境扫描
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

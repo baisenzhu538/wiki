@@ -2,7 +2,7 @@
 id: framework-strategy-kai-innovation-directions
 title: 凯纳创新方向分类框架
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.88
 trust_level: high
 domain:

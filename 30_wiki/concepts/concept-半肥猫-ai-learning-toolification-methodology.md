@@ -3,7 +3,7 @@
 id: concept-半肥猫-ai-learning-toolification-methodology
 title: 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

@@ -3,7 +3,7 @@
 id: tool-personal-time-audit-loop
 title: 个人时间审计与实验循环
 type: tool
-status: enriched
+status: reviewed
 domain:
   - personal-growth
   - yitang

@@ -4,7 +4,7 @@ id: dk-f9-generic-critique
 title: F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

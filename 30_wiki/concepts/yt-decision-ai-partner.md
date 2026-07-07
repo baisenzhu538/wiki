@@ -31,7 +31,7 @@ related:
 reviewed_by: 周伯通
 source_refs:
 - 10_raw/sources/src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02.md
-status: enriched
+status: reviewed
 title: AI决策Partner对话法
 trust_level: medium
 type: tool

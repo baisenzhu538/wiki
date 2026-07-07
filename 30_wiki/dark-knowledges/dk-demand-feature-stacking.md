@@ -3,7 +3,7 @@
 id: dk-demand-feature-stacking
 title: 功能堆叠陷阱：加功能≠满足需求
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

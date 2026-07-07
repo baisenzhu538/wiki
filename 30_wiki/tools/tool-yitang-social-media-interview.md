@@ -2,7 +2,7 @@
 id: tool-yitang-social-media-interview
 title: 社交媒体采访：在用户活跃的平台做轻量访谈
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

@@ -2,7 +2,7 @@
 id: tool-osint-sherlock
 title: Sherlock：用户名跨平台追踪——找到一个人的所有社交账号
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

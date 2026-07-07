@@ -4,7 +4,7 @@ id: dk-p17-accuracy-gap
 title: P-17：auto_label 声称"85%准确率"——实测34.8%，差距来自被忽略的5个维度
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

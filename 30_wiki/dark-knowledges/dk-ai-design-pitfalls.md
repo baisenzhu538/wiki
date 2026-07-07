@@ -4,7 +4,7 @@ id: dk-ai-design-pitfalls
 title: AI 设计交付物的五个常见陷阱与反打
 type: dark-knowledge
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 source_person: 陈舒妍
 source_context: 一堂 AI 俱乐部落地 Live81 分享（2026-07-02），喵善养商标设计中的真实踩坑与纠偏经验
 source_refs:

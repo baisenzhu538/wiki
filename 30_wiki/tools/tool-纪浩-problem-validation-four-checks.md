@@ -3,7 +3,7 @@
 id: tool-纪浩-problem-validation-four-checks
 title: 技能：四问验证法 —— 判断需求是真实Problem还是伪需求
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

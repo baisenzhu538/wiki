@@ -2,7 +2,7 @@
 id: tool-yitang-weapon-insider-intelligence
 title: 武器库策略5：内部人情报——员工/离职员工的信息价值
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

@@ -2,7 +2,7 @@
 id: case-truman-time-management-commute-experiment
 title: Truman 通勤实验：用时间审计把「废时间」变成产能杠杆
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: "2026-06-29"

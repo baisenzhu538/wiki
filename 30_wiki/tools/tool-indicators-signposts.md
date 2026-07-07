@@ -21,7 +21,7 @@ source_refs:
 related:
 - "[[yt-decision-y-model]]"
 - "[[yt-research-intelligence-map]]"
-status: enriched
+status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 created_at: '2026-06-28'

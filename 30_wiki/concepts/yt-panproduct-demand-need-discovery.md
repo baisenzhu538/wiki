@@ -30,7 +30,7 @@ related:
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md
-status: enriched
+status: reviewed
 title: yt-panproduct-demand-need-discovery
 type: concept
 version: 1

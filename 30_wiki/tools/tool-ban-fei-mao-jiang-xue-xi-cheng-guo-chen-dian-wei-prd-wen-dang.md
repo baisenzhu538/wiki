@@ -3,7 +3,7 @@
 id: tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang
 title: 技能：将学习成果沉淀为 PRD 文档
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - yitang- src_unknown

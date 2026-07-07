@@ -2,7 +2,7 @@
 id: case-wanghuan-education-sales-capability-extraction
 title: 王欢案例：教育机构销冠能力萃取系统
 type: case
-status: enriched
+status: reviewed
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88

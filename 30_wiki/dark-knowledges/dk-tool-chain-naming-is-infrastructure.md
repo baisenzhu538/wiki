@@ -4,7 +4,7 @@ id: dk-tool-chain-naming-is-infrastructure
 title: 命名不规范会让整条工具链"失明"
 type: dk
 dark_knowledge_type: cross-domain-pattern
-status: enriched
+status: reviewed
 domain:
 - master
 - kdo

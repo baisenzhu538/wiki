@@ -3,7 +3,7 @@
 id: prompt-demand-ai-coach
 title: AI需求分析教练：冰山六层全流程推演提示词
 type: prompt-methodology
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

@@ -3,7 +3,7 @@
 id: tool-复盘推演法
 title: 技能：复盘推演法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 source_person: 一堂课程

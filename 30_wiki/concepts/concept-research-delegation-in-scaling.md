@@ -2,7 +2,7 @@
 id: concept-research-delegation-in-scaling
 title: 规模化中的调研委派：从"自己做"到"建机制"
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

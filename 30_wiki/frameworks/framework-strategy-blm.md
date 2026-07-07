@@ -2,7 +2,7 @@
 id: framework-strategy-blm
 title: IBM BLM 业务领导力模型 + 华为五看三定
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.95
 trust_level: high
 domain: strategy

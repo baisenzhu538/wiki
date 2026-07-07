@@ -2,7 +2,7 @@
 id: concept-harness-cattle-not-pets
 title: 牲口而非宠物：每次迭代用全新Generator实例
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

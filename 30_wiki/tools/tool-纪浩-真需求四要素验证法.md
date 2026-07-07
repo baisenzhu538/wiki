@@ -3,7 +3,7 @@
 id: tool-纪浩-真需求四要素验证法
 title: 真需求四要素验证法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

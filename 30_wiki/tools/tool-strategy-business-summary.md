@@ -2,7 +2,7 @@
 id: tool-strategy-business-summary
 title: 业务设计总结：战略蓝图输出+关键任务卡片
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

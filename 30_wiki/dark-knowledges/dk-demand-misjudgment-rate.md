@@ -3,7 +3,7 @@
 id: dk-demand-misjudgment-rate
 title: 30-50%创业失败源于需求误判
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

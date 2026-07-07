@@ -2,7 +2,7 @@
 id: concept-多视角思考
 title: 多视角思考：用不同角色审视产品
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

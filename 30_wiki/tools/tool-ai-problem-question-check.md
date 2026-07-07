@@ -2,7 +2,7 @@
 id: tool-ai-problem-question-check
 title: 技能：Problem vs Question 区分法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

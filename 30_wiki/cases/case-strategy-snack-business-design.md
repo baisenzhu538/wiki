@@ -2,7 +2,7 @@
 id: case-strategy-snack-business-design
 title: 零食企业业务设计示例：从大众散货到家庭健康亲子零食专家
 type: case
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 reviewed_by: 欧阳锋

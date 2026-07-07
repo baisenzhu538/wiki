@@ -3,7 +3,7 @@
 id: dk-yitang-behavior-over-asking
 title: 调研中行为证据重于口头证据
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

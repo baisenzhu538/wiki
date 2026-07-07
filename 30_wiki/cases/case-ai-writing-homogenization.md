@@ -2,7 +2,7 @@
 id: case-ai-writing-homogenization
 title: 内容平台 AI 洗稿同质化：当生成式 AI 压低表达多样性
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: "2026-06-29"

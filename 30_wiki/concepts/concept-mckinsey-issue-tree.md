@@ -3,7 +3,7 @@
 id: concept-mckinsey-issue-tree
 title: Issue Tree：问题树拆解
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

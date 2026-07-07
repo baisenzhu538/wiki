@@ -3,7 +3,7 @@
 id: concept-wanghuan-adversarial-generation
 title: 王欢概念：对抗式生成
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

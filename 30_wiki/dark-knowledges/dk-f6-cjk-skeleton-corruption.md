@@ -4,7 +4,7 @@ id: dk-f6-cjk-skeleton-corruption
 title: F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

@@ -2,7 +2,7 @@
 id: skill-research-triangulation-stop-rule
 title: 多源交叉验证的停止规则
 type: skill
-status: enriched
+status: reviewed
 confidence: 0.8
 trust_level: high
 language: zh-CN

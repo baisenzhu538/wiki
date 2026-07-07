@@ -2,7 +2,7 @@
 id: case-lean-electric-scooter-mvp
 title: 案例：共享电动滑板车 A/B/C/D 四级 MVP 验证
 type: case
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 author: 老顽童

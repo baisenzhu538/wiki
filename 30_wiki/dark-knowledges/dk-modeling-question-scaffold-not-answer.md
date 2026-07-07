@@ -3,7 +3,7 @@ id: dk-modeling-question-scaffold-not-answer
 title: 模型是提问的脚手架，不是答案
 type: dk
 dark_knowledge_type: cross-domain-pattern
-status: enriched
+status: reviewed
 domain:
 - yitang
 - modeling

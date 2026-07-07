@@ -4,7 +4,7 @@ id: dk-ji-hao-novice-mindset-advantage
 title: 暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口
 type: dk
 dark_knowledge_type: principle
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

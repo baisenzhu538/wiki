@@ -3,7 +3,7 @@
 id: tool-三层目标对齐法
 title: 技能：三层目标对齐法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 source_person: 一堂课程

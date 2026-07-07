@@ -2,7 +2,7 @@
 id: yt-note-checklist-concept
 title: 一堂笔记法：清单体笔记的核心概念与原理
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

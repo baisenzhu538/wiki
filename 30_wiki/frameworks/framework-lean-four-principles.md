@@ -3,7 +3,7 @@
 id: framework-lean-four-principles
 title: 精益创业低成本验证四大原则
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88

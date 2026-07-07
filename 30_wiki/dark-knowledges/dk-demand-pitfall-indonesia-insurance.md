@@ -3,7 +3,7 @@
 id: dk-demand-pitfall-indonesia-insurance
 title: 踩坑：印尼寿险——场景错配。Situation变了，需求不存在
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.88
 trust_level: high

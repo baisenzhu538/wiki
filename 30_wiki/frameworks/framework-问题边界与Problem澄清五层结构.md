@@ -2,7 +2,7 @@
 id: framework-问题边界与Problem澄清五层结构
 title: 问题边界与Problem澄清五层结构
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

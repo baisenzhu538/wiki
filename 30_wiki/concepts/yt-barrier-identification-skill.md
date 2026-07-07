@@ -32,7 +32,7 @@ source_refs:
 - 10_raw/sources/src_20260611_7c3a2a57-一堂-一堂五步法-壁垒-口述.md
 - 10_raw/sources/src_20260611_89e8a16b-一堂-一堂五步法-壁垒-假的壁垒_paddle_ocr.md
 - 10_raw/sources/src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr.md
-status: enriched
+status: reviewed
 title: 壁垒识别与构建技能：从真假壁垒到护城河建设
 trust_level: medium
 type: tool

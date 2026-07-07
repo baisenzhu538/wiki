@@ -3,7 +3,7 @@
 id: dk-strategy-correlation-vs-causation-leverage
 title: 相关指标 vs 因果抓手
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

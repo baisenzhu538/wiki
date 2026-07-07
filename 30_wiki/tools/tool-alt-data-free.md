@@ -2,7 +2,7 @@
 id: tool-alt-data-free
 title: 免费替代数据：小团队的Hedge Fund武器
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

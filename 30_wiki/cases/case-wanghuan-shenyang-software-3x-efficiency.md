@@ -2,7 +2,7 @@
 id: case-wanghuan-shenyang-software-3x-efficiency
 title: 王欢案例：沈阳软件公司三层架构实现3倍效率
 type: case
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

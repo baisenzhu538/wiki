@@ -3,7 +3,7 @@
 id: dk-strategy-06-dividend-to-strategy
 title: 过去靠红利，现在靠战略。红利消退≠没有红利——新能源汽车/AI制药/低空经济仍有新红利
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.88
 trust_level: high

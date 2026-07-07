@@ -3,7 +3,7 @@
 id: dk-demand-pitfall-financial-literacy
 title: 踩坑：少儿财商——刚性误判。用户说重要≠会付费
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.88
 trust_level: high

@@ -6,7 +6,7 @@ domain:
 - personal-growth
 source_refs:
 - 10_raw/sources/src_20260522_0af1f6dd-learning-thinking.md
-status: enriched
+status: reviewed
 title: Learning Thinking
 type: concept
 updated_at: '2026-06-29'

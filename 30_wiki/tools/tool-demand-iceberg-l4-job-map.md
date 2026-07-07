@@ -2,7 +2,7 @@
 id: tool-demand-iceberg-l4-job-map
 title: L4任务地图：全流程8步推演+摩擦点识别
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

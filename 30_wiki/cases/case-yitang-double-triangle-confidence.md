@@ -2,7 +2,7 @@
 id: case-yitang-double-triangle-confidence
 title: 案例：一堂把双三角模型变成 AI 难题的通用解题底盘
 type: case
-status: enriched
+status: reviewed
 problem_domains:
 - src_unknown
 - src_unknown

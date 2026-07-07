@@ -29,7 +29,7 @@ source_refs:
 - 10_raw/sources/src_20260614_b23e9ae3-波特五力模型-商业分析.md
 - 10_raw/sources/src_20260614_dcf9d023-战略培训-案例分析.md
 - 10_raw/sources/src_20260614_22f103f0-战略培训-实战案例分析.md
-status: enriched
+status: reviewed
 title: 战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线
 trust_level: medium
 type: tool

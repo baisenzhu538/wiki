@@ -2,7 +2,7 @@
 id: tool-yitang-weapon-field-reconnaissance
 title: 武器库策略14：线下门店侦察——蹲店·数人头·看运营
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

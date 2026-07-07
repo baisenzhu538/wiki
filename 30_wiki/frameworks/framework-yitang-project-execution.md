@@ -2,7 +2,7 @@
 id: framework-yitang-project-execution
 title: 项目管过程：六大管理手段保障项目落地
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

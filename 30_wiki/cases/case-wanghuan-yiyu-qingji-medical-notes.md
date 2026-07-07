@@ -2,7 +2,7 @@
 id: case-wanghuan-yiyu-qingji-medical-notes
 title: 王欢案例：医语轻记用语音录入缩短病历时间
 type: case
-status: enriched
+status: reviewed
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88

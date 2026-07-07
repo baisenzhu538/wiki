@@ -2,7 +2,7 @@
 id: tool-agent-spec-yitang-Y-model-coach
 title: Y模型 Coach 模式 Agent Spec
 type: tool-agent-spec
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'

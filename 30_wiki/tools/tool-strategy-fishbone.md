@@ -3,7 +3,7 @@
 id: tool-strategy-fishbone
 title: 鱼骨图根因分析工具
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:

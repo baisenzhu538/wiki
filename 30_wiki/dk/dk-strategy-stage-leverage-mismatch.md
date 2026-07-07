@@ -3,7 +3,7 @@
 id: dk-strategy-stage-leverage-mismatch
 title: 战略阶段与杠杆错配
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

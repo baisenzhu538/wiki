@@ -8,7 +8,7 @@ domain:
 id: yt-concept-p-type-l-type
 title: P型与L型创业者
 type: concept
-status: enriched
+status: reviewed
 confidence: 0.8
 trust_level: medium
 author: 老顽童

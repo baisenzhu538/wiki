@@ -2,7 +2,7 @@
 id: concept-strategy-2024-2026-supplement
 title: 2024-2026战略新变量：AI决策/地缘政治/ESG——冉鹏课程未覆盖的盲区
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

@@ -4,7 +4,7 @@ id: dk-p7-ocr-skip
 title: P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

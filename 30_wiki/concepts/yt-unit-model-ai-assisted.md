@@ -34,7 +34,7 @@ source_refs:
 - 10_raw/sources/一堂-单元模型-AI+单元模型口述_cleaned.md
 - 10_raw/sources/src_20260609_189cf93b-ocr-一堂-单元模型-tcpr底层网络协议.md
 - 10_raw/sources/src_20260611_c6af0060-一堂-一堂五步法-单元模型-AI落地行动-口述.md
-status: enriched
+status: reviewed
 title: AI+单元模型：TCP-R双导师与出口式咨询实践
 trust_level: medium
 type: tool

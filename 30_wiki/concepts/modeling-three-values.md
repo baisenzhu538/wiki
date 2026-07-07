@@ -4,7 +4,7 @@ title: 建模的三重价值：确定性、框架性、迁移性
 type: concept
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 updated_at: '2026-06-29'

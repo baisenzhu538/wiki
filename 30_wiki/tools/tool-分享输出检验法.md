@@ -3,7 +3,7 @@
 id: tool-分享输出检验法
 title: 技能：分享输出检验法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 source_person: 一堂课程（费曼学习法延伸）

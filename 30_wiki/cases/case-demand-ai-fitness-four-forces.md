@@ -2,7 +2,7 @@
 id: case-demand-ai-fitness-four-forces
 title: 案例：AI健身四力——四种力量的博弈分析
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

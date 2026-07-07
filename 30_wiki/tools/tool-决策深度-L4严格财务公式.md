@@ -2,7 +2,7 @@
 id: tool-决策深度-L4严格财务公式
 title: 决策深度L4：严格财务公式
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.84

@@ -2,7 +2,7 @@
 id: concept-最简单元模型
 title: 最简化的单元模型
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-27'

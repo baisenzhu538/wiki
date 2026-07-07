@@ -4,7 +4,7 @@ id: dk-f14-accuracy-measurement-mismatch
 title: F-KDO-014：准确率声明的测量口径不一致
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

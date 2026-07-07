@@ -3,7 +3,7 @@
 id: dk-demand-hidden-need
 title: 隐性需求伪装：用户说的≠用户要的
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

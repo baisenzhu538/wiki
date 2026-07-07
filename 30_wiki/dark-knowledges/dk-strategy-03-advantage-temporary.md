@@ -3,7 +3,7 @@
 id: dk-strategy-03-advantage-temporary
 title: 竞争优势难持久。30年前500强90%已消失——竞争优势≠永久
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.9
 trust_level: high

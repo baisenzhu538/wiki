@@ -2,7 +2,7 @@
 id: case-strategy-cool-boiled-water
 title: 凉白开：细分垄断——从高考生切入，两年30亿
 type: case
-status: enriched
+status: reviewed
 created_at: '2026-06-28'
 author: 老顽童
 confidence: 0.88

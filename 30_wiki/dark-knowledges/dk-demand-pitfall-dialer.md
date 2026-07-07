@@ -3,7 +3,7 @@
 id: dk-demand-pitfall-dialer
 title: 踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.88
 trust_level: high

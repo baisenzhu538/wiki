@@ -30,7 +30,7 @@ related:
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_11d721ac-ocr-泛产品设计-用户卡片-用户视角.md
-status: enriched
+status: reviewed
 title: yt-panproduct-demand-user-perspective
 type: concept
 version: 1

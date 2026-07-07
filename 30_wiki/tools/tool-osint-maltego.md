@@ -2,7 +2,7 @@
 id: tool-osint-maltego
 title: Maltego：实体关系图谱——画出目标公司的隐藏网络
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

@@ -4,7 +4,7 @@ id: dk-f4-wrong-workdir
 title: F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

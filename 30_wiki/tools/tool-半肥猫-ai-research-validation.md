@@ -3,7 +3,7 @@
 id: tool-半肥猫-ai-research-validation
 title: AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

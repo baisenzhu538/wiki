@@ -3,7 +3,7 @@
 id: dk-research-triangulation-stop-rule
 title: 多源交叉验证的停止规则
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

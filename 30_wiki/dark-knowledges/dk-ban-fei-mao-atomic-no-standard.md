@@ -3,7 +3,7 @@
 id: dk-ban-fei-mao-atomic-no-standard
 title: 暗知识：原子化没有固定标准
 type: dk
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

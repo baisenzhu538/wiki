@@ -2,7 +2,7 @@
 id: framework-lean-pivot-decision
 title: 精益验证结果如何触发战略/产品 pivot
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-23

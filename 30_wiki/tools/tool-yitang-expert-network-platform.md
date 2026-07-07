@@ -2,7 +2,7 @@
 id: tool-yitang-expert-network-platform
 title: 专家网络付费平台：快速找到对的人
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

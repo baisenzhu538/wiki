@@ -2,7 +2,7 @@
 id: tool-稀缺资源清单
 title: 稀缺资源清单：识别和配置决策中的关键约束
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

@@ -3,7 +3,7 @@
 id: tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai
 title: 技能：清洗资料为 Markdown 格式喂给 AI
 type: tool
-status: enriched
+status: reviewed
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88

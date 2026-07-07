@@ -2,7 +2,7 @@
 id: concept-strategy-capability-pyramid
 title: 战略能力金字塔：格局→行动→决断→洞察——战略统帅四层素养
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.82
 trust_level: medium

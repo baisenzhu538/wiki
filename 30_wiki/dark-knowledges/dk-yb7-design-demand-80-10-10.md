@@ -4,7 +4,7 @@ id: dk-yb7-design-demand-80-10-10
 title: 中国设计需求的80-10-10分层法则
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - design
 - yitang

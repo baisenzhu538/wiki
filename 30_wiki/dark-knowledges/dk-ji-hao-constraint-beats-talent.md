@@ -4,7 +4,7 @@ id: dk-ji-hao-constraint-beats-talent
 title: 暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计
 type: dk
 dark_knowledge_type: principle
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

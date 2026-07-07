@@ -3,7 +3,7 @@
 id: tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua
 title: 技能：按语义切分文档做向量化
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - yitang- src_unknown

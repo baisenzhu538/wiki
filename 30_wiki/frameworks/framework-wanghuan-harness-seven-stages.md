@@ -3,7 +3,7 @@
 id: framework-wanghuan-harness-seven-stages
 title: 王欢：Harness 七阶段 AI 构建流程
 type: framework
-status: enriched
+status: reviewed
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88

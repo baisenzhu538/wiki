@@ -2,7 +2,7 @@
 id: tool-审美工具箱
 title: 审美工具箱：产品审美的诊断和提升工具集合
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75

@@ -3,7 +3,7 @@
 id: yt-note-l6-extraction
 title: 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 language: zh-CN

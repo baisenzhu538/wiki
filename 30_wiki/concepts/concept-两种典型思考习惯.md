@@ -2,7 +2,7 @@
 id: concept-两种典型思考习惯
 title: 两种典型思考习惯：效率导向 vs 效果导向
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

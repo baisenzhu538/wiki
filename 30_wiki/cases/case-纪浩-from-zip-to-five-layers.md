@@ -3,7 +3,7 @@
 id: case-纪浩-from-zip-to-five-layers
 title: 纪浩：从微信传 zip 到五层协作体系
 type: case
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

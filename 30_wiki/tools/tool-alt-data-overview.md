@@ -2,7 +2,7 @@
 id: tool-alt-data-overview
 title: 替代数据总览：Hedge Fund级别的调研武器
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

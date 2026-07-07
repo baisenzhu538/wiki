@@ -2,7 +2,7 @@
 id: concept-yitang-research-mindset
 title: 调研心态：从"找答案"到"拆假设"
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

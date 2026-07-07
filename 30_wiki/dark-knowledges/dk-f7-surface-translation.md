@@ -4,7 +4,7 @@ id: dk-f7-surface-translation
 title: F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

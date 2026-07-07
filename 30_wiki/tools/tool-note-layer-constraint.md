@@ -3,7 +3,7 @@
 id: tool-note-layer-constraint
 title: 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

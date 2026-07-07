@@ -4,7 +4,7 @@ id: dk-p16-validate-reads-state-json
 title: P-16：validate 优先读取 state.json 而非文件 frontmatter
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain: master
 source_person: system
 source_context: pitfalls.md P-16

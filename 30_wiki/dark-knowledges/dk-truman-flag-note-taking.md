@@ -4,7 +4,7 @@ id: dk-truman-flag-note-taking
 title: 立flag记笔法：用量化目标倒逼笔记中的真实思考量
 type: dk
 dark_knowledge_type: workflow
-status: enriched
+status: reviewed
 domain:
 - yitang
 - note-taking

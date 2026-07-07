@@ -4,7 +4,7 @@ id: dk-foresight-tier-skip-illusion
 title: 暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - yitang
 - business-strategy

@@ -5,7 +5,7 @@ domain:
 id: concept-提升笔记阅读舒适度
 title: 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
 type: concept
-status: enriched
+status: reviewed
 version: 1
 confidence: 0.85
 source_refs:

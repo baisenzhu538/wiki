@@ -4,7 +4,7 @@ title: "AI 时代的认知卸载：什么交给 AI，什么必须保留"
 type: "concept"
 domain:
   - "ai-collaboration"
-status: "enriched"
+status: reviewed
 confidence: 0.78
 difficulty: "intermediate"
 language: "zh-CN"

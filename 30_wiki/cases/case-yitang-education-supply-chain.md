@@ -6,7 +6,7 @@ type: case
 source_refs:
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-status: enriched
+status: reviewed
 domain:
 - yitang
 - modeling

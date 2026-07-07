@@ -4,7 +4,7 @@ id: dk-p5-cc-connect-config
 title: P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

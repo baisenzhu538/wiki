@@ -4,7 +4,7 @@ domain:
 id: yt-demand-level-assessment
 title: 需求分析段位自评表：从L1到L6的进阶路径
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——段位图与进阶路径

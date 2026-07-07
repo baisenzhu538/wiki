@@ -3,7 +3,7 @@
 id: dk-demand-pitfall-rural-5g
 title: 踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.85
 trust_level: high

@@ -3,7 +3,7 @@
 id: tool-strategy-ksf
 title: 关键成功因素（KSF）分析工具
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 domain:

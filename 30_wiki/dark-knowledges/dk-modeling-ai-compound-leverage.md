@@ -4,7 +4,7 @@ id: dk-modeling-ai-compound-leverage
 title: AI 加杠杆最大的场景是建模，因为好模型会被反复调用
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - yitang
 - ai-saas

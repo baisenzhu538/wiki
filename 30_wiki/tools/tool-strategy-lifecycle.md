@@ -2,7 +2,7 @@
 id: tool-strategy-lifecycle
 title: 企业生命周期战略：从 0 到 1、从 N 到 ∞、从 N 到 0
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 domain:

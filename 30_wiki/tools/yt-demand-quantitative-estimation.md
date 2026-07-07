@@ -5,7 +5,7 @@ domain:
 id: yt-demand-quantitative-estimation
 title: 市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案估值
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.91
 trust_level: high
 source_context: 一堂五步法需求分析口述——"市场规模估算四种方法"

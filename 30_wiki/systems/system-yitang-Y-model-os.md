@@ -2,7 +2,7 @@
 id: system-yitang-Y-model-os
 title: Y模型 OS：所有 Agent 的共享底层 prompt
 type: system
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: "2026-06-29"

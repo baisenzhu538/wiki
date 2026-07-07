@@ -2,7 +2,7 @@
 id: framework-yitang-research-quality-gate
 title: 调研质量自检框架：六维门禁——判断调研是否"足够好"
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 domain:

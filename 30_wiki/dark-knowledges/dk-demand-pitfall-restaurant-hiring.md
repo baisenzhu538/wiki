@@ -3,7 +3,7 @@
 id: dk-demand-pitfall-restaurant-hiring
 title: 踩坑：麦家小馆——频次高估。需求强烈≠高频
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.88
 trust_level: high

@@ -4,7 +4,7 @@ id: dk-f5-stale-feedback-ref
 title: F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

@@ -2,7 +2,7 @@
 id: case-ji-hao-ui-design-constraint-evolution
 title: 案例：纪浩从'求你了'到1100行约束文档的UI设计迭代
 type: case
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

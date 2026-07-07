@@ -2,7 +2,7 @@
 id: framework-strategy-business-design
 title: 业务设计六要素×三步骤——冉鹏战略规划核心操作框架（源于IBM BLM）
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.95
 trust_level: high
 domain: strategy

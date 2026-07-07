@@ -2,7 +2,7 @@
 id: framework-yitang-project-plan-design
 title: 项目定方案：背景-目标-关键路径三段论
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

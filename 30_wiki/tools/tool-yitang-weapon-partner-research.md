@@ -2,7 +2,7 @@
 id: tool-yitang-weapon-partner-research
 title: 武器库策略4：合作方调研——上下游的信息金矿
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

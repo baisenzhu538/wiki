@@ -2,7 +2,7 @@
 id: tool-yitang-recruit-user-interview
 title: 招募用户访谈：公开招募+激励设计
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

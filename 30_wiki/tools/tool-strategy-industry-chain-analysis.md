@@ -3,7 +3,7 @@
 id: tool-strategy-industry-chain-analysis
 title: 产业链机会与行动计划分析工具
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.94
 trust_level: high
 domain:

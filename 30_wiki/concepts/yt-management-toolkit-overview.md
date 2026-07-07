@@ -41,7 +41,7 @@ related:
 - "[[yt-tool-strategy-workshop]]"
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
-status: enriched
+status: reviewed
 title: 管理工具箱总览
 trust_level: medium
 type: framework

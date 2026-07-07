@@ -3,7 +3,7 @@
 id: kdo-yaml-frontmatter-safety
 title: KDO YAML Frontmatter 安全操作指南
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 created_at: '2026-05-31'

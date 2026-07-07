@@ -4,7 +4,7 @@ id: dk-modeling-course-rnd-ripe-fruit
 title: 研究型课程无法提前排课表：只能等菜熟了再摘
 type: dk
 dark_knowledge_type: workflow
-status: enriched
+status: reviewed
 domain:
 - yitang
 - ai-saas

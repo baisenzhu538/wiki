@@ -2,7 +2,7 @@
 id: tool-yitang-value-proposition-4step
 title: 一堂卖点提炼四步法：把功能语言变成客户愿意掏钱的价值语言
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.86

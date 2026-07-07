@@ -4,7 +4,7 @@ id: dk-yb30-ecommerce-channel-version
 title: 电商渠道专版区分：淘宝≠拼多多
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - design
 source_person: 月白

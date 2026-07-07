@@ -4,7 +4,7 @@ domain:
 id: concept-问题驱动式深度思考笔记
 title: 问题驱动式深度思考笔记：用真问题取代真记录
 type: concept
-status: enriched
+status: reviewed
 version: 1
 confidence: 0.75
 source_refs:

@@ -2,7 +2,7 @@
 id: tool-项目方案评估三角形
 title: 项目方案评估三角形：收益×成本×风险三维对比
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

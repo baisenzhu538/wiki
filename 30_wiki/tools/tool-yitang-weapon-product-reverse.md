@@ -2,7 +2,7 @@
 id: tool-yitang-weapon-product-reverse
 title: 武器库策略13：产品逆向/拆解——从竞品实物反推技术和成本
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

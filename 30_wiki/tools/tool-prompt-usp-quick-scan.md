@@ -2,7 +2,7 @@
 id: tool-prompt-usp-quick-scan
 title: USP 快速需求拆解——3分钟单轮提示词模板
 type: prompt-template
-status: enriched
+status: reviewed
 confidence: 0.88
 trust_level: high
 domain: yitang

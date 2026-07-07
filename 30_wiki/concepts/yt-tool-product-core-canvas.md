@@ -32,7 +32,7 @@ related:
 review_date: 2026-06-06
 source_refs:
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md
-status: enriched
+status: reviewed
 title: 产品内核画布与九大原则
 trust_level: medium
 type: tool

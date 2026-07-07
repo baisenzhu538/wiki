@@ -3,7 +3,7 @@
 id: tool-半肥猫-边学边练边沉淀的AI学习法
 title: 技能：边学边练边沉淀的 AI 学习法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

@@ -4,7 +4,7 @@ id: dk-five-step-framework-legitimizes-bias
 title: 暗知识：框架不会自动降噪，反而可能「合法化」偏见——用了五步法不代表科学分析
 type: dk
 dark_knowledge_type: anti-pattern
-status: enriched
+status: reviewed
 domain:
 - yitang
 - entrepreneur

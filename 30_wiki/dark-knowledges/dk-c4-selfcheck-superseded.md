@@ -4,7 +4,7 @@ id: dk-c4-selfcheck-superseded
 title: C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: Builder

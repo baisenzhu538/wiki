@@ -2,7 +2,7 @@
 id: concept-yitang-facts-first
 title: 事实优先：调研的基本纪律
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

@@ -3,7 +3,7 @@
 id: case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch
 title: 案例：AI高考志愿填报产品因内核错位而失敗
 type: case
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

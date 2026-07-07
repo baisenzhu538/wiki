@@ -2,7 +2,7 @@
 id: case-demand-indonesia-insurance
 title: 案例：印尼寿险分支——场景错配
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

@@ -2,7 +2,7 @@
 id: tool-yitang-financial-report-intelligence
 title: 财报/招股书情报：用上市公司公开报告做创业预判
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

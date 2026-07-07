@@ -4,7 +4,7 @@ id: dk-infrastructure-guardrails-over-checklist
 title: 基础设施工具不能只有检查清单，还必须有硬护栏
 type: dk
 dark_knowledge_type: cross-domain-pattern
-status: enriched
+status: reviewed
 domain:
 - master
 - kdo

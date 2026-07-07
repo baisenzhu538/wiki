@@ -2,7 +2,7 @@
 id: case-demand-elderly-smart-device
 title: 案例：老年智能设备——USP模型中的用户边界
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

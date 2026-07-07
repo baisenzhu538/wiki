@@ -2,7 +2,7 @@
 id: tool-讲香基本功-十指模型
 title: 讲香基本功：十指模型修炼地图
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

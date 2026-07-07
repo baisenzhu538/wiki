@@ -2,7 +2,7 @@
 id: concept-纪浩-ai-collaboration-five-layer
 title: "概念：纪浩AI协作五层工作空间法"
 type: concept
-status: enriched
+status: reviewed
 domain:
   - src_unknown
   - src_unknown

@@ -3,7 +3,7 @@
 id: tool-纪浩-Do-first-PDCA渐进迭代法
 title: 技能：Do-first PDCA渐进迭代法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

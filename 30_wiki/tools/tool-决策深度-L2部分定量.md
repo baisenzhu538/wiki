@@ -2,7 +2,7 @@
 id: tool-决策深度-L2部分定量
 title: 决策深度L2：部分定量
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

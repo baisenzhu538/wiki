@@ -6,7 +6,7 @@ domain:
 - design
 source_refs:
 - 10_raw/sources/src_20260522_1ede9202-视觉prompt三层操作系统-srom-visual-os.md
-status: enriched
+status: reviewed
 title: 视觉Prompt三层操作系统 (SROM Visual OS)
 type: concept
 updated_at: '2026-06-29'

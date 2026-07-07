@@ -2,7 +2,7 @@
 id: framework-lean-tenx-formula
 title: 十倍速公式：避免系统性失败
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88

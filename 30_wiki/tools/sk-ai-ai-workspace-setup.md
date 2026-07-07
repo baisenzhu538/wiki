@@ -3,7 +3,7 @@
 id: sk-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

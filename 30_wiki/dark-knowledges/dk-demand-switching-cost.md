@@ -3,7 +3,7 @@
 id: dk-demand-switching-cost
 title: 新体验-旧体验-切换成本=产品价值
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

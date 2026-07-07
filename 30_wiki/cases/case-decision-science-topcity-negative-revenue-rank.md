@@ -2,7 +2,7 @@
 id: case-decision-science-topcity-negative-revenue-rank
 title: 案例：Top City 负收益消减与自动排名
 type: case
-status: enriched
+status: reviewed
 domain:
 - decision-science
 - yitang

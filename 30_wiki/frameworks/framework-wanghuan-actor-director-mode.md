@@ -3,7 +3,7 @@
 id: framework-wanghuan-actor-director-mode
 title: 王欢人机协作框架：从演员到导演
 type: framework
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

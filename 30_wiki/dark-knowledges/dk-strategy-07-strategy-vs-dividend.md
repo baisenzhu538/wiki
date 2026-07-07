@@ -3,7 +3,7 @@
 id: dk-strategy-07-strategy-vs-dividend
 title: 战略驱动 vs 红利驱动：前者创造路径，后者依赖环境
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.88
 trust_level: high

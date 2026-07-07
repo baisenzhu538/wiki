@@ -2,7 +2,7 @@
 id: tool-yitang-shareholder-analysis
 title: 股东信息穿透：从股权结构看利益格局
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

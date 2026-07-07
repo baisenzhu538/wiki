@@ -2,7 +2,7 @@
 id: tool-yitang-weibo-index
 title: 微博指数：公共话题热度追踪
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

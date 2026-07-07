@@ -8,7 +8,7 @@ type: concept
 source_refs:
 - src_unknown
 - src_unknown
-status: enriched
+status: reviewed
 version: 1
 difficulty: intermediate
 confidence: 0.85

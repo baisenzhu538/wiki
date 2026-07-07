@@ -3,7 +3,7 @@
 id: dk-strategy-02-three-paradoxes
 title: 战略三悖论：80%培训讲执行 / 90%公司无战略部 / 99%项目有断层
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.85
 trust_level: high

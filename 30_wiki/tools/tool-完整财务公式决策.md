@@ -2,7 +2,7 @@
 id: tool-完整财务公式决策
 title: 完整财务公式：商业模式决策的L1-L6认知分级
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.82

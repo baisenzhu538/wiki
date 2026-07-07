@@ -9,7 +9,7 @@ domain:
   - business-strategy
   - ai-saas
   - yitang
-status: enriched
+status: reviewed
 source_refs:
   - pending_archive:src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
   - src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper

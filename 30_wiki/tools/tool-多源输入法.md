@@ -3,7 +3,7 @@
 id: tool-多源输入法
 title: 技能：多源输入法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 source_person: 一堂课程

@@ -3,7 +3,7 @@
 id: tool-strategy-platform-business-map
 title: 平台商业模式地图
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.95
 trust_level: high
 domain:

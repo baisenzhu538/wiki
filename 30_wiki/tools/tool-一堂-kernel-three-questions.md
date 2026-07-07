@@ -2,7 +2,7 @@
 id: tool-一堂-kernel-three-questions
 title: 技能：内核要素三问验证法
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 updated_at: '2026-06-29'

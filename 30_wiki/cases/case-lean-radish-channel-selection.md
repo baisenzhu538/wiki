@@ -2,7 +2,7 @@
 id: case-lean-radish-channel-selection
 title: 萝卜干渠道选择预判复盘
 type: case
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 author: 老顽童

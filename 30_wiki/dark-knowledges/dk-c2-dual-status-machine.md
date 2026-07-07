@@ -4,7 +4,7 @@ id: dk-c2-dual-status-machine
 title: C-2：Schema status 字段混用两个状态机→字段值互相污染
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: Builder

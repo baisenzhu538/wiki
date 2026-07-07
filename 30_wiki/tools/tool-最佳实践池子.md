@@ -2,7 +2,7 @@
 id: tool-最佳实践池子
 title: 最佳实践池子：建立你的最佳实践知识库
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04

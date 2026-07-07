@@ -4,7 +4,7 @@ id: dk-modeling-model-arsenal-paradigms
 title: 99% 的模型跑不出二三十个范式：先装武器库再创新
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - yitang
 - ai-saas

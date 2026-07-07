@@ -4,7 +4,7 @@ domain:
 id: yt-demand-ai-knowledge-base-case
 title: AI企业知识库案例：从"技术炫技"到"需求验证"
 type: case
-status: enriched
+status: reviewed
 confidence: 0.91
 trust_level: high
 source_context: 一堂五步法需求分析——AI企业知识库案例

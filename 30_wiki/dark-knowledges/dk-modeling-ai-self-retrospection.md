@@ -4,7 +4,7 @@ id: dk-modeling-ai-self-retrospection
 title: AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
 type: dk
 dark_knowledge_type: workflow
-status: enriched
+status: reviewed
 domain:
 - yitang
 - ai-saas

@@ -4,7 +4,7 @@ domain:
 id: yt-demand-motivation-resistance
 title: 需求动机与阻力分析：为什么用户"需要"但"不用"
 type: concept
-status: enriched
+status: reviewed
 confidence: 0.91
 trust_level: high
 source_context: 一堂泛产品设计——需求工具箱指南

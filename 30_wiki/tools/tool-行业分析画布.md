@@ -2,7 +2,7 @@
 id: tool-行业分析画布
 title: 行业分析画布：系统性理解行业结构
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

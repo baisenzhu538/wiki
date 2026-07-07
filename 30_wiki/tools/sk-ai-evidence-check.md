@@ -3,7 +3,7 @@
 id: sk-ai-evidence-check
 title: 技能：AI输出证据核查三问法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang- ai-collaboration

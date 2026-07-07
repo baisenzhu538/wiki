@@ -4,7 +4,7 @@ id: dk-p11-regex-cutoff
 title: P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

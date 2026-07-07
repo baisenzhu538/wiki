@@ -29,7 +29,7 @@ related:
 source_refs:
 - 10_raw/sources/一堂-单元模型02口述_cleaned.md
 - 10_raw/sources/src_20260609_07b851fb-ocr-一堂-单元模型-abcd策略模型.md
-status: enriched
+status: reviewed
 title: 单元模型构建法：拆推评算与ABCD模型分类
 trust_level: medium
 type: tool

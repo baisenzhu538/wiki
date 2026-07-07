@@ -3,7 +3,7 @@
 id: tool-scene-design-language-translation
 title: 场景设计语言转译：把场景需求变成可执行设计约束
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.84

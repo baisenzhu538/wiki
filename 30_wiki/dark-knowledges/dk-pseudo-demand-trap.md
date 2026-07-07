@@ -4,7 +4,7 @@ id: dk-pseudo-demand-trap
 title: 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地
 type: dk
 dark_knowledge_type: validation-blindspot
-status: enriched
+status: reviewed
 domain:
 - yitang
 - business-strategy

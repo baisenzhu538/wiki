@@ -4,7 +4,7 @@ created_at: 2026-05-01
 domain: ai-saas
 source_refs:
 - 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md
-status: enriched
+status: reviewed
 title: Kimi 深度调研集群方法论 (Deep-Research-Swarm)
 type: concept
 updated_at: 2026-05-04

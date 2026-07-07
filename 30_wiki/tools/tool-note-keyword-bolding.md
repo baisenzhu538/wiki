@@ -3,7 +3,7 @@
 id: tool-note-keyword-bolding
 title: 关键词加粗三重结构：视觉重心即认知重心的标记法则
 type: tool
-status: enriched
+status: reviewed
 domain:
 - learning-methodology- yitang
 - note-taking

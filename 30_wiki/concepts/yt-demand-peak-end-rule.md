@@ -5,7 +5,7 @@ domain:
 id: yt-demand-peak-end-rule
 title: 峰终定律在需求分析中的应用：用户记住的不是平均，而是峰值和终点
 type: concept
-status: enriched
+status: reviewed
 confidence: 0.91
 trust_level: high
 source_context: 一堂泛产品设计——需求工具箱指南

@@ -3,7 +3,7 @@
 id: case-opc-agent-wave1-real-model-testing
 title: 案例：OPC 销售智能体 Wave 1 真实模型测试
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

@@ -3,7 +3,7 @@
 id: tool-note-one-line-one-point
 title: 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作
 type: tool
-status: enriched
+status: reviewed
 domain:
 - learning-methodology- yitang
 - note-taking

@@ -2,7 +2,7 @@
 id: tool-demand-agent-multi-hypothesis
 title: Agent L3多假设并行：5个核心任务同时推演
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

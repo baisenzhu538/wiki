@@ -4,7 +4,7 @@ id: dk-c11-hongqigong-skip-review
 title: C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: 欧阳锋

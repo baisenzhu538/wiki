@@ -2,7 +2,7 @@
 id: tool-yitang-stock-data
 title: 股票/上市公司数据：从二级市场看一级市场
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

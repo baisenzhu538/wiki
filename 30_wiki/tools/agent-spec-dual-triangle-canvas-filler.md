@@ -2,7 +2,7 @@
 id: agent-spec-dual-triangle-canvas-filler
 title: 双三角画布填充 Agent（对话教练版）v4
 type: agent-spec
-status: enriched
+status: reviewed
 author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

@@ -2,7 +2,7 @@
 id: tool-agent-spec-yitang-value-proposition
 title: OPC 卖点提炼助手 Agent Spec
 type: tool-agent-spec
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

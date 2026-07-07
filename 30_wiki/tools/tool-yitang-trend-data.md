@@ -2,7 +2,7 @@
 id: tool-yitang-trend-data
 title: 趋势数据查询：行业走向的定量判断
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

@@ -2,7 +2,7 @@
 id: tool-demand-blindspot-checklist
 title: 2B/2C盲区和机会清单：场景拆解的维度小抄
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

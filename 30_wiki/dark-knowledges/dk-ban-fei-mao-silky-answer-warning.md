@@ -3,7 +3,7 @@
 id: dk-ban-fei-mao-silky-answer-warning
 title: 暗知识：AI 回答越丝滑，问题越大
 type: dk
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

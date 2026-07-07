@@ -4,7 +4,7 @@ id: dk-ban-fei-mao-skill-rejection-value
 title: 暗知识：Skill 的最大价值不是生成，是拒绝
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

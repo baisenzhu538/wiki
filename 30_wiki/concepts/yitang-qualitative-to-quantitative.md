@@ -2,7 +2,7 @@
 id: yitang-qualitative-to-quantitative
 title: 一堂·从定性到定量：先证伪、后测量
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

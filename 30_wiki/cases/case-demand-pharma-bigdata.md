@@ -2,7 +2,7 @@
 id: case-demand-pharma-bigdata
 title: 案例：大数据私有化在创新药领域的切入——评估三角形实战
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

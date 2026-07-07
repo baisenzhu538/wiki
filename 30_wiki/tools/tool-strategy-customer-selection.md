@@ -2,7 +2,7 @@
 id: tool-strategy-customer-selection
 title: 客户选择：六步循环迭代法——场景→行为→情绪→触发器→数据→循环
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain: strategy

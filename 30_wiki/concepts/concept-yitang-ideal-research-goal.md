@@ -2,7 +2,7 @@
 id: concept-yitang-ideal-research-goal
 title: 理想调研目标三原则：敏感·短期·支撑
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

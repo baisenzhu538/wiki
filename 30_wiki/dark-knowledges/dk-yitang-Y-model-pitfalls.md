@@ -3,7 +3,7 @@ id: dk-yitang-Y-model-pitfalls
 title: Y模型常见六大陷阱与反打
 type: dark-knowledge
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 source_person: 李善友 / 一堂课程设计
 source_context: 一堂底层逻辑域·Y模型课程（2026-07-03）
 source_refs:

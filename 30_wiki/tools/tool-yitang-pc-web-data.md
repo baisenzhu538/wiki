@@ -2,7 +2,7 @@
 id: tool-yitang-pc-web-data
 title: PC/Web端数据：传统互联网的数据来源
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

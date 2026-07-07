@@ -6,7 +6,7 @@ type: tool
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

@@ -2,7 +2,7 @@
 id: case-strategy-failure-03-cleaning
 title: 案例：清洁用品L——定位错误。盲目高端丢低端市场
 type: case
-status: enriched
+status: reviewed
 created_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋

@@ -2,7 +2,7 @@
 id: framework-单元模型-外部对抗地图
 title: 外部对抗地图
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

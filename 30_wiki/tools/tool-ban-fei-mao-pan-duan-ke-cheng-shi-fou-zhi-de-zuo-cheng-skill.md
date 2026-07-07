@@ -3,7 +3,7 @@
 id: tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill
 title: 技能：判断课程是否值得做成Skill
 type: tool
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang- ai-collaboration

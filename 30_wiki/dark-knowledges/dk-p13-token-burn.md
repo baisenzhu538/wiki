@@ -4,7 +4,7 @@ id: dk-p13-token-burn
 title: P-13：长会话 = token黑洞 — 一晚上烧掉80元
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

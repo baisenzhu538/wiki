@@ -2,7 +2,7 @@
 id: workflow-yitang-project-four-step-loop
 title: 项目四步闭环工作流：定方案→拆计划→管过程→做复盘
 type: workflow
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

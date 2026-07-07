@@ -2,7 +2,7 @@
 id: framework-strategy-basics-04-system
 title: 体系（Creation System）：丰田供应链生态+苹果iOS生态
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

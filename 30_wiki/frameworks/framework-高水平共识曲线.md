@@ -2,7 +2,7 @@
 id: framework-高水平共识曲线
 title: 高水平共识曲线：决策质量的团队对齐模型
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

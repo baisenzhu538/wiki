@@ -2,7 +2,7 @@
 id: framework-wanghuan-ai-five-level-ladder
 title: 王欢AI能力五层跃迁模型
 type: framework
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

@@ -3,7 +3,7 @@
 id: case-wanghuan-education-sales-paced
 title: 王欢案例：教育机构用 PACED 还原销冠决策链
 type: case
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

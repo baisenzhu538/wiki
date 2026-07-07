@@ -2,7 +2,7 @@
 id: case-yihang-dual-triangle-kunte-virtual-idol
 title: 双三角案例：鲲特虚拟艺人——AI 产出越多，人类筛选越值钱
 type: case
-status: enriched
+status: reviewed
 author: 洪七公（VLM提取）+ 老顽童（enrich）
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

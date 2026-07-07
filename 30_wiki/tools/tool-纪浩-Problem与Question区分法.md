@@ -2,7 +2,7 @@
 id: tool-纪浩-Problem与Question区分法
 title: 技能：Problem与Question区分法（纪浩版）
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

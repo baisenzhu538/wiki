@@ -18,7 +18,7 @@ related:
   - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown
-status: enriched
+status: reviewed
 title: AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
 type: framework
 updated_at: '2026-06-17'

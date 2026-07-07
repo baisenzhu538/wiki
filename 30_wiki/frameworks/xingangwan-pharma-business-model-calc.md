@@ -3,7 +3,7 @@
 id: xingangwan-pharma-business-model-calc
 title: 鑫港湾医药零售商业模型计算框架
 type: framework
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

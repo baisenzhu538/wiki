@@ -2,7 +2,7 @@
 id: tool-yitang-partner-data-analysis
 title: 合作方案数据：从合作方拿到的真实数字
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

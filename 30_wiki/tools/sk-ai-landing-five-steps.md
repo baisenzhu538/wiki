@@ -5,7 +5,7 @@ title: 技能：AI落地五步执行清单
 type: tool
 source_refs:
 - 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

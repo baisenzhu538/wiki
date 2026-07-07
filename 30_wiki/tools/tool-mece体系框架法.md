@@ -3,7 +3,7 @@
 id: tool-mece体系框架法
 title: 技能：MECE体系框架法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 source_person: 一堂课程

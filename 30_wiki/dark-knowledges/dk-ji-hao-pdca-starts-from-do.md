@@ -3,7 +3,7 @@
 id: dk-ji-hao-pdca-starts-from-do
 title: 暗知识：PDCA从Do开始不是从Plan开始
 type: dk
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

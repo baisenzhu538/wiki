@@ -2,7 +2,7 @@
 id: agent-spec-project-management-assistant
 title: 项目管理助手 Agent（对话教练版）
 type: agent-spec
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

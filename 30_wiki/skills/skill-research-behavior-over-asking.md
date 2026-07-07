@@ -2,7 +2,7 @@
 id: skill-research-behavior-over-asking
 title: 行为证据重于口头证据
 type: skill
-status: enriched
+status: reviewed
 confidence: 0.8
 trust_level: high
 language: zh-CN

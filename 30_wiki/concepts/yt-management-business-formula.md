@@ -6,7 +6,7 @@ source_refs:
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
 - 10_raw/sources/src_20260614_6d9f7671-业务公式拆解培训.md
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

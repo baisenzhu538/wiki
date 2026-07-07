@@ -2,7 +2,7 @@
 id: tool-prompt-usp-demand-analysis
 title: USP 深度洞察引擎——需求分析提示词模板
 type: prompt-template
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 domain:

@@ -2,7 +2,7 @@
 id: method-kdo-inbox-annotation
 title: Inbox 素材标注方法——老顽童影子诊断三方法
 type: method
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

@@ -2,7 +2,7 @@
 id: case-lean-zhanglei-pivot-decision
 title: 张磊 AMA：创业者 pivot 决策案例
 type: case
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 author: 老顽童

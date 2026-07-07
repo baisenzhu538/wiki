@@ -2,7 +2,7 @@
 id: case-panproduct-yitao-project-background
 title: 案例：一淘项目背景与三大难题
 type: case
-status: enriched
+status: reviewed
 domain:
 - product-design
 - yitang

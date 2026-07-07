@@ -4,7 +4,7 @@ created_at: 2026-05-09
 domain: master
 source_refs:
 - 10_raw/sources/src_20260510_9e98a292-sprint-2-门禁举证验收.md
-status: enriched
+status: reviewed
 title: Sprint 2 门禁举证验收
 type: concept
 updated_at: '2026-06-29'

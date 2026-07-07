@@ -2,7 +2,7 @@
 id: tool-dns-intelligence
 title: DNS情报：从域名和网络基础设施反推竞对动态
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

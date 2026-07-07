@@ -4,7 +4,7 @@ id: dk-ai-entrepreneur-technical-blindspot
 title: 暗知：AI创业者最大的盲区——'我们能做出来'≠'用户需要这个'
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - yitang
 - ai

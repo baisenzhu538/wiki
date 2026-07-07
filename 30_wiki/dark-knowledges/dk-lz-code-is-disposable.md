@@ -4,7 +4,7 @@ id: dk-lz-code-is-disposable
 title: 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - ai-saas
 - business-strategy

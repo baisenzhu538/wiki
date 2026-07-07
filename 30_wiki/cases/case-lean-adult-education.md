@@ -2,7 +2,7 @@
 id: case-lean-adult-education
 title: 成人技能教育精益验证
 type: case
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 author: 老顽童

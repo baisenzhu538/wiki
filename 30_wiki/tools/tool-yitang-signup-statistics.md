@@ -2,7 +2,7 @@
 id: tool-yitang-signup-statistics
 title: 线上签约统计：通过自增ID推算用户/订单量
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

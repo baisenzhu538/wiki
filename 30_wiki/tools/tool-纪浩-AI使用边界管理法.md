@@ -2,7 +2,7 @@
 id: tool-纪浩-AI使用边界管理法
 title: 技能：AI使用边界管理法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

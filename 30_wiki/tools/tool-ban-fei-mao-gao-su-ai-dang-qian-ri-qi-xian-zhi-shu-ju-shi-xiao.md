@@ -3,7 +3,7 @@
 id: tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao
 title: 技能：告诉 AI 当前日期限制数据时效
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

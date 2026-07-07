@@ -2,7 +2,7 @@
 id: framework-strategy-three-horizons
 title: 三个地平线：短中长期业务组合管理
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 domain:

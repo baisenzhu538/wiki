@@ -5,7 +5,7 @@ type: framework
 description: 将一门课程从模糊想法到最终交付，拆分为 7 个可验证、可迭代里程碑的生产流程框架。
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

@@ -2,7 +2,7 @@
 id: tool-demand-agent-case-match
 title: Agent L4案例匹配：以历史摩擦点为起点填充8步地图
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

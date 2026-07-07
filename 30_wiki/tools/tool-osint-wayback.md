@@ -2,7 +2,7 @@
 id: tool-osint-wayback
 title: Wayback Machine：网站时光机——看竞对的每一个历史版本
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

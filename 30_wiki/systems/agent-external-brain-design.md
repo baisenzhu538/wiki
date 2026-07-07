@@ -1,7 +1,7 @@
 ---
 title: Agent 外挂大脑设计
 type: system
-status: enriched
+status: reviewed
 domain:
 - master
 id: agent-external-brain-design

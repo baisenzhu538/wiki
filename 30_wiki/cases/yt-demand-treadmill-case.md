@@ -4,7 +4,7 @@ domain:
 id: yt-demand-treadmill-case
 title: 跑步机案例：需求分析全流程实战
 type: case
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——跑步机案例

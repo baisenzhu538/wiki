@@ -2,7 +2,7 @@
 id: framework-demand-opportunity-spectrum
 title: 商业机会预判·终局光谱图
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

@@ -2,7 +2,7 @@
 id: concept-AI时代双三角竞争力
 title: AI时代的双三角竞争力：人+AI协作决策
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

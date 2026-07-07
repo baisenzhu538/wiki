@@ -3,7 +3,7 @@
 id: dk-ban-fei-mao-silky-answers-are-dangerous
 title: 暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱
 type: dk
-status: enriched
+status: reviewed
 domain: ai-collaboration
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）

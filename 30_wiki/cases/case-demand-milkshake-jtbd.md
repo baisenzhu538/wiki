@@ -2,7 +2,7 @@
 id: case-demand-milkshake-jtbd
 title: 案例：奶昔JTBD——经典的任务洞察
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

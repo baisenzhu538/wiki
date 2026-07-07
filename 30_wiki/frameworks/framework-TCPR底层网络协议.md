@@ -2,7 +2,7 @@
 id: framework-TCPR底层网络协议
 title: TCP-R 模型：商业管理世界的底层网络协议
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

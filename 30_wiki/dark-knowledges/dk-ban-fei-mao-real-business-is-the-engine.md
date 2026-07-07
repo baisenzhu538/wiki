@@ -3,7 +3,7 @@
 id: dk-ban-fei-mao-real-business-is-the-engine
 title: 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁
 type: dk
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

@@ -2,7 +2,7 @@
 id: tool-yitang-wechat-index
 title: 微信指数：公众号内容热度追踪
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

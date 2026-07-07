@@ -3,7 +3,7 @@
 id: tool-strategy-blue-ocean-canvas
 title: 蓝海战略画布（价值曲线工具）
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.95
 trust_level: high
 domain:

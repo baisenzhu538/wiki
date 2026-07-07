@@ -3,7 +3,7 @@
 id: sk-ai-old-small-checklist
 title: 技能："找老的干小的"场景评估清单
 type: tool
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang- ai-collaboration

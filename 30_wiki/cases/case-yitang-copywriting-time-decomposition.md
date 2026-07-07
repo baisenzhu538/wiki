@@ -2,7 +2,7 @@
 id: case-yitang-copywriting-time-decomposition
 title: 一堂文案团队时间拆解：把「写稿」拆成可测量的工序
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: "2026-06-29"

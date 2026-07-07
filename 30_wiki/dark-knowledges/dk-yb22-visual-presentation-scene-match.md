@@ -4,7 +4,7 @@ id: dk-yb22-visual-presentation-scene-match
 title: 视觉呈现方式与消费场景的匹配原则
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - design
 source_person: 月白

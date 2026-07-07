@@ -2,7 +2,7 @@
 id: framework-demand-usp-model
 title: USP需求洞察模型：Demand = User × Situation × Problem
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

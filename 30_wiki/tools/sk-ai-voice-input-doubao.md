@@ -3,7 +3,7 @@
 id: sk-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

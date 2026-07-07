@@ -31,7 +31,7 @@ updated_at: '2026-06-18'
 reviewed_by: 欧阳锋
 source_refs:
   - pending_archive:source material not yet ingested
-status: enriched
+status: reviewed
 title: 单元模型
 trust_level: high
 type: tool

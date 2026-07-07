@@ -3,7 +3,7 @@
 id: dk-ji-hao-simple-complex-routing
 title: 暗知识：简单系统跳过导诊台，复杂系统必须路由
 type: dk
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

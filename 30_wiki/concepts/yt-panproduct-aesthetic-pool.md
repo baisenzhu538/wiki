@@ -36,7 +36,7 @@ related:
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子.md
-status: enriched
+status: reviewed
 title: yt-panproduct-aesthetic-pool
 type: concept
 version: 1

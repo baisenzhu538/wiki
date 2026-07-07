@@ -2,7 +2,7 @@
 id: tool-agent-firecrawl
 title: Firecrawl：专为LLM设计的Web抓取API
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

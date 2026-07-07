@@ -3,7 +3,7 @@
 id: yt-note-l4-internalization
 title: 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 language: zh-CN

@@ -2,7 +2,7 @@
 id: concept-harness-scoring-anchors
 title: 评分锚定：1-5分制+语义锚点+取较低值
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

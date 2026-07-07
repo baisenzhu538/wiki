@@ -4,7 +4,7 @@ id: dk-yb2-llm-muddy-clear-muddy
 title: 大模型训练本质：浑水→清水→浑水的双向转换
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - design
 source_person: 月白

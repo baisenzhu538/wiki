@@ -5,7 +5,7 @@ title: 战略研讨会引导手册
 type: tool
 source_refs:
 - 10_raw/sources/src_20260619_86ca05fb_30_wiki_concepts_yt_management_strategy_meeting.md
-status: enriched
+status: reviewed
 domain: yitang- yitang
 language: zh-CN
 version: 1

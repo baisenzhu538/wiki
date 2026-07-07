@@ -2,7 +2,7 @@
 id: case-modeling-process-livestream-roles
 title: 流程建模案例：直播开播团队分工与检查清单
 type: case
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

@@ -2,7 +2,7 @@
 id: tool-oscar-kdo-external-exploration
 title: OSCAR-KDO 融合：一堂 OSCAR 在 KDO 外部探索中的具体落地
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

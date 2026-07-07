@@ -3,7 +3,7 @@
 id: tool-知识树存储记忆法
 title: 技能：知识树存储记忆法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 source_person: 一堂课程

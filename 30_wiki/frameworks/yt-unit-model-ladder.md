@@ -2,7 +2,7 @@
 title: 单元模型六段进阶：从拍脑袋到动态预测
 date: 2026-05-24
 type: framework
-status: enriched
+status: reviewed
 domain:
 - yitang
 - decision-science

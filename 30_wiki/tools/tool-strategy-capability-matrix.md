@@ -3,7 +3,7 @@
 id: tool-strategy-capability-matrix
 title: 核心能力评估矩阵：影响力×急迫性四象限
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

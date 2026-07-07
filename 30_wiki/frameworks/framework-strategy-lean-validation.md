@@ -3,7 +3,7 @@
 id: framework-strategy-lean-validation
 title: 战略假设的精益验证流程
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-23

@@ -4,7 +4,7 @@
 id: shanxi-field-research-checklist-20260701
 title: 山西 7 月 1 日智慧药柜项目调研清单
 type: tool
-status: enriched
+status: reviewed
 domain:
   - research- healthcare
   - compliance

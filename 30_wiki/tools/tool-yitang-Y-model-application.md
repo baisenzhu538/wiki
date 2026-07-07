@@ -2,7 +2,7 @@
 id: tool-yitang-Y-model-application
 title: Y模型应用工作流：把科学做事框架变成具体问题上的操作清单
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88

@@ -3,7 +3,7 @@
 id: dk-demand-premature-solution
 title: 过早进入解决方案空间——冰山模型的根本价值
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

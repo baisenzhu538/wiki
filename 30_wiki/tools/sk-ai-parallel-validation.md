@@ -3,7 +3,7 @@
 id: sk-ai-parallel-validation
 title: 技能：平行运行验证法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

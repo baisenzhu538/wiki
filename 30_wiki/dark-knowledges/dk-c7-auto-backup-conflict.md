@@ -4,7 +4,7 @@ id: dk-c7-auto-backup-conflict
 title: C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: Builder

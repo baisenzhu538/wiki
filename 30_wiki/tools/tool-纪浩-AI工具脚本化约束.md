@@ -2,7 +2,7 @@
 id: tool-纪浩-AI工具脚本化约束
 title: 技能：AI工具脚本化约束
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

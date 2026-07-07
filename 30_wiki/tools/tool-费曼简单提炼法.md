@@ -3,7 +3,7 @@
 id: tool-费曼简单提炼法
 title: 技能：费曼简单提炼法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 source_person: 一堂课程（费曼学习法）

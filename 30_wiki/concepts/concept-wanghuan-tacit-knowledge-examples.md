@@ -3,7 +3,7 @@
 id: concept-wanghuan-tacit-knowledge-examples
 title: 王欢：行业暗规则实例库（招聘/招投标/销售/培训）
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

@@ -2,7 +2,7 @@
 id: tool-yitang-web-scraping-research
 title: 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:

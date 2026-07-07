@@ -2,7 +2,7 @@
 id: tool-yitang-review-analysis
 title: 差评分析：系统化提取竞品缺陷
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

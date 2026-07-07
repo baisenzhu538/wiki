@@ -2,7 +2,7 @@
 id: framework-yitang-project-abcd-classification
 title: 项目ABCD复杂度分类：工具跟着复杂度走
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

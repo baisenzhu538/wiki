@@ -2,7 +2,7 @@
 id: method-kdo-external-exploration-sop
 title: KDO 外部探索标准操作流程 v2（OSCAR 注入版）
 type: method
-status: enriched
+status: reviewed
 author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

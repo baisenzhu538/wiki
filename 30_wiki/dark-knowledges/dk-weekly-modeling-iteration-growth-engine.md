@@ -3,7 +3,7 @@ id: dk-weekly-modeling-iteration-growth-engine
 title: 暗知识：一堂真正的增长引擎是'周对周的建模能力增长'
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - yitang
 - modeling

@@ -2,7 +2,7 @@
 id: case-demand-travel-agent
 title: 案例：旅行攻略Agent——隐性需求被忽略
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

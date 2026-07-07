@@ -2,7 +2,7 @@
 id: framework-strategy-mckinsey-7s
 title: 麦肯锡 7S 模型：组织诊断与变革管理
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 domain:

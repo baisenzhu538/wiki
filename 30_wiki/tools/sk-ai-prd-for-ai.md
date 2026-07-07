@@ -3,7 +3,7 @@
 id: sk-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

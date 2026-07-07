@@ -30,7 +30,7 @@ related:
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_6373b1b1-ocr-泛产品设计-审美卡片-最佳实践收集.md
-status: enriched
+status: reviewed
 title: yt-panproduct-aesthetic-collection
 type: concept
 version: 1

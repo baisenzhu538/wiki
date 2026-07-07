@@ -2,7 +2,7 @@
 id: system-yitang-research-workflow
 title: 调研工作流：从问题到报告的端到端执行路径
 type: system
-status: enriched
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain:

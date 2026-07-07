@@ -2,7 +2,7 @@
 
 title: 停车场清单
 type: index
-status: enriched
+status: reviewed
 domain:
   - healthcare
   - compliance

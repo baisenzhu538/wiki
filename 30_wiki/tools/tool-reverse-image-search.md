@@ -2,7 +2,7 @@
 id: tool-reverse-image-search
 title: 反向图片搜索：追踪图片来源和真实性
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

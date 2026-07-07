@@ -2,7 +2,7 @@
 id: framework-strategy-five-basics
 title: 冉鹏战略五基本功（5C）：定式/洞察/布局/体系/变革
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

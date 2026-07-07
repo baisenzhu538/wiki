@@ -4,7 +4,7 @@ title: 迭代递归深挖法：用“喷—撞—改”循环把模型推到撞�
 type: tool
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

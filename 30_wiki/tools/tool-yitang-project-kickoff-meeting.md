@@ -2,7 +2,7 @@
 id: tool-yitang-project-kickoff-meeting
 title: 项目启动会设计模板：两小时对齐六件事，后面不用跑断腿
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 domain:

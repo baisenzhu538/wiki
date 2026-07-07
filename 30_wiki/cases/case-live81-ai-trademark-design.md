@@ -3,7 +3,7 @@
 id: case-live81-ai-trademark-design
 title: 案例：Live81 AI 赋能喵善养商标设计
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

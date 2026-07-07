@@ -2,7 +2,7 @@
 id: framework-strategy-basics-02-insight
 title: 洞察（Critical Insight）：模型+图表+假设验证，战略视野需登高望远
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

@@ -3,7 +3,7 @@
 id: framework-wanghuan-say-think-do-toolchain
 title: 王欢说→想→做工具链框架
 type: framework
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

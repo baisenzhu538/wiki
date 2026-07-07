@@ -3,7 +3,7 @@
 id: tool-ai-info-literacy-three-layer
 title: 技能：AI输出三层防护检查法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

@@ -2,7 +2,7 @@
 id: tool-yitang-employee-directory
 title: 员工公开名录：从通讯录取组织架构
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

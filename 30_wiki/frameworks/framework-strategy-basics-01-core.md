@@ -2,7 +2,7 @@
 id: framework-strategy-basics-01-core
 title: 定式（Core Foundation）：BRM框架为核心，战略肌肉记忆
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

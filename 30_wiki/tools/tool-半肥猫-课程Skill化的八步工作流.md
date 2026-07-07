@@ -3,7 +3,7 @@
 id: tool-半肥猫-课程Skill化的八步工作流
 title: 技能：课程Skill化的八步工作流
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

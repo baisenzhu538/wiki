@@ -21,7 +21,7 @@ reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260617_670c28d4-一堂-一堂五步法-序言-口述.txt
 - 10_raw/sources/src_20260617_3c05beda-一堂-一堂五步法-落地实操-口述.txt
-status: enriched
+status: reviewed
 title: 暗知识：五步法中的主要认知偏差
 trust_level: medium
 type: dk

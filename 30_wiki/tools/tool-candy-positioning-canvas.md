@@ -2,7 +2,7 @@
 id: tool-candy-positioning-canvas
 title: Candy差异化定位画布：回答"这篇东西凭什么存在"
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

@@ -4,7 +4,7 @@ id: dk-yb9-cubox-deployment-failure
 title: Cubox及AI协作工具的团队部署失败模式
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - design
 - management

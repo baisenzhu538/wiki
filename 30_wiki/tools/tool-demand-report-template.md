@@ -2,7 +2,7 @@
 id: tool-demand-report-template
 title: 需求分析报告模板——TAM/SAM/CR1 + 策略 + 假设 + 元认知提醒
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 domain: yitang

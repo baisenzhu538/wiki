@@ -3,7 +3,7 @@
 id: dk-strategy-08-not-local-optimum
 title: 战略≠局部优化。战略是构建完整生态系统，不是单点提效
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.88
 trust_level: high

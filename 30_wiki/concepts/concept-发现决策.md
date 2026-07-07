@@ -2,7 +2,7 @@
 id: concept-发现决策
 title: 发现决策：决策不是「做」出来的，是「发现」出来的
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

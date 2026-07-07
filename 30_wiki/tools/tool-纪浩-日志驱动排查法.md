@@ -2,7 +2,7 @@
 id: tool-纪浩-日志驱动排查法
 title: 技能：日志驱动排查法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

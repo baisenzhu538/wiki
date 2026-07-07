@@ -3,7 +3,7 @@
 id: concept-wanghuan-ai-native-definition
 title: 王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程
 type: concept
-status: enriched
+status: reviewed
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88

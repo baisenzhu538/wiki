@@ -2,7 +2,7 @@
 id: tool-yitang-competitor-financial-analysis
 title: 竞对财税分析：从社保/纳税/财报反推真实规模
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

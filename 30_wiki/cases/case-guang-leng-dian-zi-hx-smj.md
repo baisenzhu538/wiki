@@ -3,7 +3,7 @@
 id: case-guang-leng-dian-zi-hx-smj
 title: 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线
 type: case
-status: enriched
+status: reviewed
 domain:
 - electronics
 - hardware-debugging

@@ -30,7 +30,7 @@ related:
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_622b8a41-ocr-泛产品设计-用户卡片-惊喜公式.md
-status: enriched
+status: reviewed
 title: yt-panproduct-demand-surprise-formula
 type: concept
 version: 1

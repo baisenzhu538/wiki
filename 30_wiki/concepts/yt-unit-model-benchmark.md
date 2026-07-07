@@ -28,7 +28,7 @@ related:
 source_refs:
 - 10_raw/sources/src_20260610_557408fa-一堂-一堂五步法-单元模型-笔记.md
 - 10_raw/sources/src_20260610_be139711-一堂-一堂五步法-单元模型-口述.md
-status: enriched
+status: reviewed
 title: 单元模型基准值：科学类比、三点预测与基准值共建
 trust_level: high
 type: tool

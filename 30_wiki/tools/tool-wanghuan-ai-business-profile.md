@@ -3,7 +3,7 @@
 id: tool-wanghuan-ai-business-profile
 title: 王欢AI业务档案5字段工具
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

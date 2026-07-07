@@ -2,7 +2,7 @@
 id: concept-feishu-api-pagination-trap
 title: 飞书API分页陷阱——静默截断比报错更危险
 type: concept
-status: enriched
+status: reviewed
 author: 段王爷（南帝）
 reviewed_by: 欧阳锋
 review_date: 2026-06-23

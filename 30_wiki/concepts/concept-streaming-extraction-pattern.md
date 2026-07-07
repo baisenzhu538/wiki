@@ -3,7 +3,7 @@
 id: concept-streaming-extraction-pattern
 title: 流式提取模式——浏览器虚拟滚动到API分页的映射
 type: concept
-status: enriched
+status: reviewed
 author: 段王爷（南帝）
 reviewed_by: 欧阳锋
 review_date: 2026-06-23

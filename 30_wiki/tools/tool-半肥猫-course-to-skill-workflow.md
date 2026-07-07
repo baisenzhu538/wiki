@@ -3,7 +3,7 @@
 id: tool-半肥猫-course-to-skill-workflow
 title: 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

@@ -3,7 +3,7 @@
 id: dk-yi-tang-wishful-thinking-kills-startups
 title: 暗知：'愿望思维'是创业最大的陷阱
 type: dk
-status: enriched
+status: reviewed
 domain:
 - yitang
 - business-strategy

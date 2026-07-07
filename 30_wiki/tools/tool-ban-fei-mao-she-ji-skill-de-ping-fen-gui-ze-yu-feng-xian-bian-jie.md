@@ -3,7 +3,7 @@
 id: tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
 title: 技能：设计 Skill 的评分规则与风险边界
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - yitang- src_unknown

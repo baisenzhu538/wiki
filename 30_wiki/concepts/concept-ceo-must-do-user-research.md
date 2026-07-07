@@ -2,7 +2,7 @@
 id: concept-ceo-must-do-user-research
 title: CEO必须亲自做用户调研
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

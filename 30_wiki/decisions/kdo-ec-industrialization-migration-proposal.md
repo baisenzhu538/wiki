@@ -4,7 +4,7 @@ title: EC工业化规范 → KDO管线迁移方案
 type: decision
 domain:
 - src_unknown
-status: enriched
+status: reviewed
 id: kdo-ec-industrialization-migration-proposal
 author: 黄药师
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）

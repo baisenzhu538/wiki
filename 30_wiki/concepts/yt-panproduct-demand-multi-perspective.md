@@ -29,7 +29,7 @@ related:
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考.md
-status: enriched
+status: reviewed
 title: yt-panproduct-demand-multi-perspective
 type: concept
 version: 1

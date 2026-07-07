@@ -3,7 +3,7 @@
 id: framework-lean-product-kernel
 title: 产品内核：不要过早细化未经思考的内核
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

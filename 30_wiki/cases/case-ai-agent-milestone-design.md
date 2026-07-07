@@ -6,7 +6,7 @@ type: case
 domain:
 - ai-collaboration
 - yitang
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童

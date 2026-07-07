@@ -2,7 +2,7 @@
 id: case-truman-prd-checklist-evolution
 title: Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平
 type: case
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

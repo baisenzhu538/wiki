@@ -3,7 +3,7 @@
 id: sk-ai-problem-validation
 title: 技能：问题验证三维度法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang- ai-collaboration

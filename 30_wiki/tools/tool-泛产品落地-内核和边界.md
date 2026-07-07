@@ -2,7 +2,7 @@
 id: tool-泛产品落地-内核和边界
 title: 落地卡片：内核和边界
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-29

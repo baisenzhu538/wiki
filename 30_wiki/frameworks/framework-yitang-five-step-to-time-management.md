@@ -2,7 +2,7 @@
 id: framework-yitang-five-step-to-time-management
 title: 一堂五步法在时间管理中的应用：自管理场景的完整实例化
 type: framework
-status: enriched
+status: reviewed
 domain:
 - personal-growth
 - yitang

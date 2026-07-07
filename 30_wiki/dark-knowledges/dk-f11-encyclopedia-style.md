@@ -4,7 +4,7 @@ id: dk-f11-encyclopedia-style
 title: F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

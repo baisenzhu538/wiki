@@ -3,7 +3,7 @@
 id: concept-wanghuan-power-of-standards
 title: 王欢：标准的力量——质量乘数
 type: concept
-status: enriched
+status: reviewed
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88

@@ -3,7 +3,7 @@
 id: dk-strategy-04-consulting-trap
 title: 战略咨询陷阱：告诉已知信息+方案脱离实际+缺逻辑闭环
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.88
 trust_level: high

@@ -2,7 +2,7 @@
 id: tool-ai-deliverable-polish-loop
 title: AI 交付物打磨循环：从模糊需求到 60 分可用版本
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88

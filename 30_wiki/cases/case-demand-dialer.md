@@ -2,7 +2,7 @@
 id: case-demand-dialer
 title: 案例：小胖猴拨号器——需求到方案的跳跃
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

@@ -4,7 +4,7 @@ created_at: 2026-05-03
 domain: healthcare
 source_refs:
 - 10_raw/sources/src_20260503_5c91e867-轻量级诊所HIS调研全清单.md
-status: enriched
+status: reviewed
 title: 轻量级诊所HIS调研全清单
 type: concept
 updated_at: 2026-05-03

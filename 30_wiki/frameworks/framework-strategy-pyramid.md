@@ -2,7 +2,7 @@
 id: framework-strategy-pyramid
 title: 企业战略金字塔：公司、业务与职能协同
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 domain: strategy

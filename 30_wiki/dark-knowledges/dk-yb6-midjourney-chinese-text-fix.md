@@ -4,7 +4,7 @@ id: dk-yb6-midjourney-chinese-text-fix
 title: Midjourney中文文字修复极简提示词
 type: dk
 dark_knowledge_type: tool_usage
-status: enriched
+status: reviewed
 domain:
 - design
 source_person: 月白

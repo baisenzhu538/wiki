@@ -2,7 +2,7 @@
 id: tool-泛产品落地-复盘迭代
 title: 落地卡片：复盘迭代
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-29

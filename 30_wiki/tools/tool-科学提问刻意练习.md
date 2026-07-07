@@ -2,7 +2,7 @@
 id: tool-科学提问刻意练习
 title: 科学提问刻意练习：提问即思考
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

@@ -4,7 +4,7 @@ id: dk-modeling-timely-review-session-window
 title: 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
 type: dk
 dark_knowledge_type: workflow
-status: enriched
+status: reviewed
 domain:
 - yitang
 - master

@@ -3,7 +3,7 @@
 id: dk-strategy-consulting-jokes
 title: 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.85
 trust_level: high

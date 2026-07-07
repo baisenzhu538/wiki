@@ -2,7 +2,7 @@
 id: case-yitang-Y-model-seven-applications
 title: Y模型七人跨域应用案例集
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.84

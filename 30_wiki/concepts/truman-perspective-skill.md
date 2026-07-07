@@ -5,7 +5,7 @@ type: concept
 domain:
 - ai-collaboration
 - yitang
-status: enriched
+status: reviewed
 source_refs:
 - src_unknown
 created_at: '2026-06-20'

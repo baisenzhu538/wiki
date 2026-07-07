@@ -2,7 +2,7 @@
 id: case-demand-silver-parenting
 title: 案例：银发育儿——冰山模型的完整应用
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

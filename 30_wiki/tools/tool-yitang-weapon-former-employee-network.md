@@ -2,7 +2,7 @@
 id: tool-yitang-weapon-former-employee-network
 title: 武器库策略6：前员工人脉网络——六度人脉的实战应用
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

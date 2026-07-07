@@ -2,7 +2,7 @@
 id: tool-提问刻意练习画布
 title: 提问刻意练习画布：L1-L4四级提问能力进阶
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

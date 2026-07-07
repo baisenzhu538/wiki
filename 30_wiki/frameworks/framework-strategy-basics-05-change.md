@@ -2,7 +2,7 @@
 id: framework-strategy-basics-05-change
 title: 变革（Change）：加外挂/换路/换轮子
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

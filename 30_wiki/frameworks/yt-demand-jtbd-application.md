@@ -5,7 +5,7 @@ domain:
 id: yt-demand-jtbd-application
 title: JTBD需求分析实战应用：从"用户想要"到"用户雇佣"
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.91
 trust_level: high
 source_context: 一堂五步法需求分析——JTBD框架在需求挖掘中的应用

@@ -2,7 +2,7 @@
 id: tool-yitang-sales-toolkit-radar
 title: 一堂销售工具箱六维雷达图
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

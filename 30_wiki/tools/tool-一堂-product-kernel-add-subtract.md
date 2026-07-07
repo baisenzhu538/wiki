@@ -2,7 +2,7 @@
 id: tool-一堂-product-kernel-add-subtract
 title: 技能：产品内核加减法
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 updated_at: '2026-06-29'

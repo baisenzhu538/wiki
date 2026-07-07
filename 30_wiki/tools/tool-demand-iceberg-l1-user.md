@@ -2,7 +2,7 @@
 id: tool-demand-iceberg-l1-user
 title: L1粗拆用户标签：识别任务执行者的核心角色
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

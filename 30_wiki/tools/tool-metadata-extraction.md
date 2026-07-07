@@ -2,7 +2,7 @@
 id: tool-metadata-extraction
 title: 元数据提取：从文件中提取隐藏信息
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

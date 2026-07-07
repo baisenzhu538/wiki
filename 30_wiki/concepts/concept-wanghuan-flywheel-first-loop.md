@@ -2,7 +2,7 @@
 id: concept-wanghuan-flywheel-first-loop
 title: 王欢：AI 飞轮第一圈
 type: concept
-status: enriched
+status: reviewed
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88

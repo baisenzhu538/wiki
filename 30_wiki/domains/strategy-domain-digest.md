@@ -3,7 +3,7 @@
 id: strategy-domain-digest
 title: 域摘要：企业战略（冉鹏 · 30年经验）
 type: index
-status: enriched
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain: yitang

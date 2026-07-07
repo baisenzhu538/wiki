@@ -5,7 +5,7 @@ title: 一堂全课程目录索引
 type: concept
 source_refs:
 - src_unknown
-status: enriched
+status: reviewed
 domain:
 - yitang
 yitang:

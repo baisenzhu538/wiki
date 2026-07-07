@@ -2,7 +2,7 @@
 id: concept-科学决策宽度
 title: 科学决策宽度：个人·企业·团队三层视角
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

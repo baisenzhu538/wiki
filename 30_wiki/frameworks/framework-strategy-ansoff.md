@@ -2,7 +2,7 @@
 id: framework-strategy-ansoff
 title: 安索夫矩阵：产品-市场增长战略
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 domain:

@@ -2,7 +2,7 @@
 id: tool-demand-agent-signals
 title: Agent L1-L2信号聚合：替代"凭经验猜用户"
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

@@ -4,7 +4,7 @@ id: dk-p20-bigram-fail
 title: P-20：pre-screen bigram 匹配对中文文本完全失效
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

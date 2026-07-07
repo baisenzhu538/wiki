@@ -4,7 +4,7 @@ id: dk-small-format-error-cascades-to-system-failure
 title: 小格式错误在批量系统中引发级联失效
 type: dk
 dark_knowledge_type: cross-domain-pattern
-status: enriched
+status: reviewed
 domain:
 - master
 - kdo

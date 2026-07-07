@@ -2,7 +2,7 @@
 id: tool-用户视角
 title: 用户视角：跳出产品思维看用户
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

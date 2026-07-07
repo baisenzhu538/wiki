@@ -2,7 +2,7 @@
 id: tool-ai-four-elements-validation
 title: 技能：真需求验证法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

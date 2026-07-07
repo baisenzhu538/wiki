@@ -4,7 +4,7 @@ id: dk-note-maximum-common-divisor
 title: 清单体是人与AI的'最大公约数'：结构降级即认知升级
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - yitang
 - note-taking

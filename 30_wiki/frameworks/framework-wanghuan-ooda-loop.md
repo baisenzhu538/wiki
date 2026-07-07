@@ -3,7 +3,7 @@
 id: framework-wanghuan-ooda-loop
 title: 王欢OODA闭环：人机协作的决策迭代框架
 type: framework
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

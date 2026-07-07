@@ -3,7 +3,7 @@
 id: feishu-docx-pagination-extraction
 title: 飞书 Docx API 分页安全提取 + 流式处理模式
 type: skill
-status: enriched
+status: reviewed
 confidence: 0.95
 trust_level: high
 domain:

@@ -5,7 +5,7 @@ title: P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session
   ID
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

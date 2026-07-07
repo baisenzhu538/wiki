@@ -2,7 +2,7 @@
 id: tool-yitang-douyin-data
 title: 抖音数据：直播电商和短视频趋势追踪
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

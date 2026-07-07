@@ -3,7 +3,7 @@
 id: sk-ai-question-problem-checklist
 title: 技能：提问题转化三问清单
 type: tool
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang- ai-collaboration

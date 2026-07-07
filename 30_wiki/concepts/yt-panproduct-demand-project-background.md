@@ -30,7 +30,7 @@ related:
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_115e8827-ocr-泛产品设计-用户卡片-项目背景分析.md
-status: enriched
+status: reviewed
 title: yt-panproduct-demand-project-background
 type: concept
 version: 1

@@ -2,7 +2,7 @@
 id: case-bmw-human-ai-collaboration-idle-time
 title: BMW 工厂人机协作案例：idle time 减少 85% 被误读为产能提升 85%
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: "2026-06-29"

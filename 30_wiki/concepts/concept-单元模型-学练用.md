@@ -2,7 +2,7 @@
 id: concept-单元模型-学练用
 title: 学练用：知识内化的三阶模型
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

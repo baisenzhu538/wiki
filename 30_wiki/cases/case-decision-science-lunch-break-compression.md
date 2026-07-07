@@ -2,7 +2,7 @@
 id: case-decision-science-lunch-break-compression
 title: 案例：把2小时休息压缩为1小时的ROI决策
 type: case
-status: enriched
+status: reviewed
 domain:
 - decision-science
 - yitang

@@ -3,7 +3,7 @@
 id: tool-strategy-category-role-matrix
 title: 零售品类角色矩阵
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.95
 trust_level: high
 domain:

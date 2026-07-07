@@ -2,7 +2,7 @@
 id: case-lean-shampoo-selling-points
 title: 洗发水卖点组合测试
 type: case
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 author: 老顽童

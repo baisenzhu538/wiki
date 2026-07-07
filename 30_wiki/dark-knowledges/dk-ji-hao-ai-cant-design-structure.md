@@ -3,7 +3,7 @@
 id: dk-ji-hao-ai-cant-design-structure
 title: 暗知识：AI不会自己搞结构设计
 type: dk
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

@@ -2,7 +2,7 @@
 id: case-strategy-snack-industry-chain
 title: 话梅果干产业链分析：从种植到零售的利润分布与竞争格局
 type: case
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 reviewed_by: 欧阳锋

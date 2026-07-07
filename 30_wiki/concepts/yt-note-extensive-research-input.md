@@ -3,7 +3,7 @@
 id: yt-note-extensive-research-input
 title: 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

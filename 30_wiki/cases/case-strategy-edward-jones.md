@@ -2,7 +2,7 @@
 id: case-strategy-edward-jones
 title: 爱德华琼斯：每个小镇只招一人——0办公位的券商模式
 type: case
-status: enriched
+status: reviewed
 created_at: '2026-06-28'
 author: 老顽童
 confidence: 0.85

@@ -4,7 +4,7 @@ id: dk-c9-batch-trigger-garbage
 title: C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: 欧阳锋

@@ -4,7 +4,7 @@ id: dk-modeling-radar-model-not-result
 title: 复杂评选别让 CEO 拍结果，只让 CEO 审模型
 type: dk
 dark_knowledge_type: workflow
-status: enriched
+status: reviewed
 domain:
 - yitang
 - ai-saas

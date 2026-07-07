@@ -2,7 +2,7 @@
 id: tool-yitang-project-plan-canvas
 title: 项目定方案一页纸画布
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

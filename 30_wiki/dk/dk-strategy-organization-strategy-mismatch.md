@@ -3,7 +3,7 @@
 id: dk-strategy-organization-strategy-mismatch
 title: 组织能力与战略方向不匹配
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

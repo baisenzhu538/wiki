@@ -3,7 +3,7 @@
 id: framework-wanghuan-five-criteria-first-product
 title: 王欢：选第一个产品场景的五条标准
 type: framework
-status: enriched
+status: reviewed
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88

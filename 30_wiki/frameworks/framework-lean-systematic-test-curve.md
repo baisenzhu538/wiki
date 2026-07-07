@@ -2,7 +2,7 @@
 id: framework-lean-systematic-test-curve
 title: 系统测试曲线与三大测试范式
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88

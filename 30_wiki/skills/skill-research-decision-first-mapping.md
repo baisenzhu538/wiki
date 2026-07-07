@@ -3,7 +3,7 @@
 id: skill-research-decision-first-mapping
 title: 决策优先映射：让研究动作直接服务决策
 type: skill
-status: enriched
+status: reviewed
 confidence: 0.8
 trust_level: high
 language: zh-CN

@@ -3,7 +3,7 @@
 id: dk-strategy-05-positioning-trap
 title: 定位公司陷阱：高端定位→丢低端市场。清洁用品L的教训
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.85
 trust_level: high

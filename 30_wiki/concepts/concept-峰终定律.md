@@ -2,7 +2,7 @@
 id: concept-峰终定律
 title: 峰终定律：用户体验的二八定律
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

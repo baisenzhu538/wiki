@@ -2,7 +2,7 @@
 id: framework-demand-lean-bridge
 title: 需求判断与精益验证的衔接
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-23

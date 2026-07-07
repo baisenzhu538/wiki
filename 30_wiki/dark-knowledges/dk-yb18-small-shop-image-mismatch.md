@@ -4,7 +4,7 @@ id: dk-yb18-small-shop-image-mismatch
 title: 小店图片错配陷阱：精致摄影反而吓跑客户
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - design
 - yitang

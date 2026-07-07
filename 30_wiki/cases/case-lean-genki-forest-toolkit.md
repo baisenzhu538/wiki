@@ -2,7 +2,7 @@
 id: case-lean-genki-forest-toolkit
 title: 元气森林试错工具箱
 type: case
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 author: 老顽童

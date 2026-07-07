@@ -2,7 +2,7 @@
 id: tool-yitang-sales-performance-management
 title: 一堂销售业绩管理三步法
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.84

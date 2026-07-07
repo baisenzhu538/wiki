@@ -3,7 +3,7 @@
 id: tool-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan
 title: 技能：用 AI 做结构化用户调研
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - yitang- src_unknown

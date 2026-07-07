@@ -2,7 +2,7 @@
 id: tool-一堂-product-kernel-canvas
 title: 一堂产品内核画布应用技能
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 source_person: 一堂·Truman

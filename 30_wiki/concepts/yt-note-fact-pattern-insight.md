@@ -3,7 +3,7 @@
 id: yt-note-fact-pattern-insight
 title: 事实→规律→见解：深度思考笔记的三段论结构
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

@@ -2,7 +2,7 @@
 id: tool-strategy-business-design-template
 title: 业务单元业务设计模板
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.95
 trust_level: high
 domain:

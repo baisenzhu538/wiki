@@ -2,7 +2,7 @@
 id: case-yitang-sales-transformation-meirongyuan
 title: 案例：美容院连锁销售体系改造——从总部门店冲突到新客转化率提升
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.82

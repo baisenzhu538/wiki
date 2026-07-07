@@ -2,7 +2,7 @@
 id: tool-讲香十指模型-超级武器库
 title: 讲香十指模型：超级武器库——表达力的十种武器
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

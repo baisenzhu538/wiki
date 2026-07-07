@@ -4,7 +4,7 @@ id: dk-f10-broken-source-refs
 title: F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

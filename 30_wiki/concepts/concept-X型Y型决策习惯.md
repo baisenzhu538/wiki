@@ -2,7 +2,7 @@
 id: concept-X型Y型决策习惯
 title: X型 vs Y型：两种决策习惯对比
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

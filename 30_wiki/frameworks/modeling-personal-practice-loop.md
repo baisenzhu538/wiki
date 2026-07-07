@@ -5,7 +5,7 @@ title: 建模能力个人修炼闭环：刻意练习 × IPO × PDCA
 type: framework
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-status: enriched
+status: reviewed
 domain:
 - modeling- yitang
 - personal-growth

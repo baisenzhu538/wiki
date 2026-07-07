@@ -7,7 +7,7 @@ domain:
 - design
 - yitang
 - decision-making
-status: enriched
+status: reviewed
 source_refs:
 - pending_archive:src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构
 - src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构

@@ -2,7 +2,7 @@
 id: tool-strategy-map
 title: 战略地图——公司/各BU/业务单元的战略蓝图模板
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.88
 trust_level: high
 domain: strategy

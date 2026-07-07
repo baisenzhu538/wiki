@@ -3,7 +3,7 @@
 id: framework-wanghuan-gan-three-roles
 title: 王欢GAN三角色架构：生成器/判别器/合成器
 type: framework
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

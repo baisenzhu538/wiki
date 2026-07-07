@@ -4,7 +4,7 @@ id: dk-p19-quote-yaml
 title: P-19：花引号被YAML误解析为字符串定界符
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

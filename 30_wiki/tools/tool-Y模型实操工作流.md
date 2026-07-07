@@ -2,7 +2,7 @@
 id: tool-Y模型实操工作流
 title: Y模型实操工作流：从分析到决策的完整路径
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

@@ -2,7 +2,7 @@
 id: tool-yitang-supplier-interview
 title: 供应商访谈：从供应链端获取竞对数据
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-04

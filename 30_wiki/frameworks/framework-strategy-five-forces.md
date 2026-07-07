@@ -2,7 +2,7 @@
 id: framework-strategy-five-forces
 title: 波特五力分析框架
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.95
 trust_level: high
 domain:

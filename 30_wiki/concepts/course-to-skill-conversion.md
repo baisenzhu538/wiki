@@ -9,7 +9,7 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
-status: enriched
+status: reviewed
 source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 component_of:

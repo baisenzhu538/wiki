@@ -4,7 +4,7 @@ id: dk-yb11-visual-book-reverse
 title: 不训练模型锁定风格的逆向视觉书法
 type: dk
 dark_knowledge_type: workflow
-status: enriched
+status: reviewed
 domain:
 - design
 source_person: 月白

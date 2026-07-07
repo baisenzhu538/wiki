@@ -4,7 +4,7 @@ domain:
 id: yt-demand-qualitative-analysis
 title: 需求定性分析框架：拆推评算四步法
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.93
 trust_level: high
 source_context: 一堂五步法需求分析口述——"需求分析先定性后定量"

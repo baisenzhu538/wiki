@@ -4,7 +4,7 @@ id: dk-note-rookie-disaster-veteran-heaven
 title: “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - yitang
 - note-taking

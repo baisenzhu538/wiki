@@ -4,7 +4,7 @@ created_at: 2026-05-03
 domain: healthcare
 source_refs:
 - 10_raw/sources/src_20260503_dadc7838-EC工业化规范手册.md
-status: enriched
+status: reviewed
 title: EC工业化规范手册
 type: concept
 updated_at: 2026-05-03

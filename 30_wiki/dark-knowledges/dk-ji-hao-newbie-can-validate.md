@@ -4,7 +4,7 @@ id: dk-ji-hao-newbie-can-validate
 title: 暗知识：新手也可以用工具验证——因为验证靠的是工具，不是眼光
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

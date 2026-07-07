@@ -4,7 +4,7 @@ id: dk-p14-zombie
 title: P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: system

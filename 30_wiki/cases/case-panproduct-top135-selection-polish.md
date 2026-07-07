@@ -2,7 +2,7 @@
 id: case-panproduct-top135-selection-polish
 title: 案例：top 1/top 3/top 5 筛选打磨
 type: case
-status: enriched
+status: reviewed
 domain:
 - product-design
 - yitang

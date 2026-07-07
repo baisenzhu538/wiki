@@ -3,7 +3,7 @@
 id: tool-专题笔记脑图整理法
 title: 技能：专题笔记/脑图整理法
 type: tool
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 source_person: 一堂课程

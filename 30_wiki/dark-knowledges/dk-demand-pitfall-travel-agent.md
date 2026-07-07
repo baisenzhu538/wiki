@@ -3,7 +3,7 @@
 id: dk-demand-pitfall-travel-agent
 title: 踩坑：旅行攻略Agent——隐性需求忽略。只做功能不碰情感
 type: dk
-status: enriched
+status: reviewed
 author: 老顽童
 confidence: 0.88
 trust_level: high

@@ -2,7 +2,7 @@
 id: case-strategy-exit-sell
 title: 案例：撤退型布局1——出售（Musical.ly）
 type: case
-status: enriched
+status: reviewed
 domain:
 - strategy
 - yitang

@@ -4,7 +4,7 @@ id: dk-level-blindspot-external-feedback
 title: 暗知识：「7-8分幻觉」是结构性盲区——低段位者高估自己，因为没见过高段位的具体打法
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - yitang
 - entrepreneur

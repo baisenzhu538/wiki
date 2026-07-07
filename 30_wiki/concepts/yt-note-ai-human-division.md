@@ -2,7 +2,7 @@
 id: yt-note-ai-human-division
 title: AI时代笔记分工边界：人在哪里，AI在哪里
 type: concept
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 version: 1

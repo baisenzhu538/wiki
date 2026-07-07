@@ -4,7 +4,7 @@ id: dk-yb1-aigc-mvp-before-ps
 title: 设计师AIGC工作流：先跑MVP再开PS
 type: dk
 dark_knowledge_type: workflow
-status: enriched
+status: reviewed
 domain:
 - design
 - ai-collaboration

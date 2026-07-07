@@ -2,7 +2,7 @@
 id: case-demand-tier4-housekeeping
 title: 案例：四线家政创业——天花板误判
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

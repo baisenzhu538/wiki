@@ -7,7 +7,7 @@ domain:
   - yitang
   - personal-growth
   - learning-methodology
-status: enriched
+status: reviewed
 source_refs:
   - "00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md"
 related:

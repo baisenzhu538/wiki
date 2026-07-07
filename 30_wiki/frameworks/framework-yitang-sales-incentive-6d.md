@@ -2,7 +2,7 @@
 id: framework-yitang-sales-incentive-6d
 title: 一堂六维销售激励模型
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.83

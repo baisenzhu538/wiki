@@ -3,7 +3,7 @@ id: dk-time-management-common-mistakes
 title: 时间管理三大反模式：工具迷信、二极管思维、边界模糊
 type: dark-knowledge
 dark_knowledge_type: pattern
-status: enriched
+status: reviewed
 domain:
 - personal-growth
 - yitang

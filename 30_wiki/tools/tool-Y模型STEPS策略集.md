@@ -2,7 +2,7 @@
 id: tool-Y模型STEPS策略集
 title: Y模型STEPS策略集：五步策略框架
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.78

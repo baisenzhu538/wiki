@@ -3,7 +3,7 @@
 id: framework-candy-transcript-workflow
 title: Candy逐字稿九步法：从素材到可交付内容的生产流程
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

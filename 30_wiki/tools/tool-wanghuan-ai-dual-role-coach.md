@@ -2,7 +2,7 @@
 id: tool-wanghuan-ai-dual-role-coach
 title: 王欢：AI 双角色教练对练工具
 type: tool
-status: enriched
+status: reviewed
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88

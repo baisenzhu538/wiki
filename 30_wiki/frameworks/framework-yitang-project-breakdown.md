@@ -2,7 +2,7 @@
 id: framework-yitang-project-breakdown
 title: 项目拆计划：六维敏感度驱动的科学拆解
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

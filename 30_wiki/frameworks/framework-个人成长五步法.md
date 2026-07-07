@@ -2,7 +2,7 @@
 id: framework-个人成长五步法
 title: 个人成长五步法：Truman的个人版本
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8

@@ -2,7 +2,7 @@
 id: case-lean-wrong-demand
 title: 需求找错案例集
 type: case
-status: enriched
+status: reviewed
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 author: 老顽童

@@ -2,7 +2,7 @@
 id: tool-prompt-jtbd-scenario-coach
 title: JTBD 场景推演教练——六层需求深挖提示词模板
 type: prompt-template
-status: enriched
+status: reviewed
 confidence: 0.9
 trust_level: high
 domain: yitang

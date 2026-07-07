@@ -2,7 +2,7 @@
 id: case-demand-rural-5g
 title: 案例：偏远县域5G覆盖——普遍性误判
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

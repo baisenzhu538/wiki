@@ -3,7 +3,7 @@
 id: tool-media-verification-overview
 title: 媒体验证技术总览：判断"对方说的是不是真的"
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

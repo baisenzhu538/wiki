@@ -3,7 +3,7 @@ id: dk-tool-as-answer-trap
 title: 把工具/框架当成答案，而不是提问的脚手架
 type: dk
 dark_knowledge_type: cross-domain-pattern
-status: enriched
+status: reviewed
 domain:
 - yitang
 - lean-startup

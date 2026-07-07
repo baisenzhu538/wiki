@@ -4,7 +4,7 @@ id: dk-yb8-file-naming-eight-elements
 title: AI增效前置：文件命名八要素体系
 type: dk
 dark_knowledge_type: workflow
-status: enriched
+status: reviewed
 domain:
 - design
 source_person: 月白

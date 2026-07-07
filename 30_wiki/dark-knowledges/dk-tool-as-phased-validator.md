@@ -3,7 +3,7 @@ id: dk-tool-as-phased-validator
 title: 把 AI/工具当成分阶段校验器，而不是一次性生成器
 type: dk
 dark_knowledge_type: cross-domain-pattern
-status: enriched
+status: reviewed
 domain:
 - yitang
 - ai-collaboration

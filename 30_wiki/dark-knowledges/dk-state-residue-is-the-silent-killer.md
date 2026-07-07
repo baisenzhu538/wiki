@@ -4,7 +4,7 @@ id: dk-state-residue-is-the-silent-killer
 title: 状态残留是自动化系统里最隐蔽的 bug
 type: dk
 dark_knowledge_type: cross-domain-pattern
-status: enriched
+status: reviewed
 domain:
 - master
 - kdo

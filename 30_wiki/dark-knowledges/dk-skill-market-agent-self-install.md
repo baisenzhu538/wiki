@@ -4,7 +4,7 @@ id: dk-skill-market-agent-self-install
 title: "暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述"
 type: dk
 dark_knowledge_type: paradigm-shift
-status: enriched
+status: reviewed
 domain:
 - ai-collaboration
 - yitang

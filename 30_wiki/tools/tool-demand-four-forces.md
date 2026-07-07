@@ -2,7 +2,7 @@
 id: tool-demand-four-forces
 title: 四种力量建模：用户切换决策的博弈机制
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

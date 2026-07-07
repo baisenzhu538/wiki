@@ -4,7 +4,7 @@ created_at: 2026-05-03
 domain: healthcare
 source_refs:
 - 10_raw/sources/src_20260503_f4891888-开源HIS系统代码深度分析报告.md
-status: enriched
+status: reviewed
 title: 开源HIS系统代码深度分析报告
 type: concept
 updated_at: 2026-05-03

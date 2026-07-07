@@ -2,7 +2,7 @@
 id: tool-demand-iceberg-l6-hypothesis
 title: L6需求假设：机会卡片+最危险假设(RAT)
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

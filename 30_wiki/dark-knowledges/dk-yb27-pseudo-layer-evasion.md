@@ -4,7 +4,7 @@ id: dk-yb27-pseudo-layer-evasion
 title: 伪图层叠加规避平台图像识别
 type: dk
 dark_knowledge_type: tool_usage
-status: enriched
+status: reviewed
 domain: design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'

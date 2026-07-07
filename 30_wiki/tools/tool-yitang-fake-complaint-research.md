@@ -2,7 +2,7 @@
 id: tool-yitang-fake-complaint-research
 title: 假装客户投诉：以投诉之名获取内部信息
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21

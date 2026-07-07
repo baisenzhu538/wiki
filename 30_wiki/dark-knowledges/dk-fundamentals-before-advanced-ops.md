@@ -3,7 +3,7 @@ id: dk-fundamentals-before-advanced-ops
 title: 基本功未内化就强上高阶操作——高阶工具失效的头号根因
 type: dk
 dark_knowledge_type: cross-domain-pattern
-status: enriched
+status: reviewed
 domain:
 - yitang
 - note-taking

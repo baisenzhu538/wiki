@@ -4,7 +4,7 @@ id: dk-modeling-logical-cleanliness-root
 title: 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - yitang
 - ai-saas

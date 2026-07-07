@@ -2,7 +2,7 @@
 id: tool-opc-sales-dialogue-assistant
 title: OPC 销售对话助手智能体
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85

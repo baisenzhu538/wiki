@@ -2,7 +2,7 @@
 id: case-yitang-sales-transformation-tuliaogongsi
 title: 案例：涂料公司“意图”——从 10 万线索中筛出 220 个高价值客户的分层转型
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.80

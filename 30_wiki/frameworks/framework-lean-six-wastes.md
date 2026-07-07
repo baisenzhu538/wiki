@@ -2,7 +2,7 @@
 id: framework-lean-six-wastes
 title: 创业六宗罪 / 六大浪费
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88

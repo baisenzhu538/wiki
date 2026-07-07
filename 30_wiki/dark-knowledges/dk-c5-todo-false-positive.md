@@ -4,7 +4,7 @@ id: dk-c5-todo-false-positive
 title: C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: Builder

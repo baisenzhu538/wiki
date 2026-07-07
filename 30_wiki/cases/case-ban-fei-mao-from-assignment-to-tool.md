@@ -3,7 +3,7 @@
 id: case-ban-fei-mao-from-assignment-to-tool
 title: 案例：半肥猫把一堂课程作业变成可复用调研工具
 type: case
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown

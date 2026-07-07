@@ -2,7 +2,7 @@
 id: framework-yitang-scientific-sales-five-step
 title: 一堂科学销售五步法
 type: framework
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88

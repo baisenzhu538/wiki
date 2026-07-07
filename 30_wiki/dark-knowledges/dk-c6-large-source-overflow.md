@@ -4,7 +4,7 @@ id: dk-c6-large-source-overflow
 title: C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
 type: dk
 dark_knowledge_type: failure
-status: enriched
+status: reviewed
 domain:
 - master
 source_person: Builder

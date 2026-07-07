@@ -3,7 +3,7 @@
 id: framework-wanghuan-three-tier-dev-architecture
 title: 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 type: framework
-status: enriched
+status: reviewed
 domain:
 - src_unknown
 - src_unknown
