@@ -307,7 +307,7 @@ updated_at: 2026-07-07
 
 ### 验收标准
 
-1. 12 张目标卡全部 `kdo pre-submit` PASS。
+1. 13 张目标卡全部 `kdo pre-submit` PASS。
 2. 所有新卡 `related ≥ 7`，agent-spec `related ≥ 10`。
 3. 现有 14 张相关卡完成反向 related 更新（见第 6 层）。
 4. 口述稿重复区不得被当作素材引用。
@@ -317,7 +317,40 @@ updated_at: 2026-07-07
 
 ---
 
-## 六、后续动作
+## 六、与老顽童标注的交叉比对与王语嫣独立判断
+
+> 老顽童标注报告：`60_feedback/diagnosis/diag_20260707_laowantong-project-management-annotation.md`
+
+| 老顽童建议 | 王语嫣判断 | 处理结果 |
+|:---|:---|:---:|
+| 素材质量高，五节口述课 + 69 张图为 P0 级来源 | ✅ 采纳 | 作为任务单核心依据 |
+| 最大价值是升级 `yt-management-project-management`（source_refs 全空 / confidence 0.75） | ✅ 采纳 | 列为 #131 第 1 张卡，必须补全 source_refs 并提升 confidence |
+| ABCD 复杂度分类应单独建 framework 卡 | ✅ 采纳 | 从 concept 重写中抽出，新建 `framework-yitang-project-abcd-classification`，作为全域分层基础 |
+| 方案评估三角形应独立 tool 卡 | ⚠️ 部分采纳 | 功能并入 `tool-yitang-project-plan-canvas`，不单独建卡，避免 early 碎片化；后续如画布膨胀再拆 |
+| RASCI 应独立 tool 卡 | ⚠️ 部分采纳 | 功能并入 `framework-yitang-project-breakdown` 与拆计划小抄，不单独建卡 |
+| 深度复盘方法论 + 复盘画布 P0 | ✅ 采纳 | 已列为 framework + tool |
+| Leo 官网改版失败案例应建 case 卡 | ✅ 采纳但延后 | 放入 #132 P1 补产，避免 #131 体量失控 |
+| 一堂 2022 初五大课复盘应建 case 卡 | ✅ 采纳但延后 | 放入 #132 P1 补产 |
+| 武器库 V1.8 做入口 tool 卡 | ✅ 采纳但延后 | 放入 #132 P1 补产 |
+| 69 张图中 ~30 张可直接转 tool 卡（P2 批量） | ✅ 采纳但延后 | 放入 #132 P2 批量转化子任务 |
+| L5 隐性成本 / L6 组织能力未覆盖，建议追问 | ✅ 采纳为 dk 方向 | 放入 #132：新建 `dk-yitang-project-overmanagement-vs-bare-run` |
+| PMBOK 对标结论 | ✅ 采纳 | 写入 concept 卡 Critique / 外部攻击者 |
+| 预估 30-40 张卡 | ❌ 不一次性入队 | 拆为 #131（13 张 P0/P1 核心）+ #132（约 30 张 P1/P2 补产/深挖） |
+
+### 最终生产策略
+
+- **#131（当前入队）**：先打骨架——1 concept 重写 + 5 framework + 4 tool + 1 skill + 1 workflow + 1 agent-spec = **13 张卡**。保证四课闭环（ABCD → 定方案 → 拆计划 → 管过程 → 做复盘）可被 Agent 调用。
+- **#132（队尾）**：补肉与补深——2 case + 武器库入口 + RASCI/评估三角独立小卡（如 canvas 验证后需要拆）+ L5/L6 暗知识 + 约 25 张 checklist/tool 图批量转化。
+
+### 与王语嫣原 12 张方案差异说明
+
+- 增加 1 张 `framework-yitang-project-abcd-classification`（老顽童强调的基础分层框架）。
+- 保持 agent-spec、skill、workflow 不变（用户明确要求）。
+- 将 case、武器库入口、批量 tool、L5/L6 dk 移出 #131，避免单次任务过大，且给 P0 骨架留出终审带宽。
+
+---
+
+## 七、后续动作
 
 1. 王语嫣将本诊断报告写入 `60_feedback/diagnosis/`。
 2. 王语嫣撰写任务单并入队 `production-queue.md`。
