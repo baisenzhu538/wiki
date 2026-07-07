@@ -217,15 +217,20 @@ def action_claim(task_id: str, instance: str) -> tuple[bool, str]:
     return True, f"✅ {task_id} 已领取为 {new_status}"
 
 
-def action_complete(task_id: str, instance: str, evidence: str | None) -> tuple[bool, str]:
-    """Mark a claimed task as pending_review."""
+def action_complete(task_id: str, instance: str, evidence: str | None, force: bool = False) -> tuple[bool, str]:
+    """Mark a claimed task as pending_review.
+
+    --force: 允许从 queued 直接跳到 pending_review（用于生产已完成但未通过脚本领取的场景）
+    """
     rows = parse_queue()
     task = find_task(task_id, rows)
     if task is None:
         return False, f"任务 {task_id} 不在队列中"
 
     expected = f"claimed-{instance}"
-    if task["status"] != expected:
+    if force and task["status"] == "queued":
+        pass  # 跳过 claim，直接提交
+    elif task["status"] != expected:
         return False, f"任务 {task_id} 状态为 {task['status']}，不是由 {instance} 领取的 {expected}"
 
     task_file = _find_task_file_dual(task_id)
@@ -375,7 +380,7 @@ def main() -> int:
         if not instance:
             print("complete 需要 --instance <instance>", file=sys.stderr)
             return 1
-        ok, msg = action_complete(task_id, instance, evidence)
+        ok, msg = action_complete(task_id, instance, evidence, force=force)
     elif action == "release":
         if not instance:
             print("release 需要 --instance <instance>", file=sys.stderr)
