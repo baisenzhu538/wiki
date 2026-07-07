@@ -1,13 +1,13 @@
 ---
 id: task_20260707_wangyuyan-project-management-domain-production
 type: task
-status: in_progress
+status: pending_review
 owner: 王语嫣
 assignee: hermes
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-07
-updated_at: '2026-07-07T14:33:29.404434+00:00'
+updated_at: '2026-07-07T16:34:08.335704+00:00'
 estimated_cards: 13
 dependencies: []
 source_diagnosis: 60_feedback/diagnosis/diag_20260707_yitang-project-management-nine-layer.md
