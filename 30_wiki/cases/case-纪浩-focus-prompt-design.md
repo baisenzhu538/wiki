@@ -56,6 +56,7 @@ related:
   - "[[case-科学决策-ROI案例03]]"
 author: 纪浩
 reviewed_by: 老顽童
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:

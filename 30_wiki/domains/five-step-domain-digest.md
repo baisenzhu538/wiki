@@ -3,7 +3,7 @@
 id: five-step-domain-digest
 title: 域摘要：一堂五步法（80+张卡）
 type: index
-status: enriched
+status: reviewed
 confidence: 0.95
 trust_level: high
 domain:
@@ -16,8 +16,11 @@ source_refs:
 - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
 created_at: '2026-06-19'
 author: 黄药师
-reviewed_by: 黄药师
-review_date: '2026-06-19'
+reviewed_by: 欧阳锋
+review_date: '2026-07-08'
+review_verdict: pass
+review_grade: B
+review_notes: 补审（原reviewed_by黄药师，self-review违反L0铁律#4）。域摘要结构完整，80+张卡导航清晰。domain字段为src_unknown需修复。
 related:
   - "[[lean-startup-domain-digest]]"
   - "[[framework-一堂五步法-泛产品设计]]"

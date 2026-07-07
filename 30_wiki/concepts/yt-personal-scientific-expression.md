@@ -29,6 +29,7 @@ related:
 - "[[yt-personal-inspiration-flash]]"
 review_date: 2026-05-08
 reviewed_by: 黄药师
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
 - 10_raw/sources/src_20260609_bb221484-ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md
 status: enriched

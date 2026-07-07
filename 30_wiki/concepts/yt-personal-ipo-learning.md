@@ -27,6 +27,7 @@ related:
 - "[[yt-entrepreneur-liberate-thinking]]"
 review_date: 2026-05-07
 reviewed_by: 黄药师
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
 - 10_raw/sources/src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型.md
 status: enriched

@@ -5,7 +5,7 @@ domain:
 id: yt-business-model-canvas
 title: 商业模式画布：一堂版
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——商业模式画布

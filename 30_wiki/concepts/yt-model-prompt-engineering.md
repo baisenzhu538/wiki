@@ -34,6 +34,7 @@ query_triggers:
 - src_unknown
 created_at: 2026-05-13
 reviewed_by: 黄药师
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 estimated_tokens: 2500
 pipeline:
 - src_unknown

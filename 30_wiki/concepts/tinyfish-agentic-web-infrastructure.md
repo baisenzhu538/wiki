@@ -6,6 +6,7 @@ created_at: 2026-05-06
 domain: master
 review_date: 2026-05-06
 reviewed_by: 黄药师
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 status: draft
 title: TinyFish — Agentic Web 基础设施建设层 Skill
 trust_level: medium

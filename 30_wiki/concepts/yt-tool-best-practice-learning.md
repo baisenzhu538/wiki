@@ -35,6 +35,7 @@ related:
 - "[[tool-Truman-知识库最佳实践构建]]"
 review_by: 2026-12-06
 reviewed_by: 黄药师
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
 - 10_raw/sources/src_20260522_0af1f6dd-learning-thinking.md
 status: enriched

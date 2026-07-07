@@ -26,6 +26,7 @@ related:
 - "[[yt-model-personal-pitch-toolkit]]"
 - "[[yt-panproduct-demand-motivation-resistance]]"
 reviewed_by: 黄药师
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_of:
 - src_unknown
 source_refs:

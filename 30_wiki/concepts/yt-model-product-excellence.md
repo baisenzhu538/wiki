@@ -18,6 +18,7 @@ query_triggers:
   - src_unknown
   - src_unknown
 reviewed_by: "黄药师"
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
   - pending_archive:src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
   - src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯

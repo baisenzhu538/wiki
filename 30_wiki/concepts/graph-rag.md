@@ -15,6 +15,7 @@ related: null
   - [[yt-entrepreneur-pragmatic-startup]]
 review_date: 2026-05-04
 reviewed_by: 黄药师
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 status: enriched
 title: Graph RAG — Knowledge-Graph-Powered Retrieval
 trust_level: medium

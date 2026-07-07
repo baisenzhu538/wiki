@@ -17,6 +17,7 @@ source_refs:
 created_at: '2026-06-21'
 author: 欧阳锋
 reviewed_by: 欧阳锋
+review_notes: ⚠️ 补审标记（2026-07-08）：原为self-review。本卡为架构决策记录（improvement-plan），非内容卡。正式审查待王语嫣方向确认。
 confidence: 0.9
 related:
 - '[[framework-yitang-oscar-research]]'

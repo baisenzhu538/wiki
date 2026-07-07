@@ -2,7 +2,7 @@
 id: case-doris-2014-music-streaming-prediction
 title: 案例：2014年预判音乐流媒体趋势
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-07-08'

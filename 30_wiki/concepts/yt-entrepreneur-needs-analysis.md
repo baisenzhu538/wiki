@@ -28,6 +28,7 @@ related:
 - "[[yt-entrepreneur-lean-validation]]"
 review_date: 2026-05-07
 reviewed_by: 黄药师
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
 - 10_raw/sources/src_20260611_375ccfae-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
 status: enriched

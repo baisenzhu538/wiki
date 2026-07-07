@@ -12,6 +12,7 @@ updated_at: 2026-06-29
 author: 欧阳锋
 reviewed_by: 欧阳锋
 review_date: 2026-06-29
+review_notes: ⚠️ 补审标记（2026-07-08）：原为self-review，违反L0铁律#4。欧阳锋已读内容无重大问题。正式审查待王语嫣方向确认。
 confidence: 0.85
 trust_level: high
 source_refs:

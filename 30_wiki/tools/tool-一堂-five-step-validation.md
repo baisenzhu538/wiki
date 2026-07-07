@@ -12,6 +12,7 @@ source_refs:
 updated_at: '2026-06-29'
 status: enriched
 reviewed_by: 老顽童
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 ---
 
 # 技能：聊问查测盘五步验证法

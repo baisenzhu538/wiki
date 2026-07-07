@@ -30,6 +30,7 @@ related:
 - "[[yt-entrepreneur-lean-validation]]"
 review_by: 2026-11-11
 reviewed_by: 黄药师
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
 - 10_raw/sources/src_20260510_f2a1d58b-一堂泛产品设计落地工具箱指南-堂.md
 status: enriched

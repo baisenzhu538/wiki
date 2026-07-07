@@ -46,7 +46,7 @@ def parse_frontmatter(text: str) -> dict | None:
         return None
 
 
-def scan_violations(fix: bool = False) -> list[dict]:
+def scan_violations(fix: bool = False, tag_historical: bool = False, fix_review_date: bool = False) -> list[dict]:
     """扫描 30_wiki/ 下所有卡片，返回违规列表。"""
     violations = []
     for f in sorted(WIKI_DIR.rglob("*.md")):
@@ -66,6 +66,7 @@ def scan_violations(fix: bool = False) -> list[dict]:
         reviewed_by = str(fm.get("reviewed_by", "")).strip()
         status = str(fm.get("status", "")).strip()
         review_date = str(fm.get("review_date", "")).strip()
+        updated_at = str(fm.get("updated_at", "")).strip()
         rel = str(f.relative_to(WIKI))
 
         issues = []
@@ -76,21 +77,37 @@ def scan_violations(fix: bool = False) -> list[dict]:
 
         # 2. 基建角色审卡
         if reviewed_by in NON_REVIEWERS:
-            issues.append(("NON_REVIEWER", f"reviewed_by={reviewed_by}（非审查角色）"))
+            if tag_historical:
+                _add_review_notes(f, text, card_id)
+                issues.append(("TAGGED_HISTORICAL", f"reviewed_by={reviewed_by} → 已标历史遗留"))
+            else:
+                issues.append(("NON_REVIEWER", f"reviewed_by={reviewed_by}（非审查角色）"))
 
         # 3. reviewed_by 是占位符（未完成审查）
         if reviewed_by in ("待审", "pending", "src_unknown", ""):
             pass  # 正常——卡片还未被审查
         elif reviewed_by and status == "enriched":
             if fix and reviewed_by in VALID_REVIEWERS:
-                _fix_status(f, text, card_id, "reviewed")
+                _fix_field(f, text, card_id, "status", "reviewed")
                 issues.append(("STATUS_FIXED", f"enriched→reviewed（reviewed_by={reviewed_by}）"))
             else:
                 issues.append(("STATUS_STALE", f"status=enriched 但 reviewed_by={reviewed_by}"))
 
         # 4. reviewed_by 存在但 review_date 缺失
         if reviewed_by and reviewed_by not in ("待审", "pending", "src_unknown", "") and not review_date:
-            issues.append(("NO_REVIEW_DATE", f"reviewed_by={reviewed_by} 但 review_date 缺失"))
+            if fix_review_date and reviewed_by == "欧阳锋" and status in ("reviewed",):
+                # 欧阳锋裁定：review_date = updated_at
+                date_val = updated_at[:10] if updated_at else ""
+                if date_val:
+                    _fix_field(f, text, card_id, "review_date", date_val)
+                    issues.append(("REVIEW_DATE_FIXED", f"review_date={date_val}（取自 updated_at）"))
+                else:
+                    _fix_field(f, text, card_id, "review_date", datetime.now().strftime("%Y-%m-%d"))
+                    issues.append(("REVIEW_DATE_FIXED", f"review_date=今天（无 updated_at）"))
+            elif fix_review_date and reviewed_by == "欧阳锋" and status in ("draft", "enriched"):
+                pass  # 草稿/未审查状态的卡不补日期
+            else:
+                issues.append(("NO_REVIEW_DATE", f"reviewed_by={reviewed_by} 但 review_date 缺失"))
 
         if issues:
             violations.append({
@@ -105,15 +122,38 @@ def scan_violations(fix: bool = False) -> list[dict]:
     return violations
 
 
-def _fix_status(path: Path, text: str, card_id: str, new_status: str):
-    """将 frontmatter 中的 status 字段改为 new_status。"""
+def _fix_field(path: Path, text: str, card_id: str, field: str, value: str):
+    """修改 frontmatter 中的指定字段。"""
     parts = text.split("---", 2)
     if len(parts) < 3:
         return
     fm_text = parts[1]
-    # 替换 status 行
     import re
-    new_fm = re.sub(r"^status:\s*.+$", f"status: {new_status}", fm_text, flags=re.MULTILINE)
+    new_fm = re.sub(rf"^{field}:\s*.+$", f"{field}: {value}", fm_text, flags=re.MULTILINE)
+    new_text = f"---{new_fm}---{parts[2]}"
+    path.write_text(new_text, encoding="utf-8")
+
+
+HISTORICAL_NOTE = "历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。"
+
+
+def _add_review_notes(path: Path, text: str, card_id: str):
+    """为历史遗留卡片添加 review_notes 字段。"""
+    parts = text.split("---", 2)
+    if len(parts) < 3:
+        return
+    fm_text = parts[1]
+    import re
+    # 如果已有 review_notes，不覆盖
+    if re.search(r"^review_notes:\s*", fm_text, re.MULTILINE):
+        return
+    # 在 reviewed_by 行之后插入 review_notes
+    new_fm = re.sub(
+        r"(^reviewed_by:\s*.+)$",
+        rf"\1\nreview_notes: {HISTORICAL_NOTE}",
+        fm_text,
+        flags=re.MULTILINE,
+    )
     new_text = f"---{new_fm}---{parts[2]}"
     path.write_text(new_text, encoding="utf-8")
 
@@ -149,11 +189,17 @@ def print_report(violations: list[dict]):
 
 def main():
     parser = argparse.ArgumentParser(description="审查完整性审计")
-    parser.add_argument("--fix", action="store_true", help="自动修复 status 不一致")
+    parser.add_argument("--fix", action="store_true", help="自动修复 status 不一致（reviewed_by=欧阳锋 + status=enriched → reviewed）")
+    parser.add_argument("--tag-historical", action="store_true", help="为非审查角色审卡批量加 review_notes 历史遗留标记")
+    parser.add_argument("--fix-review-date", action="store_true", help="补全缺失的 review_date（reviewed_by=欧阳锋 + status=reviewed → review_date=updated_at）")
     parser.add_argument("--json", action="store_true", help="JSON 输出")
     args = parser.parse_args()
 
-    violations = scan_violations(fix=args.fix)
+    violations = scan_violations(
+        fix=args.fix,
+        tag_historical=args.tag_historical,
+        fix_review_date=args.fix_review_date,
+    )
 
     if args.json:
         print(json.dumps({

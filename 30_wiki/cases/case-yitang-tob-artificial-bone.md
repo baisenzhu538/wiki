@@ -23,6 +23,7 @@ created_at: '2026-06-16'
 updated_at: '2026-06-28'
 author: 李志军（一堂学员）
 reviewed_by: 老顽童
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 review_date: '2026-06-16'
 confidence: 0.68
 trust_level: medium

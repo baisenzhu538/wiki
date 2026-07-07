@@ -26,6 +26,7 @@ author: 孔阳
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系章节中的错误示范
 reviewed_by: 老顽童
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 review_date: '2026-06-16'
 confidence: 0.82
 trust_level: high

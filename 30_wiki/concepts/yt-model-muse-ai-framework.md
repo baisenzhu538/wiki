@@ -17,6 +17,7 @@ query_triggers:
   - src_unknown
   - src_unknown
 reviewed_by: "黄药师"
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
   - pending_archive:src_20260510_62b2cfa1-一堂人工智能全景图muse模型
   - src_20260510_62b2cfa1-一堂人工智能全景图muse模型

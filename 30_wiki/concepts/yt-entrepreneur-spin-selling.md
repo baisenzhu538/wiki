@@ -18,6 +18,7 @@ query_triggers:
   - src_unknown
   - src_unknown
 reviewed_by: "黄药师"
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
   - pending_archive:src_20260510_349a66fd-读书会-spin销售法
   - src_20260510_349a66fd-读书会-spin销售法

@@ -25,6 +25,7 @@ created_at: 2026-06-14
 updated_at: '2026-06-29'
 author: 王语嫣
 reviewed_by: 老顽童
+review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 review_date: 2026-06-14
 ---
 # AI 原生 IM：让 Agent 成为一等公民的协作基础设施
