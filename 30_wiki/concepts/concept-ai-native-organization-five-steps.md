@@ -1,62 +1,63 @@
 ---
-
 id: concept-ai-native-organization-five-steps
 type: concept
-component_of: null
+component_of:
 confidence: 0.88
 created_at: 2026-06-09
 difficulty: intermediate
 domain:
-- ai-native
-- management
+  - ai-native
+  - management
 estimated_tokens: 4500
 language: zh-CN
 prerequisites: []
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 diagnostic_signals:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 related:
-  - "[[ocr-一堂y模型steps策略集]]"
-  - "[[concept-harness-cattle-not-pets]]"
-  - "[[concept-X型Y型决策习惯]]"
-  - "[[concept-wanghuan-tacit-knowledge-examples]]"
-  - "[[case-five-step-growth-first-lever]]"
-  - "[[concept-AI时代双三角竞争力]]"
-  - "[[concept-yitang-ai-research-10-assumptions]]"
-  - "[[concept-wanghuan-ai-native-definition]]"
-  - "[[concept-smart-medicine-cabinet-platform-cooperation-validation]]"
-  - "[[concept-wanghuan-power-of-standards]]"
-  - "[[concept-最简单元模型]]"
-  - "[[concept-ai-chair-determines-view]]"
-  - "[[concept-mckinsey-7s]]"
-  - "[[yt-unit-model-concept]]"
-  - "[[case-纪浩-from-zip-to-five-layers]]"
-  - "[[concept-card-index-latest]]"
+  - '[[ocr-一堂y模型steps策略集]]'
+  - '[[concept-harness-cattle-not-pets]]'
+  - '[[concept-X型Y型决策习惯]]'
+  - '[[concept-wanghuan-tacit-knowledge-examples]]'
+  - '[[case-five-step-growth-first-lever]]'
+  - '[[concept-AI时代双三角竞争力]]'
+  - '[[concept-yitang-ai-research-10-assumptions]]'
+  - '[[concept-wanghuan-ai-native-definition]]'
+  - '[[concept-smart-medicine-cabinet-platform-cooperation-validation]]'
+  - '[[concept-wanghuan-power-of-standards]]'
+  - '[[concept-最简单元模型]]'
+  - '[[concept-ai-chair-determines-view]]'
+  - '[[concept-mckinsey-7s]]'
+  - '[[yt-unit-model-concept]]'
+  - '[[case-纪浩-from-zip-to-five-layers]]'
+  - '[[concept-card-index-latest]]'
+  - '[[framework-ai-native-organization-two-modes]]'
+  - '[[tool-open-closed-problem-classifier]]'
+  - '[[concept-token-capital]]'
 reviewed_by: 欧阳锋
 source_refs:
-- 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
+  - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
 status: reviewed
 pipeline:
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 author: unknown
 trust_level: medium
 title: concept ai native organization five steps
 updated_at: '2026-06-17'
-
 ---
 
 # AI原生组织五步搭建法：从罗马军团到自进化有机体

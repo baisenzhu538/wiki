@@ -32,12 +32,13 @@ quality_labels:
   - principle
   - validated
 related:
-  - "[[framework-brand-three-degree]]"
-  - "[[framework-content-business-six-step]]"
-  - "[[tool-shortvideo-six-dimension-deconstruction]]"
-  - "[[case-daxin-team-content-training-camp]]"
-  - "[[case-yitang-goat-milk-channel-partnership]]"
-  - "[[system-kdo-quality-labels]]"
+  - '[[framework-brand-three-degree]]'
+  - '[[framework-content-business-six-step]]'
+  - '[[tool-shortvideo-six-dimension-deconstruction]]'
+  - '[[case-daxin-team-content-training-camp]]'
+  - '[[case-yitang-goat-milk-channel-partnership]]'
+  - '[[system-kdo-quality-labels]]'
+  - '[[case-ai-search-commerce-platform-hedge]]'
 pipeline:
   - "confidence-draft"
 ---

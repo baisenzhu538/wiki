@@ -95,9 +95,10 @@ def _run_review_check(agent: str) -> str:
         rc = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(rc)
         today = datetime.now().strftime("%Y-%m-%d")
-        result = rc.check_agent(agent, today)
-        if result["status"] != "ok":
+        results = rc.check_agent(agent, today)
+        if not results or results[0]["status"] != "ok":
             return "❌ 未复盘"
+        result = results[0]  # 取第一个实例的结果用于自检显示
         g = result.get("grade", "?")
         e = result.get("emoji", "")
         if result.get("retrieval", {}).get("has_discovery"):
@@ -112,8 +113,9 @@ def _run_review_check(agent: str) -> str:
 def cmd_save(args):
     agent = args.agent
     today = datetime.now().strftime("%Y-%m-%d")
+    instance = getattr(args, "instance", "") or ""
     ts = now_iso()
-    session_id = f"{agent}-{today}"
+    session_id = f"{agent}-{today}" + (f"-{instance}" if instance else "")
 
     # 读取复盘内容：优先级 --file > --stdin > --text
     body = ""
@@ -154,13 +156,15 @@ def cmd_save(args):
     # Write 1: Desktop (human-readable)
     desktop_dir = REVIEW_DIR / agent / "daily-context"
     desktop_dir.mkdir(parents=True, exist_ok=True)
-    desktop_path = desktop_dir / f"{today}.md"
+    filename = f"{today}-{instance}.md" if instance else f"{today}.md"
+    desktop_path = desktop_dir / filename
     desktop_path.write_text(content, encoding="utf-8")
 
     # Write 2: Archive (agent-searchable, kdo query can find)
     archive_dir = ARCHIVE_DIR / today
     archive_dir.mkdir(parents=True, exist_ok=True)
-    archive_path = archive_dir / f"{agent}.md"
+    archive_name = f"{agent}-{instance}.md" if instance else f"{agent}.md"
+    archive_path = archive_dir / archive_name
     archive_path.write_text(content, encoding="utf-8")
 
     print(f"✅ 已保存：{desktop_path}")
@@ -202,6 +206,7 @@ def main():
 
     p_save = sub.add_parser("save", help="保存今日上下文")
     p_save.add_argument("--agent", required=True)
+    p_save.add_argument("--instance", default="", help="实例标识（如 hermes/kimi/claude）——多实例 Agent 按实例分文件，避免互相覆盖")
     p_save.add_argument("--text", default="", help="上下文摘要（短内容用；长内容用 --stdin 或 --file）")
     p_save.add_argument("--stdin", action="store_true", help="从标准输入读取复盘内容（管道输入）")
     p_save.add_argument("--file", default="", help="从指定文件读取复盘内容（Agent 先 Write 到此路径）")

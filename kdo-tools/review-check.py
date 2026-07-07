@@ -108,31 +108,46 @@ def check_content_depth(content: str, size: int) -> dict:
     }
 
 
-def check_agent(agent_id: str, today: str) -> dict:
-    """检查单个 Agent 的复盘状态。"""
+def check_agent(agent_id: str, today: str) -> list[dict]:
+    """检查单个 Agent 的复盘状态。返回列表——每个实例一条记录。"""
     cn_name, active = AGENTS.get(agent_id, (agent_id, True))
 
     if not active:
-        return {"agent": agent_id, "cn_name": cn_name, "status": "inactive", "grade": None}
+        return [{"agent": agent_id, "cn_name": cn_name, "status": "inactive", "grade": None}]
 
-    f = REVIEW_DIR / agent_id / "daily-context" / f"{today}.md"
+    agent_dir = REVIEW_DIR / agent_id / "daily-context"
+    if not agent_dir.exists():
+        return [{"agent": agent_id, "cn_name": cn_name, "status": "missing", "grade": None, "emoji": "❌", "size": 0}]
 
-    if not f.exists():
-        return {"agent": agent_id, "cn_name": cn_name, "status": "missing", "grade": None, "emoji": "❌", "size": 0}
+    # 扫描当天所有文件：YYYY-MM-DD.md + YYYY-MM-DD-<instance>.md
+    candidates = sorted(agent_dir.glob(f"{today}*.md"))
+    if not candidates:
+        return [{"agent": agent_id, "cn_name": cn_name, "status": "missing", "grade": None, "emoji": "❌", "size": 0}]
 
-    try:
-        content = f.read_text(encoding="utf-8", errors="ignore")
-        size = f.stat().st_size
-    except Exception:
-        return {"agent": agent_id, "cn_name": cn_name, "status": "error", "grade": None, "emoji": "❌", "size": 0}
+    results = []
+    for f in candidates:
+        instance = ""
+        stem = f.stem  # e.g. "2026-07-08" or "2026-07-08-hermes"
+        if stem != today:
+            instance = stem[len(today) + 1:]  # extract "hermes" from "2026-07-08-hermes"
 
-    depth = check_content_depth(content, size)
-    return {
-        "agent": agent_id,
-        "cn_name": cn_name,
-        "status": "ok",
-        **depth,
-    }
+        try:
+            content = f.read_text(encoding="utf-8", errors="ignore")
+            size = f.stat().st_size
+        except Exception:
+            results.append({"agent": agent_id, "cn_name": cn_name, "status": "error", "grade": None, "emoji": "❌", "size": 0, "instance": instance})
+            continue
+
+        depth = check_content_depth(content, size)
+        results.append({
+            "agent": agent_id,
+            "cn_name": cn_name,
+            "status": "ok",
+            "instance": instance,
+            **depth,
+        })
+
+    return results
 
 
 def print_report(results: list, today: str):
@@ -149,19 +164,20 @@ def print_report(results: list, today: str):
     print(f"Agent 复盘审计 — {today}\n")
 
     for r in results:
+        label = r['agent'] + (f"/{r['instance']}" if r.get('instance') else "")
         if r["status"] == "missing":
-            print(f"  {r['agent']:<28} ❌ 未复盘")
+            print(f"  {label:<32} ❌ 未复盘")
         elif r["status"] == "error":
-            print(f"  {r['agent']:<28} ❌ 读取失败")
+            print(f"  {label:<32} ❌ 读取失败")
         elif r["status"] == "inactive":
-            print(f"  {r['agent']:<28} ⏸️ 非活跃")
+            print(f"  {label:<32} ⏸️ 非活跃")
         elif r["grade"] == "A":
             retrieval_note = " 📚检索有发现" if r.get("retrieval", {}).get("has_discovery") else ""
-            print(f"  {r['agent']:<28} 🟢 A级 ({r['size']}B) — {r['chapter_count']}/10章，盲点≥2且有追问{retrieval_note}")
+            print(f"  {label:<32} 🟢 A级 ({r['size']}B) — {r['chapter_count']}/10章，盲点≥2且有追问{retrieval_note}")
         elif r["grade"] == "B":
             missing_str = f"，缺{'、'.join(r['missing'][:3])}" if r['missing'] else ""
             retrieval_note = " ✅已检索" if r.get("retrieval", {}).get("has_retrieval") else ""
-            print(f"  {r['agent']:<28} 🟡 B级 ({r['size']}B) — {r['chapter_count']}/10章{missing_str}{retrieval_note}")
+            print(f"  {label:<32} 🟡 B级 ({r['size']}B) — {r['chapter_count']}/10章{missing_str}{retrieval_note}")
         else:
             reasons = []
             if r.get('size', 0) < 1500:
@@ -173,7 +189,7 @@ def print_report(results: list, today: str):
             if not r.get("retrieval", {}).get("has_retrieval"):
                 reasons.append("未检索wiki")
             why = "、".join(reasons) if reasons else f"仅{r['size']}B"
-            print(f"  {r['agent']:<28} 🔴 C级 ({r['size']}B) — {why}")
+            print(f"  {label:<32} 🔴 C级 ({r['size']}B) — {why}")
 
     print(f"  {'─' * 60}")
     print(f"  覆盖率：{len(ok)}/{total_active}   A级率：{a_count}/{total_active}   B级以上：{a_count + b_count}/{total_active}")
@@ -202,7 +218,9 @@ def main():
             single_agent = sys.argv[i + 1]
 
     agents_to_check = [single_agent] if single_agent else list(AGENTS.keys())
-    results = [check_agent(a, today) for a in agents_to_check]
+    results = []
+    for a in agents_to_check:
+        results.extend(check_agent(a, today))
 
     if use_json:
         print(json.dumps({"date": today, "results": results}, ensure_ascii=False, indent=2))

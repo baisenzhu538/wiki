@@ -1,13 +1,13 @@
 ---
 id: task_20260708_wangyuyan-ai-outpost-episode2-production
 type: task
-status: in_progress
+status: pending_review
 owner: 王语嫣
 assignee: kimi-code
 reviewer: 欧阳锋
 priority: P1
 created_at: 2026-07-08
-updated_at: '2026-07-08'
+updated_at: '2026-07-07T17:23:54.541403+00:00'
 estimated_cards: 8
 dependencies: []
 source_diagnosis: 60_feedback/diagnosis/diag_20260708_ai-outpost-episode2-nine-layer.md

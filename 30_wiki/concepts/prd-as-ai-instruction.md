@@ -3,43 +3,45 @@ id: prd-as-ai-instruction
 title: PRD文档作为AI可执行指令
 type: tool
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 status: reviewed
 source_refs:
-- 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
+  - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 component_of:
-- src_unknown
+  - src_unknown
 related:
-- "[[course-to-skill-conversion]]"
-- "[[voice-input-doubao]]"
-- "[[structured-ai-workspace]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+  - '[[course-to-skill-conversion]]'
+  - '[[voice-input-doubao]]'
+  - '[[structured-ai-workspace]]'
+  - '[[pending_unknown]]'
+  - '[[pending_unknown]]'
+  - '[[dk-ai-builder-illusion]]'
+  - '[[agent-spec-codex-teammate]]'
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 reviewed_by: 欧阳锋
 pipeline:
-- src_unknown
-- src_unknown
+  - src_unknown
+  - src_unknown
 author: 老顽童
 created_at: '2026-06-15'
 updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-- lens: 流程未固化
-  follow_up: 写一份1页纸的PRD，包含目标+约束+步骤，1小时内完成
-- lens: 标准缺失
-  follow_up: 把标准流程写成PRD，让所有人按PRD执行，执行结果一致率>80%
-- lens: 约束不足
-  follow_up: 把预期流程写成PRD加载给AI，连续3次结果一致
-- lens: 边界不清
-  follow_up: 检查PRD是否包含边界条件：什么时候停止、什么时候转交人类
+  - lens: 流程未固化
+    follow_up: 写一份1页纸的PRD，包含目标+约束+步骤，1小时内完成
+  - lens: 标准缺失
+    follow_up: 把标准流程写成PRD，让所有人按PRD执行，执行结果一致率>80%
+  - lens: 约束不足
+    follow_up: 把预期流程写成PRD加载给AI，连续3次结果一致
+  - lens: 边界不清
+    follow_up: 检查PRD是否包含边界条件：什么时候停止、什么时候转交人类
 ---
 
 # PRD文档作为AI可执行指令
