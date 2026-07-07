@@ -196,7 +196,7 @@ def apply_updates(task_id: str, new_queue_status: str, task_file: Path, **task_u
 def action_claim(task_id: str, instance: str) -> tuple[bool, str]:
     """Claim a queued task for an instance."""
     rows = parse_queue()
-    ok, reason = can_claim(task_id, rows)
+    ok, reason = can_claim(task_id, rows, instance)
     if not ok:
         return False, reason
 
@@ -207,7 +207,7 @@ def action_claim(task_id: str, instance: str) -> tuple[bool, str]:
     with QueueLock("production-queue"):
         # Re-check gate inside lock
         rows = parse_queue()
-        ok, reason = can_claim(task_id, rows)
+        ok, reason = can_claim(task_id, rows, instance)
         if not ok:
             return False, reason
 

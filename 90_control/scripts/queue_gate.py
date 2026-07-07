@@ -83,8 +83,12 @@ def find_blockers(rows: list[dict] | None = None) -> tuple[list[dict], list[dict
     return pending, claimed
 
 
-def can_claim(task_id: str, rows: list[dict] | None = None) -> tuple[bool, str]:
-    """Return (ok, reason)."""
+def can_claim(task_id: str, rows: list[dict] | None = None, instance: str = "") -> tuple[bool, str]:
+    """Return (ok, reason).
+
+    不同实例可以并行领取（Hermes 不堵 Kimi，Kimi 不堵 Claude）。
+    同一实例不能跳队——前方有自己的 claimed 任务时必须等释放。
+    """
     if rows is None:
         rows = parse_queue()
 
@@ -107,24 +111,32 @@ def can_claim(task_id: str, rows: list[dict] | None = None) -> tuple[bool, str]:
     # Find earlier tasks
     pending, claimed = find_blockers(rows)
     earlier_pending = [r for r in pending if r["task_id"] != task_id]
-    earlier_claimed = [r for r in claimed if r["task_id"] != task_id]
 
     if earlier_pending:
         ids = ", ".join(f"#{r['seq']} {r['task_id']}" for r in earlier_pending)
         return False, f"队列前方还有 pending_review 任务未终审：{ids}。必须等它们 reviewed 后才能领取 {task_id}"
 
-    if earlier_claimed:
-        ids = ", ".join(f"#{r['seq']} {r['task_id']} ({r['assignee']})" for r in earlier_claimed)
-        return False, f"队列前方还有 claimed 任务在执行：{ids}。必须等它们释放后才能领取 {task_id}"
+    # claimed 阻塞规则：只有同一实例的 claimed 才阻塞
+    if instance:
+        same_instance_claimed = [
+            r for r in claimed
+            if r["task_id"] != task_id and instance in r.get("assignee", "")
+        ]
+    else:
+        same_instance_claimed = [r for r in claimed if r["task_id"] != task_id]
+
+    if same_instance_claimed:
+        ids = ", ".join(f"#{r['seq']} {r['task_id']}" for r in same_instance_claimed)
+        return False, f"你的实例 {instance} 还有 claimed 任务未释放：{ids}。必须等它们释放后才能领取 {task_id}"
 
     return True, f"任务 {task_id} 可领取"
 
 
-def next_claimable(rows: list[dict] | None = None) -> dict | None:
+def next_claimable(rows: list[dict] | None = None, instance: str = "") -> dict | None:
     if rows is None:
         rows = parse_queue()
     for row in rows:
-        ok, _ = can_claim(row["task_id"], rows)
+        ok, _ = can_claim(row["task_id"], rows, instance)
         if ok:
             return row
     return None
