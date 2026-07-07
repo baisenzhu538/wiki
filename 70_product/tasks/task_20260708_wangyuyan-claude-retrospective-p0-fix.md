@@ -1,13 +1,13 @@
 ---
 id: task_20260708_wangyuyan-claude-retrospective-p0-fix
 type: task
-status: queued
+status: in_progress
 owner: 王语嫣
-assignee: 老顽童
+assignee: kimi-code
 reviewer: 欧阳锋
 priority: P0
 created_at: 2026-07-08
-updated_at: 2026-07-08
+updated_at: '2026-07-07T17:49:27.133950+00:00'
 estimated_files: 10
 dependencies: []
 source_audit: 60_feedback/diagnosis/audit_20260708_wangyuyan-claude-retrospective.md

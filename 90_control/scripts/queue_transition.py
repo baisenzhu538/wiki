@@ -5,13 +5,16 @@ All queue status changes MUST go through this script. Manual edits to
 
 Usage:
     python queue_transition.py claim <task-id> --instance <name>
-    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>]
+    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force]
     python queue_transition.py release <task-id> --instance <name>
     python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C]
 
 Exit codes:
     0 = transition applied
     1 = transition rejected / error
+
+--force: complete 时允许从 queued 直接跳到 pending_review
+        （用于生产已完成但未通过脚本领取的场景）
 """
 
 from __future__ import annotations
@@ -346,12 +349,16 @@ def main() -> int:
     verdict = None
     reviewer = None
     grade = None
+    force = False
 
     i = 2
     while i < len(args):
         if args[i] == "--instance" and i + 1 < len(args):
             instance = args[i + 1]
             i += 2
+        elif args[i] == "--force":
+            force = True
+            i += 1
         elif args[i] == "--evidence" and i + 1 < len(args):
             evidence = args[i + 1]
             i += 2

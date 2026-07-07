@@ -2,7 +2,8 @@
 id: task_20260701_wangyuyan-time-management-domain-orchestration
 title: 王语嫣任务编排：时间管理域卡片化与升级
 type: task
-status: reviewed
+status: closed_merged
+merged_to: 70_product/tasks/task_20260701_wangyuyan-time-management-domain-orchestration.md
 priority: P2
 assignee: kimi
 collaborators:
@@ -10,7 +11,7 @@ collaborators:
 - 欧阳锋（终审）
 - 洪七公（OCR + VLM 预处理已完成）
 created_at: 2026-07-01
-updated_at: '2026-07-01T16:50:06.708646+00:00'
+updated_at: '2026-07-08T00:00:00+00:00'
 reviewer: 欧阳锋
 dependencies:
 - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
@@ -22,12 +23,13 @@ source_refs:
 - 00_inbox/时间管理/_processed/vlm_summary.json
 - 30_wiki/concepts/yt-personal-time-management.md
 related:
-- - - yt-personal-time-management
-- - - case-ai-time-management-tiered-growth
-- - - yitang-domain-digest
+  - yt-personal-time-management
+  - case-ai-time-management-tiered-growth
+  - yitang-domain-digest
 reviewed_by: 欧阳锋
 review_date: '2026-07-01'
 ---
+> 本任务单已合并至 `70_product/tasks/task_20260701_wangyuyan-time-management-domain-orchestration.md`，请勿以此版为准。
 
 # 王语嫣任务编排：时间管理域卡片化与升级
 
