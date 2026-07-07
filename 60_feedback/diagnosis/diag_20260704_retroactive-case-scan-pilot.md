@@ -6124,3 +6124,139 @@ source_refs:
 - 段落长度：40-400 中文字符。
 - 评级规则：A=含数字+决策词+结果词+主体；B=含其中两项；C=仅触发信号。
 - 可锚定卡片：基于候选段落与现有 30_wiki 卡片标题/别名/查询触发词的词汇重叠度排序。
+
+---
+
+## 附录 A：Top A 级候选案例卡骨架（18 + 2 扩展项）
+
+> 本附录为已标记的 A 级候选提供统一案例卡出卡骨架。具体段落原文、来源行号与可锚定卡片已在正文中逐条列出；以下按域汇总，方便批量生产时直接套用。
+
+### A.1 统一 case 卡骨架模板
+
+```markdown
+---
+id: case-<domain>-<short-label>
+type: case
+domain: <domain>
+source_refs:
+- <source_file_path>
+related:
+- <anchor_card_1>
+- <anchor_card_2>
+---
+
+# <一句话案例标题>
+
+## 案例背景
+- 主体：<公司/人物/场景>
+- 决策/问题：<当时面对什么关键决策或问题>
+- 约束：<时间、资源、信息、组织约束>
+
+## 关键动作
+1. <动作 1：诊断/分析>
+2. <动作 2：假设/方案>
+3. <动作 3：验证/执行>
+
+## 结果/教训
+- <可量化结果，若原文未提供则标注为「课程/讲师陈述，待验证」>
+- <关键教训或反直觉点>
+
+## 可迁移的暗知识
+- <抽象为可复用判断或 SOP>
+
+## When NOT to Use
+- <不适用场景 1>
+- <不适用场景 2>
+
+## 自攻击
+- <这个案例是否被过度美化？>
+- <缺失哪些反方信息？>
+- <如果重来一次，哪些动作可能无效？>
+```
+
+### A.2 科学决策域 A 级候选（9 项）
+
+| # | 候选 ID | 来源文件 | 主题 | 建议 case 卡标题 | 可锚定卡片 |
+|---|---------|----------|------|------------------|------------|
+| 1 | 科学决策-001 | ROI决策实践实操课口述05.txt | 供应商询价 vs 雇人成本 | case-scientific-decision-outsourcing-vs-hiring | yt-growth-channel-roi |
+| 2 | 科学决策-004 | 审美拉升01口述.txt | 全员涨薪 20% 的 ROI 测算 | case-scientific-decision-company-wide-raise-roi | tool-yitang-user-interview-5steps |
+| 3 | 科学决策-005 | ROI决策实践实操课口述05.txt | 内部 ROI 决策案例复盘 | case-scientific-decision-internal-roi-review | yt-growth-channel-roi |
+| 4 | 科学决策-009 | ROI决策实践实操课口述05.txt | 调 ranking 自动化选 top 20/30 | case-scientific-decision-ranking-automation | case-yitang-topcity-growth-flywheel |
+| 5 | 科学决策-011 | ROI决策深度实操课口述03.txt | 休息时间压缩的 ROI 估算 | case-scientific-decision-rest-time-roi | case-gym-membership-formula |
+| 6 | 科学决策-012 | ROI决策高度实操课口述04.txt | 线下课成本与定价决策 | case-scientific-decision-offline-course-pricing | tool-科学决策关键训练清单 |
+| 7 | 科学决策-013 | AI协助决策行动营口述06.txt | AI 辅助决策行动营实例 | case-scientific-decision-ai-assisted-decision | framework-yitang-ai-decision-workflow |
+| 8 | 科学决策-014 | ROI决策深度实操课口述03.txt | 深度决策中的反直觉点 | case-scientific-decision-depth-decision-pitfall | master-decision-hygiene |
+| 9 | 科学决策-016 | ROI决策宽度实操课口述02.txt | 宽度决策中的多方案比较 | case-scientific-decision-width-decision-comparison | framework-yitang-decision-scope |
+
+### A.3 泛产品设计域 A 级候选（2 项）
+
+| # | 候选 ID | 来源文件 | 主题 | 建议 case 卡标题 | 可锚定卡片 |
+|---|---------|----------|------|------------------|------------|
+| 1 | 泛产品设计-001 | 一堂-泛产品设计课程-口述.txt | 一淘营销工具项目背景分析 | case-general-product-yitao-marketing-tool | yt-product-kernel-canvas |
+| 2 | 泛产品设计-002 | 一堂-泛产品设计课程-口述.txt | 教研 top 1/3/5 筛选机制 | case-general-product-course-selection-mechanism | yt-growth-channel-roi |
+
+### A.4 战略域 A 级候选（7 项）
+
+| # | 候选 ID | 来源文件 | 主题 | 建议 case 卡标题 | 可锚定卡片 |
+|---|---------|----------|------|------------------|------------|
+| 1 | 战略-001 | 1113冉鹏讲战略...智能速览_ocr.md | 公司当前现状回顾 | case-strategy-ranpeng-current-state-review | framework-strategy-business-design |
+| 2 | 战略-004 | 冉鹏PPT截图/..._222_vlm_desc.md | 撤退型布局 2：去除 | case-strategy-ranpeng-retreat-remove | framework-strategy-brm |
+| 3 | 战略-006 | 冉鹏PPT截图/..._254_vlm_desc.md | 撤退型布局 2：剥离非核心 | case-strategy-ranpeng-retreat-divest | framework-strategy-blm |
+| 4 | 战略-007 | 冉鹏PPT截图/..._229_vlm_desc.md | 洞察力修炼实践框架 | case-strategy-ranpeng-insight-practice | yt-personal-deliberate-practice |
+| 5 | 战略-010 | 冉鹏PPT截图/..._222_vlm_desc.md | 优购网案例背景 | case-strategy-ranpeng-yougou-background | framework-yitang-sales-incentive-6d |
+| 6 | 战略-013 | 冉鹏PPT截图/..._253_vlm_desc.md | 撤退型布局 1：出售 | case-strategy-ranpeng-retreat-sell | case-strategy-m-brand-profit-model |
+| 7 | （扩展）战略 `这是一张来自True-4ee507bf` | 冉鹏PPT截图/..._253_vlm_desc.md | True North 撤退型布局 1 出售 | case-strategy-truenorth-retreat-sell | case-strategy-practice-ranpeng-crossborder |
+| 8 | （扩展）战略 `这是一张TrueNor-546c5a12` | 冉鹏PPT截图/..._265_vlm_desc.md | True North 突破型布局 3 | case-strategy-truenorth-breakthrough-layout | yt-tool-ai-ppt-maker |
+
+---
+
+## 附录 B：九层深挖结构（本试点方法层面的诊断）
+
+> 以下九层深挖针对「已消化素材案例卡补扫」这一**方法/流程**本身，而非单个候选案例。
+
+| 层级 | 问题 | 本试点结论 |
+|------|------|------------|
+| L1 业务公式 | 输入 → 处理 → 输出是什么？ | 输入：已处理文本（口述/笔记/ocr/vlm_desc）；处理：信号词扫描 + 段落评级 + 卡片锚定；输出：A/B/C 候选列表与 case 卡骨架 |
+| L2 假设审计 | 哪些假设最敏感？ | ① 信号词能覆盖大部分案例；② 段落长度 40-400 字最优；③ 词汇重叠度能衡量锚定质量；④ A 级候选可直接出卡 |
+| L3 边界 | 合规/适用边界？ | 不修改原文；不新建未经审核的卡片；仅作为 case 候选清单供人工终审 |
+| L4 失败模式 | 流程会怎么失效？ | 见附录 C「失败模式 / When NOT to Use」 |
+| L5 隐性成本 | 补扫成本？ | 人工复核 A 级候选耗时；大量 B 级候选可能稀释注意力；case 卡生产需额外素材回填 |
+| L6 执行能力 | 谁能执行？ | 需熟悉 KDO 卡片体系的 Agent/人；纯自动化会误判语境 |
+| L7 市场情绪 | 是否追热点？ | 低；扫描的是历史已处理素材，非追逐新热点 |
+| L8 边界案例 | 哪些看起来能做其实不能？ | 把 VLM 描述当原创观点、把 PPT 截图 OCR 当一手案例、把讲师口述当可验证事实 |
+| L9 决策框架 | Go / No-go？ | Go：A 级候选经人工复核后出卡；No-go：B/C 候选无人工复核直接进入生产 |
+
+---
+
+## 附录 C：失败模式 / When NOT to Use
+
+### C.1 失败模式
+
+| 失败模式 | 触发条件 | 后果 | 防御动作 |
+|----------|----------|------|----------|
+| **信号词误报** | 讲师随口举例被当成正式案例 | 候选质量低，浪费复核时间 | 结合段落长度、数字、决策词、结果词综合评级 |
+| **来源错位** | VLM 描述或 OCR 文本被当成原始口述 | 案例失真，引用链断裂 | 优先锚定口述/笔记原文；VLM/OCR 仅作辅助 |
+| **锚定过度** | 为了匹配现有卡而强行关联 | 案例与卡片主题不符 | 设置重叠度阈值，低于阈值标「暂无高置信度匹配」 |
+| **A 级迷信** | 只看 A 级，忽略 B 级中的高价值长案例 | 遗漏需要组合加工的素材 | 保留 B 级作为「候选池」，人工二次筛选 |
+| **批量出卡失控** | 把 18 个 A 级候选全部直接生产 | 卡片质量参差不齐，知识库膨胀 | 分优先级：科学决策 9 → 泛产品 2 → 战略 7，分批终审 |
+| **案例去语境化** | 只提取段落，不保留前后决策链 | 案例变成孤立 anecdote | case 卡必须包含背景、关键动作、结果/教训三段 |
+
+### C.2 When NOT to Use
+
+1. **素材未经转录/处理**：原始视频、音频、未 OCR 图片不能直接扫描。
+2. **目标不是生产 case 卡**：如果需要概念卡或暗知识卡，应换用其他诊断流程。
+3. **缺少可锚定卡片库**：若现有 KDO 卡片覆盖不足，锚定结果无意义。
+4. **对来源真实性有争议**：口述案例、讲师自述应标注为「课程案例/待验证」，不能作为独立外部证据。
+5. **期望完全自动化**：当前流程需要人工复核 A 级候选与 case 卡终审。
+
+---
+
+## 附录 D：待验证声明与外部引用
+
+- 所有口述案例中的数字、结果均来自一堂课程素材，未经过第三方独立验证，应标注为 `待验证` 或 `课程主张`。
+- PPT 截图 OCR/VLM 描述来自冉鹏战略课课件，如用于 case 卡正文，需核对原始课件上下文。
+- 涉及 True North Consulting 的幻灯片内容，商业案例细节应视为教学示例，非公开可验证企业数据。
+
+---
+
+*补全记录：2026-07-08 老顽童补全 source_refs、九层深挖结构、失败模式 / When NOT to Use、案例卡骨架。*
