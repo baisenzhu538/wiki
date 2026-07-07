@@ -112,7 +112,7 @@ Leo 觉得自己很冤："我执行力很强，该干的活都干了。就是需
 
 ### 问题归类
 
-对照 [[framework-yitang-project-plan-design|项目方案设计框架]] 的「定方案三段论」：
+对照 [[framework-yitang-project-plan-design]] 的「定方案三段论」：
 
 | 三段论步骤 | Leo 是否执行 | 后果 |
 |:---|:---|:---|
@@ -146,7 +146,7 @@ Leo 觉得自己很冤："我执行力很强，该干的活都干了。就是需
 - ❌ "提高转化率" → ✅ "Demo 预约按钮点击率比旧版提升 20% 以上（埋点验证）"
 - ❌ "符合公司风格" → ✅ "对齐公司 VI 规范文档（编号 xxx），使用规定的色板、字体、Logo 规范"
 
-用 [[tool-yitang-project-plan-canvas|项目方案画布]] 把这些信息结构化，形成一页纸的方案概要。
+用 [[tool-yitang-project-plan-canvas]] 把这些信息结构化，形成一页纸的方案概要。
 
 ### 第三段：关键路径（投入 0.5 天）
 
@@ -169,7 +169,7 @@ Leo 觉得自己很冤："我执行力很强，该干的活都干了。就是需
 
 | 节点 | 当时发生了什么 | Leo 当时应该做什么 | 如果做了会怎样 |
 |:---|:---|:---|:---|
-| **决策点 ①** 接到任务时 | Leo 直接把老板的 8 条想法原样转给设计师 | 先花 2 天做背景分析：问老板要 VI 文档、搜竞品官网、列资产清单。用 [[framework-yitang-project-plan-design\|定方案框架]] 形成方案草稿 | 设计师拿到的不再是 8 条孤立指令，而是一份包含风格方向、竞品参考、VI 约束的设计 Brief |
+| **决策点 ①** 接到任务时 | Leo 直接把老板的 8 条想法原样转给设计师 | 先花 2 天做背景分析：问老板要 VI 文档、搜竞品官网、列资产清单。用 [[framework-yitang-project-plan-design\]] 形成方案草稿 | 设计师拿到的不再是 8 条孤立指令，而是一份包含风格方向、竞品参考、VI 约束的设计 Brief |
 | **决策点 ②** 第一次给反馈时 | 设计师出图后 Leo 说"文案我没想清楚，你改一版" | 发现问题不在设计而在内容，立刻暂停视觉设计，先和内部把文案、信息架构定下来，再让设计师继续 | 避免设计师浪费 5 天在一个文案还没定的设计稿上 |
 | **决策点 ③** 觉得可以给老板看之前 | Leo 自己觉得不错了，才第一次给老板看 | 在 M1（设计方向确认）阶段就让老板从 3 组 Mood Board 里选方向并签字。之后每个里程碑都经老板确认 | 不会出现"三版全推翻、设计师要跳楼"的终局——方向是老板自己选的 |
 
@@ -206,11 +206,11 @@ Leo 觉得自己很冤："我执行力很强，该干的活都干了。就是需
 
 ## 8. 扩展阅读
 
-- [[framework-yitang-project-plan-design|项目方案设计框架]]：定方案三段论的完整方法论
-- [[tool-yitang-project-plan-canvas|项目方案画布]]：一页纸结构化方案概要工具
-- [[skill-yitang-project-spiral-thinking|螺旋式思维]]：如何在项目早期低成本验证方案方向
-- [[framework-yitang-project-breakdown|项目拆解框架]]：从方案到可执行工作包的拆解方法
-- [[framework-yitang-project-execution|项目执行框架]]：签字画押后的执行阶段最佳实践
-- [[framework-yitang-project-retrospective|项目复盘框架]]：失败后如何体系化复盘
-- [[dk-truman-document-is-real-project-is-fake|暗知识：文档即项目]]：为什么方案文档本身就是项目核心产出
-- [[yt-management-project-management|项目管理（概念）]]：项目管理五阶段（启→定→拆→执→结）完整体系
+- [[framework-yitang-project-plan-design]]：定方案三段论的完整方法论
+- [[tool-yitang-project-plan-canvas]]：一页纸结构化方案概要工具
+- [[skill-yitang-project-spiral-thinking]]：如何在项目早期低成本验证方案方向
+- [[framework-yitang-project-breakdown]]：从方案到可执行工作包的拆解方法
+- [[framework-yitang-project-execution]]：签字画押后的执行阶段最佳实践
+- [[framework-yitang-project-retrospective]]：失败后如何体系化复盘
+- [[dk-truman-document-is-real-project-is-fake]]：为什么方案文档本身就是项目核心产出
+- [[yt-management-project-management]]：项目管理五阶段（启→定→拆→执→结）完整体系
