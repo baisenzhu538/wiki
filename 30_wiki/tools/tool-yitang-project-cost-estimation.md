@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-project-cost-estimation
 title: 项目成本估算三维度清单
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

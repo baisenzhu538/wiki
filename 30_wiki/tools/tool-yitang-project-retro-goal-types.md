@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-project-retro-goal-types
 title: 项目复盘目标类型选择清单
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

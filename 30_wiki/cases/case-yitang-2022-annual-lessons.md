@@ -1,8 +1,8 @@
----
+﻿---
 id: case-yitang-2022-annual-lessons
 title: 案例：一堂2022初五大课复盘——用四步闭环管理一堂自己的D级战略项目
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

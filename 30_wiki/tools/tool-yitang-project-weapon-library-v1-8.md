@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-project-weapon-library-v1-8
 title: 项目管理武器库V1.8入口索引卡
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

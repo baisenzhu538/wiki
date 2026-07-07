@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-project-change-workflow
 title: 项目变更处理三步工作流
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

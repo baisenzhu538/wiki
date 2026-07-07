@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-project-comm-matrix
 title: 项目沟通方式四象限选择矩阵
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

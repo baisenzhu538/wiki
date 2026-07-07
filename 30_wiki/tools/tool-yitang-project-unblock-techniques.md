@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-project-unblock-techniques
 title: 让卡点更平滑的六种推进手段
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

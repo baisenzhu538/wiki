@@ -1,8 +1,8 @@
----
+﻿---
 id: case-yitang-leo-website-redesign
 title: 案例：Leo 官网改版失败——跳过定方案，用设计师当人肉方案探索工具
 type: case
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

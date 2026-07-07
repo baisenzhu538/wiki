@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-project-comm-frequency
 title: 不同沟通频次管理手段速查表
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

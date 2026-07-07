@@ -1,9 +1,9 @@
----
+﻿---
 id: dk-yitang-project-overmanagement-vs-bare-run
 title: 过度管理 vs 裸跑的平衡暗知识：匹配工具复杂度与项目复杂度
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 domain:
 - yitang
 - management

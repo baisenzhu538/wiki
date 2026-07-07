@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-project-communication-plan
 title: 项目沟通计划表模板
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

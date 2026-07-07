@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-project-risk-discovery
 title: 项目常见风险发现七维度清单
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

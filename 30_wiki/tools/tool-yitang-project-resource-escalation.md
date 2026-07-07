@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-project-resource-escalation
 title: 向上要资源的七种类型速查
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07

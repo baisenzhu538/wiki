@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-project-progress-tracking
 title: 项目进度跟进手段选择清单
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07
