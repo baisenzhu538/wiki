@@ -76,11 +76,11 @@ def scan_cards(root: Path) -> list[dict]:
         fm["_size"] = len(text)
         # Parse date
         for dk in ["created_at", "updated_at"]:
-            if dk in fm:
+            if dk in fm and isinstance(fm[dk], str):
                 try:
                     fm[dk] = datetime.fromisoformat(fm[dk].replace("Z", "+00:00"))
                 except (ValueError, TypeError):
-                    pass
+                    fm[dk] = None
         cards.append(fm)
     return cards
 
@@ -114,10 +114,10 @@ def build_snapshot(cards: list[dict], days: int = 2) -> str:
     for c in cards:
         created = c.get("created_at")
         updated = c.get("updated_at")
-        # Normalize to naive for comparison
-        if created and created.tzinfo:
+        # Normalize to naive for comparison (skip if parse failed and value is still str)
+        if created and isinstance(created, datetime) and created.tzinfo:
             created = created.replace(tzinfo=None)
-        if updated and updated.tzinfo:
+        if updated and isinstance(updated, datetime) and updated.tzinfo:
             updated = updated.replace(tzinfo=None)
         if (created and created >= cutoff) or (updated and updated >= cutoff):
             recent.append(c)
