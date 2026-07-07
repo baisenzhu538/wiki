@@ -4,9 +4,26 @@ title: 已消化素材案例卡补扫试点报告（科学决策 / 泛产品设�
 type: diagnosis
 status: enriched
 author: 老顽童
-reviewed_by: pending
+reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: '2026-07-08T02:45:00+00:00'
+source_refs:
+- 00_inbox/科学决策/一堂-科学决策-AI协助决策行动营口述06.txt
+- 00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt
+- 00_inbox/科学决策/一堂-科学决策-ROI决策宽度实操课口述02.txt
+- 00_inbox/科学决策/一堂-科学决策-ROI决策深度实操课口述03.txt
+- 00_inbox/科学决策/一堂-科学决策-ROI决策高度实操课口述04.txt
+- 00_inbox/科学决策/一堂-科学决策-审美拉升01口述.txt
+- 00_inbox/科学决策/一堂-科学决策-ROI决策评估画布-案例04_vlm_desc.md
+- 00_inbox/泛产品设计/一堂-泛产品设计实操-口述.txt
+- 00_inbox/泛产品设计/一堂-泛产品设计实操-笔记.txt
+- 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
+- 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt
+- 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
+- 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
+- 00_inbox/战略专题/1113冉鹏讲战略-converted.mov_智能速览_ocr.md
+- 00_inbox/战略专题/冉鹏PPT截图/
 ---
 
 # 已消化素材案例卡补扫试点报告
