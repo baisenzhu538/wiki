@@ -1,5 +1,5 @@
 ---
-updated: 2026-07-01
+updated: 2026-07-07
 owner: 王语嫣
 audience: 欧阳锋 / 黄药师 / 老顽童 / 洪七公 / 段王爷
 ---
@@ -46,6 +46,7 @@ audience: 欧阳锋 / 黄药师 / 老顽童 / 洪七公 / 段王爷
 | 决策域 domain digest | 黄药师 | 🟡 待启动 | 1 张索引卡 |
 | 需求分析域 domain digest | 黄药师 | 🟡 待启动 | 1 张索引卡 |
 | 五步法子域 domain digest | 黄药师 | 🟡 待启动 | 1 张索引卡 |
+| 🆕 管项目域卡片化与 Agent 化 | 王语嫣编排 / 老顽童生产 / 欧阳锋审查 | 🟢 活跃 | 12 张卡（concept 重写 + 4 framework + 4 tool + 1 skill + 1 workflow + 1 agent-spec）；反向更新 ≥14 张已有卡；详见 `diag_20260707_yitang-project-management-nine-layer.md` |
 
 ---
 
@@ -107,6 +108,7 @@ audience: 欧阳锋 / 黄药师 / 老顽童 / 洪七公 / 段王爷
 | 2026-07-05 | 🆕 诊断前置操作：操作演示信号词扫描 | Truman 说"我给你演示一下""举个例子""这是我真实的"的段落是最高优先级操作资产。写进王语嫣 context 铁律。处理口述稿前先扫信号词，再读内容 |
 | 2026-07-05 | 🆕 口述稿操作段落提取三原则 | Before-After 对照 + 案例特有 vs 通用可复用判断 + 可复用→抽象成 template/skill/workflow。由黄药师写入王语嫣 context |
 | 2026-07-05 | 🆕 Agent 蒸馏框架：核心词+data pack 解耦 | 基于 Truman L5025-5078 的 YAI 架构洞察 + 全网调研。明天蒸馏 YAI 对话时第一件事拆两层。核心词=人类三角（审美+体系），data pack=AI三角（数据+场景+基本功） |
+| 2026-07-07 | 🆕 管项目域九层深挖完成并入队 | 素材来自 `00_inbox/管项目`（5 口述稿 + 5 笔记 + 69 图）。产出 12 张卡（concept 重写 + 4 framework + 4 tool + 1 skill + 1 workflow + 1 agent-spec），反向更新 ≥14 张已有卡；项目管理助手 agent-spec 为必需产出。任务单 #131 |
 
 ---
 
