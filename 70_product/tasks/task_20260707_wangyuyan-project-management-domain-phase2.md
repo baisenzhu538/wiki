@@ -19,6 +19,7 @@ source_diagnosis: 60_feedback/diagnosis/diag_20260707_yitang-project-management-
 > 来源：`00_inbox/管项目`（5 口述稿 + 5 笔记 + 69 图）
 > 前置：#131 管项目域 P1 核心 13 张卡 reviewed 后启动
 > 目标：补全案例、工具入口、L5/L6 暗知识，并将 69 张图中可直接转化的 checklist/小抄批量卡片化。
+> 深挖依据：`60_feedback/diagnosis/diag_20260707_project-management-annotation-divergence-deep-dive.md`
 
 ---
 
@@ -30,6 +31,9 @@ source_diagnosis: 60_feedback/diagnosis/diag_20260707_yitang-project-management-
 4. 新建 1 张 dk 卡：`dk-yitang-project-overmanagement-vs-bare-run`（过度管理 vs 裸跑的平衡）。
 5. 批量转化 69 张工具图中可直接卡片化的 checklist/模板/小抄，预计 20-25 张 tool 卡。
 6. 反向更新 #131 产出的骨架卡与已有管理域卡片的 `related`。
+7. 如 #131 的 `framework-yitang-project-plan-design` / `tool-yitang-project-plan-canvas` 装不下定方案口述稿 L604-L642 和 L840-L866 两段操作演示，拆出 1-2 张 companion case 卡。
+8. 统计 #131 五张 framework 卡中的失败模式总数，若 ≥40 条，新建 `framework-yitang-project-failure-mode-index` 或将其纳入武器库索引页。
+9. 为 `framework-yitang-project-abcd-classification` 补全具体例子（图书角/A、官网改版/B-C、创业工具手册/C、马拉松/D）和 go/no-go 条件。
 
 ---
 

@@ -87,6 +87,15 @@ source_diagnosis: 60_feedback/diagnosis/diag_20260707_yitang-project-management-
 | 12 | `workflow-yitang-project-four-step-loop` | workflow | 项目四步闭环工作流 | 定方案→拆计划→管过程→做复盘的触发条件、输入输出、质量门 | 每步含进入/退出标准 |
 | 13 | `agent-spec-project-management-assistant` | agent-spec | 项目管理助手（对话教练版） | 接收项目描述→输出 A/B/C/D 分级+敏感度雷达+三段论草稿+里程碑/RASCI/排期建议+启动会 agenda+复盘画布 | 含 System Prompt、输入门、输出门、TCPR、Few-shot、迭代日志 |
 
+### 3.1 必须显式引用的操作演示段落
+
+老顽童交叉比对时发现口述稿中有两段高价值操作演示，#131 生产时不能仅列入口文件，必须精确引用到行号：
+
+- **定方案口述稿 L604-L642**：把「用户想落地 / 学习效率低 / 缺少营销工具」三个虚问题，用数据、调研、benchmark 论证成「真有问题」的完整演示。必须写入 `framework-yitang-project-plan-design` 和 `tool-yitang-project-plan-canvas` 的 Claims/示例段。
+- **定方案口述稿 L840-L866**：「够评估就好」的 ROI 快速判断演示（教研换外包 / 5 小时换好评 / 四周换 500 万现金流）。必须写入 `framework-yitang-project-plan-design` 的评估三角/ROI 章节，或作为画布中的 Before/After 示例。
+
+如上述两段导致单卡正文超过 400 行，可在 #132 中拆出 companion case 卡。
+
 ---
 
 ## 四、反向更新已有卡片清单
@@ -107,6 +116,8 @@ source_diagnosis: 60_feedback/diagnosis/diag_20260707_yitang-project-management-
 - `yt-personal-time-management`
 - `yt-entrepreneur-unit-model`
 - `yt-management-basic-skills`
+- `tool-科学学习IPO完整清单`（复盘课显式引用 IPO 模型，需回链）
+- `tool-Truman-AI时代IPO模型重构`（同上）
 
 ---
 
@@ -205,7 +216,7 @@ agent-spec 卡内需包含至少 3 个示例：
 5. **第五批**：`framework-yitang-project-retrospective` + `tool-yitang-retrospective-canvas`
 6. **第六批**：`skill-yitang-project-spiral-thinking` + `workflow-yitang-project-four-step-loop`
 7. **第七批**：`agent-spec-project-management-assistant`
-8. **第八批**：反向更新 14 张已有卡片 related
+8. **第八批**：反向更新 16 张已有卡片 related
 
 ---
 
@@ -213,11 +224,12 @@ agent-spec 卡内需包含至少 3 个示例：
 
 1. 13 张目标卡全部 `kdo pre-submit` PASS。
 2. 所有新卡 `related ≥ 7`；agent-spec `related ≥ 10`。
-3. 14 张已有卡完成反向 related 更新，无新增死链。
+3. 16 张已有卡完成反向 related 更新，无新增死链。
 4. 口述稿重复区不得被当作素材引用。
 5. agent-spec 必须包含 System Prompt 模板、输入门、输出门、TCPR 身份、Few-shot 示例、迭代日志、风险与边界。
 6. 每张卡必须包含：Summary、Claims/操作步骤、Constraints & Boundaries、失败模式/常见陷阱、Action Triggers。
-7. 全量产出通过欧阳锋终审。
+7. **数据声明规则**：概念卡和框架卡中所有数字必须标注 `[确认]`/`[假设]`/`[空白]`；没有外部可验证来源的数据不得作为强证据。
+8. 全量产出通过欧阳锋终审。
 
 ---
 
