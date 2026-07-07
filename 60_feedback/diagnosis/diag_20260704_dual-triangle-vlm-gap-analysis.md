@@ -4,6 +4,8 @@ title: 双三角 VLM 素材交叉验证与入库缺口诊断
 type: diagnosis
 status: draft
 created_at: 2026-07-04
+updated_at: '2026-07-07T18:32:49+00:00'
+reviewed_by: 欧阳锋
 source: 00_inbox/人机协作双三角/_processed/ 全部 VLM 文件
 method: 6层交叉验证
 source_refs:

@@ -10,9 +10,9 @@ created_at: 2026-07-02
 updated_at: '2026-07-02T00:00:00+00:00'
 expected_cards: 4
 source_refs:
-- 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-口述.txt
+- 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-口述.txt L132,L148,L151-L160,L190-L207,L212-L227,L260-L284,L320-L384,L462-L469,L474-L499,L518-L522,L642-L646,L681-L715,L758-L761,L772-L887,L960-L967,L994-L1020,L1048-L1058,L1082-L1093,L1119-L1137,L1140-L1177,L1202-L1212,L1218-L1238,L1254-L1256,L1269-L1290
 - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-笔记.txt
-- 00_inbox/yitang-AI club/live81/AI赋能商标设计体系重构 — Live81逐字稿 副本.md
+- 00_inbox/yitang-AI club/live81/AI赋能商标设计体系重构 — Live81逐字稿 副本.md L111-L123,L155-L170,L173-L176,L199-L210,L235-L272,L317-L320,L321-L331,L345-L346,L371-L373,L421-L424,L433-L435,L455,L475,L479-L520,L553-L557,L571-L579,L593,L595-L598,L610-L612,L645-L650,L659-L668,L685-L689,L696-L706,L723,L762,L774-L778
 - 60_feedback/diagnosis/diag_20260702_live81-ai-trademark-design.md
 related:
 - case-live81-ai-trademark-design
@@ -197,6 +197,7 @@ acceptance_verdict: pass
 - [x] 每张卡 related ≥ 5，且至少 2 条跨域。
 - [x] 20 张已有卡的 related 已反向更新。
 - [x] 欧阳锋终审通过。
+- [x] 外部法律/平台/模型主张已标注待验证。
 
 ---
 

@@ -12,8 +12,8 @@ expected_cards: 4
 source_refs:
 - 60_feedback/diagnosis/diag_20260702_vikki-daxin-dark-knowledge-extraction.md
 - 60_feedback/tasks/task_20260702_huangyaoshi-proposal-dark-knowledge-pilot.md
-- 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md
-- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
+- 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md L39,L59,L61,L98-L100,L126,L145,L148,L150,L152,L158,L240,L256,L260,L296
+- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md L79,L113,L196-L198,L244,L246,L250,L252,L254,L439-L441,L551,L625,L645-L647,L704
 related:
 - framework-community-knowledge-production-failure-modes
 - framework-brand-three-degree

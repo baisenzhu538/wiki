@@ -4,7 +4,11 @@ title: "Live81 AI 赋能商标设计：九层深挖 · 跨域桥接诊断"
 type: diagnosis
 status: active
 source: 00_inbox/yitang-AI club/live81/
+source_refs:
+  - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-口述.txt L132,L148,L151-L160,L190-L207,L212-L227,L260-L284,L320-L384,L462-L469,L474-L499,L518-L522,L642-L646,L681-L715,L758-L761,L772-L887,L960-L967,L994-L1020,L1048-L1058,L1082-L1093,L1119-L1137,L1140-L1177,L1202-L1212,L1218-L1238,L1254-L1256,L1269-L1290
+  - 00_inbox/yitang-AI club/live81/AI赋能商标设计体系重构 — Live81逐字稿 副本.md L111-L123,L155-L170,L173-L176,L199-L210,L235-L272,L317-L320,L321-L331,L345-L346,L371-L373,L421-L424,L433-L435,L455,L475,L479-L520,L553-L557,L571-L579,L593,L595-L598,L610-L612,L645-L650,L659-L668,L685-L689,L696-L706,L723,L762,L774-L778
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 created_at: 2026-07-02
 updated_at: 2026-07-02
 related:
@@ -427,5 +431,18 @@ related:
 **预计卡数**：4 张（1 case + 2 tool + 1 dk）+ 20 张已有卡 related 更新
 
 ---
+
+## 十五、外部参考附录（待验证）
+
+以下外部机构/文档为诊断中涉及的法律、平台、模型主张提供可验证来源，当前标注为「待验证」。
+
+| 主张/涉及范围 | 外部来源 | 状态 |
+|:---|:---|:---|
+| 中国商标法律、注册流程、近似查询 | 中国国家知识产权局 https://www.cnipa.gov.cn | 待验证 |
+| 中国商标网上申请、状态查询 | 中国商标网 https://sbj.cnipa.gov.cn | 待验证 |
+| AI 生成图形的版权归属与商用边界 | 美国 Copyright Office guides | URL 待验证/标注 |
+| 即梦 / Midjourney / 豆包等平台商用条款 | Platform official docs | 待验证 |
+
+> 说明：Live81 案例中的法律判断、平台规则、模型条款解读均来自直播口述与课程笔记，最终商用与注册决策需以官方最新文件为准。
 
 *王语嫣 2026-07-02*
