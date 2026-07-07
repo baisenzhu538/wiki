@@ -29,6 +29,7 @@ related:
   - "[[yt-management-basic-skills]]"
   - "[[yt-management-business-formula]]"
   - "[[yt-management-company-culture]]"
+  - "[[tool-yitang-project-kickoff-meeting]]"
 
 ---
 

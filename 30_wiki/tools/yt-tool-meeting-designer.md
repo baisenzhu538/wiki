@@ -246,4 +246,5 @@ Perrow 的核心洞见：复杂系统中，多个组件的交互会产生"不可
     ├── 关联：[[yt-management-goal-management]]（OKR 复盘会）
     ├── 关联：[[yt-management-project-management]]（项目周会）
     └── 关联：[[yt-management-strategy-meeting]]（战略会）
+  - "[[tool-yitang-project-kickoff-meeting]]"
 ```

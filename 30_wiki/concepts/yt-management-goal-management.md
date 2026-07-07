@@ -163,6 +163,7 @@ OKR（Objectives and Key Results）是课程交付的核心工具：
 | 是否有固定 Review 节奏 | 至少双周一次进展讨论 | ☐ |
 
 > 工具卡：[[yt-tool-okr-cycle]] 提供完整的 OKR 周期模板；[[yt-management-business-formula]] 提供从公式推导 KR 的方法。
+  - "[[framework-yitang-project-plan-design]]"
 
 ## Critique
 

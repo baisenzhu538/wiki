@@ -189,6 +189,7 @@ Pfeffer 的核心洞见：**管理工具的"科学感"本身就是一种安慰�
 | 跨域工具 | [[master-decision-hygiene]] | 主域——决策卫生是管理工具有效性的前提 |
 | 姊妹工具箱 | [[yt-model-entrepreneur-map]] | 创业地图工具箱（待建设）——管理域与创业域的交叉在 L4-L5 |
 | 个人基础 | [[yt-model-personal-map]] | 个人修炼地图——L1 管自己的能力是所有管理工具的底层 |
+  - "[[framework-yitang-project-abcd-classification]]"
 
 ### 不要用的场景
 

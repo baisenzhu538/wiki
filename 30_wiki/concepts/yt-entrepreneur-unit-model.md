@@ -222,6 +222,7 @@ author: 老顽童
 | 关联工具 | [[yt-entrepreneur-scientific-method]] | 科学理念，底层世界观 |
 | 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设方法论 |
 | 关联框架 | [[yt-model-entrepreneur-map]] | 创业地图总模型 |
+  - "[[yt-management-project-management]]"
 
 ### 不要用的场景
 

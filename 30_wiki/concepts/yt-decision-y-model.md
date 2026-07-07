@@ -225,3 +225,4 @@ Y模型不是一张「填空就能成功」的模板，而是一套把「相信�
 - [[case-yitang-Y-model-advertising-turnaround]]
 - [[case-yitang-Y-model-seven-applications]]
 - [[agent-native-card-design]]
+  - "[[skill-yitang-project-spiral-thinking]]"

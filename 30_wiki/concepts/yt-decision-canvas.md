@@ -301,6 +301,7 @@ AI在"查"的环节价值最大——作为外部视角补充盲区。但AI输�
 | 所属框架 | [[yt-decision-y-model]] | 画布的底层理论框架 |
 | 关联工具 | [[yt-decision-ai-partner]] | AI辅助填画布的多轮对话流程 |
 | 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证方法论，可与画布配合使用 |
+  - "[[tool-yitang-project-plan-canvas]]"
 | 跨域连接 | business-model-canvas-osterwalder | Y模型决策画布与商业模式画布在"结构化一页纸"设计上同源，但Y模型聚焦决策评估而非商业模式设计 |
 | 跨域连接 | lean-canvas-maurya | 精益画布的问题-解决方案匹配与Y模型宽度区的收益-成本识别在逻辑上互补 |
 | 跨域连接 | empathy-map-design-thinking | 画布宽度区的"列推查"与设计思维同理心地图在"穷尽用户视角"上同源 |

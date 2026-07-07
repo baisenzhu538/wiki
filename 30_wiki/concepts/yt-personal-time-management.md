@@ -141,6 +141,7 @@ source_refs:
 | 关联框架 | [[framework-yitang-five-step-to-time-management]] | 一堂五步法在时间管理场景下的完整桥接；将时间管理从孤立概念升级为跨域方法论实例 |
 | 关联工具 | [[tool-personal-time-audit-loop]] | 个人时间审计与实验循环；把三门模型转化为每周可执行的假设-验证流程 |
 | 关联暗知识 | [[dk-time-management-common-mistakes]] | 时间管理三大反模式（工具迷信、二极管思维、边界模糊）与一堂反打 |
+  - "[[yt-management-project-management]]"
 
 ### 不要用的场景
 

@@ -41,6 +41,7 @@ related:
 # 基本功认知
 
 > 来源：一堂管理必修课「管团队」模块，含认知篇+拆解篇+武器库篇三节系列课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
+  - "[[yt-management-project-management]]"
 
 ## 用一句话讲清楚
 
