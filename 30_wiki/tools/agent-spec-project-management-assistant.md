@@ -1,4 +1,4 @@
----
+﻿---
 id: agent-spec-project-management-assistant
 title: 项目管理助手 Agent（对话教练版）
 type: agent-spec

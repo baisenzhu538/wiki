@@ -15,8 +15,11 @@ source_refs:
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 老顽童
-reviewed_by: 待审
-review_date: '2026-06-19'
+reviewed_by: 欧阳锋
+review_date: '2026-07-08'
+review_verdict: fail
+review_grade: C
+review_notes: 补审。核心框架有价值但 body 大面积 src_unknown（步骤1-4、行动触发器、关联卡片、来源验证），domain 为 src_unknown。退回老顽童返工：补 domain + 清 body 占位符。
 related:
   - "[[ocr-一堂-科学决策-roi决策评估画布]]"
   - "[[tool-ROI决策评估画布]]"

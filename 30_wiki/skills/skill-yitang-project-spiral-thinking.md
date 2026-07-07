@@ -1,4 +1,4 @@
----
+﻿---
 id: skill-yitang-project-spiral-thinking
 title: 项目螺旋思考法：先顶层再细节、先选择再执行、先确认再推进
 type: skill
