@@ -47,6 +47,7 @@ audience: 欧阳锋 / 黄药师 / 老顽童 / 洪七公 / 段王爷
 | 需求分析域 domain digest | 黄药师 | 🟡 待启动 | 1 张索引卡 |
 | 五步法子域 domain digest | 黄药师 | 🟡 待启动 | 1 张索引卡 |
 | 🆕 管项目域卡片化与 Agent 化 | 王语嫣编排 / 老顽童生产 / 欧阳锋审查 | 🟢 活跃 | #131：P1 核心 13 张卡（concept 重写 + 5 framework（含 ABCD）+ 4 tool + 1 skill + 1 workflow + 1 agent-spec）；#132：P2 补产约 30 张卡（case×2 + 武器库入口 + dk + 批量 tool）；反向更新 ≥14 张已有卡；详见 `diag_20260707_yitang-project-management-nine-layer.md` |
+| 🆕 AI前哨站第2集卡片化 | 王语嫣编排 / 老顽童生产 / 欧阳锋审查 | 🟢 活跃 | #133：8 张卡（4 P0 + 4 P1）：AI控制台/Agent平台双形态、Token Capital、品味系统、Builder幻觉、杰文斯悖论、开放/封闭分类器、平台案例、Codex队友agent-spec；反向更新 14 张已有卡；详见 `diag_20260708_ai-outpost-episode2-nine-layer.md` |
 
 ---
 
@@ -109,6 +110,7 @@ audience: 欧阳锋 / 黄药师 / 老顽童 / 洪七公 / 段王爷
 | 2026-07-05 | 🆕 口述稿操作段落提取三原则 | Before-After 对照 + 案例特有 vs 通用可复用判断 + 可复用→抽象成 template/skill/workflow。由黄药师写入王语嫣 context |
 | 2026-07-05 | 🆕 Agent 蒸馏框架：核心词+data pack 解耦 | 基于 Truman L5025-5078 的 YAI 架构洞察 + 全网调研。明天蒸馏 YAI 对话时第一件事拆两层。核心词=人类三角（审美+体系），data pack=AI三角（数据+场景+基本功） |
 | 2026-07-07 | 🆕 管项目域九层深挖完成并入队 | 素材来自 `00_inbox/管项目`（5 口述稿 + 5 笔记 + 69 图）。王语嫣九层深挖后老顽童交叉比对，最终定稿：#131 P1 核心 13 张卡（concept 重写 + 5 framework（含 ABCD）+ 4 tool + 1 skill + 1 workflow + 1 agent-spec），#132 P2 补产约 30 张卡（case×2 + 武器库入口 + L5/L6 dk + 批量 tool）；反向更新 ≥14 张已有卡；项目管理助手 agent-spec 为必需产出 |
+| 2026-07-08 | 🆕 AI前哨站第2集九层深挖完成并入队 | 素材来自 `00_inbox/AI前哨站第2集`（口述稿 + 笔记 + 拆书稿）。完成 13 处外部来源验证（12/13 可确认，1 处「闲庭落木」公众号待确认）。最终定稿 #133：8 张卡（4 P0 + 4 P1），聚焦 AI 原生组织双形态、Token Capital、品味系统、Builder 幻觉；反向更新 14 张已有卡；Codex 队友 agent-spec 默认 TCPR P（Practice）身份 |
 
 ---
 

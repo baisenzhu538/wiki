@@ -112,6 +112,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260704_laowantong-dual-triangle-vlm-case-enrichment | #93 双三角 VLM 案例批量 enrichment 10 张 | reviewed | 欧阳锋 | P1 | `60_feedback/tasks/task_20260704_laowantong-dual-triangle-vlm-case-enrichment.md` | 2026-07-04 终审通过：抽检 3 张 PASS，六要素标注/Critique/Triggers 结构统一 |
 | task_20260707_wangyuyan-project-management-domain-production | 管项目域 P1 核心：13 张卡 + 项目管理助手 agent-spec | queued | 老顽童 | P1 | `70_product/tasks/task_20260707_wangyuyan-project-management-domain-production.md` | 王语嫣九层深挖+老顽童交叉比对后定稿；1 concept 重写 + 5 framework（含 ABCD）+ 4 tool + 1 skill + 1 workflow + 1 agent-spec；新任务入队 #131 |
 | task_20260707_wangyuyan-project-management-domain-phase2 | 管项目域 P2 补产与深挖：约 30 张卡 | queued | 老顽童 | P2 | `70_product/tasks/task_20260707_wangyuyan-project-management-domain-phase2.md` | 2 case + 武器库入口 + L5/L6 dk + 69 张图批量 tool；依赖 #131 reviewed；新任务入队 #132 |
+| task_20260708_wangyuyan-ai-outpost-episode2-production | AI前哨站第2集卡片化：8 张卡（4 P0 + 4 P1） | queued | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-ai-outpost-episode2-production.md` | 王语嫣九层深挖+13处外部来源验证完成；P0：AI控制台/Agent平台双形态、Token Capital、品味系统、Builder幻觉；P1：杰文斯悖论、开放/封闭分类器、平台案例、Codex队友agent-spec；新任务入队 #133 |
 
 ---
 
@@ -119,7 +120,7 @@ Generated: 2026-06-26T21:00:00+00:00
 
 > **当前任务状态见 `production-queue.md`（唯一真相源）。本 dashboard 保留历史任务全景，日常领任务不读这个文件。**
 
-- **Production Queue**: #60-#132；#131 queued / #132 queued（2026-07-07）
+- **Production Queue**: #60-#133；#131 queued / #132 queued / #133 queued（2026-07-08）
 - **Active Tasks**: #131 管项目域 P1 核心（等待老顽童领取）
 - **黄药师**: P-10 跨域模式层完成；管道碎片化清理中
 - **王语嫣**: 任务编排建议书已提交（OSCAR 卡补齐 / external-exploration-sop 补写）
