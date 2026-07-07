@@ -113,7 +113,112 @@ review_date: '2026-07-03'
 
 *王语嫣 2026-07-03*
 
+
 ---
+
+## 附录：Top 7 A 级候选 case 卡骨架（按统一标准校准后）
+
+> 来源：`diag_20260704_retroactive-case-scan-pilot.md` 校准后 A 级清单。
+> 评级标准：A=有完整人物/动作/时间线/决策点/结果，可直接投产为 case 卡；B=有骨架但缺要素；C=只有观点无叙事细节。
+
+### 1. 科学决策-004：全员涨薪 20% 的 ROI 测算
+
+- **建议 case ID**：`case-yitang-salary-raise-roi-decision`
+- **来源**：`00_inbox/科学决策/一堂-科学决策-审美拉升01口述.txt`
+- **锚定卡片**：`yt-decision-y-model`、`tool-科学决策关键训练清单`
+- **骨架**：
+  - Background：公司考虑全员涨薪 20%。
+  - Problem：涨薪成本、员工士气、竞争对手压力均难以量化。
+  - Decision：用 ROI 思维把投入产出和竞争压迫全部折算后决策。
+  - Process：拆解直接成本、 morale 收益、留存价值、竞争对手反应。
+  - Result：决策落地并取得正向结果。
+  - Lessons：模糊决策必须先量化再比较；「感觉应该涨」不能替代测算。
+  - Failure Modes：只算成本不算收益、忽略外部竞争、用平均薪酬代替结构分析。
+
+### 2. 科学决策-009：Top City 负收益消减与自动排名
+
+- **建议 case ID**：`case-yitang-topcity-negative-revenue-elimination`
+- **来源**：`00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt`
+- **锚定卡片**：`case-yitang-topcity-growth-flywheel`
+- **骨架**：
+  - Background：业务版本中存在大量负收益项目。
+  - Problem：人工判断效率低，资源被低效项目占用。
+  - Decision：建立自动排名机制，按收益排序消减负收益项。
+  - Process：先调 top 20/30 阈值，再自动判断、自动排名，滚动消减负收益。
+  - Result：负收益项目被大量消掉，正收益项目得到资源，业务跑通。
+  - Lessons：把决策标准从「我觉得」变成「按排名」；阈值要随业务迭代。
+  - Failure Modes：阈值一成不变、只看绝对收益忽略战略价值、取消后不复盘。
+
+### 3. 科学决策-011：把 2 小时休息压缩为 1 小时的成本收益
+
+- **建议 case ID**：`case-yitang-lunch-break-roi`
+- **来源**：`00_inbox/科学决策/一堂-科学决策-ROI决策深度实操课口述03.txt`
+- **锚定卡片**：`case-gym-membership-formula`
+- **骨架**：
+  - Background：团队午休时间长，可被业务占用。
+  - Problem：休息价值 vs 业务时间成本如何折算。
+  - Decision：把休息变短或边吃饭边讨论业务，测算一节课 5 万元成本。
+  - Process：量化时间成本、休息恢复价值、业务产出增量。
+  - Result：形成可复制的「时间换产出」决策模板。
+  - Lessons：时间成本要用同一单位（钱）才能比较；不要道德化加班。
+  - Failure Modes：忽略长期倦怠、把特例当常态、不考虑个体差异。
+
+### 4. 泛产品设计-001：一淘项目背景与三大难题
+
+- **建议 case ID**：`case-yitang-yitao-kernel-solution`
+- **来源**：`00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt`
+- **锚定卡片**：`yt-product-kernel-canvas`
+- **骨架**：
+  - Background：2020 年底一淘项目启动。
+  - Problem：团队缺少落地工具、学习效率低、缺少营销工具三大难题。
+  - Decision：用产品内核画布把三大难题打包成一揽子解决方案。
+  - Process：问题树梳理 → 内核收敛 → 工具设计 → 验证闭环。
+  - Result：项目方向被统一，为后续落地提供清晰靶点。
+  - Lessons：复杂项目要先对齐「难题清单」，再谈解决方案。
+  - Failure Modes：把症状当问题、方案过度发散、缺少验证标准。
+
+### 5. 泛产品设计-002：top 1/top 3/top 5 筛选打磨
+
+- **建议 case ID**：`case-yitang-panproduct-top-selection`
+- **来源**：`00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt`
+- **锚定卡片**：`yt-model-pan-product-execution-toolkit`
+- **骨架**：
+  - Background：教研内容产出多，资源有限。
+  - Problem：如何在有限时间内选出最值得打磨的 top 内容。
+  - Decision：建立 top 1/top 3/top 5 分层筛选 + 教研听评机制。
+  - Process：个人初选 → 教研集体筛选 → 按 ROI 打磨 top 3 → 最终锁定 top 1。
+  - Result：内容质量与产出效率达到平衡。
+  - Lessons：筛选机制本身就是质量杠杆；先分层再打磨。
+  - Failure Modes：平均用力、只看数量不看 ROI、缺少集体审美校准。
+
+### 6. 战略-013：撤退型布局 1 —— Musical.ly 出售给字节跳动
+
+- **建议 case ID**：`case-strategy-musical-ly-divestiture`
+- **来源**：`00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_253_vlm_desc.md`
+- **锚定卡片**：`framework-strategy-business-design`
+- **骨架**：
+  - Background：Musical.ly 在短视频早期面临行业周期与资本选择。
+  - Problem：继续独立扩张 vs 在高点出售。
+  - Decision：以 8-10 亿美元出售给字节跳动。
+  - Process：评估行业周期、竞品估值、自身盈利能力、外部收购意愿四维度。
+  - Result：股东退出，团队与产品并入 TikTok 生态。
+  - Lessons：撤退型布局需要同时满足「价格高、协同弱、壁垒难建」才值得卖。
+  - Failure Modes：过早出售、错估协同价值、忽视叙事与团队安置。
+
+### 7. 战略-006：撤退型布局 2 —— IBM 郭士纳时代去除非核心业务
+
+- **建议 case ID**：`case-ibm-gerstner-retreat`
+- **来源**：`00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_254_vlm_desc.md`
+- **锚定卡片**：`framework-strategy-brm`
+- **骨架**：
+  - Background：1993 年 IBM 濒临破产，现金流危机。
+  - Problem：业务大而全，低利润服务与非核心资产占用大量资源。
+  - Decision：郭士纳主导「去除」战略，剥离 PC 等低利润业务，聚焦企业级服务与软件。
+  - Process：设定去除标准（增长率低于行业、协同弱、资源占用大、无壁垒）→ 出售/收缩 → 精简组织 → 叙事领导。
+  - Result：IBM 从亏损走向复兴，为后续增长奠基。
+  - Lessons：撤退不是放弃，而是止血 + 聚焦 + 重新叙事。
+  - Failure Modes：该去不去、一刀切裁员、缺乏新增长故事。
+
 
 ## 欧阳锋终审记录：#54 已消化素材案例卡补扫试点
 
