@@ -110,6 +110,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260704_wangyuyan-dual-triangle-canvas-agent-cli | #69 双三角画布 Agent CLI 交付 | reviewed | 欧阳锋 | P1 | `60_feedback/tasks/task_20260704_wangyuyan-dual-triangle-canvas-agent-cli.md` | 2026-07-04 终审通过：canvas-agent.py + agent-spec v2 多轮迭代交付（TCPR/风险判断），KDO Agent 化首个试点 |
 | task_20260704_wangyuyan-agent-card-skill-execution-pattern | #73 Agent 执行模式设计 Phase 1 | reviewed | 欧阳锋 | P1 | `60_feedback/tasks/task_20260704_wangyuyan-agent-card-skill-execution-pattern.md` | 2026-07-04 终审通过：design doc + framework 卡，三种执行模式+六步循环+工具边界声明；agent-solver.py Phase 2 依赖 #72/#59 |
 | task_20260704_laowantong-dual-triangle-vlm-case-enrichment | #93 双三角 VLM 案例批量 enrichment 10 张 | reviewed | 欧阳锋 | P1 | `60_feedback/tasks/task_20260704_laowantong-dual-triangle-vlm-case-enrichment.md` | 2026-07-04 终审通过：抽检 3 张 PASS，六要素标注/Critique/Triggers 结构统一 |
+| task_20260707_wangyuyan-project-management-domain-production | 管项目域卡片化：12 张卡 + 项目管理助手 agent-spec | queued | 老顽童 | P1 | `70_product/tasks/task_20260707_wangyuyan-project-management-domain-production.md` | 王语嫣九层深挖诊断已完成；新任务入队 #131 |
 
 ---
 
@@ -117,8 +118,8 @@ Generated: 2026-06-26T21:00:00+00:00
 
 > **当前任务状态见 `production-queue.md`（唯一真相源）。本 dashboard 保留历史任务全景，日常领任务不读这个文件。**
 
-- **Production Queue**: #60-#118 全部 reviewed/done（2026-07-07）
-- **Active Tasks**: 无——上一轮生产周期已结束，等待新任务入队
+- **Production Queue**: #60-#131；#131 queued（2026-07-07）
+- **Active Tasks**: #131 管项目域卡片化（等待老顽童领取）
 - **黄药师**: P-10 跨域模式层完成；管道碎片化清理中
 - **王语嫣**: 任务编排建议书已提交（OSCAR 卡补齐 / external-exploration-sop 补写）
 - **老顽童**: 待命，production-queue 无 queued 任务
