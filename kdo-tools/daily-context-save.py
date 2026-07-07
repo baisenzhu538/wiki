@@ -163,12 +163,16 @@ def cmd_save(args):
     archive_path = archive_dir / f"{agent}.md"
     archive_path.write_text(content, encoding="utf-8")
 
-    print(f"已保存：{desktop_path}")
-    print(f"已存档：{archive_path.relative_to(WIKI)}")
+    print(f"✅ 已保存：{desktop_path}")
+    print(f"✅ 已存档：{archive_path.relative_to(WIKI)}")
 
     # 自动跑 review-check 并显示等级
     grade = _run_review_check(agent)
-    print(f"自检：{grade}")
+    print(f"📋 自检：{grade}")
+
+    if grade.startswith("🔴"):
+        print(f"⛔ C 级不合格——请用 Write 工具打开上述文件，补充缺失章节后重跑：")
+        print(f"   python {Path(__file__).name} save --agent {agent} --truman --file {desktop_path}")
 
     return 0
 
