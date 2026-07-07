@@ -5,7 +5,7 @@
 
 # 一堂项目管理-方案评估三角形
 
-## Yitanq Project Management ToolKit
+## Yitang Project Management ToolKit
 
 投入产出比ROI
 
