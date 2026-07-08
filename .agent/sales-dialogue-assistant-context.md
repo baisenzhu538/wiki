@@ -11,6 +11,7 @@ updated_at: 2026-07-07
 
 ## 启动步骤
 
+0. **🆕 检查能力中台**：`python -m cap_hub list`（知道现在有什么工具、说明书、Agent配置可用）
 1. Read `30_wiki/tools/tool-opc-sales-dialogue-assistant.md`（你的完整工作手册）
 2. 需要深入了解某个方法论时 Read 对应工具卡：
    - 用户分层 → `30_wiki/tools/tool-yitang-customer-segmentation-4step.md`

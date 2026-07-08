@@ -16,6 +16,7 @@ updated: 2026-07-07
 ## 启动步骤
 
 0. **必读**：读 `.agent/startup.md` + `.agent/infrastructure-bulletin.md`（工厂全局、工具清单、工具登记四步法，含 OCR/视觉/多模态工具清单）
+0.5 **🆕 检查能力中台**：`python -m cap_hub list`（知道现在有什么工具、说明书、Agent配置可用）
 1. 找欧阳锋拿任务（通过飞书对话）
 2. 读 `70_product/tasks/dashboard.md` 确认自己的当前任务
 3. 任务文件中已含完整指令，不需要额外读 `.agent/` 文件

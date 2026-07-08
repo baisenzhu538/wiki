@@ -92,8 +92,9 @@ Hermes 老顽童批量产出（尽力深挖，通过质量闸门后提交）
 
 0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
 1. Read `startup.md`（工厂全局）
-2. Read `context.md`（共享状态）
-3. Read `70_product/tasks/production-queue.md` → **统一生产队列，按顺序审核 `pending_review` 任务**
+2. **🆕 检查能力中台**：`python -m cap_hub list`（知道现在有什么工具、说明书、Agent配置可用）
+3. Read `context.md`（共享状态）
+4. Read `70_product/tasks/production-queue.md` → **统一生产队列，按顺序审核 `pending_review` 任务**
 4. Read `70_product/tasks/dashboard.md` → 历史任务全景（备用）
 5. 审查 → 分组（浅/深）→ 浅的你来写，深的发通过通知
 

@@ -21,6 +21,7 @@ updated: 2026-07-07
 4. 读本文件（角色专属）
 5. 读 `.agent/kb-evolution-direction.md`（当前进化方向）
 6. **🆕 恢复认知迭代记忆**：`python kdo-tools/flywheel.py status --days 7`（最近7天的认知迭代——Y模型引擎每轮转了多少）
+6.5 **🆕 检查能力中台**：`python -m cap_hub list`（知道现在有什么工具、说明书、Agent配置可用）
 7. 读 `70_product/tasks/dashboard.md` 看历史任务全景
 8. 读 `70_product/tasks/production-queue.md` 看当前任务队列
 9. 读 `70_product/tasks/parking-lot-huangyaoshi.md` 看停车场待办

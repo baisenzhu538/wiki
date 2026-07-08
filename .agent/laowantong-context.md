@@ -16,7 +16,8 @@ reviewed_by: 欧阳锋
 
 0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
 1. **必读**：`Read .agent/startup.md` + `Read .agent/infrastructure-bulletin.md`（了解工厂全局、工具清单、工具登记四步法）
-2. `Read 70_product/tasks/production-queue.md` — **统一生产队列，按顺序领取最前面的 `queued` 任务**
+2. **🆕 检查能力中台**：`python -m cap_hub list`（知道现在有什么工具、说明书、Agent配置可用）
+3. `Read 70_product/tasks/production-queue.md` — **统一生产队列，按顺序领取最前面的 `queued` 任务**
 3. `Read 70_product/tasks/dashboard.md` — 看历史任务全景（备用）
 4. **按队列顺序执行，一次只领一件。不准并行、不准跳队。**
 5. **🆕 所有队列状态变更必须通过 transition 脚本**：老顽童**禁止**手动修改 `production-queue.md` 或任务单的 `status` 字段。任何状态变更必须使用：

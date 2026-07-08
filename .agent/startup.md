@@ -65,7 +65,8 @@
 | **质量门禁** | `90_control/scripts/` | `python 90_control/scripts/kcard-quality-gate.py` | 黄药师 / 王语嫣 |
 | **Lint** | KDO CLI | `kdo lint` 或 `python 90_control/scripts/kdo_lint.py` | 黄药师 |
 | **卡片骨架** | KDO CLI | `kdo scaffold --new --card <id> --type <type>` | 老顽童 |
-| **内置 Skills** | `40_outputs/capabilities/skills/` | 12 个 skill（OCR / Design / Audio / Video / …） | 按需 |
+| **🆕 能力中台** | `cap_hub/` | `python -m cap_hub list`（列出所有工具+说明书+Agent配置） / `from cap_hub.vlm import process`（图片识别） | **全员（启动必跑）** |
+| **内置 Skills** | `40_outputs/capabilities/skills/` | 101 个 skill（OCR / Design / Audio / Video / …） | 按需 |
 | **工具脚本** | `40_outputs/code/scripts/` | 见 `40_outputs/code/scripts/README.md` | 全员 |
 
 > ⚠️ **工具登记纪律（洪七公 + 王语嫣共识）**：完成一个工具/脚本后：
