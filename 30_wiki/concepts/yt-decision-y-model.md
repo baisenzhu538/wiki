@@ -43,6 +43,9 @@ related:
   - '"[[concept-yihang-human-in-the-loop-dual-triangle]]"'
   - '[[framework-taste-as-judgment-system]]'
   - '[[tool-open-closed-problem-classifier]]'
+- '[[framework-yitang-y-model-cross-domain-fusion]]'
+- '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
+- '[[principle-yitang-y-model-dual-posture]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 ---
@@ -208,6 +211,19 @@ Y模型的边界是「希望在未来真实世界里持续成事的人」。以�
 3. **无法处理品味 / 意义型决策**：品牌视觉、广告创意、公司使命等涉及不可通约价值的决策，Y模型的量化框架会扭曲决策或沦为事后包装。
 4. **仪式化风险**：团队可能把 Y模型当作会议结束语或权力挡箭牌（「我们已经用 Y模型分析过了」），反而抑制真正的质疑与反思。
 5. **引擎层被忽略**：多数学习者把 Y模型 当静态分析模板（画一个 Y 字 → 填表 → 结束），忽略了它的迭代发动机本质。只画 Y 字不做循环，等于没用。这不是框架本身的设计缺陷，但它是目前观察到的最普遍的误用模式——根源在于 Y模型 的四层结构图太像一个「终点模型」，而不像一个「发动机剖面图」。
+
+## 跨域融合定位
+
+本卡定义 Y模型 的底层结构（客观因果规律为根、理论/事实双路径、三大姿势、四大工具、迭代发动机）。它不展开各域映射，而是作为跨域融合的**根节点**被以下卡片引用和延伸：
+
+| 关系 | 卡片 | 定位 |
+|:---|:---|:---|
+| 跨域映射层 | [[framework-yitang-y-model-cross-domain-fusion]] | 把需求分析、产品内核、一堂五步法、科学销售、时间管理、AI 落地等 6+ 域映射到同一套 Y模型 认知循环，并提供域归属判断、短板识别与迁移规则 |
+| 运行时入口 | [[agent-spec-yitang-Y-model-cross-domain-coach]] | 加载本卡与跨域融合框架，以 C（Consult）身份做元诊断、子域路由、跨域迁移、实事求是审查、解放思想激发与迭代复盘 |
+| 双姿原则 | [[principle-yitang-y-model-dual-posture]] | 把「实事求是」定义为事实端校准器，把「解放思想」定义为理论端突破器，为跨域 Coach 提供模式切换规则 |
+| 域实例 | [[framework-demand-iceberg]]、[[framework-一堂五步法-泛产品设计]]、[[yt-five-step-method-complete]]、[[framework-yitang-scientific-sales-five-step]]、[[framework-yitang-five-step-to-time-management]]、[[framework-yihang-dual-triangle-ai-landing-five-steps]] | 各域把 Y模型 从通用语言实例化为本域的框架、工具与操作流程 |
+
+使用边界：概念卡负责「Y模型 是什么」；跨域融合框架负责「Y模型 在各域如何映射、如何切换」；跨域 Coach Agent 负责「运行时判断该进哪个域、缺什么、怎么验证」。三者不可互相替代。
 
 ## Synthesis
 

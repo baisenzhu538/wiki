@@ -13,7 +13,7 @@ quality_labels:
 - principle
 - quality
 - validated
-updated_at: '2026-07-03'
+updated_at: '2026-07-08'
 confidence: 0.82
 trust_level: medium-high
 language: zh-CN

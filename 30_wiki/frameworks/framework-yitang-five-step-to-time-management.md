@@ -13,7 +13,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-07-01'
 created_at: '2026-07-01'
-updated_at: '2026-06-29'
+updated_at: '2026-07-08'
 source_refs:
 - 00_inbox/时间管理/truman-时间管理课程-口述.txt
 - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
