@@ -37,16 +37,23 @@ def list_manuals() -> list[dict]:
     """扫描 wiki 目录，列出可参考的说明书。"""
     from .config import WIKI_ROOT
 
-    manuals = []
     fw_dir = WIKI_ROOT / "30_wiki" / "frameworks"
+    wf_dir = WIKI_ROOT / "40_outputs" / "capabilities" / "workflows"
+    sk_dir = WIKI_ROOT / "40_outputs" / "capabilities" / "skills"
+
+    if not any(d.exists() for d in [fw_dir, wf_dir, sk_dir]):
+        import sys
+        print(f"⚠️  警告：WIKI_ROOT ({WIKI_ROOT}) 下未找到说明书目录，请检查 WIKI_ROOT 环境变量或 wiki 路径",
+              file=sys.stderr)
+        return []
+
+    manuals = []
     if fw_dir.exists():
         manuals.append({"type": "frameworks", "count": len(list(fw_dir.glob("*.md"))), "path": "30_wiki/frameworks/", "how": 'kdo query "<关键词>"'})
 
-    wf_dir = WIKI_ROOT / "40_outputs" / "capabilities" / "workflows"
     if wf_dir.exists():
         manuals.append({"type": "workflows", "count": len(list(wf_dir.glob("*.md"))), "path": "40_outputs/capabilities/workflows/", "how": "Read workflows/"})
 
-    sk_dir = WIKI_ROOT / "40_outputs" / "capabilities" / "skills"
     if sk_dir.exists():
         manuals.append({"type": "skills", "count": sum(1 for _ in sk_dir.rglob("SKILL.md")), "path": "40_outputs/capabilities/skills/", "how": "Read <skill>/SKILL.md"})
 
