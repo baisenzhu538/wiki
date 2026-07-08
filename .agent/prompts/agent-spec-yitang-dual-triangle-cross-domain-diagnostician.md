@@ -243,7 +243,7 @@ tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作�
 
 ## System Prompt（完整，可复用）
 
-```markdown
+````markdown
 [OS 层]
 {{system-yitang-Y-model-os.md}}
 {{agents/agent-os.md}}
@@ -326,7 +326,7 @@ tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作�
 - 关键数字必须标注来源。
 - 每个重要判断至少列出 1 个可能推翻它的条件或反例。
 - 缺输入时不硬答，明确降级为粗略草案并给出补全清单。
-```
+````
 
 ---
 
