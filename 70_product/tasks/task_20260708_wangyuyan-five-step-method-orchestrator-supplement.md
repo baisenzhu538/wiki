@@ -1,7 +1,7 @@
 ---
 id: task_20260708_wangyuyan-five-step-method-orchestrator-supplement
 title: 一堂五步法域 P0-P2 补产：总框架卡 + 子框架卡 + orchestrator Agent Spec
-status: pending_review
+status: reviewed
 priority: P0
 assignee: hermes
 reviewer: 欧阳锋
@@ -31,7 +31,10 @@ related:
 - '[[tool-一堂-five-step-validation]]'
 - '[[case-five-step-fake-vs-real-barriers]]'
 created_at: 2026-07-08
-updated_at: '2026-07-08T18:04:27.851283+00:00'
+updated_at: '2026-07-08T18:07:25.386954+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-08'
+grade: A-
 ---
 
 # 一堂五步法域 P0-P2 补产：总框架卡 + 子框架卡 + orchestrator Agent Spec
