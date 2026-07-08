@@ -1,37 +1,37 @@
 ---
 id: task_20260708_wangyuyan-demand-analysis-agent-supplement
 title: 需求分析域 P0-P2 补产：冰山工具卡补全 + 天花板框架 + 专属 Agent Spec
-status: queued
+status: in_progress
 priority: P0
-assignee: 老顽童
+assignee: hermes
 reviewer: 欧阳锋
 expected_cards: 17
 expected_agent_specs: 1
 source_refs:
-  - 60_feedback/diagnosis/diag_20260708_yitang-demand-analysis-deep-dive-v2.md
-  - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt L80-L122,L224-L276,L332-L460,L1074-L1126,L1262-L1272,L1308-L1318,L2176-L2206
-  - 00_inbox/五步法之需求分析/一堂-需求分析-剥离需求-口述.txt L110,L1228-L1232,L1336-L1342
-  - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt L476-L536,L1104-L1186,L1720-L1796,L1962-L1976
-  - 00_inbox/五步法之需求分析/一堂-需求分析-空间测算-口述.txt L322-L344,L1308-L1320,L1308-L1870,L2252-L2278,L2348
-  - 00_inbox/五步法之需求分析/一堂-需求分析-JTBD理论-口述.txt L1034-L1044
-  - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
-  - 00_inbox/五步法之需求分析/AI辅助探讨需求选项的提示词.md
-  - 00_inbox/五步法之需求分析/需求分析提示词.txt
+- 60_feedback/diagnosis/diag_20260708_yitang-demand-analysis-deep-dive-v2.md
+- 00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt L80-L122,L224-L276,L332-L460,L1074-L1126,L1262-L1272,L1308-L1318,L2176-L2206
+- 00_inbox/五步法之需求分析/一堂-需求分析-剥离需求-口述.txt L110,L1228-L1232,L1336-L1342
+- 00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt L476-L536,L1104-L1186,L1720-L1796,L1962-L1976
+- 00_inbox/五步法之需求分析/一堂-需求分析-空间测算-口述.txt L322-L344,L1308-L1320,L1308-L1870,L2252-L2278,L2348
+- 00_inbox/五步法之需求分析/一堂-需求分析-JTBD理论-口述.txt L1034-L1044
+- 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
+- 00_inbox/五步法之需求分析/AI辅助探讨需求选项的提示词.md
+- 00_inbox/五步法之需求分析/需求分析提示词.txt
 related:
-  - "[[diag_20260708_yitang-demand-analysis-deep-dive-v2]]"
-  - "[[domain-demand-analysis-index]]"
-  - "[[framework-demand-iceberg]]"
-  - "[[framework-demand-usp-model]]"
-  - "[[framework-demand-validation-pipeline]]"
-  - "[[framework-demand-opportunity-spectrum]]"
-  - "[[tool-demand-assessment-triangle]]"
-  - "[[tool-demand-four-forces]]"
-  - "[[tool-demand-blindspot-checklist]]"
-  - "[[tool-demand-report-template]]"
-  - "[[prompt-demand-ai-coach]]"
-  - "[[yt-demand-insight-extraction]]"
+- '[[diag_20260708_yitang-demand-analysis-deep-dive-v2]]'
+- '[[domain-demand-analysis-index]]'
+- '[[framework-demand-iceberg]]'
+- '[[framework-demand-usp-model]]'
+- '[[framework-demand-validation-pipeline]]'
+- '[[framework-demand-opportunity-spectrum]]'
+- '[[tool-demand-assessment-triangle]]'
+- '[[tool-demand-four-forces]]'
+- '[[tool-demand-blindspot-checklist]]'
+- '[[tool-demand-report-template]]'
+- '[[prompt-demand-ai-coach]]'
+- '[[yt-demand-insight-extraction]]'
 created_at: 2026-07-08
-updated_at: 2026-07-08
+updated_at: '2026-07-08T15:12:43.684368+00:00'
 ---
 
 # 需求分析域 P0-P2 补产：冰山工具卡补全 + 天花板框架 + 专属 Agent Spec
