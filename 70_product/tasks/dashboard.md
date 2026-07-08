@@ -131,7 +131,7 @@ Generated: 2026-06-26T21:00:00+00:00
 
 > **当前任务状态见 `production-queue.md`（唯一真相源）。本 dashboard 保留历史任务全景，日常领任务不读这个文件。**
 
-- **Production Queue**: #60-#144；#131-#139 reviewed / #140 claimed-hermes / #141 queued / #142 queued / #143 queued / #144 reviewed(A)（2026-07-08）
+- **Production Queue**: #60-#144；#131-#140 reviewed / #141 queued / #142 queued / #143 claimed-kimi-code / #144 reviewed(A)（2026-07-08）
 - **建议执行顺序**：#143 跨域双三角诊断 Agent → #140/#141/#142 域 Agent
 - **Active Tasks**: #140 需求分析域专属 Agent 补产（Hermes 进行中）、#141 一堂五步法 orchestrator 补产、#142 Y模型跨域融合 Coach 补产、#143 跨域双三角诊断 Agent 补产（等待领取/执行）
 - **黄药师**: P-10 跨域模式层完成；管道碎片化清理中

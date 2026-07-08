@@ -154,7 +154,7 @@ tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作�
 
 ## 输出格式（Markdown 模板）
 
-```markdown
+````markdown
 # 跨域双三角诊断报告
 
 ## 1. 边界声明
@@ -203,7 +203,7 @@ tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作�
 
 ## 9. 再诊断入口
 - 当子域 Agent 输出不满意、或发现新短板时，返回本 Agent 并携带：问题描述 + 已尝试 Agent + 新证据。
-```
+````
 
 ---
 
