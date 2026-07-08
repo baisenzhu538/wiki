@@ -32,8 +32,8 @@ related:
   - '[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]'
   - '[[framework-taste-as-judgment-system]]'
   - '[[dk-ai-builder-illusion]]'
-- '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
-- '[[tool-yitang-dual-triangle-domain-registry]]'
+  - '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
+  - '[[tool-yitang-dual-triangle-domain-registry]]'
 aliases:
   - Y模型双三角协同
   - 双三角迭代发动机
