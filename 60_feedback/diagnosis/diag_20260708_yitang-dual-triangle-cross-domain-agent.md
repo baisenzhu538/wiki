@@ -87,9 +87,9 @@ related:
 2. **问题重述**：把用户模糊问题转写为可分析的命题。
 3. **六要素快速扫描**：判断每个要素的“有/无/弱/未知”。
 4. **短板识别**：找出当前最大瓶颈（通常 1-2 个）。
-5. **子域匹配**：根据短板推荐子域 Agent/框架卡。
+5. **子域匹配**：根据短板推荐子域 Agent/框架卡；若无法匹配已知域，标记为「未来域」并给出临时处理建议。
 6. **跨域迁移判断**：如果用户想跨域迁移，输出映射与风险。
-7. **输出行动清单**：下一步最小动作 + 成功指标 + 风险提示。
+7. **输出行动清单**：下一步最小动作 + 成功指标 + 风险提示；若涉及未注册域，提示用户补充域注册信息。
 
 ### 3.4 调用卡与转交 Agent
 
@@ -106,6 +106,7 @@ related:
 3. 不把六要素机械一一对应到 Y模型/实事求是/解放思想。
 4. 跨域迁移时明确列出 source 与 target 的关键差异。
 5. 子域 Agent 输出质量差时，先诊断输入质量再怪 Agent。
+6. 遇到未注册的未来知识域，不强行匹配，而是标记为「待注册域」并给出临时处理建议。
 
 ---
 
@@ -113,11 +114,12 @@ related:
 
 | # | id | 类型 | 优先级 | 说明 |
 |---|---|---|---|---|
-| 1 | `agent-spec-yitang-dual-triangle-cross-domain-diagnostician` | agent-spec | P0 | 跨域双三角诊断 Agent Spec |
-| 2 | `tool-yitang-dual-triangle-scenario-router` | tool | P1 | 七类场景 × 六要素 × 子域 Agent 映射表 |
-| 3 | `tool-yitang-dual-triangle-agent-handoff-protocol` | tool | P1 | 向子域 Agent 转交时的信息包格式与回退规则 |
-| 4 | `concept-yihang-dual-triangle-core` | concept | P2 | related 中增加跨域诊断 Agent |
-| 5 | `framework-yitang-y-model-dual-triangle-synergy` | framework | P2 | related 中增加跨域诊断 Agent |
+| 1 | `agent-spec-yitang-dual-triangle-cross-domain-diagnostician` | agent-spec | P0 | 跨域双三角诊断 Agent Spec；内置可插拔域注册协议 |
+| 2 | `tool-yitang-dual-triangle-scenario-router` | tool | P1 | 七类场景 × 六要素 × 子域 Agent 映射表；预留未来域扩展槽 |
+| 3 | `tool-yitang-dual-triangle-agent-handoff-protocol` | tool | P1 | 向子域 Agent 转交时的信息包格式、上下文压缩、回退与再诊断规则 |
+| 4 | `tool-yitang-dual-triangle-domain-registry` | tool | P1 | 新域 Agent 注册模板：域名称、触发关键词、六要素评估问题、入口 Agent、回退策略 |
+| 5 | `concept-yihang-dual-triangle-core` | concept | P2 | related 中增加跨域诊断 Agent 与域注册协议 |
+| 6 | `framework-yitang-y-model-dual-triangle-synergy` | framework | P2 | related 中增加跨域诊断 Agent 与域注册协议 |
 
 ---
 
@@ -134,8 +136,8 @@ related:
 **优先级**：P1
 **Assignee**：老顽童
 **Reviewer**：欧阳锋
-**预计产出**：1 Agent Spec + 2 工具卡 + 2 张现有卡 related 更新
-**依赖**：无（与子域 Agent 任务可并行，但建议在子域 Agent Spec 定稿后调优路由映射）
+**预计产出**：1 Agent Spec + 3 工具卡 + 2 张现有卡 related 更新
+**依赖**：无（与子域 Agent 任务可并行，但建议在子域 Agent Spec 定稿后调优路由映射；域注册协议确保未来知识域可插拔接入）
 
 ---
 
