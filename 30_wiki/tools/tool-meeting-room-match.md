@@ -1,13 +1,32 @@
-﻿---
-title: "会议场域匹配 (Meeting Room Match)"
-domain: "yitang, time-management"
-status: "enriched"
-author: "老顽童"
-reviewed_by: "欧阳锋"
-review_date: "2026-07-08"
-tags: ["会议效率", "场域设计", "会议类型", "空间匹配", "参与度"]
 ---
-
+id: tool-meeting-room-match
+title: 会议场域匹配 (Meeting Room Match)
+type: tool
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: 2026-07-08
+confidence: 0.85
+trust_level: medium
+language: zh-CN
+created_at: 2026-07-08
+updated_at: 2026-07-08
+domain:
+- yitang
+- time-management
+source_refs:
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+related:
+- '[[yt-personal-time-management]]'
+- '[[framework-yitang-five-step-to-time-management]]'
+diagnostic_signals:
+- signal: placeholder
+  lens: placeholder
+  follow-up: 后续补全
+quality_labels:
+- actionable
+---
 # 会议场域匹配 (Meeting Room Match)
 
 ## 何时用

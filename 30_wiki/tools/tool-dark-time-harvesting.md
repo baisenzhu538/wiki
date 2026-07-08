@@ -1,13 +1,32 @@
-﻿---
-title: "暗时间利用 (Dark Time Harvesting)"
-domain: "yitang, time-management"
-status: "enriched"
-author: "老顽童"
-reviewed_by: "欧阳锋"
-review_date: "2026-07-08"
-tags: ["暗时间", "零碎时间", "认知利用", "思维预热"]
 ---
-
+id: tool-dark-time-harvesting
+title: 暗时间利用 (Dark Time Harvesting)
+type: tool
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: 2026-07-08
+confidence: 0.85
+trust_level: medium
+language: zh-CN
+created_at: 2026-07-08
+updated_at: 2026-07-08
+domain:
+- yitang
+- time-management
+source_refs:
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+related:
+- '[[yt-personal-time-management]]'
+- '[[framework-yitang-five-step-to-time-management]]'
+diagnostic_signals:
+- signal: placeholder
+  lens: placeholder
+  follow-up: 后续补全
+quality_labels:
+- actionable
+---
 # 暗时间利用 (Dark Time Harvesting)
 
 ## 何时用

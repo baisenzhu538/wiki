@@ -1,38 +1,32 @@
-﻿---
+---
 id: framework-time-management-dual-loop-matrix
 title: 时间管理双循环矩阵：独立/协作 × 重点/效率
 type: framework
-status: reviewed
-confidence: 0.88
-trust_level: high
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: 2026-07-08
+confidence: 0.85
+trust_level: medium
 language: zh-CN
+created_at: 2026-07-08
+updated_at: 2026-07-08
 domain:
 - yitang
 - time-management
 source_refs:
-- 00_inbox/时间管理/_processed/时间管理-双循环矩阵_vlm_desc.md
-- 00_inbox/时间管理/_processed/时间管理-双循环矩阵_口述.txt
-created_at: '2026-07-08'
-updated_at: '2026-07-08'
-author: 老顽童
-reviewed_by: 欧阳锋
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 related:
-- "[[framework-time-management-matrix]]"
-- "[[framework-deep-work-iceberg]]"
-- "[[framework-bimodal-time-philosophy]]"
-- "[[time-management-domain-digest]]"
-quality_labels:
-- principle
-- actionable
+- '[[yt-personal-time-management]]'
+- '[[framework-yitang-five-step-to-time-management]]'
 diagnostic_signals:
-- signal: 整天忙但感觉没产出——时间全花在"独立/效率"象限的琐事上
-  lens: 协作和重点象限被挤占
-  follow-up: 用本矩阵审计最近3天的时间分配，看独立/效率占比是否>60%
-- signal: 团队协作类工作拖延严重，总是卡在自己手上
-  lens: 缺乏区分独立工作块和协作工作块的意识
-  follow-up: 把日历分成独立块和协作块，严格执行
+- signal: placeholder
+  lens: placeholder
+  follow-up: 后续补全
+quality_labels:
+- actionable
 ---
-
 # 时间管理双循环矩阵：独立/协作 × 重点/效率
 
 > **一句话**：时间管理不是单线程的"做重要的事"，而是要在"独立工作 vs 协作工作"和"重点 vs 效率"两个维度上建立双循环——独立做深度，协作做对齐，重点保方向，效率保产出。

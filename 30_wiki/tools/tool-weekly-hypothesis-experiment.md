@@ -1,13 +1,32 @@
-﻿---
-title: "每周假设实验 (Weekly Hypothesis Experiment)"
-domain: "yitang, time-management"
-status: "enriched"
-author: "老顽童"
-reviewed_by: "欧阳锋"
-review_date: "2026-07-08"
-tags: ["假设驱动", "实验思维", "迭代优化", "个人效能", "科学方法"]
 ---
-
+id: tool-weekly-hypothesis-experiment
+title: 每周假设实验 (Weekly Hypothesis Experiment)
+type: tool
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: 2026-07-08
+confidence: 0.85
+trust_level: medium
+language: zh-CN
+created_at: 2026-07-08
+updated_at: 2026-07-08
+domain:
+- yitang
+- time-management
+source_refs:
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+related:
+- '[[yt-personal-time-management]]'
+- '[[framework-yitang-five-step-to-time-management]]'
+diagnostic_signals:
+- signal: placeholder
+  lens: placeholder
+  follow-up: 后续补全
+quality_labels:
+- actionable
+---
 # 每周假设实验 (Weekly Hypothesis Experiment)
 
 ## 何时用

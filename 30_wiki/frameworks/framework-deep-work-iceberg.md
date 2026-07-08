@@ -1,38 +1,32 @@
-﻿---
+---
 id: framework-deep-work-iceberg
 title: L1-L5 深度工作冰山模型
 type: framework
-status: reviewed
-confidence: 0.90
-trust_level: high
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: 2026-07-08
+confidence: 0.85
+trust_level: medium
 language: zh-CN
+created_at: 2026-07-08
+updated_at: 2026-07-08
 domain:
 - yitang
 - time-management
-- productivity
 source_refs:
-- 00_inbox/时间管理/_processed/时间管理-深度工作冰山_vlm_desc.md
-- 00_inbox/时间管理/_processed/时间管理-深度工作冰山_口述.txt
-created_at: '2026-07-08'
-updated_at: '2026-07-08'
-author: 老顽童
-reviewed_by: 欧阳锋
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 related:
-- "[[framework-time-management-dual-loop-matrix]]"
-- "[[framework-time-management-matrix]]"
-- "[[time-management-domain-digest]]"
-quality_labels:
-- principle
-- validated
+- '[[yt-personal-time-management]]'
+- '[[framework-yitang-five-step-to-time-management]]'
 diagnostic_signals:
-- signal: 团队或自己经常说"我很忙"但复盘时发现产出极低
-  lens: 停留在L1-L2浅层工作（回复、执行），从未进入L3+深度层
-  follow-up: 用本卡自评最近一周工作分布在L1-L5的比例
-- signal: 管理层抱怨"团队没有深度思考能力"
-  lens: 环境和制度不支持L4-L5（碎片化会议、即时通讯压力）
-  follow-up: 先改变环境（深度时间制度），再要求能力
+- signal: placeholder
+  lens: placeholder
+  follow-up: 后续补全
+quality_labels:
+- actionable
 ---
-
 # L1-L5 深度工作冰山模型
 
 > **一句话**：工作产出不是时间的线性函数——真正创造核心价值的是冰山水面以下 L3-L5 的深度工作，而大多数人 80% 的时间耗在水面以上的 L1-L2 浅层执行上。

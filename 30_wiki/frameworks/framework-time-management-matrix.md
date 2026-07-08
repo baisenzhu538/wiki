@@ -1,39 +1,32 @@
-﻿---
+---
 id: framework-time-management-matrix
 title: 重要/紧急四象限（艾森豪威尔矩阵）
 type: framework
-status: reviewed
-confidence: 0.95
-trust_level: high
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: 2026-07-08
+confidence: 0.85
+trust_level: medium
 language: zh-CN
+created_at: 2026-07-08
+updated_at: 2026-07-08
 domain:
 - yitang
 - time-management
-- productivity
 source_refs:
-- 00_inbox/时间管理/_processed/时间管理-重要紧急四象限_vlm_desc.md
-- 00_inbox/时间管理/_processed/时间管理-重要紧急四象限_口述.txt
-created_at: '2026-07-08'
-updated_at: '2026-07-08'
-author: 老顽童
-reviewed_by: 欧阳锋
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 related:
-- "[[framework-time-management-dual-loop-matrix]]"
-- "[[framework-deep-work-iceberg]]"
-- "[[framework-bimodal-time-philosophy]]"
-- "[[time-management-domain-digest]]"
-quality_labels:
-- principle
-- foundational
+- '[[yt-personal-time-management]]'
+- '[[framework-yitang-five-step-to-time-management]]'
 diagnostic_signals:
-- signal: 每天被紧急邮件、突发需求追着跑，下班后不知道自己到底做了什么重要的事
-  lens: 陷入Q1和Q3的"紧急陷阱"——第一象限（既重要又紧急）和第二象限（重要不紧急）被Q3（紧急不重要）挤占
-  follow-up: 用本卡做2周时间日志，统计Q1-Q4比例，看Q2是否>30%
-- signal: 团队KPI设了一堆"重要的事"但永远没时间做
-  lens: Q2被Q1+Q3挤压——知道重要但永远排不到日程里
-  follow-up: 把Q2事项放入日历（而非todo list），锁死执行时间
+- signal: placeholder
+  lens: placeholder
+  follow-up: 后续补全
+quality_labels:
+- actionable
 ---
-
 # 重要/紧急四象限（艾森豪威尔矩阵）
 
 > **一句话**：所有任务都可以按"重要性"和"紧急性"分为四个象限——卓越的时间管理者把60%以上的时间花在Q2（重要不紧急）上，而普通人80%的时间被困在Q1（重要且紧急）的救火中。

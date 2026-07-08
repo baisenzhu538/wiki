@@ -1,39 +1,32 @@
-﻿---
+---
 id: framework-bimodal-time-philosophy
 title: 双峰时间哲学模型
 type: framework
-status: reviewed
-confidence: 0.88
-trust_level: high
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: 2026-07-08
+confidence: 0.85
+trust_level: medium
 language: zh-CN
+created_at: 2026-07-08
+updated_at: 2026-07-08
 domain:
 - yitang
 - time-management
-- productivity
 source_refs:
-- 00_inbox/时间管理/_processed/时间管理-双峰哲学_vlm_desc.md
-- 00_inbox/时间管理/_processed/时间管理-双峰哲学_口述.txt
-created_at: '2026-07-08'
-updated_at: '2026-07-08'
-author: 老顽童
-reviewed_by: 欧阳锋
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 related:
-- "[[framework-time-management-matrix]]"
-- "[[framework-deep-work-iceberg]]"
-- "[[framework-time-management-dual-loop-matrix]]"
-- "[[time-management-domain-digest]]"
-quality_labels:
-- principle
-- actionable
+- '[[yt-personal-time-management]]'
+- '[[framework-yitang-five-step-to-time-management]]'
 diagnostic_signals:
-- signal: 一天里感觉"什么都没干成"，但细看又一直在做事
-  lens: 模式混淆——把深度工作和浅层事务混在一起，两种节奏互相干扰
-  follow-up: 用本卡把一天劈成两个峰——深度峰（上午）和协作峰（下午）
-- signal: 公司宣布"不设固定工作时间"后团队产出反而下降
-  lens: 完全自由=模式混乱——没有峰谷边界就没有深度
-  follow-up: 把"自由"重新定义为"峰的自由安排权"，而非"无结构"
+- signal: placeholder
+  lens: placeholder
+  follow-up: 后续补全
+quality_labels:
+- actionable
 ---
-
 # 双峰时间哲学模型
 
 > **一句话**：最高效的时间管理不是均匀分配精力，而是把一天劈成两个截然不同的"峰"——深度峰用于创造和生产，协作峰用于连接和响应——在两种模式的清晰切换中获得节奏和产出。
