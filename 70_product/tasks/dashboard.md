@@ -118,6 +118,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260708_wangyuyan-sales-domain-deep-dive-supplement | 销售域口述稿二次深挖补产：操作层工具卡 + Agent 规格 | reviewed | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md` | 欧阳锋终审通过；6 新卡 + 4 升级 + 6 agent-spec；补齐前三秒话术、聆听三七法则、回款/履约 playbook 等 P0 缺口；入队 #136 |
 | task_20260708_wangyuyan-pan-product-domain-supplement | 泛产品设计域 P0-P2 补产：框架填肉 + 叶子升级 + Agent 规格 | queued | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-pan-product-domain-supplement.md` | 王语嫣二次深挖：4 张中层框架卡填肉 + 6 张叶子卡升级 + 2 张新工具卡 + 7 个泛产品 Agent 规格；解决 30/36 张牌口径冲突；入队 #137 |
 | task_20260708_wangyuyan-product-kernel-domain-supplement | 产品内核域 P0-P2 补产：核心概念升级 + 案例卡 + 验证工具 + Agent 规格 | queued | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md` | 王语嫣二次深挖：3 张 concept 升级 + 1 张六策略验证工具卡 + 4 case + 2 DK + 7 个内核 Agent 规格；统一验证/迭代框架命名；入队 #138 |
+| task_20260708_wangyuyan-time-management-agent-supplement | 时间管理域 P1 补产：四张模型图 + 操作工具 + 案例 + 专属 Agent Spec | queued | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-time-management-agent-supplement.md` | 王语嫣二次深挖：1 张 concept 升级 + 4 张 framework + 8 张 tool + 5 张 case + 1 个时间管理专属 Agent Spec；用户明确要求“时间管理专门的 agent”；入队 #139 |
 
 ---
 
@@ -125,11 +126,11 @@ Generated: 2026-06-26T21:00:00+00:00
 
 > **当前任务状态见 `production-queue.md`（唯一真相源）。本 dashboard 保留历史任务全景，日常领任务不读这个文件。**
 
-- **Production Queue**: #60-#138；#131 reviewed(A-) / #132 reviewed(B+) / #133 reviewed(A-) / #134 reviewed(A) / #135 reviewed(A) / #136 reviewed / #137 queued / #138 queued（2026-07-08）
-- **Active Tasks**: #137 泛产品设计域补产、#138 产品内核域补产（均等待老顽童领取）
+- **Production Queue**: #60-#139；#131 reviewed(A-) / #132 reviewed(B+) / #133 reviewed(A-) / #134 reviewed(A) / #135 reviewed(A) / #136 reviewed / #137 queued / #138 queued / #139 queued（2026-07-08）
+- **Active Tasks**: #137 泛产品设计域补产、#138 产品内核域补产、#139 时间管理域专属 Agent 补产（均等待老顽童领取）
 - **黄药师**: P-10 跨域模式层完成；管道碎片化清理中
 - **王语嫣**: 任务编排建议书已提交（OSCAR 卡补齐 / external-exploration-sop 补写）
-- **老顽童**: 待领取 #137 / #138
+- **老顽童**: 待领取 #137 / #138 / #139
 - **欧阳锋**: 月度抽检模式
 - **洪七公/段王爷**: 待命
 
