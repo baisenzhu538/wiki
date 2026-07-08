@@ -186,6 +186,7 @@ Truman 的警告："你如果回答不了'为什么是你'这个题，你就应�
 | 前置 | [[yt-entrepreneur-barriers]] | 创业者壁垒认知——本案例是对常见假壁垒陷阱的具体拆解 |
 | 前置 | [[case-five-step-growth-first-lever]] | 增长→壁垒衔接案例——从"找到增长杠杆"到"判断增长是否可持续"的延续 |
 | 互补 | [[yt-scale-economy-weapon-library]] | 规模经济武器库——本文的 SaaS 真壁垒案例使用了规模经济武器 |
+  - '[[framework-一堂五步法-壁垒]]'
 
 ### Action Triggers
 

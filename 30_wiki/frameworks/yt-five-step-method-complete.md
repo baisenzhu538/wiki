@@ -167,3 +167,4 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 
+  - '[[framework-一堂五步法]]'

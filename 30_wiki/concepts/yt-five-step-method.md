@@ -182,6 +182,7 @@ Porter 的五力模型强调从**行业结构**角度分析竞争，而五步法
 | 子模块 | [[yt-barrier-analysis-cheat-sheet]] |  本卡是[[yt-barrier-analysis-cheat-sheet]]体系中的第壁垒，专注于该步骤的具体方法论和实操工具，是连接上位概念与场景应用的桥梁 |
 | 关联框架 | [[yt-foresight-business-spectrum]] |  本卡与[[yt-foresight-business-spectrum]]在方法论层面互为补充，后者专注于终局光谱图——判断每一步的目标区间，两者结合可从不同角度拓展分析深度和广度 |
   - "[[workflow-yitang-project-four-step-loop]]"
+  - '[[framework-一堂五步法]]'
 
 ## Action Triggers
 

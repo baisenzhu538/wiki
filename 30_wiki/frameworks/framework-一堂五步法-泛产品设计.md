@@ -277,6 +277,7 @@ related:
 - [[framework-pan-product-organization]] — 五步法在组织场景中的应用
 - [[framework-lean-abcd-model]] — 当价值假设未验证时，先用精益方法低成本测试
 - [[framework-ai-accelerated-strategy-cycle]] — 用 AI 加速五步法的设想、具象与迭代
+  - '[[framework-一堂五步法]]'
 
 ---
 
