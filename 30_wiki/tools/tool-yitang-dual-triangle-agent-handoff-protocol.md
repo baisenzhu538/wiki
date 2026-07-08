@@ -1,6 +1,6 @@
 ---
-id: tool-yitang-dual-triangle-domain-registry
-title: 双三角域注册与扩展协议
+id: tool-yitang-dual-triangle-agent-handoff-protocol
+title: 子域 Agent 转交协议
 type: tool
 status: pending_review
 author: 老顽童
@@ -13,12 +13,12 @@ source_refs:
 related:
   - "[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]"
   - "[[tool-yitang-dual-triangle-scenario-router]]"
-  - "[[tool-yitang-dual-triangle-agent-handoff-protocol]]"
+  - "[[tool-yitang-dual-triangle-domain-registry]]"
   - "[[concept-yihang-dual-triangle-core]]"
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---
 
-# 双三角域注册与扩展协议
+# 子域 Agent 转交协议
 
-> 占位符：等待 #143 子任务填充「新域 Agent 注册模板、触发关键词、六要素评估问题、入口 Agent、回退策略」完整规范。
+> 占位符：等待 #143 子任务填充「信息包字段、上下文压缩规则、回退条件、再诊断入口」完整规范。
