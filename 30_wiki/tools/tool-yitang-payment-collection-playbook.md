@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-payment-collection-playbook
 title: 回款 / 催款 / 履约阶段 playbook
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

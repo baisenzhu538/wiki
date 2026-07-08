@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-listening-37-rule
 title: 阿里铁军聆听三七法则执行卡
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

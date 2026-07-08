@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-three-second-opening-scripts
 title: 一通电话前三秒话术优化卡
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

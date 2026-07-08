@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-agent-spec-yitang-sales-toolkit-gap
 title: 销售工具箱缺口盘点 Agent Spec
 type: agent-spec
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-daily-weekly-meeting-hosting
 title: 日会 / 周会 SOP 与主持模板
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

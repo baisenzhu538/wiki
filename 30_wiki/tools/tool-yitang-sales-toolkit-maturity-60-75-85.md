@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-yitang-sales-toolkit-maturity-60-75-85
 title: 销售工具武器库成熟度盘点
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

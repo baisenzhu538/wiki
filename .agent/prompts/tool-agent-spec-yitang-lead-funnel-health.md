@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-agent-spec-yitang-lead-funnel-health
 title: 线索漏斗健康度诊断 Agent Spec
 type: agent-spec
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋
