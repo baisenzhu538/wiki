@@ -1,30 +1,30 @@
 ---
 id: task_20260708_wangyuyan-product-kernel-domain-supplement
 title: 产品内核域 P0-P2 补产：核心概念升级 + 案例卡 + 验证工具 + Agent 规格
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童
+assignee: hermes
 reviewer: 欧阳锋
 expected_cards: 12
 expected_agent_specs: 7
 source_refs:
-  - 60_feedback/diagnosis/diag_20260708_yitang-pan-product-design-deep-dive-v2.md
-  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L524-L568,L1464-L2874,L3000-L3112
-  - 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L1304-L1346,L194-L657,L700-L1150,L2069-L2253,L3018-L3400
-  - 00_inbox/一堂-产品内核验证课-Truman-口述.txt L1026-L1155,L1300-L1614,L1714-L2070,L2032-L2880,L2880-L3072
+- 60_feedback/diagnosis/diag_20260708_yitang-pan-product-design-deep-dive-v2.md
+- 00_inbox/一堂-产品内核实操课-Truman-口述.txt L524-L568,L1464-L2874,L3000-L3112
+- 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L1304-L1346,L194-L657,L700-L1150,L2069-L2253,L3018-L3400
+- 00_inbox/一堂-产品内核验证课-Truman-口述.txt L1026-L1155,L1300-L1614,L1714-L2070,L2032-L2880,L2880-L3072
 related:
-  - "[[diag_20260708_yitang-pan-product-design-deep-dive-v2]]"
-  - "[[laowantong-product-kernel-brief]]"
-  - "[[concept-一堂-product-kernel]]"
-  - "[[concept-一堂-kernel-iteration]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[tool-一堂-product-kernel-canvas]]"
-  - "[[tool-一堂-product-kernel-add-subtract]]"
-  - "[[yt-product-kernel-ten-metrics]]"
-  - "[[yt-product-kernel-validation]]"
-  - "[[yt-product-kernel-iteration]]"
+- '[[diag_20260708_yitang-pan-product-design-deep-dive-v2]]'
+- '[[laowantong-product-kernel-brief]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[concept-一堂-kernel-iteration]]'
+- '[[concept-一堂-kernel-validation]]'
+- '[[tool-一堂-product-kernel-canvas]]'
+- '[[tool-一堂-product-kernel-add-subtract]]'
+- '[[yt-product-kernel-ten-metrics]]'
+- '[[yt-product-kernel-validation]]'
+- '[[yt-product-kernel-iteration]]'
 created_at: 2026-07-08
-updated_at: 2026-07-08
+updated_at: '2026-07-08T12:34:41.343287+00:00'
 ---
 
 # 产品内核域 P0-P2 补产：核心概念升级 + 案例卡 + 验证工具 + Agent 规格
