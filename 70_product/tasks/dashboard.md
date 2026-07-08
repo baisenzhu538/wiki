@@ -120,6 +120,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260708_wangyuyan-product-kernel-domain-supplement | 产品内核域 P0-P2 补产：核心概念升级 + 案例卡 + 验证工具 + Agent 规格 | claimed-hermes | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md` | Hermes 已领取；王语嫣二次深挖：3 张 concept 升级 + 1 张六策略验证工具卡 + 4 case + 2 DK + 7 个内核 Agent 规格；统一验证/迭代框架命名；入队 #138 |
 | task_20260708_wangyuyan-time-management-agent-supplement | 时间管理域 P1 补产：四张模型图 + 操作工具 + 案例 + 专属 Agent Spec | queued | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-time-management-agent-supplement.md` | 王语嫣二次深挖：1 张 concept 升级 + 4 张 framework + 8 张 tool + 5 张 case + 1 个时间管理专属 Agent Spec；用户明确要求“时间管理专门的 agent”；入队 #139 |
 | task_20260708_wangyuyan-demand-analysis-agent-supplement | 需求分析域 P0-P2 补产：冰山工具卡补全 + 天花板框架 + 专属 Agent Spec | queued | 老顽童 | P0 | `70_product/tasks/task_20260708_wangyuyan-demand-analysis-agent-supplement.md` | 王语嫣二次深挖：知识已验证，缺 Agent 封装；1 Agent Spec + 6 L1-L6 工具卡补全 + 天花板四层框架 + RAT/评估/微观体感工具；用户明确“需求是极其重要的域”；入队 #140 |
+| task_20260708_wangyuyan-five-step-method-orchestrator-supplement | 一堂五步法域 P0-P2 补产：总框架卡 + 子框架卡 + orchestrator Agent Spec | queued | 老顽童 | P0 | `70_product/tasks/task_20260708_wangyuyan-five-step-method-orchestrator-supplement.md` | 王语嫣二次深挖：五步法是方法论中枢，缺总框架卡、增长周期/壁垒框架卡、orchestrator Agent Spec；需把 #136-#140 子域任务串成可导航链路；入队 #141 |
 
 ---
 
@@ -127,8 +128,8 @@ Generated: 2026-06-26T21:00:00+00:00
 
 > **当前任务状态见 `production-queue.md`（唯一真相源）。本 dashboard 保留历史任务全景，日常领任务不读这个文件。**
 
-- **Production Queue**: #60-#140；#131 reviewed(A-) / #132 reviewed(B+) / #133 reviewed(A-) / #134 reviewed(A) / #135 reviewed(A) / #136 reviewed / #137 reviewed / #138 claimed-hermes / #139 queued / #140 queued（2026-07-08）
-- **Active Tasks**: #138 产品内核域补产（Hermes 进行中）、#139 时间管理域专属 Agent 补产、#140 需求分析域专属 Agent 补产（等待老顽童领取）
+- **Production Queue**: #60-#141；#131 reviewed(A-) / #132 reviewed(B+) / #133 reviewed(A-) / #134 reviewed(A) / #135 reviewed(A) / #136 reviewed / #137 reviewed / #138 claimed-hermes / #139 queued / #140 queued / #141 queued（2026-07-08）
+- **Active Tasks**: #138 产品内核域补产（Hermes 进行中）、#139 时间管理域专属 Agent 补产、#140 需求分析域专属 Agent 补产、#141 一堂五步法 orchestrator 补产（等待老顽童领取）
 - **黄药师**: P-10 跨域模式层完成；管道碎片化清理中
 - **王语嫣**: 任务编排建议书已提交（OSCAR 卡补齐 / external-exploration-sop 补写）
 - **老顽童**: 待领取 #137 / #138 / #139
