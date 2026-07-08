@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-07-07 18:09 UTC
+# Concept Card Index — 2026-07-08 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -96,11 +96,12 @@
 | concept-yitang-research-mindset | 调研心态：从"找答案"到"拆假设" | concept | yitang, research |
 | concept-yitang-research-objective | 调研目标锁定：从"了解"到"决策"的认知跃迁 | concept | yitang, research |
 | concept-yitang-research-scope | 调研范围缩小：专注·专业·剥离三原则 | concept | yitang, research |
+| concept-一堂-business-prediction | 商业预判：15字诀与光谱模型——从拍脑袋到科学决策 | concept | product, yitang, entrepreneurship |
 | concept-一堂-hypothesis-driven-business-methodology | 一堂假设驱动型创业分析方法论 | concept | src_unknown, src_unknown |
 | concept-一堂-kernel-iteration | 产品内核迭代：从静态到动态的五方向演化 | concept | product, yitang |
 | concept-一堂-kernel-validation | 产品内核验证：三维度评估 + 六策略验证 | concept | product, yitang |
 | concept-一堂-key-assumptions | concept-一堂-key-assumptions | ? |  |
-| concept-一堂-product-kernel | 产品内核：用户愿意选择你的最小解决方案 | concept | product, yitang |
+| concept-一堂-product-kernel | 产品内核 — 用户愿意选择你的最小解决方案 | concept | product, entrepreneurship, lean-startup |
 | concept-两种典型思考习惯 | 两种典型思考习惯：效率导向 vs 效果导向 | concept | yitang, decision-science |
 | concept-半肥猫-ai-learning-toolification-methodology | 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进 | concept | src_unknown, src_unknown, src_unknown |
 | concept-单元模型-学练用 | 学练用：知识内化的三阶模型 | concept | yitang, decision-science |
@@ -325,10 +326,10 @@
 | yt-model-liberate-thinking-layers | 解放思想五层模型（已弃用，待重写升级） | concept | entrepreneurship, epistemic-foundations |
 | yt-model-management-map | yt-model-management-map | ? | modeling |
 | yt-model-muse-ai-framework | yt-model-muse-ai-framework | ? | modeling |
-| yt-model-pan-product-36-strategies | 泛产品设计36计·全套官方工具箱 | framework | src_unknown |
-| yt-model-pan-product-aesthetic-toolkit | 泛产品设计·审美工具箱（4张卡牌） | framework | src_unknown |
-| yt-model-pan-product-demand-toolkit | 泛产品设计·需求工具箱（13张卡牌） | framework | src_unknown |
-| yt-model-pan-product-execution-toolkit | 泛产品设计·落地工具箱（19张卡牌） | framework | src_unknown |
+| yt-model-pan-product-36-strategies | 泛产品设计36计·全套官方工具箱 | framework | yitang, pan-product |
+| yt-model-pan-product-aesthetic-toolkit | 泛产品设计·审美工具箱（4张卡牌） | framework | 泛产品设计 |
+| yt-model-pan-product-demand-toolkit | 泛产品设计·需求工具箱（13张卡牌） | framework | yitang, pan-product |
+| yt-model-pan-product-execution-toolkit | 泛产品设计·落地工具箱（19张卡牌） | framework | pan-product-design, product-execution |
 | yt-model-personal-map | 个人修炼地图 | framework | src_unknown |
 | yt-model-personal-pitch-toolkit | 十指讲香模型（框架） | framework | src_unknown |
 | yt-model-prediction-model | yt-model-prediction-model | ? | modeling |
@@ -382,7 +383,7 @@
 | yt-personal-product-design | yt-personal-product-design | ? | personal-growth |
 | yt-personal-scientific-expression | 科学表达（火箭模型） | tool | src_unknown |
 | yt-personal-thinking-models | yt-personal-thinking-models | ? | personal-growth |
-| yt-personal-time-management | yt-personal-time-management | ? | personal-growth |
+| yt-personal-time-management | 时间管理 | concept | yitang, time-management |
 | yt-personal-verbatim-script | yt-personal-verbatim-script | ? | personal-growth |
 | yt-personal-y-model-exploration-2 | Y模型探索营2：五次质变与科学推演 | tool | src_unknown |
 | yt-personal-y-model-practice | yt-personal-y-model-practice | ? | personal-growth |
@@ -481,6 +482,7 @@
 | framework-ai-deliberate-practice-loop | AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴 | framework | yitang, personal-growth, ai-collaboration |
 | framework-ai-native-organization-two-modes | AI 原生组织的两种形态：AI 控制台 vs Agent 平台 | framework | ai-native, management, ai-collaboration |
 | framework-ai2041-critical-reading-os | AI 2041 批判性认知操作系统 | framework | ai_collaboration, critical_thinking, business_judgment |
+| framework-bimodal-time-philosophy | 双峰时间哲学模型 | framework | yitang, time-management |
 | framework-brand-three-degree | 品牌三度 | framework | content-production |
 | framework-candy-transcript-workflow | Candy逐字稿九步法：从素材到可交付内容的生产流程 | framework | yitang, content-production |
 | framework-ci-operating-model | 竞争情报操作系统（CI Operating Model） | framework | research, strategy |
@@ -489,6 +491,8 @@
 | framework-course-milestone-model | 课程里程碑模型：一堂做课的七步生产流程 | framework | src_unknown, src_unknown, src_unknown |
 | framework-decision-cognitive-bias-map | 商业决策常见认知偏差地图 | framework | decision-science, yitang |
 | framework-decision-quality-checklist | 决策质量六问检查表 | framework | decision-science, yitang |
+| framework-deep-work-iceberg | L1-L5 深度工作冰山模型 | framework | yitang, time-management |
+| framework-demand-ceiling-four-lines | 需求天花板四层线：TAM/SAM/SOM/CR1/BEL | framework | yitang, demand-analysis |
 | framework-demand-iceberg | 需求洞察冰山模型：L1-L6六层深度推演框架 | framework | yitang, five-step-method |
 | framework-demand-lean-bridge | 需求判断与精益验证的衔接 | framework | yitang, lean-startup, five-step-method |
 | framework-demand-opportunity-spectrum | 商业机会预判·终局光谱图 | framework | yitang, five-step-method |
@@ -530,6 +534,8 @@
 | framework-strategy-three-horizons | 三个地平线：短中长期业务组合管理 | framework | strategy, portfolio |
 | framework-structured-analytic-techniques | 结构化分析技术（SATs）总览 | framework | research, strategy, critical-thinking |
 | framework-taste-as-judgment-system | 品味系统：判断力 × 审美 × 系统思维 | framework | ai-collaboration, product-design, decision-making |
+| framework-time-management-dual-loop-matrix | 时间管理双循环矩阵：独立/协作 × 重点/效率 | framework | yitang, time-management |
+| framework-time-management-matrix | 重要/紧急四象限（艾森豪威尔矩阵） | framework | yitang, time-management |
 | framework-wanghuan-actor-director-mode | 王欢人机协作框架：从演员到导演 | framework | src_unknown, src_unknown, src_unknown, src_unknown |
 | framework-wanghuan-ai-five-level-ladder | 王欢AI能力五层跃迁模型 | framework | src_unknown, src_unknown, src_unknown, src_unknown |
 | framework-wanghuan-bitcoe-prompt-framework | 王欢BITCOE提示词框架 | framework | src_unknown, src_unknown, src_unknown, src_unknown |
@@ -575,12 +581,18 @@
 | framework-yitang-research-weapon-supplement-2026 | 调研武器库补充：2025-2026年新武器——OSINT工具+Agent原生+替代数据+验证技术 | framework | yitang, research |
 | framework-yitang-research-weapon-system | 调研超级武器库：三层八模块十四节点 | framework | yitang, research |
 | framework-yitang-sales-incentive-6d | 一堂六维销售激励模型 | framework | business-strategy, management, yitang |
+| framework-yitang-sales-target-tradeoffs | 销售目标权衡框架 | framework | yitang, sales, business-strategy |
 | framework-yitang-scientific-sales-five-step | 一堂科学销售五步法 | framework | business-strategy, yitang, management |
 | framework-yitang-shishi-qiushi | 实事求是：把「我希望是真的」和「事实是什么」分开 | framework | epistemic-foundations, decision-science, yitang |
 | framework-yitang-six-layer-cross-validation | 六层交叉验证：从单源到多源的信息可信度提升 | framework | yitang, research |
 | framework-yitang-three-ring-ability-focus | 三环能力聚焦法：从 30 个能力中锁定 3 个重点 | framework | yitang, personal-growth |
+| framework-yitang-y-model-cross-domain-fusion | Y模型跨域融合框架 | framework | yitang, decision-science, methodology, ai-collaboration |
 | framework-yitang-y-model-dual-triangle-synergy | Y模型 × 双三角协同工作法 | framework | yitang, decision-science, ai-collaboration, methodology |
+| framework-一堂五步法-单元模型 | 一堂五步法·单元模型：斧子/尺子/梯子三角色 | framework | yitang, five-step-method |
+| framework-一堂五步法-增长周期 | 一堂五步法·增长周期：获客驱动/系统驱动/对抗驱动三阶段 | framework | yitang, five-step-method |
+| framework-一堂五步法-壁垒 | 一堂五步法·壁垒：六大护城河+真假壁垒判断 | framework | yitang, five-step-method |
 | framework-一堂五步法-泛产品设计 | 一堂五步法在泛产品设计中的应用 | framework | panproduct, yitang, methodology |
+| framework-一堂五步法 | 一堂五步法：从机会预判到规模化的五步闭环 | framework | yitang, five-step-method |
 | framework-个人成长五步法 | 个人成长五步法：Truman的个人版本 | framework | yitang, decision-science |
 | framework-单元模型-外部对抗地图 | 外部对抗地图 | framework |  |
 | framework-科学决策三角形 | 科学决策三角形：宽度×高度×深度三维决策框架 | framework | yitang, decision-science |
@@ -636,10 +648,10 @@
 | yt-model-pan-product-climbing-map | 泛产品十年爬山地图：L1-L6 成长路径（升级版） | framework | panproduct, yitang, deliberate-practice, personal-growth |
 | yt-model-pan-product-three-virtues | 泛产品三大自我修养：用户价值×最佳实践×无限进步 | framework | panproduct, yitang, personal-development, design-thinking |
 | yt-product-kernel-hypothesis-test | 内核假设测试：低成本验证方法 | framework | src_unknown |
-| yt-product-kernel-iteration | 产品内核迭代：五种迭代方向 | framework | src_unknown |
+| yt-product-kernel-iteration | 产品内核迭代：五方向 × 五案例 × 触发信号 | framework | product, yitang |
 | yt-product-kernel-six-levels | 产品内核六个段位：从缺价值意识到全面迁移 | framework | src_unknown |
 | yt-product-kernel-to-business-model | 从内核到商业模式：承上启下 | framework | src_unknown |
-| yt-product-kernel-validation | 产品内核验证：三维度验证法 | framework | src_unknown |
+| yt-product-kernel-validation | 产品内核验证：三维度评估 × 六策略阶梯 | framework | product, yitang |
 | yt-tob-barriers | To B 业务壁垒：选择、强弱判断与规模不经济对抗 | framework | src_unknown, src_unknown, src_unknown, src_unknown |
 | yt-tob-core-characteristics | To B 三大核心特性：角色分离、务实理性、周期较长 | framework | src_unknown, src_unknown, src_unknown, src_unknown |
 | yt-tob-customer-tiering | To B 客户分层：头部、腰部、腿部 | framework | src_unknown, src_unknown, src_unknown, src_unknown |
@@ -706,8 +718,8 @@
 | tool-Truman-职场异步协作提问法 | 技能：职场异步协作提问法 | tool | ai-collaboration, yitang- yitang |
 | tool-Truman-语义对齐沟通法 | 技能：语义对齐沟通法 | tool | ai-collaboration, yitang- yitang |
 | tool-Truman-问题定义澄清法 | 技能：问题定义澄清法 | tool | ai-collaboration, yitang- yitang |
-| tool-Y模型STEPS策略集 | Y模型STEPS策略集：五步策略框架 | tool | yitang, decision-science |
-| tool-Y模型实操工作流 | Y模型实操工作流：从分析到决策的完整路径 | tool | yitang, decision-science |
+| tool-Y模型STEPS策略集 | Y模型STEPS策略集：五步策略框架 | tool | yitang, decision-science, methodology |
+| tool-Y模型实操工作流 | Y模型实操工作流：从分析到决策的完整路径 | tool | yitang, decision-science, methodology |
 | tool-agent-crawl4ai | Crawl4AI：开源AI爬虫——自然语言描述即可提取 | tool | yitang, research, ai-collaboration |
 | tool-agent-firecrawl | Firecrawl：专为LLM设计的Web抓取API | tool | yitang, research, ai-collaboration |
 | tool-agent-native-overview | Agent原生调研工具总览：2025-2026新范式 | tool | yitang, research, ai-collaboration |
@@ -764,6 +776,7 @@
 | tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian | 技能：用 YAML 格式做知识库原子化标签 | tool | ai-collaboration, yitang- ai-collaboration |
 | tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju | 技能：优先使用官方权威信源做证据 | tool | src_unknown, yitang- src_unknown |
 | tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan | 技能：追问 AI 证据并标注信源 | tool | src_unknown, yitang- src_unknown |
+| tool-bimodal-time-blocking | 双峰工作块 (Bimodal Time Blocking) | tool | yitang, time-management |
 | tool-binary-quadrant-modeling | 二分法/象限图建模法：用正交维度做分类与取舍 | tool | src_unknown, src_unknown, src_unknown |
 | tool-candy-oral-polish | Candy口语化润色：七条原则让文字"读出声来" | tool | yitang, content-production |
 | tool-candy-positioning-canvas | Candy差异化定位画布：回答"这篇东西凭什么存在" | tool | yitang, content-production |
@@ -774,6 +787,7 @@
 | tool-clinic-cabinet-legal-contract-guide | 诊所+智能药柜合作的法律关系与合同要点 | tool | healthcare, business-strategy |
 | tool-clinic-medical-shortvideo-compliance | 诊所医疗短视频/个人 IP 合规边界 checklist | tool | healthcare, business-strategy |
 | tool-cognitive-bias-12-check | 技能：12种认知偏差完整自检 | tool | decision-making, 认知, 心理学 |
+| tool-dark-time-harvesting | 暗时间利用 (Dark Time Harvesting) | tool | yitang, time-management |
 | tool-decision-delay-intuition | 技能：延迟直觉法 | tool | decision-making, 认知, 个人管理 |
 | tool-decision-outside-view | 技能：团队决策外部视角法 | tool | decision-making, 团队, 噪声减少 |
 | tool-demand-agent-auto-verify | Agent L6自动预验证：RAT的竞品数据+趋势快速验证 | tool | yitang, five-step-method, ai-collaboration |
@@ -784,6 +798,7 @@
 | tool-demand-agent-signals | Agent L1-L2信号聚合：替代"凭经验猜用户" | tool | yitang, five-step-method, ai-collaboration |
 | tool-demand-assessment-triangle | 需求评估三角形：普遍性×频次×刚性 | tool | yitang, five-step-method |
 | tool-demand-blindspot-checklist | 2B/2C盲区和机会清单：场景拆解的维度小抄 | tool | yitang, five-step-method |
+| tool-demand-chai-tui-ping-suan-guide | 拆推评算使用指南：工具箱而非工作流 | tool | yitang, demand-analysis |
 | tool-demand-four-forces | 四种力量建模：用户切换决策的博弈机制 | tool | yitang, five-step-method |
 | tool-demand-iceberg-l1-user | L1粗拆用户标签：识别任务执行者的核心角色 | tool | yitang, five-step-method |
 | tool-demand-iceberg-l2-scenario | L2粗拆场景问题：捕捉表层的痛点和需求 | tool | yitang, five-step-method |
@@ -791,13 +806,17 @@
 | tool-demand-iceberg-l4-job-map | L4任务地图：全流程8步推演+摩擦点识别 | tool | yitang, five-step-method |
 | tool-demand-iceberg-l5-forces | L5隐藏洞察：四种力量+三种任务+微观体感 | tool | yitang, five-step-method |
 | tool-demand-iceberg-l6-hypothesis | L6需求假设：机会卡片+最危险假设(RAT) | tool | yitang, five-step-method |
-| tool-demand-report-template | 需求分析报告模板——TAM/SAM/CR1 + 策略 + 假设 + 元认知提醒 | tool |  |
+| tool-demand-micro-experience-script | 微观体感访谈脚本生成器：基于L4崩溃点生成5感访谈问题 | tool | yitang, demand-analysis |
+| tool-demand-option-explorer | 需求选项探讨工具：USP追问+控变量+找盲区 | tool | yitang, demand-analysis |
+| tool-demand-rat-generator | RAT生成器：从L5洞察自动生成最危险假设清单 | tool | yitang, demand-analysis |
+| tool-demand-report-template | 需求分析报告模板：融资版与经营版双版本 | tool | yitang, demand-analysis |
 | tool-devils-advocacy | Devil's Advocacy（魔鬼代言人） | tool | research, critical-thinking, decision |
 | tool-dns-intelligence | DNS情报：从域名和网络基础设施反推竞对动态 | tool | yitang, research |
 | tool-doris-industry-report-search-tips | 行业报告搜索七技：三级搜索能力+渠道清单 | tool | yitang, research |
 | tool-doris-industry-report-source-evaluation | 行业报告可信度评估：多信数据，少信观点 | tool | yitang, research |
 | tool-essence-nfactor-modeling | 本质/N要素建模法：提炼不可再约的核心变量 | tool | src_unknown, src_unknown, src_unknown |
 | tool-first-principles-assumption-classify | 技能：假设分类法（第一性原理） | tool | learning-methodology- 创新, 思维, 产品 |
+| tool-focus-environment-sop | 专注环境SOP (Focus Environment SOP) | tool | yitang, time-management |
 | tool-funnel-formula-modeling | 漏斗图/公式建模法：量化流程与关键变量 | tool | src_unknown, src_unknown, src_unknown |
 | tool-google-dorking | Google Dorking：高级搜索语法——挖出搜索引擎的隐藏信息 | tool | yitang, research |
 | tool-harness-adversarial-tester | 对抗测试员：成功标准是"找到bug" | tool | yitang, ai-collaboration |
@@ -824,6 +843,7 @@
 | tool-mckinsey-hypothesis-driven-workflow | 技能：假设驱动工作流 | tool | src_unknown, src_unknown |
 | tool-mece体系框架法 | 技能：MECE体系框架法 | tool | src_unknown |
 | tool-media-verification-overview | 媒体验证技术总览：判断"对方说的是不是真的" | tool | yitang, research |
+| tool-meeting-room-match | 会议场域匹配 (Meeting Room Match) | tool | yitang, time-management |
 | tool-metadata-extraction | 元数据提取：从文件中提取隐藏信息 | tool | yitang, research |
 | tool-note-keyword-bolding | 关键词加粗三重结构：视觉重心即认知重心的标记法则 | tool | learning-methodology- yitang, note-taking |
 | tool-note-layer-constraint | 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准 | tool | src_unknown, src_unknown |
@@ -844,6 +864,7 @@
 | tool-prompt-jtbd-scenario-coach | JTBD 场景推演教练——六层需求深挖提示词模板 | prompt-template |  |
 | tool-prompt-usp-demand-analysis | USP 深度洞察引擎——需求分析提示词模板 | prompt-template | src_unknown |
 | tool-prompt-usp-quick-scan | USP 快速需求拆解——3分钟单轮提示词模板 | prompt-template |  |
+| tool-public-scheduling | 公开排期 (Public Scheduling) | tool | yitang, time-management |
 | tool-radar-chart-modeling | 雷达图建模法：多维度评估与筛选 | tool | src_unknown, src_unknown, src_unknown |
 | tool-react行动推理循环 | 技能：ReACT行动推理循环 | tool | ai-collaboration- ai-saas, yitang |
 | tool-red-team-analysis | Red Team Analysis（红队分析/竞对视角模拟） | tool | research, strategy, competitive-intelligence |
@@ -887,9 +908,12 @@
 | tool-strategy-three-horizons | 三个地平线：现金流（现在）/增长（1-3年）/种子（3-5年） | tool | strategy |
 | tool-strategy-value-capture | 价值获取设计工具：8 问盈利模型 | tool | strategy, business_model |
 | tool-strategy-value-proposition | 价值主张设计工具：三问 + 六维排序法 | tool | strategy, marketing |
+| tool-task-depth-decomposition | 任务深度拆解 (Task Depth Decomposition) | tool | yitang, time-management |
+| tool-team-task-pool | 团队任务池 (Team Task Pool) | tool | yitang, time-management |
 | tool-tech-probability-80-filter | 李开复 80% 概率过滤器 | tool | ai_collaboration, critical_thinking, business_judgment |
 | tool-wanghuan-ai-business-profile | 王欢AI业务档案5字段工具 | tool | src_unknown, src_unknown, src_unknown, src_unknown |
 | tool-wanghuan-ai-dual-role-coach | 王欢：AI 双角色教练对练工具 | tool |  |
+| tool-weekly-hypothesis-experiment | 每周假设实验 (Weekly Hypothesis Experiment) | tool | yitang, time-management |
 | tool-yihang-agent-config-7steps | Agent 配置 7 步法：人类画像 + 规则匹配 | tool | ai-collaboration, yitang |
 | tool-yihang-dual-triangle-canvas | 一行双三角画布（三版合一） | tool | yitang, ai-collaboration, planning |
 | tool-yihang-dual-triangle-oral-spray | 口喷：双三角内功 + 九字诀外功——语音驱动 AI 协作 | tool | ai-collaboration, yitang |
@@ -926,8 +950,12 @@
 | tool-yitang-content-ip-research | 内容IP/MCN调研手段：浅中深三层10大评估法 | tool | yitang, research |
 | tool-yitang-court-record-search | 裁判文书检索：从法律纠纷中挖掘商业情报 | tool | yitang, research |
 | tool-yitang-customer-segmentation-4step | 一堂用户分层四步法（SABC 分级） | tool | yitang, business-strategy, product |
+| tool-yitang-daily-weekly-meeting-hosting | 日会 / 周会 SOP 与主持模板 | tool | yitang, sales, business-strategy |
 | tool-yitang-database-index | 第三方数据库与行业报告来源索引 | tool | yitang, research |
 | tool-yitang-douyin-data | 抖音数据：直播电商和短视频趋势追踪 | tool | yitang, research |
+| tool-yitang-dual-triangle-agent-handoff-protocol | 子域 Agent 转交协议 | tool | yitang, ai-collaboration |
+| tool-yitang-dual-triangle-domain-registry | 双三角域注册与扩展协议 | tool | yitang, ai-collaboration |
+| tool-yitang-dual-triangle-scenario-router | 双三角场景路由表 | tool | yitang, ai-collaboration |
 | tool-yitang-employee-directory | 员工公开名录：从通讯录取组织架构 | tool | yitang, research |
 | tool-yitang-executive-speech-analysis | 高管公开发言分析：从CEO讲话中提取战略信号 | tool | yitang, research |
 | tool-yitang-expert-network-platform | 专家网络付费平台：快速找到对的人 | tool | yitang, research |
@@ -946,6 +974,7 @@
 | tool-yitang-industry-report-search | 行业报告搜索：拓宽关键词+多平台交叉 | tool | yitang, research |
 | tool-yitang-ipo-annual-report-cheat-sheet | 上市公司报告价值Cheat Sheet：创业各阶段该读什么 | tool | yitang, research |
 | tool-yitang-job-intelligence-research | 招聘渠道情报：五层递进挖掘竞对内部信息 | tool | yitang, research |
+| tool-yitang-listening-37-rule | 阿里铁军聆听三七法则执行卡 | tool | yitang, sales, business-strategy |
 | tool-yitang-method-ab-sides-checklist | 创业方法 AB 面清单：对立金句的适用场景判断 | tool | yitang, decision-science |
 | tool-yitang-news-monitoring | 新闻媒体监控：从报道频率和角度追踪竞对 | tool | yitang, research |
 | tool-yitang-online-product-experience | 线上产品完整体验：从注册到售后的全流程 | tool | yitang, research |
@@ -953,6 +982,7 @@
 | tool-yitang-overseas-research | 出海调研手段：浅中深三层10大评估法 | tool | yitang, research |
 | tool-yitang-partner-data-analysis | 合作方案数据：从合作方拿到的真实数字 | tool | yitang, research |
 | tool-yitang-patent-analysis | 专利分析：从知识产权反推技术路线 | tool | yitang, research |
+| tool-yitang-payment-collection-playbook | 回款 / 催款 / 履约阶段 playbook | tool | yitang, sales, business-strategy |
 | tool-yitang-pc-web-data | PC/Web端数据：传统互联网的数据来源 | tool | yitang, research |
 | tool-yitang-people-network-database | 人脉库检索：系统化搜索目标公司的员工 | tool | yitang, research |
 | tool-yitang-practice-20hour-starter | tool-yitang-practice-20hour-starter | ? |  |
@@ -1005,6 +1035,7 @@
 | tool-yitang-review-analysis | 差评分析：系统化提取竞品缺陷 | tool | yitang, research |
 | tool-yitang-sales-performance-management | 一堂销售业绩管理三步法 | tool | yitang, business-strategy, management |
 | tool-yitang-sales-process-decomposition | 一堂销售过程拆解三步法（用户决策路径地图） | tool | yitang, business-strategy, management |
+| tool-yitang-sales-toolkit-maturity-60-75-85 | 销售工具武器库成熟度盘点 | tool | yitang, sales, business-strategy |
 | tool-yitang-sales-toolkit-radar | 一堂销售工具箱六维雷达图 | tool | yitang, business-strategy |
 | tool-yitang-securities-research | 证券研报：券商分析师的行业深度报告 | tool | yitang, research |
 | tool-yitang-security-guard-intel | 保安/门卫情报：非正式但有效的信息源 | tool | yitang, research |
@@ -1019,6 +1050,7 @@
 | tool-yitang-supplier-interview | 供应商访谈：从供应链端获取竞对数据 | tool | yitang, research |
 | tool-yitang-supply-chain-research | 供应链/合作方情报：从合作方口中拿到竞对的水下数据 | tool | yitang, research |
 | tool-yitang-tech-project-research | 科技型项目调研手段：浅中深三层10大评估法 | tool | yitang, research |
+| tool-yitang-three-second-opening-scripts | 一通电话前三秒话术优化卡 | tool | yitang, sales, business-strategy |
 | tool-yitang-trend-data | 趋势数据查询：行业走向的定量判断 | tool | yitang, research |
 | tool-yitang-user-interview-5steps | 用户访谈五步执行法：画像·场景·信任·提问·判断 | tool | yitang, research |
 | tool-yitang-value-proposition-4step | 一堂卖点提炼四步法：把功能语言变成客户愿意掏钱的价值语言 | tool | business-strategy, yitang, product |
@@ -1044,10 +1076,14 @@
 | tool-一堂-business-prediction-15-char | tool-一堂-business-prediction-15-char | ? |  |
 | tool-一堂-five-step-validation | tool-一堂-five-step-validation | ? |  |
 | tool-一堂-hypothesis-validation-three-axe | 技能：假设验证三板斧 | tool |  |
+| tool-一堂-kernel-six-verification-strategies | 聊问查测盘赌 — 产品内核六策略完整操作手册 | tool | yitang, product-kernel |
 | tool-一堂-kernel-three-questions | 技能：内核要素三问验证法 | tool |  |
 | tool-一堂-product-kernel-add-subtract | 技能：产品内核加减法 | tool |  |
 | tool-一堂-product-kernel-canvas | 一堂产品内核画布应用技能 | tool | src_unknown |
 | tool-一堂-spectrum-positioning | 技能：光谱模型定位法 | tool |  |
+| tool-一堂五步法-ToB-十八式-checklist | ToB五步法十八式速查：必知必会导航 | tool | yitang, five-step-method |
+| tool-一堂五步法-换档检查清单 | 五步法换档检查清单：每步的验收条件与常见卡点 | tool | yitang, five-step-method |
+| tool-一堂五步法-段位升级三部曲 | 段位升级三部曲自检：从会用到出神入化 | tool | yitang, five-step-method |
 | tool-三层目标对齐法 | 技能：三层目标对齐法 | tool | src_unknown |
 | tool-三阶追问法穷尽决策要素 | 技能：三阶追问法穷尽决策要素 | tool | management, decision-making, yitang |
 | tool-专家访谈十步法 | 技能：专家访谈十步法 | tool | research- design, yitang |
@@ -1361,6 +1397,8 @@
 | tool-泛产品落地-酝酿式打磨 | 落地卡片：酝酿式打磨 | tool | yitang, decision-science |
 | tool-泛产品落地-里程碑拆解 | 落地卡片：里程碑拆解 | tool | yitang, decision-science |
 | tool-泛产品落地-风险管理 | 落地卡片：风险管理 | tool | yitang, decision-science |
+| tool-泛产品设计-出牌指南 | 泛产品设计·出牌指南 | tool | yitang, pan-product |
+| tool-泛产品设计-需求可行性四字诀 | 泛产品设计·需求可行性四字诀（拆推评算） | tool | yitang, pan-product |
 | tool-泛产品设计-需求工具箱指南 | 需求工具箱指南 | tool | yitang, decision-science |
 | tool-深度分层学习 | 技能：深度分层学习 | tool | learning-methodology- product, decision-making, yitang |
 | tool-清单小抄制作 | 技能：清单小抄制作 | tool | learning-methodology- management, kdo, yitang, business-strategy |
@@ -1534,6 +1572,7 @@
 | case-demand-elderly-smart-device | 案例：老年智能设备——USP模型中的用户边界 | case | yitang, five-step-method |
 | case-demand-equestrian-three-tasks | 案例：马术三层任务——功能/情感/社交的完美展演 | case | yitang, five-step-method |
 | case-demand-financial-literacy | 案例：少儿财商教育——刚性误判 | case | yitang, five-step-method |
+| case-demand-iceberg-few-shot | 需求冰山Few-Shot案例库：奶昔/银发育儿/挂脖空调/马术课 | case | yitang, demand-analysis |
 | case-demand-indonesia-insurance | 案例：印尼寿险分支——场景错配 | case | yitang, five-step-method |
 | case-demand-milkshake-jtbd | 案例：奶昔JTBD——经典的任务洞察 | case | yitang, five-step-method |
 | case-demand-pharma-bigdata | 案例：大数据私有化在创新药领域的切入——评估三角形实战 | case | yitang, five-step-method |
@@ -1614,9 +1653,10 @@
 | case-popmart-prospectus-pricing | 案例：泡泡玛特招股书——IP产品毛利率60-70% | case | yitang, research |
 | case-private-domain-ecommerce-formula | 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升级路径" | case | yitang, e-commerce, business-strategy |
 | case-proya-betaine-skincare-benchmark | 案例：贝泰妮招股书——敏感肌市场的完整画像 | case | yitang, research |
+| case-qinpeng-iot-module-tiering | 案例：秦鹏通信模组——从"半价策略"到用户分层+四格服务矩阵的产品内核进化 | case | yitang, product-kernel |
 | case-roblox-ai-npc-education | Roblox AI NPC 与教育场景 | case | ai_collaboration, critical_thinking, business_judgment |
 | case-saas-renewal-formula | ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户"用起来" | case | yitang, ai-saas, business-strategy |
-| case-shampoo-product-kernel | 洗发水产品内核：从卖点混淆到内核清晰的产品定义案例 | case | product, yitang |
+| case-shampoo-product-kernel | 案例：洗发水产品内核——从"包装好看"到"竞品拆解→专家访谈→用户访谈→排列组合测试"的完整验证路径 | case | yitang, product-kernel |
 | case-smart-medicine-cabinet-business-model-validation | 智能药柜推广项目：录音商业模式命题交叉验证 | case | healthcare, business-strategy |
 | case-smart-medicine-cabinet-corporate-risk | 智能药柜推广项目：公司/股权/资金风险诊断 | case | healthcare, business-strategy |
 | case-smart-medicine-cabinet-failure-patterns-library | 智能药柜失败模式案例库 | case | src_unknown, src_unknown |
@@ -1667,8 +1707,10 @@
 | case-truman-motivation-map-12-versions | 动机地图12版迭代：先观察再设计——Truman的用户行为驱动迭代法 | case | src_unknown, src_unknown |
 | case-truman-personal-growth-map-creation | Truman 个人地图创作全历程：七步创作法与 AI 判断（创作者视角） | case | src_unknown, src_unknown |
 | case-truman-poker-deck-roi | 扑克牌案例：同样的任务，两个同学评估结果截然相反 | case | src_unknown, src_unknown, src_unknown |
+| case-truman-praise-wall-precondition | 案例：Truman 赞美墙——用"积极情绪前置"为深度工作预热场景质量 | case | yitang, time-management |
 | case-truman-prd-checklist-evolution | Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平 | case | src_unknown, src_unknown |
 | case-truman-sales-report-structure | 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链 | case | 工作汇报, 复盘结构化 |
+| case-truman-shower-toilet-ideation | 案例：Truman 洗澡/厕所灵感爆发——暗时间如何在"脑力CPU不饱和"时产出高价值创意 | case | yitang, time-management |
 | case-truman-time-management-commute-experiment | Truman 通勤实验：用时间审计把「废时间」变成产能杠杆 | case | time-management, personal-productivity, yitang |
 | case-truman-yitang-foresight | Truman一堂：市场扫描→六方向→Plan ABC试错 | case | yitang |
 | case-unit-model-gashapon | 扭蛋机案例：玩具店规模化扩张三阶段决策 | case |  |
@@ -1722,6 +1764,7 @@
 | case-yihang-dual-triangle-人类三角-练体系 | 人类三角-练体系 — 双三角案例 | case | ai-collaboration, yitang |
 | case-yihang-dual-triangle-人练体系 | 人练体系 — 双三角案例 | case | ai-collaboration, yitang |
 | case-yihang-dual-triangle-双三角-竞争力武器库 | 双三角-竞争力武器库 — 双三角案例 | case | ai-collaboration, yitang |
+| case-yitang-200th-launch-depth-split | 案例：一堂第200期发布会——"先把任务按深度拆开，圆的配圆的时间，方的配方的时间" | case | yitang, time-management |
 | case-yitang-2022-annual-lessons | 案例：一堂2022初五大课复盘——用四步闭环管理一堂自己的D级战略项目 | case | yitang, management |
 | case-yitang-Y-model-advertising-turnaround | 一堂抖音 AD 投放扭亏：Y模型科学投放实战 | case | epistemic-foundations, marketing, yitang |
 | case-yitang-Y-model-seven-applications | Y模型七人跨域应用案例集 | case | epistemic-foundations, yitang |
@@ -1731,12 +1774,14 @@
 | case-yitang-amazon-growth-flywheel | 案例：亚马逊增长飞轮的五层逻辑 | case | yitang, growth, strategy |
 | case-yitang-aquaculture-stress-protection | 案例：水产养殖——从行业经验到学科原理的上层创新 | case | yitang |
 | case-yitang-beauty-device-overseas-sales | 案例：美容仪出海——用行业报告判断海外市场 | case | yitang, research |
+| case-yitang-chuanhe-seasoning-kernel | 案例：川味调料供应链——从"厂家直销"到"买底料+全程帮扶"的六次产品内核迭代 | case | yitang, product-kernel |
 | case-yitang-coke-spill-compensation | 案例：可乐撒了——ROI/Y模型重构客户赔偿流程 | case | yitang |
 | case-yitang-competitor-pricing-intelligence | 案例：假装订货套取竞品真实价格 | case | yitang, research |
 | case-yitang-consumer-offline-channel-decision | 案例：消费品线下渠道决策——先访谈再算账 | case | yitang, research |
 | case-yitang-copywriting-time-decomposition | 一堂文案团队时间拆解：把「写稿」拆成可测量的工序 | case | time-management, marketing, yitang |
 | case-yitang-county-led-wrong-analogy | 案例：县城 LED 屏对标分众——错误类比忽视前提条件 | case | yitang, decision-science |
 | case-yitang-course-start-time-evolution | 案例：一堂开课时间——从"同行七八点"到"用户真正需要九点" | case | yitang |
+| case-yitang-curtain-listening | 案例：一堂帘子隔音——用物理隔离在开放式办公中创造"可调场景质量" | case | yitang, time-management |
 | case-yitang-doorstep-nail-service-context | 案例：上门美甲——在用户真实场景中访谈 | case | yitang, research |
 | case-yitang-doorstep-pet-feeding-trust | 案例：上门宠物喂养——用调研解决信任障碍 | case | yitang, research |
 | case-yitang-double-triangle-confidence | 案例：一堂把双三角模型变成 AI 难题的通用解题底盘 | case | src_unknown, src_unknown, src_unknown |
@@ -1756,6 +1801,7 @@
 | case-yitang-mahjong-machine-fake-order | 案例：假装订货套取麻将机竞品数据 | case | yitang, research |
 | case-yitang-maiyi-cloud-computer-channel | 案例：马毅云电脑如何扫描 60+ 渠道实现 3.7 亿营收 | case | yitang, growth, b2b |
 | case-yitang-mao-scientific-culture | 案例：毛泽东"主义清单"——红蓝卡的历史原型 | case | yitang |
+| case-yitang-meeting-room-match | 案例：一堂会议室场景匹配——同一个屋子不同布置，产出效率差一倍 | case | yitang, time-management |
 | case-yitang-milktea-bonus-design | 案例：奶茶店奖金——追问"发奖金的本质"重构薪酬设计 | case | yitang |
 | case-yitang-model-asset-inventory | 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式 | case | src_unknown, src_unknown, src_unknown |
 | case-yitang-model-valuation-flywheel | 案例：一堂内部给模型"定价"——从 5000 元到 10 万美金的价值飞轮 | case | yitang, 组织激励, 模型质量管理 |
@@ -1813,6 +1859,7 @@
 | case-yitang-ymodel-children-reading-retention | Y模型 案例：小学生在线阅读——外行看一眼画布就能平等对话 | case | yitang |
 | case-yitang-ymodel-vicki-cross-domain-transfer | Y模型 案例：Vicki 开店→短视频跨域迁移——Y模型 比五步法更底层 1-2 层 | case | yitang |
 | case-yitang-ymodel-watermelon-challenge | Y模型 案例：拍西瓜满级挑战——1000次循环从普通人到顶尖选手 | case | yitang |
+| case-yitang-zhongzheng-parking-garage | 案例：立体车库——从12车位样机到全自动无人化部署的产品内核迭代 | case | yitang, product-kernel |
 | case-zhanglan-amusement-park-undercover | 案例：张兰假扮游乐园店长卧底15天 | case | yitang, research |
 | case-zhanglei-furniture-overseas-market-selection | 案例：张磊——洗衣液蹲超市+假扮促销员 | case | yitang, research |
 | case-zhanglei-nursing-home-family | 案例：假扮孙子调研养老院真实状况 | case | yitang, research |
@@ -2062,8 +2109,10 @@
 | yt-note-ai-p-role-not-c-role | AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考 | dk | learning-methodology |
 | yt-note-p-c-role-boundary-realworld | P/C 角色真实场景边界与切换条件（基于聊天记录案例） | dk | learning-methodology |
 | yt-note-three-level-evolution | 碎片化→结构化→体系化：笔记认知的三级进化跃迁 | dk | learning-methodology |
+| yt-product-kernel-cost-sensitive-default-no | 成本敏感默认不：高成本低信息的价值项死守不做 | dk | product, yitang |
 | yt-product-kernel-do-without-belief | "做而不信"陷阱：执行了流程，但不相信结果 | dk | product |
 | yt-product-kernel-failure-modes | 产品内核失败模式 | dk | product |
+| yt-product-kernel-overpromise-trap | 过度承诺陷阱：前端卖了后端做不出来的东西 | dk | product, yitang |
 | yt-product-kernel-premature-optimization | 过早细化陷阱：在验证前追求完美 | dk | product |
 | Kimi-月之暗面 | Kimi（月之暗面） | entity | kdo, product, ai-saas, design |
 | YC-Y-Combinator | Y Combinator | entity | entrepreneurship, ai-saas, management, business-strategy |
