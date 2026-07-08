@@ -94,6 +94,7 @@ updated: 2026-07-03
    - 查 SQLite：`SELECT * FROM zhu_decisions ORDER BY ts DESC LIMIT 10`（最近10条决策）
    - **不理解用户模型就不知道产出物应该是什么形式、什么深度、什么风格。**
 2. Read `startup.md`（工厂全局）
+2.5. **🆕 检查能力中台**：`python -m cap_hub list`（知道现在有什么工具、说明书、Agent 配置可用，编排任务前必查）
 3. Read `.agent/kb-evolution-direction.md`（当前进化方向）
 4. Read `70_product/tasks/production-queue.md`（生产队列状态）
 5. Read `70_product/tasks/dashboard.md`（任务全景）

@@ -1,46 +1,48 @@
 ---
 id: task_20260708_wangyuyan-y-model-cross-domain-fusion-and-coach-agent
 title: Y模型 / 实事求是 / 解放思想 跨域融合：总框架卡 + 跨域 Coach Agent Spec
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童
+assignee: kimi-code
 reviewer: 欧阳锋
 expected_cards: 9
 expected_agent_specs: 1
 expected_diagnosis_updates: 5
 source_refs:
-  - 60_feedback/diagnosis/diag_20260708_yitang-y-model-cross-domain-fusion-deep-dive-v2.md
-  - 30_wiki/concepts/yt-decision-y-model.md
-  - 30_wiki/systems/system-yitang-Y-model-os.md
-  - 30_wiki/methods/method-yitang-y-model-engine-cycle.md
-  - 30_wiki/frameworks/framework-yitang-y-model-dual-triangle-synergy.md
-  - 30_wiki/frameworks/framework-yitang-shishi-qiushi.md
-  - 30_wiki/frameworks/framework-yitang-jiefang-sixiang.md
-  - 30_wiki/tools/tool-yitang-Y-model-application.md
-  - 30_wiki/tools/tool-Y模型实操工作流.md
-  - 30_wiki/tools/tool-Y模型STEPS策略集.md
-  - 30_wiki/dark-knowledges/dk-yitang-Y-model-pitfalls.md
+- 60_feedback/diagnosis/diag_20260708_yitang-y-model-cross-domain-fusion-deep-dive-v2.md
+- 30_wiki/concepts/yt-decision-y-model.md
+- 30_wiki/systems/system-yitang-Y-model-os.md
+- 30_wiki/methods/method-yitang-y-model-engine-cycle.md
+- 30_wiki/frameworks/framework-yitang-y-model-dual-triangle-synergy.md
+- 30_wiki/frameworks/framework-yitang-shishi-qiushi.md
+- 30_wiki/frameworks/framework-yitang-jiefang-sixiang.md
+- 30_wiki/tools/tool-yitang-Y-model-application.md
+- 30_wiki/tools/tool-Y模型实操工作流.md
+- 30_wiki/tools/tool-Y模型STEPS策略集.md
+- 30_wiki/dark-knowledges/dk-yitang-Y-model-pitfalls.md
 related:
-  - "[[diag_20260708_yitang-y-model-cross-domain-fusion-deep-dive-v2]]"
-  - "[[yt-decision-y-model]]"
-  - "[[system-yitang-Y-model-os]]"
-  - "[[method-yitang-y-model-engine-cycle]]"
-  - "[[framework-yitang-y-model-dual-triangle-synergy]]"
-  - "[[framework-yitang-shishi-qiushi]]"
-  - "[[framework-yitang-jiefang-sixiang]]"
-  - "[[tool-agent-spec-yitang-Y-model-coach]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[framework-yitang-five-step-to-time-management]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
+- '[[diag_20260708_yitang-y-model-cross-domain-fusion-deep-dive-v2]]'
+- '[[yt-decision-y-model]]'
+- '[[system-yitang-Y-model-os]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+- '[[framework-yitang-y-model-dual-triangle-synergy]]'
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[framework-yitang-jiefang-sixiang]]'
+- '[[tool-agent-spec-yitang-Y-model-coach]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[framework-yitang-five-step-to-time-management]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
 created_at: 2026-07-08
-updated_at: 2026-07-08
+updated_at: '2026-07-08T17:26:53.510450+00:00'
 ---
 
 # Y模型 / 实事求是 / 解放思想 跨域融合：总框架卡 + 跨域 Coach Agent Spec
 
 > 来源：`diag_20260708_yitang-y-model-cross-domain-fusion-deep-dive-v2.md`
 > 王语嫣判断：用户明确指出“一堂所有课程最底层和本质的是 Y模型，是实事求是和解放思想，能够跨域做下深挖，融合贯通”。Y模型 核心卡族和各域诊断报告已经把单域映射挖深，但缺少一张跨域总框架卡和一个能调度子域 Agent 的跨域 Coach Agent。本任务聚焦把 Y模型 从“各域各自引用”升级为“可被 Agent 调用的元导航层”。
+> 
+> **领取安排**：等 #143 跨域双三角诊断 Agent 过审后，由 **Kimi Code CLI 实例** 领取执行。
 
 ---
 

@@ -1,43 +1,45 @@
 ---
 id: task_20260708_wangyuyan-five-step-method-orchestrator-supplement
 title: 一堂五步法域 P0-P2 补产：总框架卡 + 子框架卡 + orchestrator Agent Spec
-status: queued
+status: in_progress
 priority: P0
-assignee: 老顽童
+assignee: hermes
 reviewer: 欧阳锋
 expected_cards: 10
 expected_agent_specs: 1
 source_refs:
-  - 60_feedback/diagnosis/diag_20260708_yitang-five-step-method-deep-dive-v2.md
-  - 00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt L39-L58,L331-L390,L372-L376,L582-L589,L866-L980,L1274,L1921-L1926
-  - 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt L425-L427,L1222-L1234
-  - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt L6-L10
-  - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L527-L528,L574-L589
-  - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-十大单元模型清单_paddle_ocr.txt
-  - 00_inbox/一堂五步法/一堂-一堂五步法-增长-增长周期模型_paddle_ocr.txt
-  - 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-假的壁垒_paddle_ocr.txt
-  - 00_inbox/一堂五步法/一堂-toB五步法-必知必会十八式-图片_paddle_ocr.txt
-  - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-段位升级三部曲_paddle_ocr.txt
+- 60_feedback/diagnosis/diag_20260708_yitang-five-step-method-deep-dive-v2.md
+- 00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt L39-L58,L331-L390,L372-L376,L582-L589,L866-L980,L1274,L1921-L1926
+- 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt L425-L427,L1222-L1234
+- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt L6-L10
+- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L527-L528,L574-L589
+- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-十大单元模型清单_paddle_ocr.txt
+- 00_inbox/一堂五步法/一堂-一堂五步法-增长-增长周期模型_paddle_ocr.txt
+- 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-假的壁垒_paddle_ocr.txt
+- 00_inbox/一堂五步法/一堂-toB五步法-必知必会十八式-图片_paddle_ocr.txt
+- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-段位升级三部曲_paddle_ocr.txt
 related:
-  - "[[diag_20260708_yitang-five-step-method-deep-dive-v2]]"
-  - "[[yt-five-step-method]]"
-  - "[[yt-entrepreneur-five-step-method]]"
-  - "[[yt-model-five-step-canvas]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[yt-five-step-method-complete]]"
-  - "[[yt-five-step-cross-step-1]]"
-  - "[[yt-five-step-cross-step-2]]"
-  - "[[yt-five-step-cross-step-3]]"
-  - "[[tool-一堂-five-step-validation]]"
-  - "[[case-five-step-fake-vs-real-barriers]]"
+- '[[diag_20260708_yitang-five-step-method-deep-dive-v2]]'
+- '[[yt-five-step-method]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-model-five-step-canvas]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[yt-five-step-method-complete]]'
+- '[[yt-five-step-cross-step-1]]'
+- '[[yt-five-step-cross-step-2]]'
+- '[[yt-five-step-cross-step-3]]'
+- '[[tool-一堂-five-step-validation]]'
+- '[[case-five-step-fake-vs-real-barriers]]'
 created_at: 2026-07-08
-updated_at: 2026-07-08
+updated_at: '2026-07-08T17:25:52.662266+00:00'
 ---
 
 # 一堂五步法域 P0-P2 补产：总框架卡 + 子框架卡 + orchestrator Agent Spec
 
 > 来源：`diag_20260708_yitang-five-step-method-deep-dive-v2.md`
 > 王语嫣判断：一堂五步法是当前所有子域任务（#136 销售、#137 泛产品、#138 产品内核、#139 时间管理、#140 需求分析）的方法论中枢。素材完整、理论自洽，但 wiki 层面缺少统摄五步的总框架卡、增长周期框架卡、壁垒框架卡，以及最关键的“五步法 orchestrator Agent Spec”。本任务聚焦把单步卡片串成可导航的链路。
+> 
+> **领取安排**：等 #143 跨域双三角诊断 Agent 过审后，由 **Hermes 实例** 领取执行。
 
 ---
 
