@@ -1,7 +1,7 @@
 ---
 id: task_20260708_wangyuyan-pan-product-domain-supplement
 title: 泛产品设计域 P0-P2 补产：框架填肉 + 叶子升级 + Agent 规格
-status: in_progress
+status: pending_review
 priority: P1
 assignee: hermes
 reviewer: 欧阳锋
@@ -24,7 +24,7 @@ related:
 - '[[yt-model-pan-product-execution-toolkit]]'
 - '[[framework-一堂五步法-泛产品设计]]'
 created_at: 2026-07-08
-updated_at: '2026-07-08T10:05:31.212676+00:00'
+updated_at: '2026-07-08T11:43:34.285027+00:00'
 ---
 
 # 泛产品设计域 P0-P2 补产：框架填肉 + 叶子升级 + Agent 规格
