@@ -1,8 +1,11 @@
 ---
-
+---
 domain:
 - src_unknown
 id: yt-product-kernel-shampoo-case
+merged_into: case-shampoo-product-kernel
+merge_date: '2026-07-08'
+merge_note: 内容已合并到 case-shampoo-product-kernel，以口述验证路径为主线重写。本卡保留作为历史引用。
 title: 洗发水案例：产品内核实战——从"去屑"到"专业形象"
 type: case
 status: enriched
