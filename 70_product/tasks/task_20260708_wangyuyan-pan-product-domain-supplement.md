@@ -1,30 +1,30 @@
 ---
 id: task_20260708_wangyuyan-pan-product-domain-supplement
 title: 泛产品设计域 P0-P2 补产：框架填肉 + 叶子升级 + Agent 规格
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童
+assignee: hermes
 reviewer: 欧阳锋
 expected_cards: 12
 expected_agent_specs: 7
 source_refs:
-  - 60_feedback/diagnosis/diag_20260708_yitang-pan-product-design-deep-dive-v2.md
-  - 00_inbox/一堂-个人修炼-泛产品设计概念口述版.md
-  - 00_inbox/一堂-个人修炼-泛产品设计探索营口述版.md
-  - 00_inbox/一堂-个人修炼-泛产品设计工具篇口述版.md L90,L900-L980,L1660-L1820,L3020-L3060,L3440-L3462
-  - 00_inbox/一堂-个人修身-泛产品设计实操口述版.md L1796,L1936-L2096,L2370-L2417,L2750-L2920,L4082-L4140,L4234-L4348,L4350,L4456-L4588,L4716-L4870,L5066-L5080,L5100-L5170
-  - 00_inbox/一堂-个人修身-泛产品设计审美口述.md L1560-L1620,L1900-L1960,L3418-L3520,L3880-L4008
+- 60_feedback/diagnosis/diag_20260708_yitang-pan-product-design-deep-dive-v2.md
+- 00_inbox/一堂-个人修炼-泛产品设计概念口述版.md
+- 00_inbox/一堂-个人修炼-泛产品设计探索营口述版.md
+- 00_inbox/一堂-个人修炼-泛产品设计工具篇口述版.md L90,L900-L980,L1660-L1820,L3020-L3060,L3440-L3462
+- 00_inbox/一堂-个人修身-泛产品设计实操口述版.md L1796,L1936-L2096,L2370-L2417,L2750-L2920,L4082-L4140,L4234-L4348,L4350,L4456-L4588,L4716-L4870,L5066-L5080,L5100-L5170
+- 00_inbox/一堂-个人修身-泛产品设计审美口述.md L1560-L1620,L1900-L1960,L3418-L3520,L3880-L4008
 related:
-  - "[[diag_20260708_yitang-pan-product-design-deep-dive-v2]]"
-  - "[[p0-composite-card-01-pan-product-methodology]]"
-  - "[[yt-composite-pan-product-methodology]]"
-  - "[[yt-model-pan-product-36-strategies]]"
-  - "[[yt-model-pan-product-demand-toolkit]]"
-  - "[[yt-model-pan-product-aesthetic-toolkit]]"
-  - "[[yt-model-pan-product-execution-toolkit]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
+- '[[diag_20260708_yitang-pan-product-design-deep-dive-v2]]'
+- '[[p0-composite-card-01-pan-product-methodology]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-pan-product-execution-toolkit]]'
+- '[[framework-一堂五步法-泛产品设计]]'
 created_at: 2026-07-08
-updated_at: 2026-07-08
+updated_at: '2026-07-08T10:05:31.212676+00:00'
 ---
 
 # 泛产品设计域 P0-P2 补产：框架填肉 + 叶子升级 + Agent 规格
