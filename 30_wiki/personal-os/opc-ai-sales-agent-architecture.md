@@ -38,6 +38,8 @@ related:
 - tool-agent-spec-yitang-self-motivation
 - yt-decision-y-model
 - tool-yitang-Y-model-application
+- tool-yitang-payment-collection-playbook
+- tool-yitang-daily-weekly-meeting-hosting
 ---
 # OPC AI 销售智能体架构
 
