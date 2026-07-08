@@ -19,6 +19,9 @@ source_refs:
   - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
   - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-笔记.txt
   - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt
+  - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L1426-L1462,L1488-L1490
+  - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L2150-L2154
+  - 00_inbox/销售专题/_processed/业绩推进管理-一堂业绩管理拆解画布-课程匹配工具_vlm.md L21-L24,L79-L82
 related:
   - "[[tool-yitang-customer-segmentation-4step]]"
   - "[[tool-yitang-sales-process-decomposition]]"
@@ -35,8 +38,9 @@ related:
   - "[[case-yitang-sales-transformation-meirongyuan]]"
   - "[[case-yitang-sales-transformation-tuliaogongsi]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
+  - "[[tool-yitang-daily-weekly-meeting-hosting]]"
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: 2026-07-08
 ---
 # 一堂销售业绩管理三步法
 
