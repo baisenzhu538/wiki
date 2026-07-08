@@ -1,8 +1,8 @@
----
+﻿---
 id: case-truman-shower-toilet-ideation
 title: 案例：Truman 洗澡/厕所灵感爆发——暗时间如何在"脑力CPU不饱和"时产出高价值创意
 type: case
-status: enriched
+status: reviewed
 domain:
   - yitang
   - time-management

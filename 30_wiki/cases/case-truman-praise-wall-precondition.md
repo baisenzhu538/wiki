@@ -1,8 +1,8 @@
----
+﻿---
 id: case-truman-praise-wall-precondition
 title: 案例：Truman 赞美墙——用"积极情绪前置"为深度工作预热场景质量
 type: case
-status: enriched
+status: reviewed
 domain:
   - yitang
   - time-management

@@ -1,8 +1,8 @@
----
+﻿---
 id: framework-bimodal-time-philosophy
 title: 双峰时间哲学模型
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.88
 trust_level: high
 language: zh-CN

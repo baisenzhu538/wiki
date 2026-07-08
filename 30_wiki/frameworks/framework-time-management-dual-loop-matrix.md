@@ -1,8 +1,8 @@
----
+﻿---
 id: framework-time-management-dual-loop-matrix
 title: 时间管理双循环矩阵：独立/协作 × 重点/效率
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.88
 trust_level: high
 language: zh-CN

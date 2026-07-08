@@ -1,8 +1,8 @@
----
+﻿---
 id: yt-personal-time-management
 title: 时间管理
 type: concept
-status: enriched
+status: reviewed
 domain:
   - yitang
   - time-management

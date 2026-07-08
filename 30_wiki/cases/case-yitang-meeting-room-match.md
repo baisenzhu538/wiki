@@ -1,8 +1,8 @@
----
+﻿---
 id: case-yitang-meeting-room-match
 title: 案例：一堂会议室场景匹配——同一个屋子不同布置，产出效率差一倍
 type: case
-status: enriched
+status: reviewed
 domain:
   - yitang
   - time-management

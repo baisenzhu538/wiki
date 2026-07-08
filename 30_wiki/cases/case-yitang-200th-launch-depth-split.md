@@ -1,8 +1,8 @@
----
+﻿---
 id: case-yitang-200th-launch-depth-split
 title: 案例：一堂第200期发布会——"先把任务按深度拆开，圆的配圆的时间，方的配方的时间"
 type: case
-status: enriched
+status: reviewed
 domain:
   - yitang
   - time-management

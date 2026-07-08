@@ -1,8 +1,8 @@
----
+﻿---
 id: framework-time-management-matrix
 title: 重要/紧急四象限（艾森豪威尔矩阵）
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.95
 trust_level: high
 language: zh-CN

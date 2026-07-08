@@ -1,8 +1,8 @@
----
+﻿---
 id: case-yitang-curtain-listening
 title: 案例：一堂帘子隔音——用物理隔离在开放式办公中创造"可调场景质量"
 type: case
-status: enriched
+status: reviewed
 domain:
   - yitang
   - time-management

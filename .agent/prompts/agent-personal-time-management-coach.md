@@ -1,8 +1,8 @@
----
+﻿---
 id: agent-personal-time-management-coach
 title: 个人时间管理教练 Agent Spec
 type: agent-spec
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-08
