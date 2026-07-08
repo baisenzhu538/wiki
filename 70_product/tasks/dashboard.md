@@ -122,6 +122,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260708_wangyuyan-demand-analysis-agent-supplement | 需求分析域 P0-P2 补产：冰山工具卡补全 + 天花板框架 + 专属 Agent Spec | queued | 老顽童 | P0 | `70_product/tasks/task_20260708_wangyuyan-demand-analysis-agent-supplement.md` | 王语嫣二次深挖：知识已验证，缺 Agent 封装；1 Agent Spec + 6 L1-L6 工具卡补全 + 天花板四层框架 + RAT/评估/微观体感工具；用户明确“需求是极其重要的域”；入队 #140 |
 | task_20260708_wangyuyan-five-step-method-orchestrator-supplement | 一堂五步法域 P0-P2 补产：总框架卡 + 子框架卡 + orchestrator Agent Spec | queued | 老顽童 | P0 | `70_product/tasks/task_20260708_wangyuyan-five-step-method-orchestrator-supplement.md` | 王语嫣二次深挖：五步法是方法论中枢，缺总框架卡、增长周期/壁垒框架卡、orchestrator Agent Spec；需把 #136-#140 子域任务串成可导航链路；入队 #141 |
 | task_20260708_wangyuyan-y-model-cross-domain-fusion-and-coach-agent | Y模型 / 实事求是 / 解放思想 跨域融合：总框架卡 + 跨域 Coach Agent Spec | queued | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-y-model-cross-domain-fusion-and-coach-agent.md` | 王语嫣跨域深挖：Y模型 是一堂课程最底层本质，需把需求/产品/五步法/销售/时间管理/AI落地等域映射贯通，形成跨域总框架与跨域 Coach Agent；入队 #142 |
+| task_20260708_wangyuyan-dual-triangle-cross-domain-agent | 跨域双三角诊断 Agent：Agent 军团入口分诊与元框架校准 | queued | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-dual-triangle-cross-domain-agent.md` | 用户已认可应用场景；双三角核心卡族已完备，缺 Agent 军团入口元诊断 Agent；1 Agent Spec + 2 工具卡 + 2 现有卡 related 升级；入队 #143 |
 
 ---
 
@@ -129,8 +130,8 @@ Generated: 2026-06-26T21:00:00+00:00
 
 > **当前任务状态见 `production-queue.md`（唯一真相源）。本 dashboard 保留历史任务全景，日常领任务不读这个文件。**
 
-- **Production Queue**: #60-#142；#131 reviewed(A-) / #132 reviewed(B+) / #133 reviewed(A-) / #134 reviewed(A) / #135 reviewed(A) / #136 reviewed / #137 reviewed / #138 reviewed / #139 queued / #140 queued / #141 queued / #142 queued（2026-07-08）
-- **Active Tasks**: #139 时间管理域专属 Agent 补产、#140 需求分析域专属 Agent 补产、#141 一堂五步法 orchestrator 补产、#142 Y模型跨域融合 Coach 补产（等待老顽童领取）
+- **Production Queue**: #60-#143；#131 reviewed(A-) / #132 reviewed(B+) / #133 reviewed(A-) / #134 reviewed(A) / #135 reviewed(A) / #136 reviewed / #137 reviewed / #138 reviewed / #139 queued / #140 queued / #141 queued / #142 queued / #143 queued（2026-07-08）
+- **Active Tasks**: #139 时间管理域专属 Agent 补产、#140 需求分析域专属 Agent 补产、#141 一堂五步法 orchestrator 补产、#142 Y模型跨域融合 Coach 补产、#143 跨域双三角诊断 Agent 补产（等待老顽童领取）
 - **黄药师**: P-10 跨域模式层完成；管道碎片化清理中
 - **王语嫣**: 任务编排建议书已提交（OSCAR 卡补齐 / external-exploration-sop 补写）
 - **老顽童**: 待领取 #137 / #138 / #139
