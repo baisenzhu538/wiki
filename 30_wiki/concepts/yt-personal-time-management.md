@@ -1,35 +1,61 @@
 ---
 
 domain:
-  - personal-growth
-
-
-
-id: yt-personal-time-management
-confidence: 0.8
-created_at: 2026-05-06
-difficulty: foundational
-language: zh-CN
-query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-review_date: 2026-05-08
-reviewed_by: "黄药师"
-review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
-source_refs:
-  - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
-  - src_20260614_720e62a1-theme-personal-growth-summary
-source_refs:
-  - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
----
+  ---
+  id: yt-personal-time-management
+  title: 时间管理
+  type: concept
+  status: enriched
+  domain:
+    - yitang
+    - time-management
+  confidence: 0.85
+  created_at: 2026-05-06
+  updated_at: 2026-07-08
+  difficulty: foundational
+  language: zh-CN
+  query_triggers:
+    - 时间不够用怎么办
+    - 如何做时间管理
+    - 怎么提高效率
+    - 任务太多做不完
+    - 时间分配
+    - 精力管理
+    - 深度工作
+    - 优先级排序
+    - 时间审计
+    - 三门模型
+  review_date: 2026-07-08
+  reviewed_by: "黄药师"
+  review_notes: 从L1-L3旧框架升级为L1-L6+三门模型，替换src_unknown为明确来源引用，与framework-yitang-five-step-to-time-management对齐。
+  source_refs:
+    - 00_inbox/时间管理/truman-时间管理课程-口述.txt
+    - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
+    - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+  author: 黄药师
+  trust_level: medium
+  yitang:
+    map: personal
+    module: 时间管理
+    course_id: 401
+    course_type: method
+    level: foundational
+  related:
+    - "[[一堂方法论体系总图]]"
+    - "[[framework-yitang-five-step-to-time-management]]"
+    - "[[tool-personal-time-audit-loop]]"
+    - "[[dk-time-management-common-mistakes]]"
+    - "[[yt-personal-ipo-learning]]"
+    - "[[yt-personal-knowledge-management]]"
+    - "[[yt-personal-deliberate-practice]]"
+    - "[[yt-personal-inspiration-flash]]"
+  tags:
+    - "#yitang"
+    - "#time-management"
+    - "#personal"
+    - "#三门模型"
+    - "#深度工作"
+  ---
 # 时间管理
 
 > 来源：一堂个人必修课"提认知"模块——时间管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
