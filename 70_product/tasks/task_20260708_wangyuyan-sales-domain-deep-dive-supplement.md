@@ -1,7 +1,7 @@
 ---
 id: task_20260708_wangyuyan-sales-domain-deep-dive-supplement
 title: 销售域口述稿二次深挖补产：操作层工具卡 + Agent 规格
-status: pending_review
+status: reviewed
 priority: P1
 assignee: kimi-code
 reviewer: 欧阳锋
@@ -29,7 +29,9 @@ related:
 - '[[opc-ai-sales-agent-architecture]]'
 - '[[case-yitang-yitu-lead-industrialization]]'
 created_at: 2026-07-08
-updated_at: '2026-07-08T01:22:59.203110+00:00'
+updated_at: '2026-07-08T08:52:10.611916+00:00'
+review_date: '2026-07-08'
+grade: A-
 ---
 
 # 销售域口述稿二次深挖补产：操作层工具卡 + Agent 规格
