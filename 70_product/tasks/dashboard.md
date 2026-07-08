@@ -123,7 +123,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260708_wangyuyan-five-step-method-orchestrator-supplement | 一堂五步法域 P0-P2 补产：总框架卡 + 子框架卡 + orchestrator Agent Spec | queued | 老顽童 | P0 | `70_product/tasks/task_20260708_wangyuyan-five-step-method-orchestrator-supplement.md` | 王语嫣二次深挖：五步法是方法论中枢，缺总框架卡、增长周期/壁垒框架卡、orchestrator Agent Spec；需把 #136-#140 子域任务串成可导航链路；依赖 #143/#144；入队 #141 |
 | task_20260708_wangyuyan-y-model-cross-domain-fusion-and-coach-agent | Y模型 / 实事求是 / 解放思想 跨域融合：总框架卡 + 跨域 Coach Agent Spec | queued | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-y-model-cross-domain-fusion-and-coach-agent.md` | 王语嫣跨域深挖：Y模型 是一堂课程最底层本质，需把需求/产品/五步法/销售/时间管理/AI落地等域映射贯通，形成跨域总框架与跨域 Coach Agent；依赖 #143/#144；入队 #142 |
 | task_20260708_wangyuyan-dual-triangle-cross-domain-agent | 跨域双三角诊断 Agent：Agent 军团入口分诊与元框架校准 | queued | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-dual-triangle-cross-domain-agent.md` | 用户已认可应用场景；双三角核心卡族已完备，缺 Agent 军团入口元诊断 Agent；1 Agent Spec + 3 工具卡（含域注册扩展协议）+ 2 现有卡 related 升级 + 1 部署路径 runbook；支持未来知识域可插拔接入；依赖 #144；入队 #143 |
-| task_20260708_huangyaoshi-capability-hub-phase1 | P-23 能力中台 Phase 1：VLM 能力上线 + Agent 共享工具底座 | queued | 黄药师 | P0 | `70_product/tasks/task_20260708_huangyaoshi-capability-hub-phase1.md` | 黄药师停车场 P-23；所有 Agent 调用 VLM/OCR/搜索的共享底座；0.5-1 天硬前置；Agent 启动序列加入 `python -m capability_hub list`；入队 #144 |
+| task_20260708_huangyaoshi-capability-hub-phase1 | P-23 能力中台 Phase 1：VLM 能力上线 + Agent 共享工具底座 | reviewed | 黄药师 | P0 | `70_product/tasks/task_20260708_huangyaoshi-capability-hub-phase1.md` | 欧阳锋终审 A；黄药师停车场 P-23；所有 Agent 调用 VLM/OCR/搜索的共享底座；Agent 启动序列加入 `python -m capability_hub list`；入队 #144 |
 
 ---
 
@@ -131,9 +131,9 @@ Generated: 2026-06-26T21:00:00+00:00
 
 > **当前任务状态见 `production-queue.md`（唯一真相源）。本 dashboard 保留历史任务全景，日常领任务不读这个文件。**
 
-- **Production Queue**: #60-#144；#131-#139 reviewed / #140 claimed-hermes / #141 queued / #142 queued / #143 queued / #144 queued（2026-07-08）
-- **建议执行顺序**：#144 P-23 能力中台 Phase 1 → #143 跨域双三角诊断 Agent → #140/#141/#142 域 Agent
-- **Active Tasks**: #140 需求分析域专属 Agent 补产（Hermes 进行中）、#141 一堂五步法 orchestrator 补产、#142 Y模型跨域融合 Coach 补产、#143 跨域双三角诊断 Agent 补产、#144 P-23 能力中台 Phase 1（等待领取/执行）
+- **Production Queue**: #60-#144；#131-#139 reviewed / #140 claimed-hermes / #141 queued / #142 queued / #143 queued / #144 reviewed(A)（2026-07-08）
+- **建议执行顺序**：#143 跨域双三角诊断 Agent → #140/#141/#142 域 Agent
+- **Active Tasks**: #140 需求分析域专属 Agent 补产（Hermes 进行中）、#141 一堂五步法 orchestrator 补产、#142 Y模型跨域融合 Coach 补产、#143 跨域双三角诊断 Agent 补产（等待领取/执行）
 - **黄药师**: P-10 跨域模式层完成；管道碎片化清理中
 - **王语嫣**: 任务编排建议书已提交（OSCAR 卡补齐 / external-exploration-sop 补写）
 - **老顽童**: 待领取 #137 / #138 / #139

@@ -1,6 +1,18 @@
 """能力注册表——发现 + 查询 + 列表。"""
 
+import sys
 from pathlib import Path
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+# Windows GBK 终端强制切到 UTF-8 code page，避免中文乱码
+if sys.platform == "win32":
+    try:
+        import ctypes
+        ctypes.windll.kernel32.SetConsoleOutputCP(65001)
+    except Exception:
+        pass
 
 _registry: dict[str, "Capability"] = {}
 

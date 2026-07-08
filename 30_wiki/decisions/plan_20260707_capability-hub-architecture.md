@@ -83,13 +83,13 @@ $ python -m capability_hub list
 
 ```
 wiki/
-├── _capability_hub/           ← 能力中台
+├── cap_hub/                   ← 能力中台
 │   ├── registry.py            ← 能力注册表（自发现）
 │   ├── base.py                ← 能力基类（每个能力继承它）
 │   ├── config.py              ← 统一配置（API Keys 写在这里）
 │   │
 │   ├── vlm/                   ← VLM 图片识别
-│   │   ├── __init__.py        ← 注册：registry.register(VLMCapability)
+│   │   ├── __init__.py        ← 注册：registry.register(VLMCapability(...))
 │   │   └── core.py            ← MiniMax API 调用逻辑
 │   │
 │   ├── ocr/                   ← OCR 文字提取（未来）
