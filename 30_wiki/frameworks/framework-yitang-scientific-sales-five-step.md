@@ -39,6 +39,8 @@ related:
   - "[[case-yitang-sales-transformation-tuliaogongsi]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
   - "[[tool-yitang-three-second-opening-scripts]]"
+  - "[[framework-yitang-y-model-cross-domain-fusion]]"
+  - "[[agent-spec-yitang-Y-model-cross-domain-coach]]"
 created_at: 2026-07-02
 updated_at: 2026-07-08
 ---
@@ -159,6 +161,8 @@ updated_at: 2026-07-08
 - 与 [[framework-yitang-channel-exploration-4step]]：渠道探索解决「线索从哪里来」，科学销售五步法解决「线索来了之后如何分层、转化、管理、复制」。
 - 与 [[yt-unit-model-overview]]：业绩管理、目标拆解、Pipeline/Gap 分析最终都要落到单元模型（单销售、单客户、单订单）上，才能判断模型是否成立。
 - 与 [[opc-ai-sales-agent-architecture]]：五步法的 A/B/C/D/E 五个模块可直接映射为 OPC 智能体军团，其中 [[tool-opc-sales-dialogue-assistant]] 是首个 MVP 规格卡。
+
+> 跨域定位：本框架是 Y模型 在销售管理域的实例化，可与 [[framework-yitang-y-model-cross-domain-fusion]]、[[agent-spec-yitang-Y-model-cross-domain-coach]] 联动做跨域迁移与实事求是审查。
 
 ## 电话 / 线上 / 面谈三类触点差异
 

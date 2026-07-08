@@ -48,6 +48,8 @@ related:
 - yt-decision-y-model
 - tool-yitang-Y-model-application
 - case-yitang-Y-model-advertising-turnaround
+- framework-yitang-y-model-cross-domain-fusion
+- agent-spec-yitang-Y-model-cross-domain-coach
 ---
 # 一堂五步法在泛产品设计中的应用
 
@@ -254,6 +256,8 @@ related:
 - **迭代侧**：从“改得动”到“改得科学、改得可复用”。
 
 这也对应一堂的三大自我修养：永远以用户价值为中心、永远以最佳实践为追求、永远以无限进步为迭代。
+
+> 跨域定位：本框架是 Y模型 在泛产品设计域的实例化，可与 [[framework-yitang-y-model-cross-domain-fusion]]、[[agent-spec-yitang-Y-model-cross-domain-coach]] 联动做跨域迁移与审查。
 
 ## 8. Action Triggers
 

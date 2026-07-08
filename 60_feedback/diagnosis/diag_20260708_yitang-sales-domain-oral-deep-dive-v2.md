@@ -16,6 +16,7 @@ source_refs:
   - 00_inbox/销售专题/_processed/销售工具武器库_vlm.md L8-L52
   - 00_inbox/销售专题/_processed/业绩推进管理-一堂业绩管理拆解画布-课程匹配工具_vlm.md L13-L24,L21-L24,L79-L82
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 created_at: 2026-07-08
 updated_at: 2026-07-08
 related:
@@ -32,6 +33,8 @@ related:
   - "[[tool-opc-sales-dialogue-assistant]]"
   - "[[opc-ai-sales-agent-architecture]]"
   - "[[case-yitang-yitu-lead-industrialization]]"
+  - "[[framework-yitang-y-model-cross-domain-fusion]]"
+  - "[[agent-spec-yitang-Y-model-cross-domain-coach]]"
 ---
 
 # 销售专题口述转写二次深挖诊断报告（v2）
@@ -247,5 +250,9 @@ related:
 5. **风险提示**：若跳过本次补全直接部署销售 Agent，Agent 在话术生成、回款建议、激励设计三个高频场景下极易产生与课程原意不符的输出，后续纠正成本远高于现在补齐卡片。
 
 ---
+
+## 跨域联动边界
+
+> 本诊断可与 [[framework-yitang-y-model-cross-domain-fusion]]、[[agent-spec-yitang-Y-model-cross-domain-coach]] 联动，识别销售问题是否需要迁移到其他域。
 
 *报告结束。下一步建议进入卡片生产任务，由Producer角色按上述清单排期执行。*

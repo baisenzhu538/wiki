@@ -40,6 +40,8 @@ related:
 - '[[case-truman-time-management-commute-experiment]]'
 - '[[case-yitang-copywriting-time-decomposition]]'
 - case-decision-science-lunch-break-compression
+- '[[framework-yitang-y-model-cross-domain-fusion]]'
+- '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
 ---
 # 一堂五步法在时间管理中的应用：自管理场景的完整实例化
 
@@ -289,6 +291,8 @@ Truman 自己的实践：周一到周三在公司处理协作类工作，周四�
 
 - [[tool-personal-time-audit-loop]]：把三门模型转化为每周审计、双周实验的可执行流程。
 - [[dk-time-management-common-mistakes]]：用一堂方法论反打工具迷信、二极管思维、边界模糊三大陷阱。
+
+> 跨域定位：本框架是 Y模型 在个人时间管理域的实例化，可与 [[framework-yitang-y-model-cross-domain-fusion]]、[[agent-spec-yitang-Y-model-cross-domain-coach]] 联动做跨域迁移与实事求是审查。
 
 ---
 

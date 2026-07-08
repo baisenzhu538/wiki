@@ -43,9 +43,9 @@ related:
   - '"[[concept-yihang-human-in-the-loop-dual-triangle]]"'
   - '[[framework-taste-as-judgment-system]]'
   - '[[tool-open-closed-problem-classifier]]'
-- '[[framework-yitang-y-model-cross-domain-fusion]]'
-- '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
-- '[[principle-yitang-y-model-dual-posture]]'
+  - '[[framework-yitang-y-model-cross-domain-fusion]]'
+  - '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
+  - '[[principle-yitang-y-model-dual-posture]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 ---

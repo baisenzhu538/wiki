@@ -16,6 +16,7 @@ source_refs:
   - 00_inbox/一堂-机会预判-AI时间管理案例01_paddle_ocr.txt
   - 00_inbox/一堂-机会预判-AI时间管理案例02_paddle_ocr.txt
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 created_at: 2026-07-08
 updated_at: 2026-07-08
 related:
@@ -27,6 +28,8 @@ related:
   - "[[case-yitang-copywriting-time-decomposition]]"
   - "[[case-yitang-ai-time-management-coach]]"
   - "[[case-ai-time-management-tiered-growth]]"
+  - "[[framework-yitang-y-model-cross-domain-fusion]]"
+  - "[[agent-spec-yitang-Y-model-cross-domain-coach]]"
 ---
 
 # 时间管理域二次深挖诊断报告（v2）：从卡片到专属 Agent
@@ -224,5 +227,9 @@ related:
 - 1 张 agent-spec 新建
 
 ---
+
+## 跨域联动边界
+
+> 本诊断可与 [[framework-yitang-y-model-cross-domain-fusion]]、[[agent-spec-yitang-Y-model-cross-domain-coach]] 联动，识别时间管理问题是否需要迁移到其他域。
 
 *王语嫣 2026-07-08*

@@ -31,6 +31,8 @@ related:
 - '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
+- '"[[framework-yitang-y-model-cross-domain-fusion]]"'
+- '"[[agent-spec-yitang-Y-model-cross-domain-coach]]"'
 aliases:
 - 双三角AI落地五部曲
 - AI落地五部曲
@@ -224,3 +226,9 @@ aliases:
 | 项目推进到一半卡住了 | 诊断卡在哪一步 | 能说出是计划、验证还是工程化出了问题 |
 | AI 输出质量下降 | 检查反馈 Case 是否被结构化 | 每个 Case 能归类到六要素之一 |
 | 想建立数据飞轮 | 从第 5 步反推：反馈如何回流 | 有明确的反馈收集和更新机制 |
+
+---
+
+## 跨域定位
+
+本框架是 Y模型 / 实事求是 / 解放思想 在 AI 落地域的实例化，可与 [[framework-yitang-y-model-cross-domain-fusion]]、[[agent-spec-yitang-Y-model-cross-domain-coach]] 联动做跨域迁移与审查。

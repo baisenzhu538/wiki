@@ -15,6 +15,7 @@ source_refs:
   - 00_inbox/五步法之需求分析/AI辅助探讨需求选项的提示词.md
   - 00_inbox/五步法之需求分析/需求分析提示词.txt
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 created_at: 2026-07-08
 updated_at: 2026-07-08
 related:
@@ -38,6 +39,8 @@ related:
   - "[[case-demand-milkshake-jtbd]]"
   - "[[case-demand-silver-parenting]]"
   - "[[tool-agent-spec-yitang-Y-model-coach]]"
+  - "[[framework-yitang-y-model-cross-domain-fusion]]"
+  - "[[agent-spec-yitang-Y-model-cross-domain-coach]]"
 ---
 
 # 五步法之需求分析域二次深挖诊断报告（v2）
@@ -251,5 +254,9 @@ Step 6: 评估三角形 / 天花板入口 → 必要时转交 ceiling-coach 或 
 - 1 张 Skill（P2）
 
 ---
+
+## 跨域联动边界
+
+> 本诊断可与 [[framework-yitang-y-model-cross-domain-fusion]]、[[agent-spec-yitang-Y-model-cross-domain-coach]] 联动，识别需求问题是否需要迁移到其他域。
 
 *王语嫣 2026-07-08*

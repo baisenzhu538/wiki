@@ -19,6 +19,7 @@ source_refs:
   - 00_inbox/一堂五步法/一堂-一堂五步法-打造壁垒完整cheatsheet_paddle_ocr.txt
   - 00_inbox/一堂五步法/一堂-toB五步法-必知必会十八式-图片_paddle_ocr.txt
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 created_at: 2026-07-08
 updated_at: 2026-07-08
 related:
@@ -41,6 +42,8 @@ related:
   - "[[case-five-step-fake-vs-real-barriers]]"
   - "[[case-five-step-growth-first-lever]]"
   - "[[case-milktea-five-step]]"
+  - "[[framework-yitang-y-model-cross-domain-fusion]]"
+  - "[[agent-spec-yitang-Y-model-cross-domain-coach]]"
 ---
 
 # 一堂五步法域深挖诊断报告（v2）
@@ -267,5 +270,9 @@ Step 8: 输出行动清单 + 风险警示
 - 3 张现有卡升级
 
 ---
+
+## 跨域联动边界
+
+> 本诊断可与 [[framework-yitang-y-model-cross-domain-fusion]]、[[agent-spec-yitang-Y-model-cross-domain-coach]] 联动，识别五步法问题是否需要迁移到其他域。
 
 *王语嫣 2026-07-08*

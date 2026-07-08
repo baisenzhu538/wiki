@@ -15,6 +15,7 @@ source_refs:
   - 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L1304-L1346,L194-L657,L700-L1150,L2069-L2253,L3018-L3400
   - 00_inbox/一堂-产品内核验证课-Truman-口述.txt L1026-L1155,L1300-L1614,L1714-L2070,L2032-L2880,L2880-L3072
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
 created_at: 2026-07-08
 updated_at: 2026-07-08
 related:
@@ -34,6 +35,8 @@ related:
   - "[[yt-product-kernel-ten-metrics]]"
   - "[[yt-product-kernel-validation]]"
   - "[[yt-product-kernel-iteration]]"
+  - "[[framework-yitang-y-model-cross-domain-fusion]]"
+  - "[[agent-spec-yitang-Y-model-cross-domain-coach]]"
 ---
 
 # 泛产品设计域二次深挖诊断报告（v2）
@@ -251,5 +254,9 @@ yt-composite-pan-product-methodology（顶层 composite）
 两个任务相互独立，可并行领取。
 
 ---
+
+## 跨域联动边界
+
+> 本诊断可与 [[framework-yitang-y-model-cross-domain-fusion]]、[[agent-spec-yitang-Y-model-cross-domain-coach]] 联动，识别泛产品设计问题是否需要迁移到其他域。
 
 *王语嫣 2026-07-08*
