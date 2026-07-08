@@ -6,7 +6,7 @@ status: active
 author: 王语嫣
 reviewed_by: 欧阳锋
 created_at: 2026-07-02
-updated_at: '2026-07-03'
+updated_at: '2026-07-08'
 domain:
 - personal-os
 - sales
@@ -40,13 +40,19 @@ related:
 - tool-yitang-Y-model-application
 - tool-yitang-payment-collection-playbook
 - tool-yitang-daily-weekly-meeting-hosting
+- tool-agent-spec-yitang-three-second-opening-scripts
+- tool-agent-spec-yitang-payment-collection-risk
+- tool-agent-spec-yitang-daily-weekly-meeting-host
+- tool-agent-spec-yitang-sales-toolkit-gap
+- tool-agent-spec-yitang-incentive-design
+- tool-agent-spec-yitang-lead-funnel-health
 ---
 # OPC AI 销售智能体架构
 
 > 来源：2026-07-02 王语嫣 × 老朱 OPC 战略讨论
 > 对齐框架：一堂科学销售五步法（A.提炼卖点 → B.拆解过程 → C.推进业绩 → D.激励团队 → E.打造工具）
 > 更新规则：每次讨论OPC架构后更新此文件
-> 最近更新：2026-07-02 补充 #47 / #49 共 7 张 agent-spec 卡及其调用关系
+> 最近更新：2026-07-08 补充销售域二次深挖补产 6 张 agent-spec 卡（话术/回款/会议/工具箱/激励/漏斗）
 
 ---
 
