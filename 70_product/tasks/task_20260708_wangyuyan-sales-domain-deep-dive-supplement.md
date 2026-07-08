@@ -3,33 +3,33 @@ id: task_20260708_wangyuyan-sales-domain-deep-dive-supplement
 title: 销售域口述稿二次深挖补产：操作层工具卡 + Agent 规格
 status: pending_review
 priority: P1
-assignee: 老顽童(Kimi)
+assignee: kimi-code
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋
 expected_cards: 6
 expected_agent_specs: 6
 expected_upgrades: 4
 source_refs:
-  - 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
-  - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L800-L814,L228-L230,L266,L372
-  - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt L280-L282,L392-L394,L432-L440,L470-L500,L508-L520
-  - 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt L320-L354,L420-L458,L560-L588,L824-L832,L1386-L1394,L1466
-  - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L1426-L1462,L1488-L1490
-  - 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt L398-L402,L1126-L1128,L1648-L1654
-  - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L34,L720,L1204,L1314,L1434-L1446,L1488-L1524,L2150-L2154,L2276-L2282
+- 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
+- 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L800-L814,L228-L230,L266,L372
+- 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt L280-L282,L392-L394,L432-L440,L470-L500,L508-L520
+- 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt L320-L354,L420-L458,L560-L588,L824-L832,L1386-L1394,L1466
+- 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L1426-L1462,L1488-L1490
+- 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt L398-L402,L1126-L1128,L1648-L1654
+- 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L34,L720,L1204,L1314,L1434-L1446,L1488-L1524,L2150-L2154,L2276-L2282
 related:
-  - "[[diag_20260708_yitang-sales-domain-oral-deep-dive-v2]]"
-  - "[[diag_20260702_yitang-scientific-sales-methodology]]"
-  - "[[task_20260702_laowantong-yitang-scientific-sales-methodology-production]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[case-yitang-yitu-lead-industrialization]]"
+- '[[diag_20260708_yitang-sales-domain-oral-deep-dive-v2]]'
+- '[[diag_20260702_yitang-scientific-sales-methodology]]'
+- '[[task_20260702_laowantong-yitang-scientific-sales-methodology-production]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[case-yitang-yitu-lead-industrialization]]'
 created_at: 2026-07-08
-updated_at: 2026-07-08
+updated_at: '2026-07-08T01:22:59.203110+00:00'
 ---
 
 # 销售域口述稿二次深挖补产：操作层工具卡 + Agent 规格
