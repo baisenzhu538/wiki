@@ -1,9 +1,9 @@
 ---
 id: task_20260708_wangyuyan-sales-domain-deep-dive-supplement
 title: 销售域口述稿二次深挖补产：操作层工具卡 + Agent 规格
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童
+assignee: 老顽童(Kimi)
 reviewer: 欧阳锋
 expected_cards: 6
 expected_agent_specs: 6
