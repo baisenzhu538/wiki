@@ -21,7 +21,7 @@ related:
 - '[[tool-马易-AI任务拆解提升控制度]]'
 - '[[tool-纪浩-任务交付物标准化]]'
 - '[[tool-任务拆解为工作流]]'
-- '[[pending_unknown]]'
+- '[[tool-demand-iceberg-l4-job-map]]'
 - proposal-prompt-injection-infrastructure
 - business-research-skill-oscar-13-weapon-system
 ---
@@ -52,9 +52,9 @@ related:
 prompt = """基于已确认的用户和场景，草拟3个不同视角的"核心任务陈述"。
 
 要求：
-- src_unknown
-- src_unknown
-- src_unknown
+- 使用"方案中立"自检：描述中是否出现了任何产品/技术名词？是→重写
+- 每个任务陈述必须可被观察和测量
+- 区分"功能任务""情感任务""社交任务"——至少写出其中两个
 
 示例（差→好）：
   差："用外卖App点餐"
@@ -71,8 +71,13 @@ prompt = """基于已确认的用户和场景，草拟3个不同视角的"核心
 
 ## 适用边界
 
-- src_unknown
-- src_unknown
+- **适用**：用户场景和痛点已明确，需要提炼"用户真正要完成什么"
+- **不适用**：纯情感需求（如"感觉被重视"）——结构化描述难以捕捉
+
+
+## 口述案例
+
+JTBD口述稿 L1034-L1044：Truman用奶昔案例说明JTBD——"通勤族不是要买奶昔，是要在无聊的早高峰路上有一个有趣的东西拿着"
 
 ---
 

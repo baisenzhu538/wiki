@@ -19,10 +19,10 @@ source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+- '[[tool-demand-iceberg-l2-scenario]]'
+- '[[tool-demand-iceberg-l2-scenario]]'
+- '[[tool-demand-iceberg-l2-scenario]]'
+- '[[tool-demand-iceberg-l2-scenario]]'
 - proposal-prompt-injection-infrastructure
 - business-research-skill-oscar-13-weapon-system
 ---
@@ -47,10 +47,10 @@ prompt = """基于以下创业想法，主动提供3个最可能的"目标用户
 [IDEA]
 
 要求：
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 每个组合配一个真实用户画像（姓名+年龄+职业+一句话痛点）
+- 标注每个组合的"最可能替代方案"（他们现在怎么解决）
+- 从3个组合中选出"最值得深挖的1个"并说明原因
+- 如果3个组合都不满意，要求AI再生成3个不同维度的
 """
 ```
 
@@ -63,8 +63,13 @@ prompt = """基于以下创业想法，主动提供3个最可能的"目标用户
 
 ## 适用边界
 
-- src_unknown
-- src_unknown
+- **适用**：创业项目0-1阶段，需要快速锁定第一批目标用户
+- **不适用**：成熟产品已有清晰的用户画像和分群数据
+
+
+## 口述案例
+
+方法论口述稿 L80-L122：Truman演示银发市场三维拆解——"不是老年人，是退休后+有闲钱+子女不在身边的活力银发族"
 
 ---
 

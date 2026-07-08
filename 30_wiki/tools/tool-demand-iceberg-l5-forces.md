@@ -18,10 +18,10 @@ source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
 - '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+- '[[tool-demand-iceberg-l6-hypothesis]]'
+- '[[tool-demand-iceberg-l6-hypothesis]]'
+- '[[tool-demand-iceberg-l6-hypothesis]]'
+- '[[tool-demand-iceberg-l6-hypothesis]]'
 - proposal-prompt-injection-infrastructure
 - tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
 ---
@@ -75,8 +75,13 @@ prompt = """基于L4的关键崩溃环节，做用户的"内心独白"心理侧�
 
 ## 适用边界
 
-- src_unknown
-- src_unknown
+- **适用**：任务地图完成后，需要理解"用户为什么不改变"的深层阻力
+- **不适用**：用户已明确表达不满但客观条件限制（如预算硬约束）
+
+
+## 口述案例
+
+方法论口述稿 L1074-L1126：Truman讲四种力量——"推力让用户想改变，惯性让用户不想动，拉力来自新方案，焦虑来自对新方案的担忧"
 
 ---
 

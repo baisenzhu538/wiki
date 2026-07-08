@@ -21,7 +21,7 @@ related:
 - '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
 - '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
 - '[[tool-通过综合案例沙盘走通全流程]]'
-- '[[pending_unknown]]'
+- '[[tool-demand-iceberg-l5-forces]]'
 - proposal-prompt-injection-infrastructure
 - business-research-skill-oscar-13-weapon-system
 ---
@@ -70,8 +70,13 @@ prompt = """基于核心任务「{CORE_JOB}」，用表格推演8个关键步骤
 
 ## 适用边界
 
-- src_unknown
-- src_unknown
+- **适用**：核心任务已锁定，需要拆解为8个步骤的完整任务链
+- **不适用**：简单的一次性任务（如"买一瓶水"）——8步拆解过度
+
+
+## 口述案例
+
+方法论口述稿 L332-L460：Truman演示任务地图8步拆解——从"定义"到"结束"，每步标出用户的崩溃点和可替代方案
 
 ---
 
