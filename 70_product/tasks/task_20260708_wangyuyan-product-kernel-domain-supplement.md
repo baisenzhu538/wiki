@@ -1,7 +1,7 @@
 ---
 id: task_20260708_wangyuyan-product-kernel-domain-supplement
 title: 产品内核域 P0-P2 补产：核心概念升级 + 案例卡 + 验证工具 + Agent 规格
-status: in_progress
+status: pending_review
 priority: P1
 assignee: hermes
 reviewer: 欧阳锋
@@ -24,7 +24,7 @@ related:
 - '[[yt-product-kernel-validation]]'
 - '[[yt-product-kernel-iteration]]'
 created_at: 2026-07-08
-updated_at: '2026-07-08T12:34:41.343287+00:00'
+updated_at: '2026-07-08T14:02:26.668486+00:00'
 ---
 
 # 产品内核域 P0-P2 补产：核心概念升级 + 案例卡 + 验证工具 + Agent 规格
