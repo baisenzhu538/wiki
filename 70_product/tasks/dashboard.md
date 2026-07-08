@@ -110,11 +110,11 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260704_wangyuyan-dual-triangle-canvas-agent-cli | #69 双三角画布 Agent CLI 交付 | reviewed | 欧阳锋 | P1 | `60_feedback/tasks/task_20260704_wangyuyan-dual-triangle-canvas-agent-cli.md` | 2026-07-04 终审通过：canvas-agent.py + agent-spec v2 多轮迭代交付（TCPR/风险判断），KDO Agent 化首个试点 |
 | task_20260704_wangyuyan-agent-card-skill-execution-pattern | #73 Agent 执行模式设计 Phase 1 | reviewed | 欧阳锋 | P1 | `60_feedback/tasks/task_20260704_wangyuyan-agent-card-skill-execution-pattern.md` | 2026-07-04 终审通过：design doc + framework 卡，三种执行模式+六步循环+工具边界声明；agent-solver.py Phase 2 依赖 #72/#59 |
 | task_20260704_laowantong-dual-triangle-vlm-case-enrichment | #93 双三角 VLM 案例批量 enrichment 10 张 | reviewed | 欧阳锋 | P1 | `60_feedback/tasks/task_20260704_laowantong-dual-triangle-vlm-case-enrichment.md` | 2026-07-04 终审通过：抽检 3 张 PASS，六要素标注/Critique/Triggers 结构统一 |
-| task_20260707_wangyuyan-project-management-domain-production | 管项目域 P1 核心：13 张卡 + 项目管理助手 agent-spec | queued | 老顽童 | P1 | `70_product/tasks/task_20260707_wangyuyan-project-management-domain-production.md` | 王语嫣九层深挖+老顽童交叉比对后定稿；1 concept 重写 + 5 framework（含 ABCD）+ 4 tool + 1 skill + 1 workflow + 1 agent-spec；新任务入队 #131 |
-| task_20260707_wangyuyan-project-management-domain-phase2 | 管项目域 P2 补产与深挖：约 30 张卡 | queued | 老顽童 | P2 | `70_product/tasks/task_20260707_wangyuyan-project-management-domain-phase2.md` | 2 case + 武器库入口 + L5/L6 dk + 69 张图批量 tool；依赖 #131 reviewed；新任务入队 #132 |
-| task_20260708_wangyuyan-ai-outpost-episode2-production | AI前哨站第2集卡片化：8 张卡（4 P0 + 4 P1） | queued | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-ai-outpost-episode2-production.md` | 王语嫣九层深挖+13处外部来源验证完成；P0：AI控制台/Agent平台双形态、Token Capital、品味系统、Builder幻觉；P1：杰文斯悖论、开放/封闭分类器、平台案例、Codex队友agent-spec；新任务入队 #133 |
-| task_20260708_wangyuyan-claude-retrospective-p0-fix | Claude 王语嫣回溯审计 P0 修复：元数据一致性与关键内容校准 | queued | 老顽童 | P0 | `70_product/tasks/task_20260708_wangyuyan-claude-retrospective-p0-fix.md` | 修正 frontmatter 日期/状态/YAML/卡片 ID 对齐/任务单去重/retroactive scan 统计评级；新任务入队 #134 |
-| task_20260708_wangyuyan-claude-retrospective-p1-supplement | Claude 王语嫣回溯审计 P1 补全：source_refs 行号、外部验证与诊断深度 | queued | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-claude-retrospective-p1-supplement.md` | 依赖 #134 reviewed；补充精确 source_refs、外部 URL、自攻击/失败模式、交叉比对表；新任务入队 #135 |
+| task_20260707_wangyuyan-project-management-domain-production | 管项目域 P1 核心：13 张卡 + 项目管理助手 agent-spec | reviewed | 老顽童 | P1 | `70_product/tasks/task_20260707_wangyuyan-project-management-domain-production.md` | 欧阳锋终审 A-；1 concept 重写 + 5 framework（含 ABCD）+ 4 tool + 1 skill + 1 workflow + 1 agent-spec；入队 #131 |
+| task_20260707_wangyuyan-project-management-domain-phase2 | 管项目域 P2 补产与深挖：约 30 张卡 | reviewed | 老顽童 | P2 | `70_product/tasks/task_20260707_wangyuyan-project-management-domain-phase2.md` | 欧阳锋终审 B+；2 case + 武器库入口 + L5/L6 dk + 69 张图批量 tool；依赖 #131 reviewed；入队 #132 |
+| task_20260708_wangyuyan-ai-outpost-episode2-production | AI前哨站第2集卡片化：8 张卡（4 P0 + 4 P1） | reviewed | kimi-code | P1 | `70_product/tasks/task_20260708_wangyuyan-ai-outpost-episode2-production.md` | 欧阳锋终审 A-；P0：AI控制台/Agent平台双形态、Token Capital、品味系统、Builder幻觉；P1：杰文斯悖论、开放/封闭分类器、平台案例、Codex队友agent-spec；入队 #133 |
+| task_20260708_wangyuyan-claude-retrospective-p0-fix | Claude 王语嫣回溯审计 P0 修复：元数据一致性与关键内容校准 | reviewed | kimi-code | P0 | `70_product/tasks/task_20260708_wangyuyan-claude-retrospective-p0-fix.md` | 欧阳锋终审 A；修正 frontmatter 日期/状态/YAML/卡片 ID 对齐/任务单去重/retroactive scan 统计评级；入队 #134 |
+| task_20260708_wangyuyan-claude-retrospective-p1-supplement | Claude 王语嫣回溯审计 P1 补全：source_refs 行号、外部验证与诊断深度 | reviewed | kimi-code | P1 | `70_product/tasks/task_20260708_wangyuyan-claude-retrospective-p1-supplement.md` | 欧阳锋终审 A；依赖 #134 reviewed；补充精确 source_refs、外部 URL、自攻击/失败模式、交叉比对表；入队 #135 |
 
 ---
 
@@ -122,8 +122,8 @@ Generated: 2026-06-26T21:00:00+00:00
 
 > **当前任务状态见 `production-queue.md`（唯一真相源）。本 dashboard 保留历史任务全景，日常领任务不读这个文件。**
 
-- **Production Queue**: #60-#135；#131 queued / #132 queued / #133 queued / #134 queued / #135 queued（2026-07-08）
-- **Active Tasks**: #131 管项目域 P1 核心（等待老顽童领取）
+- **Production Queue**: #60-#136；#131 reviewed(A-) / #132 reviewed(B+) / #133 reviewed(A-) / #134 reviewed(A) / #135 reviewed(A) / #136 queued（2026-07-08）
+- **Active Tasks**: #136 销售域口述稿二次深挖补产（等待老顽童领取）
 - **黄药师**: P-10 跨域模式层完成；管道碎片化清理中
 - **王语嫣**: 任务编排建议书已提交（OSCAR 卡补齐 / external-exploration-sop 补写）
 - **老顽童**: 待命，production-queue 无 queued 任务
