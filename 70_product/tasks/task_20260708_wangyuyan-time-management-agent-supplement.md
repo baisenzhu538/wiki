@@ -1,30 +1,30 @@
 ---
 id: task_20260708_wangyuyan-time-management-agent-supplement
 title: 时间管理域 P1 补产：四张模型图 + 操作工具 + 案例 + 专属 Agent Spec
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童
+assignee: hermes
 reviewer: 欧阳锋
 expected_cards: 18
 expected_agent_specs: 1
 source_refs:
-  - 60_feedback/diagnosis/diag_20260708_yitang-time-management-deep-dive-v2.md
-  - 00_inbox/时间管理/truman-时间管理课程-口述.txt L134-L138,L160,L358,L398-L416,L428,L452-L472,L498-L502,L518-L522,L642-L720,L744-L752,L842,L912-L917,L962-L964,L1004-L1020,L1026-L1034,L1052-L1078,L1462-L1496,L1548-L1554,L1578-L1612,L1626-L1646,L1654-L1724,L1728-L1754,L1788-L1806,L1928-L1940,L1944-L2052,L2162-L2194,L2212-L2240,L2260-L2272,L2334-L2340
-  - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
-  - 00_inbox/时间管理/_processed/时间管理-双环矩阵图_vlm.md
-  - 00_inbox/时间管理/_processed/时间管理-深度工作冰山图_vlm.md
-  - 00_inbox/时间管理/_processed/时间管理-时间管理矩阵图_vlm.md
-  - 00_inbox/时间管理/_processed/时间管理-双峰哲学模型_vlm.md
+- 60_feedback/diagnosis/diag_20260708_yitang-time-management-deep-dive-v2.md
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt L134-L138,L160,L358,L398-L416,L428,L452-L472,L498-L502,L518-L522,L642-L720,L744-L752,L842,L912-L917,L962-L964,L1004-L1020,L1026-L1034,L1052-L1078,L1462-L1496,L1548-L1554,L1578-L1612,L1626-L1646,L1654-L1724,L1728-L1754,L1788-L1806,L1928-L1940,L1944-L2052,L2162-L2194,L2212-L2240,L2260-L2272,L2334-L2340
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+- 00_inbox/时间管理/_processed/时间管理-双环矩阵图_vlm.md
+- 00_inbox/时间管理/_processed/时间管理-深度工作冰山图_vlm.md
+- 00_inbox/时间管理/_processed/时间管理-时间管理矩阵图_vlm.md
+- 00_inbox/时间管理/_processed/时间管理-双峰哲学模型_vlm.md
 related:
-  - "[[diag_20260708_yitang-time-management-deep-dive-v2]]"
-  - "[[yt-personal-time-management]]"
-  - "[[framework-yitang-five-step-to-time-management]]"
-  - "[[tool-personal-time-audit-loop]]"
-  - "[[dk-time-management-common-mistakes]]"
-  - "[[case-truman-time-management-commute-experiment]]"
-  - "[[case-yitang-copywriting-time-decomposition]]"
+- '[[diag_20260708_yitang-time-management-deep-dive-v2]]'
+- '[[yt-personal-time-management]]'
+- '[[framework-yitang-five-step-to-time-management]]'
+- '[[tool-personal-time-audit-loop]]'
+- '[[dk-time-management-common-mistakes]]'
+- '[[case-truman-time-management-commute-experiment]]'
+- '[[case-yitang-copywriting-time-decomposition]]'
 created_at: 2026-07-08
-updated_at: 2026-07-08
+updated_at: '2026-07-08T14:32:46.113177+00:00'
 ---
 
 # 时间管理域 P1 补产：四张模型图 + 操作工具 + 案例 + 专属 Agent Spec
