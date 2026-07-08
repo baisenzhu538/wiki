@@ -1,4 +1,4 @@
----
+﻿---
 id: tool-一堂-product-kernel-add-subtract
 title: 技能：产品内核加减法
 type: tool

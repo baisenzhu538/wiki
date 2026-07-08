@@ -1,4 +1,4 @@
----
+﻿---
 id: concept-一堂-kernel-validation
 title: 产品内核验证：三维度评估 + 六策略验证
 type: concept

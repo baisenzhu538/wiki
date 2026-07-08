@@ -1,11 +1,11 @@
----
+﻿---
 domain:
 - product
 - yitang
 id: yt-product-kernel-iteration
 title: 产品内核迭代：五方向 × 五案例 × 触发信号
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.94
 trust_level: high
 source_context: 一堂产品内核迭代课（2026年）——统一版本，对齐概念卡

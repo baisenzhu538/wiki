@@ -1,11 +1,11 @@
----
+﻿---
 domain:
 - product
 - yitang
 id: yt-product-kernel-validation
 title: 产品内核验证：三维度评估 × 六策略阶梯
 type: framework
-status: enriched
+status: reviewed
 confidence: 0.94
 trust_level: high
 source_context: 一堂产品内核验证课（2026年）——统一版本，对齐概念卡

@@ -1,4 +1,4 @@
----
+﻿---
 domain:
 - product
 - yitang
@@ -6,7 +6,7 @@ id: yt-product-kernel-cost-sensitive-default-no
 title: 成本敏感默认不：高成本低信息的价值项死守不做
 type: dk
 dark_knowledge_type: principle
-status: enriched
+status: reviewed
 confidence: 0.90
 trust_level: high
 source_context: 一堂产品内核实操课——九大原则之成本敏感原则

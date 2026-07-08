@@ -1,8 +1,8 @@
----
+﻿---
 id: case-shampoo-product-kernel
 title: 案例：洗发水产品内核——从"包装好看"到"竞品拆解→专家访谈→用户访谈→排列组合测试"的完整验证路径
 type: case
-status: enriched
+status: reviewed
 domain:
 - yitang
 - product-kernel

@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-一堂-kernel-six-verification-strategies
 title: 聊问查测盘赌 — 产品内核六策略完整操作手册
 type: tool
-status: enriched
+status: reviewed
 domain:
 - yitang
 - product-kernel

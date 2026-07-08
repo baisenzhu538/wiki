@@ -1,8 +1,8 @@
----
+﻿---
 id: case-qinpeng-iot-module-tiering
 title: 案例：秦鹏通信模组——从"半价策略"到用户分层+四格服务矩阵的产品内核进化
 type: case
-status: enriched
+status: reviewed
 domain:
 - yitang
 - product-kernel

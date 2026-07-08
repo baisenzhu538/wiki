@@ -1,8 +1,8 @@
----
+﻿---
 id: case-yitang-chuanhe-seasoning-kernel
 title: 案例：川味调料供应链——从"厂家直销"到"买底料+全程帮扶"的六次产品内核迭代
 type: case
-status: enriched
+status: reviewed
 domain:
 - yitang
 - product-kernel

@@ -1,8 +1,8 @@
----
+﻿---
 id: concept-一堂-product-kernel
 title: 产品内核 — 用户愿意选择你的最小解决方案
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-08

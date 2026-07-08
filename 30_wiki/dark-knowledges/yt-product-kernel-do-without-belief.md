@@ -1,11 +1,11 @@
----
+﻿---
 domain:
 - product
 id: yt-product-kernel-do-without-belief
 title: '"做而不信"陷阱：执行了流程，但不相信结果'
 type: dk
 dark_knowledge_type: insight
-status: enriched
+status: reviewed
 confidence: 0.78
 trust_level: medium
 source_context: 一堂产品内核系列课——"做而不信"陷阱

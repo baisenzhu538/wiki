@@ -1,8 +1,8 @@
----
+﻿---
 id: case-yitang-zhongzheng-parking-garage
 title: 案例：立体车库——从12车位样机到全自动无人化部署的产品内核迭代
 type: case
-status: enriched
+status: reviewed
 domain:
 - yitang
 - product-kernel

@@ -1,8 +1,8 @@
----
+﻿---
 id: concept-一堂-business-prediction
 title: 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
 type: concept
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 待审
 review_date: 2026-07-08

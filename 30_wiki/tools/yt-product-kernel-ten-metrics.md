@@ -1,11 +1,11 @@
----
+﻿---
 
 domain:
 - src_unknown
 id: yt-product-kernel-ten-metrics
 title: 产品内核十大典型指标：从假设到验证的数据体系
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——十大典型指标
