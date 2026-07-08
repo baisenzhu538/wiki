@@ -115,6 +115,7 @@ Generated: 2026-06-26T21:00:00+00:00
 | task_20260708_wangyuyan-ai-outpost-episode2-production | AI前哨站第2集卡片化：8 张卡（4 P0 + 4 P1） | reviewed | kimi-code | P1 | `70_product/tasks/task_20260708_wangyuyan-ai-outpost-episode2-production.md` | 欧阳锋终审 A-；P0：AI控制台/Agent平台双形态、Token Capital、品味系统、Builder幻觉；P1：杰文斯悖论、开放/封闭分类器、平台案例、Codex队友agent-spec；入队 #133 |
 | task_20260708_wangyuyan-claude-retrospective-p0-fix | Claude 王语嫣回溯审计 P0 修复：元数据一致性与关键内容校准 | reviewed | kimi-code | P0 | `70_product/tasks/task_20260708_wangyuyan-claude-retrospective-p0-fix.md` | 欧阳锋终审 A；修正 frontmatter 日期/状态/YAML/卡片 ID 对齐/任务单去重/retroactive scan 统计评级；入队 #134 |
 | task_20260708_wangyuyan-claude-retrospective-p1-supplement | Claude 王语嫣回溯审计 P1 补全：source_refs 行号、外部验证与诊断深度 | reviewed | kimi-code | P1 | `70_product/tasks/task_20260708_wangyuyan-claude-retrospective-p1-supplement.md` | 欧阳锋终审 A；依赖 #134 reviewed；补充精确 source_refs、外部 URL、自攻击/失败模式、交叉比对表；入队 #135 |
+| task_20260708_wangyuyan-sales-domain-deep-dive-supplement | 销售域口述稿二次深挖补产：操作层工具卡 + Agent 规格 | reviewed | 老顽童 | P1 | `70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md` | 欧阳锋终审通过；6 新卡 + 4 升级 + 6 agent-spec；补齐前三秒话术、聆听三七法则、回款/履约 playbook 等 P0 缺口；入队 #136 |
 
 ---
 
@@ -122,8 +123,8 @@ Generated: 2026-06-26T21:00:00+00:00
 
 > **当前任务状态见 `production-queue.md`（唯一真相源）。本 dashboard 保留历史任务全景，日常领任务不读这个文件。**
 
-- **Production Queue**: #60-#136；#131 reviewed(A-) / #132 reviewed(B+) / #133 reviewed(A-) / #134 reviewed(A) / #135 reviewed(A) / #136 queued（2026-07-08）
-- **Active Tasks**: #136 销售域口述稿二次深挖补产（等待老顽童领取）
+- **Production Queue**: #60-#136；#131 reviewed(A-) / #132 reviewed(B+) / #133 reviewed(A-) / #134 reviewed(A) / #135 reviewed(A) / #136 reviewed（2026-07-08）
+- **Active Tasks**: 无，production-queue 当前 0 queued / 0 pending_review
 - **黄药师**: P-10 跨域模式层完成；管道碎片化清理中
 - **王语嫣**: 任务编排建议书已提交（OSCAR 卡补齐 / external-exploration-sop 补写）
 - **老顽童**: 待命，production-queue 无 queued 任务
