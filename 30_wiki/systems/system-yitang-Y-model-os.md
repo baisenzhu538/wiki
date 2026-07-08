@@ -39,8 +39,10 @@ related:
 - human-ai-collaboration-double-triangle
 - master-decision-hygiene
 - concept-X型Y型决策习惯
+- framework-yitang-y-model-cross-domain-fusion
+- agent-spec-yitang-Y-model-cross-domain-coach
 created_at: 2026-07-03
-updated_at: '2026-06-29'
+updated_at: '2026-07-08'
 ---
 
 # Y模型 OS：所有 Agent 的共享底层 prompt

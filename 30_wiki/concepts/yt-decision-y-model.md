@@ -44,7 +44,7 @@ related:
   - '[[framework-taste-as-judgment-system]]'
   - '[[tool-open-closed-problem-classifier]]'
 created_at: 2026-07-03
-updated_at: '2026-07-04'
+updated_at: '2026-07-08'
 ---
 # Y模型：一堂科学做事系统（KDO 根节点）
 
