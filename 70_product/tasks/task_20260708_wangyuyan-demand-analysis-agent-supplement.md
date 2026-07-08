@@ -1,7 +1,7 @@
 ---
 id: task_20260708_wangyuyan-demand-analysis-agent-supplement
 title: 需求分析域 P0-P2 补产：冰山工具卡补全 + 天花板框架 + 专属 Agent Spec
-status: in_progress
+status: pending_review
 priority: P0
 assignee: hermes
 reviewer: 欧阳锋
@@ -31,7 +31,7 @@ related:
 - '[[prompt-demand-ai-coach]]'
 - '[[yt-demand-insight-extraction]]'
 created_at: 2026-07-08
-updated_at: '2026-07-08T15:12:43.684368+00:00'
+updated_at: '2026-07-08T17:06:03.378085+00:00'
 ---
 
 # 需求分析域 P0-P2 补产：冰山工具卡补全 + 天花板框架 + 专属 Agent Spec

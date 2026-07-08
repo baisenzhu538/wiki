@@ -9,7 +9,7 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 created_at: 2026-07-03
-updated_at: 2026-07-03
+updated_at: 2026-07-08
 domain:
 - yitang
 - ai-collaboration
@@ -43,6 +43,8 @@ related:
 - '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
+- "[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]"
+- "[[tool-yitang-dual-triangle-domain-registry]]"
 aliases:
 - 一行双三角
 - 一堂双三角

@@ -1,36 +1,38 @@
 ---
 id: task_20260708_wangyuyan-dual-triangle-cross-domain-agent
 title: 跨域双三角诊断 Agent：Agent 军团入口分诊与元框架校准
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童
+assignee: kimi-code
 reviewer: 欧阳锋
 expected_cards: 6
 expected_agent_specs: 1
 source_refs:
-  - 60_feedback/diagnosis/diag_20260708_yitang-dual-triangle-cross-domain-agent.md
-  - 30_wiki/concepts/concept-yihang-dual-triangle-core.md
-  - 30_wiki/frameworks/framework-yitang-y-model-dual-triangle-synergy.md
-  - 30_wiki/frameworks/framework-yihang-AI-native-dual-triangle-kernel.md
-  - 30_wiki/methods/method-dual-triangle-flywheel-engine.md
-  - 30_wiki/tools/tool-yihang-dual-triangle-canvas.md
-  - 30_wiki/tools/agent-spec-dual-triangle-canvas-filler.md
+- 60_feedback/diagnosis/diag_20260708_yitang-dual-triangle-cross-domain-agent.md
+- 30_wiki/concepts/concept-yihang-dual-triangle-core.md
+- 30_wiki/frameworks/framework-yitang-y-model-dual-triangle-synergy.md
+- 30_wiki/frameworks/framework-yihang-AI-native-dual-triangle-kernel.md
+- 30_wiki/methods/method-dual-triangle-flywheel-engine.md
+- 30_wiki/tools/tool-yihang-dual-triangle-canvas.md
+- 30_wiki/tools/agent-spec-dual-triangle-canvas-filler.md
 related:
-  - "[[diag_20260708_yitang-dual-triangle-cross-domain-agent]]"
-  - "[[concept-yihang-dual-triangle-core]]"
-  - "[[framework-yitang-y-model-dual-triangle-synergy]]"
-  - "[[framework-yihang-AI-native-dual-triangle-kernel]]"
-  - "[[method-dual-triangle-flywheel-engine]]"
-  - "[[tool-yihang-dual-triangle-canvas]]"
-  - "[[agent-spec-dual-triangle-canvas-filler]]"
+- '[[diag_20260708_yitang-dual-triangle-cross-domain-agent]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yitang-y-model-dual-triangle-synergy]]'
+- '[[framework-yihang-AI-native-dual-triangle-kernel]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
+- '[[agent-spec-dual-triangle-canvas-filler]]'
 created_at: 2026-07-08
-updated_at: 2026-07-08
+updated_at: '2026-07-08T17:04:37.265680+00:00'
 ---
 
 # 跨域双三角诊断 Agent：Agent 军团入口分诊与元框架校准
 
 > 来源：`diag_20260708_yitang-dual-triangle-cross-domain-agent.md`
 > 王语嫣判断：双三角模型已有高质量核心概念卡、Y模型协同框架、飞轮方法、画布工具和画布填充 Agent，但缺少一个站在 Agent 军团入口、用双三角六要素做“元诊断”的跨域 Coach Agent。用户已明确认可其应用场景。本任务同时承担「Agent Spec → 可运行 Agent」部署路径试点的职责，为 #139-#142 的域 Agent 建立可复制模板。
+> 
+> **领取建议**：因 Hermes 实例当前负载较高（#140 进行中），建议本任务由 **Kimi Code CLI 实例** 领取执行；Hermes 实例暂不接。
 
 ---
 

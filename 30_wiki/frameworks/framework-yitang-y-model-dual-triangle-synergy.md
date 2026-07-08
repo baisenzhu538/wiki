@@ -15,7 +15,7 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
-updated_at: 2026-07-04
+updated_at: 2026-07-08
 source_refs:
   - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
   - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
@@ -32,6 +32,8 @@ related:
   - '[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]'
   - '[[framework-taste-as-judgment-system]]'
   - '[[dk-ai-builder-illusion]]'
+- '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
+- '[[tool-yitang-dual-triangle-domain-registry]]'
 aliases:
   - Y模型双三角协同
   - 双三角迭代发动机
