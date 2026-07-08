@@ -1,23 +1,25 @@
 ---
 id: yt-model-pan-product-demand-toolkit
 component_of:
-- src_unknown
+- "[[yt-composite-pan-product-methodology]]"
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-- src_unknown
+- yitang
+- pan-product
 estimated_tokens: 1800
 language: zh-CN
 prerequisites:
-- src_unknown
+- "[[yt-model-pan-product-demand-user-perspective]]"
+- "[[yt-model-pan-product-three-virtues]]"
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- 泛产品设计需求分析用什么卡
+- 需求工具箱13张牌怎么选
+- 初阶进阶高阶需求卡牌分别有哪些
+- 拆推评算是什么怎么用
+- 动力阻力触点怎么分析
+- 泛产品设计从哪张牌开始出
 related:
 - "[[yt-composite-pan-product-methodology]]"
 - "[[yt-model-pan-product-36-strategies]]"
@@ -29,12 +31,25 @@ reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
 - 10_raw/sources/src_20260522_726a6a3b-ocr-泛产品设计-需求工具箱指南.md
+- 00_inbox/一堂-个人修身-泛产品设计实操口述版.md L1796,L1808-L1870,L1936-L2096,L2370-L2417,L4350-L4450,L5070-L5170,L5420-L5460
 status: enriched
 title: 泛产品设计·需求工具箱（13张卡牌）
 type: framework
 version: 1
 pipeline:
-- src_unknown
+- "[[yt-model-pan-product-demand-user-perspective]]"
+- "[[yt-model-pan-product-demand-user-segmentation]]"
+- "[[yt-model-pan-product-demand-scenario-walkthrough]]"
+- "[[yt-model-pan-product-demand-problem-insight]]"
+- "[[yt-model-pan-product-demand-project-background]]"
+- "[[yt-model-pan-product-demand-multi-perspective]]"
+- "[[yt-model-pan-product-demand-motivation-resistance]]"
+- "[[yt-model-pan-product-demand-fine-formula]]"
+- "[[yt-model-pan-product-demand-peak-end]]"
+- "[[yt-model-pan-product-demand-feasibility-assessment]]"
+- "[[yt-model-pan-product-product-core]]"
+- "[[yt-model-pan-product-unit-model]]"
+- "[[yt-model-pan-product-business-formula]]"
 diagnostic_signals:
 - framework_lens: 工具选择困难
   follow_up_question: 你的项目复杂度是小产品、复杂产品还是商业产品？不同复杂度对应不同卡牌
@@ -68,42 +83,81 @@ trust_level: medium-high
 
 ### 定位与结构
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 需求工具箱是泛产品设计方法论的第一维度，共13张卡牌，按项目复杂度分三层，由浅入深逐层兼容（L1→L2→L3向内包含）。
+- 13张卡牌分为三组：初阶4张（小产品设计，短平快）、进阶5张（复杂项目，多人协作需写文档）、高阶4张（商业/创新项目，解决生死/赔钱问题）。
+- 每一层有★首卡：初阶从「用户视角」启动，进阶从「项目背景分析」启动，高阶从「拆推评算（需求评估）」启动。
+- 出牌逻辑：先判断项目复杂度级别 → 选对应★首卡 → 按层级向下展开。局部子项目可回退用下层卡牌。
 
-### 初阶卡牌（5张）
+### 初阶卡牌（4张）— 小产品设计
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- **用户视角**（★首卡）：一秒钟切换到小白用户视角，是一切泛产品设计的起点。核心能力：从「设计者=专家」切换到「用户=小白」的思维系统。
+- **用户分层**：识别不同用户群体的差异化需求，避免用单一画像覆盖所有用户。
+- **场景推演**：在具体使用场景中模拟用户行为与心智，暴露设计盲区。
+- **问题洞察**：从用户痛点出发，定义真正需要解决的问题，而非从方案出发。
 
-### 进阶卡牌（5张）
+> 适用：起个名字、设计logo、写封信、做个包装等小颗粒度产品。
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+### 进阶卡牌（5张）— 复杂项目
 
-### 高阶卡牌（3张）
+- **项目背景分析**（★首卡）：综合评估项目要解决的问题，理解为什么做这个项目。核心是识别「落差」——理想状态与现状之间的差距。
+- **多视角思考**：跳出用户单一视角，引入合作方、监管方、竞品用户、干系人等多重视角重新审视需求。
+- **动力阻力**：动力=用户为什么做，阻力=用户为什么不做的障碍。用户价值 = 新体验 − 旧体验 − 切换成本（俞军公式）。
+- **精细公式**：将模糊需求转化为可量化、可验证的分析维度，建立需求的精细评估框架。
+- **封城定律**：识别用户体验中的关键时刻（巅峰时刻+终点时刻），在关键节点集中资源创造惊喜体验。
 
-- src_unknown
-- src_unknown
-- src_unknown
+> 适用：线下活动设计、多人协作项目、需要写正式方案的复杂产品。
+
+### 高阶卡牌（4张）— 商业/创新项目
+
+- **需求评估（拆推评算）**（★首卡）：四步法分析项目可行性。「拆」人群 →「推」场景 →「评」假设 →「算」天花板。从简单到复杂、从定性到定量，目的是证实或证伪项目可行性。
+- **产品内核**：一堂独创概念——用户愿意选择你的主要解决方案。核心是剥离出决定产品质量的10个关键指标：留存率、购买率、复购率、动销率、满意率、续费率、推荐率、退款率等。
+- **单元模型**：将商业逻辑拆解到最小可验证单元，逐个验证假设。
+- **业务公式**：将商业模式抽象为可计算的业务公式，量化收入、成本、利润的驱动因子。
+
+> 适用：创业项目、创新产品、商业模式验证——这类项目大概率赔钱，需要严谨的商业分析。
+
+### 拆推评算：需求评估四字诀
+
+拆推评算是高阶需求分析的核心方法，用于评估商业/创新项目的可行性：
+
+| 步骤 | 含义 | 操作 | 产出 |
+|:-----|:-----|:-----|:-----|
+| **拆** | 拆人群 | 将目标市场拆解为细分人群，找到真正有需求的用户群体 | 人群画像 + 规模估算 |
+| **推** | 推场景 | 推演每个细分人群在真实场景中的行为路径和需求强度 | 场景清单 + 使用频率 |
+| **评** | 评假设 | 评估每个需求假设的置信度，识别「乍一听很牛但没解决实际问题」的伪需求 | 假设清单 + 风险排序 |
+| **算** | 算天花板 | 量化市场规模、收入上限，判断项目是否能支撑商业目标 | 收入天花板 + ROI预估 |
+
+> 关键定位：拆推评算服务于「决策」而非「细节」——拆完、推完、评完、算完之后，目的是发现项目硬伤，而非优化具体体验细节。它比简单的产品设计难得多，但不关注气味、氛围等颗粒度。
+
+### 动力·阻力·触点：用户动机三维度
+
+动力阻力触点是进阶层的核心分析框架（第6-7张牌），定义用户决策的三重力量：
+
+| 维度 | 定义 | 关键提问 | 分析层次 |
+|:-----|:-----|:---------|:---------|
+| **动力** | 为什么做 | 用户为什么要选择你的产品？是什么驱使他们行动？ | L1: 表面需求 → L2: 深层动机 → L3: 身份认同 |
+| **阻力** | 为什么不做的障碍 | 什么因素阻碍用户行动？切换成本有多高？ | L1: 显性障碍 → L2: 心理阻力 → L3: 系统阻力 |
+| **触点** | 如何开始做 | 用户在什么时刻、什么渠道、以什么方式第一次接触你的产品？ | L1: 渠道触点 → L2: 场景触点 → L3: 心智触点 |
+
+> **经典案例**：美国建筑公司促销公寓，目标客户是换小面积住宅的人。做了很多功能改进但看房人少。调研发现核心阻力是「餐桌」——餐桌在美国是家庭情感核心，无法处理大餐桌让他们不愿搬家。围绕这一点优化（减少次卧面积腾空间、提供搬家储藏服务），在行业缩水时仍获得增长。
+
+> **俞军公式**：用户价值 = 新体验 − 旧体验 − 切换成本。很多时候不是因为新体验不够好，而是切换成本（阻力）太高。消除关键阻力节点，比增加功能更能驱动增长。
+
+> 深度提示：动力阻力触点最精彩的部分在第三、四层的深层工具，而非表面的分类框架。课堂口述为精简版，完整深度建议查阅一堂相关专题课程。
 
 ## Framework Gallery
 
 ### 关联框架卡
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- "[[yt-model-pan-product-36-strategies]]" — 36计总图，需求13张是第一组（黄组）
+- "[[yt-model-pan-product-three-virtues]]" — 三德：共情、洞察、系统，需求卡侧重共情与洞察
+- "[[yt-model-pan-product-climbing-map]]" — 十年爬山地图，从初阶到高阶的成长路径
+- "[[yt-entrepreneur-five-step-method]]" — 创业五步法，高阶4卡对应五步法的需求评估和产品内核环节
 
 ### 关键原图
-- src_unknown
+- 一堂泛产品设计需求工具箱13张卡牌三层圆环图：L1(4张)→L2(5张)→L3(4张)，每层标★首卡
+- 拆推评算四步漏斗：拆→推→评→算，从定性到定量逐级收敛
+- 动力阻力触点三维框架：动力×阻力×触点在决策漏斗中的交互关系
+- 俞军公式可视化：用户价值 = 新体验 − 旧体验 − 切换成本
 
 ## Critique
 
