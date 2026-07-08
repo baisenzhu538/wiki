@@ -1,4 +1,4 @@
----
+﻿---
 id: yt-panproduct-aesthetic-imagination
 component_of:
 - src_unknown

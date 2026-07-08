@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-泛产品设计-出牌指南
 title: 泛产品设计·出牌指南
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.82
 trust_level: medium-high
 language: zh-CN

@@ -1,4 +1,4 @@
----
+﻿---
 id: yt-model-pan-product-demand-toolkit
 component_of:
 - "[[yt-composite-pan-product-methodology]]"
@@ -32,7 +32,7 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 source_refs:
 - 10_raw/sources/src_20260522_726a6a3b-ocr-泛产品设计-需求工具箱指南.md
 - 00_inbox/一堂-个人修身-泛产品设计实操口述版.md L1796,L1808-L1870,L1936-L2096,L2370-L2417,L4350-L4450,L5070-L5170,L5420-L5460
-status: enriched
+status: reviewed
 title: 泛产品设计·需求工具箱（13张卡牌）
 type: framework
 version: 1

@@ -1,4 +1,4 @@
----
+﻿---
 id: yt-panproduct-aesthetic-modeling
 component_of:
 - src_unknown

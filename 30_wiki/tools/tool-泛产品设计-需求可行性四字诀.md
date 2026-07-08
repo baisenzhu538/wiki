@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-泛产品设计-需求可行性四字诀
 title: 泛产品设计·需求可行性四字诀（拆推评算）
 type: tool
-status: enriched
+status: reviewed
 confidence: 0.85
 trust_level: medium-high
 language: zh-CN

@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-agent-spec-yitang-user-perspective-training
 title: 用户视角训练 Agent Spec
 type: agent-spec
-status: enriched
+status: reviewed
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

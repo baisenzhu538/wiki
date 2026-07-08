@@ -1,8 +1,8 @@
----
+﻿---
 id: tool-agent-spec-yitang-ability-migration-diagnosis
 title: 能力迁移诊断 Agent Spec
 type: agent-spec
-status: enriched
+status: reviewed
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

@@ -1,4 +1,4 @@
----
+﻿---
 id: yt-panproduct-demand-motivation-resistance
 component_of:
 - src_unknown
