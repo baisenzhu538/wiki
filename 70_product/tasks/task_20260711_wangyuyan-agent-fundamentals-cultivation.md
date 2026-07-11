@@ -96,3 +96,32 @@ updated_at: '2026-07-11'
 - 编号 **#152**；不改动任何在产任务。
 
 *王语嫣编排 · 2026-07-11*
+
+---
+
+## 六、执行报告（老顽童 kimi · 2026-07-11 · 卡已产，待队列解锁后提交）
+
+### 产出 1：新卡 ✅
+
+`30_wiki/concepts/concept-一堂-Agent基本功修炼.md`（新建，仅此一个文件）——**`kdo pre-submit` 一次通过（All gates passed）**。
+
+内容覆盖（对照任务单一、验收三）：
+- [x] 定义 + 四 agent 基本功样本（王语嫣 6 层交叉验证/行号锚定；老顽童 pre-submit 自检；洪七公 OCR+VLM 交叉校验；欧阳锋终审 checklist）
+- [x] 三环筛选 agent 基本功（io spec / 验证脚本 / 高频复利），文字声明与 #151 B-2 `tool-three-ring-capability-filter` 同构（不代建、反引号引用）
+- [x] 拆建推练 × KDO 映射表 + 练二十法 × KDO 摘对应表
+- [x] 两案例：花总（行号锚定春萍口述 L654-866，算法评估 1 周→3-4 天→1 天全标课程案例口径；实习生=agent 预演）；王语嫣角色锚定事故（2026-07-10 越界生产 #149 三 case 卡，根因=角色锚定基本功未建模未练，指向 `zhu-feedback-patterns` 模式 #2 + 盲区标记）
+- [x] 边界：不主张 agent 取代人练基本功（引 #15 卡"AI 是外骨骼、肌肉靠苦练"）；不替 #150 总纲/教练 spec 造内容
+- [x] frontmatter：`reviewed_by: 欧阳锋`、`status: draft`、`domain: management + yitang + ai-collaboration`（六要素辅标签 AI-基本功+体系已在正文"Synthesis/双视角注记"注明）
+- [x] 未改动 #150 spec 与 #150 任何在产卡（只新建本卡一个文件）
+
+### 产出 2：#15 卡反向回链 ⏸️ 挂起
+
+- 现状：`concept-一堂-AI时代基本功变与不变` 当前 `reviewed_by: pending`（#150 已提交 pending_review，待欧阳锋终审）。
+- 按任务单约定：**回链挂起**——待 #15 卡 reviewed 后，由本任务承接人（老顽童 kimi）在其 related 追加 `[[concept-一堂-Agent基本功修炼]]`，完成人练 AI 基本功 ↔ agent 练基本功双视角闭环。新卡内已在「双视角注记」与 Synthesis 注明挂起状态。
+
+### 队列状态说明
+
+- 2026-07-11 尝试 `claim` 被队列门禁拒绝：前方 #150 仍 `pending_review`，规则要求前方 reviewed 后方可领取。
+- 处置：依任务单"本卡主体写作不依赖 #150"之规定先完成写作与门禁自检；**待 #150 reviewed 后立即 claim → complete（必要时 --force）→ 补回链**。
+
+*老顽童（kimi）2026-07-11 · 待终审*
