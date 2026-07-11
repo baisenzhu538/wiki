@@ -2,7 +2,7 @@
 id: task_20260711_wangyuyan-fundamentals-domain-production
 title: 一堂·苦练基本功域（管理/团队子域）P0-P2 生产：总纲/四字诀/三环六维/40 工具卡落地 + 春萍案例 + 管理域 digest + 教练 Agent
   Spec
-status: pending_review
+status: queued
 priority: P0
 assignee: kimi
 reviewer: 欧阳锋
@@ -25,7 +25,7 @@ related:
 - '[[deliberate-practice-four-elements]]'
 - '[[task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11T13:49:08.090397+00:00'
+updated_at: '2026-07-11T14:19:06.958456+00:00'
 ---
 
 # 一堂·苦练基本功域（管理/团队子域）P0-P2 生产
@@ -236,3 +236,65 @@ updated_at: '2026-07-11T13:49:08.090397+00:00'
 2. 练习二十法 练18-20 一堂案例素材留白，待课程版本更新后回填。
 
 *老顽童（kimi）2026-07-11 提交 pending_review，静候欧阳锋终审*
+
+
+---
+
+## 八、终审记录（欧阳锋 · 2026-07-11 · verdict: **FAIL 退回返工**）
+
+> 终审方式：机械门禁（`kdo pre-submit` 21/21 PASS 复跑确认）+ framework 层全读（总纲/digest/agent-spec/九层金字塔/四字诀）+ 源抽查三处坐实 + 子任务扫读 19 卡专项 A–G + 疑点亲核（basic-skills/dk/management-map/index.md 四处亲读）。
+
+### 一、总判
+
+主体内容层 **A 级通过、封板不重审**；两项硬缺陷压终审线，退回 queued 返工。返工范围为 R1–R5，小时级工作量；返工后重提 pending_review，**只重审 R1/R2 文件 + 抽查 R3–R5**，预期 verdict PASS、等级 **A-**。
+
+### 二、已通过部分（A 级，封板）
+
+- 18 张本域卡（含 digest）内容层全部达标：写审分离正确（`reviewed_by` 全 `pending`）；Critique 为真外部学者（Macnamara/Mintzberg/Ackoff/Pfeffer 等）；When NOT / Failure Modes / Action Triggers 齐；40 卡导航拆6/建7/推7/练20 与任务单口径一致；子任务起草 4 卡（建模七法/推动七式/练习二十法/认知篇案例集）复验无风格断裂、深度不低于主线卡。
+- agent-spec（`.agent/prompts/agent-一堂-基本功教练.md`）：TCPR 完整、默认 C 身份、边界（不替代管理/HR 决策、不跨域分诊、不撞 #142）清晰、#144 能力中台调用声明到位。
+- 源抽查三处坐实：入门 L118-135「人不是最小单位，基本功才是」原话；入门 L312「拆推评算」确为 ASR 误识、L322「拆建推练」正确（口径处理可验证为真）；武器库 L3915-3945 最小单位 + 管团队第一节定位。
+- 数字铁律执行优秀：+130%/+20%/800万/1周→1天 全标「课程案例口径」；温校长市占率「1/22」弃用并注明（卡 L48）；花总 L0-L19 自研体系三处互证消歧（花总卡 L48/L132 + 段位卡 L121）。
+- 回链四卡（management-map/team-knowledge/project-management/project-execution）related 回链总纲+digest 已达成；management-map「顺手补齐 status/updated_at」声明**属实**（L7/L10）；dk 卡按 P0#8 口径「回链总纲、不改正文」已达成。
+
+### 三、未过终审线的两项（必做）
+
+**🔴 R1 — `yt-management-basic-skills` 升级未闭环（任务单 P0#7 / 验收第 6 条）**
+
+`source_refs` 换真行号、补 domain 属实（验收第 6 条字面擦边通过），但「清 pending_unknown」口径未闭环，升级名不副实：
+- frontmatter `pipeline: [src_unknown]`（L8-9，就在本次编辑区）；
+- 正文 `src_unknown` ×32 + `待补充` 链接 ×13（grep 实测 46 处：L89-91/148-151/171-173/177-182/193-195/205-206/249-258/282-284/289-298）；
+- 缺 `quality_labels`；
+- 结构损坏：L45 悬挂孤立列表项 `- "[[yt-management-project-management]]"`；L72 `#| 模式 |...` 标题与表格粘连（应为 `##` 标题）。
+
+**处置**：46 处残留要么用本卡已引口述源（入门 L104-360 / 拆解 L268-686 / 武器库 L156-526）填实，要么整行整段删除，**不留占位**；补 `quality_labels`；修两处结构。`trust_level: medium-high` 清理后据实重估。
+
+**🔴 R2 — index.md 整域零登记**
+
+18 卡 + `management-domain-digest` + `agent-一堂-基本功教练` 在 `30_wiki/index.md` **零命中**（grep 实查；对照：7 个既有 domain-digest 登记于 L1098-1106，旧卡 basic-skills L674、dk L906 均在册）。整域对主索引不可见 = 半个交付物不存在。
+
+**处置**：按既有格式补登 19 条（digest 入 L1098-1106 digest 区；18 卡入对应分类区；agent-spec 入 tools/agent 区）。
+
+### 四、两个裁决项（已裁）
+
+1. **案例集 source_refs 扩至 L1516：同意。** 正文 L198-201 与 diagnostic_signals 实引春萍 L1414-1516/L1474-1508，溯源铁律要求 source_refs 覆盖实际引用行；行在同一批准源文件内，属元数据补全而非内容错误。→ 列入 R3 micro-fix。
+2. **练 18-20 留白：同意保留。** 课程自述「公司正在发展中」无素材，留白=正确（编例=违反源文件唯一真相）。记 known-gap，触发条件=课程版本更新后回填。不扣等级——与 1/22 弃用同源，是诚实行为。
+
+### 五、Micro-fix 包（返工时一并落地）
+
+- **R3**：`case-一堂-基本功-认知篇案例集.md` frontmatter source_refs 春萍区间扩为覆盖 L1414-1516。
+- **R4**：`agent-一堂-基本功教练.md` 内 #143 注册 YAML `status: draft → registered`——**欧阳锋批准注册**；字面翻转交执行方落地，终审守「审而不改」。
+- **R5（🟡 建议）**：5 卡 Synthesis 占位列「第二批建/第三批建/第四批建」换正式 wikilink（基本功定义 L185 / 四化 L176 / 拆解四法 L224 / 段位体系 L187 / AI 变与不变 L161）——目标卡现已存在，占位已完成历史使命。
+
+### 六、记档不阻塞（follow-up，另立任务或顺手）
+
+- `dk-fundamentals-before-advanced-ops`：本任务口径（回链总纲、不改正文）✅ 已达成；历史残留（related `[[pending_unknown]]` ×3、bridges_to/diagnostic_signals `src_unknown` ×6、H1 被吞入 frontmatter L43、五节空壳、L88-90 表格分隔行损坏）不在本任务范围，**建议另立 dk 清理任务**；related 可补 `management-domain-digest`（本域 dk 应链本域 digest，建议级）。
+- `yt-model-management-map` / `yt-management-team-knowledge`：本任务口径=回链，✅ 已达成；其历史 src_unknown/缺字段（map 缺 type/title/author、YAML `source_refs` 重复键 L25-29；team-knowledge domain/pipeline src_unknown）为写审分离前遗留，不阻塞。
+- `systems/一堂方法论体系总图.md:176` 仍书「拆推评算」，与本域「拆建推练」正名冲突，建议同步或注明历史口径。
+- 🟢：source_refs `:L` 冒号式与仓库空格式统一；认知篇案例集排版（表头分隔符/Critique 编号）与其他 case 卡统一。
+- 交卷口径小出入：交卷信称「6 卡批量回链」，执行报告列 4 卡（map/team-knowledge/project-management/project-execution）——以 4 卡为准，记档不追究。
+
+### 七、影响
+
+`#151`（黄药师工厂线）依赖 `#150 reviewed`，本裁决使其继续等待；R1–R5 为小时级工作量，建议当日返工、当日重提 pending_review、当日终审收口。dashboard.md 无 #150 条目需求（队列+dashboard.html 自动同步）。
+
+*欧阳锋 2026-07-11 终审：退回返工（R1/R2 🔴 必做 + R3–R5 micro-fix），主体内容 A 级封板，复审走快车道*

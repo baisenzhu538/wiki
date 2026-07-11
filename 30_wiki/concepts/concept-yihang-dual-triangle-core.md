@@ -35,6 +35,7 @@ related:
 - "[[method-dual-triangle-flywheel-engine]]"
 - "[[人机协作决策-双三角模型]]"
 - "[[concept-AI时代双三角竞争力]]"
+- "[[concept-一堂-AI时代基本功变与不变]]"
 - "[[yt-decision-y-model]]"
 - "[[system-yitang-Y-model-os]]"
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
@@ -125,7 +126,7 @@ aliases:
 |:---|:---|:---|:---|
 | **场景** | 发掘高匹配、高价值细分场景的能力 | AI 机会探索、AI 价值预判、落地边界 | 「AI 在哪个环节最能创造价值？」 |
 | **数据** | 主动搜集和积累高质量 AI 可用数据资产 | AI 数据资产、AI 数据建设 | 「有什么正面/负面案例和 Domain Knowledge？」 |
-| **基本功** | 熟练使用各种 AI 工具、技术和特性解决问题 | AI 工具、AI 技术、AI 实操能力 | 「用什么工具、什么 Feature 来做？」 |
+| **基本功** | 熟练使用 AI 工具与范式解决问题——包括提示词工程、上下文工程、智能体协作、全网调研（扩展定义见 [[concept-一堂-AI时代基本功变与不变]]） | AI 工具、AI 技术、AI 实操能力 | 「用什么工具、什么 Feature 来做？给 AI 搭了什么上下文？」 |
 
 **结构关系**：基本功 + 数据 → 撑起场景。没有底座，场景只是空想。
 
