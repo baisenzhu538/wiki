@@ -17,11 +17,11 @@ source_refs:
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- concept-X型Y型决策习惯
-- yt-decision-height-toolkit
+- '[[yt-decision-width-method]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-height-toolkit]]'
+- '[[concept-X型Y型决策习惯]]'
+- '[[yt-decision-height-toolkit]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
@@ -77,8 +77,12 @@ updated_at: '2026-06-29'
 
 ## 与已有框架的关系
 
-- src_unknown
-- src_unknown
+- 本卡=三维总纲；宽度/深度/高度各有子框架和工具卡落地
+- 宽度：`concept-科学决策宽度` + `yt-decision-width-method`（列推建查四步法+三层盲区）
+- 深度：`yt-decision-depth-ladder`（L1-L4递进）+ L1-L4四张工具卡
+- 高度：`yt-decision-height-toolkit`（上帝视角四维+高水平共识曲线）
+- 与ABCD模型（`yt-decision-abcd-model`）互补——ABCD管"假设质量"，三角形管"三维完备"
+- 上挂 `decision-science-domain-digest` 域摘要
 
 ## Critique
 

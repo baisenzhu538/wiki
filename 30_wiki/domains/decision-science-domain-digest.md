@@ -216,6 +216,7 @@ related:
 | business-strategy | [[framework-科学决策三角形|科学决策三角形]] | 战略选择中平衡高度、宽度、深度三维度 |
 | ai-collaboration | [[concept-AI时代双三角竞争力|AI 时代双三角竞争力]] | 人机协作场景下的决策分工与幻觉识别 |
 | ai-collaboration | [[case-decision-ai-assisted-vs-human|AI 辅助决策 vs 人工决策的边界案例]] | 哪些决策可以交给 AI，哪些必须保留人工判断 |
+  - '[[agent-一堂-科学决策教练]]'
 
 ## 10. 域健康度
 

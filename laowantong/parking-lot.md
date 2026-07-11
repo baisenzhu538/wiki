@@ -29,6 +29,8 @@ language: zh-CN
 | LW-PL-001 | `_269` 深蓝海洋主题页卡片化 | `00_inbox/战略专题/_strategy_cards_implementation_status.md` | 1 张战略域 tool/case/framework 卡 | P2 | 待内容确认 | VLM 描述仅为背景图/主题页，未明确实质框架内容 |
 | LW-PL-002 | 重启 `laowantong-batch-2026-06-20.md` waves 1-2 | `70_product/tasks/laowantong-batch-2026-06-20.md` | 完成门禁快速清理 11 张卡 + P0 返工 13 张卡 | P1 | 待用户/欧阳锋确认 | 因战略域 PPT 补强插入而暂停，未取消 |
 | LW-PL-003 | 全库 lint 历史债务修复 | `60_feedback/audit/kcard-quality-gate-report-2026-06-15.md` | kdo lint errors/warnings 大幅下降 | P2 | 待另排工单 | 当前 1700+ errors / 4700+ warnings；不应与主线并发 |
+| LW-PL-004 | #145 两卡 frontmatter 状态同步：`framework-一堂-关键假设` + `framework-一堂-关键假设-ABCD模型` 由 `pending_review` 改 `reviewed` | 王语嫣 ABCD 域盘点（2026-07-11）；#145 已欧阳锋终审 A- 但卡状态未同步 | 2 卡 status 与 #145 终审结论一致 | P2 | 待排期 | 1 分钟级修复；可搭任何下一个任务收尾顺手做 |
+| LW-PL-005 | D 域（转化率黑客）素材暂存与立项等待 | 王语嫣 ABCD 域盘点（2026-07-11）；老朱闸门「等系统课到位再立项」 | 素材到位后：总纲 framework + 工具卡族 + 案例族 + agent-spec（按基本功域 #150 同规格，由王语嫣编排） | P1 | 待素材输入 | 现有暂存素材：`yt-management-conversion-hacking` / `yt-model-conversion-optimization` / `yt-product-kernel-key-conversion` + `tool-动力阻力分析` + 2 案例 + 2 OCR（10大浪费触点/动力曲线）+ #149 三案例 D 触点（舞蹈 C↔D、服装店 L5/L6 参数回填） |
 
 ## 已完成任务
 
