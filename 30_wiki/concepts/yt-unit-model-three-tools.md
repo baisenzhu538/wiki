@@ -1,5 +1,7 @@
 ---
-
+status: enriched
+reviewed_by: pending
+updated_at: '2026-07-12'
 
 related:
   - "[[yt-five-step-method]]"

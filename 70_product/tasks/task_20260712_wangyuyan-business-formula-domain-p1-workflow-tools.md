@@ -1,7 +1,7 @@
 ---
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-11T20:56:13.188481+00:00'
+status: pending_review
+updated_at: '2026-07-11T21:53:58.487386+00:00'
 ---
 # 任务 #156：C 域·业务公式 P1 工作流与工具族
 
@@ -145,3 +145,39 @@ updated_at: '2026-07-11T20:56:13.188481+00:00'
 2. 每个 concept 有至少一个反常识点标注（本域概念多反常识，是价值密度所在）
 3. 与 #155 骨架卡双向 related
 4. 数字降级、冲突裁定、source_refs 同 #155 纪律
+
+## 执行报告（老顽童 · 2026-07-12 交付）
+
+### 交付清单：20 项全做，未合并
+
+- frameworks（2）：`yt-business-formula-three-stage-workflow.md`、`yt-business-formula-peahd-roles.md`
+- tools（8）：`yt-tool-business-formula-{18-moves, causality-toolkit, expert-interview-10, format-spec, gongjianhui, hypothesis-pool, inspiration-5, quant-space-3d}.md`
+- concepts（10）：`concept-一堂-{双目标法, 三类目标策略, 关键路径与乘法杠杆, 相关不等于因果, 参数耦合与动态公式, 魔法数字, 脱离成本, 参数即假设与递归嵌套, 黑盒到白盒, 假设飞轮}.md`
+
+### 验收点对照
+
+- **0 防呆**：20 卡 frontmatter 全部 `updated_at: '2026-07-12'`（带引号）、`status: enriched`、`reviewed_by: pending`、`author: 老顽童`、`created_at: 2026-07-12`、`domain: [yitang, business-formula]`；source_refs 全部带口述逐字稿行号锚点（一等源），图 001759/002213/002832/002843/批注 002100 VLM 作一等/佐证。
+- **1 十八招无缺漏**：`yt-tool-business-formula-18-moves.md` 18 招逐招齐（动作+要点+案例锚点），以图 001759 为一等准。裁定一处：任务单正文写「4 全面学习/5 拆解细节」，原图（3480×3480 目视）为 **4=拆解细节、5=全面学习**，卡内已加注，按图为准。
+- **2 concept 反常识标注**：10 张 concept 卡每张 ≥1 个「⚠️ 反常识」标注（可 grep `反常识` 坐实，多数卡 2-4 个）。
+- **3 双向 related**：收口子代理统一回链，新增 related 126 条（#156 新卡 +31、#155 骨架卡 +90、范围外既有卡 +5），正文 wikilink 全部双向；总纲+digest 各链入全部 20 新卡；digest 内 #156 占位全部转正并新增「P1 工具族导航（20 卡）」节。
+- **4 数字纪律**：全部数字标「课程案例口径/课程经验值」；冲突裁定遵守 PEAHD（管理篇 L2542「SPDA」按裁定还原并标注）、C=宏观效率、复盘营 100→3000-4000 人/期、Ω≠五步法；ASR 勘误（17 好友→10、34000→3400、SARS→SaaS、NTS→NPS、单忙→单盲、民众集中制→民主集中制等）均在卡内标注。
+
+### pre-submit 复跑
+
+- 20/20 PASS（主代理终轮复跑，逐卡单独执行）。
+- 收口子代理轮 33/33 PASS（28 任务内文件 + 5 范围外补链文件；yt-management-business-formula、yt-management-goal-management 各带 1 条历史 🟡 警告，非本次引入）。
+- index.md 登记 20 条（concepts 10 + frameworks 2 + tools 8，按路径码点排序插入），门禁坏链清单对 20 新卡零命中（index 整体 FAIL 为历史遗留：无 frontmatter + `_archive` 旧坏链）。
+
+### 主动申报（scope 外/偏差）
+
+1. **范围外既有卡 +5 回链**：`framework-一堂-关键假设`、`yt-management-business-formula`、`yt-management-goal-management`、`tool-三层目标对齐法`、`tool-泛产品落地-攻坚会` 各追加 1 条 related（仅单行追加，因 #156 新卡 related 引用了它们，双向铁律要求；如需回退成本为零）。
+2. **pending_unknown 2 处**：① 三类目标策略卡：实操篇 L1748「拍 3% 到 5%」与管理篇 L1562「30% 到 50%」口径冲突，疑 ASR 数字误识，主体取管理篇口径、冲突处标 pending_unknown；② format-spec 卡：女装店 V2 口述 L1882-1888 一处 ASR 词（「纪念币」）无法确定原词，标 pending_unknown。
+3. **任务单示例替换 1 处**：⑥三类目标策略给的「30 天作业完成率≥80%」五篇逐字稿无一等源，改用管理篇 L1552「30 天 20 学分提高到 70%」+实操篇 L1718（已回原文核验）。
+4. **18 招第 10 招无独立案例**：进阶篇口述对该招只有原则性三看（L2994-2998），卡内如实只写动作+要点，未硬凑案例。
+5. **专家访谈 10 步法「要点」为操作化展开**：图 002213 只给步骤名、进阶篇口述只点名未展开（L3130-3132），卡内已注明。
+6. **疑似重复卡（提请终审注意）**：`frameworks/framework-yitang-expert-interview-10steps`（旧卡，index 在册）与本批 `tools/yt-tool-business-formula-expert-interview-10` 主题重叠，一旧 framework 一新 tool，未合并未改动旧卡，留待终审裁定去重。
+7. **两源差异并录未硬裁**：黑盒到白盒卡「沉淀/复制」表述进阶篇 L3554 vs 管理篇 L3212 vs 图 003311 三源并存，卡内注明取图表述。
+
+### 生产方式
+
+Wave 1 十子代理并行（每代理 2 卡）→ Wave 2 收口子代理统一回链转正 → Wave 3 主代理 index 登记 + 复跑 + 本报告。全程竞态纪律（子代理不编辑他卡）零冲突。

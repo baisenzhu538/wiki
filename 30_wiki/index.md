@@ -483,9 +483,19 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[concepts/concept-一堂-kernel-validation|产品内核验证：三维度评估 + 六策略验证]] — source `src_unknown`
 - [[concepts/concept-一堂-key-assumptions|concept-一堂-key-assumptions]] — source `{'pending_archive': 'src_unknown'}`
 - [[concepts/concept-一堂-product-kernel|产品内核：用户愿意选择你的最小解决方案]] — source `src_unknown`
+- [[concepts/concept-一堂-三类目标策略|三类目标策略：必胜型严管、挑战型激驱、探索型留白]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L294-298`
+- [[concepts/concept-一堂-假设飞轮|假设飞轮：假设→结果→激励→更多假设的团队侧增强回路]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt:L3294-3384`
+- [[concepts/concept-一堂-关键路径与乘法杠杆|关键路径与乘法杠杆：乘法必经优先，定量后分支可反超]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:L900-966`
+- [[concepts/concept-一堂-参数即假设与递归嵌套|参数即假设与递归嵌套：公式里每个参数都是一条假设，参数是下一级的目标]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:L1012-1058`
+- [[concepts/concept-一堂-参数耦合与动态公式|参数耦合与动态公式：A 涨 30% 不等于目标涨 30%，公式是个活物]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:L1082-1170`
+- [[concepts/concept-一堂-双目标法|双目标法：合格线保底 + 优秀线冲刺，一条目标带两种士气]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L2090-2152`
 - [[concepts/concept-一堂-基本功-刻意练习四要素|刻意练习四要素（组织版）：套路×非舒适区×大量重复×及时反馈]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt:L156-605`
 - [[concepts/concept-一堂-基本功-段位体系|基本功段位体系：L1-L6 爬山图 × SABC 岗位阶段 × 60/70/85 分数制]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L1570-1662`
 - [[concepts/concept-一堂-基本功定义|基本功定义：针对具体场景的独立可检验动作，重复形成复利]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L104-360`
+- [[concepts/concept-一堂-相关不等于因果|相关不等于因果：三种伪因果模式与聪明下属反噬规律]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:L680-778`
+- [[concepts/concept-一堂-脱离成本|脱离成本：续费/留存的本质是「离开太痛」，不是信任加深]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt:L1848-1860`
+- [[concepts/concept-一堂-魔法数字|魔法数字：前置动作的拐点指标，找到一个价值百万千万]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:L2830-2940`
+- [[concepts/concept-一堂-黑盒到白盒|黑盒到白盒：把「一大坨」的直觉决策拆成可证伪、可讨论、可沉淀、可迁移的参数结构]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt:L3490-3578`
 - [[concepts/concept-两种典型思考习惯|两种典型思考习惯：效率导向 vs 效果导向]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-高度-两种典型的思考习惯_vlm_desc.md`
 - [[concepts/concept-半肥猫-ai-learning-toolification-methodology|半肥猫 AI 学习落地方法论：从听课到造工具的三层递进]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
 - [[concepts/concept-单元模型-学练用|学练用：知识内化的三阶模型]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-学练用_vlm_desc.md`
@@ -1259,7 +1269,9 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[frameworks/yt-business-formula-abc-model|业务公式 ABC 模型（Ambition-Basis-Connection）]] — source `10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md`
 - [[frameworks/yt-business-formula-business-pattern-selector|业务公式商业模式选型框架：单次成交型 vs 持续复购型]] — source `10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md`
 - [[frameworks/yt-business-formula-hypothesis-management-playbook|业务公式假设管理落地策略集：2+3 策略 × 入门/进阶/高阶三级 = 15 格行动矩阵]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L659-766`
+- [[frameworks/yt-business-formula-peahd-roles|PEAHD 五角色：一个强大的假设团队需要哪五种人（可兼）]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L2374-2460`
 - [[frameworks/yt-business-formula-qualitative-metrics-library|yt-business-formula-qualitative-metrics-library]] — source `{'pending_archive': 'src_unknown'}`
+- [[frameworks/yt-business-formula-three-stage-workflow|业务公式三阶段工作流：A 梳理 → B 建立 → C 深入（反架空公式）]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt:L400-432`
 - [[frameworks/yt-business-model-channel-economics|渠道经济学：获客成本优化]] — source `10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`
 - [[frameworks/yt-business-model-platform-strategy|平台战略：从单边到双边]] — source `10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`
 - [[frameworks/yt-business-model-scalability|商业模式可规模化评估：从1到100万]] — source `10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`
@@ -2353,8 +2365,16 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[tools/yt-product-kernel-ten-metrics|产品内核十大典型指标：从假设到验证的数据体系]] — source `10_raw/sources/src_20260510_5ef61f8f-一堂产品内核十大典型指标.md`
 - [[tools/yt-tob-customer-sabc|To B 客户 SABC 自定义切分法]] — source `pending_archive:source material not yet ingested`
 - [[tools/yt-tool-ai-ppt-maker|AI对话式PPT生成器：把排版变成说话]] — source `10_raw/sources/src_20260619_3f10f20d_00_inbox_design_AI设计_文创案例设计课口述.txt`
+- [[tools/yt-tool-business-formula-18-moves|降龙十八掌：假设驱动业务增长的 18 招全清单（五环节 3/4/4/4/3）]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt:L1668-1748`
+- [[tools/yt-tool-business-formula-causality-toolkit|因果三件套：常识判断+逻辑推理+控制变量，验证一条关系配不配当抓手]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:L2404-2458`
+- [[tools/yt-tool-business-formula-expert-interview-10|专家访谈黄金 10 步法：分析 3 + 准备 3 + 执行 4]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt:L3028-3068`
+- [[tools/yt-tool-business-formula-format-spec|业务公式格式规范：L1-L3 三级标准 + 清单体 + 四不要（女装店三版本打分）]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt:L1762-2206`
+- [[tools/yt-tool-business-formula-gongjianhui|攻坚会：5-15 人封闭 4-18 小时、不解决不出门、民主集中制的难题解题机制]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L340-368`
+- [[tools/yt-tool-business-formula-hypothesis-pool|关键假设池：三层形态 + 字段模板 + 四条运营纪律（测试群/颗粒度/证伪留存/云端协作）]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L776-880`
+- [[tools/yt-tool-business-formula-inspiration-5|灵感闪现五字诀：压 / 看 / 聚 / 拆 / 再]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt:L2658-2726`
 - [[tools/yt-tool-business-formula-metrics-checklist|yt-tool-business-formula-metrics-checklist]] — source `{'pending_archive': 'src_unknown'}`
 - [[tools/yt-tool-business-formula-parameter-arsenal|参数挖掘武器库：6 策略 → 22 动作 → 100+ 参数全量清单]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:L1386-1455`
+- [[tools/yt-tool-business-formula-quant-space-3d|定量空间三维评估：差距 × 对标 × 成熟度，判断一个参数还值不值得砸资源]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L1838-1856`
 - [[tools/yt-tool-equity-checklist|股权设计检查清单]] — source `10_raw/sources/src_20260619_52c76864_30_wiki_concepts_yt_management_business_formula.md`
 - [[tools/yt-tool-hiring-scorecard|结构化面试打分卡]] — source `10_raw/sources/src_20260619_642947cb_30_wiki_concepts_yt_management_scientific_hiring.md`
 - [[tools/yt-tool-meeting-designer|会议设计师：一页纸会议蓝图]] — source `10_raw/sources/src_20260619_d11dc3a2_30_wiki_concepts_yt_management_scientific_meetings.md`
