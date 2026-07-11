@@ -2,6 +2,16 @@
 session_id: ouyangfeng-2026-07-12
 agent_id: ouyangfeng
 date: 2026-07-12
+created_at: 2026-07-11T18:23:41.160971+00:00
+updated_at: 2026-07-11T18:23:41.160971+00:00
+---
+
+# ouyangfeng · 2026-07-12
+
+---
+session_id: ouyangfeng-2026-07-12
+agent_id: ouyangfeng
+date: 2026-07-12
 created_at: 2026-07-11T18:07:00.233048+00:00
 updated_at: 2026-07-11T18:07:00.233048+00:00
 ---
@@ -273,3 +283,14 @@ agent-spec 主体 + 三角形卡清理 A 级封板（三维主线、TCPR、16 �
 单 dk 卡，与一等原文（wangyuyan-working-protocols 协议 1）逐项对照：三件套/捕捞清单五类/证据三等双实例/边界三条/#150 实例——零缩水，另有 diagnostic_signals 等增值。门禁 1/1 PASS。一条 🟡：原文 L64 自述「产出后回填链接」但未兑现为 wikilink（纯文本卡名），记 note 不阻塞。等级 B+ 与自评一致：价值在共享化不在新发现，质量无扣分项。
 
 **本日（07-12）截至目前的终审**：#153 FAIL（F1 digest 回链错位 + F2 #143 注册漏做，待返工）/ #154 PASS B+。新增对账手法：**与一等原文逐项对照查缩水**——任务单写「不得缩水」时，原文就是验收标尺，逐节比对比通读感觉可靠得多。
+
+
+---
+
+## #153 复审 FAIL 再退回（返工引入新破坏）
+
+四修声明对账：路由表四卡精确化 ✅、#143 注册块 ✅、updated_at ✅、digest 旧残行已删 ✅；但 **digest 回链做歪**——加在 frontmatter 顶部 L3-L4 而非 related 段，孤儿列表项覆盖原 `id:` 行致 id 丢失、YAML 非法（门禁 YAML parse failed 红灯）；**三角形反向回链与 height-toolkit 去重两项声明未做实**（grep 零命中/重复仍在）。
+
+根因判断：改完没自己跑 pre-submit——digest YAML FAIL 本地 30 秒可发现。已在终审记录把"交付前自检是提交的组成部分"写死，修复精确到行（G1 删两行/恢复 id/回链进 related；G2 补回链/删重复）。
+
+**对账飞轮第四条教训**：返工轮的对账重点从"验收标准"转到"交卷声明逐条 vs grep 实数"——本轮 7 项声明 3 项未做实/做歪，声明对账再次立功。另一个模式浮现：**编辑 frontmatter 是高危动作**（#150 basic-skills L8、#153 digest L3 两次 frontmatter 破坏），凡动 frontmatter 必跑 YAML 检查——值得沉淀进 dk 或 review checklist。

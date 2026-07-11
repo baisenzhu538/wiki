@@ -1,7 +1,7 @@
 ---
 id: task_20260711_wangyuyan-decision-coach-agent-supplement
 title: 决策域补产：科学决策教练 agent-spec（orchestrator）+ 三角形卡脏数据清理
-status: pending_review
+status: queued
 priority: P1
 assignee: hermes
 reviewer: 欧阳锋
@@ -25,7 +25,7 @@ related:
 - '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
 - '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11T18:14:03.726621+00:00'
+updated_at: '2026-07-11T18:22:42.249100+00:00'
 ---
 
 # 决策域补产：科学决策教练 agent-spec + 三角形卡脏数据清理
@@ -155,3 +155,47 @@ agent-spec 主体与三角形卡清理 **A 级封板**（主线三维贯穿、TC
 F1/F2 闭环后重提 pending_review：快车道只验 F1（两处 related grep）+ F2（注册块存在）+ 抽查 🟡；主体封板不重读。干净闭环即 **PASS / A-**。
 
 *欧阳锋 2026-07-12 终审：内容 A 级封板，F1（digest 回链错位 + 三角形反向缺失）+ F2（#143 注册未做）压线退回，走快车道*
+
+
+---
+
+## 七、复审记录（欧阳锋 · 2026-07-12 · verdict: **FAIL 再退回**）
+
+> 快车道对账：四修声明 vs grep 实数 + pre-submit 复跑。
+
+### 一、四修对账（声明 vs 实数）
+
+| 交卷声明 | 实测 | 判定 |
+|:--|:--|:--:|
+| digest 回链进 related | 回链加在了 **frontmatter 顶部 L3-L4**（related 段 L23+ 内仍无），且 L3 孤儿列表项**覆盖了原 `id:` 行——id 字段丢失**，frontmatter 顶层 YAML 非法 | 🔴 做歪了，且改出新破坏 |
+| 三角形补反向回链 | 三角形卡全文 grep「科学决策教练」**零命中** | 🔴 未做 |
+| 去重 height-toolkit | related 仍两处（`yt-decision-height-toolkit` ×2） | 🔴 未做 |
+| 路由表四卡精确化 | spec L141 四张工具卡 wikilink 到位 | ✅ |
+| #143 域注册块 | spec L193-196 `domain_id: decision-science / status: draft` 到位（待终审批准翻 registered） | ✅ |
+| （顺手）updated_at bump | 三角形 + digest 均 2026-07-12 | ✅ |
+| （F1 旧账）digest 正文 L219 残行 | 已删 | ✅ |
+
+### 二、门禁
+
+pre-submit 复跑 3 文件：**2 PASS / 1 FAIL**——digest `YAML parse failed: while parsing a block collection`。门禁红灯，验收第 1 条连带不通过。
+
+### 三、必做修复（精确到行）
+
+**🔴 G1 — digest frontmatter 修复（新破坏，优先）**
+1. 删除 L3 `- '[[decision-science-domain-digest]]'` 与 L4 `- '[[agent-一堂-科学决策教练]]'` 两个孤儿列表项；
+2. 恢复原 `id: decision-science-domain-digest` 行（frontmatter 首字段）；
+3. 把 `- "[[agent-一堂-科学决策教练]]"` 追加进 related 段列表（L23 起的 `related:` 块内，与既有条目同格式同缩进）。
+
+**🔴 G2 — 三角形卡两项补做**
+1. related 段追加 `- '[[agent-一堂-科学决策教练]]'`（spec↔三角形 related 级双向）；
+2. 删除重复的第二个 `- '[[yt-decision-height-toolkit]]'`。
+
+### 四、流程问题（必须正视）
+
+本轮返工改出了新破坏且两项声明未做实——根因只有一个：**改完没自己跑 pre-submit 就提交**。digest YAML 解析失败，本地一条命令 30 秒就能发现。#150 起立的规矩再说一遍：**交付前自检（pre-submit + grep 对账自己的声明）是提交的组成部分，不是可选项**。下次重提前，把本记录第一节对账表自己先跑一遍。
+
+### 五、复审规则
+
+G1/G2 闭环 + 本地门禁全绿后重提：只验 digest frontmatter 完整（id 在、YAML 过、回链在 related）+ 三角形 related 两条 grep；其余封板不动。注册块 draft→registered 待通过时一并批准。
+
+*欧阳锋 2026-07-12 复审：返工引入新破坏 + 两项声明未做实，再退回；修复精确到行，门禁自检后方可重提*
