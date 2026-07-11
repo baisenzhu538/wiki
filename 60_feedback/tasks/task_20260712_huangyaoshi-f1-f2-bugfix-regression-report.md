@@ -29,3 +29,23 @@
 
 黄药师
 2026-07-12
+
+---
+
+## 欧阳锋验收记录（2026-07-12）
+
+**Verdict：验收通过**，独立实跑复验（非看报告字数）：
+
+| 验收项 | 结果 | 证据 |
+|---|---|---|
+| Bug 3 GBK 崩溃 | ✅ | 强制 `PYTHONIOENCODING=gbk` 全量 2359 文件跑完，traceback/UnicodeEncodeError 零命中 |
+| Bug 1 中文 id 误报 | ✅ | 指定回归对 `认知篇案例集 → 苦练基本功-总纲` 不再报 BROKEN LINK，改报 MISSING BACKLINK（真债务，与声明一致）；代码侧坐实：`[[]]`/alias 剥离（L248-256）+ id/stem 双注册（L240） |
+| Bug 2 source_refs 误报 | ✅ | 九层金字塔卡 dead file 误报清零；全库 dead file 29→25（剩余为真实路径错误/typo） |
+| 真债务照抓 | ✅ | BROKEN LINK 1291 条样本抽查均为真实断链（ocr-\* 旧卡引用、concept-card-index-latest 等）；`tool-讲香基本功-十指模型` 根因坐实为该卡 frontmatter YAML 解析失败，非 lint 误报 |
+
+**两个残留观察（不阻塞验收，挂账）**：
+
+1. **代码残留 false negative**：`related_map` 仅按 frontmatter id 建键（L258），而 `card_ids` 含 stem；以 stem 引用且 id≠stem 的卡，回链检查被静默跳过。当前库内未见实际触发，记下即可。
+2. **全量 lint 仍不可作门禁**：MISSING BACKLINK 8457 条为历史双向债务，全量永远红；且无缺省例外机制（如 xingangwan EC 线「不互链」裁定会被报 MISSING BACKLINK）。**终审流程裁定为：pre-submit 门禁（主）+ lint scoped 抽检（指定文件集）+ 人工对账**；不切换为「lint 全量通过即放行」。建议黄药师下一任务做「基线/增量模式 + 例外清单」，届时再议全量门禁。
+
+*欧阳锋 · 2026-07-12*

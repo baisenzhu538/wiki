@@ -11,19 +11,17 @@ updated_at: '2026-07-12'
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - 复盘只停留在"做得好/不好"的主观感受，挖不到原因
+  - 怎么把一次复盘从事实挖到根因、再挖到可迁移的模型
+  - 深度复盘五层：主观感受→客观事实→背后原因→底层模型→能力建设
+  - 团队复盘变成找替罪羊，找原因退化为甩锅
+  - 复盘完没有沉淀，同样的错误下个季度再犯
+  - 这一轮复盘你能挖到第几层深度
 reviewed_by: "黄药师"
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
   - pending_archive:src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
   - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
-source_refs:
-  - pending_archive:src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 related:
   - yt-business-formula-six-level-logic
 ---
@@ -50,9 +48,9 @@ related:
 
 ### 五层穿透的实践要点
 
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - 逐层追问不停层：感受→"具体发生了什么"→"为什么会这样"→"这背后有没有可复用的规律"→"怎么固化成能力"，停在任何一层都算没复盘完
+  - 每组跳跃都是质变不是渐变：L1→L2 是忽视到回顾，L2→L3 是现象到原因，L4→L5 是事情到能力——难度递增，后两跳最费力
+  - 终点是 L5 能力建设：复盘价值与深度成正比，水面之上最显眼的感受最没价值，水下的模型和能力才是回报所在
 
 ### 与解放思想层级的关系
 
@@ -91,7 +89,9 @@ related:
 ## Framework Gallery
 
 ### 关联框架卡
-  - src_unknown
+  - [[framework-yitang-jiefang-sixiang]]
+  - [[yt-model-liberate-thinking-layers]]
+  - [[yt-personal-deep-review]]
 
 ## Constraints & Boundaries
 

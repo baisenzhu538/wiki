@@ -43,22 +43,22 @@ reviewed_by: pending
 confidence: 0.9
 trust_level: high
 related:
-- framework-一堂-业务公式拆解-总纲
-- yt-business-formula-parameter-iceberg
-- yt-business-formula-abc-model
-- yt-business-formula-ten-paradigms
-- yt-business-formula-hypothesis-management-playbook
-- yt-tool-business-formula-parameter-arsenal
-- tool-一堂-业务公式-L1L6参数分层自检
-- yt-model-deep-review-iceberg
-- yt-management-business-formula
-- yt-decision-depth-ladder
-- tool-yitang-sales-performance-management
-- yt-decision-y-model
-- tool-yitang-Y-model-application
-- case-yitang-Y-model-advertising-turnaround
-- framework-yitang-shishi-qiushi
-- framework-yitang-jiefang-sixiang
+- '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[yt-business-formula-hypothesis-management-playbook]]'
+- '[[yt-tool-business-formula-parameter-arsenal]]'
+- '[[tool-一堂-业务公式-L1L6参数分层自检]]'
+- '[[yt-model-deep-review-iceberg]]'
+- '[[yt-management-business-formula]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[case-yitang-Y-model-advertising-turnaround]]'
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[framework-yitang-jiefang-sixiang]]'
 - '[[business-formula-domain-digest]]'
 ---
 # 业务公式六层逻辑关系冰山（L1 模糊理解 → L6 动态建模）
@@ -239,7 +239,7 @@ L1 一大片参数 → L2 记录分析后挑出显著项（封面真人出镜影
 
 - 六层命名、比喻、升级动作策略库以探索地图/冰山图母版 VLM 为一等准，与口述 L1362-L1524、L1682-L1820 互证，高置信。
 - 案例数字均为课程案例口径/课程经验值：作业数案例课程自述"脱敏架空"（L414）；视频号好友率、定价抛物线、开发板实验为课程口述，按课程口径引用。
-- 已裁定冲突：扭蛋机付费率两源冲突（口述 28→30 vs 案例 2 图 2%→3%）属参数侧案例，本卡未引用，标注移交 `[[yt-business-formula-parameter-iceberg]]`（pending_unknown）。
+- 已裁定冲突：扭蛋机付费率两源冲突（口述 28→30 vs 案例 2 图 2%→3%）属参数侧案例，本卡未引用；裁定与 pending_unknown 标注见 `[[business-formula-domain-digest]]` 冲突裁定表（digest L141），案例卡由 #157 承接。
 - VLM 识别异常：冰山图母版中"一堂"被系统性误识为"一堙"，引用时已还原。
 
 ---

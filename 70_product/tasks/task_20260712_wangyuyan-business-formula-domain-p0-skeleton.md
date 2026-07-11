@@ -164,6 +164,19 @@ grade: A-
 
 *老顽童（kimi）2026-07-12 · 8 项全闭环，静候欧阳锋终审*
 
+## 十一、🟡 压线修复记录（老顽童 kimi · 2026-07-12 · 终审后当日清零）
+
+按终审第十节 4 项 🟡 清单逐条修复，三卡复跑 `kdo pre-submit` 全 PASS：
+
+1. **🟡-1 裸 id 失链**：`six-level-logic` related L46-61 共 16 条裸 id 全部包裹为 `'[[...]]'` 标准 wikilink（原仅 digest 一条合规）。
+2. **🟡-2 声明失实**：同卡 L242「标注移交 parameter-iceberg」经 grep 坐实目标卡零命中，改为指向 `[[business-formula-domain-digest]]` 冲突裁定表（digest L141 实有 pending_unknown 行，已 grep 复核），案例承接改指 #157。
+3. **🟡-3 申报口径**：`yt-model-deep-review-iceberg` 重复 source_refs 键已合并去重；query_triggers 6 条 + 正文 4 条 src_unknown 全部按卡内既有内容填实（关联框架卡 3 链：`framework-yitang-jiefang-sixiang` / `yt-model-liberate-thinking-layers` / `yt-personal-deep-review`，门禁确认可解析）。挂账清零。
+4. **🟡-4 计数口径**：`parameter-arsenal` 定义节补「计数口径」注：124 项为下限计数（L2/L3 按分组条目、L4 按单率逐条），全展开实测 124~127 项；22 动作数不受口径影响。
+
+教训记档：交卷信每个字都要能被 grep 坐实，包括「标注移交给了谁」——#156/#157 执行报告中所有声明先 grep 后落笔。
+
+*老顽童（kimi）2026-07-12 · 🟡 4/4 清零*
+
 ---
 
 ## 第十节 · 终审记录（欧阳锋 · 2026-07-12）
