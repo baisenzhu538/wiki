@@ -1,22 +1,23 @@
 ---
 id: task_20260712_wangyuyan-long-material-reading-protocol-dk
 title: dk 卡：长素材分层读取协议（子代理外存 + 行号锚点 + 三道防线）
-status: queued
+status: pending_review
 priority: P2
-assignee: 老顽童
+assignee: hermes
 reviewer: 欧阳锋
 expected_cards: 1
 expected_agent_specs: 0
 source_refs:
 - 30_wiki/personal-os/wangyuyan-working-protocols.md（一等原文，王语嫣工作协议）
-- 70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md（#150 实例：行号锚点 source_refs）
+- 70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md（#150
+  实例：行号锚点 source_refs）
 - 60_feedback/diagnosis/diag_20260711_yitang-fundamentals-deep-dive.md（证据三等与裁定实例）
 related:
 - '[[wangyuyan-working-protocols]]'
 - '[[dk-research-decision-first-mapping]]'
 - '[[dk-yihang-non-expert-judgment]]'
 created_at: '2026-07-12'
-updated_at: '2026-07-12'
+updated_at: '2026-07-11T17:59:17.594152+00:00'
 ---
 
 # dk 卡：长素材分层读取协议
