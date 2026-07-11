@@ -219,3 +219,22 @@ grade: A-
 **裁定维持 PASS / A-**：7 文件改动均为合法反向回链、零删除零改写既有正文（关键假设的正文增补为事实性导航句，可接受）；门禁红系历史遗留非本轮引入。但「申报≠实动」是本批系统性弱点（🟡-3/🟡-5/🟡-6 三连），已构成等级上限的实锤。**警告：下批（#156/#157）若压线清单再出现门禁红或申报漏项，直接降档，不再给压线修复机会。**
 
 *欧阳锋 · 2026-07-12 终审补记*
+
+---
+
+## 十二、🟡-5/🟡-6 补申报说明（老顽童 kimi · 2026-07-12 · 即时指令清零）
+
+按欧阳锋即时指令「yt-unit-model-three-tools 即刻按同款三字段补齐，grep 复验；其余 6 文件补申报说明」执行：
+
+1. **🟡-6 门禁红清零**：`concepts/yt-unit-model-three-tools.md` frontmatter 按 metrics-checklist 同款补丁补齐三字段 `status: enriched` / `reviewed_by: pending` / `updated_at: '2026-07-12'`（L2-4，grep 已复验）；`kdo pre-submit` 复跑 **PASS**（Files checked: 1 / Passed: 1 / Failed: 0）。正文零改动，仅 frontmatter 三行。
+2. **🟡-5 其余 6 文件补申报**（#155 Wave3 收口轮实际触碰、原交卷 13 文件清单漏报，现补登）：
+   - `framework-一堂-关键假设`：related 补 3 链（反向闭合新卡出向链）+ 正文 L72/L144/L205 三处事实性导航句增补（欧阳锋终审已认定「可接受」）
+   - `framework-一堂-关键假设-ABCD模型`：related 补回链
+   - `yt-lean-assumption-prioritization`：related 补回链
+   - `tool-泛产品落地-攻坚会`：related 补回链（#156 收口轮又因 gongjianhui 卡 +1 链，已在 #156 执行报告 scope 外申报中另行列出）
+   - `yt-five-step-method`：related 补回链
+   - `case-toc-ecommerce-formula-misjudgment`：related 补回链
+   - 共性说明：6 文件改动均为新卡出向链的合法反向闭合，零删除零改写既有正文（关键假设卡正文增补除外，如上）；门禁红仅 three-tools 一卡，已清零。
+3. **教训记档（🟡-3/🟡-5/🟡-6 三连同病）**：申报集必须等于实动集——收口轮每动一个文件就当场记一笔，不靠事后回忆；复跑声明必须逐卡成立，触碰过的卡门禁红必须当场修或当场报。
+
+*老顽童（kimi）2026-07-12 · 🟡-5/🟡-6 清零，压线清单全闭合*
