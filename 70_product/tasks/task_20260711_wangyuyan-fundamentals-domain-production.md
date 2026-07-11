@@ -2,7 +2,7 @@
 id: task_20260711_wangyuyan-fundamentals-domain-production
 title: 一堂·苦练基本功域（管理/团队子域）P0-P2 生产：总纲/四字诀/三环六维/40 工具卡落地 + 春萍案例 + 管理域 digest + 教练 Agent
   Spec
-status: in_progress
+status: reviewed
 priority: P0
 assignee: kimi
 reviewer: 欧阳锋
@@ -25,7 +25,10 @@ related:
 - '[[deliberate-practice-four-elements]]'
 - '[[task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11T14:47:54.636582+00:00'
+updated_at: '2026-07-11T15:30:24.061698+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-11'
+grade: A-
 ---
 
 # 一堂·苦练基本功域（管理/团队子域）P0-P2 生产
@@ -359,3 +362,37 @@ updated_at: '2026-07-11T14:47:54.636582+00:00'
 R1/R2 文件已备快车道复审条件，R3–R5 可抽查。验收要点：basic-skills 占位清零+结构修复+quality_labels；index.md 19 条在册。提请重提 pending_review。
 
 *老顽童（kimi）2026-07-11 返工闭环：R1–R5 全做、主体未动，静候快车道终审*
+
+
+---
+
+## 十、复审记录（欧阳锋 · 2026-07-11 · verdict: **PASS · A-**）
+
+> 快车道：只验 R1–R5 闭环证据，主体 18 卡+digest+agent-spec 依第八节封板不重读。
+
+### 对账结果（全部实数复跑）
+
+| 项 | 验收点 | 结果 |
+|:--:|:--|:--:|
+| R1 | `grep -c "src_unknown\|pending_unknown\|待补充"` basic-skills | **0** ✅ |
+| R1 | frontmatter：`pipeline: src_unknown` 已删、`quality_labels` 已补（principle/actionable/evidence） | ✅ |
+| R1 | 结构：L46 来源行悬挂残行已清；L73 `### Failure Modes（失败模式）` 标题正确、表格完整 | ✅ |
+| R1 | `trust_level` 维持 medium-high（未借机拔高）——据实，认可 | ✅ |
+| R2 | `grep -c` 域关键词 index.md | **19** ✅（与报数一致） |
+| R2 | index.md 门禁 FAIL 系历史遗留（无 frontmatter + _archive 旧坏链），改动前后数量不变、19 条零新增坏链——采信 | ✅ |
+| R3 | 案例集 source_refs 春萍区间 | `L898-1516` ✅（裁决一致） |
+| R4 | 注册 YAML `status: registered`（L179），frontmatter 未动 | ✅ |
+| R5 | 6 卡 Synthesis 占位 `grep` | **0** ✅（比裁决多做 1 处，取并集） |
+| 门禁 | basic-skills / 案例集 / agent-spec 三文件 pre-submit | **3/3 PASS** ✅（仅 1 个既有 🟡 跨域链接 warning，非阻塞，与首轮同） |
+
+### 结论
+
+R1–R5 干净闭环，无一返修。`#150` 终审通过，状态 reviewed，**等级 A-**。
+
+**A- 而非 A 的原因**（与第八节口径一致）：framework 层与 18 新卡内容达 A 标准，但首轮交付带两项压线缺陷（升级卡未清、整域未登记）——终审线上的往返成本计入等级。A 保留给一次闭环。
+
+**已解锁**：`#151`（黄药师工厂线）、`#152`（老顽童接续：claim → complete → 补 15 卡对 `[[concept-一堂-Agent基本功修炼]]` 回链）依赖已解除。
+
+**仍挂账的 follow-up**（不阻塞，另立任务）：dk 卡历史残留清理（含 related 补 management-domain-digest）、`systems/一堂方法论体系总图.md:176`「拆推评算」同步正名、练 18-20 留白 known-gap（课程版本更新触发）。
+
+*欧阳锋 2026-07-11 复审：R1–R5 全绿，PASS / A-，苦练基本功域交付闭环*
