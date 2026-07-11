@@ -1,7 +1,7 @@
 ---
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-11T19:51:20.080884+00:00'
+status: pending_review
+updated_at: '2026-07-11T20:35:08.031778+00:00'
 ---
 # 任务 #155：C 域·业务公式 P0 骨架深化
 
@@ -114,3 +114,49 @@ updated_at: '2026-07-11T19:51:20.080884+00:00'
 3. 命名/数字/冲突裁定符合证据纪律（重点抽查 PEAHD、C=宏观效率、复盘营规模、扭蛋机存疑标注）
 4. source_refs 可回溯（文件名+行号/图号）
 5. 既有卡零删除零重写正文（仅升级 4 张指定卡+回链）
+
+## 执行报告（老顽童 kimi · 2026-07-12 · 提交 pending_review）
+
+> 生产方式：四波流水线——Wave1 七卡并行（7 个生产子代理）→ Wave2 digest 新建 → Wave3 收口回链（17 文件）→ Wave4 index 登记+复跑。全程证据纪律：口述稿一等锚、引用回原文核对、数字降级课程案例口径、写审分离（reviewed_by 全 pending）、防呆三条（updated_at 必填/引用双向回链/source_refs 行号锚点）。
+
+### 交付清单（8 项全成，`kdo pre-submit` 逐项 PASS）
+
+| # | 文件 | 方式 | 要点 |
+|---|---|---|---|
+| 1 | frameworks/framework-一堂-业务公式拆解-总纲.md | 升级 | 9 个承重内容块全含（1+1=2/ABC+螺旋/ABCD 之 C=宏观效率/Ω+三板斧/爬山图/六大价值+三句话/五篇脉络/修炼顺序 D→B→C→A/C·D 边界）；底稿章节全保留 |
+| 2 | concepts/yt-business-formula-parameter-iceberg.md | 升级 | 六层 L1-L6+段位+双研究路径+参数即假设/递归嵌套；209→263 行；src_unknown 清零 |
+| 3 | concepts/yt-business-formula-six-level-logic.md | 升级 | 六层命名以原图为准（安慰剂→导航仪）+每层升级动作全量+两冰山辩证统一 |
+| 4 | concepts/yt-business-formula-ten-paradigms.md | 升级 | 三环十范式，每范式=公式+适用场景+典型参数层+≥1 课程案例锚点 |
+| 5 | frameworks/yt-business-formula-hypothesis-management-playbook.md | 新建 | 2+3 策略×三级难度 15 格全量（一等准=落地策略集原图）；减法三案全收；独属 C 域论证 |
+| 6 | tools/yt-tool-business-formula-parameter-arsenal.md | 新建 | 6 策略→22 动作→124 参数全量落卡；22 动作逐格对照母版清点无缺漏；母版 L4/L5 错字专设勘误表 |
+| 7 | domains/business-formula-domain-digest.md | 新建 | C=宏观效率定位+五篇脉络+六柱/案例族/agent-spec 导航+15 底稿卡关系表+数字口径/证据等级声明 |
+| 8 | frameworks/yt-business-formula-abc-model.md | 升级 | 实事求是→解放思想四原则；与 Ω 模型/段位图关系；接目标第一件事是拆解 |
+
+### 既有卡回链（任务单口径：related 接入新总纲与 digest，不改正文）
+
+5 张指定卡（yt-management-business-formula / tool-一堂-业务公式-L1L6参数分层自检 / yt-tool-business-formula-metrics-checklist / dk-yitang-business-formula-plus-times-trap / case-yitang-yewenbin-archery-business-formula）related 均含总纲+digest（总纲链 3 张原有、2 张 Wave1 补；digest 链 Wave3 统一补）。另按 digest related 17 卡双向闭合，补 l6-essence-formulas / business-pattern-selector / qualitative-metrics-library / business-formula-to-kdo-card-quality / case-yitang-xiezefeng-clothing-innovation-param 5 卡 digest 回链。xingangwan-pharma-business-formulas（EC 线）按口径未动未互链。
+
+### 申报·scope 外最小改动（3 张旧卡 frontmatter 历史缺陷，不修则门禁 FAIL）
+
+- `yt-tool-business-formula-metrics-checklist`：补 status: enriched / reviewed_by: pending / updated_at 三字段（正文零改动）
+- `yt-growth-cycle-model`、`yt-model-deep-review-iceberg`：Wave1 子代理加回链时撞见同款缺陷，按同一先例补必填字段
+- 与 #150 终审时 management-map「顺手补字段」同款情形，主动申报；三张卡正文均未动
+
+### 验收点对照
+
+1. ✅ 六根承重柱全部成卡且互相 related 成网：Wave3 核对表 6×6 双向闭合（补 5 条缺失反向链），7 卡 related 全含总纲+digest
+2. ✅ 武器库 22 动作全量无缺漏：逐格对照母版清点（L1 18 / L2 19 / L3 22 / L4 35 / L5 18 / L6 12 = 124 参数）
+3. ✅ 命名/数字/冲突裁定：PEAHD（非 TEAHD/PAHD）/ C=宏观效率 / 复盘营 100 人/期→3000-4000 人/期、两次万人营 / Ω≠五步法 / 扭蛋机付费率两源冲突标 pending_unknown 并注明两源（口述 28→30 vs 案例2图 2%→3%）；业务数字全标课程案例口径
+4. ✅ source_refs 可回溯：全部口述文件名+行号段 或 VLM 图号/母版；ASR 勘误随卡注明（57→50 学分、17→10 好友、34000→3400、业务公司→业务公式等）
+5. ✅ 既有卡零删除零重写正文：仅 4 张指定卡升级 + 回链 + 3 卡 frontmatter 最小修复（已申报）
+
+### index.md 登记（#150 R2 教训延续）
+
+4 条新登记（总纲/playbook/arsenal/digest，按全文件路径码点排序入位）；4 张升级底稿卡本已在册。index.md 门禁 FAIL 仍为历史遗留（生成文件无 frontmatter + `_archive` 旧坏链），4 条新登记逐一比对坏链清单零命中。
+
+### 遗留（后续任务范围，不阻塞本任务）
+
+- digest 内 #156/#157/#158 在产占位（降龙十八掌卡/19 案例卡/agent-spec），待各任务产出后回链转正
+- `yt-management-business-formula` 有一条历史 Synthesis warning（任务单明确不改正文，未动）
+
+*老顽童（kimi）2026-07-12 · 8 项全闭环，静候欧阳锋终审*
