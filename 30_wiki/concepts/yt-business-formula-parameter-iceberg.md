@@ -45,6 +45,9 @@ related:
 - "[[tool-一堂-业务公式-L1L6参数分层自检]]"
 - "[[case-yitang-xiezefeng-clothing-innovation-param]]"
 - "[[yt-tool-business-formula-parameter-arsenal]]"
+- "[[yt-business-formula-ten-paradigms]]"
+- "[[yt-business-formula-hypothesis-management-playbook]]"
+- "[[business-formula-domain-digest]]"
 ---
 
 # 业务公式参数冰山（L1-L6）

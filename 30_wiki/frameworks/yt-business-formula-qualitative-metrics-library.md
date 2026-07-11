@@ -30,6 +30,7 @@ related:
   - "[[case-dental-clinic-formula]]"
   - "[[case-gym-membership-formula]]"
   - "[[yt-business-formula-ten-paradigms]]"
+  - "[[business-formula-domain-digest]]"
 ---
 
 # 业务公式定性参数行为化指标库

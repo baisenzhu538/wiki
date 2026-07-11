@@ -27,6 +27,7 @@ related:
 - '[[yt-business-formula-qualitative-metrics-library]]'
 - '[[dk-yitang-business-formula-plus-times-trap]]'
 - '[[framework-一堂-关键假设]]'
+- '[[business-formula-domain-digest]]'
 quality_labels:
 - actionable
 - framework

@@ -128,11 +128,13 @@ def check_coverage(cards: list[dict]) -> dict:
         })
 
     total = len(cards)
-    ok = total - len(set(i["card"] for i in issues))
+    bad_card_ids = set(i.get("card", "") for i in issues)
+    bad_card_ids.discard("")
+    ok = total - len(bad_card_ids)
     return {
-        "total_cards": total,
+        "total": total,
         "pass": ok,
-        "fail": len(set(i["card"] for i in issues)),
+        "fail": len(bad_card_ids),
         "rate": f"{ok / total * 100:.1f}%" if total else "N/A",
         "issues": issues,
     }
@@ -327,4 +329,6 @@ def run() -> str:
 
 
 if __name__ == "__main__":
+    import sys
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     print(run())

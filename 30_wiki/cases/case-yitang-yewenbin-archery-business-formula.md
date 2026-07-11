@@ -36,6 +36,7 @@ related:
 - '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
 - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 - '[[case-gym-membership-formula]]'
+- '[[business-formula-domain-digest]]'
 ---
 # 射箭馆：用业务公式四参数串起动力阻力触点，把"等客流"变成"经营转化率"
 

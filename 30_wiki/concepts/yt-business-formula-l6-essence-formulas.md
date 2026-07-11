@@ -39,6 +39,7 @@ related:
 - modeling-level-map
 - framework-demand-lean-bridge
 - case-private-domain-ecommerce-formula
+- '[[business-formula-domain-digest]]'
 ---
 # 业务公式 L6 魔法参数：跨行业本质公式集锦
 

@@ -47,6 +47,7 @@ related:
 - '[[case-saas-renewal-formula]]'
 - '[[case-private-domain-ecommerce-formula]]'
 - '[[case-dental-clinic-formula]]'
+- '[[business-formula-domain-digest]]'
 quality_labels:
 - framework
 - reference

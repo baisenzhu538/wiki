@@ -38,6 +38,7 @@ related:
 - '[[case-yitang-yewenbin-archery-business-formula]]'
 - '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
 - '[[case-lean-premature-expansion]]'
+- '[[business-formula-domain-digest]]'
 ---
 # 服装店：找到"二次试穿"创新参数（L5）与"音量80"魔法数字（L6），用业务公式定优先级、转化率找抓手
 

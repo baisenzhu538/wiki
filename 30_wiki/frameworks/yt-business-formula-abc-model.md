@@ -41,6 +41,9 @@ related:
 - "[[yt-business-formula-six-level-logic]]"
 - "[[yt-unit-model-three-tools]]"
 - "[[yt-five-step-method]]"
+- "[[yt-business-formula-hypothesis-management-playbook]]"
+- "[[yt-tool-business-formula-parameter-arsenal]]"
+- "[[business-formula-domain-digest]]"
 
 ---
 

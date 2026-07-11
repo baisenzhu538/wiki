@@ -40,6 +40,7 @@ related:
   - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
   - "[[tool-月白-AI需求拆解咨询法]]"
   - "[[tool-泛产品落地-里程碑拆解]]"
+  - "[[business-formula-domain-digest]]"
 tags: []
 author: 欧阳锋
 confidence: 0.85

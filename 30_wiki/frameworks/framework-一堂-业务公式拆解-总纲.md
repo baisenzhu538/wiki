@@ -48,6 +48,7 @@ related:
 - '[[tool-一堂-业务公式-L1L6参数分层自检]]'
 - '[[concept-一堂-business-prediction]]'
 - '[[dk-yitang-business-formula-plus-times-trap]]'
+- '[[business-formula-domain-digest]]'
 diagnostic_signals:
 - signal: 团队说"我们的关键假设是用户会买单"，但说不清差多少、先动哪
   lens: 假设停在定性——没有拆到可验证参数

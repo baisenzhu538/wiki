@@ -1,7 +1,9 @@
 ---
-
-
+status: enriched
+reviewed_by: pending
+updated_at: '2026-07-12'
 related:
+  - "[[business-formula-domain-digest]]"
   - "[[yt-business-formula-qualitative-metrics-library]]"
   - "[[yt-business-formula-business-pattern-selector]]"
   - "[[yt-business-formula-abc-model]]"

@@ -31,6 +31,8 @@ related:
 - '[[yt-business-formula-abc-model]]'
 - '[[tool-一堂-业务公式-L1L6参数分层自检]]'
 - '[[yt-tool-business-formula-metrics-checklist]]'
+- '[[yt-business-formula-hypothesis-management-playbook]]'
+- '[[business-formula-domain-digest]]'
 diagnostic_signals:
 - signal: 业务只有 GMV/营收/用户数三五个大数，想提假设却无从下手
   lens: 参数还在 L1，没有拆法库——对着武器库逐动作过一遍，一天能展开到上百个参数

@@ -59,6 +59,7 @@ related:
 - case-yitang-Y-model-advertising-turnaround
 - framework-yitang-shishi-qiushi
 - framework-yitang-jiefang-sixiang
+- '[[business-formula-domain-digest]]'
 ---
 # 业务公式六层逻辑关系冰山（L1 模糊理解 → L6 动态建模）
 

@@ -37,6 +37,7 @@ related:
 - '[[dk-yitang-business-formula-plus-times-trap]]'
 - '[[yt-lean-assumption-prioritization]]'
 - '[[tool-泛产品落地-攻坚会]]'
+- '[[business-formula-domain-digest]]'
 diagnostic_signals:
 - signal: 老板提想法，全团队忙着证明老板是对的
   lens: 结论先行、纯拍脑袋——假设思维最底层的「默认假设是错的」共识没建立

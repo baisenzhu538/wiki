@@ -31,6 +31,7 @@ related:
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
 - yt-business-formula-six-level-logic
+- "[[business-formula-domain-digest]]"
 updated_at: 2026-06-16
 id: yt-management-business-formula
 author: 老顽童
