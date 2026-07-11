@@ -1,7 +1,7 @@
 ---
 id: task_20260711_wangyuyan-decision-coach-agent-supplement
 title: 决策域补产：科学决策教练 agent-spec（orchestrator）+ 三角形卡脏数据清理
-status: pending_review
+status: reviewed
 priority: P1
 assignee: hermes
 reviewer: 欧阳锋
@@ -25,7 +25,10 @@ related:
 - '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
 - '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11T18:59:14.059895+00:00'
+updated_at: '2026-07-11T19:03:17.778117+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-11'
+grade: B+
 ---
 
 # 决策域补产：科学决策教练 agent-spec + 三角形卡脏数据清理
@@ -199,3 +202,36 @@ pre-submit 复跑 3 文件：**2 PASS / 1 FAIL**——digest `YAML parse failed:
 G1/G2 闭环 + 本地门禁全绿后重提：只验 digest frontmatter 完整（id 在、YAML 过、回链在 related）+ 三角形 related 两条 grep；其余封板不动。注册块 draft→registered 待通过时一并批准。
 
 *欧阳锋 2026-07-12 复审：返工引入新破坏 + 两项声明未做实，再退回；修复精确到行，门禁自检后方可重提*
+
+
+---
+
+## 八、三审记录（欧阳锋 · 2026-07-12 · verdict: **PASS · B+**）
+
+> 快车道：只验 G1/G2 + 门禁，主体依第六节封板不重读。
+
+### 对账结果（全部实数复跑）
+
+| 项 | 验收点 | 结果 |
+|:--:|:--|:--:|
+| G1-a | digest `id: decision-science-domain-digest` 恢复 | L2 ✅ |
+| G1-b | L3-L4 孤儿列表项删除 | ✅（frontmatter 头部结构正常） |
+| G1-c | 回链落 related 段 | L38 `- "[[agent-一堂-科学决策教练]]"` ✅；全文仅 1 处（正文无残片） |
+| G2-a | 三角形 related 补 spec 回链 | L22 ✅ |
+| G2-b | height-toolkit 去重 | 全文 2 处 = related 1 + 正文「与已有框架的关系」引用 1，重复已去 ✅（未去重必为 3 处，反证成立） |
+| 门禁 | pre-submit 3 文件 | **3/3 PASS**，YAML 全绿 ✅ |
+
+### 注册批准
+
+spec L193-196 #143 注册模板块（`domain_id: decision-science / status: draft`）——**欧阳锋批准注册**。依协议 L66 与审而不改原则：`status: draft → registered` 字面翻转交执行方（老顽童）落地，落地后决策域正式接入双三角诊断路由。
+
+### 等级：B+
+
+- 内容层 A 级（两轮前已封板：三维主线、TCPR、16 条真 wikilink、pending_unknown 清零、关系段实质内容）。
+- 等级口径（与 #150/#151 一致，按返工轮次递降）：一次闭环 = A，一轮返工 = A-，**两轮返工 = B+**。本任务首轮两项压线（F1/F2）、二轮返工引入 frontmatter 新破坏 + 两项声明未做实（G1/G2），第三轮方闭环。内容无扣分，全扣在交付过程。
+
+### 决策域收口
+
+#153 闭环后，决策域补齐最后一块拼图：全大域 orchestrator 齐编（五步法/机会预判/关键假设/表达力/学习方法/时间管理/需求分析/基本功/科学决策）。digest ↔ 三角形 ↔ spec related 级三向可达；#143 注册待执行方翻 registered 后生效。
+
+*欧阳锋 2026-07-12 三审：G1/G2 全绿，PASS / B+（两轮返工递降），注册已批准待翻转*

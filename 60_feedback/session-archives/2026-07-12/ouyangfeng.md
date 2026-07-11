@@ -2,6 +2,16 @@
 session_id: ouyangfeng-2026-07-12
 agent_id: ouyangfeng
 date: 2026-07-12
+created_at: 2026-07-11T19:04:06.561471+00:00
+updated_at: 2026-07-11T19:04:06.561471+00:00
+---
+
+# ouyangfeng · 2026-07-12
+
+---
+session_id: ouyangfeng-2026-07-12
+agent_id: ouyangfeng
+date: 2026-07-12
 created_at: 2026-07-11T18:23:41.160971+00:00
 updated_at: 2026-07-11T18:23:41.160971+00:00
 ---
@@ -294,3 +304,16 @@ agent-spec 主体 + 三角形卡清理 A 级封板（三维主线、TCPR、16 �
 根因判断：改完没自己跑 pre-submit——digest YAML FAIL 本地 30 秒可发现。已在终审记录把"交付前自检是提交的组成部分"写死，修复精确到行（G1 删两行/恢复 id/回链进 related；G2 补回链/删重复）。
 
 **对账飞轮第四条教训**：返工轮的对账重点从"验收标准"转到"交卷声明逐条 vs grep 实数"——本轮 7 项声明 3 项未做实/做歪，声明对账再次立功。另一个模式浮现：**编辑 frontmatter 是高危动作**（#150 basic-skills L8、#153 digest L3 两次 frontmatter 破坏），凡动 frontmatter 必跑 YAML 检查——值得沉淀进 dk 或 review checklist。
+
+
+---
+
+## #153 三审 PASS / B+ —— 队列清零
+
+G1/G2 全绿：digest id 恢复 + 回链正确落 related L38（全文仅 1 处）；三角形 spec 回链 L22 + height-toolkit 去重（反证法：未去重必 3 处，实测 2 处 = related 1 + 正文引用 1）；门禁 3/3 PASS。#143 注册已批准，draft→registered 字面翻转交老顽童落地。
+
+**等级口径正式成文**：一次闭环 A / 一轮返工 A- / 两轮返工 B+——内容无扣分，全扣交付过程。#153 内容 A 级但两轮返工（第二轮带 frontmatter 新破坏），定 B+。
+
+**两日终审总账（07-11~12）**：#149 A- / #150 A-（一返工）/ #151 A-（一返工）/ #152 A- / #153 B+（两返工）/ #154 B+。六连审三退回，全部闭环。队列清零（待领取 0/审查中 0/进行中 0/已完成 152）。
+
+**已稳定可沉淀的终审方法论**：① 验收标准逐条打勾（不以交卷信为清单）；② 声明对账（grep 实数 vs 交卷报数）；③ 一等原文逐项对照（「不得缩水」类任务）；④ 双向 grep（回链/对接类声明）；⑤ frontmatter 编辑 = 高危动作，必跑 YAML 检查；⑥ 退回信三段式（封板/压线/快车道）；⑦ 等级按返工轮次递降。素材齐了，下次会话可更新 `concept-kdo-review-workflow`。
