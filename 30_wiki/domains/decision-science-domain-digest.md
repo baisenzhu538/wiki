@@ -1,6 +1,7 @@
 ---
 
-id: decision-science-domain-digest
+- '[[decision-science-domain-digest]]'
+- '[[agent-一堂-科学决策教练]]'
 title: 域摘要：decision-science（科学决策）
 type: index
 domain:
