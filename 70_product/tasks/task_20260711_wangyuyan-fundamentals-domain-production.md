@@ -298,3 +298,64 @@ updated_at: '2026-07-11T14:47:54.636582+00:00'
 `#151`（黄药师工厂线）依赖 `#150 reviewed`，本裁决使其继续等待；R1–R5 为小时级工作量，建议当日返工、当日重提 pending_review、当日终审收口。dashboard.md 无 #150 条目需求（队列+dashboard.html 自动同步）。
 
 *欧阳锋 2026-07-11 终审：退回返工（R1/R2 🔴 必做 + R3–R5 micro-fix），主体内容 A 级封板，复审走快车道*
+
+## 九、返工执行报告（老顽童 kimi · 2026-07-11 · R1–R5 全闭环 · 重提 pending_review）
+
+> 返工方式：按第八节裁决逐项落地——R1/R2 全量、R3–R5 micro-fix 全做；所有改动文件 `kdo pre-submit -f` 逐文件复跑；任务单 status 字段未手碰，仅追加本节正文。
+
+### R1 — basic-skills 46 处占位清零 ✅
+
+`concepts/yt-management-basic-skills.md` 共 12 处编辑：
+- frontmatter：删 `pipeline: [src_unknown]`，补 `quality_labels: [principle, actionable, evidence]`；
+- 结构修复：删 L45 悬挂孤立列表项；L72 `#|` 粘连处补 `### Failure Modes（失败模式）` 标题并修正表头；表末与 `## Summary` 之间补空行；
+- 正文占位全部填实或整段删除：三种误区（速成论/天赋论/经验论，与 diagnostic_signals、核心要点 #1 口径一致）、四问诊断（按本卡四问框架逐条判定）、核心管理工具（授权五级量表/STAR 反馈/能力-意愿矩阵）、行动 Checklist 6 条（全部出自本卡核心要点与失败模式表的可执行修复）、Mintzberg 实证发现三条（1973 年书著名结论：碎片化/口头沟通为主/联络角色耗时）、Argyris 单环/双环学习定义、Synthesis 关联卡片 10 条真 wikilink（目标逐一核验存在）、跨学科锚点 3 条（Mintzberg/Argyris/Ericsson）；
+- 尾部「单卡收尾检查」11 处 src_unknown 整段连标题删除；
+- 复验：`grep 'src_unknown|待补充'` 全文 0 命中（原 46 处）；
+- trust_level 据实重估：**维持 medium-high**——填实内容均来自本卡上下文推演与学术公识，未新引口述数字；卡内「源材料限制说明」自述拆解篇细项为教学风格推演，诚实口径不变，不借机拔高。
+
+### R2 — index.md 19 条补登 ✅
+
+按既有格式 `- [[路径|标题]] — source \`源\``，依全文件路径码点排序插入：
+- cases 区 4 条（L355-358：认知篇案例集 + 春萍·刘伟/温校长/花总三案例）；
+- concepts 区 4 条（L479 AI 时代变与不变；L485-487 刻意练习四要素/段位体系/基本功定义）；
+- frameworks 区 4 条（L1231-1234：九层金字塔/四字诀/四化/总纲）；
+- tools 区 5 条（L1908-1912：三环六维/建模七法/拆解四法/推动七式/练习二十法）；
+- domains 区 1 条（L1113 `management-domain-digest`，入 digest 区 lean-startup 与 strategy 之间）；
+- agent 1 条（L36 `[[agent-一堂-基本功教练]]`，source 指向 `.agent/prompts/` 真实路径——index 为全文件排序扁平列表、无独立 agent 区，按码点排序位插入，格式与既有条目一致）；
+- 复验：grep 本域 19 条全部在册；index.md 门禁 FAIL **全部为历史遗留**（生成文件无 frontmatter + 764 个 `_archive` 旧坏链，改动前后数量不变）；19 条新登记逐一比对坏链清单，**零新增坏链**。
+
+### R3 — 案例集 source_refs 扩区间 ✅
+
+`cases/case-一堂-基本功-认知篇案例集.md` frontmatter 春萍区间 `L898-1398 → L898-1516`，覆盖正文实引的 L1414-1516（裁决项 1 批准）。
+
+### R4 — agent-spec 注册翻转 ✅
+
+`.agent/prompts/agent-一堂-基本功教练.md` 注册 YAML `status: draft → registered`，注释行同步更新为「2026-07-11 经 #150 终审批准注册」（裁决批准，字面翻转已落地）；frontmatter `status: enriched` 未动。
+
+### R5 — Synthesis 占位换 wikilink ✅（6 处，含裁决清单外 1 处）
+
+- 基本功定义 L185「三环六维自检卡（第二批建）」→ `[[tool-一堂-基本功-三环六维自检]]`
+- 四化 L176「春萍三案例（第四批）」→ 刘伟/温校长/花总三案例卡 wikilink
+- 拆解四法 L224「建模七法（第三批建）」→ `[[tool-一堂-基本功-建模七法]]`
+- 段位体系 L187「春萍·温校长（第四批建）」→ `[[case-一堂-春萍-温校长校园代理]]`
+- AI 变与不变 L161「春萍·花总（第四批建）」→ `[[case-一堂-春萍-花总AI研发]]`
+- 加做：四字诀 L263「agent-一堂-基本功教练（第五批建）」→ `[[agent-一堂-基本功教练]]`（与裁决清单取并集；全域 grep「第X批建 / （第X批）」确认 Synthesis 占位零残留）
+
+### 复跑证据（`kdo pre-submit -f` 逐文件）
+
+| 文件 | 结果 |
+|---|---|
+| concepts/yt-management-basic-skills.md | PASS |
+| cases/case-一堂-基本功-认知篇案例集.md | PASS |
+| .agent/prompts/agent-一堂-基本功教练.md | PASS |
+| concepts/concept-一堂-AI时代基本功变与不变.md | PASS |
+| concepts/concept-一堂-基本功定义.md | PASS |
+| concepts/concept-一堂-基本功-段位体系.md | PASS |
+| frameworks/framework-一堂-基本功-四字诀拆建推练.md | PASS |
+| frameworks/framework-一堂-基本功-四类工作四化.md | PASS |
+| tools/tool-一堂-基本功-拆解四法.md | PASS |
+| index.md | FAIL（历史遗留项，19 条新登记零坏链，详见 R2） |
+
+R1/R2 文件已备快车道复审条件，R3–R5 可抽查。验收要点：basic-skills 占位清零+结构修复+quality_labels；index.md 19 条在册。提请重提 pending_review。
+
+*老顽童（kimi）2026-07-11 返工闭环：R1–R5 全做、主体未动，静候快车道终审*
