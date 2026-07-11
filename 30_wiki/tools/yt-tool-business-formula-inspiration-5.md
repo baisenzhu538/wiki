@@ -20,6 +20,9 @@ source_refs:
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-hypothesis-management-playbook]]'
+- '[[yt-tool-business-formula-18-moves]]'
+- '[[yt-tool-business-formula-hypothesis-pool]]'
+- '[[yt-tool-business-formula-expert-interview-10]]'
 - '[[business-formula-domain-digest]]'
 diagnostic_signals:
 - signal: 团队提假设靠等灵感，开会大眼瞪小眼挤不出想法
@@ -46,7 +49,7 @@ quality_labels:
 
 ## 定位：18 招第 7 招「设定数字」背后的基本功
 
-五字诀在降龙十八掌中服务于加法环节第 7 招「设定数字」（详见 `yt-tool-business-formula-18-moves`，同批 #156 卡，待建）。设定数字是**硬招**：开会时给团队明确指示——关键假设必须提到什么数量，立 flag、定目标（进阶篇口述 L2658-L2664）。而「逼出数字」背后的产能来源，就是灵感闪现这套基本功（口述 L2704-L2712）。
+五字诀在降龙十八掌中服务于加法环节第 7 招「设定数字」（详见 `[[yt-tool-business-formula-18-moves]]`）。设定数字是**硬招**：开会时给团队明确指示——关键假设必须提到什么数量，立 flag、定目标（进阶篇口述 L2658-L2664）。而「逼出数字」背后的产能来源，就是灵感闪现这套基本功（口述 L2704-L2712）。
 
 课程原话：「真正的灵感闪现不是靠什么轻松情况下……灵机一动，不是。灵感闪现是一个可以练习的，在有限的专注的环境下，思考到一定的深度，自然灵感就开始闪现」（口述 L2710-L2712）。
 
@@ -83,7 +86,7 @@ quality_labels:
 
 - **1 小时 20 个金句 / 30 个训练玩法**：「我需要在 1 个小时之内围绕着一个主题写出 20 个金句……想出来 30 个训练玩法，用的就是这个方法」（进阶篇口述 L2720-L2722，课程经验值）
 - **半小时 20 条新假设**：主讲某早翻大航海组队受启发，「逼着自己在今天早晨……提出了 20 个新假设，就是半个小时的时间」，且「这里面质量很高」（管理篇口述 L1242-L1246，课程经验值）
-- **质量预期要现实**：逼出来的假设「百分之七八十也不会验证，验证的剩下的 30% 能有一两个很有效就已经非常厉害」（管理篇口述 L1248）——数量是手段，验证交给假设池（`yt-tool-business-formula-hypothesis-pool`，同批 #156 卡，待建）
+- **质量预期要现实**：逼出来的假设「百分之七八十也不会验证，验证的剩下的 30% 能有一两个很有效就已经非常厉害」（管理篇口述 L1248）——数量是手段，验证交给假设池（`[[yt-tool-business-formula-hypothesis-pool]]`）
 
 ---
 
@@ -115,7 +118,7 @@ quality_labels:
 | 场景 | 为什么失效 | 替代 |
 |:--|:--|:--|
 | 假设已经堆着做不完 | 瓶颈在减法与验证，不在灵感产能 | 18 招减法四招（关键路径/判断空间/确定性/ROI）+ 假设池优先级 |
-| 需要深度因果判断 | 灵感产出的是候选，不是结论 | 因果三件套、数据验证、专家访谈（`yt-tool-business-formula-expert-interview-10`，本批卡） |
+| 需要深度因果判断 | 灵感产出的是候选，不是结论 | 因果三件套、数据验证、专家访谈（`[[yt-tool-business-formula-expert-interview-10]]`） |
 | 团队对业务公式本身没共识 | 五字诀挂在公式参数上才有结构 | 先建公式（[[framework-一堂-业务公式拆解-总纲]] 三段工作流） |
 
 ---
@@ -124,9 +127,9 @@ quality_labels:
 
 | 关系 | 目标节点 | 说明 |
 |:--|:--|:--|
-| 所属框架 | `yt-tool-business-formula-18-moves`（同批 #156 卡，待建，收口时补 wikilink） | 加法环节第 7 招「设定数字」的基本功 |
+| 所属框架 | `[[yt-tool-business-formula-18-moves]]` | 加法环节第 7 招「设定数字」的基本功 |
 | 上位总纲 | `[[framework-一堂-业务公式拆解-总纲]]` | C 深入阶段做加法的产能工具 |
-| 产出沉淀 | `yt-tool-business-formula-hypothesis-pool`（同批 #156 卡，待建，收口时补 wikilink） | 逼出来的假设进池排队，不现场评判 |
+| 产出沉淀 | `[[yt-tool-business-formula-hypothesis-pool]]` | 逼出来的假设进池排队，不现场评判 |
 | 落地管理 | `[[yt-business-formula-hypothesis-management-playbook]]` | 营造氛围三件套与「谁提出谁功劳」的激励配套 |
 | 域导航 | `[[business-formula-domain-digest]]` | — |
 

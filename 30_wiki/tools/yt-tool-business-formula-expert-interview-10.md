@@ -21,6 +21,10 @@ source_refs:
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-hypothesis-management-playbook]]'
+- '[[yt-tool-business-formula-18-moves]]'
+- '[[yt-tool-business-formula-hypothesis-pool]]'
+- '[[yt-tool-business-formula-gongjianhui]]'
+- '[[yt-tool-business-formula-inspiration-5]]'
 - '[[business-formula-domain-digest]]'
 diagnostic_signals:
 - signal: 关键假设列出来了，团队只会内部拍脑袋争论"我觉得行/我觉得不行"
@@ -126,7 +130,7 @@ quality_labels:
 |:--|:--|:--|
 | 所属框架 | `[[yt-tool-business-formula-18-moves]]` | 验证环节第 13 招 |
 | 上位总纲 | `[[framework-一堂-业务公式拆解-总纲]]` | C 深入阶段的验证动作之一 |
-| 结果沉淀 | `yt-tool-business-formula-hypothesis-pool`（同批 #156 卡，待建，收口时补 wikilink） | 访谈结论（含证伪）写入假设池 |
+| 结果沉淀 | `[[yt-tool-business-formula-hypothesis-pool]]` | 访谈结论（含证伪）写入假设池 |
 | 落地管理 | `[[yt-business-formula-hypothesis-management-playbook]]` | 验证策略在团队级的排期与角色分工 |
 | 域导航 | `[[business-formula-domain-digest]]` | — |
 
