@@ -29,6 +29,8 @@ related:
 - "[[一堂方法论体系总图]]"
 - "[[yitang-course-map]]"
 - "[[yt-system-course-catalog]]"
+- "[[framework-一堂-苦练基本功-总纲]]"
+- "[[management-domain-digest]]"
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
 ---

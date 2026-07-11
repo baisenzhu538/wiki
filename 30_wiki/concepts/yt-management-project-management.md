@@ -38,6 +38,8 @@ related:
 - "[[yt-entrepreneur-unit-model]]"
 - "[[yt-management-team-knowledge]]"
 - "[[skill-yitang-project-spiral-thinking]]"
+- "[[framework-一堂-苦练基本功-总纲]]"
+- "[[management-domain-digest]]"
 - "[[workflow-yitang-project-four-step-loop]]"
 diagnostic_signals:
 - signal: 团队的项目管理一直在裸跑——没有框架、没有工具、硬上

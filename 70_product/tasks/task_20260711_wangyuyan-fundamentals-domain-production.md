@@ -2,7 +2,7 @@
 id: task_20260711_wangyuyan-fundamentals-domain-production
 title: 一堂·苦练基本功域（管理/团队子域）P0-P2 生产：总纲/四字诀/三环六维/40 工具卡落地 + 春萍案例 + 管理域 digest + 教练 Agent
   Spec
-status: in_progress
+status: pending_review
 priority: P0
 assignee: kimi
 reviewer: 欧阳锋
@@ -25,7 +25,7 @@ related:
 - '[[deliberate-practice-four-elements]]'
 - '[[task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11T12:07:10.641068+00:00'
+updated_at: '2026-07-11T13:49:08.090397+00:00'
 ---
 
 # 一堂·苦练基本功域（管理/团队子域）P0-P2 生产
@@ -176,3 +176,63 @@ updated_at: '2026-07-11T12:07:10.641068+00:00'
 ---
 
 *王语嫣 2026-07-11（编排 spec，生产由老顽童 kimi 执行，本人不写 30_wiki 卡）*
+
+---
+
+## 七、执行报告（老顽童 kimi · 2026-07-11 · 提交 pending_review）
+
+### 产出清单（18 卡 + 1 digest + 1 agent-spec，全部 `kdo pre-submit` PASS）
+
+| 批次 | 文件 | 验证 |
+|:--|:--|:--|
+| 一 | `30_wiki/domains/management-domain-digest.md`（聚合 L1-L5 + 四冲突调和） | All gates passed |
+| 一 | `30_wiki/frameworks/framework-一堂-苦练基本功-总纲.md`（≥6 处口述行号：入门 L122-124/L130/L222-224/L242-256/L312-328/L340-360 + 武器库 L2512-2891/L3920-3940） | All gates passed |
+| 一 | `30_wiki/concepts/concept-一堂-基本功定义.md` | All gates passed |
+| 二 | `30_wiki/frameworks/framework-一堂-基本功-四字诀拆建推练.md`（40 卡导航 + 双三角六要素多入口索引标签） | All gates passed |
+| 二 | `30_wiki/frameworks/framework-一堂-基本功-四类工作四化.md` | All gates passed |
+| 二 | `30_wiki/tools/tool-一堂-基本功-三环六维自检.md` | All gates passed |
+| 二 | `30_wiki/tools/tool-一堂-基本功-拆解四法.md` | All gates passed |
+| 三 | `30_wiki/tools/tool-一堂-基本功-建模七法.md`（子任务起草 + 主线程复验 PASS + 全卡抽查） | All gates passed |
+| 三 | `30_wiki/tools/tool-一堂-基本功-推动七式.md`（同上） | All gates passed |
+| 三 | `30_wiki/tools/tool-一堂-基本功-练习二十法.md`（同上，436 行 20 卡全覆盖） | All gates passed |
+| 三 | `30_wiki/concepts/concept-一堂-基本功-段位体系.md`（SABC 与 `yt-tob-customer-sabc` 消歧、三套刻度互补） | All gates passed |
+| 三 | `30_wiki/concepts/concept-一堂-基本功-刻意练习四要素.md` | All gates passed |
+| 三 | `30_wiki/concepts/concept-一堂-AI时代基本功变与不变.md` | All gates passed |
+| 三 | `30_wiki/frameworks/framework-一堂-基本功-九层金字塔.md`（信念+九层；口述隐藏第十层并入第八层，卡内注明） | All gates passed |
+| 四 | `30_wiki/cases/case-一堂-春萍-刘伟tob销售标准化.md`（数字全标课程案例口径） | All gates passed |
+| 四 | `30_wiki/cases/case-一堂-春萍-温校长校园代理.md`（市占率"1/22"疑似 ASR 误识，已弃用并注明） | All gates passed |
+| 四 | `30_wiki/cases/case-一堂-春萍-花总AI研发.md`（L0-L19 系花总自研体系，与本域 L1-L6 不混） | All gates passed |
+| 四 | `30_wiki/cases/case-一堂-基本功-认知篇案例集.md`（子任务起草 + 主线程复验 PASS + 全卡抽查） | All gates passed |
+| 五 | `.agent/prompts/agent-一堂-基本功教练.md`（orchestrator 拆→建→推→练、默认 C、TCPR 完整、按 #143 域注册协议登记 + #144 能力中台调用声明、不替代管理/HR 决策、不做跨域总入口分诊、不与 #142 撞车） | All gates passed |
+
+### 现有卡升级（任务单 P0 #7/#8）
+
+- `30_wiki/concepts/yt-management-basic-skills.md`：domain 补 management+yitang；source_refs 替换为口述稿真实路径行号（入门 L104-360 / 拆解 L268-686 / 武器库 L156-526）；清掉 2 个 `pending_unknown`；related 加总纲/四字诀/digest。**pre-submit PASS**。
+- `30_wiki/dark-knowledges/dk-fundamentals-before-advanced-ops.md`：related 双向回链总纲（正文未动）。**pre-submit PASS**。
+
+### 批量回链（收尾动作，任务单授权）
+
+`yt-model-management-map`（顺手补齐历史缺失的 status/updated_at 必填字段）、`yt-management-team-knowledge`、`yt-management-project-management`、`framework-yitang-project-execution` 四卡 related 均回链 `framework-一堂-苦练基本功-总纲` + `management-domain-digest`，**全部 pre-submit PASS**（project-execution 的 BOM+CRLF 原格式保留未动）。总纲 related 反向已含 dk/map/team-knowledge/project-management/basic-skills，双向闭环成立。
+
+### 自攻击（交付前自检）
+
+报告归档：`60_feedback/adversarial/atk_fundamentals-domain-batch_2026-07-11.md`。
+🔴 0 / 🟡 2（均处置或如实标注）/ 🟢 2（记录不修复）。证据抽查实读坐实：武器库 L3920-3934（最小单位）、入门 L242/246（三环）、入门 L312-328（四字诀，L312 误识 vs L322 正确自证口径）、春萍三案全部关键数字。
+
+### 验收标准对照
+
+- [x] digest 过 pre-submit；聚合 L1-L5；调和三冲突（实际四处：最小单位/四字诀/SABC/段位）
+- [x] P0 卡全过 pre-submit；总纲口述行号 ≥6 处（实际 9 处区间）；When NOT / Failure Modes / Action Triggers 齐全
+- [x] 四字诀/三环六维/拆解四法与现有卡不重复内容，双向 related
+- [x] 40 卡数量严格 拆6/建7/推7/练20=40
+- [x] P2 案例数字全标「课程案例口径」
+- [x] basic-skills domain=management、source_refs 真实、无 pending_unknown
+- [x] agent-spec 过 pre-submit；System Prompt 完整；按 #143/#144 协议
+- [ ] 欧阳锋终审通过（待 review）
+
+### 待终审裁定项
+
+1. 案例集 source_refs 是否扩至 L1516（第四层系统理解真实口述区间 L1414-1516，卡内已如实标注）；
+2. 练习二十法 练18-20 一堂案例素材留白，待课程版本更新后回填。
+
+*老顽童（kimi）2026-07-11 提交 pending_review，静候欧阳锋终审*

@@ -4,8 +4,10 @@ domain:
   - modeling
 
 id: yt-model-management-map
+status: reviewed
 confidence: 0.85
 created_at: 2026-05-07
+updated_at: '2026-07-11'
 difficulty: foundational
 language: zh-CN
 query_triggers:
@@ -25,6 +27,9 @@ source_refs:
   - src_20260613_96e45c45-qishijian-business-model
 source_refs:
   - pending_archive:src_20260613_96e45c45-qishijian-business-model
+related:
+  - "[[framework-一堂-苦练基本功-总纲]]"
+  - "[[management-domain-digest]]"
 ---
 # 一堂管理地图：高潜力管理者修炼全景图
 
