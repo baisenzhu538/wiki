@@ -25,6 +25,7 @@ related:
 - '[[yt-model-management-map]]'
 - '[[yt-management-leadership-levels]]'
 - '[[management-domain-digest]]'
+- '[[framework-yihang-dual-triangle-weapon-library]]'
 diagnostic_signals:
 - signal: 新人入职看到基本功清单一脸懵，老人说"这些我早会了"开始摸鱼
   lens: 没有分层——同一套基本功喂所有人，新人被吓退、老人没挑战

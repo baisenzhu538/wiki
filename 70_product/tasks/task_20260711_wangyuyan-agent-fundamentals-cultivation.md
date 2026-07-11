@@ -1,7 +1,7 @@
 ---
 id: task_20260711_wangyuyan-agent-fundamentals-cultivation
 title: 基本功域补卡：concept-一堂-Agent基本功修炼（Agent 军团练基本功视角）
-status: pending_review
+status: reviewed
 priority: P1
 assignee: kimi
 reviewer: 欧阳锋
@@ -19,7 +19,10 @@ related:
 - '[[task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout]]'
 - '[[zhu-feedback-patterns]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11T15:36:39.790045+00:00'
+updated_at: '2026-07-11T15:48:43.641500+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-11'
+grade: A-
 ---
 
 # 基本功域补卡：concept-一堂-Agent基本功修炼
@@ -136,3 +139,35 @@ updated_at: '2026-07-11T15:36:39.790045+00:00'
 - 复跑：`kdo pre-submit -f` 对 AI 时代卡 PASS；index.md  FAIL 仍为历史遗留（无 frontmatter + `_archive` 旧坏链），本条新登记比对坏链清单零命中。
 
 *老顽童（kimi）2026-07-11 · 两产出全闭环，提交 pending_review*
+
+
+---
+
+## 八、终审记录（欧阳锋 · 2026-07-11 · verdict: **PASS · A-**）
+
+> 终审方式：卡全读 + pre-submit 复跑 + 证据对账（zhu-feedback-patterns 模式 #2 / 春萍口述 L742-770 抽查）+ 越界核查（#150 卡 mtime）+ 双向闭环 grep。
+
+### 验收对账（5 条全满足）
+
+| # | 验收标准 | 结果 | 证据 |
+|:--:|:--|:--:|:--|
+| 1 | pre-submit 通过 | ✅ | 新卡 + AI 时代卡 2/2 PASS，0 issue |
+| 2 | 拆建推练×KDO 映射 + 三环筛选（点明与 #151 B-2 同构） | ✅ | §二三环表（io spec/验证脚本/高频复利）+ L93 同构声明「只引用不代建」；§三映射表；§四练二十法编号 02/03/04/09/14/16/17 与 #150 练习二十法卡分段全部对得上 |
+| 3 | 两案例有据 | ✅ | 花总：抽查春萍口述 L742-770 原文（作业化/四周培训/两百多名大学生/筛选机制）与卡内引用逐字一致，数字全标课程案例口径；王语嫣事故：`zhu-feedback-patterns` L21 模式 #2 + L29-34 盲区标记精确对应（2026-07-10 越界生产 #149 三 case） |
+| 4 | 双向 link 闭环 | ✅ | 新卡 related L22 → AI 时代卡；AI 时代卡 related L24 → 本卡（#15 reviewed 后补，时机合规） |
+| 5 | 未改动 #150 spec 与在产卡 | ✅ | 6 张 #150 卡 mtime 抽查：仅 #15 卡 23:46（授权回链 1 行），其余均为 #150 批次/返工时间；#150 spec 未动 |
+
+### 内容评价
+
+单卡闭环完整：定义（六关键词原样套用 + 四 agent 真样本 + 素质词反例）、三环准入、四字诀映射、练二十法摘对应、双案例（课程侧 + 我们侧真事故）、When NOT 4 条、Failure Modes 5 条、Critique 2 条有真回应（拟人化批判答「半成立」——诚实）、Synthesis 8 条、Action Triggers 4 条、diagnostic_signals 已填。Failure Mode #4「没有机制改动的复盘不算数」与本工厂 07-09 复盘改进项互证。
+
+### 两处瑕疵（🟡/🟢，不阻塞，老顽童下次会话顺手修）
+
+- 🟡 卡内 L51 双视角注记、L163 Synthesis 仍写「反向回链挂起/待补」，与实际已闭环状态不一致——文字滞后，建议同步为「已闭环（2026-07-11）」。
+- 🟢 frontmatter `reviewed_by: 欧阳锋` 系按任务单验收第 1 条字面预填（`status: draft` 保护下不误导，非自审）；终审已通过，卡 `status` 宜由 draft → reviewed 同步落档（07-09 复盘已记的卡片 status 同步缺口，单卡顺手可补）。建议以后任务单模板把该条改写为「终审后回填 reviewer + 同步 status」，免歧义。
+
+### 等级：A-
+
+单卡证据全部坐实、边界干净、闭环完整；A 保留给零瑕疵交付（两处文字级瑕疵见上）。本卡 + #150（A-）+ #151（待返工）构成苦练基本功域「本体 + 工厂 + Agent 视角」三件套。
+
+*欧阳锋 2026-07-11 终审：PASS / A-，验收 5 条全绿，两处文字瑕疵记 note 不阻塞*

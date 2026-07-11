@@ -22,6 +22,7 @@ related:
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[management-domain-digest]]'
+- '[[tool-three-ring-capability-filter]]'
 diagnostic_signals:
 - signal: 候选基本功列了 20 个，每个都有人说重要，砍不动
   lens: 没有量化筛子——凭感觉砍人得罪人，凭六维打分砍动作不得罪人

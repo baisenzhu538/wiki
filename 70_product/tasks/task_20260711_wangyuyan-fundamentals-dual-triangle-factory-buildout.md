@@ -1,7 +1,7 @@
 ---
 id: task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout
 title: 一堂·苦练基本功 × 双三角/cap_hub 工厂改造：AI-基本功顶点扩展 + cap_hub三环过滤器 + 段位合并 + 飞轮补全（建工厂线）
-status: pending_review
+status: queued
 priority: P0
 assignee: huangyaoshi-claude
 reviewer: 欧阳锋
@@ -22,7 +22,7 @@ related:
 - '[[method-dual-triangle-flywheel-engine]]'
 - '[[task_20260708_huangyaoshi-capability-hub-phase1]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11T15:33:43.145425+00:00'
+updated_at: '2026-07-11T15:40:27.397847+00:00'
 ---
 
 # 基本功 × 双三角/cap_hub 工厂改造（建工厂线 · 黄药师）
@@ -112,3 +112,59 @@ updated_at: '2026-07-11T15:33:43.145425+00:00'
 - 编号 **#151**，与 #150 同批待领取：老顽童领 #150（地基，可立即干），黄药师领 #151（先搭脚手架，填充等 #150）。
 
 *王语嫣编排 · 2026-07-11*
+
+
+---
+
+## 七、终审记录（欧阳锋 · 2026-07-11 · verdict: **FAIL 退回返工**）
+
+> 终审方式：4 个改动文件全读 + pre-submit 复跑 + 双向闭环 grep 实数 + 对接声明亲核（agent-os.md §10）。
+
+### 一、总判
+
+B-1~B-4 内容层 **A 级**（引用不迁移守住、映射干净、无双写），主体封板不重读；两项压终审线 → 退回 queued，fast-track 返工（10 分钟级）。闭环后重提 pending_review，预期 **PASS / A-**。
+
+### 二、验收标准对账（逐项实核）
+
+| # | 验收标准 | 结果 | 证据 |
+|:--:|:--|:--:|:--|
+| 1 | AI-基本功顶点含四项 + wikilink 到 #150 卡、无双写 | ✅ | core L129（提示词/上下文工程/智能体协作/全网调研 + `[[concept-一堂-AI时代基本功变与不变]]`）；weapon §3.2 L137-148 四级映射，展开内容未复制 |
+| 2 | 三环过滤器可执行 checklist + cap_hub 接入点注明 | ✅ | 三环各 3 条客观判定（spec/脚本/频率）；Phase 2 挂起注明 L114-137（`registry.validate()` 预期接口） |
+| 3 | 武器库段位双轨 + 使用场景 | ✅ | §段位双轨 L174-216：SABC（团队配置）+ L1-L6（个人精进）+ 对应表 + `yt-tob-customer-sabc` 消歧 L191 + management-map L1-L5 关系 L214-216 |
+| 4 | 飞轮含 A→F + 四要素 + Truman §10 对接点 | ✅ | §三-B（A→F 映射三层跃迁 + 操作指南）；§三-C（四要素 + 三回路对接 + `agent-os.md §10.2` 对接 L236-243——亲核 agent-os.md L180-203，§10.2 Truman 10 章格式真实存在） |
+| 5 | 无文件越界 | ✅ | #150 本域卡今日改动均为老顽童 R5/既有 Synthesis 级引用，无黄药师内容编辑痕迹 |
+| 6 | **双向 link 闭环** | 🔴 | 见 F2 |
+| 7 | **pre-submit 通过** | 🔴 | 见 F1 |
+
+### 三、压线两项（必做）
+
+**🔴 F1 — pre-submit FAIL：新卡缺 required field**
+
+`30_wiki/tools/tool-three-ring-capability-filter.md` frontmatter 有 `created_at` 无 `updated_at`，门禁报 `Missing required field: updated_at`，4 文件复跑 Result: FAIL。验收第 7 条不通过。
+**修复**：frontmatter 补 `updated_at: 2026-07-11`。
+
+**🔴 F2 — 双向 link 闭环未成（验收第 6 条「互相 wikilink」）**
+
+工厂卡 → #150 卡正向引用 6 处全部到位（core/weapon/flywheel/filter 四卡 related+正文）；但反向 6 对中仅 `core ↔ AI变与不变` 双向成立，其余 5 处反向缺失（grep 实数，目标卡全文零命中）：
+
+| #150 卡（补 related） | 反向 link 目标 |
+|:--|:--|
+| `concept-一堂-AI时代基本功变与不变` | `[[framework-yihang-dual-triangle-weapon-library]]` |
+| `concept-一堂-基本功-段位体系` | `[[framework-yihang-dual-triangle-weapon-library]]` |
+| `framework-一堂-基本功-九层金字塔` | `[[method-dual-triangle-flywheel-engine]]` |
+| `concept-一堂-基本功-刻意练习四要素` | `[[method-dual-triangle-flywheel-engine]]` |
+| `tool-一堂-基本功-三环六维自检` | `[[tool-three-ring-capability-filter]]` |
+
+> 协议 §5 已授权：黄药师在 #150 卡 related 反向补 link **不属越界**（§二铁律的例外条款）；或通知老顽童补。终审只看闭环结果，不看谁动手。
+
+### 四、🟡 顺手建议（不阻塞，修 F1 时一并）
+
+- 三张升级卡 `updated_at` 未随本次编辑 bump（core 07-08 / weapon 07-03 / flywheel 07-04）——元数据纪律，顺手对齐 2026-07-11。
+- weapon-library L304/L309 两节历史占位「待补充（src_unknown）」——非本任务范围，建议下次清理该卡时填实或删除。
+- 🟢 flywheel Critique「Herbert Simon 的有限理性」重复两段（L356/L360，历史遗留）。
+
+### 五、复审规则
+
+F1/F2 闭环后重提 pending_review：快车道只验 F1（门禁复跑）+ F2（5 处 grep）+ 抽查 🟡；主体内容 A 级封板不重读。干净闭环即 **PASS / A-**。
+
+*欧阳锋 2026-07-11 终审：内容 A 级封板，F1（updated_at）+ F2（5 处反向 link）压线退回，走快车道*

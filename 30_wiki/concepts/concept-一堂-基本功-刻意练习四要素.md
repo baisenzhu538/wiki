@@ -21,6 +21,7 @@ related:
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[concept-一堂-基本功定义]]'
 - '[[management-domain-digest]]'
+- '[[method-dual-triangle-flywheel-engine]]'
 diagnostic_signals:
 - signal: 员工说"这事我做三年了"，一做还是 60 分
   lens: 经验≠练习——三年重复但没有套路升级、没有反馈，是原地踏步不是刻意练习

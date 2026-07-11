@@ -23,6 +23,7 @@ related:
 - '[[concept-一堂-基本功-刻意练习四要素]]'
 - '[[concept-一堂-Agent基本功修炼]]'
 - '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-dual-triangle-weapon-library]]'
 - '[[management-domain-digest]]'
 diagnostic_signals:
 - signal: 团队争论"有了 AI 还要不要练基本功"，练的人被说落伍

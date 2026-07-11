@@ -9,6 +9,7 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-11
+updated_at: 2026-07-11
 domain:
   - infrastructure
   - ai-collaboration
