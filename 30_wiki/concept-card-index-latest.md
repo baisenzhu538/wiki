@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-07-10 18:08 UTC
+# Concept Card Index — 2026-07-11 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -96,12 +96,17 @@
 | concept-yitang-research-mindset | 调研心态：从"找答案"到"拆假设" | concept | yitang, research |
 | concept-yitang-research-objective | 调研目标锁定：从"了解"到"决策"的认知跃迁 | concept | yitang, research |
 | concept-yitang-research-scope | 调研范围缩小：专注·专业·剥离三原则 | concept | yitang, research |
+| concept-一堂-AI时代基本功变与不变 | AI 时代基本功的变与不变：拆建不变，推练变形，AI 是外骨骼肌肉靠苦练 | concept | management, yitang, ai-collaboration |
+| concept-一堂-Agent基本功修炼 | Agent 基本功修炼：KDO 工厂就是 Agent 军团练基本功的系统 | concept | management, yitang, ai-collaboration |
 | concept-一堂-business-prediction | 商业预判：15字诀与光谱模型——从拍脑袋到科学决策 | concept | product, yitang, entrepreneurship |
 | concept-一堂-hypothesis-driven-business-methodology | 一堂假设驱动型创业分析方法论 | concept | src_unknown, src_unknown |
 | concept-一堂-kernel-iteration | 产品内核迭代：从静态到动态的五方向演化 | concept | product, yitang |
 | concept-一堂-kernel-validation | 产品内核验证：三维度评估 + 六策略验证 | concept | product, yitang |
 | concept-一堂-key-assumptions | 关键假设（Key Assumption）：业务成功依赖的核心前提条件 | concept | yitang, key-assumptions |
 | concept-一堂-product-kernel | 产品内核 — 用户愿意选择你的最小解决方案 | concept | product, entrepreneurship, lean-startup |
+| concept-一堂-基本功-刻意练习四要素 | 刻意练习四要素（组织版）：套路×非舒适区×大量重复×及时反馈 | concept | management, yitang |
+| concept-一堂-基本功-段位体系 | 基本功段位体系：L1-L6 爬山图 × SABC 岗位阶段 × 60/70/85 分数制 | concept | management, yitang |
+| concept-一堂-基本功定义 | 基本功定义：针对具体场景的独立可检验动作，重复形成复利 | concept | management, yitang |
 | concept-一堂-终局光谱图解读 | 终局光谱图解读：五条读法 + 七段风险/收益量化 | concept | yitang, opportunity-foresight |
 | concept-两种典型思考习惯 | 两种典型思考习惯：效率导向 vs 效果导向 | concept | yitang, decision-science |
 | concept-半肥猫-ai-learning-toolification-methodology | 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进 | concept | src_unknown, src_unknown, src_unknown |
@@ -296,7 +301,7 @@
 | yt-growth-viral-mechanism | 病毒传播：自增长机制设计 | concept | src_unknown |
 | yt-lean-daily-probability-decision | 假设驱动日常决策三问 | concept | src_unknown, src_unknown, src_unknown |
 | yt-lean-essence | 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险 | concept | src_unknown, src_unknown, src_unknown |
-| yt-management-basic-skills | 基本功认知 | concept | src_unknown, src_unknown, src_unknown |
+| yt-management-basic-skills | 基本功认知 | concept | management, yitang |
 | yt-management-business-formula | 业务公式 | concept | src_unknown, src_unknown, src_unknown |
 | yt-management-company-culture | 公司文化 | concept | src_unknown, src_unknown, src_unknown, src_unknown, src_unknown |
 | yt-management-conversion-hacking | 转化率黑客 | concept | src_unknown, src_unknown, src_unknown, src_unknown, src_unknown, src_unknown |
@@ -595,7 +600,11 @@
 | framework-一堂-关键假设-ABCD模型 | 一堂关键假设 ABCD 模型（YitangABCDStrategyModel）：四场景 × 成败/效率定位器 | framework | yitang, key-assumptions |
 | framework-一堂-关键假设-三板斧 | 一堂关键假设三板斧（骨架）：加法→减法→验证→迭代的收敛逻辑 | framework | yitang, key-assumptions |
 | framework-一堂-关键假设 | 一堂关键假设：用假设驱动业务的方法论入口总框架 | framework | yitang, key-assumptions, methodology |
+| framework-一堂-基本功-九层金字塔 | 基本功九层金字塔：从底层信念到基本功化的完整地图 | framework | management, yitang |
+| framework-一堂-基本功-四字诀拆建推练 | 基本功四字诀「拆建推练」：把一个动作练成组织能力 | framework | management, yitang |
+| framework-一堂-基本功-四类工作四化 | 五类工作 × 4化：基本功的进攻方向诊断图 | framework | management, yitang |
 | framework-一堂-机会预判 | 一堂·机会预判：CEO 的预判操作系统（总框架） | framework | yitang, opportunity-foresight, five-step-method |
+| framework-一堂-苦练基本功-总纲 | 苦练基本功总纲：人不是组织能力的最小单位，基本功才是 | framework | management, yitang |
 | framework-一堂-表达力火箭模型 | 表达力火箭模型：四要素递进 | framework | yitang, personal-expression |
 | framework-一堂五步法-单元模型 | 一堂五步法·单元模型：斧子/尺子/梯子三角色 | framework | yitang, five-step-method |
 | framework-一堂五步法-增长周期 | 一堂五步法·增长周期：获客驱动/系统驱动/对抗驱动三阶段 | framework | yitang, five-step-method |
@@ -926,6 +935,7 @@
 | tool-task-depth-decomposition | 任务深度拆解 (Task Depth Decomposition) | tool | yitang, time-management |
 | tool-team-task-pool | 团队任务池 (Team Task Pool) | tool | yitang, time-management |
 | tool-tech-probability-80-filter | 李开复 80% 概率过滤器 | tool | ai_collaboration, critical_thinking, business_judgment |
+| tool-three-ring-capability-filter | cap_hub 三环过滤器——能力注册准入 checklist | tool | infrastructure, ai-collaboration |
 | tool-wanghuan-ai-business-profile | 王欢AI业务档案5字段工具 | tool | src_unknown, src_unknown, src_unknown, src_unknown |
 | tool-wanghuan-ai-dual-role-coach | 王欢：AI 双角色教练对练工具 | tool |  |
 | tool-weekly-hypothesis-experiment | 每周假设实验 (Weekly Hypothesis Experiment) | tool | yitang, time-management |
@@ -1098,6 +1108,11 @@
 | tool-一堂-spectrum-positioning | 技能：光谱模型定位法 | tool |  |
 | tool-一堂-业务公式-L1L6参数分层自检 | 工具：业务公式 L1-L6 参数分层自检——看得清/讲得明/做得准 + 符号因果校验 | tool | yitang, key-assumptions, business-formula |
 | tool-一堂-关键假设-ABCD场景分类器 | 工具：关键假设 ABCD 场景分类器——把问题分到商业/决策/增长/转化并标成败·效率 | tool | yitang, key-assumptions |
+| tool-一堂-基本功-三环六维自检 | 三环六维自检：10 分钟判断一个动作配不配练成基本功 | tool | management, yitang |
+| tool-一堂-基本功-建模七法 | 建模七法：从本质要素到 SOP，把基本功建成固定套路 | tool | management, yitang |
+| tool-一堂-基本功-拆解四法 | 拆解四法：靠框架/靠专家/靠外部/靠复盘，把关键动作挖出来 | tool | management, yitang |
+| tool-一堂-基本功-推动七式 | 推动七式：三条灰度轴，把基本功从一个人推到全员 | tool | management, yitang |
+| tool-一堂-基本功-练习二十法 | 练习二十法：五层加码，把刻意练习焊进团队日常 | tool | management, yitang |
 | tool-一堂-机会预判-五步法预判 | 机会预判·五步法预判：选项池收敛为店型剧本 × 五步矩阵（出口 | tool | yitang, opportunity-foresight, five-step-method |
 | tool-一堂-机会预判-案例预判 | 机会预判·案例预判 SOP：定位→列七段→排幻觉→保A争B→硬伤校验 | tool | yitang, opportunity-foresight |
 | tool-一堂-表达力火箭模型-执行武器库 | 表达力火箭模型·执行武器库：四要素操作指南 | tool | yitang, personal-expression |
@@ -1801,6 +1816,7 @@
 | case-yitang-county-led-wrong-analogy | 案例：县城 LED 屏对标分众——错误类比忽视前提条件 | case | yitang, decision-science |
 | case-yitang-course-start-time-evolution | 案例：一堂开课时间——从"同行七八点"到"用户真正需要九点" | case | yitang |
 | case-yitang-curtain-listening | 案例：一堂帘子隔音——用物理隔离在开放式办公中创造"可调场景质量" | case | yitang, time-management |
+| case-yitang-dongyuan-dance-retention-c-vs-d | 少儿舞蹈学校：续班率打不动时，退回业务公式找战场，再用转化率打节点（C↔D 循环） | case | yitang, business-strategy |
 | case-yitang-doorstep-nail-service-context | 案例：上门美甲——在用户真实场景中访谈 | case | yitang, research |
 | case-yitang-doorstep-pet-feeding-trust | 案例：上门宠物喂养——用调研解决信任障碍 | case | yitang, research |
 | case-yitang-double-triangle-confidence | 案例：一堂把双三角模型变成 AI 难题的通用解题底盘 | case | src_unknown, src_unknown, src_unknown |
@@ -1867,7 +1883,9 @@
 | case-yitang-waste-recycling-subjective-failure | 案例：废品回收站——主观臆测从单店成功到多店失败 | case | yitang, decision-science |
 | case-yitang-weekly-modeling-engine | 案例：一堂的"周对周建模迭代"——把周五课程逼成公司增长引擎 | case | src_unknown, src_unknown, src_unknown |
 | case-yitang-xiaohuangdog-recycling-cabinet | 案例：小黄狗回收柜——忽略事实的典型代价 | case | yitang, decision-science |
+| case-yitang-xiezefeng-clothing-innovation-param | 服装店：找到"二次试穿"创新参数（L5）与"音量80"魔法数字（L6），用业务公式定优先级、转化率找抓手 | case | yitang, business-strategy |
 | case-yitang-xujian-invoice-saas-channel | 案例：徐建发票 SaaS 如何通过渠道探索找到支付推手 | case | yitang, growth, b2b, saas |
+| case-yitang-yewenbin-archery-business-formula | 射箭馆：用业务公式四参数串起动力阻力触点，把"等客流"变成"经营转化率" | case | yitang, business-strategy |
 | case-yitang-yitang-course-industrialization | 案例：一堂如何用工业化生产保证每周高质量做课 | case | yitang, growth, operations |
 | case-yitang-yitang-self-growth-channel | 案例：一堂自身如何三年增长十倍 | case | yitang, growth |
 | case-yitang-yitang-shortvideo-industrialization | 案例：一堂如何用 ABCD 模型实现口播短视频工业化 | case | yitang, growth, content-operations |
@@ -1885,7 +1903,11 @@
 | case-zhanglei-twist-egg-machine-yogurt-nursing | 案例：张磊——扭蛋机+酸奶+养老院，调研先行的连续创业 | case | yitang, research |
 | case-zhangyang-anchor-sop-three-locks | 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100% | case | src_unknown, src_unknown, src_unknown |
 | case-zhihu-vs-degetao-network-effect | 案例：知乎vs得到——网络效应壁垒的对比分析 | case |  |
+| case-一堂-基本功-认知篇案例集 | 基本功认知篇案例集：四个团队的第一堂基本功课 | case | management, yitang |
 | case-一堂-无人餐厅-hypothesis-failure | 案例：一堂无人餐厅项目因忽视关键假设而失败 | case | yitang, business-strategy |
+| case-一堂-春萍-刘伟tob销售标准化 | 刘伟 ToB 销售标准化：十八般武艺，把大客户销售从能人手艺练成组织能力 | case | management, yitang |
+| case-一堂-春萍-温校长校园代理 | 温校长校园代理：把过山车业务焊成 SOP，兼职学生军跑出 800 万年营收 | case | management, yitang |
+| case-一堂-春萍-花总AI研发 | 花总 AI 研发：从拆解自己到 AI+基本功，一个技术团队的五年修炼 | case | management, yitang |
 | case-一堂-陈贤敏汉堡-hypothesis-validation | 案例：陈贤敏中式汉堡先开实验店验证关键假设 | case | src_unknown, src_unknown |
 | case-半肥猫-course-to-skill | 案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具 | case | src_unknown, src_unknown |
 | case-婚礼操盘-用户和场景 | 案例：婚礼操盘——用户和场景分析 | case | yitang, decision-science |
@@ -1985,6 +2007,7 @@
 | dk-ji-hao-simple-complex-routing | 暗知识：简单系统跳过导诊台，复杂系统必须路由 | dk | ai-collaboration, yitang |
 | dk-kdo-leaky-pipe-pressure | 暗知识：在漏水的管子上加压——基础链路没跑通时，硬门禁不是质量控制，而是流程卡死 | dk | kdo, master |
 | dk-level-blindspot-external-feedback | 暗知识：「7-8分幻觉」是结构性盲区——低段位者高估自己，因为没见过高段位的具体打法 | dk | yitang, entrepreneur |
+| dk-long-material-layered-reading-protocol | 长素材分层读取协议：密度×长度选策略 / 子代理外存+行号锚点 / 三道防线 | dk | personal-os |
 | dk-lz-ai-native-organization | AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足 | dk | ai-saas, business-strategy |
 | dk-lz-code-is-disposable | 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产 | dk | ai-saas, business-strategy |
 | dk-mckinsey-hypothesis-driven-pitfalls | 暗知：假设驱动方法论的三个反直觉陷阱 | dk | consulting, yitang |

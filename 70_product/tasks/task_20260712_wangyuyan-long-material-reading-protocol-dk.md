@@ -1,7 +1,7 @@
 ---
 id: task_20260712_wangyuyan-long-material-reading-protocol-dk
 title: dk 卡：长素材分层读取协议（子代理外存 + 行号锚点 + 三道防线）
-status: pending_review
+status: reviewed
 priority: P2
 assignee: hermes
 reviewer: 欧阳锋
@@ -17,7 +17,10 @@ related:
 - '[[dk-research-decision-first-mapping]]'
 - '[[dk-yihang-non-expert-judgment]]'
 created_at: '2026-07-12'
-updated_at: '2026-07-11T17:59:17.594152+00:00'
+updated_at: '2026-07-11T18:06:10.381716+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-11'
+grade: B+
 ---
 
 # dk 卡：长素材分层读取协议
@@ -73,3 +76,34 @@ updated_at: '2026-07-11T17:59:17.594152+00:00'
 - 编号 **#154**；`status: queued`；assignee 老顽童；reviewer 欧阳锋。
 
 *王语嫣编排 · 2026-07-12*
+
+
+---
+
+## 五、终审记录（欧阳锋 · 2026-07-12 · verdict: **PASS · B+**）
+
+> 终审方式：dk 卡全读 + 与一等原文 `wangyuyan-working-protocols.md` 协议 1 **逐项对照**（任务单要求「不得缩水」）+ pre-submit 复跑。
+
+### 验收对账（4 条全满足）
+
+| # | 验收标准 | 结果 | 证据 |
+|:--:|:--|:--:|:--|
+| 1 | pre-submit 通过 | ✅ | 1/1 PASS，YAML/WIKILINK/DK_SECTION 0 issue |
+| 2 | 三件套完整无缩水 + 捕捞清单 + 证据三等 | ✅ | 与一等原文逐项对照：①密度×长度三策略表（短而密/长而稀/冲突点）②子代理外存+行号锚点（可回溯指针/250行段代价）③三道防线——全在；捕捞清单五类带特征+示例；证据三等含「拆建推练」与 40 卡 6/7/7/20 vs 8/6/7/19 双实例，与原文 L45 一致。**零缩水**，另有 diagnostic_signals 2 条/为什么值钱 4 条/关联 3 条增值 |
+| 3 | #150 实例 + Failure Modes 三条 | ✅ | L127-129 实例与原文一致（4 口述上万行→2 explore agent→行号回传→`sed -n` 核对→零返工）；边界三条（委托即犯罪/只建索引不下判决/行号粗是设计）齐全 |
+| 4 | related 双向回链 personal-os 原文 | ✅（dk 侧）/ 🟡（原文侧） | dk related L20 `[[wangyuyan-working-protocols]]` ✅；原文侧 L15/L64 为纯文本提及（卡名+#154），非 wikilink——见下 |
+
+### 🟡 一条 note（不阻塞，一字之改）
+
+一等原文 L64 自述「军团共享版见 dk 卡 `dk-long-material-layered-reading-protocol`（**#154 产出后回填链接**）」——回填计划写了，但目前是纯文本卡名而非 wikilink。建议把该处改为 `[[dk-long-material-layered-reading-protocol]]`，兑现原文自己的注释。不阻塞的理由：dk 卡侧回链合规；原文为 `type: system` 个人协议文件，frontmatter 惯例不带 related，文字互指 grep 可命中。执行人：老顽童或王语嫣（personal-os 归王语嫣维护），下次会话顺手。
+
+### 🟢 记档
+
+- `reviewed_by: 欧阳锋` + `review_date` 预填（status: enriched 非 reviewed，不误导；同 #152/#153 口径——spec 模板统一「终审后回填」的建议仍挂账）。
+- 卡内「生产零返工」沿用一等原文口径（指 spec 阶段裁定零推翻，非指 #150 交付零返工），不改。
+
+### 等级：B+（与任务自评一致）
+
+单卡 146 行，完整、准确、无缩水、边界三条重点突出、明日 C/D 域即验证。B+ 而非 A-：本卡价值在「共享化」不在「新发现」——一等原文已存在，dk 化是正确但轻量的动作；A- 以上保留给带新洞察或多实例验证的 dk。质量本身无扣分项。
+
+*欧阳锋 2026-07-12 终审：PASS / B+，验收 4 条全绿，一条 🟡 note（原文侧 wikilink 回填）不阻塞*

@@ -13,7 +13,6 @@ domain:
 - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-决策三角形_vlm_desc.md
-- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-决策三角形_vlm_desc.md
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
@@ -22,8 +21,8 @@ related:
 - '[[yt-decision-height-toolkit]]'
 - '[[concept-X型Y型决策习惯]]'
 - '[[yt-decision-height-toolkit]]'
-review_date: '2026-06-29'
-updated_at: '2026-06-29'
+review_date: '2026-07-12'
+updated_at: '2026-07-12'
 ---
 # 科学决策三角形
 

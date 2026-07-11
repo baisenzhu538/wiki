@@ -138,7 +138,7 @@ Step 5: 输出
 | 场景 | 路由 |
 |:---|:---|
 | 宽度不足 | `concept-科学决策宽度` + `yt-decision-width-method` |
-| 深度不足 | `yt-decision-depth-ladder` + L1-L4工具卡 |
+| 深度不足 | `yt-decision-depth-ladder` + `tool-决策深度-L1优先级定性` / `tool-决策深度-L2部分定量` / `tool-决策深度-L3定量公式` / `tool-决策深度-L4严格财务公式` |
 | 高度不足 | `yt-decision-height-toolkit` + `framework-高水平共识曲线` |
 | 假设存疑 | `yt-decision-abcd-model` |
 | 需要画布 | `yt-decision-canvas` |
