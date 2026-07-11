@@ -4,8 +4,10 @@ domain:
   - modeling
 
 id: yt-model-deep-review-iceberg
+status: reviewed
 confidence: 0.85
 created_at: 2026-05-11
+updated_at: '2026-07-12'
 difficulty: intermediate
 language: zh-CN
 query_triggers:
@@ -22,6 +24,8 @@ source_refs:
   - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 source_refs:
   - pending_archive:src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
+related:
+  - yt-business-formula-six-level-logic
 ---
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透
 

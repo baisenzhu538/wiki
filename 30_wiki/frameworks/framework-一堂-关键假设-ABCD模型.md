@@ -25,6 +25,7 @@ related:
 - '[[yt-decision-abcd-model]]'
 - '[[framework-yitang-project-abcd-classification]]'
 - '[[concept-一堂-key-assumptions]]'
+- '[[yt-business-formula-hypothesis-management-playbook]]'
 diagnostic_signals:
 - signal: 团队说"我们有个关键假设"，但说不清它属于哪类问题
   lens: 缺场景定位——成败问题和效率问题要用不同工具

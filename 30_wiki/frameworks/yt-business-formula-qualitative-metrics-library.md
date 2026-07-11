@@ -29,6 +29,7 @@ related:
   - "[[case-offline-catering-formula]]"
   - "[[case-dental-clinic-formula]]"
   - "[[case-gym-membership-formula]]"
+  - "[[yt-business-formula-ten-paradigms]]"
 ---
 
 # 业务公式定性参数行为化指标库

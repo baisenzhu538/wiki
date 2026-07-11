@@ -26,8 +26,11 @@ related:
 - "[[一堂方法论体系总图]]"
 - "[[yitang-course-map]]"
 - "[[yt-system-course-catalog]]"
+- "[[framework-一堂-业务公式拆解-总纲]]"
+- "[[yt-business-formula-ten-paradigms]]"
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
+- yt-business-formula-six-level-logic
 updated_at: 2026-06-16
 id: yt-management-business-formula
 author: 老顽童

@@ -6,6 +6,7 @@ related:
   - "[[yt-growth-cycle-model]]"
   - "[[case-toy-cabinet-business-model]]"
   - "[[case-treadmill-demand-analysis]]"
+  - "[[yt-business-formula-abc-model]]"
   - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown

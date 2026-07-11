@@ -31,6 +31,7 @@ related:
 - concept-X型Y型决策习惯
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
+- yt-business-formula-six-level-logic
 created_at: 2026-07-03
 updated_at: '2026-07-04'
 

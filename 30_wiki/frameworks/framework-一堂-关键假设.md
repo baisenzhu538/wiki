@@ -32,6 +32,7 @@ related:
 - '[[yt-business-formula-abc-model]]'
 - '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
 - '[[dk-yitang-business-formula-plus-times-trap]]'
+- '[[yt-business-formula-hypothesis-management-playbook]]'
 diagnostic_signals:
 - signal: 团队说"我们有个好想法，准备全力以赴"，却说不清这个想法依赖哪些前提
   lens: 缺假设驱动意识——把创业当执行计划，不是当一组待验证假设

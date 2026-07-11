@@ -27,6 +27,7 @@ related:
   - "[[framework-一堂-业务公式拆解-总纲]]"
   - "[[framework-一堂-关键假设]]"
   - "[[yitang-domain-digest]]"
+  - "[[yt-business-formula-hypothesis-management-playbook]]"
   - "[[tool-马易-AI任务拆解提升控制度]]"
   - "[[tool-马易-数字员工FD拆解落地]]"
   - "[[ocr-泛产品设计-落地卡片-里程碑拆解]]"

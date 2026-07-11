@@ -26,6 +26,7 @@ related:
   - "[[yt-entrepreneur-scientific-method]]"
   - "[[yt-entrepreneur-key-hypotheses]]"
   - "[[yt-model-entrepreneur-map]]"
+  - "[[yt-business-formula-ten-paradigms]]"
 review_date: 2026-06-15
 updated_at: '2026-06-18'
 reviewed_by: 欧阳锋

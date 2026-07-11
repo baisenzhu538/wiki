@@ -29,6 +29,7 @@ related:
 - yt-five-step-method-complete
 - tool-iceberg-triangle-modeling
 - concept-X型Y型决策习惯
+- yt-business-formula-six-level-logic
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 ---

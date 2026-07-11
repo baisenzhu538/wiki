@@ -6,6 +6,7 @@ related:
   - "[[yt-business-formula-business-pattern-selector]]"
   - "[[yt-business-formula-abc-model]]"
   - "[[dk-yitang-business-formula-plus-times-trap]]"
+  - "[[framework-一堂-业务公式拆解-总纲]]"
   - "[[pending_unknown]]"
 source_refs:
 - pending_archive: src_unknown

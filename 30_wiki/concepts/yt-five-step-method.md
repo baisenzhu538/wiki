@@ -21,6 +21,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
+- "[[yt-business-formula-abc-model]]"
 - "[[yt-demand-analysis-hiking-map]]"
 - "[[yt-product-kernel-cultivation]]"
 - "[[yt-unit-model-three-tools]]"
