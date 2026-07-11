@@ -1,0 +1,23 @@
+{
+  "_doc": "例外清单——匹配的 lint 错误不被报告。glob 用 fnmatch 语法（* 通配）。",
+  "f2_broken": [],
+  "f2_missing": [
+    {
+      "from": "*-domain-digest",
+      "to": "*",
+      "reason": "digest 卡为导航索引，不要求域内卡片回链"
+    },
+    {
+      "from": "*",
+      "to": "xingangwan-*",
+      "reason": "EC 线独立域，王语嫣裁定不互链"
+    },
+    {
+      "from": "concept-card-index-*",
+      "to": "*",
+      "reason": "总索引→全部内容，不要求回链"
+    }
+  ],
+  "f1": [],
+  "source_refs": []
+}

@@ -26,7 +26,6 @@ related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-tool-business-formula-parameter-arsenal]]'
-- '[[yt-tool-business-formula-18-moves]]'
 - '[[yt-tool-business-formula-quant-space-3d]]'
 - '[[business-formula-domain-digest]]'
 diagnostic_signals:
@@ -58,7 +57,7 @@ quality_labels:
 | 类别 | 位置 | 涨 30% 的效果 |
 |:--|:--|:--|
 | **乘法必经（关键路径/主路径）** | 全链路人人都要经过的串联环节 | 全局同步涨 30% |
-| **加法分支** | 只覆盖部分流量/人群的并列支路 | 按该分支占比打折：占比 10% 只涨 3%，占比 30% 只涨 15% |
+| **加法分支** | 只覆盖部分流量/人群的并列支路 | 按该分支占比打折：占比 10% 只涨 3%，占比 50% 也只涨 15% |
 
 课程原话（逻辑关系篇 L908-932）：「看到了加减乘除，这个时候你就可以找到一个关键路径……那些分支条件、那些加法的影响就没那么大。如果把这个 30% 加到 A 上、加到 B 上、加到 G1、G2、G3 上，你同样涨 30%，可能对于最上面的结果只会涨个 3%、5%、10%。」有同学总结"杠杆"也行——**乘法的杠杆比加法的杠杆大得多**。
 
@@ -95,7 +94,7 @@ quality_labels:
 1. **定性**：乘法必经路径 > 加法分支（先决定"哪类更值得看"）
 2. **定量**：在每个候选上评估提升空间，用空间重排（见 `[[yt-tool-business-formula-quant-space-3d]]`）
 
-降龙十八掌第 8 招「关键路径」和第 9 招「判断空间」就是这个两步法的动作化（`[[yt-tool-business-formula-18-moves]]`）。
+降龙十八掌第 8 招「关键路径」和第 9 招「判断空间」就是这个两步法的动作化（见同批 #156 卡 `yt-tool-business-formula-18-moves`，待建）。
 
 ## 五、与相邻概念的边界
 
@@ -140,7 +139,7 @@ quality_labels:
 | 上位总纲 | `[[framework-一堂-业务公式拆解-总纲]]` | 本卡是"拆公式→抓重点"环节的核心概念 |
 | 公式底座 | `[[yt-business-formula-abc-model]]` | 关键路径识别依赖目标+参数+逻辑关系三要素齐全 |
 | 定量续篇 | `[[yt-tool-business-formula-quant-space-3d]]` | 乘法定性优先之后，用三维空间做定量重排 |
-| 动作化 | `[[yt-tool-business-formula-18-moves]]` | 降龙十八掌第 8 招「关键路径」+ 第 9 招「判断空间」 |
+| 动作化 | `yt-tool-business-formula-18-moves`（#156 同批卡，待建） | 降龙十八掌第 8 招「关键路径」+ 第 9 招「判断空间」 |
 | 参数来源 | `[[yt-tool-business-formula-parameter-arsenal]]` | 没有足够细的参数展开，识别不出真正的小参数杠杆 |
 | 域导航 | `[[business-formula-domain-digest]]` | — |
 

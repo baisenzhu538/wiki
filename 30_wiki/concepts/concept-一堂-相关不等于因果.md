@@ -20,12 +20,12 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2470-L2608（医院因果倒置、裙子溺水、咖啡红酒、摄像头、试衣镜逐题拆解）
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2640-L2784（APP 停留时长、好评率筛选效应、KPI 锁非因果+聪明下属反噬）
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2788-L2914（SaaS 上门次数、社群活跃、主讲心情三个反噬案例）
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3186-L3192（相关可预测不可提升，因果才可提升）
 related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-tool-business-formula-causality-toolkit]]'
-- '[[concept-一堂-魔法数字]]'
 - '[[business-formula-domain-digest]]'
 - '[[yt-management-business-formula]]'
 diagnostic_signals:
@@ -136,7 +136,7 @@ quality_labels:
 
 > **这不是代表完全没有因果，只是暂时还没有找到。有可能它太小了不显著，也有可能是样本量不够。**
 
-> ⚠️ 反常识②：证伪一条因果假设，证伪的是「当前证据下的因果」，不是「永恒的无关」。相关关系可预测不可提升，因果关系才可提升（参数探索篇 L3186-3192）——这也是 `[[concept-一堂-魔法数字]]` 必须过因果检验的原因。
+> ⚠️ 反常识②：证伪一条因果假设，证伪的是「当前证据下的因果」，不是「永恒的无关」。相关关系可预测不可提升，因果关系才可提升（参数探索篇 L3186-3192）——这也是魔法数字类指标必须过因果检验的原因。
 
 ---
 
@@ -170,7 +170,7 @@ quality_labels:
 | 上位框架 | `[[yt-business-formula-six-level-logic]]` | 本卡是 L2 相关→L3 因果跃迁的"避坑侧"，冰山卡是"路径侧" |
 | 操作工具 | `[[yt-tool-business-formula-causality-toolkit]]` | 本卡讲"为什么会被骗"，工具卡讲"怎么验真假" |
 | 参数基础 | `[[yt-business-formula-parameter-iceberg]]` | 参数冰山给出候选关系，本卡负责把伪因果从中剔除 |
-| 下游应用 | `[[concept-一堂-魔法数字]]` | 魔法数字九成九死于"只是相关"，本卡是其第一道筛子 |
+| 下游应用 | 魔法数字概念卡（#156 同批，待收口回链） | 魔法数字九成九死于"只是相关"，本卡是其第一道筛子 |
 | 总纲 | `[[framework-一堂-业务公式拆解-总纲]]` | 相关/因果判断是拆解总纲 C 深入阶段的核心动作 |
 | 域导航 | `[[business-formula-domain-digest]]` | 业务公式域总导航与冲突调和 |
 
