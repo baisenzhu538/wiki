@@ -184,3 +184,26 @@ Step 5: 输出
 - **不分诊**：跨域入口归#143双三角诊断agent
 - **Y模型/实事求是转#142**：不越界处理
 - **机会预判转#147**：终局类问题不在此Agent范围
+
+---
+
+## 八、#143 域注册
+
+```yaml
+domain_id: decision-science
+domain_name: 科学决策域
+orchestrator: agent-一堂-科学决策教练
+status: draft
+entry_protocol: |
+  任何决策先过三维自查（宽度×高度×深度），
+  短板维优先补，再推进决策流程。
+sub_domains:
+  - width: 科学决策宽度
+  - depth: 科学决策深度
+  - height: 科学决策高度
+  - abcd: 关键假设ABCD
+  - consensus: 高水平共识曲线
+cross_refs:
+  - agent-spec-yitang-Y-model-cross-domain-coach  # 跨域转介
+  - agent-一堂-机会预判教练  # 终局类转介
+```
