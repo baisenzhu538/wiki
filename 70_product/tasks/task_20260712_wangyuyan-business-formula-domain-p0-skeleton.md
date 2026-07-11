@@ -96,6 +96,12 @@
 
 `yt-management-business-formula` / `tool-一堂-业务公式-L1L6参数分层自检` / `yt-tool-business-formula-metrics-checklist` / `dk-yitang-business-formula-plus-times-trap` / `case-yitang-yewenbin-archery-business-formula`：related 接入新总纲与 digest，不改正文。`xingangwan-pharma-business-formulas`（EC 线）不动。
 
+## 防呆清单（生产前必读，#150 返工教训 + 黄药师建议书裁定采纳）
+
+1. **每张卡 frontmatter 必填 `updated_at`**（欧阳锋 F1 扣分项）
+2. **引用他卡 → 他卡 related 必须回链**（欧阳锋 F2 扣分项：「对接/回链/闭环」类声明终审一律双向 grep）
+3. **source_refs 全部行号锚点**（`口述.txt L240-L300` 或 VLM 图号），口述稿为一等锚、笔记仅辅助——只引笔记不引口述的卡一律退回
+
 ## 验收点（欧阳锋用）
 
 1. 六根承重柱全部成卡且互相 related 成网
