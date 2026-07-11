@@ -114,7 +114,14 @@ def check_source_refs_exist(fm: dict, rel: str) -> list:
         # 跳过 wikilink 和 URL
         if s.startswith("[[") or s.startswith("http"):
             continue
-        candidate = VAULT_ROOT / s
+        # 剥离行号锚点和括号注释后再验路径（欧阳锋 2026-07-12 bug report）
+        # 三种格式: "路径.txt L240-L300（注释）" / "路径.txt:L2512-2891（注释）" / "路径.txt L240"
+        clean = re.sub(r":L\d+[-–\d]*.*$", "", s)       # 冒号直连: .txt:L2512-2891（注释）
+        clean = re.sub(r"\s+:?L\d+[-–\d]*.*$", "", clean)  # 空格+可选冒号
+        clean = re.sub(r"\s+L\d+[-–\d]*.*$", "", clean)    # 纯空格:  L240-L300
+        clean = re.sub(r"\s*[（(][^)）]*[)）]\s*$", "", clean)
+        clean = clean.strip()
+        candidate = VAULT_ROOT / clean
         if not candidate.exists():
             errors.append(f"{rel}: source_refs dead file: {s}")
 
@@ -225,8 +232,12 @@ def lint(wiki_dir: Path) -> dict:
             if m:
                 fm = parse_yaml_frontmatter(m.group(1))
                 cid = fm.get("id", "")
+                if not cid:
+                    cid = fp.stem  # fallback: 用文件名作 id
                 if cid:
                     card_ids.add(cid)
+                    # 同时注册文件名（解决中文文件名引用）
+                    card_ids.add(fp.stem)
                     related = fm.get("related", [])
                     if isinstance(related, str):
                         related = [related.strip().strip("'\"")] if related.strip() else []
@@ -234,8 +245,17 @@ def lint(wiki_dir: Path) -> dict:
                         related = [str(r).strip().strip("'\"") for r in related if r]
                     else:
                         related = []
-                    if related:
-                        related_map[cid] = related
+                    # 清理 wikilink 格式: [[target|alias]] → target
+                    cleaned_related = []
+                    for r in related:
+                        r = r.strip()
+                        r = re.sub(r"^\[\[|\]\]$", "", r)  # 去 [[ 和 ]]
+                        if "|" in r:
+                            r = r.split("|")[0].strip()     # 去 alias
+                        if r:
+                            cleaned_related.append(r)
+                    if cleaned_related:
+                        related_map[cid] = cleaned_related
         except Exception:
             pass
 
@@ -264,6 +284,7 @@ def lint(wiki_dir: Path) -> dict:
 
 
 def main():
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     target = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else WIKI_DIR
     result = lint(target)
 

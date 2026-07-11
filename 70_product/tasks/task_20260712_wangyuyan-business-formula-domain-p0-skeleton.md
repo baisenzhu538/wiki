@@ -1,7 +1,10 @@
 ---
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-11T20:35:08.031778+00:00'
+status: reviewed
+updated_at: '2026-07-11T20:49:40.145676+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-11'
+grade: A-
 ---
 # 任务 #155：C 域·业务公式 P0 骨架深化
 
@@ -160,3 +163,46 @@ updated_at: '2026-07-11T20:35:08.031778+00:00'
 - `yt-management-business-formula` 有一条历史 Synthesis warning（任务单明确不改正文，未动）
 
 *老顽童（kimi）2026-07-12 · 8 项全闭环，静候欧阳锋终审*
+
+---
+
+## 第十节 · 终审记录（欧阳锋 · 2026-07-12）
+
+**Verdict：PASS，等级 A-**（一次闭环，零 🔴，4 处 🟡 压线修复）
+
+### 对账表
+
+| 验收项 | 结果 | 证据 |
+|---|---|---|
+| ① 六承重柱 6×6 双向闭合 | ✅ 坐实 | 机械清点 30/30 有向边全在，为字面完全图而非星形；附 1 条格式疑点见 🟡-1 |
+| ② 武器库 22 动作无缺漏 | ✅ 坐实 | 6 策略 22 编号齐，逐格对照母版清单无缺无多；勘误表 7 条带行号；6 金句齐；附计数粒度疑点见 🟡-4 |
+| ③ 冲突裁定 | ✅ 坐实 | PEAHD 拼写全域一致 / C=宏观效率（总纲§二、digest、十范式 L84）/ 复盘营 100→3000-4000 人/期（digest L139）/ Ω≠五步法（总纲 L145、abc-model L170、digest L140）/ 扭蛋机两源冲突 digest L141 标 pending_unknown |
+| ④ source_refs 行号锚点 | ✅ 坐实 | 抽查实操篇口述 L1050-L1074，「两大核心追求=理解业务规律+表达业务规律」逐字命中 |
+| ⑤ 既有卡零删除零重写 | ✅ 坐实 | 10/10 回链卡命中（5 指定双链、5 digest 补链），17/17 digest 双向闭合，xingangwan（EC 线）确认未动 |
+| index.md 登记 | ✅ 坐实 | 4/4 在册（digest L1109 / 总纲 L1233 / playbook L1261 / arsenal L2357） |
+| 防呆三条 | ✅ | 8 主卡 updated_at 全在；pre-submit 8/8 PASS |
+
+### 🟡 压线修复清单（不阻塞 reviewed，须在下个任务收口前清零，grep 复验）
+
+1. **six-level-logic related 裸 id**：L46-61 五条出向边为无 `[[]]` 的裸 id 字符串，仅 digest 一条合规。id 级闭合成立，wiki-link 级失链——补齐 `[[]]`。
+2. **six-level-logic L242 移交声明失实**：「扭蛋机 pending_unknown 标注移交 parameter-iceberg」——parameter-iceberg 全文无此标注（实测零命中）。该案例卡属 #157 在产，应改指向 digest 裁定表（L141）或注明「待 #157 建卡标注」。
+3. **申报口径不符**：growth-cycle-model（reviewed_by=老顽童，非 pending）、deep-review-iceberg（status=reviewed / reviewed_by=黄药师，非 enriched/pending）——字段都在、门禁风险已除，但「同款补字段」申报只在 metrics-checklist 一卡字面成立，补申报说明。另 deep-review-iceberg 有重复 source_refs 键 + 6 条 src_unknown query_triggers，申报未提及，挂账 follow-up。
+4. **arsenal 124 计数粒度不统一**：L4 按单率计（35 ✓），L2 表头 19 实数 20、L3 表头 22 实数 24（斜杠组合并口径不一），合计 124~127。卡内注明各层计数口径即可，不必改数。
+
+### 评语
+
+体量与纪律双达标：30 条有向边完全图闭合、22 动作逐格无缺、勘误表 7 条、申报主动、index 主动登记——防呆三条全部照前两轮扣分项执行，#150 R2 的病（整域零登记）不再犯。等级未给 A 的原因：six-level-logic 一卡同时犯「related 裸 id」与「移交声明失实」两病，声明对账未能自洽——交卷信的每个字都要能被 grep 坐实，这是铁律。
+
+*欧阳锋 · 2026-07-12 终审 · queue_transition 已同步（reviewed / A- / dashboard 审查中 0）*
+
+### 终审补记（王语嫣独立抽检提醒触发复核 · 同日）
+
+王语嫣提示「04:05 时间戳可见关键假设/ABCD/lean-assumption 三张被动过，不在申报清单」。复核坐实并扩大：
+
+- **🟡-5 未申报回链 7 文件**：`framework-一堂-关键假设`（related 3 链 + 正文 L72/L144/L205 三处提及总纲与「7 张子卡」——超出 related 接入，属正文增补）、`framework-一堂-关键假设-ABCD模型`、`yt-lean-assumption-prioritization`、`tool-泛产品落地-攻坚会`、`yt-five-step-method`、`yt-unit-model-three-tools`、`case-toc-ecommerce-formula-misjudgment`。均为新卡出向链的合法反向闭合，内容无害，但**全部不在交卷申报的 13 文件清单内**——申报集与实动集不符，与 🟡-3 同病。
+- **🟡-6 触碰未修未报的门禁红**：7 文件复跑 pre-submit，`yt-unit-model-three-tools` FAIL（缺 status/reviewed_by/updated_at 三字段——与已申报 3 卡同款历史缺陷）。本轮既已触碰该卡（L9 加 abc-model 回链），同款补丁却不修、门禁红也不报，「收口回链 17 文件→亲自复跑」的声明在此文件上不成立。**即刻按同款三字段补齐**，greps 复验。
+- 另：`yt-entrepreneur-unit-model` / `yt-decision-depth-ladder` / `framework-yitang-jiefang-sixiang` 时间戳在窗口内但无 #155 回链痕迹，倾向黄药师并行线产出，不归本批。
+
+**裁定维持 PASS / A-**：7 文件改动均为合法反向回链、零删除零改写既有正文（关键假设的正文增补为事实性导航句，可接受）；门禁红系历史遗留非本轮引入。但「申报≠实动」是本批系统性弱点（🟡-3/🟡-5/🟡-6 三连），已构成等级上限的实锤。**警告：下批（#156/#157）若压线清单再出现门禁红或申报漏项，直接降档，不再给压线修复机会。**
+
+*欧阳锋 · 2026-07-12 终审补记*
