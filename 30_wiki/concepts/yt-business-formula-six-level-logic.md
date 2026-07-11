@@ -230,7 +230,7 @@ L1 一大片参数 → L2 记录分析后挑出显著项（封面真人出镜影
 | 创建工具 | `[[yt-tool-business-formula-parameter-arsenal]]` | L3→L4 "自己创建"的参数小抄来源 |
 | 落地承接 | `[[yt-business-formula-hypothesis-management-playbook]]` | 因果验证出的假设进入假设池管理 |
 | 配套自检 | `[[tool-一堂-业务公式-L1L6参数分层自检]]` | 参数侧 L1-L6 自检工具 |
-| 域导航 | `business-formula-domain-digest`（#155 在建，待收口回链） | C 域摘要与六根承重柱导航 |
+| 域导航 | `[[business-formula-domain-digest]]` | C 域摘要与六根承重柱导航 |
 | 决策接口 | `[[yt-decision-y-model]]` / `[[yt-decision-depth-ladder]]` | 逻辑关系深度支撑 Y 模型假设质量 |
 
 ---

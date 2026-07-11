@@ -294,7 +294,7 @@ A 目标 Ambition  ──  B 参数 Basis  ──  C 逻辑关系 Connection    
 | [[yt-business-formula-hypothesis-management-playbook]] | framework | 落地·管理篇 | 假设太多怎么管？团队/业务 2+3 策略×三级难度怎么落地？ |
 | [[yt-tool-business-formula-parameter-arsenal]] | tool | 落地·参数篇 | 到某层冰山具体挖哪些参数？6 策略→22 动作→100+ 参数清单 |
 | [[yt-management-business-formula]] | concept | 管理视角 | 业务公式在管理中的位置与假设管理要点 |
-| `business-formula-domain-digest`（#155 交付 7，在产） | domain | 域摘要 | C 域全局导航、案例族、数字口径声明 |
+| `[[business-formula-domain-digest]]` | domain | 域摘要 | C 域全局导航、案例族、数字口径声明 |
 
 > 粒度说明：abc-model / selector / qualitative-metrics / playbook 在 `frameworks/`，six-level-logic / ten-paradigms / parameter-iceberg / l6-essence / management 在 `concepts/`，arsenal 在 `tools/`——本总纲不搬动它们，仅在此建立导航与 related。
 
@@ -357,7 +357,7 @@ A 目标 Ambition  ──  B 参数 Basis  ──  C 逻辑关系 Connection    
 |---|---|---|
 | 总纲·贯通 | [[framework-一堂-关键假设]] | 本卡是其「术」柱，定性→定量的桥 |
 | 场景入口 | [[framework-一堂-关键假设-ABCD模型]] | A/B 成败类落 ABC，C/D 效率类落 L4 漏斗；本卡=C 宏观效率 |
-| 域摘要 | `business-formula-domain-digest`（#155 交付 7，在产，收口后回链） | C 域全局导航与口径声明 |
+| 域摘要 | `[[business-formula-domain-digest]]` | C 域全局导航与口径声明 |
 | 子卡·语法 | [[yt-business-formula-abc-model]] | ABC 构造语法 + 螺旋上升 |
 | 子卡·参数深度 | [[yt-business-formula-parameter-iceberg]] | L1-L6 冰山 |
 | 子卡·理解深度 | [[yt-business-formula-six-level-logic]] | 六层逻辑关系 |

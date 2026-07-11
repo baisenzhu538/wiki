@@ -290,7 +290,7 @@ A 渠道 GMV = 曝光量 × 点击率 × 转化率 × 客单价
 
 | 关系 | 目标节点 | 说明 |
 |:--|:--|:--|
-| 上位挂载 | `[[framework-一堂-业务公式拆解-总纲]]` | C 域总纲；ABC 模型是总纲的本质模型层（域摘要 `business-formula-domain-digest` 由 #155 交付7新建后收口回链） |
+| 上位挂载 | `[[framework-一堂-业务公式拆解-总纲]]` | C 域总纲；ABC 模型是总纲的本质模型层（域摘要见 `[[business-formula-domain-digest]]`） |
 | B 顶点展开 | `[[yt-business-formula-parameter-iceberg]]` | 参数冰山 L1-L6，Basis 的纵深 |
 | C 顶点展开 | `[[yt-business-formula-six-level-logic]]` | 逻辑关系冰山 L1-L6，Connection 的纵深 |
 | 实事求是素材库 | `[[yt-business-formula-ten-paradigms]]` | 十大经典范式，借鉴公式的来源 |

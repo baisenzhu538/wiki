@@ -231,7 +231,7 @@ quality_labels:
 | 关系 | 目标节点 | 说明 |
 |:--|:--|:--|
 | 上位挂载 | `[[framework-一堂-业务公式拆解-总纲]]` | C 域总纲第六根承重柱；策略集=「拆完公式之后怎么管」的管理闭环 |
-| 域导航 | `business-formula-domain-digest`（#155 在产，待建卡后由收口统一回链） | C 域摘要，六根承重柱的统一入口 |
+| 域导航 | `[[business-formula-domain-digest]]` | C 域摘要，六根承重柱的统一入口 |
 | 目标层同源 | `[[yt-business-formula-abc-model]]` | ABC 模型的 A（Ambition）在管理层的展开：三类目标/双目标法/顶层策略会 |
 | 参数侧姊妹课 | `[[yt-business-formula-parameter-iceberg]]` / `[[yt-tool-business-formula-parameter-arsenal]]` | 参数冰山管「假设往哪提」，本卡管「提出来的假设怎么管」；两课平行（口述 L3148-L3150） |
 | 逻辑侧姊妹课 | `[[yt-business-formula-six-level-logic]]` | 逻辑冰山管「假设怎么证成」，本卡管「假设怎么排队和落地」 |

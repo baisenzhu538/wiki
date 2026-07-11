@@ -250,7 +250,7 @@ quality_labels:
 | 目标侧 | `[[yt-business-formula-abc-model]]` | 参数是 ABC 模型的 Basis |
 | 自检工具 | `[[tool-一堂-业务公式-L1L6参数分层自检]]` | 快速判断一个参数该归哪层 |
 | 埋点配套 | `[[yt-tool-business-formula-metrics-checklist]]` | 自定义参数的埋点设计清单 |
-| 域导航 | C 域 digest（#155 在产） | — |
+| 域导航 | `[[business-formula-domain-digest]]` | C 域摘要 |
 
 ---
 
