@@ -20,7 +20,7 @@ domain:
 |:---|:---|:---|:---|:---|:---|
 | 1 | **方法论·域深挖 + Agent 生产** | #131-#149 全部 reviewed；**#150 基本功域 claimed-kimi 生产中**（总纲/四字诀/三环六维/九层金字塔/digest 等已落地）；**#151 双三角×cap_hub 工厂改造 claimed-黄药师生产中**（先搭脚手架，填充等 #150 卡 reviewed 引用）；**#152 Agent基本功修炼补卡、#153 决策教练 agent-spec 待领取** | Kimi 老顽童 / 黄药师（生产）/ 王语嫣（编排） | 老顽童续产 #150；黄药师续产 #151；#152 依赖 #150 reviewed、#153 无依赖随时可领（建议 hermes） | `production-queue.md` / `dashboard.html`（151 任务 / 待领取 2 / 进行中 2 / 已完成 147） |
 | 2 | **创新参数案例** | **已闭环**：服装店「二次试穿」(L5)+「音量80」(L6) 回填 #145 iceberg；3 张 case（#149）已 reviewed | 老顽童(kimi) / 欧阳锋 | 已闭环；D 触点素材已汇入 LW-PL-005 暂存清单 | #145 / #149 / `case-yitang-xiezefeng-clothing-innovation-param` |
-| 3 | **C/D 两域建设 + 反向蒸馏（07-12 作战）** | **素材管线启动**：C 业务公式主域 101 图 VLM 进行中（2/101）；D 目录已建待素材；两个 YAI（业务公式 agent/黑客转化率 agent）素材老朱准备中 | 老朱（素材）/ 洪七公（OCR+VLM）/ 王语嫣（编排待命） | VLM 落盘或素材到位→王语嫣 9 层深挖+编排；详见下方「07-12 作战计划」 | `00_inbox/Handle the business/` / LW-PL-005/006 |
+| 3 | **C/D 两域建设 + 反向蒸馏（07-12 作战）** | **C 域素材齐**：VLM 101/101 完成，洪七公三件套落盘（`整合笔记_业务公式完整版.md` / `审核报告_业务公式OCR+VLM.md` / `任务编排建议书_王语嫣_业务公式.md`）；**D 域素材进场**：conversion rate 16 文件，待 OCR+VLM；两个 YAI 素材老朱准备中 | 老朱（素材）/ 洪七公（OCR+VLM）/ 王语嫣（编排） | **C 域可立即启动**：王语嫣读三件套→派子代理精读 VLM 回传图号索引（参数挖掘武器库等关键图亲自读）→写诊断+spec→入队；洪七公建议书参考不照抄（独立判断，同四字诀矩阵先例） | `00_inbox/Handle the business/` / LW-PL-005/006 |
 | 4 | **EC 代码库梳理/重构（10 年智能医药）** | 方法论已沉淀（#84/#119 reviewed），工程执行未启动 | 待定（黄药师建议书 draft） | 老朱决定是否激活 EC 分库线 | `task_20260705_huangyaoshi-proposal-yai-canvas-agent-v3.md` / `diag_20260705_yai-agent-distillation-v2.md` |
 | 5 | **个人域维护（personal-os）** | 已写入"王语嫣角色边界"防再犯规则 | 王语嫣 | 每次会话结束更新 feedback/time/domain-index；启动先读本目录锚定角色 | `30_wiki/personal-os/` |
 
