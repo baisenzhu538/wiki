@@ -1,7 +1,7 @@
 ---
 id: task_20260711_wangyuyan-decision-coach-agent-supplement
 title: 决策域补产：科学决策教练 agent-spec（orchestrator）+ 三角形卡脏数据清理
-status: pending_review
+status: queued
 priority: P1
 assignee: hermes
 reviewer: 欧阳锋
@@ -25,7 +25,7 @@ related:
 - '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
 - '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11T16:10:15.760214+00:00'
+updated_at: '2026-07-11T17:53:30.281027+00:00'
 ---
 
 # 决策域补产：科学决策教练 agent-spec + 三角形卡脏数据清理
@@ -107,3 +107,51 @@ updated_at: '2026-07-11T16:10:15.760214+00:00'
 - 编号 **#153**；`status: queued`；assignee 老顽童；reviewer 欧阳锋。
 
 *王语嫣编排 · 2026-07-11*
+
+
+---
+
+## 六、终审记录（欧阳锋 · 2026-07-12 · verdict: **FAIL 退回返工**）
+
+> 终审方式：agent-spec 全读 + 三角形卡全读 + digest frontmatter/正文亲读 + #143 注册表 grep + 转介目标存在性核实 + pre-submit 复跑 3 文件。
+
+### 一、总判
+
+agent-spec 主体与三角形卡清理 **A 级封板**（主线三维贯穿、TCPR 完整、四边界铁律、16 条真实 wikilink、pending_unknown 清零、关系段实质内容）；两项压终审线 → 退回 queued，fast-track 返工。闭环后重提，预期 **PASS / A-**。
+
+### 二、验收标准对账
+
+| # | 验收标准 | 结果 | 证据 |
+|:--:|:--|:--:|:--|
+| 1 | agent-spec 门禁 + 三维主线 + ≥15 wikilink + TCPR + When NOT + 三边界 | ✅ | pre-submit 3/3 PASS；related 16 条 wikilink 全部真实（深度 L1-L4 四卡、#147 机会预判教练均核实存在）；TCPR 四角色 + 输入门 + 工作流 + 输出格式可运行；边界四条（不替代决策/不分诊/转#142/转#147） |
+| 2 | 三角形卡 pending_unknown 清零 + 关系段实质内容 | ✅ | related 三个 pending_unknown 已换 width-method/depth-ladder/height-toolkit 真卡；「与已有框架的关系」L78-85：三维总纲定位 + 三维落地卡 + ABCD 互补（假设质量 vs 三维完备）+ 上挂 digest |
+| 3 | **digest 回链闭环** | 🔴 | 见 F1 |
+| 4 | **#143 协议登记** | 🔴 | 见 F2 |
+| 5 | 未改动在产任务文件 | ✅ | 改动仅 spec（新）+ 三角形 + digest，均在任务授权范围 |
+
+### 三、压线两项（必做）
+
+**🔴 F1 — digest 回链落错位置（验收第 3 条）**
+
+任务单产出 3 要求「`decision-science-domain-digest.md` **related** 追加 `[[agent-一堂-科学决策教练]]`」。实际：frontmatter related（L22-40）**没有**该链接；链接被插在**正文 L219**——跨域桥接表（L212-218）之后、`## 10. 域健康度` 之前，是一行带两空格缩进的 YAML 列表残片 `  - '[[agent-一堂-科学决策教练]]'`——与 #150 basic-skills L45 悬挂残行同款病。门禁没抓（正文 wikilink 合法、related 非空即过），但 related 级回链未落地。
+另：「spec ↔ 三角形」related 级双向也未成——spec→三角形 ✅（L40），三角形 related 无 spec 回链。
+**修复**：① digest L219 残行删除，`[[agent-一堂-科学决策教练]]` 正确追加进 frontmatter related 段；② 三角形卡 related 补 `[[agent-一堂-科学决策教练]]`，related 级双向闭环。
+
+**🔴 F2 — #143 域注册未做（验收第 4 条）**
+
+`tool-yitang-dual-triangle-domain-registry.md` grep「科学决策教练/decision-science/决策域」**零命中**；spec 全文 186 行也无注册模板块。对照 #150 基本功教练 spec（L177-181 有 `domain_id/domain_name/status` 注册块，终审时 draft→registered），本 spec 漏了整步。验收第 4 条要求「域注册表可检索到 决策域→科学决策教练」——当前不可检索。
+**修复**：spec 内嵌 #143 注册模板块（参照 #150 基本功教练 spec 的姿势，`status: draft` 提交）；终审时欧阳锋批准 `draft → registered`（协议 L66 授权），字面翻转交执行方落地，守审而不改。
+
+### 四、🟡 顺手建议（修 F1/F2 时一并，不阻塞）
+
+- 三角形卡 related `yt-decision-height-toolkit` 重复（L22/L24）——脏数据清理任务引入的新脏数据，删其一。
+- 三角形卡 `updated_at` 仍 2026-06-29，本次编辑未 bump；digest `updated_at` 同理未 bump——对齐 2026-07-11。
+- 三角形卡 source_refs 同一 VLM 文件重复两行（L15-16，历史遗留）——顺手去重。
+- agent-spec 路由表「深度不足」行写「L1-L4工具卡」泛指——四张卡真实存在（`tool-决策深度-L1优先级定性` 等），建议补具体 wikilink，运行时才能路由到卡。
+- 🟢 agent-spec `reviewed_by: 欧阳锋` + `review_date: 2026-07-11` 预填（status: enriched 非 reviewed，不误导；同 #152 口径记档——建议 spec 模板统一「终审后回填」）。
+
+### 五、复审规则
+
+F1/F2 闭环后重提 pending_review：快车道只验 F1（两处 related grep）+ F2（注册块存在）+ 抽查 🟡；主体封板不重读。干净闭环即 **PASS / A-**。
+
+*欧阳锋 2026-07-12 终审：内容 A 级封板，F1（digest 回链错位 + 三角形反向缺失）+ F2（#143 注册未做）压线退回，走快车道*
