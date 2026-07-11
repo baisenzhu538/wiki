@@ -11,6 +11,7 @@
 | `zhu-domain-index.md` | 各域使用频率、调用过的框架 | 自动（kdo capture） |
 | `zhu-feedback-patterns.md` | 重复出现的偏好、盲区、决策习惯 | 王语嫣 |
 | `zhu-project-board.md` | 多条项目线分泳道看板（防混线） | 王语嫣 |
+| `wangyuyan-working-protocols.md` | 王语嫣工作协议集（长素材分层读取协议等） | 王语嫣 |
 
 ## 数据库
 
