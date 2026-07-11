@@ -33,6 +33,7 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[_dogfood_dk|_dogfood_dk]] — source `{'pending_archive': 'src_unknown'}`
 - [[_dogfood_dk2|_dogfood_dk2]] — source `{'pending_archive': 'src_unknown'}`
 - [[_test_pa|_test_pa]] — source no source
+- [[agent-一堂-基本功教练|一堂基本功教练 Agent：诊断→拆解→建模→推动→训练]] — source `.agent/prompts/agent-一堂-基本功教练.md`
 - [[cases/case-ai-agent-milestone-design|AI Agent 里程碑设计：42 轮口授反馈实战]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[cases/case-ai-assisted-review|案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己]] — source `src_unknown`
 - [[cases/case-ai-companion-emotional|AI 情感陪伴的市场与伦理]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
@@ -351,6 +352,10 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[cases/case-zhanglei-twist-egg-machine-yogurt-nursing|案例：张磊——扭蛋机+酸奶+养老院，调研先行的连续创业]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
 - [[cases/case-zhangyang-anchor-sop-three-locks|案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[cases/case-zhihu-vs-degetao-network-effect|案例：知乎vs得到——网络效应壁垒的对比分析]] — source `10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md`
+- [[cases/case-一堂-基本功-认知篇案例集|基本功认知篇案例集：四个团队的第一堂基本功课]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L370-1530`
+- [[cases/case-一堂-春萍-刘伟tob销售标准化|刘伟 ToB 销售标准化：十八般武艺，把大客户销售从能人手艺练成组织能力]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L176-384`
+- [[cases/case-一堂-春萍-温校长校园代理|温校长校园代理：把过山车业务焊成 SOP，兼职学生军跑出 800 万年营收]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L386-650`
+- [[cases/case-一堂-春萍-花总AI研发|花总 AI 研发：从拆解自己到 AI+基本功，一个技术团队的五年修炼]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L654-866`
 - [[cases/case-一堂-无人餐厅-hypothesis-failure|案例：一堂无人餐厅项目因忽视关键假设而失败]] — source `pending_archive:src_20260506_9b4788a6-声音和画面正常吗`
 - [[cases/case-一堂-陈贤敏汉堡-hypothesis-validation|案例：陈贤敏中式汉堡先开实验店验证关键假设]] — source `pending_archive:src_20260606_22c4a291-一堂-关键假设课-truman-笔记`
 - [[cases/case-半肥猫-course-to-skill|案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具]] — source `10_raw/sources/src_20260617_2b8a01ce-ai俱乐部-ai学习落地-半肥猫-口述.txt`
@@ -471,11 +476,15 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[concepts/concept-yitang-research-mindset|调研心态：从"找答案"到"拆假设"]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[concepts/concept-yitang-research-objective|调研目标锁定：从"了解"到"决策"的认知跃迁]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
 - [[concepts/concept-yitang-research-scope|调研范围缩小：专注·专业·剥离三原则]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
+- [[concepts/concept-一堂-AI时代基本功变与不变|AI 时代基本功的变与不变：拆建不变，推练变形，AI 是外骨骼肌肉靠苦练]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L1810-2117`
 - [[concepts/concept-一堂-hypothesis-driven-business-methodology|一堂假设驱动型创业分析方法论]] — source `10_raw/sources/src_20260606_22c4a291-一堂-关键假设课-truman-笔记.md`
 - [[concepts/concept-一堂-kernel-iteration|产品内核迭代：从静态到动态的五方向演化]] — source `pending_archive:src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述`
 - [[concepts/concept-一堂-kernel-validation|产品内核验证：三维度评估 + 六策略验证]] — source `src_unknown`
 - [[concepts/concept-一堂-key-assumptions|concept-一堂-key-assumptions]] — source `{'pending_archive': 'src_unknown'}`
 - [[concepts/concept-一堂-product-kernel|产品内核：用户愿意选择你的最小解决方案]] — source `src_unknown`
+- [[concepts/concept-一堂-基本功-刻意练习四要素|刻意练习四要素（组织版）：套路×非舒适区×大量重复×及时反馈]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt:L156-605`
+- [[concepts/concept-一堂-基本功-段位体系|基本功段位体系：L1-L6 爬山图 × SABC 岗位阶段 × 60/70/85 分数制]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L1570-1662`
+- [[concepts/concept-一堂-基本功定义|基本功定义：针对具体场景的独立可检验动作，重复形成复利]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L104-360`
 - [[concepts/concept-两种典型思考习惯|两种典型思考习惯：效率导向 vs 效果导向]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-高度-两种典型的思考习惯_vlm_desc.md`
 - [[concepts/concept-半肥猫-ai-learning-toolification-methodology|半肥猫 AI 学习落地方法论：从听课到造工具的三层递进]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
 - [[concepts/concept-单元模型-学练用|学练用：知识内化的三阶模型]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-学练用_vlm_desc.md`
@@ -1101,6 +1110,7 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[domains/five-step-domain-digest|域摘要：一堂五步法（80+张卡）]] — source `10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md`
 - [[domains/human-ai-collaboration-double-triangle|域摘要：人机协作范式——双三角模型域]] — source `src_unknown`
 - [[domains/lean-startup-domain-digest|域摘要：精益创业方法论]] — source `60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`
+- [[domains/management-domain-digest|域摘要：一堂管理方法论（五阶管理地图 + 苦练基本功子域）]] — source `70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md`
 - [[domains/strategy-domain-digest|域摘要：企业战略（冉鹏 · 30年经验）]] — source `00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md`
 - [[domains/yitang-domain-digest|域摘要：一堂知识体系总目]] — source `{'pending_archive': 'src_unknown'}`
 - [[domains/yitang-research-domain-digest|域摘要：调研方法论（90+张卡）]] — source `60_feedback/diagnosis/diag_20260620_调研专题素材验收.md`
@@ -1218,6 +1228,10 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[frameworks/framework-yitang-six-layer-cross-validation|六层交叉验证：从单源到多源的信息可信度提升]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[frameworks/framework-yitang-three-ring-ability-focus|三环能力聚焦法：从 30 个能力中锁定 3 个重点]] — source `00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt`
 - [[frameworks/framework-yitang-y-model-dual-triangle-synergy|Y模型 × 双三角协同工作法]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
+- [[frameworks/framework-一堂-基本功-九层金字塔|基本功九层金字塔：从底层信念到基本功化的完整地图]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt:L2512-2891`
+- [[frameworks/framework-一堂-基本功-四字诀拆建推练|基本功四字诀「拆建推练」：把一个动作练成组织能力]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L304-330`
+- [[frameworks/framework-一堂-基本功-四类工作四化|五类工作 × 4化：基本功的进攻方向诊断图]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L334-360`
+- [[frameworks/framework-一堂-苦练基本功-总纲|苦练基本功总纲：人不是组织能力的最小单位，基本功才是]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L104-360`
 - [[frameworks/framework-一堂五步法-泛产品设计|一堂五步法在泛产品设计中的应用]] — source `00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt`
 - [[frameworks/framework-个人成长五步法|个人成长五步法：Truman的个人版本]] — source `00_inbox/_vlm_reprocess/其他/Truman的个人成长五步法_vlm_desc.md`
 - [[frameworks/framework-单元模型-外部对抗地图|外部对抗地图]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-外部对抗地图_vlm_desc.md`
@@ -1891,6 +1905,11 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[tools/tool-一堂-product-kernel-add-subtract|技能：产品内核加减法]] — source `{'pending_archive': 'src_unknown'}`
 - [[tools/tool-一堂-product-kernel-canvas|一堂产品内核画布应用技能]] — source `10_raw/sources/src_20260619_e2f3dfec_00_inbox_一堂_产品内核迭代课_Truman_笔记.txt`
 - [[tools/tool-一堂-spectrum-positioning|技能：光谱模型定位法]] — source `{'pending_archive': 'src_unknown'}`
+- [[tools/tool-一堂-基本功-三环六维自检|三环六维自检：10 分钟判断一个动作配不配练成基本功]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L240-300`
+- [[tools/tool-一堂-基本功-建模七法|建模七法：从本质要素到 SOP，把基本功建成固定套路]] — source `00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/建模卡-本质要素-01_vlm.md`
+- [[tools/tool-一堂-基本功-拆解四法|拆解四法：靠框架/靠专家/靠外部/靠复盘，把关键动作挖出来]] — source `00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/拆解卡-靠框架拆-01_vlm.md`
+- [[tools/tool-一堂-基本功-推动七式|推动七式：三条灰度轴，把基本功从一个人推到全员]] — source `00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/推动卡-选标杆基本功-01_vlm.md`
+- [[tools/tool-一堂-基本功-练习二十法|练习二十法：五层加码，把刻意练习焊进团队日常]] — source `00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/练习卡-挂在嘴边-01_vlm.md`
 - [[tools/tool-三层目标对齐法|技能：三层目标对齐法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[tools/tool-三阶追问法穷尽决策要素|技能：三阶追问法穷尽决策要素]] — source `10_raw/sources/src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要.md`
 - [[tools/tool-专家访谈十步法|技能：专家访谈十步法]] — source `10_raw/sources/src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单.md`

@@ -260,7 +260,7 @@ quality_labels:
 | 沉淀出口 | `[[yt-management-team-knowledge]]` | 练成的 SOP/案例进团队知识库 |
 | 工厂索引 | `[[concept-yihang-dual-triangle-core]]` | 40 卡六要素标签供多入口索引（第六节） |
 | 撞名区分 | `tool-demand-chai-tui-ping-suan-guide` | 需求域「拆推评算」是需求分析四字诀，勿混 |
-| 下游调用 | `agent-一堂-基本功教练` | 教练 Agent 按拆→建→推→练调度（第五批建） |
+| 下游调用 | `[[agent-一堂-基本功教练]]` | 教练 Agent 按拆→建→推→练调度 |
 
 ---
 

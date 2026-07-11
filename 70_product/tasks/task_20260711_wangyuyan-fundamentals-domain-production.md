@@ -2,7 +2,7 @@
 id: task_20260711_wangyuyan-fundamentals-domain-production
 title: 一堂·苦练基本功域（管理/团队子域）P0-P2 生产：总纲/四字诀/三环六维/40 工具卡落地 + 春萍案例 + 管理域 digest + 教练 Agent
   Spec
-status: queued
+status: in_progress
 priority: P0
 assignee: kimi
 reviewer: 欧阳锋
@@ -25,7 +25,7 @@ related:
 - '[[deliberate-practice-four-elements]]'
 - '[[task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11T14:19:06.958456+00:00'
+updated_at: '2026-07-11T14:47:54.636582+00:00'
 ---
 
 # 一堂·苦练基本功域（管理/团队子域）P0-P2 生产

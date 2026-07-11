@@ -173,10 +173,10 @@ Step 6: 段位评估与迭代
 ### 按 #143 注册（双三角域注册协议）
 
 ```yaml
-# 域注册模板（按 [[tool-yitang-dual-triangle-domain-registry]] 填写，状态待欧阳锋审核转 registered）
+# 域注册模板（按 [[tool-yitang-dual-triangle-domain-registry]] 填写，2026-07-11 经 #150 终审批准注册）
 domain_id: yitang-fundamentals-coach
 domain_name: 一堂基本功教练（管理/团队子域）
-status: draft
+status: registered
 domain_purpose: |
   专注一堂"苦练基本功"域的个人/团队基本功诊断与训练教练：拆建推练调度、
   三环六维自检、40 工具卡调用、段位评估、刻意练习计划。

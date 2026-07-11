@@ -184,7 +184,7 @@ SABC 管"人在哪个阶段"，分数制管"这项基本功的产出到了什么
 | 范围刻度 | `[[yt-model-management-map]]` | 管理地图 L1-L5 量范围，本卡 L1-L6 量建设水平 |
 | 撞名消歧 | `yt-tob-customer-sabc` | 销售客户分层 SABC，同名不同义 |
 | 相邻 | `[[yt-management-leadership-levels]]` | 领导力分层视角 |
-| 案例 | 春萍·温校长（第四批建） | SABC 在校园代理招生的实战 |
+| 案例 | `[[case-一堂-春萍-温校长校园代理]]` | SABC 在校园代理招生的实战 |
 
 ---
 
