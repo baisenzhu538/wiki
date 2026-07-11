@@ -37,8 +37,9 @@ C 域建域的最后一块：业务公式教练 agent-spec。参照 #150（`agen
 
 ### 2.5 黄药师预写件处置（裁定见诊断 §八）
 
-- **3 张桥接卡**（`framework-business-formula-{dual-triangle,y-model,fundamentals}-bridge.md`，draft）：P0-P2 卡 reviewed 后回填 `<<<TODO>>>` wikilink 占位，随本任务一并提交终审。
-- **参数挖掘 agent-spec draft**（`tool-agent-spec-business-formula-parameter-miner.md`）：可作本教练 spec 的「参数挖掘子能力」附件保留，但**必须先用口述稿行号重写 source_refs（现全部只引笔记，违反口述一等纪律）、回填 3 处 TODO 悬空引用**；做不到则按 draft 废弃、不随域交付。
+- **3 张桥接卡**（`framework-business-formula-{dual-triangle,y-model,fundamentals}-bridge.md`，draft）：P0-P2 卡 reviewed 后回填 `<<<TODO>>>` wikilink 占位，随本任务一并提交终审。**回填人：黄药师**（自己的 draft 自己回填；老顽童不代工），王语嫣的诊断书与 spec 为只读输入、黄药师不改这两份文件。
+- **参数挖掘 agent-spec draft**（`tool-agent-spec-business-formula-parameter-miner.md`）：可作本教练 spec 的「参数挖掘子能力」附件保留，但**必须先用口述稿行号重写 source_refs（现全部只引笔记，违反口述一等纪律）、回填 3 处 TODO 悬空引用**；**修复人：黄药师**，素材已齐现在即可启动；做不到则按 draft 废弃、不随域交付。两类修复均走 `kdo pre-submit` 门禁 + 欧阳锋终审。
+- **边界**：黄药师只修自己的预写件；#155-158 正文卡生产归老顽童，黄药师不越界代工。
 
 ### 3. 全域收口检查（生产完成报告的一部分）
 

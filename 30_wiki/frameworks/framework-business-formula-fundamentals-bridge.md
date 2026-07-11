@@ -15,9 +15,11 @@ domain:
   - management
   - methodology
 source_refs:
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-笔记.txt
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-笔记.txt
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-笔记.txt
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250（参数冰山L1-L6结构与段位对照）
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1420-L1430（魔法参数实例：与基本功L6互译）
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1452（六层逻辑关系：与九层金字塔同构分析）
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L28-L124（假设管理五大策略：与基本功域组织化对照）
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1398-L1580（假设池+统一管理三角：与练习二十法对照）
   - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt
   - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt
   - 30_wiki/frameworks/framework-一堂-苦练基本功-总纲.md
