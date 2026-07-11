@@ -1,7 +1,5 @@
 ---
-
-- '[[decision-science-domain-digest]]'
-- '[[agent-一堂-科学决策教练]]'
+id: decision-science-domain-digest
 title: 域摘要：decision-science（科学决策）
 type: index
 domain:
@@ -57,6 +55,7 @@ related:
   - "[[concept-稀缺机会窗口]]"
   - "[[concept-X型Y型决策习惯]]"
   - "[[concept-两种典型思考习惯]]"
+  - "[[agent-一堂-科学决策教练]]"
   - "[[concept-多视角思考]]"
   - "[[concept-峰终定律]]"
   - "[[concept-惊喜公式]]"

@@ -19,8 +19,8 @@ related:
 - '[[yt-decision-width-method]]'
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-decision-height-toolkit]]'
+- '[[agent-一堂-科学决策教练]]'
 - '[[concept-X型Y型决策习惯]]'
-- '[[yt-decision-height-toolkit]]'
 review_date: '2026-07-12'
 updated_at: '2026-07-12'
 ---
