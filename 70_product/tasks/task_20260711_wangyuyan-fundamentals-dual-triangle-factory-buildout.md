@@ -1,7 +1,7 @@
 ---
 id: task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout
 title: 一堂·苦练基本功 × 双三角/cap_hub 工厂改造：AI-基本功顶点扩展 + cap_hub三环过滤器 + 段位合并 + 飞轮补全（建工厂线）
-status: in_progress
+status: pending_review
 priority: P0
 assignee: huangyaoshi-claude
 reviewer: 欧阳锋
@@ -22,7 +22,7 @@ related:
 - '[[method-dual-triangle-flywheel-engine]]'
 - '[[task_20260708_huangyaoshi-capability-hub-phase1]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11T14:17:42.939651+00:00'
+updated_at: '2026-07-11T15:33:43.145425+00:00'
 ---
 
 # 基本功 × 双三角/cap_hub 工厂改造（建工厂线 · 黄药师）

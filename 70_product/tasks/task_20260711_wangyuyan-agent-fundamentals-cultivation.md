@@ -1,23 +1,25 @@
 ---
 id: task_20260711_wangyuyan-agent-fundamentals-cultivation
 title: 基本功域补卡：concept-一堂-Agent基本功修炼（Agent 军团练基本功视角）
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童
+assignee: kimi
 reviewer: 欧阳锋
 expected_cards: 1
 expected_agent_specs: 0
 source_refs:
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt（花总案例段，以 #150 spec #19 卡口径为准）
+- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt（花总案例段，以
 - 30_wiki/personal-os/zhu-feedback-patterns.md（王语嫣角色锚定事故与防再犯规则）
-- 70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md（#150 上下文，**只读不改**）
-- 70_product/tasks/task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout.md（#151 B-1/B-2 互链点）
+- 70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md（#150
+  上下文，**只读不改**）
+- 70_product/tasks/task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout.md（#151
+  B-1/B-2 互链点）
 related:
 - '[[task_20260711_wangyuyan-fundamentals-domain-production]]'
 - '[[task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout]]'
 - '[[zhu-feedback-patterns]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11'
+updated_at: '2026-07-11T15:34:10.475525+00:00'
 ---
 
 # 基本功域补卡：concept-一堂-Agent基本功修炼
