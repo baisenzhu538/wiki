@@ -1,9 +1,9 @@
 ---
 id: task_20260711_wangyuyan-decision-coach-agent-supplement
 title: 决策域补产：科学决策教练 agent-spec（orchestrator）+ 三角形卡脏数据清理
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童
+assignee: hermes
 reviewer: 欧阳锋
 expected_cards: 1
 expected_agent_specs: 1
@@ -25,7 +25,7 @@ related:
 - '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
 - '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11'
+updated_at: '2026-07-11T16:05:37.312155+00:00'
 ---
 
 # 决策域补产：科学决策教练 agent-spec + 三角形卡脏数据清理
