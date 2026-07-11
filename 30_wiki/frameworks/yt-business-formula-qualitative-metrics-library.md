@@ -1,14 +1,34 @@
 ---
-
-
+id: yt-business-formula-qualitative-metrics-library
+title: 业务公式定性参数行为化指标库
+type: framework
+status: enriched
+author: 孔阳
+reviewed_by: 老顽童
+review_date: 2026-06-14
+review_notes: 历史遗留卡，本次（#145）补全 frontmatter 必填字段并回链业务公式总纲；正文指标库逻辑未改。
+language: zh-CN
+created_at: 2026-06-14
+updated_at: 2026-07-09
+domain:
+- yitang
+- business-formula
+confidence: 0.85
+trust_level: high
+source_refs:
+- 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
+- 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
+- 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
+quality_labels:
+- framework
+- actionable
 related:
+  - "[[framework-一堂-业务公式拆解-总纲]]"
   - "[[case-private-domain-ecommerce-formula]]"
   - "[[case-saas-renewal-formula]]"
   - "[[case-offline-catering-formula]]"
   - "[[case-dental-clinic-formula]]"
   - "[[case-gym-membership-formula]]"
-source_refs:
-- pending_archive: src_unknown
 ---
 
 # 业务公式定性参数行为化指标库

@@ -21,8 +21,9 @@ quality_labels:
   - principle
   - quality
   - validated
-updated_at: 2026-07-02
+updated_at: 2026-07-09
 related:
+  - "[[framework-一堂-关键假设]]"
   - "[[yt-foresight-15-char-mantra]]"
   - "[[concept-一堂-key-assumptions]]"
   - "[[concept-一堂-kernel-validation]]"

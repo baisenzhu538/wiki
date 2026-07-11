@@ -16,13 +16,14 @@ quality_labels:
   - principle
   - quality
   - validated
-updated_at: 2026-07-02
+updated_at: 2026-07-10
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
+  - "[[framework-一堂-业务公式拆解-总纲]]"
   - "[[yt-business-formula-abc-model]]"
   - "[[yt-model-deep-review-iceberg]]"
   - "[[yt-entrepreneur-unit-model]]"
@@ -30,6 +31,8 @@ related:
   - "[[yt-management-business-formula]]"
   - "[[tool-yitang-sales-process-decomposition]]"
   - "[[tool-yitang-sales-performance-management]]"
+  - "[[tool-一堂-业务公式-L1L6参数分层自检]]"
+  - "[[case-yitang-xiezefeng-clothing-innovation-param]]"
 ---
 # 业务公式参数冰山（L1-L6）
 
@@ -116,20 +119,20 @@ related:
 
 当现有参数无法解释业务变化时，需要探索新参数：
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 发现路径：现有漏斗参数解释不了营收变化 → 从行为数据里挖"做了 X 的人转化显著更高" → 用假设驱动验证因果（而非相关）。
+- 案例锚点（课程案例口径）：服装店"二次试穿"——试穿 2 次的客户试穿转化率较试穿 1 次显著提高（约 89%），3 次以上不再提升；围绕"第一次试穿后怎么让他再试第二件"轰假设，门店转化率约 11%→18%（↑约 63%）。见 [[case-yitang-xiezefeng-clothing-innovation-param]]（逐字稿 L2442-L2552）。
+- 判据：创新参数不是普通指标，必须能提出可验证假设、配 3-5 个行为指标、找得到基准。
 
 **价值**：发现新的增长杠杆。  
-**风险**：容易陷入数据挖掘陷阱，需要假设驱动。
+**风险**：容易陷入数据挖掘陷阱，需要假设驱动；停钻标准=能否提出可验证假设（见 [[tool-一堂-业务公式-L1L6参数分层自检]]）。
 
 ### L6. 魔法参数（看得透本质）
 
 最深层的参数，通常与业务本质相关：
 
-- src_unknown
-- src_unknown
-- src_unknown
+- 形态：常表现为一个反常识、强情境的"魔法数字 / 本质判断"，撬动更靠近本质的环节。
+- 案例锚点（课程案例口径，强情境依赖）：服装店门口音响"音量 80"——音量从 30 提到 80 最大程度提升"看到率"（听觉穿透视觉盲区），主讲自述为 Magic Number；进店率约 19%→30%。见 [[case-yitang-xiezefeng-clothing-innovation-param]]（逐字稿 L2488-L2508）。**注意**：音量 80 是特定门店/商圈的情境化魔法数字，迁移必须重测，不可当普适本质。
+- 辨伪：L6 容易与 L5 混淆——能提出可验证假设的就停在 L5；只有贴近"为什么信任/为什么复购"等本质、且难以直接量化的，才归 L6。
 
 **价值**：决定长期竞争壁垒。  
 **局限**：难以量化，需要定性研究和长期观察。

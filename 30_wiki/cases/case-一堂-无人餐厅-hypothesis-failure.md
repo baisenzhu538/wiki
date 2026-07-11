@@ -17,6 +17,8 @@ source_refs:
 created_at: 2026-06-08
 updated_at: 2026-06-28
 related:
+  - "[[framework-一堂-关键假设-三板斧]]"
+  - "[[framework-一堂-关键假设]]"
   - "[[concept-一堂-key-assumptions]]"
   - "[[yt-lean-assumption-verification-3means]]"
   - "[[yitang-domain-digest]]"

@@ -54,6 +54,7 @@ related:
 - "[[yt-tob-customer-sabc]]"
 - "[[plan_20260621_skill-iteration-standard]]"
 - "[[plan_20260621_kdo-quality-harness-upgrade]]"
+- "[[framework-一堂-机会预判]]"
 ---
 
 # 预判交付物四层级：从模糊想法到Plan ABC
@@ -108,7 +109,7 @@ related:
 
 ### 关联卡片
 
-- 待补充链接
-- 待补充链接
-- 待补充链接
+- [[framework-一堂-机会预判]] — 本卡（交付物四层 L1-L4）位于总框架"预判交付物"层：预判结束的标志是拿出对应层级的交付物，而非"想通了"。
+- [[tool-一堂-机会预判-五步法预判]] — L3 关键画布 / L4 Plan ABC 的具体形态。
+- [[yt-foresight-addition-subtraction]] — L4 Plan A+B+C 由加法减法收敛而来。
 - 待补充链接

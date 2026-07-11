@@ -26,6 +26,9 @@ related:
 - "[[case-coffee-shop-foresight]]"
 - "[[case-ai-time-management-tiered-growth]]"
 - "[[yt-foresight-model-taxonomy]]"
+- "[[framework-一堂-机会预判]]"
+- "[[concept-一堂-终局光谱图解读]]"
+- "[[framework-一堂五步法]]"
 review_date: 2026-06-16
 reviewed_by:
 - src_unknown

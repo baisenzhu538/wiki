@@ -122,6 +122,7 @@ source_refs:
 | 关联框架 | [[yt-model-ipo-learning-strategy]] | IPO学习策略（建模 = Process层的深度加工） |
 | 关联工具 | [[yt-personal-y-model-practice]] | Y模型实操（Y模型是所有模型的元模型） |
 | 实体页 | [[一堂]] | 一堂实体页 |
+  - '[[framework-个人学习方法-思维模型]]'
 
 ### 不要用的场景
 

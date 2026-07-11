@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-07-09 18:08 UTC
+# Concept Card Index — 2026-07-10 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -100,8 +100,9 @@
 | concept-一堂-hypothesis-driven-business-methodology | 一堂假设驱动型创业分析方法论 | concept | src_unknown, src_unknown |
 | concept-一堂-kernel-iteration | 产品内核迭代：从静态到动态的五方向演化 | concept | product, yitang |
 | concept-一堂-kernel-validation | 产品内核验证：三维度评估 + 六策略验证 | concept | product, yitang |
-| concept-一堂-key-assumptions | concept-一堂-key-assumptions | ? |  |
+| concept-一堂-key-assumptions | 关键假设（Key Assumption）：业务成功依赖的核心前提条件 | concept | yitang, key-assumptions |
 | concept-一堂-product-kernel | 产品内核 — 用户愿意选择你的最小解决方案 | concept | product, entrepreneurship, lean-startup |
+| concept-一堂-终局光谱图解读 | 终局光谱图解读：五条读法 + 七段风险/收益量化 | concept | yitang, opportunity-foresight |
 | concept-两种典型思考习惯 | 两种典型思考习惯：效率导向 vs 效果导向 | concept | yitang, decision-science |
 | concept-半肥猫-ai-learning-toolification-methodology | 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进 | concept | src_unknown, src_unknown, src_unknown |
 | concept-单元模型-学练用 | 学练用：知识内化的三阶模型 | concept | yitang, decision-science |
@@ -117,6 +118,7 @@
 | concept-稀缺机会窗口 | 稀缺机会窗口：不缺机会，缺识别窗口的能力 | concept | yitang, decision-science |
 | concept-纪浩-ai-collaboration-five-layer | 概念：纪浩AI协作五层工作空间法 | concept | src_unknown, src_unknown |
 | concept-美好作品想象 | 美好作品想象：先看到终局再倒推路径 | concept | yitang, decision-science |
+| concept-讲香-卖点直给到价值感 | 讲香·卖点直给到价值感：为什么十指讲香不是花活 | concept | yitang, personal-expression |
 | concept-问题驱动式深度思考笔记 | 问题驱动式深度思考笔记：用真问题取代真记录 | concept | src_unknown |
 | contingency-decision-making | 偶然性与决策：承认'我不知道'比虚假确定性更明智 | concept | src_unknown, src_unknown, src_unknown, src_unknown |
 | course-to-skill-conversion | 课程到Skill转化：将知识变成AI可执行的能力模块 | tool | src_unknown, src_unknown, src_unknown, src_unknown, src_unknown, src_unknown |
@@ -588,11 +590,23 @@
 | framework-yitang-three-ring-ability-focus | 三环能力聚焦法：从 30 个能力中锁定 3 个重点 | framework | yitang, personal-growth |
 | framework-yitang-y-model-cross-domain-fusion | Y模型跨域融合框架 | framework | yitang, decision-science, methodology, ai-collaboration |
 | framework-yitang-y-model-dual-triangle-synergy | Y模型 × 双三角协同工作法 | framework | yitang, decision-science, ai-collaboration, methodology |
+| framework-一堂-业务公式拆解-总纲 | 一堂业务公式拆解总纲：关键假设 ABCD 体系的核心骨架与灵魂（贯通定性→定量） | framework | yitang, key-assumptions, business-formula |
+| framework-一堂-个人表达力 | 一堂个人表达力总框架：火箭模型×十指讲香×逐字稿 | framework | yitang, personal-expression |
+| framework-一堂-关键假设-ABCD模型 | 一堂关键假设 ABCD 模型（YitangABCDStrategyModel）：四场景 × 成败/效率定位器 | framework | yitang, key-assumptions |
+| framework-一堂-关键假设-三板斧 | 一堂关键假设三板斧（骨架）：加法→减法→验证→迭代的收敛逻辑 | framework | yitang, key-assumptions |
+| framework-一堂-关键假设 | 一堂关键假设：用假设驱动业务的方法论入口总框架 | framework | yitang, key-assumptions, methodology |
+| framework-一堂-机会预判 | 一堂·机会预判：CEO 的预判操作系统（总框架） | framework | yitang, opportunity-foresight, five-step-method |
+| framework-一堂-表达力火箭模型 | 表达力火箭模型：四要素递进 | framework | yitang, personal-expression |
 | framework-一堂五步法-单元模型 | 一堂五步法·单元模型：斧子/尺子/梯子三角色 | framework | yitang, five-step-method |
 | framework-一堂五步法-增长周期 | 一堂五步法·增长周期：获客驱动/系统驱动/对抗驱动三阶段 | framework | yitang, five-step-method |
 | framework-一堂五步法-壁垒 | 一堂五步法·壁垒：六大护城河+真假壁垒判断 | framework | yitang, five-step-method |
 | framework-一堂五步法-泛产品设计 | 一堂五步法在泛产品设计中的应用 | framework | panproduct, yitang, methodology |
 | framework-一堂五步法 | 一堂五步法：从机会预判到规模化的五步闭环 | framework | yitang, five-step-method |
+| framework-个人学习方法-IPO学习闭环 | IPO学习闭环：Input→Process→Output→Feedback全景 | framework | yitang, personal-learning |
+| framework-个人学习方法-思维模型 | 思维模型：项目随时换、模型永生 | framework | yitang, personal-learning |
+| framework-个人学习方法-知识萃取 | 知识萃取：碎片经验→可落地模型 | framework | yitang, personal-learning |
+| framework-个人学习方法-科学提问 | 科学提问：AI时代提问=生产力入口 | framework | yitang, personal-learning |
+| framework-个人学习方法总框架 | 个人学习方法总框架：IPO×四环闭环 | framework | yitang, personal-learning |
 | framework-个人成长五步法 | 个人成长五步法：Truman的个人版本 | framework | yitang, decision-science |
 | framework-单元模型-外部对抗地图 | 外部对抗地图 | framework |  |
 | framework-科学决策三角形 | 科学决策三角形：宽度×高度×深度三维决策框架 | framework | yitang, decision-science |
@@ -615,7 +629,7 @@
 | yt-barrier-sustainable-growth | 可持续增长：壁垒驱动 | framework | src_unknown |
 | yt-business-formula-abc-model | 业务公式 ABC 模型（Ambition-Basis-Connection） | framework | yitang |
 | yt-business-formula-business-pattern-selector | 业务公式商业模式选型框架：单次成交型 vs 持续复购型 | framework | src_unknown, src_unknown, src_unknown |
-| yt-business-formula-qualitative-metrics-library | yt-business-formula-qualitative-metrics-library | ? |  |
+| yt-business-formula-qualitative-metrics-library | 业务公式定性参数行为化指标库 | framework | yitang, business-formula |
 | yt-business-model-channel-economics | 渠道经济学：获客成本优化 | framework | src_unknown |
 | yt-business-model-platform-strategy | 平台战略：从单边到双边 | framework | src_unknown |
 | yt-business-model-scalability | 商业模式可规模化评估：从1到100万 | framework | src_unknown |
@@ -690,6 +704,7 @@
 | smart-medicine-cabinet-financial-model | 智能药柜单点财务模型与回本测算表 | tool | healthcare- healthcare, pharmaceutical-retail, financial-model |
 | smart-medicine-cabinet-fraud-detection | 智能药柜/智慧药房招商骗局识别清单 | tool | healthcare- healthcare, pharmaceutical-retail, risk-warning |
 | tool-1视角升级思考法 | 技能：+1视角升级思考法 | tool | learning-methodology- management, decision-making, yitang, business-strategy |
+| tool-IPO学习-输入处理输出工具箱导航 | IPO工具箱导航：I/P/O三段工具索引 | tool | yitang, personal-learning |
 | tool-ROI决策评估画布 | ROI决策评估画布：三维度投资回报评估模板 | tool | yitang, decision-science |
 | tool-Truman-AI场景探索STAR模型 | 技能：AI场景探索STAR模型 | tool | ai-collaboration, yitang- yitang |
 | tool-Truman-AI工具选型决策 | 技能：AI工具选型决策 | tool | ai-collaboration, yitang- yitang |
@@ -1081,6 +1096,11 @@
 | tool-一堂-product-kernel-add-subtract | 技能：产品内核加减法 | tool |  |
 | tool-一堂-product-kernel-canvas | 一堂产品内核画布应用技能 | tool | src_unknown |
 | tool-一堂-spectrum-positioning | 技能：光谱模型定位法 | tool |  |
+| tool-一堂-业务公式-L1L6参数分层自检 | 工具：业务公式 L1-L6 参数分层自检——看得清/讲得明/做得准 + 符号因果校验 | tool | yitang, key-assumptions, business-formula |
+| tool-一堂-关键假设-ABCD场景分类器 | 工具：关键假设 ABCD 场景分类器——把问题分到商业/决策/增长/转化并标成败·效率 | tool | yitang, key-assumptions |
+| tool-一堂-机会预判-五步法预判 | 机会预判·五步法预判：选项池收敛为店型剧本 × 五步矩阵（出口 | tool | yitang, opportunity-foresight, five-step-method |
+| tool-一堂-机会预判-案例预判 | 机会预判·案例预判 SOP：定位→列七段→排幻觉→保A争B→硬伤校验 | tool | yitang, opportunity-foresight |
+| tool-一堂-表达力火箭模型-执行武器库 | 表达力火箭模型·执行武器库：四要素操作指南 | tool | yitang, personal-expression |
 | tool-一堂五步法-ToB-十八式-checklist | ToB五步法十八式速查：必知必会导航 | tool | yitang, five-step-method |
 | tool-一堂五步法-换档检查清单 | 五步法换档检查清单：每步的验收条件与常见卡点 | tool | yitang, five-step-method |
 | tool-一堂五步法-段位升级三部曲 | 段位升级三部曲自检：从会用到出神入化 | tool | yitang, five-step-method |
@@ -1090,6 +1110,7 @@
 | tool-专家访谈学习 | 技能：专家访谈学习 | tool |  |
 | tool-专题笔记整理 | 技能：专题笔记整理 | tool |  |
 | tool-专题笔记脑图整理法 | 技能：专题笔记/脑图整理法 | tool | src_unknown |
+| tool-个人学习方法-修炼闭环自检清单 | 四环修炼闭环自检清单：会学习→会提问→会想→会沉淀 | tool | yitang, personal-learning |
 | tool-主动摘要压缩上下文 | 技能：主动摘要压缩上下文 | tool | learning-methodology- ai-saas, management, yitang |
 | tool-人生红点战略对齐 | 技能：人生红点战略对齐 | tool | personal-growth, decision-making, yitang |
 | tool-从案例中学习 | 技能：从案例中学习 | tool |  |
@@ -1445,8 +1466,6 @@
 | tool-自我反馈检验 | 技能：自我反馈检验 | tool | content-production- master, yitang |
 | tool-获取他人反馈优化笔记 | 技能：获取他人反馈优化笔记 | tool | content-production- entrepreneurship, yitang, business-strategy |
 | tool-行业分析画布 | 行业分析画布：系统性理解行业结构 | tool | yitang, decision-science |
-| tool-讲香十指模型-超级武器库 | 讲香十指模型：超级武器库——表达力的十种武器 | tool | yitang, decision-science |
-| tool-讲香基本功-十指模型 | 讲香基本功：十指模型修炼地图 | tool | yitang, decision-science |
 | tool-设定管理杠杆率指标评估效率 | 技能：设定管理杠杆率指标评估效率 | tool | management, design, business-strategy |
 | tool-设计对抗效果追踪看板 | 技能：设计对抗效果追踪看板 | tool | product, management, design, decision-making |
 | tool-费曼学习法三句话提炼 | 技能：费曼学习法三句话提炼 | tool |  |

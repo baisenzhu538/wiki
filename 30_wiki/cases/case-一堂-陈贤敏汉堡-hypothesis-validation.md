@@ -17,6 +17,8 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-28'
 related:
+  - "[[framework-一堂-关键假设-三板斧]]"
+  - "[[framework-一堂-关键假设]]"
   - "[[tool-从案例中学习]]"
   - "[[tool-马易-关键假设识别与验证]]"
   - "[[ocr-一堂-案例拆解-课程清单]]"

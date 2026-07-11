@@ -107,6 +107,7 @@ source_refs:
 | 关联工具 | [[yt-personal-deep-review]] | 深度复盘（404）：复盘中的提问应用 |
 | 关联 | [[yt-management-scientific-hiring]] | 科学招聘：面试评估中的提问应用 |
 | 关联工具 | [[yt-entrepreneur-scientific-method]] | Y 模型/科学方法：假设驱动在提问中的体现 |
+  - '[[framework-个人学习方法-科学提问]]'
 
 ### 不要用的场景
 

@@ -26,18 +26,16 @@ review_date: '2026-06-14'
 confidence: 0.92
 trust_level: high
 related:
-- - - yt-business-formula-business-pattern-selector
-- - - case-toc-ecommerce-formula-misjudgment
-- - - case-saas-renewal-formula
-- - - yt-business-formula-abc-model
-- - - case-private-domain-ecommerce-formula
-- - - yt-management-business-formula
-- - - yt-business-formula-abc-model
-- - - yt-business-formula-parameter-iceberg
-- - - yt-business-formula-business-pattern-selector
-- - - yt-business-formula-qualitative-metrics-library
-- - - yt-entrepreneur-unit-model
-- - - yt-growth-cycle-model
+- framework-一堂-业务公式拆解-总纲
+- yt-business-formula-business-pattern-selector
+- yt-business-formula-abc-model
+- yt-business-formula-parameter-iceberg
+- yt-business-formula-qualitative-metrics-library
+- yt-management-business-formula
+- yt-entrepreneur-unit-model
+- yt-growth-cycle-model
+- case-toc-ecommerce-formula-misjudgment
+- case-saas-renewal-formula
 - case-private-domain-ecommerce-formula
 - case-dental-clinic-formula
 ---

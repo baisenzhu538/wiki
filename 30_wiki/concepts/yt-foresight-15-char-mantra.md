@@ -46,6 +46,7 @@ related:
 - "[[yt-foresight-ab-steady-state]]"
 - "[[yt-foresight-addition-subtraction]]"
 - "[[yt-foresight-business-spectrum]]"
+- "[[framework-一堂-机会预判]]"
 ---
 
 # 十五字黄金法诀：机会预判的核心框架
@@ -104,13 +105,13 @@ related:
 
 ### 关联卡片
 
-- 待补充链接
-- 待补充链接
-- 待补充链接
-- 待补充链接
-- 待补充链接
-- 待补充链接
-- 待补充链接
+- [[framework-一堂-机会预判]] — 本卡（15字诀：定中局/加法/减法）位于总框架核心操作层，是预判的主干动作。
+- [[yt-foresight-addition-subtraction]] — 加法三轴/减法三层的实操展开。
+- [[yt-foresight-business-spectrum]] — 终局光谱，"定中局"的落点。
+- [[concept-一堂-终局光谱图解读]] — 保A争B 的读法。
+- [[tool-一堂-机会预判-案例预判]] — 15字诀在真实案例的 SOP。
+- [[yt-foresight-ab-steady-state]] — 行业 A→B 稳态，服务"定中局"。
+- [[yt-foresight-ten-fatal-flaws]] — 减法硬伤清单。
 ### 冲突与互补
 
 - 待补充链接

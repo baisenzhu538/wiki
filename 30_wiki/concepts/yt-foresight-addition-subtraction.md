@@ -41,8 +41,8 @@ related:
   - "[[yt-foresight-15-char-mantra]]"
   - "[[yt-foresight-probability-engineering]]"
   - "[[case-gudong-tea-shop-foresight]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+  - "[[framework-一堂-机会预判]]"
+  - "[[concept-一堂-终局光谱图解读]]"
 
 ---
 
@@ -99,8 +99,8 @@ related:
 
 ### 关联卡片
 
-- 待补充链接
-- 待补充链接
-- 待补充链接
-- 待补充链接
-- 待补充链接
+- [[framework-一堂-机会预判]] — 本卡（加法减法）位于总框架"加法/减法"环节：加法三轴拆选项、减法三层排硬伤。
+- [[tool-一堂-机会预判-五步法预判]] — 加法选项池在本工具收敛为五步剧本。
+- [[yt-foresight-ten-fatal-flaws]] — 减法识别的硬伤清单来源。
+- [[yt-foresight-15-char-mantra]] — 15字诀的概念卡。
+- [[concept-一堂-终局光谱图解读]] — 减法前先定保A争B区间。

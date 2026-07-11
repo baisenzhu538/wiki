@@ -1,4 +1,4 @@
-﻿---
+---
 id: concept-一堂-business-prediction
 title: 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
 type: concept
@@ -10,7 +10,7 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-08
-updated_at: 2026-07-08
+updated_at: 2026-07-09
 domain:
   - product
   - yitang
@@ -25,12 +25,13 @@ quality_labels:
   - framework
   - actionable
 related:
+  - "[[framework-一堂-业务公式拆解-总纲]]"
+  - "[[framework-一堂-关键假设]]"
   - "[[concept-一堂-product-kernel]]"
   - "[[concept-一堂-key-assumptions]]"
   - "[[concept-一堂-kernel-validation]]"
   - "[[concept-一堂-kernel-iteration]]"
-  - "[[concept-一堂-五步法]]"
-  - "[[concept-一堂-精益创业]]"
+  - "[[framework-一堂五步法]]"
 aliases:
   - business prediction
   - 商业预判
@@ -279,8 +280,8 @@ Truman 把整个预判过程浓缩为15个字：
 | 下游 | [[concept-一堂-product-kernel]] | 假设成立→定义用户选择你的最小解决方案 |
 | 下游 | [[concept-一堂-kernel-iteration]] | 内核定义好→随市场动态演化 |
 | 下游 | [[concept-一堂-kernel-validation]] | 每次迭代→重新验证假设 |
-| 上位 | [[concept-一堂-五步法]] | 商业预判是五步法（需求→方案→模式→增长→壁垒）的上游输入 |
-| 关联 | [[concept-一堂-精益创业]] | 精益创业的"构建-测量-学习"循环是预判后试错阶段的方法论 |
+| 上位 | [[framework-一堂五步法]] | 商业预判是五步法（需求→方案→模式→增长→壁垒）的上游输入 |
+| 关联 | 精益创业（构建-测量-学习循环） | 精益创业的"构建-测量-学习"循环是预判后试错阶段的方法论（vault 暂无精益创业概念卡，以文本保留） |
 | 工具 | [[tool-一堂-business-prediction-15-char]] | 15字诀的核心操作工具 |
 | 工具 | [[tool-一堂-spectrum-positioning]] | 光谱模型定位当前阶段的具体工具 |
 

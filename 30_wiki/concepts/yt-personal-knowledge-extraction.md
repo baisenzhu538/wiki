@@ -193,6 +193,7 @@ trust_level: medium
 | 关联框架 | [[yt-model-ipo-learning-strategy]] | IPO学习策略（萃取本质上是IPO在方法论生产上的应用） |
 | 关联 | [[yt-system-course-catalog]] | 全课程目录（萃取是各门课程背后的生产能力） |
 | 实体页 | [[一堂]] | 一堂实体页 |
+  - '[[framework-个人学习方法-知识萃取]]'
 
 ### 不要用的场景
 

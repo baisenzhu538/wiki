@@ -17,6 +17,8 @@ source_refs:
   - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
   - "https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/"
 related:
+  - "[[framework-一堂-关键假设]]"
+  - "[[framework-一堂-关键假设-三板斧]]"
   - "[[framework-yitang-nine-layer-deep-dig]]"
   - "[[tool-半肥猫-ai-research-validation]]"
   - "[[yt-entrepreneur-key-hypotheses]]"

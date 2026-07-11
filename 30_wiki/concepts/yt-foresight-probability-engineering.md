@@ -43,6 +43,7 @@ related:
 - "[[yt-foresight-15-char-mantra]]"
 - "[[yt-foresight-ab-steady-state]]"
 - "[[yt-foresight-addition-subtraction]]"
+- "[[framework-一堂-机会预判]]"
 ---
 
 # 概率工程：把小概率变成大概率的方法论
@@ -97,7 +98,7 @@ related:
 
 ### 关联卡片
 
-- 待补充链接
-- 待补充链接
-- 待补充链接
+- [[framework-一堂-机会预判]] — 本卡（概率工程）位于总框架"必要预判工作流"的"概率高低"环节：把单次成功率 × 试错次数，抬到整体可接受。
+- [[yt-foresight-15-char-mantra]] — 1%→30%→80% 的成功率口径来源。
+- [[yt-foresight-addition-subtraction]] — 多轮试错的选项来自加法减法收敛。
 - 待补充链接

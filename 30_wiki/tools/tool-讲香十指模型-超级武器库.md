@@ -19,6 +19,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[framework-一堂-个人表达力]]'
 - tool-ai-prd-for-ai
 - concept-X型Y型决策习惯
 updated_at: '2026-06-29'

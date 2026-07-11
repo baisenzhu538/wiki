@@ -25,6 +25,7 @@ review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
+- "[[framework-一堂-业务公式拆解-总纲]]"
 - "[[yt-management-business-formula]]"
 - "[[yt-business-formula-ten-paradigms]]"
 - "[[yt-business-formula-parameter-iceberg]]"

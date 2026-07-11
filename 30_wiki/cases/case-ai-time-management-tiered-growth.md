@@ -40,6 +40,8 @@ related:
 - "[[case-escort-service-tiered-growth]]"
 - "[[case-coffee-shop-foresight]]"
 - "[[yitang-domain-digest]]"
+- "[[framework-一堂-机会预判]]"
+- "[[tool-一堂-机会预判-案例预判]]"
 ---
 
 # 案例：AI时间管理App七级演进

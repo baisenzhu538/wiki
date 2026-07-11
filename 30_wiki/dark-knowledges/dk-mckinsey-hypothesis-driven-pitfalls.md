@@ -15,6 +15,8 @@ bridges_to:
   description: 假设驱动方法论的黑暗面——这些陷阱在一堂创业课程中被淡化
   context: 一堂课程强调'假设驱动的优势'，但未深度讨论其中的认知陷阱。这张暗知卡补齐这个视角——知道方法论的陷阱才能避免成为方法论的囚徒
 related:
+  - "[[framework-一堂-关键假设]]"
+  - "[[framework-一堂-关键假设-三板斧]]"
   - "[[yt-five-step-method]]"
   - "[[dk-tool-as-phased-validator]]"
   - "[[dk-ai-judgment-human-responsibility]]"

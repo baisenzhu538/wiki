@@ -37,6 +37,9 @@ related:
 - "[[yt-entrepreneur-five-step-method]]"
 - "[[case-escort-service-tiered-growth]]"
 - "[[yitang-domain-digest]]"
+- "[[framework-一堂-机会预判]]"
+- "[[tool-一堂-机会预判-案例预判]]"
+- "[[tool-一堂-机会预判-五步法预判]]"
 ---
 
 # 案例：咖啡馆创业预判

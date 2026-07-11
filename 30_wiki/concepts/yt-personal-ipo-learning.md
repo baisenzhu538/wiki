@@ -208,6 +208,7 @@ L1-L3 对内不协作，L4-L6 与别人产生互动。每往下一级，学习�
 | 关联框架 | [[framework-yitang-five-step-to-time-management]] | IPO 螺旋上升与时间管理迭代循环同构；五步法增长环节即个人时间管理的假设-验证循环 |
 | 关联工具 | [[tool-personal-time-audit-loop]] | 时间审计循环是 IPO 在处理环节的具体落地：审计→假设→实验→复盘 |
 | 关联暗知识 | [[dk-time-management-common-mistakes]] | 时间管理中工具迷信、二极管思维等失败模式会阻碍 IPO 循环有效运转 |
+  - '[[framework-个人学习方法总框架]]'
 
 ### 不要用的场景
 

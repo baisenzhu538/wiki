@@ -20,8 +20,14 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+status: enriched
+updated_at: '2026-07-09'
 source_refs:
   - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
+related:
+- "[[framework-一堂-机会预判]]"
+- "[[yt-foresight-business-spectrum]]"
+- "[[tool-一堂-机会预判-案例预判]]"
 ---
 # 预判模型分类
 

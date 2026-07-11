@@ -377,6 +377,9 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[cases/yt-lean-daily-chemical-mvp|日化沐浴露MVP：不生产产品验证行业机会]] — source `10_raw/sources/zhanglei-lean-testing-oral-01.md`
 - [[cases/yt-lean-flower-mom-group-leader|生活鲜花宝妈团长：拆C端与小B的分阶段验证]] — source `10_raw/sources/zhanglei-lean-testing-oral-01.md`
 - [[cases/yt-product-kernel-shampoo-case|洗发水案例：产品内核实战——从"去屑"到"专业形象"]] — source `10_raw/sources/src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例.md`
+- [[cases/case-yitang-yewenbin-archery-business-formula|射箭馆：用业务公式四参数串起动力阻力触点，把"等客流"变成"经营转化率"]] — source `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`
+- [[cases/case-yitang-dongyuan-dance-retention-c-vs-d|少儿舞蹈学校：续班率打不动时，退回业务公式找战场，再用转化率打节点（C↔D 循环）]] — source `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`
+- [[cases/case-yitang-xiezefeng-clothing-innovation-param|服装店：找到"二次试穿"创新参数（L5）与"音量80"魔法数字（L6），用业务公式定优先级、转化率找抓手]] — source `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`
 - [[concept-card-index-latest|concept-card-index-latest]] — source no source
 - [[concepts/2026-05-17-深夜感想|2026-05-17 深夜感想]] — source `10_raw/sources/src_20260522_390d75a8-2026-05-17-深夜感想.md`
 - [[concepts/ai-collaboration-mindset-shift|AI协作思维转变：从新手到管理者]] — source `10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md`

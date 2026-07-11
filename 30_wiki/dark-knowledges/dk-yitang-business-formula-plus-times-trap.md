@@ -24,6 +24,8 @@ review_date: '2026-06-28'
 review_notes: ⚠️ 补审标记（2026-07-08）：原为self-review，违反L0铁律#4。dk卡走自动门禁（kdo lint+self-attack）通过。正式审查待王语嫣方向确认。
 trust_level: high
 related:
+  - "[[framework-一堂-业务公式拆解-总纲]]"
+  - "[[framework-一堂-关键假设]]"
   - "[[yitang-domain-digest]]"
   - "[[tool-马易-AI任务拆解提升控制度]]"
   - "[[tool-马易-数字员工FD拆解落地]]"

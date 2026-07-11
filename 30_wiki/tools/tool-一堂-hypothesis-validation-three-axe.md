@@ -2,22 +2,24 @@
 id: tool-一堂-hypothesis-validation-three-axe
 title: 技能：假设验证三板斧
 type: tool
-status: reviewed
+status: pending_review
 author: 老顽童
 reviewed_by: 欧阳锋
-updated_at: '2026-06-29'
+updated_at: 2026-07-09
 language: zh-CN
 domain: yitang
-confidence: 0.75
-trust_level: medium
+confidence: 0.82
+trust_level: high
 related:
+  - "[[framework-一堂-关键假设-三板斧]]"
+  - "[[framework-一堂-关键假设]]"
   - "[[concept-一堂-key-assumptions]]"
   - "[[tool-一堂-five-step-validation]]"
   - "[[case-一堂-无人餐厅-hypothesis-failure]]"
   - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
-  - "[[pending_unknown]]"
 source_refs:
-- pending_archive: src_unknown
+- 00_inbox/一堂-关键假设课-truman-口述.txt L1064-L1074,L2460-L2482
+- 00_inbox/一堂-关键假设-关键假设三板斧_paddle_ocr.txt
 ---
 
 # 技能：假设验证三板斧

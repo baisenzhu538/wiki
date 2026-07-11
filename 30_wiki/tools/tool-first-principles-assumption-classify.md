@@ -22,7 +22,9 @@ tools_required:
 - src_unknown
 - src_unknown
 prerequisite_skills: null
-related: null
+related:
+  - "[[framework-一堂-关键假设]]"
+  - "[[tool-key-assumptions-check]]"
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 tags: []

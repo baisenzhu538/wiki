@@ -39,6 +39,8 @@ related:
 - "[[case-coffee-shop-foresight]]"
 - "[[case-ai-time-management-tiered-growth]]"
 - "[[yitang-domain-digest]]"
+- "[[framework-一堂-机会预判]]"
+- "[[tool-一堂-机会预判-案例预判]]"
 ---
 
 # 案例：陪诊业务七级演进

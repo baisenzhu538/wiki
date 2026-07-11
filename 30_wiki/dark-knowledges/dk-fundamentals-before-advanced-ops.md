@@ -18,6 +18,7 @@ source_refs:
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
+- '[[framework-一堂-苦练基本功-总纲]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'

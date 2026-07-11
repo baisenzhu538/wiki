@@ -44,6 +44,7 @@ related:
 - "[[yt-foresight-15-char-mantra]]"
 - "[[yt-foresight-addition-subtraction]]"
 - "[[yt-foresight-business-spectrum]]"
+- "[[framework-一堂-机会预判]]"
 ---
 
 # AB点稳态模型：行业预判的核心框架
@@ -117,8 +118,8 @@ related:
 
 ### 关联卡片
 
-- 待补充链接
-- 待补充链接
-- 待补充链接
+- [[framework-一堂-机会预判]] — 本卡（AB点稳态）位于总框架 L5 行业段：行业 A→B 稳态切换预判，是 L6 追求头部项目的必修课。
+- [[yt-foresight-business-spectrum]] — 终局光谱七段与质变点，本卡为其提供"行业维度"的预判方法。
+- [[yt-foresight-15-char-mantra]] — 15字诀，AB 判断服务于"定中局"。
 - 待补充链接
 - 待补充链接

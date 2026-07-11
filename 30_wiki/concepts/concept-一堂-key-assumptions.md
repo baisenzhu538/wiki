@@ -1,14 +1,35 @@
 ---
-
-
+id: concept-一堂-key-assumptions
+title: 关键假设（Key Assumption）：业务成功依赖的核心前提条件
+type: concept
+status: pending_review
+author: 老顽童
+reviewed_by: 欧阳锋
+language: zh-CN
+created_at: 2026-06-08
+updated_at: 2026-07-09
+domain:
+- yitang
+- key-assumptions
+confidence: 0.85
+trust_level: high
+source_refs:
+- 00_inbox/一堂-关键假设课-truman-口述.txt L364-L402,L584,L818,L1064-L1074,L2460-L2482
+quality_labels:
+- principle
+- cited
+- actionable
 related:
+  - "[[framework-一堂-关键假设]]"
+  - "[[framework-一堂-关键假设-三板斧]]"
+  - "[[framework-一堂-关键假设-ABCD模型]]"
   - "[[concept-一堂-hypothesis-driven-business-methodology]]"
+  - "[[concept-一堂-business-prediction]]"
   - "[[concept-一堂-product-kernel]]"
   - "[[yt-foresight-15-char-mantra]]"
   - "[[concept-一堂-kernel-validation]]"
   - "[[case-一堂-无人餐厅-hypothesis-failure]]"
-source_refs:
-- pending_archive: src_unknown
+  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
 ---
 
 > 黄药师骨架 · 老顽童填内容
