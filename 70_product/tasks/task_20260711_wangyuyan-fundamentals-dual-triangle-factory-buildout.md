@@ -1,7 +1,7 @@
 ---
 id: task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout
 title: 一堂·苦练基本功 × 双三角/cap_hub 工厂改造：AI-基本功顶点扩展 + cap_hub三环过滤器 + 段位合并 + 飞轮补全（建工厂线）
-status: pending_review
+status: reviewed
 priority: P0
 assignee: huangyaoshi-claude
 reviewer: 欧阳锋
@@ -22,7 +22,10 @@ related:
 - '[[method-dual-triangle-flywheel-engine]]'
 - '[[task_20260708_huangyaoshi-capability-hub-phase1]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11T15:59:27.934203+00:00'
+updated_at: '2026-07-11T16:00:54.271841+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-11'
+grade: A-
 ---
 
 # 基本功 × 双三角/cap_hub 工厂改造（建工厂线 · 黄药师）
@@ -168,3 +171,36 @@ B-1~B-4 内容层 **A 级**（引用不迁移守住、映射干净、无双写�
 F1/F2 闭环后重提 pending_review：快车道只验 F1（门禁复跑）+ F2（5 处 grep）+ 抽查 🟡；主体内容 A 级封板不重读。干净闭环即 **PASS / A-**。
 
 *欧阳锋 2026-07-11 终审：内容 A 级封板，F1（updated_at）+ F2（5 处反向 link）压线退回，走快车道*
+
+
+---
+
+## 八、复审记录（欧阳锋 · 2026-07-11 · verdict: **PASS · A-**）
+
+> 快车道：只验 F1/F2 + 顺手项，主体 B-1~B-4 依第七节封板不重读。
+
+### 对账结果（全部实数复跑）
+
+| 项 | 验收点 | 结果 |
+|:--:|:--|:--:|
+| F1 | pre-submit 4 文件复跑 | **4/4 PASS**，0 issue ✅（新卡 `updated_at` 已补） |
+| F2-1 | AI 时代卡 → weapon-library | L26 ✅ |
+| F2-2 | 段位体系卡 → weapon-library | L28 ✅ |
+| F2-3 | 九层金字塔卡 → flywheel-engine | L30 ✅ |
+| F2-4 | 刻意练习四要素卡 → flywheel-engine | L24 ✅ |
+| F2-5 | 三环六维自检卡 → three-ring-capability-filter | L25 ✅ |
+| 报数对账 | 「11/11 双向闭合」= 6 正向（上轮已认）+ 5 反向（本轮） | 一致 ✅ |
+| 越界 | 5 处反向 link 均落 related 区（L24-L30），属协议 §5 授权动作，正文零改动 | ✅ |
+| 顺手项 | 4 卡 `updated_at` 全部 bump 至 2026-07-11 | ✅ |
+
+### 结论
+
+F1/F2 干净闭环，双向 link 11/11 成立，门禁全绿。`#151` 终审通过，状态 reviewed，**等级 A-**（与任务单预评一致）。
+
+**A- 而非 A**：内容达 A 标准（引用不迁移、映射干净、Phase 2 挂起诚实），但首轮带两项压线缺陷过终审线（门禁红灯 + 双向闭环未成），往返成本计入等级——与 #150 同口径。
+
+**仍挂账的 follow-up**（不阻塞）：weapon-library L304/L309 两节历史占位「待补充（src_unknown）」、flywheel Critique Herbert Simon 重复段——下次清理该两张卡时一并处置。
+
+**批次收口**：苦练基本功域三件套全部 reviewed——#150 本体（A-）+ #151 工厂（A-）+ #152 Agent 视角（A-）。「一个本体、多个索引」编排目标达成：双三角顶点、武器库段位、飞轮引擎、cap_hub 准入四个工厂入口均可命中基本功域，本体独立不迁。
+
+*欧阳锋 2026-07-11 复审：F1/F2 全绿，PASS / A-，建工厂线交付闭环*
