@@ -4,7 +4,7 @@ All queue status changes MUST go through this script. Manual edits to
 `production-queue.md` or task file `status` fields are forbidden.
 
 Usage:
-    python queue_transition.py claim <task-id> --instance <name>
+    python queue_transition.py claim <task-id> --instance <name> [--force]
     python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force]
     python queue_transition.py release <task-id> --instance <name>
     python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C]
@@ -13,7 +13,8 @@ Exit codes:
     0 = transition applied
     1 = transition rejected / error
 
---force: complete 时允许从 queued 直接跳到 pending_review
+--force claim: 跳过队列前方 pending_review 阻塞（用于不同 assignee 的并行任务）
+--force complete: 允许从 queued 直接跳到 pending_review
         （用于生产已完成但未通过脚本领取的场景）
 """
 
@@ -196,12 +197,16 @@ def apply_updates(task_id: str, new_queue_status: str, task_file: Path, **task_u
         raise RuntimeError(f"状态更新失败，已自动回滚：{e}") from e
 
 
-def action_claim(task_id: str, instance: str) -> tuple[bool, str]:
-    """Claim a queued task for an instance."""
+def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool, str]:
+    """Claim a queued task for an instance.
+
+    --force: 跳过 pending_review 阻塞检查（用于不同 assignee 的并行任务）。
+    """
     rows = parse_queue()
-    ok, reason = can_claim(task_id, rows, instance)
-    if not ok:
-        return False, reason
+    if not force:
+        ok, reason = can_claim(task_id, rows, instance)
+        if not ok:
+            return False, reason
 
     task_file = _find_task_file_dual(task_id)
     if task_file is None:
@@ -210,9 +215,10 @@ def action_claim(task_id: str, instance: str) -> tuple[bool, str]:
     with QueueLock("production-queue"):
         # Re-check gate inside lock
         rows = parse_queue()
-        ok, reason = can_claim(task_id, rows, instance)
-        if not ok:
-            return False, reason
+        if not force:
+            ok, reason = can_claim(task_id, rows, instance)
+            if not ok:
+                return False, reason
 
         new_status = f"claimed-{instance}"
         apply_updates(task_id, new_status, task_file, assignee=instance, status="in_progress")
@@ -382,7 +388,7 @@ def main() -> int:
         if not instance:
             print("claim 需要 --instance <instance>", file=sys.stderr)
             return 1
-        ok, msg = action_claim(task_id, instance)
+        ok, msg = action_claim(task_id, instance, force=force)
     elif action == "complete":
         if not instance:
             print("complete 需要 --instance <instance>", file=sys.stderr)
