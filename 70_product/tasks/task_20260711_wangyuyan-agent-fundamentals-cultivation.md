@@ -1,7 +1,7 @@
 ---
 id: task_20260711_wangyuyan-agent-fundamentals-cultivation
 title: 基本功域补卡：concept-一堂-Agent基本功修炼（Agent 军团练基本功视角）
-status: in_progress
+status: pending_review
 priority: P1
 assignee: kimi
 reviewer: 欧阳锋
@@ -19,7 +19,7 @@ related:
 - '[[task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout]]'
 - '[[zhu-feedback-patterns]]'
 created_at: '2026-07-11'
-updated_at: '2026-07-11T15:34:10.475525+00:00'
+updated_at: '2026-07-11T15:36:39.790045+00:00'
 ---
 
 # 基本功域补卡：concept-一堂-Agent基本功修炼
