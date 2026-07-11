@@ -35,6 +35,11 @@ C 域建域的最后一块：业务公式教练 agent-spec。参照 #150（`agen
 
 `domains/business-formula-domain-digest.md` 补 agent-spec 导航段（spec 产出后回链）。
 
+### 2.5 黄药师预写件处置（裁定见诊断 §八）
+
+- **3 张桥接卡**（`framework-business-formula-{dual-triangle,y-model,fundamentals}-bridge.md`，draft）：P0-P2 卡 reviewed 后回填 `<<<TODO>>>` wikilink 占位，随本任务一并提交终审。
+- **参数挖掘 agent-spec draft**（`tool-agent-spec-business-formula-parameter-miner.md`）：可作本教练 spec 的「参数挖掘子能力」附件保留，但**必须先用口述稿行号重写 source_refs（现全部只引笔记，违反口述一等纪律）、回填 3 处 TODO 悬空引用**；做不到则按 draft 废弃、不随域交付。
+
 ### 3. 全域收口检查（生产完成报告的一部分）
 
 - 检查 #155-157 全部卡与既有 15 张底稿卡的 related 是否成网（无孤儿卡）
