@@ -6,9 +6,15 @@
   3. 鲜活 — 卡片更新时间分布
   4. 质量 — 门禁通过率
 
+用法：
+  python health_check.py                # 全量扫描
+  python health_check.py --scope core   # 仅 reviewed + enriched（推荐）
+  python health_check.py --scope reviewed  # 仅 reviewed
+
 纯 Python 标准库，零外部依赖。
 """
 
+import argparse
 import json
 import re
 import os
@@ -68,8 +74,14 @@ def extract_wikilinks(text: str) -> set[str]:
     return links
 
 
-def gather_cards() -> list[dict]:
-    """扫描 wiki 目录，返回所有卡片的 (id, path, frontmatter, body_wikilinks)。"""
+def gather_cards(scope: str = "all") -> list[dict]:
+    """扫描 wiki 目录，返回所有卡片的 (id, path, frontmatter, body_wikilinks)。
+
+    scope:
+      - 'all': 全量扫描（默认）
+      - 'core': 仅 status=reviewed 或 enriched
+      - 'reviewed': 仅 status=reviewed
+    """
     cards = []
     for d in CARD_DIRS:
         card_dir = WIKI_ROOT / d
@@ -80,11 +92,20 @@ def gather_cards() -> list[dict]:
             fm = parse_frontmatter(text)
             card_id = fm.get("id", f.stem)
             out_links = extract_wikilinks(text)
+
+            status = fm.get("status", "unknown")
+
+            # scope filter
+            if scope == "core" and status not in ("reviewed", "enriched"):
+                continue
+            if scope == "reviewed" and status != "reviewed":
+                continue
+
             cards.append({
                 "id": card_id,
                 "path": str(f.relative_to(WIKI_ROOT)),
                 "type": fm.get("type", "unknown"),
-                "status": fm.get("status", "unknown"),
+                "status": status,
                 "updated_at": fm.get("updated_at", ""),
                 "reviewed_by": fm.get("reviewed_by", ""),
                 "related": [r.strip().strip("'\"[]") for r in fm.get("related", [])] if isinstance(fm.get("related"), list) else [],
@@ -273,8 +294,8 @@ def check_quality(cards: list[dict]) -> dict:
 
 # ── 主报告 ────────────────────────────────────────────────────
 
-def run() -> str:
-    cards = gather_cards()
+def run(scope: str = "all") -> str:
+    cards = gather_cards(scope=scope)
 
     cov = check_coverage(cards)
     con = check_connectivity(cards)
@@ -284,7 +305,7 @@ def run() -> str:
     lines = []
     lines.append("=" * 60)
     lines.append(f"  KDO 知识库健康体检 — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
-    lines.append(f"  扫描卡片：{len(cards)} 张")
+    lines.append(f"  范围：{scope}  |  扫描卡片：{len(cards)} 张")
     lines.append("=" * 60)
 
     lines.append(f"\n📊 覆盖（可检索性）")
@@ -331,4 +352,9 @@ def run() -> str:
 if __name__ == "__main__":
     import sys
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-    print(run())
+
+    parser = argparse.ArgumentParser(description="KDO 知识库健康体检")
+    parser.add_argument("--scope", choices=["all", "core", "reviewed"], default="all",
+                        help="扫描范围: all=全量, core=reviewed+enriched, reviewed=仅reviewed")
+    args = parser.parse_args()
+    print(run(scope=args.scope))

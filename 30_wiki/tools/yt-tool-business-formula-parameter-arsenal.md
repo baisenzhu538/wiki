@@ -246,7 +246,7 @@ quality_labels:
 | 同源冰山 | `[[yt-business-formula-parameter-iceberg]]` | 冰山给 L1-L6 的「是什么」，武器库给「怎么挖、有哪些」 |
 | 配对减法 | `[[yt-business-formula-six-level-logic]]` | 加法展开（本卡）→减法排序（逻辑关系篇），缺一即翻车 |
 | 公式范式参照 | `[[yt-business-formula-ten-paradigms]]` | 十大范式是各行业套用武器的样板公式 |
-| 管理承接 | 假设管理落地策略集（playbook，#155 在产） | 挖出的参数/假设进假设池管理 |
+| 管理承接 | `[[yt-business-formula-hypothesis-management-playbook]]` | 挖出的参数/假设进假设池管理 |
 | 目标侧 | `[[yt-business-formula-abc-model]]` | 参数是 ABC 模型的 Basis |
 | 自检工具 | `[[tool-一堂-业务公式-L1L6参数分层自检]]` | 快速判断一个参数该归哪层 |
 | 埋点配套 | `[[yt-tool-business-formula-metrics-checklist]]` | 自定义参数的埋点设计清单 |

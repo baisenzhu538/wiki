@@ -16,6 +16,7 @@ SCHEMAS_DIR = VAULT_ROOT / "90_control" / "schemas"
 
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 SOURCE_REF_RE = re.compile(r"^src_[0-9]{8}_[a-f0-9]{8}$")
+WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]")
 
 
 def parse_yaml_frontmatter(text: str) -> dict:
@@ -129,7 +130,10 @@ def check_source_refs_exist(fm: dict, rel: str) -> list:
 def validate_file(fp: Path, schemas: dict) -> list:
     errors = []
     rel = fp.relative_to(VAULT_ROOT).as_posix()
-    content = fp.read_text(encoding="utf-8")
+    try:
+        content = fp.read_text(encoding="utf-8")
+    except UnicodeDecodeError:
+        content = fp.read_text(encoding="utf-8", errors="replace")
 
     m = FRONTMATTER_RE.match(content)
     if not m:
@@ -190,6 +194,11 @@ def validate_file(fp: Path, schemas: dict) -> list:
     # source_refs 文件存在性检查
     errors.extend(check_source_refs_exist(fm, rel))
 
+    # F1: updated_at 必填（欧阳锋 F1 扣分项 — 2026-07-12 系统化 enforce）
+    updated_at = fm.get("updated_at", "")
+    if not updated_at or not str(updated_at).strip().strip("'\""):
+        errors.append(f"{rel}: F1 VIOLATION: missing updated_at")
+
     return errors
 
 
@@ -197,12 +206,55 @@ def lint(wiki_dir: Path) -> dict:
     schemas = load_schemas()
     all_errors = []
     file_count = 0
+    card_ids: set[str] = set()
+    related_map: dict[str, list[str]] = {}  # card_id → list of related card_ids
 
     md_files = [f for f in wiki_dir.rglob("*.md") if "raw" not in f.parts and "_archive" not in f.parts]
     for fp in md_files:
         file_count += 1
         errs = validate_file(fp, schemas)
         all_errors.extend(errs)
+
+        # Collect card metadata for F2 cross-check
+        try:
+            try:
+                content = fp.read_text(encoding="utf-8")
+            except UnicodeDecodeError:
+                content = fp.read_text(encoding="utf-8", errors="replace")
+            m = FRONTMATTER_RE.match(content)
+            if m:
+                fm = parse_yaml_frontmatter(m.group(1))
+                cid = fm.get("id", "")
+                if cid:
+                    card_ids.add(cid)
+                    related = fm.get("related", [])
+                    if isinstance(related, str):
+                        related = [related.strip().strip("'\"")] if related.strip() else []
+                    elif isinstance(related, list):
+                        related = [str(r).strip().strip("'\"") for r in related if r]
+                    else:
+                        related = []
+                    if related:
+                        related_map[cid] = related
+        except Exception:
+            pass
+
+    # F2: 双向 wikilink 完整性检查（欧阳锋 F2 扣分项 — 2026-07-12 系统化 enforce）
+    f2_errors = []
+    for cid, related_list in related_map.items():
+        for target in related_list:
+            # 跳过悬空占位符
+            if target.startswith("<<") or not target:
+                continue
+            if target not in card_ids:
+                # 断链：引用了不存在的卡
+                f2_errors.append(f"F2 BROKEN LINK: {cid} → {target} (target card not found)")
+            elif target in related_map:
+                # 存在，检查回链
+                target_related = related_map[target]
+                if cid not in target_related:
+                    f2_errors.append(f"F2 MISSING BACKLINK: {cid} → {target} (target has no backlink to {cid})")
+    all_errors.extend(f2_errors)
 
     return {
         "files_checked": file_count,

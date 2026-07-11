@@ -1106,6 +1106,7 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[dk/dk-单元模型-找基准值实操难点|找基准值实操难点]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找基准值实操难点_vlm_desc.md`
 - [[dk/dk-单元模型-规模对抗实操难点|规模对抗实操难点]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-规模对抗实操难点_vlm_desc.md`
 - [[domains/ai-collaboration-domain-digest|域摘要：AI 协作方法论（王欢 · Harness Engineering）]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
+- [[domains/business-formula-domain-digest|域摘要：一堂业务公式（关键假设 ABCD 之 C 域·宏观效率）]] — source `70_product/tasks/task_20260712_wangyuyan-business-formula-domain-p0-skeleton.md`
 - [[domains/decision-science-domain-digest|域摘要：decision-science（科学决策）]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[domains/domain-demand-analysis-index|域索引：需求分析]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[domains/five-step-domain-digest|域摘要：一堂五步法（80+张卡）]] — source `10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md`
@@ -1229,6 +1230,7 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[frameworks/framework-yitang-six-layer-cross-validation|六层交叉验证：从单源到多源的信息可信度提升]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[frameworks/framework-yitang-three-ring-ability-focus|三环能力聚焦法：从 30 个能力中锁定 3 个重点]] — source `00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt`
 - [[frameworks/framework-yitang-y-model-dual-triangle-synergy|Y模型 × 双三角协同工作法]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
+- [[frameworks/framework-一堂-业务公式拆解-总纲|一堂业务公式拆解总纲：关键假设 ABCD 体系的核心骨架与灵魂（贯通定性→定量）]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt:L1050-1074`
 - [[frameworks/framework-一堂-基本功-九层金字塔|基本功九层金字塔：从底层信念到基本功化的完整地图]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt:L2512-2891`
 - [[frameworks/framework-一堂-基本功-四字诀拆建推练|基本功四字诀「拆建推练」：把一个动作练成组织能力]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L304-330`
 - [[frameworks/framework-一堂-基本功-四类工作四化|五类工作 × 4化：基本功的进攻方向诊断图]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L334-360`
@@ -1256,6 +1258,7 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[frameworks/yt-barrier-sustainable-growth|可持续增长：壁垒驱动]] — source `10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`
 - [[frameworks/yt-business-formula-abc-model|业务公式 ABC 模型（Ambition-Basis-Connection）]] — source `10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md`
 - [[frameworks/yt-business-formula-business-pattern-selector|业务公式商业模式选型框架：单次成交型 vs 持续复购型]] — source `10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md`
+- [[frameworks/yt-business-formula-hypothesis-management-playbook|业务公式假设管理落地策略集：2+3 策略 × 入门/进阶/高阶三级 = 15 格行动矩阵]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L659-766`
 - [[frameworks/yt-business-formula-qualitative-metrics-library|yt-business-formula-qualitative-metrics-library]] — source `{'pending_archive': 'src_unknown'}`
 - [[frameworks/yt-business-model-channel-economics|渠道经济学：获客成本优化]] — source `10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`
 - [[frameworks/yt-business-model-platform-strategy|平台战略：从单边到双边]] — source `10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md`
@@ -2351,6 +2354,7 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[tools/yt-tob-customer-sabc|To B 客户 SABC 自定义切分法]] — source `pending_archive:source material not yet ingested`
 - [[tools/yt-tool-ai-ppt-maker|AI对话式PPT生成器：把排版变成说话]] — source `10_raw/sources/src_20260619_3f10f20d_00_inbox_design_AI设计_文创案例设计课口述.txt`
 - [[tools/yt-tool-business-formula-metrics-checklist|yt-tool-business-formula-metrics-checklist]] — source `{'pending_archive': 'src_unknown'}`
+- [[tools/yt-tool-business-formula-parameter-arsenal|参数挖掘武器库：6 策略 → 22 动作 → 100+ 参数全量清单]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:L1386-1455`
 - [[tools/yt-tool-equity-checklist|股权设计检查清单]] — source `10_raw/sources/src_20260619_52c76864_30_wiki_concepts_yt_management_business_formula.md`
 - [[tools/yt-tool-hiring-scorecard|结构化面试打分卡]] — source `10_raw/sources/src_20260619_642947cb_30_wiki_concepts_yt_management_scientific_hiring.md`
 - [[tools/yt-tool-meeting-designer|会议设计师：一页纸会议蓝图]] — source `10_raw/sources/src_20260619_d11dc3a2_30_wiki_concepts_yt_management_scientific_meetings.md`
