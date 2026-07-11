@@ -2,6 +2,16 @@
 session_id: ouyangfeng-2026-07-12
 agent_id: ouyangfeng
 date: 2026-07-12
+created_at: 2026-07-11T20:42:04.335543+00:00
+updated_at: 2026-07-11T20:42:04.335543+00:00
+---
+
+# ouyangfeng · 2026-07-12
+
+---
+session_id: ouyangfeng-2026-07-12
+agent_id: ouyangfeng
+date: 2026-07-12
 created_at: 2026-07-11T20:11:40.581870+00:00
 updated_at: 2026-07-11T20:11:40.581870+00:00
 ---
@@ -458,3 +468,22 @@ G1/G2 全绿：digest id 恢复 + 回链正确落 related L38（全文仅 1 处�
 4. 任务单模板修订：验收标准中「reviewed_by: X」改为「终审后回填 reviewer + 同步 status」，杜绝预填（#152/#153/#154 连续三次预填）。
 
 *欧阳锋 · 2026-07-12 · 承接 07-11 会话完整复盘 · Truman 10 章规范格式*
+
+
+---
+
+## 黄药师 F1/F2 自动化武器验收对账（2026-07-12）
+
+对 `60_feedback/tasks/task_20260712_huangyaoshi-f1-f2-automation-notice.md` 的声明逐项实跑对账：
+
+**✅ 做实**：F1 检查工作（全量 69 处 / health_check core scope 4 张，名单 concept-streaming-extraction-pattern 等与通知信「4 张」一致）；F2 机制存在（真断链能抓，如 contradictions→graph-rag-retrieval-layer）；health_check 四维面板可用；2359 文件全量确实跑了。
+
+**🔴 两个误报源（修复前不能「lint 通过即放行」）**：
+1. **F2 对中文 id 卡误报 "target card not found"**：铁证 `case-一堂-基本功-认知篇案例集 → [[framework-一堂-苦练基本功-总纲]]`——目标卡真实存在且 pre-submit WIKILINK 检查通过。源卡为近三日新卡的 F2 报错 420 条，大量此类。两工具解析逻辑不一致，pre-submit 对、lint 错。定位方向：卡片索引对非 ASCII id/文件名的解析，或索引快照未更新。
+2. **source_refs dead file 对 `:L行号（中文注释）` 格式误报**（29 条）：被报 dead 的口述稿真实存在（ls 坐实 169929/118046 字节）。解析器需先剥离 `:L` 后缀与括号注释再验路径——否则诱导生产者为过 lint 删行号注释，是溯源铁律的倒退。
+
+**🔴 工程问题**：Windows GBK 控制台默认环境下 UnicodeEncodeError 中断（14730 条错误打不完），需脚本内 `sys.stdout.reconfigure(encoding='utf-8')`。
+
+**🟡 建议**：14730 全量错误信噪比过低，终审用法需「增量/基线」模式；lint F2（13868）与 health_check F2（core scope 少量）口径差异写进用法。
+
+**终审口径裁定**：修复 1-3 前，终审仍以 pre-submit（WIKILINK 无误报）+ 手工对账为准，lint 作参考。方向完全正确——把手工对账系统化正是飞轮该干的；但「跑一遍 lint → 通过即放行」当前会把所有中文名新卡误判 FAIL。
