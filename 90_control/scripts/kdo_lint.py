@@ -219,14 +219,20 @@ def validate_file(fp: Path, schemas: dict) -> list:
     return errors
 
 
-def lint(wiki_dir: Path) -> dict:
+def lint(target: Path) -> dict:
     schemas = load_schemas()
     all_errors = []
     file_count = 0
     card_ids: set[str] = set()
     related_map: dict[str, list[str]] = {}  # card_id → list of related card_ids
 
-    md_files = [f for f in wiki_dir.rglob("*.md") if "raw" not in f.parts and "_archive" not in f.parts]
+    if target.is_file():
+        md_files = [target]
+    elif target.is_dir():
+        md_files = [f for f in target.rglob("*.md") if "raw" not in f.parts and "_archive" not in f.parts]
+    else:
+        # 可能是多个路径（shell glob 展开）
+        return {"files_checked": 0, "errors": [], "passed": True}
     for fp in md_files:
         file_count += 1
         errs = validate_file(fp, schemas)

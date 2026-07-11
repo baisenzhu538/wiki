@@ -25,6 +25,7 @@ related:
 - '[[yt-business-formula-three-stage-workflow]]'
 - '[[yt-business-formula-hypothesis-management-playbook]]'
 - '[[yt-tool-business-formula-hypothesis-pool]]'
+- '[[yt-tool-business-formula-18-moves]]'
 - '[[concept-一堂-假设飞轮]]'
 - '[[business-formula-domain-digest]]'
 diagnostic_signals:
@@ -94,7 +95,7 @@ quality_labels:
 | 组合用法 | `[[concept-一堂-双目标法]]` | 双目标 = 同一目标上同时挂必胜型（下限）+挑战型（上限）；下限管不丧，上限管想辙 |
 | 上位框架 | `[[framework-一堂-业务公式拆解-总纲]]` | 定目标是业务公式建立的前提：「只有足够好的目标，才有机会形成业务公式」（管理篇 L300）；没有目标就没有参数 |
 | 工作流位置 | `[[yt-business-formula-three-stage-workflow]]` | 三类目标是三段工作流 A 阶段（梳理+定目标）的出口 |
-| 第 1 招 | 降龙十八掌（yt-tool-business-formula-18-moves，同批 #156 在建） | 降龙十八掌第 1 招「目标为先」的目标分类依据 |
+| 第 1 招 | 降龙十八掌（`[[yt-tool-business-formula-18-moves]]`） | 降龙十八掌第 1 招「目标为先」的目标分类依据 |
 | 下游机制 | `[[yt-tool-business-formula-hypothesis-pool]]`、`[[concept-一堂-假设飞轮]]` | 挑战型目标存在的意义是持续逼出假设——「一直追着它，团队天天想辙」，假设池与飞轮负责接住 |
 | 域导航 | `[[business-formula-domain-digest]]` | 业务公式域总导航与冲突调和 |
 

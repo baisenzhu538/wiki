@@ -23,6 +23,7 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 - '[[yt-business-formula-hypothesis-management-playbook]]'
+- '[[yt-tool-business-formula-gongjianhui]]'
 updated_at: '2026-06-29'
 ---
 # 落地卡片：攻坚会

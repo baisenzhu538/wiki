@@ -16,6 +16,7 @@ wiki_refs:
 - src_unknown
 related:
   - "[[tool-纪浩-Agent技能市场设计法]]"
+  - "[[concept-一堂-双目标法]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"

@@ -47,6 +47,15 @@ related:
 - "[[yt-tool-business-formula-parameter-arsenal]]"
 - "[[yt-business-formula-ten-paradigms]]"
 - "[[yt-business-formula-hypothesis-management-playbook]]"
+- "[[yt-business-formula-three-stage-workflow]]"
+- "[[yt-tool-business-formula-format-spec]]"
+- "[[yt-tool-business-formula-quant-space-3d]]"
+- "[[concept-一堂-关键路径与乘法杠杆]]"
+- "[[concept-一堂-相关不等于因果]]"
+- "[[concept-一堂-魔法数字]]"
+- "[[concept-一堂-脱离成本]]"
+- "[[concept-一堂-参数即假设与递归嵌套]]"
+- "[[concept-一堂-黑盒到白盒]]"
 - "[[business-formula-domain-digest]]"
 ---
 

@@ -26,6 +26,7 @@ related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-tool-business-formula-causality-toolkit]]'
+- '[[concept-一堂-魔法数字]]'
 - '[[business-formula-domain-digest]]'
 - '[[yt-management-business-formula]]'
 diagnostic_signals:
@@ -170,7 +171,7 @@ quality_labels:
 | 上位框架 | `[[yt-business-formula-six-level-logic]]` | 本卡是 L2 相关→L3 因果跃迁的"避坑侧"，冰山卡是"路径侧" |
 | 操作工具 | `[[yt-tool-business-formula-causality-toolkit]]` | 本卡讲"为什么会被骗"，工具卡讲"怎么验真假" |
 | 参数基础 | `[[yt-business-formula-parameter-iceberg]]` | 参数冰山给出候选关系，本卡负责把伪因果从中剔除 |
-| 下游应用 | 魔法数字概念卡（#156 同批，待收口回链） | 魔法数字九成九死于"只是相关"，本卡是其第一道筛子 |
+| 下游应用 | `[[concept-一堂-魔法数字]]` | 魔法数字九成九死于"只是相关"，本卡是其第一道筛子 |
 | 总纲 | `[[framework-一堂-业务公式拆解-总纲]]` | 相关/因果判断是拆解总纲 C 深入阶段的核心动作 |
 | 域导航 | `[[business-formula-domain-digest]]` | 业务公式域总导航与冲突调和 |
 

@@ -32,6 +32,14 @@ related:
 - '[[tool-一堂-业务公式-L1L6参数分层自检]]'
 - '[[yt-tool-business-formula-metrics-checklist]]'
 - '[[yt-business-formula-hypothesis-management-playbook]]'
+- '[[yt-business-formula-three-stage-workflow]]'
+- '[[yt-tool-business-formula-format-spec]]'
+- '[[yt-tool-business-formula-18-moves]]'
+- '[[yt-tool-business-formula-gongjianhui]]'
+- '[[concept-一堂-关键路径与乘法杠杆]]'
+- '[[concept-一堂-魔法数字]]'
+- '[[concept-一堂-脱离成本]]'
+- '[[concept-一堂-参数即假设与递归嵌套]]'
 - '[[business-formula-domain-digest]]'
 diagnostic_signals:
 - signal: 业务只有 GMV/营收/用户数三五个大数，想提假设却无从下手

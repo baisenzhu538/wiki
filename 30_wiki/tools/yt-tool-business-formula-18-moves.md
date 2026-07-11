@@ -42,8 +42,12 @@ related:
 - '[[yt-tool-business-formula-expert-interview-10]]'
 - '[[yt-tool-business-formula-inspiration-5]]'
 - '[[yt-tool-business-formula-quant-space-3d]]'
+- '[[yt-tool-business-formula-causality-toolkit]]'
 - '[[concept-一堂-假设飞轮]]'
 - '[[concept-一堂-关键路径与乘法杠杆]]'
+- '[[concept-一堂-双目标法]]'
+- '[[concept-一堂-三类目标策略]]'
+- '[[concept-一堂-黑盒到白盒]]'
 - '[[business-formula-domain-digest]]'
 diagnostic_signals:
 - signal: 团队一年只提三五个假设，黔驴技穷，全等一号位出主意

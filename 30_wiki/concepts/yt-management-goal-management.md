@@ -29,6 +29,7 @@ related:
   - "[[yt-tool-okr-cycle]]"
   - "[[tool-yitang-sales-performance-management]]"
   - "[[framework-yitang-sales-incentive-6d]]"
+  - "[[concept-一堂-双目标法]]"
 updated_at: 2026-07-02
 id: yt-management-goal-management
 author: 老顽童

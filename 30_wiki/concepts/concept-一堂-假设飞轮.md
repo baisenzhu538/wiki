@@ -29,6 +29,9 @@ related:
 - "[[yt-business-formula-hypothesis-management-playbook]]"
 - "[[framework-一堂-业务公式拆解-总纲]]"
 - "[[concept-一堂-黑盒到白盒]]"
+- "[[yt-tool-business-formula-18-moves]]"
+- "[[yt-tool-business-formula-hypothesis-pool]]"
+- "[[yt-business-formula-peahd-roles]]"
 - "[[business-formula-domain-digest]]"
 diagnostic_signals:
 - signal: 团队死气沉沉，偶尔有人举手提想法，被老板一拍回去，之后更没人说话
@@ -74,7 +77,7 @@ diagnostic_signals:
 
 一堂自身的启动路径（课程案例口径）：「先从我跟智昭身上出发，我们先相信关键假设，先从自己身上开始做，这个东西慢慢滚起来」（L3338）。滚起来之后的一堂课内部状态：「关键假设足够多，结果也慢慢足够多，激励心态上足够多，话语体系越来越健壮，团队越滚越快」（L3336）。
 
-飞轮滚动的规模证据（课程案例口径，详见工具卡 `yt-tool-business-formula-18-moves` 案例锚点，同批 #156 在建）：复盘营四年约 1000 个假设、每期人数从 100 人到 3000-4000 人并办过两次万人营。
+飞轮滚动的规模证据（课程案例口径，详见工具卡 `[[yt-tool-business-formula-18-moves]]` 案例锚点）：复盘营四年约 1000 个假设、每期人数从 100 人到 3000-4000 人并办过两次万人营。
 
 ---
 
@@ -125,10 +128,10 @@ diagnostic_signals:
 
 | 概念 | 关系 |
 |:--|:--|
-| `yt-tool-business-formula-18-moves` 降龙十八掌（同批 #156 在建） | 假设飞轮是第 18 招（迭代环节最后一招），前 17 招是飞轮每一圈的组件 |
-| `yt-tool-business-formula-hypothesis-pool` 假设池（同批 #156 在建） | 假设池是飞轮的燃料仓；「假设堆着是资产」这条共识靠假设池落地 |
+| `[[yt-tool-business-formula-18-moves]]` 降龙十八掌 | 假设飞轮是第 18 招（迭代环节最后一招），前 17 招是飞轮每一圈的组件 |
+| `[[yt-tool-business-formula-hypothesis-pool]]` 假设池 | 假设池是飞轮的燃料仓；「假设堆着是资产」这条共识靠假设池落地 |
 | [[yt-business-formula-hypothesis-management-playbook]] | 2+3 策略×三级难度是飞轮的启动手册；入门三共识里的「默认失败」即本卡共识 1 |
-| `yt-business-formula-peahd-roles` PEAHD 五角色（同批 #156 在建） | Hero（轰炸者）持续提假设、Promoter（倡导者）推动氛围——是飞轮各环节的角色分工 |
+| `[[yt-business-formula-peahd-roles]]` PEAHD 五角色 | Hero（轰炸者）持续提假设、Promoter（倡导者）推动氛围——是飞轮各环节的角色分工 |
 | [[concept-一堂-黑盒到白盒]] | 白盒让假设可证伪，飞轮让证伪可持续；前者是认知结构，后者是组织机制 |
 | 增长飞轮 | 同源结构（散点→串行→因果回路→增强回路），但增长飞轮偏业务侧、假设飞轮偏团队侧（进阶篇-口述 L3312-L3314、L3346-L3348） |
 
@@ -140,7 +143,7 @@ diagnostic_signals:
 |:--|:--|:--|
 | 业务生死线以下、没有试错余量 | 默认失败共识的前提是「极低成本失败，不能一下把自己搞死」（管理篇-口述 L1216） | 先止血保底线，飞轮等「守住底线」成立后再启动 |
 | 一号位不愿以身作则 | 红色环节缺位，飞轮无法启动，强推会变成下属表演式提假设 | 先只跑个人备忘级假设池，等一号位观念松动 |
-| 把飞轮当口号、没有验证动作 | 只有假设没有结果，激励环节断链，飞轮空转 | 接上验证四招（数据/访谈/调研/MVP，降龙十八掌第 12-15 招，见 `yt-tool-business-formula-18-moves`，同批 #156 在建） |
+| 把飞轮当口号、没有验证动作 | 只有假设没有结果，激励环节断链，飞轮空转 | 接上验证四招（数据/访谈/调研/MVP，降龙十八掌第 12-15 招，见 `[[yt-tool-business-formula-18-moves]]`） |
 
 ---
 

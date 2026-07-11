@@ -59,6 +59,15 @@ related:
 - '[[case-yitang-Y-model-advertising-turnaround]]'
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[framework-yitang-jiefang-sixiang]]'
+- '[[yt-business-formula-three-stage-workflow]]'
+- '[[yt-tool-business-formula-format-spec]]'
+- '[[yt-tool-business-formula-quant-space-3d]]'
+- '[[yt-tool-business-formula-causality-toolkit]]'
+- '[[concept-一堂-关键路径与乘法杠杆]]'
+- '[[concept-一堂-相关不等于因果]]'
+- '[[concept-一堂-参数耦合与动态公式]]'
+- '[[concept-一堂-参数即假设与递归嵌套]]'
+- '[[concept-一堂-黑盒到白盒]]'
 - '[[business-formula-domain-digest]]'
 ---
 # 业务公式六层逻辑关系冰山（L1 模糊理解 → L6 动态建模）

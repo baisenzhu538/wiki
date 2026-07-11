@@ -26,6 +26,11 @@ related:
 - '[[yt-tool-business-formula-18-moves]]'
 - '[[yt-tool-business-formula-gongjianhui]]'
 - '[[concept-一堂-假设飞轮]]'
+- '[[yt-business-formula-three-stage-workflow]]'
+- '[[yt-tool-business-formula-quant-space-3d]]'
+- '[[yt-tool-business-formula-expert-interview-10]]'
+- '[[yt-tool-business-formula-inspiration-5]]'
+- '[[concept-一堂-参数即假设与递归嵌套]]'
 - '[[framework-一堂-关键假设]]'
 - '[[business-formula-domain-digest]]'
 diagnostic_signals:

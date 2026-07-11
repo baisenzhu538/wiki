@@ -26,6 +26,7 @@ related:
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-tool-business-formula-parameter-arsenal]]'
 - '[[concept-一堂-假设飞轮]]'
+- '[[concept-一堂-魔法数字]]'
 - '[[business-formula-domain-digest]]'
 diagnostic_signals:
 - signal: 续费率下滑，团队的应对是「加强客户成功」「多做沟通建立信任」
@@ -98,7 +99,7 @@ quality_labels:
 - 同时「你的数据已经存在一套」——十个作业沉淀下来的学习成本，让用户脱离的代价陡增
 - 因此 50 学分节点挂最大的奖励，「奖励越来越高」就是因为这里是脱离成本的质变点
 
-这把「习惯养成 + 数据沉没」从口号变成了可运营的里程碑：魔法数字负责标记拐点（同批在建卡 `concept-一堂-魔法数字`），脱离成本负责解释拐点为什么成立。
+这把「习惯养成 + 数据沉没」从口号变成了可运营的里程碑：魔法数字负责标记拐点（`[[concept-一堂-魔法数字]]`），脱离成本负责解释拐点为什么成立。
 
 ---
 
@@ -151,7 +152,7 @@ quality_labels:
 | 上位框架 | `[[framework-一堂-业务公式拆解-总纲]]` | 脱离成本型范式在总纲十大范式中的位置 |
 | 范式目录 | `[[yt-business-formula-ten-paradigms]]` | 本卡是其中粘性因素型范式的概念展开 |
 | 参数落地 | `[[yt-business-formula-parameter-iceberg]]` | 脱离成本拆成加法参数后进入冰山管理 |
-| 拐点标记 | `concept-一堂-魔法数字`（同批在建） | 50 学分既是魔法数字又是脱离成本质变点 |
+| 拐点标记 | `[[concept-一堂-魔法数字]]` | 50 学分既是魔法数字又是脱离成本质变点 |
 | 团队侧放大 | `[[concept-一堂-假设飞轮]]` | 每个脱离成本因素都是一组可迭代的假设 |
 | 域导航 | `[[business-formula-domain-digest]]` | 业务公式域总导航 |
 

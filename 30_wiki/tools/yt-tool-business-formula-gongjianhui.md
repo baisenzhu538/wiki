@@ -26,6 +26,7 @@ related:
 - '[[yt-business-formula-peahd-roles]]'
 - '[[yt-tool-business-formula-18-moves]]'
 - '[[yt-tool-business-formula-hypothesis-pool]]'
+- '[[yt-tool-business-formula-expert-interview-10]]'
 - '[[yt-tool-business-formula-parameter-arsenal]]'
 - '[[tool-泛产品落地-攻坚会]]'
 - '[[business-formula-domain-digest]]'

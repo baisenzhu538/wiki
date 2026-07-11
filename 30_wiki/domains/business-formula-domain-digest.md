@@ -45,12 +45,32 @@ related:
 - '[[dk-yitang-business-formula-plus-times-trap]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
 - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
+- '[[yt-business-formula-three-stage-workflow]]'
+- '[[yt-business-formula-peahd-roles]]'
+- '[[yt-tool-business-formula-format-spec]]'
+- '[[yt-tool-business-formula-18-moves]]'
+- '[[yt-tool-business-formula-quant-space-3d]]'
+- '[[yt-tool-business-formula-causality-toolkit]]'
+- '[[yt-tool-business-formula-hypothesis-pool]]'
+- '[[yt-tool-business-formula-gongjianhui]]'
+- '[[yt-tool-business-formula-expert-interview-10]]'
+- '[[yt-tool-business-formula-inspiration-5]]'
+- '[[concept-一堂-双目标法]]'
+- '[[concept-一堂-三类目标策略]]'
+- '[[concept-一堂-关键路径与乘法杠杆]]'
+- '[[concept-一堂-相关不等于因果]]'
+- '[[concept-一堂-参数耦合与动态公式]]'
+- '[[concept-一堂-魔法数字]]'
+- '[[concept-一堂-脱离成本]]'
+- '[[concept-一堂-参数即假设与递归嵌套]]'
+- '[[concept-一堂-黑盒到白盒]]'
+- '[[concept-一堂-假设飞轮]]'
 ---
 
 # 域摘要：一堂业务公式（C 域）
 
 > 一句话：业务公式是一堂关键假设 ABCD 体系中的 **C 域 = 宏观效率**——用「参数 + 逻辑关系 = 目标」把增长写成公式，两大核心追求是**理解业务规律 + 表达业务规律**（实操篇口述 L1050-L1074）；它是 ABCD 中最难但最有价值的一块，四套操作系统合计覆盖约 90% 的业务问题（参数探索篇口述 L16/L3574）。
-> C 域现有 P0 骨架卡 7 张（#155 产出）+ 既有底稿卡 10 张接入；#156 工作流工具 ~20 项、#157 案例族 19 卡、#158 agent-spec 在产。
+> C 域现有 P0 骨架卡 7 张（#155 产出）+ 既有底稿卡 10 张接入；#156 工作流工具 20 卡已交付（见下「P1 工具族导航」）、#157 案例族 19 卡、#158 agent-spec 在产。
 
 ## 域定位
 
@@ -87,8 +107,14 @@ related:
 | 2 | 参数冰山 L1-L6 | 基础→财务→分层→转化→创新→魔法；自上拆解 + 自下涌现 | `[[yt-business-formula-parameter-iceberg]]` + `[[yt-tool-business-formula-parameter-arsenal]]`（22 动作全量清单） |
 | 3 | 逻辑关系冰山 L1-L6 | 模糊理解→相关→因果→公式→定量→动态建模（安慰剂→导航仪） | `[[yt-business-formula-six-level-logic]]` |
 | 4 | 十大经典范式 | 收入 4 + 竞争 2 + 运营 4，每范式配公式+场景+案例锚点 | `[[yt-business-formula-ten-paradigms]]` |
-| 5 | 降龙十八掌 + Ω 模型 | 五环节 18 招（准备 3/加法 4/减法 4/验证 4/迭代 3）；Ω=明确目标→加法→减法→验证→迭代 | 降龙十八掌独立卡：#156 在产，待收口回链；Ω 模型现载于总纲与 `[[yt-business-formula-abc-model]]` |
+| 5 | 降龙十八掌 + Ω 模型 | 五环节 18 招（准备 3/加法 4/减法 4/验证 4/迭代 3）；Ω=明确目标→加法→减法→验证→迭代 | 降龙十八掌独立卡：`[[yt-tool-business-formula-18-moves]]`；Ω 模型现载于总纲与 `[[yt-business-formula-abc-model]]` |
 | 6 | 假设管理落地 | 2+3 策略 × 入门/进阶/高阶三级 = 15 格行动矩阵；PEAHD 五角色 | `[[yt-business-formula-hypothesis-management-playbook]]` |
+
+## P1 工具族导航（#156 已交付，20 卡）
+
+- **工作流与角色（frameworks 2）**：`[[yt-business-formula-three-stage-workflow]]`（A 梳理→B 建立→C 深入三阶段）、`[[yt-business-formula-peahd-roles]]`（PEAHD 五角色）
+- **工具（tools 8）**：`[[yt-tool-business-formula-format-spec]]`（格式规范 L1-L3）、`[[yt-tool-business-formula-18-moves]]`（降龙十八掌全清单）、`[[yt-tool-business-formula-quant-space-3d]]`（定量空间三维评估）、`[[yt-tool-business-formula-causality-toolkit]]`（因果三件套）、`[[yt-tool-business-formula-hypothesis-pool]]`（关键假设池）、`[[yt-tool-business-formula-gongjianhui]]`（攻坚会）、`[[yt-tool-business-formula-expert-interview-10]]`（专家访谈黄金 10 步法=第 13 招）、`[[yt-tool-business-formula-inspiration-5]]`（灵感闪现五字诀）
+- **概念（concepts 10）**：`[[concept-一堂-双目标法]]`、`[[concept-一堂-三类目标策略]]`、`[[concept-一堂-关键路径与乘法杠杆]]`、`[[concept-一堂-相关不等于因果]]`、`[[concept-一堂-参数耦合与动态公式]]`、`[[concept-一堂-魔法数字]]`、`[[concept-一堂-脱离成本]]`、`[[concept-一堂-参数即假设与递归嵌套]]`、`[[concept-一堂-黑盒到白盒]]`、`[[concept-一堂-假设飞轮]]`
 
 ## 案例族导航（#157 在产，待收口回链）
 

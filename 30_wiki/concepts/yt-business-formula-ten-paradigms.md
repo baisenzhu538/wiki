@@ -47,6 +47,10 @@ related:
 - '[[case-saas-renewal-formula]]'
 - '[[case-private-domain-ecommerce-formula]]'
 - '[[case-dental-clinic-formula]]'
+- '[[yt-business-formula-three-stage-workflow]]'
+- '[[yt-tool-business-formula-format-spec]]'
+- '[[yt-tool-business-formula-18-moves]]'
+- '[[concept-一堂-脱离成本]]'
 - '[[business-formula-domain-digest]]'
 quality_labels:
 - framework

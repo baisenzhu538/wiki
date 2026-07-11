@@ -25,6 +25,7 @@ related:
 - '[[yt-business-formula-hypothesis-management-playbook]]'
 - '[[yt-tool-business-formula-parameter-arsenal]]'
 - '[[yt-business-formula-six-level-logic]]'
+- '[[yt-tool-business-formula-hypothesis-pool]]'
 - '[[business-formula-domain-digest]]'
 diagnostic_signals:
 - signal: 团队说「黔驴技穷了，提不出新假设」
@@ -75,7 +76,7 @@ quality_labels:
 
 **反常识 1：黔驴技穷不是创造力问题，是拆解颗粒度问题。** 「之所以大家很多时候觉得黔驴技穷、提不出假设、脑子懵懵的，是因为关键假设拆得不够细。当你的参数足够多了之后，很多答案自然就出来了」（参数探索篇-口述 L716-L718）。一个目标四个参数的业务，想提假设无从下嘴；拆到几十个参数，假设多到做不完。
 
-**反常识 2：参数不是 KPI 仪表盘，是待证伪的断言集。** 多数团队把公式参数当「客观事实」监控。课程口径相反：参数写的是「A 推 B」的因果断言，默认都可能错（呼应假设思维「默认都是错的」），每一个都该进假设池排队验证（同批在建卡 `yt-tool-business-formula-hypothesis-pool`）。
+**反常识 2：参数不是 KPI 仪表盘，是待证伪的断言集。** 多数团队把公式参数当「客观事实」监控。课程口径相反：参数写的是「A 推 B」的因果断言，默认都可能错（呼应假设思维「默认都是错的」），每一个都该进假设池排队验证（`[[yt-tool-business-formula-hypothesis-pool]]`）。
 
 **反常识 3：认知进步可以被数出来。** 「认知进步的过程，就是参数构建的过程」（参数探索篇-口述 L608-L610）。说「我懂这个业务」不是感觉问题——你找到了多少个参数、定量了多少、埋点了多少，就是你认知的客观刻度。
 
@@ -135,7 +136,7 @@ quality_labels:
 
 **2. 相关性≠因果性（统计学常识）**：「参数即假设」把公式结构读成因果断言，但公式拟合出的关系多为相关。回应：本卡与 `[[yt-business-formula-six-level-logic]]` 配套——参数即假设只是**提出**断言，L2 相关→L3 因果的验证是后续工序；把假设当事实恰是本卡明令禁止的（Failure Mode 4）。
 
-**3. OKR 文献（Doerr）对「拆解式目标」的保留**：纯自上而下分解会压制自下而上的判断。回应：递归嵌套管的是结构，假设池机制（同批在建卡 `yt-tool-business-formula-hypothesis-pool`）保证一线（Discusser 角色）能反向提假设改公式，分解与涌现并存。
+**3. OKR 文献（Doerr）对「拆解式目标」的保留**：纯自上而下分解会压制自下而上的判断。回应：递归嵌套管的是结构，假设池机制（`[[yt-tool-business-formula-hypothesis-pool]]`）保证一线（Discusser 角色）能反向提假设改公式，分解与涌现并存。
 
 ---
 
@@ -146,7 +147,7 @@ quality_labels:
 | 上位框架 | `[[framework-一堂-业务公式拆解-总纲]]` | 本卡是总纲拆解方法的两个底层公理 |
 | 三要素模型 | `[[yt-business-formula-abc-model]]` | 回答「参数」一格的双重身份 |
 | 分层落地 | `[[yt-business-formula-parameter-iceberg]]` | 递归嵌套解释冰山为什么是「层」 |
-| 假设生产 | `yt-tool-business-formula-hypothesis-pool`（同批在建） | 参数改写为假设后的收纳与排队机制 |
+| 假设生产 | `[[yt-tool-business-formula-hypothesis-pool]]` | 参数改写为假设后的收纳与排队机制 |
 | 因果段位 | `[[yt-business-formula-six-level-logic]]` | 参数断言从相关到因果的验证阶梯 |
 | 挖掘工具 | `[[yt-tool-business-formula-parameter-arsenal]]` | 参数不够细时，用武器库 6 策略 22 动作补参数 |
 | 域导航 | `[[business-formula-domain-digest]]` | 业务公式域总导航 |

@@ -32,6 +32,7 @@ related:
 - "[[yt-business-formula-hypothesis-management-playbook]]"
 - "[[concept-一堂-假设飞轮]]"
 - "[[concept-一堂-参数即假设与递归嵌套]]"
+- "[[yt-tool-business-formula-18-moves]]"
 - "[[business-formula-domain-digest]]"
 diagnostic_signals:
 - signal: 老板拍板后下属问"为什么"，回答是"我直觉很准""我以前领导就是这么说的"
@@ -127,7 +128,7 @@ diagnostic_signals:
 | 场景 | 为什么 | 替代 |
 |:--|:--|:--|
 | 一次性、不可逆、来不及拆的紧急止损 | 白盒化是投资不是免费，火烧眉毛时先止血 | 事后必须补白盒化复盘，否则这次止损也是一坨 |
-| 拿「白盒」当绝对正确的挡箭牌 | 白盒=可证伪，不是已证实；拆成参数不代表参数对 | 白盒之后必须接验证环节（降龙十八掌第 12-15 招，见工具卡 `yt-tool-business-formula-18-moves`，同批 #156 在建） |
+| 拿「白盒」当绝对正确的挡箭牌 | 白盒=可证伪，不是已证实；拆成参数不代表参数对 | 白盒之后必须接验证环节（降龙十八掌第 12-15 招，见工具卡 `[[yt-tool-business-formula-18-moves]]`） |
 | 用「科学」否定一切直觉 | 课程不否定直觉，直觉是假设的矿藏；否定的是「直觉不可讨论」 | 直觉先落成假设进假设池，再排队验证 |
 
 ---

@@ -24,6 +24,7 @@ related:
 - '[[yt-business-formula-hypothesis-management-playbook]]'
 - '[[yt-business-formula-three-stage-workflow]]'
 - '[[yt-tool-business-formula-hypothesis-pool]]'
+- '[[yt-tool-business-formula-18-moves]]'
 - '[[yt-management-goal-management]]'
 - '[[tool-三层目标对齐法]]'
 - '[[business-formula-domain-digest]]'
