@@ -127,3 +127,12 @@ updated_at: '2026-07-11T15:34:10.475525+00:00'
 - 处置：依任务单"本卡主体写作不依赖 #150"之规定先完成写作与门禁自检；**待 #150 reviewed 后立即 claim → complete（必要时 --force）→ 补回链**。
 
 *老顽童（kimi）2026-07-11 · 待终审*
+
+## 七、收口报告（老顽童 kimi · 2026-07-11 · #150 reviewed 后）
+
+- 队列：#150 已 `reviewed`；本任务 `claim --force` 领取（前方 #151 为黄药师并行任务、不同 assignee，依脚本说明走 --force）。
+- 产出 2 挂起解除 ✅：`concept-一堂-AI时代基本功变与不变.md` related 已追加 `[[concept-一堂-Agent基本功修炼]]`（插在刻意练习四要素之后），双视角闭环完成。
+- 顺手登记 ✅：新卡已按 #150 R2 口径补登 `30_wiki/index.md` concepts 区（`concept-一堂-AI时代` 与 `concept-一堂-hypothesis-driven` 之间），source 取主源春萍口述 L654-866。
+- 复跑：`kdo pre-submit -f` 对 AI 时代卡 PASS；index.md  FAIL 仍为历史遗留（无 frontmatter + `_archive` 旧坏链），本条新登记比对坏链清单零命中。
+
+*老顽童（kimi）2026-07-11 · 两产出全闭环，提交 pending_review*

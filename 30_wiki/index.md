@@ -477,6 +477,7 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[concepts/concept-yitang-research-objective|调研目标锁定：从"了解"到"决策"的认知跃迁]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
 - [[concepts/concept-yitang-research-scope|调研范围缩小：专注·专业·剥离三原则]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
 - [[concepts/concept-一堂-AI时代基本功变与不变|AI 时代基本功的变与不变：拆建不变，推练变形，AI 是外骨骼肌肉靠苦练]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L1810-2117`
+- [[concepts/concept-一堂-Agent基本功修炼|Agent 基本功修炼：KDO 工厂就是 Agent 军团练基本功的系统]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L654-866`
 - [[concepts/concept-一堂-hypothesis-driven-business-methodology|一堂假设驱动型创业分析方法论]] — source `10_raw/sources/src_20260606_22c4a291-一堂-关键假设课-truman-笔记.md`
 - [[concepts/concept-一堂-kernel-iteration|产品内核迭代：从静态到动态的五方向演化]] — source `pending_archive:src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述`
 - [[concepts/concept-一堂-kernel-validation|产品内核验证：三维度评估 + 六策略验证]] — source `src_unknown`

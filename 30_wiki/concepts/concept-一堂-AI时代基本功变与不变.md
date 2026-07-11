@@ -21,6 +21,7 @@ related:
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[concept-一堂-基本功定义]]'
 - '[[concept-一堂-基本功-刻意练习四要素]]'
+- '[[concept-一堂-Agent基本功修炼]]'
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[management-domain-digest]]'
 diagnostic_signals:
