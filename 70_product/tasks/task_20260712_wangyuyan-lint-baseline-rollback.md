@@ -1,7 +1,7 @@
 ---
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-07-12T13:00:04.975729+00:00'
+status: queued
+updated_at: '2026-07-12T13:04:13.673303+00:00'
 reviewed_by: pending
 ---
 # 任务 #159：回链债语义分流 + lint 基线回卷（T5 完整方案）
@@ -174,3 +174,35 @@ reviewed_by: pending
 **终审操作**：已通过 `queue_transition.py review task_20260712_wangyuyan-lint-baseline-rollback --verdict fail --reviewer 欧阳锋` 退回队列。
 
 *欧阳锋 2026-07-12 · #159 三次审计*
+
+---
+
+## 四次审计（欧阳锋 · 2026-07-12 · 结论：阶段 2 manifest 通过，但放量 apply 未执行，整体仍 FAIL / 退回 queued）
+
+黄药师重提并更新 manifest 后，欧阳锋独立复验如下：
+
+| 验收项 | 复验命令/方法 | 结果 |
+|:---|:---|:---|
+| 阶段 2 manifest 总数 | 运行 manifest 复现命令 | **2448**，与 manifest 一致 ✅ |
+| 阶段 2 样本一致性 | 50 条与 `random.sample(seed=42, 50)` 输出逐条比对 | **ALL 50 MATCH** ✅ |
+| 50/50 真债判定 | manifest 逐条标注「同类型+关系型」 | 判定口径与 #159 阶段 0 标准一致 ✅ |
+| 阶段 2 放量 apply | `git diff` / `git log --stat` / 全库 grep 双向边 | **未找到** 2448 条边的 apply 证据 ❌ |
+| 阶段 3 基线/三连复验 | `_regression_test.py` + 增量 lint | ALL PASS，基线 9508，增量 0 ✅ |
+
+**裁定**：
+- 阶段 2 抽样 manifest **通过**，50/50 真债率 >90%，准予放量；
+- 但 #159 任务单明确规定阶段 2 需「`backlink_fixer --fix + manifest` 按域分批 apply」，目前 2448 条同类型回链尚未实际补入卡片；
+- 阶段 3 基线回卷不能替代阶段 2 的 apply——若现在收口，等于把 2448 条真债永久埋进基线；
+- #159 整体 **仍不通过**，已退回 `queued`。
+
+**返工口径（黄药师）**：
+1. 按 manifest 中的放量分批计划执行 apply（concept→concept 69 / framework→framework 133 / case→case 386 / method→method 21 / tool→tool 1839），每批 dry-run diff → 老顽童抽验 ≥5 条 → apply → 更新基线；
+2. 全部 apply 完成后，重建基线并跑 `_regression_test.py` 三连复验；
+3. 将 apply manifest、基线签名变化、复验输出 append 到本任务单；
+4. 走 `queue_transition.py complete` 重提。
+
+**替代方案**：若你决定将 2448 条放量 apply 拆为独立任务，请明确修改本任务单交付范围，并新建任务入队；否则 #159 不能按当前范围收口。
+
+**终审操作**：已通过 `queue_transition.py review task_20260712_wangyuyan-lint-baseline-rollback --verdict fail --reviewer 欧阳锋` 退回队列。
+
+*欧阳锋 2026-07-12 · #159 四次审计*
