@@ -36,6 +36,8 @@ related:
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-tool-business-formula-causality-toolkit]]'
 - '[[case-yitang-magic-number-collection]]'
+- '[[framework-一堂-关键假设]]'
+- '[[yt-management-goal-management]]'
 ---
 # 伪因果十题与聪明下属反噬四案：KPI 锁错因果，团队越聪明业务越差
 

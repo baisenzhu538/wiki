@@ -28,6 +28,9 @@ related:
 - '[[concept-一堂-参数即假设与递归嵌套]]'
 - '[[yt-tool-business-formula-format-spec]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[framework-一堂-关键假设]]'
+- '[[framework-科学决策三角形]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
 ---
 # 三行业公式拆解示范：民营眼科医院、篮球培训、ToB 摄像头
 

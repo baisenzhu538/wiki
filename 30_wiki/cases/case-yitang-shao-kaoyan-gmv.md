@@ -29,6 +29,8 @@ related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-tool-business-formula-parameter-arsenal]]'
 - '[[business-formula-domain-digest]]'
+- '[[framework-一堂-关键假设]]'
+- '[[framework-科学决策三角形]]'
 ---
 # 邵同学考研：GMV +50% 目标靠分层切片找到反常识机会，三维建模锁定重点老师
 

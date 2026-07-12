@@ -35,6 +35,8 @@ related:
 - '[[tool-动力阻力分析]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
 - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
+- '[[framework-一堂-关键假设]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
 ---
 # 创新参数与动作案例集：把"没被命名过的率"挖出来
 

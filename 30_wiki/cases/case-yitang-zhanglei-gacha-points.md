@@ -34,6 +34,7 @@ related:
 - "[[concept-一堂-相关不等于因果]]"
 - "[[concept-一堂-参数耦合与动态公式]]"
 - "[[case-yitang-yewenbin-archery-business-formula]]"
+- "[[tool-动力阻力分析]]"
 ---
 # 张磊点位扭蛋机：5个点位日销100单，沿L1到L6六阶段把业务从"模糊模型"推演成动态公式
 

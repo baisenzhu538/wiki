@@ -38,6 +38,8 @@ related:
 - '[[concept-一堂-参数即假设与递归嵌套]]'
 - '[[concept-一堂-假设飞轮]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[tool-动力阻力分析]]'
 ---
 # 劳文启线下会销十倍增长：业务公式从1.0拆到4.0，单场10万干到近百万
 

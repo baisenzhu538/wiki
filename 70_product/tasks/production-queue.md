@@ -196,5 +196,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 157 | `task_20260712_wangyuyan-business-formula-domain-p2-cases` | C域·业务公式 P2 案例族：旗舰8卡（复盘营五年/我请客/马拉松/会销十倍/漫展/扭蛋机/六负责人/视频号）+ 学员7卡 + 合集4卡（伪因果/魔法数字/创新参数/三行业） | reviewed | 老顽童 | 19 案例卡 | #155 reviewed（可与#156并行） | `70_product/tasks/task_20260712_wangyuyan-business-formula-domain-p2-cases.md` | 老朱原话「不要遗漏重要知识和案例」；每卡必含失败假设；扭蛋机付费率两源冲突需调原图复核或标pending_unknown |
 | 158 | `task_20260712_wangyuyan-business-formula-domain-agent-spec` | C域·业务公式 agent-spec + 全域收口：agent-一堂-业务公式教练（orchestrator，双轴段位诊断）+ digest回链 + 孤儿卡/边界检查 | reviewed | 老顽童 | 1 agent-spec + 回链 + 完成报告 | #155/#156/#157 全部 reviewed | `70_product/tasks/task_20260712_wangyuyan-business-formula-domain-agent-spec.md` | 规格对齐#150基本功教练/#153决策教练；反向蒸馏（自有业务公式agent）不在本任务，另立第二阶段 |
 | 159 | `task_20260712_wangyuyan-lint-baseline-rollback` | 回链债语义分流+lint基线回卷（T5完整方案）：阶段0边分类标准(gate)→例外落表(三铁律)→真债分批修(抽样>90%放量)→基线重建三连复验 | queued | 黄药师 | 标准草案+例外表+manifest+复验报告 | 无（反向蒸馏开产前必须完成；阶段0需欧阳锋审签） |
-| 160 | `task_20260712_wangyuyan-y-model-fusion-backlink` | Y模型fusion卡L74补C域总纲链（T4）：一行related追加+pre-submit，申报制 | pending_review | 老顽童 | 补链+门禁输出 | 无（顺手件不占管线） |
-| 161 | `task_20260712_wangyuyan-c-domain-outbound-bridges` | C域域外桥接增强：图谱孤立修复（域外出链10.3%→≥20%，零域外链卡减半），语义真实优先不许造链 | queued | 老顽童 | related补链+复测报告 | 无（P1不阻塞反向蒸馏） |
+| 160 | `task_20260712_wangyuyan-y-model-fusion-backlink` | Y模型fusion卡L74补C域总纲链（T4）：一行related追加+pre-submit，申报制 | reviewed | 老顽童 | 补链+门禁输出 | 无（顺手件不占管线） |
+| 161 | `task_20260712_wangyuyan-c-domain-outbound-bridges` | C域域外桥接增强：图谱孤立修复（域外出链10.3%→≥20%，零域外链卡减半），语义真实优先不许造链 | claimed-kimi | 老顽童 | related补链+复测报告 | 无（P1不阻塞反向蒸馏） |
+| 162 | `task_20260712_wangyuyan-c-domain-backbone-direct-links` | C域骨干直连（欧阳锋建议书任务A）：6外部hub↔C域总纲双向~12-18边，逐边grep只补缺方向 | queued | 老顽童 | 双向边+grep输出 | #161交卷后领（边清单去重） |
+| 163 | `task_20260712_wangyuyan-ocr-deadlink-cleanup` | ocr-*死链查证处置（任务C）：全库普查+逐条处置清单，欧阳锋过目后批量执行 | queued | 黄药师 | 普查清单+复扫零死链 | 无（P2） |

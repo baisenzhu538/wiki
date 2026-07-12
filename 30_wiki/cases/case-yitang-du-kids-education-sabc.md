@@ -27,6 +27,8 @@ related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-tool-business-formula-parameter-arsenal]]'
 - '[[business-formula-domain-digest]]'
+- '[[framework-一堂-关键假设]]'
+- '[[case-toc-ecommerce-formula-misjudgment]]'
 ---
 # 杜同学儿童教育：年龄×成绩×陪同家长三维切 SABC，发现"妈妈能拍板、老人最弱"
 

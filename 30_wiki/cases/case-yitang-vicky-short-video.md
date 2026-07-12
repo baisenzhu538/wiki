@@ -32,6 +32,8 @@ related:
 - '[[concept-一堂-假设飞轮]]'
 - '[[concept-一堂-黑盒到白盒]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[framework-一堂-关键假设]]'
+- '[[yt-lean-assumption-prioritization]]'
 ---
 # Vicky 短视频：从"盯结果+抄同行+掷骰子"到测试群+飞书假设池，团队心力逆转、业务跑出来
 

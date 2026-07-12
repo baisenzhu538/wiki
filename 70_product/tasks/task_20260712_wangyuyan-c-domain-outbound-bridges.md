@@ -1,7 +1,7 @@
 ---
 assignee: kimi
-status: queued
-updated_at: '2026-07-12'
+status: in_progress
+updated_at: '2026-07-12T04:35:17.427593+00:00'
 reviewed_by: pending
 ---
 # 任务 #161：C 域域外桥接增强（Obsidian 图谱孤立修复）

@@ -34,6 +34,8 @@ related:
 - '[[concept-一堂-关键路径与乘法杠杆]]'
 - '[[yt-tool-business-formula-parameter-arsenal]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[framework-一堂-关键假设]]'
+- '[[tool-动力阻力分析]]'
 ---
 # 鑫港湾自助棋牌室：把"流量×转化×客单×复购"四参数公式拆到几十个参数，一年半回本、西安全国第一
 

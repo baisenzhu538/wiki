@@ -38,6 +38,8 @@ related:
 - '[[yt-tool-business-formula-quant-space-3d]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
 - '[[case-yitang-shipinhao-ads-l1-l6]]'
+- '[[framework-一堂-关键假设]]'
+- '[[framework-科学决策三角形]]'
 ---
 # 一堂作业数六负责人推演：同一个作业率目标，六种业务理解深度决定六种操盘高度
 

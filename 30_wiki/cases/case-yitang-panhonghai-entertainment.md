@@ -33,6 +33,9 @@ related:
 - '[[yt-tool-business-formula-hypothesis-pool]]'
 - '[[concept-一堂-假设飞轮]]'
 - '[[business-formula-domain-digest]]'
+- '[[framework-一堂-关键假设]]'
+- '[[tool-动力阻力分析]]'
+- '[[yt-decision-abcd-model]]'
 ---
 # 潘鸿海娱乐店：涨价拆成三个子假设小范围测，GMV +15-20%，半年业绩 +50%
 

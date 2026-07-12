@@ -34,6 +34,9 @@ related:
 - '[[yt-tool-business-formula-inspiration-5]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
 - '[[case-yitang-homework-six-owners]]'
+- '[[framework-一堂-关键假设-ABCD模型]]'
+- '[[tool-动力阻力分析]]'
+- '[[case-toc-ecommerce-formula-misjudgment]]'
 ---
 # 一堂视频号投放 L1→L6 全案：好友率 40%→85%、脚本寿命 benchmark 与四个矩阵号的动态平衡
 

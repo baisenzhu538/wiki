@@ -49,6 +49,9 @@ related:
 - '[[case-yitang-yewenbin-archery-business-formula]]'
 - '[[case-yitang-zhanglei-comic-booth]]'
 - '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[framework-一堂-关键假设]]'
+- '[[tool-动力阻力分析]]'
+- '[[yt-management-goal-management]]'
 ---
 # 一堂复盘营五年：8 个参数到 200+ 参数、1000+ 假设，把低转高做成不靠红利的长期生意
 

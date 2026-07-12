@@ -31,6 +31,8 @@ related:
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[concept-一堂-假设飞轮]]'
 - '[[business-formula-domain-digest]]'
+- '[[framework-一堂-关键假设]]'
+- '[[tool-动力阻力分析]]'
 ---
 # 王同学 MCN：签素人六环漏斗 + 团队假设表，从一个人盯签约到四期行动营量率双升
 
