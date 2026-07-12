@@ -1,6 +1,6 @@
 ---
 id: case-yitang-coke-spill-compensation
-title: 案例：可乐撒了——ROI/Y模型重构客户赔偿流程
+title: 案例：可乐撒了——ROI模型重构客户赔偿流程（Y模型推导产物）
 type: case
 status: reviewed
 author: 老顽童
