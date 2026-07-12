@@ -28,6 +28,7 @@ related:
   - "[[yt-lean-daily-chemical-mvp]]"
   - "[[yt-lean-flower-mom-group-leader]]"
   - "[[yt-business-formula-hypothesis-management-playbook]]"
+  - "[[case-yitang-vicky-short-video]]"
 diagnostic_signals:
 - framework_lens: 前置假设优先 + 五步法阶段判断
   follow_up_question: 这些假设分别落在一堂五步法的哪一步？如果前一步不成立，后一步是否会全盘推翻？

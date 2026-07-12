@@ -27,6 +27,7 @@ related:
 - '[[business-formula-domain-digest]]'
 - '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
 - '[[case-yitang-marathon-ten-seasons]]'
+- '[[framework-business-formula-fundamentals-bridge]]'
 diagnostic_signals:
 - signal: 开假设讨论会，全场就一号位一个人出主意，其他人全程点头
   lens: 缺轰炸者（Hero）——没有一个「给任何场景都能啪啪甩出五个假设」的人撑场

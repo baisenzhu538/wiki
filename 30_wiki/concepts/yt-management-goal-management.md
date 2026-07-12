@@ -30,6 +30,11 @@ related:
   - "[[tool-yitang-sales-performance-management]]"
   - "[[framework-yitang-sales-incentive-6d]]"
   - "[[concept-一堂-双目标法]]"
+  - "[[case-yitang-fupanying-five-years-1000-hypotheses]]"
+  - "[[case-yitang-marathon-ten-seasons]]"
+  - "[[case-yitang-false-causality-collection]]"
+  - "[[case-yitang-magic-number-collection]]"
+  - "[[concept-一堂-三类目标策略]]"
 updated_at: 2026-07-02
 id: yt-management-goal-management
 author: 老顽童

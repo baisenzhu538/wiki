@@ -34,6 +34,7 @@ related:
 - '[[case-yitang-false-causality-collection]]'
 - '[[case-yitang-magic-number-collection]]'
 - '[[concept-一堂-参数耦合与动态公式]]'
+- '[[framework-科学决策三角形]]'
 diagnostic_signals:
 - signal: 数据会上有人指着两条同涨同跌的曲线说"这就是抓手，All in 它"
   lens: 把相关当因果——同涨同跌只说明"体温计"级别关系，不说明能当"方向盘"

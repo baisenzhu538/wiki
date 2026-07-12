@@ -35,6 +35,8 @@ related:
 - "[[yt-business-formula-six-level-logic]]"
 - "[[yt-entrepreneur-unit-model]]"
 - "[[yt-business-formula-ten-paradigms]]"
+- "[[case-yitang-shipinhao-ads-l1-l6]]"
+- "[[case-yitang-du-kids-education-sabc]]"
 ---
 # ToC 消费品电商：业务公式拆解误判导致放量亏损
 

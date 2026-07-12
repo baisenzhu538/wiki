@@ -31,6 +31,7 @@ related:
   - "[[yt-decision-full-process]]"
   - "[[yitang-domain-digest]]"
   - "[[decision-science-domain-digest]]"
+  - "[[case-yitang-panhonghai-entertainment]]"
 ---
 
 # 一堂·关键假设ABCD模型

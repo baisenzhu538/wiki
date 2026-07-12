@@ -24,6 +24,7 @@ related:
 - concept-发现决策
 - '[[yt-business-formula-hypothesis-management-playbook]]'
 - '[[yt-tool-business-formula-gongjianhui]]'
+- '[[case-yitang-marathon-ten-seasons]]'
 updated_at: '2026-06-29'
 ---
 # 落地卡片：攻坚会

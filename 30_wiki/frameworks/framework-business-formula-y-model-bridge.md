@@ -34,6 +34,9 @@ related:
   - '[[framework-business-formula-dual-triangle-bridge]]'
   - '[[framework-business-formula-fundamentals-bridge]]'
   - '[[tool-agent-spec-business-formula-parameter-miner]]'
+  - '[[case-yitang-marathon-ten-seasons]]'
+  - '[[case-yitang-woqingke-referral-15-to-40]]'
+  - '[[yt-tool-business-formula-quant-space-3d]]'
 diagnostic_signals:
   - signal: 团队会用Y模型画"理论×事实→假设"，但假设质量参差不齐，"提升转化率"这种假假设混在里面
     lens: Y模型给了"提出关键假设"这个动作但没给"怎么提出好假设"的方法——C域补的就是这个缺口

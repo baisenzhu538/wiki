@@ -31,6 +31,8 @@ related:
 - '[[case-yitang-zhanglei-gacha-points]]'
 - '[[case-yitang-homework-six-owners]]'
 - '[[case-yitang-false-causality-collection]]'
+- '[[framework-business-formula-dual-triangle-bridge]]'
+- '[[framework-科学决策三角形]]'
 diagnostic_signals:
 - signal: 团队要验证一条假设，方案是"先全量上线看看数据"
   lens: 没有控制变量——全量上线后数据变了也不知道是谁的功劳

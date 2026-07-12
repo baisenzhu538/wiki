@@ -34,6 +34,7 @@ related:
 - '[[case-yitang-yewenbin-archery-business-formula]]'
 - '[[framework-一堂-关键假设]]'
 - '[[yt-lean-assumption-prioritization]]'
+- '[[framework-business-formula-fundamentals-bridge]]'
 ---
 # Vicky 短视频：从"盯结果+抄同行+掷骰子"到测试群+飞书假设池，团队心力逆转、业务跑出来
 

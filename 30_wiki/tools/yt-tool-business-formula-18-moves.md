@@ -51,6 +51,8 @@ related:
 - '[[business-formula-domain-digest]]'
 - '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
 - '[[case-yitang-zhanglei-comic-booth]]'
+- '[[framework-business-formula-dual-triangle-bridge]]'
+- '[[framework-一堂-苦练基本功-总纲]]'
 diagnostic_signals:
 - signal: 团队一年只提三五个假设，黔驴技穷，全等一号位出主意
   lens: 加法四招（全面学习/拆解细节/营造氛围/设定数字）一招都没用——不是人笨，是信息通道、拆解颗粒度、氛围和 flag 全缺

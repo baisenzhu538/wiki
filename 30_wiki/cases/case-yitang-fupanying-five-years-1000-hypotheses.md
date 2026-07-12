@@ -52,6 +52,7 @@ related:
 - '[[framework-一堂-关键假设]]'
 - '[[tool-动力阻力分析]]'
 - '[[yt-management-goal-management]]'
+- '[[framework-business-formula-dual-triangle-bridge]]'
 ---
 # 一堂复盘营五年：8 个参数到 200+ 参数、1000+ 假设，把低转高做成不靠红利的长期生意
 

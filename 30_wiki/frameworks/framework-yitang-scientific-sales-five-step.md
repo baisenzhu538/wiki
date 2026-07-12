@@ -41,6 +41,9 @@ related:
   - "[[tool-yitang-three-second-opening-scripts]]"
   - "[[framework-yitang-y-model-cross-domain-fusion]]"
   - "[[agent-spec-yitang-Y-model-cross-domain-coach]]"
+  - "[[case-yitang-laowenqi-huixiao-10x]]"
+  - "[[case-yitang-innovative-metrics-collection]]"
+  - "[[case-yitang-three-industry-formula-demos]]"
 created_at: 2026-07-02
 updated_at: 2026-07-08
 ---

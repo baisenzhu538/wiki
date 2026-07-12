@@ -28,6 +28,7 @@ related:
 - '[[concept-一堂-假设飞轮]]'
 - '[[concept-一堂-魔法数字]]'
 - '[[business-formula-domain-digest]]'
+- '[[tool-动力阻力分析]]'
 diagnostic_signals:
 - signal: 续费率下滑，团队的应对是「加强客户成功」「多做沟通建立信任」
   lens: 把续费当成信任问题——信任管的是首购，续费管的是脱离成本，药开错了方

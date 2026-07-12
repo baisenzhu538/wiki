@@ -33,6 +33,7 @@ related:
 - '[[case-yitang-zhanglei-gacha-points]]'
 - '[[case-yitang-homework-six-owners]]'
 - '[[case-yitang-shipinhao-ads-l1-l6]]'
+- '[[framework-科学决策三角形]]'
 diagnostic_signals:
 - signal: 公式推演时默认"改 A 其他参数不动"，结果复盘时目标涨幅远小于 A 的涨幅
   lens: 静态模型思维——公式里参数耦合了，A 涨会把 B 往下拽

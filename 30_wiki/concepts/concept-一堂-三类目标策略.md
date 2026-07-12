@@ -30,6 +30,7 @@ related:
 - '[[business-formula-domain-digest]]'
 - '[[case-yitang-woqingke-referral-15-to-40]]'
 - '[[case-yitang-marathon-ten-seasons]]'
+- '[[yt-management-goal-management]]'
 diagnostic_signals:
 - signal: 新业务刚起步就被人要 KPI，定不出数就先压一个数交差
   lens: 探索期强挂必胜型 KPI——数字是编的，路径被锁死，团队从此只优化那个编出来的数

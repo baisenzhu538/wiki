@@ -33,6 +33,7 @@ related:
 - '[[case-yitang-marathon-ten-seasons]]'
 - '[[case-yitang-magic-number-collection]]'
 - '[[case-yitang-innovative-metrics-collection]]'
+- '[[framework-一堂-关键假设]]'
 diagnostic_signals:
 - signal: 增长资源（补贴/投放/运营人力）按用户量或订单量平均撒，花完没留下留存
   lens: 没找到拐点指标——钱撒在 95% 的存量上，没砸在 5% 的临界人群上

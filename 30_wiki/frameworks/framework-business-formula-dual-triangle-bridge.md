@@ -33,6 +33,10 @@ related:
   - '[[framework-business-formula-y-model-bridge]]'
   - '[[framework-business-formula-fundamentals-bridge]]'
   - '[[tool-agent-spec-business-formula-parameter-miner]]'
+  - '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+  - '[[yt-tool-business-formula-causality-toolkit]]'
+  - '[[concept-一堂-参数即假设与递归嵌套]]'
+  - '[[yt-tool-business-formula-18-moves]]'
 diagnostic_signals:
   - signal: 团队有双三角体系但不知道怎么把业务拆成可练的AI能力
     lens: C域桥接缺失——双三角给了六顶点框架，但没有告诉你怎么从业务里挖出参数给AI吃

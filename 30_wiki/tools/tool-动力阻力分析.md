@@ -22,6 +22,17 @@ related:
 - tool-ai-prd-for-ai
 - concept-X型Y型决策习惯
 - '[[case-yitang-innovative-metrics-collection]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[case-yitang-laowenqi-huixiao-10x]]'
+- '[[case-yitang-zhanglei-comic-booth]]'
+- '[[case-yitang-zhanglei-gacha-points]]'
+- '[[case-yitang-shipinhao-ads-l1-l6]]'
+- '[[case-yitang-xingangwan-chess-room]]'
+- '[[case-yitang-wenxiaozhang-driving-school]]'
+- '[[case-yitang-wang-mcn-funnel]]'
+- '[[case-yitang-panhonghai-entertainment]]'
+- '[[concept-一堂-脱离成本]]'
 updated_at: '2026-06-29'
 ---
 # 动力阻力分析：用户行为的推拉模型

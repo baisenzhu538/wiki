@@ -28,6 +28,7 @@ related:
 - '[[yt-tool-business-formula-parameter-arsenal]]'
 - '[[business-formula-domain-digest]]'
 - '[[case-yitang-three-industry-formula-demos]]'
+- '[[framework-一堂-苦练基本功-总纲]]'
 diagnostic_signals:
 - signal: 团队交的公式是一大长串，十几个参数一路乘下去，还混着加号求和
   lens: L1 糟糕版——长串+同类项未合并，正常人智商到极限，后面没法再展开二层
