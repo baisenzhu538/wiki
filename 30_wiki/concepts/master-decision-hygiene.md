@@ -33,6 +33,7 @@ related:
 - tool-yitang-Y-model-application
 - framework-yitang-shishi-qiushi
 - framework-yitang-jiefang-sixiang
+- '[[concept-yihang-dual-triangle-core]]'
 ---
 # 决策卫生五步法
 

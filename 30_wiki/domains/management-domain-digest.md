@@ -28,6 +28,7 @@ related:
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[concept-一堂-基本功定义]]'
 - '[[dk-fundamentals-before-advanced-ops]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 ---
 
 # 域摘要：一堂管理方法论

@@ -23,6 +23,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - framework-demand-lean-bridge
+- '[[case-demand-iceberg-few-shot]]'
+- '[[case-demand-b2b-enterprise-erp]]'
 updated_at: '2026-07-04'
 ---
 # 需求洞察冰山模型

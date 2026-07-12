@@ -24,6 +24,8 @@ related:
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - case-opc-agent-wave1-real-model-testing
+- '[[dk-demand-pitfall-dialer]]'
+- '[[dk-demand-feature-stacking]]'
 updated_at: '2026-06-29'
 ---
 # 案例：小胖猴拨号器

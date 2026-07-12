@@ -25,6 +25,9 @@ related:
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[case-opc-agent-wave1-real-model-testing]]'
 updated_at: '2026-06-30'
 ---
 # 域摘要：精益创业方法论

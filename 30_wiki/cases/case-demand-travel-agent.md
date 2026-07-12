@@ -30,6 +30,7 @@ related:
 - '[[case-科学决策-深度案例06]]'
 - '[[tool-demand-agent-signal-substitute]]'
 - case-opc-agent-wave1-real-model-testing
+- '[[tool-demand-agent-l4-case-match]]'
 updated_at: '2026-06-29'
 ---
 # 案例：旅行攻略Agent

@@ -25,6 +25,7 @@ related:
 - "[[concept-ai-native-organization-five-steps]]"
 - "[[ai-native-im-multi-agent]]"
 - "[[dk-lz-ai-native-organization]]"
+- "[[management-domain-digest]]"
 ---
 
 # YC 放出一套「AI-NATIVE 公司」组织方法论

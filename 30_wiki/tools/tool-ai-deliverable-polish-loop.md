@@ -43,6 +43,7 @@ related:
   - '[[tool-马易-AI落地场景筛选-四有新人法则]]'
   - '[[tool-马易-工作流优先于AIGC的决策方法]]'
 - case-panproduct-top135-selection-polish
+- '[[lean-startup-domain-digest]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 ---

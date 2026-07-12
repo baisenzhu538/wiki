@@ -26,6 +26,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
 - framework-strategy-lean-validation
+- '[[dk-tool-as-phased-validator]]'
 ---
 # 张磊 AMA：创业者 pivot 决策案例
 

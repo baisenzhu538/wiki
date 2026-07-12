@@ -89,6 +89,7 @@ related:
   - "[[case-zhanglei-twist-egg-machine-yogurt-nursing]]"
   - "[[case-婚礼操盘-用户和场景]]"
   - "[[case-婚礼规划]]"
+  - "[[lean-startup-domain-digest]]"
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 

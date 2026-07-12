@@ -54,6 +54,8 @@ related:
   - "[[concept-yihang-methodology-production-pipeline]]"
   - "[[concept-yihang-research-driven-company]]"
   - "[[concept-yitang-education-formula]]"
+- "[[master-decision-hygiene]]"
+- "[[lean-startup-domain-digest]]"
 aliases:
 - 一行双三角
 - 一堂双三角

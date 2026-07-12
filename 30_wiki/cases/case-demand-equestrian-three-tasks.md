@@ -25,6 +25,7 @@ related:
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - case-opc-agent-wave1-real-model-testing
+- '[[tool-demand-agent-l4-case-match]]'
 updated_at: '2026-06-29'
 ---
 # 案例：马术三层任务

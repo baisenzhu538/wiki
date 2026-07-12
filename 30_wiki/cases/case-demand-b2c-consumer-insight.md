@@ -29,6 +29,7 @@ related:
   - "[[case-demand-b2b-enterprise-erp]]"
   - "[[dk-demand-signal-vs-noise]]"
   - "[[case-smart-medicine-cabinet-failure-patterns-library]]"
+  - "[[dk-demand-misjudgment-rate]]"
 ---
 
 # ToC 消费洞察驱动需求案例

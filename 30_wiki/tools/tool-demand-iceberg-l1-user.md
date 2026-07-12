@@ -25,6 +25,7 @@ related:
 - '[[tool-demand-iceberg-l2-scenario]]'
 - proposal-prompt-injection-infrastructure
 - business-research-skill-oscar-13-weapon-system
+- '[[case-demand-elderly-smart-device]]'
 ---
 # L1粗拆用户标签
 

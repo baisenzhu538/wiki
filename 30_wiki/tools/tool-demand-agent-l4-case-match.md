@@ -5,7 +5,9 @@ type: tool
 status: reviewed
 confidence: 0.88
 trust_level: high
-domain: yitang
+domain:
+- yitang
+- five-step-method
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_冰山策略增强_外部探索.md
 - src_unknown
@@ -18,6 +20,18 @@ related:
 - '[[framework-multi-agent-research-architecture]]'
 - business-research-skill-oscar-13-weapon-system
 - framework-一堂五步法-泛产品设计
+- '[[case-demand-milkshake-jtbd]]'
+- '[[case-demand-ai-fitness-four-forces]]'
+- '[[case-demand-elderly-smart-device]]'
+- '[[case-demand-equestrian-three-tasks]]'
+- '[[case-demand-financial-literacy]]'
+- '[[case-demand-indonesia-insurance]]'
+- '[[case-demand-pharma-bigdata]]'
+- '[[case-demand-restaurant-hiring]]'
+- '[[case-demand-rural-5g]]'
+- '[[case-demand-silver-parenting]]'
+- '[[case-demand-tier4-housekeeping]]'
+- '[[case-demand-travel-agent]]'
 ---
 # Agent 做 L4：案例库自动检索匹配
 

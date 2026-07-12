@@ -24,6 +24,7 @@ related:
 - '[[tool-demand-iceberg-l4-job-map]]'
 - proposal-prompt-injection-infrastructure
 - business-research-skill-oscar-13-weapon-system
+- '[[case-demand-milkshake-jtbd]]'
 ---
 # L3圈定核心任务
 

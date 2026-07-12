@@ -23,6 +23,7 @@ related:
   - "[[yt-five-step-method]]"
   - "[[dk-tool-as-phased-validator]]"
   - "[[yitang-domain-digest]]"
+  - "[[case-demand-b2c-consumer-insight]]"
 updated_at: 2026-06-28
 
 ---

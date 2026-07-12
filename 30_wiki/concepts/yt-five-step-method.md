@@ -28,6 +28,7 @@ related:
 - "[[yt-growth-cycle-model]]"
 - "[[yt-barrier-analysis-cheat-sheet]]"
 - "[[yt-foresight-business-spectrum]]"
+- "[[dk-tool-as-phased-validator]]"
 review_date: 2026-06-10
 reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
