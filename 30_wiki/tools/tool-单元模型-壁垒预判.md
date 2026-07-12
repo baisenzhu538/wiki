@@ -18,6 +18,7 @@ related:
 - '[[dk-单元模型-找单元模型实操难点]]'
 - '[[concept-最简单元模型]]'
 - '[[ai单元模型口述蒋老师]]'
+  - '[[yt-entrepreneur-unit-model]]'
 - case-toy-cabinet-barrier
 updated_at: '2026-06-29'
 ---

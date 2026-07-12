@@ -30,6 +30,7 @@ related:
 - '[[concept-最简单元模型]]'
 - '[[tool-单元模型-壁垒预判]]'
 - '[[ai单元模型口述蒋老师]]'
+  - '[[yt-entrepreneur-unit-model]]'
 - yt-tool-unit-model-selection
 - yt-tob-solution-model
 diagnostic_signals:

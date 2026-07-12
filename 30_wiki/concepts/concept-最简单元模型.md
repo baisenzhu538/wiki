@@ -19,6 +19,7 @@ related:
 - '[[dk-单元模型-找单元模型实操难点]]'
 - '[[tool-单元模型-壁垒预判]]'
 - '[[ai单元模型口述蒋老师]]'
+  - '[[yt-entrepreneur-unit-model]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 quality_labels:
