@@ -82,14 +82,11 @@ print(f"  Fixed {refs_fixed} source_refs")
 # ── 4. 硬编码路径更新 ──
 print(f"\n[4/6] Hardcoded path updates ({MODE})")
 hardcoded = [
-    ("90_control/ingestion-pipeline.md", [(124, "30_wiki/raw/ocr", "10_raw/ocr-cards"),
-                                           (133, "30_wiki/raw/ocr", "10_raw/ocr-cards"),
-                                           (140, "30_wiki/raw/ocr", "10_raw/ocr-cards")]),
-    ("90_control/scripts/fix_cb_ew.py", [(182, "30_wiki/raw/ocr", "10_raw/ocr-cards")]),
-    ("90_control/scripts/label-quality-migrate.py", [(71, "30_wiki/raw/ocr", "10_raw/ocr-cards")]),
-    ("90_control/.sandbox/_ocr_final_cleanup.py", [(67, "30_wiki/raw/ocr", "10_raw/ocr-cards"),
-                                                     (68, "30_wiki/raw/ocr", "10_raw/ocr-cards")]),
-    (".agent/context.md", [(98, "30_wiki/raw/ocr", "10_raw/ocr-cards")]),
+    ("90_control/ingestion-pipeline.md", [("30_wiki/raw/ocr", "10_raw/ocr-cards")]),
+    ("90_control/scripts/fix_cb_ew.py", [("30_wiki/raw/ocr", "10_raw/ocr-cards")]),
+    ("90_control/scripts/label-quality-migrate.py", [('"raw/ocr"', '"10_raw"')]),
+    ("90_control/.sandbox/_ocr_final_cleanup.py", [("'raw/ocr'", "'10_raw/ocr-cards'")]),
+    (".agent/context.md", [("raw/ocr/ 分层隔离", "10_raw/ocr-cards/ 分层隔离")]),
 ]
 
 updated = 0
@@ -123,28 +120,33 @@ for card in sorted(DST.glob("*.md")) if not DRY else sorted(SRC.glob("*.md")):
     fm = fm_match.group(1)
     rest = c[len(fm):]
     if "needs-review" not in fm: continue
-    # Check if needs-review is in domain field context
-    if "domain:" in fm:
-        domain_section_start = fm.find("domain:")
-        domain_section_end = fm.find("\n", fm.find("\n", domain_section_start + 1) + 1)
-        if "needs-review" in fm[domain_section_start:domain_section_end]:
-            new_fm = fm.replace("- needs-review\n", "").replace("  - needs-review\n", "")
-            if new_fm != fm:
-                domain_fixed += 1
-                if not DRY:
-                    card.write_text(new_fm + rest, encoding="utf-8")
+    # Remove all occurrences of - needs-review (any indentation) in domain context
+    new_fm = re.sub(r'\s*-\s*needs-review\s*\n', '\n', fm)
+    if new_fm != fm:
+        domain_fixed += 1
+        if not DRY:
+            card.write_text(new_fm + rest, encoding="utf-8")
 
 print(f"  Fixed {domain_fixed} needs-review domain entries")
 
-# ── 6. 复扫验证 ──
+# ── 6. 复扫验证（Python原生扫描，不依赖外部rg）──
 print(f"\n[6/6] Residual scan")
-import subprocess
-r = subprocess.run(["rg", "-l", "30_wiki/raw/ocr", "30_wiki/", "90_control/", ".agent/"],
-    capture_output=True, text=True, cwd=str(VAULT))
-remaining = [l for l in r.stdout.strip().split("\n") if l and ".sandbox/" not in l and "tasks/" not in l and "memory/" not in l and "corrections/" not in l]
+remaining = []
+scan_dirs = ["30_wiki", "90_control", ".agent"]
+for sd in scan_dirs:
+    sp = VAULT / sd
+    if not sp.exists(): continue
+    for f in sp.rglob("*"):
+        if f.is_dir(): continue
+        if any(x in str(f) for x in [".sandbox", "tasks/", "memory/", "corrections/", "__pycache__", ".git"]): continue
+        try:
+            c = f.read_text(encoding="utf-8", errors="replace")
+        except: continue
+        if "30_wiki/raw/ocr" in c:
+            remaining.append(str(f.relative_to(VAULT)))
 if remaining:
     print(f"  WARNING: {len(remaining)} active references remain:")
-    for l in remaining[:10]:
+    for l in remaining[:15]:
         print(f"    {l}")
 else:
     print(f"  No active references to 30_wiki/raw/ocr/ found")
