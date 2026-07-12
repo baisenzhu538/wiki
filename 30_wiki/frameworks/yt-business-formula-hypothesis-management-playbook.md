@@ -62,6 +62,8 @@ related:
 - '[[case-yitang-panhonghai-entertainment]]'
 - '[[yt-management-goal-management]]'
 - '[[concept-mckinsey-hypothesis-driven]]'
+- '[[dk-yitang-business-formula-a-missing-syndrome]]'
+- '[[dk-yitang-business-formula-cd-loop-undo-key]]'
 diagnostic_signals:
 - signal: 老板提想法，全团队忙着证明老板是对的
   lens: 结论先行、纯拍脑袋——假设思维最底层的「默认假设是错的」共识没建立

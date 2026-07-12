@@ -40,6 +40,7 @@ related:
   - "[[tool-泛产品落地-里程碑拆解]]"
   - "[[business-formula-domain-digest]]"
   - "[[tool-一堂-业务公式-L1L6参数分层自检]]"
+  - "[[dk-yitang-business-formula-pseudo-causality-two-masks]]"
 tags: []
 author: 欧阳锋
 confidence: 0.85

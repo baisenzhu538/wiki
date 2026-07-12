@@ -50,6 +50,8 @@ related:
 - '[[case-yitang-vicky-short-video]]'
 - '[[case-yitang-innovative-metrics-collection]]'
 - '[[case-yitang-three-industry-formula-demos]]'
+- '[[dk-yitang-business-formula-a-missing-syndrome]]'
+- '[[dk-yitang-business-formula-l1-site-blindness]]'
 ---
 # 射箭馆：用业务公式四参数串起动力阻力触点，把"等客流"变成"经营转化率"
 

@@ -86,6 +86,10 @@ related:
 - '[[tool-动力阻力分析]]'
 - '[[framework-business-formula-dual-triangle-bridge]]'
 - '[[framework-business-formula-fundamentals-bridge]]'
+- '[[dk-yitang-business-formula-l1-site-blindness]]'
+- '[[tool-yitang-business-formula-l5-mining-and-verification]]'
+- '[[dk-yitang-business-formula-logic-l5-l6]]'
+- '[[dk-yitang-business-formula-pseudo-causality-two-masks]]'
 ---
 # 业务公式六层逻辑关系冰山（L1 模糊理解 → L6 动态建模）
 

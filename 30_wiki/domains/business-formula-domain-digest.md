@@ -87,6 +87,12 @@ related:
 - '[[agent-一堂-业务公式教练]]'
 - '[[framework-一堂-关键假设]]'
 - '[[framework-一堂-关键假设-ABCD模型]]'
+- '[[dk-yitang-business-formula-a-missing-syndrome]]'
+- '[[dk-yitang-business-formula-l1-site-blindness]]'
+- '[[tool-yitang-business-formula-l5-mining-and-verification]]'
+- '[[dk-yitang-business-formula-logic-l5-l6]]'
+- '[[dk-yitang-business-formula-cd-loop-undo-key]]'
+- '[[dk-yitang-business-formula-pseudo-causality-two-masks]]'
 ---
 
 # 域摘要：一堂业务公式（C 域）

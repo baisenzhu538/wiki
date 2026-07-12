@@ -40,6 +40,12 @@ related:
 - '[[case-yitang-yewenbin-archery-business-formula]]'
 - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 - '[[case-gym-membership-formula]]'
+- '[[dk-yitang-business-formula-a-missing-syndrome]]'
+- '[[dk-yitang-business-formula-l1-site-blindness]]'
+- '[[tool-yitang-business-formula-l5-mining-and-verification]]'
+- '[[dk-yitang-business-formula-logic-l5-l6]]'
+- '[[dk-yitang-business-formula-cd-loop-undo-key]]'
+- '[[dk-yitang-business-formula-pseudo-causality-two-masks]]'
 ---
 # 少儿舞蹈学校：续班率打不动时，退回业务公式找战场，再用转化率打节点（C↔D 循环）
 

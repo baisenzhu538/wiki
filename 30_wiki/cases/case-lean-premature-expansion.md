@@ -26,6 +26,7 @@ related:
   - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 - case-lean-building-in-vacuum
 - case-lean-premature-refinement
+- '[[dk-yitang-business-formula-l1-site-blindness]]'
 ---
 # 过早扩张案例集
 
