@@ -93,3 +93,10 @@ P-21 的方法论必须应用到所有调试场景：
 ### 4. Hermes 配置修改必须过 checklist
 - toolkit.md 第八章的 6 步检查表，改任何一项都对照
 - 特别不要忘记 auth.json 和 session 清理
+
+### 5. 批量脚本 dry-run 交付标准（2026-07-13 欧阳锋 #168 终审裁定）
+批量脚本两大暗坑，dry-run 报告必须覆盖：
+1. **非 ASCII 文件名**——dry-run 报告必须附**完整文件路径清单**，不能只看计数（#168 A-2 漏扫两次的教训）
+2. **YAML 缩进**——related 列表项多 2 空格会让整卡被解析器隐身（YAML 把缩进的 `- ai-saas` 吞进前一项标量）；dry-run 必须附 **yaml.safe_load 全量校验通过清单**，不能只读 frontmatter 文本
+- 交卷口径：完整路径列表 + yaml.safe_load 全过清单，缺一不可
+- 择机安排一次全库 yaml.safe_load 体检（#168 范围外可能还有同类隐身卡）
