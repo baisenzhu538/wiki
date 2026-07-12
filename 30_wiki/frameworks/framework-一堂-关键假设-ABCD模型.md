@@ -30,9 +30,9 @@ related:
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[business-formula-domain-digest]]'
-  - '[[framework-business-formula-dual-triangle-bridge]]'
-  - '[[framework-business-formula-fundamentals-bridge]]'
-  - '[[framework-business-formula-y-model-bridge]]'
+- '[[framework-business-formula-dual-triangle-bridge]]'
+- '[[framework-business-formula-fundamentals-bridge]]'
+- '[[framework-business-formula-y-model-bridge]]'
 - '[[dk-yitang-business-formula-cd-loop-undo-key]]'
 diagnostic_signals:
 - signal: 团队说"我们有个关键假设"，但说不清它属于哪类问题

@@ -54,17 +54,39 @@ def add_backlink(filepath, backlink_id):
     if backlink_id in fm: return False, content
 
     lines = fm.splitlines()
-    # Find last related line
-    last = -1
+    # Find related: line position
+    related_line_idx = -1
     for i, l in enumerate(lines):
-        if l.strip().startswith("-") and ("[[" in l or "[[" in l):
-            last = i
-    if last < 0: return False, content
+        if re.match(r'^related:\s*', l):
+            related_line_idx = i
+            break
 
-    # Match quote style
-    quote = "'" if "'" in lines[last] else '"'
-    new_entry = f"  - {quote}[[{backlink_id}]]{quote}"
-    lines.insert(last+1, new_entry)
+    if related_line_idx < 0:
+        # No related field at all — add one before closing ---
+        closing_idx = len(lines) - 1
+        quote = "'"
+        new_entry = f"  - {quote}[[{backlink_id}]]{quote}"
+        lines.insert(closing_idx, "related:")
+        lines.insert(closing_idx + 1, new_entry)
+    else:
+        # Find last related list item
+        last = related_line_idx
+        for i in range(related_line_idx + 1, len(lines)):
+            if lines[i].strip().startswith("-") and ("[[" in lines[i]):
+                last = i
+            elif lines[i].strip() and not lines[i].startswith(" "):
+                break
+
+        if last == related_line_idx:
+            # Empty related list — insert first entry after related: line
+            quote = "'"
+            new_entry = f"  - {quote}[[{backlink_id}]]{quote}"
+            lines.insert(related_line_idx + 1, new_entry)
+        else:
+            # Has existing entries — insert after last one
+            quote = "'" if "'" in lines[last] else '"'
+            new_entry = f"  - {quote}[[{backlink_id}]]{quote}"
+            lines.insert(last + 1, new_entry)
     new_fm = "\n".join(lines)
     new_content = new_fm + rest
     return True, new_content

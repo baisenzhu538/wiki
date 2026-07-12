@@ -96,7 +96,7 @@ related:
 - '[[case-yitang-innovative-metrics-collection]]'
 - '[[case-yitang-three-industry-formula-demos]]'
 - '[[tool-动力阻力分析]]'
-  - '[[framework-一堂-关键假设-三板斧]]'
+- '[[framework-一堂-关键假设-三板斧]]'
 - '[[dk-yitang-business-formula-a-missing-syndrome]]'
 - '[[dk-yitang-business-formula-l1-site-blindness]]'
 - '[[tool-yitang-business-formula-l5-mining-and-verification]]'

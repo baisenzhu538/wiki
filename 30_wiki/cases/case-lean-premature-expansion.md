@@ -23,7 +23,7 @@ related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
-  - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
+- '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 - case-lean-building-in-vacuum
 - case-lean-premature-refinement
 - '[[dk-yitang-business-formula-l1-site-blindness]]'
