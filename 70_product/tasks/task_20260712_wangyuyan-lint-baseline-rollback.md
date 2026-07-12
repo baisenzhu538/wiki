@@ -1,7 +1,7 @@
 ---
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-07-12T12:50:44.688497+00:00'
+status: pending_review
+updated_at: '2026-07-12T13:00:04.975729+00:00'
 reviewed_by: pending
 ---
 # 任务 #159：回链债语义分流 + lint 基线回卷（T5 完整方案）

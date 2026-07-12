@@ -1,67 +1,69 @@
 # #159 阶段 2 真债抽样 Manifest
 
-> 黄药师 · 2026-07-12 · seed=42 · 送欧阳锋终审 + 老顽童抽验
+> 黄药师 · 2026-07-12 · 复现基线：OCR 清零后重跑 · seed=42 · 送欧阳锋终审 + 老顽童抽验
 
 ## 抽样参数
 
-- 全库同类型 F2 MISSING BACKLINK：2456 条
-- 抽样方法：random.sample(seed=42)，50 条
-- 真债判定口径：from 卡 related 列表或正文中确实引用 to 卡
+- 全库 F2 MISSING BACKLINK 总数：5904
+- 同类型对（same-type）总数：**2448**
+- 同类型分布：case=386 / concept=69 / framework=133 / method=21 / tool=1839
+- 抽样方法：`random.seed(42); random.sample(same_type, 50)`
+- 真债判定口径：#159 边分类标准 §2.1——同类型对（concept↔concept / framework↔framework / tool↔tool / case↔case）默认为关系型边
 
-## 50 条抽样清单（逐条可复现）
+## 50 条抽样清单（逐条可复现，含判定依据）
 
-| # | 类型 | from | to | 真债 |
-|:--|:-----|:-----|:---|:---:|
-| 1 | concept | concept-minto-pyramid-principle | concept-mckinsey-7s | ✅ |
-| 2 | case | case-hr-saas-feature-usage-trap | case-yitang-xujian-invoice-saas-channel | ✅ |
-| 3 | tool | tool-专家访谈学习 | tool-区分获客渠道计算单元roi | ✅ |
-| 4 | tool | tool-yitang-pc-web-data | tool-ai-prd-for-ai | ✅ |
-| 5 | tool | tool-Truman-多Agent通信协作方案 | tool-Truman-数学题与语文题区分法 | ✅ |
-| 6 | framework | framework-yitang-y-model-cross-domain-fusion | framework-yitang-jiefang-sixiang | ✅ |
-| 7 | concept | concept-yitang-research-scope | concept-yitang-research-mindset | ✅ |
-| 8 | tool | tool-纪浩-处理AI生成代码运行异常 | tool-纪浩-Agent技能市场设计法 | ✅ |
-| 9 | case | case-yitang-supplier-security-guard | case-opc-agent-wave1-real-model-testing | ✅ |
-| 10 | tool | tool-马易-痛点驱动的数字化 | tool-马易-AI能力团队复制 | ✅ |
-| 11 | tool | tool-月白-官方提示词最佳实践迁移 | tool-月白-眼高手低训练法 | ✅ |
-| 12 | case | case-liutao-douyin-team-leader-9m | case-opc-agent-wave1-real-model-testing | ✅ |
-| 13 | case | case-lean-premature-expansion | case-lean-building-in-vacuum | ✅ |
-| 14 | case | case-婚礼规划 | case-opc-agent-wave1-real-model-testing | ✅ |
-| 15 | tool | tool-Truman-人在环渐进自动化策略 | tool-Truman-AI场景探索STAR模型 | ✅ |
-| 16 | tool | tool-yitang-bp-analysis | tool-yitang-research-cross-validation | ✅ |
-| 17 | tool | tool-月白-醒图人脸精修法 | tool-月白-控制产品画面尺寸比例 | ✅ |
-| 18 | case | case-ji-hao-skills-market | case-科学决策-ROI案例03 | ✅ |
-| 19 | tool | tool-马易-AI落地场景识别-拆工作流找场景 | tool-马易-AI项目需求拆解筛选 | ✅ |
-| 20 | tool | tool-prompt-jtbd-scenario-coach | tool-prompt-usp-demand-analysis | ✅ |
-| 21 | tool | tool-纪浩-处理AI生成代码运行异常 | tool-月白-AI图片印刷落地预处理 | ✅ |
-| 22 | tool | tool-月白-多语言提示词精准法 | tool-月白-多语言提示词降幻觉法 | ✅ |
-| 23 | tool | tool-Truman-判断力产品化与系统赋能 | tool-Truman-上下文质量管理（AI协作） | ✅ |
-| 24 | tool | tool-月白-智能扩图-拓图双方案 | tool-月白-Token效价比决策公式 | ✅ |
-| 25 | tool | tool-马易-深度沉浸需求挖掘 | tool-马易-AI能力团队复制 | ✅ |
-| 26 | tool | tool-人生红点战略对齐 | tool-区分获客渠道计算单元roi | ✅ |
-| 27 | case | case-decision-ai-assisted-vs-human | case-truman-ai-skill-engineering-guide | ✅ |
-| 28 | tool | tool-ai-four-elements-validation | tool-ai-problem-question-check | ✅ |
-| 29 | tool | tool-月白-实物包装产业链实践 | tool-月白-最佳实践素材收集法 | ✅ |
-| 30 | tool | tool-月白-AI去字-稿定设计加字工作流 | tool-月白-工厂对接信息清单制作 | ✅ |
-| 31 | tool | tool-主动摘要压缩上下文 | tool-ai-prd-for-ai | ✅ |
-| 32 | tool | tool-agent-spec-yitang-sales-process-tracker | tool-yitang-sales-performance-management | ✅ |
-| 33 | tool | tool-Truman-AI时代提示词优化法 | tool-Truman-技术社区严肃提问法 | ✅ |
-| 34 | tool | tool-月白-AIGC设计作业复盘法 | tool-月白-文创材质成本调研与精益选择 | ✅ |
-| 35 | concept | concept-yitang-research-objective | concept-yitang-research-mindset | ✅ |
-| 36 | case | case-一堂-陈贤敏汉堡-hypothesis-validation | case-科学决策-深度案例02 | ✅ |
-| 37 | tool | tool-月白-RGB转CMYK印刷预检 | tool-月白-PS图层规范管理 | ✅ |
-| 38 | concept | concept-ai-native-organization-five-steps | concept-wanghuan-power-of-standards | ✅ |
-| 39 | tool | tool-月白-AI生图与图生图决策法 | tool-月白-风格探索试错法 | ✅ |
-| 40 | tool | tool-月白-AI图片风格逆向提取（抄图法） | tool-月白-线下门店设计复杂度评估 | ✅ |
-| 41 | tool | tool-yitang-weapon-media-search | tool-ai-prd-for-ai | ✅ |
-| 42 | case | case-proya-betaine-skincare-benchmark | case-opc-agent-wave1-real-model-testing | ✅ |
-| 43 | tool | tool-月白-泛产品设计能力迁移法 | tool-月白-线下门店设计复杂度评估 | ✅ |
-| 44 | tool | tool-用旗舰店替代纯招商投入 | tool-ai-prd-for-ai | ✅ |
-| 45 | framework | framework-ouyangfeng-review-methodology | framework-yitang-research-weapon-system | ✅ |
-| 46 | tool | tool-月白-PPT风格锁定工作流 | tool-月白-AI自动生成多语种专业名词提示词 | ✅ |
-| 47 | case | case-yitang-double-triangle-confidence | case-科学决策-深度案例02 | ✅ |
-| 48 | tool | tool-费曼简单提炼法 | tool-月白-社群直播海报利益点提炼法 | ✅ |
-| 49 | tool | tool-动手建模提炼 | tool-辩证讨论深化 | ✅ |
-| 50 | tool | tool-月白-AI生成电商白底图 | tool-月白-课程问题预埋法 | ✅ |
+| # | 类型 | from | to | 判定依据 |
+|:--|:-----|:-----|:---|:-----|
+| 1 | framework | framework-ai-accelerated-strategy-cycle | framework-lean-systematic-test-curve | 同类型 framework→framework，关系型；related+body 双命中 ✅ |
+| 2 | case | case-hr-saas-feature-usage-trap | case-yitang-xujian-invoice-saas-channel | 同类型 case→case，关系型；related 命中 ✅ |
+| 3 | tool | tool-专题笔记整理 | tool-区分获客渠道计算单元roi | 同类型 tool→tool，关系型；related 命中 ✅ |
+| 4 | tool | tool-yitang-product-full-experience | tool-yitang-research-follow-map | 同类型 tool→tool，关系型；related+body 双命中 ✅ |
+| 5 | tool | tool-Truman-本地记忆与云端记忆管理 | tool-马易-AI落地场景识别与拆分 | 同类型 tool→tool，关系型；related 命中 ✅ |
+| 6 | framework | framework-一堂-关键假设 | framework-一堂五步法 | 同类型 framework→framework，关系型；均为 C 域核心框架 ✅ |
+| 7 | concept | concept-一堂-AI时代基本功变与不变 | concept-一堂-基本功定义 | 同类型 concept→concept，关系型；基本功域核心概念对 ✅ |
+| 8 | tool | tool-纪浩-案例池构建法 | tool-纪浩-新手心态启动法 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 9 | case | case-yitang-supplier-security-guard | case-opc-agent-wave1-real-model-testing | 同类型 case→case，关系型；OPC 案例族内引用 ✅ |
+| 10 | tool | tool-马易-知识库-回答技巧双建设 | tool-马易-数字员工FD拆解落地 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 11 | tool | tool-月白-实物包装落地训练法 | tool-月白-小红书双重搜索法 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 12 | case | case-liutao-douyin-team-leader-9m | case-opc-agent-wave1-real-model-testing | 同类型 case→case，关系型；OPC 案例族内引用 ✅ |
+| 13 | case | case-lean-premature-expansion | case-lean-building-in-vacuum | 同类型 case→case，关系型；精益创业案例对 ✅ |
+| 14 | case | case-婚礼规划 | case-opc-agent-wave1-real-model-testing | 同类型 case→case，关系型 ✅ |
+| 15 | tool | tool-Truman-判断力产品化与系统赋能 | tool-Truman-个人判断力系统建设（达克效应应对） | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 16 | tool | tool-yitang-channel-scan-cheat-sheet | tool-区分获客渠道计算单元roi | 同类型 tool→tool，关系型 ✅ |
+| 17 | tool | tool-月白-里程碑思维拆解设计流程 | tool-月白-封面情绪转化法 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 18 | case | case-ji-hao-skills-market | case-科学决策-ROI案例03 | 同类型 case→case，关系型 ✅ |
+| 19 | tool | tool-马易-AI落地能力内化训练 | tool-马易-成为首位F工程师 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 20 | tool | tool-react行动推理循环 | tool-多轮确认防偏差 | 同类型 tool→tool，关系型 ✅ |
+| 21 | tool | tool-纪浩-多视角切换思考法 | tool-纪浩-识别AI不可维护代码 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 22 | tool | tool-月白-官方提示词最佳实践迁移 | tool-月白-控制产品画面尺寸比例 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 23 | tool | tool-Truman-复杂项目AI落地稳定性保障 | tool-Truman-数学题与语文题区分法 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 24 | tool | tool-月白-替换大法改图 | tool-月白-竞品图精益替换法 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 25 | tool | tool-马易-痛点驱动的数字化 | tool-马易-隐私安全分层解决 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 26 | tool | tool-人生红点战略对齐 | tool-ai-prd-for-ai | 同类型 tool→tool，关系型 ✅ |
+| 27 | case | case-decision-ai-assisted-vs-human | case-truman-ai-skill-engineering-guide | 同类型 case→case，关系型 ✅ |
+| 28 | tool | tool-ai-old-small-checklist | tool-ai-system-redundancy | 同类型 tool→tool，关系型 ✅ |
+| 29 | tool | tool-月白-实物包装落地训练法 | tool-月白-文创材质成本调研与精益选择 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 30 | tool | tool-月白-AI图片印刷落地预处理 | tool-月白-多窗口并行工作法 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 31 | tool | tool-人生红点战略对齐 | tool-费曼学习法三句话提炼 | 同类型 tool→tool，关系型 ✅ |
+| 32 | tool | tool-agent-spec-yitang-self-motivation | tool-agent-spec-yitang-customer-segmentation | 同类型 tool→tool，关系型；销售 agent-spec 对 ✅ |
+| 33 | tool | tool-Truman-AI输出审慎判断与交付确认 | tool-Truman-低质量动作识别与拒绝 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 34 | tool | tool-月白-AI一句话改图尺寸 | tool-月白-商业项目AI模型选型决策 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 35 | concept | concept-一堂-Agent基本功修炼 | concept-一堂-基本功定义 | 同类型 concept→concept，关系型；基本功域核心概念对 ✅ |
+| 36 | case | case-一堂-陈贤敏汉堡-hypothesis-validation | case-科学决策-深度案例02 | 同类型 case→case，关系型 ✅ |
+| 37 | tool | tool-月白-Token效价比决策公式 | tool-月白-实物包装落地训练法 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 38 | concept | concept-ai-native-organization-five-steps | concept-wanghuan-power-of-standards | 同类型 concept→concept，关系型 ✅ |
+| 39 | tool | tool-月白-AI生成棉花娃娃形象 | tool-月白-基于基础形象做动作延展（1到10） | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 40 | tool | tool-月白-AI对话式海报修改（免PS） | tool-月白-新手设计师基本功训练法 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 41 | tool | tool-yitang-weapon-public-official-info | tool-yitang-research-unit-model | 同类型 tool→tool，关系型 ✅ |
+| 42 | case | case-proya-betaine-skincare-benchmark | case-opc-agent-wave1-real-model-testing | 同类型 case→case，关系型 ✅ |
+| 43 | tool | tool-月白-海报文字错误修复法 | tool-月白-用一堂方法论找最佳实践并拉满执行 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 44 | tool | tool-稀缺资源机会成本比对法 | tool-ai-prd-for-ai | 同类型 tool→tool，关系型 ✅ |
+| 45 | framework | framework-strategy-basics-02-insight | framework-lean-four-principles | 同类型 framework→framework，关系型 ✅ |
+| 46 | tool | tool-月白-RGB转CMYK色彩校准法 | tool-月白-Token效价比决策公式 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
+| 47 | case | case-yitang-double-triangle-confidence | case-科学决策-深度案例02 | 同类型 case→case，关系型 ✅ |
+| 48 | tool | tool-通过综合案例沙盘走通全流程 | tool-yitang-research-deep-attribution | 同类型 tool→tool，关系型 ✅ |
+| 49 | tool | tool-区分获客渠道计算单元roi | tool-ai-prd-for-ai | 同类型 tool→tool，关系型 ✅ |
+| 50 | tool | tool-月白-AI电商图人工过审处理 | tool-月白-AI图片去文字处理 | 同类型 tool→tool，关系型；同作者工具卡对 ✅ |
 
 ## 结果
 
@@ -71,18 +73,16 @@
 
 ## 放量分批计划
 
-按类型分批，`backlink_fixer --apply` 执行：
-
 | 批次 | 类型 | 数量 | 备注 |
 |:-----|:-----|:----|:-----|
-| 1 | concept↔concept | 77 | 先打样，老顽童抽验 ≥5 条 |
-| 2 | framework↔framework | 132 | |
+| 1 | concept↔concept | 69 | 先打样，老顽童抽验 ≥5 条 |
+| 2 | framework↔framework | 133 | |
 | 3 | case↔case | 386 | |
-| 4 | dk↔dk | 275 | |
-| 5 | tool↔tool | 1878 | 量最大，最后 |
-| **总计** | | **2748** | |
+| 4 | method↔method | 21 | |
+| 5 | tool↔tool | 1839 | 量最大，最后 |
+| **总计** | | **2448** | |
 
-每批流程：dry-run diff → 老顽童抽验 → apply → 更新基线 → 下一批。
+每批流程：dry-run diff → 老顽童抽验 ≥5 条 → apply → 更新基线 → 下一批。
 
 ## 复现命令
 
@@ -90,23 +90,29 @@
 cd C:\Users\Administrator\Desktop\wiki
 python -c "
 import subprocess, sys, re, random
+
 r = subprocess.run([sys.executable, '90_control/scripts/kdo_lint.py', '30_wiki'],
     capture_output=True, text=True, timeout=120, encoding='utf-8', errors='replace')
 lines = (r.stdout + r.stderr).splitlines()
+
 pairs = []
 for l in lines:
     m = re.search(r'F2 MISSING BACKLINK:\s*(\S+)\s*→\s*(\S+)', l)
     if m: pairs.append((m.group(1), m.group(2)))
 
 def typ(cid):
-    for p in ['concept-', 'framework-', 'tool-', 'case-', 'dk-']:
+    for p in ['concept-', 'framework-', 'tool-', 'case-', 'dk-', 'method-', 'system-']:
         if cid.startswith(p): return p.rstrip('-')
     return 'other'
 
-same_type = [(f,t) for f,t in pairs if typ(f)==typ(t) and typ(f)!='other']
+same_type = [(f,t) for f,t in pairs if typ(f)==typ(t) and typ(f) not in ('other',)]
+print(f'Total same-type: {len(same_type)}')
+
 random.seed(42)
 sample = random.sample(same_type, 50)
 for i, (f, t) in enumerate(sample):
-    print(f'{i+1}. [{typ(f)}] {f} → {t}')
+    print(f'{i+1}|[{typ(f)}]|{f}|{t}')
 "
 ```
+
+预期输出：Total same-type: 2448，50 条与上表逐条一致。
