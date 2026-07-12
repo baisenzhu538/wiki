@@ -4,7 +4,8 @@ title: 技能：AI搜索公网数据增强（合规边界）
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending

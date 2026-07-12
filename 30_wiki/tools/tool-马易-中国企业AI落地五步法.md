@@ -4,7 +4,8 @@ title: 技能：中国企业AI落地五步法
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending

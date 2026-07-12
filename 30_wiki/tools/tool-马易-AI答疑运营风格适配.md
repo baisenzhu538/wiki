@@ -4,7 +4,8 @@ title: 技能：AI答疑运营风格适配
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending

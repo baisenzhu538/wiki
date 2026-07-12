@@ -4,7 +4,8 @@ title: 技能：AI落地场景识别与拆分
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending

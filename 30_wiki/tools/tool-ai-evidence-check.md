@@ -4,7 +4,8 @@ title: 技能：AI输出证据核查三问法
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: draft
 author: unknown
 reviewed_by: pending

@@ -4,7 +4,8 @@ title: 技能：低置信度样本黄金漏斗处理
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending

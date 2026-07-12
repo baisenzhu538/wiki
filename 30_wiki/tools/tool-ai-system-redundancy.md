@@ -4,7 +4,8 @@ title: 技能：系统冗余度快速检查清单
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: draft
 author: unknown
 reviewed_by: pending

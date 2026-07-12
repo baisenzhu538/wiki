@@ -4,7 +4,8 @@ title: 技能：把PRD写成AI能执行的指令
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending

@@ -4,7 +4,8 @@ title: 技能：痛点驱动的数字化
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋

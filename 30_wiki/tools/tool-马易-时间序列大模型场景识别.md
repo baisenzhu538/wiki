@@ -4,7 +4,8 @@ title: 技能：时间序列大模型场景识别
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending

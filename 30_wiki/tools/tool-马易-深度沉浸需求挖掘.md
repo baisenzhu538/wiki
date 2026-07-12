@@ -4,7 +4,8 @@ title: 技能：深度沉浸需求挖掘
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending

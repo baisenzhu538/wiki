@@ -4,7 +4,8 @@ title: 技能：隐性知识萃取与模型化
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending

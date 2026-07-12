@@ -4,7 +4,8 @@ title: 技能：结构化AI工作空间搭建
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending

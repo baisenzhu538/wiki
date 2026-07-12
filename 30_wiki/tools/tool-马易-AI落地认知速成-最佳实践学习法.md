@@ -4,7 +4,8 @@ title: 技能：AI落地认知速成-最佳实践学习法
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending

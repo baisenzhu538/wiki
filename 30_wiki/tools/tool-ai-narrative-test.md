@@ -4,7 +4,8 @@ title: 技能：你的方案有叙事力吗？快速测试
 type: tool
 domain:
   - ai-collaboration
-  - yitang- ai-saas
+  - yitang
+  - ai-saas
 status: draft
 author: unknown
 reviewed_by: pending
