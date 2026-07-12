@@ -4,7 +4,7 @@ title: 技能：反向教学深化理解
 type: tool
 domain:
 - learning-methodology
-    - ai-saas
+- ai-saas
 - yitang
 status: draft
 source_person: Truman

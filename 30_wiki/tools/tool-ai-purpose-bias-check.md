@@ -5,7 +5,7 @@ type: tool
 domain:
 - ai-collaboration
 - yitang
-    - ai-saas
+- ai-saas
 status: draft
 author: unknown
 reviewed_by: pending
