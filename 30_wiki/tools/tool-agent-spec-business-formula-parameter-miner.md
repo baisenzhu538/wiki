@@ -216,7 +216,7 @@ L1没挖完不进入L2。每层挖到"这一层能想到的参数都列出来了
 
 ### 规则 2：L1-L4 用范式模板加速
 
-每个范式有预置的参数模板（`<<<TODO: 等C域参数挖掘武器库卡产出后嵌入>>>`）：
+每个范式有预置的参数模板（详见 `[[yt-tool-business-formula-parameter-arsenal]]`）：
 
 | 范式 | L1模板 | L2模板 | L3重点维度 | L4关键漏斗 |
 |:-----|:-------|:-------|:----------|:----------|
@@ -338,7 +338,7 @@ L5的每个候选必须标注"借自哪个范式"。
 | Agent 注册为 cap_hub tool | `registry.register(ParameterMinerCapability)` — name: `parameter-miner` |
 | 三环过滤器校验 | 务实性✅（场景锚定=任一业务输入）可练性✅（独立调用+结构化输出可检验）价值性✅（高频=每次做业务诊断都用） |
 | 下游 tool schema | 输出格式（区块1-6）即为 tool 的 output schema，可直接被 YAI agent 或自建 agent 调用 |
-| 数据资产沉淀 | 每次挖掘结果可作为 DataPack 存入 `<<<TODO: DataPack库路径>>>` |
+| 数据资产沉淀 | 每次挖掘结果存入假设池（`[[yt-tool-business-formula-hypothesis-pool]]`），成熟参数可升级为 DataPack（路径待 #158 收口后定） |
 
 ---
 
@@ -382,7 +382,7 @@ L5的每个候选必须标注"借自哪个范式"。
 
 ### 内部局限
 
-1. **C域本体卡未产出**：当前 spec 的范式模板、参数武器库、逻辑关系策略库依赖 `<<<TODO>>>` 占位符。本体卡产出后需回填。
+1. **C域本体卡已产出**（#155-157）：范式模板→`[[yt-business-formula-ten-paradigms]]`，参数武器库→`[[yt-tool-business-formula-parameter-arsenal]]`，逻辑关系策略库→`[[yt-business-formula-six-level-logic]]` + `[[yt-tool-business-formula-causality-toolkit]]`。wikilink 已回填。
 2. **YAI agent 行为待观察**：今天上线的业务公式 YAI agent 的实际推理链可能与这份 spec 的设计假设不同——需在第二步反向蒸馏后更新。
 3. **cap_hub 注册路径**：Phase 1 的 `register()` 无门禁，Phase 2 的门禁标准（三环过滤器）尚在 draft 阶段。
 

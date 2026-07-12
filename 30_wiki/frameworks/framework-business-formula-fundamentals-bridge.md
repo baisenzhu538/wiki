@@ -168,7 +168,7 @@ quality_labels:
 | cap_hub过滤器 | `[[tool-three-ring-capability-filter]]` | C域能力注册走同一个三环门禁 |
 | 双三角桥接 | `[[framework-business-formula-dual-triangle-bridge]]` | C域→双三角→飞轮三回路 |
 | Y模型桥接 | `[[framework-business-formula-y-model-bridge]]` | C域→Y模型关键假设层 |
-| C域总框架 | `<<<TODO: C域总纲卡>>>` | — |
+| C域总框架 | `[[framework-一堂-业务公式拆解-总纲]]` | — |
 
 ---
 

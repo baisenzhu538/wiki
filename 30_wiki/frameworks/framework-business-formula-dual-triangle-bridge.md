@@ -157,8 +157,8 @@ quality_labels:
 | 武器库对接 | `[[framework-yihang-dual-triangle-weapon-library]]` | C域入口写入§3.2 AI-基本功章节 |
 | 同构桥接 | `[[framework-business-formula-fundamentals-bridge]]` | C域×基本功域同构分析 |
 | Y模型桥接 | `[[framework-business-formula-y-model-bridge]]` | 业务公式=Y模型关键假设层操作化 |
-| C域总框架 | `<<<TODO: C域总纲卡>>>` | — |
-| cap_hub注册 | `<<<TODO: C域能力注册路径>>>` | 参数挖掘/逻辑验证/假设筛选→cap_hub tool |
+| C域总框架 | `[[framework-一堂-业务公式拆解-总纲]]` | — |
+| cap_hub注册 | `[[tool-three-ring-capability-filter]]` | 参数挖掘/逻辑验证/假设筛选→cap_hub tool |
 
 ---
 
