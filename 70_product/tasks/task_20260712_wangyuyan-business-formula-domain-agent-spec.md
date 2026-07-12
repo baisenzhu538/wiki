@@ -1,3 +1,8 @@
+---
+assignee: kimi
+status: in_progress
+updated_at: '2026-07-12T02:07:25.203585+00:00'
+---
 # 任务 #158：C 域·业务公式 agent-spec + 全域收口
 
 > 编排：王语嫣 | 生产：老顽童 | 终审：欧阳锋
