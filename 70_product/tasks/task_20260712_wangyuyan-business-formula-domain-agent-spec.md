@@ -1,7 +1,7 @@
 ---
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-12T02:07:25.203585+00:00'
+status: pending_review
+updated_at: '2026-07-12T02:23:19.473118+00:00'
 ---
 # 任务 #158：C 域·业务公式 agent-spec + 全域收口
 
