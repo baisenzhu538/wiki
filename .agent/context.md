@@ -4,7 +4,7 @@ updated_at: 2026-07-12T06:45:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "欧阳锋启动后执行队列完整性审计与 #162 终审：① 修复 audit_queue_integrity.py 任务单搜索路径（缺 70_product/tasks）；② 同步 6 个历史任务单 frontmatter 状态；③ 批量补全 14 个 reviewed 任务单 review_date/reviewed_by 元数据；④ 独立验证 #162 C域骨干直连 7 对双向边 + 摘除 2 条死链；⑤ 10/10 文件 pre-submit PASS，终审 A-。当前审计 0 异常、0 不一致；队列 2 queued / 0 pending_review / 0 claimed。"
+active_task: "欧阳锋 #163 终审：独立复验发现 #163 尚未 apply（dry-run 仍报 541 条 ocr-* 死链待处置），已在任务单追加终审 HOLD 记录并退回 queued；8 条改项预核合规但 6 条同族需补 yt-entrepreneur-unit-model 回链。裁定 #159 阶段 1-2 可继续推进，阶段 3 基线重建必须等 #163 清零后执行。"
 blockers:
   - "无阻塞项。队列与任务单状态已同步。"
   - "当前任务状态见 production-queue.md（唯一真相源）"

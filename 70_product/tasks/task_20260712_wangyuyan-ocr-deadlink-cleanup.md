@@ -119,3 +119,49 @@ C 域 5 处 `ocr-一堂-*` 链接指向不存在的卡；全库同类病散布�
 **保留 8 条的回链口径预告**：6 条同族卡→yt-entrepreneur-unit-model 补双向（同域真织网）；dk-modeling→tool 引用型豁免不回链；framework-TCPR→tool 挂起——等 #159 签署条件 2 的 tool 边分类裁定，先不回链。
 
 *欧阳锋 2026-07-12 · 重跑复核毕*
+
+---
+
+## 执行报告与终审记录（欧阳锋 · 2026-07-12 · 结论：HOLD，未 apply，退回 queued）
+
+### 独立验证结果
+
+1. **apply 状态**：仓库 `git status` 干净，`ocr_deadlink_cleanup.py --apply` 尚未执行。
+   - 脚本 dry-run 实跑：`541` 条 ocr-* BROKEN LINK 仍待处置（改 8 / 摘 533）。
+   - 用户所称「摘项 717 已 apply」与仓库实态不符。
+2. **增量 lint**：`kdo lint --baseline HEAD` → `0 new error(s), 21 new warning(s)`。21 条 warning 均为「source image OCR missing」，与 ocr 死链无关；errors 层面零新增 ✅。
+3. **基线签名**：`90_control/.lint_baseline.json` 签名总数 `10120`，与用户申报一致 ✅。
+4. **8 条改项目标卡存在性**：`yt-entrepreneur-unit-model` 存在（`30_wiki/concepts/yt-entrepreneur-unit-model.md`）✅。
+
+### 8 条改项按 #159 标准预核
+
+| from 卡 | 类型 | 命中证据 | 改后回链口径 |
+|:---|:---|:---|:---|
+| `concept-最简单元模型` | concept | 同域单元模型族、related 挂链 | 关系型边 → 须补 `yt-entrepreneur-unit-model` 回链 |
+| `yt-tob-unit-model` | framework | 同域单元模型族 | 关系型边 → 须补回链 |
+| `tool-单元模型-单商圈` | tool | 同域单元模型族 | 关系型边 → 须补回链 |
+| `tool-单元模型-单城市` | tool | 同域单元模型族 | 关系型边 → 须补回链 |
+| `tool-单元模型-壁垒预判` | tool | 同域单元模型族 | 关系型边 → 须补回链 |
+| `tool-单元模型-象限分析法` | tool | 同域单元模型族 | 关系型边 → 须补回链 |
+| `dk-modeling-unit-pairs-milestone` | dk | 正文命中「成对单元」 | dk→* 引用型豁免，不回链 |
+| `framework-TCPR底层网络协议` | framework | 正文命中「单元模型」 | framework→tool 暂挂（#159 签署条件 2），先不回链 |
+
+**预核意见**：8 条改项的「改」方向全部合规；6 条同族须同步在 `yt-entrepreneur-unit-model` 的 `related` 追加反向链接，否则 apply 后会新增 MISSING BACKLINK 真债。
+
+### 终审裁定
+
+- **verdict：HOLD / 退回 queued**。
+- **原因**：任务尚未 apply，不能对空气签字；本任务单第 53 行原已写明「欧阳锋过目签字后批量执行」。
+- **返工口径（黄药师执行）**：
+  1. 运行 `python 90_control/scripts/ocr_deadlink_cleanup.py --apply`；
+  2. 对 6 条同族改项，在 `yt-entrepreneur-unit-model.md` 的 `related` 追加反向回链；
+  3. 复跑 `kdo lint --baseline HEAD` 确认零新增 error；
+  4. 复跑清理脚本 dry-run，确认 ocr-* BROKEN LINK 在 30_wiki 范围内归零；
+  5. 将执行报告（含命令输出原文）append 到本任务单后，状态由黄药师走 `queue_transition.py complete` 提 pending_review，欧阳锋再审。
+
+### 对 #159 的时序影响
+
+- #159 **阶段 1（例外落表）和阶段 2（真债抽样/放量）可继续推进**，与 #163 无硬冲突。
+- #159 **阶段 3（基线重建）必须等 #163 apply 并清零 ocr-* 死链后再执行**，避免把 500+ 条已处置签名埋进新基线。
+
+*欧阳锋 2026-07-12 · #163 终审记录*
