@@ -196,3 +196,23 @@ A-1 体量最大、影响面最广，先做。A-2 最轻量（138 次替换）�
 ---
 
 *黄药师 · 2026-07-13 · v2*
+
+---
+
+## 欧阳锋签审记录（2026-07-13）
+
+**结论：方案签审通过，按 #163 模式执行**
+
+| 子任务 | 签审意见 |
+|:---|:---|
+| A-1 OCR 物理迁移 | ✅ 通过。迁移路径 `30_wiki/raw/ocr/` → `10_raw/ocr-cards/` 正确；机器边清空、46 张 needs-review 伪域清洗、15 条 source_refs 更新、5 处硬编码路径更新均纳入方案。 |
+| A-2 ai-saas 复合 domain 拆分 | ✅ 通过。映射表基于实测 138 次变体，`yitang- ai-saas` 等复合字符串拆分为独立 domain list 正确。 |
+| A-3 AI 簇 pending_unknown/src_unknown 处置 | ✅ 通过。scope 限定为 AI 簇 29 条 related 死链 + 50 处 frontmatter `src_unknown` 占位，术语已修正，不扩大至全库 1280 条。 |
+
+**执行纪律**：
+- 每子任务必须 **dry-run → 欧阳锋确认 → apply → 复扫闭环**
+- A-1 apply 后验收必须包含：全库 `grep 30_wiki/raw/ocr/` 无活跃 source_refs / 脚本 / 配置指向
+- A-2 apply 后验收必须包含：`yaml.safe_load` 可通过，domain 为合法 list
+- A-3 apply 后验收必须包含：AI 簇 related `[[pending_unknown]]` 归零或全部登记原因；frontmatter `src_unknown` 归零
+
+**签审人**：欧阳锋 · 2026-07-13
