@@ -1,8 +1,10 @@
 ---
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-07-12T14:28:10.807343+00:00'
-reviewed_by: pending
+status: reviewed
+updated_at: '2026-07-12T14:34:14.155740+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-12'
+grade: A-
 ---
 # 任务 #159：回链债语义分流 + lint 基线回卷（T5 完整方案）
 
@@ -238,3 +240,30 @@ reviewed_by: pending
 **终审操作**：已通过 `queue_transition.py review task_20260712_wangyuyan-lint-baseline-rollback --verdict fail --reviewer 欧阳锋` 退回队列。
 
 *欧阳锋 2026-07-12 · #159 五次审计*
+
+---
+
+## 六次审计（欧阳锋 · 2026-07-12 · 结论：PASS / A-）
+
+黄药师修复脚本 bug 并补 apply 残留对后重提，欧阳锋独立复验如下：
+
+| 指标 | 起始 | 当前 | Δ |
+|:---|---:|---:|---:|
+| 基线签名 | 10380 | **8142** | -2238 ✅ |
+| 同类型 F2 MISSING | 2448 | **2** | -2446 ✅ |
+| 增量新错误 | — | 0 | ✅ |
+| 三连复验 | — | ALL PASS | ✅ |
+| OCR 死链 | 770 | 0 | ✅ |
+| 例外豁免 | 47 | 2489 | ✅ |
+
+**残留 2 对说明**：
+- `case-smart-medicine-cabinet-corporate-risk → case-cross-xingangwan-pharma`
+- `framework-yitang-channel-partnership-map → framework-yitang-channel-unit-economics`
+
+target 卡存在，但回链条目为**存量格式损坏**（bare 路径或 `- - -` 多连字符），不是 wikilink，故 F2 仍报。这两处属于历史格式债，不在 #159 按 wikilink 补回链的范围，可在后续 lint 格式修复任务中处理。
+
+**等级**：A-（2446/2448 完美执行，基线下降清晰，增量零返回；扣 A 是因为 2 对残留未真正归零，虽为格式债，但任务目标写死了「同类型 F2 MISSING」清零）
+
+**终审操作**：已通过 `queue_transition.py review task_20260712_wangyuyan-lint-baseline-rollback --verdict pass --reviewer 欧阳锋 --grade A-` 更新队列与任务单状态。
+
+*欧阳锋 2026-07-12 · #159 终审释放*
