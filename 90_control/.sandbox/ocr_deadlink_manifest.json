@@ -1,6 +1,6 @@
 {
   "description": "#163 OCR deadlink cleanup — from×target full mapping",
-  "total_pairs": 725,
+  "total_pairs": 541,
   "pairs": [
     {
       "from": "case-ai-assisted-review",
@@ -73,11 +73,6 @@
       "action": "摘"
     },
     {
-      "from": "dk-p20-bigram-fail",
-      "to": "ocr-screenshot2",
-      "action": "摘"
-    },
-    {
       "from": "aima-ai思维卡-外部链接归档",
       "to": "ocr-truman的个人成长五步法",
       "action": "摘"
@@ -88,37 +83,12 @@
       "action": "摘"
     },
     {
-      "from": "case-modeling-process-livestream-prep",
-      "to": "ocr-truman的选择两条职业成长路线",
-      "action": "摘"
-    },
-    {
-      "from": "case-truman-prd-checklist-evolution",
-      "to": "ocr-truman的选择两条职业成长路线",
-      "action": "摘"
-    },
-    {
-      "from": "case-truman-sales-report-structure",
-      "to": "ocr-truman的选择两条职业成长路线",
-      "action": "摘"
-    },
-    {
-      "from": "case-yitang-radar-chart-selection",
-      "to": "ocr-truman的选择两条职业成长路线",
-      "action": "摘"
-    },
-    {
       "from": "case-modeling-process-sop-evolution",
       "to": "ocr-一堂-ai学习-提问工程化",
       "action": "摘"
     },
     {
       "from": "case-thousand-people-square",
-      "to": "ocr-一堂-ai学习-提问工程化",
-      "action": "摘"
-    },
-    {
-      "from": "yt-skill-checklist-as-ai-protocol",
       "to": "ocr-一堂-ai学习-提问工程化",
       "action": "摘"
     },
@@ -133,11 +103,6 @@
       "action": "摘"
     },
     {
-      "from": "yt-barrier-moat-building",
-      "to": "ocr-一堂-ai学习-提问进化路线图",
-      "action": "摘"
-    },
-    {
       "from": "tool-从案例中学习正反案例法",
       "to": "ocr-一堂-ai学习-提问进化路线图",
       "action": "摘"
@@ -148,22 +113,12 @@
       "action": "摘"
     },
     {
-      "from": "yt-tool-peas-agent-analysis",
-      "to": "ocr-一堂-ai清单体笔记系统故事线-truman-图片01",
-      "action": "摘"
-    },
-    {
       "from": "dk-infrastructure-guardrails-over-checklist",
       "to": "ocr-一堂-ai清单体笔记系统故事线-truman-图片01",
       "action": "摘"
     },
     {
       "from": "dk-modeling-ai-self-retrospection",
-      "to": "ocr-一堂-ai清单体笔记系统故事线-truman-图片01",
-      "action": "摘"
-    },
-    {
-      "from": "yt-note-three-level-evolution",
       "to": "ocr-一堂-ai清单体笔记系统故事线-truman-图片01",
       "action": "摘"
     },
@@ -249,11 +204,6 @@
     },
     {
       "from": "modeling-personal-practice-loop",
-      "to": "ocr-一堂-个人修炼-科学学习ipo模型",
-      "action": "摘"
-    },
-    {
-      "from": "tool-从案例中学习正反案例法",
       "to": "ocr-一堂-个人修炼-科学学习ipo模型",
       "action": "摘"
     },
@@ -408,11 +358,6 @@
       "action": "摘"
     },
     {
-      "from": "case-strategy-shell-oil",
-      "to": "ocr-一堂-单元模型-动态预测",
-      "action": "摘"
-    },
-    {
       "from": "concept-最简单元模型",
       "to": "ocr-一堂-单元模型-单商圈模型",
       "action": "摘"
@@ -430,16 +375,6 @@
     {
       "from": "tool-单元模型-壁垒预判",
       "to": "ocr-一堂-单元模型-单商圈模型",
-      "action": "摘"
-    },
-    {
-      "from": "dk-yb18-small-shop-image-mismatch",
-      "to": "ocr-一堂-单元模型-单客户模型",
-      "action": "摘"
-    },
-    {
-      "from": "yt-tob-customer-sabc",
-      "to": "ocr-一堂-单元模型-单客户模型",
       "action": "摘"
     },
     {
@@ -578,27 +513,7 @@
       "action": "改"
     },
     {
-      "from": "concept-wanghuan-tacit-knowledge-examples",
-      "to": "ocr-一堂-单元模型-单销售模型",
-      "action": "摘"
-    },
-    {
-      "from": "yt-barrier-offensive-strategy",
-      "to": "ocr-一堂-单元模型-壁垒预判",
-      "action": "摘"
-    },
-    {
       "from": "framework-demand-opportunity-spectrum",
-      "to": "ocr-一堂-单元模型-壁垒预判",
-      "action": "摘"
-    },
-    {
-      "from": "yt-five-step-method-complete",
-      "to": "ocr-一堂-单元模型-壁垒预判",
-      "action": "摘"
-    },
-    {
-      "from": "yt-growth-to-barrier",
       "to": "ocr-一堂-单元模型-壁垒预判",
       "action": "摘"
     },
@@ -773,11 +688,6 @@
       "action": "摘"
     },
     {
-      "from": "case-unit-model-gashapon",
-      "to": "ocr-一堂-单元模型-扭蛋机案例",
-      "action": "摘"
-    },
-    {
       "from": "2026-05-17-深夜感想",
       "to": "ocr-一堂-单元模型-找全成本实操难点",
       "action": "摘"
@@ -785,26 +695,6 @@
     {
       "from": "supply-chain-beverage",
       "to": "ocr-一堂-单元模型-找全成本实操难点",
-      "action": "摘"
-    },
-    {
-      "from": "在设计小伙伴的反馈还挺好的",
-      "to": "ocr-一堂-单元模型-找全成本实操难点",
-      "action": "摘"
-    },
-    {
-      "from": "老朱的水感-2026年5月",
-      "to": "ocr-一堂-单元模型-找全成本实操难点",
-      "action": "摘"
-    },
-    {
-      "from": "2026-05-17-深夜感想",
-      "to": "ocr-一堂-单元模型-找基准值实操难点",
-      "action": "摘"
-    },
-    {
-      "from": "business-analysis",
-      "to": "ocr-一堂-单元模型-找基准值实操难点",
       "action": "摘"
     },
     {
@@ -915,61 +805,6 @@
     {
       "from": "case-strategy-snack-business-design",
       "to": "ocr-一堂-单元模型-示例",
-      "action": "摘"
-    },
-    {
-      "from": "那今天不会",
-      "to": "ocr-一堂-单元模型-示例",
-      "action": "摘"
-    },
-    {
-      "from": "case-strategy-snack-business-design",
-      "to": "ocr-一堂-单元模型-示例01",
-      "action": "摘"
-    },
-    {
-      "from": "concept-最简单元模型",
-      "to": "ocr-一堂-单元模型-规模经济对抗武器库",
-      "action": "摘"
-    },
-    {
-      "from": "yt-barrier-scale-economies",
-      "to": "ocr-一堂-单元模型-规模经济对抗武器库",
-      "action": "摘"
-    },
-    {
-      "from": "yt-tob-unit-model",
-      "to": "ocr-一堂-单元模型-规模经济对抗武器库",
-      "action": "摘"
-    },
-    {
-      "from": "yt-unit-model-overview",
-      "to": "ocr-一堂-单元模型-规模经济对抗武器库",
-      "action": "摘"
-    },
-    {
-      "from": "tool-单元模型-单商圈",
-      "to": "ocr-一堂-单元模型-规模经济对抗武器库",
-      "action": "摘"
-    },
-    {
-      "from": "tool-单元模型-单城市",
-      "to": "ocr-一堂-单元模型-规模经济对抗武器库",
-      "action": "摘"
-    },
-    {
-      "from": "tool-单元模型-壁垒预判",
-      "to": "ocr-一堂-单元模型-规模经济对抗武器库",
-      "action": "摘"
-    },
-    {
-      "from": "tool-单元模型-象限分析法",
-      "to": "ocr-一堂-单元模型-规模经济对抗武器库",
-      "action": "摘"
-    },
-    {
-      "from": "tool-strategy-capability-matrix",
-      "to": "ocr-一堂-单元模型-象限分析法",
       "action": "摘"
     },
     {
@@ -1903,22 +1738,7 @@
       "action": "摘"
     },
     {
-      "from": "yitang-huazong-ama-summary",
-      "to": "ocr-一堂-科学决策-人机协作决策",
-      "action": "摘"
-    },
-    {
       "from": "case-一堂-陈贤敏汉堡-hypothesis-validation",
-      "to": "ocr-一堂-科学决策-关键假设abcd模型",
-      "action": "摘"
-    },
-    {
-      "from": "yt-foresight-deliverables-four-levels",
-      "to": "ocr-一堂-科学决策-关键假设abcd模型",
-      "action": "摘"
-    },
-    {
-      "from": "business-formula-to-kdo-card-quality",
       "to": "ocr-一堂-科学决策-关键假设abcd模型",
       "action": "摘"
     },
@@ -1953,67 +1773,7 @@
       "action": "摘"
     },
     {
-      "from": "concept-streaming-extraction-pattern",
-      "to": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
-      "action": "摘"
-    },
-    {
-      "from": "yt-business-model-cash-flow",
-      "to": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
-      "action": "摘"
-    },
-    {
-      "from": "yt-business-model-competitive-moat",
-      "to": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
-      "action": "摘"
-    },
-    {
-      "from": "yt-business-model-definition",
-      "to": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
-      "action": "摘"
-    },
-    {
-      "from": "yt-business-model-freemium",
-      "to": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
-      "action": "摘"
-    },
-    {
-      "from": "yt-business-model-subscription",
-      "to": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
-      "action": "摘"
-    },
-    {
-      "from": "yt-growth-market-led-growth",
-      "to": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
-      "action": "摘"
-    },
-    {
-      "from": "yt-growth-product-led-growth",
-      "to": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
-      "action": "摘"
-    },
-    {
-      "from": "yt-growth-sales-led-growth",
-      "to": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
-      "action": "摘"
-    },
-    {
       "from": "xingangwan-pharma-business-formulas",
-      "to": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
-      "action": "摘"
-    },
-    {
-      "from": "yt-business-formula-business-pattern-selector",
-      "to": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
-      "action": "摘"
-    },
-    {
-      "from": "yt-business-model-scalability",
-      "to": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
-      "action": "摘"
-    },
-    {
-      "from": "yt-product-kernel-to-business-model",
       "to": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
       "action": "摘"
     },
@@ -2048,11 +1808,6 @@
       "action": "摘"
     },
     {
-      "from": "dk-modeling-checklist-formatting-rules",
-      "to": "ocr-一堂-科学决策-深度-l1优先级定性",
-      "action": "摘"
-    },
-    {
       "from": "case-ai-assisted-review",
       "to": "ocr-一堂-科学决策-深度-l4-案例01",
       "action": "摘"
@@ -2119,11 +1874,6 @@
     },
     {
       "from": "yt-barrier-network-effects-deep",
-      "to": "ocr-一堂-科学决策-深度-l4严格财务公式",
-      "action": "摘"
-    },
-    {
-      "from": "xingangwan-pharma-business-formulas",
       "to": "ocr-一堂-科学决策-深度-l4严格财务公式",
       "action": "摘"
     },
@@ -2214,11 +1964,6 @@
     },
     {
       "from": "case-demand-silver-parenting",
-      "to": "ocr-一堂-科学决策-深度-案例02",
-      "action": "摘"
-    },
-    {
-      "from": "case-demand-tier4-housekeeping",
       "to": "ocr-一堂-科学决策-深度-案例02",
       "action": "摘"
     },
@@ -2383,226 +2128,6 @@
       "action": "摘"
     },
     {
-      "from": "case-ai-assisted-review",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-ban-fei-mao-from-assignment-to-tool",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-child-drawing-rhyme",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-course-milestone-model",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-demand-ai-fitness-four-forces",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-demand-dialer",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-demand-elderly-smart-device",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-demand-equestrian-three-tasks",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-demand-financial-literacy",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-demand-indonesia-insurance",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-demand-milkshake-jtbd",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-demand-pharma-bigdata",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-demand-restaurant-hiring",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-demand-rural-5g",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-demand-silver-parenting",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-essence-entrepreneurship",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-essence-humanity-trap",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-ether-online-acquisition",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-jh-yitang-vs-sqlhelper",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-modeling-abstraction-reliability-ladder",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-modeling-abstraction-yitang-models",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-modeling-essence-levels",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-modeling-essence-schools",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-modeling-process-livestream-roles",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-modeling-process-sop-examples",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-nine-pm-livestream-survey",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-strategy-failure-01-cosmetics",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-strategy-failure-02-supermarket",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-strategy-failure-03-cleaning",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-strategy-failure-04-appliance",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-strategy-failure-09-boeing",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-strategy-practice-10-turnaround",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-strategy-practice-11-third-place",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-strategy-practice-12-zero-loss",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-strategy-practice-ranpeng-crossborder",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-strategy-revival-13-bestore",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-strategy-revival-14-gucci",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-yitang-double-triangle-confidence",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-yitang-model-asset-inventory",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-yitang-model-valuation-flywheel",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-yitang-tob-grinding-machine",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-zhangyang-anchor-sop-three-locks",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
-      "from": "case-一堂-陈贤敏汉堡-hypothesis-validation",
-      "to": "ocr-一堂-科学决策-深度-案例04",
-      "action": "摘"
-    },
-    {
       "from": "concept-strategy-2024-2026-supplement",
       "to": "ocr-一堂-科学决策-深度-案例04",
       "action": "摘"
@@ -2613,42 +2138,12 @@
       "action": "摘"
     },
     {
-      "from": "pilot-atomic-chunk-comparison",
-      "to": "ocr-一堂-科学决策-稀缺机会窗口",
-      "action": "摘"
-    },
-    {
-      "from": "concept-strategy-2024-2026-supplement",
-      "to": "ocr-一堂-科学决策-稀缺资源清单",
-      "action": "摘"
-    },
-    {
       "from": "yt-decision-width-method",
       "to": "ocr-一堂-科学决策-稀缺资源清单",
       "action": "摘"
     },
     {
-      "from": "dk-infrastructure-guardrails-over-checklist",
-      "to": "ocr-一堂-科学决策-稀缺资源清单",
-      "action": "摘"
-    },
-    {
-      "from": "dk-modeling-ai-self-retrospection",
-      "to": "ocr-一堂-科学决策-稀缺资源清单",
-      "action": "摘"
-    },
-    {
       "from": "dk-p7-ocr-skip",
-      "to": "ocr-一堂-科学决策-稀缺资源清单",
-      "action": "摘"
-    },
-    {
-      "from": "sk-ai-old-small-checklist",
-      "to": "ocr-一堂-科学决策-稀缺资源清单",
-      "action": "摘"
-    },
-    {
-      "from": "tool-checklist-cheatsheet-modeling",
       "to": "ocr-一堂-科学决策-稀缺资源清单",
       "action": "摘"
     },
@@ -2658,32 +2153,17 @@
       "action": "摘"
     },
     {
-      "from": "tool-demand-assessment-triangle",
-      "to": "ocr-一堂-科学决策-项目方案评估三角形",
-      "action": "摘"
-    },
-    {
       "from": "dk-modeling-expert-consensus-five-percent",
       "to": "ocr-一堂-科学决策-高水平共识曲线重要",
       "action": "摘"
     },
     {
-      "from": "framework-strategy-three-horizons",
-      "to": "ocr-一堂-管理必修-课程清单",
-      "action": "摘"
-    },
-    {
       "from": "case-modeling-process-sop-evolution",
       "to": "ocr-一堂-高阶体系探索营-三种咨询可能性",
       "action": "摘"
     },
     {
       "from": "case-thousand-people-square",
-      "to": "ocr-一堂-高阶体系探索营-三种咨询可能性",
-      "action": "摘"
-    },
-    {
-      "from": "case-truman-ai-skill-engineering-guide",
       "to": "ocr-一堂-高阶体系探索营-三种咨询可能性",
       "action": "摘"
     },
@@ -2693,37 +2173,12 @@
       "action": "摘"
     },
     {
-      "from": "framework-strategy-basics-04-system",
-      "to": "ocr-一堂-高阶体系探索营-三种咨询可能性",
-      "action": "摘"
-    },
-    {
-      "from": "framework-strategy-basics-05-change",
-      "to": "ocr-一堂-高阶体系探索营-三种咨询可能性",
-      "action": "摘"
-    },
-    {
-      "from": "framework-strategy-five-basics",
-      "to": "ocr-一堂-高阶体系探索营-三种咨询可能性",
-      "action": "摘"
-    },
-    {
-      "from": "tool-ai-skill-engineering-guide",
-      "to": "ocr-一堂-高阶体系探索营-三种咨询可能性",
-      "action": "摘"
-    },
-    {
       "from": "case-modeling-process-sop-evolution",
       "to": "ocr-一堂y模型-科学成事道理",
       "action": "摘"
     },
     {
       "from": "case-thousand-people-square",
-      "to": "ocr-一堂y模型-科学成事道理",
-      "action": "摘"
-    },
-    {
-      "from": "aima-ai思维卡-外部链接归档",
       "to": "ocr-一堂y模型-科学成事道理",
       "action": "摘"
     },
@@ -2768,83 +2223,8 @@
       "action": "摘"
     },
     {
-      "from": "case-modeling-process-sop-evolution",
-      "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
-      "from": "case-thousand-people-square",
-      "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
-      "from": "concept-ai-native-organization-five-steps",
-      "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
-      "from": "concept-thousand-people-square",
-      "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
-      "from": "yt-business-model-partnership",
-      "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
-      "from": "yt-model-agent-architecture",
-      "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
-      "from": "dk-modeling-unit-pairs-milestone",
-      "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
       "from": "dk-p7-ocr-skip",
       "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
-      "from": "framework-demand-usp-model",
-      "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
-      "from": "framework-strategy-basics-02-insight",
-      "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
-      "from": "framework-strategy-mckinsey-7s",
-      "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
-      "from": "framework-TCPR底层网络协议",
-      "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
-      "from": "model-quality-four-levels",
-      "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
-      "from": "tool-strategy-control-points",
-      "to": "ocr-一堂y模型steps策略集",
-      "action": "摘"
-    },
-    {
-      "from": "case-personal-map-modeling",
-      "to": "ocr-一堂个人地图高潜力成长者修炼全景图",
-      "action": "摘"
-    },
-    {
-      "from": "concept-strategy-framework-landscape",
-      "to": "ocr-一堂个人地图高潜力成长者修炼全景图",
       "action": "摘"
     },
     {
@@ -2878,17 +2258,7 @@
       "action": "摘"
     },
     {
-      "from": "tool-canvas-weapon-library-modeling",
-      "to": "ocr-一堂五步法画布",
-      "action": "摘"
-    },
-    {
       "from": "tool-strategy-blue-ocean-canvas",
-      "to": "ocr-一堂五步法画布",
-      "action": "摘"
-    },
-    {
-      "from": "yt-business-model-canvas",
       "to": "ocr-一堂五步法画布",
       "action": "摘"
     },
@@ -2903,78 +2273,8 @@
       "action": "摘"
     },
     {
-      "from": "yt-product-kernel-shampoo-case",
-      "to": "ocr-一堂产品内核-十大典型指标",
-      "action": "摘"
-    },
-    {
-      "from": "yt-product-kernel-add-subtract",
-      "to": "ocr-一堂产品内核-十大典型指标",
-      "action": "摘"
-    },
-    {
-      "from": "yt-product-kernel-definition",
-      "to": "ocr-一堂产品内核-十大典型指标",
-      "action": "摘"
-    },
-    {
-      "from": "yt-product-kernel-key-conversion",
-      "to": "ocr-一堂产品内核-十大典型指标",
-      "action": "摘"
-    },
-    {
-      "from": "yt-product-kernel-six-levels",
-      "to": "ocr-一堂产品内核-十大典型指标",
-      "action": "摘"
-    },
-    {
-      "from": "case-strategy-model-selection-quiz",
-      "to": "ocr-一堂刻意练习十年成长指数",
-      "action": "摘"
-    },
-    {
-      "from": "modeling-personal-practice-loop",
-      "to": "ocr-一堂刻意练习十年成长指数",
-      "action": "摘"
-    },
-    {
-      "from": "yt-tool-mental-model-refinement",
-      "to": "ocr-一堂提炼过的因果模型",
-      "action": "摘"
-    },
-    {
-      "from": "yt-barrier-network-effects-deep",
-      "to": "ocr-一堂深度复盘冰山图",
-      "action": "摘"
-    },
-    {
-      "from": "tool-iceberg-triangle-modeling",
-      "to": "ocr-一堂深度复盘冰山图",
-      "action": "摘"
-    },
-    {
-      "from": "tool-prompt-iceberg-demand-analysis",
-      "to": "ocr-一堂深度复盘冰山图",
-      "action": "摘"
-    },
-    {
       "from": "yitang-methodology-system",
       "to": "ocr-一堂进步大地图",
-      "action": "摘"
-    },
-    {
-      "from": "framework-单元模型-外部对抗地图",
-      "to": "ocr-一堂进步大地图",
-      "action": "摘"
-    },
-    {
-      "from": "一堂方法论体系总图",
-      "to": "ocr-一堂进步大地图",
-      "action": "摘"
-    },
-    {
-      "from": "yitang-methodology-system",
-      "to": "ocr-一堂进步大地图_compressed",
       "action": "摘"
     },
     {
@@ -3003,11 +2303,6 @@
       "action": "摘"
     },
     {
-      "from": "paddleocr-skill",
-      "to": "ocr-微信图片_20260507004811_41_32",
-      "action": "摘"
-    },
-    {
       "from": "yt-tool-best-practice-learning",
       "to": "ocr-泛产品设计-审美卡片-最佳实践建模",
       "action": "摘"
@@ -3033,17 +2328,7 @@
       "action": "摘"
     },
     {
-      "from": "yt-tool-best-practice-learning",
-      "to": "ocr-泛产品设计-审美卡片-最佳实践池子",
-      "action": "摘"
-    },
-    {
       "from": "concept-wanghuan-ai-native-definition",
-      "to": "ocr-泛产品设计-审美工具箱指南",
-      "action": "摘"
-    },
-    {
-      "from": "kdo-yaml-frontmatter-safety",
       "to": "ocr-泛产品设计-审美工具箱指南",
       "action": "摘"
     },
@@ -3088,11 +2373,6 @@
       "action": "摘"
     },
     {
-      "from": "framework-candy-transcript-workflow",
-      "to": "ocr-泛产品设计-用户卡片-一堂五步法",
-      "action": "摘"
-    },
-    {
       "from": "dk-p4-batch-format-empty",
       "to": "ocr-泛产品设计-用户卡片-动力阻力",
       "action": "摘"
@@ -3100,11 +2380,6 @@
     {
       "from": "tool-strategy-business-summary",
       "to": "ocr-泛产品设计-用户卡片-动力阻力",
-      "action": "摘"
-    },
-    {
-      "from": "case-candy-problem-os-vpn",
-      "to": "ocr-泛产品设计-用户卡片-场景推演",
       "action": "摘"
     },
     {
@@ -3163,18 +2438,8 @@
       "action": "摘"
     },
     {
-      "from": "tool-strategy-customer-selection",
-      "to": "ocr-泛产品设计-用户卡片-场景推演",
-      "action": "摘"
-    },
-    {
       "from": "yt-product-kernel-mvp-design",
       "to": "ocr-泛产品设计-用户卡片-场景推演",
-      "action": "摘"
-    },
-    {
-      "from": "yt-demand-peak-end-rule",
-      "to": "ocr-泛产品设计-用户卡片-峰终定律",
       "action": "摘"
     },
     {
@@ -3205,11 +2470,6 @@
     {
       "from": "tool-strategy-business-summary",
       "to": "ocr-泛产品设计-用户卡片-惊喜公式",
-      "action": "摘"
-    },
-    {
-      "from": "yt-product-kernel-user-perspective",
-      "to": "ocr-泛产品设计-用户卡片-用户视角",
       "action": "摘"
     },
     {
@@ -3288,18 +2548,8 @@
       "action": "摘"
     },
     {
-      "from": "yt-growth-channel-roi",
-      "to": "ocr-泛产品设计-落地卡片-roi分析",
-      "action": "摘"
-    },
-    {
       "from": "yt-product-kernel-mvp-design",
       "to": "ocr-泛产品设计-落地卡片-roi分析",
-      "action": "摘"
-    },
-    {
-      "from": "tool-demand-four-forces",
-      "to": "ocr-泛产品设计-落地卡片-业务建模",
       "action": "摘"
     },
     {
@@ -3309,11 +2559,6 @@
     },
     {
       "from": "product-business-strategy",
-      "to": "ocr-泛产品设计-落地卡片-低成本测试mvp",
-      "action": "摘"
-    },
-    {
-      "from": "supply-chain-beverage",
       "to": "ocr-泛产品设计-落地卡片-低成本测试mvp",
       "action": "摘"
     },
@@ -3338,17 +2583,7 @@
       "action": "摘"
     },
     {
-      "from": "yt-product-kernel-hypothesis-test",
-      "to": "ocr-泛产品设计-落地卡片-低成本测试mvp",
-      "action": "摘"
-    },
-    {
       "from": "tool-strategy-business-summary",
-      "to": "ocr-泛产品设计-落地卡片-低成本测试mvp",
-      "action": "摘"
-    },
-    {
-      "from": "yt-growth-a-b-testing",
       "to": "ocr-泛产品设计-落地卡片-低成本测试mvp",
       "action": "摘"
     },
@@ -3368,11 +2603,6 @@
       "action": "摘"
     },
     {
-      "from": "case-truman-motivation-map-12-versions",
-      "to": "ocr-泛产品设计-落地卡片-攻坚会",
-      "action": "摘"
-    },
-    {
       "from": "case-纪浩-focus-prompt-design",
       "to": "ocr-泛产品设计-落地卡片-攻坚会",
       "action": "摘"
@@ -3398,11 +2628,6 @@
       "action": "摘"
     },
     {
-      "from": "dk-p7-ocr-skip",
-      "to": "ocr-泛产品设计-落地卡片-攻坚会",
-      "action": "摘"
-    },
-    {
       "from": "framework-strategy-ansoff",
       "to": "ocr-泛产品设计-落地卡片-攻坚会",
       "action": "摘"
@@ -3418,23 +2643,8 @@
       "action": "摘"
     },
     {
-      "from": "tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie",
-      "to": "ocr-泛产品设计-落地卡片-攻坚会",
-      "action": "摘"
-    },
-    {
       "from": "tool-strategy-business-summary",
       "to": "ocr-泛产品设计-落地卡片-攻坚会",
-      "action": "摘"
-    },
-    {
-      "from": "yt-product-kernel-mvp-design",
-      "to": "ocr-泛产品设计-落地卡片-攻坚会",
-      "action": "摘"
-    },
-    {
-      "from": "dk-modeling-expert-consensus-five-percent",
-      "to": "ocr-泛产品设计-落地卡片-灵感闪现",
       "action": "摘"
     },
     {
@@ -3458,37 +2668,7 @@
       "action": "摘"
     },
     {
-      "from": "tool-mece体系框架法",
-      "to": "ocr-泛产品设计-落地卡片-逻辑mece",
-      "action": "摘"
-    },
-    {
-      "from": "dk-p4-batch-format-empty",
-      "to": "ocr-泛产品设计-落地卡片-里程碑拆解",
-      "action": "摘"
-    },
-    {
-      "from": "dk-yitang-business-formula-plus-times-trap",
-      "to": "ocr-泛产品设计-落地卡片-里程碑拆解",
-      "action": "摘"
-    },
-    {
-      "from": "tool-strategy-business-summary",
-      "to": "ocr-泛产品设计-落地卡片-里程碑拆解",
-      "action": "摘"
-    },
-    {
-      "from": "case-deepfake-market-misuse",
-      "to": "ocr-泛产品设计-落地卡片-风险管理",
-      "action": "摘"
-    },
-    {
       "from": "concept-wanghuan-ai-native-definition",
-      "to": "ocr-泛产品设计-需求工具箱指南",
-      "action": "摘"
-    },
-    {
-      "from": "knowledge-delivery-os-快速体验指南-飞书云文档",
       "to": "ocr-泛产品设计-需求工具箱指南",
       "action": "摘"
     },
@@ -3498,43 +2678,13 @@
       "action": "摘"
     },
     {
-      "from": "yt-decision-width-method",
-      "to": "ocr-泛产品设计-需求工具箱指南",
-      "action": "摘"
-    },
-    {
       "from": "tool-demand-iceberg-l2-scenario",
-      "to": "ocr-泛产品设计-需求工具箱指南",
-      "action": "摘"
-    },
-    {
-      "from": "tool-strategy-blue-ocean-canvas",
       "to": "ocr-泛产品设计-需求工具箱指南",
       "action": "摘"
     },
     {
       "from": "tool-strategy-industry-chain-analysis",
       "to": "ocr-泛产品设计-需求工具箱指南",
-      "action": "摘"
-    },
-    {
-      "from": "tool-strategy-risk-management",
-      "to": "ocr-泛产品设计-需求工具箱指南",
-      "action": "摘"
-    },
-    {
-      "from": "yt-demand-segmentation-canvas",
-      "to": "ocr-泛产品设计-需求工具箱指南",
-      "action": "摘"
-    },
-    {
-      "from": "yt-product-kernel-canvas",
-      "to": "ocr-泛产品设计-需求工具箱指南",
-      "action": "摘"
-    },
-    {
-      "from": "deepseek-v4-在知识管理系统中的应用",
-      "to": "ocr-泛产品设计的应用场景示意图",
       "action": "摘"
     },
     {
@@ -3555,76 +2705,6 @@
     {
       "from": "framework-wanghuan-task-product-system",
       "to": "ocr-泛产品设计者的三大自我修养",
-      "action": "摘"
-    },
-    {
-      "from": "concept-wanghuan-ai-native-definition",
-      "to": "ocr-泛产品设计落地工具篇指南",
-      "action": "摘"
-    },
-    {
-      "from": "yt-decision-depth-ladder",
-      "to": "ocr-泛产品设计落地工具篇指南",
-      "action": "摘"
-    },
-    {
-      "from": "tool-strategy-industry-chain-analysis",
-      "to": "ocr-泛产品设计落地工具篇指南",
-      "action": "摘"
-    },
-    {
-      "from": "case-纪浩-focus-prompt-design",
-      "to": "ocr-泛产品设计落地篇",
-      "action": "摘"
-    },
-    {
-      "from": "kdo_product_design_agent_final",
-      "to": "ocr-泛产品设计落地篇",
-      "action": "摘"
-    },
-    {
-      "from": "product-business-strategy",
-      "to": "ocr-泛产品设计落地篇",
-      "action": "摘"
-    },
-    {
-      "from": "yt-growth-user-onboarding",
-      "to": "ocr-泛产品设计落地篇",
-      "action": "摘"
-    },
-    {
-      "from": "framework-strategy-ansoff",
-      "to": "ocr-泛产品设计落地篇",
-      "action": "摘"
-    },
-    {
-      "from": "framework-wanghuan-task-product-system",
-      "to": "ocr-泛产品设计落地篇",
-      "action": "摘"
-    },
-    {
-      "from": "modeling-to-kdo-toolchain",
-      "to": "ocr-泛产品设计落地篇",
-      "action": "摘"
-    },
-    {
-      "from": "case-guang-leng-dian-zi-hx-smj",
-      "to": "ocr-项目背景问题思考的8个维度",
-      "action": "摘"
-    },
-    {
-      "from": "dk-p17-accuracy-gap",
-      "to": "ocr-项目背景问题思考的8个维度",
-      "action": "摘"
-    },
-    {
-      "from": "tool-demand-iceberg-l2-scenario",
-      "to": "ocr-项目背景问题思考的8个维度",
-      "action": "摘"
-    },
-    {
-      "from": "framework-demand-opportunity-spectrum",
-      "to": "ocr-预判模型",
       "action": "摘"
     }
   ]
