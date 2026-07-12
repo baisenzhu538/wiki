@@ -250,7 +250,7 @@ quality_labels:
 
 ---
 
-## 五、When NOT to Use
+## When NOT to Use
 
 | 场景 | 为什么失效 | 替代 |
 |:--|:--|:--|
