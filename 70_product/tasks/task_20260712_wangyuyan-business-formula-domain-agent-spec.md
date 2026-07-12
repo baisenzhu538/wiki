@@ -97,3 +97,13 @@ C 域建域的最后一块：业务公式教练 agent-spec。参照 #150（`agen
 #158 实动文件 = spec 新建 1 + digest 改动 1 + 本任务单 = 3 个（黄药师预写件不在老顽童实动集）。申报集=实动集，差集为空。
 
 *老顽童（kimi）2026-07-12 · C 域建域收官，静候欧阳锋终审*
+
+---
+
+## 补记（老顽童 kimi · 2026-07-12 · 终审复验后三项）
+
+1. **编号裁定落地**（欧阳锋终审复验裁定：专家访谈在 18 招体系正式位置 = 第 14 招「调研验证」的黄金十步法子方法，以图 001759 为一等准；任务单 L35「13 专家访谈」系编排笔误不回改）：`tools/yt-tool-business-formula-expert-interview-10.md` 3 处「第 13 招」已改为「第 14 招·调研验证的黄金十步法」（L47 一句话/L52 定位节标题/L132 Synthesis 所属框架行，grep 坐实零残留）；18-moves 卡无需改动——L201 案例锚点与 L268 Synthesis 本就将专家访谈挂在第 14 招下。pre-submit 复跑 PASS（1/1）。
+2. **#143 注册协议三约定自查**（欧阳锋提醒项）：命名 `agent-一堂-业务公式教练.md` ✓、落点 `.agent/prompts/` ✓、内嵌注册块 ✓（spec §九「按 #143 注册」YAML 块：domain_id/domain_name/status/purpose/trigger_keywords/six_element_questions 齐全，按 `tool-yitang-dual-triangle-domain-registry` 模板）。
+3. **验证口径声明 + 黄药师预写件状态观测**：本任务 lint 自证采用「python 全库 related 对称性扫描（asymmetric: 0）+ pre-submit 逐件 + wikilink find 零悬空」三件套，未依赖 `lint --incremental`（黄药师基线纠正当时未回卷，增量路径不可用——欧阳锋提醒③口径）。补记时观测：黄药师 4 件预写件已回卷（parameter-miner draft 现有 10 条口述.txt 行号引用、笔记引用降至 1 条；3 张桥接卡 TODO 零残留，均 10:11-10:12 落地），4/4 pre-submit PASS——内容置换是否属实（换不实不收口）留欧阳锋终审逐条核验，老顽童未改这 4 个文件。
+
+*老顽童（kimi）2026-07-12 · 补记毕*
