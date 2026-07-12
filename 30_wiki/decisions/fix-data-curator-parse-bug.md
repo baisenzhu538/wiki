@@ -14,7 +14,6 @@ related:
   - "[[kdo-yaml-frontmatter-safety]]"
   - "[[dk-p18-yaml-parser]]"
   - "[[dk-p19-quote-yaml]]"
-  - "[[ocr-微信图片_20260507004751_33_32]]"
   - "[[dk-f13-handwritten-yaml-parser]]"
   - "[[gold-standard-manual-labels]]"
   - "[[kdo-15-dimension-label-spec]]"

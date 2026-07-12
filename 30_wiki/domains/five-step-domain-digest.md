@@ -24,9 +24,6 @@ review_notes: 补审（原reviewed_by黄药师，self-review违反L0铁律#4）�
 related:
   - "[[lean-startup-domain-digest]]"
   - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[ocr-一堂五步法画布]]"
-  - "[[ocr-泛产品设计-用户卡片-一堂五步法]]"
-  - "[[ocr-一堂五步法-产品内核画布]]"
 diagnostic_signals:
 - framework_lens: 五步法总纲
   follow_up_question: 你的项目在五步（需求/产品内核/商业模式/增长/壁垒）中卡在哪一步？先定位再深挖。

@@ -1,943 +1,164 @@
 {
   "description": "#163 final ocr cleanup — all [[ocr-*]] references removed",
-  "total_targets": 85,
-  "total_files": 125,
+  "total_targets": 23,
+  "total_files": 11,
   "targets": [
-    {
-      "ocr_target": "ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02",
-      "from_files": [
-        "30_wiki\\concepts\\ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md",
-        "30_wiki\\cases\\case-ai-assisted-review.md",
-        "30_wiki\\cases\\case-ban-fei-mao-from-assignment-to-tool.md",
-        "30_wiki\\cases\\case-child-drawing-rhyme.md",
-        "30_wiki\\cases\\case-course-milestone-model.md",
-        "30_wiki\\cases\\case-ether-online-acquisition.md",
-        "30_wiki\\cases\\case-jh-yitang-vs-sqlhelper.md",
-        "30_wiki\\cases\\case-modeling-abstraction-yitang-models.md",
-        "30_wiki\\cases\\case-modeling-essence-levels.md",
-        "30_wiki\\cases\\case-modeling-essence-schools.md",
-        "30_wiki\\cases\\case-modeling-process-livestream-roles.md",
-        "30_wiki\\cases\\case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch.md",
-        "30_wiki\\cases\\case-yitang-tob-grinding-machine.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-ocr_screenshot2",
-      "from_files": [
-        "30_wiki\\concepts\\aima-ai思维卡-外部链接归档.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-ocr_snipaste_2026-05-15_21-39-40",
-      "from_files": [
-        "30_wiki\\concepts\\aima-ai思维卡-外部链接归档.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-truman的个人成长五步法",
-      "from_files": [
-        "30_wiki\\concepts\\aima-ai思维卡-外部链接归档.md",
-        "30_wiki\\frameworks\\framework-candy-transcript-workflow.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-ai学习-提问工程化",
-      "from_files": [
-        "30_wiki\\tools\\tool-从案例中学习正反案例法.md",
-        "30_wiki\\cases\\case-modeling-process-sop-evolution.md",
-        "30_wiki\\cases\\case-thousand-people-square.md",
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-ai学习-提问进化路线图",
-      "from_files": [
-        "30_wiki\\tools\\tool-从案例中学习正反案例法.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-ai清单体笔记系统故事线-truman-图片01",
-      "from_files": [
-        "30_wiki\\concepts\\yt-decision-width-method.md",
-        "30_wiki\\tools\\sk-ai-old-small-checklist.md",
-        "30_wiki\\tools\\tool-canvas-weapon-library-modeling.md",
-        "30_wiki\\tools\\tool-checklist-cheatsheet-modeling.md",
-        "30_wiki\\dark-knowledges\\dk-infrastructure-guardrails-over-checklist.md",
-        "30_wiki\\dark-knowledges\\dk-modeling-ai-self-retrospection.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-个人修炼-全景图muse模型",
-      "from_files": [
-        "30_wiki\\concepts\\concept-strategy-framework-landscape.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-个人修炼-双三角模型",
-      "from_files": [
-        "30_wiki\\concepts\\concept-thousand-people-square.md",
-        "30_wiki\\concepts\\yitang-huazong-ama-summary.md",
-        "30_wiki\\frameworks\\modeling-personal-practice-loop.md",
-        "30_wiki\\cases\\case-yitang-double-triangle-confidence.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-个人修炼-提问刻意练习画布",
-      "from_files": [
-        "30_wiki\\frameworks\\modeling-personal-practice-loop.md",
-        "30_wiki\\tools\\tool-canvas-weapon-library-modeling.md",
-        "30_wiki\\tools\\tool-strategy-blue-ocean-canvas.md",
-        "30_wiki\\tools\\yt-business-model-canvas.md",
-        "30_wiki\\tools\\yt-demand-segmentation-canvas.md",
-        "30_wiki\\tools\\yt-product-kernel-canvas.md",
-        "30_wiki\\cases\\case-strategy-model-selection-quiz.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-个人修炼-科学学习ipo-全景策略",
-      "from_files": [
-        "30_wiki\\concepts\\yt-business-model-partnership.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-个人修炼-科学学习ipo模型",
-      "from_files": [
-        "30_wiki\\frameworks\\modeling-personal-practice-loop.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-个人修炼-科学提问刻意练习",
-      "from_files": [
-        "30_wiki\\frameworks\\modeling-personal-practice-loop.md",
-        "30_wiki\\cases\\case-strategy-model-selection-quiz.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-个人修炼-解放思想",
-      "from_files": [
-        "30_wiki\\frameworks\\modeling-personal-practice-loop.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-个人修炼-讲香十指模型-超级武器库",
-      "from_files": [
-        "30_wiki\\concepts\\concept-thousand-people-square.md",
-        "30_wiki\\frameworks\\framework-strategy-basics-02-insight.md",
-        "30_wiki\\frameworks\\framework-strategy-mckinsey-7s.md",
-        "30_wiki\\frameworks\\framework-TCPR底层网络协议.md",
-        "30_wiki\\frameworks\\model-quality-four-levels.md",
-        "30_wiki\\frameworks\\modeling-personal-practice-loop.md",
-        "30_wiki\\tools\\tool-strategy-control-points.md",
-        "30_wiki\\cases\\case-modeling-process-sop-evolution.md",
-        "30_wiki\\dark-knowledges\\dk-modeling-unit-pairs-milestone.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图",
-      "from_files": [
-        "30_wiki\\frameworks\\framework-单元模型-外部对抗地图.md",
-        "30_wiki\\frameworks\\modeling-personal-practice-loop.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-个人修炼-课程清单",
-      "from_files": [
-        "30_wiki\\systems\\一堂方法论体系总图.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-人机协作-双三角模型",
-      "from_files": [
-        "30_wiki\\concepts\\concept-thousand-people-square.md",
-        "30_wiki\\concepts\\yitang-huazong-ama-summary.md",
-        "30_wiki\\concepts\\yt-model-agent-architecture.md",
-        "30_wiki\\concepts\\在设计小伙伴的反馈还挺好的.md",
-        "30_wiki\\frameworks\\framework-strategy-basics-02-insight.md",
-        "30_wiki\\frameworks\\framework-strategy-mckinsey-7s.md",
-        "30_wiki\\frameworks\\framework-TCPR底层网络协议.md",
-        "30_wiki\\frameworks\\model-quality-four-levels.md",
-        "30_wiki\\tools\\tool-strategy-control-points.md",
-        "30_wiki\\cases\\case-yitang-double-triangle-confidence.md",
-        "30_wiki\\dark-knowledges\\dk-modeling-unit-pairs-milestone.md",
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-单元模型-abcd策略模型",
-      "from_files": [
-        "30_wiki\\concepts\\yt-business-model-partnership.md",
-        "30_wiki\\concepts\\那今天不会.md",
-        "30_wiki\\frameworks\\business-formula-to-kdo-card-quality.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-单元模型-单商圈模型",
-      "from_files": [
-        "30_wiki\\concepts\\concept-最简单元模型.md",
-        "30_wiki\\frameworks\\yt-tob-unit-model.md",
-        "30_wiki\\tools\\tool-单元模型-壁垒预判.md"
-      ]
-    },
     {
       "ocr_target": "ocr-一堂-单元模型-单履约模型",
       "from_files": [
-        "30_wiki\\concepts\\concept-最简单元模型.md",
-        "30_wiki\\frameworks\\yt-tob-unit-model.md",
-        "30_wiki\\tools\\tool-单元模型-单商圈.md",
-        "30_wiki\\tools\\tool-单元模型-单城市.md",
-        "30_wiki\\tools\\tool-单元模型-壁垒预判.md",
-        "30_wiki\\tools\\tool-单元模型-象限分析法.md"
+        "30_wiki\\dk\\dk-单元模型-对抗小抄.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-单元模型-单用户模型",
       "from_files": [
-        "30_wiki\\concepts\\concept-thousand-people-square.md",
-        "30_wiki\\concepts\\concept-最简单元模型.md",
-        "30_wiki\\concepts\\yt-growth-user-onboarding.md",
-        "30_wiki\\concepts\\yt-model-agent-architecture.md",
-        "30_wiki\\frameworks\\framework-demand-usp-model.md",
-        "30_wiki\\frameworks\\framework-strategy-basics-02-insight.md",
-        "30_wiki\\frameworks\\framework-strategy-mckinsey-7s.md",
-        "30_wiki\\frameworks\\framework-TCPR底层网络协议.md",
-        "30_wiki\\frameworks\\model-quality-four-levels.md",
-        "30_wiki\\frameworks\\yt-tob-unit-model.md",
-        "30_wiki\\tools\\tool-strategy-control-points.md",
-        "30_wiki\\tools\\tool-单元模型-单商圈.md",
-        "30_wiki\\tools\\tool-单元模型-单城市.md",
-        "30_wiki\\tools\\tool-单元模型-壁垒预判.md",
-        "30_wiki\\tools\\tool-单元模型-象限分析法.md",
-        "30_wiki\\cases\\case-modeling-process-sop-evolution.md",
-        "30_wiki\\cases\\case-thousand-people-square.md",
-        "30_wiki\\dark-knowledges\\dk-modeling-unit-pairs-milestone.md",
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-单元模型-壁垒预判",
-      "from_files": [
-        "30_wiki\\frameworks\\framework-demand-opportunity-spectrum.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-单元模型-外部对抗地图",
-      "from_files": [
-        "30_wiki\\frameworks\\framework-单元模型-外部对抗地图.md",
-        "30_wiki\\frameworks\\yt-tob-unit-model.md"
+        "30_wiki\\dk\\dk-单元模型-对抗小抄.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-单元模型-对抗小抄01",
       "from_files": [
-        "30_wiki\\concepts\\concept-thousand-people-square.md",
-        "30_wiki\\concepts\\concept-最简单元模型.md",
-        "30_wiki\\concepts\\yt-model-agent-architecture.md",
-        "30_wiki\\frameworks\\framework-strategy-mckinsey-7s.md",
-        "30_wiki\\frameworks\\framework-TCPR底层网络协议.md",
-        "30_wiki\\frameworks\\yt-tob-unit-model.md",
-        "30_wiki\\tools\\tool-strategy-control-points.md",
-        "30_wiki\\tools\\tool-单元模型-单商圈.md",
-        "30_wiki\\tools\\tool-单元模型-单城市.md",
-        "30_wiki\\tools\\tool-单元模型-壁垒预判.md",
-        "30_wiki\\tools\\tool-单元模型-象限分析法.md",
-        "30_wiki\\dark-knowledges\\dk-modeling-unit-pairs-milestone.md"
+        "30_wiki\\dk\\dk-单元模型-对抗小抄.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-单元模型-对抗小抄02",
       "from_files": [
-        "30_wiki\\concepts\\concept-thousand-people-square.md",
-        "30_wiki\\concepts\\concept-最简单元模型.md",
-        "30_wiki\\concepts\\yt-model-agent-architecture.md",
-        "30_wiki\\frameworks\\framework-demand-usp-model.md",
-        "30_wiki\\frameworks\\framework-strategy-basics-02-insight.md",
-        "30_wiki\\frameworks\\framework-strategy-mckinsey-7s.md",
-        "30_wiki\\frameworks\\framework-TCPR底层网络协议.md",
-        "30_wiki\\frameworks\\model-quality-four-levels.md",
-        "30_wiki\\frameworks\\yt-tob-unit-model.md",
-        "30_wiki\\tools\\tool-strategy-control-points.md",
-        "30_wiki\\tools\\tool-单元模型-单商圈.md",
-        "30_wiki\\tools\\tool-单元模型-单城市.md",
-        "30_wiki\\tools\\tool-单元模型-壁垒预判.md",
-        "30_wiki\\tools\\tool-单元模型-象限分析法.md",
-        "30_wiki\\cases\\case-modeling-process-sop-evolution.md",
-        "30_wiki\\dark-knowledges\\dk-modeling-unit-pairs-milestone.md",
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
+        "30_wiki\\dk\\dk-单元模型-对抗小抄.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-单元模型-找全成本实操难点",
       "from_files": [
-        "30_wiki\\concepts\\2026-05-17-深夜感想.md",
-        "30_wiki\\concepts\\supply-chain-beverage.md"
+        "30_wiki\\dk\\dk-单元模型-找全成本实操难点.md",
+        "30_wiki\\dk\\dk-单元模型-找基准值实操难点.md",
+        "30_wiki\\dk\\dk-单元模型-规模对抗实操难点.md"
+      ]
+    },
+    {
+      "ocr_target": "ocr-一堂-单元模型-找单元模型实操难点",
+      "from_files": [
+        "30_wiki\\dk\\dk-单元模型-找全成本实操难点.md",
+        "30_wiki\\dk\\dk-单元模型-找单元模型实操难点.md",
+        "30_wiki\\dk\\dk-单元模型-找基准值实操难点.md",
+        "30_wiki\\dk\\dk-单元模型-规模对抗实操难点.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-单元模型-找基准值实操难点",
       "from_files": [
-        "30_wiki\\concepts\\concept-最简单元模型.md",
-        "30_wiki\\frameworks\\yt-tob-unit-model.md",
-        "30_wiki\\tools\\tool-单元模型-单商圈.md",
-        "30_wiki\\tools\\tool-单元模型-单城市.md",
-        "30_wiki\\tools\\tool-单元模型-壁垒预判.md",
-        "30_wiki\\tools\\tool-单元模型-象限分析法.md"
+        "30_wiki\\dk\\dk-单元模型-对抗小抄.md",
+        "30_wiki\\dk\\dk-单元模型-找全成本实操难点.md",
+        "30_wiki\\dk\\dk-单元模型-找基准值实操难点.md",
+        "30_wiki\\dk\\dk-单元模型-规模对抗实操难点.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-单元模型-段位专家",
       "from_files": [
-        "30_wiki\\concepts\\concept-thousand-people-square.md",
-        "30_wiki\\concepts\\concept-最简单元模型.md",
-        "30_wiki\\concepts\\yt-model-agent-architecture.md",
-        "30_wiki\\frameworks\\framework-strategy-basics-02-insight.md",
-        "30_wiki\\frameworks\\framework-strategy-mckinsey-7s.md",
-        "30_wiki\\frameworks\\framework-TCPR底层网络协议.md",
-        "30_wiki\\frameworks\\yt-tob-unit-model.md",
-        "30_wiki\\tools\\tool-strategy-control-points.md",
-        "30_wiki\\tools\\tool-单元模型-单商圈.md",
-        "30_wiki\\tools\\tool-单元模型-单城市.md",
-        "30_wiki\\tools\\tool-单元模型-壁垒预判.md",
-        "30_wiki\\tools\\tool-单元模型-象限分析法.md",
-        "30_wiki\\dark-knowledges\\dk-modeling-unit-pairs-milestone.md"
+        "30_wiki\\dk\\dk-单元模型-对抗小抄.md"
       ]
     },
     {
-      "ocr_target": "ocr-一堂-单元模型-示例",
+      "ocr_target": "ocr-一堂-单元模型-规模对抗实操难点",
       "from_files": [
-        "30_wiki\\cases\\case-strategy-snack-business-design.md"
+        "30_wiki\\dk\\dk-单元模型-找全成本实操难点.md",
+        "30_wiki\\dk\\dk-单元模型-找基准值实操难点.md",
+        "30_wiki\\dk\\dk-单元模型-规模对抗实操难点.md"
       ]
     },
     {
-      "ocr_target": "ocr-一堂-地图-个人地图",
+      "ocr_target": "ocr-一堂-单元模型-规模经济对抗武器库",
       "from_files": [
-        "30_wiki\\frameworks\\framework-单元模型-外部对抗地图.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-地图-创业地图",
-      "from_files": [
-        "30_wiki\\frameworks\\framework-单元模型-外部对抗地图.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-地图-创业地图_conv",
-      "from_files": [
-        "30_wiki\\concepts\\aima-ai思维卡-外部链接归档.md",
-        "30_wiki\\frameworks\\framework-单元模型-外部对抗地图.md",
-        "30_wiki\\cases\\case-demand-tier4-housekeeping.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-地图-管理地图",
-      "from_files": [
-        "30_wiki\\frameworks\\framework-单元模型-外部对抗地图.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-地图-管理地图_conv",
-      "from_files": [
-        "30_wiki\\frameworks\\framework-strategy-three-horizons.md",
-        "30_wiki\\frameworks\\framework-单元模型-外部对抗地图.md",
-        "30_wiki\\cases\\case-modeling-process-sop-evolution.md",
-        "30_wiki\\cases\\case-thousand-people-square.md",
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-案例拆解-课程清单",
-      "from_files": [
-        "30_wiki\\concepts\\yt-decision-width-method.md",
-        "30_wiki\\tools\\sk-ai-old-small-checklist.md",
-        "30_wiki\\tools\\tool-checklist-cheatsheet-modeling.md",
-        "30_wiki\\cases\\case-ai-assisted-review.md",
-        "30_wiki\\cases\\case-ban-fei-mao-from-assignment-to-tool.md",
-        "30_wiki\\cases\\case-candy-problem-os-vpn.md",
-        "30_wiki\\cases\\case-child-drawing-rhyme.md",
-        "30_wiki\\cases\\case-course-milestone-model.md",
-        "30_wiki\\cases\\case-demand-ai-fitness-four-forces.md",
-        "30_wiki\\cases\\case-demand-dialer.md",
-        "30_wiki\\cases\\case-demand-elderly-smart-device.md",
-        "30_wiki\\cases\\case-demand-equestrian-three-tasks.md",
-        "30_wiki\\cases\\case-demand-financial-literacy.md",
-        "30_wiki\\cases\\case-demand-indonesia-insurance.md",
-        "30_wiki\\cases\\case-demand-milkshake-jtbd.md",
-        "30_wiki\\cases\\case-demand-pharma-bigdata.md",
-        "30_wiki\\cases\\case-demand-restaurant-hiring.md",
-        "30_wiki\\cases\\case-demand-rural-5g.md",
-        "30_wiki\\cases\\case-demand-silver-parenting.md",
-        "30_wiki\\cases\\case-demand-tier4-housekeeping.md",
-        "30_wiki\\cases\\case-essence-entrepreneurship.md",
-        "30_wiki\\cases\\case-essence-humanity-trap.md",
-        "30_wiki\\cases\\case-ether-online-acquisition.md",
-        "30_wiki\\cases\\case-guang-leng-dian-zi-hx-smj.md",
-        "30_wiki\\cases\\case-jh-yitang-vs-sqlhelper.md",
-        "30_wiki\\cases\\case-modeling-abstraction-reliability-ladder.md",
-        "30_wiki\\cases\\case-modeling-abstraction-yitang-models.md",
-        "30_wiki\\cases\\case-modeling-essence-levels.md",
-        "30_wiki\\cases\\case-modeling-essence-schools.md",
-        "30_wiki\\cases\\case-modeling-process-livestream-roles.md",
-        "30_wiki\\cases\\case-modeling-process-sop-examples.md",
-        "30_wiki\\cases\\case-nine-pm-livestream-survey.md",
-        "30_wiki\\cases\\case-personal-map-modeling.md",
-        "30_wiki\\cases\\case-strategy-failure-01-cosmetics.md",
-        "30_wiki\\cases\\case-strategy-failure-02-supermarket.md",
-        "30_wiki\\cases\\case-strategy-failure-03-cleaning.md",
-        "30_wiki\\cases\\case-strategy-practice-10-turnaround.md",
-        "30_wiki\\cases\\case-strategy-practice-ranpeng-crossborder.md",
-        "30_wiki\\cases\\case-strategy-revival-14-gucci.md",
-        "30_wiki\\cases\\case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch.md",
-        "30_wiki\\cases\\case-yitang-double-triangle-confidence.md",
-        "30_wiki\\cases\\case-yitang-model-asset-inventory.md",
-        "30_wiki\\cases\\case-yitang-model-valuation-flywheel.md",
-        "30_wiki\\cases\\case-yitang-tob-grinding-machine.md",
-        "30_wiki\\cases\\case-zhangyang-anchor-sop-three-locks.md",
-        "30_wiki\\cases\\case-一堂-陈贤敏汉堡-hypothesis-validation.md",
-        "30_wiki\\dark-knowledges\\dk-infrastructure-guardrails-over-checklist.md",
-        "30_wiki\\dark-knowledges\\dk-modeling-ai-self-retrospection.md",
-        "30_wiki\\dark-knowledges\\dk-yitang-business-formula-plus-times-trap.md"
+        "30_wiki\\dk\\dk-单元模型-对抗小抄.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-科学决策-roi决策评估画布",
       "from_files": [
-        "30_wiki\\concepts\\concept-strategy-2024-2026-supplement.md",
-        "30_wiki\\frameworks\\yt-business-model-scalability.md",
-        "30_wiki\\tools\\tool-canvas-weapon-library-modeling.md",
-        "30_wiki\\tools\\tool-strategy-blue-ocean-canvas.md",
-        "30_wiki\\tools\\yt-business-model-canvas.md",
-        "30_wiki\\tools\\yt-demand-segmentation-canvas.md",
-        "30_wiki\\tools\\yt-growth-channel-roi.md",
-        "30_wiki\\tools\\yt-product-kernel-canvas.md",
-        "30_wiki\\cases\\case-modeling-process-sop-evolution.md",
-        "30_wiki\\cases\\case-thousand-people-square.md",
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-科学决策-roi决策评估画布-案例01",
-      "from_files": [
-        "30_wiki\\frameworks\\yt-business-model-scalability.md",
-        "30_wiki\\tools\\yt-business-model-canvas.md",
-        "30_wiki\\tools\\yt-demand-segmentation-canvas.md",
-        "30_wiki\\tools\\yt-growth-channel-roi.md",
-        "30_wiki\\tools\\yt-product-kernel-canvas.md",
-        "30_wiki\\cases\\case-ai-assisted-review.md",
-        "30_wiki\\cases\\case-ban-fei-mao-from-assignment-to-tool.md",
-        "30_wiki\\cases\\case-child-drawing-rhyme.md",
-        "30_wiki\\cases\\case-course-milestone-model.md",
-        "30_wiki\\cases\\case-demand-ai-fitness-four-forces.md",
-        "30_wiki\\cases\\case-demand-dialer.md",
-        "30_wiki\\cases\\case-demand-financial-literacy.md",
-        "30_wiki\\cases\\case-demand-indonesia-insurance.md",
-        "30_wiki\\cases\\case-demand-milkshake-jtbd.md",
-        "30_wiki\\cases\\case-demand-restaurant-hiring.md",
-        "30_wiki\\cases\\case-demand-rural-5g.md",
-        "30_wiki\\cases\\case-demand-silver-parenting.md",
-        "30_wiki\\cases\\case-demand-tier4-housekeeping.md",
-        "30_wiki\\cases\\case-essence-entrepreneurship.md",
-        "30_wiki\\cases\\case-essence-humanity-trap.md",
-        "30_wiki\\cases\\case-ether-online-acquisition.md",
-        "30_wiki\\cases\\case-jh-yitang-vs-sqlhelper.md",
-        "30_wiki\\cases\\case-modeling-abstraction-reliability-ladder.md",
-        "30_wiki\\cases\\case-modeling-abstraction-yitang-models.md",
-        "30_wiki\\cases\\case-modeling-essence-levels.md",
-        "30_wiki\\cases\\case-modeling-essence-schools.md",
-        "30_wiki\\cases\\case-modeling-process-livestream-roles.md",
-        "30_wiki\\cases\\case-nine-pm-livestream-survey.md",
-        "30_wiki\\cases\\case-strategy-failure-01-cosmetics.md",
-        "30_wiki\\cases\\case-strategy-failure-02-supermarket.md",
-        "30_wiki\\cases\\case-strategy-failure-03-cleaning.md",
-        "30_wiki\\cases\\case-strategy-practice-10-turnaround.md",
-        "30_wiki\\cases\\case-strategy-practice-ranpeng-crossborder.md",
-        "30_wiki\\cases\\case-strategy-revival-14-gucci.md",
-        "30_wiki\\cases\\case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch.md",
-        "30_wiki\\cases\\case-yitang-model-valuation-flywheel.md",
-        "30_wiki\\cases\\case-yitang-tob-grinding-machine.md",
-        "30_wiki\\cases\\case-zhangyang-anchor-sop-three-locks.md",
-        "30_wiki\\cases\\case-一堂-陈贤敏汉堡-hypothesis-validation.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-科学决策-roi决策评估画布-案例02",
-      "from_files": [
-        "30_wiki\\frameworks\\yt-business-model-scalability.md",
-        "30_wiki\\tools\\tool-canvas-weapon-library-modeling.md",
-        "30_wiki\\tools\\tool-strategy-blue-ocean-canvas.md",
-        "30_wiki\\tools\\yt-business-model-canvas.md",
-        "30_wiki\\tools\\yt-demand-segmentation-canvas.md",
-        "30_wiki\\tools\\yt-growth-channel-roi.md",
-        "30_wiki\\tools\\yt-product-kernel-canvas.md",
-        "30_wiki\\cases\\case-ai-assisted-review.md",
-        "30_wiki\\cases\\case-ban-fei-mao-from-assignment-to-tool.md",
-        "30_wiki\\cases\\case-candy-problem-os-vpn.md",
-        "30_wiki\\cases\\case-child-drawing-rhyme.md",
-        "30_wiki\\cases\\case-course-milestone-model.md",
-        "30_wiki\\cases\\case-demand-ai-fitness-four-forces.md",
-        "30_wiki\\cases\\case-demand-dialer.md",
-        "30_wiki\\cases\\case-demand-elderly-smart-device.md",
-        "30_wiki\\cases\\case-demand-equestrian-three-tasks.md",
-        "30_wiki\\cases\\case-demand-financial-literacy.md",
-        "30_wiki\\cases\\case-demand-indonesia-insurance.md",
-        "30_wiki\\cases\\case-demand-milkshake-jtbd.md",
-        "30_wiki\\cases\\case-demand-pharma-bigdata.md",
-        "30_wiki\\cases\\case-demand-restaurant-hiring.md",
-        "30_wiki\\cases\\case-demand-rural-5g.md",
-        "30_wiki\\cases\\case-demand-silver-parenting.md",
-        "30_wiki\\cases\\case-demand-tier4-housekeeping.md",
-        "30_wiki\\cases\\case-essence-entrepreneurship.md",
-        "30_wiki\\cases\\case-essence-humanity-trap.md",
-        "30_wiki\\cases\\case-ether-online-acquisition.md",
-        "30_wiki\\cases\\case-jh-yitang-vs-sqlhelper.md",
-        "30_wiki\\cases\\case-modeling-abstraction-reliability-ladder.md",
-        "30_wiki\\cases\\case-modeling-abstraction-yitang-models.md",
-        "30_wiki\\cases\\case-modeling-essence-levels.md",
-        "30_wiki\\cases\\case-modeling-essence-schools.md",
-        "30_wiki\\cases\\case-modeling-process-livestream-roles.md",
-        "30_wiki\\cases\\case-modeling-process-sop-examples.md",
-        "30_wiki\\cases\\case-nine-pm-livestream-survey.md",
-        "30_wiki\\cases\\case-personal-map-modeling.md",
-        "30_wiki\\cases\\case-strategy-failure-01-cosmetics.md",
-        "30_wiki\\cases\\case-strategy-failure-02-supermarket.md",
-        "30_wiki\\cases\\case-strategy-failure-03-cleaning.md",
-        "30_wiki\\cases\\case-strategy-practice-10-turnaround.md",
-        "30_wiki\\cases\\case-strategy-practice-ranpeng-crossborder.md",
-        "30_wiki\\cases\\case-strategy-revival-14-gucci.md",
-        "30_wiki\\cases\\case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch.md",
-        "30_wiki\\cases\\case-yitang-double-triangle-confidence.md",
-        "30_wiki\\cases\\case-yitang-model-asset-inventory.md",
-        "30_wiki\\cases\\case-yitang-model-valuation-flywheel.md",
-        "30_wiki\\cases\\case-yitang-tob-grinding-machine.md",
-        "30_wiki\\cases\\case-zhangyang-anchor-sop-three-locks.md",
-        "30_wiki\\cases\\case-一堂-陈贤敏汉堡-hypothesis-validation.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-科学决策-roi决策评估画布-案例03",
-      "from_files": [
-        "30_wiki\\tools\\yt-business-model-canvas.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-科学决策-roi决策评估画布-案例04",
-      "from_files": [
-        "30_wiki\\frameworks\\yt-business-model-scalability.md",
-        "30_wiki\\tools\\yt-business-model-canvas.md",
-        "30_wiki\\tools\\yt-growth-channel-roi.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-科学决策-roi高阶训练全景图",
-      "from_files": [
-        "30_wiki\\concepts\\concept-strategy-framework-landscape.md",
-        "30_wiki\\tools\\tool-ai-skill-engineering-guide.md",
-        "30_wiki\\tools\\yt-growth-channel-roi.md"
+        "30_wiki\\domains\\decision-science-domain-digest.md",
+        "30_wiki\\dk\\dk-research-decision-first-mapping.md",
+        "30_wiki\\decisions\\modeling-capability-for-kdo.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-科学决策-x型y型决策习惯对比",
       "from_files": [
-        "30_wiki\\concepts\\concept-strategy-2024-2026-supplement.md",
-        "30_wiki\\cases\\case-modeling-process-sop-evolution.md",
-        "30_wiki\\cases\\case-thousand-people-square.md",
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-科学决策-关键假设abcd模型",
-      "from_files": [
-        "30_wiki\\cases\\case-一堂-陈贤敏汉堡-hypothesis-validation.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-科学决策-关键训练清单重要",
-      "from_files": [
-        "30_wiki\\concepts\\yt-decision-width-method.md",
-        "30_wiki\\tools\\sk-ai-old-small-checklist.md",
-        "30_wiki\\tools\\tool-checklist-cheatsheet-modeling.md",
-        "30_wiki\\dark-knowledges\\dk-infrastructure-guardrails-over-checklist.md",
-        "30_wiki\\dark-knowledges\\dk-modeling-ai-self-retrospection.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-科学决策-决策三角形",
-      "from_files": [
-        "30_wiki\\tools\\tool-demand-assessment-triangle.md"
+        "30_wiki\\domains\\decision-science-domain-digest.md",
+        "30_wiki\\dk\\dk-research-decision-first-mapping.md",
+        "30_wiki\\decisions\\modeling-capability-for-kdo.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-科学决策-商业模式-完整财务公式决策",
       "from_files": [
-        "30_wiki\\frameworks\\xingangwan-pharma-business-formulas.md",
-        "30_wiki\\tools\\yt-business-model-canvas.md"
+        "30_wiki\\skills\\feishu-docx-pagination-extraction.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-科学决策-宽度-个人",
       "from_files": [
-        "30_wiki\\concepts\\concept-strategy-2024-2026-supplement.md"
+        "30_wiki\\dk\\dk-research-decision-first-mapping.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-科学决策-宽度-团队",
       "from_files": [
-        "30_wiki\\concepts\\concept-strategy-2024-2026-supplement.md",
-        "30_wiki\\cases\\case-modeling-process-sop-evolution.md"
+        "30_wiki\\domains\\decision-science-domain-digest.md",
+        "30_wiki\\dk\\dk-research-decision-first-mapping.md",
+        "30_wiki\\decisions\\modeling-capability-for-kdo.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-科学决策-深度-l1优先级定性",
       "from_files": [
-        "30_wiki\\concepts\\concept-strategy-2024-2026-supplement.md",
-        "30_wiki\\concepts\\yt-barrier-network-effects-deep.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-科学决策-深度-l4-案例01",
-      "from_files": [
-        "30_wiki\\concepts\\yt-barrier-network-effects-deep.md",
-        "30_wiki\\cases\\case-ai-assisted-review.md",
-        "30_wiki\\cases\\case-ban-fei-mao-from-assignment-to-tool.md",
-        "30_wiki\\cases\\case-child-drawing-rhyme.md",
-        "30_wiki\\cases\\case-course-milestone-model.md",
-        "30_wiki\\cases\\case-ether-online-acquisition.md",
-        "30_wiki\\cases\\case-jh-yitang-vs-sqlhelper.md",
-        "30_wiki\\cases\\case-modeling-abstraction-yitang-models.md",
-        "30_wiki\\cases\\case-modeling-essence-levels.md",
-        "30_wiki\\cases\\case-modeling-essence-schools.md",
-        "30_wiki\\cases\\case-modeling-process-livestream-roles.md",
-        "30_wiki\\cases\\case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch.md",
-        "30_wiki\\cases\\case-yitang-tob-grinding-machine.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-科学决策-深度-l4严格财务公式",
-      "from_files": [
-        "30_wiki\\concepts\\yt-barrier-network-effects-deep.md"
+        "30_wiki\\dk\\dk-research-decision-first-mapping.md",
+        "30_wiki\\decisions\\modeling-capability-for-kdo.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-科学决策-深度-你的业务是一次抽样实验",
       "from_files": [
-        "30_wiki\\concepts\\concept-strategy-2024-2026-supplement.md",
-        "30_wiki\\concepts\\yt-barrier-network-effects-deep.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-科学决策-深度-案例02",
-      "from_files": [
-        "30_wiki\\concepts\\yt-barrier-network-effects-deep.md",
-        "30_wiki\\cases\\case-ai-assisted-review.md",
-        "30_wiki\\cases\\case-ban-fei-mao-from-assignment-to-tool.md",
-        "30_wiki\\cases\\case-candy-problem-os-vpn.md",
-        "30_wiki\\cases\\case-child-drawing-rhyme.md",
-        "30_wiki\\cases\\case-course-milestone-model.md",
-        "30_wiki\\cases\\case-demand-ai-fitness-four-forces.md",
-        "30_wiki\\cases\\case-demand-dialer.md",
-        "30_wiki\\cases\\case-demand-elderly-smart-device.md",
-        "30_wiki\\cases\\case-demand-equestrian-three-tasks.md",
-        "30_wiki\\cases\\case-demand-financial-literacy.md",
-        "30_wiki\\cases\\case-demand-indonesia-insurance.md",
-        "30_wiki\\cases\\case-demand-milkshake-jtbd.md",
-        "30_wiki\\cases\\case-demand-pharma-bigdata.md",
-        "30_wiki\\cases\\case-demand-restaurant-hiring.md",
-        "30_wiki\\cases\\case-demand-rural-5g.md",
-        "30_wiki\\cases\\case-demand-silver-parenting.md",
-        "30_wiki\\cases\\case-essence-entrepreneurship.md",
-        "30_wiki\\cases\\case-essence-humanity-trap.md",
-        "30_wiki\\cases\\case-ether-online-acquisition.md",
-        "30_wiki\\cases\\case-guang-leng-dian-zi-hx-smj.md",
-        "30_wiki\\cases\\case-jh-yitang-vs-sqlhelper.md",
-        "30_wiki\\cases\\case-modeling-abstraction-reliability-ladder.md",
-        "30_wiki\\cases\\case-modeling-abstraction-yitang-models.md",
-        "30_wiki\\cases\\case-modeling-essence-levels.md",
-        "30_wiki\\cases\\case-modeling-essence-schools.md",
-        "30_wiki\\cases\\case-modeling-process-livestream-roles.md",
-        "30_wiki\\cases\\case-modeling-process-sop-examples.md",
-        "30_wiki\\cases\\case-nine-pm-livestream-survey.md",
-        "30_wiki\\cases\\case-personal-map-modeling.md",
-        "30_wiki\\cases\\case-strategy-failure-01-cosmetics.md",
-        "30_wiki\\cases\\case-strategy-failure-02-supermarket.md",
-        "30_wiki\\cases\\case-strategy-failure-03-cleaning.md",
-        "30_wiki\\cases\\case-strategy-practice-10-turnaround.md",
-        "30_wiki\\cases\\case-strategy-practice-ranpeng-crossborder.md",
-        "30_wiki\\cases\\case-strategy-revival-14-gucci.md",
-        "30_wiki\\cases\\case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch.md",
-        "30_wiki\\cases\\case-yitang-double-triangle-confidence.md",
-        "30_wiki\\cases\\case-yitang-model-asset-inventory.md",
-        "30_wiki\\cases\\case-yitang-model-valuation-flywheel.md",
-        "30_wiki\\cases\\case-yitang-tob-grinding-machine.md",
-        "30_wiki\\cases\\case-zhangyang-anchor-sop-three-locks.md",
-        "30_wiki\\cases\\case-一堂-陈贤敏汉堡-hypothesis-validation.md"
+        "30_wiki\\domains\\decision-science-domain-digest.md",
+        "30_wiki\\dk\\dk-research-decision-first-mapping.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-科学决策-深度-案例04",
       "from_files": [
-        "30_wiki\\concepts\\concept-strategy-2024-2026-supplement.md",
-        "30_wiki\\concepts\\yt-barrier-network-effects-deep.md"
+        "30_wiki\\dk\\dk-research-decision-first-mapping.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂-科学决策-稀缺资源清单",
       "from_files": [
-        "30_wiki\\concepts\\yt-decision-width-method.md",
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-科学决策-项目方案评估三角形",
-      "from_files": [
-        "30_wiki\\concepts\\yt-product-kernel-definition.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-科学决策-高水平共识曲线重要",
-      "from_files": [
-        "30_wiki\\dark-knowledges\\dk-modeling-expert-consensus-five-percent.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂-高阶体系探索营-三种咨询可能性",
-      "from_files": [
-        "30_wiki\\cases\\case-modeling-process-sop-evolution.md",
-        "30_wiki\\cases\\case-thousand-people-square.md",
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂y模型-科学成事道理",
-      "from_files": [
-        "30_wiki\\concepts\\concept-thousand-people-square.md",
-        "30_wiki\\concepts\\yt-model-agent-architecture.md",
-        "30_wiki\\frameworks\\framework-strategy-basics-02-insight.md",
-        "30_wiki\\frameworks\\framework-strategy-mckinsey-7s.md",
-        "30_wiki\\frameworks\\framework-TCPR底层网络协议.md",
-        "30_wiki\\frameworks\\model-quality-four-levels.md",
-        "30_wiki\\tools\\tool-strategy-control-points.md",
-        "30_wiki\\cases\\case-modeling-process-sop-evolution.md",
-        "30_wiki\\cases\\case-thousand-people-square.md",
-        "30_wiki\\dark-knowledges\\dk-modeling-unit-pairs-milestone.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂y模型steps策略集",
-      "from_files": [
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-一堂个人地图高潜力成长者修炼全景图",
-      "from_files": [
-        "30_wiki\\frameworks\\framework-单元模型-外部对抗地图.md"
+        "30_wiki\\domains\\decision-science-domain-digest.md",
+        "30_wiki\\dk\\dk-research-decision-first-mapping.md",
+        "30_wiki\\decisions\\modeling-capability-for-kdo.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂五步法-产品内核画布",
       "from_files": [
-        "30_wiki\\concepts\\yt-product-kernel-add-subtract.md",
-        "30_wiki\\concepts\\yt-product-kernel-key-conversion.md",
-        "30_wiki\\frameworks\\yt-product-kernel-six-levels.md",
-        "30_wiki\\cases\\yt-product-kernel-shampoo-case.md"
+        "30_wiki\\domains\\five-step-domain-digest.md"
       ]
     },
     {
       "ocr_target": "ocr-一堂五步法画布",
       "from_files": [
-        "30_wiki\\frameworks\\framework-candy-transcript-workflow.md",
-        "30_wiki\\tools\\tool-strategy-blue-ocean-canvas.md",
-        "30_wiki\\tools\\yt-demand-segmentation-canvas.md",
-        "30_wiki\\tools\\yt-product-kernel-canvas.md"
+        "30_wiki\\domains\\five-step-domain-digest.md"
       ]
     },
     {
-      "ocr_target": "ocr-婚礼规划",
+      "ocr_target": "ocr-微信图片_20260507004751_33_32",
       "from_files": [
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
+        "30_wiki\\decisions\\fix-data-curator-parse-bug.md"
       ]
     },
     {
-      "ocr_target": "ocr-微信图片_20260507004758_35_32",
+      "ocr_target": "ocr-泛产品设计-用户卡片-一堂五步法",
       "from_files": [
-        "30_wiki\\concepts\\paddleocr-skill.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-微信图片_20260507004801_37_32",
-      "from_files": [
-        "30_wiki\\concepts\\paddleocr-skill.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-微信图片_20260507004802_38_32",
-      "from_files": [
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-微信图片_20260507004806_40_32",
-      "from_files": [
-        "30_wiki\\concepts\\paddleocr-skill.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-审美卡片-最佳实践建模",
-      "from_files": [
-        "30_wiki\\concepts\\yt-tool-best-practice-learning.md",
-        "30_wiki\\tools\\tool-demand-four-forces.md",
-        "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-审美卡片-最佳实践收集",
-      "from_files": [
-        "30_wiki\\concepts\\yt-tool-best-practice-learning.md",
-        "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-审美工具箱指南",
-      "from_files": [
-        "30_wiki\\concepts\\concept-wanghuan-ai-native-definition.md",
-        "30_wiki\\concepts\\knowledge-delivery-os-快速体验指南-飞书云文档.md",
-        "30_wiki\\concepts\\yt-decision-depth-ladder.md",
-        "30_wiki\\concepts\\yt-decision-width-method.md",
-        "30_wiki\\tools\\tool-strategy-blue-ocean-canvas.md",
-        "30_wiki\\tools\\tool-strategy-industry-chain-analysis.md",
-        "30_wiki\\tools\\tool-strategy-risk-management.md",
-        "30_wiki\\tools\\yt-demand-segmentation-canvas.md",
-        "30_wiki\\tools\\yt-product-kernel-canvas.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-用户卡片-动力阻力",
-      "from_files": [
-        "30_wiki\\tools\\tool-strategy-business-summary.md",
-        "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-用户卡片-场景推演",
-      "from_files": [
-        "30_wiki\\concepts\\kdo_product_design_agent_final.md",
-        "30_wiki\\concepts\\product-business-strategy.md",
-        "30_wiki\\concepts\\yt-growth-user-onboarding.md",
-        "30_wiki\\frameworks\\framework-strategy-ansoff.md",
-        "30_wiki\\frameworks\\framework-wanghuan-task-product-system.md",
-        "30_wiki\\tools\\tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie.md",
-        "30_wiki\\tools\\tool-strategy-business-summary.md",
-        "30_wiki\\tools\\yt-product-kernel-mvp-design.md",
-        "30_wiki\\cases\\case-truman-motivation-map-12-versions.md",
-        "30_wiki\\cases\\case-纪浩-focus-prompt-design.md",
-        "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md",
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-用户卡片-惊喜公式",
-      "from_files": [
-        "30_wiki\\concepts\\kdo_product_design_agent_final.md",
-        "30_wiki\\concepts\\product-business-strategy.md",
-        "30_wiki\\frameworks\\framework-strategy-ansoff.md",
-        "30_wiki\\frameworks\\framework-wanghuan-task-product-system.md",
-        "30_wiki\\tools\\tool-strategy-business-summary.md",
-        "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-用户卡片-项目背景分析",
-      "from_files": [
-        "30_wiki\\tools\\tool-strategy-business-summary.md",
-        "30_wiki\\cases\\case-guang-leng-dian-zi-hx-smj.md",
-        "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-落地卡片-roi分析",
-      "from_files": [
-        "30_wiki\\concepts\\kdo_product_design_agent_final.md",
-        "30_wiki\\concepts\\product-business-strategy.md",
-        "30_wiki\\concepts\\yt-growth-user-onboarding.md",
-        "30_wiki\\frameworks\\framework-strategy-ansoff.md",
-        "30_wiki\\frameworks\\framework-wanghuan-task-product-system.md",
-        "30_wiki\\frameworks\\modeling-to-kdo-toolchain.md",
-        "30_wiki\\tools\\tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie.md",
-        "30_wiki\\tools\\tool-strategy-business-summary.md",
-        "30_wiki\\tools\\yt-product-kernel-mvp-design.md",
-        "30_wiki\\cases\\case-truman-motivation-map-12-versions.md",
-        "30_wiki\\cases\\case-纪浩-focus-prompt-design.md",
-        "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md",
-        "30_wiki\\dark-knowledges\\dk-p7-ocr-skip.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-落地卡片-低成本测试mvp",
-      "from_files": [
-        "30_wiki\\concepts\\kdo_product_design_agent_final.md",
-        "30_wiki\\concepts\\product-business-strategy.md",
-        "30_wiki\\concepts\\yt-growth-user-onboarding.md",
-        "30_wiki\\frameworks\\framework-strategy-ansoff.md",
-        "30_wiki\\frameworks\\framework-wanghuan-task-product-system.md",
-        "30_wiki\\tools\\tool-strategy-business-summary.md",
-        "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-落地卡片-努力仿真",
-      "from_files": [
-        "30_wiki\\tools\\tool-strategy-business-summary.md",
-        "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-落地卡片-十倍速验证",
-      "from_files": [
-        "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-落地卡片-攻坚会",
-      "from_files": [
-        "30_wiki\\concepts\\kdo_product_design_agent_final.md",
-        "30_wiki\\concepts\\product-business-strategy.md",
-        "30_wiki\\concepts\\yt-growth-user-onboarding.md",
-        "30_wiki\\frameworks\\framework-strategy-ansoff.md",
-        "30_wiki\\frameworks\\framework-wanghuan-task-product-system.md",
-        "30_wiki\\frameworks\\modeling-to-kdo-toolchain.md",
-        "30_wiki\\tools\\tool-strategy-business-summary.md",
-        "30_wiki\\cases\\case-纪浩-focus-prompt-design.md",
-        "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-落地卡片-灵感闪现",
-      "from_files": [
-        "30_wiki\\tools\\tool-strategy-business-summary.md",
-        "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-落地卡片-设计原则",
-      "from_files": [
-        "30_wiki\\tools\\tool-strategy-business-summary.md",
-        "30_wiki\\dark-knowledges\\dk-p4-batch-format-empty.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计-需求工具箱指南",
-      "from_files": [
-        "30_wiki\\concepts\\concept-wanghuan-ai-native-definition.md",
-        "30_wiki\\concepts\\yt-decision-depth-ladder.md",
-        "30_wiki\\tools\\tool-demand-iceberg-l2-scenario.md",
-        "30_wiki\\tools\\tool-strategy-industry-chain-analysis.md"
-      ]
-    },
-    {
-      "ocr_target": "ocr-泛产品设计者的三大自我修养",
-      "from_files": [
-        "30_wiki\\concepts\\kdo_product_design_agent_final.md",
-        "30_wiki\\concepts\\product-business-strategy.md",
-        "30_wiki\\frameworks\\framework-strategy-ansoff.md",
-        "30_wiki\\frameworks\\framework-wanghuan-task-product-system.md"
+        "30_wiki\\domains\\five-step-domain-digest.md"
       ]
     }
   ]

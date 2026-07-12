@@ -15,7 +15,6 @@ source_refs:
 - 30_wiki/raw/ocr/ocr-一堂-单元模型-找单元模型实操难点.md
 related:
 - '[[yitang-domain-digest]]'
-- '[[ocr-一堂-单元模型-找单元模型实操难点]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'

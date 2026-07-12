@@ -59,11 +59,14 @@ def main():
     touched = 0
 
     for d in ["concepts", "frameworks", "tools", "cases", "methods", "systems",
-              "operations", "dark-knowledges"]:
+              "operations", "dark-knowledges", "domains", "dk", "decisions", "skills", "links"]:
         dpath = VAULT / "30_wiki" / d
         if not dpath.is_dir():
             continue
         for f in sorted(dpath.rglob("*.md")):
+            # SKIP raw/ocr/ files — OCR cards referencing each other is expected
+            if 'raw/ocr' in str(f):
+                continue
             # Quick check: does file contain [[ocr-
             try:
                 quick = f.read_text(encoding="utf-8")

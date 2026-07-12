@@ -20,9 +20,6 @@ tags:
 - framework
 related:
   - "[[yt-decision-review]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布]]"
-  - "[[ocr-一堂-科学决策-x型y型决策习惯对比]]"
-  - "[[ocr-一堂-科学决策-宽度-团队]]"
   - "[[yt-decision-full-process]]"
   - "[[master-decision-hygiene]]"
   - "[[case-xian-franchise-location-decision]]"
@@ -30,9 +27,7 @@ related:
   - "[[tool-decision-outside-view]]"
   - "[[case-科学决策-ROI案例03]]"
   - "[[framework-lean-pivot-decision]]"
-  - "[[ocr-一堂-科学决策-稀缺资源清单]]"
   - "[[case-科学决策-深度案例06]]"
-  - "[[ocr-一堂-科学决策-深度-你的业务是一次抽样实验]]"
   - "[[yt-decision-abcd-model]]"
   - "[[framework-科学决策三角形]]"
   - "[[framework-高水平共识曲线]]"
