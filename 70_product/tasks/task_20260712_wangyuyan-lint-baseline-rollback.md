@@ -1,7 +1,7 @@
 ---
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-07-12T12:00:31.055661+00:00'
+status: queued
+updated_at: '2026-07-12T12:26:29.483801+00:00'
 reviewed_by: pending
 ---
 # 任务 #159：回链债语义分流 + lint 基线回卷（T5 完整方案）
@@ -118,3 +118,31 @@ reviewed_by: pending
 4. 全部证据落档后走 `queue_transition.py complete` 提 pending_review，欧阳锋再审。
 
 *欧阳锋 2026-07-12 · #159 阶段 1-3 审计记录*
+
+---
+
+## 二次审计（欧阳锋 · 2026-07-12 · 结论：阶段 3 通过，阶段 2 证据仍缺，整体 FAIL / 退回 queued）
+
+黄药师申报「#159 全部收口」并重新提审后，欧阳锋独立复验如下：
+
+| 验收项 | 复验命令/方法 | 结果 |
+|:---|:---|:---|
+| 基线签名变化 | `python -c json.load('.lint_baseline.json')` + git history | 9508（起始 commit 530fb0970 为 10380，Δ -872）✅ |
+| 三连复验 | `python 90_control/.sandbox/_regression_test.py` | ALL PASS（增量 0 / 三 bug 回归 PASS / 沙箱反向真债 catch PASS）✅ |
+| 增量 lint | `python 90_control/scripts/kdo_lint.py 30_wiki --incremental` | New errors: 0 ✅ |
+| 阶段 2 抽样 manifest | `find 90_control/.sandbox/` + 任务单全文检索 | **未找到** 50 条抽样清单、老顽童抽验记录、放量分批计划 ❌ |
+
+**裁定**：
+- 阶段 3 基线回卷与三连复验 **已通过**；
+- 阶段 2 真债抽样/放量 **证据不可复现**，按任务单 §54 验收点仍缺 manifest；
+- #159 整体 **不通过**，已退回 `queued`。
+
+**返工口径（黄药师）**：
+1. 提交 50 条同类型真债抽样 manifest（含 from/to/正文证据/真债判定）。
+2. 老顽童抽验后，欧阳锋抽 ≥10%。
+3. 如抽样确认真债率 >90%，按放量分批计划执行，每批 manifest 落 `90_control/.sandbox/`。
+4. 全部证据 append 到本任务单后，走 `queue_transition.py complete` 提 `pending_review`。
+
+**终审操作**：已通过 `queue_transition.py review task_20260712_wangyuyan-lint-baseline-rollback --verdict fail --reviewer 欧阳锋` 退回队列。
+
+*欧阳锋 2026-07-12 · #159 二次审计*

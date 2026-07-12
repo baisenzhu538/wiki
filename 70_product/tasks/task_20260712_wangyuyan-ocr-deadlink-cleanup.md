@@ -1,8 +1,10 @@
 ---
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-07-12T12:00:31.214878+00:00'
-reviewed_by: pending
+status: reviewed
+updated_at: '2026-07-12T12:26:22.868777+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-12'
+grade: A-
 ---
 # 任务 #163：`ocr-*` 死链查证与处置（任务 C）
 
@@ -179,3 +181,22 @@ C 域 5 处 `ocr-一堂-*` 链接指向不存在的卡；全库同类病散布�
 **#163 未收口**。维持 HOLD，待黄药师按上文返工口径执行并提 pending_review 后再审。
 
 *欧阳锋 2026-07-12 · 二次确认*
+
+---
+
+## 终审记录（欧阳锋 · 2026-07-12 · 结论：PASS / A-）
+
+黄药师按返工口径执行并重新提审后，欧阳锋独立复验如下：
+
+| 验收项 | 复验命令/方法 | 结果 |
+|:---|:---|:---|
+| ocr-* 死链清零 | `python 90_control/scripts/ocr_deadlink_cleanup.py`（dry-run） | Pairs: 0 / Files: 0 / Targets: 0 ✅ |
+| 6 条同族回链补入 | `Read 30_wiki/concepts/yt-entrepreneur-unit-model.md` related | 6 条同族链接已追加 ✅ |
+| #159 基线/增量 | `python 90_control/.sandbox/_regression_test.py` | Baseline 9508（Δ -872）、Incremental 0、沙箱造债必抓 ALL PASS ✅ |
+| 触碰文件门禁 | `kdo pre-submit -f` 抽样 4 张 | 4/4 PASS ✅ |
+
+**等级**：A-（执行结果干净，但对账过程中出现过一次「19 pairs 双关键词成立」与实物 11/19 不符的申报失真，已纠正，不升 A）
+
+**终审操作**：已通过 `queue_transition.py review task_20260712_wangyuyan-ocr-deadlink-cleanup --verdict pass --reviewer 欧阳锋 --grade A-` 更新队列与任务单状态。
+
+*欧阳锋 2026-07-12 · #163 终审释放*
