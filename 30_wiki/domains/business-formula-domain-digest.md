@@ -94,6 +94,12 @@ related:
 - '[[dk-yitang-business-formula-logic-l5-l6]]'
 - '[[dk-yitang-business-formula-cd-loop-undo-key]]'
 - '[[dk-yitang-business-formula-pseudo-causality-two-masks]]'
+  - '[[case-toc-ecommerce-formula-misjudgment]]'
+  - '[[case-private-domain-ecommerce-formula]]'
+  - '[[case-saas-renewal-formula]]'
+  - '[[case-dental-clinic-formula]]'
+  - '[[case-gym-membership-formula]]'
+  - '[[case-offline-catering-formula]]'
 ---
 
 # 域摘要：一堂业务公式（C 域）

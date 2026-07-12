@@ -1521,7 +1521,7 @@
 | case-yitang-aquaculture-stress-protection | 案例：水产养殖——从行业经验到学科原理的上层创新 | case | yitang |
 | case-yitang-beauty-device-overseas-sales | 案例：美容仪出海——用行业报告判断海外市场 | case | yitang, research |
 | case-yitang-chuanhe-seasoning-kernel | 案例：川味调料供应链——从"厂家直销"到"买底料+全程帮扶"的六次产品内核迭代 | case | yitang, product-kernel |
-| case-yitang-coke-spill-compensation | 案例：可乐撒了——ROI/Y模型重构客户赔偿流程 | case | yitang |
+| case-yitang-coke-spill-compensation | 案例：可乐撒了——ROI模型（Y模型推导产物）重构客户赔偿流程 | case | yitang |
 | case-yitang-competitor-pricing-intelligence | 案例：假装订货套取竞品真实价格 | case | yitang, research |
 | case-yitang-consumer-offline-channel-decision | 案例：消费品线下渠道决策——先访谈再算账 | case | yitang, research |
 | case-yitang-copywriting-time-decomposition | 一堂文案团队时间拆解：把「写稿」拆成可测量的工序 | case | time-management, marketing, yitang |

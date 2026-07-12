@@ -273,7 +273,7 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[cases/case-yitang-amazon-growth-flywheel|案例：亚马逊增长飞轮的五层逻辑]] — source `00_inbox/一堂五步法之增长/truman-渠道增长飞轮-亚马逊增长飞轮_vlm_desc.md`
 - [[cases/case-yitang-aquaculture-stress-protection|案例：水产养殖——从行业经验到学科原理的上层创新]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
 - [[cases/case-yitang-beauty-device-overseas-sales|案例：美容仪出海——用行业报告判断海外市场]] — source `00_inbox/调研专题/Doris-行业报告调研-口述.txt`
-- [[cases/case-yitang-coke-spill-compensation|案例：可乐撒了——ROI/Y模型重构客户赔偿流程]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
+- [[cases/case-yitang-coke-spill-compensation|案例：可乐撒了——ROI模型（Y模型推导产物）重构客户赔偿流程]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
 - [[cases/case-yitang-competitor-pricing-intelligence|案例：假装订货套取竞品真实价格]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
 - [[cases/case-yitang-consumer-offline-channel-decision|案例：消费品线下渠道决策——先访谈再算账]] — source `00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md`
 - [[cases/case-yitang-copywriting-time-decomposition|一堂文案团队时间拆解：把「写稿」拆成可测量的工序]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
