@@ -4,7 +4,8 @@ title: 技能：问题导向备课法
 type: tool
 domain:
 - ai-collaboration
-- yitang- ai-saas
+- yitang
+    - ai-saas
 status: draft
 author: 纪浩
 reviewed_by: pending

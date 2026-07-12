@@ -4,7 +4,8 @@ title: 技能：业务问题AI化拆解-餐饮设计案例法
 type: tool
 domain:
 - ai-collaboration
-- yitang- ai-saas
+- yitang
+    - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending

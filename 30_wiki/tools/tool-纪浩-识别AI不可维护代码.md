@@ -4,7 +4,8 @@ title: 技能：识别AI不可维护代码
 type: tool
 domain:
 - ai-collaboration
-- yitang- ai-saas
+- yitang
+    - ai-saas
 status: draft
 author: 纪浩
 reviewed_by: pending

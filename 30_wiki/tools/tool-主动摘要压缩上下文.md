@@ -3,7 +3,8 @@ id: tool-主动摘要压缩上下文
 title: 技能：主动摘要压缩上下文
 type: tool
 domain:
-- learning-methodology- ai-saas
+- learning-methodology
+    - ai-saas
 - management
 - yitang
 status: draft

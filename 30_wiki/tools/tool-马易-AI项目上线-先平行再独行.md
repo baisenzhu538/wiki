@@ -4,7 +4,8 @@ title: 技能：AI项目上线-先平行再独行
 type: tool
 domain:
 - ai-collaboration
-- yitang- ai-saas
+- yitang
+    - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending

@@ -4,7 +4,8 @@ title: 技能：目的论偏差快速识别法
 type: tool
 domain:
 - ai-collaboration
-- yitang- ai-saas
+- yitang
+    - ai-saas
 status: draft
 author: unknown
 reviewed_by: pending

@@ -3,7 +3,8 @@ id: tool-反向采访挖掘深度
 title: 技能：反向采访挖掘深度
 type: tool
 domain:
-- learning-methodology- ai-saas
+- learning-methodology
+    - ai-saas
 - yitang
 status: draft
 source_person: Truman

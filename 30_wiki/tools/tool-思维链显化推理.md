@@ -3,7 +3,8 @@ id: tool-思维链显化推理
 title: 技能：思维链显化推理
 type: tool
 domain:
-- learning-methodology- ai-saas
+- learning-methodology
+    - ai-saas
 - decision-making
 - yitang
 status: draft

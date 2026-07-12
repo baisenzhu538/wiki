@@ -4,7 +4,8 @@ title: 技能：用口喷输入法生成高质量 AI 提示词
 type: tool
 domain:
 - ai-collaboration
-- yitang- ai-saas
+- yitang
+    - ai-saas
 status: draft
 author: unknown
 reviewed_by: pending

@@ -3,7 +3,8 @@ id: tool-分层标注重点信息
 title: 技能：分层标注重点信息
 type: tool
 domain:
-- learning-methodology- ai-saas
+- learning-methodology
+    - ai-saas
 - decision-making
 - yitang
 status: draft

@@ -4,7 +4,8 @@ title: 技能：案例池构建法
 type: tool
 domain:
 - ai-collaboration
-- yitang- ai-saas
+- yitang
+    - ai-saas
 status: draft
 author: 纪浩
 reviewed_by: pending

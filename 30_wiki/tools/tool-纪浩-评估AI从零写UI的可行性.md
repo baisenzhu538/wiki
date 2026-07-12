@@ -4,7 +4,8 @@ title: 技能：评估AI从零写UI的可行性
 type: tool
 domain:
 - ai-collaboration
-- yitang- ai-saas
+- yitang
+    - ai-saas
 status: draft
 author: 纪浩
 reviewed_by: pending

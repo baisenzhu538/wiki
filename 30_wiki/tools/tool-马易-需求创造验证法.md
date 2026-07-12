@@ -4,7 +4,8 @@ title: 技能：需求创造验证法
 type: tool
 domain:
 - ai-collaboration
-- yitang- ai-saas
+- yitang
+    - ai-saas
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋

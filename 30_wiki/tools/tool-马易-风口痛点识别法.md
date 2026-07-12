@@ -4,7 +4,8 @@ title: 技能：风口痛点识别法
 type: tool
 domain:
 - ai-collaboration
-- yitang- ai-saas
+- yitang
+    - ai-saas
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
