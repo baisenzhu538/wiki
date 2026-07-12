@@ -33,7 +33,7 @@
 - 诊断书：`60_feedback/diagnosis/d-domain-conversion-rate-2026-07-12.md` §四术语裁定
 
 ## 执行要求
-- **Tool 卡必备四节**：Purpose / Protocol / Anti-patterns / Related（C 域 #165 漏项教训——一次写齐）
+- **Tool 卡必备四节+案例区**：Purpose / Protocol / Anti-patterns / Related（C 域 #165 漏项教训）+ 案例区：本工具对应的口述案例（话术+数字+行号）全收录（诊断书 §9.5 A 级分层，案例按"它证明哪个方法"归属）
 - frontmatter 必填；related 出向双向闭合（D 域内）+引用型单向（跨域）
 - 全部卡完成后统一入 `/index.md`
 - source_refs 格式严格：路径+可选 L行号，括号备注挪出引用条目（#165 lint 教训）
