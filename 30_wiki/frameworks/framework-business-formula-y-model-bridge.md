@@ -2,7 +2,7 @@
 id: framework-business-formula-y-model-bridge
 title: 业务公式×Y模型桥接：关键假设层的全面操作化
 type: framework
-status: draft
+status: enriched
 author: 黄药师
 reviewed_by: pending
 confidence: 0.88

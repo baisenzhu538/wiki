@@ -2,7 +2,7 @@
 id: framework-business-formula-dual-triangle-bridge
 title: 业务公式×双三角桥接：C域在六顶点中的定位与映射
 type: framework
-status: draft
+status: enriched
 author: 黄药师
 reviewed_by: pending
 confidence: 0.85

@@ -2,7 +2,7 @@
 id: tool-agent-spec-business-formula-parameter-miner
 title: 业务公式参数挖掘 Agent Spec
 type: tool-agent-spec
-status: draft
+status: enriched
 author: 黄药师
 reviewed_by: pending
 confidence: 0.82

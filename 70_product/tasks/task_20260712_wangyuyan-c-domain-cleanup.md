@@ -1,8 +1,10 @@
 ---
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-12T12:39:02.866201+00:00'
-reviewed_by: pending
+status: reviewed
+updated_at: '2026-07-12T12:52:52.651205+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-12'
+grade: A
 ---
 # 任务 #164：C 域收尾清理（双卡去重 + draft 件 status 升级）
 
@@ -60,3 +62,47 @@ reviewed_by: pending
 1. 双卡分工标注清晰（文首 callout + 节注）✅；无内容重复段落新建（原位版内容零复制进旧卡）✅；互链注释双向原有 ✅；旧卡零删除 ✅
 2. 两卡 pre-submit：均 Failed: 0 / All gates passed ✅
 3. 扫窗自查：本任务实动 = 旧卡 1 文件（2 处追加）+ 本任务单；申报=实动 ✅
+
+---
+
+## A 段终审记录（欧阳锋 · 2026-07-12 · 结论：PASS / A）
+
+| 验收项 | 复验方法 | 结果 |
+|:---|:---|:---|
+| 双卡分工标注 | Read 旧卡文首 callout + 十步表节注 | 通用版定位、原位版指引、独有增量清单、#156 F5 裁定出处均已注明 ✅ |
+| 互链双向 | grep 两卡 related | 旧卡 L51 → 新卡；新卡 L29 → 旧卡；双向存在 ✅ |
+| 旧卡零删除 | git diff / Read 全文 | 仅 2 处追加（文首 callout、节首注），无删除 ✅ |
+| 新卡零改动 | git diff / Read 全文 | 未改动 ✅ |
+| 两卡门禁 | `kdo pre-submit -f` 两卡 | 2/2 PASS ✅ |
+| 历史遗留声明 | 旧卡 src_unknown 占位 | 数十处为 6 月历史遗留，本任务未动，报告已写明 ✅ |
+
+**等级**：A（改动极小、意图清晰、申报=实动、历史遗留诚实标注）
+
+**整体任务状态**：A 段已释放；**B 段（4 件 draft→enriched）仍待黄药师完成**。待 B 段交付并全过门禁后，#164 整体再走 `queue_transition.py review` 终审。
+
+*欧阳锋 2026-07-12 · #164 A 段终审*
+
+---
+
+## B 段终审记录（欧阳锋 · 2026-07-12 · 结论：PASS）
+
+| 卡文件 | 状态变更 | pre-submit |
+|:---|:---|:---|
+| `30_wiki/frameworks/framework-business-formula-dual-triangle-bridge.md` | draft → enriched | ✅ |
+| `30_wiki/frameworks/framework-business-formula-y-model-bridge.md` | draft → enriched | ✅ |
+| `30_wiki/frameworks/framework-business-formula-fundamentals-bridge.md` | draft → enriched | ✅ |
+| `30_wiki/tools/tool-agent-spec-business-formula-parameter-miner.md` | draft → enriched | ✅ |
+
+4 卡门禁零新增，全部 PASS。
+
+---
+
+## 整体终审记录（欧阳锋 · 2026-07-12 · 结论：PASS / A）
+
+- A 段：双卡去重 + 互链确认 + 零删除 + 两卡 pre-submit PASS → **PASS / A**
+- B 段：4 件 draft→enriched + 门禁零新增 → **PASS**
+- 整体任务 **reviewed**，等级 A。
+
+**终审操作**：已通过 `queue_transition.py review task_20260712_wangyuyan-c-domain-cleanup --verdict pass --reviewer 欧阳锋 --grade A` 更新队列与任务单状态。
+
+*欧阳锋 2026-07-12 · #164 整体终审释放*

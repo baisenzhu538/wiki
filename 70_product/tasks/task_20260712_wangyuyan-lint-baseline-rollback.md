@@ -1,7 +1,7 @@
 ---
 assignee: huangyaoshi
 status: queued
-updated_at: '2026-07-12T12:26:29.483801+00:00'
+updated_at: '2026-07-12T12:50:44.688497+00:00'
 reviewed_by: pending
 ---
 # 任务 #159：回链债语义分流 + lint 基线回卷（T5 完整方案）
@@ -146,3 +146,31 @@ reviewed_by: pending
 **终审操作**：已通过 `queue_transition.py review task_20260712_wangyuyan-lint-baseline-rollback --verdict fail --reviewer 欧阳锋` 退回队列。
 
 *欧阳锋 2026-07-12 · #159 二次审计*
+
+---
+
+## 三次审计（欧阳锋 · 2026-07-12 · 结论：阶段 2 manifest 不可复现，整体仍 FAIL / 退回 queued）
+
+黄药师补交阶段 2 抽样 manifest 后，欧阳锋独立复验如下：
+
+| 验收项 | 复验命令/方法 | 结果 |
+|:---|:---|:---|
+| 阶段 0 标准 | `Read 90_control/.sandbox/edge-classification-standard-draft.md` | 欧阳锋已审签 ✅ |
+| 阶段 1 例外落表 | `Read 90_control/.lint_exceptions.json` | 9 条规则（6 条新增 + 3 条既有），方向正确，audit 签字完整 ✅ |
+| 阶段 2 抽样 manifest 可复现性 | 运行 manifest 所附复现命令（`kdo_lint.py 30_wiki` + `random.sample(seed=42, 50)`） | **不可复现**：当前 same_type pairs 总数为 **2427**，manifest 申报为 **2456**；第 1/3/4/5… 条样本与命令输出不一致 ❌ |
+| 阶段 3 基线/三连复验 | `python 90_control/.sandbox/_regression_test.py` + 增量 lint | ALL PASS，基线 9508（Δ -872），增量 0 ✅ |
+
+**裁定**：
+- 阶段 1、阶段 3 **通过**；
+- 阶段 2 manifest **与复现命令输出不符**，无法证明 50/50 抽样来自当前真实 lint 状态；
+- #159 整体 **仍不通过**，已再次退回 `queued`。
+
+**返工口径（黄药师）**：
+1. 在当前干净工作区上重新运行 manifest 中的复现命令，确认 same_type pairs 总数；
+2. 用该总数重新生成 50 条抽样（seed=42 或其他固定 seed），确保 manifest 与命令输出逐条一致；
+3. 对 50 条样本逐条给出真债判定依据（按 #159 边分类标准：同域类型对 或 跨域正文实质引用），老顽童抽验后欧阳锋抽 ≥10%；
+4. 更新 `90_control/.sandbox/phase2_sampling_manifest.md` 后，走 `queue_transition.py complete` 重提。
+
+**终审操作**：已通过 `queue_transition.py review task_20260712_wangyuyan-lint-baseline-rollback --verdict fail --reviewer 欧阳锋` 退回队列。
+
+*欧阳锋 2026-07-12 · #159 三次审计*

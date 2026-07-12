@@ -2,7 +2,7 @@
 id: framework-business-formula-fundamentals-bridge
 title: 业务公式×基本功域桥接：同一套操作系统的两个对象
 type: framework
-status: draft
+status: enriched
 author: 黄药师
 reviewed_by: pending
 confidence: 0.90
