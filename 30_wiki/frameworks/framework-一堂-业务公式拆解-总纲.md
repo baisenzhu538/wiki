@@ -110,6 +110,8 @@ related:
 - '[[dk-yitang-business-formula-logic-l5-l6]]'
 - '[[dk-yitang-business-formula-cd-loop-undo-key]]'
 - '[[dk-yitang-business-formula-pseudo-causality-two-masks]]'
+- '[[framework-一堂五步法-单元模型]]'
+- '[[framework-一堂五步法]]'
 diagnostic_signals:
 - signal: 团队说"我们的关键假设是用户会买单"，但说不清差多少、先动哪
   lens: 假设停在定性——没有拆到可验证参数

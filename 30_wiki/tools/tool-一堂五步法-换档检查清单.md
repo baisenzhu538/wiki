@@ -24,6 +24,7 @@ related:
 - '[[framework-一堂五步法-单元模型]]'
 - '[[framework-一堂五步法-增长周期]]'
 - '[[framework-一堂五步法-壁垒]]'
+- '[[yt-business-formula-abc-model]]'
   - '[[tool-一堂五步法-ToB-十八式-checklist]]'
   - '[[tool-一堂五步法-段位升级三部曲]]'
 diagnostic_signals:

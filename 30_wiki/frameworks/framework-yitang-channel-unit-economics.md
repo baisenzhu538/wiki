@@ -40,6 +40,7 @@ related:
 - - - framework-yitang-channel-partnership-map
 - yt-business-model-unit-economics
 - yt-growth-channel-roi
+- "[[yt-tool-business-formula-parameter-arsenal]]"
 review_date: '2026-06-28'
 ---
 # 渠道单元经济模型：把每个获客渠道当作独立经济单元核算

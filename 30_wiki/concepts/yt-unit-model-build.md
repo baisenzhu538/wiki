@@ -28,6 +28,7 @@ related:
 - "[[yt-market-size-estimation]]"
 - "[[case-unit-model-gashapon]]"
 - "[[yt-growth-cycle-model]]"
+- "[[yt-business-formula-parameter-iceberg]]"
 review_date: 2026-06-16
 reviewed_by: 王语嫣
 source_refs:

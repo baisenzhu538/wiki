@@ -30,6 +30,7 @@ related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-model-five-step-canvas]]'
 - '[[tool-demand-iceberg-l1-user]]'
+- '[[framework-一堂-业务公式拆解-总纲]]'
   - '[[framework-一堂-关键假设]]'
   - '[[framework-一堂-机会预判]]'
   - '[[framework-个人学习方法总框架]]'
