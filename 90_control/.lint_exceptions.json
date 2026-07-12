@@ -15,17 +15,56 @@
     {
       "from": "*-domain-digest",
       "to": "*",
-      "reason": "digest 卡为导航索引，不要求域内卡片回链"
+      "reason": "digest 卡为导航索引（出向），不要求域内卡片回链",
+      "audit": "王语嫣·2026-07-12"
+    },
+    {
+      "from": "*",
+      "to": "*-domain-digest",
+      "reason": "引用型：任何卡引用 digest（入向），digest 不需回链到该卡。digest 的入链是可计算视图（grep 即得）",
+      "audit": "欧阳锋·2026-07-12"
     },
     {
       "from": "*",
       "to": "xingangwan-*",
-      "reason": "EC 线独立域，王语嫣裁定不互链"
+      "reason": "EC 线独立域，王语嫣裁定不互链",
+      "audit": "王语嫣·2026-07-12"
     },
     {
       "from": "concept-card-index-*",
       "to": "*",
-      "reason": "总索引→全部内容，不要求回链"
+      "reason": "总索引→全部内容，不要求回链",
+      "audit": "王语嫣·2026-07-12"
+    },
+    {
+      "from": "case-*",
+      "to": "concept-*",
+      "reason": "引用型：案例引用方法论概念，concept 不应维护所有引用案例的回链（#159 边分类标准 §2.2）",
+      "audit": "欧阳锋·2026-07-12"
+    },
+    {
+      "from": "case-*",
+      "to": "framework-*",
+      "reason": "引用型：案例引用框架，framework 不应维护所有引用案例的回链",
+      "audit": "欧阳锋·2026-07-12"
+    },
+    {
+      "from": "case-*",
+      "to": "tool-*",
+      "reason": "引用型：案例引用工具，tool 不应维护所有引用案例的回链",
+      "audit": "欧阳锋·2026-07-12"
+    },
+    {
+      "from": "dk-*",
+      "to": "*",
+      "reason": "引用型：暗知识引用主流卡，dk 是观察者视角，不应要求被引用者回链",
+      "audit": "欧阳锋·2026-07-12"
+    },
+    {
+      "from": "agent-spec-*",
+      "to": "*",
+      "reason": "引用型：Agent 调用工具/手册，调用清单不应要求被调用者回链",
+      "audit": "欧阳锋·2026-07-12"
     }
   ],
   "f1": [],

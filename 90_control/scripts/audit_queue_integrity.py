@@ -21,7 +21,10 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 WIKI_ROOT = Path(__file__).resolve().parent.parent.parent
-TASK_DIR = WIKI_ROOT / "60_feedback" / "tasks"
+TASK_DIRS = [
+    WIKI_ROOT / "60_feedback" / "tasks",
+    WIKI_ROOT / "70_product" / "tasks",
+]
 QUEUE_PATH = WIKI_ROOT / "70_product" / "tasks" / "production-queue.md"
 REVIEW_DIRS = [
     WIKI_ROOT / "60_feedback" / "tasks",
@@ -138,9 +141,27 @@ def parse_queue(path: Path = QUEUE_PATH) -> list[dict]:
 REPORT_PATH = WIKI_ROOT / "20_memory" / "queue_integrity_audit_latest.md"
 
 
+def iter_task_files():
+    """Yield task files from all known task directories."""
+    for d in TASK_DIRS:
+        if d.exists():
+            for f in sorted(d.glob("task_*.md")):
+                yield f
+
+
+def find_task_file(task_id: str) -> Path | None:
+    """Find a task file by id across all task directories."""
+    for d in TASK_DIRS:
+        candidate = d / f"{task_id}.md"
+        if candidate.exists():
+            return candidate
+    return None
+
+
 def main() -> int:
-    if not TASK_DIR.exists():
-        print(f"Task directory not found: {TASK_DIR}")
+    missing_dirs = [str(d) for d in TASK_DIRS if not d.exists()]
+    if missing_dirs:
+        print(f"Task directory not found: {', '.join(missing_dirs)}")
         return 1
 
     queue_rows = parse_queue()
@@ -149,7 +170,7 @@ def main() -> int:
     anomalies = []
     reviewed_count = 0
 
-    for task_file in sorted(TASK_DIR.glob("task_*.md")):
+    for task_file in iter_task_files():
         fm = parse_frontmatter(task_file)
         if not fm:
             continue
@@ -177,13 +198,13 @@ def main() -> int:
         if not review_file:
             # Only flag if no review_date (lenient: review_date implies a review happened)
             if not review_date:
-                anomalies.append((task_id, "reviewed 但无对应 review/audit 文件且无 review_date"))
+                anomalies.append((task_id, "reviewed 但无对应 review/audit 文件且无review_date"))
 
     # Bidirectional consistency check between queue and task files
     task_ahead_inconsistencies = []  # task reviewed but queue not reviewed
     queue_ahead_inconsistencies = []  # queue reviewed but task not reviewed
 
-    for task_file in sorted(TASK_DIR.glob("task_*.md")):
+    for task_file in iter_task_files():
         fm = parse_frontmatter(task_file)
         if not fm:
             continue
@@ -203,8 +224,8 @@ def main() -> int:
         # Batch tasks and review-only entries are reviewed via separate files
         if is_batch_task(task_id) or is_review_only_entry(task_id):
             continue
-        task_file = TASK_DIR / f"{task_id}.md"
-        if not task_file.exists():
+        task_file = find_task_file(task_id)
+        if task_file is None:
             queue_ahead_inconsistencies.append((task_id, "队列 marked reviewed 但任务单文件不存在"))
             continue
         fm = parse_frontmatter(task_file)
@@ -221,7 +242,7 @@ def main() -> int:
     lines = []
     lines.append(f"# 队列完整性审计报告")
     lines.append("")
-    lines.append(f"- 审计范围: `{TASK_DIR}`")
+    lines.append(f"- 审计范围: {', '.join(f'`{d}`' for d in TASK_DIRS)}")
     lines.append(f"- reviewed 任务单总数: {reviewed_count}")
     lines.append(f"- 任务单元数据异常数: {len(anomalies)}")
     lines.append(f"- 队列/任务单状态不一致数: {len(queue_anomalies)}")
