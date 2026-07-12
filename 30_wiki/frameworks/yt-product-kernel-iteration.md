@@ -1,4 +1,4 @@
-﻿---
+---
 domain:
 - product
 - yitang
@@ -27,7 +27,6 @@ related:
   - "[[yt-product-kernel-cultivation]]"
   - "[[tool-敏捷发布快速迭代搭建体系]]"
   - "[[tool-纪浩-Do-first-PDCA渐进迭代法]]"
-  - "[[ocr-一堂产品内核-十大典型指标]]"
 diagnostic_signals:
 - framework_lens: 产品内核迭代——内核需要随市场变化而迭代
   follow_up_question: 你的内核从定义到现在变化过吗？当前触发的是五种方向中的哪一种？
