@@ -1,9 +1,11 @@
 ---
 id: task_20260705_huangyaoshi-lint-warning-infra
 type: task
-status: queued
+status: reviewed
 assignee: 黄药师
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
+review_date: 2026-07-05
 priority: P2
 created_at: 2026-07-05
 updated_at: 2026-07-05

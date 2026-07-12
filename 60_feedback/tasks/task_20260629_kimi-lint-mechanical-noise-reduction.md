@@ -9,6 +9,7 @@ updated_at: 2026-06-29
 reviewer: 欧阳锋
 source_refs:
 - 60_feedback/tasks/task_20260629_kimi-full-frontmatter-compliance-cleanup.md
+review_date: '2026-06-29'
 ---
 
 # lint 机械类 WARNING 直接降噪

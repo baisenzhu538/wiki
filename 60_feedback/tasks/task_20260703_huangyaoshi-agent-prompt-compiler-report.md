@@ -1,6 +1,6 @@
 ---
 id: task_20260703_huangyaoshi-agent-prompt-compiler-report
-title: "#59 完成报告：Agent Prompt 编译器"
+title: '#59 完成报告：Agent Prompt 编译器'
 type: task
 status: reviewed
 assignee: 黄药师
@@ -10,10 +10,11 @@ priority: P1
 created_at: 2026-07-04
 updated_at: 2026-07-04
 source_refs:
-  - kdo-tools/agent-prompt-compiler.py
-  - .agent/prompts/
+- kdo-tools/agent-prompt-compiler.py
+- .agent/prompts/
 related:
-  - "[[task_20260703_huangyaoshi-agent-prompt-compiler]]"
+- '[[task_20260703_huangyaoshi-agent-prompt-compiler]]'
+review_date: '2026-07-04'
 ---
 
 # #59 完成报告：Agent Prompt 编译器

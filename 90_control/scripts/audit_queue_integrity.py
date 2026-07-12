@@ -134,6 +134,7 @@ def parse_queue(path: Path = QUEUE_PATH) -> list[dict]:
                 "name": cells[2],
                 "status": cells[3],
                 "assignee": cells[4] if len(cells) > 4 else "",
+                "source_file": cells[7] if len(cells) > 7 else "",
             })
     return rows
 
@@ -149,13 +150,81 @@ def iter_task_files():
                 yield f
 
 
-def find_task_file(task_id: str) -> Path | None:
-    """Find a task file by id across all task directories."""
+def find_task_file_by_name(task_id: str) -> Path | None:
+    """Find a task file by exact filename match across all task directories."""
     for d in TASK_DIRS:
         candidate = d / f"{task_id}.md"
         if candidate.exists():
             return candidate
     return None
+
+
+def find_task_files_by_frontmatter_id(task_id: str) -> list[Path]:
+    """Find all task files whose frontmatter ``id`` equals *task_id*."""
+    matches = []
+    for d in TASK_DIRS:
+        if not d.exists():
+            continue
+        for path in d.glob("task_*.md"):
+            fm = parse_frontmatter(path)
+            if fm.get("id") == task_id:
+                matches.append(path)
+    return matches
+
+
+def score_task_file(path: Path) -> int:
+    """Return a preference score for canonical task file selection.
+
+    Higher score = more preferred. Prefer non-merged files and the
+    production queue directory (70_product/tasks) over feedback tasks.
+    """
+    fm = parse_frontmatter(path)
+    status = fm.get("status", "")
+    score = 0
+    if status not in ("closed_merged", "merged", "deprecated", "archived"):
+        score += 10
+    if "70_product" in str(path):
+        score += 5
+    return score
+
+
+def find_task_file(task_id: str, preferred_source: str = "") -> Path | None:
+    """Find the canonical task file for a task id.
+
+    First try exact filename match, then frontmatter id match. When multiple
+    files match (e.g. old merged copy + current copy), prefer the non-merged
+    file and the production queue directory.
+    """
+    # Prefer the source file explicitly referenced by the queue if it exists
+    if preferred_source:
+        preferred_path = WIKI_ROOT / preferred_source.replace("`", "").strip()
+        if preferred_path.exists() and preferred_path.suffix == ".md":
+            return preferred_path
+
+    candidates = []
+    by_name = find_task_file_by_name(task_id)
+    if by_name:
+        candidates.append(by_name)
+    candidates.extend(find_task_files_by_frontmatter_id(task_id))
+
+    if not candidates:
+        return None
+
+    # Deduplicate while preserving order
+    seen = set()
+    unique = []
+    for c in candidates:
+        key = c.resolve()
+        if key not in seen:
+            seen.add(key)
+            unique.append(c)
+
+    if len(unique) == 1:
+        return unique[0]
+
+    # Prefer the canonical file
+    unique.sort(key=score_task_file, reverse=True)
+    return unique[0]
 
 
 def main() -> int:
@@ -224,7 +293,7 @@ def main() -> int:
         # Batch tasks and review-only entries are reviewed via separate files
         if is_batch_task(task_id) or is_review_only_entry(task_id):
             continue
-        task_file = find_task_file(task_id)
+        task_file = find_task_file(task_id, preferred_source=qrow.get("source_file", ""))
         if task_file is None:
             queue_ahead_inconsistencies.append((task_id, "队列 marked reviewed 但任务单文件不存在"))
             continue

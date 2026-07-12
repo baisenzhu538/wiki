@@ -10,7 +10,6 @@ review_date: 2026-07-04
 priority: P1
 created_at: 2026-07-04
 updated_at: 2026-07-04T19:25:00+00:00
-reviewed_by: pending
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 - kdo-tools/aesthetic-library-builder.py

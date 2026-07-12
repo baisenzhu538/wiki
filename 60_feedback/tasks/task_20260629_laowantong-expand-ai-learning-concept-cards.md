@@ -4,22 +4,24 @@ title: 扩展 AI 工具学习方法论原子概念卡
 type: task
 status: reviewed
 source_refs:
-  - "00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md"
-  - "00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md"
+- 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
+- 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
 wiki_refs:
-  - "[[yai-counsel-role]]"
-  - "[[yai-tcp-teacher-role]]"
-  - "[[deliberate-practice-four-elements]]"
-  - "[[ai-tool-learning-curve]]"
-  - "[[four-questions-feedback]]"
-  - "[[completion-criteria-design]]"
-  - "[[challenge-point-design]]"
-  - "[[productization-judgment]]"
-  - "[[consultant-mode-yai-style]]"
+- '[[yai-counsel-role]]'
+- '[[yai-tcp-teacher-role]]'
+- '[[deliberate-practice-four-elements]]'
+- '[[ai-tool-learning-curve]]'
+- '[[four-questions-feedback]]'
+- '[[completion-criteria-design]]'
+- '[[challenge-point-design]]'
+- '[[productization-judgment]]'
+- '[[consultant-mode-yai-style]]'
 assignee: 老顽童
 priority: medium
-created_at: "2026-06-29"
-updated_at: "2026-06-29"
+created_at: '2026-06-29'
+updated_at: '2026-06-29'
+review_date: '2026-06-29'
+reviewed_by: 欧阳锋
 ---
 
 # 任务：扩展 AI 工具学习方法论原子概念卡

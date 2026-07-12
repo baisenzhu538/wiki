@@ -8,8 +8,10 @@ assignee: WorkBuddy 老顽童
 priority: P0
 scope: dark-knowledges 目录第八批清零：补齐 10 张问题 dk 卡的标准 section
 related:
-  - '[[laowantong-batch-2026-06-20-wave3]]'
+- '[[laowantong-batch-2026-06-20-wave3]]'
 status: reviewed
+review_date: '2026-06-28'
+reviewed_by: 欧阳锋
 ---
 
 # 老顽童生产任务：dark-knowledges 第八批清零（10 张 dk 卡）

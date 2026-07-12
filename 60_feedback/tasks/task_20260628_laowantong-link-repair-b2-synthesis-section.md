@@ -10,6 +10,7 @@ reviewer: 欧阳锋
 source_refs:
 - 70_product/tasks/production-queue.md
 - 60_feedback/tasks/task_20260628_wangyuyan-next-phase-orchestration.md
+review_date: '2026-06-28'
 ---
 
 # B2：Synthesis section 死链/占位清理

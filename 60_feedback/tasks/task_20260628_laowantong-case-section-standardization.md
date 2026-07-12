@@ -8,9 +8,11 @@ assignee: Kimi 老顽童（实际完成）
 priority: P1
 scope: 渠道增长域 10 张 case 卡 section 标题标准化 + 1 张 dk 卡 section 结构调整
 related:
-  - '[[task_20260628_wangyuyan-cleanup-channel-growth-residuals]]'
-  - '[[review_20260628_ouyangfeng-channel-growth]]'
+- '[[task_20260628_wangyuyan-cleanup-channel-growth-residuals]]'
+- '[[review_20260628_ouyangfeng-channel-growth]]'
 status: reviewed
+review_date: '2026-06-28'
+reviewed_by: 欧阳锋
 ---
 
 # 老顽童生产任务：渠道增长域 10 张 case 卡 + 1 张 dk 卡 section 结构补齐（已完成，待欧阳锋抽检）

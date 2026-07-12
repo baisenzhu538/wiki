@@ -8,12 +8,14 @@ assignee: Kimi 老顽童临时实例
 priority: P0-P1
 scope: 兰毅「用泛产品思维做组织」深挖 + 泛产品设计域核心概念升级
 related:
-  - '[[framework-panproduct-domain-digest]]'
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[yt-model-pan-product-three-virtues]]'
-  - '[[yt-model-pan-product-climbing-map]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
+- '[[framework-panproduct-domain-digest]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[yt-model-pan-product-three-virtues]]'
+- '[[yt-model-pan-product-climbing-map]]'
+- '[[framework-一堂五步法-泛产品设计]]'
 status: reviewed
+review_date: '2026-06-28'
+reviewed_by: 欧阳锋
 ---
 
 # Kimi 老顽童生产任务：兰毅「用泛产品思维做组织」+ 泛产品设计域升级

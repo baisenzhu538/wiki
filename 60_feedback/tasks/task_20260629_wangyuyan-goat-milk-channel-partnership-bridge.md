@@ -11,13 +11,14 @@ reviewer: 欧阳锋
 source_refs:
 - 60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md
 related:
-- [[diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer]]
-- [[tool-strategy-profit-model-comparison]]
-- [[tool-yitang-channel-scoring-matrix]]
-- [[yt-management-partnership-equity]]
-- [[yt-tool-unit-model-construction]]
-- [[framework-yitang-channel-unit-economics]]
-- [[tool-yitang-channel-agent-interview]]
+- - - diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer
+- - - tool-strategy-profit-model-comparison
+- - - tool-yitang-channel-scoring-matrix
+- - - yt-management-partnership-equity
+- - - yt-tool-unit-model-construction
+- - - framework-yitang-channel-unit-economics
+- - - tool-yitang-channel-agent-interview
+review_date: '2026-06-29'
 ---
 
 # 羊奶「卖地图」跨域桥接卡生产任务

@@ -1,7 +1,7 @@
 ---
 id: task_20260704_wangyuyan-patch-canvas-risk-judgment
 type: task
-status: reviewed
+status: done
 assignee: 黄药师
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

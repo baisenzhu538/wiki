@@ -11,6 +11,7 @@ source_refs:
 - .agent/kb-evolution-direction.md
 - 60_feedback/methods/method-dialogue-driven-kb-evolution.md
 - 60_feedback/auto/kb-evolution-signals-weekly.md
+review_date: '2026-06-28'
 ---
 
 # Wave 6 新盲区探索诊断

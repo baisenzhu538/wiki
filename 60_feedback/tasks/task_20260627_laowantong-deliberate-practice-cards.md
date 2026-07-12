@@ -8,9 +8,11 @@ priority: P1
 status: reviewed
 scope: 元能力-刻意练习素材卡片化生产
 related:
-  - '[[diag_20260627_wangyuyan-deliberate-practice-nine-layer]]'
-  - '[[diag_20260627_wangyuyan-cross-domain-bridge-supplement]]'
-  - '[[framework-ai-deliberate-practice-loop]]'
+- '[[diag_20260627_wangyuyan-deliberate-practice-nine-layer]]'
+- '[[diag_20260627_wangyuyan-cross-domain-bridge-supplement]]'
+- '[[framework-ai-deliberate-practice-loop]]'
+review_date: '2026-06-27'
+reviewed_by: 欧阳锋
 ---
 
 # Hermes 老顽童生产任务：元能力-刻意练习卡片化

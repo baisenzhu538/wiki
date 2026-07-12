@@ -1,6 +1,6 @@
 ---
 id: task_20260701_wobeirushen-validation
-title: "《吾辈如神》KDO 入库验证：6层交叉验证 + 9层深挖 + 全网调研"
+title: 《吾辈如神》KDO 入库验证：6层交叉验证 + 9层深挖 + 全网调研
 type: validation
 status: reviewed
 assignee: 系统治理Agent
@@ -9,13 +9,14 @@ created_at: 2026-07-01
 updated_at: 2026-07-01
 reviewer: 欧阳锋
 source_refs:
-  - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
-  - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt
-  - 60_feedback/tasks/task_20260701_huangyaoshi-proposal-wobeirushen-book-ingest.md
+- 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
+- 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt
+- 60_feedback/tasks/task_20260701_huangyaoshi-proposal-wobeirushen-book-ingest.md
 related:
-  - framework-yitang-six-layer-cross-validation
-  - framework-yitang-nine-layer-deep-dig
-  - task_20260701_huangyaoshi-proposal-wobeirushen-book-ingest
+- framework-yitang-six-layer-cross-validation
+- framework-yitang-nine-layer-deep-dig
+- task_20260701_huangyaoshi-proposal-wobeirushen-book-ingest
+review_date: '2026-07-01'
 ---
 
 # 《吾辈如神》KDO 入库验证

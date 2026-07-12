@@ -2,11 +2,12 @@
 id: task_20260703_huangyaoshi-agent-prompt-compiler
 title: Agent Prompt 编译器：把 agent-os.md + 域卡编译为可注入的 system prompt
 type: task
-status: queued
+status: reviewed
 priority: P1
 assignee: claude
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋
+review_date: 2026-07-04
 created_at: 2026-07-01
 updated_at: '2026-07-04T10:06:26.490112+00:00'
 source_context: 用户判定 agent-os.md 不能依赖 Claude 的 Read 文件能力，Kimi/Hermes 需要静态 system prompt

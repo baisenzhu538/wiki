@@ -16,6 +16,7 @@ estimated_files: 16
 dependencies:
 - task_20260708_wangyuyan-claude-retrospective-p0-fix
 source_audit: 60_feedback/diagnosis/audit_20260708_wangyuyan-claude-retrospective.md
+review_date: '2026-07-08'
 ---
 
 # Claude 王语嫣回溯审计 P1 补全：source_refs 行号、外部验证与诊断深度
