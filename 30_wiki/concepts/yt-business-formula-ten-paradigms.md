@@ -52,6 +52,11 @@ related:
 - '[[yt-tool-business-formula-18-moves]]'
 - '[[concept-一堂-脱离成本]]'
 - '[[business-formula-domain-digest]]'
+- '[[tool-动力阻力分析]]'
+- '[[framework-business-formula-dual-triangle-bridge]]'
+- '[[framework-一堂-关键假设-ABCD模型]]'
+- '[[framework-一堂-关键假设]]'
+- '[[framework-business-formula-y-model-bridge]]'
 quality_labels:
 - framework
 - reference

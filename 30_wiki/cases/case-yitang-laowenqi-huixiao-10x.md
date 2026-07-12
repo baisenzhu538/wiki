@@ -40,6 +40,7 @@ related:
 - '[[case-yitang-yewenbin-archery-business-formula]]'
 - '[[framework-yitang-scientific-sales-five-step]]'
 - '[[tool-动力阻力分析]]'
+- '[[framework-一堂-关键假设]]'
 ---
 # 劳文启线下会销十倍增长：业务公式从1.0拆到4.0，单场10万干到近百万
 

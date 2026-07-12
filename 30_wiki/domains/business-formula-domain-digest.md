@@ -85,6 +85,8 @@ related:
 - '[[case-yitang-innovative-metrics-collection]]'
 - '[[case-yitang-three-industry-formula-demos]]'
 - '[[agent-一堂-业务公式教练]]'
+- '[[framework-一堂-关键假设]]'
+- '[[framework-一堂-关键假设-ABCD模型]]'
 ---
 
 # 域摘要：一堂业务公式（C 域）

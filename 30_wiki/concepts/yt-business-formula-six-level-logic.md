@@ -82,6 +82,9 @@ related:
 - '[[case-yitang-false-causality-collection]]'
 - '[[case-yitang-innovative-metrics-collection]]'
 - '[[case-yitang-three-industry-formula-demos]]'
+- '[[tool-动力阻力分析]]'
+- '[[framework-business-formula-dual-triangle-bridge]]'
+- '[[framework-business-formula-fundamentals-bridge]]'
 ---
 # 业务公式六层逻辑关系冰山（L1 模糊理解 → L6 动态建模）
 

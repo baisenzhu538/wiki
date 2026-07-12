@@ -41,6 +41,8 @@ related:
   - '[[concept-一堂-假设飞轮]]'
   - '[[yt-business-formula-peahd-roles]]'
   - '[[case-yitang-vicky-short-video]]'
+  - '[[yt-business-formula-parameter-iceberg]]'
+  - '[[yt-business-formula-six-level-logic]]'
 diagnostic_signals:
   - signal: 团队练了基本功但不知道"练得好不好"怎么体现在业务结果上
     lens: 两个域割裂——基本功域在练"人的动作"，业务公式域在拆"业务的参数"，但没接起来

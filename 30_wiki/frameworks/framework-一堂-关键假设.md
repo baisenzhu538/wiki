@@ -52,6 +52,19 @@ related:
 - '[[concept-一堂-参数即假设与递归嵌套]]'
 - '[[concept-一堂-魔法数字]]'
 - '[[yt-business-formula-three-stage-workflow]]'
+- '[[case-yitang-laowenqi-huixiao-10x]]'
+- '[[case-yitang-zhanglei-comic-booth]]'
+- '[[case-yitang-zhanglei-gacha-points]]'
+- '[[concept-一堂-黑盒到白盒]]'
+- '[[concept-一堂-假设飞轮]]'
+- '[[concept-一堂-三类目标策略]]'
+- '[[concept-一堂-双目标法]]'
+- '[[yt-business-formula-peahd-roles]]'
+- '[[yt-tool-business-formula-expert-interview-10]]'
+- '[[yt-tool-business-formula-18-moves]]'
+- '[[yt-tool-business-formula-inspiration-5]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[business-formula-domain-digest]]'
 diagnostic_signals:
 - signal: 团队说"我们有个好想法，准备全力以赴"，却说不清这个想法依赖哪些前提
   lens: 缺假设驱动意识——把创业当执行计划，不是当一组待验证假设

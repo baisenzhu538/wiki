@@ -33,6 +33,11 @@ related:
 - '[[case-yitang-wang-mcn-funnel]]'
 - '[[case-yitang-panhonghai-entertainment]]'
 - '[[concept-一堂-脱离成本]]'
+- '[[case-yitang-marathon-ten-seasons]]'
+- '[[yt-business-formula-six-level-logic]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[yt-business-formula-peahd-roles]]'
+- '[[framework-一堂-业务公式拆解-总纲]]'
 updated_at: '2026-06-29'
 ---
 # 动力阻力分析：用户行为的推拉模型

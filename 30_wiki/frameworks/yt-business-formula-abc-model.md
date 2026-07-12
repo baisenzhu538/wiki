@@ -64,6 +64,9 @@ related:
 - "[[case-yitang-shao-kaoyan-gmv]]"
 - "[[case-yitang-du-kids-education-sabc]]"
 - "[[case-yitang-three-industry-formula-demos]]"
+- "[[framework-一堂-关键假设-ABCD模型]]"
+- "[[framework-一堂-苦练基本功-总纲]]"
+- "[[concept-一堂-基本功定义]]"
 
 ---
 

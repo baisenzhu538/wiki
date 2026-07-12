@@ -29,6 +29,7 @@ related:
 - '[[tool-三层目标对齐法]]'
 - '[[business-formula-domain-digest]]'
 - '[[case-yitang-marathon-ten-seasons]]'
+- '[[framework-一堂-关键假设]]'
 diagnostic_signals:
 - signal: 年度目标定高了，团队喊了两个月发现完不成，士气崩了觉得今年白干
   lens: 单目标只有一个判决点——定高则丧、定低则晃悠，这是单目标机制的病，不是执行的病

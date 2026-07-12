@@ -89,6 +89,7 @@ related:
 - '[[case-yitang-magic-number-collection]]'
 - '[[case-yitang-innovative-metrics-collection]]'
 - '[[case-yitang-three-industry-formula-demos]]'
+- '[[tool-动力阻力分析]]'
 diagnostic_signals:
 - signal: 团队说"我们的关键假设是用户会买单"，但说不清差多少、先动哪
   lens: 假设停在定性——没有拆到可验证参数

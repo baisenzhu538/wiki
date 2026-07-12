@@ -27,6 +27,9 @@ related:
 - '[[concept-一堂-key-assumptions]]'
 - '[[yt-business-formula-hypothesis-management-playbook]]'
 - '[[case-yitang-shipinhao-ads-l1-l6]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[business-formula-domain-digest]]'
 diagnostic_signals:
 - signal: 团队说"我们有个关键假设"，但说不清它属于哪类问题
   lens: 缺场景定位——成败问题和效率问题要用不同工具

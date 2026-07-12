@@ -39,6 +39,7 @@ related:
 - "[[case-yitang-yewenbin-archery-business-formula]]"
 - "[[case-yitang-fupanying-five-years-1000-hypotheses]]"
 - "[[tool-动力阻力分析]]"
+- "[[framework-一堂-关键假设]]"
 ---
 # 张磊漫展展位：9平米亏到100平米，靠一张业务公式+摄像头复盘把展位做到200平米盈利
 

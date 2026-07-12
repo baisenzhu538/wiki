@@ -75,6 +75,8 @@ related:
 - "[[case-yitang-magic-number-collection]]"
 - "[[case-yitang-innovative-metrics-collection]]"
 - "[[case-yitang-three-industry-formula-demos]]"
+- "[[framework-business-formula-dual-triangle-bridge]]"
+- "[[framework-business-formula-fundamentals-bridge]]"
 ---
 
 # 业务公式参数冰山（L1-L6）

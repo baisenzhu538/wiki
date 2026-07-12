@@ -46,6 +46,7 @@ related:
 - "[[concept-一堂-脱离成本]]"
 - "[[framework-business-formula-fundamentals-bridge]]"
 - "[[framework-一堂-苦练基本功-总纲]]"
+- "[[framework-一堂-关键假设]]"
 diagnostic_signals:
 - signal: 团队死气沉沉，偶尔有人举手提想法，被老板一拍回去，之后更没人说话
   lens: 飞轮在反向转——「好不容易有个人举手说老板我有个想法，老板又拍回去，团队会越来越死气沉沉」（进阶篇-口述 L3302-L3306）

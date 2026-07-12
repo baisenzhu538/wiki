@@ -35,6 +35,7 @@ related:
   - "[[case-yitang-false-causality-collection]]"
   - "[[case-yitang-magic-number-collection]]"
   - "[[concept-一堂-三类目标策略]]"
+  - "[[yt-business-formula-hypothesis-management-playbook]]"
 updated_at: 2026-07-02
 id: yt-management-goal-management
 author: 老顽童
