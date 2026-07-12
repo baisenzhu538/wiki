@@ -22,6 +22,12 @@ related:
   - "[[tool-yitang-research-cross-validation]]"
   - "[[tool-yitang-competitor-financial-analysis]]"
   - "[[framework-yitang-channel-exploration-4step]]"
+  - "[[tool-知识库团队管理]]"
+  - "[[tool-马易-数据标注正确法]]"
+  - "[[tool-马易-最小场景优先落地法]]"
+  - "[[tool-马易-知识库-回答技巧双建设]]"
+  - "[[tool-马易-需求创造验证法]]"
+  - "[[tool-马易-风口痛点识别法]]"
 updated_at: "2026-06-30T16:07:51+00:00"
 ---
 

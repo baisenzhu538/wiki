@@ -19,6 +19,7 @@ source_refs:
 related:
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[method-yihang-aesthetic-fast-build]]"
+  - "[[tool-yihang-agent-config-7steps]]"
 ---
 
 # 口喷：双三角内功 + 九字诀外功——语音驱动 AI 协作

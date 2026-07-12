@@ -28,6 +28,7 @@ related:
 - '[[tool-ai辅助学习]]'
 - '[[tool-费曼学习法三句话提炼]]'
 - '[[tool-专家访谈学习]]'
+  - '[[tool-建立知识联系]]'
 - tool-专题笔记脑图整理法
 - tool-ai-prd-for-ai
 ---

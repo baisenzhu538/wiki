@@ -27,6 +27,7 @@ related:
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
 - '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
+  - '[[framework-yihang-dual-triangle-weapon-library]]'
 aliases:
 - 双三角三阶六变
 - 双三角六种落地场景

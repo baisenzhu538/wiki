@@ -21,6 +21,8 @@ related:
   - "[[tool-ai-prd-for-ai]]"
   - "[[structured-ai-workspace]]"
   - "[[tool-ai-old-small-checklist]]"
+  - "[[tool-Truman-多Agent通信协作方案]]"
+  - "[[tool-ai-parallel-validation]]"
 ---
 # 技能：结构化AI工作空间搭建
 

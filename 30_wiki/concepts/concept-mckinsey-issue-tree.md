@@ -21,6 +21,8 @@ related:
   - "[[concept-mckinsey-mece]]"
   - "[[concept-mckinsey-hypothesis-driven]]"
   - "[[concept-minto-pyramid-principle]]"
+  - "[[concept-mckinsey-7s]]"
+  - "[[concept-toyota-5-whys]]"
 wiki_refs:
 - src_unknown
 - src_unknown

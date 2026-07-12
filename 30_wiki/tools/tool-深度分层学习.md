@@ -31,6 +31,7 @@ related:
 - '[[tool-ai辅助学习]]'
 - '[[tool-将未中标成本纳入循环计算真实投标成本]]'
 - '[[tool-费曼学习法三句话提炼]]'
+  - '[[tool-从案例中学习正反案例法]]'
 - framework-wanghuan-ai-five-level-ladder
 - framework-yitang-18-strategy-cards
 ---

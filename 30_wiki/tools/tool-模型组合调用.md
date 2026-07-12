@@ -30,6 +30,7 @@ related:
 - '[[tool-主动摘要压缩上下文]]'
 - '[[tool-提示词结构化迭代]]'
 - '[[tool-渐进式披露上下文]]'
+  - '[[tool-strategy-control-points]]'
 - tool-ai-prd-for-ai
 ---
 # 技能：模型组合调用

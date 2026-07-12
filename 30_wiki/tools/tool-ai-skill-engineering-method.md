@@ -36,6 +36,10 @@ related:
   - "[[yt-skill-p-role-prompt-design]]"
   - "[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]"
   - "[[plan_20260621_skill-iteration-standard]]"
+  - "[[tool-ai-skill-engineering-guide]]"
+  - "[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
+  - "[[tool-yitang-18-strategy-tool-mapping]]"
+  - "[[tool-半肥猫-course-to-skill-workflow]]"
 tags:
 - src_unknown
 - src_unknown

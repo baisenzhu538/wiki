@@ -34,6 +34,10 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-ci-implement-phase]]"
+  - "[[tool-yitang-research-competitor-tracking]]"
+  - "[[tool-yitang-social-engineering-research]]"
+  - "[[tool-yitang-supply-chain-research]]"
 ---
 
 # 持续跟踪：建立动态信息监控机制

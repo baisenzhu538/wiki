@@ -15,6 +15,7 @@ related:
 - "[[case-truman-ai-partner]]"
 - "[[case-truman-ai-skill-engineering-guide]]"
 - "[[case-truman-ai-skill-self-packaging]]"
+  - "[[case-truman-prd-checklist-evolution]]"
 created_at: '2026-06-09'
 author: 老顽童
 reviewed_by: 欧阳锋

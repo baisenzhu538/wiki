@@ -32,6 +32,8 @@ related:
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+  - '[[case-decision-ai-assisted-vs-human]]'
+  - '[[case-truman-poker-deck-roi]]'
 - case-course-milestone-model
 tags:
 - src_unknown

@@ -21,6 +21,8 @@ related:
 - "[[tool-马易-平台模式验证法]]"
 - "[[tool-马易-数字员工FD拆解落地]]"
 - "[[tool-马易-最小场景优先落地法]]"
+  - "[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
+  - "[[tool-demand-iceberg-l2-scenario]]"
 ---
 # 技能：业务问题AI化拆解-餐饮设计案例法
 

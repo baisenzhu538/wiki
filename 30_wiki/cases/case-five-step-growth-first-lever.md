@@ -53,6 +53,8 @@ related:
 - "[[yt-product-kernel-cultivation]]"
 - "[[yt-unit-model-three-tools]]"
 - "[[yt-customer-acquisition-toolkit]]"
+  - "[[case-five-step-fake-vs-real-barriers]]"
+  - "[[case-truman-ai-skill-self-packaging]]"
 ---
 
 # 案例：五步法中从产品内核到增长的第一次跨越

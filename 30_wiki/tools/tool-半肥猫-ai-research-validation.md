@@ -19,6 +19,8 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-devils-advocacy]]"
+  - "[[tool-key-assumptions-check]]"
 wiki_refs:
 - src_unknown
 - src_unknown

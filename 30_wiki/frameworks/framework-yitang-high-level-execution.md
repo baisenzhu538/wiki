@@ -47,6 +47,7 @@ related:
 - "[[concept-yitang-research-facts-first]]"
 - "[[tool-yitang-research-cross-validation]]"
 - "[[tool-yitang-research-quantitative-modeling]]"
+  - "[[framework-yitang-expert-interview-10steps]]"
 
 ---
 

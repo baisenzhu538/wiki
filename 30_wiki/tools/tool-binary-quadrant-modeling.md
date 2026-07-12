@@ -28,6 +28,7 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-scenario-selector-modeling]]"
 tags:
 - src_unknown
 - src_unknown

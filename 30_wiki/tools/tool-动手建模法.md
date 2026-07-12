@@ -20,6 +20,10 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-binary-quadrant-modeling]]"
+  - "[[tool-demand-four-forces]]"
+  - "[[tool-iceberg-triangle-modeling]]"
+  - "[[tool-radar-chart-modeling]]"
 definition_of_done:
 - src_unknown
 - src_unknown

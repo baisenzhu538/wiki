@@ -39,6 +39,7 @@ related:
 - "[[tool-区分获客渠道计算单元roi]]"
 - "[[case-yitang-yitang-course-industrialization]]"
 - "[[case-yitang-yitu-lead-industrialization]]"
+  - "[[framework-yitang-research-quality-gate]]"
 review_date: '2026-06-28'
 ---
 

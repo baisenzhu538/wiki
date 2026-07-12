@@ -34,6 +34,7 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-yitang-research-competitor-tracking]]"
 ---
 
 # 地图在手：建立全局信息获取体系

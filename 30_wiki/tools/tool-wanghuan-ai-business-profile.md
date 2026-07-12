@@ -36,6 +36,7 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-ai-critical-reading-three-layers]]"
 tags:
 - src_unknown
 - src_unknown

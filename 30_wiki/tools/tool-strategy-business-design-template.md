@@ -21,6 +21,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[tool-strategy-value-capture]]'
 - yt-business-model-definition
 ---
 # 业务单元业务设计模板

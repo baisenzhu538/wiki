@@ -32,6 +32,7 @@ related:
 - "[[case-yitang-topcity-growth-flywheel]]"
 - "[[case-yitang-novel-app-flywheel]]"
 - "[[tool-区分获客渠道计算单元roi]]"
+  - "[[case-yitang-yitang-shortvideo-industrialization]]"
 review_date: '2026-06-28'
 ---
 

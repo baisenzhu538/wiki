@@ -25,6 +25,8 @@ related:
   - "[[case-ji-hao-skill-market-problem-validation]]"
   - "[[dk-ji-hao-problem-vs-question]]"
   - "[[tool-ai-problem-validation]]"
+  - "[[tool-google-dorking]]"
+  - "[[tool-月白-小红书封面趋势判断法]]"
 wiki_refs:
 - src_unknown
 - src_unknown

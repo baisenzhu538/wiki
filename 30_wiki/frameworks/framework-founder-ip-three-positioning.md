@@ -39,6 +39,7 @@ related:
   - '[[case-yitang-goat-milk-channel-partnership]]'
   - '[[system-kdo-quality-labels]]'
   - '[[case-ai-search-commerce-platform-hedge]]'
+  - '[[framework-community-knowledge-production-failure-modes]]'
 pipeline:
   - "confidence-draft"
 ---

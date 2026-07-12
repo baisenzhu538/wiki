@@ -29,6 +29,7 @@ related:
 - "[[tool-月白-口喷作图工作流]]"
 - "[[tool-月白-AIGC人群画像驱动详情页规划]]"
 - "[[tool-月白-实物包装落地训练法]]"
+  - "[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
 ---
 # 技能：AI设计底层逻辑：从设计到作图到改图
 

@@ -41,6 +41,7 @@ related:
   - "[[dk-content-implicit-value-without-price]]"
   - "[[framework-founder-ip-three-positioning]]"
   - "[[tool-yitang-value-proposition-4step]]"
+  - "[[framework-community-knowledge-production-failure-modes]]"
 pipeline:
   - "confidence-draft"
 ---

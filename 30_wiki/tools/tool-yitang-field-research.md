@@ -35,6 +35,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[tool-yitang-consumer-goods-research]]'
 - framework-doris-industry-report-4step
 - concept-yitang-research-scope
 ---

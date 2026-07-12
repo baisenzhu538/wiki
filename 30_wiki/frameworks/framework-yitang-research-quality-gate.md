@@ -20,6 +20,8 @@ related:
 - '[[framework-yitang-18-strategy-cards]]'
 - '[[framework-yitang-channel-exploration-4step]]'
 - '[[framework-yitang-channel-industrialization]]'
+  - '[[framework-kdo-self-attack]]'
+  - '[[framework-ouyangfeng-review-methodology]]'
 - framework-yitang-high-level-plan
 - framework-yitang-oscar-research
 diagnostic_signals:

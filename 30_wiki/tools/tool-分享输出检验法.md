@@ -20,6 +20,8 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-strategy-business-summary]]"
+  - "[[tool-费曼学习法实践讲香课题]]"
 definition_of_done:
 - src_unknown
 - src_unknown

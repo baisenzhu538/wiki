@@ -40,6 +40,9 @@ related:
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[dk-yitang-research-source-freshness]]"
 - "[[concept-yitang-research-mindset]]"
+  - "[[tool-yitang-app-store-data]]"
+  - "[[tool-yitang-public-sentiment-research]]"
+  - "[[tool-yitang-research-best-practice]]"
 
 ---
 

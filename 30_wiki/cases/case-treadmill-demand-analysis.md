@@ -22,6 +22,8 @@ related:
   - "[[yt-product-kernel-cultivation]]"
   - "[[case-unit-model-gashapon]]"
   - "[[yitang-domain-digest]]"
+  - "[[case-demand-b2b-enterprise-erp]]"
+  - "[[case-milktea-five-step]]"
 wiki_refs:
 - src_unknown
 pipeline:

@@ -34,6 +34,13 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-candy-positioning-canvas]]"
+  - "[[tool-demand-iceberg-l2-scenario]]"
+  - "[[tool-yitang-research-best-practice]]"
+  - "[[tool-yitang-research-company-disassembly]]"
+  - "[[tool-yitang-research-competitor-tracking]]"
+  - "[[tool-yitang-research-unit-model]]"
+  - "[[tool-yitang-research-validate-assumption]]"
 ---
 
 # 行业扫描：快速建立行业全貌认知

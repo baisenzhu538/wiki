@@ -21,6 +21,11 @@ related:
 - "[[tool-Truman-开源模型与商业模型融合方案]]"
 - "[[tool-Truman-多Agent通信协作方案]]"
 - "[[tool-Truman-数学题与语文题区分法]]"
+  - "[[tool-Truman-人在环渐进自动化策略]]"
+  - "[[tool-Truman-双三角模型应用]]"
+  - "[[tool-Truman-复杂项目AI落地稳定性保障]]"
+  - "[[tool-Truman-知识库最佳实践构建]]"
+  - "[[tool-Truman-短视频自动化上传工作流]]"
 ---
 # 技能：AI场景探索STAR模型
 

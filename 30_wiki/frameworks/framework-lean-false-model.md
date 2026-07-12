@@ -31,6 +31,12 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[framework-ai-accelerated-strategy-cycle]]'
+  - '[[framework-decision-quality-checklist]]'
+  - '[[framework-demand-lean-bridge]]'
+  - '[[framework-five-step-lean-interface]]'
+  - '[[framework-lean-four-principles]]'
+  - '[[framework-strategy-lean-validation]]'
 - tool-lean-minimum-version
 - tool-lean-premium-service
 created_at: '2026-06-30'

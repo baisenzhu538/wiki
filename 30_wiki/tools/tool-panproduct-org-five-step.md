@@ -32,6 +32,7 @@ related:
 - "[[framework-lean-abcd-model]]"
 - "[[framework-ai-accelerated-strategy-cycle]]"
 - "[[framework-yitang-growth-flywheel]]"
+  - "[[tool-逐字稿练习演讲]]"
 review_date: '2026-06-28'
 ---
 

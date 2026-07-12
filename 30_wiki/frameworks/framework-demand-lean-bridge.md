@@ -33,6 +33,7 @@ related:
 - '[[framework-lean-abcd-model]]'
 - '[[yitang-domain-digest]]'
 - '[[lean-startup-domain-digest]]'
+  - '[[framework-demand-validation-pipeline]]'
 updated_at: '2026-06-30'
 ---
 # 需求判断与精益验证的衔接

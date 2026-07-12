@@ -21,6 +21,9 @@ related:
   - "[[tool-yitang-research-cross-validation]]"
   - "[[tool-yitang-research-competitor-tracking]]"
   - "[[framework-yitang-research-radar]]"
+  - "[[tool-alt-data-free]]"
+  - "[[tool-alt-data-overview]]"
+  - "[[tool-demand-agent-signals]]"
 updated_at: "2026-06-30T16:07:51+00:00"
 ---
 

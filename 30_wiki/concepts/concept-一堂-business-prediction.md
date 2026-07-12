@@ -32,6 +32,7 @@ related:
   - "[[concept-一堂-kernel-validation]]"
   - "[[concept-一堂-kernel-iteration]]"
   - "[[framework-一堂五步法]]"
+  - "[[concept-一堂-终局光谱图解读]]"
 aliases:
   - business prediction
   - 商业预判

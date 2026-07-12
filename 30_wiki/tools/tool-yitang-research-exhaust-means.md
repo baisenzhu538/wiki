@@ -34,6 +34,11 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-osint-overview]]"
+  - "[[tool-yitang-job-intelligence-research]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[tool-yitang-weapon-media-search]]"
+  - "[[tool-yitang-weapon-third-party-database]]"
 ---
 
 # 穷尽手段：底线之上，努力拉满

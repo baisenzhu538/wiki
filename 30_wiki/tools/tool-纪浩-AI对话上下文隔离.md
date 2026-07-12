@@ -7,6 +7,7 @@ related:
   - "[[ai-collaboration-mindset-shift]]"
   - "[[case-ji-hao-skill-market-problem-validation]]"
   - "[[pending_unknown]]"
+  - "[[tool-ai-oral-spray-input]]"
 source_refs:
 - pending_archive: src_unknown
 ---

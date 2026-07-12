@@ -17,6 +17,8 @@ related:
   - "[[tool-一堂-five-step-validation]]"
   - "[[case-一堂-无人餐厅-hypothesis-failure]]"
   - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
+  - "[[tool-mckinsey-hypothesis-driven-workflow]]"
+  - "[[tool-一堂-关键假设-ABCD场景分类器]]"
 source_refs:
 - 00_inbox/一堂-关键假设课-truman-口述.txt L1064-L1074,L2460-L2482
 - 00_inbox/一堂-关键假设-关键假设三板斧_paddle_ocr.txt

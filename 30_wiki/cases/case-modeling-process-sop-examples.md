@@ -42,6 +42,7 @@ related:
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - '[[tool-sop-template-modeling]]'
+  - '[[case-truman-livestream-sop-iteration]]'
 - case-modeling-process-livestream-prep
 ---
 # 流程建模案例：10 个学员企业的 SOP 实践样本

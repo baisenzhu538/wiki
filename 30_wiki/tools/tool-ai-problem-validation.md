@@ -21,6 +21,7 @@ related:
   - "[[tool-ai-four-elements-validation]]"
   - "[[tool-ai-problem-question-check]]"
   - "[[tool-ai-evidence-check]]"
+  - "[[tool-纪浩-problem-validation-four-checks]]"
 ---
 # 技能：问题验证三维度法
 

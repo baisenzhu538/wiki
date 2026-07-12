@@ -20,6 +20,10 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-checklist-cheatsheet-modeling]]"
+  - "[[tool-strategy-blue-ocean-canvas]]"
+  - "[[tool-strategy-industry-chain-analysis]]"
+  - "[[tool-strategy-risk-management]]"
 definition_of_done:
 - src_unknown
 - src_unknown

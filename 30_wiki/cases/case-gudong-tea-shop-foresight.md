@@ -40,6 +40,7 @@ related:
   - "[[yitang-domain-digest]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[case-truman-yitang-foresight]]"
 ---
 
 # 古董奶茶店：五层筛选的加法减法实战

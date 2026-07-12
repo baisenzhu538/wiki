@@ -22,6 +22,7 @@ related:
   - "[[case-ji-hao-skills-market]]"
   - "[[case-truman-ai-partner]]"
   - "[[case-ban-fei-mao-from-assignment-to-tool]]"
+  - "[[tool-纪浩-Agent开工检查单制作法]]"
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: "2026-06-28"

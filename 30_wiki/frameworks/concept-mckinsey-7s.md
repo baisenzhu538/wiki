@@ -37,6 +37,9 @@ related:
   - "[[concept-mckinsey-mece]]"
   - "[[concept-mckinsey-issue-tree]]"
   - "[[concept-mckinsey-hypothesis-driven]]"
+  - "[[concept-ai-native-organization-five-steps]]"
+  - "[[concept-maister-trusted-advisor]]"
+  - "[[concept-minto-pyramid-principle]]"
 tags:
 - src_unknown
 - src_unknown

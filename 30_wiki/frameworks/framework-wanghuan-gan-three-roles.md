@@ -38,6 +38,9 @@ related:
   - "[[xingangwan-pharma-business-formulas]]"
   - "[[dk-lz-ai-native-organization]]"
   - "[[framework-pan-product-organization]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-wanghuan-ooda-loop]]"
 tags:
 - src_unknown
 - src_unknown

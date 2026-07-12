@@ -40,6 +40,7 @@ related:
 - '[[tool-agent-spec-yitang-self-motivation]]'
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[tool-agent-spec-yitang-opening-3min]]'
+  - '[[tool-osint-maltego]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: C

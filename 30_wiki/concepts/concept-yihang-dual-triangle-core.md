@@ -49,6 +49,11 @@ related:
 - "[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]"
 - "[[tool-yitang-dual-triangle-domain-registry]]"
 - "[[framework-一堂-业务公式拆解-总纲]]"
+  - "[[concept-yihang-data-pack-ethics]]"
+  - "[[concept-yihang-human-in-the-loop-dual-triangle]]"
+  - "[[concept-yihang-methodology-production-pipeline]]"
+  - "[[concept-yihang-research-driven-company]]"
+  - "[[concept-yitang-education-formula]]"
 aliases:
 - 一行双三角
 - 一堂双三角

@@ -40,6 +40,8 @@ related:
 - "[[dk-yitang-research-ai-hallucination]]"
 - "[[dk-yitang-expert-interview-5-traps]]"
 - "[[concept-yitang-research-mindset]]"
+  - "[[tool-yitang-research-deep-attribution]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
 
 ---
 

@@ -21,6 +21,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[tool-yitang-bp-analysis]]'
 - tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 ---

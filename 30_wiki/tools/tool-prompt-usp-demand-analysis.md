@@ -20,6 +20,7 @@ reviewed_by: 欧阳锋
 related:
 - '[[framework-demand-usp-model]]'
 - '[[tool-prompt-usp-quick-scan]]'
+  - '[[tool-prompt-jtbd-scenario-coach]]'
 - framework-wanghuan-ai-five-level-ladder
 - framework-yitang-18-strategy-cards
 iteration_history:

@@ -40,6 +40,11 @@ related:
   - "[[tool-opc-sales-dialogue-assistant]]"
   - "[[tool-yitang-daily-weekly-meeting-hosting]]"
   - "[[yt-business-formula-parameter-iceberg]]"
+  - "[[tool-agent-spec-yitang-customer-segmentation]]"
+  - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
+  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
+  - "[[tool-agent-spec-yitang-self-motivation]]"
+  - "[[tool-iceberg-triangle-modeling]]"
 created_at: 2026-07-02
 updated_at: 2026-07-08
 ---

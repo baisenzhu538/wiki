@@ -28,6 +28,7 @@ related:
   - "[[dk-ji-hao-ai-cant-design-structure]]"
   - "[[dk-ji-hao-simple-complex-routing]]"
   - "[[dk-ji-hao-pdca-starts-from-do]]"
+  - "[[concept-cognitive-offloading-in-ai-era]]"
 pipeline:
 - src_unknown
 - src_unknown

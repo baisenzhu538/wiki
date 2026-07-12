@@ -30,6 +30,10 @@ related:
 - tool-iceberg-triangle-modeling
 - concept-X型Y型决策习惯
 - '[[yt-business-formula-six-level-logic]]'
+  - '[[tool-Y模型STEPS策略集]]'
+  - '[[tool-Y模型实操工作流]]'
+  - '[[tool-agent-spec-yitang-Y-model-coach]]'
+  - '[[tool-opc-sales-dialogue-assistant]]'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 ---

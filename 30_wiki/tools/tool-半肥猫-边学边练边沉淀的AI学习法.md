@@ -27,6 +27,7 @@ related:
   - "[[case-ban-fei-mao-conversion-hacker-skill]]"
   - "[[dk-ban-fei-mao-silky-answer-warning]]"
   - "[[dk-ban-fei-mao-skill-rejection-value]]"
+  - "[[tool-从案例中学习正反案例法]]"
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 pipeline:

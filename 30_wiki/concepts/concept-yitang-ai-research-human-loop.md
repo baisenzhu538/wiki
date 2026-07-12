@@ -27,6 +27,7 @@ related:
   - tool-yitang-ai-monitoring-alert
   - '[[framework-ai-native-organization-two-modes]]'
   - '[[agent-spec-codex-teammate]]'
+  - '[[concept-yihang-human-in-the-loop-dual-triangle]]'
 updated_at: '2026-06-29'
 ---
 # AI调研中人机协作的判断节点

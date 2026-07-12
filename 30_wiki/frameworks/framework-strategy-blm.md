@@ -23,6 +23,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[framework-strategy-business-design]]'
 - tool-strategy-five-see-three-set
 - yt-five-step-method-complete
 ---

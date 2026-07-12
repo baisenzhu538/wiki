@@ -29,6 +29,7 @@ related:
   - "[[dk-ai-design-pitfalls]]"
   - "[[tool-ai-use-barbell-strategy]]"
   - "[[concept-cognitive-offloading-in-ai-era]]"
+  - "[[tool-ai-scene-four-elements]]"
 created_at: 2026-07-02
 updated_at: '2026-07-02'
 

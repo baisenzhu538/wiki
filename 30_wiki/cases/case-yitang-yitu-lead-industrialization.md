@@ -35,6 +35,7 @@ related:
 - "[[case-yitang-maiyi-cloud-computer-channel]]"
 - "[[dk-yitang-channel-exploration-traps]]"
 - "[[tool-yitang-sales-toolkit-maturity-60-75-85]]"
+  - "[[case-yitang-redburger-selection-industrialization]]"
 review_date: '2026-06-28'
 ---
 

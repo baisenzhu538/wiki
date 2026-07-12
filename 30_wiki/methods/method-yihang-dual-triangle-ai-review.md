@@ -21,6 +21,10 @@ related:
 - "[[method-dual-triangle-flywheel-engine]]"
 - "[[dk-ai-collaboration-degradation-spiral]]"
 - "[[method-yitang-y-model-engine-cycle]]"
+  - "[[method-kdo-agent-distillation]]"
+  - "[[method-yihang-agent-hr-role]]"
+  - "[[method-yihang-ai-self-xray-iteration]]"
+  - "[[method-yihang-human-self-distillation]]"
 ---
 
 # 双三角 AI 辅助复盘法：让 AI 拆解你自己的协作过程

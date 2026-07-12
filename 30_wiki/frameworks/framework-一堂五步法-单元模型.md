@@ -26,6 +26,7 @@ related:
 - '[[framework-一堂五步法-增长周期]]'
 - '[[tool-一堂五步法-换档检查清单]]'
 - '[[yt-five-step-method]]'
+  - '[[framework-一堂五步法-壁垒]]'
 diagnostic_signals:
 - signal: 创始人说"我们LTV>CAC"但LTV是"假设用户用3年"算出来的
   lens: 单元模型自欺——LTV用乐观假设估算

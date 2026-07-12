@@ -30,6 +30,7 @@ related:
   - "[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]"
   - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
   - "[[tool-泛产品设计-需求工具箱指南]]"
+  - "[[tool-demand-iceberg-l5-forces]]"
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'

@@ -39,6 +39,7 @@ related:
   - "[[tool-水水-识别自证预言陷阱]]"
   - "[[case-saas-renewal-formula]]"
   - "[[tool-水水-识别数据折磨陷阱]]"
+  - "[[case-truman-ai-skill-self-packaging]]"
 ---
 
 # HR SaaS：把“功能使用率↑续费率↑”当因果的功能堆砌陷阱

@@ -21,6 +21,10 @@ related:
   - "[[case-ban-fei-mao-skill-ab-test]]"
   - "[[dk-ban-fei-mao-skill-rejection-value]]"
   - "[[pending_unknown]]"
+  - "[[tool-ai-skill-engineering-guide]]"
+  - "[[tool-ai-skill-engineering-method]]"
+  - "[[tool-yitang-18-strategy-tool-mapping]]"
+  - "[[tool-半肥猫-course-to-skill-workflow]]"
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 pipeline:

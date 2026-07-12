@@ -34,6 +34,7 @@ related:
 - "[[framework-yitang-growth-flywheel]]"
 - "[[framework-lean-abcd-model]]"
 - "[[framework-ai-accelerated-strategy-cycle]]"
+  - "[[case-panproduct-lanyi-dahanghui-team]]"
 review_date: '2026-06-28'
 ---
 

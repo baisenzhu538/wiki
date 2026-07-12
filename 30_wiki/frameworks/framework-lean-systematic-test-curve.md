@@ -27,6 +27,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[framework-ai-accelerated-strategy-cycle]]'
 - modeling-three-stages
 - framework-lean-four-principles
 quality_labels:

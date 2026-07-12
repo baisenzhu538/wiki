@@ -32,6 +32,8 @@ related:
 - "[[framework-lean-abcd-model]]"
 - "[[case-yitang-shuzu-channel-scan-test]]"
 - "[[case-yitang-xujian-invoice-saas-channel]]"
+  - "[[case-yitang-solid-redbull-channel]]"
+  - "[[case-yitang-yitu-lead-industrialization]]"
 review_date: '2026-06-28'
 ---
 

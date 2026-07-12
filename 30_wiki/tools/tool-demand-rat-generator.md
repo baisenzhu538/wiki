@@ -25,6 +25,9 @@ related:
 - '[[framework-demand-ceiling-four-lines]]'
 - '[[domain-demand-analysis-index]]'
 - '[[yt-decision-y-model]]'
+  - '[[tool-demand-micro-experience-script]]'
+  - '[[tool-demand-option-explorer]]'
+  - '[[tool-demand-report-template]]'
 diagnostic_signals:
 - signal: 机会假设全是对的没有风险——"我们的假设都很靠谱"
   lens: RAT缺失——没有主动找"最可能错的地方"

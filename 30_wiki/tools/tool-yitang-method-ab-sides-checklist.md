@@ -21,6 +21,7 @@ related:
 - "[[framework-yitang-shishi-qiushi]]"
 - "[[yt-decision-y-model]]"
 - "[[concept-yitang-model-system-boundary]]"
+  - "[[tool-yitang-shishi-qiushi-cheat-sheet]]"
 ---
 
 # 创业方法 AB 面清单：对立金句的适用场景判断

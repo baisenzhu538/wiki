@@ -35,6 +35,7 @@ related:
 - "[[yt-unit-model-concept]]"
 - "[[framework-lean-abcd-model]]"
 - "[[case-yitang-yitang-self-growth-channel]]"
+  - "[[tool-yitang-channel-scan-cheat-sheet]]"
 review_date: '2026-06-28'
 ---
 

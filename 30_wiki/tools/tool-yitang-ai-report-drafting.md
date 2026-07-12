@@ -23,6 +23,7 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-马易-平台模式验证法]]"
 ---
 
 # AI草写报告：用AI生成调研初稿

@@ -48,6 +48,8 @@ related:
 - "[[concept-yitang-research-objective]]"
 - "[[tool-yitang-research-competitive-quadrant]]"
 - "[[tool-yitang-research-two-dimensional-positioning]]"
+  - "[[framework-yitang-expert-interview-10steps]]"
+  - "[[framework-yitang-research-quality-gate]]"
 
 ---
 

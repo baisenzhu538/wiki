@@ -34,6 +34,10 @@ related:
   - '[[dk-ai-builder-illusion]]'
   - '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
   - '[[tool-yitang-dual-triangle-domain-registry]]'
+  - '[[framework-business-formula-y-model-bridge]]'
+  - '[[framework-yihang-AI-native-dual-triangle-kernel]]'
+  - '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+  - '[[framework-yitang-y-model-cross-domain-fusion]]'
 aliases:
   - Y模型双三角协同
   - 双三角迭代发动机

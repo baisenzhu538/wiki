@@ -21,6 +21,8 @@ related:
   - "[[tool-马易-数字员工FD拆解落地]]"
   - "[[tool-马易-减少输入噪音法]]"
   - "[[tool-马易-最小场景优先落地法]]"
+  - "[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
+  - "[[tool-strategy-customer-selection]]"
 ---
 # 技能：AI搜索公网数据增强（合规边界）
 

@@ -27,6 +27,8 @@ related:
   - "[[framework-wanghuan-gan-three-roles]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[framework-ai2041-critical-reading-os]]"
 tags:
 - src_unknown
 - src_unknown

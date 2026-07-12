@@ -41,6 +41,10 @@ related:
 - "[[case-yitang-sanjieke-benchmark-failure]]"
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[concept-yitang-research-mindset]]"
+  - "[[tool-yitang-financial-report-intelligence]]"
+  - "[[tool-yitang-public-sentiment-research]]"
+  - "[[tool-yitang-research-quantitative-modeling]]"
+  - "[[tool-yitang-weapon-public-official-info]]"
 
 ---
 

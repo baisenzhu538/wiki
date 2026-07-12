@@ -27,6 +27,7 @@ related:
 - '[[tool-一堂-spectrum-positioning]]'
 - '[[tool-纪浩-案例池构建法]]'
 - '[[case-科学决策-ROI案例03]]'
+  - '[[case-truman-livestream-sop-iteration]]'
 - case-modeling-process-livestream-prep
 diagnostic_signals:
 - framework_lens: 流程建模 / SOP

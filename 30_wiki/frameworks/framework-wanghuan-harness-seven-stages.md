@@ -34,6 +34,9 @@ related:
   - "[[plan_20260621_kdo-quality-harness-upgrade]]"
   - "[[concept-harness-scoring-anchors]]"
   - "[[pending_unknown]]"
+  - "[[framework-ai-accelerated-strategy-cycle]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[framework-ai2041-critical-reading-os]]"
 tags:
 - src_unknown
 - src_unknown

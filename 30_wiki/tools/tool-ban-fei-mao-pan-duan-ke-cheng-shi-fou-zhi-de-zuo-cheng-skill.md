@@ -24,6 +24,8 @@ related:
   - "[[concept-半肥猫-ai-learning-toolification-methodology]]"
   - "[[ai-collaboration-domain-digest]]"
   - "[[yitang-domain-digest]]"
+  - "[[tool-ai-skill-engineering-method]]"
+  - "[[tool-yitang-18-strategy-tool-mapping]]"
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'

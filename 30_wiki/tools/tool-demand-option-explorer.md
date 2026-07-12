@@ -25,6 +25,7 @@ related:
 - '[[domain-demand-analysis-index]]'
 - '[[yt-decision-y-model]]'
 - '[[tool-demand-rat-generator]]'
+  - '[[tool-demand-report-template]]'
 diagnostic_signals:
 - signal: 创始人说"我们的差异化是更好用"——每个竞品都这么说
   lens: USP不成立——"更好用"不是差异化是基本要求

@@ -44,6 +44,10 @@ related:
   - "[[concept-ji-hao-ai-collaboration-methodology]]"
   - "[[tool-ai-deliverable-polish-loop]]"
   - "[[concept-cognitive-offloading-in-ai-era]]"
+  - "[[tool-clinic-cabinet-legal-contract-guide]]"
+  - "[[tool-clinic-medical-shortvideo-compliance]]"
+  - "[[tool-scene-design-language-translation]]"
+  - "[[tool-smart-medicine-cabinet-compliance-checklist]]"
 pipeline:
   - "confidence-draft"
 ---

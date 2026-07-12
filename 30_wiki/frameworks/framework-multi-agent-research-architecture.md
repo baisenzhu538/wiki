@@ -26,6 +26,7 @@ related:
   - "[[ai-native-im-multi-agent]]"
   - "[[yt-panproduct-demand-multi-perspective]]"
   - "[[dk-yb14-multi-image-commonality]]"
+  - "[[framework-ai-accelerated-strategy-cycle]]"
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: "2026-06-28"

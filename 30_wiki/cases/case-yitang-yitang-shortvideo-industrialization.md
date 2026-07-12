@@ -30,6 +30,7 @@ related:
 - '[[concept-yitang-channel-lean-validation-bridge]]'
 - '[[framework-yitang-channel-unit-economics]]'
 - '[[tool-区分获客渠道计算单元roi]]'
+  - '[[case-daxin-team-content-training-camp]]'
 - case-yitang-amazon-growth-flywheel
 status: reviewed
 review_date: '2026-06-28'

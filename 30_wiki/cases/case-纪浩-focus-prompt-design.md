@@ -50,6 +50,7 @@ related:
   - "[[tool-月白-设计项目MVP拆解法]]"
   - "[[tool-纪浩-案例池构建法]]"
   - "[[case-科学决策-ROI案例03]]"
+  - "[[case-纪浩-from-zip-to-five-layers]]"
 author: 纪浩
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

@@ -33,6 +33,8 @@ related:
   - "[[tool-月白-工厂对接信息清单制作]]"
   - "[[轻量级诊所HIS调研全清单]]"
   - "[[tool-清单小抄工具箱法]]"
+  - "[[tool-sabc-tier-modeling]]"
+  - "[[tool-scenario-selector-modeling]]"
 tags:
 - src_unknown
 - src_unknown

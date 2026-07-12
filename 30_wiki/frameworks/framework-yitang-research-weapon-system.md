@@ -39,6 +39,9 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[framework-ci-operating-model]]"
+  - "[[framework-ouyangfeng-review-methodology]]"
+  - "[[framework-yitang-research-weapon-supplement-2026]]"
 ---
 
 # 调研超级武器库：三层八模块十四节点

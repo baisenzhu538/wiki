@@ -33,6 +33,9 @@ related:
   - "[[framework-ai-deliberate-practice-loop]]"
   - "[[framework-yitang-sales-incentive-6d]]"
   - "[[tool-yitang-sales-toolkit-radar]]"
+  - "[[framework-yihang-dual-triangle-ten-year-map]]"
+  - "[[framework-yitang-channel-partnership-map]]"
+  - "[[framework-yitang-three-ring-ability-focus]]"
 ---
 # 刻意练习 1+4 模型：科学成长的操作系统
 

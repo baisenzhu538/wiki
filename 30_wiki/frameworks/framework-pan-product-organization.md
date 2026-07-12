@@ -33,6 +33,7 @@ related:
 - '[[framework-一堂五步法-泛产品设计]]'
 - '[[framework-lean-abcd-model]]'
 - '[[framework-ai-accelerated-strategy-cycle]]'
+  - '[[framework-wanghuan-gan-three-roles]]'
 review_date: '2026-06-28'
 created_at: '2026-06-30'
 ---

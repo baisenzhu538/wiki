@@ -29,6 +29,7 @@ related:
 - '[[tool-月白-眼高手低训练法]]'
 - '[[tool-月白-线下门店设计复杂度评估]]'
 - '[[tool-月白-AIGC橱窗陈列设计流程]]'
+  - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 - aigc文创案例设计课leo文创ip从0到1全流程
 ---
 # 技能：设计项目MVP拆解法

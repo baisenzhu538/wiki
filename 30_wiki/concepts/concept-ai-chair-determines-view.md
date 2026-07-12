@@ -22,6 +22,10 @@ related:
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[framework-wanghuan-harness-seven-stages]]'
 - '[[framework-ai2041-critical-reading-os]]'
+  - '[[concept-ai-amara-law-business-judgment]]'
+  - '[[concept-ai-information-quality-ladder]]'
+  - '[[concept-ai-native-organization-five-steps]]'
+  - '[[concept-ai-neutrality-bias]]'
 quality_labels:
 - cited
 - principle

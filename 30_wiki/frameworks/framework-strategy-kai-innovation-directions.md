@@ -22,6 +22,7 @@ related:
 - '[[tool-月白-PPT内容框架AIGC生成法]]'
 - '[[tool-体系框架构建]]'
 - '[[tool-月白-AI设计-质价比-决策框架]]'
+  - '[[framework-yitang-six-layer-cross-validation]]'
 - concept-yitang-research-objective
 - tool-yitang-research-exhaust-means
 ---

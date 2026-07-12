@@ -24,6 +24,7 @@ related:
   - "[[yt-entrepreneur-key-hypotheses]]"
   - "[[yt-product-kernel-key-conversion]]"
   - "[[yt-skill-storyline-key-elements]]"
+  - "[[tool-first-principles-assumption-classify]]"
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: "2026-06-28"

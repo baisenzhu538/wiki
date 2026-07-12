@@ -40,6 +40,11 @@ related:
 - "[[case-yitang-sanjieke-benchmark-failure]]"
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[concept-yitang-research-mindset]]"
+  - "[[tool-strategy-value-proposition]]"
+  - "[[tool-yitang-product-full-experience]]"
+  - "[[tool-yitang-research-competitive-quadrant]]"
+  - "[[tool-yitang-research-deep-attribution]]"
+  - "[[tool-yitang-research-quantitative-modeling]]"
 
 ---
 

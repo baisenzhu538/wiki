@@ -19,6 +19,7 @@ related:
   - "[[tool-yitang-research-normalize-summary]]"
   - "[[framework-yitang-research-quality-gate]]"
   - "[[concept-yitang-ai-research-human-loop]]"
+  - "[[tool-prompt-usp-quick-scan]]"
 updated_at: "2026-06-30T16:07:51+00:00"
 ---
 

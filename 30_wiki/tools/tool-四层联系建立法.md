@@ -20,6 +20,7 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-建立知识联系]]"
 definition_of_done:
 - src_unknown
 - src_unknown

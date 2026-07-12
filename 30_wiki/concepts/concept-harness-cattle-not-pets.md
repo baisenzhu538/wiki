@@ -21,6 +21,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[concept-ai-native-organization-five-steps]]'
 - business-research-skill-oscar-13-weapon-system
 - tool-yitang-amazon-bestseller
 updated_at: '2026-06-29'

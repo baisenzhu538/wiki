@@ -19,6 +19,7 @@ source_refs:
 related:
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
+  - "[[tool-yitang-ai-assisted-organize]]"
 updated_at: "2026-06-30T16:07:51+00:00"
 ---
 

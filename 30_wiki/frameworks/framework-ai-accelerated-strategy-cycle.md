@@ -29,6 +29,8 @@ related:
 - '[[strategy-domain-digest]]'
 - '[[lean-startup-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
+  - '[[framework-pan-product-organization]]'
+  - '[[framework-一堂五步法-泛产品设计]]'
 quality_labels:
 - cited
 - principle

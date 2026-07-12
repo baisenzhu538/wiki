@@ -34,6 +34,9 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[tool-yitang-consulting-business-research]]'
+  - '[[tool-yitang-weapon-industry-expert]]'
+  - '[[tool-yitang-weapon-user-direct-interview]]'
 - framework-yitang-growth-flywheel
 - tool-yitang-research-continuous-tracking
 ---

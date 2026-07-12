@@ -44,6 +44,10 @@ related:
 - "[[method-kdo-external-exploration-sop]]"
 - "[[tool-oscar-kdo-external-exploration]]"
 - "[[yt-research-weaponry-course]]"
+  - "[[framework-multi-agent-research-architecture]]"
+  - "[[framework-yitang-iterative-recursive-digging]]"
+  - "[[framework-yitang-research-quality-gate]]"
+  - "[[framework-yitang-six-layer-cross-validation]]"
 diagnostic_signals:
 - signal: 调研启动时无法一句话说清"这次调研要回答什么问题"
   lens: O步骤缺失——目标未锁定

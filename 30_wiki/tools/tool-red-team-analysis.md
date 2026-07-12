@@ -24,6 +24,8 @@ related:
 - "[[case-doris-2014-music-streaming-prediction]]"
 - "[[case-escort-service-tiered-growth]]"
 - "[[case-liutao-douyin-team-leader-9m]]"
+  - "[[tool-harness-adversarial-tester]]"
+  - "[[tool-strategy-activity-scope]]"
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

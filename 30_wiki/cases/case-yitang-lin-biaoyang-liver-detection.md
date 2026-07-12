@@ -19,6 +19,7 @@ source_refs:
 related:
 - "[[framework-yitang-jiefang-sixiang]]"
 - "[[yt-decision-y-model]]"
+  - "[[case-yitang-aquaculture-stress-protection]]"
 ---
 
 # 案例：林标阳肝病检测——L5 学科层推翻商业层二三十年惯例

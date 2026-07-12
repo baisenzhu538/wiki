@@ -31,6 +31,8 @@ related:
 - '[[yt-entrepreneur-unit-model]]'
 - case-decision-science-lunch-break-compression
 - '[[yt-business-formula-qualitative-metrics-library]]'
+  - '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
+  - '[[case-yitang-yewenbin-archery-business-formula]]'
 ---
 # 线下连锁健身：把“到店频率"变成“到店习惯"才是续卡率抓手
 

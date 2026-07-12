@@ -38,6 +38,10 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[framework-ci-operating-model]]"
+  - "[[framework-yitang-iterative-recursive-digging]]"
+  - "[[framework-yitang-research-quality-gate]]"
+  - "[[framework-yitang-six-layer-cross-validation]]"
 ---
 
 # 降龙十八掌：18张调研策略卡全景图

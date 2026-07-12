@@ -26,6 +26,9 @@ related:
 - '[[concept-一堂-基本功定义]]'
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[management-domain-digest]]'
+  - '[[tool-一堂-基本功-建模七法]]'
+  - '[[tool-一堂-基本功-推动七式]]'
+  - '[[tool-一堂-基本功-练习二十法]]'
 diagnostic_signals:
 - signal: 拆解会开了半天，产出是一张 50 条的大清单，谁看了都头疼
   lens: 只有加法没有减法——四法产候选，六维做减法，顺序不能反

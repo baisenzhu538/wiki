@@ -37,6 +37,7 @@ related:
   - "[[case-daxin-team-content-training-camp]]"
   - "[[case-yitang-yitang-shortvideo-industrialization]]"
   - "[[system-kdo-quality-labels]]"
+  - "[[framework-community-knowledge-production-failure-modes]]"
 pipeline:
   - "confidence-draft"
 ---

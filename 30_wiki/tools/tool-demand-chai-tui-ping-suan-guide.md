@@ -25,6 +25,7 @@ related:
 - '[[tool-泛产品设计-需求可行性四字诀]]'
 - '[[yt-entrepreneur-unit-model]]'
 - '[[tool-demand-rat-generator]]'
+  - '[[tool-demand-option-explorer]]'
 diagnostic_signals:
 - signal: 创始人说"我用拆推评算跑了一遍需求"但实际只做了拆和推
   lens: 把工具箱当工作流——以为必须四步全走

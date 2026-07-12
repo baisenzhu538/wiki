@@ -42,6 +42,10 @@ related:
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[dk-yitang-survivor-bias-in-research]]"
 - "[[concept-yitang-research-mindset]]"
+  - "[[tool-doris-industry-report-search-tips]]"
+  - "[[tool-yitang-product-full-experience]]"
+  - "[[tool-yitang-research-deep-attribution]]"
+  - "[[tool-yitang-research-quantitative-modeling]]"
 
 ---
 

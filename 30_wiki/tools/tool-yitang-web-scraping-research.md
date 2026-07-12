@@ -14,6 +14,7 @@ source_refs:
 related:
 - '[[ai时代判断力口述]]'
 - '[[ai时代判断力口述-3]]'
+  - '[[tool-yitang-weapon-media-search]]'
 - web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 - framework-multi-agent-research-architecture
 diagnostic_signals:

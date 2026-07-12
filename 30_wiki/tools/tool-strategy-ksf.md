@@ -26,6 +26,7 @@ related:
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
+  - "[[tool-demand-iceberg-l6-hypothesis]]"
 ---
 
 # 关键成功因素（KSF）分析工具

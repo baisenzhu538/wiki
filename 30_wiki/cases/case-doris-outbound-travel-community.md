@@ -19,6 +19,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[pending_unknown]]'
+  - '[[case-truman-ai-skill-self-packaging]]'
 - case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
 ---

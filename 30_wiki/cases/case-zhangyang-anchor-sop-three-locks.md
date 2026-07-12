@@ -36,6 +36,9 @@ related:
   - "[[case-科学决策-ROI案例03]]"
   - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
   - "[[tool-sop-template-modeling]]"
+  - "[[case-livestream-sop-modeling]]"
+  - "[[case-modeling-process-sop-examples]]"
+  - "[[case-truman-livestream-sop-iteration]]"
 tags:
 - src_unknown
 - src_unknown

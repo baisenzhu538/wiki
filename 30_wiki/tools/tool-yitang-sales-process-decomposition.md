@@ -35,6 +35,9 @@ related:
   - "[[case-yitang-sales-transformation-jubensha-saas]]"
   - "[[case-yitang-sales-transformation-meirongyuan]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
+  - "[[tool-agent-spec-yitang-customer-segmentation]]"
+  - "[[tool-agent-spec-yitang-objection-handler]]"
+  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

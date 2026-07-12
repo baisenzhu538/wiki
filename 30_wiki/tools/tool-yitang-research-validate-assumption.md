@@ -41,6 +41,10 @@ related:
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[dk-yitang-research-ai-hallucination]]"
 - "[[concept-yitang-research-mindset]]"
+  - "[[tool-demand-iceberg-l6-hypothesis]]"
+  - "[[tool-yitang-weapon-industry-expert]]"
+  - "[[tool-yitang-weapon-public-official-info]]"
+  - "[[tool-yitang-weapon-user-direct-interview]]"
 
 ---
 

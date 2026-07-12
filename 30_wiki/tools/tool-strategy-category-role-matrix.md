@@ -22,6 +22,7 @@ related:
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
+  - "[[tool-strategy-value-capture]]"
 ---
 
 # 零售品类角色矩阵

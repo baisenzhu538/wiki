@@ -39,6 +39,9 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[framework-yitang-high-level-execution]]"
+  - "[[framework-yitang-high-level-plan]]"
+  - "[[framework-yitang-oscar-research]]"
 ---
 
 # 四类调研模型：挖掘式·系统式·爆炸式·自动式

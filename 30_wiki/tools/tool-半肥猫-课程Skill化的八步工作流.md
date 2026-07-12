@@ -26,6 +26,12 @@ related:
   - "[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]"
   - "[[case-ban-fei-mao-conversion-hacker-skill]]"
   - "[[case-ban-fei-mao-skill-ab-test]]"
+  - "[[tool-ai-skill-engineering-guide]]"
+  - "[[tool-ai-skill-engineering-method]]"
+  - "[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]"
+  - "[[tool-yitang-18-strategy-tool-mapping]]"
+  - "[[tool-半肥猫-course-to-skill-workflow]]"
+  - "[[tool-半肥猫-边学边练边沉淀的AI学习法]]"
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 pipeline:

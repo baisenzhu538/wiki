@@ -25,6 +25,7 @@ related:
   - "[[principle-yitang-y-model-dual-posture]]"
   - "[[tool-yitang-Y-model-application]]"
   - "[[dk-yitang-Y-model-pitfalls]]"
+  - "[[tool-Y模型STEPS策略集]]"
 created_at: 2026-06-29
 updated_at: 2026-07-08T17:38:57Z
 ---

@@ -43,6 +43,7 @@ related:
 - "[[yt-scale-economy-weapon-library]]"
 - "[[yt-five-step-method]]"
 - "[[yitang-domain-digest]]"
+  - "[[case-toy-cabinet-barrier]]"
 ---
 
 # 案例：线下玩具柜商业模式

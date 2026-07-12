@@ -21,6 +21,7 @@ related:
 - '[[strategy-domain-digest]]'
 - '[[case-strategy-walmart-vs-costco-pyramid]]'
 - '[[tool-三层目标对齐法]]'
+  - '[[case-truman-ai-skill-self-packaging]]'
 - yt-business-model-canvas
 - kdo-protocol-implementation-roadmap
 ---

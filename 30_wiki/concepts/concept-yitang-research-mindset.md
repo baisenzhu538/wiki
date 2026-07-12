@@ -22,6 +22,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[concept-yitang-research-objective]]'
+  - '[[concept-yitang-research-scope]]'
 - tool-yitang-amazon-bestseller
 - tool-yitang-ai-monitoring-alert
 updated_at: '2026-06-29'

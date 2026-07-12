@@ -23,6 +23,7 @@ related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
+  - '[[case-dutch-childcare-scandal]]'
 - case-cross-yuanqi-forest
 ---
 # 元气森林试错工具箱

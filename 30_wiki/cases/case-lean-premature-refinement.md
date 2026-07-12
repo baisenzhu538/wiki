@@ -25,6 +25,8 @@ related:
   - "[[tool-lean-cut-features]]"
   - "[[strategy-domain-digest]]"
   - "[[yitang-domain-digest]]"
+  - "[[case-lean-premature-expansion]]"
+  - "[[case-strategy-snack-business-design]]"
 ---
 
 # 过早细化案例集

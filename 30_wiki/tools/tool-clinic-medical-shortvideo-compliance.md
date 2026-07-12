@@ -25,6 +25,7 @@ related:
 - '[[dk-modeling-ai-compound-leverage]]'
 - '[[tool-yitang-content-ip-research]]'
 - '[[dk-modeling-ai-judgment-limit]]'
+  - '[[tool-smart-medicine-cabinet-compliance-checklist]]'
 - tool-strategy-gap-analysis
 - tool-ai-use-barbell-strategy
 ---

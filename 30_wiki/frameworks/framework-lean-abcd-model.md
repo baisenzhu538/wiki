@@ -22,6 +22,13 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[framework-demand-lean-bridge]]'
+  - '[[framework-lean-pivot-decision]]'
+  - '[[framework-pan-product-organization]]'
+  - '[[framework-strategy-lean-validation]]'
+  - '[[framework-yitang-channel-exploration-4step]]'
+  - '[[framework-一堂-关键假设-ABCD模型]]'
+  - '[[framework-一堂五步法-泛产品设计]]'
 quality_labels:
 - principle
 - validated

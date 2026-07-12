@@ -30,6 +30,7 @@ related:
 - '[[case-strategy-failure-04-appliance]]'
 - '[[case-hr-saas-feature-usage-trap]]'
 - '[[case-strategy-retailer-activity-scope]]'
+  - '[[case-truman-poker-deck-roi]]'
 - case-child-drawing-rhyme
 - case-truman-personal-growth-map-creation
 tags:

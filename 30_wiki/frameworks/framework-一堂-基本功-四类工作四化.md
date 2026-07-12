@@ -23,6 +23,7 @@ related:
 - '[[concept-一堂-基本功定义]]'
 - '[[management-domain-digest]]'
 - '[[yt-management-team-knowledge]]'
+  - '[[framework-一堂-基本功-九层金字塔]]'
 diagnostic_signals:
 - signal: 创意岗同学被要求每周交 SOP，越来越不敢试新东西
   lens: 创造类工作被按标准类管理——4 化错位，把探索当执行管

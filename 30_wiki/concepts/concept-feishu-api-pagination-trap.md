@@ -24,6 +24,7 @@ related:
 - '[[dk-yitang-model-asset-capitalization]]'
 - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+  - '[[concept-streaming-extraction-pattern]]'
 - kdo-yaml-frontmatter-safety
 - tool-strategy-pareto
 diagnostic_signals:

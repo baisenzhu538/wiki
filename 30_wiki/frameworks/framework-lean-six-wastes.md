@@ -26,6 +26,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[framework-lean-four-principles]]'
 - case-lean-building-in-vacuum
 quality_labels:
 - principle

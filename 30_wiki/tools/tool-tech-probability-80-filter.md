@@ -25,6 +25,7 @@ related:
 - '[[framework-wanghuan-harness-seven-stages]]'
 - '[[framework-ai2041-critical-reading-os]]'
 - '[[concept-ai-amara-law-business-judgment]]'
+  - '[[tool-ai2041-source-verification-checklist]]'
 quality_labels:
 - actionable
 - cited

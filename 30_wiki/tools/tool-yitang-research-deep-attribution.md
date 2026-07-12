@@ -38,6 +38,12 @@ related:
 - "[[tool-yitang-research-quantitative-modeling]]"
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[concept-yitang-research-mindset]]"
+  - "[[tool-yitang-comparable-company-selection]]"
+  - "[[tool-yitang-user-interview-5steps]]"
+  - "[[tool-月白-AI设计里程碑拆解法]]"
+  - "[[tool-月白-里程碑思维-找对标优先于做设计]]"
+  - "[[tool-月白-里程碑思维拆解设计流程]]"
+  - "[[tool-通过综合案例沙盘走通全流程]]"
 
 ---
 

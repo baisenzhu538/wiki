@@ -37,6 +37,8 @@ related:
 - '[[yt-skill-p-role-prompt-design]]'
 - '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
 - '[[plan_20260621_skill-iteration-standard]]'
+  - '[[tool-yitang-research-competitive-quadrant]]'
+  - '[[tool-yitang-research-follow-map]]'
 - framework-yitang-18-strategy-cards
 diagnostic_signals:
 - framework_lens: 策略→工具映射表

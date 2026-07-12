@@ -40,6 +40,7 @@ related:
   - "[[principle-yitang-y-model-dual-posture]]"
   - "[[tool-agent-spec-yitang-Y-model-coach]]"
   - "[[framework-一堂-业务公式拆解-总纲]]"
+  - "[[framework-business-formula-y-model-bridge]]"
 created_at: 2026-07-08
 updated_at: 2026-07-08T17:28:16Z
 ---

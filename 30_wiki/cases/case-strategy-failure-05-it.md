@@ -22,6 +22,7 @@ related:
 - '[[strategy-domain-digest]]'
 - '[[tool-三层目标对齐法]]'
 - '[[tool-Truman-语义对齐沟通法]]'
+  - '[[case-strategy-failure-08-video]]'
 - case-strategy-failure-04-appliance
 - case-strategy-failure-09-boeing
 ---

@@ -32,6 +32,9 @@ related:
 - '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
+  - '[[tool-yitang-dual-triangle-agent-handoff-protocol]]'
+  - '[[tool-yitang-dual-triangle-domain-registry]]'
+  - '[[tool-yitang-dual-triangle-scenario-router]]'
 aliases:
 - 双三角画布
 - 一行双三角画布

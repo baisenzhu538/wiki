@@ -32,6 +32,7 @@ related:
 - '[[tool-逐字稿练习演讲]]'
 - '[[tool-费曼学习法实践讲香课题]]'
 - '[[tool-专家访谈十步法]]'
+  - '[[tool-asset-file-naming-convention]]'
 - tool-yitang-bp-analysis
 ---
 # 技能：知识库团队管理

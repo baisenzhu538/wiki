@@ -36,6 +36,10 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[tool-yitang-sales-performance-management]]'
 - '[[case-yitang-sales-transformation-tuliaogongsi]]'
+  - '[[framework-kdo-self-attack]]'
+  - '[[framework-yitang-growth-flywheel]]'
+  - '[[framework-yitang-iterative-recursive-digging]]'
+  - '[[framework-yitang-research-weapon-supplement-2026]]'
 - framework-structured-analytic-techniques
 ---
 # 九层深挖法：商业分析的自我纠错式迭代框架

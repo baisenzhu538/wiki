@@ -35,6 +35,10 @@ related:
   - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[dk-yitang-sales-common-pitfalls]]"
   - "[[case-yitang-sales-transformation-jubensha-saas]]"
+  - "[[tool-agent-spec-yitang-customer-segmentation]]"
+  - "[[tool-agent-spec-yitang-objection-handler]]"
+  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
+  - "[[tool-agent-spec-yitang-value-proposition]]"
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

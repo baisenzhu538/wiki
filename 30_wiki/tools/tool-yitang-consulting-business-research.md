@@ -37,6 +37,7 @@ related:
 - '[[framework-yitang-research-weapon-system]]'
 - '[[tool-yitang-social-engineering-research]]'
 - '[[tool-yitang-job-intelligence-research]]'
+  - '[[tool-yitang-consumer-goods-research]]'
 - framework-yitang-six-layer-cross-validation
 - concept-yitang-research-objective
 ---

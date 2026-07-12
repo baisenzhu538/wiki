@@ -32,6 +32,12 @@ related:
 - '[[framework-strategy-pyramid]]'
 - '[[framework-yitang-channel-exploration-4step]]'
 - '[[case-strategy-retailer-activity-scope]]'
+  - '[[tool-demand-chai-tui-ping-suan-guide]]'
+  - '[[tool-demand-iceberg-l5-forces]]'
+  - '[[tool-demand-micro-experience-script]]'
+  - '[[tool-demand-option-explorer]]'
+  - '[[tool-demand-rat-generator]]'
+  - '[[tool-demand-report-template]]'
 - tool-yitang-research-validate-assumption
 ---
 # L6需求假设

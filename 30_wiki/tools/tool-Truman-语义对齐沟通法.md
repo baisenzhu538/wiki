@@ -21,6 +21,7 @@ related:
   - "[[tool-Truman-技术社区严肃提问法]]"
   - "[[tool-Truman-问题定义澄清法]]"
   - "[[tool-Truman-职场异步协作提问法]]"
+  - "[[tool-Truman-AI时代提示词优化法]]"
 ---
 # 技能：语义对齐沟通法
 

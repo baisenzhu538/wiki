@@ -39,6 +39,7 @@ related:
 - '[[framework-wanghuan-harness-seven-stages]]'
 - '[[framework-wanghuan-gan-three-roles]]'
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[case-ai-job-displacement-wef]]'
 - tool-ai-cross-reading-method
 ---
 # 陈楸帆对 AI 写作的态度转向

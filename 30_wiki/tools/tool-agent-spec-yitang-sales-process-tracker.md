@@ -34,6 +34,9 @@ related:
 - '[[tool-agent-spec-yitang-customer-segmentation]]'
 - '[[tool-agent-spec-yitang-value-proposition]]'
 - '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+  - '[[tool-agent-spec-yitang-objection-handler]]'
+  - '[[tool-agent-spec-yitang-opening-3min]]'
+  - '[[tool-agent-spec-yitang-self-motivation]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: C

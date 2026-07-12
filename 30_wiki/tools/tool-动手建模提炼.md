@@ -29,6 +29,7 @@ related:
 - '[[tool-ai辅助学习]]'
 - '[[tool-将未中标成本纳入循环计算真实投标成本]]'
 - '[[tool-费曼学习法三句话提炼]]'
+  - '[[tool-demand-four-forces]]'
 - tool-动手建模法
 ---
 # 技能：动手建模提炼

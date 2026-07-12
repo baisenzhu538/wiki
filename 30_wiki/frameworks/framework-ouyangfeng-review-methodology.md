@@ -23,6 +23,7 @@ related:
   - "[[framework-yitang-six-layer-cross-validation]]"
   - "[[system-yitang-research-workflow]]"
   - "[[framework-yitang-research-weapon-system]]"
+  - "[[framework-kdo-self-attack]]"
 ---
 # 欧阳锋审查方法论
 

@@ -20,6 +20,11 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+  - '[[tool-demand-iceberg-l2-scenario]]'
+  - '[[tool-strategy-blue-ocean-canvas]]'
+  - '[[tool-strategy-industry-chain-analysis]]'
+  - '[[tool-strategy-risk-management]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'

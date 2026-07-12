@@ -22,6 +22,7 @@ related:
   - "[[concept-一堂-key-assumptions]]"
   - "[[yt-lean-assumption-verification-3means]]"
   - "[[yitang-domain-digest]]"
+  - "[[case-milktea-five-step]]"
 wiki_refs:
 - src_unknown
 - src_unknown

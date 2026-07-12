@@ -28,6 +28,8 @@ related:
 - '[[pending_unknown]]'
 - '[[tool-yitang-value-proposition-4step]]'
 - '[[framework-yitang-scientific-sales-five-step]]'
+  - '[[tool-agent-spec-yitang-value-proposition]]'
+  - '[[tool-strategy-value-capture]]'
 - tool-yitang-research-single-point-sniper
 - case-panproduct-yitao-project-background
 ---

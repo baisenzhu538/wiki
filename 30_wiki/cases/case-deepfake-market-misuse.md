@@ -22,6 +22,7 @@ related:
 - '[[tool-水水-区分风险与不确定性]]'
 - '[[tool-水水-识别超级传播者风险]]'
 - '[[tool-泛产品落地-风险管理]]'
+  - '[[case-ai-job-displacement-wef]]'
 - tool-ai-cross-reading-method
 - tool-ai-critical-reading-three-layers
 ---

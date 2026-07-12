@@ -38,6 +38,9 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[framework-yitang-high-level-execution]]"
+  - "[[framework-yitang-high-level-plan]]"
+  - "[[framework-yitang-oscar-research]]"
 ---
 
 # 调研雷达图：四象限能力诊断与六种缺失识别

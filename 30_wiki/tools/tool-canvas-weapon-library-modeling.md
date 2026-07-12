@@ -47,6 +47,7 @@ related:
   - "[[tool-提问刻意练习画布]]"
   - "[[tool-Truman-个人判断力系统建设（达克效应应对）]]"
   - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
+  - "[[tool-scenario-selector-modeling]]"
 tags:
 - src_unknown
 - src_unknown

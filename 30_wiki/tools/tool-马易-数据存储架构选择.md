@@ -21,6 +21,8 @@ related:
   - "[[tool-马易-AIGC项目ROI评估]]"
   - "[[tool-马易-公寓获客自跑通原则]]"
   - "[[tool-马易-减少输入噪音法]]"
+  - "[[tool-strategy-customer-selection]]"
+  - "[[tool-马易-业务为先的AI中台建设]]"
 ---
 # 技能：数据存储架构选择
 

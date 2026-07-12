@@ -29,6 +29,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[tool-strategy-value-capture]]'
 - framework-five-step-lean-interface
 - tool-red-team-analysis
 ---

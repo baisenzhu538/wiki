@@ -23,6 +23,8 @@ related:
   - "[[framework-wanghuan-bitcoe-prompt-framework]]"
   - "[[tool-wanghuan-ai-business-profile]]"
   - "[[concept-candy-ai-as-collaborator]]"
+  - "[[tool-ai-cross-reading-method]]"
+  - "[[tool-ai2041-source-verification-checklist]]"
 ---
 
 # 三层拆书批判法

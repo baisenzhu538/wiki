@@ -22,6 +22,9 @@ related:
 - '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
 - '[[tool-通过综合案例沙盘走通全流程]]'
 - '[[tool-demand-iceberg-l5-forces]]'
+  - '[[tool-demand-agent-l4-case-match]]'
+  - '[[tool-demand-iceberg-l3-core-job]]'
+  - '[[tool-demand-micro-experience-script]]'
 - proposal-prompt-injection-infrastructure
 - business-research-skill-oscar-13-weapon-system
 ---

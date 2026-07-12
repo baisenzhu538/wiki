@@ -21,6 +21,7 @@ related:
   - "[[tool-马易-AI项目需求拆解筛选]]"
   - "[[tool-马易-AIGC项目ROI评估]]"
   - "[[tool-马易-AI答疑运营风格适配]]"
+  - "[[tool-Truman-Skill全生命周期管理]]"
 ---
 # 技能：隐性知识萃取与模型化
 

@@ -32,6 +32,9 @@ related:
   - "[[tool-yitang-customer-segmentation-4step]]"
   - "[[tool-yitang-value-proposition-4step]]"
   - "[[framework-yitang-scientific-sales-five-step]]"
+  - "[[concept-mckinsey-hypothesis-driven]]"
+  - "[[concept-mckinsey-issue-tree]]"
+  - "[[concept-mckinsey-mece]]"
 wiki_refs:
 - src_unknown
 - src_unknown

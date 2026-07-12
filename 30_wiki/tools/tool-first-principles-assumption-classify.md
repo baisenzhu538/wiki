@@ -25,6 +25,8 @@ prerequisite_skills: null
 related:
   - "[[framework-一堂-关键假设]]"
   - "[[tool-key-assumptions-check]]"
+  - "[[tool-decision-outside-view]]"
+  - "[[tool-纪浩-Do-first-PDCA渐进迭代法]]"
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 tags: []

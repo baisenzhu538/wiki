@@ -33,6 +33,7 @@ related:
   - "[[tool-yitang-sales-performance-management]]"
   - "[[dk-yitang-sales-common-pitfalls]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
+  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

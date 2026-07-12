@@ -30,6 +30,9 @@ related:
   - "[[tool-纪浩-案例池构建法]]"
   - "[[case-科学决策-ROI案例03]]"
   - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
+  - "[[case-smart-medicine-cabinet-failure-patterns-library]]"
+  - "[[case-truman-ai-skill-engineering-guide]]"
+  - "[[case-truman-motivation-map-12-versions]]"
 tags:
 - src_unknown
 - src_unknown

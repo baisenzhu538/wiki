@@ -23,6 +23,7 @@ related:
 - '[[framework-wanghuan-ooda-loop]]'
 - '[[framework-wanghuan-gan-three-roles]]'
 - '[[concept-ai-chair-determines-view]]'
+  - '[[concept-ai-amara-law-business-judgment]]'
 quality_labels:
 - cited
 - principle

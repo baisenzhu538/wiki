@@ -19,6 +19,10 @@ source_refs:
 related:
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
+  - "[[tool-yitang-database-index]]"
+  - "[[tool-yitang-shareholder-analysis]]"
+  - "[[tool-yitang-weapon-public-official-info]]"
+  - "[[tool-yitang-weapon-third-party-database]]"
 updated_at: "2026-06-30T16:07:51+00:00"
 ---
 

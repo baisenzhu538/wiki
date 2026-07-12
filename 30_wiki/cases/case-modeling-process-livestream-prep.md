@@ -41,6 +41,12 @@ related:
   - "[[case-科学决策-ROI案例03]]"
   - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
   - "[[case-科学决策-深度案例06]]"
+  - "[[case-modeling-abstraction-reliability-ladder]]"
+  - "[[case-modeling-abstraction-yitang-models]]"
+  - "[[case-modeling-essence-schools]]"
+  - "[[case-modeling-process-livestream-roles]]"
+  - "[[case-modeling-process-sop-evolution]]"
+  - "[[case-modeling-process-sop-examples]]"
 diagnostic_signals:
 - framework_lens: 流程建模 + 个人状态 SOP
   follow_up_question: 过去 10 次类似场景中，状态波动的共同前置条件是什么？（饮食、睡眠、设备、情绪）

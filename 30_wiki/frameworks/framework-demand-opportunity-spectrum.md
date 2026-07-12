@@ -19,6 +19,8 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
 - '[[tool-单元模型-壁垒预判]]'
+  - '[[framework-demand-ceiling-four-lines]]'
+  - '[[framework-一堂-机会预判]]'
 - yt-foresight-business-spectrum
 updated_at: '2026-06-29'
 ---

@@ -34,6 +34,9 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[tool-yitang-consulting-business-research]]'
+  - '[[tool-yitang-consumer-goods-research]]'
+  - '[[tool-yitang-tech-project-research]]'
 - framework-yitang-six-layer-cross-validation
 ---
 # 出海调研手段：浅中深三层10大评估法

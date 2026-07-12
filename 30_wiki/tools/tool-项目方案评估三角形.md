@@ -19,6 +19,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[tool-demand-assessment-triangle]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 review_date: '2026-06-29'

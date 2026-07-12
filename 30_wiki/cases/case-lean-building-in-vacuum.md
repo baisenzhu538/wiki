@@ -24,6 +24,16 @@ related:
   - "[[strategy-domain-digest]]"
   - "[[yitang-domain-digest]]"
   - "[[pending_unknown]]"
+  - "[[case-lean-2b-gray-test]]"
+  - "[[case-lean-adult-education]]"
+  - "[[case-lean-crayfish-combo-test]]"
+  - "[[case-lean-medical-device-milestone]]"
+  - "[[case-lean-perfectionism-traps]]"
+  - "[[case-lean-premature-expansion]]"
+  - "[[case-lean-shampoo-selling-points]]"
+  - "[[case-lean-shoe-mvp-evolution]]"
+  - "[[case-lean-weak-solution]]"
+  - "[[case-lean-wrong-demand]]"
 ---
 
 # 闭门造车案例集

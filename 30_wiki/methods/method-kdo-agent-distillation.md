@@ -18,6 +18,10 @@ related:
 - '[[method-yihang-dual-triangle-ai-review]]'
 - '[[framework-yihang-knowledge-data-decoupling]]'
 - '[[agent-spec-dual-triangle-canvas-filler]]'
+  - '[[method-judge-skill-meta-evaluation]]'
+  - '[[method-kdo-agent-design-meta]]'
+  - '[[method-kdo-inbox-annotation]]'
+  - '[[method-yihang-human-self-distillation]]'
 ---
 
 # Agent 蒸馏方法：对话→系统提示词 5 步框架

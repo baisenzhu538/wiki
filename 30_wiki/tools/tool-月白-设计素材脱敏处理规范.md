@@ -30,6 +30,7 @@ related:
 - '[[tool-月白-餐饮海报AB测试法]]'
 - '[[tool-月白-线下门店设计复杂度评估]]'
 - '[[tool-月白-AIGC橱窗陈列设计流程]]'
+  - '[[tool-纪浩-处理AI生成代码运行异常]]'
 - tool-ai-deliverable-polish-loop
 ---
 # 技能：设计素材脱敏处理规范

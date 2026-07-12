@@ -32,6 +32,7 @@ related:
 - '[[tool-对标借鉴他人决策维度]]'
 - '[[tool-ai辅助学习]]'
 - '[[tool-将未中标成本纳入循环计算真实投标成本]]'
+  - '[[tool-strategy-logistics-cost-planning]]'
 - tool-ai-prd-for-ai
 ---
 # 技能：按月份摊销收入成本做计划

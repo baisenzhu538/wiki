@@ -32,6 +32,9 @@ related:
   - "[[framework-lean-six-wastes]]"
   - "[[strategy-domain-digest]]"
   - "[[yitang-domain-digest]]"
+  - "[[framework-lean-systematic-test-curve]]"
+  - "[[framework-lean-tenx-formula]]"
+  - "[[framework-strategy-basics-02-insight]]"
 ---
 
 # 精益创业低成本验证四大原则

@@ -28,6 +28,8 @@ related:
   - "[[tool-纪浩-AI使用边界管理法]]"
   - "[[tool-纪浩-项目启动五问法]]"
   - "[[tool-纪浩-AI工作空间与导诊台设计法]]"
+  - "[[case-ji-hao-skills-market]]"
+  - "[[case-半肥猫-course-to-skill]]"
 quality_labels:
   - actionable
   - cited

@@ -29,6 +29,7 @@ related:
 - '[[framework-一堂-关键假设]]'
 - '[[business-formula-domain-digest]]'
 - '[[yt-tool-business-formula-parameter-arsenal]]'
+  - '[[tool-yitang-business-formula-l5-mining-and-verification]]'
 quality_labels:
 - actionable
 - framework

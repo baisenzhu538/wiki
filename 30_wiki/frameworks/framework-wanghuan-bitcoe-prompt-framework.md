@@ -27,6 +27,9 @@ related:
   - "[[framework-wanghuan-actor-director-mode]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[framework-ai-deconstruction-methodology]]"
+  - "[[framework-ai2041-critical-reading-os]]"
+  - "[[framework-wanghuan-three-tier-dev-architecture]]"
 tags:
 - src_unknown
 - src_unknown

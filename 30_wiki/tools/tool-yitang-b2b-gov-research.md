@@ -37,6 +37,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[tool-yitang-consulting-business-research]]'
+  - '[[tool-yitang-tech-project-research]]'
 - framework-yitang-six-layer-cross-validation
 - concept-yitang-research-objective
 ---

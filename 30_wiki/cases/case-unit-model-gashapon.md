@@ -17,6 +17,7 @@ source_refs:
 related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
+  - '[[case-treadmill-demand-analysis]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 ---

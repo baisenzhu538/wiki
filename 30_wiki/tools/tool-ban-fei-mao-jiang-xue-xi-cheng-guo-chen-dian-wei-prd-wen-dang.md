@@ -24,6 +24,7 @@ related:
   - "[[case-truman-prd-checklist-evolution]]"
   - "[[knowledge-delivery-os-快速体验指南-飞书云文档]]"
   - "[[sk-ai-prd-for-ai]]"
+  - "[[tool-半肥猫-边学边练边沉淀的AI学习法]]"
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'

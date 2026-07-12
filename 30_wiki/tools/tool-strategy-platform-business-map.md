@@ -22,6 +22,7 @@ related:
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
+  - "[[tool-strategy-value-capture]]"
 ---
 
 # 平台商业模式地图

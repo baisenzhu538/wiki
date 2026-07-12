@@ -16,6 +16,8 @@ related:
   - "[[tool-一堂-five-step-validation]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-ai-problem-question-check]]"
+  - "[[tool-纪浩-Problem与Question区分法]]"
 source_refs:
 - pending_archive: src_unknown
 ---

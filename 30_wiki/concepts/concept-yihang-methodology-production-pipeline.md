@@ -21,6 +21,7 @@ related:
 - "[[framework-yihang-knowledge-data-decoupling]]"
 - "[[method-yihang-knowledge-battle-station]]"
 - "[[case-yihang-dual-triangle-ai-organizational-behavior]]"
+  - "[[concept-yihang-research-driven-company]]"
 ---
 
 # 方法论生产流水线：一堂的"双面网络"——学员既是消费者也是生产者

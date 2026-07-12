@@ -24,6 +24,10 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[tool-Truman-短视频自动化上传工作流]]"
+  - "[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]"
+  - "[[tool-月白-烧Token快速积累体感]]"
+  - "[[tool-马易-RPA数据整合法]]"
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'

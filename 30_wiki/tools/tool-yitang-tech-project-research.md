@@ -37,6 +37,7 @@ related:
 - '[[framework-yitang-research-weapon-system]]'
 - '[[tool-yitang-reverse-data-analysis]]'
 - '[[yt-research-competitor-toolkit]]'
+  - '[[tool-yitang-consumer-goods-research]]'
 - tool-yitang-research-company-disassembly
 - framework-yitang-six-layer-cross-validation
 ---

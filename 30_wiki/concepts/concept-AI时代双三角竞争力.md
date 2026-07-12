@@ -24,6 +24,8 @@ related:
   - '[[framework-taste-as-judgment-system]]'
   - '[[dk-ai-builder-illusion]]'
   - '[[agent-spec-codex-teammate]]'
+  - '[[concept-ai-native-organization-five-steps]]'
+  - '[[concept-yihang-dual-triangle-core]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---

@@ -42,6 +42,7 @@ related:
 - "[[dk-yitang-survivor-bias-in-research]]"
 - "[[concept-yitang-research-mindset]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "[[framework-yitang-six-layer-cross-validation]]"
 
 ---
 

@@ -34,6 +34,9 @@ related:
   - "[[dk-yitang-sales-common-pitfalls]]"
   - "[[case-yitang-sales-transformation-jubensha-saas]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
+  - "[[tool-agent-spec-yitang-objection-handler]]"
+  - "[[tool-agent-spec-yitang-opening-3min]]"
+  - "[[tool-yitang-ipo-annual-report-cheat-sheet]]"
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

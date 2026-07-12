@@ -22,6 +22,7 @@ related:
 - "[[yt-research-weaponry-course]]"
 - "[[concept-yitang-research-objective]]"
 - "[[concept-yitang-research-scope]]"
+  - "[[method-kdo-inbox-annotation]]"
 diagnostic_signals:
 - signal: 外部探索启动时用户说"我先搜搜看"
   lens: Step 0 缺失——没锁定目标就搜

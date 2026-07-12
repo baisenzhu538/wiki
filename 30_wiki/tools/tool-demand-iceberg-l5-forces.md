@@ -22,6 +22,9 @@ related:
 - '[[tool-demand-iceberg-l6-hypothesis]]'
 - '[[tool-demand-iceberg-l6-hypothesis]]'
 - '[[tool-demand-iceberg-l6-hypothesis]]'
+  - '[[tool-demand-iceberg-l4-job-map]]'
+  - '[[tool-demand-micro-experience-script]]'
+  - '[[tool-demand-rat-generator]]'
 - proposal-prompt-injection-infrastructure
 - tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
 ---

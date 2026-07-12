@@ -35,6 +35,10 @@ related:
 - "[[case-yihang-dual-triangle-beike-ai-outbound]]"
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
+  - '[[case-kdo-agent-factory-dual-triangle-practice]]'
+  - '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
+  - '[[case-yihang-dual-triangle-hardware-patent-rule-explicit]]'
+  - '[[case-yihang-dual-triangle-hotel-tag-sandbox]]'
 aliases:
 - 陈天案例
 - 知识管理案例

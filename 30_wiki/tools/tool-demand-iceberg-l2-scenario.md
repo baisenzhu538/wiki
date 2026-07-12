@@ -28,6 +28,7 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - '[[tool-月白-AI需求拆解咨询法]]'
 - '[[tool-月白-设计需求口头化表达法]]'
+  - '[[tool-demand-iceberg-l1-user]]'
 - proposal-prompt-injection-infrastructure
 - tool-yitang-research-industry-scan
 ---

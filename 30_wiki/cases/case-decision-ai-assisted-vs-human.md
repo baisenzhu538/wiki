@@ -27,6 +27,7 @@ related:
   - "[[dk-decision-when-to-defer]]"
   - "[[case-科学决策-深度案例01]]"
   - "[[case-truman-ai-skill-engineering-guide]]"
+  - "[[case-yitang-model-valuation-flywheel]]"
 ---
 
 # AI 辅助决策 vs 人工决策的边界案例

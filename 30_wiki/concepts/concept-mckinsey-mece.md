@@ -21,6 +21,8 @@ related:
   - "[[concept-mckinsey-issue-tree]]"
   - "[[concept-minto-pyramid-principle]]"
   - "[[concept-mckinsey-hypothesis-driven]]"
+  - "[[concept-maister-trusted-advisor]]"
+  - "[[concept-mckinsey-7s]]"
 wiki_refs:
 - src_unknown
 - src_unknown

@@ -29,6 +29,8 @@ related:
 - "[[tool-月白-AI需求拆解咨询法]]"
 - "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
 - "[[tool-月白-三步作业反馈法]]"
+  - "[[tool-asset-file-naming-convention]]"
+  - "[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
 ---
 # 技能：设计文件八要素命名法
 

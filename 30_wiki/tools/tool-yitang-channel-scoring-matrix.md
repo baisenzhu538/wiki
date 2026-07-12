@@ -38,6 +38,9 @@ related:
 - "[[tool-yitang-channel-partnership-design]]"
 - "[[case-yitang-goat-milk-channel-partnership]]"
 - "[[framework-yitang-channel-partnership-map]]"
+  - "[[tool-yitang-channel-industrialization-node-design]]"
+  - "[[tool-yitang-industry-channel-arsenal-index]]"
+  - "[[tool-yitang-referral-channel-optimization]]"
 review_date: '2026-06-28'
 ---
 

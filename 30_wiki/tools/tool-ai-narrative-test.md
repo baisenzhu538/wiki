@@ -21,6 +21,7 @@ related:
   - "[[tool-水水-构建自利叙事]]"
   - "[[tool-水水-降低故事逻辑要求]]"
   - "[[sk-ai-purpose-bias-check]]"
+  - "[[tool-ai-purpose-bias-check]]"
 ---
 # 技能：你的方案有叙事力吗？快速测试
 

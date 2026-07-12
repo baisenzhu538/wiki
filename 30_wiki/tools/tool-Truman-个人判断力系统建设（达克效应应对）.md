@@ -21,6 +21,9 @@ related:
   - "[[tool-Truman-低质量动作识别与拒绝]]"
   - "[[tool-Truman-信息输入持续补全（防AI错误累积）]]"
   - "[[tool-Truman-上下文质量管理（AI协作）]]"
+  - "[[tool-Truman-AI输出审慎判断与交付确认]]"
+  - "[[tool-Truman-判断力产品化与系统赋能]]"
+  - "[[tool-canvas-weapon-library-modeling]]"
 ---
 # 技能：个人判断力系统建设（达克效应应对）
 

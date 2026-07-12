@@ -23,6 +23,7 @@ related:
 - '[[tool-纪浩-案例池构建法]]'
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+  - '[[case-demand-b2c-consumer-insight]]'
 - case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
 ---

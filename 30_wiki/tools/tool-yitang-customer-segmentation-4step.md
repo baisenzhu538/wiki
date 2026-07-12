@@ -37,6 +37,10 @@ related:
   - "[[dk-yitang-sales-common-pitfalls]]"
   - "[[case-yitang-sales-transformation-tuliaogongsi]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
+  - "[[tool-agent-spec-yitang-customer-segmentation]]"
+  - "[[tool-agent-spec-yitang-opening-3min]]"
+  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
+  - "[[tool-agent-spec-yitang-value-proposition]]"
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

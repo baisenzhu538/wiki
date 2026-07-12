@@ -33,6 +33,10 @@ related:
   - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
   - "[[case-一堂-无人餐厅-hypothesis-failure]]"
   - "[[yt-business-formula-hypothesis-management-playbook]]"
+  - "[[concept-maister-trusted-advisor]]"
+  - "[[concept-mckinsey-7s]]"
+  - "[[concept-minto-pyramid-principle]]"
+  - "[[concept-toyota-5-whys]]"
 tags: []
 version: 1
 created_at: 2026-06-11

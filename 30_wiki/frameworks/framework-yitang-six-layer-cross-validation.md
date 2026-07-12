@@ -41,6 +41,9 @@ related:
 - "[[dk-yitang-expert-interview-5-traps]]"
 - "[[concept-yitang-research-mindset]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
+  - "[[framework-kdo-self-attack]]"
+  - "[[framework-ouyangfeng-review-methodology]]"
+  - "[[framework-yitang-growth-flywheel]]"
 
 ---
 

@@ -33,6 +33,7 @@ related:
 - "[[tool-yitang-channel-industrialization-node-design]]"
 - "[[framework-yitang-channel-unit-economics]]"
 - "[[concept-yitang-channel-lean-validation-bridge]]"
+  - "[[case-yitang-lianjia-site-selection-industrialization]]"
 review_date: '2026-06-28'
 ---
 

@@ -29,6 +29,8 @@ related:
 - '[[tool-月白-新手设计师基本功训练法]]'
 - '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
 - '[[tool-月白-文创材质成本调研与精益选择]]'
+  - '[[tool-月白-AI设计里程碑拆解法]]'
+  - '[[tool-月白-里程碑思维拆解设计流程]]'
 - tool-yitang-research-deep-attribution
 - yt-product-kernel-to-business-model
 ---

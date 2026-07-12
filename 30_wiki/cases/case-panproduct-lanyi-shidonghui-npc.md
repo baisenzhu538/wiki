@@ -33,6 +33,9 @@ related:
 - "[[framework-yitang-growth-flywheel]]"
 - "[[framework-lean-abcd-model]]"
 - "[[framework-ai-accelerated-strategy-cycle]]"
+  - "[[case-panproduct-lanyi-dahanghui-team]]"
+  - "[[case-panproduct-lanyi-intern-flywheel]]"
+  - "[[case-roblox-ai-npc-education]]"
 review_date: '2026-06-28'
 ---
 

@@ -42,6 +42,8 @@ related:
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[dk-yitang-survivor-bias-in-research]]"
 - "[[concept-yitang-research-mindset]]"
+  - "[[tool-candy-positioning-canvas]]"
+  - "[[tool-yitang-research-company-disassembly]]"
 
 ---
 

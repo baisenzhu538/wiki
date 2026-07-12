@@ -30,6 +30,7 @@ related:
   - "[[yt-decision-y-model]]"
   - "[[framework-lean-six-wastes]]"
   - "[[strategy-domain-digest]]"
+  - "[[case-lean-genki-forest-toolkit]]"
 ---
 
 # 元气森林：战略定位与精益试错的跨域闭环

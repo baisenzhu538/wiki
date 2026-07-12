@@ -22,6 +22,7 @@ related:
 - "[[yt-decision-y-model]]"
 - "[[method-yitang-y-model-engine-cycle]]"
 - "[[dk-ai-collaboration-degradation-spiral]]"
+  - "[[framework-yihang-ai-implementation-consultant]]"
 ---
 
 # AI 原生是结果，双三角是引擎

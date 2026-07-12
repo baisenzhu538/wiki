@@ -22,6 +22,7 @@ related:
 - '[[strategy-domain-digest]]'
 - '[[tool-三层目标对齐法]]'
 - '[[case-strategy-failure-07-phone-l]]'
+  - '[[case-truman-ai-skill-self-packaging]]'
 - case-strategy-failure-09-boeing
 - case-strategy-failure-04-appliance
 ---

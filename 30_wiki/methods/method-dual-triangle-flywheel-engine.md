@@ -33,6 +33,10 @@ related:
 - '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
+  - '[[method-kdo-agent-design-meta]]'
+  - '[[method-yihang-dual-triangle-ai-review]]'
+  - '[[method-yihang-dual-triangle-deliberate-practice]]'
+  - '[[method-yitang-y-model-engine-cycle]]'
 aliases:
 - 双三角飞轮
 - 飞轮引擎

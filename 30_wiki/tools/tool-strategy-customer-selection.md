@@ -26,6 +26,7 @@ related:
 - '[[tool-马易-最小场景优先落地法]]'
 - '[[tool-月白-产品替换式场景合成法]]'
 - '[[tool-月白-后台数据AI诊断法]]'
+  - '[[tool-strategy-value-capture]]'
 - proposal-prompt-injection-infrastructure
 - kdo-yaml-frontmatter-safety
 ---

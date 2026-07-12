@@ -39,6 +39,8 @@ related:
   - "[[tool-ai-critical-reading-three-layers]]"
   - "[[concept-ai-amara-law-business-judgment]]"
   - "[[tool-tech-probability-80-filter]]"
+  - "[[case-ai-job-displacement-wef]]"
+  - "[[case-chen-qiufan-ai-writing]]"
 ---
 # 荷兰育儿补贴算法丑闻
 

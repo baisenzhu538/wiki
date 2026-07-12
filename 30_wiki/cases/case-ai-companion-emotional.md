@@ -38,6 +38,9 @@ related:
 - '[[framework-wanghuan-harness-seven-stages]]'
 - '[[framework-wanghuan-gan-three-roles]]'
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+  - '[[case-ai-job-displacement-wef]]'
+  - '[[case-cambridge-novelists-survey]]'
+  - '[[case-dutch-childcare-scandal]]'
 - tool-ai-cross-reading-method
 ---
 # AI 情感陪伴的市场与伦理

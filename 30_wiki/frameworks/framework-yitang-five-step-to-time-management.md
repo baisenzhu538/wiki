@@ -42,6 +42,10 @@ related:
 - case-decision-science-lunch-break-compression
 - '[[framework-yitang-y-model-cross-domain-fusion]]'
 - '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
+  - '[[framework-bimodal-time-philosophy]]'
+  - '[[framework-deep-work-iceberg]]'
+  - '[[framework-time-management-dual-loop-matrix]]'
+  - '[[framework-time-management-matrix]]'
 ---
 # 一堂五步法在时间管理中的应用：自管理场景的完整实例化
 

@@ -33,6 +33,7 @@ related:
 - "[[case-yitang-yitu-lead-industrialization]]"
 - "[[tool-区分获客渠道计算单元roi]]"
 - "[[framework-lean-abcd-model]]"
+  - "[[case-lean-shampoo-selling-points]]"
 review_date: '2026-06-28'
 ---
 

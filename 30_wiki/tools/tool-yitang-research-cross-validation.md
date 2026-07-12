@@ -39,6 +39,14 @@ related:
 - "[[dk-yitang-research-source-freshness]]"
 - "[[dk-yitang-expert-interview-5-traps]]"
 - "[[concept-yitang-research-mindset]]"
+  - "[[tool-yitang-app-store-data]]"
+  - "[[tool-yitang-bp-analysis]]"
+  - "[[tool-yitang-research-deep-attribution]]"
+  - "[[tool-yitang-research-single-point-sniper]]"
+  - "[[tool-yitang-research-two-dimensional-positioning]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
+  - "[[tool-yitang-user-interview-5steps]]"
+  - "[[tool-yitang-weapon-industry-expert]]"
 
 ---
 

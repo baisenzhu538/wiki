@@ -39,6 +39,7 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[framework-yitang-expert-interview-10steps]]"
 ---
 
 # 行业报告调研四步法：7天快速建立行业认知

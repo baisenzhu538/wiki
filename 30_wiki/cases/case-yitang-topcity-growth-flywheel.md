@@ -31,6 +31,7 @@ related:
 - '[[framework-yitang-channel-exploration-4step]]'
 - '[[framework-yitang-channel-unit-economics]]'
 - '[[concept-yitang-channel-lean-validation-bridge]]'
+  - '[[case-panproduct-lanyi-shidonghui-npc]]'
 - case-decision-science-topcity-negative-revenue-rank
 review_date: '2026-06-28'
 ---

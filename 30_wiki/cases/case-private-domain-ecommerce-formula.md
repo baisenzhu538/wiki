@@ -31,6 +31,9 @@ related:
 - "[[yt-business-formula-parameter-iceberg]]"
 - "[[yt-entrepreneur-unit-model]]"
 - "[[yt-business-formula-qualitative-metrics-library]]"
+  - "[[case-toc-content-platform-correlation-trap]]"
+  - "[[case-toc-ecommerce-formula-misjudgment]]"
+  - "[[case-truman-ai-skill-self-packaging]]"
 
 ---
 

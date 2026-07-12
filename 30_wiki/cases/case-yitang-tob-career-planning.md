@@ -39,6 +39,7 @@ diagnostic_signals:
 - framework_lens: 客户切分与商业模式 / [[yt-tob-customer-sabc]]
   follow_up_question: 在现金流耗尽前，哪一端能先跑通单销售模型？toB/toC 各自的获客、交付、回款周期分别是多少？
 - framework_lens: 成本占有率 / [[yt-tob-demand-metrics]]
+  - "[[case-yitang-tob-grinding-machine]]"
   follow_up_question: 这项支出在副校长政绩指标和主要任务中排第几？没有上级立项和验收压力时，学校是否仍愿自费采购？
 
 ---

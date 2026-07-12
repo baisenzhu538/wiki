@@ -42,6 +42,9 @@ related:
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[dk-yitang-research-ai-hallucination]]"
 - "[[concept-yitang-research-mindset]]"
+  - "[[tool-yitang-product-full-experience]]"
+  - "[[tool-yitang-research-deep-attribution]]"
+  - "[[tool-yitang-reverse-data-analysis]]"
 
 ---
 

@@ -33,6 +33,7 @@ related:
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
 - '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
+  - '[[framework-business-formula-dual-triangle-bridge]]'
 aliases:
 - 双三角武器库
 - 双三角能力矩阵

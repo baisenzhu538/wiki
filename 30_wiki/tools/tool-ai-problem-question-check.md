@@ -27,6 +27,8 @@ related:
 - "[[dk-ji-hao-problem-vs-question]]"
 - "[[tool-一堂-kernel-three-questions]]"
 - "[[sk-ai-problem-validation]]"
+  - "[[tool-ai-four-elements-validation]]"
+  - "[[tool-ai-problem-validation]]"
 definition_of_done:
 - src_unknown
 - src_unknown

@@ -33,6 +33,7 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+  - "[[concept-yitang-facts-first]]"
 ---
 
 # 事实优先：区分事实与观点的认知纪律

@@ -21,6 +21,7 @@ related:
 - '[[dk-modeling-ai-compound-leverage]]'
 - '[[dk-modeling-ai-judgment-limit]]'
 - '[[tool-纪浩-AI对话上下文隔离]]'
+  - '[[tool-ai-voice-input-doubao]]'
 - case-decision-ai-assisted-vs-human
 ---
 # 技能：用口喷输入法生成高质量 AI 提示词

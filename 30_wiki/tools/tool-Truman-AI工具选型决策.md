@@ -21,6 +21,12 @@ related:
 - '[[tool-Truman-开源模型与商业模型融合方案]]'
 - '[[tool-Truman-AI场景探索STAR模型]]'
 - '[[tool-Truman-数学题与语文题区分法]]'
+  - '[[tool-Truman-多Agent通信协作方案]]'
+  - '[[tool-Truman-知识库最佳实践构建]]'
+  - '[[tool-Truman-短视频自动化上传工作流]]'
+  - '[[tool-strategy-blue-ocean-canvas]]'
+  - '[[tool-strategy-industry-chain-analysis]]'
+  - '[[tool-strategy-risk-management]]'
 - productization-judgment
 ---
 # 技能：AI工具选型决策

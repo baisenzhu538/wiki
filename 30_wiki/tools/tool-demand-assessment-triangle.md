@@ -20,6 +20,12 @@ related:
 - '[[tool-项目方案评估三角形]]'
 - '[[tool-提升笔记练习频次的方法]]'
 - '[[framework-科学决策三角形]]'
+  - '[[tool-demand-chai-tui-ping-suan-guide]]'
+  - '[[tool-demand-micro-experience-script]]'
+  - '[[tool-demand-option-explorer]]'
+  - '[[tool-demand-rat-generator]]'
+  - '[[tool-demand-report-template]]'
+  - '[[tool-一堂五步法-换档检查清单]]'
 - yt-market-size-estimation
 - proposal-prompt-injection-infrastructure
 updated_at: '2026-06-29'

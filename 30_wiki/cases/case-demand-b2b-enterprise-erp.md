@@ -28,6 +28,7 @@ related:
   - "[[case-treadmill-demand-analysis]]"
   - "[[framework-demand-validation-pipeline]]"
   - "[[dk-demand-signal-vs-noise]]"
+  - "[[case-demand-b2c-consumer-insight]]"
 ---
 
 # ToB 企业 ERP 需求分析案例

@@ -21,6 +21,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+  - '[[tool-yitang-product-full-experience]]'
 - tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 ---

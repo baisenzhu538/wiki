@@ -43,6 +43,7 @@ related:
   - "[[case-科学决策-深度案例06]]"
   - "[[case-纪浩-from-zip-to-five-layers]]"
   - "[[tool-demand-agent-signal-substitute]]"
+  - "[[case-truman-ai-partner]]"
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
