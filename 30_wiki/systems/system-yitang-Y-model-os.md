@@ -41,7 +41,7 @@ related:
 - concept-X型Y型决策习惯
 - framework-yitang-y-model-cross-domain-fusion
 - agent-spec-yitang-Y-model-cross-domain-coach
-- framework-一堂-业务公式拆解-总纲
+- "[[framework-一堂-业务公式拆解-总纲]]"
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 ---
