@@ -179,7 +179,7 @@ def main():
     skipped = 0
 
     for filepath in files:
-        # filepath is like "30_wiki/raw/ocr/xxx.md"
+        # filepath is like "10_raw/ocr-cards/xxx.md"
         if filepath.startswith("30_wiki/"):
             filepath = filepath[8:]
         full_path = WIKI_ROOT / filepath

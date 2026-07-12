@@ -121,7 +121,7 @@ OCR 输出直接作为卡片入了 `30_wiki/concepts/`，与精修知识卡混�
 ### 分层方案
 
 ```
-图片 → OCR → 30_wiki/raw/ocr/ (原始转录层, trust=low)
+图片 → OCR → 10_raw/ocr-cards/ (原始转录层, trust=low)
                     ↓
               人工精修 (老顽童/洪七公)
                     ↓
@@ -130,14 +130,14 @@ OCR 输出直接作为卡片入了 `30_wiki/concepts/`，与精修知识卡混�
 
 ### 规则
 
-1. **OCR 输出默认入 `30_wiki/raw/ocr/`**，不是 `30_wiki/concepts/`
+1. **OCR 输出默认入 `10_raw/ocr-cards/`**，不是 `30_wiki/concepts/`
 2. **`trust_level: low`** 标记，搜索默认跳过（`kdo query --trust medium` 自动过滤）
 3. **门禁不扫描 `raw/`** 目录
 4. **精修升级路径**：老顽童从 OCR 卡提取知识点 → `kdo scaffold --new` 创建正式卡 → 原 OCR 卡保留在 raw/ 作为溯源记录
 
 ### 存量处理
 
-184 张存量 OCR 卡已迁移到 `30_wiki/raw/ocr/`，门禁已排除。
+184 张存量 OCR 卡已迁移到 `10_raw/ocr-cards/`，门禁已排除。
 
 
 ---

@@ -13,7 +13,7 @@ domain: yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-最简单元模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-最简单元模型_vlm_desc.md
-- 30_wiki/raw/ocr/ocr-一堂-单元模型-最简单元模型.md
+- 10_raw/ocr-cards/ocr-一堂-单元模型-最简单元模型.md
 related:
 - '[[yitang-domain-digest]]'
 - '[[dk-单元模型-找单元模型实操难点]]'

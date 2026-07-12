@@ -65,7 +65,7 @@ def main():
             continue
         for f in sorted(dpath.rglob("*.md")):
             # SKIP raw/ocr/ files — OCR cards referencing each other is expected
-            if 'raw/ocr' in str(f):
+            if '10_raw/ocr-cards' in str(f):
                 continue
             # Quick check: does file contain [[ocr-
             try:

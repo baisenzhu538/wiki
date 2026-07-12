@@ -15,7 +15,7 @@ domain:
 - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例04_vlm_desc.md
-- 30_wiki/raw/ocr/ocr-一堂-科学决策-roi决策评估画布-案例04.md
+- 10_raw/ocr-cards/ocr-一堂-科学决策-roi决策评估画布-案例04.md
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

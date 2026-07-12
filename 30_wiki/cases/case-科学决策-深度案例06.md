@@ -14,7 +14,7 @@ domain:
 - decision-science
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例06_vlm_desc.md
-- 30_wiki/raw/ocr/ocr-一堂-科学决策-深度-案例06.md
+- 10_raw/ocr-cards/ocr-一堂-科学决策-深度-案例06.md
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

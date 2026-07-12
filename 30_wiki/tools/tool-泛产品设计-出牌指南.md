@@ -17,7 +17,7 @@ created_at: 2026-07-08
 updated_at: 2026-07-08
 source_refs:
   - 30_wiki/concepts/yt-model-pan-product-demand-toolkit.md
-  - 30_wiki/raw/ocr/ocr-一堂泛产品设计-多出牌多练习.md
+  - 10_raw/ocr-cards/ocr-一堂泛产品设计-多出牌多练习.md
   - 30_wiki/concepts/yt-personal-pan-product-practice.md
   - 00_inbox/一堂-个人修身-泛产品设计实操口述版.md
 related:

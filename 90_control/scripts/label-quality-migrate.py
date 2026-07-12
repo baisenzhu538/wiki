@@ -68,7 +68,7 @@ def select_candidates(limit: int = 50) -> list[Path]:
     """Select high-quality cards for first batch."""
     candidates = []
     for p in WIKI.rglob("*.md"):
-        if "_archive" in str(p) or "raw/ocr" in str(p):
+        if "_archive" in str(p) or "10_raw" in str(p):
             continue
         try:
             text = p.read_text(encoding="utf-8", errors="ignore")

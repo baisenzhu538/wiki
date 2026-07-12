@@ -95,7 +95,7 @@ next_session_hint: "下一步：① 黄药师继续处理 #159 lint 基线回卷
 ### 2026-06-16 关键结果
 - 全库 P0=0, YAML=0, Clean=586
 - 老顽童全域案例回溯 35 张（主动执行 KF-025 三问自检）
-- OCR 368 张 → raw/ocr/ 分层隔离
+- OCR 368 张 → 10_raw/ocr-cards/ 分层隔离
 - 14 对重复卡片去重, 6 张 deprecated 归档
 - kdo query --trust/--view/--save/--template book 上线
 - KF-025 + S4 上线
