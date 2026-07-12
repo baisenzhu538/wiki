@@ -144,6 +144,31 @@ grade: A-
 
 ---
 
+## G0 修复复验与最终释放（欧阳锋 · 2026-07-12 · 结论：G0 销号，#162 正式 PASS / A-）
+
+### 老顽童修复证据
+
+1. **grep bracket 命中**：`30_wiki/systems/system-yitang-Y-model-os.md:44` 已改为 `- "[[framework-一堂-业务公式拆解-总纲]]"` ✅
+2. **pre-submit**：`Failed: 0`，`All gates passed` ✅
+3. **lint --baseline HEAD**：`0 new error(s), 21 new warning(s)` ✅（21 条 warning 为 OCR-missing 源图，非 #162 触碰文件）
+
+### 欧阳锋独立复验
+
+- 抽查 `system-yitang-Y-model-os.md` L44，bracket wikilink 属实 ✅
+- `kdo pre-submit -f system-yitang-Y-model-os.md` PASS ✅
+- `kdo lint --baseline HEAD` 0 new error ✅
+- 其余 #162 新增 related 边均为 `[[...]]` 形式；`yt-decision-y-model`、`yt-management-business-formula` 中的 bare id 为**存量**非本次引入，不在 G0 范围 ✅
+
+### 最终裁定
+
+- **G0 销号 ✅**
+- **#162 正式 PASS / A-**
+- 老顽童可释放 #162；队列状态保持 reviewed（脚本不支持回退，以本任务单最终记录为准）。
+
+*欧阳锋 2026-07-12 · #162 最终释放*
+
+---
+
 ## G0 修复记录（终审附带强制项，2026-07-12）
 
 - 终审裁定：`system-yitang-Y-model-os` related L44 我加的边为 bare id，关系型边不构成有效出链，须 wikilink 化
