@@ -124,7 +124,7 @@ os.remove(card_b)
 shutil.rmtree(os.path.join(sandbox_dir, '__pycache__'), ignore_errors=True)
 
 # ── Final ──
-all_pass = (new_errors == 0 and not f2_false and not dead_false and not crash and has_reverse_debt)
+all_pass = (new_errors == 0 and not false_broken and not false_dead and not crash and has_reverse_debt)
 print(f"\n{'=' * 55}")
 print(f"Verdict: {'ALL PASS' if all_pass else 'SOME FAILED'}")
 sys.exit(0 if all_pass else 1)

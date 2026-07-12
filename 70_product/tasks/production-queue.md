@@ -197,3 +197,4 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 158 | `task_20260712_wangyuyan-business-formula-domain-agent-spec` | C域·业务公式 agent-spec + 全域收口：agent-一堂-业务公式教练（orchestrator，双轴段位诊断）+ digest回链 + 孤儿卡/边界检查 | reviewed | 老顽童 | 1 agent-spec + 回链 + 完成报告 | #155/#156/#157 全部 reviewed | `70_product/tasks/task_20260712_wangyuyan-business-formula-domain-agent-spec.md` | 规格对齐#150基本功教练/#153决策教练；反向蒸馏（自有业务公式agent）不在本任务，另立第二阶段 |
 | 159 | `task_20260712_wangyuyan-lint-baseline-rollback` | 回链债语义分流+lint基线回卷（T5完整方案）：阶段0边分类标准(gate)→例外落表(三铁律)→真债分批修(抽样>90%放量)→基线重建三连复验 | queued | 黄药师 | 标准草案+例外表+manifest+复验报告 | 无（反向蒸馏开产前必须完成；阶段0需欧阳锋审签） |
 | 160 | `task_20260712_wangyuyan-y-model-fusion-backlink` | Y模型fusion卡L74补C域总纲链（T4）：一行related追加+pre-submit，申报制 | pending_review | 老顽童 | 补链+门禁输出 | 无（顺手件不占管线） |
+| 161 | `task_20260712_wangyuyan-c-domain-outbound-bridges` | C域域外桥接增强：图谱孤立修复（域外出链10.3%→≥20%，零域外链卡减半），语义真实优先不许造链 | queued | 老顽童 | related补链+复测报告 | 无（P1不阻塞反向蒸馏） |
