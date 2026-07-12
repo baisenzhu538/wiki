@@ -48,6 +48,7 @@ related:
 - "[[concept-yitang-research-mindset]]"
 - "[[tool-yitang-expert-network-platform]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
+- "[[yt-tool-business-formula-expert-interview-10]]"  # C 域课程原位版
 
 ---
 

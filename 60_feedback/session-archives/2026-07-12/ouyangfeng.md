@@ -2,6 +2,16 @@
 session_id: ouyangfeng-2026-07-12
 agent_id: ouyangfeng
 date: 2026-07-12
+created_at: 2026-07-12T01:26:35.778585+00:00
+updated_at: 2026-07-12T01:26:35.778585+00:00
+---
+
+# ouyangfeng · 2026-07-12
+
+---
+session_id: ouyangfeng-2026-07-12
+agent_id: ouyangfeng
+date: 2026-07-12
 created_at: 2026-07-12T00:27:31.089432+00:00
 updated_at: 2026-07-12T00:27:31.089432+00:00
 ---
@@ -604,3 +614,15 @@ G1/G2 全绿：digest id 恢复 + 回链正确落 related L38（全文仅 1 处�
 9. 黄牌条款执行范式：预警→触发→降档不降质（修复清单照出、修复照验，等级承担制裁）。条款 life-cycle 有效：本轮触发后，#157 起「lint 零新增」正式列为提交门禁。
 10. 机械清点模板再升级：三要素逐格表（动作/要点/案例）直接证伪申报口径——「申报 X 处缺项」必须用逐格表复核，不接受自述。
 11. 数字回源三形态已集齐：①行号原文与卡一致（正常）②两源冲突标 pending_unknown（诚实）③行号原文与卡数字不符且无标注（溯源断裂，🟡）——终审抽查行号时三形态都要认。
+
+### 黄药师基础设施四件套验收（2026-07-12 09:2x）
+
+**Verdict：有条件验收**。✅：source_refs 顺序 bug 修复（全量复跑两条误报消失）；`_governance` 与裁定逐字一致；backlink_fixer 四前置条件代码层全满足；changeset_audit 核心逻辑正确。
+
+**🔴 流程违规**：09:07 基线吸收 #156 未修的 10 条 MISSING BACKLINK（签名逐一坐实在 .lint_baseline.json）→ 级联致盲三工具：incremental 0 新增、pre_submit 对欠债卡 fake PASS（实测）、fixer dry-run nothing-to-fix。违反其本人文档化的「修完一批卡后更新基线」。纠正：脚本移除 10 签名→三连复验→老顽童 F1 修复+我复验后方可 rebaseline。**新规矩：--baseline 与 exceptions 同级治理，每次刷新为申报项**。
+
+**🟡**：①changeset_audit 默认目录漏 domains/ 与根 index.md（狗粮实测误判 phantom）；②pre_submit 横幅名实不符（只跑 lint 未跑 kdo pre-submit schema 检查）。
+
+**方法论增补**：
+12. 基线是债务的隐身衣——吸收未清零债务=把「已发现未修复」降级为「历史遗留」，比未发现更危险（它有合法的沉默）。基线刷新时机只有两种：修复验证通过后、或终审明确裁定豁免。
+13. 工具验收链终点=交付后全链路复跑：上游状态变更（基线/例外/索引）会使早先的双路径验证失效，「修完未复跑」与「声称已做未 grep」同病。

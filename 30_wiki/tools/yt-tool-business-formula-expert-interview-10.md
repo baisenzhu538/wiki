@@ -26,6 +26,7 @@ related:
 - '[[yt-tool-business-formula-gongjianhui]]'
 - '[[yt-tool-business-formula-inspiration-5]]'
 - '[[business-formula-domain-digest]]'
+- '[[framework-yitang-expert-interview-10steps]]'  # 通用版
 diagnostic_signals:
 - signal: 关键假设列出来了，团队只会内部拍脑袋争论"我觉得行/我觉得不行"
   lens: 缺验证动作——访谈是拿常识验证假设最快的路之一，前提是带着拆细的具体假设去问
