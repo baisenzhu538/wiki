@@ -34,6 +34,7 @@ source_refs:
 related:
 - '[[framework-一堂-关键假设]]'
 - '[[framework-一堂-关键假设-ABCD模型]]'
+- '[[framework-yitang-y-model-cross-domain-fusion]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'

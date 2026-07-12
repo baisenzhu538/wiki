@@ -71,7 +71,7 @@ updated_at: 2026-07-08T17:28:16Z
 |:---|:---|:---|:---|
 | **需求分析** | 事实端 + 关键假设 + 迭代发动机 | 「拆推评算」是事实端；需求冰山 L1-L6 是从表层事实下钻到可验证假设的迭代；L6 机会卡 / RAT 是关键假设的可证伪化；L4/L5 前禁止产品形态是「先事实后方案」的纪律。 | [[framework-demand-iceberg]]、[[tool-demand-iceberg-l6-hypothesis]] |
 | **产品内核 / 泛产品设计** | 理论端 + 实事求是 + 解放思想 | 产品内核的「关键假设」是理论端起点；「聊问查测盘赌」六策略与三问验证是事实端验证；做减法 / 划边界是解放思想；「做而不信」「成本高信息低默认不做」是实事求是。 | [[framework-一堂五步法-泛产品设计]]、[[framework-lean-product-kernel]] |
-| **一堂五步法** | 价值假设 / 增长假设 + 两次跃迁 | 前三步验证价值假设，后两步验证增长假设；单元模型是拆解变量 / 业务公式的因果模型；「不要过早复制未经验证的商业模式」是事实端纪律；壁垒是长期模型沉淀。 | [[yt-five-step-method-complete]]、[[yt-unit-model-overview]] |
+| **一堂五步法** | 价值假设 / 增长假设 + 两次跃迁 | 前三步验证价值假设，后两步验证增长假设；单元模型是拆解变量 / 业务公式的因果模型；「不要过早复制未经验证的商业模式」是事实端纪律；壁垒是长期模型沉淀。 | [[yt-five-step-method-complete]]、[[yt-unit-model-overview]]、[[framework-一堂-业务公式拆解-总纲]] |
 | **科学销售** | 五步法在销售域的实例化 + 假设验证 | 用户分层 / 卖点提炼是需求分析的事实端；销售过程拆解是拆解变量；业绩管理画布 / Pipeline / Gap 分析是持续的事实反馈；工具箱 60/75/85 成熟度是模型沉淀与迭代。 | [[framework-yitang-scientific-sales-five-step]]、[[tool-yitang-sales-toolkit-radar]] |
 | **时间管理** | 五步法在自管理场景的实例化 | 三门模型（任务 / 时间 / 匹配）是拆解变量；L1-L5 工作深度是理论模型；时间审计是事实端；每两周假设实验是迭代发动机；个人时间操作系统是壁垒。 | [[framework-yitang-five-step-to-time-management]]、[[tool-personal-time-audit-loop]] |
 | **AI 落地 / 双三角** | 双三角是 Y模型 引擎在 AI 协作域的沉淀 | 双三角六要素是 Y模型 多轮循环后沉淀的框架认知；AI 落地五部曲是五步循环的工程化；Truman PPT 案例是解放思想打破「必须用 PPT 软件做 PPT」。 | [[framework-yitang-y-model-dual-triangle-synergy]]、[[framework-yihang-dual-triangle-ai-landing-five-steps]] |
