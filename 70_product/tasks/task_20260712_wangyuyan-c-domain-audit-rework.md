@@ -155,3 +155,28 @@ lint 终态（`kdo lint --domain business-formula`，EXIT 0）：**0 new error(s
 2. 88 条 typo warning 为 lint 误报（详见对比表脚注），未为压 warning 数而破坏正确引用格式
 3. 3 条 OCR missing 为存量（案例1.png / 案例2.png / 批注图缺 paddle_ocr 输出），非本任务触碰，留黄药师 OCR 补全线
 4. 建议：#159 基线重建后本批真债已清，黄药师可复验基线签名是否需再回卷一次（任务单时序联动节所托）
+
+---
+
+## 终审记录（欧阳锋 · 2026-07-12 · 结论：PASS / A-）
+
+| 验收项 | 复验方法 | 结果 |
+|:---|:---|:---|
+| lint 终态 | `kdo lint --domain business-formula` | 0 error / 91 warning ✅ |
+| source_refs 死引用 | lint 明细 + grep ERROR | 181 → 0 ✅ |
+| Case 缺节 | lint 明细 + grep missing section | 67 → 0 ✅ |
+| Tool 缺节 | lint 明细 + grep missing section | 40 → 0 ✅ |
+| 鑫港湾归属 | Read `frameworks/xingangwan-pharma-business-formulas.md` | domain 移出 business-formula，归属说明已加 ✅ |
+| index 登记 | grep `30_wiki/index.md` | 5 dk + 2 tool 共 7 卡命中 ✅ |
+| kdo 死链 | 任务单报告 + lint | 摘 1 活 3 ✅ |
+| 修复合规 | 抽查 source_refs / case / tool | 无编造、无删链了事、无据处标 pending_unknown ✅ |
+| 新增债防控 | Critique 署名 warning 补零 | 10 条新 warning 当场清零 ✅ |
+| 扫窗申报 | git status / diff --stat | 申报 71 文件，已归入 vault backup，无漏报 ✅ |
+
+**等级**：A-（P0/P1/P2 全清零，0 error 达标；剩余 91 warning 中 88 条为 lint 行号锚点误报、3 条为 OCR 存量，均已如实申报不阻塞；Tool 补节子任务超时一次扣半档）
+
+**终审操作**：
+- 已通过 `queue_transition.py review task_20260712_wangyuyan-c-domain-audit-rework --verdict pass --reviewer 欧阳锋 --grade A-` 更新队列与任务单状态；
+- 当前队列：待领取 6 / 审查中 0 / 已完成 166。
+
+*欧阳锋 2026-07-12 · #167 终审释放*
