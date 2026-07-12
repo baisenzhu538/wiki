@@ -28,7 +28,6 @@ confidence: 0.88
 related:
   - "[[yitang-domain-digest]]"
   - "[[tool-泛产品落地-灵感闪现]]"
-  - "[[ocr-一堂-科学决策-高水平共识曲线重要]]"
   - "[[framework-高水平共识曲线]]"
   - "[[tool-月白-灵感画布建立法]]"
 tags:

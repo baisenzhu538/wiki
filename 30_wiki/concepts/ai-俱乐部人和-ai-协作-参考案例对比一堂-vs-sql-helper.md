@@ -24,7 +24,6 @@ related:
   - [[case-truman-ai-partner]]
   - ai-俱乐部人和-ai-协作-五层结构
   - [[case-jh-yitang-vs-sqlhelper]]
-  - [[ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02]]
   - [[ai-native-im-multi-agent]]
 ---
 

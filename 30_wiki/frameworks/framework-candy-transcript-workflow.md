@@ -20,8 +20,6 @@ related:
   - "[[yitang-domain-digest]]"
   - "[[tool-马易-中国企业AI落地五步法]]"
   - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[ocr-一堂五步法画布]]"
-  - "[[ocr-truman的个人成长五步法]]"
   - "[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]"
   - "[[tool-月白-AIGC橱窗陈列设计流程]]"
   - "[[tool-专家访谈十步法]]"

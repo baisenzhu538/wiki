@@ -23,7 +23,6 @@ related:
 - "[[HIS系统开发实现方案-架构师指南]]"
 - "[[yt-personal-knowledge-extraction]]"
 - "[[yt-tool-knowledge-extraction]]"
-- "[[ocr-泛产品设计-审美工具箱指南]]"
 ---
 
 # Knowledge Delivery OS 快速体验指南

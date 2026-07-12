@@ -26,19 +26,13 @@ confidence: 0.65
 trust_level: medium
 review_date: '2026-06-28'
 related:
-- '[[ocr-泛产品设计-用户卡片-场景推演]]'
-- '[[ocr-泛产品设计-落地卡片-攻坚会]]'
-- '[[ocr-泛产品设计者的三大自我修养]]'
-- '[[ocr-泛产品设计-用户卡片-惊喜公式]]'
 - '[[tool-泛产品落地-内核和边界]]'
 - '[[tool-泛产品落地-灵感闪现]]'
 - '[[tool-月白-泛产品设计能力迁移法]]'
 - '[[tool-泛产品落地-业务建模]]'
-- '[[ocr-泛产品设计-落地卡片-roi分析]]'
 - '[[tool-泛产品落地-解放思想]]'
 - '[[tool-泛产品设计-需求工具箱指南]]'
 - '[[tool-Truman-判断力产品化与系统赋能]]'
-- '[[ocr-泛产品设计-落地卡片-低成本测试mvp]]'
 - '[[tool-泛产品落地-ROI分析]]'
 - business-validation-models-collaboration
 - supply-chain-beverage

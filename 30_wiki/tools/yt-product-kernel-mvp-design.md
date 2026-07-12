@@ -18,7 +18,6 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[ocr-泛产品设计-用户卡片-场景推演]]"
   - "[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]"
   - "[[yt-panproduct-execution-low-cost-mvp]]"
   - "[[tool-月白-口述作图法（口喷设计）]]"
@@ -27,7 +26,6 @@ related:
   - "[[tool-月白-AI设计反馈萃取法]]"
   - "[[tool-月白-设计文件八要素命名法]]"
   - "[[tool-月白-设计项目MVP拆解法]]"
-  - "[[ocr-泛产品设计-落地卡片-roi分析]]"
   - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
   - "[[yt-lean-daily-chemical-mvp]]"
   - "[[case-yitang-mvp-reward-interview-waste]]"

@@ -19,7 +19,6 @@ reviewed_by: 待审
 review_date: '2026-06-19'
 related:
   - "[[tool-设定管理杠杆率指标评估效率]]"
-  - "[[ocr-一堂五步法-产品内核画布]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 diagnostic_signals:

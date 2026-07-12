@@ -32,12 +32,10 @@ related:
   - "[[tool-月白-设计师AI工具习惯切换]]"
   - "[[tool-泛产品设计-需求工具箱指南]]"
   - "[[tool-Truman-AI工具选型决策]]"
-  - "[[ocr-泛产品设计-需求工具箱指南]]"
   - "[[tool-agent-native-overview]]"
   - "[[tool-清单小抄工具箱法]]"
   - "[[tool-月白-资深设计师AI工具切换法]]"
   - "[[ai-native-五层进阶从答案到效率到作品到产品到系统]]"
-  - "[[ocr-泛产品设计-审美工具箱指南]]"
   - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
   - "[[dk-lz-ai-native-organization]]"
 tags:

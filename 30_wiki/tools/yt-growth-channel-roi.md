@@ -17,17 +17,12 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-- '[[ocr-一堂-科学决策-roi决策评估画布]]'
 - '[[tool-ROI决策评估画布]]'
-- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
 - '[[yt-panproduct-execution-roi-analysis]]'
-- '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
-- '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
 - '[[case-科学决策-ROI案例02]]'
 - '[[case-科学决策-ROI案例03]]'
 - '[[case-truman-poker-deck-roi]]'
 - '[[tool-泛产品落地-ROI分析]]'
-- '[[ocr-一堂-科学决策-roi高阶训练全景图]]'
 - '[[tool-马易-AIGC项目ROI评估]]'
 - '[[dk-decision-value-overrides-roi]]'
 - case-panproduct-top135-selection-polish

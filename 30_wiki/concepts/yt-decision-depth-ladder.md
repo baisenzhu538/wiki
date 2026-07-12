@@ -34,11 +34,9 @@ related:
   - "[[tool-月白-设计师AI工具习惯切换]]"
   - "[[tool-泛产品设计-需求工具箱指南]]"
   - "[[tool-Truman-AI工具选型决策]]"
-  - "[[ocr-泛产品设计-需求工具箱指南]]"
   - "[[tool-清单小抄工具箱法]]"
   - "[[tool-月白-资深设计师AI工具切换法]]"
   - "[[tool-审美工具箱]]"
-  - "[[ocr-泛产品设计-审美工具箱指南]]"
   - "[[yt-business-formula-six-level-logic]]"
 query_triggers:
 - src_unknown

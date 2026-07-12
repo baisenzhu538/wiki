@@ -22,10 +22,7 @@ confidence: 0.7
 related:
 - "[[case-truman-personal-growth-map-creation]]"
 - "[[tool-从案例中学习]]"
-- "[[ocr-一堂-案例拆解-课程清单]]"
-- "[[ocr-一堂-科学决策-深度-案例02]]"
 - "[[case-科学决策-深度案例06]]"
-- "[[ocr-一堂-科学决策-roi决策评估画布-案例02]]"
 - "[[case-科学决策-深度案例02]]"
 tags:
 - src_unknown

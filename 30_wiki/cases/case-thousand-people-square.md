@@ -22,18 +22,11 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.89
 related:
-  - "[[ocr-一堂-地图-管理地图_conv]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布]]"
-  - "[[ocr-一堂-高阶体系探索营-三种咨询可能性]]"
   - "[[tool-月白-AI模型选择策略]]"
   - "[[dk-单元模型-找单元模型实操难点]]"
-  - "[[ocr-一堂-科学决策-x型y型决策习惯对比]]"
-  - "[[ocr-一堂y模型-科学成事道理]]"
   - "[[tool-一堂-spectrum-positioning]]"
-  - "[[ocr-一堂-单元模型-单用户模型]]"
   - "[[tool-纪浩-案例池构建法]]"
   - "[[concept-最简单元模型]]"
-  - "[[ocr-一堂-ai学习-提问工程化]]"
   - "[[case-科学决策-ROI案例03]]"
 tags:
 - src_unknown

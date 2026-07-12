@@ -20,7 +20,6 @@ related:
 - '[[concept-最佳实践建模]]'
 - '[[tool-动手建模提炼]]'
 - '[[tool-动手建模法]]'
-- '[[ocr-泛产品设计-审美卡片-最佳实践建模]]'
 - '[[tool-泛产品落地-业务建模]]'
 - '[[tool-现场建模式萃取笔记]]'
 - proposal-prompt-injection-infrastructure

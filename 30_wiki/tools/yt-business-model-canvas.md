@@ -21,16 +21,9 @@ review_verdict: fail
 review_grade: C
 review_notes: 补审。核心框架有价值但 body 大面积 src_unknown（步骤1-4、行动触发器、关联卡片、来源验证），domain 为 src_unknown。退回老顽童返工：补 domain + 清 body 占位符。
 related:
-  - "[[ocr-一堂-科学决策-roi决策评估画布]]"
   - "[[tool-ROI决策评估画布]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例02]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例01]]"
   - "[[tool-行业分析画布]]"
-  - "[[ocr-一堂-个人修炼-提问刻意练习画布]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例04]]"
   - "[[tool-提问刻意练习画布]]"
-  - "[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]"
-  - "[[ocr-一堂-科学决策-roi决策评估画布-案例03]]"
 diagnostic_signals:
 - framework_lens: 商业模式画布——结构化梳理商业模式
   follow_up_question: 你能用商业模式画布的9个要素描述你的商业模式吗？

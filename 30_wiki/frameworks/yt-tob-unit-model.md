@@ -27,17 +27,9 @@ confidence: 0.85
 trust_level: medium
 related:
 - '[[dk-单元模型-找单元模型实操难点]]'
-- '[[ocr-一堂-单元模型-段位专家]]'
-- '[[ocr-一堂-单元模型-单用户模型]]'
-- '[[ocr-一堂-单元模型-对抗小抄01]]'
-- '[[ocr-一堂-单元模型-单履约模型]]'
-- '[[ocr-一堂-单元模型-找基准值实操难点]]'
-- '[[ocr-一堂-单元模型-外部对抗地图]]'
 - '[[concept-最简单元模型]]'
-- '[[ocr-一堂-单元模型-对抗小抄02]]'
 - '[[tool-单元模型-壁垒预判]]'
 - '[[ai单元模型口述蒋老师]]'
-- '[[ocr-一堂-单元模型-单商圈模型]]'
 - yt-tool-unit-model-selection
 - yt-tob-solution-model
 diagnostic_signals:

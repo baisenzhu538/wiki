@@ -35,7 +35,6 @@ related:
 - '[[dk-note-maximum-common-divisor]]'
 - '[[tool-泛产品落地-风险管理]]'
 - '[[tool-清单小抄工具箱法]]'
-- '[[ocr-泛产品设计-审美工具箱指南]]'
 - '[[concept-maister-trusted-advisor]]'
 - yt-demand-qualitative-analysis
 ---

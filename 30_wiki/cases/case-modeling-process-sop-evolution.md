@@ -24,19 +24,9 @@ review_date: 2026-06-15
 confidence: 0.8
 trust_level: high
 related:
-- '[[ocr-一堂-地图-管理地图_conv]]'
-- '[[ocr-一堂-科学决策-roi决策评估画布]]'
-- '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'
-- '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
-- '[[ocr-一堂y模型-科学成事道理]]'
-- '[[ocr-一堂-科学决策-宽度-团队]]'
-- '[[ocr-一堂-个人修炼-讲香十指模型-超级武器库]]'
 - '[[tool-一堂-spectrum-positioning]]'
-- '[[ocr-一堂-单元模型-单用户模型]]'
 - '[[tool-纪浩-案例池构建法]]'
-- '[[ocr-一堂-ai学习-提问工程化]]'
 - '[[case-科学决策-ROI案例03]]'
-- '[[ocr-一堂-单元模型-对抗小抄02]]'
 - case-modeling-process-livestream-prep
 diagnostic_signals:
 - framework_lens: 流程建模 / SOP

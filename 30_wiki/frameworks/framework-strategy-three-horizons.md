@@ -17,7 +17,6 @@ author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
 - '[[strategy-domain-digest]]'
-- '[[ocr-一堂-地图-管理地图_conv]]'
 - '[[tool-Truman-Skill全生命周期管理]]'
 - '[[tool-Truman-上下文质量管理（AI协作）]]'
 - '[[deepseek-v4-在知识管理系统中的应用]]'

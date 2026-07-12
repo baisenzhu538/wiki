@@ -30,7 +30,6 @@ related:
   - "[[yt-business-formula-hypothesis-management-playbook]]"
   - "[[tool-马易-AI任务拆解提升控制度]]"
   - "[[tool-马易-数字员工FD拆解落地]]"
-  - "[[ocr-一堂-案例拆解-课程清单]]"
   - "[[tool-马易-工作流拆解找场景]]"
   - "[[tool-月白-基于需求拆解找设计参考]]"
   - "[[tool-月白-AI设计里程碑拆解法]]"

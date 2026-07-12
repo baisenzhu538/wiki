@@ -34,7 +34,6 @@ related:
 - "[[course-to-skill-conversion]]"
 - "[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]"
 - "[[case-ji-hao-skill-market-problem-validation]]"
-- "[[ocr-一堂-科学决策-roi高阶训练全景图]]"
 - "[[case-truman-ai-skill-self-packaging]]"
 - "[[yt-skill-checklist-as-ai-protocol]]"
 - "[[yt-skill-p-role-prompt-design]]"

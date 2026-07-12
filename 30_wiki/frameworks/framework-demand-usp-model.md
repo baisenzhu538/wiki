@@ -23,13 +23,11 @@ related:
 - '[[case-demand-pharma-bigdata]]'
 - '[[yt-demand-peak-end-rule]]'
 - '[[tool-月白-AI模型选择策略]]'
-- '[[ocr-一堂-单元模型-单用户模型]]'
 - '[[tool-demand-iceberg-l3-core-job]]'
 - '[[tool-demand-iceberg-l6-hypothesis]]'
 - '[[yt-demand-insight-extraction]]'
 - '[[concept-最简单元模型]]'
 - '[[case-treadmill-demand-analysis]]'
-- '[[ocr-一堂-单元模型-对抗小抄02]]'
 - proposal-prompt-injection-infrastructure
 - tool-yitang-amazon-bestseller
 updated_at: '2026-06-29'

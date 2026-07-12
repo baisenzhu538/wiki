@@ -18,8 +18,6 @@ trust_level: medium
 related:
 - "[[yt-model-dual-triangle-competitiveness]]"
 - "[[case-yitang-double-triangle-confidence]]"
-- "[[ocr-一堂-个人修炼-双三角模型]]"
-- "[[ocr-一堂-人机协作-双三角模型]]"
 ---
 # 花总AMA精华摘要
 

@@ -29,15 +29,10 @@ related:
 - "[[tool-月白-设计师AI工具习惯切换]]"
 - "[[tool-泛产品设计-需求工具箱指南]]"
 - "[[tool-Truman-AI工具选型决策]]"
-- "[[ocr-一堂-案例拆解-课程清单]]"
 - "[[tool-稀缺资源清单]]"
 - "[[轻量级诊所HIS调研全清单]]"
 - "[[tool-清单小抄工具箱法]]"
-- "[[ocr-一堂-科学决策-稀缺资源清单]]"
-- "[[ocr-泛产品设计-审美工具箱指南]]"
-- "[[ocr-一堂-科学决策-关键训练清单重要]]"
 - "[[tool-月白-工厂对接信息清单制作]]"
-- "[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]"
 source_refs:
 - 10_raw/sources/src_20260614_9ca806cd-theme-yitang-methodology-summary.md
 status: reviewed

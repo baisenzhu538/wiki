@@ -17,7 +17,6 @@ source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-商业终局光谱图-图-01_ocr_text.md
 related:
 - '[[yitang-domain-digest]]'
-- '[[ocr-一堂-单元模型-壁垒预判]]'
 - '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
 - '[[tool-单元模型-壁垒预判]]'
 - yt-foresight-business-spectrum

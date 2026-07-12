@@ -17,17 +17,10 @@ source_refs:
 related:
 - '[[strategy-domain-digest]]'
 - '[[concept-X型Y型决策习惯]]'
-- '[[ocr-一堂-科学决策-roi决策评估画布]]'
-- '[[ocr-一堂-科学决策-x型y型决策习惯对比]]'
-- '[[ocr-一堂-科学决策-宽度-团队]]'
-- '[[ocr-一堂-科学决策-深度-l1优先级定性]]'
-- '[[ocr-一堂-科学决策-深度-你的业务是一次抽样实验]]'
 - '[[tool-ROI决策评估画布]]'
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-水水-管理决策权重偏差]]'
 - '[[case-科学决策-深度案例06]]'
-- '[[ocr-一堂-科学决策-宽度-个人]]'
-- '[[ocr-一堂-科学决策-深度-案例04]]'
 - tool-yitang-amazon-bestseller
 - tool-yitang-ai-monitoring-alert
 ---

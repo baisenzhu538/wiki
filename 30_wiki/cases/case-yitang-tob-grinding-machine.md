@@ -27,17 +27,11 @@ confidence: 0.68
 trust_level: medium
 related:
 - '[[tool-从案例中学习]]'
-- '[[ocr-一堂-案例拆解-课程清单]]'
-- '[[ocr-一堂-科学决策-深度-案例02]]'
 - '[[case-科学决策-深度案例06]]'
-- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
 - '[[case-科学决策-深度案例02]]'
-- '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
-- '[[ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02]]'
 - '[[tool-纪浩-案例池构建法]]'
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-- '[[ocr-一堂-科学决策-深度-l4-案例01]]'
 - case-yitang-tob-career-planning
 - case-yitang-tob-smart-park
 diagnostic_signals:

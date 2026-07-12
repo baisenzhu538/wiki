@@ -34,10 +34,7 @@ diagnostic_signals:
   follow_up_question: 每个步骤是否细到"换一个人也能按步骤做出 80 分结果"？
 related:
 - '[[tool-从案例中学习]]'
-- '[[ocr-一堂-案例拆解-课程清单]]'
-- '[[ocr-一堂-科学决策-深度-案例02]]'
 - '[[case-科学决策-深度案例06]]'
-- '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
 - '[[dk-modeling-sop-execution-locks]]'
 - '[[case-科学决策-深度案例02]]'
 - '[[case-zhangyang-anchor-sop-three-locks]]'

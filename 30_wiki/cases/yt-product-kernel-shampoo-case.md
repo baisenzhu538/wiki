@@ -22,7 +22,6 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[ocr-一堂五步法-产品内核画布]]"
   - "[[pending_unknown]]"
 diagnostic_signals:
 - framework_lens: 洗发水案例——内核是价值，不是功能

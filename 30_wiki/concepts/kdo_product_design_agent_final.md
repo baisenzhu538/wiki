@@ -15,20 +15,14 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- "[[ocr-泛产品设计-用户卡片-场景推演]]"
 - "[[tool-半肥猫-课程Skill化的八步工作流]]"
 - "[[kdo-input-channel-strategy-2026-06-16]]"
-- "[[ocr-泛产品设计-落地卡片-攻坚会]]"
 - "[[kdo-protocol]]"
-- "[[ocr-泛产品设计者的三大自我修养]]"
-- "[[ocr-泛产品设计-用户卡片-惊喜公式]]"
-- "[[ocr-泛产品设计-落地卡片-roi分析]]"
 - "[[tool-月白-PPT全AI生成工作流]]"
 - "[[framework-kdo-self-attack]]"
 - "[[kdo-yaml-frontmatter-safety]]"
 - "[[tool-泛产品设计-需求工具箱指南]]"
 - "[[kdo-priority-checklist]]"
-- "[[ocr-泛产品设计-落地卡片-低成本测试mvp]]"
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)

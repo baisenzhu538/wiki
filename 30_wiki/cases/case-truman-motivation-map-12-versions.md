@@ -11,7 +11,6 @@ source_context: 一堂-个人修炼-泛产品设计工具篇口述版.md
 source_refs:
 - 10_raw/sources/src_20260510_79f0f8c6-一堂-个人修炼-泛产品设计工具篇口述版.md
 related:
-- '[[ocr-泛产品设计-用户卡片-场景推演]]'
 - '[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]'
 - '[[tool-Truman-提示词优化底层方法]]'
 - '[[tool-月白-口述作图法（口喷设计）]]'
@@ -22,7 +21,6 @@ related:
 - '[[tool-月白-设计文件八要素命名法]]'
 - '[[tool-月白-设计项目MVP拆解法]]'
 - '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
-- '[[ocr-泛产品设计-落地卡片-roi分析]]'
 - case-truman-personal-growth-map-creation
 - case-course-milestone-model
 created_at: '2026-06-09'

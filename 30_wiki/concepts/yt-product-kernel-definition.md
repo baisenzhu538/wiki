@@ -29,7 +29,6 @@ related:
   - "[[tool-李诞-销售闭环验证：从0到1的重新定义]]"
   - "[[tool-李诞-个人IP的重新定义与输出策略]]"
   - "[[tool-Truman-多Agent通信协作方案]]"
-  - "[[ocr-一堂-科学决策-项目方案评估三角形]]"
   - "[[tool-Truman-开源模型与商业模型融合方案]]"
 diagnostic_signals:
 - framework_lens: 产品内核定义——内核是价值，不是功能列表
