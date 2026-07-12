@@ -1,5 +1,15 @@
 {
   "_doc": "例外清单——匹配的 lint 错误不被报告。glob 用 fnmatch 语法（* 通配）。",
+  "_governance": {
+    "rule": "此文件的每次修改 = 高危动作，与 frontmatter 编辑同级。",
+    "process": [
+      "1. 修改者在复命申报清单中列出此文件",
+      "2. 欧阳锋终审签字确认",
+      "3. 签字后修改方可合入基线"
+    ],
+    "prohibition": "生产者不得自行添加豁免规则来隐藏 lint 错误。违反按黄牌降档。",
+    "effective_date": "2026-07-12"
+  },
   "f2_broken": [],
   "f2_missing": [
     {
