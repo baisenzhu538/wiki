@@ -1,0 +1,4 @@
+﻿30_wiki/frameworks/framework-business-formula-dual-triangle-bridge.md
+30_wiki/frameworks/framework-business-formula-y-model-bridge.md
+30_wiki/frameworks/framework-business-formula-fundamentals-bridge.md
+30_wiki/tools/tool-agent-spec-business-formula-parameter-miner.md

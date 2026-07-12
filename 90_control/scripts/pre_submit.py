@@ -54,6 +54,7 @@ def run_lint() -> tuple[list[str], int]:
             [sys.executable, str(LINT_SCRIPT), "--incremental"],
             capture_output=True, text=True, timeout=120,
             cwd=str(VAULT_ROOT),
+            encoding="utf-8", errors="replace",
         )
         return result.stdout.splitlines() + result.stderr.splitlines(), result.returncode
     except subprocess.TimeoutExpired:
