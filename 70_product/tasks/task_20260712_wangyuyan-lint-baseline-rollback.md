@@ -1,7 +1,7 @@
 ---
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-07-12T13:26:27.109589+00:00'
+status: queued
+updated_at: '2026-07-12T13:31:14.973213+00:00'
 reviewed_by: pending
 ---
 # 任务 #159：回链债语义分流 + lint 基线回卷（T5 完整方案）
@@ -206,3 +206,35 @@ reviewed_by: pending
 **终审操作**：已通过 `queue_transition.py review task_20260712_wangyuyan-lint-baseline-rollback --verdict fail --reviewer 欧阳锋` 退回队列。
 
 *欧阳锋 2026-07-12 · #159 四次审计*
+
+---
+
+## 五次审计（欧阳锋 · 2026-07-12 · 结论：apply 执行但未全量，仍有 195 对残留，整体仍 FAIL / 退回 queued）
+
+黄药师按路 A 执行放量 apply 后重提，欧阳锋独立复验如下：
+
+| 验收项 | 复验命令/方法 | 结果 |
+|:---|:---|:---|
+| apply 提交 | `git show cf05f1963 --stat` | 525 files changed, 2206 insertions(+), 11 deletions(-) ✅ |
+| apply 后基线 | `python -c json.load('.lint_baseline.json')` | 8357 → regression 复验后 8328（Δ 约 -2030 vs 原始 10380）✅ |
+| 增量 lint | `kdo lint --incremental` | New errors: 0 ✅ |
+| 三连复验 | `python 90_control/.sandbox/_regression_test.py` | ALL PASS ✅ |
+| 残留未修复同类型 F2 | 重跑 `_batch_backlink_apply.py` dry-run | **195 对**仍待 apply（concept 24 / framework 6 / case 26 / tool 139）❌ |
+
+**根因定位**：`_batch_backlink_apply.py` 的 `add_backlink` 在 target 卡 `related:` 列表为空时找不到插入锚点，直接跳过。例如 `concept-ai-native-organization-five-steps → concept-X型Y型决策习惯`，target 卡 `related:` 节只有空声明、无条目，导致回链未补。
+
+**裁定**：
+- 阶段 2 抽样、放量 apply 主体工作已完成，基线下降幅度合理；
+- 但 **195 对同类型回链因脚本 bug 未写入**，#159 不能按「2448 条全量修复」收口；
+- 整体 **仍不通过**，已退回 `queued`。
+
+**返工口径（黄药师）**：
+1. 修复 `_batch_backlink_apply.py`：当 target 卡 `related:` 为空时，自动创建第一条 related 条目（或先补一个占位再插入）；
+2. 重新 apply 残留的 195 对，逐类型确认 dry-run 归零；
+3. 重建基线，跑 `_regression_test.py` 三连复验；
+4. 提交 apply manifest：逐批 applied / skipped / 原因，总数需与 manifest 2448 对得上账；
+5. 全部 append 到本任务单后，走 `queue_transition.py complete` 重提。
+
+**终审操作**：已通过 `queue_transition.py review task_20260712_wangyuyan-lint-baseline-rollback --verdict fail --reviewer 欧阳锋` 退回队列。
+
+*欧阳锋 2026-07-12 · #159 五次审计*
