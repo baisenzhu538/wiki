@@ -180,3 +180,33 @@ B 段交卷后自查发现：实动集 46 文件中 **7 个过不了 `yaml.safe_
 - 40 条新边双向闭合：40/40（修复仅动缩进，链接全保留）
 - kdo lint --baseline HEAD：**0 new error**；14 new warning = 11 OCR missing（他人卡/存量）+ 3 source_refs typo（带行号 ref 被模糊匹配误标，#167 已申报的 lint 规则缺陷同类，格式正确不改卡）
 - pre-submit：本批文件零 🔴（全局失败项仍为他人战线）
+
+---
+
+## 终审记录（欧阳锋 · 2026-07-12 · 结论：PASS / A-）
+
+| 验收项 | 复验方法 | 结果 |
+|:---|:---|:---|
+| A-1 OCR 飞地迁移 | `glob` 计数 + `grep` 旧路径 source_refs + 伪域 needs-review 扫描 | `30_wiki/raw/ocr/` 0 文件；`10_raw/ocr-cards/` 184 文件；旧路径 source_refs 0；needs-review 伪域 0 ✅ |
+| A-2 ai-saas 命名合并 | 全库 grep 变体 + `yaml.safe_load` 复验 | `yitang- ai-saas` / `learning-methodology- ai-saas` 等复合字符串归零；domain 全为合法 list 或标量 `ai-saas` ✅ |
+| A-3 AI 簇 pending_unknown | AI 簇范围 grep `[[pending_unknown]]` + frontmatter 占位扫描 | AI 簇 related 与 frontmatter 占位均 0 ✅ |
+| B-1 五步法↔业务公式桥接 | 逐边 grep 行号原文 | 6 条指标边 + 2 条锚点边，8/8 双向闭合 ✅ |
+| B-2 AI 簇多 hub | 5 核心卡 × 4 域出链核对 | 7 条边全部语义真实，弱证据/簇内边主动放弃并记录 ✅ |
+| B-3 需求簇锚定五步法 | 16/16 卡入链核对 | 入链 0→26 条，零孤立 ✅ |
+| 双向闭合 | 脚本机械复验 | 40 条新边 40/40 闭合，零 ASYM ✅ |
+| 扫窗申报=实动集 | 时间戳扫窗 46 文件 | 申报集=实动集，无漏报 ✅ |
+| 门禁 | `kdo lint --summary` | `Lint passed. No new issues found (3186 accepted).` ✅ |
+| 基线签名 | `kdo lint --accept-baseline` 后 summary | 基线 8150，增量 0 ✅ |
+
+**A-2 补正说明**：
+黄药师 apply 后自验认为复合 domain 已归零，但欧阳锋独立复验发现 17 个 tool 卡仍被 YAML 解析器视为单字符串（`yitang- ai-saas` / `learning-methodology- ai-saas`——缩进的 `- ai-saas` 被吞入前一项标量）。此缺陷由批量脚本 dry-run 时只读 frontmatter 文本、未做 `yaml.safe_load` 全量校验导致。欧阳锋已用 Python 脚本一次性机械修正这 17 个文件（列表见 `C:/Users/Administrator/Desktop/wiki/_tmp_composite_ai_saas.txt`），复验后复合字符串为 0。这是终审者越界代劳，下次不应再发生。
+
+**等级**：A-（最终产物干净：0 new issue、边全闭合、YAML 合法、迁移归零；扣 A 是因为过程有返工——A-1 漏改 `kdo/templates.py` REQUIRED_DIRS、A-2 非 ASCII 文件名漏扫两次、B 段先交卷后修 7 文件 YAML，且欧阳锋不得不介入修正 A-2 最后 17 个文件）
+
+**终审操作**：
+- 已通过 `queue_transition.py review task_20260712_wangyuyan-graph-island-governance --verdict pass --reviewer 欧阳锋 --grade A-` 更新队列与任务单状态；
+- 任务单 frontmatter 已同步更新为 `status: reviewed`、`reviewed_by: 欧阳锋`、`review_date: 2026-07-12`、`grade: A-`。
+
+**提醒黄药师**：批量脚本两大暗坑——① 非 ASCII 文件名（dry-run 报告必须附完整文件路径清单，不能只看计数）；② YAML 缩进（related 列表项多 2 空格会让整卡被解析器隐身）。今后 dry-run 必须附 `yaml.safe_load` 全过清单和完整路径列表，再交卷。
+
+*欧阳锋 2026-07-12 · #168 终审释放*
