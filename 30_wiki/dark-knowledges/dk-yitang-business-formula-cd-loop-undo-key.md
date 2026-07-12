@@ -103,6 +103,12 @@ trust_level: medium
 
 ---
 
+## 与其他知识的关联
+
+本卡与 C 域知识网的关联详见上方 Synthesis 表。核心定位：C-D 循环的「撤销键」机制，与 A 缺失并发症（`dk-yitang-business-formula-a-missing-syndrome`）构成上下游（A 未锚定→战场错误→D 打不动），与 L5/L6 正名卡（`dk-yitang-business-formula-logic-l5-l6`）构成伴生（退回 C 重拆涉及层级重判）。
+
+---
+
 ## 置信度说明
 
 - 董原三句总结与循环各步均有逐字稿行号支撑（经 #157 终审坐实），高置信。

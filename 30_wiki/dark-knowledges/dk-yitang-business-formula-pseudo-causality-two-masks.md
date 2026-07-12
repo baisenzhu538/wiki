@@ -105,6 +105,12 @@ trust_level: medium
 
 ---
 
+## 与其他知识的关联
+
+本卡与 C 域知识网的关联详见上方 Synthesis 表。核心定位：伪因果识别的两个高发伪装，是 plus-times-trap 总则卡的具体化（纲→目），与 L5 挖掘验证工具（`tool-yitang-business-formula-l5-mining-and-verification`）构成检验链——挖到的候选 L5 必须过这两关才能转正。
+
+---
+
 ## 置信度说明
 
 - 两案例判例均有逐字稿行号（经 #157 终审坐实）；伪因果十题引逻辑关系篇口述 L2326-L2380（#155 终审坐实）。
