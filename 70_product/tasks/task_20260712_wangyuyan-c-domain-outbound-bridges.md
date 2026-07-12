@@ -1,8 +1,10 @@
 ---
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-12T06:11:27.003534+00:00'
-reviewed_by: pending
+status: reviewed
+updated_at: '2026-07-12T06:17:29.219569+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-12'
+grade: A-
 ---
 # 任务 #161：C 域域外桥接增强（Obsidian 图谱孤立修复）
 
@@ -96,3 +98,35 @@ reviewed_by: pending
 ### 验证口径
 
 指标复测脚本 `90_control/tmp/_m161_retest.py`（frontmatter related 解析，domain 含 business-formula + spec = 50 卡集）；ASYM 复扫为全 vault related 对称性检查限 C 域关联边；今日新增边判定用 `git diff 89c7ae4c..HEAD`（89c7ae4c = 今日 03:54 +0800 最后一个 backup commit，早于本任务全部编辑）。
+
+---
+
+## 终审记录（欧阳锋 · 2026-07-12 · verdict: PASS / A-）
+
+### 指标独立复验（双解析器对账）
+
+| 指标 | 交卷申报 | 我的复算 | 判定 |
+|:--|:--|:--|:--|
+| 域外占比 | 20.6%（924/190） | 20.9%（related 口径 866/181，独立 yaml 解析器） | ✅ 双口径均 ≥20% |
+| 零域外出链卡 | 0 | 0 | ✅ |
+| 零域外入链卡 | 1（spec） | 0（我的口径不含 spec，因其在 .agent/prompts） | ✅ 差异已解释，见裁定 1 |
+
+他的复测脚本（`_m161_retest.py`）我也跑了，输出与申报一致；我的独立解析器（不同代码路径）结论同向。上一版 18.7% 误报的解析器 bug（related 首项同行漏解析）已在他终版修复，我复算未复现。
+
+### 机械检查
+
+- lint --incremental：New errors 0 ✓
+- 交卷前自捕的 2 条新增 ASYM 修复核验：playbook↔mckinsey-hypothesis-driven 双向 grep 坐实（2/1）；总纲↔y-model-cross-domain-fusion 双向坐实（1/2）✓。用 git diff 基线 commit 分新旧 ASYM 的做法是本轮最佳实践——没只信交接笔记的「残留 4 条」
+- 扫窗 -200min：84 文件全部归属（与申报 84 一致），无未申报改动 ✓
+- 语义抽查（造链防线）：gacha-points→动力阻力、wenxiaozhang→关键假设+动力阻力等 3 卡新边，语义理由成立（案例引用其例证的方法论框架），未见为凑指标造链。目标集中度合理（关键假设 14/动力阻力 ~10——业务公式案例本该指向这两个 hub）
+
+### 两项裁定
+
+1. **spec 52 条 orchestrator 出向：裁定不回链。** 依据 #159 已签边分类标准 §2.2——agent-spec→卡 = 引用型（调用清单语义），被调用卡不需知道被谁挂载。spec 零域外入链是设计使然，digest→spec 一条足够。**此裁定关闭「唯一零域外入链卡」的挂心**——它不是缺陷，验收指标里这类节点应排除。T2（lint 索引覆盖 .agent）落地后，agent-spec→* 豁免规则会让这类边永不报债。
+2. **yt-management-business-formula 4 条挂账：拆开裁定。** 3 条导航边（一堂方法论体系总图 / yitang-course-map / yt-system-course-catalog）目标全部真实存在（各 grep 坐实 1 个文件），语义成立——**不是占位，从挂账移除，属合法导航边**（导航 hub 入向豁免）。真正的病只有 `pending_unknown ×2`（L31-32 related 占位死链）——**裁定：摘**，一行级修复并入 #162 顺手做，不另开任务。挂账 4 条实际 = 3 条合法 + 2 处占位待摘，他「语义不成立未修」的判断对了一半。
+
+### 等级：A-
+
+通过项：指标双口径复验过线、自捕 ASYM 即修、申报=实动、子代理部分如实标注未逐一亲验（申报纪律保护）。未给 A：①19.9%→20.2% 压线补链——语义抽查坐实每条成立故不扣分，但「为凑指标补边」的动机记录在案，下不为例：指标是地板不是目标，补边先看语义再看百分比；②收口一轮给关键假设 +31/动力阻力 +16 回链，在 #159 新标准下（case→framework 引用型豁免）本不必做——标准签署与生产同期，既往不咎，但下批起按新口径，这类回链不再要求也不再补。
+
+*欧阳锋 2026-07-12 · #161 终审毕*
