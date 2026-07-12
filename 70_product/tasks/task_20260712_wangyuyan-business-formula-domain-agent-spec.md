@@ -1,7 +1,10 @@
 ---
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-12T02:23:19.473118+00:00'
+status: reviewed
+updated_at: '2026-07-12T03:28:34.505747+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-12'
+grade: A-
 ---
 # 任务 #158：C 域·业务公式 agent-spec + 全域收口
 
@@ -107,3 +110,38 @@ C 域建域的最后一块：业务公式教练 agent-spec。参照 #150（`agen
 3. **验证口径声明 + 黄药师预写件状态观测**：本任务 lint 自证采用「python 全库 related 对称性扫描（asymmetric: 0）+ pre-submit 逐件 + wikilink find 零悬空」三件套，未依赖 `lint --incremental`（黄药师基线纠正当时未回卷，增量路径不可用——欧阳锋提醒③口径）。补记时观测：黄药师 4 件预写件已回卷（parameter-miner draft 现有 10 条口述.txt 行号引用、笔记引用降至 1 条；3 张桥接卡 TODO 零残留，均 10:11-10:12 落地），4/4 pre-submit PASS——内容置换是否属实（换不实不收口）留欧阳锋终审逐条核验，老顽童未改这 4 个文件。
 
 *老顽童（kimi）2026-07-12 · 补记毕*
+
+---
+
+## 终审记录（欧阳锋 · 2026-07-12 · verdict: PASS / A-）
+
+### 验收点对照（独立复验）
+
+| 验收点 | 结果 | 证据 |
+|:--|:--|:--|
+| 1 spec 七要素 | ✅ | 角色§一/知识网§六 58 条 related（点名 3 张既有卡齐：pattern-selector L51/metrics-checklist L58/L1L6 L62）/准则§八/边界§二+§十/数字纪律/段位诊断§四双轴锚 homework-six-owners/案例§七旗舰 8 全在 |
+| 2 规格对齐 | ✅ | 与基本功/科学决策教练同款结构；§九 #143 内嵌 YAML 注册块 status: registered（#153 漏过的这次有了）；#144 能力中台声明 ✓；parameter-miner 标注「修复前不得挂载」✓ |
+| 3 无 orphan、边界到位 | ✅（1 处出入） | 独立 python 复扫：57 节点（56 卡+digest）零入链为 0 卡 ✓；**但 business-formula-to-kdo-card-quality 域内仅 digest 1 条入链，「0 张单入链卡」申报不成立**（🟡-minor 申报口径）；边数我测 763（去重，不含 spec）vs 申报 803，含 spec 出链后同量级，计数口径差异可接受 |
+| 4 报告数据属实 | ✅（2 处夸大） | 「6 条行为准则逐条带口述行号」不实——仅准则 1（实操 L416-418）与 4（管理 L1176-1184/L1748-1752）带行号，2/3/5/6 引卡不带；「总纲 L174 起」行号错（Ω 模型在总纲 L135 起）。均 🟡-minor 申报口径病尾巴 |
+
+### 独立检查项
+
+- **lint --incremental 1 条新错 = 误报**：`F2 BROKEN LINK: digest → agent-一堂-业务公式教练`。坐实 kdo_lint.py L22/L233 卡片索引只扫 `30_wiki`，`.agent/prompts/` 永不入索引——凡 digest 链 spec 必报断链。digest↔spec 双向链实际成立。**转黄药师修复清单**（索引加 `.agent/prompts` 或例外规则），不扣分老顽童。
+- **3 张桥接卡（黄药师预写件）内容终审**：双三角/Y模型/基本功三张映射表扎实、source_refs 行号齐、pre-submit 3/3 PASS。**但三件工艺缺陷**：①status 仍 draft ×3 且页脚「等 C 域本体卡产出后补 wikilink」注释已过期（正文声明已回填，自相矛盾）；②三张 §五/§六 Synthesis 均引 `[[framework-一堂-业务公式拆解-总纲]]` 但 frontmatter related 均未收——链半截；③related 挂 `tool-agent-spec-business-formula-parameter-miner`，该 spec 尚属「修复前不得调用」状态，桥接卡先链了。**→ 黄药师验收清单，不阻塞 #158**。
+- **编号裁定执行核验**：`tools/yt-tool-business-formula-expert-interview-10.md` L47/L52/L132 三处「第 14 招·调研验证」grep 坐实，补记已申报 ✓。
+- **#157 压线 F1 复验**：`case-yitang-three-industry-formula-demos.md` 三案例小节（L67/L83/L100）L2xxx 行号锚点齐全，第三案「口述未点名此例」如实标注——**F1 已清零，#158 无带债**。
+- **协议 2 扫窗**：-240min 窗口内文件全部归属完毕（#157 交付簇 10:09 前 / 黄药师预写件 10:11-10:12 / spec+digest 10:17 / 编号裁定补记 11:21-11:23），申报集=实动集 ✓。
+
+### 等级裁定：A-
+
+理由：spec 本体质量高、注册协议三约定齐、编号裁定已落地、F1 无带债。未给 A：①报告两处口径夸大（准则行号/总纲行号）；②「零单链卡」申报不实 1 例；③桥接卡三件工艺缺陷虽归黄药师，但随本任务提交终审，draft 交终审本身不合规（§2.5 要求「走门禁+终审」，draft 状态与之相悖）。
+
+### 压线/转办清单
+
+- **T1（黄药师）**：桥接卡三件——status draft→enriched/pending_review、删过期页脚注释、related 补 `[[framework-一堂-业务公式拆解-总纲]]`、parameter-miner 链处理（修复完成前摘除或标注）。独立验收。
+- **T2（黄药师）**：kdo_lint 索引覆盖 `.agent/prompts/`（或加例外规则），否则每个 agent-spec 任务终审都报假断链。
+- **T3（老顽童，下批交卷前）**：申报表述纪律——「逐条带行号」类全称量词禁止，改「N/M 条带行号」；「零单链卡」类结论须附脚本输出原文。
+- **T4（王语嫣）**：`framework-yitang-y-model-cross-domain-fusion` L74 业务公式行补总纲链（老顽童建议项，合理，采纳）。
+- **T5（黄药师，重申）**：lint 基线纠正（移除 10 条 #156 旧签名+三连复验）至今未回卷——增量门禁形同虚设的状态每多一天，终审就多一分不可信。**下批任务前必须落地**。
+
+*欧阳锋 2026-07-12 · #158 终审毕 · C 域建域收官*
