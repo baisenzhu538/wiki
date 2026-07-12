@@ -311,6 +311,7 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[cases/case-yitang-mvp-reward-interview-waste|案例：MVP阶段花钱做用户访谈的浪费]] — source `00_inbox/调研专题/一堂-专家访谈调研-口述.txt`
 - [[cases/case-yitang-novel-app-flywheel|案例：小说 app 如何用 SEO 补全增长飞轮]] — source `00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt`
 - [[cases/case-yitang-online-education-expansion|案例：在线教育融资扩张——不会定量的代价]] — source `00_inbox/实事求是/实事求是-周子敬-口述.txt`
+- [[cases/case-yitang-panhonghai-entertainment|潘鸿海娱乐店：涨价拆成三个子假设小范围测，GMV +15-20%，半年业绩 +50%]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L1380-1394`
 - [[cases/case-yitang-pet-fostering-user-research|案例：宠物寄养——观察现有替代方案]] — source `00_inbox/调研专题/一堂-用户调研实操课-笔记.txt`
 - [[cases/case-yitang-poker-parameterized-practice|案例：德州扑克玩家乔牌如何通过参数化训练成为大使]] — source `00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt`
 - [[cases/case-yitang-radar-chart-selection|案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
@@ -323,6 +324,8 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[cases/case-yitang-sanjieke-benchmark-failure|案例：对标三节课做C端，半年后发现对方已转型B端]] — source `00_inbox/调研专题/一堂-专家访谈调研-口述.txt`
 - [[cases/case-yitang-scientific-naming-process|案例：科学起名——用 Y模型 把「玄学」变成可验证流程]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
 - [[cases/case-yitang-senior-university-product-design|案例：老年大学——用假设链逐层验证赛道可行性]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
+- [[cases/case-yitang-shao-kaoyan-gmv|邵同学考研：GMV +50% 目标靠分层切片找到反常识机会，三维建模锁定重点老师]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:L1944-1948`
+- [[cases/case-yitang-shipinhao-ads-l1-l6|一堂视频号投放 L1→L6 全案：好友率 40%→85%、脚本寿命 benchmark 与四个矩阵号的动态平衡]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:L3194-3356`
 - [[cases/case-yitang-shuzu-channel-scan-test|案例：数族如何扫描 100+ 渠道并跑通支付合作]] — source `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`
 - [[cases/case-yitang-single-course-199-failure|案例：一堂 199 元单课——轻视行业规律的试错]] — source `00_inbox/实事求是/实事求是-周子敬-口述.txt`
 - [[cases/case-yitang-ski-project-user-as-expert|案例：滑雪项目——把用户当专家访谈]] — source `00_inbox/调研专题/一堂-专家访谈调研-口述.txt`
@@ -333,6 +336,7 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[cases/case-yitang-tob-career-planning|案例：新高考选科与生涯规划项目失败复盘]] — source `pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection`
 - [[cases/case-yitang-tob-grinding-machine|案例：精密磨床自制项目失败复盘]] — source `src_unknown`
 - [[cases/case-yitang-tob-smart-park|案例：智慧园区项目复盘]] — source `pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection`
+- [[cases/case-yitang-three-industry-formula-demos|三行业公式拆解示范：民营眼科医院、篮球培训、ToB 摄像头——把收入目标逐层拆到可执行的因子]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt:L2062-2110`
 - [[cases/case-yitang-topcity-growth-flywheel|案例：Top City 如何用六大要素搭建内容-商户双端飞轮]] — source `00_inbox/一堂五步法之增长/truman-渠道增长飞轮-案例-top city.png`
 - [[cases/case-yitang-track-selection-research|案例：一堂赛道选择——用调研方法论选创业方向]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
 - [[cases/case-yitang-travel-receipt-analysis|案例：旅行公司收据分析——从单据反推真实数据]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
