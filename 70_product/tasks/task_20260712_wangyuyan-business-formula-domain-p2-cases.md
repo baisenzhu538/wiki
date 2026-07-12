@@ -1,7 +1,7 @@
 ---
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-12T00:09:41.120096+00:00'
+status: pending_review
+updated_at: '2026-07-12T01:05:39.471399+00:00'
 ---
 # 任务 #157：C 域·业务公式 P2 案例族
 
@@ -121,3 +121,47 @@ updated_at: '2026-07-12T00:09:41.120096+00:00'
 2. 每卡至少一个失败/证伪假设
 3. 扭蛋机付费率冲突已调原图复核或标 pending_unknown
 4. 合集卡内部案例分得清来源行号，不混
+
+## 执行报告（老顽童 kimi · 2026-07-12 · 提交 pending_review）
+
+### 交付清单：19 项全做（旗舰 8 + 学员 7 + 合集 4，无缺漏）
+
+- 旗舰 8：`case-yitang-{fupanying-five-years-1000-hypotheses, woqingke-referral-15-to-40, marathon-ten-seasons, laowenqi-huixiao-10x, zhanglei-comic-booth, zhanglei-gacha-points, homework-six-owners, shipinhao-ads-l1-l6}.md`
+- 学员 7：`case-yitang-{xingangwan-chess-room, wenxiaozhang-driving-school, vicky-short-video, wang-mcn-funnel, panhonghai-entertainment, shao-kaoyan-gmv, du-kids-education-sabc}.md`
+- 合集 4：`case-yitang-{false-causality-collection, magic-number-collection, innovative-metrics-collection, three-industry-formula-demos}.md`
+- 全部在 `30_wiki/cases/` 下，结构照任务单 L13-17 规格（背景→公式拆解→关键假设与验证→结果→方法论锚点→source_refs）。
+
+### 验收点对照
+
+- **0 防呆**：19 卡 frontmatter 全部 `updated_at: '2026-07-12'`（带引号）、`status: enriched`、`reviewed_by: pending`、`author: 老顽童`、`created_at: 2026-07-12`、`domain: [yitang, business-formula]`；source_refs 全部带口述逐字稿行号锚点（一等源），图 001559/001710/002650/批注 001416-001640/002716/002734/001958 + 案例1/案例2 原图与 VLM 稿作一等/佐证。
+- **1 数字抽查回原文**：复盘营规模（100 人/期→3000-4000 人/期两次万人营，34000→3400 勘误已应用）、我请客 3000 万（实操篇 L558-560 区域，课程案例口径）、会销十倍（单场 10 万→近百万，实操篇 L988-1016）、马拉松 40 万→1300+ 万（管理篇 L1918-2038）——均逐段回原文核对，全部标「课程案例口径」。
+- **2 失败/证伪假设**：19/19 卡每卡 ≥1 个（可 grep「证伪」「失败假设」坐实；旗舰卡普遍 3-5 个，如复盘营「预约到课领资料」被图 001559 实验表标无效、会销「老人陪同优先」被妈妈陪同推翻、视频号「好友率追 95%」误判空间放弃）。
+- **3 扭蛋机付费率**：**已调原图复核裁定，未走 pending_unknown**。子代理 Glob 定位 `00_inbox/Handle the business/Business formula/案例2.png`，ReadMediaFile 全图+第五阶段局部放大两次复核，原图明写「最后付费率从 2% 拉到 3%」→ 裁定 **2%→3% 以原图为准，口述「28→30」（逻辑关系篇 L3408）判为 ASR 误识**；裁定过程写在卡6「⚠️ 付费率两源冲突与裁定」小节，digest 裁定表已同步（见申报 2）。
+- **4 合集卡行号分标**：4 张合集卡内部每个案例标题后各自标来源行号（如 false-causality 卡十题标 L2322-2380、四反噬案各标 L2640-2914 分段），不混。
+
+### pre-submit 复跑
+
+- 19/19 PASS（主代理终轮复跑，逐卡单独执行，output 留存）。
+- 收口轮 35/35 PASS（19 新卡中被回链改动的 7 卡 + 28 既有卡）。
+- index.md 登记 19 条（码点排序 9 处插入，grep 19/19 坐实），坏链清单对 19 新卡零命中（index 整体 FAIL 为历史遗留）。
+
+### 协议 2 时间戳扫窗自查（王语嫣协议首轮自执行）
+
+- 扫窗：`find 30_wiki 70_product -name "*.md" -mmin -210`，得 58 文件逐一归属。
+- #157 实动集 = 19 新卡 + 28 收口回链卡（含 digest）+ index.md + 本任务单，与申报集完全一致，**差集为空**。
+- 窗口内其余 8 文件（ten-paradigms 05:33、关键假设/yt-management×2/三层目标对齐法/攻坚会 05:37、three-tools 05:56）经 mtime 核实属 #156 收口与 🟡-5/6 清零的已申报改动；补查 ten-paradigms 零案例卡引用（grep 0 命中），排除漏报。
+
+### 主动申报（scope 外/偏差，每条可 grep 坐实）
+
+1. **28 张既有卡 related 回链 +166 条**（只追加 related，未动 status/正文/updated_at）：总纲 +19、digest +19、parameter-iceberg +16、abc-model +13、six-level-logic +13、playbook +9、假设飞轮 +9、参数即假设 +9、关键路径 +8、hypothesis-pool +7、parameter-arsenal +10、yewenbin 射箭馆 **+13**、其余 15 卡各 +1~4（完整逐卡清单在收口子代理回报中）。**yewenbin 是 +13 不是 +19**：grep 坐实 wang-mcn/panhonghai/shao-kaoyan/du-kids/false-causality/magic-number 6 卡未引用射箭馆，按「只补实际被引」纪律执行——任务单「旗舰案例与射箭馆互链」指旗舰 8 卡，已全满足。
+2. **digest 正文改动 4 处**（#155 reviewed 交付物，scope 外，主动申报）：① related +19；②「案例族导航（#157 在产）」占位节整节替换为「P2 案例族导航（19 卡）」wikilink 节；③ L92 导言行「#157 在产」状态句更新；④ **裁定表扭蛋机行结论列由 pending_unknown 改为「已裁定：2%→3%（原图复核）」**，两源出处原样保留、依据列补「案例 2 原图直接复核」、附卡6 wikilink——改动前已 Read 卡6 裁定小节核对原文。
+3. **案例卡互链 4 组双向闭合**：fupanying↔{comic-booth, woqingke}、homework↔shipinhao、false-causality↔magic-number（写手期纯文本提及已全升级为 wikilink，临时注释清零）。
+4. **pending_unknown 如实标注 3 卡 5 处**：卡2（3%→15% 周湘怡假设内容口述未展开）、卡3（「跪着守下限」事故期次口述未展开）、卡19（3 条隐含假设素材无验证数据）。另卡5 两处 ASR 残损并存标注（L1298-1300「106 元」与「+60%」两口径待原视频复核；L1254「今年人数」应为「进店人数」）；卡1「3800 万」里程碑口径含糊仅作背景参考——均未编造。
+5. **口述未披露的数字不补造**：卡12 各期招生数、卡14 基线 GMV、卡15 各级成交率，卡内明确写「不补造」。
+6. **两源差异并录未硬裁 2 处**：卡3 切片维度数（管理篇「6-7 维」vs 参数探索篇「至少 10 维」，按场次详略差异注明）；卡2 图 002650 五级漏斗口径与口述三层公式差异（单独呈现不混引）。
+
+### 生产方式
+
+Wave 1 十子代理并行（旗舰大卡 1 卡/代理，学员与合集 2-4 卡/代理）→ Wave 2 收口子代理统一回链+占位转正+裁定同步 → Wave 3 主代理 index 登记 + 协议 2 扫窗自查 + 复跑 + 本报告。全程竞态纪律零冲突；申报集=实动集首轮达标（🟡 三连系统病的整改验证）。
+
+*老顽童（kimi）2026-07-12 · 19 项全闭环，静候欧阳锋终审*

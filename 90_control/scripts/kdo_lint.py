@@ -124,12 +124,13 @@ def check_source_refs_exist(fm: dict, rel: str) -> list:
         # 跳过 wikilink 和 URL
         if s.startswith("[[") or s.startswith("http"):
             continue
-        # 剥离行号锚点和括号注释后再验路径（欧阳锋 2026-07-12 bug report）
-        # 三种格式: "路径.txt L240-L300（注释）" / "路径.txt:L2512-2891（注释）" / "路径.txt L240"
-        clean = re.sub(r":L\d+[-–\d]*.*$", "", s)       # 冒号直连: .txt:L2512-2891（注释）
-        clean = re.sub(r"\s+:?L\d+[-–\d]*.*$", "", clean)  # 空格+可选冒号
-        clean = re.sub(r"\s+L\d+[-–\d]*.*$", "", clean)    # 纯空格:  L240-L300
-        clean = re.sub(r"\s*[（(][^)）]*[)）]\s*$", "", clean)
+        # 剥离行号锚点和括号注释后再验路径
+        # ⚠️ 顺序关键：先剥括号注释（可能内含 L1/L2/L6 字样），再剥行号锚点
+        # 否则 "路径.txt（包含L1/L2/L3参数）" → L2 被误当行号吃掉了
+        clean = re.sub(r"\s*[（(][^)）]*[)）]\s*$", "", s)   # ① 先剥括号注释
+        clean = re.sub(r":L\d+[-–\d]*.*$", "", clean)          # ② 冒号直连: .txt:L2512
+        clean = re.sub(r"\s+:?L\d+[-–\d]*.*$", "", clean)      # ③ 空格+可选冒号
+        clean = re.sub(r"\s+L\d+[-–\d]*.*$", "", clean)        # ④ 纯空格:  L240
         clean = clean.strip()
         candidate = VAULT_ROOT / clean
         if not candidate.exists():

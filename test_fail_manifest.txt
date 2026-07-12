@@ -1,0 +1,1 @@
+﻿30_wiki/concepts/concept-一堂-参数耦合与动态公式.md
