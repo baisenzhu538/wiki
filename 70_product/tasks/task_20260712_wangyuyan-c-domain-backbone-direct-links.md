@@ -149,4 +149,4 @@ grade: A-
 - 终审裁定：`system-yitang-Y-model-os` related L44 我加的边为 bare id，关系型边不构成有效出链，须 wikilink 化
 - 已改：L44 → `- "[[framework-一堂-业务公式拆解-总纲]]"`
 - 自查：#162 其余 13 条新增边全部为 [[]] 形式，无同类问题
-- 复验：grep bracket 命中 ✅；pre-submit PASS（Failed: 0）✅；`kdo lint --baseline HEAD` 零新增 error（输出见交卷对话）
+- 复验：grep bracket 命中 ✅；pre-submit PASS（Failed: 0）✅；`kdo lint --baseline HEAD` **0 new error** ✅（21 new warnings 全是 OCR-missing（源图缺 paddle_ocr.txt），涉及 case-纪浩/dk-time-management/双三角武器库系/five-step-to-time-management 等 8 个文件，均非本任务触碰文件，系工作区 OCR 管线状态所致，非本修复引入）
