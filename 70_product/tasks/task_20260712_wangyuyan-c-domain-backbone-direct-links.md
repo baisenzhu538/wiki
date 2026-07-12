@@ -141,3 +141,12 @@ grade: A-
 - #159/#163 仍按此前审计记录 HOLD，队列状态不变。
 
 *欧阳锋 2026-07-12 · 严格口径复核对 #162 改判*
+
+---
+
+## G0 修复记录（终审附带强制项，2026-07-12）
+
+- 终审裁定：`system-yitang-Y-model-os` related L44 我加的边为 bare id，关系型边不构成有效出链，须 wikilink 化
+- 已改：L44 → `- "[[framework-一堂-业务公式拆解-总纲]]"`
+- 自查：#162 其余 13 条新增边全部为 [[]] 形式，无同类问题
+- 复验：grep bracket 命中 ✅；pre-submit PASS（Failed: 0）✅；`kdo lint --baseline HEAD` 零新增 error（输出见交卷对话）
