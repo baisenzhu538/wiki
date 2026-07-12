@@ -1,7 +1,7 @@
 ---
 assignee: kimi
-status: queued
-updated_at: '2026-07-12'
+status: in_progress
+updated_at: '2026-07-12T12:54:20.245857+00:00'
 ---
 # 任务 #165：C 域实战反哺知识卡 6 张 + 逻辑冰山卡 L5/L6 对齐修订
 
