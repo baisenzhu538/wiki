@@ -49,13 +49,39 @@ OCR 卡的 `source_refs` 指向 `10_raw/sources/` 的原始文件路径——迁
 - 如果 domain 为空，不补——OCR 卡作为素材层不需要 domain
 - 确认每张卡的 `status` 字段正确（应为 `draft` 或实际状态）
 
-### 验收
+**⑥ 迁移后引用链修复**（欧阳锋补）：
+
+a) **15 条正式卡 source_refs 路径更新**：
+15 张正式卡的 source_refs 指向 `30_wiki/raw/ocr/...`，迁移后批量替换为 `10_raw/ocr-cards/...`：
+
+| 路径特征 | 数量 |
+|:---|:---|
+| `30_wiki/cases/case-科学决策-*` | 6 |
+| `30_wiki/concepts/concept-单元模型-学练用.md` | 1 |
+| `30_wiki/dk/dk-单元模型-*` | 5 |
+| `30_wiki/frameworks/framework-TCPR底层网络协议.md` | 1 |
+| `30_wiki/frameworks/framework-单元模型-外部对抗地图.md` | 1 |
+| `30_wiki/frameworks/yt-decision-abcd-model.md` | 1 |
+
+b) **5 处脚本/文档硬编码路径更新**：
+
+| 文件 | 行号 | 更新内容 |
+|:---|:---|:---|
+| `90_control/ingestion-pipeline.md` | 124,133,140 | `30_wiki/raw/ocr/` → `10_raw/ocr-cards/` |
+| `90_control/scripts/fix_cb_ew.py` | 182 | 同上 |
+| `90_control/scripts/label-quality-migrate.py` | 71 | 同上 |
+| `90_control/.sandbox/_ocr_final_cleanup.py` | 67-68 | skiplist 路径同步更新，加注释注明迁移记录 |
+| `.agent/context.md` | 98 | 同上 |
+
+c) **templates.py 定位修正**：v2 方案中提到的 `templates.py REQUIRED_DIRS` 经欧阳锋确认不存在。实际配置位置为 `90_control/ingestion-pipeline.md`（已在上表）。迁移脚本不依赖 templates.py，改为直接操作文件系统 + 更新 ingestion-pipeline.md。
+
+### 验收（更新）
 
 - `30_wiki/raw/ocr/` 目录为空（0 文件）
 - `10_raw/ocr-cards/` 有 184 卡
 - 全量 lint 无 OCR 飞地相关错误
 - 46 张卡 domain 字段无 `needs-review`
-- source_refs 指向路径全部有效
+- **全库 `grep 30_wiki/raw/ocr/` 仅保留历史任务文档/审计记录，无活跃 source_refs / 脚本 / 配置指向**
 
 ---
 
@@ -113,7 +139,7 @@ OCR 卡的 `source_refs` 指向 `10_raw/sources/` 的原始文件路径——迁
 |:---|:---|:---|
 | 处置范围 | 全库 frontmatter 占位 3126 处 | **AI 簇出链死链** |
 | AI 簇 related 中 `[[pending_unknown]]` | — | **29 条** |
-| AI 簇 frontmatter 占位 | — | 50 处（source_refs 39 + query_triggers 11） |
+| AI 簇 frontmatter 占位 | — | 50 处（source_refs 39 = `src_unknown` + query_triggers 11 = `src_unknown`） |
 | 全库 related 中 `[[pending_unknown]]` | — | 1280 条（不在本次范围） |
 
 本次 scope：**AI 簇的 pending_unknown 出链**（29 条 related wikilink + 50 处 frontmatter 占位）。全库 1280 条 related 死链不在本次范围——需要王语嫣后续另立任务。
@@ -134,7 +160,7 @@ OCR 卡的 `source_refs` 指向 `10_raw/sources/` 的原始文件路径——迁
 3. 存在+匹配 → 补链；不存在 → 摘；边界 → 登记
 
 **50 处 frontmatter 占位处置**：
-- source_refs 中的 `pending_unknown`（39 处）：**摘**（移除该条目，无实际来源）
+- source_refs 中的 `src_unknown`（39 处）：**摘**（移除该条目，无实际来源）
 - query_triggers 中的 `src_unknown`（11 处）：**摘**（移除该条目，无实际触发场景）
 - 摘除后若 source_refs 为空：卡片不降级（AI 簇卡为 draft 状态，本身即未完成）
 
