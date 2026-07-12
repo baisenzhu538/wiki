@@ -29,7 +29,7 @@ def cleanup_file(filepath):
     new_lines = []
     ocr_related_removed = []
     for line in lines:
-        if re.search(r'\[\[ocr-', line) and line.strip().startswith('-'):
+        if re.search(r'(?:\[\[)?ocr-', line) and line.strip().startswith('-'):
             ocr_related_removed.append(line.strip()[:80])
             continue
         new_lines.append(line)
@@ -72,7 +72,7 @@ def main():
                 quick = f.read_text(encoding="utf-8")
             except:
                 continue
-            if '[[ocr-' not in quick:
+            if '[[ocr-' not in quick and '- ocr-' not in quick:
                 continue
 
             changed, new_content, details = cleanup_file(f)
