@@ -78,6 +78,9 @@ related:
 - "[[case-yitang-three-industry-formula-demos]]"
 - "[[framework-business-formula-dual-triangle-bridge]]"
 - "[[framework-business-formula-fundamentals-bridge]]"
+- "[[dk-yitang-business-formula-l1-site-blindness]]"
+- "[[tool-yitang-business-formula-l5-mining-and-verification]]"
+- "[[dk-yitang-business-formula-logic-l5-l6]]"
 ---
 
 # 业务公式参数冰山（L1-L6）
