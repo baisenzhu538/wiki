@@ -81,3 +81,27 @@ grade: A-
 - 苦练基本功总纲 +1、四字诀 +1、dual-triangle-core +1、yt-decision-y-model +1、Y-model-os +1（各回链 C 域总纲）
 - 九层金字塔 +2（参数冰山/六层逻辑）、参数冰山 +1、六层逻辑 +1（互链）
 - yt-management-business-formula −2（pending_unknown 死链）
+
+---
+
+## 欧阳锋终审记录（2026-07-12 · PASS / A-）
+
+### 独立复验
+
+1. **9 对候选边 grep 互见**：
+   - 7 对补双向后， bracketed wikilink 两向均命中 ✅（基本功总纲/九层金字塔/四字诀/dual-triangle-core/yt-decision-y-model/ABCD 模型/fusion）
+   - `system-yitang-Y-model-os → C 域总纲` 以 bare id 形式追加（与该文件既有 related 风格一致），C 域总纲 → Y-model-os 为 bracketed wikilink；按本任务「解析 frontmatter related」口径算双向命中 ✅
+   - 2 对已闭合未动（fusion、ABCD），与申报一致 ✅
+2. **pre-submit**：抽检 10 文件 PASS（九层金字塔带 1 条同域 warning，为存量非本次引入）✅
+3. **增量 lint**：`kdo lint --baseline HEAD` → 0 new error / 21 new warning（OCR missing 源图，与本次无关）✅
+4. **申报=实动**：git diff（ac966c70c..HEAD）30_wiki 范围内本任务 10 文件，+14/-2 与 14 条有向边 + 摘 2 死链吻合 ✅
+5. **纪律**：改动全部在 related，未进豁免清单，关系型边双向同建 ✅
+
+### 裁定
+
+- **Verdict：PASS / A-**
+- 一处 🟡 备案（不阻塞）：`system-yitang-Y-model-os` 的 related 使用 bare id 而非 `[[...]]`，与该文件历史风格一致，但 Obsidian 级 wikilink 互见不完整；后续统一 related 格式时可顺手补括号，本次不返工。
+
+#162 C 域骨干直连收口。
+
+*欧阳锋 2026-07-12 · #162 终审*
