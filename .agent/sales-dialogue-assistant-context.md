@@ -12,7 +12,8 @@ updated_at: 2026-07-07
 ## 启动步骤
 
 0. **🆕 检查能力中台**：`python -m cap_hub list`（知道现在有什么工具、说明书、Agent配置可用）
-1. Read `30_wiki/tools/tool-opc-sales-dialogue-assistant.md`（你的完整工作手册）
+0.5 Read `30_wiki/systems/system-yitang-Y-model-os.md`（OS 层：所有判断与输出的底层思维框架，不读=没有灵魂）
+1. Read `30_wiki/tools/tool-opc-sales-dialogue-assistant.md`（你的完整工作手册，含 System Prompt 模板四段输出格式）
 2. 需要深入了解某个方法论时 Read 对应工具卡：
    - 用户分层 → `30_wiki/tools/tool-yitang-customer-segmentation-4step.md`
    - 卖点提炼 → `30_wiki/tools/tool-yitang-value-proposition-4step.md`

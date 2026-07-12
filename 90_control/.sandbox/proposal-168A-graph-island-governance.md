@@ -1,94 +1,172 @@
-# #168A 图谱孤立团治理方案（黄药师 A 段）
+# #168A 图谱孤立团治理方案 v2（黄药师 A 段）
 
 > 送欧阳锋签审 · 2026-07-13
-
-## 三件事的范围
-
-### 子任务 1：OCR 飞地 184 卡移出图谱扫描路径
-
-**现状**：`30_wiki/raw/ocr/` 下 184 张 OCR 原始素材卡。虽然已从主目录移出，但 `kdo_lint.py` 的扫描路径（`30_wiki/` 全量 rglob）仍然会扫描它们——导致 OCR 卡之间的交叉引用持续产生 F2 BROKEN LINK 噪音（上次清理后 31 条残留即源于此）。
-
-**方案**：在 `kdo_lint.py` 的 `lint()` 函数中，将 `raw/` 目录加入排除列表（与已有的 `_archive` 同级过滤）。OCR 文件本身不移动——它们已在正确位置，只是 lint 不应该扫描它们。
-
-**实施**：
-```python
-# kdo_lint.py lint() 函数中
-md_files = [f for f in target.rglob("*.md") 
-            if "raw" not in f.parts 
-            and "_archive" not in f.parts]
-```
-
-**验收**：全量 lint 中不再出现 `30_wiki/raw/ocr/` 路径的任何错误。
-
-**风险**：排除后，OCR 卡之间如果确实有需要修复的引用会被静默。但 OCR 卡本身是 `trust_level=low` 的原始素材，不应进入图谱——这是 S1/S2 已确定的架构决策。
+> v1 退回原因：三子任务事实基础偏差。v2 对齐任务单实际口径。
 
 ---
 
-### 子任务 2：ai-saas 命名三变体合并
+## 子任务 A-1：OCR 飞地物理迁移
 
-**现状**：domain 字段存在变体（待脚本跑确，推测为 `ai-saas` / `AI-SaaS` / `ai_saas` 等）。187 张卡受影响。导致同域卡片在图谱中被识别为不同域。
+### 事实基础
 
-**方案**：全库扫描 domain 字段，将所有 ai-saas 变体统一为 `ai-saas`（小写连字符，与 KDO domain 命名规范一致）。
+- `30_wiki/raw/ocr/` 184 卡（draft/low trust/confidence 0.6）
+- 团内 827 条机器边（related 列表系半肥猫 OCR 管道批量生成，非策展）
+- 46 张卡 domain 字段混入 `needs-review` 状态标签
+- #163 已摘除正式卡→OCR 的 655 条引用，需复扫确认零残留
+
+### 方案
+
+**① 物理迁移**：`30_wiki/raw/ocr/` → `10_raw/ocr-cards/`
+
+实施步骤：
+1. 创建 `10_raw/ocr-cards/` 目录
+2. Python 脚本批量 `mv` 184 卡
+3. 文件名保持不变（保留 OCR 溯源标识）
+4. `templates.py` 的 `REQUIRED_DIRS` 中移除 `30_wiki/raw/ocr`、追加 `10_raw/ocr-cards`
+5. 更新 `kdo_lint.py` 中的搜索路径排除（`raw` 已在过滤列表，迁移后自然不再扫描）
+
+**② 827 条机器边处置**：
+
+移出后处置：**清空 related 列表**（改为空数组 `[]` 或完全删除 related 字段）。
+
+理由：
+- 827 条边系机器自动生成（OCR 管道按同课程/同主题批量写入 related），非人工策展
+- OCR 卡作为素材层（非知识节点），related 没有语义价值
+- 清空而非保留原样：避免迁移后 related 中的相互引用在 `10_raw/` 下继续产生死链警告
+
+**③ source_refs 溯源保持**：
+
+OCR 卡的 `source_refs` 指向 `10_raw/sources/` 的原始文件路径——迁移不改变这些路径。不动 source_refs。
+
+**④ 正式卡→OCR 残留复扫**：
+
+`#163` 已摘 655 条。迁移前跑一次全量 lint 确认 `F2 BROKEN LINK: ocr-*` = 0（当前确认为 0）。
+
+**⑤ 46 张 needs-review 伪域清洗**：
+
+这 46 张卡的 domain 字段值为 `needs-review`（应为 `status` 字段值）。处置：
+- 将 domain 中的 `needs-review` 条目移除
+- 如果 domain 为空，不补——OCR 卡作为素材层不需要 domain
+- 确认每张卡的 `status` 字段正确（应为 `draft` 或实际状态）
+
+### 验收
+
+- `30_wiki/raw/ocr/` 目录为空（0 文件）
+- `10_raw/ocr-cards/` 有 184 卡
+- 全量 lint 无 OCR 飞地相关错误
+- 46 张卡 domain 字段无 `needs-review`
+- source_refs 指向路径全部有效
+
+---
+
+## 子任务 A-2：ai-saas 复合 domain 拆分
+
+### 事实基础
+
+全库 domain 字段扫描结果（欧阳锋提供，黄药师实跑确认后再 apply）：
+
+| 变体 | 出现次数 | 说明 |
+|:---|:---|:---|
+| `ai-saas` | 85 | 标准格式，不动 |
+| `yitang- ai-saas` | 43 | 复合字符串（含空格），需拆为 `['yitang', 'ai-saas']` |
+| `ai-saas- yitang` | 4 | 同上，拆为 `['ai-saas', 'yitang']` |
+| `learning-methodology- ai-saas` | 4 | 拆为 `['learning-methodology', 'ai-saas']` |
+| `ai-saas- ai` | 2 | 拆为 `['ai-saas', 'ai']` |
+
+**总计 138 次，非 187 张卡**（同一卡可能有多个复合 domain）。
+
+### 方案
+
+**拆分映射表**：
+
+| 原值 | 拆分后 |
+|:---|:---|
+| `yitang- ai-saas` | `yitang` + `ai-saas`（两个独立 domain） |
+| `ai-saas- yitang` | `ai-saas` + `yitang` |
+| `learning-methodology- ai-saas` | `learning-methodology` + `ai-saas` |
+| `ai-saas- ai` | `ai-saas` + `ai` |
 
 **实施**：
 1. 脚本扫描全库 domain 字段
-2. 匹配所有 case-insensitive 的 ai-saas 变体（`AI-SaaS`、`ai_saas`、`Ai-Saas` 等）
-3. 替换为 `ai-saas`
-4. Dry-run 出 diff → 欧阳锋确认 → apply
+2. 匹配包含 ` - ` 或 `- ` 连字符的复合 domain 字符串
+3. 拆分为多个独立 domain 条目（YAML list 格式，去重）
+4. Dry-run 出 diff（每张卡前后对比）
+5. 欧阳锋确认 → apply
 
-**验收**：全库 domain 字段中不再出现 ai-saas 的非标准变体。
+**不动的**：`ai-saas` 85 次标准格式——无大小写/下划线变体，不需处理。
+
+### 验收
+
+- 全库 domain 字段中不含连字符复合字符串
+- 拆分后 domain 为合法 YAML list
+- 门禁通过
 
 ---
 
-### 子任务 3：pending_unknown 占位 199 条处置
+## 子任务 A-3：AI 簇 pending_unknown 出链处置
 
-**现状**：~1472 处 `pending_unknown` 出现（在 frontmatter 的 source_refs/domain/query_triggers/prerequisites 等字段中）。这是历史遗留——早期批量建卡时的占位符，从未被清理。
+### 事实基础
 
-**处置策略**（分层，不是一刀切）：
+口径修正（与 v1 的关键差异）：
 
-| 出现位置 | 处理方式 | 理由 |
+| 类别 | v1 错误口径 | 实际数据 |
 |:---|:---|:---|
-| `source_refs: - pending_unknown` | **摘**（移除该条目） | 无实际来源，挂着是噪音；若移除后 source_refs 为空则卡片降级为 draft |
-| `domain: - src_unknown` | **摘**（移除该条目，保留其他有效 domain） | 占位无信息量；若摘后 domain 为空则标注 |
-| `query_triggers: - src_unknown` | **摘**（移除该条目） | 无实际触发场景，挂着影响检索 |
-| `prerequisites: - src_unknown` | **摘**（移除该条目） | 无实际前置依赖 |
+| 处置范围 | 全库 frontmatter 占位 3126 处 | **AI 簇出链死链** |
+| AI 簇 related 中 `[[pending_unknown]]` | — | **29 条** |
+| AI 簇 frontmatter 占位 | — | 50 处（source_refs 39 + query_triggers 11） |
+| 全库 related 中 `[[pending_unknown]]` | — | 1280 条（不在本次范围） |
 
-**不处置的**：
-- 正文中的 `pending_unknown` / `src_unknown` — 这是内容层问题，应由老顽童在生产中逐步补全
-- `source_context: "KDO internal record"` — 已由黄药师事故回修确认，属合法标记
+本次 scope：**AI 簇的 pending_unknown 出链**（29 条 related wikilink + 50 处 frontmatter 占位）。全库 1280 条 related 死链不在本次范围——需要王语嫣后续另立任务。
 
-**实施**：
-1. 脚本逐卡扫描 frontmatter
-2. 识别 pending_unknown/src_unknown 条目
-3. 按上表分层处置
-4. Dry-run → 欧阳锋确认 → apply
-5. 对 source_refs 被清空的卡，status 降级为 draft
+### 方案
 
-**验收**：frontmatter 中 pending_unknown/src_unknown 条目归零；降级卡清单送欧阳锋复核。
+按 #163 模式逐条分类：
+
+| 分类 | 处置 | 适用条件 |
+|:---|:---|:---|
+| **补链** | 替换为真实卡 ID | 存在明确的对应卡片 |
+| **摘** | 从 related 列表中移除该条目 | 无对应卡、占位无意义 |
+| **登记** | 保留 + 在 manifest 中注明原因 | 确实待定、有合理的未决理由 |
+
+**29 条 related 死链处置**：
+1. 提取 AI 簇范围内 `related` 字段中指向 `pending_unknown` 的条目
+2. 逐条判定：目标卡是否存在？语义是否匹配？
+3. 存在+匹配 → 补链；不存在 → 摘；边界 → 登记
+
+**50 处 frontmatter 占位处置**：
+- source_refs 中的 `pending_unknown`（39 处）：**摘**（移除该条目，无实际来源）
+- query_triggers 中的 `src_unknown`（11 处）：**摘**（移除该条目，无实际触发场景）
+- 摘除后若 source_refs 为空：卡片不降级（AI 簇卡为 draft 状态，本身即未完成）
+
+### 验收
+
+- AI 簇 related 中 `[[pending_unknown]]` 归零（或全部登记原因）
+- AI 簇 frontmatter 占位归零
+- 全量 lint 增量 = 0
 
 ---
 
-## 执行顺序与依赖
+## 执行顺序
 
 ```
-子任务 1（OCR排除）→ 子任务 3（pending_unknown）→ 子任务 2（ai-saas合并）
+A-1（OCR迁移）→ A-2（domain拆分）→ A-3（pending_unknown）
 ```
 
-子任务 1 是基础设施变更，先做可以立刻消除 31 条 OCR 噪音。子任务 3 体量最大（~1472 处），子任务 2 最轻量。
+A-1 体量最大、影响面最广，先做。A-2 最轻量（138 次替换）。A-3 最精细（29+50 条逐条判定）。
 
-三个子任务互不阻塞，可顺序执行。全部完成后 `kdo_lint --baseline` 更新基线。
+三个子任务 #163 模式：签审方案 → dry-run → 欧阳锋确认 → apply → 复扫闭环。
 
 ---
 
 ## 签审请求
 
 欧阳锋请确认：
-1. OCR 排除方案（子任务 1）是否认可 `raw/` 目录加入 lint 过滤的架构决策
-2. pending_unknown 分层处置策略（子任务 3）的"摘/不摘"边界是否认可
-3. ai-saas 统一为 `ai-saas` 的命名规范（子任务 2）
+1. A-1：物理迁移路径 `30_wiki/raw/ocr/` → `10_raw/ocr-cards/` + 机器边清空 + 伪域清洗 是否认可
+2. A-2：复合 domain 拆分映射表 是否正确
+3. A-3：scope 限定为 AI 簇（29 条 related + 50 处 frontmatter）是否与任务单一致
 
-签审通过后黄药师按上述顺序执行。
+签审通过后按顺序执行。
 
 ---
 
-*黄药师 · 2026-07-13*
+*黄药师 · 2026-07-13 · v2*
