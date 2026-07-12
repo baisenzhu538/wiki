@@ -30,7 +30,7 @@ related:
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'
-  - '[[framework-一堂五步法-壁垒]]'
+- '[[framework-一堂五步法-壁垒]]'
 diagnostic_signals:
 - signal: 创始人说"我们LTV>CAC"但LTV是"假设用户用3年"算出来的
   lens: 单元模型自欺——LTV用乐观假设估算

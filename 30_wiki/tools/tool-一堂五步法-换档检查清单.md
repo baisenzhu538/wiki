@@ -25,8 +25,8 @@ related:
 - '[[framework-一堂五步法-增长周期]]'
 - '[[framework-一堂五步法-壁垒]]'
 - '[[yt-business-formula-abc-model]]'
-  - '[[tool-一堂五步法-ToB-十八式-checklist]]'
-  - '[[tool-一堂五步法-段位升级三部曲]]'
+- '[[tool-一堂五步法-ToB-十八式-checklist]]'
+- '[[tool-一堂五步法-段位升级三部曲]]'
 diagnostic_signals:
 - signal: 创始人说"我觉得差不多了可以下一步了"但换档清单一半是空的
   lens: 假换档——靠感觉而非验证

@@ -36,12 +36,12 @@ related:
 - '[[yt-panproduct-aesthetic-modeling]]'
 - '[[tool-月白-AI模型选择策略]]'
 - '[[tool-多模型对比抽卡]]'
-  - '[[tool-Truman-人在环渐进自动化策略]]'
-  - '[[tool-ai-research-five-steps]]'
-  - '[[tool-最佳实践池子]]'
-  - '[[tool-月白-设计素材脱敏处理规范]]'
-  - '[[tool-马易-AI落地场景筛选-四有新人法则]]'
-  - '[[tool-马易-工作流优先于AIGC的决策方法]]'
+- '[[tool-Truman-人在环渐进自动化策略]]'
+- '[[tool-ai-research-five-steps]]'
+- '[[tool-最佳实践池子]]'
+- '[[tool-月白-设计素材脱敏处理规范]]'
+- '[[tool-马易-AI落地场景筛选-四有新人法则]]'
+- '[[tool-马易-工作流优先于AIGC的决策方法]]'
 - case-panproduct-top135-selection-polish
 - '[[lean-startup-domain-digest]]'
 created_at: 2026-07-02
