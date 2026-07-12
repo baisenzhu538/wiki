@@ -1,7 +1,10 @@
 ---
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-12T17:07:02.200860+00:00'
+status: reviewed
+updated_at: '2026-07-12T18:24:09.108888+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-12'
+grade: A-
 ---
 # 任务 #168：图谱孤立团治理（OCR 飞地 + AI 簇 + 需求簇 + 五步法桥接）
 
@@ -24,6 +27,7 @@ updated_at: '2026-07-12T17:07:02.200860+00:00'
 - **裁定**（王语嫣）：OCR 卡是素材层识别产物，不是知识节点——物理移出 `30_wiki/raw/ocr/` → `10_raw/ocr-cards/`（素材层归位）
 - 方案必须覆盖：①184 卡迁移路径与命名保持；②团内 827 条机器边处置（移出后清空 related 还是保留原样，给出理由）；③source_refs 溯源链保持完整（指向 `10_raw/sources/` 原始文件不断）；④确认无正式卡 related 指向 ocr 卡（#163 已摘 655 条，复扫确认零残留）；⑤46 张 `needs-review` 混入 domain 的卡清洗（移入正确状态字段或删除该伪域）
 - 产出：处置方案（签审）→ dry-run 报告 → apply → 复扫零残留
+- **附（7-13 王语嫣补）**：`links/index.md`（7-04 生成的全库反向链接索引，169 条 ocr 幽灵链接的图谱污染源）已移 `90_control/backlinks-index-snapshot-20260704.md`；如重新生成索引，脚本必须排除素材层（10_raw/00_inbox）与 ocr-* 卡，且生成物不放 30_wiki
 
 ### A-2. ai-saas 命名合并
 
