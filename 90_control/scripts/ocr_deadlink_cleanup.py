@@ -16,13 +16,15 @@ VAULT_ROOT = Path(__file__).resolve().parent.parent.parent
 SANDBOX = VAULT_ROOT / "90_control" / ".sandbox"
 MANIFEST_ARCHIVE = SANDBOX / "ocr_deadlink_manifest.json"
 
-# ── 条件 2: 改项目标锁定 ──
+# ── 条件 2: 改项目标锁定（欧阳锋"读正文"二分裁定：仅正文实质引用保留为改，其余降级摘）──
 REPLACEMENT_MAP = {
+    # KEEP_改: yt-entrepreneur-unit-model body含"单元模型"+"单用户"≥2关键词
     "ocr-一堂-单元模型-单用户模型": "yt-entrepreneur-unit-model",
-    "ocr-一堂y模型steps策略集": "tool-yitang-Y-model-application",
-    "ocr-泛产品设计-落地卡片-攻坚会": "yt-tool-business-formula-gongjianhui",
-    "ocr-一堂-人机协作-双三角模型": "concept-yihang-dual-triangle-core",
-    "ocr-一堂y模型-科学成事道理": "yt-decision-y-model",
+    # DOWNGRADE_摘 (正文无实质引用，仅主题相关):
+    # ocr-一堂y模型steps策略集 — tool-yitang-Y-model-application body仅"应用"1词
+    # ocr-泛产品设计-落地卡片-攻坚会 — yt-tool-business-formula-gongjianhui body仅"攻坚会"1词
+    # ocr-一堂-人机协作-双三角模型 — concept-yihang-dual-triangle-core body仅"双三角"1词
+    # ocr-一堂y模型-科学成事道理 — yt-decision-y-model body仅"Y模型"1词
 }
 
 
