@@ -21,9 +21,8 @@ confidence: 0.65
 related:
 - "[[ai-short-drama-conflict-three-axes]]"
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 diagnostic_signals:
 - framework_lens: 第一板斧·极致对立
   follow_up_question: 主角与核心对手在身份、立场、价值观上是否有不可调和的对立？

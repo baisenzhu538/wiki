@@ -16,14 +16,12 @@ source_context: src_20260609_44a9e79a
 source_refs:
 - 10_raw/sources/src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要.md
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 tools_required:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
 created_at: '2026-06-09T15:09:00+00:00'
 updated_at: '2026-06-29'
 author: 老顽童

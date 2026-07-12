@@ -5,11 +5,10 @@ title: AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
 type: dk
 dark_knowledge_type: pattern
 diagnostic_signals:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
+
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
@@ -32,13 +31,11 @@ confidence: 0.88
 related:
   - "[[yitang-domain-digest]]"
   - "[[ai-collaboration-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+  
+  
+  
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
+
 
 ---
 

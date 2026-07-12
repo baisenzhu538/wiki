@@ -12,20 +12,18 @@ estimated_tokens: 4500
 language: zh-CN
 prerequisites: []
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+
+
+
+
+
+
 diagnostic_signals:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+
+
+
+
+
 related:
   - '[[concept-harness-cattle-not-pets]]'
   - '[[concept-X型Y型决策习惯]]'
@@ -50,9 +48,8 @@ source_refs:
   - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
 status: reviewed
 pipeline:
-  - src_unknown
-  - src_unknown
-  - src_unknown
+
+
 author: unknown
 trust_level: medium
 title: concept ai native organization five steps

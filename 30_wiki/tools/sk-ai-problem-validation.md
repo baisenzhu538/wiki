@@ -12,35 +12,29 @@ source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
-- src_unknown
-- src_unknown
+
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required:
-- src_unknown
-- src_unknown
+
 prerequisite_skills: []
 related:
   - "[[ai-collaboration-domain-digest]]"
   - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+  
+  
+  
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-- src_unknown
 
 ---
 

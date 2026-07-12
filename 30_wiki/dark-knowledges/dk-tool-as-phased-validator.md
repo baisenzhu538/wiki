@@ -49,20 +49,18 @@ diagnostic_signals:
   framework_lens: 跨域模式：把工具当一次性生成器的失效是跨域共通的
   follow_up_question: 这个失效模式在其它域是否也有对应案例？
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-18'
 updated_at: 2026-06-28
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
+
 ---
 
 ## 原始表述

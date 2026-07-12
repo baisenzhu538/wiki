@@ -12,7 +12,6 @@ domain:
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修：C-10/C-11/P-16/P-8 共同暴露的护栏缺失问题
 source_refs:
-- src_unknown
 related:
   - "[[ai-collaboration-domain-digest]]"
   - "[[tool-制作行业化要素检查清单]]"
@@ -24,9 +23,8 @@ related:
   - "[[轻量级诊所HIS调研全清单]]"
   - "[[tool-清单小抄工具箱法]]"
 bridges_to:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

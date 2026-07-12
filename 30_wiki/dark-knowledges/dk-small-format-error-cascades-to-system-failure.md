@@ -12,17 +12,15 @@ domain:
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修中反复出现的模式：YAML引号、regex截断、source refs断裂
 source_refs:
-- src_unknown
 related:
   - "[[ai-collaboration-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+  
+  
+  
+  
 bridges_to:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

@@ -14,15 +14,12 @@ source_refs:
   - pending_archive:src_20260606_90b44191-没有人呀现在
   - src_20260606_90b44191-没有人呀现在
 wiki_refs:
-  - src_unknown
-  - src_unknown
+
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 tools_required:
-- src_unknown
-- src_unknown
+
 prerequisite_skills: null
 related:
   - "[[case-live81-ai-trademark-design]]"
@@ -31,7 +28,6 @@ created_at: 2026-06-11
 updated_at: 2026-07-02
 tags: []
 pipeline:
-  - src_unknown
 reviewed_by: laowantong
 author: 半肥猫
 confidence: 0.7

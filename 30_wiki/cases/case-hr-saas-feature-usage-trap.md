@@ -16,12 +16,11 @@ source_refs:
 - pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - pending_archive:src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
+
+
 created_at: '2026-06-16'
 updated_at: 2026-06-28
 author: 孔阳

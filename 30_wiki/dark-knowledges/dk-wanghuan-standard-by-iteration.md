@@ -49,12 +49,11 @@ diagnostic_signals:
   framework_lens: 标准来自迭代——用不同模型/视角做评审，避免互相附和
   follow_up_question: 评审者和生成者用不同模型了吗？同模型容易互相附和。
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
+
+
 review_date: '2026-06-28'
 ---
 

@@ -15,29 +15,25 @@ created_at: 2026-06-09
 updated_at: 2026-07-02
 related:
   - "[[ai-collaboration-domain-digest]]"
-  - "[[pending_unknown]]"
+  
   - "[[case-live81-ai-trademark-design]]"
   - "[[dk-ai-design-pitfalls]]"
   - "[[tool-ai-deliverable-polish-loop]]"
   - "[[yitang-domain-digest]]"
 wiki_refs:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-- src_unknown
+
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 pipeline:
-- src_unknown
-- src_unknown
+
 ---
 # 案例：纪浩从"求你了"到1100行约束文档的UI设计迭代
 

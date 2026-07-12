@@ -49,11 +49,10 @@ diagnostic_signals:
   framework_lens: AI拉升个人上限——竞争力来自把行业暗规则注入AI系统
   follow_up_question: 你的行业暗规则是什么？能不能写成AI业务档案，让AI成为最懂行的助手？
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
+
 review_date: '2026-06-28'
 ---
 

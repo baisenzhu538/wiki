@@ -21,8 +21,8 @@ related:
   - '[[yitang-domain-digest]]'
   - '[[yitang-research-domain-digest]]'
   - '[[ai-collaboration-domain-digest]]'
-  - '[[pending_unknown]]'
-  - '[[pending_unknown]]'
+  
+  
   - tool-yitang-amazon-bestseller
   - tool-yitang-ai-monitoring-alert
   - '[[framework-ai-native-organization-two-modes]]'

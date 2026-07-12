@@ -14,9 +14,9 @@ source_refs:
   - 30_wiki/tools/tool-yitang-Y-model-application.md
   - 30_wiki/dark-knowledges/dk-yitang-Y-model-pitfalls.md
   - 30_wiki/tools/tool-agent-spec-yitang-Y-model-coach.md
-  - 30_wiki/raw/ocr/ocr-一堂-个人修炼-y模型.md
-  - 30_wiki/raw/ocr/ocr-一堂-个人修炼-解放思想.md
-  - 30_wiki/raw/ocr/ocr-一堂y模型-科学成事道理.md
+  - 10_raw/ocr-cards/ocr-一堂-个人修炼-y模型.md
+  - 10_raw/ocr-cards/ocr-一堂-个人修炼-解放思想.md
+  - 10_raw/ocr-cards/ocr-一堂y模型-科学成事道理.md
   - 60_feedback/diagnosis/diag_20260708_yitang-demand-analysis-deep-dive-v2.md
   - 60_feedback/diagnosis/diag_20260708_yitang-pan-product-design-deep-dive-v2.md
   - 60_feedback/diagnosis/diag_20260708_yitang-time-management-deep-dive-v2.md

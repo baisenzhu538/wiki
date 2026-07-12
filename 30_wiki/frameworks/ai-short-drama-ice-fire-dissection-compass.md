@@ -27,9 +27,8 @@ related:
 - "[[ai-short-drama-framework-three-axes]]"
 - "[[ai-short-drama-conflict-three-axes]]"
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 diagnostic_signals:
 - framework_lens: 结构化拆本五维模型
   follow_up_question: 你拆本时是凭感觉，还是按文本语言、核心角色、主题事件、高潮反转、钩子密度五个维度逐一分析？

@@ -51,12 +51,11 @@ diagnostic_signals:
     framework_lens: 创造力重新分配——人的价值是描述问题和审美判断
     follow_up_question: 告诉团队：人负责把问题描述清楚，负责判断结果好不好，执行交给AI。
 tags:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+
+
+
+
+
 review_date: '2026-06-28'
 ---
 

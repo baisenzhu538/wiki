@@ -14,16 +14,12 @@ source_refs:
   - pending_archive:src_20260606_ef4877d0-所以90的核心问题
   - src_20260606_ef4877d0-所以90的核心问题
 wiki_refs:
-  - src_unknown
-  - src_unknown
+
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 tools_required:
-- src_unknown
 prerequisite_skills:
-- src_unknown
 related:
   - "[[case-live81-ai-trademark-design]]"
   - "[[tool-scene-design-language-translation]]"
@@ -31,7 +27,6 @@ created_at: 2026-06-11
 updated_at: 2026-07-02
 tags: []
 pipeline:
-  - src_unknown
 reviewed_by: laowantong
 author: unknown
 confidence: 0.7

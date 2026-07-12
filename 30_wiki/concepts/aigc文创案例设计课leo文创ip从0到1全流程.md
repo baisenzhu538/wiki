@@ -11,9 +11,8 @@ title: AIGC文创案例设计课：Leo文创IP从0到1全流程
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 author: unknown
 reviewed_by: pending
 confidence: 0.7

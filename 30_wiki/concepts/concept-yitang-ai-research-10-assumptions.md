@@ -21,8 +21,8 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+
+
   - '[[concept-ai-native-organization-five-steps]]'
 - tool-yitang-research-cross-validation
 - tool-yitang-research-company-disassembly

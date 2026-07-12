@@ -16,13 +16,11 @@ source_context: src_20260522_dee56cff
 source_refs:
 - 10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 tools_required:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 created_at: '2026-06-09T15:59:56+00:00'
 updated_at: '2026-06-29'
 author: 老顽童

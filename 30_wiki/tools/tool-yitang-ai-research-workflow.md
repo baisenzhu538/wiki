@@ -37,8 +37,8 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+
+
 - case-decision-ai-assisted-vs-human
 ---
 # AI辅助调研工作流：七工具四层深度+十大假设

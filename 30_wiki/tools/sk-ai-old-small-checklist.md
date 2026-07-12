@@ -12,20 +12,16 @@ source_context: AI俱乐部-AI落地场景识别分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
 wiki_refs:
-- src_unknown
-- src_unknown
+
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required:
-- src_unknown
 prerequisite_skills: null
 related:
   - "[[ai-collaboration-domain-digest]]"
@@ -42,9 +38,7 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-- src_unknown
-- src_unknown
+
 
 ---
 

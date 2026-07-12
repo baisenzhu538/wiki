@@ -11,8 +11,7 @@ title: AIGC设计基础01：AI生图原理与提示词基本功
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
-- src_unknown
+
 author: unknown
 reviewed_by: pending
 confidence: 0.7

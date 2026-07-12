@@ -12,8 +12,7 @@ title: AIGC设计师实操培训01：口喷设计范式与电商AI设计全流�
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
-- src_unknown
+
 author: unknown
 reviewed_by: pending
 confidence: 0.7

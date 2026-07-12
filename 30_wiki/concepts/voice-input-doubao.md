@@ -12,7 +12,6 @@ status: reviewed
 source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 component_of:
-- src_unknown
 related:
   - "[[yitang-domain-digest]]"
   - "[[kdo-input-channel-strategy-2026-06-16]]"
@@ -24,23 +23,19 @@ related:
   - "[[case-yitang-xujian-invoice-saas-channel]]"
   - "[[sk-ai-voice-input-doubao]]"
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
 reviewed_by: 欧阳锋
 pipeline:
-- src_unknown
-- src_unknown
+
 author: unknown
 created_at: 2026-06-15
 updated_at: '2026-06-18'
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-- src_unknown
-- src_unknown
+
 
 ---
 

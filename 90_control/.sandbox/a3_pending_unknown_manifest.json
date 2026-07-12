@@ -1,0 +1,764 @@
+[
+  {
+    "card": "30_wiki\\concepts\\concept-candy-ai-as-collaborator.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-candy-ai-as-collaborator.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-candy-ai-as-collaborator.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-harness-cattle-not-pets.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-harness-cattle-not-pets.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-harness-cattle-not-pets.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-harness-scoring-anchors.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-harness-scoring-anchors.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-harness-scoring-anchors.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-mcp-protocol.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-mcp-protocol.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-yitang-ai-research-10-assumptions.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-yitang-ai-research-10-assumptions.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-yitang-ai-research-human-loop.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\concept-yitang-ai-research-human-loop.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\truman-perspective-skill.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\truman-perspective-skill.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\truman-perspective-skill.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\concepts\\truman-perspective-skill.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\frameworks\\framework-ai-deliberate-practice-loop.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\frameworks\\framework-ai-deliberate-practice-loop.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\frameworks\\framework-ai-deliberate-practice-loop.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\sk-ai-evidence-check.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\sk-ai-evidence-check.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\sk-ai-evidence-check.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\sk-ai-problem-validation.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\sk-ai-problem-validation.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\sk-ai-problem-validation.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\sk-ai-question-problem-checklist.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\sk-ai-question-problem-checklist.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\sk-ai-question-problem-checklist.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\sk-ai-system-redundancy.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-agent-crawl4ai.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-agent-crawl4ai.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-agent-firecrawl.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-agent-firecrawl.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-agent-native-overview.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-agent-native-overview.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-auto-verify.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-auto-verify.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-auto-verify.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-case-match.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-case-match.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-case-match.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-multi-hypothesis.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-multi-hypothesis.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-multi-hypothesis.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-signal-substitute.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-signal-substitute.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-signal-substitute.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-signals.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-signals.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-demand-agent-signals.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-harness-adversarial-tester.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-harness-adversarial-tester.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-harness-adversarial-tester.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-openmontage-video-factory.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-openmontage-video-factory.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-yitang-ai-research-workflow.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\tools\\tool-yitang-ai-research-workflow.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\cases\\case-ban-fei-mao-conversion-hacker-skill.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\cases\\case-ban-fei-mao-skill-ab-test.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\cases\\case-ji-hao-ai-workspace-chaos.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\cases\\case-ji-hao-skill-market-problem-validation.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\cases\\case-ji-hao-ui-design-constraint-evolution.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-fundamentals-before-advanced-ops.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-fundamentals-before-advanced-ops.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-fundamentals-before-advanced-ops.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-lz-ai-native-organization.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-lz-ai-native-organization.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-lz-ai-native-organization.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-lz-ai-native-organization.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-compound-leverage.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-compound-leverage.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-compound-leverage.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-compound-leverage.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-cross-validation.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-cross-validation.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-cross-validation.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-iterative-prompting.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-iterative-prompting.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-iterative-prompting.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-judgment-limit.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-judgment-limit.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-judgment-limit.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-without-judgment.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-without-judgment.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-without-judgment.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-ai-without-judgment.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-course-rnd-ripe-fruit.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-course-rnd-ripe-fruit.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-course-rnd-ripe-fruit.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-course-rnd-ripe-fruit.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-logical-cleanliness-root.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-logical-cleanliness-root.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-logical-cleanliness-root.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-model-arsenal-paradigms.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-model-arsenal-paradigms.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-model-arsenal-paradigms.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-model-arsenal-paradigms.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-radar-model-not-result.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-radar-model-not-result.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-modeling-radar-model-not-result.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-small-format-error-cascades-to-system-failure.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-small-format-error-cascades-to-system-failure.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-small-format-error-cascades-to-system-failure.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-small-format-error-cascades-to-system-failure.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-state-residue-is-the-silent-killer.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-state-residue-is-the-silent-killer.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-state-residue-is-the-silent-killer.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-yb5-style-asset-archive.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-yb5-style-asset-archive.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-yb5-style-asset-archive.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-yb5-style-asset-archive.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-yb9-cubox-deployment-failure.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-yb9-cubox-deployment-failure.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dark-knowledges\\dk-yb9-cubox-deployment-failure.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dk\\dk-yitang-ai-research-prompt-craft.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dk\\dk-yitang-ai-research-prompt-craft.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dk\\dk-yitang-research-ai-hallucination.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  },
+  {
+    "card": "30_wiki\\dk\\dk-yitang-research-ai-hallucination.md",
+    "action": "摘",
+    "target": "pending_unknown",
+    "reason": "AI簇占位符，无对应真实卡片"
+  }
+]

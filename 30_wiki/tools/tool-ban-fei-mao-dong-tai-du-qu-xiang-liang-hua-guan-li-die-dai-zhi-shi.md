@@ -12,18 +12,16 @@ source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 prerequisite_skills:
-- src_unknown
-- src_unknown
+
 related:
   - "[[ai-collaboration-domain-digest]]"
   - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+  
+  
+  
   - "[[tool-Truman-短视频自动化上传工作流]]"
   - "[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]"
   - "[[tool-月白-烧Token快速积累体感]]"

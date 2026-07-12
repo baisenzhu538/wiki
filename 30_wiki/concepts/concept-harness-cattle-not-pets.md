@@ -18,9 +18,9 @@ source_refs:
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+
+
+
   - '[[concept-ai-native-organization-five-steps]]'
 - business-research-skill-oscar-13-weapon-system
 - tool-yitang-amazon-bestseller

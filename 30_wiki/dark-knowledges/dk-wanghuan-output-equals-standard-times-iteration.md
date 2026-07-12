@@ -50,12 +50,11 @@ diagnostic_signals:
   framework_lens: 输出=标准×迭代——团队需要统一最低迭代次数和验收标准
   follow_up_question: 团队有统一的最低迭代次数和验收标准吗？
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
+
+
 review_date: '2026-06-28'
 ---
 

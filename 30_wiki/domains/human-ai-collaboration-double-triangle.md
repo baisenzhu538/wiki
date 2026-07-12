@@ -12,10 +12,9 @@ domain:
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
 created_at: '2026-06-19'
 updated_at: 2026-07-02
 author: 王语嫣
@@ -44,11 +43,10 @@ related:
   - "[[concept-wanghuan-adversarial-generation]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
+
 ---
 # 域摘要：人机协作范式——双三角模型域
 

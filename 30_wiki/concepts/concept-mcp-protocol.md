@@ -15,14 +15,13 @@ domain:
 - research
 - ai-collaboration
 source_refs:
-- src_unknown
-- src_unknown
+
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+
+
 - framework-multi-agent-research-architecture
 - agent-native-card-design
 updated_at: '2026-06-29'

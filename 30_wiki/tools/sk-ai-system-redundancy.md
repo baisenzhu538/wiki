@@ -12,35 +12,29 @@ source_context: 拆书会《偶然》分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260614_fb753683-世界发展-偶然与必然讨论.md
 wiki_refs:
-- src_unknown
-- src_unknown
+
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required:
-- src_unknown
-- src_unknown
+
 prerequisite_skills: []
 related:
   - "[[ai-collaboration-domain-digest]]"
   - "[[tool-制作行业化要素检查清单]]"
   - "[[tool-水水-保持系统冗余]]"
   - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[pending_unknown]]"
+  
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-- src_unknown
 
 ---
 

@@ -12,10 +12,8 @@ source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
-- src_unknown
-- src_unknown
+
 prerequisite_skills:
-- src_unknown
 related:
   - "[[ai-collaboration-domain-digest]]"
   - "[[tool-纪浩-Agent技能市场设计法]]"
@@ -33,11 +31,8 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-- src_unknown
+
 pipeline:
-- src_unknown
-- src_unknown
 
 ---
 

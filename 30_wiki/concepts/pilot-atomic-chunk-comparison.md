@@ -11,8 +11,7 @@ created_at: 2026-05-31
 source_refs:
 - 30_wiki/concepts/master-decision-hygiene.md
 pipeline:
-- src_unknown
-- src_unknown
+
 author: unknown
 reviewed_by: pending
 confidence: 0.7

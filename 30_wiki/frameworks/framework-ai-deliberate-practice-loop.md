@@ -30,9 +30,9 @@ source_refs:
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+
+
+
   - '[[framework-yitang-three-ring-ability-focus]]'
 - framework-yitang-deliberate-practice-1plus4
 - framework-一堂五步法-泛产品设计

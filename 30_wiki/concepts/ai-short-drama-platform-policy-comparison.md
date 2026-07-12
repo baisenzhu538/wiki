@@ -20,10 +20,9 @@ trust_level: medium
 related:
 - "[[ai-short-drama-plot-three-axes]]"
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
 diagnostic_signals:
 - framework_lens: 平台-题材-分成匹配矩阵
   follow_up_question: 你的题材、目标受众、期望回款周期分别是什么？

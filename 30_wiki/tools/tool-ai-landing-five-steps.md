@@ -15,23 +15,18 @@ source_refs:
   - pending_archive:src_20260606_ef4877d0-所以90的核心问题
   - src_20260606_ef4877d0-所以90的核心问题
 wiki_refs:
-  - src_unknown
-  - src_unknown
+
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 tools_required:
-- src_unknown
-- src_unknown
+
 prerequisite_skills:
-- src_unknown
 related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 tags: []
 pipeline:
-  - src_unknown
 reviewed_by: laowantong
 author: unknown
 confidence: 0.7

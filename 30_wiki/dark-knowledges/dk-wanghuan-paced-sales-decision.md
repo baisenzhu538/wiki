@@ -19,19 +19,16 @@ review_date: '2026-06-28'
 reviewed_by: 欧阳锋
 trust_level: medium
 source_refs:
-- src_unknown
-- src_unknown
+
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）"
 query_triggers: []
 aliases: []
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 pipeline:
-- src_unknown
-- src_unknown
+
 diagnostic_signals:
 - signal: src_unknown
   lens: 工具升级但系统未重构

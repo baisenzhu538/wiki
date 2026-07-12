@@ -8,7 +8,6 @@ status: draft
 domain:
 - ai-saas
 source_refs:
-- src_unknown
 created_at: '2026-06-09'
 author: unknown
 reviewed_by: pending

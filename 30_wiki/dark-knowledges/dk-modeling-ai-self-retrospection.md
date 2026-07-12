@@ -26,22 +26,20 @@ related:
   - "[[轻量级诊所HIS调研全清单]]"
   - "[[tool-清单小抄工具箱法]]"
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
+
 trust_level: high
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 author: 老顽童
 confidence: 0.89
 diagnostic_signals:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
+
 - src_unknown# AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
 
 ---

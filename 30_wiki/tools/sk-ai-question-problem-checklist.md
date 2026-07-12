@@ -13,35 +13,29 @@ source_refs:
 - 10_raw/sources/src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记.md
 - 10_raw/sources/src_20260606_6ea91aa8-纪浩-AI协作方法论-口述.md
 wiki_refs:
-- src_unknown
-- src_unknown
+
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+
+
+
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required:
-- src_unknown
 prerequisite_skills: null
 related:
   - "[[ai-collaboration-domain-digest]]"
   - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+  
+  
+  
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-- src_unknown
 
 ---
 

@@ -13,8 +13,7 @@ source_context: AI俱乐部-AI学习落地 分享
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
-- src_unknown
-- src_unknown
+
 prerequisite_skills: []
 related:
   - "[[tool-半肥猫-课程Skill化的八步工作流]]"
@@ -30,15 +29,12 @@ created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'
 pipeline:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
-- src_unknown
 
 ---
 

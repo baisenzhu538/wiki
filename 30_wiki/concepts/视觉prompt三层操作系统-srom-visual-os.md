@@ -11,7 +11,6 @@ title: 视觉Prompt三层操作系统 (SROM Visual OS)
 type: concept
 updated_at: '2026-06-29'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.8

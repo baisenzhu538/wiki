@@ -11,7 +11,6 @@ domain:
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-- src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
@@ -30,7 +29,6 @@ related:
   - "[[yt-lean-daily-chemical-mvp]]"
   - "[[case-yitang-mvp-reward-interview-waste]]"
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.85

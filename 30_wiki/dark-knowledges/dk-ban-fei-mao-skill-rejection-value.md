@@ -41,8 +41,6 @@ diagnostic_signals:
   lens: 过度顺从——把用户满意度凌驾于结果正确性之上
   follow_up_question: 你的用户是在为"被取悦"付费，还是为"正确结果"付费？拒绝是否反而保护了长期信任？
 pipeline:
-- src_unknown
-- src_unknown
 
 ---
 

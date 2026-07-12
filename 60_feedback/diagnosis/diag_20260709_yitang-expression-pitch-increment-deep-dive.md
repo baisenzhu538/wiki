@@ -16,8 +16,8 @@ source_refs:
   - 30_wiki/concepts/yt-personal-verbatim-script.md
   - 30_wiki/tools/tool-讲香基本功-十指模型.md
   - 30_wiki/tools/tool-讲香十指模型-超级武器库.md
-  - 30_wiki/raw/ocr/ocr-一堂-个人修炼-表达力火箭模型.md
-  - 30_wiki/raw/ocr/ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md
+  - 10_raw/ocr-cards/ocr-一堂-个人修炼-表达力火箭模型.md
+  - 10_raw/ocr-cards/ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md
 reviewer: 欧阳锋
 created_at: 2026-07-09
 updated_at: 2026-07-09

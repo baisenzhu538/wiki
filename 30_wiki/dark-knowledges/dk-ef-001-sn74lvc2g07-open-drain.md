@@ -20,7 +20,6 @@ related:
 - "[[dk-ef-003-hand-soldering-bom-divergence]]"
 - "[[dk-ef-004-missing-diagnostic-firmware]]"
 pipeline:
-- src_unknown
 author: 黄药师
 reviewed_by: pending
 confidence: 0.75

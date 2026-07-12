@@ -13,9 +13,9 @@ source_refs:
 related:
   - "[[ai-collaboration-domain-digest]]"
   - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+  
+  
+  
   - "[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]"
   - "[[tool-半肥猫-课程Skill化的八步工作流]]"
   - "[[tool-纪浩-AI对话上下文隔离]]"
@@ -25,14 +25,10 @@ domain:
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 tools_required:
-- src_unknown
 prerequisite_skills:
-- src_unknown
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 diagnostic_signals:
-- src_unknown
-- src_unknown
 
 ---
 

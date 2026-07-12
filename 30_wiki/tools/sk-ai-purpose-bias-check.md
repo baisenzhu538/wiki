@@ -13,17 +13,14 @@ source_refs:
 - 00_inbox/拆书会-《偶然》-水水-笔记.txt
 wiki_refs: []
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
+
+
 created_at: '2026-06-06'
 updated_at: '2026-06-16'
 tools_required:
-- src_unknown
 prerequisite_skills: null
 related:
   - "[[tool-水水-接受发散性世界观]]"

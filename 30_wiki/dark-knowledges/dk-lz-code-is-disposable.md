@@ -31,7 +31,6 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- src_unknown
 - src_unknown# 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产
 ---
 ## 原始表述 / 核心洞察

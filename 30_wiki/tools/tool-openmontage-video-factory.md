@@ -23,8 +23,8 @@ source_refs:
 - https://github.com/calesthio/OpenMontage
 related:
 - hongqigong-profile
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+
+
 - agent-native-card-design
 ---
 # OpenMontage 中文 MCP 版：AI 视频工厂

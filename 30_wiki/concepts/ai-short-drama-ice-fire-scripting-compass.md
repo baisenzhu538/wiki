@@ -27,8 +27,7 @@ related:
 - "[[ai-short-drama-conflict-three-axes]]"
 - "[[yt-note-ai-human-division]]"
 tags:
-- src_unknown
-- src_unknown
+
 diagnostic_signals:
 - framework_lens: 全本策划五维框架
   follow_up_question: 你的题材、受众、核心冲突和情绪价值是否已经明确？
