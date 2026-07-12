@@ -1,5 +1,7 @@
 # VLM 识别结果：转化率影响力36计-高清版.png
 
+> ⚠️ 本图为高清版，识别稳定性低于「逐字扫描」版，引用以逐字扫描版为准。
+
 > 来源文件：C:\Users\Administrator\Desktop\wiki\00_inbox\Handle the business\conversion rate\转化率影响力36计-高清版.png
 
 ## 原文识别
