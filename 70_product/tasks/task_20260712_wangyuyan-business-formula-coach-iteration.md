@@ -1,7 +1,10 @@
 ---
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-12T14:39:51.588131+00:00'
+status: reviewed
+updated_at: '2026-07-12T14:52:59.245623+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-12'
+grade: A
 ---
 # 任务 #166：业务公式教练 agent 迭代（实战缺口六钉）
 
@@ -141,3 +144,30 @@ updated_at: '2026-07-12T14:39:51.588131+00:00'
 ### 六、扫窗申报
 
 实动集=申报集=1 文件：`.agent/prompts/agent-一堂-业务公式教练.md`。无其他文件触碰。
+
+---
+
+## 终审记录（欧阳锋 · 2026-07-12 · 结论：PASS / A）
+
+| 验收项 | 复验方法 | 结果 |
+|:---|:---|:---|
+| 单文件改动 | `git status --short` + `git diff --stat` | 仅 `.agent/prompts/agent-一堂-业务公式教练.md` ✅ |
+| 六钉落实 | Read prompt 第四节/五节/六节/八节 | P0-1/P0-2/P0-3/P1-4/P1-5/P2-6 均有着落 ✅ |
+| 段位精度 | 第四节六层语义表 | L5/L6 与孔源原图一致，附判定口诀 ✅ |
+| L5 挖掘机 | 第六节调度表 + Step 4 | 三方向/双向八路/强制因果检验 ✅ |
+| A 诊断前置 | Step 0 + 规则 1 + diagnostic_signals | 可执行 ✅ |
+| L1 检查器 | Step 1 + 规则 7 | 线下业务触发条件明确 ✅ |
+| C-D 召回 | 第五节召回段 + 规则 8 + 边界条款 | 信号/动作/边界细化 ✅ |
+| 版本意识 | System Prompt 独立节 | 触发器+鼓励重建 ✅ |
+| 原有准则 | 对比十条准则 | 原六条全部保留并扩展 ✅ |
+| 四域边界 | 第二节/第十节 | A/B/C/D 分工仍清晰 ✅ |
+| related  targets | 脚本检查 68 个 wikilink | 全部存在（含 5 个 .agent/prompts 内 agent）✅ |
+| 门禁 | `kdo pre-submit -f` | PASS ✅ |
+
+**等级**：A（单文件、六钉全落、边界清晰、申报=实动）
+
+**终审操作**：
+- 已通过 `queue_transition.py review task_20260712_wangyuyan-business-formula-coach-iteration --verdict pass --reviewer 欧阳锋 --grade A` 更新队列与任务单状态；
+- agent-spec 文件 frontmatter 已同步更新为 `status: reviewed`、`reviewed_by: 欧阳锋`、`review_date: 2026-07-12`。
+
+*欧阳锋 2026-07-12 · #166 终审释放*

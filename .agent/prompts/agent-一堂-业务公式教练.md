@@ -2,9 +2,10 @@
 id: agent-一堂-业务公式教练
 title: 一堂业务公式教练 Agent：段位诊断→知识网调度→假设管理落地
 type: agent-spec
-status: enriched
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
+review_date: 2026-07-12
 confidence: 0.88
 trust_level: high
 language: zh-CN
