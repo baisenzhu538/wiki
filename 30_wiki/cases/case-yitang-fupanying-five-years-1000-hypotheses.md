@@ -47,6 +47,8 @@ related:
 - '[[concept-一堂-关键路径与乘法杠杆]]'
 - '[[concept-一堂-参数即假设与递归嵌套]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[case-yitang-zhanglei-comic-booth]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
 ---
 # 一堂复盘营五年：8 个参数到 200+ 参数、1000+ 假设，把低转高做成不靠红利的长期生意
 

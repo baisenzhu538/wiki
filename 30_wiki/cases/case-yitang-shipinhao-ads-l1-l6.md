@@ -33,6 +33,7 @@ related:
 - '[[yt-tool-business-formula-quant-space-3d]]'
 - '[[yt-tool-business-formula-inspiration-5]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[case-yitang-homework-six-owners]]'
 ---
 # 一堂视频号投放 L1→L6 全案：好友率 40%→85%、脚本寿命 benchmark 与四个矩阵号的动态平衡
 

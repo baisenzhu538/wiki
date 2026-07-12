@@ -37,6 +37,7 @@ related:
 - '[[concept-一堂-关键路径与乘法杠杆]]'
 - '[[concept-一堂-三类目标策略]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
 ---
 # 一堂「我请客」推荐率攻坚：三层公式展开把 15% 干到 40%，一年半 70-100 个假设
 

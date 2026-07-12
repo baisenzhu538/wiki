@@ -41,6 +41,7 @@ related:
 - '[[yt-tool-business-formula-parameter-arsenal]]'
 - '[[concept-一堂-参数即假设与递归嵌套]]'
 - '[[concept-一堂-相关不等于因果]]'
+- '[[case-yitang-false-causality-collection]]'
 ---
 # 魔法数字案例集：从美团 30 天 3 单到一堂 50 学分，拐点参数怎么找、怎么用
 

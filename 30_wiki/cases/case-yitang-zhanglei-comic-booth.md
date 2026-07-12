@@ -37,6 +37,7 @@ related:
 - "[[concept-一堂-假设飞轮]]"
 - "[[concept-一堂-关键路径与乘法杠杆]]"
 - "[[case-yitang-yewenbin-archery-business-formula]]"
+- "[[case-yitang-fupanying-five-years-1000-hypotheses]]"
 ---
 # 张磊漫展展位：9平米亏到100平米，靠一张业务公式+摄像头复盘把展位做到200平米盈利
 
