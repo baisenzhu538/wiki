@@ -396,10 +396,10 @@ L5的每个候选必须标注"借自哪个范式"。
 | 双三角桥接 | `[[framework-business-formula-dual-triangle-bridge]]` | 参数挖掘=AI侧"场景"+"数据"顶点的燃料 |
 | Y模型桥接 | `[[framework-business-formula-y-model-bridge]]` | 参数=关键假设的载体 |
 | 基本功桥接 | `[[framework-business-formula-fundamentals-bridge]]` | 参数→基本功训练项的反向映射 |
-| Agent联动 | `<<<TODO: YAI 业务公式 agent obs笔记>>>` | 反向蒸馏后补充与YAI agent的差异分析 |
+| Agent联动 | YAI 观测笔记（pending：等东家提供 YAI agent 观测素材） | 反向蒸馏后补充与YAI agent的差异分析 |
 | cap_hub | `[[tool-three-ring-capability-filter]]` | 注册时过三环门禁 |
 
 ---
 
 *黄药师（agent-spec 预设计）· 2026-07-12 · status: draft*
-*等C域本体卡产出后：(1) 回填<<<TODO>>>占位符 (2) 嵌入参数武器库范式模板 (3) 补充YAI agent观察对比*
+*C域本体卡已落地（#155-157），wikilink 已回填。待 #158 收口：(1) 嵌入武器库范式模板正文 (2) YAI agent 观察对比*
