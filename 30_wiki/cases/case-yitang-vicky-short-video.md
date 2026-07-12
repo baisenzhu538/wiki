@@ -9,11 +9,11 @@ domain:
 source_person: Vicky（一堂视频大航海学员，短视频培训业务负责人），一堂课程讲师转述
 source_context: 一堂「关键假设·业务公式」管理篇入门案例 1（L776-L880）：Vicky 从"盯结果、抄同行、成败像掷骰子"的传统做生意心态，转为把业务转成一组假设定期复盘，借鉴一堂建测试群（只扔假设不讨论不点赞）和飞书团队假设池，团队心力从"出错白干"逆转为"越挫越勇"
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L776-L796（背景：短视频公域获客转会员；旧打法=盯结果+抄同行+掷骰子；转为定期复盘提假设）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L798-L814（借鉴一堂建测试群：不讨论不点赞不闲聊只扔假设、公司最简单的测试管理机制）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L816-L836（短视频变量过多求效率、借鉴小东老师建飞书团队假设池：谁提的/谁验证/结果/可复用资源与 SOP）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L838-L868（假设池后团队心力逆转：出错白干→数据差=证伪、几百个待验证假设=惊喜）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L870-L880（结果：收入/活跃/口碑都跑出来，自媒体行业清流；提假设要配套机制而非瞎聊）
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L776-L796
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L798-L814
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L816-L836
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L838-L868
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L870-L880
 quality_labels:
 - actionable
 - cited

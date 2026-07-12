@@ -15,12 +15,12 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L618-L764
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L768-L1074
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L432-L632
-- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001416_vlm.md（图 001416）
-- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001533_vlm.md（图 001533）
-- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001550_vlm.md（图 001550）
-- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001619_vlm.md（图 001619）
-- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001640_vlm.md（图 001640）
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001559_vlm.md（图 001559）
+- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001416_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001533_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001550_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001619_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001640_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001559_vlm.md
 quality_labels:
 - actionable
 - cited

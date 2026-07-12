@@ -14,12 +14,12 @@ domain:
 - yitang
 - business-formula
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2830-L2940（魔法数字定义；美团 30 天 3 单：1 亿补贴困境、拐点曲线、只补 5% 订单撬动杠杆、杀熟是最科学的策略）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2946-L3004（FB 七天十好友；别用语文题解数学题——它是统计学问题）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2978-L3152（一堂三次作业率；50 学分+180 天；张磊三节课洞察；多数业务多数时间找不到）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3156-L3200（三维泛化：销售/留存/复购；Slack 2000 条消息；SaaS 30/60 天部署率；会销感谢环节；相关可预测不可提升、因果才可提升；藏住即壁垒）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3202-L3302（美团百团大战补贴效率；农机撮合一个月 5 次撮合率；时间切片要短到运营可控）
-- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md（母版：参数冰山 L6=魔法数字层）
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2830-L2940
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2946-L3004
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2978-L3152
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3156-L3200
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3202-L3302
+- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-parameter-iceberg]]'

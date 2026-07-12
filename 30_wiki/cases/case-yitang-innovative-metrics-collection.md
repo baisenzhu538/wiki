@@ -8,13 +8,13 @@ domain:
 - business-formula
 source_context: 一堂「关键假设-业务公式-参数探索篇」口述逐字稿 L4 拆动作与 L5 创新参数两节中的 11 个学员/自营小案例。主题：行业里没有现成指标时，业务负责人自己定义动作侧、数值侧、组合侧的创新参数，参数一定义出来，动力阻力触点和假设就跟着长出来
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2180-L2230（鞋店连带率两招）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2260-L2296（平价店价格便签、默认丢 3-5 倍转化率）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2400-L2440（超市洗发水十个转化率、拧开闻一下率）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2562-L2614（举手拍照发朋友圈、伸手接传单率、提篮率、落地页 3 秒加载、企业微信头像昵称、支付成功率）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2630-L2690（一堂自定义参数群、公众号单月价格×单月价值）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2692-L2754（刘同学销售管理软件：进会议室率/连投影率）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2756-L2828（舞蹈培训夸孩子率、班明阳旅居踩点率、创新参数三维度）
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2180-L2230
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2260-L2296
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2400-L2440
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2562-L2614
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2630-L2690
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2692-L2754
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2756-L2828
 quality_labels:
 - actionable
 - cited

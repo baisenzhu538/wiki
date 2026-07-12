@@ -15,16 +15,16 @@ domain:
   - ai-collaboration
   - methodology
 source_refs:
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt（ABC模型+假设驱动18招+Ω模型核心认知）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2208-L2210（十大范式导入）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250（参数冰山L1-L6建立）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1420-L1430（魔法参数+创新参数实例清单）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1452（六层逻辑关系+工具隐喻链）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L28-L124（假设管理收官课定位）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1398-L1580（团队假设池+以业务公式为中心的统一管理）
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2208-L2210
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1420-L1430
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1452
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L28-L124
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1398-L1580
   - 30_wiki/concepts/concept-yihang-dual-triangle-core.md
   - 30_wiki/frameworks/framework-yihang-dual-triangle-weapon-library.md
-  - 00_inbox/Handle the business/Business formula/_vlm_output/任务编排建议书_王语嫣_业务公式_v2.md（洪七公交叉验证出处：PEAHD裁定/复盘营规模/五角色描述）
+  - 00_inbox/Handle the business/Business formula/_vlm_output/任务编排建议书_王语嫣_业务公式_v2.md
 related:
   - '[[concept-yihang-dual-triangle-core]]'
   - '[[framework-yihang-dual-triangle-weapon-library]]'

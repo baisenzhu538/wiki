@@ -19,11 +19,11 @@ source_refs:
   - 30_wiki/systems/system-yitang-Y-model-os.md
   - 30_wiki/frameworks/framework-yitang-y-model-cross-domain-fusion.md
   - 30_wiki/frameworks/framework-yitang-y-model-dual-triangle-synergy.md
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt（假设驱动核心认知：从经验驱动转向假设驱动）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250（参数冰山L1-L6：每个参数就是一个假设）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1452（六层逻辑关系：假设间的因果结构）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L700（减法评估：从假设池筛选关键假设）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1398-L1580（假设池=组织记忆：Y模型迭代从无记忆到有记忆的升级）
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1452
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L700
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1398-L1580
 related:
   - '[[yt-decision-y-model]]'
   - '[[system-yitang-Y-model-os]]'

@@ -15,12 +15,12 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3395-L3444
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1744-L1758
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2208-L2212
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001737_vlm.md（ABC 模型原图）
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001212_vlm.md（Ω 模型原图）
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002307_vlm.md（修炼爬山地图 L1-L6 原图）
-- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 004410_vlm.md（ABC+Ω+降龙18掌方法论总览）
-- 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md（早期培训口述，二等辅助）
-- 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md（早期培训笔记，二等辅助）
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001737_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001212_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002307_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 004410_vlm.md
+- 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
+- 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
 created_at: '2026-06-14'
 quality_labels:
   - cited

@@ -18,9 +18,9 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3490-L3578
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L3206-L3212
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3482-L3500
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712003303_vlm.md（图003303 碎片→体系）
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712003311_vlm.md（图003311 黑盒→白盒）
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712003318_vlm.md（图003318 愿望→科学）
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712003303_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712003311_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712003318_vlm.md
 quality_labels:
 - principle
 - insight

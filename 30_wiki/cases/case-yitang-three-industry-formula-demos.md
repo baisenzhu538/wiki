@@ -8,10 +8,10 @@ domain:
 - business-formula
 source_context: 一堂业务公式课程材料（批注 2026-07-12 001958）中的三个同学拆解样板，进阶篇口述将其作为"拆解三大追求（尽量 MECE/定量/分层）"的示范引用。三个案例均为静态公式拆解示范，素材未附验证结果与数字
 source_refs:
-- 00_inbox/Handle the business/Business formula/批注 2026-07-12 001958.png（三个业务公式拆解原图，一等源）
-- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001958_vlm.md（原图 VLM 转写稿）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2062-L2110（口述引用：三大追求、医院/篮球拆解样板、"只差一层"）
-- 00_inbox/Handle the business/Business formula/_vlm_output/整合笔记_业务公式完整版.md L206-L217（整合笔记 §八 案例集，二等源）
+- 00_inbox/Handle the business/Business formula/批注 2026-07-12 001958.png
+- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001958_vlm.md
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2062-L2110
+- 00_inbox/Handle the business/Business formula/_vlm_output/整合笔记_业务公式完整版.md L206-L217
 quality_labels:
 - cited
 created_at: '2026-07-12'

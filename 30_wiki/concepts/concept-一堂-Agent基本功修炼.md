@@ -16,8 +16,8 @@ domain:
 - ai-collaboration
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L654-866（花总案例，行号口径同 #150 spec #19 卡）
-- 30_wiki/personal-os/zhu-feedback-patterns.md（王语嫣角色锚定事故 2026-07-10 与防再犯规则）
-- 70_product/tasks/task_20260711_wangyuyan-agent-fundamentals-cultivation.md（#152 编排 spec）
+- 30_wiki/personal-os/zhu-feedback-patterns.md
+- 70_product/tasks/task_20260711_wangyuyan-agent-fundamentals-cultivation.md
 related:
 - '[[concept-一堂-AI时代基本功变与不变]]'
 - '[[yt-business-formula-parameter-iceberg]]'

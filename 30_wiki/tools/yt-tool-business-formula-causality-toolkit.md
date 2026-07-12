@@ -14,12 +14,12 @@ domain:
 - yitang
 - business-formula
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2404-L2458（三件套定义：常识判断/逻辑推理/控制变量，顺序+正向+反向推理）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2470-L2532（反向推理示范：关医院、禁裙子）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2606-L2608（"没有因果"只是暂未找到）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L766-L776（ID 奇偶分组：三次提醒 vs 两次提醒）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2916-L2928（新人首次进复盘营不留手机号 AB 实验）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2930-L2992（大样本双盲随机实验科普：单盲→双盲→第三方独立配药，三个追求都很难但要追求）
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2404-L2458
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2470-L2532
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2606-L2608
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L766-L776
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2916-L2928
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2930-L2992
 related:
 - '[[concept-一堂-相关不等于因果]]'
 - '[[yt-business-formula-six-level-logic]]'

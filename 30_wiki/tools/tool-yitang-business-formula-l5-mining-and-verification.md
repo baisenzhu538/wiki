@@ -8,13 +8,13 @@ domain:
 - business-formula
 source_context: C 域实战反哺——参数挖掘武器库 L5 层 + 参数冰山双向八路 + Live255 谢泽丰（挖）/董原（验）两案例互补
 source_refs:
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md L164-L190（L5 三方向与示例）
-- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md L23-L25（从上往下拆解/从下往上涌现各四路）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2442-L2448（谢泽丰二次试穿：2 次转化约 89%、3 次以上不显著）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2466-L2508（围绕二次试穿轰假设，转化率约 11%→18%）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1725-L1776（董原「喜欢老师」参数化：可判断/可训练/可复盘）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1467-L1503（董原作业率狠抓不及预期）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1615-L1629（董原复盘：相关未必因果，可能有中间变量）
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md L164-L190
+- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md L23-L25
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2442-L2448
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2466-L2508
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1725-L1776
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1467-L1503
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1615-L1629
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-parameter-iceberg]]'

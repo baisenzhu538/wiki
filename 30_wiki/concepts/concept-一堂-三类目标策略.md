@@ -18,7 +18,7 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L294-L298
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1538-L1566
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1700-L1756
-- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md（进阶专业格：探索型=为什么而奋斗/挑战型=努力要完成/必胜型=一定要完成）
+- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
 related:
 - '[[concept-一堂-双目标法]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'

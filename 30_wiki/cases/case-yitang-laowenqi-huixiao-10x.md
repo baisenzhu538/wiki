@@ -15,8 +15,8 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L918-L986
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L988-L1016
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1024-L1034
-- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 002716_vlm.md（公式1.0→2.0升级）
-- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 002734_vlm.md（公式2.0→3.0→4.0升级）
+- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 002716_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 002734_vlm.md
 quality_labels:
 - actionable
 - cited

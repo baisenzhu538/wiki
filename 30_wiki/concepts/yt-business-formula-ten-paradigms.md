@@ -28,7 +28,7 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2106-L2176
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2848-L2952
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2982-L3034
-- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式十大经典范式_vlm.md（十大范式母版；VLM 图号 003006-003107 逐页、001855/002922 总表）
+- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式十大经典范式_vlm.md
 - pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 related:

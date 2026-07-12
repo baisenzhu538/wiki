@@ -15,22 +15,22 @@ domain:
   - methodology
   - ai-collaboration
 source_refs:
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L954-L960（参数挖掘的价值与共识）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250（L6魔法参数定义+参数冰山模型建立）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1280-L1290（魔法参数的核心难度与价值）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1420-L1430（魔法参数+创新参数完整实例清单）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1452（六层逻辑关系+安慰剂→体温计→方向盘→X光片→刻度尺→导航仪工具隐喻链）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2208-L2210（十大范式导入）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L28-L124（假设管理收官课定位+必要性论证）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L700（减法评估：从假设池筛选值得验证的假设）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L820-L876（假设池案例：Vicky团队公开假设池+王同学团队协作假设池）
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1398-L1580（团队假设池建设+关键假设池搭法）
-  - 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md（一等·课件原图VLM：L1-L6六层参数完整菜单）
-  - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式十大经典范式_vlm.md（一等·课件原图VLM：十大范式+公式骨架）
-  - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md（一等·课件原图VLM：参数冰山三层六阶）
-  - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的逻辑关系探索地图_vlm.md（一等·课件原图VLM：六层级框架+策略库）
-  - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md（一等·课件原图VLM：五环节×三阶段15格行动矩阵）
-  - 30_wiki/systems/system-yitang-Y-model-os.md（Agent共享OS底座）
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L954-L960
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1280-L1290
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1420-L1430
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1452
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2208-L2210
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L28-L124
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L700
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L820-L876
+  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1398-L1580
+  - 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
+  - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式十大经典范式_vlm.md
+  - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md
+  - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的逻辑关系探索地图_vlm.md
+  - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
+  - 30_wiki/systems/system-yitang-Y-model-os.md
 related:
   - '[[framework-business-formula-dual-triangle-bridge]]'
   - '[[framework-business-formula-y-model-bridge]]'

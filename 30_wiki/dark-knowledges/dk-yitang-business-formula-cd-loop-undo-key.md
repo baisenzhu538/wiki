@@ -9,11 +9,11 @@ domain:
 - business-formula
 source_context: C 域实战反哺——Live255 董原（C-D 循环活教材）+ 谢泽丰（阶段 2→3 转折）双案例印证
 source_refs:
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1874-L1928（董原三句总结：打不动先别怀疑转化率方法）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1427-L1465（窗口期大招全开，只止跌未拉回）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1531-L1569（访谈破假设→退回业务公式重拆：平日积累×窗口期激活）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1575-L1661（分层定位新生×新老师→回 D 打穿）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2398-L2432（谢泽丰：孔源点醒→重建公式定优先级）
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1874-L1928
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1427-L1465
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1531-L1569
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1575-L1661
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2398-L2432
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[framework-一堂-关键假设-ABCD模型]]'

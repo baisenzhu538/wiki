@@ -14,13 +14,13 @@ domain:
 - yitang
 - business-formula
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1082-L1170（参数耦合：A 涨 30% B 可能降 20-50%；留存涨 35% 作业率只涨 20%；段子悬念玩法让自驱学习者变围观者）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1180-L1236（作业提醒黄金曲线：三条是黄金点、过度 push 激发叛逆）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1244-L1268（作业数年度周期：春节五一低谷、春马秋马峰值）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1782-L1814（动态理解公式三问：参数耦合/外部周期/预测建模；周期越长越要长视角）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3088-L3188（芯片开发板降价实验；复盘营定价抛物线 1199→19.9→8.9）
-- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的逻辑关系探索地图_vlm.md（母版：L6 动态策略库）
-- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_101张VLM图号索引.md（图号 004557/004638：六层逻辑关系总览）
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1082-L1170
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1180-L1236
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1244-L1268
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1782-L1814
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3088-L3188
+- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的逻辑关系探索地图_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_101张VLM图号索引.md
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-six-level-logic]]'

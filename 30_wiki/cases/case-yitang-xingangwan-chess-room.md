@@ -9,13 +9,13 @@ domain:
 source_person: 子澄（鑫港湾西安代理）/金哥（新业务负责人），一堂课程讲师转述访谈
 source_context: 一堂「关键假设·业务公式」参数探索篇案例 2（L654-L886），一堂访谈鑫港湾西安代理后复盘：美团/抖音流量+小程序的自助棋牌室，从外行级四参数公式迭代到几十个参数，西安单店营业额达全国平均 1.5 倍+、一年半回本、一年开 100+ 店全国第一
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L654-L718（案例背景：西安单店全国平均 1.5 倍+、访谈西安代理子澄、外行级四参数公式的天花板）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L720-L760（冷启动与流量二分：抖音达人探店、免费/付费流量、美团免费流量拆点击率/下单率/好评率/复购率）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L762-L790（私域=加微信、小程序省投流与扣点、私域触达率再拆四五个触点）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L792-L860（过早引流私域影响美团推荐的两难、客户分层纯新/熟客/老客、流量结构基准值、创新参数"五单之后小程序复购率"）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L862-L876（借鉴"我请客"跑新流量模型、一年西安 100+ 店全国第一）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L878-L886（金哥现场拆新业务公式满满一黑板参数、两周内会销到场率与签约率提升 200%+）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L888-L902（业务公式里全是转化率、C 是全局性工作）
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L654-L718
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L720-L760
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L762-L790
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L792-L860
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L862-L876
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L878-L886
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L888-L902
 quality_labels:
 - actionable
 - cited

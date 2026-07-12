@@ -15,8 +15,8 @@ source_person: 张磊（一堂同学，业务公式课案例主讲引用；课�
 source_context: 一堂业务公式逻辑关系篇收尾推演案例（案例 2）：张磊线下点位扭蛋机业务，从 5 个点位、每点位日销约 100 单、利润率 20% 起步，目标是利润不下滑的前提下订单量翻 3-5 倍。案例完整演示逻辑关系六段位（L1 列可能性→L2 找相关→L3 找因果→L4 建公式→L5 代入定量→L6 看内外变化）的推演路径。数字均为「课程案例口径」，未独立核实。
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3358-L3416
-- 00_inbox/Handle the business/Business formula/案例2.png（原图，付费率 2%→3% 经 ReadMediaFile 复核确认）
-- 00_inbox/Handle the business/Business formula/_vlm_output/案例2_vlm.md（案例 2 原图 VLM 识别稿）
+- 00_inbox/Handle the business/Business formula/案例2.png
+- 00_inbox/Handle the business/Business formula/_vlm_output/案例2_vlm.md
 confidence: 0.85
 trust_level: medium
 quality_labels:

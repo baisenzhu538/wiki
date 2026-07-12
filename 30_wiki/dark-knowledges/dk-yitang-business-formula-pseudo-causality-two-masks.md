@@ -9,10 +9,10 @@ domain:
 - business-formula
 source_context: C 域实战反哺——Live255 谢泽丰（自我选择偏差）/董原（中间变量）双案例 + 逻辑关系篇伪因果十题
 source_refs:
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2442-L2448（谢泽丰：试穿 2 次转化约 89%，3 次以上不显著）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1467-L1503（董原：作业率当因果狠抓，大大不及预期）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1615-L1629（董原复盘：相关未必因果，背后可能有中间变量）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2326-L2380（伪因果十题）
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2442-L2448
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1467-L1503
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1615-L1629
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2326-L2380
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-six-level-logic]]'

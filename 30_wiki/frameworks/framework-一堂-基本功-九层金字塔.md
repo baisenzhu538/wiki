@@ -16,7 +16,7 @@ domain:
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt:L2512-2891（十层解读逐层口述）
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/整合笔记_苦练基本功完整版.md:L286-300（九层递进金字塔整理稿）
-- 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/基本功武器库_vlm.md（武器库全景图）
+- 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/基本功武器库_vlm.md
 related:
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[framework-一堂-基本功-四字诀拆建推练]]'

@@ -14,13 +14,13 @@ domain:
 - yitang
 - business-formula
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L680-L778（NPS 与作业率共同因、"不能拿一个果去操作另外一个果"、三次提醒 AB 测试）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2214-L2316（相关 vs 因果定义对齐、警惕误判）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2324-L2402（伪因果十题与答案）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2470-L2608（医院因果倒置、裙子溺水、咖啡红酒、摄像头、试衣镜逐题拆解）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2640-L2784（APP 停留时长、好评率筛选效应、KPI 锁非因果+聪明下属反噬）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2788-L2914（SaaS 上门次数、社群活跃、主讲心情三个反噬案例）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3186-L3192（相关可预测不可提升，因果才可提升）
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L680-L778
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2214-L2316
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2324-L2402
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2470-L2608
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2640-L2784
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2788-L2914
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3186-L3192
 related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'

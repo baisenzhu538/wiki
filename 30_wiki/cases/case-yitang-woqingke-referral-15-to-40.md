@@ -11,7 +11,7 @@ source_context: 一堂「关键假设·业务公式」实操篇与参数探索�
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L318-L568
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2444-L2512
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002650_vlm.md（图 002650：我请客五级漏斗 12 项关键假设实验结果）
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002650_vlm.md
 quality_labels:
 - actionable
 - cited

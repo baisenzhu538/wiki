@@ -9,16 +9,16 @@ domain:
 source_person: Truman（一堂创始人，课程口述，内部开源案例）
 source_context: 「关键假设-业务公式」管理篇与参数探索篇口述：一堂年度大课「马拉松」五年十期的高阶管理全案——双目标制定、10 维数据切片、顶层策略会、PEAHD 角色配置、攻坚会与「以业务公式为中心」的人/事/数统一管理
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1918-L2038（案例背景/增长曲线/假设规模）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2060-L2148（双目标：850万±100万/跪着守下限）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2154-L2204（6-7维切片与多层业务公式）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2208-L2314（顶层策略会/四大参数/迭代30%/保持20个关键假设）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2340-L2462（PEAHD 五角色配置）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2474-L2564（攻坚会机制与18小时实例）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2576-L2710（以业务公式为中心：人/事/数三角）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1696-L1790（10维切片清单）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1812-L1906（切片发现：魔法数字/到期状态反常识/生单7-10倍）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1916-L1942（MBA售卖轮次调整/新会员售卖失败被砍）
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1918-L2038
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2060-L2148
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2154-L2204
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2208-L2314
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2340-L2462
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2474-L2564
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2576-L2710
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1696-L1790
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1812-L1906
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1916-L1942
 quality_labels:
 - actionable
 - cited

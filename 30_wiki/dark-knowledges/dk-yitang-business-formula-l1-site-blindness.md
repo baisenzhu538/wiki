@@ -9,10 +9,10 @@ domain:
 - business-formula
 source_context: C 域实战反哺——Live255 三案例（射箭馆/舞蹈学校/服装店）共同盲区 + 参数挖掘武器库 L1 层对照
 source_refs:
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L217-L291（叶文彬江汉路店爬三楼：选址事故与事后补救）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2280-L2306（谢泽丰对标错场景：商场 vs 批发市场）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2006-L2040（谢泽丰父辈 2 个月开 30 家、亏约 3000 万）
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md L28-L58（L1 基础参数四分类）
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L217-L291
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2280-L2306
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2006-L2040
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md L28-L58
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-parameter-iceberg]]'

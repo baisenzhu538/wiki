@@ -8,25 +8,25 @@ type: concept
 status: enriched
 source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系冰山 L1-L6 框架
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L220-L260（加法见识 vs 减法专业）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L410-L430（作业数案例背景）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L520-L540（加法越多执行效率越差）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L800-L818（认知飞跃=找因果关系）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L848-L1018（Jason L4 公式、Peter L5 定量）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1080-L1290（参数耦合、提醒黄金曲线、迭代速度）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1528（六层命名与比喻链）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1682-L1820（五档升级动作策略库总览）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2252-L2316（相关 vs 因果定义）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2326-L2380（伪因果十题）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2404-L2458（因果三件套）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2606-L2628（"没有因果"只是暂未找到）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2780-L2800（KPI 锁非因果+聪明下属）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3050-L3188（定量空间三维度、动态建模：开发板降价、定价抛物线）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3194-L3318（视频号投放 L1→L6 推演）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3266-L3276（认知足够可直接 L4 起跳）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3474-L3528（目标领先须认知领先、两冰山辩证统一）
-- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的逻辑关系探索地图_vlm.md（母版：六层×策略库全图，含图底金句）
-- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式逻辑关系冰山图_vlm.md（冰山图母版；注：VLM 系统性误识"一堂→一堙"）
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L220-L260
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L410-L430
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L520-L540
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L800-L818
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L848-L1018
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1080-L1290
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1528
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1682-L1820
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2252-L2316
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2326-L2380
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2404-L2458
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2606-L2628
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2780-L2800
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3050-L3188
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3194-L3318
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3266-L3276
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3474-L3528
+- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的逻辑关系探索地图_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式逻辑关系冰山图_vlm.md
 - VLM 图号 004557（六层逻辑关系 L1 模糊→L6 动态）、004638（逻辑关系六层总表）、批注 004535（挖掘逻辑关系五大价值）
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md

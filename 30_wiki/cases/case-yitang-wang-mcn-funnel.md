@@ -9,12 +9,12 @@ domain:
 source_person: 王同学（一堂学员，MCN 教育行业团队）
 source_context: 一堂「关键假设-业务公式」管理篇口述，假设管理进阶段第一个案例（L1314-L1370）：王同学所在 MCN 团队签素人老师做中小微账号，从单人点状试错到漏斗公式 1.0 + 团队假设表，四期行动营量率双升
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1314-L1320（业务背景与六环链路）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1322-L1330（首期 68 人、签约率 30%、喂不饱产能）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1332-L1348（单人盯签约→漏斗公式 1.0→逐参数讨论）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1350-L1362（微商小姑娘"别让用户感到 SOP"假设、鼓励机制）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1364-L1370（团队假设表字段、四期行动营量率双升）
-- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L42（案例定位，二等源）
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1314-L1320
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1322-L1330
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1332-L1348
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1350-L1362
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1364-L1370
+- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L42
 quality_labels:
 - actionable
 - cited

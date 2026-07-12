@@ -9,10 +9,10 @@ domain:
 - business-formula
 source_context: C 域实战反哺——Live255 落地之夜第六场三案例（叶文彬射箭馆/董原舞蹈学校/谢泽丰服装店）对照孔源 ABC 模型图
 source_refs:
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L429-L619（叶文彬四参数公式与办卡率段，A 始终未锚定）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1257-L1285（董原「续班率≈利润率，决定 LTV/CAC 上限」）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1575-L1661（董原「新生×新老师」单点聚焦）
-- 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-ABC模型图-ocr.md（A 目标三阶路径）
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L429-L619
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1257-L1285
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1575-L1661
+- 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-ABC模型图-ocr.md
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-abc-model]]'

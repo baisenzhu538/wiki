@@ -19,7 +19,7 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1158-L1176
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1190-L1254
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1270-L1324
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001710_vlm.md（图 001710：张磊线下动漫展关键假设及实验结果大表，46 项）
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001710_vlm.md
 confidence: 0.85
 trust_level: medium
 quality_labels:

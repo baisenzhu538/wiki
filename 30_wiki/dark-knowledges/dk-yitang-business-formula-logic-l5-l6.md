@@ -9,10 +9,10 @@ domain:
 - business-formula
 source_context: C 域实战反哺——孔源六层逻辑关系图对照 + 王语嫣两轮实战 L5/L6 错位纠错记录
 source_refs:
-- 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-6层逻辑关系图-ocr.md（L5 定量/L6 动态语义、隐喻、决策级别）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1605-L1609（董原：扩张改变参数构成与权重）
-- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2328-L2350（谢泽丰送水：单杯成本约 0.95 元的 ROI 计算）
-- 60_feedback/analysis/c-domain-mastery-review-and-agent-design-2026-07-12.md（王语嫣错位纠错记录，事件记录非业务证据）
+- 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-6层逻辑关系图-ocr.md
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1605-L1609
+- 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2328-L2350
+- 60_feedback/analysis/c-domain-mastery-review-and-agent-design-2026-07-12.md
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-six-level-logic]]'

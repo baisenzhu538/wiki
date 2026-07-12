@@ -9,10 +9,10 @@ domain:
 source_person: 邵同学（一堂学员，成人培训运营总监）
 source_context: 一堂「关键假设-业务公式」参数探索篇口述，L3 分层段学员案例（L1944-L1966）：邵同学在成人考证培训平台任运营总监，接手考研大类目后定 GMV +50% 目标，靠逐层分层找到新闻传播这一反常识机会，再按老师粉丝量/平台数/教学质量建模锁定重点老师，BD 成功率非常高
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1944-L1948（业务背景、GMV+50% 目标、教学端增长判断）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1952-L1956（逐层分层、新闻传播反常识机会）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1958-L1966（老师三维建模、锁定重点老师、BD 成功率高、达成 GMV 目标）
-- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L246（案例定位，二等源）
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1944-L1948
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1952-L1956
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1958-L1966
+- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L246
 quality_labels:
 - actionable
 - cited

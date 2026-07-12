@@ -9,13 +9,13 @@ domain:
 source_person: 潘鸿海（一堂学员，线下娱乐综合店增长负责人）
 source_context: 一堂「关键假设-业务公式」管理篇口述，假设管理进阶段第二个案例（L1380-L1452）：线下娱乐综合店（桌游/剧本杀/体验馆综合体，最大容纳 600 人），2024 年 4 月内测业务公式课后建团队假设池，涨价拆三子假设验证成功，半年业绩 +50%、美团抖音品类榜第一
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1380-L1394（业务背景：600 人娱乐店、疫情后现金流压力、组局产品）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1396-L1404（2024.4 内测业务公式课、拆参数建团队假设池、绿色占比 1/4-1/3）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1410-L1428（带头写七八个假设、涨价顾虑、拆三子假设）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1430-L1440（五一 50-60→70-90 客流没少、GMV+15-20%、全量推）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1442-L1448（小红书导流失败仍鼓励、无效假设的价值）
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1450-L1452（假设常规化、半年 +50%、品类榜第一）
-- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L43（案例定位，二等源）
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1380-L1394
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1396-L1404
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1410-L1428
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1430-L1440
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1442-L1448
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1450-L1452
+- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L43
 quality_labels:
 - actionable
 - cited

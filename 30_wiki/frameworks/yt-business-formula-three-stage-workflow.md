@@ -19,7 +19,7 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1332-L1636
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1638-L1760
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1048-L1074
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002759_vlm.md（图 002759：三阶段工作流 A/B/C 八环节原图）
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002759_vlm.md
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-abc-model]]'

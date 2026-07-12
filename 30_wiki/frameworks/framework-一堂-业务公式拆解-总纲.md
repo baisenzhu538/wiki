@@ -26,11 +26,11 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L12-L28,L46-L100,L880-L902,L3420-L3466
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2-L36
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L12-L40
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001212_vlm.md（图 001212：Ω 模型·关键假设三板斧）
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001737_vlm.md（图 001737：业务公式 ABC 模型）
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001240_vlm.md（图 001240：关键假设 ABCD 模型 V2.0 四象限）
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002307_vlm.md（图 002307：业务公式修炼爬山地图 L1-L6）
-- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 003139_vlm.md（批注 003139：用业务公式理解和表达规律的六大好处）
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001212_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001737_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001240_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002307_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 003139_vlm.md
 related:
 - '[[framework-一堂-关键假设]]'
 - '[[framework-一堂-关键假设-ABCD模型]]'

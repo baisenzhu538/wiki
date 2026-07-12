@@ -16,8 +16,8 @@ domain:
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1762-L2206
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2580-L2614
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002832_vlm.md（图 002832：书写格式原则 L1/L2/L3 原图）
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002843_vlm.md（图 002843：女装店收入公式分层拆解 A1-F 编号原图）
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002832_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002843_vlm.md
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-three-stage-workflow]]'

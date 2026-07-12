@@ -17,7 +17,7 @@ source_context: 一堂业务公式课程（孔阳），管理篇「一堂马拉�
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2090-L2152
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1538-L1566
-- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md（进阶专业格：必胜型/挑战型/探索型定义）
+- 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
 related:
 - '[[concept-一堂-三类目标策略]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'
