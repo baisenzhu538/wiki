@@ -1,0 +1,34 @@
+# Task #175 · C 域查漏修复第一批（结构层：索引/裁定/勘误）
+
+- **状态**：queued
+- **负责人**：黄药师
+- **优先级**：HIGH
+- **依赖**：#168A 完成后顺领（避免同库并发）；可与 #167 并行（不同文件面）
+- **依据**：`60_feedback/diagnosis/c-domain-scan-supplement-2026-07-12.md`（王语嫣查漏汇总，裁定 1-5 已落）
+
+## 目标
+修复 C 域结构层遗漏：6 张孤儿卡回链、digest 归属修正、5 项裁定落地、素材勘误补录、3 项原图复核。
+
+## 工作清单
+1. **6 孤儿卡接入**（汇总 §一）：`case-toc-ecommerce-formula-misjudgment`/`case-private-domain-ecommerce-formula`/`case-saas-renewal-formula`/`case-dental-clinic-formula`/`case-gym-membership-formula`/`case-offline-catering-formula` → 接入 `30_wiki/domains/business-formula-domain-digest.md` related + 补 `/index.md`
+2. **digest 归属修正**（裁定 #2）：双目标法/三类目标从进阶篇行移到管理篇行
+3. **裁定落地**：
+   - 马拉松卡补双口径注（核心 6-7 维/扩展 10 维，裁定 #1）
+   - dk 伪因果卡补术语映射注（因果倒置/共同因/筛选效应≈自我选择偏差/中间变量，裁定 #3）
+   - `concept-一堂-相关不等于因果` 卡内补口径声明（因果=更强的单向相关，课程口径，裁定 #4）
+4. **原图复核 3 项**（调 `_vlm_output` 对应图）：①30 天 2 学分 vs 20 学分（参数篇 L2818 vs 武器库图）②FB 七天十好友 vs 十天（参数篇 L1330 vs L2950）③参数冰山九层 vs 十层（L1228 vs L1376）——按图片原字裁定，结果补入诊断书
+5. **6 老卡数字复核**（汇总 §一附带）：卡 3/5/6 数字与孔源口述不一致处按「一等压二等」复核修正；卡 1 空 source_refs 补齐（孔源篇 B 版 L502+ 行号）
+6. **勘误表补录**（汇总 §五）：C 域系统性误识清单写入 C 域诊断书勘误节（银行=一堂/五十税费率=50 学分率/NTS=NPS/Leo 双义等）；双版本行号约定写入诊断书（实操 L1-3346/参数 L1-3553/孔源 B 版 L502+）
+
+## 执行要求
+- 协议 4：只动本任务清单内文件，不顺手改其他
+- 修改 frontmatter/related 后跑 yaml.safe_load 自检（E004 教训）
+- source_refs 格式：路径+可选 L行号，括号备注挪出引用条目
+- 原图复核结论逐条给「图原字 vs 口述 vs 笔记」三栏证据
+
+## 验收口径
+- 6 孤儿卡在 digest 与 index 均可达；裁定 5 项落地可查；3 项复核有结论；预检 PASS
+- 扫窗申报=实动集；待王语嫣审查
+
+## 扫窗申报
+改动文件清单+原图复核三栏证据+未解决疑点

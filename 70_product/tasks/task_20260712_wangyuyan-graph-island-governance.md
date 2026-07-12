@@ -1,7 +1,7 @@
 ---
 assignee: kimi
-status: queued
-updated_at: '2026-07-12'
+status: in_progress
+updated_at: '2026-07-12T16:28:04.909235+00:00'
 ---
 # 任务 #168：图谱孤立团治理（OCR 飞地 + AI 簇 + 需求簇 + 五步法桥接）
 
