@@ -27,7 +27,9 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3474-L3528
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的逻辑关系探索地图_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式逻辑关系冰山图_vlm.md
-- VLM 图号 004557（六层逻辑关系 L1 模糊→L6 动态）、004638（逻辑关系六层总表）、批注 004535（挖掘逻辑关系五大价值）
+- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 004557_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712004638_vlm.md
+- 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 004535_vlm.md
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
