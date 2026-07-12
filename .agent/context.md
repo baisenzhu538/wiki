@@ -4,7 +4,7 @@ updated_at: 2026-07-12T06:45:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "欧阳锋 #163 终审：独立复验发现 #163 尚未 apply（dry-run 仍报 541 条 ocr-* 死链待处置），已在任务单追加终审 HOLD 记录并退回 queued；8 条改项预核合规但 6 条同族需补 yt-entrepreneur-unit-model 回链。裁定 #159 阶段 1-2 可继续推进，阶段 3 基线重建必须等 #163 清零后执行。"
+active_task: "欧阳锋 #163/#159 双任务审计：黄药师申报双任务均已收口，但独立复验发现 #163 仍未 apply（541 条 ocr-* 死链待处置），#159 阶段 2/3 缺少可复现证据（无抽样 manifest、基线签名数未见 10380→10120 变化）。已在两任务单追加审计 HOLD 记录；#159 阶段 1（例外表）属实通过，其余阶段与 #163 均需补证据后再审。"
 blockers:
   - "无阻塞项。队列与任务单状态已同步。"
   - "当前任务状态见 production-queue.md（唯一真相源）"
