@@ -107,6 +107,12 @@ trust_level: medium
 
 ---
 
+## 与其他知识的关联
+
+本卡与 C 域知识网的关联详见上方 Synthesis 表。核心定位：ABC 模型 A 层的诊断视角，与 L1 选址盲区（`dk-yitang-business-formula-l1-site-blindness`）构成并发并发症对，与 C-D 循环（`dk-yitang-business-formula-cd-loop-undo-key`）构成上下游——A 未锚定则战场排序无从谈起。
+
+---
+
 ## 置信度说明
 
 - 孔源 A 三阶路径以 ABC 模型图 OCR 为一等准。

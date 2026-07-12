@@ -92,6 +92,12 @@ trust_level: medium
 
 ---
 
+## 与其他知识的关联
+
+本卡与 C 域知识网的关联详见上方 Synthesis 表。核心定位：参数冰山 L1 层的警示视角，与 A 缺失并发症（`dk-yitang-business-formula-a-missing-syndrome`）构成并发对，与 L5 挖掘验证工具（`tool-yitang-business-formula-l5-mining-and-verification`）构成前后端——L1 选择型参数定了基准值，L5 才有挖的对象。
+
+---
+
 ## 置信度说明
 
 - 武器库 L1 四分类以 VLM 识别（一等图）为准。
