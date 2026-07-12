@@ -14,6 +14,8 @@ source_refs:
 reviewed_by: pending
 updated_at: 2026-06-29
 related:
+  - '[[case-strategy-lekai-film]]'
+  - '[[case-strategy-practice-10-turnaround]]'
 - strategy-domain-digest
 - tool-从案例中学习
 - case-科学决策-深度案例06

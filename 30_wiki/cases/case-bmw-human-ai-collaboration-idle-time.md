@@ -20,6 +20,7 @@ source_refs:
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
 - 60_feedback/audit/20260701-wobeirushen-validation-report.md
 related:
+  - '[[case-ai-writing-homogenization]]'
 - concept-cognitive-offloading-in-ai-era
 - tool-ai-use-barbell-strategy
 - concept-abundance-paradox

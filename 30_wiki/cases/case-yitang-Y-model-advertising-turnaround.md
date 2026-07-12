@@ -22,6 +22,7 @@ source_refs:
 - 00_inbox/底层逻辑之一-Y模型/科学理念-Y模型.png
 - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
 related:
+  - '[[case-yitang-copywriting-time-decomposition]]'
 - yt-decision-y-model
 - tool-yitang-Y-model-application
 - dk-yitang-Y-model-pitfalls

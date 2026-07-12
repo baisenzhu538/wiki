@@ -14,6 +14,13 @@ source_refs:
 reviewed_by: pending
 updated_at: 2026-06-29
 related:
+  - '[[case-strategy-cool-boiled-water]]'
+  - '[[case-strategy-edward-jones]]'
+  - '[[case-strategy-lekai-film]]'
+  - '[[case-strategy-longzhong-plan]]'
+  - '[[case-strategy-practice-ranpeng-crossborder]]'
+  - '[[case-strategy-practice-ranpeng-milk-powder]]'
+  - '[[case-strategy-xiaobear]]'
 - strategy-domain-digest
 - tool-从案例中学习
 - case-科学决策-深度案例06

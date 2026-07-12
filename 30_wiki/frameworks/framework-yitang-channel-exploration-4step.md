@@ -34,6 +34,7 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-反案例-渠道建模踩坑_vlm_desc.md
 source_person: Truman
 related:
+  - '[[framework-yitang-channel-partnership-map]]'
 - tool-区分获客渠道计算单元roi
 - framework-yitang-channel-industrialization
 - framework-lean-abcd-model

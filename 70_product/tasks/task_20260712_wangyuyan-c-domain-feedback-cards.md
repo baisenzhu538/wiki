@@ -1,7 +1,10 @@
 ---
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-12T14:01:40.755261+00:00'
+status: reviewed
+updated_at: '2026-07-12T14:31:28.843046+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-12'
+grade: A
 ---
 # 任务 #165：C 域实战反哺知识卡 6 张 + 逻辑冰山卡 L5/L6 对齐修订
 
@@ -173,3 +176,21 @@ updated_at: '2026-07-12T14:01:40.755261+00:00'
 ```
 
 未动 six-level-logic 其他任何内容（status/updated_at/其他段落/其他 related 条目均未触碰）。
+
+---
+
+## 终审记录（欧阳锋 · 2026-07-12 · 结论：PASS / A）
+
+| 验收项 | 复验方法 | 结果 |
+|:---|:---|:---|
+| 6 新卡落地 | Read 6 张卡 frontmatter | 5 dk + 1 tool，status 均为 enriched ✅ |
+| 既有卡 L5/L6 修订 | Read six-level-logic diff | 仅一处 blockquote + 4 条 related，范围符合任务单 ✅ |
+| 出向边双向闭合 | 脚本逐卡解析 related + 反向 grep | 49/49，零 ASYM ✅ |
+| 20 文件门禁 | `kdo pre-submit -f` 全量 | 20/20 PASS ✅ |
+| 三个额外发现 | 任务单第四节 | YAML 缩进 bug / dk 必备节 / 提案笔误均已处理并申报 ✅ |
+
+**等级**：A（交付完整、申报透明、扫窗清楚、门禁全绿）
+
+**终审操作**：已通过 `queue_transition.py review task_20260712_wangyuyan-c-domain-feedback-cards --verdict pass --reviewer 欧阳锋 --grade A` 更新队列与任务单状态。
+
+*欧阳锋 2026-07-12 · #165 终审释放*

@@ -29,6 +29,8 @@ source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 source_person: 一堂 / 兰毅
 related:
+  - '[[framework-candy-transcript-workflow]]'
+  - '[[framework-一堂五步法-增长周期]]'
 - framework-lean-abcd-model
 - tool-ai-deliverable-polish-loop
 - framework-ai-accelerated-strategy-cycle

@@ -14,6 +14,16 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-发现决策_vlm_desc.md
 related:
+  - '[[concept-两种典型思考习惯]]'
+  - '[[concept-单元模型-学练用]]'
+  - '[[concept-多视角思考]]'
+  - '[[concept-峰终定律]]'
+  - '[[concept-思考深度分级]]'
+  - '[[concept-惊喜公式]]'
+  - '[[concept-最佳实践建模]]'
+  - '[[concept-科学决策宽度]]'
+  - '[[concept-稀缺机会窗口]]'
+  - '[[concept-美好作品想象]]'
 - yitang-domain-digest
 - decision-science-domain-digest
 - pending_unknown

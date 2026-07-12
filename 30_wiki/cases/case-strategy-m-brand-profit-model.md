@@ -15,6 +15,7 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
 related:
+  - '[[case-strategy-snack-business-design]]'
 - strategy-domain-digest
 - tool-月白-A-B双轨反推模式选择
 - tool-快招品牌总部模拟调研

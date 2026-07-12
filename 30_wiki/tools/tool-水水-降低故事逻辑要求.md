@@ -17,6 +17,7 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
 related:
+  - '[[tool-ai-narrative-test]]'
   - tool-水水-接受发散性世界观
   - tool-水水-区分风险与不确定性
   - tool-水水-利用基因漂变视角

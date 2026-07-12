@@ -17,6 +17,7 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
 related:
+  - '[[tool-candy-positioning-canvas]]'
 - tool-马易-成为首位F工程师
 - tool-马易-AI任务拆解提升控制度
 - tool-马易-平台模式验证法

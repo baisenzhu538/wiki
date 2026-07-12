@@ -25,6 +25,8 @@ review_date: "2026-06-29"
 confidence: 0.6
 trust_level: low
 related:
+  - '[[tool-月白-AI精准替换产品技巧]]'
+  - '[[tool-月白-跨境电商产品图替换法]]'
 - tool-月白-课程问题预埋法
 - tool-月白-提示词长度控制法
 - tool-月白-AI需求拆解咨询法

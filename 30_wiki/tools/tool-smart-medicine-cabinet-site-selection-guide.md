@@ -24,6 +24,7 @@ review_date: 2026-06-15
 confidence: 0.78
 trust_level: medium
 related:
+  - '[[tool-smart-medicine-cabinet-compliance-checklist]]'
 - - - concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet
 - - - concept-smart-medicine-cabinet-consumer-acceptance
 - - - smart-medicine-cabinet-clinic-risk-observation

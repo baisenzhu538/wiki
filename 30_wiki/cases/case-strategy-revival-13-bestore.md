@@ -16,6 +16,8 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_43_vlm_desc.md
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 related:
+  - '[[case-strategy-revival-14-gucci]]'
+  - '[[case-strategy-snack-industry-chain]]'
 - strategy-domain-digest
 - tool-从案例中学习
 - case-科学决策-深度案例06

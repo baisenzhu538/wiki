@@ -31,6 +31,7 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
+  - '[[framework-strategy-basics-01-core]]'
 - tool-strategy-gap-analysis
 - case-strategy-exit-remove
 updated_at: '2026-07-04'

@@ -18,6 +18,7 @@ review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
 related:
+  - '[[concept-ai-native-organization-five-steps]]'
 - - - smart-medicine-cabinet-financial-model
 - - - tool-smart-medicine-cabinet-compliance-checklist
 - - - smart-medicine-cabinet-o2o-cost-structure

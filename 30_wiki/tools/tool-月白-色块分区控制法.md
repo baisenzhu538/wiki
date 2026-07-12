@@ -25,6 +25,7 @@ review_date: "2026-06-29"
 confidence: 0.6
 trust_level: low
 related:
+  - '[[tool-月白-跨境电商产品图替换法]]'
 - tool-月白-印刷DPI标准设置
 - tool-月白-竞品图精益替换法
 - tool-月白-AI图片印刷落地预处理

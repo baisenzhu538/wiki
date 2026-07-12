@@ -15,6 +15,11 @@ source_refs:
 reviewed_by: pending
 updated_at: 2026-06-29
 related:
+  - '[[case-strategy-failure-01-cosmetics]]'
+  - '[[case-strategy-failure-02-supermarket]]'
+  - '[[case-strategy-failure-03-cleaning]]'
+  - '[[case-strategy-failure-07-phone-l]]'
+  - '[[case-strategy-failure-08-video]]'
 - strategy-domain-digest
 - tool-从案例中学习
 - case-科学决策-深度案例06

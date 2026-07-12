@@ -25,6 +25,8 @@ review_date: "2026-06-29"
 confidence: 0.6
 trust_level: low
 related:
+  - '[[tool-月白-审美刻意练习法]]'
+  - '[[tool-立即实践转化法]]'
 - tool-月白-课程问题预埋法
 - tool-月白-卖点可视化海报设计法
 - tool-月白-用一堂方法论找最佳实践并拉满执行

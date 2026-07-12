@@ -116,7 +116,7 @@ https://yitang.top/fs-doc/j31766694eaebb1d/LEYNdZe1zoeCSVxxP0Sc2O7Znfc?fromAct=l
 - 动力三曲线设计
 - 转化率动力模型
 - 西奥迪尼六大影响力原则：互惠、承诺一致、社会认同、喜好、权威、稀缺
-- 课程课课率
+- 课程到课率
 
 ---
 
