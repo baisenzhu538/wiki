@@ -97,7 +97,7 @@ for path, changes in hardcoded:
         continue
     c = f.read_text(encoding="utf-8", errors="replace")
     new_c = c
-    for line_no, old, new in changes:
+    for old, new in changes:
         if old in new_c:
             new_c = new_c.replace(old, new)
     if new_c == c: continue
