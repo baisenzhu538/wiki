@@ -1,7 +1,7 @@
 ---
 assignee: kimi
-status: queued
-updated_at: '2026-07-12'
+status: in_progress
+updated_at: '2026-07-12T14:39:51.588131+00:00'
 ---
 # 任务 #166：业务公式教练 agent 迭代（实战缺口六钉）
 
