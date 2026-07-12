@@ -34,8 +34,8 @@
         增加触点方面
     ▼ 🍫甘绘忆：元宇宙官网的咨询转...
         一、提高官网咨询转化率复盘
-        二、代理人人员招募转化率推演
-    🍫王魏:短视频的剧本拆解
+        二、代理人员招募转化率推演
+    🍫王巍:短视频的剧本拆解
 
 https://yitang.top/fs-doc/544s663b4f594151/MgIzdOT1yoXQgBxGvukczBMnnVf?fromAcl=lesson-founder              13/24
 ```
@@ -73,8 +73,8 @@ https://yitang.top/fs-doc/544s663b4f594151/MgIzdOT1yoXQgBxGvukczBMnnVf?fromAcl=l
   - 增加触点方面
 - **🍫 甘绘忆：元宇宙官网的咨询转…**
   - 一、提高官网咨询转化率复盘
-  - 二、代理人人员招募转化率推演
-- **🍫 王魏：短视频的剧本拆解**
+  - 二、代理人员招募转化率推演
+- **🍫 王巍：短视频的剧本拆解**
 
 ---
 

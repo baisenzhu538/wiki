@@ -34,7 +34,7 @@
     ▼ 🍫 甘绘忆：元宇宙官网的咨询转...
         一、提高官网咨询转化率复盘
         二、代理人员招募转化率推演
-    🍫 王魏:短视频的剧本拆解
+    🍫 王巍:短视频的剧本拆解
 
 https://yitang.top/fs-doc/544s663b4f594151/MglzdOT1yoXQgBxGvukczBMnnVf?fromAcl=lesson-founder        21/24
 ```
@@ -80,7 +80,7 @@ https://yitang.top/fs-doc/544s663b4f594151/MglzdOT1yoXQgBxGvukczBMnnVf?fromAcl=l
 1. 提高官网咨询转化率复盘
 2. 代理人员招募转化率推演
 
-## 八、王魏：短视频的剧本拆解
+## 八、王巍：短视频的剧本拆解
 
 ---
 *文档来源：yitang.top ｜ 第 21/24 页*
