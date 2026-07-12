@@ -67,6 +67,7 @@ related:
 - "[[framework-一堂-关键假设-ABCD模型]]"
 - "[[framework-一堂-苦练基本功-总纲]]"
 - "[[concept-一堂-基本功定义]]"
+- "[[tool-一堂-业务公式-L1L6参数分层自检]]"
 
 ---
 

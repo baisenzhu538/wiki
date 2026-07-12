@@ -45,6 +45,7 @@ related:
 - framework-一堂-业务公式拆解-总纲
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[business-formula-domain-digest]]'
+- '[[framework-一堂-业务公式拆解-总纲]]'
 ---
 # 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 

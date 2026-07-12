@@ -23,7 +23,8 @@ source_refs:
   - pending_archive:src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
   - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 related:
-  - yt-business-formula-six-level-logic
+  - "[[yt-business-formula-six-level-logic]]"
+  - "[[yt-business-formula-parameter-iceberg]]"
 ---
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透
 

@@ -28,6 +28,7 @@ related:
 - '[[dk-yitang-business-formula-plus-times-trap]]'
 - '[[framework-一堂-关键假设]]'
 - '[[business-formula-domain-digest]]'
+- '[[yt-tool-business-formula-parameter-arsenal]]'
 quality_labels:
 - actionable
 - framework

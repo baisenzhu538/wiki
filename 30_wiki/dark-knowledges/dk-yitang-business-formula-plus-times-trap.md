@@ -41,6 +41,7 @@ related:
   - "[[tool-月白-AI需求拆解咨询法]]"
   - "[[tool-泛产品落地-里程碑拆解]]"
   - "[[business-formula-domain-digest]]"
+  - "[[tool-一堂-业务公式-L1L6参数分层自检]]"
 tags: []
 author: 欧阳锋
 confidence: 0.85

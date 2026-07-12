@@ -32,6 +32,7 @@ related:
   - "[[concept-mckinsey-issue-tree]]"
   - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
   - "[[case-一堂-无人餐厅-hypothesis-failure]]"
+  - "[[yt-business-formula-hypothesis-management-playbook]]"
 tags: []
 version: 1
 created_at: 2026-06-11

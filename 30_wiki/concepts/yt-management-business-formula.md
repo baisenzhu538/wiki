@@ -33,6 +33,9 @@ related:
 - yt-business-formula-six-level-logic
 - "[[concept-一堂-相关不等于因果]]"
 - "[[business-formula-domain-digest]]"
+- "[[yt-business-formula-abc-model]]"
+- "[[yt-business-formula-parameter-iceberg]]"
+- "[[yt-business-formula-six-level-logic]]"
 updated_at: 2026-06-16
 id: yt-management-business-formula
 author: 老顽童

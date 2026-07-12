@@ -39,6 +39,7 @@ related:
   - "[[case-yitang-sales-transformation-tuliaogongsi]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
   - "[[tool-yitang-daily-weekly-meeting-hosting]]"
+  - "[[yt-business-formula-parameter-iceberg]]"
 created_at: 2026-07-02
 updated_at: 2026-07-08
 ---

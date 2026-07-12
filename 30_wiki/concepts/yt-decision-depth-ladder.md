@@ -40,7 +40,7 @@ related:
   - "[[ocr-泛产品设计落地工具篇指南]]"
   - "[[tool-审美工具箱]]"
   - "[[ocr-泛产品设计-审美工具箱指南]]"
-  - yt-business-formula-six-level-logic
+  - "[[yt-business-formula-six-level-logic]]"
 query_triggers:
 - src_unknown
 - src_unknown

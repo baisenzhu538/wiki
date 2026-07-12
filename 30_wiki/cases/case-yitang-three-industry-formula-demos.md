@@ -31,6 +31,7 @@ related:
 - '[[framework-一堂-关键假设]]'
 - '[[framework-科学决策三角形]]'
 - '[[framework-yitang-scientific-sales-five-step]]'
+- '[[yt-business-formula-parameter-iceberg]]'
 ---
 # 三行业公式拆解示范：民营眼科医院、篮球培训、ToB 摄像头
 

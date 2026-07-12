@@ -29,6 +29,7 @@ related:
 - "[[yt-business-formula-ten-paradigms]]"
 - "[[yt-business-formula-parameter-iceberg]]"
 - "[[yt-entrepreneur-unit-model]]"
+- "[[yt-business-formula-qualitative-metrics-library]]"
 
 ---
 

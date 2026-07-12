@@ -40,6 +40,7 @@ related:
 - framework-demand-lean-bridge
 - case-private-domain-ecommerce-formula
 - '[[business-formula-domain-digest]]'
+- '[[framework-一堂-业务公式拆解-总纲]]'
 ---
 # 业务公式 L6 魔法参数：跨行业本质公式集锦
 

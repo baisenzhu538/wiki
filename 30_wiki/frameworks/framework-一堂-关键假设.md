@@ -65,6 +65,7 @@ related:
 - '[[yt-tool-business-formula-inspiration-5]]'
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[business-formula-domain-digest]]'
+- '[[tool-一堂-业务公式-L1L6参数分层自检]]'
 diagnostic_signals:
 - signal: 团队说"我们有个好想法，准备全力以赴"，却说不清这个想法依赖哪些前提
   lens: 缺假设驱动意识——把创业当执行计划，不是当一组待验证假设
