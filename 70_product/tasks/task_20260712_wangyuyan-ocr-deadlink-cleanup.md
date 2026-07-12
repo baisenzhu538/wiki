@@ -1,7 +1,7 @@
 ---
-assignee: 黄药师
-status: queued
-updated_at: '2026-07-12'
+assignee: huangyaoshi
+status: in_progress
+updated_at: '2026-07-12T10:00:26.890394+00:00'
 reviewed_by: pending
 ---
 # 任务 #163：`ocr-*` 死链查证与处置（任务 C）

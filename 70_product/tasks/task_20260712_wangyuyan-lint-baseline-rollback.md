@@ -1,7 +1,7 @@
 ---
-assignee: 黄药师
-status: queued
-updated_at: '2026-07-12'
+assignee: huangyaoshi
+status: in_progress
+updated_at: '2026-07-12T10:00:26.758607+00:00'
 reviewed_by: pending
 ---
 # 任务 #159：回链债语义分流 + lint 基线回卷（T5 完整方案）
