@@ -27,6 +27,8 @@ source_refs:
 - https://atlan.com/know/harness-engineering-vs-prompt-engineering/
 related:
 - "[[framework-yihang-dual-triangle-weapon-library]]"
+- "[[yt-business-formula-parameter-iceberg]]"
+- "[[yt-tool-business-formula-parameter-arsenal]]"
 - "[[framework-yihang-dual-triangle-ten-year-map]]"
 - "[[framework-yihang-dual-triangle-three-stages-six-changes]]"
 - "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"

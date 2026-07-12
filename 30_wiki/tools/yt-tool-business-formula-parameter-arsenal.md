@@ -25,6 +25,8 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3232-L3298
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[concept-一堂-Agent基本功修炼]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-business-formula-ten-paradigms]]'

@@ -20,6 +20,8 @@ source_refs:
 - 70_product/tasks/task_20260711_wangyuyan-agent-fundamentals-cultivation.md（#152 编排 spec）
 related:
 - '[[concept-一堂-AI时代基本功变与不变]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-tool-business-formula-parameter-arsenal]]'
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[concept-一堂-基本功定义]]'

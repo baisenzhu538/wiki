@@ -35,6 +35,8 @@ quality_labels:
 - insight
 related:
 - "[[framework-一堂-业务公式拆解-总纲]]"
+- "[[concept-yihang-dual-triangle-core]]"
+- "[[concept-一堂-Agent基本功修炼]]"
 - "[[yt-business-formula-abc-model]]"
 - "[[yt-model-deep-review-iceberg]]"
 - "[[yt-entrepreneur-unit-model]]"
