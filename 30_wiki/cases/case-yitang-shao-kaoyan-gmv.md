@@ -12,7 +12,7 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1944-L1948
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1952-L1956
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1958-L1966
-- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L246
+- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L246-L246
 quality_labels:
 - actionable
 - cited

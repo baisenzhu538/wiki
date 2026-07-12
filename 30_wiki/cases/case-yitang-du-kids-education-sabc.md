@@ -11,7 +11,7 @@ source_context: 一堂「关键假设-业务公式」参数探索篇口述，L3 
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1972-L1978
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1980-L1984
-- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L247
+- 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L247-L247
 quality_labels:
 - actionable
 - cited

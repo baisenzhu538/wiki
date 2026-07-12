@@ -15,15 +15,22 @@ domain:
 - key-assumptions
 - business-formula
 source_refs:
-- 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt L178-L194,L2474-L2500
+- 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt L178-L194
+- 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt L2474-L2500
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-笔记.txt L15-L86
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-ABC模型图_paddle_ocr.txt
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-冰山模型图_paddle_ocr.txt
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-6层逻辑关系图_paddle_ocr.txt
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-十大业务公式范式_paddle_ocr.txt
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2-L30,L64-L172,L1050-L1074
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3400-L3444,L3486-L3590
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L12-L28,L46-L100,L880-L902,L3420-L3466
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2-L30
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L64-L172
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1050-L1074
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3400-L3444
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3486-L3590
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L12-L28
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L46-L100
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L880-L902
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3420-L3466
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2-L36
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L12-L40
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001212_vlm.md
