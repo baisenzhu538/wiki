@@ -95,6 +95,15 @@ related:
 - '[[agent-一堂五步法教练]]'
 - '[[agent-一堂-基本功教练]]'
 - '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
+- '[[dk-yitang-business-formula-a-missing-syndrome]]'
+- '[[dk-yitang-business-formula-l1-site-blindness]]'
+- '[[tool-yitang-business-formula-l5-mining-and-verification]]'
+- '[[dk-yitang-business-formula-logic-l5-l6]]'
+- '[[dk-yitang-business-formula-cd-loop-undo-key]]'
+- '[[dk-yitang-business-formula-pseudo-causality-two-masks]]'
+- '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
+- '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 diagnostic_signals:
 - signal: 用户一上来就谈目标/要方案，说不出业务现状（现有公式、当前参数值、近期变化）
   lens: 还没把业务摆到桌上——按实操篇纪律，接手第一件事是了解业务现状，不是定目标
@@ -163,6 +172,24 @@ quality_labels:
 ## 四、段位诊断法（双轴打分流程）
 
 段位 = **参数冰山轴 × 逻辑关系冰山轴**双轴定位，取短板轴定当前段位。打分范式母版：[[case-yitang-homework-six-owners]]（六负责人 Leo→Peter 推演，每人 = 一个段位的具象化）。
+
+### 逻辑关系冰山六层完整语义表（2026-07-12 #166 对齐孔源原图，禁止跳层）
+
+| 层 | 名 | 隐喻 | 核心动作 | 决策级别 | 段位画像 |
+|---|---|---|---|---|---|
+| L1 | 模糊理解 | 安慰剂 | 平铺参数、凭感觉 | 辅助参考 | Leo 型 |
+| L2 | 相关 | 体温计 | 观察规律/数据统计/专业分析 | 大方向 | — |
+| L3 | 因果 | 方向盘 | 找到做功点、区分相关与因果 | 单点击穿 | — |
+| L4 | 公式 | X光片 | 抓主要矛盾、写出完整公式 | 抓主要矛盾 | — |
+| L5 | **定量** | **刻度尺** | **找基准值、判断空间、算 ROI** | **精准 ROI 决策** | — |
+| L6 | **动态** | **导航仪** | **动态理解公式、探索最佳参数** | **追求最佳决策** | Peter 型及以上 |
+
+> **L5/L6 判定口诀**（防错位）：说的是「一个参数怎么算/还有多少空间」→ L5；说的是「公式本身怎么变」→ L6。详见 [[dk-yitang-business-formula-logic-l5-l6]]。
+> **勿与参数冰山 L5/L6 混用**——参数冰山 L5=创新参数、L6=魔法参数，与逻辑关系冰山同名不同义。引用必带冰山名。
+
+### 段位判定输出要求
+
+判定段落后必须输出**「上一层长什么样」**的描述——告诉使用者他当前段位的典型行为、以及上一个段位的人在做什么，让使用者知道往哪爬。例如：判定为 L3，必须说明 L4 公式层长什么样（「L4 的人能把参数之间的逻辑关系写成完整公式，用公式抓主要矛盾，而不是逐个参数孤立优化」）。
 
 ```
 Step 1 参数轴打分
