@@ -28,7 +28,6 @@ related:
 - "[[modeling-to-kdo-toolchain]]"
 - "[[kdo-batch-produce-req014]]"
 - "[[kdo-15-dimension-label-spec]]"
-- "[[obsidian-kdo-内容产出工作流-产品设计大纲]]"
 - "[[framework-kdo-self-attack]]"
 - "[[kdo-yaml-frontmatter-safety]]"
 - "[[yt-business-formula-abc-model]]"

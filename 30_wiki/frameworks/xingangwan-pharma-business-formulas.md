@@ -5,7 +5,7 @@ title: 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠�
 type: framework
 status: reviewed
 domain:
-- healthcare- healthcare
+- healthcare
 - pharmaceutical-retail
 - business-strategy
 - product
@@ -39,6 +39,8 @@ tags:
 ---
 
 # 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠杆变量
+
+> **归属说明**：EC 线资产（医药健康赛道），domain 已移出 business-formula（王语嫣 2026-07-12 裁定），待 EC 线激活后归位。卡 id 含 business-formula 系历史命名，lint/审计口径以 domain 为准。
 
 > **Burn line**: 业务公式回答的是“客户怎么一步一步变成利润”，而不是“利润等于多少”。
 >

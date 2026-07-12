@@ -1077,6 +1077,11 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[dark-knowledges/dk-yihang-report-book-learner|报告书型学习者：不听课直接读卡也能学会的极简路径]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[dark-knowledges/dk-yihang-scientific-community-moat|科学共同体作为一堂核心资产——冲向最大难题，解不掉就交给下一个人]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[dark-knowledges/dk-yitang-business-formula-plus-times-trap|业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策]] — source `pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript`
+- [[dark-knowledges/dk-yitang-business-formula-a-missing-syndrome|A 缺失并发症：没有锚定目标的公式无法排优先级（症状清单+三阶路径）]] — source `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:L429-619`
+- [[dark-knowledges/dk-yitang-business-formula-cd-loop-undo-key|公式是经营的撤销键：C-D 循环=打不动就退、找到就回]] — source `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:L1874-1928`
+- [[dark-knowledges/dk-yitang-business-formula-l1-site-blindness|L1 假装选址免费：选择型参数是线下业务最大隐藏变量]] — source `00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md:L28-58`
+- [[dark-knowledges/dk-yitang-business-formula-logic-l5-l6|L5 定量与 L6 动态的正名：刻度尺 vs 导航仪，两冰山 L5/L6 消歧]] — source `10_raw/assets/yitang-business-formula/孔源-业务公式拆解-6层逻辑关系图-ocr.md`
+- [[dark-knowledges/dk-yitang-business-formula-pseudo-causality-two-masks|伪因果的两个伪装：自我选择偏差+中间变量，都穿正相关+符合常识外衣]] — source `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md:L2442-2448`
 - [[dark-knowledges/dk-yitang-camel-dung-process-inertia|流程经验不与底层原因对齐，会长期低效存在]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
 - [[dark-knowledges/dk-yitang-channel-exploration-traps|渠道探索常见陷阱：18 万字共建作业里的血泪教训]] — source `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`
 - [[dark-knowledges/dk-yitang-methodology-stack-fallacy|方法论金句堆叠乱用，不如不懂]] — source `00_inbox/实事求是/实事求是-周子敬-口述.txt`
@@ -2394,6 +2399,8 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[tools/yt-tool-business-formula-metrics-checklist|yt-tool-business-formula-metrics-checklist]] — source `{'pending_archive': 'src_unknown'}`
 - [[tools/yt-tool-business-formula-parameter-arsenal|参数挖掘武器库：6 策略 → 22 动作 → 100+ 参数全量清单]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:L1386-1455`
 - [[tools/yt-tool-business-formula-quant-space-3d|定量空间三维评估：差距 × 对标 × 成熟度，判断一个参数还值不值得砸资源]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L1838-1856`
+- [[tools/tool-yitang-business-formula-l5-mining-and-verification|L5 参数挖掘与验证：三方向（动作/数值/组合）+双向八路+强制因果检验]] — source `00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md:L164-190`
+- [[tools/tool-一堂-业务公式-L1L6参数分层自检|业务公式 L1-L6 参数分层自检：六层参数清单一键体检]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`
 - [[tools/yt-tool-equity-checklist|股权设计检查清单]] — source `10_raw/sources/src_20260619_52c76864_30_wiki_concepts_yt_management_business_formula.md`
 - [[tools/yt-tool-hiring-scorecard|结构化面试打分卡]] — source `10_raw/sources/src_20260619_642947cb_30_wiki_concepts_yt_management_scientific_hiring.md`
 - [[tools/yt-tool-meeting-designer|会议设计师：一页纸会议蓝图]] — source `10_raw/sources/src_20260619_d11dc3a2_30_wiki_concepts_yt_management_scientific_meetings.md`

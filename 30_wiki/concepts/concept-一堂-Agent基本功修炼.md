@@ -15,7 +15,7 @@ domain:
 - yitang
 - ai-collaboration
 source_refs:
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L654-866（花总案例，行号口径同 #150 spec #19 卡）
+- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt L654-L866
 - 30_wiki/personal-os/zhu-feedback-patterns.md
 - 70_product/tasks/task_20260711_wangyuyan-agent-fundamentals-cultivation.md
 related:
