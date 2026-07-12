@@ -105,3 +105,39 @@ grade: A-
 #162 C 域骨干直连收口。
 
 *欧阳锋 2026-07-12 · #162 终审*
+
+---
+
+## 严格口径复核对 #162 改判（欧阳锋 · 2026-07-12 · 结论：HOLD / 待 G0 修复）
+
+用户要求「严格审查，保持一贯水准」。按此口径重新审查上一节：
+
+### 改判理由
+
+- 第 93 条把 `system-yitang-Y-model-os → C 域总纲` 的 bare id 视为「按解析 frontmatter related 口径双向命中」，这是对标准的放水。
+- 本任务交付的是**关系型边**，关系型边的定义就是可解析的双向 wikilink；bare id 在 Obsidian/KDO 链路中**不构成有效出链**，仅是一条文本记录。
+- #159 标准正在收紧「真关系 vs 假关系」，本任务作为关系型边样板，更不能让「bare id 回链」这种半吊子状态入库。
+- 若放任，后续 #159 阶段 2/3 按 wikilink 解析时会直接把这条边漏掉，等于把未闭合当闭合。
+
+### G0 修复项（一行级）
+
+- 文件：`30_wiki/systems/system-yitang-Y-model-os.md`
+- 位置：frontmatter `related` 第 44 行
+- 当前：`- framework-一堂-业务公式拆解-总纲`
+- 改为：`- "[[framework-一堂-业务公式拆解-总纲]]"`
+
+### 复验口径
+
+修复后必须：
+1. `grep -n "framework-一堂-业务公式拆解-总纲" 30_wiki/systems/system-yitang-Y-model-os.md` 命中 `[[...]]` 形式；
+2. `kdo pre-submit -f 30_wiki/systems/system-yitang-Y-model-os.md` PASS；
+3. `kdo lint --baseline HEAD` 无新增 error。
+
+三项全绿后，本 G0 项销号。因 `queue_transition.py` 不支持 `reviewed→queued` 回退，**生产队列状态保持 reviewed**，但本任务未真正闭环；老顽童须先完成 G0 修复并由欧阳锋复验，方可视为释放。
+
+### 对其他已审任务的影响
+
+- #162 未真正收口，老顽童完成 G0 前不宜领新任务。
+- #159/#163 仍按此前审计记录 HOLD，队列状态不变。
+
+*欧阳锋 2026-07-12 · 严格口径复核对 #162 改判*

@@ -4,7 +4,7 @@ updated_at: 2026-07-12T06:45:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "欧阳锋 #162 已终审 PASS/A-（C 域骨干直连 7 对双向边 + 2 对已闭合 + 2 条死链摘除，独立复验全绿）。#163/#159 仍处于 HOLD（黄药师需补 apply 与阶段 2/3 证据）。当前队列：#162 reviewed；#159/#163 queued 待黄药师返工。"
+active_task: "欧阳锋严格口径复核 #162：发现 system-yitang-Y-model-os 回链 C 域总纲使用 bare id 而非 [[...]]，已追加强制 G0 修复项；队列脚本不支持 reviewed 回退，故生产队列保持 reviewed，但老顽童须完成修复并复验后视为真正释放。#159/#163 仍 HOLD 待黄药师补证据/apply。"
 blockers:
   - "无阻塞项。队列与任务单状态已同步。"
   - "当前任务状态见 production-queue.md（唯一真相源）"
