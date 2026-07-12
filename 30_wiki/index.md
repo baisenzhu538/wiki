@@ -341,10 +341,15 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[cases/case-yitang-track-selection-research|案例：一堂赛道选择——用调研方法论选创业方向]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
 - [[cases/case-yitang-travel-receipt-analysis|案例：旅行公司收据分析——从单据反推真实数据]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[cases/case-yitang-truman-time-management-transformation|案例：Truman 用 Y模型 重构时间管理——从被动打断到科学体系]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
+- [[cases/case-yitang-vicky-short-video|Vicky 短视频：从"盯结果+抄同行+掷骰子"到测试群+飞书假设池，团队心力逆转、业务跑出来]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L776-796`
 - [[cases/case-yitang-voice-robot-companion-design|案例：陪伴式语音机器人——声音设计如何调研]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
+- [[cases/case-yitang-wang-mcn-funnel|王同学 MCN：签素人六环漏斗 + 团队假设表，从一个人盯签约到四期行动营量率双升]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L1314-1320`
 - [[cases/case-yitang-waste-recycling-subjective-failure|案例：废品回收站——主观臆测从单店成功到多店失败]] — source `00_inbox/实事求是/实事求是-周子敬-口述.txt`
 - [[cases/case-yitang-weekly-modeling-engine|案例：一堂的"周对周建模迭代"——把周五课程逼成公司增长引擎]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- [[cases/case-yitang-wenxiaozhang-driving-school|温校长驾校：十年传统业务拆公式后校园代理×招生链成关键路径，"六杯奶茶"触点假设把推荐率再提一级、业务再翻一倍]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L886-906`
+- [[cases/case-yitang-woqingke-referral-15-to-40|一堂「我请客」推荐率攻坚：三层公式展开把 15% 干到 40%，一年半 70-100 个假设]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt:L318-568`
 - [[cases/case-yitang-xiaohuangdog-recycling-cabinet|案例：小黄狗回收柜——忽略事实的典型代价]] — source `00_inbox/实事求是/实事求是-周子敬-口述.txt`
+- [[cases/case-yitang-xingangwan-chess-room|鑫港湾自助棋牌室：把"流量×转化×客单×复购"四参数公式拆到几十个参数，一年半回本、西安全国第一]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:L654-718`
 - [[cases/case-yitang-xujian-invoice-saas-channel|案例：徐建发票 SaaS 如何通过渠道探索找到支付推手]] — source `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`
 - [[cases/case-yitang-Y-model-advertising-turnaround|一堂抖音 AD 投放扭亏：Y模型科学投放实战]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
 - [[cases/case-yitang-Y-model-seven-applications|Y模型七人跨域应用案例集]] — source `00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md`
@@ -358,6 +363,8 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[cases/case-yitang-ymodel-children-reading-retention|Y模型 案例：小学生在线阅读——外行看一眼画布就能平等对话]] — source `00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md`
 - [[cases/case-yitang-ymodel-vicki-cross-domain-transfer|Y模型 案例：Vicki 开店→短视频跨域迁移——Y模型 比五步法更底层 1-2 层]] — source `00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md`
 - [[cases/case-yitang-ymodel-watermelon-challenge|Y模型 案例：拍西瓜满级挑战——1000次循环从普通人到顶尖选手]] — source `00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md`
+- [[cases/case-yitang-zhanglei-comic-booth|张磊漫展展位：9平米亏到100平米，靠一张业务公式+摄像头复盘把展位做到200平米盈利]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt:L1090-1116`
+- [[cases/case-yitang-zhanglei-gacha-points|张磊点位扭蛋机：5个点位日销100单，沿L1到L6六阶段把业务从"模糊模型"推演成动态公式]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:L3358-3416`
 - [[cases/case-zhanglan-amusement-park-undercover|案例：张兰假扮游乐园店长卧底15天]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
 - [[cases/case-zhanglei-furniture-overseas-market-selection|案例：张磊——洗衣液蹲超市+假扮促销员]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[cases/case-zhanglei-nursing-home-family|案例：假扮孙子调研养老院真实状况]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
