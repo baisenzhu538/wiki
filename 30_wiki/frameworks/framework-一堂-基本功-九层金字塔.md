@@ -28,6 +28,8 @@ related:
 - '[[tool-一堂-基本功-练习二十法]]'
 - '[[management-domain-digest]]'
 - '[[method-dual-triangle-flywheel-engine]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-six-level-logic]]'
 diagnostic_signals:
 - signal: 团队学了基本功课，回去只记得"要苦练"三个字，落地动作一个没有
   lens: 只爬到金字塔第一层（理念）就停了——下面八层（对象/目标/路径/策略/工具）一层没碰

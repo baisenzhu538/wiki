@@ -81,6 +81,7 @@ related:
 - '[[case-yitang-du-kids-education-sabc]]'
 - '[[case-yitang-false-causality-collection]]'
 - '[[case-yitang-innovative-metrics-collection]]'
+- '[[framework-一堂-基本功-九层金字塔]]'
 - '[[case-yitang-three-industry-formula-demos]]'
 - '[[tool-动力阻力分析]]'
 - '[[framework-business-formula-dual-triangle-bridge]]'

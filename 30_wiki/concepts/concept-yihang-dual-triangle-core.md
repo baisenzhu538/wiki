@@ -48,6 +48,7 @@ related:
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 - "[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]"
 - "[[tool-yitang-dual-triangle-domain-registry]]"
+- "[[framework-一堂-业务公式拆解-总纲]]"
 aliases:
 - 一行双三角
 - 一堂双三角

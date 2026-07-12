@@ -26,6 +26,7 @@ related:
 - '[[yt-management-team-knowledge]]'
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[yt-management-basic-skills]]'
+- '[[framework-一堂-业务公式拆解-总纲]]'
 diagnostic_signals:
 - signal: 基本功清单发下去两周，问团队"练到哪一步了"，答案五花八门
   lens: 四字诀顺序断了——多数团队只做了"拆"，没"建"就催"练"

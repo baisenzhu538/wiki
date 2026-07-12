@@ -28,8 +28,6 @@ related:
 - "[[yt-system-course-catalog]]"
 - "[[framework-一堂-业务公式拆解-总纲]]"
 - "[[yt-business-formula-ten-paradigms]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
 - yt-business-formula-six-level-logic
 - "[[concept-一堂-相关不等于因果]]"
 - "[[business-formula-domain-digest]]"

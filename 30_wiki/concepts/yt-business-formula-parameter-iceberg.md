@@ -72,6 +72,7 @@ related:
 - "[[case-yitang-wang-mcn-funnel]]"
 - "[[case-yitang-shao-kaoyan-gmv]]"
 - "[[case-yitang-false-causality-collection]]"
+- "[[framework-一堂-基本功-九层金字塔]]"
 - "[[case-yitang-magic-number-collection]]"
 - "[[case-yitang-innovative-metrics-collection]]"
 - "[[case-yitang-three-industry-formula-demos]]"

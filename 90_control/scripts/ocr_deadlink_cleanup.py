@@ -16,15 +16,13 @@ VAULT_ROOT = Path(__file__).resolve().parent.parent.parent
 SANDBOX = VAULT_ROOT / "90_control" / ".sandbox"
 MANIFEST_ARCHIVE = SANDBOX / "ocr_deadlink_manifest.json"
 
-# ── 条件 2: 改项目标锁定（欧阳锋"读正文"二分裁定：仅正文实质引用保留为改，其余降级摘）──
+# ── 条件 2: 改项目标锁定（欧阳锋"读正文"二分裁定 + 逐卡复核）──
 REPLACEMENT_MAP = {
-    # KEEP_改: yt-entrepreneur-unit-model body含"单元模型"+"单用户"≥2关键词
+    # KEEP_改 (8 pairs, 欧阳锋复核通过): 同族6 + 正文命中2
+    #   同族: concept-最简单元模型/yt-tob-unit-model/tool-单元模型-单商圈/单城市/壁垒预判/象限分析法
+    #   正文: dk-modeling-unit-pairs-milestone/framework-TCPR底层网络协议
     "ocr-一堂-单元模型-单用户模型": "yt-entrepreneur-unit-model",
-    # DOWNGRADE_摘 (正文无实质引用，仅主题相关):
-    # ocr-一堂y模型steps策略集 — tool-yitang-Y-model-application body仅"应用"1词
-    # ocr-泛产品设计-落地卡片-攻坚会 — yt-tool-business-formula-gongjianhui body仅"攻坚会"1词
-    # ocr-一堂-人机协作-双三角模型 — concept-yihang-dual-triangle-core body仅"双三角"1词
-    # ocr-一堂y模型-科学成事道理 — yt-decision-y-model body仅"Y模型"1词
+    # DOWNGRADE_摘 (11+14+13+12+11=61 pairs): 4个目标正文无实质引用，降级
 }
 
 
@@ -163,9 +161,29 @@ def main():
 
     print(f"Unique ocr targets: {len(by_target)}")
 
-    # Determine action for each target
+    # 逐卡判定：改项目标中仅白名单 from-id 保留改，其余摘
+    GAI_WHITELIST = {
+        "ocr-一堂-单元模型-单用户模型": {
+            # 同族6 (same family): concept-最简单元模型, yt-tob-unit-model, tool-单元模型-单商圈/单城市/壁垒预判/象限分析法
+            "concept-最简单元模型", "yt-tob-unit-model",
+            "tool-单元模型-单商圈", "tool-单元模型-单城市", "tool-单元模型-壁垒预判", "tool-单元模型-象限分析法",
+            # 正文命中2 (body hit): dk-modeling-unit-pairs-milestone, framework-TCPR底层网络协议
+            "dk-modeling-unit-pairs-milestone", "framework-TCPR底层网络协议",
+        },
+    }
+
+    def get_action(ocr_target, from_id):
+        if ocr_target in REPLACEMENT_MAP:
+            whitelist = GAI_WHITELIST.get(ocr_target, set())
+            if from_id in whitelist:
+                return ("改", REPLACEMENT_MAP[ocr_target])
+            else:
+                return ("摘", "")  # 不在白名单 → 降级摘
+        return ("摘", "")
+
     actions = {}
     for ocr in by_target:
+        # 预计算 — actions dict 在这里只用于非逐卡目标
         if ocr in REPLACEMENT_MAP:
             actions[ocr] = ("改", REPLACEMENT_MAP[ocr])
         else:
@@ -177,9 +195,8 @@ def main():
     touched_files: set[str] = set()
 
     for ocr_target, from_ids in sorted(by_target.items()):
-        action, replacement = actions[ocr_target]
-
         for from_id in from_ids:
+            action, replacement = get_action(ocr_target, from_id)
             card_file = find_card_file(from_id)
             if not card_file:
                 print(f"  SKIP: cannot find card file for {from_id}")

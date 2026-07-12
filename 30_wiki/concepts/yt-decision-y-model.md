@@ -46,6 +46,7 @@ related:
   - '[[framework-yitang-y-model-cross-domain-fusion]]'
   - '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
   - '[[principle-yitang-y-model-dual-posture]]'
+  - '[[framework-一堂-业务公式拆解-总纲]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 ---
