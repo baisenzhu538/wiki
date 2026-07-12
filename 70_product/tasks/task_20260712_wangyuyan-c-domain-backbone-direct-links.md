@@ -1,7 +1,7 @@
 ---
 assignee: kimi
-status: queued
-updated_at: '2026-07-12'
+status: in_progress
+updated_at: '2026-07-12T06:29:49.899274+00:00'
 reviewed_by: pending
 ---
 # 任务 #162：C 域骨干直连（任务 A，欧阳锋建议书落地）
