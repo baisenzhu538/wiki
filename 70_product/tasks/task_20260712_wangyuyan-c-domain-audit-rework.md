@@ -11,7 +11,7 @@ updated_at: '2026-07-12'
 
 ## 背景
 
-欧阳锋 C 域整体质量审计发现：双基线口径差异导致增量门禁对 C 域失盲（`.lint_baseline.json` 0 error vs `kdo lint --domain business-formula` 220 new error）——154 条 source_refs 死文件 + 67 条 case 卡 section 缺失 + ~39 条 tool 卡 section 缺失被旧基线吸收成「零新增」假象。审计返工清单（§六）已按 P0-P2 排好，本任务将其落地。
+欧阳锋 C 域整体质量审计发现：双基线口径差异导致增量门禁对 C 域失盲（`.lint_baseline.json` 0 error vs `kdo lint --domain business-formula` 220 new error）。**王语嫣 2026-07-12 独立复验（#159 基线重建后）**：审计的 154 条 source_refs 死文件已修复 89 条，残留 65 条构成=**43 条「路径带备注」格式债（证据文件都在，备注括进路径）+ 21 条「非路径文本」（如「VLM 图号 004557」描述性引用）+ 仅 1 条真·文件缺失**。lint 全量 248 new error / 94 warning（含 section 缺失等，以 `kdo lint --domain business-formula` 明细为准）。**性质裁定：不是溯源链断裂，是引用格式不规范——真断链只有 1 条。**
 
 ## 交付清单（按审计 §六返工清单，负责人以本任务单为准）
 
