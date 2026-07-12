@@ -165,3 +165,7 @@ python kdo-tools/agent-prompt-compiler.py <agent-id> --dry-run                # 
 ---
 
 *黄药师 2026-07-04*
+
+---
+
+<!-- 手动状态同步（欧阳锋 2026-07-12）：本任务队列已标记 reviewed 且备注“欧阳锋终审通过”，但任务单 frontmatter 仍为 queued。因 queue_transition.py 无法处理历史状态不一致，本次手动同步 status/review_date/reviewed_by，保持队列与任务单一致。 -->

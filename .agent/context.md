@@ -1,15 +1,15 @@
 ---
-updated: 2026-07-07
-updated_at: 2026-07-07T18:00:00+00:00
+updated: 2026-07-12
+updated_at: 2026-07-12T06:45:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "生产队列 #60-#118 全部 reviewed/done。当前无活跃生产任务。老顽童待命。黄药师 P-10 跨域模式层完成，wiki 管道碎片化清理中。"
+active_task: "欧阳锋启动后执行队列完整性审计与 #162 终审：① 修复 audit_queue_integrity.py 任务单搜索路径（缺 70_product/tasks）；② 同步 6 个历史任务单 frontmatter 状态；③ 批量补全 14 个 reviewed 任务单 review_date/reviewed_by 元数据；④ 独立验证 #162 C域骨干直连 7 对双向边 + 摘除 2 条死链；⑤ 10/10 文件 pre-submit PASS，终审 A-。当前审计 0 异常、0 不一致；队列 2 queued / 0 pending_review / 0 claimed。"
 blockers:
-  - "无阻塞项。所有历史阻塞已解除。"
+  - "无阻塞项。队列与任务单状态已同步。"
   - "当前任务状态见 production-queue.md（唯一真相源）"
   - "旧任务文件 laowantong-next-tasks.md / laowantong-batch-*.md 已废弃——不要读。"
-next_session_hint: "下一步：① 黄药师完成管道收拢清理；② 王语嫣确认是否有新任务入队；③ 关注 OSCAR 卡补齐（P0 建议）、external-exploration-sop 补写（P1 建议）；④ 等待下一个生产周期启动。"
+next_session_hint: "下一步：① 黄药师继续处理 #159 lint 基线回卷 / #163 ocr 死链处置；② 老顽童 #162 C域骨干直连生产中；③ 欧阳锋按需月度抽检或等待新 pending_review 任务；④ 关注 health-check.py Windows GBK 编码错误（已暴露，待黄药师修）。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

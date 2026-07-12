@@ -65,3 +65,7 @@ flywheel.py 目前是**手动版**——人在会话结束后回答飞轮四问�
 
 - #85（AI 辅助复盘法 method 卡）提供提示词模板
 - #69（画布 Agent CLI）作为第一个试点 Agent
+
+---
+
+<!-- 手动状态同步（欧阳锋 2026-07-12）：本任务队列已标记 reviewed，任务单 frontmatter 仍为 queued。手动同步 status/review_date/reviewed_by，保持队列与任务单一致。 -->

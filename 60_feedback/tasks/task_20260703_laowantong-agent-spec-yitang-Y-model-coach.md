@@ -207,3 +207,7 @@ Y模型 OS（怎么思考）        ← 所有 Agent 共享，建一次
 同意封账。
 
 *终审：欧阳锋 · 2026-06-29*
+
+---
+
+<!-- 手动状态同步（欧阳锋 2026-07-12）：本任务队列已标记 reviewed，任务单 frontmatter 为 pending_review 且文件名与队列 ID 不一致（文件名为 task_20260703_laowantong-agent-spec-yitang-Y-model-coach.md，id 为 task_20260703_laowantong-yitang-Y-model-os）。手动同步 status/review_date，保持队列与任务单一致。queue_transition.py 按文件名定位任务单的已知问题已记录在队列备注中。 -->

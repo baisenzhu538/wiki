@@ -198,5 +198,5 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 159 | `task_20260712_wangyuyan-lint-baseline-rollback` | 回链债语义分流+lint基线回卷（T5完整方案）：阶段0边分类标准(gate)→例外落表(三铁律)→真债分批修(抽样>90%放量)→基线重建三连复验 | queued | 黄药师 | 标准草案+例外表+manifest+复验报告 | 无（反向蒸馏开产前必须完成；阶段0需欧阳锋审签） |
 | 160 | `task_20260712_wangyuyan-y-model-fusion-backlink` | Y模型fusion卡L74补C域总纲链（T4）：一行related追加+pre-submit，申报制 | reviewed | 老顽童 | 补链+门禁输出 | 无（顺手件不占管线） |
 | 161 | `task_20260712_wangyuyan-c-domain-outbound-bridges` | C域域外桥接增强：图谱孤立修复（域外出链10.3%→≥20%，零域外链卡减半），语义真实优先不许造链 | reviewed | 老顽童 | related补链+复测报告 | 无（P1不阻塞反向蒸馏） |
-| 162 | `task_20260712_wangyuyan-c-domain-backbone-direct-links` | C域骨干直连（欧阳锋建议书任务A）：6外部hub↔C域总纲双向~12-18边，逐边grep只补缺方向 | pending_review | 老顽童 | 双向边+grep输出 | #161交卷后领（边清单去重） |
+| 162 | `task_20260712_wangyuyan-c-domain-backbone-direct-links` | C域骨干直连（欧阳锋建议书任务A）：6外部hub↔C域总纲双向~12-18边，逐边grep只补缺方向 | reviewed | 老顽童 | 双向边+grep输出 | #161交卷后领（边清单去重） |
 | 163 | `task_20260712_wangyuyan-ocr-deadlink-cleanup` | ocr-*死链处置（任务C）：处置清单已签过（6条件），dry-run→diff抽验≥10%→apply→增量零新增 | queued | 黄药师 | 复扫零死链+manifest归档 | **时序卡死：#159阶段3基线重建前完成，或完成后立即重建**（P2） |

@@ -331,3 +331,7 @@ framework 卡生产完成后，必须反向在以下已有卡的 `related` 中�
 - Cal Newport《深度工作》：https://calnewport.com/books/deep-work/
 - Mihaly Csikszentmihalyi《Flow》：https://www.harpercollins.com/products/flow-mihaly-csikszentmihalyi
 - Anders Ericsson deliberate practice：https://en.wikipedia.org/wiki/Anders_Ericsson
+
+---
+
+<!-- 手动状态同步（欧阳锋 2026-07-12）：本任务队列已标记 reviewed，70_product/tasks 版任务单 frontmatter 仍为 queued（60_feedback/tasks 下另有 closed_merged 旧版）。手动同步 status/review_date，以 70_product/tasks 版为当前真相源。 -->

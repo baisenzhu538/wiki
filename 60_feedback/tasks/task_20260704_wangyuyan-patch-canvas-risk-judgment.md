@@ -45,3 +45,7 @@ related:
 ## 依赖
 
 - #69 完成（画布 Agent CLI 已交付）
+
+---
+
+<!-- 手动状态同步（欧阳锋 2026-07-12）：本任务任务单 frontmatter 为 reviewed，队列为 done。手动同步 status=done，与王语嫣设置的队列终端状态一致。 -->

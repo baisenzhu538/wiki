@@ -35,3 +35,7 @@ related:
 ## 优先级
 
 P2——不阻塞主线队列。黄药师在 #69/#73/#98 之后处理。
+
+---
+
+<!-- 手动状态同步（欧阳锋 2026-07-12）：本任务队列已标记 reviewed 且备注“欧阳锋终审通过”，任务单 frontmatter 仍为 queued。手动同步 status/review_date/reviewed_by，保持队列与任务单一致。 -->
