@@ -1,0 +1,1285 @@
+WARNING: 30_wiki/concept-card-index-latest.md: Wiki page has no visible source references.
+ERROR: 30_wiki/concepts/concept-mcp-protocol.md: concept card has empty source_refs — required for traceability. Must reference at least one source file.
+WARNING: 30_wiki/cross-domain-patterns/pattern-hypothesis-validation.md: Wiki page has no visible source references.
+WARNING: 30_wiki/cross-domain-patterns/pattern-layered-matching.md: Wiki page has no visible source references.
+WARNING: 30_wiki/cross-domain-patterns/pattern-tool-vs-model.md: Wiki page has no visible source references.
+WARNING: 30_wiki/cross-domain-patterns/README.md: Wiki page has no visible source references.
+WARNING: 30_wiki/personal-os/README.md: Wiki page has no visible source references.
+WARNING: 30_wiki/personal-os/zhu-domain-index.md: Wiki page has no visible source references.
+WARNING: 30_wiki/personal-os/zhu-feedback-patterns.md: Wiki page has no visible source references.
+WARNING: 30_wiki/personal-os/zhu-project-board.md: Wiki page has no visible source references.
+WARNING: 30_wiki/personal-os/zhu-strategic-conclusions.md: Wiki page has no visible source references.
+ERROR: 30_wiki/tools/tool-agent-native-overview.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-ai-ai-workspace-setup.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-ai-evidence-check.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-ai-narrative-test.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-ai-old-small-checklist.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-ai-parallel-validation.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-ai-prd-for-ai.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-ai-problem-validation.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-ai-purpose-bias-check.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-ai-system-redundancy.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-ai-voice-input-doubao.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-demand-agent-auto-verify.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-demand-agent-case-match.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-demand-agent-multi-hypothesis.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-demand-agent-signals.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-XY-Problem识别与真实问题定位.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-个人判断力系统建设（达克效应应对）.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-人在环渐进自动化策略.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-低质量动作识别与拒绝.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-判断力产品化与系统赋能.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-双三角模型应用.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-开源模型与商业模型融合方案.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-技术社区严肃提问法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-提示词优化底层方法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-数学题与语文题区分法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-本地记忆与云端记忆管理.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-知识库最佳实践构建.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-短视频自动化上传工作流.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-科学提问法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-职场异步协作提问法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-语义对齐沟通法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-Truman-问题定义澄清法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-AI任务拆解提升控制度.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-AI搜索公网数据增强（合规边界）.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-AI答疑运营风格适配.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-AI能力团队复制.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-AI落地前置条件验证.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-AI落地四阶段验证法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-AI落地场景识别-拆工作流找场景.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-AI落地场景识别与拆分.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-AI落地能力内化训练.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-AI落地认知速成-最佳实践学习法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-AI项目上线-先平行再独行.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-AI项目需求拆解筛选.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-中国企业AI落地五步法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-低置信度样本黄金漏斗处理.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-公寓获客自跑通原则.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-关键假设识别与验证.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-减少输入噪音法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-判断标准快速产出法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-工作流拆解找场景.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-成为首位F工程师.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-数据存储架构选择.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-数据标注正确法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-时间序列大模型场景识别.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-深度沉浸需求挖掘.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-痛点驱动的数字化.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-视频转化关键要素标注校验.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-销售智能体体系搭建路径.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-隐性知识萃取与模型化.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-隐私安全分层解决.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-需求创造验证法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+ERROR: 30_wiki/tools/tool-马易-风口痛点识别法.md: tool card has empty source_refs — required for traceability. Must reference at least one source file.
+WARNING: 30_wiki/_dogfood_dk.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/_dogfood_dk2.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/_test_pa.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-ai-search-commerce-platform-hedge.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-demand-iceberg-few-shot.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-qinpeng-iot-module-tiering.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-truman-praise-wall-precondition.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-truman-shower-toilet-ideation.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-200th-launch-depth-split.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-2022-annual-lessons.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-curtain-listening.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-leo-website-redesign.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-meeting-room-match.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-shishi-qiushi-pitfall-1-subjective-speculation.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-shishi-qiushi-pitfall-10-over-abstraction.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-shishi-qiushi-pitfall-2-ignore-facts.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-shishi-qiushi-pitfall-3-overgeneralization.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-shishi-qiushi-pitfall-4-no-quantification.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-shishi-qiushi-pitfall-5-over-prediction.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-shishi-qiushi-pitfall-6-deny-patterns.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-shishi-qiushi-pitfall-7-underestimate-patterns.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-shishi-qiushi-pitfall-8-wrong-analogy.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-shishi-qiushi-pitfall-9-methodology-superstition.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yitang-zhongzheng-parking-garage.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/concept-card-index-latest.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/concepts/concept-jevons-paradox-in-ai.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/concepts/concept-token-capital.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/concepts/concept-一堂-business-prediction.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/concepts/concept-一堂-终局光谱图解读.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/concepts/concept-讲香-卖点直给到价值感.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cross-domain-patterns/README.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cross-domain-patterns/pattern-hypothesis-validation.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cross-domain-patterns/pattern-layered-matching.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cross-domain-patterns/pattern-tool-vs-model.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/dark-knowledges/dk-ai-builder-illusion.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/dark-knowledges/dk-long-material-layered-reading-protocol.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/dark-knowledges/dk-skill-seven-elements-upgrade.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/dark-knowledges/dk-yihang-ai-false-certainty.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/dark-knowledges/dk-yihang-multi-ai-cross-validation.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/dark-knowledges/dk-yihang-non-expert-judgment.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/dark-knowledges/dk-yihang-technical-domain-aesthetic.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/dark-knowledges/dk-yitang-project-overmanagement-vs-bare-run.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/dark-knowledges/yt-product-kernel-cost-sensitive-default-no.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/dark-knowledges/yt-product-kernel-overpromise-trap.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-ai-native-organization-two-modes.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-bimodal-time-philosophy.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-business-formula-dual-triangle-bridge.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-business-formula-fundamentals-bridge.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-business-formula-y-model-bridge.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-deep-work-iceberg.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-demand-ceiling-four-lines.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-taste-as-judgment-system.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-time-management-dual-loop-matrix.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-time-management-matrix.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-yihang-fde-ai-native-org.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-yitang-project-abcd-classification.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-yitang-project-breakdown.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-yitang-project-execution.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-yitang-project-plan-design.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-yitang-project-retrospective.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-yitang-sales-target-tradeoffs.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-yitang-y-model-cross-domain-fusion.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-一堂-个人表达力.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-一堂-关键假设-ABCD模型.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-一堂-关键假设-三板斧.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-一堂-关键假设.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-一堂-机会预判.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-一堂-表达力火箭模型.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-一堂五步法-单元模型.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-一堂五步法-增长周期.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-一堂五步法-壁垒.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-一堂五步法.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-个人学习方法-IPO学习闭环.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-个人学习方法-思维模型.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-个人学习方法-知识萃取.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-个人学习方法-科学提问.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/frameworks/framework-个人学习方法总框架.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/knowledges/knowledge-demand-2b-dictionary.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/knowledges/knowledge-demand-2c-dictionary.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/methods/method-judge-skill-meta-evaluation.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/methods/method-kdo-agent-design-meta.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/methods/method-kdo-agent-distillation.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/methods/method-kdo-external-exploration-sop.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/methods/method-kdo-inbox-annotation.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/methods/method-yihang-agent-hr-role.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/methods/method-yihang-dual-triangle-team-assembly.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/methods/method-yihang-human-self-distillation.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/operations/runbook-agent-spec-to-runtime.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/personal-os/wangyuyan-working-protocols.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/personal-os/zhu-codebase-ai-orchestration.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/personal-os/zhu-project-board.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/principles/principle-yitang-y-model-dual-posture.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/skills/skill-demand-analysis.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/skills/skill-yitang-project-spiral-thinking.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/agent-spec-codex-teammate.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/agent-spec-project-management-assistant.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-IPO学习-输入处理输出工具箱导航.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-agent-spec-business-formula-parameter-miner.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-ai-feature-inventory.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-bimodal-time-blocking.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-dark-time-harvesting.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-demand-ceiling-coach.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-demand-chai-tui-ping-suan-guide.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-demand-micro-experience-script.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-demand-option-explorer.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-demand-rat-generator.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-focus-environment-sop.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-meeting-room-match.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-open-closed-problem-classifier.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-oscar-kdo-external-exploration.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-public-scheduling.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-task-depth-decomposition.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-team-task-pool.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-three-ring-capability-filter.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-weekly-hypothesis-experiment.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-daily-weekly-meeting-hosting.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-dual-triangle-agent-handoff-protocol.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-dual-triangle-domain-registry.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-dual-triangle-scenario-router.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-listening-37-rule.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-payment-collection-playbook.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-change-decision.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-change-identification.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-change-workflow.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-comm-frequency.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-comm-matrix.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-communication-plan.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-cost-estimation.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-gap-analysis.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-kickoff-meeting.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-plan-canvas.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-progress-tracking.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-proposal-checklist.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-resource-escalation.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-retro-goal-types.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-retro-value-mining.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-risk-discovery.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-risk-response.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-unblock-techniques.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-project-weapon-library-v1-8.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-retrospective-canvas.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-sales-toolkit-maturity-60-75-85.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-yitang-three-second-opening-scripts.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-一堂-kernel-six-verification-strategies.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-一堂-关键假设-ABCD场景分类器.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-一堂-机会预判-五步法预判.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-一堂-机会预判-案例预判.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-一堂-表达力火箭模型-执行武器库.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-一堂五步法-ToB-十八式-checklist.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-一堂五步法-换档检查清单.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-一堂五步法-段位升级三部曲.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-个人学习方法-修炼闭环自检清单.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-泛产品设计-出牌指南.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/tools/tool-泛产品设计-需求可行性四字诀.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/workflows/workflow-yitang-project-four-step-loop.md: Wiki page not listed in 30_wiki/index.md
+WARNING: 30_wiki/cases/case-yihang-dual-triangle-kunte-virtual-idol.md: source_refs entry `pending_archive` not found in state.json source registry or on disk
+ERROR: 30_wiki/cases/case-yitang-2022-annual-lessons.md: source_refs entry `00_inbox/管项目/项目管理-案例-一堂初五大课分析_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/cases/case-yitang-2022-annual-lessons.md: source_refs entry `00_inbox/管项目/项目管理-案例-一堂初五大课分析_ocr_text.md`: file not found on disk
+ERROR: 30_wiki/cases/case-yitang-2022-annual-lessons.md: source_refs entry `00_inbox/管项目/项目管理-入门篇-口述.txt`: file not found on disk
+ERROR: 30_wiki/cases/case-yitang-2022-annual-lessons.md: source_refs entry `00_inbox/管项目/项目管理-做复盘-口述.txt`: file not found on disk
+WARNING: 30_wiki/cases/case-yitang-copywriting-time-decomposition.md: source_refs entry `case-yitang-Y-model-advertising-turnaround` not found in state.json source registry or on disk
+ERROR: 30_wiki/cases/case-yitang-leo-website-redesign.md: source_refs entry `00_inbox/管项目/项目管理-入门篇-口述.txt`: file not found on disk
+ERROR: 30_wiki/cases/case-一堂-基本功-认知篇案例集.md: source_refs entry `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L370-1530`: file not found on disk
+ERROR: 30_wiki/cases/case-一堂-基本功-认知篇案例集.md: source_refs entry `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L898-1516`: file not found on disk
+ERROR: 30_wiki/cases/case-一堂-春萍-刘伟tob销售标准化.md: source_refs entry `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L176-384（刘伟案例完整口述）`: file not found on disk
+ERROR: 30_wiki/cases/case-一堂-春萍-温校长校园代理.md: source_refs entry `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L386-650（温校长案例完整口述）`: file not found on disk
+ERROR: 30_wiki/cases/case-一堂-春萍-花总AI研发.md: source_refs entry `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L654-866（花总案例完整口述）`: file not found on disk
+WARNING: 30_wiki/cases/case-婚礼规划.md: source_refs entry `婚礼行业一线策划师访谈与多场真实婚礼复盘` not found in state.json source registry or on disk
+WARNING: 30_wiki/cases/case-婚礼规划.md: source_refs entry `Y模型在婚礼筹备场景中的实操映射` not found in state.json source registry or on disk
+WARNING: 30_wiki/cases/case-婚礼规划.md: source_refs entry `新人婚后满意度回访数据（样本量约120对）` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/ai-native-im-multi-agent.md: source_refs entry `src_20260614_c5115d2c-龙虾-AI原生IM工具演示` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/ai-俱乐部人和-ai-协作-五层结构.md: source_refs entry `src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md: source_refs entry `src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/concept-smart-medicine-cabinet-consumer-acceptance.md: source_refs entry `src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/concept-smart-medicine-cabinet-consumer-acceptance.md: source_refs entry `src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/concept-smart-medicine-cabinet-digital-pharmacy-diagnosis.md: source_refs entry `src_20260613_98aa19d4-itingnao-deep-dive-digital-pharmacy` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet.md: source_refs entry `src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet.md: source_refs entry `src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/concept-smart-medicine-cabinet-international-models.md: source_refs entry `src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/concept-smart-medicine-cabinet-international-models.md: source_refs entry `src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/concept-yitang-channel-lean-validation-bridge.md: source_refs entry `lean-startup-domain-digest` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/concept-yitang-channel-lean-validation-bridge.md: source_refs entry `diag_20260627_wangyuyan-cross-domain-bridge-supplement` not found in state.json source registry or on disk
+ERROR: 30_wiki/concepts/concept-一堂-business-prediction.md: source_refs entry `00_inbox/一堂-商业预判课-Truman-口述.txt`: file not found on disk
+ERROR: 30_wiki/concepts/concept-一堂-business-prediction.md: source_refs entry `00_inbox/一堂-商业预判课-truman-笔记.txt`: file not found on disk
+ERROR: 30_wiki/concepts/concept-一堂-key-assumptions.md: source_refs entry `00_inbox/一堂-关键假设课-truman-口述.txt L364-L402,L584,L818,L1064-L1074,L2460-L2482`: file not found on disk
+WARNING: 30_wiki/concepts/fd-forward-deployment.md: source_refs entry `src_20260614_ab09af1c-多人-FD模式解析` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/graph-rag.md: source_refs entry `src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/rust-borrowing-references.md: source_refs entry `pending_archive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/rust-concurrency-send-sync.md: source_refs entry `pending_archive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/rust-domain-overview.md: source_refs entry `pending_archive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/rust-error-handling.md: source_refs entry `pending_archive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/rust-lifetimes.md: source_refs entry `pending_archive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/rust-ownership-basics.md: source_refs entry `pending_archive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/rust-smart-pointers.md: source_refs entry `pending_archive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/rust-traits-generics.md: source_refs entry `pending_archive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/smart-medicine-cabinet-national-policy-redlines.md: source_refs entry `src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/smart-medicine-cabinet-national-policy-redlines.md: source_refs entry `src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/smart-medicine-cabinet-o2o-cost-structure.md: source_refs entry `src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/smart-medicine-cabinet-o2o-cost-structure.md: source_refs entry `src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/smart-medicine-cabinet-o2o-cost-structure.md: source_refs entry `src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/smart-medicine-cabinet-regional-policy-map.md: source_refs entry `src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/smart-medicine-cabinet-regional-policy-map.md: source_refs entry `src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md: source_refs entry `src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/yitang-qualitative-to-quantitative.md: source_refs entry `src_20260614_606a631d-张磊-精益方法论培训` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/yitang-qualitative-to-quantitative.md: source_refs entry `src_20260614_6d9f7671-业务公式拆解培训` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/yitang-qualitative-to-quantitative.md: source_refs entry `src_20260616_b1e25c49-zhanglei-lean-testing-ama` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/yt-business-formula-l6-essence-formulas.md: source_refs entry `src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/yt-business-formula-l6-essence-formulas.md: source_refs entry `src_20260613_6edbf0af-yitang-business-formula-decomposition-notes` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/yt-business-formula-l6-essence-formulas.md: source_refs entry `src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/yt-entrepreneur-scientific-method.md: source_refs entry `src_20260614_faa8021d-Y模型探索营-第二节课` not found in state.json source registry or on disk
+ERROR: 30_wiki/concepts/yt-management-basic-skills.md: source_refs entry `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L104-360（认知篇）`: file not found on disk
+ERROR: 30_wiki/concepts/yt-management-basic-skills.md: source_refs entry `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-口述.txt:L268-686（拆解篇）`: file not found on disk
+ERROR: 30_wiki/concepts/yt-management-basic-skills.md: source_refs entry `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt:L156-526（武器库篇）`: file not found on disk
+ERROR: 30_wiki/concepts/yt-management-project-management.md: source_refs entry `00_inbox/管项目/项目管理-入门篇-口述.txt`: file not found on disk
+ERROR: 30_wiki/concepts/yt-management-project-management.md: source_refs entry `00_inbox/管项目/项目管理-定方案-口述.txt`: file not found on disk
+ERROR: 30_wiki/concepts/yt-management-project-management.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-口述.txt`: file not found on disk
+ERROR: 30_wiki/concepts/yt-management-project-management.md: source_refs entry `00_inbox/管项目/项目管理-管过程-口述.txt`: file not found on disk
+ERROR: 30_wiki/concepts/yt-management-project-management.md: source_refs entry `00_inbox/管项目/项目管理-做复盘-口述.txt`: file not found on disk
+ERROR: 30_wiki/concepts/yt-management-project-management.md: source_refs entry `00_inbox/管项目/项目管理-入门篇-笔记.txt`: file not found on disk
+ERROR: 30_wiki/concepts/yt-management-project-management.md: source_refs entry `00_inbox/管项目/项目管理-定方案-笔记.txt`: file not found on disk
+ERROR: 30_wiki/concepts/yt-management-project-management.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-笔记.txt`: file not found on disk
+ERROR: 30_wiki/concepts/yt-management-project-management.md: source_refs entry `00_inbox/管项目/项目管理-管过程-笔记.txt`: file not found on disk
+ERROR: 30_wiki/concepts/yt-management-project-management.md: source_refs entry `00_inbox/管项目/项目管理-做复盘-笔记.txt`: file not found on disk
+WARNING: 30_wiki/concepts/yt-model-deep-review-iceberg.md: source_refs entry `src_20260522_c92a36ba-ocr-一堂深度复盘冰山图` not found in state.json source registry or on disk
+ERROR: 30_wiki/concepts/yt-model-pan-product-demand-toolkit.md: source_refs entry `00_inbox/一堂-个人修身-泛产品设计实操口述版.md L1796,L1808-L1870,L1936-L2096,L2370-L2417,L4350-L4450,L5070-L5170,L5420-L5460`: file not found on disk
+ERROR: 30_wiki/concepts/yt-model-pan-product-execution-toolkit.md: source_refs entry `00_inbox/一堂-个人修身-泛产品设计实操口述版.md L2750-L2920,L4082-L4140,L4234-L4348,L4456-L4588,L4716-L4870,L5066-L5080,L5100-L5170`: file not found on disk
+WARNING: 30_wiki/concepts/yt-personal-deliberate-practice.md: source_refs entry `src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习` not found in state.json source registry or on disk
+WARNING: 30_wiki/concepts/互联网医院模式深度调研报告.md: source_refs entry `src_20260501_9962715b-互联网医院模式深度调研报告` not found in state.json source registry or on disk
+WARNING: 30_wiki/dark-knowledges/dk-skill-market-agent-self-install.md: source_refs entry `src_20260606_6ea91aa8-纪浩-AI协作方法论-口述` not found in state.json source registry or on disk
+WARNING: 30_wiki/dark-knowledges/dk-yihang-ai-false-certainty.md: source_refs entry `对话记录：2026-07-05 老朱 Codex Claude Windows 10 案例` not found in state.json source registry or on disk
+WARNING: 30_wiki/dark-knowledges/dk-yihang-non-expert-judgment.md: source_refs entry `对话记录：2026-07-05 老朱结构工程师案例` not found in state.json source registry or on disk
+WARNING: 30_wiki/dark-knowledges/dk-yihang-non-expert-judgment.md: source_refs entry `对话记录：2026-07-05 老朱代码库梳理案例` not found in state.json source registry or on disk
+ERROR: 30_wiki/dark-knowledges/dk-yihang-technical-domain-aesthetic.md: source_refs entry `对话记录：2026-07-05 老朱论电子工程/SaaS/机械结构域审美`: file not found on disk
+ERROR: 30_wiki/dark-knowledges/dk-yitang-project-overmanagement-vs-bare-run.md: source_refs entry `00_inbox/管项目/项目管理-入门篇-口述.txt`: file not found on disk
+ERROR: 30_wiki/dark-knowledges/dk-yitang-project-overmanagement-vs-bare-run.md: source_refs entry `00_inbox/管项目/项目管理-定方案-口述.txt`: file not found on disk
+WARNING: 30_wiki/entities/Kimi-月之暗面.md: source_refs entry `src_20260503_52ae08ba-kdo_product_design_agent_final` not found in state.json source registry or on disk
+WARNING: 30_wiki/entities/YC-Y-Combinator.md: source_refs entry `src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown` not found in state.json source registry or on disk
+WARNING: 30_wiki/entities/一堂.md: source_refs entry `src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript` not found in state.json source registry or on disk
+WARNING: 30_wiki/entities/紫鲸AI.md: source_refs entry `src_20260428_29929c1f-紫鲸ai智能体工作流平台` not found in state.json source registry or on disk
+WARNING: 30_wiki/entities/鑫港湾.md: source_refs entry `src_20260503_52ae08ba-kdo_product_design_agent_final` not found in state.json source registry or on disk
+WARNING: 30_wiki/frameworks/ai-complex-communication.md: source_refs entry `src_20260614_d79b42d1-D同学-AI技术落地案例` not found in state.json source registry or on disk
+WARNING: 30_wiki/frameworks/beverage-foodservice-channel.md: source_refs entry `src_20260614_8a0317f1-产品-市场分析讨论` not found in state.json source registry or on disk
+WARNING: 30_wiki/frameworks/beverage-foodservice-channel.md: source_refs entry `src_20260614_16c4bf0d-双柚汁产品成本沟通` not found in state.json source registry or on disk
+WARNING: 30_wiki/frameworks/beverage-foodservice-channel.md: source_refs entry `src_20260614_d6ab6fb6-产品调配-口感与成本讨论` not found in state.json source registry or on disk
+WARNING: 30_wiki/frameworks/beverage-foodservice-channel.md: source_refs entry `src_20260614_9b574611-金银花浓缩汁餐饮产品方案` not found in state.json source registry or on disk
+ERROR: 30_wiki/frameworks/framework-business-formula-y-model-bridge.md: source_refs entry `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L700`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-demand-ceiling-four-lines.md: source_refs entry `00_inbox/五步法之需求分析/一堂-需求分析-空间测算-口述.txt L322-L344,L1308-L1870,L2252-L2278,L2348`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-demand-ceiling-four-lines.md: source_refs entry `00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt L1720-L1796,L1962-L1976`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yihang-dual-triangle-ai-landing-five-steps.md: source_refs entry `00_inbox/人机协作双三角/_processed/贝壳找房案例口述.pdf`: file not found on disk
+WARNING: 30_wiki/frameworks/framework-yitang-channel-unit-economics.md: source_refs entry `yt-unit-model-concept` not found in state.json source registry or on disk
+WARNING: 30_wiki/frameworks/framework-yitang-channel-unit-economics.md: source_refs entry `yt-unit-model-overview` not found in state.json source registry or on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-abcd-classification.md: source_refs entry `00_inbox/管项目/项目管理-入门篇-口述.txt`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-abcd-classification.md: source_refs entry `00_inbox/管项目/项目管理-定方案-口述.txt`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-breakdown.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-口述.txt`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-breakdown.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-笔记.txt`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-breakdown.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-六维敏感度模型_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-breakdown.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-拆计划小抄_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-breakdown.md: source_refs entry `00_inbox/管项目/项目管理-角色分工-RASCI模型_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-execution.md: source_refs entry `00_inbox/管项目/项目管理-管过程-口述.txt`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-execution.md: source_refs entry `00_inbox/管项目/项目管理-管过程-笔记.txt`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-execution.md: source_refs entry `00_inbox/管项目/项目管理-管过程-控变化_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-execution.md: source_refs entry `00_inbox/管项目/项目管理-管过程-守质量_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-plan-design.md: source_refs entry `00_inbox/管项目/项目管理-定方案-口述.txt`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-plan-design.md: source_refs entry `00_inbox/管项目/项目管理-定方案-笔记.txt`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-retrospective.md: source_refs entry `00_inbox/管项目/项目管理-做复盘-口述.txt`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-project-retrospective.md: source_refs entry `00_inbox/管项目/项目管理-做复盘-笔记.txt`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-sales-incentive-6d.md: source_refs entry `00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt L398-L402,L1126-L1128,L1648-L1654`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-sales-target-tradeoffs.md: source_refs entry `00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt L280-L282,L392-L394,L470-L500,L508-L520`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-yitang-scientific-sales-five-step.md: source_refs entry `00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L800-L814,L228-L230,L266,L372`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-一堂-关键假设-ABCD模型.md: source_refs entry `00_inbox/一堂-关键假设课-truman-口述.txt L364-L402,L1064-L1074`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-一堂-关键假设-三板斧.md: source_refs entry `00_inbox/一堂-关键假设课-truman-口述.txt L1064-L1074,L2460-L2482`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-一堂五步法-单元模型.md: source_refs entry `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L527-L528,L574-L589`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-一堂五步法-增长周期.md: source_refs entry `00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt L39-L58,L331-L390,L372-L376,L582-L589`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-一堂五步法-壁垒.md: source_refs entry `00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt L425-L427,L1222-L1234`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-一堂五步法.md: source_refs entry `00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt L39-L58,L331-L390,L372-L376,L582-L589,L866-L980`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-一堂五步法.md: source_refs entry `00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt L425-L427,L1222-L1234`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-个人学习方法-思维模型.md: source_refs entry `00_inbox/一堂-个人修身-思维模型口述版.md L8,L18,L1072-L1086,L2756`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-个人学习方法-知识萃取.md: source_refs entry `00_inbox/一堂-个人修炼-知识萃取探索营口述版.md L22-L36,L48,L80,L96`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-个人学习方法-科学提问.md: source_refs entry `00_inbox/AI-study/一堂-AI学习-科学提问口述.txt L96,L396,L432-L436,L1070`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-个人学习方法总框架.md: source_refs entry `00_inbox/AI-study/一堂-AI学习-科学提问口述.txt L96,L396`: file not found on disk
+ERROR: 30_wiki/frameworks/framework-个人学习方法总框架.md: source_refs entry `00_inbox/一堂-个人修身-思维模型口述版.md L8,L1072-L1086`: file not found on disk
+WARNING: 30_wiki/frameworks/smart-device-foodservice-automation.md: source_refs entry `src_20260614_909802bd-智能设备-外卖对接方案讨论` not found in state.json source registry or on disk
+ERROR: 30_wiki/methods/method-yihang-agent-hr-role.md: source_refs entry `对话记录：2026-07-05 老朱 Agent 纠察队/HR 角色实践`: file not found on disk
+WARNING: 30_wiki/personal-os/opc-ai-sales-agent-architecture.md: source_refs entry `对话记录：2026-07-02 王语嫣 × 老朱 OPC战略讨论` not found in state.json source registry or on disk
+WARNING: 30_wiki/skills/feishu-docx-pagination-extraction.md: source_refs entry `pending_archive` not found in state.json source registry or on disk
+ERROR: 30_wiki/skills/skill-yitang-project-spiral-thinking.md: source_refs entry `00_inbox/管项目/项目管理-入门篇-口述.txt`: file not found on disk
+ERROR: 30_wiki/skills/skill-yitang-project-spiral-thinking.md: source_refs entry `00_inbox/管项目/项目管理-定方案-口述.txt`: file not found on disk
+WARNING: 30_wiki/systems/agent-external-brain-design.md: source_refs entry `src_20260503_52ae08ba-kdo_product_design_agent_final` not found in state.json source registry or on disk
+WARNING: 30_wiki/systems/agent-native-card-design.md: source_refs entry `src_20260503_52ae08ba-kdo_product_design_agent_final` not found in state.json source registry or on disk
+WARNING: 30_wiki/systems/graph-rag-retrieval-layer.md: source_refs entry `src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm` not found in state.json source registry or on disk
+WARNING: 30_wiki/systems/graph-rag-retrieval-layer.md: source_refs entry `src_20260503_9bfe6913-一堂-调研行动营启动_原文润色` not found in state.json source registry or on disk
+ERROR: 30_wiki/tools/agent-spec-project-management-assistant.md: source_refs entry `00_inbox/管项目/项目管理-入门篇-口述.txt`: file not found on disk
+ERROR: 30_wiki/tools/agent-spec-project-management-assistant.md: source_refs entry `00_inbox/管项目/项目管理-定方案-口述.txt`: file not found on disk
+ERROR: 30_wiki/tools/agent-spec-project-management-assistant.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-口述.txt`: file not found on disk
+ERROR: 30_wiki/tools/agent-spec-project-management-assistant.md: source_refs entry `00_inbox/管项目/项目管理-管过程-口述.txt`: file not found on disk
+ERROR: 30_wiki/tools/agent-spec-project-management-assistant.md: source_refs entry `00_inbox/管项目/项目管理-做复盘-口述.txt`: file not found on disk
+WARNING: 30_wiki/tools/smart-medicine-cabinet-financial-model.md: source_refs entry `src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/smart-medicine-cabinet-financial-model.md: source_refs entry `src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/smart-medicine-cabinet-financial-model.md: source_refs entry `src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/smart-medicine-cabinet-financial-model.md: source_refs entry `src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/smart-medicine-cabinet-fraud-detection.md: source_refs entry `src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/smart-medicine-cabinet-fraud-detection.md: source_refs entry `src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/smart-medicine-cabinet-fraud-detection.md: source_refs entry `src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/smart-medicine-cabinet-fraud-detection.md: source_refs entry `src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance` not found in state.json source registry or on disk
+ERROR: 30_wiki/tools/tool-agent-spec-business-formula-parameter-miner.md: source_refs entry `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L700`: file not found on disk
+ERROR: 30_wiki/tools/tool-ai-feature-inventory.md: source_refs entry `GitHub synaptiai/agent-capability-standard 99原子能力本体`: file not found on disk
+WARNING: 30_wiki/tools/tool-ai-feature-inventory.md: source_refs entry `arXiv 2510.14537 MCP Server Taxonomy` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/tool-ai-feature-inventory.md: source_refs entry `IEEE Access 2026 7维29子维评估框架` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/tool-ai-landing-five-steps.md: source_refs entry `src_20260606_ef4877d0-所以90的核心问题` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/tool-ai-research-five-steps.md: source_refs entry `src_20260606_90b44191-没有人呀现在` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/tool-ai-scene-four-elements.md: source_refs entry `src_20260606_ef4877d0-所以90的核心问题` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/tool-clinic-cabinet-legal-contract-guide.md: source_refs entry `src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/tool-clinic-cabinet-legal-contract-guide.md: source_refs entry `src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis` not found in state.json source registry or on disk
+ERROR: 30_wiki/tools/tool-demand-micro-experience-script.md: source_refs entry `00_inbox/五步法之需求分析/一堂-需求分析-剥离需求-口述.txt L1228-L1232,L1336-L1342`: file not found on disk
+WARNING: 30_wiki/tools/tool-oscar-kdo-external-exploration.md: source_refs entry `method-kdo-external-exploration-sop` not found in state.json source registry or on disk
+WARNING: 30_wiki/tools/tool-smart-medicine-cabinet-compliance-checklist.md: source_refs entry `src_20260613_2286ccfb-itingnao-deep-dive-compliance` not found in state.json source registry or on disk
+ERROR: 30_wiki/tools/tool-yitang-daily-weekly-meeting-hosting.md: source_refs entry `00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L1426-L1462,L1488-L1490`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-daily-weekly-meeting-hosting.md: source_refs entry `00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L246,L954-L970`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-payment-collection-playbook.md: source_refs entry `00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt L320-L354,L420-L458,L560-L588,L824-L832,L1386-L1394,L1466`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-口述.txt`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-笔记.txt`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-六维敏感度模型_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-拆计划小抄_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md: source_refs entry `00_inbox/管项目/项目管理-角色分工-RASCI模型_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-change-decision.md: source_refs entry `00_inbox/管项目/项目管理-管过程-变化处理_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-change-identification.md: source_refs entry `00_inbox/管项目/项目管理-管过程-控变化_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-change-workflow.md: source_refs entry `00_inbox/管项目/批注 2026-07-07 190929_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-change-workflow.md: source_refs entry `00_inbox/管项目/批注 2026-07-07 190944_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-comm-frequency.md: source_refs entry `00_inbox/管项目/批注 2026-07-07 190510_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-comm-matrix.md: source_refs entry `00_inbox/管项目/项目管理-管过程-沟通渠道_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-communication-plan.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-沟通机制建立_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-cost-estimation.md: source_refs entry `00_inbox/管项目/项目管理-定方案-成本估算维度_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-gap-analysis.md: source_refs entry `00_inbox/管项目/批注 2026-07-07 192500_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-kickoff-meeting.md: source_refs entry `00_inbox/管项目/项目管理-管过程-口述.txt`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-kickoff-meeting.md: source_refs entry `00_inbox/管项目/项目管理-管过程-笔记.txt`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-kickoff-meeting.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-沟通机制建立_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-plan-canvas.md: source_refs entry `00_inbox/管项目/项目管理-定方案-口述.txt`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-plan-canvas.md: source_refs entry `00_inbox/管项目/项目管理-定方案-方案评估三角形_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-plan-canvas.md: source_refs entry `00_inbox/管项目/项目管理-定方案-背景分析8个维度_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-plan-canvas.md: source_refs entry `00_inbox/管项目/项目管理-定方案-目标分析-思考清单_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-progress-tracking.md: source_refs entry `00_inbox/管项目/项目管理-管过程-手段评估表_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-proposal-checklist.md: source_refs entry `00_inbox/管项目/项目管理-定方案-撰写方案细节checklist_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-resource-escalation.md: source_refs entry `00_inbox/管项目/批注 2026-07-07 191015_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-retro-goal-types.md: source_refs entry `00_inbox/管项目/批注 2026-07-07 192335_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-retro-value-mining.md: source_refs entry `00_inbox/管项目/批注 2026-07-07 192121_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-risk-discovery.md: source_refs entry `00_inbox/管项目/项目管理-定方案-常见风险清单_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-risk-response.md: source_refs entry `00_inbox/管项目/项目管理-定方案-常见风险应对清单_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-unblock-techniques.md: source_refs entry `00_inbox/管项目/批注 2026-07-07 190747_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-weapon-library-v1-8.md: source_refs entry `00_inbox/管项目/项目管理-项目管理武器库_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-weapon-library-v1-8.md: source_refs entry `00_inbox/管项目/项目管理-项目管理武器库_ocr_text.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-weapon-library-v1-8.md: source_refs entry `00_inbox/管项目/项目管理-入门篇-口述.txt`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-weapon-library-v1-8.md: source_refs entry `00_inbox/管项目/项目管理-定方案-口述.txt`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-weapon-library-v1-8.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-口述.txt`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-weapon-library-v1-8.md: source_refs entry `00_inbox/管项目/项目管理-管过程-口述.txt`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-project-weapon-library-v1-8.md: source_refs entry `00_inbox/管项目/项目管理-做复盘-口述.txt`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-retrospective-canvas.md: source_refs entry `00_inbox/管项目/批注 2026-07-07 192810_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-retrospective-canvas.md: source_refs entry `00_inbox/管项目/批注 2026-07-07 192859_vlm_desc.md`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-retrospective-canvas.md: source_refs entry `00_inbox/管项目/项目管理-做复盘-口述.txt`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-sales-performance-management.md: source_refs entry `00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L1426-L1462,L1488-L1490`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-sales-performance-management.md: source_refs entry `00_inbox/销售专题/_processed/业绩推进管理-一堂业绩管理拆解画布-课程匹配工具_vlm.md L21-L24,L79-L82`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-sales-toolkit-maturity-60-75-85.md: source_refs entry `00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L34,L1314,L1434-L1446`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-three-second-opening-scripts.md: source_refs entry `00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L720,L2276-L2282`: file not found on disk
+ERROR: 30_wiki/tools/tool-yitang-three-second-opening-scripts.md: source_refs entry `00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt L764`: file not found on disk
+ERROR: 30_wiki/tools/tool-一堂-hypothesis-validation-three-axe.md: source_refs entry `00_inbox/一堂-关键假设课-truman-口述.txt L1064-L1074,L2460-L2482`: file not found on disk
+ERROR: 30_wiki/workflows/workflow-yitang-project-four-step-loop.md: source_refs entry `00_inbox/管项目/项目管理-入门篇-口述.txt`: file not found on disk
+ERROR: 30_wiki/workflows/workflow-yitang-project-four-step-loop.md: source_refs entry `00_inbox/管项目/项目管理-定方案-口述.txt`: file not found on disk
+ERROR: 30_wiki/workflows/workflow-yitang-project-four-step-loop.md: source_refs entry `00_inbox/管项目/项目管理-拆计划-口述.txt`: file not found on disk
+ERROR: 30_wiki/workflows/workflow-yitang-project-four-step-loop.md: source_refs entry `00_inbox/管项目/项目管理-管过程-口述.txt`: file not found on disk
+ERROR: 30_wiki/workflows/workflow-yitang-project-four-step-loop.md: source_refs entry `00_inbox/管项目/项目管理-做复盘-口述.txt`: file not found on disk
+WARNING: 30_wiki/cases/case-ai-search-commerce-platform-hedge.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-ban-fei-mao-conversion-hacker-skill.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-ban-fei-mao-from-assignment-to-tool.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-ban-fei-mao-skill-ab-test.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-cross-xingangwan-pharma.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-cross-yuanqi-forest.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-decision-science-lunch-break-compression.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-decision-science-topcity-negative-revenue-rank.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-decision-science-universal-salary-raise-roi.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-ji-hao-ai-workspace-chaos.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-ji-hao-skills-market.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-ji-hao-ui-design-constraint-evolution.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-lean-adult-education.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-lean-combination-test-paradigm.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-lean-crayfish-combo-test.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-lean-electric-scooter-mvp.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-lean-gray-test-paradigm.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-lean-radish-channel-selection.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-lean-shampoo-selling-points.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-lean-wrong-demand.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-lean-zhanglei-failure-counterfactual.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-lean-zhanglei-hypothesis-validation.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-lean-zhanglei-pivot-decision.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-live81-ai-trademark-design.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-opc-agent-wave1-real-model-testing.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-panproduct-top135-selection-polish.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-panproduct-yitao-project-background.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-qinpeng-iot-module-tiering.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-shampoo-product-kernel.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-strategy-cool-boiled-water.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-strategy-edward-jones.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-strategy-exit-remove.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-strategy-exit-sell.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-strategy-failure-01-cosmetics.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-strategy-failure-02-supermarket.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-strategy-failure-03-cleaning.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-strategy-practice-ranpeng-crossborder.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-truman-prd-checklist-evolution.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-truman-sales-report-structure.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-wanghuan-education-sales-capability-extraction.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-wanghuan-education-sales-paced.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-wanghuan-shenyang-software-3x-efficiency.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-wanghuan-yiyu-qingji-medical-notes.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-yitang-double-triangle-confidence.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-yitang-sales-transformation-jubensha-saas.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-yitang-sales-transformation-meirongyuan.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-yitang-sales-transformation-tuliaogongsi.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-yitang-Y-model-seven-applications.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-yitang-zhongzheng-parking-garage.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/cases/case-纪浩-from-zip-to-five-layers.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/2026-05-17-深夜感想.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/ai-collaboration-mindset-shift.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/ai-landing-scene-selection.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/ai-learning-closed-loop.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/ai-俱乐部人和-ai-协作-五层结构.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/aima-ai思维卡-外部链接归档.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/ai时代判断力口述.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-abundance-paradox.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-ai-native-organization-five-steps.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-cognitive-offloading-in-ai-era.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-jevons-paradox-in-ai.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-ji-hao-ai-collaboration-methodology.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-mckinsey-issue-tree.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-mckinsey-mece.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-token-capital.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-wanghuan-adversarial-generation.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-wanghuan-ai-native-definition.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-wanghuan-flywheel-first-loop.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-wanghuan-power-of-standards.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-wanghuan-tacit-knowledge-examples.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-单元模型-学练用.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-提升笔记阅读舒适度.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-科学决策宽度.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-纪浩-ai-collaboration-five-layer.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/concept-问题驱动式深度思考笔记.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/contingency-decision-making.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/course-to-skill-conversion.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/deepseek-v4-在知识管理系统中的应用.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/design-ai-image-generation.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/EC工业化规范手册.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/find-old-do-small.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/HIS系统开发实现方案-架构师指南.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/kdo-yaml-frontmatter-safety.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/kdo_product_design_agent_final.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/learning-thinking.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/prd-as-ai-instruction.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/sprint-2-门禁举证验收.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/structured-ai-workspace.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/tools-workflows.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/truman-perspective-skill.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/voice-input-doubao.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/writing-content.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-concept-ai-guard-brain.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-concept-context-engineering.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-decision-ai-partner.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-decision-canvas.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-decision-depth-ladder.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-decision-width-method.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-management-basic-skills.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-management-business-formula.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-management-company-culture.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-management-conversion-hacking.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-management-finance-basics.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-management-founder-role.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-management-goal-management.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-management-onboarding.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-management-scientific-decision.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-management-scientific-hiring.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-management-scientific-meetings.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-management-team-knowledge.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-management-toolkit-overview.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-model-deep-review-iceberg.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-model-management-map.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-model-pan-product-36-strategies.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-model-pan-product-aesthetic-toolkit.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-model-pan-product-demand-toolkit.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-model-pan-product-execution-toolkit.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-note-ai-human-division.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-note-checklist-concept.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-note-expert-interview-modeling.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-note-extensive-research-input.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-note-fact-pattern-insight.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-note-l4-internalization.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-note-l6-extraction.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-note-problem-solving-capability.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-aesthetic-collection.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-aesthetic-imagination.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-aesthetic-modeling.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-aesthetic-pool.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-demand-industry-canvas.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-demand-motivation-resistance.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-demand-multi-perspective.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-demand-need-discovery.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-demand-peak-end-rule.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-demand-project-background.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-demand-scenario-walkthrough.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-demand-surprise-formula.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-demand-user-perspective.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-panproduct-demand-user-segmentation.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-prompt-anti-flattery.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-prompt-brainstorming.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-prompt-iterative-prompting.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-prompt-writing-workflow.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-skill-checklist-as-ai-protocol.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-system-course-catalog.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-unit-model-ai-assisted.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-unit-model-benchmark.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-unit-model-construction.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-unit-model-dynamic.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/yt-unit-model-selection.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/保达云诊所深度调研报告.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/在设计小伙伴的反馈还挺好的.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/存储策略.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/学会提问在信息洪流中锻造批判性思维的利刃.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/开源HIS系统代码深度分析报告.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/紫鲸ai智能体工作流平台.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/老朱的水感-2026年5月.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/视觉prompt三层操作系统-srom-visual-os.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/轻量级诊所HIS调研全清单.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/concepts/那今天不会.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-ai-builder-illusion.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-ai-design-pitfalls.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-ban-fei-mao-atomic-no-standard.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-ban-fei-mao-real-business-is-the-engine.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-ban-fei-mao-silky-answers-are-dangerous.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-c10-batch-tool-no-dry-run.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-c2-dual-status-machine.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-c3-txt-ingest-skip.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-c4-selfcheck-superseded.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-c5-todo-false-positive.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-c6-large-source-overflow.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-c7-auto-backup-conflict.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-c9-batch-trigger-garbage.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-f10-broken-source-refs.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-f11-encyclopedia-style.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-f12-builder-context-deadlock.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-f14-accuracy-measurement-mismatch.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-f3-state-json-race-condition.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-f4-wrong-workdir.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-f5-stale-feedback-ref.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-f6-cjk-skeleton-corruption.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-f9-generic-critique.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-foresight-tier-skip-illusion.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-ji-hao-ai-cant-design-structure.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-ji-hao-constraint-beats-talent.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-ji-hao-logs-fastest-ignored.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-ji-hao-novice-mindset-advantage.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-ji-hao-pdca-starts-from-do.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-ji-hao-problem-vs-question.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-ji-hao-simple-complex-routing.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-lz-code-is-disposable.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-modeling-checklist-formatting-rules.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-modeling-course-rnd-ripe-fruit.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-modeling-logical-cleanliness-root.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-modeling-model-arsenal-paradigms.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-modeling-question-scaffold-not-answer.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-modeling-unit-pairs-milestone.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-note-maximum-common-divisor.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p1-model-switch-env.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p11-regex-cutoff.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p13-token-burn.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p14-zombie.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p16-validate-reads-state-json.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p17-accuracy-gap.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p2-tmux-cache.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p20-bigram-fail.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p3-auth-cache.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p4-batch-format-empty.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p5-cc-connect-config.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p6-session-resume-fail.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p7-ocr-skip.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p8-toolkit-forget.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-p9-glob-miss.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-pseudo-demand-trap.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-signal-cluster-illusion.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-strategy-consulting-jokes.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-strategy-essence-four-elements.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-tool-as-phased-validator.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-truman-document-is-real-project-is-fake.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-wanghuan-agent-platform-director-mode.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-weekly-modeling-iteration-growth-engine.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb1-aigc-mvp-before-ps.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb10-theory-moat-designer.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb11-visual-book-reverse.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb16-ecommerce-product-image-vs-lucky-draw.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb18-small-shop-image-mismatch.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb19-visual-strategy-price-match.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb2-llm-muddy-clear-muddy.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb22-visual-presentation-scene-match.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb23-ai-pre-screen-three-minutes.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb27-pseudo-layer-evasion.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb3-diffusion-stepwise-vs-human-holistic.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb30-ecommerce-channel-version.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb4-nano-banana-style-reproduction.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb5-style-asset-archive.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb6-midjourney-chinese-text-fix.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb7-design-demand-80-10-10.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb8-file-naming-eight-elements.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yb9-cubox-deployment-failure.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yitang-sales-common-pitfalls.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dark-knowledges/dk-yitang-Y-model-pitfalls.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dk/dk-research-decision-first-mapping.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dk/dk-research-identity-craft-for-closed-information.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dk/dk-research-triangulation-stop-rule.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dk/dk-strategy-correlation-vs-causation-leverage.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dk/dk-strategy-stage-leverage-mismatch.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dk/dk-yitang-behavior-over-asking.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dk/dk-yitang-business-model-risk-over-product-risk.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dk/dk-yitang-model-asset-capitalization.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dk/dk-单元模型-找全成本实操难点.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dk/dk-单元模型-找基准值实操难点.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/dk/dk-单元模型-规模对抗实操难点.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/concept-maister-trusted-advisor.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-ai-native-organization-two-modes.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-lean-four-principles.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-strategy-ansoff.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-strategy-basics-01-core.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-strategy-basics-02-insight.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-strategy-basics-04-system.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-strategy-basics-05-change.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-strategy-business-design.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-strategy-five-forces.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-strategy-mckinsey-7s.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-strategy-pyramid.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-strategy-three-horizons.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-taste-as-judgment-system.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-TCPR底层网络协议.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-wanghuan-actor-director-mode.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-wanghuan-ai-five-level-ladder.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-wanghuan-bitcoe-prompt-framework.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-wanghuan-five-criteria-first-product.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-wanghuan-gan-three-roles.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-wanghuan-harness-seven-stages.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-wanghuan-ooda-loop.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-wanghuan-say-think-do-toolchain.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-wanghuan-task-product-system.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-wanghuan-three-tier-dev-architecture.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-yitang-sales-incentive-6d.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-yitang-sales-target-tradeoffs.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-yitang-scientific-sales-five-step.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/framework-单元模型-外部对抗地图.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/xingangwan-pharma-business-formulas.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/xingangwan-pharma-business-model-formulas.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/frameworks/yt-unit-model-ladder.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/projects/shanxi-field-research-checklist-20260701.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/systems/agent-external-brain-design.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/systems/system-yitang-research-workflow.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/agent-spec-codex-teammate.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/sk-ai-evidence-check.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/sk-ai-old-small-checklist.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/sk-ai-problem-validation.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/sk-ai-question-problem-checklist.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/sk-ai-system-redundancy.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-agent-spec-yitang-opening-3min.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-agent-spec-yitang-self-motivation.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-agent-spec-yitang-Y-model-coach.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ai-deliverable-polish-loop.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ai-four-elements-validation.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ai-info-literacy-three-layer.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ai-use-barbell-strategy.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-demand-agent-l4-case-match.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-mece体系框架法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-note-keyword-bolding.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-note-layer-constraint.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-note-one-line-one-point.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-opc-sales-dialogue-assistant.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-open-closed-problem-classifier.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-prompt-iceberg-demand-analysis.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-prompt-jtbd-scenario-coach.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-prompt-usp-quick-scan.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-scene-design-language-translation.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-strategy-blue-ocean-canvas.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-strategy-business-summary.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-strategy-control-points.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-strategy-core-competence-matrix.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-strategy-fishbone.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-strategy-lifecycle.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-strategy-map.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-strategy-profit-model-comparison.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-strategy-risk-management.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-strategy-swot.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-wanghuan-ai-business-profile.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-wanghuan-ai-dual-role-coach.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-yitang-customer-segmentation-4step.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-yitang-daily-weekly-meeting-hosting.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-yitang-listening-37-rule.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-yitang-payment-collection-playbook.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-yitang-sales-performance-management.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-yitang-sales-process-decomposition.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-yitang-sales-toolkit-maturity-60-75-85.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-yitang-sales-toolkit-radar.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-yitang-three-second-opening-scripts.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-yitang-value-proposition-4step.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-一堂-kernel-three-questions.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-一堂-product-kernel-add-subtract.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-一堂-product-kernel-canvas.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-一堂-spectrum-positioning.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-三层目标对齐法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-专题笔记脑图整理法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-从案例中学习正反案例法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-决策深度-L1优先级定性.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-决策深度-L2部分定量.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-决策深度-L3定量公式.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-决策深度-L4严格财务公式.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-分享输出检验法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-动力阻力分析.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-动手建模法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-半肥猫-ai-research-validation.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-半肥猫-course-to-skill-workflow.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-半肥猫-课程Skill化的八步工作流.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-半肥猫-边学边练边沉淀的AI学习法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-四层联系建立法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-复盘推演法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-多源输入法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-完整财务公式决策.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-审美工具箱.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-寻找学习教练法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-最佳实践收集.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-最佳实践池子.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-水水-管理决策权重偏差.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-清单小抄工具箱法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-用户分层.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-用户视角.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-知识树存储记忆法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-科学决策关键训练清单.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-科学提问刻意练习.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-立即实践转化法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-纪浩-Agent技能市场设计法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-纪浩-AI使用边界管理法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-纪浩-AI工作空间与导诊台设计法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-纪浩-AI工具脚本化约束.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-纪浩-Do-first-PDCA渐进迭代法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-纪浩-problem-validation-four-checks.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-纪浩-Problem与Question区分法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-纪浩-低成本输出验证法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-纪浩-日志驱动排查法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-纪浩-真需求四要素验证法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-行业分析画布.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-费曼简单提炼法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-辩证讨论法.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-需求挖掘.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/yt-note-five-levels-training.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/yt-note-live-field-skill.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/yt-tool-hiring-scorecard.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/yt-tool-meeting-designer.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/yt-tool-okr-cycle.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/yt-tool-strategy-workshop.md: status is `reviewed` but `review_date` is missing or empty
+WARNING: 30_wiki/tools/tool-一堂-表达力火箭模型-执行武器库.md: L2: body too short (453 chars, min 500)
+WARNING: 40_outputs/capabilities/templates/checklist-article.md: Artifact file not registered in .kdo/state.json — may have been created outside kdo produce pipeline
+WARNING: 40_outputs/capabilities/templates/checklist-hardware-cross-validation.md: Artifact file not registered in .kdo/state.json — may have been created outside kdo produce pipeline
+WARNING: 40_outputs/capabilities/templates/checklist-proposal.md: Artifact file not registered in .kdo/state.json — may have been created outside kdo produce pipeline
+WARNING: 40_outputs/capabilities/templates/template-article.md: Artifact file not registered in .kdo/state.json — may have been created outside kdo produce pipeline
+WARNING: 40_outputs/capabilities/templates/template-proposal.md: Artifact file not registered in .kdo/state.json — may have been created outside kdo produce pipeline
+WARNING: 40_outputs/capabilities/skills/consultant-mode-yai-style/SKILL.md: Artifact file not registered in .kdo/state.json — may have been created outside kdo produce pipeline
+WARNING: 40_outputs/capabilities/skills/consultant-mode-yai-style/WORKBOOK.md: Artifact file not registered in .kdo/state.json — may have been created outside kdo produce pipeline
+WARNING: 30_wiki/cases/case-yihang-dual-triangle-hotel-tag-sandbox.md: OCR missing: source image `00_inbox/人机协作双三角/【组织】酒店行业-AI标签审核案例.png` has no corresponding OCR output (expected `【组织】酒店行业-AI标签审核案例_paddle_ocr.txt` in `C:\Users\Administrator\Desktop\wiki\00_inbox\人机协作双三角`)
+WARNING: 30_wiki/cases/case-yitang-shipinhao-ads-l1-l6.md: OCR missing: source image `00_inbox/Handle the business/Business formula/案例1.png` has no corresponding OCR output (expected `案例1_paddle_ocr.txt` in `C:\Users\Administrator\Desktop\wiki\00_inbox\Handle the business\Business formula`)
+WARNING: 30_wiki/cases/case-yitang-three-industry-formula-demos.md: OCR missing: source image `00_inbox/Handle the business/Business formula/批注 2026-07-12 001958.png` has no corresponding OCR output (expected `批注 2026-07-12 001958_paddle_ocr.txt` in `C:\Users\Administrator\Desktop\wiki\00_inbox\Handle the business\Business formula`)
+WARNING: 30_wiki/cases/case-yitang-zhanglei-gacha-points.md: OCR missing: source image `00_inbox/Handle the business/Business formula/案例2.png` has no corresponding OCR output (expected `案例2_paddle_ocr.txt` in `C:\Users\Administrator\Desktop\wiki\00_inbox\Handle the business\Business formula`)
+WARNING: 30_wiki/cases/case-纪浩-focus-prompt-design.md: OCR missing: source image `10_raw/sources/src_20260619_d9794671_00_inbox_AI俱乐部_人和AI协作_纪浩_五层结构_图片01.png` has no corresponding OCR output (expected `src_20260619_d9794671_00_inbox_AI俱乐部_人和AI协作_纪浩_五层结构_图片01_paddle_ocr.txt` in `C:\Users\Administrator\Desktop\wiki\10_raw\sources`)
+WARNING: 30_wiki/cases/case-纪浩-focus-prompt-design.md: OCR missing: source image `10_raw/sources/src_20260619_df980155_00_inbox_AI俱乐部_人和AI协作_纪浩_参考案例_图片02.png` has no corresponding OCR output (expected `src_20260619_df980155_00_inbox_AI俱乐部_人和AI协作_纪浩_参考案例_图片02_paddle_ocr.txt` in `C:\Users\Administrator\Desktop\wiki\10_raw\sources`)
+WARNING: 30_wiki/dk/dk-time-management-common-mistakes.md: OCR missing: source image `00_inbox/时间管理/时间管理-双环矩阵图.png` has no corresponding OCR output (expected `时间管理-双环矩阵图_paddle_ocr.txt` in `C:\Users\Administrator\Desktop\wiki\00_inbox\时间管理`)
+WARNING: 30_wiki/frameworks/framework-yihang-dual-triangle-ai-landing-five-steps.md: OCR missing: source image `00_inbox/人机协作双三角/一堂双三角-AI落地五部曲.png` has no corresponding OCR output (expected `一堂双三角-AI落地五部曲_paddle_ocr.txt` in `C:\Users\Administrator\Desktop\wiki\00_inbox\人机协作双三角`)
+WARNING: 30_wiki/frameworks/framework-yihang-dual-triangle-ten-year-map.md: OCR missing: source image `00_inbox/人机协作双三角/一堂双三角-十年爬山地图.png` has no corresponding OCR output (expected `一堂双三角-十年爬山地图_paddle_ocr.txt` in `C:\Users\Administrator\Desktop\wiki\00_inbox\人机协作双三角`)
+WARNING: 30_wiki/tools/tool-personal-time-audit-loop.md: OCR missing: source image `00_inbox/时间管理/时间管理-修炼进阶图.png` has no corresponding OCR output (expected `时间管理-修炼进阶图_paddle_ocr.txt` in `C:\Users\Administrator\Desktop\wiki\00_inbox\时间管理`)
+WARNING: 30_wiki/tools/tool-personal-time-audit-loop.md: OCR missing: source image `00_inbox/时间管理/时间管理-深度工作冰山图.png` has no corresponding OCR output (expected `时间管理-深度工作冰山图_paddle_ocr.txt` in `C:\Users\Administrator\Desktop\wiki\00_inbox\时间管理`)
+WARNING: 30_wiki/tools/tool-泛产品设计-需求可行性四字诀.md: Synthesis dead link: [[yt-model-pan-product-product-core]] does not resolve to any existing page
+WARNING: 30_wiki/tools/tool-ai-feature-inventory.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-ai-feature-inventory.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-ai-feature-inventory.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-ai-feature-inventory.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-bimodal-time-blocking.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-bimodal-time-blocking.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-bimodal-time-blocking.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-dark-time-harvesting.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-dark-time-harvesting.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-dark-time-harvesting.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-demand-micro-experience-script.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-demand-micro-experience-script.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-demand-micro-experience-script.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-demand-micro-experience-script.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-demand-report-template.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-demand-report-template.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-demand-report-template.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-demand-report-template.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-focus-environment-sop.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-focus-environment-sop.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-focus-environment-sop.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-IPO学习-输入处理输出工具箱导航.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-IPO学习-输入处理输出工具箱导航.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-IPO学习-输入处理输出工具箱导航.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-IPO学习-输入处理输出工具箱导航.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-meeting-room-match.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-meeting-room-match.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-meeting-room-match.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-open-closed-problem-classifier.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-open-closed-problem-classifier.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-open-closed-problem-classifier.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-open-closed-problem-classifier.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-oscar-kdo-external-exploration.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-oscar-kdo-external-exploration.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-oscar-kdo-external-exploration.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-oscar-kdo-external-exploration.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-public-scheduling.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-public-scheduling.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-public-scheduling.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-task-depth-decomposition.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-task-depth-decomposition.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-task-depth-decomposition.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-team-task-pool.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-team-task-pool.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-team-task-pool.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-three-ring-capability-filter.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-three-ring-capability-filter.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-three-ring-capability-filter.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-three-ring-capability-filter.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-weekly-hypothesis-experiment.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-weekly-hypothesis-experiment.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-weekly-hypothesis-experiment.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-daily-weekly-meeting-hosting.md: Tool card Critique section has no identifiable external attacker (bold scholar name)
+WARNING: 30_wiki/tools/tool-yitang-dual-triangle-agent-handoff-protocol.md: Tool card Critique section has no identifiable external attacker (bold scholar name)
+WARNING: 30_wiki/tools/tool-yitang-dual-triangle-domain-registry.md: Tool card Critique section has no identifiable external attacker (bold scholar name)
+WARNING: 30_wiki/tools/tool-yitang-dual-triangle-scenario-router.md: Tool card Critique section has no identifiable external attacker (bold scholar name)
+WARNING: 30_wiki/tools/tool-yitang-listening-37-rule.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-listening-37-rule.md: Tool card Critique section has no identifiable external attacker (bold scholar name)
+WARNING: 30_wiki/tools/tool-yitang-payment-collection-playbook.md: Tool card Critique section has no identifiable external attacker (bold scholar name)
+WARNING: 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-breakdown-cheatsheet.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-change-decision.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-change-decision.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-change-decision.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-change-decision.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-change-identification.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-change-identification.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-change-identification.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-change-identification.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-change-workflow.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-change-workflow.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-change-workflow.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-change-workflow.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-comm-frequency.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-comm-frequency.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-comm-frequency.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-comm-frequency.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-comm-matrix.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-comm-matrix.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-comm-matrix.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-comm-matrix.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-communication-plan.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-communication-plan.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-communication-plan.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-communication-plan.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-cost-estimation.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-cost-estimation.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-cost-estimation.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-cost-estimation.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-gap-analysis.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-gap-analysis.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-gap-analysis.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-gap-analysis.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-kickoff-meeting.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-kickoff-meeting.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-kickoff-meeting.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-kickoff-meeting.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-plan-canvas.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-plan-canvas.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-plan-canvas.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-plan-canvas.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-progress-tracking.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-progress-tracking.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-progress-tracking.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-progress-tracking.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-proposal-checklist.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-proposal-checklist.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-proposal-checklist.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-proposal-checklist.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-resource-escalation.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-resource-escalation.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-resource-escalation.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-resource-escalation.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-retro-goal-types.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-retro-goal-types.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-retro-goal-types.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-retro-goal-types.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-retro-value-mining.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-retro-value-mining.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-retro-value-mining.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-retro-value-mining.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-risk-discovery.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-risk-discovery.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-risk-discovery.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-risk-discovery.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-risk-response.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-risk-response.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-risk-response.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-risk-response.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-unblock-techniques.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-unblock-techniques.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-unblock-techniques.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-unblock-techniques.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-project-weapon-library-v1-8.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-project-weapon-library-v1-8.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-project-weapon-library-v1-8.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-project-weapon-library-v1-8.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-retrospective-canvas.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-yitang-retrospective-canvas.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-yitang-retrospective-canvas.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-retrospective-canvas.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-yitang-sales-toolkit-maturity-60-75-85.md: Tool card Critique section has no identifiable external attacker (bold scholar name)
+WARNING: 30_wiki/tools/tool-yitang-three-second-opening-scripts.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-yitang-three-second-opening-scripts.md: Tool card Critique section has no identifiable external attacker (bold scholar name)
+WARNING: 30_wiki/tools/tool-Y模型STEPS策略集.md: Tool card Critique section has no identifiable external attacker (bold scholar name)
+WARNING: 30_wiki/tools/tool-Y模型实操工作流.md: Tool card Critique section has no identifiable external attacker (bold scholar name)
+WARNING: 30_wiki/tools/tool-一堂-kernel-six-verification-strategies.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-一堂-kernel-six-verification-strategies.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-一堂-kernel-six-verification-strategies.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-一堂-kernel-six-verification-strategies.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-一堂-关键假设-ABCD场景分类器.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-一堂-关键假设-ABCD场景分类器.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-一堂-关键假设-ABCD场景分类器.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-一堂-基本功-建模七法.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-一堂-基本功-建模七法.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-一堂-基本功-建模七法.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-一堂-基本功-推动七式.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-一堂-基本功-推动七式.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-一堂-基本功-推动七式.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-一堂-基本功-推动七式.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-一堂-基本功-练习二十法.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-一堂-基本功-练习二十法.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-一堂-基本功-练习二十法.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-一堂-基本功-练习二十法.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-一堂-机会预判-五步法预判.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-一堂-机会预判-五步法预判.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-一堂-机会预判-五步法预判.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-一堂-机会预判-五步法预判.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-一堂-机会预判-案例预判.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-一堂-机会预判-案例预判.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-一堂-机会预判-案例预判.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-一堂-机会预判-案例预判.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-一堂-表达力火箭模型-执行武器库.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-一堂-表达力火箭模型-执行武器库.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-一堂-表达力火箭模型-执行武器库.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-一堂-表达力火箭模型-执行武器库.md: Tool card body too short (453 chars, min 500)
+WARNING: 30_wiki/tools/tool-一堂五步法-ToB-十八式-checklist.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-一堂五步法-ToB-十八式-checklist.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-一堂五步法-ToB-十八式-checklist.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-一堂五步法-ToB-十八式-checklist.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-一堂五步法-段位升级三部曲.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-一堂五步法-段位升级三部曲.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-一堂五步法-段位升级三部曲.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-一堂五步法-段位升级三部曲.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-个人学习方法-修炼闭环自检清单.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-个人学习方法-修炼闭环自检清单.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-个人学习方法-修炼闭环自检清单.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-个人学习方法-修炼闭环自检清单.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-泛产品落地-内核和边界.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-泛产品落地-内核和边界.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-泛产品落地-内核和边界.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-泛产品落地-内核和边界.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-泛产品落地-善用佳软.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-泛产品落地-善用佳软.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-泛产品落地-善用佳软.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-泛产品落地-善用佳软.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-泛产品落地-攻坚会.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-泛产品落地-攻坚会.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-泛产品落地-攻坚会.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-泛产品落地-攻坚会.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-泛产品落地-灵感闪现.md: Tool card missing ## Purpose section — what problem does this tool solve?
+WARNING: 30_wiki/tools/tool-泛产品落地-灵感闪现.md: Tool card missing ## Protocol/Procedure section — how to use this tool step by step?
+WARNING: 30_wiki/tools/tool-泛产品落地-灵感闪现.md: Tool card missing ## When NOT to Use section — what scenarios is this tool ineffective?
+WARNING: 30_wiki/tools/tool-泛产品落地-灵感闪现.md: Tool card missing ## Critique section — internal limits + external attacker arguments
+WARNING: 30_wiki/tools/tool-泛产品设计-出牌指南.md: Tool card Critique section has no identifiable external attacker (bold scholar name)
+WARNING: 30_wiki/tools/tool-泛产品设计-需求可行性四字诀.md: Tool card Critique section has no identifiable external attacker (bold scholar name)
+ERROR: 30_wiki/cases/case-ai-search-commerce-platform-hedge.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-ai-search-commerce-platform-hedge.md: Case card missing section `## 可迁移场景` (这个案例的经验可以迁移到哪些场景)
+ERROR: 30_wiki/cases/case-ai-search-commerce-platform-hedge.md: Case card missing section `## 教训` (什么时候应该学这个案例（正面）)
+ERROR: 30_wiki/cases/case-ai-search-commerce-platform-hedge.md: Case card missing section `## 失败模式` (常见的踩坑方式和避免方法（反面）)
+ERROR: 30_wiki/cases/case-demand-iceberg-few-shot.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-demand-iceberg-few-shot.md: Case card missing section `## 可迁移场景` (这个案例的经验可以迁移到哪些场景)
+ERROR: 30_wiki/cases/case-demand-iceberg-few-shot.md: Case card missing section `## 教训` (什么时候应该学这个案例（正面）)
+ERROR: 30_wiki/cases/case-demand-iceberg-few-shot.md: Case card missing section `## 失败模式` (常见的踩坑方式和避免方法（反面）)
+ERROR: 30_wiki/cases/case-qinpeng-iot-module-tiering.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-shampoo-product-kernel.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-truman-praise-wall-precondition.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-truman-praise-wall-precondition.md: Case card missing section `## 教训` (什么时候应该学这个案例（正面）)
+ERROR: 30_wiki/cases/case-truman-praise-wall-precondition.md: Case card missing section `## 失败模式` (常见的踩坑方式和避免方法（反面）)
+ERROR: 30_wiki/cases/case-truman-shower-toilet-ideation.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-truman-shower-toilet-ideation.md: Case card missing section `## 教训` (什么时候应该学这个案例（正面）)
+ERROR: 30_wiki/cases/case-truman-shower-toilet-ideation.md: Case card missing section `## 失败模式` (常见的踩坑方式和避免方法（反面）)
+ERROR: 30_wiki/cases/case-yitang-200th-launch-depth-split.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-yitang-200th-launch-depth-split.md: Case card missing section `## 教训` (什么时候应该学这个案例（正面）)
+ERROR: 30_wiki/cases/case-yitang-200th-launch-depth-split.md: Case card missing section `## 失败模式` (常见的踩坑方式和避免方法（反面）)
+ERROR: 30_wiki/cases/case-yitang-2022-annual-lessons.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-yitang-2022-annual-lessons.md: Case card missing section `## 可迁移场景` (这个案例的经验可以迁移到哪些场景)
+ERROR: 30_wiki/cases/case-yitang-2022-annual-lessons.md: Case card missing section `## 教训` (什么时候应该学这个案例（正面）)
+ERROR: 30_wiki/cases/case-yitang-2022-annual-lessons.md: Case card missing section `## 失败模式` (常见的踩坑方式和避免方法（反面）)
+ERROR: 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-yitang-curtain-listening.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-yitang-curtain-listening.md: Case card missing section `## 教训` (什么时候应该学这个案例（正面）)
+ERROR: 30_wiki/cases/case-yitang-curtain-listening.md: Case card missing section `## 失败模式` (常见的踩坑方式和避免方法（反面）)
+ERROR: 30_wiki/cases/case-yitang-leo-website-redesign.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-yitang-leo-website-redesign.md: Case card missing section `## 可迁移场景` (这个案例的经验可以迁移到哪些场景)
+ERROR: 30_wiki/cases/case-yitang-leo-website-redesign.md: Case card missing section `## 教训` (什么时候应该学这个案例（正面）)
+ERROR: 30_wiki/cases/case-yitang-leo-website-redesign.md: Case card missing section `## 失败模式` (常见的踩坑方式和避免方法（反面）)
+ERROR: 30_wiki/cases/case-yitang-meeting-room-match.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-yitang-meeting-room-match.md: Case card missing section `## 教训` (什么时候应该学这个案例（正面）)
+ERROR: 30_wiki/cases/case-yitang-meeting-room-match.md: Case card missing section `## 失败模式` (常见的踩坑方式和避免方法（反面）)
+ERROR: 30_wiki/cases/case-yitang-zhongzheng-parking-garage.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-一堂-基本功-认知篇案例集.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-一堂-基本功-认知篇案例集.md: Case card missing section `## 可迁移场景` (这个案例的经验可以迁移到哪些场景)
+ERROR: 30_wiki/cases/case-一堂-基本功-认知篇案例集.md: Case card missing section `## 教训` (什么时候应该学这个案例（正面）)
+ERROR: 30_wiki/cases/case-一堂-基本功-认知篇案例集.md: Case card missing section `## 失败模式` (常见的踩坑方式和避免方法（反面）)
+ERROR: 30_wiki/cases/case-一堂-春萍-刘伟tob销售标准化.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-一堂-春萍-刘伟tob销售标准化.md: Case card missing section `## 可迁移场景` (这个案例的经验可以迁移到哪些场景)
+ERROR: 30_wiki/cases/case-一堂-春萍-刘伟tob销售标准化.md: Case card missing section `## 教训` (什么时候应该学这个案例（正面）)
+ERROR: 30_wiki/cases/case-一堂-春萍-刘伟tob销售标准化.md: Case card missing section `## 失败模式` (常见的踩坑方式和避免方法（反面）)
+ERROR: 30_wiki/cases/case-一堂-春萍-温校长校园代理.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-一堂-春萍-温校长校园代理.md: Case card missing section `## 可迁移场景` (这个案例的经验可以迁移到哪些场景)
+ERROR: 30_wiki/cases/case-一堂-春萍-温校长校园代理.md: Case card missing section `## 教训` (什么时候应该学这个案例（正面）)
+ERROR: 30_wiki/cases/case-一堂-春萍-温校长校园代理.md: Case card missing section `## 失败模式` (常见的踩坑方式和避免方法（反面）)
+ERROR: 30_wiki/cases/case-一堂-春萍-花总AI研发.md: Case card missing section `## 关键证据` (Before-After / 真实锚点 / 数据支撑 / 可检验)
+ERROR: 30_wiki/cases/case-一堂-春萍-花总AI研发.md: Case card missing section `## 可迁移场景` (这个案例的经验可以迁移到哪些场景)
+ERROR: 30_wiki/cases/case-一堂-春萍-花总AI研发.md: Case card missing section `## 教训` (什么时候应该学这个案例（正面）)
+ERROR: 30_wiki/cases/case-一堂-春萍-花总AI研发.md: Case card missing section `## 失败模式` (常见的踩坑方式和避免方法（反面）)
+WARNING: 30_wiki/dark-knowledges/dk-skill-seven-elements-upgrade.md: Depth: title says `7个要素` but body has 4 items — expected around 7 (+/-2)
+WARNING: 30_wiki/frameworks/framework-一堂-表达力火箭模型.md: Depth: title says `4个要素` but body has no bullet/numbered items — core elements are missing
+WARNING: 30_wiki/tools/tool-ai-scene-four-elements.md: Depth: title says `4个要素` but body has 22 items — expected around 4 (+/-2)
+WARNING: 30_wiki/tools/tool-yitang-project-resource-escalation.md: Depth: title says `7种` but body has 15 items — expected around 7 (+/-2)
+WARNING: 30_wiki/cases/case-yitang-chuanhe-seasoning-kernel.md: source_refs possible typo: `00_inbox/一堂-产品内核迭代课-Truman-口述.txt L194-L657` not found — did you mean `00_inbox/一堂-产品内核迭代课-Truman-口述.txt`? (similarity 83%)
+WARNING: 30_wiki/cases/case-yitang-dongyuan-dance-retention-c-vs-d.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1257-L1285` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-dongyuan-dance-retention-c-vs-d.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1303-L1315` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-dongyuan-dance-retention-c-vs-d.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1317-L1369` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-dongyuan-dance-retention-c-vs-d.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1373-L1515` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-dongyuan-dance-retention-c-vs-d.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1531-L1569` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-dongyuan-dance-retention-c-vs-d.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1575-L1661` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-dongyuan-dance-retention-c-vs-d.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1671-L1810` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-dongyuan-dance-retention-c-vs-d.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1814-L1928` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-fupanying-five-years-1000-hypotheses.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L314-L404` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-fupanying-five-years-1000-hypotheses.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L414-L530` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-fupanying-five-years-1000-hypotheses.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L542-L612` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-fupanying-five-years-1000-hypotheses.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L618-L764` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-fupanying-five-years-1000-hypotheses.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L432-L632` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-homework-six-owners.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L410-L436` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-homework-six-owners.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L438-L594` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-homework-six-owners.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L596-L670` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-homework-six-owners.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L672-L836` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-homework-six-owners.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L838-L968` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-laowenqi-huixiao-10x.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L782-L816` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-laowenqi-huixiao-10x.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L820-L870` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-laowenqi-huixiao-10x.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L872-L916` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-laowenqi-huixiao-10x.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L918-L986` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-panhonghai-entertainment.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L43-L43` not found — did you mean `00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-vicky-short-video.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L776-L796` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-vicky-short-video.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L798-L814` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-vicky-short-video.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L816-L836` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-vicky-short-video.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L838-L868` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-vicky-short-video.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L870-L880` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-wang-mcn-funnel.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L42-L42` not found — did you mean `00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-wenxiaozhang-driving-school.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L886-L906` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-wenxiaozhang-driving-school.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L908-L924` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-wenxiaozhang-driving-school.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L926-L952` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-wenxiaozhang-driving-school.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L954-L982` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-wenxiaozhang-driving-school.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L984-L988` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-wenxiaozhang-driving-school.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L932-L944` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-woqingke-referral-15-to-40.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L318-L568` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/cases/case-yitang-xiezefeng-clothing-innovation-param.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2006-L2040` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-xiezefeng-clothing-innovation-param.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2042-L2182` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-xiezefeng-clothing-innovation-param.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2184-L2378` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-xiezefeng-clothing-innovation-param.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2398-L2560` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-xiezefeng-clothing-innovation-param.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2474-L2508` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-xiezefeng-clothing-innovation-param.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2560-L2629` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/cases/case-yitang-xingangwan-chess-room.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L654-L718` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-xingangwan-chess-room.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L720-L760` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-xingangwan-chess-room.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L762-L790` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-xingangwan-chess-room.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L792-L860` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-xingangwan-chess-room.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L862-L876` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-xingangwan-chess-room.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L878-L886` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-xingangwan-chess-room.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L888-L902` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/cases/case-yitang-yewenbin-archery-business-formula.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L73-L135` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 88%)
+WARNING: 30_wiki/cases/case-yitang-yewenbin-archery-business-formula.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L161-L215` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 86%)
+WARNING: 30_wiki/cases/case-yitang-yewenbin-archery-business-formula.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L217-L291` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 86%)
+WARNING: 30_wiki/cases/case-yitang-yewenbin-archery-business-formula.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L321-L413` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 86%)
+WARNING: 30_wiki/cases/case-yitang-yewenbin-archery-business-formula.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L429-L619` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 86%)
+WARNING: 30_wiki/cases/case-yitang-yewenbin-archery-business-formula.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L621-L887` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 86%)
+WARNING: 30_wiki/cases/case-yitang-yewenbin-archery-business-formula.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L891-L997` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 86%)
+WARNING: 30_wiki/cases/case-一堂-基本功-认知篇案例集.md: source_refs possible typo: `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L898-1516` not found — did you mean `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/concepts/concept-一堂-Agent基本功修炼.md: source_refs possible typo: `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt L654-L866` not found — did you mean `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/concepts/concept-一堂-business-prediction.md: source_refs possible typo: `00_inbox/一堂-商业预判课-Truman-口述.txt` not found — did you mean `00_inbox/一堂-机会预判课-Truman-口述.txt`? (similarity 91%)
+WARNING: 30_wiki/concepts/concept-一堂-business-prediction.md: source_refs possible typo: `00_inbox/一堂-商业预判课-truman-笔记.txt` not found — did you mean `00_inbox/一堂-机会预判课-truman-笔记.txt`? (similarity 91%)
+WARNING: 30_wiki/concepts/concept-一堂-三类目标策略.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L294-L298` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/concepts/concept-一堂-关键路径与乘法杠杆.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L900-L966` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/concepts/concept-一堂-参数即假设与递归嵌套.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L592-L630` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/concepts/concept-一堂-参数即假设与递归嵌套.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L704-L718` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/concepts/concept-一堂-相关不等于因果.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L680-L778` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/concepts/concept-一堂-终局光谱图解读.md: source_refs possible typo: `00_inbox/一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt L1-L5` not found — did you mean `00_inbox/一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt`? (similarity 93%)
+WARNING: 30_wiki/concepts/concept-一堂-终局光谱图解读.md: source_refs possible typo: `00_inbox/一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt L1-L14` not found — did you mean `00_inbox/一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt`? (similarity 92%)
+WARNING: 30_wiki/concepts/concept-讲香-卖点直给到价值感.md: source_refs possible typo: `00_inbox/一堂-个人修炼-讲香十指模型口述版.txt L36-L80` not found — did you mean `00_inbox/一堂-个人修炼-讲香十指模型口述版.txt`? (similarity 84%)
+WARNING: 30_wiki/concepts/yt-business-formula-six-level-logic.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L220-L260` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/concepts/yt-business-formula-six-level-logic.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L410-L430` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/concepts/yt-business-formula-six-level-logic.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L520-L540` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/concepts/yt-business-formula-six-level-logic.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L800-L818` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/concepts/yt-business-formula-ten-paradigms.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L320-L568` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/concepts/yt-business-formula-ten-paradigms.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L654-L764` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-a-missing-syndrome.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L429-L619` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 86%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-a-missing-syndrome.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1257-L1285` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-a-missing-syndrome.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1575-L1661` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-cd-loop-undo-key.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1874-L1928` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-cd-loop-undo-key.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1427-L1465` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-cd-loop-undo-key.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1531-L1569` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-cd-loop-undo-key.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1575-L1661` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-cd-loop-undo-key.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2398-L2432` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-l1-site-blindness.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L217-L291` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 86%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-l1-site-blindness.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2280-L2306` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-l1-site-blindness.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2006-L2040` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-l1-site-blindness.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md L28-L58` not found — did you mean `00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md`? (similarity 89%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-logic-l5-l6.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1605-L1609` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-logic-l5-l6.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2328-L2350` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-pseudo-causality-two-masks.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2442-L2448` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-pseudo-causality-two-masks.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1467-L1503` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/dark-knowledges/dk-yitang-business-formula-pseudo-causality-two-masks.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1615-L1629` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/domains/business-formula-domain-digest.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L16-L16` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 85%)
+WARNING: 30_wiki/domains/business-formula-domain-digest.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L880-L902` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/frameworks/framework-business-formula-dual-triangle-bridge.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L28-L124` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 82%)
+WARNING: 30_wiki/frameworks/framework-business-formula-fundamentals-bridge.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L28-L124` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 82%)
+WARNING: 30_wiki/frameworks/framework-business-formula-y-model-bridge.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L700` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 89%)
+WARNING: 30_wiki/frameworks/framework-一堂-业务公式拆解-总纲.md: source_refs possible typo: `00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-笔记.txt L15-L86` not found — did you mean `00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-笔记.txt`? (similarity 80%)
+WARNING: 30_wiki/frameworks/framework-一堂-业务公式拆解-总纲.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2-L30` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt`? (similarity 85%)
+WARNING: 30_wiki/frameworks/framework-一堂-业务公式拆解-总纲.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L64-L172` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt`? (similarity 82%)
+WARNING: 30_wiki/frameworks/framework-一堂-业务公式拆解-总纲.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L12-L28` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 85%)
+WARNING: 30_wiki/frameworks/framework-一堂-业务公式拆解-总纲.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L46-L100` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 83%)
+WARNING: 30_wiki/frameworks/framework-一堂-业务公式拆解-总纲.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L880-L902` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/frameworks/framework-一堂-业务公式拆解-总纲.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2-L36` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt`? (similarity 86%)
+WARNING: 30_wiki/frameworks/framework-一堂-业务公式拆解-总纲.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L12-L40` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 83%)
+WARNING: 30_wiki/frameworks/framework-一堂-个人表达力.md: source_refs possible typo: `00_inbox/一堂-个人修炼-讲香十指模型口述版.txt L36-L80` not found — did you mean `00_inbox/一堂-个人修炼-讲香十指模型口述版.txt`? (similarity 84%)
+WARNING: 30_wiki/frameworks/framework-一堂-机会预判.md: source_refs possible typo: `00_inbox/一堂-机会预判课-Truman-口述.txt L38-L66` not found — did you mean `00_inbox/一堂-机会预判课-Truman-口述.txt`? (similarity 85%)
+WARNING: 30_wiki/frameworks/framework-一堂-机会预判.md: source_refs possible typo: `00_inbox/一堂-机会预判课-Truman-口述.txt L68-L90` not found — did you mean `00_inbox/一堂-机会预判课-Truman-口述.txt`? (similarity 85%)
+WARNING: 30_wiki/frameworks/framework-一堂-机会预判.md: source_refs possible typo: `00_inbox/一堂-机会预判课-truman-笔记.txt L21-L23` not found — did you mean `00_inbox/一堂-机会预判课-truman-笔记.txt`? (similarity 85%)
+WARNING: 30_wiki/frameworks/framework-一堂-机会预判.md: source_refs possible typo: `00_inbox/一堂-机会预判课-truman-笔记.txt L31-L37` not found — did you mean `00_inbox/一堂-机会预判课-truman-笔记.txt`? (similarity 85%)
+WARNING: 30_wiki/frameworks/framework-一堂-机会预判.md: source_refs possible typo: `00_inbox/一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt L1-L5` not found — did you mean `00_inbox/一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt`? (similarity 93%)
+WARNING: 30_wiki/frameworks/framework-一堂-机会预判.md: source_refs possible typo: `00_inbox/一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt L1-L14` not found — did you mean `00_inbox/一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt`? (similarity 92%)
+WARNING: 30_wiki/frameworks/framework-一堂五步法-单元模型.md: source_refs possible typo: `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt L6-L10` not found — did you mean `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt`? (similarity 85%)
+WARNING: 30_wiki/frameworks/framework-一堂五步法-单元模型.md: source_refs possible typo: `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L527-L528` not found — did you mean `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt`? (similarity 84%)
+WARNING: 30_wiki/frameworks/framework-一堂五步法-单元模型.md: source_refs possible typo: `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L574-L589` not found — did you mean `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt`? (similarity 84%)
+WARNING: 30_wiki/frameworks/framework-一堂五步法.md: source_refs possible typo: `00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt L39-L58` not found — did you mean `00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt`? (similarity 82%)
+WARNING: 30_wiki/frameworks/framework-一堂五步法.md: source_refs possible typo: `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt L6-L10` not found — did you mean `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt`? (similarity 85%)
+WARNING: 30_wiki/frameworks/framework-一堂五步法.md: source_refs possible typo: `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L527-L528` not found — did you mean `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt`? (similarity 84%)
+WARNING: 30_wiki/frameworks/framework-个人学习方法总框架.md: source_refs possible typo: `00_inbox/ideas/一堂-个人修炼-IPO模型实操课口述.md L18-L58` not found — did you mean `00_inbox/ideas/一堂-个人修炼-IPO模型实操课口述.md`? (similarity 84%)
+WARNING: 30_wiki/frameworks/framework-个人学习方法总框架.md: source_refs possible typo: `00_inbox/AI-study/一堂-AI学习-科学提问口述.txt L96,L396` not found — did you mean `00_inbox/AI-study/一堂-AI学习-科学提问口述.txt`? (similarity 80%)
+WARNING: 30_wiki/frameworks/framework-个人学习方法总框架.md: source_refs possible typo: `00_inbox/一堂-个人修炼-知识萃取探索营口述版.md L22-L36` not found — did you mean `00_inbox/一堂-个人修炼-知识萃取探索营口述版.md`? (similarity 84%)
+WARNING: 30_wiki/frameworks/yt-business-formula-abc-model.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L164-L184` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/frameworks/yt-business-formula-abc-model.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L42-L58` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt`? (similarity 83%)
+WARNING: 30_wiki/frameworks/yt-business-formula-hypothesis-management-playbook.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L659-L766` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/frameworks/yt-business-formula-three-stage-workflow.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L400-L432` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/tools/tool-agent-spec-business-formula-parameter-miner.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L954-L960` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/tools/tool-agent-spec-business-formula-parameter-miner.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L28-L124` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 82%)
+WARNING: 30_wiki/tools/tool-agent-spec-business-formula-parameter-miner.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L700` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 89%)
+WARNING: 30_wiki/tools/tool-agent-spec-business-formula-parameter-miner.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L820-L876` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/tools/tool-yitang-business-formula-l5-mining-and-verification.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md L164-L190` not found — did you mean `00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md`? (similarity 87%)
+WARNING: 30_wiki/tools/tool-yitang-business-formula-l5-mining-and-verification.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md L23-L25` not found — did you mean `00_inbox/Handle the business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md`? (similarity 80%)
+WARNING: 30_wiki/tools/tool-yitang-business-formula-l5-mining-and-verification.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2442-L2448` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/tools/tool-yitang-business-formula-l5-mining-and-verification.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2466-L2508` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/tools/tool-yitang-business-formula-l5-mining-and-verification.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1725-L1776` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/tools/tool-yitang-business-formula-l5-mining-and-verification.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1467-L1503` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/tools/tool-yitang-business-formula-l5-mining-and-verification.md: source_refs possible typo: `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1615-L1629` not found — did you mean `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md`? (similarity 84%)
+WARNING: 30_wiki/tools/tool-yitang-listening-37-rule.md: source_refs possible typo: `00_inbox/销售专题/_processed/销售有工具-阿里铁军的三七法则_vlm.md L5-L27` not found — did you mean `00_inbox/销售专题/_processed/销售有工具-阿里铁军的三七法则_vlm.md`? (similarity 86%)
+WARNING: 30_wiki/tools/tool-yitang-sales-toolkit-maturity-60-75-85.md: source_refs possible typo: `00_inbox/销售专题/_processed/销售工具武器库_vlm.md L8-L52` not found — did you mean `00_inbox/销售专题/_processed/销售工具武器库_vlm.md`? (similarity 80%)
+WARNING: 30_wiki/tools/tool-yitang-three-second-opening-scripts.md: source_refs possible typo: `00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt L764` not found — did you mean `00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt`? (similarity 90%)
+WARNING: 30_wiki/tools/tool-一堂-product-kernel-add-subtract.md: source_refs possible typo: `00_inbox/一堂-产品内核实操课-Truman-口述.txt L190-L194` not found — did you mean `00_inbox/一堂-产品内核实操课-Truman-口述.txt`? (similarity 83%)
+WARNING: 30_wiki/tools/tool-一堂-机会预判-五步法预判.md: source_refs possible typo: `00_inbox/一堂-机会预判-咖啡店案例-五步法预判_paddle_ocr.txt L1-L5` not found — did you mean `00_inbox/一堂-机会预判-咖啡店案例-五步法预判_paddle_ocr.txt`? (similarity 92%)
+WARNING: 30_wiki/tools/tool-一堂-机会预判-五步法预判.md: source_refs possible typo: `00_inbox/一堂-机会预判-咖啡案例01_paddle_ocr.txt L1-L20` not found — did you mean `00_inbox/一堂-机会预判-咖啡案例01_paddle_ocr.txt`? (similarity 89%)
+WARNING: 30_wiki/tools/yt-tool-business-formula-causality-toolkit.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L766-L776` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt`? (similarity 81%)
+WARNING: 30_wiki/tools/yt-tool-business-formula-gongjianhui.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L340-L368` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/tools/yt-tool-business-formula-gongjianhui.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L410-L414` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/tools/yt-tool-business-formula-hypothesis-pool.md: source_refs possible typo: `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L776-L880` not found — did you mean `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt`? (similarity 80%)
+WARNING: 30_wiki/concepts/concept-open-source-knowledge-usage-boundary.md: Tags suggest domain(s) not in 'domain' field: business-strategy. domain: ['content-production']. Tags: #sc.
+WARNING: 70_product/tasks/dashboard.md: Dashboard last updated 5 days ago (2026-07-07), but task files have newer changes. Consider updating.
+
+Summary: 244 new error(s), 1039 new warning(s) (1907 accepted).

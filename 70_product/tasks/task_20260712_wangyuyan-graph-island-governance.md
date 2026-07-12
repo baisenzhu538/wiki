@@ -145,3 +145,34 @@ updated_at: '2026-07-12T17:07:02.200860+00:00'
 4. ai-saas / ai-collaboration 命名变体实测至少 8 种（带空格/下划线/前后缀）——A-2 合并范围
 5. `tool-demand-agent-l4-case-match` related 含 2 条 bare id（非有效边）
 6. 4 张 case-demand 卡正文关键证据字段为 src_unknown 占位（骨架已建、肉未填）
+
+---
+
+## B-4 补记：7 文件 YAML 显影债修复（2026-07-13 凌晨追加）
+
+B 段交卷后自查发现：实动集 46 文件中 **7 个过不了 `yaml.safe_load`**——全部是 related 列表混入 2 空格缩进条目的同一种历史破损（我的正则插入保留了原破损）。名单与处置：
+
+| 文件 | 破损 | 修复 |
+|---|---|---|
+| framework-一堂五步法-单元模型 | 1 条缩进条目 | 回 0 列 |
+| framework-一堂五步法 | 3 条缩进条目 | 回 0 列 |
+| tool-一堂五步法-换档检查清单 | 2 条缩进条目 | 回 0 列 |
+| case-demand-milkshake-jtbd | 1 条缩进条目 | 回 0 列 |
+| case-demand-pharma-bigdata | 1 条缩进条目 | 回 0 列 |
+| concept-yihang-dual-triangle-core | 5 条缩进条目 | 回 0 列 |
+| tool-ai-deliverable-polish-loop | 6 条缩进条目 | 回 0 列 |
+
+共 19 条缩进条目归位，条目内容一条未动；3 处 bare id（milkshake/pharma-bigdata/polish-loop 各 1）保持原样不扩大返工面，记录在案。
+
+**显影连带债（YAML 修复使 lint 首次能解析这些卡，历史债显影，同轮清零）**：
+
+1. 🔴 source_refs 逗号连区间 3 条（五步法-单元模型 L19、五步法总纲 L18-19）→ 按 #167 P0-1 同款处方拆成独立条目（2+5+2 条），源文件全部亲核存在
+2. 🟡 换档清单 Tool 缺四节（Purpose/Protocol/When NOT to Use/Critique）→ 从卡内素材补写四节（门槛数字标课程经验值口径；Critique 外部攻击署 Eric Ries，stage-gate 质疑与精益验证的呼应有据）
+3. 🟡 polish-loop 缺 review_date → 补 2026-07-02，依据 `60_feedback/adversarial/atk_20260702_live81-ai-trademark-design-suite.md`（该卡为当日 Live81 套件对抗审计对象之一，审计文 L44 直接引用其 When NOT to Use 与 Critique 内容）
+
+**复验**：
+
+- strict YAML：46/46 通过（7→0）
+- 40 条新边双向闭合：40/40（修复仅动缩进，链接全保留）
+- kdo lint --baseline HEAD：**0 new error**；14 new warning = 11 OCR missing（他人卡/存量）+ 3 source_refs typo（带行号 ref 被模糊匹配误标，#167 已申报的 lint 规则缺陷同类，格式正确不改卡）
+- pre-submit：本批文件零 🔴（全局失败项仍为他人战线）

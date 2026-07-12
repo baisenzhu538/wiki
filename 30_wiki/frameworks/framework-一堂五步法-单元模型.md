@@ -16,7 +16,8 @@ domain:
 - five-step-method
 source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt L6-L10
-- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L527-L528,L574-L589
+- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L527-L528
+- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L574-L589
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-十大单元模型清单_paddle_ocr.txt
 related:
 - '[[framework-一堂五步法]]'

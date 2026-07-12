@@ -1,0 +1,17 @@
+30_wiki\tools\tool-ai-purpose-bias-check.md	yitang- ai-saas
+30_wiki\tools\tool-分层标注重点信息.md	learning-methodology- ai-saas
+30_wiki\tools\tool-反向教学深化理解.md	learning-methodology- ai-saas
+30_wiki\tools\tool-反向采访挖掘深度.md	learning-methodology- ai-saas
+30_wiki\tools\tool-思维链显化推理.md	learning-methodology- ai-saas
+30_wiki\tools\tool-纪浩-多视角切换思考法.md	yitang- ai-saas
+30_wiki\tools\tool-纪浩-案例池构建法.md	yitang- ai-saas
+30_wiki\tools\tool-纪浩-评估AI从零写UI的可行性.md	yitang- ai-saas
+30_wiki\tools\tool-纪浩-里程碑验证法.md	yitang- ai-saas
+30_wiki\tools\tool-纪浩-项目启动五问法.md	yitang- ai-saas
+30_wiki\tools\tool-马易-AI落地四阶段验证法.md	yitang- ai-saas
+30_wiki\tools\tool-马易-AI落地场景筛选-四有新人法则.md	yitang- ai-saas
+30_wiki\tools\tool-马易-AI落地场景识别-拆工作流找场景.md	yitang- ai-saas
+30_wiki\tools\tool-马易-AI项目上线-先平行再独行.md	yitang- ai-saas
+30_wiki\tools\tool-马易-数据标注正确法.md	yitang- ai-saas
+30_wiki\tools\tool-马易-需求创造验证法.md	yitang- ai-saas
+30_wiki\tools\tool-马易-风口痛点识别法.md	yitang- ai-saas
