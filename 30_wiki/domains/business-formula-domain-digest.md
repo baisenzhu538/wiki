@@ -65,12 +65,31 @@ related:
 - '[[concept-一堂-参数即假设与递归嵌套]]'
 - '[[concept-一堂-黑盒到白盒]]'
 - '[[concept-一堂-假设飞轮]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[case-yitang-marathon-ten-seasons]]'
+- '[[case-yitang-laowenqi-huixiao-10x]]'
+- '[[case-yitang-zhanglei-comic-booth]]'
+- '[[case-yitang-zhanglei-gacha-points]]'
+- '[[case-yitang-homework-six-owners]]'
+- '[[case-yitang-shipinhao-ads-l1-l6]]'
+- '[[case-yitang-xingangwan-chess-room]]'
+- '[[case-yitang-wenxiaozhang-driving-school]]'
+- '[[case-yitang-vicky-short-video]]'
+- '[[case-yitang-wang-mcn-funnel]]'
+- '[[case-yitang-panhonghai-entertainment]]'
+- '[[case-yitang-shao-kaoyan-gmv]]'
+- '[[case-yitang-du-kids-education-sabc]]'
+- '[[case-yitang-false-causality-collection]]'
+- '[[case-yitang-magic-number-collection]]'
+- '[[case-yitang-innovative-metrics-collection]]'
+- '[[case-yitang-three-industry-formula-demos]]'
 ---
 
 # 域摘要：一堂业务公式（C 域）
 
 > 一句话：业务公式是一堂关键假设 ABCD 体系中的 **C 域 = 宏观效率**——用「参数 + 逻辑关系 = 目标」把增长写成公式，两大核心追求是**理解业务规律 + 表达业务规律**（实操篇口述 L1050-L1074）；它是 ABCD 中最难但最有价值的一块，四套操作系统合计覆盖约 90% 的业务问题（参数探索篇口述 L16/L3574）。
-> C 域现有 P0 骨架卡 7 张（#155 产出）+ 既有底稿卡 10 张接入；#156 工作流工具 20 卡已交付（见下「P1 工具族导航」）、#157 案例族 19 卡、#158 agent-spec 在产。
+> C 域现有 P0 骨架卡 7 张（#155 产出）+ 既有底稿卡 10 张接入；#156 工作流工具 20 卡已交付（见下「P1 工具族导航」）、#157 案例族 19 卡已交付（见下「P2 案例族导航」）、#158 agent-spec 在产。
 
 ## 域定位
 
@@ -116,14 +135,12 @@ related:
 - **工具（tools 8）**：`[[yt-tool-business-formula-format-spec]]`（格式规范 L1-L3）、`[[yt-tool-business-formula-18-moves]]`（降龙十八掌全清单）、`[[yt-tool-business-formula-quant-space-3d]]`（定量空间三维评估）、`[[yt-tool-business-formula-causality-toolkit]]`（因果三件套）、`[[yt-tool-business-formula-hypothesis-pool]]`（关键假设池）、`[[yt-tool-business-formula-gongjianhui]]`（攻坚会）、`[[yt-tool-business-formula-expert-interview-10]]`（专家访谈黄金 10 步法=第 13 招）、`[[yt-tool-business-formula-inspiration-5]]`（灵感闪现五字诀）
 - **概念（concepts 10）**：`[[concept-一堂-双目标法]]`、`[[concept-一堂-三类目标策略]]`、`[[concept-一堂-关键路径与乘法杠杆]]`、`[[concept-一堂-相关不等于因果]]`、`[[concept-一堂-参数耦合与动态公式]]`、`[[concept-一堂-魔法数字]]`、`[[concept-一堂-脱离成本]]`、`[[concept-一堂-参数即假设与递归嵌套]]`、`[[concept-一堂-黑盒到白盒]]`、`[[concept-一堂-假设飞轮]]`
 
-## 案例族导航（#157 在产，待收口回链）
+## P2 案例族导航（#157 已交付，19 卡）
 
-#157 将产 19 张案例卡（8 旗舰 + 7 学员 + 4 合集），当前均以纯文本标注：
-
-- **旗舰 8**（在产）：一堂复盘营五年 1000+ 假设 / 我请客推荐率 3%→15%→40% / 一堂马拉松十期 / 劳文启线下会销十倍 / 张磊漫展展位 / 张磊点位扭蛋机（付费率两源存疑，见裁定表）/ 一堂作业数六负责人推演 / 一堂视频号投放 L1→L6 全案
-- **学员 7**（在产）：鑫港湾棋牌室 / 温校长驾校 / Vicky 短视频 / 王同学 MCN / 潘鸿海娱乐店 / 邵同学考研 / 杜同学儿童教育
-- **合集 4**（在产）：伪因果十题+聪明下属反噬 / 魔法数字集 / 创新参数集 / 三行业公式拆解
-- **已存在案例卡**（真链）：`[[case-yitang-yewenbin-archery-business-formula]]`（射箭馆：业务公式×动力阻力落地样板）、`[[case-yitang-xiezefeng-clothing-innovation-param]]`（谢泽锋服装：L5 创新参数）
+- **旗舰 8（cases 8）**：`[[case-yitang-fupanying-five-years-1000-hypotheses]]`（复盘营五年：8→200+ 参数、1000+ 假设）、`[[case-yitang-woqingke-referral-15-to-40]]`（我请客推荐率 3%→15%→40% 攻坚）、`[[case-yitang-marathon-ten-seasons]]`（马拉松十期）、`[[case-yitang-laowenqi-huixiao-10x]]`（劳文启线下会销十倍）、`[[case-yitang-zhanglei-comic-booth]]`（张磊漫展展位）、`[[case-yitang-zhanglei-gacha-points]]`（张磊点位扭蛋机 L1→L6 推演）、`[[case-yitang-homework-six-owners]]`（作业数六负责人推演）、`[[case-yitang-shipinhao-ads-l1-l6]]`（视频号投放 L1→L6 全案）
+- **学员 7（cases 7）**：`[[case-yitang-xingangwan-chess-room]]`（鑫港湾棋牌室）、`[[case-yitang-wenxiaozhang-driving-school]]`（温校长驾校）、`[[case-yitang-vicky-short-video]]`（Vicky 短视频）、`[[case-yitang-wang-mcn-funnel]]`（王同学 MCN）、`[[case-yitang-panhonghai-entertainment]]`（潘鸿海娱乐店）、`[[case-yitang-shao-kaoyan-gmv]]`（邵同学考研）、`[[case-yitang-du-kids-education-sabc]]`（杜同学儿童教育）
+- **合集 4（cases 4）**：`[[case-yitang-false-causality-collection]]`（伪因果十题+聪明下属反噬）、`[[case-yitang-magic-number-collection]]`（魔法数字集）、`[[case-yitang-innovative-metrics-collection]]`（创新参数集）、`[[case-yitang-three-industry-formula-demos]]`（三行业公式拆解）
+- **已存在案例卡**：`[[case-yitang-yewenbin-archery-business-formula]]`（射箭馆：业务公式×动力阻力落地样板）、`[[case-yitang-xiezefeng-clothing-innovation-param]]`（谢泽锋服装：L5 创新参数）
 
 ## agent-spec 导航
 
@@ -164,7 +181,7 @@ related:
 | C 象限 = 微观效率（整合笔记误） | **C = 宏观效率** | 实操篇笔记 + 四象限图 001240 + 参数探索篇口述 L880-L902 |
 | 复盘营规模「34000 人/周」（ASR 误识） | **100 人/期 → 3000-4000 人/期，两次万人营**（课程案例口径） | 笔记 + 进阶篇口述交叉复核 |
 | 欧米伽模型 vs 一堂五步法（转写矛盾） | **Ω 模型**（明确目标→加法→减法→验证→迭代），非五步法 | 导入篇图 001212 + 进阶篇笔记一致 |
-| 扭蛋机付费率「28→30」（逐字稿）vs「2%→3%」（案例 2 VLM） | **两一等源冲突，标 pending_unknown**；大概率 2.8%→3.0% 或 28%→30%，建卡时以「课程案例口径」表述并标存疑待复核 | 诊断 §四裁定 #4 |
+| 扭蛋机付费率「28→30」（逐字稿）vs「2%→3%」（案例 2 VLM） | **已裁定：2%→3%**（#157 建卡时调案例 2 原图 ReadMediaFile 复核，原图第五阶段明写「最后付费率从 2% 拉到 3%」，与案例2_vlm.md 一致；口述「28→30」系 ASR 误识），详见 `[[case-yitang-zhanglei-gacha-points]]`「⚠️ 付费率两源冲突与裁定」 | 案例 2 原图直接复核 + 诊断 §四裁定 #4 |
 
 ---
 

@@ -34,6 +34,8 @@ related:
 - "[[concept-一堂-参数即假设与递归嵌套]]"
 - "[[yt-tool-business-formula-18-moves]]"
 - "[[business-formula-domain-digest]]"
+- "[[case-yitang-woqingke-referral-15-to-40]]"
+- "[[case-yitang-vicky-short-video]]"
 diagnostic_signals:
 - signal: 老板拍板后下属问"为什么"，回答是"我直觉很准""我以前领导就是这么说的"
   lens: 典型黑盒决策——只有输入输出，中间逻辑不可见（进阶篇-口述 L3530-L3538）

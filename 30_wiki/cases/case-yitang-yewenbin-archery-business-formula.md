@@ -37,6 +37,19 @@ related:
 - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 - '[[case-gym-membership-formula]]'
 - '[[business-formula-domain-digest]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[case-yitang-marathon-ten-seasons]]'
+- '[[case-yitang-laowenqi-huixiao-10x]]'
+- '[[case-yitang-zhanglei-comic-booth]]'
+- '[[case-yitang-zhanglei-gacha-points]]'
+- '[[case-yitang-homework-six-owners]]'
+- '[[case-yitang-shipinhao-ads-l1-l6]]'
+- '[[case-yitang-xingangwan-chess-room]]'
+- '[[case-yitang-wenxiaozhang-driving-school]]'
+- '[[case-yitang-vicky-short-video]]'
+- '[[case-yitang-innovative-metrics-collection]]'
+- '[[case-yitang-three-industry-formula-demos]]'
 ---
 # 射箭馆：用业务公式四参数串起动力阻力触点，把"等客流"变成"经营转化率"
 

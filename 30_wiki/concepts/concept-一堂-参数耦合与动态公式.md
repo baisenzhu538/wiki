@@ -30,6 +30,9 @@ related:
 - '[[concept-一堂-关键路径与乘法杠杆]]'
 - '[[yt-tool-business-formula-quant-space-3d]]'
 - '[[business-formula-domain-digest]]'
+- '[[case-yitang-zhanglei-gacha-points]]'
+- '[[case-yitang-homework-six-owners]]'
+- '[[case-yitang-shipinhao-ads-l1-l6]]'
 diagnostic_signals:
 - signal: 公式推演时默认"改 A 其他参数不动"，结果复盘时目标涨幅远小于 A 的涨幅
   lens: 静态模型思维——公式里参数耦合了，A 涨会把 B 往下拽

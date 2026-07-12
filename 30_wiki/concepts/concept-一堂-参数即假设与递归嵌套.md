@@ -27,6 +27,15 @@ related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-tool-business-formula-hypothesis-pool]]'
 - '[[business-formula-domain-digest]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[case-yitang-marathon-ten-seasons]]'
+- '[[case-yitang-laowenqi-huixiao-10x]]'
+- '[[case-yitang-xingangwan-chess-room]]'
+- '[[case-yitang-panhonghai-entertainment]]'
+- '[[case-yitang-magic-number-collection]]'
+- '[[case-yitang-innovative-metrics-collection]]'
+- '[[case-yitang-three-industry-formula-demos]]'
 diagnostic_signals:
 - signal: 团队说「黔驴技穷了，提不出新假设」
   lens: 不是创意枯竭，是参数拆得不够细——一个目标只挂四五个参数，当然榨不出假设

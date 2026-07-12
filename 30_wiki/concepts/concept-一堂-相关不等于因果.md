@@ -29,6 +29,10 @@ related:
 - '[[concept-一堂-魔法数字]]'
 - '[[business-formula-domain-digest]]'
 - '[[yt-management-business-formula]]'
+- '[[case-yitang-zhanglei-gacha-points]]'
+- '[[case-yitang-homework-six-owners]]'
+- '[[case-yitang-false-causality-collection]]'
+- '[[case-yitang-magic-number-collection]]'
 diagnostic_signals:
 - signal: 数据会上有人指着两条同涨同跌的曲线说"这就是抓手，All in 它"
   lens: 把相关当因果——同涨同跌只说明"体温计"级别关系，不说明能当"方向盘"

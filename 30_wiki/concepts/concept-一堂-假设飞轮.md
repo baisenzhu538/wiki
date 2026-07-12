@@ -33,6 +33,15 @@ related:
 - "[[yt-tool-business-formula-hypothesis-pool]]"
 - "[[yt-business-formula-peahd-roles]]"
 - "[[business-formula-domain-digest]]"
+- "[[case-yitang-fupanying-five-years-1000-hypotheses]]"
+- "[[case-yitang-woqingke-referral-15-to-40]]"
+- "[[case-yitang-marathon-ten-seasons]]"
+- "[[case-yitang-laowenqi-huixiao-10x]]"
+- "[[case-yitang-zhanglei-comic-booth]]"
+- "[[case-yitang-wenxiaozhang-driving-school]]"
+- "[[case-yitang-vicky-short-video]]"
+- "[[case-yitang-wang-mcn-funnel]]"
+- "[[case-yitang-panhonghai-entertainment]]"
 diagnostic_signals:
 - signal: 团队死气沉沉，偶尔有人举手提想法，被老板一拍回去，之后更没人说话
   lens: 飞轮在反向转——「好不容易有个人举手说老板我有个想法，老板又拍回去，团队会越来越死气沉沉」（进阶篇-口述 L3302-L3306）

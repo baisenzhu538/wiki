@@ -282,21 +282,29 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[cases/case-yitang-doorstep-nail-service-context|案例：上门美甲——在用户真实场景中访谈]] — source `00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md`
 - [[cases/case-yitang-doorstep-pet-feeding-trust|案例：上门宠物喂养——用调研解决信任障碍]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
 - [[cases/case-yitang-double-triangle-confidence|案例：一堂把双三角模型变成 AI 难题的通用解题底盘]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+- [[cases/case-yitang-du-kids-education-sabc|杜同学儿童教育：年龄×成绩×陪同家长三维切 SABC，发现"妈妈能拍板、老人最弱"]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:L1972-1978`
 - [[cases/case-yitang-education-supply-chain|案例：一堂是'教育供应链创新公司'——从真实实践里种菜、摘菜、炒菜]] — source `pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述`
 - [[cases/case-yitang-elderly-home-roleplay|案例：假扮家属潜入养老院微信群]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
 - [[cases/case-yitang-fake-interview-intelligence|案例：假扮面试发现行业红利退潮]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
+- [[cases/case-yitang-false-causality-collection|伪因果十题与聪明下属反噬四案：KPI 锁错因果，团队越聪明业务越差]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:L2322-2380`
+- [[cases/case-yitang-fupanying-five-years-1000-hypotheses|一堂复盘营五年：8 个参数到 200+ 参数、1000+ 假设，把低转高做成不靠红利的长期生意]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt:L314-404`
 - [[cases/case-yitang-goat-milk-channel-partnership|羊奶粉「卖地图」区域代理模式案例]] — source `60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md`
 - [[cases/case-yitang-hardware-factory-photo|案例：从朋友圈照片找到代工厂]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
 - [[cases/case-yitang-headhunting-internet-scale|案例：猎头互联网做大——忽视行业结构性限制]] — source `00_inbox/实事求是/实事求是-周子敬-口述.txt`
 - [[cases/case-yitang-homestay-reception-design|案例：民宿接待方案——用调研优化服务体验设计]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
+- [[cases/case-yitang-homework-six-owners|一堂作业数六负责人推演：同一个作业率目标，六种业务理解深度决定六种操盘高度]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:L410-436`
+- [[cases/case-yitang-innovative-metrics-collection|创新参数与动作案例集：把"没被命名过的率"挖出来——鞋店连带率、伸手接传单率、进会议室率、夸孩子率与一堂自定义参数群]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:L2180-2230`
 - [[cases/case-yitang-jtbd-story-formula|案例：JTBD故事公式——从用户故事中提取需求]] — source `00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md`
+- [[cases/case-yitang-laowenqi-huixiao-10x|劳文启线下会销十倍增长：业务公式从1.0拆到4.0，单场10万干到近百万]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt:L782-816`
 - [[cases/case-yitang-lianjia-site-selection-industrialization|案例：链家如何用 IBM 咨询实现选址工业化]] — source `00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt`
 - [[cases/case-yitang-lin-biaoyang-liver-detection|案例：林标阳肝病检测——L5 学科层推翻商业层二三十年惯例]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
 - [[cases/case-yitang-live-commerce-scale-misjudgment|案例：直播电商规模误判——以电视购物做类比导致以偏概全]] — source `00_inbox/实事求是/实事求是-周子敬-口述.txt`
 - [[cases/case-yitang-luckin-field-research|案例：瑞幸做空——实地调研的教科书]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
+- [[cases/case-yitang-magic-number-collection|魔法数字案例集：从美团 30 天 3 单到一堂 50 学分，拐点参数怎么找、怎么用]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:L2842-2940`
 - [[cases/case-yitang-mahjong-machine-fake-order|案例：假装订货套取麻将机竞品数据]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[cases/case-yitang-maiyi-cloud-computer-channel|案例：马毅云电脑如何扫描 60+ 渠道实现 3.7 亿营收]] — source `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`
 - [[cases/case-yitang-mao-scientific-culture|案例：毛泽东"主义清单"——红蓝卡的历史原型]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
+- [[cases/case-yitang-marathon-ten-seasons|一堂马拉松十期：双目标+10维切片+攻坚会，用假设驱动把年度续费大课做成一条稳定向上的曲线]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L1918-2038`
 - [[cases/case-yitang-milktea-bonus-design|案例：奶茶店奖金——追问"发奖金的本质"重构薪酬设计]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
 - [[cases/case-yitang-model-asset-inventory|案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[cases/case-yitang-model-valuation-flywheel|案例：一堂内部给模型"定价"——从 5000 元到 10 万美金的价值飞轮]] — source `pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述`

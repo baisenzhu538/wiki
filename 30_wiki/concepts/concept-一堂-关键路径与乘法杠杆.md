@@ -29,6 +29,14 @@ related:
 - '[[yt-tool-business-formula-quant-space-3d]]'
 - '[[yt-tool-business-formula-18-moves]]'
 - '[[business-formula-domain-digest]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[case-yitang-laowenqi-huixiao-10x]]'
+- '[[case-yitang-zhanglei-comic-booth]]'
+- '[[case-yitang-homework-six-owners]]'
+- '[[case-yitang-shipinhao-ads-l1-l6]]'
+- '[[case-yitang-xingangwan-chess-room]]'
+- '[[case-yitang-wenxiaozhang-driving-school]]'
 diagnostic_signals:
 - signal: 业务公式拆出几十个参数，团队每个都"优化一点"，年底大盘几乎没动
   lens: 加法乘法不分——用力平均撒在了分支加法上，对总目标打了一个大折扣
