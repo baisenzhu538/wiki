@@ -22,7 +22,6 @@ related:
   - "[[tool-半肥猫-课程Skill化的八步工作流]]"
   - "[[tool-ai-skill-engineering-method]]"
   - "[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]"
-  - "[[ocr-泛产品设计-落地卡片-攻坚会]]"
   - "[[tool-月白-口述作图法（口喷设计）]]"
   - "[[tool-Truman-Skill全生命周期管理]]"
   - "[[tool-月白-设计能力蒸馏封装法]]"

@@ -15,7 +15,6 @@ source_refs:
 - src_unknown
 related:
 - '[[strategy-domain-digest]]'
-- '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'
 - '[[yt-barrier-ecosystem-lock-in]]'
 - '[[tool-mece体系框架法]]'
 - '[[case-truman-personal-growth-map-creation]]'

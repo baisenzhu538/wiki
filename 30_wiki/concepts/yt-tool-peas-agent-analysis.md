@@ -32,7 +32,6 @@ related:
   - "[[tool-Truman-个人判断力系统建设（达克效应应对）]]"
   - "[[tool-Truman-判断力产品化与系统赋能]]"
   - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
-  - "[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]"
   - "[[yt-concept-peas-insight]]"
   - "[[ai-native-五层进阶从答案到效率到作品到产品到系统]]"
 review_date: 2026-05-15

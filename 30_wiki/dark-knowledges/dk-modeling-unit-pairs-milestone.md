@@ -16,7 +16,6 @@ confidence: 0.89
 trust_level: medium
 related:
   - "[[yitang-domain-digest]]"
-  - "[[ocr-一堂y模型steps策略集]]"
   - "[[tool-月白-AI模型选择策略]]"
   - "[[dk-单元模型-找单元模型实操难点]]"
   - "[[ocr-一堂y模型-科学成事道理]]"

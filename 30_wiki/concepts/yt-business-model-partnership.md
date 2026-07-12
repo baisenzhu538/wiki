@@ -18,7 +18,6 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[ocr-一堂y模型steps策略集]]"
   - "[[tool-月白-AI模型选择策略]]"
   - "[[tool-Truman-人在环渐进自动化策略]]"
   - "[[存储策略]]"

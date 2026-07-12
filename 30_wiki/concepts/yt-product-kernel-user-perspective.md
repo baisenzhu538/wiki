@@ -19,7 +19,6 @@ reviewed_by: 待审
 review_date: '2026-06-19'
 related:
   - "[[tool-用户视角]]"
-  - "[[ocr-泛产品设计-用户卡片-用户视角]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"

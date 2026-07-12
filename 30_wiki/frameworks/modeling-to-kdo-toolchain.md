@@ -26,7 +26,6 @@ related:
 - "[[kdo-input-channel-strategy-2026-06-16]]"
 - "[[ocr-泛产品设计-落地卡片-攻坚会]]"
 - "[[kdo-protocol]]"
-- "[[ocr-泛产品设计落地篇]]"
 - "[[tool-泛产品落地-内核和边界]]"
 - "[[kdo-batch-produce-req014]]"
 - "[[tool-泛产品落地-灵感闪现]]"

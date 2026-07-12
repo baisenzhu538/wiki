@@ -27,7 +27,6 @@ related:
   - "[[dk-yitang-model-asset-capitalization]]"
   - "[[tool-月白-创作与执行双模式切换]]"
   - "[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]"
-  - "[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]"
   - "[[tool-马易-平台模式验证法]]"
   - "[[互联网医院模式深度调研报告]]"
   - "[[tool-现场建模式萃取笔记]]"

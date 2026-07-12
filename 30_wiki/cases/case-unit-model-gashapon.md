@@ -14,10 +14,8 @@ domain: yitang
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-扭蛋机案例_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-扭蛋机案例_vlm_desc.md
-- 30_wiki/raw/ocr/ocr-一堂-单元模型-扭蛋机案例.md
 related:
 - '[[yitang-domain-digest]]'
-- '[[ocr-一堂-单元模型-扭蛋机案例]]'
 - '[[pending_unknown]]'
 - concept-X型Y型决策习惯
 - concept-发现决策

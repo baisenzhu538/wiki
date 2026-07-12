@@ -41,7 +41,6 @@ related:
 - '[[case-科学决策-ROI案例03]]'
 - '[[ocr-一堂-人机协作-双三角模型]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-- '[[ocr-一堂-科学决策-深度-案例04]]'
 - yt-model-dual-triangle-competitiveness
 - yt-decision-ai-partner
 created_at: '2026-06-15'

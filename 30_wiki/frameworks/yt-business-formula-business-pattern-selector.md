@@ -35,7 +35,6 @@ diagnostic_signals:
 - framework_lens: 混合业务未分层拆解
   follow_up_question: 把收入拆成“首单收入”和“后续复购/续费收入”后，两段各自的瓶颈分别是什么？
 related:
-- '[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'

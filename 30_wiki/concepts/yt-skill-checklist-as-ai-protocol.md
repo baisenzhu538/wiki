@@ -18,7 +18,6 @@ related:
   - "[[meta-prompt-eng]]"
   - "[[tool-prompt-iceberg-demand-analysis]]"
   - "[[视觉prompt三层操作系统-srom-visual-os]]"
-  - "[[ocr-一堂-ai学习-提问工程化]]"
   - "[[yt-model-prompt-engineering]]"
   - "[[framework-wanghuan-bitcoe-prompt-framework]]"
   - "[[proposal-prompt-injection-infrastructure]]"

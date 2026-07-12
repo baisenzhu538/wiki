@@ -20,7 +20,6 @@ related:
 - '[[tool-项目方案评估三角形]]'
 - '[[ocr-一堂-科学决策-决策三角形]]'
 - '[[tool-提升笔记练习频次的方法]]'
-- '[[ocr-一堂-科学决策-项目方案评估三角形]]'
 - '[[framework-科学决策三角形]]'
 - yt-market-size-estimation
 - proposal-prompt-injection-infrastructure

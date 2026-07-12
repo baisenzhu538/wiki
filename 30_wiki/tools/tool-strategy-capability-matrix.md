@@ -16,7 +16,6 @@ source_refs:
 related:
 - "[[strategy-domain-digest]]"
 - "[[tool-单元模型-象限分析法]]"
-- "[[ocr-一堂-单元模型-象限分析法]]"
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
 review_date: '2026-06-29'

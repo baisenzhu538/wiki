@@ -23,7 +23,6 @@ related:
 - '[[ocr-泛产品设计-审美卡片-最佳实践建模]]'
 - '[[tool-泛产品落地-业务建模]]'
 - '[[tool-现场建模式萃取笔记]]'
-- '[[ocr-泛产品设计-落地卡片-业务建模]]'
 - proposal-prompt-injection-infrastructure
 - case-ai-agent-milestone-design
 updated_at: '2026-06-29'

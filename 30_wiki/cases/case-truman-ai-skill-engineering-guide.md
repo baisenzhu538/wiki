@@ -22,7 +22,6 @@ related:
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
 - '[[tool-ai-skill-engineering-method]]'
 - '[[tool-Truman-提示词优化底层方法]]'
-- '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'
 - '[[tool-Truman-Skill全生命周期管理]]'
 - '[[yt-model-truman-career-routes]]'
 - '[[paddleocr-skill]]'

@@ -17,7 +17,6 @@ confidence: 0.8
 trust_level: medium
 related:
   - "[[yitang-domain-digest]]"
-  - "[[ocr-一堂-科学决策-深度-l1优先级定性]]"
   - "[[tool-分层标注重点信息]]"
   - "[[tool-月白-AIGC海报信息优先级排序法]]"
   - "[[tool-使用优先级快筛卡锁定核心矛盾]]"

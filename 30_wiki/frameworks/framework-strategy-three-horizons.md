@@ -26,7 +26,6 @@ related:
 - '[[tool-泛产品落地-管理三段论]]'
 - '[[tool-水水-管理决策权重偏差]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
-- '[[ocr-一堂-管理必修-课程清单]]'
 - tool-strategy-three-horizons
 ---
 # 三个地平线：短中长期业务组合管理

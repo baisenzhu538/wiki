@@ -50,7 +50,6 @@ related:
 - "[[yt-business-formula-abc-model]]"
 - "[[plan_20260501_8001399c-improvement-plan]]"
 - "[[plan_20260531_data-curator-v1.1]]"
-- "[[ocr-一堂-科学决策-关键假设abcd模型]]"
 - "[[yt-tob-customer-sabc]]"
 - "[[plan_20260621_skill-iteration-standard]]"
 - "[[plan_20260621_kdo-quality-harness-upgrade]]"

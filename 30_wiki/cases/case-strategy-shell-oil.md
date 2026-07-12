@@ -17,7 +17,6 @@ reviewed_by: pending
 updated_at: 2026-06-29
 related:
 - strategy-domain-digest
-- ocr-一堂-单元模型-动态预测
 - tool-月白-服务体验类去AI感设计
 - tool-采用滚动预测机制
 ---

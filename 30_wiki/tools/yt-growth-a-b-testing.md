@@ -20,7 +20,6 @@ review_date: '2026-06-20'
 related:
   - "[[tool-泛产品落地-低成本测试MVP]]"
   - "[[tool-月白-模型识别与边界测试法]]"
-  - "[[ocr-泛产品设计-落地卡片-低成本测试mvp]]"
   - "[[tool-月白-餐饮海报AB测试法]]"
   - "[[pending_unknown]]"
 diagnostic_signals:

@@ -22,7 +22,6 @@ related:
 - '[[ocr-一堂-科学决策-roi决策评估画布-案例02]]'
 - '[[yt-panproduct-execution-roi-analysis]]'
 - '[[ocr-一堂-科学决策-roi决策评估画布-案例01]]'
-- '[[ocr-泛产品设计-落地卡片-roi分析]]'
 - '[[ocr-一堂-科学决策-roi决策评估画布-案例04]]'
 - '[[case-科学决策-ROI案例02]]'
 - '[[case-科学决策-ROI案例03]]'

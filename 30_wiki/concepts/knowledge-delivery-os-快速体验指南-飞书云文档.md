@@ -21,7 +21,6 @@ related:
 - "[[fix-dark-knowledge-extractor-llm]]"
 - "[[master-knowledge-compound]]"
 - "[[HIS系统开发实现方案-架构师指南]]"
-- "[[ocr-泛产品设计-需求工具箱指南]]"
 - "[[yt-personal-knowledge-extraction]]"
 - "[[yt-tool-knowledge-extraction]]"
 - "[[ocr-泛产品设计-审美工具箱指南]]"

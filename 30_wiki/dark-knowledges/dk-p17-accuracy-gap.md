@@ -20,7 +20,6 @@ related:
   - "[[dk-ai-social-progress-not-automatic]]"
   - "[[tool-demand-agent-auto-verify]]"
   - "[[labeling-research-alignment]]"
-  - "[[ocr-项目背景问题思考的8个维度]]"
   - "[[gold-standard-manual-labels]]"
   - "[[ouyangfeng-labeling-research-review]]"
   - "[[dk-c7-auto-backup-conflict]]"

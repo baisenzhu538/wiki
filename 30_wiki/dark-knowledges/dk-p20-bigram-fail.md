@@ -18,7 +18,6 @@ related:
   - "[[yt-entrepreneur-needs-analysis]]"
   - "[[yt-entrepreneur-pragmatic-startup]]"
   - "[[dk-modeling-explanatory-vs-predictive-essence]]"
-  - "[[ocr-screenshot2]]"
   - "[[dk-yb22-visual-presentation-scene-match]]"
   - "[[yt-entrepreneur-product-core]]"
   - "[[yt-entrepreneur-opportunity-selection]]"

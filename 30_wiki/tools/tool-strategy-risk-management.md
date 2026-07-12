@@ -32,7 +32,6 @@ related:
 - '[[ai-short-drama-platform-policy-comparison]]'
 - '[[tool-泛产品设计-需求工具箱指南]]'
 - '[[tool-Truman-AI工具选型决策]]'
-- '[[ocr-泛产品设计-需求工具箱指南]]'
 - '[[dk-note-maximum-common-divisor]]'
 - '[[tool-泛产品落地-风险管理]]'
 - '[[tool-清单小抄工具箱法]]'

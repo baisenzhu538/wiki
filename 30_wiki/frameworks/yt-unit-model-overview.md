@@ -35,7 +35,6 @@ updated_at: '2026-07-03'
 related:
 - framework-yitang-five-step-to-time-management
 - concept-最简单元模型
-- ocr-一堂-单元模型-规模经济对抗武器库
 - tool-单元模型-壁垒预判
 - ocr-一堂-单元模型-单用户模型
 - ocr-一堂-单元模型-对抗小抄02

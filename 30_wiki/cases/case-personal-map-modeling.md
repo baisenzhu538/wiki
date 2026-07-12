@@ -22,7 +22,6 @@ confidence: 0.7
 related:
 - "[[case-truman-personal-growth-map-creation]]"
 - "[[tool-从案例中学习]]"
-- "[[ocr-一堂个人地图高潜力成长者修炼全景图]]"
 - "[[ocr-一堂-案例拆解-课程清单]]"
 - "[[ocr-一堂-科学决策-深度-案例02]]"
 - "[[case-科学决策-深度案例06]]"

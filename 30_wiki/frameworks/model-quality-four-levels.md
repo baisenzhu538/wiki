@@ -16,7 +16,6 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: '2026-06-14'
 trust_level: medium
 related:
-- '[[ocr-一堂y模型steps策略集]]'
 - '[[tool-Truman-提示词优化底层方法]]'
 - '[[tool-Truman-Skill全生命周期管理]]'
 - '[[tool-月白-AI模型选择策略]]'

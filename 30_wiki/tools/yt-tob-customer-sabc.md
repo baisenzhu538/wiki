@@ -27,7 +27,6 @@ trust_level: medium
 related:
 - '[[tool-sabc-tier-modeling]]'
 - '[[tool-纪浩-Problem与Question区分法]]'
-- '[[ocr-一堂-单元模型-单客户模型]]'
 - '[[tool-月白-普通人AI设计80分法则]]'
 - '[[tool-Truman-数学题与语文题区分法]]'
 - yt-product-kernel-to-business-model

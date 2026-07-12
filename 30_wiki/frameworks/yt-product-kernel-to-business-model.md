@@ -18,7 +18,6 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[ocr-一堂-科学决策-商业模式-完整财务公式决策]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"

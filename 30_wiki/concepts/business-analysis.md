@@ -16,7 +16,6 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- '[[ocr-一堂-单元模型-找基准值实操难点]]'
 - '[[learning-thinking]]'
 - '[[meta-prompt-eng]]'
 - '[[writing-content]]'

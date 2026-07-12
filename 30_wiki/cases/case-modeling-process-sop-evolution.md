@@ -24,7 +24,6 @@ review_date: 2026-06-15
 confidence: 0.8
 trust_level: high
 related:
-- '[[ocr-一堂y模型steps策略集]]'
 - '[[ocr-一堂-地图-管理地图_conv]]'
 - '[[ocr-一堂-科学决策-roi决策评估画布]]'
 - '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'

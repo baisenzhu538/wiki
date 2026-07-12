@@ -27,7 +27,6 @@ trust_level: high
 related:
 - "[[tool-半肥猫-课程Skill化的八步工作流]]"
 - "[[tool-ai-skill-engineering-method]]"
-- "[[ocr-一堂-高阶体系探索营-三种咨询可能性]]"
 - "[[tool-Truman-Skill全生命周期管理]]"
 - "[[paddleocr-skill]]"
 - "[[case-半肥猫-course-to-skill]]"

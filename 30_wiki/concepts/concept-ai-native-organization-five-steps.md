@@ -27,7 +27,6 @@ diagnostic_signals:
   - src_unknown
   - src_unknown
 related:
-  - '[[ocr-一堂y模型steps策略集]]'
   - '[[concept-harness-cattle-not-pets]]'
   - '[[concept-X型Y型决策习惯]]'
   - '[[concept-wanghuan-tacit-knowledge-examples]]'

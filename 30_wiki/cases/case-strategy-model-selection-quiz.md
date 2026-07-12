@@ -23,7 +23,6 @@ source_refs:
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-月白-AI模型选择策略]]'
-- '[[ocr-一堂刻意练习十年成长指数]]'
 - '[[ocr-一堂-个人修炼-科学提问刻意练习]]'
 - '[[tool-月白-AI模型选择决策法]]'
 - '[[tool-按分阶练习路径渐进掌握方法]]'

@@ -34,7 +34,6 @@ related:
 - "[[kdo-yaml-frontmatter-safety]]"
 - "[[yt-business-formula-abc-model]]"
 - "[[kdo-priority-checklist]]"
-- "[[ocr-一堂-科学决策-关键假设abcd模型]]"
 - "[[yt-tob-customer-sabc]]"
 - "[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]"
 - "[[kdo_product_design_agent_final]]"

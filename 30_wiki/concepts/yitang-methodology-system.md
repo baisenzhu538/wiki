@@ -45,7 +45,6 @@ related:
 - ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步
 - ocr-一堂进步大地图
 - yitang-domain-digest
-- ocr-一堂进步大地图_compressed
 - framework-yitang-scientific-sales-five-step
 - yt-decision-y-model
 - tool-yitang-Y-model-application

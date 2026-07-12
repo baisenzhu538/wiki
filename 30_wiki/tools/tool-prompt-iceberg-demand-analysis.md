@@ -17,7 +17,6 @@ author: 黄药师（从程诚同学提示词提取）
 reviewed_by: 欧阳锋
 related:
 - '[[yitang-domain-digest]]'
-- '[[ocr-一堂深度复盘冰山图]]'
 - yt-business-formula-parameter-iceberg
 - yt-research-user-jtbd
 ---

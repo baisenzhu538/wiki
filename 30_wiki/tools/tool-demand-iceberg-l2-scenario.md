@@ -27,7 +27,6 @@ related:
 - '[[tool-纪浩-真需求四要素验证法]]'
 - '[[tool-月白-课程问题预埋法]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-- '[[ocr-项目背景问题思考的8个维度]]'
 - '[[tool-月白-AI需求拆解咨询法]]'
 - '[[tool-月白-设计需求口头化表达法]]'
 - proposal-prompt-injection-infrastructure

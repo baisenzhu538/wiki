@@ -16,7 +16,6 @@ reviewed_by: 欧阳锋
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-马易-数据存储架构选择]]'
-- '[[ocr-泛产品设计-用户卡片-场景推演]]'
 - '[[tool-月白-封面情绪转化法]]'
 - '[[tool-react行动推理循环]]'
 - '[[tool-马易-工作流拆解找场景]]'

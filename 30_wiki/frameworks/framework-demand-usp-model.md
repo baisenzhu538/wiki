@@ -19,7 +19,6 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[yt-note-problem-solving-capability]]'
 - '[[yt-demand-level-assessment]]'
-- '[[ocr-一堂y模型steps策略集]]'
 - '[[tool-demand-iceberg-l1-user]]'
 - '[[case-demand-pharma-bigdata]]'
 - '[[yt-demand-peak-end-rule]]'

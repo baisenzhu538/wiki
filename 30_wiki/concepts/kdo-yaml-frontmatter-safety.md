@@ -22,7 +22,6 @@ related:
   - "[[obsidian-kdo-内容产出工作流-产品设计大纲]]"
   - "[[framework-kdo-self-attack]]"
   - "[[kdo-priority-checklist]]"
-  - "[[ocr-泛产品设计-审美工具箱指南]]"
   - "[[dk-p19-quote-yaml]]"
   - "[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]"
   - "[[kdo_product_design_agent_final]]"

@@ -17,7 +17,6 @@ related:
 - "[[tool-ai-prd-for-ai]]"
 - "[[prd-as-ai-instruction]]"
 - "[[tool-Truman-人在环渐进自动化策略]]"
-- "[[ocr-truman的选择两条职业成长路线]]"
 - "[[tool-Truman-双三角模型应用]]"
 - "[[tool-Truman-AI能力分层学习路径]]"
 - "[[tool-Truman-信息输入持续补全（防AI错误累积）]]"

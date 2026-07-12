@@ -22,7 +22,6 @@ related:
 - '[[tool-水水-区分风险与不确定性]]'
 - '[[tool-水水-识别超级传播者风险]]'
 - '[[tool-泛产品落地-风险管理]]'
-- '[[ocr-泛产品设计-落地卡片-风险管理]]'
 - tool-ai-cross-reading-method
 - tool-ai-critical-reading-three-layers
 ---

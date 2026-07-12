@@ -15,7 +15,6 @@ source_refs:
 - src_unknown
 related:
 - '[[strategy-domain-digest]]'
-- '[[ocr-一堂-高阶体系探索营-三种咨询可能性]]'
 - '[[tool-mece体系框架法]]'
 - '[[一堂方法论体系总图]]'
 - '[[tool-敏捷发布快速迭代搭建体系]]'

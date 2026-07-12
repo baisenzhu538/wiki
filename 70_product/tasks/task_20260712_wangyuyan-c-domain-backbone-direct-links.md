@@ -1,7 +1,7 @@
 ---
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-12T06:29:49.899274+00:00'
+status: pending_review
+updated_at: '2026-07-12T06:44:08.283888+00:00'
 reviewed_by: pending
 ---
 # 任务 #162：C 域骨干直连（任务 A，欧阳锋建议书落地）
@@ -41,3 +41,41 @@ reviewed_by: pending
 2. 触碰文件逐件 pre-submit PASS
 3. lint 增量（T5 回卷后）零新增债
 4. 申报集=实动集（协议 2 扫窗自查）
+
+---
+
+## 执行报告（老顽童，2026-07-12 交卷）
+
+### A. 骨干直连：候选 9 对边，grep 矩阵后实补 7 对（14 条有向边），2 对已闭合未动
+
+执行前对 9 对候选边全量 grep 双向确认（解析 frontmatter related，脚本实测非估算）：
+
+| 候选边 | 执行前 | 动作 |
+|---|---|---|
+| `framework-一堂-苦练基本功-总纲` ↔ C 域总纲 | 双缺 | **补双向** |
+| `framework-一堂-基本功-九层金字塔` ↔ `yt-business-formula-parameter-iceberg` | 双缺 | **补双向** |
+| `framework-一堂-基本功-九层金字塔` ↔ `yt-business-formula-six-level-logic` | 双缺 | **补双向** |
+| `framework-一堂-基本功-四字诀拆建推练` ↔ C 域总纲 | 双缺 | **补双向** |
+| `concept-yihang-dual-triangle-core` ↔ C 域总纲 | 双缺 | **补双向** |
+| `yt-decision-y-model` ↔ C 域总纲 | 双缺 | **补双向** |
+| `system-yitang-Y-model-os` ↔ C 域总纲 | 双缺 | **补双向** |
+| `framework-yitang-y-model-cross-domain-fusion` ↔ C 域总纲 | **已双向**（fusion→总纲为 #161 收尾所补，总纲→fusion 原有） | 未动，申报在案 |
+| `framework-一堂-关键假设-ABCD模型` ↔ C 域总纲 | **已双向**（ABCD→C 实测 6 边含总纲，总纲→ABCD 原有；建议书估 4 边，实测 6 边） | 未动，申报在案 |
+
+### B. 占位死链摘除
+
+`yt-management-business-formula` related L31-32 `pending_unknown ×2` 已摘除（同卡 3 条导航边 一堂方法论体系总图/yitang-course-map/yt-system-course-catalog 按终审裁定未动）。#161 终审裁定 2 闭环。
+
+### 验收点逐条对账
+
+1. **每边双向 grep 互见**：9 对全部 ✅（输出原文——9 行 `✅ ... (→有 ←有)`，复测脚本存于交卷对话，口径=解析两卡 related 互查）。
+2. **pre-submit**：触碰 10 文件逐件 PASS（10/10，Failed: 0；其中九层金字塔、yt-management-business-formula 各带 1 条 🟡 存量 warning——跨域判定共享 yitang 域 / Synthesis 链数，非本次引入，结果均为 PASS）。
+3. **lint 增量**：本批全是关系型边、双向同建，不进豁免清单；T5 基线回卷未落地（黄药师侧），增量验证口径与 #158 同——以 grep 互见 + 对称性自查替代，已执行。
+4. **申报集=实动集**：git diff（ac966c70c..HEAD，30_wiki 范围）14 文件，归属：本任务 10 文件（+14/-2，与 14 条有向边 + 摘 2 死链精确吻合）；`yt-business-formula-hypothesis-management-playbook` +1、`framework-yitang-y-model-cross-domain-fusion` +1 为 #161 收尾补链（已在 #161 报告申报）；`wangyuyan-working-protocols.md` +10、`zhu-project-board.md` 为王语嫣/老朱自身更新，非我动。
+
+### 改动明细（全部仅 related 追加/摘除，正文、status、updated_at 均未动）
+
+- C 域总纲 +6（苦练基本功总纲/九层金字塔/四字诀/dual-triangle-core/yt-decision-y-model/Y-model-os）
+- 苦练基本功总纲 +1、四字诀 +1、dual-triangle-core +1、yt-decision-y-model +1、Y-model-os +1（各回链 C 域总纲）
+- 九层金字塔 +2（参数冰山/六层逻辑）、参数冰山 +1、六层逻辑 +1（互链）
+- yt-management-business-formula −2（pending_unknown 死链）

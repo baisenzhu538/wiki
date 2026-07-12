@@ -19,7 +19,6 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_66_vlm_desc.md
 related:
 - '[[strategy-domain-digest]]'
-- '[[ocr-一堂-单元模型-示例01]]'
 - '[[ocr-一堂-单元模型-示例]]'
 - case-strategy-m-brand-profit-model
 - case-lean-premature-refinement

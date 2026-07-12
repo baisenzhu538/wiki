@@ -15,7 +15,6 @@ source_refs:
 - src_unknown
 related:
 - '[[strategy-domain-digest]]'
-- '[[ocr-一堂y模型steps策略集]]'
 - '[[yt-note-fact-pattern-insight]]'
 - '[[tool-月白-AI模型选择策略]]'
 - '[[dk-单元模型-找单元模型实操难点]]'

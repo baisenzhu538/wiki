@@ -21,7 +21,6 @@ related:
 - "[[yt-note-l4-internalization]]"
 - "[[yt-management-team-knowledge]]"
 - "[[yt-note-ai-p-role-not-c-role]]"
-- "[[ocr-一堂-ai清单体笔记系统故事线-truman-图片01]]"
 ---
 - "[[dk-note-rookie-disaster-veteran-heaven]]"
 

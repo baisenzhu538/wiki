@@ -1,6 +1,6 @@
 {
   "description": "#163 OCR deadlink cleanup — from×target full mapping",
-  "total_pairs": 724,
+  "total_pairs": 725,
   "pairs": [
     {
       "from": "case-ai-assisted-review",
@@ -480,17 +480,17 @@
     {
       "from": "case-modeling-process-sop-evolution",
       "to": "ocr-一堂-单元模型-单用户模型",
-      "action": "改"
+      "action": "摘"
     },
     {
       "from": "case-thousand-people-square",
       "to": "ocr-一堂-单元模型-单用户模型",
-      "action": "改"
+      "action": "摘"
     },
     {
       "from": "concept-thousand-people-square",
       "to": "ocr-一堂-单元模型-单用户模型",
-      "action": "改"
+      "action": "摘"
     },
     {
       "from": "concept-最简单元模型",
@@ -500,12 +500,12 @@
     {
       "from": "yt-growth-user-onboarding",
       "to": "ocr-一堂-单元模型-单用户模型",
-      "action": "改"
+      "action": "摘"
     },
     {
       "from": "yt-model-agent-architecture",
       "to": "ocr-一堂-单元模型-单用户模型",
-      "action": "改"
+      "action": "摘"
     },
     {
       "from": "dk-modeling-unit-pairs-milestone",
@@ -515,22 +515,22 @@
     {
       "from": "dk-p7-ocr-skip",
       "to": "ocr-一堂-单元模型-单用户模型",
-      "action": "改"
+      "action": "摘"
     },
     {
       "from": "framework-demand-usp-model",
       "to": "ocr-一堂-单元模型-单用户模型",
-      "action": "改"
+      "action": "摘"
     },
     {
       "from": "framework-strategy-basics-02-insight",
       "to": "ocr-一堂-单元模型-单用户模型",
-      "action": "改"
+      "action": "摘"
     },
     {
       "from": "framework-strategy-mckinsey-7s",
       "to": "ocr-一堂-单元模型-单用户模型",
-      "action": "改"
+      "action": "摘"
     },
     {
       "from": "framework-TCPR底层网络协议",
@@ -540,7 +540,7 @@
     {
       "from": "model-quality-four-levels",
       "to": "ocr-一堂-单元模型-单用户模型",
-      "action": "改"
+      "action": "摘"
     },
     {
       "from": "yt-tob-unit-model",
@@ -548,9 +548,14 @@
       "action": "改"
     },
     {
+      "from": "yt-unit-model-overview",
+      "to": "ocr-一堂-单元模型-单用户模型",
+      "action": "摘"
+    },
+    {
       "from": "tool-strategy-control-points",
       "to": "ocr-一堂-单元模型-单用户模型",
-      "action": "改"
+      "action": "摘"
     },
     {
       "from": "tool-单元模型-单商圈",

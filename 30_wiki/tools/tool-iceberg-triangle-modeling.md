@@ -23,7 +23,6 @@ trust_level: high
 confidence: 0.9
 related:
 - pending_unknown
-- ocr-一堂深度复盘冰山图
 - tool-动手建模法
 - tool-yitang-sales-process-decomposition
 - tool-yitang-sales-performance-management

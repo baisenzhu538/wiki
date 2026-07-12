@@ -40,7 +40,6 @@ related:
   - "[[ocr-泛产品设计-审美工具箱指南]]"
   - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
   - "[[dk-lz-ai-native-organization]]"
-  - "[[ocr-泛产品设计落地工具篇指南]]"
 tags:
 - src_unknown
 - src_unknown

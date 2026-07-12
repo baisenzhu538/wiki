@@ -18,7 +18,6 @@ related:
   - "[[tool-泛产品落地-逻辑MECE]]"
   - "[[tool-纪浩-Agent技能市场设计法]]"
   - "[[concept-mckinsey-mece]]"
-  - "[[ocr-泛产品设计-落地卡片-逻辑mece]]"
   - "[[tool-体系框架构建]]"
   - "[[yt-panproduct-execution-logic-mece]]"
 definition_of_done:

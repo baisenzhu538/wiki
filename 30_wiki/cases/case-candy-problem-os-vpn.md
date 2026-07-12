@@ -18,7 +18,6 @@ source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
 - '[[yitang-domain-digest]]'
-- '[[ocr-泛产品设计-用户卡片-场景推演]]'
 - '[[tool-从案例中学习]]'
 - '[[ocr-一堂-案例拆解-课程清单]]'
 - '[[ocr-一堂-科学决策-深度-案例02]]'

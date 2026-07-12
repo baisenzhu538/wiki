@@ -20,7 +20,6 @@ query_triggers:
 - src_unknown
 related:
   - "[[yt-tool-peas-agent-analysis]]"
-  - "[[ocr-一堂y模型steps策略集]]"
   - "[[tool-agent-research-pipeline]]"
   - "[[case-ai-agent-milestone-design]]"
   - "[[tool-月白-AI模型选择策略]]"

@@ -20,7 +20,6 @@ related:
 - framework-yitang-five-step-to-time-management
 - tool-单元模型-壁垒预判
 - pending_unknown
-- ocr-一堂-单元模型-壁垒预判
 - framework-yitang-scientific-sales-five-step
 - yt-decision-y-model
 - tool-yitang-Y-model-application

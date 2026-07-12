@@ -20,7 +20,6 @@ review_date: '2026-06-19'
 related:
   - "[[ocr-泛产品设计-用户卡片-场景推演]]"
   - "[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]"
-  - "[[ocr-泛产品设计-落地卡片-攻坚会]]"
   - "[[yt-panproduct-execution-low-cost-mvp]]"
   - "[[tool-月白-口述作图法（口喷设计）]]"
   - "[[tool-月白-设计能力蒸馏封装法]]"

@@ -44,7 +44,6 @@ related:
 - "[[yt-model-truman-career-routes]]"
 - "[[tool-从案例中学习]]"
 - "[[tool-Truman-人在环渐进自动化策略]]"
-- "[[ocr-truman的选择两条职业成长路线]]"
 - "[[tool-Truman-双三角模型应用]]"
 - "[[truman-perspective-skill]]"
 - "[[tool-Truman-AI能力分层学习路径]]"

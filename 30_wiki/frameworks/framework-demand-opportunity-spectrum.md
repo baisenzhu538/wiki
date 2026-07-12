@@ -20,7 +20,6 @@ related:
 - '[[ocr-一堂-单元模型-壁垒预判]]'
 - '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
 - '[[tool-单元模型-壁垒预判]]'
-- '[[ocr-预判模型]]'
 - yt-foresight-business-spectrum
 updated_at: '2026-06-29'
 ---
