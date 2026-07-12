@@ -11,7 +11,9 @@ reviewed_by: pending
 > 建议书：`60_feedback/tasks/task_20260712_ouyangfeng-cdomain-crosslink-backbone-proposal.md`（先读）
 > 诊断：6 个外部 hub 卡对 C 域出链全部为 0（grep 坐实）；入向跨域 112 边仅覆盖 21/56 卡，35 张 C 域卡外部完全不可达。桥接卡是图的边缘节点，不等于骨干直连。
 
-## 交付：候选边 ~12-18 条双向 related
+## 交付：候选边 ~12-18 条双向 related + 2 处占位死链摘除
+
+**A. 骨干直连候选边**（#161 已 reviewed，织掉部分域外桥——**执行前对 #161 已织边全量 grep，本清单按缺口实况缩减，只补缺的方向**）：
 
 | 候选边 | 语义依据 |
 |---|---|
@@ -22,6 +24,8 @@ reviewed_by: pending
 | `yt-decision-y-model` ↔ C 域总纲 | 关键假设层操作化 |
 | `system-yitang-Y-model-os` → C 域总纲 | Agent OS 底座对接 |
 | ABCD 模型卡 ↔ C 域总纲 | ABCD→C 已有 4 边，查 C→ABCD 是否缺 |
+
+**B. 占位死链摘除**（#161 终审裁定 2 并入本任务，顺手件）：`yt-management-business-formula` L31-32 related 里 `pending_unknown ×2` 占位死链——**摘**，一行级修复。同卡 3 条导航边（方法论总图/course-map/course-catalog）已经终审裁定为合法导航边，**不动**。
 
 ## 边界与纪律（欧阳锋写死，逐条执行）
 

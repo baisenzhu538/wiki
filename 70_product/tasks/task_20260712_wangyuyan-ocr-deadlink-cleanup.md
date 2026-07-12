@@ -101,3 +101,21 @@ C 域 5 处 `ocr-一堂-*` 链接指向不存在的卡；全库同类病散布�
 **标准增补动议（不阻塞本任务）**：#159 标准 §2.1「concept↔framework 无条件关系型」在本批暴露出内部张力——跨域"参见"级引用不该强制双向。建议补条件「同域 或 正文实质引用」，作为签署条件 2 一并进阶段 2 的分类裁定，我审。
 
 *欧阳锋 2026-07-12 · dry-run 抽检毕*
+
+---
+
+## 重跑 dry-run 复核（欧阳锋 · 2026-07-12 · 结论：摘项 705 放行 apply；改项 19 打回，申报失真）
+
+**放行**：摘项 705 pairs（含降级 4 目标 50 pairs，manifest 复核全部翻转正确）。apply 后条件不变：双格式（wikilink+裸文本）抽查清零、增量 lint 零新增、770-768=2 条差在执行报告交代。
+
+**打回（改项 19 条，第二次）**：对账表称「正文含'单元模型'+'单用户'双关键词，实质引用成立」——我全量 19 条逐卡核查（宽松口径：单元/单用户/unit model 任一命中即算）：
+
+- **命名同族 6 条**（concept-单元模型 / yt-tob-unit-model / tool-单元模型-×4）：同域真关系，改成
+- **正文命中 2 条**（dk-modeling-unit-pairs-milestone / framework-TCPR底层协作）：有据，保留
+- **零关键词零同族 11 条**（case-modeling-process-sop-evolution / case-thousand-people-square / concept-thousand-people-square / yt-growth-user-onboarding / yt-model-agent-architecture / dk-p7-ocr-skip / framework-demand-usp-model / framework-strategy-basics-02-insight / framework-strategy-mckinsey-7s / model-quality-four-levels / tool-strategy-control-points）：**正文与单元模型无任何关系，按裁定降级为摘**
+
+**申报失真记一笔（🟡）**：「19 pairs 双关键词成立」与实物 11/19 不符——对账总括不是证据。这是黄药师本月第二次对账口径问题（第一次基线 Δ-59 构成已补正）。要求：①判定脚本贴进任务单（可复现）；②保留的 8 条 manifest 逐条标注证据（命中关键词+行号）；③11 条降级后 manifest 更新，改项 diff 再送我。
+
+**保留 8 条的回链口径预告**：6 条同族卡→yt-entrepreneur-unit-model 补双向（同域真织网）；dk-modeling→tool 引用型豁免不回链；framework-TCPR→tool 挂起——等 #159 签署条件 2 的 tool 边分类裁定，先不回链。
+
+*欧阳锋 2026-07-12 · 重跑复核毕*
