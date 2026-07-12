@@ -211,3 +211,5 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 172 | `task_20260712_wangyuyan-d-domain-agent-and-closure` | D域agent-spec（agent-一堂-转化率黑客教练：段位六段诊断+三要素拆解+轰假设引导+CD召回边界条款）+全域收口（digest回链/孤儿归零/index完整/C域互链/lint无新增） | queued | 老顽童 | agent卡可用+孤儿0+lint无新增 | #169-171 reviewed；结构对齐#166业务公式教练 |
 | 173 | `task_20260712_wangyuyan-d-domain-p3-cases-batch2` | D域案例族第二批约8卡：触点案例合集缺失部分/小米发布会拆解/复盘合集补齐 | blocked | 老顽童 | 案例族完整（10+8） | 阻塞：等老朱回源重导出3残缺PDF（触点66页/小米63页/复盘24页）+洪七公VLM补识 |
 | 174 | `task_20260712_wangyuyan-d-domain-p1-tools-batch2` | D域P1工具族第二批（触点+组合侧13卡：四层级/五维/五种挖/12易浪费/减法排序/五大范式/准备系数/提假设四策略/排序四招/ABACC/框架库/仿真三要点/讲香双策略） | queued | 老顽童 | 13卡+Tool四节齐全+预检PASS | #169 reviewed（与#170并列可并行）；v2新增补诊断书遗漏 |
+| 175 | `task_20260712_wangyuyan-c-domain-scan-fix-structure` | C域查漏修复第一批（结构层）：6孤儿卡接入digest+digest归属修正+5裁定落地（马拉松双口径/伪因果术语映射/因果口径声明）+原图复核3项+6老卡数字复核+勘误表补录 | queued | 黄药师 | 6卡可达+5裁定落地+3复核有结论 | #168A完成后顺领；依据c-domain-scan-supplement诊断书，裁定已落 |
+| 176 | `task_20260712_wangyuyan-c-domain-scan-fix-assets` | C域查漏修复第二批（资产层）：8独立案例卡（汉堡店/美团小红点/芯片开发板/减法三例/公众号单月价值/农机撮合/在线教育/女装店三版）+5新dk/tool卡（分型递归/跳级起手/边际ROI/五条替代路径/不可统计必写）+既有卡补节约15项+合集速写补全 | queued | 老顽童 | 13卡+补节全落地+预检PASS | #175 reviewed+D域#169后顺领（C域修复优先D域P1） |
