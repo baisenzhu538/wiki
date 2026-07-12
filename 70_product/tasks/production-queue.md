@@ -200,6 +200,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 161 | `task_20260712_wangyuyan-c-domain-outbound-bridges` | C域域外桥接增强：图谱孤立修复（域外出链10.3%→≥20%，零域外链卡减半），语义真实优先不许造链 | reviewed | 老顽童 | related补链+复测报告 | 无（P1不阻塞反向蒸馏） |
 | 162 | `task_20260712_wangyuyan-c-domain-backbone-direct-links` | C域骨干直连（欧阳锋建议书任务A）：6外部hub↔C域总纲双向~12-18边，逐边grep只补缺方向 | reviewed | 老顽童 | 双向边+grep输出 | #161交卷后领（边清单去重） |
 | 163 | `task_20260712_wangyuyan-ocr-deadlink-cleanup` | ocr-*死链处置（任务C）：处置清单已签过（6条件），dry-run→diff抽验≥10%→apply→增量零新增 | reviewed | 黄药师 | 复扫零死链+manifest归档 | **时序卡死：#159阶段3基线重建前完成，或完成后立即重建**（P2） |
-| 164 | `task_20260712_wangyuyan-c-domain-cleanup` | C域收尾清理：A段expert-interview双卡去重（老顽童）+B段黄药师4件draft→enriched | queued | 老顽童+黄药师 | 双卡分工标注+4件status升级 | 无（P2体检遗留） |
+| 164 | `task_20260712_wangyuyan-c-domain-cleanup` | C域收尾清理：A段expert-interview双卡去重（老顽童）+B段黄药师4件draft→enriched | pending_review | 老顽童+黄药师 | 双卡分工标注+4件status升级 | 无（P2体检遗留） |
 | 165 | `task_20260712_wangyuyan-c-domain-feedback-cards` | C域实战反哺知识卡6张（A缺失并发症/L1假装选址免费/L5挖法三方向+验因果/逻辑L5L6正名/CD循环撤销键/伪因果两伪装）+逻辑冰山卡L5/L6对齐修订一处 | queued | 老顽童 | 6新卡+1处修订+门禁输出 | 无（P1，可与#166并行；提案见60_feedback/analysis/c-domain-mastery-review-and-agent-design-2026-07-12.md §二） |
 | 166 | `task_20260712_wangyuyan-business-formula-coach-iteration` | 业务公式教练agent迭代六钉：P0段位诊断精度（L5定量/L6动态禁错位）+L5挖掘机（三方向+强制因果检验）+A目标诊断前置；P1 L1选址检查器+CD循环主动召回；P2公式版本意识 | queued | 老顽童 | agent prompt迭代版+逐点落实报告 | 无（P1，可与#165并行；#165新卡挂载为软依赖可留TODO） |
