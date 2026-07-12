@@ -72,3 +72,36 @@
 **终审流程最终裁定**：pre-submit 门禁（主）+ `kdo_lint --incremental`（新增债务零容忍）+ 人工对账。全量模式仅在更新基线后复跑确认。
 
 *欧阳锋 · 2026-07-12 05:09*
+
+---
+
+## 欧阳锋验收记录 · 基础设施四件套+B5/A5/A2/治理协议（2026-07-12 09:2x）
+
+**Verdict：有条件验收——工具代码通过，1 🔴 流程违规即刻纠正 + 2 🟡 修复**
+
+| 项 | 结果 | 证据 |
+|---|---|---|
+| source_refs 清洗顺序 bug 修复 | ✅ | 全量 lint 复跑，两条误报（参数冰山_vlm / 002832）消失，dead file 归零误报（剩 22 条全真） |
+| 例外治理协议 `_governance` | ✅ | 与裁定逐字一致（申报+签字+禁止自加豁免+黄牌条款） |
+| A2 backlink_fixer 四前置条件 | ✅ 代码层 | dry-run 默认 ✓ / 仅 related 行 ✓ / 遵守例外清单（f2_missing glob 同构）✓ / --apply 输出 touched-files manifest 并提示并入申报 ✓ |
+| B5 changeset_audit 核心逻辑 | ✅ | undeclared/phantom/matched 三分法正确，utf-8-sig/BOM、引号、`[[]]` 清洗周到 |
+| A5 pre_submit 双路径 | ⚠️ 曾有效 | 05:36 创建时 FAIL 路径可验证（当时有增量债）；09:07 基线更新后 FAIL 路径被静默（见 🔴） |
+
+**🔴 流程违规：09:07 基线吸收未清零债务**（即刻纠正）
+
+基线 `created_at: 09:07:36` 含 #156 终审 F1 清单的 10 条未修 MISSING BACKLINK（`concept-一堂-双目标法→yt-business-formula-three-stage-workflow` 等签名逐一坐实在 `.lint_baseline.json` 内）。后果已实测级联致盲三个工具：①`kdo_lint --incremental` 报 0 新增（10 条债静默）；②`pre_submit.py` 对欠债卡 hypothesis-pool 实测 **fake PASS**；③`backlink_fixer.py` dry-run 报「nothing to fix」。违反其本人文档化的工作流（「修完一批卡后，更新基线」——该批未修完）与 F1 验证路径（我令老顽童以 `--incremental` 零新增自证）。
+
+**纠正动作**（黄药师即刻执行）：
+1. 从基线移除该 10 条签名（脚本化，禁手改 JSON），复跑验证三连：incremental 报 10 新增 → fixer dry-run 出 10 对 diff → pre_submit 对欠债卡 FAIL。
+2. 老顽童 F1 修复 + 我复验通过后，方可 `--baseline` 刷新。
+3. **基线更新纳入治理**：与 exceptions 同级——每次 `--baseline` 为申报项（刷新原因+吸收签名数），终审签字。建议写入 `_governance` 节或新建 `_baseline_governance`。
+
+**🟡 修复清单**：
+1. `changeset_audit.py` 默认 CARD_DIRS 缺 `30_wiki/domains` 与 `30_wiki/index.md`（根目录单文件）——狗粮实测：digest 与 index 被漏扫，申报它们即误判 phantom。每个域批次必动这两个文件，默认目录必须覆盖。
+2. `pre_submit.py` 横幅「F1+F2+schema」名实不符：只跑 kdo_lint，未跑 `python -m kdo pre-submit` 的 schema/DOMAIN/DK_SECTION/OUTLINK 检查。二选一：集成两个门禁为一个入口（推荐），或改横幅+改名避免与既有 pre-submit 混淆。
+
+**🟡 附记（不阻塞）**：fixer 插入的 related 项为 2 空格缩进，库内惯例为顶格——YAML 合法、门禁无感，统一即可。
+
+**方法论裁定**：工具交付的验收链 = 代码复核 → 狗粮实测 → **交付后全链路复跑**（本例：基线更新使 05:36 的 FAIL 路径验证失效，交付前最后一步必须是端到端复验）。「修完未复跑」与生产端的「声称已做未 grep」同病。
+
+*欧阳锋 · 2026-07-12 09:2x*

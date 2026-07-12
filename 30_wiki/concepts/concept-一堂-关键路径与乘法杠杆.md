@@ -37,6 +37,7 @@ related:
 - '[[case-yitang-shipinhao-ads-l1-l6]]'
 - '[[case-yitang-xingangwan-chess-room]]'
 - '[[case-yitang-wenxiaozhang-driving-school]]'
+- '[[concept-一堂-参数耦合与动态公式]]'
 diagnostic_signals:
 - signal: 业务公式拆出几十个参数，团队每个都"优化一点"，年底大盘几乎没动
   lens: 加法乘法不分——用力平均撒在了分支加法上，对总目标打了一个大折扣

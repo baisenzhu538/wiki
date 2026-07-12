@@ -40,6 +40,11 @@ related:
 - '[[case-yitang-vicky-short-video]]'
 - '[[case-yitang-wang-mcn-funnel]]'
 - '[[case-yitang-panhonghai-entertainment]]'
+- '[[concept-一堂-三类目标策略]]'
+- '[[concept-一堂-双目标法]]'
+- '[[concept-一堂-魔法数字]]'
+- '[[yt-business-formula-peahd-roles]]'
+- '[[yt-tool-business-formula-causality-toolkit]]'
 diagnostic_signals:
 - signal: 团队聊假设全靠脑子记，三个月后谁也找不着当时的想法
   lens: 假设池停留在第 0 层——连「个人备忘」这一最低形态都没建立

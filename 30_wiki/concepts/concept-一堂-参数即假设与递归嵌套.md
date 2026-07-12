@@ -36,6 +36,7 @@ related:
 - '[[case-yitang-magic-number-collection]]'
 - '[[case-yitang-innovative-metrics-collection]]'
 - '[[case-yitang-three-industry-formula-demos]]'
+- '[[concept-一堂-黑盒到白盒]]'
 diagnostic_signals:
 - signal: 团队说「黔驴技穷了，提不出新假设」
   lens: 不是创意枯竭，是参数拆得不够细——一个目标只挂四五个参数，当然榨不出假设

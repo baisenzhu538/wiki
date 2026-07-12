@@ -31,6 +31,7 @@ related:
 - '[[case-yitang-zhanglei-gacha-points]]'
 - '[[case-yitang-homework-six-owners]]'
 - '[[case-yitang-shipinhao-ads-l1-l6]]'
+- '[[concept-一堂-参数耦合与动态公式]]'
 diagnostic_signals:
 - signal: 某参数已经 80%+，团队还在立项"再翻一倍"
   lens: 没看差距维——距 100% 只剩不到 20 个点，天花板近在眼前
