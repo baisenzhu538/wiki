@@ -33,6 +33,8 @@ related:
 - '[[yt-tool-business-formula-hypothesis-pool]]'
 - '[[concept-一堂-三类目标策略]]'
 - '[[business-formula-domain-digest]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
 diagnostic_signals:
 - signal: 学员第一次写公式，一拆就是二三十个参数、铺了四层，越拆越爽，一执行就放弃
   lens: 跳了 A 和 B 的「简一层」，直接过早细化——这就是课程点名的「完美架空业务公式」，统计都补不齐

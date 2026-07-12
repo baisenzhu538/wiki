@@ -69,6 +69,19 @@ related:
 - '[[concept-一堂-参数即假设与递归嵌套]]'
 - '[[concept-一堂-黑盒到白盒]]'
 - '[[business-formula-domain-digest]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[case-yitang-marathon-ten-seasons]]'
+- '[[case-yitang-laowenqi-huixiao-10x]]'
+- '[[case-yitang-zhanglei-gacha-points]]'
+- '[[case-yitang-homework-six-owners]]'
+- '[[case-yitang-shipinhao-ads-l1-l6]]'
+- '[[case-yitang-xingangwan-chess-room]]'
+- '[[case-yitang-shao-kaoyan-gmv]]'
+- '[[case-yitang-du-kids-education-sabc]]'
+- '[[case-yitang-false-causality-collection]]'
+- '[[case-yitang-innovative-metrics-collection]]'
+- '[[case-yitang-three-industry-formula-demos]]'
 ---
 # 业务公式六层逻辑关系冰山（L1 模糊理解 → L6 动态建模）
 

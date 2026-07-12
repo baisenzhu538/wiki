@@ -41,6 +41,16 @@ related:
 - '[[concept-一堂-脱离成本]]'
 - '[[concept-一堂-参数即假设与递归嵌套]]'
 - '[[business-formula-domain-digest]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[case-yitang-marathon-ten-seasons]]'
+- '[[case-yitang-laowenqi-huixiao-10x]]'
+- '[[case-yitang-zhanglei-gacha-points]]'
+- '[[case-yitang-xingangwan-chess-room]]'
+- '[[case-yitang-shao-kaoyan-gmv]]'
+- '[[case-yitang-du-kids-education-sabc]]'
+- '[[case-yitang-magic-number-collection]]'
+- '[[case-yitang-innovative-metrics-collection]]'
 diagnostic_signals:
 - signal: 业务只有 GMV/营收/用户数三五个大数，想提假设却无从下手
   lens: 参数还在 L1，没有拆法库——对着武器库逐动作过一遍，一天能展开到上百个参数

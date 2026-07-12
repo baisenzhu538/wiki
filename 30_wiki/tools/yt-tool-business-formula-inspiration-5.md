@@ -24,6 +24,8 @@ related:
 - '[[yt-tool-business-formula-hypothesis-pool]]'
 - '[[yt-tool-business-formula-expert-interview-10]]'
 - '[[business-formula-domain-digest]]'
+- '[[case-yitang-zhanglei-comic-booth]]'
+- '[[case-yitang-shipinhao-ads-l1-l6]]'
 diagnostic_signals:
 - signal: 团队提假设靠等灵感，开会大眼瞪小眼挤不出想法
   lens: 把灵感当天赋——五字诀把它变成可练的基本功：先压数字目标，再按压/看/聚/拆/再走一轮

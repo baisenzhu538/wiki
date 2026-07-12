@@ -57,6 +57,22 @@ related:
 - "[[concept-一堂-参数即假设与递归嵌套]]"
 - "[[concept-一堂-黑盒到白盒]]"
 - "[[business-formula-domain-digest]]"
+- "[[case-yitang-fupanying-five-years-1000-hypotheses]]"
+- "[[case-yitang-woqingke-referral-15-to-40]]"
+- "[[case-yitang-marathon-ten-seasons]]"
+- "[[case-yitang-laowenqi-huixiao-10x]]"
+- "[[case-yitang-zhanglei-comic-booth]]"
+- "[[case-yitang-zhanglei-gacha-points]]"
+- "[[case-yitang-homework-six-owners]]"
+- "[[case-yitang-shipinhao-ads-l1-l6]]"
+- "[[case-yitang-xingangwan-chess-room]]"
+- "[[case-yitang-wenxiaozhang-driving-school]]"
+- "[[case-yitang-wang-mcn-funnel]]"
+- "[[case-yitang-shao-kaoyan-gmv]]"
+- "[[case-yitang-false-causality-collection]]"
+- "[[case-yitang-magic-number-collection]]"
+- "[[case-yitang-innovative-metrics-collection]]"
+- "[[case-yitang-three-industry-formula-demos]]"
 ---
 
 # 业务公式参数冰山（L1-L6）

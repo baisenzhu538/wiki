@@ -51,6 +51,19 @@ related:
 - "[[concept-一堂-脱离成本]]"
 - "[[concept-一堂-参数即假设与递归嵌套]]"
 - "[[business-formula-domain-digest]]"
+- "[[case-yitang-fupanying-five-years-1000-hypotheses]]"
+- "[[case-yitang-woqingke-referral-15-to-40]]"
+- "[[case-yitang-marathon-ten-seasons]]"
+- "[[case-yitang-laowenqi-huixiao-10x]]"
+- "[[case-yitang-zhanglei-comic-booth]]"
+- "[[case-yitang-zhanglei-gacha-points]]"
+- "[[case-yitang-homework-six-owners]]"
+- "[[case-yitang-shipinhao-ads-l1-l6]]"
+- "[[case-yitang-wenxiaozhang-driving-school]]"
+- "[[case-yitang-panhonghai-entertainment]]"
+- "[[case-yitang-shao-kaoyan-gmv]]"
+- "[[case-yitang-du-kids-education-sabc]]"
+- "[[case-yitang-three-industry-formula-demos]]"
 
 ---
 

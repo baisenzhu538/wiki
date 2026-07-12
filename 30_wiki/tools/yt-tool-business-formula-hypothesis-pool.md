@@ -33,6 +33,13 @@ related:
 - '[[concept-一堂-参数即假设与递归嵌套]]'
 - '[[framework-一堂-关键假设]]'
 - '[[business-formula-domain-digest]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[case-yitang-marathon-ten-seasons]]'
+- '[[case-yitang-zhanglei-comic-booth]]'
+- '[[case-yitang-vicky-short-video]]'
+- '[[case-yitang-wang-mcn-funnel]]'
+- '[[case-yitang-panhonghai-entertainment]]'
 diagnostic_signals:
 - signal: 团队聊假设全靠脑子记，三个月后谁也找不着当时的想法
   lens: 假设池停留在第 0 层——连「个人备忘」这一最低形态都没建立

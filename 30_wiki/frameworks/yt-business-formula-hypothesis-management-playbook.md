@@ -51,6 +51,15 @@ related:
 - '[[concept-一堂-黑盒到白盒]]'
 - '[[concept-一堂-假设飞轮]]'
 - '[[business-formula-domain-digest]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[case-yitang-marathon-ten-seasons]]'
+- '[[case-yitang-laowenqi-huixiao-10x]]'
+- '[[case-yitang-zhanglei-comic-booth]]'
+- '[[case-yitang-wenxiaozhang-driving-school]]'
+- '[[case-yitang-vicky-short-video]]'
+- '[[case-yitang-wang-mcn-funnel]]'
+- '[[case-yitang-panhonghai-entertainment]]'
 diagnostic_signals:
 - signal: 老板提想法，全团队忙着证明老板是对的
   lens: 结论先行、纯拍脑袋——假设思维最底层的「默认假设是错的」共识没建立

@@ -30,6 +30,8 @@ related:
 - '[[yt-tool-business-formula-parameter-arsenal]]'
 - '[[tool-泛产品落地-攻坚会]]'
 - '[[business-formula-domain-digest]]'
+- '[[case-yitang-marathon-ten-seasons]]'
+- '[[case-yitang-vicky-short-video]]'
 diagnostic_signals:
 - signal: 重要项目卡在选题/销售方案上，两三个人加班磨两周，质量还不行
   lens: 用"加班会"解攻坚题——受限于这两个人的能力和信息，效率天然低；该上攻坚会

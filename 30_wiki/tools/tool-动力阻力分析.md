@@ -21,6 +21,7 @@ related:
 - '[[pending_unknown]]'
 - tool-ai-prd-for-ai
 - concept-X型Y型决策习惯
+- '[[case-yitang-innovative-metrics-collection]]'
 updated_at: '2026-06-29'
 ---
 # 动力阻力分析：用户行为的推拉模型
