@@ -1,8 +1,8 @@
 ---
 id: task_20260712_wangyuyan-d-domain-p0-skeleton
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-12T18:33:29.388328+00:00'
+status: pending_review
+updated_at: '2026-07-13T10:02:48.039149+00:00'
 ---
 # Task #169 · D 域转化率黑客 P0 骨架 8 卡
 
