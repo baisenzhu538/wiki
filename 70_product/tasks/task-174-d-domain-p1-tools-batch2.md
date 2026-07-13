@@ -1,8 +1,11 @@
 ---
 id: task_20260712_wangyuyan-d-domain-p1-tools-batch2
 assignee: kimi
-status: queued
-updated_at: '2026-07-13T18:41:09.736134+00:00'
+status: reviewed
+updated_at: '2026-07-13T19:00:20.427520+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-13'
+grade: A-
 ---
 # Task #174 · D 域 P1 工具族第二批（触点+组合侧 ~13 卡）
 
@@ -124,3 +127,69 @@ updated_at: '2026-07-13T18:41:09.736134+00:00'
 6. 任务单 append 返工记录
 
 **状态**：`pending_review` → `in_progress`，退回老顽童返工。
+
+---
+
+## 返工记录 · 老顽童 · 2026-07-13
+
+### 补链动作
+
+按终审要求，解析 13 张新工具卡的 `related` 出向链接，定位 161 处 missing backlink，对目标卡追加回链：
+
+| 目标卡 | 补链数量 | 说明 |
+|---|---|---|
+| `framework-一堂-转化率提升六步法` | 13 | 全部 13 张新工具卡回链 |
+| `framework-一堂-转化率黑客-总纲` | 13 | 全部 13 张新工具卡回链 |
+| `framework-一堂-转化率黑客爬山地图` | 13 | 全部 13 张新工具卡回链 |
+| `framework-一堂-动力三曲线` | 13 | 全部 13 张新工具卡回链 |
+| `framework-一堂-12触点SABC分级` | 13 | 全部 13 张新工具卡回链 |
+| `framework-一堂-触点本质论` | 13 | 全部 13 张新工具卡回链 |
+| `framework-一堂-阻力方法论骨架` | 13 | 全部 13 张新工具卡回链 |
+| `framework-一堂-12种阻力总表` | 13 | 全部 13 张新工具卡回链 |
+| `framework-一堂-十指模型` | 1 | `tool-一堂-讲香双策略` |
+| `case-一堂-触点篇案例库` | 13 | 全部 13 张新工具卡回链 |
+| `case-一堂-组合篇案例库` | 13 | 全部 13 张新工具卡回链 |
+| `case-一堂-优秀案例逐字稿合集` | 13 | 全部 13 张新工具卡回链 |
+| `case-一堂-一堂自身转化实践` | 13 | 全部 13 张新工具卡回链 |
+| `tool-一堂-12大易浪费触点` | 1 | `tool-一堂-五种挖触点` |
+| `tool-一堂-触点减法与排序` | 1 | `tool-一堂-五种挖触点` |
+| `tool-一堂-FAB说服法` | 2 | `tool-一堂-五大转化率范式`、`tool-一堂-讲香双策略` |
+
+**合计补链 161 处，覆盖 16 个目标文件。**
+
+### 返工后验证
+
+- `kdo pre-submit -f <13 张新卡 + 16 个补链目标文件 + conversion-rate-domain-digest.md>`：**28/28 PASS**
+- `kdo lint --domain conversion-rate --summary`：**0 new error(s)**，35 warning(s)（3059 accepted，均为既有/空格路径相似性提示）
+- 全库 lint 15 error / 119 warning 仍为既有卡问题，本批改动未引入新 error
+
+### 实动文件清单（返工新增）
+
+- 修改：16 个 D 域骨架/工具/案例卡（见上表）
+- 修改：`70_product/tasks/task-174-d-domain-p1-tools-batch2.md`（本返工记录）
+
+### 重提状态
+
+- 已重新领取 #174 并准备 `complete` 提交 `pending_review`。
+
+---
+
+## 终审记录 · 欧阳锋 · 2026-07-13（返工复验）
+
+**结论：PASS。**
+
+### 复验结果
+
+- 13 张新工具卡出向 related 全部有回链：独立脚本复核 **161 处 missing backlink → 0** ✅
+- `framework-一堂-转化率提升六步法` 已回链全部 13 张新卡（对齐 #170 标准）✅
+- 7 张 D 域骨架卡、4 张案例库/合集卡、`framework-一堂-十指模型`、3 张旧工具卡均已完成补链 ✅
+- `kdo pre-submit` 27 个关键文件：**27/27 PASS** ✅
+- `kdo lint --domain conversion-rate --diff --summary`：**0 new error/warning** ✅
+- `kdo lint --diff --summary`：**0 new error/warning** ✅
+- 全库 lint 15 error / 119 warning 仍为既有问题，非本批引入 ✅
+
+### 终审意见
+
+返工彻底，161 处 missing backlink 全部清零，D 域 related 双向闭合完成。工具卡四节齐全、source_refs 规范、digest/index 登记完整。予以通过。
+
+**状态**：`pending_review` → `reviewed`，等级 A-。

@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-opc-sales-d-domain-linking
 assignee: kimi
-status: queued
-updated_at: '2026-07-13T10:11:14+00:00'
+status: in_progress
+updated_at: '2026-07-13T19:01:22.994239+00:00'
 ---
 
 # #182 OPC 销售域×D 域回链

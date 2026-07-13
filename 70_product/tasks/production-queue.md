@@ -210,7 +210,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 171 | `task_20260712_wangyuyan-d-domain-p2-cases-batch1` | D域案例族第一批16卡（v2.1：三大旗舰补细节+组合篇三贯穿案例+晓莉+跆拳道四版+六杯奶茶+视频号44→85%两独立卡+四篇口述案例库索引+一堂自身实践） | reviewed | 老顽童 | 16卡+预检PASS+扫窗=实动 | #169 reviewed（可与#170/#174并行）；案例三层处置按§9.5 |
 | 172 | `task_20260712_wangyuyan-d-domain-agent-and-closure` | D域agent-spec（修订：对齐引擎机制三·模块制，话术范本=YAI转化率实录case卡：精度五档/目标价值量化/逐句阻力映射/消除方向动作示例/减法排序/边界声明）+全域收口（digest回链/孤儿归零/index完整/C域互链/lint无新增） | reviewed | 老顽童 | agent卡可用+孤儿0+lint无新增 | #169-171 reviewed + #177 引擎协议卡；结构对齐#166业务公式教练 |
 | 173 | `task_20260712_wangyuyan-d-domain-p3-cases-batch2` | D域案例族第二批约8卡：触点案例合集3案例（md逐字稿一等素材：叶文彬射箭/李刚黄金三版迭代/范渝烘焙）+小米发布会拆解+复盘合集 | reviewed | 老顽童 | 案例族完整（10+8） | #172 reviewed；7-13阻塞解除：md逐字稿覆盖全部案例，回源降级可选 |
-| 174 | `task_20260712_wangyuyan-d-domain-p1-tools-batch2` | D域P1工具族第二批（触点+组合侧13卡：四层级/五维/五种挖/12易浪费/减法排序/五大范式/准备系数/提假设四策略/排序四招/ABACC/框架库/仿真三要点/讲香双策略） | queued | 老顽童 | 13卡+Tool四节齐全+预检PASS | #169 reviewed（与#170并列可并行）；v2新增补诊断书遗漏 |
+| 174 | `task_20260712_wangyuyan-d-domain-p1-tools-batch2` | D域P1工具族第二批（触点+组合侧13卡：四层级/五维/五种挖/12易浪费/减法排序/五大范式/准备系数/提假设四策略/排序四招/ABACC/框架库/仿真三要点/讲香双策略） | reviewed | 老顽童 | 13卡+Tool四节齐全+预检PASS | #169 reviewed（与#170并列可并行）；v2新增补诊断书遗漏 |
 | 175 | `task_20260712_wangyuyan-c-domain-scan-fix-structure` | C域查漏修复第一批（结构层）：6孤儿卡接入digest+digest归属修正+5裁定落地（马拉松双口径/伪因果术语映射/因果口径声明）+原图复核3项+6老卡数字复核+勘误表补录+Y模型表述修正（老朱裁定6：Y=母模型，ROI=推导产物，全库ROI/Y斜杠清零） | reviewed | 黄药师 | 6卡可达+5裁定落地+3复核有结论 | #168A完成后顺领；依据c-domain-scan-supplement诊断书，裁定已落 |
 | 183 | `task_20260713_wangyuyan-c-domain-evidence-recheck` | C域证据复核收尾（#175拆出：3原图复核三栏证据[2学分/FB七天/冰山层数]+6老卡数字复核一等压二等+卡1空source_refs补齐） | queued | 老顽童 | 三栏证据入诊断书+6卡复核+lint无新增 | 无；先于#169顺领（半天量级），完成后#175整体close |
 | 184 | `task_20260713_wangyuyan-full-vault-yaml-audit` | 全库yaml.safe_load体检：解析失败/结构异常/无frontmatter三类清单，修复①②类，隐身卡归零 | reviewed | 黄药师 | 扫描报告+修复+lint无新增 | 无；#181后顺领 |
@@ -221,4 +221,4 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 179 | `task_20260713_wangyuyan-c-domain-coach-engine-align` | C域业务公式教练二次迭代（修订：对齐引擎机制二·S0-S8阶段制而非M0-M8：每轮三标注R?/S?/本轮只解决+公式树版本迭代v0.x+不下结论明示）+C域四件套+#166六钉回归不破坏 | queued | 老顽童 | 引擎引用+四件套+六钉回归 | #177+#176 reviewed后顺领（轻量） |
 | 180 | `task_20260713_wangyuyan-five-step-coach-agent` | A域五步法教练agent-spec新建（orchestrator：五步段位诊断+假设轰炸+五步法盲区库回指域卡+Y模型母模型挂载+生死不管效率边界/四域转介） | queued | 老顽童 | 四域教练齐备+转介两两对齐 | #177 reviewed+#179后顺领（队列尾部） |
 | 181 | `task_20260713_wangyuyan-opc-sales-assistant-engine-adapt` | OPC销售对话助手引擎适配（参谋型裁剪版）：三件套注入=12阻力盲区过筛+硬约束显式宣告+深度分级；加挂D域卡；不搬M0-M8不改四段结构 | reviewed | 黄药师 | 适配spec+实测样例+预检PASS | #177+#169 reviewed后顺领；王语嫣裁定：参谋型不全搬教练型里程碑 |
-| 182 | `task_20260713_wangyuyan-opc-sales-d-domain-linking` | OPC销售域×D域回链（33卡补方法论底座引用：开场白→十指模型/异议→阻力方法论/销冠段位→三曲线分数线；映射表先行王语嫣过目后批量） | queued | 老顽童 | 33卡回链+lint无新增 | #169-171+#174 reviewed+#177（映射表可先动） |
+| 182 | `task_20260713_wangyuyan-opc-sales-d-domain-linking` | OPC销售域×D域回链（33卡补方法论底座引用：开场白→十指模型/异议→阻力方法论/销冠段位→三曲线分数线；映射表先行王语嫣过目后批量） | claimed-kimi | 老顽童 | 33卡回链+lint无新增 | #169-171+#174 reviewed+#177（映射表可先动） |
