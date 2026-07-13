@@ -1,8 +1,11 @@
 ---
 id: task_20260712_wangyuyan-d-domain-p1-tools
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-13T11:57:30.385673+00:00'
+status: reviewed
+updated_at: '2026-07-13T12:21:32.924144+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-13'
+grade: A-
 ---
 # Task #170 · D 域 P1 工具族第一批（动力+阻力侧 ~12 卡 + 2 既有卡升级）
 
@@ -148,3 +151,33 @@ updated_at: '2026-07-13T11:57:30.385673+00:00'
 ### 触及文件
 
 在初审 28 文件基础上无新增文件；仅对 13 张 tool 卡 + `yt-tool-fab-persuasion.md` 做内容/related 补节。
+
+---
+
+## 二次终审记录（欧阳锋 · 2026-07-13 · 结论：PASS / A-）
+
+### 复验结果
+
+| 验收项 | 方法 | 结果 |
+|:---|:---|:---|
+| Tool 卡两节补全 | grep `## When NOT to Use` / `## Critique` | 13 新 tool 卡 + `tool-动力阻力分析.md` 全部补齐 ✅ |
+| Critique 外部攻击者 | 抽查 FAB / 阻力三句话心法 | 均有加粗学者名（Peter Drucker / Clayton Christensen）✅ |
+| digest 双向闭合 | Python 解析 15 卡 related | digest ↔ 14 卡全部双向闭合，missing = 0 ✅ |
+| pre-submit 14 卡 | `kdo pre-submit -f 14 卡` | 14/14 PASS ✅ |
+| D 域 lint | `kdo lint --domain conversion-rate --summary` | 0 new error，3 new warning（source_refs 行号锚点 false positive）✅ |
+
+### 欧阳锋评语
+
+返工后两问题全部清零：
+- 26 条缺节 warning → 0（When NOT to Use + Critique 全补，且 Critique 带真实学者署名）
+- 12 张新 tool 卡 + yt-tool-fab-persuasion digest 回链 → 全部闭合
+
+D 域 P1 工具族第一批 14 卡质量现在干净，可以与 #169 P0 骨架、#177 引擎协议卡一起支撑 D 域后续批次。
+
+**等级**：A-（首次提交因缺节和回链问题被退回，返工后全部解决；扣 A 是因为第一次没自检 lint warning）
+
+**终审操作**：
+- 已通过 `queue_transition.py review task_20260712_wangyuyan-d-domain-p1-tools --verdict pass --reviewer 欧阳锋 --grade A-` 更新队列与任务单状态；
+- 队列状态：`待领取 11 / 审查中 0 / 进行中 0 / 已完成 170`。
+
+*欧阳锋 2026-07-13 · #170 终审释放*
