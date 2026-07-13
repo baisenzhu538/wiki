@@ -1,8 +1,8 @@
 ---
 id: task_20260712_wangyuyan-d-domain-p1-tools
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-13T10:54:08.826159+00:00'
+status: queued
+updated_at: '2026-07-13T11:19:54.999639+00:00'
 ---
 # Task #170 · D 域 P1 工具族第一批（动力+阻力侧 ~12 卡 + 2 既有卡升级）
 
@@ -84,3 +84,49 @@ updated_at: '2026-07-13T10:54:08.826159+00:00'
 - **旧卡 `yt-tool-fab-persuasion.md`**：通用 FAB 框架（Feature→Advantage→Benefit），历史遗留资产，保留在 `concepts/`。
 - **新卡 `tool-一堂-FAB说服法.md`**：一堂课程内 FAB 的本质重定义（事实起点→逻辑节点→价值终点）+ 四大实操技巧（主打点看市场成熟度 / B 场景化 / 挖最终益处忌过度抽象 / 激发痛苦反向说 B）。
 - **裁定**：不合并，两卡 related 互链并注明定位。旧卡不改正文，只做最小升级。
+
+---
+
+## 终审记录（欧阳锋 · 2026-07-13 · 结论：FAIL / 退回 queued）
+
+### 复验结果
+
+| 验收项 | 方法 | 结果 |
+|:---|:---|:---|
+| 14 张卡存在 | glob/ls | 12 新 tool + 2 升级均存在 ✅ |
+| pre-submit 14 卡 | `kdo pre-submit -f 14 卡` | 14/14 PASS，1 warning（yt-tool-fab-persuasion Synthesis 0 wikilink）✅ |
+| D 域 lint | `kdo lint --domain conversion-rate --summary` | **0 new error，29 new warning** ❌ |
+| C-D 桥接修复 | grep 爬山地图/总纲/dk-loop | 爬山地图→C 总纲、C 总纲→D 总纲、dk-loop→D 总纲均已补 ✅ |
+| index 登记 | grep `30_wiki/index.md` | 新 tool 卡已登 ✅ |
+
+### 两处阻塞问题
+
+**问题 1：Tool 卡缺必备节（26 条新 warning）**
+
+`kdo lint --domain conversion-rate` 报 13 张新 tool 卡 + `tool-动力阻力分析.md` 全部缺失：
+- `## When NOT to Use`
+- `## Critique`
+
+任务单写「必备四节：Purpose / Protocol / Anti-patterns / Related」，但项目 lint 标准和 #167 实践都要求 Tool 卡含 When NOT to Use + Critique。29 条 warning 里 26 条是真实新增债，不能进基线。
+
+**问题 2：digest 回链未双向闭合（12 张新 tool 卡 + yt-tool-fab-persuasion）**
+
+`conversion-rate-domain-digest.md` 的 related 已登记全部 13 张新/升级卡，但反向核查显示：
+- 仅 `tool-动力阻力分析.md` 回链 digest
+- 其余 12 张新 tool 卡 + `yt-tool-fab-persuasion.md` 均未在 related 中指向 `conversion-rate-domain-digest`
+
+任务单写「D 域 framework/digest/index 回链登记」——digest 登记了 tool 卡，但 tool 卡没回链 digest，不满足「D 域内双向闭合」。
+
+### 返工口径（老顽童）
+
+1. **补 Tool 卡两节**：13 张新 tool 卡 + `tool-动力阻力分析.md` 全部增加 `## When NOT to Use` 和 `## Critique`；
+2. **补 digest 回链**：12 张新 tool 卡 + `yt-tool-fab-persuasion.md` 的 related 追加 `[[conversion-rate-domain-digest]]`；
+3. 重跑 `kdo lint --domain conversion-rate --summary` 确认 warning 降到 3 条以内（只剩 source_refs 行号锚点 false positive）；
+4. 重跑 `kdo pre-submit -f 14 卡`；
+5. 更新本任务单执行报告后，走 `queue_transition.py complete` 重提。
+
+### 终审操作
+
+已通过 `queue_transition.py review task_20260712_wangyuyan-d-domain-p1-tools --verdict fail --reviewer 欧阳锋` 退回队列。
+
+*欧阳锋 2026-07-13 · #170 终审退回*

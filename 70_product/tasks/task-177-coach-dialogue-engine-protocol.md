@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-coach-dialogue-engine-protocol
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-07-13T10:11:14+00:00'
+status: in_progress
+updated_at: '2026-07-13T11:12:07.325314+00:00'
 ---
 # Task #177 · 一堂教练对话引擎协议卡 + YAI 科学决策实录案例卡
 
