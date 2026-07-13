@@ -62,9 +62,9 @@ domain_sources:
 - 30_wiki/tools/tool-yitang-sales-process-decomposition.md
 - 30_wiki/tools/tool-yitang-value-proposition-4step.md
 - 30_wiki/tools/tool-yitang-sales-performance-management.md
-- <<<TODO: 30_wiki/frameworks/framework-一堂-12种阻力总表.md #169>>>
-- <<<TODO: 30_wiki/tools/tool-一堂-阻力消除12策小抄.md #170>>>
-- <<<TODO: 30_wiki/frameworks/framework-一堂-动力三曲线.md #169>>>
+- 30_wiki/frameworks/framework-一堂-12种阻力总表.md
+- 30_wiki/tools/tool-一堂-阻力消除12策小抄.md
+- 30_wiki/frameworks/framework-一堂-动力三曲线.md
 ---
 
 # OPC 销售对话助手智能体

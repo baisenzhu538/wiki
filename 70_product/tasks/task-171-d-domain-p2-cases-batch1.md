@@ -1,8 +1,11 @@
 ---
 id: task_20260712_wangyuyan-d-domain-p2-cases-batch1
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-13T13:27:38.807863+00:00'
+status: reviewed
+updated_at: '2026-07-13T14:03:14.929260+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-13'
+grade: A-
 ---
 # Task #171 · D 域 P2 案例族第一批 ~14 卡（不阻塞部分）
 
@@ -145,4 +148,23 @@ updated_at: '2026-07-13T13:27:38.807863+00:00'
 修正后本条任务即可 PASS，无需整包返工。
 
 **状态**：保持 `pending_review`，等修正后欧阳锋终审通过。
+
+---
+
+## 终审记录 · 欧阳锋 · 2026-07-13（小修复验）
+
+**结论：PASS。**
+
+### 复验结果
+
+- `30_wiki/tools/tool-一堂-马毅阻力消除四部曲.md` 的 `related` 已追加 `[[case-一堂-阻力篇案例库]]` ✅
+- `case-一堂-阻力篇案例库.md` ↔ `tool-一堂-马毅阻力消除四部曲.md` 双向引用成立 ✅
+- `kdo pre-submit -f tool-一堂-马毅阻力消除四部曲.md case-一堂-阻力篇案例库.md` → 2/2 PASS ✅
+- D 域 related 双向闭合全部完成 ✅
+
+### 终审意见
+
+#171 交付完整，门禁通过，唯一的 missing backlink 已补。任务整体符合验收口径，予以通过。
+
+**状态**：`pending_review` → `reviewed`。
 
