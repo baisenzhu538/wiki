@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-07-05T03:28:39+00:00_
+_Last updated: 2026-07-13T12:56:15+00:00_
 
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[_archive/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -377,6 +377,22 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[cases/case-一堂-春萍-花总AI研发|花总 AI 研发：从拆解自己到 AI+基本功，一个技术团队的五年修炼]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L654-866`
 - [[cases/case-一堂-无人餐厅-hypothesis-failure|案例：一堂无人餐厅项目因忽视关键假设而失败]] — source `pending_archive:src_20260506_9b4788a6-声音和画面正常吗`
 - [[cases/case-一堂-陈贤敏汉堡-hypothesis-validation|案例：陈贤敏中式汉堡先开实验店验证关键假设]] — source `pending_archive:src_20260606_22c4a291-一堂-关键假设课-truman-笔记`
+- [[cases/case-一堂-一堂自身转化实践|一堂转化率黑客自身转化实践案例集（内部阻力消除/触点浪费反思/文案迭代）]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L36-L60`
+- [[cases/case-一堂-优秀案例逐字稿合集|一堂转化率黑客优秀案例逐字稿合集索引（Truman 故事线 + PDF 案例合集）]] — source `00_inbox/Handle the business/conversion rate/Truman常用经典故事线框架笔记_逐字稿.md L1-L92`
+- [[cases/case-一堂-作业率20到50|一堂直播课作业率从 20% 多爬坡到 50%：用游戏化、触点加密与立 flag 持续拆解动力/阻力/触点]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2008-L2129`
+- [[cases/case-一堂-入职率50到80-100|一堂早期招聘入职率从约 50% 提升到 80%-100%：用「秀肌肉+终局对话+开诚布公+承诺一致」四招消除候选人阻力]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2450-L2699`
+- [[cases/case-一堂-全会员出圈率1.5翻倍|全会员出圈率从1.5%翻一倍：承诺一致+降低阻力+奖项素材+冲榜动力]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L424-L458`
+- [[cases/case-一堂-六杯奶茶推荐率近100|佳佳校长抓住科目二考过峰值触点送六杯奶茶，将大学生推荐率拉到近100%]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L578-L599`
+- [[cases/case-一堂-动力篇案例库|一堂转化率黑客动力篇案例索引库（FAB/名利权情/影响力六原则）]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L780-L1018`
+- [[cases/case-一堂-我请客推荐率5到40|一堂「我请客」推荐率从约 3%-5% 提升到 K 系数 40%：用「请客」消除面子阻力，再叠加 30+ 假设持续优化]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2178-L2409`
+- [[cases/case-一堂-教研加微信率40到100|教研加微信通过率从40-50%拉到近100%：动力加法+筛选减法+口语化讲香]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L398-L420`
+- [[cases/case-一堂-晓莉学而思引流课|晓莉用「四阶段触点链+5000元意向金」把学而思线下引流课从筛选对象推成交]] — source `00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-案例-图-01_vlm.md L7-L21`
+- [[cases/case-一堂-棋牌室办卡率1到5|棋牌室新客办卡率从1%到5%：主路径加触点+提升密度+直接号召+拆分场景]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L462-L486`
+- [[cases/case-一堂-组合篇案例库|一堂转化率黑客组合篇案例索引库（动力×阻力×触点落地工作流）]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L406-L482`
+- [[cases/case-一堂-视频号加微信率44到85|视频号体验课加微信率从44%经5秒短信与多轮消息触点提升至80-85%]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3132-L3246`
+- [[cases/case-一堂-触点篇案例库|一堂转化率黑客触点篇案例索引库（SABC 分级与触点挖掘）]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L238-L376`
+- [[cases/case-一堂-跆拳道黑带卡|跆拳道黑带卡从1.0平铺卖点到4.0影响力六连招，8.8万课包话术进化链]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L808-L856`
+- [[cases/case-一堂-阻力篇案例库|一堂转化率黑客阻力篇案例索引库（12 种阻力消除）]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L156-L186`
 - [[cases/case-半肥猫-course-to-skill|案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具]] — source `10_raw/sources/src_20260617_2b8a01ce-ai俱乐部-ai学习落地-半肥猫-口述.txt`
 - [[cases/case-婚礼操盘-用户和场景|案例：婚礼操盘——用户和场景分析]] — source `src_unknown`
 - [[cases/case-婚礼规划|案例：婚礼规划——完整决策流程]] — source `婚礼行业一线策划师访谈与多场真实婚礼复盘`
