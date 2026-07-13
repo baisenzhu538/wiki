@@ -100,3 +100,10 @@ P-21 的方法论必须应用到所有调试场景：
 2. **YAML 缩进**——related 列表项多 2 空格会让整卡被解析器隐身（YAML 把缩进的 `- ai-saas` 吞进前一项标量）；dry-run 必须附 **yaml.safe_load 全量校验通过清单**，不能只读 frontmatter 文本
 - 交卷口径：完整路径列表 + yaml.safe_load 全过清单，缺一不可
 - 择机安排一次全库 yaml.safe_load 体检（#168 范围外可能还有同类隐身卡）
+
+### 6. 交卷前自检三件套（2026-07-13 #177 二次终审裁定）
+新卡交卷前必查，缺一即返工：
+1. **frontmatter 必须有 source_refs**（素材卡指向源文件路径，案例卡指向原始素材；空 source_refs=返工）
+2. **related 里不许有 `<<<TODO: ...>>>` 占位**（占位链接=断链，交卷前全清）
+3. **新卡名与引用名一致性**：建卡后全库 grep 一遍卡名引用，断链（如 `framework-一堂-TCPR皇冠模型` vs 实际 `framework-TCPR皇冠模型`）当场修
+- #177 教训：首次提交断链+空 source_refs+TODO 占位，终审返工一轮，A 降 A-
