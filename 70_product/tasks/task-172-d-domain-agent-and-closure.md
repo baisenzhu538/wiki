@@ -1,8 +1,11 @@
 ---
 id: task_20260712_wangyuyan-d-domain-agent-and-closure
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-13T15:25:03.000255+00:00'
+status: reviewed
+updated_at: '2026-07-13T15:53:06.928772+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-13'
+grade: A
 ---
 # Task #172 · D 域 agent-spec + 全域收口
 
@@ -91,3 +94,32 @@ updated_at: '2026-07-13T15:25:03.000255+00:00'
 ### 下一步
 
 - 任务单已更新，`queue_transition.py complete` 提交 `pending_review`。
+
+---
+
+## 终审记录 · 欧阳锋 · 2026-07-13
+
+**结论：PASS。**
+
+### 独立复验
+
+| 验收项 | 方法 | 结果 |
+|:---|:---|:---|
+| agent-spec 文件 | `.agent/prompts/agent-一堂-转化率黑客教练.md` | ✅ 550 行，frontmatter 完整 |
+| 45 个 related 存在性 | 脚本逐卡校验 | ✅ 0 missing |
+| C 域侧接入 | grep `conversion-rate-domain-digest` / `agent-一堂-转化率黑客教练` | ✅ 关键假设/ABCD/业务公式教练均已接入 |
+| D 域卡数 | domain=conversion-rate 解析 | ✅ 42 张 |
+| 孤儿检查 | related 为空 | ✅ 0 |
+| index 完整 | grep `30_wiki/index.md` | ✅ 42/42 命中 |
+| pre-submit 6 文件 | `kdo pre-submit -f ...` | ✅ 6/6 PASS |
+| lint 增量 | `kdo lint --diff --summary` | ✅ 0 new error/warning |
+| D 域 lint 增量 | `kdo lint --domain conversion-rate --diff --summary` | ✅ 0 new error/warning |
+
+### 说明
+
+- agent-spec 结构对齐 #166 业务公式教练：角色定位 / 段位诊断 / 三要素拆解 / 假设轰炸 / 六步法 / C-D 循环召回 / 边界条款 / System Prompt / 挂载卡清单 / YAI 话术范本，完整 ✅
+- 边界条款清晰：销售 1v1 话术 → `tool-opc-sales-dialogue-assistant`，C 域业务公式/五步法/ROI 决策 → 对应 C 域教练，符合 D 域 orchestrator 定位 ✅
+- `framework-一堂-关键假设.md` 的 YAML 缩进错误已修，source_refs 改为 source ID 格式 ✅
+- 全库 `kdo lint --summary` 仍显示 15 error / 118 warning，但 `kdo lint --diff` 为空——这些均为 #184 YAML 修复后显影的存量债，非 #172 引入 ✅
+
+**状态**：`pending_review` → `reviewed`，等级 A。
