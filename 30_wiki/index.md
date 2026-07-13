@@ -1975,7 +1975,19 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[tools/tool-分层标注重点信息|技能：分层标注重点信息]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
 - [[tools/tool-创始人二当家分工协作模式|技能：创始人+二当家分工协作模式]] — source `10_raw/sources/src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03.md`
 - [[tools/tool-制作行业化要素检查清单|技能：制作行业化要素检查清单]] — source `10_raw/sources/src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点.md`
-- [[tools/tool-动力阻力分析|动力阻力分析：用户行为的推拉模型]] — source `src_unknown`
+- [[tools/tool-动力阻力分析|动力阻力分析：用户行为的推拉模型]] — yitang, conversion-rate
+- [[tools/tool-一堂-FAB说服法|一堂 FAB 说服法：事实起点 → 逻辑节点 → 价值终点的以理服人结构]] — yitang, conversion-rate
+- [[tools/tool-一堂-七大转化场景自检|一堂七大转化场景自检：流量 / 一对多 / 一对一 / 门店 / LTV / 运营节点 / 组织提升]] — yitang, conversion-rate
+- [[tools/tool-一堂-不着急阻力两类消除|一堂不着急阻力两类消除：天然需求不急 vs 还没比价]] — yitang, conversion-rate
+- [[tools/tool-一堂-伏笔式消除法|一堂伏笔式消除法：提前埋好答案，让阻力不发生]] — yitang, conversion-rate
+- [[tools/tool-一堂-影响力六原则|一堂影响力六原则：互惠 / 承诺一致 / 社会认同 / 喜好 / 权威 / 稀缺 使用决策表]] — yitang, conversion-rate
+- [[tools/tool-一堂-心理激励优先机制|一堂心理激励优先机制：先名/权/情，后利]] — yitang, conversion-rate
+- [[tools/tool-一堂-阻力三句话心法|一堂阻力三句话心法：至少降低它 / 争取消除它 / 挑战逆转它]] — yitang, conversion-rate
+- [[tools/tool-一堂-阻力挖掘方式|一堂阻力挖掘方式：把阻力当关键假设来定位]] — yitang, conversion-rate
+- [[tools/tool-一堂-阻力消除12策小抄|一堂阻力消除 12 策小抄：12 种常见阻力 × 动嘴/动手/动钱 消除策略]] — yitang, conversion-rate
+- [[tools/tool-一堂-名利权情动力法|一堂名利权情动力法：名 / 利 / 权 / 情 四张内驱牌]] — yitang, conversion-rate
+- [[tools/tool-一堂-马毅阻力消除四部曲|一堂马毅阻力消除四部曲：赞 / 肯定 / 换角度 / 上价值]] — yitang, conversion-rate
+- [[tools/tool-一堂-动嘴动手动钱成本纪律|一堂动嘴动手动钱成本纪律：按成本由低到高选择阻力消除手段]] — yitang, conversion-rate
 - [[tools/tool-动手建模提炼|技能：动手建模提炼]] — source `10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[tools/tool-动手建模法|技能：动手建模法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[tools/tool-区分获客渠道计算单元roi|技能：区分获客渠道计算单元ROI]] — source `10_raw/sources/src_20260609_99032bf9-ocr-一堂-单元模型-示例.md`
