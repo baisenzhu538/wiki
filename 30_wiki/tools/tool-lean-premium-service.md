@@ -1,3 +1,4 @@
+---
 id: tool-lean-premium-service
 title: 超值服务：用 VIP 服务验证标准服务
 type: tool
@@ -25,6 +26,7 @@ related:
 - "[[tool-lean-human-replace-system]]"
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+---
 
 # 超值服务：用 VIP 服务验证标准服务
 

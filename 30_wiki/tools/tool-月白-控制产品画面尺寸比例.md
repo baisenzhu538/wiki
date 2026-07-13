@@ -1,3 +1,4 @@
+---
 id: tool-月白-控制产品画面尺寸比例
 title: 技能：控制产品画面尺寸比例
 type: tool
@@ -53,6 +54,8 @@ related:
 - '[[tool-月白-设计项目MVP拆解法]]'
 - '[[tool-月白-醒图人脸精修法]]'
 - tool-yitang-reverse-data-analysis
+---
+
 # 技能：控制产品画面尺寸比例
 
 ## 原始表述

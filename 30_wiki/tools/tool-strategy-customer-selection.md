@@ -1,3 +1,4 @@
+---
 id: tool-strategy-customer-selection
 title: 客户选择：六步循环迭代法——场景→行为→情绪→触发器→数据→循环
 type: tool
@@ -28,6 +29,8 @@ related:
 - '[[tool-strategy-value-capture]]'
 - proposal-prompt-injection-infrastructure
 - kdo-yaml-frontmatter-safety
+---
+
 # 客户选择：六步循环迭代法
 
 > 业务设计六要素第 1 要素。核心问题：**我们到底为谁创造价值？谁是我们最重要的客户？**

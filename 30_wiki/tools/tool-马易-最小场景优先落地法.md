@@ -1,10 +1,11 @@
+---
 id: tool-马易-最小场景优先落地法
 title: 技能：最小场景优先落地法
 type: tool
 domain:
 - ai-collaboration
 - yitang
-    - ai-saas
+  - ai-saas
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
@@ -29,6 +30,8 @@ related:
   - tool-马易-隐私安全分层解决
   - tool-马易-AIGC项目ROI评估
   - tool-yitang-bp-analysis
+---
+
 # 技能：最小场景优先落地法
 
 ## 原始表述

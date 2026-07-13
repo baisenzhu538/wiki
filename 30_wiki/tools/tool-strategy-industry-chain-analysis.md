@@ -1,3 +1,4 @@
+---
 id: tool-strategy-industry-chain-analysis
 title: 产业链机会与行动计划分析工具
 type: tool
@@ -22,6 +23,7 @@ related:
 - "[[tool-清单小抄工具箱法]]"
 - "[[tool-月白-资深设计师AI工具切换法]]"
 - "[[tool-strategy-value-capture]]"
+---
 
 # 产业链机会与行动计划分析工具
 

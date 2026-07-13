@@ -1,3 +1,4 @@
+---
 id: tool-strategy-value-proposition
 title: 价值主张设计工具：三问 + 六维排序法
 aliases:
@@ -31,6 +32,8 @@ related:
 - '[[tool-strategy-value-capture]]'
 - tool-yitang-research-single-point-sniper
 - case-panproduct-yitao-project-background
+---
+
 # 价值主张设计工具：三问 + 六维排序法
 
 > 业务设计六要素第 2 要素。核心问题：**我们提供什么独特价值，让客户选择我们而不是对手？**

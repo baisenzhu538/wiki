@@ -1,6 +1,5 @@
 ---
-
-
+id: concept-smart-medicine-cabinet-supply-chain-validation
 related:
   - "[[yt-lean-beauty-store-conversion]]"
   - "[[pending_unknown]]"

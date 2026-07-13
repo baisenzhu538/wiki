@@ -1,3 +1,4 @@
+---
 id: tool-用清单体记备忘笔记
 title: 技能：用清单体记备忘笔记
 type: tool
@@ -31,6 +32,8 @@ related:
 - "[[tool-现场建模式萃取笔记]]"
 - "[[tool-用topdown方式整理内化笔记]]"
 - "[[tool-checklist-cheatsheet-modeling]]"
+---
+
 # 技能：用清单体记备忘笔记
 
 ## 原始表述

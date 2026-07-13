@@ -1,3 +1,4 @@
+---
 id: tool-yitang-research-cross-validation
 title: 交叉验证：多源印证的信息可信度提升
 type: tool
@@ -46,6 +47,7 @@ related:
 - "[[tool-yitang-reverse-data-analysis]]"
 - "[[tool-yitang-user-interview-5steps]]"
 - "[[tool-yitang-weapon-industry-expert]]"
+---
 
 # 交叉验证：多源印证的信息可信度提升
 

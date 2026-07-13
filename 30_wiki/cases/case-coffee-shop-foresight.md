@@ -1,3 +1,4 @@
+---
 id: case-coffee-shop-foresight
 confidence: 0.85
 created_at: 2026-06-10
@@ -40,6 +41,7 @@ related:
 - "[[tool-一堂-机会预判-案例预判]]"
 - "[[tool-一堂-机会预判-五步法预判]]"
 - "[[case-ai-time-management-tiered-growth]]"
+---
 
 # 案例：咖啡馆创业预判
 

@@ -1,3 +1,4 @@
+---
 id: tool-react行动推理循环
 title: 技能：ReACT行动推理循环
 type: tool
@@ -29,6 +30,8 @@ related:
 - '[[tool-渐进式披露上下文]]'
 - '[[tool-strategy-customer-selection]]'
 - tool-ai-prd-for-ai
+---
+
 # 技能：ReACT行动推理循环
 
 ## 原始表述

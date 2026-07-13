@@ -1,10 +1,11 @@
+---
 id: tool-马易-RPA数据整合法
 title: 技能：RPA数据整合法
 type: tool
 domain:
 - ai-collaboration
 - yitang
-    - ai-saas
+  - ai-saas
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
@@ -28,6 +29,8 @@ related:
   - tool-马易-隐私安全分层解决
   - tool-马易-AIGC项目ROI评估
   - tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi
+---
+
 # 技能：RPA数据整合法
 
 ## 原始表述

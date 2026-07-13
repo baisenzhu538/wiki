@@ -1,3 +1,4 @@
+---
 id: case-yitang-yitang-course-industrialization
 type: case
 title: 案例：一堂如何用工业化生产保证每周高质量做课
@@ -33,7 +34,7 @@ related:
 - "[[concept-yitang-channel-lean-validation-bridge]]"
 - "[[case-yitang-lianjia-site-selection-industrialization]]"
 review_date: '2026-06-28'
-
+---
 
 # 案例：一堂如何用工业化生产保证每周高质量做课
 

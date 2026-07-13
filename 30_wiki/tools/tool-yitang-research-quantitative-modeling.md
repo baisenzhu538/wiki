@@ -1,3 +1,4 @@
+---
 id: tool-yitang-research-quantitative-modeling
 title: 定量建模：用数字说话的分析框架
 type: tool
@@ -41,6 +42,7 @@ related:
 - "[[concept-yitang-research-mindset]]"
 - "[[tool-yitang-research-deep-attribution]]"
 - "[[tool-yitang-reverse-data-analysis]]"
+---
 
 # 定量建模：用数字说话的分析框架
 

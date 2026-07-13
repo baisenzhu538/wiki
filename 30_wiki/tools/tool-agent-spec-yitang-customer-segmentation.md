@@ -1,3 +1,4 @@
+---
 id: tool-agent-spec-yitang-customer-segmentation
 title: OPC 客户分级智能体 Agent Spec
 type: tool-agent-spec
@@ -48,6 +49,7 @@ os_sources:
 - agents/agent-os.md
 domain_sources:
 - 30_wiki/tools/tool-yitang-customer-segmentation-4step.md
+---
 
 # OPC 客户分级智能体 Agent Spec
 

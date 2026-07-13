@@ -1,3 +1,4 @@
+---
 id: framework-yitang-six-layer-cross-validation
 title: 六层交叉验证：从单源到多源的信息可信度提升
 type: framework
@@ -43,6 +44,7 @@ related:
 - "[[framework-kdo-self-attack]]"
 - "[[framework-ouyangfeng-review-methodology]]"
 - "[[framework-yitang-growth-flywheel]]"
+---
 
 # 六层交叉验证：从单源到多源的信息可信度提升
 

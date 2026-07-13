@@ -1,3 +1,4 @@
+---
 id: tool-按月份摊销收入成本做计划
 title: 技能：按月份摊销收入成本做计划
 type: tool
@@ -33,6 +34,8 @@ related:
 - '[[tool-将未中标成本纳入循环计算真实投标成本]]'
 - '[[tool-strategy-logistics-cost-planning]]'
 - tool-ai-prd-for-ai
+---
+
 # 技能：按月份摊销收入成本做计划
 
 ## 原始表述

@@ -1,3 +1,4 @@
+---
 id: case-yitang-yitu-lead-industrialization
 type: case
 title: 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索
@@ -35,7 +36,7 @@ related:
 - "[[tool-yitang-sales-toolkit-maturity-60-75-85]]"
 - "[[case-yitang-redburger-selection-industrialization]]"
 review_date: '2026-06-28'
-
+---
 
 # 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索
 

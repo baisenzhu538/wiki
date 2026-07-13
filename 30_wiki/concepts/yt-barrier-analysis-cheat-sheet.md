@@ -1,6 +1,5 @@
 ---
-
-
+id: yt-barrier-analysis-cheat-sheet
 related:
   - "[[yt-five-step-method]]"
   - "[[yt-scale-economy-weapon-library]]"

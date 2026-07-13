@@ -1,3 +1,4 @@
+---
 id: case-yitang-maiyi-cloud-computer-channel
 type: case
 title: 案例：马毅云电脑如何扫描 60+ 渠道实现 3.7 亿营收
@@ -33,7 +34,7 @@ related:
 - "[[case-yitang-solid-redbull-channel]]"
 - "[[case-yitang-yitu-lead-industrialization]]"
 review_date: '2026-06-28'
-
+---
 
 # 案例：马毅云电脑如何扫描 60+ 渠道实现 3.7 亿营收
 

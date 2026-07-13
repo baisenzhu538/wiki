@@ -1,3 +1,4 @@
+---
 id: case-科学决策-ROI案例03
 title: 案例：自建招商体系的低成本启动
 type: case
@@ -78,6 +79,8 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'
+---
+
 # 案例：自建招商体系的低成本启动
 
 ## 案例来源

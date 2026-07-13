@@ -1,3 +1,4 @@
+---
 id: framework-ai-deliberate-practice-loop
 type: framework
 title: AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
@@ -35,6 +36,8 @@ related:
 - '[[framework-yitang-three-ring-ability-focus]]'
 - framework-yitang-deliberate-practice-1plus4
 - framework-一堂五步法-泛产品设计
+---
+
 # AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
 
 ## 一句话

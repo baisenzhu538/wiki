@@ -1,3 +1,4 @@
+---
 id: tool-一堂-基本功-三环六维自检
 title: 三环六维自检：10 分钟判断一个动作配不配练成基本功
 type: tool
@@ -39,6 +40,7 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+---
 
 # 三环六维自检：10 分钟判断一个动作配不配练成基本功
 

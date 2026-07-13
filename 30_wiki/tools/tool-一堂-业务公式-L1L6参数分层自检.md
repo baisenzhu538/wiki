@@ -1,3 +1,4 @@
+---
 id: tool-一堂-业务公式-L1L6参数分层自检
 title: 工具：业务公式 L1-L6 参数分层自检——看得清/讲得明/做得准 + 符号因果校验
 type: tool
@@ -32,6 +33,7 @@ related:
 quality_labels:
 - actionable
 - framework
+---
 
 # 工具：业务公式 L1-L6 参数分层自检
 

@@ -1,3 +1,4 @@
+---
 id: framework-yitang-high-level-execution
 title: 高水平执行 AR：获取情报·正确归因
 type: framework
@@ -47,6 +48,7 @@ related:
 - "[[tool-yitang-research-cross-validation]]"
 - "[[tool-yitang-research-quantitative-modeling]]"
 - "[[framework-yitang-expert-interview-10steps]]"
+---
 
 # 高水平执行 AR：获取情报·正确归因
 

@@ -1,3 +1,4 @@
+---
 id: case-private-domain-ecommerce-formula
 title: 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升级路径"
 type: case
@@ -33,7 +34,7 @@ related:
 - "[[case-toc-content-platform-correlation-trap]]"
 - "[[case-toc-ecommerce-formula-misjudgment]]"
 - "[[case-truman-ai-skill-self-packaging]]"
-
+---
 
 # 私域电商 10W 人社群：从“拉人发广告”到“信任 × 用户升级路径"
 

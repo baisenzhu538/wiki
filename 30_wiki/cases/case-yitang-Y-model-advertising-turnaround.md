@@ -1,3 +1,4 @@
+---
 id: case-yitang-Y-model-advertising-turnaround
 title: 一堂抖音 AD 投放扭亏：Y模型科学投放实战
 type: case
@@ -32,6 +33,8 @@ related:
   - yt-five-step-method
 created_at: 2026-07-03
 updated_at: '2026-07-04'
+---
+
 # 一堂抖音 AD 投放扭亏：Y模型科学投放实战
 
 > **一句话**：一堂 2023 年尝试抖音 AD 投放，经历外包失败、内部团队临摹也失败后，创始人亲自用 Y模型搭建「四大模型 + A本/B本 + 每周 AB 测试」的科学投放体系，最终把付费流量变成核心增长引擎。

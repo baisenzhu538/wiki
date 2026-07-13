@@ -1,6 +1,5 @@
 ---
-
-
+id: yt-growth-cycle-model
 related:
   - "[[yt-five-step-method]]"
   - "[[yt-unit-model-three-tools]]"

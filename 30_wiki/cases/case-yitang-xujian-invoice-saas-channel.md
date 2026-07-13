@@ -1,3 +1,4 @@
+---
 id: case-yitang-xujian-invoice-saas-channel
 type: case
 title: 案例：徐建发票 SaaS 如何通过渠道探索找到支付推手
@@ -33,7 +34,7 @@ related:
 - "[[case-lean-radish-channel-selection]]"
 - "[[case-yitang-solid-redbull-channel]]"
 review_date: '2026-06-28'
-
+---
 
 # 案例：徐建发票 SaaS 如何通过渠道探索找到支付推手
 

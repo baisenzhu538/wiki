@@ -1,3 +1,4 @@
+---
 id: tool-yitang-research-validate-assumption
 title: 调研先行验证假设：在行动前杀死错误想法
 type: tool
@@ -44,6 +45,7 @@ related:
 - "[[tool-yitang-weapon-industry-expert]]"
 - "[[tool-yitang-weapon-public-official-info]]"
 - "[[tool-yitang-weapon-user-direct-interview]]"
+---
 
 # 调研先行验证假设：在行动前杀死错误想法
 

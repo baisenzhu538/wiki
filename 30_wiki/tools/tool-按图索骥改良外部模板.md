@@ -1,3 +1,4 @@
+---
 id: tool-按图索骥改良外部模板
 title: 技能：按图索骥改良外部模板
 type: tool
@@ -28,6 +29,8 @@ related:
 - '[[tool-通过请吃饭获取行业内部资料]]'
 - '[[tool-strategy-business-design-template]]'
 - tool-ai-prd-for-ai
+---
+
 # 技能：按图索骥改良外部模板
 
 ## 原始表述

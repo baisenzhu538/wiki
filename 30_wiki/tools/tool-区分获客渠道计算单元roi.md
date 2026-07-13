@@ -1,3 +1,4 @@
+---
 id: tool-区分获客渠道计算单元roi
 title: 技能：区分获客渠道计算单元ROI
 type: tool
@@ -55,6 +56,8 @@ related:
 - '[[tool-自我反馈检验]]'
 - tool-ai-prd-for-ai
 - case-decision-science-topcity-negative-revenue-rank
+---
+
 # 技能：区分获客渠道计算单元ROI
 
 ## 原始表述

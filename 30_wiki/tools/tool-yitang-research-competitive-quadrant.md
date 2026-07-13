@@ -1,3 +1,4 @@
+---
 id: tool-yitang-research-competitive-quadrant
 title: 竞争象限：用二维矩阵可视化竞争格局
 type: tool
@@ -43,6 +44,7 @@ related:
 - "[[concept-yitang-research-mindset]]"
 - "[[tool-yitang-product-full-experience]]"
 - "[[tool-yitang-public-information-research]]"
+---
 
 # 竞争象限：用二维矩阵可视化竞争格局
 

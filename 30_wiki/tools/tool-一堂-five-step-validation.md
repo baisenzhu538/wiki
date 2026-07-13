@@ -1,6 +1,5 @@
 ---
-
-
+id: tool-一堂-five-step-validation
 related:
   - "[[concept-一堂-product-kernel]]"
   - "[[tool-一堂-kernel-three-questions]]"

@@ -1,3 +1,4 @@
+---
 id: tool-提示词结构化迭代
 title: 技能：提示词结构化迭代
 type: tool
@@ -42,6 +43,8 @@ related:
 - '[[tool-模型匹配调度]]'
 - '[[tool-模型组合调用]]'
 - tool-ai-prd-for-ai
+---
+
 # 技能：提示词结构化迭代
 
 ## 原始表述

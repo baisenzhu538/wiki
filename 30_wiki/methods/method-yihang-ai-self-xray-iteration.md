@@ -1,3 +1,4 @@
+---
 id: method-yihang-ai-self-xray-iteration
 title: AI 自我 X 光拆解：让 AI 在行动前主动暴露六要素盲区
 type: method
@@ -22,6 +23,7 @@ related:
 - "[[framework-yihang-knowledge-data-decoupling]]"
 - "[[method-kdo-agent-design-meta]]"
 - "[[method-yihang-agent-hr-role]]"
+---
 
 # AI 自我 X 光拆解：让 AI 在行动前主动暴露六要素盲区
 

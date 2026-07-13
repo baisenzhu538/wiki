@@ -1,6 +1,5 @@
 ---
-
-
+id: yt-demand-analysis-hiking-map
 related:
   - "[[yt-five-step-method]]"
   - "[[yt-market-size-estimation]]"

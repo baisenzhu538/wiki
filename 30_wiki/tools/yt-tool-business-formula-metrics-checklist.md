@@ -1,4 +1,5 @@
 ---
+id: yt-tool-business-formula-metrics-checklist
 status: enriched
 reviewed_by: pending
 updated_at: '2026-07-12'

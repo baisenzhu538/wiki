@@ -1,3 +1,4 @@
+---
 id: framework-yitang-high-level-plan
 title: 高水平计划 OSC：锁定目标·缩小范围·罗列清单
 type: framework
@@ -49,6 +50,7 @@ related:
 - "[[tool-yitang-research-two-dimensional-positioning]]"
 - "[[framework-yitang-expert-interview-10steps]]"
 - "[[framework-yitang-research-quality-gate]]"
+---
 
 # 高水平计划 OSC：锁定目标·缩小范围·罗列清单
 

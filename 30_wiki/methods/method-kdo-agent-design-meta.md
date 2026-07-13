@@ -1,3 +1,4 @@
+---
 id: method-kdo-agent-design-meta
 title: KDO Agent 设计元方法——用双三角加速 Agent 建设
 type: method
@@ -19,6 +20,7 @@ related:
 - '[[method-kdo-agent-distillation]]'
 - '[[method-judge-skill-meta-evaluation]]'
 - '[[method-yihang-human-self-distillation]]'
+---
 
 # KDO Agent 设计元方法：用双三角加速 Agent 建设
 

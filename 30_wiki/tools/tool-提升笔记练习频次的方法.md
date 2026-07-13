@@ -1,3 +1,4 @@
+---
 id: tool-提升笔记练习频次的方法
 title: 技能：提升笔记练习频次的方法
 type: tool
@@ -30,6 +31,8 @@ related:
 - '[[tool-用topdown方式整理内化笔记]]'
 - '[[tool-demand-assessment-triangle]]'
 - tool-ai-prd-for-ai
+---
+
 # 技能：提升笔记练习频次的方法
 
 ## 原始表述

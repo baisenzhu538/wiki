@@ -1,3 +1,4 @@
+---
 id: tool-agent-firecrawl
 title: Firecrawl：专为LLM设计的Web抓取API
 type: tool
@@ -25,6 +26,8 @@ related:
 - web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 - agent-native-card-design
 updated_at: '2026-06-29'
+---
+
 # Firecrawl
 
 > 输入一个URL，输出干净Markdown。专为LLM/RAG设计——Agent不需要"看网页"，直接拿到结构化内容。

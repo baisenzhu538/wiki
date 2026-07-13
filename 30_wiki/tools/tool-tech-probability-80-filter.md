@@ -1,3 +1,4 @@
+---
 id: tool-tech-probability-80-filter
 title: 李开复 80% 概率过滤器
 type: tool
@@ -31,6 +32,8 @@ quality_labels:
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
+---
+
 # 李开复 80% 概率过滤器
 
 > **一句话**：用「未来 20 年内发生概率 ≥80%」作为硬门槛，把对 AI 的无限焦虑过滤成有限准备清单的工具。

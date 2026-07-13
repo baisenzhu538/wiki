@@ -1,3 +1,4 @@
+---
 id: case-bmw-human-ai-collaboration-idle-time
 title: BMW 工厂人机协作案例：idle time 减少 85% 被误读为产能提升 85%
 type: case
@@ -31,6 +32,7 @@ related:
   - human-ai-collaboration-double-triangle
 created_at: 2026-07-04
 updated_at: '2026-07-04'
+---
 
 # BMW 工厂人机协作案例：idle time 减少 85% 被误读为产能提升 85%
 

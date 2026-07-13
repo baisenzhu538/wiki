@@ -1,3 +1,4 @@
+---
 id: tool-任务拆解为工作流
 title: 技能：任务拆解为工作流
 type: tool
@@ -31,6 +32,8 @@ related:
 - '[[tool-渐进式披露上下文]]'
 - '[[tool-demand-iceberg-l3-core-job]]'
 - tool-ai-prd-for-ai
+---
+
 # 技能：任务拆解为工作流
 
 ## 原始表述

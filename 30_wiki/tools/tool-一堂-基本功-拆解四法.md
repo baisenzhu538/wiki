@@ -1,3 +1,4 @@
+---
 id: tool-一堂-基本功-拆解四法
 title: 拆解四法：靠框架/靠专家/靠外部/靠复盘，把关键动作挖出来
 type: tool
@@ -41,6 +42,7 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+---
 
 # 拆解四法：靠框架/靠专家/靠外部/靠复盘，把关键动作挖出来
 

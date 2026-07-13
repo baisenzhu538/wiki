@@ -1,3 +1,4 @@
+---
 id: tool-lean-leverage-tools
 title: 借搭建工具：用现成系统跑业务流
 type: tool
@@ -25,6 +26,7 @@ related:
 - "[[tool-lean-presell]]"
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+---
 
 # 借搭建工具：用现成系统跑业务流
 

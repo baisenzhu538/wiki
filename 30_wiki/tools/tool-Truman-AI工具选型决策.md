@@ -1,3 +1,4 @@
+---
 id: tool-Truman-AI工具选型决策
 title: 技能：AI工具选型决策
 type: tool
@@ -27,6 +28,8 @@ related:
 - '[[tool-strategy-industry-chain-analysis]]'
 - '[[tool-strategy-risk-management]]'
 - productization-judgment
+---
+
 # 技能：AI工具选型决策
 
 ## 原始表述

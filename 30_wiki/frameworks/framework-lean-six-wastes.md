@@ -1,3 +1,4 @@
+---
 id: framework-lean-six-wastes
 title: 创业六宗罪 / 六大浪费
 type: framework
@@ -32,6 +33,8 @@ quality_labels:
 - validated
 updated_at: '2026-06-29'
 created_at: '2026-06-30'
+---
+
 # 创业六宗罪 / 六大浪费
 
 ## 一句话定义

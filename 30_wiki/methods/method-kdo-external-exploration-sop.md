@@ -1,3 +1,4 @@
+---
 id: method-kdo-external-exploration-sop
 title: KDO 外部探索标准操作流程 v2（OSCAR 注入版）
 type: method
@@ -35,6 +36,7 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+---
 
 # KDO 外部探索标准操作流程 v2（OSCAR 注入版）
 

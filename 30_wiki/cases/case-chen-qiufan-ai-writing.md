@@ -1,3 +1,4 @@
+---
 id: case-chen-qiufan-ai-writing
 title: 陈楸帆对 AI 写作的态度转向
 type: case
@@ -40,6 +41,8 @@ related:
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[case-ai-job-displacement-wef]]'
 - tool-ai-cross-reading-method
+---
+
 # 陈楸帆对 AI 写作的态度转向
 
 > **Burn line**：一位从 2017 年就亲自训练 AI 模型、把 AI 当「写作主人」的科幻作家，在 2025 年 DeepSeek 之后公开转向审慎——这个反转不是情绪，而是「亲自试过错」的人对技术保质期的修正。

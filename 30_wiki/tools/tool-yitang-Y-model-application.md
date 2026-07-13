@@ -1,3 +1,4 @@
+---
 id: tool-yitang-Y-model-application
 title: Y模型应用工作流：把科学做事框架变成具体问题上的操作清单
 type: tool
@@ -35,6 +36,8 @@ related:
 - '[[tool-opc-sales-dialogue-assistant]]'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
+---
+
 # Y模型应用工作流：把科学做事框架变成具体问题上的操作清单
 
 > 一句话：Y模型应用工作流 = 以「客观因果规律」为根，通过「明确问题 → 拆解变量 → 理论端 → 事实端 → 知行迭代」五步，把任何复杂难题变成可验证、可迭代的科学做事清单。

@@ -1,6 +1,5 @@
 ---
-
-
+id: ai时代判断力口述-3
 related:
   - "[[yt-personal-ipo-learning]]"
   - "[[master-knowledge-compound]]"

@@ -1,3 +1,4 @@
+---
 id: framework-lean-abcd-model
 title: 关键假设 ABCD 模型
 type: framework
@@ -33,6 +34,8 @@ quality_labels:
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
+---
+
 # 关键假设 ABCD 模型
 
 ## 一句话定义

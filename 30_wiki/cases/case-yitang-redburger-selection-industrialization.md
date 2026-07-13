@@ -1,3 +1,4 @@
+---
 id: case-yitang-redburger-selection-industrialization
 type: case
 title: 案例：熊猫现烤汉堡如何用工业化流程破解选品难题
@@ -33,7 +34,7 @@ related:
 - "[[framework-lean-abcd-model]]"
 - "[[case-lean-shampoo-selling-points]]"
 review_date: '2026-06-28'
-
+---
 
 # 案例：熊猫现烤汉堡如何用工业化流程破解选品难题
 

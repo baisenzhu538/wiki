@@ -1,3 +1,4 @@
+---
 id: case-yihang-dual-triangle-huazao-synthetic-data
 title: 一行双三角案例：花总让AI先造数据破解工业级难题
 type: case
@@ -34,6 +35,7 @@ related:
 aliases:
 - 花总案例
 - 合成数据案例
+---
 
 # 一行双三角案例：花总让 AI 先造数据破解工业级难题
 

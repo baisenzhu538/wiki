@@ -1,3 +1,4 @@
+---
 id: concept-yitang-facts-first
 title: 事实优先：调研的基本纪律
 type: concept
@@ -24,6 +25,8 @@ related:
 - '[[concept-kdo-review-workflow]]'
 - concept-yitang-research-facts-first
 updated_at: '2026-06-29'
+---
+
 # 事实优先
 
 > 降龙十八掌第13掌。调研的第一纪律：事实优先于观点，数据优先于解读，一手优先于二手。

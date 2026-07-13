@@ -1,3 +1,4 @@
+---
 id: framework-yihang-dual-triangle-weapon-library
 title: 一行双三角六要素武器库
 type: framework
@@ -36,6 +37,7 @@ related:
 aliases:
 - 双三角武器库
 - 双三角能力矩阵
+---
 
 # 一行双三角六要素武器库
 

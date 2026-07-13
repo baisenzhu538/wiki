@@ -1,3 +1,4 @@
+---
 id: tool-yitang-job-intelligence-research
 title: 招聘渠道情报：五层递进挖掘竞对内部信息
 type: tool
@@ -35,6 +36,8 @@ related:
 - '[[tool-yitang-consulting-business-research]]'
 - tool-yitang-research-exhaust-means
 - framework-yitang-growth-flywheel
+---
+
 # 招聘渠道情报：五层递进挖掘竞对内部信息
 
 > **一句话**：招聘是情报调研最合法合规的通道。从读JD到假装面试到猎头勾搭高管——越往下越深，信息质量越高。对方为了讨好新工作，除了特别敏感的信息，很愿意和盘托出。

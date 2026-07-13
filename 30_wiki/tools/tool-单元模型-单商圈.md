@@ -1,3 +1,4 @@
+---
 id: tool-单元模型-单商圈
 title: 单元模型：单商圈模型
 type: tool
@@ -23,6 +24,8 @@ related:
 - '[[yt-entrepreneur-unit-model]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+---
+
 # 单元模型：单商圈模型
 
 ## Purpose

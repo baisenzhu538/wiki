@@ -1,3 +1,4 @@
+---
 id: tool-yitang-research-company-disassembly
 title: 公司拆解：深度分析竞争对手的六维框架
 type: tool
@@ -43,6 +44,7 @@ related:
 - "[[concept-yitang-research-mindset]]"
 - "[[tool-yitang-research-unit-model]]"
 - "[[tool-yitang-tech-project-research]]"
+---
 
 # 公司拆解：深度分析竞争对手的六维框架
 

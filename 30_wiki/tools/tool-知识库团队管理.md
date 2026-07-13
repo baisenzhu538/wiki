@@ -1,3 +1,4 @@
+---
 id: tool-知识库团队管理
 title: 技能：知识库团队管理
 type: tool
@@ -33,6 +34,8 @@ related:
 - '[[tool-专家访谈十步法]]'
 - '[[tool-asset-file-naming-convention]]'
 - tool-yitang-bp-analysis
+---
+
 # 技能：知识库团队管理
 
 ## 原始表述

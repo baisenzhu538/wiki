@@ -1,6 +1,5 @@
 ---
-
-
+id: tool-马易-业务为先的AI中台建设
 related:
   - "[[ai-landing-scene-selection]]"
   - "[[tool-马易-数据存储架构选择]]"

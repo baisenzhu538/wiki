@@ -1,10 +1,11 @@
+---
 id: tool-纪浩-识别AI不可维护代码
 title: 技能：识别AI不可维护代码
 type: tool
 domain:
 - ai-collaboration
 - yitang
-    - ai-saas
+  - ai-saas
 status: draft
 author: 纪浩
 reviewed_by: pending
@@ -24,6 +25,8 @@ related:
 - "[[tool-纪浩-多视角切换思考法]]"
 - "[[tool-纪浩-案例池构建法]]"
 - "[[tool-纪浩-里程碑验证法]]"
+---
+
 # 技能：识别AI不可维护代码
 
 - src_unknown

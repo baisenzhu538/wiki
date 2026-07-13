@@ -1,3 +1,4 @@
+---
 id: tool-月白-设计文件八要素命名法
 title: 技能：设计文件命名法
 type: tool
@@ -30,6 +31,8 @@ related:
 - "[[tool-月白-三步作业反馈法]]"
 - "[[tool-asset-file-naming-convention]]"
 - "[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
+---
+
 # 技能：设计文件八要素命名法
 
 ## 原始表述

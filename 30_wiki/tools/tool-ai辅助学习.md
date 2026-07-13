@@ -1,3 +1,4 @@
+---
 id: tool-ai辅助学习
 title: 技能：AI辅助学习
 type: tool
@@ -50,6 +51,8 @@ related:
 - '[[tool-清单小抄制作]]'
 - '[[tool-稀缺资源机会成本比对法]]'
 - tool-ai-prd-for-ai
+---
+
 # 技能：AI辅助学习
 
 ## 原始表述

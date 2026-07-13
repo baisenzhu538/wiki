@@ -1,10 +1,11 @@
+---
 id: tool-马易-业务问题AI化拆解-餐饮设计案例法
 title: 技能：业务问题AI化拆解-餐饮设计案例法
 type: tool
 domain:
 - ai-collaboration
 - yitang
-    - ai-saas
+  - ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -23,6 +24,8 @@ related:
 - "[[tool-马易-最小场景优先落地法]]"
 - "[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
 - "[[tool-demand-iceberg-l2-scenario]]"
+---
+
 # 技能：业务问题AI化拆解-餐饮设计案例法
 
 ## 原始表述

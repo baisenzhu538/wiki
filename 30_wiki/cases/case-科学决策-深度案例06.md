@@ -1,3 +1,4 @@
+---
 id: case-科学决策-深度案例06
 title: 案例：电话外呼的ROI分析
 type: case
@@ -75,6 +76,8 @@ related:
 - concept-发现决策
 updated_at: '2026-06-29'
 review_date: '2026-06-29'
+---
+
 # 案例：电话外呼的 ROI 分析
 
 ## 案例来源

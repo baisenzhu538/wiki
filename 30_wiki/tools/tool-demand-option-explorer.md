@@ -1,3 +1,4 @@
+---
 id: tool-demand-option-explorer
 title: 需求选项探讨工具：USP追问+控变量+找盲区
 type: tool
@@ -31,6 +32,7 @@ diagnostic_signals:
   follow-up: 追问"用户因为什么选择了你而不是竞品？"
 quality_labels:
 - actionable
+---
 
 # 需求选项探讨工具：USP追问+控变量+找盲区
 

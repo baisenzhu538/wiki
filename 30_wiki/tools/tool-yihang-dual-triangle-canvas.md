@@ -1,3 +1,4 @@
+---
 id: tool-yihang-dual-triangle-canvas
 title: 一行双三角画布（三版合一）
 type: tool
@@ -37,6 +38,7 @@ related:
 aliases:
 - 双三角画布
 - 一行双三角画布
+---
 
 # 一行双三角画布（三版合一）
 

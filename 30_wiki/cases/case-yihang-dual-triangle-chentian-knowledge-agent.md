@@ -1,3 +1,4 @@
+---
 id: case-yihang-dual-triangle-chentian-knowledge-agent
 title: 一行双三角案例：陈天从知识管理到多Agent系统
 type: case
@@ -41,6 +42,7 @@ related:
 aliases:
 - 陈天案例
 - 知识管理案例
+---
 
 # 一行双三角案例：陈天从知识管理到多 Agent 系统
 

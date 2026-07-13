@@ -1,3 +1,4 @@
+---
 id: tool-demand-iceberg-l5-forces
 title: L5隐藏洞察：四种力量+三种任务+微观体感
 type: tool
@@ -26,6 +27,8 @@ related:
 - '[[tool-demand-rat-generator]]'
 - proposal-prompt-injection-infrastructure
 - tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
+---
+
 # L5隐藏洞察
 
 > L4告诉你在哪切入，L5告诉你用户会不会真的切换过来。人改变习惯不是因为"更好的功能"，是因为推力+拉力 > 焦虑+习惯。

@@ -1,3 +1,4 @@
+---
 id: tool-月白-设计素材脱敏处理规范
 title: 技能：设计素材脱敏处理规范
 type: tool
@@ -31,6 +32,8 @@ related:
 - '[[tool-月白-AIGC橱窗陈列设计流程]]'
 - '[[tool-纪浩-处理AI生成代码运行异常]]'
 - tool-ai-deliverable-polish-loop
+---
+
 # 技能：设计素材脱敏处理规范
 
 ## 原始表述

@@ -1,3 +1,4 @@
+---
 id: tool-yitang-research-best-practice
 title: 最佳实践调研：找到行业标杆，复制成功因素
 type: tool
@@ -43,6 +44,7 @@ related:
 - "[[concept-yitang-research-mindset]]"
 - "[[tool-candy-positioning-canvas]]"
 - "[[tool-yitang-research-company-disassembly]]"
+---
 
 # 最佳实践调研：找到行业标杆，复制成功因素
 

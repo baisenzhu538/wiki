@@ -1,3 +1,4 @@
+---
 id: case-modeling-process-sop-examples
 title: 流程建模案例：10 个学员企业的 SOP 实践样本
 type: case
@@ -43,6 +44,8 @@ related:
 - '[[tool-sop-template-modeling]]'
 - '[[case-truman-livestream-sop-iteration]]'
 - case-modeling-process-livestream-prep
+---
+
 # 流程建模案例：10 个学员企业的 SOP 实践样本
 
 > 来源：Truman-高阶建模-流程建模-图-02 | 一堂建模能力培训（Truman）

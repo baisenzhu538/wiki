@@ -1,6 +1,5 @@
 ---
-
-
+id: tool-使用一页纸速查卡快速调用框架
 related:
   - "[[yt-five-step-method]]"
   - "[[master-cognitive-bias-checklist]]"

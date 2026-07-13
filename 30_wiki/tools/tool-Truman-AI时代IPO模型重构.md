@@ -1,3 +1,4 @@
+---
 id: tool-Truman-AI时代IPO模型重构
 title: 技能：AI时代IPO模型重构
 type: tool
@@ -22,6 +23,8 @@ related:
 - '[[tool-Truman-AI输出审慎判断与交付确认]]'
 - "[[framework-yitang-project-retrospective]]"
 - yt-model-ipo-learning-strategy
+---
+
 # 技能：AI时代IPO模型重构
 
 ## 原始表述

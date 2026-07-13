@@ -1,3 +1,4 @@
+---
 id: method-dual-triangle-flywheel-engine
 title: 双三角飞轮引擎与制度化运行
 type: method
@@ -39,6 +40,7 @@ related:
 aliases:
 - 双三角飞轮
 - 飞轮引擎
+---
 
 # 双三角飞轮引擎与制度化运行
 

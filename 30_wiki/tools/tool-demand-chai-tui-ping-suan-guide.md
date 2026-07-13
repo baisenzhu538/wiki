@@ -1,3 +1,4 @@
+---
 id: tool-demand-chai-tui-ping-suan-guide
 title: 拆推评算使用指南：工具箱而非工作流
 type: tool
@@ -35,6 +36,7 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+---
 
 # 拆推评算使用指南：工具箱而非工作流
 

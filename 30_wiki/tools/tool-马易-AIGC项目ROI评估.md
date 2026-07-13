@@ -1,3 +1,4 @@
+---
 id: tool-马易-AIGC项目ROI评估
 title: 技能：AIGC项目ROI评估
 type: tool
@@ -46,6 +47,8 @@ related:
 - "[[tool-马易-痛点驱动的数字化]]"
 - "[[tool-马易-视频转化关键要素标注校验]]"
 - "[[tool-马易-隐性知识萃取与模型化]]"
+---
+
 # 技能：AIGC项目ROI评估
 
 ## 原始表述

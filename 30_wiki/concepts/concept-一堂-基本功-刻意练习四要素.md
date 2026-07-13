@@ -1,3 +1,4 @@
+---
 id: concept-一堂-基本功-刻意练习四要素
 title: 刻意练习四要素（组织版）：套路×非舒适区×大量重复×及时反馈
 type: concept
@@ -35,6 +36,7 @@ diagnostic_signals:
 quality_labels:
 - principle
 - actionable
+---
 
 # 刻意练习四要素（组织版）：套路×非舒适区×大量重复×及时反馈
 

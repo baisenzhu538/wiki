@@ -1,3 +1,4 @@
+---
 id: method-yihang-dual-triangle-ai-review
 title: 双三角 AI 辅助复盘法：让 AI 拆解你自己的协作过程
 type: method
@@ -24,6 +25,7 @@ related:
 - "[[method-yihang-agent-hr-role]]"
 - "[[method-yihang-ai-self-xray-iteration]]"
 - "[[method-yihang-human-self-distillation]]"
+---
 
 # 双三角 AI 辅助复盘法：让 AI 拆解你自己的协作过程
 

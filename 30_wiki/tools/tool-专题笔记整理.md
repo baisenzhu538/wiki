@@ -1,3 +1,4 @@
+---
 id: tool-专题笔记整理
 title: 技能：专题笔记整理
 type: tool
@@ -30,6 +31,8 @@ related:
 - '[[tool-建立知识联系]]'
 - tool-专题笔记脑图整理法
 - tool-ai-prd-for-ai
+---
+
 # 技能：专题笔记整理
 
 ## 原始表述

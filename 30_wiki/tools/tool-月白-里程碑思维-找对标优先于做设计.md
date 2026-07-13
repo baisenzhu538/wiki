@@ -1,3 +1,4 @@
+---
 id: tool-月白-里程碑思维-找对标优先于做设计
 title: 技能：里程碑思维-找对标优先于做设计
 type: tool
@@ -32,6 +33,8 @@ related:
 - '[[tool-月白-里程碑思维拆解设计流程]]'
 - tool-yitang-research-deep-attribution
 - yt-product-kernel-to-business-model
+---
+
 # 技能：里程碑思维-找对标优先于做设计
 
 ## 原始表述

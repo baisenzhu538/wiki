@@ -1,3 +1,4 @@
+---
 id: tool-yitang-research-competitor-tracking
 title: 竞对跟踪：持续监控竞争对手的动态与策略
 type: tool
@@ -42,6 +43,7 @@ related:
 - "[[tool-yitang-app-store-data]]"
 - "[[tool-yitang-public-sentiment-research]]"
 - "[[tool-yitang-research-best-practice]]"
+---
 
 # 竞对跟踪：持续监控竞争对手的动态与策略
 

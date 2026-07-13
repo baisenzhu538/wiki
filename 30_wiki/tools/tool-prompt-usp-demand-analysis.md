@@ -1,3 +1,4 @@
+---
 id: tool-prompt-usp-demand-analysis
 title: USP 深度洞察引擎——需求分析提示词模板
 type: prompt-template
@@ -25,6 +26,8 @@ related:
 iteration_history:
 - date: '2026-06-21'
   changes: 从 inbox 需求分析提示词.txt 提取，结构化入库
+---
+
 # USP 深度洞察引擎
 
 > `prompt-template` — 可复用、可迭代。不只复制，学会设计原理。

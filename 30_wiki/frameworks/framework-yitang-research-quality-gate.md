@@ -1,3 +1,4 @@
+---
 id: framework-yitang-research-quality-gate
 title: 调研质量自检框架：六维门禁——判断调研是否"足够好"
 type: framework
@@ -28,6 +29,8 @@ diagnostic_signals:
   follow_up_question: 六维中哪一维最薄弱？薄弱项回补后再提交
 - framework_lens: 对照六维找缺口
   follow_up_question: 驳回理由对应六维中的哪一维？
+---
+
 # 调研质量自检框架：六维门禁
 
 > 调研做完 ≠ 调研做完了。六维门禁是提交前的最后一道自检——每个维度答不上来就不能交。

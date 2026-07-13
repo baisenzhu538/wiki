@@ -1,3 +1,4 @@
+---
 id: case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution
 title: 一行双三角案例：Truman「飞书 To slide」PPT 迭代进化
 type: case
@@ -34,6 +35,7 @@ related:
 aliases:
 - Truman 飞书 To slide
 - PPT 迭代案例
+---
 
 # 一行双三角案例：Truman「飞书 To slide」PPT 迭代进化
 

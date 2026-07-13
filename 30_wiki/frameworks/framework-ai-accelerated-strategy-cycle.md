@@ -1,3 +1,4 @@
+---
 id: framework-ai-accelerated-strategy-cycle
 title: AI 加速的战略-验证闭环
 type: framework
@@ -36,6 +37,8 @@ quality_labels:
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
+---
+
 # AI 加速的战略-验证闭环
 
 > 用 AI 同时压缩战略分析（市场/竞争/用户）和精益验证（假设生成/实验执行/数据分析）的周期，让“人定方向 → AI 加速验证 → 人做决策”的闭环转得更快，但不改变决策责任归属。

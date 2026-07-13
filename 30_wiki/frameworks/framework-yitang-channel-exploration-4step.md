@@ -1,3 +1,4 @@
+---
 id: framework-yitang-channel-exploration-4step
 type: framework
 title: 渠道探索四步法：科学找到可持续获客渠道
@@ -56,6 +57,8 @@ related:
   - framework-yitang-shishi-qiushi
   - framework-yitang-jiefang-sixiang
 review_date: '2026-06-28'
+---
+
 # 渠道探索四步法：科学找到可持续获客渠道
 
 ## 一句话

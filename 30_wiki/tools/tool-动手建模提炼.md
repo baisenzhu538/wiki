@@ -1,3 +1,4 @@
+---
 id: tool-动手建模提炼
 title: 技能：动手建模提炼
 type: tool
@@ -30,6 +31,8 @@ related:
 - '[[tool-费曼学习法三句话提炼]]'
 - '[[tool-demand-four-forces]]'
 - tool-动手建模法
+---
+
 # 技能：动手建模提炼
 
 ## 原始表述

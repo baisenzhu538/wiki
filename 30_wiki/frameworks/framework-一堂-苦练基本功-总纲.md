@@ -1,3 +1,4 @@
+---
 id: framework-一堂-苦练基本功-总纲
 title: 苦练基本功总纲：人不是组织能力的最小单位，基本功才是
 type: framework
@@ -55,6 +56,7 @@ quality_labels:
 - principle
 - actionable
 - insight
+---
 
 # 苦练基本功总纲：人不是组织能力的最小单位，基本功才是
 

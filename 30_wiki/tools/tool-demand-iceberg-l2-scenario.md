@@ -1,3 +1,4 @@
+---
 id: tool-demand-iceberg-l2-scenario
 title: L2粗拆场景问题：捕捉表层的痛点和需求
 type: tool
@@ -30,6 +31,8 @@ related:
 - '[[tool-demand-iceberg-l1-user]]'
 - proposal-prompt-injection-infrastructure
 - tool-yitang-research-industry-scan
+---
+
 # L2粗拆场景问题
 
 > L1确定了"谁"，L2回答"在什么情况下遇到什么问题"。场景是连接用户和需求的桥梁。

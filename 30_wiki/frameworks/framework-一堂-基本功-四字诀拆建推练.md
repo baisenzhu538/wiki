@@ -1,3 +1,4 @@
+---
 id: framework-一堂-基本功-四字诀拆建推练
 title: 基本功四字诀「拆建推练」：把一个动作练成组织能力
 type: framework
@@ -43,6 +44,7 @@ quality_labels:
 - actionable
 - principle
 - insight
+---
 
 # 基本功四字诀「拆建推练」：把一个动作练成组织能力
 

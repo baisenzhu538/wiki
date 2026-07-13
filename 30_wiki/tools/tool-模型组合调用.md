@@ -1,3 +1,4 @@
+---
 id: tool-模型组合调用
 title: 技能：模型组合调用
 type: tool
@@ -31,6 +32,8 @@ related:
 - '[[tool-渐进式披露上下文]]'
 - '[[tool-strategy-control-points]]'
 - tool-ai-prd-for-ai
+---
+
 # 技能：模型组合调用
 
 ## 原始表述

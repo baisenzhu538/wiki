@@ -1,3 +1,4 @@
+---
 id: concept-一堂-基本功定义
 title: 基本功定义：针对具体场景的独立可检验动作，重复形成复利
 type: concept
@@ -41,6 +42,7 @@ diagnostic_signals:
 quality_labels:
 - principle
 - insight
+---
 
 # 基本功定义：针对具体场景的独立可检验动作，重复形成复利
 

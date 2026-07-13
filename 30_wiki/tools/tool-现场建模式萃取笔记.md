@@ -1,3 +1,4 @@
+---
 id: tool-现场建模式萃取笔记
 title: 技能：现场建模式萃取笔记
 type: tool
@@ -33,6 +34,8 @@ related:
 - '[[tool-自我反馈修正笔记姿势]]'
 - yt-entrepreneur-research-cognition
 - yt-note-l6-extraction
+---
+
 # 技能：现场建模式萃取笔记
 
 ## 原始表述

@@ -1,3 +1,4 @@
+---
 id: framework-ai2041-critical-reading-os
 title: AI 2041 批判性认知操作系统
 type: framework
@@ -29,6 +30,8 @@ quality_labels:
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
+---
+
 # AI 2041 批判性认知操作系统
 
 > **Burn line**：面对任何关于 AI 的预测，不要先问“它会实现吗”，要问“它实现之后，具体哪个人在哪个岔路口还能做什么选择”。

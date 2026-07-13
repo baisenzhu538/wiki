@@ -1,3 +1,4 @@
+---
 id: case-ai-companion-emotional
 title: AI 情感陪伴的市场与伦理
 type: case
@@ -41,6 +42,8 @@ related:
 - '[[case-cambridge-novelists-survey]]'
 - '[[case-dutch-childcare-scandal]]'
 - tool-ai-cross-reading-method
+---
+
 # AI 情感陪伴的市场与伦理
 
 > **Burn line**：当 AI 伴侣比父母更耐心、更懂你、24 小时在线不会发脾气时，孩子面对的不仅是“学习效率”问题，而是“在被塑造之前，人格是否还属于自己”的前意识伦理问题。

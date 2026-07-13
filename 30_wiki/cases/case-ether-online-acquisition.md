@@ -1,3 +1,4 @@
+---
 id: case-ether-online-acquisition
 title: 案例：以太利用全网调研能力快速获客
 type: case
@@ -65,6 +66,7 @@ diagnostic_signals:
   follow_up_question: 是否建立了集中化的线索库？线索进入后是否有自动分级、去重和分配规则？
 - framework_lens: 抓取规则缺少质量分门槛
   follow_up_question: 除了"是新公司"之外，是否还设置了融资阶段、行业匹配度、需求信号等过滤条件？
+---
 
 # 案例：以太利用全网调研能力快速获客
 

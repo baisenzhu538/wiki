@@ -1,3 +1,4 @@
+---
 id: tool-yitang-research-follow-map
 title: 按图索骥：根据定位寻找对标案例
 type: tool
@@ -45,6 +46,7 @@ related:
 - "[[tool-yitang-product-full-experience]]"
 - "[[tool-yitang-research-deep-attribution]]"
 - "[[tool-yitang-research-quantitative-modeling]]"
+---
 
 # 按图索骥：根据定位寻找对标案例
 

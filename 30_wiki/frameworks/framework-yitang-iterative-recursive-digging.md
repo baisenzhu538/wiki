@@ -1,3 +1,4 @@
+---
 id: framework-yitang-iterative-recursive-digging
 title: 迭代递归深挖法：从表层到内核的认知穿透
 type: framework
@@ -42,6 +43,7 @@ related:
 - "[[concept-yitang-research-mindset]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
 - "[[framework-yitang-six-layer-cross-validation]]"
+---
 
 # 迭代递归深挖法：从表层到内核的认知穿透
 

@@ -1,10 +1,11 @@
+---
 id: tool-纪浩-问题导向备课法
 title: 技能：问题导向备课法
 type: tool
 domain:
 - ai-collaboration
 - yitang
-    - ai-saas
+  - ai-saas
 status: draft
 author: 纪浩
 reviewed_by: pending
@@ -25,6 +26,8 @@ related:
 - "[[tool-纪浩-案例池构建法]]"
 - "[[tool-纪浩-评估AI从零写UI的可行性]]"
 - "[[tool-纪浩-里程碑验证法]]"
+---
+
 # 技能：问题导向备课法
 
 - src_unknown

@@ -1,3 +1,4 @@
+---
 id: case-yitang-yitang-transcript-strategy
 title: 案例：一堂逐字稿——用 ROI+内容壁垒打破"不能给"的行业惯例
 type: case
@@ -19,6 +20,7 @@ related:
 - "[[framework-yitang-jiefang-sixiang]]"
 - "[[yt-decision-y-model]]"
 - "[[case-yitang-course-start-time-evolution]]"
+---
 
 # 案例：一堂逐字稿——用 ROI+内容壁垒打破"不能给"的行业惯例
 

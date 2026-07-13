@@ -1,3 +1,4 @@
+---
 id: framework-yitang-oscar-research
 title: OSCAR调研模型：从目标锁定到正确归因的五步法
 type: framework
@@ -57,6 +58,7 @@ diagnostic_signals:
 - signal: 每次外部探索用的都是同一套搜索词
   lens: C步骤僵化——清单套模板
   follow-up: 根据本次目标重新设计关键词和来源类型
+---
 
 # OSCAR调研模型：从目标锁定到正确归因的五步法
 

@@ -1,9 +1,10 @@
+---
 id: tool-封装可复用skill
 title: 技能：封装可复用Skill
 type: tool
 domain:
 - learning-methodology
-    - ai-saas
+  - ai-saas
 - management
 - kdo
 - yitang
@@ -37,6 +38,8 @@ related:
 - '[[tool-yitang-18-strategy-tool-mapping]]'
 - '[[tool-半肥猫-course-to-skill-workflow]]'
 - tool-ai-prd-for-ai
+---
+
 # 技能：封装可复用Skill
 
 ## 原始表述

@@ -1,6 +1,5 @@
 ---
-
-
+id: yt-product-kernel-cultivation
 related:
   - "[[yt-five-step-method]]"
   - "[[yt-product-ten-metrics]]"

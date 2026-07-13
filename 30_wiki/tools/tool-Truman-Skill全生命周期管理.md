@@ -1,3 +1,4 @@
+---
 id: tool-Truman-Skill全生命周期管理
 title: 技能：Skill全生命周期管理
 type: tool
@@ -25,6 +26,8 @@ related:
 - '[[tool-半肥猫-course-to-skill-workflow]]'
 - case-ai-agent-milestone-design
 - tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
+---
+
 # 技能：Skill全生命周期管理
 
 ## 原始表述

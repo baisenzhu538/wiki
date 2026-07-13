@@ -1,3 +1,4 @@
+---
 id: case-yihang-dual-triangle-tianmo-design-delivery
 title: 一行双三角案例：天末4天商业级室内设计交付
 type: case
@@ -41,6 +42,7 @@ related:
 aliases:
 - 天末案例
 - 设计交付案例
+---
 
 # 一行双三角案例：天末 4 天商业级室内设计交付
 

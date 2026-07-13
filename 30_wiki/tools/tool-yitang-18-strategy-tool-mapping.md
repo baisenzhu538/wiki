@@ -1,3 +1,4 @@
+---
 id: tool-yitang-18-strategy-tool-mapping
 title: 降龙十八掌→工具映射表：每掌对应的执行工具和 Skill
 type: tool
@@ -42,6 +43,8 @@ related:
 diagnostic_signals:
 - framework_lens: 策略→工具映射表
   follow_up_question: 在映射表中找到对应的 wiki 卡片或 Skill
+---
+
 # 降龙十八掌→工具映射表
 
 > 十八掌是"做什么"，这张卡是"用什么做"。每掌给出对应的 wiki 卡片 + Claude Code Skill + 应急方案。

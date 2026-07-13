@@ -1,3 +1,4 @@
+---
 id: tool-lean-minimum-version
 title: 只发布最小版本
 type: tool
@@ -25,6 +26,7 @@ related:
 - "[[tool-lean-presell]]"
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+---
 
 # 只发布最小版本
 

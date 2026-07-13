@@ -1,3 +1,4 @@
+---
 id: framework-yihang-dual-triangle-three-stages-six-changes
 title: 一行双三角三阶六变
 type: framework
@@ -30,6 +31,7 @@ related:
 aliases:
 - 双三角三阶六变
 - 双三角六种落地场景
+---
 
 # 一行双三角三阶六变
 

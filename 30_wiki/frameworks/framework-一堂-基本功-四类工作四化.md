@@ -1,3 +1,4 @@
+---
 id: framework-一堂-基本功-四类工作四化
 title: 五类工作 × 4化：基本功的进攻方向诊断图
 type: framework
@@ -36,6 +37,7 @@ diagnostic_signals:
 quality_labels:
 - principle
 - actionable
+---
 
 # 五类工作 × 4化：基本功的进攻方向诊断图
 

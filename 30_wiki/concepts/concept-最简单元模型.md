@@ -1,3 +1,4 @@
+---
 id: concept-最简单元模型
 title: 最简化的单元模型
 type: concept
@@ -27,6 +28,8 @@ quality_labels:
 - validated
 updated_at: '2026-06-29'
 created_at: '2026-06-30'
+---
+
 # 最简化的单元模型
 
 ## 一句话定义

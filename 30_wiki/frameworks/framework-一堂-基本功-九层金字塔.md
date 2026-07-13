@@ -1,3 +1,4 @@
+---
 id: framework-一堂-基本功-九层金字塔
 title: 基本功九层金字塔：从底层信念到基本功化的完整地图
 type: framework
@@ -45,6 +46,7 @@ quality_labels:
 - principle
 - framework
 - insight
+---
 
 # 基本功九层金字塔：从底层信念到基本功化的完整地图
 

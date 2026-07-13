@@ -1,3 +1,4 @@
+---
 id: tool-月白-后台数据AI诊断法
 title: 技能：后台数据AI诊断法
 type: tool
@@ -29,6 +30,8 @@ related:
 - "[[tool-月白-口喷式设计工作流]]"
 - "[[tool-月白-基于白底图做动作延展]]"
 - "[[tool-strategy-customer-selection]]"
+---
+
 # 技能：后台数据AI诊断法
 
 ## 原始表述

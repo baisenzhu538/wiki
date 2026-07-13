@@ -1,3 +1,4 @@
+---
 id: tool-讲香十指模型-超级武器库
 title: 讲香十指模型：超级武器库——表达力的十种武器
 type: tool
@@ -22,6 +23,8 @@ related:
 - tool-ai-prd-for-ai
 - concept-X型Y型决策习惯
 updated_at: '2026-06-29'
+---
+
 # 讲香十指模型：超级武器库
 
 ## 一句话定义

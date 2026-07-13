@@ -1,6 +1,5 @@
 ---
-
-
+id: tool-yitang-practice-20hour-starter
 related:
   - "[[framework-yitang-deliberate-practice-1plus4]]"
   - "[[framework-yitang-three-ring-ability-focus]]"

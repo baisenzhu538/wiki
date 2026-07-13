@@ -1,6 +1,5 @@
 ---
-
-
+id: tool-一堂-business-prediction-15-char
 related:
   - "[[tool-一堂-spectrum-positioning]]"
   - "[[pending_unknown]]"

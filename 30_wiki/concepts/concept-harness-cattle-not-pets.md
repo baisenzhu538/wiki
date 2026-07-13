@@ -1,3 +1,4 @@
+---
 id: concept-harness-cattle-not-pets
 title: 牲口而非宠物：每次迭代用全新Generator实例
 type: concept
@@ -24,6 +25,8 @@ related:
 - business-research-skill-oscar-13-weapon-system
 - tool-yitang-amazon-bestseller
 updated_at: '2026-06-29'
+---
+
 # 牲口而非宠物
 
 > 传统模式：一个Agent实例持续运行，不断修改自己的代码——久而久之，Agent会对自己的代码产生"情感依附"，舍不得删、不敢大改。牲口模式：每轮迭代起全新Generator实例，从checkpoint重建状态，无历史包袱。

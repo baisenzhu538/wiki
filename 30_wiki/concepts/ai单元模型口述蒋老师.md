@@ -1,6 +1,5 @@
 ---
-
-
+id: ai单元模型口述蒋老师
 related:
   - "[[yt-unit-model-overview]]"
   - "[[yt-unit-model-construction]]"

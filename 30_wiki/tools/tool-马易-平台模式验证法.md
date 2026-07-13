@@ -1,10 +1,11 @@
+---
 id: tool-马易-平台模式验证法
 title: 技能：平台模式验证法
 type: tool
 domain:
 - ai-collaboration
 - yitang
-    - ai-saas
+  - ai-saas
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
@@ -30,6 +31,8 @@ related:
   - tool-马易-AIGC项目ROI评估
   - yt-panproduct-demand-user-perspective
   - tool-yitang-ai-report-drafting
+---
+
 # 技能：平台模式验证法
 
 ## 原始表述

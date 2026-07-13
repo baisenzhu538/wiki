@@ -1,3 +1,4 @@
+---
 id: framework-strategy-kai-innovation-directions
 title: 凯纳创新方向分类框架
 type: framework
@@ -24,6 +25,8 @@ related:
 - '[[framework-yitang-six-layer-cross-validation]]'
 - concept-yitang-research-objective
 - tool-yitang-research-exhaust-means
+---
+
 # 凯纳创新方向分类框架
 
 > 企业创新不是一句口号，而是发生在三个不同层面的系统性工程。凯纳咨询将该框架用于帮助企业识别创新切入点：产品/服务与市场创新、业务模式创新、运营创新。

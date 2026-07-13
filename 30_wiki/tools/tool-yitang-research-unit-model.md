@@ -1,3 +1,4 @@
+---
 id: tool-yitang-research-unit-model
 title: 单元模型：找到业务最小单元的经济密码
 type: tool
@@ -44,6 +45,7 @@ related:
 - "[[tool-yitang-public-sentiment-research]]"
 - "[[tool-yitang-research-quantitative-modeling]]"
 - "[[tool-yitang-weapon-public-official-info]]"
+---
 
 # 单元模型：找到业务最小单元的经济密码
 

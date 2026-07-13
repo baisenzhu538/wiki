@@ -1,6 +1,5 @@
 ---
-
-
+id: dk-modeling-business-visual-logic-match
 related:
   - "[[dk-yb25-solution-driven-visual-design]]"
   - "[[dk-yb22-visual-presentation-scene-match]]"

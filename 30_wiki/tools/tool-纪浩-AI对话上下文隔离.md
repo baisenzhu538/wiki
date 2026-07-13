@@ -1,6 +1,5 @@
 ---
-
-
+id: tool-纪浩-AI对话上下文隔离
 related:
   - "[[tool-纪浩-AI工作空间与导诊台设计法]]"
   - "[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]"

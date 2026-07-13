@@ -1,3 +1,4 @@
+---
 id: tool-yitang-consulting-business-research
 title: 咨询类业务调研手段：浅中深三层10大评估法
 type: tool
@@ -39,6 +40,8 @@ related:
 - '[[tool-yitang-consumer-goods-research]]'
 - framework-yitang-six-layer-cross-validation
 - concept-yitang-research-objective
+---
+
 # 咨询类业务调研手段：浅中深三层10大评估法
 
 > **一句话**：想做咨询，先摸清六个关键决策——赛道选哪个、服务卖什么、客户是谁、怎么定价、怎么获客转化、怎么交付履约。

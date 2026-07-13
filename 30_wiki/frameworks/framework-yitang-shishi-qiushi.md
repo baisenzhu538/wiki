@@ -1,3 +1,4 @@
+---
 id: framework-yitang-shishi-qiushi
 title: 实事求是：把「我希望是真的」和「事实是什么」分开
 type: framework
@@ -35,6 +36,7 @@ related:
 - '[[framework-yitang-y-model-cross-domain-fusion]]'
 created_at: 2026-07-03
 updated_at: '2026-07-04'
+---
 
 # 实事求是：把「我希望是真的」和「事实是什么」分开
 

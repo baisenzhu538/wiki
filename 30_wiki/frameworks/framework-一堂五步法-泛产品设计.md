@@ -1,3 +1,4 @@
+---
 id: framework-一堂五步法-泛产品设计
 title: 一堂五步法在泛产品设计中的应用
 type: framework
@@ -51,6 +52,8 @@ related:
   - case-yitang-Y-model-advertising-turnaround
   - framework-yitang-y-model-cross-domain-fusion
   - agent-spec-yitang-Y-model-cross-domain-coach
+---
+
 # 一堂五步法在泛产品设计中的应用
 
 ## 一句话

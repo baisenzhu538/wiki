@@ -1,3 +1,4 @@
+---
 id: tool-demand-assessment-triangle
 title: 需求评估三角形：普遍性×频次×刚性
 type: tool
@@ -28,6 +29,8 @@ related:
 - yt-market-size-estimation
 - proposal-prompt-injection-infrastructure
 updated_at: '2026-06-29'
+---
+
 # 需求评估三角形
 
 > L6产出机会卡片后，用评估三角形做Go/No-Go判断。三个维度相乘：普遍性×频次×刚性=需求强度。

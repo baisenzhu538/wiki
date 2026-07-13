@@ -1,3 +1,4 @@
+---
 id: framework-yihang-AI-native-dual-triangle-kernel
 title: AI 原生是结果，双三角是引擎
 type: framework
@@ -22,6 +23,7 @@ related:
 - "[[method-yitang-y-model-engine-cycle]]"
 - "[[dk-ai-collaboration-degradation-spiral]]"
 - "[[framework-yihang-ai-implementation-consultant]]"
+---
 
 # AI 原生是结果，双三角是引擎
 

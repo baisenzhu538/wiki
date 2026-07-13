@@ -1,6 +1,5 @@
 ---
-
-
+id: yt-customer-acquisition-toolkit
 related:
   - "[[yt-growth-cycle-model]]"
   - "[[yt-unit-model-three-tools]]"

@@ -1,3 +1,4 @@
+---
 id: tool-马易-知识库-回答技巧双建设
 title: 技能：知识库+回答技巧双建设
 type: tool
@@ -22,6 +23,8 @@ related:
   - tool-马易-数字员工FD拆解落地
   - tool-马易-公寓获客自跑通原则
   - tool-yitang-bp-analysis
+---
+
 # 技能：知识库+回答技巧双建设
 
 ## 原始表述

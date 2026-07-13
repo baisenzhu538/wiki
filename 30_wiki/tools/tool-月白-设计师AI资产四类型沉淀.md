@@ -1,3 +1,4 @@
+---
 id: tool-月白-设计师AI资产四类型沉淀
 title: 技能：设计师AI资产四类型沉淀
 type: tool
@@ -29,6 +30,8 @@ related:
 - "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
 - "[[tool-月白-三步作业反馈法]]"
 - "[[tool-asset-file-naming-convention]]"
+---
+
 # 技能：设计师AI资产四类型沉淀
 
 ## 原始表述

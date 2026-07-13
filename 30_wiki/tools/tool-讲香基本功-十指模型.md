@@ -1,3 +1,4 @@
+---
 id: tool-讲香基本功-十指模型
 title: 讲香基本功：十指模型修炼地图
 type: tool
@@ -22,6 +23,8 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'
+---
+
 # 讲香基本功：十指模型修炼地图
 
 ## 一句话定义

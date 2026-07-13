@@ -1,5 +1,5 @@
 ---
-
+id: 诊所o2o外卖平台业务深度调研报告
 related:
   - "[[yt-panproduct-demand-project-background]]"
   - "[[pending_unknown]]"

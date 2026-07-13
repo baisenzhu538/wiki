@@ -1,3 +1,4 @@
+---
 id: case-yitang-model-valuation-flywheel
 title: 案例：一堂内部给模型"定价"——从 5000 元到 10 万美金的价值飞轮
 type: case
@@ -49,6 +50,8 @@ related:
 - '[[case-yitang-weekly-modeling-engine]]'
 - case-essence-entrepreneurship
 - case-decision-ai-assisted-vs-human
+---
+
 # 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
 
 ## 原始表述

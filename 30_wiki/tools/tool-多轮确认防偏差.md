@@ -1,9 +1,10 @@
+---
 id: tool-多轮确认防偏差
 title: 技能：多轮确认防偏差
 type: tool
 domain:
 - learning-methodology
-    - ai-saas
+  - ai-saas
 - yitang
 status: draft
 source_person: Truman
@@ -43,6 +44,8 @@ related:
 - '[[tool-模型匹配调度]]'
 - '[[tool-模型组合调用]]'
 - tool-ai-prd-for-ai
+---
+
 # 技能：多轮确认防偏差
 
 ## 原始表述

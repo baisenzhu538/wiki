@@ -1,3 +1,4 @@
+---
 id: tool-demand-rat-generator
 title: RAT生成器：从L5洞察自动生成最危险假设清单
 type: tool
@@ -34,6 +35,7 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - insight
+---
 
 # RAT生成器：从L5洞察自动生成最危险假设清单
 

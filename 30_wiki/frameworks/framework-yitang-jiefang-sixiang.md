@@ -1,3 +1,4 @@
+---
 id: framework-yitang-jiefang-sixiang
 title: 解放思想：不被行业常识和既有框架绑架
 type: framework
@@ -35,6 +36,7 @@ related:
 - '[[framework-yitang-y-model-cross-domain-fusion]]'
 created_at: 2026-07-03
 updated_at: '2026-07-04'
+---
 
 # 解放思想：不被行业常识和既有框架绑架
 
