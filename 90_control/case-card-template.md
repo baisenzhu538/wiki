@@ -67,7 +67,7 @@ updated_at: YYYY-MM-DD
 
 ## 关联
 - 技能：[[skill-xxx]] — {这个案例可以配合什么技能}
-- 概念：[[concept-xxx]] — {背后的理论}
+- 概念：`[[concept-xxx]]` — {背后的理论}
 - 案例：`[[case-xxx]]` — {类似的案例}
 
 ## 来源

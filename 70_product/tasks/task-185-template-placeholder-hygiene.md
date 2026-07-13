@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-template-placeholder-hygiene
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-07-13T15:33:53.573030+00:00'
+status: pending_review
+updated_at: '2026-07-13T15:45:22.115010+00:00'
 ---
 
 # Task #185 · 模板占位符卫生（图谱灰白点治理）

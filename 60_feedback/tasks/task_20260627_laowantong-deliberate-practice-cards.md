@@ -288,7 +288,7 @@ reviewed_by: pending
 source_refs:
   - <具体文件路径>
 related:
-  - '[[xxx]]'
+  - '`[[xxx]]`'
   - ...
 ---
 ```

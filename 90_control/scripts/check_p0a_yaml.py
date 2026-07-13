@@ -60,7 +60,7 @@ def find_card_path(cid):
 
 
 def extract_wikilinks(text):
-    # 匹配 [[id]] 和 [[id|alias]]
+    # 匹配 `[[id]]` 和 [[id|alias]]
     return re.findall(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", text)
 
 

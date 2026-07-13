@@ -1080,7 +1080,7 @@ updated_at: "2026-06-15"
 
 ## 关联
 - 技能：[[skill-xxx]]
-- 概念：[[concept-xxx]]
+- 概念：`[[concept-xxx]]`
 - 案例：`[[case-xxx]]`
 
 ## 来源

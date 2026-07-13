@@ -1,29 +1,29 @@
-É¨ÃèÎÄ¼şÊı: 2103
-×Ü wikilink Êı: 37126
-ËÀÁ´Êı: 10
-ËÀÁ´ÂÊ: 0.03%
-Éæ¼°ÎÄ¼şÊı: 4
+É¨ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½: 2103
+ï¿½ï¿½ wikilink ï¿½ï¿½: 37126
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 10
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: 0.03%
+ï¿½æ¼°ï¿½Ä¼ï¿½ï¿½ï¿½: 4
 ======================================================================
 
-ËÀÁ´×î¶àµÄ 20 ¸öÎÄ¼ş£º
-  index: 5 ¸öËÀÁ´
-    - [[test]] -> Ä¿±ê²»´æÔÚ: test
-    - [[wikilink]] -> Ä¿±ê²»´æÔÚ: wikilink
-    - [[concept-yt-entrepreneur-key-hypotheses]] -> Ä¿±ê²»´æÔÚ: concept-yt-entrepreneur-key-hypotheses
-    - [[concept-yt-entrepreneur-lean-validation]] -> Ä¿±ê²»´æÔÚ: concept-yt-entrepreneur-lean-validation
-    - [[concepts/bad/link.md]] -> Ä¿±ê²»´æÔÚ: link
-  case-lean-zhanglei-hypothesis-validation: 2 ¸öËÀÁ´
-    - [[concept-yt-entrepreneur-lean-validation]] -> Ä¿±ê²»´æÔÚ: concept-yt-entrepreneur-lean-validation
-    - [[concept-yt-entrepreneur-key-hypotheses]] -> Ä¿±ê²»´æÔÚ: concept-yt-entrepreneur-key-hypotheses
-  plan_20260621_domain-index-infrastructure: 2 ¸öËÀÁ´
-    - [[check-source-refs.py]] -> Ä¿±ê²»´æÔÚ: check-source-refs.py
-    - [[track-production-progress.py]] -> Ä¿±ê²»´æÔÚ: track-production-progress.py
-  _test_backslash: 1 ¸öËÀÁ´
-    - [[concepts\bad\link.md]] -> Ä¿±ê²»´æÔÚ: concepts\bad\link
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 20 ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½
+  index: 5 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    - [[test]] -> Ä¿ï¿½ê²»ï¿½ï¿½ï¿½ï¿½: test
+    - `[[wikilink]]` -> Ä¿ï¿½ê²»ï¿½ï¿½ï¿½ï¿½: wikilink
+    - [[concept-yt-entrepreneur-key-hypotheses]] -> Ä¿ï¿½ê²»ï¿½ï¿½ï¿½ï¿½: concept-yt-entrepreneur-key-hypotheses
+    - [[concept-yt-entrepreneur-lean-validation]] -> Ä¿ï¿½ê²»ï¿½ï¿½ï¿½ï¿½: concept-yt-entrepreneur-lean-validation
+    - [[concepts/bad/link.md]] -> Ä¿ï¿½ê²»ï¿½ï¿½ï¿½ï¿½: link
+  case-lean-zhanglei-hypothesis-validation: 2 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    - [[concept-yt-entrepreneur-lean-validation]] -> Ä¿ï¿½ê²»ï¿½ï¿½ï¿½ï¿½: concept-yt-entrepreneur-lean-validation
+    - [[concept-yt-entrepreneur-key-hypotheses]] -> Ä¿ï¿½ê²»ï¿½ï¿½ï¿½ï¿½: concept-yt-entrepreneur-key-hypotheses
+  plan_20260621_domain-index-infrastructure: 2 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    - [[check-source-refs.py]] -> Ä¿ï¿½ê²»ï¿½ï¿½ï¿½ï¿½: check-source-refs.py
+    - [[track-production-progress.py]] -> Ä¿ï¿½ê²»ï¿½ï¿½ï¿½ï¿½: track-production-progress.py
+  _test_backslash: 1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    - [[concepts\bad\link.md]] -> Ä¿ï¿½ê²»ï¿½ï¿½ï¿½ï¿½: concepts\bad\link
 
-index.md ËÀÁ´ÏêÇé£¨¹² 5 ¸ö£©£º
+index.md ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¨ï¿½ï¿½ 5 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   - [[test]] -> test
-  - [[wikilink]] -> wikilink
+  - `[[wikilink]]` -> wikilink
   - [[concept-yt-entrepreneur-key-hypotheses]] -> concept-yt-entrepreneur-key-hypotheses
   - [[concept-yt-entrepreneur-lean-validation]] -> concept-yt-entrepreneur-lean-validation
   - [[concepts/bad/link.md]] -> link

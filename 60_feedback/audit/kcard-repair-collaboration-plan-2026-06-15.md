@@ -25,7 +25,7 @@
 |---|---|---|
 | draft/proposed 卡 source_refs 为空 | 大量 | 可在提升状态前补充 |
 | author=legacy（draft 状态） | 约 700 | 需要逐步替换为真实作者 |
-| dangling 链接 | 中量 | related/[[...]] 指向不存在卡片 |
+| dangling 链接 | 中量 | related/`[[...]]` 指向不存在卡片 |
 | confidence/trust 不匹配 | 少量 | 需人工复核 |
 
 ---

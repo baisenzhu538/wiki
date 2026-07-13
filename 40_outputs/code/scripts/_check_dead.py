@@ -5,7 +5,7 @@ wiki = Path(r"C:\Users\Administrator\Desktop\wiki\30_wiki")
 index = wiki / "index.md"
 text = index.read_text(encoding="utf-8")
 
-# Extract all wikilinks: [[path|display]] or [[id]] or [text](path)
+# Extract all wikilinks: [[path|display]] or `[[id]]` or [text](path)
 wikilinks = re.findall(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]', text)
 mdlinks = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', text)
 

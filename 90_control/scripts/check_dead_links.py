@@ -22,7 +22,7 @@ for root, dirs, files in os.walk(VAULT_ROOT):
 
 
 def extract_wikilinks(text):
-    # [[id]] 或 [[id|alias]] 或 [[path/id|alias]]
+    # `[[id]]` 或 [[id|alias]] 或 [[path/id|alias]]
     return re.findall(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", text)
 
 

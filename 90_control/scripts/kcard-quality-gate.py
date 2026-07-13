@@ -58,7 +58,7 @@ def count_source_refs(fm):
 
 
 def extract_wikilinks(text):
-    """提取 [[...]] 链接"""
+    """提取 `[[...]]` 链接"""
     return re.findall(r"\[\[([^\]]+)\]\]", text)
 
 

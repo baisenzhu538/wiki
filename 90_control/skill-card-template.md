@@ -82,7 +82,7 @@ updated_at: YYYY-MM-DD
 
 ## 关联技能
 - [[skill-xxx]] — {关系说明}
-- [[concept-xxx]] — {关系说明}
+- `[[concept-xxx]]` — {关系说明}
 
 ## 来源
 - {谁}，{场合}，{日期}
