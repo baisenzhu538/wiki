@@ -1,8 +1,8 @@
 ---
 id: task_20260712_wangyuyan-d-domain-p2-cases-batch1
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-13T12:28:07.575667+00:00'
+status: pending_review
+updated_at: '2026-07-13T13:27:38.807863+00:00'
 ---
 # Task #171 · D 域 P2 案例族第一批 ~14 卡（不阻塞部分）
 
@@ -51,3 +51,43 @@ updated_at: '2026-07-13T12:28:07.575667+00:00'
 
 ## 扫窗申报
 建卡清单 + 其他触及文件 + 引用残缺 PDF 的疑点（若有）
+
+---
+
+## 执行报告（老顽童 kimi · 2026-07-13 · 提交 pending_review）
+
+### 交付清单：16 卡全做
+
+- 旗舰 3 卡：`case-一堂-作业率20到50` / `case-一堂-我请客推荐率5到40` / `case-一堂-入职率50到80-100`
+- 组合篇贯穿 3 卡：`case-一堂-教研加微信率40到100` / `case-一堂-全会员出圈率1.5翻倍` / `case-一堂-棋牌室办卡率1到5`
+- 独立案例 4 卡：`case-一堂-晓莉学而思引流课` / `case-一堂-跆拳道黑带卡` / `case-一堂-六杯奶茶推荐率近100` / `case-一堂-视频号加微信率44到85`
+- 案例库/合集/实践 6 卡：`case-一堂-动力篇案例库` / `case-一堂-阻力篇案例库` / `case-一堂-触点篇案例库` / `case-一堂-组合篇案例库` / `case-一堂-优秀案例逐字稿合集` / `case-一堂-一堂自身转化实践`
+
+全部在 `30_wiki/cases/` 下，结构按 C 域成熟案例卡格式（背景/拆解/关键假设/结果/方法论锚点/段位/关键证据/可迁移场景/教训/失败模式/Related）。
+
+### 验收点对照
+
+- **卡 16 张齐全**：glob 坐实 16/16 存在。
+- **pre-submit**：`kdo pre-submit -f 16 卡` → 16/16 PASS，0 Failed。
+- **D 域 lint**：`kdo lint --domain conversion-rate --summary` → **0 new error，34 new warning**。34 条 warning 全部为 `source_refs` 行号锚点误报（lint 把 `文件.txt Lxxx-Lyyy` 整体当路径校验），属工具已知 false positive；#170 工具卡同类型 3 条已存在，本批新增 31 条来自 16 张 case 卡的高密度 source_refs。
+- **related 双向闭合**：D 域内 25 个目标卡（digest/13 骨架卡/11 工具卡）已追加 16 张新卡回链；跨域引用型单向未反向（business-formula-domain-digest / C 域旧 case-yitang-woqingke-referral-15-to-40）。
+- **index 登记**：`30_wiki/index.md` 按码点排序插入 16 条，grep 16/16 命中。
+- **数字口径**：全部标注「课程案例口径」并带来源行号；我请客礼品「毛选套装/冒险套装」两版 ASR 矛盾已存疑标注；未引用 §五 残缺 PDF 缺失内容。
+- **失败/证伪假设**：16/16 卡每卡 ≥1 个失败/证伪/存疑假设。
+
+### 协议 2 时间戳扫窗自查
+
+- 扫窗命令：`find 30_wiki 70_product -name "*.md" -mmin -240`
+- 窗口内实动 71 文件；#171 实动集 = 16 新卡 + `conversion-rate-domain-digest.md` + `30_wiki/index.md` + 25 张 D 域骨架/工具卡反向 related 更新 = **43 文件**。
+- 窗口内其余 28 文件可归因：#175/#176/#178/#182 等并行任务/其他 agent 改动（如 `case-yitang-yai-*` / `method-一堂-教练对话引擎协议.md` / `tool-opc-sales-dialogue-assistant.md` / `production-queue.md` 等），非 #171 触碰。
+
+### 主动申报
+
+1. **25 张 D 域既有卡 related 追加 16 张新卡回链**：只追加 related，未动 status/正文/updated_at 之外的字段。
+2. **`conversion-rate-domain-digest.md` 正文改动 2 处**：① related 追加 16 条；② P2 案例族导航从「待建」改为「已交付」并列出 16 个 wikilink。
+3. **`30_wiki/index.md` 登记 16 条**：按码点排序插入 case-一堂- 区域，更新 `_Last updated_` 时间戳。
+4. **晓莉案例素材**：使用 `_vlm_output/晓莉案例/` 下 8 个 VLM 文件；素材中 5000 元意向金/4 次引流课等数字已按课程口径标注。
+5. **残缺 PDF 未引用**：优秀案例逐字稿合集中明确标注《优秀触点案例合集》《小米发布会拆解练习》《优秀转化率复盘合集》3 个 PDF 待 #173 回源，不编造缺失内容。
+
+*老顽童（kimi）2026-07-13 · 16 卡全闭环，静候王语嫣/欧阳锋审*
+
