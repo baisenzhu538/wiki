@@ -1,8 +1,11 @@
 ---
 id: task_20260712_wangyuyan-c-domain-scan-fix-structure
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-07-13T10:11:14+00:00'
+status: reviewed
+updated_at: '2026-07-13T10:40:07.269458+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-13'
+grade: A-
 ---
 # Task #175 · C 域查漏修复第一批（结构层：索引/裁定/勘误）
 
@@ -69,10 +72,39 @@ updated_at: '2026-07-13T10:11:14+00:00'
 - `30_wiki/concept-card-index-latest.md` — ROI/Y修正
 - `30_wiki/cases/case-yitang-coke-spill-compensation.md` — ROI/Y修正
 - `30_wiki/cases/case-yitang-marathon-ten-seasons.md` — 双口径注
-- `30_wiki/dark-knowledges/dk-yitang-business-formula-plus-times-trap.md` — 术语映射
+- `30_wiki/dark-knowledges/dk-yitang-business-formula-pseudo-causality-two-masks.md` — 术语映射（修正：plus-times-trap 不是伪因果卡，映射落在 #165 伪因果卡）
 - `30_wiki/concepts/concept-一堂-相关不等于因果.md` — 因果口径声明
 - `60_feedback/diagnosis/c-domain-business-formula-2026-07-12.md` — 勘误表§九
 
 ### 预检
 - pre-submit: 待跑
 - 扫窗: 实动8文件，申报=实动
+
+---
+
+## 终审记录（欧阳锋 · 2026-07-13 · 结论：PASS / A-）
+
+| 验收项 | 复验方法 | 结果 |
+|:---|:---|:---|
+| 1. 6 孤儿卡接入 digest | grep related + yaml.safe_load | 6 卡均在 `business-formula-domain-digest.md` related 中 ✅ |
+| 1. 6 孤儿卡接入 index | grep `30_wiki/index.md` | 6 卡均已登 ✅ |
+| 2. digest 归属修正 | 读五篇课程脉络表 | 双目标法/三类目标已归管理篇 ✅ |
+| 3a. 马拉松双口径注 | grep `case-yitang-marathon-ten-seasons.md` | 裁定 #1 注在 L57/L91 ✅ |
+| 3b. dk 伪因果术语映射 | grep `dk-yitang-business-formula-pseudo-causality-two-masks.md` | 术语映射（裁定 #3）在 `> **一句话**` 之前，锚点确认 ✅ |
+| 3c. 因果口径声明 | grep `concept-一堂-相关不等于因果.md` | 口径声明（裁定 #4）在 L58 ✅ |
+| 5. Y 模型表述修正 | 全库 grep `ROI/Y`/`Y/ROI` | 归零；digest L115 / coke-spill 标题正文 / index / concept-card-index 已改 ✅ |
+| 6. 勘误表补录 | 读 `c-domain-business-formula-2026-07-12.md` §九 | 系统性误识清单 + 双版本行号约定已补 ✅ |
+| 移交项 4/7 | 任务单申报 | 3 原图复核 + 6 老卡数字复核已移交老顽童 ✅ |
+| 文件 YAML 合法 | yaml.safe_load 全过 | 5 张改动卡 + digest 全过 ✅ |
+| 门禁 | `kdo lint --summary` | 0 new error；2 warning 为 digest source_refs 行号锚点 false positive ✅ |
+| 扫窗申报=实动集 | 清单核对 | 8 文件，申报一致 ✅ |
+
+**A- 而非 A 的理由**：首次提交时 3b 落在错误的卡（plus-times-trap）且 apply 脚本静默失败，欧阳锋一审查出后返工。返工后质量干净，但过程暴露「批量脚本 → 不逐条验证」的模式病，扣 A 作为纪律代价。
+
+**终审操作**：
+- 已通过 `queue_transition.py review task_20260712_wangyuyan-c-domain-scan-fix-structure --verdict pass --reviewer 欧阳锋 --grade A-` 更新队列与任务单状态；
+- 队列状态：`待领取 12 / 审查中 0 / 进行中 1 / 已完成 168`。
+
+**纪律提醒**：以后任何 batch apply 脚本，跑完后必须逐条 grep/读卡验证落地，不能再信「脚本说它做了」。
+
+*欧阳锋 2026-07-13 · #175 终审释放*

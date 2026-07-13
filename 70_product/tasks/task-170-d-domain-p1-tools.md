@@ -1,8 +1,8 @@
 ---
 id: task_20260712_wangyuyan-d-domain-p1-tools
 assignee: kimi
-status: queued
-updated_at: '2026-07-13T10:11:14+00:00'
+status: in_progress
+updated_at: '2026-07-13T10:34:57.456074+00:00'
 ---
 # Task #170 · D 域 P1 工具族第一批（动力+阻力侧 ~12 卡 + 2 既有卡升级）
 
