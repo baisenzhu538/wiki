@@ -393,6 +393,10 @@ _Last updated: 2026-07-13T12:56:15+00:00_
 - [[cases/case-一堂-触点篇案例库|一堂转化率黑客触点篇案例索引库（SABC 分级与触点挖掘）]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L238-L376`
 - [[cases/case-一堂-跆拳道黑带卡|跆拳道黑带卡从1.0平铺卖点到4.0影响力六连招，8.8万课包话术进化链]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L808-L856`
 - [[cases/case-一堂-阻力篇案例库|一堂转化率黑客阻力篇案例索引库（12 种阻力消除）]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L156-L186`
+- [[cases/case-一堂-优秀触点案例合集|优秀触点案例合集：射箭办卡率、黄金推荐率、烘焙触点分析三案例索引]] — source `00_inbox/Handle the business/conversion rate/优秀触点案例合集_逐字稿.md L17-L122`
+- [[cases/case-一堂-小米发布会拆解|小米汽车发布会拆解：用动力/阻力/触点框架解析一场标杆产品发布会]] — source `00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p001.txt L1-L32`
+- [[cases/case-一堂-优秀转化率复盘合集|一堂优秀转化率复盘合集索引：8 位学员案例的内容可用性边界]] — source `00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt L1-L23`
+- [[cases/case-一堂-邹韵涛-中小企业高级管理辅导班专题培训会|邹韵涛：政府出资的中小企业高管封闭培训会，106 人报名、50 人实到、满意度 100%]] — source `00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt L1-L23`
 - [[cases/case-半肥猫-course-to-skill|案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具]] — source `10_raw/sources/src_20260617_2b8a01ce-ai俱乐部-ai学习落地-半肥猫-口述.txt`
 - [[cases/case-婚礼操盘-用户和场景|案例：婚礼操盘——用户和场景分析]] — source `src_unknown`
 - [[cases/case-婚礼规划|案例：婚礼规划——完整决策流程]] — source `婚礼行业一线策划师访谈与多场真实婚礼复盘`
