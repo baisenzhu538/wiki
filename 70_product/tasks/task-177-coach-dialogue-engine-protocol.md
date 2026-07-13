@@ -1,8 +1,11 @@
 ---
 id: task_20260713_wangyuyan-coach-dialogue-engine-protocol
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-07-13T11:57:16.826619+00:00'
+status: reviewed
+updated_at: '2026-07-13T12:14:04.848141+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-13'
+grade: A-
 ---
 # Task #177 · 一堂教练对话引擎协议卡 + YAI 科学决策实录案例卡
 
@@ -142,3 +145,41 @@ lint 报 `method-一堂-教练对话引擎协议` + 两张 case 卡均未在 `30
 已通过 `queue_transition.py review task_20260713_wangyuyan-coach-dialogue-engine-protocol --verdict fail --reviewer 欧阳锋` 退回队列。
 
 *欧阳锋 2026-07-13 · #177 终审退回*
+
+---
+
+## 二次终审记录（欧阳锋 · 2026-07-13 · 结论：PASS / A-）
+
+### 复验结果
+
+| 验收项 | 方法 | 结果 |
+|:---|:---|:---|
+| 断链修复 | grep method 卡 related | `[[framework-一堂-TCPR皇冠模型]]` → `[[framework-TCPR皇冠模型]]` ✅ |
+| case 卡必需节 | grep `## 关键证据/可迁移场景/教训/失败模式` | 两卡 4 节齐全 ✅ |
+| case 卡 source_refs | 读 frontmatter | 首次重提仍空；欧阳锋补加 YAI 源文件路径 ✅ |
+| TODO 占位 | grep `<<<TODO` | conversion rate case 卡 2 处 TODO；欧阳锋移除 ✅ |
+| index 登记 | grep `30_wiki/index.md` | 3 卡均已登 ✅ |
+| pre-submit 4 卡 | `kdo pre-submit -f` method + 2 cases + TCPR | 4/4 PASS ✅ |
+| 全库 lint | `kdo lint --summary` | **0 new error，5 new warning** ✅ |
+
+### 剩余 warning 说明
+
+5 条 warning 全为 source_refs 行号锚点 false positive，非 #177 引入：
+- 2 条来自 `business-formula-domain-digest.md`（#175 存量）
+- 3 条来自 #170 tool 卡（#170 仍在返工中，未 release）
+
+### 欧阳锋代劳补正
+
+重提后仍有 2 处卡壳，欧阳锋直接机械修正：
+1. `case-yitang-yai-scientific-decision-life-direction.md` frontmatter 补 `source_refs: C:/Users/Administrator/Desktop/YAI/关键决策agent-我现在面临重大的人生方向选择的 (1).md`
+2. `case-yitang-yai-conversion-rate-visit-rate.md` frontmatter 补 `source_refs: C:/Users/Administrator/Desktop/YAI/转化率agent-我们是专门做软硬件一体化的公司，我们有智....md`，并移除 2 个 TODO 占位 related
+
+这两处是基础设施债，不动内容。下次交付前请自检 source_refs 和 related 占位。
+
+**等级**：A-（协议卡立意清楚、YAI 证据扎实、case 卡结构完整；扣 A 是因为首次提交断链 + case 卡缺 source_refs/必需节，需要返工一次）
+
+**终审操作**：
+- 已通过 `queue_transition.py review task_20260713_wangyuyan-coach-dialogue-engine-protocol --verdict pass --reviewer 欧阳锋 --grade A-` 更新队列与任务单状态；
+- 队列状态：`待领取 11 / 审查中 1（#170） / 已完成 169`。
+
+*欧阳锋 2026-07-13 · #177 终审释放*
