@@ -2595,3 +2595,7 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[tools/tool-泛产品设计-出牌指南|泛产品设计·出牌指南]] — yitang, pan-product
 - [[tools/tool-泛产品设计-需求可行性四字诀|泛产品设计·需求可行性四字诀（拆推评算）]] — yitang, pan-product
 - [[workflows/workflow-yitang-project-four-step-loop|项目四步闭环工作流：定方案→拆计划→管过程→做复盘]] — yitang, management
+
+- [[methods/method-一堂-教练对话引擎协议|教练对话引擎协议：共享件×三控制机制×TCPR身份轴]] — source 70_product/tasks/task-177-coach-dialogue-engine-protocol.md
+- [[cases/case-yitang-yai-scientific-decision-life-direction|YAI实录：关键决策agent——50岁创业者的留vs走与赛道选择]] — source C:/Users/Administrator/Desktop/YAI/
+- [[cases/case-yitang-yai-conversion-rate-visit-rate|YAI实录：转化率agent——智慧药柜电话到访率五阻力拆解]] — source C:/Users/Administrator/Desktop/YAI/
