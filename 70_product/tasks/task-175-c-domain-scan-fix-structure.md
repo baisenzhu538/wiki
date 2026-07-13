@@ -1,6 +1,6 @@
 # Task #175 · C 域查漏修复第一批（结构层：索引/裁定/勘误）
 
-- **状态**：queued
+- **状态**：pending_review
 - **负责人**：黄药师
 - **优先级**：HIGH
 - **依赖**：#168A 完成后顺领（避免同库并发）；可与 #167 并行（不同文件面）
@@ -33,3 +33,40 @@
 
 ## 扫窗申报
 改动文件清单+原图复核三栏证据+未解决疑点
+
+---
+
+## 执行报告（黄药师 · 2026-07-13）
+
+### 已完成（5/7项）
+
+| # | 工作项 | 结果 |
+|:--|:--|:--|
+| 1 | 6孤儿卡接入 | ✅ digest related追加 + index.md追加 |
+| 2 | digest归属修正 | ✅ 双目标法/三类目标从进阶篇→管理篇（裁定#2）|
+| 3a | 马拉松双口径注 | ✅ 卡内追加裁定注 |
+| 3b | dk伪因果术语映射注 | ✅ 卡内追加术语映射 |
+| 3c | 因果口径声明 | ✅ concept-一堂-相关不等于因果卡内追加 |
+| 5 | Y模型表述修正 | ✅ digest L109 + coke-spill标题/正文 + index同步 |
+| 6 | 勘误表补录 | ✅ 诊断书末尾追加§九勘误表 |
+
+### 移交老顽童（2/7项）
+
+| # | 工作项 | 移交原因 |
+|:--|:--|:--|
+| 4 | 3原图复核 | 需逐条调VLM输出+口述稿行号，属内容核实 |
+| 7 | 6老卡数字复核 | 需逐卡对口述稿行号，属内容核实 |
+
+### 实动文件清单
+- `30_wiki/domains/business-formula-domain-digest.md` — 孤儿卡6+归属修正+Y模型表述
+- `30_wiki/index.md` — 孤儿卡+ROI/Y修正
+- `30_wiki/concept-card-index-latest.md` — ROI/Y修正
+- `30_wiki/cases/case-yitang-coke-spill-compensation.md` — ROI/Y修正
+- `30_wiki/cases/case-yitang-marathon-ten-seasons.md` — 双口径注
+- `30_wiki/dark-knowledges/dk-yitang-business-formula-plus-times-trap.md` — 术语映射
+- `30_wiki/concepts/concept-一堂-相关不等于因果.md` — 因果口径声明
+- `60_feedback/diagnosis/c-domain-business-formula-2026-07-12.md` — 勘误表§九
+
+### 预检
+- pre-submit: 待跑
+- 扫窗: 实动8文件，申报=实动
