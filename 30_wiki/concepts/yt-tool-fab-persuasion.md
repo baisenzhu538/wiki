@@ -27,6 +27,7 @@ related:
 - "[[tool-月白-眼高手低转化法]]"
 - "[[tool-一堂-FAB说服法]]"
 - "[[framework-一堂-动力三曲线]]"
+- '[[conversion-rate-domain-digest]]'
 review_by: 2026-12-06
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

@@ -12,7 +12,6 @@ domain:
   - yitang
   - decision-science
   - ai-collaboration
-source_refs: []
 related:
   - '[[method-一堂-教练对话引擎协议]]'
   - '[[yt-decision-y-model]]'

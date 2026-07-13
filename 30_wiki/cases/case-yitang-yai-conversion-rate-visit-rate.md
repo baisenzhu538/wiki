@@ -12,7 +12,6 @@ domain:
   - yitang
   - ai-collaboration
   - business-formula
-source_refs: []
 related:
   - '[[method-一堂-教练对话引擎协议]]'
   - '[[framework-一堂-关键假设-ABCD模型]]'
