@@ -44,7 +44,7 @@
 | Reusable Knowledge | 4-17条 claims | ✅ 7/7（F1:8条, F2:12条, T1:8条, T2:10条, T3:9条, T4:10条, T5:9条） |
 | Critique | ≥2个 H4 外部攻击者，含具体引用 | ✅ 7/7 |
 | Constraints | ≥1个内部局限 | ✅ 7/7 |
-| Synthesis | ≥2个 [[wikilink]] 到已有卡片 | ✅ 7/7（每张卡均≥3个双向链接） |
+| Synthesis | ≥2个 `[[wikilink]]` 到已有卡片 | ✅ 7/7（每张卡均≥3个双向链接） |
 | Action Triggers | ≥1个结构化触发场景 | ✅ 7/7 |
 | 外部攻击者 | 不同范式，紧迫感 | ✅ 全部来自不同学科范式 |
 | Constraints vs 外部攻击 | 不重叠 | ✅ |

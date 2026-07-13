@@ -952,7 +952,7 @@ yt-entrepreneur-five-step-method 的 related 中加：
 {为什么这条知识不在公开资料里？}
 
 ## 与其他知识的关联
-- [[xxx]] — {关联说明}
+- `[[xxx]]` — {关联说明}
 ```
 
 #### 2.2 frontmatter 模板
@@ -1081,7 +1081,7 @@ updated_at: "2026-06-15"
 ## 关联
 - 技能：[[skill-xxx]]
 - 概念：[[concept-xxx]]
-- 案例：[[case-xxx]]
+- 案例：`[[case-xxx]]`
 
 ## 来源
 - Truman，一堂建模能力培训，2026-06-12
