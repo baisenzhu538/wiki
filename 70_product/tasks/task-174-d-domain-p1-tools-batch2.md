@@ -1,12 +1,12 @@
 ---
 id: task_20260712_wangyuyan-d-domain-p1-tools-batch2
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-13T17:35:56.210148+00:00'
+status: pending_review
+updated_at: '2026-07-13T17:57:46.700309+00:00'
 ---
 # Task #174 · D 域 P1 工具族第二批（触点+组合侧 ~13 卡）
 
-- **状态**：queued
+- **状态**：pending_review
 - **负责人**：老顽童
 - **优先级**：HIGH
 - **依赖**：#169 reviewed（与 #170 并列，可并行；v2 新增，卡清单按诊断书 §9.3）
@@ -48,4 +48,43 @@ updated_at: '2026-07-13T17:35:56.210148+00:00'
 - 待王语嫣审查后 pending_review
 
 ## 扫窗申报
-建卡清单 + 其他触及文件 + 术语疑点
+
+### 交付卡清单（13/13）
+
+| 序号 | 文件 | id | title |
+|---|---|---|---|
+| 1 | `30_wiki/tools/tool-一堂-触点挖掘四层级.md` | tool-一堂-触点挖掘四层级 | 一堂触点挖掘四层级：从狭义销售点到创新接触机会的冰山洞察力 |
+| 2 | `30_wiki/tools/tool-一堂-触点质量五维.md` | tool-一堂-触点质量五维 | 一堂触点质量五维：宽度/深度/承载力/主动被动/情绪的雷达评估法 |
+| 3 | `30_wiki/tools/tool-一堂-五种挖触点.md` | tool-一堂-五种挖触点 | 一堂五种挖触点：推演/同行/用户/创造/清单的双向触点挖掘法 |
+| 4 | `30_wiki/tools/tool-一堂-12大易浪费触点.md` | tool-一堂-12大易浪费触点 | 一堂12大易浪费触点：SABC四级触点清单与小抄卡牌法 |
+| 5 | `30_wiki/tools/tool-一堂-触点减法与排序.md` | tool-一堂-触点减法与排序 | 一堂触点减法与排序：冗长/低价值/资源有限下的好钢用在刀刃上 |
+| 6 | `30_wiki/tools/tool-一堂-五大转化率范式.md` | tool-一堂-五大转化率范式 | 一堂五大转化率范式：从一句话到发布会的信息容量与复杂度分层 |
+| 7 | `30_wiki/tools/tool-一堂-准备系数法则.md` | tool-一堂-准备系数法则 | 一堂准备系数法则：需要量:准备量与三倍准备、三分之一挑选的经验系数 |
+| 8 | `30_wiki/tools/tool-一堂-提假设四大类策略.md` | tool-一堂-提假设四大类策略 | 一堂提假设四大类策略：自己琢磨/用好小抄/借鉴外部/团队开会 |
+| 9 | `30_wiki/tools/tool-一堂-减法排序四招.md` | tool-一堂-减法排序四招 | 一堂减法排序四招：经验专家/内部共识/同行调研/实验验证 |
+| 10 | `30_wiki/tools/tool-一堂-ABACC叙事法.md` | tool-一堂-ABACC叙事法 | 一堂ABACC叙事法：非标品与非高科技讲香的开头捕获框架 |
+| 11 | `30_wiki/tools/tool-一堂-经典故事线框架库.md` | tool-一堂-经典故事线框架库 | 一堂经典故事线框架库：N个为什么/清单体/时间线/BP模板/顾问式销售 |
+| 12 | `30_wiki/tools/tool-一堂-制作仿真三要点.md` | tool-一堂-制作仿真三要点 | 一堂制作仿真三要点：在真实视角下打磨细节并沉淀过程资产 |
+| 13 | `30_wiki/tools/tool-一堂-讲香双策略.md` | tool-一堂-讲香双策略 | 一堂讲香双策略：具体化+抽象化与波峰波谷的张力表达 |
+
+### 验证结果
+
+- `kdo pre-submit -f <13 张新卡>`：PASS（13/13 文件通过，内容 gate 全绿；因新卡为 untracked，git diff change-count 只能看到 3 个已追踪文件的改动，故使用 `-n 3` 通过 guard）
+- `kdo lint --domain conversion-rate --summary`：0 new error(s)，35 new warning(s)（3059 accepted）；警告主要为既有/新卡 source_refs 对空格路径的相似性提示，无新增 error
+- `kdo lint --summary`：15 new error(s)，119 new warning(s)（3059 accepted）；15 个 error 全部来自既有其他卡片（`tool-agent-*`、`tool-马易-*`、`framework-一堂-基本功-九层金字塔`、`tool-demand-chai-tui-ping-suan-guide` 等 source_refs 为空或指向文件不存在），本批 13 张新卡未引入新 error
+- `queue_transition.py complete ... --instance kimi`：已提交为 pending_review
+
+### 实动文件清单
+
+- 新建：上述 13 张 tool 卡
+- 修改：`30_wiki/domains/conversion-rate-domain-digest.md`（related 追加 13 张新卡）
+- 修改：`30_wiki/index.md`（登记 13 张新卡）
+- 修改：`70_product/tasks/task-174-d-domain-p1-tools-batch2.md`（本执行报告）
+
+### 术语疑点
+
+- 组合篇口述中"奖项"="讲香"，已统一写作"讲香"。
+- 组合篇口述中"大杠杆"="大纲稿"，本批未直接涉及。
+- 触点篇口述中"银行"="一堂"，已统一为"一堂"。
+- ABACC 中 B 阶段命名讲师课上未定，本卡标注为 `pending_unknown`，当前按口述保留为"钩子/拉扯/Collection"的临时理解。
+- 触点篇 L1440-1504 存在乱码/干扰段，12 触点内容主要引用 L1182-L1439 及 VLM 图，并补以小抄用法 L3314-L3350。

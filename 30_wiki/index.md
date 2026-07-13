@@ -2008,6 +2008,19 @@ _Last updated: 2026-07-13T12:56:15+00:00_
 - [[tools/tool-一堂-名利权情动力法|一堂名利权情动力法：名 / 利 / 权 / 情 四张内驱牌]] — yitang, conversion-rate
 - [[tools/tool-一堂-马毅阻力消除四部曲|一堂马毅阻力消除四部曲：赞 / 肯定 / 换角度 / 上价值]] — yitang, conversion-rate
 - [[tools/tool-一堂-动嘴动手动钱成本纪律|一堂动嘴动手动钱成本纪律：按成本由低到高选择阻力消除手段]] — yitang, conversion-rate
+- [[tools/tool-一堂-触点挖掘四层级|一堂触点挖掘四层级：从狭义销售点到创新接触机会的冰山洞察力]] — yitang, conversion-rate
+- [[tools/tool-一堂-触点质量五维|一堂触点质量五维：宽度/深度/承载力/主动被动/情绪的雷达评估法]] — yitang, conversion-rate
+- [[tools/tool-一堂-五种挖触点|一堂五种挖触点：推演/同行/用户/创造/清单的双向触点挖掘法]] — yitang, conversion-rate
+- [[tools/tool-一堂-12大易浪费触点|一堂12大易浪费触点：SABC四级触点清单与小抄卡牌法]] — yitang, conversion-rate
+- [[tools/tool-一堂-触点减法与排序|一堂触点减法与排序：冗长/低价值/资源有限下的好钢用在刀刃上]] — yitang, conversion-rate
+- [[tools/tool-一堂-五大转化率范式|一堂五大转化率范式：从一句话到发布会的信息容量与复杂度分层]] — yitang, conversion-rate
+- [[tools/tool-一堂-准备系数法则|一堂准备系数法则：需要量:准备量与三倍准备、三分之一挑选的经验系数]] — yitang, conversion-rate
+- [[tools/tool-一堂-提假设四大类策略|一堂提假设四大类策略：自己琢磨/用好小抄/借鉴外部/团队开会]] — yitang, conversion-rate
+- [[tools/tool-一堂-减法排序四招|一堂减法排序四招：经验专家/内部共识/同行调研/实验验证]] — yitang, conversion-rate
+- [[tools/tool-一堂-ABACC叙事法|一堂ABACC叙事法：非标品与非高科技讲香的开头捕获框架]] — yitang, conversion-rate
+- [[tools/tool-一堂-经典故事线框架库|一堂经典故事线框架库：N个为什么/清单体/时间线/BP模板/顾问式销售]] — yitang, conversion-rate
+- [[tools/tool-一堂-制作仿真三要点|一堂制作仿真三要点：在真实视角下打磨细节并沉淀过程资产]] — yitang, conversion-rate
+- [[tools/tool-一堂-讲香双策略|一堂讲香双策略：具体化+抽象化与波峰波谷的张力表达]] — yitang, conversion-rate
 - [[tools/tool-动手建模提炼|技能：动手建模提炼]] — source `10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[tools/tool-动手建模法|技能：动手建模法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[tools/tool-区分获客渠道计算单元roi|技能：区分获客渠道计算单元ROI]] — source `10_raw/sources/src_20260609_99032bf9-ocr-一堂-单元模型-示例.md`
