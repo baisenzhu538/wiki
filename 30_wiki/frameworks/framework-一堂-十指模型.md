@@ -25,6 +25,9 @@ related:
 - '[[framework-一堂-六大优化原则]]'
 - '[[framework-一堂-影响力36计]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[tool-一堂-FAB说服法]]'
+- '[[tool-一堂-名利权情动力法]]'
+- '[[tool-一堂-影响力六原则]]'
 quality_labels:
 - principle
 - framework

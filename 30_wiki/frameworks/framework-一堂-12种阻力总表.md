@@ -37,6 +37,13 @@ related:
 - '[[conversion-rate-domain-digest]]'
 - '[[decision-science-domain-digest]]'
 - '[[tool-动力阻力分析]]'
+- '[[tool-一堂-阻力消除12策小抄]]'
+- '[[tool-一堂-阻力挖掘方式]]'
+- '[[tool-一堂-阻力三句话心法]]'
+- '[[tool-一堂-马毅阻力消除四部曲]]'
+- '[[tool-一堂-伏笔式消除法]]'
+- '[[tool-一堂-不着急阻力两类消除]]'
+- '[[tool-一堂-动嘴动手动钱成本纪律]]'
 quality_labels:
 - principle
 - framework

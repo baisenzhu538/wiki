@@ -33,6 +33,10 @@ related:
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[conversion-rate-domain-digest]]'
 - '[[tool-动力阻力分析]]'
+- '[[tool-一堂-FAB说服法]]'
+- '[[tool-一堂-名利权情动力法]]'
+- '[[tool-一堂-影响力六原则]]'
+- '[[tool-一堂-心理激励优先机制]]'
 - '[[yt-tool-fab-persuasion]]'
 quality_labels:
 - principle

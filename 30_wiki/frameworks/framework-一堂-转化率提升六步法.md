@@ -37,6 +37,15 @@ related:
 - '[[framework-一堂-触点本质论]]'
 - '[[framework-一堂-转化基本功七个自我修养]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[tool-动力阻力分析]]'
+- '[[tool-一堂-FAB说服法]]'
+- '[[tool-一堂-名利权情动力法]]'
+- '[[tool-一堂-影响力六原则]]'
+- '[[tool-一堂-心理激励优先机制]]'
+- '[[tool-一堂-阻力消除12策小抄]]'
+- '[[tool-一堂-阻力挖掘方式]]'
+- '[[tool-一堂-阻力三句话心法]]'
+- '[[tool-一堂-七大转化场景自检]]'
 quality_labels:
 - principle
 - framework
