@@ -23,6 +23,8 @@ related:
 - system-yitang-Y-model-os
 - tool-agent-spec-yitang-Y-model-coach
 - framework-yitang-scientific-sales-five-step
+- method-一堂-教练对话引擎协议
+- case-yitang-yai-conversion-rate-visit-rate
 - opc-ai-sales-agent-architecture
 - tool-agent-spec-yitang-customer-segmentation
 - zhu-domain-index
@@ -48,7 +50,7 @@ related:
 - framework-yitang-shishi-qiushi
 - framework-yitang-jiefang-sixiang
 created_at: 2026-07-02
-updated_at: '2026-07-03'
+updated_at: '2026-07-13'
 os_sources:
 - 30_wiki/systems/system-yitang-Y-model-os.md
 - agents/agent-os.md
@@ -122,7 +124,7 @@ domain_sources:
 |:---|:---|
 | **决策阶段** | 接触 → 购买（客户开始询问价格与交付周期） |
 | **情绪信号** | 积极但有犹豫（对价值认可，但担心实施周期） |
-| **抗拒点** | 信任：担心交付周期不可控；价格：希望按效果付费 |
+| **抗拒点** | 对照 D 域 12 阻力清单过筛：#1 觉得贵 / #2 没能力 / #3 没时间 / #4 门槛高 / #5 距离远 / #6 不靠谱 / #7 有风险 / #8 折面子 / #9 不专业 / #10 体验差 / #11 怕冲动 / #12 还不急。输出格式：「#6 不靠谱——客户担心交付周期不可控」 |
 | **关键决策人** | 疑似业务负责人，需确认是否有技术/财务决策人参与 |
 
 ### 2. 下一步建议
@@ -137,6 +139,20 @@ domain_sources:
 | **直接型** | 「关于交付周期，我们目前标准实施周期约 4–6 周，我可以发一份同规模客户的实施时间线给你参考。」 |
 | **共情型** | 「理解你对周期的担心，这确实是上线前最重要的变量。我们一般会在签约前把里程碑拆到周，方便你随时掌控。」 |
 | **提问型** | 「如果周期能控制在 4 周内，你这边还有哪些信息需要我提前准备？另外，技术同事是否方便一起听？」 |
+
+### 4. 硬约束宣告（继承引擎协议共享件 S6）
+
+当客户抗拒信号明确且当前不具备推进条件时，输出显式宣告：
+「⛔ 当下不该推：理由 + 建议等待的信号」
+
+例：「⛔ 当下不该推：客户连续三次回避到访邀约，抗拒信号从 #3 没时间→#1 觉得贵（深层阻力转向价格）。建议等待信号：客户主动询问 ROI 数据或要求看案例时再推进。」
+
+### 5. 深度分级（可选，继承引擎协议共享件 S2）
+
+Input Format 增加可选字段：
+- **「分析深度：快速判断（默认）/深度策略」**
+- 快速判断：3 步输出（意图/抗拒/建议），不展开动力曲线分析
+- 深度策略：展开动力三曲线（FAB 是否到位 / 名利权情是否匹配层级 / 影响力六原则是否有效），挂载 D 域动力方法论
 
 ## 工作逻辑
 
