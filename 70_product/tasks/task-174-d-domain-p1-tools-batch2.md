@@ -1,3 +1,9 @@
+---
+id: task_20260712_wangyuyan-d-domain-p1-tools-batch2
+assignee: kimi
+status: queued
+updated_at: '2026-07-13T10:11:14+00:00'
+---
 # Task #174 · D 域 P1 工具族第二批（触点+组合侧 ~13 卡）
 
 - **状态**：queued

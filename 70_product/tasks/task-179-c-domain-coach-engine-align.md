@@ -1,3 +1,9 @@
+---
+id: task_20260713_wangyuyan-c-domain-coach-engine-align
+assignee: kimi
+status: queued
+updated_at: '2026-07-13T10:11:14+00:00'
+---
 # Task #179 · C 域业务公式教练二次迭代（对话引擎对齐）
 
 - **状态**：queued

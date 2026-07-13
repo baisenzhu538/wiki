@@ -1,3 +1,9 @@
+---
+id: task_20260712_wangyuyan-c-domain-scan-fix-structure
+assignee: huangyaoshi
+status: pending_review
+updated_at: '2026-07-13T10:11:14+00:00'
+---
 # Task #175 · C 域查漏修复第一批（结构层：索引/裁定/勘误）
 
 - **状态**：pending_review

@@ -372,6 +372,7 @@ updated: 2026-07-03
 5. **不确定时诚实说不知道**：比乱匹配框架强。
 6. **诊断结论/任务单交付前跑自攻击**：方法定义见 `30_wiki/frameworks/framework-kdo-self-attack.md`，执行脚本见 `40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`。
 7. **任何队列/方向调整必须同步到 dashboard 和 kb-evolution-direction.md**。
+8. **⛔ 队列状态变更必须走 `90_control/scripts/queue_transition.py`**（脚本明令：禁止手工改 production-queue.md 状态列或任务文件 status 字段）。新建任务单必须带 frontmatter（`id`=看板 task_id / `assignee`=kimi|huangyaoshi / `status`=queued / `updated_at`），否则 claim 找不到文件。状态机：queued→claimed-{instance}→pending_review→reviewed（终态，无 done）。（2026-07-13 教训：手工改 #168/#175 状态+12 个任务单缺 frontmatter 导致老顽童 claim 失败）
 
 ---
 

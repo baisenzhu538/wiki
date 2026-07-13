@@ -1,3 +1,9 @@
+---
+id: task_20260713_wangyuyan-opc-sales-assistant-engine-adapt
+assignee: huangyaoshi
+status: queued
+updated_at: '2026-07-13T10:11:14+00:00'
+---
 # Task #181 · OPC 销售对话助手引擎适配（参谋型裁剪版）
 
 - **状态**：queued

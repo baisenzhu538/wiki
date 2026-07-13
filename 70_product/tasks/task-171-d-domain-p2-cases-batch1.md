@@ -1,3 +1,9 @@
+---
+id: task_20260712_wangyuyan-d-domain-p2-cases-batch1
+assignee: kimi
+status: queued
+updated_at: '2026-07-13T10:11:14+00:00'
+---
 # Task #171 · D 域 P2 案例族第一批 ~14 卡（不阻塞部分）
 
 - **状态**：queued

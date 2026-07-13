@@ -1,11 +1,8 @@
 ---
-task_id: task_20260713_wangyuyan-c-domain-evidence-recheck
-title: C 域证据复核收尾（#175 拆出：3 原图复核+6 老卡数字复核）
-status: todo
-owner: laowantong
-created: 2026-07-13
-priority: P1
-depends_on: ["无（先于 #169 顺领，半天量级）"]
+id: task_20260713_wangyuyan-c-domain-evidence-recheck
+assignee: kimi
+status: queued
+updated_at: '2026-07-13T10:11:14+00:00'
 ---
 
 # #183 C 域证据复核收尾（#175 拆出项）

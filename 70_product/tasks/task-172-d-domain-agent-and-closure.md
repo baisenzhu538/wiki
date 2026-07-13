@@ -1,3 +1,9 @@
+---
+id: task_20260712_wangyuyan-d-domain-agent-and-closure
+assignee: kimi
+status: queued
+updated_at: '2026-07-13T10:11:14+00:00'
+---
 # Task #172 · D 域 agent-spec + 全域收口
 
 - **状态**：queued

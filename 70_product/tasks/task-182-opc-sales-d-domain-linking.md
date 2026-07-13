@@ -1,11 +1,8 @@
 ---
-task_id: task_20260713_wangyuyan-opc-sales-d-domain-linking
-title: OPC 销售域×D 域回链（33 卡补方法论底座引用）
-status: todo
-owner: laowantong
-created: 2026-07-13
-priority: P2
-depends_on: ["#169-171+#174 reviewed", "#177 reviewed"]
+id: task_20260713_wangyuyan-opc-sales-d-domain-linking
+assignee: kimi
+status: queued
+updated_at: '2026-07-13T10:11:14+00:00'
 ---
 
 # #182 OPC 销售域×D 域回链
