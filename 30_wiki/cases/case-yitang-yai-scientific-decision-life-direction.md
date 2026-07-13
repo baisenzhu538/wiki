@@ -12,8 +12,7 @@ domain:
   - yitang
   - decision-science
   - ai-collaboration
-source_refs:
-  - pending_archive:YAI关键决策agent对话记录（62消息，C:/Users/Administrator/Desktop/YAI/）
+source_refs: []
 related:
   - '[[method-一堂-教练对话引擎协议]]'
   - '[[yt-decision-y-model]]'

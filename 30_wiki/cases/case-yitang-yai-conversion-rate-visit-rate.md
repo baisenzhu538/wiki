@@ -12,8 +12,7 @@ domain:
   - yitang
   - ai-collaboration
   - business-formula
-source_refs:
-  - pending_archive:YAI转化率agent对话记录（30消息，C:/Users/Administrator/Desktop/YAI/）
+source_refs: []
 related:
   - '[[method-一堂-教练对话引擎协议]]'
   - '[[framework-一堂-关键假设-ABCD模型]]'
