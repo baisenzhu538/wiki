@@ -9,7 +9,7 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 created_at: 2026-07-09
-updated_at: 2026-07-09
+updated_at: 2026-07-13
 domain:
 - yitang
 - key-assumptions
@@ -65,8 +65,9 @@ related:
 - '[[yt-tool-business-formula-inspiration-5]]'
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[business-formula-domain-digest]]'
+- '[[conversion-rate-domain-digest]]'
 - '[[tool-一堂-业务公式-L1L6参数分层自检]]'
-  - '[[framework-business-formula-y-model-bridge]]'
+- '[[framework-business-formula-y-model-bridge]]'
 diagnostic_signals:
 - signal: 团队说"我们有个好想法，准备全力以赴"，却说不清这个想法依赖哪些前提
   lens: 缺假设驱动意识——把创业当执行计划，不是当一组待验证假设

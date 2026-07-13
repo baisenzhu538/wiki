@@ -9,7 +9,7 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 created_at: 2026-07-09
-updated_at: 2026-07-09
+updated_at: 2026-07-13
 domain:
 - yitang
 - key-assumptions
@@ -30,6 +30,7 @@ related:
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[business-formula-domain-digest]]'
+- '[[conversion-rate-domain-digest]]'
 - '[[framework-business-formula-dual-triangle-bridge]]'
 - '[[framework-business-formula-fundamentals-bridge]]'
 - '[[framework-business-formula-y-model-bridge]]'
