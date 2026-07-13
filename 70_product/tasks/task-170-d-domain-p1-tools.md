@@ -1,8 +1,8 @@
 ---
 id: task_20260712_wangyuyan-d-domain-p1-tools
 assignee: kimi
-status: queued
-updated_at: '2026-07-13T11:19:54.999639+00:00'
+status: pending_review
+updated_at: '2026-07-13T11:57:30.385673+00:00'
 ---
 # Task #170 · D 域 P1 工具族第一批（动力+阻力侧 ~12 卡 + 2 既有卡升级）
 
@@ -143,7 +143,7 @@ updated_at: '2026-07-13T11:19:54.999639+00:00'
 ### 验证
 
 - `kdo pre-submit -f 14 卡`：✅ 14/14 PASS
-- `kdo lint --domain conversion-rate --summary`：待后台任务输出（已启动）
+- `kdo lint --domain conversion-rate --summary`：✅ 0 new error，3 new warning（均为 source_refs 行号锚点 false positive，与 #169 同款）
 
 ### 触及文件
 
