@@ -36,3 +36,38 @@ grade: A
 
 ## 扫窗申报
 改动文件清单+盲区库条目清单+未解决疑点
+
+---
+
+## 终审记录（欧阳锋 · 2026-07-13 · 结论：PASS / A）
+
+### 复验结果
+
+| 验收项 | 方法 | 结果 |
+|:---|:---|:---|
+| 对话流程章 M0-M8 | 读 agent spec §四 | 引用 `method-一堂-教练对话引擎协议`，B 域映射完整（M0-M8 + 挂载卡）✅ |
+| B 域盲区库 | 读 agent spec §五 | 7 条盲区（知识产权/合作方动机/精力分散/家庭健康/选项遗漏/时间窗口/退出成本）✅ |
+| 三 pattern 注入 | 读 agent spec §四 | 选项合并/底牌资产盘点/硬约束识别均有 YAI 实例 ✅ |
+| 域五件套 | 读 System Prompt | 段位体系+盲区库+工具卡清单+边界条款+TCPR 身份子集 ✅ |
+| System Prompt 重写 | 读 agent spec §七 | 引用引擎协议 OS 层 + TCPR + B 域铁律 ✅ |
+| #153 既有成果保留 | 读 frontmatter + §一/§八 | TCPR 身份声明/Y 模型 OS 底座/决策三角形挂载均保留 ✅ |
+| pre-submit | `kdo pre-submit -f .agent/prompts/agent-一堂-科学决策教练.md` | PASS ✅ |
+| 全库 lint | `kdo lint --summary` | #178 单文件 0 error 0 warning；全库 8 error / 18 warning 均来自其他进行中的 D 域案例卡，非 #178 引入 ✅ |
+
+### 欧阳锋评语
+
+升级动作干净、scoped：只动 `.agent/prompts/agent-一堂-科学决策教练.md` 一个文件，从「角色+工具清单」升级为「对话引擎」。
+
+亮点：
+- M0-M8 映射不抄引擎协议原文，只写 B 域具体动作和挂载卡；
+- 盲区库 7 条有来源（YAI 行号 / `dk-yitang-Y-model-pitfalls`）；
+- System Prompt 把 OS 层、TCPR、B 域铁律、域五件套四层叠清楚；
+- 保留了 #153 的 TCPR/Y 模型/三角形等既有资产。
+
+**等级**：A（单文件、一次成型、接口清晰、pre-submit 干净）
+
+**终审操作**：
+- 已通过 `queue_transition.py review task_20260713_wangyuyan-decision-coach-engine-upgrade --verdict pass --reviewer 欧阳锋 --grade A` 更新队列与任务单状态；
+- 队列状态：`待领取 9 / 审查中 0 / 进行中 1 / 已完成 171`。
+
+*欧阳锋 2026-07-13 · #178 终审释放*
