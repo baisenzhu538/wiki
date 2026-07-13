@@ -69,7 +69,7 @@ else:
     print("Marathon双口径: already present")
 
 # 6. dk伪因果卡补术语映射
-dk_false = VAULT / "30_wiki/dark-knowledges/dk-yitang-business-formula-plus-times-trap.md"
+dk_false = VAULT / "30_wiki/dark-knowledges/dk-yitang-business-formula-pseudo-causality-two-masks.md"
 try:
     dk = dk_false.read_text(encoding="utf-8", errors="replace")
     mapping = "\n> **术语映射（裁定 #3·王语嫣·2026-07-12）**：课程原话「因果倒置/共同因/筛选效应」≈ 学术界「自我选择偏差/中间变量」。另「因的因」为第三面具候选。\n"
