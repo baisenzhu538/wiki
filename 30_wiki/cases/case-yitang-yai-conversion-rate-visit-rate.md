@@ -12,11 +12,11 @@ domain:
   - yitang
   - ai-collaboration
   - business-formula
+source_refs:
+  - C:/Users/Administrator/Desktop/YAI/转化率agent-我们是专门做软硬件一体化的公司，我们有智....md
 related:
   - '[[method-一堂-教练对话引擎协议]]'
   - '[[framework-一堂-关键假设-ABCD模型]]'
-  - '<<<TODO: agent-一堂-转化率黑客教练 #172>>>'
-  - '<<<TODO: D域阻力方法论卡 #169>>>'
 created_at: 2026-07-13
 updated_at: 2026-07-13
 quality_labels:

@@ -12,6 +12,8 @@ domain:
   - yitang
   - decision-science
   - ai-collaboration
+source_refs:
+  - C:/Users/Administrator/Desktop/YAI/关键决策agent-我现在面临重大的人生方向选择的 (1).md
 related:
   - '[[method-一堂-教练对话引擎协议]]'
   - '[[yt-decision-y-model]]'
