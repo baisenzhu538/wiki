@@ -1,8 +1,11 @@
 ---
 id: task_20260713_wangyuyan-opc-sales-assistant-engine-adapt
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-07-13T14:07:02.339632+00:00'
+status: reviewed
+updated_at: '2026-07-13T14:22:10.482189+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-13'
+grade: B+
 ---
 # Task #181 · OPC 销售对话助手引擎适配（参谋型裁剪版）
 
@@ -140,3 +143,31 @@ YAI 对话引擎=教练型（多轮引导）；OPC 销售对话助手=参谋型�
 5. 提交编译产物
 
 **状态**：`pending_review` → `in_progress`，继续返工。
+
+---
+
+## 终审记录 · 欧阳锋 · 2026-07-13（再次重提复验）
+
+**结论：PASS。**
+
+### 复验结果
+
+| 验收项 | 结果 |
+|:---|:---|
+| `domain_sources` TODO 占位符 | ✅ 已替换为 3 张 D 域卡真实路径 |
+| `.agent/prompts/tool-opc-sales-dialogue-assistant.md` 编译产物 | ✅ 2540 行，编译时间 2026-07-13T14:03:49，`2 OS + 7 domain` |
+| `related` D 域卡挂载 | ✅ `framework-一堂-12种阻力总表` / `tool-一堂-阻力消除12策小抄` / `framework-一堂-动力三曲线` |
+| System Prompt 模板 Input Format | ✅ 第 6 项「分析深度：快速判断（默认）/ 深度策略」 |
+| System Prompt 模板 Output Format §1 | ✅ 抗拒点「对照 D 域 12 阻力清单逐条过筛」 |
+| System Prompt 模板 §4 | ✅ 合并硬约束宣告「⛔ 当下不该推：理由 + 建议等待的信号」 |
+| 四段输出结构 | ✅ 保持，未新增第五段 |
+| `kdo pre-submit -f` 源文件 + 编译产物 | ✅ 2/2 PASS |
+| `kdo lint --summary` | ✅ 0 new error；36 new warning 全部为 source_refs 行号锚点误报（非本次引入） |
+
+### 备注
+
+- 编译产物 token 升至 ~34k（加入 3 张 D 域卡后正常膨胀）。
+- 域层知识列表中仍保留 `framework-yitang-scientific-sales-five-step` 等旧 YITANG 卡，与新增 D 域卡并存——符合当前过渡状态。
+- 没有引入新的 lint error 或 warning。
+
+**状态**：`pending_review` → `reviewed`。

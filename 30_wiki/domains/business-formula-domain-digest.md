@@ -1,4 +1,5 @@
 ---
+
 id: business-formula-domain-digest
 title: 域摘要：一堂业务公式（关键假设 ABCD 之 C 域·宏观效率）
 type: index
@@ -25,7 +26,7 @@ quality_labels:
 - cited
 - validated
 created_at: '2026-07-12'
-updated_at: '2026-07-12'
+updated_at: '2026-07-13'
 author: 老顽童
 reviewed_by: pending
 related:
@@ -100,6 +101,7 @@ related:
 - '[[case-dental-clinic-formula]]'
 - '[[case-gym-membership-formula]]'
 - '[[case-offline-catering-formula]]'
+- '[[conversion-rate-domain-digest]]'
 ---
 
 # 域摘要：一堂业务公式（C 域）
