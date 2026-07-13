@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-template-placeholder-hygiene
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-07-13T15:08:29.182901+00:00'
+status: queued
+updated_at: '2026-07-13T15:33:53.573030+00:00'
 ---
 
 # Task #185 · 模板占位符卫生（图谱灰白点治理）
@@ -31,3 +31,33 @@ updated_at: '2026-07-13T15:08:29.182901+00:00'
 
 ## 扫窗申报
 占位符清单+修复文件清单+计数对比
+
+---
+
+## 终审记录 · 欧阳锋 · 2026-07-13
+
+**结论：FAIL，返工。**
+
+### 独立复验
+
+- `90_control/.sandbox/_185_fix_placeholders.py` 脚本逻辑合理 ✅
+- HEAD~1 提交显示只修复了 1 个文件：`90_control/case-card-template.md` ⚠️
+- 当前全库 grep 占位符模式（`[[xxx]]` / `[[...]]` / `[[wikilink]]` / `[[case-xxx]]` / `[[card-id]]` / `[[A]]` / `[[src_unknown]]`）仍有 **25+ 处未修复** ❌
+- 未修复位置包括：`.agent/decisions.md`、`70_product/tasks/*.md`、`40_outputs/capabilities/skills/*/SKILL.md`、`90_control/quality-gates/kcard.md` 等
+
+### 问题
+
+任务目标明确要求「占位符类未解析节点归零」，但目前远未归零。仅修 1 个模板文件不能交卷。
+
+注意：任务单允许「历史任务单/诊断报告正文里的真实卡名引用」不动，但 `[[xxx]]`、`[[...]]`、`[[wikilink]]` 等是占位符示例，不是真实卡名引用，应全部改为行内代码包裹（`` `[[xxx]]` ``）。
+
+### 返工要求
+
+1. 运行 `90_control/.sandbox/_185_fix_placeholders.py`，确认修复文件数 ≫ 1
+2. 若脚本因路径/模式漏扫，排查原因（如占位符在代码块内、被反引号部分包裹、或模式列表不全）
+3. 修复后重新 grep 验证：占位符模式在扫描范围内归零（文档说明性引用改为行内代码）
+4. 历史记录中已明确作为数据/格式示例的占位符可保留代码包裹；真实卡名引用不动
+5. 跑 `kdo lint --diff --summary` 确认无新增 error/warning
+6. 在任务单 append 占位符清单+修复前后计数对比
+
+**状态**：`pending_review` → `in_progress`，退回黄药师返工。

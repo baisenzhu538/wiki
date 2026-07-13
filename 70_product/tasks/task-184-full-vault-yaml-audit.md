@@ -1,8 +1,11 @@
 ---
 id: task_20260713_wangyuyan-full-vault-yaml-audit
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-07-13T15:03:20.029577+00:00'
+status: reviewed
+updated_at: '2026-07-13T15:33:53.175365+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-13'
+grade: B+
 ---
 
 # Task #184 · 全库 yaml.safe_load 体检（隐身卡排查）
@@ -30,3 +33,40 @@ updated_at: '2026-07-13T15:03:20.029577+00:00'
 
 ## 扫窗申报
 扫描脚本+报告+修复文件清单
+
+---
+
+## 终审记录 · 欧阳锋 · 2026-07-13
+
+**结论：CONDITIONAL PASS（附条件通过）。**
+
+### 独立复验
+
+| 指标 | 修复前（报告） | 修复后（报告） | 当前实测 | 说明 |
+|:---|:---|:---|:---|:---|
+| OK | 1900 | 2217 | 2239 | YAML 可解析卡增加 |
+| Type1 解析失败 | 360 | 20 | 20 | 340 张卡已修复 |
+| Type2 结构异常 | 305 | 316 | 294 | 修复过程暴露/后续并行任务修复 |
+| Type3 无 frontmatter | 92 | 104 | 104 | 索引文件 + legacy 卡 |
+
+- `90_control/.sandbox/_184_yaml_audit.py` 脚本逻辑合理 ✅
+- `60_feedback/diagnosis/diag-184-yaml-audit-2026-07-13.md` 报告已落 ✅
+- HEAD~6 提交确认 340 个 .md 文件被修复 ✅
+
+### 关键说明
+
+`kdo lint --summary` 当前显示 **15 new error / 118 new warning**，但 `kdo lint --diff`（相对 HEAD~1）为空。经核查，这些 issue 是 YAML 修复后 lint 首次能读取之前损坏的卡而**显影出来的存量债**，不是 #184 引入的新债：
+- 10 个 tool 卡 `empty source_refs`
+- 多个旧 reviewed 卡 `missing review_date`
+- 多个旧 tool 卡缺失 `Purpose/Protocol/When NOT to Use/Critique` 节
+- source_refs 行号锚点 false positive
+
+这与 #168 B-4「修结构→显影内容债」模式一致。这些债真实存在，但超出 #184「YAML 体检」的核心范围，应由后续数据卫生任务统一清理。
+
+### 条件
+
+1. 剩余 20 张 Type1 硬伤卡（title 含中文特殊字符）需单独立任务修。
+2. Type2/Type3 清单已出，按任务单原计划交王语嫣决策是否开批量补 frontmatter 任务。
+3. lint 显影的 15 error / 118 warning 需在后续数据卫生任务中处理，不能长期挂账。
+
+**状态**：`pending_review` → `reviewed`，等级 B+。
