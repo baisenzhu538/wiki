@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-decision-coach-engine-upgrade
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-07-13T10:11:14+00:00'
+status: in_progress
+updated_at: '2026-07-13T12:28:04.831430+00:00'
 ---
 # Task #178 · B 域科学决策教练 spec 升级（#153 对话引擎化）
 
