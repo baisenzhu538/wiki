@@ -102,6 +102,9 @@ related:
 - '[[tool-一堂-经典故事线框架库]]'
 - '[[tool-一堂-制作仿真三要点]]'
 - '[[tool-一堂-讲香双策略]]'
+
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
 ---
 
 # 域摘要：一堂转化率黑客（D 域）

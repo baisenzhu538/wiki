@@ -36,6 +36,10 @@ related:
 - '[[tool-agent-spec-yitang-objection-handler]]'
 - '[[tool-agent-spec-yitang-opening-3min]]'
 - '[[tool-agent-spec-yitang-self-motivation]]'
+
+- '[[framework-一堂-动力三曲线]]'
+- '[[tool-一堂-FAB说服法]]'
+- '[[framework-一堂-十指模型]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: C

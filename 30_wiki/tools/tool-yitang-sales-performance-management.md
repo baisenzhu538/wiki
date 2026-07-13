@@ -45,6 +45,11 @@ related:
   - "[[tool-agent-spec-yitang-sales-process-tracker]]"
   - "[[tool-agent-spec-yitang-self-motivation]]"
   - "[[tool-iceberg-triangle-modeling]]"
+
+  - "[[framework-一堂-转化率提升六步法]]"
+  - "[[framework-一堂-动力三曲线]]"
+
+  - "[[tool-yitang-payment-collection-playbook]]"
 created_at: 2026-07-02
 updated_at: 2026-07-08
 ---

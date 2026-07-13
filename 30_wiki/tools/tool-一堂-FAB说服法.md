@@ -48,6 +48,8 @@ related:
 - '[[tool-一堂-五大转化率范式]]'
 - '[[tool-一堂-讲香双策略]]'
 
+- '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[tool-yitang-value-proposition-4step]]'
 quality_labels:
 - cited
 - actionable

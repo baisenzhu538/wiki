@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-payment-collection-playbook
 title: 回款 / 催款 / 履约阶段 playbook
 type: tool
@@ -26,6 +26,9 @@ related:
   - "[[tool-yitang-sales-performance-management]]"
   - "[[framework-yitang-sales-incentive-6d]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
+
+  - "[[framework-一堂-12种阻力总表]]"
+  - "[[tool-一堂-阻力消除12策小抄]]"
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

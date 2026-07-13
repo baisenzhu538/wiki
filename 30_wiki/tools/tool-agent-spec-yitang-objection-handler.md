@@ -41,6 +41,10 @@ related:
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[tool-agent-spec-yitang-opening-3min]]'
 - '[[tool-osint-maltego]]'
+
+- '[[framework-一堂-阻力方法论骨架]]'
+- '[[framework-一堂-12种阻力总表]]'
+- '[[tool-一堂-阻力消除12策小抄]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: C

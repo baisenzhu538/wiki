@@ -57,6 +57,9 @@ related:
 - '[[case-一堂-视频号加微信率44到85]]'
 - '[[case-一堂-跆拳道黑带卡]]'
 - '[[case-一堂-阻力篇案例库]]'
+
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-yitang-payment-collection-playbook]]'
 quality_labels:
 - cited
 - actionable

@@ -34,6 +34,8 @@ related:
 - '[[case-一堂-组合篇案例库]]'
 - '[[tool-一堂-讲香双策略]]'
 
+- '[[tool-agent-spec-yitang-opening-3min]]'
+- '[[tool-agent-spec-yitang-value-proposition]]'
 quality_labels:
 - principle
 - framework

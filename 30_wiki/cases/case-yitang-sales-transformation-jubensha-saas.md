@@ -34,6 +34,9 @@ related:
   - "[[dk-yitang-sales-common-pitfalls]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
   - "[[case-yitang-sales-transformation-tuliaogongsi]]"
+
+  - "[[case-一堂-阻力篇案例库]]"
+  - "[[case-一堂-触点篇案例库]]"
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

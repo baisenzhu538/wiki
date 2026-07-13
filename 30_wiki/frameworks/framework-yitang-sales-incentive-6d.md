@@ -51,6 +51,10 @@ related:
   - "[[case-yitang-sales-transformation-meirongyuan]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
   - "[[framework-yitang-sales-target-tradeoffs]]"
+
+  - "[[framework-一堂-动力三曲线]]"
+
+  - "[[tool-yitang-payment-collection-playbook]]"
 created_at: 2026-07-02
 updated_at: 2026-07-08
 ---

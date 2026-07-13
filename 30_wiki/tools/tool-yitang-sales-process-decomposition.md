@@ -38,6 +38,10 @@ related:
   - "[[tool-agent-spec-yitang-customer-segmentation]]"
   - "[[tool-agent-spec-yitang-objection-handler]]"
   - "[[tool-agent-spec-yitang-sales-process-tracker]]"
+
+  - "[[framework-一堂-转化率提升六步法]]"
+
+  - "[[tool-yitang-payment-collection-playbook]]"
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

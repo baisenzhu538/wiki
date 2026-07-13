@@ -46,6 +46,9 @@ related:
 - tool-agent-spec-yitang-sales-toolkit-gap
 - tool-agent-spec-yitang-incentive-design
 - tool-agent-spec-yitang-lead-funnel-health
+
+- framework-一堂-转化率黑客-总纲
+- conversion-rate-domain-digest
 ---
 # OPC AI 销售智能体架构
 

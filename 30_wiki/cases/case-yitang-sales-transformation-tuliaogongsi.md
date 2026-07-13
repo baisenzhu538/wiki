@@ -31,6 +31,9 @@ related:
   - "[[master-decision-hygiene]]"
   - "[[tool-yitang-sales-performance-management]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
+
+  - "[[case-一堂-触点篇案例库]]"
+  - "[[case-一堂-组合篇案例库]]"
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

@@ -41,6 +41,8 @@ related:
 - '[[conversion-rate-domain-digest]]'
 - '[[case-一堂-作业率20到50]]'
 - '[[case-一堂-我请客推荐率5到40]]'
+
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
 quality_labels:
 - cited
 - actionable

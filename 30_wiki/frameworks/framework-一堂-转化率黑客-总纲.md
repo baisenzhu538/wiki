@@ -88,6 +88,8 @@ related:
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
 
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
 diagnostic_signals:
 - signal: 团队想提升某个转化率，却只在改页面文案、换按钮颜色
   lens: 只在触点层用力——转化率是靠关键假设驱动的，动力阻力要素绝大部分不呈现在页面上

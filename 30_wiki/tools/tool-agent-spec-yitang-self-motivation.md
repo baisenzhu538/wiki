@@ -36,6 +36,9 @@ related:
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[tool-yitang-sales-performance-management]]'
 - '[[tool-agent-spec-yitang-opening-3min]]'
+
+- '[[framework-一堂-动力三曲线]]'
+- '[[tool-一堂-心理激励优先机制]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: P

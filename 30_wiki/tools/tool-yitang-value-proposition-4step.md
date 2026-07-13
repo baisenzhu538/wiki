@@ -39,6 +39,9 @@ related:
   - "[[tool-agent-spec-yitang-objection-handler]]"
   - "[[tool-agent-spec-yitang-sales-process-tracker]]"
   - "[[tool-agent-spec-yitang-value-proposition]]"
+
+  - "[[framework-一堂-动力三曲线]]"
+  - "[[tool-一堂-FAB说服法]]"
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

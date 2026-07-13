@@ -66,6 +66,12 @@ related:
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
 
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
+- '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-value-proposition-4step]]'
 quality_labels:
 - principle
 - framework

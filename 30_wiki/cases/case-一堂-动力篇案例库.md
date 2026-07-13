@@ -40,6 +40,8 @@ related:
 - '[[conversion-rate-domain-digest]]'
 - '[[case-一堂-教研加微信率40到100]]'
 - '[[case-一堂-跆拳道黑带卡]]'
+
+- '[[case-yitang-sales-transformation-meirongyuan]]'
 quality_labels:
 - cited
 - actionable

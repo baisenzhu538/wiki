@@ -34,6 +34,8 @@ related:
 - '[[case-一堂-组合篇案例库]]'
 - '[[case-一堂-优秀案例逐字稿合集]]'
 - '[[case-一堂-一堂自身转化实践]]'
+
+- '[[tool-agent-spec-yitang-customer-segmentation]]'
 quality_labels:
 - cited
 - actionable

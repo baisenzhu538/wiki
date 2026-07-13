@@ -34,6 +34,9 @@ related:
   - "[[dk-yitang-sales-common-pitfalls]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
   - "[[case-yitang-sales-transformation-tuliaogongsi]]"
+
+  - "[[case-一堂-触点篇案例库]]"
+  - "[[case-一堂-动力篇案例库]]"
 diagnostic_signals:
   - signal: 总部新目标拆不到门店/客户，店长不配合填表
     framework_lens: 销售管理 / 组织协同

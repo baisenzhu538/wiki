@@ -52,6 +52,11 @@ related:
 - framework-一堂-12种阻力总表
 - tool-一堂-阻力消除12策小抄
 - framework-一堂-动力三曲线
+
+- framework-一堂-转化率黑客-总纲
+- conversion-rate-domain-digest
+
+- tool-yitang-payment-collection-playbook
 created_at: 2026-07-02
 updated_at: '2026-07-13'
 os_sources:

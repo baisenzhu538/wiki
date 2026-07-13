@@ -33,6 +33,11 @@ related:
   - "[[tool-yitang-sales-performance-management]]"
   - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
+
+  - "[[framework-一堂-12种阻力总表]]"
+  - "[[framework-一堂-转化率提升六步法]]"
+
+  - "[[tool-yitang-payment-collection-playbook]]"
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

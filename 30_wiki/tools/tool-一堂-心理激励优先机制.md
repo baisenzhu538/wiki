@@ -39,6 +39,8 @@ related:
 - '[[case-一堂-动力篇案例库]]'
 - '[[case-一堂-触点篇案例库]]'
 - '[[case-一堂-跆拳道黑带卡]]'
+
+- '[[tool-agent-spec-yitang-self-motivation]]'
 quality_labels:
 - cited
 - actionable

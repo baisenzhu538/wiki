@@ -81,6 +81,11 @@ related:
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
 
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+- '[[tool-agent-spec-yitang-sales-process-tracker]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-sales-process-decomposition]]'
 quality_labels:
 - principle
 - framework

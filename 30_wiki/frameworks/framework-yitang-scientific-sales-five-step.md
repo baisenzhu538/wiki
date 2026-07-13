@@ -44,6 +44,8 @@ related:
   - "[[case-yitang-laowenqi-huixiao-10x]]"
   - "[[case-yitang-innovative-metrics-collection]]"
   - "[[case-yitang-three-industry-formula-demos]]"
+
+  - "[[tool-yitang-payment-collection-playbook]]"
 created_at: 2026-07-02
 updated_at: 2026-07-08
 ---

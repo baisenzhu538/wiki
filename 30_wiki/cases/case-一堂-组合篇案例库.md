@@ -59,6 +59,7 @@ related:
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
 
+- '[[case-yitang-sales-transformation-tuliaogongsi]]'
 quality_labels:
 - cited
 - actionable

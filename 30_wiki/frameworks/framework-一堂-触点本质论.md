@@ -57,6 +57,7 @@ related:
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
 
+- '[[tool-agent-spec-yitang-opening-3min]]'
 quality_labels:
 - principle
 - framework

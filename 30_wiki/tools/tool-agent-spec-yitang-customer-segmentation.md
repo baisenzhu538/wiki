@@ -38,6 +38,9 @@ related:
 - '[[tool-agent-spec-yitang-objection-handler]]'
 - '[[tool-agent-spec-yitang-opening-3min]]'
 - '[[tool-agent-spec-yitang-self-motivation]]'
+
+- '[[tool-一堂-五种挖触点]]'
+- '[[framework-一堂-12触点SABC分级]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: C
