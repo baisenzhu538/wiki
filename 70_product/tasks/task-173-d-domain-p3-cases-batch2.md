@@ -1,8 +1,11 @@
 ---
 id: task_20260712_wangyuyan-d-domain-p3-cases-batch2
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-13T16:58:08.234681+00:00'
+status: reviewed
+updated_at: '2026-07-13T17:31:44.659177+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-13'
+grade: B
 ---
 # Task #173 · D 域 P3 案例族第二批（阻塞面缩小：仅 1 个 PDF 待回源）
 
@@ -81,3 +84,92 @@ updated_at: '2026-07-13T16:58:08.234681+00:00'
 - 修改：`30_wiki/domains/conversion-rate-domain-digest.md`（related 追加 4 张新卡）
 - 修改：`30_wiki/index.md`（登记 4 张新卡）
 - 临时辅助文件（可清理）：`90_control/tmp_fanpan_pdf_text_clean.txt`、`90_control/tmp_xiaomi_pdf_text_clean.txt`
+
+---
+
+## 终审记录 · 欧阳锋 · 2026-07-13
+
+**结论：FAIL，返工。**
+
+### 复验结果
+
+| 验收项 | 结果 |
+|:---|:---|
+| 4 张新卡存在性 | ✅ |
+| `kdo pre-submit -f 4 新卡 + digest` | ✅ 5/5 PASS |
+| `kdo lint --domain conversion-rate --diff --summary` | ✅ 无新增 |
+| `conversion-rate-domain-digest.md` 追加 4 新卡 | ✅ |
+| `30_wiki/index.md` 登记 4 新卡 | ✅ |
+| D 域 related 双向闭合 | ❌ 严重缺失 |
+
+### 关键问题：D 域 related 双向闭合未做
+
+4 张新卡均指向多张 D 域骨架卡/工具卡/案例库，但目标卡均未回链。独立抽查结果：
+
+- `case-一堂-优秀触点案例合集` → 13 个目标，仅 `conversion-rate-domain-digest` 回链，其余 12 个 MISSING
+- `case-一堂-小米发布会拆解` → 12 个目标，仅 `conversion-rate-domain-digest` 回链，其余 11 个 MISSING
+- `case-一堂-优秀转化率复盘合集` → 10 个目标，仅 `conversion-rate-domain-digest` + `case-一堂-邹韵涛-...` 回链，其余 8 个 MISSING
+- `case-一堂-邹韵涛-中小企业高级管理辅导班专题培训会` → 13 个目标，仅 `conversion-rate-domain-digest` + `case-一堂-优秀转化率复盘合集` 回链，其余 11 个 MISSING
+
+第一批案例族（#171）明确要求「D 域内 25 个目标卡追加 16 张新卡回链」，第二批应沿用同一标准。当前 #173 完全没有做目标卡回链，甚至连第一批的 `case-一堂-触点篇案例库` / `case-一堂-阻力篇案例库` / `case-一堂-一堂自身转化实践` 等也未追加新卡回链。
+
+### 关于卡数缺口
+
+素材缺口导致只能交付 4 张卡（3 主卡 + 1 细分卡），低于目标 ~8 张——这个缺口可以接受，按「不编造」纪律处理合理。但 **4 张已建卡的相关回链必须补全**。
+
+### 返工要求
+
+1. 在 4 张新卡所引的所有 D 域目标卡的 `related` 中追加对应新卡回链：
+   - `framework-一堂-转化率黑客-总纲`
+   - `framework-一堂-转化率黑客爬山地图`
+   - `framework-一堂-动力三曲线`
+   - `framework-一堂-12种阻力总表`
+   - `framework-一堂-阻力方法论骨架`
+   - `framework-一堂-12触点SABC分级`
+   - `framework-一堂-触点本质论`
+   - `framework-一堂-转化率提升六步法`
+   - `tool-一堂-FAB说服法`
+   - `tool-一堂-影响力六原则`
+   - `tool-一堂-阻力消除12策小抄`
+   - `tool-一堂-七大转化场景自检`
+   - `tool-一堂-动嘴动手动钱成本纪律`
+   - `case-一堂-触点篇案例库`
+   - `case-一堂-优秀案例逐字稿合集`（如相关）
+2. 第一批案例库/合集卡（触点篇/阻力篇/组合篇/一堂自身转化实践等）也应追加 4 张新卡回链
+3. 重新跑 `kdo pre-submit -f` 涉及文件
+4. 重新跑 `kdo lint --domain conversion-rate --diff --summary`
+5. 任务单 append 返工记录
+
+**状态**：`pending_review` → `in_progress`，退回老顽童返工。
+
+---
+
+## 终审记录 · 欧阳锋 · 2026-07-13（复核变更）
+
+**结论：CONDITIONAL PASS（附条件通过）。**
+
+### 复核依据
+
+王语嫣核实确认：复盘合集 PDF 24 页确实只有飞书页面框架+目录树+评论区，除邹韵涛案例有部分展开正文外，其余 7 个案例（沈伟杰/王静静/董程滨/钟征/翁晓锋/甘绘忆/王巍）均无正文段落。老顽童「不编造」判定正确，4 卡交付符合素材实际。
+
+### 维持的审查意见
+
+D 域 related 双向闭合缺失仍是事实：4 张新卡引用了大量骨架卡/工具卡/案例库，但目标卡基本未回链。按 #171 标准，这一层必须补。
+
+### 条件性通过决定
+
+为不阻塞主线（#171/#174 继续推进），#173 内容交付部分先予通过；related 双向闭合作为**后续链接卫生任务**处理，必须在以下任一节点完成：
+
+1. 飞书 md 回源后补建 3-4 张细分卡时，同步补全第二批 4 张新卡与第一批案例库/合集卡/骨架卡/工具卡之间的 related 双向闭合；或
+2. 单独开一个小任务单（建议由老顽童在 #174 后顺手做），明确列出所有 missing backlink 并批量补全。
+
+### 要求
+
+- 飞书 md 回源优先级：**复盘合集从飞书导出 md**（PDF 不渲染折叠块内容，md 导出才完整）
+- md 回源后补建细分卡：沈伟杰代工厂/王静静鸡公煲/董程滨私域/钟征月卡等
+- 补建细分卡时必须同步完成全批案例族的 related 双向闭合
+- 完成后跑 `kdo pre-submit` 和 `kdo lint --domain conversion-rate --diff --summary`
+
+**状态**：由 `queued` 改回 `reviewed`，等级 B（内容交付通过，链接闭合待补）。
+
+**下一步**：王语嫣/欧阳锋安排回源飞书 md；老顽童继续 #171/#174，不阻塞。
