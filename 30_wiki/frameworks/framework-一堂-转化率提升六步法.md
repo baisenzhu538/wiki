@@ -30,6 +30,7 @@ related:
 - '[[framework-一堂-六大优化原则]]'
 - '[[framework-一堂-十指模型]]'
 - '[[framework-一堂-动力三曲线]]'
+- '[[framework-一堂-影响力36计]]'
 - '[[framework-一堂-12种阻力总表]]'
 - '[[framework-一堂-12触点SABC分级]]'
 - '[[framework-一堂-转化基本功七个自我修养]]'

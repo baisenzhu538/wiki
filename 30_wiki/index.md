@@ -2413,3 +2413,173 @@ _Last updated: 2026-07-05T03:28:39+00:00_
 - [[tools/yt-tool-unit-model-construction|yt tool unit model construction]] — source `src_unknown`
 - [[tools/yt-tool-unit-model-dynamic|yt tool unit model dynamic]] — source `src_unknown`
 - [[tools/yt-tool-unit-model-selection|yt tool unit model selection]] — source `src_unknown`
+- [[_dogfood_dk|_dogfood_dk]] — test
+- [[_dogfood_dk2|_dogfood_dk2]] — test
+- [[_test_pa|_test_pa]]
+- [[cases/case-ai-search-commerce-platform-hedge|AI 搜索导流品牌官网，但不会取代电商平台]] — ai-collaboration, e-commerce, strategy
+- [[cases/case-demand-iceberg-few-shot|需求冰山Few-Shot案例库：奶昔/银发育儿/挂脖空调/马术课]] — yitang, demand-analysis
+- [[cases/case-qinpeng-iot-module-tiering|案例：秦鹏通信模组——从"半价策略"到用户分层+四格服务矩阵的产品内核进化]] — 秦鹏（一堂学员）
+- [[cases/case-truman-praise-wall-precondition|案例：Truman 赞美墙——用"积极情绪前置"为深度工作预热场景质量]] — Truman
+- [[cases/case-truman-shower-toilet-ideation|案例：Truman 洗澡/厕所灵感爆发——暗时间如何在"脑力CPU不饱和"时产出高价值创意]] — Truman
+- [[cases/case-yitang-200th-launch-depth-split|案例：一堂第200期发布会——"先把任务按深度拆开，圆的配圆的时间，方的配方的时间"]] — Truman
+- [[cases/case-yitang-2022-annual-lessons|案例：一堂2022初五大课复盘——用四步闭环管理一堂自己的D级战略项目]] — 老顽童
+- [[cases/case-yitang-chuanhe-seasoning-kernel|案例：川味调料供应链——从"厂家直销"到"买底料+全程帮扶"的六次产品内核迭代]] — 合发（一堂学员）
+- [[cases/case-yitang-curtain-listening|案例：一堂帘子隔音——用物理隔离在开放式办公中创造"可调场景质量"]] — Truman
+- [[cases/case-yitang-leo-website-redesign|案例：Leo 官网改版失败——跳过定方案，用设计师当人肉方案探索工具]] — 老顽童
+- [[cases/case-yitang-meeting-room-match|案例：一堂会议室场景匹配——同一个屋子不同布置，产出效率差一倍]] — Truman
+- [[cases/case-yitang-shishi-qiushi-pitfall-1-subjective-speculation|实事求是十坑·主观臆测：废品回收站从单店成功到多店失败]] — yitang, decision-science
+- [[cases/case-yitang-shishi-qiushi-pitfall-10-over-abstraction|实事求是十坑·过度抽象：问到"下周具体做什么"时答不上来]] — yitang, decision-science
+- [[cases/case-yitang-shishi-qiushi-pitfall-2-ignore-facts|实事求是十坑·忽略事实：小黄狗回收柜烧光融资]] — yitang, decision-science
+- [[cases/case-yitang-shishi-qiushi-pitfall-3-overgeneralization|实事求是十坑·以偏概全：直播电商规模误判]] — yitang, decision-science
+- [[cases/case-yitang-shishi-qiushi-pitfall-4-no-quantification|实事求是十坑·不会定量：在线教育融资扩张失败]] — yitang, decision-science
+- [[cases/case-yitang-shishi-qiushi-pitfall-5-over-prediction|实事求是十坑·过度预测：早期项目 3-10 年精确财务预测]] — yitang, decision-science
+- [[cases/case-yitang-shishi-qiushi-pitfall-6-deny-patterns|实事求是十坑·不信规律：猎头互联网做大的结构性失败]] — yitang, decision-science
+- [[cases/case-yitang-shishi-qiushi-pitfall-7-underestimate-patterns|实事求是十坑·轻视规律：一堂 199 元单课模式试错]] — yitang, decision-science
+- [[cases/case-yitang-shishi-qiushi-pitfall-8-wrong-analogy|实事求是十坑·错误类比：县城 LED 屏对标分众传媒]] — yitang, decision-science
+- [[cases/case-yitang-shishi-qiushi-pitfall-9-methodology-superstition|实事求是十坑·金句迷信：方法论堆叠比不懂更危险]] — yitang, decision-science
+- [[cases/case-yitang-zhongzheng-parking-garage|案例：立体车库——从12车位样机到全自动无人化部署的产品内核迭代]] — 中征（一堂学员）
+- [[concept-card-index-latest|concept-card-index-latest]]
+- [[concepts/concept-jevons-paradox-in-ai|杰文斯悖论在 AI 时代]] — ai-collaboration, economics, strategy
+- [[concepts/concept-token-capital|Token Capital：AI 时代的第三种资本结构]] — ai-native, management, strategy
+- [[concepts/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — Truman
+- [[concepts/concept-一堂-终局光谱图解读|终局光谱图解读：五条读法 + 七段风险/收益量化]] — yitang, opportunity-foresight
+- [[concepts/concept-讲香-卖点直给到价值感|讲香·卖点直给到价值感：为什么十指讲香不是花活]] — yitang, personal-expression
+- [[cross-domain-patterns/README|跨域模式层索引]] — methodology, cross-domain
+- [[cross-domain-patterns/pattern-hypothesis-validation|跨域模式：假设+验证]] — methodology, cross-domain
+- [[cross-domain-patterns/pattern-layered-matching|跨域模式：分层+匹配]] — methodology, cross-domain
+- [[cross-domain-patterns/pattern-tool-vs-model|跨域模式：工具→建模]] — methodology, cross-domain
+- [[dark-knowledges/dk-ai-builder-illusion|Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到 1]] — ai-collaboration, product-design, entrepreneurship
+- [[dark-knowledges/dk-long-material-layered-reading-protocol|长素材分层读取协议：密度×长度选策略 / 子代理外存+行号锚点 / 三道防线]] — personal-os
+- [[dark-knowledges/dk-skill-seven-elements-upgrade|Skill ≠ Prompt——蓝鱼七要素告诉你完整 Skill 缺了什么]] — ai-collaboration, yitang
+- [[dark-knowledges/dk-yihang-ai-false-certainty|AI 错误笃定模式——被设计来回答问题，未被设计来"意识到自己不知道"]] — ai-collaboration, yitang
+- [[dark-knowledges/dk-yihang-multi-ai-cross-validation|多 AI 交叉比对验证法——没有标准答案时用 AI 互校验]] — ai-collaboration, yitang
+- [[dark-knowledges/dk-yihang-non-expert-judgment|非专家判断替代法——不懂的领域用 AI 集群建立可用判断力]] — ai-collaboration, yitang
+- [[dark-knowledges/dk-yihang-technical-domain-aesthetic|严格技术域审美——"对就是对错就是错"域不需要品位，需要验证机制]] — ai-collaboration, yitang
+- [[dark-knowledges/dk-yitang-project-overmanagement-vs-bare-run|过度管理 vs 裸跑的平衡暗知识：匹配工具复杂度与项目复杂度]] — 老顽童（一堂）
+- [[dark-knowledges/yt-product-kernel-cost-sensitive-default-no|成本敏感默认不：高成本低信息的价值项死守不做]] — product, yitang
+- [[dark-knowledges/yt-product-kernel-overpromise-trap|过度承诺陷阱：前端卖了后端做不出来的东西]] — product, yitang
+- [[domains/conversion-rate-domain-digest|域摘要：一堂转化率黑客（关键假设 ABCD 之 D 域·微观效率）]] — yitang, conversion-rate
+- [[frameworks/framework-ai-native-organization-two-modes|AI 原生组织的两种形态：AI 控制台 vs Agent 平台]] — ai-native, management, ai-collaboration
+- [[frameworks/framework-bimodal-time-philosophy|双峰时间哲学模型]] — yitang, time-management
+- [[frameworks/framework-business-formula-dual-triangle-bridge|业务公式×双三角桥接：C域在六顶点中的定位与映射]] — yitang, ai-collaboration, methodology
+- [[frameworks/framework-business-formula-fundamentals-bridge|业务公式×基本功域桥接：同一套操作系统的两个对象]] — yitang, management, methodology
+- [[frameworks/framework-business-formula-y-model-bridge|业务公式×Y模型桥接：关键假设层的全面操作化]] — yitang, decision-science, methodology
+- [[frameworks/framework-deep-work-iceberg|L1-L5 深度工作冰山模型]] — yitang, time-management
+- [[frameworks/framework-demand-ceiling-four-lines|需求天花板四层线：TAM/SAM/SOM/CR1/BEL]] — yitang, demand-analysis
+- [[frameworks/framework-taste-as-judgment-system|品味系统：判断力 × 审美 × 系统思维]] — ai-collaboration, product-design, decision-making
+- [[frameworks/framework-time-management-dual-loop-matrix|时间管理双循环矩阵：独立/协作 × 重点/效率]] — yitang, time-management
+- [[frameworks/framework-time-management-matrix|重要/紧急四象限（艾森豪威尔矩阵）]] — yitang, time-management
+- [[frameworks/framework-yihang-fde-ai-native-org|FDE 工程 × AI 原生组织——用双三角建中国风格 FD 工程师培养体系]] — ai-collaboration, yitang
+- [[frameworks/framework-yitang-project-abcd-classification|项目ABCD复杂度分类：工具跟着复杂度走]] — yitang, management
+- [[frameworks/framework-yitang-project-breakdown|项目拆计划：六维敏感度驱动的科学拆解]] — yitang, management
+- [[frameworks/framework-yitang-project-execution|项目管过程：六大管理手段保障项目落地]] — yitang, management
+- [[frameworks/framework-yitang-project-plan-design|项目定方案：背景-目标-关键路径三段论]] — yitang, management
+- [[frameworks/framework-yitang-project-retrospective|项目复盘：美团16字原则——从经验中挖金矿]] — yitang, management
+- [[frameworks/framework-yitang-sales-target-tradeoffs|销售目标权衡框架]] — 李蕊
+- [[frameworks/framework-yitang-y-model-cross-domain-fusion|Y模型跨域融合框架]] — yitang, decision-science, methodology, ai-collaboration
+- [[frameworks/framework-一堂-12种阻力总表|一堂 12 种阻力总表：定义切分 + 四大类归类 + 底层三参数 + 动嘴/动手/动钱矩阵]] — yitang, conversion-rate
+- [[frameworks/framework-一堂-12触点SABC分级|一堂 12 触点 SABC 分级：完整定义 + 12 触点清单 + 约 50 子分类（易浪费清单）]] — yitang, conversion-rate
+- [[frameworks/framework-一堂-个人表达力|一堂个人表达力总框架：火箭模型×十指讲香×逐字稿]] — yitang, personal-expression
+- [[frameworks/framework-一堂-六大优化原则|一堂六大优化原则：数量 3（触点/密度/号召提升）+ 质量 3（优先/顺序/厚度匹配）]] — yitang, conversion-rate
+- [[frameworks/framework-一堂-关键假设-ABCD模型|一堂关键假设 ABCD 模型（YitangABCDStrategyModel）：四场景 × 成败/效率定位器]] — yitang, key-assumptions
+- [[frameworks/framework-一堂-关键假设-三板斧|一堂关键假设三板斧（骨架）：加法→减法→验证→迭代的收敛逻辑]] — yitang, key-assumptions
+- [[frameworks/framework-一堂-关键假设|framework-一堂-关键假设]]
+- [[frameworks/framework-一堂-动力三曲线|一堂动力三曲线：FAB（60 分）/ 名利权情（70 分）/ 影响力法则（85 分）与使用三原则]] — yitang, conversion-rate
+- [[frameworks/framework-一堂-十指模型|一堂十指模型：左手五化（场景/口语/数字/故事/素材）+ 右手五化（比喻/金句/情绪/冲突/升华）+ 黄宝书完整演示]] — yitang, conversion-rate
+- [[frameworks/framework-一堂-影响力36计|一堂影响力 36 计：6 原则 × 6 强度（A1-F6 全名）+ 两大对齐原则 + 强弱规律 + 段位元规则]] — yitang, conversion-rate
+- [[frameworks/framework-一堂-机会预判|一堂·机会预判：CEO 的预判操作系统（总框架）]] — yitang, opportunity-foresight, five-step-method
+- [[frameworks/framework-一堂-表达力火箭模型|表达力火箭模型：四要素递进]] — yitang, personal-expression
+- [[frameworks/framework-一堂-触点本质论|一堂触点本质论：接触机会点 + 资产隐喻 + 火车货物剥离法 + 假设挖掘三特性]] — yitang, conversion-rate
+- [[frameworks/framework-一堂-转化基本功七个自我修养|一堂转化基本功七个自我修养：从固定拿结果到大量迁移的团队纪律]] — yitang, conversion-rate
+- [[frameworks/framework-一堂-转化率提升六步法|一堂转化率提升六步法：拆解/加法/减法/讲香/组合/制作 + 双模式立论 + 四阶段映射]] — yitang, conversion-rate
+- [[frameworks/framework-一堂-转化率黑客-总纲|一堂转化率黑客总纲：转化率 = 动力 − 阻力 + 触点（关键假设 ABCD 之 D 域·微观效率）]] — yitang, conversion-rate
+- [[frameworks/framework-一堂-转化率黑客爬山地图|一堂转化率黑客爬山地图：六段 L1-L6 能力段位与三次跨越]] — yitang, conversion-rate
+- [[frameworks/framework-一堂-阻力方法论骨架|一堂阻力方法论骨架：两大误区 + 消除深度三层（降低/消除/逆转）+ 消除时机三种（被动/主动/伏笔式）]] — yitang, conversion-rate
+- [[frameworks/framework-一堂五步法-单元模型|一堂五步法·单元模型：斧子/尺子/梯子三角色]] — yitang, five-step-method
+- [[frameworks/framework-一堂五步法-增长周期|一堂五步法·增长周期：获客驱动/系统驱动/对抗驱动三阶段]] — yitang, five-step-method
+- [[frameworks/framework-一堂五步法-壁垒|一堂五步法·壁垒：六大护城河+真假壁垒判断]] — yitang, five-step-method
+- [[frameworks/framework-一堂五步法|一堂五步法：从机会预判到规模化的五步闭环]] — yitang, five-step-method
+- [[frameworks/framework-个人学习方法-IPO学习闭环|IPO学习闭环：Input→Process→Output→Feedback全景]] — yitang, personal-learning
+- [[frameworks/framework-个人学习方法-思维模型|思维模型：项目随时换、模型永生]] — yitang, personal-learning
+- [[frameworks/framework-个人学习方法-知识萃取|知识萃取：碎片经验→可落地模型]] — yitang, personal-learning
+- [[frameworks/framework-个人学习方法-科学提问|科学提问：AI时代提问=生产力入口]] — yitang, personal-learning
+- [[frameworks/framework-个人学习方法总框架|个人学习方法总框架：IPO×四环闭环]] — yitang, personal-learning
+- [[knowledges/knowledge-demand-2b-dictionary|2B需求字典：角色/决策链/采购周期/隐性需求]] — yitang, demand-analysis
+- [[knowledges/knowledge-demand-2c-dictionary|2C需求字典：场景/频次/情感任务/替代方案]] — yitang, demand-analysis
+- [[methods/method-judge-skill-meta-evaluation|Judge Skill——评判 Skill 的 Skill：五维度元评估与3轮迭代法]] — ai-collaboration, yitang
+- [[methods/method-kdo-agent-design-meta|method-kdo-agent-design-meta]]
+- [[methods/method-kdo-agent-distillation|method-kdo-agent-distillation]]
+- [[methods/method-kdo-external-exploration-sop|method-kdo-external-exploration-sop]]
+- [[methods/method-kdo-inbox-annotation|Inbox 素材标注方法——老顽童影子诊断三方法]] — yitang, ai-collaboration
+- [[methods/method-yihang-agent-hr-role|Agent HR 角色（元 Agent）——专门盯着其他 Agent 表现的监督者]] — ai-collaboration, yitang
+- [[methods/method-yihang-dual-triangle-team-assembly|双三角分工拼图——推翻"产品+业务+程序员"，凑齐三个角]] — ai-collaboration, yitang
+- [[methods/method-yihang-human-self-distillation|人侧蒸馏法——把自己的隐性判断一步一步显性化]] — ai-collaboration, yitang
+- [[operations/runbook-agent-spec-to-runtime|Agent Spec → 可运行 Agent 部署路径 Runbook]] — yitang, operations, ai-collaboration
+- [[personal-os/wangyuyan-working-protocols|王语嫣工作协议集]] — personal-os
+- [[personal-os/zhu-codebase-ai-orchestration|老朱代码库AI编排项目]] — personal-os, ai-collaboration
+- [[personal-os/zhu-project-board|老朱项目线看板]] — personal-os
+- [[principles/principle-yitang-y-model-dual-posture|Y模型双姿原则：实事求是校准事实端，解放思想突破理论端]] — yitang, decision-science, methodology
+- [[skills/skill-demand-analysis|需求分析 Skill：冰山推演全流程]] — yitang, demand-analysis
+- [[skills/skill-yitang-project-spiral-thinking|项目螺旋思考法：先顶层再细节、先选择再执行、先确认再推进]] — yitang, management
+- [[tools/agent-spec-codex-teammate|Codex 队友式使用规范]] — ai-collaboration, engineering, agent
+- [[tools/agent-spec-project-management-assistant|项目管理助手 Agent（对话教练版）]] — yitang, management
+- [[tools/tool-IPO学习-输入处理输出工具箱导航|IPO工具箱导航：I/P/O三段工具索引]] — yitang, personal-learning
+- [[tools/tool-agent-spec-business-formula-parameter-miner|业务公式参数挖掘 Agent Spec]] — yitang, methodology, ai-collaboration
+- [[tools/tool-ai-feature-inventory|AI 工具特性清单——原子化 Feature 分类框架]] — 一堂双三角-人机协作模型-口述 L1402-1451
+- [[tools/tool-bimodal-time-blocking|双峰工作块 (Bimodal Time Blocking)]] — yitang, time-management
+- [[tools/tool-dark-time-harvesting|暗时间利用 (Dark Time Harvesting)]] — yitang, time-management
+- [[tools/tool-demand-ceiling-coach|tool-demand-ceiling-coach]]
+- [[tools/tool-demand-chai-tui-ping-suan-guide|tool-demand-chai-tui-ping-suan-guide]]
+- [[tools/tool-demand-micro-experience-script|微观体感访谈脚本生成器：基于L4崩溃点生成5感访谈问题]] — yitang, demand-analysis
+- [[tools/tool-demand-option-explorer|tool-demand-option-explorer]]
+- [[tools/tool-demand-rat-generator|tool-demand-rat-generator]]
+- [[tools/tool-focus-environment-sop|专注环境SOP (Focus Environment SOP)]] — yitang, time-management
+- [[tools/tool-meeting-room-match|会议场域匹配 (Meeting Room Match)]] — yitang, time-management
+- [[tools/tool-open-closed-problem-classifier|开放/封闭问题分类器：判断任务该交给 AI 控制台还是 Agent 平台]] — ai-collaboration, ai-native, decision-making
+- [[tools/tool-oscar-kdo-external-exploration|OSCAR-KDO 融合：一堂 OSCAR 在 KDO 外部探索中的具体落地]] — yitang, research
+- [[tools/tool-public-scheduling|公开排期 (Public Scheduling)]] — yitang, time-management
+- [[tools/tool-task-depth-decomposition|任务深度拆解 (Task Depth Decomposition)]] — yitang, time-management
+- [[tools/tool-team-task-pool|团队任务池 (Team Task Pool)]] — yitang, time-management
+- [[tools/tool-three-ring-capability-filter|cap_hub 三环过滤器——能力注册准入 checklist]] — infrastructure, ai-collaboration
+- [[tools/tool-weekly-hypothesis-experiment|每周假设实验 (Weekly Hypothesis Experiment)]] — yitang, time-management
+- [[tools/tool-yitang-daily-weekly-meeting-hosting|日会 / 周会 SOP 与主持模板]] — 李蕊
+- [[tools/tool-yitang-dual-triangle-agent-handoff-protocol|子域 Agent 转交协议]] — yitang, ai-collaboration
+- [[tools/tool-yitang-dual-triangle-domain-registry|双三角域注册与扩展协议]] — yitang, ai-collaboration
+- [[tools/tool-yitang-dual-triangle-scenario-router|双三角场景路由表]] — yitang, ai-collaboration
+- [[tools/tool-yitang-listening-37-rule|阿里铁军聆听三七法则执行卡]] — 李蕊
+- [[tools/tool-yitang-payment-collection-playbook|回款 / 催款 / 履约阶段 playbook]] — 李蕊
+- [[tools/tool-yitang-project-breakdown-cheatsheet|项目拆计划一页纸小抄]] — yitang, management
+- [[tools/tool-yitang-project-change-decision|项目变化处理判断清单]] — yitang, management
+- [[tools/tool-yitang-project-change-identification|常见项目变化五维识别清单]] — yitang, management
+- [[tools/tool-yitang-project-change-workflow|项目变更处理三步工作流]] — yitang, management
+- [[tools/tool-yitang-project-comm-frequency|不同沟通频次管理手段速查表]] — yitang, management
+- [[tools/tool-yitang-project-comm-matrix|项目沟通方式四象限选择矩阵]] — yitang, management
+- [[tools/tool-yitang-project-communication-plan|项目沟通计划表模板]] — yitang, management
+- [[tools/tool-yitang-project-cost-estimation|项目成本估算三维度清单]] — yitang, management
+- [[tools/tool-yitang-project-gap-analysis|项目复盘七维度差距分析清单]] — yitang, management
+- [[tools/tool-yitang-project-kickoff-meeting|项目启动会设计模板：两小时对齐六件事，后面不用跑断腿]] — yitang, management
+- [[tools/tool-yitang-project-plan-canvas|项目定方案一页纸画布]] — yitang, management
+- [[tools/tool-yitang-project-progress-tracking|项目进度跟进手段选择清单]] — yitang, management
+- [[tools/tool-yitang-project-proposal-checklist|撰写方案细节六项检查清单]] — yitang, management
+- [[tools/tool-yitang-project-resource-escalation|向上要资源的七种类型速查]] — yitang, management
+- [[tools/tool-yitang-project-retro-goal-types|项目复盘目标类型选择清单]] — yitang, management
+- [[tools/tool-yitang-project-retro-value-mining|项目复盘五大价值挖掘清单]] — yitang, management
+- [[tools/tool-yitang-project-risk-discovery|项目常见风险发现七维度清单]] — yitang, management
+- [[tools/tool-yitang-project-risk-response|项目风险四级应对执行清单]] — yitang, management
+- [[tools/tool-yitang-project-unblock-techniques|让卡点更平滑的六种推进手段]] — yitang, management
+- [[tools/tool-yitang-project-weapon-library-v1-8|项目管理武器库V1.8入口索引卡]] — yitang, management
+- [[tools/tool-yitang-retrospective-canvas|项目复盘关键成果画布]] — yitang, management
+- [[tools/tool-yitang-sales-toolkit-maturity-60-75-85|销售工具武器库成熟度盘点]] — 李蕊
+- [[tools/tool-yitang-three-second-opening-scripts|一通电话前三秒话术优化卡]] — 李蕊
+- [[tools/tool-一堂-kernel-six-verification-strategies|聊问查测盘赌 — 产品内核六策略完整操作手册]] — Truman
+- [[tools/tool-一堂-关键假设-ABCD场景分类器|工具：关键假设 ABCD 场景分类器——把问题分到商业/决策/增长/转化并标成败·效率]] — yitang, key-assumptions
+- [[tools/tool-一堂-机会预判-五步法预判|机会预判·五步法预判：选项池收敛为店型剧本 × 五步矩阵（出口]] — yitang, opportunity-foresight, five-step-method
+- [[tools/tool-一堂-机会预判-案例预判|机会预判·案例预判 SOP：定位→列七段→排幻觉→保A争B→硬伤校验]] — yitang, opportunity-foresight
+- [[tools/tool-一堂-表达力火箭模型-执行武器库|表达力火箭模型·执行武器库：四要素操作指南]] — yitang, personal-expression
+- [[tools/tool-一堂五步法-ToB-十八式-checklist|ToB五步法十八式速查：必知必会导航]] — yitang, five-step-method
+- [[tools/tool-一堂五步法-换档检查清单|五步法换档检查清单：每步的验收条件与常见卡点]] — yitang, five-step-method
+- [[tools/tool-一堂五步法-段位升级三部曲|段位升级三部曲自检：从会用到出神入化]] — yitang, five-step-method
+- [[tools/tool-个人学习方法-修炼闭环自检清单|四环修炼闭环自检清单：会学习→会提问→会想→会沉淀]] — yitang, personal-learning
+- [[tools/tool-泛产品设计-出牌指南|泛产品设计·出牌指南]] — yitang, pan-product
+- [[tools/tool-泛产品设计-需求可行性四字诀|泛产品设计·需求可行性四字诀（拆推评算）]] — yitang, pan-product
+- [[workflows/workflow-yitang-project-four-step-loop|项目四步闭环工作流：定方案→拆计划→管过程→做复盘]] — yitang, management
