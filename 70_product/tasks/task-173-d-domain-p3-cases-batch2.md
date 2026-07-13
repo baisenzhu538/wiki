@@ -1,8 +1,8 @@
 ---
 id: task_20260712_wangyuyan-d-domain-p3-cases-batch2
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-13T16:16:59.641957+00:00'
+status: pending_review
+updated_at: '2026-07-13T16:58:08.234681+00:00'
 ---
 # Task #173 · D 域 P3 案例族第二批（阻塞面缩小：仅 1 个 PDF 待回源）
 
