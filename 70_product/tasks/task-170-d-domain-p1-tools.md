@@ -1,8 +1,8 @@
 ---
 id: task_20260712_wangyuyan-d-domain-p1-tools
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-13T10:34:57.456074+00:00'
+status: pending_review
+updated_at: '2026-07-13T10:54:08.826159+00:00'
 ---
 # Task #170 · D 域 P1 工具族第一批（动力+阻力侧 ~12 卡 + 2 既有卡升级）
 
@@ -51,4 +51,36 @@ updated_at: '2026-07-13T10:34:57.456074+00:00'
 - 待王语嫣审查后 pending_review
 
 ## 扫窗申报
-建卡/升级清单 + 其他触及文件 + FAB 卡分工裁定申报
+
+### 新建 12 张 tool 卡（30_wiki/tools/）
+1. `tool-一堂-FAB说服法`
+2. `tool-一堂-名利权情动力法`
+3. `tool-一堂-影响力六原则`
+4. `tool-一堂-心理激励优先机制`
+5. `tool-一堂-阻力消除12策小抄`
+6. `tool-一堂-阻力挖掘方式`
+7. `tool-一堂-阻力三句话心法`
+8. `tool-一堂-马毅阻力消除四部曲`
+9. `tool-一堂-伏笔式消除法`
+10. `tool-一堂-不着急阻力两类消除`
+11. `tool-一堂-动嘴动手动钱成本纪律`
+12. `tool-一堂-七大转化场景自检`
+
+### 升级 2 张既有卡
+- `30_wiki/tools/tool-动力阻力分析.md`：清理 frontmatter（移除 src_unknown/pending_unknown），domain 切为 yitang+conversion-rate，接入 D 域 12 新 tool 卡与 P0 framework 卡，重写 Purpose/Protocol/Anti-patterns/Related/案例区。
+- `30_wiki/concepts/yt-tool-fab-persuasion.md`：与新建 `tool-一堂-FAB说服法` 做分工裁定——**互链不合并**。本卡保留为通用 FAB 框架；新卡聚焦一堂四技巧与本质重定义。已在 Summary 增加分工说明，并在 related 中互链。
+
+### 其他触及文件
+- D 域 framework 卡补 related 回链：`framework-一堂-动力三曲线`、`framework-一堂-12种阻力总表`、`framework-一堂-阻力方法论骨架`、`framework-一堂-转化率提升六步法`、`framework-一堂-十指模型`、`framework-一堂-转化率黑客-总纲`、`framework-一堂-影响力36计`、`framework-一堂-12触点SABC分级`、`framework-一堂-六大优化原则`。
+- `30_wiki/domains/conversion-rate-domain-digest.md`：登记 12 张新 tool 卡。
+- `30_wiki/index.md`：登记 12 张新 tool 卡，更新 `tool-动力阻力分析` source 标签。
+- C-D 桥接顺手修复：`dark-knowledges/dk-yitang-business-formula-cd-loop-undo-key.md`、`frameworks/framework-一堂-业务公式拆解-总纲.md`、`frameworks/framework-一堂-转化率黑客爬山地图.md` 补双向 related。
+
+### 验证结果
+- `python 90_control/scripts/pre_submit.py --files <28 files>`：✅ GATE PASSED — zero new errors on submitted files.
+- `python 90_control/scripts/kdo_lint.py --incremental 30_wiki`：#170 相关文件无新增 error；剩余报错均为五步法相关既有卡片（`tool-一堂-机会预判-五步法预判` 等），不在本任务范围内。
+
+### FAB 卡分工裁定
+- **旧卡 `yt-tool-fab-persuasion.md`**：通用 FAB 框架（Feature→Advantage→Benefit），历史遗留资产，保留在 `concepts/`。
+- **新卡 `tool-一堂-FAB说服法.md`**：一堂课程内 FAB 的本质重定义（事实起点→逻辑节点→价值终点）+ 四大实操技巧（主打点看市场成熟度 / B 场景化 / 挖最终益处忌过度抽象 / 激发痛苦反向说 B）。
+- **裁定**：不合并，两卡 related 互链并注明定位。旧卡不改正文，只做最小升级。
