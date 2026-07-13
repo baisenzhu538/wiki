@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-coach-dialogue-engine-protocol
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-07-13T11:24:18.301887+00:00'
+status: queued
+updated_at: '2026-07-13T11:41:08.628869+00:00'
 ---
 # Task #177 · 一堂教练对话引擎协议卡 + YAI 科学决策实录案例卡
 
@@ -84,3 +84,61 @@ YAI 实证：**三种 agent 用三种控制机制，互不通用**——关键�
 
 ## 扫窗申报
 建卡清单+其他触及文件+对话行号疑点
+
+---
+
+## 终审记录（欧阳锋 · 2026-07-13 · 结论：FAIL / 退回 queued）
+
+### 复验结果
+
+| 验收项 | 方法 | 结果 |
+|:---|:---|:---|
+| 3 卡存在 | glob/ls | method 卡 + 2 case 卡均存在；附加产出 TCPR 卡实际使用既有 `framework-TCPR皇冠模型.md` ⚠️ |
+| pre-submit 4 卡 | `kdo pre-submit -f` method + 2 cases + TCPR | **FAIL** — broken wikilink `[[framework-一堂-TCPR皇冠模型]]` ❌ |
+| 全库 lint | `kdo lint --summary` | **10 new error，23 new warning** ❌ |
+| 内容质量 | 读 method + 2 cases | 协议卡结构完整、YAI 行号证据丰富 ✅；case 卡缺必需节 ❌ |
+
+### 阻塞问题
+
+**问题 1：断链——TCPR 皇冠模型 ID 错配**
+
+`method-一堂-教练对话引擎协议.md` related 指向 `[[framework-一堂-TCPR皇冠模型]]`，但库内实际文件是 `framework-TCPR皇冠模型.md`（id=`framework-TCPR皇冠模型`，无 `一堂-` 前缀）。pre-submit 直接 FAIL。
+
+**问题 2：两张 YAI case 卡 source_refs 为空**
+
+- `case-yitang-yai-scientific-decision-life-direction.md`
+- `case-yitang-yai-conversion-rate-visit-rate.md`
+
+两张卡 frontmatter 的 `source_refs` 完全为空。case 卡铁律：必须引用至少一个源文件。
+
+**问题 3：两张 case 卡缺 4 个必需节**
+
+lint 报缺：
+- `## 关键证据`
+- `## 可迁移场景`
+- `## 教训`
+- `## 失败模式`
+
+**问题 4：3 张新卡未入 index**
+
+lint 报 `method-一堂-教练对话引擎协议` + 两张 case 卡均未在 `30_wiki/index.md` 登记。
+
+**问题 5：method 卡 related 含 TODO 占位**
+
+`<<<TODO: agent-一堂-转化率黑客教练 #172>>>` 和 `<<<TODO: agent-一堂-五步法教练 #180>>>` 是占位符，不是有效 wikilink。pre-submit 未报错是因为它们不是 `[[...]]` 格式，但会污染 related 解析。建议换成真实目标卡或移除。
+
+### 返工口径（黄药师）
+
+1. **修断链**：method 卡 related 中 `[[framework-一堂-TCPR皇冠模型]]` → `[[framework-TCPR皇冠模型]]`；如果确实要新建 `一堂-TCPR皇冠模型` 卡，则创建文件并保持一致，同时处理与既有 `framework-TCPR皇冠模型.md` 的关系；
+2. **补 source_refs**：两张 case 卡引用 YAI 实录文件路径（`C:/Users/Administrator/Desktop/YAI/...` 或整理后的 10_raw 源文件）；
+3. **补 4 个必需节**：两张 case 卡各补 `关键证据` / `可迁移场景` / `教训` / `失败模式`；
+4. **入 index**：3 张新卡登记到 `30_wiki/index.md`；
+5. **清理 TODO 占位**：method 卡 related 中的 `<<<TODO: ...>>>` 改为真实 wikilink 或移除；
+6. 重跑 `kdo pre-submit` 和 `kdo lint --summary`；
+7. 更新本任务单执行报告后，走 `queue_transition.py complete` 重提。
+
+### 终审操作
+
+已通过 `queue_transition.py review task_20260713_wangyuyan-coach-dialogue-engine-protocol --verdict fail --reviewer 欧阳锋` 退回队列。
+
+*欧阳锋 2026-07-13 · #177 终审退回*
