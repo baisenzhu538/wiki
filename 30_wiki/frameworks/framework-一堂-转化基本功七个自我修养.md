@@ -1,4 +1,5 @@
 ---
+
 id: framework-一堂-转化基本功七个自我修养
 title: 一堂转化基本功七个自我修养：从固定拿结果到大量迁移的团队纪律
 type: framework
@@ -34,6 +35,8 @@ related:
 - '[[framework-一堂-触点本质论]]'
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[case-一堂-教研加微信率40到100]]'
+- '[[case-一堂-视频号加微信率44到85]]'
 quality_labels:
 - principle
 - framework

@@ -1,4 +1,5 @@
 ---
+
 id: framework-一堂-十指模型
 title: 一堂十指模型：左手五化（场景/口语/数字/故事/素材）+ 右手五化（比喻/金句/情绪/冲突/升华）+ 黄宝书完整演示
 type: framework
@@ -30,6 +31,7 @@ related:
 - '[[tool-一堂-影响力六原则]]'
 - '[[tool-一堂-七大转化场景自检]]'
 - '[[tool-动力阻力分析]]'
+- '[[case-一堂-组合篇案例库]]'
 quality_labels:
 - principle
 - framework

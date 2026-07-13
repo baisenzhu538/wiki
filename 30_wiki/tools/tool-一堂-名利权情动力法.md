@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-名利权情动力法
 title: 一堂名利权情动力法：名 / 利 / 权 / 情 四张内驱牌
 type: tool
@@ -33,6 +34,11 @@ related:
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[framework-一堂-十指模型]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[case-一堂-入职率50到80-100]]'
+- '[[case-一堂-全会员出圈率1.5翻倍]]'
+- '[[case-一堂-动力篇案例库]]'
+- '[[case-一堂-我请客推荐率5到40]]'
+- '[[case-一堂-跆拳道黑带卡]]'
 quality_labels:
 - cited
 - actionable

@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-动嘴动手动钱成本纪律
 title: 一堂动嘴动手动钱成本纪律：按成本由低到高选择阻力消除手段
 type: tool
@@ -33,6 +34,10 @@ related:
 - '[[tool-一堂-七大转化场景自检]]'
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[case-一堂-晓莉学而思引流课]]'
+- '[[case-一堂-棋牌室办卡率1到5]]'
+- '[[case-一堂-触点篇案例库]]'
+- '[[case-一堂-阻力篇案例库]]'
 quality_labels:
 - cited
 - actionable

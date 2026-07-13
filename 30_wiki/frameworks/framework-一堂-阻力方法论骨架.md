@@ -1,4 +1,5 @@
 ---
+
 id: framework-一堂-阻力方法论骨架
 title: 一堂阻力方法论骨架：两大误区 + 消除深度三层（降低/消除/逆转）+ 消除时机三种（被动/主动/伏笔式）
 type: framework
@@ -39,6 +40,8 @@ related:
 - '[[tool-一堂-伏笔式消除法]]'
 - '[[tool-一堂-不着急阻力两类消除]]'
 - '[[tool-一堂-动嘴动手动钱成本纪律]]'
+- '[[case-一堂-作业率20到50]]'
+- '[[case-一堂-阻力篇案例库]]'
 quality_labels:
 - principle
 - framework

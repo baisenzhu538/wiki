@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-心理激励优先机制
 title: 一堂心理激励优先机制：先名/权/情，后利
 type: tool
@@ -32,6 +33,12 @@ related:
 - '[[tool-一堂-七大转化场景自检]]'
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[case-一堂-作业率20到50]]'
+- '[[case-一堂-全会员出圈率1.5翻倍]]'
+- '[[case-一堂-六杯奶茶推荐率近100]]'
+- '[[case-一堂-动力篇案例库]]'
+- '[[case-一堂-触点篇案例库]]'
+- '[[case-一堂-跆拳道黑带卡]]'
 quality_labels:
 - cited
 - actionable

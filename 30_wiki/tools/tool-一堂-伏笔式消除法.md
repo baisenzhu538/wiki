@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-伏笔式消除法
 title: 一堂伏笔式消除法：提前埋好答案，让阻力不发生
 type: tool
@@ -33,6 +34,9 @@ related:
 - '[[tool-一堂-七大转化场景自检]]'
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[case-一堂-入职率50到80-100]]'
+- '[[case-一堂-晓莉学而思引流课]]'
+- '[[case-一堂-阻力篇案例库]]'
 quality_labels:
 - cited
 - actionable

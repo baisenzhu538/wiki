@@ -1,4 +1,5 @@
 ---
+
 id: tool-动力阻力分析
 title: 动力阻力分析：用户行为的推拉模型
 type: tool
@@ -59,6 +60,10 @@ related:
 - '[[case-yitang-marathon-ten-seasons]]'
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
+- '[[case-一堂-作业率20到50]]'
+- '[[case-一堂-入职率50到80-100]]'
+- '[[case-一堂-我请客推荐率5到40]]'
+- '[[case-一堂-教研加微信率40到100]]'
 updated_at: '2026-07-13'
 ---
 

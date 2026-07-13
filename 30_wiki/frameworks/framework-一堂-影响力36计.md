@@ -1,4 +1,5 @@
 ---
+
 id: framework-一堂-影响力36计
 title: 一堂影响力 36 计：6 原则 × 6 强度（A1-F6 全名）+ 两大对齐原则 + 强弱规律 + 段位元规则
 type: framework
@@ -41,6 +42,12 @@ related:
 - '[[conversion-rate-domain-digest]]'
 - '[[tool-一堂-FAB说服法]]'
 - '[[tool-一堂-影响力六原则]]'
+- '[[case-一堂-入职率50到80-100]]'
+- '[[case-一堂-全会员出圈率1.5翻倍]]'
+- '[[case-一堂-六杯奶茶推荐率近100]]'
+- '[[case-一堂-动力篇案例库]]'
+- '[[case-一堂-我请客推荐率5到40]]'
+- '[[case-一堂-跆拳道黑带卡]]'
 quality_labels:
 - principle
 - framework

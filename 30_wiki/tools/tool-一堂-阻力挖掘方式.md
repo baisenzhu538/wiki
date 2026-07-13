@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-阻力挖掘方式
 title: 一堂阻力挖掘方式：把阻力当关键假设来定位
 type: tool
@@ -33,6 +34,10 @@ related:
 - '[[tool-一堂-七大转化场景自检]]'
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[case-一堂-优秀案例逐字稿合集]]'
+- '[[case-一堂-我请客推荐率5到40]]'
+- '[[case-一堂-视频号加微信率44到85]]'
+- '[[case-一堂-阻力篇案例库]]'
 quality_labels:
 - cited
 - actionable

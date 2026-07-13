@@ -1,4 +1,5 @@
 ---
+
 id: framework-一堂-转化率黑客爬山地图
 title: 一堂转化率黑客爬山地图：六段 L1-L6 能力段位与三次跨越
 type: framework
@@ -27,6 +28,14 @@ related:
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[case-一堂-作业率20到50]]'
+- '[[case-一堂-六杯奶茶推荐率近100]]'
+- '[[case-一堂-动力篇案例库]]'
+- '[[case-一堂-晓莉学而思引流课]]'
+- '[[case-一堂-棋牌室办卡率1到5]]'
+- '[[case-一堂-视频号加微信率44到85]]'
+- '[[case-一堂-触点篇案例库]]'
+- '[[case-一堂-跆拳道黑带卡]]'
 quality_labels:
 - principle
 - framework

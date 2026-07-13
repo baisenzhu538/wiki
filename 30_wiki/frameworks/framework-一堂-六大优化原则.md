@@ -1,4 +1,5 @@
 ---
+
 id: framework-一堂-六大优化原则
 title: 一堂六大优化原则：数量 3（触点/密度/号召提升）+ 质量 3（优先/顺序/厚度匹配）
 type: framework
@@ -30,6 +31,11 @@ related:
 - '[[conversion-rate-domain-digest]]'
 - '[[tool-一堂-七大转化场景自检]]'
 - '[[tool-动力阻力分析]]'
+- '[[case-一堂-动力篇案例库]]'
+- '[[case-一堂-晓莉学而思引流课]]'
+- '[[case-一堂-棋牌室办卡率1到5]]'
+- '[[case-一堂-视频号加微信率44到85]]'
+- '[[case-一堂-跆拳道黑带卡]]'
 quality_labels:
 - principle
 - framework

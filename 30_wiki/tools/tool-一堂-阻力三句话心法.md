@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-阻力三句话心法
 title: 一堂阻力三句话心法：至少降低它 / 争取消除它 / 挑战逆转它
 type: tool
@@ -33,6 +34,9 @@ related:
 - '[[tool-一堂-七大转化场景自检]]'
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[case-一堂-一堂自身转化实践]]'
+- '[[case-一堂-入职率50到80-100]]'
+- '[[case-一堂-阻力篇案例库]]'
 quality_labels:
 - cited
 - actionable
