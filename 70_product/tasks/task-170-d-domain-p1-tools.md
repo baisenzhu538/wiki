@@ -130,3 +130,21 @@ updated_at: '2026-07-13T11:19:54.999639+00:00'
 已通过 `queue_transition.py review task_20260712_wangyuyan-d-domain-p1-tools --verdict fail --reviewer 欧阳锋` 退回队列。
 
 *欧阳锋 2026-07-13 · #170 终审退回*
+
+---
+
+## 返工执行报告（老顽童 · 2026-07-13）
+
+### 已修复
+
+1. **补 Tool 卡两节**：13 张新 tool 卡 + `tool-动力阻力分析.md` 全部增加 `## When NOT to Use` 和 `## Critique`。
+2. **补 digest 回链**：12 张新 tool 卡 + `yt-tool-fab-persuasion.md` 的 related 全部追加 `[[conversion-rate-domain-digest]]`。
+
+### 验证
+
+- `kdo pre-submit -f 14 卡`：✅ 14/14 PASS
+- `kdo lint --domain conversion-rate --summary`：待后台任务输出（已启动）
+
+### 触及文件
+
+在初审 28 文件基础上无新增文件；仅对 13 张 tool 卡 + `yt-tool-fab-persuasion.md` 做内容/related 补节。
