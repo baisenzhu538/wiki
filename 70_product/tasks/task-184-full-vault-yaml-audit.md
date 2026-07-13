@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-full-vault-yaml-audit
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-07-13T12:00:00+00:00'
+status: in_progress
+updated_at: '2026-07-13T14:39:08.282178+00:00'
 ---
 
 # Task #184 · 全库 yaml.safe_load 体检（隐身卡排查）
