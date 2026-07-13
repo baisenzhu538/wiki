@@ -29,6 +29,7 @@ related:
 - '[[framework-一堂-影响力36计]]'
 - '[[framework-一堂-转化基本功七个自我修养]]'
 - '[[framework-一堂-12种阻力总表]]'
+- '[[framework-一堂-阻力方法论骨架]]'
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[conversion-rate-domain-digest]]'
 - '[[tool-动力阻力分析]]'

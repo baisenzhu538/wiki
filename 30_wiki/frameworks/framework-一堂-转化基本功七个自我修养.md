@@ -27,8 +27,11 @@ related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'
 - '[[framework-一堂-动力三曲线]]'
+- '[[framework-一堂-影响力36计]]'
 - '[[framework-一堂-12种阻力总表]]'
+- '[[framework-一堂-阻力方法论骨架]]'
 - '[[framework-一堂-12触点SABC分级]]'
+- '[[framework-一堂-触点本质论]]'
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[conversion-rate-domain-digest]]'
 quality_labels:
