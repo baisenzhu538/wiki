@@ -2,43 +2,43 @@
 id: tool-动力阻力分析
 title: 动力阻力分析：用户行为的推拉模型
 type: tool
-status: reviewed
+status: pending_review
 author: 老顽童
-reviewed_by: 欧阳锋
-confidence: 0.78
-trust_level: medium
+reviewed_by: pending
+confidence: 0.80
+trust_level: medium-high
 language: zh-CN
 domain:
 - yitang
-- decision-science
+- conversion-rate
 source_refs:
-- src_unknown
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L3052-L3054
+- 00_inbox/Handle the business/conversion rate/_vlm_output/images/转化率黑客的爬山地图_vlm.md
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- tool-ai-prd-for-ai
-- concept-X型Y型决策习惯
-- '[[case-yitang-innovative-metrics-collection]]'
-- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
-- '[[case-yitang-woqingke-referral-15-to-40]]'
-- '[[case-yitang-laowenqi-huixiao-10x]]'
-- '[[case-yitang-zhanglei-comic-booth]]'
-- '[[case-yitang-zhanglei-gacha-points]]'
-- '[[case-yitang-shipinhao-ads-l1-l6]]'
-- '[[case-yitang-xingangwan-chess-room]]'
-- '[[case-yitang-wenxiaozhang-driving-school]]'
-- '[[case-yitang-wang-mcn-funnel]]'
-- '[[case-yitang-panhonghai-entertainment]]'
-- '[[concept-一堂-脱离成本]]'
-- '[[case-yitang-marathon-ten-seasons]]'
-- '[[yt-business-formula-six-level-logic]]'
-- '[[yt-business-formula-ten-paradigms]]'
-- '[[yt-business-formula-peahd-roles]]'
-- '[[framework-一堂-业务公式拆解-总纲]]'
-updated_at: '2026-06-29'
+- '[[framework-一堂-转化率黑客-总纲]]'
+- '[[framework-一堂-动力三曲线]]'
+- '[[framework-一堂-12种阻力总表]]'
+- '[[framework-一堂-阻力方法论骨架]]'
+- '[[framework-一堂-12触点SABC分级]]'
+- '[[framework-一堂-转化率提升六步法]]'
+- '[[framework-一堂-六大优化原则]]'
+- '[[framework-一堂-十指模型]]'
+- '[[tool-一堂-FAB说服法]]'
+- '[[tool-一堂-名利权情动力法]]'
+- '[[tool-一堂-影响力六原则]]'
+- '[[tool-一堂-心理激励优先机制]]'
+- '[[tool-一堂-阻力消除12策小抄]]'
+- '[[tool-一堂-阻力挖掘方式]]'
+- '[[tool-一堂-阻力三句话心法]]'
+- '[[tool-一堂-马毅阻力消除四部曲]]'
+- '[[tool-一堂-伏笔式消除法]]'
+- '[[tool-一堂-不着急阻力两类消除]]'
+- '[[tool-一堂-动嘴动手动钱成本纪律]]'
+- '[[tool-一堂-七大转化场景自检]]'
+- '[[conversion-rate-domain-digest]]'
+- '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
+- '[[case-yitang-yewenbin-archery-business-formula]]'
+updated_at: '2026-07-13'
 ---
 # 动力阻力分析：用户行为的推拉模型
 
