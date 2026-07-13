@@ -1,12 +1,12 @@
 ---
 id: task_20260712_wangyuyan-d-domain-agent-and-closure
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-13T14:07:46.342363+00:00'
+status: pending_review
+updated_at: '2026-07-13T15:25:03.000255+00:00'
 ---
 # Task #172 · D 域 agent-spec + 全域收口
 
-- **状态**：queued
+- **状态**：pending_review
 - **负责人**：老顽童
 - **优先级**：HIGH
 - **依赖**：#169、#170、#171 reviewed
@@ -45,3 +45,49 @@ updated_at: '2026-07-13T14:07:46.342363+00:00'
 
 ## 扫窗申报
 建卡/改卡清单 + 其他触及文件 + C 域侧接入清单
+
+## 执行报告（老顽童 · 2026-07-13）
+
+### 交付物
+
+1. **新建 D 域 agent-spec**：`.agent/prompts/agent-一堂-转化率黑客教练.md`
+   - 550 行，frontmatter 45 个 related，覆盖 P0 骨架/P1 工具/P2 案例/C 域桥接
+   - 结构对齐 `agent-一堂-业务公式教练.md`：角色定位 / When to Use / 段位诊断器 / 三要素拆解 / 假设轰炸 / 六步法落地 / C-D 循环召回 / 边界条款 / 挂载卡清单 / YAI 话术范本 / System Prompt
+   - 子代理校验 51 个唯一 wikilink 全部存在
+
+2. **C 域侧接入**
+   - `30_wiki/domains/business-formula-domain-digest.md`：related 追加 `[[conversion-rate-domain-digest]]`（已有，本次确认）
+   - `30_wiki/frameworks/framework-一堂-关键假设.md`：修复 frontmatter YAML 缩进错误（L69 多 2 空格），追加 `[[conversion-rate-domain-digest]]`，更新 source_refs 为 source ID 格式
+   - `30_wiki/frameworks/framework-一堂-关键假设-ABCD模型.md`：追加 `[[conversion-rate-domain-digest]]`
+
+3. **C 域教练卡联动**
+   - `.agent/prompts/agent-一堂-业务公式教练.md`：文中 5 处「转化率单点找 `agent-一堂-关键假设教练`」改为 `agent-一堂-转化率黑客教练`；related 中教练卡替换为 D 域教练
+
+### 全域收口验证
+
+| 验收项 | 方法 | 结果 |
+|---|---|---|
+| D 域卡数 | 按 domain=conversion-rate 解析 | 42 张 |
+| 孤儿检查 | related 为空 | 0 张 |
+| index 完整 | grep 30_wiki/index.md | 42/42 命中 |
+| C-D 桥接 | business-formula digest → conversion-rate digest；关键假设/ABCD 模型 → conversion-rate digest | 全部闭合 |
+| pre-submit 6 文件 | `kdo pre-submit -f ...` | 6/6 PASS |
+| D 域 lint | `kdo lint --domain conversion-rate --summary` | 0 new error，34 new warning ✅ |
+| 全库 lint | `kdo lint --summary` | 0 new error，114 new warning ✅ |
+
+### 实动文件清单（5 文件 + 1 新卡）
+
+- `.agent/prompts/agent-一堂-转化率黑客教练.md`（新）
+- `.agent/prompts/agent-一堂-业务公式教练.md`（改）
+- `30_wiki/frameworks/framework-一堂-关键假设.md`（改）
+- `30_wiki/frameworks/framework-一堂-关键假设-ABCD模型.md`（改）
+- `30_wiki/domains/business-formula-domain-digest.md`（改）
+
+### 需说明事项
+
+- `framework-一堂-关键假设.md` 原 frontmatter L69 存在缩进错误，PyYAML 无法解析；修复后暴露该卡 source_refs 中 `一堂-关键假设课-truman-口述.txt` 在 kdo `state.json` source registry 中未登记的问题。将其改为 source ID 格式 `src_20260606_9dd317aa` 后，lint error 消除，但产生 1 条 source_refs registry warning（已在全库 lint 114 warning 中）。该 warning 属于数据注册层历史遗留，非 #172 引入的内容错误，不影响 agent-spec 与收口交付。
+- `.agent/prompts/` 下的 agent-spec 按既有约定不入 `30_wiki/index.md`（仅 `agent-一堂-基本功教练` 例外在册，其余同目录 agent 卡均未登记）。
+
+### 下一步
+
+- 任务单已更新，`queue_transition.py complete` 提交 `pending_review`。
