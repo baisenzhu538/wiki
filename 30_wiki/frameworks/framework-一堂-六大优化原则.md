@@ -28,6 +28,8 @@ related:
 - '[[framework-一堂-十指模型]]'
 - '[[framework-一堂-12触点SABC分级]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[tool-一堂-七大转化场景自检]]'
+- '[[tool-动力阻力分析]]'
 quality_labels:
 - principle
 - framework

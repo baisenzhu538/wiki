@@ -38,6 +38,7 @@ related:
 - '[[framework-一堂-六大优化原则]]'
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[tool-动力阻力分析]]'
 quality_labels:
 - principle
 - framework

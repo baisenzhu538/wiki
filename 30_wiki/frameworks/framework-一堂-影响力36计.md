@@ -39,6 +39,8 @@ related:
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[framework-一堂-十指模型]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[tool-一堂-FAB说服法]]'
+- '[[tool-一堂-影响力六原则]]'
 quality_labels:
 - principle
 - framework

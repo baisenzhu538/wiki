@@ -28,6 +28,8 @@ related:
 - '[[tool-一堂-FAB说服法]]'
 - '[[tool-一堂-名利权情动力法]]'
 - '[[tool-一堂-影响力六原则]]'
+- '[[tool-一堂-七大转化场景自检]]'
+- '[[tool-动力阻力分析]]'
 quality_labels:
 - principle
 - framework
