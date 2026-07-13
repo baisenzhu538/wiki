@@ -30,6 +30,7 @@ related:
 - '[[tool-一堂-不着急阻力两类消除]]'
 - '[[tool-一堂-动嘴动手动钱成本纪律]]'
 - '[[tool-一堂-七大转化场景自检]]'
+- '[[framework-一堂-转化率提升六步法]]'
 quality_labels:
 - cited
 - actionable

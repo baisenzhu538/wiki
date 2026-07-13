@@ -31,6 +31,7 @@ related:
 - '[[tool-一堂-马毅阻力消除四部曲]]'
 - '[[tool-一堂-伏笔式消除法]]'
 - '[[tool-一堂-七大转化场景自检]]'
+- '[[framework-一堂-转化率提升六步法]]'
 quality_labels:
 - cited
 - actionable
