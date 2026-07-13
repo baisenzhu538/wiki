@@ -15,7 +15,7 @@ domain:
 - key-assumptions
 - methodology
 source_refs:
-- 10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md L22-L80,L364-L402,L584,L818,L962-L982,L1064-L1074,L1560,L1644,L1810,L1982-L1998,L2460-L2482
+- 10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt L22-L80,L364-L402,L584,L818,L962-L982,L1064-L1074,L1560,L1644,L1810,L1982-L1998,L2460-L2482
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt L2474-L2500
 - 00_inbox/一堂-关键假设-关键假设三板斧_paddle_ocr.txt
 - 00_inbox/一堂-关键假设-关键假设ABCD模型_paddle_ocr.txt
