@@ -19,11 +19,9 @@ source_refs:
   - 10_raw/sources/src_20260609_818119f0-ocr-一堂-tcpr模型-皇冠模型.md
   - 70_product/tasks/task-177-coach-dialogue-engine-protocol.md
 related:
-  - '[[framework-一堂-TCPR皇冠模型]]'
+  - '[[framework-TCPR皇冠模型]]'
   - '[[agent-一堂-科学决策教练]]'
   - '[[agent-一堂-业务公式教练]]'
-  - '<<<TODO: agent-一堂-转化率黑客教练 #172>>>'
-  - '<<<TODO: agent-一堂-五步法教练 #180>>>'
   - '[[system-yitang-Y-model-os]]'
   - '[[framework-一堂-关键假设-ABCD模型]]'
 created_at: 2026-07-13
@@ -152,7 +150,7 @@ quality_labels:
 
 ### 理论底座
 
-TCPR 皇冠模型（一堂高阶体系探索营，`framework-一堂-TCPR皇冠模型`）：四种教练身份，域内可切换。YAI Partner 四分类（教学型/咨询型/实践型/研究型）= 该模型的产品化。我们的升级：**身份不绑死 Partner，域内可切换**。
+TCPR 皇冠模型（一堂高阶体系探索营，`[[framework-TCPR皇冠模型]]`）：四种教练身份，域内可切换。YAI Partner 四分类（教学型/咨询型/实践型/研究型）= 该模型的产品化。我们的升级：**身份不绑死 Partner，域内可切换**。
 
 ### 四身份定义
 

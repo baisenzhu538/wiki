@@ -12,6 +12,8 @@ domain:
   - yitang
   - ai-collaboration
   - business-formula
+source_refs:
+  - C:/Users/Administrator/Desktop/YAI/转化率agent对话记录（30消息，智慧药柜电话到访率优化）
 related:
   - '[[method-一堂-教练对话引擎协议]]'
   - '[[framework-一堂-关键假设-ABCD模型]]'
