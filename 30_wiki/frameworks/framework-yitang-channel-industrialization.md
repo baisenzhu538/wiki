@@ -1,5 +1,3 @@
----
-
 id: framework-yitang-channel-industrialization
 type: framework
 title: 渠道工业化生产：让高不确定工作持续高质量交付
@@ -39,9 +37,8 @@ related:
 - "[[tool-区分获客渠道计算单元roi]]"
 - "[[case-yitang-yitang-course-industrialization]]"
 - "[[case-yitang-yitu-lead-industrialization]]"
-  - "[[framework-yitang-research-quality-gate]]"
+- "[[framework-yitang-research-quality-gate]]"
 review_date: '2026-06-28'
----
 
 
 # 渠道工业化生产：让高不确定工作持续高质量交付

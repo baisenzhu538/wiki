@@ -1,4 +1,3 @@
----
 id: case-offline-catering-formula
 title: 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定
 type: case
@@ -30,10 +29,8 @@ related:
 - "[[yt-business-formula-parameter-iceberg]]"
 - "[[yt-entrepreneur-unit-model]]"
 - "[[yt-business-formula-qualitative-metrics-library]]"
-  - "[[case-toc-content-platform-correlation-trap]]"
-  - "[[case-toc-ecommerce-formula-misjudgment]]"
-
----
+- "[[case-toc-content-platform-correlation-trap]]"
+- "[[case-toc-ecommerce-formula-misjudgment]]"
 
 
 # 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定

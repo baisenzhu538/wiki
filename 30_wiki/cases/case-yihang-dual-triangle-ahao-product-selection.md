@@ -1,4 +1,3 @@
----
 id: case-yihang-dual-triangle-ahao-product-selection
 title: 一行双三角案例：阿豪电商选品函数替代模型
 type: case
@@ -36,14 +35,13 @@ related:
 - "[[case-yihang-dual-triangle-beike-ai-outbound]]"
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
-  - '[[case-kdo-agent-factory-dual-triangle-practice]]'
-  - '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
-  - '[[case-yihang-dual-triangle-hardware-patent-rule-explicit]]'
-  - '[[case-yihang-dual-triangle-hotel-tag-sandbox]]'
+- '[[case-kdo-agent-factory-dual-triangle-practice]]'
+- '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
+- '[[case-yihang-dual-triangle-hardware-patent-rule-explicit]]'
+- '[[case-yihang-dual-triangle-hotel-tag-sandbox]]'
 aliases:
 - 阿豪案例
 - 电商选品案例
----
 
 # 一行双三角案例：阿豪电商选品函数替代模型
 

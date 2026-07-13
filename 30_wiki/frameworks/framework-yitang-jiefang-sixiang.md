@@ -1,5 +1,3 @@
----
-
 id: framework-yitang-jiefang-sixiang
 title: 解放思想：不被行业常识和既有框架绑架
 type: framework
@@ -32,13 +30,11 @@ related:
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 - '[[yt-business-formula-six-level-logic]]'
-  - '[[framework-TCPR底层网络协议]]'
-  - '[[framework-kdo-self-attack]]'
-  - '[[framework-yitang-y-model-cross-domain-fusion]]'
+- '[[framework-TCPR底层网络协议]]'
+- '[[framework-kdo-self-attack]]'
+- '[[framework-yitang-y-model-cross-domain-fusion]]'
 created_at: 2026-07-03
 updated_at: '2026-07-04'
-
----
 
 # 解放思想：不被行业常识和既有框架绑架
 

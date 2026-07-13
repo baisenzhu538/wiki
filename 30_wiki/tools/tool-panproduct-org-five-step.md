@@ -1,5 +1,3 @@
----
-
 id: tool-panproduct-org-five-step
 type: tool
 title: 组织场景五步法操作卡
@@ -32,9 +30,8 @@ related:
 - "[[framework-lean-abcd-model]]"
 - "[[framework-ai-accelerated-strategy-cycle]]"
 - "[[framework-yitang-growth-flywheel]]"
-  - "[[tool-逐字稿练习演讲]]"
+- "[[tool-逐字稿练习演讲]]"
 review_date: '2026-06-28'
----
 
 
 # 组织场景五步法操作卡

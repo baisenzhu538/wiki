@@ -1,4 +1,3 @@
----
 id: tool-制作行业化要素检查清单
 title: 技能：制作行业化要素检查清单
 type: tool
@@ -29,9 +28,8 @@ related:
 - '[[tool-遵循规模前倾原则设计组织架构]]'
 - '[[tool-使用优先级快筛卡锁定核心矛盾]]'
 - '[[tool-设计对抗效果追踪看板]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
+- '[[tool-checklist-cheatsheet-modeling]]'
 - tool-ai-prd-for-ai
----
 # 技能：制作行业化要素检查清单
 
 ## 原始表述

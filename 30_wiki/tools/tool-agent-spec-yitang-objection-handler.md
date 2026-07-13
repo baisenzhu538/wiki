@@ -1,4 +1,3 @@
----
 id: tool-agent-spec-yitang-objection-handler
 title: OPC 客户异议处理助手 Agent Spec
 type: tool-agent-spec
@@ -40,14 +39,13 @@ related:
 - '[[tool-agent-spec-yitang-self-motivation]]'
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[tool-agent-spec-yitang-opening-3min]]'
-  - '[[tool-osint-maltego]]'
+- '[[tool-osint-maltego]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: C
 tcp_default_mode: 咨询诊断（Consult）：识别异议类型、优先级与应对策略
 tcp_switch_trigger: 用户要求切换到教学模式（异议类型讲解+案例）、实践模式（直接生成回复话术）或研究模式（异议模式统计/竞品对比）
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：先帮你识别客户异议的真实类型，再给出应对策略与话术草稿。
----
 # OPC 客户异议处理助手 Agent Spec
 
 > **一句话**：读取一段客户对话，识别客户异议的真实类型与优先级，给出「先处理哪个、用什么策略、回什么话、何时该停」的应对建议，但不替创始人发送任何消息或做任何承诺。

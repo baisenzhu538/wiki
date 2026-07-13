@@ -1,4 +1,3 @@
----
 id: tool-按图索骥改良外部模板
 title: 技能：按图索骥改良外部模板
 type: tool
@@ -27,9 +26,8 @@ related:
 - '[[tool-敏捷发布快速迭代搭建体系]]'
 - '[[tool-城市合伙人模式复制能力]]'
 - '[[tool-通过请吃饭获取行业内部资料]]'
-  - '[[tool-strategy-business-design-template]]'
+- '[[tool-strategy-business-design-template]]'
 - tool-ai-prd-for-ai
----
 # 技能：按图索骥改良外部模板
 
 ## 原始表述

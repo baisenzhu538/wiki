@@ -1,4 +1,3 @@
----
 id: case-truman-ai-skill-engineering-guide
 title: 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 type: case
@@ -32,8 +31,8 @@ related:
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-  - '[[case-decision-ai-assisted-vs-human]]'
-  - '[[case-truman-poker-deck-roi]]'
+- '[[case-decision-ai-assisted-vs-human]]'
+- '[[case-truman-poker-deck-roi]]'
 - case-course-milestone-model
 tags:
 - src_unknown
@@ -49,7 +48,6 @@ diagnostic_signals:
   follow_up_question: 你是否找过 1-2 份权威报告/优秀作品，从实用性、宽度、专业性三个维度给你的 Skill 打分？
 - framework_lens: 没有把指南转化为可复用资产
   follow_up_question: 你最近封装新 Skill 时，是否先让 AI 用工程指南做一遍自查？
----
 # 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 
 > **Burn line**: 不是让 AI 随便写个 Skill，而是用工程指南把 AI 的输出质量锁死在你的审美上限。

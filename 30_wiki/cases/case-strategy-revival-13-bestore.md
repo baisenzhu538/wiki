@@ -1,4 +1,3 @@
----
 id: case-strategy-revival-13-bestore
 title: 案例：良品铺子——涨价暴跌→换代言+新媒体+品类拓展+区域扩张
 type: case
@@ -18,14 +17,13 @@ source_refs:
 related:
   - '[[case-strategy-revival-14-gucci]]'
   - '[[case-strategy-snack-industry-chain]]'
-- strategy-domain-digest
-- tool-从案例中学习
-- case-科学决策-深度案例06
-- case-科学决策-深度案例02
-- tool-纪浩-案例池构建法
-- case-科学决策-ROI案例03
-- tool-马易-业务问题AI化拆解-餐饮设计案例法
----
+  - strategy-domain-digest
+  - tool-从案例中学习
+  - case-科学决策-深度案例06
+  - case-科学决策-深度案例02
+  - tool-纪浩-案例池构建法
+  - case-科学决策-ROI案例03
+  - tool-马易-业务问题AI化拆解-餐饮设计案例法
 
 **挫败**：涨价→销售额暴跌。
 

@@ -1,4 +1,3 @@
----
 id: tool-ROI决策评估画布
 title: ROI决策评估画布：三维度投资回报评估模板
 type: tool
@@ -20,13 +19,12 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-canvas-weapon-library-modeling]]'
-  - '[[tool-strategy-blue-ocean-canvas]]'
+- '[[tool-canvas-weapon-library-modeling]]'
+- '[[tool-strategy-blue-ocean-canvas]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
----
 # ROI决策评估画布
 
 ## 一句话定义

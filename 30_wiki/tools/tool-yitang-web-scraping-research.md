@@ -1,4 +1,3 @@
----
 id: tool-yitang-web-scraping-research
 title: 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线
 type: tool
@@ -14,7 +13,7 @@ source_refs:
 related:
 - '[[ai时代判断力口述]]'
 - '[[ai时代判断力口述-3]]'
-  - '[[tool-yitang-weapon-media-search]]'
+- '[[tool-yitang-weapon-media-search]]'
 - web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 - framework-multi-agent-research-architecture
 diagnostic_signals:
@@ -33,7 +32,6 @@ author: 黄药师
 reviewed_by: 欧阳锋
 difficulty: intermediate
 estimated_tokens: 3500
----
 # 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线
 
 > 调研武器库"逆向数据分析"板块的执行层。对应 OSCAR 的 A（获取情报）阶段。

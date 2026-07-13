@@ -1,4 +1,3 @@
----
 id: concept-发现决策
 title: 发现决策：决策不是「做」出来的，是「发现」出来的
 type: concept
@@ -24,19 +23,18 @@ related:
   - '[[concept-科学决策宽度]]'
   - '[[concept-稀缺机会窗口]]'
   - '[[concept-美好作品想象]]'
-- yitang-domain-digest
-- decision-science-domain-digest
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- yt-decision-y-model
-- tool-yitang-Y-model-application
-- dk-yitang-Y-model-pitfalls
-- framework-yitang-shishi-qiushi
-- framework-yitang-jiefang-sixiang
+  - yitang-domain-digest
+  - decision-science-domain-digest
+  - pending_unknown
+  - pending_unknown
+  - pending_unknown
+  - yt-decision-y-model
+  - tool-yitang-Y-model-application
+  - dk-yitang-Y-model-pitfalls
+  - framework-yitang-shishi-qiushi
+  - framework-yitang-jiefang-sixiang
 review_date: '2026-06-29'
 updated_at: '2026-07-03'
----
 # 发现决策
 
 ## 一句话定义

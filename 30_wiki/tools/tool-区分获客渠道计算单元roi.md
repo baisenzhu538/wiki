@@ -1,4 +1,3 @@
----
 id: tool-区分获客渠道计算单元roi
 title: 技能：区分获客渠道计算单元ROI
 type: tool
@@ -31,32 +30,31 @@ related:
 - '[[tool-ai辅助学习]]'
 - '[[tool-将未中标成本纳入循环计算真实投标成本]]'
 - '[[tool-费曼学习法三句话提炼]]'
-  - '[[tool-1视角升级思考法]]'
-  - '[[tool-yitang-channel-industrialization-node-design]]'
-  - '[[tool-yitang-channel-scan-cheat-sheet]]'
-  - '[[tool-yitang-channel-scoring-matrix]]'
-  - '[[tool-yitang-growth-flywheel-design]]'
-  - '[[tool-yitang-industry-channel-arsenal-index]]'
-  - '[[tool-yitang-referral-channel-optimization]]'
-  - '[[tool-三阶追问法穷尽决策要素]]'
-  - '[[tool-专家访谈学习]]'
-  - '[[tool-专题笔记整理]]'
-  - '[[tool-人生红点战略对齐]]'
-  - '[[tool-从案例中学习]]'
-  - '[[tool-代入场景推演要素法]]'
-  - '[[tool-体系框架构建]]'
-  - '[[tool-六维窗口期扫描法]]'
-  - '[[tool-动手建模提炼]]'
-  - '[[tool-复盘推演练习]]'
-  - '[[tool-建立知识联系]]'
-  - '[[tool-按月份摊销收入成本做计划]]'
-  - '[[tool-深度分层学习]]'
-  - '[[tool-清单小抄制作]]'
-  - '[[tool-稀缺资源机会成本比对法]]'
-  - '[[tool-自我反馈检验]]'
+- '[[tool-1视角升级思考法]]'
+- '[[tool-yitang-channel-industrialization-node-design]]'
+- '[[tool-yitang-channel-scan-cheat-sheet]]'
+- '[[tool-yitang-channel-scoring-matrix]]'
+- '[[tool-yitang-growth-flywheel-design]]'
+- '[[tool-yitang-industry-channel-arsenal-index]]'
+- '[[tool-yitang-referral-channel-optimization]]'
+- '[[tool-三阶追问法穷尽决策要素]]'
+- '[[tool-专家访谈学习]]'
+- '[[tool-专题笔记整理]]'
+- '[[tool-人生红点战略对齐]]'
+- '[[tool-从案例中学习]]'
+- '[[tool-代入场景推演要素法]]'
+- '[[tool-体系框架构建]]'
+- '[[tool-六维窗口期扫描法]]'
+- '[[tool-动手建模提炼]]'
+- '[[tool-复盘推演练习]]'
+- '[[tool-建立知识联系]]'
+- '[[tool-按月份摊销收入成本做计划]]'
+- '[[tool-深度分层学习]]'
+- '[[tool-清单小抄制作]]'
+- '[[tool-稀缺资源机会成本比对法]]'
+- '[[tool-自我反馈检验]]'
 - tool-ai-prd-for-ai
 - case-decision-science-topcity-negative-revenue-rank
----
 # 技能：区分获客渠道计算单元ROI
 
 ## 原始表述

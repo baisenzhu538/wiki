@@ -1,4 +1,3 @@
----
 id: framework-yitang-oscar-research
 title: OSCAR调研模型：从目标锁定到正确归因的五步法
 type: framework
@@ -44,10 +43,10 @@ related:
 - "[[method-kdo-external-exploration-sop]]"
 - "[[tool-oscar-kdo-external-exploration]]"
 - "[[yt-research-weaponry-course]]"
-  - "[[framework-multi-agent-research-architecture]]"
-  - "[[framework-yitang-iterative-recursive-digging]]"
-  - "[[framework-yitang-research-quality-gate]]"
-  - "[[framework-yitang-six-layer-cross-validation]]"
+- "[[framework-multi-agent-research-architecture]]"
+- "[[framework-yitang-iterative-recursive-digging]]"
+- "[[framework-yitang-research-quality-gate]]"
+- "[[framework-yitang-six-layer-cross-validation]]"
 diagnostic_signals:
 - signal: 调研启动时无法一句话说清"这次调研要回答什么问题"
   lens: O步骤缺失——目标未锁定
@@ -58,7 +57,6 @@ diagnostic_signals:
 - signal: 每次外部探索用的都是同一套搜索词
   lens: C步骤僵化——清单套模板
   follow-up: 根据本次目标重新设计关键词和来源类型
----
 
 # OSCAR调研模型：从目标锁定到正确归因的五步法
 

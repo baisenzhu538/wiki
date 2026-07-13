@@ -1,4 +1,3 @@
----
 id: tool-yitang-field-research
 title: 实地调研/蹲店：蹲店·谈话·数人头三板斧
 type: tool
@@ -35,10 +34,9 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-yitang-consumer-goods-research]]'
+- '[[tool-yitang-consumer-goods-research]]'
 - framework-doris-industry-report-4step
 - concept-yitang-research-scope
----
 # 实地调研/蹲店：蹲店·谈话·数人头三板斧
 
 > **一句话**：实地调研朴实无华——蹲店、谈话、数人头。只要把这三板斧做好了，就能砍掉90%的认知盲区。瑞幸做空报告动用了92个全职+1400个兼职，靠的就是这三件事。

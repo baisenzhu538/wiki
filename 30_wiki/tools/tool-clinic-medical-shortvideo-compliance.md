@@ -1,4 +1,3 @@
----
 id: tool-clinic-medical-shortvideo-compliance
 title: 诊所医疗短视频/个人 IP 合规边界 checklist
 type: tool
@@ -25,10 +24,9 @@ related:
 - '[[dk-modeling-ai-compound-leverage]]'
 - '[[tool-yitang-content-ip-research]]'
 - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[tool-smart-medicine-cabinet-compliance-checklist]]'
+- '[[tool-smart-medicine-cabinet-compliance-checklist]]'
 - tool-strategy-gap-analysis
 - tool-ai-use-barbell-strategy
----
 ## 操作步骤
 
 

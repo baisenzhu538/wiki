@@ -1,4 +1,3 @@
----
 id: tool-月白-设计能力蒸馏封装法
 title: 技能：设计能力蒸馏封装法
 type: tool
@@ -29,9 +28,8 @@ related:
 - "[[tool-月白-餐饮海报AB测试法]]"
 - "[[tool-月白-线下门店设计复杂度评估]]"
 - "[[tool-月白-控制产品画面尺寸比例]]"
-  - "[[tool-ai-skill-engineering-method]]"
-  - "[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
----
+- "[[tool-ai-skill-engineering-method]]"
+- "[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
 # 技能：设计能力蒸馏封装法
 
 ## 原始表述

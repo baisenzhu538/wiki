@@ -1,5 +1,3 @@
----
-
 id: case-panproduct-lanyi-intern-flywheel
 type: case
 title: 兰毅：实习生成长飞轮的产品化设计
@@ -34,9 +32,8 @@ related:
 - "[[framework-yitang-growth-flywheel]]"
 - "[[framework-lean-abcd-model]]"
 - "[[framework-ai-accelerated-strategy-cycle]]"
-  - "[[case-panproduct-lanyi-dahanghui-team]]"
+- "[[case-panproduct-lanyi-dahanghui-team]]"
 review_date: '2026-06-28'
----
 
 
 # 兰毅：实习生成长飞轮的产品化设计

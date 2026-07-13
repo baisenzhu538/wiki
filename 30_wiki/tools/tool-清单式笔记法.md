@@ -1,4 +1,3 @@
----
 id: tool-清单式笔记法
 title: 技能：清单式笔记法
 type: tool
@@ -29,9 +28,8 @@ related:
 - "[[tool-逐字稿练习演讲]]"
 - "[[tool-费曼学习法实践讲香课题]]"
 - "[[tool-专家访谈十步法]]"
-  - "[[tool-asset-file-naming-convention]]"
-  - "[[tool-checklist-cheatsheet-modeling]]"
----
+- "[[tool-asset-file-naming-convention]]"
+- "[[tool-checklist-cheatsheet-modeling]]"
 # 技能：清单式笔记法
 
 ## 原始表述

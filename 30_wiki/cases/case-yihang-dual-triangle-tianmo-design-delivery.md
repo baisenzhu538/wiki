@@ -1,4 +1,3 @@
----
 id: case-yihang-dual-triangle-tianmo-design-delivery
 title: 一行双三角案例：天末4天商业级室内设计交付
 type: case
@@ -35,14 +34,13 @@ related:
 - "[[case-yihang-dual-triangle-beike-ai-outbound]]"
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
-  - '[[case-kdo-agent-factory-dual-triangle-practice]]'
-  - '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
-  - '[[case-yihang-dual-triangle-hardware-patent-rule-explicit]]'
-  - '[[case-yihang-dual-triangle-hotel-tag-sandbox]]'
+- '[[case-kdo-agent-factory-dual-triangle-practice]]'
+- '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
+- '[[case-yihang-dual-triangle-hardware-patent-rule-explicit]]'
+- '[[case-yihang-dual-triangle-hotel-tag-sandbox]]'
 aliases:
 - 天末案例
 - 设计交付案例
----
 
 # 一行双三角案例：天末 4 天商业级室内设计交付
 

@@ -1,5 +1,3 @@
----
-
 id: tool-strategy-category-role-matrix
 title: 零售品类角色矩阵
 type: tool
@@ -22,8 +20,7 @@ related:
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
-  - "[[tool-strategy-value-capture]]"
----
+- "[[tool-strategy-value-capture]]"
 
 # 零售品类角色矩阵
 

@@ -1,4 +1,3 @@
----
 id: case-bmw-human-ai-collaboration-idle-time
 title: BMW 工厂人机协作案例：idle time 减少 85% 被误读为产能提升 85%
 type: case
@@ -21,18 +20,17 @@ source_refs:
 - 60_feedback/audit/20260701-wobeirushen-validation-report.md
 related:
   - '[[case-ai-writing-homogenization]]'
-- concept-cognitive-offloading-in-ai-era
-- tool-ai-use-barbell-strategy
-- concept-abundance-paradox
-- framework-kdo-self-attack
-- master-decision-hygiene
-- dk-yitang-Y-model-pitfalls
-- case-live81-ai-trademark-design
-- tool-yitang-Y-model-application
-- human-ai-collaboration-double-triangle
+  - concept-cognitive-offloading-in-ai-era
+  - tool-ai-use-barbell-strategy
+  - concept-abundance-paradox
+  - framework-kdo-self-attack
+  - master-decision-hygiene
+  - dk-yitang-Y-model-pitfalls
+  - case-live81-ai-trademark-design
+  - tool-yitang-Y-model-application
+  - human-ai-collaboration-double-triangle
 created_at: 2026-07-04
 updated_at: '2026-07-04'
----
 
 # BMW 工厂人机协作案例：idle time 减少 85% 被误读为产能提升 85%
 

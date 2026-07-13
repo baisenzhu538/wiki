@@ -1,4 +1,3 @@
----
 id: tool-Truman-Skill全生命周期管理
 title: 技能：Skill全生命周期管理
 type: tool
@@ -20,13 +19,12 @@ related:
 - '[[tool-马易-隐性知识萃取与模型化]]'
 - '[[tool-Truman-Feature特性层训练法]]'
 - '[[tool-Truman-数学题与语文题区分法]]'
-  - '[[tool-ai-skill-engineering-guide]]'
-  - '[[tool-ai-skill-engineering-method]]'
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[tool-半肥猫-course-to-skill-workflow]]'
+- '[[tool-ai-skill-engineering-guide]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[tool-yitang-18-strategy-tool-mapping]]'
+- '[[tool-半肥猫-course-to-skill-workflow]]'
 - case-ai-agent-milestone-design
 - tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
----
 # 技能：Skill全生命周期管理
 
 ## 原始表述

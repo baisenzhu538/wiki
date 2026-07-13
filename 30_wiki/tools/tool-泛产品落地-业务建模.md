@@ -1,4 +1,3 @@
----
 id: tool-泛产品落地-业务建模
 title: 落地卡片：业务建模
 type: tool
@@ -20,11 +19,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-demand-four-forces]]'
+- '[[tool-demand-four-forces]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'
----
 # 落地卡片：业务建模
 
 落地卡片：业务建模是泛产品设计落地工具箱中的一项——把产品想法变成可执行动作的具体方法 [conf=0.75, source=原图/VLM描述]。

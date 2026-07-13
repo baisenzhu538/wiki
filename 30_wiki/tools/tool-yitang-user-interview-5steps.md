@@ -1,4 +1,3 @@
----
 id: tool-yitang-user-interview-5steps
 title: 用户访谈五步执行法：画像·场景·信任·提问·判断
 type: tool
@@ -33,10 +32,9 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-yitang-weapon-user-direct-interview]]'
+- '[[tool-yitang-weapon-user-direct-interview]]'
 - tool-yitang-research-deep-attribution
 - tool-yitang-research-cross-validation
----
 # 用户访谈五步执行法：画像·场景·信任·提问·判断
 
 > **一句话**：80%的创业失败源于对用户需求理解不足。用户访谈五步法——先想清楚找谁聊（画像）、在哪聊（场景）、凭什么跟你聊（信任）、怎么问出真话（提问）、怎么判断真伪（判断）。

@@ -1,4 +1,3 @@
----
 id: tool-yitang-social-engineering-research
 title: 社会工程学调研：身份设计与信息获取的合法边界
 type: tool
@@ -34,12 +33,11 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-yitang-consulting-business-research]]'
-  - '[[tool-yitang-weapon-industry-expert]]'
-  - '[[tool-yitang-weapon-user-direct-interview]]'
+- '[[tool-yitang-consulting-business-research]]'
+- '[[tool-yitang-weapon-industry-expert]]'
+- '[[tool-yitang-weapon-user-direct-interview]]'
 - framework-yitang-growth-flywheel
 - tool-yitang-research-continuous-tracking
----
 # 社会工程学调研：身份设计与信息获取的合法边界
 
 > **一句话**：有些信息，你以真实身份永远问不出来。给自己设定一个上下游的合作角色，对方自然就愿意分享——这不是"骗"，是用信息获取的成本换取商业决策的安全边际。

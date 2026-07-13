@@ -1,4 +1,3 @@
----
 id: tool-月白-设计师AI工具习惯切换
 title: 技能：设计师AI工具习惯切换
 type: tool
@@ -29,10 +28,9 @@ related:
 - "[[tool-月白-文创产品AI设计到生产的卡点预判]]"
 - "[[tool-月白-文创材质成本调研与精益选择]]"
 - "[[tool-月白-正向反馈强化AI生成]]"
-  - "[[tool-strategy-blue-ocean-canvas]]"
-  - "[[tool-strategy-industry-chain-analysis]]"
-  - "[[tool-strategy-risk-management]]"
----
+- "[[tool-strategy-blue-ocean-canvas]]"
+- "[[tool-strategy-industry-chain-analysis]]"
+- "[[tool-strategy-risk-management]]"
 # 技能：设计师AI工具习惯切换
 
 ## 原始表述

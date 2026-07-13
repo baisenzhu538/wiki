@@ -1,4 +1,3 @@
----
 id: method-yitang-y-model-engine-cycle
 title: Y模型引擎层：从分析框架到迭代发动机的操作法
 type: method
@@ -35,14 +34,13 @@ related:
 - "[[framework-yitang-y-model-cross-domain-fusion]]"
 - "[[agent-spec-yitang-Y-model-cross-domain-coach]]"
 - "[[principle-yitang-y-model-dual-posture]]"
-  - "[[method-yihang-dual-triangle-ai-review]]"
-  - "[[method-yihang-dual-triangle-deliberate-practice]]"
-  - "[[method-yihang-knowledge-battle-station]]"
-  - "[[method-yitang-y-model-structured-form]]"
+- "[[method-yihang-dual-triangle-ai-review]]"
+- "[[method-yihang-dual-triangle-deliberate-practice]]"
+- "[[method-yihang-knowledge-battle-station]]"
+- "[[method-yitang-y-model-structured-form]]"
 aliases:
 - Y模型迭代发动机
 - Y模型循环操作法
----
 
 # Y模型引擎层：从分析框架到迭代发动机的操作法
 

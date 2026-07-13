@@ -1,5 +1,3 @@
----
-
 id: case-panproduct-lanyi-shidonghui-npc
 type: case
 title: 兰毅：世董会与 NPC 的组织产品化实践
@@ -33,11 +31,10 @@ related:
 - "[[framework-yitang-growth-flywheel]]"
 - "[[framework-lean-abcd-model]]"
 - "[[framework-ai-accelerated-strategy-cycle]]"
-  - "[[case-panproduct-lanyi-dahanghui-team]]"
-  - "[[case-panproduct-lanyi-intern-flywheel]]"
-  - "[[case-roblox-ai-npc-education]]"
+- "[[case-panproduct-lanyi-dahanghui-team]]"
+- "[[case-panproduct-lanyi-intern-flywheel]]"
+- "[[case-roblox-ai-npc-education]]"
 review_date: '2026-06-28'
----
 
 
 # 兰毅：世董会与 NPC 的组织产品化实践

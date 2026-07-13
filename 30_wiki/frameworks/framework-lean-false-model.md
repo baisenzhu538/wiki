@@ -1,4 +1,3 @@
----
 id: framework-lean-false-model
 title: 一堂 FALSE/FLESAI 低成本验证模型
 type: framework
@@ -31,16 +30,15 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[framework-ai-accelerated-strategy-cycle]]'
-  - '[[framework-decision-quality-checklist]]'
-  - '[[framework-demand-lean-bridge]]'
-  - '[[framework-five-step-lean-interface]]'
-  - '[[framework-lean-four-principles]]'
-  - '[[framework-strategy-lean-validation]]'
+- '[[framework-ai-accelerated-strategy-cycle]]'
+- '[[framework-decision-quality-checklist]]'
+- '[[framework-demand-lean-bridge]]'
+- '[[framework-five-step-lean-interface]]'
+- '[[framework-lean-four-principles]]'
+- '[[framework-strategy-lean-validation]]'
 - tool-lean-minimum-version
 - tool-lean-premium-service
 created_at: '2026-06-30'
----
 # 一堂 FALSE/FLESAI 低成本验证模型
 
 > 用一条成本光谱，把"不做产品直接验证"到"全量投入"之间的所有中间策略串起来，帮助创业者在确定性不足时选择最省钱的验证路径。

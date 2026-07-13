@@ -1,4 +1,3 @@
----
 id: framework-lean-six-wastes
 title: 创业六宗罪 / 六大浪费
 type: framework
@@ -26,14 +25,13 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[framework-lean-four-principles]]'
+- '[[framework-lean-four-principles]]'
 - case-lean-building-in-vacuum
 quality_labels:
 - principle
 - validated
 updated_at: '2026-06-29'
 created_at: '2026-06-30'
----
 # 创业六宗罪 / 六大浪费
 
 ## 一句话定义

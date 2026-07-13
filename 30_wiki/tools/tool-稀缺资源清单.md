@@ -1,4 +1,3 @@
----
 id: tool-稀缺资源清单
 title: 稀缺资源清单：识别和配置决策中的关键约束
 type: tool
@@ -19,11 +18,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-checklist-cheatsheet-modeling]]'
+- '[[tool-checklist-cheatsheet-modeling]]'
 - tool-ai-prd-for-ai
 - concept-X型Y型决策习惯
 updated_at: '2026-06-29'
----
 # 稀缺资源清单
 
 ## 一句话定义

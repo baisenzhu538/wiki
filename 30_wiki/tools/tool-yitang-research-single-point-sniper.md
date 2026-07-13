@@ -1,4 +1,3 @@
----
 id: tool-yitang-research-single-point-sniper
 title: 单点狙击：聚焦关键问题的深度验证
 type: tool
@@ -40,13 +39,11 @@ related:
 - "[[case-yitang-sanjieke-benchmark-failure]]"
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[concept-yitang-research-mindset]]"
-  - "[[tool-strategy-value-proposition]]"
-  - "[[tool-yitang-product-full-experience]]"
-  - "[[tool-yitang-research-competitive-quadrant]]"
-  - "[[tool-yitang-research-deep-attribution]]"
-  - "[[tool-yitang-research-quantitative-modeling]]"
-
----
+- "[[tool-strategy-value-proposition]]"
+- "[[tool-yitang-product-full-experience]]"
+- "[[tool-yitang-research-competitive-quadrant]]"
+- "[[tool-yitang-research-deep-attribution]]"
+- "[[tool-yitang-research-quantitative-modeling]]"
 
 # 单点狙击：聚焦关键问题的深度验证
 

@@ -1,4 +1,3 @@
----
 id: tool-马易-最小场景优先落地法
 title: 技能：最小场景优先落地法
 type: tool
@@ -24,13 +23,12 @@ related:
   - '[[tool-马易-关键假设识别与验证]]'
   - '[[tool-马易-判断标准快速产出法]]'
   - '[[tool-马易-时间序列大模型场景识别]]'
-- tool-马易-AI能力团队复制
-- tool-马易-AI任务拆解提升控制度
-- tool-马易-AI答疑运营风格适配
-- tool-马易-隐私安全分层解决
-- tool-马易-AIGC项目ROI评估
-- tool-yitang-bp-analysis
----
+  - tool-马易-AI能力团队复制
+  - tool-马易-AI任务拆解提升控制度
+  - tool-马易-AI答疑运营风格适配
+  - tool-马易-隐私安全分层解决
+  - tool-马易-AIGC项目ROI评估
+  - tool-yitang-bp-analysis
 # 技能：最小场景优先落地法
 
 ## 原始表述

@@ -1,4 +1,3 @@
----
 id: case-lean-genki-forest-toolkit
 title: 元气森林试错工具箱
 type: case
@@ -23,9 +22,8 @@ related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
-  - '[[case-dutch-childcare-scandal]]'
+- '[[case-dutch-childcare-scandal]]'
 - case-cross-yuanqi-forest
----
 # 元气森林试错工具箱
 
 ## 核心洞察

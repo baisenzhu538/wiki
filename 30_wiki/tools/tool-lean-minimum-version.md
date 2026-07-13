@@ -1,5 +1,3 @@
----
-
 id: tool-lean-minimum-version
 title: 只发布最小版本
 type: tool
@@ -22,12 +20,11 @@ related:
 - "[[strategy-domain-digest]]"
 - "[[yitang-domain-digest]]"
 - "[[pending_unknown]]"
-  - "[[tool-lean-ai-accelerated-validation]]"
-  - "[[tool-lean-human-replace-rnd]]"
-  - "[[tool-lean-presell]]"
+- "[[tool-lean-ai-accelerated-validation]]"
+- "[[tool-lean-human-replace-rnd]]"
+- "[[tool-lean-presell]]"
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
----
 
 # 只发布最小版本
 

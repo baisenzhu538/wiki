@@ -1,4 +1,3 @@
----
 id: tool-demand-iceberg-l6-hypothesis
 title: L6需求假设：机会卡片+最危险假设(RAT)
 type: tool
@@ -32,14 +31,13 @@ related:
 - '[[framework-strategy-pyramid]]'
 - '[[framework-yitang-channel-exploration-4step]]'
 - '[[case-strategy-retailer-activity-scope]]'
-  - '[[tool-demand-chai-tui-ping-suan-guide]]'
-  - '[[tool-demand-iceberg-l5-forces]]'
-  - '[[tool-demand-micro-experience-script]]'
-  - '[[tool-demand-option-explorer]]'
-  - '[[tool-demand-rat-generator]]'
-  - '[[tool-demand-report-template]]'
+- '[[tool-demand-chai-tui-ping-suan-guide]]'
+- '[[tool-demand-iceberg-l5-forces]]'
+- '[[tool-demand-micro-experience-script]]'
+- '[[tool-demand-option-explorer]]'
+- '[[tool-demand-rat-generator]]'
+- '[[tool-demand-report-template]]'
 - tool-yitang-research-validate-assumption
----
 # L6需求假设
 
 > L1-L5是深挖问题空间，L6是提出可验证的赌注。目标不是设计功能——是找到那个值得投入的假设，以及"什么情况下这个假设是错的"。

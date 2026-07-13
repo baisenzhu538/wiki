@@ -1,4 +1,3 @@
----
 id: tool-提问刻意练习画布
 title: 提问刻意练习画布：L1-L4四级提问能力进阶
 type: tool
@@ -19,12 +18,11 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-canvas-weapon-library-modeling]]'
-  - '[[tool-strategy-blue-ocean-canvas]]'
+- '[[tool-canvas-weapon-library-modeling]]'
+- '[[tool-strategy-blue-ocean-canvas]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'
----
 # 提问刻意练习画布
 
 ## 一句话定义

@@ -1,4 +1,3 @@
----
 id: concept-ai-neutrality-bias
 title: 中立的暴政
 type: concept
@@ -23,14 +22,13 @@ related:
 - '[[framework-wanghuan-ooda-loop]]'
 - '[[framework-wanghuan-gan-three-roles]]'
 - '[[concept-ai-chair-determines-view]]'
-  - '[[concept-ai-amara-law-business-judgment]]'
+- '[[concept-ai-amara-law-business-judgment]]'
 quality_labels:
 - cited
 - principle
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
----
 # 中立的暴政
 
 > 一句话："技术本质上是中立的"这句看似理性的话，实际上把责任转嫁给使用者、遮蔽权力结构、并把维持现状包装成默认选项——最精明的立场，就是假装没有立场。

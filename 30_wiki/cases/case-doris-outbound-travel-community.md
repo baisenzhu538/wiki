@@ -1,4 +1,3 @@
----
 id: case-doris-outbound-travel-community
 title: 案例：出境游产业链拆解
 type: case
@@ -19,10 +18,9 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[pending_unknown]]'
-  - '[[case-truman-ai-skill-self-packaging]]'
+- '[[case-truman-ai-skill-self-packaging]]'
 - case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
----
 # 案例：出境游产业链拆解
 
 **调研**：Doris团队需要快速理解出境游行业的产业链结构和市场格局。

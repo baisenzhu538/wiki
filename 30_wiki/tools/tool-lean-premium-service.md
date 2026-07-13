@@ -1,5 +1,3 @@
----
-
 id: tool-lean-premium-service
 title: 超值服务：用 VIP 服务验证标准服务
 type: tool
@@ -22,12 +20,11 @@ related:
 - "[[yitang-domain-digest]]"
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
-  - "[[tool-lean-fake-marketing]]"
-  - "[[tool-lean-fake-product]]"
-  - "[[tool-lean-human-replace-system]]"
+- "[[tool-lean-fake-marketing]]"
+- "[[tool-lean-fake-product]]"
+- "[[tool-lean-human-replace-system]]"
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
----
 
 # 超值服务：用 VIP 服务验证标准服务
 

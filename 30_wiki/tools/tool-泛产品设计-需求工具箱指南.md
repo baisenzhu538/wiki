@@ -1,4 +1,3 @@
----
 id: tool-泛产品设计-需求工具箱指南
 title: 需求工具箱指南
 type: tool
@@ -20,15 +19,14 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
-  - '[[tool-demand-iceberg-l2-scenario]]'
-  - '[[tool-strategy-blue-ocean-canvas]]'
-  - '[[tool-strategy-industry-chain-analysis]]'
-  - '[[tool-strategy-risk-management]]'
+- '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+- '[[tool-demand-iceberg-l2-scenario]]'
+- '[[tool-strategy-blue-ocean-canvas]]'
+- '[[tool-strategy-industry-chain-analysis]]'
+- '[[tool-strategy-risk-management]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'
----
 # 需求工具箱指南
 
 需求工具箱指南是泛产品设计工具箱中的一项——把产品想法变成可执行动作的具体方法 [conf=0.75, source=原图/VLM描述]。

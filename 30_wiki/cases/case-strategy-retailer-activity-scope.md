@@ -1,4 +1,3 @@
----
 id: case-strategy-retailer-activity-scope
 title: 零售商 A/B/C：客户选择、价值主张与活动范围的三角对齐
 type: case
@@ -21,10 +20,9 @@ related:
 - '[[strategy-domain-digest]]'
 - '[[case-strategy-walmart-vs-costco-pyramid]]'
 - '[[tool-三层目标对齐法]]'
-  - '[[case-truman-ai-skill-self-packaging]]'
+- '[[case-truman-ai-skill-self-packaging]]'
 - yt-business-model-canvas
 - kdo-protocol-implementation-roadmap
----
 **对比矩阵**：三个零售商分别选择不同客户群体，价值主张和活动范围随之不同。
 
 ## 背景

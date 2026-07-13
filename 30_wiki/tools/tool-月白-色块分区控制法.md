@@ -1,4 +1,3 @@
----
 id: tool-月白-色块分区控制法
 title: 技能：色块分区控制法
 type: tool
@@ -26,12 +25,11 @@ confidence: 0.6
 trust_level: low
 related:
   - '[[tool-月白-跨境电商产品图替换法]]'
-- tool-月白-印刷DPI标准设置
-- tool-月白-竞品图精益替换法
-- tool-月白-AI图片印刷落地预处理
-- tool-月白-眼高手低训练法
-- tool-月白-PS图层规范管理
----
+  - tool-月白-印刷DPI标准设置
+  - tool-月白-竞品图精益替换法
+  - tool-月白-AI图片印刷落地预处理
+  - tool-月白-眼高手低训练法
+  - tool-月白-PS图层规范管理
 # 技能：色块分区控制法
 
 ## 原始表述

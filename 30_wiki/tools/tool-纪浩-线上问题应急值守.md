@@ -1,4 +1,3 @@
----
 id: tool-纪浩-线上问题应急值守
 title: 技能：线上问题应急值守
 type: tool
@@ -22,11 +21,10 @@ related:
 - "[[tool-纪浩-评估AI从零写UI的可行性]]"
 - "[[tool-纪浩-问题导向备课法]]"
 - "[[tool-纪浩-识别AI不可维护代码]]"
-  - "[[tool-demand-iceberg-l2-scenario]]"
-  - "[[tool-纪浩-多视角切换思考法]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[tool-纪浩-里程碑验证法]]"
----
+- "[[tool-demand-iceberg-l2-scenario]]"
+- "[[tool-纪浩-多视角切换思考法]]"
+- "[[tool-纪浩-案例池构建法]]"
+- "[[tool-纪浩-里程碑验证法]]"
 # 技能：线上问题应急值守
 
 - src_unknown

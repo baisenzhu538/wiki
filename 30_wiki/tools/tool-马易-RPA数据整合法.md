@@ -1,4 +1,3 @@
----
 id: tool-马易-RPA数据整合法
 title: 技能：RPA数据整合法
 type: tool
@@ -23,13 +22,12 @@ related:
   - '[[tool-马易-销售智能体体系搭建路径]]'
   - '[[tool-马易-需求创造验证法]]'
   - '[[tool-马易-风口痛点识别法]]'
-- tool-马易-AI能力团队复制
-- tool-马易-AI任务拆解提升控制度
-- tool-马易-AI答疑运营风格适配
-- tool-马易-隐私安全分层解决
-- tool-马易-AIGC项目ROI评估
-- tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi
----
+  - tool-马易-AI能力团队复制
+  - tool-马易-AI任务拆解提升控制度
+  - tool-马易-AI答疑运营风格适配
+  - tool-马易-隐私安全分层解决
+  - tool-马易-AIGC项目ROI评估
+  - tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi
 # 技能：RPA数据整合法
 
 ## 原始表述

@@ -1,4 +1,3 @@
----
 id: tool-纪浩-处理AI生成代码运行异常
 title: 技能：处理AI生成代码运行异常
 type: tool
@@ -24,7 +23,7 @@ related:
 - "[[tool-月白-电商白底图生成与高清处理]]"
 - "[[tool-月白-AI图片去文字处理]]"
 - "[[tool-马易-低置信度样本黄金漏斗处理]]"
-  - "[[tool-纪浩-Problem与Question区分法]]"
+- "[[tool-纪浩-Problem与Question区分法]]"
 diagnostic_signals:
 - lens: 排查无头绪
   follow_up: 先确认异常现象和复现路径。没有复现路径的问题无法修复
@@ -36,7 +35,6 @@ diagnostic_signals:
   follow_up: 排查环境差异（依赖版本、系统配置、权限等）。脚本化环境配置，确保一致性
 - lens: 经验不沉淀
   follow_up: 每次异常修复后记录到日志和经验库。沉淀的异常处理经验是宝贵资产
----
 
 # 技能：处理AI生成代码运行异常
 

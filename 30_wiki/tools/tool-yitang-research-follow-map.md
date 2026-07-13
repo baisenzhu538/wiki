@@ -1,4 +1,3 @@
----
 id: tool-yitang-research-follow-map
 title: 按图索骥：根据定位寻找对标案例
 type: tool
@@ -42,12 +41,10 @@ related:
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[dk-yitang-survivor-bias-in-research]]"
 - "[[concept-yitang-research-mindset]]"
-  - "[[tool-doris-industry-report-search-tips]]"
-  - "[[tool-yitang-product-full-experience]]"
-  - "[[tool-yitang-research-deep-attribution]]"
-  - "[[tool-yitang-research-quantitative-modeling]]"
-
----
+- "[[tool-doris-industry-report-search-tips]]"
+- "[[tool-yitang-product-full-experience]]"
+- "[[tool-yitang-research-deep-attribution]]"
+- "[[tool-yitang-research-quantitative-modeling]]"
 
 # 按图索骥：根据定位寻找对标案例
 

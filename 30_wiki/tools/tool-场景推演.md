@@ -1,4 +1,3 @@
----
 id: tool-场景推演
 title: 场景推演：还原用户真实使用场景
 type: tool
@@ -20,11 +19,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-strategy-customer-selection]]'
+- '[[tool-strategy-customer-selection]]'
 - tool-ai-prd-for-ai
 - concept-X型Y型决策习惯
 updated_at: '2026-06-29'
----
 # 场景推演：还原用户真实使用场景
 
 ## 一句话定义

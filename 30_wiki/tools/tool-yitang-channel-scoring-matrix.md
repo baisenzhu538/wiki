@@ -1,5 +1,3 @@
----
-
 id: tool-yitang-channel-scoring-matrix
 type: tool
 title: 渠道预判评分矩阵：科学排序候选渠道
@@ -38,11 +36,10 @@ related:
 - "[[tool-yitang-channel-partnership-design]]"
 - "[[case-yitang-goat-milk-channel-partnership]]"
 - "[[framework-yitang-channel-partnership-map]]"
-  - "[[tool-yitang-channel-industrialization-node-design]]"
-  - "[[tool-yitang-industry-channel-arsenal-index]]"
-  - "[[tool-yitang-referral-channel-optimization]]"
+- "[[tool-yitang-channel-industrialization-node-design]]"
+- "[[tool-yitang-industry-channel-arsenal-index]]"
+- "[[tool-yitang-referral-channel-optimization]]"
 review_date: '2026-06-28'
----
 
 
 # 渠道预判评分矩阵：科学排序候选渠道

@@ -1,5 +1,3 @@
----
-
 id: case-yitang-amazon-growth-flywheel
 type: case
 title: 案例：亚马逊增长飞轮的五层逻辑
@@ -32,9 +30,8 @@ related:
 - "[[case-yitang-topcity-growth-flywheel]]"
 - "[[case-yitang-novel-app-flywheel]]"
 - "[[tool-区分获客渠道计算单元roi]]"
-  - "[[case-yitang-yitang-shortvideo-industrialization]]"
+- "[[case-yitang-yitang-shortvideo-industrialization]]"
 review_date: '2026-06-28'
----
 
 
 # 案例：亚马逊增长飞轮的五层逻辑

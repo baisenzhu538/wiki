@@ -1,4 +1,3 @@
----
 id: tool-马易-平台模式验证法
 title: 技能：平台模式验证法
 type: tool
@@ -24,14 +23,13 @@ related:
   - '[[tool-马易-知识库-回答技巧双建设]]'
   - '[[tool-马易-视频转化关键要素标注校验]]'
   - '[[tool-马易-风口痛点识别法]]'
-- tool-马易-AI能力团队复制
-- tool-马易-AI任务拆解提升控制度
-- tool-马易-AI答疑运营风格适配
-- tool-马易-隐私安全分层解决
-- tool-马易-AIGC项目ROI评估
-- yt-panproduct-demand-user-perspective
-- tool-yitang-ai-report-drafting
----
+  - tool-马易-AI能力团队复制
+  - tool-马易-AI任务拆解提升控制度
+  - tool-马易-AI答疑运营风格适配
+  - tool-马易-隐私安全分层解决
+  - tool-马易-AIGC项目ROI评估
+  - yt-panproduct-demand-user-perspective
+  - tool-yitang-ai-report-drafting
 # 技能：平台模式验证法
 
 ## 原始表述

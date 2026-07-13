@@ -1,4 +1,3 @@
----
 id: framework-strategy-brm
 title: 冉鹏版 BRM 框架（源于 IBM BLM 方法论）
 type: framework
@@ -32,10 +31,9 @@ source_refs:
 - src_unknown
 related:
   - '[[framework-strategy-basics-01-core]]'
-- tool-strategy-gap-analysis
-- case-strategy-exit-remove
+  - tool-strategy-gap-analysis
+  - case-strategy-exit-remove
 updated_at: '2026-07-04'
----
 # 冉鹏版 BRM 框架（源于 IBM BLM 方法论）
 
 > ⚠️ 注意：国际通行的"BRM"= Business Relationship Management（IT与业务关系管理），是另一个领域。冉鹏的 BRM 源于他在 IBM 担任咨询总监时所学的 BLM (Business Leadership Model)，经过30年中国实战改编。华为"五看三定"就是 BLM 的中国版本。

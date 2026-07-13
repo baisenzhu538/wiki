@@ -1,4 +1,3 @@
----
 id: tool-Truman-多Agent通信协作方案
 title: 技能：多Agent通信协作方案
 type: tool
@@ -20,12 +19,11 @@ related:
 - '[[tool-Truman-开源模型与商业模型融合方案]]'
 - '[[tool-Truman-AI场景探索STAR模型]]'
 - '[[tool-Truman-数学题与语文题区分法]]'
-  - '[[tool-Truman-复杂项目AI落地稳定性保障]]'
-  - '[[tool-Truman-本地记忆与云端记忆管理]]'
-  - '[[tool-纪浩-Agent开工检查单制作法]]'
+- '[[tool-Truman-复杂项目AI落地稳定性保障]]'
+- '[[tool-Truman-本地记忆与云端记忆管理]]'
+- '[[tool-纪浩-Agent开工检查单制作法]]'
 - tool-纪浩-项目启动五问法
 - tool-ai-ai-workspace-setup
----
 # 技能：多Agent通信协作方案
 
 ## 原始表述

@@ -1,4 +1,3 @@
----
 id: tool-demand-iceberg-l4-job-map
 title: L4任务地图：全流程8步推演+摩擦点识别
 type: tool
@@ -22,12 +21,11 @@ related:
 - '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
 - '[[tool-通过综合案例沙盘走通全流程]]'
 - '[[tool-demand-iceberg-l5-forces]]'
-  - '[[tool-demand-agent-l4-case-match]]'
-  - '[[tool-demand-iceberg-l3-core-job]]'
-  - '[[tool-demand-micro-experience-script]]'
+- '[[tool-demand-agent-l4-case-match]]'
+- '[[tool-demand-iceberg-l3-core-job]]'
+- '[[tool-demand-micro-experience-script]]'
 - proposal-prompt-injection-infrastructure
 - business-research-skill-oscar-13-weapon-system
----
 # L4任务地图
 
 > 任务地图≠用户旅程。用户旅程关注"用户和产品的触点"，任务地图关注"用户要完成任务的完整过程——包括用土办法的阶段"。目标是找到那个让用户产生"崩溃感"的切入机会。

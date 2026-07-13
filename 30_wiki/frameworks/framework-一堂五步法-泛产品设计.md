@@ -1,4 +1,3 @@
----
 id: framework-一堂五步法-泛产品设计
 title: 一堂五步法在泛产品设计中的应用
 type: framework
@@ -31,28 +30,27 @@ source_person: 一堂 / 兰毅
 related:
   - '[[framework-candy-transcript-workflow]]'
   - '[[framework-一堂五步法-增长周期]]'
-- framework-lean-abcd-model
-- tool-ai-deliverable-polish-loop
-- framework-ai-accelerated-strategy-cycle
-- framework-pan-product-organization
-- yt-model-pan-product-three-virtues
-- case-live81-ai-trademark-design
-- yt-composite-pan-product-methodology
-- framework-yitang-five-step-to-time-management
-- tool-scene-design-language-translation
-- framework-yitang-scientific-sales-five-step
-- tool-yitang-customer-segmentation-4step
-- tool-yitang-value-proposition-4step
-- tool-yitang-sales-process-decomposition
-- case-yitang-sales-transformation-jubensha-saas
-- case-yitang-sales-transformation-meirongyuan
-- case-yitang-sales-transformation-tuliaogongsi
-- yt-decision-y-model
-- tool-yitang-Y-model-application
-- case-yitang-Y-model-advertising-turnaround
-- framework-yitang-y-model-cross-domain-fusion
-- agent-spec-yitang-Y-model-cross-domain-coach
----
+  - framework-lean-abcd-model
+  - tool-ai-deliverable-polish-loop
+  - framework-ai-accelerated-strategy-cycle
+  - framework-pan-product-organization
+  - yt-model-pan-product-three-virtues
+  - case-live81-ai-trademark-design
+  - yt-composite-pan-product-methodology
+  - framework-yitang-five-step-to-time-management
+  - tool-scene-design-language-translation
+  - framework-yitang-scientific-sales-five-step
+  - tool-yitang-customer-segmentation-4step
+  - tool-yitang-value-proposition-4step
+  - tool-yitang-sales-process-decomposition
+  - case-yitang-sales-transformation-jubensha-saas
+  - case-yitang-sales-transformation-meirongyuan
+  - case-yitang-sales-transformation-tuliaogongsi
+  - yt-decision-y-model
+  - tool-yitang-Y-model-application
+  - case-yitang-Y-model-advertising-turnaround
+  - framework-yitang-y-model-cross-domain-fusion
+  - agent-spec-yitang-Y-model-cross-domain-coach
 # 一堂五步法在泛产品设计中的应用
 
 ## 一句话

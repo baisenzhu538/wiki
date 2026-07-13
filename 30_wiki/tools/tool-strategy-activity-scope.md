@@ -1,4 +1,3 @@
----
 id: tool-strategy-activity-scope
 title: 活动范围设计工具：What × How × Where 三问
 aliases:
@@ -29,10 +28,9 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-strategy-value-capture]]'
+- '[[tool-strategy-value-capture]]'
 - framework-five-step-lean-interface
 - tool-red-team-analysis
----
 # 活动范围设计工具：What × How × Where 三问
 
 > 业务设计六要素第 4 要素。核心问题：**我们在价值链上做哪些事、不做哪些事？经营边界和角色是什么？**

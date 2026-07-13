@@ -1,4 +1,3 @@
----
 id: tool-封装可复用skill
 title: 技能：封装可复用Skill
 type: tool
@@ -33,12 +32,11 @@ related:
 - '[[tool-反向提示获取优化建议]]'
 - '[[tool-渐进式披露上下文]]'
 - '[[tool-提示词结构化迭代]]'
-  - '[[tool-ai-skill-engineering-guide]]'
-  - '[[tool-ai-skill-engineering-method]]'
-  - '[[tool-yitang-18-strategy-tool-mapping]]'
-  - '[[tool-半肥猫-course-to-skill-workflow]]'
+- '[[tool-ai-skill-engineering-guide]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[tool-yitang-18-strategy-tool-mapping]]'
+- '[[tool-半肥猫-course-to-skill-workflow]]'
 - tool-ai-prd-for-ai
----
 # 技能：封装可复用Skill
 
 ## 原始表述

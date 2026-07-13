@@ -1,4 +1,3 @@
----
 id: case-strategy-m-brand-profit-model
 title: M品牌：从直营到代理加盟的连锁扩张盈利模式选择
 type: case
@@ -16,12 +15,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
 related:
   - '[[case-strategy-snack-business-design]]'
-- strategy-domain-digest
-- tool-月白-A-B双轨反推模式选择
-- tool-快招品牌总部模拟调研
-- case-strategy-exit-sell
-- case-strategy-exit-remove
----
+  - strategy-domain-digest
+  - tool-月白-A-B双轨反推模式选择
+  - tool-快招品牌总部模拟调研
+  - case-strategy-exit-sell
+  - case-strategy-exit-remove
 **背景**：M品牌（示例中的零食/零售品牌）在"盈利模式"模块中，用多列对比表展示直营、强类直营、弱类直营、代理加盟四种扩张模式。
 
 **四种模式核心差异**：

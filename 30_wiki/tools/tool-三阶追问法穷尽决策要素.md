@@ -1,4 +1,3 @@
----
 id: tool-三阶追问法穷尽决策要素
 title: 技能：三阶追问法穷尽决策要素
 type: tool
@@ -30,9 +29,8 @@ related:
 - '[[tool-ai辅助学习]]'
 - '[[tool-将未中标成本纳入循环计算真实投标成本]]'
 - '[[tool-1视角升级思考法]]'
-  - '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+- '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
 - tool-ai-prd-for-ai
----
 # 技能：三阶追问法穷尽决策要素
 
 ## 原始表述

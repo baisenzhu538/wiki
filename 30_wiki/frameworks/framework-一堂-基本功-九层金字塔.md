@@ -1,4 +1,3 @@
----
 id: framework-一堂-基本功-九层金字塔
 title: 基本功九层金字塔：从底层信念到基本功化的完整地图
 type: framework
@@ -30,8 +29,8 @@ related:
 - '[[method-dual-triangle-flywheel-engine]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'
-  - '[[framework-business-formula-fundamentals-bridge]]'
-  - '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[framework-business-formula-fundamentals-bridge]]'
+- '[[framework-一堂-业务公式拆解-总纲]]'
 diagnostic_signals:
 - signal: 团队学了基本功课，回去只记得"要苦练"三个字，落地动作一个没有
   lens: 只爬到金字塔第一层（理念）就停了——下面八层（对象/目标/路径/策略/工具）一层没碰
@@ -46,7 +45,6 @@ quality_labels:
 - principle
 - framework
 - insight
----
 
 # 基本功九层金字塔：从底层信念到基本功化的完整地图
 

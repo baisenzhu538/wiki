@@ -1,4 +1,3 @@
----
 id: tool-现场建模式萃取笔记
 title: 技能：现场建模式萃取笔记
 type: tool
@@ -30,11 +29,10 @@ related:
 - '[[tool-反向记录整理思路]]'
 - '[[tool-用清单体记备忘笔记]]'
 - '[[tool-用topdown方式整理内化笔记]]'
-  - '[[tool-demand-four-forces]]'
-  - '[[tool-自我反馈修正笔记姿势]]'
+- '[[tool-demand-four-forces]]'
+- '[[tool-自我反馈修正笔记姿势]]'
 - yt-entrepreneur-research-cognition
 - yt-note-l6-extraction
----
 # 技能：现场建模式萃取笔记
 
 ## 原始表述

@@ -1,4 +1,3 @@
----
 id: concept-ai-chair-determines-view
 title: 椅子决定视角
 type: concept
@@ -22,17 +21,16 @@ related:
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[framework-wanghuan-harness-seven-stages]]'
 - '[[framework-ai2041-critical-reading-os]]'
-  - '[[concept-ai-amara-law-business-judgment]]'
-  - '[[concept-ai-information-quality-ladder]]'
-  - '[[concept-ai-native-organization-five-steps]]'
-  - '[[concept-ai-neutrality-bias]]'
+- '[[concept-ai-amara-law-business-judgment]]'
+- '[[concept-ai-information-quality-ladder]]'
+- '[[concept-ai-native-organization-five-steps]]'
+- '[[concept-ai-neutrality-bias]]'
 quality_labels:
 - cited
 - principle
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
----
 # 椅子决定视角
 
 > **Burn line**：读任何关于 AI 的预测之前，先问作者坐在哪把椅子上——因为椅子决定他看得见什么、看不见什么，以及为什么他不想让你看见某些东西。

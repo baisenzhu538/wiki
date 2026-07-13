@@ -1,4 +1,3 @@
----
 id: tool-科学学习IPO完整清单
 title: 科学学习IPO完整清单：Input-Process-Output学习系统
 type: tool
@@ -19,11 +18,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - "[[framework-yitang-project-retrospective]]"
+- "[[framework-yitang-project-retrospective]]"
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'
----
 # 科学学习IPO完整清单
 
 ## 一句话定义

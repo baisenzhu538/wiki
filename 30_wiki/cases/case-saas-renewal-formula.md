@@ -1,4 +1,3 @@
----
 id: case-saas-renewal-formula
 title: ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户"用起来"
 type: case
@@ -31,9 +30,7 @@ related:
 - "[[yt-business-formula-parameter-iceberg]]"
 - "[[yt-entrepreneur-unit-model]]"
 - "[[yt-business-formula-qualitative-metrics-library]]"
-  - "[[case-hr-saas-feature-usage-trap]]"
-
----
+- "[[case-hr-saas-feature-usage-trap]]"
 
 
 # ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户“用起来"

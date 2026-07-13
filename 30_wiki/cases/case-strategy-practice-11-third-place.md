@@ -1,4 +1,3 @@
----
 id: case-strategy-practice-11-third-place
 title: 案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞品
 type: case
@@ -16,14 +15,13 @@ updated_at: 2026-06-29
 related:
   - '[[case-strategy-lekai-film]]'
   - '[[case-strategy-practice-10-turnaround]]'
-- strategy-domain-digest
-- tool-从案例中学习
-- case-科学决策-深度案例06
-- case-科学决策-深度案例02
-- tool-纪浩-案例池构建法
-- case-科学决策-ROI案例03
-- tool-马易-业务问题AI化拆解-餐饮设计案例法
----
+  - strategy-domain-digest
+  - tool-从案例中学习
+  - case-科学决策-深度案例06
+  - case-科学决策-深度案例02
+  - tool-纪浩-案例池构建法
+  - case-科学决策-ROI案例03
+  - tool-马易-业务问题AI化拆解-餐饮设计案例法
 
 **冉鹏实操**：行业老三 → 2 个月减亏 7000 万 → 10 个月电商超竞品 → 日均销售额同行 7 倍。
 

@@ -1,4 +1,3 @@
----
 id: tool-agent-crawl4ai
 title: Crawl4AI：开源AI爬虫——自然语言描述即可提取
 type: tool
@@ -22,10 +21,9 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 
 
-  - '[[tool-纪浩-Agent开工检查单制作法]]'
+- '[[tool-纪浩-Agent开工检查单制作法]]'
 - web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 updated_at: '2026-06-29'
----
 # Crawl4AI
 
 > 开源、免费、本地部署。用自然语言描述你想提取什么——不需要写CSS选择器或XPath。网页改版不影集爬虫。

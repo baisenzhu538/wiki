@@ -1,4 +1,3 @@
----
 id: tool-月白-设计需求口头化表达法
 title: 技能：设计需求口头化表达法
 type: tool
@@ -29,8 +28,7 @@ related:
 - "[[tool-月白-竞品图精益替换法]]"
 - "[[tool-月白-文创材质调研与精益选择]]"
 - "[[tool-月白-控制产品画面尺寸比例]]"
-  - "[[tool-demand-iceberg-l2-scenario]]"
----
+- "[[tool-demand-iceberg-l2-scenario]]"
 # 技能：设计需求口头化表达法
 
 ## 原始表述

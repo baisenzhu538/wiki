@@ -1,4 +1,3 @@
----
 id: concept-一堂-基本功-刻意练习四要素
 title: 刻意练习四要素（组织版）：套路×非舒适区×大量重复×及时反馈
 type: concept
@@ -22,7 +21,7 @@ related:
 - '[[concept-一堂-基本功定义]]'
 - '[[management-domain-digest]]'
 - '[[method-dual-triangle-flywheel-engine]]'
-  - '[[concept-一堂-AI时代基本功变与不变]]'
+- '[[concept-一堂-AI时代基本功变与不变]]'
 diagnostic_signals:
 - signal: 员工说"这事我做三年了"，一做还是 60 分
   lens: 经验≠练习——三年重复但没有套路升级、没有反馈，是原地踏步不是刻意练习
@@ -36,7 +35,6 @@ diagnostic_signals:
 quality_labels:
 - principle
 - actionable
----
 
 # 刻意练习四要素（组织版）：套路×非舒适区×大量重复×及时反馈
 

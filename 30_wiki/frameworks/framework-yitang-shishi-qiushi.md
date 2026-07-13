@@ -1,5 +1,3 @@
----
-
 id: framework-yitang-shishi-qiushi
 title: 实事求是：把「我希望是真的」和「事实是什么」分开
 type: framework
@@ -31,14 +29,12 @@ related:
 - yt-business-formula-six-level-logic
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
-  - '[[framework-TCPR底层网络协议]]'
-  - '[[framework-kdo-self-attack]]'
-  - '[[framework-yitang-channel-exploration-4step]]'
-  - '[[framework-yitang-y-model-cross-domain-fusion]]'
+- '[[framework-TCPR底层网络协议]]'
+- '[[framework-kdo-self-attack]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-y-model-cross-domain-fusion]]'
 created_at: 2026-07-03
 updated_at: '2026-07-04'
-
----
 
 # 实事求是：把「我希望是真的」和「事实是什么」分开
 

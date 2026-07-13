@@ -1,4 +1,3 @@
----
 id: framework-demand-lean-bridge
 title: 需求判断与精益验证的衔接
 type: framework
@@ -33,9 +32,8 @@ related:
 - '[[framework-lean-abcd-model]]'
 - '[[yitang-domain-digest]]'
 - '[[lean-startup-domain-digest]]'
-  - '[[framework-demand-validation-pipeline]]'
+- '[[framework-demand-validation-pipeline]]'
 updated_at: '2026-06-30'
----
 # 需求判断与精益验证的衔接
 
 > 把需求分析冰山（L1–L6）中识别出的需求假设，用 FALSE 模型和 ABCD 模型进行低成本验证。

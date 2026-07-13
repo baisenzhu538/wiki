@@ -1,4 +1,3 @@
----
 id: case-yitang-topcity-growth-flywheel
 type: case
 title: 案例：Top City 如何用六大要素搭建内容-商户双端飞轮
@@ -31,10 +30,9 @@ related:
 - '[[framework-yitang-channel-exploration-4step]]'
 - '[[framework-yitang-channel-unit-economics]]'
 - '[[concept-yitang-channel-lean-validation-bridge]]'
-  - '[[case-panproduct-lanyi-shidonghui-npc]]'
+- '[[case-panproduct-lanyi-shidonghui-npc]]'
 - case-decision-science-topcity-negative-revenue-rank
 review_date: '2026-06-28'
----
 # 案例：Top City 如何用六大要素搭建内容-商户双端飞轮
 
 ## 一句话

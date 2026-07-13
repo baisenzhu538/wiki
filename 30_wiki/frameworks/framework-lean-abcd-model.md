@@ -1,4 +1,3 @@
----
 id: framework-lean-abcd-model
 title: 关键假设 ABCD 模型
 type: framework
@@ -22,19 +21,18 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[framework-demand-lean-bridge]]'
-  - '[[framework-lean-pivot-decision]]'
-  - '[[framework-pan-product-organization]]'
-  - '[[framework-strategy-lean-validation]]'
-  - '[[framework-yitang-channel-exploration-4step]]'
-  - '[[framework-一堂-关键假设-ABCD模型]]'
-  - '[[framework-一堂五步法-泛产品设计]]'
+- '[[framework-demand-lean-bridge]]'
+- '[[framework-lean-pivot-decision]]'
+- '[[framework-pan-product-organization]]'
+- '[[framework-strategy-lean-validation]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-一堂-关键假设-ABCD模型]]'
+- '[[framework-一堂五步法-泛产品设计]]'
 quality_labels:
 - principle
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
----
 # 关键假设 ABCD 模型
 
 ## 一句话定义

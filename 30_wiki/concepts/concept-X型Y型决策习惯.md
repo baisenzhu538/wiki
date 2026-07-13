@@ -1,4 +1,3 @@
----
 id: concept-X型Y型决策习惯
 title: X型 vs Y型：两种决策习惯对比
 type: concept
@@ -27,19 +26,18 @@ related:
   - '[[concept-科学决策宽度]]'
   - '[[concept-稀缺机会窗口]]'
   - '[[concept-美好作品想象]]'
-- yitang-domain-digest
-- decision-science-domain-digest
-- pending_unknown
-- pending_unknown
-- pending_unknown
-- yt-decision-y-model
-- dk-yitang-Y-model-pitfalls
-- tool-yitang-Y-model-application
-- framework-yitang-shishi-qiushi
-- framework-yitang-jiefang-sixiang
+  - yitang-domain-digest
+  - decision-science-domain-digest
+  - pending_unknown
+  - pending_unknown
+  - pending_unknown
+  - yt-decision-y-model
+  - dk-yitang-Y-model-pitfalls
+  - tool-yitang-Y-model-application
+  - framework-yitang-shishi-qiushi
+  - framework-yitang-jiefang-sixiang
 review_date: '2026-06-29'
 updated_at: '2026-07-03'
----
 # X型 vs Y型决策习惯
 
 ## 一句话定义

@@ -1,4 +1,3 @@
----
 id: tool-yitang-research-validate-assumption
 title: 调研先行验证假设：在行动前杀死错误想法
 type: tool
@@ -41,12 +40,10 @@ related:
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[dk-yitang-research-ai-hallucination]]"
 - "[[concept-yitang-research-mindset]]"
-  - "[[tool-demand-iceberg-l6-hypothesis]]"
-  - "[[tool-yitang-weapon-industry-expert]]"
-  - "[[tool-yitang-weapon-public-official-info]]"
-  - "[[tool-yitang-weapon-user-direct-interview]]"
-
----
+- "[[tool-demand-iceberg-l6-hypothesis]]"
+- "[[tool-yitang-weapon-industry-expert]]"
+- "[[tool-yitang-weapon-public-official-info]]"
+- "[[tool-yitang-weapon-user-direct-interview]]"
 
 # 调研先行验证假设：在行动前杀死错误想法
 

@@ -1,4 +1,3 @@
----
 id: method-kdo-external-exploration-sop
 title: KDO 外部探索标准操作流程 v2（OSCAR 注入版）
 type: method
@@ -22,7 +21,7 @@ related:
 - "[[yt-research-weaponry-course]]"
 - "[[concept-yitang-research-objective]]"
 - "[[concept-yitang-research-scope]]"
-  - "[[method-kdo-inbox-annotation]]"
+- "[[method-kdo-inbox-annotation]]"
 diagnostic_signals:
 - signal: 外部探索启动时用户说"我先搜搜看"
   lens: Step 0 缺失——没锁定目标就搜
@@ -36,7 +35,6 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
----
 
 # KDO 外部探索标准操作流程 v2（OSCAR 注入版）
 

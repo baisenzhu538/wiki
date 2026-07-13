@@ -1,4 +1,3 @@
----
 id: yt-tob-unit-model
 title: To B 单元模型选择与跑通
 type: framework
@@ -30,7 +29,7 @@ related:
 - '[[concept-最简单元模型]]'
 - '[[tool-单元模型-壁垒预判]]'
 - '[[ai单元模型口述蒋老师]]'
-  - '[[yt-entrepreneur-unit-model]]'
+- '[[yt-entrepreneur-unit-model]]'
 - yt-tool-unit-model-selection
 - yt-tob-solution-model
 diagnostic_signals:
@@ -38,7 +37,6 @@ diagnostic_signals:
   follow_up_question: 若把总部成本、研发摊销、履约尾款、销售培养成本按订单/客户/销售分摊后，整体业务单元是否仍然盈利？
 - framework_lens: 五种常用单元模型匹配业务类型 + 现金流口径
   follow_up_question: 当前业务应选用单订单、单 SKU、单客户、单销售、单履约中的哪几种模型？规模化后各成本项与回款周期如何变化？
----
 > **核心判断**：To B 业务能不能跑通，不是看单一订单或单一客户是否赚钱，而是看“业务单元的所有毛利能否覆盖所有成本”。
 > ——徐剑，口述稿 ~2452–3202；课堂笔记 §4
 

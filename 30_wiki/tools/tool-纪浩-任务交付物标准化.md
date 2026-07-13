@@ -1,4 +1,3 @@
----
 id: tool-纪浩-任务交付物标准化
 title: 技能：任务交付物标准化
 type: tool
@@ -22,7 +21,7 @@ related:
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
-  - "[[tool-demand-iceberg-l3-core-job]]"
+- "[[tool-demand-iceberg-l3-core-job]]"
 diagnostic_signals:
 - lens: 交付模糊
   follow_up: 每个任务定义明确的交付物形式（文档/代码/数据/报告）。无交付标准=无完成标准
@@ -34,7 +33,6 @@ diagnostic_signals:
   follow_up: 统一交付物模板和格式规范。复杂任务拆解后，每个子任务交付物格式一致
 - lens: 无效输出
   follow_up: 任务开始前明确交付物定义。AI输出不是交付物，符合验收标准的输出才是
----
 
 # 技能：任务交付物标准化
 

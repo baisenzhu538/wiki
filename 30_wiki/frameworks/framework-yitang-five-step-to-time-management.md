@@ -1,4 +1,3 @@
----
 id: framework-yitang-five-step-to-time-management
 title: 一堂五步法在时间管理中的应用：自管理场景的完整实例化
 type: framework
@@ -42,11 +41,10 @@ related:
 - case-decision-science-lunch-break-compression
 - '[[framework-yitang-y-model-cross-domain-fusion]]'
 - '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
-  - '[[framework-bimodal-time-philosophy]]'
-  - '[[framework-deep-work-iceberg]]'
-  - '[[framework-time-management-dual-loop-matrix]]'
-  - '[[framework-time-management-matrix]]'
----
+- '[[framework-bimodal-time-philosophy]]'
+- '[[framework-deep-work-iceberg]]'
+- '[[framework-time-management-dual-loop-matrix]]'
+- '[[framework-time-management-matrix]]'
 # 一堂五步法在时间管理中的应用：自管理场景的完整实例化
 
 > **一句话**：时间管理不是一门独立的新课，而是**一堂五步法在「管理自己」场景下的完整实例化**——用需求分析定位时间困境，用三门模型建立个人时间操作系统，用单元模型计算时间 ROI，用增长循环持续迭代，最终形成别人抄不走的时间判断力和习惯。

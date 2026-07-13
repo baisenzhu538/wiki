@@ -1,4 +1,3 @@
----
 id: case-unit-model-gashapon
 title: 扭蛋机案例：玩具店规模化扩张三阶段决策
 type: case
@@ -17,10 +16,9 @@ source_refs:
 related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
-  - '[[case-treadmill-demand-analysis]]'
+- '[[case-treadmill-demand-analysis]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
----
 # 扭蛋机案例：玩具店规模化扩张三阶段决策
 
 ## 案例来源

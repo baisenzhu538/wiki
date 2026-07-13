@@ -1,4 +1,3 @@
----
 id: tool-yitang-online-product-experience
 title: 线上产品完整体验：从注册到售后的全流程
 type: tool
@@ -21,10 +20,9 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-yitang-product-full-experience]]'
+- '[[tool-yitang-product-full-experience]]'
 - tool-ai-prd-for-ai
 updated_at: '2026-06-29'
----
 # 线上产品完整体验
 
 > 以真实用户身份走完竞品从注册到售后的全流程。

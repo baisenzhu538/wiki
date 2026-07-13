@@ -1,4 +1,3 @@
----
 id: tool-Truman-上下文质量管理（AI协作）
 title: 技能：上下文质量管理（AI协作）
 type: tool
@@ -21,9 +20,8 @@ related:
 - "[[tool-Truman-个人判断力系统建设（达克效应应对）]]"
 - "[[tool-Truman-XY-Problem识别与真实问题定位]]"
 - "[[tool-Truman-信息输入持续补全（防AI错误累积）]]"
-  - "[[tool-Truman-AI输出审慎判断与交付确认]]"
-  - "[[tool-Truman-判断力产品化与系统赋能]]"
----
+- "[[tool-Truman-AI输出审慎判断与交付确认]]"
+- "[[tool-Truman-判断力产品化与系统赋能]]"
 # 技能：上下文质量管理（AI协作）
 
 ## 原始表述

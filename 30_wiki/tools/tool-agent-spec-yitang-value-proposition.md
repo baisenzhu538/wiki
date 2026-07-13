@@ -1,4 +1,3 @@
----
 id: tool-agent-spec-yitang-value-proposition
 title: OPC 卖点提炼助手 Agent Spec
 type: tool-agent-spec
@@ -33,16 +32,15 @@ related:
 - '[[tool-agent-spec-yitang-customer-segmentation]]'
 - '[[tool-agent-spec-yitang-sales-process-tracker]]'
 - '[[tool-agent-spec-yitang-sales-performance-monitor]]'
-  - '[[tool-agent-spec-yitang-objection-handler]]'
-  - '[[tool-agent-spec-yitang-opening-3min]]'
-  - '[[tool-agent-spec-yitang-self-motivation]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-agent-spec-yitang-opening-3min]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: C
 tcp_default_mode: 咨询共创（Consult）：把产品语言翻译成特定客户愿意付费的价值语言
 tcp_switch_trigger: 用户明确要求切换到教学模式（解释卖点方法论）、实践模式（直接产出话术/海报/PPT）或研究模式（跨行业卖点对比）
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：先帮你理解客户与产品匹配点，再共创差异化卖点。
----
 # OPC 卖点提炼助手 Agent Spec
 
 > **一句话**：把产品功能语言翻译成特定客户愿意为之付费的价值语言，输出可直接选用或微调的 Top3 卖点、多触点话术与风险提示。

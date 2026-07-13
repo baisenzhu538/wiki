@@ -1,4 +1,3 @@
----
 id: case-truman-poker-deck-roi
 title: 扑克牌案例：同样的任务，两个同学评估结果截然相反
 type: case
@@ -15,7 +14,7 @@ related:
 - "[[case-truman-ai-partner]]"
 - "[[case-truman-ai-skill-engineering-guide]]"
 - "[[case-truman-ai-skill-self-packaging]]"
-  - "[[case-truman-prd-checklist-evolution]]"
+- "[[case-truman-prd-checklist-evolution]]"
 created_at: '2026-06-09'
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -36,7 +35,6 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
----
 
 # 扑克牌案例：同样的任务，两个同学评估结果截然相反
 

@@ -1,4 +1,3 @@
----
 id: case-科学决策-深度案例01
 title: 案例：全员涨薪20%的ROI决策
 type: case
@@ -20,11 +19,10 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
 - '[[pending_unknown]]'
-  - '[[case-decision-ai-assisted-vs-human]]'
+- '[[case-decision-ai-assisted-vs-human]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'
----
 # 案例：全员涨薪 20% 的 ROI 决策
 
 ## 案例来源

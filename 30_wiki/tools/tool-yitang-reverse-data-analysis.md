@@ -1,4 +1,3 @@
----
 id: tool-yitang-reverse-data-analysis
 title: 逆向数据分析：从公开数据反推商业真相
 type: tool
@@ -34,13 +33,11 @@ related:
 - "[[tool-yitang-research-exhaust-means]]"
 - "[[framework-yitang-research-weapon-system]]"
 - "[[yt-research-competitor-toolkit]]"
-  - "[[tool-yitang-consumer-goods-research]]"
-  - "[[tool-yitang-tech-project-research]]"
-  - "[[tool-yitang-weapon-media-search]]"
-  - "[[tool-yitang-weapon-third-party-database]]"
-  - "[[tool-月白-控制产品画面尺寸比例]]"
-
----
+- "[[tool-yitang-consumer-goods-research]]"
+- "[[tool-yitang-tech-project-research]]"
+- "[[tool-yitang-weapon-media-search]]"
+- "[[tool-yitang-weapon-third-party-database]]"
+- "[[tool-月白-控制产品画面尺寸比例]]"
 
 # 逆向数据分析：从公开数据反推商业真相
 

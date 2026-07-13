@@ -1,4 +1,3 @@
----
 id: tool-一堂-基本功-三环六维自检
 title: 三环六维自检：10 分钟判断一个动作配不配练成基本功
 type: tool
@@ -23,10 +22,10 @@ related:
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[management-domain-digest]]'
 - '[[tool-three-ring-capability-filter]]'
-  - '[[tool-一堂-基本功-建模七法]]'
-  - '[[tool-一堂-基本功-拆解四法]]'
-  - '[[tool-一堂-基本功-推动七式]]'
-  - '[[tool-一堂-基本功-练习二十法]]'
+- '[[tool-一堂-基本功-建模七法]]'
+- '[[tool-一堂-基本功-拆解四法]]'
+- '[[tool-一堂-基本功-推动七式]]'
+- '[[tool-一堂-基本功-练习二十法]]'
 diagnostic_signals:
 - signal: 候选基本功列了 20 个，每个都有人说重要，砍不动
   lens: 没有量化筛子——凭感觉砍人得罪人，凭六维打分砍动作不得罪人
@@ -40,7 +39,6 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
----
 
 # 三环六维自检：10 分钟判断一个动作配不配练成基本功
 

@@ -1,4 +1,3 @@
----
 id: tool-yitang-research-two-dimensional-positioning
 title: 二维定位：找到差异化竞争的坐标
 type: tool
@@ -42,11 +41,9 @@ related:
 - "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[dk-yitang-research-ai-hallucination]]"
 - "[[concept-yitang-research-mindset]]"
-  - "[[tool-yitang-product-full-experience]]"
-  - "[[tool-yitang-research-deep-attribution]]"
-  - "[[tool-yitang-reverse-data-analysis]]"
-
----
+- "[[tool-yitang-product-full-experience]]"
+- "[[tool-yitang-research-deep-attribution]]"
+- "[[tool-yitang-reverse-data-analysis]]"
 
 # 二维定位：找到差异化竞争的坐标
 

@@ -1,4 +1,3 @@
----
 id: tool-strategy-business-design-template
 title: 业务单元业务设计模板
 type: tool
@@ -21,9 +20,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-strategy-value-capture]]'
+- '[[tool-strategy-value-capture]]'
 - yt-business-model-definition
----
 # 业务单元业务设计模板
 
 > 为公司各业态/业务单元快速梳理业务设计的轻量模板，从客户场景到价值主张、产品服务、盈利模式，再到底层核心能力和业务策略。

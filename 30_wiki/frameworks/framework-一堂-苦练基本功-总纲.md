@@ -1,4 +1,3 @@
----
 id: framework-一堂-苦练基本功-总纲
 title: 苦练基本功总纲：人不是组织能力的最小单位，基本功才是
 type: framework
@@ -34,11 +33,11 @@ related:
 - '[[yt-tool-business-formula-format-spec]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'
-  - '[[framework-business-formula-fundamentals-bridge]]'
-  - '[[framework-yitang-project-execution]]'
-  - '[[framework-一堂-基本功-九层金字塔]]'
-  - '[[framework-一堂-基本功-四字诀拆建推练]]'
-  - '[[framework-一堂-基本功-四类工作四化]]'
+- '[[framework-business-formula-fundamentals-bridge]]'
+- '[[framework-yitang-project-execution]]'
+- '[[framework-一堂-基本功-九层金字塔]]'
+- '[[framework-一堂-基本功-四字诀拆建推练]]'
+- '[[framework-一堂-基本功-四类工作四化]]'
 diagnostic_signals:
 - signal: 团队能力描述全是"沟通能力强""有领导力""有责任心"，一上手做事就露馅
   lens: 管理颗粒度停在"人"和"素质"层，没有拆到基本功层——素质没法练，动作才能练
@@ -56,7 +55,6 @@ quality_labels:
 - principle
 - actionable
 - insight
----
 
 # 苦练基本功总纲：人不是组织能力的最小单位，基本功才是
 

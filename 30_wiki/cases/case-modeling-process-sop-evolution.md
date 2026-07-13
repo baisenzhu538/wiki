@@ -1,4 +1,3 @@
----
 id: case-modeling-process-sop-evolution
 title: 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 type: case
@@ -27,7 +26,7 @@ related:
 - '[[tool-一堂-spectrum-positioning]]'
 - '[[tool-纪浩-案例池构建法]]'
 - '[[case-科学决策-ROI案例03]]'
-  - '[[case-truman-livestream-sop-iteration]]'
+- '[[case-truman-livestream-sop-iteration]]'
 - case-modeling-process-livestream-prep
 diagnostic_signals:
 - framework_lens: 流程建模 / SOP
@@ -38,7 +37,6 @@ diagnostic_signals:
   follow_up_question: 这份 SOP 有责任人、督导人和品控人吗？最近一次更新是因为什么意外？
 - framework_lens: 流程建模适用边界
   follow_up_question: 哪些步骤必须标准化（高失败成本），哪些环节应该保留判断空间？这份 SOP 是否用在了不该标准化的创意型任务上？
----
 # 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 
 > 来源：Truman-高阶建模-流程建模-图-01 | 一堂建模能力培训（Truman）

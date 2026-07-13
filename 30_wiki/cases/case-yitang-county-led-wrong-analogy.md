@@ -1,4 +1,3 @@
----
 id: case-yitang-county-led-wrong-analogy
 title: 案例：县城 LED 屏对标分众——错误类比忽视前提条件
 type: case
@@ -20,8 +19,7 @@ source_refs:
 related:
 - "[[framework-yitang-shishi-qiushi]]"
 - "[[yt-decision-y-model]]"
-  - "[[case-yitang-live-commerce-scale-misjudgment]]"
----
+- "[[case-yitang-live-commerce-scale-misjudgment]]"
 
 # 案例：县城 LED 屏对标分众——错误类比忽视前提条件
 

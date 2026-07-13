@@ -1,4 +1,3 @@
----
 id: tool-项目方案评估三角形
 title: 项目方案评估三角形：收益×成本×风险三维对比
 type: tool
@@ -19,12 +18,11 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-demand-assessment-triangle]]'
+- '[[tool-demand-assessment-triangle]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
----
 # 项目方案评估三角形
 
 ## 一句话定义

@@ -1,4 +1,3 @@
----
 id: tool-yitang-quantitative-research-checklist
 title: 创业者定量研究清单：六维指标 + 强制五问
 type: tool
@@ -21,8 +20,7 @@ related:
 - "[[framework-yitang-shishi-qiushi]]"
 - "[[yt-decision-y-model]]"
 - "[[method-yitang-y-model-engine-cycle]]"
-  - "[[tool-yitang-shishi-qiushi-cheat-sheet]]"
----
+- "[[tool-yitang-shishi-qiushi-cheat-sheet]]"
 
 # 创业者定量研究清单：六维指标 + 强制五问
 

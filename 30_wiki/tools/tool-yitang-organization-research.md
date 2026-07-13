@@ -1,4 +1,3 @@
----
 id: tool-yitang-organization-research
 title: 组织调研手段：浅中深三层10大评估法
 type: tool
@@ -34,11 +33,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-yitang-consulting-business-research]]'
-  - '[[tool-yitang-consumer-goods-research]]'
-  - '[[tool-yitang-tech-project-research]]'
+- '[[tool-yitang-consulting-business-research]]'
+- '[[tool-yitang-consumer-goods-research]]'
+- '[[tool-yitang-tech-project-research]]'
 - framework-yitang-six-layer-cross-validation
----
 # 组织调研手段：浅中深三层10大评估法
 
 > **一句话**：组织调研的核心不是找信息，而是判断信息源的可靠性——同一个组织架构，HR说的、离职员工说的、脉脉上说的可能是三个版本。用三角交叉验证逼近真相。

@@ -1,4 +1,3 @@
----
 id: tool-agent-spec-yitang-sales-process-tracker
 title: OPC 销售过程追踪助手 Agent Spec
 type: tool-agent-spec
@@ -34,16 +33,15 @@ related:
 - '[[tool-agent-spec-yitang-customer-segmentation]]'
 - '[[tool-agent-spec-yitang-value-proposition]]'
 - '[[tool-agent-spec-yitang-sales-performance-monitor]]'
-  - '[[tool-agent-spec-yitang-objection-handler]]'
-  - '[[tool-agent-spec-yitang-opening-3min]]'
-  - '[[tool-agent-spec-yitang-self-motivation]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-agent-spec-yitang-opening-3min]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: C
 tcp_default_mode: 咨询诊断（Consult）：判断客户当前阶段、卡点和下一步动作
 tcp_switch_trigger: 用户要求切换到教学模式（解释销售阶段方法论）、实践模式（直接生成跟进清单/CRM 更新）或研究模式（长周期转化规律分析）
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：先帮你判断客户当前阶段与卡点，再给出下一步动作建议。
----
 # OPC 销售过程追踪助手 Agent Spec
 
 > **一句话**：读取客户对话与历史跟进记录，判断当前决策阶段、距离下一个里程碑还差什么、识别卡点并给出下一步动作建议——只输出建议，不自动执行。

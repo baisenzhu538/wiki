@@ -1,4 +1,3 @@
----
 id: tool-yitang-competitor-financial-analysis
 title: 竞对财税分析：从社保/纳税/财报反推真实规模
 type: tool
@@ -21,10 +20,9 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-yitang-bp-analysis]]'
+- '[[tool-yitang-bp-analysis]]'
 - tool-ai-prd-for-ai
 updated_at: '2026-06-29'
----
 # 竞对财税分析
 
 > 通过公开的财务/税务/社保信息反推竞对的真实规模和经营状况。

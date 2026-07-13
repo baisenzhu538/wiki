@@ -1,4 +1,3 @@
----
 id: tool-smart-medicine-cabinet-site-selection-guide
 title: 智能药柜选址深度指南：场景、指标与验证方法
 type: tool
@@ -25,14 +24,13 @@ confidence: 0.78
 trust_level: medium
 related:
   - '[[tool-smart-medicine-cabinet-compliance-checklist]]'
-- - - concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet
-- - - concept-smart-medicine-cabinet-consumer-acceptance
-- - - smart-medicine-cabinet-clinic-risk-observation
-- - - smart-medicine-cabinet-national-policy-redlines
-- - - smart-medicine-cabinet-o2o-cost-structure
-- smart-medicine-cabinet-financial-model
-- tool-strategy-gap-analysis
----
+  - - - concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet
+  - - - concept-smart-medicine-cabinet-consumer-acceptance
+  - - - smart-medicine-cabinet-clinic-risk-observation
+  - - - smart-medicine-cabinet-national-policy-redlines
+  - - - smart-medicine-cabinet-o2o-cost-structure
+  - smart-medicine-cabinet-financial-model
+  - tool-strategy-gap-analysis
 ## 操作步骤
 
 

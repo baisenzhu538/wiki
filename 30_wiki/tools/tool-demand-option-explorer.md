@@ -1,4 +1,3 @@
----
 id: tool-demand-option-explorer
 title: 需求选项探讨工具：USP追问+控变量+找盲区
 type: tool
@@ -25,14 +24,13 @@ related:
 - '[[domain-demand-analysis-index]]'
 - '[[yt-decision-y-model]]'
 - '[[tool-demand-rat-generator]]'
-  - '[[tool-demand-report-template]]'
+- '[[tool-demand-report-template]]'
 diagnostic_signals:
 - signal: 创始人说"我们的差异化是更好用"——每个竞品都这么说
   lens: USP不成立——"更好用"不是差异化是基本要求
   follow-up: 追问"用户因为什么选择了你而不是竞品？"
 quality_labels:
 - actionable
----
 
 # 需求选项探讨工具：USP追问+控变量+找盲区
 

@@ -1,4 +1,3 @@
----
 id: tool-yitang-referral-channel-optimization
 type: tool
 title: 老带新渠道优化工具：动力 × 触点 × 阻力
@@ -35,9 +34,8 @@ related:
 - "[[yt-unit-model-concept]]"
 - "[[framework-lean-abcd-model]]"
 - "[[case-yitang-yitang-self-growth-channel]]"
-  - "[[tool-yitang-channel-scan-cheat-sheet]]"
+- "[[tool-yitang-channel-scan-cheat-sheet]]"
 review_date: '2026-06-28'
----
 
 
 # 老带新渠道优化工具：动力 × 触点 × 阻力

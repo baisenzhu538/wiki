@@ -1,4 +1,3 @@
----
 id: tool-demand-assessment-triangle
 title: 需求评估三角形：普遍性×频次×刚性
 type: tool
@@ -20,16 +19,15 @@ related:
 - '[[tool-项目方案评估三角形]]'
 - '[[tool-提升笔记练习频次的方法]]'
 - '[[framework-科学决策三角形]]'
-  - '[[tool-demand-chai-tui-ping-suan-guide]]'
-  - '[[tool-demand-micro-experience-script]]'
-  - '[[tool-demand-option-explorer]]'
-  - '[[tool-demand-rat-generator]]'
-  - '[[tool-demand-report-template]]'
-  - '[[tool-一堂五步法-换档检查清单]]'
+- '[[tool-demand-chai-tui-ping-suan-guide]]'
+- '[[tool-demand-micro-experience-script]]'
+- '[[tool-demand-option-explorer]]'
+- '[[tool-demand-rat-generator]]'
+- '[[tool-demand-report-template]]'
+- '[[tool-一堂五步法-换档检查清单]]'
 - yt-market-size-estimation
 - proposal-prompt-injection-infrastructure
 updated_at: '2026-06-29'
----
 # 需求评估三角形
 
 > L6产出机会卡片后，用评估三角形做Go/No-Go判断。三个维度相乘：普遍性×频次×刚性=需求强度。

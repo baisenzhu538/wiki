@@ -1,4 +1,3 @@
----
 id: tool-讲香基本功-十指模型
 title: 讲香基本功：十指模型修炼地图
 type: tool
@@ -19,11 +18,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[framework-一堂-个人表达力]]'
+- '[[framework-一堂-个人表达力]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'
----
 # 讲香基本功：十指模型修炼地图
 
 ## 一句话定义

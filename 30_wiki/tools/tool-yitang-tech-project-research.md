@@ -1,4 +1,3 @@
----
 id: tool-yitang-tech-project-research
 title: 科技型项目调研手段：浅中深三层10大评估法
 type: tool
@@ -37,10 +36,9 @@ related:
 - '[[framework-yitang-research-weapon-system]]'
 - '[[tool-yitang-reverse-data-analysis]]'
 - '[[yt-research-competitor-toolkit]]'
-  - '[[tool-yitang-consumer-goods-research]]'
+- '[[tool-yitang-consumer-goods-research]]'
 - tool-yitang-research-company-disassembly
 - framework-yitang-six-layer-cross-validation
----
 # 科技型项目调研手段：浅中深三层10大评估法
 
 > **一句话**：科技项目的调研难在两点——技术信息在水下，市场反馈太少。浅层用公开信息反向推导，中层用逆向工程和展会渗透，深层直接找科学家和供应商。

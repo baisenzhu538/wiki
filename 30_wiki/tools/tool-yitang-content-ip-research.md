@@ -1,4 +1,3 @@
----
 id: tool-yitang-content-ip-research
 title: 内容IP/MCN调研手段：浅中深三层10大评估法
 type: tool
@@ -34,11 +33,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-clinic-medical-shortvideo-compliance]]'
-  - '[[tool-yitang-tech-project-research]]'
+- '[[tool-clinic-medical-shortvideo-compliance]]'
+- '[[tool-yitang-tech-project-research]]'
 - framework-yitang-six-layer-cross-validation
 - concept-yitang-research-objective
----
 # 内容IP/MCN调研手段：浅中深三层10大评估法
 
 > **一句话**：想做IP或MCN，先看三类——行业红利还在不在、能力匹不匹配、资源够不够。浅层用数据平台扫赛道，中层用面试和实地避开坑，深层研究失败者找到天花板。

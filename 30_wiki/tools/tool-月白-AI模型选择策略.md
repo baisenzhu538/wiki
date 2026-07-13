@@ -1,4 +1,3 @@
----
 id: tool-月白-AI模型选择策略
 title: 技能：AI模型选择策略
 type: tool
@@ -32,9 +31,8 @@ related:
 - '[[tool-ai-deliverable-polish-loop]]'
 - '[[tool-月白-精准提示词消除模型幻觉]]'
 - '[[tool-月白-PPT全AI生成工作流]]'
-  - '[[tool-strategy-control-points]]'
+- '[[tool-strategy-control-points]]'
 - aigc设计基础01ai生图原理与提示词基本功
----
 # 技能：AI模型选择策略
 
 ## 原始表述

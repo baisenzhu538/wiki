@@ -1,5 +1,3 @@
----
-
 id: tool-lean-leverage-tools
 title: 借搭建工具：用现成系统跑业务流
 type: tool
@@ -22,12 +20,11 @@ related:
 - "[[yitang-domain-digest]]"
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
-  - "[[tool-lean-ai-accelerated-validation]]"
-  - "[[tool-lean-human-replace-rnd]]"
-  - "[[tool-lean-presell]]"
+- "[[tool-lean-ai-accelerated-validation]]"
+- "[[tool-lean-human-replace-rnd]]"
+- "[[tool-lean-presell]]"
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
----
 
 # 借搭建工具：用现成系统跑业务流
 

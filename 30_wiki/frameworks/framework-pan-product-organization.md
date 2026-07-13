@@ -1,4 +1,3 @@
----
 id: framework-pan-product-organization
 type: framework
 title: 泛产品组织设计：把团队当成产品来打磨
@@ -33,10 +32,9 @@ related:
 - '[[framework-一堂五步法-泛产品设计]]'
 - '[[framework-lean-abcd-model]]'
 - '[[framework-ai-accelerated-strategy-cycle]]'
-  - '[[framework-wanghuan-gan-three-roles]]'
+- '[[framework-wanghuan-gan-three-roles]]'
 review_date: '2026-06-28'
 created_at: '2026-06-30'
----
 # 泛产品组织设计：把团队当成产品来打磨
 
 ## 一句话

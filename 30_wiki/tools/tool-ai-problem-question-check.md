@@ -1,4 +1,3 @@
----
 id: tool-ai-problem-question-check
 title: 技能：Problem vs Question 区分法
 type: tool
@@ -27,8 +26,8 @@ related:
 - "[[dk-ji-hao-problem-vs-question]]"
 - "[[tool-一堂-kernel-three-questions]]"
 - "[[sk-ai-problem-validation]]"
-  - "[[tool-ai-four-elements-validation]]"
-  - "[[tool-ai-problem-validation]]"
+- "[[tool-ai-four-elements-validation]]"
+- "[[tool-ai-problem-validation]]"
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -56,7 +55,6 @@ diagnostic_signals:
   follow_up: 记录question并关联到具体problem。完全拒绝question会治标不治本
 - lens: 分类即终点
   follow_up: 分类只是第一步，problem必须进入四要素验证或立即行动。分类不行动等于没分类
----
 
 # 技能：Problem vs Question 区分法
 

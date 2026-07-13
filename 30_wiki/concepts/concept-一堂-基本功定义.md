@@ -1,4 +1,3 @@
----
 id: concept-一堂-基本功定义
 title: 基本功定义：针对具体场景的独立可检验动作，重复形成复利
 type: concept
@@ -25,10 +24,10 @@ related:
 - '[[dk-fundamentals-before-advanced-ops]]'
 - '[[yt-tool-business-formula-inspiration-5]]'
 - '[[yt-business-formula-abc-model]]'
-  - '[[concept-一堂-AI时代基本功变与不变]]'
-  - '[[concept-一堂-Agent基本功修炼]]'
-  - '[[concept-一堂-基本功-刻意练习四要素]]'
-  - '[[concept-一堂-基本功-段位体系]]'
+- '[[concept-一堂-AI时代基本功变与不变]]'
+- '[[concept-一堂-Agent基本功修炼]]'
+- '[[concept-一堂-基本功-刻意练习四要素]]'
+- '[[concept-一堂-基本功-段位体系]]'
 diagnostic_signals:
 - signal: 团队开会讨论基本功，有人说"沟通能力"，有人说"责任心"，有人说"做课能力"
   lens: 没有共享定义——这些分别是素质、价值观、宏大能力，都不是可练的基本功
@@ -42,7 +41,6 @@ diagnostic_signals:
 quality_labels:
 - principle
 - insight
----
 
 # 基本功定义：针对具体场景的独立可检验动作，重复形成复利
 

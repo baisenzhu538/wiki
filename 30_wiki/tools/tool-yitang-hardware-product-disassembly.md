@@ -1,4 +1,3 @@
----
 id: tool-yitang-hardware-product-disassembly
 title: 硬件产品拆解调研：BOM成本+工艺分析
 type: tool
@@ -21,10 +20,9 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-  - '[[tool-yitang-product-full-experience]]'
+- '[[tool-yitang-product-full-experience]]'
 - tool-ai-prd-for-ai
 updated_at: '2026-06-29'
----
 # 硬件产品拆解调研
 
 > 买回竞品实物，拆到零件级，分析BOM成本和工艺水平。

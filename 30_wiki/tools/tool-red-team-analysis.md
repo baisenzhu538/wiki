@@ -1,5 +1,3 @@
----
-
 id: tool-red-team-analysis
 title: Red Team Analysis（红队分析/竞对视角模拟）
 type: tool
@@ -24,8 +22,8 @@ related:
 - "[[case-doris-2014-music-streaming-prediction]]"
 - "[[case-escort-service-tiered-growth]]"
 - "[[case-liutao-douyin-team-leader-9m]]"
-  - "[[tool-harness-adversarial-tester]]"
-  - "[[tool-strategy-activity-scope]]"
+- "[[tool-harness-adversarial-tester]]"
+- "[[tool-strategy-activity-scope]]"
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
@@ -33,7 +31,6 @@ created_at: '2026-06-28'
 updated_at: '2026-06-29'
 confidence: 0.78
 trust_level: medium
----
 
 # Red Team Analysis（红队分析/竞对视角模拟）
 

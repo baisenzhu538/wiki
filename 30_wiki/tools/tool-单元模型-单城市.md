@@ -1,4 +1,3 @@
----
 id: tool-单元模型-单城市
 title: 单元模型：单城市模型
 type: tool
@@ -20,10 +19,9 @@ related:
 - '[[concept-最简单元模型]]'
 - '[[tool-单元模型-壁垒预判]]'
 - '[[ai单元模型口述蒋老师]]'
-  - '[[yt-entrepreneur-unit-model]]'
+- '[[yt-entrepreneur-unit-model]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
----
 # 单元模型：单城市模型
 
 ## Purpose

@@ -1,4 +1,3 @@
----
 id: framework-demand-opportunity-spectrum
 title: 商业机会预判·终局光谱图
 type: framework
@@ -19,11 +18,10 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
 - '[[tool-单元模型-壁垒预判]]'
-  - '[[framework-demand-ceiling-four-lines]]'
-  - '[[framework-一堂-机会预判]]'
+- '[[framework-demand-ceiling-four-lines]]'
+- '[[framework-一堂-机会预判]]'
 - yt-foresight-business-spectrum
 updated_at: '2026-06-29'
----
 # 商业机会预判·终局光谱图
 
 > 不是所有机会都值得做成上市公司的。光谱图帮你定位：这个机会最多能做到多大？

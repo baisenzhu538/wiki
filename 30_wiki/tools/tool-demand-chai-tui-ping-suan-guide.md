@@ -1,4 +1,3 @@
----
 id: tool-demand-chai-tui-ping-suan-guide
 title: 拆推评算使用指南：工具箱而非工作流
 type: tool
@@ -25,7 +24,7 @@ related:
 - '[[tool-泛产品设计-需求可行性四字诀]]'
 - '[[yt-entrepreneur-unit-model]]'
 - '[[tool-demand-rat-generator]]'
-  - '[[tool-demand-option-explorer]]'
+- '[[tool-demand-option-explorer]]'
 diagnostic_signals:
 - signal: 创始人说"我用拆推评算跑了一遍需求"但实际只做了拆和推
   lens: 把工具箱当工作流——以为必须四步全走
@@ -36,7 +35,6 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
----
 
 # 拆推评算使用指南：工具箱而非工作流
 

@@ -1,4 +1,3 @@
----
 id: case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution
 title: 一行双三角案例：Truman「飞书 To slide」PPT 迭代进化
 type: case
@@ -26,16 +25,15 @@ related:
 - "[[tool-yihang-dual-triangle-canvas]]"
 - "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
 - "[[framework-yitang-y-model-dual-triangle-synergy]]"
-  - "[[case-yihang-dual-triangle-ahao-product-selection]]"
-  - "[[case-yihang-dual-triangle-beike-ai-outbound]]"
-  - "[[case-yihang-dual-triangle-chentian-knowledge-agent]]"
-  - "[[case-yihang-dual-triangle-huazao-synthetic-data]]"
-  - "[[case-yihang-dual-triangle-tianmo-design-delivery]]"
-  - "[[case-yitang-truman-time-management-transformation]]"
+- "[[case-yihang-dual-triangle-ahao-product-selection]]"
+- "[[case-yihang-dual-triangle-beike-ai-outbound]]"
+- "[[case-yihang-dual-triangle-chentian-knowledge-agent]]"
+- "[[case-yihang-dual-triangle-huazao-synthetic-data]]"
+- "[[case-yihang-dual-triangle-tianmo-design-delivery]]"
+- "[[case-yitang-truman-time-management-transformation]]"
 aliases:
 - Truman 飞书 To slide
 - PPT 迭代案例
----
 
 # 一行双三角案例：Truman「飞书 To slide」PPT 迭代进化
 

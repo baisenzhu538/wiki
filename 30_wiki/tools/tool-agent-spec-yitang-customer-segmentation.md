@@ -1,4 +1,3 @@
----
 id: tool-agent-spec-yitang-customer-segmentation
 title: OPC 客户分级智能体 Agent Spec
 type: tool-agent-spec
@@ -35,9 +34,9 @@ related:
 - '[[tool-agent-spec-yitang-value-proposition]]'
 - '[[tool-agent-spec-yitang-sales-process-tracker]]'
 - '[[tool-agent-spec-yitang-sales-performance-monitor]]'
-  - '[[tool-agent-spec-yitang-objection-handler]]'
-  - '[[tool-agent-spec-yitang-opening-3min]]'
-  - '[[tool-agent-spec-yitang-self-motivation]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-agent-spec-yitang-opening-3min]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
 tcp_role: C
@@ -49,7 +48,6 @@ os_sources:
 - agents/agent-os.md
 domain_sources:
 - 30_wiki/tools/tool-yitang-customer-segmentation-4step.md
----
 
 # OPC 客户分级智能体 Agent Spec
 

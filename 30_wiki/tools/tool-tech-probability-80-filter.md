@@ -1,4 +1,3 @@
----
 id: tool-tech-probability-80-filter
 title: 李开复 80% 概率过滤器
 type: tool
@@ -25,14 +24,13 @@ related:
 - '[[framework-wanghuan-harness-seven-stages]]'
 - '[[framework-ai2041-critical-reading-os]]'
 - '[[concept-ai-amara-law-business-judgment]]'
-  - '[[tool-ai2041-source-verification-checklist]]'
+- '[[tool-ai2041-source-verification-checklist]]'
 quality_labels:
 - actionable
 - cited
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
----
 # 李开复 80% 概率过滤器
 
 > **一句话**：用「未来 20 年内发生概率 ≥80%」作为硬门槛，把对 AI 的无限焦虑过滤成有限准备清单的工具。

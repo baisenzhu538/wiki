@@ -1,5 +1,3 @@
----
-
 id: tool-strategy-platform-business-map
 title: 平台商业模式地图
 type: tool
@@ -22,8 +20,7 @@ related:
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
 - "[[pending_unknown]]"
-  - "[[tool-strategy-value-capture]]"
----
+- "[[tool-strategy-value-capture]]"
 
 # 平台商业模式地图
 
