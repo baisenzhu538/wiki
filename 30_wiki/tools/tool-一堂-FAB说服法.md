@@ -45,6 +45,9 @@ related:
 - '[[case-一堂-晓莉学而思引流课]]'
 - '[[case-一堂-组合篇案例库]]'
 - '[[case-一堂-跆拳道黑带卡]]'
+- '[[tool-一堂-五大转化率范式]]'
+- '[[tool-一堂-讲香双策略]]'
+
 quality_labels:
 - cited
 - actionable

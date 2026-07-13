@@ -32,6 +32,8 @@ related:
 - '[[tool-一堂-七大转化场景自检]]'
 - '[[tool-动力阻力分析]]'
 - '[[case-一堂-组合篇案例库]]'
+- '[[tool-一堂-讲香双策略]]'
+
 quality_labels:
 - principle
 - framework

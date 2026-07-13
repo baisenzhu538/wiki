@@ -35,6 +35,8 @@ related:
 - '[[case-一堂-组合篇案例库]]'
 - '[[case-一堂-优秀案例逐字稿合集]]'
 - '[[case-一堂-一堂自身转化实践]]'
+- '[[tool-一堂-五种挖触点]]'
+
 quality_labels:
 - cited
 - actionable

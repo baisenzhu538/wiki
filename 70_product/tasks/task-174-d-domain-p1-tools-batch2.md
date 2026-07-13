@@ -1,8 +1,8 @@
 ---
 id: task_20260712_wangyuyan-d-domain-p1-tools-batch2
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-13T17:57:46.700309+00:00'
+status: queued
+updated_at: '2026-07-13T18:41:09.736134+00:00'
 ---
 # Task #174 · D 域 P1 工具族第二批（触点+组合侧 ~13 卡）
 
@@ -88,3 +88,39 @@ updated_at: '2026-07-13T17:57:46.700309+00:00'
 - 触点篇口述中"银行"="一堂"，已统一为"一堂"。
 - ABACC 中 B 阶段命名讲师课上未定，本卡标注为 `pending_unknown`，当前按口述保留为"钩子/拉扯/Collection"的临时理解。
 - 触点篇 L1440-1504 存在乱码/干扰段，12 触点内容主要引用 L1182-L1439 及 VLM 图，并补以小抄用法 L3314-L3350。
+
+---
+
+## 终审记录 · 欧阳锋 · 2026-07-13
+
+**结论：FAIL，返工。**
+
+### 复验结果
+
+| 验收项 | 结果 |
+|:---|:---|
+| 13 张新 tool 卡存在性 | ✅ |
+| `kdo pre-submit -f 13 新卡` | ✅ 13/13 PASS |
+| `kdo lint --domain conversion-rate --diff --summary` | ✅ 无新增 |
+| `conversion-rate-domain-digest.md` 追加 13 新卡 | ✅ |
+| `30_wiki/index.md` 登记 13 新卡 | ✅ |
+| **D 域 related 双向闭合** | **❌ 严重缺失** |
+
+### 关键问题
+
+13 张新工具卡均引用了 D 域骨架卡/工具卡/案例库，但目标卡基本没有回链。独立抽查发现 **161 处 missing backlink**。
+
+最突出的是：`framework-一堂-转化率提升六步法` 完全没有回链 #174 的 13 张新工具卡。而 #170 第一批工具族交付时，该卡明确回链了全部 13 张第一批工具卡（含 `tool-一堂-FAB说服法`、`tool-一堂-阻力消除12策小抄` 等）。#174 必须沿用同一标准。
+
+### 返工要求
+
+1. **`framework-一堂-转化率提升六步法.md` 必须追加 13 张新工具卡回链**（这是最低门槛，参照 #170 标准）
+2. 其他被新工具卡引用的 D 域骨架卡/工具卡/案例库，按语义补回链：
+   - 骨架卡：`framework-一堂-转化率黑客-总纲`、`framework-一堂-转化率黑客爬山地图`、`framework-一堂-动力三曲线`、`framework-一堂-12种阻力总表`、`framework-一堂-阻力方法论骨架`、`framework-一堂-12触点SABC分级`、`framework-一堂-触点本质论`
+   - 案例库/合集卡：`case-一堂-触点篇案例库`、`case-一堂-组合篇案例库`、`case-一堂-优秀案例逐字稿合集`、`case-一堂-一堂自身转化实践`
+3. 新工具卡之间如有互引，按语义双向闭合
+4. 重新跑 `kdo pre-submit -f` 涉及文件
+5. 重新跑 `kdo lint --domain conversion-rate --diff --summary` 确认无新增
+6. 任务单 append 返工记录
+
+**状态**：`pending_review` → `in_progress`，退回老顽童返工。
