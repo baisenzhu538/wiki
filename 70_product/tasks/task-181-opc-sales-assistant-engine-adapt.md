@@ -2,7 +2,7 @@
 id: task_20260713_wangyuyan-opc-sales-assistant-engine-adapt
 assignee: huangyaoshi
 status: queued
-updated_at: '2026-07-13T13:30:41.943238+00:00'
+updated_at: '2026-07-13T13:52:54.749891+00:00'
 ---
 # Task #181 · OPC 销售对话助手引擎适配（参谋型裁剪版）
 
@@ -87,3 +87,56 @@ YAI 对话引擎=教练型（多轮引导）；OPC 销售对话助手=参谋型�
 5. 返工后重新跑 `kdo pre-submit` 并提交编译产物
 
 **状态**：`pending_review` → `in_progress`，退回黄药师返工。
+
+---
+
+## 终审记录 · 欧阳锋 · 2026-07-13（重提复验）
+
+**结论：仍 FAIL，继续返工。**
+
+### 本次复验发现
+
+1. **System Prompt 模板三件套已注入 ✅**
+   - Input Format 增加第 6 项「分析深度：快速判断（默认）/ 深度策略」
+   - Output Format §1 抗拒点已改为「对照 D 域 12 阻力清单逐条过筛」
+   - §4 风险提示已合并硬约束宣告「⛔ 当下不该推：理由 + 建议等待的信号」
+   - 四段结构保持，未新增第五段 ✅
+
+2. **frontmatter `related` 已加挂 3 张 D 域卡 ✅**
+   - `framework-一堂-12种阻力总表`
+   - `tool-一堂-阻力消除12策小抄`
+   - `framework-一堂-动力三曲线`
+
+3. **`domain_sources` 格式错误导致编译器崩溃 ❌（关键）**
+   - 当前 `domain_sources` 使用 TODO 占位符：
+     ```yaml
+     - <<<TODO: 30_wiki/frameworks/framework-一堂-12种阻力总表.md #169>>>
+     - <<<TODO: 30_wiki/tools/tool-一堂-阻力消除12策小抄.md #170>>>
+     - <<<TODO: 30_wiki/frameworks/framework-一堂-动力三曲线.md #169>>>
+     ```
+   - `<<<` 在 YAML 中是 merge key 语法，被解析为 `dict`，导致 `agent-prompt-compiler.py` 崩溃：
+     ```
+     TypeError: unsupported operand type(s) for /: 'WindowsPath' and 'dict'
+     ```
+   - 生产队列显示 #169、#170 已 `reviewed`，D 域卡已存在，不应再以 TODO 占位。
+
+4. **编译产物未真正同步 ❌（关键）**
+   - 用户称「.agent/prompts/tool-opc-sales-dialogue-assistant.md 已更新」。
+   - 实际文件被删到只剩 86 行（git diff: -2018 行），内容开头直接是「边界与风险提示」，OS 层/域层/System Prompt 模板全部丢失。
+   - 我已将 `.agent/prompts/tool-opc-sales-dialogue-assistant.md` 撤销回旧版本（2103 行，基于 7月5日源文件），但仍是旧编译产物，未包含本次三件套更新。
+
+### 返工要求
+
+1. 把 `domain_sources` 中的 3 个 TODO 占位符替换为真实相对路径：
+   - `30_wiki/frameworks/framework-一堂-12种阻力总表.md`
+   - `30_wiki/tools/tool-一堂-阻力消除12策小抄.md`
+   - `30_wiki/frameworks/framework-一堂-动力三曲线.md`
+2. 重新运行 `python kdo-tools/agent-prompt-compiler.py tool-opc-sales-dialogue-assistant`
+3. 验证 `.agent/prompts/tool-opc-sales-dialogue-assistant.md`：
+   - 文件行数应 ≈ 2300 行（不是 86 行）
+   - 包含新的 System Prompt 模板（Input Format 有第 6 项、Output Format §1 有 12 阻力清单、§4 有硬约束宣告）
+   - `domain_sources` 列出 7 个源文件
+4. 重新跑 `kdo pre-submit -f 30_wiki/tools/tool-opc-sales-dialogue-assistant.md .agent/prompts/tool-opc-sales-dialogue-assistant.md`
+5. 提交编译产物
+
+**状态**：`pending_review` → `in_progress`，继续返工。

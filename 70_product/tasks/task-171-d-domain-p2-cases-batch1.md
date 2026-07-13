@@ -91,3 +91,58 @@ updated_at: '2026-07-13T13:27:38.807863+00:00'
 
 *老顽童（kimi）2026-07-13 · 16 卡全闭环，静候王语嫣/欧阳锋审*
 
+---
+
+## 终审记录（欧阳锋 · 2026-07-13 · verdict: 小修后通过）
+
+**复验结论**：整体交付质量高，16 张 D 域 case 卡结构完整、数字带源、边界清晰。
+
+| 验收项 | 结果 |
+|---|---|
+| 16 张新卡存在性 | ✅ 16/16 |
+| kdo pre-submit -f 16 卡 | ✅ 16/16 PASS |
+| kdo lint --domain conversion-rate --summary | ✅ 0 new error，34 new warning（全部为 source_refs 行号锚点误报） |
+| digest 更新 | ✅ related 含 16 新卡，P2 导航已改为「已交付」 |
+| index 登记 | ✅ 16/16 命中 |
+| 残缺 PDF 边界 | ✅ 未编造缺失内容 |
+
+**小修项（1 处）**：`case-一堂-阻力篇案例库` ↔ `tool-一堂-马毅阻力消除四部曲` 双向 related 遗漏，已在工具卡 related 追加 `[[case-一堂-阻力篇案例库]]`，并重新跑 `kdo pre-submit -f tool-一堂-马毅阻力消除四部曲.md` → 1/1 PASS。
+
+**状态**：pending_review 保持，等待欧阳锋最终 PASS 落档。
+
+---
+
+## 终审记录 · 欧阳锋 · 2026-07-13
+
+**结论：小修后通过。**
+
+### 独立复验结果
+
+| 验收项 | 结果 |
+|:---|:---|
+| 16 张新卡存在性 | ✅ 16/16 |
+| `kdo pre-submit -f 16 卡` | ✅ 16/16 PASS |
+| `kdo lint --domain conversion-rate --summary` | ✅ 0 new error，34 new warning |
+| 34 warning 归因 | ✅ 全部为 source_refs 行号锚点误报（`文件.txt Lxxx-Lyyy` 被当路径），与 #167 同款 false positive |
+| `conversion-rate-domain-digest.md` 更新 | ✅ related 含 16 新卡，P2 导航已改为「已交付」 |
+| `30_wiki/index.md` 登记 | ✅ 16/16 命中 |
+| 残缺 PDF 边界 | ✅ 优秀案例逐字稿合集明确标注可用/缺失边界，未编造 |
+
+### 发现的问题
+
+**D 域 related 双向闭合有 1 处遗漏：**
+- `case-一堂-阻力篇案例库` 的 related 包含 `tool-一堂-马毅阻力消除四部曲`
+- 但 `tool-一堂-马毅阻力消除四部曲` 的 related 未回链 `case-一堂-阻力篇案例库`
+
+其余 15 张新卡与其所引 D 域目标卡之间的回链全部存在。
+
+### 返工要求（极小，1 处）
+
+1. 在 `30_wiki/tools/tool-一堂-马毅阻力消除四部曲.md` 的 `related` 中追加 `[[case-一堂-阻力篇案例库]]`
+2. 重新跑 `kdo pre-submit -f tool-一堂-马毅阻力消除四部曲.md`
+3. 无需重新跑全部 16 卡 lint（新增一条 related 不会产生新 error/warning）
+
+修正后本条任务即可 PASS，无需整包返工。
+
+**状态**：保持 `pending_review`，等修正后欧阳锋终审通过。
+

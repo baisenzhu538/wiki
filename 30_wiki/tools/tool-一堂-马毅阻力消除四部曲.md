@@ -33,6 +33,7 @@ related:
 - '[[tool-一堂-七大转化场景自检]]'
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[conversion-rate-domain-digest]]'
+- '[[case-一堂-阻力篇案例库]]'
 quality_labels:
 - cited
 - actionable
