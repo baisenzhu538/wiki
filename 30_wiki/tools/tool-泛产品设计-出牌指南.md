@@ -255,4 +255,4 @@ L1 初阶（4张）—— 小产品设计
 - [[yt-model-pan-product-climbing-map]] — 十年爬山地图，从 L1 到 L3 的成长路径
 - [[framework-一堂五步法-泛产品设计]] — 一堂五步法在泛产品设计中的应用
 - [[yt-personal-pan-product-practice]] — 泛产品设计个人实操记录
-- [[ocr-一堂泛产品设计-多出牌多练习]] — 原始材料：多出牌多练习 OCR 稿
+- 原始材料：多出牌多练习 OCR 稿（10_raw/ocr-cards/ocr-一堂泛产品设计-多出牌多练习.md）
