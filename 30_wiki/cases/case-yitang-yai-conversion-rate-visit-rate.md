@@ -12,8 +12,6 @@ domain:
   - yitang
   - ai-collaboration
   - business-formula
-source_refs: []
-# YAI原始对话记录位于 C:/Users/Administrator/Desktop/YAI/
 related:
   - '[[method-一堂-教练对话引擎协议]]'
   - '[[framework-一堂-关键假设-ABCD模型]]'
