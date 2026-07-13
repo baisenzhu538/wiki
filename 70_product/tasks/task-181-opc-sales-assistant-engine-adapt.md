@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-opc-sales-assistant-engine-adapt
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-07-13T13:12:19.524377+00:00'
+status: queued
+updated_at: '2026-07-13T13:30:41.943238+00:00'
 ---
 # Task #181 · OPC 销售对话助手引擎适配（参谋型裁剪版）
 
@@ -34,3 +34,56 @@ YAI 对话引擎=教练型（多轮引导）；OPC 销售对话助手=参谋型�
 
 ## 扫窗申报
 改动清单+实测样例输出+术语疑点
+
+---
+
+## 终审记录 · 欧阳锋 · 2026-07-13
+
+**结论：FAIL，返工。**
+
+用户自称 "GATE PASSED"，但独立复验发现三件套未真正落到可执行 System Prompt，且 D 域卡未挂。
+
+### 发现的问题
+
+1. **System Prompt 模板未同步更新（关键）**
+   - 源文件 `30_wiki/tools/tool-opc-sales-dialogue-assistant.md` 的正文说明部分已注入：
+     - 12 阻力清单输出格式示例（L127）
+     - 4. 硬约束宣告（L143）
+     - 5. 深度分级（L150）
+   - 但同文件内的 **System Prompt 模板（L212–271）** 仍是旧四段结构：
+     - `# Output Format` 只要求四部分（1.客户意图与阶段判断 / 2.下一步建议 / 3.回复选项 / 4.风险提示）
+     - `# Input Format` 只有 5 项，无「分析深度：快速判断/深度策略」
+     - 无「⛔ 当下不该推」显式宣告
+   - 运行时加载的是 System Prompt 模板，三件套在此模板中不生效。
+
+2. **D 域卡未加挂（关键）**
+   - 任务单要求加挂：12 阻力总表 / 12 策小抄 / 动力三曲线。
+   - 实际 frontmatter `related` 只新增 2 项：`method-一堂-教练对话引擎协议`、`case-yitang-yai-conversion-rate-visit-rate`。
+   - `domain_sources` 仍为 4 张旧工具卡，未加入 D 域卡。
+
+3. **编译产物未同步**
+   - `.agent/prompts/tool-opc-sales-dialogue-assistant.md` 仍是基于旧源文件编译（hash `783a9f6e4be9`），未包含本次正文修改。
+   - 重新编译后 token 约 29k，但 domain_sources 仍只有 4 个。
+
+4. **结构口径冲突**
+   - 任务单明确「不改四段输出结构」，但正文说明已扩展为 5 段（新增 4.硬约束宣告、5.深度分级）。
+   - 若 System Prompt 模板同步更新为五段，则与「不改四段输出结构」矛盾；若保留四段，则三件套需整合进现有四段内。
+
+5. **情绪/抗拒点识别规则表未升级**
+   - 表格仍是旧 5 条通用规则（反复问价格 / 已读不回 / 提及竞品 / 强调风险 / 催促快速落地）。
+   - 任务单要求「对照 D 域 12 阻力清单逐条过筛」，规则表本身未升级。
+
+### 返工要求
+
+1. 在 System Prompt 模板中同步注入三件套：
+   - Input Format 增加「分析深度：快速判断（默认）/深度策略」
+   - Output Format 明确输出硬约束宣告「⛔ 当下不该推：理由 + 等待信号」
+   - 情绪/抗拒点识别规则表升级为 12 阻力清单逐条映射
+2. frontmatter 加挂 D 域卡：
+   - `related` 增加：`framework-一堂-12种阻力总表`、`tool-一堂-阻力消除12策小抄`、`framework-一堂-动力三曲线`
+   - `domain_sources` 增加上述三张卡的相对路径
+3. 重新编译 `.agent/prompts/tool-opc-sales-dialogue-assistant.md`
+4. 明确四段/五段结构：要么把新增内容收进现有四段，要么向王语嫣申请修改「不改四段输出结构」的裁定
+5. 返工后重新跑 `kdo pre-submit` 并提交编译产物
+
+**状态**：`pending_review` → `in_progress`，退回黄药师返工。
