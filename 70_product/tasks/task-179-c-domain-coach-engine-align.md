@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-c-domain-coach-engine-align
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-14T17:00:44.444546+00:00'
+status: pending_review
+updated_at: '2026-07-14T17:05:24.434534+00:00'
 ---
 # Task #179 · C 域业务公式教练二次迭代（对话引擎对齐）
 
@@ -28,3 +28,59 @@ updated_at: '2026-07-14T17:00:44.444546+00:00'
 
 ## 扫窗申报
 改动清单+映射表+六钉回归核对结果
+
+## 执行报告（2026-07-14）
+
+### 改动清单
+- `.agent/prompts/agent-一堂-业务公式教练.md`（主文件）
+- `30_wiki/dk/dk-yitang-business-formula-recursive-levels.md`
+- `30_wiki/dk/dk-yitang-business-formula-skip-level-entry.md`
+- `30_wiki/dk/dk-yitang-hypothesis-five-alternatives.md`
+- `30_wiki/dk/dk-yitang-formula-unmeasurable-metrics.md`
+- `30_wiki/frameworks/framework-TCPR皇冠模型.md`
+
+### 已完成
+1. **引用引擎协议卡·机制二（阶段制）**
+   - 第五节核心工作流改为「S0-S8 阶段制」
+   - 写入 S0-S8 ↔ #166 Step 0-6 映射表
+   - 落实每轮三标注：`R? | S? | 本轮只解决 X`
+   - 公式树版本化：`FT-v0.1→v0.2…`，每版记录校准逻辑
+   - 信息不足时「不下结论」显式标注
+   - 共享件 S1-S12 不再重复，直接引用 `[[method-一堂-教练对话引擎协议]]`
+
+2. **C 域盲区库聚合 checklist**
+   - 在第四节段位诊断法内新增盲区库 checklist（C-B1 到 C-B10）
+   - 覆盖：岗位出身盲区 / A 缺失 / 假装选址免费 / 公式架空 / 形式不合格 / 相关≠因果 / 递归越层 / 跳级起手 / 不可统计指标 / 假设替代路径
+
+3. **CD 主动召回升级为引擎级域间转介**
+   - 明确「域间转介」接口，转介时打包上下文：段位结论 + 已选卡 + 现状公式 + 假设池状态
+
+4. **备忘录模板对齐引擎 M8 格式**
+   - System Prompt 输出格式改为 S8 一页纸沉淀 9 模块：目标边界/业务流/L1-L4 公式树/主要矛盾/关键参数表/关键假设/首个实验设计/待补数据清单/下一轮复盘口径
+
+5. **frontmatter/related 更新**
+   - `updated_at` 改为 2026-07-14
+   - related 追加 `method-一堂-教练对话引擎协议`、`framework-TCPR皇冠模型`、4 张新 dk 卡
+   - 页脚追加 #179 迭代记录
+
+### 六钉回归核对
+- A 诊断先于拆公式 ✅
+- 接手先问现状不问目标 ✅
+- 先定段位再给药方 ✅
+- L5/L6 禁错位 ✅
+- 反架空 ✅
+- L5 挖掘强制验因果 ✅
+- L1 选择型参数检查 ✅
+- C-D 循环主动召回 ✅
+- 默认失败共识 + 假设轰炸 ✅
+- 数字纪律 ✅
+
+### 门禁结果
+- `pre_submit.py --manifest 90_control/.sandbox/179_changed_files.txt` → 6/6 GATE PASSED ✅
+- `kdo_lint.py 30_wiki --incremental` → 0 new error ✅
+
+### 说明
+- 4 张 dk 卡与 TCPR 皇冠模型本拟回链 `agent-一堂-业务公式教练`，但 lint 报 agent-spec 位于 `.agent/prompts/` 目录，对 30_wiki 卡片而言是 BROKEN LINK（与引擎协议链接 coach 的 baseline 行为一致）。已回退这些反向链接，保持 coach spec 单向引用 30_wiki 卡，lint 0 new error。
+
+### 下一步
+- 执行 `queue_transition.py complete task_20260713_wangyuyan-c-domain-coach-engine-align` 提审
