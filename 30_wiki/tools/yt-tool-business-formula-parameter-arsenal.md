@@ -56,6 +56,7 @@ related:
 - '[[tool-yitang-business-formula-l5-mining-and-verification]]'
 - '[[framework-一堂五步法-单元模型]]'
 - '[[framework-yitang-channel-unit-economics]]'
+- '[[tool-yitang-hypothesis-marginal-roi]]'
 diagnostic_signals:
 - signal: 业务只有 GMV/营收/用户数三五个大数，想提假设却无从下手
   lens: 参数还在 L1，没有拆法库——对着武器库逐动作过一遍，一天能展开到上百个参数

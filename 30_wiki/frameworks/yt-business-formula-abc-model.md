@@ -71,6 +71,15 @@ related:
 - "[[dk-yitang-business-formula-a-missing-syndrome]]"
 - "[[framework-一堂五步法-单元模型]]"
 - "[[tool-一堂五步法-换档检查清单]]"
+- "[[tool-yitang-hypothesis-marginal-roi]]"
+- "[[case-toc-online-education-trust-metrics]]"
+- "[[case-yitang-burger-franchise-key-path]]"
+- "[[case-yitang-farm-machinery-matching]]"
+- "[[case-yitang-meituan-red-dot]]"
+- "[[case-yitang-subtraction-decisions-three]]"
+- "[[case-yitang-tob-devboard-price-coupling]]"
+- "[[case-yitang-wechat-monthly-price-value]]"
+- "[[case-yitang-womenswear-formula-three-versions]]"
 
 ---
 

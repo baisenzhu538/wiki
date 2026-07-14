@@ -22,6 +22,7 @@ related:
 - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 - '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
 - '[[business-formula-domain-digest]]'
+- '[[tool-yitang-hypothesis-marginal-roi]]'
 quality_labels:
 - principle
 - validated

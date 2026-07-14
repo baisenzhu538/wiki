@@ -23,6 +23,8 @@ related:
 - '[[dk-yitang-business-formula-pseudo-causality-two-masks]]'
 - '[[business-formula-domain-digest]]'
 - '[[dk-yitang-hypothesis-five-alternatives]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-six-level-logic]]'
 quality_labels:
 - actionable
 - framework

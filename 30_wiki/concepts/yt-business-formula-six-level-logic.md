@@ -92,6 +92,15 @@ related:
 - '[[tool-yitang-business-formula-l5-mining-and-verification]]'
 - '[[dk-yitang-business-formula-logic-l5-l6]]'
 - '[[dk-yitang-business-formula-pseudo-causality-two-masks]]'
+- '[[tool-yitang-hypothesis-marginal-roi]]'
+- '[[case-toc-online-education-trust-metrics]]'
+- '[[case-yitang-burger-franchise-key-path]]'
+- '[[case-yitang-farm-machinery-matching]]'
+- '[[case-yitang-meituan-red-dot]]'
+- '[[case-yitang-subtraction-decisions-three]]'
+- '[[case-yitang-tob-devboard-price-coupling]]'
+- '[[case-yitang-wechat-monthly-price-value]]'
+- '[[case-yitang-womenswear-formula-three-versions]]'
 ---
 # 业务公式六层逻辑关系冰山（L1 模糊理解 → L6 动态建模）
 

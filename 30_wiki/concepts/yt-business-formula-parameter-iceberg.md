@@ -83,6 +83,15 @@ related:
 - "[[dk-yitang-business-formula-l1-site-blindness]]"
 - "[[tool-yitang-business-formula-l5-mining-and-verification]]"
 - "[[dk-yitang-business-formula-logic-l5-l6]]"
+- "[[tool-yitang-hypothesis-marginal-roi]]"
+- "[[case-toc-online-education-trust-metrics]]"
+- "[[case-yitang-burger-franchise-key-path]]"
+- "[[case-yitang-farm-machinery-matching]]"
+- "[[case-yitang-meituan-red-dot]]"
+- "[[case-yitang-subtraction-decisions-three]]"
+- "[[case-yitang-tob-devboard-price-coupling]]"
+- "[[case-yitang-wechat-monthly-price-value]]"
+- "[[case-yitang-womenswear-formula-three-versions]]"
 ---
 
 # 业务公式参数冰山（L1-L6）

@@ -114,6 +114,7 @@ related:
 - '[[framework-一堂五步法]]'
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'
+- '[[tool-yitang-hypothesis-marginal-roi]]'
 diagnostic_signals:
 - signal: 团队说"我们的关键假设是用户会买单"，但说不清差多少、先动哪
   lens: 假设停在定性——没有拆到可验证参数

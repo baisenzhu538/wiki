@@ -1,8 +1,8 @@
 ---
 id: task_20260712_wangyuyan-c-domain-scan-fix-assets
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-14T14:36:38.893546+00:00'
+status: pending_review
+updated_at: '2026-07-14T16:02:13.079317+00:00'
 ---
 # Task #176 · C 域查漏修复第二批（资产层：遗漏案例+知识点补卡）
 
@@ -53,3 +53,32 @@ updated_at: '2026-07-14T14:36:38.893546+00:00'
 
 ## 扫窗申报
 建卡/补节清单+其他触及文件+术语疑点
+
+## 执行报告（2026-07-14）
+
+### 已完成
+- A 部分：8 张独立案例卡落地 `30_wiki/cases/`
+- B 部分：5 张新 dk/tool 卡落地（`dk-yitang-business-formula-recursive-levels`、`dk-yitang-business-formula-skip-level-entry`、`tool-yitang-hypothesis-marginal-roi`、`dk-yitang-hypothesis-five-alternatives`、`dk-yitang-formula-unmeasurable-metrics`）
+- B 部分：既有卡补节 ~15 项完成
+- C 部分：合集卡速写案例补全完成
+- 全部卡 `index.md` 登记完成
+
+### F2 MISSING BACKLINK 返工（2026-07-14）
+- `kdo_lint.py 30_wiki --incremental` 首次报 29 条 new error，全部为核心卡未回链新卡
+- 已给 7 张核心卡补全 related 双向回链：
+  - `yt-business-formula-abc-model`
+  - `yt-business-formula-parameter-iceberg`
+  - `yt-business-formula-six-level-logic`
+  - `framework-一堂-业务公式拆解-总纲`
+  - `framework-一堂-关键假设`
+  - `yt-tool-business-formula-parameter-arsenal`
+  - `dk-yitang-business-formula-pseudo-causality-two-masks`
+- 同步给 `tool-yitang-hypothesis-marginal-roi` 补回 `parameter-iceberg` / `six-level-logic` 回链
+- 变更清单 `176_changed_files.txt` 从 20 文件扩至 26 文件（追加 6 张核心卡）
+
+### 门禁结果
+- `python 90_control/scripts/pre_submit.py --manifest 90_control/.sandbox/176_changed_files.txt` → 26/26 GATE PASSED ✅
+- `python 90_control/scripts/kdo_lint.py 30_wiki --incremental` → 0 new error ✅
+
+### 下一步
+- 执行 `queue_transition.py complete task_20260712_wangyuyan-c-domain-scan-fix-assets` 提审

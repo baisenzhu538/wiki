@@ -18,3 +18,9 @@
 30_wiki/dark-knowledges/dk-yitang-business-formula-plus-times-trap.md
 30_wiki/index.md
 .agent/prompts/agent-一堂-业务公式教练.md
+30_wiki/frameworks/yt-business-formula-abc-model.md
+30_wiki/concepts/yt-business-formula-parameter-iceberg.md
+30_wiki/concepts/yt-business-formula-six-level-logic.md
+30_wiki/frameworks/framework-一堂-关键假设.md
+30_wiki/tools/yt-tool-business-formula-parameter-arsenal.md
+30_wiki/dark-knowledges/dk-yitang-business-formula-pseudo-causality-two-masks.md
