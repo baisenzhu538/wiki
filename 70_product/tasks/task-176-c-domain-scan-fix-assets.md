@@ -1,8 +1,8 @@
 ---
 id: task_20260712_wangyuyan-c-domain-scan-fix-assets
 assignee: kimi
-status: queued
-updated_at: '2026-07-13T10:11:14+00:00'
+status: in_progress
+updated_at: '2026-07-14T14:36:38.893546+00:00'
 ---
 # Task #176 · C 域查漏修复第二批（资产层：遗漏案例+知识点补卡）
 
