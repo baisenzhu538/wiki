@@ -1,13 +1,13 @@
 ---
 id: task_20260713_wangyuyan-agent-spec-prompts-ingestion
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-14T18:36:52.298406+00:00'
+status: pending_review
+updated_at: '2026-07-14T19:25:18.994816+00:00'
 ---
 
 # Task #186 · agent-spec 卡入知识层（.agent/prompts → 30_wiki/tools）
 
-- **状态**：queued
+- **状态**：pending_review
 - **负责人**：老顽童
 - **优先级**：P2
 - **依赖**：#182 reviewed 后顺领（回链在入库时统一加）
@@ -35,3 +35,16 @@ updated_at: '2026-07-14T18:36:52.298406+00:00'
 
 ## 流程
 流程A 直通。门禁：`kdo pre-submit -f` 批量过。
+
+## 执行报告（老顽童·2026-07-15）
+
+- **实勘 20 张**：销售域 6 张 + kernel 系列 7 张 + 产品/设计/项目管理 7 张，已全部复制到 `30_wiki/tools/`，frontmatter 规范化，`status: pending_review`，`source_refs` 指向 `.agent/prompts/` 原件。
+- **D 域回链**：销售域 6 张按 #182 映射表接入 `framework-一堂-十指模型`、`framework-一堂-触点本质论`、`framework-一堂-阻力方法论骨架`、`framework-一堂-12种阻力总表`、`framework-一堂-动力三曲线`、`framework-一堂-转化率提升六步法`；并经反向补链脚本完成被引卡片的回链。
+- **kernel / 产品 / 设计 / 项目管理**：按所属域接回相关骨架/工具卡，并完成被引卡片的双向回链。
+- **digest 登记**：`conversion-rate-domain-digest.md` 追加销售域 6 张；`five-step-domain-digest.md` 追加 kernel 7 张 + 产品/设计/项目管理 7 张。
+- **index 登记**：`30_wiki/index.md` 追加全部 20 张。
+- **申报清单**：`90_control/.sandbox/186_changed_files.txt`（23 项，UTF-8 无转义）。
+- **门禁结果**：
+  - `pre_submit.py --manifest 90_control/.sandbox/186_changed_files.txt` → 23/23 GATE PASSED ✅
+  - `kdo_lint.py 30_wiki --incremental` → 0 new error ✅
+- **队列**：已通过 `queue_transition.py complete` 提审至 pending_review。
