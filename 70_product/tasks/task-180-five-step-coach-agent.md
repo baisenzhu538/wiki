@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-five-step-coach-agent
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-14T17:29:39.462522+00:00'
+status: pending_review
+updated_at: '2026-07-14T17:34:16.340151+00:00'
 ---
 # Task #180 · A 域五步法教练 agent-spec 新建
 
@@ -35,3 +35,63 @@ updated_at: '2026-07-14T17:29:39.462522+00:00'
 
 ## 扫窗申报
 建卡清单+盲区库条目及回指卡清单+术语疑点
+
+## 执行报告（2026-07-14）
+
+### 改动清单
+- `.agent/prompts/agent-一堂五步法教练.md`（迭代重写）
+
+### 已完成
+1. **引用引擎协议卡·机制一（里程碑制 M0-M8）**
+   - 第六节核心工作流改为「M0-M8 里程碑制」
+   - 写入 M0-M8 ↔ 五步法映射表
+   - 落实每轮三标注：`R? | M? | 本轮只解决 X`
+   - 信息不足时「不下结论」显式标注
+   - 共享件 S1-S12 直接引用引擎卡，不再重复
+
+2. **A 域段位体系**
+   - 五步法各步成熟度 L1-L3 表（机会预判/需求分析/产品内核/单元模型/规模化增长）
+   - 两次跃迁意识（价值假设→增长假设→规模化）
+   - 引用 [[tool-一堂五步法-段位升级三部曲]]
+
+3. **A 域盲区库聚合 checklist**
+   - A-B1～A-B12 共 12 条盲区
+   - 覆盖：跳步/假设不验证/未验证需求就开发/单元模型缺失/伪机会/执行问题当战略问题/两种形态混淆/线性幻觉/假换档/单向不回退/假壁垒/ToB 用 2C 方法
+   - 每条带触发信号、补漏问法、回指卡
+
+4. **工具挂载清单**
+   - 五步法总纲/单元模型/增长周期/壁垒/泛产品设计/机会预判
+   - 换档检查清单/段位升级三部曲/ToB 十八式/五步法预判/案例预判
+   - Y 模型母模型/关键假设/ABCD 模型/需求冰山教练
+
+5. **边界条款与四域转介接口**
+   - A→C（方向对了但效率低）
+   - A→B（单点 ROI 决策）
+   - A→D（转化率节点）
+   - A→基本功教练（组织推不动）
+   - A→#143 双三角诊断（跨域分诊）
+   - 打包上下文规范
+
+6. **CD/AB 循环意识**
+   - A 选战场 → C 拆公式/参数
+   - C/D 打不动 → 拉回 A 重新选战场
+   - A 单点决策 → B 域 Y 模型
+
+7. **备忘录模板对齐引擎 M8 格式**
+   - System Prompt 输出格式改为 A 域一页纸沉淀：阶段判断/换档评估/建议动作/路由建议/盲区补漏/关键不确定项/下一步
+
+8. **frontmatter/related 更新**
+   - `status` 改为 `pending_review`
+   - `updated_at` 改为 2026-07-14
+   - related 追加 `method-一堂-教练对话引擎协议`、`framework-TCPR皇冠模型`、四域教练 agent、digest、核心案例等
+
+### 门禁结果
+- `pre_submit.py --manifest 90_control/.sandbox/180_changed_files.txt` → 1/1 GATE PASSED ✅
+- `kdo_lint.py 30_wiki --incremental` → 0 new error ✅
+
+### 说明
+- 30_wiki 核心卡（framework-一堂五步法/单元模型/增长周期/壁垒/换档检查清单/段位升级三部曲/ToB 十八式）原本已在 related 中指向 `agent-一堂五步法教练`，双向链接天然闭合。
+- agent-spec 位于 `.agent/prompts/`，30_wiki 卡不回链 agent-spec（与现有 baseline 行为一致，避免 BROKEN LINK）。
+
+### 下一步
+- 执行 `queue_transition.py complete task_20260713_wangyuyan-five-step-coach-agent` 提审
