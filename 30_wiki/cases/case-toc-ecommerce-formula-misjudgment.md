@@ -11,10 +11,11 @@ domain:
 - e-commerce
 - business-strategy
 source_refs:
-  - pending_archive:src_20260613_6b939d2byitang-business-formula-decomposition-transcript  - pending_archive:src_20260613_a8bcfd38yitang-business-formula-decomposition-oral
-  - pending_archive:src_20260613_6edbf0afyitang-business-formula-decomposition-notestags:
+  - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md L532-L650
+  - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md L38-L48
+tags:
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
+updated_at: '2026-07-14'
 author: 孔阳
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，ToC 消费品电商案例
