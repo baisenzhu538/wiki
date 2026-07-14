@@ -1,1 +1,4 @@
+30_wiki/cases/case-saas-renewal-formula.md
+30_wiki/cases/case-toc-ecommerce-formula-misjudgment.md
 30_wiki/concepts/yt-business-formula-parameter-iceberg.md
+60_feedback/diagnosis/c-domain-business-formula-2026-07-12.md

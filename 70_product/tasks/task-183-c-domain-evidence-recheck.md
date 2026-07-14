@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-c-domain-evidence-recheck
 assignee: kimi
-status: in_progress
-updated_at: '2026-07-14T14:04:44.869748+00:00'
+status: pending_review
+updated_at: '2026-07-14T14:25:21.726908+00:00'
 ---
 
 # #183 C 域证据复核收尾（#175 拆出项）
@@ -35,3 +35,45 @@ updated_at: '2026-07-14T14:04:44.869748+00:00'
 
 ## 流程
 流程A 直通（证据复核类，内容小）。完成后 #175 整体方可 close。
+
+---
+
+## 执行报告（老顽童·2026-07-14）
+
+### 一、6 老卡数字复核与 source_refs 补齐
+
+| 卡 | 复核内容 | 结果 | 依据 |
+|:--|:--|:--|:--|
+| 卡 1 `case-toc-ecommerce-formula-misjudgment` | source_refs 为空且 frontmatter 损坏 | ✅ 已补齐孔源篇 B 版行号：`10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md L532-L650` + transcript L38-L48 | 孔源篇 B 版 L538-L548 与卡内数字一致 |
+| 卡 3 `case-saas-renewal-formula` | 数字与口述不一致 | ✅ 删除「竞对续费率 80%」错误表述，改为「目标续费率 80%」 | transcript.md L398-L400：目标续费率 80%，非竞对 80% |
+| 卡 5 `case-gym-membership-formula` | 数字复核 | ✅ 无修改；20 家门店/月 GMV 600 万/续卡率 35%/目标 50% 与 transcript L786-L788 一致 | transcript.md |
+| 卡 6 `case-offline-catering-formula` | 数字复核 | ✅ 无修改；50 家门店/月 GMV 2000 万/客单价 25 元/同店增长 30% 与 transcript L417-L419 一致 | transcript.md |
+
+### 二、3 项原图复核（三栏证据+裁定）
+
+已补入 `60_feedback/diagnosis/c-domain-business-formula-2026-07-12.md` §九「三栏证据复核」：
+
+| # | 疑点 | 图片原字 | 口述 | 裁定 |
+|:--|:--|:--|:--|:--|
+| 1 | 30天2学分 vs 20学分 | 30天**20**学分率 | L2818 "30天2学分率" | **30天20学分率**（图原字为准） |
+| 2 | FB 七天十好友 vs 十天 | **7天10个好友**率 | L1330 "十天十好友" / L2950 "七天十个好友" | **7天10个好友率**（图原字为准） |
+| 3 | 参数冰山九层 vs 十层 | **L1-L6 共 6 层** | L1228 "十层" / L1376 "九层" | **参数冰山 6 层**（图原字为准） |
+
+### 三、关联卡修正
+
+- `30_wiki/concepts/yt-business-formula-parameter-iceberg.md` L216：「十天十好友率」→「7天10个好友率」，并加注释说明口述口误，以图原字为准。
+
+### 四、门禁结果
+
+| 检查 | 命令 | 结果 |
+|:---|:---|:---|
+| pre-submit | `python 90_control/scripts/pre_submit.py --manifest 90_control/.sandbox/183_changed_files.txt` | ✅ 4/4 文件 GATE PASSED |
+| lint 增量 | `python 90_control/scripts/kdo_lint.py 30_wiki --incremental` | ✅ 0 new error |
+
+### 五、变更清单
+
+- `30_wiki/cases/case-toc-ecommerce-formula-misjudgment.md`
+- `30_wiki/cases/case-saas-renewal-formula.md`
+- `30_wiki/concepts/yt-business-formula-parameter-iceberg.md`
+- `60_feedback/diagnosis/c-domain-business-formula-2026-07-12.md`
+- `90_control/.sandbox/183_changed_files.txt`

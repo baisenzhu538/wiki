@@ -212,7 +212,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 173 | `task_20260712_wangyuyan-d-domain-p3-cases-batch2` | D域案例族第二批约8卡：触点案例合集3案例（md逐字稿一等素材：叶文彬射箭/李刚黄金三版迭代/范渝烘焙）+小米发布会拆解+复盘合集 | reviewed | 老顽童 | 案例族完整（10+8） | #172 reviewed；7-13阻塞解除：md逐字稿覆盖全部案例，回源降级可选 |
 | 174 | `task_20260712_wangyuyan-d-domain-p1-tools-batch2` | D域P1工具族第二批（触点+组合侧13卡：四层级/五维/五种挖/12易浪费/减法排序/五大范式/准备系数/提假设四策略/排序四招/ABACC/框架库/仿真三要点/讲香双策略） | reviewed | 老顽童 | 13卡+Tool四节齐全+预检PASS | #169 reviewed（与#170并列可并行）；v2新增补诊断书遗漏 |
 | 175 | `task_20260712_wangyuyan-c-domain-scan-fix-structure` | C域查漏修复第一批（结构层）：6孤儿卡接入digest+digest归属修正+5裁定落地（马拉松双口径/伪因果术语映射/因果口径声明）+原图复核3项+6老卡数字复核+勘误表补录+Y模型表述修正（老朱裁定6：Y=母模型，ROI=推导产物，全库ROI/Y斜杠清零） | reviewed | 黄药师 | 6卡可达+5裁定落地+3复核有结论 | #168A完成后顺领；依据c-domain-scan-supplement诊断书，裁定已落 |
-| 183 | `task_20260713_wangyuyan-c-domain-evidence-recheck` | C域证据复核收尾（#175拆出：3原图复核三栏证据[2学分/FB七天/冰山层数]+6老卡数字复核一等压二等+卡1空source_refs补齐） | claimed-kimi | 老顽童 | 三栏证据入诊断书+6卡复核+lint无新增 | 无；先于#169顺领（半天量级），完成后#175整体close |
+| 183 | `task_20260713_wangyuyan-c-domain-evidence-recheck` | C域证据复核收尾（#175拆出：3原图复核三栏证据[2学分/FB七天/冰山层数]+6老卡数字复核一等压二等+卡1空source_refs补齐） | pending_review | 老顽童 | 三栏证据入诊断书+6卡复核+lint无新增 | 无；先于#169顺领（半天量级），完成后#175整体close |
 | 184 | `task_20260713_wangyuyan-full-vault-yaml-audit` | 全库yaml.safe_load体检：解析失败/结构异常/无frontmatter三类清单，修复①②类，隐身卡归零 | reviewed | 黄药师 | 扫描报告+修复+lint无新增 | 无；#181后顺领 |
 | 185 | `task_20260713_wangyuyan-template-placeholder-hygiene` | 模板占位符卫生：xxx/.../wikilink等~130条示例wikilink改代码块包裹，图谱灰白点归零；历史文档真实引用不动 | reviewed | 黄药师 | 占位符归零+模板抽查+lint无新增 | 无；#184后顺领 |
 | 186 | `task_20260713_wangyuyan-agent-spec-prompts-ingestion` | agent-spec卡入知识层：.agent/prompts 14张黑户卡→30_wiki/tools正式卡（销售域6张按#182映射表加D域回链/其他域8张按所属域接） | queued | 老顽童 | 14正式卡+lint无新增 | #182 reviewed后顺领 |
