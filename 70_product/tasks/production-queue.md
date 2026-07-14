@@ -215,7 +215,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 183 | `task_20260713_wangyuyan-c-domain-evidence-recheck` | C域证据复核收尾（#175拆出：3原图复核三栏证据[2学分/FB七天/冰山层数]+6老卡数字复核一等压二等+卡1空source_refs补齐） | reviewed | 老顽童 | 三栏证据入诊断书+6卡复核+lint无新增 | 无；先于#169顺领（半天量级），完成后#175整体close |
 | 184 | `task_20260713_wangyuyan-full-vault-yaml-audit` | 全库yaml.safe_load体检：解析失败/结构异常/无frontmatter三类清单，修复①②类，隐身卡归零 | reviewed | 黄药师 | 扫描报告+修复+lint无新增 | 无；#181后顺领 |
 | 185 | `task_20260713_wangyuyan-template-placeholder-hygiene` | 模板占位符卫生：xxx/.../wikilink等~130条示例wikilink改代码块包裹，图谱灰白点归零；历史文档真实引用不动 | reviewed | 黄药师 | 占位符归零+模板抽查+lint无新增 | 无；#184后顺领 |
-| 186 | `task_20260713_wangyuyan-agent-spec-prompts-ingestion` | agent-spec卡入知识层：20张 prompts 卡入 30_wiki/tools（销售域6张按#182映射表加D域回链/kernel系列7张/产品项目管理7张按所属域接） | pending_review | 老顽童 | 20正式卡+lint无新增 | #182 reviewed后顺领 |
+| 186 | `task_20260713_wangyuyan-agent-spec-prompts-ingestion` | agent-spec卡入知识层：20张 prompts 卡入 30_wiki/tools（销售域6张按#182映射表加D域回链/kernel系列7张/产品项目管理7张按所属域接） | queued | 老顽童 | 20正式卡+lint无新增 | #182 reviewed后顺领 |
 | 176 | `task_20260712_wangyuyan-c-domain-scan-fix-assets` | C域查漏修复第二批（资产层）：8独立案例卡（汉堡店/美团小红点/芯片开发板/减法三例/公众号单月价值/农机撮合/在线教育/女装店三版）+5新dk/tool卡（分型递归/跳级起手/边际ROI/五条替代路径/不可统计必写）+既有卡补节约15项+合集速写补全 | reviewed | 老顽童 | 13卡+补节全落地+预检PASS | #175 reviewed+D域#169后顺领（C域修复优先D域P1） |
 | 177 | `task_20260713_wangyuyan-coach-dialogue-engine-protocol` | 教练对话引擎协议卡（共享件12条+控制机制三选一+身份轴TCPR[理论底座=一堂TCPR皇冠模型原生，YAI四分类=其产品化]+附加产出TCPR模型正式卡）+YAI实录案例卡×2 | reviewed | 黄药师 | 3卡（协议卡+TCPR卡+双实录） | 无（#168A/#175后顺领）；须早于老顽童#172/#179/#180 |
 | 178 | `task_20260713_wangyuyan-decision-coach-engine-upgrade` | B域#153科学决策教练spec升级：工具清单→对话引擎（引用引擎卡+盲区库聚合+三pattern注入+域间转介），按黄药师建议书落地 | reviewed | 黄药师 | spec可跑完M0-M8+预检PASS | #177 reviewed |
