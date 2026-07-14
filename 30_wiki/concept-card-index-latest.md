@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-07-13 18:08 UTC
+# Concept Card Index — 2026-07-14 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -1022,6 +1022,7 @@
 | tool-yitang-government-data-search | 国家数据查询：最权威的宏观数据来源 | tool | yitang, research |
 | tool-yitang-growth-flywheel-design | 增长飞轮设计工具：从业务要素到增强回路 | tool | yitang, growth |
 | tool-yitang-hardware-product-disassembly | 硬件产品拆解调研：BOM成本+工艺分析 | tool | yitang, research |
+| tool-yitang-hypothesis-marginal-roi | 工具：测试三难题 + 边际 ROI 决策框架 | tool | yitang, business-formula |
 | tool-yitang-in-home-experience-research | 上门体验调研：去用户家里看真实使用场景 | tool | yitang, research |
 | tool-yitang-industry-channel-arsenal-index | 24 行业获客清单索引：跨行业渠道灵感库 | tool | yitang, growth |
 | tool-yitang-industry-report-search | 行业报告搜索：拓宽关键词+多平台交叉 | tool | yitang, research |
@@ -1787,6 +1788,7 @@
 | case-thousand-people-square | 案例：一堂'千人广场模型'——用统计建模心态做课 | case | src_unknown, src_unknown, src_unknown |
 | case-toc-content-platform-correlation-trap | ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘 | case | yitang, content, business-strategy |
 | case-toc-ecommerce-formula-misjudgment | ToC 消费品电商：业务公式拆解误判导致放量亏损 | case | yitang, e-commerce, business-strategy |
+| case-toc-online-education-trust-metrics | ToC在线教育：把「信任度」拆成4个可定量行为指标，对话率10%→15% | case | yitang, business-strategy, e-commerce |
 | case-toy-cabinet-barrier | 案例：线下玩具柜的壁垒困局与突围路径 | case |  |
 | case-toy-cabinet-business-model | 案例：线下玩具柜商业模式 | case |  |
 | case-treadmill-demand-analysis | 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈 | case | product, yitang |
@@ -1864,6 +1866,7 @@
 | case-yitang-amazon-growth-flywheel | 案例：亚马逊增长飞轮的五层逻辑 | case | yitang, growth, strategy |
 | case-yitang-aquaculture-stress-protection | 案例：水产养殖——从行业经验到学科原理的上层创新 | case | yitang |
 | case-yitang-beauty-device-overseas-sales | 案例：美容仪出海——用行业报告判断海外市场 | case | yitang, research |
+| case-yitang-burger-franchise-key-path | 汉堡店加盟三渠道关键路径：同样的30%提升，为什么优先做邀约成功率？ | case | yitang, business-strategy |
 | case-yitang-chuanhe-seasoning-kernel | 案例：川味调料供应链——从"厂家直销"到"买底料+全程帮扶"的六次产品内核迭代 | case | yitang, product-kernel |
 | case-yitang-coke-spill-compensation | 案例：可乐撒了——ROI模型重构客户赔偿流程（Y模型推导产物） | case | yitang |
 | case-yitang-competitor-pricing-intelligence | 案例：假装订货套取竞品真实价格 | case | yitang, research |
@@ -1881,6 +1884,7 @@
 | case-yitang-elderly-home-roleplay | 案例：假扮家属潜入养老院微信群 | case | yitang, research |
 | case-yitang-fake-interview-intelligence | 案例：假扮面试发现行业红利退潮 | case | yitang, research |
 | case-yitang-false-causality-collection | 伪因果十题与聪明下属反噬四案：KPI 锁错因果，团队越聪明业务越差 | case | yitang, business-formula |
+| case-yitang-farm-machinery-matching | 农机撮合平台：从「续费率10%」到「新客一月5次撮合率」的因果验证 | case | yitang, business-strategy |
 | case-yitang-fupanying-five-years-1000-hypotheses | 一堂复盘营五年：8 个参数到 200+ 参数、1000+ 假设，把低转高做成不靠红利的长期生意 | case | yitang, business-formula |
 | case-yitang-goat-milk-channel-partnership | 羊奶粉「卖地图」区域代理模式案例 | case | yitang, growth, strategy |
 | case-yitang-hardware-factory-photo | 案例：从朋友圈照片找到代工厂 | case | yitang, research |
@@ -1901,6 +1905,7 @@
 | case-yitang-mao-scientific-culture | 案例：毛泽东"主义清单"——红蓝卡的历史原型 | case | yitang |
 | case-yitang-marathon-ten-seasons | 一堂马拉松十期：双目标+10维切片+攻坚会，用假设驱动把年度续费大课做成一条稳定向上的曲线 | case | yitang, business-formula |
 | case-yitang-meeting-room-match | 案例：一堂会议室场景匹配——同一个屋子不同布置，产出效率差一倍 | case | yitang, time-management |
+| case-yitang-meituan-red-dot | 美团「意向优选」小红点：一个触点假设把APP活跃度提升30%-40% | case | yitang, business-strategy, ai-saas |
 | case-yitang-milktea-bonus-design | 案例：奶茶店奖金——追问"发奖金的本质"重构薪酬设计 | case | yitang |
 | case-yitang-model-asset-inventory | 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式 | case | src_unknown, src_unknown, src_unknown |
 | case-yitang-model-valuation-flywheel | 案例：一堂内部给模型"定价"——从 5000 元到 10 万美金的价值飞轮 | case | yitang, 组织激励, 模型质量管理 |
@@ -1937,9 +1942,11 @@
 | case-yitang-ski-project-user-as-expert | 案例：滑雪项目——把用户当专家访谈 | case | yitang, research |
 | case-yitang-smart-microphone-color | 案例：智能麦克风颜色——投资人凭个人喜好做产品决策 | case | yitang, decision-science |
 | case-yitang-solid-redbull-channel | 案例：固体红牛如何通过渠道探索找到司机群体 | case | yitang, growth |
+| case-yitang-subtraction-decisions-three | 一堂减法决策三例：双直播间ROI、MBA提前第二趴、城市巡回的定量评估 | case | yitang, business-strategy |
 | case-yitang-supplier-security-guard | 案例：通过保安打听到工厂收购价 | case | yitang, research |
 | case-yitang-three-industry-formula-demos | 三行业公式拆解示范：民营眼科医院、篮球培训、ToB 摄像头——把收入目标逐层拆到可执行的因子 | case | yitang, business-formula |
 | case-yitang-tob-artificial-bone | 案例：人工骨医疗器械上市失败复盘 | case | src_unknown, src_unknown, src_unknown, src_unknown |
+| case-yitang-tob-devboard-price-coupling | ToB芯片开发板：降价涨量但ToB客户不变，参数耦合的定价回摆 | case | yitang, business-strategy, ai-saas |
 | case-yitang-tob-grinding-machine | 案例：精密磨床自制项目失败复盘 | case | src_unknown, src_unknown, src_unknown, src_unknown |
 | case-yitang-tob-smart-park | 案例：智慧园区项目复盘 | case | src_unknown, src_unknown, src_unknown, src_unknown |
 | case-yitang-topcity-growth-flywheel | 案例：Top City 如何用六大要素搭建内容-商户双端飞轮 | case | yitang, growth, strategy |
@@ -1950,8 +1957,10 @@
 | case-yitang-voice-robot-companion-design | 案例：陪伴式语音机器人——声音设计如何调研 | case | yitang, research |
 | case-yitang-wang-mcn-funnel | 王同学 MCN：签素人六环漏斗 + 团队假设表，从一个人盯签约到四期行动营量率双升 | case | yitang, business-formula |
 | case-yitang-waste-recycling-subjective-failure | 案例：废品回收站——主观臆测从单店成功到多店失败 | case | yitang, decision-science |
+| case-yitang-wechat-monthly-price-value | 一堂公众号投放：自造「单月价格/单月价值」参数稳定渠道ROI | case | yitang, business-strategy |
 | case-yitang-weekly-modeling-engine | 案例：一堂的"周对周建模迭代"——把周五课程逼成公司增长引擎 | case | src_unknown, src_unknown, src_unknown |
 | case-yitang-wenxiaozhang-driving-school | 温校长驾校：十年传统业务拆公式后校园代理×招生链成关键路径，"六杯奶茶"触点假设把推荐率再提一级、业务再翻一倍 | case | yitang, business-formula |
+| case-yitang-womenswear-formula-three-versions | 女装店收入公式三版本：从10分到60分看顶层拆解的形式规范 | case | yitang, business-strategy |
 | case-yitang-woqingke-referral-15-to-40 | 一堂「我请客」推荐率攻坚：三层公式展开把 15% 干到 40%，一年半 70-100 个假设 | case | yitang, business-formula |
 | case-yitang-xiaohuangdog-recycling-cabinet | 案例：小黄狗回收柜——忽略事实的典型代价 | case | yitang, decision-science |
 | case-yitang-xiezefeng-clothing-innovation-param | 服装店：找到"二次试穿"创新参数（L5）与"音量80"魔法数字（L6），用业务公式定优先级、转化率找抓手 | case | yitang, business-strategy |
