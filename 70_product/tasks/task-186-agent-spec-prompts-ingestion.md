@@ -1,8 +1,11 @@
 ---
 id: task_20260713_wangyuyan-agent-spec-prompts-ingestion
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-14T19:50:18.750917+00:00'
+status: reviewed
+updated_at: '2026-07-14T19:55:58.152171+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-14'
+grade: A-
 ---
 
 # Task #186 · agent-spec 卡入知识层（.agent/prompts → 30_wiki/tools）
