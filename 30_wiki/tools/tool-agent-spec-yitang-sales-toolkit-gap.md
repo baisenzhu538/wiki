@@ -23,12 +23,12 @@ source_refs:
 - 30_wiki/tools/tool-yitang-sales-toolkit-maturity-60-75-85.md
 - .agent/prompts/tool-agent-spec-yitang-sales-toolkit-gap.md
 related:
-- framework-yitang-scientific-sales-five-step
-- opc-ai-sales-agent-architecture
-- tool-opc-sales-dialogue-assistant
-- tool-yitang-sales-performance-management
-- tool-yitang-sales-process-decomposition
-- tool-yitang-sales-toolkit-radar
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: C
@@ -37,7 +37,6 @@ tcp_switch_trigger: 用户要求直接输出建设计划/预算表 → 切换为
   → 切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你盘点销售工具箱的成熟度缺口，并给出建设优先级和路线图。请先提供现有工具清单、团队规模和业务阶段。
 ---
-
 # 销售工具箱缺口盘点 Agent Spec
 
 ## 一句话

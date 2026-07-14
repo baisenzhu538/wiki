@@ -41,9 +41,9 @@ related:
 - '[[tool-yitang-value-proposition-4step]]'
 - '[[yitang-methodology-system]]'
 - '[[yt-five-step-method-complete]]'
-- tool-agent-spec-yitang-incentive-design
-- tool-agent-spec-yitang-lead-funnel-health
-- tool-agent-spec-yitang-user-perspective-training
+- '[[tool-agent-spec-yitang-incentive-design]]'
+- '[[tool-agent-spec-yitang-lead-funnel-health]]'
+- '[[tool-agent-spec-yitang-user-perspective-training]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

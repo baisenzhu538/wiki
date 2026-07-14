@@ -35,10 +35,9 @@ related:
 - '[[framework-yitang-channel-unit-economics]]'
 - '[[tool-yitang-sales-toolkit-maturity-60-75-85]]'
 - '[[tool-区分获客渠道计算单元roi]]'
-- tool-agent-spec-yitang-lead-funnel-health
+- '[[tool-agent-spec-yitang-lead-funnel-health]]'
 review_date: '2026-06-28'
 ---
-
 # 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索
 
 ## 一句话

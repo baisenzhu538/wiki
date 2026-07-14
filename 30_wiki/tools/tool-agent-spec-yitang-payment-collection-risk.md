@@ -23,16 +23,16 @@ source_refs:
 - 30_wiki/tools/tool-yitang-payment-collection-playbook.md
 - .agent/prompts/tool-agent-spec-yitang-payment-collection-risk.md
 related:
-- dk-yitang-sales-common-pitfalls
-- framework-yitang-scientific-sales-five-step
-- framework-一堂-12种阻力总表
-- framework-一堂-阻力方法论骨架
-- opc-ai-sales-agent-architecture
-- tool-opc-sales-dialogue-assistant
-- tool-yitang-payment-collection-playbook
-- tool-yitang-sales-performance-management
-- tool-yitang-sales-process-decomposition
-- tool-一堂-阻力消除12策小抄
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂-12种阻力总表]]'
+- '[[framework-一堂-阻力方法论骨架]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[tool-yitang-payment-collection-playbook]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-一堂-阻力消除12策小抄]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: C
@@ -41,7 +41,6 @@ tcp_switch_trigger: 用户要求直接生成催款话术/跟进计划 → 切换
   切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你诊断当前合同/项目的回款与履约风险，并给出下一步动作建议。涉及合同、付款、收入确认的判断需财务/法务复核。
 ---
-
 # 回款 / 履约风险预警 Agent Spec
 
 ## 一句话

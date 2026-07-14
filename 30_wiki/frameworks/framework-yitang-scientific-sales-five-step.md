@@ -45,16 +45,16 @@ related:
 - '[[yitang-methodology-system]]'
 - '[[yt-five-step-method-complete]]'
 - '[[yt-unit-model-overview]]'
-- tool-agent-spec-yitang-ability-migration-diagnosis
-- tool-agent-spec-yitang-card-dealing-guide
-- tool-agent-spec-yitang-daily-weekly-meeting-host
-- tool-agent-spec-yitang-incentive-design
-- tool-agent-spec-yitang-lead-funnel-health
-- tool-agent-spec-yitang-payment-collection-risk
-- tool-agent-spec-yitang-project-background-analysis
-- tool-agent-spec-yitang-sales-toolkit-gap
-- tool-agent-spec-yitang-three-second-opening-scripts
-- tool-agent-spec-yitang-user-perspective-training
+- '[[tool-agent-spec-yitang-ability-migration-diagnosis]]'
+- '[[tool-agent-spec-yitang-card-dealing-guide]]'
+- '[[tool-agent-spec-yitang-daily-weekly-meeting-host]]'
+- '[[tool-agent-spec-yitang-incentive-design]]'
+- '[[tool-agent-spec-yitang-lead-funnel-health]]'
+- '[[tool-agent-spec-yitang-payment-collection-risk]]'
+- '[[tool-agent-spec-yitang-project-background-analysis]]'
+- '[[tool-agent-spec-yitang-sales-toolkit-gap]]'
+- '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
+- '[[tool-agent-spec-yitang-user-perspective-training]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
 ---

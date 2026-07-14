@@ -55,14 +55,13 @@ related:
 - '[[tool-一堂-阻力消除12策小抄]]'
 - '[[tool-一堂-马毅阻力消除四部曲]]'
 - '[[tool-动力阻力分析]]'
-- tool-agent-spec-yitang-payment-collection-risk
+- '[[tool-agent-spec-yitang-payment-collection-risk]]'
 quality_labels:
 - principle
 - framework
 - cited
 - actionable
 ---
-
 # 一堂阻力方法论骨架
 
 > **一句话**：降阻力之前先立三个认知——**两大误区**（动力能覆盖不能消除阻力；动力阻力会相互转化）、**消除深度三层**（L1 降低 / L2 消除 / L3 逆转，难度递增效果递增）、**消除时机三种**（被动 / 主动 / 伏笔式，预防大于治疗）。来源：阻力篇口述 `:448-555` / `:2096-2566` / `:2818-3214`。

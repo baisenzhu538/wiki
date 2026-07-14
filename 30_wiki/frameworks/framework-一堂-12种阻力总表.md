@@ -73,15 +73,14 @@ related:
 - '[[tool-一堂-阻力消除12策小抄]]'
 - '[[tool-一堂-马毅阻力消除四部曲]]'
 - '[[tool-动力阻力分析]]'
-- tool-agent-spec-yitang-lead-funnel-health
-- tool-agent-spec-yitang-payment-collection-risk
+- '[[tool-agent-spec-yitang-lead-funnel-health]]'
+- '[[tool-agent-spec-yitang-payment-collection-risk]]'
 quality_labels:
 - principle
 - framework
 - cited
 - actionable
 ---
-
 # 一堂 12 种阻力总表
 
 > **一句话**：阻力不是一团模糊的「不想买」，是 **12 种可枚举、可切分、可归类的具体犹豫**——「这十二大阻力一共是四类十二大阻力」（`阻力篇-口述:1728`）。四大类底层 = B 域科学决策三参数（成本收益/机会成本/时间窗口）。消除手段按成本分三档：动嘴 < 动手 < 动钱。

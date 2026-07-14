@@ -18,10 +18,10 @@ source_context: 一堂全产品方法论课程（2026-07-08），审美与产品
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-aesthetic-radar-modeling.md
 related:
-- framework-一堂五步法
-- framework-一堂五步法-泛产品设计
-- tool-agent-spec-yitang-beautiful-work-imagination
-- tool-agent-spec-yitang-scenario-walkthrough
+- '[[framework-一堂五步法]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[tool-agent-spec-yitang-beautiful-work-imagination]]'
+- '[[tool-agent-spec-yitang-scenario-walkthrough]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: C
@@ -30,7 +30,6 @@ tcp_switch_trigger: 用户要求直接输出改版方案/设计需求文档 → 
   → 切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你建立产品的审美雷达图，从多个维度审视产品品质，找出审美短板和升级方向。请先描述你要审视的产品或作品。
 ---
-
 # 审美雷达建模 Agent Spec
 
 ## 一句话

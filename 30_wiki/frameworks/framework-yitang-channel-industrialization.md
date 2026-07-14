@@ -39,10 +39,9 @@ related:
 - '[[framework-yitang-research-quality-gate]]'
 - '[[tool-yitang-channel-industrialization-node-design]]'
 - '[[tool-区分获客渠道计算单元roi]]'
-- tool-agent-spec-yitang-lead-funnel-health
+- '[[tool-agent-spec-yitang-lead-funnel-health]]'
 review_date: '2026-06-28'
 ---
-
 # 渠道工业化生产：让高不确定工作持续高质量交付
 
 ## 一句话

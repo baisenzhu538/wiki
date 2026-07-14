@@ -18,11 +18,11 @@ source_context: 一堂全产品方法论课程（2026-07-08），用户视角训
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-user-perspective-training.md
 related:
-- framework-yitang-scientific-sales-five-step
-- framework-一堂五步法
-- framework-一堂五步法-泛产品设计
-- tool-agent-spec-yitang-scenario-walkthrough
-- tool-yitang-customer-segmentation-4step
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂五步法]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[tool-agent-spec-yitang-scenario-walkthrough]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: T
@@ -31,7 +31,6 @@ tcp_switch_trigger: 用户要求直接对产品方案做用户视角评审 → �
   → 切换为 R
 tcp_session_opening: 我本次以 **T（Teach/教学）** 身份与你协作：引导你完成用户视角切换的系统训练。每次训练会给你一个产品/场景，你需要站在用户的角度回答一系列问题。准备好了吗？
 ---
-
 # 用户视角训练 Agent Spec
 
 ## 一句话

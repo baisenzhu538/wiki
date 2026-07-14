@@ -70,14 +70,13 @@ related:
 - '[[tool-一堂-讲香双策略]]'
 - '[[tool-动力阻力分析]]'
 - '[[yt-tool-fab-persuasion]]'
-- tool-agent-spec-yitang-incentive-design
+- '[[tool-agent-spec-yitang-incentive-design]]'
 quality_labels:
 - principle
 - framework
 - cited
 - actionable
 ---
-
 # 一堂动力三曲线：FAB / 名利权情 / 影响力法则
 
 > **一句话**：提动力不是一招，是三条由下到上的曲线——**FAB 以理服人（60 分）→ 名利权情内驱加强（70 分）→ 影响力法则外在施压（85 分）**，共 13 个词。使用守三原则：以理服人优先、分阶段侧重、心理激励先于物质激励。来源：动力篇口述（首遍行号为准）+ 图《最佳转化率-动力三曲线》原字。

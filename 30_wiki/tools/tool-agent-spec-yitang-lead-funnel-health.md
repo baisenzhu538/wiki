@@ -23,15 +23,15 @@ source_refs:
 - 30_wiki/cases/case-yitang-yitu-lead-industrialization.md
 - .agent/prompts/tool-agent-spec-yitang-lead-funnel-health.md
 related:
-- case-yitang-yitu-lead-industrialization
-- framework-yitang-channel-industrialization
-- framework-yitang-scientific-sales-five-step
-- framework-一堂-12种阻力总表
-- framework-一堂-转化率提升六步法
-- opc-ai-sales-agent-architecture
-- tool-yitang-customer-segmentation-4step
-- tool-yitang-sales-performance-management
-- tool-yitang-sales-process-decomposition
+- '[[case-yitang-yitu-lead-industrialization]]'
+- '[[framework-yitang-channel-industrialization]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂-12种阻力总表]]'
+- '[[framework-一堂-转化率提升六步法]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-sales-process-decomposition]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: R
@@ -40,7 +40,6 @@ tcp_switch_trigger: 用户要求直接输出改进动作/跟进计划 → 切换
   C，先诊断数据充足度
 tcp_session_opening: 我本次以 **R（Research/研究）** 身份与你协作：基于你的线索漏斗数据，诊断哪一级转化率偏离红线、责任归属是谁，并反向推算下一周期需补充的线索量。请先提供各级线索数量、转化率和责任人。
 ---
-
 # 线索漏斗健康度诊断 Agent Spec
 
 ## 一句话

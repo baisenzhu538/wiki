@@ -39,20 +39,20 @@ related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-five-step-method]]'
 - '[[yt-model-five-step-canvas]]'
-- tool-agent-spec-yitang-ability-migration-diagnosis
-- tool-agent-spec-yitang-aesthetic-radar-modeling
-- tool-agent-spec-yitang-beautiful-work-imagination
-- tool-agent-spec-yitang-card-dealing-guide
-- tool-agent-spec-yitang-kernel-add-subtract-diagnosis
-- tool-agent-spec-yitang-kernel-canvas-autofill
-- tool-agent-spec-yitang-kernel-case-matching
-- tool-agent-spec-yitang-kernel-failure-mode-diagnosis
-- tool-agent-spec-yitang-kernel-iteration-direction
-- tool-agent-spec-yitang-kernel-three-questions
-- tool-agent-spec-yitang-kernel-verification-ladder
-- tool-agent-spec-yitang-project-background-analysis
-- tool-agent-spec-yitang-scenario-walkthrough
-- tool-agent-spec-yitang-user-perspective-training
+- '[[tool-agent-spec-yitang-ability-migration-diagnosis]]'
+- '[[tool-agent-spec-yitang-aesthetic-radar-modeling]]'
+- '[[tool-agent-spec-yitang-beautiful-work-imagination]]'
+- '[[tool-agent-spec-yitang-card-dealing-guide]]'
+- '[[tool-agent-spec-yitang-kernel-add-subtract-diagnosis]]'
+- '[[tool-agent-spec-yitang-kernel-canvas-autofill]]'
+- '[[tool-agent-spec-yitang-kernel-case-matching]]'
+- '[[tool-agent-spec-yitang-kernel-failure-mode-diagnosis]]'
+- '[[tool-agent-spec-yitang-kernel-iteration-direction]]'
+- '[[tool-agent-spec-yitang-kernel-three-questions]]'
+- '[[tool-agent-spec-yitang-kernel-verification-ladder]]'
+- '[[tool-agent-spec-yitang-project-background-analysis]]'
+- '[[tool-agent-spec-yitang-scenario-walkthrough]]'
+- '[[tool-agent-spec-yitang-user-perspective-training]]'
 diagnostic_signals:
 - signal: 团队在做需求分析但不知道下一步该做什么
   lens: 缺五步法全局视图——卡在单步里
@@ -65,7 +65,6 @@ quality_labels:
 - cited
 - validated
 ---
-
 # 一堂五步法：从机会预判到规模化的五步闭环
 
 > **一句话**：五步法是方法论中枢——不是线性的"做完一步到下一步"，而是两次关键跃迁（价值假设→增长假设→规模化）驱动的迭代闭环。每一步有明确的输出物和换档条件。

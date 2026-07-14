@@ -18,12 +18,12 @@ source_context: 一堂全产品方法论课程（2026-07-08），场景走查专
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-scenario-walkthrough.md
 related:
-- framework-一堂五步法
-- framework-一堂五步法-泛产品设计
-- tool-agent-spec-yitang-aesthetic-radar-modeling
-- tool-agent-spec-yitang-beautiful-work-imagination
-- tool-agent-spec-yitang-card-dealing-guide
-- tool-agent-spec-yitang-user-perspective-training
+- '[[framework-一堂五步法]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[tool-agent-spec-yitang-aesthetic-radar-modeling]]'
+- '[[tool-agent-spec-yitang-beautiful-work-imagination]]'
+- '[[tool-agent-spec-yitang-card-dealing-guide]]'
+- '[[tool-agent-spec-yitang-user-perspective-training]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: C
@@ -32,7 +32,6 @@ tcp_switch_trigger: 用户要求直接给出修改方案/PRD 修订 → 切换�
   → 切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：陪你逐场景走查你的产品，找出体验断点、逻辑漏洞和用户困惑点。请先描述你要走查的产品和核心场景。
 ---
-
 # 场景走查 Agent Spec
 
 ## 一句话

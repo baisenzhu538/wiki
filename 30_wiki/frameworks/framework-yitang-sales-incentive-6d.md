@@ -53,7 +53,7 @@ related:
 - '[[tool-yitang-value-proposition-4step]]'
 - '[[yt-management-goal-management]]'
 - '[[yt-personal-deliberate-practice]]'
-- tool-agent-spec-yitang-incentive-design
+- '[[tool-agent-spec-yitang-incentive-design]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
 ---

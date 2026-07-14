@@ -18,9 +18,9 @@ source_context: 一堂全产品与团队方法论课程（2026-07-08），能力
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-ability-migration-diagnosis.md
 related:
-- framework-yitang-scientific-sales-five-step
-- framework-一堂五步法
-- tool-agent-spec-yitang-project-background-analysis
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂五步法]]'
+- '[[tool-agent-spec-yitang-project-background-analysis]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: C
@@ -29,7 +29,6 @@ tcp_switch_trigger: 用户要求直接输出培训计划/招聘 JD → 切换为
   → 切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你诊断能力现状，找出哪些能力可以直接迁移、哪些需要补课，并制定迁移路径。请先告诉我你当前的角色/能力和目标角色/项目需求。
 ---
-
 # 能力迁移诊断 Agent Spec
 
 ## 一句话

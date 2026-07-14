@@ -1,5 +1,4 @@
 ---
-
 id: five-step-domain-digest
 title: 域摘要：一堂五步法（80+张卡）
 type: index
@@ -22,25 +21,27 @@ review_verdict: pass
 review_grade: B
 review_notes: 补审（原reviewed_by黄药师，self-review违反L0铁律#4）。域摘要结构完整，80+张卡导航清晰。domain字段为src_unknown需修复。
 related:
-- [[lean-startup-domain-digest]]
-- [[framework-一堂五步法-泛产品设计]]
-- "[[tool-agent-spec-yitang-kernel-add-subtract-diagnosis]]"
-- "[[tool-agent-spec-yitang-kernel-canvas-autofill]]"
-- "[[tool-agent-spec-yitang-kernel-case-matching]]"
-- "[[tool-agent-spec-yitang-kernel-failure-mode-diagnosis]]"
-- "[[tool-agent-spec-yitang-kernel-iteration-direction]]"
-- "[[tool-agent-spec-yitang-kernel-three-questions]]"
-- "[[tool-agent-spec-yitang-kernel-verification-ladder]]"
-- "[[tool-agent-spec-yitang-ability-migration-diagnosis]]"
-- "[[tool-agent-spec-yitang-aesthetic-radar-modeling]]"
-- "[[tool-agent-spec-yitang-beautiful-work-imagination]]"
-- "[[tool-agent-spec-yitang-card-dealing-guide]]"
-- "[[tool-agent-spec-yitang-project-background-analysis]]"
-- "[[tool-agent-spec-yitang-scenario-walkthrough]]"
-- "[[tool-agent-spec-yitang-user-perspective-training]]"
+- '[[lean-startup-domain-digest]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[tool-agent-spec-yitang-kernel-add-subtract-diagnosis]]'
+- '[[tool-agent-spec-yitang-kernel-canvas-autofill]]'
+- '[[tool-agent-spec-yitang-kernel-case-matching]]'
+- '[[tool-agent-spec-yitang-kernel-failure-mode-diagnosis]]'
+- '[[tool-agent-spec-yitang-kernel-iteration-direction]]'
+- '[[tool-agent-spec-yitang-kernel-three-questions]]'
+- '[[tool-agent-spec-yitang-kernel-verification-ladder]]'
+- '[[tool-agent-spec-yitang-ability-migration-diagnosis]]'
+- '[[tool-agent-spec-yitang-aesthetic-radar-modeling]]'
+- '[[tool-agent-spec-yitang-beautiful-work-imagination]]'
+- '[[tool-agent-spec-yitang-card-dealing-guide]]'
+- '[[tool-agent-spec-yitang-project-background-analysis]]'
+- '[[tool-agent-spec-yitang-scenario-walkthrough]]'
+- '[[tool-agent-spec-yitang-user-perspective-training]]'
 diagnostic_signals:
-- {'framework_lens': '五步法总纲', 'follow_up_question': '你的项目在五步（需求/产品内核/商业模式/增长/壁垒）中卡在哪一步？先定位再深挖。'}
-- {'framework_lens': '落地实操工具', 'follow_up_question': '你有画布吗？五步法画布+产品内核画布可以从假设一直推到壁垒。'}
+- framework_lens: 五步法总纲
+  follow_up_question: 你的项目在五步（需求/产品内核/商业模式/增长/壁垒）中卡在哪一步？先定位再深挖。
+- framework_lens: 落地实操工具
+  follow_up_question: 你有画布吗？五步法画布+产品内核画布可以从假设一直推到壁垒。
 updated_at: 2026-07-15
 ---
 # 域摘要：一堂五步法

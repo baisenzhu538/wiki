@@ -23,14 +23,14 @@ source_refs:
 - 30_wiki/frameworks/framework-yitang-sales-incentive-6d.md
 - .agent/prompts/tool-agent-spec-yitang-incentive-design.md
 related:
-- dk-yitang-sales-common-pitfalls
-- framework-yitang-sales-incentive-6d
-- framework-yitang-scientific-sales-five-step
-- framework-一堂-动力三曲线
-- opc-ai-sales-agent-architecture
-- tool-yitang-customer-segmentation-4step
-- tool-yitang-sales-performance-management
-- tool-yitang-sales-toolkit-radar
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂-动力三曲线]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: C
@@ -39,7 +39,6 @@ tcp_switch_trigger: 用户要求直接生成可发布的激励方案/计算公�
   → 切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你设计销售激励方案草案。涉及薪酬、提成、法律判断的内容需 HR/财务复核，本输出仅供参考。
 ---
-
 # 销售激励方案设计辅助 Agent Spec
 
 ## 一句话

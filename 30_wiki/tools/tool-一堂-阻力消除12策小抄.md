@@ -58,12 +58,11 @@ related:
 - '[[tool-一堂-阻力挖掘方式]]'
 - '[[tool-一堂-马毅阻力消除四部曲]]'
 - '[[tool-动力阻力分析]]'
-- tool-agent-spec-yitang-payment-collection-risk
+- '[[tool-agent-spec-yitang-payment-collection-risk]]'
 quality_labels:
 - cited
 - actionable
 ---
-
 # 一堂阻力消除 12 策小抄：12 种常见阻力 × 三类手段
 
 > **一句话**：把用户常见的 12 种阻力（觉得贵、没能力、没时间、门槛高、距离远、不靠谱、有风险、折面子、不专业、体验差、怕冲动、还不急）按**动嘴（话术）/ 动手（流程/服务）/ 动钱（成本/权益）**三类手段快速匹配消除策略。

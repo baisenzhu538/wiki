@@ -48,11 +48,11 @@ related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-management-goal-management]]'
 - '[[yt-unit-model-overview]]'
-- tool-agent-spec-yitang-daily-weekly-meeting-host
-- tool-agent-spec-yitang-incentive-design
-- tool-agent-spec-yitang-lead-funnel-health
-- tool-agent-spec-yitang-payment-collection-risk
-- tool-agent-spec-yitang-sales-toolkit-gap
+- '[[tool-agent-spec-yitang-daily-weekly-meeting-host]]'
+- '[[tool-agent-spec-yitang-incentive-design]]'
+- '[[tool-agent-spec-yitang-lead-funnel-health]]'
+- '[[tool-agent-spec-yitang-payment-collection-risk]]'
+- '[[tool-agent-spec-yitang-sales-toolkit-gap]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
 ---

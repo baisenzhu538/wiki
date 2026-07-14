@@ -18,10 +18,10 @@ source_context: 一堂全产品方法论课程（2026-07-08），出牌/打牌�
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-card-dealing-guide.md
 related:
-- framework-yitang-scientific-sales-five-step
-- framework-一堂五步法
-- tool-agent-spec-yitang-beautiful-work-imagination
-- tool-agent-spec-yitang-scenario-walkthrough
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂五步法]]'
+- '[[tool-agent-spec-yitang-beautiful-work-imagination]]'
+- '[[tool-agent-spec-yitang-scenario-walkthrough]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: C
@@ -30,7 +30,6 @@ tcp_switch_trigger: 用户要求直接生成出牌执行计划/营销排期 → 
   → 切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你分析当前的牌局，梳理手牌，制定出牌策略——该出什么牌、什么时候出、打到什么力度。请先告诉我你的产品阶段和当前局面。
 ---
-
 # 出牌指南 Agent Spec
 
 ## 一句话

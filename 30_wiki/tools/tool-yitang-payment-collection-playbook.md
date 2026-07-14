@@ -28,11 +28,10 @@ related:
 - '[[tool-yitang-sales-performance-management]]'
 - '[[tool-yitang-sales-process-decomposition]]'
 - '[[tool-一堂-阻力消除12策小抄]]'
-- tool-agent-spec-yitang-payment-collection-risk
+- '[[tool-agent-spec-yitang-payment-collection-risk]]'
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---
-
 # 回款 / 催款 / 履约阶段 playbook
 
 > 数字与比例说明：本卡中所有金额、时长、顺序判断与关单标准均来自课程经验分享，属于特定业务场景的经验值，不作为普适标准或业绩保证。

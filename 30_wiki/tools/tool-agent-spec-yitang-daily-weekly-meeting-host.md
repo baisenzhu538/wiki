@@ -24,12 +24,12 @@ source_refs:
 - 30_wiki/tools/tool-yitang-daily-weekly-meeting-hosting.md
 - .agent/prompts/tool-agent-spec-yitang-daily-weekly-meeting-host.md
 related:
-- dk-yitang-sales-common-pitfalls
-- framework-yitang-scientific-sales-five-step
-- opc-ai-sales-agent-architecture
-- tool-yitang-sales-performance-management
-- tool-yitang-sales-process-decomposition
-- tool-yitang-sales-toolkit-radar
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: P
@@ -38,7 +38,6 @@ tcp_switch_trigger: 用户要求解释日会/周会定位差异 → 切换为 T�
   → 切换为 R
 tcp_session_opening: 我本次以 **P（Practice/实践）** 身份与你协作：帮你生成日会或周会的议程、Gap 分析和待办清单。请先告诉我会议类型、参会人和当前目标完成率数据。
 ---
-
 # 日会 / 周会智能主持 Agent Spec
 
 ## 一句话

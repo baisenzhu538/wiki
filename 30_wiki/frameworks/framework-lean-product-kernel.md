@@ -20,17 +20,16 @@ related:
 - '[[pending_unknown]]'
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
-- tool-agent-spec-yitang-kernel-add-subtract-diagnosis
-- tool-agent-spec-yitang-kernel-canvas-autofill
-- tool-agent-spec-yitang-kernel-case-matching
-- tool-agent-spec-yitang-kernel-failure-mode-diagnosis
-- tool-agent-spec-yitang-kernel-iteration-direction
-- tool-agent-spec-yitang-kernel-three-questions
-- tool-agent-spec-yitang-kernel-verification-ladder
+- '[[tool-agent-spec-yitang-kernel-add-subtract-diagnosis]]'
+- '[[tool-agent-spec-yitang-kernel-canvas-autofill]]'
+- '[[tool-agent-spec-yitang-kernel-case-matching]]'
+- '[[tool-agent-spec-yitang-kernel-failure-mode-diagnosis]]'
+- '[[tool-agent-spec-yitang-kernel-iteration-direction]]'
+- '[[tool-agent-spec-yitang-kernel-three-questions]]'
+- '[[tool-agent-spec-yitang-kernel-verification-ladder]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 ---
-
 # 产品内核：不要过早细化未经思考的内核
 
 > 在产品开发进入细化与重投入之前，先用三个问题审视：你以为的内核，真的经得住推敲吗？

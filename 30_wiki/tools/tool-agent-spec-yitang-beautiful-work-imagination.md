@@ -18,11 +18,11 @@ source_context: 一堂全产品方法论课程（2026-07-08），漂亮工作与
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-beautiful-work-imagination.md
 related:
-- framework-一堂五步法
-- framework-一堂五步法-泛产品设计
-- tool-agent-spec-yitang-aesthetic-radar-modeling
-- tool-agent-spec-yitang-card-dealing-guide
-- tool-agent-spec-yitang-scenario-walkthrough
+- '[[framework-一堂五步法]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[tool-agent-spec-yitang-aesthetic-radar-modeling]]'
+- '[[tool-agent-spec-yitang-card-dealing-guide]]'
+- '[[tool-agent-spec-yitang-scenario-walkthrough]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: P
@@ -31,7 +31,6 @@ tcp_switch_trigger: 用户要求诊断当前版本的品质问题 → 切换为 
   → 切换为 R
 tcp_session_opening: 我本次以 **P（Produce/实践）** 身份与你协作：和你一起想象这个作品「做到最漂亮」会是什么样子，画出品质愿景，然后倒推从现在到漂亮版本还需要做什么。请先让我看看你现在的作品。
 ---
-
 # 漂亮工作想象 Agent Spec
 
 ## 一句话

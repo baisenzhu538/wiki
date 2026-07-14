@@ -56,14 +56,13 @@ related:
 - '[[tool-一堂-触点挖掘四层级]]'
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
-- tool-agent-spec-yitang-three-second-opening-scripts
+- '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
 quality_labels:
 - principle
 - framework
 - cited
 - actionable
 ---
-
 # 一堂触点本质论
 
 > **一句话**：触点 = **接触机会点**——一次稀缺的、与用户产生互动的机会；它是你做业务的**资产**，失去就不再来了。讨论触点之前先学会**火车货物剥离法**（触点是运东西的装置，动力阻力是被运输的货物），否则没法讨论问题。触点假设的挖掘带三个特性：后悔型、资产型、趁早性。来源：触点篇口述 `:240-510` / `:990-1020`。

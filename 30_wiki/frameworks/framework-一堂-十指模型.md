@@ -34,14 +34,13 @@ related:
 - '[[tool-一堂-影响力六原则]]'
 - '[[tool-一堂-讲香双策略]]'
 - '[[tool-动力阻力分析]]'
-- tool-agent-spec-yitang-three-second-opening-scripts
+- '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
 quality_labels:
 - principle
 - framework
 - cited
 - actionable
 ---
-
 # 一堂十指模型：左手具象五化 + 右手抽象五化
 
 > **一句话**：讲香步的手法库——「把一个看上去很平的卖点，尝试具象和抽象，一遍遍练，最后它就会很有张力」（`组合篇-口述:2890-2892`）。左手五个手指把卖点变**具体**（场景化/口语化/数字化/故事化/素材化），右手五个手指把卖点变**抽象**（比喻/金句/情绪/冲突/升华）。来源：组合篇口述 `:2732-2892` + 笔记 L80 互校。

@@ -22,15 +22,15 @@ tcp_switch_trigger: 用户要求直接输出可执行物/文档 → 切换为 P�
   R
 tcp_session_opening: 我本次以 C（Consult/咨询）身份与你协作：帮你诊断当前产品内核问题。请先提供产品描述和相关材料。
 related:
-- framework-lean-product-kernel
-- framework-一堂五步法
-- framework-一堂五步法-泛产品设计
-- tool-agent-spec-yitang-kernel-add-subtract-diagnosis
-- tool-agent-spec-yitang-kernel-canvas-autofill
-- tool-agent-spec-yitang-kernel-failure-mode-diagnosis
-- tool-agent-spec-yitang-kernel-iteration-direction
-- tool-agent-spec-yitang-kernel-three-questions
-- tool-agent-spec-yitang-kernel-verification-ladder
+- '[[framework-lean-product-kernel]]'
+- '[[framework-一堂五步法]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[tool-agent-spec-yitang-kernel-add-subtract-diagnosis]]'
+- '[[tool-agent-spec-yitang-kernel-canvas-autofill]]'
+- '[[tool-agent-spec-yitang-kernel-failure-mode-diagnosis]]'
+- '[[tool-agent-spec-yitang-kernel-iteration-direction]]'
+- '[[tool-agent-spec-yitang-kernel-three-questions]]'
+- '[[tool-agent-spec-yitang-kernel-verification-ladder]]'
 ---
 ## System Prompt 模板
 

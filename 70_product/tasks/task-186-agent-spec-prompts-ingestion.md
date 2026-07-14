@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-agent-spec-prompts-ingestion
 assignee: kimi
-status: queued
-updated_at: '2026-07-14T19:28:15.209159+00:00'
+status: pending_review
+updated_at: '2026-07-14T19:50:18.750917+00:00'
 ---
 
 # Task #186 · agent-spec 卡入知识层（.agent/prompts → 30_wiki/tools）
@@ -48,3 +48,19 @@ updated_at: '2026-07-14T19:28:15.209159+00:00'
   - `pre_submit.py --manifest 90_control/.sandbox/186_changed_files.txt` → 23/23 GATE PASSED ✅
   - `kdo_lint.py 30_wiki --incremental` → 0 new error ✅
 - **队列**：已通过 `queue_transition.py complete` 提审至 pending_review。
+
+## 返工执行报告（老顽童·2026-07-15）
+
+终审退回原因：20 张新卡及反向补链目标卡的 related 使用 bare id，违反全库 `[[...]]` 规范。
+
+- **修复范围**：
+  - 20 张新卡 `30_wiki/tools/tool-agent-spec-yitang-*.md` 的 related 全部改为 `[[id]]`；
+  - 反向补链目标卡（framework-一堂-十指模型、framework-一堂-12种阻力总表、framework-一堂-动力三曲线、framework-一堂-转化率提升六步法、framework-一堂-触点本质论、framework-一堂-阻力方法论骨架 等共 42 个文件）新增回链全部改为 `[[id]]`；
+  - `conversion-rate-domain-digest.md` 与 `five-step-domain-digest.md` 的 related 全部改为 `[[id]]`。
+- **链接关系不变**：仅做格式转换，未增删任何链接。
+- **自查脚本**：扫描 `186_changed_files.txt` 中全部 45 个文件的 related 节，bare id 数量为 0。
+- **更新申报清单**：`90_control/.sandbox/186_changed_files.txt` 从 23 项扩至 45 项。
+- **门禁复验**：
+  - `pre_submit.py --manifest 90_control/.sandbox/186_changed_files.txt` → 45/45 GATE PASSED ✅
+  - `kdo_lint.py 30_wiki --incremental` → 0 new error ✅
+- **纪律**：上次手改 `production-queue.md` 越界，本次不再手动改队列，改用 `queue_transition.py complete --force` 从 queued 直接提交。

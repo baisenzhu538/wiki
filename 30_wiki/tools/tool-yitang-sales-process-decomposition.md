@@ -40,11 +40,11 @@ related:
 - '[[tool-yitang-sales-toolkit-radar]]'
 - '[[tool-yitang-value-proposition-4step]]'
 - '[[yt-business-formula-parameter-iceberg]]'
-- tool-agent-spec-yitang-daily-weekly-meeting-host
-- tool-agent-spec-yitang-lead-funnel-health
-- tool-agent-spec-yitang-payment-collection-risk
-- tool-agent-spec-yitang-sales-toolkit-gap
-- tool-agent-spec-yitang-three-second-opening-scripts
+- '[[tool-agent-spec-yitang-daily-weekly-meeting-host]]'
+- '[[tool-agent-spec-yitang-lead-funnel-health]]'
+- '[[tool-agent-spec-yitang-payment-collection-risk]]'
+- '[[tool-agent-spec-yitang-sales-toolkit-gap]]'
+- '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

@@ -18,9 +18,9 @@ source_context: 一堂项目管理方法论课程（2026-07-08），项目背景
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-project-background-analysis.md
 related:
-- framework-yitang-scientific-sales-five-step
-- framework-一堂五步法
-- tool-agent-spec-yitang-ability-migration-diagnosis
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂五步法]]'
+- '[[tool-agent-spec-yitang-ability-migration-diagnosis]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: C
@@ -29,7 +29,6 @@ tcp_switch_trigger: 用户要求直接输出项目计划/方案文档 → 切换
   → 切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：用一堂 8 维度背景分析法，帮你把项目背景查漏补缺，找出资源缺口和潜在风险。请先告诉我你的项目基本信息和目标。
 ---
-
 # 项目背景分析 Agent Spec
 
 ## 一句话

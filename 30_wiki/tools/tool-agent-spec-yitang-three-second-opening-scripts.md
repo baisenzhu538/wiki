@@ -23,14 +23,14 @@ source_refs:
 - 30_wiki/tools/tool-yitang-three-second-opening-scripts.md
 - .agent/prompts/tool-agent-spec-yitang-three-second-opening-scripts.md
 related:
-- dk-yitang-sales-common-pitfalls
-- framework-yitang-scientific-sales-five-step
-- framework-一堂-十指模型
-- framework-一堂-触点本质论
-- opc-ai-sales-agent-architecture
-- tool-opc-sales-dialogue-assistant
-- tool-yitang-sales-process-decomposition
-- tool-yitang-sales-toolkit-radar
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂-十指模型]]'
+- '[[framework-一堂-触点本质论]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: P
@@ -39,7 +39,6 @@ tcp_switch_trigger: 用户要求解释方法论 → 切换为 T；用户只给�
   R
 tcp_session_opening: 我本次以 **P（Practice/实践）** 身份与你协作：基于你的通话数据，生成可 A/B 测试的前三秒开场白草稿。请先提供当前话术稿、渠道类型和挂断率数据。
 ---
-
 # 前三秒话术优化 Agent Spec
 
 ## 一句话

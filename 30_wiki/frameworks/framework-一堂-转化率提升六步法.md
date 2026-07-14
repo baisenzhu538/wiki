@@ -84,14 +84,13 @@ related:
 - '[[tool-一堂-阻力消除12策小抄]]'
 - '[[tool-一堂-马毅阻力消除四部曲]]'
 - '[[tool-动力阻力分析]]'
-- tool-agent-spec-yitang-lead-funnel-health
+- '[[tool-agent-spec-yitang-lead-funnel-health]]'
 quality_labels:
 - principle
 - framework
 - cited
 - actionable
 ---
-
 # 一堂转化率提升六步法
 
 > **一句话**：「有史以来第一个六步法，我们实在没法合并了」（`组合篇-口述:748`）——**拆解 → 加法 → 减法 → 讲香 → 组合 → 制作**，六个独立工作流，解耦推进，避免大规模推翻重来。立论分两模式：**优化模式**（自下而上单点迭代）vs **设计模式**（自上而下一次构建）；映射四阶段：准备/分析/打磨/制作。来源：组合篇口述 `:548-977`（本篇为六步法权威；ASR 质量最差，全部经笔记互校）。
