@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-opc-sales-d-domain-linking
 assignee: kimi
-status: queued
-updated_at: '2026-07-14T00:46:55.109581+00:00'
+status: pending_review
+updated_at: '2026-07-14T00:58:45.887929+00:00'
 ---
 
 # #182 OPC 销售域×D 域回链
@@ -128,6 +128,31 @@ updated_at: '2026-07-14T00:46:55.109581+00:00'
 
 - `90_control/.sandbox/apply_182_opc_d_domain_links.py`：正向+D 域反向闭合批量脚本
 - `90_control/.sandbox/182_changed_files.txt`：本次变更文件清单（pre-submit manifest）
+
+---
+
+## 返工记录
+
+### 问题：manifest 路径被 shell 转义
+
+终审指出 `90_control/.sandbox/182_changed_files.txt` 中 16 个中文文件名路径被双引号包裹且做了 unicode 转义（如 `"30_wiki/cases/case-\344\270\200..."`）。`pre_submit.py` 的 `read_manifest` 会把 `\344` 这类反斜杠替换成 `/`，导致路径失效；因此首次提交的 "36/36 GATE PASSED" 实际只覆盖到 20/36 文件，16 张中文文件名卡被漏检。
+
+### 修复
+
+- 用 Python 读取 `git diff --name-only -z` 的 NUL 分隔输出，直接以 UTF-8 写入 manifest，避免 Git Bash 的引号/转义。
+- 重新生成 `90_control/.sandbox/182_changed_files.txt`，确认 36 行均为纯路径、无引号、无 unicode 转义。
+
+### 复跑结果
+
+| 检查 | 命令 | 结果 |
+|:---|:---|:---|
+| 增量 lint | `python 90_control/scripts/kdo_lint.py 30_wiki --incremental` | ✅ 0 new error |
+| pre-submit | `python 90_control/scripts/pre_submit.py --manifest 90_control/.sandbox/182_changed_files.txt` | ✅ 申报文件 36/36，GATE PASSED |
+
+### 控制面改进
+
+- 今后生成中文文件名 manifest 必须用 `git diff --name-only -z` + Python 写入，禁止直接用 shell redirect。
+- 跑完 pre_submit 后应再读 manifest 逐行确认路径可被 `Path.exists()` 解析。
 
 ---
 
