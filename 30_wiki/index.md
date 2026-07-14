@@ -191,6 +191,7 @@ _Last updated: 2026-07-13T12:56:15+00:00_
 - [[cases/case-thousand-people-square|案例：一堂'千人广场模型'——用统计建模心态做课]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[cases/case-toc-content-platform-correlation-trap|ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘]] — source `pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript`
 - [[cases/case-toc-ecommerce-formula-misjudgment|ToC 消费品电商：业务公式拆解误判导致放量亏损]] — source `pending_archive:src_20260613_6b939d2byitang-business-formula-decomposition-transcript  - pending_archive:src_20260613_a8bcfd38yitang-business-formula-decomposition-oral`
+- [[cases/case-toc-online-education-trust-metrics|孔源篇在线教育：对话率 10%→15%、信任度四行为指标、课程匹配率]] — source `00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt L1412-1518`
 - [[cases/case-toy-cabinet-barrier|案例：线下玩具柜的壁垒困局与突围路径]] — source `10_raw/sources/src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例.md`
 - [[cases/case-toy-cabinet-business-model|案例：线下玩具柜商业模式]] — source `10_raw/sources/src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例.md`
 - [[cases/case-treadmill-demand-analysis|跑步机需求分析：在家健身场景的需求拆解与替代方案博弈]] — source `pending_archive:src_20260610_c8e74781-一堂-一堂五步法-需求-跑步机案例-需求分析图`
@@ -273,6 +274,7 @@ _Last updated: 2026-07-13T12:56:15+00:00_
 - [[cases/case-yitang-amazon-growth-flywheel|案例：亚马逊增长飞轮的五层逻辑]] — source `00_inbox/一堂五步法之增长/truman-渠道增长飞轮-亚马逊增长飞轮_vlm_desc.md`
 - [[cases/case-yitang-aquaculture-stress-protection|案例：水产养殖——从行业经验到学科原理的上层创新]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
 - [[cases/case-yitang-beauty-device-overseas-sales|案例：美容仪出海——用行业报告判断海外市场]] — source `00_inbox/调研专题/Doris-行业报告调研-口述.txt`
+- [[cases/case-yitang-burger-franchise-key-path|汉堡店三渠道关键路径：邀约+30% vs 抖音+30% 占比 10% 仅+3%]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L3042-3068 / 进阶篇 L2812-2842 / 逻辑关系篇 L3018-3036`
 - [[cases/case-yitang-coke-spill-compensation|案例：可乐撒了——ROI模型（Y模型推导产物）重构客户赔偿流程]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
 - [[cases/case-yitang-competitor-pricing-intelligence|案例：假装订货套取竞品真实价格]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
 - [[cases/case-yitang-consumer-offline-channel-decision|案例：消费品线下渠道决策——先访谈再算账]] — source `00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md`
@@ -287,6 +289,7 @@ _Last updated: 2026-07-13T12:56:15+00:00_
 - [[cases/case-yitang-elderly-home-roleplay|案例：假扮家属潜入养老院微信群]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
 - [[cases/case-yitang-fake-interview-intelligence|案例：假扮面试发现行业红利退潮]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
 - [[cases/case-yitang-false-causality-collection|伪因果十题与聪明下属反噬四案：KPI 锁错因果，团队越聪明业务越差]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt:L2322-2380`
+- [[cases/case-yitang-farm-machinery-matching|农机撮合平台：5 次撮合率、续费 10% vs 50%+ 与因果验证对话]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3246-3272`
 - [[cases/case-yitang-fupanying-five-years-1000-hypotheses|一堂复盘营五年：8 个参数到 200+ 参数、1000+ 假设，把低转高做成不靠红利的长期生意]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt:L314-404`
 - [[cases/case-yitang-goat-milk-channel-partnership|羊奶粉「卖地图」区域代理模式案例]] — source `60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md`
 - [[cases/case-yitang-hardware-factory-photo|案例：从朋友圈照片找到代工厂]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
@@ -305,6 +308,7 @@ _Last updated: 2026-07-13T12:56:15+00:00_
 - [[cases/case-yitang-maiyi-cloud-computer-channel|案例：马毅云电脑如何扫描 60+ 渠道实现 3.7 亿营收]] — source `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`
 - [[cases/case-yitang-mao-scientific-culture|案例：毛泽东"主义清单"——红蓝卡的历史原型]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
 - [[cases/case-yitang-marathon-ten-seasons|一堂马拉松十期：双目标+10维切片+攻坚会，用假设驱动把年度续费大课做成一条稳定向上的曲线]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L1918-2038`
+- [[cases/case-yitang-meituan-red-dot|美团意向优选小红点：活跃 +30-40% / 留存拉到 20%]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2306-2336`
 - [[cases/case-yitang-milktea-bonus-design|案例：奶茶店奖金——追问"发奖金的本质"重构薪酬设计]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
 - [[cases/case-yitang-model-asset-inventory|案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[cases/case-yitang-model-valuation-flywheel|案例：一堂内部给模型"定价"——从 5000 元到 10 万美金的价值飞轮]] — source `pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述`
@@ -331,9 +335,11 @@ _Last updated: 2026-07-13T12:56:15+00:00_
 - [[cases/case-yitang-ski-project-user-as-expert|案例：滑雪项目——把用户当专家访谈]] — source `00_inbox/调研专题/一堂-专家访谈调研-口述.txt`
 - [[cases/case-yitang-smart-microphone-color|案例：智能麦克风颜色——投资人凭个人喜好做产品决策]] — source `00_inbox/实事求是/实事求是-周子敬-口述.txt`
 - [[cases/case-yitang-solid-redbull-channel|案例：固体红牛如何通过渠道探索找到司机群体]] — source `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`
+- [[cases/case-yitang-subtraction-decisions-three|减法决策三例：双直播间 ROI 推演 / MBA 提前第二趴 / 城市巡回]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2816-2958`
 - [[cases/case-yitang-supplier-security-guard|案例：通过保安打听到工厂收购价]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[cases/case-yitang-tob-artificial-bone|案例：人工骨医疗器械上市失败复盘]] — source `pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection`
 - [[cases/case-yitang-tob-career-planning|案例：新高考选科与生涯规划项目失败复盘]] — source `pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection`
+- [[cases/case-yitang-tob-devboard-price-coupling|ToB 芯片开发板：ToC 方式卖 ToB 降价涨量但商业客户不变→定价回摆]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3096-3126`
 - [[cases/case-yitang-tob-grinding-machine|案例：精密磨床自制项目失败复盘]] — source `src_unknown`
 - [[cases/case-yitang-tob-smart-park|案例：智慧园区项目复盘]] — source `pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection`
 - [[cases/case-yitang-three-industry-formula-demos|三行业公式拆解示范：民营眼科医院、篮球培训、ToB 摄像头——把收入目标逐层拆到可执行的因子]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt:L2062-2110`
@@ -345,8 +351,10 @@ _Last updated: 2026-07-13T12:56:15+00:00_
 - [[cases/case-yitang-voice-robot-companion-design|案例：陪伴式语音机器人——声音设计如何调研]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
 - [[cases/case-yitang-wang-mcn-funnel|王同学 MCN：签素人六环漏斗 + 团队假设表，从一个人盯签约到四期行动营量率双升]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L1314-1320`
 - [[cases/case-yitang-waste-recycling-subjective-failure|案例：废品回收站——主观臆测从单店成功到多店失败]] — source `00_inbox/实事求是/实事求是-周子敬-口述.txt`
+- [[cases/case-yitang-wechat-monthly-price-value|一堂公众号投放：单月价格 × 单月价值自定义参数完整推导]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2652-2686`
 - [[cases/case-yitang-weekly-modeling-engine|案例：一堂的"周对周建模迭代"——把周五课程逼成公司增长引擎]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[cases/case-yitang-wenxiaozhang-driving-school|温校长驾校：十年传统业务拆公式后校园代理×招生链成关键路径，"六杯奶茶"触点假设把推荐率再提一级、业务再翻一倍]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt:L886-906`
+- [[cases/case-yitang-womenswear-formula-three-versions|女装店公式三版本：10/40/60 分格式规范引出案]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1806-1946`
 - [[cases/case-yitang-woqingke-referral-15-to-40|一堂「我请客」推荐率攻坚：三层公式展开把 15% 干到 40%，一年半 70-100 个假设]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt:L318-568`
 - [[cases/case-yitang-xiaohuangdog-recycling-cabinet|案例：小黄狗回收柜——忽略事实的典型代价]] — source `00_inbox/实事求是/实事求是-周子敬-口述.txt`
 - [[cases/case-yitang-xingangwan-chess-room|鑫港湾自助棋牌室：把"流量×转化×客单×复购"四参数公式拆到几十个参数，一年半回本、西安全国第一]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt:L654-718`
@@ -1133,12 +1141,16 @@ _Last updated: 2026-07-13T12:56:15+00:00_
 - [[dk/dk-time-management-common-mistakes|时间管理三大反模式：工具迷信、二极管思维、边界模糊]] — source `00_inbox/时间管理/truman-时间管理课程-口述.txt`
 - [[dk/dk-yitang-ai-research-prompt-craft|AI调研效果取决于问题拆解和人工判断——不是提示词技巧]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
 - [[dk/dk-yitang-behavior-over-asking|调研中行为证据重于口头证据]] — source `60_feedback/audit/synthesis_yitang.md`
+- [[dk/dk-yitang-business-formula-recursive-levels|业务公式分型递归：每一层都是独立公式，只看一层]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1833-1892`
+- [[dk/dk-yitang-business-formula-skip-level-entry|业务公式跳级起手：成熟业务不必从 L1 开始]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1538-1551`
 - [[dk/dk-yitang-business-model-risk-over-product-risk|商业模式风险高于产品风险：别在模式没跑通前做完美产品]] — source `60_feedback/audit/synthesis_yitang.md`
 - [[dk/dk-yitang-cross-case-pattern-failure-premium|跨案例模式：失败者溢价——研究失败比研究成功的信息价值高10倍]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
 - [[dk/dk-yitang-cross-case-pattern-identity-escalation|跨案例模式：多重身份交叉验证——同一问题用3个以上身份从不同角度验证]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
 - [[dk/dk-yitang-deliberate-practice-common-traps|刻意练习常见陷阱：老学员最容易踩的 7 个坑]] — source `00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt`
 - [[dk/dk-yitang-digging-belief|破案式深挖的信念]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
 - [[dk/dk-yitang-expert-interview-5-traps|专家访谈五大陷阱]] — source `00_inbox/调研专题/一堂-专家访谈调研-口述.txt`
+- [[dk/dk-yitang-formula-unmeasurable-metrics|不可统计指标也要写：公式归公式，数字归数字]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2572-2614; 参数探索篇 L2306-2352`
+- [[dk/dk-yitang-hypothesis-five-alternatives|假设思维不是唯一道路：五条替代路径与适用边界]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L488-552`
 - [[dk/dk-yitang-model-asset-capitalization|组织级模型资产的盘点、定价与迭代]] — source `60_feedback/audit/synthesis_yitang.md`
 - [[dk/dk-yitang-public-info-is-enough|多数情报可通过公开信息深挖获得]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
 - [[dk/dk-yitang-research-ai-hallucination|AI调研幻觉与浅尝辄止是双生子]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
@@ -1876,6 +1888,7 @@ _Last updated: 2026-07-13T12:56:15+00:00_
 - [[tools/tool-yitang-government-data-search|国家数据查询：最权威的宏观数据来源]] — source `00_inbox/调研专题/调研超级武器库_ocr_text.md`
 - [[tools/tool-yitang-growth-flywheel-design|增长飞轮设计工具：从业务要素到增强回路]] — source `00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt`
 - [[tools/tool-yitang-hardware-product-disassembly|硬件产品拆解调研：BOM成本+工艺分析]] — source `00_inbox/调研专题/调研超级武器库_ocr_text.md`
+- [[tools/tool-yitang-hypothesis-marginal-roi|测试三难题 + 边际 ROI 决策框架]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2960-3076`
 - [[tools/tool-yitang-in-home-experience-research|上门体验调研：去用户家里看真实使用场景]] — source `00_inbox/调研专题/调研超级武器库_ocr_text.md`
 - [[tools/tool-yitang-industry-channel-arsenal-index|24 行业获客清单索引：跨行业渠道灵感库]] — source `00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-01_vlm_desc.md`
 - [[tools/tool-yitang-industry-report-search|行业报告搜索：拓宽关键词+多平台交叉]] — source `00_inbox/调研专题/调研超级武器库_ocr_text.md`
