@@ -9,38 +9,41 @@ confidence: 0.86
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - business-strategy
-  - product
+- yitang
+- business-strategy
+- product
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
 source_refs:
-  - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
-  - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
-  - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
-  - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
-  - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
+- 00_inbox/销售专题/_processed/销售专题_整合笔记.md
+- 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
+- 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
+- 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
+- 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
 related:
-  - "[[yitang-methodology-system]]"
-  - "[[tool-iceberg-triangle-modeling]]"
-  - "[[framework-demand-validation-pipeline]]"
-  - "[[yt-five-step-method-complete]]"
-  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
-  - "[[master-decision-hygiene]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[tool-agent-spec-yitang-customer-segmentation]]"
-  - "[[tool-agent-spec-yitang-opening-3min]]"
-  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
-  - "[[tool-agent-spec-yitang-value-proposition]]"
+- '[[case-yitang-sales-transformation-tuliaogongsi]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[framework-demand-validation-pipeline]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[master-decision-hygiene]]'
+- '[[tool-agent-spec-yitang-customer-segmentation]]'
+- '[[tool-agent-spec-yitang-opening-3min]]'
+- '[[tool-agent-spec-yitang-sales-process-tracker]]'
+- '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[tool-iceberg-triangle-modeling]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[yitang-methodology-system]]'
+- '[[yt-five-step-method-complete]]'
+- tool-agent-spec-yitang-incentive-design
+- tool-agent-spec-yitang-lead-funnel-health
+- tool-agent-spec-yitang-user-perspective-training
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

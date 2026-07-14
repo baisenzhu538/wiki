@@ -1,5 +1,4 @@
 ---
-
 id: framework-一堂-十指模型
 title: 一堂十指模型：左手五化（场景/口语/数字/故事/素材）+ 右手五化（比喻/金句/情绪/冲突/升华）+ 黄宝书完整演示
 type: framework
@@ -21,21 +20,21 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2878-L2888
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-笔记.txt L80-L80
 related:
-- '[[framework-一堂-转化率黑客-总纲]]'
-- '[[framework-一堂-转化率提升六步法]]'
+- '[[case-一堂-组合篇案例库]]'
+- '[[conversion-rate-domain-digest]]'
 - '[[framework-一堂-六大优化原则]]'
 - '[[framework-一堂-影响力36计]]'
-- '[[conversion-rate-domain-digest]]'
-- '[[tool-一堂-FAB说服法]]'
-- '[[tool-一堂-名利权情动力法]]'
-- '[[tool-一堂-影响力六原则]]'
-- '[[tool-一堂-七大转化场景自检]]'
-- '[[tool-动力阻力分析]]'
-- '[[case-一堂-组合篇案例库]]'
-- '[[tool-一堂-讲香双策略]]'
-
+- '[[framework-一堂-转化率提升六步法]]'
+- '[[framework-一堂-转化率黑客-总纲]]'
 - '[[tool-agent-spec-yitang-opening-3min]]'
 - '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[tool-一堂-FAB说服法]]'
+- '[[tool-一堂-七大转化场景自检]]'
+- '[[tool-一堂-名利权情动力法]]'
+- '[[tool-一堂-影响力六原则]]'
+- '[[tool-一堂-讲香双策略]]'
+- '[[tool-动力阻力分析]]'
+- tool-agent-spec-yitang-three-second-opening-scripts
 quality_labels:
 - principle
 - framework

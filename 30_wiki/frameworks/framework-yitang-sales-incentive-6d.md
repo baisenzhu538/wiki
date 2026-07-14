@@ -9,52 +9,51 @@ confidence: 0.83
 trust_level: medium
 language: zh-CN
 domain:
-  - business-strategy
-  - management
-  - yitang
+- business-strategy
+- management
+- yitang
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
 source_refs:
-  - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
-  - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
-  - 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-笔记.txt
-  - 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt
-  - 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt L398-L402,L1126-L1128,L1648-L1654
+- 00_inbox/销售专题/_processed/销售专题_整合笔记.md
+- 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
+- 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-笔记.txt
+- 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt
+- 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt L398-L402,L1126-L1128,L1648-L1654
 aliases:
-  - 六维销售激励
-  - 销售激励6D
-  - yitang-sales-incentive-6d
+- 六维销售激励
+- 销售激励6D
+- yitang-sales-incentive-6d
 query_triggers:
-  - 销售团队激励怎么做
-  - 除了钱还能怎么激励销售
-  - 销售激励方案怎么设计
-  - 销售团队没有狼性怎么办
-  - 创业早期没钱怎么激励销售
-  - OPC一人公司怎么自我激励
+- 销售团队激励怎么做
+- 除了钱还能怎么激励销售
+- 销售激励方案怎么设计
+- 销售团队没有狼性怎么办
+- 创业早期没钱怎么激励销售
+- OPC一人公司怎么自我激励
 tags:
-  - "#sales"
-  - "#management"
-  - "#incentive"
-  - "#yitang"
+- '#sales'
+- '#management'
+- '#incentive'
+- '#yitang'
 related:
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[yt-management-goal-management]]"
-  - "[[yt-personal-deliberate-practice]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[framework-yitang-deliberate-practice-1plus4]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[case-yitang-sales-transformation-meirongyuan]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[framework-yitang-sales-target-tradeoffs]]"
-
-  - "[[framework-一堂-动力三曲线]]"
-
-  - "[[tool-yitang-payment-collection-playbook]]"
+- '[[case-yitang-sales-transformation-meirongyuan]]'
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[framework-yitang-sales-target-tradeoffs]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂-动力三曲线]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-payment-collection-playbook]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[yt-management-goal-management]]'
+- '[[yt-personal-deliberate-practice]]'
+- tool-agent-spec-yitang-incentive-design
 created_at: 2026-07-02
 updated_at: 2026-07-08
 ---

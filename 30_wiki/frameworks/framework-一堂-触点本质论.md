@@ -1,5 +1,4 @@
 ---
-
 id: framework-一堂-触点本质论
 title: 一堂触点本质论：接触机会点 + 资产隐喻 + 火车货物剥离法 + 假设挖掘三特性
 type: framework
@@ -26,12 +25,6 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L512-L654
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3656-L3656
 related:
-- '[[framework-一堂-转化率黑客-总纲]]'
-- '[[framework-一堂-12触点SABC分级]]'
-- '[[framework-一堂-12种阻力总表]]'
-- '[[framework-一堂-转化基本功七个自我修养]]'
-- '[[framework-一堂-转化率提升六步法]]'
-- '[[conversion-rate-domain-digest]]'
 - '[[case-一堂-一堂自身转化实践]]'
 - '[[case-一堂-入职率50到80-100]]'
 - '[[case-一堂-全会员出圈率1.5翻倍]]'
@@ -43,6 +36,13 @@ related:
 - '[[case-一堂-视频号加微信率44到85]]'
 - '[[case-一堂-触点篇案例库]]'
 - '[[case-一堂-跆拳道黑带卡]]'
+- '[[conversion-rate-domain-digest]]'
+- '[[framework-一堂-12种阻力总表]]'
+- '[[framework-一堂-12触点SABC分级]]'
+- '[[framework-一堂-转化基本功七个自我修养]]'
+- '[[framework-一堂-转化率提升六步法]]'
+- '[[framework-一堂-转化率黑客-总纲]]'
+- '[[tool-agent-spec-yitang-opening-3min]]'
 - '[[tool-一堂-12大易浪费触点]]'
 - '[[tool-一堂-ABACC叙事法]]'
 - '[[tool-一堂-五大转化率范式]]'
@@ -56,8 +56,7 @@ related:
 - '[[tool-一堂-触点挖掘四层级]]'
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
-
-- '[[tool-agent-spec-yitang-opening-3min]]'
+- tool-agent-spec-yitang-three-second-opening-scripts
 quality_labels:
 - principle
 - framework

@@ -16,8 +16,6 @@ domain:
 source_person: Truman / 一堂课程体系
 source_context: 一堂项目管理方法论课程（2026-07-08），项目背景分析专题深挖补产
 source_refs:
-- 30_wiki/frameworks/framework-yitang-project-background-8d.md
-- 00_inbox/管项目/项目管理-定方案-背景分析8个维度_vlm_desc.md
 - .agent/prompts/tool-agent-spec-yitang-project-background-analysis.md
 related:
 - framework-yitang-scientific-sales-five-step

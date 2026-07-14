@@ -13,11 +13,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
+- cited
+- insight
+- principle
+- quality
+- validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
@@ -30,15 +30,16 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-汉堡难点_vlm_desc.md
 source_person: Truman
 related:
-- "[[framework-yitang-channel-exploration-4step]]"
-- "[[framework-yitang-growth-flywheel]]"
-- "[[concept-yitang-channel-lean-validation-bridge]]"
-- "[[framework-yitang-channel-unit-economics]]"
-- "[[tool-yitang-channel-industrialization-node-design]]"
-- "[[tool-区分获客渠道计算单元roi]]"
-- "[[case-yitang-yitang-course-industrialization]]"
-- "[[case-yitang-yitu-lead-industrialization]]"
-- "[[framework-yitang-research-quality-gate]]"
+- '[[case-yitang-yitang-course-industrialization]]'
+- '[[case-yitang-yitu-lead-industrialization]]'
+- '[[concept-yitang-channel-lean-validation-bridge]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[framework-yitang-research-quality-gate]]'
+- '[[tool-yitang-channel-industrialization-node-design]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- tool-agent-spec-yitang-lead-funnel-health
 review_date: '2026-06-28'
 ---
 

@@ -18,7 +18,6 @@ source_context: 一堂科学销售方法论课程（2026-07-08），销售专题
 source_refs:
 - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt L432-L440
 - 00_inbox/销售专题/_processed/销售体系之一-益涂工业化筛选线索模型_vlm.md L8-L12
-- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt §650-698
 - 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
 - 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
 - 30_wiki/cases/case-yitang-yitu-lead-industrialization.md

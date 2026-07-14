@@ -31,7 +31,6 @@ related:
 - tool-opc-sales-dialogue-assistant
 - tool-yitang-sales-process-decomposition
 - tool-yitang-sales-toolkit-radar
-- tool-yitang-three-second-opening-scripts
 created_at: 2026-07-08
 updated_at: '2026-07-14'
 tcp_role: P

@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-阻力消除12策小抄
 title: 一堂阻力消除 12 策小抄：12 种常见阻力 × 动嘴/动手/动钱 消除策略
 type: tool
@@ -28,23 +27,6 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/阻力消除策略之11：怕冲动_vlm.md
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/阻力消除策略之12：还不急_vlm.md
 related:
-- '[[framework-一堂-转化率黑客-总纲]]'
-- '[[framework-一堂-12种阻力总表]]'
-- '[[framework-一堂-阻力方法论骨架]]'
-- '[[tool-一堂-阻力挖掘方式]]'
-- '[[tool-一堂-阻力三句话心法]]'
-- '[[tool-一堂-动嘴动手动钱成本纪律]]'
-- '[[tool-动力阻力分析]]'
-- '[[tool-一堂-FAB说服法]]'
-- '[[tool-一堂-名利权情动力法]]'
-- '[[tool-一堂-影响力六原则]]'
-- '[[tool-一堂-心理激励优先机制]]'
-- '[[tool-一堂-马毅阻力消除四部曲]]'
-- '[[tool-一堂-伏笔式消除法]]'
-- '[[tool-一堂-不着急阻力两类消除]]'
-- '[[tool-一堂-七大转化场景自检]]'
-- '[[framework-一堂-转化率提升六步法]]'
-- '[[conversion-rate-domain-digest]]'
 - '[[case-一堂-一堂自身转化实践]]'
 - '[[case-一堂-作业率20到50]]'
 - '[[case-一堂-入职率50到80-100]]'
@@ -57,9 +39,26 @@ related:
 - '[[case-一堂-视频号加微信率44到85]]'
 - '[[case-一堂-跆拳道黑带卡]]'
 - '[[case-一堂-阻力篇案例库]]'
-
+- '[[conversion-rate-domain-digest]]'
+- '[[framework-一堂-12种阻力总表]]'
+- '[[framework-一堂-转化率提升六步法]]'
+- '[[framework-一堂-转化率黑客-总纲]]'
+- '[[framework-一堂-阻力方法论骨架]]'
 - '[[tool-agent-spec-yitang-objection-handler]]'
 - '[[tool-yitang-payment-collection-playbook]]'
+- '[[tool-一堂-FAB说服法]]'
+- '[[tool-一堂-七大转化场景自检]]'
+- '[[tool-一堂-不着急阻力两类消除]]'
+- '[[tool-一堂-伏笔式消除法]]'
+- '[[tool-一堂-动嘴动手动钱成本纪律]]'
+- '[[tool-一堂-名利权情动力法]]'
+- '[[tool-一堂-影响力六原则]]'
+- '[[tool-一堂-心理激励优先机制]]'
+- '[[tool-一堂-阻力三句话心法]]'
+- '[[tool-一堂-阻力挖掘方式]]'
+- '[[tool-一堂-马毅阻力消除四部曲]]'
+- '[[tool-动力阻力分析]]'
+- tool-agent-spec-yitang-payment-collection-risk
 quality_labels:
 - cited
 - actionable

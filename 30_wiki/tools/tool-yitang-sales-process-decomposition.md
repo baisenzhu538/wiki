@@ -9,39 +9,42 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - business-strategy
-  - management
+- yitang
+- business-strategy
+- management
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
 source_refs:
-  - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
-  - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
-  - 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt
-  - 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-笔记.txt
-  - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
+- 00_inbox/销售专题/_processed/销售专题_整合笔记.md
+- 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
+- 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt
+- 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-笔记.txt
+- 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
 related:
-  - "[[tool-iceberg-triangle-modeling]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[framework-yitang-channel-exploration-4step]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[yt-business-formula-parameter-iceberg]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
-  - "[[case-yitang-sales-transformation-meirongyuan]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[tool-agent-spec-yitang-customer-segmentation]]"
-  - "[[tool-agent-spec-yitang-objection-handler]]"
-  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
-
-  - "[[framework-一堂-转化率提升六步法]]"
-
-  - "[[tool-yitang-payment-collection-playbook]]"
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
+- '[[case-yitang-sales-transformation-meirongyuan]]'
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂-转化率提升六步法]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[tool-agent-spec-yitang-customer-segmentation]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-agent-spec-yitang-sales-process-tracker]]'
+- '[[tool-iceberg-triangle-modeling]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-payment-collection-playbook]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- tool-agent-spec-yitang-daily-weekly-meeting-host
+- tool-agent-spec-yitang-lead-funnel-health
+- tool-agent-spec-yitang-payment-collection-risk
+- tool-agent-spec-yitang-sales-toolkit-gap
+- tool-agent-spec-yitang-three-second-opening-scripts
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

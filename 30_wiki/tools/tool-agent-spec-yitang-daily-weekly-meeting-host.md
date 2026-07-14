@@ -27,7 +27,6 @@ related:
 - dk-yitang-sales-common-pitfalls
 - framework-yitang-scientific-sales-five-step
 - opc-ai-sales-agent-architecture
-- tool-yitang-daily-weekly-meeting-hosting
 - tool-yitang-sales-performance-management
 - tool-yitang-sales-process-decomposition
 - tool-yitang-sales-toolkit-radar

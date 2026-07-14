@@ -16,8 +16,6 @@ domain:
 source_person: Truman / 一堂课程体系
 source_context: 一堂全产品方法论课程（2026-07-08），用户视角训练专题深挖补产
 source_refs:
-- 30_wiki/frameworks/framework-yitang-user-perspective-training.md
-- 30_wiki/cases/case-yitang-user-empathy-redesign.md
 - .agent/prompts/tool-agent-spec-yitang-user-perspective-training.md
 related:
 - framework-yitang-scientific-sales-five-step

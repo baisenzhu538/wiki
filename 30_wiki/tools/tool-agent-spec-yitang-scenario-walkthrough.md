@@ -16,14 +16,13 @@ domain:
 source_person: Truman / 一堂课程体系
 source_context: 一堂全产品方法论课程（2026-07-08），场景走查专题深挖补产
 source_refs:
-- 30_wiki/frameworks/framework-yitang-scenario-walkthrough.md
-- 30_wiki/cases/case-yitang-product-scenario-review.md
 - .agent/prompts/tool-agent-spec-yitang-scenario-walkthrough.md
 related:
 - framework-一堂五步法
 - framework-一堂五步法-泛产品设计
 - tool-agent-spec-yitang-aesthetic-radar-modeling
 - tool-agent-spec-yitang-beautiful-work-imagination
+- tool-agent-spec-yitang-card-dealing-guide
 - tool-agent-spec-yitang-user-perspective-training
 created_at: 2026-07-08
 updated_at: '2026-07-14'

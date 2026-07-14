@@ -31,82 +31,86 @@ source_refs:
 quality_labels:
 - cited
 - validated
-created_at: '2026-07-13'
-updated_at: '2026-07-13'
+created_at: 2026-07-13
+updated_at: 2026-07-15
 author: 老顽童
 reviewed_by: pending
 related:
-- '[[framework-一堂-转化率黑客-总纲]]'
-- '[[framework-一堂-转化率黑客爬山地图]]'
-- '[[framework-一堂-转化基本功七个自我修养]]'
-- '[[framework-一堂-动力三曲线]]'
-- '[[framework-一堂-影响力36计]]'
-- '[[framework-一堂-12种阻力总表]]'
-- '[[framework-一堂-阻力方法论骨架]]'
-- '[[framework-一堂-12触点SABC分级]]'
-- '[[framework-一堂-触点本质论]]'
-- '[[framework-一堂-转化率提升六步法]]'
-- '[[framework-一堂-六大优化原则]]'
-- '[[framework-一堂-十指模型]]'
-- '[[dk-yitang-business-formula-cd-loop-undo-key]]'
-- '[[framework-一堂-业务公式拆解-总纲]]'
-- '[[business-formula-domain-digest]]'
-- '[[five-step-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[tool-动力阻力分析]]'
-- '[[tool-一堂-FAB说服法]]'
-- '[[tool-一堂-名利权情动力法]]'
-- '[[tool-一堂-影响力六原则]]'
-- '[[tool-一堂-心理激励优先机制]]'
-- '[[tool-一堂-阻力消除12策小抄]]'
-- '[[tool-一堂-阻力挖掘方式]]'
-- '[[tool-一堂-阻力三句话心法]]'
-- '[[tool-一堂-马毅阻力消除四部曲]]'
-- '[[tool-一堂-伏笔式消除法]]'
-- '[[tool-一堂-不着急阻力两类消除]]'
-- '[[tool-一堂-动嘴动手动钱成本纪律]]'
-- '[[tool-一堂-七大转化场景自检]]'
-- '[[yt-tool-fab-persuasion]]'
-- '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
-- '[[case-yitang-yewenbin-archery-business-formula]]'
-- '[[case-一堂-一堂自身转化实践]]'
-- '[[case-一堂-优秀案例逐字稿合集]]'
-- '[[case-一堂-作业率20到50]]'
-- '[[case-一堂-入职率50到80-100]]'
-- '[[case-一堂-全会员出圈率1.5翻倍]]'
-- '[[case-一堂-六杯奶茶推荐率近100]]'
-- '[[case-一堂-动力篇案例库]]'
-- '[[case-一堂-我请客推荐率5到40]]'
-- '[[case-一堂-教研加微信率40到100]]'
-- '[[case-一堂-晓莉学而思引流课]]'
-- '[[case-一堂-棋牌室办卡率1到5]]'
-- '[[case-一堂-组合篇案例库]]'
-- '[[case-一堂-视频号加微信率44到85]]'
-- '[[case-一堂-触点篇案例库]]'
-- '[[case-一堂-跆拳道黑带卡]]'
-- '[[case-一堂-阻力篇案例库]]'
-- '[[case-一堂-优秀触点案例合集]]'
-- '[[case-一堂-小米发布会拆解]]'
-- '[[case-一堂-优秀转化率复盘合集]]'
-- '[[case-一堂-邹韵涛-中小企业高级管理辅导班专题培训会]]'
-- '[[tool-一堂-触点挖掘四层级]]'
-- '[[tool-一堂-触点质量五维]]'
-- '[[tool-一堂-五种挖触点]]'
-- '[[tool-一堂-12大易浪费触点]]'
-- '[[tool-一堂-触点减法与排序]]'
-- '[[tool-一堂-五大转化率范式]]'
-- '[[tool-一堂-准备系数法则]]'
-- '[[tool-一堂-提假设四大类策略]]'
-- '[[tool-一堂-减法排序四招]]'
-- '[[tool-一堂-ABACC叙事法]]'
-- '[[tool-一堂-经典故事线框架库]]'
-- '[[tool-一堂-制作仿真三要点]]'
-- '[[tool-一堂-讲香双策略]]'
-
-- '[[opc-ai-sales-agent-architecture]]'
-- '[[tool-opc-sales-dialogue-assistant]]'
+- [[framework-一堂-转化率黑客-总纲]]
+- [[framework-一堂-转化率黑客爬山地图]]
+- [[framework-一堂-转化基本功七个自我修养]]
+- [[framework-一堂-动力三曲线]]
+- [[framework-一堂-影响力36计]]
+- [[framework-一堂-12种阻力总表]]
+- [[framework-一堂-阻力方法论骨架]]
+- [[framework-一堂-12触点SABC分级]]
+- [[framework-一堂-触点本质论]]
+- [[framework-一堂-转化率提升六步法]]
+- [[framework-一堂-六大优化原则]]
+- [[framework-一堂-十指模型]]
+- [[dk-yitang-business-formula-cd-loop-undo-key]]
+- [[framework-一堂-业务公式拆解-总纲]]
+- [[business-formula-domain-digest]]
+- [[five-step-domain-digest]]
+- [[decision-science-domain-digest]]
+- [[tool-动力阻力分析]]
+- [[tool-一堂-FAB说服法]]
+- [[tool-一堂-名利权情动力法]]
+- [[tool-一堂-影响力六原则]]
+- [[tool-一堂-心理激励优先机制]]
+- [[tool-一堂-阻力消除12策小抄]]
+- [[tool-一堂-阻力挖掘方式]]
+- [[tool-一堂-阻力三句话心法]]
+- [[tool-一堂-马毅阻力消除四部曲]]
+- [[tool-一堂-伏笔式消除法]]
+- [[tool-一堂-不着急阻力两类消除]]
+- [[tool-一堂-动嘴动手动钱成本纪律]]
+- [[tool-一堂-七大转化场景自检]]
+- [[yt-tool-fab-persuasion]]
+- [[case-yitang-dongyuan-dance-retention-c-vs-d]]
+- [[case-yitang-yewenbin-archery-business-formula]]
+- [[case-一堂-一堂自身转化实践]]
+- [[case-一堂-优秀案例逐字稿合集]]
+- [[case-一堂-作业率20到50]]
+- [[case-一堂-入职率50到80-100]]
+- [[case-一堂-全会员出圈率1.5翻倍]]
+- [[case-一堂-六杯奶茶推荐率近100]]
+- [[case-一堂-动力篇案例库]]
+- [[case-一堂-我请客推荐率5到40]]
+- [[case-一堂-教研加微信率40到100]]
+- [[case-一堂-晓莉学而思引流课]]
+- [[case-一堂-棋牌室办卡率1到5]]
+- [[case-一堂-组合篇案例库]]
+- [[case-一堂-视频号加微信率44到85]]
+- [[case-一堂-触点篇案例库]]
+- [[case-一堂-跆拳道黑带卡]]
+- [[case-一堂-阻力篇案例库]]
+- [[case-一堂-优秀触点案例合集]]
+- [[case-一堂-小米发布会拆解]]
+- [[case-一堂-优秀转化率复盘合集]]
+- [[case-一堂-邹韵涛-中小企业高级管理辅导班专题培训会]]
+- [[tool-一堂-触点挖掘四层级]]
+- [[tool-一堂-触点质量五维]]
+- [[tool-一堂-五种挖触点]]
+- [[tool-一堂-12大易浪费触点]]
+- [[tool-一堂-触点减法与排序]]
+- [[tool-一堂-五大转化率范式]]
+- [[tool-一堂-准备系数法则]]
+- [[tool-一堂-提假设四大类策略]]
+- [[tool-一堂-减法排序四招]]
+- [[tool-一堂-ABACC叙事法]]
+- [[tool-一堂-经典故事线框架库]]
+- [[tool-一堂-制作仿真三要点]]
+- [[tool-一堂-讲香双策略]]
+- [[opc-ai-sales-agent-architecture]]
+- [[tool-opc-sales-dialogue-assistant]]
+- [[tool-agent-spec-yitang-three-second-opening-scripts]]
+- [[tool-agent-spec-yitang-payment-collection-risk]]
+- [[tool-agent-spec-yitang-daily-weekly-meeting-host]]
+- [[tool-agent-spec-yitang-sales-toolkit-gap]]
+- [[tool-agent-spec-yitang-incentive-design]]
+- [[tool-agent-spec-yitang-lead-funnel-health]]
 ---
-
 # 域摘要：一堂转化率黑客（D 域）
 
 ## 域定位
@@ -169,3 +173,13 @@ D 域 = 关键假设 ABCD 体系的**微观效率**象限（A 宏观成败=五�
 - 十指模型：模型名以图片/笔记为准（口述作手势模型/双三角模型）；右手第四化=冲突化（笔记作冲动化疑误）；第五化=升华（总览 L2736 与笔记作生活化为同音误识）。
 - 质量第三原则 = 厚度匹配（总览 L3406 作后置匹配疑误识，L3898+ 与笔记 L93 均作厚度匹配）。
 - 棋牌室目标值 = 2%-10%（组合篇 L482/笔记；L1748 作 20% 疑误识）。
+## OPC 销售域 Agent-spec 应用卡（#186 入库）
+
+| 卡 | 用途 |
+|:--|:--|
+| `[[tool-agent-spec-yitang-three-second-opening-scripts]]` | 前三秒话术优化 Agent Spec |
+| `[[tool-agent-spec-yitang-payment-collection-risk]]` | 回款 / 履约风险预警 Agent Spec |
+| `[[tool-agent-spec-yitang-daily-weekly-meeting-host]]` | 日会 / 周会智能主持 Agent Spec |
+| `[[tool-agent-spec-yitang-sales-toolkit-gap]]` | 销售工具箱缺口盘点 Agent Spec |
+| `[[tool-agent-spec-yitang-incentive-design]]` | 销售激励方案设计辅助 Agent Spec |
+| `[[tool-agent-spec-yitang-lead-funnel-health]]` | 线索漏斗健康度诊断 Agent Spec |

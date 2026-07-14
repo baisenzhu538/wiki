@@ -26,19 +26,33 @@ source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L527-L528
 related:
 - '[[agent-一堂五步法教练]]'
+- '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[framework-一堂-关键假设]]'
+- '[[framework-一堂-机会预判]]'
 - '[[framework-一堂五步法-单元模型]]'
 - '[[framework-一堂五步法-增长周期]]'
 - '[[framework-一堂五步法-壁垒]]'
 - '[[framework-一堂五步法-泛产品设计]]'
-- '[[tool-一堂五步法-换档检查清单]]'
-- '[[yt-five-step-method]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-model-five-step-canvas]]'
-- '[[tool-demand-iceberg-l1-user]]'
-- '[[framework-一堂-业务公式拆解-总纲]]'
-- '[[framework-一堂-关键假设]]'
-- '[[framework-一堂-机会预判]]'
 - '[[framework-个人学习方法总框架]]'
+- '[[tool-demand-iceberg-l1-user]]'
+- '[[tool-一堂五步法-换档检查清单]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-five-step-method]]'
+- '[[yt-model-five-step-canvas]]'
+- tool-agent-spec-yitang-ability-migration-diagnosis
+- tool-agent-spec-yitang-aesthetic-radar-modeling
+- tool-agent-spec-yitang-beautiful-work-imagination
+- tool-agent-spec-yitang-card-dealing-guide
+- tool-agent-spec-yitang-kernel-add-subtract-diagnosis
+- tool-agent-spec-yitang-kernel-canvas-autofill
+- tool-agent-spec-yitang-kernel-case-matching
+- tool-agent-spec-yitang-kernel-failure-mode-diagnosis
+- tool-agent-spec-yitang-kernel-iteration-direction
+- tool-agent-spec-yitang-kernel-three-questions
+- tool-agent-spec-yitang-kernel-verification-ladder
+- tool-agent-spec-yitang-project-background-analysis
+- tool-agent-spec-yitang-scenario-walkthrough
+- tool-agent-spec-yitang-user-perspective-training
 diagnostic_signals:
 - signal: 团队在做需求分析但不知道下一步该做什么
   lens: 缺五步法全局视图——卡在单步里

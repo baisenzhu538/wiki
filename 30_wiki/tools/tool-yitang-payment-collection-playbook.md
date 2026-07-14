@@ -10,25 +10,25 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - sales
-  - business-strategy
+- yitang
+- sales
+- business-strategy
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售专题口述稿二次深挖补产
 source_refs:
-  - 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt L320-L354,L420-L458,L560-L588,L824-L832,L1386-L1394,L1466
-  - 00_inbox/销售专题/_processed/销售工具武器库_vlm.md L48-L51
+- 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt L320-L354,L420-L458,L560-L588,L824-L832,L1386-L1394,L1466
+- 00_inbox/销售专题/_processed/销售工具武器库_vlm.md L48-L51
 related:
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-
-  - "[[framework-一堂-12种阻力总表]]"
-  - "[[tool-一堂-阻力消除12策小抄]]"
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂-12种阻力总表]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-一堂-阻力消除12策小抄]]'
+- tool-agent-spec-yitang-payment-collection-risk
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

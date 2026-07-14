@@ -16,8 +16,6 @@ domain:
 source_person: Truman / 一堂课程体系
 source_context: 一堂全产品方法论课程（2026-07-08），出牌/打牌策略专题深挖补产
 source_refs:
-- 30_wiki/frameworks/framework-yitang-card-dealing-strategy.md
-- 30_wiki/cases/case-yitang-product-launch-card-dealing.md
 - .agent/prompts/tool-agent-spec-yitang-card-dealing-guide.md
 related:
 - framework-yitang-scientific-sales-five-step

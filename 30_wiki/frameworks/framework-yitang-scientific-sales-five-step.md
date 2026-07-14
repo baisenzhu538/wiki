@@ -9,43 +9,52 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - business-strategy
-  - yitang
-  - management
+- business-strategy
+- yitang
+- management
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
 source_refs:
-  - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
-  - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
-  - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
-  - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
-  - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L800-L814,L228-L230,L266,L372
+- 00_inbox/销售专题/_processed/销售专题_整合笔记.md
+- 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
+- 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
+- 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
+- 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L800-L814,L228-L230,L266,L372
 related:
-  - "[[yitang-methodology-system]]"
-  - "[[yt-five-step-method-complete]]"
-  - "[[framework-yitang-channel-exploration-4step]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
-  - "[[case-yitang-sales-transformation-meirongyuan]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[tool-yitang-three-second-opening-scripts]]"
-  - "[[framework-yitang-y-model-cross-domain-fusion]]"
-  - "[[agent-spec-yitang-Y-model-cross-domain-coach]]"
-  - "[[case-yitang-laowenqi-huixiao-10x]]"
-  - "[[case-yitang-innovative-metrics-collection]]"
-  - "[[case-yitang-three-industry-formula-demos]]"
-
-  - "[[tool-yitang-payment-collection-playbook]]"
+- '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
+- '[[case-yitang-innovative-metrics-collection]]'
+- '[[case-yitang-laowenqi-huixiao-10x]]'
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
+- '[[case-yitang-sales-transformation-meirongyuan]]'
+- '[[case-yitang-sales-transformation-tuliaogongsi]]'
+- '[[case-yitang-three-industry-formula-demos]]'
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[framework-yitang-y-model-cross-domain-fusion]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-payment-collection-playbook]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+- '[[tool-yitang-three-second-opening-scripts]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[yitang-methodology-system]]'
+- '[[yt-five-step-method-complete]]'
+- '[[yt-unit-model-overview]]'
+- tool-agent-spec-yitang-ability-migration-diagnosis
+- tool-agent-spec-yitang-card-dealing-guide
+- tool-agent-spec-yitang-daily-weekly-meeting-host
+- tool-agent-spec-yitang-incentive-design
+- tool-agent-spec-yitang-lead-funnel-health
+- tool-agent-spec-yitang-payment-collection-risk
+- tool-agent-spec-yitang-project-background-analysis
+- tool-agent-spec-yitang-sales-toolkit-gap
+- tool-agent-spec-yitang-three-second-opening-scripts
+- tool-agent-spec-yitang-user-perspective-training
 created_at: 2026-07-02
 updated_at: 2026-07-08
 ---

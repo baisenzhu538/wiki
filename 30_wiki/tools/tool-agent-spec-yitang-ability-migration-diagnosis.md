@@ -16,8 +16,6 @@ domain:
 source_person: Truman / 一堂课程体系
 source_context: 一堂全产品与团队方法论课程（2026-07-08），能力迁移与人才发展专题深挖补产
 source_refs:
-- 30_wiki/frameworks/framework-yitang-ability-migration-matrix.md
-- 30_wiki/cases/case-yitang-cross-domain-talent-transfer.md
 - .agent/prompts/tool-agent-spec-yitang-ability-migration-diagnosis.md
 related:
 - framework-yitang-scientific-sales-five-step

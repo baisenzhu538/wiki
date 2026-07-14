@@ -12,32 +12,34 @@ source_refs:
 domain:
 - yitang
 tags:
-- "#sales"
-- "#failure-pattern"
-- "#yitang"
-- "#management"
-- "#pitfall"
+- '#sales'
+- '#failure-pattern'
+- '#yitang'
+- '#management'
+- '#pitfall'
 trust_level: high
 reviewed_by: 欧阳锋
 related:
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
-  - "[[case-yitang-sales-transformation-meirongyuan]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[master-decision-hygiene]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-
-  - "[[framework-一堂-12种阻力总表]]"
-  - "[[framework-一堂-转化率提升六步法]]"
-
-  - "[[tool-yitang-payment-collection-playbook]]"
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
+- '[[case-yitang-sales-transformation-meirongyuan]]'
+- '[[case-yitang-sales-transformation-tuliaogongsi]]'
+- '[[framework-yitang-nine-layer-deep-dig]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂-12种阻力总表]]'
+- '[[framework-一堂-转化率提升六步法]]'
+- '[[master-decision-hygiene]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-payment-collection-playbook]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- tool-agent-spec-yitang-daily-weekly-meeting-host
+- tool-agent-spec-yitang-incentive-design
+- tool-agent-spec-yitang-payment-collection-risk
+- tool-agent-spec-yitang-three-second-opening-scripts
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

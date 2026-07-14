@@ -9,47 +9,50 @@ confidence: 0.84
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - business-strategy
-  - management
+- yitang
+- business-strategy
+- management
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
 source_refs:
-  - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
-  - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
-  - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-笔记.txt
-  - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt
-  - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L1426-L1462,L1488-L1490
-  - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L2150-L2154
-  - 00_inbox/销售专题/_processed/业绩推进管理-一堂业绩管理拆解画布-课程匹配工具_vlm.md L21-L24,L79-L82
+- 00_inbox/销售专题/_processed/销售专题_整合笔记.md
+- 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
+- 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-笔记.txt
+- 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt
+- 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L1426-L1462,L1488-L1490
+- 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L2150-L2154
+- 00_inbox/销售专题/_processed/业绩推进管理-一堂业绩管理拆解画布-课程匹配工具_vlm.md L21-L24,L79-L82
 related:
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[yt-management-goal-management]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[yt-business-formula-six-level-logic]]"
-  - "[[yt-unit-model-overview]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[case-yitang-sales-transformation-meirongyuan]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[tool-yitang-daily-weekly-meeting-hosting]]"
-  - "[[yt-business-formula-parameter-iceberg]]"
-  - "[[tool-agent-spec-yitang-customer-segmentation]]"
-  - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
-  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
-  - "[[tool-agent-spec-yitang-self-motivation]]"
-  - "[[tool-iceberg-triangle-modeling]]"
-
-  - "[[framework-一堂-转化率提升六步法]]"
-  - "[[framework-一堂-动力三曲线]]"
-
-  - "[[tool-yitang-payment-collection-playbook]]"
+- '[[case-yitang-sales-transformation-meirongyuan]]'
+- '[[case-yitang-sales-transformation-tuliaogongsi]]'
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[framework-yitang-nine-layer-deep-dig]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-一堂-动力三曲线]]'
+- '[[framework-一堂-转化率提升六步法]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-agent-spec-yitang-customer-segmentation]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+- '[[tool-agent-spec-yitang-sales-process-tracker]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
+- '[[tool-iceberg-triangle-modeling]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-daily-weekly-meeting-hosting]]'
+- '[[tool-yitang-payment-collection-playbook]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-six-level-logic]]'
+- '[[yt-management-goal-management]]'
+- '[[yt-unit-model-overview]]'
+- tool-agent-spec-yitang-daily-weekly-meeting-host
+- tool-agent-spec-yitang-incentive-design
+- tool-agent-spec-yitang-lead-funnel-health
+- tool-agent-spec-yitang-payment-collection-risk
+- tool-agent-spec-yitang-sales-toolkit-gap
 created_at: 2026-07-02
 updated_at: 2026-07-08
 ---

@@ -1,5 +1,4 @@
 ---
-
 id: framework-一堂-阻力方法论骨架
 title: 一堂阻力方法论骨架：两大误区 + 消除深度三层（降低/消除/逆转）+ 消除时机三种（被动/主动/伏笔式）
 type: framework
@@ -26,37 +25,37 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L2328-L2410
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L2422-L2488
 related:
-- '[[framework-一堂-转化率黑客-总纲]]'
+- '[[case-一堂-作业率20到50]]'
+- '[[case-一堂-阻力篇案例库]]'
+- '[[conversion-rate-domain-digest]]'
 - '[[framework-一堂-12种阻力总表]]'
 - '[[framework-一堂-动力三曲线]]'
 - '[[framework-一堂-转化基本功七个自我修养]]'
 - '[[framework-一堂-转化率提升六步法]]'
-- '[[conversion-rate-domain-digest]]'
-- '[[tool-动力阻力分析]]'
-- '[[tool-一堂-阻力消除12策小抄]]'
-- '[[tool-一堂-阻力挖掘方式]]'
-- '[[tool-一堂-阻力三句话心法]]'
-- '[[tool-一堂-马毅阻力消除四部曲]]'
-- '[[tool-一堂-伏笔式消除法]]'
-- '[[tool-一堂-不着急阻力两类消除]]'
-- '[[tool-一堂-动嘴动手动钱成本纪律]]'
-- '[[case-一堂-作业率20到50]]'
-- '[[case-一堂-阻力篇案例库]]'
+- '[[framework-一堂-转化率黑客-总纲]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
 - '[[tool-一堂-12大易浪费触点]]'
 - '[[tool-一堂-ABACC叙事法]]'
+- '[[tool-一堂-不着急阻力两类消除]]'
 - '[[tool-一堂-五大转化率范式]]'
 - '[[tool-一堂-五种挖触点]]'
+- '[[tool-一堂-伏笔式消除法]]'
 - '[[tool-一堂-准备系数法则]]'
 - '[[tool-一堂-减法排序四招]]'
 - '[[tool-一堂-制作仿真三要点]]'
+- '[[tool-一堂-动嘴动手动钱成本纪律]]'
 - '[[tool-一堂-提假设四大类策略]]'
 - '[[tool-一堂-经典故事线框架库]]'
 - '[[tool-一堂-触点减法与排序]]'
 - '[[tool-一堂-触点挖掘四层级]]'
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
-
-- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-一堂-阻力三句话心法]]'
+- '[[tool-一堂-阻力挖掘方式]]'
+- '[[tool-一堂-阻力消除12策小抄]]'
+- '[[tool-一堂-马毅阻力消除四部曲]]'
+- '[[tool-动力阻力分析]]'
+- tool-agent-spec-yitang-payment-collection-risk
 quality_labels:
 - principle
 - framework

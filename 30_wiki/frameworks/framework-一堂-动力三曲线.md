@@ -1,5 +1,4 @@
 ---
-
 id: framework-一堂-动力三曲线
 title: 一堂动力三曲线：FAB（60 分）/ 名利权情（70 分）/ 影响力法则（85 分）与使用三原则
 type: framework
@@ -26,19 +25,6 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/最佳转化率-动力三曲线_vlm.md
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/一堂复盘营的动力曲线分析_vlm.md
 related:
-- '[[framework-一堂-转化率黑客-总纲]]'
-- '[[framework-一堂-影响力36计]]'
-- '[[framework-一堂-转化基本功七个自我修养]]'
-- '[[framework-一堂-12种阻力总表]]'
-- '[[framework-一堂-阻力方法论骨架]]'
-- '[[framework-一堂-转化率提升六步法]]'
-- '[[conversion-rate-domain-digest]]'
-- '[[tool-动力阻力分析]]'
-- '[[tool-一堂-FAB说服法]]'
-- '[[tool-一堂-名利权情动力法]]'
-- '[[tool-一堂-影响力六原则]]'
-- '[[tool-一堂-心理激励优先机制]]'
-- '[[yt-tool-fab-persuasion]]'
 - '[[case-一堂-一堂自身转化实践]]'
 - '[[case-一堂-优秀案例逐字稿合集]]'
 - '[[case-一堂-作业率20到50]]'
@@ -52,26 +38,39 @@ related:
 - '[[case-一堂-棋牌室办卡率1到5]]'
 - '[[case-一堂-组合篇案例库]]'
 - '[[case-一堂-跆拳道黑带卡]]'
+- '[[conversion-rate-domain-digest]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[framework-一堂-12种阻力总表]]'
+- '[[framework-一堂-影响力36计]]'
+- '[[framework-一堂-转化基本功七个自我修养]]'
+- '[[framework-一堂-转化率提升六步法]]'
+- '[[framework-一堂-转化率黑客-总纲]]'
+- '[[framework-一堂-阻力方法论骨架]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
+- '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-value-proposition-4step]]'
 - '[[tool-一堂-12大易浪费触点]]'
 - '[[tool-一堂-ABACC叙事法]]'
+- '[[tool-一堂-FAB说服法]]'
 - '[[tool-一堂-五大转化率范式]]'
 - '[[tool-一堂-五种挖触点]]'
 - '[[tool-一堂-准备系数法则]]'
 - '[[tool-一堂-减法排序四招]]'
 - '[[tool-一堂-制作仿真三要点]]'
+- '[[tool-一堂-名利权情动力法]]'
+- '[[tool-一堂-影响力六原则]]'
+- '[[tool-一堂-心理激励优先机制]]'
 - '[[tool-一堂-提假设四大类策略]]'
 - '[[tool-一堂-经典故事线框架库]]'
 - '[[tool-一堂-触点减法与排序]]'
 - '[[tool-一堂-触点挖掘四层级]]'
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
-
-- '[[framework-yitang-sales-incentive-6d]]'
-- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
-- '[[tool-agent-spec-yitang-self-motivation]]'
-- '[[tool-agent-spec-yitang-value-proposition]]'
-- '[[tool-yitang-sales-performance-management]]'
-- '[[tool-yitang-value-proposition-4step]]'
+- '[[tool-动力阻力分析]]'
+- '[[yt-tool-fab-persuasion]]'
+- tool-agent-spec-yitang-incentive-design
 quality_labels:
 - principle
 - framework

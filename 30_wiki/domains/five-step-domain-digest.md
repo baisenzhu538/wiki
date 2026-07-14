@@ -14,25 +14,35 @@ source_context: 一堂五步法培训口述与笔记
 source_refs:
 - 10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md
 - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
-created_at: '2026-06-19'
+created_at: 2026-06-19
 author: 黄药师
 reviewed_by: 欧阳锋
-review_date: '2026-07-08'
+review_date: 2026-07-08
 review_verdict: pass
 review_grade: B
 review_notes: 补审（原reviewed_by黄药师，self-review违反L0铁律#4）。域摘要结构完整，80+张卡导航清晰。domain字段为src_unknown需修复。
 related:
-  - "[[lean-startup-domain-digest]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
+- [[lean-startup-domain-digest]]
+- [[framework-一堂五步法-泛产品设计]]
+- "[[tool-agent-spec-yitang-kernel-add-subtract-diagnosis]]"
+- "[[tool-agent-spec-yitang-kernel-canvas-autofill]]"
+- "[[tool-agent-spec-yitang-kernel-case-matching]]"
+- "[[tool-agent-spec-yitang-kernel-failure-mode-diagnosis]]"
+- "[[tool-agent-spec-yitang-kernel-iteration-direction]]"
+- "[[tool-agent-spec-yitang-kernel-three-questions]]"
+- "[[tool-agent-spec-yitang-kernel-verification-ladder]]"
+- "[[tool-agent-spec-yitang-ability-migration-diagnosis]]"
+- "[[tool-agent-spec-yitang-aesthetic-radar-modeling]]"
+- "[[tool-agent-spec-yitang-beautiful-work-imagination]]"
+- "[[tool-agent-spec-yitang-card-dealing-guide]]"
+- "[[tool-agent-spec-yitang-project-background-analysis]]"
+- "[[tool-agent-spec-yitang-scenario-walkthrough]]"
+- "[[tool-agent-spec-yitang-user-perspective-training]]"
 diagnostic_signals:
-- framework_lens: 五步法总纲
-  follow_up_question: 你的项目在五步（需求/产品内核/商业模式/增长/壁垒）中卡在哪一步？先定位再深挖。
-- framework_lens: 落地实操工具
-  follow_up_question: 你有画布吗？五步法画布+产品内核画布可以从假设一直推到壁垒。
-updated_at: '2026-06-28'
-
+- {'framework_lens': '五步法总纲', 'follow_up_question': '你的项目在五步（需求/产品内核/商业模式/增长/壁垒）中卡在哪一步？先定位再深挖。'}
+- {'framework_lens': '落地实操工具', 'follow_up_question': '你有画布吗？五步法画布+产品内核画布可以从假设一直推到壁垒。'}
+updated_at: 2026-07-15
 ---
-
 # 域摘要：一堂五步法
 
 > 66 张卡 · 方法论底座 · 几乎所有业务域的入口框架
@@ -149,3 +159,29 @@ updated_at: '2026-06-28'
 - src_unknown
 - src_unknown
 - src_unknown
+## Agent-spec 黑户卡入库（#186）
+
+### Kernel 系列（7 张）
+
+| 卡 | 用途 |
+|:--|:--|
+| `[[tool-agent-spec-yitang-kernel-add-subtract-diagnosis]]` | 产品内核加减法诊断 Agent Spec |
+| `[[tool-agent-spec-yitang-kernel-canvas-autofill]]` | 产品内核 5 格画布自动填充 Agent Spec |
+| `[[tool-agent-spec-yitang-kernel-case-matching]]` | 产品内核案例匹配 Agent Spec |
+| `[[tool-agent-spec-yitang-kernel-failure-mode-diagnosis]]` | 产品内核失败模式诊断 Agent Spec |
+| `[[tool-agent-spec-yitang-kernel-iteration-direction]]` | 产品内核迭代方向诊断 Agent Spec |
+| `[[tool-agent-spec-yitang-kernel-three-questions]]` | 产品内核三问诊断 Agent Spec |
+| `[[tool-agent-spec-yitang-kernel-verification-ladder]]` | 产品内核验证阶梯 Agent Spec |
+
+### 产品 / 设计 / 项目管理（7 张）
+
+| 卡 | 用途 |
+|:--|:--|
+| `[[tool-agent-spec-yitang-ability-migration-diagnosis]]` | 能力迁移诊断 Agent Spec |
+| `[[tool-agent-spec-yitang-aesthetic-radar-modeling]]` | 审美雷达建模 Agent Spec |
+| `[[tool-agent-spec-yitang-beautiful-work-imagination]]` | 漂亮工作想象 Agent Spec |
+| `[[tool-agent-spec-yitang-card-dealing-guide]]` | 出牌指南 Agent Spec |
+| `[[tool-agent-spec-yitang-project-background-analysis]]` | 项目背景分析 Agent Spec |
+| `[[tool-agent-spec-yitang-scenario-walkthrough]]` | 场景走查 Agent Spec |
+| `[[tool-agent-spec-yitang-user-perspective-training]]` | 用户视角训练 Agent Spec |
+

@@ -9,34 +9,38 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - business-strategy
+- yitang
+- business-strategy
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
 source_refs:
-  - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
-  - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
-  - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-笔记.txt
-  - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt
+- 00_inbox/销售专题/_processed/销售专题_整合笔记.md
+- 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
+- 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-笔记.txt
+- 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt
 related:
-  - "[[tool-agent-research-swarm]]"
-  - "[[human-ai-collaboration-double-triangle]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[yt-panproduct-aesthetic-pool]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[framework-yitang-deliberate-practice-1plus4]]"
-  - "[[tool-yitang-best-practice-as-golden-finger]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[tool-agent-spec-yitang-objection-handler]]"
-  - "[[tool-agent-spec-yitang-opening-3min]]"
-  - "[[tool-yitang-ipo-annual-report-cheat-sheet]]"
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[human-ai-collaboration-double-triangle]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[tool-agent-research-swarm]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-agent-spec-yitang-opening-3min]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[tool-yitang-best-practice-as-golden-finger]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-ipo-annual-report-cheat-sheet]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[yt-panproduct-aesthetic-pool]]'
+- tool-agent-spec-yitang-daily-weekly-meeting-host
+- tool-agent-spec-yitang-incentive-design
+- tool-agent-spec-yitang-sales-toolkit-gap
+- tool-agent-spec-yitang-three-second-opening-scripts
 created_at: 2026-07-02
 updated_at: 2026-07-02
 ---

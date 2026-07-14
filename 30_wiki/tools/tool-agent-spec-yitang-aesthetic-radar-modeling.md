@@ -16,8 +16,6 @@ domain:
 source_person: Truman / 一堂课程体系
 source_context: 一堂全产品方法论课程（2026-07-08），审美与产品品质专题深挖补产
 source_refs:
-- 30_wiki/frameworks/framework-yitang-aesthetic-radar.md
-- 30_wiki/cases/case-yitang-product-design-quality.md
 - .agent/prompts/tool-agent-spec-yitang-aesthetic-radar-modeling.md
 related:
 - framework-一堂五步法

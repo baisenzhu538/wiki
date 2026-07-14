@@ -13,10 +13,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 updated_at: '2026-07-08'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
@@ -26,15 +26,16 @@ source_refs:
 - 00_inbox/销售专题/_processed/销售体系之一-益涂工业化筛选线索模型_vlm.md L8-L12
 source_person: Truman
 related:
-- "[[framework-yitang-channel-industrialization]]"
-- "[[framework-yitang-channel-exploration-4step]]"
-- "[[case-yitang-lianjia-site-selection-industrialization]]"
-- "[[tool-区分获客渠道计算单元roi]]"
-- "[[framework-yitang-channel-unit-economics]]"
-- "[[case-yitang-maiyi-cloud-computer-channel]]"
-- "[[dk-yitang-channel-exploration-traps]]"
-- "[[tool-yitang-sales-toolkit-maturity-60-75-85]]"
-- "[[case-yitang-redburger-selection-industrialization]]"
+- '[[case-yitang-lianjia-site-selection-industrialization]]'
+- '[[case-yitang-maiyi-cloud-computer-channel]]'
+- '[[case-yitang-redburger-selection-industrialization]]'
+- '[[dk-yitang-channel-exploration-traps]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-channel-industrialization]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[tool-yitang-sales-toolkit-maturity-60-75-85]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- tool-agent-spec-yitang-lead-funnel-health
 review_date: '2026-06-28'
 ---
 

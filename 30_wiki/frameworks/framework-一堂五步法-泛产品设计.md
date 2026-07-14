@@ -29,29 +29,40 @@ source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 source_person: 一堂 / 兰毅
 related:
-  - '[[framework-candy-transcript-workflow]]'
-  - '[[framework-一堂五步法-增长周期]]'
-  - framework-lean-abcd-model
-  - tool-ai-deliverable-polish-loop
-  - framework-ai-accelerated-strategy-cycle
-  - framework-pan-product-organization
-  - yt-model-pan-product-three-virtues
-  - case-live81-ai-trademark-design
-  - yt-composite-pan-product-methodology
-  - framework-yitang-five-step-to-time-management
-  - tool-scene-design-language-translation
-  - framework-yitang-scientific-sales-five-step
-  - tool-yitang-customer-segmentation-4step
-  - tool-yitang-value-proposition-4step
-  - tool-yitang-sales-process-decomposition
-  - case-yitang-sales-transformation-jubensha-saas
-  - case-yitang-sales-transformation-meirongyuan
-  - case-yitang-sales-transformation-tuliaogongsi
-  - yt-decision-y-model
-  - tool-yitang-Y-model-application
-  - case-yitang-Y-model-advertising-turnaround
-  - framework-yitang-y-model-cross-domain-fusion
-  - agent-spec-yitang-Y-model-cross-domain-coach
+- '[[framework-candy-transcript-workflow]]'
+- '[[framework-一堂五步法-增长周期]]'
+- agent-spec-yitang-Y-model-cross-domain-coach
+- case-live81-ai-trademark-design
+- case-yitang-Y-model-advertising-turnaround
+- case-yitang-sales-transformation-jubensha-saas
+- case-yitang-sales-transformation-meirongyuan
+- case-yitang-sales-transformation-tuliaogongsi
+- framework-ai-accelerated-strategy-cycle
+- framework-lean-abcd-model
+- framework-pan-product-organization
+- framework-yitang-five-step-to-time-management
+- framework-yitang-scientific-sales-five-step
+- framework-yitang-y-model-cross-domain-fusion
+- tool-agent-spec-yitang-aesthetic-radar-modeling
+- tool-agent-spec-yitang-beautiful-work-imagination
+- tool-agent-spec-yitang-kernel-add-subtract-diagnosis
+- tool-agent-spec-yitang-kernel-canvas-autofill
+- tool-agent-spec-yitang-kernel-case-matching
+- tool-agent-spec-yitang-kernel-failure-mode-diagnosis
+- tool-agent-spec-yitang-kernel-iteration-direction
+- tool-agent-spec-yitang-kernel-three-questions
+- tool-agent-spec-yitang-kernel-verification-ladder
+- tool-agent-spec-yitang-scenario-walkthrough
+- tool-agent-spec-yitang-user-perspective-training
+- tool-ai-deliverable-polish-loop
+- tool-scene-design-language-translation
+- tool-yitang-Y-model-application
+- tool-yitang-customer-segmentation-4step
+- tool-yitang-sales-process-decomposition
+- tool-yitang-value-proposition-4step
+- yt-composite-pan-product-methodology
+- yt-decision-y-model
+- yt-model-pan-product-three-virtues
 ---
 
 # 一堂五步法在泛产品设计中的应用

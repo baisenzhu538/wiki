@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-07-13T12:56:15+00:00_
+_Last updated: 2026-07-15T03:21:09+00:00_
 
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[_archive/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -2645,3 +2645,23 @@ _Last updated: 2026-07-13T12:56:15+00:00_
 - [[methods/method-一堂-教练对话引擎协议|教练对话引擎协议：共享件×三控制机制×TCPR身份轴]] — source 70_product/tasks/task-177-coach-dialogue-engine-protocol.md
 - [[cases/case-yitang-yai-scientific-decision-life-direction|YAI实录：关键决策agent——50岁创业者的留vs走与赛道选择]] — source C:/Users/Administrator/Desktop/YAI/
 - [[cases/case-yitang-yai-conversion-rate-visit-rate|YAI实录：转化率agent——智慧药柜电话到访率五阻力拆解]] — source C:/Users/Administrator/Desktop/YAI/
+- [[tools/tool-agent-spec-yitang-three-second-opening-scripts|前三秒话术优化 Agent Spec]] — personal-os, sales, ai-collaboration, yitang
+- [[tools/tool-agent-spec-yitang-payment-collection-risk|回款 / 履约风险预警 Agent Spec]] — personal-os, sales, ai-collaboration, yitang
+- [[tools/tool-agent-spec-yitang-daily-weekly-meeting-host|日会 / 周会智能主持 Agent Spec]] — personal-os, sales, ai-collaboration, yitang
+- [[tools/tool-agent-spec-yitang-sales-toolkit-gap|销售工具箱缺口盘点 Agent Spec]] — personal-os, sales, ai-collaboration, yitang
+- [[tools/tool-agent-spec-yitang-incentive-design|销售激励方案设计辅助 Agent Spec]] — personal-os, sales, ai-collaboration, yitang
+- [[tools/tool-agent-spec-yitang-lead-funnel-health|线索漏斗健康度诊断 Agent Spec]] — personal-os, sales, ai-collaboration, yitang
+- [[tools/tool-agent-spec-yitang-kernel-add-subtract-diagnosis|产品内核加减法诊断 Agent Spec]] — yitang, product-kernel, agent
+- [[tools/tool-agent-spec-yitang-kernel-canvas-autofill|产品内核 5 格画布自动填充 Agent Spec]] — yitang, product-kernel, agent
+- [[tools/tool-agent-spec-yitang-kernel-case-matching|产品内核案例匹配 Agent Spec]] — yitang, product-kernel, agent
+- [[tools/tool-agent-spec-yitang-kernel-failure-mode-diagnosis|产品内核失败模式诊断 Agent Spec]] — yitang, product-kernel, agent
+- [[tools/tool-agent-spec-yitang-kernel-iteration-direction|产品内核迭代方向诊断 Agent Spec]] — yitang, product-kernel, agent
+- [[tools/tool-agent-spec-yitang-kernel-three-questions|产品内核三问诊断 Agent Spec]] — yitang, product-kernel, agent
+- [[tools/tool-agent-spec-yitang-kernel-verification-ladder|产品内核验证阶梯 Agent Spec]] — yitang, product-kernel, agent
+- [[tools/tool-agent-spec-yitang-ability-migration-diagnosis|能力迁移诊断 Agent Spec]] — personal-os, team, ai-collaboration, yitang
+- [[tools/tool-agent-spec-yitang-aesthetic-radar-modeling|审美雷达建模 Agent Spec]] — personal-os, product, design, yitang
+- [[tools/tool-agent-spec-yitang-beautiful-work-imagination|漂亮工作想象 Agent Spec]] — personal-os, product, design, yitang
+- [[tools/tool-agent-spec-yitang-card-dealing-guide|出牌指南 Agent Spec]] — personal-os, product, marketing, yitang
+- [[tools/tool-agent-spec-yitang-project-background-analysis|项目背景分析 Agent Spec]] — personal-os, project, ai-collaboration, yitang
+- [[tools/tool-agent-spec-yitang-scenario-walkthrough|场景走查 Agent Spec]] — personal-os, product, ai-collaboration, yitang
+- [[tools/tool-agent-spec-yitang-user-perspective-training|用户视角训练 Agent Spec]] — personal-os, product, ai-collaboration, yitang
