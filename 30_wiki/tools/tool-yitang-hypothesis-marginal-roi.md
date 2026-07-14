@@ -22,6 +22,7 @@ related:
 - '[[yt-tool-business-formula-parameter-arsenal]]'
 - '[[dk-yitang-business-formula-pseudo-causality-two-masks]]'
 - '[[business-formula-domain-digest]]'
+- '[[dk-yitang-hypothesis-five-alternatives]]'
 quality_labels:
 - actionable
 - framework

@@ -41,6 +41,8 @@ related:
   - "[[business-formula-domain-digest]]"
   - "[[tool-一堂-业务公式-L1L6参数分层自检]]"
   - "[[dk-yitang-business-formula-pseudo-causality-two-masks]]"
+  - "[[case-yitang-burger-franchise-key-path]]"
+  - "[[case-yitang-tob-devboard-price-coupling]]"
 tags: []
 author: 欧阳锋
 confidence: 0.85

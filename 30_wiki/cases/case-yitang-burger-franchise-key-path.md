@@ -29,6 +29,7 @@ related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[business-formula-domain-digest]]'
 - '[[dk-yitang-business-formula-plus-times-trap]]'
+- '[[case-yitang-meituan-red-dot]]'
 ---
 
 # 汉堡店加盟三渠道关键路径：同样的30%提升，为什么优先做邀约成功率？

@@ -50,6 +50,7 @@ related:
 - '[[framework-科学决策三角形]]'
 - '[[framework-business-formula-y-model-bridge]]'
 - '[[tool-动力阻力分析]]'
+- '[[case-yitang-subtraction-decisions-three]]'
 ---
 # 一堂马拉松十期：双目标+10维切片+攻坚会，用假设驱动把年度续费大课做成一条稳定向上的曲线
 

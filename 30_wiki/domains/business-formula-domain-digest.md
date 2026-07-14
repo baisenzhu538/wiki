@@ -163,14 +163,16 @@ related:
 ## P1 工具族导航（#156 已交付，20 卡）
 
 - **工作流与角色（frameworks 2）**：`[[yt-business-formula-three-stage-workflow]]`（A 梳理→B 建立→C 深入三阶段）、`[[yt-business-formula-peahd-roles]]`（PEAHD 五角色）
-- **工具（tools 8）**：`[[yt-tool-business-formula-format-spec]]`（格式规范 L1-L3）、`[[yt-tool-business-formula-18-moves]]`（降龙十八掌全清单）、`[[yt-tool-business-formula-quant-space-3d]]`（定量空间三维评估）、`[[yt-tool-business-formula-causality-toolkit]]`（因果三件套）、`[[yt-tool-business-formula-hypothesis-pool]]`（关键假设池）、`[[yt-tool-business-formula-gongjianhui]]`（攻坚会）、`[[yt-tool-business-formula-expert-interview-10]]`（专家访谈黄金 10 步法=第 13 招）、`[[yt-tool-business-formula-inspiration-5]]`（灵感闪现五字诀）
+- **工具（tools 9）**：`[[yt-tool-business-formula-format-spec]]`（格式规范 L1-L3）、`[[yt-tool-business-formula-18-moves]]`（降龙十八掌全清单）、`[[yt-tool-business-formula-quant-space-3d]]`（定量空间三维评估）、`[[yt-tool-business-formula-causality-toolkit]]`（因果三件套）、`[[yt-tool-business-formula-hypothesis-pool]]`（关键假设池）、`[[yt-tool-business-formula-gongjianhui]]`（攻坚会）、`[[yt-tool-business-formula-expert-interview-10]]`（专家访谈黄金 10 步法=第 13 招）、`[[yt-tool-business-formula-inspiration-5]]`（灵感闪现五字诀）、`[[tool-yitang-hypothesis-marginal-roi]]`（测试三难题+边际 ROI 框架）
 - **概念（concepts 10）**：`[[concept-一堂-双目标法]]`、`[[concept-一堂-三类目标策略]]`、`[[concept-一堂-关键路径与乘法杠杆]]`、`[[concept-一堂-相关不等于因果]]`、`[[concept-一堂-参数耦合与动态公式]]`、`[[concept-一堂-魔法数字]]`、`[[concept-一堂-脱离成本]]`、`[[concept-一堂-参数即假设与递归嵌套]]`、`[[concept-一堂-黑盒到白盒]]`、`[[concept-一堂-假设飞轮]]`
+- **暗知识（dk 4）**：`[[dk-yitang-business-formula-recursive-levels]]`（分型递归纪律）、`[[dk-yitang-business-formula-skip-level-entry]]`（跳级起手纪律）、`[[dk-yitang-hypothesis-five-alternatives]]`（五条替代路径）、`[[dk-yitang-formula-unmeasurable-metrics]]`（不可统计指标也要写）
 
 ## P2 案例族导航（#157 已交付，19 卡）
 
 - **旗舰 8（cases 8）**：`[[case-yitang-fupanying-five-years-1000-hypotheses]]`（复盘营五年：8→200+ 参数、1000+ 假设）、`[[case-yitang-woqingke-referral-15-to-40]]`（我请客推荐率 3%→15%→40% 攻坚）、`[[case-yitang-marathon-ten-seasons]]`（马拉松十期）、`[[case-yitang-laowenqi-huixiao-10x]]`（劳文启线下会销十倍）、`[[case-yitang-zhanglei-comic-booth]]`（张磊漫展展位）、`[[case-yitang-zhanglei-gacha-points]]`（张磊点位扭蛋机 L1→L6 推演）、`[[case-yitang-homework-six-owners]]`（作业数六负责人推演）、`[[case-yitang-shipinhao-ads-l1-l6]]`（视频号投放 L1→L6 全案）
 - **学员 7（cases 7）**：`[[case-yitang-xingangwan-chess-room]]`（鑫港湾棋牌室）、`[[case-yitang-wenxiaozhang-driving-school]]`（温校长驾校）、`[[case-yitang-vicky-short-video]]`（Vicky 短视频）、`[[case-yitang-wang-mcn-funnel]]`（王同学 MCN）、`[[case-yitang-panhonghai-entertainment]]`（潘鸿海娱乐店）、`[[case-yitang-shao-kaoyan-gmv]]`（邵同学考研）、`[[case-yitang-du-kids-education-sabc]]`（杜同学儿童教育）
 - **合集 4（cases 4）**：`[[case-yitang-false-causality-collection]]`（伪因果十题+聪明下属反噬）、`[[case-yitang-magic-number-collection]]`（魔法数字集）、`[[case-yitang-innovative-metrics-collection]]`（创新参数集）、`[[case-yitang-three-industry-formula-demos]]`（三行业公式拆解）
+- **#176 新增独立案例 8（cases 8）**：`[[case-yitang-burger-franchise-key-path]]`（汉堡店三渠道关键路径）、`[[case-yitang-meituan-red-dot]]`（美团小红点）、`[[case-yitang-tob-devboard-price-coupling]]`（ToB 芯片开发板定价回摆）、`[[case-yitang-subtraction-decisions-three]]`（减法决策三例）、`[[case-yitang-wechat-monthly-price-value]]`（公众号单月价格×单月价值）、`[[case-yitang-farm-machinery-matching]]`（农机撮合 5 次撮合率）、`[[case-toc-online-education-trust-metrics]]`（在线教育信任度指标）、`[[case-yitang-womenswear-formula-three-versions]]`（女装店公式三版本）
 - **已存在案例卡**：`[[case-yitang-yewenbin-archery-business-formula]]`（射箭馆：业务公式×动力阻力落地样板）、`[[case-yitang-xiezefeng-clothing-innovation-param]]`（谢泽锋服装：L5 创新参数）
 
 ## agent-spec 导航

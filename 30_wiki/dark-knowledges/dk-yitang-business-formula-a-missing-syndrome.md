@@ -22,6 +22,7 @@ related:
 - '[[dk-yitang-business-formula-l1-site-blindness]]'
 - '[[dk-yitang-business-formula-cd-loop-undo-key]]'
 - '[[business-formula-domain-digest]]'
+- '[[case-yitang-womenswear-formula-three-versions]]'
 quality_labels:
 - principle
 - validated

@@ -32,6 +32,7 @@ related:
 - "[[yt-entrepreneur-unit-model]]"
 - "[[yt-business-formula-qualitative-metrics-library]]"
 - "[[case-hr-saas-feature-usage-trap]]"
+- "[[case-yitang-farm-machinery-matching]]"
 ---
 
 # ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户“用起来"
