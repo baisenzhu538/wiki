@@ -1,8 +1,8 @@
 ---
 id: task_20260713_wangyuyan-c-domain-evidence-recheck
 assignee: kimi
-status: queued
-updated_at: '2026-07-13T10:11:14+00:00'
+status: in_progress
+updated_at: '2026-07-14T14:04:44.869748+00:00'
 ---
 
 # #183 C 域证据复核收尾（#175 拆出项）
