@@ -5,22 +5,40 @@ type: agent-spec
 status: pending_review
 author: 老顽童
 reviewed_by: pending
-confidence: 0.8
+confidence: 0.85
 trust_level: medium
 language: zh-CN
-created_at: '2026-07-08'
-updated_at: '2026-07-14'
 domain:
+- personal-os
+- sales
+- ai-collaboration
 - yitang
-- product-kernel
-- agent
+source_person: 李蕊
+source_context: 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
 source_refs:
+- 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L800-L814
+- 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L720,L2276-L2282
+- 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
+- 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
+- 30_wiki/tools/tool-yitang-three-second-opening-scripts.md
 - .agent/prompts/tool-agent-spec-yitang-three-second-opening-scripts.md
 related:
+- dk-yitang-sales-common-pitfalls
+- framework-yitang-scientific-sales-five-step
 - framework-一堂-十指模型
 - framework-一堂-触点本质论
----
-
+- opc-ai-sales-agent-architecture
+- tool-opc-sales-dialogue-assistant
+- tool-yitang-sales-process-decomposition
+- tool-yitang-sales-toolkit-radar
+- tool-yitang-three-second-opening-scripts
+created_at: 2026-07-08
+updated_at: '2026-07-14'
+tcp_role: P
+tcp_default_mode: 实践共创（Practice）：基于通话数据和当前话术稿，生成 3–5 版可测试的前三秒开场白，并给出风险标签与 A/B 测试建议
+tcp_switch_trigger: 用户要求解释方法论 → 切换为 T；用户只给模糊需求 → 切换为 C，先诊断挂断原因；用户要求复盘多轮测试数据 → 切换为
+  R
+tcp_session_opening: 我本次以 **P（Practice/实践）** 身份与你协作：基于你的通话数据，生成可 A/B 测试的前三秒开场白草稿。请先提供当前话术稿、渠道类型和挂断率数据。
 ---
 
 # 前三秒话术优化 Agent Spec

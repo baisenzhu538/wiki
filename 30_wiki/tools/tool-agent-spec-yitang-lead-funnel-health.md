@@ -5,22 +5,41 @@ type: agent-spec
 status: pending_review
 author: 老顽童
 reviewed_by: pending
-confidence: 0.8
+confidence: 0.82
 trust_level: medium
 language: zh-CN
-created_at: '2026-07-08'
-updated_at: '2026-07-14'
 domain:
+- personal-os
+- sales
+- ai-collaboration
 - yitang
-- product-kernel
-- agent
+source_person: 李蕊 / Truman
+source_context: 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
 source_refs:
+- 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt L432-L440
+- 00_inbox/销售专题/_processed/销售体系之一-益涂工业化筛选线索模型_vlm.md L8-L12
+- 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt §650-698
+- 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
+- 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
+- 30_wiki/cases/case-yitang-yitu-lead-industrialization.md
 - .agent/prompts/tool-agent-spec-yitang-lead-funnel-health.md
 related:
+- case-yitang-yitu-lead-industrialization
+- framework-yitang-channel-industrialization
+- framework-yitang-scientific-sales-five-step
 - framework-一堂-12种阻力总表
 - framework-一堂-转化率提升六步法
----
-
+- opc-ai-sales-agent-architecture
+- tool-yitang-customer-segmentation-4step
+- tool-yitang-sales-performance-management
+- tool-yitang-sales-process-decomposition
+created_at: 2026-07-08
+updated_at: '2026-07-14'
+tcp_role: R
+tcp_default_mode: 研究复盘（Research）：基于漏斗数据和历史同期对比，定位瓶颈级、建议责任归属并反向推算下一周期需补充的线索量
+tcp_switch_trigger: 用户要求直接输出改进动作/跟进计划 → 切换为 P；用户要求解释漏斗模型逻辑 → 切换为 T；用户只给模糊数据 → 切换为
+  C，先诊断数据充足度
+tcp_session_opening: 我本次以 **R（Research/研究）** 身份与你协作：基于你的线索漏斗数据，诊断哪一级转化率偏离红线、责任归属是谁，并反向推算下一周期需补充的线索量。请先提供各级线索数量、转化率和责任人。
 ---
 
 # 线索漏斗健康度诊断 Agent Spec

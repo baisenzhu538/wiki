@@ -5,23 +5,41 @@ type: agent-spec
 status: pending_review
 author: 老顽童
 reviewed_by: pending
-confidence: 0.8
+confidence: 0.85
 trust_level: medium
 language: zh-CN
-created_at: '2026-07-08'
-updated_at: '2026-07-14'
 domain:
+- personal-os
+- sales
+- ai-collaboration
 - yitang
-- product-kernel
-- agent
+source_person: 李蕊
+source_context: 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
 source_refs:
+- 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt L320-L354,L420-L458,L560-L588,L824-L832,L1386-L1394,L1466
+- 00_inbox/销售专题/_processed/销售工具武器库_vlm.md L48-L51
+- 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
+- 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
+- 30_wiki/tools/tool-yitang-payment-collection-playbook.md
 - .agent/prompts/tool-agent-spec-yitang-payment-collection-risk.md
 related:
+- dk-yitang-sales-common-pitfalls
+- framework-yitang-scientific-sales-five-step
 - framework-一堂-12种阻力总表
 - framework-一堂-阻力方法论骨架
+- opc-ai-sales-agent-architecture
+- tool-opc-sales-dialogue-assistant
+- tool-yitang-payment-collection-playbook
+- tool-yitang-sales-performance-management
+- tool-yitang-sales-process-decomposition
 - tool-一堂-阻力消除12策小抄
----
-
+created_at: 2026-07-08
+updated_at: '2026-07-14'
+tcp_role: C
+tcp_default_mode: 咨询诊断（Consult）：基于合同阶段、付款节点和沟通记录，评估回款/履约风险并给出下一步动作建议
+tcp_switch_trigger: 用户要求直接生成催款话术/跟进计划 → 切换为 P；用户要求解释四类决策逻辑 → 切换为 T；用户要求跨案例对比风险规律 →
+  切换为 R
+tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你诊断当前合同/项目的回款与履约风险，并给出下一步动作建议。涉及合同、付款、收入确认的判断需财务/法务复核。
 ---
 
 # 回款 / 履约风险预警 Agent Spec

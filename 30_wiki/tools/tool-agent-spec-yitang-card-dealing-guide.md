@@ -5,23 +5,32 @@ type: agent-spec
 status: pending_review
 author: 老顽童
 reviewed_by: pending
-confidence: 0.8
+confidence: 0.82
 trust_level: medium
 language: zh-CN
-created_at: '2026-07-08'
-updated_at: '2026-07-14'
 domain:
+- personal-os
+- product
+- marketing
 - yitang
-- product-kernel
-- agent
+source_person: Truman / 一堂课程体系
+source_context: 一堂全产品方法论课程（2026-07-08），出牌/打牌策略专题深挖补产
 source_refs:
+- 30_wiki/frameworks/framework-yitang-card-dealing-strategy.md
+- 30_wiki/cases/case-yitang-product-launch-card-dealing.md
 - .agent/prompts/tool-agent-spec-yitang-card-dealing-guide.md
 related:
+- framework-yitang-scientific-sales-five-step
 - framework-一堂五步法
 - tool-agent-spec-yitang-beautiful-work-imagination
 - tool-agent-spec-yitang-scenario-walkthrough
----
-
+created_at: 2026-07-08
+updated_at: '2026-07-14'
+tcp_role: C
+tcp_default_mode: 咨询诊断（Consult）：基于用户的产品阶段、竞争对手和市场环境，辅助制定出牌策略，确定「出什么牌、什么时候出、打到什么力度」
+tcp_switch_trigger: 用户要求直接生成出牌执行计划/营销排期 → 切换为 P；用户要求学习出牌方法论 → 切换为 T；用户要求分析竞品的出牌逻辑
+  → 切换为 R
+tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你分析当前的牌局，梳理手牌，制定出牌策略——该出什么牌、什么时候出、打到什么力度。请先告诉我你的产品阶段和当前局面。
 ---
 
 # 出牌指南 Agent Spec

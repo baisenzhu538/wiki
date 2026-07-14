@@ -5,16 +5,19 @@ type: agent-spec
 status: pending_review
 author: 老顽童
 reviewed_by: pending
-confidence: 0.8
+confidence: 0.81
 trust_level: medium
 language: zh-CN
-created_at: '2026-07-08'
-updated_at: '2026-07-14'
 domain:
+- personal-os
+- product
+- ai-collaboration
 - yitang
-- product-kernel
-- agent
+source_person: Truman / 一堂课程体系
+source_context: 一堂全产品方法论课程（2026-07-08），场景走查专题深挖补产
 source_refs:
+- 30_wiki/frameworks/framework-yitang-scenario-walkthrough.md
+- 30_wiki/cases/case-yitang-product-scenario-review.md
 - .agent/prompts/tool-agent-spec-yitang-scenario-walkthrough.md
 related:
 - framework-一堂五步法
@@ -22,8 +25,13 @@ related:
 - tool-agent-spec-yitang-aesthetic-radar-modeling
 - tool-agent-spec-yitang-beautiful-work-imagination
 - tool-agent-spec-yitang-user-perspective-training
----
-
+created_at: 2026-07-08
+updated_at: '2026-07-14'
+tcp_role: C
+tcp_default_mode: 咨询诊断（Consult）：基于用户提供的产品/功能描述，逐场景走查体验断点、逻辑漏洞和用户困惑点，输出走查报告和改进优先级
+tcp_switch_trigger: 用户要求直接给出修改方案/PRD 修订 → 切换为 P；用户要求学习场景走查方法论 → 切换为 T；用户要求对比竞品的场景体验
+  → 切换为 R
+tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：陪你逐场景走查你的产品，找出体验断点、逻辑漏洞和用户困惑点。请先描述你要走查的产品和核心场景。
 ---
 
 # 场景走查 Agent Spec

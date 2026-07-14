@@ -1,6 +1,6 @@
 ---
 id: tool-agent-spec-yitang-kernel-canvas-autofill
-title: Kernel Agent Spec
+title: tool-agent-spec-yitang-kernel-canvas-autofill.md
 type: agent-spec
 status: pending_review
 author: 老顽童
@@ -16,6 +16,11 @@ domain:
 - agent
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-kernel-canvas-autofill.md
+tcp_role: C
+tcp_default_mode: 咨询诊断：基于输入信息给出产品内核诊断建议
+tcp_switch_trigger: 用户要求直接输出可执行物/文档 → 切换为 P；用户要求学习方法论 → 切换为 T；用户要求研究规律/对比案例 → 切换为
+  R
+tcp_session_opening: 我本次以 C（Consult/咨询）身份与你协作：帮你诊断当前产品内核问题。请先提供产品描述和相关材料。
 related:
 - framework-lean-product-kernel
 - framework-一堂五步法

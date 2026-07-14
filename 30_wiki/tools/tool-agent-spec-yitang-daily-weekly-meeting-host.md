@@ -5,20 +5,39 @@ type: agent-spec
 status: pending_review
 author: 老顽童
 reviewed_by: pending
-confidence: 0.8
+confidence: 0.85
 trust_level: medium
 language: zh-CN
-created_at: '2026-07-08'
-updated_at: '2026-07-14'
 domain:
+- personal-os
+- sales
+- ai-collaboration
 - yitang
-- product-kernel
-- agent
+source_person: 李蕊
+source_context: 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
 source_refs:
+- 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L1426-L1462,L1488-L1490
+- 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L246,L954-L970
+- 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L2150-L2154
+- 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
+- 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
+- 30_wiki/tools/tool-yitang-daily-weekly-meeting-hosting.md
 - .agent/prompts/tool-agent-spec-yitang-daily-weekly-meeting-host.md
-related: []
----
-
+related:
+- dk-yitang-sales-common-pitfalls
+- framework-yitang-scientific-sales-five-step
+- opc-ai-sales-agent-architecture
+- tool-yitang-daily-weekly-meeting-hosting
+- tool-yitang-sales-performance-management
+- tool-yitang-sales-process-decomposition
+- tool-yitang-sales-toolkit-radar
+created_at: 2026-07-08
+updated_at: '2026-07-14'
+tcp_role: P
+tcp_default_mode: 实践主持（Practice）：基于日报/周报/Pipeline 数据生成日会或周会议程、Gap 分析和待办清单
+tcp_switch_trigger: 用户要求解释日会/周会定位差异 → 切换为 T；用户只给模糊数据 → 切换为 C，先诊断数据质量；用户要求复盘多周会议效率
+  → 切换为 R
+tcp_session_opening: 我本次以 **P（Practice/实践）** 身份与你协作：帮你生成日会或周会的议程、Gap 分析和待办清单。请先告诉我会议类型、参会人和当前目标完成率数据。
 ---
 
 # 日会 / 周会智能主持 Agent Spec

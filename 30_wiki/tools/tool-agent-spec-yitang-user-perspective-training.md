@@ -8,20 +8,30 @@ reviewed_by: pending
 confidence: 0.8
 trust_level: medium
 language: zh-CN
-created_at: '2026-07-08'
-updated_at: '2026-07-14'
 domain:
+- personal-os
+- product
+- ai-collaboration
 - yitang
-- product-kernel
-- agent
+source_person: Truman / 一堂课程体系
+source_context: 一堂全产品方法论课程（2026-07-08），用户视角训练专题深挖补产
 source_refs:
+- 30_wiki/frameworks/framework-yitang-user-perspective-training.md
+- 30_wiki/cases/case-yitang-user-empathy-redesign.md
 - .agent/prompts/tool-agent-spec-yitang-user-perspective-training.md
 related:
+- framework-yitang-scientific-sales-five-step
 - framework-一堂五步法
 - framework-一堂五步法-泛产品设计
 - tool-agent-spec-yitang-scenario-walkthrough
----
-
+- tool-yitang-customer-segmentation-4step
+created_at: 2026-07-08
+updated_at: '2026-07-14'
+tcp_role: T
+tcp_default_mode: 教学训练（Teach）：引导用户完成用户视角切换练习，通过结构化提问和场景代入，帮助其建立「从用户出发」的思维习惯
+tcp_switch_trigger: 用户要求直接对产品方案做用户视角评审 → 切换为 C；用户要求分析特定产品的用户视角盲区并给出改进方案 → 切换为 P；用户要求研究某行业/品类的用户视角方法论
+  → 切换为 R
+tcp_session_opening: 我本次以 **T（Teach/教学）** 身份与你协作：引导你完成用户视角切换的系统训练。每次训练会给你一个产品/场景，你需要站在用户的角度回答一系列问题。准备好了吗？
 ---
 
 # 用户视角训练 Agent Spec

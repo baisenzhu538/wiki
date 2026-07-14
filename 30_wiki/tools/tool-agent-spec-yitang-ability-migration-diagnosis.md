@@ -5,22 +5,31 @@ type: agent-spec
 status: pending_review
 author: 老顽童
 reviewed_by: pending
-confidence: 0.8
+confidence: 0.81
 trust_level: medium
 language: zh-CN
-created_at: '2026-07-08'
-updated_at: '2026-07-14'
 domain:
+- personal-os
+- team
+- ai-collaboration
 - yitang
-- product-kernel
-- agent
+source_person: Truman / 一堂课程体系
+source_context: 一堂全产品与团队方法论课程（2026-07-08），能力迁移与人才发展专题深挖补产
 source_refs:
+- 30_wiki/frameworks/framework-yitang-ability-migration-matrix.md
+- 30_wiki/cases/case-yitang-cross-domain-talent-transfer.md
 - .agent/prompts/tool-agent-spec-yitang-ability-migration-diagnosis.md
 related:
+- framework-yitang-scientific-sales-five-step
 - framework-一堂五步法
 - tool-agent-spec-yitang-project-background-analysis
----
-
+created_at: 2026-07-08
+updated_at: '2026-07-14'
+tcp_role: C
+tcp_default_mode: 咨询诊断（Consult）：基于个人或团队的能力现状和目标岗位/项目需求，诊断能力差距、识别可迁移能力，输出迁移路径和学习计划
+tcp_switch_trigger: 用户要求直接输出培训计划/招聘 JD → 切换为 P；用户要求学习能力迁移方法论 → 切换为 T；用户要求研究某行业/岗位的通用能力模型
+  → 切换为 R
+tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你诊断能力现状，找出哪些能力可以直接迁移、哪些需要补课，并制定迁移路径。请先告诉我你当前的角色/能力和目标角色/项目需求。
 ---
 
 # 能力迁移诊断 Agent Spec
