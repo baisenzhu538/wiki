@@ -92,6 +92,9 @@ related:
 - "[[case-yitang-tob-devboard-price-coupling]]"
 - "[[case-yitang-wechat-monthly-price-value]]"
 - "[[case-yitang-womenswear-formula-three-versions]]"
+- "[[dk-yitang-business-formula-recursive-levels]]"
+- "[[dk-yitang-business-formula-skip-level-entry]]"
+- "[[dk-yitang-formula-unmeasurable-metrics]]"
 ---
 
 # 业务公式参数冰山（L1-L6）

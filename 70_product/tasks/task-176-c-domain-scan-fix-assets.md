@@ -1,8 +1,8 @@
 ---
 id: task_20260712_wangyuyan-c-domain-scan-fix-assets
 assignee: kimi
-status: queued
-updated_at: '2026-07-14T16:22:23.072691+00:00'
+status: pending_review
+updated_at: '2026-07-14T16:24:47.705285+00:00'
 ---
 # Task #176 · C 域查漏修复第二批（资产层：遗漏案例+知识点补卡）
 
@@ -82,3 +82,28 @@ updated_at: '2026-07-14T16:22:23.072691+00:00'
 
 ### 下一步
 - 执行 `queue_transition.py complete task_20260712_wangyuyan-c-domain-scan-fix-assets` 提审
+
+## 二次返工报告（2026-07-14）
+
+### 终审问题
+- 4 张新 dk 卡（`recursive-levels`、`skip-level-entry`、`hypothesis-five-alternatives`、`formula-unmeasurable-metrics`）被 7 张核心卡引用，但核心卡未回链。
+
+### 已补回链
+- `framework-一堂-业务公式拆解-总纲` → 4 张新 dk 卡
+- `yt-business-formula-parameter-iceberg` → recursive-levels、skip-level-entry、formula-unmeasurable-metrics
+- `yt-business-formula-six-level-logic` → recursive-levels、skip-level-entry
+- `yt-business-formula-abc-model` → recursive-levels、hypothesis-five-alternatives、formula-unmeasurable-metrics
+- `framework-一堂-关键假设` → hypothesis-five-alternatives
+- `yt-tool-business-formula-parameter-arsenal` → formula-unmeasurable-metrics
+- `tool-一堂-业务公式-L1L6参数分层自检` → recursive-levels、skip-level-entry、formula-unmeasurable-metrics
+
+### 自查
+- grep 确认 4 个 dk id 在指定核心卡中均命中 1 次 ✅
+
+### 门禁结果（二次）
+- `pre_submit.py --manifest 176_changed_files.txt` → 27/27 GATE PASSED ✅
+- `kdo_lint.py 30_wiki --incremental` → 0 new error ✅
+- 变更清单扩至 27 文件（追加 `tool-一堂-业务公式-L1L6参数分层自检.md`）
+
+### 下一步
+- 重提 pending_review

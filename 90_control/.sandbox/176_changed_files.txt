@@ -24,3 +24,4 @@
 30_wiki/frameworks/framework-一堂-关键假设.md
 30_wiki/tools/yt-tool-business-formula-parameter-arsenal.md
 30_wiki/dark-knowledges/dk-yitang-business-formula-pseudo-causality-two-masks.md
+30_wiki/tools/tool-一堂-业务公式-L1L6参数分层自检.md

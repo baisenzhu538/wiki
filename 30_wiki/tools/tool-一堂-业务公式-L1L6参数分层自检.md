@@ -30,6 +30,9 @@ related:
 - '[[business-formula-domain-digest]]'
 - '[[yt-tool-business-formula-parameter-arsenal]]'
 - '[[tool-yitang-business-formula-l5-mining-and-verification]]'
+- '[[dk-yitang-business-formula-recursive-levels]]'
+- '[[dk-yitang-business-formula-skip-level-entry]]'
+- '[[dk-yitang-formula-unmeasurable-metrics]]'
 quality_labels:
 - actionable
 - framework

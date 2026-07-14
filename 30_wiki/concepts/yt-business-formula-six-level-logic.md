@@ -101,6 +101,8 @@ related:
 - '[[case-yitang-tob-devboard-price-coupling]]'
 - '[[case-yitang-wechat-monthly-price-value]]'
 - '[[case-yitang-womenswear-formula-three-versions]]'
+- '[[dk-yitang-business-formula-recursive-levels]]'
+- '[[dk-yitang-business-formula-skip-level-entry]]'
 ---
 # 业务公式六层逻辑关系冰山（L1 模糊理解 → L6 动态建模）
 

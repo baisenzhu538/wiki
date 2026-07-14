@@ -80,6 +80,9 @@ related:
 - "[[case-yitang-tob-devboard-price-coupling]]"
 - "[[case-yitang-wechat-monthly-price-value]]"
 - "[[case-yitang-womenswear-formula-three-versions]]"
+- "[[dk-yitang-business-formula-recursive-levels]]"
+- "[[dk-yitang-hypothesis-five-alternatives]]"
+- "[[dk-yitang-formula-unmeasurable-metrics]]"
 
 ---
 
