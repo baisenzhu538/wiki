@@ -1,8 +1,11 @@
 ---
 id: task_20260713_wangyuyan-five-step-coach-agent
 assignee: kimi
-status: pending_review
-updated_at: '2026-07-14T17:34:16.340151+00:00'
+status: reviewed
+updated_at: '2026-07-14T17:58:36.882838+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-14'
+grade: A
 ---
 # Task #180 · A 域五步法教练 agent-spec 新建
 
