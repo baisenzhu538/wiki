@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-07-14 18:08 UTC
+# Concept Card Index — 2026-07-15 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -780,12 +780,32 @@
 | tool-agent-research-swarm | Agent 调研 Swarm 模式工具 | tool | AI, research, agent |
 | tool-agent-spec-business-formula-parameter-miner | 业务公式参数挖掘 Agent Spec | tool-agent-spec | yitang, methodology, ai-collaboration |
 | tool-agent-spec-yitang-Y-model-coach | Y模型 Coach 模式 Agent Spec | tool-agent-spec | epistemic-foundations, decision-science, yitang, ai-collaboration |
+| tool-agent-spec-yitang-ability-migration-diagnosis | 能力迁移诊断 Agent Spec | agent-spec | personal-os, team, ai-collaboration, yitang |
+| tool-agent-spec-yitang-aesthetic-radar-modeling | 审美雷达建模 Agent Spec | agent-spec | personal-os, product, design, yitang |
+| tool-agent-spec-yitang-beautiful-work-imagination | 漂亮工作想象 Agent Spec | agent-spec | personal-os, product, design, yitang |
+| tool-agent-spec-yitang-card-dealing-guide | 出牌指南 Agent Spec | agent-spec | personal-os, product, marketing, yitang |
 | tool-agent-spec-yitang-customer-segmentation | OPC 客户分级智能体 Agent Spec | tool-agent-spec | personal-os, sales, ai-collaboration, yitang |
+| tool-agent-spec-yitang-daily-weekly-meeting-host | 日会 / 周会智能主持 Agent Spec | agent-spec | personal-os, sales, ai-collaboration, yitang |
+| tool-agent-spec-yitang-incentive-design | 销售激励方案设计辅助 Agent Spec | agent-spec | personal-os, sales, ai-collaboration, yitang |
+| tool-agent-spec-yitang-kernel-add-subtract-diagnosis | 产品内核加减法诊断 Agent Spec | agent-spec | yitang, product-kernel, agent |
+| tool-agent-spec-yitang-kernel-canvas-autofill | 产品内核 5 格画布自动填充 Agent Spec | agent-spec | yitang, product-kernel, agent |
+| tool-agent-spec-yitang-kernel-case-matching | 产品内核案例匹配 Agent Spec | agent-spec | yitang, product-kernel, agent |
+| tool-agent-spec-yitang-kernel-failure-mode-diagnosis | 产品内核失败模式诊断 Agent Spec | agent-spec | yitang, product-kernel, agent |
+| tool-agent-spec-yitang-kernel-iteration-direction | 产品内核迭代方向诊断 Agent Spec | agent-spec | yitang, product-kernel, agent |
+| tool-agent-spec-yitang-kernel-three-questions | 产品内核三问诊断 Agent Spec | agent-spec | yitang, product-kernel, agent |
+| tool-agent-spec-yitang-kernel-verification-ladder | 产品内核验证阶梯 Agent Spec | agent-spec | yitang, product-kernel, agent |
+| tool-agent-spec-yitang-lead-funnel-health | 线索漏斗健康度诊断 Agent Spec | agent-spec | personal-os, sales, ai-collaboration, yitang |
 | tool-agent-spec-yitang-objection-handler | OPC 客户异议处理助手 Agent Spec | tool-agent-spec | personal-os, sales, ai-collaboration, yitang |
 | tool-agent-spec-yitang-opening-3min | OPC 开场 3 分钟助手 Agent Spec | tool-agent-spec | personal-os, sales, ai-collaboration, yitang |
+| tool-agent-spec-yitang-payment-collection-risk | 回款 / 履约风险预警 Agent Spec | agent-spec | personal-os, sales, ai-collaboration, yitang |
+| tool-agent-spec-yitang-project-background-analysis | 项目背景分析 Agent Spec | agent-spec | personal-os, project, ai-collaboration, yitang |
 | tool-agent-spec-yitang-sales-performance-monitor | OPC 销售业绩监控助手 Agent Spec | tool-agent-spec | personal-os, sales, ai-collaboration, yitang |
 | tool-agent-spec-yitang-sales-process-tracker | OPC 销售过程追踪助手 Agent Spec | tool-agent-spec | personal-os, sales, ai-collaboration, yitang |
+| tool-agent-spec-yitang-sales-toolkit-gap | 销售工具箱缺口盘点 Agent Spec | agent-spec | personal-os, sales, ai-collaboration, yitang |
+| tool-agent-spec-yitang-scenario-walkthrough | 场景走查 Agent Spec | agent-spec | personal-os, product, ai-collaboration, yitang |
 | tool-agent-spec-yitang-self-motivation | OPC 销售自我驱动助手 Agent Spec | tool-agent-spec | personal-os, sales, ai-collaboration, yitang |
+| tool-agent-spec-yitang-three-second-opening-scripts | 前三秒话术优化 Agent Spec | agent-spec | personal-os, sales, ai-collaboration, yitang |
+| tool-agent-spec-yitang-user-perspective-training | 用户视角训练 Agent Spec | agent-spec | personal-os, product, ai-collaboration, yitang |
 | tool-agent-spec-yitang-value-proposition | OPC 卖点提炼助手 Agent Spec | tool-agent-spec | personal-os, sales, ai-collaboration, yitang |
 | tool-ai-ai-workspace-setup | 技能：结构化AI工作空间搭建 | tool | ai-collaboration, yitang, ai-saas |
 | tool-ai-critical-reading-three-layers | 三层拆书批判法 | tool | ai_collaboration, critical_thinking, reading_methodology |
