@@ -2,33 +2,33 @@
 id: task_20260719_wangyuyan-profit-pricing-domain
 title: 利润为王域卡片化（深挖版）：利润优先经营框架 + 跨域桥接 + 暗知识补齐
 type: task
-status: queued
+status: in_progress
 priority: P0
-assignee: kimi
+assignee: hermes
 reviewer: 欧阳锋
 created_at: 2026-07-19
-updated_at: '2026-07-19T17:00:00+00:00'
+updated_at: '2026-07-19T10:34:42.746192+00:00'
 expected_cards: 14
 source_refs:
-  - 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-nine-layer.md
-  - 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md
-  - 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md
-  - 00_inbox/利润为王/企业利润经营分析_智能优化.txt
-  - 00_inbox/利润为王/笔记1.txt
-  - 00_inbox/利润为王/笔记2.txt
-  - 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt
+- 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-nine-layer.md
+- 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md
+- 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md
+- 00_inbox/利润为王/企业利润经营分析_智能优化.txt
+- 00_inbox/利润为王/笔记1.txt
+- 00_inbox/利润为王/笔记2.txt
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt
 related:
-  - diag_20260719_wangyuyan-profit-pricing-nine-layer
-  - diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement
-  - framework-yitang-unit-model
-  - framework-yitang-demand-iceberg
-  - framework-yitang-nine-layer-deep-dig
-  - framework-yitang-oscar-research
-  - framework-一堂-12触点SABC分级
-  - yt-decision-y-model
-  - framework-yitang-project-abcd-classification
-  - tool-月白-价格带视觉策略匹配
-  - framework-yitang-high-level-execution
+- diag_20260719_wangyuyan-profit-pricing-nine-layer
+- diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement
+- framework-yitang-unit-model
+- framework-yitang-demand-iceberg
+- framework-yitang-nine-layer-deep-dig
+- framework-yitang-oscar-research
+- framework-一堂-12触点SABC分级
+- yt-decision-y-model
+- framework-yitang-project-abcd-classification
+- tool-月白-价格带视觉策略匹配
+- framework-yitang-high-level-execution
 ---
 
 # 利润为王域卡片化（深挖版）：利润优先经营框架 + 跨域桥接 + 暗知识补齐

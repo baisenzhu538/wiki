@@ -452,7 +452,7 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 
 | 182 | `task_20260713_wangyuyan-opc-sales-d-domain-linking` | OPC閿€鍞煙脳D鍩熷洖閾撅紙33鍗¤ˉ鏂规硶璁哄簳搴у紩鐢細寮€鍦虹櫧鈫掑崄鎸囨ā鍨?寮傝鈫掗樆鍔涙柟娉曡/閿€鍐犳浣嶁啋涓夋洸绾垮垎鏁扮嚎锛涙槧灏勮〃鍏堣鐜嬭瀚ｈ繃鐩悗鎵归噺锛?| reviewed | 鑰侀〗绔?| 33鍗″洖閾?lint鏃犳柊澧?| #169-171+#174 reviewed+#177锛堟槧灏勮〃鍙厛鍔級 |
 
-| 189 | `task_20260719_wangyuyan-profit-pricing-domain` | 鍒╂鼎涓虹帇鍩熷崱鐗囧寲锛氬埄娑︿紭鍏堢粡钀ユ鏋朵笌瀹氫环鏂规硶璁?| queued | - | 8寮爓iki鍗?鍙€塧gent-spec | 鏃狅紱鏂板煙寮€鑽掞紝鏉ユ簮璧皵鏇悸疯タ钂欍€婄湡姝ｇ殑鍒╂鼎銆?姘存按鎷嗕功/缁忚惀璇?|
+| 189 | `task_20260719_wangyuyan-profit-pricing-domain` | 鍒╂鼎涓虹帇鍩熷崱鐗囧寲锛氬埄娑︿紭鍏堢粡钀ユ鏋朵笌瀹氫环鏂规硶璁?| claimed-hermes | - | 8寮爓iki鍗?鍙€塧gent-spec | 鏃狅紱鏂板煙寮€鑽掞紝鏉ユ簮璧皵鏇悸疯タ钂欍€婄湡姝ｇ殑鍒╂鼎銆?姘存按鎷嗕功/缁忚惀璇?|
 
 | 190 | `task_20260719_laowantong-zhu-ai-capability-roadmap` | 老朱 AI 能力建设刻意练习路线图（tool + agent-spec） | queued | 老顽童(kimi) | 2 张卡 | 无 | `70_product/tasks/task_20260719_laowantong-zhu-ai-capability-roadmap.md` | 基于 personal-os 已确认的「鑫港湾打工+借假修真+学习AI」策略，输出可执行路线图与个人 AI 教练智能体规格 |
 
