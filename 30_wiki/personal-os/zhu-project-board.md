@@ -4,7 +4,7 @@ title: "老朱项目线看板"
 type: system
 status: active
 created_at: 2026-07-09T22:35:00+00:00
-updated_at: 2026-07-11T17:30:00+00:00
+updated_at: 2026-07-19T02:15:00+00:00
 domain:
   - personal-os
 ---
@@ -22,7 +22,9 @@ domain:
 | 2 | **创新参数案例** | **已闭环**：服装店「二次试穿」(L5)+「音量80」(L6) 回填 #145 iceberg；3 张 case（#149）已 reviewed | 老顽童(kimi) / 欧阳锋 | 已闭环；D 触点素材已汇入 LW-PL-005 暂存清单 | #145 / #149 / `case-yitang-xiezefeng-clothing-innovation-param` |
 | 3 | **C/D 两域建设 + 反向蒸馏（07-12 作战）** | **C 域建域正式收官（#155-158 全 reviewed，56 卡+1 spec）**；图谱修复三线推进中（#161 reviewed/#162 待终审/#159+#163 黄药师侧）。**老朱节奏校准：先 C/D 基本盘 → 再输入一堂 YAI 对话记录 → 反向蒸馏在后**（王语嫣反向蒸馏诊断已落盘存档 `60_feedback/diagnosis/reverse-distillation-business-formula-skill-2026-07-12.md`，spec 暂缓）。D 域素材准备中（老朱持续补充，16 文件已进 inbox） | 老朱（素材）/ 洪七公（OCR+VLM）/ 老顽童·黄药师（生产）/ 王语嫣（编排） | **当前主线：D 域基本盘**——素材齐后洪七公 OCR+VLM→王语嫣同 C 域流程（分层精读+诊断+spec+入队）；YAI 对话记录等老朱输入；反向蒸馏等基本盘完成后启动 | `00_inbox/Handle the business/` / LW-PL-005/006 |
 | 4 | **EC 代码库梳理/重构（10 年智能医药）** | 方法论已沉淀（#84/#119 reviewed），工程执行未启动 | 待定（黄药师建议书 draft） | 老朱决定是否激活 EC 分库线 | `task_20260705_huangyaoshi-proposal-yai-canvas-agent-v3.md` / `diag_20260705_yai-agent-distillation-v2.md` |
-| 5 | **个人域维护（personal-os）** | 已写入"王语嫣角色边界"防再犯规则 | 王语嫣 | 每次会话结束更新 feedback/time/domain-index；启动先读本目录锚定角色 | `30_wiki/personal-os/` |
+| 5 | **鑫港湾数字科技（黑石系统）** | 与袁总合作；老朱主张**先验证单点利润模型**，袁总倾向**先做市场影响力/政府关系**；黑石系统推进中，分歧未闭环 | 老朱（总经理，销售+技术）/ 袁总（大股东，80%） | 尽快把黑石系统单点模型跑通，用利润数据与袁总对齐；若分歧持续，OPC 作为独立退路 | `30_wiki/personal-os/zhu-network-resources.md` |
+| 6 | **OPC（一人公司）** | 老朱独立第三条路；定位**轻资产控制系统+控制板方案商**：不卖设备，卖控制系统+控制板；一次性销售毛利≥50%，后续服务费毛利~80%（按年预付+按设备数）；客户现结，不接受分期；团队≤5人；已有供应商合作/潜在客户洽谈/出海代理设想 | 老朱 | 继续验证供应商合作、潜在客户转化、整体系统输出机会；保持与鑫港湾财务/法律隔离 | `30_wiki/personal-os/zhu-lessons-learned.md` / `opc-ai-sales-agent-architecture.md` |
+| 7 | **个人域维护（personal-os）** | Phase 1 完成：README 升级为 10 文件体系，新增 `zhu-network-resources.md` / `zhu-lessons-learned.md` / `zhu-weekly-reflections.md`；已建立持续更新工作流与脱敏规则 | 王语嫣 | 每次会话结束更新 feedback/time/domain-index/network/lessons/weekly；启动先读 personal-os 全目录 | `30_wiki/personal-os/README.md` |
 
 ## 07-12 作战计划：C 业务公式域 + D 黑客转化率域（老朱 07-11 定）
 
