@@ -1,20 +1,20 @@
 ---
 id: task_20260719_laowantong-fix-touchpoint-case-library-191
 type: task
-status: queued
-assignee: kimi
+status: in_progress
+assignee: hermes
 priority: P1
 estimated_cards: 1
 created_at: 2026-07-19
-updated_at: 2026-07-19
+updated_at: '2026-07-19T14:10:35.495879+00:00'
 source_refs:
-  - "30_wiki/cases/case-一堂-触点篇案例库.md"
-  - "30_wiki/cases/case-一堂-教研加微信率40到100.md"
-  - "30_wiki/cases/case-一堂-视频号加微信率44到85.md"
+- 30_wiki/cases/case-一堂-触点篇案例库.md
+- 30_wiki/cases/case-一堂-教研加微信率40到100.md
+- 30_wiki/cases/case-一堂-视频号加微信率44到85.md
 related:
-  - "[[case-一堂-触点篇案例库]]"
-  - "[[case-一堂-教研加微信率40到100]]"
-  - "[[case-一堂-视频号加微信率44到85]]"
+- '[[case-一堂-触点篇案例库]]'
+- '[[case-一堂-教研加微信率40到100]]'
+- '[[case-一堂-视频号加微信率44到85]]'
 ---
 
 # #191 返工：触点篇案例库终审意见修复

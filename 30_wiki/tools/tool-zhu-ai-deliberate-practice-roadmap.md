@@ -24,6 +24,8 @@ related:
   - zhu-feedback-patterns
   - zhu-project-board
   - agent-spec-zhu-ai-coach
+  - framework-yitang-nine-layer-deep-dig
+  - user-insight-profile
 ---
 
 # 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周
