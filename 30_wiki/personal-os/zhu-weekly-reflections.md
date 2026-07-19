@@ -57,6 +57,12 @@ related:
 - [ ] 将本次利润/OPC 相关思考沉淀进 `#189 利润为王` 任务单
 - [ ] 开始把 10 年技术经验按模块化方式录入知识库
 
+### 本周新增素材
+
+- 已读取 `00_inbox/老朱的个人域/` 下三份材料：职业方向深度分析报告、性格诊断报告、第3次正式会议私董会文档。
+- 已将饮料业务三阶段、四个方向、性格特质、私董会幕僚反馈同步进 `user-insight-profile.md`、`zhu-feedback-patterns.md`、`zhu-strategic-conclusions.md`、`zhu-lessons-learned.md`、`zhu-network-resources.md`、`zhu-project-board.md`。
+- 后续待老朱确认：方向 4 是否作为润心堂重启的第一优先级。
+
 ---
 
 ## 更新记录

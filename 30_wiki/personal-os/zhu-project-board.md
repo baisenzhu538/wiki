@@ -4,7 +4,7 @@ title: "老朱项目线看板"
 type: system
 status: active
 created_at: 2026-07-09T22:35:00+00:00
-updated_at: 2026-07-19T02:15:00+00:00
+updated_at: 2026-07-19
 domain:
   - personal-os
 ---
@@ -25,6 +25,7 @@ domain:
 | 5 | **鑫港湾数字科技（黑石系统）** | 与袁总合作；老朱主张**先验证单点利润模型**，袁总倾向**先做市场影响力/政府关系**；黑石系统推进中，分歧未闭环 | 老朱（总经理，销售+技术）/ 袁总（大股东，80%） | 尽快把黑石系统单点模型跑通，用利润数据与袁总对齐；若分歧持续，OPC 作为独立退路 | `30_wiki/personal-os/zhu-network-resources.md` |
 | 6 | **OPC（一人公司）** | 老朱独立第三条路；定位**轻资产控制系统+控制板方案商**：不卖设备，卖控制系统+控制板；一次性销售毛利≥50%，后续服务费毛利~80%（按年预付+按设备数）；客户现结，不接受分期；团队≤5人；已有供应商合作/潜在客户洽谈/出海代理设想 | 老朱 | 继续验证供应商合作、潜在客户转化、整体系统输出机会；保持与鑫港湾财务/法律隔离 | `30_wiki/personal-os/zhu-lessons-learned.md` / `opc-ai-sales-agent-architecture.md` |
 | 7 | **个人域维护（personal-os）** | Phase 1 完成：README 升级为 10 文件体系，新增 `zhu-network-resources.md` / `zhu-lessons-learned.md` / `zhu-weekly-reflections.md`；已建立持续更新工作流与脱敏规则 | 王语嫣 | 每次会话结束更新 feedback/time/domain-index/network/lessons/weekly；启动先读 personal-os 全目录 | `30_wiki/personal-os/README.md` |
+| 8 | **润心堂品牌重启/饮料公司** | 2025 年初剥离原有业务，团队 4 人，全面代工；已提出四个方向（B2B 原料 / 2C 餐饮爆款 / 新中式茶饮连锁 / 药食同源电商）；私董会后核心待决断：TO B vs TO C、方向 2 vs 方向 4 | 老朱 | 用一堂五步法/需求冰山做方向 4 低成本 MVP 验证；寻找电商/品牌营销合伙人 | `zhu-lessons-learned.md` / `zhu-network-resources.md` |
 
 ## 07-12 作战计划：C 业务公式域 + D 黑客转化率域（老朱 07-11 定）
 
