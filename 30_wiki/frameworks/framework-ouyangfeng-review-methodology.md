@@ -10,11 +10,14 @@ domain:
   - kdo
 author: 欧阳锋
 created_at: "2026-06-21"
+updated_at: "2026-07-20"
+status: reviewed
+reviewed_by: 欧阳锋
+version: v2.0
 source_refs:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+  - "https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md"
+  - "https://cloud.google.com/blog/topics/developers-practitioners/a-methodical-approach-to-agent-evaluation/"
+  - "https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/adversarial-architecture-test-matrix-v1.md"
   - 30_wiki/decisions/plan_20260621_skill-iteration-standard.md
   - .agent/pitfalls.md
   - .agent/daily-review/错误模式库.md
@@ -27,7 +30,7 @@ related:
 ---
 # 欧阳锋审查方法论
 
-> 基于软件工程架构评审最佳实践 + KDO 3 轮实地审查教训。三阶段走完，确保不遗漏、不偏见、不压数。
+> v2.0 · 基于 2025-2026 全网审查最佳实践调研 + KDO 3 轮实地审查教训。五轴审查 + 魔鬼代言人 + 分层阻断 + 对抗性治理验证。
 
 ---
 
@@ -179,4 +182,74 @@ related:
 
 ---
 
-*欧阳锋 · 2026-06-21 · 基于全网调研+3 轮实地审查教训提炼*
+*欧阳锋 · 2026-06-21 v1.0 · 2026-07-20 v2.0（注入全网审查最佳实践）*
+
+---
+
+## v2.0 升级（2026-07-20）：全网审查最佳实践注入
+
+> 调研来源：
+> - [Code Review Best Practices 2025-2026](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md) — Stay Green 质量门模型、五轴审查、盲审+魔鬼代言人
+> - [Google Cloud AI Agent Evaluation](https://cloud.google.com/blog/topics/developers-practitioners/a-methodical-approach-to-agent-evaluation/) — 三支柱评估（成功质量/过程轨迹/信任安全）
+> - [Veritas OS Adversarial Architecture Test Matrix v1](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/adversarial-architecture-test-matrix-v1.md) — 治理投毒/评估漂移等 8 类对抗性验证
+> - [Snyk 2025 AI Agent Security Report](https://snyk.io/) — 36.82% 公开 skill 含安全缺陷
+
+### v2.0.1 五轴审查维度（升级原三信号）
+
+| 轴 | 知识卡对应 | 检查问题 |
+|:--|:--|:--|
+| **正确性** | Claims 有源行号支撑？数字可复核？ | "这条 claim 的口述稿原文在哪？" |
+| **边界感** | When NOT to Use + 失败模式 + 外部攻击者 | "如果我是反对者，我会攻击哪个前提？" |
+| **架构** | 域内关系 + 跨域桥接 + 无死链 | "related >=5 且 >=2 跨域？和已有卡是对标/互补/矛盾？" |
+| **可读性** | 标题精准 + 一句话摘要准确 + 结构清晰 | "只看标题和一句话，Agent 能判断这张卡是否相关？" |
+| **暗知识密度** | 反常识发现 + 可执行操作 + 失败信号具体 | "读完后有没有学到搜 Google 搜不到的东西？" |
+
+### v2.0.2 魔鬼代言人机制
+
+当审查结论 >= A- 且自攻击报告 🔴🟡 均为 0 时，强制触发：
+
+```
+"假设这张卡入库 3 个月后被发现有问题——最可能是什么问题？"
+→ 30 秒内说不出一条具体风险 → 审查太浅，重审
+→ 说得出 → "这个风险卡里预判了吗？够具体吗？"
+→ 补充到审查结论「残余风险」栏
+```
+
+**依据**：peer review 研究显示审查者自评找到 defect 比例 44%，实测仅 14%（Kitchenham 系统综述）。魔鬼代言人抵消这 30% 差距。
+
+### v2.0.3 分层阻断刚性化
+
+| 等级 | 定义 | 阻断？ |
+|:--|:--|:--:|
+| 🔴 Critical | source_refs 伪造、Claims 与原文矛盾、跨域桥接方向错误 | **阻断** |
+| 🟡 High | 缺关键 section、related < 3、外部攻击者为 straw man | **阻断** |
+| 🟠 Medium | related < 5、缺 1 条攻击者、标题不够精准 | 放行+TODO |
+| 🔵 Low | 格式微瑕、术语未标注全称 | 放行 |
+
+🔴+🟡 未清零 → 不得 pass。
+
+### v2.0.4 对抗性治理验证（月度抽检用）
+
+| # | 攻击类 | 检查问题 |
+|:--:|:--|:--|
+| A | 治理投毒 | 近一月审查标准是否被"大家都这么写"稀释了？抽查 3 张近期 A 级卡用 v1.0 标准重审 |
+| B | 准入漂移 | 复查最近 5 条 B+/B 裁决的追补项是否真的修了 |
+| C | 评估漂移 | 王语嫣独立审 1 张我已审的卡，对比差异 |
+| D | 外部影响 | 任务优先级是否影响了质量判断？ |
+| E | 审查疲劳 | >=5 张卡后强制暂停 |
+| F | 信任锚漂移 | "老顽童近期质量高"→少审几张？月度抽检比例不得低于矩阵最低值 |
+| G | 历史≠现在 | 禁止用"上次类似卡过了"作为通过理由 |
+| H | 隐性放松 | pre-submit PASS != 理解门禁通过 |
+
+### v2.0.5 审查可追溯性
+
+每次审查结论必须包含：
+
+```yaml
+reviewer: 欧阳锋
+methodology_version: v2.0
+verdict: pass-A- | pass-B+ | fail
+blocking: [🔴N, 🟡N]
+residual_risks: [魔鬼代言人发现的未解决风险]
+devil_advocate_triggered: true | false
+```
