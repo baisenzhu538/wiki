@@ -27,52 +27,61 @@ STATUS_LABELS = {
 
 
 def parse_queue(path: Path) -> list[dict]:
-    """解析 production-queue.md 表格，返回任务列表。"""
+    """解析 production-queue.md 表格，返回任务列表。
+
+    表格检测使用纯 ASCII 分隔行 ``|:---``，不依赖中文表头——文件编码损坏时也能工作。
+    """
     text = path.read_text(encoding="utf-8")
     tasks = []
     in_table = False
     for line in text.split("\n"):
-        line = line.strip()
-        if line.startswith("| 队列序号"):
-            in_table = True
+        stripped = line.strip()
+        if not in_table:
+            # Detect table by separator row — pure ASCII, immune to encoding issues
+            if stripped.startswith("|:---"):
+                in_table = True
             continue
-        if in_table and line.startswith("|---"):
+        # Skip separator / alignment rows
+        if stripped.startswith("|:---"):
             continue
-        if in_table and line.startswith("|") and not line.startswith("| 队列序号"):
-            cells = [c.strip() for c in line.split("|")[1:-1]]
-            if len(cells) >= 7:
-                try:
-                    seq = int(cells[0].strip())
-                except ValueError:
-                    continue
-                task_id = cells[1].strip().strip("`")
-                name = cells[2].strip()
-                status_raw = cells[3].strip()
-                assignee = cells[4].strip() if len(cells) > 4 else ""
-                cards = cells[5].strip() if len(cells) > 5 else ""
-                deps = cells[6].strip() if len(cells) > 6 else ""
-                source = cells[7].strip().strip("`") if len(cells) > 7 else ""
-                notes = cells[8].strip() if len(cells) > 8 else ""
-
-                status = _normalize_status(status_raw)
-
-                priority = _extract_priority(name, notes)
-
-                tasks.append({
-                    "seq": seq,
-                    "id": task_id,
-                    "name": name,
-                    "status": status,
-                    "status_raw": status_raw,
-                    "assignee": _normalize_assignee(assignee),
-                    "cards": cards,
-                    "deps": deps,
-                    "source": source,
-                    "notes": _truncate(notes, 120),
-                    "priority": priority,
-                })
-        elif in_table and not line.startswith("|"):
+        # Skip blank lines between rows
+        if not stripped:
+            continue
+        # End of table
+        if not stripped.startswith("|"):
             break
+        cells = [c.strip() for c in stripped.split("|")[1:-1]]
+        if len(cells) >= 7:
+            try:
+                seq = int(cells[0].strip())
+            except ValueError:
+                continue
+            task_id = cells[1].strip().strip("`")
+            name = cells[2].strip()
+            status_raw = cells[3].strip()
+            assignee = cells[4].strip() if len(cells) > 4 else ""
+            cards = cells[5].strip() if len(cells) > 5 else ""
+            deps = cells[6].strip() if len(cells) > 6 else ""
+            source = cells[7].strip().strip("`") if len(cells) > 7 else ""
+            notes = cells[8].strip() if len(cells) > 8 else ""
+
+            status = _normalize_status(status_raw)
+
+            priority = _extract_priority(name, notes)
+
+            tasks.append({
+                "seq": seq,
+                "id": task_id,
+                "name": name,
+                "status": status,
+                "status_raw": status_raw,
+                "assignee": _normalize_assignee(assignee),
+                "cards": cards,
+                "deps": deps,
+                "source": source,
+                "notes": _truncate(notes, 120),
+                "priority": priority,
+            })
     return tasks
 
 
