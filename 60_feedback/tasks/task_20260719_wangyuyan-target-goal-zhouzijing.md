@@ -2,7 +2,7 @@
 id: task_20260719_wangyuyan-target-goal-zhouzijing
 title: 目标管理域补充——周子敬《目标管理的底层逻辑与实践》卡片化
 type: task
-status: in_progress
+status: pending_review
 priority: P0
 assignee: hermes
 reviewer: 欧阳锋
@@ -20,7 +20,7 @@ related:
 - concept-一堂-双目标法
 - yt-tool-okr-cycle
 - management-domain-digest
-updated_at: '2026-07-19T15:35:45.655061+00:00'
+updated_at: '2026-07-19T16:07:45.286430+00:00'
 ---
 
 # 目标管理域补充——周子敬卡片化任务单
