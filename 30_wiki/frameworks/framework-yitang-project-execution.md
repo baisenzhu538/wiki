@@ -49,6 +49,7 @@ quality_labels:
 - principle
 - actionable
 - validated
+  - dk-管控vs协同执行策略
 ---
 
 # 项目管过程：六大管理手段保障项目落地

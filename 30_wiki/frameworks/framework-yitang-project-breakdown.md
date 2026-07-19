@@ -46,6 +46,7 @@ quality_labels:
 - principle
 - actionable
 - validated
+  - framework-目标三层拆解
 ---
 
 # 项目拆计划：六维敏感度驱动的科学拆解
