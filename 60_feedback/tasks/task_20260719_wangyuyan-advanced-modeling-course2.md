@@ -1,15 +1,17 @@
 ---
 id: task_20260719_wangyuyan-advanced-modeling-course2
-title: 高阶建模第二课卡片化——流程建模实践：18组件·四步法·三案例
+title: 高阶建模第二课卡片化（修订版）——流程建模实践：18组件·关系探索·三案例
 type: task
 status: queued
 priority: P1
 assignee: 老顽童
 reviewer: 欧阳锋
 created_at: 2026-07-19
-expected_cards: 10（新卡）+ 11（已有卡补充回链）+ 3（Phase 2解压资产）
+updated_at: 2026-07-19
+expected_cards: 4（新卡）+ 6（已有卡enrich）+ 2（暗知识卡）+ 3（Phase 2解压资产）
 source_refs:
   - 60_feedback/diagnosis/diag_20260719_wangyuyan-advanced-modeling-course2.md
+  - 60_feedback/diagnosis/diag_20260719_advanced-modeling-process-modeling.md
   - 00_inbox/Advanced modeling/（57张VLM+OCR全量）
   - 00_inbox/Advanced modeling/洪七公-给王语嫣的任务编排建议-高阶建模流程建模.md
 related:
@@ -18,16 +20,20 @@ related:
   - modeling-weapon-library
   - process-modeling
   - modeling-capability-system
+  - framework-kdo-modeling-methodology
+  - concept-kdo-component-library
   - framework-TCPR皇冠模型
   - yt-decision-y-model
 ---
 
-# 高阶建模第二课卡片化——流程建模实践
+# 高阶建模第二课卡片化（修订版）——流程建模实践
 
-> **来源**：王语嫣诊断报告 `diag_20260719_wangyuyan-advanced-modeling-course2.md`
-> **素材**：一堂 Truman《高阶建模实践1 — 流程建模》4097行口述 + 57张VLM/OCR
+> **来源**：王语嫣两份诊断报告
+>   - `diag_20260719_wangyuyan-advanced-modeling-course2.md`（初版）
+>   - `diag_20260719_advanced-modeling-process-modeling.md`（独立复核修订版）
+> **素材**：一堂 Truman《高阶建模实践1 — 流程建模》4096行口述 + 57张VLM/OCR
 > **域归属**：高阶建模域（modeling domain）——第一课已入库，本课为实践层补充
-> **与第一课关系**：第一课=理论骨架，第二课=操作肌肉
+> **修订说明**：本任务单于 2026-07-19 根据独立诊断复核结果修订。取消与同日新建卡重复的新建项，改为enrich已有卡；新增Truman原18组件源框架卡。
 
 ---
 
@@ -37,142 +43,154 @@ related:
 高阶建模域（modeling domain）
 ├── 理论层（第一课·已入库）
 │   ├── modeling-three-stages          # 三段论
-│   ├── modeling-level-map             # 段位图 L1-L6
-│   ├── modeling-weapon-library        # 武器库（基础/进阶/深度）
+│   ├── modeling-level-map             # 段位图 L1-L6（本课enrich）
+│   ├── modeling-weapon-library        # 武器库
+│   ├── process-modeling               # 流程建模SOP（本课enrich）
 │   └── modeling-capability-system     # 总纲
 │
-├── 实践层（第二课·本次生产）★
-│   ├── framework-建模四步法            # 圈定范围→探索关系→压缩→解压
-│   ├── method-组件思维操作法           # 黄药师建议
-│   ├── tool-18组件卡牌库              # 五类不确定×18张牌
-│   ├── concept-四层觉察               # 不知不觉→先知先觉
-│   ├── case-文生图工作流建模演进       # v1抽卡→v5攻坚会最终版
-│   ├── case-共建会流程建模演进         # 9步流程+加法→减法切换
-│   └── case-TCPR四角色建模演进         # P/C/T 1.0→TCPR 4.0
+├── 方法论层（本课·关键增量）★
+│   ├── framework-kdo-modeling-methodology  # Truman四步法→KDO映射（已存在，本课enrich）
+│   ├── concept-truman-18-component-cards   # Truman原18组件源框架（新建P0）
+│   ├── concept-kdo-component-library       # KDO17组件改编版（已存在，本课enrich）
+│   └── framework-modeling-relation-exploration  # 拆解×完备×依赖关系（新建P0）
+│
+├── 案例层（本课·新建）
+│   ├── case-modeling-ai-image-workflow     # AI文生图流程演进
+│   ├── case-modeling-gongjianhui-facilitation # 共建会/攻坚会流程设计
+│   └── case-modeling-TCPR-evolution        # TCPR建模过程（反向enrich TCPR皇冠模型）
 │
 └── 暗知识层（跨课）
-    ├── dk-流程是业务的疤痕
-    ├── dk-跳步是建模最严重错误
-    ├── dk-ai-makes-you-stronger-or-lazier
-    └── bridge-高阶建模↔Y模型解放思想
+    ├── dk-process-is-scar-tissue           # 流程是业务的疤痕
+    ├── dk-modeling-jump-step-cost          # 跳步代价
+    └── dk-ai-makes-you-stronger-or-lazier  # AI双面性（P2可暂缓）
+```
 
-### 解压路径（Phase 2·本次生产后启动）
+### 解压路径（Phase 2·本课后启动）
 
-> 🔴 **欧阳锋追加**——L0铁律："循环优先于深度"。当前任务单只有**压缩**（建卡），缺少**解压**声明。
-> 按KDO建模总纲标准：1 framework 应配套 ≥3 解压资产。
+> **欧阳锋铁律**：1 framework 应配套 ≥3 解压资产。
 
 | # | 解压资产 | 类型 | 说明 |
 |:--|:---|:---|:---|
-| D1 | `skill-modeling-domain-iteration` | skill | 建模域专用五阶段工作流：诊断→生产→验证→复盘→迭代，挂载 `framework-建模四步法` |
-| D2 | `tool-kdo-modeling-checklist` | tool | 🔴 **优先**——KDO Agent建模自检清单，直接引用18组件库17张牌（去掉"信任优先"，Agent间天然信任），让老顽童/黄药师产卡前自检 |
-| D3 | `agent-spec-modeling-coach` | agent-spec | 建模教练Agent——引导用户走完四步法+匹配组件卡牌（在人类三角练好后发布） |
+| D1 | `skill-modeling-domain-iteration` | skill | 建模域专用工作流：诊断→生产→验证→复盘→迭代 |
+| D2 | `tool-kdo-modeling-checklist` | tool | KDO Agent建模自检清单，引用18组件/17组件 |
+| D3 | `agent-spec-modeling-coach` | agent-spec | 建模教练Agent——引导用户走完四步法+匹配组件卡牌 |
 
-> **生产时序**：Phase 1（本次10+11卡）→ 老顽童提交 → 欧阳锋终审 → Phase 2（D1/D2/D3解压）
-```
+> **生产时序**：Phase 1（4新卡+6enrich+2dk）→ 老顽童提交 → 欧阳锋终审 → Phase 2（D1/D2/D3解压）
 
 ---
 
 ## 二、生产清单
 
-### 2.1 新建卡片（7张）
+### 2.1 新建卡片（4张P0/P1）
 
 | # | 卡ID | 类型 | 优先级 | 核心内容 | 主要来源 |
 |:--|:---|:---|:---|:---|:---|
-| 1 | `framework-建模四步法` | framework | P0 | ①圈定范围（边界/场景/问题类型）→②探索关系（五类关系+规律筛选五标准）→③压缩建模（抽象/迁移/损耗意识）→④解压展开（命名/视觉/十层解读/小抄）；每步附输入/输出/典型跳步错误 | 口述L1916-L1934，一堂DOC-20260719204056 VLM |
-| 2 | `method-组件思维操作法` | method | P0 | 组件=最小可复用依赖单元；组件≠流程（组件是乐高积木，流程是搭建顺序）；操作步骤：①拆解工作流→②识别不确定性类型→③匹配组件卡牌→④按依赖关系排序→⑤验证 | 口述L2662-L3200，黄药师建议 |
-| 3 | `tool-18组件卡牌库` | tool | P0 | 五类不确定×18张牌，每张="先X后Y"依赖对+适用信号+反例+口诀；五类：事实不确定(客观/输入/定性/用户优先)、目标不确定(问题/目标/全局/内容优先)、方案不确定(内核/发散/审美/框架优先)、过程不确定(计划/试错/单体/完成优先)、协作不确定(共识/信任优先) | 口述L2662-L3200，批注20260719-204445 VLM，黄药师18张牌表 |
-| 4 | `concept-四层觉察` | concept | P1 | 不知不觉→后知后觉→当知当觉→先知先觉；每层特征+跃迁条件+与L1-L6段位的映射关系 | 口述L2560-L2606 |
-| 5 | `case-文生图工作流建模演进` | case | P1 | v1抽卡→v2讨论→v3五张→v4四要素→v5攻坚会最终版；五版本迭代时间线+每版加了什么节点+效果提升；核心组件：先输入后输出/先发散后收敛/先风格后细节/先闭环再优化 | 口述§3.1 |
-| 6 | `case-共建会流程建模演进` | case | P1 | 9步流程（对齐目标→对齐出口→热身→加法→交换→再激发→建模共识→提案打磨→敲定分工）；#0-N轮循环设计（步骤4↔7）；"加法→减法"切换时机标注 | 口述§3.2，攻坚会的流程VLM+OCR |
-| 7 | `case-TCPR四角色建模演进` | case | P1 | ⚠️ **不是TCPR定义卡**——是建模过程卡：P/C/T初步分类→发现缺失R（研究角色）→定义R=T/C/P的映射关系→可视化→训练清单落地；关键决策链和每版为什么改 | 口述§3.3，tcpr的特点VLM |
+| 1 | `concept-truman-18-component-cards` | concept | **P0** | Truman原18组件：五维度（事实/目标/方案/过程/协作）×18张牌，每张=「先X后Y」依赖对+适用信号+反例+来源案例；与KDO17组件明确区分 | 口述L2934-L3010，批注2026-07-19-204445 VLM |
+| 2 | `framework-modeling-relation-exploration` | framework | **P0** | 拆解×完备×依赖关系：五类关系分类+规律筛选五标准+几何形态与逻辑形态匹配+典型跳步错误 | 口述L1916-L1970，批注2026-07-19-204145 VLM |
+| 3 | `case-modeling-ai-image-workflow` | case | P1 | v1抽卡→v2讨论→v3五张→v4四要素→v5攻坚会最终版；8里程碑；九张翻牌子机制；内容→风格→精准度顺序 | 口述§3.1，批注2026-07-19-203816 VLM |
+| 4 | `case-modeling-gongjianhui-facilitation` | case | P1 | 共建会/攻坚会8-9步流程：对齐目标→对齐出口→背景热身→多轮加法→交换想法→分类建模→逐项论证→硬伤检查→现场分工；成功率30-50%→80-100% | 口述§3.2，攻坚会的流程VLM+OCR |
 
-### 2.2 暗知识卡（3张）
-
-| # | 卡ID | 类型 | 优先级 | 核心内容 | 来源 |
-|:--|:---|:---|:---|:---|:---|
-| 8 | `dk-流程是业务的疤痕` | dk | P1 | 金句级暗知识：每个节点都是流血后结的痂——但没伤口的人看不懂疤；流程建模的本质不是设计而是**止血后固化** | 口述L2617 |
-| 9 | `dk-跳步是建模最严重错误` | dk | P1 | 依赖关系不可逆：18组件的核心不是"先X后Y"而是"如果跳过前一步，后一步的输入是空的"；典型跳步症状+预防机制 | 口述L2718-L2728 |
-| 10 | `dk-ai-makes-you-stronger-or-lazier` | dk | P1 | 🔴 **欧阳锋追加**——Truman的AI双面性洞察：①"AI帮人变强"vs"AI让人变懒"两种路径的分化机制；②为什么这堂课不给AI工具（先练人类三角，否则判断不了AI产出的好坏）；③KDO Agent自检问题："我在用AI变强还是变懒？"——直接关联KDO Agent设计哲学 | 口述L3760-L3868 |
-
-### 2.3 跨域桥接卡（1张）
-
-| # | 卡ID | 类型 | 说明 | 来源 |
-|:--|:---|:---|:---|:---|
-| 11 | `bridge-高阶建模↔Y模型解放思想` | bridge | 提炼建模=Y模型解放思想最后一叉，高阶建模域登顶前最后一座山；双向链接 `yt-decision-y-model` 和 `modeling-three-stages` | 口述L3582-L3618，黄药师定位 |
-
-### 2.4 已有卡补充回链（11项）
-
-> ⚠️ 这是本课最大跨域价值——让已有框架"知其所以然"。
+### 2.2 已有卡 enrich（6张）
 
 | # | 目标卡 | 补充内容 | 来源 |
 |:--|:---|:---|:---|
-| 12 | `framework-TCPR皇冠模型` | 新增§建模过程：P/C/T 1.0→发现缺R→4.0四角色映射；related新增 `case-TCPR四角色建模演进` | 口述§3.3 |
-| 13 | **双三角系列核心卡** | 🔴 **欧阳锋强调——不是"补充段落"，是独立section（≥80行）**：v1加法→v2乘法→v3数据维度→v4双角合并→v5飞轮→v6同构；6版迭代对照表+每次版本变更的底层关系假设变化（发现了什么新关系导致了版本升级）；这是整堂课最完整的建模方法论演示 | L1796-L1868 |
-| 14 | 终局光谱图核心卡 | 新增§建模抉择：金字塔→阶梯→光谱三次推翻过程 | L2102-L2188 |
-| 15 | 共识冰山核心卡 | 新增§建模过程：共识四层→爬山+冰山双意象抉择 | L2040-L2096 |
-| 16 | 动力阻力三曲线核心卡 | 新增§建模演进：PNL缩写→轨道模型→三曲线 | L1972-L2036 |
-| 17 | 五步法核心卡 | 新增§组件拆解：五步法=4个组件的拼接（标注具体哪4张牌） | L2756-L2780 |
-| 18 | `modeling-three-stages` | related新增 `framework-建模四步法`、`tool-18组件卡牌库`、`concept-四层觉察` | 本课 |
-| 19 | `modeling-level-map` | related新增 `concept-四层觉察`（段位图=能力评级，四层觉察=认知进化路径） | L2560-L2606 |
-| 20 | `concept-modeling-three-values` | 🔴 **欧阳锋追加**——建模三价值（启发/验证/实证）被四步法的"压缩→解压"重新解释；related新增 `framework-建模四步法` | L73-L80 |
-| 21 | D域三曲线核心卡 | 🔴 **欧阳锋追加**——D域正是"方案不确定"四张牌（内核→边界→发散→收敛→审美→框架）的完整落地案例；related新增 `tool-18组件卡牌库` | L1972-L2036 |
-| 22 | `framework-logic-cleanliness-five-levels` | 🔴 **欧阳锋追加**——逻辑洁癖五层级被这堂课从一个概念升级为**可操作的驱动力引擎**；新增§与建模驱动的关系 | L56-L70, L1702-L1722 |
+| 5 | `modeling-level-map` | 新增§时间维度：见识提升（天单位）/实操提升（月单位）/迁移创新（年单位）；补充L1-L6「能练什么」细节 | 批注2026-07-19-202929，口述L50-L70 |
+| 6 | `framework-kdo-modeling-methodology` | 新增§Step2展开：关系vs规律、五类关系、几何形态匹配、典型跳步错误；新增失败模式：压缩过度/不解压 | 口述L1916-L1970, L2103-L2188 |
+| 7 | `concept-kdo-component-library` | 新增§与Truman 18组件对照：维度映射、组件对应、改编rationale、KDO新增/省略的牌 | 口述L2934-L3010 |
+| 8 | `framework-TCPR皇冠模型` | 新增§建模过程：1.0三分法→2.0 TCP→3.0加R→4.0皇冠图→5.0训练清单；修正R与TCP关系为「映射/影子/兼容」，非单纯底座 | 口述§3.3 |
+| 9 | `process-modeling` | 新增§组件思维应用：如何用18组件拼装SOP；新增「流程是业务的疤痕」引用 | 口述L2618-L2706 |
+| 10 | `dk-modeling-logical-cleanliness-root` 或 `framework-logic-cleanliness-five-levels` | 新增§逻辑洁癖与四步法Step2「探索关系」的联动：审美驱动如何发现关系和规律 | 口述L54-L58, L1702-L1722 |
+
+> **注**：第10项由老顽童根据已有卡结构二选一，优先 `dk-modeling-logical-cleanliness-root`。
+
+### 2.3 TCPR案例处理（不单独建卡，并入enrich）
+
+`case-TCPR四角色建模演进` **不单独成卡**。其内容（1.0三分法→5.0训练清单）并入 `framework-TCPR皇冠模型` 的「建模过程」章节，避免与定义卡分裂。
+
+### 2.4 暗知识卡（2张P1 + 1张P2）
+
+| # | 卡ID | 类型 | 优先级 | 核心内容 | 来源 |
+|:--|:---|:---|:---|:---|:---|
+| 11 | `dk-process-is-scar-tissue` | dk | P1 | 金句级暗知识：流程节点来自流血后的痂；组件是疤痕的最小单位 | 口述L2617-L2624 |
+| 12 | `dk-modeling-jump-step-cost` | dk | P1 | 依赖关系不可逆：跳步=前置输入为空；「埋的雷在后半段十倍百倍惩罚」 | 口述L2718-L2728, L2378-L2384 |
+| 13 | `dk-ai-makes-you-stronger-or-lazier` | dk | P2 | AI双面性：先练人类三角，否则判断不了AI产出好坏 | 口述L3760-L3868 |
+
+> P2暗知识卡可延后，不阻塞Phase 1验收。
 
 ---
 
 ## 三、关键规则
 
-### 3.1 与第一课的关系声明
-- `framework-建模四步法` 必须注明："本卡聚焦**建模操作过程**。建模能力的三段论框架见 `modeling-three-stages`，段位自评见 `modeling-level-map`"
-- `tool-18组件卡牌库` 必须注明："本卡是**建模原子工具箱**。模型选型参考见 `modeling-weapon-library`（武器库告诉用什么模型，组件库告诉怎么拼模型）"
+### 3.1 与已有卡的关系声明
+
+- `concept-truman-18-component-cards` 必须注明：「本卡是Truman原18组件源框架；KDO域内改编版见 `concept-kdo-component-library`」。
+- `framework-kdo-modeling-methodology` enrich 后必须注明：「Truman四步法原始操作定义见 `framework-modeling-relation-exploration`；KDO映射版见本卡」。
+- `framework-TCPR皇冠模型` enrich 后必须修正：R不是C的MECE子集，而是TCP的映射/影子/兼容底座。
 
 ### 3.2 术语规范
-- "组件"≠"流程"：组件是最小可复用依赖单元，流程是组件的排列顺序——卡片中必须区分
-- "触贯"：一堂专用术语（触类旁通+融会贯通），首次出现需注释
-- "逻辑洁癖"：核心驱动概念，不可省略
-- 18张牌命名统一为"X优先"格式（如"客观优先""输入优先"）
+
+- 「组件」≠「流程」：组件是最小可复用依赖单元，流程是组件的排列顺序。
+- 18张牌命名统一为「X优先」格式（如「客观优先」「输入优先」）。
+- 「触贯」：一堂专用术语（触类旁通+融会贯通），首次出现需注释。
+- 「逻辑洁癖」：核心驱动概念，不可省略。
 
 ### 3.3 链接规则
-- 每张新卡 related ≥ 5 条，至少 1 条链接到第一课已有卡
-- `case-TCPR四角色建模演进` 必须双向链接到 `framework-TCPR皇冠模型`
-- `bridge-高阶建模↔Y模型解放思想` 必须双向链接到 `yt-decision-y-model`
 
-### 3.4 18组件卡牌库的粒度
-- 不要拆成18张独立concept卡——合并为**1张工具卡**（总表+五类分组+每张牌一句话口诀）
-- 每张牌的"适用信号"和"反例"必须写清——不能只是名字
+- 每张新卡 related ≥ 5 条，至少 1 条链接到第一课已有卡。
+- `concept-truman-18-component-cards` 必须双向链接 `concept-kdo-component-library`。
+- `framework-modeling-relation-exploration` 必须双向链接 `framework-kdo-modeling-methodology`。
+- `case-modeling-ai-image-workflow` / `case-modeling-gongjianhui-facilitation` 必须链接 `concept-truman-18-component-cards` 和 `framework-modeling-relation-exploration`。
 
----
+### 3.4 enrich卡规范
 
-## 四、验收标准
-
-- [ ] 7张新卡 + 2张dk + 1张bridge 全部通过 `kdo pre-submit`
-- [ ] 新卡 `kdo lint` 0 ERROR
-- [ ] 每张新卡 related ≥ 5 条，含 ≥ 1 条链接到第一课已有卡
-- [ ] `case-TCPR四角色建模演进` **不是TCPR定义卡**——欧阳锋抽检确认聚焦在"建模过程"而非"TCPR是什么"
-- [ ] `tool-18组件卡牌库` 18张牌每张有适用信号+反例
-- [ ] 8项已有卡补充完成且 lint 无新增 ERROR
-- [ ] 已有卡补充的"建模过程"节需标注 source_refs 到口述稿行号
-- [ ] 欧阳锋抽检 ≥ 3 张新卡 + 2 项已有卡补充
+- 所有enrich内容必须标注 source_refs 到口述稿原始行号。
+- 不得在已有卡中删除原有内容，只能新增section或补充related。
+- 若enrich导致卡片过长（>400行），应拆分新增子卡，而非无限追加。
 
 ---
 
-## 五、欧阳锋抽检重点
+## 四、生产顺序建议
 
-1. `case-TCPR四角色建模演进`：是否与 `framework-TCPR皇冠模型` 内容重叠？必须确认本卡只讲"建模过程"不讲"TCPR定义"
-2. `tool-18组件卡牌库`：18张牌是否做到了"每张可独立检索"而非藏在大表里？与 `modeling-weapon-library` 的关系是否清晰？
-3. `framework-建模四步法`：Step2（探索关系）是否足够重？口述强调"建模的本质是探索关系"——Step2应该是四步中最重的环节
-4. 已有卡补充：双三角/终局光谱/共识冰山等核心卡的"建模过程"节是否标注了source_refs行号？
+| 阶段 | 卡片 | 理由 |
+|:---|:---|:---|
+| **Phase 1.1** | `concept-truman-18-component-cards` + `framework-modeling-relation-exploration` | 方法论核心，为案例卡提供上游连接 |
+| **Phase 1.2** | `case-modeling-ai-image-workflow` + `case-modeling-gongjianhui-facilitation` | 案例卡依赖方法论卡 |
+| **Phase 1.3** | 6张已有卡enrich | 确保跨域链接完整 |
+| **Phase 1.4** | `dk-process-is-scar-tissue` + `dk-modeling-jump-step-cost` | 暗知识卡可在案例卡完成后提炼 |
+| **Phase 2** | D1/D2/D3解压资产 | 等Phase 1终审通过后启动 |
 
 ---
 
-## 六、队列位置
+## 五、验收标准
 
-- **入队编号**：待分配（紧随当前队列末尾）
-- **状态**：`queued`
+- [ ] 4张新卡通过 `kdo pre-submit`
+- [ ] 6张enrich卡 `kdo lint` 无新增ERROR
+- [ ] 2张P1暗知识卡通过 `kdo pre-submit`
+- [ ] 每张新卡 related ≥ 5 条，含 ≥1 条链接到第一课已有卡
+- [ ] `concept-truman-18-component-cards` 与 `concept-kdo-component-library` 有明确对照说明
+- [ ] `framework-TCPR皇冠模型` 修正R与TCP关系描述，并补充建模过程章节
+- [ ] 所有enrich内容标注口述稿行号
+- [ ] 欧阳锋抽检 ≥2 张新卡 + 2 项已有卡enrich
+
+---
+
+## 六、欧阳锋抽检重点
+
+1. `concept-truman-18-component-cards`：18张牌是否每张都有「先X后Y+适用信号+反例」？与KDO17组件的对照是否清晰？
+2. `framework-modeling-relation-exploration`：Step2是否足够重？是否呈现了「关系vs规律」和「几何形态匹配」？
+3. `framework-TCPR皇冠模型` enrich：R的角色描述是否从「底座」修正为「映射/影子」？建模过程章节是否标注了source行号？
+4. `concept-kdo-component-library` enrich：是否解释了为什么把Truman的「事实/目标/方案/过程/协作」改编为「素材/边界/结构/过程/质量」？
+
+---
+
+## 七、队列位置
+
+- **入队编号**：#194（保持原编号）
+- **状态**：`queued` → 待老顽童领取
 - **阻塞/依赖**：无
-- **预计工期**：2-3个老顽童实例周期（7新卡+8补充回链，跨域链接工作量较大）
+- **预计工期**：2个老顽童实例周期（4新卡+6enrich+2dk）
 
 ---
 
-*王语嫣 · 2026-07-19 · 诊断报告：`diag_20260719_wangyuyan-advanced-modeling-course2.md`*
-*感谢黄药师提供的口述稿全文深读和域定位判断*
+*王语嫣 · 2026-07-19 · 基于独立诊断复核修订*
+*修订依据：diag_20260719_advanced-modeling-process-modeling.md*
