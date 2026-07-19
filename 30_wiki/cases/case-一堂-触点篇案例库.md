@@ -2,9 +2,9 @@
 id: case-一堂-触点篇案例库
 title: 一堂转化率黑客触点篇案例索引库（SABC 分级与触点挖掘）
 type: case
-status: enriched
+status: draft
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 待审
 confidence: 0.82
 trust_level: medium
 language: zh-CN
@@ -29,34 +29,34 @@ source_refs:
 - "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3132-L3186"
 - "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3680-L3714"
 related:
-- '[[framework-一堂-转化率黑客-总纲]]'
-- '[[framework-一堂-转化率提升六步法]]'
-- '[[framework-一堂-12触点SABC分级]]'
-- '[[framework-一堂-触点本质论]]'
-- '[[framework-一堂-转化率黑客爬山地图]]'
-- '[[tool-一堂-七大转化场景自检]]'
-- '[[tool-一堂-动嘴动手动钱成本纪律]]'
-- '[[tool-一堂-心理激励优先机制]]'
-- '[[conversion-rate-domain-digest]]'
-- '[[case-一堂-教研加微信率40到100]]'
-- '[[case-一堂-视频号加微信率44到85]]'
-- '[[tool-一堂-12大易浪费触点]]'
-- '[[tool-一堂-ABACC叙事法]]'
-- '[[tool-一堂-五大转化率范式]]'
-- '[[tool-一堂-五种挖触点]]'
-- '[[tool-一堂-准备系数法则]]'
-- '[[tool-一堂-减法排序四招]]'
-- '[[tool-一堂-制作仿真三要点]]'
-- '[[tool-一堂-提假设四大类策略]]'
-- '[[tool-一堂-经典故事线框架库]]'
-- '[[tool-一堂-触点减法与排序]]'
-- '[[tool-一堂-触点挖掘四层级]]'
-- '[[tool-一堂-触点质量五维]]'
-- '[[tool-一堂-讲香双策略]]'
+- framework-一堂-转化率黑客-总纲
+- framework-一堂-转化率提升六步法
+- framework-一堂-12触点SABC分级
+- framework-一堂-触点本质论
+- framework-一堂-转化率黑客爬山地图
+- tool-一堂-七大转化场景自检
+- tool-一堂-动嘴动手动钱成本纪律
+- tool-一堂-心理激励优先机制
+- conversion-rate-domain-digest
+- case-一堂-教研加微信率40到100
+- case-一堂-视频号加微信率44到85
+- tool-一堂-12大易浪费触点
+- tool-一堂-ABACC叙事法
+- tool-一堂-五大转化率范式
+- tool-一堂-五种挖触点
+- tool-一堂-准备系数法则
+- tool-一堂-减法排序四招
+- tool-一堂-制作仿真三要点
+- tool-一堂-提假设四大类策略
+- tool-一堂-经典故事线框架库
+- tool-一堂-触点减法与排序
+- tool-一堂-触点挖掘四层级
+- tool-一堂-触点质量五维
+- tool-一堂-讲香双策略
 
-- '[[case-yitang-sales-transformation-jubensha-saas]]'
-- '[[case-yitang-sales-transformation-meirongyuan]]'
-- '[[case-yitang-sales-transformation-tuliaogongsi]]'
+- case-yitang-sales-transformation-jubensha-saas
+- case-yitang-sales-transformation-meirongyuan
+- case-yitang-sales-transformation-tuliaogongsi
 quality_labels:
 - cited
 - actionable
