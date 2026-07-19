@@ -217,7 +217,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 185 | `task_20260713_wangyuyan-template-placeholder-hygiene` | 模板占位符卫生：xxx/.../wikilink等~130条示例wikilink改代码块包裹，图谱灰白点归零；历史文档真实引用不动 | reviewed | 黄药师 | 占位符归零+模板抽查+lint无新增 | 无；#184后顺领 |
 | 186 | `task_20260713_wangyuyan-agent-spec-prompts-ingestion` | agent-spec卡入知识层：20张 prompts 卡入 30_wiki/tools（销售域6张按#182映射表加D域回链/kernel系列7张/产品项目管理7张按所属域接） | reviewed | 老顽童 | 20正式卡+lint无新增 | #182 reviewed后顺领 |
 | 187 | `task_20260714_wangyuyan-material-gaps-tracking` | 素材缺口追踪与回源登记（4类缺口：复盘合集7案例/征文十篇+邱淼案例集/双三角/刻意练习；blocked等老朱） | blocked | 老顽童 | 缺口登记卡+素材到位后24h内评估入队 | 老朱提供素材 |
-| 188 | `task_20260714_wangyuyan-badcase-feedback-loop` | bad case回流机制与首条记录：模板+存储路径+缺陷分类+闭环流程；首条等老朱真实使用 | claimed-hermes | 老顽童 | 机制卡1张+首条记录+context补丁 | 无 |
+| 188 | `task_20260714_wangyuyan-badcase-feedback-loop` | bad case回流机制与首条记录：模板+存储路径+缺陷分类+闭环流程；首条等老朱真实使用 | pending_review | 老顽童 | 机制卡1张+首条记录+context补丁 | 无 |
 | 176 | `task_20260712_wangyuyan-c-domain-scan-fix-assets` | C域查漏修复第二批（资产层）：8独立案例卡（汉堡店/美团小红点/芯片开发板/减法三例/公众号单月价值/农机撮合/在线教育/女装店三版）+5新dk/tool卡（分型递归/跳级起手/边际ROI/五条替代路径/不可统计必写）+既有卡补节约15项+合集速写补全 | reviewed | 老顽童 | 13卡+补节全落地+预检PASS | #175 reviewed+D域#169后顺领（C域修复优先D域P1） |
 | 177 | `task_20260713_wangyuyan-coach-dialogue-engine-protocol` | 教练对话引擎协议卡（共享件12条+控制机制三选一+身份轴TCPR[理论底座=一堂TCPR皇冠模型原生，YAI四分类=其产品化]+附加产出TCPR模型正式卡）+YAI实录案例卡×2 | reviewed | 黄药师 | 3卡（协议卡+TCPR卡+双实录） | 无（#168A/#175后顺领）；须早于老顽童#172/#179/#180 |
 | 178 | `task_20260713_wangyuyan-decision-coach-engine-upgrade` | B域#153科学决策教练spec升级：工具清单→对话引擎（引用引擎卡+盲区库聚合+三pattern注入+域间转介），按黄药师建议书落地 | reviewed | 黄药师 | spec可跑完M0-M8+预检PASS | #177 reviewed |
