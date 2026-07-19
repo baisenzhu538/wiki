@@ -2,24 +2,25 @@
 id: task_20260719_wangyuyan-target-goal-zhouzijing
 title: 目标管理域补充——周子敬《目标管理的底层逻辑与实践》卡片化
 type: task
-status: queued
+status: in_progress
 priority: P0
-assignee: 老顽童
+assignee: hermes
 reviewer: 欧阳锋
 created_at: 2026-07-19
 expected_cards: 7（新卡）+ 5（已有卡补充）
 source_refs:
-  - 60_feedback/diagnosis/diag_20260719_wangyuyan-target-goal-zhouzijing.md
-  - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt
-  - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt
+- 60_feedback/diagnosis/diag_20260719_wangyuyan-target-goal-zhouzijing.md
+- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt
+- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt
 related:
-  - yt-management-goal-management
-  - yt-management-project-management
-  - framework-yitang-project-breakdown
-  - concept-一堂-三类目标策略
-  - concept-一堂-双目标法
-  - yt-tool-okr-cycle
-  - management-domain-digest
+- yt-management-goal-management
+- yt-management-project-management
+- framework-yitang-project-breakdown
+- concept-一堂-三类目标策略
+- concept-一堂-双目标法
+- yt-tool-okr-cycle
+- management-domain-digest
+updated_at: '2026-07-19T15:35:45.655061+00:00'
 ---
 
 # 目标管理域补充——周子敬卡片化任务单
