@@ -42,6 +42,7 @@ diagnostic_signals:
 quality_labels:
 - principle
 - insight
+  - concept-目标-北极星型vs探索型
 ---
 
 # 三类目标策略：必胜型严管、挑战型激驱、探索型留白
