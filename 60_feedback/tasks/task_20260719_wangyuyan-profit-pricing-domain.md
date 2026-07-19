@@ -2,12 +2,12 @@
 id: task_20260719_wangyuyan-profit-pricing-domain
 title: 利润为王域卡片化（深挖版）：利润优先经营框架 + 跨域桥接 + 暗知识补齐
 type: task
-status: in_progress
+status: pending_review
 priority: P0
 assignee: hermes
 reviewer: 欧阳锋
 created_at: 2026-07-19
-updated_at: '2026-07-19T10:34:42.746192+00:00'
+updated_at: '2026-07-19T13:07:12.562363+00:00'
 expected_cards: 14
 source_refs:
 - 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-nine-layer.md
