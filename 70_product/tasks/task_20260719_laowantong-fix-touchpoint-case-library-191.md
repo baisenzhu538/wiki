@@ -1,12 +1,12 @@
 ---
 id: task_20260719_laowantong-fix-touchpoint-case-library-191
 type: task
-status: in_progress
+status: pending_review
 assignee: hermes
 priority: P1
 estimated_cards: 1
 created_at: 2026-07-19
-updated_at: '2026-07-19T14:10:35.495879+00:00'
+updated_at: '2026-07-19T14:16:47.276886+00:00'
 source_refs:
 - 30_wiki/cases/case-一堂-触点篇案例库.md
 - 30_wiki/cases/case-一堂-教研加微信率40到100.md

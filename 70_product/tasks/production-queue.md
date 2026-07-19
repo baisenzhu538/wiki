@@ -456,7 +456,7 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 
 | 190 | `task_20260719_laowantong-zhu-ai-capability-roadmap` | 老朱 AI 能力建设刻意练习路线图（tool + agent-spec） | reviewed | 老顽童(kimi) | 2 张卡 | 无 | `70_product/tasks/task_20260719_laowantong-zhu-ai-capability-roadmap.md` | 基于 personal-os 已确认的「鑫港湾打工+借假修真+学习AI」策略，输出可执行路线图与个人 AI 教练智能体规格 |
 
-| 192 | `task_20260719_laowantong-fix-touchpoint-case-library-191` | 触点篇案例库返工：跨案例规律溯源/补 related 回链/新增规律节 | claimed-hermes | 老顽童 | 1 张 case 卡修复 | #191 欧阳锋终审 B+ 有条件通过 | `task_20260719_laowantong-fix-touchpoint-case-library-191.md` | 修复后直接 pass，不需再审 |
+| 192 | `task_20260719_laowantong-fix-touchpoint-case-library-191` | 触点篇案例库返工：跨案例规律溯源/补 related 回链/新增规律节 | pending_review | 老顽童 | 1 张 case 卡修复 | #191 欧阳锋终审 B+ 有条件通过 | `task_20260719_laowantong-fix-touchpoint-case-library-191.md` | 修复后直接 pass，不需再审 |
 
 | 193 | `task_20260719_wangyuyan-target-goal-zhouzijing` | 目标管理域补充——周子敬《目标管理的底层逻辑与实践》卡片化 | queued | - | 7张新卡+5项已有卡补充 | 无 | `60_feedback/tasks/task_20260719_wangyuyan-target-goal-zhouzijing.md` | 非一堂体系，独立方法论补管理域L4管业务；周子敬=以太资本CEO/字节美团天使投资人 |
 
