@@ -2,12 +2,12 @@
 id: task_20260714_wangyuyan-badcase-feedback-loop
 title: bad case 回流机制与首条记录
 type: task
-status: pending_review
+status: reviewed
 priority: P1
 assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-14
-updated_at: '2026-07-19T03:55:01.574282+00:00'
+updated_at: '2026-07-19T04:28:07.791891+00:00'
 expected_cards: 1
 source_refs:
 - 70_product/tasks/production-queue.md
@@ -15,6 +15,9 @@ related:
 - framework-kdo-self-attack
 - 60_feedback/issues
 - 60_feedback/retro
+reviewed_by: 欧阳锋
+review_date: '2026-07-19'
+grade: A-
 ---
 
 # bad case 回流机制与首条记录
