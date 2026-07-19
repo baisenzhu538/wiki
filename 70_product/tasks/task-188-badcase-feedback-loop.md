@@ -1,8 +1,8 @@
 ---
 id: task_20260714_wangyuyan-badcase-feedback-loop
-assignee: kimi
-status: queued
-updated_at: '2026-07-14T12:00:00+00:00'
+assignee: hermes
+status: in_progress
+updated_at: '2026-07-19T03:34:35.809240+00:00'
 ---
 
 # Task #188 · bad case 回流机制与首条记录
