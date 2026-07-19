@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-07-16 18:08 UTC
+# Concept Card Index — 2026-07-19 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -51,6 +51,7 @@
 | concept-harness-scoring-anchors | 评分锚定：1-5分制+语义锚点+取较低值 | concept | yitang, ai-collaboration |
 | concept-jevons-paradox-in-ai | 杰文斯悖论在 AI 时代 | concept | ai-collaboration, economics, strategy |
 | concept-ji-hao-ai-collaboration-methodology | 纪浩 AI 协作方法论：从判断到规模复用的五层体系 | concept | src_unknown, src_unknown |
+| concept-kdo-component-library | KDO 建模组件库——从踩坑疤痕到可复用建模牌组 | concept | kdo, modeling |
 | concept-kdo-review-workflow | KDO 生产审查工作流（欧阳锋模式） | concept | ai-collaboration, knowledge-management |
 | concept-mckinsey-issue-tree | Issue Tree：问题树拆解 | concept | src_unknown, src_unknown, src_unknown |
 | concept-mckinsey-mece | MECE 原则：相互独立、完全穷尽 | concept | src_unknown, src_unknown, src_unknown |
@@ -73,6 +74,7 @@
 | concept-streaming-extraction-pattern | 流式提取模式——浏览器虚拟滚动到API分页的映射 | concept | feishu, content-extraction, publishing, architecture |
 | concept-thousand-people-square | 千人广场模型：一堂做课背后的统计建模理念 | concept | src_unknown, src_unknown, src_unknown |
 | concept-token-capital | Token Capital：AI 时代的第三种资本结构 | concept | ai-native, management, strategy |
+| concept-truman-18-component-cards | Truman 原 18 组件源框架：五维度 × 18 张牌 | concept | modeling |
 | concept-wanghuan-adversarial-generation | 王欢概念：对抗式生成 | concept | src_unknown, src_unknown, src_unknown |
 | concept-wanghuan-ai-native-definition | 王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程 | concept | src_unknown, src_unknown, src_unknown |
 | concept-wanghuan-flywheel-first-loop | 王欢：AI 飞轮第一圈 | concept | src_unknown, src_unknown, src_unknown |
@@ -119,16 +121,21 @@
 | concept-一堂-魔法数字 | 魔法数字：前置动作的拐点指标，找到一个价值百万千万 | concept | yitang, business-formula |
 | concept-一堂-黑盒到白盒 | 黑盒到白盒：把「一大坨」的直觉决策拆成可证伪、可讨论、可沉淀、可迁移的参数结构 | concept | yitang, business-formula |
 | concept-两种典型思考习惯 | 两种典型思考习惯：效率导向 vs 效果导向 | concept | yitang, decision-science |
+| concept-利润-真正利润定义 | 真正利润：履行义务后可自由支配的钱 | concept | profit-pricing |
+| concept-利润-风险报偿本质 | 利润的风险报偿本质：创始人拿的不是贪婪，是承担风险的报酬 | concept | profit-pricing |
 | concept-半肥猫-ai-learning-toolification-methodology | 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进 | concept | src_unknown, src_unknown, src_unknown |
 | concept-单元模型-学练用 | 学练用：知识内化的三阶模型 | concept | yitang, decision-science |
 | concept-发现决策 | 发现决策：决策不是「做」出来的，是「发现」出来的 | concept | yitang, decision-science |
 | concept-多视角思考 | 多视角思考：用不同角色审视产品 | concept | yitang, decision-science |
+| concept-定价-价格杠杆 | 价格杠杆：定价那一刻，利润已经锁定 | concept | profit-pricing |
 | concept-峰终定律 | 峰终定律：用户体验的二八定律 | concept | yitang, decision-science |
 | concept-思考深度分级 | 思考深度分级：从表象到本质的认知阶梯 | concept | yitang, decision-science |
 | concept-惊喜公式 | 惊喜公式：超越预期的用户体验设计 | concept | yitang, decision-science |
 | concept-提升笔记阅读舒适度 | 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦 | concept | src_unknown |
 | concept-最佳实践建模 | 最佳实践建模：把别人的成功拆成可复制的模型 | concept | yitang, decision-science |
 | concept-最简单元模型 | 最简化的单元模型 | concept |  |
+| concept-目标-北极星型vs探索型 | 北极星型 vs 探索型目标：二分类与动态切换 | concept | management |
+| concept-目标管理组织四阶段 | 目标管理组织四阶段：从不关注到统一体系 | concept | management |
 | concept-科学决策宽度 | 科学决策宽度：个人·企业·团队三层视角 | concept | yitang, decision-science |
 | concept-稀缺机会窗口 | 稀缺机会窗口：不缺机会，缺识别窗口的能力 | concept | yitang, decision-science |
 | concept-纪浩-ai-collaboration-five-layer | 概念：纪浩AI协作五层工作空间法 | concept | src_unknown, src_unknown |
@@ -486,6 +493,8 @@
 | ai-methodology-tools | AI 方法论与工具栈：主题综合知识卡 | framework | ai, methodology |
 | ai-short-drama-ice-fire-dissection-compass | 冰火拆本罗盘：短剧剧本逆向拆解五维模型 | framework | ai-saas |
 | beverage-foodservice-channel | 餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架 | framework | yitang- business-strategy, product, entrepreneur |
+| bridge-利润-单元模型-定价闭环 | 桥接：一堂单元模型 × 利润为王 — 用业务公式做定价决策 | framework | profit-pricing, bridge |
+| bridge-利润-需求冰山-价值定价 | 桥接：一堂需求冰山 × 利润为王 — 客户为什么愿意付高价 | framework | profit-pricing, bridge |
 | business-formula-to-kdo-card-quality | 业务公式 ABC → KDO 卡片质量：用公式思维诊断知识卡的健康度 | framework | src_unknown, src_unknown |
 | concept-maister-trusted-advisor | Trusted Advisor：可信顾问信任模型 | framework | src_unknown, src_unknown |
 | concept-mckinsey-7s | 7-S Framework：组织诊断的七维模型 | framework | src_unknown, src_unknown |
@@ -521,6 +530,7 @@
 | framework-doris-industry-report-4step | 行业报告调研四步法：7天快速建立行业认知 | framework | research- yitang, research |
 | framework-five-step-lean-interface | 五步法与精益验证的接口 | framework | yitang, lean-startup, strategy |
 | framework-founder-ip-three-positioning | 创始人 IP 三定位模型 | framework | content-production |
+| framework-kdo-modeling-methodology | KDO 建模方法论——从踩坑打补丁到组件化建模 | framework | kdo, modeling |
 | framework-kdo-self-attack | KDO 知识自攻击框架：用对抗 Agent 在交付前主动找出弱点 | framework | kdo, quality, meta-methodology |
 | framework-lean-abcd-model | 关键假设 ABCD 模型 | framework | strategy, yitang, product |
 | framework-lean-expert-roadmap | 精益高手十年修炼地图 | framework | lean-startup, yitang |
@@ -532,6 +542,7 @@
 | framework-lean-systematic-test-curve | 系统测试曲线与三大测试范式 | framework | strategy, yitang, product |
 | framework-lean-tenx-formula | 十倍速公式：避免系统性失败 | framework | strategy, yitang, product |
 | framework-logic-cleanliness-five-levels | 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准 | framework | src_unknown, src_unknown |
+| framework-modeling-relation-exploration | 流程建模的拆解×完备×依赖：Step 2 关系探索 | framework | modeling |
 | framework-multi-agent-research-architecture | 多智能体研究架构模式（Multi-Agent Research Architecture） | framework | AI, research, agent |
 | framework-ouyangfeng-review-methodology | 欧阳锋审查方法论：三阶段架构评审框架 | framework | master, kdo |
 | framework-pan-product-organization | 泛产品组织设计：把团队当成产品来打磨 | framework | panproduct, organization, yitang |
@@ -642,7 +653,9 @@
 | framework-个人学习方法-科学提问 | 科学提问：AI时代提问=生产力入口 | framework | yitang, personal-learning |
 | framework-个人学习方法总框架 | 个人学习方法总框架：IPO×四环闭环 | framework | yitang, personal-learning |
 | framework-个人成长五步法 | 个人成长五步法：Truman的个人版本 | framework | yitang, decision-science |
+| framework-利润-利润优先经营框架 | 利润优先经营框架：从「利润是剩余」到「利润是生存成本」 | framework | profit-pricing |
 | framework-单元模型-外部对抗地图 | 外部对抗地图 | framework |  |
+| framework-目标三层拆解 | 目标三层拆解：项目层→业务层→组织层 | framework | management |
 | framework-科学决策三角形 | 科学决策三角形：宽度×高度×深度三维决策框架 | framework | yitang, decision-science |
 | framework-问题边界与Problem澄清五层结构 | 问题边界与Problem澄清五层结构 | framework | yitang, decision-science |
 | framework-高水平共识曲线 | 高水平共识曲线：决策质量的团队对齐模型 | framework | yitang, decision-science |
@@ -741,6 +754,7 @@
 | smart-medicine-cabinet-fraud-detection | 智能药柜/智慧药房招商骗局识别清单 | tool | healthcare- healthcare, pharmaceutical-retail, risk-warning |
 | tool-1视角升级思考法 | 技能：+1视角升级思考法 | tool | learning-methodology- management, decision-making, yitang, business-strategy |
 | tool-IPO学习-输入处理输出工具箱导航 | IPO工具箱导航：I/P/O三段工具索引 | tool | yitang, personal-learning |
+| tool-OGSM目标管理工具 | OGSM 目标管理工具：Objective-Goals-Strategies-Measures | tool | management |
 | tool-ROI决策评估画布 | ROI决策评估画布：三维度投资回报评估模板 | tool | yitang, decision-science |
 | tool-Truman-AI场景探索STAR模型 | 技能：AI场景探索STAR模型 | tool | ai-collaboration, yitang- yitang |
 | tool-Truman-AI工具选型决策 | 技能：AI工具选型决策 | tool | ai-collaboration, yitang- yitang |
@@ -1147,6 +1161,7 @@
 | tool-yitang-wechat-index | 微信指数：公众号内容热度追踪 | tool | yitang, research |
 | tool-yitang-weibo-index | 微博指数：公共话题热度追踪 | tool | yitang, research |
 | tool-yitang-xiaohongshu-data | 小红书数据：种草热度和用户口碑追踪 | tool | yitang, research |
+| tool-zhu-ai-deliberate-practice-roadmap | 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周 | tool | personal-os |
 | tool-一堂-12大易浪费触点 | 一堂12大易浪费触点：SABC四级触点清单与小抄卡牌法 | tool | yitang, conversion-rate |
 | tool-一堂-ABACC叙事法 | 一堂ABACC叙事法：非标品与非高科技讲香的开头捕获框架 | tool | yitang, conversion-rate |
 | tool-一堂-FAB说服法 | 一堂 FAB 说服法：事实起点 → 逻辑节点 → 价值终点的以理服人结构 | tool | yitang, conversion-rate |
@@ -1754,8 +1769,10 @@
 | case-milktea-five-step | 奶茶店五步法：从九死一生到十年百店的科学创业之路 | case | product, yitang |
 | case-modeling-abstraction-reliability-ladder | 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例" | case | yitang, master, modeling |
 | case-modeling-abstraction-yitang-models | 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图 | case | src_unknown, src_unknown, src_unknown |
+| case-modeling-ai-image-workflow | AI 文生图流程建模：从 v1 抽卡到 v5 攻坚会的五版迭代 | case | modeling |
 | case-modeling-essence-levels | 本质建模案例：从盲目创新到学科经典的五层思维深度 | case | src_unknown, src_unknown, src_unknown |
 | case-modeling-essence-schools | 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野 | case | src_unknown, src_unknown, src_unknown |
+| case-modeling-gongjianhui-facilitation | 共建会/攻坚会流程建模：从 30-50% 成功率到 80-100% 的 8-9 步法 | case | modeling |
 | case-modeling-process-livestream-prep | 流程建模案例：Truman 直播开播前 2 小时个人准备清单 | case | src_unknown, src_unknown, src_unknown |
 | case-modeling-process-livestream-roles | 流程建模案例：直播开播团队分工与检查清单 | case | src_unknown, src_unknown, src_unknown |
 | case-modeling-process-sop-evolution | 流程建模案例：一堂 2021-2024 年 SOP 清单演进史 | case | src_unknown, src_unknown, src_unknown |
@@ -2034,6 +2051,9 @@
 | case-一堂-邹韵涛-中小企业高级管理辅导班专题培训会 | 邹韵涛：政府出资的中小企业高管封闭培训会，106 人报名、50 人实到、满意度 100% | case | yitang, conversion-rate |
 | case-一堂-阻力篇案例库 | 一堂转化率黑客阻力篇案例索引库（12 种阻力消除） | case | yitang, conversion-rate |
 | case-一堂-陈贤敏汉堡-hypothesis-validation | 案例：陈贤敏中式汉堡先开实验店验证关键假设 | case | src_unknown, src_unknown |
+| case-利润-白牌珠宝流量上瘾症 | 白牌珠宝直播：流量驱动的利润陷阱 | case | profit-pricing |
+| case-利润-苹果智能手机利润垄断 | 苹果智能手机利润垄断：18% 出货量拿走 85% 利润 | case | profit-pricing |
+| case-利润-通用汽车份额追逐失败 | 通用汽车 2002-2010：为 29% 份额降价的代价 | case | profit-pricing |
 | case-半肥猫-course-to-skill | 案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具 | case | src_unknown, src_unknown |
 | case-婚礼操盘-用户和场景 | 案例：婚礼操盘——用户和场景分析 | case | yitang, decision-science |
 | case-婚礼规划 | 案例：婚礼规划——完整决策流程 | case | yitang, decision-science |
@@ -2150,6 +2170,7 @@
 | dk-modeling-essence-predictive | '解释性本质'是高级鸡汤：真正值钱的本质必须能指导下一次真实决策 | dk | yitang, master |
 | dk-modeling-expert-consensus-five-percent | 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感 | dk | yitang, education, modeling |
 | dk-modeling-explanatory-vs-predictive-essence | 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践 | dk | yitang, modeling |
+| dk-modeling-jump-step-cost | 跳步代价：前置输入为空，后半段十倍百倍惩罚 | dk | modeling |
 | dk-modeling-logical-cleanliness-root | 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑 | dk | yitang, ai-saas |
 | dk-modeling-model-arsenal-paradigms | 99% 的模型跑不出二三十个范式：先装武器库再创新 | dk | yitang, ai-saas |
 | dk-modeling-question-scaffold-not-answer | 模型是提问的脚手架，不是答案 | dk | yitang, modeling, business-strategy |
@@ -2181,6 +2202,7 @@
 | dk-p9-glob-miss | P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸 | dk | master |
 | dk-panproduct-org-linear-to-circular | 组织资产：从直线运动到圆周运动 | dk | panproduct, organization, yitang |
 | dk-panproduct-org-serve-the-lowest | 组织领导心法：最高服务最低 | dk | panproduct, organization, yitang, leadership |
+| dk-process-is-scar-tissue | 流程是业务的疤痕：每个节点都曾是流血后的痂 | dk | modeling |
 | dk-pseudo-demand-trap | 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地 | dk | yitang, business-strategy |
 | dk-signal-cluster-illusion | 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕 | dk | yitang, ai |
 | dk-skill-market-agent-self-install | 暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述 | dk | ai-collaboration, yitang |
@@ -2272,6 +2294,14 @@
 | dk-yitang-over-prediction-danger | 早期项目长期精确财务预测是过度预测 | dk | yitang, decision-science |
 | dk-yitang-project-overmanagement-vs-bare-run | 过度管理 vs 裸跑的平衡暗知识：匹配工具复杂度与项目复杂度 | dk | yitang, management |
 | dk-yitang-sales-common-pitfalls | 一堂科学销售常见陷阱：六大反模式与修复动作 | dark-knowledge | yitang |
+| dk-利润-创始人利润耻感 | 创始人利润耻感：不敢拿利润不是贪婪问题，是认知问题 | dk | profit-pricing |
+| dk-利润-利润敏感度非对称性 | 利润敏感度的非对称性：为什么老板对降价不敏感但对现金流极度敏感 | dk | profit-pricing |
+| dk-利润-定价恐惧三段式反问 | 定价恐惧的三段式反问：价格上不去是因为创始人不敢 | dk | profit-pricing |
+| dk-利润-平台驱动本质是现金流驱动 | 平台驱动的本质是现金流驱动：流量生意为什么赚不到利润 | dk | profit-pricing |
+| dk-利润-资本游戏与真实商业分界线 | 资本游戏 vs 真实商业：为什么你不能学亚马逊不赚钱 | dk | profit-pricing |
+| dk-实事求是目标管理双原则 | 实事求是+最佳实践：目标管理的两条铁律 | dk | management |
+| dk-目标管理四大病 | 目标管理四大病：经验主义、本本主义、形式主义、完美主义 | dk | management |
+| dk-管控vs协同执行策略 | 管控 vs 协同：目标执行的二元选择框架 | dk | management |
 | yt-business-model-pivot-signals | 商业模式转型信号：何时该 pivot | dk | business-model |
 | yt-demand-competitive-displacement | 需求替代陷阱：竞品不是敌人，替代方案才是 | dk | demand-analysis |
 | yt-demand-fake-demand-detection | 伪需求识别：7个危险信号 | dk | demand-analysis |
