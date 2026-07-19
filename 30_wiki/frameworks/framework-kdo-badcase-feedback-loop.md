@@ -21,13 +21,13 @@ source_refs:
   - 30_wiki/frameworks/framework-kdo-self-attack.md
   - 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md
   - 60_feedback/audit/kcard-issues-board-2026-06-15.md
-  - 70_product/tasks/task_20260714_wangyuyan-badcase-feedback-loop.md
+  - 60_feedback/tasks/task_20260714_wangyuyan-badcase-feedback-loop.md
   - .agent/laowantong-context.md
 related:
   - framework-kdo-self-attack
   - framework-ouyangfeng-review-methodology
   - system-kdo-quality-labels
-  - concept-kdo-flywheel
+  - kdo-flywheel
   - yt-decision-y-model
 ---
 
