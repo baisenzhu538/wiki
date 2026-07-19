@@ -1,4 +1,4 @@
-﻿---
+---
 id: framework-kdo-badcase-feedback-loop
 title: KDO Bad Case 回流机制：从用户纠错到知识进化的闭环
 type: framework
