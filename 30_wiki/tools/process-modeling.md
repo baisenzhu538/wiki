@@ -300,3 +300,19 @@ SOP 格式：
 ---
 
 *老顽童 · 2026-06-14 · 基于一堂建模能力培训课程（Truman 口述）*
+
+## 组件思维应用
+
+> 来源：口述 L2618-L2706
+
+如何用 18 组件拼装 SOP：
+
+1. 面对一个建模任务，从 `concept-truman-18-component-cards` 中选 5-8 张当前最需要的牌
+2. 按依赖关系排列（见 `framework-modeling-relation-exploration`）
+3. 这就是这个 SOP 的骨架——后续再填具体内容
+
+### 流程是业务的疤痕
+
+每个流程节点都是曾经的"流血事故"留下的疤痕。组件 = 疤痕的最小可复用单元。
+
+详见 `dk-process-is-scar-tissue`
