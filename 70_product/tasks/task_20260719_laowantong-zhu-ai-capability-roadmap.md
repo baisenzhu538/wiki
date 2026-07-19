@@ -1,22 +1,22 @@
 ---
 id: task_20260719_laowantong-zhu-ai-capability-roadmap
 type: task
-status: queued
-assignee: kimi
+status: pending_review
+assignee: hermes
 priority: P1
 estimated_cards: 2
 created_at: 2026-07-19
-updated_at: 2026-07-19
+updated_at: '2026-07-19T13:43:53.647901+00:00'
 source_refs:
-  - "30_wiki/personal-os/zhu-future-directions.md"
-  - "30_wiki/personal-os/user-insight-profile.md"
-  - "30_wiki/personal-os/zhu-feedback-patterns.md"
-  - "30_wiki/personal-os/zhu-project-board.md"
+- 30_wiki/personal-os/zhu-future-directions.md
+- 30_wiki/personal-os/user-insight-profile.md
+- 30_wiki/personal-os/zhu-feedback-patterns.md
+- 30_wiki/personal-os/zhu-project-board.md
 related:
-  - "[[zhu-future-directions]]"
-  - "[[user-insight-profile]]"
-  - "[[zhu-feedback-patterns]]"
-  - "[[task_20260719_wangyuyan-profit-pricing-domain]]"
+- '[[zhu-future-directions]]'
+- '[[user-insight-profile]]'
+- '[[zhu-feedback-patterns]]'
+- '[[task_20260719_wangyuyan-profit-pricing-domain]]'
 ---
 
 # 老朱 AI 能力建设刻意练习路线图

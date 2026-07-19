@@ -2,12 +2,15 @@
 id: task_20260719_wangyuyan-profit-pricing-domain
 title: 利润为王域卡片化（深挖版）：利润优先经营框架 + 跨域桥接 + 暗知识补齐
 type: task
-status: pending_review
+status: reviewed
 priority: P0
 assignee: hermes
 reviewer: 欧阳锋
+reviewed_by: 欧阳锋
+review_date: '2026-07-19'
+grade: A-
 created_at: 2026-07-19
-updated_at: '2026-07-19T13:07:12.562363+00:00'
+updated_at: '2026-07-19T13:31:45.223522+00:00'
 expected_cards: 14
 source_refs:
 - 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-nine-layer.md
@@ -29,6 +32,9 @@ related:
 - framework-yitang-project-abcd-classification
 - tool-月白-价格带视觉策略匹配
 - framework-yitang-high-level-execution
+reviewed_by: 欧阳锋
+review_date: '2026-07-19'
+grade: A-
 ---
 
 # 利润为王域卡片化（深挖版）：利润优先经营框架 + 跨域桥接 + 暗知识补齐
