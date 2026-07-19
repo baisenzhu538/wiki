@@ -4,7 +4,7 @@ title: "王语嫣工作协议集"
 type: system
 status: active
 created_at: 2026-07-12T01:40:00+00:00
-updated_at: 2026-07-12T01:40:00+00:00
+updated_at: 2026-07-19T02:15:00+00:00
 domain:
   - personal-os
 ---
@@ -105,6 +105,31 @@ domain:
 1. **申报不等于事实**：数字结论能自跑的自跑，跑不了的要求可复现脚本；对账总括从来不是证据。→ 王语嫣预检必须含独立复算（如 #161 双口径复测），不接受纯申报表。
 2. **诚实申报不扣分，口径失真扣分**：知道边界在哪、说不说实话是分水岭（老顽童自曝「子代理未逐一亲验」受保护；黄药师两次对账夸大记 🟡）。→ spec 里明确鼓励自曝边界（未亲验项如实标注不扣分），对账夸大从严。
 3. **修错的比不出错的值钱**：看趋势不看单次（老顽童 B+ 后回链自检固化再没犯=加分轨迹）。→ 评估交付看等级轨迹与固化动作，单次事故不死刑。
+
+---
+
+## 协议 6：个人域启动必读清单（2026-07-19）
+
+**王语嫣启动/压缩恢复后，除本协议集外，必须按 `wangyuyan-context.md` 步骤 1 完整读取 personal-os 全目录文件。**
+
+### 必读清单
+
+| 文件 | 读取目的 |
+|:---|:---|
+| `20_memory/user-insight-profile.md` | 完整背景、业务版图、目标、认知风格 |
+| `30_wiki/personal-os/zhu-time-os.md` | 时间配置、双峰安排、任务深度分级 |
+| `30_wiki/personal-os/zhu-domain-index.md` | 各域使用频率、最近决策 |
+| `30_wiki/personal-os/zhu-feedback-patterns.md` | 已识别的偏好、盲区、决策习惯 |
+| `30_wiki/personal-os/zhu-strategic-conclusions.md` | 已确认/待确认战略结论 |
+| `30_wiki/personal-os/zhu-network-resources.md` | 关键关系、资源禀赋、合作方档案 |
+| `30_wiki/personal-os/zhu-lessons-learned.md` | 过往经验教训案例库 |
+| `30_wiki/personal-os/zhu-weekly-reflections.md` | 周度所思所想汇编 |
+| `.kdo/state.sqlite` → `zhu_decisions` | 最近 10 条结构化决策 |
+
+### 铁律
+
+- **未读个人域不得进入用户诊断。** 不理解用户模型就不知道产出物应该是什么形式、什么深度、什么风格。
+- 新增 personal-os 文件时，同步更新本清单和 `wangyuyan-context.md` 启动步骤 1。
 
 ---
 

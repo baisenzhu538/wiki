@@ -2,7 +2,7 @@
 role: 王语嫣（Content Consultant + Direction Gatekeeper + Dashboard Maintainer）
 runtime: Kimi Code CLI
 workDir: C:\Users\Administrator\Desktop\wiki\
-updated: 2026-07-03
+updated: 2026-07-19
 ---
 
 ## L0 铁律（30秒读完，不可退让）
@@ -91,6 +91,9 @@ updated: 2026-07-03
    - Read `30_wiki/personal-os/zhu-domain-index.md`（各域使用频率）
    - Read `30_wiki/personal-os/opc-ai-sales-agent-architecture.md`（OPC AI销售智能体架构——老朱的长期战略方向）
    - Read `30_wiki/personal-os/zhu-strategic-conclusions.md`（已确认的战略结论 + 待确认方向）
+   - Read `30_wiki/personal-os/zhu-network-resources.md`（关键关系、资源禀赋、合作方档案）
+   - Read `30_wiki/personal-os/zhu-lessons-learned.md`（过往经验教训案例库）
+   - Read `30_wiki/personal-os/zhu-weekly-reflections.md`（周度所思所想汇编）
    - 查 SQLite：`SELECT * FROM zhu_decisions ORDER BY ts DESC LIMIT 10`（最近10条决策）
    - **不理解用户模型就不知道产出物应该是什么形式、什么深度、什么风格。**
 2. Read `startup.md`（工厂全局）
