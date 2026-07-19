@@ -26,23 +26,30 @@ QUEUE_PATH = Path(__file__).resolve().parent.parent.parent / "70_product" / "tas
 
 
 def parse_queue(path: Path = QUEUE_PATH) -> list[dict]:
-    """Parse production-queue.md table rows."""
+    """Parse production-queue.md table rows.
+
+    Detection is encoding-robust: uses the ASCII separator row ``|:---:|…``
+    to find the queue data table rather than matching Chinese header text.
+    """
     rows = []
     in_table = False
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.rstrip("\n")
             if not in_table:
-                if line.startswith("| 队列序号") or line.startswith("| 队列序号 "):
+                # Detect table by separator row — pure ASCII, immune to
+                # Mojibake / double-encoding issues on Chinese headers.
+                if re.match(r"^\|:---", line.strip()):
                     in_table = True
                 continue
-            # Skip separator line
-            if set(line.strip()) <= {"|", "-", ":", " "}:
+            # Skip separator / alignment rows (belt-and-suspenders)
+            if re.match(r"^\|:---", line.strip()):
                 continue
+            # Skip blank lines between rows
+            if line.strip() == "":
+                continue
+            # End of table
             if not line.startswith("|"):
-                # Blank lines between table rows are allowed — skip them
-                if line.strip() == "":
-                    continue
                 break
             cells = [c.strip() for c in line.strip("|").split("|")]
             if len(cells) < 5:
