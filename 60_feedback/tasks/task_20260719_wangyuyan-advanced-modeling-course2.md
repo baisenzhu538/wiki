@@ -2,12 +2,12 @@
 id: task_20260719_wangyuyan-advanced-modeling-course2
 title: 高阶建模第二课卡片化（修订版）——流程建模实践：18组件·关系探索·三案例
 type: task
-status: pending_review
+status: reviewed
 priority: P1
 assignee: hermes
 reviewer: 欧阳锋
 created_at: 2026-07-19
-updated_at: '2026-07-19T17:06:54.495931+00:00'
+updated_at: '2026-07-19T17:40:41.993671+00:00'
 expected_cards: 4（新卡）+ 6（已有卡enrich）+ 2（暗知识卡）+ 3（Phase 2解压资产）
 source_refs:
 - 60_feedback/diagnosis/diag_20260719_wangyuyan-advanced-modeling-course2.md
@@ -24,6 +24,9 @@ related:
 - concept-kdo-component-library
 - framework-TCPR皇冠模型
 - yt-decision-y-model
+reviewed_by: 欧阳锋
+review_date: '2026-07-19'
+grade: A-
 ---
 
 # 高阶建模第二课卡片化（修订版）——流程建模实践
