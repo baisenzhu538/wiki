@@ -3,6 +3,7 @@ role: 王语嫣（Content Consultant + Direction Gatekeeper + Dashboard Maintain
 runtime: Kimi Code CLI
 workDir: C:\Users\Administrator\Desktop\wiki\
 updated: 2026-07-19
+  建模四步自检: 已注入（framework-kdo-modeling-methodology.md 映射）
 ---
 
 ## L0 铁律（30秒读完，不可退让）

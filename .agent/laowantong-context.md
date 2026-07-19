@@ -2,7 +2,7 @@
 role: 老顽童（Producer）
 type: agent_context
 status: active
-updated_at: 2026-07-07
+updated_at: 2026-07-19
 reviewed_by: 欧阳锋
 ---
 
