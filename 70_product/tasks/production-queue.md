@@ -217,7 +217,7 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 | 185 | `task_20260713_wangyuyan-template-placeholder-hygiene` | 妯℃澘鍗犱綅绗﹀崼鐢燂細xxx/.../wikilink绛墌130鏉＄ず渚媤ikilink鏀逛唬鐮佸潡鍖呰９锛屽浘璋辩伆鐧界偣褰掗浂锛涘巻鍙叉枃妗ｇ湡瀹炲紩鐢ㄤ笉鍔?| reviewed | 榛勮嵂甯?| 鍗犱綅绗﹀綊闆?妯℃澘鎶芥煡+lint鏃犳柊澧?| 鏃狅紱#184鍚庨『棰?|
 | 186 | `task_20260713_wangyuyan-agent-spec-prompts-ingestion` | agent-spec鍗″叆鐭ヨ瘑灞傦細20寮?prompts 鍗″叆 30_wiki/tools锛堥攢鍞煙6寮犳寜#182鏄犲皠琛ㄥ姞D鍩熷洖閾?kernel绯诲垪7寮?浜у搧椤圭洰绠＄悊7寮犳寜鎵€灞炲煙鎺ワ級 | reviewed | 鑰侀〗绔?| 20姝ｅ紡鍗?lint鏃犳柊澧?| #182 reviewed鍚庨『棰?|
 | 187 | `task_20260714_wangyuyan-material-gaps-tracking` | 绱犳潗缂哄彛杩借釜涓庡洖婧愮櫥璁帮紙4绫荤己鍙ｏ細澶嶇洏鍚堥泦7妗堜緥/寰佹枃鍗佺瘒+閭辨芳妗堜緥闆?鍙屼笁瑙?鍒绘剰缁冧範锛沚locked绛夎€佹湵锛?| blocked | 鑰侀〗绔?| 缂哄彛鐧昏鍗?绱犳潗鍒颁綅鍚?4h鍐呰瘎浼板叆闃?| 鑰佹湵鎻愪緵绱犳潗 |
-| 188 | `task_20260714_wangyuyan-badcase-feedback-loop` | bad case反馈闭环（退回返工：缺self-attack+死链修复） | queued | 鑰侀〗绔?| 鏈哄埗鍗?寮?棣栨潯璁板綍+context琛ヤ竵 | 鏃?|
+| 188 | `task_20260714_wangyuyan-badcase-feedback-loop` | bad case反馈机制与首条记录：模板+存储路径+缺陷分类+闭环流程；首条等老朱真实使用 | reviewed | 鑰侀〗绔?| 鏈哄埗鍗?寮?棣栨潯璁板綍+context琛ヤ竵 | 鏃?|
 | 176 | `task_20260712_wangyuyan-c-domain-scan-fix-assets` | C鍩熸煡婕忎慨澶嶇浜屾壒锛堣祫浜у眰锛夛細8鐙珛妗堜緥鍗★紙姹夊牎搴?缇庡洟灏忕孩鐐?鑺墖寮€鍙戞澘/鍑忔硶涓変緥/鍏紬鍙峰崟鏈堜环鍊?鍐滄満鎾悎/鍦ㄧ嚎鏁欒偛/濂宠搴椾笁鐗堬級+5鏂癲k/tool鍗★紙鍒嗗瀷閫掑綊/璺崇骇璧锋墜/杈归檯ROI/浜旀潯鏇夸唬璺緞/涓嶅彲缁熻蹇呭啓锛?鏃㈡湁鍗¤ˉ鑺傜害15椤?鍚堥泦閫熷啓琛ュ叏 | reviewed | 鑰侀〗绔?| 13鍗?琛ヨ妭鍏ㄨ惤鍦?棰勬PASS | #175 reviewed+D鍩?169鍚庨『棰嗭紙C鍩熶慨澶嶄紭鍏圖鍩烶1锛?|
 | 177 | `task_20260713_wangyuyan-coach-dialogue-engine-protocol` | 鏁欑粌瀵硅瘽寮曟搸鍗忚鍗★紙鍏变韩浠?2鏉?鎺у埗鏈哄埗涓夐€変竴+韬唤杞碩CPR[鐞嗚搴曞骇=涓€鍫俆CPR鐨囧啝妯″瀷鍘熺敓锛孻AI鍥涘垎绫?鍏朵骇鍝佸寲]+闄勫姞浜у嚭TCPR妯″瀷姝ｅ紡鍗★級+YAI瀹炲綍妗堜緥鍗∶? | reviewed | 榛勮嵂甯?| 3鍗★紙鍗忚鍗?TCPR鍗?鍙屽疄褰曪級 | 鏃狅紙#168A/#175鍚庨『棰嗭級锛涢』鏃╀簬鑰侀〗绔?172/#179/#180 |
 | 178 | `task_20260713_wangyuyan-decision-coach-engine-upgrade` | B鍩?153绉戝鍐崇瓥鏁欑粌spec鍗囩骇锛氬伐鍏锋竻鍗曗啋瀵硅瘽寮曟搸锛堝紩鐢ㄥ紩鎿庡崱+鐩插尯搴撹仛鍚?涓塸attern娉ㄥ叆+鍩熼棿杞粙锛夛紝鎸夐粍鑽笀寤鸿涔﹁惤鍦?| reviewed | 榛勮嵂甯?| spec鍙窇瀹孧0-M8+棰勬PASS | #177 reviewed |
@@ -226,4 +226,6 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 | 181 | `task_20260713_wangyuyan-opc-sales-assistant-engine-adapt` | OPC閿€鍞璇濆姪鎵嬪紩鎿庨€傞厤锛堝弬璋嬪瀷瑁佸壀鐗堬級锛氫笁浠跺娉ㄥ叆=12闃诲姏鐩插尯杩囩瓫+纭害鏉熸樉寮忓鍛?娣卞害鍒嗙骇锛涘姞鎸侱鍩熷崱锛涗笉鎼琈0-M8涓嶆敼鍥涙缁撴瀯 | reviewed | 榛勮嵂甯?| 閫傞厤spec+瀹炴祴鏍蜂緥+棰勬PASS | #177+#169 reviewed鍚庨『棰嗭紱鐜嬭瀚ｈ瀹氾細鍙傝皨鍨嬩笉鍏ㄦ惉鏁欑粌鍨嬮噷绋嬬 |
 | 182 | `task_20260713_wangyuyan-opc-sales-d-domain-linking` | OPC閿€鍞煙脳D鍩熷洖閾撅紙33鍗¤ˉ鏂规硶璁哄簳搴у紩鐢細寮€鍦虹櫧鈫掑崄鎸囨ā鍨?寮傝鈫掗樆鍔涙柟娉曡/閿€鍐犳浣嶁啋涓夋洸绾垮垎鏁扮嚎锛涙槧灏勮〃鍏堣鐜嬭瀚ｈ繃鐩悗鎵归噺锛?| reviewed | 鑰侀〗绔?| 33鍗″洖閾?lint鏃犳柊澧?| #169-171+#174 reviewed+#177锛堟槧灏勮〃鍙厛鍔級 |
 | 189 | `task_20260719_wangyuyan-profit-pricing-domain` | 鍒╂鼎涓虹帇鍩熷崱鐗囧寲锛氬埄娑︿紭鍏堢粡钀ユ鏋朵笌瀹氫环鏂规硶璁?| queued | - | 8寮爓iki鍗?鍙€塧gent-spec | 鏃狅紱鏂板煙寮€鑽掞紝鏉ユ簮璧皵鏇悸疯タ钂欍€婄湡姝ｇ殑鍒╂鼎銆?姘存按鎷嗕功/缁忚惀璇?|
+
+
 
