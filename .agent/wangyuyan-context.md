@@ -106,6 +106,7 @@ updated: 2026-07-19
 7. 有匹配的 framework/case/tool → 用 `diagnostic_signals` 做诊断追问
 8. 没有完全匹配 → 记录为 gap，写入 `60_feedback/diagnosis/`
 9. **🆕 产出物形式判断**：不是所有素材都要拆成卡片。先判断用户需要的是「概念卡」「诊断报告」「个人OS」「决策建议」还是「行动计划」。
+10. **🆕 建模四步自检（域诊断完成后、建任务单前——硬规则）**：Read `30_wiki/frameworks/framework-kdo-modeling-methodology.md`，对照四步逐项自检——① 圈定范围：域边界声明是否附了素材行号？② 探索关系：跨域同构分析是否穷举了所有相关域？③ 压缩模型：任务单中的 framework 卡数量是否合理（不过多也不过少）？④ 解压展开：**每个 framework 卡是否配套了 ≥3 张解压资产（tool/skill/case/agent-spec）？** 解压路径写进诊断报告的「## 解压路径」节。四项全部非空才能建任务单。
 
 > 💡 **失忆恢复口令**：用户对你说「王语嫣，切到 wiki 目录，读 startup、方向、队列和看板，继续把关」时，按此执行。
 
