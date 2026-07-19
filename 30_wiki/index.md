@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-07-15T03:21:09+00:00_
+_Last updated: 2026-07-20T00:58:00+00:00_
 
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[_archive/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -1134,8 +1134,11 @@ _Last updated: 2026-07-15T03:21:09+00:00_
 - [[dk/dk-ai-social-progress-not-automatic|社会进步不是自动的]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[dk/dk-research-decision-first-mapping|研究活动如何服务决策]] — source `60_feedback/audit/synthesis_research.md`
 - [[dk/dk-research-identity-craft-for-closed-information|为获取封闭情报设计合法身份]] — source `60_feedback/audit/synthesis_research.md`
-- [[dk/dk-research-triangulation-stop-rule|多源交叉验证的停止规则]] — source `60_feedback/audit/synthesis_research.md`
-- [[dk/dk-strategy-correlation-vs-causation-leverage|相关指标 vs 因果抓手]] — source `60_feedback/audit/synthesis_strategy.md`
+- [[skills/skill-research-triangulation-stop-rule|多源交叉验证的停止规则]] — source `60_feedback/audit/synthesis_research.md`
+- [[skills/skill-duanwangye-feishu-publishing|段王爷·飞书发布引擎 — 内容到飞书docx全链路]] — source `capability/duanwangye/feishu-publishing`
+- [[skills/skill-duanwangye-kdo-pipeline|段王爷·KDO文章管线 — produce→validate→ship]] — source `capability/duanwangye/kdo-article-pipeline`
+- [[skills/skill-duanwangye-wechat-extraction|段王爷·微信消息解密与提取]] — source `capability/duanwangye/wechat-mcp`
+- [[skills/yt-demand-insight-extraction|从用户访谈中提取真实需求：访谈技巧与偏见规避]] — source `10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md`
 - [[dk/dk-strategy-organization-strategy-mismatch|组织能力与战略方向不匹配]] — source `60_feedback/audit/synthesis_strategy.md`
 - [[dk/dk-strategy-stage-leverage-mismatch|战略阶段与杠杆错配]] — source `60_feedback/audit/synthesis_strategy.md`
 - [[dk/dk-time-management-common-mistakes|时间管理三大反模式：工具迷信、二极管思维、边界模糊]] — source `00_inbox/时间管理/truman-时间管理课程-口述.txt`
@@ -1587,6 +1590,9 @@ _Last updated: 2026-07-15T03:21:09+00:00_
 - [[skills/skill-research-behavior-over-asking|行为证据重于口头证据]] — source `60_feedback/audit/synthesis_yitang.md`
 - [[skills/skill-research-decision-first-mapping|决策优先映射：让研究动作直接服务决策]] — source `60_feedback/audit/synthesis_research.md`
 - [[skills/skill-research-triangulation-stop-rule|多源交叉验证的停止规则]] — source `60_feedback/audit/synthesis_research.md`
+- [[skills/skill-duanwangye-feishu-publishing|段王爷·飞书发布引擎 — 内容到飞书docx全链路]] — source `capability/duanwangye/feishu-publishing`
+- [[skills/skill-duanwangye-kdo-pipeline|段王爷·KDO文章管线 — produce→validate→ship]] — source `capability/duanwangye/kdo-article-pipeline`
+- [[skills/skill-duanwangye-wechat-extraction|段王爷·微信消息解密与提取]] — source `capability/duanwangye/wechat-mcp`
 - [[skills/yt-demand-insight-extraction|从用户访谈中提取真实需求：访谈技巧与偏见规避]] — source `10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md`
 - [[system/pending_unknown|待补充链接（占位符）]] — source `{'pending_archive': 'src_unknown'}`
 - [[systems/agent-external-brain-design|Agent 外挂大脑设计]] — source `pending_archive:src_20260503_52ae08ba-kdo_product_design_agent_final`
