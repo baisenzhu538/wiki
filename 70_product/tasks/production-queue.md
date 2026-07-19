@@ -1,4 +1,4 @@
-﻿---
+---
 
 id: production-queue
 
@@ -455,7 +455,7 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 | 189 | `task_20260719_wangyuyan-profit-pricing-domain` | 鍒╂鼎涓虹帇鍩熷崱鐗囧寲锛氬埄娑︿紭鍏堢粡钀ユ鏋朵笌瀹氫环鏂规硶璁?| queued | - | 8寮爓iki鍗?鍙€塧gent-spec | 鏃狅紱鏂板煙寮€鑽掞紝鏉ユ簮璧皵鏇悸疯タ钂欍€婄湡姝ｇ殑鍒╂鼎銆?姘存按鎷嗕功/缁忚惀璇?|
 
 | 190 | `task_20260719_laowantong-zhu-ai-capability-roadmap` | 老朱 AI 能力建设刻意练习路线图（tool + agent-spec） | queued | 老顽童(kimi) | 2 张卡 | 无 | `70_product/tasks/task_20260719_laowantong-zhu-ai-capability-roadmap.md` | 基于 personal-os 已确认的「鑫港湾打工+借假修真+学习AI」策略，输出可执行路线图与个人 AI 教练智能体规格 |
-| 191 | `case-一堂-触点篇案例库` | 转化率黑客触点篇案例索引库（SABC 分级与触点挖掘） | pending_review | 老顽童(hermes) | 1 张 case 卡 | 无；欧阳锋退回返工 4 项已修复 | `30_wiki/cases/case-一堂-触点篇案例库.md` | C 级退回修复：source_refs 验证/wikilink 改 bare ID/补入队列/self-attack |
+| 191 | `case-一堂-触点篇案例库` | 转化率黑客触点篇案例索引库（SABC 分级与触点挖掘） | pending_review | 老顽童(hermes) | 1 张 case 卡 | 欧阳锋终审 B+ 有条件通过，退回 3 项待修复 | `30_wiki/cases/case-一堂-触点篇案例库.md` | 返工：跨案例规律溯源/补 related 回链/新增跨案例规律节 |
 
 
 
