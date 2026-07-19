@@ -1,16 +1,17 @@
 ---
 id: task_20260719_wangyuyan-profit-pricing-domain
-title: 利润为王域卡片化：利润优先经营框架与定价方法论
+title: 利润为王域卡片化（深挖版）：利润优先经营框架 + 跨域桥接 + 暗知识补齐
 type: task
 status: queued
-priority: P1
+priority: P0
 assignee: kimi
 reviewer: 欧阳锋
 created_at: 2026-07-19
-updated_at: '2026-07-19T00:00:00+00:00'
-expected_cards: 8
+updated_at: '2026-07-19T17:00:00+00:00'
+expected_cards: 14
 source_refs:
   - 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-nine-layer.md
+  - 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md
   - 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md
   - 00_inbox/利润为王/企业利润经营分析_智能优化.txt
   - 00_inbox/利润为王/笔记1.txt
@@ -18,15 +19,25 @@ source_refs:
   - 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt
 related:
   - diag_20260719_wangyuyan-profit-pricing-nine-layer
+  - diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement
   - framework-yitang-unit-model
   - framework-yitang-demand-iceberg
+  - framework-yitang-nine-layer-deep-dig
+  - framework-yitang-oscar-research
+  - framework-一堂-12触点SABC分级
+  - yt-decision-y-model
+  - framework-yitang-project-abcd-classification
   - tool-月白-价格带视觉策略匹配
+  - framework-yitang-high-level-execution
 ---
 
-# 利润为王域卡片化：利润优先经营框架与定价方法论
+# 利润为王域卡片化（深挖版）：利润优先经营框架 + 跨域桥接 + 暗知识补齐
 
-> 任务来源：王语嫣诊断报告 `diag_20260719_wangyuyan-profit-pricing-nine-layer.md`
-> 任务目标：将赫尔曼·西蒙《真正的利润》+ 水水拆书/经营课素材，沉淀为 KDO 商业经营域首批系统卡片。
+> ⚠️ **本文件已由 `diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md` 补充深挖**
+> **任务来源**：王语嫣诊断报告 `diag_20260719_wangyuyan-profit-pricing-nine-layer.md` + 补充诊断 `diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md`
+> **任务目标**：将赫尔曼·西蒙《真正的利润》+ 水水拆书/经营课素材，沉淀为 KDO 商业经营域首批系统卡片，并建立与一堂方法论的跨域桥接。
+> **重要变更**：升级为 P0。从8张扩展到14张（含2张跨域桥接卡）。生产线序遵补充诊断§四。新增内容以补充诊断§一（10条暗知识）、§二（跨域桥接地图）和§三（修正卡片清单）为准。
+> **本任务单正文中的旧生产清单已废弃，以补充诊断§三为准。**
 
 ---
 

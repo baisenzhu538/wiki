@@ -40,6 +40,9 @@ def parse_queue(path: Path = QUEUE_PATH) -> list[dict]:
             if set(line.strip()) <= {"|", "-", ":", " "}:
                 continue
             if not line.startswith("|"):
+                # Blank lines between table rows are allowed — skip them
+                if line.strip() == "":
+                    continue
                 break
             cells = [c.strip() for c in line.strip("|").split("|")]
             if len(cells) < 5:
