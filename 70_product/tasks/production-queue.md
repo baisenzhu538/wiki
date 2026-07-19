@@ -434,7 +434,7 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 
 | 186 | `task_20260713_wangyuyan-agent-spec-prompts-ingestion` | agent-spec鍗″叆鐭ヨ瘑灞傦細20寮?prompts 鍗″叆 30_wiki/tools锛堥攢鍞煙6寮犳寜#182鏄犲皠琛ㄥ姞D鍩熷洖閾?kernel绯诲垪7寮?浜у搧椤圭洰绠＄悊7寮犳寜鎵€灞炲煙鎺ワ級 | reviewed | 鑰侀〗绔?| 20姝ｅ紡鍗?lint鏃犳柊澧?| #182 reviewed鍚庨『棰?|
 
-| 187 | `task_20260714_wangyuyan-material-gaps-tracking` | 绱犳潗缂哄彛杩借釜涓庡洖婧愮櫥璁帮紙4绫荤己鍙ｏ細澶嶇洏鍚堥泦7妗堜緥/寰佹枃鍗佺瘒+閭辨芳妗堜緥闆?鍙屼笁瑙?鍒绘剰缁冧範锛沚locked绛夎€佹湵锛?| blocked | 鑰侀〗绔?| 缂哄彛鐧昏鍗?绱犳潗鍒颁綅鍚?4h鍐呰瘎浼板叆闃?| 鑰佹湵鎻愪緵绱犳潗 |
+| 187 | `task_20260714_wangyuyan-material-gaps-tracking` | 绱犳潗缂哄彛杩借釜涓庡洖婧愮櫥璁帮紙4绫荤己鍙ｏ細澶嶇洏鍚堥泦7妗堜緥/寰佹枃鍗佺瘒+閭辨芳妗堜緥闆?鍙屼笁瑙?鍒绘剰缁冧範锛沚locked绛夎€佹湵锛?| suspended | 鑰侀〗绔?| 缂哄彛鐧昏鍗?绱犳潗鍒颁綅鍚?4h鍐呰瘎浼板叆闃?| 鑰佹湵鎻愪緵绱犳潗 |
 
 | 188 | `task_20260714_wangyuyan-badcase-feedback-loop` | bad case反馈机制与首条记录：模板+存储路径+缺陷分类+闭环流程；首条等老朱真实使用 | reviewed | 鑰侀〗绔?| 鏈哄埗鍗?寮?棣栨潯璁板綍+context琛ヤ竵 | 鏃?|
 
