@@ -2,28 +2,28 @@
 id: task_20260719_wangyuyan-advanced-modeling-course2
 title: 高阶建模第二课卡片化（修订版）——流程建模实践：18组件·关系探索·三案例
 type: task
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童
+assignee: hermes
 reviewer: 欧阳锋
 created_at: 2026-07-19
-updated_at: 2026-07-19
+updated_at: '2026-07-19T16:45:20.742797+00:00'
 expected_cards: 4（新卡）+ 6（已有卡enrich）+ 2（暗知识卡）+ 3（Phase 2解压资产）
 source_refs:
-  - 60_feedback/diagnosis/diag_20260719_wangyuyan-advanced-modeling-course2.md
-  - 60_feedback/diagnosis/diag_20260719_advanced-modeling-process-modeling.md
-  - 00_inbox/Advanced modeling/（57张VLM+OCR全量）
-  - 00_inbox/Advanced modeling/洪七公-给王语嫣的任务编排建议-高阶建模流程建模.md
+- 60_feedback/diagnosis/diag_20260719_wangyuyan-advanced-modeling-course2.md
+- 60_feedback/diagnosis/diag_20260719_advanced-modeling-process-modeling.md
+- 00_inbox/Advanced modeling/（57张VLM+OCR全量）
+- 00_inbox/Advanced modeling/洪七公-给王语嫣的任务编排建议-高阶建模流程建模.md
 related:
-  - modeling-three-stages
-  - modeling-level-map
-  - modeling-weapon-library
-  - process-modeling
-  - modeling-capability-system
-  - framework-kdo-modeling-methodology
-  - concept-kdo-component-library
-  - framework-TCPR皇冠模型
-  - yt-decision-y-model
+- modeling-three-stages
+- modeling-level-map
+- modeling-weapon-library
+- process-modeling
+- modeling-capability-system
+- framework-kdo-modeling-methodology
+- concept-kdo-component-library
+- framework-TCPR皇冠模型
+- yt-decision-y-model
 ---
 
 # 高阶建模第二课卡片化（修订版）——流程建模实践
