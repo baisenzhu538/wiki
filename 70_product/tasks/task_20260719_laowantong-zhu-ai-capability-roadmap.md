@@ -1,12 +1,12 @@
 ---
 id: task_20260719_laowantong-zhu-ai-capability-roadmap
 type: task
-status: pending_review
+status: reviewed
 assignee: hermes
 priority: P1
 estimated_cards: 2
 created_at: 2026-07-19
-updated_at: '2026-07-19T13:43:53.647901+00:00'
+updated_at: '2026-07-19T13:57:58.698458+00:00'
 source_refs:
 - 30_wiki/personal-os/zhu-future-directions.md
 - 30_wiki/personal-os/user-insight-profile.md
@@ -17,6 +17,9 @@ related:
 - '[[user-insight-profile]]'
 - '[[zhu-feedback-patterns]]'
 - '[[task_20260719_wangyuyan-profit-pricing-domain]]'
+reviewed_by: 欧阳锋
+review_date: '2026-07-19'
+grade: A-
 ---
 
 # 老朱 AI 能力建设刻意练习路线图
