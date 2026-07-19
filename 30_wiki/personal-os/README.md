@@ -17,6 +17,7 @@
 | `zhu-network-resources.md` | 关键关系、资源禀赋、合作方档案 | 王语嫣 | 关系变化时 |
 | `zhu-lessons-learned.md` | 过往经验教训案例库 | 王语嫣 | 重大经验输入时 |
 | `zhu-weekly-reflections.md` | 周度所思所想汇编 | 王语嫣 | 每周 |
+| `zhu-future-directions.md` | 未来10年方向蓄水池（来源+状态+关键假设+验证动作） | 王语嫣 | 老朱想到新方向时 |
 
 ## 数据库
 
