@@ -1,13 +1,16 @@
 ---
 id: task_20260714_wangyuyan-badcase-feedback-loop
 assignee: hermes
-status: in_progress
-updated_at: '2026-07-19T03:34:35.809240+00:00'
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-07-19
+grade: A-
+updated_at: '2026-07-19T10:30:00+00:00'
 ---
 
 # Task #188 · bad case 回流机制与首条记录
 
-- **状态**：queued
+- **状态**：reviewed
 - **负责人**：老顽童
 - **优先级**：P1
 - **依赖**：无（四域教练已建成）
@@ -34,3 +37,11 @@ updated_at: '2026-07-19T03:34:35.809240+00:00'
 
 ## 流程
 流程A 直通。首条记录可在任务执行过程中等老朱提供，也可由老顽童模拟一条典型问题先跑通模板。
+
+---
+
+## 终审记录（2026-07-19）
+
+**等级：A-**。机制卡结构完整，模板+存储路径+缺陷分类+闭环流程四件套齐全。bad case 回流是从「建域」转向「用域」的关键基础设施。首条真实 bad case 待老朱使用后落盘。
+
+<!-- 手动终审：queue_transition.py 拒绝执行（队列状态已是 reviewed，无法从非 pending_review 状态终审）。手动修复任务单 frontmatter status→reviewed + reviewed_by/review_date/grade。队列状态本身已是 reviewed，无需修改。 -->
