@@ -225,3 +225,4 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 180 | `task_20260713_wangyuyan-five-step-coach-agent` | A域五步法教练agent-spec新建（orchestrator：五步段位诊断+假设轰炸+五步法盲区库回指域卡+Y模型母模型挂载+生死不管效率边界/四域转介） | reviewed | 老顽童 | 四域教练齐备+转介两两对齐 | #177 reviewed+#179后顺领（队列尾部） |
 | 181 | `task_20260713_wangyuyan-opc-sales-assistant-engine-adapt` | OPC销售对话助手引擎适配（参谋型裁剪版）：三件套注入=12阻力盲区过筛+硬约束显式宣告+深度分级；加挂D域卡；不搬M0-M8不改四段结构 | reviewed | 黄药师 | 适配spec+实测样例+预检PASS | #177+#169 reviewed后顺领；王语嫣裁定：参谋型不全搬教练型里程碑 |
 | 182 | `task_20260713_wangyuyan-opc-sales-d-domain-linking` | OPC销售域×D域回链（33卡补方法论底座引用：开场白→十指模型/异议→阻力方法论/销冠段位→三曲线分数线；映射表先行王语嫣过目后批量） | reviewed | 老顽童 | 33卡回链+lint无新增 | #169-171+#174 reviewed+#177（映射表可先动） |
+| 189 | `task_20260719_wangyuyan-profit-pricing-domain` | 利润为王域卡片化：利润优先经营框架与定价方法论 | queued | - | 8张wiki卡+可选agent-spec | 无；新域开荒，来源赫尔曼·西蒙《真正的利润》+水水拆书/经营课 |
