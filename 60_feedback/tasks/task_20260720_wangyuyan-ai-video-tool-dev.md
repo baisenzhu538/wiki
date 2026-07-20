@@ -30,10 +30,10 @@ diagnosis: 60_feedback/diagnosis/diag_20260720_wangyuyan-ai-video-tool-dev.md
 
 | # | id | type | title | 核心内容 |
 |:--|:--|:--|:--|:--|
-| 1 | framework-ai-video-production-aesthetics-first | framework | AI产品开发·审美优先四步法 | 完整框架：拆(300+视频→9类+网感要素)→建(组件化：字体/动画/音效库)→推(AI Agent串联API)→练(稳定产出80分)。三层账本(认知/时间/经济)。关键原则：能做出来≠愿意发出去 |
+| 1 | framework-ai-video-production-aesthetics-first | framework | AI产品开发·审美与体系的分工 | 🔴修正：双面呈现。§A 复盘后的认知框架（四步法：拆→建→推→练）+ §B 真实过程的教训（L1754-1760：实际顺序是反的——先追Hyper Friends一个月→发现不对→才回头拆视频）。§哲学基础："审美负责定义结果，体系负责让结果重复发生"(L1786-1794)。三层账本(认知/时间/经济) |
 | 2 | concept-ai-video-wanggan-componentization | concept | 网感组件化：画面节奏+元素搭配的可量化体系 | 9类视频分类(竖屏怼脸/横屏专业/画中画/重剪辑/人像板书/表演型/信息流/含装饰/纯素材)；网感四要素(画面节奏/字幕/动画/音效)；"剪映几百个动画，常用就小几十个" |
 
-### P1（工具+暗知识+案例，4张）
+### P1（工具+暗知识+案例，6张：4原卡 + 2增量）
 
 | # | id | type | title | 核心内容 |
 |:--|:--|:--|:--|:--|
@@ -41,8 +41,10 @@ diagnosis: 60_feedback/diagnosis/diag_20260720_wangyuyan-ai-video-tool-dev.md
 | 4 | tool-ai-video-cost-optimization | tool | AI工具开发成本优化清单 | 企业认证多账号薅羊毛/中转商API(测试期按次付费)/百度秒达免费短信验证。含成本对比表(正规API vs 中转商，差价10-50倍) |
 | 5 | dk-ai-video-common-pitfalls | dk | AI视频工具开发五大失败模式 | 调研无标准(凭感觉)/技术先于审美(Hyper Freaks1个月教训)/过度依赖AI分析/工具边界不清/忽略市场信息差 |
 | 6 | case-fuzeyu-ai-koubo-tool-dev | case | 付则宇AI口播工具：从16小时到零门槛 | 完整案例：首条视频→痛点发现→300+视频拆解→组件化→AI串联→产品落地。含关键数据(1700播放→20咨询→1海外订单)和关键决策(为什么不用数字人/为什么选商用API优先) |
+| 🔴7 | dk-post-hoc-framework-vs-messy-reality | dk | 真实过程≠复盘结构 | 🔴深挖增量：付则宇L1754-1760亲述实际顺序是反的。四步法=事后认知重构。含：为什么人会事后合理化、复盘时如何区分真实过程和方法论提炼 |
+| 🔴8 | dk-market-info-gap-to-product-strategy | dk | 市场信息差→产品策略决策链 | 🔴深挖增量：L878-920完整推理——老工具仍有人不知→渗透率极低→用户不要认知要结果→零门槛+80分>100分。含论证链模板 |
 
-**合计：6张卡（2 P0 + 4 P1）**
+**合计：8张（2 P0 + 6 P1）** — 2026-07-20 深挖迭代追加2张dk
 
 ## 验收标准
 
