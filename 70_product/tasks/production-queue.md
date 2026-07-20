@@ -462,7 +462,7 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 
 | 194 | `task_20260719_wangyuyan-advanced-modeling-course2` | 高阶建模第二课（修订版）——流程建模实践：18组件·关系探索·三案例 | reviewed | - | 4新卡+2dk+6已有卡enrich | 无 | `60_feedback/tasks/task_20260719_wangyuyan-advanced-modeling-course2.md` | 高阶建模域实践层补充；取消与framework-kdo-modeling-methodology/concept-kdo-component-library重复项；Truman口述4096行+57张VLM |
 
-| 195 | `task_20260719_wangyuyan-banfeimao-agent-production` | 半肥猫实战——Agent批量生产方法提取 | claimed-hermes | - | 3新卡+2已有卡补充 | 无 | `60_feedback/tasks/task_20260719_wangyuyan-banfeimao-agent-production.md` | Agent建设域；提取Skill封装五步法+承诺核对表+AI记忆分层；不建新域 |
+| 195 | `task_20260719_wangyuyan-banfeimao-agent-production` | 半肥猫实战——Agent批量生产方法提取 | pending_review | - | 3新卡+2已有卡补充 | 无 | `60_feedback/tasks/task_20260719_wangyuyan-banfeimao-agent-production.md` | Agent建设域；提取Skill封装五步法+承诺核对表+AI记忆分层；不建新域 |
 
 
 

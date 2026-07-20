@@ -49,7 +49,7 @@ diagnosis: 60_feedback/diagnosis/diag_20260720_wangyuyan-case-crafting-methodolo
 | 7 | concept-yitang-case-soul-selection | concept | 案例定魂：向内三问+向外三问 | 向外的三层（同行学到什么/类似业务借鉴什么/非同行带走什么） + 向内的三层（拿到什么结果/为什么觉得好/做对了什么）；3-5句检验法 |
 | 8 | case-yitang-case-crafting-modeling-course | case | 高阶建模课：一次事实复盘的真实过程 | 建模课团队如何通过摊开事实（还原每个模型的初版→迭代→质变的完整过程）提炼出建模方法论；作为四步法第一步的完整演示案例 |
 
-**合��：8张（5新卡 + 3可合并/降级）**
+**合计：12张（8原卡 + 4迭代增量）** — 2026-07-20 王语嫣深挖后追加4张增量卡
 
 **实际产出**：建议先产 P0(2) + P1(4) = 6张核心卡；P2 的2张可择机补或合并入 P0/P1 的正文节。
 
@@ -63,13 +63,30 @@ diagnosis: 60_feedback/diagnosis/diag_20260720_wangyuyan-case-crafting-methodolo
 
 ## 已有卡关联（必须建立 related）
 
-| 已有卡 | 关系类型 | 回链要求 |
+**四步法的本质是三套已有方法论在"案例打磨"场景的聚合落地，related 必须覆盖全部三套。**
+
+### 关系型（双向，必须）
+
+| 已有卡 | 同构关系 | 回链内容 |
 |:--|:--|:--|
-| framework-yitang-shishi-qiushi | 四步法第一步是其案例场景落地 | 关系型（双向） |
-| framework-yitang-nine-layer-deep-dig | 挖专业度与9层深挖同构 | 关系型（双向） |
-| framework-一堂-表达力火箭模型 | 打磨表达的理论基础 | 引用型（单向） |
-| content-production skill系列 | 四步法是内容生产在案例体裁的专项化 | 引用型（单向） |
-| framework-kdo-modeling-methodology | 四步法本身是方法论建模产物 | 引用型（单向） |
+| framework-一堂-基本功-四字诀拆建推练 | **纵向修炼路径同构**：四步法的每一步=四字诀的一步（事实复盘=拆，选定魂儿=建，挖专业度=推，打磨表达=练） | 四字诀卡新增"案例打磨"作为场景实例 |
+| framework-一堂-表达力火箭模型 | **横向表达递进同构**：四步法的每一层=火箭的一层（卖点→专业度→打动→逐字稿） | 火箭模型卡新增"案例打磨"作为应用场景 |
+| framework-yitang-shishi-qiushi | 事实复盘=实事求是"在案例场景的落地 | 实事求是卡新增"案例事实复盘"作为方法实例 |
+
+### 引用型（单向，必须）
+
+| 已有卡 | 关系 | 引用内容 |
+|:--|:--|:--|
+| tool-讲香基本功-十指模型 | 四步法隐含调用十指武器（故事力/结构力/数据力/类比力/节奏感） | framework卡正文引用十指模型作为工具支撑 |
+| framework-yitang-nine-layer-deep-dig | 挖专业度的追问Why机制与9层深挖同构 | concept/dk卡引用9层深挖作为方法论依据 |
+| content-production skill系列 | 打磨表达=内容生产在案例体裁的专项化 | dk/ tool卡引用Candy九步法等作为表达工具链 |
+| framework-kdo-modeling-methodology | 四步法本身是方法论建模的产物 | framework卡引用建模方法论说明四步法如何被提炼 |
+
+### 回链执行标准
+
+1. **framework 卡必须**：正文显式声明与四字诀和火箭模型的双重同构关系（见诊断L5），不是只挂 related
+2. **回链优先级**：先补关系型的三张卡（四字诀/火箭模型/实事求是），再补引用型
+3. **禁止单向**：四字诀和火箭模型是关系型（双向），framework卡发布前确认对方卡也回了链
 
 ## 边界说明
 
