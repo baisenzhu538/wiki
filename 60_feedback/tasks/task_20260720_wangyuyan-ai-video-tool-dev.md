@@ -1,10 +1,10 @@
 ---
 id: task_20260720_wangyuyan-ai-video-tool
 task_id: 197
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 created_at: 2026-07-20
-updated_at: 2026-07-20
+updated_at: '2026-07-20T16:30:41.481560+00:00'
 domain: ai-collaboration
 priority: P1
 source: 00_inbox/AI口播工具开发经验/

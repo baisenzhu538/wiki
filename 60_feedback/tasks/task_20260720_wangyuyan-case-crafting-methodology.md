@@ -2,7 +2,10 @@
 id: task_20260720_wangyuyan-case-crafting
 task_id: 196
 assignee: hermes
-status: pending_review
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-07-21
+grade: A-
 created_at: 2026-07-20
 updated_at: '2026-07-20T16:24:12.234916+00:00'
 domain: content-production
