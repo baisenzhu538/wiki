@@ -4,6 +4,7 @@ title: 网感组件化：画面节奏+元素搭配的可量化体系
 type: concept
 status: draft
 author: 老顽童
+reviewed_by: pending
 confidence: 0.85
 trust_level: high
 domain: [ai-collaboration]

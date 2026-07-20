@@ -4,6 +4,7 @@ title: AI视频工具开发五大失败模式
 type: dk
 status: draft
 author: 老顽童
+reviewed_by: pending
 confidence: 0.90
 trust_level: high
 domain: [ai-collaboration]

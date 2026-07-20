@@ -4,6 +4,7 @@ title: AI工具市场信息差评估矩阵
 type: tool
 status: draft
 author: 老顽童
+reviewed_by: pending
 confidence: 0.85
 trust_level: high
 domain: [ai-collaboration]

@@ -4,6 +4,7 @@ title: 市场信息差→产品策略决策链——从"怎么还有人不知道
 type: dk
 status: draft
 author: 老顽童
+reviewed_by: pending
 confidence: 0.85
 trust_level: high
 domain: [ai-collaboration]

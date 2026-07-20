@@ -4,6 +4,7 @@ title: 付则宇AI口播工具：从16小时到零门槛
 type: case
 status: draft
 author: 老顽童
+reviewed_by: pending
 confidence: 0.85
 trust_level: high
 domain: [ai-collaboration]
