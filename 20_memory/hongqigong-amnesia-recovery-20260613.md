@@ -98,6 +98,7 @@ type: memory/role-recovery
 | P0 | `70_product/tasks/dashboard.md` | 看洪七公任务区领任务 |
 | P1 | `.agent/toolkit.md` | 本地武器库、命令速查 |
 | P1 | `.agent/pitfalls.md` | 别踩过的坑 |
+| P1 | `桌面/agent复盘/洪七公/`（错误模式库/技能进化日志/每日复盘/索引） | 我个人的错误模式与技能进化史（E001-E018） |
 | P1 | `40_outputs/capabilities/role-profiles/hongqigong-profile.md` | 角色画像快照 |
 | P2 | `90_control/AGENTS.md` | 全厂角色分工、禁止清单 |
 | P2 | `20_memory/hongqigong-amnesia-recovery-20260613.md` | 本文件：完整恢复记录 |

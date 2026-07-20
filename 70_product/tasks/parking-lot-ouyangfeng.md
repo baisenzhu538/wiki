@@ -22,6 +22,7 @@ owner: 欧阳锋
 | O-2 | **kdo_lint.py 命令行参数解析异常**：传入 10 个文件路径时报告 `Files checked: 0`，状态却显示 PASS，疑似未实际解析路径；需排查参数处理逻辑，避免误报 | 欧阳锋 2026-07-04 | P2 | 0.5 天 | 待排期 | 黄药师或 lint 维护者 |
 | O-3 | **queue_transition.py review --verdict fail 执行异常**：#197 执行 fail 时报告"任务不在队列中"，但队列条目被异常标记为 reviewed。疑似脚本用 task_id 数字匹配时与队列 task 列格式不兼容（队列用 `task_YYYYMMDD_...` 字符串，脚本可能用纯数字 #197 查找）。需排查 | 欧阳锋 2026-07-21 | P2 | 0.5 天 | 待讨论 | 黄药师或脚本维护者 |
 | O-4 | **kdo_lint.py 跨目录死链误报**：ai-collaboration 域内的 related 外链引用了 frameworks/concepts/dark-knowledges 目录下的卡，lint 报告全部为 BROKEN LINK。实际所有 ID 在跨目录搜索中均存在，疑似 lint 仅搜索当前卡所在目录 | 欧阳锋 2026-07-21 | P2 | 0.3 天 | 待讨论 | 黄药师或 lint 维护者 |
+| O-5 | **审查时必须检查双目录版本冲突**：#197 案例——标准目录（frameworks/concepts/tools/cases/dark-knowledges）和域目录（ai-collaboration/）各有一套版本，内容分裂（一个 ds 真实但缺 Critique，一个内容完整但 ds 占位符）。以后每批审查先跑 `find` 检查所有卡片是否在标准目录和域目录各有一份 | 欧阳锋 2026-07-21 | P1 | 即时生效 | 审查 SOP 补充 | 无 |
 
 
 ---
