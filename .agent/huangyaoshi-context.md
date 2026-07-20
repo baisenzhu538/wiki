@@ -26,6 +26,14 @@ behavioral_cards: [B1, B2, B3, B4, B5]  # 行为牌组——会话启动时扫�
 7. 读 `70_product/tasks/dashboard.md` 看历史任务全景
 8. 读 `70_product/tasks/production-queue.md` 看当前任务队列
 9. 读 `70_product/tasks/parking-lot-huangyaoshi.md` 看停车场待办
+10. **🆕 🔴 B1 启动门禁（不可跳过）**：读完队列后，执行 B1 预检：
+    ```
+    python 90_control/scripts/queue_transition.py status
+    ```
+    然后回答三个问题——
+    ① 上次会话我写了什么产出文件？（任务单/脚本/框架卡/工具）
+    ② 如果是任务单——它在 production-queue.md 里有对应行吗？
+    ③ 如果有产出但没入队 → **立刻补入队，否则不开始新工作。**
 
 > 💡 **失忆恢复口令**：用户对你说「黄药师，切到 wiki 目录，读 startup 和方向，继续基建」时，按此执行。
 
@@ -58,6 +66,12 @@ behavioral_cards: [B1, B2, B3, B4, B5]  # 行为牌组——会话启动时扫�
 
 每次会话结束前必须依次执行：
 
+0. **🔴 B1 门禁（最先执行——不可跳过）**：宣布"今天做完了"之前，执行：
+   ```
+   python 90_control/scripts/queue_transition.py status
+   ```
+   然后逐一核对：今天写的每个任务单/产出文件 → 在 production-queue.md 里有对应行？
+   有遗漏 → 先补入队 → 再进入下一步。**入队成功前，不写 daily-context。**
 1. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/huangyaoshi/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
 2. **保存+自检** — 一条命令搞定（存到正确路径 + 自动跑 review-check）：
    ```

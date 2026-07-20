@@ -2,22 +2,23 @@
 id: task_20260719_wangyuyan-banfeimao-agent-production
 title: 半肥猫实战素材——Agent批量生产方法提取
 type: task
-status: queued
+status: in_progress
 priority: P1
-assignee: 老顽童
+assignee: hermes
 reviewer: 欧阳锋
 created_at: 2026-07-19
 expected_cards: 3（新卡）+ 2（已有卡补充）
 source_refs:
-  - 00_inbox/半肥猫/（9篇文章，重点3篇）
-  - 00_inbox/半肥猫/【半肥猫】我的商业突破实践指南：如何封装一个可复用的业务 Skill_MCP 副本.md
-  - 00_inbox/半肥猫/【半肥猫】用 AI 把脑子里的经验，推进成一个最小可验证的数字交付 副本.md
-  - 00_inbox/半肥猫/【半肥猫】别只会问 AI：从一次 Codex 误删事故，看懂 AI 协作的记忆管理 副本.md
+- 00_inbox/半肥猫/（9篇文章，重点3篇）
+- 00_inbox/半肥猫/【半肥猫】我的商业突破实践指南：如何封装一个可复用的业务 Skill_MCP 副本.md
+- 00_inbox/半肥猫/【半肥猫】用 AI 把脑子里的经验，推进成一个最小可验证的数字交付 副本.md
+- 00_inbox/半肥猫/【半肥猫】别只会问 AI：从一次 Codex 误删事故，看懂 AI 协作的记忆管理 副本.md
 related:
-  - agent-native-card-design
-  - system-yitang-Y-model-os
-  - case-kdo-agent-factory-dual-triangle-practice
-  - framework-建模四步法
+- agent-native-card-design
+- system-yitang-Y-model-os
+- case-kdo-agent-factory-dual-triangle-practice
+- framework-建模四步法
+updated_at: '2026-07-20T14:44:08.144081+00:00'
 ---
 
 # 半肥猫实战素材——Agent批量生产方法提取
