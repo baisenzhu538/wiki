@@ -1,7 +1,7 @@
 ---
 title: 洪七公失忆恢复记录
 created_at: 2026-06-13
-updated_at: 2026-06-13
+updated_at: 2026-07-21
 type: memory/role-recovery
 ---
 
