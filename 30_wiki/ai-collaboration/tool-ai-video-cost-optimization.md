@@ -14,7 +14,11 @@ source_refs:
 related:
   - framework-ai-video-production-aesthetics-first
   - tool-ai-video-market-gap-assessment
+  - concept-ai-video-wanggan-componentization
+  - dk-ai-video-common-pitfalls
+  - dk-market-info-gap-to-product-strategy
   - framework-一堂五步法-单元模型
+  - case-fuzeyu-ai-koubo-tool-dev
 created_at: 2026-07-20
 updated_at: 2026-07-20
 diagnostic_signals:
