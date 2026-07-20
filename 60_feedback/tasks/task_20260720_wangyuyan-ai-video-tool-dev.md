@@ -2,16 +2,14 @@
 id: task_20260720_wangyuyan-ai-video-tool
 task_id: 197
 assignee: hermes
-status: reviewed
+status: queued
 created_at: 2026-07-20
-updated_at: '2026-07-20T18:15:29.485852+00:00'
+updated_at: '2026-07-21T18:30:00.000000+00:00'
 domain: ai-collaboration
 priority: P1
 source: 00_inbox/AI口播工具开发经验/
 diagnosis: 60_feedback/diagnosis/diag_20260720_wangyuyan-ai-video-tool-dev.md
-reviewed_by: 欧阳锋
-review_date: '2026-07-20'
-grade: A-
+review_audit: 60_feedback/audit/audit-20260721-wangyuyan-197-198-pre-review.md
 ---
 
 # AI口播工具开发经验 · 卡片化生产任务
@@ -118,3 +116,34 @@ grade: A-
 - 全部 related 外链 ID 实际存在（lint 报死链为跨目录查找限制）
 - 行号引用精确，Claims/Evidence/Synthesis/Action Triggers/Failure Modes 完整
 - 跨域桥接设计合理
+
+---
+
+## 复核后修复清单（王语嫣 2026-07-21 追加）
+
+> 复核报告：`60_feedback/audit/audit-20260721-wangyuyan-197-198-pre-review.md`  
+> 本任务单已退回 `queued`，修复完成后再提交 `pending_review`。
+
+### 🔴 阻塞项（必须修复）
+
+| # | 问题 | 修复动作 | 验收标准 |
+|:---|:---|:---|:---|
+| 1 | **重复版本冲突** | 合并 `30_wiki/ai-collaboration/` 与标准目录的重复卡片 | 每个 ID 只在标准目录存在一份 canonical 版本 |
+| 2 | **增量 dk 卡无标准目录版本** | 在 `dark-knowledges/` 下为两张增量 dk 卡建标准版本 | `dk-post-hoc-framework-vs-messy-reality` 和 `dk-market-info-gap-to-product-strategy` 各在 `dark-knowledges/` 有一份 |
+| 3 | **`diagnostic_signals` 占位符** | 合并时保留标准目录的真实 ds，删除 ai-collaboration/ 的 placeholder | 全部 8 张卡 ds ≥2 且为真实信号 |
+| 4 | **`dk-ai-video-common-pitfalls` related=4** | 补充 1 个相关卡 | related ≥5 |
+| 5 | **3 张 dk 卡 Critique 确认** | 确保标准目录版本的 3 张 dk 卡均含独立 Critique section | 每张 dk 卡有 ≥1 条外部批判 |
+
+### 🟡 建议修复
+
+| # | 问题 | 说明 |
+|:---|:---|:---|
+| 6 | concept 卡外部攻击者 ≥2 | 当前仅 Opus.pro |
+| 7 | 4 张 tool/dk 卡外部 Critique | tool-market、tool-cost、dk-pitfalls、dk-market-info |
+
+### 修复后流程
+
+1. 老顽童/Hermes 按清单修复
+2. 跑 `kdo pre-submit` 和 `kdo lint`
+3. 确认无重复 ID、无跨目录死链
+4. 提交 `pending_review`

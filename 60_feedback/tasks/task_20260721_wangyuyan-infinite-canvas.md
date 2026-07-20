@@ -2,16 +2,14 @@
 id: task_20260721_wangyuyan-infinite-canvas
 task_id: 198
 assignee: hermes
-status: reviewed
+status: queued
 created_at: 2026-07-21
-updated_at: '2026-07-20T18:15:29.605852+00:00'
+updated_at: '2026-07-21T18:30:00.000000+00:00'
 domain: content-production
 priority: P1
 source: 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/
 diagnosis: 60_feedback/diagnosis/diag_20260721_wangyuyan-infinite-canvas.md
-reviewed_by: 欧阳锋
-review_date: '2026-07-20'
-grade: A-
+review_audit: 60_feedback/audit/audit-20260721-wangyuyan-197-198-pre-review.md
 ---
 
 # 无限画布Prezi · 卡片化与Skill部署任务
@@ -112,3 +110,27 @@ grade: A-
 
 - 洪七公已完成VLM预处理（22张图逐图识别），老顽童可直接引用
 - ⚠️ 脚本未部署：王欢教程中的机械闸门脚本当前不存在于本环境，S1需从原仓库迁移或按教程重建
+
+---
+
+## 复核后修复清单（王语嫣 2026-07-21 追加）
+
+> 复核报告：`60_feedback/audit/audit-20260721-wangyuyan-197-198-pre-review.md`  
+> 本任务单已退回 `queued`，修复完成后再提交 `pending_review`。
+
+### 🔴 阻塞项（必须修复）
+
+| # | 问题 | 修复动作 | 验收标准 |
+|:---|:---|:---|:---|
+| 1 | **S1 Skill 未部署** | 在 `40_outputs/capabilities/skills/infinite-canvas-prezi/` 建标准 Skill 包（SKILL.md + manifest.yaml + system-prompt.md） | 目录存在、可被 `/infinite-canvas-prezi` 触发；若脚本无法迁移，需诚实标注阻塞原因，不得声称完成 |
+| 2 | **`concept-spatial-narrative-design` 无 Critique** | 补外部攻击者/边界讨论 | 有 ≥1 条 Critique |
+| 3 | **`tool-presentation-quality-gate-pipeline` 无 Critique** | 补 Critique / When NOT to Use | 有 ≥1 条 Critique + When NOT to Use |
+| 4 | **`dk-spatial-narrative-pitfalls` related=3** | 补充 2 个相关卡 | related ≥5 |
+| 5 | **`case-infinite-canvas-founders-playbook` 深度不足** | 补标准 case section：失败模式/约束/可迁移场景/反例/Action Triggers | 符合 `case-card-template.md` 结构 |
+
+### 修复后流程
+
+1. 老顽童/Hermes 按清单修复
+2. 跑 `kdo pre-submit` 和 `kdo lint`
+3. 确认无死链、无缺失 section
+4. 提交 `pending_review`

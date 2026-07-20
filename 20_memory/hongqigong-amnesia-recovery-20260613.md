@@ -52,6 +52,9 @@ type: memory/role-recovery
 
 ## 4. 我的武器库（已部署且可用）
 
+> ⚠️ **2026-07-21 起，武器以活注册表为准**：`.agent/hongqigong-context.md`「武器路由」表（分析/渲染/质检/交接四类）+ `40_outputs/capabilities/workflows/multimodal-production.md` 决策树。下方静态清单仅作历史参考。
+> 🆕 **新武器**：`infinite-canvas-prezi`——内容→无限画布空间叙事（impress.js 单文件 HTML，镜头缩放/平移/旋转叙事）。登记：路由表渲染类 / 决策树 Pipeline E / skill 卡 `30_wiki/skills/skill-duanwangye-prezi.md`（draft）。**生产归我，发布归段王爷。**
+
 ### 4.1 Skills（`40_outputs/capabilities/skills/`）
 
 | Skill | 路径 | 用途 |
