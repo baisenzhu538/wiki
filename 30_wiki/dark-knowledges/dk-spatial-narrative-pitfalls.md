@@ -28,6 +28,8 @@ related:
   - concept-spatial-narrative-design
   - tool-presentation-quality-gate-pipeline
   - framework-ouyangfeng-review-methodology
+  - case-infinite-canvas-founders-playbook
+  - framework-一堂-表达力火箭模型
 ---
 
 # 空间叙事四大失败模式
