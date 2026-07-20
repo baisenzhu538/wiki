@@ -474,4 +474,4 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 
 | 196 | `task_20260720_wangyuyan-case-crafting-methodology` | 案例打磨四步法卡片化：12张卡（8原卡 + 4深挖增量），归入content-production域 | pending_review | - | 12张（8原+4增量） | 无；新域补白 | `60_feedback/tasks/task_20260720_wangyuyan-case-crafting-methodology.md` | 李頔口述+笔记；四步法=实事求是+9层深挖+内容生产在案例体裁的专项化；诊断见 `60_feedback/diagnosis/diag_20260720_wangyuyan-case-crafting-methodology.md`；2026-07-20王语嫣深挖追加4增量卡 |
 
-| 197 | `task_20260720_wangyuyan-ai-video-tool-dev` | AI口播工具开发经验卡片化：8张卡（2 P0 + 6 P1，含2张深挖增量dk），归入ai-collaboration域，与#196同源四步法结构 | queued | - | 8张（2 P0 + 6 P1） | 无 | `60_feedback/tasks/task_20260720_wangyuyan-ai-video-tool-dev.md` | 付则宇口述+笔记；方法论=四字诀在AI产品开发的实例化；审美优先→网感组件化→AI自动化；诊断见 `60_feedback/diagnosis/diag_20260720_wangyuyan-ai-video-tool-dev.md` |
+| 197 | `task_20260720_wangyuyan-ai-video-tool-dev` | AI口播工具开发经验卡片化：8张卡（2 P0 + 6 P1，含2张深挖增量dk），归入ai-collaboration域，与#196同源四步法结构 | queued | - | 8张（2 P0 + 6 P1） | 无 | `60_feedback/tasks/task_20260720_wangyuyan-ai-video-tool-dev.md` | 付则宇口述+笔记；方法论=四字诀在AI产品开发的实例化；审美优先→网感组件化→AI自动化；2026-07-20深挖追加2增量dk；诊断见 `60_feedback/diagnosis/diag_20260720_wangyuyan-ai-video-tool-dev.md` |

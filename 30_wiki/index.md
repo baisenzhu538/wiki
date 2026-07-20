@@ -1137,6 +1137,7 @@ _Last updated: 2026-07-20T00:58:00+00:00_
 - [[skills/skill-research-triangulation-stop-rule|多源交叉验证的停止规则]] — source `60_feedback/audit/synthesis_research.md`
 - [[skills/skill-duanwangye-feishu-publishing|段王爷·飞书发布引擎 — 内容到飞书docx全链路]] — source `capability/duanwangye/feishu-publishing`
 - [[skills/skill-duanwangye-kdo-pipeline|段王爷·KDO文章管线 — produce→validate→ship]] — source `capability/duanwangye/kdo-article-pipeline`
+- [[skills/skill-duanwangye-prezi|段王爷·Prezi无限画布演示 — 空间叙事HTML演示生成]] — source `capability/duanwangye/prezi`
 - [[skills/skill-duanwangye-wechat-extraction|段王爷·微信消息解密与提取]] — source `capability/duanwangye/wechat-mcp`
 - [[skills/yt-demand-insight-extraction|从用户访谈中提取真实需求：访谈技巧与偏见规避]] — source `10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md`
 - [[dk/dk-strategy-organization-strategy-mismatch|组织能力与战略方向不匹配]] — source `60_feedback/audit/synthesis_strategy.md`
@@ -1592,6 +1593,7 @@ _Last updated: 2026-07-20T00:58:00+00:00_
 - [[skills/skill-research-triangulation-stop-rule|多源交叉验证的停止规则]] — source `60_feedback/audit/synthesis_research.md`
 - [[skills/skill-duanwangye-feishu-publishing|段王爷·飞书发布引擎 — 内容到飞书docx全链路]] — source `capability/duanwangye/feishu-publishing`
 - [[skills/skill-duanwangye-kdo-pipeline|段王爷·KDO文章管线 — produce→validate→ship]] — source `capability/duanwangye/kdo-article-pipeline`
+- [[skills/skill-duanwangye-prezi|段王爷·Prezi无限画布演示 — 空间叙事HTML演示生成]] — source `capability/duanwangye/prezi`
 - [[skills/skill-duanwangye-wechat-extraction|段王爷·微信消息解密与提取]] — source `capability/duanwangye/wechat-mcp`
 - [[skills/yt-demand-insight-extraction|从用户访谈中提取真实需求：访谈技巧与偏见规避]] — source `10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md`
 - [[system/pending_unknown|待补充链接（占位符）]] — source `{'pending_archive': 'src_unknown'}`
