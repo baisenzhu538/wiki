@@ -14,6 +14,14 @@ created_at: "2026-07-20"
 updated_at: "2026-07-20"
 quality_labels:
   - cited
+diagnostic_signals:
+  - signal: "首条视频16小时"
+    lens: 制作门槛过高
+    follow_up: 拆解→组件化→AI串联
+  - signal: "1700播放带来20咨询"
+    lens: 口播视频获客有效
+    follow_up: 规模化需要自动化工具
+
 source_refs:
   - "00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-笔记.txt"
   - "00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt"

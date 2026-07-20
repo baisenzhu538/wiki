@@ -2,9 +2,9 @@
 id: task_20260721_wangyuyan-infinite-canvas
 task_id: 198
 assignee: hermes
-status: in_progress
+status: pending_review
 created_at: 2026-07-21
-updated_at: '2026-07-20T17:11:25.938637+00:00'
+updated_at: '2026-07-20T17:20:02.930061+00:00'
 domain: content-production
 priority: P1
 source: 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/
@@ -80,12 +80,21 @@ diagnosis: 60_feedback/diagnosis/diag_20260721_wangyuyan-infinite-canvas.md
 
 | # | 任务 | 执行者 | 验收标准 |
 |:--|:--|:--|:--|
-| S1 | 将`infinite-canvas-prezi`部署为KDO skill | 老顽童 | skill可被`/infinite-canvas-prezi`触发；含`scripts/prezi_gate.py`闸门+四道机械闸 |
+| S1 | 将`infinite-canvas-prezi`部署为KDO skill | 老顽童 | skill可被`/infinite-canvas-prezi`触发。⚠️ `~/.claude/skills/infinite-canvas-prezi/scripts/`当前不存在——王欢教程引用的`prezi_gate.py`/`roam2prezi.py`/`prezi2roam.py`需创建或从原仓库迁移，非直接可用 |
 | S2 | 七维终审适配KDO上下文 | 黄药师 | 终审清单中引用KDO卡片路径替代原路径；与欧阳锋审查方法论卡建立related双向链 |
 | S3 | 编译agent-spec：Prezi构建Agent | 黄药师 | 角色定位+对话模式+工具映射写入agent-spec卡；含Feature清单（诊断报告§八·Feature分解） |
+| S4 | 升级`skill-duanwangye-prezi.md`状态 | 段王爷/欧阳锋 | status: draft→reviewed；能力表中⚠️项清零或标注阻塞原因；与#198的卡片层产出建立related双向链 |
 
-**卡片层（4张）+ Skill层（3项）= 完整成果**
+**卡片层（4张）+ Skill层（4项）= 完整成果**
+
+## 已有资产对齐
+
+| 资产 | 位置 | 状态 | 与#198关系 |
+|:--|:--|:--|:--|
+| skill-duanwangye-prezi.md | `30_wiki/skills/` | draft (2026-07-20) | 段王爷已做领域适配；#198卡片层提取通用方法论，skill卡保留发布域适配。产出后双向related |
+| markdown-to-presentation | `40_outputs/capabilities/skills/` | stable | 覆盖Marp/Slidev/reveal.js，缺Prezi线；#198补上空间叙事这一支 |
 
 ## 特殊说明
 
-洪七公已完成VLM预处理（22张图逐图识别），诊断报告已引用识别结果。老顽童生产时可直接使用洪七公的识别报告作为二等证据，核心claims以技能教程正文（一等证据）为准。
+- 洪七公已完成VLM预处理（22张图逐图识别），老顽童可直接引用
+- ⚠️ 脚本未部署：王欢教程中的机械闸门脚本当前不存在于本环境，S1需从原仓库迁移或按教程重建

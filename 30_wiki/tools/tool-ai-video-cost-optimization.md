@@ -14,6 +14,14 @@ created_at: "2026-07-20"
 updated_at: "2026-07-20"
 quality_labels:
   - actionable
+diagnostic_signals:
+  - signal: "API成本太高做不起"
+    lens: 正规API和中转商差价10-50倍
+    follow_up: 测试期用中转商按次付费
+  - signal: "一直用中转商不切正规API"
+    lens: 中转商稳定性不可控
+    follow_up: 规模化后必切正规API
+
 source_refs:
   - "00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-笔记.txt"
   - "00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt"
@@ -22,6 +30,7 @@ related:
   - case-fuzeyu-ai-koubo-tool-dev
   - framework-一堂五步法-单元模型
   - dk-ai-video-common-pitfalls
+  - dk-market-info-gap-to-product-strategy
 ---
 
 # AI工具开发成本优化清单

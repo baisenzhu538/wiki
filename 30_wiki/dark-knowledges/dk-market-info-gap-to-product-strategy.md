@@ -15,6 +15,14 @@ updated_at: "2026-07-20"
 quality_labels:
   - insight
   - actionable
+diagnostic_signals:
+  - signal: "这个市场已经很卷了"
+    lens: 老工具渗透率极低
+    follow_up: 用论证链模板判断是否还有信息差窗口
+  - signal: "用户说需要更好的工具"
+    lens: 用户要结果不要认知
+    follow_up: 零门槛+80分>100分+有门槛
+
 source_refs:
   - "00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt L878-L920"
 related:
@@ -75,3 +83,7 @@ related:
 ## 为什么值钱
 
 这个推理链可以复用到任何"看起来很卷"的AI工具市场判断。
+
+## Critique
+
+- 五大失败模式覆盖了付则宇的主要踩坑经历，但不同AI产品开发场景可能有不同的失败模式优先级——技术先于审美对视频工具最关键，对其他类型AI产品可能不是

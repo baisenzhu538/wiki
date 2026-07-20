@@ -14,6 +14,14 @@ created_at: "2026-07-20"
 updated_at: "2026-07-20"
 quality_labels:
   - actionable
+diagnostic_signals:
+  - signal: "市面上已经有工具了"
+    lens: 渗透率极低+用户还在用PR
+    follow_up: 先建审美标准再量化现有工具
+  - signal: "调研时凭感觉判断"
+    lens: 没有量化标准
+    follow_up: 用三问判断自建vs借用
+
 source_refs:
   - "00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-笔记.txt"
   - "00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt"

@@ -15,6 +15,14 @@ updated_at: "2026-07-20"
 quality_labels:
   - insight
   - principle
+diagnostic_signals:
+  - signal: "技术先于审美"
+    lens: 开发者上来就追技术方向
+    follow_up: 先拆300条视频建审美标准
+  - signal: "把复盘结构当执行路线"
+    lens: 预期第一圈是乱的
+    follow_up: 先做、再复盘、再结构化
+
 source_refs:
   - "00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-笔记.txt"
   - "00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt L1754-L1794"

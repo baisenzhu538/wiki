@@ -15,6 +15,14 @@ updated_at: "2026-07-20"
 quality_labels:
   - actionable
   - insight
+diagnostic_signals:
+  - signal: "网感靠感觉"
+    lens: 无法说清什么是好视频
+    follow_up: 用四要素+9类分类量化网感
+  - signal: "剪映功能太多不知用哪个"
+    lens: 几百个动画只用小几十个
+    follow_up: 固定20个模板池
+
 source_refs:
   - "00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-笔记.txt"
   - "00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt"

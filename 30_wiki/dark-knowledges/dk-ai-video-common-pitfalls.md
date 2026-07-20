@@ -14,6 +14,14 @@ created_at: "2026-07-20"
 updated_at: "2026-07-20"
 quality_labels:
   - insight
+diagnostic_signals:
+  - signal: "做了一个月发现方向错了"
+    lens: 技术先于审美
+    follow_up: 先拆300条视频再选技术路线
+  - signal: "以为AI能自动判断好视频"
+    lens: 过度依赖AI分析
+    follow_up: AI做执行，人做审美判断
+
 source_refs:
   - "00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-笔记.txt"
   - "00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt"
@@ -59,3 +67,7 @@ related:
 
 - ✅ AI产品开发/技术选型
 - ❌ 纯用户端产品——不涉AI开发的场景不适用
+
+## Critique
+
+- 五大失败模式覆盖了付则宇的主要踩坑经历，但不同AI产品开发场景可能有不同的失败模式优先级——技术先于审美对视频工具最关键，对其他类型AI产品可能不是
