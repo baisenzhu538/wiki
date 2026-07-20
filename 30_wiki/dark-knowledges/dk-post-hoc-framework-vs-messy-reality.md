@@ -5,30 +5,45 @@ type: dk
 status: draft
 author: 老顽童
 reviewed_by: pending
-confidence: 0.90
+confidence: 0.9
 trust_level: high
-domain: [ai-collaboration]
+domain:
+- ai-collaboration
 source_refs:
-  - 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt
+- 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt
 related:
-  - framework-ai-video-production-aesthetics-first
-  - case-fuzeyu-ai-koubo-tool-dev
-  - dk-process-is-scar-tissue
-  - framework-yitang-shishi-qiushi
-  - concept-yihang-dual-triangle-core
+- framework-ai-video-production-aesthetics-first
+- case-fuzeyu-ai-koubo-tool-dev
+- dk-process-is-scar-tissue
+- framework-yitang-shishi-qiushi
+- concept-yihang-dual-triangle-core
 created_at: 2026-07-20
-updated_at: 2026-07-20
+updated_at: '2026-07-20'
 diagnostic_signals:
-  - "卡片新建，待欧阳锋终审后补充信号"
-quality_labels: [insight, quotable, principle]
-tags: [复盘, 事后合理化, 方法论诚实, 框架偏见]
+- signal: 方法论步骤完美线性
+  lens: 框架里没有回环、失败、情绪
+  follow_up: 检查是否事后重构，补真实过程时间线
+- signal: 框架第一步太"高级"
+  lens: 要求初学者先建立完整认知
+  follow_up: 标注这是复盘结构，执行时应先小范围试错
+- signal: 案例分享只有正确做法
+  lens: 缺少踩坑细节
+  follow_up: 单独列出真实过程与在坑里学到的认知
+quality_labels:
+- insight
+- quotable
+- principle
+tags:
+- 复盘
+- 事后合理化
+- 方法论诚实
+- 框架偏见
 query_triggers:
-  - 复盘结构
-  - 事后框架
-  - 方法论诚实
-  - 付则宇
+- 复盘结构
+- 事后框架
+- 方法论诚实
+- 付则宇
 ---
-
 ## 原始表述
 
 "其实大家也会注意到我整个叙事的经验分享的结构，一开始讲的是建审美，后来我又说了这是我给大家为了做分享复盘后的内容结构。但实际上我实际做的顺序确实有点做反了。这个其实就非常值得反思。"（L1754-1760）
@@ -121,3 +136,8 @@ KDO将口述稿等素材提炼为framework/tool/case卡时，天然存在"事后
 - `dk-process-is-scar-tissue`：流程是业务的疤痕——付则宇的分享完美证明了这一点
 - `framework-yitang-shishi-qiushi`：实事求是的核心——承认"我实际做的顺序是反的"
 - `concept-yihang-dual-triangle-core`：人类三角提供判断——但判断的形成（审美的建立）本身也需要过程
+---
+
+## 迭代日志
+
+- **2026-07-20 v1.0**：来自付则宇 AI 口播工具开发经验分享。

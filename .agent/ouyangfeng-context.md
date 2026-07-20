@@ -448,6 +448,12 @@ python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --
 
 ### ⛔ 复盘强制动作（不执行=会话未完成）
 
+0. **🆕 更新技能进化日志** — 追加一行到 `桌面/agent复盘/ouyangfeng/技能进化日志.md`：
+   | 日期 | 学到了什么 | 类型（新武器/方法升级/踩坑教训） | 来源 |
+   |:--|:--|:--|:--|
+   
+   只写一行。日志是累积的——每次会话加一行，不重写。
+1. **🆕 更新失忆恢复锚点** — 如果武器库/状态/能力有变化，同步更新 `20_memory/ouyangfeng-amnesia-recovery.md` 的对应节。
 2. **🔴 O0 溯源自检（写 daily-context 之前强制触发）**：回答一个问题——
    > 今天审查的每一张卡，我打开过它的 source_refs 源文件吗？
    

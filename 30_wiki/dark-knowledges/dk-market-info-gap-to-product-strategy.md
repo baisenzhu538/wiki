@@ -7,28 +7,44 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.85
 trust_level: high
-domain: [ai-collaboration]
+domain:
+- ai-collaboration
 source_refs:
-  - 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt
+- 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt
 related:
-  - framework-ai-video-production-aesthetics-first
-  - tool-ai-video-market-gap-assessment
-  - case-fuzeyu-ai-koubo-tool-dev
-  - framework-yitang-shishi-qiushi
-  - framework-一堂五步法-单元模型
+- framework-ai-video-production-aesthetics-first
+- tool-ai-video-market-gap-assessment
+- case-fuzeyu-ai-koubo-tool-dev
+- framework-yitang-shishi-qiushi
+- framework-一堂五步法-单元模型
 created_at: 2026-07-20
-updated_at: 2026-07-20
+updated_at: '2026-07-20'
 diagnostic_signals:
-  - "卡片新建，待欧阳锋终审后补充信号"
-quality_labels: [insight, actionable, quotable]
-tags: [市场信息差, 产品策略, 渗透率, 零门槛, AI产品]
+- signal: 市面已有工具=没机会
+  lens: 把存在等同于被使用
+  follow_up: 去目标社区查"怎么买/多少钱"频率
+- signal: 产品追求 100 分效果
+  lens: 忽视用户认知门槛
+  follow_up: 评估零门槛+80分是否大于专业 100 分
+- signal: 讨论热火朝天=大众在用
+  lens: 圈内热度误判为渗透率
+  follow_up: 区分圈内讨论与圈外实际接触
+quality_labels:
+- insight
+- actionable
+- quotable
+tags:
+- 市场信息差
+- 产品策略
+- 渗透率
+- 零门槛
+- AI产品
 query_triggers:
-  - 市场信息差
-  - 产品策略
-  - 渗透率
-  - 零门槛
+- 市场信息差
+- 产品策略
+- 渗透率
+- 零门槛
 ---
-
 ## 原始表述
 
 "这些东西尽管存在了两三年，在我看已经是一个很古老的项目了，但是依然还是有很多人会想用它……评论区很多人回复666对吧？然后怎么学、怎么买、多少钱……这反映的是一个事儿，就是你对于AI来说，这个市场是有巨大的信息差的，很多工具哪怕存在两三年，依然有很多人不知道。"（L864-880）
@@ -141,3 +157,8 @@ query_triggers:
 - `case-fuzeyu-ai-koubo-tool-dev`：本dk的论证链全部来自该案例的市场洞察部分
 - `framework-yitang-shishi-qiushi`：实事求是——市场真的有信息差吗？去评论区看一看就知道了
 - `framework-一堂五步法-单元模型`：渗透率×客单价×触达效率的单元模型量化
+---
+
+## 迭代日志
+
+- **2026-07-20 v1.0**：来自付则宇 AI 口播工具开发经验分享。

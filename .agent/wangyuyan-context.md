@@ -536,8 +536,14 @@ behavioral_cards: [W1, W2, W3, W4, W5, W6, W7]
 
 ### ⛔ 复盘强制动作（不执行=会话未完成）
 
-3. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/wangyuyan/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
-4. **保存+自检** — 一条命令搞定：
+0. **🆕 更新技能进化日志** — 追加一行到 `桌面/agent复盘/wangyuyan/技能进化日志.md`：
+   | 日期 | 学到了什么 | 类型（新武器/方法升级/踩坑教训） | 来源 |
+   |:--|:--|:--|:--|
+   
+   只写一行。日志是累积的——每次会话加一行，不重写。
+1. **🆕 更新失忆恢复锚点** — 如果武器库/状态/能力有变化，同步更新 `20_memory/wangyuyan-amnesia-recovery.md` 的对应节。
+2. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/wangyuyan/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
+3. **保存+自检** — 一条命令搞定：
    ```
    python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent wangyuyan --truman --file C:\Users\Administrator\Desktop\agent复盘\wangyuyan\daily-context\YYYY-MM-DD.md
    ```
