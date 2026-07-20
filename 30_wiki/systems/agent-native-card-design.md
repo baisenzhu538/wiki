@@ -28,6 +28,7 @@ related:
 - framework-yitang-jiefang-sixiang
 - system-yitang-Y-model-os
 - tool-agent-spec-yitang-Y-model-coach
+  - dk-agent-promise-verification
 ---
 # Agent 原生知识卡设计规范 v2
 

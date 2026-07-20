@@ -44,6 +44,7 @@ related:
 - "[[framework-一堂-业务公式拆解-总纲]]"
 created_at: 2026-07-03
 updated_at: '2026-07-08'
+  - dk-ai-memory-four-layers
 ---
 
 # Y模型 OS：所有 Agent 的共享底层 prompt
@@ -289,3 +290,13 @@ Coach 模式行为：
 - [[human-ai-collaboration-double-triangle]]
 - [[master-decision-hygiene]]
 - [[concept-X型Y型决策习惯]]
+
+## context加载策略
+
+KDO已有四层context实践，命名为"AI记忆分层模型"（见 `dk-ai-memory-four-layers`）：
+- L1 即时上下文：当前对话窗口
+- L2 会话记录：agent复盘/daily-context + Truman复盘
+- L3 项目文档：wiki域卡 + domain-digest + agent-spec卡簇
+- L4 长期偏好：personal-os + user-insight-profile + feedback-patterns
+
+加载顺序：启动先读L4→L3，任务中依赖L1，结束后写L2。
