@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-07-20T00:58:00+00:00_
+_Last updated: 2026-07-21_
 
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[_archive/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -1139,6 +1139,8 @@ _Last updated: 2026-07-20T00:58:00+00:00_
 - [[skills/skill-duanwangye-kdo-pipeline|段王爷·KDO文章管线 — produce→validate→ship]] — source `capability/duanwangye/kdo-article-pipeline`
 - [[skills/skill-duanwangye-prezi|段王爷·Prezi无限画布演示 — 空间叙事HTML演示生成]] — source `capability/duanwangye/prezi`
 - [[skills/skill-duanwangye-wechat-extraction|段王爷·微信消息解密与提取]] — source `capability/duanwangye/wechat-mcp`
+- [[agent-specs/agent-spec-duanwangye-publisher|段王爷 Publisher Agent Spec — KDO 内容发布与渠道分发引擎]] — author `黄药师`, source `.agent/duanwangye-context.md`
+- [[agent-specs/agent-spec-hongqigong-multimodal|洪七公 Multimodal Agent Spec — KDO 多模态渲染与视觉资产生产引擎]] — author `黄药师`, source `.agent/hongqigong-context.md`
 - [[skills/yt-demand-insight-extraction|从用户访谈中提取真实需求：访谈技巧与偏见规避]] — source `10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md`
 - [[dk/dk-strategy-organization-strategy-mismatch|组织能力与战略方向不匹配]] — source `60_feedback/audit/synthesis_strategy.md`
 - [[dk/dk-strategy-stage-leverage-mismatch|战略阶段与杠杆错配]] — source `60_feedback/audit/synthesis_strategy.md`
@@ -1202,6 +1204,7 @@ _Last updated: 2026-07-20T00:58:00+00:00_
 - [[frameworks/concept-mckinsey-hypothesis-driven|Hypothesis-Driven Approach：假设驱动工作法]] — source `{'pending_archive': 'src_unknown'}`
 - [[frameworks/concept-minto-pyramid-principle|金字塔原理：结论先行的结构化沟通框架]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[frameworks/framework-agent-card-execution-pattern|Agent 执行模式：从卡片到可执行动作]] — source `30_wiki/tools/agent-spec-dual-triangle-canvas-filler.md`
+- [[frameworks/framework-visual-analysis-four-dimensions|VA 四维法——从图片到结构化视觉分析的通用方法论]] — author `黄药师`, source `task-20260528-hongqigong-unit-model-va-and-articles.md`
 - [[frameworks/framework-ai-accelerated-strategy-cycle|AI 加速的战略-验证闭环]] — source `60_feedback/audit/cross-domain-bridge-design-specs.md`
 - [[frameworks/framework-ai-deconstruction-methodology|王欢三层拆书法]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[frameworks/framework-ai-deliberate-practice-loop|AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴]] — source `00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt`
@@ -1595,6 +1598,8 @@ _Last updated: 2026-07-20T00:58:00+00:00_
 - [[skills/skill-duanwangye-kdo-pipeline|段王爷·KDO文章管线 — produce→validate→ship]] — source `capability/duanwangye/kdo-article-pipeline`
 - [[skills/skill-duanwangye-prezi|段王爷·Prezi无限画布演示 — 空间叙事HTML演示生成]] — source `capability/duanwangye/prezi`
 - [[skills/skill-duanwangye-wechat-extraction|段王爷·微信消息解密与提取]] — source `capability/duanwangye/wechat-mcp`
+- [[agent-specs/agent-spec-duanwangye-publisher|段王爷 Publisher Agent Spec — KDO 内容发布与渠道分发引擎]] — author `黄药师`, source `.agent/duanwangye-context.md`
+- [[agent-specs/agent-spec-hongqigong-multimodal|洪七公 Multimodal Agent Spec — KDO 多模态渲染与视觉资产生产引擎]] — author `黄药师`, source `.agent/hongqigong-context.md`
 - [[skills/yt-demand-insight-extraction|从用户访谈中提取真实需求：访谈技巧与偏见规避]] — source `10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md`
 - [[system/pending_unknown|待补充链接（占位符）]] — source `{'pending_archive': 'src_unknown'}`
 - [[systems/agent-external-brain-design|Agent 外挂大脑设计]] — source `pending_archive:src_20260503_52ae08ba-kdo_product_design_agent_final`
