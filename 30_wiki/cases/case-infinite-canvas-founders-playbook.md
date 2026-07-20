@@ -23,7 +23,7 @@ diagnostic_signals:
     follow_up: 控制在40-50镜头
 
 source_refs:
-  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md"
+  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L281-L326"
 related:
   - concept-spatial-narrative-design
   - tool-presentation-quality-gate-pipeline

@@ -23,7 +23,7 @@ diagnostic_signals:
     follow_up: 降级铁律：2-3次失败→立即降级为静态方案
 
 source_refs:
-  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md"
+  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L235-L278"
 related:
   - concept-spatial-narrative-design
   - framework-ouyangfeng-review-methodology

@@ -24,7 +24,7 @@ diagnostic_signals:
     follow_up: 用聚簇四原则重组——同主题靠近、主次分大小
 
 source_refs:
-  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md"
+  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L105-L145"
 related:
   - tool-presentation-quality-gate-pipeline
   - framework-一堂-表达力火箭模型
