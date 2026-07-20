@@ -318,8 +318,15 @@ behavioral_cards: [L1, L2, L3, L4, L5, L6, L7]
 
 每次会话结束前必须依次执行：
 
-1. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
-2. **保存+自检** — 一条命令搞定：
+0. **🆕 更新技能进化日志** — 追加一行到 `桌面/agent复盘/laowantong/技能进化日志.md`：
+   | 日期 | 学到了什么 | 类型（新武器/方法升级/踩坑教训） | 来源 |
+   |:--|:--|:--|:--|
+   
+   只写一行。日志是累积的——每次会话加一行，不重写。
+1. **🆕 更新失忆恢复锚点** — 如果武器库/状态/能力有变化，同步更新 `20_memory/laowantong-amnesia-recovery.md` 的对应节。
+2. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
+2. **写 Truman 10章复盘** — 用 Write 工具写到 `桌面/agent复盘/laowantong/daily-context/YYYY-MM-DD.md`（格式见 agent-os.md §10.2，10章缺一不可）
+3. **保存+自检** — 一条命令搞定：
    ```
    python C:\Users\Administrator\Desktop\wiki\kdo-tools\daily-context-save.py save --agent laowantong --truman --file C:\Users\Administrator\Desktop\agent复盘\laowantong\daily-context\YYYY-MM-DD.md
    ```
