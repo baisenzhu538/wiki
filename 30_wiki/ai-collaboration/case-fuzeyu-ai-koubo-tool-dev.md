@@ -21,6 +21,8 @@ related:
   - dk-market-info-gap-to-product-strategy
 created_at: 2026-07-20
 updated_at: 2026-07-20
+diagnostic_signals:
+  - "卡片新建，待欧阳锋终审后补充信号"
 quality_labels: [validated, quotable]
 tags: [案例, 付则宇, AI口播, 产品开发, 短视频]
 query_triggers:

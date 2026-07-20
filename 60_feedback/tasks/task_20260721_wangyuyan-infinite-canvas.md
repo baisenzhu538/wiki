@@ -1,10 +1,10 @@
 ---
 id: task_20260721_wangyuyan-infinite-canvas
 task_id: 198
-assignee: -
-status: queued
+assignee: hermes
+status: in_progress
 created_at: 2026-07-21
-updated_at: '2026-07-21T17:20:02.930061+00:00'
+updated_at: '2026-07-20T17:51:05.117583+00:00'
 domain: content-production
 priority: P1
 source: 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/

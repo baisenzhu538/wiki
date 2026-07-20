@@ -20,6 +20,8 @@ related:
   - concept-yihang-dual-triangle-core
 created_at: 2026-07-20
 updated_at: 2026-07-20
+diagnostic_signals:
+  - "卡片新建，待欧阳锋终审后补充信号"
 quality_labels: [insight, actionable, principle]
 tags: [AI产品开发, 短视频自动化, 审美定义, 体系化, 口播工具]
 query_triggers:

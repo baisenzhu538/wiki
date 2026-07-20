@@ -18,6 +18,8 @@ related:
   - dk-post-hoc-framework-vs-messy-reality
 created_at: 2026-07-20
 updated_at: 2026-07-20
+diagnostic_signals:
+  - "卡片新建，待欧阳锋终审后补充信号"
 quality_labels: [insight, actionable, quotable]
 tags: [失败模式, AI工具开发, 口播视频, 踩坑]
 query_triggers:

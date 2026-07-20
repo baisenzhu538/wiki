@@ -18,6 +18,8 @@ related:
   - concept-yihang-dual-triangle-core
 created_at: 2026-07-20
 updated_at: 2026-07-20
+diagnostic_signals:
+  - "卡片新建，待欧阳锋终审后补充信号"
 quality_labels: [insight, quotable, principle]
 tags: [复盘, 事后合理化, 方法论诚实, 框架偏见]
 query_triggers:

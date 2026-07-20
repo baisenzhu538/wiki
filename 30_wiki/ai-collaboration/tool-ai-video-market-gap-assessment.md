@@ -19,6 +19,8 @@ related:
   - framework-一堂五步法-单元模型
 created_at: 2026-07-20
 updated_at: 2026-07-20
+diagnostic_signals:
+  - "卡片新建，待欧阳锋终审后补充信号"
 quality_labels: [actionable, validated]
 tags: [市场信息差, AI工具评估, 调研方法, 产品决策]
 query_triggers:
