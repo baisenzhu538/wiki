@@ -2,9 +2,9 @@
 id: task_20260720_wangyuyan-case-crafting
 task_id: 196
 assignee: hermes
-status: in_progress
+status: pending_review
 created_at: 2026-07-20
-updated_at: '2026-07-20T15:29:35.421642+00:00'
+updated_at: '2026-07-20T15:48:53.308279+00:00'
 domain: content-production
 priority: P1
 source: 00_inbox/案例打造法-李頔/
