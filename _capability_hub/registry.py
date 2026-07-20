@@ -47,12 +47,15 @@ def list_manuals() -> list[dict]:
         count = sum(1 for _ in sk_dir.rglob("SKILL.md"))
         manuals.append({"type": "skills", "count": count, "path": "40_outputs/capabilities/skills/", "how": 'Read <skill>/SKILL.md'})
 
-    # Agent Specs
-    ag_dir = WIKI_ROOT / "30_wiki" / "tools"
-    if ag_dir.exists():
-        specs = sorted([f.stem for f in ag_dir.glob("agent-spec-*.md")])
-        for s in specs:
-            manuals.append({"type": "agent-spec", "name": s, "path": f"30_wiki/tools/{s}.md", "how": f"Read 30_wiki/tools/{s}.md"})
+    # Agent Specs — scan both tools/ and agent-specs/ directories
+    seen_specs = set()
+    for spec_dir_name in ["tools", "agent-specs"]:
+        spec_dir = WIKI_ROOT / "30_wiki" / spec_dir_name
+        if spec_dir.exists():
+            for f in spec_dir.glob("agent-spec-*.md"):
+                if f.stem not in seen_specs:
+                    seen_specs.add(f.stem)
+                    manuals.append({"type": "agent-spec", "name": f.stem, "path": f"30_wiki/{spec_dir_name}/{f.name}", "how": f"Read 30_wiki/{spec_dir_name}/{f.name}"})
 
     return manuals
 
