@@ -1,0 +1,48 @@
+name: infinite-canvas-prezi
+version: "0.1.0"
+description: "把任意主题或素材变成 Prezi 风格的单文件 HTML 演示——所有内容铺在一张无限画布上，镜头用缩放/平移/旋转运动讲故事，空间布局本身就是叙事逻辑。"
+author: 王欢
+adapted_by: 老顽童
+engine: impress.js 2.0.0
+entrypoint: SKILL.md
+trigger:
+  slash_command: "/infinite-canvas-prezi"
+  natural_language:
+    - "Prezi"
+    - "Prezi 风格"
+    - "无限画布"
+    - "空间叙事"
+    - "impress.js"
+    - "镜头在一张画布上缩放平移旋转"
+dependencies:
+  scripts:
+    - prezi_gate.py       # ⚠️ 当前不可用，需从原仓库迁移
+    - roam2prezi.py       # ⚠️ 当前不可用，需从原仓库迁移
+    - prezi2roam.py       # ⚠️ 当前不可用，需从原仓库迁移
+  external:
+    - impress.js 2.0.0 (CDN: cdn.jsdelivr.net/gh/impress/impress.js@2.0.0)
+    - Evan-gpt-image → gen_via_codex.py (AI生图)
+outputs:
+  - 单文件 HTML 演示 (.html)
+  - plan.json (场景序列+坐标+事实清单)
+  - media_manifest.json (素材URL+许可)
+  - review.json (七维终审结论)
+  - roam.md (Roam风格可编辑大纲)
+pipeline:
+  - step: plan
+    gate: prezi_gate.py plan plan.json
+  - step: media
+    gate: prezi_gate.py media media_manifest.json
+  - step: build
+    gate: prezi_gate.py build output.html
+  - step: final
+    gate: prezi_gate.py final
+known_issues:
+  - "⚠️ prezi_gate.py / roam2prezi.py / prezi2roam.py 当前不存在于 KDO 环境，需从王欢原仓库迁移或按教程重建。闸门脚本未就绪时无法执行机械检查，应诚实告知用户阻塞状态，不得跳过闸门直接交付。"
+related_cards:
+  - concept-spatial-narrative-design
+  - tool-presentation-quality-gate-pipeline
+  - dk-spatial-narrative-pitfalls
+  - case-infinite-canvas-founders-playbook
+  - framework-一堂-基本功-四字诀拆建推练
+  - framework-ouyangfeng-review-methodology

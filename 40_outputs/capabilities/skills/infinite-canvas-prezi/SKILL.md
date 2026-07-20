@@ -21,7 +21,15 @@ created_at: 2026-07-21
 updated_at: 2026-07-21
 reviewed_by: pending
 diagnostic_signals:
-  - "⚠️ prezi_gate.py 等机械闸门脚本当前不存在，Skill 层可被触发但闸门需从原仓库迁移"
+  - signal: "触发 /infinite-canvas-prezi 后闸门脚本报 FileNotFoundError"
+    lens: prezi_gate.py/roam2prezi.py/prezi2roam.py 未部署
+    follow_up: 诚实告知用户当前阻塞状态，提供静态 HTML 演示替代方案；同步推进脚本迁移
+  - signal: "用户描述的演示需求用词为'一页页翻/幻灯/PPT'"
+    lens: 用户可能不需要空间叙事，prezi 是过度设计
+    follow_up: 确认用户真实需求，必要时路由到 markdown-to-presentation
+  - signal: "生成的 HTML 中场景全部等距排列、无聚簇结构"
+    lens: 空间即逻辑原则未被遵守——Plan 阶段内容逻辑未映射到空间结构
+    follow_up: 回 Plan 阶段，先判内容逻辑再选空间结构，强制聚簇四原则
 ---
 
 # infinite-canvas-prezi
