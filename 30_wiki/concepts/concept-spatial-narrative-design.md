@@ -15,6 +15,14 @@ updated_at: "2026-07-21"
 quality_labels:
   - insight
   - principle
+diagnostic_signals:
+  - signal: "观众看完说不清内容结构"
+    lens: 空间布局没有体现逻辑关系
+    follow_up: 全景图摆出来只看布局，能否读出几大块？
+  - signal: "所有元素大小一样"
+    lens: 没有聚簇、没有主次
+    follow_up: 用聚簇四原则重组——同主题靠近、主次分大小
+
 source_refs:
   - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md"
 related:

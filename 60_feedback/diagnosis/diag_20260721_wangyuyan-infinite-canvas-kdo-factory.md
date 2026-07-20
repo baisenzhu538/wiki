@@ -1,26 +1,28 @@
 ---
 id: diag-20260721-wangyuyan-infinite-canvas-kdo-factory
-title: 王欢无限画布教程对 KDO 工厂的建设建议
+title: 王欢无限画布教程对 KDO 工厂的建设建议（#198 终审版）
 type: diagnosis
-status: draft
+status: complete
 author: 王语嫣
-reviewed_by: 待黄药师审
+reviewed_by: 欧阳锋
+review_date: "2026-07-21"
 created_at: "2026-07-21"
 updated_at: "2026-07-21"
 source_refs:
   - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md"
   - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/_vlm_output/识别报告_无限画布教程.md"
 related:
+  - "task_20260721_wangyuyan-infinite-canvas"
+  - "case-infinite-canvas-founders-playbook"
   - "skill-duanwangye-prezi"
   - "markdown-to-presentation"
-  - "beikai-multimodal-pipeline"
-  - "presenton-ppt-generator"
 ---
 
-# 王欢无限画布教程对 KDO 工厂的建设建议
+# 王欢无限画布教程对 KDO 工厂的建设建议（#198 终审版）
 
 > 审阅对象：黄药师  
-> 目的：判断这份素材应如何进入 KDO 工厂管线，产出哪些知识资产与能力资产，以及基础设施层面需要补什么。
+> 目的：判断这份素材应如何进入 KDO 工厂管线，产出哪些知识资产与能力资产，以及基础设施层面需要补什么。  
+> **注意**：本文件为建议性诊断，最终执行任务单见 `60_feedback/tasks/task_20260721_wangyuyan-infinite-canvas.md`。
 
 ---
 
@@ -48,70 +50,56 @@ related:
 | **可追溯** | `scene_id` 闭环、sha256 绑定产物与 review | `source_refs` 行号、`artifact_id` 注册 |
 | **可迭代** | Roam 大纲 ↔ HTML 双向确定性重建 | 卡片版本迭代、Skill 渐进式披露 |
 
-**结论**：这份素材值得被萃取成 KDO 的方法论层资产（concept/framework/dk/case），并补入能力层（standard Skill 包），而不是只停留在 00_inbox 的原材料状态。
+**结论**：这份素材值得被萃取成 KDO 的方法论层资产（concept/tool/dk/case），并补入能力层（standard Skill 包），而不是只停留在 00_inbox 的原材料状态。
 
 ---
 
-## 3. 与现有 KDO 资产的关系
+## 3. #198 终审裁定（欧阳锋）
 
-### 3.1 已有相关资产
-
-1. **`30_wiki/skills/skill-duanwangye-prezi.md`**（draft）
-   - 已把王欢的 skill 改编为「段王爷·Prezi 无限画布演示发布」
-   - 但 status=draft、reviewed_by 为空
-   - 明确标注：`prezi_gate.py` 机械闸门脚本「待从原 skill 迁移」
-
-2. **`40_outputs/capabilities/skills/markdown-to-presentation/SKILL.md`**（stable）
-   - 覆盖 Marp / Slidev / reveal.js 传统幻灯工作流
-   - 缺 Prezi / 无限画布 / 空间叙事这条线
-
-3. **洪七公多模态技能族**
-   - `presenton-ppt-generator`、`drawio-mcp-diagrams`、`wan-video-generation` 等
-   - 无限画布可作为多模态输出能力的补充
-
-### 3.2 当前缺口
-
-- **概念层**：没有 `concept` 卡解释「空间叙事」本身
-- **方法论层**：没有 `framework` 卡把「内容逻辑 → 空间结构」系统化
-- **案例层**：没有把《创始人手册》60 镜头案例沉淀为 `case` 卡
-- **暗知识层**：没有把无限画布常见失败模式沉淀为 `dk` 卡
-- **能力层**：`skill-duanwangye-prezi` 尚未升级成 `40_outputs/capabilities/skills/` 下的标准 Skill 包（缺 `manifest.yaml` / `system-prompt.md`）
+| 提议 | 裁定 | 本建议处理 |
+|:---|:---|:---|
+| 补 `framework` 卡 | ❌ 不采纳 | 流水线与质量机制已在 `tool-presentation-quality-gate-pipeline` 中承载，拆出重复 |
+| 4 张→桥接卡 | ❌ 不采纳 | 素材为已完成技能文档，非口述方法论，4 张够用；桥接卡待真实需求出现时再建 |
+| 升级 `skill-duanwangye-prezi.md` | ✅ 采纳 | 纳入 Skill 部署层 S4：status draft→reviewed，与卡片层产出建 related 双向链 |
+| 脚本可用性标注 | ✅ 采纳 | S1 标注 ⚠️：`prezi_gate.py`/`roam2prezi.py`/`prezi2roam.py` 当前不存在，需迁移或重建 |
+| 与 `markdown-to-presentation` 关系 | ✅ 采纳 | markdown-to-presentation 覆盖传统幻灯（Marp/Slidev/reveal.js），本任务补空间叙事支路 |
+| 三阶段执行 | ⚠️ 部分 | P0/P1 优先级已在任务单卡片规格中标明，不强制分 Phase |
 
 ---
 
-## 4. 对 KDO 工厂的建设建议
+## 4. 建议产出的卡片与能力资产
 
-### 4.1 卡片层：建议产 5 张卡
+### 4.1 卡片层：4 张（任务单已锁定）
 
-| 优先级 | 卡片 ID | 类型 | 核心内容 | 负责角色 |
-|:---|:---|:---|:---|:---|
-| P0 | `concept-spatial-narrative` | concept | 空间叙事：用空间关系承载内容逻辑；与 PPT 翻页叙事的本质区别 | 老顽童 |
-| P0 | `framework-infinite-canvas-production` | framework | 无限画布生产四步法：内容逻辑分析 → 空间结构设计 → 媒体准备 → 构建+QA | 老顽童 |
-| P1 | `tool-infinite-canvas-prezi` | tool | impress.js 单文件 HTML 操作法：坐标系、聚簇、真嵌套、imgfocus、substep、Roam 双向线 | 老顽童 |
-| P1 | `case-founders-playbook-prezi` | case | 《创始人手册》60 镜头实战：7 聚簇、中心辐射、真嵌套、imgfocus、全景总览 | 老顽童 |
-| P1 | `dk-infinite-canvas-failure-modes` | dk | 常见失败模式：均匀路径、假嵌套、晕镜、剧透目录页、弃原图全走 AI 插画 | 老顽童 |
+| 优先级 | 卡片 ID | 类型 | 核心内容 |
+|:---|:---|:---|:---|
+| P0 | `concept-spatial-narrative-design` | concept | 空间即逻辑：四种空间结构（路径/嵌套/对比/环形）+ 聚簇优先四原则 + 真嵌套定义 |
+| P1 | `tool-presentation-quality-gate-pipeline` | tool | 双防线质量控制：四道机械闸门 + 七维独立终审 + 信任红线 + 降级铁律 |
+| P1 | `dk-spatial-narrative-pitfalls` | dk | 空间叙事四大失败模式：等距平铺 / 伪嵌套 / 缺 imgfocus / 构建者自审 |
+| P1 | `case-infinite-canvas-founders-playbook` | case | 60 镜头《创始人手册》：中心辐射 + 7 聚簇 + 真嵌套 + 42MB 单文件 HTML |
 
-### 4.2 能力层：升级为标准 Skill 包
+**说明**：其中 `case-infinite-canvas-founders-playbook` 已存在（老顽童 2026-07-21 初稿，status=draft），任务执行时只需按验收标准补齐，无需从零新建。
 
-把 `30_wiki/skills/skill-duanwangye-prezi.md` 迁移到：
+### 4.2 能力层：Skill 部署（S1-S4）
 
-```
-40_outputs/capabilities/skills/infinite-canvas-prezi/
-├── SKILL.md              # KDO 注册入口
-├── manifest.yaml         # 知识注入 / 能力 / 约束 / eval
-├── system-prompt.md      # 编译产物
-└── scripts/              # 待建设
-    ├── prezi_gate.py
-    ├── roam2prezi.py
-    └── prezi2roam.py
-```
+| # | 任务 | 执行者 | 验收标准 |
+|:---|:---|:---|:---|
+| S1 | 部署 `infinite-canvas-prezi` 为 KDO Skill | 老顽童 | skill 可被 `/infinite-canvas-prezi` 触发；⚠️ scripts 当前不存在，需迁移或重建 |
+| S2 | 七维终审适配 KDO 上下文 | 黄药师 | 终审清单引用 KDO 卡片路径；与欧阳锋审查方法论卡建立 related 双向链 |
+| S3 | 编译 Prezi 构建 Agent 的 agent-spec | 黄药师 | 角色定位 + 对话模式 + 工具映射 + Feature 清单 |
+| S4 | 升级 `skill-duanwangye-prezi.md` | 段王爷/欧阳锋 | status draft→reviewed；⚠️ 项清零或标注阻塞原因；与 #198 卡片层产出建 related |
 
-**与 `markdown-to-presentation` 的关系**：
-- `markdown-to-presentation`：传统幻灯片（Marp / Slidev / reveal.js）
-- `infinite-canvas-prezi`：空间叙事 / Prezi 风格 / 无限画布
-- 两张 Skill 的触发条件必须互斥，避免 Agent 选错工具
+### 4.3 与已有资产的关系
 
-### 4.3 基础设施层：待黄药师判断的三件事
+| 已有资产 | 位置 | 状态 | 关系 |
+|:---|:---|:---|:---|
+| `skill-duanwangye-prezi.md` | `30_wiki/skills/` | draft | 段王爷已做发布域适配；#198 提取通用方法论，产出后双向 related |
+| `markdown-to-presentation` | `40_outputs/capabilities/skills/` | stable | 覆盖 Marp/Slidev/reveal.js，缺 Prezi 线；#198 补空间叙事支路 |
+| `case-infinite-canvas-founders-playbook` | `30_wiki/cases/` | draft | 已存在，需按验收标准补齐 |
+
+---
+
+## 5. 基础设施层：待黄药师判断的三件事
 
 1. **脚本迁移可行性**
    - 王欢教程中提到的 `prezi_gate.py`、`roam2prezi.py`、`prezi2roam.py` 当前是否已有可执行版本？
@@ -127,45 +115,36 @@ related:
 
 ---
 
-## 5. 对老朱/OPC 的即时价值
+## 6. 对老朱/OPC 的即时价值
 
 这份能力建设不只是为了 KDO 工厂本身，对老朱当前业务也有直接用途：
 
-1. **商业方法论可视化**：利润为王、五步法、Y 模型等都可做成空间叙事演示，比 PPT 更具冲击力。
-2. **出海/代理商推介**：单文件 HTML、断网可播、浏览器即开，适合发给海外客户或代理商。
+1. **商业方法论可视化**：利润为王、五步法、Y 模型等都可做成空间叙事演示。
+2. **出海/代理商推介**：单文件 HTML、断网可播、浏览器即开，适合海外客户。
 3. **知识库视觉层**：KDO 卡片是文字层，无限画布可以成为「知识地图」的可视化层。
-4. **融资/BP 演示**：巨米教训、鑫港湾商业模式用空间叙事呈现，比线性 PPT 更有说服力。
+4. **融资/BP 演示**：巨米教训、鑫港湾商业模式用空间叙事呈现更有说服力。
 
 ---
 
-## 6. 建议执行顺序
+## 7. 建议执行顺序
 
-```
-Phase 1（本周）
-├── 产出 concept-spatial-narrative
-├── 产出 framework-infinite-canvas-production
-└── 同时把 skill-duanwangye-prezi.md 推进到 reviewed 状态
+已按 P0/P1 在任务单中标注优先级。领取后建议按以下顺序执行：
 
-Phase 2（下周）
-├── 产出 tool-infinite-canvas-prezi
-├── 产出 case-founders-playbook-prezi
-└── 产出 dk-infinite-canvas-failure-modes
-
-Phase 3（后续）
-├── 黄药师判断脚本迁移/实现成本
-├── 决定是否建设 40_outputs/capabilities/skills/infinite-canvas-prezi/ 标准包
-└── 如需，更新 artifact-registry.yaml 与 kdo CLI 的 artifact subtype
-```
+1. `concept-spatial-narrative-design`（P0，方法论基础）
+2. `tool-presentation-quality-gate-pipeline`（P1，承接 concept 的操作法）
+3. `dk-spatial-narrative-pitfalls`（P1，与 tool 卡配套）
+4. `case-infinite-canvas-founders-playbook`（P1，补齐已有草稿）
+5. S1-S4 Skill 部署层（卡片层完成后启动）
 
 ---
 
-## 7. 待黄药师确认的问题
+## 8. 待黄药师确认的问题
 
 1. `prezi_gate.py`、`roam2prezi.py`、`prezi2roam.py` 是否已有可执行脚本？还是仅停留在教程描述阶段？
 2. 是否值得为无限画布新增一个独立的 artifact subtype，还是先复用 `content/presentation`？
 3. `skill-duanwangye-prezi.md` 当前 draft 中提到的「机械闸门待迁移」是否已有开发计划？
-4. 这份素材应归入哪个 domain？候选：`multimedia-output`、`content-production`、`publishing`、`ai-collaboration`。
+4. 这份素材应归入哪个 domain？任务单已选 `content-production`，是否合适？
 
 ---
 
-*王语嫣 · 2026-07-21 · 基于 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布*
+*王语嫣 · 2026-07-21 · #198 终审版 · 执行任务单：`60_feedback/tasks/task_20260721_wangyuyan-infinite-canvas.md`*

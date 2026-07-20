@@ -14,6 +14,14 @@ created_at: "2026-07-21"
 updated_at: "2026-07-21"
 quality_labels:
   - insight
+diagnostic_signals:
+  - signal: "全景图看起来像棋盘格"
+    lens: 等距平铺——所有元素间距相同
+    follow_up: 用聚簇四原则重组空间布局
+  - signal: "有箭头但点进去没有钻入动画"
+    lens: 伪嵌套——平铺排列+箭头假装层级
+    follow_up: 检查scale比≥3+子坐标在父包围盒内
+
 source_refs:
   - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md"
 related:
@@ -58,3 +66,8 @@ related:
 
 - ✅ Prezi/impress.js 等空间叙事工具
 - ❌ 传统PPT——不存在空间结构问题
+
+## Critique
+
+- 四大失败模式覆盖了Prezi最常见的结构问题，但不同演示工具（Keynote/PowerPoint/reveal.js）有不同的失败模式——空间叙事特有的问题不适用于传统幻灯
+- 伪嵌套的判断标准（scale比≥3）依赖impress.js的缩放机制，其他工具可能需要不同的判断标准

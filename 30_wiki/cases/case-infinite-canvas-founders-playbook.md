@@ -14,6 +14,14 @@ created_at: "2026-07-21"
 updated_at: "2026-07-21"
 quality_labels:
   - cited
+diagnostic_signals:
+  - signal: "42MB单文件加载很慢"
+    lens: 全内联导致文件过大
+    follow_up: 后续做按需加载
+  - signal: "60镜头观众跟不上"
+    lens: 镜头过多停留时间不足
+    follow_up: 控制在40-50镜头
+
 source_refs:
   - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md"
 related:

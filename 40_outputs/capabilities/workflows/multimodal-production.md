@@ -119,7 +119,32 @@ Determine what the input IS and what the caller WANTS.
               → 产出: 40_outputs/content/presentations/<slug>/
 ```
 
-### Pipeline E: Audio
+### Pipeline E: Infinite Canvas（空间叙事演示）
+
+```
+输入文章/卡片 → 素材全量阅读 → 事实清单(facts.jsonl) → source_inventory
+              → 内容逻辑分析 → 选空间结构（线性/嵌套/对比/环形）
+              → 画布策划（6-20场景，每场景一个讲点）
+              → 媒体准备（原图复用→网络搜图→AI插画→SVG/CSS，快速降级不死磕）
+              → 构建 HTML（impress.js 单文件，CSS/JS内联，图片base64）
+              → QA：四道闸门 + 实机截图 + 欧阳锋七维终审
+              → 产出: 40_outputs/content/presentations/<slug>/<slug>.html
+              → 段王爷发布（单文件HTML，浏览器即开，断网可播）
+```
+
+**何时用 vs 何时不用**：
+| 用无限画布 | 用传统 PPT |
+|:--|:--|
+| 内容有总分/层级/嵌套结构 | 内容是线性的 |
+| 需要"一屏看尽全景"的冲击力 | 需要逐页精读 |
+| 发给客户/代理商独立播放 | 演讲者需要演讲者注释 |
+| 空间关系本身是信息的一部分 | 翻页顺序本身就是信息 |
+
+**Skill**: `30_wiki/skills/skill-duanwangye-prezi.md`
+**引擎**: impress.js 2.0.0
+**参考**: 王欢《把一个想法，做成一张会移动的无限画布》
+
+### Pipeline F: Audio
 
 ```
 输入文字 → 判语言/方言 → 选 TTS 引擎

@@ -14,6 +14,14 @@ created_at: "2026-07-21"
 updated_at: "2026-07-21"
 quality_labels:
   - actionable
+diagnostic_signals:
+  - signal: "审查通过了但上线后出问题"
+    lens: 构建者自审——自己做的东西有盲区
+    follow_up: 信任红线：构建者禁自审、禁改review.json
+  - signal: "连续3次审查不通过"
+    lens: 可能在错误的方向上死磕
+    follow_up: 降级铁律：2-3次失败→立即降级为静态方案
+
 source_refs:
   - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md"
 related:
