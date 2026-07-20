@@ -2,9 +2,9 @@
 id: task_20260720_wangyuyan-ai-video-tool
 task_id: 197
 assignee: hermes
-status: pending_review
+status: queued
 created_at: 2026-07-20
-updated_at: '2026-07-20T19:06:02.126514+00:00'
+updated_at: '2026-07-21T19:30:00.000000+00:00'
 domain: ai-collaboration
 priority: P1
 source: 00_inbox/AI口播工具开发经验/
@@ -147,3 +147,28 @@ review_audit: 60_feedback/audit/audit-20260721-wangyuyan-197-198-pre-review.md
 2. 跑 `kdo pre-submit` 和 `kdo lint`
 3. 确认无重复 ID、无跨目录死链
 4. 提交 `pending_review`
+
+---
+
+## 修复后验证结果（王语嫣 2026-07-21）
+
+### ✅ 已完成
+
+- 6 份 `ai-collaboration/` 副本已删除
+- 2 张增量 dk 卡已移入 `dark-knowledges/`
+- 无重复 ID
+
+### ❌ 仍未达标（从 pending_review 退回 queued）
+
+| 卡片 | 问题 |
+|:---|:---|
+| `framework-ai-video-production-aesthetics-first` | **缺 Critique** |
+| `concept-ai-video-wanggan-componentization` | **缺 Critique** |
+| `tool-ai-video-market-gap-assessment` | **缺 Critique** |
+| `tool-ai-video-cost-optimization` | **缺 Critique** |
+| `case-fuzeyu-ai-koubo-tool-dev` | **缺 Critique** |
+| `dk-ai-video-common-pitfalls` | **related=4**，未达 ≥5 |
+| `dk-post-hoc-framework-vs-messy-reality` | **`diagnostic_signals` 仍是占位符** |
+| `dk-market-info-gap-to-product-strategy` | **`diagnostic_signals` 仍是占位符** |
+
+**结论**：重复清理完成，但内容修复未完成。已退回 `queued`，补齐后再提交终审。

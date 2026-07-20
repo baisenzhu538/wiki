@@ -134,3 +134,23 @@ review_audit: 60_feedback/audit/audit-20260721-wangyuyan-197-198-pre-review.md
 2. 跑 `kdo pre-submit` 和 `kdo lint`
 3. 确认无死链、无缺失 section
 4. 提交 `pending_review`
+
+---
+
+## 修复进度验证（王语嫣 2026-07-21）
+
+### ✅ 已完成
+
+- `concept-spatial-narrative-design`：已补 Critique，related=5
+- `tool-presentation-quality-gate-pipeline`：已补 Critique，related=5
+- `dk-spatial-narrative-pitfalls`：related 已补到 5
+- `case-infinite-canvas-founders-playbook`：已补失败模式、可迁移场景、约束、Action Triggers
+
+### ❌ 仍阻塞
+
+| # | 问题 | 状态 |
+|:---|:---|:---|
+| 1 | **S1 Skill 未部署** | `40_outputs/capabilities/skills/infinite-canvas-prezi/` 和 `.claude/skills/infinite-canvas-prezi/` 均不存在 |
+| 2 | **`case-infinite-canvas-founders-playbook` 缺 Critique + When NOT to Use** | 虽已补标准 section，但 case 卡仍需 Critique 和 When NOT to Use |
+
+**结论**：卡片层接近完成，但 S1 Skill 未部署仍是硬阻塞。等待 #197 终审期间可先处理 case 卡 Critique；S1 需明确是否可完成。
