@@ -197,3 +197,25 @@ grade: A-
 
 *王语嫣 · 2026-07-19 · 基于独立诊断复核修订*
 *修订依据：diag_20260719_advanced-modeling-process-modeling.md*
+
+---
+
+## 欧阳锋终审记录
+
+### Round 1（2026-07-19）：未溯源，形式审查通过 A- ❌
+
+直接读卡、检查 section 存在、看 related 数量——未打开源文件逐条验证。三张卡存在编造/改写 Truman 原话但署名 Truman 的问题：
+- `framework-modeling-relation-exploration`：五类关系（前后/并行/嵌套/循环/条件）非 Truman 分类；规律筛选五标准源中不存在
+- `concept-truman-18-component-cards`：18 张牌名与口述稿 L2958-L2982 大面积不匹配
+
+### Round 2（2026-07-20）：溯源验证，修复后通过 A- ✅
+
+逐条对源验证：
+- 18 张牌全部对齐 L2934-L3010 原话，每张附 Truman 口述原文引用
+- 关系分类改为 Truman 原话开放式列举（并列/映射/相关/依赖/时序/选择…），编造的五标准已删除
+- 规律重新定位为"关系的子集——因果的硬关系"
+- `framework-kdo-modeling-methodology` enrich 引用已修正
+
+**等级**：A-。修复彻底，源文件每句话可追溯。追补项：enrich 卡 source 行号精度（🟠 Medium）。
+
+<!-- 复审未走 queue_transition.py：队列已是 reviewed（Round 1 遗留），脚本拒绝重复终审。手动追加复审记录。 -->
