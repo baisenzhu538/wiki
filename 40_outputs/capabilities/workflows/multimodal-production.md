@@ -54,6 +54,7 @@ Determine what the input IS and what the caller WANTS.
   ├── 文章/卡片（文字为主）
   │   ├── 需做成视频？ → Video Pipeline
   │   ├── 需做成 PPT？ → Presentation Pipeline
+  │   ├── 需做成无限画布？ → Infinite Canvas Pipeline（空间叙事，镜头飞行）
   │   ├── 需做成信息图？ → Infographic Pipeline
   │   ├── 需做成架构图？ → Diagram Pipeline (Draw.io)
   │   └── 需做成播客？ → Audio Pipeline

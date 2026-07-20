@@ -50,6 +50,7 @@ behavioral_cards: [H1, H2, H3, H4, H5, H6]
 | 文章转视频 | **Hyperframes** / **Wan 2.2** / **T2V Pipeline** | 见 `skills/shared/beikai-multimodal-pipeline/SKILL.md` |
 | 描述→架构图/流程图 | **Draw.io MCP** | `skills/shared/drawio-mcp-diagrams/SKILL.md` |
 | 内容→PPT | **Presenton** / **Marp** | `skills/shared/presenton-ppt-generator/SKILL.md` |
+| 内容→无限画布空间叙事 | **infinite-canvas-prezi** | `30_wiki/skills/skill-duanwangye-prezi.md`（impress.js 单文件HTML，镜头飞行叙事） |
 | 文字→语音 | **CosyVoice TTS** | `skills/shared/cosyvoice-tts/SKILL.md` |
 | AI 图像生成 | **ComfyUI** / **SD** / **MJ** | `skills/ai-image-prompt-engineering/SKILL.md` |
 | 多模态总纲 | **beikai-multimodal-pipeline** | `skills/shared/beikai-multimodal-pipeline/SKILL.md`（全部武器的目录） |

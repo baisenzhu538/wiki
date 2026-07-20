@@ -1,21 +1,32 @@
 ---
 id: task_20260721_wangyuyan-infinite-canvas
 task_id: 198
-assignee: hermes
-status: pending_review
+assignee: -
+status: queued
 created_at: 2026-07-21
-updated_at: '2026-07-20T17:20:02.930061+00:00'
+updated_at: '2026-07-21T17:20:02.930061+00:00'
 domain: content-production
 priority: P1
 source: 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/
 diagnosis: 60_feedback/diagnosis/diag_20260721_wangyuyan-infinite-canvas.md
 ---
 
-# 无限画布Prezi · 卡片化生产任务
+# 无限画布Prezi · 卡片化与Skill部署任务
 
 ## 任务目标
 
-将王欢`infinite-canvas-prezi`技能文档的核心方法论（空间即逻辑+双防线质量控制）转化为KDO wiki卡片。素材为已完成技能文档，聚焦**设计哲学和工程化方法论**提取，不重复技能本身的操作教程。
+将王欢`infinite-canvas-prezi`技能文档的核心方法论（空间即逻辑+双防线质量控制）转化为KDO wiki卡片，并把方法论解压为可运行的Skill/Agent能力。素材为已完成技能文档，聚焦**设计哲学和工程化方法论**提取，不重复技能本身的操作教程。
+
+## 迭代记录 · #198 终审裁定（王语嫣 2026-07-21 合并）
+
+| 对方提议 | 裁定 | 本任务单处理 |
+|:---|:---|:---|
+| 补 `framework` 卡 | ❌ 不采纳 | 流水线与质量机制已在 `tool-presentation-quality-gate-pipeline` 中承载，拆出重复 |
+| 4 张→桥接卡 | ❌ 不采纳 | 素材为技能文档而非口述方法论，4 张够用；桥接卡待后续真实需求出现时再建 |
+| 升级 `skill-duanwangye-prezi.md` | ✅ 采纳 | 纳入 S4：status draft→reviewed，与卡片层产出建立 related 双向链 |
+| 脚本可用性标注 | ✅ 采纳 | S1 已标注 ⚠️：`prezi_gate.py`/`roam2prezi.py`/`prezi2roam.py` 当前不存在，需迁移或重建 |
+| 与 `markdown-to-presentation` 关系 | ✅ 采纳 | 已纳入「已有资产对齐」表：markdown-to-presentation 覆盖传统幻灯，本任务补空间叙事支路 |
+| 三阶段执行 | ⚠️ 部分 | P0/P1 优先级已在卡片规格中标明，不强制分 Phase；领取后按 P0→P1 顺序执行 |
 
 ## 素材
 
