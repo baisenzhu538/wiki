@@ -93,7 +93,7 @@ type: memory/role-recovery
 
 | 优先级 | 文件 | 作用 |
 |:---|:---|:---|
-| P0 | `.agent/hongqigong-context.md` | 确认身份、启动步骤、当前状态 |
+| P0 | `.agent/hongqigong-context.md` | 确认身份、启动步骤、武器路由表（活注册表）、行为牌组 H1-H6、当前状态 |
 | P0 | `.agent/context.md` | 全厂共享状态、active_task、blockers |
 | P0 | `70_product/tasks/dashboard.md` | 看洪七公任务区领任务 |
 | P1 | `.agent/toolkit.md` | 本地武器库、命令速查 |
