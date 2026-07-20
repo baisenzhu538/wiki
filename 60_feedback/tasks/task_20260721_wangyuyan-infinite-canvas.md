@@ -1,0 +1,79 @@
+---
+id: task_20260721_wangyuyan-infinite-canvas
+task_id: 198
+assignee: laowantong
+status: queued
+created_at: 2026-07-21
+updated_at: 2026-07-21
+domain: content-production
+priority: P1
+source: 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/
+diagnosis: 60_feedback/diagnosis/diag_20260721_wangyuyan-infinite-canvas.md
+---
+
+# 无限画布Prezi · 卡片化生产任务
+
+## 任务目标
+
+将王欢`infinite-canvas-prezi`技能文档的核心方法论（空间即逻辑+双防线质量控制）转化为KDO wiki卡片。素材为已完成技能文档，聚焦**设计哲学和工程化方法论**提取，不重复技能本身的操作教程。
+
+## 素材
+
+| 文件 | 路径 |
+|:--|:--|
+| 技能教程正文 | `00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md` |
+| VLM识别报告 | `00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/_vlm_output/识别报告_无限画布教程.md` |
+
+## 卡片规格
+
+### P0（1张）
+
+| # | id | type | title | 核心内容 |
+|:--|:--|:--|:--|:--|
+| 1 | concept-spatial-narrative-design | concept | 空间即逻辑：内容逻辑→空间结构的映射 | 四种空间结构(路径/嵌套/对比/环形) + 聚簇优先四原则 + 真嵌套的定义(scale比≥3、子坐标在父包围盒内、钻入+退回)。哲学基础：画布的位置关系=内容的逻辑关系 |
+
+### P1（3张）
+
+| # | id | type | title | 核心内容 |
+|:--|:--|:--|:--|:--|
+| 2 | tool-presentation-quality-gate-pipeline | tool | 演示产线双防线质量控制 | 四道机械闸门(plan/media/build/final, rc≠0拦截) + 七维独立终审(R1-R7, 独立子Agent执行) + 信任红线(构建者禁自审/禁改review.json) + 降级铁律(2-3次失败→立即降级) |
+| 3 | dk-spatial-narrative-pitfalls | dk | 空间叙事四大失败模式 | 等距平铺(无聚簇)/伪嵌套(平铺装层级)/横图看不清(缺imgfocus)/构建者自审(违信任红线) |
+| 4 | case-infinite-canvas-founders-playbook | case | 60镜头《创始人手册》：Prezi式创业旅程画布 | Claude Blog长文→60镜头单文件HTML；空间结构：中央标题锚点+7章节聚簇中心辐射+每章3嵌套子讲点；技术栈：impress.js 2.0.0，42MB单文件全内联 |
+
+**合计：4张（1 P0 + 3 P1）** — 素材为已完成技能文档，提取方法论核心，不与技能操作教程重复
+
+## 验收标准
+
+1. source_refs引用技能教程行号
+2. concept卡必须含：四种空间结构图示、聚簇四原则、真嵌套vs伪嵌套对照
+3. tool卡必须含：四闸对应的确定性规则清单、七维各自的检查问题、信任红线声明
+4. related ≥5且≥2跨域（必须链接四字诀和欧阳锋审查方法论）
+5. 提交前跑`kdo pre-submit`
+
+## 已有卡关联（必须建立 related）
+
+### 关系型（双向，必须）
+
+| 已有卡 | 同构关系 | 回链内容 |
+|:--|:--|:--|
+| framework-一堂-基本功-四字诀拆建推练 | 三步流水线(Plan→Media→Build)与四字诀同构 | 四字诀卡新增"演示产线"场景实例 |
+| framework-ouyangfeng-review-methodology | 七维独立终审与欧阳锋五轴审查+魔鬼代言人+分层阻断**完全同构**——都是独立审查、多维检查、禁止自审 | 欧阳锋方法论卡新增"演示产线审查"作为跨域应用 |
+
+### 引用型（单向，必须）
+
+| 已有卡 | 关系 |
+|:--|:--|
+| framework-yitang-case-crafting-four-step (#196) | 空间叙事=案例表达四步法"打磨表达"的可视化版本 |
+| framework-一堂-表达力火箭模型 | 空间设计服务于表达递进 |
+| infinite-canvas-prezi skill | 本任务是技能的**方法论提取**，不是重复技能教程 |
+
+## 边界说明
+
+- **不覆盖**：技能本身的操作教程（已有王欢原文和index.html）
+- **不覆盖**：impress.js技术文档
+- **不重复**：四字诀/欧阳锋审查方法的完整内容（只建引用和同构声明）
+- **域归属**：归入content-production域（演示内容生产），与欧阳锋审查方法论跨域桥接
+
+## 特殊说明
+
+洪七公已完成VLM预处理（22张图逐图识别），诊断报告已引用识别结果。老顽童生产时可直接使用洪七公的识别报告作为二等证据，核心claims以技能教程正文（一等证据）为准。
