@@ -472,4 +472,4 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 
 
 
-| 196 | `task_20260720_wangyuyan-case-crafting-methodology` | 案例打磨四步法卡片化：12张卡（8原卡 + 4深挖增量），归入content-production域 | queued | - | 12张（8原+4增量） | 无；新域补白 | `60_feedback/tasks/task_20260720_wangyuyan-case-crafting-methodology.md` | 李頔口述+笔记；四步法=实事求是+9层深挖+内容生产在案例体裁的专项化；诊断见 `60_feedback/diagnosis/diag_20260720_wangyuyan-case-crafting-methodology.md`；2026-07-20王语嫣深挖追加4增量卡 |
+| 196 | `task_20260720_wangyuyan-case-crafting-methodology` | 案例打磨四步法卡片化：12张卡（8原卡 + 4深挖增量），归入content-production域 | claimed-hermes | - | 12张（8原+4增量） | 无；新域补白 | `60_feedback/tasks/task_20260720_wangyuyan-case-crafting-methodology.md` | 李頔口述+笔记；四步法=实事求是+9层深挖+内容生产在案例体裁的专项化；诊断见 `60_feedback/diagnosis/diag_20260720_wangyuyan-case-crafting-methodology.md`；2026-07-20王语嫣深挖追加4增量卡 |

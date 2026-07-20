@@ -1,10 +1,10 @@
 ---
 id: task_20260720_wangyuyan-case-crafting
 task_id: 196
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 created_at: 2026-07-20
-updated_at: 2026-07-20
+updated_at: '2026-07-20T15:29:35.421642+00:00'
 domain: content-production
 priority: P1
 source: 00_inbox/案例打造法-李頔/
