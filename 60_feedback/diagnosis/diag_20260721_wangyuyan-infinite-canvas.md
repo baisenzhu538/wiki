@@ -144,4 +144,32 @@ concept-spatial-narrative-design (P0)
 └── case-infinite-canvas-founders-playbook (P1)
 ```
 
-**解压资产总数：3张**（≥3，满足建模自检）
+**卡片层：4张**（满足建模自检）
+
+### 🔴 迭代追加：Feature分解 + Skill部署
+
+> 2026-07-21 王语嫣根据KDO建模方法论四步法§解压展开（tool→skill→workflow→agent-spec编译链）和Truman feature概念追加。
+
+#### Feature级原子能力拆解
+
+`infinite-canvas-prezi` 可拆为以下可复用feature（被其他workflow引用）：
+
+| feature | 功能 | 可被复用的场景 |
+|:--|:--|:--|
+| `cluster-detect` | 聚簇检测：判断内容块是否形成聚簇 | 任何需要"分组→空间布局"的场景 |
+| `nest-verify` | 真嵌套验证：scale比≥3 + 子坐标在父包围盒 + 钻入退回序列 | 层级内容的质量检查 |
+| `anti-dizzy` | 防晕规则：旋转≤90°/缩放≤10/运动交替 | 任何镜头/动画类产品 |
+| `imgfocus-seq` | 图片聚焦步：整卡→钻图→拉出→下一站 | 图文内容的细节展示 |
+| `gate-rc-check` | 闸门rc≠0拦截 | 任何多步骤流水线的质量门 |
+| `review-sha256-bind` | 哈希绑定防作弊：产物SHA256与review.json绑定 | 审查不可绕过机制 |
+| `roam-roundtrip` | Roam双向：大纲↔布局确定性互转 | 人类可编辑源↔机器产物的桥接 |
+
+#### Skill部署任务（老顽童+黄药师）
+
+| # | 任务 | 执行者 | 验收标准 |
+|:--|:--|:--|:--|
+| S1 | 将`infinite-canvas-prezi`部署为KDO skill | 老顽童 | skill可被`/infinite-canvas-prezi`触发；含scripts/prezi_gate.py闸门 |
+| S2 | 七维终审适配KDO上下文 | 黄药师 | 终审清单中引用KDO卡片路径替代原路径 |
+| S3 | 编译agent-spec | 黄药师 | 角色定位+对话模式+工具映射写入agent-spec卡 |
+
+**新增任务单卡片数不变（4张），Skill部署层追加到任务单§附加任务。**

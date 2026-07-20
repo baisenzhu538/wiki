@@ -2,7 +2,7 @@
 id: task_20260720_wangyuyan-ai-video-tool
 task_id: 197
 assignee: hermes
-status: reviewed
+status: queued
 created_at: 2026-07-20
 updated_at: '2026-07-20T17:02:34.471570+00:00'
 domain: ai-collaboration
@@ -86,3 +86,35 @@ grade: A
 - 不覆盖：纯技术实现细节（代码/API对接文档）
 - 不覆盖：通用短视频运营策略（选题/账号定位）
 - 不单独建域：方法论层面归入 ai-collaboration，案例可被 content-production 域引用
+
+---
+
+## 补审记录（欧阳锋，2026-07-21）
+
+**异常说明**：Hermes 老顽童提交 #197 后，`queue_transition.py review --verdict fail` 执行时报"任务197不在队列中"错误，但队列条目被异常标记为 `reviewed`。手动修正队列和任务单状态为 `queued`。
+
+**终审结论**：🔴 **FAIL — 退回修复**
+
+### 🔴 必须修复（4项，阻塞通过）
+
+| # | 问题 | 影响范围 |
+|---|------|----------|
+| 1 | `diagnostic_signals` 字段全局缺失 | 全部 8 张卡 |
+| 2 | 3 张 dk 卡缺少独立 Critique section（dk 六段要求含外部批判） | dk-ai-video-common-pitfalls, dk-post-hoc-framework-vs-messy-reality, dk-market-info-gap-to-product-strategy |
+| 3 | dk-post-hoc 和 dk-market-info 在 `dark-knowledges/` 有旧版残留（diff 确认是同一张卡的旧 frontmatter）——需删除旧版 | 2 张 |
+| 4 | `tool-ai-video-cost-optimization` related 仅 3 个，验收标准要求 ≥5 | 1 张 |
+
+### 🟡 建议修复（3项，入库前应修）
+
+| # | 问题 | 说明 |
+|---|------|------|
+| 5 | concept 卡仅 1 个外部攻击者（Opus.pro），建议补到 ≥2 | 可补组件化文献/Design Token 研究 |
+| 6 | 4 张 tool/dk 卡无外部 Critique（tool-market, tool-cost, dk-pitfalls, dk-market-info） | 各补 1-2 个 |
+| 7 | dk-pitfalls related 仅 4 个 | 差 1 个达标 |
+
+### ✅ 亮点
+
+- framework 卡 §A/§B 双面呈现设计优秀——"复盘框架 vs 真实执行顺序"的诚实标注
+- 全部 related 外链 ID 实际存在（lint 报死链为跨目录查找限制）
+- 行号引用精确，Claims/Evidence/Synthesis/Action Triggers/Failure Modes 完整
+- 跨域桥接设计合理

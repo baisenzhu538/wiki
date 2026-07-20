@@ -1,10 +1,10 @@
 ---
 id: task_20260721_wangyuyan-infinite-canvas
 task_id: 198
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 created_at: 2026-07-21
-updated_at: 2026-07-21
+updated_at: '2026-07-20T17:11:25.938637+00:00'
 domain: content-production
 priority: P1
 source: 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/
@@ -73,6 +73,18 @@ diagnosis: 60_feedback/diagnosis/diag_20260721_wangyuyan-infinite-canvas.md
 - **不覆盖**：impress.js技术文档
 - **不重复**：四字诀/欧阳锋审查方法的完整内容（只建引用和同构声明）
 - **域归属**：归入content-production域（演示内容生产），与欧阳锋审查方法论跨域桥接
+
+## 🔴 附加任务：Skill部署层（2026-07-21 迭代追加）
+
+> 基于KDO建模方法论§解压展开（tool→skill→workflow→agent-spec编译链）。卡片层提取方法论，Skill层让工具可被KDO调用。
+
+| # | 任务 | 执行者 | 验收标准 |
+|:--|:--|:--|:--|
+| S1 | 将`infinite-canvas-prezi`部署为KDO skill | 老顽童 | skill可被`/infinite-canvas-prezi`触发；含`scripts/prezi_gate.py`闸门+四道机械闸 |
+| S2 | 七维终审适配KDO上下文 | 黄药师 | 终审清单中引用KDO卡片路径替代原路径；与欧阳锋审查方法论卡建立related双向链 |
+| S3 | 编译agent-spec：Prezi构建Agent | 黄药师 | 角色定位+对话模式+工具映射写入agent-spec卡；含Feature清单（诊断报告§八·Feature分解） |
+
+**卡片层（4张）+ Skill层（3项）= 完整成果**
 
 ## 特殊说明
 
