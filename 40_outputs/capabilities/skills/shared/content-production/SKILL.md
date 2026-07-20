@@ -54,3 +54,11 @@ Step 9:   协作 —— 贯穿全程：人定方向，AI 执行
 - `concept-candy-ai-as-collaborator` — AI 是协作者
 - `tool-candy-positioning-canvas` — 定位画布
 - `tool-candy-oral-polish` — 口语化润色
+
+## KDO 卡片质量门禁（按类型）
+
+> 详见 `references/kdo-card-quality-gates.md`。生产 KDO 卡片时，除 `kdo pre-submit` 机械检查外，还需逐卡满足类型专属要求：
+> - **dk 卡**：必须有 `## Critique` section
+> - **tool 卡**：`related` ≥ 5
+> - **所有卡**：必须有 `diagnostic_signals` 字段、`reviewed_by: pending` 占位
+> - **提交前**：检查同 ID 文件是否残留在错误目录
