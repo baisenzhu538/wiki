@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>无限画布演示生成器 · 使用教程</title>
+<style>
+  :root{
+    --bg:#ffffff; --ink:#1a1a1a; --ink-soft:#555; --ink-faint:#8a8a8a;
+    --line:#e6e6ea; --line-strong:#cfcfd6; --paper:#fafafa; --paper-2:#f3f3f6;
+    --orange:#e07a2b; --teal:#1fa38b; --blue:#3a6ea5; --purple:#8a4fff; --rose:#d6455f;
+    --code-bg:#1f2025; --code-ink:#e8e8ec;
+    --maxw:920px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;
+    font-size:17px; line-height:1.78;
+    -webkit-font-smoothing:antialiased;
+  }
+  /* ---------- layout ---------- */
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 28px;}
+  header.hero{
+    padding:96px 0 64px;
+    background:
+      radial-gradient(1100px 420px at 78% -8%, rgba(224,122,43,.10), transparent 60%),
+      radial-gradient(900px 380px at 12% 0%, rgba(31,163,139,.10), transparent 60%);
+    border-bottom:1px solid var(--line);
+  }
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:13px; letter-spacing:.04em; color:var(--ink-soft);
+    background:#fff; border:1px solid var(--line-strong);
+    padding:6px 12px; border-radius:999px; margin-bottom:26px;
+    box-shadow:0 1px 2px rgba(0,0,0,.03);
+  }
+  .eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--orange);}
+  h1.hero-title{
+    font-size:clamp(34px,5.6vw,54px); line-height:1.12; font-weight:800;
+    letter-spacing:-.01em; margin:0 0 18px;
+  }
+  .hero-title .a1{color:var(--orange);} .hero-title .a2{color:var(--teal);}
+  .hero-sub{font-size:19px; color:var(--ink-soft); max-width:680px; margin:0 0 14px;}
+  .hero-meta{font-size:14px; color:var(--ink-faint); margin-top:22px;}
+  .hero-meta code{background:var(--paper-2);padding:2px 7px;border-radius:5px;font-size:13px;color:var(--ink-soft);}
+  /* TOC */
+  nav.toc{
+    display:grid; grid-template-columns:repeat(2,1fr); gap:10px 18px;
+    margin-top:34px;
+  }
+  nav.toc a{
+    text-decoration:none; color:var(--ink); font-size:15px;
+    border:1px solid var(--line); border-radius:10px; padding:11px 14px;
+    display:flex; align-items:baseline; gap:10px; transition:.15s;
+    background:#fff;
+  }
+  nav.toc a:hover{border-color:var(--orange); transform:translateX(3px);}
+  nav.toc a .n{font-size:12px;color:var(--ink-faint);font-variant-numeric:tabular-nums;min-width:22px;}
+
+  /* sections */
+  section{padding:64px 0 8px; border-top:1px solid var(--line);}
+  section:first-of-type{border-top:none;}
+  h2.chap{
+    font-size:30px; font-weight:800; letter-spacing:-.01em; margin:0 0 6px;
+    display:flex; align-items:baseline; gap:14px;
+  }
+  h2.chap .num{
+    font-size:15px; font-weight:700; color:#fff; background:var(--ink);
+    padding:4px 10px; border-radius:7px; transform:translateY(-2px);
+    font-variant-numeric:tabular-nums;
+  }
+  .chap-kicker{color:var(--ink-faint); font-size:14px; margin:0 0 26px;}
+  h3{font-size:21px; font-weight:700; margin:38px 0 12px; letter-spacing:-.005em;}
+  h4{font-size:17px; font-weight:700; margin:24px 0 8px;}
+  p{margin:14px 0;}
+  strong{font-weight:700;}
+  .accent-o{color:var(--orange);} .accent-t{color:var(--teal);} .accent-b{color:var(--blue);} .accent-p{color:var(--purple);}
+  ul,ol{margin:14px 0; padding-left:24px;}
+  li{margin:7px 0;}
+  a{color:var(--blue);}
+
+  /* callouts */
+  .note{
+    border-left:4px solid var(--teal); background:rgba(31,163,139,.06);
+    padding:14px 18px; border-radius:0 10px 10px 0; margin:22px 0;
+  }
+  .note.warn{border-color:var(--rose); background:rgba(214,69,95,.06);}
+  .note.key{border-color:var(--orange); background:rgba(224,122,43,.07);}
+  .note .lab{font-weight:700; font-size:13px; letter-spacing:.03em; text-transform:uppercase; display:block; margin-bottom:4px;}
+  .note.warn .lab{color:var(--rose);} .note.key .lab{color:var(--orange);} .note .lab{color:var(--teal);}
+  .note p{margin:4px 0;}
+
+  /* code */
+  pre{
+    background:var(--code-bg); color:var(--code-ink); padding:18px 20px;
+    border-radius:12px; overflow-x:auto; font-size:13.5px; line-height:1.7;
+    margin:20px 0; box-shadow:0 4px 18px rgba(0,0,0,.06);
+  }
+  code{font-family:"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;}
+  :not(pre)>code{
+    background:var(--paper-2); color:var(--ink); padding:2px 6px;
+    border-radius:5px; font-size:14px;
+  }
+  pre .c{color:#7d8590;} pre .k{color:#ff7b72;} pre .s{color:#a5d6ff;}
+  pre .p{color:#d2a8ff;} pre .n{color:#79c0ff;}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:20px 0; font-size:15px;}
+  th,td{text-align:left; padding:11px 14px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--paper-2); font-weight:700; font-size:13.5px; color:var(--ink-soft);}
+  td code{font-size:13px;}
+
+  /* figure / svg */
+  figure{margin:28px 0;}
+  .frame{
+    border:1px solid var(--line); border-radius:14px; padding:22px;
+    background:#fff; box-shadow:0 1px 0 rgba(0,0,0,.02);
+  }
+  .frame.gray{background:var(--paper);}
+  .frame svg{display:block; width:100%; height:auto;}
+  figcaption{font-size:13.5px; color:var(--ink-soft); margin-top:12px; text-align:center; line-height:1.6;}
+  figcaption b{color:var(--ink);}
+
+  /* screenshot figure */
+  .shot{
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;
+    box-shadow:0 8px 30px rgba(20,20,40,.10); background:#fff;
+  }
+  .shot img{display:block; width:100%; height:auto;}
+  .shot-bar{
+    display:flex; align-items:center; gap:7px; padding:10px 14px;
+    border-bottom:1px solid var(--line); background:var(--paper);
+    font-size:12.5px; color:var(--ink-soft);
+  }
+  .shot-bar i{width:11px;height:11px;border-radius:50%;}
+  .shot-bar .r{background:#ff5f57;} .shot-bar .y{background:#febc2e;} .shot-bar .g{background:#28c840;}
+
+  /* grid helpers */
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:18px;}
+  @media(max-width:680px){ .grid2{grid-template-columns:1fr;} nav.toc{grid-template-columns:1fr;} }
+
+  /* chip */
+  .chip{display:inline-block; font-size:12px; padding:2px 9px; border-radius:6px; background:var(--paper-2); color:var(--ink-soft); border:1px solid var(--line);}
+  .chip.ok{background:rgba(31,163,139,.1); color:#0f7a66; border-color:rgba(31,163,139,.3);}
+  .chip.no{background:rgba(214,69,95,.1); color:#a72e44; border-color:rgba(214,69,95,.3);}
+  .chip.gate{background:rgba(58,110,165,.1); color:#2a5586; border-color:rgba(58,110,165,.3);}
+
+  .step-list{counter-reset:s; list-style:none; padding-left:0;}
+  .step-list>li{
+    counter-increment:s; position:relative; padding-left:46px; margin:16px 0;
+  }
+  .step-list>li::before{
+    content:counter(s); position:absolute; left:0; top:0;
+    width:30px; height:30px; border-radius:50%; background:var(--ink); color:#fff;
+    display:flex; align-items:center; justify-content:center; font-size:14px; font-weight:700;
+  }
+  footer{padding:80px 0 100px; text-align:center; color:var(--ink-faint); font-size:14px; border-top:1px solid var(--line); margin-top:40px;}
+
+  /* small inline svg icons align */
+  .icn{display:inline-block; vertical-align:-2px;}
+
+  /* AI 等距 3D 插画（Evan-gpt-image 生成） */
+  .hero-banner{margin:36px 0 6px;border-radius:18px;overflow:hidden;border:1px solid var(--line);
+    box-shadow:0 14px 44px rgba(20,20,40,.13);}
+  .hero-banner img{display:block;width:100%;height:auto;}
+  .hero-banner figcaption{font-size:13px;color:var(--ink-faint);margin-top:10px;text-align:center;}
+  .chap-cover{display:block;margin:10px auto 30px;max-width:440px;border-radius:14px;overflow:hidden;
+    border:1px solid var(--line);box-shadow:0 8px 26px rgba(20,20,40,.10);}
+  .chap-cover img{display:block;width:100%;height:auto;}
+  @media(max-width:560px){.chap-cover{max-width:300px;}}
+</style>
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow"><span class="dot"></span> Skill 深度教程 · infinite-canvas-prezi</span>
+    <h1 class="hero-title">
+      把一个想法，做成一张<br>
+      <span class="a1">会移动的</span>无限<span class="a2">画布</span>
+    </h1>
+    <p class="hero-sub">
+      一份关于 <code>infinite-canvas-prezi</code> skill 的图文教程。它把任意主题或素材，
+      变成 Prezi 风格的<b>单文件 HTML 演示</b>——所有内容铺在一张无限大的画布上，
+      镜头用缩放、平移、旋转运动来讲故事，<b>空间布局本身就是叙事逻辑</b>。
+    </p>
+    <div class="hero-meta">
+      引擎 <code>impress.js 2.0.0</code> · 产物零构建单文件 <code>.html</code> · 三步流水线 + 四道机械闸门 + 七维独立终审
+    </div>
+
+    <figure class="hero-banner">
+      <img src="images/illu-hero.png" alt="等距3D插画：一张无限画布上漂浮着迷你卡片聚簇，一架纸飞机斜飞留下轨迹" loading="lazy">
+      <figcaption>无限画布的核心隐喻：一张铺满内容的画布 + 一架在其中缩放飞行的摄影机。</figcaption>
+    </figure>
+
+    <nav class="toc">
+      <a href="#ch1"><span class="n">01</span> 它和 PPT 到底有什么不同</a>
+      <a href="#ch2"><span class="n">02</span> 三步流水线全貌</a>
+      <a href="#ch3"><span class="n">03</span> 核心设计观：空间即逻辑</a>
+      <a href="#ch4"><span class="n">04</span> 镜头语言与坐标系</a>
+      <a href="#ch5"><span class="n">05</span> Roam 大纲双向生产线</a>
+      <a href="#ch6"><span class="n">06</span> 闸门与独立终审</a>
+      <a href="#ch7"><span class="n">07</span> 实战示例：创始人手册</a>
+      <a href="#ch8"><span class="n">08</span> 何时该用 / 何时别用</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- ============ CH1 ============ -->
+<section id="ch1">
+  <h2 class="chap"><span class="num">01</span> 它和 PPT 到底有什么不同</h2>
+  <figure class="chap-cover"><img src="images/illu-ch1.png" alt="等距3D插画：左侧堆叠的卡片 vs 右侧展开的无限画布" loading="lazy"></figure>
+  <p class="chap-kicker">本质区别不是「会动」，而是「画布的空间关系 = 内容的逻辑关系」</p>
+
+  <p>
+    传统 PPT / reveal.js 把内容切成一张张独立的 16:9 幻灯，靠<b>翻页</b>前进——
+    第 3 页和第 7 页之间没有空间关系，观众只能靠编号和记忆把它们串起来。
+    而 <code>infinite-canvas-prezi</code> 把<b>所有内容铺在同一张无限大的画布上</b>，
+    镜头是一台飞行的摄影机：它<b>缩放、平移、旋转</b>着穿过画布，
+    观众通过摄影机的运动，<b>直接看见</b>内容之间的结构关系。
+  </p>
+
+  <figure>
+    <div class="frame gray">
+      <svg viewBox="0 0 860 320" role="img" aria-label="传统幻灯片与无限画布的对比">
+        <!-- left: traditional -->
+        <text x="20" y="30" font-size="14" fill="#8a8a8a" font-weight="700">传统 PPT · 一页页翻</text>
+        <g transform="translate(30,55)">
+          <rect x="0"   y="0"  width="110" height="68" rx="6" fill="#fff" stroke="#cfcfd6"/>
+          <rect x="14"  y="14" width="60" height="7" rx="3" fill="#1a1a1a"/>
+          <rect x="14"  y="30" width="80" height="5" rx="2" fill="#d0d0d6"/>
+          <rect x="14"  y="42" width="70" height="5" rx="2" fill="#d0d0d6"/>
+        </g>
+        <g transform="translate(30,135)"><rect x="0" y="0" width="110" height="68" rx="6" fill="#fff" stroke="#cfcfd6"/><rect x="14" y="14" width="50" height="7" rx="3" fill="#1a1a1a"/><rect x="14" y="30" width="80" height="5" rx="2" fill="#d0d0d6"/></g>
+        <g transform="translate(30,215)"><rect x="0" y="0" width="110" height="68" rx="6" fill="#fff" stroke="#cfcfd6"/><rect x="14" y="14" width="70" height="7" rx="3" fill="#1a1a1a"/><rect x="14" y="30" width="80" height="5" rx="2" fill="#d0d0d6"/><rect x="14" y="42" width="60" height="5" rx="2" fill="#d0d0d6"/></g>
+        <path d="M85 125 L85 133 M85 205 L85 213" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#arr)"/>
+        <text x="150" y="155" font-size="12" fill="#8a8a8a">第 3 页和第 7 页</text>
+        <text x="150" y="173" font-size="12" fill="#8a8a8a">没有空间关系</text>
+
+        <!-- divider -->
+        <line x1="320" y1="20" x2="320" y2="300" stroke="#e6e6ea" stroke-width="1.5" stroke-dasharray="4 5"/>
+
+        <!-- right: canvas -->
+        <text x="345" y="30" font-size="14" fill="#8a8a8a" font-weight="700">无限画布 · 一张画布上飞</text>
+        <!-- cluster A -->
+        <g transform="translate(360,70)">
+          <rect x="0" y="0" width="120" height="74" rx="8" fill="#fff" stroke="#e07a2b" stroke-width="1.6"/>
+          <rect x="12" y="12" width="60" height="7" rx="3" fill="#e07a2b"/>
+          <rect x="12" y="28" width="90" height="5" rx="2" fill="#f0d0b0"/>
+        </g>
+        <g transform="translate(392,158)">
+          <rect x="0" y="0" width="70" height="44" rx="6" fill="#fff" stroke="#e07a2b" stroke-width="1.2"/>
+          <rect x="8" y="9" width="40" height="5" rx="2" fill="#e07a2b"/>
+        </g>
+        <g transform="translate(470,150)">
+          <rect x="0" y="0" width="70" height="44" rx="6" fill="#fff" stroke="#e07a2b" stroke-width="1.2"/>
+          <rect x="8" y="9" width="40" height="5" rx="2" fill="#e07a2b"/>
+        </g>
+        <text x="392" y="222" font-size="11" fill="#e07a2b" font-weight="700">聚簇 A（子项围在一起）</text>
+
+        <!-- cluster B -->
+        <g transform="translate(620,90)">
+          <rect x="0" y="0" width="120" height="74" rx="8" fill="#fff" stroke="#1fa38b" stroke-width="1.6"/>
+          <rect x="12" y="12" width="60" height="7" rx="3" fill="#1fa38b"/>
+          <rect x="12" y="28" width="90" height="5" rx="2" fill="#bfe6dc"/>
+        </g>
+        <g transform="translate(640,180)">
+          <rect x="0" y="0" width="80" height="44" rx="6" fill="#fff" stroke="#1fa38b" stroke-width="1.2"/>
+          <rect x="8" y="9" width="50" height="5" rx="2" fill="#1fa38b"/>
+        </g>
+        <text x="624" y="244" font-size="11" fill="#1fa38b" font-weight="700">聚簇 B</text>
+
+        <!-- camera frustum -->
+        <path d="M555 250 L600 205 L700 205 L745 250 Z" fill="rgba(58,110,165,.10)" stroke="#3a6ea5" stroke-width="1.4" stroke-dasharray="3 3"/>
+        <circle cx="655" cy="227" r="5" fill="#3a6ea5"/>
+        <text x="600" y="276" font-size="11" fill="#3a6ea5" font-weight="700">摄影机取景框（飞行中）</text>
+      </svg>
+    </div>
+    <figcaption><b>左：</b>线性堆叠的幻灯，页与页彼此无关。<b>右：</b>一张画布上，相关内容聚成一簇、簇与簇之间留空隙承载逻辑，摄影机在簇间飞行。</figcaption>
+  </figure>
+
+  <div class="note key">
+    <span class="lab">立身之本</span>
+    <p>这个 skill 最核心的产出不是「页面美化」，而是<b>「内容逻辑 → 空间结构」的映射</b>。
+    判断一个 Prezi 演示好不好，就看一句话：<b>把全景图摆出来，只看空间布局，能否读出「内容有几大块、块内子项什么关系」？</b>
+    看出一条均匀的路径线 = 失败。</p>
+  </div>
+
+  <h3>产物的三个硬指标</h3>
+  <ul>
+    <li><strong>单文件自包含</strong>：一个 <code>.html</code>，CSS/JS 全内联，图片默认 base64 内联，断网也能播。浏览器双击即开，零构建、无依赖。</li>
+    <li><strong>空间叙事</strong>：基于 <code>impress.js</code>，镜头的缩放 / 平移 / 旋转运动本身就是讲解节奏。</li>
+    <li><strong>零臆造</strong>：上屏的每个字、每个数据都来自一份带出处的事实清单，杜绝 AI「合理补充」编造数据。</li>
+  </ul>
+</section>
+
+<!-- ============ CH2 ============ -->
+<section id="ch2">
+  <h2 class="chap"><span class="num">02</span> 三步流水线全貌</h2>
+  <figure class="chap-cover"><img src="images/illu-ch2.png" alt="等距3D插画：三个平台连成传送带，平台间有闸门关卡" loading="lazy"></figure>
+  <p class="chap-kicker">严格按 1 → 2 → 3 顺序，不跳步；每步产出落盘为 JSON，以 scene_id 串成闭环</p>
+
+  <p>
+    skill 把整个生成过程拆成三步，每一步的<b>产出必须落盘成工作区文件</b>（聊天里口头说说不算数）。
+    上一步的 JSON 是下一步的输入，<b>每步出口都有一道脚本闸门</b>把守，<code>rc≠0</code> 不许进下一步。
+  </p>
+
+  <figure>
+    <div class="frame">
+      <svg viewBox="0 0 880 360" role="img" aria-label="三步流水线与四道闸门">
+        <defs>
+          <marker id="arr2" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L8 4.5 L0 9 z" fill="#1a1a1a"/></marker>
+          <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff7f0"/><stop offset="1" stop-color="#ffe9d8"/></linearGradient>
+          <linearGradient id="g2" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#f0faf7"/><stop offset="1" stop-color="#d9f1e9"/></linearGradient>
+          <linearGradient id="g3" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#f1f5fb"/><stop offset="1" stop-color="#dbe7f5"/></linearGradient>
+        </defs>
+
+        <!-- step 1 -->
+        <g transform="translate(20,40)">
+          <rect width="240" height="220" rx="14" fill="url(#g1)" stroke="#e07a2b" stroke-width="1.6"/>
+          <text x="18" y="34" font-size="13" fill="#e07a2b" font-weight="700">步骤 1</text>
+          <text x="18" y="58" font-size="18" fill="#1a1a1a" font-weight="800">素材理解 + 画布策划</text>
+          <text x="18" y="84" font-size="12.5" fill="#555">研究素材 → 事实清单</text>
+          <text x="18" y="102" font-size="12.5" fill="#555">→ 场景拆分 → 选空间结构</text>
+          <text x="18" y="120" font-size="12.5" fill="#555">→ 画布坐标规划 → 风格锁</text>
+          <rect x="18" y="140" width="204" height="56" rx="8" fill="#fff" stroke="#f0c9a8"/>
+          <text x="28" y="160" font-size="12" fill="#8a8a8a">落盘产物</text>
+          <text x="28" y="180" font-family="SF Mono,monospace" font-size="13" fill="#1a1a1a" font-weight="700">plan.json</text>
+        </g>
+
+        <!-- gate plan -->
+        <g transform="translate(140,150)">
+          <path d="M0 0 L60 0" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arr2)"/>
+        </g>
+
+        <!-- step 2 -->
+        <g transform="translate(320,40)">
+          <rect width="240" height="220" rx="14" fill="url(#g2)" stroke="#1fa38b" stroke-width="1.6"/>
+          <text x="18" y="34" font-size="13" fill="#1fa38b" font-weight="700">步骤 2</text>
+          <text x="18" y="58" font-size="18" fill="#1a1a1a" font-weight="800">媒体准备</text>
+          <text x="18" y="84" font-size="12.5" fill="#555">逐场景落实配图</text>
+          <text x="18" y="102" font-size="12.5" fill="#555">原图复用 → 网络搜图</text>
+          <text x="18" y="120" font-size="12.5" fill="#555">→ AI 插画 → SVG/CSS</text>
+          <text x="18" y="138" font-size="12.5" fill="#555">快速降级，不死磕</text>
+          <rect x="18" y="152" width="204" height="44" rx="8" fill="#fff" stroke="#bfe6dc"/>
+          <text x="28" y="170" font-size="12" fill="#8a8a8a">落盘产物</text>
+          <text x="28" y="188" font-family="SF Mono,monospace" font-size="12.5" fill="#1a1a1a" font-weight="700">media_manifest.json</text>
+        </g>
+
+        <!-- gate media -->
+        <g transform="translate(440,150)"><path d="M0 0 L60 0" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arr2)"/></g>
+
+        <!-- step 3 -->
+        <g transform="translate(620,40)">
+          <rect width="240" height="220" rx="14" fill="url(#g3)" stroke="#3a6ea5" stroke-width="1.6"/>
+          <text x="18" y="34" font-size="13" fill="#3a6ea5" font-weight="700">步骤 3</text>
+          <text x="18" y="58" font-size="18" fill="#1a1a1a" font-weight="800">构建 HTML + QA</text>
+          <text x="18" y="84" font-size="12.5" fill="#555">逐场景渲染 .step</text>
+          <text x="18" y="102" font-size="12.5" fill="#555">→ 实机截图 → 独立终审</text>
+          <rect x="18" y="120" width="204" height="76" rx="8" fill="#fff" stroke="#c3d6ee"/>
+          <text x="28" y="138" font-size="12" fill="#8a8a8a">落盘产物</text>
+          <text x="28" y="156" font-family="SF Mono,monospace" font-size="12.5" fill="#1a1a1a" font-weight="700">演示.html</text>
+          <text x="28" y="174" font-family="SF Mono,monospace" font-size="11.5" fill="#555">screenshots/</text>
+          <text x="28" y="190" font-family="SF Mono,monospace" font-size="11.5" fill="#555">review.json</text>
+        </g>
+
+        <!-- gates row -->
+        <g transform="translate(0,300)">
+          <text x="60" y="0" font-size="11" fill="#3a6ea5" font-weight="700">闸门 · plan</text>
+          <text x="180" y="0" font-size="10.5" fill="#8a8a8a">↓ rc=0 才放行</text>
+          <text x="360" y="0" font-size="11" fill="#3a6ea5" font-weight="700">闸门 · media</text>
+          <text x="480" y="0" font-size="10.5" fill="#8a8a8a">↓ scene_id 集合相等</text>
+          <text x="660" y="0" font-size="11" fill="#3a6ea5" font-weight="700">闸门 · build → final</text>
+          <text x="780" y="0" font-size="10.5" fill="#8a8a8a">↓ 七维全 pass</text>
+        </g>
+      </svg>
+    </div>
+    <figcaption>三步顺序执行，每步落盘 JSON；<code>scene_id</code> 是跨步主键，把事实、素材、HTML 场景一一锁定。</figcaption>
+  </figure>
+
+  <h3>步骤 1 · 素材理解与画布策划</h3>
+  <p>角色是「叙事设计师 + 信息架构师」。先<b>完整读完素材</b>（长文档必须分页读完，禁止只读开头就规划），建立一份<b>事实清单</b>——后续所有上屏文字、数据、术语都只能来自这份清单，每条都带 <code>source</code> 出处，禁止凭常识「合理补充」。</p>
+  <p>然后把内容拆成 6–20 个场景，每个场景只讲一个讲点（观众 10–30 秒可消化）。关键是<b>由内容逻辑推导空间结构</b>（见第三章），规划好每个场景的坐标，落盘 <code>plan.json</code>。</p>
+
+  <div class="note">
+    <span class="lab">source_inventory · 防漏</span>
+    <p>事实清单防的是「臆造/多」；另有 <code>source_inventory</code> 防「漏」——通读源素材后把它切成重要内容点逐一登记（covered / skipped + 理由），防止把本该讲的重点整段删掉。判据是<b>内容重要性</b>，不是图片数量。</p>
+  </div>
+
+  <h3>步骤 2 · 媒体准备（快速降级不死磕）</h3>
+  <p>这是<b>标配流程不是可选项</b>：每次演示默认产出 60%–80% 内容场景配图，保持「每 1–2 页一图」的视觉节奏。素材获取有严格的优先级链：</p>
+  <table>
+    <thead><tr><th style="width:90px">优先级</th><th>类型</th><th>说明</th></tr></thead>
+    <tbody>
+      <tr><td><span class="chip ok">第 0 级</span></td><td>素材自带原图</td><td>原文内嵌、直接支撑讲点的图优先<b>复用</b>，承载原文语境最贴切，不要弃之另找</td></tr>
+      <tr><td><span class="chip">第 1 级</span></td><td>能代码画的不找图</td><td>箭头、流程框、几何图形、书封卡片 → 内联 SVG/CSS，加载最快零外链</td></tr>
+      <tr><td><span class="chip">第 2 级</span></td><td>真实实体网络搜图</td><td>人物/产品/地点/历史事件 → WebSearch，优先 Wikimedia Commons、官方稳定 CDN</td></tr>
+      <tr><td><span class="chip">第 3 级</span></td><td>抽象概念 AI 生成</td><td>概念示意/隐喻插画 → <code>Evan-gpt-image</code> 的 <code>gen_via_codex.py</code> 出图</td></tr>
+    </tbody>
+  </table>
+  <div class="note warn">
+    <span class="lab">降级铁律</span>
+    <p>每个素材最多验证 2–3 个候选 URL，全失败就<b>立即降级</b>，不换源纠缠。<b>按时交付完整演示 &gt; 单个素材的完美</b>。豆瓣/电商图床有防盗链，工具验证通过但浏览器可能 403，此类来源直接跳过。</p>
+  </div>
+
+  <h3>步骤 3 · 构建 HTML 演示与 QA</h3>
+  <p>角色是「资深前端工程师 + 演示设计师」。把 <code>plan.json</code> + <code>media_manifest.json</code> 渲染成单文件 HTML，坐标严格照搬步骤 1 规划。QA 分三段顺序执行：<b>构建闸（机械）→ 实机截图（必做）→ 独立终审（柔，七维）</b>。详见第六章。</p>
+</section>
+
+<!-- ============ CH3 ============ -->
+<section id="ch3">
+  <h2 class="chap"><span class="num">03</span> 核心设计观：空间即逻辑</h2>
+  <figure class="chap-cover"><img src="images/illu-ch3.png" alt="等距3D插画：画布上几组卡片摆成直线、圆环、嵌套方框三种形状" loading="lazy"></figure>
+  <p class="chap-kicker">先判内容是什么逻辑，再决定它该长成什么形状——别默认全程一条均匀路径</p>
+
+  <p>最常见的失败，是把所有场景等距排成一排、只靠翻页前进——空间没承载任何逻辑。正确做法是<b>先判内容逻辑，再选空间结构</b>：</p>
+
+  <figure>
+    <div class="frame gray">
+      <svg viewBox="0 0 880 380" role="img" aria-label="内容逻辑到空间结构的映射">
+        <!-- timeline -->
+        <g transform="translate(20,20)">
+          <text x="0" y="14" font-size="13" fill="#1a1a1a" font-weight="700">时间线 / 流程 / 步骤</text>
+          <text x="0" y="32" font-size="11.5" fill="#8a8a8a">→ 沿一条路径线性推进</text>
+          <g transform="translate(0,52)">
+            <line x1="10" y1="30" x2="350" y2="30" stroke="#cfcfd6" stroke-width="2"/>
+            <circle cx="20" cy="30" r="11" fill="#fff" stroke="#e07a2b" stroke-width="2"/><text x="20" y="34" font-size="10" fill="#e07a2b" text-anchor="middle" font-weight="700">1</text>
+            <circle cx="110" cy="30" r="11" fill="#fff" stroke="#e07a2b" stroke-width="2"/><text x="110" y="34" font-size="10" fill="#e07a2b" text-anchor="middle" font-weight="700">2</text>
+            <circle cx="200" cy="30" r="11" fill="#fff" stroke="#e07a2b" stroke-width="2"/><text x="200" y="34" font-size="10" fill="#e07a2b" text-anchor="middle" font-weight="700">3</text>
+            <circle cx="290" cy="30" r="11" fill="#fff" stroke="#e07a2b" stroke-width="2"/><text x="290" y="34" font-size="10" fill="#e07a2b" text-anchor="middle" font-weight="700">4</text>
+            <path d="M40 30 L98 30" stroke="#e07a2b" stroke-width="1.5" marker-end="url(#arr2)"/>
+            <path d="M130 30 L188 30" stroke="#e07a2b" stroke-width="1.5" marker-end="url(#arr2)"/>
+            <path d="M220 30 L278 30" stroke="#e07a2b" stroke-width="1.5" marker-end="url(#arr2)"/>
+          </g>
+        </g>
+
+        <!-- hierarchy nesting -->
+        <g transform="translate(460,20)">
+          <text x="0" y="14" font-size="13" fill="#1a1a1a" font-weight="700">总分 / 层级 / 宏观→微观</text>
+          <text x="0" y="32" font-size="11.5" fill="#8a8a8a">→ 嵌套缩放，钻进去再退回</text>
+          <g transform="translate(0,52)">
+            <rect x="0" y="0" width="360" height="70" rx="8" fill="#fff" stroke="#1fa38b" stroke-width="1.6"/>
+            <rect x="14" y="14" width="80" height="8" rx="3" fill="#1fa38b"/>
+            <!-- children inside -->
+            <rect x="20" y="34" width="100" height="28" rx="5" fill="#d9f1e9" stroke="#1fa38b"/>
+            <rect x="130" y="34" width="100" height="28" rx="5" fill="#d9f1e9" stroke="#1fa38b"/>
+            <rect x="240" y="34" width="100" height="28" rx="5" fill="#d9f1e9" stroke="#1fa38b"/>
+            <text x="180" y="92" font-size="10.5" fill="#1fa38b">子讲点以更小 scale 住在父页内部</text>
+          </g>
+        </g>
+
+        <!-- comparison -->
+        <g transform="translate(20,170)">
+          <text x="0" y="14" font-size="13" fill="#1a1a1a" font-weight="700">对比 / 正反方</text>
+          <text x="0" y="32" font-size="11.5" fill="#8a8a8a">→ 左右分区，最后同框</text>
+          <g transform="translate(0,52)">
+            <rect x="0" y="0" width="150" height="60" rx="8" fill="#fff" stroke="#d6455f" stroke-width="1.6"/>
+            <text x="75" y="35" font-size="12" fill="#d6455f" text-anchor="middle" font-weight="700">反方</text>
+            <rect x="210" y="0" width="150" height="60" rx="8" fill="#fff" stroke="#3a6ea5" stroke-width="1.6"/>
+            <text x="285" y="35" font-size="12" fill="#3a6ea5" text-anchor="middle" font-weight="700">正方</text>
+            <text x="180" y="35" font-size="16" fill="#8a8a8a" text-anchor="middle">vs</text>
+          </g>
+        </g>
+
+        <!-- loop -->
+        <g transform="translate(460,170)">
+          <text x="0" y="14" font-size="13" fill="#1a1a1a" font-weight="700">循环 / 闭环 / 生命周期</text>
+          <text x="0" y="32" font-size="11.5" fill="#8a8a8a">→ 环形排布，镜头绕环</text>
+          <g transform="translate(160,82)">
+            <circle cx="0" cy="0" r="42" fill="none" stroke="#cfcfd6" stroke-width="1.5" stroke-dasharray="3 3"/>
+            <circle cx="0" cy="-42" r="10" fill="#fff" stroke="#8a4fff" stroke-width="2"/>
+            <circle cx="40" cy="-12" r="10" fill="#fff" stroke="#8a4fff" stroke-width="2"/>
+            <circle cx="25" cy="35" r="10" fill="#fff" stroke="#8a4fff" stroke-width="2"/>
+            <circle cx="-25" cy="35" r="10" fill="#fff" stroke="#8a4fff" stroke-width="2"/>
+            <circle cx="-40" cy="-12" r="10" fill="#fff" stroke="#8a4fff" stroke-width="2"/>
+            <path d="M8 -40 A42 42 0 0 1 36 -16" fill="none" stroke="#8a4fff" stroke-width="1.5" marker-end="url(#arr2)"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <figcaption>四种典型映射。混合结构允许——比如大部分之间线性、某部分内部嵌套缩放。</figcaption>
+  </figure>
+
+  <h3>聚簇优先四原则</h3>
+  <p>这是「空间即逻辑」的执行准则（<span class="chip gate">机械闸核验</span> <code>--phase plan</code>）：</p>
+  <ol class="step-list">
+    <li><strong>先拆聚簇</strong>：把紧密相关的页面分成一个个「簇」（子主题 / 并列组 / 序列 / 部分-整体组）。<b>每页必属某簇，不许出现均匀路径上的孤立散页。</b></li>
+    <li><strong>簇内紧凑但不遮挡</strong>：同簇页面空间紧挨（镜头小幅移动），但任意两张卡片足迹<b>不许相互遮挡</b>，要留小缝。</li>
+    <li><strong>簇间分离且承载关系</strong>：不同簇之间留明显空隙（镜头大幅移动），<b>簇的相对位置反映簇间逻辑</b>（论点→主体→结论、总→分、问题→解决）。</li>
+    <li><strong>结构靠空间与镜头涌现，禁止剧透</strong>：不得用「结构说明图 / 目录页」预先标注「这里有下钻」。结构要靠镜头运动<b>自然涌现</b>，开场若给全貌就用<b>真实画布的远景俯瞰</b>，不画示意图。</li>
+  </ol>
+
+  <figure>
+    <div class="frame gray">
+      <svg viewBox="0 0 880 220" role="img" aria-label="聚簇 vs 平铺">
+        <!-- bad -->
+        <g transform="translate(20,20)">
+          <text x="0" y="0" font-size="13" fill="#a72e44" font-weight="700">✗ 失败：等距平铺</text>
+          <text x="0" y="18" font-size="11.5" fill="#8a8a8a">看不出谁和谁一伙，只读出一条线</text>
+          <g transform="translate(0,40)">
+            <rect x="0"   y="20" width="70" height="44" rx="6" fill="#fff" stroke="#cfcfd6"/>
+            <rect x="90"  y="20" width="70" height="44" rx="6" fill="#fff" stroke="#cfcfd6"/>
+            <rect x="180" y="20" width="70" height="44" rx="6" fill="#fff" stroke="#cfcfd6"/>
+            <rect x="270" y="20" width="70" height="44" rx="6" fill="#fff" stroke="#cfcfd6"/>
+            <rect x="360" y="20" width="70" height="44" rx="6" fill="#fff" stroke="#cfcfd6"/>
+            <path d="M70 42 L90 42 M160 42 L180 42 M250 42 L270 42 M340 42 L360 42" stroke="#d0d0d6" stroke-width="1.5"/>
+          </g>
+        </g>
+        <!-- good -->
+        <g transform="translate(470,20)">
+          <text x="0" y="0" font-size="13" fill="#0f7a66" font-weight="700">✓ 成功：聚簇 + 留空隙</text>
+          <text x="0" y="18" font-size="11.5" fill="#8a8a8a">一个个分离的紧凑群落，相对位置承载逻辑</text>
+          <g transform="translate(0,40)">
+            <!-- cluster 1 -->
+            <rect x="0" y="0" width="60" height="40" rx="5" fill="#fff" stroke="#e07a2b" stroke-width="1.4"/>
+            <rect x="70" y="0" width="60" height="40" rx="5" fill="#fff" stroke="#e07a2b" stroke-width="1.4"/>
+            <rect x="35" y="50" width="60" height="40" rx="5" fill="#fff" stroke="#e07a2b" stroke-width="1.4"/>
+            <!-- cluster 2 -->
+            <rect x="220" y="10" width="60" height="40" rx="5" fill="#fff" stroke="#1fa38b" stroke-width="1.4"/>
+            <rect x="290" y="10" width="60" height="40" rx="5" fill="#fff" stroke="#1fa38b" stroke-width="1.4"/>
+            <!-- cluster 3 -->
+            <rect x="180" y="80" width="60" height="40" rx="5" fill="#fff" stroke="#3a6ea5" stroke-width="1.4"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <figcaption>同一个 5–6 页内容，平铺读不出结构；聚簇后一眼能分清「三组、组内关系」。</figcaption>
+  </figure>
+
+  <h3>真嵌套缩放（Prezi 的招牌魅力）</h3>
+  <p>对于总分 / 层级内容，必须至少做一组<b>真嵌套</b>——这是 Prezi 最迷人的地方：</p>
+  <ul>
+    <li><strong>父场景</strong>是一个能看清整体结构的视图（结构图 / 分区图）。</li>
+    <li><strong>≥2 个子讲点</strong>以显著更小的 <code>data-scale</code>（父子 scale 比 ≥ 3）<b>嵌在父场景的空间包围盒内部</b>。镜头钻进去时，子讲点填满取景框，观众看不出它其实住在父图里。</li>
+    <li>有<b>钻入 → 子间穿梭 → 退回</b>的完整镜头序列。退回时观众因为刚探索过，会觉得既熟悉又赏心悦目。</li>
+  </ul>
+
+  <div class="note warn">
+    <span class="lab">纯 y 平铺 + 远景 hub ≠ 嵌套</span>
+    <p>把场景摆高低、镜头从没「钻进某个图形内部再退出来」，只是伪装成层级。<span class="chip gate">机械闸</span>会核 HTML 坐标里父子 scale 比 ≥ 3、子坐标落在父包围盒内、有钻入+退回序列；纯时间线/流程/循环/对比可在 <code>plan.json</code> 注明 <code>structure_type</code> 豁免。</p>
+  </div>
+</section>
+
+<!-- ============ CH4 ============ -->
+<section id="ch4">
+  <h2 class="chap"><span class="num">04</span> 镜头语言与坐标系</h2>
+  <figure class="chap-cover"><img src="images/illu-ch4.png" alt="等距3D插画：三轴坐标系上悬浮一架相机，带旋转和缩放箭头" loading="lazy"></figure>
+  <p class="chap-kicker">impress.js 用 6 个 data 属性控制每一个「镜头停留点」</p>
+
+  <p>每个场景是一个 <code>&lt;div class="step"&gt;</code>，它的位置和姿态由这几个属性决定。摄影机在 step 之间过渡时，会平滑插值这些值——这就是镜头运动的来源。</p>
+
+  <figure>
+    <div class="frame gray">
+      <svg viewBox="0 0 880 320" role="img" aria-label="impress.js 坐标系">
+        <!-- axes -->
+        <line x1="60" y1="270" x2="820" y2="270" stroke="#cfcfd6" stroke-width="1.5"/>
+        <line x1="60" y1="270" x2="60" y2="30" stroke="#cfcfd6" stroke-width="1.5"/>
+        <text x="820" y="288" font-size="12" fill="#8a8a8a">data-x →</text>
+        <text x="40" y="28" font-size="12" fill="#8a8a8a">data-y ↑</text>
+
+        <!-- step box -->
+        <g transform="translate(360,120) rotate(-6 140 70)">
+          <rect x="0" y="0" width="280" height="140" rx="10" fill="#fff" stroke="#3a6ea5" stroke-width="1.8"/>
+          <rect x="18" y="18" width="120" height="10" rx="4" fill="#1a1a1a"/>
+          <rect x="18" y="40" width="180" height="6" rx="3" fill="#d0d0d6"/>
+          <rect x="18" y="54" width="160" height="6" rx="3" fill="#d0d0d6"/>
+          <!-- scale ghost -->
+          <rect x="-30" y="-20" width="340" height="180" rx="12" fill="none" stroke="#e07a2b" stroke-width="1.2" stroke-dasharray="4 4"/>
+        </g>
+        <text x="640" y="110" font-size="11" fill="#e07a2b">data-scale（外框=放大倍数）</text>
+
+        <!-- annotations -->
+        <line x1="500" y1="270" x2="500" y2="120" stroke="#3a6ea5" stroke-width="1" stroke-dasharray="2 3"/>
+        <circle cx="500" cy="270" r="3.5" fill="#3a6ea5"/>
+        <text x="510" y="262" font-size="12" fill="#3a6ea5" font-weight="700">data-x</text>
+
+        <line x1="60" y1="190" x2="360" y2="190" stroke="#1fa38b" stroke-width="1" stroke-dasharray="2 3"/>
+        <circle cx="60" cy="190" r="3.5" fill="#1fa38b"/>
+        <text x="70" y="182" font-size="12" fill="#1fa38b" font-weight="700">data-y</text>
+
+        <text x="360" y="108" font-size="12" fill="#8a4fff" font-weight="700">data-rotate ↻</text>
+
+        <g transform="translate(70,40)">
+          <text x="0" y="0" font-size="11" fill="#8a8a8a">data-z（远近 / 视差层）</text>
+        </g>
+
+        <!-- camera -->
+        <g transform="translate(160,60)">
+          <rect x="0" y="0" width="46" height="30" rx="5" fill="#1a1a1a"/>
+          <rect x="14" y="8" width="26" height="14" rx="2" fill="#3a6ea5"/>
+          <path d="M46 15 L70 8 L70 22 Z" fill="#1a1a1a"/>
+          <text x="0" y="-6" font-size="11" fill="#1a1a1a" font-weight="700">摄影机取景框</text>
+        </g>
+      </svg>
+    </div>
+    <figcaption>每个 step 在画布上的位置 <code>(data-x, data-y)</code>、深度 <code>data-z</code>、姿态 <code>data-rotate</code>、大小 <code>data-scale</code>，共同定义一个镜头停留点。</figcaption>
+  </figure>
+
+  <table>
+    <thead><tr><th>属性</th><th>作用</th><th>规划要点</th></tr></thead>
+    <tbody>
+      <tr><td><code>data-x / data-y</code></td><td>画布坐标</td><td>聚簇内紧凑、聚簇间分离</td></tr>
+      <tr><td><code>data-z</code></td><td>深度（视差）</td><td>少用，制造前后层次</td></tr>
+      <tr><td><code>data-rotate</code></td><td>绕中心旋转</td><td>相邻场景旋转差 <b>≤ 90°</b></td></tr>
+      <tr><td><code>data-scale</code></td><td>放大倍数</td><td>嵌套父子比 <b>≥ 3</b>；相邻跳变 <b>≤ 10 倍</b></td></tr>
+    </tbody>
+  </table>
+
+  <h3>防晕规则</h3>
+  <p>大旋转 + 大缩放叠在一起会让观众头晕。规划坐标时执行：相邻旋转 ≤ 90°、相邻缩放比 ≤ 10 倍、镜头运动类型（平移/缩放/旋转）<b>交替出现</b>、相邻场景间距大于各自包围盒（防邻居穿帮）。</p>
+
+  <h3>图片聚焦步（imgfocus）</h3>
+  <p>一个很实际的痛点：内容卡「左文右图」时，如果右侧是一张<b>横向图</b>（宽/高 ≥ 1.25，如截图、论文图、图表），镜头停整卡时图只占取景框一小块，<b>必然看不清</b>。解法是 Prezi 语言里现成的——<b>镜头再走一站</b>：</p>
+
+  <figure>
+    <div class="frame gray">
+      <svg viewBox="0 0 880 240" role="img" aria-label="图片聚焦步镜头序列">
+        <!-- frame 1: full card -->
+        <g transform="translate(20,40)">
+          <text x="0" y="-8" font-size="12" fill="#8a8a8a" font-weight="700">① 停整卡</text>
+          <rect x="0" y="0" width="200" height="120" rx="8" fill="#fff" stroke="#cfcfd6"/>
+          <rect x="12" y="12" width="80" height="8" rx="3" fill="#1a1a1a"/>
+          <rect x="12" y="30" width="90" height="5" rx="2" fill="#d0d0d6"/>
+          <rect x="12" y="44" width="70" height="5" rx="2" fill="#d0d0d6"/>
+          <rect x="110" y="20" width="76" height="40" rx="4" fill="#e07a2b" opacity=".25"/>
+          <text x="148" y="44" font-size="9" fill="#e07a2b" text-anchor="middle">横图小</text>
+          <text x="100" y="140" font-size="10.5" fill="#a72e44">图看不清</text>
+        </g>
+        <path d="M232 100 L268 100" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arr2)"/>
+
+        <!-- frame 2: imgfocus -->
+        <g transform="translate(280,40)">
+          <text x="0" y="-8" font-size="12" fill="#3a6ea5" font-weight="700">② 钻进图（imgfocus）</text>
+          <rect x="0" y="0" width="200" height="120" rx="8" fill="#fff" stroke="#3a6ea5" stroke-width="1.8"/>
+          <rect x="20" y="14" width="160" height="92" rx="5" fill="#e07a2b" opacity=".35"/>
+          <text x="100" y="64" font-size="11" fill="#3a6ea5" text-anchor="middle" font-weight="700">图充盈取景框 ~85%</text>
+        </g>
+        <path d="M492 100 L528 100" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arr2)"/>
+
+        <!-- frame 3: zoomback -->
+        <g transform="translate(540,40)">
+          <text x="0" y="-8" font-size="12" fill="#1fa38b" font-weight="700">③ 拉出回卡（zoomback）</text>
+          <rect x="0" y="0" width="200" height="120" rx="8" fill="#fff" stroke="#1fa38b" stroke-width="1.8"/>
+          <rect x="12" y="12" width="80" height="8" rx="3" fill="#1a1a1a"/>
+          <rect x="12" y="30" width="90" height="5" rx="2" fill="#d0d0d6"/>
+          <rect x="110" y="20" width="76" height="40" rx="4" fill="#e07a2b" opacity=".25"/>
+          <text x="100" y="140" font-size="10.5" fill="#0f7a66">单一运动，防晕</text>
+        </g>
+        <path d="M752 100 L788 100" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arr2)"/>
+        <text x="820" y="104" font-size="11" fill="#8a8a8a">④ 下一站</text>
+      </svg>
+    </div>
+    <figcaption>横向侧栏图的标准镜头节奏：<b>整卡 → 钻进图 → 拉出回卡 → 下一站</b>。直接从深钻的图飞到下一张卡会大变焦+大平移叠加眩晕，所以中间必须插一个 <code>zoomback</code> 空步拆成两段单一运动。<span class="chip gate">机械闸核</span>这一序列在位。</figcaption>
+  </figure>
+
+  <h3>渐进显现（substep）</h3>
+  <p>聚焦到一张内容卡时，标题立即显示，<b>要点逐条 + 配图作为一条</b>初始隐藏——观众每按一次「下一步」显现一条，全部显现后再按才离开本卡。这让人<b>感受到生成过程、也方便回顾复习</b>。一旦离开，之后回看（总览/重访）全部保留可见。</p>
+
+  <div class="note">
+    <span class="lab">点击直达</span>
+    <p>除了键盘翻页，必须实现「<b>点击卡片直接聚焦</b>」——点总览里某簇、或父页里某个子卡，都能一键飞过去聚焦；点空白处才顺序前进。进度圆点也做成可点击直达。</p>
+  </div>
+</section>
+
+<!-- ============ CH5 ============ -->
+<section id="ch5">
+  <h2 class="chap"><span class="num">05</span> Roam 大纲双向生产线</h2>
+  <figure class="chap-cover"><img src="images/illu-ch5.png" alt="等距3D插画：文本大纲与屏幕间循环箭头，中间齿轮咬合转动" loading="lazy"></figure>
+  <p class="chap-kicker">HTML 难手改？让一份纯文本大纲成为可编辑的「源」</p>
+
+  <p>单文件 HTML 不方便手动修改。为此 skill 配了一条<b>双向生产线</b>：交付时同时导出一份 Roam Research 风格的 Markdown 大纲 <code>roam.md</code>，它是<b>人类可读、可编辑的源</b>。改大纲 → 跑一行命令 → 确定性重建 plan / 布局 / HTML 并过机械闸。</p>
+
+  <figure>
+    <div class="frame">
+      <svg viewBox="0 0 880 260" role="img" aria-label="Roam 大纲双向生产线">
+        <defs>
+          <marker id="arr3" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L8 4.5 L0 9 z" fill="#8a4fff"/></marker>
+          <marker id="arr3b" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L8 4.5 L0 9 z" fill="#e07a2b"/></marker>
+        </defs>
+        <!-- roam.md -->
+        <g transform="translate(40,60)">
+          <rect width="180" height="140" rx="12" fill="#fff" stroke="#8a4fff" stroke-width="1.6"/>
+          <text x="90" y="28" font-size="13" fill="#8a4fff" text-anchor="middle" font-weight="700">roam.md</text>
+          <text x="90" y="44" font-size="11" fill="#8a8a8a" text-anchor="middle">纯文本大纲</text>
+          <text x="16" y="72" font-family="SF Mono,monospace" font-size="10.5" fill="#555">- 标题</text>
+          <text x="16" y="88" font-family="SF Mono,monospace" font-size="10.5" fill="#555">    - 章节</text>
+          <text x="16" y="104" font-family="SF Mono,monospace" font-size="10.5" fill="#555">        - 要点</text>
+          <text x="16" y="120" font-family="SF Mono,monospace" font-size="10.5" fill="#555">        - ![](图)</text>
+          <text x="16" y="136" font-family="SF Mono,monospace" font-size="10.5" fill="#555">            - 子要点</text>
+        </g>
+
+        <!-- arrow right -->
+        <path d="M226 130 L314 130" stroke="#e07a2b" stroke-width="2.2" marker-end="url(#arr3b)"/>
+        <text x="270" y="120" font-size="11" fill="#e07a2b" text-anchor="middle" font-weight="700">roam2prezi</text>
+        <text x="270" y="148" font-size="10.5" fill="#8a8a8a" text-anchor="middle">确定性重建</text>
+
+        <!-- plan+html -->
+        <g transform="translate(330,60)">
+          <rect width="220" height="140" rx="12" fill="#fff" stroke="#e07a2b" stroke-width="1.6"/>
+          <text x="110" y="28" font-size="13" fill="#e07a2b" text-anchor="middle" font-weight="700">plan.json + 布局 + HTML</text>
+          <text x="110" y="48" font-size="11" fill="#8a8a8a" text-anchor="middle">自动生成 · 过三道机械闸</text>
+          <rect x="20" y="64" width="180" height="22" rx="5" fill="#fafafa" stroke="#e6e6ea"/>
+          <text x="30" y="79" font-family="SF Mono,monospace" font-size="11" fill="#555">坐标 / scale / rotate</text>
+          <rect x="20" y="92" width="180" height="22" rx="5" fill="#fafafa" stroke="#e6e6ea"/>
+          <text x="30" y="107" font-family="SF Mono,monospace" font-size="11" fill="#555">嵌套簇 / imgfocus</text>
+          <rect x="20" y="120" width="120" height="14" rx="3" fill="#1fa38b"/>
+          <text x="80" y="131" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">scene_id 闭环</text>
+        </g>
+
+        <!-- arrow back -->
+        <path d="M554 130 L642 130" stroke="#8a4fff" stroke-width="2.2" marker-end="url(#arr3)"/>
+        <text x="598" y="120" font-size="11" fill="#8a4fff" text-anchor="middle" font-weight="700">prezi2roam</text>
+        <text x="598" y="148" font-size="10.5" fill="#8a8a8a" text-anchor="middle">字节一致导出</text>
+
+        <!-- review -->
+        <g transform="translate(658,60)">
+          <rect width="180" height="140" rx="12" fill="#fff" stroke="#3a6ea5" stroke-width="1.6"/>
+          <text x="90" y="28" font-size="13" fill="#3a6ea5" text-anchor="middle" font-weight="700">交付物</text>
+          <text x="90" y="48" font-size="11" fill="#8a8a8a" text-anchor="middle">单文件 HTML</text>
+          <rect x="20" y="64" width="140" height="24" rx="5" fill="#dbe7f5"/>
+          <text x="90" y="80" font-size="11" fill="#2a5586" text-anchor="middle" font-weight="700">演示.html</text>
+          <text x="90" y="110" font-size="11" fill="#8a8a8a" text-anchor="middle">+ roam.md</text>
+          <text x="90" y="126" font-size="11" fill="#8a8a8a" text-anchor="middle">+ update.sh</text>
+        </g>
+
+        <text x="440" y="230" font-size="12" fill="#8a8a8a" text-anchor="middle">用户改大纲 → <tspan font-family="SF Mono,monospace" fill="#1a1a1a">./update.sh</tspan> → 一键重建（本地快速迭代=机械三闸；正式交付须重截图+独立终审）</text>
+      </svg>
+    </div>
+    <figcaption>大纲是单一真源。<code>update.sh</code> 是 <code>roam2prezi.py</code> 的薄封装，本地双击即可迭代。</figcaption>
+  </figure>
+
+  <h3>树模式语法（零控制符，纯层级）</h3>
+  <p>默认采用<b>全递归树模式</b>：4 空格缩进、<code>- </code> bullet；<b>有子节点 = 容器（自动变结构视图页），叶子 = 该节点自己的上屏要点</b>。图片只能是独立一行的 <code>- ![](url)</code>。</p>
+  <pre><span class="c"># 根节点 = 演示标题；其叶子 = 标题页副题 + 题图</span>
+- 创始人手册：打造 AI 原生创业公司
+    - 从构思到 IPO：Claude 贯穿创业四阶段的实战地图
+    - ![](images/title_banner.png)
+    - AI 原生创业的时代变局            <span class="c"># ← 有子节点 = 容器，自动变「父结构视图」</span>
+        - 2026，创业生命周期重启       <span class="c"># ← 这个子也有子 → 也是容器</span>
+            - AI 已消除代码编写门槛，没写过代码也能发布生产级应用
+            - 融资到招人到开发的线性旧模式，让位于精益执行
+            - ![](https://s.baoyu.io/.../illustration-01.png)
+        - 创始人定义的演变
+            - 懂开发的人与有点子的人之间的墙被推倒
+            - ![](images/founder_evolution.png)</pre>
+
+  <div class="note key">
+    <span class="lab">树模式的聪明之处</span>
+    <p>子节点以显著更小的 scale <b>真几何嵌入</b>父节点足迹内（真嵌套预览到底）；镜头 = DFS 前序遍历 + 每个子树走完退回时插 recap 回看。<b>无硬性深度 / 子数 / 总数上限</b>——内容多层就深。还有三条镜头编排规则自动生效：单子链坍缩（空壳层不生成独立回看）、连环 recap 去重、imgfocus 出站防晕。</p>
+  </div>
+
+  <p>两条命令记住就够了：</p>
+  <pre><span class="c"># 导出可编辑大纲（交付时必做）</span>
+python3 ~/.claude/skills/infinite-canvas-prezi/scripts/prezi2roam.py &lt;workdir&gt;
+
+<span class="c"># 改完大纲，一键重建 plan/布局/HTML + 过三道机械闸</span>
+python3 ~/.claude/skills/infinite-canvas-prezi/scripts/roam2prezi.py &lt;workdir&gt;
+<span class="c"># 追加 --full-qa 连实机截图一起跑；--cluster 用旧聚簇模式；--online 用 CDN+远程图</span></pre>
+</section>
+
+<!-- ============ CH6 ============ -->
+<section id="ch6">
+  <h2 class="chap"><span class="num">06</span> 闸门与独立终审</h2>
+  <figure class="chap-cover"><img src="images/illu-ch6.png" alt="等距3D插画：城门关卡前一个举着放大镜的小机器人守卫" loading="lazy"></figure>
+  <p class="chap-kicker">确定性脚本守住机械规则，独立子 Agent 守住语义/观感——构建者不许自审放行</p>
+
+  <p>这个 skill 最讲究的是<b>不许糊弄</b>。它用两层防线：第一层是<b>确定性脚本闸门</b>（能写成测试的规则，机器硬拦）；第二层是<b>独立子 Agent 终审</b>（靠语义/观感判断、写不出确定性测试的维度）。</p>
+
+  <h3>四道机械闸门（<code>prezi_gate.py</code>）</h3>
+  <table>
+    <thead><tr><th>相位</th><th>时机</th><th>机械核什么</th></tr></thead>
+    <tbody>
+      <tr><td><code>--phase plan</code></td><td>步骤 1 出口</td><td>事实清单每条带 source、聚簇归属合法、无散 singleton、簇间分离、<b>嵌套几何包含</b>（父子 scale 比 ≥ 3、子坐标在父包围盒内）</td></tr>
+      <tr><td><code>--phase media</code></td><td>步骤 2 出口</td><td>manifest 与 plan 的 <code>scene_id</code> 集合<b>完全相等</b>、远程 URL 已验证、本地媒体文件存在、位图项带数值 aspect_ratio、原图复用或有降级理由</td></tr>
+      <tr><td><code>--phase build</code></td><td>构建出口</td><td>HTML 的 <code>.step</code> id 覆盖全部 scene_id、无计划外新增、<b>所有远程资源 URL 只许是 impress CDN 或已验证清单内</b>、imgfocus 聚焦步在位或显式 skip、字号下限（含 output_lint）</td></tr>
+      <tr><td><code>--phase final</code></td><td>交付放行</td><td>复跑前三相位全部检查 + 核 review.json 的 html_sha256 与产物一致 + 截图不早于产物 + <b>七维齐全且全 pass</b></td></tr>
+    </tbody>
+  </table>
+  <div class="note warn">
+    <span class="lab">铁律</span>
+    <p>任何相位 <code>rc≠0</code> → 修复后重跑，<b>同一相位最多打回 2 次</b>；仍不过 → 停下向用户报告，不许无限重试。闸门还内置 <code>--selftest</code> 负向控制自测，用反例自证不会误放行。</p>
+  </div>
+
+  <h3>七维独立终审</h3>
+  <p>构建完用 <b>Agent 工具起一个独立子 Agent</b>（非构建上下文），照审查清单逐项审，产出 <code>review.json</code>。七个维度一个不能少：</p>
+  <div class="grid2">
+    <div class="frame"><h4 style="margin-top:0">R1 · 原图复用</h4><p style="margin:0;color:var(--ink-soft);font-size:14.5px">原文明明有对应图，是否直接用进对应场景？弃原图全走 AI 插画 = fail。</p></div>
+    <div class="frame"><h4 style="margin-top:0">R2 · 充盈取景框</h4><p style="margin:0;color:var(--ink-soft);font-size:14.5px">内容是否占版心 70–88%、不缩在中央一小团？imgfocus 图是否充盈约 85%？</p></div>
+    <div class="frame"><h4 style="margin-top:0">R3 · 空间即逻辑</h4><p style="margin:0;color:var(--ink-soft);font-size:14.5px">总览一屏能否读出聚簇结构？簇间位置是否承载逻辑？有无剧透目录页？</p></div>
+    <div class="frame"><h4 style="margin-top:0">facts · 事实溯源</h4><p style="margin:0;color:var(--ink-soft);font-size:14.5px">抽查上屏文字能否溯源到事实清单；抽查 source 本身没伪造。</p></div>
+    <div class="frame"><h4 style="margin-top:0">nav · 导航</h4><p style="margin:0;color:var(--ink-soft);font-size:14.5px">无头浏览器真点一张卡，验证镜头确实飞过去聚焦（不只看代码 token）。</p></div>
+    <div class="frame"><h4 style="margin-top:0">coverage · 源覆盖</h4><p style="margin:0;color:var(--ink-soft);font-size:14.5px"><b>绕过 plan 清单，自己重读源素材重切内容点</b>，揪「本该讲的重点被误删」。</p></div>
+    <div class="frame" style="grid-column:span 2"><h4 style="margin-top:0">nesting · 真嵌套</h4><p style="margin:0;color:var(--ink-soft);font-size:14.5px">总分/层级内容有没有真嵌套（钻入+退回），还是平铺假装层级？<b>不得凭 plan 自报的 structure_type 放行</b>，须独立判定内容逻辑。</p></div>
+  </div>
+
+  <div class="note warn">
+    <span class="lab">信任红线</span>
+    <p><b>构建者禁止手写或修改 review.json</b>——它只能由独立子 Agent 产出。有 fail 项时构建者只修产物，修完必须重跑 build 闸、重新截图、重新调独立子 Agent 复审（≤2 轮）。<code>final</code> 闸用 html_sha256 哈希绑定，使「改完产物拿旧 review 闯关」在机械上不可绕过。</p>
+  </div>
+</section>
+
+<!-- ============ CH7 ============ -->
+<section id="ch7">
+  <h2 class="chap"><span class="num">07</span> 实战示例：创始人手册</h2>
+  <figure class="chap-cover"><img src="images/illu-ch7.png" alt="等距3D插画：画布全景中心一个发光锚点，周围环绕卡片小簇" loading="lazy"></figure>
+  <p class="chap-kicker">把 Claude Blog 一篇长文，做成一张可飞行的创业旅程画布</p>
+
+  <p>下面所有截图都来自一个真实产物——把 Claude Blog 的《The Founder's Playbook》一篇长文，用本 skill 做成的 60 个镜头的单文件演示。它的<b>空间结构是中心辐射</b>：中央标题作锚点，七个章节聚簇环绕展开，每个章节内部又是「父结构视图 + 子讲点」的嵌套。</p>
+
+  <figure>
+    <div class="shot">
+      <div class="shot-bar"><i class="r"></i><i class="y"></i><i class="g"></i><span>第 1 帧 · 标题页（建立整个画布的锚点）</span></div>
+      <img src="images/shot-01-title.png" alt="标题页" loading="lazy">
+    </div>
+    <figcaption>标题页居中、白底黑字 + 暖橙点缀，配一张点题横幅。<b>它同时是画布的几何中心</b>——后面所有聚簇都围绕它展开。</figcaption>
+  </figure>
+
+  <figure>
+    <div class="shot">
+      <div class="shot-bar"><i class="r"></i><i class="y"></i><i class="g"></i><span>第 3 帧 · 内容卡（左文右图 + 渐进显现）</span></div>
+      <img src="images/shot-03-content-card.png" alt="内容卡" loading="lazy">
+    </div>
+    <figcaption>镜头钻进一个子讲点：标题 + 要点充盈取景框，右侧配图。要点是逐条 substep 显现的——观众每按一次「下一步」多出一条。</figcaption>
+  </figure>
+
+  <figure>
+    <div class="shot">
+      <div class="shot-bar"><i class="r"></i><i class="y"></i><i class="g"></i><span>第 4 帧 · 图片聚焦步 imgfocus（钻进图看清细节）</span></div>
+      <img src="images/shot-04-imgfocus.png" alt="图片聚焦步" loading="lazy">
+    </div>
+    <figcaption>上一帧的横向配图看不清？镜头<b>再走一站钻进图</b>，让图充盈取景框约 85%，细节清晰可读。看完自动 <code>zoomback</code> 拉出回卡。</figcaption>
+  </figure>
+
+  <figure>
+    <div class="shot">
+      <div class="shot-bar"><i class="r"></i><i class="y"></i><i class="g"></i><span>第 12 帧 · 父结构视图 recap（退回看整体）</span></div>
+      <img src="images/shot-12-parent-view.png" alt="父结构视图" loading="lazy">
+    </div>
+    <figcaption>子讲点探索完毕，镜头<b>退回父级</b>回看一眼：中央标题「AI 原生创业的时代变局」+ 三个编号子框（①②③三角排布）。因刚钻进去过，此刻既熟悉又赏心悦目——这就是真嵌套的魅力。</figcaption>
+  </figure>
+
+  <figure>
+    <div class="shot">
+      <div class="shot-bar"><i class="r"></i><i class="y"></i><i class="g"></i><span>第 60 帧 · 全景总览 overview（收尾，一屏看尽）</span></div>
+      <img src="images/shot-60-overview.png" alt="全景总览" loading="lazy">
+    </div>
+    <figcaption>结尾的标志性收尾：镜头拉到最远，<b>一屏看尽整张画布</b>。七个章节聚簇环绕中央标题呈中心辐射——只看这张图，就能读出「内容分七大块、块内是嵌套子结构」。<b>这就是「空间即逻辑」的终极验证。</b></figcaption>
+  </figure>
+
+  <div class="note key">
+    <span class="lab">这个产物的规模</span>
+    <p>60 个镜头、7 个章节聚簇、每个章节含 3 个嵌套子讲点；约七成场景配统一风格插画 + 原文原图混用；单文件 HTML 约 42MB（全部图片 base64 内联，断网可播）。交付时附 <code>roam.md</code>，用户改大纲跑 <code>update.sh</code> 即可迭代。</p>
+  </div>
+</section>
+
+<!-- ============ CH8 ============ -->
+<section id="ch8">
+  <h2 class="chap"><span class="num">08</span> 何时该用 / 何时别用</h2>
+  <figure class="chap-cover"><img src="images/illu-ch8.png" alt="等距3D插画：分叉路口路标，一岔通向画布一岔通向幻灯片堆" loading="lazy"></figure>
+  <p class="chap-kicker">触发条件很明确——必须是「一张无限画布 + 镜头运动承载逻辑」，而不是「一页页翻的幻灯」</p>
+
+  <h3>该用它的场景</h3>
+  <ul>
+    <li>用户明确说：<b>Prezi / Prezi 风格 / 无限画布 / 空间叙事 / impress.js / 镜头在一张画布上缩放平移旋转</b>。</li>
+    <li>内容天然有<b>空间结构</b>：总分/层级（钻进去看细节）、时间线/流程（沿路径走）、对比（左右）、循环（绕环）。</li>
+    <li>想要<b>单文件、零构建、浏览器直接打开</b>的可分享演示。</li>
+    <li>输入是主题 / 长文 / 转写稿，想自动产出研究 + 配图 + 叙事一条龙。</li>
+  </ul>
+
+  <h3>别用它的场景（有更对口的工具）</h3>
+  <table>
+    <thead><tr><th>你想要的是</th><th>该用的工具</th></tr></thead>
+    <tbody>
+      <tr><td>一页页翻的传统教学课件</td><td><code>teaching-deck-builder</code> / reveal.js</td></tr>
+      <tr><td>组装 PPTX 文件</td><td><code>manuscript-to-ppt</code></td></tr>
+      <tr><td>单张信息图</td><td><code>infographic-composer</code> / <code>lecture-image-pack</code></td></tr>
+      <tr><td>纯静态 16:9 图片页</td><td><code>ppt-image-pages</code></td></tr>
+    </tbody>
+  </table>
+  <div class="note warn">
+    <span class="lab">关键判据</span>
+    <p>用户要的是「<b>一张无限画布上镜头运动</b>」还是「<b>一页页翻的幻灯</b>」？前者用本 skill，后者别用。<b>不要被泛化的「会动的网页 / 缩放动画」误触发</b>。</p>
+  </div>
+
+  <h3>怎么触发</h3>
+  <p>直接说需求即可，例如：</p>
+  <pre><span class="c"># 纯主题</span>
+做一个关于黑洞的 Prezi 风格无限画布演示
+
+<span class="c"># 带素材</span>
+把 @这篇文章 做成一张镜头会缩放平移的无限画布演示
+
+<span class="c"># 或直接用斜杠命令</span>
+/infinite-canvas-prezi</pre>
+
+  <p>触发后 skill 会<b>自动按 1→2→3 跑完整条流水线</b>，只在原则性疑惑时停下问你（素材严重残缺 / 多种完全不同的理解 / 受众目的无法判断）。凡能自行合理决定的，直接推进不等确认——唯独<b>部署到公网</b>（wrangler）和<b>Telegram 投递</b>这两步会先问，因为它们产出对外可见的链接/消息。</p>
+
+  <div class="note">
+    <span class="lab">本机工具映射已就绪</span>
+    <p>AI 生图走 <code>Evan-gpt-image</code> 的 <code>gen_via_codex.py</code>（吃 codex CLI 订阅额度，无需 OPENAI_API_KEY）；公开预览走已装的 <code>wrangler</code> CLI。impress.js 用唯一实测可用的 CDN：<code>cdn.jsdelivr.net/gh/impress/impress.js@2.0.0</code>（npm 与 cdnjs 路径都 404）。</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><code>infinite-canvas-prezi</code> · 无限画布演示生成器 · 图文教程</p>
+    <p>理念：空间即逻辑 · 三步流水线 · 四道闸门 · 七维独立终审</p>
+  </div>
+</footer>
+
+</body>
+</html>
