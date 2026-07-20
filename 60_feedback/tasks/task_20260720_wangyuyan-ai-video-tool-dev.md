@@ -2,9 +2,9 @@
 id: task_20260720_wangyuyan-ai-video-tool
 task_id: 197
 assignee: hermes
-status: queued
+status: pending_review
 created_at: 2026-07-20
-updated_at: '2026-07-21T18:30:00.000000+00:00'
+updated_at: '2026-07-20T19:06:02.126514+00:00'
 domain: ai-collaboration
 priority: P1
 source: 00_inbox/AI口播工具开发经验/
