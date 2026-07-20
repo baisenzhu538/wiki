@@ -471,3 +471,5 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 
 
 
+
+| 196 | `task_20260720_wangyuyan-case-crafting-methodology` | 案例打磨四步法卡片化：8张卡（2 P0 framework/concept + 4 P1 tool/dk + 2 P2 concept/case），归入content-production域 | queued | - | 8张（5新+3补充） | 无；新域补白 | `60_feedback/tasks/task_20260720_wangyuyan-case-crafting-methodology.md` | 李頔口述+笔记；四步法=实事求是+9层深挖+内容生产在案例体裁的专项化；诊断见 `60_feedback/diagnosis/diag_20260720_wangyuyan-case-crafting-methodology.md` |
