@@ -174,7 +174,66 @@ framework-yitang-case-crafting-four-step (P0)
 ├── dk-yitang-case-crafting-pitfalls (P1, 暗知识层)
 ├── dk-yitang-case-before-after (P1, 暗知识层)
 ├── concept-yitang-case-soul-selection (P2, 概念层)
-└── case-yitang-case-crafting-modeling-course (P2, 案例层)
+├── case-yitang-case-crafting-modeling-course (P2, 案例层)
+└── 🔴 深挖迭代增量 ↓
+    ├── framework-yitang-case-before-after-problem-frame (P1, 框架层 — Before-After升格)
+    ├── tool-yitang-case-fact-to-script-pipeline (P1, 工具层 — 干货点清单)
+    ├── tool-yitang-case-standards-diagnosis-matrix (P1, 工具层 — 四标准×四步法)
+    └── concept-yitang-case-academic-vs-practitioner (P2, 概念层 — 学术vs实战分界线)
 ```
 
-**解压资产总数：7张**（≥3，满足建模四步自检要求）
+**解压资产总数：12张**（8原卡 + 4增量）
+
+## 九、🔴 深挖迭代（2026-07-20 王语嫣通读904行口述稿后追加）
+
+> 原始诊断（2026-07-20 v1）的六层交叉验证A级评定不变。本节为深读全文后的增量发现。
+
+### 增量一：元方法论层——"方法论怎么从案例中建模出来"
+
+口述L306-332：高阶建模课团队还原每个模型从初版到质变的完整过程——"最开始怎么来？为什么出现？架构怎么变？每一步走向下一个质变点做了什么？"最终提炼出"哪些动作高频复现、哪些动作有价值"。
+
+四步法不仅是"怎么写案例"，更是**教研团队怎么从案例中逆建模出方法论**的过程。这层meta-methodology价值在v1诊断中被低估——只在L5同构映射中作为边角料提到了`framework-kdo-modeling-methodology`，应显式建模为框架卡的独立节。
+
+**对应动作**：#8 case卡核心内容已覆盖此故事，framework卡(#1)应追加§"四步法与KDO建模方法论的同构"。
+
+### 增量二：Before-After被误判——不是第四步工具，是横跨三步的通用问题框架
+
+口述中Before-After出现了三次，每次在不同步骤中承担不同角色：
+
+| 出现位置 | 口述行号 | 角色 | 
+|:--|:--|:--|
+| 第二步定魂·对内第三问 | L589-590 | 找价值差距：Before-After天然带出方法论价值 |
+| 六类事实体系 | L406-445 | 结构基础：起点事实+结果事实=Before-After的天然锚点 |
+| 第四步表达·第二个工具 | L746-780 | 呈现技法：让观众感受变化 |
+
+v1诊断将Before-After定位为"第四步的DK子工具"是定位错误。它不是第四步的专属技法，而是**整个四步法的通用问题框架**——"过去怎么做→这次怎么做→差距=方法论价值"。
+
+**对应动作**：保留原#6 dk-yitang-case-before-after（操作心法层），新增#9 framework-yitang-case-before-after-problem-frame（通用框架层）。
+
+### 增量三："干货点清单"操作流水线遗漏
+
+口述L800-808：写逐字稿之前，一堂内部有"干货点清单"中间产物——列干货→改成人话→充分朗读。是第三步(挖专业度)和第四步(打磨表达)之间的内部操作流水线，相当于Candy九步法中"素材→成品"的中间状态。
+
+v1诊断只捕捞了"逐字稿"最终产出物，丢失了中间环节。
+
+**对应动作**：新增#10 tool-yitang-case-fact-to-script-pipeline。
+
+### 增量四：四标准×四步法交叉诊断矩阵未被建模
+
+口述L232-266揭示了一个自反馈闭环——四标准是四步法的质量问题诊断器。好案例达不到标准→回到对应步骤修复。这是独立于四步法本身的诊断工具。
+
+v1诊断只在§四中描述了四个卡点的对应关系，但没把它建模为独立工具卡。
+
+**对应动作**：新增#11 tool-yitang-case-standards-diagnosis-matrix。
+
+### 增量五：外部验证缺"两条分界线"建模
+
+v1调研找到了FBR 7-String / CARE / Ellet做对照，但四步法的核心差异不是"有没有结构"而是**驱动逻辑**——学术案例由"理论缺口"驱动，四步法由"真实经历中提炼认知"驱动。
+
+**对应动作**：新增#12 concept-yitang-case-academic-vs-practitioner。
+
+### 借假修真的激进含义
+
+口述"教学教材分离"论证链的终点是：案例最高价值是**可剥离的**——方法论拿掉案例仍成立（L181-184）。这是content-production域的核心哲学主张，v1诊断未触及这一激进含义。
+
+**对应动作**：#2 concept卡追加此主张。

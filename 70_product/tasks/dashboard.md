@@ -6,7 +6,7 @@ updated: 2026-07-07
 > 🆕 **2026-07-04 更新**：王语嫣已开 #62/#63 任务单并入队。#62 黄药师处理 Agent Prompt 设计规范微债务；#63 老顽童补产一行双三角第二批 4 张 case 卡。
 > 🆕 **2026-07-19 更新**：王语嫣已开 #189 任务单并入队：利润为王域卡片化（赫尔曼·西蒙《真正的利润》+ 水水拆书/经营课），预计产出 8 张 wiki 卡 + 1 张可选 agent-spec。
 > 🆕 **2026-07-19 更新**：王语嫣已开 #190 任务单并入队：老朱 AI 能力建设刻意练习路线图（基于个人域「鑫港湾打工 + 借假修真 + 学习 AI」策略），预计产出 1 张 tool 卡 + 1 张 agent-spec 卡，分配给老顽童(kimi)。
-> 🆕 **2026-07-20 更新**：王语嫣已开 #196 任务单并入队：案例打磨四步法卡片化（李頔·大航海培训），8张卡（2 P0 + 4 P1 + 2 P2），归入 content-production 域。诊断见 `60_feedback/diagnosis/diag_20260720_wangyuyan-case-crafting-methodology.md`。
+> 🆕 **2026-07-20 更新**：王语嫣已开 #196 任务单并入队：案例打磨四步法卡片化（李頔·大航海培训），12张卡（8原卡 + 4深挖增量），归入 content-production 域。诊断见 `60_feedback/diagnosis/diag_20260720_wangyuyan-case-crafting-methodology.md`。
 
 # Task Dashboard
 
