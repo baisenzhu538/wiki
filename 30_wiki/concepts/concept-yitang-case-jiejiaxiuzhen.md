@@ -23,6 +23,8 @@ related:
   - framework-yitang-shishi-qiushi
   - concept-yitang-case-soul-selection
   - framework-kdo-modeling-methodology
+  - dk-yitang-case-crafting-pitfalls
+  - framework-yitang-content-polish
 ---
 
 # 借假修真：案例是载体，方法论是真经

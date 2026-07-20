@@ -24,9 +24,11 @@ related:
   - concept-yitang-case-jiejiaxiuzhen
   - tool-yitang-case-fact-review-checklist
   - dk-yitang-case-crafting-pitfalls
+  - framework-kdo-modeling-methodology
+  - framework-yitang-content-polish
 ---
 
-# 案例打磨四步法：事实复盘→选定魂儿→打造表达→挖专业度
+# 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
 
 > 一句话：案例打磨不是包装故事——是从真实经历中提炼可迁移的认知。四步走：先做加法（摊开所有事实），再做减法（选定核心主线），然后做选择（挖出专业判断），最后做呈现（让人听得进去）。
 
