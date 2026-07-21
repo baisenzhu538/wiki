@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-07-20 18:08 UTC
+# Concept Card Index — 2026-07-21 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -734,6 +734,8 @@
 | yt-unit-model-overview | 单元模型概览：十大单元模型与三角色分工 | framework | src_unknown, src_unknown, src_unknown |
 | agent-spec-codex-teammate | Codex 队友式使用规范 | agent-spec | ai-collaboration, engineering, agent |
 | agent-spec-dual-triangle-canvas-filler | 双三角画布填充 Agent（对话教练版）v4 | agent-spec | yitang, ai-collaboration, agent |
+| agent-spec-duanwangye-publisher | 段王爷 Publisher Agent — KDO 内容发布与渠道分发引擎 | agent-spec | publishing, agent-capability |
+| agent-spec-hongqigong-multimodal | 洪七公 Multimodal Agent — KDO 多模态渲染与视觉资产生产引擎 | agent-spec | multimodal, agent-capability |
 | agent-spec-project-management-assistant | 项目管理助手 Agent（对话教练版） | agent-spec | yitang, management |
 | ai-short-drama-conflict-three-axes | 矛盾冲突三板斧：短剧冲突分层设计工具 | tool | ai-saas- yitang, ai-collaboration, product |
 | ai-short-drama-framework-three-axes | 框架三板斧：短剧英雄之旅结构工具 | tool | ai-saas- yitang, ai-collaboration, product |
@@ -2172,6 +2174,7 @@
 | dk-long-material-layered-reading-protocol | 长素材分层读取协议：密度×长度选策略 / 子代理外存+行号锚点 / 三道防线 | dk | personal-os |
 | dk-lz-ai-native-organization | AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足 | dk | ai-saas, business-strategy |
 | dk-lz-code-is-disposable | 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产 | dk | ai-saas, business-strategy |
+| dk-market-info-gap-to-product-strategy | 市场信息差→产品策略决策链——从"怎么还有人不知道"到"零门槛+80分" | dk | ai-collaboration |
 | dk-mckinsey-hypothesis-driven-pitfalls | 暗知：假设驱动方法论的三个反直觉陷阱 | dk | consulting, yitang |
 | dk-modeling-ai-compound-leverage | AI 加杠杆最大的场景是建模，因为好模型会被反复调用 | dk | yitang, ai-saas |
 | dk-modeling-ai-cross-validation | 拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤 | dk | yitang, ai-collaboration, skill-engineering |
@@ -2219,6 +2222,7 @@
 | dk-p9-glob-miss | P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸 | dk | master |
 | dk-panproduct-org-linear-to-circular | 组织资产：从直线运动到圆周运动 | dk | panproduct, organization, yitang |
 | dk-panproduct-org-serve-the-lowest | 组织领导心法：最高服务最低 | dk | panproduct, organization, yitang, leadership |
+| dk-post-hoc-framework-vs-messy-reality | 真实过程≠复盘结构——事后框架的诚实标注问题 | dk | ai-collaboration |
 | dk-process-is-scar-tissue | 流程是业务的疤痕：每个节点都曾是流血后的痂 | dk | modeling |
 | dk-pseudo-demand-trap | 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地 | dk | yitang, business-strategy |
 | dk-signal-cluster-illusion | 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕 | dk | yitang, ai |
