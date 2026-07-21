@@ -2,14 +2,15 @@
 id: tool-presentation-quality-gate-pipeline
 title: "演示产线双防线质量控制：四道机械闸门 + 七维独立终审"
 type: tool
-status: draft
+status: reviewed
 confidence: 0.90
 trust_level: high
 domain:
   - content-production
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 review_date: "2026-07-21"
+grade: B+
 created_at: "2026-07-21"
 updated_at: "2026-07-21"
 quality_labels:

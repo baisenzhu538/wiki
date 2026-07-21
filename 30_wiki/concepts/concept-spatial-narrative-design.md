@@ -2,14 +2,15 @@
 id: concept-spatial-narrative-design
 title: "空间即逻辑：内容结构→画布空间的四结构+四原则映射"
 type: concept
-status: draft
+status: reviewed
 confidence: 0.90
 trust_level: high
 domain:
   - content-production
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 review_date: "2026-07-21"
+grade: A-
 created_at: "2026-07-21"
 updated_at: "2026-07-21"
 quality_labels:

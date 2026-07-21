@@ -2,14 +2,15 @@
 id: case-infinite-canvas-founders-playbook
 title: "60镜头《创始人手册》：Claude Blog长文→Prezi式创业旅程画布"
 type: case
-status: draft
+status: reviewed
 confidence: 0.85
 trust_level: medium
 domain:
   - content-production
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 review_date: "2026-07-21"
+grade: A-
 created_at: "2026-07-21"
 updated_at: "2026-07-21"
 quality_labels:

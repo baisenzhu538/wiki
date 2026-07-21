@@ -2,14 +2,15 @@
 id: dk-spatial-narrative-pitfalls
 title: "空间叙事四大失败模式：等距平铺/伪嵌套/横图看不清/构建者自审"
 type: dk
-status: draft
+status: reviewed
 confidence: 0.88
 trust_level: high
 domain:
   - content-production
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 review_date: "2026-07-21"
+grade: B+
 created_at: "2026-07-21"
 updated_at: "2026-07-21"
 quality_labels:
