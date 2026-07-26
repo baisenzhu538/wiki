@@ -56,22 +56,21 @@ discoverable_by: "月白AI资产、设计师资产沉淀、AI四类型、设计�
 
 ## 适用场景
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- **设计师个人知识体系建设**：从"做了很多图"升级为"积累了可复用的资产库"
+- **AIGC时代的核心竞争力构建**：AI能出图但不知道"好"的标准——行业特征和风格资产是你告诉AI"什么是好"的弹药
+- **设计团队知识传承**：老设计师离职后，提示词和风格资产是留下的最值钱遗产
+- **设计师跳槽/转行的能力打包**：四类型资产=你的设计能力不是"感觉"，而是可展示、可量化的资产清单
 
 ## 不适用场景
 
-- src_unknown
-- src_unknown
-- src_unknown
+- **纯执行型设计师**：只接收需求、不积累判断的设计师，四类型中的"行业特征""风格关键词"无法建立
+- **每单都是全新品类的设计**：如果每次设计都是完全不同行业的新品类，行业特征资产的复用率极低
 
 ## 工具/环境
 
-- src_unknown
-- src_unknown
-- src_unknown
+- Obsidian / Notion（知识库+四类型分类）
+- Eagle（设计参考图+提示词产出关联管理）
+- AIGC工具（Midjourney / Stable Diffusion / DALL-E / 可灵）
 
 ## 为什么有效
 
@@ -79,15 +78,20 @@ discoverable_by: "月白AI资产、设计师资产沉淀、AI四类型、设计�
 
 ## 关联技能
 
-- src_unknown
+- [[tool-月白-文件命名与存档规范（口述暗示）]] — 提示词资产沉淀即四类型的"提示词"维度
+- [[tool-月白-设计文件八要素命名法]] — 资产文件名需用八要素统一
+- [[tool-月白-课程资料文件命名规范]] — 课程学习→资产提取→四类型归档的闭环
+- [[concept-structured-naming-as-infrastructure]] — 四类型是最小资产分类法，命名是其原子操作
 
 ## 来源
 
-- src_unknown
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md — 月白AI设计基础课程
+- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L662-672 — AI品味取决于操作者审美
 
 ## Feedback Path
 
-- src_unknown
+- 每季度审计四类型资产的完整度：哪个类型增长最慢？
+- 新人入职后能否靠四类型资产独立完成第一单设计（测试资产的可用性）
 
 ## 目的
 

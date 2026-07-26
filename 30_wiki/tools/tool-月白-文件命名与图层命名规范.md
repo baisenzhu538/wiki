@@ -55,19 +55,20 @@ discoverable_by: "月白图层命名、文件命名规范、PS图层管理、设
 
 ## 适用场景
 
-- src_unknown
-- src_unknown
-- src_unknown
+- **PS/AI大型源文件管理**：一个项目可能包含几十个图层，不规范的图层命名让后续修改变成"找图层游戏"
+- **设计团队协作**：设计师之间互相接手文件时，图层命名是唯一不需要额外沟通的上下文
+- **AIGC+手动精修混合流程**：AI生成初稿后手动调图层，命名让精修阶段能快速定位
 
 ## 不适用场景
 
-- src_unknown
+- **单人一次性设计**：只做一次、不需要复用的设计，图层命名的时间成本可能超过收益
+- **纯AI生成不需手动修改**：如果AI直出成品且满意，命名图层的ROI为零
 
 ## 工具/环境
 
-- src_unknown
-- src_unknown
-- src_unknown
+- Photoshop（主力，图层命名和管理）
+- Illustrator（矢量图层命名）
+- Figma / Sketch（协作场景的图层管理）
 
 ## 为什么有效
 
@@ -75,15 +76,19 @@ discoverable_by: "月白图层命名、文件命名规范、PS图层管理、设
 
 ## 关联技能
 
-- src_unknown
+- [[tool-月白-设计文件八要素命名法]] — 文件级命名是图层命名的上一层
+- [[tool-月白-PS图层规范管理]] — 图层管理的完整规范
+- [[concept-structured-naming-as-infrastructure]] — 命名即基础设施，图层命名是其原子单元
 
 ## 来源
 
-- src_unknown
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md — 月白AI设计师实操课程
+- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L2046-2072 — 图层命名被逼出来的实战经验
 
 ## Feedback Path
 
-- src_unknown
+- 新接手他人PSD时如果发现图层命名混乱→记录为反面案例
+- 每月抽查自己的PSD文件图层命名率
 
 ## 目的
 

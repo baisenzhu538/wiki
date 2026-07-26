@@ -55,19 +55,20 @@ discoverable_by: "月白平台适配、多平台设计规范、设计文件平�
 
 ## 适用场景
 
-- src_unknown
-- src_unknown
-- src_unknown
+- **多平台自媒体运营**：同一张营销图需要分发到视频号/小红书/B站/抖音，各平台尺寸不同
+- **电商多店铺管理**：淘宝主图800×800、天猫主图800×800但要求不同、拼多多750×1000，一次设计多端适配
+- **品牌跨渠道物料统一**：品牌VI需要适配线下海报、线上Banner、社交媒体头像等不同尺寸
 
 ## 不适用场景
 
-- src_unknown
-- src_unknown
+- **单一平台发布**：只在一个平台运营时，不需要适配，直接用该平台原生尺寸
+- **纯品牌调性设计**：艺术类/概念类设计不以发布为目的，不关心平台尺寸
 
 ## 工具/环境
 
-- src_unknown
-- src_unknown
+- Photoshop / Canva（多尺寸导出预设）
+- Figma（组件化设计+多尺寸Frame）
+- 稿定设计（多平台尺寸模板）
 
 ## 为什么有效
 
@@ -75,15 +76,18 @@ discoverable_by: "月白平台适配、多平台设计规范、设计文件平�
 
 ## 关联技能
 
-- src_unknown
+- [[tool-月白-设计文件八要素命名法]] — 平台维度是八要素的"渠道"要素展开
+- [[tool-月白-AI一句话改图尺寸]] — AI快速改尺寸与规范命名的配合作业
+- [[concept-structured-naming-as-infrastructure]] — 平台适配的命名法是其应用实例
 
 ## 来源
 
-- src_unknown
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md — 月白文创案例课程
 
 ## Feedback Path
 
-- src_unknown
+- 平台更新尺寸规范时更新对照表
+- 统计各平台素材复用率，低于50%时检查是否适配无效
 
 ## 目的
 

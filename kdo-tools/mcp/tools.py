@@ -74,6 +74,7 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
             card_id = p.stem
             card_type = _infer_type(path_str)
             title = _extract_title(snippet)
+
             # Get freshness from file mtime
             try:
                 mtime = p.stat().st_mtime
@@ -82,11 +83,41 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
             except Exception:
                 updated_at = "unknown"
 
+            # Extract full metadata for routing decisions (aliases, tags, position)
+            aliases = []
+            tags = []
+            position = ""
+
+            try:
+                text = p.read_text(encoding="utf-8", errors="replace")
+                fm = _parse_frontmatter(text)
+                aliases = fm.get("aliases") or []
+                tags = fm.get("tags") or []
+                if isinstance(aliases, str): aliases = [aliases]
+                if isinstance(tags, str): tags = [tags]
+
+                # Extract定位声明 (first blockquote or meaningful line after frontmatter)
+                body_start = text.find("\n---\n", 4)
+                body = text[body_start + 5:] if body_start > 0 else text
+                for line in body.strip().split("\n"):
+                    stripped = line.strip()
+                    if stripped.startswith(">"):
+                        position = stripped.lstrip("> ").strip()
+                        break
+                    if stripped and not stripped.startswith("#"):
+                        position = stripped[:200]
+                        break
+            except Exception:
+                pass
+
             results.append({
                 "id": card_id,
                 "title": title,
                 "type": card_type,
-                "snippet": snippet[:300],
+                "aliases": aliases[:8],
+                "tags": tags,
+                "position": position,
+                "snippet": snippet[:500],
                 "score": round(score, 3),
                 "updated_at": updated_at,
                 "path": str(p.relative_to(root)) if str(p).startswith(str(root)) else path_str,

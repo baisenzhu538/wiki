@@ -63,22 +63,22 @@ discoverable_by: "月白命名法、八要素命名、设计文件命名规范�
 
 ## 适用场景
 
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+- **设计师协作**：团队内多人经手同一设计文件，需要统一的命名语言让上下游一眼识别文件属性
+- **AIGC批量产出**：AI生成大量设计素材时，用八要素命名在生成时就分类，避免后期整理噩梦
+- **客户交付**：交付给客户的源文件需要清晰标注尺寸、版本、用途，减少"这是哪个版本"的来回沟通
+- **个人作品集管理**：积累设计作品时需要文件名即索引，方便按项目/行业/风格检索
 
 ## 不适用场景
 
-- src_unknown
-- src_unknown
-- src_unknown
+- **随手草稿/灵感速记**：快速涂鸦和创意探索阶段不需要八要素，过度命名反而打断创作流
+- **临时截图/参考图收集**：给AI做参考的截图只需要最低限度的标注，八要素过度杀伤
 
 ## 工具/环境
 
-- src_unknown
-- src_unknown
+- Photoshop / Illustrator（源文件层）
+- Eagle（设计资产管理）
+- 飞书/Notion（团队协作+命名规范文档）
+- 任何AIGC工具（Midjourney / Stable Diffusion / DALL-E 输出文件命名）
 
 ## 为什么有效
 
@@ -86,15 +86,19 @@ AI需要'干净的家'，混乱输入导致混乱输出；协作需要共同语�
 
 ## 关联技能
 
-- src_unknown
+- [[tool-月白-文件命名与图层命名规范]] — 图层级别的命名是对八要素的精细补充
+- [[tool-月白-设计师AI资产四类型沉淀]] — 命名是资产沉淀的前置条件
+- [[concept-structured-naming-as-infrastructure]] — 于陆的「命名即基础设施」哲学，八要素是其设计领域实现
 
 ## 来源
 
-- src_unknown
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md — 月白AI设计基础课程
+- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L2046-2072 — 月白「你的命名，我的建筑」口述
 
 ## Feedback Path
 
-- src_unknown
+- 发现命名维度遗漏时追加为新要素
+- 团队新成员入职时用八要素做文件命名培训
 
 ## 目的
 
