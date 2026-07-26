@@ -2,7 +2,8 @@
 id: framework-ouyangfeng-review-methodology
 title: 欧阳锋审查方法论：三阶段架构评审框架
 type: framework
-status: draft
+status: reviewed
+reviewed_by: 黄药师
 confidence: 0.88
 trust_level: high
 domain:
