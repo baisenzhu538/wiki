@@ -2,7 +2,7 @@
 id: concept-kdo-agent-four-level-awareness
 title: Agent四层觉察：从后知后觉到先知先觉
 type: concept
-status: draft
+status: reviewed
 author: laowantong
 confidence: 0.85
 trust_level: high
@@ -21,7 +21,7 @@ related:
   - concept-一堂-Agent基本功修炼
 created_at: 2026-07-26
 updated_at: 2026-07-26
-reviewed_by: pending
+reviewed_by: 欧阳锋
 diagnostic_signals:
   - 欧阳锋审查中 🔴🟡 数量未呈下降趋势
   - Agent 自主提出改进的案例数为 0
@@ -172,3 +172,15 @@ L3 先知先觉  ░░░░░░░░░░░░  ← ❌ 目标状态，#2
 | 新 Agent 上线后 30 天 | 统计其新增 pitfalls 数：是 L1 模式（踩坑打补丁）还是已接近 L2？ | 30 天新增 pitfalls ≤ 旧 Agent 同期均值的 50% |
 | Agent 自主提出第一条改进并入库 | 标记为「L1→L2 首个跃迁证据」，写入 case-agent-self-evolution-pilot | 改进被欧阳锋采纳并入系统 |
 | 欧阳锋审查退回率连续 3 个月下降 | 判断是否为 L1→L2 的系统性信号 | 退回率下降 ≥ 30% 且不是低频任务所致 |
+
+## Synthesis
+
+本卡在 #200 体系中的角色是 **「测量仪表盘」**——其他 6 张卡提供工具和方法，本卡提供判定当前在哪、要去哪的标尺：
+
+| 本卡的贡献 | 与其他卡的关系 |
+|:--|:--|
+| **L0→L3 四层标尺** | `concept-kdo-agent-design-principles` 5条原则是 L1→L2 跃迁的内容（原则推导），本卡是跃迁的判定（过渡信号） |
+| **5 个过渡信号** | `tool-agent-self-evolution-protocol` 复盘四问产出的规则数 → 信号 1；`tool-agent-context-derivation-audit` 覆盖率 → 信号 3 |
+| **L1→L2 实战三关卡** | `bridge-lightning-agent-evolution` 四阶映射的理论 → 本卡是理论的 Agent 行为落地 |
+
+跨卡模式：**#200 的所有卡片都在从不同角度回答同一个问题——KDO Agent 从「后知后觉」（L1）到「当知当觉」（L2）需要什么？** 5 条原则是「需要信什么」，四层觉察是「需要测什么」，复盘四问是「需要做什么」，失败模式是「需要避免什么」，推导链审计是「需要检查什么」。本卡将这些分散的答案统一到一条进化曲线上。

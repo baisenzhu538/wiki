@@ -37,9 +37,18 @@ from tools import search, onboard, read_card, capabilities
 # ── Server definition ────────────────────────────────────────────────
 mcp = FastMCP(
     "kdo",
-    instructions="KDO Knowledge Delivery OS — AI-powered business knowledge factory. "
-    "Use kdo_capabilities first, then kdo_onboard for new domains, "
-    "kdo_search for specific questions, and kdo_read for full card content.",
+    instructions=(
+        "KDO is a business knowledge factory with 244 frameworks, 106 skills, "
+        "10 workflows, and 8 agent specs covering sales, strategy, decision-making, "
+        "multimodal production, and more.\n\n"
+        "WORKFLOW for every new topic:\n"
+        "1. kdo_onboard — get the domain map (frameworks + tools + cases + reading order)\n"
+        "2. kdo_search — find specific cards for your question\n"
+        "3. kdo_read — get the full card content with sources and related links\n\n"
+        "CRITICAL: Always call kdo_onboard first for new domains. It prevents you from "
+        "mistaking a single tool card for the full framework — the most common error "
+        "new agents make when querying knowledge bases."
+    ),
 )
 
 
@@ -50,29 +59,24 @@ async def kdo_search(
     domain: str | None = None,
     limit: int = 10,
 ) -> dict:
-    """Search KDO knowledge base with RRF fusion (Graph RAG + BM25 + MOC priority).
+    """Search KDO like Google for business topics.
 
-    Use this when you need to find cards, frameworks, tools, or cases related to
-    a business topic. Always use this BEFORE kdo_read — search first, then read
-    the most relevant card for full details.
+    Type a business question and get the most relevant knowledge cards back.
+    Framework cards are always ranked first so you see the big picture before
+    diving into individual tools or cases.
 
-    The search engine combines vector similarity (for semantic understanding),
-    BM25 keywords (for exact matching), and MOC domain priority (to surface the
-    most important framework cards first).
+    Usage examples:
+    - "销售过程分成几个环节" → finds the Sales Process Decomposition framework
+    - "怎么给客户分层" → finds the Customer Segmentation tool
+    - "科学决策有什么框架" → finds the Scientific Decision framework
+
+    Each result includes the card ID, title, type (framework/tool/case/concept),
+    a content snippet, and the card's last-modified date so you can judge freshness.
 
     Args:
-        query: Natural language query in Chinese or English.
-               E.g. "销售过程分成几个环节", "customer segmentation framework"
-        domain: Optional domain filter. If provided, search is scoped to that
-                domain and MOC index cards get priority boost.
-                E.g. "销售管理", "多模态", "AI协作"
-        limit: Max results to return (1-20, default 10).
-
-    Returns:
-        Dictionary with:
-        - results: list of {id, title, type, snippet, score, path}
-        - engine: which search engine was used
-        - query: the original query
+        query: Your business question in Chinese or English
+        domain: Optional. Narrow search to one domain (e.g. "销售管理", "AI协作")
+        limit: Max results (1-20, default 10)
     """
     logger.info(f"kdo_search: query={query!r}, domain={domain!r}, limit={limit}")
     result = search(query=query, domain=domain, limit=limit)
@@ -82,27 +86,18 @@ async def kdo_search(
 # ── Tool: kdo_onboard ────────────────────────────────────────────────
 @mcp.tool()
 async def kdo_onboard(domain: str) -> dict:
-    """Fast-track onboarding to a KDO knowledge domain.
+    """Get a 3-minute overview of everything KDO knows about a topic.
 
-    Returns the domain's framework cards (the big picture), tool cards (how to
-    apply it), case studies (real examples), and a suggested reading order.
-    This is the FIRST tool to call when entering a new domain — it gives you
-    the MOC (Map of Content) before you dive into individual cards.
+    Returns the core frameworks (the big picture), key tools (how to apply),
+    real case studies, and a suggested reading order. Call this FIRST when
+    exploring any new domain — it prevents the most common mistake of
+    treating a single tool card as the full methodology.
 
-    Think of it as: "Give me the 3-minute overview of everything we know about X."
+    Available domains: 销售管理, 多模态, 发布, 内容生产, AI协作, 调研, 决策,
+    五步法, 需求分析, KDO
 
     Args:
-        domain: Domain name or description.
-                E.g. "销售管理", "多模态", "AI协作", "调研", "内容生产"
-
-    Returns:
-        Dictionary with:
-        - domain: matched domain name
-        - framework: list of framework cards
-        - tools: list of tool cards
-        - cases: list of case studies
-        - reading_order: suggested reading sequence
-        - available_domains: (if no match) list of all domains
+        domain: Domain name. E.g. "销售管理", "多模态", "AI协作"
     """
     logger.info(f"kdo_onboard: domain={domain!r}")
     result = onboard(domain=domain)
@@ -112,25 +107,16 @@ async def kdo_onboard(domain: str) -> dict:
 # ── Tool: kdo_read ───────────────────────────────────────────────────
 @mcp.tool()
 async def kdo_read(card_id: str) -> dict:
-    """Read the full content of a wiki card by its ID.
+    """Read a knowledge card in full — frontmatter metadata + complete body text.
 
-    Use this AFTER kdo_search or kdo_onboard — get the card ID from search
-    results, then call kdo_read to get the complete card content including
-    frontmatter metadata and body text.
+    Use this AFTER kdo_search or kdo_onboard to get the complete content of a
+    specific card. Returns the card's source references (so you can trace where
+    each claim came from), related cards (so you can explore connections), and
+    the full body text.
 
     Args:
-        card_id: Card identifier (filename without .md).
-                 E.g. "framework-yitang-scientific-sales-five-step",
-                 "tool-yitang-sales-process-decomposition"
-
-    Returns:
-        Dictionary with:
-        - id: card identifier
-        - title: card title
-        - type: card type (framework/tool/case/concept/dk)
-        - frontmatter: metadata (domain, status, confidence, related, etc.)
-        - body: full card body text (capped at 10k characters)
-        - path: relative path within the wiki
+        card_id: Card ID from search/onboard results.
+                 E.g. "framework-yitang-scientific-sales-five-step"
     """
     logger.info(f"kdo_read: card_id={card_id!r}")
     result = read_card(card_id=card_id)
@@ -140,17 +126,10 @@ async def kdo_read(card_id: str) -> dict:
 # ── Tool: kdo_capabilities ───────────────────────────────────────────
 @mcp.tool()
 async def kdo_capabilities() -> dict:
-    """List all KDO capabilities — frameworks, workflows, skills, and agent specs.
+    """See what KDO has — total counts of frameworks, skills, workflows, and agents.
 
-    Use this when you're new to KDO and want to know what's available, or when
-    you need to discover which agent-specs and skills exist.
-
-    Returns:
-        Dictionary with:
-        - frameworks: {count: N}
-        - workflows: {count: N, list: [{id, file, title}]}
-        - skills: {count: N}
-        - agent_specs: [{id, title}]
+    Call this once when first connecting to understand KDO's scale.
+    Then use kdo_onboard to dive into specific domains.
     """
     logger.info("kdo_capabilities called")
     result = capabilities()

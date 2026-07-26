@@ -74,12 +74,21 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
             card_id = p.stem
             card_type = _infer_type(path_str)
             title = _extract_title(snippet)
+            # Get freshness from file mtime
+            try:
+                mtime = p.stat().st_mtime
+                from datetime import datetime
+                updated_at = datetime.fromtimestamp(mtime).strftime("%Y-%m-%d")
+            except Exception:
+                updated_at = "unknown"
+
             results.append({
                 "id": card_id,
                 "title": title,
                 "type": card_type,
                 "snippet": snippet[:300],
                 "score": round(score, 3),
+                "updated_at": updated_at,
                 "path": str(p.relative_to(root)) if str(p).startswith(str(root)) else path_str,
             })
 

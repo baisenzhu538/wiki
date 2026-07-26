@@ -2,7 +2,7 @@
 id: tool-agent-context-derivation-audit
 title: Agent context推导链审计：从经验堆叠到原则推导
 type: tool
-status: draft
+status: reviewed
 author: laowantong
 confidence: 0.80
 trust_level: medium
@@ -25,7 +25,7 @@ related:
   - framework-ouyangfeng-review-methodology
 created_at: 2026-07-26
 updated_at: 2026-07-26
-reviewed_by: pending
+reviewed_by: 欧阳锋
 diagnostic_signals:
   - Agent context 从经验堆叠到推导链的转换率为 0%
   - 5 条设计原则与现有 context 之间无显式推导关系
@@ -172,3 +172,15 @@ KDO 每个 Agent 的 context 文件（`.agent/<角色>-context.md`）当前是�
 | `tool-agent-self-evolution-protocol` 第三问 | 本卡=第三问（「能不能从已有原则推导」）的批量版——从逐条手动变成全量审计 |
 | `concept-kdo-agent-design-principles` 5 条 | 本卡=5 条原则的「验收工具」——原则好不好，看推导链覆盖率 |
 | `concept-kdo-agent-four-level-awareness` L2 | L2 判据之一：推导链覆盖率 ≥ 80%（A 类占比） |
+
+## Synthesis
+
+推导链审计在 #200 体系中的角色是 **「质量闭环的校准器」**——`tool-agent-self-evolution-protocol` 产出规则，本卡验证规则是否真正源于原则而非经验堆积。
+
+| 本卡的贡献 | 与其他卡的关系 |
+|:--|:--|
+| **A/B/C/D 四类分类** | D 类（可疑删除）= `dk-agent-evolution-pitfalls` 失败模式 1（补丁堆叠）的诊断输出；B 类（合理不可追溯）= 原则修订的信号 → 反馈到 `concept-kdo-agent-design-principles` |
+| **推导链覆盖率** | = `concept-kdo-agent-four-level-awareness` L1→L2 过渡信号 3 的量化指标 |
+| **Deming PDCA 攻击** | Act 环节缺失的警告——审计后不做原则修订 = 审计是浪费 → `bridge-lightning-agent-evolution` 四阶·建模重构承接 Act |
+
+跨卡洞察：推导链审计本质上是 **「原则→规则」的翻译质量检查**。如果 5 条原则是正确的但 context 规则无法追溯 → 翻译过程有问题（经验漂移了原则）。如果 context 规则很合理但 5 条原则无法覆盖 → 原则本身有缺口。两条路径对应不同的修复方向，审计的四类分类就是为了区分这两种情况。

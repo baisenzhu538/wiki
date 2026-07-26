@@ -2,7 +2,7 @@
 id: concept-kdo-agent-design-principles
 title: Agent设计原则：从双三角推导的5条底层原则
 type: concept
-status: draft
+status: reviewed
 author: laowantong
 confidence: 0.85
 trust_level: high
@@ -26,7 +26,7 @@ related:
   - yt-decision-y-model
 created_at: 2026-07-26
 updated_at: 2026-07-26
-reviewed_by: pending
+reviewed_by: 欧阳锋
 diagnostic_signals:
   - 欧阳锋审查退回率趋势上升
   - Agent context 为经验堆叠而非推导产物
@@ -187,3 +187,15 @@ TCPR（T/C/P/R 四角色）
   ├── 原则③：先目标后路径（先定性再定量）
   └── 原则⑤：踩坑必建模（第四阶·建模重构）
 ```
+
+## Synthesis
+
+本卡与 #200 其他 6 张卡构成 KDO Agent 自我进化体系的完整骨架：
+
+| 本卡的贡献 | 与其他卡的关系 |
+|:--|:--|
+| **5 条原则 = 所有 Agent 行为的「宪法」** | `tool-agent-context-derivation-audit` 用原则审计 context → `tool-agent-self-evolution-protocol` 第三问追溯原则 → `dk-agent-evolution-pitfalls` 失败模式 1/5 的解法 |
+| **推导链 = 从经验到原则的桥梁** | `concept-kdo-agent-four-level-awareness` 的 L1→L2 跃迁需要推导链覆盖率 ≥80% → `bridge-lightning-agent-evolution` 的二阶映射验证推导链 |
+| **原则⑤「踩坑必建模」= Agent 进化的发动机** | `case-agent-self-evolution-pilot` 的 Before-After 对比中，P-29→P-30 未被压缩就是违反原则⑤ |
+
+KDO 的知识压缩链：**41 条 pitfalls → 10 条 core rules → 5 条设计原则 → 1 个 Agent OS**。本卡是压缩链的倒数第二步——把离散的经验教训压缩为可推导的底层原则。下一步是把 5 条原则编译为每个 Agent 启动时自动加载的行为约束（Agent OS 层），由 `bridge-lightning-agent-evolution` 的四阶·建模重构承接。

@@ -2,7 +2,7 @@
 id: bridge-lightning-agent-evolution
 title: 闪电模型×Agent进化：同一个四阶在两个域的映射
 type: bridge
-status: draft
+status: reviewed
 author: laowantong
 confidence: 0.85
 trust_level: high
@@ -24,7 +24,7 @@ related:
   - concept-一堂-Agent基本功修炼
 created_at: 2026-07-26
 updated_at: 2026-07-26
-reviewed_by: pending
+reviewed_by: 欧阳锋
 diagnostic_signals:
   - KDO Agent 当前在闪电模型四阶中只实现了「底层自洽」的半边
   - 大胆设想/假设试错/建模重构三阶在 Agent 层完全缺失
@@ -144,3 +144,18 @@ Truman 的**闪电模型**（大胆设想→底层自洽→假设试错→建模
 | Agent 首次主动 reject spec | 标记为「一阶·大胆设想」首个 Agent 案例 | 写入 case-agent-self-evolution-pilot |
 | 第一条从 5 条原则推导出的 context 规则 | 标记为「二阶·底层自洽」首个案例 | context 中标注推导链 |
 | 首个 3-5 任务验证通过的新规则 | 标记为「三阶·假设试错」首个案例 | 规则从「试点」升级为「全 Agent 部署」 |
+
+## Synthesis
+
+本卡的核心跨卡洞察：**闪电模型是 KDO 方法论体系的第四个四步法——Agent 进化不是另起炉灶，而是四步法在 Agent 域的第四次实例化。** 
+
+| 域 | 四步法 | 共同底层模式 |
+|:--|:--|:--|
+| 基本功修炼 | 拆→建→推→练 | 打开→收敛→验证→沉淀 |
+| 案例打磨 (#196) | 复盘→选魂儿→挖专业→磨表达 | 同上 |
+| AI 产品开发 (#197) | 拆→建→推→练 | 同上 |
+| Agent 进化 (#200) | 大胆设想→底层自洽→假设试错→建模重构 | 同上 |
+
+这个跨域同构意味着：**KDO 的每个 Agent 进化步骤都已有一个成熟的操作模板。** 复盘四问（`tool-agent-self-evolution-protocol`）= 拆；推导链审计（`tool-agent-context-derivation-audit`）= 建；3-5 任务验证 = 推；组件库沉淀 = 练。Agent 进化不需要发明新流程——只需要把已有的四步法模板应用到 Agent 自身。
+
+本卡也是 `concept-kdo-agent-design-principles` 原则⑤「踩坑必建模」的跨域证据——同一个底层规律（打开→收敛→验证→沉淀）在四个域反复出现，这不是巧合，是一堂方法论的基因。

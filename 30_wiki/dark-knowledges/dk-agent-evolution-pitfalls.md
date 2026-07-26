@@ -2,7 +2,7 @@
 id: dk-agent-evolution-pitfalls
 title: Agent进化常见失败模式
 type: dk
-status: draft
+status: reviewed
 author: laowantong
 confidence: 0.80
 trust_level: medium
@@ -22,7 +22,7 @@ related:
   - framework-kdo-modeling-methodology
 created_at: 2026-07-26
 updated_at: 2026-07-26
-reviewed_by: pending
+reviewed_by: 欧阳锋
 diagnostic_signals:
   - Agent context 行数持续增长但不追溯原则
   - 同类型 pitfalls 在 30 天内复现
@@ -203,3 +203,15 @@ quality_labels: cited
 ## 为什么值钱
 
 这六条是 **Agent 进化之路上的六大陷阱**。对照检查 → 你就能判断 Agent 的进化是「真进化」（从后知后觉到当知当觉）还是「假进化」（从 41 条 pitfalls 变成 82 条 pitfalls）。
+
+## Synthesis
+
+六大失败模式可以压缩为一条元模式：**「不压缩，只堆积」**。这是 KDO 从 41 条 pitfalls 中提取的最深层的教训——Agent 进化失败不是因为不够努力，而是因为进化的方向错了：只做加法（加规则、加 context、加复盘）不做减法（压缩为原则、合并同根因、删除冗余）。
+
+| 本卡的贡献 | 与其他卡的关系 |
+|:--|:--|
+| **元失败模式「不压缩只堆积」** | = `concept-kdo-agent-design-principles` 原则⑤的反面——踩坑但不建模 |
+| **6 条模式的具体信号+修复** | 是 `tool-agent-self-evolution-protocol` 复盘四问的对照表——每条复盘规则都应收敛到这 6 条之一 |
+| **Boyd OODA 攻击** | 暴露了 #200 体系的内在张力：质量控制（需要验证 3-5 任务）vs 速度（OODA 循环要快）——这是 `tool-agent-self-evolution-protocol` 风险分级要解决的 |
+
+跨卡模式：如果把 `concept-kdo-agent-design-principles` 比作 Agent 的「宪法」，本卡就是「违宪审查标准」——对照这 6 条，就能判断一条新规则是「真进化」（从原则推导、格式统一、验证充分）还是「假进化」（经验堆积、格式杂乱、单点验证）。

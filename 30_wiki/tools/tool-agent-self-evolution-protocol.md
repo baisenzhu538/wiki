@@ -2,7 +2,7 @@
 id: tool-agent-self-evolution-protocol
 title: Agent自我进化协议：每次复盘四问
 type: tool
-status: draft
+status: reviewed
 author: laowantong
 confidence: 0.80
 trust_level: medium
@@ -22,7 +22,7 @@ related:
   - framework-yitang-thought-liberation-lightning
 created_at: 2026-07-26
 updated_at: 2026-07-26
-reviewed_by: pending
+reviewed_by: 欧阳锋
 diagnostic_signals:
   - Agent 完成复杂任务后无复盘动作
   - 同类型 pitfall 在 30 天内复现
@@ -211,3 +211,14 @@ _（对每个满足触发条件的任务单独填写）_
 | `rules-core.md` | 从 pitfalls 压缩为底线→core rules | 多条同根因 pitfalls → 压缩为 1 条 core rule |
 | `tool-agent-context-derivation-audit` | 四问第三问的自动化版本 | 审计工具批量检查 context 规则的推导链 |
 | `framework-kdo-modeling-methodology` Step 4 | 四问=Step 4「解压展开」的 Agent 操作化 | 把方法论 Step 4 变成 Agent 可执行的 checklist |
+
+## Synthesis
+
+复盘四问是 #200 体系的 **「运转引擎」**——其他 6 张卡提供原则、标尺、桥梁、失败模式、审计工具和案例，而本卡是 Agent 每天实际执行的动作。
+
+| 本卡的贡献 | 与其他卡的关系 |
+|:--|:--|
+| **四问闭环** | 一问→`dk-agent-evolution-pitfalls`（对照失败模式）、二问→`concept-kdo-agent-design-principles`（对照原则归属）、三问→`tool-agent-context-derivation-audit`（自动化版）、四问→`bridge-lightning-agent-evolution` 三阶·假设试错 |
+| **风险分级** | `concept-kdo-agent-four-level-awareness` 过渡信号 1 依赖本卡产出规则的质量和数量 |
+
+关键跨卡洞察：**复盘四问的设计故意制造「原则摩擦力」**——第三问强制 Agent 从 5 条原则推导而非从经验记忆检索。如果 Agent 每次复盘都只能说「不能推导」但又无人推动原则修订——Agent 就被困在 L1（`dk-agent-evolution-pitfalls` 失败模式 5）。复盘四问因此同时是 Agent 进化的操作工具和 Agent 成熟度的诊断探头。
