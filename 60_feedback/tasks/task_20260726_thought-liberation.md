@@ -7,8 +7,8 @@ domain: innovation
 source: 00_inbox/解放思想探索营/
 expected_cards: 25
 assignee: hermes
-status: in_progress
-updated_at: '2026-07-26T10:05:33.375178+00:00'
+status: pending_review
+updated_at: '2026-07-26T10:14:21.580868+00:00'
 ---
 
 # 解放思想探索营 · 生产任务清单
@@ -193,3 +193,42 @@ updated_at: '2026-07-26T10:05:33.375178+00:00'
 ## 阻塞项
 
 无。所有素材已就位（口述+笔记+OCR+洪七公建议书），老顽童可直接开工。
+
+---
+
+## 三审修复报告（2026-07-26 · 老顽童 Hermes）
+
+### 🔴 A：13 张卡补 `reviewed_by` 字段
+
+全部在 `created_at` 前插入 `reviewed_by: ""`：
+
+```
+✅ framework-yitang-thought-liberation-lightning
+✅ concept-yitang-layered-self-consistency
+✅ bridge-yitang-seek-truth-liberate-thought
+✅ tool-yitang-dual-guardrail-system
+✅ tool-yitang-ten-layer-interpretation
+✅ tool-yitang-dialectical-modeling
+✅ tool-yitang-quantity-bold-matrix
+✅ dk-yitang-innovation-failure-modes
+✅ case-yitang-4-leaps-innovation-evolution
+✅ case-wenxiaobao-campus-bilateral-network
+✅ case-aodaye-archery-reinvention
+✅ case-wudi-innovation-contest-value
+✅ innovation-domain-digest
+```
+
+### 🔴 B：3 张卡 YAML 内嵌引号修复
+
+根因：L22 的 `signal` 值有开头 `"` 但缺少闭合 `"`，导致 YAML 解析失败。
+
+| 文件 | 修复 |
+|:--|:--|
+| `tool-mot-research-method.md` L22 | `"用户说「还行」但流失` → `"用户说「还行」但流失"` |
+| `tool-value-teaching-three-stage.md` L22 | `"学生说「学到了」但没变化` → `"学生说「学到了」但没变化"` |
+| `tool-trr-maturity-scale.md` L22 | `"自评「做好了」但别人不认` → `"自评「做好了」但别人不认"` |
+
+### 验证
+
+- 全 16 张卡 `reviewed_by` 存在 ✅
+- YAML 双引号闭合 ✅
