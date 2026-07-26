@@ -21,6 +21,8 @@ quality_labels:
 - validated
 tags:
   - method:adversarial-testing
+  - method:red-team
+  - method:pre-mortem
   - scene:pre-ship-review
   - audience:knowledge-engineer
   - content-format:framework

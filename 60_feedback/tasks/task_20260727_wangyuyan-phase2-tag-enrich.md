@@ -46,20 +46,20 @@ updated_at: '2026-07-26T17:32:58.913652+00:00'
 - 王语嫣新任务单加"建议标签"列（已在#206规范中）
 - 4周自然覆盖，达标(>80%)后激活Phase 3 lint门禁
 
-## 执行记录（2026-07-27 Batch 1）
+## 执行记录（2026-07-27 Batch 1 · 精标修订版）
 
-| # | 卡片 | pre-submit |
-|:--|:--|:--:|
-| 1 | tool-private-board-facilitation-sop | PASS |
-| 2 | case-wangfei-newyear-event-diagnosis | PASS |
-| 3 | dk-sponsor-three-tier-pricing | PASS |
-| 4 | framework-kdo-modeling-methodology | tags added |
-| 5 | framework-yitang-shishi-qiushi | tags added |
-| 6 | framework-yitang-thought-liberation-lightning | tags added |
-| 7 | framework-kdo-self-attack | tags added |
-| 8 | framework-ai-accelerated-strategy-cycle | tags added |
+| # | 卡片 | 标签（逗号分隔） |
+|:--|:--|:--|
+| 1 | tool-private-board-facilitation-sop | peer-advisory, meeting-facilitation, structured-meeting, run-meeting, meeting-host, checklist, 徐里 |
+| 2 | case-wangfei-newyear-event-diagnosis | five-step-diagnosis, business-review, business-owner, case-study, 王非 |
+| 3 | dk-sponsor-three-tier-pricing | sponsorship-pricing, event-monetization, pricing-strategy, monetize-event, business-owner, playbook, 罗意 |
+| 4 | framework-kdo-modeling-methodology | kdo-modeling, knowledge-engineering, component-extraction, build-knowledge-system, knowledge-engineer, framework, 黄药师 |
+| 5 | framework-yitang-shishi-qiushi | evidence-based-decision, reality-check, assumption-validation, decision-check, decision-maker, framework, Truman |
+| 6 | framework-yitang-thought-liberation-lightning | structured-innovation, four-step-method, hypothesis-driven, generate-ideas, decision-maker, framework, Truman |
+| 7 | framework-kdo-self-attack | adversarial-testing, red-team, pre-mortem, pre-ship-review, knowledge-engineer, framework, 王语嫣 |
+| 8 | framework-ai-accelerated-strategy-cycle | ai-strategy, acceleration, strategic-analysis, plan-cycle, decision-maker, framework, Truman |
 
-**8/8 5维标齐**（method/scene/audience/content-format/source-person）。前3张 pre-submit PASS，后5张只加tags不碰正文。
+**原则：method 从「学术分类」改为「用户会怎么搜」。** 例如 `epistemology→evidence-based-decision+reality-check+assumption-validation`。Agent 搜「怎么判断对不对」命中 reality-check，不会搜 epistemology。
 
 | | #207 P3长程 | #211 Phase 2精标 |
 |:--|:--|:--|

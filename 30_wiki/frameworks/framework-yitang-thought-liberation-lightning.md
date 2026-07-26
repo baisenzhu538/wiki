@@ -26,7 +26,9 @@ discoverable_by:
 - 怎么做跟同行不一样的事
 - 创新成功率低
 tags:
-  - method:creative-ideation
+  - method:structured-innovation
+  - method:four-step-method
+  - method:hypothesis-driven
   - scene:generate-ideas
   - audience:decision-maker
   - content-format:framework

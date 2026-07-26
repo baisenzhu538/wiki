@@ -18,7 +18,9 @@ source_refs:
 - 00_inbox/实事求是/_processed/vlm_summary.json
 - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
 tags:
-  - method:truth-seeking
+  - method:evidence-based-decision
+  - method:reality-check
+  - method:assumption-validation
   - scene:decision-check
   - audience:decision-maker
   - content-format:framework

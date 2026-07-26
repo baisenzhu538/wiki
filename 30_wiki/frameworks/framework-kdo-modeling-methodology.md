@@ -17,6 +17,8 @@ source_refs:
 - 90_control/rules-core.md
 tags:
   - method:kdo-modeling
+  - method:knowledge-engineering
+  - method:component-extraction
   - scene:build-knowledge-system
   - audience:knowledge-engineer
   - content-format:framework

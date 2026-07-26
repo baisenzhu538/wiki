@@ -21,7 +21,9 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 tags:
-  - method:strategy-acceleration
+  - method:ai-strategy
+  - method:acceleration
+  - method:strategic-analysis
   - scene:plan-cycle
   - audience:decision-maker
   - content-format:framework
