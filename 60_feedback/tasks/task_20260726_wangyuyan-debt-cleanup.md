@@ -54,12 +54,11 @@ priority: P3
 |:--|:--|:--|
 | 9 | 存量卡缺定位声明 | 该卡返工时顺手补（格式：`> 定位：属于 [[framework-xxx]] 的 Y 步。`）。framework/digest/hub豁免 |
 
-### 私董会+科学开会（来源：00_inbox/私董会/）
+### Agent运行时配置审计（来源：2026-07-26 洪七公vision故障）
 
-| # | 卡 | 动作 |
+| # | 范围 | 动作 |
 |:--|:--|:--|
-| 11 | `case-zhu-private-board-diagnosis`（新建） | 老朱私董会诊断实例：如何用"底层逻辑"追问穿透模糊目标。链接五步法画布+科学决策+单元模型 |
-| 12 | `tool-private-board-facilitation-sop`（新建） | 私董会主持SOP：热场→案主陈述→幕僚提问→共创→收敛→案主总结。参照#201案例打磨四步法骨架 |
+| 13 | 所有Agent config中硬编码的URL/路径/域名 | 黄药师扫描对照当前实际可用端点，输出差异清单。同一故障模式第四次复现——kdo query不索引aliases、queue_transition被手工绕过、Hermes硬编码.io域名——都是配置层和运行层不同步 |
 
 ### 历史残留清理（来源：#201 Wave 0.3）
 
