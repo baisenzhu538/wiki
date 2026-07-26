@@ -14,6 +14,18 @@ created_at: "2026-07-26"
 updated_at: "2026-07-26"
 quality_labels:
   - actionable
+discoverable_by:
+  - MVP测试
+  - 模型重建
+  - 迭代策略
+diagnostic_signals:
+  - signal: "一版改太多"
+    lens: 只改一个变量
+    follow_up: 只改一个变量
+  - signal: "旧模型不work但不知道怎么改"
+    lens: 先粉碎再重建
+    follow_up: 先粉碎再重建
+
 source_refs:
   - "00_inbox/解放思想探索营/案例分享-口述.txt"
   - "00_inbox/解放思想探索营/案例分享-笔记.txt"

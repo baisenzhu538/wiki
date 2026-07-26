@@ -14,6 +14,18 @@ created_at: "2026-07-26"
 updated_at: "2026-07-26"
 quality_labels:
   - actionable
+discoverable_by:
+  - 日复盘
+  - 经验沉淀
+  - 团队学习
+diagnostic_signals:
+  - signal: "复盘变成流水账"
+    lens: 检查四行是否完整
+    follow_up: 检查四行是否完整
+  - signal: "只写事实不写判断"
+    lens: 补上"判断变化"行
+    follow_up: 补上"判断变化"行
+
 source_refs:
   - "00_inbox/解放思想探索营/案例分享-口述.txt"
   - "00_inbox/解放思想探索营/案例分享-笔记.txt"

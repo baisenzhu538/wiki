@@ -14,6 +14,18 @@ created_at: "2026-07-26"
 updated_at: "2026-07-26"
 quality_labels:
   - actionable
+discoverable_by:
+  - 质量管控
+  - 反欺诈
+  - 客服质检
+diagnostic_signals:
+  - signal: "客服数据造假"
+    lens: AI检测异常模式
+    follow_up: AI检测异常模式
+  - signal: "人工抽检太慢"
+    lens: AI全量筛查
+    follow_up: AI全量筛查
+
 source_refs:
   - "00_inbox/解放思想探索营/案例分享-口述.txt"
   - "00_inbox/解放思想探索营/案例分享-笔记.txt"

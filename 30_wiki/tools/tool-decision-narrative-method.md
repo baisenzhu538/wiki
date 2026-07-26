@@ -14,6 +14,19 @@ created_at: "2026-07-26"
 updated_at: "2026-07-26"
 quality_labels:
   - actionable
+discoverable_by:
+  - 演讲技巧
+  - 答辩叙事
+  - 投资路演
+  - 信任建立
+diagnostic_signals:
+  - signal: "讲了半天评委没记住"
+    lens: 加入磨难
+    follow_up: 加入磨难
+  - signal: "听起来像背稿"
+    lens: 用真实故事替代话术
+    follow_up: 用真实故事替代话术
+
 source_refs:
   - "00_inbox/解放思想探索营/案例分享-口述.txt"
   - "00_inbox/解放思想探索营/案例分享-笔记.txt"

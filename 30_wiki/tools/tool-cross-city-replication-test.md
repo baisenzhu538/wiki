@@ -14,6 +14,18 @@ created_at: "2026-07-26"
 updated_at: "2026-07-26"
 quality_labels:
   - actionable
+discoverable_by:
+  - 连锁标准化
+  - 扩张验证
+  - 跨区域复制
+diagnostic_signals:
+  - signal: "一个城市跑通就扩张"
+    lens: 先跨一个城市验证
+    follow_up: 先跨一个城市验证
+  - signal: "复制失败"
+    lens: 检查是模式问题还是执行问题
+    follow_up: 检查是模式问题还是执行问题
+
 source_refs:
   - "00_inbox/解放思想探索营/案例分享-口述.txt"
   - "00_inbox/解放思想探索营/案例分享-笔记.txt"
