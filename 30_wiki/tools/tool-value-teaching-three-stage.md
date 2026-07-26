@@ -19,7 +19,7 @@ discoverable_by:
   - 价值观培养
   - 教学框架
 diagnostic_signals:
-  - signal: "学生说「学到了」但没变化
+  - signal: "学生说「学到了」但没变化"
     lens: 检查是否走到价值转化阶段
     follow_up: 检查是否走到价值转化阶段
   - signal: "教学只讲道理"

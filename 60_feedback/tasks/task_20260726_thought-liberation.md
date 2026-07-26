@@ -7,8 +7,8 @@ domain: innovation
 source: 00_inbox/解放思想探索营/
 expected_cards: 25
 assignee: hermes
-status: queued
-updated_at: '2026-07-26T07:51:33.096857+00:00'
+status: in_progress
+updated_at: '2026-07-26T10:05:33.375178+00:00'
 ---
 
 # 解放思想探索营 · 生产任务清单
