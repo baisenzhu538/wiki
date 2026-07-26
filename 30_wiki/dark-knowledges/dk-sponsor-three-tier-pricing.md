@@ -13,9 +13,11 @@ source_refs:
   - 00_inbox/私董会/第6期 55班 王非私董会 v2.0 【高强版】.md
   - 00_inbox/私董会/_processed/第6期私董会总结.md
 tags:
-  - audience:entrepreneur
-  - scene:pricing
   - method:value-based-pricing
+  - scene:pricing
+  - audience:entrepreneur
+  - content-format:framework
+  - source-person:罗意
 related:
   - case-wangfei-newyear-event-diagnosis
   - tool-private-board-facilitation-sop

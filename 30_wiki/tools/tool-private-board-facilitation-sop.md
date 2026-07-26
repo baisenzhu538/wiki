@@ -13,9 +13,11 @@ source_refs:
   - 00_inbox/私董会/第6期 55班 王非私董会 v2.0 【高强版】.md
   - 00_inbox/私董会/_processed/第6期私董会总结.md
 tags:
-  - audience:facilitator
-  - scene:meeting
   - method:structured-facilitation
+  - scene:meeting
+  - audience:facilitator
+  - content-format:checklist
+  - source-person:徐里
 related:
   - framework-yitang-shishi-qiushi
   - framework-kdo-modeling-methodology

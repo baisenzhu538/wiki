@@ -2,11 +2,13 @@
 id: task_20260727_wangyuyan-phase2-tag-enrich
 task_id: 211
 assignee: laowantong
-status: queued
+status: in_progress
 created_at: 2026-07-27
 domain: system
 priority: P1
-source: 60_feedback/diagnosis/diag_20260726_huangyaoshi-tag-system-phase2-3.md (黄药师Phase 2建议书)
+source: 60_feedback/diagnosis/diag_20260726_huangyaoshi-tag-system-phase2-3.md (黄药师Phase
+  2建议书)
+updated_at: '2026-07-26T17:27:46.709106+00:00'
 ---
 
 # Phase 2：高价值卡人工精标

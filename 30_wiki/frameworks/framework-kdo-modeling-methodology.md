@@ -15,6 +15,12 @@ source_refs:
 - .agent/pitfalls.md
 - .agent/startup.md
 - 90_control/rules-core.md
+tags:
+  - method:modeling
+  - scene:reference
+  - audience:builder
+  - content-format:framework
+  - source-person:黄药师
 related:
 - framework-kdo-self-attack
 - concept-kdo-component-library

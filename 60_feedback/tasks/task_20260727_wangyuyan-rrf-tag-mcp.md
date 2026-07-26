@@ -2,7 +2,9 @@
 id: task_20260727_wangyuyan-rrf-tag-mcp
 task_id: 212
 assignee: huangyaoshi
-status: pending_review
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-07-27
 created_at: 2026-07-27
 domain: system
 priority: P0

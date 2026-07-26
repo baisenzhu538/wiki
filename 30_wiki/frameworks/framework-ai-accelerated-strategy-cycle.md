@@ -20,6 +20,12 @@ source_refs:
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
+tags:
+  - method:strategy
+  - scene:diagnose
+  - audience:ceo
+  - content-format:framework
+  - source-person:Truman
 related:
 - '[[framework-multi-agent-research-architecture]]'
 - '[[framework-wanghuan-harness-seven-stages]]'

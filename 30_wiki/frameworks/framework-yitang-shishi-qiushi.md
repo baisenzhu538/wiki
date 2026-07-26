@@ -17,6 +17,12 @@ source_refs:
 - 00_inbox/实事求是/_processed/实事求是_整合笔记.md
 - 00_inbox/实事求是/_processed/vlm_summary.json
 - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
+tags:
+  - method:epistemology
+  - scene:diagnose
+  - audience:ceo
+  - content-format:framework
+  - source-person:Truman
 related:
 - yt-decision-y-model
 - tool-yitang-Y-model-application

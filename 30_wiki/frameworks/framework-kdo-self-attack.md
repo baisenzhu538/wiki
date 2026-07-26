@@ -19,7 +19,13 @@ quality_labels:
 - principle
 - quality
 - validated
-updated_at: '2026-07-03'
+tags:
+- method:quality-assurance
+- scene:reference
+- audience:builder
+- content-format:framework
+- source-person:王语嫣
+updated_at:
 source_refs:
 - 40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md
 - 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md
