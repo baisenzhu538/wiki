@@ -2,7 +2,9 @@
 id: task_20260727_wangyuyan-phase2-tag-enrich
 task_id: 211
 assignee: laowantong
-status: pending_review
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-07-27
 created_at: 2026-07-27
 domain: system
 priority: P1
