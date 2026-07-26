@@ -2,13 +2,13 @@
 id: task_20260727_wangyuyan-phase2-tag-enrich
 task_id: 211
 assignee: laowantong
-status: in_progress
+status: pending_review
 created_at: 2026-07-27
 domain: system
 priority: P1
 source: 60_feedback/diagnosis/diag_20260726_huangyaoshi-tag-system-phase2-3.md (黄药师Phase
   2建议书)
-updated_at: '2026-07-26T17:27:46.709106+00:00'
+updated_at: '2026-07-26T17:32:58.913652+00:00'
 ---
 
 # Phase 2：高价值卡人工精标
@@ -46,7 +46,20 @@ updated_at: '2026-07-26T17:27:46.709106+00:00'
 - 王语嫣新任务单加"建议标签"列（已在#206规范中）
 - 4周自然覆盖，达标(>80%)后激活Phase 3 lint门禁
 
-## 与#207的分工
+## 执行记录（2026-07-27 Batch 1）
+
+| # | 卡片 | pre-submit |
+|:--|:--|:--:|
+| 1 | tool-private-board-facilitation-sop | PASS |
+| 2 | case-wangfei-newyear-event-diagnosis | PASS |
+| 3 | dk-sponsor-three-tier-pricing | PASS |
+| 4 | framework-kdo-modeling-methodology | tags added |
+| 5 | framework-yitang-shishi-qiushi | tags added |
+| 6 | framework-yitang-thought-liberation-lightning | tags added |
+| 7 | framework-kdo-self-attack | tags added |
+| 8 | framework-ai-accelerated-strategy-cycle | tags added |
+
+**8/8 5维标齐**（method/scene/audience/content-format/source-person）。前3张 pre-submit PASS，后5张只加tags不碰正文。
 
 | | #207 P3长程 | #211 Phase 2精标 |
 |:--|:--|:--|

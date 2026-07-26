@@ -491,5 +491,5 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 | 208 | task_20260726_wangyuyan-kdo-query-alias-fix | kdo query别名索引修复：aliases字段未被检索索引覆盖。卡片已标但query返回0命中。P0 | reviewed | huangyaoshi | 1项infra修复 | #203同类管道断裂 | 60_feedback/tasks/task_20260726_wangyuyan-kdo-query-alias-fix.md | 短期workaround：用title关键词搜|
 | 209 | task_20260726_wangyuyan-aliases-source-lint | 牌L9：aliases源材料名检查——source_refs引用的材料名必须在aliases中。kdo pre-submit新增_check_aliases_has_source_name()。与#199同级WARNING | reviewed | huangyaoshi | 1项lint规则 | 无 | 60_feedback/tasks/task_20260726_wangyuyan-aliases-source-lint.md |
 | 210 | `task_20260726_wangyuyan-private-board` | 私董会卡片化：3张 | reviewed | laowantong | 3张 | 无 | `60_feedback/tasks/task_20260726_wangyuyan-private-board.md` | 欧阳锋终审B+ |
-| 211 | `task_20260727_wangyuyan-phase2-tag-enrich` | Phase 2高价值卡人工精标：前50张framework/digest/agent-spec卡 | claimed-laowantong | laowantong | 前50张 | 无 | `60_feedback/tasks/task_20260727_wangyuyan-phase2-tag-enrich.md` | |
+| 211 | `task_20260727_wangyuyan-phase2-tag-enrich` | Phase 2高价值卡人工精标：前50张framework/digest/agent-spec卡 | pending_review | laowantong | 前50张 | 无 | `60_feedback/tasks/task_20260727_wangyuyan-phase2-tag-enrich.md` | |
 | 212 | task_20260727_wangyuyan-rrf-tag-mcp | RRF tag维度匹配+MCP标签暴露 | reviewed | huangyaoshi | 2项infra | 无 | 60_feedback/tasks/task_20260727_wangyuyan-rrf-tag-mcp.md | 欧阳锋终审PASS |
