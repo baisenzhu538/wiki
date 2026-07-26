@@ -37,6 +37,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 产品内核实操课
+- 产品内核验证课
 ---
 
 # 获客渠道：流量获取的6大类型

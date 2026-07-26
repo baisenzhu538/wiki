@@ -32,6 +32,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 元能力-刻意练习
+- 刻意练习行动营
 ---
 
 # 案例：德州扑克玩家乔牌如何通过参数化训练成为大使

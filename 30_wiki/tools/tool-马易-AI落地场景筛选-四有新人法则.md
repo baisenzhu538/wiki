@@ -27,6 +27,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 天花板
 ---
 # 技能：AI落地场景筛选-四有新人法则
 

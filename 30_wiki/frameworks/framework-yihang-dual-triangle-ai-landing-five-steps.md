@@ -36,6 +36,8 @@ related:
 aliases:
 - 双三角AI落地五部曲
 - AI落地五部曲
+- 一堂双三角
+- 人机协作双三角
 tags:
 - audience:ceo
 - scene:diagnosis

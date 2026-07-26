@@ -27,6 +27,8 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # OGSM 目标管理工具：Objective-Goals-Strategies-Measures

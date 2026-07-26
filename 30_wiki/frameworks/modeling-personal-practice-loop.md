@@ -33,6 +33,8 @@ source_context: 单一来源为一堂建模能力培训课程口述稿，内容�
 diagnostic_signals:
 - src_unknown
 - src_unknown
+aliases:
+- 建模能力培训
 ---
 
 # 建模能力个人修炼闭环：刻意练习 × IPO × PDCA

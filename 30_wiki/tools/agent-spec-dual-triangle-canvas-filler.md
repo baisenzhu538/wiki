@@ -38,6 +38,8 @@ aliases:
 - 画布填充 Agent
 - 双三角挖掘师
 - 对话教练版 Agent
+- administrator
+- desktop
 tcp_role: C
 tcp_default_mode: 咨询诊断（Consult）：通过对话引导帮用户把 AI 协作任务拆解成六要素画布
 tcp_switch_trigger: 用户明确要求切换模式；或任务类型变化；或当前身份所需输入缺失

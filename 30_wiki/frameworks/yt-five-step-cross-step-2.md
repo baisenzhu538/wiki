@@ -35,6 +35,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 产品内核实操课
+- 产品内核验证课
 ---
 
 # 跨步二：从1到10的规模化

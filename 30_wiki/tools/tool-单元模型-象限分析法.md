@@ -28,6 +28,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 单元模型
+- 象限分析法
 ---
 
 # 单元模型：象限分析法

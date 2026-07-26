@@ -36,6 +36,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 产品内核实操课
+- 产品内核验证课
 ---
 
 # 进攻策略：突破竞品壁垒

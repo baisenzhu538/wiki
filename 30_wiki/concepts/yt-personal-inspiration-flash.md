@@ -26,6 +26,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 灵感闪现
+- 落地卡片
 ---
 # 灵感闪现（认知篇）
 

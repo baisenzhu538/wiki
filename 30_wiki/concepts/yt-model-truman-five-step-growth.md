@@ -22,6 +22,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 的个人成长五步法
 ---
 # Truman的个人成长五步法：用一页纸解释全部人生规划
 

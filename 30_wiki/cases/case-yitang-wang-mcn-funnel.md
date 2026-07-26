@@ -38,6 +38,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 # 王同学 MCN：签素人六环漏斗 + 团队假设表，从一个人盯签约到四期行动营量率双升
 

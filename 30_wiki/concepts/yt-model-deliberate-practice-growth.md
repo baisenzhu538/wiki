@@ -21,6 +21,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂刻意练习十年成长指数
 ---
 # 刻意练习十年成长指数：为什么有人一年顶十年
 

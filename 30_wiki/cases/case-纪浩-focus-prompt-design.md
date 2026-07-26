@@ -69,6 +69,10 @@ diagnostic_signals:
 - framework_lens: Migration Stop Point 硬门禁缺失
   follow_up_question: 这个改动是否必须新增 indexed/generated fields、专表或 DB migration？如果是，有没有先停下进入
     schema/data contract gate？
+aliases:
+- 五层结构
+- 俱乐部
+- 参考案例
 ---
 
 # 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接

@@ -37,6 +37,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 五层结构
+- 俱乐部
+- 协作方法论
 ---
 
 # 暗知识：PDCA从Do开始不是从Plan开始

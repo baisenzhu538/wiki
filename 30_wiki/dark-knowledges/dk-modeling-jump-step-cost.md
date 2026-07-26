@@ -28,6 +28,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- advanced
+- modeling
 ---
 
 # 跳步代价：前置输入为空，后半段十倍百倍惩罚

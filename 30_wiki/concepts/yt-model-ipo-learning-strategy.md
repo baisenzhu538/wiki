@@ -52,6 +52,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 科学学习
 ---
 
 # IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)

@@ -32,6 +32,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 建模能力培训
 ---
 
 > **Burn line**: 一堂不是包装 IP 讲别人课的公司，而是把真实实践当成地里的菜，成熟了再摘下来炒给观众吃。

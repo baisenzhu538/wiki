@@ -65,6 +65,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 单元模型
+- 策略模型
 ---
 
 # 单元模型构建法：拆推评算与ABCD模型分类

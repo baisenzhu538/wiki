@@ -41,6 +41,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 建模能力培训
 ---
 
 # 案例：创业本质 = 小概率游戏

@@ -42,6 +42,9 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:beginner
+aliases:
+- 单元模型
+- 规模对抗实操难点
 ---
 
 # 技能：遵循规模前倾原则设计组织架构

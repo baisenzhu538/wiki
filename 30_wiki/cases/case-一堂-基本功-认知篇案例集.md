@@ -45,6 +45,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- fundamentals
+- manage
 ---
 
 # 基本功认知篇案例集：四个团队的第一堂基本功课

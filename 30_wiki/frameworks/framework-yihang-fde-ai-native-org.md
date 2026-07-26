@@ -24,6 +24,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # FDE 工程 × AI 原生组织——用双三角建中国风格 FD 工程师培养体系

@@ -52,6 +52,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 个人修身
+- 泛产品设计实操
 ---
 
 # 泛产品设计实操篇：需求分析与用户洞察

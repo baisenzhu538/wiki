@@ -32,6 +32,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 低成本验证
+- 把商业模式从增长和收入目标剥离出来
 ---
 # 需求找错案例集
 

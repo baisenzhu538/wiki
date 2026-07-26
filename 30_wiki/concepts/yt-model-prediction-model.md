@@ -23,6 +23,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 预判模型
 ---
 # 预判模型：从最糙版到复杂版的三种预判范式
 

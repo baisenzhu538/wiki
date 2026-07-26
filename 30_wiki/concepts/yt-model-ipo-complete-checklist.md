@@ -23,6 +23,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 科学学习
 ---
 # IPO 科学学习完整清单 (Complete List)
 

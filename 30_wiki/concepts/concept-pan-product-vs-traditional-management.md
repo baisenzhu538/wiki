@@ -39,6 +39,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 泛产品设计课程
 ---
 # 泛产品组织 vs 传统管理：从控制范式到设计范式
 

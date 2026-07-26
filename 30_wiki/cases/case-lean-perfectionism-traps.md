@@ -30,6 +30,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 低成本验证
+- 完美心态踩坑
 ---
 # 完美心态踩坑案例集
 

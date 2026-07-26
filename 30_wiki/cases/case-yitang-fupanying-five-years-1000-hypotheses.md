@@ -57,6 +57,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 # 一堂复盘营五年：8 个参数到 200+ 参数、1000+ 假设，把低转高做成不靠红利的长期生意
 

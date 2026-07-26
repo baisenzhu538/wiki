@@ -21,6 +21,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- ideas
+- 个人修身
 ---
 
 # Y模型 案例：Vicki 开店→短视频跨域迁移——Y模型 比五步法更底层 1-2 层

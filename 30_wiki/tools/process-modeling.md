@@ -46,6 +46,10 @@ diagnostic_signals:
   follow_up_question: 你是否给 SOP 的执行加了监督和检查机制？
 - framework_lens: 分解 × 锁 × 边界 × 迭代
   follow_up_question: 这个输出是否已拆到可检查步骤？关键节点是否有锁？边界是否写明？是否有迭代触发器？
+aliases:
+- 建模能力培训
+- 开播准备
+- 流程建模
 ---
 
 # 流程建模：用 SOP 与清单把经验变成稳定产出

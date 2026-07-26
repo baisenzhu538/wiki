@@ -26,6 +26,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 创业方法 AB 面清单：对立金句的适用场景判断

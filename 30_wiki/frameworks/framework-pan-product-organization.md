@@ -40,6 +40,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 泛产品设计实操
 ---
 
 # 泛产品组织设计：把团队当成产品来打磨

@@ -32,6 +32,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 
 # 美团「意向优选」小红点：一个触点假设把APP活跃度提升30%-40%

@@ -30,6 +30,10 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- daily
+- review
+- 错误模式库
 ---
 # 欧阳锋审查方法论
 

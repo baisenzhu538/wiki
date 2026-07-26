@@ -29,6 +29,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 调研专题
+- 调研武器库培训
 ---
 # 保安/门卫情报
 

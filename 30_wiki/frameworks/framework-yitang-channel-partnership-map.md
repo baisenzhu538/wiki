@@ -41,6 +41,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- details
+- itingnao
 ---
 # 小众品类渠道合伙人/区域包干决策框架（「卖地图」模式）
 

@@ -45,6 +45,8 @@ related:
 - '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
+aliases:
+- 整合笔记
 ---
 # 一堂科学销售常见陷阱：六大反模式与修复动作
 

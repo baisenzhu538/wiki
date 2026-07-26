@@ -44,6 +44,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 # 一堂十指模型：左手具象五化 + 右手抽象五化
 

@@ -29,6 +29,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 
 # 鱼骨图根因分析工具

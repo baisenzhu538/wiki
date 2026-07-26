@@ -36,6 +36,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- article
+- beikai
+- capabilities
 ---
 
 # 洪七公 Multimodal Agent — KDO 多模态渲染与视觉资产生产引擎

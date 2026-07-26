@@ -49,6 +49,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 > 阻力篇案例库：一堂用 54+ 个案例说明「阻力一旦被洞察并消除，转化率往往跳跃式提升」，本卡按 12 种阻力类型与消除深度建立索引。

@@ -32,6 +32,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 # 麦肯锡 7S 模型：组织诊断与变革管理
 

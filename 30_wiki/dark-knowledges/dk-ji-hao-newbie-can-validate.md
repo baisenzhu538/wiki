@@ -37,6 +37,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 协作方法论
 ---
 
 # 暗知识：新手也可以用四要素验证

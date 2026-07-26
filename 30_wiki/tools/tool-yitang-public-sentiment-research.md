@@ -38,6 +38,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 调研专题
+- 调研武器库培训
 ---
 # 舆情/口碑批量收集：好评决定内核，差评决定机会
 

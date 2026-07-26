@@ -49,6 +49,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- tasks
 ---
 
 # OPC 销售过程追踪助手 Agent Spec

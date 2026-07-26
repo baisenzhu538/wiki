@@ -29,6 +29,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 低成本验证
+- 十倍数公式
 ---
 # 十倍速公式：避免系统性失败
 

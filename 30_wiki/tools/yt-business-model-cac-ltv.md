@@ -37,6 +37,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 产品内核实操课
+- 产品内核验证课
 ---
 
 # CAC与LTV的实战计算

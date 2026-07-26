@@ -35,6 +35,8 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals: null
+aliases:
+- 场景落地方法分享
 ---
 
 # 技能："找老的干小的"场景评估清单

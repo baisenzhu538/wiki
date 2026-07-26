@@ -24,6 +24,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 **来源**：© 2021 Yashili International（雅士利国际），冉鹏引用为细分市场分析案例
 **核心逻辑**：奶粉市场按年龄段×价格带×功能需求做三维细分，找到对手未覆盖的格子

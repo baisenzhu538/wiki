@@ -26,6 +26,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- control
+- electronics
+- practice
 ---
 # 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
 

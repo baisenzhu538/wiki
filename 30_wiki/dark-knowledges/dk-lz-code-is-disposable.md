@@ -35,6 +35,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 公司组织方法论直接把公司当操作系统来设计中层管理变成了
+- 放出一套
+- 组织落地探索
 ---
 ## 原始表述 / 核心洞察
 

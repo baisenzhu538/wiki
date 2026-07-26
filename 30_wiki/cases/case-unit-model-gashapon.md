@@ -24,6 +24,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 单元模型
+- 扭蛋机案例
 ---
 
 # 扭蛋机案例：玩具店规模化扩张三阶段决策

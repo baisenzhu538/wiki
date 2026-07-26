@@ -56,6 +56,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂影响力 36 计：6 原则 × 6 强度

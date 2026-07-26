@@ -28,6 +28,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 科学决策
+- 项目方案评估三角形
 ---
 
 # 项目方案评估三角形

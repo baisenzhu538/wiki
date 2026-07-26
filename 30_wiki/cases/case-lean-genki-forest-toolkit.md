@@ -29,6 +29,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 元气森林
+- 精益创业
 ---
 
 # 元气森林试错工具箱

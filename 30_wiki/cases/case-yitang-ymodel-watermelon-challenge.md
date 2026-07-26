@@ -21,6 +21,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- ideas
+- 个人修身
 ---
 
 # Y模型 案例：拍西瓜满级挑战——1000次循环从普通人到顶尖选手

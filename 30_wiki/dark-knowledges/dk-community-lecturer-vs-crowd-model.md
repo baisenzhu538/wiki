@@ -36,6 +36,9 @@ tags:
 quality_labels:
 - principle
 - validated
+aliases:
+- study
+- 大馨战队
 ---
 
 # 讲师中心 vs 群众中心：社群知识生产的两种模式

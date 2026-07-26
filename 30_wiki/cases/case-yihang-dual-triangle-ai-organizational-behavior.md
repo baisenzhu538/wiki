@@ -22,6 +22,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 人机协作双三角
+- 组织行为学的口述
 ---
 
 # 双三角案例：Truman 一夜深挖 AI 组织行为学——四个模型交叉验证

@@ -34,6 +34,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 企业利润经营分析
 ---
 
 # 桥接：一堂单元模型 × 利润为王 — 用业务公式做定价决策

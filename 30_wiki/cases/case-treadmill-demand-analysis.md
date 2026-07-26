@@ -37,6 +37,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 跑步机案例
+- 需求分析图
 ---
 
 > 黄药师骨架 · 老顽童填内容

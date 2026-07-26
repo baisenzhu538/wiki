@@ -60,6 +60,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 课程地图精华串讲
 ---
 
 # 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环

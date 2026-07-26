@@ -48,6 +48,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 机会预判课
 ---
 
 # 概率工程：把小概率变成大概率的方法论

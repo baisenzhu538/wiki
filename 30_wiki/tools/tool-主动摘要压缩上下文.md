@@ -48,6 +48,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 自用的
 ---
 
 # 技能：主动摘要压缩上下文

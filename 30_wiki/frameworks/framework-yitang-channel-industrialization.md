@@ -45,6 +45,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 全策略集
 ---
 # 渠道工业化生产：让高不确定工作持续高质量交付
 

@@ -40,6 +40,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 业务公式拆解
+- 关键假设C-拆解业务公式
 ---
 
 # 工具：业务公式 L1-L6 参数分层自检

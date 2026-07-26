@@ -36,6 +36,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 # 三行业公式拆解示范：民营眼科医院、篮球培训、ToB 摄像头
 

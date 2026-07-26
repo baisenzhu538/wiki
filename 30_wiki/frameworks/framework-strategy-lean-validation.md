@@ -27,6 +27,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 低成本验证认知篇
 ---
 
 # 战略假设的精益验证流程

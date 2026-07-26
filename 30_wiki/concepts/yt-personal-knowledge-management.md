@@ -26,6 +26,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 在知识管理系统中的应用
 ---
 # 知识管理
 

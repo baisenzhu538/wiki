@@ -31,6 +31,8 @@ related:
 aliases:
 - 双三角三阶六变
 - 双三角六种落地场景
+- 一个引擎
+- 一堂双三角
 tags:
 - audience:ceo
 - scene:diagnosis

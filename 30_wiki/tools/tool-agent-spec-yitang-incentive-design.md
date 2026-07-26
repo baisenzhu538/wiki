@@ -42,6 +42,8 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
+aliases:
+- product
 ---
 # 销售激励方案设计辅助 Agent Spec
 

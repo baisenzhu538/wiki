@@ -21,6 +21,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 冉鹏战略课逐字稿
+- 战略专题
 ---
 
 **轨迹**：全球光伏第一 → 行业进入绝望之谷 → 资金链断裂 → 外资低价收购。

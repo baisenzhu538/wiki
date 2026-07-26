@@ -27,6 +27,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:beginner
+aliases:
+- 婚礼行业一线策划师访谈与多场真实婚礼复盘
+- 新人婚后满意度回访数据
+- 样本量约
 ---
 # 案例：婚礼规划
 

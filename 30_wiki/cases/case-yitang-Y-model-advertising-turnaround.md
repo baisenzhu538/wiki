@@ -37,6 +37,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 七人逐步骤对标分析
 ---
 
 # 一堂抖音 AD 投放扭亏：Y模型科学投放实战

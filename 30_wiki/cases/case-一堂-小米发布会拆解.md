@@ -57,6 +57,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 > 小米 SU7 发布会是一堂推荐的「动力 / 阻力 / 触点」拆解练习素材；从已获取的目录+开场+颜色/设计片段可见，其转化设计围绕「信任前置→价值堆高→情感共鸣→行动号召」展开，但完整价格/权益/下单触点等关键转化页缺失，本卡仅基于有效片段做可验证拆解。

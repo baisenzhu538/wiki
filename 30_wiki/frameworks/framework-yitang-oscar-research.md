@@ -62,6 +62,7 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases: []
 ---
 
 # OSCAR调研模型：从目标锁定到正确归因的五步法

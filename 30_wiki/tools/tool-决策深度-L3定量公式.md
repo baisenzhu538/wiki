@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 定量公式
+- 科学决策
 ---
 # 决策深度L3：定量公式
 

@@ -32,6 +32,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 人机协作决策
+- 科学决策
 ---
 # AI时代的双三角竞争力
 

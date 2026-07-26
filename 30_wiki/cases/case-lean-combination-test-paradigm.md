@@ -33,6 +33,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 低成本测试
+- 低成本验证
 ---
 # 组合测试范式实操案例
 

@@ -56,6 +56,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+aliases:
+- 课程地图精华串讲
 ---
 
 ## Summary

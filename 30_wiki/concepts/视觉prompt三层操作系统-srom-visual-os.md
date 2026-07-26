@@ -35,6 +35,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 三层操作系统
 ---
 # 视觉Prompt三层操作系统 (SROM Visual OS)
 

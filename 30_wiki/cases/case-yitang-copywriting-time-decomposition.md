@@ -35,6 +35,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 底层逻辑之一
+- 底层逻辑之一-Y模型
 ---
 
 # 一堂文案团队时间拆解：把「写稿」拆成可测量的工序

@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 从一次
+- 别只会问
 ---
 
 # AI 记忆四层分层模型：即时→会话→项目→长期

@@ -49,6 +49,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 单元模型：找到业务最小单元的经济密码

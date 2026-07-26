@@ -38,6 +38,8 @@ diagnostic_signals:
   follow_up_question: 当前渠道的试错成本、ROI、天花板、团队能力匹配度是否已评估？有没有小样本的转化数据支撑？
 - framework_lens: 阶段判断错误
   follow_up_question: 需求、产品、商业模式三类前置假设中，还有哪些是红灯？如果前置假设不成立，增长测试是不是在验证错误的问题？
+aliases:
+- 精益方法论培训
 ---
 
 

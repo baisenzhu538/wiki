@@ -37,6 +37,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 五层结构
+- 俱乐部
 ---
 
 # 技能：低成本输出验证法

@@ -46,6 +46,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 案例分享
+- 解放思想探索营
 ---
 
 > 定位：[[framework-yitang-thought-liberation-lightning]] 第 4 步「建模重构」的典型案例。

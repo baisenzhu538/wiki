@@ -44,6 +44,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- fundamentals
+- manage
 ---
 
 # 三环六维自检：10 分钟判断一个动作配不配练成基本功

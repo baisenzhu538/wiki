@@ -55,6 +55,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂 FAB 说服法：事实起点 → 逻辑节点 → 价值终点

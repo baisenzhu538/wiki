@@ -44,6 +44,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- product
 ---
 # 回款 / 履约风险预警 Agent Spec
 

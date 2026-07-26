@@ -36,6 +36,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- product
+- tasks
 ---
 
 # KDO 多 Agent 工厂：人机协作双三角的组织化实践

@@ -35,6 +35,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 精益创业
 ---
 # 偷偷服务：用人工模拟产品后端
 

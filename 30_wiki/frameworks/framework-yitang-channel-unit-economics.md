@@ -46,6 +46,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 云电脑
 ---
 # 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
 

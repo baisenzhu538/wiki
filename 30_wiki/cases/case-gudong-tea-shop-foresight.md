@@ -44,6 +44,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 机会预判课
 ---
 
 # 古董奶茶店：五层筛选的加法减法实战

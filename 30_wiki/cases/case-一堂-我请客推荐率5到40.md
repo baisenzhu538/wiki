@@ -42,6 +42,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 > 一堂「我请客」老带新产品通过把「帮忙推荐」改写为「我请客送你课」，一次性消除了用户发朋友圈丢面子的核心阻力，推荐率从早期的 3%-4% 先翻到约 15%，再通过 30 多个大大小小的假设持续优化到 K 系数 40%，每周带来大几百到近 1000 人规模、两年累计约 1500 万毛利。

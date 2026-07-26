@@ -56,6 +56,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 峰终定律
+- 泛产品设计
+- 用户卡片
 ---
 
 # 峰终定律：用户体验的二八定律

@@ -25,6 +25,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 调研专题
+- 调研超级武器库
 ---
 # 武器库策略12：媒体/社区搜索
 

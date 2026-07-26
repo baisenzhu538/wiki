@@ -35,6 +35,9 @@ tags:
 quality_labels:
 - insight
 - validated
+aliases:
+- study
+- 认知精华提炼
 ---
 
 # 内容创作中的肌肉记忆：很多能力不是知识

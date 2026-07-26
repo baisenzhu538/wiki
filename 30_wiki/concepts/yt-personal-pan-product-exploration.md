@@ -51,6 +51,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 泛产品设计探索营
 ---
 
 # 泛产品设计探索营：案例启发与认知重构

@@ -41,6 +41,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- fundamentals
+- manage
 ---
 
 # 五类工作 × 4化：基本功的进攻方向诊断图

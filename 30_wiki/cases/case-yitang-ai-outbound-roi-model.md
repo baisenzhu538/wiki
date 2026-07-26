@@ -24,6 +24,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 案例：AI 外呼——ROI模型统一"真人 vs. AI"矛盾经验

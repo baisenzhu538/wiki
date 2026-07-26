@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 关键假设
+- 关键假设三板斧
 ---
 
 # 技能：假设验证三板斧

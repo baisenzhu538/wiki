@@ -22,6 +22,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # 双三角画布案例：AI 论文初审——五维评分+三色灯阻断

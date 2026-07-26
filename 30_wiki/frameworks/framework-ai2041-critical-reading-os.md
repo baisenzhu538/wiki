@@ -34,6 +34,7 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases: []
 ---
 
 # AI 2041 批判性认知操作系统

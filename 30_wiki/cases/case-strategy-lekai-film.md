@@ -28,6 +28,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 冉鹏战略课逐字稿
 ---
 **困境**：数码相机毁灭胶卷行业，柯达倒闭。
 **转机**：乐凯的核心技术是"光学薄膜涂层"，迁移到液晶面板、光伏薄膜等新赛道后存活。

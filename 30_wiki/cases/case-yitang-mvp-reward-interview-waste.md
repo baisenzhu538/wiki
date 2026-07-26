@@ -26,6 +26,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 专家访谈调研
+- 用户调研实操课
 ---
 # 案例：重金做用户访谈但方向全错
 

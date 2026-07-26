@@ -50,6 +50,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 因果三件套：常识判断+逻辑推理+控制变量，验证一条关系配不配当抓手

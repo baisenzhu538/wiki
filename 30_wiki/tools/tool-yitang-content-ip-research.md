@@ -42,6 +42,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 调研专题
+- 调研手段卡
 ---
 
 # 内容IP/MCN调研手段：浅中深三层10大评估法

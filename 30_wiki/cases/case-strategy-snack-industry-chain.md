@@ -24,6 +24,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 **案例**：话梅果干品类从上游种植/养殖到下游零售的完整产业链利润与竞争分析
 

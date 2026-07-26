@@ -62,6 +62,9 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
+aliases:
+- fundamentals
+- manage
 ---
 
 # 练习二十法：五层加码，把刻意练习焊进团队日常

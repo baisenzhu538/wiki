@@ -53,6 +53,10 @@ diagnostic_signals:
   follow_up_question: 清单是否有督导/品控？是否每 3-5 次执行后复盘更新？
 - framework_lens: 颗粒度校准
   follow_up_question: 每条检查点是否是一个具体动作，而不是"注意质量"这类空话？
+aliases:
+- 常见模型武器库
+- 建模能力培训
+- 抽象建模
 ---
 
 # 清单/小抄建模法：把经验变成可执行的检查点

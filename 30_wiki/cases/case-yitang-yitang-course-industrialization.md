@@ -38,6 +38,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 一堂做课工业化
 ---
 
 # 案例：一堂如何用工业化生产保证每周高质量做课

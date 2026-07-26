@@ -32,6 +32,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- prompts
 ---
 # 项目背景分析 Agent Spec
 

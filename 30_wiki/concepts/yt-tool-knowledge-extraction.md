@@ -64,6 +64,10 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 知识萃取探索营
+- 萃取总结
 ---
 
 # 团队知识萃取器

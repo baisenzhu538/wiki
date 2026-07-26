@@ -37,6 +37,10 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 泛产品设计
+- 用户卡片
 ---
 
 # JTBD需求分析实战应用：从"用户想要"到"用户雇佣"

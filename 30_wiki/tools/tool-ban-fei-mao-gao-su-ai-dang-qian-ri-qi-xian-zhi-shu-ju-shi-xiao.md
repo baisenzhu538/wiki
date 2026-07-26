@@ -42,6 +42,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 半肥猫
+- 学习落地
 ---
 
 # 技能：告诉 AI 当前日期限制数据时效

@@ -27,6 +27,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 快速体验指南
+- 飞书云文档
 ---
 
 # Knowledge Delivery OS 快速体验指南

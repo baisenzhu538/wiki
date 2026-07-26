@@ -36,6 +36,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 产品内核实操课
+- 产品内核验证课
 ---
 
 # 从增长到壁垒：承上启下

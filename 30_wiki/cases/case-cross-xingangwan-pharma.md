@@ -42,6 +42,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- entities
+- 鑫港湾
 ---
 
 # 鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证

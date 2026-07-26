@@ -34,6 +34,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 案例分享
+- 解放思想探索营
 ---
 # 单元模型反向测算：从成本反推可行性
 

@@ -34,6 +34,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 
 # 汉堡店加盟三渠道关键路径：同样的30%提升，为什么优先做邀约成功率？

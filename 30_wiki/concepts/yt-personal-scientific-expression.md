@@ -60,6 +60,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 执行武器库
+- 表达力火箭模型
 ---
 
 # 科学表达（火箭模型）

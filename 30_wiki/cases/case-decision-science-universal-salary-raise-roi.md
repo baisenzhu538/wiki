@@ -24,6 +24,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 审美拉升
+- 科学决策
 ---
 # 案例：全员涨薪20%的ROI测算
 

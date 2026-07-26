@@ -54,6 +54,8 @@ related:
 - '[[case-five-step-fake-vs-real-barriers]]'
 - '[[yt-growth-cycle-model]]'
 - '[[yt-entrepreneur-barriers]]'
+aliases:
+- 一堂五步法
 ---
 
 # 五步法衔接：什么时候从增长切换到壁垒建设

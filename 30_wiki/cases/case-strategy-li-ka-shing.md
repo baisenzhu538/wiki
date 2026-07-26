@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 冉鹏战略课逐字稿
 ---
 
 **模式**：每次经济下行周期→所有人恐慌抛售→李嘉诚逆势收购→等周期回暖→高价卖出。

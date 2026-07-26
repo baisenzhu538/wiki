@@ -30,6 +30,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 精益创业
 ---
 
 # 只发布最小版本

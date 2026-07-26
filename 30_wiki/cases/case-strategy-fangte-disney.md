@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 冉鹏战略课逐字稿
+- 战略专题
 ---
 
 **对比**：方特（拥有中国传统文化主题与熊出没/超级飞侠等 IP 合作） vs 迪士尼（拥有动画制片、复仇者联盟、酒店、电视台、消费品授权等多元业务）。

@@ -44,6 +44,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 产品内核实操课
+- 产品内核迭代课
+- 产品内核验证课
 ---
 
 # 产品内核定义：用户愿意选择你的最小解决方案

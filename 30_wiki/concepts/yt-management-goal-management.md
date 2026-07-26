@@ -50,6 +50,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 管理地图
 ---
 # 目标管理
 

@@ -48,6 +48,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 公司拆解：深度分析竞争对手的六维框架

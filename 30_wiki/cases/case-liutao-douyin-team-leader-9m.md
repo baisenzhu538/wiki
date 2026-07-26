@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 调研专题
+- 高阶情报调研课
 ---
 # 案例：从信息碎片拼出赛道真相
 

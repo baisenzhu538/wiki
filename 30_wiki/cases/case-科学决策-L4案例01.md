@@ -27,6 +27,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 科学决策
 ---
 # 案例：1 万个投放线索的严格财务公式分析（乐观口径）
 

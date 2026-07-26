@@ -28,6 +28,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 五层结构
+- 俱乐部
 ---
 
 # 技能：识别AI不可维护代码

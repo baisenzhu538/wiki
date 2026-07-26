@@ -43,6 +43,8 @@ related:
 aliases:
 - 阿豪案例
 - 电商选品案例
+- 人机协作双三角
+- 阿豪案例的口述
 tags:
 - audience:general
 - scene:reference

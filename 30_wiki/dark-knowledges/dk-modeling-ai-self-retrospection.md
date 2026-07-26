@@ -35,6 +35,8 @@ author: 老顽童
 confidence: 0.89
 diagnostic_signals:
 - src_unknown# AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
+aliases:
+- 建模能力培训
 ---
 
 ## 原始表述 / 核心洞察

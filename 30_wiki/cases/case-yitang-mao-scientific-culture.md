@@ -23,6 +23,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- extractions
 ---
 
 # 案例：毛泽东"主义清单"——红蓝卡的历史原型

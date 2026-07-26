@@ -23,6 +23,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 模型实操探索营
 ---
 # Y模型实操：科学成事的底层操作系统
 

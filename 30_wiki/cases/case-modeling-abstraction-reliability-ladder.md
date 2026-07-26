@@ -35,6 +35,10 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - case-modeling-process-livestream-prep
 - case-modeling-essence-levels
+aliases:
+- 建模能力培训
+- 抽象建模
+- 高阶建模
 ---
 # 抽象建模案例：知识可靠度四阶梯——从"听着很香"到"没有反例"
 

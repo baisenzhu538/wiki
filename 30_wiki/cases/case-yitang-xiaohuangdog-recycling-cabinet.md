@@ -24,6 +24,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 案例：小黄狗回收柜——忽略事实的典型代价

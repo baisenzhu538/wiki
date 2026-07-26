@@ -40,6 +40,9 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
+aliases:
+- 调研专题
+- 调研武器库培训
 ---
 
 # 招聘渠道情报：五层递进挖掘竞对内部信息

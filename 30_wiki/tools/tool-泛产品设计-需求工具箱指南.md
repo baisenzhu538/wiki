@@ -32,6 +32,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 泛产品设计
 ---
 
 # 需求工具箱指南

@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 上市公司报告解读
+- 调研专题
 ---
 # 案例：贝泰妮（薇诺娜）——招股书的完整商业拆解
 

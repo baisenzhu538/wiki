@@ -23,6 +23,8 @@ related:
 aliases:
 - 刻意练习四要素
 - 四要素诊断
+- 元能力-刻意练习
+- 关于刻意练习的对话
 author: 老顽童
 created_at: '2026-06-28'
 updated_at: '2026-06-29'

@@ -30,6 +30,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 调研专题
+- 调研武器库培训
 ---
 # 武器库策略13：产品逆向/拆解
 

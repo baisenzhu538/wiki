@@ -45,6 +45,7 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases: []
 ---
 
 # 四类调研模型：挖掘式·系统式·爆炸式·自动式

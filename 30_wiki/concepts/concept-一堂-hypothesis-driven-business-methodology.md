@@ -64,6 +64,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 产品内核实操课
+- 产品内核迭代课
+- 产品内核验证课
 ---
 # 一堂假设驱动型创业分析方法论
 

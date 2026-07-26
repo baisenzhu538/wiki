@@ -23,6 +23,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- extractions
 ---
 
 # 案例：智能麦克风颜色——投资人凭个人喜好做产品决策

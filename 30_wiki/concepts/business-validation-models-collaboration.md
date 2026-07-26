@@ -34,6 +34,10 @@ trust_level: medium
 related:
 - '[[ai-collaboration-mindset-shift]]'
 - '[[ai-landing-scene-selection]]'
+aliases:
+- 一起引擎
+- 刘长胜
+- 外卖对接方案讨论
 ---
 
 # 非药柜主题综合知识卡

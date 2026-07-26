@@ -27,6 +27,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 案例：Truman 用 Y模型 重构时间管理——从被动打断到科学体系

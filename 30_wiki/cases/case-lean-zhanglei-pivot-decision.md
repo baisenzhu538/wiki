@@ -31,6 +31,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 张磊教练
+- 精益创业
 ---
 # 张磊 AMA：创业者 pivot 决策案例
 

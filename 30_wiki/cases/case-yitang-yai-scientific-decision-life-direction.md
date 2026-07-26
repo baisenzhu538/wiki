@@ -30,6 +30,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- administrator
+- desktop
+- users
 ---
 
 # YAI实录：关键决策agent——50岁创业者的"留vs走"与赛道选择

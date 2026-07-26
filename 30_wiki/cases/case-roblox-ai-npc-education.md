@@ -28,6 +28,7 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases: []
 ---
 # Roblox AI NPC 与教育场景
 

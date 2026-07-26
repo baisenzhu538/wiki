@@ -31,6 +31,8 @@ reviewed_by: laowantong
 author: 半肥猫
 confidence: 0.7
 trust_level: low
+aliases:
+- 没有人呀现在
 ---
 # 技能：AI调研五步法
 

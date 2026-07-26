@@ -52,6 +52,7 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases: []
 ---
 
 # 高水平执行 AR：获取情报·正确归因

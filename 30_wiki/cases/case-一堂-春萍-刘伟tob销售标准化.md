@@ -42,6 +42,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- fundamentals
+- manage
 ---
 
 # 刘伟 ToB 销售标准化：十八般武艺，把大客户销售从能人手艺练成组织能力

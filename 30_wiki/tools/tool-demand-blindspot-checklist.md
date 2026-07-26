@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 盲区和机会清单
 ---
 # 盲区和机会清单
 

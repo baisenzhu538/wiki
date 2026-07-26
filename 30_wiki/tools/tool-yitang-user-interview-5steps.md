@@ -39,6 +39,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 用户调研实操课
+- 调研专题
 ---
 
 # 用户访谈五步执行法：画像·场景·信任·提问·判断

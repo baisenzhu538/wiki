@@ -30,6 +30,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 整合笔记
+- 时间管理
 ---
 # 暗时间利用 (Dark Time Harvesting)
 

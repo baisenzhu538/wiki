@@ -44,6 +44,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 广冷电子
 ---
 # 智能药柜分销业态洞察
 

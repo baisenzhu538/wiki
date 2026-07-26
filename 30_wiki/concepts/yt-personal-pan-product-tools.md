@@ -51,6 +51,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 泛产品设计工具篇
 ---
 
 # 泛产品设计工具篇：出牌教学法与30张卡牌

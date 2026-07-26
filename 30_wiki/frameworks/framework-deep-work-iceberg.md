@@ -30,6 +30,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 整合笔记
+- 时间管理
 ---
 # L1-L5 深度工作冰山模型
 

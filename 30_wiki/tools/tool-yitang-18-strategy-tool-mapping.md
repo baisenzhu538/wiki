@@ -47,6 +47,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- domains
+- 系统式调研
 ---
 
 # 降龙十八掌→工具映射表

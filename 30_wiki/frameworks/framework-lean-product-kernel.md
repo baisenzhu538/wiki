@@ -33,6 +33,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 不要过早细化未经思考的产品内核
+- 精益创业
 ---
 # 产品内核：不要过早细化未经思考的内核
 

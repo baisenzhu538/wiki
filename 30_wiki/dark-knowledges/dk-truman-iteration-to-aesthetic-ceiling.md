@@ -24,6 +24,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
+aliases:
+- ideas
+- 个人修炼
 ---
 # 迭代到审美上限：一张图的隐形成本远超显示器——Truman的泛产品设计第一性原则
 

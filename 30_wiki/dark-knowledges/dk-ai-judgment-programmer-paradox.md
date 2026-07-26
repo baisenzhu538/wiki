@@ -24,6 +24,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
+aliases:
+- study
+- 时代判断力口述
 ---
 # 程序员的AI悖论：写AI工具的人最晚享受到AI红利
 

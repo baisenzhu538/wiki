@@ -44,6 +44,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 的核心问题
 ---
 
 # AI落地场景识别：从"找老的干小的"开始

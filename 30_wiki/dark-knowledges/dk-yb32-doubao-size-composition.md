@@ -24,6 +24,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
+aliases:
+- 设计师实操培训
 ---
 
 # 豆包AIGC生图：尺寸是唯一关键排版影响因素

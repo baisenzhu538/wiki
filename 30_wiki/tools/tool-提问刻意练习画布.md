@@ -28,6 +28,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 提问刻意练习画布
 ---
 
 # 提问刻意练习画布

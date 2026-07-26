@@ -33,6 +33,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- control
 ---
 
 > **定位**：属于 [[framework-kdo-modeling-methodology]] 的「第四步·解压展开」——把 41 条 pitfalls 中与 Agent 自我进化相关的失败模式压缩为 6 条元失败模式。

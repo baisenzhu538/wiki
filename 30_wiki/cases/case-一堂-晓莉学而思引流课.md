@@ -54,6 +54,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 > 转化率不是单一指标，而是动力、阻力、触点在一连串关键动作里共同推动出来的结果；晓莉把学而思线下招商课拆成「找对人→敲开门→请到场→做成交」四阶段，用 4 次自然拼读引流课 + 5000 元意向金降低决策压力，把校长的顾虑逐层拆开并在对应触点里给出确定性。

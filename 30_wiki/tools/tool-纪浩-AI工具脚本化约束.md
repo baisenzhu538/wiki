@@ -37,6 +37,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 五层结构
+- 俱乐部
 ---
 
 # 技能：AI工具脚本化约束

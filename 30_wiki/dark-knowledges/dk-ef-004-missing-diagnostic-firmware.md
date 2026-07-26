@@ -26,6 +26,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- control
+- electronics
+- practice
 ---
 # 没有诊断固件就是盲调：你不知道信号卡在哪一级
 

@@ -37,6 +37,7 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases: []
 ---
 
 # 事实优先：区分事实与观点的认知纪律

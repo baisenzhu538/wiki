@@ -37,6 +37,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 天花板
 ---
 
 # 技能：80分效率设计策略

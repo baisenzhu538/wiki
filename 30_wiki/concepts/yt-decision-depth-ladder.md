@@ -78,6 +78,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 严格财务公式
+- 优先级定性
+- 你的业务是一次抽样实验
 ---
 
 # 深度阶梯工具：L1-L4停车场模型 + 三点预测法

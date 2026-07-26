@@ -52,6 +52,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 客户分层
 ---
 # 案例：美容院连锁销售体系改造——从总部门店冲突到新客转化率提升
 

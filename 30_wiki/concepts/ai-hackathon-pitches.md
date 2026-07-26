@@ -35,6 +35,10 @@ trust_level: medium
 related:
 - '[[ai-collaboration-mindset-shift]]'
 - '[[ai-landing-scene-selection]]'
+aliases:
+- 一堂武智院
+- 价值投资大师项目
+- 内容营销路演
 ---
 
 # AI 大航海项目路演：主题综合知识卡

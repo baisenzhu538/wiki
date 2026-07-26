@@ -46,6 +46,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 审美提升的层级
 ---
 
 # 审美提升的层级：从看不见到大胆想象的进化路径

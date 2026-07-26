@@ -38,6 +38,8 @@ diagnostic_signals:
   follow_up_question: 这个痛点在用户的真实使用场景里是核心问题、次要问题，还是解决后会带来更多问题？
 - framework_lens: 缺少对照组，用户难以觉察自己的深层感受
   follow_up_question: 是否设计了 A/B 对照，让用户在对比中自然暴露差异偏好？
+aliases:
+- 精益方法论培训
 ---
 
 

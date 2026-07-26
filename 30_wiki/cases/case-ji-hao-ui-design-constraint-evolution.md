@@ -31,6 +31,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 俱乐部
+- 协作方法论
+- 参考案例
 ---
 # 案例：纪浩从"求你了"到1100行约束文档的UI设计迭代
 

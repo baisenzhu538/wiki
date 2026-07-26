@@ -22,6 +22,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂人工智能全景图
 ---
 # MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
 

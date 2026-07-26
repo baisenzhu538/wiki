@@ -47,6 +47,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 吴恩达提示词课程
+- 拆书会
 ---
 
 # 守脑如玉：AI 时代保持大脑锋利

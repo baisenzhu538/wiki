@@ -4,6 +4,8 @@ title: 价值获取设计工具：8 问盈利模型
 aliases:
 - src_unknown
 - src_unknown
+- 冉鹏PPT截图
+- 引擎点火
 type: tool
 status: enriched
 confidence: 0.92

@@ -26,6 +26,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代判断力口述
 ---
 # AI时代判断力口述
 

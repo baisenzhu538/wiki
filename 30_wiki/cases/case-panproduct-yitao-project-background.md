@@ -24,6 +24,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 泛产品设计课程
 ---
 # 案例：一淘项目背景与三大难题
 

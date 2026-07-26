@@ -29,6 +29,9 @@ reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: medium
 diagnostic_signals: null
+aliases:
+- 俱乐部
+- 协作方法论
 ---
 
 # 技能：提问题转化三问清单

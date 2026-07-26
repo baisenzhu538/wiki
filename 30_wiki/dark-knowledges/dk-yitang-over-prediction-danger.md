@@ -24,6 +24,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 早期项目长期精确财务预测是过度预测

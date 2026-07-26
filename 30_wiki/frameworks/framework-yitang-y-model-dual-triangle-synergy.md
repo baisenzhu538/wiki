@@ -41,6 +41,7 @@ related:
 aliases:
 - Y模型双三角协同
 - 双三角迭代发动机
+- annotations
 tags:
 - audience:ceo
 - scene:diagnosis

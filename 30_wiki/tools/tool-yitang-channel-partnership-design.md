@@ -31,6 +31,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- details
+- itingnao
 ---
 
 # 区域代理/底价合伙人模式设计工具

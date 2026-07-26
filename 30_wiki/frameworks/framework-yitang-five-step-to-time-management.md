@@ -50,6 +50,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 修炼进阶图
+- 双峰哲学模型
 ---
 
 # 一堂五步法在时间管理中的应用：自管理场景的完整实例化

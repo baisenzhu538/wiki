@@ -1,11 +1,8 @@
 ---
-
-
-
 id: web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 created_at: 2026-05-04
 domain:
-  - ai-saas
+- ai-saas
 review_date: 2026-05-04
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -17,15 +14,17 @@ updated_at: '2026-06-16'
 author: unknown
 confidence: 0.7
 source_refs:
-  - pending_archive:src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
-  - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
+- pending_archive:src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
+- src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - [[tinyfish-agentic-web-infrastructure]]
-  - [[plan_20260621_crawl4ai-firecrawl-evaluation]]
-  - [[tool-yitang-web-scraping-research]]
-  - [[tool-agent-crawl4ai]]
-  - [[tool-agent-native-overview]]
+- - - tinyfish-agentic-web-infrastructure
+- - - plan_20260621_crawl4ai-firecrawl-evaluation
+- - - tool-yitang-web-scraping-research
+- - - tool-agent-crawl4ai
+- - - tool-agent-native-overview
+aliases:
+- 深度调研集群方法论
 ---
 # Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
 

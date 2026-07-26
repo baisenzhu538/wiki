@@ -37,6 +37,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 一堂产品内核十大典型指标
 ---
 
 # 产品内核十大典型指标：从假设到验证的数据体系

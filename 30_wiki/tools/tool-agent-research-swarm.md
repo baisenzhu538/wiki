@@ -39,6 +39,9 @@ quality_labels:
 updated_at: 2026-07-02
 confidence: 0.78
 trust_level: medium
+aliases:
+- 三个新盲区
+- 外部知识探索
 ---
 # Agent 调研 Swarm 模式工具
 

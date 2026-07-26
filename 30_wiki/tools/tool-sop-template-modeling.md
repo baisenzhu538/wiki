@@ -43,6 +43,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 建模能力培训
+- 流程建模
+- 高阶建模
 ---
 
 # SOP/模板建模法：把关键动作固化成标准工作流

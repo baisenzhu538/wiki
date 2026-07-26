@@ -41,6 +41,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 客户分层和卖点提炼
 ---
 # 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索
 

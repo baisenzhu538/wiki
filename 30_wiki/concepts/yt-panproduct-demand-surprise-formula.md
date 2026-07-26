@@ -55,6 +55,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 惊喜公式
+- 泛产品设计
+- 用户卡片
 ---
 
 # 惊喜公式：理解惊喜的本质

@@ -56,6 +56,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 单元模型
+- 单商圈模型
 ---
 ## Reusable Knowledge
 

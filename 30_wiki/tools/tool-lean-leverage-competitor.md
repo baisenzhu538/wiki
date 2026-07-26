@@ -28,6 +28,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 精益创业
 ---
 # 借同行产品：用竞品认知验证假设
 

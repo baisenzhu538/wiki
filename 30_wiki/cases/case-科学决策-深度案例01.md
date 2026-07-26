@@ -28,6 +28,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 科学决策
 ---
 
 # 案例：全员涨薪 20% 的 ROI 决策

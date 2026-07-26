@@ -58,6 +58,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 俱乐部
+- 半肥猫
 ---
 
 # 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化

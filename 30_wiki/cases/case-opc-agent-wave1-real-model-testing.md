@@ -95,6 +95,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- tasks
 ---
 
 # 案例：OPC 销售智能体 Wave 1 真实模型测试

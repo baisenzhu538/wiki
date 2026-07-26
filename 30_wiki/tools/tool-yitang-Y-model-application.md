@@ -40,6 +40,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 七人逐步骤对标分析
 ---
 
 # Y模型应用工作流：把科学做事框架变成具体问题上的操作清单

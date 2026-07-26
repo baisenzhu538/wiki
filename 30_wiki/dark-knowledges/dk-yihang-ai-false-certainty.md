@@ -23,6 +23,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # AI 错误笃定模式——被设计来回答问题，未被设计来"意识到自己不知道"

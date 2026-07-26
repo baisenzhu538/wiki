@@ -28,6 +28,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 低成本验证
+- 方案做错
 ---
 # 方案做错案例集
 

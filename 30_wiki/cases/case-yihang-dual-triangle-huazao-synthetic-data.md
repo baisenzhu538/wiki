@@ -35,6 +35,8 @@ related:
 aliases:
 - 花总案例
 - 合成数据案例
+- 一堂双三角
+- 人机协作双三角
 tags:
 - audience:general
 - scene:reference

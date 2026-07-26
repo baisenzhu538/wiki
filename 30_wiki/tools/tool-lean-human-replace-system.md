@@ -28,6 +28,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 精益创业
 ---
 # 人工替代复杂系统
 

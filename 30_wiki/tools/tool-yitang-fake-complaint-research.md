@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 调研专题
+- 调研超级武器库
 ---
 # 假装客户投诉
 

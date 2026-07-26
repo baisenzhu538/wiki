@@ -40,6 +40,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- product
 ---
 # 销售工具箱缺口盘点 Agent Spec
 

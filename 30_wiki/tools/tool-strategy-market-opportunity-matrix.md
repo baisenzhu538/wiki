@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 # 细分市场机会分析矩阵：10 维度判断"该不该进、用什么进"
 

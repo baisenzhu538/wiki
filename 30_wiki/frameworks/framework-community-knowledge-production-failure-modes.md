@@ -28,6 +28,8 @@ aliases:
 - community-knowledge-failure-modes
 - 社群失败模式库
 - 知识生产失败模式
+- study
+- 大馨战队
 tags:
 - '#scene/community'
 - '#scene/content-team'

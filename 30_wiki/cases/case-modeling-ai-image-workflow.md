@@ -27,6 +27,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- advanced
+- modeling
 ---
 
 # AI 文生图流程建模：从 v1 抽卡到 v5 攻坚会的五版迭代

@@ -28,6 +28,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- capabilities
+- openmontage
 ---
 # OpenMontage 中文 MCP 版：AI 视频工厂
 

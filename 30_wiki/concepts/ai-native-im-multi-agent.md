@@ -31,6 +31,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 工具演示
 ---
 # AI 原生 IM：让 Agent 成为一等公民的协作基础设施
 

@@ -34,6 +34,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 设计师实操培训
 ---
 ## 原始表述 / 核心洞察
 

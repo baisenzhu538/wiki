@@ -30,6 +30,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- capabilities
+- consultant
 ---
 
 # AI 工具学习工作手册

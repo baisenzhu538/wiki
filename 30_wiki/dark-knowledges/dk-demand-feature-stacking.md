@@ -28,6 +28,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 方法论
 ---
 
 # 功能堆叠陷阱：加功能≠满足需求

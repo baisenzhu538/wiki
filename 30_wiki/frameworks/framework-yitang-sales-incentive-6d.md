@@ -24,6 +24,7 @@ aliases:
 - 六维销售激励
 - 销售激励6D
 - yitang-sales-incentive-6d
+- 整合笔记
 query_triggers:
 - 销售团队激励怎么做
 - 除了钱还能怎么激励销售

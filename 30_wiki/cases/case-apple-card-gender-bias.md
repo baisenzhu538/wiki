@@ -35,6 +35,7 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases: []
 ---
 # Apple Card 信用额度性别争议
 

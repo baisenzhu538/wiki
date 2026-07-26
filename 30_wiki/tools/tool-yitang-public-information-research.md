@@ -38,6 +38,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 调研专题
+- 调研武器库培训
 ---
 # 官方公开信息渠道：公司自己发布的信息最有价值
 

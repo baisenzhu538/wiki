@@ -32,6 +32,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 执行武器库
 ---
 
 # 表达力火箭模型·执行武器库

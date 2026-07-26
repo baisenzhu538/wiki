@@ -50,6 +50,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 俱乐部
+- 半肥猫
+- 学习落地
 ---
 
 # 半肥猫 AI 学习落地方法论

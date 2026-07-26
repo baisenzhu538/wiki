@@ -20,6 +20,9 @@ tags:
 - scene:reference
 - skill-level:intermediate
 reviewed_by: pending
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 # 一堂双三角-清单版画布
 

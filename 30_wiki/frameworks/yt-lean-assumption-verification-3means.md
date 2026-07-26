@@ -37,6 +37,8 @@ diagnostic_signals:
   follow_up_question: 产品是书、APP、课程还是线下训练营？不同形态的样本量与核心转化率标准是什么？
 - framework_lens: 未优先使用低成本的调研与竞品对标
   follow_up_question: 同样资源、同样条件的竞品是否已经在跑通这个模式？能否通过水下调研直接拿答案？
+aliases:
+- 精益方法论培训
 ---
 
 

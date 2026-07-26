@@ -28,6 +28,7 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases: []
 ---
 # COMPAS 再犯算法种族偏见
 

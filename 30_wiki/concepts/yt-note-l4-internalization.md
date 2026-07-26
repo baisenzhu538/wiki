@@ -45,6 +45,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代清单体笔记
 ---
 
 # 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃

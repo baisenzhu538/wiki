@@ -27,6 +27,8 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-17'
+aliases:
+- 建模能力培训
 ---
 
 ## diagnostic_signals

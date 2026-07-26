@@ -42,6 +42,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂不着急阻力两类消除：天然需求不急 vs 还没比价

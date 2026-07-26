@@ -29,6 +29,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 # 安索夫矩阵：产品-市场增长战略
 

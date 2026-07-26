@@ -23,6 +23,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 不会定量
+- 周子敬
 ---
 
 # 实事求是十坑·不会定量：在线教育融资扩张失败

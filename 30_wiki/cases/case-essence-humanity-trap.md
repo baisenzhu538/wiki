@@ -40,6 +40,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 建模能力培训
 ---
 
 # 案例：招聘/股权/激励专家都把本质归为「人性」——解释性本质的陷阱

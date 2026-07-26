@@ -23,6 +23,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 案例：水产养殖——从行业经验到学科原理的上层创新

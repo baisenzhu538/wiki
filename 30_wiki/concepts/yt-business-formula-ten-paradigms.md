@@ -64,6 +64,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 一堂业务公式十大经典范式（收入/竞争/运营三环完整版）

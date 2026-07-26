@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:beginner
+aliases:
+- 生图原理与提示词基本功
+- 设计基础
 ---
 # AIGC设计基础01：AI生图原理与提示词基本功
 

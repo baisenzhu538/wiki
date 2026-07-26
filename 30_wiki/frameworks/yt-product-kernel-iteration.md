@@ -42,6 +42,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 产品内核迭代课
 ---
 
 # 产品内核迭代：五方向 × 五案例 × 触发信号

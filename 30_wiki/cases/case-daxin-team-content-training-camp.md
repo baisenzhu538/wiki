@@ -26,6 +26,8 @@ aliases:
 - daxin-team
 - 大馨战队
 - 短视频拆解训练营
+- study
+- 短视频内容拆解方法论精华提炼
 tags:
 - '#scene/content-team'
 - '#scene/community'

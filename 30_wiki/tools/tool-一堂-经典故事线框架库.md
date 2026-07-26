@@ -38,6 +38,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂经典故事线框架库：N个为什么/清单体/时间线/BP模板/顾问式销售

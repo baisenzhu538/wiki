@@ -39,6 +39,8 @@ diagnostic_signals:
   follow_up_question: 能不能不做硬件？能不能不做独立App？能不能不动开发借用现有工具？
 - framework_lens: 内容的核心风险是产品内核，应优先拿10-30个精准用户的高质量定性反馈
   follow_up_question: 用户是否主动给出积极评价？在多个课程选项里你的内容是否被优先选择？
+aliases:
+- 精益方法论培训
 ---
 
 

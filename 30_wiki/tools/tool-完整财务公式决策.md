@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 商业模式
+- 完整财务公式决策
 ---
 # 完整财务公式决策：L1-L6认知分级
 

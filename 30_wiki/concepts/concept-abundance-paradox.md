@@ -26,6 +26,7 @@ aliases:
 - abundance-paradox
 - 富足悖论
 - abundance paradox
+- 书籍拆解
 tags:
 - '#scene/decision-making'
 - audience:general

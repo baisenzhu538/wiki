@@ -24,6 +24,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # 知识层与数据层解耦：核心词 + data pack 插件式组合

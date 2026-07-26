@@ -23,6 +23,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 周子敬
+- 大坑之五
 ---
 
 # 实事求是十坑·过度预测：早期项目 3-10 年精确财务预测

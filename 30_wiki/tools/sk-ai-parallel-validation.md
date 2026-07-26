@@ -50,6 +50,9 @@ diagnostic_signals:
   follow_up: 后续补充至少1个真实业务案例或外部标杆
 - lens: 失败模式粗糙
   follow_up: 已表格化为症状-根因-修复三段式
+aliases:
+- 时代要不要练笔记
+- 需要练那个
 ---
 
 # 技能：平行运行验证法

@@ -29,6 +29,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 目标三层拆解：项目层→业务层→组织层

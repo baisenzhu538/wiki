@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 **案例**：某零食企业用"六要素 × 三步骤"业务设计矩阵，展示从现状到期望设计的完整跃迁
 

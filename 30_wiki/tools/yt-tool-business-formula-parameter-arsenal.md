@@ -75,6 +75,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 参数挖掘武器库：6 策略 → 22 动作 → 100+ 参数全量清单

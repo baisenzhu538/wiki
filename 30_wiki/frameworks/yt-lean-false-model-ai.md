@@ -39,6 +39,8 @@ related:
 - '[[yt-lean-flower-mom-group-leader]]'
 - yt-lean-assumption-verification-3means
 - yt-lean-daily-probability-decision
+aliases:
+- 精益方法论培训
 ---
 # 一堂精益小抄 FALSE 模型在 AI 时代的加速应用
 

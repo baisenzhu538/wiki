@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 利润为王
+- 利润认知与企业生存
 ---
 
 # 资本游戏 vs 真实商业：为什么你不能学亚马逊不赚钱

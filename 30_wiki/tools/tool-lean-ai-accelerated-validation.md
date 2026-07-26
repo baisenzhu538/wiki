@@ -34,6 +34,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 张磊教练
+- 精益创业
 ---
 # AI 加速 FALSE 模型验证
 

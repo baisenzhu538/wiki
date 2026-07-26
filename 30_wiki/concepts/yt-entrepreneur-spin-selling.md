@@ -23,6 +23,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 读书会
+- 销售法
 ---
 # SPIN销售法：顾问式销售的奠基之作
 

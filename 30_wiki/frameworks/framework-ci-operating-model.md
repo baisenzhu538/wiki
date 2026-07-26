@@ -37,6 +37,9 @@ quality_labels:
 updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: medium
+aliases:
+- 三个新盲区
+- 外部知识探索
 ---
 
 # 竞争情报操作系统（CI Operating Model）

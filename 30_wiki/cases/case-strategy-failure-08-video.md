@@ -28,6 +28,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 冉鹏战略课逐字稿
 ---
 **表面问题**：转型内容平台后用户流失。
 **战略根因**：资源短缺——版权库太弱，与头部平台的内容储备差距无法靠运营弥补。

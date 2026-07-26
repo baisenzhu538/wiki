@@ -34,6 +34,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 科学提问刻意练习
 ---
 # 科学成长（刻意练习）
 

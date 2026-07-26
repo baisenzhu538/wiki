@@ -38,6 +38,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 > 一堂年度大课前全会员出圈活动，从寄送礼物后实际发圈率约 1.5%（30-50 人）翻一倍到 60-100 人，靠的是「承诺一致 + 降低阻力 + 奖项素材 + 冲榜动力」的落地页完整链。

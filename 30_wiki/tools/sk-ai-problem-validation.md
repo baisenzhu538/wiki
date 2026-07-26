@@ -28,6 +28,9 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals: null
+aliases:
+- 时代要不要练笔记
+- 需要练那个
 ---
 
 # 技能：问题验证三维度法

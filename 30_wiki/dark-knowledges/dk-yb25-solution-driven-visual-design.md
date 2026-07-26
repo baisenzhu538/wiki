@@ -24,6 +24,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
+aliases:
+- 设计师实操培训
 ---
 
 # 解决方案驱动视觉设计，非门店风格导向

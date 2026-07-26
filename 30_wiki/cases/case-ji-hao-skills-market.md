@@ -55,6 +55,9 @@ diagnostic_signals:
   follow_up_question: 能否列出最近一周 3 个因 zip 分发而产生实际损失的现场？如果列不出，先用四问法验证再动手。
 - framework_lens: Agent-facing 设计：元数据应让人"说清楚"后由 AI 补全，安装由 Agent 自动完成
   follow_up_question: 哪些字段可以让维护者口述/截图后由 AI 自动转成结构化元数据？安装步骤能否由 Agent 自己完成？
+aliases:
+- 俱乐部
+- 协作方法论
 ---
 
 # 案例：一堂内部 Skills 分发平台

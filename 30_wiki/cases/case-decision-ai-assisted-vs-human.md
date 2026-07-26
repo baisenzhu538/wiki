@@ -31,6 +31,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 决策高度实操课口述
+- 科学决策
 ---
 
 # AI 辅助决策 vs 人工决策的边界案例

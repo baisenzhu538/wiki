@@ -27,6 +27,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 精益创业
 ---
 
 # 借流量工具：用现有流量测试

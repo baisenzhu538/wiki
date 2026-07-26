@@ -37,6 +37,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- ideas
+- 个人修炼
 ---
 
 # IPO学习闭环：Input→Process→Output→Feedback全景

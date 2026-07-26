@@ -37,6 +37,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
+aliases:
+- 建模能力培训
+- 流程建模
+- 高阶建模
 ---
 
 ## 原始表述/核心洞察

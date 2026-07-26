@@ -60,6 +60,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- fundamentals
+- manage
 ---
 
 # 苦练基本功总纲：人不是组织能力的最小单位，基本功才是

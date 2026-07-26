@@ -49,6 +49,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 产品内核实操课
+- 产品内核迭代课
 ---
 # 一堂产品内核画布应用技能
 

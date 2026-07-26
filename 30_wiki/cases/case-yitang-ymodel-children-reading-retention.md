@@ -21,6 +21,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- ideas
+- 个人修身
 ---
 
 # Y模型 案例：小学生在线阅读——外行看一眼画布就能平等对话

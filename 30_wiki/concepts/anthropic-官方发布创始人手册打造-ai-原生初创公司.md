@@ -36,6 +36,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 原生初创公司
+- 官方发布创始人手册打造
 ---
 
 # AI 原生创业四阶段模型（Anthropic 创始人手册）

@@ -28,6 +28,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 内训的灰度测试
+- 精益创业
 ---
 # 一堂 2B 内训灰度测试
 

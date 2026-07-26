@@ -28,6 +28,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- control
+- electronics
+- practice
 ---
 # 手焊板的隐性修改：原型调通了但量产就是不行
 

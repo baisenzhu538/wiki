@@ -57,6 +57,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 单元模型
+- 底层网络协议
 ---
 # TCP-R 模型：商业管理世界的底层网络协议
 

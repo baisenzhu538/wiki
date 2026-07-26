@@ -35,6 +35,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 产品路线图
+- 企业知识库
 ---
 
 # AI企业知识库案例：从"技术炫技"到"需求验证"

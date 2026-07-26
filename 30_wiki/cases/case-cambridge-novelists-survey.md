@@ -43,6 +43,7 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases: []
 ---
 # 剑桥小说家对 AI 创作态度调查
 

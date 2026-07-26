@@ -42,6 +42,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 建模能力培训
 ---
 
 # 暗知识：一堂真正的增长引擎是「周对周的建模能力增长」

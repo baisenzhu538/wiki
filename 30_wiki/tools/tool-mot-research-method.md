@@ -34,6 +34,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 案例分享
+- 解放思想探索营
 ---
 
 # MOT调研法

@@ -43,6 +43,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂伏笔式消除法：提前埋好答案，让阻力不发生

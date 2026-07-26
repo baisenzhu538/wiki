@@ -34,6 +34,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 元能力-刻意练习
+- 刻意练习
 ---
 
 # 三环能力聚焦法：从 30 个能力中锁定 3 个重点

@@ -22,6 +22,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # 数据包使用伦理——个人学习可用，禁止规模化批量抓取流通

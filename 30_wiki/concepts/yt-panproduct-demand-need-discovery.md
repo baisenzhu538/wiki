@@ -55,6 +55,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 用户卡片
+- 需求挖掘
 ---
 
 # 需求挖掘：理解背后的深层原因

@@ -44,6 +44,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 半肥猫
+- 学习落地
 ---
 
 - src_unknown

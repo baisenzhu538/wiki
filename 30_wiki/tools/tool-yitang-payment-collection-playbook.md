@@ -35,6 +35,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 销售专题
+- 销售体系之二
 ---
 # 回款 / 催款 / 履约阶段 playbook
 

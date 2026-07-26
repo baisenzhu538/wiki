@@ -61,6 +61,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 整合笔记
 ---
 # 一堂科学销售五步法
 

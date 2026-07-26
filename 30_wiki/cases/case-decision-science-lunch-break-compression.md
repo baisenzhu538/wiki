@@ -24,6 +24,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 决策深度实操课口述
+- 科学决策
 ---
 # 案例：把2小时休息压缩为1小时的ROI决策
 

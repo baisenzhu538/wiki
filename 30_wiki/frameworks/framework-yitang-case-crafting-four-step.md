@@ -30,6 +30,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 案例打磨方法
+- 案例打造法-李頔
 ---
 
 # 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达

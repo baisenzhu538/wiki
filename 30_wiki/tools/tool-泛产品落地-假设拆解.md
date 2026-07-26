@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 假设拆解
+- 泛产品设计
 ---
 # 落地卡片：假设拆解
 

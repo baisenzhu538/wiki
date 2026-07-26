@@ -27,6 +27,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 交叉验证
+- 冉鹏框架
 ---
 # 2024-2026战略新变量
 

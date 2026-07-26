@@ -37,6 +37,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 单元模型
+- 规模对抗实操难点
 ---
 # 技能：通过综合案例沙盘走通全流程
 

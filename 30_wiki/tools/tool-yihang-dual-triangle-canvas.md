@@ -38,6 +38,8 @@ related:
 aliases:
 - 双三角画布
 - 一行双三角画布
+- 一堂双三角
+- 人机协作双三角
 tags:
 - audience:executor
 - scene:execution

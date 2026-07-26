@@ -28,6 +28,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- control
+- electronics
+- practice
 ---
 # BOM 多版本不同步：你手里的文件和产线手里的不是同一份
 

@@ -56,6 +56,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 一堂五步法
+- 跑步机案例
+- 需求分析图
 ---
 
 # 需求分析

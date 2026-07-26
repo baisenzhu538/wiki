@@ -49,6 +49,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 五步法预判
+- 咖啡店案例
+- 咖啡案例
 ---
 
 # 预判画布：从加法到减法的标准化工作台

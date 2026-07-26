@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 专家访谈调研
+- 调研专题
 ---
 # 案例：滑雪项目——把重度用户当专家
 

@@ -32,6 +32,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 修炼进阶图
+- 整合笔记
 ---
 
 # 个人时间审计与实验循环

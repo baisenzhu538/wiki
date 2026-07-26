@@ -59,6 +59,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 一堂五步法
+- 单元模型
+- 单元模型口述
 ---
 
 # AI+单元模型：TCP-R双导师与出口式咨询实践

@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 调研专题
+- 高阶调研行动营
 ---
 # 案例：西安加盟选址——避免"想当然"式调研
 

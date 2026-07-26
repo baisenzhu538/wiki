@@ -28,6 +28,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 俱乐部
+- 协作方法论
+- 参考案例
 ---
 
 # 案例：AI工作空间混乱导致"行为退化"而重来

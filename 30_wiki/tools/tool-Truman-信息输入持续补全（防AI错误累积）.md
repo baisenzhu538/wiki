@@ -27,6 +27,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 自用的
 ---
 
 # 技能：信息输入持续补全（防AI错误累积）

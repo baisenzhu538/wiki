@@ -14,7 +14,9 @@ created_at: '2026-07-26'
 updated_at: '2026-07-26'
 quality_labels:
 - actionable
-aliases: []
+aliases:
+- 探索营
+- 解放思想创新体系
 discoverable_by:
 - 如何验证创新想法
 - 低成本试错

@@ -27,6 +27,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 成人技能教育案例
+- 精益创业
 ---
 # 成人技能教育精益验证
 

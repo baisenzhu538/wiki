@@ -57,6 +57,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 一堂五步法
+- 落地实操
 ---
 
 # 五步法落地实操：从故事版到分工版

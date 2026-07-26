@@ -48,6 +48,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法
+- 单元模型
+- 商业模型
 ---
 
 # 案例：线下玩具柜商业模式

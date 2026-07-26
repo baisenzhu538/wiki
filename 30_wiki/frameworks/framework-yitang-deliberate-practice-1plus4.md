@@ -40,6 +40,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 元能力-刻意练习
+- 刻意练习
 ---
 # 刻意练习 1+4 模型：科学成长的操作系统
 

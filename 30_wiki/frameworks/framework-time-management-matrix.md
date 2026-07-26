@@ -30,6 +30,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 整合笔记
+- 时间管理
 ---
 # 重要/紧急四象限（艾森豪威尔矩阵）
 

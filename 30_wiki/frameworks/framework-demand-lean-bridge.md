@@ -39,6 +39,7 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases: []
 ---
 
 # 需求判断与精益验证的衔接

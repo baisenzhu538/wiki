@@ -27,6 +27,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 精益创业
+- 萝卜干业务渠道选择预判复盘
 ---
 # 萝卜干渠道选择预判复盘
 

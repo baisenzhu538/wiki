@@ -43,6 +43,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 # 伪因果十题与聪明下属反噬四案：KPI 锁错因果，团队越聪明业务越差
 

@@ -24,6 +24,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:beginner
+aliases:
+- 全流程
+- 文创案例设计课
 ---
 # AIGC文创案例设计课：Leo文创IP从0到1全流程
 

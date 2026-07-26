@@ -25,6 +25,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 案例：县城 LED 屏对标分众——错误类比忽视前提条件

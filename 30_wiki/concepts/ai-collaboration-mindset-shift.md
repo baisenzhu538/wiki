@@ -46,6 +46,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代要不要练笔记
+- 需要练那个
 ---
 # AI协作思维转变：从"新手"到"管理者"
 

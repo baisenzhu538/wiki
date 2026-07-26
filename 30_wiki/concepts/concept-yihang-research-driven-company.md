@@ -22,6 +22,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # 研发型公司 vs 工程型公司——做"过去做不出来的东西"

@@ -29,6 +29,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 体系与模型边界：每个模型都有内涵、成本和适用域

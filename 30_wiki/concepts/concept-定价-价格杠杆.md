@@ -30,6 +30,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 利润为王
+- 利润认知与企业生存
 ---
 
 # 价格杠杆：定价那一刻，利润已经锁定

@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 完整清单
 ---
 
 # 科学学习IPO完整清单

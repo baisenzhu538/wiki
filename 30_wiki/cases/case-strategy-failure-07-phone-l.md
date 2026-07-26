@@ -28,6 +28,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 冉鹏战略课逐字稿
 ---
 **表面问题**：斥巨资收购后整合失败。
 **战略根因**：能力缺失——硬件强但缺乏软件生态能力，收购来的软件团队无法融入。

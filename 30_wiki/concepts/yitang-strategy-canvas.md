@@ -63,6 +63,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 商业分析
+- 实战案例分析
+- 战略培训
 ---
 
 # 战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线

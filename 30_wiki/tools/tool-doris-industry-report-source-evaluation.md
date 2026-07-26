@@ -36,6 +36,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 行业报告调研
+- 调研专题
 ---
 # 行业报告可信度评估：多信数据，少信观点
 

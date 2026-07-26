@@ -44,6 +44,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 咨询类
+- 调研专题
 ---
 
 # 咨询类业务调研手段：浅中深三层10大评估法

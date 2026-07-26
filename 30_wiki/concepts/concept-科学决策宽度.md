@@ -32,6 +32,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 科学决策
 ---
 # 科学决策宽度：个人·企业·团队
 

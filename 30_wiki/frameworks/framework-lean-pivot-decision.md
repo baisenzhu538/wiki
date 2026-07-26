@@ -38,6 +38,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 张磊教练
 ---
 # 精益验证结果如何触发战略/产品 pivot
 

@@ -23,6 +23,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 对话记录
+- 老朱代码库梳理案例
+- 老朱结构工程师案例
 ---
 
 # 非专家判断替代法——不懂的领域用 AI 集群建立可用判断力

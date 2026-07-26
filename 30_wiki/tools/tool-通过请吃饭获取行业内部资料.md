@@ -32,6 +32,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 决策评估画布
+- 科学决策
 ---
 
 # 技能：通过请吃饭获取行业内部资料

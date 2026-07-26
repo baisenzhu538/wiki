@@ -27,6 +27,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 两种典型的思考习惯
+- 科学决策
 ---
 # 两种典型思考习惯
 

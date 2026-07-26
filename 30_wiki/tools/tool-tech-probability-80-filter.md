@@ -36,6 +36,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- tasks
 ---
 
 # 李开复 80% 概率过滤器

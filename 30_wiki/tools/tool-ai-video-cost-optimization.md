@@ -50,6 +50,9 @@ query_triggers:
 - API省钱
 - 中转商API
 - 企业认证
+aliases:
+- AI口播工具开发经验
+- 付则宇
 ---
 # AI工具开发成本优化清单
 

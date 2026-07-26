@@ -50,6 +50,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 关键假设
+- 关键假设课
 ---
 
 # 一堂关键假设 ABCD 模型（YitangABCDStrategyModel）

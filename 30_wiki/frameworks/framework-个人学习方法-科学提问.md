@@ -36,6 +36,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- study
+- 个人修炼
 ---
 
 # 科学提问：AI时代提问=生产力入口

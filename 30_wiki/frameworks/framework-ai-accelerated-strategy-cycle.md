@@ -41,6 +41,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 张磊教练
 ---
 
 # AI 加速的战略-验证闭环

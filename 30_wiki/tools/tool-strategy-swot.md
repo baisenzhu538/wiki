@@ -24,6 +24,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 # SWOT 分析工具：从四象限到行动策略
 

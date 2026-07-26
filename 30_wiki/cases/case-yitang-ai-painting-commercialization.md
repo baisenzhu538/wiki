@@ -39,6 +39,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 元能力-刻意练习
+- 刻意练习行动营
 ---
 # 案例：崔磊如何通过 AI 绘画练习实现商业化交付
 

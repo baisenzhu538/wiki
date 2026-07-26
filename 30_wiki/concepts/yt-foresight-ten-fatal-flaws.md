@@ -41,6 +41,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 机会预判课
 ---
 
 # 十大硬伤：商业机会的致死缺陷清单

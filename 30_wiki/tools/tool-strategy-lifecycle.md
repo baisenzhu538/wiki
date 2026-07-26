@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 # 企业生命周期战略：从 0 到 1、从 N 到 ∞、从 N 到 0
 

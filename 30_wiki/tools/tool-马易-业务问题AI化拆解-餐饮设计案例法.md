@@ -27,6 +27,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 天花板
 ---
 
 # 技能：业务问题AI化拆解-餐饮设计案例法

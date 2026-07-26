@@ -40,6 +40,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法
+- 产品路线图
+- 企业知识库
 ---
 
 # 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向

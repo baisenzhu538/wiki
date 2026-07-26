@@ -39,6 +39,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 半肥猫
+- 学习落地
 ---
 
 # 暗知识：AI 回答越丝滑，问题越大

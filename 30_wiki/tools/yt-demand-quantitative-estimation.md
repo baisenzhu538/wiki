@@ -42,6 +42,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 市场规模估算四种方法
 ---
 
 # 市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案估值

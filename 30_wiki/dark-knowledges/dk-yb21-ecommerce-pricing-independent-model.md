@@ -25,6 +25,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
+aliases:
+- 设计师实操培训
 ---
 
 # 电商定价：线上价格带需独立建模

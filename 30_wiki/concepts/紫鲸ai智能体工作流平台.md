@@ -22,6 +22,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 智能体工作流平台
 ---
 
 # 紫鲸AI智能体工作流平台

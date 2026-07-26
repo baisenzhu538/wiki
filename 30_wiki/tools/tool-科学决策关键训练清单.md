@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 关键训练清单
+- 科学决策
 ---
 # 科学决策ROI·关键训练清单
 

@@ -24,6 +24,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
+aliases:
+- 设计师实操培训
 ---
 
 # AI生图：用多图共性替代语言描述

@@ -49,6 +49,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法
 ---
 
 # 案例：知乎vs得到——网络效应壁垒的对比分析

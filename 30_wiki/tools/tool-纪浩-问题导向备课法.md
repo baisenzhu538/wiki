@@ -29,6 +29,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 五层结构
+- 俱乐部
 ---
 
 # 技能：问题导向备课法

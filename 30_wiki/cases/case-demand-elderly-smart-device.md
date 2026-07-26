@@ -32,6 +32,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 五步法之需求分析
+- 方法论
 ---
 # 案例：老年智能设备
 

@@ -38,6 +38,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 低成本验证实操
+- 关键假设
 ---
 
 # 关键假设 ABCD 模型

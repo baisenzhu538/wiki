@@ -39,6 +39,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 归一总结：整合信息形成统一结论

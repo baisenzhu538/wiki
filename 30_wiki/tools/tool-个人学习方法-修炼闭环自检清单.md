@@ -33,6 +33,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- ideas
+- 个人修炼
 ---
 
 # 四环修炼闭环自检清单

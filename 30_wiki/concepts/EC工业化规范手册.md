@@ -24,6 +24,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 工业化规范手册
 ---
 
 # EC工业化规范手册

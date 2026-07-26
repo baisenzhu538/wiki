@@ -41,6 +41,8 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+- 时代清单体笔记
 ---
 
 # 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作

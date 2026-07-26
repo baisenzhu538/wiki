@@ -72,6 +72,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 课程地图精华串讲
 ---
 
 # 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问

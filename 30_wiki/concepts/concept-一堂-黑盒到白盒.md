@@ -52,6 +52,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 黑盒到白盒：把「一大坨」的直觉决策拆成可证伪、可讨论、可沉淀、可迁移的参数结构

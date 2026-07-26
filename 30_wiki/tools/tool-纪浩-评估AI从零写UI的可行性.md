@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 五层结构
+- 俱乐部
 ---
 # 技能：评估AI从零写UI的可行性
 

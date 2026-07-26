@@ -33,6 +33,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- prompts
 ---
 # 审美雷达建模 Agent Spec
 

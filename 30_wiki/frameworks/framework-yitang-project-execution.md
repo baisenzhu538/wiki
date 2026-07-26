@@ -53,6 +53,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 守质量
+- 控变化
 ---
 
 # 项目管过程：六大管理手段保障项目落地

@@ -37,6 +37,10 @@ related:
 - '[[pending_unknown]]'
 confidence: 0.65
 trust_level: medium
+aliases:
+- 云管家
+- 优行业分享
+- 剧本创作分享
 ---
 
 # 产业 AI 落地案例集（非药柜）

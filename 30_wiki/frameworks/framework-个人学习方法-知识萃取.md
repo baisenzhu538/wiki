@@ -35,6 +35,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 个人修炼
+- 知识萃取探索营口述版
 ---
 
 # 知识萃取：碎片经验→可落地模型

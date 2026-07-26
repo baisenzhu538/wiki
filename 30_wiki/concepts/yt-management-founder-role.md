@@ -38,6 +38,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 原生初创公司
+- 官方发布创始人手册打造
 ---
 
 # 一号位

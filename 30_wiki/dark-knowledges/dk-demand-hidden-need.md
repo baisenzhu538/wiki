@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 方法论
 ---
 
 # 隐性需求伪装：用户说的≠用户要的

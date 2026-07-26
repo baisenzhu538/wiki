@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 复盘迭代
+- 泛产品设计
 ---
 # 落地卡片：复盘迭代
 

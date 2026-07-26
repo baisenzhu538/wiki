@@ -30,6 +30,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 任务洞察冰山图
 ---
 # 需求洞察冰山模型
 

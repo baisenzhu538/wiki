@@ -59,6 +59,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 做复盘
+- 入门篇
 ---
 
 # 科学项目管理：一堂管项目四步闭环

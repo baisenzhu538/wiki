@@ -24,6 +24,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 案例：直播电商规模误判——以电视购物做类比导致以偏概全

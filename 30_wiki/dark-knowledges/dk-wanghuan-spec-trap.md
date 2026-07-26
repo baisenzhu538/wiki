@@ -48,6 +48,9 @@ tags:
 - scene:reference
 - skill-level:intermediate
 review_date: '2026-06-28'
+aliases:
+- 的七个阶段
+- 示意图
 ---
 
 # 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限

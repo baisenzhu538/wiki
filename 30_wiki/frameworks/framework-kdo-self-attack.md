@@ -41,6 +41,10 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- attack
+- capabilities
+- outputs
 ---
 # KDO 知识自攻击框架：用对抗 Agent 在交付前主动找出弱点
 

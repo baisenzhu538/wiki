@@ -65,6 +65,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 决策评估画布
+- 科学决策
 ---
 
 # AI决策Partner对话法

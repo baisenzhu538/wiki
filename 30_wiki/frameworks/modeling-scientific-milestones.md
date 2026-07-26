@@ -36,6 +36,8 @@ source_context: 单一 source 为完整长文档，内容充分支撑 medium-hig
 diagnostic_signals:
 - src_unknown
 - src_unknown
+aliases:
+- 建模能力培训
 ---
 
 # 科学建模七步里程碑：从边界到封装的方法论生产流程

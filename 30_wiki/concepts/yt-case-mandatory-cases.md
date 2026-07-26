@@ -42,6 +42,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 声音和画面正常吗
 ---
 
 # 一堂案例必修课

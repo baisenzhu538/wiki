@@ -35,6 +35,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 关键假设
+- 科学决策
 ---
 
 # 一堂·关键假设ABCD模型

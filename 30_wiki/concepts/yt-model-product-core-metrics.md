@@ -21,6 +21,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂产品内核十大典型指标
 ---
 # 产品内核十大典型指标：从获客到推荐的度量框架
 

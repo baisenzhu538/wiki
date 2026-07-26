@@ -35,6 +35,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 个人修炼
+- 讲香十指模型口述版
 ---
 
 # 讲香·卖点直给到价值感

@@ -36,6 +36,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 书籍拆解
 ---
 
 # BMW 工厂人机协作案例：idle time 减少 85% 被误读为产能提升 85%

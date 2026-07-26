@@ -46,6 +46,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 大的事件它可能是必然的它是被计划的
 ---
 
 # 偶然性与决策：承认"我不知道"比虚假确定性更明智

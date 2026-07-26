@@ -40,6 +40,10 @@ related:
 - '[[case-ai-assisted-review]]'
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[ai-俱乐部人和-ai-协作-五层结构]]'
+aliases:
+- 何老师
+- 场景落地方法分享
+- 工具使用分享
 ---
 
 # AI 方法论与工具栈：主题综合知识卡

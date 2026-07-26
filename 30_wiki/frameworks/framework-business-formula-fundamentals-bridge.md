@@ -58,6 +58,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- fundamentals
 ---
 <!--
   桥接卡骨架 — 这是三张桥接卡中最重要的一张。

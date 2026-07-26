@@ -38,6 +38,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂制作仿真三要点：在真实视角下打磨细节并沉淀过程资产

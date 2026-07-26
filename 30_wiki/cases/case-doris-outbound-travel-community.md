@@ -26,6 +26,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 行业报告调研
+- 调研专题
 ---
 
 # 案例：出境游产业链拆解

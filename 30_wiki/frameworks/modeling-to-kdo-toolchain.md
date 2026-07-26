@@ -51,6 +51,10 @@ diagnostic_signals:
 - framework_lens: 阶段不可跳级
   follow_up_question: 当前是否有执行稳定的SOP/清单？执行率达到90%以上再进入抽象建模。
 updated_at: '2026-06-17'
+aliases:
+- 建模能力培训
+- 流程建模
+- 高阶建模
 ---
 
 # 建模三段论 → KDO 工具链映射

@@ -70,6 +70,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 五步法预判
+- 咖啡店案例
 ---
 
 # 一堂·机会预判：CEO 的预判操作系统（总框架）

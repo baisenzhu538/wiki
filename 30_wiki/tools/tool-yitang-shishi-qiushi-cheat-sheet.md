@@ -26,6 +26,8 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 实事求是团队训练小抄：实事问句 + 求是问句

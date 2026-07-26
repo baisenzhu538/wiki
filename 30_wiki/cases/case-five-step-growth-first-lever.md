@@ -58,6 +58,8 @@ related:
 - '[[yt-customer-acquisition-toolkit]]'
 - '[[case-five-step-fake-vs-real-barriers]]'
 - '[[case-truman-ai-skill-self-packaging]]'
+aliases:
+- 一堂五步法
 ---
 
 # 案例：五步法中从产品内核到增长的第一次跨越

@@ -32,6 +32,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 ## 核心主张

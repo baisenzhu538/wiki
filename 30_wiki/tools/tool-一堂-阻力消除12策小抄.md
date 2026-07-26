@@ -66,6 +66,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 # 一堂阻力消除 12 策小抄：12 种常见阻力 × 三类手段
 

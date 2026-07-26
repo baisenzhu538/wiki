@@ -50,6 +50,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代清单体笔记
+- 时代请单体笔记
 ---
 
 # 清单体作为AI的I/O协议——用笔记替代prompt工程

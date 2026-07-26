@@ -38,6 +38,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂减法排序四招：经验专家/内部共识/同行调研/实验验证

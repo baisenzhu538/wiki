@@ -24,6 +24,8 @@ aliases:
 - founder-ip-three-positioning
 - 创始人 IP 三定位
 - IP 三定位模型
+- study
+- 大馨战队
 tags:
 - '#scene/business-analysis'
 - content-production

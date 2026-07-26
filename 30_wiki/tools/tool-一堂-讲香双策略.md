@@ -42,6 +42,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂讲香双策略：具体化+抽象化与波峰波谷的张力表达

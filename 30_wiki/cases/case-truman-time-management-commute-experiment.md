@@ -34,6 +34,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 整合笔记
+- 时间管理
 ---
 
 # Truman 通勤实验：用时间审计把「废时间」变成产能杠杆

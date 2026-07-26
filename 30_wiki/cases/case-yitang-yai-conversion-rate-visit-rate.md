@@ -26,6 +26,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- administrator
+- desktop
+- users
 ---
 
 # YAI实录：转化率agent——智慧药柜电话到访率10%→30%五阻力拆解

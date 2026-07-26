@@ -43,6 +43,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 建模能力培训
 ---
 
 # 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践

@@ -80,6 +80,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 科学决策
 ---
 
 # 案例：电话外呼的 ROI 分析

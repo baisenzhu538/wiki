@@ -56,6 +56,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 常见模型武器库
+- 建模能力培训
+- 抽象建模
 ---
 
 # 画布/武器库建模法：把工具箱变成可快速调用的系统

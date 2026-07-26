@@ -46,6 +46,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 定量建模：用数字说话的分析框架

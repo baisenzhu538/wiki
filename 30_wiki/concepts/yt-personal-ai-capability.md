@@ -58,6 +58,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 教学能力修炼分享
 ---
 
 # AI 能力（双模型）

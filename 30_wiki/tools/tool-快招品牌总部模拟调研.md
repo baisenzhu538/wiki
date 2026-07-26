@@ -36,6 +36,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 决策评估画布
+- 科学决策
 ---
 
 # 技能：快招品牌总部模拟调研

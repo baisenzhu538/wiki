@@ -24,6 +24,8 @@ aliases:
 - shortvideo-six-dimension-deconstruction
 - 短视频六维度拆解
 - 短视频拆解工具
+- study
+- 大馨战队
 tags:
 - '#scene/business-analysis'
 - content-production

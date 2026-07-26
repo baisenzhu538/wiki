@@ -40,6 +40,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 方法论
 ---
 
 # 拆推评算使用指南：工具箱而非工作流

@@ -48,6 +48,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 单元模型
 ---
 
 # 技能：将未中标成本纳入循环计算真实投标成本

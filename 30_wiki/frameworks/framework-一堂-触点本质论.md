@@ -66,6 +66,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 # 一堂触点本质论
 

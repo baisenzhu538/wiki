@@ -42,6 +42,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 条关键假设
+- 调研专题
 ---
 # AI辅助调研工作流：七工具四层深度+十大假设
 

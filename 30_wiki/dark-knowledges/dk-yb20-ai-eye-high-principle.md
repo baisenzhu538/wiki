@@ -25,6 +25,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
+aliases:
+- 设计师实操培训
 ---
 
 # AIGC眼高原则：审美先于技术

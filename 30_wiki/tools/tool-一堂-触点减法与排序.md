@@ -41,6 +41,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂触点减法与排序：冗长/低价值/资源有限下的好钢用在刀刃上

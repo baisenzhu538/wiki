@@ -38,6 +38,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 工业化生产
 ---
 
 # 案例：一堂如何用 ABCD 模型实现口播短视频工业化

@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 调研专题
+- 高阶情报调研课
 ---
 # 案例：假装订货套取竞品真实价格
 

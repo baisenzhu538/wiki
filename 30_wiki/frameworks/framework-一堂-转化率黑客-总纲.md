@@ -107,6 +107,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- conversion
 ---
 
 # 一堂转化率黑客总纲：转化率 = 动力 − 阻力 + 触点

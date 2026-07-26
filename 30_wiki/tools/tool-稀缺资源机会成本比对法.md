@@ -37,6 +37,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 关键训练清单重要
+- 科学决策
 ---
 
 # 技能：稀缺资源机会成本比对法

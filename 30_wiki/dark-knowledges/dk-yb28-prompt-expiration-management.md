@@ -24,6 +24,8 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:beginner
+aliases:
+- 设计基础
 ---
 
 # 提示词有效期预期管理

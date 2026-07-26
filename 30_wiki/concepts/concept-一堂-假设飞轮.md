@@ -61,6 +61,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 假设飞轮：假设→结果→激励→更多假设的团队侧增强回路

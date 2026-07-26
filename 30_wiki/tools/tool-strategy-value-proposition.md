@@ -4,6 +4,8 @@ title: 价值主张设计工具：三问 + 六维排序法
 aliases:
 - src_unknown
 - src_unknown
+- 冉鹏PPT截图
+- 引擎点火
 type: tool
 status: reviewed
 confidence: 0.92

@@ -36,6 +36,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 假的壁垒
 ---
 
 # 一堂五步法·壁垒：六大护城河+真假壁垒判断

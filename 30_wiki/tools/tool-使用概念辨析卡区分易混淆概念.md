@@ -39,6 +39,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 单元模型
+- 规模对抗实操难点
 ---
 
 # 技能：使用概念辨析卡区分易混淆概念

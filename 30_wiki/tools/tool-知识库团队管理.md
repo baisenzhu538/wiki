@@ -38,6 +38,10 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:beginner
+aliases:
+- 个人修炼
+- 完整清单
+- 科学学习
 ---
 
 # 技能：知识库团队管理

@@ -58,6 +58,9 @@ related:
 - '[[yt-entrepreneur-barriers]]'
 - '[[case-five-step-growth-first-lever]]'
 - '[[yt-scale-economy-weapon-library]]'
+aliases:
+- 一堂五步法
+- 假的壁垒
 ---
 
 # 案例：五步法中识别真壁垒和假壁垒

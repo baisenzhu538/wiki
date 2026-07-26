@@ -46,6 +46,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 > 《优秀转化率复盘合集》收录 8 位学员按「提升动力 / 降低阻力 / 挖掘触点」框架撰写的真实复盘，但现行 PDF 为残缺导出件：仅邹韵涛案例（p001-p004）完整可读，沈伟杰（p005）仅有背景片段，其余 6 个案例正文缺失。本卡作为内容可用性索引，明确标注每案例状态，不编造缺失数字。

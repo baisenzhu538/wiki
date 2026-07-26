@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 五层结构
+- 俱乐部
 ---
 # 技能：里程碑验证法
 

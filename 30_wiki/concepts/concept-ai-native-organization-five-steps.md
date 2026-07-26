@@ -45,6 +45,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 公司组织方法论直接把公司当操作系统来设计中层管理变成了
+- 放出一套
 ---
 
 # AI原生组织五步搭建法：从罗马军团到自进化有机体

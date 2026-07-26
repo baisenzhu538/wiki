@@ -64,6 +64,9 @@ diagnostic_signals:
   follow_up_question: 这篇笔记中至少有30%是你自己的判断、关联或反常识问题吗？
 - framework_lens: 广泛涉猎前提缺失
   follow_up_question: 你的清单体基本功是否已经练到"肌肉记忆"级别？
+aliases:
+- 时代清单体笔记
+- 时代请单体笔记
 ---
 
 # 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径

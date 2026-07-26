@@ -32,6 +32,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 关键假设
+- 关键假设课
 ---
 
 # 工具：关键假设 ABCD 场景分类器

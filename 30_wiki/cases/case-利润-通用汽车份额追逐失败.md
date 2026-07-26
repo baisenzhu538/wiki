@@ -23,6 +23,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 利润为王
+- 战略定价顾问
 ---
 
 # 通用汽车 2002-2010：为 29% 份额降价的代价

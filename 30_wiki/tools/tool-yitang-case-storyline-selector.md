@@ -25,6 +25,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 案例打磨方法
+- 案例打造法-李頔
 ---
 
 # 案例故事线选择决策树

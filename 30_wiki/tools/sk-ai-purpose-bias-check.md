@@ -30,6 +30,8 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+aliases:
+- 拆书会
 ---
 # 技能：目的论偏差快速识别法
 

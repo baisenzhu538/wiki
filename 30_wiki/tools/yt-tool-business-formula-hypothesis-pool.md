@@ -65,6 +65,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 关键假设池：三层形态 + 字段模板 + 四条运营纪律

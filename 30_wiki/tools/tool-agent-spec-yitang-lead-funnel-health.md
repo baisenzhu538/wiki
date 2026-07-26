@@ -43,6 +43,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- product
 ---
 # 线索漏斗健康度诊断 Agent Spec
 

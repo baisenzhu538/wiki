@@ -68,6 +68,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 单元模型
 ---
 # 一堂五步法：从机会预判到规模化的五步闭环
 

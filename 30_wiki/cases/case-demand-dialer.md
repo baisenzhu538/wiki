@@ -31,6 +31,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 五步法之需求分析
+- 需求评估避坑合集
 ---
 # 案例：小胖猴拨号器
 

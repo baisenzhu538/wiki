@@ -36,6 +36,9 @@ author: 黄药师
 reviewed_by: 欧阳锋
 difficulty: intermediate
 estimated_tokens: 3500
+aliases:
+- 调研专题
+- 调研武器库培训
 ---
 
 # 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线

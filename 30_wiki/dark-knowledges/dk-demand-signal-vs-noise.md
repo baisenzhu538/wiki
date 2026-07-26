@@ -28,6 +28,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 决策高度实操课口述
+- 科学决策
 ---
 
 # 需求信号与噪音的区分

@@ -48,6 +48,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 > 动力篇案例库：一堂以「动力三曲线 + 影响力六原则」为结构，用 70+ 个大小案例说明如何把「可买可不买」变成「很想要」，本卡按课程结构做分层索引，S 级已独立成卡的案例仅保留指针行。

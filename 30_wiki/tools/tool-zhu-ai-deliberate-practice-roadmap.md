@@ -30,6 +30,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases: []
 ---
 
 # 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周

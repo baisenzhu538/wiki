@@ -39,6 +39,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 半肥猫
+- 学习落地
 ---
 
 # 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁

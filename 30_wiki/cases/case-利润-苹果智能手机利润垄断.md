@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 利润为王
+- 战略定价顾问
 ---
 
 # 苹果智能手机利润垄断：18% 出货量拿走 85% 利润

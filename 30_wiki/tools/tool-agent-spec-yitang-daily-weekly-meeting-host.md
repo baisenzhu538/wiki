@@ -41,6 +41,8 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
+aliases:
+- product
 ---
 # 日会 / 周会智能主持 Agent Spec
 

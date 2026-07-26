@@ -54,6 +54,7 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases: []
 ---
 
 # 高水平计划 OSC：锁定目标·缩小范围·罗列清单

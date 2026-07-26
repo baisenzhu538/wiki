@@ -26,6 +26,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 半肥猫
+- 学习落地
 ---
 
 # 案例：Skill A/B 测试

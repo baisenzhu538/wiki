@@ -25,6 +25,8 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 created_at: '2026-06-15'
 updated_at: '2026-06-18'
+aliases:
+- 建模能力培训
 ---
 
 ## 原始表述

@@ -32,6 +32,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- prompts
 ---
 # 能力迁移诊断 Agent Spec
 

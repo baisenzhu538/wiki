@@ -39,6 +39,9 @@ created_at: '2026-06-28'
 updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: medium
+aliases:
+- 三个新盲区
+- 外部知识探索
 ---
 
 # Key Assumptions Check（隐藏假设检验）

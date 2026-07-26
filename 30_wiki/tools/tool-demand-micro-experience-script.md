@@ -35,6 +35,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 五步法之需求分析
+- 剥离需求
 ---
 
 # 微观体感访谈脚本生成器：基于L4崩溃点生成5感访谈问题

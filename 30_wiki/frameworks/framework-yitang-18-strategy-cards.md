@@ -45,6 +45,7 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases: []
 ---
 
 # 降龙十八掌：18张调研策略卡全景图

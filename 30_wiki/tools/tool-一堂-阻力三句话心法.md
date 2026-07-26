@@ -43,6 +43,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂阻力三句话心法：至少降低它 / 争取消除它 / 挑战逆转它

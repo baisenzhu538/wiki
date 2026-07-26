@@ -52,6 +52,8 @@ diagnostic_signals:
   follow_up_question: 你是否找过 1-2 份权威报告/优秀作品，从实用性、宽度、专业性三个维度给你的 Skill 打分？
 - framework_lens: 没有把指南转化为可复用资产
   follow_up_question: 你最近封装新 Skill 时，是否先让 AI 用工程指南做一遍自查？
+aliases:
+- 建模能力培训
 ---
 
 # 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南

@@ -50,6 +50,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 协作方法论
 ---
 
 # 技能：Do-first PDCA渐进迭代法

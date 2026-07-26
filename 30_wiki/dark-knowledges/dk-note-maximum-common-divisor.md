@@ -34,6 +34,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代清单体笔记
 ---
 
 ## 原始表述 / 核心洞察

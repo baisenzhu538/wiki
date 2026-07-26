@@ -54,6 +54,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- knowledges
 ---
 
 # OPC 客户异议处理助手 Agent Spec

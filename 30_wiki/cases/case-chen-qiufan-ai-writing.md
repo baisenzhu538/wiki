@@ -45,6 +45,7 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases: []
 ---
 
 # 陈楸帆对 AI 写作的态度转向

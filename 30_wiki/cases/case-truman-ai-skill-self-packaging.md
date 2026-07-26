@@ -51,6 +51,8 @@ diagnostic_signals:
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
 updated_at: '2026-06-29'
+aliases:
+- 建模能力培训
 ---
 
 # AI 自复盘自封装：Truman 怎么让 AI 把自己包装成一个技能

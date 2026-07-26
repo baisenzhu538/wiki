@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 半肥猫
+- 如何封装一个可复用的业务
 ---
 
 # KDO Agent 生产 SOP 清单：从业务任务到可运行 Agent 的五步法

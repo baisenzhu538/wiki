@@ -31,6 +31,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 决策评估画布
+- 科学决策
 ---
 # 技能：创始人+二当家分工协作模式
 

@@ -37,6 +37,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 行业报告调研
+- 调研专题
 ---
 # 行业报告搜索七技：三级搜索能力+渠道清单
 

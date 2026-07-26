@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 十倍速验证
+- 泛产品设计
 ---
 # 落地卡片：十倍速验证
 

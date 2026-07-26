@@ -54,6 +54,9 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+aliases:
+- 个人修身
+- 模型探索营
 ---
 
 # Y模型探索营2：五次质变与科学推演

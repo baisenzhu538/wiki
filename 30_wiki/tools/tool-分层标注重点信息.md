@@ -36,6 +36,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 自用的
 ---
 # 技能：分层标注重点信息
 

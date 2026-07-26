@@ -39,6 +39,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 客户分层和卖点提炼
 ---
 # 案例：涂料公司“意图”——从 10 万线索中筛出 220 个高价值客户的分层转型
 

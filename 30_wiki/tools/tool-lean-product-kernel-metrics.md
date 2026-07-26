@@ -27,6 +27,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 精益创业
 ---
 
 # 产品内核十大典型指标

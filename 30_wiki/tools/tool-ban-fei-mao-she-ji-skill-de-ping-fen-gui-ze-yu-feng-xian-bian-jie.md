@@ -52,6 +52,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 半肥猫
+- 学习落地
 ---
 
 # 技能：设计 Skill 的评分规则与风险边界

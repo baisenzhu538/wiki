@@ -39,6 +39,10 @@ related:
 - '[[tool-泛产品落地-ROI分析]]'
 - business-validation-models-collaboration
 - supply-chain-beverage
+aliases:
+- 产品方向选择讨论
+- 市场分析讨论
+- 项目问题沟通
 ---
 # 产品-商业战略综合：设备运营、方向取舍与产品开发
 

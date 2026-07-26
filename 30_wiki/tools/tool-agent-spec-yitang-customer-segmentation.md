@@ -55,6 +55,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- tasks
 ---
 
 # OPC 客户分级智能体 Agent Spec

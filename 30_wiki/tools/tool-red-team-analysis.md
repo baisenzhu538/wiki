@@ -35,6 +35,9 @@ created_at: '2026-06-28'
 updated_at: '2026-06-29'
 confidence: 0.78
 trust_level: medium
+aliases:
+- 三个新盲区
+- 外部知识探索
 ---
 
 # Red Team Analysis（红队分析/竞对视角模拟）

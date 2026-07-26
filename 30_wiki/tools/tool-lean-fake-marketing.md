@@ -28,6 +28,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 精益创业
 ---
 # 假营销：用故事验证兴趣
 

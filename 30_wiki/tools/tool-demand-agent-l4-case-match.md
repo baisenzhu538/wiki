@@ -36,6 +36,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 冰山策略增强
+- 外部探索
 ---
 # Agent 做 L4：案例库自动检索匹配
 

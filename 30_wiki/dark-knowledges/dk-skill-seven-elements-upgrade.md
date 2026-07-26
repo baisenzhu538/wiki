@@ -40,6 +40,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- administrator
+- desktop
+- users
 ---
 
 # Skill ≠ Prompt——蓝鱼七要素告诉你完整 Skill 缺了什么

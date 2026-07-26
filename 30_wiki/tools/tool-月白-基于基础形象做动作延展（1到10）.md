@@ -42,6 +42,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 全流程
+- 文创案例设计课
 ---
 
 # 技能：基于基础形象做动作延展（1到10）

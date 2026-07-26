@@ -23,6 +23,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 案例：可乐撒了——ROI模型（Y模型推导产物）重构客户赔偿流程

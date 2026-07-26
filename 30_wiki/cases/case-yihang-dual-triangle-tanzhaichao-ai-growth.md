@@ -23,6 +23,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 人机协作双三角
+- 谭再超案例口述
 ---
 
 # 双三角案例：谭再超——从 AI 小白到 MCP 大航海 MVP，半年蜕变

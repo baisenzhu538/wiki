@@ -30,6 +30,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 元能力-刻意练习
+- 关于刻意练习的对话
 ---
 
 # 练习卡片拆解

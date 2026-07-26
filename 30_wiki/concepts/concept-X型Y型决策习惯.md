@@ -43,6 +43,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 型决策习惯对比
+- 科学决策
 ---
 
 # X型 vs Y型决策习惯

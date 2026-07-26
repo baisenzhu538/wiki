@@ -35,6 +35,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- prompts
 ---
 ## System Prompt 模板
 

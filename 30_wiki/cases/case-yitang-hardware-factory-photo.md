@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 调研专题
+- 高阶情报调研课
 ---
 # 案例：从朋友圈照片找到代工厂
 

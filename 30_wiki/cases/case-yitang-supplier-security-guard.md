@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 调研专题
+- 调研武器库培训
 ---
 # 案例：通过保安打听到工厂收购价
 

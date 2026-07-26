@@ -37,6 +37,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 一堂五步法
 ---
 
 # 五步法换档检查清单

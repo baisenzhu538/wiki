@@ -31,6 +31,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 建模能力培训
 ---
 
 ## 原始表述/核心洞察

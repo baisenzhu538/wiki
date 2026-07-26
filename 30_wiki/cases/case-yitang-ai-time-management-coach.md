@@ -26,6 +26,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 调研专题
+- 高阶调研行动营
 ---
 # 案例：AI辅助调研——产品验证
 

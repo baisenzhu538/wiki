@@ -28,6 +28,8 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 目标管理四大病：经验主义、本本主义、形式主义、完美主义

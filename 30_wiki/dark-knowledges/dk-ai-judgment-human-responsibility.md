@@ -24,6 +24,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
+aliases:
+- study
+- 时代判断力口述
 ---
 # 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果
 

@@ -30,6 +30,8 @@ related:
 aliases:
 - 双三角段位图
 - 双三角十年地图
+- 一堂双三角
+- 人机协作双三角
 tags:
 - audience:ceo
 - scene:diagnosis

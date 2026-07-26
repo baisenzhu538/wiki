@@ -44,6 +44,7 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases: []
 ---
 
 # 调研目标锁定：从"了解"到"决策"的认知跃迁

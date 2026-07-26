@@ -42,6 +42,9 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
+aliases:
+- 组织调研
+- 调研专题
 ---
 
 # 组织调研手段：浅中深三层10大评估法

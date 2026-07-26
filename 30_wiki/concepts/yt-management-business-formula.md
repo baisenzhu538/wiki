@@ -47,6 +47,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 业务公式拆解培训
 ---
 
 # 业务公式

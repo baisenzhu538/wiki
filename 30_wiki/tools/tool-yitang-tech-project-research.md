@@ -44,6 +44,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 科技项目
+- 调研专题
 ---
 
 # 科技型项目调研手段：浅中深三层10大评估法

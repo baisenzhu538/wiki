@@ -41,6 +41,10 @@ diagnostic_signals:
   follow_up_question: 这份 SOP 有责任人、督导人和品控人吗？最近一次更新是因为什么意外？
 - framework_lens: 流程建模适用边界
   follow_up_question: 哪些步骤必须标准化（高失败成本），哪些环节应该保留判断空间？这份 SOP 是否用在了不该标准化的创意型任务上？
+aliases:
+- 建模能力培训
+- 流程建模
+- 高阶建模
 ---
 
 # 流程建模案例：一堂 2021-2024 年 SOP 清单演进史

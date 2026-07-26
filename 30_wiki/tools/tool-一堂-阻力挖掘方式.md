@@ -44,6 +44,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂阻力挖掘方式：把阻力当关键假设来定位

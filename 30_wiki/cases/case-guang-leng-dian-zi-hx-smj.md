@@ -45,6 +45,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+- 交叉验证报告
+- 原理图与
+- 广冷电子
 ---
 
 # 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线

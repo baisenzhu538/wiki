@@ -47,6 +47,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 整合笔记
 ---
 # 一堂销售工具箱六维雷达图
 

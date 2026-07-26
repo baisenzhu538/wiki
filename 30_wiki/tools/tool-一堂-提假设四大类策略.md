@@ -38,6 +38,9 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂提假设四大类策略：自己琢磨/用好小抄/借鉴外部/团队开会

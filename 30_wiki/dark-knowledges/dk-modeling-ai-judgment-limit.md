@@ -31,6 +31,8 @@ tags:
 - scene:reference
 - skill-level:intermediate
 diagnostic_signals: null
+aliases:
+- 建模能力培训
 ---
 
 ## 原始表述 / 核心洞察

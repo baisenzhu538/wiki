@@ -49,6 +49,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法
+- 商业模型
+- 线下玩具柜案例
 ---
 
 # 案例：线下玩具柜的壁垒困局与突围路径

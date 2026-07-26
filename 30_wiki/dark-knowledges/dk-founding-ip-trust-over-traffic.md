@@ -36,6 +36,9 @@ tags:
 quality_labels:
 - principle
 - validated
+aliases:
+- study
+- 大馨战队
 ---
 
 # 创始人 IP 追求信任，网红追求流量

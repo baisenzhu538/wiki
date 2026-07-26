@@ -22,6 +22,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 实事求是十坑·错误类比：县城 LED 屏对标分众传媒

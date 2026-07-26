@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 用户调研实操课
+- 调研专题
 ---
 # 案例：上门美甲——在真实场景中访谈
 

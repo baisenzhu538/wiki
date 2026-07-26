@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 利润为王
+- 利润认知与企业生存
 ---
 
 # 白牌珠宝直播：流量驱动的利润陷阱

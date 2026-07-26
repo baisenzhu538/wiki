@@ -48,6 +48,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- fundamentals
+- manage
 ---
 
 # 基本功四字诀「拆建推练」：把一个动作练成组织能力

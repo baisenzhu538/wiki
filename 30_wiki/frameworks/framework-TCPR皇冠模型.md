@@ -46,6 +46,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 皇冠模型
 ---
 
 # TCP-R皇冠模型

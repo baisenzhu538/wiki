@@ -27,6 +27,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 单元模型
 ---
 # 外部对抗地图
 

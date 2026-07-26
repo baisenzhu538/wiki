@@ -46,6 +46,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代清单体笔记
 ---
 
 # 笔记能力=解决问题能力：从备忘工具到问题解决系统

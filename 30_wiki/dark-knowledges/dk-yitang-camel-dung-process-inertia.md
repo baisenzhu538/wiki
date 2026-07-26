@@ -23,6 +23,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 流程经验不与底层原因对齐，会长期低效存在

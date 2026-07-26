@@ -44,6 +44,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代请单体笔记
 ---
 
 # 广泛涉猎式笔记：以问题为入口的多源交叉认知法

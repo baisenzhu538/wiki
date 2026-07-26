@@ -44,6 +44,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 消费品
+- 调研专题
 ---
 # 消费品调研手段：浅中深三层10大评估法
 

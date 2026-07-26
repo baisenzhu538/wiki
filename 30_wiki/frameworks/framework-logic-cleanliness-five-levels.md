@@ -35,6 +35,8 @@ diagnostic_signals:
   follow_up_question: 是否达到了 L4 MECE？概念之间是否彼此独立、完全穷尽？
 - framework_lens: 逻辑洁癖五段位
   follow_up_question: 模块之间是否有推理关系，还是只是分类？是否达到了 L5 逻辑链？
+aliases:
+- 建模能力培训
 ---
 
 # 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准

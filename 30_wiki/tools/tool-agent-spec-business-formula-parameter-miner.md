@@ -44,6 +44,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- handle
 ---
 <!--
   Agent-spec 预设计 — 为第三步"自建agent"做准备。

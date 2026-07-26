@@ -38,6 +38,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 地图在手：建立全局信息获取体系

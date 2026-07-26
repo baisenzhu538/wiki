@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 严格财务公式
+- 科学决策
 ---
 # 决策深度L4：严格财务公式
 

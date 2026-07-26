@@ -61,6 +61,8 @@ aliases:
 - 一堂双三角
 - 缪斯模型
 - MUSE模型
+- 人机协作双三角
+- 人机协作模型
 tags:
 - audience:general
 - scene:reference

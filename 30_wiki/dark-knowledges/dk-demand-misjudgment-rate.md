@@ -28,6 +28,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 方法论
 ---
 
 # 30-50%创业失败源于需求误判

@@ -27,6 +27,8 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:beginner
+aliases:
+- 自用的
 ---
 
 # 技能：上下文质量管理（AI协作）

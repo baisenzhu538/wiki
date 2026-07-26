@@ -22,6 +22,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 的选择两条职业成长路线
 ---
 # 楚门的选择：两条职业成长路线 X vs Y
 

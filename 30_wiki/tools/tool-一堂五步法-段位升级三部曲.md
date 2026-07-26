@@ -34,6 +34,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 一堂五步法
+- 单元模型
 ---
 
 # 段位升级三部曲自检

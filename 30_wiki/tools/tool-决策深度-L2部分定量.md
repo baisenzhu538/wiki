@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 科学决策
+- 部分定量
 ---
 # 决策深度L2：部分定量
 

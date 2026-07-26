@@ -42,6 +42,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 探索营
+- 解放思想创新体系
 ---
 
 > 定位：[[framework-yitang-thought-liberation-lightning]] 的完整案例演示。

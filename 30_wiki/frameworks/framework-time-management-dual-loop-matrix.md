@@ -30,6 +30,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 整合笔记
+- 时间管理
 ---
 # 时间管理双循环矩阵：独立/协作 × 重点/效率
 

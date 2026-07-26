@@ -22,6 +22,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # 科学共同体作为一堂核心资产——冲向最大难题，解不掉就交给下一个人

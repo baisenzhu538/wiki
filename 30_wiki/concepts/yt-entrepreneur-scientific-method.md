@@ -22,6 +22,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 模型探索营
+- 第二节课
 ---
 > ⚠️ **本卡已被 [[yt-decision-y-model]] 重写升级，内容不再维护。** 请使用新卡《Y模型：一堂科学做事系统（KDO 根节点）》。
 

@@ -28,6 +28,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 北极星型 vs 探索型目标：二分类与动态切换

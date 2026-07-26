@@ -39,6 +39,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 低成本测试
+- 低成本验证
 ---
 
 # 系统测试曲线与三大测试范式

@@ -32,6 +32,7 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases: []
 ---
 # 阿马拉定律与商业判断校准
 

@@ -56,6 +56,9 @@ estimated_tokens: 4500
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
+aliases:
+- 时代清单体笔记
+- 时代请单体笔记
 ---
 
 # 现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册

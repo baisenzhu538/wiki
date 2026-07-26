@@ -20,6 +20,9 @@ tags:
 - scene:reference
 - skill-level:intermediate
 reviewed_by: pending
+aliases:
+- 人机协作双三角
+- 双三角
 ---
 # 双三角-竞争力武器库
 

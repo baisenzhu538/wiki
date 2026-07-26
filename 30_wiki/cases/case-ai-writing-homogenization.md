@@ -33,6 +33,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 书籍拆解
+- 吾辈如神
 ---
 
 # 内容平台 AI 洗稿同质化：当生成式 AI 压低表达多样性

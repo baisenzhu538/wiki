@@ -46,6 +46,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 全面调研报告
 ---
 
 # 案例：AI时间管理App七级演进

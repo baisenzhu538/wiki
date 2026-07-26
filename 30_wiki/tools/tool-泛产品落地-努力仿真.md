@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 努力仿真
+- 泛产品设计
 ---
 # 落地卡片：努力仿真
 

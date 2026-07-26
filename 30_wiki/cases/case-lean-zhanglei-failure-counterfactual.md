@@ -29,6 +29,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 张磊教练
+- 精益创业
 ---
 # 张磊 AMA：判断力训练产品的验证陷阱与反事实推演
 

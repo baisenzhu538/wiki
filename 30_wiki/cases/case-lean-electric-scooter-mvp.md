@@ -34,6 +34,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 低成本验证
+- 低成本验证实操
 ---
 # 案例：共享电动滑板车 A/B/C/D 四级 MVP 验证
 

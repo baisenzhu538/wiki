@@ -43,6 +43,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 逆向数据分析：从公开数据反推商业真相

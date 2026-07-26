@@ -30,6 +30,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 整合笔记
+- 时间管理
 ---
 # 双峰时间哲学模型
 

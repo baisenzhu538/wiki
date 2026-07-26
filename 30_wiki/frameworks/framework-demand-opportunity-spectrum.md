@@ -27,6 +27,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 商业终局光谱图
 ---
 
 # 商业机会预判·终局光谱图

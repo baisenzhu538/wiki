@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 半肥猫
+- 把脑子里的经验
 ---
 
 # 承诺核对表：Agent 能承诺什么、不能承诺什么

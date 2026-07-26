@@ -38,6 +38,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 渠道增长飞轮
 ---
 
 # 案例：Top City 如何用六大要素搭建内容-商户双端飞轮

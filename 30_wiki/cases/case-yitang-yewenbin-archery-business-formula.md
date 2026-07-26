@@ -57,6 +57,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- study
+- 落地之夜第六场
 ---
 # 射箭馆：用业务公式四参数串起动力阻力触点，把"等客流"变成"经营转化率"
 

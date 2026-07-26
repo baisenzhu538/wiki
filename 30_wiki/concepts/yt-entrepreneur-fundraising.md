@@ -25,6 +25,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 课程地图精华串讲
 ---
 # 融资认知
 

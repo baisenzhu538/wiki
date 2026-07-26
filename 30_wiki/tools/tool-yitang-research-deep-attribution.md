@@ -48,6 +48,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 深度归因：找到问题根因的5Why法

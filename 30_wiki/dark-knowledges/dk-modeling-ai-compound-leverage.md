@@ -37,6 +37,8 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 资产化不等于可用化——模型必须嵌入决策/评审/复盘环节
   follow_up_question: 为模型设计触发条件、使用责任人和调用入口；没有调用场景的模型不值得继续打磨。# AI 加杠杆最大的场景是建模，因为好模型会被反复调用
+aliases:
+- 建模能力培训
 ---
 
 ## 原始表述

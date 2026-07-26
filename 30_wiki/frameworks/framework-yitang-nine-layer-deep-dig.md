@@ -45,6 +45,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- capabilities
+- layer
 ---
 
 # 九层深挖法：商业分析的自我纠错式迭代框架

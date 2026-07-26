@@ -35,6 +35,8 @@ related:
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 author: 老顽童
+aliases:
+- 七人逐步骤对标分析
 ---
 # Y模型常见六大陷阱与反打
 

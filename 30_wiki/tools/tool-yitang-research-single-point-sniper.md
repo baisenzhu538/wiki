@@ -49,6 +49,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 单点狙击：聚焦关键问题的深度验证

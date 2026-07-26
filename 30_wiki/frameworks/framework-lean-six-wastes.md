@@ -37,6 +37,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 低成本验证
+- 方案做错
 ---
 
 # 创业六宗罪 / 六大浪费

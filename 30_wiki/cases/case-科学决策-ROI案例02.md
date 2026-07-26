@@ -26,6 +26,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 决策评估画布
+- 科学决策
 ---
 # 案例：是否搭建虚拟影棚
 

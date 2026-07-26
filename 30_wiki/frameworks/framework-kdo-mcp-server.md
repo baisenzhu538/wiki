@@ -29,6 +29,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- control
 ---
 
 # KDO MCP Server — 知识库能力的外部协议暴露层

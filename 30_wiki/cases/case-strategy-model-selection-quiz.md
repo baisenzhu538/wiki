@@ -35,6 +35,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 **背景**：冉鹏课程中的"模型选择"互动练习，要求学员根据业务情境把左侧情境与右侧模型连线配对。OCR 原始表格存在列错位，以下按情境-任务-模型匹配逻辑整理。
 

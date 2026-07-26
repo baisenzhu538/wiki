@@ -46,6 +46,7 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases: []
 ---
 
 # AI 情感陪伴的市场与伦理

@@ -56,6 +56,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:beginner
+aliases:
+- 俱乐部
+- 协作方法论
+- 参考案例
 ---
 
 # 纪浩：从微信传 zip 到五层协作体系

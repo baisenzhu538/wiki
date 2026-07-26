@@ -26,6 +26,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
+aliases:
+- 口喷设计范式与电商
+- 设计全流程
+- 设计师实操培训
 ---
 # AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程
 

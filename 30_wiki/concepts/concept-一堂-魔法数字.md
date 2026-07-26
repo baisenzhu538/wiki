@@ -51,6 +51,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 魔法数字：前置动作的拐点指标，找到一个价值百万千万

@@ -33,6 +33,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 内容只有滚动到视口时才加载到内存中
+- 虚拟滚动机制
 ---
 
 # 流式提取模式

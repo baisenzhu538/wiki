@@ -22,6 +22,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 调研专题
+- 调研超级武器库
 ---
 
 # 招投标分析

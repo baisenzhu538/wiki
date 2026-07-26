@@ -37,6 +37,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 探索营
+- 解放思想创新体系
 ---
 
 > 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的辅助工具，用于理解任何方法论框架。

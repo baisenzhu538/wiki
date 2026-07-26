@@ -31,6 +31,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases: []
 ---
 
 # Y模型STEPS策略集：五步策略框架

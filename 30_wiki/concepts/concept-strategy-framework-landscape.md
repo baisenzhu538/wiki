@@ -22,6 +22,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 交叉验证
+- 冉鹏框架
 ---
 # 战略框架全景图
 

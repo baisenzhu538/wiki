@@ -36,6 +36,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 个人修炼
+- 完整清单
+- 科学学习
 ---
 # 技能：项目复盘基本功
 

@@ -59,6 +59,8 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
+aliases:
+- 一堂业绩管理拆解画布
 ---
 # 一堂销售业绩管理三步法
 

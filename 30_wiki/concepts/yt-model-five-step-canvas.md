@@ -47,6 +47,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 一堂五步法画布
 ---
 
 # 五步法画布 × 产品内核画布：从假设到壁垒的实操工具

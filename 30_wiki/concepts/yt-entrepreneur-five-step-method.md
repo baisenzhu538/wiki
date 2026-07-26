@@ -72,6 +72,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 一堂五步法画布
+- 产品内核
+- 单元模型
 ---
 
 # 一堂五步法

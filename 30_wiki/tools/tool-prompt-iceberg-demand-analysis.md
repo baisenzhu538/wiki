@@ -23,6 +23,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 优秀提示词合集
 ---
 # 冰山图 L1-L6 需求深挖
 

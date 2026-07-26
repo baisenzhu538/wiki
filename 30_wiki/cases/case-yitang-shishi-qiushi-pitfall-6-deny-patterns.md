@@ -22,6 +22,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 实事求是十坑·不信规律：猎头互联网做大的结构性失败

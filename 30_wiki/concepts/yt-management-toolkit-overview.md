@@ -65,6 +65,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 课程地图精华串讲
 ---
 
 # 管理工具箱总览

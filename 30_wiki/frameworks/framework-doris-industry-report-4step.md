@@ -43,6 +43,7 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases: []
 ---
 
 # 行业报告调研四步法：7天快速建立行业认知

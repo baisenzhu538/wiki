@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 上市公司报告解读
+- 调研专题
 ---
 # 案例：泡泡玛特招股书中的定价基准
 

@@ -30,6 +30,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 低成本测试
+- 低成本验证
 ---
 # 案例：堕落小龙虾组合测试
 

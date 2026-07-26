@@ -27,6 +27,9 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
+aliases:
+- 调研专题
+- 调研超级武器库
 ---
 # 员工公开名录分析
 

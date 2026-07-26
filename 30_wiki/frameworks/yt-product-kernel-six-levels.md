@@ -41,6 +41,10 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 产品内核
+- 修炼段位图
 ---
 
 # 产品内核六个段位：从缺价值意识到全面迁移

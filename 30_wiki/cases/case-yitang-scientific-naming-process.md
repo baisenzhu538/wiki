@@ -25,6 +25,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 案例：科学起名——用 Y模型 把「玄学」变成可验证流程

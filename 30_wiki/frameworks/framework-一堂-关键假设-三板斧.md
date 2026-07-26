@@ -40,6 +40,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 关键假设
+- 关键假设三板斧
 ---
 
 # 一堂关键假设三板斧（骨架）

@@ -27,6 +27,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 十年修炼
+- 精益创业
 ---
 # 精益高手十年修炼地图
 

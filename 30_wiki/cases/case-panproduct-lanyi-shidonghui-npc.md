@@ -40,6 +40,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 泛产品设计课程
 ---
 
 # 兰毅：世董会与 NPC 的组织产品化实践

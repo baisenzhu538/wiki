@@ -44,6 +44,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代请单体笔记
 ---
 
 # 事实→规律→见解：深度思考笔记的三段论结构

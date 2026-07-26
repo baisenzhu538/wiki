@@ -47,6 +47,7 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases: []
 ---
 
 # 迭代递归深挖法：从表层到内核的认知穿透

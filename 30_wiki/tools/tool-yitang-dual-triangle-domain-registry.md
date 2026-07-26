@@ -27,6 +27,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 双三角域注册与扩展协议

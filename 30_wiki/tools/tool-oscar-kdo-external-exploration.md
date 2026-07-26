@@ -41,6 +41,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 外部探索融合方案
 ---
 
 # OSCAR-KDO 融合：一堂 OSCAR 在 KDO 外部探索中的具体落地

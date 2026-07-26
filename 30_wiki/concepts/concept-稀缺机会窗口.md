@@ -27,6 +27,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 科学决策
+- 稀缺机会窗口
 ---
 # 稀缺机会窗口
 

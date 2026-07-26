@@ -38,6 +38,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 低成本验证
+- 创业全景图
 ---
 
 # 精益创业低成本验证四大原则

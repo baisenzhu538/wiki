@@ -29,6 +29,8 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
+aliases:
+- 的核心问题
 ---
 # 技能：AI落地五步执行流程
 

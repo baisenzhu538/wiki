@@ -37,6 +37,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- study
+- 落地之夜第六场
 ---
 # 公式是经营的撤销键：C-D 循环的真实形态是「打不动就退，找到就回」
 

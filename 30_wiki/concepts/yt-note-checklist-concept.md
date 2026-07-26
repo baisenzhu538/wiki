@@ -55,6 +55,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代清单体笔记
+- 时代请单体笔记
 ---
 
 # 一堂笔记法：清单体笔记的核心概念与原理

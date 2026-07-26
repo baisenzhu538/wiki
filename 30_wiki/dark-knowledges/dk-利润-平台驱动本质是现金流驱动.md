@@ -24,6 +24,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 利润为王
+- 利润认知与企业生存
 ---
 
 # 平台驱动的本质是现金流驱动：流量生意为什么赚不到利润

@@ -44,6 +44,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 旧卡未清理
+- 机会预判域
+- 流程盲区
 ---
 
 # 暗知识：素材命名不一致导致完整口述稿被遗漏

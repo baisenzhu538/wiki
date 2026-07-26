@@ -20,6 +20,8 @@ tags:
 - scene:reference
 - skill-level:intermediate
 reviewed_by: pending
+aliases:
+- 人机协作双三角
 ---
 # 一堂DOC-20260704025752
 

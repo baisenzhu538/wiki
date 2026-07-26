@@ -35,6 +35,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 个人修炼
+- 执行武器库
 ---
 
 # 表达力火箭模型：四要素递进

@@ -37,6 +37,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 四步法
 ---
 # 增长飞轮设计工具：从业务要素到增强回路
 

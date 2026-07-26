@@ -62,6 +62,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 单元模型
 ---
 
 # 单元模型基准值：科学类比、三点预测与基准值共建

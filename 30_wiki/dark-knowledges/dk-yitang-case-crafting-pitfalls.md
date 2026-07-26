@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 案例打磨方法
+- 案例打造法-李頔
 ---
 
 # 案例打磨五大失败模式

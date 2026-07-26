@@ -38,6 +38,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 探索营
+- 解放思想创新体系
 ---
 
 ## 原始表述

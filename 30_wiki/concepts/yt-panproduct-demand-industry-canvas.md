@@ -56,6 +56,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 用户卡片
+- 行业分析画布
 ---
 
 # 行业分析画布：分析行业赛道的变化和机会

@@ -27,6 +27,7 @@ aliases:
 - cognitive-offloading
 - 认知卸载
 - AI 认知外包
+- 书籍拆解
 tags:
 - '#scene/ai-collaboration'
 - '#scene/learning'

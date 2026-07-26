@@ -45,6 +45,8 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 完成 ≠ 深度——段位的标志不是你会用多少工具，而是你能处理多复杂的问题
   follow_up_question: 把你最近一份分析报告中的核心数字改掉一个，整个结论会不会变？如果不会，你只是在填表。
+aliases:
+- 一堂五步法
 ---
 
 # 暗知识：「7-8 分幻觉」是结构性盲区

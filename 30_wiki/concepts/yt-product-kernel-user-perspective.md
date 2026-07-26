@@ -36,6 +36,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 产品内核实操课
+- 产品内核验证课
 ---
 
 # 用户视角 vs 产品视角：为什么"我觉得好"不等于"用户觉得好"

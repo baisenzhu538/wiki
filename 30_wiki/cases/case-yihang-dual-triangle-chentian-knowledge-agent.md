@@ -42,6 +42,8 @@ related:
 aliases:
 - 陈天案例
 - 知识管理案例
+- 人机协作双三角
+- 陈天同学案例口述
 tags:
 - audience:general
 - scene:reference

@@ -40,6 +40,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 发现决策
+- 科学决策
 ---
 
 # 发现决策

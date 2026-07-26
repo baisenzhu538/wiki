@@ -41,6 +41,9 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:beginner
+aliases:
+- 单元模型
+- 规模对抗实操难点
 ---
 
 # 技能：设定管理杠杆率指标评估效率

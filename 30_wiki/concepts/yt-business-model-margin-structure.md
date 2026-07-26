@@ -35,6 +35,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 产品内核实操课
+- 产品内核验证课
 ---
 
 # 毛利率结构分析：钱从哪来，到哪去

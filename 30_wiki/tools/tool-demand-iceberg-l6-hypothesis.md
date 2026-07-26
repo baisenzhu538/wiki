@@ -43,6 +43,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 场景推演教练提示词
 ---
 
 # L6需求假设

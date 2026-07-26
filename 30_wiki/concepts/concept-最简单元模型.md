@@ -32,6 +32,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 单元模型
+- 最简单元模型
 ---
 
 # 最简化的单元模型

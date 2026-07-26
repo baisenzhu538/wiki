@@ -33,6 +33,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 利润为王
 ---
 
 # 桥接：一堂需求冰山 × 利润为王 — 客户为什么愿意付高价

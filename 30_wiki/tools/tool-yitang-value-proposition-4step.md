@@ -47,6 +47,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 客户分层和卖点提炼
 ---
 # 一堂卖点提炼四步法：把功能语言变成客户愿意掏钱的价值语言
 

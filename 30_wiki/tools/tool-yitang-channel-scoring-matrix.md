@@ -45,6 +45,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 云电脑
 ---
 
 # 渠道预判评分矩阵：科学排序候选渠道

@@ -26,6 +26,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- advanced
+- control
 ---
 
 ## 核心主张

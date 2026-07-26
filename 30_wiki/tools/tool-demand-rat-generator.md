@@ -39,6 +39,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 五步法之需求分析
+- 方法论
 ---
 
 # RAT生成器：从L5洞察自动生成最危险假设清单

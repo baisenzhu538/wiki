@@ -44,6 +44,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 协作方法论
+- 时代清单体笔记
+- 本质建模
 ---
 ## 原始表述 / 核心洞察
 

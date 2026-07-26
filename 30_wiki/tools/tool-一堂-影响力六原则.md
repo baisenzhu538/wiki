@@ -54,6 +54,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂影响力六原则：互惠 / 承诺一致 / 社会认同 / 喜好 / 权威 / 稀缺

@@ -41,6 +41,10 @@ diagnostic_signals:
   follow_up_question: 让成员分别自评 L1-L6，先画出团队 heatmap，再决定统一训练还是分层培养。
 - framework_lens: 段位跃迁风险
   follow_up_question: 你是否有 10+ 案例支撑和可复用的 SOP？没有的话，先回 L3 补课。
+aliases:
+- 建模能力培训
+- 段位图
+- 高阶建模
 ---
 
 

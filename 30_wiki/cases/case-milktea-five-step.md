@@ -37,6 +37,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 串讲口述
+- 案例拆解
+- 课程清单
 ---
 
 > 黄药师骨架 · 老顽童填内容

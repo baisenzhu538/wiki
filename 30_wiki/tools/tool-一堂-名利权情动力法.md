@@ -45,6 +45,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂名利权情动力法：名 / 利 / 权 / 情 四张内驱牌

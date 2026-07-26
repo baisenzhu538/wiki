@@ -22,6 +22,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 调研行动营口述
 ---
 # 调研行动营：从调研认知到AI调研武器库
 

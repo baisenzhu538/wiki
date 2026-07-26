@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 方法论
 ---
 
 # 新体验-旧体验-切换成本=产品价值

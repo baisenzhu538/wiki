@@ -42,6 +42,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 产品卖给谁
 ---
 # 案例：剧本杀 SaaS 销售体系从零搭建——兼职团队跑通科学销售五步法
 

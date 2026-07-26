@@ -23,6 +23,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # 双三角作为一堂未来5年战略操作系统

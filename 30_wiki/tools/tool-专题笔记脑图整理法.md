@@ -47,6 +47,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 全景策略
+- 科学学习
 ---
 
 # 技能：专题笔记/脑图整理法

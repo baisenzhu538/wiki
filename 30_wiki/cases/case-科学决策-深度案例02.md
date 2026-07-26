@@ -73,6 +73,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 科学决策
 ---
 
 # 案例：上班开车还是打车的量化决策

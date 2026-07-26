@@ -34,6 +34,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 元能力-刻意练习
+- 刻意练习
 ---
 
 

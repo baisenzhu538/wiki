@@ -29,6 +29,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 调研专题
+- 调研武器库培训
 ---
 # 武器库策略6：前员工人脉网络
 

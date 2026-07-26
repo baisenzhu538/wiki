@@ -45,6 +45,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 标签审核案例
+- 酒店行业
 ---
 
 # 案例：陪诊业务七级演进

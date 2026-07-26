@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 优先级定性
+- 科学决策
 ---
 # 决策深度L1：优先级定性
 

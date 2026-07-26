@@ -38,6 +38,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 云电脑
 ---
 
 # 案例：马毅云电脑如何扫描 60+ 渠道实现 3.7 亿营收

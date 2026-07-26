@@ -50,6 +50,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 按图索骥：根据定位寻找对标案例

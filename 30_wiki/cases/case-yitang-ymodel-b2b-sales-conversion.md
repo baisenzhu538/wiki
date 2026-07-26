@@ -21,6 +21,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- ideas
+- 个人修身
 ---
 
 # Y模型 案例：To B 顾问销售——一号位脑子里的结构用 Y模型 显性化

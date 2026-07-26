@@ -26,6 +26,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- advanced
+- modeling
 ---
 
 # Truman 原 18 组件源框架：五维度 × 每维 4 张牌

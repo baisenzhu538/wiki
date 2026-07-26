@@ -35,6 +35,8 @@ related:
 - '[[tool-多模型对比抽卡]]'
 created_at: 2026-07-02
 updated_at: '2026-07-02'
+aliases:
+- yitang
 ---
 
 # AI 设计交付物的五个常见陷阱与反打

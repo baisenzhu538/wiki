@@ -2,6 +2,7 @@
 id: graph-rag
 aliases:
 - src_unknown
+- 深度调研集群方法论
 created_at: 2026-05-03
 domain:
 - kdo

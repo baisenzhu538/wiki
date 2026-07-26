@@ -22,6 +22,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # 双三角画布案例：商标设计——两天内产出 60 分可用版本

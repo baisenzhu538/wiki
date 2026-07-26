@@ -32,6 +32,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases: []
 ---
 
 # Y模型实操工作流：从分析到决策的完整路径

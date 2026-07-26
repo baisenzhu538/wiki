@@ -39,6 +39,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 一堂做课工业化
 ---
 
 

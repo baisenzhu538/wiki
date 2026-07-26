@@ -31,6 +31,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- capabilities
+- outputs
 ---
 
 # VA 四维法——从图片到结构化视觉分析的通用方法论

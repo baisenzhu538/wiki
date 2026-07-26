@@ -30,6 +30,9 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 整合笔记
+- 时间管理
 ---
 # 团队任务池 (Team Task Pool)
 

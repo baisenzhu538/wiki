@@ -39,6 +39,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 决策高度实操课口述
+- 科学决策
 ---
 
 # 扑克牌案例：同样的任务，两个同学评估结果截然相反

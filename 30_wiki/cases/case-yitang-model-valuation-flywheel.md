@@ -53,6 +53,8 @@ related:
 - '[[case-yitang-weekly-modeling-engine]]'
 - case-essence-entrepreneurship
 - case-decision-ai-assisted-vs-human
+aliases:
+- 建模能力培训
 ---
 
 # 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮

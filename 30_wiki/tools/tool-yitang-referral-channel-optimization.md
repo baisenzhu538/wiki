@@ -41,6 +41,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 客户介绍增长渠道
 ---
 
 # 老带新渠道优化工具：动力 × 触点 × 阻力

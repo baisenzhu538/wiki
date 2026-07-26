@@ -49,6 +49,8 @@ author: 老顽童
 reviewed_by: laowantong
 confidence: 0.7
 trust_level: low
+aliases:
+- 建模能力培训
 ---
 
 # 金字塔原理：结论先行的结构化沟通框架

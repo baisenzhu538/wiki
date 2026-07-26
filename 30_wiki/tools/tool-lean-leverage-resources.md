@@ -27,6 +27,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 精益创业
 ---
 
 # 借现成资源：降低重投入验证

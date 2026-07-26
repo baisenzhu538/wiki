@@ -38,6 +38,10 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 关键训练清单重要
+- 决策高度实操课口述
+- 发现决策
 ---
 # 决策卫生五步法
 

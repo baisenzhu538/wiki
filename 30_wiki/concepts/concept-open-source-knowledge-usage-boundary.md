@@ -26,6 +26,8 @@ aliases:
 - open-source-knowledge-usage-boundary
 - 开源知识边界
 - 学习与蒸馏的分界线
+- study
+- 大馨战队
 tags:
 - '#scene/business-analysis'
 - content-production

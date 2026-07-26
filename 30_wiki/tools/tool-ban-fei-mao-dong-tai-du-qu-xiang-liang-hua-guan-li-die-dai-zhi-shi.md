@@ -29,6 +29,9 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 半肥猫
+- 学习落地
 ---
 
 # 技能：动态读取 + 向量化管理迭代知识

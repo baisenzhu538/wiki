@@ -51,6 +51,8 @@ diagnostic_signals:
 - framework_lens: 工具将"风格"和"内容"绑定在同一个AI窗口中，导致迭代成本被低估。当演讲稿频繁变动时，逐页重新生成的成本可能超过传统PPT模板
   follow_up_question: 内容是否已经冻结到可以逐页丢给AI？如果修改频率>每周一次，是否应该用PPT模板+AI仅生成底图的分工模式？
 author: 老顽童
+aliases:
+- 文创案例设计课口述
 ---
 
 

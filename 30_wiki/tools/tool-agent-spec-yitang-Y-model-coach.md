@@ -45,6 +45,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- knowledges
 ---
 
 

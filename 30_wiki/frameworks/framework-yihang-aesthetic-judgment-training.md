@@ -23,6 +23,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # AI 时代审美判断力训练系统——未来教育的核心转向

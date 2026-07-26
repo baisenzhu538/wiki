@@ -54,6 +54,8 @@ related:
 - '[[yt-lean-daily-chemical-mvp]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[case-yitang-model-valuation-flywheel]]'
+aliases:
+- 建模能力培训
 ---
 
 # 案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎

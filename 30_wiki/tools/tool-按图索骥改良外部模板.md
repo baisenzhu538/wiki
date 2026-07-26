@@ -33,6 +33,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 决策评估画布
+- 科学决策
 ---
 
 # 技能：按图索骥改良外部模板

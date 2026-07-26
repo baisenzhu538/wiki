@@ -43,6 +43,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 泛产品设计实操
 ---
 
 

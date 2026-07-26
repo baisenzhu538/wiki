@@ -27,6 +27,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 决策评估画布
+- 科学决策
 ---
 # 案例：员工共学项目的 ROI 决策
 

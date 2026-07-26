@@ -26,6 +26,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 用户调研实操课
+- 调研专题
 ---
 # 案例：上门宠物喂养——调研如何消除信任顾虑
 

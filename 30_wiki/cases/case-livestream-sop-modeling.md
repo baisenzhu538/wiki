@@ -43,6 +43,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 建模能力培训
+- 流程建模
+- 高阶建模
 ---
 
 # 案例：直播前热身 SOP 建模

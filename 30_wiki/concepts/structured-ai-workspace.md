@@ -45,6 +45,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 时代要不要练笔记
+- 需要练那个
 ---
 
 # 结构化AI工作空间搭建

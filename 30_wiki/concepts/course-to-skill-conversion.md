@@ -48,6 +48,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 没有人呀现在
 ---
 
 # 课程→Skill转化：将知识变成AI可执行的能力模块

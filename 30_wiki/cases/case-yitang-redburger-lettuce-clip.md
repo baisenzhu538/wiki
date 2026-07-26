@@ -23,6 +23,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 案例：楚门生菜夹子——L1 追问到 L2 就能产生流程创新

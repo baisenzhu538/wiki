@@ -50,6 +50,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 吴恩达提示词课程
+- 拆书会
 ---
 
 # 人机协作操作系统：提示词工程总框架

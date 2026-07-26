@@ -34,6 +34,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 元气森林
+- 精益创业
 ---
 
 # 元气森林：战略定位与精益试错的跨域闭环

@@ -28,6 +28,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 条关键假设
+- 调研专题
 ---
 
 # AI调研十大假设

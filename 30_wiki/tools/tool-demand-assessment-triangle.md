@@ -33,6 +33,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 需求分析
 ---
 
 # 需求评估三角形

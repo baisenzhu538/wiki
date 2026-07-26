@@ -54,6 +54,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 个人修炼
 ---
 
 # 解放思想

@@ -35,6 +35,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 分析段位图
 ---
 
 # 需求定性分析框架：拆推评算四步法

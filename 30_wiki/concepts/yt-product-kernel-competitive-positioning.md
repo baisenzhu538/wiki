@@ -37,6 +37,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 产品内核实操课
+- 产品内核迭代课
 ---
 
 # 内核竞争定位：差异化策略

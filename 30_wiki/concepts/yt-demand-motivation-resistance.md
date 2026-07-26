@@ -37,6 +37,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 堂泛产品设计需求工具箱指南
+- 泛产品设计
+- 用户卡片
 ---
 
 # 需求动机与阻力分析：为什么用户"需要"但"不用"

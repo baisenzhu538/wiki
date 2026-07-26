@@ -33,6 +33,8 @@ aliases:
 - 酒店标签案例
 - 沙盒练兵案例
 - 边缘切入案例
+- 人机协作双三角
+- 标签审核案例
 tags:
 - audience:general
 - scene:reference

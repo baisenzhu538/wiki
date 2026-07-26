@@ -23,6 +23,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 案例：奶茶店奖金——追问"发奖金的本质"重构薪酬设计

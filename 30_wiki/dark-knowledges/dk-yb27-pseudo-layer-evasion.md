@@ -36,6 +36,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 设计师实操培训
 ---
 # 伪图层叠加规避平台图像识别
 

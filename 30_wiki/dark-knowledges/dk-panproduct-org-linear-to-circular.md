@@ -35,6 +35,9 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 用泛产品思维做组织
 ---
 
 

@@ -35,6 +35,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 深度调研集群方法论
 ---
 
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)

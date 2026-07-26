@@ -33,6 +33,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 低成本验证认知篇
 ---
 # 五步法与精益验证的接口
 

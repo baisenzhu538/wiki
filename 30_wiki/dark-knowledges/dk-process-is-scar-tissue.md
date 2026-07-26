@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- advanced
+- modeling
 ---
 
 # 流程是业务的疤痕：每个节点都曾是流血后的痂

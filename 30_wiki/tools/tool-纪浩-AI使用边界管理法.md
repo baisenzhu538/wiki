@@ -37,6 +37,9 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 五层结构
+- 俱乐部
 ---
 
 # 技能：AI使用边界管理法

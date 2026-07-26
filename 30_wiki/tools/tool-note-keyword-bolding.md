@@ -41,6 +41,8 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+- 时代清单体笔记
 ---
 
 # 关键词加粗三重结构：视觉重心即认知重心的标记法则

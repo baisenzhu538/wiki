@@ -33,6 +33,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- control
+- domains
 ---
 
 # 调研质量自检框架：六维门禁

@@ -85,6 +85,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 课程地图精华串讲
 ---
 
 # 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型

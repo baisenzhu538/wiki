@@ -47,6 +47,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 竞对跟踪：持续监控竞争对手的动态与策略

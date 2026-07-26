@@ -24,6 +24,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 案例：林标阳肝病检测——L5 学科层推翻商业层二三十年惯例

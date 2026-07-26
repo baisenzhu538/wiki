@@ -34,6 +34,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 元能力-刻意练习
+- 刻意练习
 ---
 # 最佳实践临摹法：早期快速提升的「金手指」
 

@@ -26,6 +26,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 落地卡片
 ---
 # 泛产品设计
 

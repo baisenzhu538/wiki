@@ -44,6 +44,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 没有人呀现在
 ---
 
 # AI学习闭环：从"听懂"到"能力"的转化路径

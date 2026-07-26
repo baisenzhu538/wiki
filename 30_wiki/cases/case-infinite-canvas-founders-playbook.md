@@ -34,6 +34,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 做成一张会移动的无限画布
+- 多模态输出
 ---
 
 # 60镜头《创始人手册》：Claude Blog长文→Prezi式创业旅程画布

@@ -58,6 +58,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 一堂五步法
+- 假的壁垒
+- 规模经济分析武器库
 ---
 
 # 壁垒识别与构建技能：从真假壁垒到护城河建设

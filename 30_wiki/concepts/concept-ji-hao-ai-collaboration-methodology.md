@@ -47,6 +47,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:beginner
+aliases:
+- 五层结构
+- 俱乐部
+- 协作方法论
 ---
 
 # 纪浩 AI 协作方法论

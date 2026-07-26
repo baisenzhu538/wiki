@@ -30,6 +30,9 @@ created_at: '2026-06-28'
 updated_at: '2026-06-29'
 confidence: 0.78
 trust_level: medium
+aliases:
+- 三个新盲区
+- 外部知识探索
 ---
 
 # CI Define 阶段工具：决策驱动的问题定义

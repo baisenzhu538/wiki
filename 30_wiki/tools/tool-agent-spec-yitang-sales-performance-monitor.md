@@ -48,6 +48,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- tasks
 ---
 
 # OPC 销售业绩监控助手 Agent Spec

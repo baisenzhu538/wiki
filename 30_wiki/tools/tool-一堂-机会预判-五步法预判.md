@@ -41,6 +41,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 五步法预判
+- 咖啡店案例
 ---
 
 # 机会预判·五步法预判

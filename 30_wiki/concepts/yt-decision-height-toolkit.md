@@ -81,6 +81,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 科学决策
+- 高水平共识曲线重要
 ---
 
 # 高度分析工具：上帝视角四维提升法 + 高水平共识曲线

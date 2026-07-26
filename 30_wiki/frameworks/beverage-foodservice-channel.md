@@ -38,6 +38,10 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 产品调配
+- 双柚汁产品成本沟通
+- 口感与成本讨论
 ---
 # 餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架
 

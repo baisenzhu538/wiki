@@ -29,6 +29,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 张磊教练
+- 精益创业
 ---
 # 张磊 AMA：假设验证实操案例
 

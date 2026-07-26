@@ -24,6 +24,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 教育 = 教材 + 教学 + 积极改变

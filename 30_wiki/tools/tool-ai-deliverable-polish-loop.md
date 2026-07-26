@@ -51,6 +51,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- yitang
 ---
 # AI 交付物打磨循环：从模糊需求到 60 分可用版本
 

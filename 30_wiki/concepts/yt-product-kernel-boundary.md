@@ -35,6 +35,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 产品内核实操课
+- 内核和边界
+- 泛产品设计
 ---
 
 # 内核与边界：什么该做，什么不该做

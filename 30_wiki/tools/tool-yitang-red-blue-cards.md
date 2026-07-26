@@ -26,6 +26,8 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 红蓝卡：Y模型 团队自检/纠偏/激励行为工具

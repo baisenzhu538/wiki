@@ -26,6 +26,8 @@ aliases:
 - Truman 学习曲线
 - 循序渐进学习曲线
 - AI工具学习五阶段
+- 元能力-刻意练习
+- 角色给我的诊断
 author: 老顽童
 created_at: '2026-06-28'
 updated_at: '2026-06-29'

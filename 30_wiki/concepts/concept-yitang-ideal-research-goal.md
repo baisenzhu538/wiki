@@ -28,6 +28,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 理想调研三原则
+- 调研专题
 ---
 # 理想调研目标三原则
 

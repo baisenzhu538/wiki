@@ -36,6 +36,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 企业利润经营分析
 ---
 
 # 利润优先经营框架：从「利润是剩余」到「利润是生存成本」

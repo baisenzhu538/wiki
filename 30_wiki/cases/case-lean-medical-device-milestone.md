@@ -34,6 +34,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 低成本验证
+- 医疗器械案例
 ---
 # 医疗器械项目里程碑测试
 

@@ -27,6 +27,8 @@ tools_required: null
 prerequisite_skills: null
 definition_of_done: null
 trust_level: medium
+aliases:
+- 没有人呀现在
 ---
 
 # 技能：AI输出证据核查三问法

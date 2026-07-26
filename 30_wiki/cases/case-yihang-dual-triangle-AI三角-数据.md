@@ -20,6 +20,8 @@ tags:
 - scene:reference
 - skill-level:intermediate
 reviewed_by: pending
+aliases:
+- 人机协作双三角
 ---
 # AI三角-数据
 

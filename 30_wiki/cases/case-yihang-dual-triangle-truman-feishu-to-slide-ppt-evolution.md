@@ -35,6 +35,7 @@ related:
 aliases:
 - Truman 飞书 To slide
 - PPT 迭代案例
+- annotations
 tags:
 - audience:general
 - scene:reference

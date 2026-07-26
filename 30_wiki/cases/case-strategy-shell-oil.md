@@ -23,6 +23,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 冉鹏战略课逐字稿
+- 战略专题
 ---
 
 **转型**：原油价值链突变 → 预测未来市场规模萎缩 → 提前从生产转向服务。

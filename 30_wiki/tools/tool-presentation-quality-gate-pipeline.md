@@ -34,6 +34,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 做成一张会移动的无限画布
+- 多模态输出
 ---
 
 # 演示产线双防线质量控制

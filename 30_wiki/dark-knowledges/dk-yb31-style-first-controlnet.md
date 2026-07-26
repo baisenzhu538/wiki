@@ -24,6 +24,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
+aliases:
+- 设计基础
 ---
 
 # AI绘图工作流：先锁风格再开ControlNet

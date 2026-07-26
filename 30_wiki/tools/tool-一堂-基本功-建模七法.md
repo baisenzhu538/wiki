@@ -50,6 +50,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- fundamentals
+- manage
 ---
 
 # 建模七法：从本质要素到 SOP，把基本功建成固定套路

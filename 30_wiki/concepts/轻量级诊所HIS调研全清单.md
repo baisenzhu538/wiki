@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 调研全清单
+- 轻量级诊所
 ---
 
 # 轻量级诊所HIS调研全清单

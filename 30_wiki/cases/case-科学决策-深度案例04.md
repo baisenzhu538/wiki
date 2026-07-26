@@ -27,6 +27,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 科学决策
 ---
 # 案例：公司要不要管员工中午饭
 

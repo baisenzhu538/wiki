@@ -35,6 +35,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 上市公司报告解读
+- 调研专题
 ---
 # 对标公司选择三步法：加法·减法·三原则
 

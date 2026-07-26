@@ -28,6 +28,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 两种典型的思考习惯
+- 关键训练清单重要
+- 决策经验值
 ---
 
 

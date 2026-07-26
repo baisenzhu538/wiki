@@ -38,6 +38,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 关键训练清单重要
+- 科学决策
 ---
 
 # 技能：+1视角升级思考法

@@ -48,6 +48,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 示意图
+- 能力五层跃迁
 ---
 
 # 王欢AI能力五层跃迁模型

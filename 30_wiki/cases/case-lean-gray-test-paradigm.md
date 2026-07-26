@@ -28,6 +28,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 低成本测试
+- 低成本验证
 ---
 
 # 灰度测试范式实操案例

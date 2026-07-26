@@ -37,6 +37,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 元能力-刻意练习
+- 刻意练习行动营
 ---
 
 # AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴

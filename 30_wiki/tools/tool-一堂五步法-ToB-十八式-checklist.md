@@ -34,6 +34,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 一堂五步法
+- 五步法
 ---
 
 # ToB五步法十八式速查

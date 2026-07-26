@@ -30,6 +30,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 利润为王
+- 利润认知与企业生存
 ---
 
 # 利润的风险报偿本质：创始人拿的不是贪婪，是承担风险的报酬

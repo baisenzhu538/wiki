@@ -34,6 +34,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- capabilities
+- content
+- outputs
 ---
 
 # 段王爷 Publisher Agent — KDO 内容发布与渠道分发引擎

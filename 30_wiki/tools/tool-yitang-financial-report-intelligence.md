@@ -41,6 +41,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 上市公司报告解读
+- 调研专题
 ---
 # 财报/招股书情报：用上市公司公开报告做创业预判
 

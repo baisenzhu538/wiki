@@ -34,6 +34,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 清单体笔记训练段位图
 ---
 # 技能：自我反馈修正笔记姿势
 

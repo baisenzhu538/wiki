@@ -22,6 +22,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 辅助探讨需求选项的提示词
 ---
 # USP 快速需求拆解
 

@@ -51,6 +51,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 整合笔记
 ---
 # 一堂销售过程拆解三步法（用户决策路径地图）
 

@@ -34,6 +34,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- assets
 ---
 # 定量与动态的正名：逻辑冰山 L5=基准值与判断空间，L6=公式随业务进化
 

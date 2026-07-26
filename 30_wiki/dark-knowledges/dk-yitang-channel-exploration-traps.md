@@ -42,6 +42,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 反案例
 ---
 # 渠道探索常见陷阱：18 万字共建作业里的血泪教训
 

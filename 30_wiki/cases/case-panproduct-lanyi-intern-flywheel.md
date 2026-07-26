@@ -39,6 +39,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 用泛产品思维做组织
 ---
 
 # 兰毅：实习生成长飞轮的产品化设计

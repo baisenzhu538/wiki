@@ -27,6 +27,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 科学决策
+- 高水平共识曲线
 ---
 # 高水平共识曲线
 

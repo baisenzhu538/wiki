@@ -22,6 +22,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 主观臆测
+- 周子敬
 ---
 
 # 实事求是十坑·主观臆测：废品回收站从单店成功到多店失败

@@ -50,6 +50,10 @@ diagnostic_signals:
   framework_lens: 无限细化不如加锁，锁的层数应基于 ROI 而非完美主义
   follow_up_question: 这个环节的价值/风险/频率是否值得加第二层甚至第三层锁？低价值环节能否先只留一层？# SOP 写出来≠被执行：给 SOP
     加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
+aliases:
+- 建模能力培训
+- 流程建模
+- 高阶建模
 ---
 
 ## 原始表述

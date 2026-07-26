@@ -43,6 +43,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 个人修炼
+- 执行武器库
 ---
 
 # 一堂个人表达力总框架：火箭模型×十指讲香×逐字稿

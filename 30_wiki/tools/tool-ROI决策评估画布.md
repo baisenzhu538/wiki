@@ -30,6 +30,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 决策评估画布
+- 科学决策
 ---
 
 # ROI决策评估画布

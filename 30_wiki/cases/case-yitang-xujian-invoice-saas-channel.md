@@ -38,6 +38,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 渠道探索方法论
 ---
 
 # 案例：徐建发票 SaaS 如何通过渠道探索找到支付推手

@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 系统式调研
+- 调研专题
 ---
 # 案例：一堂赛道选择——自己用调研方法论选方向
 

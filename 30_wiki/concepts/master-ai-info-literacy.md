@@ -28,6 +28,10 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 人机协作决策
+- 学会提问在信息洪流中锻造批判性思维的利刃
+- 知识萃取探索营
 ---
 
 

@@ -26,6 +26,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- advanced
+- modeling
 ---
 
 # 流程建模的关系探索：关系 vs 规律，从并列到因果

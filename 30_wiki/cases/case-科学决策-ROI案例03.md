@@ -83,6 +83,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 决策评估画布
+- 科学决策
 ---
 
 # 案例：自建招商体系的低成本启动

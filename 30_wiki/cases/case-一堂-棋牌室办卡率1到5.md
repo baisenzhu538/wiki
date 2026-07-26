@@ -38,6 +38,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 > 连锁自助棋牌室把新客办卡率从 1% 优化到 5%，核心是在用户购买主路径上加平行入口、提升触点密度；讲师判断继续优化信息密度、号召直接性和场景拆分后，有望冲击 10%。

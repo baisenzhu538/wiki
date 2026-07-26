@@ -34,6 +34,7 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases: []
 ---
 
 # 中立的暴政

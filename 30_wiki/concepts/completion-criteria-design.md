@@ -16,6 +16,8 @@ related:
 aliases:
 - 完成标准
 - 学会的定义
+- 元能力-刻意练习
+- 角色给我的诊断
 author: 老顽童
 created_at: '2026-06-28'
 updated_at: '2026-06-28'

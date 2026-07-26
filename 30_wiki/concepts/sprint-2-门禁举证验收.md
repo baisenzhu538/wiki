@@ -26,6 +26,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 门禁举证验收
 ---
 # Sprint 2 门禁举证验收
 

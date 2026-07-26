@@ -34,6 +34,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- prompts
 ---
 # 用户视角训练 Agent Spec
 

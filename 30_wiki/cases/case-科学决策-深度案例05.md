@@ -27,6 +27,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 科学决策
 ---
 # 案例：一堂租办公室的 ROI 分析
 

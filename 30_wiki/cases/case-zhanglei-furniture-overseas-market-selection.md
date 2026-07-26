@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 调研专题
+- 调研武器库培训
 ---
 # 案例：洗衣液市场调研——蹲超市+假扮促销员
 

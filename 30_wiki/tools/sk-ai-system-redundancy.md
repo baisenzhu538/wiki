@@ -30,6 +30,9 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals: null
+aliases:
+- 世界发展
+- 偶然与必然讨论
 ---
 
 # 技能：系统冗余度快速检查清单

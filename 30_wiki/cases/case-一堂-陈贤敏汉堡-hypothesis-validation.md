@@ -58,6 +58,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 关键假设课
 ---
 
 # 案例：陈贤敏中式汉堡先开实验店验证关键假设

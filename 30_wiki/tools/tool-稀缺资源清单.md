@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 科学决策
+- 稀缺资源清单
 ---
 
 # 稀缺资源清单

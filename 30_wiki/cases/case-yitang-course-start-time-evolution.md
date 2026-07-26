@@ -23,6 +23,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 案例：一堂开课时间——从"同行七八点"到"用户真正需要九点"

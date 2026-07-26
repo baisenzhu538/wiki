@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 行业报告调研
+- 调研专题
 ---
 # 案例：美妆行业渠道效率发现
 

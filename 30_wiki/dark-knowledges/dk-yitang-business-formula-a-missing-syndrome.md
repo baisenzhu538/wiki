@@ -36,6 +36,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- assets
 ---
 # A 缺失的并发症：没有锚定目标的公式无法排优先级
 

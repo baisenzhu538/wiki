@@ -28,6 +28,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂双三角磨合追求
+- 五层进阶从答案到效率到作品到产品到系统
+- 从入门到无限进步
 ---
 
 

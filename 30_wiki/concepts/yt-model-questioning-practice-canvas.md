@@ -21,6 +21,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 提问刻意练习提升画布
 ---
 # 提问刻意练习提升画布 (By YITANG)
 

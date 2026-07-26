@@ -42,6 +42,8 @@ related:
 aliases:
 - 天末案例
 - 设计交付案例
+- 人机协作双三角
+- 天末的双三角模型
 tags:
 - audience:general
 - scene:reference

@@ -26,6 +26,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 **对比**：沃尔玛（W 集团）"天天平价" vs 好市多 / 家乐福（C 集团）"高低价"，战略主题同为"性价比第一"。
 

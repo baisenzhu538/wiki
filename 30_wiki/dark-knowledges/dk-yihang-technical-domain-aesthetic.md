@@ -23,6 +23,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 对话记录：2026-07-05 老朱论电子工程
+- 机械结构域审美
 ---
 
 # 严格技术域审美——"对就是对错就是错"域不需要品位，需要验证机制

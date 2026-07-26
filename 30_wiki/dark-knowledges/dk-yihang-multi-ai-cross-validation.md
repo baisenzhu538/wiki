@@ -22,6 +22,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # 多 AI 交叉比对验证法——没有标准答案时用 AI 互校验

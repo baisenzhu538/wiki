@@ -43,6 +43,7 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases: []
 ---
 # WEF 对 AI 就业影响的预测
 

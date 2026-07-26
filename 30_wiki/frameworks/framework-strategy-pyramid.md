@@ -24,6 +24,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 # 企业战略金字塔：公司、业务与职能协同
 

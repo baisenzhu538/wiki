@@ -38,6 +38,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 单元模型
 ---
 
 # 技能：按月份摊销收入成本做计划

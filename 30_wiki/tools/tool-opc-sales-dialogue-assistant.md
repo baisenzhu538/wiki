@@ -75,6 +75,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 整合笔记
 ---
 # OPC 销售对话助手智能体
 

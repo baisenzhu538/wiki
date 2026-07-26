@@ -35,6 +35,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 清单体笔记训练段位图
 ---
 
 # 技能：提升笔记练习频次的方法

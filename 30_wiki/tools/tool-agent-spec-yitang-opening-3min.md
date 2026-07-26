@@ -48,6 +48,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- tasks
 ---
 # OPC 开场 3 分钟助手 Agent Spec
 

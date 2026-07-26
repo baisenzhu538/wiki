@@ -60,6 +60,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 协作方法论
 ---
 
 # 技能：四问验证法

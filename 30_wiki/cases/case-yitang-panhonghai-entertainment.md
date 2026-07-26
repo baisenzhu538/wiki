@@ -41,6 +41,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 # 潘鸿海娱乐店：涨价拆成三个子假设小范围测，GMV +15-20%，半年业绩 +50%
 

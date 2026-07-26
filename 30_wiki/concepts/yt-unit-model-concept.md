@@ -57,6 +57,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 一堂五步法
+- 单元模型
 ---
 
 # 单元模型：商业模式评估的核心工具

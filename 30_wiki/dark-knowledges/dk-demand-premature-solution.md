@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 任务洞察冰山图
 ---
 
 # 过早进入解决方案空间——冰山模型的根本价值

@@ -28,6 +28,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 知识萃取探索营
+- 萃取总结
 ---
 
 # 知识复利：IPO+萃取+管理的上位整合

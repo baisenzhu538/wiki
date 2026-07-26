@@ -18,6 +18,8 @@ aliases:
 - 文件夹组织
 - AI可读文件
 - 命名即基础设施
+- obsidian
+- 一堂-obsidian加AI协作-内部实践分享
 discoverable_by:
 - 文件管理
 - AI协作

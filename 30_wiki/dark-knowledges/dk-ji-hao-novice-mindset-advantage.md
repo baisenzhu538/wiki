@@ -40,6 +40,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 协作方法论
 ---
 
 # 暗知识：新手心态的五个保护期

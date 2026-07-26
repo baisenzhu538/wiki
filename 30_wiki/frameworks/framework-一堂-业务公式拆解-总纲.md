@@ -138,6 +138,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 一堂业务公式拆解总纲：关键假设 ABCD 体系的核心骨架与灵魂

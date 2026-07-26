@@ -23,6 +23,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 乔布斯
+- 顶级产品追求的方向
 ---
 # 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 

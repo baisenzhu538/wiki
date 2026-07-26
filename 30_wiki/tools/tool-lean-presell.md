@@ -36,6 +36,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 低成本验证实操
+- 剥离假设篇
 ---
 # 做预售：用真实订单验证付费意愿
 

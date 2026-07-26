@@ -43,6 +43,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 知识萃取探索营
 ---
 
 # Truman的PRD清单进化

@@ -36,6 +36,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 五步法之需求分析
+- 辅助探讨需求选项的提示词
 ---
 
 # 需求选项探讨工具：USP追问+控变量+找盲区

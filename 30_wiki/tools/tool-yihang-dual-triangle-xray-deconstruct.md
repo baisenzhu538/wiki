@@ -23,6 +23,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # X光拆解：双三角案例逆向工程——从"用了什么工具"到"背后的双三角怎么支撑"

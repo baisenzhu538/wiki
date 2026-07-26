@@ -24,6 +24,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # 口喷：双三角内功 + 九字诀外功——语音驱动 AI 协作

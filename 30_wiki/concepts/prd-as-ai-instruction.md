@@ -46,6 +46,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 没有人呀现在
 ---
 
 # PRD文档作为AI可执行指令

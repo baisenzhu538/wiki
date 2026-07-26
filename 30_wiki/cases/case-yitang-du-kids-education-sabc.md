@@ -34,6 +34,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 # 杜同学儿童教育：年龄×成绩×陪同家长三维切 SABC，发现"妈妈能拍板、老人最弱"
 

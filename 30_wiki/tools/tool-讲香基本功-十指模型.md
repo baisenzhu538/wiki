@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 十指模型修炼地图
 ---
 
 # 讲香基本功：十指模型修炼地图

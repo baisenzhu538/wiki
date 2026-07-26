@@ -42,6 +42,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- fundamentals
+- manage
 ---
 
 # AI 时代基本功的变与不变：拆建不变，推练变形，AI 是外骨骼肌肉靠苦练

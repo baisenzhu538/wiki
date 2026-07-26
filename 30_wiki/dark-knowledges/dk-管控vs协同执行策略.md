@@ -28,6 +28,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 管控 vs 协同：目标执行的二元选择框架

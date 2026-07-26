@@ -22,6 +22,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 实事求是十坑·轻视规律：一堂 199 元单课模式试错

@@ -38,6 +38,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 五层结构
+- 俱乐部
 ---
 
 # 技能：任务交付物标准化

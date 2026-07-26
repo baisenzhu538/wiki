@@ -22,6 +22,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # AI 落地顾问培养体系——双三角笃定 + 技术产品背景 + 学习能力 + 价值观

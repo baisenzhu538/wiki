@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # 人机协作退化螺旋：飞轮反转的两种死亡模式

@@ -35,6 +35,7 @@ related:
 aliases:
 - 人在环双三角关系
 - HITL双三角
+- annotations
 tags:
 - audience:general
 - scene:reference

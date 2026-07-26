@@ -28,6 +28,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 五层结构
+- 俱乐部人和
 ---
 # AI 俱乐部·人和 AI 协作 — 五层结构
 

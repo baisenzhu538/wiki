@@ -43,6 +43,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代请单体笔记
 ---
 
 # 问题驱动式深度思考笔记：用真问题取代真记录

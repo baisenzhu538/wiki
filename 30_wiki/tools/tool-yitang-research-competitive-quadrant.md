@@ -48,6 +48,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 竞争象限：用二维矩阵可视化竞争格局

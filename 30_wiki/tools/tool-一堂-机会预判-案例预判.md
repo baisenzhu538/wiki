@@ -43,6 +43,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 机会预判
+- 案例预判
 ---
 
 # 机会预判·案例预判 SOP

@@ -52,6 +52,10 @@ diagnostic_signals:
   follow_up_question: 你的方法论能否被拆成可校验的清单规则？学生练习后能否自动得到结构化反馈？
 - framework_lens: AI 在语料不足或边界不清时会产生幻觉建议
   follow_up_question: 你的笔记库是否已有 100+ 同主题案例？Agent 的角色是 P 执行还是 C 共创？
+aliases:
+- 两条职业成长路线
+- 时代清单体笔记
+- 时代请单体笔记
 ---
 
 # 案例：Truman AI Partner（阿蕊老师）

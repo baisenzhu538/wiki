@@ -26,6 +26,8 @@ aliases:
 - 三环过滤器
 - capability filter
 - 能力准入
+- fundamentals
+- manage
 tags:
 - audience:executor
 - scene:execution

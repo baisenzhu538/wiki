@@ -25,6 +25,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 俱乐部
+- 半肥猫
+- 学习落地
 ---
 
 # 案例：一堂转化率黑客课→Skill

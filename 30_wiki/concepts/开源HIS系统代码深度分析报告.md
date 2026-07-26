@@ -31,6 +31,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 系统代码深度分析报告
 ---
 
 # 开源HIS系统代码深度分析报告

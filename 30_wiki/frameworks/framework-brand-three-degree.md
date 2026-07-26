@@ -25,6 +25,8 @@ aliases:
 - brand-three-degree
 - 品牌三度模型
 - 知名度美誉度信任度
+- study
+- 大馨战队
 tags:
 - '#scene/business-analysis'
 - content-production

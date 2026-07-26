@@ -27,6 +27,8 @@ tags:
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
 author: 老顽童
+aliases:
+- 建模能力培训
 ---
 
 ## 原始表述

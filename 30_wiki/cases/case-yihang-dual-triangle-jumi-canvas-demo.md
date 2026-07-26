@@ -24,6 +24,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 人机协作双三角
+- 双三角画布
 ---
 
 # 双三角画布演示：巨米推广——从模糊需求到九层可执行计划

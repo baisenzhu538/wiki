@@ -23,6 +23,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 # 案例：撤退型布局1——出售（Musical.ly）
 

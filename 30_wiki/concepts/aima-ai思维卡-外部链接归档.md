@@ -20,6 +20,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 外部链接归档
+- 思维卡
 ---
 # AIMA AI思维卡 — 外部链接归档
 

@@ -29,6 +29,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 半肥猫
+- 学习落地
 ---
 
 # 技能：清洗资料为 Markdown 格式喂给 AI

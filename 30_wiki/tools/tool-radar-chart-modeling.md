@@ -44,6 +44,10 @@ diagnostic_signals:
   follow_up_question: 每个维度的分数是否有可观察的行为定义，还是仅靠个人印象打分？
 - framework_lens: 抽象建模 / 边界判断
   follow_up_question: 这些候选对象是否面向同一评估目标，维度是否真正覆盖它们之间的关键差异？
+aliases:
+- 常见模型武器库
+- 建模能力培训
+- 抽象建模
 ---
 
 # 雷达图建模法：多维度评估与筛选

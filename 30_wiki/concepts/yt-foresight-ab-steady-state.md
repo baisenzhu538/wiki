@@ -49,6 +49,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 机会预判课
 ---
 
 # AB点稳态模型：行业预判的核心框架

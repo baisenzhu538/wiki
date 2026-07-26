@@ -27,6 +27,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- tasks
 ---
 
 # KDO 生产审查工作流（欧阳锋模式）

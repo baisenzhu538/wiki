@@ -44,6 +44,10 @@ diagnostic_signals:
   follow_up_question: 两个维度是否相对独立、可判断，且与决策直接相关？
 - framework_lens: binary-quadrant-modeling
   follow_up_question: 每个象限是否对应了清晰且差异化的行动策略？
+aliases:
+- 常见模型武器库
+- 建模能力培训
+- 抽象建模
 ---
 
 # 二分法/象限图建模法：用正交维度做分类与取舍

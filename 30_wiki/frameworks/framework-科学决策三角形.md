@@ -37,6 +37,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 决策三角形
+- 科学决策
 ---
 
 # 科学决策三角形

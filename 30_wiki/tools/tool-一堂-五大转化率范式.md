@@ -39,6 +39,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂五大转化率范式：从一句话到发布会的信息容量与复杂度分层

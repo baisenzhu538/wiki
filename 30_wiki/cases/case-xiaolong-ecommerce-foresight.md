@@ -44,6 +44,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 机会预判课
 ---
 
 # 小龙电商：四层剥离——从服装到正装裤

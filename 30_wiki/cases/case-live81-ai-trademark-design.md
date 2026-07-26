@@ -45,6 +45,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- yitang
 ---
 
 # 案例：Live81 AI 赋能喵善养商标设计

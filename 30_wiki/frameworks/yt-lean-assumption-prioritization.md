@@ -39,6 +39,8 @@ diagnostic_signals:
   follow_up_question: 当前最可能导致项目死亡的假设是什么？用最低成本能否在2周内先证伪它？
 - framework_lens: 需求/产品侧假设先于增长
   follow_up_question: 在验证增长渠道之前，需求假设和产品内核是否已拿到初步肯定判断？是否有真实付费或复购信号？
+aliases:
+- 精益方法论培训
 ---
 
 

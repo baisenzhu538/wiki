@@ -34,6 +34,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 外卖对接方案讨论
+- 智能设备
 ---
 # 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式
 

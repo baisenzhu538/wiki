@@ -36,6 +36,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 决策评估画布
+- 科学决策
 ---
 
 # 技能：用旗舰店替代纯招商投入

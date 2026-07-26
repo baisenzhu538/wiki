@@ -53,6 +53,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 七人逐步骤对标分析
 ---
 # Y模型：一堂科学做事系统（KDO 根节点）
 

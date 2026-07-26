@@ -53,6 +53,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 泛产品设计审美卡片
 ---
 
 # 泛产品设计审美篇：永远以最佳实践为追求

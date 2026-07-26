@@ -26,6 +26,7 @@ aliases:
 - ai-use-barbell-strategy
 - AI 杠铃策略
 - 认知卸载杠铃
+- 书籍拆解
 tags:
 - '#scene/ai-collaboration'
 - '#scene/productivity'

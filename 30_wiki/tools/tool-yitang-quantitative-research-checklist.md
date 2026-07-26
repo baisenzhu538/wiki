@@ -26,6 +26,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 创业者定量研究清单：六维指标 + 强制五问

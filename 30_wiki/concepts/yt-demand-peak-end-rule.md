@@ -36,6 +36,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 堂泛产品设计需求工具箱指南
+- 泛产品设计
+- 用户卡片
 ---
 
 # 峰终定律在需求分析中的应用：用户记住的不是平均，而是峰值和终点

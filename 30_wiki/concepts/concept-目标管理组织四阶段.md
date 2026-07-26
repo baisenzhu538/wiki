@@ -27,6 +27,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 目标管理组织四阶段：从不关注到统一体系

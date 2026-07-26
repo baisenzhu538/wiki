@@ -32,6 +32,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 
 # ToB芯片开发板：降价涨量但ToB客户不变，参数耦合的定价回摆

@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 调研专题
+- 调研超级武器库
 ---
 
 # AI草写报告：用AI生成调研初稿

@@ -43,6 +43,10 @@ diagnostic_signals:
   follow_up_question: 当前模型处于哪一层？是否需要升维到深度模型或降维到基础模型？
 - framework_lens: 数据先行
   follow_up_question: 是否已有 10+ 案例或足够样本？模型不能替代数据和思考。
+aliases:
+- 常见模型武器库
+- 建模能力培训
+- 抽象建模
 ---
 
 

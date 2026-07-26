@@ -26,6 +26,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 利润为王
+- 利润认知与企业生存
 ---
 
 # 定价恐惧的三段式反问：价格上不去是因为创始人不敢

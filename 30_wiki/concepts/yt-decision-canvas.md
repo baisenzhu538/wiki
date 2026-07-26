@@ -88,6 +88,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 一堂五步法画布
 ---
 
 # Y模型决策画布（一页纸工具）

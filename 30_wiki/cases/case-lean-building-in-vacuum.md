@@ -37,6 +37,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 低成本验证
+- 精益创业
 ---
 
 # 闭门造车案例集

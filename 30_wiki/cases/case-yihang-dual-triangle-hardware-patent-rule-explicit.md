@@ -32,6 +32,8 @@ related:
 aliases:
 - 硬件公司专利案例
 - 规则显性化案例
+- 专利落地案例
+- 人机协作双三角
 tags:
 - audience:executor
 - scene:reference

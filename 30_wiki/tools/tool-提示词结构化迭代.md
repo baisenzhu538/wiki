@@ -44,6 +44,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 自用的
 ---
 
 # 技能：提示词结构化迭代

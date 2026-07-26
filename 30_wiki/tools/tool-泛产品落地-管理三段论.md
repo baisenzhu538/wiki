@@ -27,6 +27,9 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 管理三段论
 ---
 # 落地卡片：管理三段论
 

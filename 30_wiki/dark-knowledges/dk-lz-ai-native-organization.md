@@ -30,6 +30,10 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 五层进阶从答案到效率到作品到产品到系统
+- 公司组织方法论直接把公司当操作系统来设计中层管理变成了
+- 放出一套
 ---
 
 ## 原始表述

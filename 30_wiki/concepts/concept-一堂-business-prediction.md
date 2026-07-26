@@ -38,6 +38,7 @@ aliases:
 - 商业预判
 - 机会预判
 - 15字诀
+- 商业预判课
 tags:
 - audience:general
 - scene:reference

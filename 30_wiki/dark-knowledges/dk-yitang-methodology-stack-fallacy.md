@@ -25,6 +25,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 方法论金句堆叠乱用，不如不懂

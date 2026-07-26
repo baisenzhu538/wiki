@@ -51,6 +51,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 泛产品设计落地篇
 ---
 
 # 泛产品设计落地篇：无限进步与持续打磨

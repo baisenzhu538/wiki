@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 落地卡片
 ---
 # 落地卡片：酝酿式打磨
 

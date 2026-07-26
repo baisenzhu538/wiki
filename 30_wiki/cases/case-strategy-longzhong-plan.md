@@ -23,6 +23,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 冉鹏战略课逐字稿
+- 战略专题
 ---
 **战略内容**：成就霸业→三足鼎立→四击北伐。六大举措+执行团队（诸葛亮/关羽/马超/李辉）。
 

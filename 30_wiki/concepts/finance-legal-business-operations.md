@@ -34,6 +34,10 @@ related:
 - '[[ai-hackathon-pitches]]'
 - '[[business-validation-models-collaboration]]'
 - '[[industry-ai-cases]]'
+aliases:
+- 企业高新技术与专精特新资质申报规划
+- 系统费用沟通
+- 进项税处理沟通
 ---
 
 # 企业财务-法务-商务运营实务（听脑录音综合草稿）

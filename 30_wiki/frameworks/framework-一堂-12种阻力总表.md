@@ -84,6 +84,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 # 一堂 12 种阻力总表
 

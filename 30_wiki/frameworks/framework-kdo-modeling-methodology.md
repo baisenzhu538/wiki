@@ -27,6 +27,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- advanced
+- control
 ---
 
 ## 核心主张

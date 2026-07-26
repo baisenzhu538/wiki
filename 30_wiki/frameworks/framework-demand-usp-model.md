@@ -35,6 +35,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 需求分析
 ---
 # USP需求洞察模型
 

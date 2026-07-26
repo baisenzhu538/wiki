@@ -56,6 +56,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法
+- 落地实操
 ---
 
 # 暗知识：五步法常见误区与认知陷阱

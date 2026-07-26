@@ -49,6 +49,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 二维定位：找到差异化竞争的坐标

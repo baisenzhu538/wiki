@@ -55,6 +55,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 关键假设
+- 科学决策
 ---
 
 # 关键假设259工具与假设验证三板斧

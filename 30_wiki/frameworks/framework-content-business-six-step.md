@@ -24,6 +24,8 @@ aliases:
 - content-business-six-step
 - 内容经营六步闭环
 - 短视频内容经营
+- study
+- 大馨战队
 tags:
 - '#scene/business-analysis'
 - content-production

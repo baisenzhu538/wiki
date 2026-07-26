@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- study
+- 大馨战队
 ---
 # 素材文件七要素命名法
 

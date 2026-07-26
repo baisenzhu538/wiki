@@ -24,6 +24,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- extractions
 ---
 
 # 案例：在线教育融资扩张——不会定量的代价

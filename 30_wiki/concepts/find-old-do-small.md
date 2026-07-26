@@ -45,6 +45,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 的核心问题
 ---
 
 # "找老的干小的"场景评估框架

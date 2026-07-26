@@ -34,6 +34,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 单元模型
+- 规模对抗实操难点
 ---
 # 技能：应用人员降级公式实现标准化
 

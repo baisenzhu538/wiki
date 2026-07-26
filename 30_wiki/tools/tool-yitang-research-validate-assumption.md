@@ -49,6 +49,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 调研先行验证假设：在行动前杀死错误想法

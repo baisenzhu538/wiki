@@ -37,6 +37,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂五步法之增长
+- 亚马逊增长飞轮
 ---
 
 # 案例：亚马逊增长飞轮的五层逻辑

@@ -56,6 +56,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 审美卡片
+- 最佳实践收集
+- 泛产品设计
 ---
 
 # 最佳实践收集：积极搜集最佳案例

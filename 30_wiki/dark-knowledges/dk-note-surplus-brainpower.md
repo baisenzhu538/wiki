@@ -36,6 +36,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代清单体笔记
+- 时代请单体笔记
 ---
 
 # “剩余脑力”：高阶笔记的唯一货币与分水岭

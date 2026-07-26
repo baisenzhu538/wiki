@@ -82,6 +82,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 俱乐部
+- 协作方法论
 ---
 
 # 技能：Agent技能市场设计法

@@ -30,6 +30,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 精益创业
 ---
 
 # 超值服务：用 VIP 服务验证标准服务

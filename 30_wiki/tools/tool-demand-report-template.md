@@ -35,6 +35,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 需求分析
 ---
 
 # 需求分析报告模板：融资版与经营版双版本

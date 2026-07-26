@@ -56,6 +56,10 @@ diagnostic_signals:
   follow_up_question: 工具中的每条关键 claim 是否有来源？哪些是个人经验、哪些是外部数据、哪些缺少反例？
 - framework_lens: 缺少工程化目录与封装机制
   follow_up_question: 你的 Skill 是否有 manifest、测试用例、版本记录和安装文档？
+aliases:
+- 俱乐部
+- 半肥猫
+- 学习落地
 ---
 
 # 案例：半肥猫的课程转 Skill 八步法

@@ -32,6 +32,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 模式解析
 ---
 > 来源：听脑录音 6086504 + 公开信源六层交叉验证  
 > 置信度：核心机制 0.85+，客单价跨度 0.55，绝对化断言需降级

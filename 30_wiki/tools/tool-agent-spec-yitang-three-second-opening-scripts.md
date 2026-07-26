@@ -42,6 +42,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- product
 ---
 # 前三秒话术优化 Agent Spec
 

@@ -32,6 +32,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- handle
 ---
 
 # 工具：测试三难题 + 边际 ROI 决策框架

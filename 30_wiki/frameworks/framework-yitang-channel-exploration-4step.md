@@ -61,6 +61,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 云电脑
 ---
 
 # 渠道探索四步法：科学找到可持续获客渠道

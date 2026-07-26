@@ -25,6 +25,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 单元模型
+- 壁垒预判
 ---
 
 # 单元模型：壁垒预判

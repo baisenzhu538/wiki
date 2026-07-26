@@ -49,6 +49,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- tasks
 ---
 
 # OPC 卖点提炼助手 Agent Spec

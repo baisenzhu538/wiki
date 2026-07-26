@@ -30,6 +30,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 清单体笔记系统故事线
 ---
 # 清单体笔记（一堂笔记法）
 

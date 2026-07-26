@@ -35,6 +35,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 决策高度实操课口述
+- 科学决策
 ---
 # 需求验证流水线
 

@@ -107,6 +107,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- handle
 ---
 # 业务公式六层逻辑关系冰山（L1 模糊理解 → L6 动态建模）
 

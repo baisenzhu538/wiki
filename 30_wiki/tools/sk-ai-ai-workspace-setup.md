@@ -49,6 +49,9 @@ diagnostic_signals:
   follow_up_question: 是否已有一份独立的系统自述 + 领域知识库，能在新任务开始时直接加载给 AI？
 - framework_lens: 重新投胎陷阱
   follow_up_question: 上一次“重新投胎”后，是否改变了结构设计方法？还是只换了目录名？
+aliases:
+- 时代要不要练笔记
+- 需要练那个
 ---
 
 # 技能：结构化AI工作空间搭建

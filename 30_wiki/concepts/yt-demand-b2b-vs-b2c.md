@@ -36,6 +36,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂五步法
 ---
 
 

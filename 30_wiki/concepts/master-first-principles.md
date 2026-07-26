@@ -28,6 +28,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 关键假设
+- 知识萃取探索营
+- 科学决策
 ---
 
 

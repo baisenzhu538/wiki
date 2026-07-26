@@ -58,6 +58,10 @@ diagnostic_signals:
   follow_up_question: 你是否为每个关键节点配置了独立的"检查者"角色？
 - framework_lens: 及时复盘 + SOP 迭代
   follow_up_question: 每次意外后是否有固定动作把新规则写进 SOP，并在下一次执行前验证？
+aliases:
+- 建模能力培训
+- 开播准备
+- 流程建模
 ---
 
 # 流程建模案例：Truman 直播开播前 2 小时个人准备清单

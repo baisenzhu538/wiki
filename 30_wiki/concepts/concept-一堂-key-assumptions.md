@@ -34,6 +34,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 关键假设课
 ---
 
 > 黄药师骨架 · 老顽童填内容

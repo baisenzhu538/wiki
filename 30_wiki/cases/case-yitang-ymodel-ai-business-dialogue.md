@@ -21,6 +21,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- ideas
+- 个人修身
 ---
 
 # Y模型 案例：AI+Y模型——充电桩/养老院的黑盒报告 vs 拆开迭代

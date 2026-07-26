@@ -31,6 +31,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 
 # 一堂公众号投放：自造「单月价格/单月价值」参数稳定渠道ROI

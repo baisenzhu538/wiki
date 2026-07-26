@@ -68,6 +68,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 # 动力阻力分析：用户行为的推拉模型

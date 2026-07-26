@@ -46,6 +46,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- ideas
+- study
 ---
 
 # 个人学习方法总框架：IPO×四环闭环

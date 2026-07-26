@@ -41,6 +41,9 @@ quality_labels:
 updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: medium
+aliases:
+- 三个新盲区
+- 外部知识探索
 ---
 
 # 多智能体研究架构模式（Multi-Agent Research Architecture）

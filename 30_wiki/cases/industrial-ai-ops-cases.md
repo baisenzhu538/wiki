@@ -34,6 +34,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 云管家
+- 外呼案例
+- 标签审核案例
 ---
 > 来源：听脑录音 5640373/5639853/5638569 + 公开信源六层交叉验证  
 > 置信度：整体 0.82，部分数字为个案/待复核

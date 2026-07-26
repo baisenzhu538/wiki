@@ -39,6 +39,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 空间测算
 ---
 
 # 需求天花板四层线：TAM/SAM/SOM/CR1/BEL

@@ -24,6 +24,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 思维模型案例分享
 ---
 # 思维模型：从碎片经验到稳定模型
 

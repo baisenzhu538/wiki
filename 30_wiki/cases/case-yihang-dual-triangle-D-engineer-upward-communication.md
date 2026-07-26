@@ -30,6 +30,8 @@ related:
 aliases:
 - D同学案例
 - 红蓝军沟通法
+- 人机协作双三角
+- 同学的案例口述
 tags:
 - audience:general
 - scene:reference

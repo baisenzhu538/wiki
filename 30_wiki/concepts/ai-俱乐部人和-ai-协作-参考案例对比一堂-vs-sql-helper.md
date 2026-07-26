@@ -27,6 +27,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 俱乐部人和
+- 参考案例对比一堂
 ---
 
 # AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper）

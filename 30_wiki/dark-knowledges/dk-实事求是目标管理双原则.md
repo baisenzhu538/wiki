@@ -28,6 +28,8 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 实事求是+最佳实践：目标管理的两条铁律

@@ -38,6 +38,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 清单体笔记训练段位图
 ---
 
 # 技能：现场建模式萃取笔记

@@ -43,6 +43,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- fundamentals
+- manage
 ---
 
 # 基本功段位体系：L1-L6 爬山图 × SABC 岗位阶段 × 60/70/85 分数制

@@ -40,6 +40,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 # Vicky 短视频：从"盯结果+抄同行+掷骰子"到测试群+飞书假设池，团队心力逆转、业务跑出来
 

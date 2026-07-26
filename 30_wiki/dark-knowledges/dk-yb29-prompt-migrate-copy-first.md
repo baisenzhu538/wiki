@@ -24,6 +24,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
+aliases:
+- 设计基础
 ---
 
 # AIGC提示词迁移：先照搬再微调的务实策略

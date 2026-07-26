@@ -43,6 +43,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- fundamentals
+- manage
 ---
 
 # 基本功认知

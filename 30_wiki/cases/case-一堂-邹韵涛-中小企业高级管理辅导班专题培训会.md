@@ -45,6 +45,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 > 邹韵涛操盘政府出资的中小企业高管 2 天 1 夜封闭培训会，通过双部门背书、稀缺度假村形式、免费包吃住、大巴接送、小组 PK+一对一咨询奖励等手段，实现报名 106 人、实到 50 人、满意度 100%，是《优秀转化率复盘合集》中唯一内容完整的细分案例。

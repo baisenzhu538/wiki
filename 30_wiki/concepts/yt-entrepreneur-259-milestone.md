@@ -35,6 +35,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法
+- 单元模型
+- 尺子和梯子区别
 ---
 # 259里程碑
 

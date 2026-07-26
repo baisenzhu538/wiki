@@ -24,6 +24,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 决策实践实操课口述
+- 科学决策
 ---
 # 案例：Top City 负收益消减与自动排名
 

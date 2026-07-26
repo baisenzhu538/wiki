@@ -25,6 +25,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # 画布筹备三原则：花总转折 / 先加后减 / 15分钟出租车

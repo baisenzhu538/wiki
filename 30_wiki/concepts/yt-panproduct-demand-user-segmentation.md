@@ -55,6 +55,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 用户分层
+- 用户卡片
 ---
 
 # 用户分层：分层理解用户差异

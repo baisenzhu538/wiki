@@ -40,6 +40,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 实事求是
 ---
 
 # 实事求是：把「我希望是真的」和「事实是什么」分开

@@ -24,6 +24,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 案例：一堂逐字稿——用 ROI+内容壁垒打破"不能给"的行业惯例

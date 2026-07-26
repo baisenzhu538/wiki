@@ -25,6 +25,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # 报告书型学习者：不听课直接读卡也能学会的极简路径

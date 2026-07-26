@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 系统式调研
+- 调研专题
 ---
 # 案例：假扮家属潜入养老院微信群
 

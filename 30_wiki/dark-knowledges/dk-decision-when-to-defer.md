@@ -32,6 +32,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 决策高度实操课口述
+- 科学决策
 ---
 
 # 何时应该推迟决策

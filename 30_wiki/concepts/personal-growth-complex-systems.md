@@ -36,6 +36,10 @@ related:
 - '[[master-first-principles]]'
 confidence: 0.65
 trust_level: medium
+aliases:
+- 世界发展
+- 个人中国行
+- 偶然与必然讨论
 ---
 
 # 个人成长主题综合知识卡

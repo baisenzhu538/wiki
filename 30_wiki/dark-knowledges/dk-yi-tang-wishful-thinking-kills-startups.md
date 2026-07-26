@@ -42,6 +42,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 关键假设课
 ---
 
 # 暗知："愿望思维"是创业最大的陷阱

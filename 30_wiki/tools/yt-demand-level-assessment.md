@@ -36,6 +36,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 分析段位图
+- 段位示例
 ---
 
 # 需求分析段位自评表：从L1到L6的进阶路径

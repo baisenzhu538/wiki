@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 需求评估避坑合集
 ---
 
 # 踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在

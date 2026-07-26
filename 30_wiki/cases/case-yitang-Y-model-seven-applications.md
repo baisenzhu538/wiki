@@ -33,6 +33,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 七人逐步骤对标分析
 ---
 # Y模型七人跨域应用案例集
 

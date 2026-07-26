@@ -37,6 +37,8 @@ related:
 aliases:
 - 双三角武器库
 - 双三角能力矩阵 - framework-yitang-thought-liberation-lightning
+- 一堂双三角
+- 人机协作双三角
 tags:
 - audience:ceo
 - scene:diagnosis

@@ -35,6 +35,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 做成一张会移动的无限画布
+- 多模态输出
 ---
 
 # 空间即逻辑：内容结构→画布空间的映射

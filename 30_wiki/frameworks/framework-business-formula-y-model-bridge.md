@@ -52,6 +52,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- handle
 ---
 <!--
   桥接卡骨架 — C域本体卡产出后补充 wikilink。

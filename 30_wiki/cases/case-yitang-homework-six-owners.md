@@ -45,6 +45,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 # 一堂作业数六负责人推演：同一个作业率目标，六种业务理解深度决定六种操盘高度
 

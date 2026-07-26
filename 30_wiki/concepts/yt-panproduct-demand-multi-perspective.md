@@ -54,6 +54,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 多视角思考
+- 泛产品设计
+- 用户卡片
 ---
 
 # 多视角思考：综合内部/外部/角色考量

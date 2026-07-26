@@ -29,6 +29,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 低成本测试
+- 洗发水案例卖点组合
 ---
 # 洗发水卖点组合测试
 

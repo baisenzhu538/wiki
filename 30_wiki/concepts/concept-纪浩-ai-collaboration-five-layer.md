@@ -54,6 +54,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 协作方法论
 ---
 
 # 概念：纪浩AI协作五层工作空间法

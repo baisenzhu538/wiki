@@ -50,6 +50,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 一堂最佳转化率动力三曲线
 ---
 
 # 转化率优化：动力三曲线 × 十大浪费触点

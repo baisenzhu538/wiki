@@ -57,6 +57,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代清单体笔记
+- 时代请单体笔记
+- 清单体笔记系统故事线
 ---
 
 # AI时代笔记分工边界：人在哪里，AI在哪里

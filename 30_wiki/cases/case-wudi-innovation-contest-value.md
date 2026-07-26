@@ -47,6 +47,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 案例分享
+- 解放思想探索营
 ---
 
 > 定位：[[framework-yitang-thought-liberation-lightning]] 第 1 步「大胆设想」案例——重新定义问题的本质。

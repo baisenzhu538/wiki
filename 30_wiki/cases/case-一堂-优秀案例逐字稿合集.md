@@ -49,6 +49,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 > 优秀案例逐字稿合集：汇总 Truman 高频故事线框架与转化率域 PDF 案例合集的 OCR 校验结论，为动力和阻力触点案例提供「原文口径」与「可用性边界」。

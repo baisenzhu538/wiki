@@ -43,6 +43,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 十大单元模型清单
 ---
 
 # 一堂五步法·单元模型：斧子/尺子/梯子三角色

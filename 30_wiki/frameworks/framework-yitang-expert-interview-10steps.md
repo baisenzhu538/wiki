@@ -53,6 +53,7 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases: []
 ---
 
 # 专家访谈黄金十步法：从盲区梳理到专家匹配

@@ -28,6 +28,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 业务建模
+- 泛产品设计
 ---
 
 # 落地卡片：业务建模

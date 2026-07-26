@@ -22,6 +22,9 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # 双三角让团队敢承诺——画布一画就知道能交付什么

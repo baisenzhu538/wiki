@@ -38,6 +38,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 系统深度调研
 ---
 
 # HIS系统深度调研

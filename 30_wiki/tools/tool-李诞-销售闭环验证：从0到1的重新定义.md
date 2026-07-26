@@ -23,6 +23,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 全流程
+- 文创案例设计课
 ---
 # 技能：销售闭环验证：从0到1的重新定义
 

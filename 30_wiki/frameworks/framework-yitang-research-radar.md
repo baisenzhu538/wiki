@@ -44,6 +44,7 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases: []
 ---
 
 # 调研雷达图：四象限能力诊断与六种缺失识别

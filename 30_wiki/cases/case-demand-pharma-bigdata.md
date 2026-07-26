@@ -32,6 +32,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 优秀案例分析合集
 ---
 # 案例：大数据私有化创新药
 

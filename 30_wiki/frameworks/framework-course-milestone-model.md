@@ -39,6 +39,8 @@ diagnostic_signals:
   follow_up: 回到 M2 重新写一句话边界定义，超过边界的信息不进入
 - lens: 撞击实验不足
   follow_up: 启动 M6 撞击实验，明确目标为"推翻这个模型"
+aliases:
+- 建模能力培训
 ---
 
 # 课程里程碑模型：一堂做课的七步生产流程

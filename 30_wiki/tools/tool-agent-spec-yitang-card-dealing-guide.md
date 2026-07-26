@@ -33,6 +33,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- prompts
 ---
 # 出牌指南 Agent Spec
 

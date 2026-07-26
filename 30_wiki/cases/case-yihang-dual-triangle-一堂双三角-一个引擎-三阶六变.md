@@ -20,6 +20,9 @@ tags:
 - scene:reference
 - skill-level:intermediate
 reviewed_by: pending
+aliases:
+- 一个引擎
+- 一堂双三角
 ---
 # 一堂双三角-一个引擎-三阶六变
 

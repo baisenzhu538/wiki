@@ -47,6 +47,7 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases: []
 ---
 
 # Y模型跨域融合框架

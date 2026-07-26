@@ -37,6 +37,9 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 泛产品设计
+- 用泛产品思维做组织
 ---
 
 # 组织场景五步法操作卡

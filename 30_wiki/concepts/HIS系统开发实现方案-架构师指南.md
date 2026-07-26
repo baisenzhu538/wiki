@@ -26,6 +26,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 架构师指南
+- 系统开发实现方案
 ---
 
 # HIS系统开发实现方案-架构师指南

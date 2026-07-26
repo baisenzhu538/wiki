@@ -28,6 +28,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- advanced
+- modeling
 ---
 
 # 共建会/攻坚会流程建模：从 30-50% 成功率到 80-100% 的 8-9 步法

@@ -24,6 +24,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- extractions
 ---
 
 # 过度抽象无法指导工作，就失去意义

@@ -20,6 +20,9 @@ tags:
 - scene:reference
 - skill-level:intermediate
 reviewed_by: pending
+aliases:
+- 人机协作双三角
+- 可以落地的场景假设
 ---
 # AI可以落地的场景假设
 

@@ -51,6 +51,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- study
+- 落地之夜第六场
 ---
 # 少儿舞蹈学校：续班率打不动时，退回业务公式找战场，再用转化率打节点（C↔D 循环）
 

@@ -40,6 +40,9 @@ estimated_tokens: 2500
 reviewed_by: null
 author: 老顽童
 trust_level: medium-high
+aliases:
+- 个人修炼
+- 讲香十指模型口述版
 ---
 
 # 讲香·故事化

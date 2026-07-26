@@ -28,6 +28,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:beginner
+aliases:
+- 协作方法论
 ---
 
 ## 原始表述

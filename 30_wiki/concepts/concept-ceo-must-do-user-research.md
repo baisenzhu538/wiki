@@ -29,6 +29,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 用户调研实操课
+- 调研专题
 ---
 # CEO必须亲自做用户调研
 

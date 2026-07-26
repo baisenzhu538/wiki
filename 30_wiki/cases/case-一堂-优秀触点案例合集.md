@@ -38,6 +38,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- conversion
+- handle
 ---
 
 > 一堂《优秀触点案例合集》收录叶文彬射箭门店办卡率触点、李刚黄金投资回收推荐率三版迭代、范渝烘焙门店触点分析三个真实案例，共同说明：触点改造必须与动力设计、阻力消除组合使用，且在终点/峰值/送礼/消息等关键触点上做功 ROI 最高。

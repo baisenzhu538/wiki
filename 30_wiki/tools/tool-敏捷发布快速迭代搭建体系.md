@@ -37,6 +37,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 决策评估画布
+- 科学决策
 ---
 
 # 技能：敏捷发布快速迭代搭建体系

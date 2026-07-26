@@ -25,6 +25,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 自用的
 ---
 # 技能：AI输出审慎判断与交付确认
 

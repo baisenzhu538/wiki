@@ -47,6 +47,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代清单体笔记
 ---
 
 # 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦

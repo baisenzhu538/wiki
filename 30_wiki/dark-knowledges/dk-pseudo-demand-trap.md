@@ -33,6 +33,10 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
+aliases:
+- 一堂五步法
+- 关键假设课
+- 跑步机案例
 ---
 
 # 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地

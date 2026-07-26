@@ -32,6 +32,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 个人修炼
+- 全景策略
+- 科学学习
 ---
 # 技能：建立知识联系
 

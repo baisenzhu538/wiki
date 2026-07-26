@@ -46,6 +46,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 三类目标策略：必胜型严管、挑战型激驱、探索型留白

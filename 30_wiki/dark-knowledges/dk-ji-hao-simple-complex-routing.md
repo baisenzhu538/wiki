@@ -40,6 +40,10 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 五层结构
+- 俱乐部
+- 协作方法论
 ---
 
 # 暗知识：简单系统跳过导诊台，复杂系统必须路由

@@ -33,6 +33,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- tasks
 ---
 
 ## 关键证据

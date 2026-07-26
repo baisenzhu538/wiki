@@ -1,5 +1,4 @@
 ---
-
 id: case-child-drawing-rhyme
 title: 案例：孩子控笔「画画歌」——最小单元的建模实践
 type: case
@@ -21,14 +20,14 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - "[[tool-从案例中学习]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[case-科学决策-深度案例02]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
-  - "[[case-truman-ai-skill-self-packaging]]"
-  - "[[case-yitang-radar-chart-selection]]"
+- '[[tool-从案例中学习]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-truman-ai-skill-self-packaging]]'
+- '[[case-yitang-radar-chart-selection]]'
 tags:
 - src_unknown
 - src_unknown
@@ -43,7 +42,8 @@ diagnostic_signals:
   follow_up_question: 如果只允许总结四句话，必须保留哪四句才能解决眼前这一个小问题？
 - framework_lens: 建模验证闭环——提醒、观察、迭代
   follow_up_question: 有没有在真实场景中提醒、观察效果，并根据反馈调整口诀或触发条件？
-
+aliases:
+- 建模能力培训
 ---
 
 # 案例：孩子控笔「画画歌」——最小单元的建模实践

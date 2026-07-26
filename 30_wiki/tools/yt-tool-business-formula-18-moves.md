@@ -76,6 +76,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 降龙十八掌：假设驱动业务增长的 18 招全清单（五环节 3/4/4/4/3）

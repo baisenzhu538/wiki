@@ -48,6 +48,10 @@ related:
 - '[[case-modeling-abstraction-reliability-ladder]]'
 - '[[case-modeling-abstraction-yitang-models]]'
 - '[[case-modeling-essence-schools]]'
+aliases:
+- 建模能力培训
+- 本质建模
+- 高阶建模
 ---
 
 # 本质建模案例：从盲目创新到学科经典的五层思维深度

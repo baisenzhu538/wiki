@@ -26,6 +26,8 @@ aliases:
 - daxin-vikki-community-contrast
 - Vikki大馨对比
 - 社群模式对比
+- study
+- 大馨战队
 tags:
 - '#scene/community'
 - '#scene/content-team'

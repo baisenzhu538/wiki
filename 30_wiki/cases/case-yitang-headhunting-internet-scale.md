@@ -23,6 +23,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- extractions
 ---
 
 # 案例：猎头互联网做大——忽视行业结构性限制

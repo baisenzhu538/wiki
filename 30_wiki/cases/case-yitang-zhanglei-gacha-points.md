@@ -41,6 +41,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 # 张磊点位扭蛋机：5个点位日销100单，沿L1到L6六阶段把业务从"模糊模型"推演成动态公式
 

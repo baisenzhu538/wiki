@@ -25,6 +25,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 调研专题
+- 调研武器库培训
 ---
 # 案例：从收据/小票反推真实经营数据
 

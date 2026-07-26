@@ -45,6 +45,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 关键假设课
+- 声音和画面正常吗
 ---
 
 ## 原始表述

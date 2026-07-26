@@ -40,6 +40,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 产品内核实操课
+- 产品内核画布
 ---
 # 产品内核画布：从问题到解决方案的结构化工具
 

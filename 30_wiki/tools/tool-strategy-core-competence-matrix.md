@@ -25,6 +25,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 
 # 核心能力评估矩阵：影响力 × 急迫性

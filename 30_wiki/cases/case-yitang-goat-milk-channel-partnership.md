@@ -37,6 +37,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- details
+- itingnao
 ---
 # 羊奶粉「卖地图」区域代理模式案例
 

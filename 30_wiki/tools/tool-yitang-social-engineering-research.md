@@ -43,6 +43,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 系统式调研
+- 调研专题
 ---
 
 # 社会工程学调研：身份设计与信息获取的合法边界

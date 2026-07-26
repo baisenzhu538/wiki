@@ -24,6 +24,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 一堂双三角
+- 人机协作双三角
 ---
 
 # Agent 配置 7 步法：人类画像 + 规则匹配

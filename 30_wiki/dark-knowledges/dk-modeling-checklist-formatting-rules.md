@@ -45,6 +45,8 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 清单缺少分层或分级标准未共识
   follow_up_question: 为清单增加二级分类，并对S/A/B/C或P0/P1/P2的定义达成书面共识# 清单体写不好，模型就建不好：换行、分层、优先级、完备
+aliases:
+- 建模能力培训
 ---
 
 ## 原始表述

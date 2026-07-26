@@ -52,6 +52,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # PEAHD 五角色：一个强大的假设团队需要哪五种人（可兼）

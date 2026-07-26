@@ -38,6 +38,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 分析段位图
 ---
 
 # 需求分层画布：从"所有人"到"第一批100个"的结构化工具

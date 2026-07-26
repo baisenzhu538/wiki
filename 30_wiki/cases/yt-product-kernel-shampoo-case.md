@@ -37,6 +37,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 产品内核
+- 洗发水案例
 ---
 
 # 洗发水案例：产品内核实战——从"去屑"到"专业形象"

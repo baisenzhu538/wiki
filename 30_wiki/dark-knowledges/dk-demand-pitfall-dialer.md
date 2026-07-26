@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 需求评估避坑合集
 ---
 
 # 踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6

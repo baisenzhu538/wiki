@@ -56,6 +56,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 参数即假设与递归嵌套：公式里每个参数都是一条假设，参数是下一级的目标

@@ -28,6 +28,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 关键训练清单重要
+- 决策经验值
+- 决策高度实操课口述
 ---
 
 # 反脆弱决策检查清单

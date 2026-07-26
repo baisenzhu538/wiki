@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 需求评估避坑合集
 ---
 
 # 踩坑：四线家政——天花板误判。普遍性高≠能做大

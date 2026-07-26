@@ -30,6 +30,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 建模能力培训
 ---
 
 # 案例：教育本质与战略本质的提炼

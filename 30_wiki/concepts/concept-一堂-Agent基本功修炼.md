@@ -48,6 +48,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- fundamentals
+- manage
 ---
 
 # Agent 基本功修炼：KDO 工厂就是 Agent 军团练基本功的系统

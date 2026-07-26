@@ -35,6 +35,9 @@ tags:
 quality_labels:
 - actionable
 - validated
+aliases:
+- study
+- 大馨战队
 ---
 
 # 全文不提价格，但处处暗示价值

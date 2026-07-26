@@ -26,6 +26,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 调研专题
+- 高阶调研行动营
 ---
 # 案例：老年大学——用假设链验证赛道
 

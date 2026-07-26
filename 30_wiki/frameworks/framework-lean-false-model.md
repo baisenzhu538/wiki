@@ -44,6 +44,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 低成本验证
+- 创业全景图
 ---
 
 # 一堂 FALSE/FLESAI 低成本验证模型

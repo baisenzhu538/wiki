@@ -35,6 +35,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 产品内核迭代课
 ---
 
 # 内核演化：从V1到Vn

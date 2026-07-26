@@ -61,6 +61,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 审美卡片
+- 最佳实践池子
+- 泛产品设计
 ---
 # 最佳实践池子：用一堆最佳实践打磨产品
 

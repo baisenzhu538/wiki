@@ -50,6 +50,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 讲香十指模型
+- 超级武器库
 ---
 
 # 讲香·冲突化

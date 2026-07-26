@@ -40,6 +40,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 建模能力培训
 ---
 
 # 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选

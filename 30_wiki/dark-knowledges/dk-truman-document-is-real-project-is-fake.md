@@ -30,6 +30,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 知识萃取探索营
 ---
 
 ## 原始表述 / 核心洞察

@@ -34,6 +34,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 没有人呀现在
 ---
 
 # 豆包输入法：语音输入的最低成本实践

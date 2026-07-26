@@ -47,6 +47,10 @@ related:
 - '[[tool-sop-template-modeling]]'
 - '[[case-truman-livestream-sop-iteration]]'
 - case-modeling-process-livestream-prep
+aliases:
+- 建模能力培训
+- 流程建模
+- 高阶建模
 ---
 
 # 流程建模案例：10 个学员企业的 SOP 实践样本

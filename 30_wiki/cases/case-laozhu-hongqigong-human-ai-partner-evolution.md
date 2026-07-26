@@ -31,6 +31,8 @@ aliases:
 - 老朱洪七公诊断
 - Copilot到Partner
 - 人机协作跃迁
+- administrator
+- desktop
 tags:
 - audience:general
 - scene:reference

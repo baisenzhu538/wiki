@@ -39,6 +39,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 # 温校长驾校：十年传统业务拆公式后校园代理×招生链成关键路径，"六杯奶茶"触点假设把推荐率再提一级、业务再翻一倍
 

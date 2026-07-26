@@ -31,6 +31,8 @@ reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
+aliases:
+- 的核心问题
 ---
 # 技能：AI落地场景四要素评估法
 

@@ -34,6 +34,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 个人修身
+- 思维模型口述版
 ---
 
 # 思维模型：项目随时换、模型永生

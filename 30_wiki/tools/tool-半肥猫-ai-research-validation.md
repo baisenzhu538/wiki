@@ -51,6 +51,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 俱乐部
+- 半肥猫
 ---
 
 # AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环

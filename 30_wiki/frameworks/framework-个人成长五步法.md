@@ -27,6 +27,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 的个人成长五步法
 ---
 # 个人成长五步法
 

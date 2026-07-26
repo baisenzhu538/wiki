@@ -42,6 +42,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+aliases:
+- 产品内核实操课
+- 产品内核验证课
 ---
 # 五步法完整地图：从需求到壁垒
 

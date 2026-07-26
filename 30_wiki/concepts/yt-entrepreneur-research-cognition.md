@@ -54,6 +54,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 深度调研集群方法论
 ---
 
 # 调研认知

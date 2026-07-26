@@ -31,6 +31,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 技术落地案例
 ---
 # AI 辅助复杂职场沟通：角色扮演、攻防演练与受众适配
 

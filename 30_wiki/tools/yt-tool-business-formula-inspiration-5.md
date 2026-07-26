@@ -45,6 +45,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 灵感闪现五字诀：压 / 看 / 聚 / 拆 / 再

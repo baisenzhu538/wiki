@@ -46,6 +46,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 五层结构
+- 俱乐部
 ---
 
 # 技能：日志驱动排查法

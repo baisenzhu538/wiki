@@ -29,6 +29,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 凯文凯利
+- 必然趋势分享
 ---
 # AI趋势12大变化模型
 

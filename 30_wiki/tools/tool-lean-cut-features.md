@@ -27,6 +27,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 精益创业
 ---
 
 # 太复杂就砍功能

@@ -36,6 +36,8 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 # 伪因果的两个伪装：自我选择偏差与中间变量，都穿「正相关+符合常识」的外衣
 

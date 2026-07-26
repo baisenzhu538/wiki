@@ -32,6 +32,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 单元模型
+- 学练用
 ---
 # 学练用：知识内化的三阶模型
 

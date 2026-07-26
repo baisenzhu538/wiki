@@ -41,6 +41,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂五种挖触点：推演/同行/用户/创造/清单的双向触点挖掘法

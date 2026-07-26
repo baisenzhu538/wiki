@@ -47,6 +47,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 机会预判
+- 终局光谱图
 ---
 
 # 终局光谱图解读：五条读法 + 七段风险/收益量化

@@ -32,6 +32,9 @@ created_at: '2026-06-28'
 updated_at: '2026-06-29'
 confidence: 0.78
 trust_level: medium
+aliases:
+- 三个新盲区
+- 外部知识探索
 ---
 
 # CI Implement 阶段工具：洞见嵌入运营节奏

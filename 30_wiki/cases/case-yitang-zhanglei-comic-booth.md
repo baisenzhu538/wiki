@@ -45,6 +45,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 # 张磊漫展展位：9平米亏到100平米，靠一张业务公式+摄像头复盘把展位做到200平米盈利
 

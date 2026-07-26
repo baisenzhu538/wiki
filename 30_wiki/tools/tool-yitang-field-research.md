@@ -42,6 +42,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 系统式调研
+- 调研专题
 ---
 
 # 实地调研/蹲店：蹲店·谈话·数人头三板斧

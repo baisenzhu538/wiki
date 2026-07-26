@@ -36,6 +36,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- handle
 ---
 # 邵同学考研：GMV +50% 目标靠分层切片找到反常识机会，三维建模锁定重点老师
 

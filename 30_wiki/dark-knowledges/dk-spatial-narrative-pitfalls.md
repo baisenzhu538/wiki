@@ -38,6 +38,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 做成一张会移动的无限画布
+- 多模态输出
 ---
 
 # 空间叙事四大失败模式

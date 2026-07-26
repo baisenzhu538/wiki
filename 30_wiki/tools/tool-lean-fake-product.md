@@ -33,6 +33,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 精益创业
 ---
 # 假产品：用前端仿真验证需求
 

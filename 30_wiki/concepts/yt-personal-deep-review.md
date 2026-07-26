@@ -59,6 +59,8 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+aliases:
+- 一堂深度复盘冰山图
 ---
 
 # 深度复盘

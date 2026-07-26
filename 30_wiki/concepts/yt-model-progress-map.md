@@ -48,6 +48,8 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 堂无限进步大地图十年收藏版
 ---
 
 # 一堂无限进步大地图·十年收藏版

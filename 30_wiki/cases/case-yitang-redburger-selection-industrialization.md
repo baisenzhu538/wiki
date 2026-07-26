@@ -38,6 +38,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 汉堡难点
 ---
 
 # 案例：熊猫现烤汉堡如何用工业化流程破解选品难题

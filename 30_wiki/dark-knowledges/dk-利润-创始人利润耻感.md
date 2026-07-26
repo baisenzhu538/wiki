@@ -25,6 +25,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 利润为王
+- 利润认知与企业生存
 ---
 
 # 创始人利润耻感：不敢拿利润不是贪婪问题，是认知问题

@@ -26,6 +26,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 调研专题
+- 高阶情报调研课
 ---
 # 案例：电动车出海本地化调研
 

@@ -39,6 +39,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- conversion
+- handle
 ---
 
 # 一堂准备系数法则：需要量:准备量与三倍准备、三分之一挑选的经验系数

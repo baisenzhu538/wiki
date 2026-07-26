@@ -36,6 +36,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 上市公司报告解读
+- 调研专题
 ---
 # 上市公司报告价值Cheat Sheet：创业各阶段该读什么
 

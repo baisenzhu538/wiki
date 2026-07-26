@@ -27,6 +27,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 一堂深度复盘冰山图
 ---
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透
 

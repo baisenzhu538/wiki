@@ -40,6 +40,9 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+aliases:
+- 一堂五步法之增长
+- 亚马逊增长飞轮
 ---
 
 

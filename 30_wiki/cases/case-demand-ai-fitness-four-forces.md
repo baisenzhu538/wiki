@@ -31,6 +31,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 五步法之需求分析
+- 方法论
 ---
 # 案例：AI健身四力分析
 

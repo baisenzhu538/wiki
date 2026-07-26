@@ -49,6 +49,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 关键假设课
+- 精益方法论培训
 ---
 ## 原始表述 / 核心洞察
 

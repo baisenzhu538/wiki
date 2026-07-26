@@ -45,6 +45,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 泛产品设计工具篇口述版
 ---
 # 动机地图12版迭代：先观察再设计
 

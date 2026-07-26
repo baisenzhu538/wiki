@@ -58,6 +58,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 机会预判课
 ---
 
 # 预判交付物四层级：从模糊想法到Plan ABC

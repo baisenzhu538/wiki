@@ -34,6 +34,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 策略集
 ---
 
 # Y模型/科学决策

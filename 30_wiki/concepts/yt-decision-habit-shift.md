@@ -61,6 +61,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 课程地图精华串讲
 ---
 
 # X型→Y型决策者习惯诊断与转换

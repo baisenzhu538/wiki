@@ -27,6 +27,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 单元模型
+- 单城市模型
 ---
 
 # 单元模型：单城市模型

@@ -44,6 +44,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases: []
 ---
 
 # 行业扫描：快速建立行业全貌认知

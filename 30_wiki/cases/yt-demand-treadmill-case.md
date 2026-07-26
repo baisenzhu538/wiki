@@ -36,6 +36,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 一堂五步法
+- 跑步机案例
+- 需求分析图
 ---
 
 # 跑步机案例：需求分析全流程实战

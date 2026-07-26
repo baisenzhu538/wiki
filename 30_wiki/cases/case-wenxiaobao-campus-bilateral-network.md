@@ -47,6 +47,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 案例分享
+- 解放思想探索营
 ---
 
 > 定位：[[framework-yitang-thought-liberation-lightning]] 的第 1-3 步案例（大胆设想→底层自洽→假设试错）。

@@ -34,6 +34,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 个人修炼
+- 全景策略
 ---
 
 # IPO工具箱导航：I/P/O三段工具索引

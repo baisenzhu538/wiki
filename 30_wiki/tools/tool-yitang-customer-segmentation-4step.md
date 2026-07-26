@@ -50,6 +50,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- 客户分层和卖点提炼
 ---
 # 一堂用户分层四步法（SABC 分级）
 

@@ -33,6 +33,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 决策高度实操课口述
+- 科学决策
 ---
 
 # ToC 消费洞察驱动需求案例

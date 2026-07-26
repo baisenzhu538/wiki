@@ -51,6 +51,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 机会预判
+- 终局光谱图
 ---
 
 # 十五字黄金法诀：机会预判的核心框架

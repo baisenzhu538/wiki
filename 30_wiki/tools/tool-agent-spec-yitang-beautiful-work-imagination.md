@@ -34,6 +34,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- prompts
 ---
 # 漂亮工作想象 Agent Spec
 

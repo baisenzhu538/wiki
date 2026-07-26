@@ -49,6 +49,10 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 口喷设计范式与电商
+- 设计全流程
+- 设计师实操培训
 ---
 
 # 技能：AIGC项目ROI评估

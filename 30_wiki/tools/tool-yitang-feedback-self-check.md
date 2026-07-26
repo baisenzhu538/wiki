@@ -35,6 +35,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 元能力-刻意练习
+- 刻意练习
 ---
 # 无导师反馈自检法：自己给自己找差距
 

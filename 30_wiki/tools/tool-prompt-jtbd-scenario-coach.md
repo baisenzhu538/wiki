@@ -24,6 +24,9 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
+aliases:
+- 五步法之需求分析
+- 场景推演教练提示词
 ---
 # JTBD 场景推演教练
 

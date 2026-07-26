@@ -46,6 +46,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 协作方法论
 ---
 
 # 技能：真需求四要素验证法

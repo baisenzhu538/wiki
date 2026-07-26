@@ -51,6 +51,7 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases: []
 ---
 
 # 一堂调研行动营 · 启动课（LLM 精炼）

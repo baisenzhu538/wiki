@@ -47,6 +47,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+aliases:
+- handle
 ---
 
 # 业务公式格式规范：L1-L3 三级标准 + 清单体 + 四不要（女装店三版本打分）

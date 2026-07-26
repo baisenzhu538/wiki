@@ -60,6 +60,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 单元模型
 ---
 
 # 技能：区分获客渠道计算单元ROI

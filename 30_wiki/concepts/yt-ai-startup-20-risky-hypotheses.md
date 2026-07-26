@@ -22,6 +22,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 刘长胜
 ---
 # AI创业20个高风险假设清单
 

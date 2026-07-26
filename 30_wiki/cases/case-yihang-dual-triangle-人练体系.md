@@ -20,6 +20,9 @@ tags:
 - scene:reference
 - skill-level:intermediate
 reviewed_by: pending
+aliases:
+- 人机协作双三角
+- 人练体系
 ---
 # 人练体系
 

@@ -44,6 +44,9 @@ related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[framework-一堂-机会预判]]'
 - '[[tool-一堂-机会预判-五步法预判]]'
+aliases:
+- 三维排列组合
+- 机会预判
 ---
 
 # 三维排列组合找机会

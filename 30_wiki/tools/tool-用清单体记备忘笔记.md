@@ -36,6 +36,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+aliases:
+- 清单体笔记训练段位图
 ---
 
 # 技能：用清单体记备忘笔记

@@ -48,6 +48,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 时代清单体笔记
+- 时代请单体笔记
 ---
 
 # 专家访谈式笔记：边聊边建模的高阶认知工作流

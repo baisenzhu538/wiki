@@ -40,6 +40,10 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 俱乐部
+- 半肥猫
+- 学习落地
 ---
 
 # 案例：半肥猫把一堂课程作业变成可复用调研工具

@@ -38,6 +38,9 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
+aliases:
+- 半肥猫
+- 学习落地
 ---
 
 # 技能：飞书多维表格 + 自建机器人做团队数据协同

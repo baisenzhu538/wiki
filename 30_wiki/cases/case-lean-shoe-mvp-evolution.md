@@ -30,6 +30,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+aliases:
+- 低成本验证
+- 种对比
 ---
 # 鞋类产品 MVP 演进
 

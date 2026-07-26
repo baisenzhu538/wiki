@@ -24,6 +24,9 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+aliases:
+- 冉鹏PPT截图
+- 引擎点火
 ---
 
 **案例**：国产零食已借助跨境电商与海外渠道网络进入 220 个国家和地区，美、英、澳、德为最受欢迎市场。数据来自亿邦动力。
