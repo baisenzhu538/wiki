@@ -6,7 +6,8 @@ status: reviewed
 reviewed_by: 欧阳锋
 review_date: 2026-07-26
 phase1: done
-notes: "Phase 1 PASS——标签自动推断基线建立，覆盖率96%。Phase 2/3待王语嫣编排。scaffold模板(#2)+lint规则(#3)待黄药师补充。"
+phase2: in_progress
+notes: "Phase 1 PASS。Phase 2：黄药师写 _check_tags() + scaffold模板加tags字段。Phase 3：覆盖率80%后激活门禁"
 created_at: 2026-07-26
 updated_at: 2026-07-26
 domain: system

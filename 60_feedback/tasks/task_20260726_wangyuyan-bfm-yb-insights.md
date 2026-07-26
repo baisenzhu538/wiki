@@ -65,3 +65,14 @@ source: 00_inbox/半肥猫月白老朱线下聚会/
 - **不覆盖**：国内外市场环境对比
 - **不单独建域**：归入system域，工具层补充
 - **不打断#204**：#204产出后再执行已有卡注入
+
+## 建议标签（按 #206 Phase 2 规范）
+
+| 卡片 | 建议标签 |
+|:--|:--|
+| tool-yb-cross-quadrant-prompt-framework | `method:thinking-tool` `audience:designer` `scene:execute` `source-person:月白` |
+| dk-bfm-compression-path | `method:modeling` `audience:builder` `scene:reference` `source-person:半肥猫` `source-person:老朱` |
+| concept-ai-co-learning | `method:collaboration` `audience:builder` `scene:diagnose` `source-person:老朱` |
+| dk-ai-cross-domain-inference | `method:reasoning` `audience:builder` `scene:reference` `value-tier:macro` |
+
+**合计：4张新卡 + 2张已有卡注入**
