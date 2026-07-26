@@ -6,6 +6,7 @@ status: queued
 created_at: 2026-07-26
 domain: system
 priority: P0
+implementation: 见 60_feedback/diagnosis/diag_20260726_huangyaoshi-index-pipeline-upgrade.md (黄药师建议书·三层改动：aliases 3x + tags 2x + discoverable_by 2x)
 ---
 
 # kdo query 索引管道全面修复
