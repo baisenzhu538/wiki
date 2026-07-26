@@ -26,11 +26,11 @@ discoverable_by:
 - 怎么做跟同行不一样的事
 - 创新成功率低
 tags:
-- method:innovation
-- scene:reference
-- audience:ceo
-- content-format:framework
-- source-person:Truman
+  - method:creative-ideation
+  - scene:generate-ideas
+  - audience:decision-maker
+  - content-format:framework
+  - source-person:Truman
 source_refs:
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L496-568

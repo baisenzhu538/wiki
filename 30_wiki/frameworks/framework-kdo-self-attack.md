@@ -20,11 +20,11 @@ quality_labels:
 - quality
 - validated
 tags:
-- method:quality-assurance
-- scene:reference
-- audience:builder
-- content-format:framework
-- source-person:王语嫣
+  - method:adversarial-testing
+  - scene:pre-ship-review
+  - audience:knowledge-engineer
+  - content-format:framework
+  - source-person:王语嫣
 updated_at:
 source_refs:
 - 40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md

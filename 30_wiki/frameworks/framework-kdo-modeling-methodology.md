@@ -16,9 +16,9 @@ source_refs:
 - .agent/startup.md
 - 90_control/rules-core.md
 tags:
-  - method:modeling
-  - scene:reference
-  - audience:builder
+  - method:kdo-modeling
+  - scene:build-knowledge-system
+  - audience:knowledge-engineer
   - content-format:framework
   - source-person:黄药师
 related:
