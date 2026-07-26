@@ -1,7 +1,7 @@
 ---
 id: task_20260726_wangyuyan-bfm-yb-insights
 task_id: 205
-assignee: laowantong
+assignee: 飞书老顽童
 status: queued
 created_at: 2026-07-26
 updated_at: 2026-07-26
