@@ -34,7 +34,7 @@ quality_labels: cited
 
 ## 核心主张
 
-Truman 的**闪电模型**（大胆设想→底层自洽→假设试错→建模重构）既是人类创新的认知框架，也是 Agent 自我进化的路线图。同一个四阶结构在「解放思想」（人类创新）和「Agent 升级」（Agent 进化）两个域产生完全平行的映射。
+Truman 的**闪电模型**（大胆设想→底层自洽→假设试错→建模重构）既是人类创新的认知框架，也是 Agent 自我进化的路线图。同一个四阶结构在「解放思想」（人类创新）和「Agent 升级」（Agent 进化）两个域产生结构同构的映射——但需注意：Agent 的「自洽」是统计一致性而非人类式的逻辑推理（详见 Critique §Rodney Brooks）。
 
 > **定位**：本卡是 `framework-yitang-thought-liberation-lightning`（人类创新）与 KDO Agent 体系（Agent 进化）之间的桥梁卡。证明 Agent 进化不是另起炉灶——它本身就是闪电模型的 Agent 层应用。
 
