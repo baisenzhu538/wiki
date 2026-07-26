@@ -47,8 +47,30 @@ source: 00_inbox/半肥猫月白老朱线下聚会/ + 飞书王语嫣标签缺�
 3. `kdo lint` 对新卡缺tags报WARNING
 4. 存量卡不触发——不排批量返工
 
+## Phase 1 ✅ 已完成
+
+黄药师完成自动推断：2,337张卡标注 audience + scene + skill-level 三维标签，覆盖率 9.9%→96%。`tag-registry.yaml` 已恢复并扩展至 27 维度。
+
+## Phase 2：高价值卡人工精标（王语嫣+老顽童，4周自然覆盖）
+
+| 优先级 | 对象 | 数量 | 方式 |
+|:--|:--|:--:|:--|
+| P0 | framework卡 | ~30张 | 老顽童返工时顺手加 method+industry+value-tier |
+| P0 | domain-digest/MOC卡 | ~10张 | 同上 |
+| P0 | agent-spec卡 | 8张 | 同上 |
+| P1 | 新域首卡（近30天） | ~15张 | 王语嫣诊断时标注建议维度 |
+| P2 | tool卡 | ~960张 | 等自然返工，不专门排 |
+
+**王语嫣动作**：每份任务单的卡片规格节追加一行"建议标签：xxx"。老顽童建卡时写入 frontmatter。
+
+**欧阳锋动作**：Phase 0 扫描新增"P0卡是否有 method 标签？"提醒（🟡不阻断）。
+
+## Phase 3：pre-submit 强制门禁（黄药师，等覆盖≥80%后激活）
+
+门禁规则见 `60_feedback/diagnosis/diag_20260726_huangyaoshi-tag-system-phase2-3.md` §3。黄药师先写 `_check_tags()` 函数，暂不激活。4周后统计P0卡覆盖→达标激活。
+
 ## 边界
 
 - **不批量补存量卡标签**——该卡返工时顺手补
 - **不替代domain**——tags补充domain，不替代
-- **黄药师执行**——基础设施变更
+- **门禁等覆盖达标再开**——避免存量warning海啸

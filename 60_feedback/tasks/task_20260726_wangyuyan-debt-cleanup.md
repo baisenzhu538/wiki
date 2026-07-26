@@ -32,12 +32,21 @@ priority: P3
 | 5 | `tool-月白-课程资料文件命名规范` | draft/low-trust | upgrade→reviewed |
 | 6 | `tool-月白-设计师AI资产四类型沉淀` | draft/low-trust | upgrade→reviewed |
 
-### 标签补全（来源：#206标签诊断）
+### 标签补全（来源：#206 Phase 2——黄药师建议书）
 
-| # | 范围 | 动作 |
-|:--|:--|:--|
-| 7 | 所有 `tags: null` 或 `tags: []` 的卡 | 该卡因其他原因返工时顺手补tags（按tag-registry维度） |
-| 8 | 半肥猫相关卡（`case-半肥猫-*`/`tool-kdo-agent-production-*`） | 补行业/场景/成熟度标签 |
+> 不排专门批量返工。老顽童返工时顺手加。4周自然覆盖，达80%后激活Phase 3 lint门禁。
+
+**标的优先级**：
+
+| 优先级 | 对象 | 数量 | 需标维度 | 触发时机 |
+|:--|:--|:--:|:--|:--|
+| P0 | framework卡 | ~30张 | method + industry + value-tier | 该卡返工时顺手加 |
+| P0 | domain-digest/MOC卡 | ~10张 | content-format + prerequisite-knowledge | 同上 |
+| P0 | agent-spec卡 | 8张 | usage-depth + value-tier + method | 同上 |
+| P1 | 新域首卡（近30天） | ~15张 | activation_rules要求的所有维度 | 王语嫣出诊断时标注建议维度 |
+| P2 | tool卡 | ~960张 | method（如domain推断不出） | 不专门排——等自然返工 |
+
+**操作**：王语嫣新任务单加"建议标签"列。老顽童返工时复制到frontmatter。欧阳锋Phase 0扫描P0卡是否缺method标签（缺=🟡提醒，不阻断）。
 
 ### 定位声明补全（来源：#199）
 
