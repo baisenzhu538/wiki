@@ -28,15 +28,15 @@ related:
 - framework-一堂五步法-泛产品设计
 - master-decision-hygiene
 - concept-X型Y型决策习惯
-- '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
-- '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
-- '[[yt-business-formula-six-level-logic]]'
-- '[[framework-TCPR底层网络协议]]'
-- '[[framework-kdo-self-attack]]'
-- '[[framework-yitang-y-model-cross-domain-fusion]]'
+- case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution
+- framework-yitang-y-model-dual-triangle-synergy
+- yt-business-formula-six-level-logic
+- framework-TCPR底层网络协议
+- framework-kdo-self-attack
+- framework-yitang-y-model-cross-domain-fusion
+- framework-yitang-thought-liberation-lightning
 created_at: 2026-07-03
 updated_at: '2026-07-04'
-  - framework-yitang-thought-liberation-lightning
 ---
 
 # 解放思想：不被行业常识和既有框架绑架
