@@ -50,10 +50,6 @@ diagnostic_signals:
 - signal: 团队对创新方法论的理解不一致
   lens: 培训不够或框架表达不清晰
   follow_up: 用十层解读法重新学习框架
-tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 ---
 
 > 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的顶层框架，统摄解放思想创新体系。

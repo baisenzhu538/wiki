@@ -44,10 +44,6 @@ related:
 - '[[framework-yitang-y-model-cross-domain-fusion]]'
 created_at: 2026-07-03
 updated_at: '2026-07-04'
-tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
 - 实事求是
 ---

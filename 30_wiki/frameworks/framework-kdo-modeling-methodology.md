@@ -31,10 +31,6 @@ related:
 - yt-decision-y-model
 created_at: 2026-07-19
 updated_at: 2026-07-19 - tool-yitang-dialectical-modeling - framework-yitang-thought-liberation-lightning
-tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
 - advanced
 - control

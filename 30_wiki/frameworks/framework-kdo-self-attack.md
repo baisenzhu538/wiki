@@ -45,10 +45,6 @@ related:
 - tool-yitang-Y-model-application
 - framework-yitang-shishi-qiushi
 - framework-yitang-jiefang-sixiang
-tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
 - attack
 - capabilities
