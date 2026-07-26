@@ -9,6 +9,7 @@ review_date: 2026-07-07
 confidence: 0.92
 trust_level: high
 language: zh-CN
+  - concept-collaboration-philosophy-foundation
 created_at: 2026-07-07
 updated_at: 2026-07-07
 domain:

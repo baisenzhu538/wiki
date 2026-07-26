@@ -1,10 +1,10 @@
 ---
 id: task_20260726_wangyuyan-bad-world
 task_id: 202
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 created_at: 2026-07-26
-updated_at: 2026-07-26
+updated_at: '2026-07-26T11:24:19.058121+00:00'
 domain: management
 priority: P1
 source: 00_inbox/坏世界研究/

@@ -23,6 +23,8 @@ updated_at: '2026-06-16'
 id: yt-management-company-culture
 author: 老顽童
 reviewed_by: 欧阳锋
+  - concept-collaboration-philosophy-foundation
+  - tool-game-environment-checklist
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
