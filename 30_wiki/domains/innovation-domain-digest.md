@@ -8,7 +8,7 @@ trust_level: high
 domain:
   - innovation
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 
 review_date: "2026-07-26"
 created_at: "2026-07-26"
 updated_at: "2026-07-26"
@@ -17,6 +17,14 @@ related:
   - concept-yitang-layered-self-consistency
   - bridge-yitang-seek-truth-liberate-thought
   - dk-yitang-innovation-failure-modes
+diagnostic_signals:
+  - signal: "创新方案执行后效果不如预期"
+    lens: 检查是否跳过了闪电模型的某个步骤
+    follow_up: 按四步闭环逐步排查
+  - signal: "团队对创新方法论的理解不一致"
+    lens: 培训不够或框架表达不清晰
+    follow_up: 用十层解读法重新学习框架
+
 ---
 
 # 解放思想创新体系 · 域摘要
@@ -57,3 +65,12 @@ related:
 - 创业方向选择（大胆设想→底层自洽→假设试错）
 - 产品创新（旧模型粉碎→底层重建）
 - 组织创新体系建设（从热情驱动到体系化）
+
+## Synthesis
+
+本卡在解放思想创新体系中的位置：闪电模型四步闭环中的一步。与其他卡的关系——向上承接框架总纲，向下对接具体工具和案例。
+
+## Critique
+
+- 本卡基于一堂实践提炼，适用性待跨行业验证
+- 方法论的有效性依赖执行者的认知水平和实践经验

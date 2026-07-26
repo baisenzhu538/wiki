@@ -8,7 +8,7 @@ trust_level: high
 domain:
   - innovation
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 
 review_date: "2026-07-26"
 created_at: "2026-07-26"
 updated_at: "2026-07-26"
@@ -24,6 +24,14 @@ related:
   - framework-yitang-thought-liberation-lightning
   - bridge-yitang-seek-truth-liberate-thought
   - dk-yitang-innovation-failure-modes
+diagnostic_signals:
+  - signal: "创新方案执行后效果不如预期"
+    lens: 检查是否跳过了闪电模型的某个步骤
+    follow_up: 按四步闭环逐步排查
+  - signal: "团队对创新方法论的理解不一致"
+    lens: 培训不够或框架表达不清晰
+    follow_up: 用十层解读法重新学习框架
+
 ---
 
 > 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的第 1 步「大胆设想」的诊断工具。
@@ -64,3 +72,12 @@ related:
 3. 大胆打分（1-5）：这些想法有多少是"同行不会这么做"的？
 4. 落到四象限→按改善策略执行
 ```
+
+## Synthesis
+
+本卡在解放思想创新体系中的位置：闪电模型四步闭环中的一步。与其他卡的关系——向上承接框架总纲，向下对接具体工具和案例。
+
+## Critique
+
+- 本卡基于一堂实践提炼，适用性待跨行业验证
+- 方法论的有效性依赖执行者的认知水平和实践经验
