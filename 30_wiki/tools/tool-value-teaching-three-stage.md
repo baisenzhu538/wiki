@@ -1,4 +1,6 @@
 ---
+
+
 id: tool-value-teaching-three-stage
 title: "价值教学三阶模型"
 type: tool
@@ -32,6 +34,7 @@ source_refs:
 related:
   - framework-yitang-thought-liberation-lightning
 ---
+
 # 价值教学三阶模型
 
 > 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的配套工具。

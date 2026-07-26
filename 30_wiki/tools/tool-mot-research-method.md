@@ -1,4 +1,6 @@
 ---
+
+
 id: tool-mot-research-method
 title: "MOT调研法：关键时刻用户触点分析"
 type: tool
@@ -32,6 +34,7 @@ source_refs:
 related:
   - framework-yitang-thought-liberation-lightning
 ---
+
 # MOT调研法
 
 > 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的配套工具。

@@ -1,4 +1,6 @@
 ---
+
+
 id: tool-trr-maturity-scale
 title: "TRR技术成熟度量表"
 type: tool
@@ -32,6 +34,7 @@ source_refs:
 related:
   - framework-yitang-thought-liberation-lightning
 ---
+
 # TRR技术成熟度量表
 
 > 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的配套工具。

@@ -10,6 +10,8 @@ domain:
 author: 老顽童
 review_date: "2026-07-26"
 reviewed_by: 待审
+  - framework-kdo-modeling-methodology
+  - framework-yitang-shishi-qiushi
 created_at: "2026-07-26"
 updated_at: "2026-07-26"
 quality_labels:
@@ -25,6 +27,8 @@ related:
   - framework-yitang-thought-liberation-lightning
   - concept-yitang-layered-self-consistency
   - framework-kdo-modeling-methodology
+  - framework-yitang-shishi-qiushi
+  - framework-ouyangfeng-review-methodology
   - yt-decision-y-model
 diagnostic_signals:
   - signal: "创新方案执行后效果不如预期"
