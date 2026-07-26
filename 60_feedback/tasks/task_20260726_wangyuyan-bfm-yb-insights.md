@@ -1,10 +1,10 @@
 ---
 id: task_20260726_wangyuyan-bfm-yb-insights
 task_id: 205
-assignee: 飞书老顽童
-status: queued
+assignee: laowantong
+status: in_progress
 created_at: 2026-07-26
-updated_at: 2026-07-26
+updated_at: '2026-07-26T14:43:59.997422+00:00'
 domain: system
 priority: P1
 source: 00_inbox/半肥猫月白老朱线下聚会/

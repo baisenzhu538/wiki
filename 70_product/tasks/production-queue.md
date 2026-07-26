@@ -485,7 +485,7 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 | 202 | `task_20260726_wangyuyan-bad-world` | 坏世界研究：3张卡（1 concept + 2 tool） | reviewed | laowantong | 3张 | 无 | `60_feedback/tasks/task_20260726_wangyuyan-bad-world.md` | 欧阳锋终审A- |
 | 203 | `task_20260726_wangyuyan-kdo-infra-health` | KDO基础链路健康检查：全库基线扫描+17牌组件库终审+Dashboard | reviewed | huangyaoshi | 3项 | 无 | `60_feedback/tasks/task_20260726_wangyuyan-kdo-infra-health.md` | 欧阳锋终审PASS |
 | 204 | `task_20260726_wangyuyan-obsidian-ai-collab` | Obsidian+AI协作最佳实践：2新卡+1升级 | reviewed | laowantong | 2新卡+1升级 | 无 | `60_feedback/tasks/task_20260726_wangyuyan-obsidian-ai-collab.md` | 欧阳锋终审B+ |
-| 205 | `task_20260726_wangyuyan-bfm-yb-insights` | 半肥猫+月白线下聚会·暗知识卡片化：4新卡+2注入 | queued | 飞书老顽童 | 4新卡+2注入 | 无 | `60_feedback/tasks/task_20260726_wangyuyan-bfm-yb-insights.md` | |
+| 205 | `task_20260726_wangyuyan-bfm-yb-insights` | 半肥猫+月白线下聚会·暗知识卡片化：4新卡+2注入 | claimed-laowantong | 飞书老顽童 | 4新卡+2注入 | 无 | `60_feedback/tasks/task_20260726_wangyuyan-bfm-yb-insights.md` | |
 | 206 | `task_20260726_wangyuyan-kdo-tag-system` | KDO多维标签体系恢复：tag-registry+scaffold+lint | reviewed | huangyaoshi | 3项 | 无 | `60_feedback/tasks/task_20260726_wangyuyan-kdo-tag-system.md` | 欧阳锋终审PASS(Phase1)；scaffold/lint待补充 |
 | 207 | `task_20260726_wangyuyan-debt-cleanup` | 存量卡质量债务渐进清理：6张月白命名卡draft→reviewed+标签补全+定位声明补全+历史残留清理。P3长程——老顽童碎片时间做，不设deadline，每批5-10张 | queued | laowantong | 10项待清理（渐进追加） | 无 | `60_feedback/tasks/task_20260726_wangyuyan-debt-cleanup.md` | 不批量返工——该卡因其他原因返工时顺手处理；发现新问题追加到清单 |
 | 208 | task_20260726_wangyuyan-kdo-query-alias-fix | kdo query别名索引修复：aliases字段未被检索索引覆盖。卡片已标但query返回0命中。P0 | queued | huangyaoshi | 1项infra修复 | #203同类管道断裂 | 60_feedback/tasks/task_20260726_wangyuyan-kdo-query-alias-fix.md | 短期workaround：用title关键词搜
