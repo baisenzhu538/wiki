@@ -2,13 +2,13 @@
 id: task_20260727_wangyuyan-rrf-tag-mcp
 task_id: 212
 assignee: huangyaoshi
-status: in_progress
+status: pending_review
 created_at: 2026-07-27
 domain: system
 priority: P0
 source: 60_feedback/diagnosis/diag_20260726_huangyaoshi-index-pipeline-upgrade.md
   (黄药师建议书·第二+三层)
-updated_at: '2026-07-26T16:58:12.725578+00:00'
+updated_at: '2026-07-26T17:00:54.818481+00:00'
 ---
 
 # RRF tag维度匹配 + MCP标签暴露
