@@ -8,7 +8,6 @@ trust_level: high
 domain:
   - innovation
 author: 老顽童
-reviewed_by: 
 review_date: "2026-07-26"
 reviewed_by: ""
 created_at: "2026-07-26"
