@@ -2,11 +2,12 @@
 id: task_20260726_wangyuyan-private-board
 task_id: 210
 assignee: laowantong
-status: queued
+status: in_progress
 created_at: 2026-07-26
 domain: management
 priority: P2
 source: 00_inbox/私董会/
+updated_at: '2026-07-26T16:46:51.617043+00:00'
 ---
 
 # 私董会 · 卡片化生产任务
