@@ -45,6 +45,7 @@ related:
 created_at: 2026-07-03
 updated_at: '2026-07-08'
   - dk-ai-memory-four-layers
+  - framework-yitang-thought-liberation-lightning
 ---
 
 # Y模型 OS：所有 Agent 的共享底层 prompt

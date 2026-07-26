@@ -63,6 +63,7 @@ related:
 - '[[yt-composite-pan-product-methodology]]'
 - '[[yt-decision-y-model]]'
 - '[[yt-model-pan-product-three-virtues]]'
+  - framework-yitang-thought-liberation-lightning
 ---
 # 一堂五步法在泛产品设计中的应用
 

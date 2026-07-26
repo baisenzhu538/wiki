@@ -21,6 +21,7 @@ related:
   - yt-decision-y-model
 created_at: 2026-07-19
 updated_at: 2026-07-19
+  - tool-yitang-dialectical-modeling
 ---
 
 ## 核心主张

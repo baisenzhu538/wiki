@@ -44,6 +44,7 @@ quality_labels:
 - actionable
 - principle
 - insight
+  - framework-yitang-thought-liberation-lightning
 ---
 
 # 基本功四字诀「拆建推练」：把一个动作练成组织能力

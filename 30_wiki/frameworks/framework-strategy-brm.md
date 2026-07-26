@@ -35,6 +35,7 @@ related:
   - tool-strategy-gap-analysis
   - case-strategy-exit-remove
 updated_at: '2026-07-04'
+  - framework-yitang-thought-liberation-lightning
 ---
 
 # 冉鹏版 BRM 框架（源于 IBM BLM 方法论）

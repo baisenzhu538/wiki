@@ -37,6 +37,7 @@ related:
 aliases:
 - 双三角武器库
 - 双三角能力矩阵
+  - framework-yitang-thought-liberation-lightning
 ---
 
 # 一行双三角六要素武器库

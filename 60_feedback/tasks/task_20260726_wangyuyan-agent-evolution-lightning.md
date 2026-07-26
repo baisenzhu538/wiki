@@ -2,9 +2,9 @@
 id: task_20260726_wangyuyan-agent-evolution
 task_id: 200
 assignee: hermes
-status: in_progress
+status: queued
 created_at: 2026-07-26
-updated_at: '2026-07-26T07:26:45.669740+00:00'
+updated_at: '2026-07-26T07:48:13.996426+00:00'
 domain: system
 priority: P0
 source: 00_inbox/解放思想探索营/ + 30_wiki/frameworks/framework-kdo-modeling-methodology.md

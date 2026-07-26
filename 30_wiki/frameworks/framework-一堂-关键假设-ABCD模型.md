@@ -46,6 +46,7 @@ quality_labels:
 - principle
 - framework
 - cited
+  - framework-yitang-thought-liberation-lightning
 ---
 
 # 一堂关键假设 ABCD 模型（YitangABCDStrategyModel）
