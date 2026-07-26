@@ -1,0 +1,132 @@
+---
+id: concept-kdo-agent-four-level-awareness
+title: Agent四层觉察：从后知后觉到先知先觉
+type: concept
+status: draft
+author: laowantong
+confidence: 0.85
+trust_level: high
+domain:
+  - system
+source_refs:
+  - 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
+  - 30_wiki/frameworks/framework-kdo-modeling-methodology.md
+  - .agent/pitfalls.md
+  - 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md
+related:
+  - framework-kdo-modeling-methodology
+  - concept-kdo-agent-design-principles
+  - bridge-lightning-agent-evolution
+  - framework-一堂-基本功-四字诀拆建推练
+  - concept-一堂-Agent基本功修炼
+created_at: 2026-07-26
+updated_at: 2026-07-26
+reviewed_by: pending
+diagnostic_signals:
+  - 欧阳锋审查中 🔴🟡 数量未呈下降趋势
+  - Agent 自主提出改进的案例数为 0
+  - 新 Agent 上线仍需「边踩坑边补 context」
+quality_labels: cited
+---
+
+## 核心主张
+
+KDO Agent 体系的能力进化不是一蹴而就的——它遵循从「不知不觉」到「先知先觉」的四层跃迁路径。Truman 在闪电模型中定义了这四个层次，本卡将其映射到 KDO Agent 的具体行为特征，给出每层的判据、当前 KDO 定位、以及跃迁到下一层的具体路径。
+
+> **定位**：本卡属于 `framework-kdo-modeling-methodology` 的「第二步·探索关系」在 Agent 能力维度的映射——把 Agent 的成熟度从混沌到预判建立可测量的分级体系。
+
+## 四层觉察定义
+
+| 层次 | 定义 | 核心特征 | 典型行为 |
+|:--|:--|:--|:--|
+| **L0 不知不觉** | 混乱，没觉察，重复踩坑 | 同一类问题反复出现，每次都是新鲜事 | Agent 没有 history/memory，每次任务从零开始 |
+| **L1 后知后觉** | 踩坑→复盘→打补丁 | 每次出错后手动记录，但需要人驱动这个循环 | 41 条 pitfalls 是事后积累，但不是 Agent 自主驱动的 |
+| **L2 当知当觉** | 边做边建模，实时捕获规律 | 执行中识别模式、触发规则、即时调整 | Agent 发现 spec 逻辑不自洽时主动 reject；审查中识别跨卡模式问题 |
+| **L3 先知先觉** | 没做就能预判 80% 流程 | 新任务启动时，80% 规则已可推导，无需边踩边补 | Agent 启动时 context 从原则推导而非经验堆叠 |
+
+## KDO 当前定位
+
+```
+L0 不知不觉  ████████████  ← 已跨越（Agent 有 context/memory/system）
+L1 后知后觉  ████████████  ← ✅ KDO 当前主要水平
+L2 当知当觉  ████░░░░░░░░  ← ⚠️ 部分 Agent 偶尔达到（老顽童在 #68 跨域审计中自发发现框架静态化模式）
+L3 先知先觉  ░░░░░░░░░░░░  ← ❌ 目标状态，#200 后可能开始
+```
+
+### L1 具体表现（KDO 当前）
+
+- **机制**：41 条 pitfalls + `rules-core.md` 10 条铁律
+- **驱动者**：王语嫣诊断→黄药师建工具→欧阳锋审查→老顽童执行。改进全链路**由人推动**。
+- **痛点**：同类型 pitfall 在 30 天内复现（P-29 和 P-30 同根因：批量操作无 dry-run）；新 Agent（如 WorkBuddy 老顽童）上线需王语嫣逐一调教 context
+- **判据**：Agent 能否在无人类直接指令的情况下自主行动？——能执行，不能进化。
+
+### L2 具体表现（#200 目标）
+
+- **机制**：Agent 在执行中自主识别改进机会、提出假设、低成本验证
+- **驱动者**：Agent 自己——从执行者升级为「生产+进化者」
+- **关键行为**：
+  - Agent 发现 spec 逻辑不自洽时主动 reject（而非照单全收）
+  - 欧阳锋审查中识别跨卡模式问题时，发起系统改进（而非只处理单卡）
+  - 新错误出现→Agent 自动判断：是新类型（需新建模）还是旧类型复现（强化检查）
+- **判据**：Agent 自主提出并被采纳的改进 ≥1 条/月
+
+### L3 具体表现（未来目标）
+
+- **机制**：新 Agent 启动时 80% 规则可从底层原则推导，无需边踩边补 context
+- **驱动者**：体系——Agent context 是原则的推导产物，不是经验的累积
+- **关键行为**：
+  - 新 Agent 加入时只需注入 5 条原则 + 域卡片 → 自动推导出大部分行为规则
+  - 80% 流程错误可预判：Agent 在操作前说「这步有风险 X，因为原则 Y，建议先检查 Z」
+- **判据**：新 Agent 上线首月零 pitfalls 新增
+
+## 跃迁路径
+
+### L1 → L2：从打补丁到自主进化
+
+| 动作 | 具体措施 | 本任务对应 |
+|:--|:--|:--|
+| **建立推导链** | 每条 context 规则追溯到底层原则（原则①-⑤） | P1 tool-agent-context-derivation-audit |
+| **建立进化协议** | 每次复盘四问：能变规则吗？写哪里？能不能推导？怎么验证？ | P1 tool-agent-self-evolution-protocol |
+| **建立失败模式库** | 从 41 条 pitfalls 中提取可复用的失败模式组件 | P1 dk-agent-evolution-pitfalls |
+| **建立验证机制** | 新能力先用 3-5 个任务低成本验证再推广（如 #198 Feature 级原子能力拆解试点） | 桥接到 framework-kdo-modeling-methodology Step 4 |
+
+### L2 → L3：从自主进化到预判推导
+
+| 动作 | 具体措施 | 依赖 |
+|:--|:--|:--|
+| **Context 重构** | 老顽童/欧阳锋/王语嫣的 context 从经验堆叠重构为推导链 | L1→L2 完成后 |
+| **组件库成熟** | 从 41 条 pitfalls 压缩出足够覆盖 80% 场景的组件 | 至少 30 个组件 |
+| **预判测试** | 新 Agent 上线前，对其 context 跑推导链审计——能覆盖多少已知 pitfalls？ | tool-agent-context-derivation-audit |
+
+## When NOT to Use
+
+| 场景 | 原因 |
+|:--|:--|
+| Agent 处于孵化阶段（尚未有稳定 context） | 此时应先积累经验，L0→L1 最优先 |
+| 任务量不足（月均 < 10 个任务） | 样本太少，无法区分「系统性失败」和「随机波动」——建模反而可能过拟合 |
+| 体系层面重大重构中 | 原则/框架/工具链剧烈变化期，先把体系稳定再谈进化 |
+
+## Critique
+
+### 内部局限
+
+1. **四层模型来自 Truman 课堂教学框架，不是 Agent 成熟度测量工具**。将教学框架跨域映射到 Agent 工程时，可能出现「追求层次标签」而非「实质能力提升」的陷阱。
+2. **L3「先知先觉」可能是一个永远无法完全达到的理想状态**。Kahneman 提醒：人的判断也有大量盲区，Agent 的 pre-mortem 分析不能 100% 覆盖——即使在 L3，仍会有不可预知的错误。
+3. **四层之间没有精确的量化过渡标准**。从 L1 到 L2 的判据（Agent 自主提出的改进数）是一个滞后指标——Agent 可能已经有 L2 的能力但还没产生输出。
+
+### 外部攻击者
+
+**Philip Tetlock（超级预测）**：L3 声称「预判 80% 流程」——这需要校准。Tetlock 的研究表明，即使是超级预测者，长期校准也非常困难。如果 KDO 声称 Agent 达到了 L3 但实际预判率只有 50%，L3 标签就变成了自我欺骗。
+
+**Nassim Taleb（反脆弱）**：四层模型的线性进化假设可能不适用于「黑天鹅」事件。真正的反脆弱系统不是在「预判 80%」而是在「从不可预知的冲击中获益」。Taleb 的挑战：KDO Agent 的进化模型有没有考虑「不可预测的失败」？如果只追求预判率，会不会牺牲系统的反脆弱性？
+
+**Donella Meadows（系统杠杆点）**：Meadows 的系统思考框架将「改变系统目标/范式」列为最高杠杆点。四层模型关注 Agent 行为层的改进（从打补丁到预判），但真正的 L3 可能需要改变 Agent 的**目标**——从「减少错误」到「增加学习机会」——而非只改变能力和流程。这是四层模型未触及的系统杠杆点。
+
+## Action Triggers
+
+| 触发条件 | 动作 | 成功指标 |
+|:--|:--|:--|
+| 每季度 | 评估所有 Agent 的四层定位：每个 Agent 当前在哪层？哪个最接近跃迁？ | 季度 Agent 成熟度报告 |
+| 新 Agent 上线后 30 天 | 统计其新增 pitfalls 数：是 L1 模式（踩坑打补丁）还是已接近 L2？ | 30 天新增 pitfalls ≤ 旧 Agent 同期均值的 50% |
+| Agent 自主提出第一条改进并入库 | 标记为「L1→L2 首个跃迁证据」，写入 case-agent-self-evolution-pilot | 改进被欧阳锋采纳并入系统 |
+| 欧阳锋审查退回率连续 3 个月下降 | 判断是否为 L1→L2 的系统性信号 | 退回率下降 ≥ 30% 且不是低频任务所致 |
