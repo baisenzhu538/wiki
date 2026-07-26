@@ -5,6 +5,7 @@ assignee: laowantong
 status: queued
 created_at: 2026-07-26
 updated_at: 2026-07-26
+iterations: 3 (Claude初版→飞书王语嫣深度迭代→洪七公OCR+最终融合)
 domain: system
 priority: P1
 source: 00_inbox/一堂-obsidian加AI协作-内部实践分享/
@@ -32,7 +33,7 @@ diagnosis: 60_feedback/diagnosis/diag_20260726_wangyuyan-obsidian-ai-collab.md
 | # | id | type | title | 核心内容 |
 |:--|:--|:--|:--|:--|
 | 1 | concept-structured-naming-as-infrastructure | concept | 结构化命名即基础设施：人机共识的文件系统设计 | 月白(设计域八要素法)+于陆(知识域00/1x/3x/5x/6x/9x)的独立共振。核心主张：命名不是为了整洁，是为了使人和AI都能"扫读文件夹、批量操作、无需逐文件打开"。含OKF范式验证。连接KDO自身命名体系并显式声明设计意图 |
-| 2 | method-obsidian-ai-collaboration | method | Obsidian+AI协作最佳实践：从一次交付到持续资产 | 完整五要素：§1协作双目标哲学(当下交付+未来数据) §2文件夹命名规则 §3清单式笔记·AI协作场景 §4工具对比(Obsidian vs 飞书) §5三阶段案例(一堂内部) §6 YAI诞生拼图(链接闪电模型+龙虾+Obsidian+清单笔记+顶层文档)。暗知识嵌入："聊天不适合承担全部长期记忆""人不是把思维外包给AI是把低价值维护外包" |
+| 2 | method-obsidian-ai-collaboration | method | Obsidian+AI协作最佳实践：从一次交付到持续资产 | 完整五要素：§1协作双目标哲学 §2文件夹命名规则 §3清单式笔记·AI协作场景 §4工具对比 §5三阶段案例 §6 YAI诞生拼图。§7 LLM Wiki对标(Karpathy: Raw→Wiki→Schema ↔ KDO: 10_raw→30_wiki→framework)。暗知识：聊天≠记忆工具、人外包的是维护不是判断。解压资产：tool-ai-collab-folder-template(四大起步文件模板) |
 
 ### 升级已有卡（1张）
 
