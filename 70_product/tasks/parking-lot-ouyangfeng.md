@@ -23,6 +23,8 @@ owner: 欧阳锋
 | O-3 | **queue_transition.py review --verdict fail 执行异常**：#197 执行 fail 时报告"任务不在队列中"，但队列条目被异常标记为 reviewed。疑似脚本用 task_id 数字匹配时与队列 task 列格式不兼容（队列用 `task_YYYYMMDD_...` 字符串，脚本可能用纯数字 #197 查找）。需排查 | 欧阳锋 2026-07-21 | P2 | 0.5 天 | 待讨论 | 黄药师或脚本维护者 |
 | O-4 | **kdo_lint.py 跨目录死链误报**：ai-collaboration 域内的 related 外链引用了 frameworks/concepts/dark-knowledges 目录下的卡，lint 报告全部为 BROKEN LINK。实际所有 ID 在跨目录搜索中均存在，疑似 lint 仅搜索当前卡所在目录 | 欧阳锋 2026-07-21 | P2 | 0.3 天 | 待讨论 | 黄药师或 lint 维护者 |
 | O-5 | **审查时必须检查双目录版本冲突**：#197 案例——标准目录（frameworks/concepts/tools/cases/dark-knowledges）和域目录（ai-collaboration/）各有一套版本，内容分裂（一个 ds 真实但缺 Critique，一个内容完整但 ds 占位符）。以后每批审查先跑 `find` 检查所有卡片是否在标准目录和域目录各有一份 | 欧阳锋 2026-07-21 | P1 | 即时生效 | 审查 SOP 补充 | 无 |
+| O-6 | **存量 tool/concept/case/dk 卡补定位声明**：400+ 张旧卡 related 含 framework-* 但正文无框架定位声明。不专门开批量任务（C-10 教训）；老顽童接到返工/enrich/修复任务时顺手补。新卡由 lint + 欧阳锋 Phase 0 拦截。覆盖率随返工自然增长。 | 欧阳锋 2026-07-26 | P2 | 随返工递增 | 待排期（不主动派发） | 依赖 lint 规则上线（黄药师） |
+| O-7 | **L8 lint 关键词收紧**：`_check_position_declaration()` 中 `"前置知识"`/`"的子集"`/`"上层框架"` 过于宽松会漏检；`"XX框架"`/`"X步"` 是模板占位符字面量无实际匹配价值。建议改为正则：`属于 .+ 的 .+ 步` 或 blockquote 中 `定位.*属于.*框架`。当前 WARNING 级别可接受，后续排期优化。 | 欧阳锋 2026-07-26 | P2 | 0.3 天 | 待排期 | 黄药师 |
 
 
 ---

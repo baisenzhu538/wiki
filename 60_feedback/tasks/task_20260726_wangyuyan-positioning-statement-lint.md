@@ -2,11 +2,16 @@
 id: task_20260726_wangyuyan-positioning-statement-lint
 task_id: 199
 assignee: hermes
-status: queued
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-07-26
 created_at: 2026-07-26
-updated_at: 2026-07-26
+updated_at: '2026-07-26T07:21:15.686279+00:00'
 domain: system
 priority: P1
+reviewed_by: 欧阳锋
+review_date: '2026-07-26'
+grade: A
 ---
 
 # 牌 L8 机械执行层：定位声明 lint 规则

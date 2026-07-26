@@ -6,7 +6,8 @@ created_at: 2026-07-26
 domain: innovation
 source: 00_inbox/解放思想探索营/
 expected_cards: 25
-status: pending_ouyangfeng_review
+assignee: hermes老顽童
+status: queued
 ---
 
 # 解放思想探索营 · 生产任务清单

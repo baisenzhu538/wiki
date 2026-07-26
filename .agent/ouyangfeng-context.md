@@ -428,7 +428,7 @@ python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --
 
 **跳步后果**：消费者 Agent 会把子卡当独立框架使用 → 答局部当全景。2026-07-24 实况：`tool-yitang-sales-process-decomposition` 没有声明自己是科学销售五步法 B 步，导致回答"销售过程分几个环节"时只列出四类决策。
 
-**来源**：2026-07-24 盲人测试失败修复；内容格式新标准
+**来源**：2026-07-24 盲人测试失败修复；内容格式新标准。2026-07-26 牌 L8 落地——`kdo pre-submit` 新增 positioning_declaration WARNING，缺定位声明在提交时被拦。
 
 **执行步骤**：
 1. 打开子卡，检查标题下第一行（或第一段）是否有框架定位声明。

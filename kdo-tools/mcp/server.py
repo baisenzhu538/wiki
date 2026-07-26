@@ -37,8 +37,9 @@ from tools import search, onboard, read_card, capabilities
 # ── Server definition ────────────────────────────────────────────────
 mcp = FastMCP(
     "kdo",
-    version="1.0.0",
-    description="KDO Knowledge Delivery OS — AI-powered business knowledge factory",
+    instructions="KDO Knowledge Delivery OS — AI-powered business knowledge factory. "
+    "Use kdo_capabilities first, then kdo_onboard for new domains, "
+    "kdo_search for specific questions, and kdo_read for full card content.",
 )
 
 

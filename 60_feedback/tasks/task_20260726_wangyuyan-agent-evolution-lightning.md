@@ -1,10 +1,10 @@
 ---
 id: task_20260726_wangyuyan-agent-evolution
 task_id: 200
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 created_at: 2026-07-26
-updated_at: 2026-07-26
+updated_at: '2026-07-26T07:26:45.669740+00:00'
 domain: system
 priority: P0
 source: 00_inbox/解放思想探索营/ + 30_wiki/frameworks/framework-kdo-modeling-methodology.md
@@ -13,9 +13,35 @@ diagnosis: 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
 
 # Agent 闪电进化：从后知后觉到先知先觉
 
+## 🔴 Codex建议书合并（2026-07-26）
+
+> 核心升级：高阶建模方法论=发动机（怎么建），闪电模型=路线图（建什么）。两层方法论合并，构建Agent自我进化操作系统。
+> P0-P2优先于P3：Agent先用方法论升级自己，再用升级后的能力去生产知识卡片——自己先成为方法论的应用案例。
+
+### 三层架构
+
+```
+第三层·体系构建层：从双三角→Agent设计原则→context逐层推导（依赖：先框架后细节）
+第二层·复盘进化层：每次复盘按闪电模型四阶追问，沉淀为模型组件（依赖：闪电模型+先定性再定量）
+第一层·任务执行层：每次接任务自动调用先X后Y组件规划工作（依赖：先目标后路径）
+```
+
+### P0-P3 优先级排序
+
+| 级 | 内容 | 负责 |
+|:--|:--|:--|
+| **P0** | Agent设计原则卡（5条原则，从双三角推导） | 王语嫣裁决→老顽童执笔 |
+| **P1** | 老顽童护栏内化（6项提交前自检） | 欧阳锋定义→老顽童内化 |
+| **P2** | Agent自我进化协议（复盘四问） | 全体Agent执行 |
+| **P3** | 闪电模型知识入库 = 执行#201 | 老顽童+黄药师+洪七公 |
+
+P0-P2先执行，P3后执行。Agent先成为方法论的应用案例。
+
 ## 先目标再方案
 
-**目标**：KDO Agent 体系从"后知后觉"（踩坑→打补丁，41条pitfalls）升级到"先知先觉"（预判80%流程，Agent自主识别改进机会并建模沉淀）。
+**目标**：KDO Agent 体系从"后知后觉"（踩坑→打补丁，41条pitfalls）升级到"当知当觉"（边做边建模，实时捕获规律），最终"先知先觉"（预判80%流程）。
+
+**两层方法论**：高阶建模方法论提供操作组件（发动机），闪电模型提供进化路线（路线图）。
 
 **现状诊断**：KDO Agent 是优秀的执行者——按spec生产、按标准审查。但没有一套方法论让Agent**自己变强**。当前改进全靠人推动（王语嫣诊断、黄药师建工具、欧阳锋审查）。
 
@@ -71,7 +97,7 @@ Agent从"生产者"升级为"生产+进化者"。三个定性信号：
 
 | # | id | type | title | 核心内容 |
 |:--|:--|:--|:--|:--|
-| 1 | concept-kdo-agent-design-principles | concept | Agent设计原则：从双三角推导的Agent行为规范 | 从双三角/TCPR/实事求是推导出Agent设计的5条底层原则。人类定义审美和体系→Agent执行→独立审查→建模沉淀→持续进化。每条原则含推导链路（从哪个底层概念来，推导到哪条具体规则） |
+| 1 | concept-kdo-agent-design-principles | concept | Agent设计原则：从双三角推导的5条底层原则 | ①人定审美AI执行 ②独立审查不自审 ③先目标后路径 ④先框架后细节 ⑤踩坑必建模不堆积。每条原则含：推导链路（从双三角/TCPR/实事求是）、正面证据（哪个Agent哪个行为体现）、反面证据（哪条pitfall违反此原则）。与高阶建模方法论的关系：原则③④来自先X后Y组件，原则⑤来自闪电模型第四阶建模重构 |
 | 2 | concept-kdo-agent-four-level-awareness | concept | Agent四层觉察：从后知后觉到先知先觉 | 四层定义+判据+KDO当前定位+跃迁路径。每层对应的Agent行为特征和典型失败模式。与闪电模型四阶的映射 |
 | 3 | bridge-lightning-agent-evolution | bridge | 闪电模型×Agent进化：同一个四阶在两个域的映射 | 大胆设想=Agent自主改进/底层自洽=从原则推导行为/假设试错=低成本验证/建模重构=沉淀为组件 |
 
