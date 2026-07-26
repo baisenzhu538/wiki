@@ -2,7 +2,8 @@
 id: concept-kdo-component-library
 title: KDO 建模组件库——从踩坑疤痕到可复用建模牌组
 type: concept
-status: draft
+status: reviewed
+reviewed_by: 黄药师
 author: 黄药师
 confidence: 0.85
 trust_level: high
