@@ -1,10 +1,10 @@
 ---
 id: task_20260726_wangyuyan-obsidian-ai-collab
 task_id: 204
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 created_at: 2026-07-26
-updated_at: 2026-07-26
+updated_at: '2026-07-26T12:08:55.094774+00:00'
 iterations: 3 (Claude初版→飞书王语嫣深度迭代→洪七公OCR+最终融合)
 domain: system
 priority: P1
