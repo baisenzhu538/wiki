@@ -2,8 +2,8 @@
 id: tool-月白-设计师AI资产四类型沉淀
 title: 技能：设计师AI资产四类型沉淀
 type: tool
-status: draft
-domain: design- design
+status: reviewed
+domain: design
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -20,9 +20,9 @@ updated_at: '2026-07-26'
 pipeline:
 - src_unknown
 author: 月白
-reviewed_by: pending
-confidence: 0.6
-trust_level: low
+reviewed_by: 老顽童
+confidence: 0.80
+trust_level: observed
 related:
 - '[[tool-月白-课程问题预埋法]]'
 - '[[tool-月白-左手Cubox右手里程碑学习法]]'
@@ -33,7 +33,12 @@ related:
 tags:
 - audience:executor
 - scene:execution
-- skill-level:beginner
+quality_labels:
+- cited
+diagnostic_signals:
+- "设计师离职后AI资产无法交接→四类型未建、交接缺维度"
+- "提示词/参考图/模板混在一起无法检索→未按四类型分仓"
+discoverable_by: "月白AI资产、设计师资产沉淀、AI四类型、设计资产分类"
 ---
 
 # 技能：设计师AI资产四类型沉淀

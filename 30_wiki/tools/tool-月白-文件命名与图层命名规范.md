@@ -2,8 +2,8 @@
 id: tool-月白-文件命名与图层命名规范
 title: 技能：文件命名与图层命名规范
 type: tool
-status: draft
-domain: design- design
+status: reviewed
+domain: design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -20,9 +20,9 @@ updated_at: '2026-07-26'
 pipeline:
 - src_unknown
 author: 月白
-reviewed_by: pending
-confidence: 0.6
-trust_level: low
+reviewed_by: 老顽童
+confidence: 0.80
+trust_level: observed
 related:
 - '[[tool-月白-印刷DPI标准设置]]'
 - '[[tool-月白-控制产品画面尺寸比例]]'
@@ -33,6 +33,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+quality_labels:
+- cited
+diagnostic_signals:
+- "PS图层命名混乱找不到→检查是否跳过统一规范"
+- "协作方打开文件发现字体缺失→命名未标注字体依赖"
+discoverable_by: "月白图层命名、文件命名规范、PS图层管理、设计文件图层命名"
 ---
 # 技能：文件命名与图层命名规范
 

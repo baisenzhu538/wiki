@@ -2,10 +2,11 @@
 id: task_20260726_wangyuyan-aliases-source-lint
 task_id: 209
 assignee: huangyaoshi
-status: queued
+status: pending_review
 created_at: 2026-07-26
 domain: system
 priority: P1
+updated_at: '2026-07-26T16:06:33.802029+00:00'
 ---
 
 # 牌L9：aliases 源材料名检查

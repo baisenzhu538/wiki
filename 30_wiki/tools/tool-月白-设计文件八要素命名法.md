@@ -2,8 +2,8 @@
 id: tool-月白-设计文件八要素命名法
 title: 技能：设计文件命名法
 type: tool
-status: draft
-domain: design- design
+status: reviewed
+domain: design
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
@@ -20,9 +20,9 @@ updated_at: '2026-07-26'
 pipeline:
 - src_unknown
 author: 月白
-reviewed_by: pending
-confidence: 0.6
-trust_level: low
+reviewed_by: 老顽童
+confidence: 0.80
+trust_level: observed
 related:
 - '[[tool-月白-课程问题预埋法]]'
 - '[[tool-月白-提示词长度控制法]]'
@@ -35,6 +35,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
+quality_labels:
+- cited
+diagnostic_signals:
+- "文件名无法一眼判断内容→八要素缺了关键维"
+- "协作方频繁问'这是哪个版本'→版本标注遗漏"
+discoverable_by: "月白命名法、八要素命名、设计文件命名规范、文件命名八要素"
 ---
 
 # 技能：设计文件八要素命名法
