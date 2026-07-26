@@ -19,8 +19,8 @@ tags:
 related:
   - case-wangfei-newyear-event-diagnosis
   - tool-private-board-facilitation-sop
-  - framework-yitang-five-step-method
-  - framework-yitang-business-formula
+  - five-step-domain-digest
+  - business-formula-domain-digest
   - concept-collaboration-philosophy-foundation
 quality_labels:
   - cited
@@ -125,8 +125,8 @@ aliases:
 ## 与其他知识的关联
 
 - [[case-wangfei-newyear-event-diagnosis]]：王非案是三层定价法的直接应用场景——当前赞助收入只占20%，三层方案可显著提升
-- [[framework-yitang-business-formula]]：赞助商的ROI计算本质上是业务公式的变形——"触达人数×转化率×客单价 > 赞助费"
-- [[framework-yitang-five-step-method]]：三层定价法是五步法"商业模式"模块在赞助场景的专项实现
+- [[business-formula-domain-digest|业务公式]]：赞助商的ROI计算本质上是业务公式的变形——"触达人数×转化率×客单价 > 赞助费"
+- [[five-step-domain-digest|五步法]]：三层定价法是五步法"商业模式"模块在赞助场景的专项实现
 - [[tool-private-board-facilitation-sop]]：罗意的三层定价建议来自私董会的共创阶段——这正是七步法"加法→收敛"设计价值的体现
 
 ## 暗知识

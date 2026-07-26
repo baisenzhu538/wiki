@@ -17,7 +17,7 @@ tags:
   - scene:diagnose
   - method:five-step
 related:
-  - framework-yitang-five-step-method
+  - five-step-domain-digest
   - tool-private-board-facilitation-sop
   - dk-sponsor-three-tier-pricing
   - concept-collaboration-philosophy-foundation
@@ -39,7 +39,7 @@ aliases:
 
 # 王非跨年活动：500→1000人增长诊断
 
-> **定位**：属于 [[framework-yitang-five-step-method|五步法]] 的 需求→解决方案→商业模式→增长→壁垒 全景诊断案例。同时演示 [[tool-private-board-facilitation-sop|私董会七步法]] 如何在真实业务中执行。
+> **定位**：属于 [[five-step-domain-digest|五步法]] 的 需求→解决方案→商业模式→增长→壁垒 全景诊断案例。同时演示 [[tool-private-board-facilitation-sop|私董会七步法]] 如何在真实业务中执行。
 
 ## 案主背景
 
