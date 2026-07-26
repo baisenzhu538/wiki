@@ -34,6 +34,8 @@ related:
 ---
 # 单元模型反向测算：从成本反推可行性
 
+> 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的配套工具。
+
 > 算清50元/张才覆盖成本→反推定价和规模。不是"我能做到多少"——是"我必须做到多少"。
 
 ## 原始表述

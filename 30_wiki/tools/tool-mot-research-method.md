@@ -19,7 +19,7 @@ discoverable_by:
   - 线下体验优化
   - 触点分析
 diagnostic_signals:
-  - signal: "用户说"还行"但流失"
+  - signal: "用户说「还行」但流失
     lens: 找到关键时刻触点
     follow_up: 找到关键时刻触点
   - signal: "调研问了很多没用的"
@@ -33,6 +33,8 @@ related:
   - framework-yitang-thought-liberation-lightning
 ---
 # MOT调研法
+
+> 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的配套工具。
 
 > 首次成就感+社交+健康=留存关键
 

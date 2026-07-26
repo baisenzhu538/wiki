@@ -92,7 +92,7 @@ diagnostic_signals:
 
 ## Synthesis
 
-本卡在解放思想创新体系中的位置：闪电模型四步闭环中的一步。与其他卡的关系——向上承接框架总纲，向下对接具体工具和案例。
+本卡在解放思想创新体系中的位置：[[framework-yitang-thought-liberation-lightning]] 的组成部分。与 [[bridge-yitang-seek-truth-liberate-thought]] 和 [[concept-yitang-layered-self-consistency]] 形成方法链。：闪电模型四步闭环中的一步。与其他卡的关系——向上承接框架总纲，向下对接具体工具和案例。
 
 ## Critique
 

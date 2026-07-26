@@ -34,6 +34,8 @@ related:
 ---
 # 版本迭代法
 
+> 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的配套工具。
+
 > 每版只测一个变量
 
 ## 操作步骤

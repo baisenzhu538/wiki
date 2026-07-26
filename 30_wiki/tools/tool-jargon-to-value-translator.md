@@ -34,6 +34,8 @@ related:
 ---
 # 不明觉厉表
 
+> 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的配套工具。
+
 > 技术语言→用户价值翻译
 
 ## 操作步骤

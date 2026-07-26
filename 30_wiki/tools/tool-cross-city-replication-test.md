@@ -34,6 +34,8 @@ related:
 ---
 # 跨城市复制验证法
 
+> 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的配套工具。
+
 > 一个城市跑通不是模式，跨一个城市还能跑通才是
 
 ## 操作步骤

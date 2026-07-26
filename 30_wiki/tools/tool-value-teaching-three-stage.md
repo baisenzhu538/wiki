@@ -19,7 +19,7 @@ discoverable_by:
   - 价值观培养
   - 教学框架
 diagnostic_signals:
-  - signal: "学生说"学到了"但没变化"
+  - signal: "学生说「学到了」但没变化
     lens: 检查是否走到价值转化阶段
     follow_up: 检查是否走到价值转化阶段
   - signal: "教学只讲道理"
@@ -33,6 +33,8 @@ related:
   - framework-yitang-thought-liberation-lightning
 ---
 # 价值教学三阶模型
+
+> 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的配套工具。
 
 > 价值认知→价值判断→价值转化
 

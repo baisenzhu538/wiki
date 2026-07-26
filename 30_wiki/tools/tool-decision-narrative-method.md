@@ -35,6 +35,8 @@ related:
 ---
 # 决策叙事法
 
+> 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的配套工具。
+
 > 磨难→代价→选择
 
 ## 操作步骤

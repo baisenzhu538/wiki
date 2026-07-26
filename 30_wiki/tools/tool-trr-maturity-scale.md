@@ -19,7 +19,7 @@ discoverable_by:
   - 成熟度分级
   - 能力评定
 diagnostic_signals:
-  - signal: "自评"做好了"但别人不认"
+  - signal: "自评「做好了」但别人不认
     lens: 用7级量表客观化
     follow_up: 用7级量表客观化
   - signal: "老师和学生评分不一致"
@@ -33,6 +33,8 @@ related:
   - framework-yitang-thought-liberation-lightning
 ---
 # TRR技术成熟度量表
+
+> 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的配套工具。
 
 > 7级自评+老师评分98.5%相关
 
