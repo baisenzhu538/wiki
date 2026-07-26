@@ -2,11 +2,14 @@
 id: task_20260726_wangyuyan-aliases-source-lint
 task_id: 209
 assignee: huangyaoshi
-status: pending_review
+status: reviewed
 created_at: 2026-07-26
 domain: system
 priority: P1
-updated_at: '2026-07-26T16:06:33.802029+00:00'
+updated_at: '2026-07-26T16:12:44.591794+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-26'
+grade: A
 ---
 
 # 牌L9：aliases 源材料名检查

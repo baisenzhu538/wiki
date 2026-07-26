@@ -2,13 +2,16 @@
 id: task_20260726_wangyuyan-kdo-query-alias-fix
 task_id: 208
 assignee: huangyaoshi
-status: pending_review
+status: reviewed
 created_at: 2026-07-26
 domain: system
 priority: P0
 implementation: 见 60_feedback/diagnosis/diag_20260726_huangyaoshi-index-pipeline-upgrade.md
   (黄药师建议书·三层改动：aliases 3x + tags 2x + discoverable_by 2x)
-updated_at: '2026-07-26T16:02:59.581457+00:00'
+updated_at: '2026-07-26T16:12:44.447708+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-07-26'
+grade: A
 ---
 
 # kdo query 索引管道全面修复
