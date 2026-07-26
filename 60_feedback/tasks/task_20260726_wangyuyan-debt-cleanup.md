@@ -2,9 +2,9 @@
 id: task_20260726_wangyuyan-debt-cleanup
 task_id: 207
 assignee: laowantong
-status: queued
+status: in_progress
 created_at: 2026-07-26
-updated_at: 2026-07-26
+updated_at: '2026-07-26T15:56:09.414786+00:00'
 domain: system
 priority: P3
 ---
