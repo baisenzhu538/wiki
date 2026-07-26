@@ -14,16 +14,17 @@ domain:
 - yitang
 - five-step-method
 - ai-collaboration
-source_refs:
+source_refs: null
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-
-
-
 - tool-yitang-amazon-bestseller
 - tool-yitang-ai-monitoring-alert
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # Agent L4案例匹配
 

@@ -31,6 +31,10 @@ related:
 - '[[tool-agent-spec-yitang-kernel-iteration-direction]]'
 - '[[tool-agent-spec-yitang-kernel-three-questions]]'
 - '[[tool-agent-spec-yitang-kernel-verification-ladder]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 ## System Prompt 模板
 

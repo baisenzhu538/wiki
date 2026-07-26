@@ -24,6 +24,10 @@ related:
 - '[[pending_unknown]]'
 - tinyfish-agentic-web-infrastructure
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # Wayback Machine：网站时光机
 

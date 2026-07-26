@@ -17,10 +17,14 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[tool-yihang-dual-triangle-canvas]]"
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
-- "[[case-yihang-dual-triangle-jumi-canvas-demo]]"
+- '[[tool-yihang-dual-triangle-canvas]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[case-yihang-dual-triangle-jumi-canvas-demo]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 画布筹备三原则：花总转折 / 先加后减 / 15分钟出租车

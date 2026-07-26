@@ -1,5 +1,4 @@
 ---
-
 id: ai-tool-learning-workbook
 title: AI 工具学习工作手册
 type: tool
@@ -8,10 +7,10 @@ domain:
 - skill-building
 status: reviewed
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 created_at: 2026-06-29
 updated_at: 2026-06-29
 author: 老顽童
@@ -23,10 +22,14 @@ source_refs:
 - 40_outputs/capabilities/skills/consultant-mode-yai-style/WORKBOOK.md
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
-- "[[ai-tool-learning-curve]]"
-- "[[yai-counsel-role]]"
-- "[[fixed-routine-design]]"
-- "[[practice-card-decomposition]]"
+- '[[ai-tool-learning-curve]]'
+- '[[yai-counsel-role]]'
+- '[[fixed-routine-design]]'
+- '[[practice-card-decomposition]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # AI 工具学习工作手册

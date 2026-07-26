@@ -1,5 +1,4 @@
 ---
-
 id: dk-small-format-error-cascades-to-system-failure
 title: 小格式错误在批量系统中引发级联失效
 type: dk
@@ -11,16 +10,10 @@ domain:
 - ai-collaboration
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修中反复出现的模式：YAML引号、regex截断、source refs断裂
-source_refs:
+source_refs: null
 related:
-  - "[[ai-collaboration-domain-digest]]"
-  
-  
-  
-  
-bridges_to:
-
-
+- '[[ai-collaboration-domain-digest]]'
+bridges_to: null
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -37,7 +30,10 @@ diagnostic_signals:
   framework_lens: 命名规范失效
   follow_up_question: 如果按严格正则提取ID/路径，当前命名是否能被唯一识别？# 小格式错误在批量系统中引发级联失效
 updated_at: 2026-06-28
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述 / 核心洞察

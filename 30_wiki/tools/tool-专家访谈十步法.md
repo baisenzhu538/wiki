@@ -29,6 +29,10 @@ related:
 - '[[tool-逐字稿练习演讲]]'
 - '[[tool-费曼学习法实践讲香课题]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：专家访谈十步法
 

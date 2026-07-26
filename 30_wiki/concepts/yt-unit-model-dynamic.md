@@ -1,5 +1,4 @@
 ---
-
 id: yt-unit-model-dynamic
 confidence: 0.88
 created_at: 2026-05-24
@@ -21,11 +20,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - "[[yt-unit-model-benchmark]]"
-  - "[[yt-unit-model-construction]]"
-  - "[[yt-unit-model-ladder]]"
-  - "[[yt-unit-model-ai-assisted]]"
-  - "[[pending_unknown]]"
+- '[[yt-unit-model-benchmark]]'
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-ladder]]'
+- '[[yt-unit-model-ai-assisted]]'
+- '[[pending_unknown]]'
 source_refs:
 - 10_raw/sources/src_20260609_9fd664f5-ocr-一堂-单元模型-动态预测.md
 status: reviewed
@@ -64,7 +63,10 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 动态单元模型：规模变量、拐点预判与规模经济对抗

@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-讲香双策略
 title: 一堂讲香双策略：具体化+抽象化与波峰波谷的张力表达
 type: tool
@@ -39,6 +38,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂讲香双策略：具体化+抽象化与波峰波谷的张力表达

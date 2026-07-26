@@ -38,22 +38,26 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-- "[[plan_20260501_ca61cdd7-improvement-plan]]"
-- "[[plan_20260501_e1e150b9-improvement-plan]]"
-- "[[plan_20260501_8ecb74e3-improvement-plan]]"
-- "[[plan_20260501_05858800-improvement-plan]]"
-- "[[dk-modeling-explanatory-vs-predictive-essence]]"
-- "[[tool-sabc-tier-modeling]]"
-- "[[plan_20260531_data-curator-v1.3]]"
-- "[[plan_20260501_85a84b92-improvement-plan]]"
-- "[[plan_20260531_data-curator-v1]]"
-- "[[yt-business-formula-abc-model]]"
-- "[[plan_20260501_8001399c-improvement-plan]]"
-- "[[plan_20260531_data-curator-v1.1]]"
-- "[[yt-tob-customer-sabc]]"
-- "[[plan_20260621_skill-iteration-standard]]"
-- "[[plan_20260621_kdo-quality-harness-upgrade]]"
-- "[[framework-一堂-机会预判]]"
+- '[[plan_20260501_ca61cdd7-improvement-plan]]'
+- '[[plan_20260501_e1e150b9-improvement-plan]]'
+- '[[plan_20260501_8ecb74e3-improvement-plan]]'
+- '[[plan_20260501_05858800-improvement-plan]]'
+- '[[dk-modeling-explanatory-vs-predictive-essence]]'
+- '[[tool-sabc-tier-modeling]]'
+- '[[plan_20260531_data-curator-v1.3]]'
+- '[[plan_20260501_85a84b92-improvement-plan]]'
+- '[[plan_20260531_data-curator-v1]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[plan_20260501_8001399c-improvement-plan]]'
+- '[[plan_20260531_data-curator-v1.1]]'
+- '[[yt-tob-customer-sabc]]'
+- '[[plan_20260621_skill-iteration-standard]]'
+- '[[plan_20260621_kdo-quality-harness-upgrade]]'
+- '[[framework-一堂-机会预判]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 预判交付物四层级：从模糊想法到Plan ABC

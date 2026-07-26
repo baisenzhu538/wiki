@@ -1,6 +1,4 @@
 ---
-
-
 id: yt-research-action-camp-launch
 title: 一堂调研行动营 · 启动课（LLM 精炼）
 type: concept
@@ -35,20 +33,24 @@ diagnostic_signals:
   framework_lens: 人控AI
   follow_up_question: 这个调研结论中，哪些部分来自AI、哪些来自你的判断？
 quality_labels:
-  - cited
-  - principle
-  - quality
-  - validated
+- cited
+- principle
+- quality
+- validated
 updated_at: 2026-06-13
 author: 老顽童
 confidence: 0.85
 trust_level: high
 related:
-  - "[[yitang-research-domain-digest]]"
-  - "[[dk-jh-llm-time-blindness]]"
-  - "[[fix-dark-knowledge-extractor-llm]]"
-  - "[[dk-yb2-llm-muddy-clear-muddy]]"
-  - "[[pending_unknown]]"
+- '[[yitang-research-domain-digest]]'
+- '[[dk-jh-llm-time-blindness]]'
+- '[[fix-dark-knowledge-extractor-llm]]'
+- '[[dk-yb2-llm-muddy-clear-muddy]]'
+- '[[pending_unknown]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 一堂调研行动营 · 启动课（LLM 精炼）

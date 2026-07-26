@@ -24,12 +24,16 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-AIGC反向拆解法]]"
-- "[[tool-月白-AI对话式海报修改（免PS）]]"
-- "[[tool-月白-AIGC设计作业复盘法]]"
-- "[[tool-月白-商业项目AI模型选型决策]]"
-- "[[tool-月白-AI工艺图人工复核法]]"
-- "[[tool-月白-AI去文字-稿定设计快速出图法]]"
+- '[[tool-月白-AIGC反向拆解法]]'
+- '[[tool-月白-AI对话式海报修改（免PS）]]'
+- '[[tool-月白-AIGC设计作业复盘法]]'
+- '[[tool-月白-商业项目AI模型选型决策]]'
+- '[[tool-月白-AI工艺图人工复核法]]'
+- '[[tool-月白-AI去文字-稿定设计快速出图法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：AI一句话改图尺寸

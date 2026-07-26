@@ -17,8 +17,12 @@ source_refs:
 - 对话记录：2026-07-05 老朱结构工程师案例
 - 对话记录：2026-07-05 老朱代码库梳理案例
 related:
-- "[[dk-yihang-multi-ai-cross-validation]]"
-- "[[concept-yihang-dual-triangle-core]]"
+- '[[dk-yihang-multi-ai-cross-validation]]'
+- '[[concept-yihang-dual-triangle-core]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 非专家判断替代法——不懂的领域用 AI 集群建立可用判断力

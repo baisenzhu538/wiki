@@ -34,6 +34,10 @@ related:
 - '[[tool-专家访谈十步法]]'
 - '[[tool-asset-file-naming-convention]]'
 - tool-yitang-bp-analysis
+tags:
+- audience:manager
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：知识库团队管理

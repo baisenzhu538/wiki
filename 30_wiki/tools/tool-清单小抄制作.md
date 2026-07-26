@@ -34,6 +34,10 @@ related:
 - '[[tool-将未中标成本纳入循环计算真实投标成本]]'
 - '[[tool-费曼学习法三句话提炼]]'
 - tool-清单小抄工具箱法
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：清单小抄制作
 

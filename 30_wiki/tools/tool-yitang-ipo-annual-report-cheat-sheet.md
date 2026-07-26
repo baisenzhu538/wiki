@@ -32,6 +32,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - tool-yitang-sales-toolkit-radar
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 上市公司报告价值Cheat Sheet：创业各阶段该读什么
 

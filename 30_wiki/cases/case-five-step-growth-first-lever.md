@@ -24,7 +24,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
-tags: []
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 pipeline:
 - src_unknown
 diagnostic_signals:
@@ -47,14 +50,14 @@ author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-29'
 related:
-- "[[yt-five-step-method]]"
-- "[[yt-growth-cycle-model]]"
-- "[[yt-entrepreneur-five-step-method]]"
-- "[[yt-product-kernel-cultivation]]"
-- "[[yt-unit-model-three-tools]]"
-- "[[yt-customer-acquisition-toolkit]]"
-- "[[case-five-step-fake-vs-real-barriers]]"
-- "[[case-truman-ai-skill-self-packaging]]"
+- '[[yt-five-step-method]]'
+- '[[yt-growth-cycle-model]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-product-kernel-cultivation]]'
+- '[[yt-unit-model-three-tools]]'
+- '[[yt-customer-acquisition-toolkit]]'
+- '[[case-five-step-fake-vs-real-barriers]]'
+- '[[case-truman-ai-skill-self-packaging]]'
 ---
 
 # 案例：五步法中从产品内核到增长的第一次跨越

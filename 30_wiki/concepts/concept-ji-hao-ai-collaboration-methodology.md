@@ -1,5 +1,4 @@
 ---
-
 id: concept-ji-hao-ai-collaboration-methodology
 title: 纪浩 AI 协作方法论：从判断到规模复用的五层体系
 type: concept
@@ -14,21 +13,21 @@ source_refs:
 - 10_raw/sources/src_20260617_50e2866a-ai俱乐部-人和ai协作-纪浩-五层结构-结构化.md
 - 10_raw/sources/src_20260617_15ca3bb2-ai俱乐部-人和ai协作-纪浩-参考案例-结构化.md
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: 2026-06-07
 updated_at: '2026-06-28'
 related:
-  - "[[tool-纪浩-真需求四要素验证法]]"
-  - "[[tool-纪浩-AI工作空间与导诊台设计法]]"
-  - "[[tool-纪浩-Do-first-PDCA渐进迭代法]]"
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[tool-纪浩-日志驱动排查法]]"
-  - "[[dk-ji-hao-ai-cant-design-structure]]"
-  - "[[dk-ji-hao-simple-complex-routing]]"
-  - "[[dk-ji-hao-pdca-starts-from-do]]"
-  - "[[concept-cognitive-offloading-in-ai-era]]"
+- '[[tool-纪浩-真需求四要素验证法]]'
+- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
+- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-纪浩-日志驱动排查法]]'
+- '[[dk-ji-hao-ai-cant-design-structure]]'
+- '[[dk-ji-hao-simple-complex-routing]]'
+- '[[dk-ji-hao-pdca-starts-from-do]]'
+- '[[concept-cognitive-offloading-in-ai-era]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -44,7 +43,10 @@ author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:beginner
 ---
 
 # 纪浩 AI 协作方法论

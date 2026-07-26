@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-barrier-moat-building
@@ -18,10 +17,10 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 壁垒建设路线图——壁垒建设需要基于现有优势，逐步积累
   follow_up_question: 你现有的优势是什么？用户、数据、技术、品牌？从哪个优势开始建设？
@@ -33,7 +32,10 @@ diagnostic_signals:
   follow_up_question: 你的壁垒建设是否聚焦？核心壁垒是什么？投入是否集中？
 - framework_lens: 壁垒建设路线图——壁垒和增长同步，不是先后
   follow_up_question: 你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？
-
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 壁垒建设路线图

@@ -26,11 +26,15 @@ source_refs:
 - 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 related:
-- "[[一堂方法论体系总图]]"
-- "[[yitang-course-map]]"
-- "[[yt-system-course-catalog]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 科学招聘

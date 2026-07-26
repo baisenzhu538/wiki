@@ -1,5 +1,4 @@
 ---
-
 id: yt-entrepreneur-lean-validation
 confidence: 0.8
 created_at: 2026-05-06
@@ -20,17 +19,17 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - "[[yitang-course-map]]"
-  - "[[yt-system-course-catalog]]"
-  - "[[yt-entrepreneur-five-step-method]]"
-  - "[[yt-entrepreneur-scientific-method]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[yt-model-entrepreneur-map]]"
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-entrepreneur-scientific-method]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-model-entrepreneur-map]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:source material not yet ingested
+- pending_archive:source material not yet ingested
 status: enriched
 title: 低成本验证/MVP
 trust_level: medium
@@ -57,7 +56,10 @@ diagnostic_signals:
   follow_up_question: 如果把这个不确定性转化为一个2周内可完成的实验，你要验证的关键假设、最小实验、可区分信号和扩张绿灯分别是什么？
 updated_at: '2026-06-17'
 author: 老顽童
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 低成本验证/MVP

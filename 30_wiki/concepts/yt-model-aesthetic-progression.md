@@ -15,11 +15,11 @@ query_triggers:
 - src_unknown：从看不见到大胆想象的进化路径
 - src_unknown
 related:
-- "[[yt-model-pan-product-aesthetic-toolkit]]"
-- "[[yt-model-product-excellence]]"
-- "[[一堂]]"
-- "[[yt-personal-pan-product-aesthetics]]"
-- "[[yt-model-pan-product-three-virtues]]"
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-product-excellence]]'
+- '[[一堂]]'
+- '[[yt-personal-pan-product-aesthetics]]'
+- '[[yt-model-pan-product-three-virtues]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
@@ -42,6 +42,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 审美提升的层级：从看不见到大胆想象的进化路径

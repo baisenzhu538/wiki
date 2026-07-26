@@ -25,6 +25,10 @@ related:
 - agent-native-card-design
 - tinyfish-agentic-web-infrastructure
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # SpiderFoot：自动化OSINT扫描
 

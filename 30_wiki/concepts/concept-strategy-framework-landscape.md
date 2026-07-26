@@ -18,6 +18,10 @@ related:
 - '[[pending_unknown]]'
 - tool-strategy-pareto
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 # 战略框架全景图
 

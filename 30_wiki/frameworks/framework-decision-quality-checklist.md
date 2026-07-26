@@ -34,6 +34,10 @@ related:
 - '[[framework-lean-false-model]]'
 - '[[concept-AI时代双三角竞争力]]'
 - case-decision-science-universal-salary-raise-roi
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 决策质量六问检查表
 

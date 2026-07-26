@@ -1,29 +1,27 @@
 ---
-
 domain:
-  - yitang
-
-
+- yitang
 id: yt-scale-economy-weapon-library
 confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-10
-reviewed_by: "洪七公"
+reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
-  - src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
-source_refs:
-  - pending_archive:src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
+- pending_archive:src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 规模经济分析武器库
 

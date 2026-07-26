@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[yt-growth-acquisition-channels]]"
-  - "[[yt-growth-activation-rate]]"
-  - "[[yt-growth-growth-hacking]]"
+- '[[yt-growth-acquisition-channels]]'
+- '[[yt-growth-activation-rate]]'
+- '[[yt-growth-growth-hacking]]'
 diagnostic_signals:
 - framework_lens: 变现优化——付费少需要分析付费转化漏斗
   follow_up_question: 你的付费转化率是多少？用户为什么不付费？是价格、价值感知、还是 friction？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你的免费和付费功能边界在哪里？免费用户是否有足够的动力升级？
 - framework_lens: 变现优化——定价需要基于价值感知和竞争分析
   follow_up_question: 你的定价是基于成本、竞争、还是价值？用户感知价值是多少？
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 变现优化：从免费到付费

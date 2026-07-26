@@ -1,29 +1,33 @@
 ---
 id: dk-实事求是目标管理双原则
-title: "实事求是+最佳实践：目标管理的两条铁律"
+title: 实事求是+最佳实践：目标管理的两条铁律
 type: dk
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - management
+- management
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - principle
-  - actionable
+- principle
+- actionable
 source_refs:
-  - "00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §7.2"
-  - "00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L1448-L1510"
+- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §7.2
+- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L1448-L1510
 related:
-  - concept-目标-北极星型vs探索型
-  - dk-目标管理四大病
-  - concept-目标管理组织四阶段
-  - yt-management-goal-management
-  - management-domain-digest
+- concept-目标-北极星型vs探索型
+- dk-目标管理四大病
+- concept-目标管理组织四阶段
+- yt-management-goal-management
+- management-domain-digest
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 
 # 实事求是+最佳实践：目标管理的两条铁律

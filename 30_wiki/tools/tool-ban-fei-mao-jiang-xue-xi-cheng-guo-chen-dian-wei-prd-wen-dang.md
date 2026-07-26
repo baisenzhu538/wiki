@@ -1,5 +1,4 @@
 ---
-
 id: tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang
 title: 技能：将学习成果沉淀为 PRD 文档
 type: tool
@@ -18,13 +17,13 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-  - "[[tool-ai-prd-for-ai]]"
-  - "[[prd-as-ai-instruction]]"
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[case-truman-prd-checklist-evolution]]"
-  - "[[knowledge-delivery-os-快速体验指南-飞书云文档]]"
-  - "[[sk-ai-prd-for-ai]]"
-  - "[[tool-半肥猫-边学边练边沉淀的AI学习法]]"
+- '[[tool-ai-prd-for-ai]]'
+- '[[prd-as-ai-instruction]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[case-truman-prd-checklist-evolution]]'
+- '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+- '[[sk-ai-prd-for-ai]]'
+- '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'
@@ -41,7 +40,10 @@ diagnostic_signals:
 pipeline:
 - src_unknown
 - src_unknown
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：将学习成果沉淀为 PRD 文档

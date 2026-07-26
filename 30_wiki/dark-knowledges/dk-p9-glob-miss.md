@@ -9,14 +9,14 @@ domain:
 source_person: system
 source_context: pitfalls.md P-9
 source_refs:
-  - src_unknown
+- src_unknown
 created_at: 2026-06-03
 updated_at: 2026-06-28
 related:
-- "[[dk-p8-toolkit-forget]]"
-- "[[dk-p15-unverified]]"
-- "[[master-first-principles]]"
-- "[[master-ai-info-literacy]]"
+- '[[dk-p8-toolkit-forget]]'
+- '[[dk-p15-unverified]]'
+- '[[master-first-principles]]'
+- '[[master-ai-info-literacy]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -27,6 +27,10 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 ## 原始表述 / 核心洞察
 

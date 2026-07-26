@@ -1,5 +1,4 @@
 ---
-
 id: yt-concept-ai-guard-brain
 title: 守脑如玉：AI时代保持大脑锋利
 type: concept
@@ -14,11 +13,11 @@ version: 1
 difficulty: intermediate
 confidence: 0.85
 related:
-  - "[[yt-model-prompt-engineering]]"
-  - "[[yt-model-ipo-learning-strategy]]"
-  - "[[yt-prompt-writing-workflow]]"
-  - "[[yt-concept-weapon-arsenal]]"
-  - "[[yt-model-personal-pitch-toolkit]]"
+- '[[yt-model-prompt-engineering]]'
+- '[[yt-model-ipo-learning-strategy]]'
+- '[[yt-prompt-writing-workflow]]'
+- '[[yt-concept-weapon-arsenal]]'
+- '[[yt-model-personal-pitch-toolkit]]'
 prerequisites:
 - src_unknown
 query_triggers:
@@ -44,7 +43,10 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium-high
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 守脑如玉：AI 时代保持大脑锋利

@@ -24,6 +24,10 @@ related:
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - case-strategy-practice-11-third-place
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 **冉鹏实操**：7个月扭亏为盈（连续7年亏损）→12个月直营店0→1200家→2年营收30亿→50亿
 **方法**：差距分析→找到真正的业绩差距（不是"产品不好"而是"渠道没铺开"）→聚焦执行

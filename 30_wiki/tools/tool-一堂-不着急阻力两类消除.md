@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-不着急阻力两类消除
 title: 一堂不着急阻力两类消除：天然需求不急 vs 还没比价
 type: tool
@@ -39,6 +38,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 一堂不着急阻力两类消除：天然需求不急 vs 还没比价

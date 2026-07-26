@@ -1,5 +1,4 @@
 ---
-
 id: tool-从案例中学习正反案例法
 title: 技能：从案例中学习（正反案例法）
 type: tool
@@ -15,13 +14,13 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[tool-专家访谈学习]]"
-  - "[[tool-从案例中学习]]"
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[tool-Truman-AI能力分层学习路径]]"
-  - "[[tool-深度分层学习]]"
-  - "[[tool-半肥猫-边学边练边沉淀的AI学习法]]"
-  - "[[tool-寻找学习教练法]]"
+- '[[tool-专家访谈学习]]'
+- '[[tool-从案例中学习]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-深度分层学习]]'
+- '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
+- '[[tool-寻找学习教练法]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -46,7 +45,10 @@ diagnostic_signals:
   follow_up: 先看反面案例挑战自己的假设，再找正面案例验证，避免只拿案例佐证已有观点
 - lens: 自我对照缺失
   follow_up: 每次看完案例必须思考'如果我在类似场景，我能做什么？有什么不同？'
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：从案例中学习（正反案例法）

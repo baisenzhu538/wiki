@@ -3,8 +3,7 @@ id: tool-主动摘要压缩上下文
 title: 技能：主动摘要压缩上下文
 type: tool
 domain:
-- learning-methodology
-  - ai-saas
+- learning-methodology - ai-saas
 - management
 - yitang
 status: draft
@@ -45,6 +44,10 @@ related:
 - '[[tool-模型匹配调度]]'
 - '[[tool-模型组合调用]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：主动摘要压缩上下文

@@ -4,30 +4,29 @@ title: 技能：AI调研五步法
 type: tool
 status: draft
 domain:
-  - ai-collaboration
-  - yitang- AI
-  - 调研
-  - 信息素养
+- ai-collaboration
+- yitang- AI
+- 调研
+- 信息素养
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地-口述，2026-06-06
 source_refs:
-  - pending_archive:src_20260606_90b44191-没有人呀现在
-  - src_20260606_90b44191-没有人呀现在
-wiki_refs:
-
-definition_of_done:
-
-
-tools_required:
-
+- pending_archive:src_20260606_90b44191-没有人呀现在
+- src_20260606_90b44191-没有人呀现在
+wiki_refs: null
+definition_of_done: null
+tools_required: null
 prerequisite_skills: null
 related:
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
+- '[[case-live81-ai-trademark-design]]'
+- '[[tool-ai-deliverable-polish-loop]]'
 created_at: 2026-06-11
 updated_at: 2026-07-02
-tags: []
-pipeline:
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
+pipeline: null
 reviewed_by: laowantong
 author: 半肥猫
 confidence: 0.7

@@ -29,6 +29,10 @@ related:
 - '[[tool-ai-deliverable-polish-loop]]'
 - '[[case-opc-agent-wave1-real-model-testing]]'
 updated_at: '2026-06-30'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 # 域摘要：精益创业方法论
 

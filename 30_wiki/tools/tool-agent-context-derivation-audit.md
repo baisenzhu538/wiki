@@ -4,32 +4,36 @@ title: Agent context推导链审计：从经验堆叠到原则推导
 type: tool
 status: reviewed
 author: laowantong
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 domain:
-  - system
+- system
 source_refs:
-  - .agent/laowantong-context.md
-  - .agent/ouyangfeng-context.md
-  - .agent/wangyuyan-context.md
-  - .agent/huangyaoshi-context.md
-  - concept-kdo-agent-design-principles
-  - 90_control/rules-core.md
+- .agent/laowantong-context.md
+- .agent/ouyangfeng-context.md
+- .agent/wangyuyan-context.md
+- .agent/huangyaoshi-context.md
+- concept-kdo-agent-design-principles
+- 90_control/rules-core.md
 related:
-  - concept-kdo-agent-design-principles
-  - concept-kdo-agent-four-level-awareness
-  - tool-agent-self-evolution-protocol
-  - dk-agent-evolution-pitfalls
-  - bridge-lightning-agent-evolution
-  - framework-kdo-modeling-methodology
-  - framework-ouyangfeng-review-methodology
+- concept-kdo-agent-design-principles
+- concept-kdo-agent-four-level-awareness
+- tool-agent-self-evolution-protocol
+- dk-agent-evolution-pitfalls
+- bridge-lightning-agent-evolution
+- framework-kdo-modeling-methodology
+- framework-ouyangfeng-review-methodology
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 欧阳锋
 diagnostic_signals:
-  - Agent context 从经验堆叠到推导链的转换率为 0%
-  - 5 条设计原则与现有 context 之间无显式推导关系
+- Agent context 从经验堆叠到推导链的转换率为 0%
+- 5 条设计原则与现有 context 之间无显式推导关系
 quality_labels: cited
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 ## 核心主张

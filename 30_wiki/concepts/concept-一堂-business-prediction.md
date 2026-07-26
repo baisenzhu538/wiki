@@ -12,32 +12,36 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-09
 domain:
-  - product
-  - yitang
-  - entrepreneurship
+- product
+- yitang
+- entrepreneurship
 source_person: Truman
 source_context: 一堂商业预判课（2026年）
 source_refs:
-  - 00_inbox/一堂-商业预判课-Truman-口述.txt
-  - 00_inbox/一堂-商业预判课-truman-笔记.txt
+- 00_inbox/一堂-商业预判课-Truman-口述.txt
+- 00_inbox/一堂-商业预判课-truman-笔记.txt
 quality_labels:
-  - principle
-  - framework
-  - actionable
+- principle
+- framework
+- actionable
 related:
-  - "[[framework-一堂-业务公式拆解-总纲]]"
-  - "[[framework-一堂-关键假设]]"
-  - "[[concept-一堂-product-kernel]]"
-  - "[[concept-一堂-key-assumptions]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[concept-一堂-kernel-iteration]]"
-  - "[[framework-一堂五步法]]"
-  - "[[concept-一堂-终局光谱图解读]]"
+- '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[framework-一堂-关键假设]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[concept-一堂-kernel-validation]]'
+- '[[concept-一堂-kernel-iteration]]'
+- '[[framework-一堂五步法]]'
+- '[[concept-一堂-终局光谱图解读]]'
 aliases:
-  - business prediction
-  - 商业预判
-  - 机会预判
-  - 15字诀
+- business prediction
+- 商业预判
+- 机会预判
+- 15字诀
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 商业预判：15字诀与光谱模型——从拍脑袋到科学决策

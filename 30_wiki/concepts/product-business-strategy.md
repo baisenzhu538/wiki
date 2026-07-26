@@ -13,7 +13,10 @@ source_refs:
 - 10_raw/sources/src_20260614_0e07078e-多人-产品方向选择讨论.md
 - 10_raw/sources/src_20260614_8a0317f1-产品-市场分析讨论.md
 - 10_raw/sources/src_20260614_0e6fd2e7-theme-product-business-summary.md
-tags: []
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 created_at: '2026-06-14'
 quality_labels:
 - cited

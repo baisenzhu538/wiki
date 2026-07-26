@@ -1,27 +1,26 @@
 ---
-
 domain:
-  - modeling
-
+- modeling
 id: yt-model-product-core-metrics
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: "黄药师"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:src_20260510_5ef61f8f-一堂产品内核十大典型指标
-  - src_20260510_5ef61f8f-一堂产品内核十大典型指标
-source_refs:
-  - pending_archive:src_20260510_5ef61f8f-一堂产品内核十大典型指标
+- pending_archive:src_20260510_5ef61f8f-一堂产品内核十大典型指标
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 产品内核十大典型指标：从获客到推荐的度量框架
 

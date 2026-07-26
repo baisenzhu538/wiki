@@ -16,18 +16,18 @@ trust_level: medium-high
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 related:
-- "[[dk-modeling-ai-compound-leverage]]"
-- "[[dk-modeling-ai-judgment-limit]]"
-- "[[dk-modeling-question-scaffold-not-answer]]"
-- "[[dk-modeling-ai-iterative-prompting]]"
-- "[[dk-modeling-ai-self-retrospection]]"
-- "[[yt-lean-false-model-ai]]"
-- "[[yt-tob-barriers]]"
-- "[[ai-short-drama-conflict-three-axes]]"
-- "[[dk-modeling-ai-judgment-limit]]"
+- '[[dk-modeling-ai-compound-leverage]]'
+- '[[dk-modeling-ai-judgment-limit]]'
+- '[[dk-modeling-question-scaffold-not-answer]]'
+- '[[dk-modeling-ai-iterative-prompting]]'
+- '[[dk-modeling-ai-self-retrospection]]'
+- '[[yt-lean-false-model-ai]]'
+- '[[yt-tob-barriers]]'
+- '[[ai-short-drama-conflict-three-axes]]'
+- '[[dk-modeling-ai-judgment-limit]]'
 - skill-note-one-line-one-point
-- "[[yt-five-step-method]]"
-- "[[case-lean-zhanglei-pivot-decision]]"
+- '[[yt-five-step-method]]'
+- '[[case-lean-zhanglei-pivot-decision]]'
 bridges_to:
 - target: src_unknown
   relation: applies_when
@@ -48,19 +48,15 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 跨域模式：把工具当一次性生成器的失效是跨域共通的
   follow_up_question: 这个失效模式在其它域是否也有对应案例？
-query_triggers:
-
-
-
+query_triggers: null
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-18'
 updated_at: 2026-06-28
 tags:
-
-
-
-
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述

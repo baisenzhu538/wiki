@@ -18,13 +18,16 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-- "[[master-ai-info-literacy]]"
-- "[[master-cognitive-bias-checklist]]"
-- "[[master-decision-hygiene]]"
-- "[[master-first-principles]]"
-- "[[master-systems-thinking]]"
-- "[[master-antifragile-checklist]]"
-
+- '[[master-ai-info-literacy]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-decision-hygiene]]'
+- '[[master-first-principles]]'
+- '[[master-systems-thinking]]'
+- '[[master-antifragile-checklist]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 知识复利：IPO+萃取+管理的上位整合

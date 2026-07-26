@@ -1,5 +1,4 @@
 ---
-
 id: case-一堂-无人餐厅-hypothesis-failure
 title: 案例：一堂无人餐厅项目因忽视关键假设而失败
 type: case
@@ -17,12 +16,12 @@ source_refs:
 created_at: 2026-06-08
 updated_at: 2026-06-28
 related:
-  - "[[framework-一堂-关键假设-三板斧]]"
-  - "[[framework-一堂-关键假设]]"
-  - "[[concept-一堂-key-assumptions]]"
-  - "[[yt-lean-assumption-verification-3means]]"
-  - "[[yitang-domain-digest]]"
-  - "[[case-milktea-five-step]]"
+- '[[framework-一堂-关键假设-三板斧]]'
+- '[[framework-一堂-关键假设]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[yt-lean-assumption-verification-3means]]'
+- '[[yitang-domain-digest]]'
+- '[[case-milktea-five-step]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -42,7 +41,10 @@ reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 confidence: 0.75
 trust_level: medium
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述

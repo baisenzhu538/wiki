@@ -1,5 +1,4 @@
 ---
-
 id: dk-lz-ai-native-organization
 title: AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足
 type: dk
@@ -12,11 +11,7 @@ source_refs:
 - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
 - 10_raw/sources/src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md
 related:
-  - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
-  
-  
-  
-  
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 created_at: '2026-06-09'
 updated_at: '2026-06-18'
 author: 老朱
@@ -31,7 +26,10 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 罗马军团结构幻觉——忽视中层存在的真实原因是人脑带宽不足
   follow_up_question: 谁来确保CEO的意图能被1000人准确执行？是人脑层级还是AI中枢？# AI原生组织：罗马军团正在被自进化有机体取代
-
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述

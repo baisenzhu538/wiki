@@ -25,6 +25,10 @@ related:
 - '[[ouyangfeng-labeling-research-review]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - kdo-15-dimension-label-spec
+tags:
+- audience:general
+- scene:reference
+- skill-level:beginner
 ---
 # 数据标注最佳实践调研报告
 

@@ -28,6 +28,10 @@ related:
 - '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
 - case-strategy-practice-12-zero-loss
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 **切入**：农夫山泉/怡宝/康师傅三分天下→凉白开从"高考生"这个被所有人忽略的场景切入
 **结果**：2年30亿

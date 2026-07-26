@@ -1,11 +1,10 @@
 ---
-
 id: yt-five-step-level-blindspots
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
 quality_labels:
-  - cited
-  - validated
+- cited
+- validated
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
@@ -48,14 +47,18 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 related:
-  - "[[yt-five-step-method]]"
-  - "[[yt-unit-model-concept]]"
-  - "[[yt-five-step-implementation]]"
-  - "[[yt-business-analysis-cognitive-biases]]"
-  - "[[yt-five-step-common-pitfalls]]"
-  - "[[yt-research-mindset]]"
-  - "[[yt-barrier-analysis-cheat-sheet]]"
-  - "[[yt-demand-analysis-hiking-map]]"
+- '[[yt-five-step-method]]'
+- '[[yt-unit-model-concept]]'
+- '[[yt-five-step-implementation]]'
+- '[[yt-business-analysis-cognitive-biases]]'
+- '[[yt-five-step-common-pitfalls]]'
+- '[[yt-research-mindset]]'
+- '[[yt-barrier-analysis-cheat-sheet]]'
+- '[[yt-demand-analysis-hiking-map]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 暗知识：五步法的段位盲区与自评陷阱

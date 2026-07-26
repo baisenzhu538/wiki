@@ -30,6 +30,10 @@ related:
 - '[[tool-用清单体记备忘笔记]]'
 - '[[tool-用topdown方式整理内化笔记]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：自我反馈修正笔记姿势
 

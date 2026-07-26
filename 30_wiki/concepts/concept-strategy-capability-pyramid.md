@@ -20,6 +20,10 @@ related:
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 **冉鹏自创框架**：战略统帅的四层能力金字塔
 1. **格局**（底层）：看多宽、看多远。格局决定战略的上限

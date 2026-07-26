@@ -24,24 +24,28 @@ source_refs:
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
 - 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
 related:
-- "[[yt-decision-y-model]]"
-- "[[framework-yitang-shishi-qiushi]]"
-- "[[framework-yitang-jiefang-sixiang]]"
-- "[[framework-yitang-y-model-dual-triangle-synergy]]"
-- "[[method-dual-triangle-flywheel-engine]]"
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"
-- "[[concept-yihang-human-in-the-loop-dual-triangle]]"
-- "[[framework-yitang-y-model-cross-domain-fusion]]"
-- "[[agent-spec-yitang-Y-model-cross-domain-coach]]"
-- "[[principle-yitang-y-model-dual-posture]]"
-- "[[method-yihang-dual-triangle-ai-review]]"
-- "[[method-yihang-dual-triangle-deliberate-practice]]"
-- "[[method-yihang-knowledge-battle-station]]"
-- "[[method-yitang-y-model-structured-form]]"
+- '[[yt-decision-y-model]]'
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[framework-yitang-jiefang-sixiang]]'
+- '[[framework-yitang-y-model-dual-triangle-synergy]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]'
+- '[[concept-yihang-human-in-the-loop-dual-triangle]]'
+- '[[framework-yitang-y-model-cross-domain-fusion]]'
+- '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
+- '[[principle-yitang-y-model-dual-posture]]'
+- '[[method-yihang-dual-triangle-ai-review]]'
+- '[[method-yihang-dual-triangle-deliberate-practice]]'
+- '[[method-yihang-knowledge-battle-station]]'
+- '[[method-yitang-y-model-structured-form]]'
 aliases:
 - Y模型迭代发动机
 - Y模型循环操作法
+tags:
+- audience:executor
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # Y模型引擎层：从分析框架到迭代发动机的操作法

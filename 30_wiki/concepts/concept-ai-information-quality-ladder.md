@@ -28,6 +28,10 @@ quality_labels:
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 信息质量阶梯
 

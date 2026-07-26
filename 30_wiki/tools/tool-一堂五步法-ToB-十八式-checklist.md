@@ -30,6 +30,10 @@ diagnostic_signals:
   follow-up: 加载本卡和2B需求字典，确认决策链和采购周期
 quality_labels:
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # ToB五步法十八式速查

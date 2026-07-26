@@ -16,12 +16,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[一堂]]"
-- "[[yt-model-y-organization]]"
-- "[[yt-system-course-catalog]]"
-- "[[yt-model-personal-map]]"
-- "[[yt-model-management-map]]"
-- "[[yt-model-entrepreneur-map]]"
+- '[[一堂]]'
+- '[[yt-model-y-organization]]'
+- '[[yt-system-course-catalog]]'
+- '[[yt-model-personal-map]]'
+- '[[yt-model-management-map]]'
+- '[[yt-model-entrepreneur-map]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
@@ -44,6 +44,10 @@ diagnostic_signals:
   follow_up_question: 你进入这个体系多久了？如果<6个月，你的任务不是无限修炼，而是先跑通个人修炼的一个小闭环
 author: 老顽童
 trust_level: medium-high
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 一堂无限进步大地图·十年收藏版

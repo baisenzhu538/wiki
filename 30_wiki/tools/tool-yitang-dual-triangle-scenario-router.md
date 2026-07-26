@@ -10,20 +10,24 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - ai-collaboration
+- yitang
+- ai-collaboration
 source_refs:
-  - 60_feedback/diagnosis/diag_20260708_yitang-dual-triangle-cross-domain-agent.md
-  - 30_wiki/concepts/concept-yihang-dual-triangle-core.md
+- 60_feedback/diagnosis/diag_20260708_yitang-dual-triangle-cross-domain-agent.md
+- 30_wiki/concepts/concept-yihang-dual-triangle-core.md
 related:
-  - "[[concept-yihang-dual-triangle-core]]"
-  - "[[framework-yitang-y-model-dual-triangle-synergy]]"
-  - "[[tool-yihang-dual-triangle-canvas]]"
-  - "[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]"
-  - "[[tool-yitang-dual-triangle-agent-handoff-protocol]]"
-  - "[[tool-yitang-dual-triangle-domain-registry]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yitang-y-model-dual-triangle-synergy]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
+- '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
+- '[[tool-yitang-dual-triangle-agent-handoff-protocol]]'
+- '[[tool-yitang-dual-triangle-domain-registry]]'
 created_at: 2026-07-08
 updated_at: '2026-07-08T17:05:49+00:00'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 双三角场景路由表

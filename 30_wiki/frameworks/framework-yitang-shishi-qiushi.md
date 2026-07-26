@@ -12,7 +12,7 @@ trust_level: high
 language: zh-CN
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 source_refs:
 - 00_inbox/实事求是/_processed/实事求是_整合笔记.md
 - 00_inbox/实事求是/_processed/vlm_summary.json
@@ -36,6 +36,10 @@ related:
 - '[[framework-yitang-y-model-cross-domain-fusion]]'
 created_at: 2026-07-03
 updated_at: '2026-07-04'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 实事求是：把「我希望是真的」和「事实是什么」分开

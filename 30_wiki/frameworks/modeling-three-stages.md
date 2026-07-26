@@ -12,10 +12,10 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - validated
+- cited
+- insight
+- principle
+- validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -23,11 +23,14 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.78
-tags: []
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 related:
-- "[[modeling-capability-system]]"
-- "[[modeling-level-map]]"
-- "[[modeling-weapon-library]]"
+- '[[modeling-capability-system]]'
+- '[[modeling-level-map]]'
+- '[[modeling-weapon-library]]'
 diagnostic_signals:
 - framework_lens: 流程类建模
   follow_up_question: 这个任务重复发生吗？失败成本高吗？

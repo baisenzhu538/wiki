@@ -30,6 +30,10 @@ diagnostic_signals:
   follow-up: 用本卡定位当前在I/P/O哪步→选对应工具
 quality_labels:
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # IPO工具箱导航：I/P/O三段工具索引

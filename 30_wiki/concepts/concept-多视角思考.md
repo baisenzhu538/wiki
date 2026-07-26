@@ -23,6 +23,10 @@ related:
 - concept-发现决策
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 多视角思考：用不同角色审视产品
 

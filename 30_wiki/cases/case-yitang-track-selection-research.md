@@ -21,6 +21,10 @@ related:
 - '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 # 案例：一堂赛道选择——自己用调研方法论选方向
 

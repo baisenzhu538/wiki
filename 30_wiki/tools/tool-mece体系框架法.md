@@ -1,5 +1,4 @@
 ---
-
 id: tool-mece体系框架法
 title: 技能：MECE体系框架法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[tool-泛产品落地-逻辑MECE]]"
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[concept-mckinsey-mece]]"
-  - "[[tool-体系框架构建]]"
-  - "[[yt-panproduct-execution-logic-mece]]"
+- '[[tool-泛产品落地-逻辑MECE]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[concept-mckinsey-mece]]'
+- '[[tool-体系框架构建]]'
+- '[[yt-panproduct-execution-logic-mece]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -45,7 +44,10 @@ diagnostic_signals:
   follow_up: 定期Review框架有效性，业务变化时同步更新分类维度
 - lens: 过度分析
   follow_up: 快速变化市场中，先行动再迭代，MECE框架可边用边完善
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：MECE体系框架法

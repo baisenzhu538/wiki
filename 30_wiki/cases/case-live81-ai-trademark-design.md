@@ -1,5 +1,4 @@
 ---
-
 id: case-live81-ai-trademark-design
 title: 案例：Live81 AI 赋能喵善养商标设计
 type: case
@@ -21,28 +20,31 @@ source_refs:
 - 00_inbox/yitang-AI club/live81/AI赋能商标设计体系重构 — Live81逐字稿 副本.md
 - 60_feedback/diagnosis/diag_20260702_live81-ai-trademark-design.md
 related:
-  - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[human-ai-collaboration-double-triangle]]"
-  - "[[concept-AI时代双三角竞争力]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[tool-scene-design-language-translation]]"
-  - "[[dk-ai-design-pitfalls]]"
-  - "[[dk-yitang-research-best-practice-first]]"
-  - "[[master-decision-hygiene]]"
-  - "[[concept-cognitive-offloading-in-ai-era]]"
-  - "[[tool-ai-use-barbell-strategy]]"
-  - "[[case-bmw-human-ai-collaboration-idle-time]]"
-  - "[[case-ai-writing-homogenization]]"
-  - "[[tool-纪浩-项目启动五问法]]"
-  - "[[tool-一堂-product-kernel-canvas]]"
-  - "[[yt-panproduct-aesthetic-pool]]"
-  - "[[yt-panproduct-aesthetic-modeling]]"
-  - "[[tool-月白-AI模型选择策略]]"
-  - "[[tool-多模型对比抽卡]]"
-  - "[[case-ji-hao-ui-design-constraint-evolution]]"
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[human-ai-collaboration-double-triangle]]'
+- '[[concept-AI时代双三角竞争力]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[tool-scene-design-language-translation]]'
+- '[[dk-ai-design-pitfalls]]'
+- '[[dk-yitang-research-best-practice-first]]'
+- '[[master-decision-hygiene]]'
+- '[[concept-cognitive-offloading-in-ai-era]]'
+- '[[tool-ai-use-barbell-strategy]]'
+- '[[case-bmw-human-ai-collaboration-idle-time]]'
+- '[[case-ai-writing-homogenization]]'
+- '[[tool-纪浩-项目启动五问法]]'
+- '[[tool-一堂-product-kernel-canvas]]'
+- '[[yt-panproduct-aesthetic-pool]]'
+- '[[yt-panproduct-aesthetic-modeling]]'
+- '[[tool-月白-AI模型选择策略]]'
+- '[[tool-多模型对比抽卡]]'
+- '[[case-ji-hao-ui-design-constraint-evolution]]'
 created_at: 2026-07-02
 updated_at: '2026-07-02'
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：Live81 AI 赋能喵善养商标设计

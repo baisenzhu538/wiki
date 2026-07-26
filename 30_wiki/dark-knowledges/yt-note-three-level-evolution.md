@@ -1,6 +1,4 @@
 ---
-
-
 domain:
 - learning-methodology
 id: yt-note-three-level-evolution
@@ -18,9 +16,13 @@ source_refs:
 created_at: '2026-06-15'
 updated_at: '2026-06-20'
 related:
-- "[[yt-note-l4-internalization]]"
-- "[[yt-management-team-knowledge]]"
-- "[[yt-note-ai-p-role-not-c-role]]"
+- '[[yt-note-l4-internalization]]'
+- '[[yt-management-team-knowledge]]'
+- '[[yt-note-ai-p-role-not-c-role]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 - "[[dk-note-rookie-disaster-veteran-heaven]]"
 

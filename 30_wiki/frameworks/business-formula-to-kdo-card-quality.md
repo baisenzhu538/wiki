@@ -12,9 +12,9 @@ domain:
 - src_unknown
 - src_unknown
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: '2026-06-15'
 author: 黄药师
 reviewed_by: 老顽童
@@ -22,24 +22,27 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: '2026-06-17'
 trust_level: high
 related:
-- "[[kdo-input-channel-strategy-2026-06-16]]"
-- "[[kdo-protocol]]"
-- "[[tool-sabc-tier-modeling]]"
-- "[[modeling-to-kdo-toolchain]]"
-- "[[kdo-batch-produce-req014]]"
-- "[[kdo-15-dimension-label-spec]]"
-- "[[framework-kdo-self-attack]]"
-- "[[kdo-yaml-frontmatter-safety]]"
-- "[[yt-business-formula-abc-model]]"
-- "[[kdo-priority-checklist]]"
-- "[[yt-tob-customer-sabc]]"
-- "[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]"
-- "[[kdo_product_design_agent_final]]"
-- "[[business-formula-domain-digest]]"
+- '[[kdo-input-channel-strategy-2026-06-16]]'
+- '[[kdo-protocol]]'
+- '[[tool-sabc-tier-modeling]]'
+- '[[modeling-to-kdo-toolchain]]'
+- '[[kdo-batch-produce-req014]]'
+- '[[kdo-15-dimension-label-spec]]'
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[kdo-priority-checklist]]'
+- '[[yt-tob-customer-sabc]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[kdo_product_design_agent_final]]'
+- '[[business-formula-domain-digest]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 diagnostic_signals:
 - framework_lens: ABC三要素诊断
   follow_up_question: 你的A（要回答的决策问题）定义清楚了吗？B（核心主张）能量化吗？C（逻辑关系）是因果还是相关？

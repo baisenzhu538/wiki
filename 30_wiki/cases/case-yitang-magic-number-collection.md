@@ -44,6 +44,10 @@ related:
 - '[[case-yitang-false-causality-collection]]'
 - '[[framework-一堂-关键假设]]'
 - '[[yt-management-goal-management]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 魔法数字案例集：从美团 30 天 3 单到一堂 50 学分，拐点参数怎么找、怎么用
 

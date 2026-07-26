@@ -18,9 +18,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-  - "[[yt-demand-ai-knowledge-base-case]]"
-  - "[[yt-demand-treadmill-case]]"
-  - "[[yt-demand-b2b-vs-b2c]]"
+- '[[yt-demand-ai-knowledge-base-case]]'
+- '[[yt-demand-treadmill-case]]'
+- '[[yt-demand-b2b-vs-b2c]]'
 diagnostic_signals:
 - framework_lens: 段位自评——缺乏能力评估框架
   follow_up_question: 你能描述一个你最近做的需求分析吗？拆推评算四个步骤，你完成了几个？
@@ -32,6 +32,10 @@ diagnostic_signals:
   follow_up_question: 你能描述一个典型用户的一天中，会在什么具体时刻使用你的产品吗？
 - framework_lens: 段位评估——团队能力断层
   follow_up_question: 你们团队对需求分析的理解和方法论有共识吗？能一起填一张拆推评算表吗？
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 需求分析段位自评表：从L1到L6的进阶路径

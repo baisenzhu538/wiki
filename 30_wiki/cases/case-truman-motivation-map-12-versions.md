@@ -42,6 +42,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 动机地图12版迭代：先观察再设计
 

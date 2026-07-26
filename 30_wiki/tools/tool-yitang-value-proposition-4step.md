@@ -9,41 +9,44 @@ confidence: 0.86
 trust_level: high
 language: zh-CN
 domain:
-  - business-strategy
-  - yitang
-  - product
+- business-strategy
+- yitang
+- product
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
 source_refs:
-  - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
-  - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
-  - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
-  - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
+- 00_inbox/销售专题/_processed/销售专题_整合笔记.md
+- 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
+- 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
+- 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
 related:
-  - "[[tool-strategy-value-proposition]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[framework-brand-three-degree]]"
-  - "[[yt-panproduct-aesthetic-modeling]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[yt-panproduct-aesthetic-pool]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[master-decision-hygiene]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
-  - "[[tool-agent-spec-yitang-customer-segmentation]]"
-  - "[[tool-agent-spec-yitang-objection-handler]]"
-  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
-  - "[[tool-agent-spec-yitang-value-proposition]]"
-
-  - "[[framework-一堂-动力三曲线]]"
-  - "[[tool-一堂-FAB说服法]]"
+- '[[tool-strategy-value-proposition]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[framework-brand-three-degree]]'
+- '[[yt-panproduct-aesthetic-modeling]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[yt-panproduct-aesthetic-pool]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[master-decision-hygiene]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
+- '[[tool-agent-spec-yitang-customer-segmentation]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-agent-spec-yitang-sales-process-tracker]]'
+- '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[framework-一堂-动力三曲线]]'
+- '[[tool-一堂-FAB说服法]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 一堂卖点提炼四步法：把功能语言变成客户愿意掏钱的价值语言
 

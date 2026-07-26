@@ -1,5 +1,4 @@
 ---
-
 id: dk-ji-hao-problem-vs-question
 title: 暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem
 type: dk
@@ -15,17 +14,15 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-19'
 related:
-  - "[[yt-demand-fake-demand-detection]]"
-  - "[[dk-ai-judgment-human-responsibility]]"
-  - "[[dk-wanghuan-spec-trap]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-wiki_refs:
-
-pipeline:
-
+- '[[yt-demand-fake-demand-detection]]'
+- '[[dk-ai-judgment-human-responsibility]]'
+- '[[dk-wanghuan-spec-trap]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
+wiki_refs: null
+pipeline: null
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -40,7 +37,10 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 伪需求加速
   follow_up_question: 有没有真实受益人和从头讲到尾的因果链？如果中间靠 AI 自己发挥，链是否断裂？
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 暗知识：Problem vs Question

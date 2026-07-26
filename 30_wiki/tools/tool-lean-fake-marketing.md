@@ -24,6 +24,10 @@ related:
 - tool-lean-premium-service
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 假营销：用故事验证兴趣
 

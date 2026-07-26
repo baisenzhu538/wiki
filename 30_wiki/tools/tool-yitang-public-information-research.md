@@ -34,6 +34,10 @@ related:
 - '[[pending_unknown]]'
 - tool-yitang-research-competitive-quadrant
 - framework-yitang-growth-flywheel
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 官方公开信息渠道：公司自己发布的信息最有价值
 

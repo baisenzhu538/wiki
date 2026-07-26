@@ -30,6 +30,10 @@ related:
 - '[[yt-skill-p-role-prompt-design]]'
 - '[[kdo_product_design_agent_final]]'
 - yt-system-course-map-lecture
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # Design / Ai Image Generation
 

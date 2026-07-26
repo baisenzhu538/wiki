@@ -13,37 +13,38 @@ source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
-definition_of_done:
-
-
-tools_required:
-
+definition_of_done: null
+tools_required: null
 created_at: '2026-06-09T14:38:36+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
 related:
-- "[[tool-多轮确认防偏差]]"
-- "[[tool-主动摘要压缩上下文]]"
-- "[[tool-反向教学深化理解]]"
-- "[[tool-反向提示获取优化建议]]"
-- "[[tool-提示词结构化迭代]]"
-- "[[tool-react行动推理循环]]"
-- "[[tool-任务拆解为工作流]]"
-- "[[tool-分层标注重点信息]]"
-- "[[tool-反向记录整理思路]]"
-- "[[tool-反向采访挖掘深度]]"
-- "[[tool-增强数据供给]]"
-- "[[tool-多模型对比抽卡]]"
-- "[[tool-封装可复用skill]]"
-- "[[tool-思维链显化推理]]"
-- "[[tool-思维验证交叉检验]]"
-- "[[tool-数据分层供给]]"
-- "[[tool-模型匹配调度]]"
-- "[[tool-模型组合调用]]"
+- '[[tool-多轮确认防偏差]]'
+- '[[tool-主动摘要压缩上下文]]'
+- '[[tool-反向教学深化理解]]'
+- '[[tool-反向提示获取优化建议]]'
+- '[[tool-提示词结构化迭代]]'
+- '[[tool-react行动推理循环]]'
+- '[[tool-任务拆解为工作流]]'
+- '[[tool-分层标注重点信息]]'
+- '[[tool-反向记录整理思路]]'
+- '[[tool-反向采访挖掘深度]]'
+- '[[tool-增强数据供给]]'
+- '[[tool-多模型对比抽卡]]'
+- '[[tool-封装可复用skill]]'
+- '[[tool-思维链显化推理]]'
+- '[[tool-思维验证交叉检验]]'
+- '[[tool-数据分层供给]]'
+- '[[tool-模型匹配调度]]'
+- '[[tool-模型组合调用]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：渐进式披露上下文

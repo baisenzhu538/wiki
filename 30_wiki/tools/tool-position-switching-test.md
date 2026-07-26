@@ -4,35 +4,46 @@ title: 地位互换测试：规则公正性一分钟自检
 type: tool
 status: draft
 author: laowantong
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 domain:
-  - management
+- management
 source_refs:
-  - "00_inbox/坏世界研究/拆书会第212期_坏世界研究_逐字稿.md"
-  - "00_inbox/坏世界研究/赵汀阳-坏世界研究-拆书-口述.txt"
-aliases: ["椅子测试","分钱公平吗","合作协议自检","公正性测试"]
-discoverable_by: ["分钱方案设计","合作协议审查","合伙人纠纷"]
+- 00_inbox/坏世界研究/拆书会第212期_坏世界研究_逐字稿.md
+- 00_inbox/坏世界研究/赵汀阳-坏世界研究-拆书-口述.txt
+aliases:
+- 椅子测试
+- 分钱公平吗
+- 合作协议自检
+- 公正性测试
+discoverable_by:
+- 分钱方案设计
+- 合作协议审查
+- 合伙人纠纷
 related:
-  - concept-collaboration-philosophy-foundation
-  - tool-game-environment-checklist
-  - yt-management-founder-role
-  - framework-yitang-shishi-qiushi
-  - framework-kdo-modeling-methodology
+- concept-collaboration-philosophy-foundation
+- tool-game-environment-checklist
+- yt-management-founder-role
+- framework-yitang-shishi-qiushi
+- framework-kdo-modeling-methodology
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 待审
 diagnostic_signals:
-  - signal: "分钱方案大家都说公平但还是有人不满"
-    lens: 公平≠公正——换椅子后看规则本身是否正当
-    follow_up: 地位互换三问
-  - signal: "合作协议总是谈不拢"
-    lens: 每方用不同尺子评估利益——找到对方尺子
-    follow_up: 利益问：对方真正想要什么
-  - signal: "规则执行后发现对方在钻空子"
-    lens: 规则有盲区——退出问暴露了漏洞
-    follow_up: 红牌信号检查
+- signal: 分钱方案大家都说公平但还是有人不满
+  lens: 公平≠公正——换椅子后看规则本身是否正当
+  follow_up: 地位互换三问
+- signal: 合作协议总是谈不拢
+  lens: 每方用不同尺子评估利益——找到对方尺子
+  follow_up: 利益问：对方真正想要什么
+- signal: 规则执行后发现对方在钻空子
+  lens: 规则有盲区——退出问暴露了漏洞
+  follow_up: 红牌信号检查
 quality_labels: cited
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 > **定位**：属于 [[concept-collaboration-philosophy-foundation]] 的工具卡。理论锚点——金句9"人所不欲，勿施于人"（8.2）+ 金句4"公平是正义的一部分"（7.6）。公平只保证执行一致，不保证规则本身公正。地位互换是检验规则本身的工具。

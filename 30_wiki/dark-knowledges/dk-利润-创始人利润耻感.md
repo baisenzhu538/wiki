@@ -1,26 +1,30 @@
 ---
 id: dk-利润-创始人利润耻感
-title: "创始人利润耻感：不敢拿利润不是贪婪问题，是认知问题"
+title: 创始人利润耻感：不敢拿利润不是贪婪问题，是认知问题
 type: dk
 status: draft
 confidence: 0.87
 trust_level: high
 domain:
-  - profit-pricing
+- profit-pricing
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
+- insight
 source_refs:
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L800-L816"
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L2200-L2216"
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L800-L816
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L2200-L2216
 related:
-  - concept-利润-风险报偿本质
-  - dk-利润-定价恐惧三段式反问
-  - yt-decision-y-model
+- concept-利润-风险报偿本质
+- dk-利润-定价恐惧三段式反问
+- yt-decision-y-model
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 创始人利润耻感：不敢拿利润不是贪婪问题，是认知问题

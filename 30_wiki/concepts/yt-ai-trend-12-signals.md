@@ -1,37 +1,34 @@
 ---
-
 domain:
-  - yitang
-
-
-
+- yitang
 id: yt-ai-trend-12-signals
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-10
-reviewed_by: "洪七公"
+reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 status: enriched
 updated_at: '2026-07-09'
 source_refs:
-  - pending_archive:src_20260614_82a4fdb9-凯文凯利-必然趋势分享
-  - src_20260614_82a4fdb9-凯文凯利-必然趋势分享
-source_refs:
-  - pending_archive:src_20260614_82a4fdb9-凯文凯利-必然趋势分享
+- pending_archive:src_20260614_82a4fdb9-凯文凯利-必然趋势分享
 related:
-- "[[framework-一堂-机会预判]]"
-- "[[yt-foresight-business-spectrum]]"
-- "[[tool-一堂-机会预判-五步法预判]]"
-- "[[framework-一堂五步法]]"
+- '[[framework-一堂-机会预判]]'
+- '[[yt-foresight-business-spectrum]]'
+- '[[tool-一堂-机会预判-五步法预判]]'
+- '[[framework-一堂五步法]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # AI趋势12大变化模型
 

@@ -24,6 +24,10 @@ related:
 - concept-发现决策
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 项目方案评估三角形

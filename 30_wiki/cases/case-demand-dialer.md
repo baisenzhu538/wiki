@@ -27,6 +27,10 @@ related:
 - '[[dk-demand-pitfall-dialer]]'
 - '[[dk-demand-feature-stacking]]'
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：小胖猴拨号器
 

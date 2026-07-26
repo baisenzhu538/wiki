@@ -32,6 +32,10 @@ related:
 - '[[tool-strategy-value-capture]]'
 - framework-five-step-lean-interface
 - tool-red-team-analysis
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 活动范围设计工具：What × How × Where 三问

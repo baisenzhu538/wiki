@@ -1,5 +1,4 @@
 ---
-
 id: tool-scenario-selector-modeling
 title: 场景→工具选择器：根据需求快速匹配合适的建模工具
 type: tool
@@ -13,9 +12,9 @@ domain:
 - src_unknown
 - src_unknown
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -24,19 +23,22 @@ review_date: '2026-06-17'
 trust_level: high
 confidence: 0.9
 related:
-  - "[[tool-radar-chart-modeling]]"
-  - "[[tool-binary-quadrant-modeling]]"
-  - "[[tool-funnel-formula-modeling]]"
-  - "[[tool-sabc-tier-modeling]]"
-  - "[[tool-canvas-weapon-library-modeling]]"
-  - "[[tool-checklist-cheatsheet-modeling]]"
-  - "[[modeling-level-map]]"
-  - "[[tool-iceberg-triangle-modeling]]"
+- '[[tool-radar-chart-modeling]]'
+- '[[tool-binary-quadrant-modeling]]'
+- '[[tool-funnel-formula-modeling]]'
+- '[[tool-sabc-tier-modeling]]'
+- '[[tool-canvas-weapon-library-modeling]]'
+- '[[tool-checklist-cheatsheet-modeling]]'
+- '[[modeling-level-map]]'
+- '[[tool-iceberg-triangle-modeling]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:advanced
 diagnostic_signals:
 - framework_lens: 场景→工具选择器
   follow_up_question: 你要解决的是筛选、分类、排序、诊断、设计还是执行问题？
@@ -50,7 +52,6 @@ diagnostic_signals:
   follow_up_question: 大家是否先对问题类型和前提条件（数据、共识、可干预性、ROI）达成了一致？
 - framework_lens: 场景→工具选择器
   follow_up_question: 你是因为这个工具顺手，还是因为它真的适合当前问题？
-
 ---
 
 # 场景→工具选择器：根据需求快速匹配合适的建模工具

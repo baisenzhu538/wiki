@@ -3,43 +3,47 @@ id: ai-tool-learning-curve
 title: AI工具循序渐进学习曲线
 type: framework
 domain:
-  - ai
-  - learning-methodology
-  - yitang
+- ai
+- learning-methodology
+- yitang
 status: reviewed
 source_refs:
-  - "00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md"
+- 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
-  - "[[deliberate-practice-four-elements]]"
-  - "[[completion-criteria-design]]"
-  - "[[challenge-point-design]]"
-  - "[[four-questions-feedback]]"
-  - "[[productization-judgment]]"
-  - "[[fixed-routine-design]]"
-  - "[[comfort-zone-expansion]]"
-  - "[[timely-feedback-loop]]"
-  - "[[deliberate-repetition]]"
-  - "[[ai-virtual-coach-prompt]]"
-  - "[[practice-card-decomposition]]"
-  - "[[ai-tool-learning-workbook]]"
+- '[[deliberate-practice-four-elements]]'
+- '[[completion-criteria-design]]'
+- '[[challenge-point-design]]'
+- '[[four-questions-feedback]]'
+- '[[productization-judgment]]'
+- '[[fixed-routine-design]]'
+- '[[comfort-zone-expansion]]'
+- '[[timely-feedback-loop]]'
+- '[[deliberate-repetition]]'
+- '[[ai-virtual-coach-prompt]]'
+- '[[practice-card-decomposition]]'
+- '[[ai-tool-learning-workbook]]'
 aliases:
-  - "Truman 学习曲线"
-  - "循序渐进学习曲线"
-  - "AI工具学习五阶段"
+- Truman 学习曲线
+- 循序渐进学习曲线
+- AI工具学习五阶段
 author: 老顽童
-created_at: "2026-06-28"
-updated_at: "2026-06-29"
-confidence: 0.80
+created_at: '2026-06-28'
+updated_at: '2026-06-29'
+confidence: 0.8
 trust_level: high
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
+review_date: '2026-06-28'
 diagnostic_signals:
-  - signal: 用户说"学 AI 工具没有固定方法"
-    framework_lens: 缺少学习曲线框架
-    follow_up_question: "你学新工具时，目前是按什么步骤走的？"
-  - signal: 用户想建立 AI 工具学习能力
-    framework_lens: 提供可复用学习框架
-    follow_up_question: "我们可以把学习过程拆成 5 个阶段，每个阶段有明确产出，你觉得怎么样？"
+- signal: 用户说"学 AI 工具没有固定方法"
+  framework_lens: 缺少学习曲线框架
+  follow_up_question: 你学新工具时，目前是按什么步骤走的？
+- signal: 用户想建立 AI 工具学习能力
+  framework_lens: 提供可复用学习框架
+  follow_up_question: 我们可以把学习过程拆成 5 个阶段，每个阶段有明确产出，你觉得怎么样？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # AI工具循序渐进学习曲线

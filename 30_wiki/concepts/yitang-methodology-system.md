@@ -27,7 +27,10 @@ source_refs:
 - 10_raw/sources/src_20260614_f2578dfb-一堂-世总会0到1实践.md
 - 10_raw/sources/src_20260614_faa8021d-Y模型探索营-第二节课.md
 - 10_raw/sources/src_20260614_9ca806cd-theme-yitang-methodology-summary.md
-tags: []
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 created_at: '2026-06-14'
 quality_labels:
 - cited

@@ -42,6 +42,10 @@ diagnostic_signals:
 quality_labels:
 - principle
 - insight
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 脱离成本：续费/留存的本质是「离开太痛」，不是信任加深

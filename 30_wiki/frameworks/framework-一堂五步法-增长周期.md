@@ -32,6 +32,10 @@ diagnostic_signals:
 quality_labels:
 - principle
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一堂五步法·增长周期：获客驱动/系统驱动/对抗驱动三阶段

@@ -19,6 +19,10 @@ related:
 - strategy-domain-digest
 - tool-月白-服务体验类去AI感设计
 - tool-采用滚动预测机制
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 **转型**：原油价值链突变 → 预测未来市场规模萎缩 → 提前从生产转向服务。

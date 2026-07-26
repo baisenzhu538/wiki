@@ -1,6 +1,6 @@
 ---
 id: case-yihang-dual-triangle-一堂双三角-人生红点教练parther探索
-title: "一堂双三角-人生红点教练parther探索 — 双三角案例"
+title: 一堂双三角-人生红点教练parther探索 — 双三角案例
 type: case
 status: draft
 author: 洪七公（VLM提取）
@@ -9,13 +9,16 @@ updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
+- yitang
 source_refs:
-  - 00_inbox/人机协作双三角/_processed/一堂双三角-人生红点教练parther探索_vlm.md
+- 00_inbox/人机协作双三角/_processed/一堂双三角-人生红点教练parther探索_vlm.md
 tags:
-  - "#domain/ai-collaboration"
-  - "#method/dual-triangle"
+- '#domain/ai-collaboration'
+- '#method/dual-triangle'
+- audience:general
+- scene:reference
+- skill-level:intermediate
 reviewed_by: pending
 ---
 # 一堂双三角-人生红点教练parther探索

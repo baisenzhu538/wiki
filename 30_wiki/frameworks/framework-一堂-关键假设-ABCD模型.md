@@ -45,8 +45,11 @@ diagnostic_signals:
 quality_labels:
 - principle
 - framework
-- cited
-  - framework-yitang-thought-liberation-lightning
+- cited - framework-yitang-thought-liberation-lightning
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一堂关键假设 ABCD 模型（YitangABCDStrategyModel）

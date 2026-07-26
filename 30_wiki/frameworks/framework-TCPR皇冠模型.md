@@ -42,6 +42,10 @@ query_triggers:
 review_date: '2026-06-29'
 created_at: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # TCP-R皇冠模型

@@ -21,7 +21,10 @@ source_refs:
 - 10_raw/sources/src_20260614_489554e9-瑶光阁-非遗珠宝项目汇报.md
 - 10_raw/sources/src_20260614_ef4f24d7-AI旋风组-项目介绍.md
 - 10_raw/sources/src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary.md
-tags: []
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -30,9 +33,8 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-- "[[ai-collaboration-mindset-shift]]"
-- "[[ai-landing-scene-selection]]"
-
+- '[[ai-collaboration-mindset-shift]]'
+- '[[ai-landing-scene-selection]]'
 ---
 
 # AI 大航海项目路演：主题综合知识卡

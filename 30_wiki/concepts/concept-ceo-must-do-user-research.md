@@ -25,6 +25,10 @@ related:
 - tool-yitang-amazon-bestseller
 - tool-yitang-ai-monitoring-alert
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 # CEO必须亲自做用户调研
 

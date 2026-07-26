@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-触点减法与排序
 title: 一堂触点减法与排序：冗长/低价值/资源有限下的好钢用在刀刃上
 type: tool
@@ -35,10 +34,13 @@ related:
 - '[[case-一堂-优秀案例逐字稿合集]]'
 - '[[case-一堂-一堂自身转化实践]]'
 - '[[tool-一堂-五种挖触点]]'
-
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂触点减法与排序：冗长/低价值/资源有限下的好钢用在刀刃上

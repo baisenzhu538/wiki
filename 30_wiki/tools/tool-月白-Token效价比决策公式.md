@@ -24,17 +24,21 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-RGB转CMYK印刷预检]]"
-  - "[[tool-月白-口述作图法（口喷设计）]]"
-  - "[[tool-月白-新手设计师基本功训练法]]"
-  - "[[tool-月白-文创产品AI设计到生产的卡点预判]]"
-  - "[[tool-月白-实物包装落地训练法]]"
-  - "[[tool-月白-AI图片去文字处理]]"
-  - "[[tool-月白-AI电商图人工过审处理]]"
-  - "[[tool-月白-RGB转CMYK色彩校准法]]"
-  - "[[tool-月白-Token智甲比控制法]]"
-  - "[[tool-月白-智能扩图-拓图双方案]]"
-  - "[[tool-月白-纳米级抄大师训练法]]"
+- '[[tool-月白-RGB转CMYK印刷预检]]'
+- '[[tool-月白-口述作图法（口喷设计）]]'
+- '[[tool-月白-新手设计师基本功训练法]]'
+- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
+- '[[tool-月白-实物包装落地训练法]]'
+- '[[tool-月白-AI图片去文字处理]]'
+- '[[tool-月白-AI电商图人工过审处理]]'
+- '[[tool-月白-RGB转CMYK色彩校准法]]'
+- '[[tool-月白-Token智甲比控制法]]'
+- '[[tool-月白-智能扩图-拓图双方案]]'
+- '[[tool-月白-纳米级抄大师训练法]]'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：Token效价比决策公式
 

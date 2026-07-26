@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[yt-barrier-culture-moat]]"
-  - "[[yt-barrier-data-assets]]"
-  - "[[yt-barrier-defensive-strategy]]"
+- '[[yt-barrier-culture-moat]]'
+- '[[yt-barrier-data-assets]]'
+- '[[yt-barrier-defensive-strategy]]'
 diagnostic_signals:
 - framework_lens: 品牌资产——品牌知名度需要持续投入和时间积累
   follow_up_question: 你的品牌投入占收入多少？品牌定位是否清晰？目标受众是谁？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你的品牌是否有商标保护？品牌差异化是否足够？
 - framework_lens: 品牌资产——品牌溢价需要品牌信任和认知
   follow_up_question: 你的品牌信任度如何？用户是否愿意为品牌付溢价？
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 品牌资产：认知与信任

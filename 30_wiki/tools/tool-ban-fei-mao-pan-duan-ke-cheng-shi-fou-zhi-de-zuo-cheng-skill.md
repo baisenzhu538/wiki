@@ -1,5 +1,4 @@
 ---
-
 id: tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill
 title: 技能：判断课程是否值得做成Skill
 type: tool
@@ -12,30 +11,30 @@ source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
-tools_required:
-
+tools_required: null
 prerequisite_skills: []
 related:
-  - "[[tool-半肥猫-课程Skill化的八步工作流]]"
-  - "[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]"
-  - "[[dk-ban-fei-mao-skill-rejection-value]]"
-  - "[[case-ban-fei-mao-conversion-hacker-skill]]"
-  - "[[concept-半肥猫-ai-learning-toolification-methodology]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[tool-ai-skill-engineering-method]]"
-  - "[[tool-yitang-18-strategy-tool-mapping]]"
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
+- '[[case-ban-fei-mao-conversion-hacker-skill]]'
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[tool-yitang-18-strategy-tool-mapping]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'
-pipeline:
-
-
+pipeline: null
 author: 半肥猫
 confidence: 0.88
 trust_level: medium
-diagnostic_signals:
-
+diagnostic_signals: null
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：判断课程是否值得做成Skill

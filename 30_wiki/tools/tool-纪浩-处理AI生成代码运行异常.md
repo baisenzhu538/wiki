@@ -17,14 +17,14 @@ updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 related:
-- "[[tool-月白-AI电商图人工过审处理]]"
-- "[[tool-月白-设计素材脱敏处理规范]]"
-- "[[tool-月白-AI图片印刷落地预处理]]"
-- "[[tool-纪浩-Agent技能市场设计法]]"
-- "[[tool-月白-电商白底图生成与高清处理]]"
-- "[[tool-月白-AI图片去文字处理]]"
-- "[[tool-马易-低置信度样本黄金漏斗处理]]"
-- "[[tool-纪浩-Problem与Question区分法]]"
+- '[[tool-月白-AI电商图人工过审处理]]'
+- '[[tool-月白-设计素材脱敏处理规范]]'
+- '[[tool-月白-AI图片印刷落地预处理]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-月白-电商白底图生成与高清处理]]'
+- '[[tool-月白-AI图片去文字处理]]'
+- '[[tool-马易-低置信度样本黄金漏斗处理]]'
+- '[[tool-纪浩-Problem与Question区分法]]'
 diagnostic_signals:
 - lens: 排查无头绪
   follow_up: 先确认异常现象和复现路径。没有复现路径的问题无法修复
@@ -36,6 +36,10 @@ diagnostic_signals:
   follow_up: 排查环境差异（依赖版本、系统配置、权限等）。脚本化环境配置，确保一致性
 - lens: 经验不沉淀
   follow_up: 每次异常修复后记录到日志和经验库。沉淀的异常处理经验是宝贵资产
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：处理AI生成代码运行异常

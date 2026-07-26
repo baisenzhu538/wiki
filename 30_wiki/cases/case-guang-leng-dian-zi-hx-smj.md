@@ -1,5 +1,4 @@
 ---
-
 id: case-guang-leng-dian-zi-hx-smj
 title: 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线
 type: case
@@ -18,10 +17,13 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:advanced
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-09
 updated_at: '2026-06-29'
 author: 黄药师
@@ -30,20 +32,19 @@ review_date: 2026-06-19
 confidence: 0.89
 trust_level: high
 related:
-  - "[[tool-项目背景分析]]"
-  - "[[tool-从案例中学习]]"
-  - "[[tool-月白-商业项目AI模型选型决策]]"
-  - "[[tool-项目方案评估三角形]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[tool-月白-设计项目MVP拆解法]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
+- '[[tool-项目背景分析]]'
+- '[[tool-从案例中学习]]'
+- '[[tool-月白-商业项目AI模型选型决策]]'
+- '[[tool-项目方案评估三角形]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[tool-月白-设计项目MVP拆解法]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
-
 ---
 
 # 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线

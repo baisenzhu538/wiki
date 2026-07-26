@@ -25,6 +25,10 @@ related:
 - proposal-prompt-injection-infrastructure
 - tool-agent-spec-yitang-objection-handler
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # Maltego：实体关系图谱
 

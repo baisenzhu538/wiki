@@ -43,9 +43,12 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 related:
-  - "[[tool-lean-product-kernel-metrics]]"
-  - "[[yt-product-kernel-ten-metrics]]"
-
+- '[[tool-lean-product-kernel-metrics]]'
+- '[[yt-product-kernel-ten-metrics]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 

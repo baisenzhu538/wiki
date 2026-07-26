@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-经典故事线框架库
 title: 一堂经典故事线框架库：N个为什么/清单体/时间线/BP模板/顾问式销售
 type: tool
@@ -35,6 +34,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂经典故事线框架库：N个为什么/清单体/时间线/BP模板/顾问式销售

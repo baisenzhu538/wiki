@@ -1,5 +1,4 @@
 ---
-
 id: tool-radar-chart-modeling
 title: 雷达图建模法：多维度评估与筛选
 type: tool
@@ -13,8 +12,8 @@ domain:
 - src_unknown
 - src_unknown
 quality_labels:
-  - actionable
-  - validated
+- actionable
+- validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -23,18 +22,21 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.9
 related:
-  - "[[tool-动手建模法]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[tool-scenario-selector-modeling]]"
+- '[[tool-动手建模法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[tool-scenario-selector-modeling]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 建模 / 维度设计
   follow_up_question: 当前雷达图的维度是否经过团队共识，还是隐含了某个人的偏好或遗漏了关键反例维度？
@@ -42,7 +44,6 @@ diagnostic_signals:
   follow_up_question: 每个维度的分数是否有可观察的行为定义，还是仅靠个人印象打分？
 - framework_lens: 抽象建模 / 边界判断
   follow_up_question: 这些候选对象是否面向同一评估目标，维度是否真正覆盖它们之间的关键差异？
-
 ---
 
 # 雷达图建模法：多维度评估与筛选

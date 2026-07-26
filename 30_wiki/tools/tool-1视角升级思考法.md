@@ -34,6 +34,10 @@ related:
 - '[[tool-将未中标成本纳入循环计算真实投标成本]]'
 - '[[tool-三阶追问法穷尽决策要素]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：+1视角升级思考法

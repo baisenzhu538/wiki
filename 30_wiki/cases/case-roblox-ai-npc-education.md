@@ -24,6 +24,10 @@ related:
 - '[[pending_unknown]]'
 - agent-native-card-design
 - tinyfish-agentic-web-infrastructure
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # Roblox AI NPC 与教育场景
 

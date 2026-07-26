@@ -45,6 +45,10 @@ quality_labels:
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 ## 原始表述 / 核心洞察
 

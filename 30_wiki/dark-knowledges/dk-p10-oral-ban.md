@@ -1,5 +1,4 @@
 ---
-
 id: dk-p10-oral-ban
 title: P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
 type: dk
@@ -14,14 +13,14 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-- "[[dk-skill-market-agent-self-install]]"
-- "[[ai-native-im-multi-agent]]"
-- "[[case-truman-ai-partner]]"
-- "[[dk-f12-builder-context-deadlock]]"
-- "[[dk-p15-unverified]]"
-- "[[dk-p15-unverified]]"
-- "[[dk-f9-generic-critique]]"
-- "[[master-decision-hygiene]]"
+- '[[dk-skill-market-agent-self-install]]'
+- '[[ai-native-im-multi-agent]]'
+- '[[case-truman-ai-partner]]'
+- '[[dk-f12-builder-context-deadlock]]'
+- '[[dk-p15-unverified]]'
+- '[[dk-p15-unverified]]'
+- '[[dk-f9-generic-critique]]'
+- '[[master-decision-hygiene]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -36,6 +35,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 ## 原始表述/核心洞察
 

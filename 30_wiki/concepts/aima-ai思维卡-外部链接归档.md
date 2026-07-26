@@ -16,6 +16,10 @@ confidence: 0.8
 trust_level: medium
 related:
 - yt-system-course-map-lecture
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # AIMA AI思维卡 — 外部链接归档
 

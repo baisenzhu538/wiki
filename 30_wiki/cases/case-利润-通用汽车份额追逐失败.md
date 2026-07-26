@@ -1,24 +1,28 @@
 ---
 id: case-利润-通用汽车份额追逐失败
-title: "通用汽车 2002-2010：为 29% 份额降价的代价"
+title: 通用汽车 2002-2010：为 29% 份额降价的代价
 type: case
 status: draft
 confidence: 0.85
 trust_level: medium
 domain:
-  - profit-pricing
+- profit-pricing
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - cited
+- cited
 source_refs:
-  - "00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L105-L110"
+- 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L105-L110
 related:
-  - framework-利润-利润优先经营框架
-  - concept-定价-价格杠杆
+- framework-利润-利润优先经营框架
+- concept-定价-价格杠杆
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 通用汽车 2002-2010：为 29% 份额降价的代价

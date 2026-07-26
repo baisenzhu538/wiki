@@ -17,9 +17,13 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[tool-aesthetic-library-builder]]"
-- "[[method-dual-triangle-flywheel-engine]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[tool-aesthetic-library-builder]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 知识层与数据层解耦：核心词 + data pack 插件式组合

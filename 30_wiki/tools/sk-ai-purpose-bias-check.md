@@ -1,38 +1,35 @@
 ---
-
 id: sk-ai-purpose-bias-check
 title: 技能：目的论偏差快速识别法
-type: "tool"
+type: tool
 status: draft
 domain:
-  - ai-collaboration
-  - yitang- ai-collaboration
+- ai-collaboration
+- yitang- ai-collaboration
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 source_refs:
 - 00_inbox/拆书会-《偶然》-水水-笔记.txt
 wiki_refs: []
-definition_of_done:
-
-
+definition_of_done: null
 tags:
-
-
+- audience:executor
+- scene:execution
+- skill-level:beginner
 created_at: '2026-06-06'
 updated_at: '2026-06-16'
-tools_required:
+tools_required: null
 prerequisite_skills: null
 related:
-  - "[[tool-水水-接受发散性世界观]]"
-  - "[[tool-ai-purpose-bias-check]]"
-  - "[[tool-ai-system-redundancy]]"
-  - "[[tool-水水-识别自证预言陷阱]]"
-  - "[[tool-水水-识别超级传播者风险]]"
+- '[[tool-水水-接受发散性世界观]]'
+- '[[tool-ai-purpose-bias-check]]'
+- '[[tool-ai-system-redundancy]]'
+- '[[tool-水水-识别自证预言陷阱]]'
+- '[[tool-水水-识别超级传播者风险]]'
 author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
-
 ---
 # 技能：目的论偏差快速识别法
 

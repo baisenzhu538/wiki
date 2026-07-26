@@ -1,55 +1,58 @@
 ---
-id: "tool-ai-use-barbell-strategy"
-title: "AI 使用杠铃策略：把任务分成高 AI 区和无 AI 区"
-type: "tool"
+id: tool-ai-use-barbell-strategy
+title: AI 使用杠铃策略：把任务分成高 AI 区和无 AI 区
+type: tool
 domain:
-  - "ai-collaboration"
+- ai-collaboration
 status: reviewed
 confidence: 0.82
-difficulty: "intermediate"
-language: "zh-CN"
-created_at: "2026-07-01T00:00:00+00:00"
+difficulty: intermediate
+language: zh-CN
+created_at: '2026-07-01T00:00:00+00:00'
 updated_at: 2026-07-02
-author: "老顽童"
-reviewed_by: "欧阳锋"
-trust_level: "medium"
+author: 老顽童
+reviewed_by: 欧阳锋
+trust_level: medium
 source_refs:
-  - "60_feedback/audit/20260701-wobeirushen-validation-report.md"
-  - "00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt"
-  - "00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt"
+- 60_feedback/audit/20260701-wobeirushen-validation-report.md
+- 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
+- 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt
 query_triggers:
-  - 怎么分配 AI 和人类的工作
-  - AI 使用边界怎么设定
-  - 杠铃策略在 AI 时代怎么用
-  - 如何避免过度依赖 AI
+- 怎么分配 AI 和人类的工作
+- AI 使用边界怎么设定
+- 杠铃策略在 AI 时代怎么用
+- 如何避免过度依赖 AI
 aliases:
-  - ai-use-barbell-strategy
-  - AI 杠铃策略
-  - 认知卸载杠铃
+- ai-use-barbell-strategy
+- AI 杠铃策略
+- 认知卸载杠铃
 tags:
-  - "#scene/ai-collaboration"
-  - "#scene/productivity"
+- '#scene/ai-collaboration'
+- '#scene/productivity'
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 quality_labels:
-  - cited
-  - validated
+- cited
+- validated
 related:
-  - "[[concept-abundance-paradox]]"
-  - "[[framework-ai-deliberate-practice-loop]]"
-  - "[[master-antifragile-checklist]]"
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[case-bmw-human-ai-collaboration-idle-time]]"
-  - "[[case-ai-writing-homogenization]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[dk-ai-design-pitfalls]]"
-  - "[[concept-ji-hao-ai-collaboration-methodology]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[concept-cognitive-offloading-in-ai-era]]"
-  - "[[tool-clinic-cabinet-legal-contract-guide]]"
-  - "[[tool-clinic-medical-shortvideo-compliance]]"
-  - "[[tool-scene-design-language-translation]]"
-  - "[[tool-smart-medicine-cabinet-compliance-checklist]]"
+- '[[concept-abundance-paradox]]'
+- '[[framework-ai-deliberate-practice-loop]]'
+- '[[master-antifragile-checklist]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[case-bmw-human-ai-collaboration-idle-time]]'
+- '[[case-ai-writing-homogenization]]'
+- '[[framework-yitang-nine-layer-deep-dig]]'
+- '[[dk-ai-design-pitfalls]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[concept-cognitive-offloading-in-ai-era]]'
+- '[[tool-clinic-cabinet-legal-contract-guide]]'
+- '[[tool-clinic-medical-shortvideo-compliance]]'
+- '[[tool-scene-design-language-translation]]'
+- '[[tool-smart-medicine-cabinet-compliance-checklist]]'
 pipeline:
-  - "confidence-draft"
+- confidence-draft
 ---
 # AI 使用杠铃策略：把任务分成高 AI 区和无 AI 区
 

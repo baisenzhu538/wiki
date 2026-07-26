@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-FAB说服法
 title: 一堂 FAB 说服法：事实起点 → 逻辑节点 → 价值终点的以理服人结构
 type: tool
@@ -47,12 +46,15 @@ related:
 - '[[case-一堂-跆拳道黑带卡]]'
 - '[[tool-一堂-五大转化率范式]]'
 - '[[tool-一堂-讲香双策略]]'
-
 - '[[tool-agent-spec-yitang-value-proposition]]'
 - '[[tool-yitang-value-proposition-4step]]'
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂 FAB 说服法：事实起点 → 逻辑节点 → 价值终点

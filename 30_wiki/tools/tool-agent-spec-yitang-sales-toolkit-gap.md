@@ -36,6 +36,10 @@ tcp_default_mode: 咨询诊断（Consult）：基于现有工具清单和业务�
 tcp_switch_trigger: 用户要求直接输出建设计划/预算表 → 切换为 P；用户要求解释 60/75/85 分级逻辑 → 切换为 T；用户要求对比多团队/多行业工具建设规律
   → 切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你盘点销售工具箱的成熟度缺口，并给出建设优先级和路线图。请先提供现有工具清单、团队规模和业务阶段。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 销售工具箱缺口盘点 Agent Spec
 

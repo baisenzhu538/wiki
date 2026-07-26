@@ -24,14 +24,18 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-工厂对接信息清单制作]]"
-  - "[[tool-月白-小红书双重搜索法]]"
-  - "[[tool-月白-卖点可视化海报设计法]]"
-  - "[[tool-月白-精准共用提示词撰写]]"
-  - "[[tool-月白-AI去字-稿定设计加字工作流]]"
-  - "[[tool-月白-AI设计里程碑拆解法]]"
-  - "[[tool-月白-电商场景图三类构建法]]"
-  - "[[tool-月白-设计基本功回归法]]"
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[tool-月白-小红书双重搜索法]]'
+- '[[tool-月白-卖点可视化海报设计法]]'
+- '[[tool-月白-精准共用提示词撰写]]'
+- '[[tool-月白-AI去字-稿定设计加字工作流]]'
+- '[[tool-月白-AI设计里程碑拆解法]]'
+- '[[tool-月白-电商场景图三类构建法]]'
+- '[[tool-月白-设计基本功回归法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：精准提示词撰写法
 

@@ -28,11 +28,11 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/天末的双三角模型_vlm.md
 - https://www.chinaseo.com/competitive-intelligence-the-2025-2026-ai-landscape-and-new-paradigm-for-digital-growth/
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[tool-yihang-dual-triangle-canvas]]"
-- "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
-- "[[method-dual-triangle-human-ai-division]]"
-- "[[case-yihang-dual-triangle-beike-ai-outbound]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[method-dual-triangle-human-ai-division]]'
+- '[[case-yihang-dual-triangle-beike-ai-outbound]]'
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 - '[[case-kdo-agent-factory-dual-triangle-practice]]'
@@ -42,6 +42,10 @@ related:
 aliases:
 - 天末案例
 - 设计交付案例
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 一行双三角案例：天末 4 天商业级室内设计交付

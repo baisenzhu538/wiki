@@ -36,6 +36,10 @@ quality_labels:
 - principle
 - framework
 - cited
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一堂关键假设三板斧（骨架）

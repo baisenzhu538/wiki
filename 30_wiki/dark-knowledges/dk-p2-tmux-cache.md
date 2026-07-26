@@ -1,5 +1,4 @@
 ---
-
 id: dk-p2-tmux-cache
 title: P-2：tmux session 缓存旧配置
 type: dk
@@ -14,11 +13,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - "[[dk-modeling-timely-review-session-window]]"
-  - "[[session-20260619-xingangwan-business-formula-reconstruction]]"
-  - "[[dk-p6-session-resume-fail]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[dk-modeling-timely-review-session-window]]'
+- '[[session-20260619-xingangwan-business-formula-reconstruction]]'
+- '[[dk-p6-session-resume-fail]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -29,7 +28,10 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown# P-2：tmux session 缓存旧配置
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述 / 核心洞察

@@ -22,6 +22,10 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 审美工具箱：产品审美的诊断和提升工具集合
 

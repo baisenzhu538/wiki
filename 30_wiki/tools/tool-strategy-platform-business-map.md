@@ -16,12 +16,16 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- "[[strategy-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[tool-strategy-value-capture]]"
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[tool-strategy-value-capture]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 平台商业模式地图

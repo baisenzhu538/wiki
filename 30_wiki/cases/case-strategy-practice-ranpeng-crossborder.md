@@ -32,6 +32,10 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - case-opc-agent-wave1-real-model-testing
 - case-strategy-practice-12-zero-loss
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 **事迹**：冉鹏亲自下场做美区 TikTok 店卖 T 恤。"我是一单都没卖出去啊"
 **教训**：超出自身资源和能力的边界→战略的动态适配有边界。顶尖战略顾问≠万能创业者

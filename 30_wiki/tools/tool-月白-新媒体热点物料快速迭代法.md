@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-AIGC产品白底图制作]]"
-  - "[[tool-月白-封面情绪转化法]]"
-  - "[[tool-月白-正向反馈强化AI生成]]"
-  - "[[tool-月白-AIGC人群画像驱动详情页规划]]"
-  - "[[tool-月白-AI生成图片排版控制-尺寸优先法]]"
+- '[[tool-月白-AIGC产品白底图制作]]'
+- '[[tool-月白-封面情绪转化法]]'
+- '[[tool-月白-正向反馈强化AI生成]]'
+- '[[tool-月白-AIGC人群画像驱动详情页规划]]'
+- '[[tool-月白-AI生成图片排版控制-尺寸优先法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：新媒体热点物料快速迭代法
 

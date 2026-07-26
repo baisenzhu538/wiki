@@ -1,5 +1,4 @@
 ---
-
 id: dk-demand-pitfall-tier4-housekeeping
 title: 踩坑：四线家政——天花板误判。普遍性高≠能做大
 type: dk
@@ -14,16 +13,20 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - "[[yt-demand-fake-demand-detection]]"
-  - "[[dk-demand-misjudgment-rate]]"
-  - "[[dk-demand-feature-stacking]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[yitang-domain-digest]]"
-  - "[[case-demand-tier4-housekeeping]]"
+- '[[yt-demand-fake-demand-detection]]'
+- '[[dk-demand-misjudgment-rate]]'
+- '[[dk-demand-feature-stacking]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yitang-domain-digest]]'
+- '[[case-demand-tier4-housekeeping]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 踩坑：四线家政——天花板误判。普遍性高≠能做大

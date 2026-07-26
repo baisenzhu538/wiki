@@ -6,12 +6,13 @@ status: active
 domain:
 - kdo
 author: 黄药师
-source_context: KDO infrastructure decision — internal design record （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
+source_context: KDO infrastructure decision — internal design record （原 legacy，已从
+  title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
 - pending_archive:src_20260503_52ae08ba-kdo_product_design_agent_final
 - src_20260503_52ae08ba-kdo_product_design_agent_final
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 created_at: 2026-06-15
 confidence: 0.7
 trust_level: medium
@@ -27,8 +28,11 @@ related:
 - framework-yitang-shishi-qiushi
 - framework-yitang-jiefang-sixiang
 - system-yitang-Y-model-os
-- tool-agent-spec-yitang-Y-model-coach
-  - dk-agent-promise-verification
+- tool-agent-spec-yitang-Y-model-coach - dk-agent-promise-verification
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 # Agent 原生知识卡设计规范 v2
 

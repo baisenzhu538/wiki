@@ -27,6 +27,9 @@ tags:
 - research
 - ai-tools
 - data-collection
+- audience:executor
+- scene:execution
+- skill-level:advanced
 created_at: '2026-06-21'
 updated_at: '2026-07-04'
 author: 黄药师

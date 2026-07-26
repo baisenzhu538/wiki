@@ -28,6 +28,10 @@ diagnostic_signals:
   follow-up: 用本卡逐要素走操作步骤
 quality_labels:
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 表达力火箭模型·执行武器库

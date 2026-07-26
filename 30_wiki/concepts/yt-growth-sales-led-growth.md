@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-growth-sales-led-growth
@@ -18,13 +17,13 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[tool-月白-A-B双轨反推模式选择]]"
-  - "[[tool-城市合伙人模式复制能力]]"
-  - "[[tool-月白-创作与执行双模式切换]]"
-  - "[[tool-创始人二当家分工协作模式]]"
-  - "[[tool-马易-平台模式验证法]]"
-  - "[[tool-现场建模式萃取笔记]]"
-  - "[[互联网医院模式深度调研报告]]"
+- '[[tool-月白-A-B双轨反推模式选择]]'
+- '[[tool-城市合伙人模式复制能力]]'
+- '[[tool-月白-创作与执行双模式切换]]'
+- '[[tool-创始人二当家分工协作模式]]'
+- '[[tool-马易-平台模式验证法]]'
+- '[[tool-现场建模式萃取笔记]]'
+- '[[互联网医院模式深度调研报告]]'
 diagnostic_signals:
 - framework_lens: 销售驱动增长——高客单价产品需要销售团队驱动增长
   follow_up_question: 你的客单价多少？销售周期多长？销售团队的人均产出是多少？
@@ -36,7 +35,10 @@ diagnostic_signals:
   follow_up_question: 你的销售是否可复制？销售流程是否标准化？
 - framework_lens: 销售驱动增长——销售成本需要优化，CAC要可控
   follow_up_question: 你的销售CAC是多少？销售效率（人均产出）是多少？
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 销售驱动增长：SLG模式

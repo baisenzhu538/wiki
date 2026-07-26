@@ -14,12 +14,16 @@ source_refs:
 - capability/duanwangye/prezi
 author: 段王爷（南帝）
 adapted_from: infinite-canvas-prezi (王欢, huanwang.org)
-reviewed_by: ~
-review_date: ~
+reviewed_by: null
+review_date: null
 created: '2026-07-20'
 related:
-- "[[skill-duanwangye-feishu-publishing]]"
-- "[[skill-duanwangye-kdo-pipeline]]"
+- '[[skill-duanwangye-feishu-publishing]]'
+- '[[skill-duanwangye-kdo-pipeline]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 段王爷·Prezi 无限画布演示发布

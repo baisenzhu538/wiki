@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-竞品图精益替换法]]"
-- "[[tool-月白-PPT风格锁定工作流]]"
-- "[[tool-月白-PPT内容框架AIGC生成法]]"
-- "[[tool-月白-线下门店设计复杂度评估]]"
-- "[[tool-月白-AIGC橱窗陈列设计流程]]"
+- '[[tool-月白-竞品图精益替换法]]'
+- '[[tool-月白-PPT风格锁定工作流]]'
+- '[[tool-月白-PPT内容框架AIGC生成法]]'
+- '[[tool-月白-线下门店设计复杂度评估]]'
+- '[[tool-月白-AIGC橱窗陈列设计流程]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：服务体验类去AI感设计
 

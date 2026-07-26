@@ -1,5 +1,4 @@
 ---
-
 id: case-nine-pm-livestream-survey
 title: 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选
 type: case
@@ -26,19 +25,21 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[tool-从案例中学习]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[case-科学决策-深度案例02]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
+- '[[yitang-domain-digest]]'
+- '[[tool-从案例中学习]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选

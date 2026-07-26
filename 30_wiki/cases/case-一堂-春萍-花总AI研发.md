@@ -39,6 +39,10 @@ quality_labels:
 - evidence
 - actionable
 - insight
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 
 # 花总 AI 研发：从拆解自己到 AI+基本功，一个技术团队的五年修炼

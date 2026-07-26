@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-ef-001-sn74lvc2g07-open-drain
 title: 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
 type: dk
@@ -15,15 +13,19 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
-- "[[dk-ef-004-missing-diagnostic-firmware]]"
-- "[[dk-ef-002-bom-version-async]]"
-- "[[dk-ef-003-hand-soldering-bom-divergence]]"
-- "[[dk-ef-004-missing-diagnostic-firmware]]"
-pipeline:
+- '[[dk-ef-004-missing-diagnostic-firmware]]'
+- '[[dk-ef-002-bom-version-async]]'
+- '[[dk-ef-003-hand-soldering-bom-divergence]]'
+- '[[dk-ef-004-missing-diagnostic-firmware]]'
+pipeline: null
 author: 黄药师
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 # 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
 

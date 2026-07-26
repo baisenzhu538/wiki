@@ -39,6 +39,10 @@ tcp_default_mode: 研究复盘（Research）：基于漏斗数据和历史同期
 tcp_switch_trigger: 用户要求直接输出改进动作/跟进计划 → 切换为 P；用户要求解释漏斗模型逻辑 → 切换为 T；用户只给模糊数据 → 切换为
   C，先诊断数据充足度
 tcp_session_opening: 我本次以 **R（Research/研究）** 身份与你协作：基于你的线索漏斗数据，诊断哪一级转化率偏离红线、责任归属是谁，并反向推算下一周期需补充的线索量。请先提供各级线索数量、转化率和责任人。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 线索漏斗健康度诊断 Agent Spec
 

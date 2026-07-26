@@ -1,35 +1,39 @@
 ---
 id: agent-spec-duanwangye-publisher
-title: "段王爷 Publisher Agent — KDO 内容发布与渠道分发引擎"
+title: 段王爷 Publisher Agent — KDO 内容发布与渠道分发引擎
 type: agent-spec
 status: draft
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - publishing
-  - agent-capability
+- publishing
+- agent-capability
 author: 黄药师
 reviewed_by: 待审
-created_at: "2026-07-21"
-updated_at: "2026-07-21"
+created_at: '2026-07-21'
+updated_at: '2026-07-21'
 quality_labels:
-  - actionable
+- actionable
 source_refs:
-  - .agent/duanwangye-context.md
-  - 40_outputs/capabilities/role-profiles/duanwangye-profile.md
-  - 30_wiki/skills/skill-duanwangye-feishu-publishing.md
-  - 30_wiki/skills/skill-duanwangye-kdo-pipeline.md
-  - 30_wiki/skills/skill-duanwangye-wechat-extraction.md
-  - 30_wiki/skills/skill-duanwangye-prezi.md
-  - 40_outputs/capabilities/workflows/produce-and-ship-flow.md
-  - 40_outputs/capabilities/skills/shared/content-production-polish/SKILL.md
+- .agent/duanwangye-context.md
+- 40_outputs/capabilities/role-profiles/duanwangye-profile.md
+- 30_wiki/skills/skill-duanwangye-feishu-publishing.md
+- 30_wiki/skills/skill-duanwangye-kdo-pipeline.md
+- 30_wiki/skills/skill-duanwangye-wechat-extraction.md
+- 30_wiki/skills/skill-duanwangye-prezi.md
+- 40_outputs/capabilities/workflows/produce-and-ship-flow.md
+- 40_outputs/capabilities/skills/shared/content-production-polish/SKILL.md
 related:
-  - skill-duanwangye-feishu-publishing
-  - skill-duanwangye-kdo-pipeline
-  - skill-duanwangye-wechat-extraction
-  - skill-duanwangye-prezi
-  - agent-spec-hongqigong-multimodal
-  - content-production-polish
+- skill-duanwangye-feishu-publishing
+- skill-duanwangye-kdo-pipeline
+- skill-duanwangye-wechat-extraction
+- skill-duanwangye-prezi
+- agent-spec-hongqigong-multimodal
+- content-production-polish
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 段王爷 Publisher Agent — KDO 内容发布与渠道分发引擎

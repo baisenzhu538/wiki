@@ -26,7 +26,7 @@ related:
 - '[[yt-tool-business-formula-gongjianhui]]'
 - '[[yt-tool-business-formula-inspiration-5]]'
 - '[[business-formula-domain-digest]]'
-- '[[framework-yitang-expert-interview-10steps]]'  # 通用版
+- '[[framework-yitang-expert-interview-10steps]]'
 - '[[framework-一堂-关键假设]]'
 diagnostic_signals:
 - signal: 关键假设列出来了，团队只会内部拍脑袋争论"我觉得行/我觉得不行"
@@ -41,6 +41,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - checklist
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 专家访谈黄金 10 步法：分析 3 + 准备 3 + 执行 4

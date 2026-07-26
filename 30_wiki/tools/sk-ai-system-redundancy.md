@@ -1,5 +1,4 @@
 ---
-
 id: sk-ai-system-redundancy
 title: 技能：系统冗余度快速检查清单
 type: tool
@@ -11,31 +10,26 @@ source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260614_fb753683-世界发展-偶然与必然讨论.md
-wiki_refs:
-
-definition_of_done:
-
-
+wiki_refs: null
+definition_of_done: null
 tags:
-
-
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
-tools_required:
-
+tools_required: null
 prerequisite_skills: []
 related:
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-制作行业化要素检查清单]]"
-  - "[[tool-水水-保持系统冗余]]"
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  
+- '[[ai-collaboration-domain-digest]]'
+- '[[tool-制作行业化要素检查清单]]'
+- '[[tool-水水-保持系统冗余]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
-diagnostic_signals:
-
+diagnostic_signals: null
 ---
 
 # 技能：系统冗余度快速检查清单

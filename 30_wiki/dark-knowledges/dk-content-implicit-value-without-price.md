@@ -7,31 +7,34 @@ status: reviewed
 source_person: 升华 / 大馨战队
 source_context: 大馨战队拆解高客单/知识付费短视频时，升华提出：好的转化内容全文不提课程价格，但处处暗示“我有学员、有方法、有结果”。
 source_refs:
-  - "00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md"
+- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 domain:
-  - content-production
-  - business-strategy
-  - entrepreneur
-created_at: "2026-07-02"
-updated_at: "2026-07-02"
+- content-production
+- business-strategy
+- entrepreneur
+created_at: '2026-07-02'
+updated_at: '2026-07-02'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-02"
+review_date: '2026-07-02'
 trust_level: medium
 confidence: 0.85
 related:
-  - "[[framework-brand-three-degree]]"
-  - "[[tool-shortvideo-six-dimension-deconstruction]]"
-  - "[[case-daxin-team-content-training-camp]]"
-  - "[[framework-content-business-six-step]]"
-  - "[[framework-founder-ip-three-positioning]]"
+- '[[framework-brand-three-degree]]'
+- '[[tool-shortvideo-six-dimension-deconstruction]]'
+- '[[case-daxin-team-content-training-camp]]'
+- '[[framework-content-business-six-step]]'
+- '[[framework-founder-ip-three-positioning]]'
 tags:
-  - "#source_type/workflow"
-  - "#content-production"
-  - "#sales"
+- '#source_type/workflow'
+- '#content-production'
+- '#sales'
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 quality_labels:
-  - actionable
-  - validated
+- actionable
+- validated
 ---
 
 # 全文不提价格，但处处暗示价值

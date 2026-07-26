@@ -1,5 +1,4 @@
 ---
-
 id: dk-p19-quote-yaml
 title: P-19：花引号被YAML误解析为字符串定界符
 type: dk
@@ -14,11 +13,11 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
-  - "[[kdo-yaml-frontmatter-safety]]"
-  - "[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]"
-  - "[[dk-p18-yaml-parser]]"
-  - "[[proposal-yaml-frontmatter-standardization]]"
-  - "[[dk-f13-handwritten-yaml-parser]]"
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+- '[[dk-p18-yaml-parser]]'
+- '[[proposal-yaml-frontmatter-standardization]]'
+- '[[dk-f13-handwritten-yaml-parser]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -39,7 +38,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown# P-19：花引号被YAML误解析为字符串定界符
-
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述 / 核心洞察

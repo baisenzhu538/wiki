@@ -1,33 +1,33 @@
 ---
-
 domain:
 - yitang
-
-
-
 id: yt-foresight-model-taxonomy
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: beginner
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-10
-reviewed_by: "洪七公"
+reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 status: enriched
 updated_at: '2026-07-09'
 source_refs:
-  - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
+- 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 related:
-- "[[framework-一堂-机会预判]]"
-- "[[yt-foresight-business-spectrum]]"
-- "[[tool-一堂-机会预判-案例预判]]"
+- '[[framework-一堂-机会预判]]'
+- '[[yt-foresight-business-spectrum]]'
+- '[[tool-一堂-机会预判-案例预判]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 预判模型分类
 

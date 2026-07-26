@@ -50,6 +50,10 @@ quality_labels:
 - principle
 - insight
 - anti-pattern
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 相关不等于因果：三种伪因果模式与聪明下属反噬规律

@@ -27,6 +27,10 @@ related:
 - '[[master-systems-thinking]]'
 - '[[personal-growth-complex-systems]]'
 - yt-barrier-supply-chain
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 **不是做产品，是建生态**：丰田不只造车——供应链伙伴形成深度绑定，对手难以复制
 **竞争优势三层**：

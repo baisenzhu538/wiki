@@ -26,6 +26,10 @@ diagnostic_signals:
   follow-up: 后续补全
 quality_labels:
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 暗时间利用 (Dark Time Harvesting)
 

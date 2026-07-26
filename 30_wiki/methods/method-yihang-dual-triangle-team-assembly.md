@@ -16,8 +16,12 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[yt-decision-y-model]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[yt-decision-y-model]]'
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 双三角分工拼图——推翻"产品+业务+程序员"，凑齐三个角

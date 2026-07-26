@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-channel-scan-cheat-sheet
 type: tool
 title: 渠道扫描小抄：线上/线下/转化/推荐获客清单
@@ -13,11 +12,11 @@ author: 老顽童
 reviewed_by: pending
 created_at: 2026-06-27
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
-updated_at: "2026-06-30T16:07:51+00:00"
+- actionable
+- cited
+- quality
+- validated
+updated_at: '2026-06-30T16:07:51+00:00'
 source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-小抄-01_vlm_desc.md
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-小抄-02_vlm_desc.md
@@ -26,15 +25,19 @@ source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-小抄-05_vlm_desc.md
 source_person: 一堂实验室
 related:
-- "[[framework-yitang-channel-exploration-4step]]"
-- "[[tool-yitang-channel-scoring-matrix]]"
-- "[[tool-yitang-industry-channel-arsenal-index]]"
-- "[[tool-yitang-referral-channel-optimization]]"
-- "[[tool-区分获客渠道计算单元roi]]"
-- "[[yt-unit-model-overview]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-yitang-growth-flywheel]]"
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[tool-yitang-channel-scoring-matrix]]'
+- '[[tool-yitang-industry-channel-arsenal-index]]'
+- '[[tool-yitang-referral-channel-optimization]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[yt-unit-model-overview]]'
+- '[[framework-lean-abcd-model]]'
+- '[[framework-yitang-growth-flywheel]]'
 review_date: '2026-06-28'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 

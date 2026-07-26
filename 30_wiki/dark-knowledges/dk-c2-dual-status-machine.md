@@ -1,5 +1,4 @@
 ---
-
 id: dk-c2-dual-status-machine
 title: C-2：Schema status 字段混用两个状态机→字段值互相污染
 type: dk
@@ -14,15 +13,15 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
-- "[[kdo-ec-industrialization-migration-proposal]]"
-- "[[kdo-protocol-implementation-roadmap]]"
-- "[[plan_20260503_f3e9a2b1-improvement-plan]]"
-- "[[dk-f10-broken-source-refs]]"
-- "[[dk-c4-selfcheck-superseded]]"
-- "[[dk-c10-batch-tool-no-dry-run]]"
-- "[[dk-p18-yaml-parser]]"
-- "[[kdo-yaml-frontmatter-safety]]"
-- "[[master-systems-thinking]]"
+- '[[kdo-ec-industrialization-migration-proposal]]'
+- '[[kdo-protocol-implementation-roadmap]]'
+- '[[plan_20260503_f3e9a2b1-improvement-plan]]'
+- '[[dk-f10-broken-source-refs]]'
+- '[[dk-c4-selfcheck-superseded]]'
+- '[[dk-c10-batch-tool-no-dry-run]]'
+- '[[dk-p18-yaml-parser]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[master-systems-thinking]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -33,16 +32,23 @@ trust_level: low
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 同一个 `status` 字段名被两个独立状态机共用：wiki 页面用编译进度状态机，decision.yaml 用审批流程状态机
-  follow_up_question: 先确认文件类型：若是 `.md` 则 `enriched/superseded` 合法；若是 `decision.yaml` 则属违规。是否在 schema 注释中显式声明了双状态机？
+  follow_up_question: 先确认文件类型：若是 `.md` 则 `enriched/superseded` 合法；若是 `decision.yaml`
+    则属违规。是否在 schema 注释中显式声明了双状态机？
 - signal: src_unknown
   framework_lens: 脚本把单一状态语义硬编码到所有文件类型，没有区分 frontmatter 与 decision 文件的状态机
-  follow_up_question: 把脚本改为按文件类型分支；为两种状态机分别定义枚举常量；为过滤逻辑补单元测试，覆盖 enriched、superseded、stable、needs-review 等边界值
+  follow_up_question: 把脚本改为按文件类型分支；为两种状态机分别定义枚举常量；为过滤逻辑补单元测试，覆盖 enriched、superseded、stable、needs-review
+    等边界值
 - signal: src_unknown
   framework_lens: 这是归因偏差：把设计冲突（两个状态机共用字段名）误判为执行松懈（schema 写了但没严格执行）
   follow_up_question: 重新审视系统中是否真的只有一个状态机；若存在两条流水线，必须拆分字段名或在 schema 中显式保留双枚举并注明适用范围
 - signal: src_unknown
   framework_lens: 外部集成未被告知 `status` 字段的双重语义，按单一枚举解析必然报错
-  follow_up_question: 在对外接口文档中写明 `status` 的双重语义和两张取值表；考虑对外暴露拆分后的字段（如 `compile_status` / `approval_status`）# C-2：Schema status 字段混用两个状态机→字段值互相污染
+  follow_up_question: 在对外接口文档中写明 `status` 的双重语义和两张取值表；考虑对外暴露拆分后的字段（如 `compile_status`
+    / `approval_status`）# C-2：Schema status 字段混用两个状态机→字段值互相污染
+tags:
+- audience:executor
+- scene:reference
+- skill-level:beginner
 ---
 ## 原始表述
 

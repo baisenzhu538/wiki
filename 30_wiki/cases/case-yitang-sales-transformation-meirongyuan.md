@@ -9,46 +9,49 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - business-strategy
-  - entrepreneur
+- yitang
+- business-strategy
+- entrepreneur
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），美容院连锁 To C 门店改造案例
 source_refs:
-  - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
-  - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
-  - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
-  - 00_inbox/销售专题/_processed/销售体系之序-案例-美容院-客户分层_vlm.md
-  - 00_inbox/销售专题/_processed/销售体系之序-案例-美容院-销售过程拆解_vlm.md
-  - 00_inbox/销售专题/_processed/销售体系之序-案例-美容院-激励机制调整_vlm.md
+- 00_inbox/销售专题/_processed/销售专题_整合笔记.md
+- 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
+- 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
+- 00_inbox/销售专题/_processed/销售体系之序-案例-美容院-客户分层_vlm.md
+- 00_inbox/销售专题/_processed/销售体系之序-案例-美容院-销售过程拆解_vlm.md
+- 00_inbox/销售专题/_processed/销售体系之序-案例-美容院-激励机制调整_vlm.md
 related:
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[framework-yitang-channel-exploration-4step]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[yt-management-goal-management]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
-
-  - "[[case-一堂-触点篇案例库]]"
-  - "[[case-一堂-动力篇案例库]]"
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[yt-management-goal-management]]'
+- '[[framework-yitang-nine-layer-deep-dig]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[case-yitang-sales-transformation-tuliaogongsi]]'
+- '[[case-一堂-触点篇案例库]]'
+- '[[case-一堂-动力篇案例库]]'
 diagnostic_signals:
-  - signal: 总部新目标拆不到门店/客户，店长不配合填表
-    framework_lens: 销售管理 / 组织协同
-    follow_up_question: 门店抗拒的是填表本身，还是目标与激励没有与门店利益绑定？
-  - signal: 线上渠道投放有线索但到店转化率低
-    framework_lens: 渠道 / 过程拆解
-    follow_up_question: 是否已把线上咨询到到店的全旅程拆成关键节点，并识别响应时效是否为核心瓶颈？
-  - signal: 部门激励只看单一环节，销售相互甩锅
-    framework_lens: 激励设计 / 利益对齐
-    follow_up_question: 激励是否覆盖了「到店—成交—复购」全链路，而不是只奖励前端或后端？
+- signal: 总部新目标拆不到门店/客户，店长不配合填表
+  framework_lens: 销售管理 / 组织协同
+  follow_up_question: 门店抗拒的是填表本身，还是目标与激励没有与门店利益绑定？
+- signal: 线上渠道投放有线索但到店转化率低
+  framework_lens: 渠道 / 过程拆解
+  follow_up_question: 是否已把线上咨询到到店的全旅程拆成关键节点，并识别响应时效是否为核心瓶颈？
+- signal: 部门激励只看单一环节，销售相互甩锅
+  framework_lens: 激励设计 / 利益对齐
+  follow_up_question: 激励是否覆盖了「到店—成交—复购」全链路，而不是只奖励前端或后端？
 created_at: 2026-07-02
 updated_at: 2026-07-02
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：美容院连锁销售体系改造——从总部门店冲突到新客转化率提升
 

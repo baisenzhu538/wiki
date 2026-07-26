@@ -40,6 +40,10 @@ diagnostic_signals:
 quality_labels:
 - principle
 - insight
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 双目标法：合格线保底 + 优秀线冲刺，一条目标带两种士气

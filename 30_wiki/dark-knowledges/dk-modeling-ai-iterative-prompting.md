@@ -1,14 +1,9 @@
 ---
-
 id: dk-modeling-ai-iterative-prompting
 title: AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
 type: dk
 dark_knowledge_type: pattern
-diagnostic_signals:
-
-
-
-
+diagnostic_signals: null
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
@@ -19,8 +14,8 @@ domain:
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI Skill 工程指南产出过程）
 quality_labels:
-  - quality
-  - validated
+- quality
+- validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -29,14 +24,12 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.88
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
-  
-  
-  
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
 tags:
-
-
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述 / 核心洞察

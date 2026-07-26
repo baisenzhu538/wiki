@@ -47,6 +47,10 @@ related:
 - '[[lean-startup-domain-digest]]'
 created_at: 2026-07-02
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # AI 交付物打磨循环：从模糊需求到 60 分可用版本
 

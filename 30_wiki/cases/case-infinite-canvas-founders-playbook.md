@@ -1,36 +1,39 @@
 ---
 id: case-infinite-canvas-founders-playbook
-title: "60镜头《创始人手册》：Claude Blog长文→Prezi式创业旅程画布"
+title: 60镜头《创始人手册》：Claude Blog长文→Prezi式创业旅程画布
 type: case
 status: reviewed
 confidence: 0.85
 trust_level: medium
 domain:
-  - content-production
+- content-production
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-21"
+review_date: '2026-07-21'
 grade: A-
-created_at: "2026-07-21"
-updated_at: "2026-07-21"
+created_at: '2026-07-21'
+updated_at: '2026-07-21'
 quality_labels:
-  - cited
+- cited
 diagnostic_signals:
-  - signal: "42MB单文件加载很慢"
-    lens: 全内联导致文件过大
-    follow_up: 后续做按需加载
-  - signal: "60镜头观众跟不上"
-    lens: 镜头过多停留时间不足
-    follow_up: 控制在40-50镜头
-
+- signal: 42MB单文件加载很慢
+  lens: 全内联导致文件过大
+  follow_up: 后续做按需加载
+- signal: 60镜头观众跟不上
+  lens: 镜头过多停留时间不足
+  follow_up: 控制在40-50镜头
 source_refs:
-  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L281-L326"
+- 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L281-L326
 related:
-  - concept-spatial-narrative-design
-  - tool-presentation-quality-gate-pipeline
-  - framework-一堂-表达力火箭模型
-  - framework-yitang-case-crafting-four-step
-  - dk-spatial-narrative-pitfalls
+- concept-spatial-narrative-design
+- tool-presentation-quality-gate-pipeline
+- framework-一堂-表达力火箭模型
+- framework-yitang-case-crafting-four-step
+- dk-spatial-narrative-pitfalls
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 60镜头《创始人手册》：Claude Blog长文→Prezi式创业旅程画布

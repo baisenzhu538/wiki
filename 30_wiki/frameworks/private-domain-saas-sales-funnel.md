@@ -1,38 +1,47 @@
 ---
-
 id: private-domain-saas-sales-funnel
-title: "私域 SaaS 销售四步法"
+title: 私域 SaaS 销售四步法
 type: framework
 status: stable
 domain:
-  - SaaS
-  - 私域电商
-  - 销售流程
+- SaaS
+- 私域电商
+- 销售流程
 confidence: 0.8
 trust_level: medium
 diagnostic_signals:
-  - {'signal': '销售流程是否完整覆盖顶层设计到招商落地四个阶段', 'framework_lens': '漏斗完整性 / 阶段闭环', 'follow_up_question': '是否存在阶段跳跃或交付物缺失？'}
-  - {'signal': '模式设计是否经过合规审查', 'framework_lens': '合规前置 / 风险隔离', 'follow_up_question': '分销层级与佣金结构是否触碰法律红线？'}
-  - {'signal': '系统交付形态是否与前期承诺一致', 'framework_lens': '承诺一致性 / 交付对齐', 'follow_up_question': '源码/SaaS/定制边界是否在合同中明确？'}
+- signal: 销售流程是否完整覆盖顶层设计到招商落地四个阶段
+  framework_lens: 漏斗完整性 / 阶段闭环
+  follow_up_question: 是否存在阶段跳跃或交付物缺失？
+- signal: 模式设计是否经过合规审查
+  framework_lens: 合规前置 / 风险隔离
+  follow_up_question: 分销层级与佣金结构是否触碰法律红线？
+- signal: 系统交付形态是否与前期承诺一致
+  framework_lens: 承诺一致性 / 交付对齐
+  follow_up_question: 源码/SaaS/定制边界是否在合同中明确？
 source_refs:
 - 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
 - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
 - src_unknown
 quality_labels:
-  - cited
-  - principle
-  - quality
-  - validated
+- cited
+- principle
+- quality
+- validated
 created_at: 2026-06-13
 updated_at: 2026-06-13
 author: unknown
-reviewed_by: "欧阳锋"
+reviewed_by: 欧阳锋
 related:
-  - "[[yt-growth-scaling-pitfalls]]"
-  - "[[source-code-delivery-model]]"
-  - "[[tool-yitang-pc-web-data]]"
-  - "[[七件事集团]]"
-  - "[[yt-personal-scientific-expression]]"
+- '[[yt-growth-scaling-pitfalls]]'
+- '[[source-code-delivery-model]]'
+- '[[tool-yitang-pc-web-data]]'
+- '[[七件事集团]]'
+- '[[yt-personal-scientific-expression]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 # 私域 SaaS 销售四步法
 

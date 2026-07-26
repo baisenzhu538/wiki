@@ -1,5 +1,4 @@
 ---
-
 id: dk-demand-pitfall-restaurant-hiring
 title: 踩坑：麦家小馆——频次高估。需求强烈≠高频
 type: dk
@@ -14,16 +13,20 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
-  - "[[yt-demand-fake-demand-detection]]"
-  - "[[dk-demand-misjudgment-rate]]"
-  - "[[dk-demand-feature-stacking]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[yitang-domain-digest]]"
-  - "[[case-demand-restaurant-hiring]]"
+- '[[yt-demand-fake-demand-detection]]'
+- '[[dk-demand-misjudgment-rate]]'
+- '[[dk-demand-feature-stacking]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yitang-domain-digest]]'
+- '[[case-demand-restaurant-hiring]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 踩坑：麦家小馆——频次高估。需求强烈≠高频

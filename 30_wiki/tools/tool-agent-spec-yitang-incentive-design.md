@@ -38,6 +38,10 @@ tcp_default_mode: 咨询诊断（Consult）：基于业务阶段、目标类型�
 tcp_switch_trigger: 用户要求直接生成可发布的激励方案/计算公式 → 切换为 P；用户要求解释六维激励模型 → 切换为 T；用户要求对比多阶段/多行业激励规律
   → 切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你设计销售激励方案草案。涉及薪酬、提成、法律判断的内容需 HR/财务复核，本输出仅供参考。
+tags:
+- audience:manager
+- scene:execution
+- skill-level:intermediate
 ---
 # 销售激励方案设计辅助 Agent Spec
 

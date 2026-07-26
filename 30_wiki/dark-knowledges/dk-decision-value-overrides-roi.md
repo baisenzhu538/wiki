@@ -23,14 +23,17 @@ review_verdict: pass
 review_grade: B-
 review_notes: 补审（原reviewed_by黄药师，self-review违反L0铁律#4）。洞察有价值（Y模型在价值观驱动场景下失效），但source_refs和tags为src_unknown，需补真实引用。
 related:
-- "[[yt-decision-y-model]]"
-- "[[yt-decision-canvas]]"
-- "[[master-decision-hygiene]]"
+- '[[yt-decision-y-model]]'
+- '[[yt-decision-canvas]]'
+- '[[master-decision-hygiene]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:reference
+- skill-level:advanced
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 价值观权重检测

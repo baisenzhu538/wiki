@@ -6,7 +6,7 @@ status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-08
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 created_at: 2026-07-08
@@ -33,6 +33,10 @@ diagnostic_signals:
   follow-up: 逐条过换档清单，每条必须有验证证据
 quality_labels:
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 五步法换档检查清单

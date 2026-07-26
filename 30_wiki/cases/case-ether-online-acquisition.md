@@ -36,6 +36,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 related_skills:
 - src_unknown
 related_concepts:
@@ -44,13 +47,13 @@ related_concepts:
 related_cases:
 - src_unknown
 related:
-- "[[tool-从案例中学习]]"
-- "[[case-科学决策-深度案例06]]"
-- "[[case-科学决策-深度案例02]]"
-- "[[tool-纪浩-案例池构建法]]"
-- "[[case-科学决策-ROI案例03]]"
-- "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
-- "[[case-truman-yitang-foresight]]"
+- '[[tool-从案例中学习]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-truman-yitang-foresight]]'
 created_at: '2026-06-06'
 updated_at: '2026-06-29'
 author: 老顽童

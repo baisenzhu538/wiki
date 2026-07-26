@@ -24,7 +24,7 @@ created_at: '2026-06-09T15:06:23+00:00'
 updated_at: '2026-06-29'
 author: unknown
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
 related:
@@ -33,6 +33,10 @@ related:
 - tool-遵循规模前倾原则设计组织架构
 - tool-使用优先级快筛卡锁定核心矛盾
 - tool-设计对抗效果追踪看板
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：采用滚动预测机制
 

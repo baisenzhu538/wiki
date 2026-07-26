@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-fishbone
 title: 鱼骨图根因分析工具
 type: tool
@@ -14,18 +13,22 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_44_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_48_ocr_text.md
 quality_labels:
-  - actionable
-  - validated
+- actionable
+- validated
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- "[[strategy-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 鱼骨图根因分析工具

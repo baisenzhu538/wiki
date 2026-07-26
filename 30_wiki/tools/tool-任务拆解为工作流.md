@@ -32,6 +32,10 @@ related:
 - '[[tool-渐进式披露上下文]]'
 - '[[tool-demand-iceberg-l3-core-job]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：任务拆解为工作流

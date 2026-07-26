@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-影响力六原则
 title: 一堂影响力六原则：互惠 / 承诺一致 / 社会认同 / 喜好 / 权威 / 稀缺 使用决策表
 type: tool
@@ -51,6 +50,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂影响力六原则：互惠 / 承诺一致 / 社会认同 / 喜好 / 权威 / 稀缺

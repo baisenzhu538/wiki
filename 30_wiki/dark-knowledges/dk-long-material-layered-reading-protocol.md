@@ -31,6 +31,10 @@ quality_labels:
 - principle
 - actionable
 - validated
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 长素材分层读取协议：密度×长度选策略 / 子代理外存+行号锚点 / 三道防线

@@ -32,6 +32,10 @@ related:
 - case-opc-agent-wave1-real-model-testing
 - '[[tool-demand-agent-l4-case-match]]'
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：旅行攻略Agent
 

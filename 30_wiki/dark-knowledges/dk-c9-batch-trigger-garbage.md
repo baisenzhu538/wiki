@@ -1,5 +1,4 @@
 ---
-
 id: dk-c9-batch-trigger-garbage
 title: C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
 type: dk
@@ -14,10 +13,10 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- "[[framework-ci-operating-model]]"
-- "[[tool-ci-implement-phase]]"
-- "[[dk-c8-format-complete-mind-empty]]"
-- "[[master-decision-hygiene]]"
+- '[[framework-ci-operating-model]]'
+- '[[tool-ci-implement-phase]]'
+- '[[dk-c8-format-complete-mind-empty]]'
+- '[[master-decision-hygiene]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -33,7 +32,12 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 格式门禁只检查字段存在性和语法，不检查语义质量；query_triggers 作为 Graph RAG 检索入口，垃圾 trigger
     直接降低卡片可发现性
-  follow_up_question: 抽检 3 张卡的 query_triggers，逐条问'你会这样搜吗？'，有一条不合格就返工# C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
+  follow_up_question: 抽检 3 张卡的 query_triggers，逐条问'你会这样搜吗？'，有一条不合格就返工# C-9：批处理脚本提取
+    query_triggers→格式合法但语义垃圾，真 trigger 被淹没
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 ## 原始表述/核心洞察
 

@@ -19,12 +19,12 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.65
 related:
-- "[[ai-short-drama-plot-three-axes]]"
-- "[[ai-short-drama-conflict-three-axes]]"
+- '[[ai-short-drama-plot-three-axes]]'
+- '[[ai-short-drama-conflict-three-axes]]'
 tags:
-
-
-
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 第一板斧·深渊入局闯难关
   follow_up_question: 主角进入深渊的触发事件是什么？他/她为什么必须闯关而不是逃避？

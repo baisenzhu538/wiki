@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-ai-compound-leverage
 title: AI 加杠杆最大的场景是建模，因为好模型会被反复调用
 type: dk
@@ -15,15 +14,11 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 related:
-  - "[[yitang-domain-digest]]"
-  
-  
-  
-  
+- '[[yitang-domain-digest]]'
 tags:
-
-
-
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
@@ -42,7 +37,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 资产化不等于可用化——模型必须嵌入决策/评审/复盘环节
   follow_up_question: 为模型设计触发条件、使用责任人和调用入口；没有调用场景的模型不值得继续打磨。# AI 加杠杆最大的场景是建模，因为好模型会被反复调用
-
 ---
 
 ## 原始表述

@@ -1,5 +1,4 @@
 ---
-
 id: concept-mckinsey-issue-tree
 title: Issue Tree：问题树拆解
 type: concept
@@ -11,18 +10,18 @@ domain:
 source_person: McKinsey & Company
 source_context: McKinsey 问题解决方法论核心工具，用于将复杂商业问题逐层拆解为可独立分析的子问题
 source_refs:
-  - pending_archive:source material not yet ingested
+- pending_archive:source material not yet ingested
 related:
-  - "[[yt-entrepreneur-five-step-method]]"
-  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
-  - "[[tool-泛产品落地-灵感闪现]]"
-  - "[[yt-decision-y-model]]"
-  - "[[yt-research-osl-framework]]"
-  - "[[concept-mckinsey-mece]]"
-  - "[[concept-mckinsey-hypothesis-driven]]"
-  - "[[concept-minto-pyramid-principle]]"
-  - "[[concept-mckinsey-7s]]"
-  - "[[concept-toyota-5-whys]]"
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[tool-泛产品落地-灵感闪现]]'
+- '[[yt-decision-y-model]]'
+- '[[yt-research-osl-framework]]'
+- '[[concept-mckinsey-mece]]'
+- '[[concept-mckinsey-hypothesis-driven]]'
+- '[[concept-minto-pyramid-principle]]'
+- '[[concept-mckinsey-7s]]'
+- '[[concept-toyota-5-whys]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -44,7 +43,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # Issue Tree：问题树拆解

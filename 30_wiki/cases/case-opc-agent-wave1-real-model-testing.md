@@ -1,5 +1,4 @@
 ---
-
 id: case-opc-agent-wave1-real-model-testing
 title: 案例：OPC 销售智能体 Wave 1 真实模型测试
 type: case
@@ -14,85 +13,88 @@ domain:
 - sales
 - yitang
 source_person: 老顽童
-source_context: OPC 销售智能体军团 #47/#49 产出后，欧阳锋在终审中指出 System Prompt 尚未在真实模型运行，遂启动 #50 Wave 1 实测
+source_context: OPC 销售智能体军团
 source_refs:
 - 60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-testing-wave1.md
 - 60_feedback/agent-traces/2026-07-02/_summary.json
 related:
-  - "[[tool-agent-spec-yitang-customer-segmentation]]"
-  - "[[tool-agent-spec-yitang-value-proposition]]"
-  - "[[tool-agent-spec-yitang-sales-process-tracker]]"
-  - "[[tool-agent-spec-yitang-sales-performance-monitor]]"
-  - "[[tool-agent-spec-yitang-opening-3min]]"
-  - "[[tool-agent-spec-yitang-objection-handler]]"
-  - "[[tool-agent-spec-yitang-self-motivation]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[human-ai-collaboration-double-triangle]]"
-  - "[[framework-kdo-self-attack]]"
-  - "[[case-candy-problem-os-vpn]]"
-  - "[[case-demand-ai-fitness-four-forces]]"
-  - "[[case-demand-dialer]]"
-  - "[[case-demand-elderly-smart-device]]"
-  - "[[case-demand-equestrian-three-tasks]]"
-  - "[[case-demand-financial-literacy]]"
-  - "[[case-demand-indonesia-insurance]]"
-  - "[[case-demand-milkshake-jtbd]]"
-  - "[[case-demand-pharma-bigdata]]"
-  - "[[case-demand-restaurant-hiring]]"
-  - "[[case-demand-rural-5g]]"
-  - "[[case-demand-silver-parenting]]"
-  - "[[case-demand-tier4-housekeeping]]"
-  - "[[case-demand-travel-agent]]"
-  - "[[case-doris-2014-music-streaming-prediction]]"
-  - "[[case-doris-beauty-ecommerce-channel]]"
-  - "[[case-doris-catering-chain-benchmark]]"
-  - "[[case-doris-crossborder-ecommerce-opportunity]]"
-  - "[[case-doris-grab-industry-cognition]]"
-  - "[[case-doris-outbound-travel-community]]"
-  - "[[case-liutao-douyin-team-leader-9m]]"
-  - "[[case-liutao-electric-bike-localization]]"
-  - "[[case-neworiental-prospectus-marketing]]"
-  - "[[case-popmart-prospectus-pricing]]"
-  - "[[case-proya-betaine-skincare-benchmark]]"
-  - "[[case-strategy-cool-boiled-water]]"
-  - "[[case-strategy-edward-jones]]"
-  - "[[case-strategy-longzhong-plan]]"
-  - "[[case-strategy-practice-ranpeng-crossborder]]"
-  - "[[case-strategy-practice-ranpeng-milk-powder]]"
-  - "[[case-strategy-revival-14-gucci]]"
-  - "[[case-xian-franchise-location-decision]]"
-  - "[[case-yitang-ai-time-management-coach]]"
-  - "[[case-yitang-competitor-pricing-intelligence]]"
-  - "[[case-yitang-consumer-offline-channel-decision]]"
-  - "[[case-yitang-doorstep-nail-service-context]]"
-  - "[[case-yitang-doorstep-pet-feeding-trust]]"
-  - "[[case-yitang-elderly-home-roleplay]]"
-  - "[[case-yitang-fake-interview-intelligence]]"
-  - "[[case-yitang-hardware-factory-photo]]"
-  - "[[case-yitang-homestay-reception-design]]"
-  - "[[case-yitang-jtbd-story-formula]]"
-  - "[[case-yitang-luckin-field-research]]"
-  - "[[case-yitang-mahjong-machine-fake-order]]"
-  - "[[case-yitang-mvp-reward-interview-waste]]"
-  - "[[case-yitang-pet-fostering-user-research]]"
-  - "[[case-yitang-sanjieke-benchmark-failure]]"
-  - "[[case-yitang-senior-university-product-design]]"
-  - "[[case-yitang-ski-project-user-as-expert]]"
-  - "[[case-yitang-supplier-security-guard]]"
-  - "[[case-yitang-track-selection-research]]"
-  - "[[case-yitang-travel-receipt-analysis]]"
-  - "[[case-yitang-voice-robot-companion-design]]"
-  - "[[case-zhanglan-amusement-park-undercover]]"
-  - "[[case-zhanglei-furniture-overseas-market-selection]]"
-  - "[[case-zhanglei-nursing-home-family]]"
-  - "[[case-zhanglei-twist-egg-machine-yogurt-nursing]]"
-  - "[[case-婚礼操盘-用户和场景]]"
-  - "[[case-婚礼规划]]"
-  - "[[lean-startup-domain-digest]]"
+- '[[tool-agent-spec-yitang-customer-segmentation]]'
+- '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[tool-agent-spec-yitang-sales-process-tracker]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+- '[[tool-agent-spec-yitang-opening-3min]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[human-ai-collaboration-double-triangle]]'
+- '[[framework-kdo-self-attack]]'
+- '[[case-candy-problem-os-vpn]]'
+- '[[case-demand-ai-fitness-four-forces]]'
+- '[[case-demand-dialer]]'
+- '[[case-demand-elderly-smart-device]]'
+- '[[case-demand-equestrian-three-tasks]]'
+- '[[case-demand-financial-literacy]]'
+- '[[case-demand-indonesia-insurance]]'
+- '[[case-demand-milkshake-jtbd]]'
+- '[[case-demand-pharma-bigdata]]'
+- '[[case-demand-restaurant-hiring]]'
+- '[[case-demand-rural-5g]]'
+- '[[case-demand-silver-parenting]]'
+- '[[case-demand-tier4-housekeeping]]'
+- '[[case-demand-travel-agent]]'
+- '[[case-doris-2014-music-streaming-prediction]]'
+- '[[case-doris-beauty-ecommerce-channel]]'
+- '[[case-doris-catering-chain-benchmark]]'
+- '[[case-doris-crossborder-ecommerce-opportunity]]'
+- '[[case-doris-grab-industry-cognition]]'
+- '[[case-doris-outbound-travel-community]]'
+- '[[case-liutao-douyin-team-leader-9m]]'
+- '[[case-liutao-electric-bike-localization]]'
+- '[[case-neworiental-prospectus-marketing]]'
+- '[[case-popmart-prospectus-pricing]]'
+- '[[case-proya-betaine-skincare-benchmark]]'
+- '[[case-strategy-cool-boiled-water]]'
+- '[[case-strategy-edward-jones]]'
+- '[[case-strategy-longzhong-plan]]'
+- '[[case-strategy-practice-ranpeng-crossborder]]'
+- '[[case-strategy-practice-ranpeng-milk-powder]]'
+- '[[case-strategy-revival-14-gucci]]'
+- '[[case-xian-franchise-location-decision]]'
+- '[[case-yitang-ai-time-management-coach]]'
+- '[[case-yitang-competitor-pricing-intelligence]]'
+- '[[case-yitang-consumer-offline-channel-decision]]'
+- '[[case-yitang-doorstep-nail-service-context]]'
+- '[[case-yitang-doorstep-pet-feeding-trust]]'
+- '[[case-yitang-elderly-home-roleplay]]'
+- '[[case-yitang-fake-interview-intelligence]]'
+- '[[case-yitang-hardware-factory-photo]]'
+- '[[case-yitang-homestay-reception-design]]'
+- '[[case-yitang-jtbd-story-formula]]'
+- '[[case-yitang-luckin-field-research]]'
+- '[[case-yitang-mahjong-machine-fake-order]]'
+- '[[case-yitang-mvp-reward-interview-waste]]'
+- '[[case-yitang-pet-fostering-user-research]]'
+- '[[case-yitang-sanjieke-benchmark-failure]]'
+- '[[case-yitang-senior-university-product-design]]'
+- '[[case-yitang-ski-project-user-as-expert]]'
+- '[[case-yitang-supplier-security-guard]]'
+- '[[case-yitang-track-selection-research]]'
+- '[[case-yitang-travel-receipt-analysis]]'
+- '[[case-yitang-voice-robot-companion-design]]'
+- '[[case-zhanglan-amusement-park-undercover]]'
+- '[[case-zhanglei-furniture-overseas-market-selection]]'
+- '[[case-zhanglei-nursing-home-family]]'
+- '[[case-zhanglei-twist-egg-machine-yogurt-nursing]]'
+- '[[case-婚礼操盘-用户和场景]]'
+- '[[case-婚礼规划]]'
+- '[[lean-startup-domain-digest]]'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：OPC 销售智能体 Wave 1 真实模型测试

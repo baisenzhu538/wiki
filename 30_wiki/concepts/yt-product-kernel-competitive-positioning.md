@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-product-kernel-competitive-positioning
@@ -18,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[tool-Truman-XY-Problem识别与真实问题定位]]"
-  - "[[tool-月白-设计参考图精准定位法]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[tool-Truman-XY-Problem识别与真实问题定位]]'
+- '[[tool-月白-设计参考图精准定位法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 内核竞争定位——缺乏差异化，内核不清晰
   follow_up_question: 用户选择你们而不是竞品，最核心的原因是什么？如果说不出来，说明差异化不够。
@@ -34,7 +33,10 @@ diagnostic_signals:
   follow_up_question: 行业第一的定位是什么？在哪个维度上第一？
 - framework_lens: 内核竞争定位——定位不稳定，用户认知混乱
   follow_up_question: 你们的定位持续多久了？用户是否形成了稳定认知？
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 内核竞争定位：差异化策略

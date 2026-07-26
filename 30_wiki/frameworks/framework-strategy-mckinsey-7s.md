@@ -28,6 +28,10 @@ related:
 - '[[concept-最简单元模型]]'
 - '[[tool-模型组合调用]]'
 - concept-mckinsey-7s
+tags:
+- audience:manager
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 麦肯锡 7S 模型：组织诊断与变革管理
 

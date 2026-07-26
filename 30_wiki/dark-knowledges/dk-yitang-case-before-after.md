@@ -1,27 +1,31 @@
 ---
 id: dk-yitang-case-before-after
-title: "Before-After 对比心法：四维度 + 过去往往有合理性"
+title: Before-After 对比心法：四维度 + 过去往往有合理性
 type: dk
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - content-production
+- content-production
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-20"
-created_at: "2026-07-20"
-updated_at: "2026-07-20"
+review_date: '2026-07-20'
+created_at: '2026-07-20'
+updated_at: '2026-07-20'
 quality_labels:
-  - actionable
-  - insight
+- actionable
+- insight
 source_refs:
-  - "00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt"
-  - "00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt"
+- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt
+- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt
 related:
-  - framework-yitang-case-crafting-four-step
-  - dk-yitang-case-crafting-pitfalls
-  - concept-yitang-case-jiejiaxiuzhen
+- framework-yitang-case-crafting-four-step
+- dk-yitang-case-crafting-pitfalls
+- concept-yitang-case-jiejiaxiuzhen
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # Before-After 对比心法

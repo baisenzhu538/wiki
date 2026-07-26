@@ -1,5 +1,4 @@
 ---
-
 id: dk-level-blindspot-external-feedback
 title: 暗知识：「7-8分幻觉」是结构性盲区——低段位者高估自己，因为没见过高段位的具体打法
 type: dk
@@ -15,16 +14,19 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
@@ -43,7 +45,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 完成 ≠ 深度——段位的标志不是你会用多少工具，而是你能处理多复杂的问题
   follow_up_question: 把你最近一份分析报告中的核心数字改掉一个，整个结论会不会变？如果不会，你只是在填表。
-
 ---
 
 # 暗知识：「7-8 分幻觉」是结构性盲区

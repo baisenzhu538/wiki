@@ -26,21 +26,21 @@ source_refs:
 - 00_inbox/管项目/项目管理-管过程-笔记.txt
 - 00_inbox/管项目/项目管理-做复盘-笔记.txt
 related:
-- "[[framework-yitang-project-abcd-classification]]"
-- "[[framework-yitang-project-plan-design]]"
-- "[[framework-yitang-project-breakdown]]"
-- "[[framework-yitang-project-execution]]"
-- "[[framework-yitang-project-retrospective]]"
-- "[[yt-management-basic-skills]]"
-- "[[yt-management-goal-management]]"
-- "[[yt-decision-y-model]]"
-- "[[yt-personal-time-management]]"
-- "[[yt-entrepreneur-unit-model]]"
-- "[[yt-management-team-knowledge]]"
-- "[[skill-yitang-project-spiral-thinking]]"
-- "[[framework-一堂-苦练基本功-总纲]]"
-- "[[management-domain-digest]]"
-- "[[workflow-yitang-project-four-step-loop]]"
+- '[[framework-yitang-project-abcd-classification]]'
+- '[[framework-yitang-project-plan-design]]'
+- '[[framework-yitang-project-breakdown]]'
+- '[[framework-yitang-project-execution]]'
+- '[[framework-yitang-project-retrospective]]'
+- '[[yt-management-basic-skills]]'
+- '[[yt-management-goal-management]]'
+- '[[yt-decision-y-model]]'
+- '[[yt-personal-time-management]]'
+- '[[yt-entrepreneur-unit-model]]'
+- '[[yt-management-team-knowledge]]'
+- '[[skill-yitang-project-spiral-thinking]]'
+- '[[framework-一堂-苦练基本功-总纲]]'
+- '[[management-domain-digest]]'
+- '[[workflow-yitang-project-four-step-loop]]'
 diagnostic_signals:
 - signal: 团队的项目管理一直在裸跑——没有框架、没有工具、硬上
   lens: 项目管理意识缺失——不知道项目需要科学管理
@@ -55,6 +55,10 @@ quality_labels:
 - principle
 - cited
 - validated
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 
 # 科学项目管理：一堂管项目四步闭环

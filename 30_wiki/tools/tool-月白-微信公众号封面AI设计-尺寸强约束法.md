@@ -25,11 +25,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-AIGC产品白底图制作]]"
-- "[[tool-月白-设计参考图精准定位法]]"
-- "[[tool-月白-封面情绪转化法]]"
-- "[[tool-月白-Token效价比决策法]]"
-- "[[tool-月白-AI生成图片排版控制-尺寸优先法]]"
+- '[[tool-月白-AIGC产品白底图制作]]'
+- '[[tool-月白-设计参考图精准定位法]]'
+- '[[tool-月白-封面情绪转化法]]'
+- '[[tool-月白-Token效价比决策法]]'
+- '[[tool-月白-AI生成图片排版控制-尺寸优先法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：微信公众号封面AI设计-尺寸强约束法
 

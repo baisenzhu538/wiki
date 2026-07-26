@@ -46,6 +46,10 @@ related:
 - '[[framework-deep-work-iceberg]]'
 - '[[framework-time-management-dual-loop-matrix]]'
 - '[[framework-time-management-matrix]]'
+tags:
+- audience:manager
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 一堂五步法在时间管理中的应用：自管理场景的完整实例化

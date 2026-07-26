@@ -22,12 +22,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[yt-decision-y-model]]"
-- "[[yt-decision-canvas]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[yt-decision-width-method]]"
-- "[[yt-decision-depth-ladder]]"
-- "[[yt-prompt-anti-flattery]]"
+- '[[yt-decision-y-model]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-decision-width-method]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-prompt-anti-flattery]]'
 reviewed_by: 周伯通
 source_refs:
 - 10_raw/sources/src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02.md
@@ -61,6 +61,10 @@ diagnostic_signals:
 - framework_lens: AI可能迎合了用户的隐性假设——结构化输出反而强化了确认偏误
   follow_up_question: 你是否先独立估算过关键数字？如果AI数字与你估算差距<10%，强制让AI给出反向情景分析
 author: 老顽童
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 ---
 
 # AI决策Partner对话法

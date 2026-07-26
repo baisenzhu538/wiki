@@ -25,6 +25,10 @@ related:
 - '[[pending_unknown]]'
 - framework-demand-lean-bridge
 - framework-strategy-lean-validation
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 # 张磊 AMA：假设验证实操案例
 

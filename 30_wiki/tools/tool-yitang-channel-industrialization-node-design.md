@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-channel-industrialization-node-design
 type: tool
 title: 工业化生产节点设计工具：把复杂交付变成可控流程
@@ -14,11 +13,11 @@ author: 老顽童
 reviewed_by: pending
 created_at: 2026-06-27
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
-updated_at: "2026-06-30T16:07:51+00:00"
+- actionable
+- cited
+- quality
+- validated
+updated_at: '2026-06-30T16:07:51+00:00'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-笔记.txt
@@ -27,15 +26,19 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-一堂做课工业化_vlm_desc.md
 source_person: Truman
 related:
-- "[[framework-yitang-channel-industrialization]]"
-- "[[framework-yitang-channel-exploration-4step]]"
-- "[[framework-yitang-growth-flywheel]]"
-- "[[tool-区分获客渠道计算单元roi]]"
-- "[[framework-lean-abcd-model]]"
-- "[[yt-unit-model-overview]]"
-- "[[case-yitang-yitang-course-industrialization]]"
-- "[[tool-yitang-channel-scoring-matrix]]"
+- '[[framework-yitang-channel-industrialization]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[framework-lean-abcd-model]]'
+- '[[yt-unit-model-overview]]'
+- '[[case-yitang-yitang-course-industrialization]]'
+- '[[tool-yitang-channel-scoring-matrix]]'
 review_date: '2026-06-28'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 

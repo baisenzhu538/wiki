@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-准备系数法则
 title: 一堂准备系数法则：需要量:准备量与三倍准备、三分之一挑选的经验系数
 type: tool
@@ -36,6 +35,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂准备系数法则：需要量:准备量与三倍准备、三分之一挑选的经验系数

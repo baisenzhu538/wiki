@@ -1,27 +1,31 @@
 ---
 id: tool-yitang-case-fact-review-checklist
-title: "案例事实复盘清单：六类事实 + 自访六问"
+title: 案例事实复盘清单：六类事实 + 自访六问
 type: tool
 status: draft
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - content-production
+- content-production
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-20"
-created_at: "2026-07-20"
-updated_at: "2026-07-20"
+review_date: '2026-07-20'
+created_at: '2026-07-20'
+updated_at: '2026-07-20'
 quality_labels:
-  - actionable
+- actionable
 source_refs:
-  - "00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt"
-  - "00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt"
+- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt
+- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt
 related:
-  - framework-yitang-case-crafting-four-step
-  - framework-yitang-shishi-qiushi
-  - dk-yitang-case-crafting-pitfalls
-  - tool-yitang-case-storyline-selector
+- framework-yitang-case-crafting-four-step
+- framework-yitang-shishi-qiushi
+- dk-yitang-case-crafting-pitfalls
+- tool-yitang-case-storyline-selector
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 案例事实复盘清单：六类事实 + 自访六问

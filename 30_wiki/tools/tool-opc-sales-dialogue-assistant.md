@@ -71,6 +71,10 @@ domain_sources:
 - 30_wiki/frameworks/framework-一堂-12种阻力总表.md
 - 30_wiki/tools/tool-一堂-阻力消除12策小抄.md
 - 30_wiki/frameworks/framework-一堂-动力三曲线.md
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # OPC 销售对话助手智能体
 

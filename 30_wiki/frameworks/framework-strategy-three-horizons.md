@@ -26,6 +26,10 @@ related:
 - '[[tool-水水-管理决策权重偏差]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - tool-strategy-three-horizons
+tags:
+- audience:manager
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 三个地平线：短中长期业务组合管理
 

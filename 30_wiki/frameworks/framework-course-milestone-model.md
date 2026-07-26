@@ -18,16 +18,19 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - "[[case-course-milestone-model]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[case-course-milestone-model]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 source_context: 单一 source 为完整长文档，内容充分支撑 medium trust；待补充第二来源或充分验证后可升 high
 diagnostic_signals:
 - lens: 里程碑缺失

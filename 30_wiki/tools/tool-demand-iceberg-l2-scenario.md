@@ -31,6 +31,10 @@ related:
 - '[[tool-demand-iceberg-l1-user]]'
 - proposal-prompt-injection-infrastructure
 - tool-yitang-research-industry-scan
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # L2粗拆场景问题

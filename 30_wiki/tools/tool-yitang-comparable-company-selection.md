@@ -31,6 +31,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - tool-yitang-research-deep-attribution
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 对标公司选择三步法：加法·减法·三原则
 

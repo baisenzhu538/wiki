@@ -31,6 +31,10 @@ related:
 - yt-model-agent-architecture
 - proposal-ai-domain-mastery-pipeline
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 调研武器库补充：2025-2026年新武器
 

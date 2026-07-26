@@ -21,12 +21,12 @@ source_refs:
 - .agent/wangyuyan-context.md
 - https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[agent-spec-dual-triangle-canvas-filler]]"
-- "[[method-dual-triangle-human-ai-division]]"
-- "[[case-laozhu-hongqigong-human-ai-partner-evolution]]"
-- "[[framework-一堂-基本功-九层金字塔]]"
-- "[[concept-一堂-基本功-刻意练习四要素]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[agent-spec-dual-triangle-canvas-filler]]'
+- '[[method-dual-triangle-human-ai-division]]'
+- '[[case-laozhu-hongqigong-human-ai-partner-evolution]]'
+- '[[framework-一堂-基本功-九层金字塔]]'
+- '[[concept-一堂-基本功-刻意练习四要素]]'
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
@@ -40,6 +40,10 @@ related:
 aliases:
 - 双三角飞轮
 - 飞轮引擎
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 双三角飞轮引擎与制度化运行

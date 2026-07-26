@@ -26,6 +26,10 @@ diagnostic_signals:
   follow-up: 后续补全
 quality_labels:
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 # 重要/紧急四象限（艾森豪威尔矩阵）
 

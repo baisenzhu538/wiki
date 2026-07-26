@@ -28,6 +28,10 @@ quality_labels:
 - validated
 updated_at: '2026-06-29'
 created_at: '2026-06-30'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 # 科学决策宽度：个人·企业·团队
 

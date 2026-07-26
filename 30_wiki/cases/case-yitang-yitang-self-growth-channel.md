@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-yitang-self-growth-channel
 type: case
 title: 案例：一堂自身如何三年增长十倍
@@ -13,10 +12,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
@@ -24,14 +23,18 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-一堂-渠道探索分析图_vlm_desc.md
 source_person: Truman
 related:
-- "[[framework-yitang-channel-exploration-4step]]"
-- "[[framework-yitang-growth-flywheel]]"
-- "[[framework-yitang-channel-industrialization]]"
-- "[[tool-区分获客渠道计算单元roi]]"
-- "[[yt-unit-model-concept]]"
-- "[[framework-lean-abcd-model]]"
-- "[[concept-yitang-channel-lean-validation-bridge]]"
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[framework-yitang-channel-industrialization]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[yt-unit-model-concept]]'
+- '[[framework-lean-abcd-model]]'
+- '[[concept-yitang-channel-lean-validation-bridge]]'
 review_date: '2026-06-28'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 

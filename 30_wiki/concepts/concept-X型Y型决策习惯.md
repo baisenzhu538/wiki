@@ -14,31 +14,35 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-X型Y型决策习惯对比_vlm_desc.md
 related:
-  - '[[concept-AI时代双三角竞争力]]'
-  - '[[concept-ai-native-organization-five-steps]]'
-  - '[[concept-strategy-2024-2026-supplement]]'
-  - '[[concept-两种典型思考习惯]]'
-  - '[[concept-单元模型-学练用]]'
-  - '[[concept-多视角思考]]'
-  - '[[concept-峰终定律]]'
-  - '[[concept-思考深度分级]]'
-  - '[[concept-惊喜公式]]'
-  - '[[concept-最佳实践建模]]'
-  - '[[concept-科学决策宽度]]'
-  - '[[concept-稀缺机会窗口]]'
-  - '[[concept-美好作品想象]]'
-  - yitang-domain-digest
-  - decision-science-domain-digest
-  - pending_unknown
-  - pending_unknown
-  - pending_unknown
-  - yt-decision-y-model
-  - dk-yitang-Y-model-pitfalls
-  - tool-yitang-Y-model-application
-  - framework-yitang-shishi-qiushi
-  - framework-yitang-jiefang-sixiang
+- '[[concept-AI时代双三角竞争力]]'
+- '[[concept-ai-native-organization-five-steps]]'
+- '[[concept-strategy-2024-2026-supplement]]'
+- '[[concept-两种典型思考习惯]]'
+- '[[concept-单元模型-学练用]]'
+- '[[concept-多视角思考]]'
+- '[[concept-峰终定律]]'
+- '[[concept-思考深度分级]]'
+- '[[concept-惊喜公式]]'
+- '[[concept-最佳实践建模]]'
+- '[[concept-科学决策宽度]]'
+- '[[concept-稀缺机会窗口]]'
+- '[[concept-美好作品想象]]'
+- yitang-domain-digest
+- decision-science-domain-digest
+- pending_unknown
+- pending_unknown
+- pending_unknown
+- yt-decision-y-model
+- dk-yitang-Y-model-pitfalls
+- tool-yitang-Y-model-application
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
 review_date: '2026-06-29'
 updated_at: '2026-07-03'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 
 # X型 vs Y型决策习惯

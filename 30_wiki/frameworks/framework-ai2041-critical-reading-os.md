@@ -30,6 +30,10 @@ quality_labels:
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
+tags:
+- audience:executor
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # AI 2041 批判性认知操作系统

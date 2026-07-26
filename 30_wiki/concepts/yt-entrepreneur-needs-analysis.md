@@ -19,13 +19,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[一堂方法论体系总图]]"
-- "[[yitang-course-map]]"
-- "[[yt-system-course-map-lecture]]"
-- "[[yt-entrepreneur-five-step-method]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[yt-entrepreneur-unit-model]]"
-- "[[yt-entrepreneur-lean-validation]]"
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[yt-system-course-map-lecture]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-entrepreneur-unit-model]]'
+- '[[yt-entrepreneur-lean-validation]]'
 review_date: 2026-05-07
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -52,6 +52,10 @@ diagnostic_signals:
   follow_up_question: 这个反馈来自几个用户？他们代表多大的用户群体？
 updated_at: '2026-06-16'
 author: 老顽童
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 需求分析

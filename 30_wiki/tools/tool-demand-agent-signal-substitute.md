@@ -14,16 +14,17 @@ domain:
 - yitang
 - five-step-method
 - ai-collaboration
-source_refs:
+source_refs: null
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-
-
-
 - '[[tool-纪浩-Agent开工检查单制作法]]'
 - web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # Agent L5信号提取

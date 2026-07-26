@@ -1,39 +1,42 @@
 ---
-id: "tool-agent-research-supervisor"
-title: "Agent 调研 Supervisor 模式工具"
-type: "tool"
+id: tool-agent-research-supervisor
+title: Agent 调研 Supervisor 模式工具
+type: tool
 domain:
-  - "AI"
-  - "research"
-  - "agent"
+- AI
+- research
+- agent
 tags:
-  - "多智能体"
-  - "Supervisor模式"
-  - "LangGraph"
-  - "可靠性优先"
-source_person: "LangChain Team（Will Fu-Hinthorn）+ Truman（一堂）"
-source_context: "LangChain 官方 Supervisor 模式 benchmark + 优化方案"
+- 多智能体
+- Supervisor模式
+- LangGraph
+- 可靠性优先
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+source_person: LangChain Team（Will Fu-Hinthorn）+ Truman（一堂）
+source_context: LangChain 官方 Supervisor 模式 benchmark + 优化方案
 source_refs:
-  - "https://www.langchain.com/blog/benchmarking-multi-agent-architectures"
-  - "https://github.com/langchain-ai/langgraph-supervisor-py"
+- https://www.langchain.com/blog/benchmarking-multi-agent-architectures
+- https://github.com/langchain-ai/langgraph-supervisor-py
 related:
-  - "[[framework-yitang-oscar-research]]"
-  - "[[case-demand-travel-agent]]"
-  - "[[case-ji-hao-skills-market]]"
-  - "[[case-truman-ai-partner]]"
-  - "[[case-ban-fei-mao-from-assignment-to-tool]]"
-  - "[[tool-月白-Token智甲比控制法]]"
+- '[[framework-yitang-oscar-research]]'
+- '[[case-demand-travel-agent]]'
+- '[[case-ji-hao-skills-market]]'
+- '[[case-truman-ai-partner]]'
+- '[[case-ban-fei-mao-from-assignment-to-tool]]'
+- '[[tool-月白-Token智甲比控制法]]'
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
+review_date: '2026-06-28'
 quality_labels:
-  - actionable
-  - cited
-  - validated
-created_at: "2026-06-28"
+- actionable
+- cited
+- validated
+created_at: '2026-06-28'
 updated_at: '2026-06-28'
 confidence: 0.78
-trust_level: "medium"
+trust_level: medium
 ---
 
 # Agent 调研 Supervisor 模式工具

@@ -31,6 +31,10 @@ related:
 - '[[dk-yitang-deliberate-practice-common-traps]]'
 - '[[yt-note-deliberate-practice-four-elements]]'
 - case-truman-personal-growth-map-creation
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 无导师反馈自检法：自己给自己找差距
 

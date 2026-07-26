@@ -32,6 +32,10 @@ author: 老顽童（kimi）
 reviewed_by: pending
 confidence: 0.85
 trust_level: medium
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 # 伪因果的两个伪装：自我选择偏差与中间变量，都穿「正相关+符合常识」的外衣
 

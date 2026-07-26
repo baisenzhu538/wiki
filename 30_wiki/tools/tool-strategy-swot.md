@@ -20,6 +20,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - tool-strategy-12-word-test
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # SWOT 分析工具：从四象限到行动策略
 

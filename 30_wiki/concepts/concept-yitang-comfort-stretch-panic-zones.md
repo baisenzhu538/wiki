@@ -4,33 +4,36 @@ type: concept
 title: 练习区域分层：舒适区、拉伸区、困难区、恐慌区
 status: reviewed
 domain:
-  - yitang
-  - personal-growth
-confidence: 0.80
+- yitang
+- personal-growth
+confidence: 0.8
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
 quality_labels:
-  - cited
-  - principle
-  - quality
-  - validated
+- cited
+- principle
+- quality
+- validated
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:
-  - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
-  - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
+- 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
+- 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
 source_person: Truman
 related:
-  - "[[framework-yitang-deliberate-practice-1plus4]]"
-  - "[[tool-yitang-practice-20hour-starter]]"
-  - "[[framework-yitang-three-ring-ability-focus]]"
-  - "[[tool-yitang-feedback-self-check]]"
-  - "[[framework-ai-deliberate-practice-loop]]"
-  - "[[yt-model-deliberate-practice-growth]]"
-  - "[[modeling-personal-practice-loop]]"
-
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[tool-yitang-practice-20hour-starter]]'
+- '[[framework-yitang-three-ring-ability-focus]]'
+- '[[tool-yitang-feedback-self-check]]'
+- '[[framework-ai-deliberate-practice-loop]]'
+- '[[yt-model-deliberate-practice-growth]]'
+- '[[modeling-personal-practice-loop]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 

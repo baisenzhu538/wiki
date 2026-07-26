@@ -30,6 +30,10 @@ diagnostic_signals:
 quality_labels:
 - principle
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 思维模型：项目随时换、模型永生

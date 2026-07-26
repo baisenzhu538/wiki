@@ -6,7 +6,7 @@ status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-09
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 created_at: 2026-07-09
@@ -42,6 +42,10 @@ quality_labels:
 - principle
 - cited
 - validated
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 个人学习方法总框架：IPO×四环闭环

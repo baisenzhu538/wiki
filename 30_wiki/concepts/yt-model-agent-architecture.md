@@ -1,5 +1,4 @@
 ---
-
 id: yt-model-agent-architecture
 confidence: 0.85
 created_at: 2026-05-15
@@ -19,15 +18,15 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - "[[yt-tool-peas-agent-analysis]]"
-  - "[[tool-agent-research-pipeline]]"
-  - "[[case-ai-agent-milestone-design]]"
-  - "[[tool-月白-AI模型选择策略]]"
-  - "[[tool-agent-crawl4ai]]"
-  - "[[dk-单元模型-找单元模型实操难点]]"
-  - "[[concept-最简单元模型]]"
-  - "[[tool-模型组合调用]]"
-  - "[[tool-demand-agent-signal-substitute]]"
+- '[[yt-tool-peas-agent-analysis]]'
+- '[[tool-agent-research-pipeline]]'
+- '[[case-ai-agent-milestone-design]]'
+- '[[tool-月白-AI模型选择策略]]'
+- '[[tool-agent-crawl4ai]]'
+- '[[dk-单元模型-找单元模型实操难点]]'
+- '[[concept-最简单元模型]]'
+- '[[tool-模型组合调用]]'
+- '[[tool-demand-agent-signal-substitute]]'
 review_date: 2026-05-15
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -47,7 +46,10 @@ diagnostic_signals:
   follow_up_question: 这个任务真的需要学习和规划吗？如果只是简单响应，用反射型agent就够了
 updated_at: '2026-06-28'
 author: 老顽童
-
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 智能体架构：PEAS与五层Agent模型

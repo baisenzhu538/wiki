@@ -20,6 +20,10 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[tool-泛产品落地-ROI分析]]'
 - '[[framework-decision-quality-checklist]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：全员涨薪20%的ROI测算
 

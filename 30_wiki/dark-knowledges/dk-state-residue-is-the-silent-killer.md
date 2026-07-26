@@ -1,5 +1,4 @@
 ---
-
 id: dk-state-residue-is-the-silent-killer
 title: 状态残留是自动化系统里最隐蔽的 bug
 type: dk
@@ -11,18 +10,11 @@ domain:
 - ai-collaboration
 source_person: KDO 团队复盘
 source_context: 第27节master系统暗知识精修：P-1/P-2/P-3/P-6/P-14/F-3 共同暴露的状态残留问题
-source_refs:
+source_refs: null
 related:
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[fix-data-curator-parse-bug]]"
-  
-  
-  
-bridges_to:
-
-
-
-
+- '[[ai-collaboration-domain-digest]]'
+- '[[fix-data-curator-parse-bug]]'
+bridges_to: null
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
@@ -39,7 +31,10 @@ diagnostic_signals:
   framework_lens: 僵尸/残留累积
   follow_up_question: 运行结束后，是否有进程、session、临时文件没有被清理？# 状态残留是自动化系统里最隐蔽的 bug
 updated_at: 2026-06-28
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述 / 核心洞察

@@ -55,6 +55,10 @@ related:
 - '[[tool-agent-spec-yitang-sales-toolkit-gap]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
+tags:
+- audience:manager
+- scene:execution
+- skill-level:advanced
 ---
 # 一堂销售业绩管理三步法
 

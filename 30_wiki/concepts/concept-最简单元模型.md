@@ -28,6 +28,10 @@ quality_labels:
 - validated
 updated_at: '2026-06-29'
 created_at: '2026-06-30'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 最简化的单元模型

@@ -51,6 +51,10 @@ quality_labels:
 - framework
 - actionable
 - principle
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 业务公式三阶段工作流：A 梳理 → B 建立 → C 深入（反架空公式）

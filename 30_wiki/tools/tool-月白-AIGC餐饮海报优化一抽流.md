@@ -24,12 +24,16 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-多窗口并行工作法]]"
-- "[[tool-月白-关键要素提取改图法]]"
-- "[[tool-月白-眼高手低训练法]]"
-- "[[tool-月白-线下门店设计复杂度评估]]"
-- "[[tool-月白-AI设计三段式里程碑流程]]"
-- "[[tool-月白-一抽流改图法（自然语言精准许愿法）]]"
+- '[[tool-月白-多窗口并行工作法]]'
+- '[[tool-月白-关键要素提取改图法]]'
+- '[[tool-月白-眼高手低训练法]]'
+- '[[tool-月白-线下门店设计复杂度评估]]'
+- '[[tool-月白-AI设计三段式里程碑流程]]'
+- '[[tool-月白-一抽流改图法（自然语言精准许愿法）]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：AIGC餐饮海报优化一抽流

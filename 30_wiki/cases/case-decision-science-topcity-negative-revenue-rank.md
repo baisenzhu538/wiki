@@ -20,6 +20,10 @@ related:
 - '[[case-yitang-topcity-growth-flywheel]]'
 - '[[yt-decision-y-model]]'
 - '[[tool-区分获客渠道计算单元roi]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：Top City 负收益消减与自动排名
 

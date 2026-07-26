@@ -23,6 +23,10 @@ related:
 - '[[pending_unknown]]'
 - yt-demand-decision-chain
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 盲区和机会清单
 

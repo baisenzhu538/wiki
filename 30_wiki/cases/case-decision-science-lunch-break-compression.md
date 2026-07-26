@@ -20,6 +20,10 @@ related:
 - '[[framework-yitang-five-step-to-time-management]]'
 - '[[dk-time-management-common-mistakes]]'
 - '[[case-gym-membership-formula]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：把2小时休息压缩为1小时的ROI决策
 

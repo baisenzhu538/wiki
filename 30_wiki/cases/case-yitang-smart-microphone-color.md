@@ -5,7 +5,7 @@ type: case
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.82
 trust_level: medium
 language: zh-CN
@@ -18,7 +18,11 @@ source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
 related:
-- "[[framework-yitang-shishi-qiushi]]"
+- '[[framework-yitang-shishi-qiushi]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：智能麦克风颜色——投资人凭个人喜好做产品决策

@@ -27,6 +27,10 @@ related:
 - '[[dk-demand-pitfall-indonesia-insurance]]'
 - '[[tool-demand-agent-l4-case-match]]'
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：印尼寿险分支
 

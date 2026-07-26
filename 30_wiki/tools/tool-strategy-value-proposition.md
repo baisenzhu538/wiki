@@ -32,6 +32,10 @@ related:
 - '[[tool-strategy-value-capture]]'
 - tool-yitang-research-single-point-sniper
 - case-panproduct-yitao-project-background
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 价值主张设计工具：三问 + 六维排序法

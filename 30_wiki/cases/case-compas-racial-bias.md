@@ -24,6 +24,10 @@ related:
 - '[[pending_unknown]]'
 - tool-ai-cross-reading-method
 - tool-ai-critical-reading-three-layers
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # COMPAS 再犯算法种族偏见
 

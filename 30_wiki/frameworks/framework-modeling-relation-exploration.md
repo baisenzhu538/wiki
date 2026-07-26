@@ -1,27 +1,31 @@
 ---
 id: framework-modeling-relation-exploration
-title: "流程建模的关系探索：关系vs规律，从并列到因果"
+title: 流程建模的关系探索：关系vs规律，从并列到因果
 type: framework
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - modeling
+- modeling
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - cited
+- cited
 source_refs:
-  - "00_inbox/Advanced modeling/ 口述 L1916-L1970"
+- 00_inbox/Advanced modeling/ 口述 L1916-L1970
 related:
-  - framework-kdo-modeling-methodology
-  - concept-truman-18-component-cards
-  - concept-kdo-component-library
-  - modeling-three-stages
-  - yt-decision-y-model
+- framework-kdo-modeling-methodology
+- concept-truman-18-component-cards
+- concept-kdo-component-library
+- modeling-three-stages
+- yt-decision-y-model
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 流程建模的关系探索：关系 vs 规律，从并列到因果

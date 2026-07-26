@@ -16,9 +16,13 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-AI-native-dual-triangle-kernel]]"
-- "[[framework-yitang-y-model-dual-triangle-synergy]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-AI-native-dual-triangle-kernel]]'
+- '[[framework-yitang-y-model-dual-triangle-synergy]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 双三角作为一堂未来5年战略操作系统

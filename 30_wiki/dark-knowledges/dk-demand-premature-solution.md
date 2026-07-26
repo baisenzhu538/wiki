@@ -1,5 +1,4 @@
 ---
-
 id: dk-demand-premature-solution
 title: 过早进入解决方案空间——冰山模型的根本价值
 type: dk
@@ -17,14 +16,17 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 related:
-  - "[[yt-demand-fake-demand-detection]]"
-  - "[[dk-yi-tang-wishful-thinking-kills-startups]]"
-  - "[[dk-ji-hao-problem-vs-question]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[yitang-domain-digest]]"
+- '[[yt-demand-fake-demand-detection]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+- '[[dk-ji-hao-problem-vs-question]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yitang-domain-digest]]'
 updated_at: 2026-06-28
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 过早进入解决方案空间——冰山模型的根本价值

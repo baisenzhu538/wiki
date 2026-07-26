@@ -1,31 +1,35 @@
 ---
 id: tool-zhu-ai-deliberate-practice-roadmap
-title: "老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周"
+title: 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周
 type: tool
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - personal-os
+- personal-os
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - actionable
+- actionable
 source_refs:
-  - 30_wiki/personal-os/zhu-future-directions.md
-  - 30_wiki/personal-os/zhu-feedback-patterns.md
-  - 30_wiki/personal-os/zhu-project-board.md
-  - 30_wiki/personal-os/user-insight-profile.md
+- 30_wiki/personal-os/zhu-future-directions.md
+- 30_wiki/personal-os/zhu-feedback-patterns.md
+- 30_wiki/personal-os/zhu-project-board.md
+- 30_wiki/personal-os/user-insight-profile.md
 related:
-  - zhu-future-directions
-  - zhu-feedback-patterns
-  - zhu-project-board
-  - agent-spec-zhu-ai-coach
-  - framework-yitang-nine-layer-deep-dig
-  - user-insight-profile
+- zhu-future-directions
+- zhu-feedback-patterns
+- zhu-project-board
+- agent-spec-zhu-ai-coach
+- framework-yitang-nine-layer-deep-dig
+- user-insight-profile
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周

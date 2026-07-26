@@ -40,6 +40,10 @@ related:
 - '[[tool-yitang-consumer-goods-research]]'
 - tool-yitang-research-company-disassembly
 - framework-yitang-six-layer-cross-validation
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 科技型项目调研手段：浅中深三层10大评估法

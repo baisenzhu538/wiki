@@ -1,5 +1,4 @@
 ---
-
 id: dk-yb2-llm-muddy-clear-muddy
 title: 大模型训练本质：浑水→清水→浑水的双向转换
 type: dk
@@ -14,11 +13,11 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- "[[dk-yb6-midjourney-chinese-text-fix]]"
-- "[[dk-yb3-diffusion-stepwise-vs-human-holistic]]"
-- "[[case-yitang-luckin-field-research]]"
-- "[[dk-yb3-diffusion-stepwise-vs-human-holistic]]"
-- "[[master-knowledge-compound]]"
+- '[[dk-yb6-midjourney-chinese-text-fix]]'
+- '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
+- '[[case-yitang-luckin-field-research]]'
+- '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
+- '[[master-knowledge-compound]]'
 pipeline:
 - src_unknown
 author: 月白
@@ -32,6 +31,10 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 推理阶段误解——提示词是"污染清水"而非"精确控制"
   follow_up_question: 最近一次prompt未达预期时，是调整了prompt本身还是调整了对结果的预期？前者是工程优化，后者才是架构理解。# 大模型训练本质：浑水→清水→浑水的双向转换
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 ## 原始表述
 

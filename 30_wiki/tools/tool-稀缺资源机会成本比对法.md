@@ -33,6 +33,10 @@ related:
 - '[[tool-1视角升级思考法]]'
 - '[[tool-三阶追问法穷尽决策要素]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：稀缺资源机会成本比对法

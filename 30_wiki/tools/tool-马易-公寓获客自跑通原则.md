@@ -3,33 +3,37 @@ id: tool-马易-公寓获客自跑通原则
 title: 技能：公寓获客自跑通原则
 type: tool
 domain:
-  - ai-collaboration
-  - yitang- marketing
+- ai-collaboration
+- yitang- marketing
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
 related:
-  - '[[tool-马易-AI落地场景筛选-四有新人法则]]'
-  - '[[tool-马易-AI落地能力内化训练]]'
-  - '[[tool-马易-AI项目上线-先平行再独行]]'
-  - '[[tool-马易-判断标准快速产出法]]'
-  - '[[tool-马易-工作流拆解找场景]]'
-  - '[[tool-马易-数据存储架构选择]]'
-  - '[[tool-马易-知识库-回答技巧双建设]]'
-  - '[[tool-马易-视频转化关键要素标注校验]]'
-  - '[[tool-马易-风口痛点识别法]]'
-  - tool-马易-AI能力团队复制
-  - tool-马易-AI任务拆解提升控制度
-  - tool-马易-AI答疑运营风格适配
-  - tool-马易-隐私安全分层解决
-  - tool-马易-AIGC项目ROI评估
+- '[[tool-马易-AI落地场景筛选-四有新人法则]]'
+- '[[tool-马易-AI落地能力内化训练]]'
+- '[[tool-马易-AI项目上线-先平行再独行]]'
+- '[[tool-马易-判断标准快速产出法]]'
+- '[[tool-马易-工作流拆解找场景]]'
+- '[[tool-马易-数据存储架构选择]]'
+- '[[tool-马易-知识库-回答技巧双建设]]'
+- '[[tool-马易-视频转化关键要素标注校验]]'
+- '[[tool-马易-风口痛点识别法]]'
+- tool-马易-AI能力团队复制
+- tool-马易-AI任务拆解提升控制度
+- tool-马易-AI答疑运营风格适配
+- tool-马易-隐私安全分层解决
+- tool-马易-AIGC项目ROI评估
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 技能：公寓获客自跑通原则
 

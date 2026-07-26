@@ -7,26 +7,30 @@ author: laowantong
 confidence: 0.85
 trust_level: high
 domain:
-  - system
+- system
 source_refs:
-  - 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
-  - 30_wiki/frameworks/framework-kdo-modeling-methodology.md
-  - .agent/pitfalls.md
-  - 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md
+- 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
+- 30_wiki/frameworks/framework-kdo-modeling-methodology.md
+- .agent/pitfalls.md
+- 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md
 related:
-  - framework-kdo-modeling-methodology
-  - concept-kdo-agent-design-principles
-  - bridge-lightning-agent-evolution
-  - framework-一堂-基本功-四字诀拆建推练
-  - concept-一堂-Agent基本功修炼
+- framework-kdo-modeling-methodology
+- concept-kdo-agent-design-principles
+- bridge-lightning-agent-evolution
+- framework-一堂-基本功-四字诀拆建推练
+- concept-一堂-Agent基本功修炼
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 欧阳锋
 diagnostic_signals:
-  - 欧阳锋审查中 🔴🟡 数量未呈下降趋势
-  - Agent 自主提出改进的案例数为 0
-  - 新 Agent 上线仍需「边踩坑边补 context」
+- 欧阳锋审查中 🔴🟡 数量未呈下降趋势
+- Agent 自主提出改进的案例数为 0
+- 新 Agent 上线仍需「边踩坑边补 context」
 quality_labels: cited
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 ## 核心主张

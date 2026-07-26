@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[yt-barrier-brand-equity]]"
-  - "[[yt-barrier-culture-moat]]"
-  - "[[yt-barrier-data-assets]]"
+- '[[yt-barrier-brand-equity]]'
+- '[[yt-barrier-culture-moat]]'
+- '[[yt-barrier-data-assets]]'
 diagnostic_signals:
 - framework_lens: 转换成本——用户流失说明转换成本低，需要提升转换成本
   follow_up_question: 你的用户转换成本有哪些？数据、习惯、社交关系、经济成本？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你的数据格式是否开放？数据迁移是否容易？
 - framework_lens: 转换成本——习惯是转换成本，但竞品优势可能克服习惯
   follow_up_question: 竞品的好用程度是否足以克服用户的习惯成本？
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 转换成本：让用户离不开

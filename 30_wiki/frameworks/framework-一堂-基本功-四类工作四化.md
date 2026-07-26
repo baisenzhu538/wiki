@@ -37,6 +37,10 @@ diagnostic_signals:
 quality_labels:
 - principle
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 五类工作 × 4化：基本功的进攻方向诊断图

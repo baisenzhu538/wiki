@@ -1,5 +1,4 @@
 ---
-
 id: dk-strategy-03-advantage-temporary
 title: 竞争优势难持久。30年前500强90%已消失——竞争优势≠永久
 type: dk
@@ -13,15 +12,19 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[dk-strategy-longzhong-four-failures]]"
-  - "[[dk-strategy-three-must-do-moments]]"
-  - "[[dk-strategy-essence-four-elements]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[strategy-domain-digest]]"
+- '[[dk-strategy-longzhong-four-failures]]'
+- '[[dk-strategy-three-must-do-moments]]'
+- '[[dk-strategy-essence-four-elements]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[strategy-domain-digest]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 竞争优势难持久。30年前500强90%已消失——竞争优势≠永久

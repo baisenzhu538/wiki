@@ -5,7 +5,7 @@ type: dk
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -18,9 +18,13 @@ source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
 related:
-- "[[framework-yitang-shishi-qiushi]]"
-- "[[tool-yitang-method-ab-sides-checklist]]"
-- "[[concept-yitang-model-system-boundary]]"
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[tool-yitang-method-ab-sides-checklist]]'
+- '[[concept-yitang-model-system-boundary]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 方法论金句堆叠乱用，不如不懂

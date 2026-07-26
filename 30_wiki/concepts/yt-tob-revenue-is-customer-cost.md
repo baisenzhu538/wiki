@@ -16,6 +16,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:beginner
 created_at: '2026-06-16'
 updated_at: '2026-06-28'
 author: 徐剑
@@ -25,9 +28,9 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - "[[tool-yitang-b2b-gov-research]]"
-  - "[[case-yitang-yitu-lead-industrialization]]"
-  - "[[yt-tob-cash-flow]]"
+- '[[tool-yitang-b2b-gov-research]]'
+- '[[case-yitang-yitu-lead-industrialization]]'
+- '[[yt-tob-cash-flow]]'
 diagnostic_signals:
 - framework_lens: 收入=客户成本；若无法定位到客户成本结构中的具体位置，需求可能是伪需求或自嗨
   follow_up_question: 客户现在为解决这个问题每年花多少钱？这笔钱在他总成本中占多少？不花会怎样？

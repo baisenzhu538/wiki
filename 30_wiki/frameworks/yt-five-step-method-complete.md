@@ -38,6 +38,10 @@ diagnostic_signals:
   follow_up_question: 壁垒建设后，是否回到第一步寻找新的需求？五步法是一个循环。
 - framework_lens: 五步法完整地图——五步法适用于创业、产品、业务创新
   follow_up_question: 你是在创业、做新产品、还是优化现有业务？五步法的侧重点不同。
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 五步法完整地图：从需求到壁垒
 

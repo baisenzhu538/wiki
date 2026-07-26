@@ -22,6 +22,10 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 ---
 # 完整财务公式决策：L1-L6认知分级
 

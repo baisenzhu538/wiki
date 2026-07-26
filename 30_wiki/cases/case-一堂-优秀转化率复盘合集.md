@@ -16,12 +16,18 @@ domain:
 source_person: 邹韵涛/沈伟杰/王静静/董程滨/钟征/翁晓锋/甘绘忆/王巍（一堂学员）
 source_context: 一堂《优秀转化率复盘合集》PDF 24 页，VLM 已跑完全部页面，但正文大量空白，仅邹韵涛案例完整、沈伟杰案例部分背景可见
 source_refs:
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt L1-L23'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p002.txt L1-L22'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p003.txt L1-L26'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p004.txt L1-L16'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p005.txt L1-L8'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p006.txt L1-L44'
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt
+  L1-L23
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p002.txt
+  L1-L22
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p003.txt
+  L1-L26
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p004.txt
+  L1-L16
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p005.txt
+  L1-L8
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p006.txt
+  L1-L44
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'
@@ -36,6 +42,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 《优秀转化率复盘合集》收录 8 位学员按「提升动力 / 降低阻力 / 挖掘触点」框架撰写的真实复盘，但现行 PDF 为残缺导出件：仅邹韵涛案例（p001-p004）完整可读，沈伟杰（p005）仅有背景片段，其余 6 个案例正文缺失。本卡作为内容可用性索引，明确标注每案例状态，不编造缺失数字。

@@ -32,6 +32,10 @@ related:
 - '[[tool-1视角升级思考法]]'
 - '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：三阶追问法穷尽决策要素

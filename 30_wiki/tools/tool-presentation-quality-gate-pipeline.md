@@ -1,36 +1,39 @@
 ---
 id: tool-presentation-quality-gate-pipeline
-title: "演示产线双防线质量控制：四道机械闸门 + 七维独立终审"
+title: 演示产线双防线质量控制：四道机械闸门 + 七维独立终审
 type: tool
 status: reviewed
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - content-production
+- content-production
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-21"
+review_date: '2026-07-21'
 grade: B+
-created_at: "2026-07-21"
-updated_at: "2026-07-21"
+created_at: '2026-07-21'
+updated_at: '2026-07-21'
 quality_labels:
-  - actionable
+- actionable
 diagnostic_signals:
-  - signal: "审查通过了但上线后出问题"
-    lens: 构建者自审——自己做的东西有盲区
-    follow_up: 信任红线：构建者禁自审、禁改review.json
-  - signal: "连续3次审查不通过"
-    lens: 可能在错误的方向上死磕
-    follow_up: 降级铁律：2-3次失败→立即降级为静态方案
-
+- signal: 审查通过了但上线后出问题
+  lens: 构建者自审——自己做的东西有盲区
+  follow_up: 信任红线：构建者禁自审、禁改review.json
+- signal: 连续3次审查不通过
+  lens: 可能在错误的方向上死磕
+  follow_up: 降级铁律：2-3次失败→立即降级为静态方案
 source_refs:
-  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L235-L278"
+- 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L235-L278
 related:
-  - concept-spatial-narrative-design
-  - framework-ouyangfeng-review-methodology
-  - framework-一堂-基本功-四字诀拆建推练
-  - dk-spatial-narrative-pitfalls
-  - case-infinite-canvas-founders-playbook
+- concept-spatial-narrative-design
+- framework-ouyangfeng-review-methodology
+- framework-一堂-基本功-四字诀拆建推练
+- dk-spatial-narrative-pitfalls
+- case-infinite-canvas-founders-playbook
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 演示产线双防线质量控制

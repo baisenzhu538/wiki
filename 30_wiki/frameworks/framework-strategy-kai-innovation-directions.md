@@ -25,6 +25,10 @@ related:
 - '[[framework-yitang-six-layer-cross-validation]]'
 - concept-yitang-research-objective
 - tool-yitang-research-exhaust-means
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 凯纳创新方向分类框架

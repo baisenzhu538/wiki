@@ -1,5 +1,4 @@
 ---
-
 id: framework-candy-transcript-workflow
 title: Candy逐字稿九步法：从素材到可交付内容的生产流程
 type: framework
@@ -17,16 +16,20 @@ domain:
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[tool-马易-中国企业AI落地五步法]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]"
-  - "[[tool-月白-AIGC橱窗陈列设计流程]]"
-  - "[[tool-专家访谈十步法]]"
-  - "[[tool-执行对标研究三步法]]"
-  - "[[tool-通过综合案例沙盘走通全流程]]"
-  - "[[tool-candy-oral-polish]]"
-  - "[[aigc文创案例设计课leo文创ip从0到1全流程]]"
+- '[[yitang-domain-digest]]'
+- '[[tool-马易-中国企业AI落地五步法]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
+- '[[tool-月白-AIGC橱窗陈列设计流程]]'
+- '[[tool-专家访谈十步法]]'
+- '[[tool-执行对标研究三步法]]'
+- '[[tool-通过综合案例沙盘走通全流程]]'
+- '[[tool-candy-oral-polish]]'
+- '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # Candy逐字稿九步法

@@ -22,6 +22,9 @@ definition_of_done:
 tags:
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 related_skills:
 - src_unknown
 related_concepts:
@@ -52,14 +55,14 @@ diagnostic_signals:
 - lens: 伪创新
   follow_up: 新模型上线前做一次“范式匹配审查”，要求证明它无法被已有 20-30 个范式表达
 related:
-- "[[case-yitang-model-valuation-flywheel]]"
-- "[[tool-从案例中学习]]"
-- "[[tool-月白-设计师AI资产四类型沉淀]]"
-- "[[case-科学决策-深度案例06]]"
-- "[[case-科学决策-深度案例02]]"
-- "[[tool-纪浩-案例池构建法]]"
-- "[[case-科学决策-ROI案例03]]"
-- "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
+- '[[case-yitang-model-valuation-flywheel]]'
+- '[[tool-从案例中学习]]'
+- '[[tool-月白-设计师AI资产四类型沉淀]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 ---
 
 # 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式

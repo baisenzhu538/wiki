@@ -18,13 +18,16 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.89
 related:
-  - "[[modeling-capability-system]]"
-  - "[[concept-mckinsey-mece]]"
+- '[[modeling-capability-system]]'
+- '[[concept-mckinsey-mece]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 逻辑洁癖五段位
   follow_up_question: 这些点是 L1 散点堆，还是已经拆成 L2 清单？是否还能分出优先级？

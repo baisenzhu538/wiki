@@ -1,35 +1,39 @@
 ---
 id: bridge-利润-单元模型-定价闭环
-title: "桥接：一堂单元模型 × 利润为王 — 用业务公式做定价决策"
+title: 桥接：一堂单元模型 × 利润为王 — 用业务公式做定价决策
 type: framework
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - profit-pricing
-  - bridge
+- profit-pricing
+- bridge
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - actionable
+- insight
+- actionable
 source_refs:
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L560-L650"
-  - "00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L37-L55"
-  - "00_inbox/利润为王/企业利润经营分析_智能优化.txt"
-  - 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L560-L650
+- 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L37-L55
+- 00_inbox/利润为王/企业利润经营分析_智能优化.txt
+- 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md
 related:
-  - framework-利润-利润优先经营框架
-  - concept-定价-价格杠杆
-  - yt-unit-model-build
-  - yt-unit-model-benchmark
-  - yt-entrepreneur-unit-model
-  - yt-decision-y-model
-  - framework-demand-iceberg
-  - bridge-利润-需求冰山-价值定价
+- framework-利润-利润优先经营框架
+- concept-定价-价格杠杆
+- yt-unit-model-build
+- yt-unit-model-benchmark
+- yt-entrepreneur-unit-model
+- yt-decision-y-model
+- framework-demand-iceberg
+- bridge-利润-需求冰山-价值定价
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 桥接：一堂单元模型 × 利润为王 — 用业务公式做定价决策

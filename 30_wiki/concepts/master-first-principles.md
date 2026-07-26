@@ -18,13 +18,16 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-- "[[master-ai-info-literacy]]"
-- "[[master-cognitive-bias-checklist]]"
-- "[[master-decision-hygiene]]"
-- "[[master-systems-thinking]]"
-- "[[master-antifragile-checklist]]"
-- "[[master-knowledge-compound]]"
-
+- '[[master-ai-info-literacy]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-decision-hygiene]]'
+- '[[master-systems-thinking]]'
+- '[[master-antifragile-checklist]]'
+- '[[master-knowledge-compound]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 

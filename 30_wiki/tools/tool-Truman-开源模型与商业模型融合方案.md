@@ -3,28 +3,32 @@ id: tool-Truman-开源模型与商业模型融合方案
 title: 技能：开源模型与商业模型融合方案
 type: tool
 domain:
-  - ai-collaboration
-  - yitang- yitang
+- ai-collaboration
+- yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - "[[tool-Truman-AI工具选型决策]]"
-  - "[[tool-Truman-提示词优化底层方法]]"
-  - "[[tool-Truman-AI场景探索STAR模型]]"
-  - "[[tool-月白-提示词优化：信息流海报文字修复]]"
-  - "[[tool-Truman-数学题与语文题区分法]]"
-  - "[[tool-Truman-人在环渐进自动化策略]]"
-  - "[[tool-Truman-双三角模型应用]]"
-  - "[[tool-Truman-多Agent通信协作方案]]"
-  - "[[tool-Truman-知识库最佳实践构建]]"
-  - "[[tool-Truman-短视频自动化上传工作流]]"
+- '[[tool-Truman-AI工具选型决策]]'
+- '[[tool-Truman-提示词优化底层方法]]'
+- '[[tool-Truman-AI场景探索STAR模型]]'
+- '[[tool-月白-提示词优化：信息流海报文字修复]]'
+- '[[tool-Truman-数学题与语文题区分法]]'
+- '[[tool-Truman-人在环渐进自动化策略]]'
+- '[[tool-Truman-双三角模型应用]]'
+- '[[tool-Truman-多Agent通信协作方案]]'
+- '[[tool-Truman-知识库最佳实践构建]]'
+- '[[tool-Truman-短视频自动化上传工作流]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：开源模型与商业模型融合方案
 

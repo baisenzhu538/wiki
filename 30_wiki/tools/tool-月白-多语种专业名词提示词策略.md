@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-口喷作图工作流]]"
-  - "[[tool-月白-AIGC反向拆解法]]"
-  - "[[tool-月白-AIGC设计作业复盘法]]"
-  - "[[tool-月白-设计参考图精准定位法]]"
-  - "[[tool-月白-AIGC人群画像驱动详情页规划]]"
+- '[[tool-月白-口喷作图工作流]]'
+- '[[tool-月白-AIGC反向拆解法]]'
+- '[[tool-月白-AIGC设计作业复盘法]]'
+- '[[tool-月白-设计参考图精准定位法]]'
+- '[[tool-月白-AIGC人群画像驱动详情页规划]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：多语种专业名词提示词策略
 

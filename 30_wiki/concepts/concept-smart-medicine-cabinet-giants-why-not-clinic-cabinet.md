@@ -27,6 +27,10 @@ related:
 - - - smart-medicine-cabinet-o2o-cost-structure
 - smart-medicine-cabinet-clinic-risk-observation
 - 诊所O2O项目
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 # 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析
 

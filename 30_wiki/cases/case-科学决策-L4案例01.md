@@ -23,6 +23,10 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：1 万个投放线索的严格财务公式分析（乐观口径）
 

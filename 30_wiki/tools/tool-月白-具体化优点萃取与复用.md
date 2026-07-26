@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-最佳实践素材收集法]]"
-  - "[[tool-月白-新手设计师基本功训练法]]"
-  - "[[tool-月白-文创产品AI设计到生产的卡点预判]]"
-  - "[[tool-月白-文创材质成本调研与精益选择]]"
-  - "[[tool-月白-实物包装落地训练法]]"
+- '[[tool-月白-最佳实践素材收集法]]'
+- '[[tool-月白-新手设计师基本功训练法]]'
+- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
+- '[[tool-月白-文创材质成本调研与精益选择]]'
+- '[[tool-月白-实物包装落地训练法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：具体化优点萃取与复用
 

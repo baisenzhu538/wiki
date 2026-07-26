@@ -1,28 +1,27 @@
 ---
-
 domain:
-  - entrepreneurship
-
+- entrepreneurship
 id: yt-entrepreneur-research-camp
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: "黄药师"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:src_20260510_2ba8671c-创业-调研行动营口述01
-  - src_20260510_2ba8671c-创业-调研行动营口述01
-source_refs:
-  - pending_archive:src_20260510_2ba8671c-创业-调研行动营口述01
+- pending_archive:src_20260510_2ba8671c-创业-调研行动营口述01
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 调研行动营：从调研认知到AI调研武器库
 

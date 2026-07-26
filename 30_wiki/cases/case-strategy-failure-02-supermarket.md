@@ -32,6 +32,10 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - case-strategy-failure-09-boeing
 - case-strategy-failure-04-appliance
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 **表面问题**：增长停滞，利润也下降
 **战略根因**：目标错误——在高速增长期设了"追求盈利"的目标。正确的目标应该是"抢占市场份额"

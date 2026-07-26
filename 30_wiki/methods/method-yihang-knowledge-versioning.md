@@ -16,8 +16,12 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[dk-yihang-report-book-learner]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[dk-yihang-report-book-learner]]'
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 课程多版本压缩法——3分钟/15分钟/1小时/3小时版本

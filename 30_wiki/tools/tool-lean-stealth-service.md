@@ -31,6 +31,10 @@ diagnostic_signals:
 - framework_lens: 产品内核验证
   follow_up_question: 能否用专家人工交付一轮，验证客户是否愿意为「服务结果」而非「系统功能」付费？
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 偷偷服务：用人工模拟产品后端
 

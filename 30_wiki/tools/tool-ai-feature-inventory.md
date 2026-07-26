@@ -17,6 +17,10 @@ related:
 - '[[concept-yihang-ai-feature-thinking]]'
 - '[[framework-yihang-dual-triangle-weapon-library]]'
 - '[[concept-yihang-dual-triangle-core]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # AI 工具特性清单：原子化 Feature 分类框架

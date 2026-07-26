@@ -29,6 +29,10 @@ related:
 - '[[yt-tool-business-formula-18-moves]]'
 - '[[case-yitang-vicky-short-video]]'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 落地卡片：攻坚会
 

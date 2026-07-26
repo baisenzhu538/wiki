@@ -22,6 +22,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - yt-system-course-map-lecture
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # AI时代判断力口述
 

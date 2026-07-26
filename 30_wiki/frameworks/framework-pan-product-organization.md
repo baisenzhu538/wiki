@@ -36,6 +36,10 @@ related:
 - '[[framework-wanghuan-gan-three-roles]]'
 review_date: '2026-06-28'
 created_at: '2026-06-30'
+tags:
+- audience:manager
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 泛产品组织设计：把团队当成产品来打磨

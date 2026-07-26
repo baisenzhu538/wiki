@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-business-model-canvas
@@ -19,11 +18,12 @@ reviewed_by: 欧阳锋
 review_date: '2026-07-08'
 review_verdict: fail
 review_grade: C
-review_notes: 补审。核心框架有价值但 body 大面积 src_unknown（步骤1-4、行动触发器、关联卡片、来源验证），domain 为 src_unknown。退回老顽童返工：补 domain + 清 body 占位符。
+review_notes: 补审。核心框架有价值但 body 大面积 src_unknown（步骤1-4、行动触发器、关联卡片、来源验证），domain 为 src_unknown。退回老顽童返工：补
+  domain + 清 body 占位符。
 related:
-  - "[[tool-ROI决策评估画布]]"
-  - "[[tool-行业分析画布]]"
-  - "[[tool-提问刻意练习画布]]"
+- '[[tool-ROI决策评估画布]]'
+- '[[tool-行业分析画布]]'
+- '[[tool-提问刻意练习画布]]'
 diagnostic_signals:
 - framework_lens: 商业模式画布——结构化梳理商业模式
   follow_up_question: 你能用商业模式画布的9个要素描述你的商业模式吗？
@@ -35,7 +35,10 @@ diagnostic_signals:
   follow_up_question: 你的商业模式中，成本结构、收入来源、渠道通路都明确了吗？
 - framework_lens: 商业模式画布——画布简化复杂商业模式
   follow_up_question: 用画布的9个要素，每个要素写一句话，能描述清楚吗？
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 商业模式画布：一堂版

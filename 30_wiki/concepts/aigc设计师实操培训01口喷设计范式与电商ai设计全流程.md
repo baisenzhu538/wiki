@@ -11,18 +11,21 @@ status: draft
 title: AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程
 type: concept
 updated_at: '2026-06-16'
-pipeline:
-
+pipeline: null
 author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- "[[tool-月白-设计项目MVP拆解法]]"
-- "[[dk-yb7-design-demand-80-10-10]]"
-- "[[aigc文创案例设计课leo文创ip从0到1全流程]]"
-- "[[在设计小伙伴的反馈还挺好的]]"
-- "[[tool-月白-电商详情页起承转合架构法]]"
+- '[[tool-月白-设计项目MVP拆解法]]'
+- '[[dk-yb7-design-demand-80-10-10]]'
+- '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
+- '[[在设计小伙伴的反馈还挺好的]]'
+- '[[tool-月白-电商详情页起承转合架构法]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:beginner
 ---
 # AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程
 

@@ -3,34 +3,38 @@ id: tool-马易-AI项目需求拆解筛选
 title: 技能：AI项目需求拆解筛选
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
-  - ai-saas
+- ai-collaboration
+- yitang
+- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - "[[tool-马易-AI能力团队复制]]"
-  - "[[tool-马易-AI任务拆解提升控制度]]"
-  - "[[tool-马易-AI答疑运营风格适配]]"
-  - "[[tool-马易-隐私安全分层解决]]"
-  - "[[tool-马易-AIGC项目ROI评估]]"
-  - "[[tool-马易-AI落地前置条件验证]]"
-  - "[[tool-马易-AI落地四阶段验证法]]"
-  - "[[tool-马易-AI落地场景识别-拆工作流找场景]]"
-  - "[[tool-马易-工作流拆解找场景]]"
-  - "[[tool-马易-数据存储架构选择]]"
-  - "[[tool-马易-数据标注正确法]]"
-  - "[[tool-马易-时间序列大模型场景识别]]"
-  - "[[tool-马易-销售智能体体系搭建路径]]"
-  - "[[tool-马易-隐性知识萃取与模型化]]"
-  - "[[tool-马易-需求创造验证法]]"
+- '[[tool-马易-AI能力团队复制]]'
+- '[[tool-马易-AI任务拆解提升控制度]]'
+- '[[tool-马易-AI答疑运营风格适配]]'
+- '[[tool-马易-隐私安全分层解决]]'
+- '[[tool-马易-AIGC项目ROI评估]]'
+- '[[tool-马易-AI落地前置条件验证]]'
+- '[[tool-马易-AI落地四阶段验证法]]'
+- '[[tool-马易-AI落地场景识别-拆工作流找场景]]'
+- '[[tool-马易-工作流拆解找场景]]'
+- '[[tool-马易-数据存储架构选择]]'
+- '[[tool-马易-数据标注正确法]]'
+- '[[tool-马易-时间序列大模型场景识别]]'
+- '[[tool-马易-销售智能体体系搭建路径]]'
+- '[[tool-马易-隐性知识萃取与模型化]]'
+- '[[tool-马易-需求创造验证法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 技能：AI项目需求拆解筛选
 

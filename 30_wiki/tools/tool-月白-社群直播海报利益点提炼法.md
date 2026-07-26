@@ -24,13 +24,17 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-AIGC反向拆解法]]"
-  - "[[tool-月白-文创材质成本调研与精益选择]]"
-  - "[[tool-月白-PPT内容框架AIGC生成法]]"
-  - "[[tool-月白-Token效价比决策法]]"
-  - "[[tool-月白-PPT风格锁定工作流]]"
-  - "[[tool-月白-AIGC海报信息优先级排序法]]"
-  - "[[tool-费曼简单提炼法]]"
+- '[[tool-月白-AIGC反向拆解法]]'
+- '[[tool-月白-文创材质成本调研与精益选择]]'
+- '[[tool-月白-PPT内容框架AIGC生成法]]'
+- '[[tool-月白-Token效价比决策法]]'
+- '[[tool-月白-PPT风格锁定工作流]]'
+- '[[tool-月白-AIGC海报信息优先级排序法]]'
+- '[[tool-费曼简单提炼法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：社群直播海报利益点提炼法
 

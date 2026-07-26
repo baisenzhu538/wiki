@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[case-lean-zhanglei-failure-counterfactual]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[case-lean-zhanglei-failure-counterfactual]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 跨步一——从0到1需要验证需求、内核、商业模式
   follow_up_question: 你的需求验证了吗？内核验证了吗？单元模型成立吗？
@@ -33,6 +33,10 @@ diagnostic_signals:
   follow_up_question: 你的验证是否充分？单元模型是否成立？
 - framework_lens: 跨步一——0到1需要快速验证，不要过度打磨
   follow_up_question: 你的验证周期多长？是否过度打磨产品？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 跨步一：从0到1的验证

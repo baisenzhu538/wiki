@@ -1,5 +1,4 @@
 ---
-
 id: comfort-zone-expansion
 title: 舒适区扩展
 type: concept
@@ -8,10 +7,10 @@ domain:
 - skill-building
 status: reviewed
 quality_labels:
-  - cited
-  - principle
-  - quality
-  - validated
+- cited
+- principle
+- quality
+- validated
 created_at: 2026-06-29
 updated_at: 2026-06-29
 author: 老顽童
@@ -23,11 +22,15 @@ source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 - 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
 related:
-- "[[deliberate-practice-four-elements]]"
-- "[[challenge-point-design]]"
-- "[[fixed-routine-design]]"
-- "[[timely-feedback-loop]]"
-- "[[deliberate-repetition]]"
+- '[[deliberate-practice-four-elements]]'
+- '[[challenge-point-design]]'
+- '[[fixed-routine-design]]'
+- '[[timely-feedback-loop]]'
+- '[[deliberate-repetition]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 舒适区扩展

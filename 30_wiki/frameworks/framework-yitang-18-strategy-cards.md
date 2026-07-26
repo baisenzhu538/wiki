@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-18-strategy-cards
 title: 降龙十八掌：18张调研策略卡全景图
 type: framework
@@ -8,8 +7,8 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
 quality_labels:
-  - principle
-  - validated
+- principle
+- validated
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
@@ -33,15 +32,19 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[framework-ci-operating-model]]"
-  - "[[framework-yitang-iterative-recursive-digging]]"
-  - "[[framework-yitang-research-quality-gate]]"
-  - "[[framework-yitang-six-layer-cross-validation]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[framework-ci-operating-model]]'
+- '[[framework-yitang-iterative-recursive-digging]]'
+- '[[framework-yitang-research-quality-gate]]'
+- '[[framework-yitang-six-layer-cross-validation]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 降龙十八掌：18张调研策略卡全景图

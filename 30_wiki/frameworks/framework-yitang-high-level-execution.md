@@ -7,9 +7,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
@@ -34,20 +34,24 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- "[[framework-yitang-oscar-research]]"
-- "[[tool-yitang-research-industry-scan]]"
-- "[[business-research-skill-oscar-13-weapon-system]]"
-- "[[system-yitang-research-workflow]]"
-- "[[tool-yitang-research-validate-assumption]]"
-- "[[framework-yitang-high-level-plan]]"
-- "[[framework-yitang-four-research-types]]"
-- "[[framework-yitang-research-radar]]"
-- "[[yt-research-osl-framework]]"
-- "[[yt-research-intelligence-map]]"
-- "[[concept-yitang-research-facts-first]]"
-- "[[tool-yitang-research-cross-validation]]"
-- "[[tool-yitang-research-quantitative-modeling]]"
-- "[[framework-yitang-expert-interview-10steps]]"
+- '[[framework-yitang-oscar-research]]'
+- '[[tool-yitang-research-industry-scan]]'
+- '[[business-research-skill-oscar-13-weapon-system]]'
+- '[[system-yitang-research-workflow]]'
+- '[[tool-yitang-research-validate-assumption]]'
+- '[[framework-yitang-high-level-plan]]'
+- '[[framework-yitang-four-research-types]]'
+- '[[framework-yitang-research-radar]]'
+- '[[yt-research-osl-framework]]'
+- '[[yt-research-intelligence-map]]'
+- '[[concept-yitang-research-facts-first]]'
+- '[[tool-yitang-research-cross-validation]]'
+- '[[tool-yitang-research-quantitative-modeling]]'
+- '[[framework-yitang-expert-interview-10steps]]'
+tags:
+- audience:executor
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 高水平执行 AR：获取情报·正确归因

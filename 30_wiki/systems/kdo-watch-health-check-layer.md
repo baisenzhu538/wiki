@@ -24,6 +24,10 @@ related:
 - '[[proposal-kdo-flywheel-infrastructure]]'
 - modeling-to-kdo-toolchain
 - kdo-ec-industrialization-migration-proposal
+tags:
+- audience:general
+- scene:reference
+- skill-level:beginner
 ---
 # kdo watch 定时巡检层技术说明
 

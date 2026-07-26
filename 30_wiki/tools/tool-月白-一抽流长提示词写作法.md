@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-课程问题预埋法]]"
-- "[[tool-月白-AI海报快速生成法（15分钟无PS）]]"
-- "[[tool-月白-图片逆向反推提示词法]]"
-- "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
-- "[[tool-月白-三步作业反馈法]]"
+- '[[tool-月白-课程问题预埋法]]'
+- '[[tool-月白-AI海报快速生成法（15分钟无PS）]]'
+- '[[tool-月白-图片逆向反推提示词法]]'
+- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
+- '[[tool-月白-三步作业反馈法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：一抽流长提示词写作法
 

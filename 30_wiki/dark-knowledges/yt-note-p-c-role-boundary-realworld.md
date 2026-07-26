@@ -1,6 +1,4 @@
 ---
-
-
 domain:
 - learning-methodology
 id: yt-note-p-c-role-boundary-realworld
@@ -18,10 +16,14 @@ source_refs:
 created_at: '2026-06-15'
 updated_at: '2026-06-20'
 related:
-- "[[dk-wanghuan-ai-lifts-personal-ceiling]]"
-- "[[dk-wanghuan-magic-defeats-magic]]"
-- "[[dk-modeling-ai-judgment-limit]]"
-- "[[tool-wanghuan-ai-dual-role-coach]]"
+- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+- '[[dk-wanghuan-magic-defeats-magic]]'
+- '[[dk-modeling-ai-judgment-limit]]'
+- '[[tool-wanghuan-ai-dual-role-coach]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 - "[[yt-skill-p-role-prompt-design]]"
 

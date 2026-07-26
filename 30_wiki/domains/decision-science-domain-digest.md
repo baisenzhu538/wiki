@@ -8,8 +8,8 @@ status: reviewed
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
 quality_labels:
-  - cited
-  - validated
+- cited
+- validated
 created_at: 2026-06-26
 updated_at: 2026-07-12
 source_refs:
@@ -18,81 +18,84 @@ tags:
 - decision-science
 - yitang
 - framework
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 related:
-  - "[[yt-decision-review]]"
-  - "[[yt-decision-full-process]]"
-  - "[[master-decision-hygiene]]"
-  - "[[case-xian-franchise-location-decision]]"
-  - "[[yt-growth-data-driven-decision]]"
-  - "[[tool-decision-outside-view]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[framework-lean-pivot-decision]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[yt-decision-abcd-model]]"
-  - "[[framework-科学决策三角形]]"
-  - "[[framework-高水平共识曲线]]"
-  - "[[dk-你的业务是一次抽样实验]]"
-  - "[[dk-决策经验值]]"
-  - "[[case-科学决策-ROI案例01]]"
-  - "[[case-科学决策-ROI案例02]]"
-  - "[[case-科学决策-ROI案例04]]"
-  - "[[case-科学决策-L4案例01]]"
-  - "[[case-科学决策-深度案例01]]"
-  - "[[case-科学决策-深度案例02]]"
-  - "[[case-科学决策-深度案例03]]"
-  - "[[case-科学决策-深度案例04]]"
-  - "[[case-科学决策-深度案例05]]"
-  - "[[case-婚礼操盘-用户和场景]]"
-  - "[[case-婚礼规划]]"
-  - "[[concept-发现决策]]"
-  - "[[concept-科学决策宽度]]"
-  - "[[concept-思考深度分级]]"
-  - "[[concept-稀缺机会窗口]]"
-  - "[[concept-X型Y型决策习惯]]"
-  - "[[concept-两种典型思考习惯]]"
-  - "[[agent-一堂-科学决策教练]]"
-  - "[[concept-多视角思考]]"
-  - "[[concept-峰终定律]]"
-  - "[[concept-惊喜公式]]"
-  - "[[concept-最佳实践建模]]"
-  - "[[concept-美好作品想象]]"
-  - "[[concept-单元模型-学练用]]"
-  - "[[concept-AI时代双三角竞争力]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[tool-Y模型STEPS策略集]]"
-  - "[[tool-Y模型实操工作流]]"
-  - "[[tool-决策深度-L1优先级定性]]"
-  - "[[tool-决策深度-L2部分定量]]"
-  - "[[tool-决策深度-L3定量公式]]"
-  - "[[tool-决策深度-L4严格财务公式]]"
-  - "[[tool-完整财务公式决策]]"
-  - "[[tool-科学决策关键训练清单]]"
-  - "[[tool-稀缺资源清单]]"
-  - "[[tool-项目方案评估三角形]]"
-  - "[[tool-动力阻力分析]]"
-  - "[[tool-场景推演]]"
-  - "[[tool-用户分层]]"
-  - "[[tool-用户视角]]"
-  - "[[tool-科学学习IPO完整清单]]"
-  - "[[tool-科学提问刻意练习]]"
-  - "[[tool-提问刻意练习画布]]"
-  - "[[tool-最佳实践收集]]"
-  - "[[tool-最佳实践池子]]"
-  - "[[tool-审美工具箱]]"
-  - "[[tool-行业分析画布]]"
-  - "[[tool-需求挖掘]]"
-  - "[[tool-项目背景分析]]"
-  - "[[tool-讲香十指模型-超级武器库]]"
-  - "[[tool-讲香基本功-十指模型]]"
-  - "[[framework-个人成长五步法]]"
-  - "[[framework-TCPR皇冠模型]]"
-  - "[[yt-unit-model-ladder]]"
-  - "[[framework-问题边界与Problem澄清五层结构]]"
-  - "[[framework-lean-pivot-decision]]"
-  - "[[framework-decision-quality-checklist]]"
-  - "[[framework-decision-cognitive-bias-map]]"
-  - "[[dk-decision-when-to-defer]]"
-  - "[[case-decision-ai-assisted-vs-human]]"
+- '[[yt-decision-review]]'
+- '[[yt-decision-full-process]]'
+- '[[master-decision-hygiene]]'
+- '[[case-xian-franchise-location-decision]]'
+- '[[yt-growth-data-driven-decision]]'
+- '[[tool-decision-outside-view]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[framework-lean-pivot-decision]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[yt-decision-abcd-model]]'
+- '[[framework-科学决策三角形]]'
+- '[[framework-高水平共识曲线]]'
+- '[[dk-你的业务是一次抽样实验]]'
+- '[[dk-决策经验值]]'
+- '[[case-科学决策-ROI案例01]]'
+- '[[case-科学决策-ROI案例02]]'
+- '[[case-科学决策-ROI案例04]]'
+- '[[case-科学决策-L4案例01]]'
+- '[[case-科学决策-深度案例01]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[case-科学决策-深度案例03]]'
+- '[[case-科学决策-深度案例04]]'
+- '[[case-科学决策-深度案例05]]'
+- '[[case-婚礼操盘-用户和场景]]'
+- '[[case-婚礼规划]]'
+- '[[concept-发现决策]]'
+- '[[concept-科学决策宽度]]'
+- '[[concept-思考深度分级]]'
+- '[[concept-稀缺机会窗口]]'
+- '[[concept-X型Y型决策习惯]]'
+- '[[concept-两种典型思考习惯]]'
+- '[[agent-一堂-科学决策教练]]'
+- '[[concept-多视角思考]]'
+- '[[concept-峰终定律]]'
+- '[[concept-惊喜公式]]'
+- '[[concept-最佳实践建模]]'
+- '[[concept-美好作品想象]]'
+- '[[concept-单元模型-学练用]]'
+- '[[concept-AI时代双三角竞争力]]'
+- '[[tool-ROI决策评估画布]]'
+- '[[tool-Y模型STEPS策略集]]'
+- '[[tool-Y模型实操工作流]]'
+- '[[tool-决策深度-L1优先级定性]]'
+- '[[tool-决策深度-L2部分定量]]'
+- '[[tool-决策深度-L3定量公式]]'
+- '[[tool-决策深度-L4严格财务公式]]'
+- '[[tool-完整财务公式决策]]'
+- '[[tool-科学决策关键训练清单]]'
+- '[[tool-稀缺资源清单]]'
+- '[[tool-项目方案评估三角形]]'
+- '[[tool-动力阻力分析]]'
+- '[[tool-场景推演]]'
+- '[[tool-用户分层]]'
+- '[[tool-用户视角]]'
+- '[[tool-科学学习IPO完整清单]]'
+- '[[tool-科学提问刻意练习]]'
+- '[[tool-提问刻意练习画布]]'
+- '[[tool-最佳实践收集]]'
+- '[[tool-最佳实践池子]]'
+- '[[tool-审美工具箱]]'
+- '[[tool-行业分析画布]]'
+- '[[tool-需求挖掘]]'
+- '[[tool-项目背景分析]]'
+- '[[tool-讲香十指模型-超级武器库]]'
+- '[[tool-讲香基本功-十指模型]]'
+- '[[framework-个人成长五步法]]'
+- '[[framework-TCPR皇冠模型]]'
+- '[[yt-unit-model-ladder]]'
+- '[[framework-问题边界与Problem澄清五层结构]]'
+- '[[framework-lean-pivot-decision]]'
+- '[[framework-decision-quality-checklist]]'
+- '[[framework-decision-cognitive-bias-map]]'
+- '[[dk-decision-when-to-defer]]'
+- '[[case-decision-ai-assisted-vs-human]]'
 ---
 
 # decision-science 域摘要

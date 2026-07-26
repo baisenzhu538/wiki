@@ -45,6 +45,9 @@ tags:
 - 审美定义
 - 体系化
 - 口播工具
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 query_triggers:
 - AI产品开发方法论
 - 审美优先

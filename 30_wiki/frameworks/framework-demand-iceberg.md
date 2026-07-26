@@ -26,6 +26,10 @@ related:
 - '[[case-demand-iceberg-few-shot]]'
 - '[[case-demand-b2b-enterprise-erp]]'
 updated_at: '2026-07-04'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 需求洞察冰山模型
 

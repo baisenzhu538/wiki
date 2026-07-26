@@ -1,7 +1,6 @@
 ---
 domain:
-  - personal-growth
-
+- personal-growth
 id: yt-personal-deliberate-practice
 title: 科学成长（刻意练习）
 type: concept
@@ -12,25 +11,29 @@ updated_at: 2026-07-02
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-05-08
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
-  - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
+- pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
+- src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 related:
-  - "[[dk-content-muscle-memory-vs-knowledge]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
+- '[[dk-content-muscle-memory-vs-knowledge]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 科学成长（刻意练习）
 

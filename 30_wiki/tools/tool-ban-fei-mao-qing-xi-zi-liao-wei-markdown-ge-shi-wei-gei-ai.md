@@ -1,5 +1,4 @@
 ---
-
 id: tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai
 title: 技能：清洗资料为 Markdown 格式喂给 AI
 type: tool
@@ -11,25 +10,25 @@ trust_level: medium
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 related:
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  
-  
-  
-  - "[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]"
-  - "[[tool-半肥猫-课程Skill化的八步工作流]]"
-  - "[[tool-纪浩-AI对话上下文隔离]]"
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]'
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[tool-纪浩-AI对话上下文隔离]]'
 domain:
 - ai-collaboration
 - yitang
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
-tools_required:
-prerequisite_skills:
+tools_required: null
+prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-19'
-diagnostic_signals:
-
+diagnostic_signals: null
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：清洗资料为 Markdown 格式喂给 AI

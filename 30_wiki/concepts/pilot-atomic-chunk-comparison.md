@@ -10,8 +10,7 @@ status: draft
 created_at: 2026-05-31
 source_refs:
 - 30_wiki/concepts/master-decision-hygiene.md
-pipeline:
-
+pipeline: null
 author: unknown
 reviewed_by: pending
 confidence: 0.7
@@ -23,6 +22,10 @@ related:
 - '[[master-decision-hygiene]]'
 - '[[gold-standard-manual-labels]]'
 - data-curator-role-division
+tags:
+- audience:general
+- scene:reference
+- skill-level:beginner
 ---
 # Pilot：master-decision-hygiene 真原子切分对比
 

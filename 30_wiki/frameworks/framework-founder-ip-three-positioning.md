@@ -1,47 +1,50 @@
 ---
-id: "framework-founder-ip-three-positioning"
-title: "创始人 IP 三定位模型"
-type: "framework"
+id: framework-founder-ip-three-positioning
+title: 创始人 IP 三定位模型
+type: framework
 domain:
-  - "content-production"
-status: "reviewed"
+- content-production
+status: reviewed
 confidence: 0.85
-difficulty: "intermediate"
-language: "zh-CN"
-created_at: "2026-06-30"
-updated_at: "2026-06-30T15:23:37+00:00"
-author: "老顽童"
-reviewed_by: "欧阳锋"
-review_date: "2026-06-30"
+difficulty: intermediate
+language: zh-CN
+created_at: '2026-06-30'
+updated_at: '2026-06-30T15:23:37+00:00'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-30'
 source_refs:
-  - "00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md"
+- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 query_triggers:
-  - 创始人 IP 怎么做
-  - 商业定位内容定位人设定位
-  - 网红和创始人 IP 有什么区别
-  - 用户为什么信你
+- 创始人 IP 怎么做
+- 商业定位内容定位人设定位
+- 网红和创始人 IP 有什么区别
+- 用户为什么信你
 aliases:
-  - founder-ip-three-positioning
-  - 创始人 IP 三定位
-  - IP 三定位模型
+- founder-ip-three-positioning
+- 创始人 IP 三定位
+- IP 三定位模型
 tags:
-  - "#scene/business-analysis"
-  - "content-production"
-  - "founder-ip"
+- '#scene/business-analysis'
+- content-production
+- founder-ip
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 quality_labels:
-  - principle
-  - validated
+- principle
+- validated
 related:
-  - '[[framework-brand-three-degree]]'
-  - '[[framework-content-business-six-step]]'
-  - '[[tool-shortvideo-six-dimension-deconstruction]]'
-  - '[[case-daxin-team-content-training-camp]]'
-  - '[[case-yitang-goat-milk-channel-partnership]]'
-  - '[[system-kdo-quality-labels]]'
-  - '[[case-ai-search-commerce-platform-hedge]]'
-  - '[[framework-community-knowledge-production-failure-modes]]'
+- '[[framework-brand-three-degree]]'
+- '[[framework-content-business-six-step]]'
+- '[[tool-shortvideo-six-dimension-deconstruction]]'
+- '[[case-daxin-team-content-training-camp]]'
+- '[[case-yitang-goat-milk-channel-partnership]]'
+- '[[system-kdo-quality-labels]]'
+- '[[case-ai-search-commerce-platform-hedge]]'
+- '[[framework-community-knowledge-production-failure-modes]]'
 pipeline:
-  - "confidence-draft"
+- confidence-draft
 ---
 
 # 创始人 IP 三定位模型

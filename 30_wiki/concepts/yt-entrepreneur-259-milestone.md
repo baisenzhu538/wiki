@@ -1,11 +1,10 @@
 ---
-
 id: yt-entrepreneur-259-milestone
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - src_unknown
+- src_unknown
 estimated_tokens: 1851
 language: zh-CN
 query_triggers:
@@ -24,14 +23,18 @@ reviewed_by: pending
 status: enriched
 updated_at: '2026-06-29'
 source_refs:
-  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
-  - pending_archive:src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解
-  - pending_archive:src_20260611_0f0a4c27-一堂-一堂五步法-增长-里程碑复盘_paddle_ocr
-  - pending_archive:src_20260611_173d9f0e-一堂-一堂五步法-落地实操-笔记
-  - pending_archive:src_20260611_96419f58-一堂-一堂五步法-单元模型-尺子和梯子的调优_paddle_ocr
-  - pending_archive:src_20260611_84990c99-一堂-一堂五步法-单元模型-段位升级三部曲_paddle_ocr
-  - pending_archive:src_20260611_4266769b-一堂-一堂五步法-单元模型-尺子和梯子区别_paddle_ocr
-  - pending_archive:src_20260611_d913eb1d-一堂-一堂五步法-序言-口述
+- pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+- pending_archive:src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解
+- pending_archive:src_20260611_0f0a4c27-一堂-一堂五步法-增长-里程碑复盘_paddle_ocr
+- pending_archive:src_20260611_173d9f0e-一堂-一堂五步法-落地实操-笔记
+- pending_archive:src_20260611_96419f58-一堂-一堂五步法-单元模型-尺子和梯子的调优_paddle_ocr
+- pending_archive:src_20260611_84990c99-一堂-一堂五步法-单元模型-段位升级三部曲_paddle_ocr
+- pending_archive:src_20260611_4266769b-一堂-一堂五步法-单元模型-尺子和梯子区别_paddle_ocr
+- pending_archive:src_20260611_d913eb1d-一堂-一堂五步法-序言-口述
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 259里程碑
 

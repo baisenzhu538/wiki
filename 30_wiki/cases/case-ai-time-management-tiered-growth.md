@@ -35,13 +35,17 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-- "[[yt-foresight-business-spectrum]]"
-- "[[yt-ai-trend-12-signals]]"
-- "[[case-escort-service-tiered-growth]]"
-- "[[case-coffee-shop-foresight]]"
-- "[[yitang-domain-digest]]"
-- "[[framework-一堂-机会预判]]"
-- "[[tool-一堂-机会预判-案例预判]]"
+- '[[yt-foresight-business-spectrum]]'
+- '[[yt-ai-trend-12-signals]]'
+- '[[case-escort-service-tiered-growth]]'
+- '[[case-coffee-shop-foresight]]'
+- '[[yitang-domain-digest]]'
+- '[[framework-一堂-机会预判]]'
+- '[[tool-一堂-机会预判-案例预判]]'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：AI时间管理App七级演进

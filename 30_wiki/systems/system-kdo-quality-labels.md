@@ -1,40 +1,43 @@
 ---
-id: "system-kdo-quality-labels"
-title: "KDO 卡片质量标签体系使用指南"
-type: "system"
+id: system-kdo-quality-labels
+title: KDO 卡片质量标签体系使用指南
+type: system
 domain:
-  - "kdo"
-status: "enriched"
+- kdo
+status: enriched
 confidence: 0.85
-difficulty: "intermediate"
-language: "zh-CN"
-created_at: 2026-06-30T14:17:42+00:00
-updated_at: 2026-06-30T14:17:42+00:00
-author: "老顽童"
-reviewed_by: "pending"
+difficulty: intermediate
+language: zh-CN
+created_at: 2026-06-30 14:17:42+00:00
+updated_at: 2026-06-30 14:17:42+00:00
+author: 老顽童
+reviewed_by: pending
 source_refs:
-  - "00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md"
-  - "00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md"
+- 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md
+- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 query_triggers:
-  - KDO 卡片质量标签怎么用
-  - 怎么给卡片打标签
-  - quality_labels 字段含义
-  - insight hypothesis actionable quotable principle cited quality validated 区别
-  - 如何用标签筛选卡片
+- KDO 卡片质量标签怎么用
+- 怎么给卡片打标签
+- quality_labels 字段含义
+- insight hypothesis actionable quotable principle cited quality validated 区别
+- 如何用标签筛选卡片
 aliases:
-  - quality-labels
-  - 卡片质量标签
-  - KDO quality_labels
+- quality-labels
+- 卡片质量标签
+- KDO quality_labels
 tags:
-  - "#scene/system-design"
-  - "kdo"
+- '#scene/system-design'
+- kdo
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 related:
-  - "[[framework-brand-three-degree]]"
-  - "[[framework-yitang-research-quality-gate]]"
-  - "[[model-quality-four-levels]]"
-  - "[[business-formula-to-kdo-card-quality]]"
+- '[[framework-brand-three-degree]]'
+- '[[framework-yitang-research-quality-gate]]'
+- '[[model-quality-four-levels]]'
+- '[[business-formula-to-kdo-card-quality]]'
 pipeline:
-  - "confidence-draft"
+- confidence-draft
 ---
 
 # KDO 卡片质量标签体系使用指南

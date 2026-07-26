@@ -20,6 +20,10 @@ related:
 - '[[case-treadmill-demand-analysis]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 扭蛋机案例：玩具店规模化扩张三阶段决策

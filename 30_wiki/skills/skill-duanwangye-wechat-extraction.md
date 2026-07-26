@@ -3,7 +3,7 @@ id: skill-duanwangye-wechat-extraction
 title: 段王爷·微信消息解密与结构化提取
 type: skill
 status: reviewed
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
 - wechat
@@ -15,8 +15,12 @@ author: 段王爷（南帝）
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 related:
-- "[[skill-duanwangye-feishu-publishing]]"
-- "[[concept-streaming-extraction-pattern]]"
+- '[[skill-duanwangye-feishu-publishing]]'
+- '[[concept-streaming-extraction-pattern]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 段王爷·微信消息解密与结构化提取

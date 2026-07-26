@@ -19,6 +19,10 @@ related:
 - strategy-domain-digest
 - case-opc-agent-wave1-real-model-testing
 - case-strategy-practice-12-zero-loss
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 **战略内容**：成就霸业→三足鼎立→四击北伐。六大举措+执行团队（诸葛亮/关羽/马超/李辉）。
 

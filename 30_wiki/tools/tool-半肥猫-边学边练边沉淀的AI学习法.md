@@ -1,5 +1,4 @@
 ---
-
 id: tool-半肥猫-边学边练边沉淀的AI学习法
 title: 技能：边学边练边沉淀的 AI 学习法
 type: tool
@@ -19,15 +18,15 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-  - "[[concept-半肥猫-ai-learning-toolification-methodology]]"
-  - "[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]"
-  - "[[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]"
-  - "[[tool-半肥猫-课程Skill化的八步工作流]]"
-  - "[[concept-ji-hao-ai-collaboration-methodology]]"
-  - "[[case-ban-fei-mao-conversion-hacker-skill]]"
-  - "[[dk-ban-fei-mao-silky-answer-warning]]"
-  - "[[dk-ban-fei-mao-skill-rejection-value]]"
-  - "[[tool-从案例中学习正反案例法]]"
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+- '[[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]'
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
+- '[[case-ban-fei-mao-conversion-hacker-skill]]'
+- '[[dk-ban-fei-mao-silky-answer-warning]]'
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
+- '[[tool-从案例中学习正反案例法]]'
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 pipeline:
@@ -49,7 +48,10 @@ diagnostic_signals:
   follow_up: 步骤4必须找真实业务场景，初学者无业务时先确定方向再驱动学习
 - lens: 沉淀者水平不足
   follow_up: 沉淀前确保自己对课程理解深入，三轮检查通过后再固化
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：边学边练边沉淀的 AI 学习法

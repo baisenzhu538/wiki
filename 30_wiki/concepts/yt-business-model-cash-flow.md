@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-business-model-cash-flow
@@ -18,10 +17,10 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 现金流管理——利润≠现金流，需要关注现金周期
   follow_up_question: 你的现金周期多长？应收账款、库存、应付账款各占多少？
@@ -33,7 +32,10 @@ diagnostic_signals:
   follow_up_question: 你的库存周转率是多少？如何优化库存？
 - framework_lens: 现金流管理——烧钱需要计划，不是无限
   follow_up_question: 你的烧钱速度是多少？现金能支撑多久？盈利路径清晰吗？
-
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 
 # 现金流管理：商业模式的血液循环

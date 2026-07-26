@@ -19,12 +19,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[yt-model-prompt-engineering]]"
-- "[[dk-modeling-ai-judgment-limit]]"
-- "[[dk-wanghuan-ai-lifts-personal-ceiling]]"
-- "[[yt-model-ipo-learning-strategy]]"
-- "[[yt-model-personal-pitch-toolkit]]"
-- "[[yt-panproduct-demand-motivation-resistance]]"
+- '[[yt-model-prompt-engineering]]'
+- '[[dk-modeling-ai-judgment-limit]]'
+- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+- '[[yt-model-ipo-learning-strategy]]'
+- '[[yt-model-personal-pitch-toolkit]]'
+- '[[yt-panproduct-demand-motivation-resistance]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_of:
@@ -48,6 +48,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 吴恩达提示词课程·一堂拆书精华

@@ -27,6 +27,10 @@ related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[business-formula-domain-digest]]'
 - '[[case-saas-renewal-formula]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 农机撮合平台：从「续费率10%」到「新客一月5次撮合率」的因果验证

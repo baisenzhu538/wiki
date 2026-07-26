@@ -23,12 +23,12 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/AI三角-基本功_vlm.md
 - 00_inbox/人机协作双三角/_processed/AI三角-数据_vlm.md
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-dual-triangle-ten-year-map]]"
-- "[[framework-yihang-dual-triangle-three-stages-six-changes]]"
-- "[[tool-yihang-dual-triangle-canvas]]"
-- "[[concept-一堂-AI时代基本功变与不变]]"
-- "[[concept-一堂-基本功-段位体系]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-dual-triangle-ten-year-map]]'
+- '[[framework-yihang-dual-triangle-three-stages-six-changes]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
+- '[[concept-一堂-AI时代基本功变与不变]]'
+- '[[concept-一堂-基本功-段位体系]]'
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
@@ -36,8 +36,11 @@ related:
 - '[[framework-business-formula-dual-triangle-bridge]]'
 aliases:
 - 双三角武器库
-- 双三角能力矩阵
-  - framework-yitang-thought-liberation-lightning
+- 双三角能力矩阵 - framework-yitang-thought-liberation-lightning
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一行双三角六要素武器库

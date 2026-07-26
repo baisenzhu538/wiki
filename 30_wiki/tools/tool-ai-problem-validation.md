@@ -3,25 +3,29 @@ id: tool-ai-problem-validation
 title: 技能：问题验证三维度法
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
-  - ai-saas
+- ai-collaboration
+- yitang
+- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - "[[ai-collaboration-mindset-shift]]"
-  - "[[sk-ai-problem-validation]]"
-  - "[[tool-ai-four-elements-validation]]"
-  - "[[tool-ai-problem-question-check]]"
-  - "[[tool-ai-evidence-check]]"
-  - "[[tool-纪浩-problem-validation-four-checks]]"
+- '[[ai-collaboration-mindset-shift]]'
+- '[[sk-ai-problem-validation]]'
+- '[[tool-ai-four-elements-validation]]'
+- '[[tool-ai-problem-question-check]]'
+- '[[tool-ai-evidence-check]]'
+- '[[tool-纪浩-problem-validation-four-checks]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 技能：问题验证三维度法
 

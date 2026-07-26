@@ -6,47 +6,43 @@ status: draft
 confidence: 0.84
 trust_level: medium
 domain:
-  - human-ai-collaboration
-  - ai-collaboration
-  - yitang
+- human-ai-collaboration
+- ai-collaboration
+- yitang
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
-source_refs:
-
-
-
+source_refs: null
 created_at: '2026-06-19'
 updated_at: 2026-07-02
 author: 王语嫣
 reviewed_by: pending
 related:
-  - "[[dk-wanghuan-spec-trap]]"
-  - "[[dk-wanghuan-tacit-decision-extraction-cross-domain]]"
-  - "[[dk-wanghuan-standard-by-iteration]]"
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[dk-wanghuan-paced-sales-decision]]"
-  - "[[framework-wanghuan-three-tier-dev-architecture]]"
-  - "[[dk-wanghuan-agent-platform-director-mode]]"
-  - "[[dk-wanghuan-creativity-in-description-and-taste]]"
-  - "[[framework-wanghuan-ai-five-level-ladder]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[concept-wanghuan-tacit-knowledge-examples]]"
-  - "[[framework-wanghuan-task-product-system]]"
-  - "[[framework-wanghuan-ooda-loop]]"
-  - "[[dk-wanghuan-output-equals-standard-times-iteration]]"
-  - "[[dk-wanghuan-ai-lifts-personal-ceiling]]"
-  - "[[dk-ai-design-pitfalls]]"
-  - "[[tool-wanghuan-ai-business-profile]]"
-  - "[[dk-wanghuan-magic-defeats-magic]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
-  - "[[framework-wanghuan-actor-director-mode]]"
-  - "[[concept-wanghuan-adversarial-generation]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
+- '[[dk-wanghuan-spec-trap]]'
+- '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
+- '[[dk-wanghuan-standard-by-iteration]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[dk-wanghuan-paced-sales-decision]]'
+- '[[framework-wanghuan-three-tier-dev-architecture]]'
+- '[[dk-wanghuan-agent-platform-director-mode]]'
+- '[[dk-wanghuan-creativity-in-description-and-taste]]'
+- '[[framework-wanghuan-ai-five-level-ladder]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[concept-wanghuan-tacit-knowledge-examples]]'
+- '[[framework-wanghuan-task-product-system]]'
+- '[[framework-wanghuan-ooda-loop]]'
+- '[[dk-wanghuan-output-equals-standard-times-iteration]]'
+- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+- '[[dk-ai-design-pitfalls]]'
+- '[[tool-wanghuan-ai-business-profile]]'
+- '[[dk-wanghuan-magic-defeats-magic]]'
+- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- '[[framework-wanghuan-actor-director-mode]]'
+- '[[concept-wanghuan-adversarial-generation]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
 tags:
-
-
-
-
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 # 域摘要：人机协作范式——双三角模型域
 

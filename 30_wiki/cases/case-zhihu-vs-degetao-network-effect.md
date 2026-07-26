@@ -2,10 +2,10 @@
 id: case-zhihu-vs-degetao-network-effect
 confidence: 0.85
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 created_at: 2026-06-11
 difficulty: intermediate
 domain: yitang
@@ -40,11 +40,15 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-- "[[yt-barrier-analysis-cheat-sheet]]"
-- "[[yt-barrier-identification-skill]]"
-- "[[yt-five-step-method]]"
-- "[[yt-scale-economy-weapon-library]]"
-- "[[yitang-domain-digest]]"
+- '[[yt-barrier-analysis-cheat-sheet]]'
+- '[[yt-barrier-identification-skill]]'
+- '[[yt-five-step-method]]'
+- '[[yt-scale-economy-weapon-library]]'
+- '[[yitang-domain-digest]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：知乎vs得到——网络效应壁垒的对比分析

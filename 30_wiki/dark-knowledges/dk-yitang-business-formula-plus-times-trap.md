@@ -1,5 +1,4 @@
 ---
-
 id: dk-yitang-business-formula-plus-times-trap
 title: 业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策
 type: dk
@@ -24,29 +23,31 @@ review_date: '2026-06-28'
 review_notes: ⚠️ 补审标记（2026-07-08）：原为self-review，违反L0铁律#4。dk卡走自动门禁（kdo lint+self-attack）通过。正式审查待王语嫣方向确认。
 trust_level: high
 related:
-  - "[[framework-一堂-业务公式拆解-总纲]]"
-  - "[[framework-一堂-关键假设]]"
-  - "[[yitang-domain-digest]]"
-  - "[[yt-business-formula-hypothesis-management-playbook]]"
-  - "[[tool-马易-AI任务拆解提升控制度]]"
-  - "[[tool-马易-数字员工FD拆解落地]]"
-  - "[[tool-马易-工作流拆解找场景]]"
-  - "[[tool-月白-基于需求拆解找设计参考]]"
-  - "[[tool-月白-AI设计里程碑拆解法]]"
-  - "[[tool-月白-设计项目MVP拆解法]]"
-  - "[[tool-月白-AIGC反向拆解法]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
-  - "[[tool-月白-AI需求拆解咨询法]]"
-  - "[[tool-泛产品落地-里程碑拆解]]"
-  - "[[business-formula-domain-digest]]"
-  - "[[tool-一堂-业务公式-L1L6参数分层自检]]"
-  - "[[dk-yitang-business-formula-pseudo-causality-two-masks]]"
-  - "[[case-yitang-burger-franchise-key-path]]"
-  - "[[case-yitang-tob-devboard-price-coupling]]"
-tags: []
+- '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[framework-一堂-关键假设]]'
+- '[[yitang-domain-digest]]'
+- '[[yt-business-formula-hypothesis-management-playbook]]'
+- '[[tool-马易-AI任务拆解提升控制度]]'
+- '[[tool-马易-数字员工FD拆解落地]]'
+- '[[tool-马易-工作流拆解找场景]]'
+- '[[tool-月白-基于需求拆解找设计参考]]'
+- '[[tool-月白-AI设计里程碑拆解法]]'
+- '[[tool-月白-设计项目MVP拆解法]]'
+- '[[tool-月白-AIGC反向拆解法]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[tool-月白-AI需求拆解咨询法]]'
+- '[[tool-泛产品落地-里程碑拆解]]'
+- '[[business-formula-domain-digest]]'
+- '[[tool-一堂-业务公式-L1L6参数分层自检]]'
+- '[[dk-yitang-business-formula-pseudo-causality-two-masks]]'
+- '[[case-yitang-burger-franchise-key-path]]'
+- '[[case-yitang-tob-devboard-price-coupling]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 author: 欧阳锋
 confidence: 0.85
-
 ---
 
 ## 原始表述

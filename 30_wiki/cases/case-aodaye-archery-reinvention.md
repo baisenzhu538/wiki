@@ -1,50 +1,51 @@
 ---
 id: case-aodaye-archery-reinvention
-title: "嗷大叶·射箭馆重构：17→3→17的模型重生"
+title: 嗷大叶·射箭馆重构：17→3→17的模型重生
 type: case
 status: draft
 confidence: 0.85
 trust_level: medium
 domain:
-  - innovation
+- innovation
 author: 老顽童
-review_date: "2026-07-26"
-reviewed_by: 待审
-  - framework-kdo-modeling-methodology
-  - framework-yitang-shishi-qiushi
-created_at: "2026-07-26"
-updated_at: "2026-07-26"
+review_date: '2026-07-26'
+reviewed_by: 待审 - framework-kdo-modeling-methodology - framework-yitang-shishi-qiushi
+created_at: '2026-07-26'
+updated_at: '2026-07-26'
 quality_labels:
-  - cited
-一句话标签: "射箭馆·旧模型粉碎→从底层重建"
+- cited
+一句话标签: 射箭馆·旧模型粉碎→从底层重建
 discoverable_by:
-  - 线下门店转型
-  - 重资产→轻资产
-  - 旧模型被证伪后重建
+- 线下门店转型
+- 重资产→轻资产
+- 旧模型被证伪后重建
 transferable_to:
-  - 餐饮连锁
-  - 零售门店
-  - 健身空间
+- 餐饮连锁
+- 零售门店
+- 健身空间
 similar_to:
-  - 得到APP（从罗辑思维到知识服务平台的重构）
+- 得到APP（从罗辑思维到知识服务平台的重构）
 opposite_of:
-  - 传统射箭馆（重资产、低坪效）
+- 传统射箭馆（重资产、低坪效）
 source_refs:
-  - "00_inbox/解放思想探索营/案例分享-口述.txt L946-1278"
-  - "00_inbox/解放思想探索营/案例分享-笔记.txt §三"
+- 00_inbox/解放思想探索营/案例分享-口述.txt L946-1278
+- 00_inbox/解放思想探索营/案例分享-笔记.txt §三
 related:
-  - framework-yitang-thought-liberation-lightning
-  - tool-mot-research-method
-  - tool-versioned-iteration
-  - tool-cross-city-replication-test
+- framework-yitang-thought-liberation-lightning
+- tool-mot-research-method
+- tool-versioned-iteration
+- tool-cross-city-replication-test
 diagnostic_signals:
-  - signal: "创新方案执行后效果不如预期"
-    lens: 检查是否跳过了闪电模型的某个步骤
-    follow_up: 按四步闭环逐步排查
-  - signal: "团队对创新方法论的理解不一致"
-    lens: 培训不够或框架表达不清晰
-    follow_up: 用十层解读法重新学习框架
-
+- signal: 创新方案执行后效果不如预期
+  lens: 检查是否跳过了闪电模型的某个步骤
+  follow_up: 按四步闭环逐步排查
+- signal: 团队对创新方法论的理解不一致
+  lens: 培训不够或框架表达不清晰
+  follow_up: 用十层解读法重新学习框架
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 定位：[[framework-yitang-thought-liberation-lightning]] 第 4 步「建模重构」的典型案例。

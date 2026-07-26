@@ -1,28 +1,32 @@
 ---
 id: concept-目标管理组织四阶段
-title: "目标管理组织四阶段：从不关注到统一体系"
+title: 目标管理组织四阶段：从不关注到统一体系
 type: concept
 status: draft
 confidence: 0.85
 trust_level: high
 domain:
-  - management
+- management
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
+- insight
 source_refs:
-  - "00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §7.1"
-  - "00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L1360-L1416"
+- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §7.1
+- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L1360-L1416
 related:
-  - yt-management-goal-management
-  - framework-目标三层拆解
-  - dk-目标管理四大病
-  - concept-目标-北极星型vs探索型
-  - management-domain-digest
+- yt-management-goal-management
+- framework-目标三层拆解
+- dk-目标管理四大病
+- concept-目标-北极星型vs探索型
+- management-domain-digest
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 
 # 目标管理组织四阶段：从不关注到统一体系

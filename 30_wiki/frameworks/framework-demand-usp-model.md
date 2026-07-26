@@ -31,6 +31,10 @@ related:
 - proposal-prompt-injection-infrastructure
 - tool-yitang-amazon-bestseller
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # USP需求洞察模型
 

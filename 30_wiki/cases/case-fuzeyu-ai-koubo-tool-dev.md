@@ -44,6 +44,9 @@ tags:
 - AI口播
 - 产品开发
 - 短视频
+- audience:general
+- scene:reference
+- skill-level:advanced
 query_triggers:
 - 付则宇
 - AI口播工具

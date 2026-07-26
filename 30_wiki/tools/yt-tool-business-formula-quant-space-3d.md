@@ -47,6 +47,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 定量空间三维评估：差距 × 对标 × 成熟度

@@ -3,26 +3,30 @@ id: tool-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
-  - ai-saas
+- ai-collaboration
+- yitang
+- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - "[[tool-ai-evidence-check]]"
-  - "[[tool-ai-voice-input-doubao]]"
-  - "[[tool-ai-prd-for-ai]]"
-  - "[[structured-ai-workspace]]"
-  - "[[tool-ai-old-small-checklist]]"
-  - "[[tool-Truman-多Agent通信协作方案]]"
-  - "[[tool-ai-parallel-validation]]"
+- '[[tool-ai-evidence-check]]'
+- '[[tool-ai-voice-input-doubao]]'
+- '[[tool-ai-prd-for-ai]]'
+- '[[structured-ai-workspace]]'
+- '[[tool-ai-old-small-checklist]]'
+- '[[tool-Truman-多Agent通信协作方案]]'
+- '[[tool-ai-parallel-validation]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 技能：结构化AI工作空间搭建
 

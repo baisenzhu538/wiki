@@ -3,8 +3,8 @@ id: tool-水水-练习坦然说不知道
 title: 技能：练习坦然说不知道
 type: tool
 domain:
-  - personal-growth
-  - marketing
+- personal-growth
+- marketing
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,11 +16,15 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - "[[tool-水水-接受发散性世界观]]"
-  - "[[tool-水水-区分风险与不确定性]]"
-  - "[[tool-水水-利用叙事驱动决策]]"
-  - "[[tool-水水-利用基因漂变视角]]"
-  - "[[tool-水水-构建自利叙事]]"
+- '[[tool-水水-接受发散性世界观]]'
+- '[[tool-水水-区分风险与不确定性]]'
+- '[[tool-水水-利用叙事驱动决策]]'
+- '[[tool-水水-利用基因漂变视角]]'
+- '[[tool-水水-构建自利叙事]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 技能：练习坦然说不知道
 

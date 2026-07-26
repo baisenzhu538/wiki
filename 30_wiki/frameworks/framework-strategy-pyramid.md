@@ -20,6 +20,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - tool-strategy-four-layers
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 企业战略金字塔：公司、业务与职能协同
 

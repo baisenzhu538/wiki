@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-growth-cohort-analysis
@@ -18,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[tool-设计对抗效果追踪看板]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[tool-设计对抗效果追踪看板]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 同期群分析——留存率下降需要分群分析，找到具体 cohort
   follow_up_question: 哪个 cohort 的留存率下降？是新用户还是老用户？哪个渠道的用户？
@@ -34,7 +33,10 @@ diagnostic_signals:
   follow_up_question: 你的 cohort 留存曲线是什么形状？是改善还是恶化？
 - framework_lens: 同期群分析——按渠道分群，对比留存
   follow_up_question: 不同渠道的用户 cohort 留存曲线对比如何？
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 同期群分析：用户行为追踪

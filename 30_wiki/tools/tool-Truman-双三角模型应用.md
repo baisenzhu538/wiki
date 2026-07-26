@@ -3,23 +3,27 @@ id: tool-Truman-双三角模型应用
 title: 技能：双三角模型应用
 type: tool
 domain:
-  - ai-collaboration
-  - yitang- yitang
+- ai-collaboration
+- yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - "[[tool-Truman-提示词优化底层方法]]"
-  - "[[tool-Truman-开源模型与商业模型融合方案]]"
-  - "[[tool-Truman-Feature特性层训练法]]"
-  - "[[tool-Truman-AI场景探索STAR模型]]"
-  - "[[tool-Truman-数学题与语文题区分法]]"
+- '[[tool-Truman-提示词优化底层方法]]'
+- '[[tool-Truman-开源模型与商业模型融合方案]]'
+- '[[tool-Truman-Feature特性层训练法]]'
+- '[[tool-Truman-AI场景探索STAR模型]]'
+- '[[tool-Truman-数学题与语文题区分法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：双三角模型应用
 

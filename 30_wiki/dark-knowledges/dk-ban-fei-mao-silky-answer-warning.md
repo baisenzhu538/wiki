@@ -1,5 +1,4 @@
 ---
-
 id: dk-ban-fei-mao-silky-answer-warning
 title: 暗知识：AI 回答越丝滑，问题越大
 type: dk
@@ -14,13 +13,13 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
-  - "[[dk-ban-fei-mao-silky-answers-are-dangerous]]"
-  - "[[dk-ban-fei-mao-skill-rejection-value]]"
-  - "[[dk-ai-judgment-human-responsibility]]"
-  - "[[dk-wanghuan-spec-trap]]"
-  - "[[yt-five-step-method]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[yitang-domain-digest]]"
+- '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
+- '[[dk-ai-judgment-human-responsibility]]'
+- '[[dk-wanghuan-spec-trap]]'
+- '[[yt-five-step-method]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
@@ -36,7 +35,10 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 认知偏差——人倾向于把"结构完整"误认为"正确"
   follow_up_question: 在采纳前，先用三轮检查法验证一遍：这是推理还是证据？有没有更好的数据？有没有贴近业务场景的可验证信息？
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 暗知识：AI 回答越丝滑，问题越大

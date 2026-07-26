@@ -1,5 +1,4 @@
 ---
-
 id: case-milktea-five-step
 title: 奶茶店五步法：从九死一生到十年百店的科学创业之路
 type: case
@@ -17,12 +16,12 @@ source_refs:
 created_at: 2026-06-11
 updated_at: 2026-06-28
 related:
-  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
-  - "[[concept-一堂-key-assumptions]]"
-  - "[[case-treadmill-demand-analysis]]"
-  - "[[case-shampoo-product-kernel]]"
-  - "[[case-一堂-无人餐厅-hypothesis-failure]]"
-  - "[[yitang-domain-digest]]"
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[case-treadmill-demand-analysis]]'
+- '[[case-shampoo-product-kernel]]'
+- '[[case-一堂-无人餐厅-hypothesis-failure]]'
+- '[[yitang-domain-digest]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -31,10 +30,13 @@ pipeline:
 - src_unknown
 author: 黄药师
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.85
 trust_level: high
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 > 黄药师骨架 · 老顽童填内容

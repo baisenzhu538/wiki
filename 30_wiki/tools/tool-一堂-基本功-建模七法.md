@@ -46,6 +46,10 @@ quality_labels:
 - actionable
 - principle
 - insight
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 建模七法：从本质要素到 SOP，把基本功建成固定套路

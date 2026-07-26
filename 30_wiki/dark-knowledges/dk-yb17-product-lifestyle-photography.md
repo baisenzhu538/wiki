@@ -20,6 +20,10 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+tags:
+- audience:executor
+- scene:reference
+- skill-level:beginner
 ---
 
 # 产品场景化拍摄：从商品到生活方式的升维

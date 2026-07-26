@@ -23,6 +23,10 @@ related:
 - '[[framework-一堂-机会预判]]'
 - yt-foresight-business-spectrum
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 商业机会预判·终局光谱图

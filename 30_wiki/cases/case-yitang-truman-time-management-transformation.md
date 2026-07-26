@@ -5,7 +5,7 @@ type: case
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -18,11 +18,15 @@ source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 60_feedback/extractions/extraction-kexue-linian-y-model.md
 related:
-- "[[yt-decision-y-model]]"
-- "[[method-yitang-y-model-engine-cycle]]"
-- "[[framework-yitang-shishi-qiushi]]"
-- "[[framework-yitang-jiefang-sixiang]]"
-- "[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"
+- '[[yt-decision-y-model]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[framework-yitang-jiefang-sixiang]]'
+- '[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 
 # 案例：Truman 用 Y模型 重构时间管理——从被动打断到科学体系

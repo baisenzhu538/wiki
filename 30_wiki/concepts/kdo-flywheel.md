@@ -7,13 +7,13 @@ domain:
 created_at: 2026-06-02
 updated_at: '2026-06-16'
 related:
-- "[[knowledge-delivery-os-快速体验指南-飞书云文档]]"
-- "[[proposal-deep-synthesis-infrastructure]]"
-- "[[proposal-ai-domain-mastery-pipeline]]"
-- "[[knowledge-error-self-exposure]]"
-- "[[proposal-kdo-flywheel-infrastructure]]"
-- "[[kdo-yaml-frontmatter-safety]]"
-- "[[proposal-kdo-flywheel-infrastructure]]"
+- '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+- '[[proposal-deep-synthesis-infrastructure]]'
+- '[[proposal-ai-domain-mastery-pipeline]]'
+- '[[knowledge-error-self-exposure]]'
+- '[[proposal-kdo-flywheel-infrastructure]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[proposal-kdo-flywheel-infrastructure]]'
 query_triggers:
 - src_unknown
 - src_unknown
@@ -30,6 +30,10 @@ trust_level: medium
 source_refs:
 - 'pending_archive: src_unknown'
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）# KDO 飞轮 — 建造→使用→反思→实验
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 > **核心定位**：KDO 不是静态知识库，是**每一圈产出都在提升下一圈起点的认知飞轮**。飞轮停下来的时候，KDO 就变成了一个普通的 wiki。
 

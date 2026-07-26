@@ -16,16 +16,20 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212406_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212406_vlm_desc.md
 related:
-- "[[case-lean-electric-scooter-mvp]]"
-- "[[framework-lean-six-wastes]]"
-- "[[strategy-domain-digest]]"
-- "[[yitang-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[tool-lean-ai-accelerated-validation]]"
-- "[[tool-lean-human-replace-rnd]]"
-- "[[tool-lean-presell]]"
+- '[[case-lean-electric-scooter-mvp]]'
+- '[[framework-lean-six-wastes]]'
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[tool-lean-ai-accelerated-validation]]'
+- '[[tool-lean-human-replace-rnd]]'
+- '[[tool-lean-presell]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 只发布最小版本

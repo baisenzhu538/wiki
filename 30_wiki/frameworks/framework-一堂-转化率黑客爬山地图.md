@@ -1,5 +1,4 @@
 ---
-
 id: framework-一堂-转化率黑客爬山地图
 title: 一堂转化率黑客爬山地图：六段 L1-L6 能力段位与三次跨越
 type: framework
@@ -49,12 +48,15 @@ related:
 - '[[tool-一堂-触点挖掘四层级]]'
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
-
 quality_labels:
 - principle
 - framework
 - cited
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一堂转化率黑客爬山地图：六段 L1-L6 与三次跨越

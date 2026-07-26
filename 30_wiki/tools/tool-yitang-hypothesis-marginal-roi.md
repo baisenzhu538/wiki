@@ -28,6 +28,10 @@ related:
 quality_labels:
 - actionable
 - framework
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 工具：测试三难题 + 边际 ROI 决策框架

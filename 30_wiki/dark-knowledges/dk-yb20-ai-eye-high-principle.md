@@ -21,6 +21,10 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+tags:
+- audience:executor
+- scene:reference
+- skill-level:beginner
 ---
 
 # AIGC眼高原则：审美先于技术

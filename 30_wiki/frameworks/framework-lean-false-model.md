@@ -40,6 +40,10 @@ related:
 - tool-lean-minimum-version
 - tool-lean-premium-service
 created_at: '2026-06-30'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一堂 FALSE/FLESAI 低成本验证模型

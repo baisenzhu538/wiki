@@ -1,5 +1,4 @@
 ---
-
 id: case-ji-hao-skill-market-problem-validation
 title: 案例：一堂Skill市场从伪需求到真实需求的四问验证
 type: case
@@ -17,23 +16,18 @@ updated_at: 2026-06-28
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 related:
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  
-wiki_refs:
-
-
-
-
-definition_of_done:
-
-
-pipeline:
-
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
+wiki_refs: null
+definition_of_done: null
+pipeline: null
 author: 纪浩
 confidence: 0.7
 trust_level: low
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:beginner
 ---
 
 ## 原始表述

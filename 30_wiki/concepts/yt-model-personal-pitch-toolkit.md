@@ -21,14 +21,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[yt-pitch-scenarization]]"
-- "[[yt-pitch-colloquialization]]"
-- "[[yt-pitch-quantification]]"
-- "[[yt-pitch-storytelling]]"
-- "[[yt-pitch-materialization]]"
-- "[[yt-pitch-metaphor]]"
-- "[[yt-pitch-aphorism]]"
-- "[[yt-pitch-emotionalization]]"
+- '[[yt-pitch-scenarization]]'
+- '[[yt-pitch-colloquialization]]'
+- '[[yt-pitch-quantification]]'
+- '[[yt-pitch-storytelling]]'
+- '[[yt-pitch-materialization]]'
+- '[[yt-pitch-metaphor]]'
+- '[[yt-pitch-aphorism]]'
+- '[[yt-pitch-emotionalization]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
@@ -47,6 +47,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 十指讲香模型（框架）

@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[yt-business-analysis-cognitive-biases]]"
-  - "[[yt-business-formula-l6-essence-formulas]]"
-  - "[[yt-business-formula-parameter-iceberg]]"
+- '[[yt-business-analysis-cognitive-biases]]'
+- '[[yt-business-formula-l6-essence-formulas]]'
+- '[[yt-business-formula-parameter-iceberg]]'
 diagnostic_signals:
 - framework_lens: 轻资产模式——重资产模式现金流压力大，考虑轻资产
   follow_up_question: 你的资产投入中，哪些可以外包或合作？轻资产模式是否可行？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 轻资产模式的不稳定性来自哪里？管理能力是否匹配？
 - framework_lens: 轻资产模式——核心竞争力不在资产，应考虑轻资产
   follow_up_question: 你的核心竞争力是什么？是资产、品牌、技术、还是运营？
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 轻资产模式：资源杠杆

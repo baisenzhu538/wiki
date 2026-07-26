@@ -62,6 +62,10 @@ quality_labels:
 - framework
 - cited
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 一堂触点本质论
 

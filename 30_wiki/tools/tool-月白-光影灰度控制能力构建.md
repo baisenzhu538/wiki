@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-AIGC产品白底图制作]]"
-  - "[[tool-月白-设计基本功回归法]]"
-  - "[[tool-月白-工厂对接信息清单制作]]"
-  - "[[tool-月白-封面情绪转化法]]"
-  - "[[tool-月白-AI生成图片排版控制-尺寸优先法]]"
+- '[[tool-月白-AIGC产品白底图制作]]'
+- '[[tool-月白-设计基本功回归法]]'
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[tool-月白-封面情绪转化法]]'
+- '[[tool-月白-AI生成图片排版控制-尺寸优先法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：光影灰度控制能力构建
 

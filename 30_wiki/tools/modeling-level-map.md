@@ -12,9 +12,9 @@ source_refs:
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -23,10 +23,13 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.78
 related:
-- "[[modeling-capability-system]]"
-- "[[modeling-three-stages]]"
-- "[[modeling-weapon-library]]"
-tags: []
+- '[[modeling-capability-system]]'
+- '[[modeling-three-stages]]'
+- '[[modeling-weapon-library]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 六段能力段位图
   follow_up_question: 你能稳定产出 SOP 吗？能跨场景提炼模型吗？能一句话概括本质吗？

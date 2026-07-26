@@ -23,6 +23,10 @@ related:
 - concept-发现决策
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 # 个人成长五步法
 

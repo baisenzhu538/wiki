@@ -18,6 +18,9 @@ tags:
 - '#decision-science'
 - '#Y-model'
 - '#pitfall'
+- audience:executor
+- scene:reference
+- skill-level:advanced
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋

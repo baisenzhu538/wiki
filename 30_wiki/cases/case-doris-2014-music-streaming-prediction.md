@@ -25,6 +25,10 @@ related:
 - '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # 案例：预判音乐流媒体趋势
 

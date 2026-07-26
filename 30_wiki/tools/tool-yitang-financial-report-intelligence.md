@@ -37,6 +37,10 @@ related:
 - '[[pending_unknown]]'
 - yt-business-model-unit-economics
 - tool-yitang-research-unit-model
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 财报/招股书情报：用上市公司公开报告做创业预判
 

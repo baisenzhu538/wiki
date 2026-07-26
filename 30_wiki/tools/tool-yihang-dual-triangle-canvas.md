@@ -22,10 +22,10 @@ source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-画布案例2.png
 - 00_inbox/人机协作双三角/_processed/任务建议_双三角画布填充Prompt.md
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-dual-triangle-weapon-library]]"
-- "[[framework-yihang-dual-triangle-three-stages-six-changes]]"
-- "[[agent-spec-dual-triangle-canvas-filler]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-dual-triangle-weapon-library]]'
+- '[[framework-yihang-dual-triangle-three-stages-six-changes]]'
+- '[[agent-spec-dual-triangle-canvas-filler]]'
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
@@ -38,6 +38,10 @@ related:
 aliases:
 - 双三角画布
 - 一行双三角画布
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一行双三角画布（三版合一）

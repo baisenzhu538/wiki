@@ -5,8 +5,8 @@ type: dk
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
-confidence: 0.90
+review_date: '2026-07-05'
+confidence: 0.9
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
@@ -18,8 +18,12 @@ source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
 related:
-- "[[framework-yitang-shishi-qiushi]]"
-- "[[tool-yitang-quantitative-research-checklist]]"
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[tool-yitang-quantitative-research-checklist]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 早期项目长期精确财务预测是过度预测

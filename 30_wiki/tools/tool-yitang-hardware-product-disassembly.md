@@ -24,6 +24,10 @@ related:
 - '[[tool-yitang-product-full-experience]]'
 - tool-ai-prd-for-ai
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 硬件产品拆解调研

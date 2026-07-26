@@ -23,6 +23,10 @@ related:
 - concept-发现决策
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 项目背景分析：启动前的环境扫描
 

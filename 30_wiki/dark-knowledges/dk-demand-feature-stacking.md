@@ -1,5 +1,4 @@
 ---
-
 id: dk-demand-feature-stacking
 title: 功能堆叠陷阱：加功能≠满足需求
 type: dk
@@ -17,15 +16,18 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
-  - "[[yt-demand-fake-demand-detection]]"
-  - "[[dk-demand-premature-solution]]"
-  - "[[dk-demand-switching-cost]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[yitang-domain-digest]]"
-  - "[[case-demand-dialer]]"
+- '[[yt-demand-fake-demand-detection]]'
+- '[[dk-demand-premature-solution]]'
+- '[[dk-demand-switching-cost]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yitang-domain-digest]]'
+- '[[case-demand-dialer]]'
 updated_at: 2026-06-28
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 功能堆叠陷阱：加功能≠满足需求

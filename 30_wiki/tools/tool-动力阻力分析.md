@@ -1,12 +1,11 @@
 ---
-
 id: tool-动力阻力分析
 title: 动力阻力分析：用户行为的推拉模型
 type: tool
 status: pending_review
 author: 老顽童
 reviewed_by: pending
-confidence: 0.80
+confidence: 0.8
 trust_level: medium-high
 language: zh-CN
 domain:
@@ -65,6 +64,10 @@ related:
 - '[[case-一堂-我请客推荐率5到40]]'
 - '[[case-一堂-教研加微信率40到100]]'
 updated_at: '2026-07-13'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 动力阻力分析：用户行为的推拉模型

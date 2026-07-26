@@ -16,8 +16,8 @@ domain:
 source_person: 一堂运营团队
 source_context: 一堂年度大课“全会员出圈”活动转化优化案例
 source_refs:
-- '00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L424-L458'
-- '00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3988-L4010'
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L424-L458
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3988-L4010
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'
@@ -34,6 +34,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 一堂年度大课前全会员出圈活动，从寄送礼物后实际发圈率约 1.5%（30-50 人）翻一倍到 60-100 人，靠的是「承诺一致 + 降低阻力 + 奖项素材 + 冲榜动力」的落地页完整链。

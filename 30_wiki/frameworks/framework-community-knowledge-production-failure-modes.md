@@ -1,53 +1,56 @@
 ---
-id: "framework-community-knowledge-production-failure-modes"
-title: "社群知识生产失败模式库"
-type: "framework"
+id: framework-community-knowledge-production-failure-modes
+title: 社群知识生产失败模式库
+type: framework
 domain:
-  - "content-production"
-  - "knowledge-management"
-status: "reviewed"
+- content-production
+- knowledge-management
+status: reviewed
 confidence: 0.82
-difficulty: "intermediate"
-language: "zh-CN"
-created_at: "2026-06-30T16:07:51+00:00"
-updated_at: "2026-06-30T16:19:57+00:00"
-author: "老顽童"
-reviewed_by: "欧阳锋"
-review_date: "2026-06-30"
+difficulty: intermediate
+language: zh-CN
+created_at: '2026-06-30T16:07:51+00:00'
+updated_at: '2026-06-30T16:19:57+00:00'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-30'
 source_refs:
-  - "00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md"
-  - "00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md"
+- 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md
+- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 query_triggers:
-  - 社群知识生产有哪些失败模式
-  - 开源群为什么会静默
-  - 微信群知识沉淀失败的原因
-  - 多 Agent 协作有哪些失败模式
-  - 知识社群如何避免搭便车
-  - 社群运营早期预警信号
+- 社群知识生产有哪些失败模式
+- 开源群为什么会静默
+- 微信群知识沉淀失败的原因
+- 多 Agent 协作有哪些失败模式
+- 知识社群如何避免搭便车
+- 社群运营早期预警信号
 aliases:
-  - community-knowledge-failure-modes
-  - 社群失败模式库
-  - 知识生产失败模式
+- community-knowledge-failure-modes
+- 社群失败模式库
+- 知识生产失败模式
 tags:
-  - "#scene/community"
-  - "#scene/content-team"
-  - "knowledge-management"
+- '#scene/community'
+- '#scene/content-team'
+- knowledge-management
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 quality_labels:
-  - principle
-  - validated
+- principle
+- validated
 related:
-  - "[[concept-open-source-knowledge-usage-boundary]]"
-  - "[[case-daxin-team-content-training-camp]]"
-  - "[[case-daxin-vikki-community-contrast]]"
-  - "[[framework-content-business-six-step]]"
-  - "[[framework-founder-ip-three-positioning]]"
-  - "[[framework-brand-three-degree]]"
-  - "[[tool-shortvideo-six-dimension-deconstruction]]"
-  - "[[system-kdo-quality-labels]]"
-  - "[[dk-community-lecturer-vs-crowd-model]]"
-  - "[[dk-content-muscle-memory-vs-knowledge]]"
+- '[[concept-open-source-knowledge-usage-boundary]]'
+- '[[case-daxin-team-content-training-camp]]'
+- '[[case-daxin-vikki-community-contrast]]'
+- '[[framework-content-business-six-step]]'
+- '[[framework-founder-ip-three-positioning]]'
+- '[[framework-brand-three-degree]]'
+- '[[tool-shortvideo-six-dimension-deconstruction]]'
+- '[[system-kdo-quality-labels]]'
+- '[[dk-community-lecturer-vs-crowd-model]]'
+- '[[dk-content-muscle-memory-vs-knowledge]]'
 pipeline:
-  - "confidence-draft"
+- confidence-draft
 ---
 
 # 社群知识生产失败模式库

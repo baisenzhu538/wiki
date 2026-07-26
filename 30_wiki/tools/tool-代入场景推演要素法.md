@@ -33,6 +33,10 @@ related:
 - '[[tool-将未中标成本纳入循环计算真实投标成本]]'
 - '[[tool-复盘推演练习]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：代入场景推演要素法
 

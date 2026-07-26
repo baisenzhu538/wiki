@@ -24,7 +24,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
-tags: []
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 pipeline:
 - src_unknown
 diagnostic_signals:
@@ -46,11 +49,11 @@ author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
 related:
-- "[[yt-five-step-method]]"
-- "[[case-five-step-growth-first-lever]]"
-- "[[case-five-step-fake-vs-real-barriers]]"
-- "[[yt-growth-cycle-model]]"
-- "[[yt-entrepreneur-barriers]]"
+- '[[yt-five-step-method]]'
+- '[[case-five-step-growth-first-lever]]'
+- '[[case-five-step-fake-vs-real-barriers]]'
+- '[[yt-growth-cycle-model]]'
+- '[[yt-entrepreneur-barriers]]'
 ---
 
 # 五步法衔接：什么时候从增长切换到壁垒建设

@@ -13,10 +13,10 @@ author: 老顽童
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 related:
-  - "[[yt-foresight-15-char-mantra]]"
-  - "[[yt-foresight-ab-steady-state]]"
-  - "[[yt-foresight-addition-subtraction]]"
-  - "[[framework-一堂-机会预判]]"
+- '[[yt-foresight-15-char-mantra]]'
+- '[[yt-foresight-ab-steady-state]]'
+- '[[yt-foresight-addition-subtraction]]'
+- '[[framework-一堂-机会预判]]'
 query_triggers:
 - src_unknown
 - src_unknown
@@ -37,6 +37,10 @@ diagnostic_signals:
 language: zh-CN
 created_at: 2026-06-11
 updated_at: '2026-06-28'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 十大硬伤：商业机会的致死缺陷清单

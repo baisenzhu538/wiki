@@ -28,6 +28,10 @@ related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[business-formula-domain-digest]]'
 - '[[dk-yitang-business-formula-plus-times-trap]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # ToB芯片开发板：降价涨量但ToB客户不变，参数耦合的定价回摆

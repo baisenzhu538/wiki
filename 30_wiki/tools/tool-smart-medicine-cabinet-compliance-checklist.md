@@ -25,6 +25,10 @@ related:
 - '[[tool-clinic-cabinet-legal-contract-guide]]'
 - tool-strategy-gap-analysis
 - tool-ai-use-barbell-strategy
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 ## 操作步骤
 

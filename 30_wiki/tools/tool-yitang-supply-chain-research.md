@@ -33,6 +33,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - tool-yitang-research-continuous-tracking
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 供应链/合作方情报：从合作方口中拿到竞对的水下数据
 

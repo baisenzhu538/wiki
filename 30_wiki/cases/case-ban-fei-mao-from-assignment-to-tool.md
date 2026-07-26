@@ -1,5 +1,4 @@
 ---
-
 id: case-ban-fei-mao-from-assignment-to-tool
 title: 案例：半肥猫把一堂课程作业变成可复用调研工具
 type: case
@@ -14,12 +13,12 @@ source_refs:
 created_at: 2026-06-08
 updated_at: '2026-06-28'
 related:
-  - "[[tool-从案例中学习]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[case-科学决策-深度案例02]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
+- '[[tool-从案例中学习]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -37,7 +36,10 @@ diagnostic_signals:
   follow_up_question: 你当前有没有一个真实的、正在进行的业务问题？如果没有，练习结论的可迁移性会打多少折扣？
 - framework_lens: 信源与边界校准
   follow_up_question: 这条数据的来源是什么？是否适用于当前问题的时间、地域和客群范围？
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：半肥猫把一堂课程作业变成可复用调研工具

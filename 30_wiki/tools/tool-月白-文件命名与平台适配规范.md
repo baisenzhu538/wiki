@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-小红书双重搜索法]]"
-  - "[[tool-月白-AIGC设计作业复盘法]]"
-  - "[[tool-月白-AI自动生成多语种专业名词提示词]]"
-  - "[[tool-月白-实物包装落地训练法]]"
-  - "[[tool-月白-AI工艺图人工复核法]]"
+- '[[tool-月白-小红书双重搜索法]]'
+- '[[tool-月白-AIGC设计作业复盘法]]'
+- '[[tool-月白-AI自动生成多语种专业名词提示词]]'
+- '[[tool-月白-实物包装落地训练法]]'
+- '[[tool-月白-AI工艺图人工复核法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：文件命名与平台适配规范
 

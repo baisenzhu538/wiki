@@ -2,7 +2,7 @@
 id: yt-skill-storyline-timeline
 title: 清单体故事线①：严格时间线——用时间轴重构事件因果链
 domain:
-  - concepts
+- concepts
 diagnostic_signals:
 - framework_lens: 事实-推断分离 / 因果暴露
   follow_up_question: 时间线中是否混入'因为...所以...'解释性语言？
@@ -24,10 +24,13 @@ source_refs:
 - src_unknown
 source_context: 一堂清单体故事线系列（具体来源文件无法追溯，待后续补充）
 related:
-  - "[[yt-skill-storyline-contrast-analysis]]"
-  - "[[yt-skill-storyline-key-elements]]"
-  - "[[yt-skill-storyline-problem-solving]]"
-
+- '[[yt-skill-storyline-contrast-analysis]]'
+- '[[yt-skill-storyline-key-elements]]'
+- '[[yt-skill-storyline-problem-solving]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 

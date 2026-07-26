@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[yt-barrier-brand-equity]]"
-  - "[[yt-barrier-culture-moat]]"
-  - "[[yt-barrier-data-assets]]"
+- '[[yt-barrier-brand-equity]]'
+- '[[yt-barrier-culture-moat]]'
+- '[[yt-barrier-data-assets]]'
 diagnostic_signals:
 - framework_lens: 护城河评估工具——需要系统评估护城河强度
   follow_up_question: 你的护城河有哪些？每个护城河的强度、持续时间、可量化程度如何？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你的护城河按强度和重要性排序是什么？哪个是核心护城河？
 - framework_lens: 护城河评估工具——需要定期评估护城河变化
   follow_up_question: 你的护城河减弱的速度和原因是什么？是否需要紧急修复？
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 
 # 护城河评估工具

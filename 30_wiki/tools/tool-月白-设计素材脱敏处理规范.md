@@ -32,6 +32,10 @@ related:
 - '[[tool-月白-AIGC橱窗陈列设计流程]]'
 - '[[tool-纪浩-处理AI生成代码运行异常]]'
 - tool-ai-deliverable-polish-loop
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：设计素材脱敏处理规范

@@ -22,6 +22,10 @@ related:
 - '[[pending_unknown]]'
 - yt-decision-height-toolkit
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：是否搭建虚拟影棚
 

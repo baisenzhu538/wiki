@@ -31,6 +31,10 @@ related:
 - '[[tool-逐字稿练习演讲]]'
 - '[[tool-专家访谈十步法]]'
 - tool-分享输出检验法
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：费曼学习法实践（讲香课题）
 

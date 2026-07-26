@@ -1,28 +1,32 @@
 ---
 id: dk-process-is-scar-tissue
-title: "流程是业务的疤痕：每个节点都曾是流血后的痂"
+title: 流程是业务的疤痕：每个节点都曾是流血后的痂
 type: dk
 status: draft
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - modeling
+- modeling
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - principle
+- insight
+- principle
 source_refs:
-  - "00_inbox/Advanced modeling/ 口述 L2617-L2624"
+- 00_inbox/Advanced modeling/ 口述 L2617-L2624
 related:
-  - concept-truman-18-component-cards
-  - process-modeling
-  - dk-modeling-jump-step-cost
-  - modeling-level-map
-  - framework-modeling-relation-exploration
+- concept-truman-18-component-cards
+- process-modeling
+- dk-modeling-jump-step-cost
+- modeling-level-map
+- framework-modeling-relation-exploration
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 流程是业务的疤痕：每个节点都曾是流血后的痂

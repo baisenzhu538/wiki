@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-amazon-bestseller
 title: 亚马逊榜单：海外市场的品类趋势
 type: tool
@@ -16,13 +15,17 @@ domain:
 - research
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
-- "pending_archive:src_unknown"
+- pending_archive:src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[tool-demand-agent-case-match]]"
-  - "[[tool-demand-agent-multi-hypothesis]]"
-updated_at: "2026-06-30T16:07:51+00:00"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[tool-demand-agent-case-match]]'
+- '[[tool-demand-agent-multi-hypothesis]]'
+updated_at: '2026-06-30T16:07:51+00:00'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 亚马逊榜单

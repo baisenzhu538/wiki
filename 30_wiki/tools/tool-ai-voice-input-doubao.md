@@ -3,24 +3,28 @@ id: tool-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
-  - ai-saas
+- ai-collaboration
+- yitang
+- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - "[[sk-ai-voice-input-doubao]]"
-  - "[[tool-ai-ai-workspace-setup]]"
-  - "[[tool-ai-oral-spray-input]]"
-  - "[[tool-ai-prd-for-ai]]"
-  - "[[tool-ai-evidence-check]]"
+- '[[sk-ai-voice-input-doubao]]'
+- '[[tool-ai-ai-workspace-setup]]'
+- '[[tool-ai-oral-spray-input]]'
+- '[[tool-ai-prd-for-ai]]'
+- '[[tool-ai-evidence-check]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 技能：口喷式语音输入法
 

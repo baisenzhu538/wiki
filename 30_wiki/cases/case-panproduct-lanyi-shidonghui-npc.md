@@ -13,9 +13,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-28
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
@@ -25,17 +25,21 @@ source_refs:
 source_person: 兰毅 / 一堂
 confidence_note: 核心案例数据与主张均来自兰毅单一口述/一堂内部素材（L5 单源），尚未经独立第三方核实；已按修复原则下调置信度并显式标注待核实项。
 related:
-- "[[framework-pan-product-organization]]"
-- "[[framework-一堂五步法-泛产品设计]]"
-- "[[yt-composite-pan-product-methodology]]"
-- "[[case-yitang-topcity-growth-flywheel]]"
-- "[[framework-yitang-growth-flywheel]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-ai-accelerated-strategy-cycle]]"
-- "[[case-panproduct-lanyi-dahanghui-team]]"
-- "[[case-panproduct-lanyi-intern-flywheel]]"
-- "[[case-roblox-ai-npc-education]]"
+- '[[framework-pan-product-organization]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[case-yitang-topcity-growth-flywheel]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[framework-lean-abcd-model]]'
+- '[[framework-ai-accelerated-strategy-cycle]]'
+- '[[case-panproduct-lanyi-dahanghui-team]]'
+- '[[case-panproduct-lanyi-intern-flywheel]]'
+- '[[case-roblox-ai-npc-education]]'
 review_date: '2026-06-28'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 兰毅：世董会与 NPC 的组织产品化实践

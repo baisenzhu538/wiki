@@ -21,6 +21,10 @@ related:
 - '[[tool-yitang-web-scraping-research]]'
 - '[[tool-ai-prd-for-ai]]'
 updated_at: '2026-07-04'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 武器库策略12：媒体/社区搜索
 

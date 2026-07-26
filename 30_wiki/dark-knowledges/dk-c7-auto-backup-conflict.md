@@ -1,5 +1,4 @@
 ---
-
 id: dk-c7-auto-backup-conflict
 title: C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交
 type: dk
@@ -14,12 +13,12 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - "[[obsidian-kdo-内容产出工作流-产品设计大纲]]"
-  - "[[dk-ai-social-progress-not-automatic]]"
-  - "[[tool-demand-agent-auto-verify]]"
-  - "[[tool-马易-AI落地场景识别与拆分]]"
-  - "[[smart-device-foodservice-automation]]"
-  - "[[obsidian-git-sync-protocol]]"
+- '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
+- '[[dk-ai-social-progress-not-automatic]]'
+- '[[tool-demand-agent-auto-verify]]'
+- '[[tool-马易-AI落地场景识别与拆分]]'
+- '[[smart-device-foodservice-automation]]'
+- '[[obsidian-git-sync-protocol]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -39,7 +38,10 @@ diagnostic_signals:
   framework_lens: commit 历史被永久性破坏，后续 `git blame`、`git revert`、`git log --grep` 都会失效
   follow_up_question: 该 backup commit 是否需要拆分重建，以恢复可检索、可回滚的历史？# C-7：Obsidian auto-backup
     干扰 commit 拆分→staged 文件被自动打包提交
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述 / 核心洞察

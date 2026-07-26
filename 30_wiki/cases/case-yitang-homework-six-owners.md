@@ -7,7 +7,8 @@ domain:
 - yitang
 - business-formula
 source_person: 一堂（Truman 主讲，业务公式·逻辑关系篇）
-source_context: 一堂业务公式课「逻辑关系篇」主教学案：脱敏架空后设定 2022 年每周 1500 人学习、750 份作业、50% 作业率的起点，让六个段位（L1 模糊→L6 动态）的业务负责人各自操盘半年到一年，用同一目标展示「逻辑关系探索深度决定操盘水平高度」
+source_context: 一堂业务公式课「逻辑关系篇」主教学案：脱敏架空后设定 2022 年每周 1500 人学习、750 份作业、50% 作业率的起点，让六个段位（L1
+  模糊→L6 动态）的业务负责人各自操盘半年到一年，用同一目标展示「逻辑关系探索深度决定操盘水平高度」
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L410-L436
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L438-L594
@@ -40,6 +41,10 @@ related:
 - '[[case-yitang-shipinhao-ads-l1-l6]]'
 - '[[framework-一堂-关键假设]]'
 - '[[framework-科学决策三角形]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 一堂作业数六负责人推演：同一个作业率目标，六种业务理解深度决定六种操盘高度
 

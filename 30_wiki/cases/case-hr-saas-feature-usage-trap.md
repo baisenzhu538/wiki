@@ -1,5 +1,4 @@
 ---
-
 id: case-hr-saas-feature-usage-trap
 title: HR SaaS：把“功能使用率↑续费率↑”当因果的功能堆砌陷阱
 type: case
@@ -16,11 +15,9 @@ source_refs:
 - pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - pending_archive:src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
-
-
-
-
-
+- audience:general
+- scene:reference
+- skill-level:advanced
 created_at: '2026-06-16'
 updated_at: 2026-06-28
 author: 孔阳
@@ -32,13 +29,13 @@ review_date: '2026-06-16'
 confidence: 0.8
 trust_level: high
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[private-domain-saas-sales-funnel]]"
-  - "[[case-yitang-xujian-invoice-saas-channel]]"
-  - "[[tool-水水-识别自证预言陷阱]]"
-  - "[[case-saas-renewal-formula]]"
-  - "[[tool-水水-识别数据折磨陷阱]]"
-  - "[[case-truman-ai-skill-self-packaging]]"
+- '[[yitang-domain-digest]]'
+- '[[private-domain-saas-sales-funnel]]'
+- '[[case-yitang-xujian-invoice-saas-channel]]'
+- '[[tool-水水-识别自证预言陷阱]]'
+- '[[case-saas-renewal-formula]]'
+- '[[tool-水水-识别数据折磨陷阱]]'
+- '[[case-truman-ai-skill-self-packaging]]'
 ---
 
 # HR SaaS：把“功能使用率↑续费率↑”当因果的功能堆砌陷阱

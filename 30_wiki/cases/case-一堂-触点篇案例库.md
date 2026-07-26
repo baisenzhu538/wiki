@@ -15,19 +15,19 @@ domain:
 - conversion-rate
 source_context: 收录《转化率黑客·触点篇》口述稿中用于说明触点本质、SABC 分级与触点挖掘的案例
 source_refs:
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L238-L376"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L512-L620"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L792-L972"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1166-L1196"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1346-L1364"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2100-L2174"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2464-L2620"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2638-L2682"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2708-L2730"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2856-L2928"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2980-L3022"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3132-L3186"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3680-L3714"
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L238-L376
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L512-L620
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L792-L972
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1166-L1196
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1346-L1364
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2100-L2174
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2464-L2620
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2638-L2682
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2708-L2730
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2856-L2928
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2980-L3022
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3132-L3186
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3680-L3714
 related:
 - framework-一堂-转化率黑客-总纲
 - framework-一堂-转化率提升六步法
@@ -53,13 +53,16 @@ related:
 - tool-一堂-触点挖掘四层级
 - tool-一堂-触点质量五维
 - tool-一堂-讲香双策略
-
 - case-yitang-sales-transformation-jubensha-saas
 - case-yitang-sales-transformation-meirongyuan
 - case-yitang-sales-transformation-tuliaogongsi
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 触点篇案例库：一堂用 30+ 个案例说明「触点不是销售点，而是所有与用户接触的机会」，核心规律是：触点挖出来就能用，不挖就浪费。

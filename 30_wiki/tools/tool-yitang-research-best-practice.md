@@ -28,22 +28,26 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- "[[framework-yitang-iterative-recursive-digging]]"
-- "[[tool-yitang-research-industry-scan]]"
-- "[[business-research-skill-oscar-13-weapon-system]]"
-- "[[system-yitang-research-workflow]]"
-- "[[tool-yitang-research-follow-map]]"
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-competitor-tracking]]"
-- "[[tool-yitang-research-industry-scan]]"
-- "[[yt-research-competitor-toolkit]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-survivor-bias-in-research]]"
-- "[[concept-yitang-research-mindset]]"
-- "[[tool-candy-positioning-canvas]]"
-- "[[tool-yitang-research-company-disassembly]]"
+- '[[framework-yitang-iterative-recursive-digging]]'
+- '[[tool-yitang-research-industry-scan]]'
+- '[[business-research-skill-oscar-13-weapon-system]]'
+- '[[system-yitang-research-workflow]]'
+- '[[tool-yitang-research-follow-map]]'
+- '[[framework-yitang-oscar-research]]'
+- '[[framework-yitang-18-strategy-cards]]'
+- '[[tool-yitang-research-competitor-tracking]]'
+- '[[tool-yitang-research-industry-scan]]'
+- '[[yt-research-competitor-toolkit]]'
+- '[[case-yitang-sanjieke-benchmark-failure]]'
+- '[[dk-yitang-research-starter-vs-veteran]]'
+- '[[dk-yitang-survivor-bias-in-research]]'
+- '[[concept-yitang-research-mindset]]'
+- '[[tool-candy-positioning-canvas]]'
+- '[[tool-yitang-research-company-disassembly]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 最佳实践调研：找到行业标杆，复制成功因素

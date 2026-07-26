@@ -53,6 +53,10 @@ quality_labels:
 - validated
 updated_at: '2026-06-29'
 created_at: '2026-06-30'
+tags:
+- audience:manager
+- scene:diagnosis
+- skill-level:intermediate
 ---
 # TCP-R 模型：商业管理世界的底层网络协议
 

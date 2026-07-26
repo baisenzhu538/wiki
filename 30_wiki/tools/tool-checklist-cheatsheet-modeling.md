@@ -1,5 +1,4 @@
 ---
-
 id: tool-checklist-cheatsheet-modeling
 title: 清单/小抄建模法：把经验变成可执行的检查点
 type: tool
@@ -13,9 +12,9 @@ domain:
 - src_unknown
 - src_unknown
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -24,22 +23,25 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.89
 related:
-  - "[[dk-modeling-sop-execution-locks]]"
-  - "[[tool-制作行业化要素检查清单]]"
-  - "[[tool-月白-供应商信息对齐清单法]]"
-  - "[[tool-稀缺资源清单]]"
-  - "[[tool-清单式笔记法]]"
-  - "[[tool-用清单体记备忘笔记]]"
-  - "[[tool-月白-工厂对接信息清单制作]]"
-  - "[[轻量级诊所HIS调研全清单]]"
-  - "[[tool-清单小抄工具箱法]]"
-  - "[[tool-sabc-tier-modeling]]"
-  - "[[tool-scenario-selector-modeling]]"
+- '[[dk-modeling-sop-execution-locks]]'
+- '[[tool-制作行业化要素检查清单]]'
+- '[[tool-月白-供应商信息对齐清单法]]'
+- '[[tool-稀缺资源清单]]'
+- '[[tool-清单式笔记法]]'
+- '[[tool-用清单体记备忘笔记]]'
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[轻量级诊所HIS调研全清单]]'
+- '[[tool-清单小抄工具箱法]]'
+- '[[tool-sabc-tier-modeling]]'
+- '[[tool-scenario-selector-modeling]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 清单/小抄建模
   follow_up_question: 这个任务是否重复发生 3 次以上？漏掉的动作能否写成一个可检查的检查点？
@@ -51,7 +53,6 @@ diagnostic_signals:
   follow_up_question: 清单是否有督导/品控？是否每 3-5 次执行后复盘更新？
 - framework_lens: 颗粒度校准
   follow_up_question: 每条检查点是否是一个具体动作，而不是"注意质量"这类空话？
-
 ---
 
 # 清单/小抄建模法：把经验变成可执行的检查点

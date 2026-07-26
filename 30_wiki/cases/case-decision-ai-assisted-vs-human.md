@@ -1,5 +1,4 @@
 ---
-
 id: case-decision-ai-assisted-vs-human
 title: AI 辅助决策 vs 人工决策的边界案例
 type: case
@@ -8,9 +7,9 @@ domain:
 - ai-collaboration
 status: reviewed
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童
@@ -21,13 +20,17 @@ trust_level: medium
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - "[[framework-decision-quality-checklist]]"
-  - "[[framework-decision-cognitive-bias-map]]"
-  - "[[concept-AI时代双三角竞争力]]"
-  - "[[dk-decision-when-to-defer]]"
-  - "[[case-科学决策-深度案例01]]"
-  - "[[case-truman-ai-skill-engineering-guide]]"
-  - "[[case-yitang-model-valuation-flywheel]]"
+- '[[framework-decision-quality-checklist]]'
+- '[[framework-decision-cognitive-bias-map]]'
+- '[[concept-AI时代双三角竞争力]]'
+- '[[dk-decision-when-to-defer]]'
+- '[[case-科学决策-深度案例01]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[case-yitang-model-valuation-flywheel]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 
 # AI 辅助决策 vs 人工决策的边界案例

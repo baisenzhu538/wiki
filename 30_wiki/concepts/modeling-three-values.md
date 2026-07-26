@@ -24,6 +24,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 source_context: 单一source为完整长文档，内容充分支撑high trust。P1收尾时从high降为medium，待补充第二来源或充分验证后再升回high
 diagnostic_signals:
 - lens: 确定性缺失

@@ -23,6 +23,10 @@ related:
 - '[[tool-Truman-人在环渐进自动化策略]]'
 - '[[tool-Truman-本地记忆与云端记忆管理]]'
 - tinyfish-agentic-web-infrastructure
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：复杂项目AI落地稳定性保障

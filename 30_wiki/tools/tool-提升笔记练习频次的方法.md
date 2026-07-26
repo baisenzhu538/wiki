@@ -31,6 +31,10 @@ related:
 - '[[tool-用topdown方式整理内化笔记]]'
 - '[[tool-demand-assessment-triangle]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：提升笔记练习频次的方法

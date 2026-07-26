@@ -17,13 +17,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[一堂]]"
-- "[[yt-personal-ipo-learning]]"
-- "[[yt-personal-deep-review]]"
-- "[[yt-model-ipo-complete-checklist]]"
-- "[[yt-personal-deliberate-practice]]"
-- "[[yt-personal-checklist-notes]]"
-- "[[yt-personal-knowledge-management]]"
+- '[[一堂]]'
+- '[[yt-personal-ipo-learning]]'
+- '[[yt-personal-deep-review]]'
+- '[[yt-model-ipo-complete-checklist]]'
+- '[[yt-personal-deliberate-practice]]'
+- '[[yt-personal-checklist-notes]]'
+- '[[yt-personal-knowledge-management]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
@@ -48,6 +48,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)

@@ -28,6 +28,10 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
 - case-lean-building-in-vacuum
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 需求找错案例集
 

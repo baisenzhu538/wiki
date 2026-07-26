@@ -18,6 +18,10 @@ reviewed_by: 欧阳锋
 related:
 - '[[tool-prompt-usp-demand-analysis]]'
 - tool-yitang-ai-assisted-organize
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 # USP 快速需求拆解
 

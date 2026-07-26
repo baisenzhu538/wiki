@@ -1,6 +1,6 @@
 ---
 id: case-yihang-dual-triangle-AI可以落地的场景假设
-title: "AI可以落地的场景假设 — 双三角案例"
+title: AI可以落地的场景假设 — 双三角案例
 type: case
 status: draft
 author: 洪七公（VLM提取）
@@ -9,13 +9,16 @@ updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
+- yitang
 source_refs:
-  - 00_inbox/人机协作双三角/_processed/AI可以落地的场景假设_vlm.md
+- 00_inbox/人机协作双三角/_processed/AI可以落地的场景假设_vlm.md
 tags:
-  - "#domain/ai-collaboration"
-  - "#method/dual-triangle"
+- '#domain/ai-collaboration'
+- '#method/dual-triangle'
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 reviewed_by: pending
 ---
 # AI可以落地的场景假设

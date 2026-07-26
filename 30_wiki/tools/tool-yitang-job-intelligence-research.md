@@ -36,6 +36,10 @@ related:
 - '[[tool-yitang-consulting-business-research]]'
 - tool-yitang-research-exhaust-means
 - framework-yitang-growth-flywheel
+tags:
+- audience:manager
+- scene:execution
+- skill-level:advanced
 ---
 
 # 招聘渠道情报：五层递进挖掘竞对内部信息

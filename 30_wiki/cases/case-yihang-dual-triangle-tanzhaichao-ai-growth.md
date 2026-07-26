@@ -5,7 +5,7 @@ type: case
 status: draft
 author: 老顽童
 reviewed_by: pending
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 created_at: 2026-07-04
@@ -17,8 +17,12 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/谭再超案例口述_page001_vlm.md
 - 00_inbox/人机协作双三角/谭再超案例口述.pdf
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[tool-Truman-AI能力分层学习路径]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[tool-Truman-AI能力分层学习路径]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 双三角案例：谭再超——从 AI 小白到 MCP 大航海 MVP，半年蜕变

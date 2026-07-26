@@ -1,30 +1,34 @@
 ---
 id: concept-yitang-case-jiejiaxiuzhen
-title: "借假修真：案例是载体，方法论是真经"
+title: 借假修真：案例是载体，方法论是真经
 type: concept
 status: draft
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - content-production
+- content-production
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-20"
-created_at: "2026-07-20"
-updated_at: "2026-07-20"
+review_date: '2026-07-20'
+created_at: '2026-07-20'
+updated_at: '2026-07-20'
 quality_labels:
-  - insight
-  - principle
+- insight
+- principle
 source_refs:
-  - "00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt"
-  - "00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt"
+- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt
+- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt
 related:
-  - framework-yitang-case-crafting-four-step
-  - framework-yitang-shishi-qiushi
-  - concept-yitang-case-soul-selection
-  - framework-kdo-modeling-methodology
-  - dk-yitang-case-crafting-pitfalls
-  - framework-yitang-content-polish
+- framework-yitang-case-crafting-four-step
+- framework-yitang-shishi-qiushi
+- concept-yitang-case-soul-selection
+- framework-kdo-modeling-methodology
+- dk-yitang-case-crafting-pitfalls
+- framework-yitang-content-polish
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 借假修真：案例是载体，方法论是真经

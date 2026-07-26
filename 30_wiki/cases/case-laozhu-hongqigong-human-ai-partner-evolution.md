@@ -23,14 +23,18 @@ source_refs:
 - https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study
 - https://www.faros.ai/blog/harness-engineering
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-dual-triangle-weapon-library]]"
-- "[[method-dual-triangle-flywheel-engine]]"
-- "[[method-dual-triangle-human-ai-division]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-dual-triangle-weapon-library]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+- '[[method-dual-triangle-human-ai-division]]'
 aliases:
 - 老朱洪七公诊断
 - Copilot到Partner
 - 人机协作跃迁
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 从 Copilot 到 Partner：老朱 × 洪七公的人机协作跃迁诊断

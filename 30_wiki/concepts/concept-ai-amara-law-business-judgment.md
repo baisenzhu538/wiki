@@ -28,6 +28,10 @@ related:
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - concept-ai-neutrality-bias
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 阿马拉定律与商业判断校准
 

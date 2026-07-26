@@ -12,7 +12,7 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
 related:
@@ -22,6 +22,10 @@ related:
 - '[[tool-水水-识别超级传播者风险]]'
 - '[[sk-ai-purpose-bias-check]]'
 - tool-ai-narrative-test
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：目的论偏差快速识别法
 

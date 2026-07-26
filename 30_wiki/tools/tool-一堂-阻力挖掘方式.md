@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-阻力挖掘方式
 title: 一堂阻力挖掘方式：把阻力当关键假设来定位
 type: tool
@@ -41,6 +40,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂阻力挖掘方式：把阻力当关键假设来定位

@@ -29,6 +29,10 @@ diagnostic_signals:
   follow-up: 逐环打分1-4，找真正的最低环
 quality_labels:
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 四环修炼闭环自检清单

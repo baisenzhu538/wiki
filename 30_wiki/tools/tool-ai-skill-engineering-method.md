@@ -1,5 +1,4 @@
 ---
-
 id: tool-ai-skill-engineering-method
 title: AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位
 type: tool
@@ -21,31 +20,34 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - "[[tool-半肥猫-课程Skill化的八步工作流]]"
-  - "[[tool-Truman-Skill全生命周期管理]]"
-  - "[[tool-月白-设计能力蒸馏封装法]]"
-  - "[[paddleocr-skill]]"
-  - "[[case-半肥猫-course-to-skill]]"
-  - "[[tool-封装可复用skill]]"
-  - "[[course-to-skill-conversion]]"
-  - "[[truman-perspective-skill]]"
-  - "[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]"
-  - "[[case-ji-hao-skill-market-problem-validation]]"
-  - "[[case-truman-ai-skill-self-packaging]]"
-  - "[[yt-skill-checklist-as-ai-protocol]]"
-  - "[[yt-skill-p-role-prompt-design]]"
-  - "[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]"
-  - "[[plan_20260621_skill-iteration-standard]]"
-  - "[[tool-ai-skill-engineering-guide]]"
-  - "[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
-  - "[[tool-yitang-18-strategy-tool-mapping]]"
-  - "[[tool-半肥猫-course-to-skill-workflow]]"
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[tool-Truman-Skill全生命周期管理]]'
+- '[[tool-月白-设计能力蒸馏封装法]]'
+- '[[paddleocr-skill]]'
+- '[[case-半肥猫-course-to-skill]]'
+- '[[tool-封装可复用skill]]'
+- '[[course-to-skill-conversion]]'
+- '[[truman-perspective-skill]]'
+- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
+- '[[case-truman-ai-skill-self-packaging]]'
+- '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[yt-skill-p-role-prompt-design]]'
+- '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
+- '[[plan_20260621_skill-iteration-standard]]'
+- '[[tool-ai-skill-engineering-guide]]'
+- '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+- '[[tool-yitang-18-strategy-tool-mapping]]'
+- '[[tool-半肥猫-course-to-skill-workflow]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 source_context: 一堂建模能力培训口述稿中 Truman 分享的 AI Skill 工程化封装工作流，经多轮挑错、交叉验证后沉淀为可复用指南
 diagnostic_signals:
 - framework_lens: AI Skill 工程化封装——缺少统一质量标准与审计清单
@@ -54,7 +56,6 @@ diagnostic_signals:
   follow_up_question: 你在生成 Skill 时，是否至少经过 5-15 轮针对架构、遗漏、逻辑链、优先级的迭代纠偏？
 - framework_lens: 缺乏可复用的工程指南和审计基准
   follow_up_question: 你是否把“好 Skill”的审美转化为 P0/P1/P2 检查清单，并让 AI 用统一维度做交叉验证？
-
 ---
 
 # AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位

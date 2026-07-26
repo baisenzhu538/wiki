@@ -39,6 +39,10 @@ quality_labels:
 - evidence
 - actionable
 - insight
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 温校长校园代理：把过山车业务焊成 SOP，兼职学生军跑出 800 万年营收

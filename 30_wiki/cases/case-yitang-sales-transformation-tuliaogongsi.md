@@ -5,37 +5,40 @@ type: case
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - business-strategy
-  - entrepreneur
-  - yitang
+- business-strategy
+- entrepreneur
+- yitang
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），传统工业分销场景用户分层转型案例
 source_refs:
-  - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
-  - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
-  - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
-  - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
+- 00_inbox/销售专题/_processed/销售专题_整合笔记.md
+- 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
+- 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
+- 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
 related:
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[framework-demand-validation-pipeline]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[case-yitang-sales-transformation-meirongyuan]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
-  - "[[yt-management-goal-management]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[master-decision-hygiene]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-
-  - "[[case-一堂-触点篇案例库]]"
-  - "[[case-一堂-组合篇案例库]]"
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[framework-demand-validation-pipeline]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[case-yitang-sales-transformation-meirongyuan]]'
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
+- '[[yt-management-goal-management]]'
+- '[[framework-yitang-nine-layer-deep-dig]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[master-decision-hygiene]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[case-一堂-触点篇案例库]]'
+- '[[case-一堂-组合篇案例库]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：涂料公司“意图”——从 10 万线索中筛出 220 个高价值客户的分层转型
 

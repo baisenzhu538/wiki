@@ -15,9 +15,9 @@ domain:
 - conversion-rate
 source_context: 收录 Truman 常用经典故事线框架笔记与转化率域 PDF 案例合集的逐字稿/校验结论，作为动力提升/阻力分析/触点案例的原文索引
 source_refs:
-- "00_inbox/Handle the business/conversion rate/Truman常用经典故事线框架笔记_逐字稿.md L1-L92"
-- "00_inbox/Handle the business/conversion rate/_vlm_output/质检报告_PDF案例合集校验.md L1-L58"
-- "00_inbox/Handle the business/conversion rate/_vlm_output/PDF校验_修正清单.md L1-L58"
+- 00_inbox/Handle the business/conversion rate/Truman常用经典故事线框架笔记_逐字稿.md L1-L92
+- 00_inbox/Handle the business/conversion rate/_vlm_output/质检报告_PDF案例合集校验.md L1-L58
+- 00_inbox/Handle the business/conversion rate/_vlm_output/PDF校验_修正清单.md L1-L58
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'
@@ -42,10 +42,13 @@ related:
 - '[[tool-一堂-触点挖掘四层级]]'
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
-
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 优秀案例逐字稿合集：汇总 Truman 高频故事线框架与转化率域 PDF 案例合集的 OCR 校验结论，为动力和阻力触点案例提供「原文口径」与「可用性边界」。

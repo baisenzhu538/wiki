@@ -1,5 +1,4 @@
 ---
-
 id: tool-lean-cut-features
 title: 太复杂就砍功能
 type: tool
@@ -17,13 +16,17 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212421_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212421_vlm_desc.md
 related:
-  - "[[case-lean-electric-scooter-mvp]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[case-lean-electric-scooter-mvp]]'
+- '[[framework-lean-six-wastes]]'
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 太复杂就砍功能

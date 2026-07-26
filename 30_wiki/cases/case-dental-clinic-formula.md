@@ -14,10 +14,10 @@ source_refs:
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 created_at: '2026-06-15'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -26,12 +26,15 @@ review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-ten-paradigms]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-entrepreneur-unit-model]]"
-- "[[yt-business-formula-qualitative-metrics-library]]"
-
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-entrepreneur-unit-model]]'
+- '[[yt-business-formula-qualitative-metrics-library]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 

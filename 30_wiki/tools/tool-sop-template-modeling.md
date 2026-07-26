@@ -1,5 +1,4 @@
 ---
-
 id: tool-sop-template-modeling
 title: SOP/模板建模法：把关键动作固化成标准工作流
 type: tool
@@ -28,20 +27,22 @@ diagnostic_signals:
 - framework_lens: SOP + 配套模板
   follow_up_question: 是否为新场景配套了可填写、可验收的模板？
 related:
-  - "[[dk-modeling-sop-execution-locks]]"
-  - "[[case-zhangyang-anchor-sop-three-locks]]"
-  - "[[case-livestream-sop-modeling]]"
-  - "[[case-truman-livestream-sop-iteration]]"
-  - "[[case-modeling-process-sop-evolution]]"
-  - "[[yt-decision-y-model-philosophical-roots]]"
-  - "[[case-modeling-process-sop-examples]]"
+- '[[dk-modeling-sop-execution-locks]]'
+- '[[case-zhangyang-anchor-sop-three-locks]]'
+- '[[case-livestream-sop-modeling]]'
+- '[[case-truman-livestream-sop-iteration]]'
+- '[[case-modeling-process-sop-evolution]]'
+- '[[yt-decision-y-model-philosophical-roots]]'
+- '[[case-modeling-process-sop-examples]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # SOP/模板建模法：把关键动作固化成标准工作流

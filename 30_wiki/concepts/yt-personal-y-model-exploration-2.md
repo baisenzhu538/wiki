@@ -20,11 +20,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[yt-personal-y-model-practice]]"
-- "[[yt-model-y-organization]]"
-- "[[一堂]]"
-- "[[yt-entrepreneur-scientific-method]]"
-- "[[yt-model-scientific-questioning-map]]"
+- '[[yt-personal-y-model-practice]]'
+- '[[yt-model-y-organization]]'
+- '[[一堂]]'
+- '[[yt-entrepreneur-scientific-method]]'
+- '[[yt-model-scientific-questioning-map]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
@@ -37,7 +37,10 @@ yitang:
   map: personal
   module: 个人修炼
   course_type: explore_camp
-tags: null
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 pipeline:
 - src_unknown
 - src_unknown

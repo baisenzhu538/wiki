@@ -7,9 +7,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: 2026-06-20
 updated_at: 2026-07-07
 confidence: 0.9
@@ -34,20 +34,20 @@ source_refs:
 - 00_inbox/调研专题/系统调研（高水平计划）_vlm_desc.md
 - 00_inbox/调研专题/系统调研（高水平执行）_vlm_desc.md
 related:
-- "[[framework-yitang-high-level-execution]]"
-- "[[framework-yitang-four-research-types]]"
-- "[[yt-research-osl-framework]]"
-- "[[concept-yitang-research-scope]]"
-- "[[framework-yitang-high-level-plan]]"
-- "[[framework-yitang-research-radar]]"
-- "[[concept-yitang-research-objective]]"
-- "[[method-kdo-external-exploration-sop]]"
-- "[[tool-oscar-kdo-external-exploration]]"
-- "[[yt-research-weaponry-course]]"
-- "[[framework-multi-agent-research-architecture]]"
-- "[[framework-yitang-iterative-recursive-digging]]"
-- "[[framework-yitang-research-quality-gate]]"
-- "[[framework-yitang-six-layer-cross-validation]]"
+- '[[framework-yitang-high-level-execution]]'
+- '[[framework-yitang-four-research-types]]'
+- '[[yt-research-osl-framework]]'
+- '[[concept-yitang-research-scope]]'
+- '[[framework-yitang-high-level-plan]]'
+- '[[framework-yitang-research-radar]]'
+- '[[concept-yitang-research-objective]]'
+- '[[method-kdo-external-exploration-sop]]'
+- '[[tool-oscar-kdo-external-exploration]]'
+- '[[yt-research-weaponry-course]]'
+- '[[framework-multi-agent-research-architecture]]'
+- '[[framework-yitang-iterative-recursive-digging]]'
+- '[[framework-yitang-research-quality-gate]]'
+- '[[framework-yitang-six-layer-cross-validation]]'
 diagnostic_signals:
 - signal: 调研启动时无法一句话说清"这次调研要回答什么问题"
   lens: O步骤缺失——目标未锁定
@@ -58,6 +58,10 @@ diagnostic_signals:
 - signal: 每次外部探索用的都是同一套搜索词
   lens: C步骤僵化——清单套模板
   follow-up: 根据本次目标重新设计关键词和来源类型
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # OSCAR调研模型：从目标锁定到正确归因的五步法

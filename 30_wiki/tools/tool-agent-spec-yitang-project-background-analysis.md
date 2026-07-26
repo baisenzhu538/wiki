@@ -28,6 +28,10 @@ tcp_default_mode: 咨询诊断（Consult）：基于用户提供的项目信息�
 tcp_switch_trigger: 用户要求直接输出项目计划/方案文档 → 切换为 P；用户要求学习背景分析 8 维度方法论 → 切换为 T；用户要求对比多个项目的背景差异
   → 切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：用一堂 8 维度背景分析法，帮你把项目背景查漏补缺，找出资源缺口和潜在风险。请先告诉我你的项目基本信息和目标。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 项目背景分析 Agent Spec
 

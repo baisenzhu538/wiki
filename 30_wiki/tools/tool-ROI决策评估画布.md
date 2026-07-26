@@ -26,6 +26,10 @@ related:
 - concept-发现决策
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 ---
 
 # ROI决策评估画布

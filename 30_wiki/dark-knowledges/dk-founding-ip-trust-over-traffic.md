@@ -7,32 +7,35 @@ status: reviewed
 source_person: 魏千洛 / 大馨战队
 source_context: 大馨战队短视频拆解训练营中，魏千洛在讨论创始人 IP 战略时提出：网红追求流量，创始人 IP 追求信任。
 source_refs:
-  - "00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md"
+- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 domain:
-  - content-production
-  - business-strategy
-  - entrepreneur
-created_at: "2026-07-02"
-updated_at: "2026-07-02"
+- content-production
+- business-strategy
+- entrepreneur
+created_at: '2026-07-02'
+updated_at: '2026-07-02'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-02"
+review_date: '2026-07-02'
 trust_level: medium
 confidence: 0.86
 related:
-  - "[[framework-brand-three-degree]]"
-  - "[[case-daxin-team-content-training-camp]]"
-  - "[[framework-founder-ip-three-positioning]]"
-  - "[[tool-shortvideo-six-dimension-deconstruction]]"
-  - "[[framework-content-business-six-step]]"
-  - "[[case-yitang-yitang-shortvideo-industrialization]]"
+- '[[framework-brand-three-degree]]'
+- '[[case-daxin-team-content-training-camp]]'
+- '[[framework-founder-ip-three-positioning]]'
+- '[[tool-shortvideo-six-dimension-deconstruction]]'
+- '[[framework-content-business-six-step]]'
+- '[[case-yitang-yitang-shortvideo-industrialization]]'
 tags:
-  - "#source_type/insight"
-  - "#content-production"
-  - "#business-strategy"
+- '#source_type/insight'
+- '#content-production'
+- '#business-strategy'
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 quality_labels:
-  - principle
-  - validated
+- principle
+- validated
 ---
 
 # 创始人 IP 追求信任，网红追求流量

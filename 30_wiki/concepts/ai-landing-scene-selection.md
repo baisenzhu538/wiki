@@ -12,11 +12,11 @@ source_refs:
 - 10_raw/sources/src_20260606_ef4877d0-所以90的核心问题.md
 component_of: null
 related:
-- "[[find-old-do-small]]"
-- "[[ai-learning-closed-loop]]"
-- "[[course-to-skill-conversion]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[find-old-do-small]]'
+- '[[ai-learning-closed-loop]]'
+- '[[course-to-skill-conversion]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 query_triggers:
 - src_unknown
 - src_unknown
@@ -40,6 +40,10 @@ diagnostic_signals:
   follow_up: 用有容错/有方法/有数据/有判断筛选场景，不讨论技术
 - lens: 结果导向验证
   follow_up: 把评估指标从效率改为订单/转化率/收入
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # AI落地场景识别：从"找老的干小的"开始

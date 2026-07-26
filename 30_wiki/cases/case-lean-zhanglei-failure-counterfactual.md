@@ -25,6 +25,10 @@ related:
 - '[[pending_unknown]]'
 - framework-demand-lean-bridge
 - framework-strategy-lean-validation
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 张磊 AMA：判断力训练产品的验证陷阱与反事实推演
 

@@ -1,43 +1,44 @@
 ---
 id: tool-yitang-dialectical-modeling
-title: "辩证式建模：矛盾→合并→新规律"
+title: 辩证式建模：矛盾→合并→新规律
 type: tool
 status: draft
 confidence: 0.85
 trust_level: high
 domain:
-  - innovation
+- innovation
 author: 老顽童
-review_date: "2026-07-26"
-reviewed_by: 待审
-  - framework-kdo-modeling-methodology
-  - framework-yitang-shishi-qiushi
-created_at: "2026-07-26"
-updated_at: "2026-07-26"
+review_date: '2026-07-26'
+reviewed_by: 待审 - framework-kdo-modeling-methodology - framework-yitang-shishi-qiushi
+created_at: '2026-07-26'
+updated_at: '2026-07-26'
 quality_labels:
-  - actionable
+- actionable
 discoverable_by:
-  - 如何处理矛盾观点
-  - 辩证分析
-  - 建模方法
+- 如何处理矛盾观点
+- 辩证分析
+- 建模方法
 source_refs:
-  - "00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L496-508"
-  - "00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §3.4"
+- 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L496-508
+- 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §3.4
 related:
-  - framework-yitang-thought-liberation-lightning
-  - concept-yitang-layered-self-consistency
-  - framework-kdo-modeling-methodology
-  - framework-yitang-shishi-qiushi
-  - framework-ouyangfeng-review-methodology
-  - yt-decision-y-model
+- framework-yitang-thought-liberation-lightning
+- concept-yitang-layered-self-consistency
+- framework-kdo-modeling-methodology
+- framework-yitang-shishi-qiushi
+- framework-ouyangfeng-review-methodology
+- yt-decision-y-model
 diagnostic_signals:
-  - signal: "创新方案执行后效果不如预期"
-    lens: 检查是否跳过了闪电模型的某个步骤
-    follow_up: 按四步闭环逐步排查
-  - signal: "团队对创新方法论的理解不一致"
-    lens: 培训不够或框架表达不清晰
-    follow_up: 用十层解读法重新学习框架
-
+- signal: 创新方案执行后效果不如预期
+  lens: 检查是否跳过了闪电模型的某个步骤
+  follow_up: 按四步闭环逐步排查
+- signal: 团队对创新方法论的理解不一致
+  lens: 培训不够或框架表达不清晰
+  follow_up: 用十层解读法重新学习框架
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 > 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的第 4 步「建模重构」。

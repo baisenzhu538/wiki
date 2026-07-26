@@ -15,17 +15,20 @@ reviewed_by: 王语嫣（代欧阳锋）
 review_date: '2026-06-16'
 trust_level: medium
 related:
-- "[[case-personal-map-modeling]]"
-- "[[dk-modeling-ai-without-judgment]]"
-- "[[pending_unknown]]"
-- "[[case-truman-ai-skill-self-packaging]]"
-- "[[case-truman-motivation-map-12-versions]]"
-- "[[case-yitang-radar-chart-selection]]"
+- '[[case-personal-map-modeling]]'
+- '[[dk-modeling-ai-without-judgment]]'
+- '[[pending_unknown]]'
+- '[[case-truman-ai-skill-self-packaging]]'
+- '[[case-truman-motivation-map-12-versions]]'
+- '[[case-yitang-radar-chart-selection]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 七步创作法
   follow_up_question: 你们有没有先做全量整理？有没有每个人独立找一遍规律再碰撞？

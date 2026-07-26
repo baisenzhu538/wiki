@@ -36,6 +36,10 @@ related:
 quality_labels:
 - actionable
 - framework
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 工具：业务公式 L1-L6 参数分层自检

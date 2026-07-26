@@ -1,5 +1,4 @@
 ---
-
 id: sk-ai-old-small-checklist
 title: 技能："找老的干小的"场景评估清单
 type: tool
@@ -11,35 +10,31 @@ source_person: 马易
 source_context: AI俱乐部-AI落地场景识别分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
-wiki_refs:
-
-definition_of_done:
-
-
+wiki_refs: null
+definition_of_done: null
 tags:
-
-
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
-tools_required:
+tools_required: null
 prerequisite_skills: null
 related:
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-制作行业化要素检查清单]]"
-  - "[[tool-月白-供应商信息对齐清单法]]"
-  - "[[tool-稀缺资源清单]]"
-  - "[[tool-清单式笔记法]]"
-  - "[[tool-用清单体记备忘笔记]]"
-  - "[[tool-月白-工厂对接信息清单制作]]"
-  - "[[轻量级诊所HIS调研全清单]]"
-  - "[[tool-清单小抄工具箱法]]"
+- '[[ai-collaboration-domain-digest]]'
+- '[[tool-制作行业化要素检查清单]]'
+- '[[tool-月白-供应商信息对齐清单法]]'
+- '[[tool-稀缺资源清单]]'
+- '[[tool-清单式笔记法]]'
+- '[[tool-用清单体记备忘笔记]]'
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[轻量级诊所HIS调研全清单]]'
+- '[[tool-清单小抄工具箱法]]'
 author: 马易
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
-diagnostic_signals:
-
-
+diagnostic_signals: null
 ---
 
 # 技能："找老的干小的"场景评估清单

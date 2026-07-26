@@ -1,5 +1,4 @@
 ---
-
 id: dk-strategy-02-three-paradoxes
 title: 战略三悖论：80%培训讲执行 / 90%公司无战略部 / 99%项目有断层
 type: dk
@@ -13,14 +12,18 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[yt-five-step-method]]"
-  - "[[framework-five-step-lean-interface]]"
-  - "[[dk-ai-entrepreneur-technical-blindspot]]"
-  - "[[dk-demand-pitfall-indonesia-insurance]]"
-  - "[[strategy-domain-digest]]"
+- '[[yt-five-step-method]]'
+- '[[framework-five-step-lean-interface]]'
+- '[[dk-ai-entrepreneur-technical-blindspot]]'
+- '[[dk-demand-pitfall-indonesia-insurance]]'
+- '[[strategy-domain-digest]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 

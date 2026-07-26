@@ -23,6 +23,10 @@ related:
 - '[[tool-lean-leverage-tools]]'
 - '[[ai-methodology-tools]]'
 - yt-system-course-map-lecture
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # Tools Workflows
 

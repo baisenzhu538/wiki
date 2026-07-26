@@ -24,6 +24,10 @@ related:
 - - - dk-modeling-ai-judgment-limit
 - - - master-ai-info-literacy
 - yt-system-course-map-lecture
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # AI 俱乐部·人和 AI 协作 — 五层结构
 

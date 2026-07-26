@@ -28,6 +28,10 @@ author: 王语嫣
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 review_date: 2026-06-14# Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 > 来源：听脑录音 6086504 + 公开信源六层交叉验证  
 > 置信度：核心机制 0.85+，客单价跨度 0.55，绝对化断言需降级

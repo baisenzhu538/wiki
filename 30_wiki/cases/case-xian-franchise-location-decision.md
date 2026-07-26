@@ -21,6 +21,10 @@ related:
 - '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：西安加盟选址——避免"想当然"式调研
 

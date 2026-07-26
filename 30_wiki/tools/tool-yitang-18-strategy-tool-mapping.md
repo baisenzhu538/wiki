@@ -43,6 +43,10 @@ related:
 diagnostic_signals:
 - framework_lens: 策略→工具映射表
   follow_up_question: 在映射表中找到对应的 wiki 卡片或 Skill
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 降龙十八掌→工具映射表

@@ -25,11 +25,15 @@ reviewed_at: '2026-07-04'
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-课程问题预埋法]]"
-- "[[tool-月白-提示词长度控制法]]"
-- "[[tool-月白-AI需求拆解咨询法]]"
-- "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
-- "[[tool-月白-三步作业反馈法]]"
+- '[[tool-月白-课程问题预埋法]]'
+- '[[tool-月白-提示词长度控制法]]'
+- '[[tool-月白-AI需求拆解咨询法]]'
+- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
+- '[[tool-月白-三步作业反馈法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：A/B双轨反推模式选择
 

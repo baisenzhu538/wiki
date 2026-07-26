@@ -26,6 +26,10 @@ diagnostic_signals:
   follow-up: 后续补全
 quality_labels:
 - actionable
+tags:
+- audience:manager
+- scene:diagnosis
+- skill-level:intermediate
 ---
 # 时间管理双循环矩阵：独立/协作 × 重点/效率
 

@@ -12,10 +12,10 @@ source_context: 一堂-科学决策-ROI决策高度实操课口述04（2026）
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-- "[[case-truman-ai-partner]]"
-- "[[case-truman-ai-skill-engineering-guide]]"
-- "[[case-truman-ai-skill-self-packaging]]"
-- "[[case-truman-prd-checklist-evolution]]"
+- '[[case-truman-ai-partner]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[case-truman-ai-skill-self-packaging]]'
+- '[[case-truman-prd-checklist-evolution]]'
 created_at: '2026-06-09'
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -36,6 +36,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 扑克牌案例：同样的任务，两个同学评估结果截然相反

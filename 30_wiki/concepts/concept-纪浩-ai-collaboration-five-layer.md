@@ -1,55 +1,59 @@
 ---
 id: concept-纪浩-ai-collaboration-five-layer
-title: "概念：纪浩AI协作五层工作空间法"
+title: 概念：纪浩AI协作五层工作空间法
 type: concept
 status: reviewed
 domain:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
-  - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
-  - 00_inbox/纪浩-AI协作方法论-口述.md
-  - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
-  - 00_inbox/纪浩-AI协作方法论-口述.md
-created_at: "2026-06-09"
-updated_at: "2026-06-17"
+- 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
+- 00_inbox/纪浩-AI协作方法论-口述.md
+- 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
+- 00_inbox/纪浩-AI协作方法论-口述.md
+created_at: '2026-06-09'
+updated_at: '2026-06-17'
 related:
-  - [[concept-wanghuan-adversarial-generation]]
-  - [[yt-concept-weapon-arsenal]]
-  - [[yt-note-checklist-concept]]
-  - [[case-ji-hao-ui-design-constraint-evolution]]
-  - [[case-纪浩-focus-prompt-design]]
-  - [[case-纪浩-from-zip-to-five-layers]]
+- - - concept-wanghuan-adversarial-generation
+- - - yt-concept-weapon-arsenal
+- - - yt-note-checklist-concept
+- - - case-ji-hao-ui-design-constraint-evolution
+- - - case-纪浩-focus-prompt-design
+- - - case-纪浩-from-zip-to-five-layers
 wiki_refs:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 definition_of_done:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 pipeline:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
-  - lens: "结构缺失"
-    follow_up: "检查五类知识是否混在一起，按L1-L5分层，分开后结构才能自然长出来"
-  - lens: "渐进披露缺失"
-    follow_up: "使用渐进式披露流程：导诊台→工作手册→经验库→领域知识，逐层深入"
-  - lens: "L4管理失控"
-    follow_up: "L4任务管理需要状态管理和版本控制，快速增长的知识需独立管理"
-  - lens: "导诊台缺失"
-    follow_up: "用导诊台做任务分发，每个Agent有自己的工作手册，避免冲突"
-  - lens: "L3未沉淀"
-    follow_up: "约束文档属于L3工作手册，多任务共享时应沉淀为经验库"
+- lens: 结构缺失
+  follow_up: 检查五类知识是否混在一起，按L1-L5分层，分开后结构才能自然长出来
+- lens: 渐进披露缺失
+  follow_up: 使用渐进式披露流程：导诊台→工作手册→经验库→领域知识，逐层深入
+- lens: L4管理失控
+  follow_up: L4任务管理需要状态管理和版本控制，快速增长的知识需独立管理
+- lens: 导诊台缺失
+  follow_up: 用导诊台做任务分发，每个Agent有自己的工作手册，避免冲突
+- lens: L3未沉淀
+  follow_up: 约束文档属于L3工作手册，多任务共享时应沉淀为经验库
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 概念：纪浩AI协作五层工作空间法

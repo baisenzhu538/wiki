@@ -1,8 +1,6 @@
 ---
-
 domain:
-  - modeling
-
+- modeling
 id: yt-model-management-map
 status: reviewed
 confidence: 0.85
@@ -11,25 +9,26 @@ updated_at: '2026-07-11'
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: "黄药师"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:src_20260613_96e45c45-qishijian-business-model
-  - src_20260613_96e45c45-qishijian-business-model
-source_refs:
-  - pending_archive:src_20260613_96e45c45-qishijian-business-model
+- pending_archive:src_20260613_96e45c45-qishijian-business-model
 related:
-  - "[[framework-一堂-苦练基本功-总纲]]"
-  - "[[management-domain-digest]]"
+- '[[framework-一堂-苦练基本功-总纲]]'
+- '[[management-domain-digest]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 一堂管理地图：高潜力管理者修炼全景图
 

@@ -16,10 +16,14 @@ domain:
 source_person: 邹韵涛
 source_context: 一堂《优秀转化率复盘合集》首个案例，政府某部门出资的 2 天 1 夜封闭式中小企业高级管理辅导班
 source_refs:
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt L5-L23'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p002.txt L1-L22'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p003.txt L1-L26'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p004.txt L1-L16'
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt
+  L5-L23
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p002.txt
+  L1-L22
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p003.txt
+  L1-L26
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p004.txt
+  L1-L16
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'
@@ -37,6 +41,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 邹韵涛操盘政府出资的中小企业高管 2 天 1 夜封闭培训会，通过双部门背书、稀缺度假村形式、免费包吃住、大巴接送、小组 PK+一对一咨询奖励等手段，实现报名 106 人、实到 50 人、满意度 100%，是《优秀转化率复盘合集》中唯一内容完整的细分案例。

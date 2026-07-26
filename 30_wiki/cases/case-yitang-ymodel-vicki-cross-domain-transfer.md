@@ -15,8 +15,12 @@ domain:
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
 related:
-- "[[yt-decision-y-model]]"
-- "[[method-yitang-y-model-engine-cycle]]"
+- '[[yt-decision-y-model]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # Y模型 案例：Vicki 开店→短视频跨域迁移——Y模型 比五步法更底层 1-2 层

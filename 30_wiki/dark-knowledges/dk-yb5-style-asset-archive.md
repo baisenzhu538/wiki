@@ -1,5 +1,4 @@
 ---
-
 id: dk-yb5-style-asset-archive
 title: AI绘图降本的前提：风格资产工程化归档
 type: dk
@@ -10,16 +9,12 @@ domain:
 - ai-collaboration
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
-source_refs:
+source_refs: null
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - "[[ai-collaboration-domain-digest]]"
-  
-  
-  
-  
-pipeline:
+- '[[ai-collaboration-domain-digest]]'
+pipeline: null
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.85
@@ -32,7 +27,10 @@ diagnostic_signals:
   framework_lens: 资产复用缺失——不逆向工程历史项目就无法建立可复用的结构体系
   follow_up_question: 最近一个和历史项目风格类似的新项目，是否直接复用了历史PS工程和prompt模板？如果没有，你正在浪费最重要的资产。#
     AI绘图降本的前提：风格资产工程化归档
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述

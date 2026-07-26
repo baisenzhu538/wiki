@@ -16,8 +16,12 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角partner的对话记录20260705.md
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[dk-yitang-over-abstraction]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[dk-yitang-over-abstraction]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 多 AI 交叉比对验证法——没有标准答案时用 AI 互校验

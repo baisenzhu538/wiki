@@ -5,7 +5,7 @@ type: case
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -17,8 +17,12 @@ source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
 related:
-- "[[framework-yitang-jiefang-sixiang]]"
-- "[[yt-decision-y-model]]"
+- '[[framework-yitang-jiefang-sixiang]]'
+- '[[yt-decision-y-model]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 案例：楚门生菜夹子——L1 追问到 L2 就能产生流程创新

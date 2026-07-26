@@ -16,10 +16,14 @@ source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
 related:
-- "[[framework-yitang-jiefang-sixiang]]"
-- "[[yt-decision-y-model]]"
-- "[[method-yitang-y-model-engine-cycle]]"
-- "[[concept-yihang-dual-triangle-core]]"
+- '[[framework-yitang-jiefang-sixiang]]'
+- '[[yt-decision-y-model]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+- '[[concept-yihang-dual-triangle-core]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 教育 = 教材 + 教学 + 积极改变

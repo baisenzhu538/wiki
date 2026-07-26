@@ -21,6 +21,10 @@ related:
 - '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # 案例：JTBD故事公式——从故事中提取真实需求
 

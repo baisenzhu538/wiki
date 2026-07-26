@@ -26,6 +26,10 @@ related:
 - tool-strategy-five-see-three-set
 - yt-business-model-canvas
 - case-strategy-exit-remove
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 业务设计六要素×三步骤
 

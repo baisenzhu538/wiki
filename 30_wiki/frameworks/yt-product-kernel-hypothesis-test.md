@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-product-kernel-hypothesis-test
@@ -18,10 +17,10 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[tool-月白-模型识别与边界测试法]]"
-  - "[[tool-月白-餐饮海报AB测试法]]"
-  - "[[pending_unknown]]"
+- '[[tool-泛产品落地-低成本测试MVP]]'
+- '[[tool-月白-模型识别与边界测试法]]'
+- '[[tool-月白-餐饮海报AB测试法]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 内核假设测试——假设未测试
   follow_up_question: 你的内核假设是什么？用什么方法测试？测试结果是什么？
@@ -33,7 +32,10 @@ diagnostic_signals:
   follow_up_question: 如果测试结果不支持假设，你会调整方向吗？
 - framework_lens: 内核假设测试——测试是降低风险的必要投入
   follow_up_question: 直接做的风险是什么？如果方向错误，损失有多大？
-
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 内核假设测试：低成本验证方法

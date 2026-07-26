@@ -24,6 +24,10 @@ related:
 - '[[pending_unknown]]'
 - business-research-skill-oscar-13-weapon-system
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # DNS情报
 

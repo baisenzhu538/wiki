@@ -12,10 +12,14 @@ domain:
 source_refs:
 - 'pending_archive:'
 related:
-- "[[dk-strategy-three-must-do-moments]]"
+- '[[dk-strategy-three-must-do-moments]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 updated_at: '2026-06-28'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了

@@ -1,7 +1,4 @@
 ---
-
-
-
 id: case-toc-ecommerce-formula-misjudgment
 title: ToC 消费品电商：业务公式拆解误判导致放量亏损
 type: case
@@ -11,9 +8,14 @@ domain:
 - e-commerce
 - business-strategy
 source_refs:
-  - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md L532-L650
-  - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md L38-L48
+- 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
+  L532-L650
+- 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
+  L38-L48
 tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 created_at: '2026-06-14'
 updated_at: '2026-07-14'
 author: 孔阳
@@ -25,19 +27,19 @@ review_date: '2026-06-14'
 confidence: 0.88
 trust_level: high
 related:
-- "[[dk-yitang-business-formula-plus-times-trap]]"
-- "[[case-offline-catering-formula]]"
-- "[[case-toc-content-platform-correlation-trap]]"
-- "[[yt-management-business-formula]]"
-- "[[case-private-domain-ecommerce-formula]]"
-- "[[yt-management-business-formula]]"
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-business-formula-six-level-logic]]"
-- "[[yt-entrepreneur-unit-model]]"
-- "[[yt-business-formula-ten-paradigms]]"
-- "[[case-yitang-shipinhao-ads-l1-l6]]"
-- "[[case-yitang-du-kids-education-sabc]]"
+- '[[dk-yitang-business-formula-plus-times-trap]]'
+- '[[case-offline-catering-formula]]'
+- '[[case-toc-content-platform-correlation-trap]]'
+- '[[yt-management-business-formula]]'
+- '[[case-private-domain-ecommerce-formula]]'
+- '[[yt-management-business-formula]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-six-level-logic]]'
+- '[[yt-entrepreneur-unit-model]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[case-yitang-shipinhao-ads-l1-l6]]'
+- '[[case-yitang-du-kids-education-sabc]]'
 ---
 # ToC 消费品电商：业务公式拆解误判导致放量亏损
 

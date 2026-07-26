@@ -43,8 +43,11 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
-- insight
-  - framework-yitang-thought-liberation-lightning
+- insight - framework-yitang-thought-liberation-lightning
+tags:
+- audience:manager
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 基本功四字诀「拆建推练」：把一个动作练成组织能力

@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-timely-review-session-window
 title: 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
 type: dk
@@ -16,16 +15,19 @@ source_refs:
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 related:
-  - "[[dk-note-maximum-common-divisor]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[dk-note-maximum-common-divisor]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:reference
+- skill-level:advanced
 trust_level: high
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -35,7 +37,6 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
-
 ---
 
 ## 原始表述/核心洞察

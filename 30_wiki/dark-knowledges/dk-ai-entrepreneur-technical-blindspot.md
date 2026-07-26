@@ -1,5 +1,4 @@
 ---
-
 id: dk-ai-entrepreneur-technical-blindspot
 title: 暗知：AI创业者最大的盲区——'我们能做出来'≠'用户需要这个'
 type: dk
@@ -19,17 +18,20 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 quality_labels:
-  - cited
-  - validated
+- cited
+- validated
 created_at: '2026-06-11'
 updated_at: '2026-06-18'
 related:
-  - "[[yt-ai-startup-20-risky-hypotheses]]"
-  - "[[yt-five-step-method]]"
-  - "[[case-lean-zhanglei-pivot-decision]]"
-  - "[[concept-ai-native-organization-five-steps]]"
-  - "[[yitang-domain-digest]]"
+- '[[yt-ai-startup-20-risky-hypotheses]]'
+- '[[yt-five-step-method]]'
+- '[[case-lean-zhanglei-pivot-decision]]'
+- '[[concept-ai-native-organization-five-steps]]'
+- '[[yitang-domain-digest]]'
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -42,7 +44,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 新能力"维度权重过高，"新行业/新模式"需求验证被系统性跳过
   follow_up_question: 每个候选交叉点是否有≥5个真实用户愿意付费的证据？
-
 ---
 
 # 暗知：AI创业者最大的盲区——"我们能做出来"≠"用户需要这个"

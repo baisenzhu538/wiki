@@ -22,6 +22,10 @@ related:
 - '[[tool-体系框架构建]]'
 - tool-strategy-pareto
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 战略五基本功（5C）
 

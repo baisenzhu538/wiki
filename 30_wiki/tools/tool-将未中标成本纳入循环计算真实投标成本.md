@@ -44,6 +44,10 @@ related:
 - '[[tool-稀缺资源机会成本比对法]]'
 - '[[tool-自我反馈检验]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：将未中标成本纳入循环计算真实投标成本

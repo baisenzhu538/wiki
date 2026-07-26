@@ -20,9 +20,9 @@ source_refs:
 - 00_inbox/人机协作双三角/D同学的案例口述.pdf
 - 00_inbox/人机协作双三角/_processed/D同学的案例口述_text.md
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-dual-triangle-human-ai-division]]"
-- "[[tool-yihang-dual-triangle-canvas]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-dual-triangle-human-ai-division]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
@@ -30,6 +30,10 @@ related:
 aliases:
 - D同学案例
 - 红蓝军沟通法
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 一行双三角案例：D 同学用红蓝军破解向上沟通

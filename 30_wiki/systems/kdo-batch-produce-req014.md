@@ -25,6 +25,10 @@ related:
 - '[[plan_20260501_97170532-improvement-plan]]'
 - '[[plan_20260503_f3e9a2b1-improvement-plan]]'
 - knowledge-delivery-os-快速体验指南-飞书云文档
+tags:
+- audience:general
+- scene:reference
+- skill-level:beginner
 ---
 # REQ-014 批量 Produce 12 篇 Enriched 页面
 

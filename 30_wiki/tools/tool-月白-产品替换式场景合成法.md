@@ -24,15 +24,19 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-工厂对接信息清单制作]]"
-  - "[[tool-月白-小红书双重搜索法]]"
-  - "[[tool-月白-新手设计师基本功训练法]]"
-  - "[[tool-月白-文创产品AI设计到生产的卡点预判]]"
-  - "[[tool-月白-文创材质成本调研与精益选择]]"
-  - "[[tool-strategy-customer-selection]]"
-  - "[[tool-月白-供应商信息对齐清单法]]"
-  - "[[tool-月白-设计项目里程碑拆解法]]"
-  - "[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]"
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[tool-月白-小红书双重搜索法]]'
+- '[[tool-月白-新手设计师基本功训练法]]'
+- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
+- '[[tool-月白-文创材质成本调研与精益选择]]'
+- '[[tool-strategy-customer-selection]]'
+- '[[tool-月白-供应商信息对齐清单法]]'
+- '[[tool-月白-设计项目里程碑拆解法]]'
+- '[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：产品替换式场景合成法
 

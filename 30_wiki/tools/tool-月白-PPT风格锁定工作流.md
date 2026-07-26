@@ -24,16 +24,20 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-工厂对接信息清单制作]]"
-  - "[[tool-月白-AI对话式海报修改（免PS）]]"
-  - "[[tool-月白-AI自动生成多语种专业名词提示词]]"
-  - "[[tool-月白-PPT内容框架AIGC生成法]]"
-  - "[[tool-月白-文创产品AI设计到生产的卡点预判]]"
-  - "[[tool-月白-AIGC海报信息优先级排序法]]"
-  - "[[tool-月白-服务体验类去AI感设计]]"
-  - "[[tool-月白-用AIGC做设计专家批评复盘]]"
-  - "[[tool-月白-社群直播海报利益点提炼法]]"
-  - "[[tool-月白-视角替换专用提示法]]"
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[tool-月白-AI对话式海报修改（免PS）]]'
+- '[[tool-月白-AI自动生成多语种专业名词提示词]]'
+- '[[tool-月白-PPT内容框架AIGC生成法]]'
+- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
+- '[[tool-月白-AIGC海报信息优先级排序法]]'
+- '[[tool-月白-服务体验类去AI感设计]]'
+- '[[tool-月白-用AIGC做设计专家批评复盘]]'
+- '[[tool-月白-社群直播海报利益点提炼法]]'
+- '[[tool-月白-视角替换专用提示法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：PPT风格锁定工作流
 

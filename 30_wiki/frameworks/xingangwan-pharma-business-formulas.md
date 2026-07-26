@@ -1,5 +1,4 @@
 ---
-
 id: xingangwan-pharma-business-formulas
 title: 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠杆变量
 type: framework
@@ -17,9 +16,9 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 related:
-  - "[[xingangwan-pharma-business-model-calc]]"
-  - "[[tool-决策深度-L4严格财务公式]]"
-  - "[[tool-完整财务公式决策]]"
+- '[[xingangwan-pharma-business-model-calc]]'
+- '[[tool-决策深度-L4严格财务公式]]'
+- '[[tool-完整财务公式决策]]'
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 diagnostic_signals:
@@ -35,7 +34,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
-
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠杆变量

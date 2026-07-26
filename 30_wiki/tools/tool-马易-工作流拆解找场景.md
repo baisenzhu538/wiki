@@ -3,25 +3,29 @@ id: tool-马易-工作流拆解找场景
 title: 技能：工作流拆解找场景
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
-  - ai-saas
+- ai-collaboration
+- yitang
+- ai-saas
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
 related:
-  - tool-马易-AI能力团队复制
-  - tool-马易-AI答疑运营风格适配
-  - tool-马易-AI项目需求拆解筛选
-  - tool-马易-公寓获客自跑通原则
-  - tool-马易-RPA数据整合法
+- tool-马易-AI能力团队复制
+- tool-马易-AI答疑运营风格适配
+- tool-马易-AI项目需求拆解筛选
+- tool-马易-公寓获客自跑通原则
+- tool-马易-RPA数据整合法
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 技能：工作流拆解找场景
 

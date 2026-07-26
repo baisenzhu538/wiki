@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-education-supply-chain
 title: 案例：一堂是'教育供应链创新公司'——从真实实践里种菜、摘菜、炒菜
 type: case
@@ -22,15 +21,17 @@ review_date: '2026-06-15'
 trust_level: medium
 confidence: 0.7
 related:
-  - "[[dk-modeling-course-rnd-ripe-fruit]]"
-  - "[[yt-model-liberate-thinking-layers]]"
-  - "[[yitang-domain-digest]]"
+- '[[dk-modeling-course-rnd-ripe-fruit]]'
+- '[[yt-model-liberate-thinking-layers]]'
+- '[[yitang-domain-digest]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown# 案例：一堂是「教育供应链创新公司」——从真实实践里种菜、摘菜、炒菜
-
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > **Burn line**: 一堂不是包装 IP 讲别人课的公司，而是把真实实践当成地里的菜，成熟了再摘下来炒给观众吃。

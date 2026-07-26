@@ -16,6 +16,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:beginner
 created_at: '2026-06-16'
 updated_at: '2026-06-28'
 author: 徐剑
@@ -25,9 +28,9 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - "[[tool-yitang-b2b-gov-research]]"
-  - "[[case-yitang-yitu-lead-industrialization]]"
-  - "[[yt-tob-cash-flow]]"
+- '[[tool-yitang-b2b-gov-research]]'
+- '[[case-yitang-yitu-lead-industrialization]]'
+- '[[yt-tob-cash-flow]]'
 diagnostic_signals:
 - framework_lens: 客户分层（头部/腰部/腿部）
   follow_up_question: 当前方案分别对应哪类客户的决策链、付费能力和交付周期？是否必须切分客户或切分产品版本？

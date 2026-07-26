@@ -22,6 +22,10 @@ related:
 - framework-yitang-high-level-execution
 - case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # 案例：电动车出海本地化调研
 

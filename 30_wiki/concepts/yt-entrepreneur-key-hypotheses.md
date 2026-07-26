@@ -21,13 +21,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[yitang-course-map]]"
-- "[[yt-system-course-catalog]]"
-- "[[yt-entrepreneur-five-step-method]]"
-- "[[yt-entrepreneur-industry-forecast]]"
-- "[[yt-entrepreneur-product-core]]"
-- "[[yt-entrepreneur-unit-model]]"
-- "[[yt-model-cognitive-upgrade-framework]]"
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-entrepreneur-industry-forecast]]'
+- '[[yt-entrepreneur-product-core]]'
+- '[[yt-entrepreneur-unit-model]]'
+- '[[yt-model-cognitive-upgrade-framework]]'
 review_date: 2026-06-06
 source_refs:
 - 10_raw/sources/src_20260609_76e76298-ocr-一堂-科学决策-关键假设abcd模型.md
@@ -51,6 +51,10 @@ diagnostic_signals:
   follow_up_question: 你的验证计划中，价值假设和增长假设各占多少比例？
 updated_at: '2026-06-16'
 author: 老顽童
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 关键假设259工具与假设验证三板斧

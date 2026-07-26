@@ -23,6 +23,10 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
 - case-lean-building-in-vacuum
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 成人技能教育精益验证
 

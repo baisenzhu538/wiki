@@ -21,6 +21,10 @@ related:
 - '[[yt-prompt-writing-workflow]]'
 - '[[case-chen-qiufan-ai-writing]]'
 - yt-system-course-map-lecture
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # Writing Content
 

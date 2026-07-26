@@ -31,7 +31,10 @@ prerequisite_skills:
 - src_unknown
 created_at: '2026-06-11'
 updated_at: '2026-06-29'
-tags: []
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 pipeline:
 - src_unknown
 reviewed_by: 欧阳锋

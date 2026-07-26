@@ -37,9 +37,11 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-
-
 - case-decision-ai-assisted-vs-human
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # AI辅助调研工作流：七工具四层深度+十大假设
 

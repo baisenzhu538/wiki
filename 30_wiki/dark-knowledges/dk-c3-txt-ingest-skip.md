@@ -1,5 +1,4 @@
 ---
-
 id: dk-c3-txt-ingest-skip
 title: C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功
 type: dk
@@ -13,20 +12,20 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
-  - "[[kdo-input-channel-strategy-2026-06-16]]"
-  - "[[kdo-protocol]]"
-  - "[[modeling-to-kdo-toolchain]]"
-  - "[[kdo-batch-produce-req014]]"
-  - "[[kdo-15-dimension-label-spec]]"
-  - "[[obsidian-kdo-内容产出工作流-产品设计大纲]]"
-  - "[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]"
-  - "[[kdo-watch-health-check-layer]]"
-  - "[[framework-kdo-self-attack]]"
-  - "[[kdo-yaml-frontmatter-safety]]"
-  - "[[kdo-priority-checklist]]"
-  - "[[kdo_product_design_agent_final]]"
-  - "[[proposal-kdo-flywheel-infrastructure]]"
-  - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
+- '[[kdo-input-channel-strategy-2026-06-16]]'
+- '[[kdo-protocol]]'
+- '[[modeling-to-kdo-toolchain]]'
+- '[[kdo-batch-produce-req014]]'
+- '[[kdo-15-dimension-label-spec]]'
+- '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[kdo-watch-health-check-layer]]'
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[kdo-priority-checklist]]'
+- '[[kdo_product_design_agent_final]]'
+- '[[proposal-kdo-flywheel-infrastructure]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -51,7 +50,10 @@ diagnostic_signals:
   framework_lens: 这是组织知识沉淀流程中的"格式盲区"：贡献者不知道 KDO ingest 的扩展名白名单，系统也不会主动反馈
   follow_up_question: 是否在 inbox 入口有 CONTRIBUTING/README 说明？是否在 CI/预提交钩子中跑 `find 00_inbox
     -type f ! -name '*.md'` 并阻塞合并？
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:beginner
 ---
 
 # C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功

@@ -1,6 +1,4 @@
 ---
-
-
 id: industry-ai-cases
 title: 产业 AI 落地案例集（非药柜）：主题综合索引卡
 type: concept
@@ -19,24 +17,26 @@ source_refs:
 - 10_raw/sources/src_20260614_b85c364e-贝壳-云管家AI外呼案例.md
 - 10_raw/sources/src_20260614_eca9f5b3-酒店行业-AI标签审核案例.md
 - 10_raw/sources/src_20260614_eed6d83c-AI四格漫画创作交流.md
-tags: []
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 created_at: '2026-06-14'
 quality_labels:
-  - principle
-  - validated
+- principle
+- validated
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-  - "[[tool-月白-实物包装产业链实践]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[tool-月白-实物包装产业链实践]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 confidence: 0.65
 trust_level: medium
-
 ---
 
 # 产业 AI 落地案例集（非药柜）

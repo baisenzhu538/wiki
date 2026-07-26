@@ -33,14 +33,18 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-- "[[yt-foresight-business-spectrum]]"
-- "[[yt-entrepreneur-five-step-method]]"
-- "[[case-escort-service-tiered-growth]]"
-- "[[yitang-domain-digest]]"
-- "[[framework-一堂-机会预判]]"
-- "[[tool-一堂-机会预判-案例预判]]"
-- "[[tool-一堂-机会预判-五步法预判]]"
-- "[[case-ai-time-management-tiered-growth]]"
+- '[[yt-foresight-business-spectrum]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[case-escort-service-tiered-growth]]'
+- '[[yitang-domain-digest]]'
+- '[[framework-一堂-机会预判]]'
+- '[[tool-一堂-机会预判-案例预判]]'
+- '[[tool-一堂-机会预判-五步法预判]]'
+- '[[case-ai-time-management-tiered-growth]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：咖啡馆创业预判

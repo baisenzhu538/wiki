@@ -11,9 +11,9 @@ source_refs:
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md
 - 10_raw/sources/src_20260613_12d63c1c-notes.md
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: '2026-06-13'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -22,12 +22,14 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-- "[[ai-short-drama-plot-three-axes]]"
-- "[[ai-short-drama-framework-three-axes]]"
-- "[[ai-short-drama-conflict-three-axes]]"
-- "[[yt-note-ai-human-division]]"
+- '[[ai-short-drama-plot-three-axes]]'
+- '[[ai-short-drama-framework-three-axes]]'
+- '[[ai-short-drama-conflict-three-axes]]'
+- '[[yt-note-ai-human-division]]'
 tags:
-
+- audience:general
+- scene:reference
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 全本策划五维框架
   follow_up_question: 你的题材、受众、核心冲突和情绪价值是否已经明确？

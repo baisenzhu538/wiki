@@ -30,13 +30,16 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 created_at: 2026-06-07
 updated_at: '2026-06-29'
 related:
-- "[[yt-personal-checklist-notes]]"
-- "[[case-ji-hao-skills-market]]"
-- "[[pending_unknown]]"
-- "[[case-truman-poker-deck-roi]]"
+- '[[yt-personal-checklist-notes]]'
+- '[[case-ji-hao-skills-market]]'
+- '[[pending_unknown]]'
+- '[[case-truman-poker-deck-roi]]'
 author: 老顽童
 reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

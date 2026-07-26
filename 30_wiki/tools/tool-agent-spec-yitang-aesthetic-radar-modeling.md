@@ -29,6 +29,10 @@ tcp_default_mode: 咨询诊断（Consult）：基于用户提供的产品/作品
 tcp_switch_trigger: 用户要求直接输出改版方案/设计需求文档 → 切换为 P；用户要求学习审美雷达方法论 → 切换为 T；用户要求对比多个产品的审美水准
   → 切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你建立产品的审美雷达图，从多个维度审视产品品质，找出审美短板和升级方向。请先描述你要审视的产品或作品。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 审美雷达建模 Agent Spec
 

@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-logical-cleanliness-root
 title: 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
 type: dk
@@ -16,15 +15,12 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-  - "[[case-truman-ai-skill-engineering-guide]]"
-  - "[[yitang-domain-digest]]"
-  
-  
-  
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[yitang-domain-digest]]'
 tags:
-
-
-
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
@@ -42,7 +38,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 缺少段位标准和自检清单，逻辑洁癖没有可执行的操作定义
   follow_up_question: 用 L1-L5 段位表逐条对标，明确当前段位和目标段位，列出 3 个具体升级动作。# 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
-
 ---
 
 ## 原始表述

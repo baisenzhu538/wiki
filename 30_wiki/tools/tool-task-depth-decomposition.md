@@ -26,6 +26,10 @@ diagnostic_signals:
   follow-up: 后续补全
 quality_labels:
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 任务深度拆解 (Task Depth Decomposition)
 

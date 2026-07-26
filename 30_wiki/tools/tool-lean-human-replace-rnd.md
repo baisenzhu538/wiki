@@ -25,6 +25,10 @@ related:
 - tool-lean-leverage-tools
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 人工替代高阶研发
 

@@ -37,6 +37,10 @@ related:
 - '[[yt-tool-unit-model-construction]]'
 - case-strategy-m-brand-profit-model
 - framework-yitang-deliberate-practice-1plus4
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 # 小众品类渠道合伙人/区域包干决策框架（「卖地图」模式）
 

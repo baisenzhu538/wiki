@@ -14,17 +14,18 @@ domain:
 - yitang
 - research
 - ai-collaboration
-source_refs:
-
+source_refs: null
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-
-
 - framework-multi-agent-research-architecture
 - agent-native-card-design
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # MCP协议
 

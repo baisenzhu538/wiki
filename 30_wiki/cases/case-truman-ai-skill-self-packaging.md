@@ -38,6 +38,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: AI自复盘——让AI总结这次经验变下次基础
   follow_up_question: 你最后一次项目结束时，有没有让AI扫描你全程的纠偏记录、自动生成一个skill？

@@ -14,15 +14,16 @@ domain:
 - yitang
 - five-step-method
 - ai-collaboration
-source_refs:
+source_refs: null
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-
-
-
 - tool-yitang-amazon-bestseller
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # Agent L3多假设并行
 

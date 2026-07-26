@@ -1,5 +1,4 @@
 ---
-
 id: anthropic-官方发布创始人手册打造-ai-原生初创公司
 confidence: 0.8
 created_at: 2026-05-19
@@ -14,12 +13,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - "[[yt-management-toolkit-overview]]"
-  - "[[yt-model-dual-triangle-competitiveness]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[yt-tool-meeting-designer]]"
-  - "[[framework-lean-false-model]]"
-  - "[[dk-modeling-ai-judgment-limit]]"
+- '[[yt-management-toolkit-overview]]'
+- '[[yt-model-dual-triangle-competitiveness]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-tool-meeting-designer]]'
+- '[[framework-lean-false-model]]'
+- '[[dk-modeling-ai-judgment-limit]]'
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md
@@ -33,7 +32,10 @@ pipeline:
 - src_unknown
 author: unknown
 trust_level: medium
-
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 
 # AI 原生创业四阶段模型（Anthropic 创始人手册）

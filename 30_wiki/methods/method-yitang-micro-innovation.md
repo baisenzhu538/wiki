@@ -5,7 +5,7 @@ type: method
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -17,8 +17,12 @@ source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
 related:
-- "[[framework-yitang-jiefang-sixiang]]"
-- "[[case-yitang-redburger-lettuce-clip]]"
+- '[[framework-yitang-jiefang-sixiang]]'
+- '[[case-yitang-redburger-lettuce-clip]]'
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 破除创新迷信：小范围流程级创新同样有效

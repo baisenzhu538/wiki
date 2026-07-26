@@ -3,54 +3,58 @@ id: yai-counsel-role
 title: YAI C角色咨询法： Counsel 式方案输出节奏
 type: framework
 domain:
-  - consulting
-  - yitang
-  - personal-growth
-  - learning-methodology
+- consulting
+- yitang
+- personal-growth
+- learning-methodology
 status: reviewed
 source_refs:
-  - "00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md"
+- 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
-  - "[[yai-tcp-teacher-role]]"
-  - "刻意练习方法论"
-  - "[[ai-learning-closed-loop]]"
-  - "[[deliberate-practice-four-elements]]"
-  - "[[ai-tool-learning-curve]]"
-  - "[[four-questions-feedback]]"
-  - "[[completion-criteria-design]]"
-  - "[[challenge-point-design]]"
-  - "[[productization-judgment]]"
-  - "[[fixed-routine-design]]"
-  - "[[comfort-zone-expansion]]"
-  - "[[timely-feedback-loop]]"
-  - "[[deliberate-repetition]]"
-  - "[[ai-virtual-coach-prompt]]"
-  - "[[practice-card-decomposition]]"
-  - "[[ai-tool-learning-workbook]]"
+- '[[yai-tcp-teacher-role]]'
+- 刻意练习方法论
+- '[[ai-learning-closed-loop]]'
+- '[[deliberate-practice-four-elements]]'
+- '[[ai-tool-learning-curve]]'
+- '[[four-questions-feedback]]'
+- '[[completion-criteria-design]]'
+- '[[challenge-point-design]]'
+- '[[productization-judgment]]'
+- '[[fixed-routine-design]]'
+- '[[comfort-zone-expansion]]'
+- '[[timely-feedback-loop]]'
+- '[[deliberate-repetition]]'
+- '[[ai-virtual-coach-prompt]]'
+- '[[practice-card-decomposition]]'
+- '[[ai-tool-learning-workbook]]'
 aliases:
-  - "YAI Counsel 角色"
-  - "YAI C角色"
-  - "C角色咨询法"
+- YAI Counsel 角色
+- YAI C角色
+- C角色咨询法
 author: 老顽童
-created_at: "2026-06-28"
-updated_at: "2026-06-29"
+created_at: '2026-06-28'
+updated_at: '2026-06-29'
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
+review_date: '2026-06-28'
 diagnostic_signals:
-  - signal: 用户已经完成自评，说"我的理解是 X"或"开始"
-    framework_lens: 进入 C 角色诊断
-    follow_up_question: "好，那我们先确认这次到底练什么能力。你最想刻意练习的具体能力是什么？"
-  - signal: 用户的能力诉求比较模糊，如"我想练 AI 学习能力"
-    framework_lens: 校准能力定义
-    follow_up_question: "这个方向很有价值，但如果直接拿来练会太虚。我们能不能把它校准成一个更具体、可检验的能力？"
-  - signal: 用户已经确认要练什么
-    framework_lens: 四要素诊断
-    follow_up_question: "接下来我们用固定套路、非舒适区、及时反馈、大量重复四个要素，逐个看你现在的练习系统哪里最能提速。"
-  - signal: 用户四要素诊断完成，要求汇总/报告
-    framework_lens: 生成训练系统 + 延展工具
-    follow_up_question: "你希望我把诊断汇总成报告，还是直接生成 24 小时计划 / Checklist / 套路清单？"
+- signal: 用户已经完成自评，说"我的理解是 X"或"开始"
+  framework_lens: 进入 C 角色诊断
+  follow_up_question: 好，那我们先确认这次到底练什么能力。你最想刻意练习的具体能力是什么？
+- signal: 用户的能力诉求比较模糊，如"我想练 AI 学习能力"
+  framework_lens: 校准能力定义
+  follow_up_question: 这个方向很有价值，但如果直接拿来练会太虚。我们能不能把它校准成一个更具体、可检验的能力？
+- signal: 用户已经确认要练什么
+  framework_lens: 四要素诊断
+  follow_up_question: 接下来我们用固定套路、非舒适区、及时反馈、大量重复四个要素，逐个看你现在的练习系统哪里最能提速。
+- signal: 用户四要素诊断完成，要求汇总/报告
+  framework_lens: 生成训练系统 + 延展工具
+  follow_up_question: 你希望我把诊断汇总成报告，还是直接生成 24 小时计划 / Checklist / 套路清单？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # YAI C角色咨询法：Counsel 式方案输出节奏

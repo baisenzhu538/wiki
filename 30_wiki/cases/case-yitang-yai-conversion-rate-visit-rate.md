@@ -9,19 +9,23 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - ai-collaboration
-  - business-formula
+- yitang
+- ai-collaboration
+- business-formula
 source_refs:
-  - C:/Users/Administrator/Desktop/YAI/转化率agent-我们是专门做软硬件一体化的公司，我们有智....md
+- C:/Users/Administrator/Desktop/YAI/转化率agent-我们是专门做软硬件一体化的公司，我们有智....md
 related:
-  - '[[method-一堂-教练对话引擎协议]]'
-  - '[[framework-一堂-关键假设-ABCD模型]]'
+- '[[method-一堂-教练对话引擎协议]]'
+- '[[framework-一堂-关键假设-ABCD模型]]'
 created_at: 2026-07-13
 updated_at: 2026-07-13
 quality_labels:
-  - case-study
-  - reverse-engineering
+- case-study
+- reverse-engineering
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # YAI实录：转化率agent——智慧药柜电话到访率10%→30%五阻力拆解

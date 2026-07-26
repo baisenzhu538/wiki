@@ -7,19 +7,25 @@ reviewed_by: 黄药师
 author: 黄药师
 confidence: 0.85
 trust_level: high
-domain: [kdo, modeling]
+domain:
+- kdo
+- modeling
 source_refs:
-  - .agent/pitfalls.md
-  - 90_control/rules-core.md
-  - .agent/startup.md
-  - 20_memory/corrections.md
-  - 00_inbox/Advanced modeling/一堂-高阶建模实践1-流程建模-口述.txt
+- .agent/pitfalls.md
+- 90_control/rules-core.md
+- .agent/startup.md
+- 20_memory/corrections.md
+- 00_inbox/Advanced modeling/一堂-高阶建模实践1-流程建模-口述.txt
 related:
-  - framework-kdo-modeling-methodology
-  - dk-process-is-scar-tissue
-  - concept-truman-18-component-cards
+- framework-kdo-modeling-methodology
+- dk-process-is-scar-tissue
+- concept-truman-18-component-cards
 created_at: 2026-07-19
 updated_at: 2026-07-19
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 ## 核心主张

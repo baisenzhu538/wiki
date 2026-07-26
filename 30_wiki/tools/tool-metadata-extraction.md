@@ -25,6 +25,10 @@ related:
 - proposal-prompt-injection-infrastructure
 - concept-ai-native-organization-five-steps
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 元数据提取
 

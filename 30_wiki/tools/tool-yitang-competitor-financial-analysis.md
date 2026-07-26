@@ -24,6 +24,10 @@ related:
 - '[[tool-yitang-bp-analysis]]'
 - tool-ai-prd-for-ai
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 竞对财税分析

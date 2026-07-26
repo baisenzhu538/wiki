@@ -24,9 +24,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[yt-tool-best-practice-learning]]"
-- "[[yt-tool-fab-persuasion]]"
-- "[[yt-tool-foresight-canvas]]"
+- '[[yt-tool-best-practice-learning]]'
+- '[[yt-tool-fab-persuasion]]'
+- '[[yt-tool-foresight-canvas]]'
 review_by: 2026-12-06
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -52,6 +52,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 ## Summary

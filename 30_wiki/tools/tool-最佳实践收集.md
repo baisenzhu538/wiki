@@ -23,6 +23,10 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'
+tags:
+- audience:manager
+- scene:execution
+- skill-level:intermediate
 ---
 # 最佳实践收集：系统性收集团队/行业的最佳做法
 

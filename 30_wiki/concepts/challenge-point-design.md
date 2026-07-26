@@ -3,33 +3,37 @@ id: challenge-point-design
 title: 挑战点设计
 type: tool
 domain:
-  - learning-methodology
-  - personal-growth
-  - yitang
+- learning-methodology
+- personal-growth
+- yitang
 status: reviewed
 source_refs:
-  - "00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md"
+- 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
-  - "[[deliberate-practice-four-elements]]"
-  - "[[comfort-zone-expansion]]"
-  - "[[completion-criteria-design]]"
+- '[[deliberate-practice-four-elements]]'
+- '[[comfort-zone-expansion]]'
+- '[[completion-criteria-design]]'
 aliases:
-  - "挑战点"
-  - "拉伸区设计"
+- 挑战点
+- 拉伸区设计
 author: 老顽童
-created_at: "2026-06-28"
-updated_at: "2026-06-28"
+created_at: '2026-06-28'
+updated_at: '2026-06-28'
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
+review_date: '2026-06-28'
 diagnostic_signals:
-  - signal: 用户说"每次练都太舒服了，没有进步"
-    framework_lens: 缺少非舒适区挑战
-    follow_up_question: "这次练习你能不能设定一个需要‘跳一跳’才能够到的挑战点？"
-  - signal: 用户愿意进入非舒适区但缺少方法
-    framework_lens: 需要把勇气结构化
-    follow_up_question: "如果这次只挑战一个具体短板，你会选什么？"
+- signal: 用户说"每次练都太舒服了，没有进步"
+  framework_lens: 缺少非舒适区挑战
+  follow_up_question: 这次练习你能不能设定一个需要‘跳一跳’才能够到的挑战点？
+- signal: 用户愿意进入非舒适区但缺少方法
+  framework_lens: 需要把勇气结构化
+  follow_up_question: 如果这次只挑战一个具体短板，你会选什么？
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 挑战点设计

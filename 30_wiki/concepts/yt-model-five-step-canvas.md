@@ -15,12 +15,12 @@ query_triggers:
 - src_unknown（三栏结构）
 - src_unknown
 related:
-- "[[yt-entrepreneur-five-step-method]]"
-- "[[yt-entrepreneur-product-core]]"
-- "[[一堂]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[yt-entrepreneur-lean-validation]]"
-- "[[yt-model-product-core-metrics]]"
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-entrepreneur-product-core]]'
+- '[[一堂]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-model-product-core-metrics]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
@@ -43,6 +43,10 @@ diagnostic_signals:
   follow_up_question: 产品内核画布上的3-5条内核假设，对应五步法画布上哪个模块的哪条假设？如果对应不上，说明两张画布没有打通
 author: 老顽童
 trust_level: medium-high
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 五步法画布 × 产品内核画布：从假设到壁垒的实操工具

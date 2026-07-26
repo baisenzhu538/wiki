@@ -1,31 +1,28 @@
 ---
-
 domain:
-  - personal-growth
-
-
-
+- personal-growth
 id: yt-personal-y-model-practice
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: "黄药师"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:src_20260614_842be4c9-一堂-Y模型实操探索营
-  - src_20260614_842be4c9-一堂-Y模型实操探索营
-source_refs:
-  - pending_archive:src_20260614_842be4c9-一堂-Y模型实操探索营
+- pending_archive:src_20260614_842be4c9-一堂-Y模型实操探索营
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # Y模型实操：科学成事的底层操作系统
 

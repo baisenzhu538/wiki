@@ -33,6 +33,10 @@ related:
 - '[[framework-decision-quality-checklist]]'
 review_date: '2026-07-12'
 updated_at: '2026-07-12'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 科学决策三角形

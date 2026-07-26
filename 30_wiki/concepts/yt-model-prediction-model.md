@@ -1,29 +1,28 @@
 ---
-
 domain:
-  - modeling
-
+- modeling
 id: yt-model-prediction-model
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 superseded_by:
-  - src_unknown
-reviewed_by: "黄药师"
+- src_unknown
+reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:src_20260522_e71d89ff-ocr-预判模型
-  - src_20260522_e71d89ff-ocr-预判模型
-source_refs:
-  - pending_archive:src_20260522_e71d89ff-ocr-预判模型
+- pending_archive:src_20260522_e71d89ff-ocr-预判模型
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 预判模型：从最糙版到复杂版的三种预判范式
 

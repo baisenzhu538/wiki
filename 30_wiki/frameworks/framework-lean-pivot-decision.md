@@ -25,15 +25,19 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[lean-startup-domain-digest]]"
-  - "[[yt-decision-y-model]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[yitang-domain-digest]]"
-  - "[[case-yitang-sales-transformation-jubensha-saas]]"
+- '[[strategy-domain-digest]]'
+- '[[framework-lean-abcd-model]]'
+- '[[lean-startup-domain-digest]]'
+- '[[yt-decision-y-model]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[yitang-domain-digest]]'
+- '[[case-yitang-sales-transformation-jubensha-saas]]'
 updated_at: 2026-07-02
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 精益验证结果如何触发战略/产品 pivot
 

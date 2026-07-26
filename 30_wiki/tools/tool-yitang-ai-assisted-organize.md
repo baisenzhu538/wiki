@@ -15,12 +15,16 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - "[[tool-yitang-ai-assisted-analysis]]"
-  - "[[tool-yitang-research-normalize-summary]]"
-  - "[[framework-yitang-research-quality-gate]]"
-  - "[[concept-yitang-ai-research-human-loop]]"
-  - "[[tool-prompt-usp-quick-scan]]"
-updated_at: "2026-06-30T16:07:51+00:00"
+- '[[tool-yitang-ai-assisted-analysis]]'
+- '[[tool-yitang-research-normalize-summary]]'
+- '[[framework-yitang-research-quality-gate]]'
+- '[[concept-yitang-ai-research-human-loop]]'
+- '[[tool-prompt-usp-quick-scan]]'
+updated_at: '2026-06-30T16:07:51+00:00'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # AI辅助整理

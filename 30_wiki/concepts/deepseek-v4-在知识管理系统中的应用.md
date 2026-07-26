@@ -20,6 +20,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - yt-concept-context-engineering
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 # DeepSeek V4 在知识管理系统中的应用
 

@@ -28,6 +28,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 source_context: 单一source为完整长文档，内容充分支撑medium trust；待补充第二来源或充分验证后可升high
 diagnostic_signals:
 - lens: 广场优先

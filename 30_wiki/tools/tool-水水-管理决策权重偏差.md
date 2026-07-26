@@ -1,5 +1,4 @@
 ---
-
 id: tool-水水-管理决策权重偏差
 title: 技能：管理决策权重偏差
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[master-decision-hygiene]]"
-  - "[[master-cognitive-bias-checklist]]"
-  - "[[yt-decision-y-model]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[master-decision-hygiene]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[yt-decision-y-model]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -46,7 +45,10 @@ diagnostic_signals:
   follow_up: 强制至少列出8个因素，不够8个去看别人做类似决策时考虑了哪些因素
 - lens: 不可通约量化
   follow_up: 对于truly hard choices，不要试图用权重计算，而是问'我想成为什么样的人'
-
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：管理决策权重偏差

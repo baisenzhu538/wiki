@@ -10,24 +10,28 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
-  - methodology
+- yitang
+- decision-science
+- methodology
 source_refs:
-  - 30_wiki/methods/method-yitang-y-model-engine-cycle.md
-  - 30_wiki/tools/tool-yitang-Y-model-application.md
-  - 60_feedback/diagnosis/diag_20260708_yitang-y-model-cross-domain-fusion-deep-dive-v2.md
+- 30_wiki/methods/method-yitang-y-model-engine-cycle.md
+- 30_wiki/tools/tool-yitang-Y-model-application.md
+- 60_feedback/diagnosis/diag_20260708_yitang-y-model-cross-domain-fusion-deep-dive-v2.md
 related:
-  - "[[yt-decision-y-model]]"
-  - "[[method-yitang-y-model-engine-cycle]]"
-  - "[[framework-yitang-y-model-cross-domain-fusion]]"
-  - "[[agent-spec-yitang-Y-model-cross-domain-coach]]"
-  - "[[principle-yitang-y-model-dual-posture]]"
-  - "[[tool-yitang-Y-model-application]]"
-  - "[[dk-yitang-Y-model-pitfalls]]"
-  - "[[tool-Y模型STEPS策略集]]"
+- '[[yt-decision-y-model]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+- '[[framework-yitang-y-model-cross-domain-fusion]]'
+- '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
+- '[[principle-yitang-y-model-dual-posture]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[dk-yitang-Y-model-pitfalls]]'
+- '[[tool-Y模型STEPS策略集]]'
 created_at: 2026-06-29
-updated_at: 2026-07-08T17:38:57Z
+updated_at: 2026-07-08 17:38:57+00:00
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 
 # Y模型实操工作流：从分析到决策的完整路径

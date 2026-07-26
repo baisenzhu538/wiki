@@ -134,6 +134,10 @@ quality_labels:
 - framework
 - cited
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一堂业务公式拆解总纲：关键假设 ABCD 体系的核心骨架与灵魂

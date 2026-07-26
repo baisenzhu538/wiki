@@ -36,6 +36,10 @@ related:
 - '[[tool-opc-sales-dialogue-assistant]]'
 created_at: 2026-07-03
 updated_at: '2026-07-03'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # Y模型应用工作流：把科学做事框架变成具体问题上的操作清单

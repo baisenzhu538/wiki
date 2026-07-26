@@ -1,51 +1,52 @@
 ---
 id: case-wenxiaobao-campus-bilateral-network
-title: "温小宝·校园双边网络：从驾校到学生网络平台"
+title: 温小宝·校园双边网络：从驾校到学生网络平台
 type: case
 status: draft
 confidence: 0.85
 trust_level: medium
 domain:
-  - innovation
+- innovation
 author: 老顽童
-review_date: "2026-07-26"
-reviewed_by: 待审
-  - framework-kdo-modeling-methodology
-  - framework-yitang-shishi-qiushi
-created_at: "2026-07-26"
-updated_at: "2026-07-26"
+review_date: '2026-07-26'
+reviewed_by: 待审 - framework-kdo-modeling-methodology - framework-yitang-shishi-qiushi
+created_at: '2026-07-26'
+updated_at: '2026-07-26'
 quality_labels:
-  - cited
-一句话标签: "驾校→双边网络·底层资产重新定义"
+- cited
+一句话标签: 驾校→双边网络·底层资产重新定义
 discoverable_by:
-  - 平台网络搭建
-  - 渠道体系建设
-  - 从单业务到平台
+- 平台网络搭建
+- 渠道体系建设
+- 从单业务到平台
 transferable_to:
-  - 社区运营
-  - 代理商网络
-  - 双边市场
+- 社区运营
+- 代理商网络
+- 双边市场
 similar_to:
-  - 贝壳找房（从链家直营到平台网络）
+- 贝壳找房（从链家直营到平台网络）
 opposite_of:
-  - 传统驾校（单业务、无网络效应）
+- 传统驾校（单业务、无网络效应）
 source_refs:
-  - "00_inbox/解放思想探索营/案例分享-口述.txt L1-890"
-  - "00_inbox/解放思想探索营/案例分享-笔记.txt §二"
+- 00_inbox/解放思想探索营/案例分享-口述.txt L1-890
+- 00_inbox/解放思想探索营/案例分享-笔记.txt §二
 related:
-  - framework-yitang-thought-liberation-lightning
-  - tool-incentive-28-principle
-  - tool-four-line-review
-  - tool-ai-customer-quality-audit
-  - dk-unit-model-reverse-calc
+- framework-yitang-thought-liberation-lightning
+- tool-incentive-28-principle
+- tool-four-line-review
+- tool-ai-customer-quality-audit
+- dk-unit-model-reverse-calc
 diagnostic_signals:
-  - signal: "创新方案执行后效果不如预期"
-    lens: 检查是否跳过了闪电模型的某个步骤
-    follow_up: 按四步闭环逐步排查
-  - signal: "团队对创新方法论的理解不一致"
-    lens: 培训不够或框架表达不清晰
-    follow_up: 用十层解读法重新学习框架
-
+- signal: 创新方案执行后效果不如预期
+  lens: 检查是否跳过了闪电模型的某个步骤
+  follow_up: 按四步闭环逐步排查
+- signal: 团队对创新方法论的理解不一致
+  lens: 培训不够或框架表达不清晰
+  follow_up: 用十层解读法重新学习框架
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 定位：[[framework-yitang-thought-liberation-lightning]] 的第 1-3 步案例（大胆设想→底层自洽→假设试错）。

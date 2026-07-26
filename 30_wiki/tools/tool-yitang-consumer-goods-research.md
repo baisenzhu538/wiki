@@ -40,6 +40,10 @@ related:
 - '[[yt-research-competitor-toolkit]]'
 - framework-yitang-six-layer-cross-validation
 - concept-yitang-research-objective
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 消费品调研手段：浅中深三层10大评估法
 

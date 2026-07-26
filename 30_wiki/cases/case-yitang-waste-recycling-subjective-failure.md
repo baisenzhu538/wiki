@@ -5,7 +5,7 @@ type: case
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -18,8 +18,12 @@ source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
 related:
-- "[[framework-yitang-shishi-qiushi]]"
-- "[[yt-decision-y-model]]"
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[yt-decision-y-model]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 案例：废品回收站——主观臆测从单店成功到多店失败

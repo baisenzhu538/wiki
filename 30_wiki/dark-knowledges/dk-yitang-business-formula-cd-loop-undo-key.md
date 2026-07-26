@@ -33,6 +33,10 @@ author: 老顽童（kimi）
 reviewed_by: pending
 confidence: 0.85
 trust_level: medium
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 # 公式是经营的撤销键：C-D 循环的真实形态是「打不动就退，找到就回」
 

@@ -2,7 +2,7 @@
 id: yt-skill-storyline-target-tradeoff
 title: 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架
 domain:
-  - concepts
+- concepts
 diagnostic_signals:
 - framework_lens: 理性决策 / 反合理化
   follow_up_question: 标准是否在评估后被修改以迎合偏好？
@@ -24,10 +24,13 @@ source_refs:
 - src_unknown
 source_context: 一堂清单体故事线系列（具体来源文件无法追溯，待后续补充）
 related:
-  - "[[yt-skill-storyline-contrast-analysis]]"
-  - "[[yt-skill-storyline-key-elements]]"
-  - "[[yt-skill-storyline-problem-solving]]"
-
+- '[[yt-skill-storyline-contrast-analysis]]'
+- '[[yt-skill-storyline-key-elements]]'
+- '[[yt-skill-storyline-problem-solving]]'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 ---
 
 

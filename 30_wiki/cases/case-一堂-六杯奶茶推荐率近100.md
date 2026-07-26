@@ -31,6 +31,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 在大学生科目二刚考过的峰值情绪触点，佳佳校长让用户带六杯奶茶回宿舍，把推荐率从普通水平拉到将近 100%——峰值触点提供情绪窗口，信任触点（舍友分享）+ 实体礼物（奶茶）把情绪即时转化为推荐行为。

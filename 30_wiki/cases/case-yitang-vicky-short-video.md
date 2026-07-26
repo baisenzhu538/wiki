@@ -36,6 +36,10 @@ related:
 - '[[yt-lean-assumption-prioritization]]'
 - '[[framework-business-formula-fundamentals-bridge]]'
 - '[[tool-泛产品落地-攻坚会]]'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 # Vicky 短视频：从"盯结果+抄同行+掷骰子"到测试群+飞书假设池，团队心力逆转、业务跑出来
 

@@ -36,7 +36,6 @@ related:
 - '[[tool-agent-spec-yitang-objection-handler]]'
 - '[[tool-agent-spec-yitang-opening-3min]]'
 - '[[tool-agent-spec-yitang-self-motivation]]'
-
 - '[[framework-一堂-动力三曲线]]'
 - '[[framework-一堂-转化率提升六步法]]'
 created_at: 2026-07-02
@@ -45,6 +44,10 @@ tcp_role: R
 tcp_default_mode: 研究复盘（Research）：把目标、Pipeline 和跟进记录转化为概率加权诊断
 tcp_switch_trigger: 用户要求切换到咨询模式（讨论策略选择）、实践模式（生成本周具体行动清单）或教学模式（解释业绩管理方法论）
 tcp_session_opening: 我本次以 **R（Research/研究）** 身份与你协作：先帮你复盘业绩差距与 Pipeline 结构，再给出基于概率的诊断。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # OPC 销售业绩监控助手 Agent Spec

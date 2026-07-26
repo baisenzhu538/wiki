@@ -1,5 +1,4 @@
 ---
-
 id: business-formula-domain-digest
 title: 域摘要：一堂业务公式（关键假设 ABCD 之 C 域·宏观效率）
 type: index
@@ -115,6 +114,10 @@ related:
 - '[[dk-yitang-formula-unmeasurable-metrics]]'
 - '[[tool-yitang-hypothesis-marginal-roi]]'
 - '[[conversion-rate-domain-digest]]'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 
 # 域摘要：一堂业务公式（C 域）

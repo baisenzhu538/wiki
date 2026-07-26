@@ -34,6 +34,10 @@ related:
 - '[[pending_unknown]]'
 - tool-yitang-research-unit-model
 - tool-yitang-research-competitor-tracking
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 舆情/口碑批量收集：好评决定内核，差评决定机会
 

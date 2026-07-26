@@ -1,5 +1,4 @@
 ---
-
 id: yt-note-fact-pattern-insight
 title: 事实→规律→见解：深度思考笔记的三段论结构
 type: concept
@@ -13,11 +12,11 @@ confidence: 0.75
 source_refs:
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
-  - "[[concept-问题驱动式深度思考笔记]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[concept-问题驱动式深度思考笔记]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 query_triggers:
 - src_unknown
 - src_unknown
@@ -41,7 +40,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 事实→规律→见解：深度思考笔记的三段论结构

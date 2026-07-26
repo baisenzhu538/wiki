@@ -28,6 +28,10 @@ related:
 - - - smart-medicine-cabinet-o2o-cost-structure
 - HIS系统深度调研
 - 互联网医院模式深度调研报告
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 消费者购药行为与智能药柜接受度
 

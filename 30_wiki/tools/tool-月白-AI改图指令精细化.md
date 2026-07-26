@@ -24,13 +24,17 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-控制产品画面尺寸比例]]"
-- "[[tool-月白-竞品图精益替换法]]"
-- "[[tool-月白-眼高手低训练法]]"
-- "[[tool-月白-线下门店设计复杂度评估]]"
-- "[[tool-月白-AIGC橱窗陈列设计流程]]"
-- "[[tool-月白-替换大法改图]]"
-- "[[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]"
+- '[[tool-月白-控制产品画面尺寸比例]]'
+- '[[tool-月白-竞品图精益替换法]]'
+- '[[tool-月白-眼高手低训练法]]'
+- '[[tool-月白-线下门店设计复杂度评估]]'
+- '[[tool-月白-AIGC橱窗陈列设计流程]]'
+- '[[tool-月白-替换大法改图]]'
+- '[[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：AI改图指令精细化

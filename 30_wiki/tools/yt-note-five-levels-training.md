@@ -1,5 +1,4 @@
 ---
-
 id: yt-note-five-levels-training
 title: 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径
 type: tool
@@ -12,13 +11,13 @@ version: 1
 difficulty: intermediate
 confidence: 0.89
 related:
-  - "[[yt-note-checklist-concept]]"
-  - "[[yt-note-ai-human-division]]"
-  - "[[yt-note-live-field-skill]]"
-  - "[[yt-model-ipo-learning-strategy]]"
-  - "[[yt-decision-ai-partner]]"
-  - "[[yt-note-deliberate-practice-four-elements]]"
-  - "[[yt-note-l4-internalization]]"
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-ai-human-division]]'
+- '[[yt-note-live-field-skill]]'
+- '[[yt-model-ipo-learning-strategy]]'
+- '[[yt-decision-ai-partner]]'
+- '[[yt-note-deliberate-practice-four-elements]]'
+- '[[yt-note-l4-internalization]]'
 prerequisites:
 - src_unknown
 - src_unknown
@@ -43,6 +42,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 estimated_tokens: 4200
@@ -62,7 +64,6 @@ diagnostic_signals:
   follow_up_question: 这篇笔记中至少有30%是你自己的判断、关联或反常识问题吗？
 - framework_lens: 广泛涉猎前提缺失
   follow_up_question: 你的清单体基本功是否已经练到"肌肉记忆"级别？
-
 ---
 
 # 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径

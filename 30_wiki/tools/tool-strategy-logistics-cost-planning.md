@@ -23,6 +23,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - tool-strategy-three-horizons
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 物流费用三年节约计划：从单吨运费到全链成本
 

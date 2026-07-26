@@ -31,6 +31,10 @@ related:
 - '[[tool-月白-AIGC橱窗陈列设计流程]]'
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 - aigc文创案例设计课leo文创ip从0到1全流程
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：设计项目MVP拆解法

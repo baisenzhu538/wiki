@@ -14,16 +14,16 @@ domain:
 - yitang
 - five-step-method
 - ai-collaboration
-source_refs:
-
+source_refs: null
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-
-
-
 - tool-yitang-app-store-data
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # Agent L1-L2信号聚合
 

@@ -16,8 +16,12 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[concept-yihang-methodology-production-pipeline]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[concept-yihang-methodology-production-pipeline]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 研发型公司 vs 工程型公司——做"过去做不出来的东西"

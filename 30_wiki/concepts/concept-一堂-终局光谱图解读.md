@@ -43,6 +43,10 @@ quality_labels:
 - principle
 - cited
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 终局光谱图解读：五条读法 + 七段风险/收益量化

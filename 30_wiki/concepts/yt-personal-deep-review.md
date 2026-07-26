@@ -21,11 +21,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[一堂方法论体系总图]]"
-- "[[yitang-course-map]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 review_date: 2026-05-07
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -42,7 +42,10 @@ yitang:
   course_type: method
   level: core
   series: false
-tags: null
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 pipeline:
 - src_unknown
 - src_unknown

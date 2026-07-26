@@ -17,11 +17,11 @@ domain:
 source_refs:
 - C:/Users/Administrator/Desktop/从知识库到agent.txt
 related:
-- "[[method-judge-skill-meta-evaluation]]"
-- "[[method-kdo-agent-design-meta]]"
-- "[[agent-spec-dual-triangle-canvas-filler]]"
-- "[[method-kdo-agent-distillation]]"
-- "[[dk-ai-collaboration-degradation-spiral]]"
+- '[[method-judge-skill-meta-evaluation]]'
+- '[[method-kdo-agent-design-meta]]'
+- '[[agent-spec-dual-triangle-canvas-filler]]'
+- '[[method-kdo-agent-distillation]]'
+- '[[dk-ai-collaboration-degradation-spiral]]'
 diagnostic_signals:
 - signal: Agent 在某个步骤出错后无法自我纠正，继续往下走错得更远
   lens: 缺纠错要素——Skill 没有 Error Correction 机制
@@ -36,6 +36,10 @@ quality_labels:
 - actionable
 - insight
 - principle
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # Skill ≠ Prompt——蓝鱼七要素告诉你完整 Skill 缺了什么

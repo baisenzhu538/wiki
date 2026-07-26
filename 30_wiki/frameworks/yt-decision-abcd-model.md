@@ -1,5 +1,4 @@
 ---
-
 type: framework
 id: yt-decision-abcd-model
 status: reviewed
@@ -8,12 +7,12 @@ domain:
 - decision-science
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - validated
+- cited
+- insight
+- principle
+- validated
 created_at: 2026-06-15
 updated_at: 2026-06-26
 confidence: 0.75
@@ -23,15 +22,19 @@ source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键假设ABCD模型_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-关键假设abcd模型.md
 related:
-  - "[[yt-decision-y-model]]"
-  - "[[yt-decision-width-method]]"
-  - "[[yt-decision-depth-ladder]]"
-  - "[[yt-decision-height-toolkit]]"
-  - "[[yt-decision-consensus-iceberg]]"
-  - "[[yt-decision-full-process]]"
-  - "[[yitang-domain-digest]]"
-  - "[[decision-science-domain-digest]]"
-  - "[[case-yitang-panhonghai-entertainment]]"
+- '[[yt-decision-y-model]]'
+- '[[yt-decision-width-method]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-height-toolkit]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[yt-decision-full-process]]'
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[case-yitang-panhonghai-entertainment]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 一堂·关键假设ABCD模型

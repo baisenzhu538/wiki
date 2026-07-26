@@ -15,22 +15,22 @@ domain:
 - conversion-rate
 source_context: 收录《转化率黑客·组合篇》口述稿中用于说明动力、阻力、触点组合落地与文案讲香的案例
 source_refs:
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L406-L482"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L554-L602"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L922-L944"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1004-L1142"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1192-L1210"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1300-L1308"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1322-L1568"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1686-L1754"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2100-L2114"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2298-L2338"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2456-L2548"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2752-L2892"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3190-L3230"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3338-L3374"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3616-L3668"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3858-L3880"
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L406-L482
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L554-L602
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L922-L944
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1004-L1142
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1192-L1210
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1300-L1308
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1322-L1568
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1686-L1754
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2100-L2114
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2298-L2338
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2456-L2548
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2752-L2892
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3190-L3230
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3338-L3374
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3616-L3668
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3858-L3880
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'
@@ -58,11 +58,14 @@ related:
 - '[[tool-一堂-触点挖掘四层级]]'
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
-
 - '[[case-yitang-sales-transformation-tuliaogongsi]]'
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 组合篇案例库：一堂用 20+ 个案例说明如何把动力、阻力、触点组合成可落地的转化率工作流，核心启示是「价值点找对了，还要把价值感做出来」。

@@ -1,5 +1,4 @@
 ---
-
 id: case-xiaolong-ecommerce-foresight
 title: 小龙电商：四层剥离——从服装到正装裤
 type: case
@@ -38,9 +37,13 @@ author: 老顽童
 trust_level: medium-high
 updated_at: 2026-06-28
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 小龙电商：四层剥离——从服装到正装裤

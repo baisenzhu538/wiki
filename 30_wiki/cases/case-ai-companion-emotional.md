@@ -42,6 +42,10 @@ related:
 - '[[case-cambridge-novelists-survey]]'
 - '[[case-dutch-childcare-scandal]]'
 - tool-ai-cross-reading-method
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # AI 情感陪伴的市场与伦理

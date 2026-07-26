@@ -39,6 +39,10 @@ related:
 - '[[tool-深度分层学习]]'
 - '[[tool-清单小抄制作]]'
 - tool-费曼简单提炼法
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：费曼学习法三句话提炼

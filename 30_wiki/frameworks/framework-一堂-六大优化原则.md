@@ -1,5 +1,4 @@
 ---
-
 id: framework-一堂-六大优化原则
 title: 一堂六大优化原则：数量 3（触点/密度/号召提升）+ 质量 3（优先/顺序/厚度匹配）
 type: framework
@@ -41,6 +40,10 @@ quality_labels:
 - framework
 - cited
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一堂六大优化原则

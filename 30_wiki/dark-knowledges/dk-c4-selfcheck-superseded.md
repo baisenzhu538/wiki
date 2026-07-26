@@ -1,5 +1,4 @@
 ---
-
 id: dk-c4-selfcheck-superseded
 title: C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich
 type: dk
@@ -14,11 +13,11 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-  - "[[sprint-2-gate-enrich-evidence]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[sprint-2-gate-enrich-evidence]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -38,7 +37,10 @@ diagnostic_signals:
   framework_lens: 新增终态 status 时只改 schema 不改 skip 集合，是系统性误报的直接诱因
   follow_up_question: 每新增一个 status，先判定是中间态还是终态；终态必须同步到所有检查函数的 skip 集合# C-4：自检误报 superseded
     页面→终态卡片被标记为未 enrich
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述

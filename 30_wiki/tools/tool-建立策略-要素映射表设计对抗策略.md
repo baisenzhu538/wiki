@@ -33,6 +33,10 @@ related:
 - '[[tool-设计对抗效果追踪看板]]'
 - '[[tool-使用概念辨析卡区分易混淆概念]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：建立策略-要素映射表设计对抗策略

@@ -2,7 +2,7 @@
 id: yt-skill-storyline-problem-solving
 title: 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链
 domain:
-  - concepts
+- concepts
 diagnostic_signals:
 - framework_lens: 问题定义 / 诊断起点
   follow_up_question: 问题描述是否混入了预设原因或解决方案？
@@ -24,10 +24,13 @@ source_refs:
 - src_unknown
 source_context: 一堂清单体故事线系列（具体来源文件无法追溯，待后续补充）
 related:
-  - "[[yt-skill-storyline-contrast-analysis]]"
-  - "[[yt-skill-storyline-key-elements]]"
-  - "[[yt-skill-storyline-target-tradeoff]]"
-
+- '[[yt-skill-storyline-contrast-analysis]]'
+- '[[yt-skill-storyline-key-elements]]'
+- '[[yt-skill-storyline-target-tradeoff]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 

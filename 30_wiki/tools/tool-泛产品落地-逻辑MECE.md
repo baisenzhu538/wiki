@@ -23,6 +23,10 @@ related:
 - concept-mckinsey-mece
 - tool-mece体系框架法
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 落地卡片：逻辑MECE
 

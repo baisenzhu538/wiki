@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-阻力三句话心法
 title: 一堂阻力三句话心法：至少降低它 / 争取消除它 / 挑战逆转它
 type: tool
@@ -40,6 +39,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂阻力三句话心法：至少降低它 / 争取消除它 / 挑战逆转它

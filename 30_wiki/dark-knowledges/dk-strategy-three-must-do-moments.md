@@ -12,10 +12,14 @@ domain:
 source_refs:
 - 'pending_archive:'
 related:
-- "[[dk-strategy-longzhong-four-failures]]"
+- '[[dk-strategy-longzhong-four-failures]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 updated_at: '2026-06-28'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 三种必做战略的时刻：快速扩张/业务平台期/行业下行期

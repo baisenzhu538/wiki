@@ -1,5 +1,4 @@
 ---
-
 id: tool-专题笔记脑图整理法
 title: 技能：专题笔记/脑图整理法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[tool-专题笔记整理]]"
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[tool-专题笔记整理]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -44,7 +43,10 @@ diagnostic_signals:
   follow_up: 连线必须有逻辑依据，不是'看起来有关系'。每条连线必须能说出'因为X所以Y'
 - lens: 无后续用途
   follow_up: 做笔记时心里必须知道'这个以后会用在X场景'，没有明确用途的笔记是信息囤积
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：专题笔记/脑图整理法

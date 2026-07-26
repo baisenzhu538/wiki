@@ -1,5 +1,4 @@
 ---
-
 id: dk-demand-switching-cost
 title: 新体验-旧体验-切换成本=产品价值
 type: dk
@@ -17,14 +16,17 @@ domain:
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
-  - "[[yt-demand-fake-demand-detection]]"
-  - "[[dk-demand-premature-solution]]"
-  - "[[dk-yi-tang-wishful-thinking-kills-startups]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[yitang-domain-digest]]"
+- '[[yt-demand-fake-demand-detection]]'
+- '[[dk-demand-premature-solution]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yitang-domain-digest]]'
 updated_at: 2026-06-28
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 新体验-旧体验-切换成本=产品价值

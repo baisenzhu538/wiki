@@ -27,6 +27,10 @@ related:
 - tool-yitang-ai-monitoring-alert
 - '[[tool-demand-agent-l4-case-match]]'
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：AI健身四力分析
 

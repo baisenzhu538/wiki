@@ -22,16 +22,20 @@ source_refs:
 - 60_feedback/tasks/task_20260703_huangyaoshi-agent-tcpr-role-layer.md
 - 60_feedback/tasks/task_20260703_laowantong-graphrag-orphan-reduction.md
 related:
-- "[[人机协作决策-双三角模型]]"
-- "[[concept-AI时代双三角竞争力]]"
-- "[[yt-decision-y-model]]"
-- "[[system-yitang-Y-model-os]]"
-- "[[agent-native-card-design]]"
-- "[[tool-opc-sales-dialogue-assistant]]"
+- '[[人机协作决策-双三角模型]]'
+- '[[concept-AI时代双三角竞争力]]'
+- '[[yt-decision-y-model]]'
+- '[[system-yitang-Y-model-os]]'
+- '[[agent-native-card-design]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
 - '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 
 # KDO 多 Agent 工厂：人机协作双三角的组织化实践

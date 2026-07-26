@@ -23,21 +23,25 @@ created_at: '2026-06-09T15:06:23+00:00'
 updated_at: '2026-06-29'
 author: unknown
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
 related:
-  - '[[tool-应用人员降级公式实现标准化]]'
-  - '[[tool-执行对标研究三步法]]'
-  - '[[tool-按分阶练习路径渐进掌握方法]]'
-  - '[[tool-推行分层标准化策略]]'
-  - '[[tool-通过综合案例沙盘走通全流程]]'
-  - '[[tool-采用滚动预测机制]]'
-  - tool-使用概念辨析卡区分易混淆概念
-  - tool-设定管理杠杆率指标评估效率
-  - tool-建立策略-要素映射表设计对抗策略
-  - tool-使用优先级快筛卡锁定核心矛盾
-  - tool-设计对抗效果追踪看板
+- '[[tool-应用人员降级公式实现标准化]]'
+- '[[tool-执行对标研究三步法]]'
+- '[[tool-按分阶练习路径渐进掌握方法]]'
+- '[[tool-推行分层标准化策略]]'
+- '[[tool-通过综合案例沙盘走通全流程]]'
+- '[[tool-采用滚动预测机制]]'
+- tool-使用概念辨析卡区分易混淆概念
+- tool-设定管理杠杆率指标评估效率
+- tool-建立策略-要素映射表设计对抗策略
+- tool-使用优先级快筛卡锁定核心矛盾
+- tool-设计对抗效果追踪看板
+tags:
+- audience:manager
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：遵循规模前倾原则设计组织架构

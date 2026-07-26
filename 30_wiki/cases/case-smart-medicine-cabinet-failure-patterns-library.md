@@ -38,6 +38,10 @@ diagnostic_signals:
   follow_up_question: 运维SLA书面承诺是什么？随机抽查3台已运营设备，库存/故障/清洁状态如何？
 - framework_lens: 商业模式结构性失败
   follow_up_question: 用保守客单价和复购频次做敏感性测算，回本周期是多少？是否预留6-12个月运营资金？
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # 智能药柜失败模式案例库
 

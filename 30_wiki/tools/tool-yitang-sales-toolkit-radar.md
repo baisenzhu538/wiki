@@ -43,6 +43,10 @@ related:
 - '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 一堂销售工具箱六维雷达图
 

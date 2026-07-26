@@ -1,5 +1,4 @@
 ---
-
 id: tool-复盘推演法
 title: 技能：复盘推演法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[tool-复盘推演练习]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-复盘推演练习]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -44,7 +43,10 @@ diagnostic_signals:
   follow_up: 没有检查的复盘等于没做，复盘必须形成'复盘→行动→验证→再复盘'的循环
 - lens: 成功忽视
   follow_up: 成功的因果链同样需要萃取，成功中的可复制因素往往比失败教训更有价值
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：复盘推演法

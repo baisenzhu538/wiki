@@ -1,5 +1,4 @@
 ---
-
 id: tool-纪浩-Do-first-PDCA渐进迭代法
 title: 技能：Do-first PDCA渐进迭代法
 type: tool
@@ -16,17 +15,17 @@ tools_required:
 - src_unknown
 prerequisite_skills: skill-纪浩-真需求四要素验证法
 related:
-  - "[[case-five-step-growth-first-lever]]"
-  - "[[dk-yb31-style-first-controlnet]]"
-  - "[[dk-ji-hao-pdca-starts-from-do]]"
-  - "[[concept-yitang-facts-first]]"
-  - "[[concept-yitang-research-facts-first]]"
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[dk-research-decision-first-mapping]]"
-  - "[[framework-wanghuan-five-criteria-first-product]]"
-  - "[[tool-first-principles-assumption-classify]]"
-  - "[[dk-yb29-prompt-migrate-copy-first]]"
-  - "[[dk-yitang-research-best-practice-first]]"
+- '[[case-five-step-growth-first-lever]]'
+- '[[dk-yb31-style-first-controlnet]]'
+- '[[dk-ji-hao-pdca-starts-from-do]]'
+- '[[concept-yitang-facts-first]]'
+- '[[concept-yitang-research-facts-first]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[dk-research-decision-first-mapping]]'
+- '[[framework-wanghuan-five-criteria-first-product]]'
+- '[[tool-first-principles-assumption-classify]]'
+- '[[dk-yb29-prompt-migrate-copy-first]]'
+- '[[dk-yitang-research-best-practice-first]]'
 created_at: '2026-06-08'
 updated_at: '2026-06-28'
 pipeline:
@@ -47,7 +46,10 @@ diagnostic_signals:
   follow_up: 规模化前必须验证可复现至少3次，不稳定的流程不要封装成Skill
 - lens: 方向错误
   follow_up: 四要素验证作为前置门禁，确保Do的方向大致正确。方向错误时停下来重新验证
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：Do-first PDCA渐进迭代法

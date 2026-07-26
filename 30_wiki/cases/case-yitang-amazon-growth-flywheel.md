@@ -13,10 +13,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-亚马逊增长飞轮_vlm_desc.md
@@ -24,15 +24,19 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-笔记.txt
 source_person: Truman
 related:
-- "[[framework-yitang-growth-flywheel]]"
-- "[[tool-yitang-growth-flywheel-design]]"
-- "[[framework-yitang-channel-unit-economics]]"
-- "[[concept-yitang-channel-lean-validation-bridge]]"
-- "[[case-yitang-topcity-growth-flywheel]]"
-- "[[case-yitang-novel-app-flywheel]]"
-- "[[tool-区分获客渠道计算单元roi]]"
-- "[[case-yitang-yitang-shortvideo-industrialization]]"
+- '[[framework-yitang-growth-flywheel]]'
+- '[[tool-yitang-growth-flywheel-design]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[concept-yitang-channel-lean-validation-bridge]]'
+- '[[case-yitang-topcity-growth-flywheel]]'
+- '[[case-yitang-novel-app-flywheel]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[case-yitang-yitang-shortvideo-industrialization]]'
 review_date: '2026-06-28'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 案例：亚马逊增长飞轮的五层逻辑

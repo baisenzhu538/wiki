@@ -32,6 +32,10 @@ related:
 - '[[tool-月白-AI模型选择策略]]'
 - '[[tool-月白-模型识别与边界测试法]]'
 - aigc设计基础01ai生图原理与提示词基本功
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：精准提示词消除模型幻觉

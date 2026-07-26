@@ -5,7 +5,7 @@ type: case
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -22,17 +22,21 @@ source_refs:
 - 00_inbox/底层逻辑之一-Y模型/科学理念-Y模型.png
 - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
 related:
-  - '[[case-yitang-copywriting-time-decomposition]]'
-  - yt-decision-y-model
-  - tool-yitang-Y-model-application
-  - dk-yitang-Y-model-pitfalls
-  - case-yitang-Y-model-seven-applications
-  - master-decision-hygiene
-  - concept-X型Y型决策习惯
-  - yt-business-formula-six-level-logic
-  - yt-five-step-method
+- '[[case-yitang-copywriting-time-decomposition]]'
+- yt-decision-y-model
+- tool-yitang-Y-model-application
+- dk-yitang-Y-model-pitfalls
+- case-yitang-Y-model-seven-applications
+- master-decision-hygiene
+- concept-X型Y型决策习惯
+- yt-business-formula-six-level-logic
+- yt-five-step-method
 created_at: 2026-07-03
 updated_at: '2026-07-04'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 一堂抖音 AD 投放扭亏：Y模型科学投放实战

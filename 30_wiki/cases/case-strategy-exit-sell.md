@@ -19,6 +19,10 @@ source_refs:
 related:
 - '[[case-strategy-m-brand-profit-model]]'
 - '[[yt-decision-y-model]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：撤退型布局1——出售（Musical.ly）
 

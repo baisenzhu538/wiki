@@ -23,6 +23,10 @@ related:
 - '[[tool-知识库团队管理]]'
 - tool-strategy-12-word-test
 - system-kdo-quality-labels
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 素材文件七要素命名法
 

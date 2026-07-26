@@ -24,6 +24,10 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
 - case-lean-building-in-vacuum
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 一堂 2B 内训灰度测试
 

@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-pareto
 title: 帕雷托图（80/20法则）：识别库存/客户/品类的关键少数
 type: tool
@@ -8,13 +7,18 @@ author: 老顽童
 reviewed_by: pending
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: "2026-06-30T16:07:51+00:00"
-confidence: 0.90
+updated_at: '2026-06-30T16:07:51+00:00'
+confidence: 0.9
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
-  - "pending_archive:src_unknown"
+- pending_archive:src_unknown
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 帕雷托图

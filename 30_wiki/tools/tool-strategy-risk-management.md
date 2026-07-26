@@ -37,6 +37,10 @@ related:
 - '[[tool-清单小抄工具箱法]]'
 - '[[concept-maister-trusted-advisor]]'
 - yt-demand-qualitative-analysis
+tags:
+- audience:manager
+- scene:execution
+- skill-level:advanced
 ---
 # 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
 

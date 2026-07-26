@@ -28,6 +28,10 @@ related:
 - '[[tool-strategy-industry-chain-analysis]]'
 - '[[tool-strategy-risk-management]]'
 - productization-judgment
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：AI工具选型决策

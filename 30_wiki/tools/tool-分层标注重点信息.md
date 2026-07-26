@@ -32,6 +32,10 @@ related:
 - '[[tool-渐进式披露上下文]]'
 - '[[tool-提示词结构化迭代]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：分层标注重点信息
 

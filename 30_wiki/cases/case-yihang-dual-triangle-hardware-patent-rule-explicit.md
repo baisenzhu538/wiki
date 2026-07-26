@@ -22,9 +22,9 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/组织硬件公司专利案例口述_text.md
 - 00_inbox/人机协作双三角/_processed/【组织】硬件公司-AI专利落地案例_vlm.md
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
-- "[[method-dual-triangle-human-ai-division]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[method-dual-triangle-human-ai-division]]'
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
@@ -32,6 +32,10 @@ related:
 aliases:
 - 硬件公司专利案例
 - 规则显性化案例
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 一行双三角案例：硬件公司专利落地的规则显性化与一号位决心

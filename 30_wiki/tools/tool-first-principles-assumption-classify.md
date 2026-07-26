@@ -1,5 +1,4 @@
 ---
-
 id: tool-first-principles-assumption-classify
 title: 技能：假设分类法（第一性原理）
 type: tool
@@ -23,13 +22,16 @@ tools_required:
 - src_unknown
 prerequisite_skills: null
 related:
-  - "[[framework-一堂-关键假设]]"
-  - "[[tool-key-assumptions-check]]"
-  - "[[tool-decision-outside-view]]"
-  - "[[tool-纪浩-Do-first-PDCA渐进迭代法]]"
+- '[[framework-一堂-关键假设]]'
+- '[[tool-key-assumptions-check]]'
+- '[[tool-decision-outside-view]]'
+- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
 created_at: 2026-06-11
 updated_at: '2026-06-16'
-tags: []
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 pipeline:
 - src_unknown
 reviewed_by: laowantong

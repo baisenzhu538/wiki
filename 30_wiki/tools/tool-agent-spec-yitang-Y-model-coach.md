@@ -41,6 +41,10 @@ os_sources:
 - agents/agent-os.md
 domain_sources:
 - 30_wiki/tools/tool-agent-spec-yitang-Y-model-coach.md
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 

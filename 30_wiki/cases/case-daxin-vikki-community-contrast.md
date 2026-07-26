@@ -1,47 +1,50 @@
 ---
-id: "case-daxin-vikki-community-contrast"
-title: "Vikki 群与大馨群：两种社群知识生产模式的对比"
-type: "case"
+id: case-daxin-vikki-community-contrast
+title: Vikki 群与大馨群：两种社群知识生产模式的对比
+type: case
 domain:
-  - "content-production"
-  - "knowledge-management"
-status: "reviewed"
+- content-production
+- knowledge-management
+status: reviewed
 confidence: 0.82
-difficulty: "intermediate"
-language: "zh-CN"
-created_at: "2026-06-30T16:07:51+00:00"
-updated_at: "2026-06-30T16:19:57+00:00"
-author: "老顽童"
-reviewed_by: "欧阳锋"
-review_date: "2026-06-30"
+difficulty: intermediate
+language: zh-CN
+created_at: '2026-06-30T16:07:51+00:00'
+updated_at: '2026-06-30T16:19:57+00:00'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-30'
 source_refs:
-  - "00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md"
-  - "00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md"
+- 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md
+- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 query_triggers:
-  - Vikki 群和大馨群有什么区别
-  - 自由讨论型社群和结构化训练型社群哪个好
-  - 社群知识生产模式对比
-  - 开源群运营模式选择
+- Vikki 群和大馨群有什么区别
+- 自由讨论型社群和结构化训练型社群哪个好
+- 社群知识生产模式对比
+- 开源群运营模式选择
 aliases:
-  - daxin-vikki-community-contrast
-  - Vikki大馨对比
-  - 社群模式对比
+- daxin-vikki-community-contrast
+- Vikki大馨对比
+- 社群模式对比
 tags:
-  - "#scene/community"
-  - "#scene/content-team"
-  - "case-study"
+- '#scene/community'
+- '#scene/content-team'
+- case-study
+- audience:general
+- scene:reference
+- skill-level:intermediate
 quality_labels:
-  - cited
-  - validated
+- cited
+- validated
 related:
-  - "[[framework-community-knowledge-production-failure-modes]]"
-  - "[[case-daxin-team-content-training-camp]]"
-  - "[[concept-open-source-knowledge-usage-boundary]]"
-  - "[[framework-content-business-six-step]]"
-  - "[[framework-founder-ip-three-positioning]]"
-  - "[[system-kdo-quality-labels]]"
+- '[[framework-community-knowledge-production-failure-modes]]'
+- '[[case-daxin-team-content-training-camp]]'
+- '[[concept-open-source-knowledge-usage-boundary]]'
+- '[[framework-content-business-six-step]]'
+- '[[framework-founder-ip-three-positioning]]'
+- '[[system-kdo-quality-labels]]'
 pipeline:
-  - "confidence-draft"
+- confidence-draft
 ---
 
 # Vikki 群与大馨群：两种社群知识生产模式的对比

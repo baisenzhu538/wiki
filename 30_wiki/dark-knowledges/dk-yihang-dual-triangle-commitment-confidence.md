@@ -16,8 +16,12 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[tool-yihang-dual-triangle-canvas]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 
 # 双三角让团队敢承诺——画布一画就知道能交付什么

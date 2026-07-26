@@ -27,6 +27,10 @@ related:
 - '[[yt-panproduct-execution-liberate-thinking]]'
 - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 - yt-system-course-map-lecture
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # Learning Thinking
 

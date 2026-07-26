@@ -16,13 +16,17 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
 related:
-- "[[tool-Truman-AI辅助思考伙伴养成]]"
-- "[[tool-Truman-低质量动作识别与拒绝]]"
-- "[[tool-Truman-个人判断力系统建设（达克效应应对）]]"
-- "[[tool-Truman-XY-Problem识别与真实问题定位]]"
-- "[[tool-Truman-上下文质量管理（AI协作）]]"
-- "[[tool-Truman-AI输出审慎判断与交付确认]]"
-- "[[tool-Truman-判断力产品化与系统赋能]]"
+- '[[tool-Truman-AI辅助思考伙伴养成]]'
+- '[[tool-Truman-低质量动作识别与拒绝]]'
+- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
+- '[[tool-Truman-XY-Problem识别与真实问题定位]]'
+- '[[tool-Truman-上下文质量管理（AI协作）]]'
+- '[[tool-Truman-AI输出审慎判断与交付确认]]'
+- '[[tool-Truman-判断力产品化与系统赋能]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：信息输入持续补全（防AI错误累积）

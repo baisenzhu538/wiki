@@ -1,5 +1,4 @@
 ---
-
 id: yt-model-pan-product-three-virtues
 type: framework
 title: 泛产品三大自我修养：用户价值×最佳实践×无限进步
@@ -15,11 +14,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-05-11
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
+- cited
+- insight
+- principle
+- quality
+- validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
@@ -28,17 +27,21 @@ source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计实操-笔记.txt
 source_person: 一堂
 related:
-- "[[yt-composite-pan-product-methodology]]"
-- "[[yt-model-pan-product-climbing-map]]"
-- "[[yt-model-pan-product-36-strategies]]"
-- "[[yt-model-pan-product-demand-toolkit]]"
-- "[[yt-model-pan-product-aesthetic-toolkit]]"
-- "[[yt-model-pan-product-execution-toolkit]]"
-- "[[framework-一堂五步法-泛产品设计]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-ai-accelerated-strategy-cycle]]"
-- "[[framework-pan-product-organization]]"
+- '[[yt-composite-pan-product-methodology]]'
+- '[[yt-model-pan-product-climbing-map]]'
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-pan-product-execution-toolkit]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[framework-lean-abcd-model]]'
+- '[[framework-ai-accelerated-strategy-cycle]]'
+- '[[framework-pan-product-organization]]'
 review_date: '2026-06-28'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 

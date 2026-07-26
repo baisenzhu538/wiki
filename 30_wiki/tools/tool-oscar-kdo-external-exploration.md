@@ -6,7 +6,7 @@ status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 created_at: 2026-07-07
@@ -19,11 +19,11 @@ source_refs:
 - 30_wiki/frameworks/framework-yitang-oscar-research.md
 - method-kdo-external-exploration-sop
 related:
-- "[[framework-yitang-oscar-research]]"
-- "[[method-kdo-external-exploration-sop]]"
-- "[[yt-research-weaponry-course]]"
-- "[[concept-yitang-research-objective]]"
-- "[[concept-yitang-research-scope]]"
+- '[[framework-yitang-oscar-research]]'
+- '[[method-kdo-external-exploration-sop]]'
+- '[[yt-research-weaponry-course]]'
+- '[[concept-yitang-research-objective]]'
+- '[[concept-yitang-research-scope]]'
 diagnostic_signals:
 - signal: 用KDO做外部探索时直接跳到了"选搜索方向"，没先锁定目标
   lens: O步骤缺失——KDO旧SOP的前重后轻遗留
@@ -37,6 +37,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # OSCAR-KDO 融合：一堂 OSCAR 在 KDO 外部探索中的具体落地

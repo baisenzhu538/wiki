@@ -1,17 +1,21 @@
 ---
 id: tool-一堂-five-step-validation
 related:
-  - "[[concept-一堂-product-kernel]]"
-  - "[[tool-一堂-kernel-three-questions]]"
-  - "[[tool-一堂-hypothesis-validation-three-axe]]"
-  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
-  - "[[pending_unknown]]"
+- '[[concept-一堂-product-kernel]]'
+- '[[tool-一堂-kernel-three-questions]]'
+- '[[tool-一堂-hypothesis-validation-three-axe]]'
+- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+- '[[pending_unknown]]'
 source_refs:
 - pending_archive: src_unknown
 updated_at: '2026-06-29'
 status: enriched
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 技能：聊问查测盘五步验证法

@@ -32,6 +32,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - framework-yitang-six-layer-cross-validation
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 行业报告可信度评估：多信数据，少信观点
 

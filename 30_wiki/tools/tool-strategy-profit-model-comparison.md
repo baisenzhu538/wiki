@@ -20,6 +20,10 @@ related:
 - '[[tool-yitang-channel-partnership-design]]'
 - '[[pending_unknown]]'
 - case-strategy-m-brand-profit-model
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 # 盈利模式对比框架
 

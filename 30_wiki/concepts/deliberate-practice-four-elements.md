@@ -3,43 +3,47 @@ id: deliberate-practice-four-elements
 title: 刻意练习四要素
 type: framework
 domain:
-  - learning-methodology
-  - personal-growth
-  - yitang
+- learning-methodology
+- personal-growth
+- yitang
 status: reviewed
 source_refs:
-  - "00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md"
-  - "00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md"
+- 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
+- 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
-  - "[[yai-tcp-teacher-role]]"
-  - "[[yai-counsel-role]]"
-  - "[[fixed-routine-design]]"
-  - "[[comfort-zone-expansion]]"
-  - "[[timely-feedback-loop]]"
-  - "[[deliberate-repetition]]"
-  - "[[ai-virtual-coach-prompt]]"
-  - "[[practice-card-decomposition]]"
-  - "[[ai-tool-learning-workbook]]"
+- '[[yai-tcp-teacher-role]]'
+- '[[yai-counsel-role]]'
+- '[[fixed-routine-design]]'
+- '[[comfort-zone-expansion]]'
+- '[[timely-feedback-loop]]'
+- '[[deliberate-repetition]]'
+- '[[ai-virtual-coach-prompt]]'
+- '[[practice-card-decomposition]]'
+- '[[ai-tool-learning-workbook]]'
 aliases:
-  - "刻意练习四要素"
-  - "四要素诊断"
+- 刻意练习四要素
+- 四要素诊断
 author: 老顽童
-created_at: "2026-06-28"
-updated_at: "2026-06-29"
+created_at: '2026-06-28'
+updated_at: '2026-06-29'
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
+review_date: '2026-06-28'
 diagnostic_signals:
-  - signal: 用户说"我练了很久但没进步"
-    framework_lens: 四要素缺一
-    follow_up_question: "你练的时候，固定套路、非舒适区、及时反馈、大量重复这四个里，哪个最缺？"
-  - signal: 用户说"每次练都像从头开始"
-    framework_lens: 固定套路缺失
-    follow_up_question: "你有没有一套写下来、每次都能照着跑的固定流程？"
-  - signal: 用户说"不知道练到什么程度算好"
-    framework_lens: 及时反馈缺失
-    follow_up_question: "你怎么判断自己这次练对了还是练偏了？"
+- signal: 用户说"我练了很久但没进步"
+  framework_lens: 四要素缺一
+  follow_up_question: 你练的时候，固定套路、非舒适区、及时反馈、大量重复这四个里，哪个最缺？
+- signal: 用户说"每次练都像从头开始"
+  framework_lens: 固定套路缺失
+  follow_up_question: 你有没有一套写下来、每次都能照着跑的固定流程？
+- signal: 用户说"不知道练到什么程度算好"
+  framework_lens: 及时反馈缺失
+  follow_up_question: 你怎么判断自己这次练对了还是练偏了？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 刻意练习四要素

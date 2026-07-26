@@ -12,7 +12,8 @@ domain:
 - yitang
 - business-formula
 source_person: 张磊（一堂同学，业务公式课案例主讲引用；课程为方便学习对业务做了改造）
-source_context: 一堂业务公式逻辑关系篇收尾推演案例（案例 2）：张磊线下点位扭蛋机业务，从 5 个点位、每点位日销约 100 单、利润率 20% 起步，目标是利润不下滑的前提下订单量翻 3-5 倍。案例完整演示逻辑关系六段位（L1 列可能性→L2 找相关→L3 找因果→L4 建公式→L5 代入定量→L6 看内外变化）的推演路径。数字均为「课程案例口径」，未独立核实。
+source_context: 一堂业务公式逻辑关系篇收尾推演案例（案例 2）：张磊线下点位扭蛋机业务，从 5 个点位、每点位日销约 100 单、利润率 20% 起步，目标是利润不下滑的前提下订单量翻
+  3-5 倍。案例完整演示逻辑关系六段位（L1 列可能性→L2 找相关→L3 找因果→L4 建公式→L5 代入定量→L6 看内外变化）的推演路径。数字均为「课程案例口径」，未独立核实。
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3358-L3416
 - 00_inbox/Handle the business/Business formula/案例2.png
@@ -23,19 +24,23 @@ quality_labels:
 - cited
 - actionable
 related:
-- "[[framework-一堂-业务公式拆解-总纲]]"
-- "[[business-formula-domain-digest]]"
-- "[[yt-business-formula-six-level-logic]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-tool-business-formula-causality-toolkit]]"
-- "[[yt-tool-business-formula-quant-space-3d]]"
-- "[[yt-tool-business-formula-parameter-arsenal]]"
-- "[[concept-一堂-相关不等于因果]]"
-- "[[concept-一堂-参数耦合与动态公式]]"
-- "[[case-yitang-yewenbin-archery-business-formula]]"
-- "[[tool-动力阻力分析]]"
-- "[[framework-一堂-关键假设]]"
+- '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[business-formula-domain-digest]]'
+- '[[yt-business-formula-six-level-logic]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-tool-business-formula-causality-toolkit]]'
+- '[[yt-tool-business-formula-quant-space-3d]]'
+- '[[yt-tool-business-formula-parameter-arsenal]]'
+- '[[concept-一堂-相关不等于因果]]'
+- '[[concept-一堂-参数耦合与动态公式]]'
+- '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[tool-动力阻力分析]]'
+- '[[framework-一堂-关键假设]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 张磊点位扭蛋机：5个点位日销100单，沿L1到L6六阶段把业务从"模糊模型"推演成动态公式
 

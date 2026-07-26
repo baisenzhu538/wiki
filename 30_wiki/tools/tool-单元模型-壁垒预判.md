@@ -21,6 +21,10 @@ related:
 - '[[yt-entrepreneur-unit-model]]'
 - case-toy-cabinet-barrier
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 单元模型：壁垒预判

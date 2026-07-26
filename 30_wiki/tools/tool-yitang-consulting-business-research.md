@@ -40,6 +40,10 @@ related:
 - '[[tool-yitang-consumer-goods-research]]'
 - framework-yitang-six-layer-cross-validation
 - concept-yitang-research-objective
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 咨询类业务调研手段：浅中深三层10大评估法

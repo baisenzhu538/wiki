@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-business-model-definition
@@ -18,10 +17,10 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[tool-李诞-销售闭环验证：从0到1的重新定义]]"
-  - "[[tool-李诞-个人IP的重新定义与输出策略]]"
-  - "[[tool-Truman-问题定义澄清法]]"
-  - "[[pending_unknown]]"
+- '[[tool-李诞-销售闭环验证：从0到1的重新定义]]'
+- '[[tool-李诞-个人IP的重新定义与输出策略]]'
+- '[[tool-Truman-问题定义澄清法]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 商业模式定义——内核是价值，商业模式是变现路径
   follow_up_question: 用户愿意为内核价值付多少钱？付费方式是什么？
@@ -33,7 +32,10 @@ diagnostic_signals:
   follow_up_question: 哪个商业模式最能强化内核价值？哪个单元模型最健康？
 - framework_lens: 商业模式定义——创新≠可行，需要验证单元模型
   follow_up_question: 你的单元模型成立吗？LTV > CAC吗？有数据支撑吗？
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 商业模式定义：从内核到变现

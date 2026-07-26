@@ -26,6 +26,10 @@ related:
 iteration_history:
 - date: '2026-06-21'
   changes: 从 inbox 需求分析提示词.txt 提取，结构化入库
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # USP 深度洞察引擎

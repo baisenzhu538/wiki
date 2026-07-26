@@ -1,5 +1,4 @@
 ---
-
 id: skill-research-decision-first-mapping
 title: 决策优先映射：让研究动作直接服务决策
 type: skill
@@ -19,7 +18,7 @@ author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: '2026-06-25'
 related:
-  - "[[tool-建立策略-要素映射表设计对抗策略]]"
+- '[[tool-建立策略-要素映射表设计对抗策略]]'
 diagnostic_signals:
 - framework_lens: 决策优先映射
   follow_up_question: 你当前的研究动作对应哪个具体决策？如果结果不支持，会停止还是转向？
@@ -27,7 +26,10 @@ diagnostic_signals:
   follow_up_question: 这些结果排除了哪个错误选项？对哪个决策增加了多少信心？
 - framework_lens: 前置假设验证
   follow_up_question: 你的决策依赖哪 2-3 个前置假设？每个假设的不通过标准是什么？
-
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 
 # 决策优先映射：让研究动作直接服务决策

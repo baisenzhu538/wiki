@@ -1,5 +1,4 @@
 ---
-
 id: dk-yb4-nano-banana-style-reproduction
 title: Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o
 type: dk
@@ -14,19 +13,19 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- "[[tool-月白-AI模型选择策略]]"
-- "[[tool-月白-PPT全AI生成工作流]]"
-- "[[dk-yb1-aigc-mvp-before-ps]]"
-- "[[dk-yb12-ai-image-analysis-replace-training]]"
-- "[[dk-yb6-midjourney-chinese-text-fix]]"
-- "[[dk-yb11-visual-book-reverse]]"
-- "[[dk-yb18-small-shop-image-mismatch]]"
-- "[[dk-yb31-style-first-controlnet]]"
+- '[[tool-月白-AI模型选择策略]]'
+- '[[tool-月白-PPT全AI生成工作流]]'
+- '[[dk-yb1-aigc-mvp-before-ps]]'
+- '[[dk-yb12-ai-image-analysis-replace-training]]'
+- '[[dk-yb6-midjourney-chinese-text-fix]]'
+- '[[dk-yb11-visual-book-reverse]]'
+- '[[dk-yb18-small-shop-image-mismatch]]'
+- '[[dk-yb31-style-first-controlnet]]'
 pipeline:
 - src_unknown
 author: 月白
 reviewed_by: 欧阳锋
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 diagnostic_signals:
 - signal: src_unknown
@@ -34,7 +33,12 @@ diagnostic_signals:
   follow_up_question: 你的任务在"风格稳定性"和"通用能力"之间更偏哪个？前者可能老模型更优，后者用最新模型。
 - signal: src_unknown
   framework_lens: 模型选择错位——稳定复现特定风格不是所有模型的强项
-  follow_up_question: 尝试用Nano Banana或其他风格聚焦模型跑同一prompt，对比稳定性差异。# Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o
+  follow_up_question: 尝试用Nano Banana或其他风格聚焦模型跑同一prompt，对比稳定性差异。# Nano Banana 在特定艺术风格稳定复现上优于
+    GPT-4o
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 ## 原始表述
 

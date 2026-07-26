@@ -31,6 +31,10 @@ diagnostic_signals:
   follow-up: 火箭四要素逐层检查，补缺层
 quality_labels:
 - principle
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 表达力火箭模型：四要素递进

@@ -1,5 +1,4 @@
 ---
-
 id: dk-c10-batch-tool-no-dry-run
 title: C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
 type: dk
@@ -14,13 +13,13 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- "[[dk-small-format-error-cascades-to-system-failure]]"
-- "[[dk-f4-wrong-workdir]]"
-- "[[dk-infrastructure-guardrails-over-checklist]]"
-- "[[dk-c8-format-complete-mind-empty]]"
-- "[[modeling-to-kdo-toolchain]]"
-- "[[dk-c8-format-complete-mind-empty]]"
-- "[[master-decision-hygiene]]"
+- '[[dk-small-format-error-cascades-to-system-failure]]'
+- '[[dk-f4-wrong-workdir]]'
+- '[[dk-infrastructure-guardrails-over-checklist]]'
+- '[[dk-c8-format-complete-mind-empty]]'
+- '[[modeling-to-kdo-toolchain]]'
+- '[[dk-c8-format-complete-mind-empty]]'
+- '[[master-decision-hygiene]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -34,6 +33,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 ## 原始表述/核心洞察
 

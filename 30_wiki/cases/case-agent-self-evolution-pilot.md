@@ -7,28 +7,32 @@ author: laowantong
 confidence: 0.85
 trust_level: high
 domain:
-  - system
+- system
 source_refs:
-  - 60_feedback/tasks/task_20260726_wangyuyan-agent-evolution-lightning.md
-  - 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
-  - 30_wiki/frameworks/framework-kdo-modeling-methodology.md
-  - .agent/pitfalls.md
+- 60_feedback/tasks/task_20260726_wangyuyan-agent-evolution-lightning.md
+- 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
+- 30_wiki/frameworks/framework-kdo-modeling-methodology.md
+- .agent/pitfalls.md
 related:
-  - concept-kdo-agent-design-principles
-  - concept-kdo-agent-four-level-awareness
-  - bridge-lightning-agent-evolution
-  - tool-agent-self-evolution-protocol
-  - dk-agent-evolution-pitfalls
-  - tool-agent-context-derivation-audit
-  - framework-kdo-modeling-methodology
-  - framework-ouyangfeng-review-methodology
+- concept-kdo-agent-design-principles
+- concept-kdo-agent-four-level-awareness
+- bridge-lightning-agent-evolution
+- tool-agent-self-evolution-protocol
+- dk-agent-evolution-pitfalls
+- tool-agent-context-derivation-audit
+- framework-kdo-modeling-methodology
+- framework-ouyangfeng-review-methodology
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 欧阳锋
 diagnostic_signals:
-  - 这是 Agent 自我进化的首个完整案例
-  - 记录了从诊断→编排→生产→审查→能力变化的完整链路
+- 这是 Agent 自我进化的首个完整案例
+- 记录了从诊断→编排→生产→审查→能力变化的完整链路
 quality_labels: cited
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 ## 关键证据

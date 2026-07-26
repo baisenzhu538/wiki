@@ -22,6 +22,10 @@ related:
 - '[[method-kdo-agent-design-meta]]'
 - '[[method-kdo-inbox-annotation]]'
 - '[[method-yihang-human-self-distillation]]'
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # Agent 蒸馏方法：对话→系统提示词 5 步框架

@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-core-competence-matrix
 title: 核心能力评估矩阵：影响力 × 急迫性
 type: tool
@@ -17,11 +16,15 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- "[[strategy-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[strategy-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 核心能力评估矩阵：影响力 × 急迫性

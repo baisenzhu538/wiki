@@ -31,6 +31,10 @@ related:
 - '[[tool-月白-精准提示词撰写法]]'
 - '[[tool-月白-AI去字-稿定设计加字工作流]]'
 - tool-yitang-research-deep-attribution
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：AI设计里程碑拆解法
 

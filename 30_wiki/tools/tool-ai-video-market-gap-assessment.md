@@ -42,6 +42,9 @@ tags:
 - AI工具评估
 - 调研方法
 - 产品决策
+- audience:executor
+- scene:execution
+- skill-level:advanced
 query_triggers:
 - AI工具怎么选
 - 市场信息差

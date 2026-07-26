@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-五种挖触点
 title: 一堂五种挖触点：推演/同行/用户/创造/清单的双向触点挖掘法
 type: tool
@@ -34,11 +33,14 @@ related:
 - '[[case-一堂-组合篇案例库]]'
 - '[[case-一堂-优秀案例逐字稿合集]]'
 - '[[case-一堂-一堂自身转化实践]]'
-
 - '[[tool-agent-spec-yitang-customer-segmentation]]'
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂五种挖触点：推演/同行/用户/创造/清单的双向触点挖掘法

@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-sentence-formula
 title: 战略造句公式：聚焦X市场→达到Y竞争优势→选择不做Z→采取连贯活动
 type: tool
@@ -8,11 +7,16 @@ author: 老顽童
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
-  - "pending_archive:src_unknown"
+- pending_archive:src_unknown
 reviewed_by: pending
-updated_at: "2026-06-30T16:07:51+00:00"
+updated_at: '2026-06-30T16:07:51+00:00'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 **造句公式**：聚焦X市场→通过Y达到竞争优势→选择不做Z→采取连贯活动A/B/C
 

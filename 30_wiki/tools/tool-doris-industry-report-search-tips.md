@@ -33,6 +33,10 @@ related:
 - '[[pending_unknown]]'
 - tool-yitang-research-follow-map
 - framework-yitang-18-strategy-cards
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 行业报告搜索七技：三级搜索能力+渠道清单
 

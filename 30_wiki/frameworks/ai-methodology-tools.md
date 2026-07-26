@@ -20,12 +20,15 @@ source_refs:
 - 10_raw/sources/src_20260614_dec1c1fe-一堂-AI工具应用AMA.md
 - 10_raw/sources/src_20260614_329d0e0c-theme-ai-methodology-tools-summary.md
 - 10_raw/sources/src_20260614_5f13a66f-何老师-智能入口开发会议.md
-tags: []
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - validated
+- cited
+- insight
+- principle
+- validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -34,10 +37,9 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-  - "[[case-ai-assisted-review]]"
-  - "[[case-truman-ai-skill-self-packaging]]"
-  - "[[ai-俱乐部人和-ai-协作-五层结构]]"
-
+- '[[case-ai-assisted-review]]'
+- '[[case-truman-ai-skill-self-packaging]]'
+- '[[ai-俱乐部人和-ai-协作-五层结构]]'
 ---
 
 # AI 方法论与工具栈：主题综合知识卡

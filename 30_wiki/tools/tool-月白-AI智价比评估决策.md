@@ -33,6 +33,10 @@ related:
 - '[[tool-月白-文创材质成本调研与精益选择]]'
 - tool-纪浩-项目启动五问法
 - tinyfish-agentic-web-infrastructure
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：AI智价比评估决策
 

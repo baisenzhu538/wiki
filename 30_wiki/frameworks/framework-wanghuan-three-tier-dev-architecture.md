@@ -1,5 +1,4 @@
 ---
-
 id: framework-wanghuan-three-tier-dev-architecture
 title: 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 type: framework
@@ -11,9 +10,9 @@ domain:
 - src_unknown
 - src_unknown
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -27,11 +26,11 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - "[[framework-wanghuan-actor-director-mode]]"
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
-  - "[[concept-wanghuan-adversarial-generation]]"
-  - "[[case-wanghuan-shenyang-software-3x-efficiency]]"
-  - "[[pending_unknown]]"
+- '[[framework-wanghuan-actor-director-mode]]'
+- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- '[[concept-wanghuan-adversarial-generation]]'
+- '[[case-wanghuan-shenyang-software-3x-efficiency]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - lens: 系统瓶颈 vs. 工具瓶颈
   follow_up: 检查当前流程是否只是给马车换发动机，还是已重新设计工作系统
@@ -48,7 +47,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
-
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 王欢三层开发架构：需求拆解→AI开发→哨兵质检

@@ -26,6 +26,10 @@ related:
 - '[[framework-strategy-business-design]]'
 - tool-strategy-five-see-three-set
 - yt-five-step-method-complete
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # IBM BLM 业务领导力模型 + 华为五看三定

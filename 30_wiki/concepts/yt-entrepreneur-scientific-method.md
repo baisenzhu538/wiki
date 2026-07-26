@@ -18,6 +18,10 @@ related:
 - dk-yitang-Y-model-pitfalls
 created_at: 2026-05-06
 updated_at: '2026-07-03'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 > ⚠️ **本卡已被 [[yt-decision-y-model]] 重写升级，内容不再维护。** 请使用新卡《Y模型：一堂科学做事系统（KDO 根节点）》。
 

@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-growth-to-barrier
@@ -18,10 +17,10 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[tool-单元模型-壁垒预判]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[tool-单元模型-壁垒预判]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 从增长到壁垒——增长需要壁垒保护，否则增长成果被竞品收割
   follow_up_question: 你的增长成果是什么？有没有壁垒保护？竞品复制的难度有多大？
@@ -33,7 +32,10 @@ diagnostic_signals:
   follow_up_question: 你的利润被什么侵蚀？有没有壁垒保护定价权？
 - framework_lens: 从增长到壁垒——增长和壁垒不是先后，而是同步建设
   follow_up_question: 你的增长是否在同时建设壁垒？哪些增长行为在积累壁垒？
-
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 从增长到壁垒：承上启下

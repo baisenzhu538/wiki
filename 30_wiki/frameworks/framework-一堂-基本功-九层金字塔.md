@@ -46,6 +46,10 @@ quality_labels:
 - principle
 - framework
 - insight
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 基本功九层金字塔：从底层信念到基本功化的完整地图

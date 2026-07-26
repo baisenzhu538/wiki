@@ -4,36 +4,47 @@ title: 博弈环境自检清单：制度面向未来
 type: tool
 status: draft
 author: laowantong
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 domain:
-  - management
+- management
 source_refs:
-  - "00_inbox/坏世界研究/拆书会第212期_坏世界研究_逐字稿.md"
-  - "00_inbox/坏世界研究/赵汀阳-坏世界研究-拆书-口述.txt"
-aliases: ["博弈环境","规则设计","制度长期效果","好制度自检"]
-discoverable_by: ["制度设计","规则失效","长期合作规则"]
+- 00_inbox/坏世界研究/拆书会第212期_坏世界研究_逐字稿.md
+- 00_inbox/坏世界研究/赵汀阳-坏世界研究-拆书-口述.txt
+aliases:
+- 博弈环境
+- 规则设计
+- 制度长期效果
+- 好制度自检
+discoverable_by:
+- 制度设计
+- 规则失效
+- 长期合作规则
 related:
-  - concept-collaboration-philosophy-foundation
-  - tool-position-switching-test
-  - yt-management-company-culture
-  - workflow-yitang-project-four-step-loop
-  - framework-yitang-shishi-qiushi
-  - framework-kdo-modeling-methodology
+- concept-collaboration-philosophy-foundation
+- tool-position-switching-test
+- yt-management-company-culture
+- workflow-yitang-project-four-step-loop
+- framework-yitang-shishi-qiushi
+- framework-kdo-modeling-methodology
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 待审
 diagnostic_signals:
-  - signal: "规则刚定的时候很好用，后来慢慢失效了"
-    lens: 制度悖论——人会学习利用侵蚀制度
-    follow_up: 五问中的自我修正问
-  - signal: "大家都是好人但是制度跑着跑着就坏了"
-    lens: 博弈环境使坏行为占优
-    follow_up: 坏人测试——如果所有人都是"理性自利"，规则还成立吗？
-  - signal: "按规则做了但是结果不是想要的"
-    lens: 行为导向问——规则在奖励什么行为？
-    follow_up: 对比"想要的行为"和"实际被奖励的行为"
+- signal: 规则刚定的时候很好用，后来慢慢失效了
+  lens: 制度悖论——人会学习利用侵蚀制度
+  follow_up: 五问中的自我修正问
+- signal: 大家都是好人但是制度跑着跑着就坏了
+  lens: 博弈环境使坏行为占优
+  follow_up: 坏人测试——如果所有人都是"理性自利"，规则还成立吗？
+- signal: 按规则做了但是结果不是想要的
+  lens: 行为导向问——规则在奖励什么行为？
+  follow_up: 对比"想要的行为"和"实际被奖励的行为"
 quality_labels: cited
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 > **定位**：属于 [[concept-collaboration-philosophy-foundation]] 的工具卡。理论锚点——金句3"政治的根本出路在于改善博弈条件"（7.7）+ 金句5"可信即可行"（5.4）+ 金句6"马基雅维利策略经不起普遍模仿"（6.3）。别试图改变人，改变他们面对的收益结构。

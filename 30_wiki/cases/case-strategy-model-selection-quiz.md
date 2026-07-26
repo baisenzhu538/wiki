@@ -31,6 +31,10 @@ related:
 - '[[tool-提升笔记练习频次的方法]]'
 - yt-unit-model-build
 - tool-yitang-research-quantitative-modeling
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 **背景**：冉鹏课程中的"模型选择"互动练习，要求学员根据业务情境把左侧情境与右侧模型连线配对。OCR 原始表格存在列错位，以下按情境-任务-模型匹配逻辑整理。
 

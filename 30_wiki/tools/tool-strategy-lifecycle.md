@@ -22,6 +22,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - case-essence-entrepreneurship
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 # 企业生命周期战略：从 0 到 1、从 N 到 ∞、从 N 到 0
 

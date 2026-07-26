@@ -31,6 +31,10 @@ diagnostic_signals:
   follow-up: 用"上一次是什么时候"这个问题锚定具体时刻，再追问五感
 quality_labels:
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 微观体感访谈脚本生成器：基于L4崩溃点生成5感访谈问题

@@ -76,6 +76,10 @@ related:
 - concept-发现决策
 updated_at: '2026-06-29'
 review_date: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：电话外呼的 ROI 分析

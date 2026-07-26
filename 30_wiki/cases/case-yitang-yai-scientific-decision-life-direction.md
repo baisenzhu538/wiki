@@ -9,23 +9,27 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
-  - ai-collaboration
+- yitang
+- decision-science
+- ai-collaboration
 source_refs:
-  - C:/Users/Administrator/Desktop/YAI/关键决策agent-我现在面临重大的人生方向选择的 (1).md
+- C:/Users/Administrator/Desktop/YAI/关键决策agent-我现在面临重大的人生方向选择的 (1).md
 related:
-  - '[[method-一堂-教练对话引擎协议]]'
-  - '[[yt-decision-y-model]]'
-  - '[[framework-科学决策三角形]]'
-  - '[[agent-一堂-科学决策教练]]'
-  - '[[yt-decision-depth-ladder]]'
-  - '[[yt-decision-height-toolkit]]'
+- '[[method-一堂-教练对话引擎协议]]'
+- '[[yt-decision-y-model]]'
+- '[[framework-科学决策三角形]]'
+- '[[agent-一堂-科学决策教练]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-height-toolkit]]'
 created_at: 2026-07-13
 updated_at: 2026-07-13
 quality_labels:
-  - case-study
-  - reverse-engineering
+- case-study
+- reverse-engineering
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # YAI实录：关键决策agent——50岁创业者的"留vs走"与赛道选择

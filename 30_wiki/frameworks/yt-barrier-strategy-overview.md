@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[yt-barrier-brand-equity]]"
-  - "[[yt-barrier-culture-moat]]"
-  - "[[yt-barrier-data-assets]]"
+- '[[yt-barrier-brand-equity]]'
+- '[[yt-barrier-culture-moat]]'
+- '[[yt-barrier-data-assets]]'
 diagnostic_signals:
 - framework_lens: 壁垒策略总纲——增长需要壁垒保护，否则成果被收割
   follow_up_question: 你的核心壁垒是什么？竞品复制的难度有多大？复制周期多长？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你的壁垒是否足够强，让用户愿意付溢价？
 - framework_lens: 壁垒策略总纲——壁垒和增长同步建设，不是先后
   follow_up_question: 你的增长行为是否在积累壁垒？用户增长、数据增长、品牌增长？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 壁垒策略总纲：从增长到可持续优势

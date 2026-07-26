@@ -17,11 +17,11 @@ query_triggers:
 - src_unknown探索营
 - src_unknown探索营：案例启发与认知重构
 related:
-- "[[yt-personal-pan-product-concepts]]"
-- "[[yt-model-pan-product-36-strategies]]"
-- "[[一堂]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[yt-personal-pan-product-concepts]]'
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[一堂]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
@@ -47,6 +47,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 泛产品设计探索营：案例启发与认知重构

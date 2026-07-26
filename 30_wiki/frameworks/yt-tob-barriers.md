@@ -16,6 +16,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 徐剑
@@ -25,11 +28,11 @@ review_date: '2026-06-16'
 confidence: 0.82
 trust_level: high
 related:
-- "[[case-yitang-tob-artificial-bone]]"
-- "[[case-yitang-tob-smart-park]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[case-yitang-tob-artificial-bone]]'
+- '[[case-yitang-tob-smart-park]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 壁垒类型选择
   follow_up_question: 客户一旦使用我们的方案，切换出去要付出多少成本？我们有没有规模效应或无形资产在持续加深护城河？

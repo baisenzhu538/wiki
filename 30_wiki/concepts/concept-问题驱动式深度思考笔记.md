@@ -10,8 +10,8 @@ confidence: 0.75
 source_refs:
 - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 related:
-  - "[[master-knowledge-compound]]"
-  - "[[yt-skill-storyline-problem-solving]]"
+- '[[master-knowledge-compound]]'
+- '[[yt-skill-storyline-problem-solving]]'
 query_triggers:
 - src_unknown
 - src_unknown
@@ -39,6 +39,10 @@ diagnostic_signals:
   follow_up: 问题驱动是高阶技能非入门技能，基础学习先沉浸掌握再质疑
 - lens: 表演性问题
   follow_up: 问题必须是你真正关心的，不是为了'看起来在思考'而造问题
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 问题驱动式深度思考笔记：用真问题取代真记录

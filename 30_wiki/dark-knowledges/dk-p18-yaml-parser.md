@@ -1,5 +1,4 @@
 ---
-
 id: dk-p18-yaml-parser
 title: P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
 type: dk
@@ -14,12 +13,12 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 related:
-  - "[[dk-p19-quote-yaml]]"
-  - "[[kdo-yaml-frontmatter-safety]]"
-  - "[[fix-data-curator-parse-bug]]"
-  - "[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]"
-  - "[[proposal-yaml-frontmatter-standardization]]"
-  - "[[dk-f13-handwritten-yaml-parser]]"
+- '[[dk-p19-quote-yaml]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[fix-data-curator-parse-bug]]'
+- '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+- '[[proposal-yaml-frontmatter-standardization]]'
+- '[[dk-f13-handwritten-yaml-parser]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -36,7 +35,10 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 格式复杂度低估
   follow_up_question: 这个格式是否有官方/成熟库？为什么没用？# P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述 / 核心洞察

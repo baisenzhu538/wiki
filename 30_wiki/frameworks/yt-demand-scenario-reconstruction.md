@@ -15,11 +15,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- "[[yt-demand-hierarchy-model]]"
-- "[[yt-demand-qualitative-analysis]]"
-- "[[yt-demand-jtbd-application]]"
-- "[[yt-demand-peak-end-rule]]"
-- "[[yt-five-step-method]]"
+- '[[yt-demand-hierarchy-model]]'
+- '[[yt-demand-qualitative-analysis]]'
+- '[[yt-demand-jtbd-application]]'
+- '[[yt-demand-peak-end-rule]]'
+- '[[yt-five-step-method]]'
 diagnostic_signals:
 - framework_lens: 场景缺失——停留在功能视角，未切换到用户视角
   follow_up_question: 你能描述一个典型用户，从早上醒来到晚上睡觉，会在什么具体时刻使用你的产品吗？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你有观察过真实用户实际使用产品的过程吗？和你设计的场景一致吗？
 - framework_lens: 场景断点——体验地图有缺口
   follow_up_question: 用户在'使用中'的哪个节点最容易放弃？为什么？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 

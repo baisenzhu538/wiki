@@ -23,6 +23,10 @@ related:
 - '[[tool-ai-prd-for-ai]]'
 - tool-yitang-business-registration-check
 updated_at: '2026-07-04'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 武器库策略8：官方公开信息
 

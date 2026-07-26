@@ -5,7 +5,7 @@ type: case
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -17,9 +17,13 @@ source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
 related:
-- "[[framework-yitang-jiefang-sixiang]]"
-- "[[yt-decision-y-model]]"
-- "[[case-yitang-aquaculture-stress-protection]]"
+- '[[framework-yitang-jiefang-sixiang]]'
+- '[[yt-decision-y-model]]'
+- '[[case-yitang-aquaculture-stress-protection]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 案例：林标阳肝病检测——L5 学科层推翻商业层二三十年惯例

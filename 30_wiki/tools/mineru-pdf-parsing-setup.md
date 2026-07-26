@@ -27,6 +27,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: MinerU 安装检查
   follow_up_question: 安装了 magic-pdf 吗？WSL 里执行 `pip show magic-pdf` 确认。

@@ -15,12 +15,8 @@ source_person: 一堂课程
 source_context: src_20260522_dee56cff
 source_refs:
 - 10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
-definition_of_done:
-
-
-tools_required:
-
-
+definition_of_done: null
+tools_required: null
 created_at: '2026-06-09T15:59:56+00:00'
 updated_at: '2026-06-29'
 author: 老顽童
@@ -51,6 +47,10 @@ related:
 - '[[tool-清单小抄制作]]'
 - '[[tool-稀缺资源机会成本比对法]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：AI辅助学习

@@ -17,11 +17,11 @@ updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
 related:
-- "[[tool-纪浩-Agent技能市场设计法]]"
-- "[[tool-月白-AI对话情绪管理法]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-月白-AI对话情绪管理法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - lens: 过度依赖
   follow_up: 每天限定AI使用时长（如3-4小时）。把AI当worker时只用于降本增效，保留自己动脑动手的环节
@@ -33,6 +33,10 @@ diagnostic_signals:
   follow_up: 紧急任务可以用AI，但事后必须复盘：哪些环节本可以自己完成？下次如何减少应急依赖？
 - lens: 手感丧失
   follow_up: 学习的本质是摩擦和必要难度。必须保留手动操作环节，AI辅助但不能替代
+tags:
+- audience:manager
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：AI使用边界管理法

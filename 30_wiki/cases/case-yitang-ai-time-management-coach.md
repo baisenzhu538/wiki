@@ -22,6 +22,10 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 # 案例：AI辅助调研——产品验证
 

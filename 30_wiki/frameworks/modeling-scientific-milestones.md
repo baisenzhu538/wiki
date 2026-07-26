@@ -1,5 +1,4 @@
 ---
-
 id: modeling-scientific-milestones
 title: 科学建模七步里程碑：从边界到封装的方法论生产流程
 type: framework
@@ -18,23 +17,25 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - "[[yitang-research-domain-digest]]"
-  - "[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]"
-  - "[[tool-月白-AIGC橱窗陈列设计流程]]"
-  - "[[aigc文创案例设计课leo文创ip从0到1全流程]]"
-  - "[[tool-月白-AI设计三段式里程碑流程]]"
-  - "[[tool-通过综合案例沙盘走通全流程]]"
-  - "[[tool-月白-里程碑思维拆解设计流程]]"
+- '[[yitang-research-domain-digest]]'
+- '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
+- '[[tool-月白-AIGC橱窗陈列设计流程]]'
+- '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
+- '[[tool-月白-AI设计三段式里程碑流程]]'
+- '[[tool-通过综合案例沙盘走通全流程]]'
+- '[[tool-月白-里程碑思维拆解设计流程]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 source_context: 单一 source 为完整长文档，内容充分支撑 medium-high trust；待补充第二来源或跨案例验证后升回 high
 diagnostic_signals:
 - src_unknown
 - src_unknown
-
 ---
 
 # 科学建模七步里程碑：从边界到封装的方法论生产流程

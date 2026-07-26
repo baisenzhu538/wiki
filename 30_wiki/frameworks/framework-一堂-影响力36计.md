@@ -1,5 +1,4 @@
 ---
-
 id: framework-一堂-影响力36计
 title: 一堂影响力 36 计：6 原则 × 6 强度（A1-F6 全名）+ 两大对齐原则 + 强弱规律 + 段位元规则
 type: framework
@@ -53,6 +52,10 @@ quality_labels:
 - framework
 - cited
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一堂影响力 36 计：6 原则 × 6 强度

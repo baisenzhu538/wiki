@@ -1,5 +1,4 @@
 ---
-
 id: tool-decision-delay-intuition
 title: 技能：延迟直觉法
 type: tool
@@ -28,7 +27,10 @@ prerequisite_skills:
 related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'
-tags: []
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 pipeline:
 - src_unknown
 reviewed_by: laowantong

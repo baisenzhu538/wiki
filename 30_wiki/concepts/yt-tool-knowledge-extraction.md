@@ -1,5 +1,4 @@
 ---
-
 id: yt-tool-knowledge-extraction
 component_of:
 - src_unknown
@@ -24,14 +23,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - "[[yt-management-team-knowledge]]"
-  - "[[yt-management-toolkit-overview]]"
-  - "[[yt-decision-review]]"
-  - "[[yt-management-project-management]]"
-  - "[[yt-management-onboarding]]"
-  - "[[yt-personal-knowledge-extraction]]"
-  - "[[yt-personal-knowledge-management]]"
-  - "[[master-knowledge-compound]]"
+- '[[yt-management-team-knowledge]]'
+- '[[yt-management-toolkit-overview]]'
+- '[[yt-decision-review]]'
+- '[[yt-management-project-management]]'
+- '[[yt-management-onboarding]]'
+- '[[yt-personal-knowledge-extraction]]'
+- '[[yt-personal-knowledge-management]]'
+- '[[master-knowledge-compound]]'
 source_refs:
 - 10_raw/sources/src_20260510_14db4c2b-萃取总结.md
 - 10_raw/sources/src_20260510_814ec410-个人修炼-知识萃取探索营.md
@@ -61,7 +60,10 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: unknown
 reviewed_by: laowantong
-
+tags:
+- audience:manager
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 团队知识萃取器

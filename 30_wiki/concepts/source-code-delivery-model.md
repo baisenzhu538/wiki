@@ -40,6 +40,10 @@ related:
 - '[[七件事集团]]'
 - '[[yt-skill-storyline-problem-solving]]'
 - yt-panproduct-demand-user-perspective
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # 源码交付模式
 

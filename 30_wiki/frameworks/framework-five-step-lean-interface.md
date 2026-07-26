@@ -29,6 +29,10 @@ related:
 - '[[strategy-domain-digest]]'
 - '[[pending_unknown]]'
 updated_at: '2026-06-30'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 五步法与精益验证的接口
 

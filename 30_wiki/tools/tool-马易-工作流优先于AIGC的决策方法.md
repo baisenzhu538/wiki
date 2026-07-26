@@ -12,14 +12,12 @@ source_context: AI落地场景识别 （原 legacy，已从 title/context/filena
 source_refs:
 - 10_raw/sources/src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md
 wiki_refs: null
-definition_of_done:
-
-
+definition_of_done: null
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-29'
-pipeline:
+pipeline: null
 author: unknown
 reviewed_by: pending
 confidence: 0.7
@@ -31,6 +29,10 @@ related:
 - '[[tool-马易-AIGC项目ROI评估]]'
 - '[[tool-马易-AI答疑运营风格适配]]'
 - tool-ai-deliverable-polish-loop
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 ---
 # 技能：工作流优先于AIGC的决策方法
 

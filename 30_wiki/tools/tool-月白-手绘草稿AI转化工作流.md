@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-多窗口并行工作法]]"
-- "[[tool-月白-竞品图精益替换法]]"
-- "[[tool-月白-眼高手低训练法]]"
-- "[[tool-月白-线下门店设计复杂度评估]]"
-- "[[tool-月白-控制产品画面尺寸比例]]"
+- '[[tool-月白-多窗口并行工作法]]'
+- '[[tool-月白-竞品图精益替换法]]'
+- '[[tool-月白-眼高手低训练法]]'
+- '[[tool-月白-线下门店设计复杂度评估]]'
+- '[[tool-月白-控制产品画面尺寸比例]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：手绘草稿AI转化工作流
 

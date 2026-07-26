@@ -1,5 +1,4 @@
 ---
-
 id: voice-input-doubao
 type: tool
 title: voice input doubao
@@ -11,32 +10,30 @@ domain:
 status: reviewed
 source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
-component_of:
+component_of: null
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[kdo-input-channel-strategy-2026-06-16]]"
-  - "[[dk-yb32-doubao-size-composition]]"
-  - "[[tool-ai-oral-spray-input]]"
-  - "[[case-yitang-voice-robot-companion-design]]"
-  - "[[yt-note-extensive-research-input]]"
-  - "[[tool-ai-voice-input-doubao]]"
-  - "[[case-yitang-xujian-invoice-saas-channel]]"
-  - "[[sk-ai-voice-input-doubao]]"
-query_triggers:
-
-
-
+- '[[yitang-domain-digest]]'
+- '[[kdo-input-channel-strategy-2026-06-16]]'
+- '[[dk-yb32-doubao-size-composition]]'
+- '[[tool-ai-oral-spray-input]]'
+- '[[case-yitang-voice-robot-companion-design]]'
+- '[[yt-note-extensive-research-input]]'
+- '[[tool-ai-voice-input-doubao]]'
+- '[[case-yitang-xujian-invoice-saas-channel]]'
+- '[[sk-ai-voice-input-doubao]]'
+query_triggers: null
 reviewed_by: 欧阳锋
-pipeline:
-
+pipeline: null
 author: unknown
 created_at: 2026-06-15
 updated_at: '2026-06-18'
 confidence: 0.88
 trust_level: medium
-diagnostic_signals:
-
-
+diagnostic_signals: null
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 豆包输入法：语音输入的最低成本实践

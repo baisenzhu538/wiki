@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-最佳实践素材收集法]]"
-  - "[[tool-月白-新手设计师基本功训练法]]"
-  - "[[tool-月白-商业项目AI模型选型决策]]"
-  - "[[tool-月白-产品替换式场景合成法]]"
-  - "[[tool-月白-正向反馈强化AI生成]]"
+- '[[tool-月白-最佳实践素材收集法]]'
+- '[[tool-月白-新手设计师基本功训练法]]'
+- '[[tool-月白-商业项目AI模型选型决策]]'
+- '[[tool-月白-产品替换式场景合成法]]'
+- '[[tool-月白-正向反馈强化AI生成]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：设计项目里程碑拆解法
 

@@ -37,6 +37,10 @@ related:
 - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 - '[[framework-一堂-关键假设]]'
 - '[[framework-yitang-scientific-sales-five-step]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 创新参数与动作案例集：把"没被命名过的率"挖出来
 

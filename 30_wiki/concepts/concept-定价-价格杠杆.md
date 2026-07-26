@@ -1,31 +1,35 @@
 ---
 id: concept-定价-价格杠杆
-title: "价格杠杆：定价那一刻，利润已经锁定"
+title: 价格杠杆：定价那一刻，利润已经锁定
 type: concept
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - profit-pricing
+- profit-pricing
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - actionable
+- insight
+- actionable
 source_refs:
-  - "00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L131-L163"
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L560-L650"
-  - "00_inbox/利润为王/笔记2.txt"
+- 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L131-L163
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L560-L650
+- 00_inbox/利润为王/笔记2.txt
 related:
-  - framework-利润-利润优先经营框架
-  - concept-利润-真正利润定义
-  - bridge-利润-单元模型-定价闭环
-  - bridge-利润-需求冰山-价值定价
-  - dk-利润-定价恐惧三段式反问
-  - yt-unit-model-build
+- framework-利润-利润优先经营框架
+- concept-利润-真正利润定义
+- bridge-利润-单元模型-定价闭环
+- bridge-利润-需求冰山-价值定价
+- dk-利润-定价恐惧三段式反问
+- yt-unit-model-build
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 价格杠杆：定价那一刻，利润已经锁定

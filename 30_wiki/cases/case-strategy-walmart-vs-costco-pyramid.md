@@ -22,6 +22,10 @@ related:
 - '[[tool-三层目标对齐法]]'
 - tool-strategy-four-layers
 - case-strategy-failure-09-boeing
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 **对比**：沃尔玛（W 集团）"天天平价" vs 好市多 / 家乐福（C 集团）"高低价"，战略主题同为"性价比第一"。
 

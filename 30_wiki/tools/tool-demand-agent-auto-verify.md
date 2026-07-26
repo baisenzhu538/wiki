@@ -14,15 +14,16 @@ domain:
 - yitang
 - five-step-method
 - ai-collaboration
-source_refs:
+source_refs: null
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-
-
-
 - kdo-protocol-implementation-roadmap
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # Agent L6自动预验证
 

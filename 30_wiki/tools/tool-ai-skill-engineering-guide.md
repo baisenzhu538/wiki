@@ -15,6 +15,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:advanced
 created_at: '2026-06-15'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -25,18 +28,18 @@ review_date: '2026-06-29'
 confidence: 0.88
 trust_level: high
 related:
-- "[[tool-半肥猫-课程Skill化的八步工作流]]"
-- "[[tool-ai-skill-engineering-method]]"
-- "[[tool-Truman-Skill全生命周期管理]]"
-- "[[paddleocr-skill]]"
-- "[[case-半肥猫-course-to-skill]]"
-- "[[tool-封装可复用skill]]"
-- "[[course-to-skill-conversion]]"
-- "[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]"
-- "[[case-ji-hao-skill-market-problem-validation]]"
-- "[[case-truman-ai-skill-self-packaging]]"
-- "[[yt-skill-checklist-as-ai-protocol]]"
-- "[[yt-skill-p-role-prompt-design]]"
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[tool-Truman-Skill全生命周期管理]]'
+- '[[paddleocr-skill]]'
+- '[[case-半肥猫-course-to-skill]]'
+- '[[tool-封装可复用skill]]'
+- '[[course-to-skill-conversion]]'
+- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
+- '[[case-truman-ai-skill-self-packaging]]'
+- '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[yt-skill-p-role-prompt-design]]'
 diagnostic_signals:
 - framework_lens: 缺少工程化标准和自我审计
   follow_up_question: 你的 skill 是否有 P0/P1/P2 分级检查清单？是否用十条 To Do / Not To Do 自评过？

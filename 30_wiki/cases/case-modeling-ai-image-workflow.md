@@ -1,28 +1,32 @@
 ---
 id: case-modeling-ai-image-workflow
-title: "AI 文生图流程建模：从 v1 抽卡到 v5 攻坚会的五版迭代"
+title: AI 文生图流程建模：从 v1 抽卡到 v5 攻坚会的五版迭代
 type: case
 status: draft
 confidence: 0.85
 trust_level: medium
 domain:
-  - modeling
+- modeling
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - cited
+- cited
 source_refs:
-  - "00_inbox/Advanced modeling/ 口述 §3.1"
-  - "00_inbox/Advanced modeling/ 批注2026-07-19-203816 VLM"
+- 00_inbox/Advanced modeling/ 口述 §3.1
+- 00_inbox/Advanced modeling/ 批注2026-07-19-203816 VLM
 related:
-  - concept-truman-18-component-cards
-  - framework-modeling-relation-exploration
-  - framework-kdo-modeling-methodology
-  - case-modeling-gongjianhui-facilitation
-  - modeling-level-map
+- concept-truman-18-component-cards
+- framework-modeling-relation-exploration
+- framework-kdo-modeling-methodology
+- case-modeling-gongjianhui-facilitation
+- modeling-level-map
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # AI 文生图流程建模：从 v1 抽卡到 v5 攻坚会的五版迭代

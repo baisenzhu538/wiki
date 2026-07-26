@@ -16,16 +16,19 @@ updated_at: '2026-06-28'
 author: 老顽童
 confidence: 0.7
 related:
-  - "[[truman-perspective-skill]]"
-  - "[[concept-yitang-research-objective]]"
-  - "[[concept-yitang-research-scope]]"
-  - "[[concept-yitang-research-facts-first]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[yt-research-industry-canvas]]"
-  - "[[yt-research-expert-interview]]"
-  - "[[yt-research-hypothesis-test]]"
-  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
-
+- '[[truman-perspective-skill]]'
+- '[[concept-yitang-research-objective]]'
+- '[[concept-yitang-research-scope]]'
+- '[[concept-yitang-research-facts-first]]'
+- '[[yt-research-competitor-toolkit]]'
+- '[[yt-research-industry-canvas]]'
+- '[[yt-research-expert-interview]]'
+- '[[yt-research-hypothesis-test]]'
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 

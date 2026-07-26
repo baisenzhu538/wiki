@@ -17,9 +17,13 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/测试_巨米推广_双三角画布.md
 related:
-- "[[tool-yihang-dual-triangle-canvas]]"
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[tool-yihang-dual-triangle-xray-deconstruct]]"
+- '[[tool-yihang-dual-triangle-canvas]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[tool-yihang-dual-triangle-xray-deconstruct]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 双三角画布演示：巨米推广——从模糊需求到九层可执行计划

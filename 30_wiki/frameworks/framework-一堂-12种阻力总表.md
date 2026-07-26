@@ -80,6 +80,10 @@ quality_labels:
 - framework
 - cited
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 一堂 12 种阻力总表
 

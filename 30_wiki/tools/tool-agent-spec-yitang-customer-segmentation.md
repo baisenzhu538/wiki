@@ -38,7 +38,6 @@ related:
 - '[[tool-agent-spec-yitang-objection-handler]]'
 - '[[tool-agent-spec-yitang-opening-3min]]'
 - '[[tool-agent-spec-yitang-self-motivation]]'
-
 - '[[tool-一堂-五种挖触点]]'
 - '[[framework-一堂-12触点SABC分级]]'
 created_at: 2026-07-02
@@ -52,6 +51,10 @@ os_sources:
 - agents/agent-os.md
 domain_sources:
 - 30_wiki/tools/tool-yitang-customer-segmentation-4step.md
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # OPC 客户分级智能体 Agent Spec

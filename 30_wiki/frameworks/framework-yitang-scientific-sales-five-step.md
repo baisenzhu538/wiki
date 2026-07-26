@@ -57,6 +57,10 @@ related:
 - '[[tool-agent-spec-yitang-user-perspective-training]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 一堂科学销售五步法
 

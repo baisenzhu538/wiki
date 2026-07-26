@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-demand-peak-end-rule
@@ -18,10 +17,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-  - "[[concept-峰终定律]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[concept-峰终定律]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 峰终定律——用户记住的是峰值和终点，不是平均
   follow_up_question: 用户使用过程中，哪个时刻最惊喜？哪个时刻最失望？结束时感觉如何？
@@ -33,7 +32,10 @@ diagnostic_signals:
   follow_up_question: 用户流失前的最后一个体验是什么？是负面峰值还是终点体验不好？
 - framework_lens: 峰终定律——竞品在峰值或终点体验更好
   follow_up_question: 竞品在哪个时刻给用户留下了深刻印象？是峰值时刻还是结束时刻？
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 峰终定律在需求分析中的应用：用户记住的不是平均，而是峰值和终点

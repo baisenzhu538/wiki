@@ -23,6 +23,10 @@ related:
 - '[[pending_unknown]]'
 - tool-ai-prd-for-ai
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 # 高管公开发言分析
 

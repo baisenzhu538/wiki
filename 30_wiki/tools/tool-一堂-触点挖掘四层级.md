@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-触点挖掘四层级
 title: 一堂触点挖掘四层级：从狭义销售点到创新接触机会的冰山洞察力
 type: tool
@@ -38,6 +37,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂触点挖掘四层级：从狭义销售点到创新接触机会的冰山洞察力

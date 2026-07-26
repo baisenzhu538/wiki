@@ -38,6 +38,10 @@ related:
 - '[[tool-yitang-consumer-goods-research]]'
 - framework-doris-industry-report-4step
 - concept-yitang-research-scope
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 实地调研/蹲店：蹲店·谈话·数人头三板斧

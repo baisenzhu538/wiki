@@ -9,14 +9,14 @@ version: 1
 difficulty: intermediate
 confidence: 0.72
 related:
-- "[[yt-note-checklist-concept]]"
-- "[[yt-note-five-levels-training]]"
-- "[[yt-note-live-field-skill]]"
-- "[[yt-concept-ai-guard-brain]]"
-- "[[yt-model-ipo-learning-strategy]]"
-- "[[yt-decision-ai-partner]]"
-- "[[yt-concept-context-engineering]]"
-- "[[yt-personal-ai-capability]]"
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-five-levels-training]]'
+- '[[yt-note-live-field-skill]]'
+- '[[yt-concept-ai-guard-brain]]'
+- '[[yt-model-ipo-learning-strategy]]'
+- '[[yt-decision-ai-partner]]'
+- '[[yt-concept-context-engineering]]'
+- '[[yt-personal-ai-capability]]'
 prerequisites:
 - src_unknown
 source_refs:
@@ -33,9 +33,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: 2026-06-07
 estimated_tokens: 4200
 pipeline:
@@ -53,6 +53,10 @@ updated_at: 2026-06-17
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # AI时代笔记分工边界：人在哪里，AI在哪里

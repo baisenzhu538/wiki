@@ -7,7 +7,8 @@ domain:
 - yitang
 - business-strategy
 source_person: 叶文彬（嗷大叶）
-source_context: 一堂「落地之夜第六场」直播 Live 第 255 场案例分享（2026），射箭馆连锁从 17 家到剩 5 家再回到 17 家，围绕业务公式四参数（进店量/办卡率/会员 ARPU/裂变率）做转化率迭代
+source_context: 一堂「落地之夜第六场」直播 Live 第 255 场案例分享（2026），射箭馆连锁从 17 家到剩 5 家再回到 17 家，围绕业务公式四参数（进店量/办卡率/会员
+  ARPU/裂变率）做转化率迭代
 source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L73-L135
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L161-L215
@@ -52,6 +53,10 @@ related:
 - '[[case-yitang-three-industry-formula-demos]]'
 - '[[dk-yitang-business-formula-a-missing-syndrome]]'
 - '[[dk-yitang-business-formula-l1-site-blindness]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 射箭馆：用业务公式四参数串起动力阻力触点，把"等客流"变成"经营转化率"
 

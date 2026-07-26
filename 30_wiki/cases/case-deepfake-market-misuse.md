@@ -25,6 +25,10 @@ related:
 - '[[case-ai-job-displacement-wef]]'
 - tool-ai-cross-reading-method
 - tool-ai-critical-reading-three-layers
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # Deepfake 的商业机会与滥用风险

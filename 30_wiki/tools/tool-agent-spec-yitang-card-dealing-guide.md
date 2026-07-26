@@ -29,6 +29,10 @@ tcp_default_mode: 咨询诊断（Consult）：基于用户的产品阶段、竞�
 tcp_switch_trigger: 用户要求直接生成出牌执行计划/营销排期 → 切换为 P；用户要求学习出牌方法论 → 切换为 T；用户要求分析竞品的出牌逻辑
   → 切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你分析当前的牌局，梳理手牌，制定出牌策略——该出什么牌、什么时候出、打到什么力度。请先告诉我你的产品阶段和当前局面。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 出牌指南 Agent Spec
 

@@ -20,6 +20,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - case-strategy-revival-13-bestore
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 **案例**：话梅果干品类从上游种植/养殖到下游零售的完整产业链利润与竞争分析
 

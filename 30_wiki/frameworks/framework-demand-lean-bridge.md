@@ -35,6 +35,10 @@ related:
 - '[[lean-startup-domain-digest]]'
 - '[[framework-demand-validation-pipeline]]'
 updated_at: '2026-06-30'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 需求判断与精益验证的衔接

@@ -16,8 +16,12 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-knowledge-data-decoupling]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-knowledge-data-decoupling]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 数据包使用伦理——个人学习可用，禁止规模化批量抓取流通

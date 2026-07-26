@@ -44,6 +44,9 @@ tags:
 - AI工具开发
 - 口播视频
 - 踩坑
+- audience:executor
+- scene:reference
+- skill-level:advanced
 query_triggers:
 - AI视频工具失败
 - 口播工具踩坑

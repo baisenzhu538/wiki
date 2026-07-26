@@ -44,6 +44,9 @@ tags:
 - 短视频
 - 审美量化
 - AI口播
+- audience:general
+- scene:reference
+- skill-level:advanced
 query_triggers:
 - 网感是什么
 - 网感怎么拆解

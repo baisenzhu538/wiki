@@ -28,6 +28,10 @@ related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[business-formula-domain-digest]]'
 - '[[case-yitang-marathon-ten-seasons]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 一堂减法决策三例：双直播间ROI、MBA提前第二趴、城市巡回的定量评估

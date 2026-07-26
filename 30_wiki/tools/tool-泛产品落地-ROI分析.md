@@ -25,6 +25,10 @@ related:
 - case-decision-science-universal-salary-raise-roi
 - case-panproduct-top135-selection-polish
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 落地卡片：ROI分析
 

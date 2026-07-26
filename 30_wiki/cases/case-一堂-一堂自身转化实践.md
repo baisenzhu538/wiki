@@ -5,7 +5,7 @@ type: case
 status: enriched
 author: 老顽童
 reviewed_by: pending
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 created_at: '2026-07-13'
@@ -15,28 +15,28 @@ domain:
 - conversion-rate
 source_context: 扫描五篇口述稿中「一堂自己/我们自己/我们内部」相关内容，汇总一堂在作业率、推荐率、入职率、加微信率、文案、触点等方面的自身转化实践
 source_refs:
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L36-L60"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L424-L448"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L736-L788"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L168-L182"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L1992-L2036"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L922-L946"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1024-L1094"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1346-L1364"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2106-L2114"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2464-L2620"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2980-L3022"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3132-L3186"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3224-L3258"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3680-L3714"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L554-L602"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L922-L944"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1082-L1142"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1192-L1210"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1300-L1308"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3478-L3484"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4400-L4530"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4594-L4714"
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L36-L60
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L424-L448
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L736-L788
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L168-L182
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L1992-L2036
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L922-L946
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1024-L1094
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1346-L1364
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2106-L2114
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2464-L2620
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2980-L3022
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3132-L3186
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3224-L3258
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3680-L3714
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L554-L602
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L922-L944
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1082-L1142
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1192-L1210
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1300-L1308
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3478-L3484
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4400-L4530
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4594-L4714
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'
@@ -66,10 +66,13 @@ related:
 - '[[tool-一堂-触点挖掘四层级]]'
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
-
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 一堂自身转化实践：扫描五篇口述稿中「一堂自己/我们自己/我们内部」的真实案例，展示一堂如何在作业率、推荐率、入职率、加微信率、触点挖掘、文案迭代上持续优化自身转化率。

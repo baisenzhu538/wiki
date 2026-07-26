@@ -23,6 +23,10 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
 - case-yitang-xujian-invoice-saas-channel
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 萝卜干渠道选择预判复盘
 

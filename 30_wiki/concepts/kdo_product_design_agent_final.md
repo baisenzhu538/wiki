@@ -15,14 +15,18 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- "[[tool-半肥猫-课程Skill化的八步工作流]]"
-- "[[kdo-input-channel-strategy-2026-06-16]]"
-- "[[kdo-protocol]]"
-- "[[tool-月白-PPT全AI生成工作流]]"
-- "[[framework-kdo-self-attack]]"
-- "[[kdo-yaml-frontmatter-safety]]"
-- "[[tool-泛产品设计-需求工具箱指南]]"
-- "[[kdo-priority-checklist]]"
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[kdo-input-channel-strategy-2026-06-16]]'
+- '[[kdo-protocol]]'
+- '[[tool-月白-PPT全AI生成工作流]]'
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[kdo-priority-checklist]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)

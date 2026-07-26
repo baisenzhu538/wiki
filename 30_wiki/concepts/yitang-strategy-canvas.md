@@ -1,28 +1,27 @@
 ---
-
 domain:
-  - concepts
-  - strategy
+- concepts
+- strategy
 id: yitang-strategy-canvas
 confidence: 0.9
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-17
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - 战略画布怎么画
-  - 蓝海战略工具
-  - 竞争格局分析
-  - 差异化战略
-  - 价值曲线
-  - 战略定位工具
-  - 竞争要素分析
-  - 蓝海战略怎么用
-  - 战略画布案例
-  - 如何做差异化
+- 战略画布怎么画
+- 蓝海战略工具
+- 竞争格局分析
+- 差异化战略
+- 价值曲线
+- 战略定位工具
+- 竞争要素分析
+- 蓝海战略怎么用
+- 战略画布案例
+- 如何做差异化
 review_date: 2026-06-17
 reviewed_by: 欧阳锋
 source_refs:
@@ -42,9 +41,9 @@ yitang:
   course_type: tool
   level: core
 pipeline:
-  - 00_inbox
-  - 10_raw
-  - 30_wiki
+- 00_inbox
+- 10_raw
+- 30_wiki
 diagnostic_signals:
 - framework_lens: 竞争视野狭窄——战略画布的第一步是列出所有买方关注的竞争要素，而不是只列现有玩家的卖点
   follow_up_question: 如果明天出现一个完全不同的解决方案满足同一需求，你的价值曲线上哪些要素会瞬间失效？
@@ -54,12 +53,16 @@ diagnostic_signals:
   follow_up_question: 你列出的竞争要素中，有几个是目标买家愿意为之多付钱或主动传播的？
 author: 老顽童
 related:
-  - "[[yt-entrepreneur-opportunity-selection]]"
-  - "[[concept-一堂-product-kernel]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[yt-decision-canvas]]"
-  - "[[yt-decision-height-toolkit]]"
-  - "[[case-modeling-essence-levels]]"
+- '[[yt-entrepreneur-opportunity-selection]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-height-toolkit]]'
+- '[[case-modeling-essence-levels]]'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 战略画布（Strategy Canvas）：把竞争格局画成一张价值曲线

@@ -1,5 +1,4 @@
 ---
-
 id: dk-demand-signal-vs-noise
 title: 需求信号与噪音的区分
 type: dk
@@ -8,8 +7,8 @@ domain:
 - yitang
 status: reviewed
 quality_labels:
-  - cited
-  - validated
+- cited
+- validated
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童
@@ -20,11 +19,15 @@ trust_level: medium
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - "[[framework-demand-validation-pipeline]]"
-  - "[[yt-demand-fake-demand-detection]]"
-  - "[[yt-demand-market-size-pitfalls]]"
-  - "[[case-demand-b2c-consumer-insight]]"
-  - "[[case-demand-b2b-enterprise-erp]]"
+- '[[framework-demand-validation-pipeline]]'
+- '[[yt-demand-fake-demand-detection]]'
+- '[[yt-demand-market-size-pitfalls]]'
+- '[[case-demand-b2c-consumer-insight]]'
+- '[[case-demand-b2b-enterprise-erp]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 需求信号与噪音的区分

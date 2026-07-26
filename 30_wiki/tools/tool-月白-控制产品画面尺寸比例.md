@@ -54,6 +54,10 @@ related:
 - '[[tool-月白-设计项目MVP拆解法]]'
 - '[[tool-月白-醒图人脸精修法]]'
 - tool-yitang-reverse-data-analysis
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：控制产品画面尺寸比例

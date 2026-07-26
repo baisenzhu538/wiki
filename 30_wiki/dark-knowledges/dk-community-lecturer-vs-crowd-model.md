@@ -7,32 +7,35 @@ status: reviewed
 source_person: 段王爷 / 对比提炼
 source_context: 对比 Vikki 战队 2 群与大馨战队的结构差异：大馨战队是讲师主导的拆解训练营（讲师中心），Vikki 战队更依赖群友互相激发（群众中心）。「围观群」降低了参与门槛，也限制了贡献深度。
 source_refs:
-  - "00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md"
-  - "00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md"
+- 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md
+- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 domain:
-  - content-production
-  - knowledge-management
-  - entrepreneur
-created_at: "2026-07-02"
-updated_at: "2026-07-02"
+- content-production
+- knowledge-management
+- entrepreneur
+created_at: '2026-07-02'
+updated_at: '2026-07-02'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-02"
+review_date: '2026-07-02'
 trust_level: medium
 confidence: 0.82
 related:
-  - "[[framework-community-knowledge-production-failure-modes]]"
-  - "[[case-daxin-team-content-training-camp]]"
-  - "[[framework-founder-ip-three-positioning]]"
-  - "[[concept-open-source-knowledge-usage-boundary]]"
-  - "[[framework-content-business-six-step]]"
+- '[[framework-community-knowledge-production-failure-modes]]'
+- '[[case-daxin-team-content-training-camp]]'
+- '[[framework-founder-ip-three-positioning]]'
+- '[[concept-open-source-knowledge-usage-boundary]]'
+- '[[framework-content-business-six-step]]'
 tags:
-  - "#source_type/comparison"
-  - "#scene/community"
-  - "#knowledge-management"
+- '#source_type/comparison'
+- '#scene/community'
+- '#knowledge-management'
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 quality_labels:
-  - principle
-  - validated
+- principle
+- validated
 ---
 
 # 讲师中心 vs 群众中心：社群知识生产的两种模式

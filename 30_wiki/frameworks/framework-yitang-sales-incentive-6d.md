@@ -36,6 +36,9 @@ tags:
 - '#management'
 - '#incentive'
 - '#yitang'
+- audience:manager
+- scene:diagnosis
+- skill-level:intermediate
 related:
 - '[[case-yitang-sales-transformation-meirongyuan]]'
 - '[[dk-yitang-sales-common-pitfalls]]'

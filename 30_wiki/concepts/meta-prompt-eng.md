@@ -23,6 +23,10 @@ related:
 - '[[product-ux]]'
 - yt-system-course-map-lecture
 - yt-case-mandatory-cases
+tags:
+- audience:general
+- scene:reference
+- skill-level:beginner
 ---
 # Meta Prompt Eng
 

@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[case-toy-cabinet-barrier]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[case-toy-cabinet-barrier]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 跨步三——规模化后需要壁垒保护利润
   follow_up_question: 你的壁垒是否足够强？竞品是否通过价格战侵蚀利润？
@@ -33,6 +33,10 @@ diagnostic_signals:
   follow_up_question: 你现有的优势是什么？用户、数据、技术、品牌？
 - framework_lens: 跨步三——壁垒和增长同步建设
   follow_up_question: 你的增长行为是否在积累壁垒？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 跨步三：从10到100的壁垒

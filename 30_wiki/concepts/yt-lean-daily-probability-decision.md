@@ -14,6 +14,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:reference
+- skill-level:beginner
 created_at: '2026-06-16'
 updated_at: '2026-06-28'
 author: 张磊
@@ -23,9 +26,9 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - "[[yt-lean-beauty-store-conversion]]"
-  - "[[yt-lean-daily-chemical-mvp]]"
-  - "[[yt-lean-flower-mom-group-leader]]"
+- '[[yt-lean-beauty-store-conversion]]'
+- '[[yt-lean-daily-chemical-mvp]]'
+- '[[yt-lean-flower-mom-group-leader]]'
 diagnostic_signals:
 - framework_lens: 假设驱动日常决策三问 / 敬畏概率
   follow_up_question: 这件事如果错了，会导致整个方向崩盘还是只损失局部效率？

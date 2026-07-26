@@ -17,9 +17,13 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[tool-yihang-dual-triangle-oral-spray]]"
-- "[[framework-yihang-knowledge-data-decoupling]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[tool-yihang-dual-triangle-oral-spray]]'
+- '[[framework-yihang-knowledge-data-decoupling]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # Agent 配置 7 步法：人类画像 + 规则匹配

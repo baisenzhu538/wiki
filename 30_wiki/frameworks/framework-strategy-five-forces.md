@@ -23,6 +23,10 @@ related:
 - '[[pending_unknown]]'
 - yt-five-step-method
 - yt-barrier-defensive-strategy
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 波特五力分析框架
 

@@ -15,17 +15,17 @@ domain:
 - conversion-rate
 source_context: 收录《转化率黑客·动力篇》口述稿中用于说明动力三曲线与影响力六原则的案例，按课程分层结构索引
 source_refs:
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L780-L1018"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L1080-L1118"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L2024-L2050"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L2680-L2718"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L312-L360"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3888-L4178"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4256-L4656"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4658-L4916"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4916-L5264"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5264-L5430"
-- "00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5430-L5568"
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L780-L1018
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L1080-L1118
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L2024-L2050
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L2680-L2718
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L312-L360
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3888-L4178
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4256-L4656
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4658-L4916
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4916-L5264
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5264-L5430
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5430-L5568
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'
@@ -40,11 +40,14 @@ related:
 - '[[conversion-rate-domain-digest]]'
 - '[[case-一堂-教研加微信率40到100]]'
 - '[[case-一堂-跆拳道黑带卡]]'
-
 - '[[case-yitang-sales-transformation-meirongyuan]]'
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 动力篇案例库：一堂以「动力三曲线 + 影响力六原则」为结构，用 70+ 个大小案例说明如何把「可买可不买」变成「很想要」，本卡按课程结构做分层索引，S 级已独立成卡的案例仅保留指针行。

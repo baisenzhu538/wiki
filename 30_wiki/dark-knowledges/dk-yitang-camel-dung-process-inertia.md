@@ -5,8 +5,8 @@ type: dk
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
-confidence: 0.90
+review_date: '2026-07-05'
+confidence: 0.9
 trust_level: high
 language: zh-CN
 created_at: 2026-07-04
@@ -17,8 +17,12 @@ source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
 related:
-- "[[framework-yitang-jiefang-sixiang]]"
-- "[[case-yitang-redburger-lettuce-clip]]"
+- '[[framework-yitang-jiefang-sixiang]]'
+- '[[case-yitang-redburger-lettuce-clip]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 流程经验不与底层原因对齐，会长期低效存在

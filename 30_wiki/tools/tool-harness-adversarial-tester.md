@@ -18,12 +18,13 @@ source_refs:
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-
-
-
 - tool-red-team-analysis
 - framework-structured-analytic-techniques
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 对抗测试员
 

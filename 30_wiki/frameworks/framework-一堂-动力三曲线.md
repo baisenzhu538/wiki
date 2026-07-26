@@ -76,6 +76,10 @@ quality_labels:
 - framework
 - cited
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 一堂动力三曲线：FAB / 名利权情 / 影响力法则
 

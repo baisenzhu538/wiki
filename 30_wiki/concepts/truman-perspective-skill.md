@@ -6,7 +6,7 @@ domain:
 - ai-collaboration
 - yitang
 status: reviewed
-source_refs:
+source_refs: null
 created_at: '2026-06-20'
 updated_at: '2026-07-04'
 author: 老顽童
@@ -14,11 +14,11 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 related:
-  - "[[business-research-skill-oscar-13-weapon-system]]"
-  
-  
-  
-  
+- '[[business-research-skill-oscar-13-weapon-system]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现

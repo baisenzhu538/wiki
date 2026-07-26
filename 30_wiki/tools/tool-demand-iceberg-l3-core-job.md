@@ -25,6 +25,10 @@ related:
 - proposal-prompt-injection-infrastructure
 - business-research-skill-oscar-13-weapon-system
 - '[[case-demand-milkshake-jtbd]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # L3圈定核心任务
 

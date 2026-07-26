@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-business-model-subscription
@@ -18,10 +17,10 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 订阅制商业模式——订阅制提供稳定可预测收入
   follow_up_question: 你的收入是否可预测？订阅制能否提升收入稳定性？
@@ -33,7 +32,10 @@ diagnostic_signals:
   follow_up_question: 你的订阅价格是否和提供的价值匹配？用户感知价值如何？
 - framework_lens: 订阅制商业模式——订阅制需要从产品设计之初考虑
   follow_up_question: 你的产品是否适合订阅制？订阅价值是否持续？
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 订阅制商业模式：从一次性到持续收入

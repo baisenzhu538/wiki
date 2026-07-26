@@ -17,7 +17,11 @@ source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
 related:
-- "[[framework-yitang-shishi-qiushi]]"
+- '[[framework-yitang-shishi-qiushi]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 实事求是十坑·不信规律：猎头互联网做大的结构性失败

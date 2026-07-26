@@ -17,17 +17,20 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - "[[case-truman-livestream-sop-iteration]]"
-  - "[[framework-yitang-iterative-recursive-digging]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[case-truman-livestream-sop-iteration]]'
+- '[[framework-yitang-iterative-recursive-digging]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 迭代递归深挖法——以推翻为目标的撞击实验
   follow_up_question: 能否找到 2–3 个反例或专家，以“推翻这个模型”为目标做一次评审？

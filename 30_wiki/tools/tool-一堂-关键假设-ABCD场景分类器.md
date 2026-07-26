@@ -28,6 +28,10 @@ related:
 quality_labels:
 - actionable
 - framework
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 
 # 工具：关键假设 ABCD 场景分类器

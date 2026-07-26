@@ -1,5 +1,4 @@
 ---
-
 id: sk-ai-question-problem-checklist
 title: 技能：提问题转化三问清单
 type: tool
@@ -12,31 +11,24 @@ source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记.md
 - 10_raw/sources/src_20260606_6ea91aa8-纪浩-AI协作方法论-口述.md
-wiki_refs:
-
-definition_of_done:
-
-
-
+wiki_refs: null
+definition_of_done: null
 tags:
-
-
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
-tools_required:
+tools_required: null
 prerequisite_skills: null
 related:
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  
-  
-  
+- '[[ai-collaboration-domain-digest]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: medium
-diagnostic_signals:
-
+diagnostic_signals: null
 ---
 
 # 技能：提问题转化三问清单

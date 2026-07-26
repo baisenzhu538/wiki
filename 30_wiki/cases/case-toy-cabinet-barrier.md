@@ -2,10 +2,10 @@
 id: case-toy-cabinet-barrier
 confidence: 0.85
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 created_at: 2026-06-11
 difficulty: intermediate
 domain: yitang
@@ -39,12 +39,16 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-- "[[yt-barrier-analysis-cheat-sheet]]"
-- "[[yt-barrier-identification-skill]]"
-- "[[case-toy-cabinet-business-model]]"
-- "[[yt-unit-model-three-tools]]"
-- "[[yt-five-step-method]]"
-- "[[yitang-domain-digest]]"
+- '[[yt-barrier-analysis-cheat-sheet]]'
+- '[[yt-barrier-identification-skill]]'
+- '[[case-toy-cabinet-business-model]]'
+- '[[yt-unit-model-three-tools]]'
+- '[[yt-five-step-method]]'
+- '[[yitang-domain-digest]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：线下玩具柜的壁垒困局与突围路径

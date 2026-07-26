@@ -1,5 +1,4 @@
 ---
-
 id: dk-strategy-07-strategy-vs-dividend
 title: 战略驱动 vs 红利驱动：前者创造路径，后者依赖环境
 type: dk
@@ -13,15 +12,19 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[dk-strategy-06-dividend-to-strategy]]"
-  - "[[dk-strategy-03-advantage-temporary]]"
-  - "[[dk-strategy-essence-four-elements]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[strategy-domain-digest]]"
+- '[[dk-strategy-06-dividend-to-strategy]]'
+- '[[dk-strategy-03-advantage-temporary]]'
+- '[[dk-strategy-essence-four-elements]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[strategy-domain-digest]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 战略驱动 vs 红利驱动：前者创造路径，后者依赖环境

@@ -28,6 +28,10 @@ related:
 - '[[tool-ai辅助学习]]'
 - '[[tool-费曼学习法三句话提炼]]'
 - tool-四层联系建立法
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：建立知识联系
 

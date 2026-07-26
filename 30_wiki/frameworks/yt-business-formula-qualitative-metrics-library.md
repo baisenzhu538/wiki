@@ -23,15 +23,19 @@ quality_labels:
 - framework
 - actionable
 related:
-  - "[[framework-一堂-业务公式拆解-总纲]]"
-  - "[[case-private-domain-ecommerce-formula]]"
-  - "[[case-saas-renewal-formula]]"
-  - "[[case-offline-catering-formula]]"
-  - "[[case-dental-clinic-formula]]"
-  - "[[case-gym-membership-formula]]"
-  - "[[yt-business-formula-ten-paradigms]]"
-  - "[[business-formula-domain-digest]]"
-  - "[[tool-一堂-业务公式-L1L6参数分层自检]]"
+- '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[case-private-domain-ecommerce-formula]]'
+- '[[case-saas-renewal-formula]]'
+- '[[case-offline-catering-formula]]'
+- '[[case-dental-clinic-formula]]'
+- '[[case-gym-membership-formula]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[business-formula-domain-digest]]'
+- '[[tool-一堂-业务公式-L1L6参数分层自检]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 业务公式定性参数行为化指标库

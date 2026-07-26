@@ -21,7 +21,7 @@ pipeline:
 - src_unknown
 author: 月白
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 confidence: 0.6
 trust_level: low
 related:
@@ -32,6 +32,10 @@ related:
 - tool-月白-控制产品画面尺寸比例
 - tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi
 - productization-judgment
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：烧Token快速积累体感
 

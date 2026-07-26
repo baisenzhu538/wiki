@@ -11,21 +11,25 @@ language: zh-CN
 created_at: 2026-07-11
 updated_at: 2026-07-11
 domain:
-  - infrastructure
-  - ai-collaboration
+- infrastructure
+- ai-collaboration
 source_refs:
-  - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-笔记.txt
-  - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/整合笔记_苦练基本功完整版.md
-  - 70_product/tasks/task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout.md
+- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-笔记.txt
+- 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/整合笔记_苦练基本功完整版.md
+- 70_product/tasks/task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout.md
 related:
-  - "[[tool-一堂-基本功-三环六维自检]]"
-  - "[[concept-一堂-基本功定义]]"
-  - "[[task_20260708_huangyaoshi-capability-hub-phase1]]"
-  - "[[concept-yihang-dual-triangle-core]]"
+- '[[tool-一堂-基本功-三环六维自检]]'
+- '[[concept-一堂-基本功定义]]'
+- '[[task_20260708_huangyaoshi-capability-hub-phase1]]'
+- '[[concept-yihang-dual-triangle-core]]'
 aliases:
-  - 三环过滤器
-  - capability filter
-  - 能力准入
+- 三环过滤器
+- capability filter
+- 能力准入
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # cap_hub 三环过滤器

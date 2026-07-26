@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-blue-ocean-canvas
 title: 蓝海战略画布（价值曲线工具）
 type: tool
@@ -17,13 +16,17 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- "[[strategy-domain-digest]]"
-- "[[tool-月白-设计师AI工具习惯切换]]"
-- "[[tool-ROI决策评估画布]]"
-- "[[tool-泛产品设计-需求工具箱指南]]"
-- "[[tool-Truman-AI工具选型决策]]"
-- "[[tool-清单小抄工具箱法]]"
-- "[[tool-提问刻意练习画布]]"
+- '[[strategy-domain-digest]]'
+- '[[tool-月白-设计师AI工具习惯切换]]'
+- '[[tool-ROI决策评估画布]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[tool-Truman-AI工具选型决策]]'
+- '[[tool-清单小抄工具箱法]]'
+- '[[tool-提问刻意练习画布]]'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 
 # 蓝海战略画布（价值曲线工具）

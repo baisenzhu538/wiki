@@ -1,5 +1,4 @@
 ---
-
 id: yt-model-cognitive-upgrade-framework
 confidence: 0.85
 created_at: 2026-05-15
@@ -19,11 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - "[[yt-personal-checklist-notes]]"
-  - "[[framework-kdo-self-attack]]"
-  - "[[yt-model-ipo-learning-strategy]]"
-  - "[[dk-modeling-explanatory-vs-predictive-essence]]"
-  - "[[framework-lean-false-model]]"
+- '[[yt-personal-checklist-notes]]'
+- '[[framework-kdo-self-attack]]'
+- '[[yt-model-ipo-learning-strategy]]'
+- '[[dk-modeling-explanatory-vs-predictive-essence]]'
+- '[[framework-lean-false-model]]'
 review_date: 2026-05-15
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -44,7 +43,10 @@ diagnostic_signals:
 - framework_lens: 框架过度使用——十步框架是深度阅读工具，不是所有书的标配
   follow_up_question: 这本书对你的当前问题有多重要？如果不重要，用简化版或跳过某些步骤
 author: 老顽童
-
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 认知升级十步框架：从「读书」到「安装认知补丁」

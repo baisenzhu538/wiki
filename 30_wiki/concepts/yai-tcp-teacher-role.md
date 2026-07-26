@@ -3,48 +3,52 @@ id: yai-tcp-teacher-role
 title: YAI T角色咨询法：教师式理解对话节奏
 type: framework
 domain:
-  - consulting
-  - yitang
-  - personal-growth
-  - learning-methodology
+- consulting
+- yitang
+- personal-growth
+- learning-methodology
 status: reviewed
 source_refs:
-  - "00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md"
+- 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
 related:
-  - "刻意练习方法论"
-  - "咨询对话框架"
-  - "ai-consultation-mindset-shift"
-  - "[[deliberate-practice-four-elements]]"
-  - "[[yai-counsel-role]]"
-  - "[[fixed-routine-design]]"
-  - "[[comfort-zone-expansion]]"
-  - "[[timely-feedback-loop]]"
-  - "[[deliberate-repetition]]"
-  - "[[ai-tool-learning-workbook]]"
+- 刻意练习方法论
+- 咨询对话框架
+- ai-consultation-mindset-shift
+- '[[deliberate-practice-four-elements]]'
+- '[[yai-counsel-role]]'
+- '[[fixed-routine-design]]'
+- '[[comfort-zone-expansion]]'
+- '[[timely-feedback-loop]]'
+- '[[deliberate-repetition]]'
+- '[[ai-tool-learning-workbook]]'
 aliases:
-  - "YAI TCPR"
-  - "YAI 教师角色"
-  - "T角色咨询法"
+- YAI TCPR
+- YAI 教师角色
+- T角色咨询法
 author: 老顽童
-created_at: "2026-06-28"
-updated_at: "2026-06-29"
+created_at: '2026-06-28'
+updated_at: '2026-06-29'
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
+review_date: '2026-06-28'
 diagnostic_signals:
-  - signal: 用户说"我想练 X"，但还没讲清楚自己现在卡在哪里
-    framework_lens: 先诊断再给方案
-    follow_up_question: "你现在是完全零基础，还是已经有一些零散尝试？之前为什么没开始/没坚持？"
-  - signal: 用户表达"头疼""一直启动不了""我就是做不到"
-    framework_lens: 正常化困境
-    follow_up_question: "这个状态其实很普遍。我们先不急着定计划，能不能先描述一下你最近一次想开始却没开始的具体场景？"
-  - signal: 用户想要一个完整计划表
-    framework_lens: 延迟给方案，共建最小动作
-    follow_up_question: "在排计划之前，我们先确认一件事：这件事里让你最卡的是选题、工具、反馈，还是时间？"
-  - signal: 用户 asked for 7-day plan or detailed roadmap
-    framework_lens: 把大目标压成明天最小动作
-    follow_up_question: "如果你明天只能做 10 分钟，只做一件事，让这件事最有可能启动起来，那会是什么？"
+- signal: 用户说"我想练 X"，但还没讲清楚自己现在卡在哪里
+  framework_lens: 先诊断再给方案
+  follow_up_question: 你现在是完全零基础，还是已经有一些零散尝试？之前为什么没开始/没坚持？
+- signal: 用户表达"头疼""一直启动不了""我就是做不到"
+  framework_lens: 正常化困境
+  follow_up_question: 这个状态其实很普遍。我们先不急着定计划，能不能先描述一下你最近一次想开始却没开始的具体场景？
+- signal: 用户想要一个完整计划表
+  framework_lens: 延迟给方案，共建最小动作
+  follow_up_question: 在排计划之前，我们先确认一件事：这件事里让你最卡的是选题、工具、反馈，还是时间？
+- signal: 用户 asked for 7-day plan or detailed roadmap
+  framework_lens: 把大目标压成明天最小动作
+  follow_up_question: 如果你明天只能做 10 分钟，只做一件事，让这件事最有可能启动起来，那会是什么？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # YAI T角色咨询法：教师式理解对话节奏

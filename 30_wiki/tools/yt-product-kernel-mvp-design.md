@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-product-kernel-mvp-design
@@ -18,17 +17,17 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]"
-  - "[[yt-panproduct-execution-low-cost-mvp]]"
-  - "[[tool-月白-口述作图法（口喷设计）]]"
-  - "[[tool-月白-设计能力蒸馏封装法]]"
-  - "[[tool-月白-AIGC设计作业复盘法]]"
-  - "[[tool-月白-AI设计反馈萃取法]]"
-  - "[[tool-月白-设计文件八要素命名法]]"
-  - "[[tool-月白-设计项目MVP拆解法]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
-  - "[[yt-lean-daily-chemical-mvp]]"
-  - "[[case-yitang-mvp-reward-interview-waste]]"
+- '[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]'
+- '[[yt-panproduct-execution-low-cost-mvp]]'
+- '[[tool-月白-口述作图法（口喷设计）]]'
+- '[[tool-月白-设计能力蒸馏封装法]]'
+- '[[tool-月白-AIGC设计作业复盘法]]'
+- '[[tool-月白-AI设计反馈萃取法]]'
+- '[[tool-月白-设计文件八要素命名法]]'
+- '[[tool-月白-设计项目MVP拆解法]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[yt-lean-daily-chemical-mvp]]'
+- '[[case-yitang-mvp-reward-interview-waste]]'
 diagnostic_signals:
 - framework_lens: 内核MVP设计——MVP不够M，需要聚焦核心
   follow_up_question: 你的MVP去掉了哪些功能？剩下的功能是否只验证核心假设？
@@ -40,7 +39,10 @@ diagnostic_signals:
   follow_up_question: 非核心功能占用了多少开发时间？如果砍掉，能提前多久上线？
 - framework_lens: 内核MVP设计——MVP是验证工具，不是缩小版产品
   follow_up_question: MVP和最终产品的区别是什么？MVP验证什么假设？
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 内核MVP设计：最小可验证产品

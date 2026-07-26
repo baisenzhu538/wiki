@@ -24,13 +24,17 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-课程问题预埋法]]"
-- "[[tool-月白-提示词长度控制法]]"
-- "[[tool-月白-背景消除与分辨率修复]]"
-- "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
-- "[[tool-月白-三步作业反馈法]]"
-- "[[tool-Truman-开源模型与商业模型融合方案]]"
-- "[[tool-月白-图片逆向反推提示词法]]"
+- '[[tool-月白-课程问题预埋法]]'
+- '[[tool-月白-提示词长度控制法]]'
+- '[[tool-月白-背景消除与分辨率修复]]'
+- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
+- '[[tool-月白-三步作业反馈法]]'
+- '[[tool-Truman-开源模型与商业模型融合方案]]'
+- '[[tool-月白-图片逆向反推提示词法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：提示词优化：信息流海报文字修复

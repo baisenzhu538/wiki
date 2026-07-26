@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-industry-channel-arsenal-index
 type: tool
 title: 24 行业获客清单索引：跨行业渠道灵感库
@@ -13,9 +12,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-01_vlm_desc.md
@@ -43,15 +42,19 @@ source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-23_vlm_desc.md
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-24_vlm_desc.md
 related:
-- "[[framework-yitang-channel-exploration-4step]]"
-- "[[tool-yitang-channel-scan-cheat-sheet]]"
-- "[[tool-yitang-channel-scoring-matrix]]"
-- "[[framework-yitang-channel-industrialization]]"
-- "[[tool-区分获客渠道计算单元roi]]"
-- "[[framework-yitang-growth-flywheel]]"
-- "[[concept-yitang-channel-lean-validation-bridge]]"
-- "[[dk-yitang-channel-exploration-traps]]"
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[tool-yitang-channel-scan-cheat-sheet]]'
+- '[[tool-yitang-channel-scoring-matrix]]'
+- '[[framework-yitang-channel-industrialization]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[concept-yitang-channel-lean-validation-bridge]]'
+- '[[dk-yitang-channel-exploration-traps]]'
 review_date: '2026-06-28'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 

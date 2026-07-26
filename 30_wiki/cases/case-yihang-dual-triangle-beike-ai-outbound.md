@@ -21,9 +21,9 @@ source_refs:
 - 00_inbox/人机协作双三角/[【组织】贝壳找房案例口述.pdf
 - 00_inbox/人机协作双三角/_processed/组织贝壳找房案例口述_text.md
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
-- "[[method-dual-triangle-human-ai-division]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[method-dual-triangle-human-ai-division]]'
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
@@ -33,6 +33,10 @@ related:
 aliases:
 - 贝壳找房案例
 - AI外呼案例
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 一行双三角案例：贝壳找房 110 个场景的 AI 外呼

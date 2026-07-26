@@ -21,6 +21,10 @@ related:
 - '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # 案例：洗衣液市场调研——蹲超市+假扮促销员
 

@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-AI图片风格逆向提取（抄图法）]]"
-  - "[[tool-月白-最佳实践素材收集法]]"
-  - "[[tool-月白-AIGC文字大小精确控制]]"
-  - "[[tool-月白-AI生成图小字控制法]]"
-  - "[[tool-月白-AI图生图尺寸快速转换]]"
+- '[[tool-月白-AI图片风格逆向提取（抄图法）]]'
+- '[[tool-月白-最佳实践素材收集法]]'
+- '[[tool-月白-AIGC文字大小精确控制]]'
+- '[[tool-月白-AI生成图小字控制法]]'
+- '[[tool-月白-AI图生图尺寸快速转换]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：短视频封面'音量战争'设计法
 

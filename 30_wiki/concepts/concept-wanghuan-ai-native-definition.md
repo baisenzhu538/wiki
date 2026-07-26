@@ -1,5 +1,4 @@
 ---
-
 id: concept-wanghuan-ai-native-definition
 title: 王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程
 type: concept
@@ -29,23 +28,25 @@ diagnostic_signals:
 - lens: 只纳不沉
   follow_up: 建立 Prompt 模板库或 AI 业务档案，把高频输出固化为可复用资产
 related:
-  - "[[tool-月白-设计师AI工具习惯切换]]"
-  - "[[tool-泛产品设计-需求工具箱指南]]"
-  - "[[tool-Truman-AI工具选型决策]]"
-  - "[[tool-agent-native-overview]]"
-  - "[[tool-清单小抄工具箱法]]"
-  - "[[tool-月白-资深设计师AI工具切换法]]"
-  - "[[ai-native-五层进阶从答案到效率到作品到产品到系统]]"
-  - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
-  - "[[dk-lz-ai-native-organization]]"
-  - "[[concept-ai-native-organization-five-steps]]"
+- '[[tool-月白-设计师AI工具习惯切换]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[tool-Truman-AI工具选型决策]]'
+- '[[tool-agent-native-overview]]'
+- '[[tool-清单小抄工具箱法]]'
+- '[[tool-月白-资深设计师AI工具切换法]]'
+- '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[dk-lz-ai-native-organization]]'
+- '[[concept-ai-native-organization-five-steps]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程

@@ -24,6 +24,10 @@ related:
 - '[[case-strategy-failure-05-it]]'
 - case-strategy-failure-09-boeing
 - case-strategy-failure-04-appliance
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 **表面问题**：转型内容平台后用户流失。
 **战略根因**：资源短缺——版权库太弱，与头部平台的内容储备差距无法靠运营弥补。

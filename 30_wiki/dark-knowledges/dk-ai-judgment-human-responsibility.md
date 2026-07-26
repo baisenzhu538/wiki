@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-ai-judgment-human-responsibility
 title: 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果
 type: dk
@@ -17,11 +15,15 @@ confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
 related:
-- "[[tool-纪浩-处理AI生成代码运行异常]]"
-- "[[dk-my-ai-landing-three-barriers]]"
-- "[[dk-truman-iteration-to-aesthetic-ceiling]]"
-- "[[dk-ai-judgment-programmer-paradox]]"
-- "[[dk-jh-llm-time-blindness]]"
+- '[[tool-纪浩-处理AI生成代码运行异常]]'
+- '[[dk-my-ai-landing-three-barriers]]'
+- '[[dk-truman-iteration-to-aesthetic-ceiling]]'
+- '[[dk-ai-judgment-programmer-paradox]]'
+- '[[dk-jh-llm-time-blindness]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:beginner
 ---
 # 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果
 

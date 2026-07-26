@@ -1,5 +1,4 @@
 ---
-
 id: tool-半肥猫-课程Skill化的八步工作流
 title: 技能：课程Skill化的八步工作流
 type: tool
@@ -18,20 +17,20 @@ prerequisite_skills:
 - src_unknown
 - src_unknown
 related:
-  - "[[concept-半肥猫-ai-learning-toolification-methodology]]"
-  - "[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]"
-  - "[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
-  - "[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]"
-  - "[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]"
-  - "[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]"
-  - "[[case-ban-fei-mao-conversion-hacker-skill]]"
-  - "[[case-ban-fei-mao-skill-ab-test]]"
-  - "[[tool-ai-skill-engineering-guide]]"
-  - "[[tool-ai-skill-engineering-method]]"
-  - "[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]"
-  - "[[tool-yitang-18-strategy-tool-mapping]]"
-  - "[[tool-半肥猫-course-to-skill-workflow]]"
-  - "[[tool-半肥猫-边学边练边沉淀的AI学习法]]"
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
+- '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+- '[[case-ban-fei-mao-conversion-hacker-skill]]'
+- '[[case-ban-fei-mao-skill-ab-test]]'
+- '[[tool-ai-skill-engineering-guide]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]'
+- '[[tool-yitang-18-strategy-tool-mapping]]'
+- '[[tool-半肥猫-course-to-skill-workflow]]'
+- '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 pipeline:
@@ -53,7 +52,10 @@ diagnostic_signals:
   follow_up: 维护占生命周期80%，把维护成本计入总投入，定期迭代
 - lens: 拒绝能力不足
   follow_up: 检查第4步诊断协议是否包含拒绝条件、风险分级、触发边界
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：课程Skill化的八步工作流

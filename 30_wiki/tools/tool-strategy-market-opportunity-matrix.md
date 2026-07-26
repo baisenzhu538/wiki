@@ -22,6 +22,10 @@ related:
 - '[[pending_unknown]]'
 - tool-strategy-three-horizons
 - tool-strategy-five-see-three-set
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 细分市场机会分析矩阵：10 维度判断"该不该进、用什么进"
 

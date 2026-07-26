@@ -4,31 +4,35 @@ title: Agent进化常见失败模式
 type: dk
 status: reviewed
 author: laowantong
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 domain:
-  - system
+- system
 source_refs:
-  - .agent/pitfalls.md
-  - 30_wiki/frameworks/framework-kdo-modeling-methodology.md
-  - 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
-  - 90_control/rules-core.md
+- .agent/pitfalls.md
+- 30_wiki/frameworks/framework-kdo-modeling-methodology.md
+- 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
+- 90_control/rules-core.md
 related:
-  - concept-kdo-agent-design-principles
-  - concept-kdo-agent-four-level-awareness
-  - tool-agent-self-evolution-protocol
-  - tool-agent-context-derivation-audit
-  - bridge-lightning-agent-evolution
-  - framework-kdo-modeling-methodology
+- concept-kdo-agent-design-principles
+- concept-kdo-agent-four-level-awareness
+- tool-agent-self-evolution-protocol
+- tool-agent-context-derivation-audit
+- bridge-lightning-agent-evolution
+- framework-kdo-modeling-methodology
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 欧阳锋
 diagnostic_signals:
-  - Agent context 行数持续增长但不追溯原则
-  - 同类型 pitfalls 在 30 天内复现
-  - Agent 改进 100% 由人类推动
-  - 验证不足的规则被过早推广到全 Agent
+- Agent context 行数持续增长但不追溯原则
+- 同类型 pitfalls 在 30 天内复现
+- Agent 改进 100% 由人类推动
+- 验证不足的规则被过早推广到全 Agent
 quality_labels: cited
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 > **定位**：属于 [[framework-kdo-modeling-methodology]] 的「第四步·解压展开」——把 41 条 pitfalls 中与 Agent 自我进化相关的失败模式压缩为 6 条元失败模式。

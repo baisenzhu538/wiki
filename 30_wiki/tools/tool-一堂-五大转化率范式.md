@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-五大转化率范式
 title: 一堂五大转化率范式：从一句话到发布会的信息容量与复杂度分层
 type: tool
@@ -36,6 +35,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂五大转化率范式：从一句话到发布会的信息容量与复杂度分层

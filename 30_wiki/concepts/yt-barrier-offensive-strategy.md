@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-barrier-offensive-strategy
@@ -18,10 +17,10 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[tool-单元模型-壁垒预判]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[tool-单元模型-壁垒预判]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 进攻策略——突破竞品壁垒需要找到壁垒的弱点或绕过壁垒
   follow_up_question: 竞品的壁垒是什么？弱点在哪里？能否绕过或差异化？
@@ -33,7 +32,10 @@ diagnostic_signals:
   follow_up_question: 你的进攻成本是多少？预期回报是多少？是否值得？
 - framework_lens: 进攻策略——竞品弱点需要深入分析
   follow_up_question: 竞品的用户反馈是什么？竞品的产品、服务、渠道是否有弱点？
-
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 进攻策略：突破竞品壁垒

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-app-store-data
 title: APP数据查询：应用商店排名与下载量估算
 type: tool
@@ -15,16 +14,20 @@ domain:
 - yitang
 - research
 source_refs:
-- "00_inbox/调研专题/调研超级武器库_ocr_text.md"
+- 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - "[[tool-yitang-app-store-review]]"
-  - "[[tool-yitang-research-cross-validation]]"
-  - "[[tool-yitang-research-competitor-tracking]]"
-  - "[[framework-yitang-research-radar]]"
-  - "[[tool-alt-data-free]]"
-  - "[[tool-alt-data-overview]]"
-  - "[[tool-demand-agent-signals]]"
-updated_at: "2026-06-30T16:07:51+00:00"
+- '[[tool-yitang-app-store-review]]'
+- '[[tool-yitang-research-cross-validation]]'
+- '[[tool-yitang-research-competitor-tracking]]'
+- '[[framework-yitang-research-radar]]'
+- '[[tool-alt-data-free]]'
+- '[[tool-alt-data-overview]]'
+- '[[tool-demand-agent-signals]]'
+updated_at: '2026-06-30T16:07:51+00:00'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # APP数据查询

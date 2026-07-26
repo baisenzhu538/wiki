@@ -34,6 +34,10 @@ related:
 - case-yitang-amazon-growth-flywheel
 status: reviewed
 review_date: '2026-06-28'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：一堂如何用 ABCD 模型实现口播短视频工业化

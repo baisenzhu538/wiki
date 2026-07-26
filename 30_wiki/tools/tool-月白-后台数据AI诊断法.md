@@ -24,12 +24,16 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-AI平台算法咨询法]]"
-- "[[tool-月白-AI生成棉花娃娃形象]]"
-- "[[tool-月白-AI生成IP表情包]]"
-- "[[tool-月白-口喷式设计工作流]]"
-- "[[tool-月白-基于白底图做动作延展]]"
-- "[[tool-strategy-customer-selection]]"
+- '[[tool-月白-AI平台算法咨询法]]'
+- '[[tool-月白-AI生成棉花娃娃形象]]'
+- '[[tool-月白-AI生成IP表情包]]'
+- '[[tool-月白-口喷式设计工作流]]'
+- '[[tool-月白-基于白底图做动作延展]]'
+- '[[tool-strategy-customer-selection]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：后台数据AI诊断法

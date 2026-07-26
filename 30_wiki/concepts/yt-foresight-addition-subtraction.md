@@ -38,12 +38,15 @@ updated_at: '2026-06-28'
 author: 老顽童
 trust_level: medium-high
 related:
-  - "[[yt-foresight-15-char-mantra]]"
-  - "[[yt-foresight-probability-engineering]]"
-  - "[[case-gudong-tea-shop-foresight]]"
-  - "[[framework-一堂-机会预判]]"
-  - "[[concept-一堂-终局光谱图解读]]"
-
+- '[[yt-foresight-15-char-mantra]]'
+- '[[yt-foresight-probability-engineering]]'
+- '[[case-gudong-tea-shop-foresight]]'
+- '[[framework-一堂-机会预判]]'
+- '[[concept-一堂-终局光谱图解读]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 
 

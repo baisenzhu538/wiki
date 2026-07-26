@@ -39,6 +39,10 @@ diagnostic_signals:
 quality_labels:
 - principle
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一堂个人表达力总框架：火箭模型×十指讲香×逐字稿

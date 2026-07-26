@@ -3,33 +3,37 @@ id: completion-criteria-design
 title: 完成标准设定
 type: tool
 domain:
-  - learning-methodology
-  - personal-growth
-  - yitang
+- learning-methodology
+- personal-growth
+- yitang
 status: reviewed
 source_refs:
-  - "00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md"
+- 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
-  - "[[deliberate-practice-four-elements]]"
-  - "[[challenge-point-design]]"
-  - "[[ai-tool-learning-curve]]"
+- '[[deliberate-practice-four-elements]]'
+- '[[challenge-point-design]]'
+- '[[ai-tool-learning-curve]]'
 aliases:
-  - "完成标准"
-  - "学会的定义"
+- 完成标准
+- 学会的定义
 author: 老顽童
-created_at: "2026-06-28"
-updated_at: "2026-06-28"
+created_at: '2026-06-28'
+updated_at: '2026-06-28'
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
+review_date: '2026-06-28'
 diagnostic_signals:
-  - signal: 用户说"我不知道学到什么程度算学会了"
-    framework_lens: 缺少完成标准
-    follow_up_question: "如果必须写 3 条具体标准，说明你‘学会’了这个工具，你会写什么？"
-  - signal: 用户把完成标准写成"掌握这个工具"
-    framework_lens: 标准太虚
-    follow_up_question: "‘掌握’拆不成勾选动作。能不能写成‘能做 X’‘能判断 Y’？"
+- signal: 用户说"我不知道学到什么程度算学会了"
+  framework_lens: 缺少完成标准
+  follow_up_question: 如果必须写 3 条具体标准，说明你‘学会’了这个工具，你会写什么？
+- signal: 用户把完成标准写成"掌握这个工具"
+  framework_lens: 标准太虚
+  follow_up_question: ‘掌握’拆不成勾选动作。能不能写成‘能做 X’‘能判断 Y’？
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 完成标准设定

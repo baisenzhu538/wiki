@@ -1,44 +1,46 @@
 ---
-
-id: "framework-multi-agent-research-architecture"
-title: "多智能体研究架构模式（Multi-Agent Research Architecture）"
-type: "framework"
+id: framework-multi-agent-research-architecture
+title: 多智能体研究架构模式（Multi-Agent Research Architecture）
+type: framework
 domain:
-  - "AI"
-  - "research"
-  - "agent"
+- AI
+- research
+- agent
 tags:
-  - "多智能体"
-  - "Supervisor"
-  - "Swarm"
-  - "Pipeline"
-  - "Hybrid"
-  - "LangChain benchmark"
-source_person: "LangChain Team（Will Fu-Hinthorn）+ Truman（一堂）"
-source_context: "LangChain 官方多智能体架构 benchmark + 一堂调研武器库 Agent 化对接"
+- 多智能体
+- Supervisor
+- Swarm
+- Pipeline
+- Hybrid
+- LangChain benchmark
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+source_person: LangChain Team（Will Fu-Hinthorn）+ Truman（一堂）
+source_context: LangChain 官方多智能体架构 benchmark + 一堂调研武器库 Agent 化对接
 source_refs:
-  - "https://www.langchain.com/blog/benchmarking-multi-agent-architectures"
-  - "https://edison-a-n.github.io/2026/04/19/multi-agent-architecture-survey/"
-  - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
+- https://www.langchain.com/blog/benchmarking-multi-agent-architectures
+- https://edison-a-n.github.io/2026/04/19/multi-agent-architecture-survey/
+- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 related:
-  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
-  - "[[framework-yitang-oscar-research]]"
-  - "[[ai-native-im-multi-agent]]"
-  - "[[yt-panproduct-demand-multi-perspective]]"
-  - "[[dk-yb14-multi-image-commonality]]"
-  - "[[framework-ai-accelerated-strategy-cycle]]"
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
+- '[[framework-yitang-oscar-research]]'
+- '[[ai-native-im-multi-agent]]'
+- '[[yt-panproduct-demand-multi-perspective]]'
+- '[[dk-yb14-multi-image-commonality]]'
+- '[[framework-ai-accelerated-strategy-cycle]]'
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
-created_at: "2026-06-28"
+review_date: '2026-06-28'
+created_at: '2026-06-28'
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - validated
+- cited
+- insight
+- principle
+- validated
 updated_at: '2026-06-28'
 confidence: 0.78
-trust_level: "medium"
+trust_level: medium
 ---
 
 # 多智能体研究架构模式（Multi-Agent Research Architecture）

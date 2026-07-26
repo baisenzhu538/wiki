@@ -22,6 +22,10 @@ related:
 - '[[pending_unknown]]'
 - yt-system-course-map-lecture
 - yt-case-mandatory-cases
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # Sprint 2 门禁举证验收
 

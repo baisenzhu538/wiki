@@ -31,6 +31,10 @@ related:
 - '[[tool-月白-三步作业反馈法]]'
 - '[[tool-月白-PPT全AI生成工作流]]'
 - aigc设计基础01ai生图原理与提示词基本功
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：AI生成电商白底图

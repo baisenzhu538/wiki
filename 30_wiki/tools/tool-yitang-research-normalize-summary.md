@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-normalize-summary
 title: 归一总结：整合信息形成统一结论
 type: tool
@@ -29,13 +28,17 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[tool-yitang-ai-assisted-organize]]"
-  - "[[tool-yitang-research-cross-validation]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[tool-yitang-ai-assisted-organize]]'
+- '[[tool-yitang-research-cross-validation]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 归一总结：整合信息形成统一结论

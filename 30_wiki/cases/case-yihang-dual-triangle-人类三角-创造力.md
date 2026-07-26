@@ -1,6 +1,6 @@
 ---
 id: case-yihang-dual-triangle-人类三角-创造力
-title: "人类三角-创造力 — 双三角案例"
+title: 人类三角-创造力 — 双三角案例
 type: case
 status: draft
 author: 洪七公（VLM提取）
@@ -9,13 +9,16 @@ updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
 domain:
-  - ai-collaboration
-  - yitang
+- ai-collaboration
+- yitang
 source_refs:
-  - 00_inbox/人机协作双三角/_processed/人类三角-创造力_vlm.md
+- 00_inbox/人机协作双三角/_processed/人类三角-创造力_vlm.md
 tags:
-  - "#domain/ai-collaboration"
-  - "#method/dual-triangle"
+- '#domain/ai-collaboration'
+- '#method/dual-triangle'
+- audience:general
+- scene:reference
+- skill-level:intermediate
 reviewed_by: pending
 ---
 # 人类三角-创造力

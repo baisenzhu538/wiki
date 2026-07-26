@@ -1,8 +1,6 @@
 ---
-
 domain:
-  - modeling
-
+- modeling
 id: yt-model-deep-review-iceberg
 status: reviewed
 confidence: 0.85
@@ -11,20 +9,24 @@ updated_at: '2026-07-12'
 difficulty: intermediate
 language: zh-CN
 query_triggers:
-  - 复盘只停留在"做得好/不好"的主观感受，挖不到原因
-  - 怎么把一次复盘从事实挖到根因、再挖到可迁移的模型
-  - 深度复盘五层：主观感受→客观事实→背后原因→底层模型→能力建设
-  - 团队复盘变成找替罪羊，找原因退化为甩锅
-  - 复盘完没有沉淀，同样的错误下个季度再犯
-  - 这一轮复盘你能挖到第几层深度
-reviewed_by: "黄药师"
+- 复盘只停留在"做得好/不好"的主观感受，挖不到原因
+- 怎么把一次复盘从事实挖到根因、再挖到可迁移的模型
+- 深度复盘五层：主观感受→客观事实→背后原因→底层模型→能力建设
+- 团队复盘变成找替罪羊，找原因退化为甩锅
+- 复盘完没有沉淀，同样的错误下个季度再犯
+- 这一轮复盘你能挖到第几层深度
+reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
-  - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
+- pending_archive:src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
+- src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 related:
-  - "[[yt-business-formula-six-level-logic]]"
-  - "[[yt-business-formula-parameter-iceberg]]"
+- '[[yt-business-formula-six-level-logic]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透
 

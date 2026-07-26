@@ -1,37 +1,40 @@
 ---
 id: concept-spatial-narrative-design
-title: "空间即逻辑：内容结构→画布空间的四结构+四原则映射"
+title: 空间即逻辑：内容结构→画布空间的四结构+四原则映射
 type: concept
 status: reviewed
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - content-production
+- content-production
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-21"
+review_date: '2026-07-21'
 grade: A-
-created_at: "2026-07-21"
-updated_at: "2026-07-21"
+created_at: '2026-07-21'
+updated_at: '2026-07-21'
 quality_labels:
-  - insight
-  - principle
+- insight
+- principle
 diagnostic_signals:
-  - signal: "观众看完说不清内容结构"
-    lens: 空间布局没有体现逻辑关系
-    follow_up: 全景图摆出来只看布局，能否读出几大块？
-  - signal: "所有元素大小一样"
-    lens: 没有聚簇、没有主次
-    follow_up: 用聚簇四原则重组——同主题靠近、主次分大小
-
+- signal: 观众看完说不清内容结构
+  lens: 空间布局没有体现逻辑关系
+  follow_up: 全景图摆出来只看布局，能否读出几大块？
+- signal: 所有元素大小一样
+  lens: 没有聚簇、没有主次
+  follow_up: 用聚簇四原则重组——同主题靠近、主次分大小
 source_refs:
-  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L105-L145"
+- 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L105-L145
 related:
-  - tool-presentation-quality-gate-pipeline
-  - framework-一堂-表达力火箭模型
-  - framework-yitang-case-crafting-four-step
-  - framework-一堂-基本功-四字诀拆建推练
-  - dk-spatial-narrative-pitfalls
+- tool-presentation-quality-gate-pipeline
+- framework-一堂-表达力火箭模型
+- framework-yitang-case-crafting-four-step
+- framework-一堂-基本功-四字诀拆建推练
+- dk-spatial-narrative-pitfalls
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 空间即逻辑：内容结构→画布空间的映射

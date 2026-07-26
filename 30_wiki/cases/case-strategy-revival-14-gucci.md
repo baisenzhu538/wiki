@@ -24,6 +24,10 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - case-strategy-revival-13-bestore
 - case-opc-agent-wave1-real-model-testing
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 **背景**：CEO Bizzarri 2015年就任，收入€39亿
 **动作**：砍低价折扣渠道→收回授权转直营→换创意总监→聚焦千禧一代

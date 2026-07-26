@@ -15,8 +15,12 @@ domain:
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
 related:
-- "[[yt-decision-y-model]]"
-- "[[method-yitang-y-model-engine-cycle]]"
+- '[[yt-decision-y-model]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # Y模型 案例：小学生在线阅读——外行看一眼画布就能平等对话

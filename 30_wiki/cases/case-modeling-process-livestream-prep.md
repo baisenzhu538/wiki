@@ -1,5 +1,4 @@
 ---
-
 id: case-modeling-process-livestream-prep
 title: 流程建模案例：Truman 直播开播前 2 小时个人准备清单
 type: case
@@ -18,6 +17,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:reference
+- skill-level:advanced
 created_at: 2026-06-15
 updated_at: '2026-06-28'
 author: 老顽童
@@ -28,25 +30,25 @@ review_date: 2026-06-16
 confidence: 0.8
 trust_level: high
 related:
-  - "[[tool-Truman-提示词优化底层方法]]"
-  - "[[tool-Truman-Skill全生命周期管理]]"
-  - "[[yt-model-truman-career-routes]]"
-  - "[[tool-从案例中学习]]"
-  - "[[tool-Truman-人在环渐进自动化策略]]"
-  - "[[tool-Truman-双三角模型应用]]"
-  - "[[truman-perspective-skill]]"
-  - "[[tool-Truman-AI能力分层学习路径]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[tool-Truman-信息输入持续补全（防AI错误累积）]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[case-modeling-abstraction-reliability-ladder]]"
-  - "[[case-modeling-abstraction-yitang-models]]"
-  - "[[case-modeling-essence-schools]]"
-  - "[[case-modeling-process-livestream-roles]]"
-  - "[[case-modeling-process-sop-evolution]]"
-  - "[[case-modeling-process-sop-examples]]"
+- '[[tool-Truman-提示词优化底层方法]]'
+- '[[tool-Truman-Skill全生命周期管理]]'
+- '[[yt-model-truman-career-routes]]'
+- '[[tool-从案例中学习]]'
+- '[[tool-Truman-人在环渐进自动化策略]]'
+- '[[tool-Truman-双三角模型应用]]'
+- '[[truman-perspective-skill]]'
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[case-modeling-abstraction-reliability-ladder]]'
+- '[[case-modeling-abstraction-yitang-models]]'
+- '[[case-modeling-essence-schools]]'
+- '[[case-modeling-process-livestream-roles]]'
+- '[[case-modeling-process-sop-evolution]]'
+- '[[case-modeling-process-sop-examples]]'
 diagnostic_signals:
 - framework_lens: 流程建模 + 个人状态 SOP
   follow_up_question: 过去 10 次类似场景中，状态波动的共同前置条件是什么？（饮食、睡眠、设备、情绪）
@@ -56,7 +58,6 @@ diagnostic_signals:
   follow_up_question: 你是否为每个关键节点配置了独立的"检查者"角色？
 - framework_lens: 及时复盘 + SOP 迭代
   follow_up_question: 每次意外后是否有固定动作把新规则写进 SOP，并在下一次执行前验证？
-
 ---
 
 # 流程建模案例：Truman 直播开播前 2 小时个人准备清单

@@ -23,6 +23,10 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 created_at: '2026-06-30'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 # 外部对抗地图
 

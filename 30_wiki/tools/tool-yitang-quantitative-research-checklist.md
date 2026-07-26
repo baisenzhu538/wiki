@@ -5,7 +5,7 @@ type: tool
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -18,10 +18,14 @@ source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
 related:
-- "[[framework-yitang-shishi-qiushi]]"
-- "[[yt-decision-y-model]]"
-- "[[method-yitang-y-model-engine-cycle]]"
-- "[[tool-yitang-shishi-qiushi-cheat-sheet]]"
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[yt-decision-y-model]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+- '[[tool-yitang-shishi-qiushi-cheat-sheet]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 创业者定量研究清单：六维指标 + 强制五问

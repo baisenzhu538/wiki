@@ -36,7 +36,6 @@ related:
 - '[[tool-agent-spec-yitang-sales-performance-monitor]]'
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[tool-yitang-customer-segmentation-4step]]'
-
 - '[[framework-一堂-十指模型]]'
 - '[[framework-一堂-触点本质论]]'
 created_at: 2026-07-02
@@ -45,6 +44,10 @@ tcp_role: T
 tcp_default_mode: 教学共创（Teach）：把接触逻辑转化为可复用的开场脚本与训练反馈
 tcp_switch_trigger: 用户要求切换到咨询模式（针对具体客户生成开场）、实践模式（直接输出可发送版本）或研究模式（开场话术 A/B 测试分析）
 tcp_session_opening: 我本次以 **T（Teach/教学）** 身份与你协作：先帮你建立开场节奏感，再给出可演练、可校准的脚本。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # OPC 开场 3 分钟助手 Agent Spec
 

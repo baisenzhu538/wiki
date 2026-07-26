@@ -1,5 +1,4 @@
 ---
-
 id: tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan
 title: 技能：追问 AI 证据并标注信源
 type: tool
@@ -16,14 +15,14 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[tool-三阶追问法穷尽决策要素]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]"
-  - "[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]"
-  - "[[tool-半肥猫-边学边练边沉淀的AI学习法]]"
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-三阶追问法穷尽决策要素]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
+- '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
+- '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'
@@ -41,7 +40,10 @@ diagnostic_signals:
   follow_up: 这个信源能否通过搜索引擎、数据库或报告原文独立核实？
 - lens: 风险分级
   follow_up: 这个场景的错误代价是什么？是否已经验证信源并标注不确定性？
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：追问 AI 证据并标注信源

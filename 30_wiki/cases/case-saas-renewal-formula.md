@@ -14,10 +14,10 @@ source_refs:
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 created_at: '2026-06-15'
 updated_at: '2026-07-14'
 author: 老顽童
@@ -26,13 +26,17 @@ review_date: '2026-06-28'
 confidence: 0.85
 trust_level: high
 related:
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-ten-paradigms]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-entrepreneur-unit-model]]"
-- "[[yt-business-formula-qualitative-metrics-library]]"
-- "[[case-hr-saas-feature-usage-trap]]"
-- "[[case-yitang-farm-machinery-matching]]"
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-entrepreneur-unit-model]]'
+- '[[yt-business-formula-qualitative-metrics-library]]'
+- '[[case-hr-saas-feature-usage-trap]]'
+- '[[case-yitang-farm-machinery-matching]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户“用起来"

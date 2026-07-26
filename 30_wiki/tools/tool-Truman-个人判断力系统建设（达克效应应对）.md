@@ -3,26 +3,30 @@ id: tool-Truman-个人判断力系统建设（达克效应应对）
 title: 技能：个人判断力系统建设（达克效应应对）
 type: tool
 domain:
-  - ai-collaboration
-  - yitang- yitang
+- ai-collaboration
+- yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - "[[tool-Truman-XY-Problem识别与真实问题定位]]"
-  - "[[tool-Truman-AI辅助思考伙伴养成]]"
-  - "[[tool-Truman-低质量动作识别与拒绝]]"
-  - "[[tool-Truman-信息输入持续补全（防AI错误累积）]]"
-  - "[[tool-Truman-上下文质量管理（AI协作）]]"
-  - "[[tool-Truman-AI输出审慎判断与交付确认]]"
-  - "[[tool-Truman-判断力产品化与系统赋能]]"
-  - "[[tool-canvas-weapon-library-modeling]]"
+- '[[tool-Truman-XY-Problem识别与真实问题定位]]'
+- '[[tool-Truman-AI辅助思考伙伴养成]]'
+- '[[tool-Truman-低质量动作识别与拒绝]]'
+- '[[tool-Truman-信息输入持续补全（防AI错误累积）]]'
+- '[[tool-Truman-上下文质量管理（AI协作）]]'
+- '[[tool-Truman-AI输出审慎判断与交付确认]]'
+- '[[tool-Truman-判断力产品化与系统赋能]]'
+- '[[tool-canvas-weapon-library-modeling]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：个人判断力系统建设（达克效应应对）
 

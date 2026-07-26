@@ -1,13 +1,17 @@
 ---
 id: dk-modeling-business-visual-logic-match
 related:
-  - "[[dk-yb25-solution-driven-visual-design]]"
-  - "[[dk-yb22-visual-presentation-scene-match]]"
-  - "[[dk-ji-hao-ai-cant-design-structure]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[dk-yb25-solution-driven-visual-design]]'
+- '[[dk-yb22-visual-presentation-scene-match]]'
+- '[[dk-ji-hao-ai-cant-design-structure]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 source_refs:
 - pending_archive: src_unknown
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配

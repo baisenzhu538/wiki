@@ -24,6 +24,10 @@ related:
 - '[[pending_unknown]]'
 - tinyfish-agentic-web-infrastructure
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 反向图片搜索
 

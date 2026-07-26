@@ -25,6 +25,10 @@ related:
 - '[[tool-Truman-判断力产品化与系统赋能]]'
 - yt-five-step-method-complete
 - yt-demand-quantitative-estimation
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 安索夫矩阵：产品-市场增长战略
 

@@ -11,14 +11,14 @@ version: 1
 difficulty: beginner
 confidence: 0.75
 related:
-- "[[yt-note-five-levels-training]]"
-- "[[yt-note-ai-human-division]]"
-- "[[yt-note-live-field-skill]]"
-- "[[yt-model-ipo-learning-strategy]]"
-- "[[yt-concept-ai-guard-brain]]"
-- "[[yt-composite-pan-product-methodology]]"
-- "[[yt-skill-checklist-as-ai-protocol]]"
-- "[[yt-note-fact-pattern-insight]]"
+- '[[yt-note-five-levels-training]]'
+- '[[yt-note-ai-human-division]]'
+- '[[yt-note-live-field-skill]]'
+- '[[yt-model-ipo-learning-strategy]]'
+- '[[yt-concept-ai-guard-brain]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[yt-note-fact-pattern-insight]]'
 prerequisites:
 - src_unknown
 source_refs:
@@ -51,6 +51,10 @@ updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 一堂笔记法：清单体笔记的核心概念与原理

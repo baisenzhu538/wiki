@@ -20,6 +20,10 @@ related:
 - '[[case-strategy-m-brand-profit-model]]'
 - '[[framework-strategy-business-design]]'
 - '[[framework-strategy-brm]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：撤退型布局2——去除（IBM郭士纳复兴）
 

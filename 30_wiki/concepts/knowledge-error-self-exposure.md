@@ -6,8 +6,8 @@ status: draft
 domain:
 - src_unknown
 related:
-  - "[[kdo-flywheel]]"
-  - "[[master-ai-info-literacy]]"
+- '[[kdo-flywheel]]'
+- '[[master-ai-info-literacy]]'
 query_triggers:
 - src_unknown
 - src_unknown
@@ -36,6 +36,10 @@ diagnostic_signals:
   follow_up: 矛盾检测器作为质量门的一层，每次写入后强制触发，不等人喊
 - lens: 全量重跑陷阱
   follow_up: 增量矛盾检测：只跑语义匹配不跑全文理解，输出标记不修改，保持检测半径全域覆盖
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向

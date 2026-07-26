@@ -1,6 +1,4 @@
 ---
-
-
 domain:
 - learning-methodology
 id: yt-note-ai-p-role-not-c-role
@@ -18,10 +16,14 @@ source_refs:
 created_at: '2026-06-15'
 updated_at: '2026-06-20'
 related:
-- "[[yt-note-l4-internalization]]"
-- "[[dk-note-rookie-disaster-veteran-heaven]]"
-- "[[yt-note-five-levels-training]]"
-- "[[truman-ai-partner-design-analysis]]"
+- '[[yt-note-l4-internalization]]'
+- '[[dk-note-rookie-disaster-veteran-heaven]]'
+- '[[yt-note-five-levels-training]]'
+- '[[truman-ai-partner-design-analysis]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 - "[[yt-note-three-level-evolution]]"
 

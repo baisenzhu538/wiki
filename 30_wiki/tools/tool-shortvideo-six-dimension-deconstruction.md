@@ -1,45 +1,48 @@
 ---
-id: "tool-shortvideo-six-dimension-deconstruction"
-title: "短视频 6 维度拆解工具"
-type: "tool"
+id: tool-shortvideo-six-dimension-deconstruction
+title: 短视频 6 维度拆解工具
+type: tool
 domain:
-  - "content-production"
-status: "reviewed"
+- content-production
+status: reviewed
 confidence: 0.85
-difficulty: "intermediate"
-language: "zh-CN"
-created_at: "2026-06-30"
-updated_at: "2026-06-30T15:23:37+00:00"
-author: "老顽童"
-reviewed_by: "欧阳锋"
-review_date: "2026-06-30"
+difficulty: intermediate
+language: zh-CN
+created_at: '2026-06-30'
+updated_at: '2026-06-30T15:23:37+00:00'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-30'
 source_refs:
-  - "00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md"
+- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 query_triggers:
-  - 怎么拆解爆款短视频
-  - 短视频 6 维度拆解
-  - 爆款视频拆解方法
-  - 短视频脚本分析工具
+- 怎么拆解爆款短视频
+- 短视频 6 维度拆解
+- 爆款视频拆解方法
+- 短视频脚本分析工具
 aliases:
-  - shortvideo-six-dimension-deconstruction
-  - 短视频六维度拆解
-  - 短视频拆解工具
+- shortvideo-six-dimension-deconstruction
+- 短视频六维度拆解
+- 短视频拆解工具
 tags:
-  - "#scene/business-analysis"
-  - "content-production"
-  - "shortvideo"
+- '#scene/business-analysis'
+- content-production
+- shortvideo
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 quality_labels:
-  - actionable
-  - validated
+- actionable
+- validated
 related:
-  - "[[framework-content-business-six-step]]"
-  - "[[framework-founder-ip-three-positioning]]"
-  - "[[framework-brand-three-degree]]"
-  - "[[case-daxin-team-content-training-camp]]"
-  - "[[case-yitang-yitang-shortvideo-industrialization]]"
-  - "[[dk-content-muscle-memory-vs-knowledge]]"
+- '[[framework-content-business-six-step]]'
+- '[[framework-founder-ip-three-positioning]]'
+- '[[framework-brand-three-degree]]'
+- '[[case-daxin-team-content-training-camp]]'
+- '[[case-yitang-yitang-shortvideo-industrialization]]'
+- '[[dk-content-muscle-memory-vs-knowledge]]'
 pipeline:
-  - "confidence-draft"
+- confidence-draft
 ---
 
 # 短视频 6 维度拆解工具

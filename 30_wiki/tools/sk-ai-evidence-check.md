@@ -1,5 +1,4 @@
 ---
-
 id: sk-ai-evidence-check
 title: 技能：AI输出证据核查三问法
 type: tool
@@ -14,26 +13,20 @@ source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
-wiki_refs:
-
+wiki_refs: null
 related:
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  
-  
-  
+- '[[ai-collaboration-domain-digest]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
 tags:
-
-
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
-tools_required:
+tools_required: null
 prerequisite_skills: null
-definition_of_done:
-
-
+definition_of_done: null
 trust_level: medium
-
 ---
 
 # 技能：AI输出证据核查三问法

@@ -5,30 +5,30 @@ confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - concepts
-  - unit-model
+- concepts
+- unit-model
 estimated_tokens: 2800
 language: zh-CN
 prerequisites: '[[yt-unit-model-concept]]'
 query_triggers:
-  - 单元模型怎么搭建
-  - 单元模型五步法
-  - 如何搭建单元模型
-  - 单元模型搭建步骤
-  - 最小可复制单元
-  - 单元模型收入成本
-  - 单元模型验证
-  - 单元模型预判
-  - 创业如何算账
-  - 商业模式验证
+- 单元模型怎么搭建
+- 单元模型五步法
+- 如何搭建单元模型
+- 单元模型搭建步骤
+- 最小可复制单元
+- 单元模型收入成本
+- 单元模型验证
+- 单元模型预判
+- 创业如何算账
+- 商业模式验证
 related:
-- "[[yt-unit-model-concept]]"
-- "[[yt-unit-model-ladder]]"
-- "[[yt-unit-model-selection]]"
-- "[[yt-market-size-estimation]]"
-- "[[case-unit-model-gashapon]]"
-- "[[yt-growth-cycle-model]]"
-- "[[yt-business-formula-parameter-iceberg]]"
+- '[[yt-unit-model-concept]]'
+- '[[yt-unit-model-ladder]]'
+- '[[yt-unit-model-selection]]'
+- '[[yt-market-size-estimation]]'
+- '[[case-unit-model-gashapon]]'
+- '[[yt-growth-cycle-model]]'
+- '[[yt-business-formula-parameter-iceberg]]'
 review_date: 2026-06-16
 reviewed_by: 王语嫣
 source_refs:
@@ -47,9 +47,9 @@ yitang:
   course_type: skill
   level: core
 pipeline:
-  - 00_inbox
-  - 10_raw
-  - 30_wiki
+- 00_inbox
+- 10_raw
+- 30_wiki
 diagnostic_signals:
 - framework_lens: 参数可信度不足——模型结构越精确，参数误差扭曲越严重
   follow_up_question: 哪些参数来自真实数据、哪些是估算？估算参数偏差±30%结论还站得住吗？
@@ -58,6 +58,10 @@ diagnostic_signals:
 - framework_lens: 静态模型陷阱——把当前参数直接外推，忽略规模变量和环境变量
   follow_up_question: 扩大10倍后，租金、人工、采购、管理成本分别怎么变？有没有哪个成本项会非线性上升？
 author: 老顽童
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 单元模型搭建五步法

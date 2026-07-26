@@ -9,36 +9,39 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - ai-saas
-  - business-strategy
+- yitang
+- ai-saas
+- business-strategy
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），剧本杀 SaaS To B 初创销售体系搭建案例
 source_refs:
-  - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
-  - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
-  - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
-  - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
-  - 00_inbox/销售专题/_processed/销售体系之序-案例-剧本杀-销售阶段拆解_vlm.md
-  - 00_inbox/销售专题/_processed/销售体系之序-案例-剧本杀-产品卖给谁_vlm.md
+- 00_inbox/销售专题/_processed/销售专题_整合笔记.md
+- 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
+- 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
+- 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
+- 00_inbox/销售专题/_processed/销售体系之序-案例-剧本杀-销售阶段拆解_vlm.md
+- 00_inbox/销售专题/_processed/销售体系之序-案例-剧本杀-产品卖给谁_vlm.md
 related:
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-sales-process-decomposition]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[framework-lean-pivot-decision]]"
-  - "[[opc-ai-sales-agent-architecture]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[dk-yitang-sales-common-pitfalls]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[case-yitang-sales-transformation-tuliaogongsi]]"
-
-  - "[[case-一堂-阻力篇案例库]]"
-  - "[[case-一堂-触点篇案例库]]"
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[framework-lean-pivot-decision]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[case-yitang-sales-transformation-tuliaogongsi]]'
+- '[[case-一堂-阻力篇案例库]]'
+- '[[case-一堂-触点篇案例库]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：剧本杀 SaaS 销售体系从零搭建——兼职团队跑通科学销售五步法
 

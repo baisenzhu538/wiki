@@ -71,6 +71,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - checklist
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 参数挖掘武器库：6 策略 → 22 动作 → 100+ 参数全量清单

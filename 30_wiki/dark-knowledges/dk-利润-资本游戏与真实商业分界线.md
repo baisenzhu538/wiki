@@ -1,27 +1,31 @@
 ---
 id: dk-利润-资本游戏与真实商业分界线
-title: "资本游戏 vs 真实商业：为什么你不能学亚马逊不赚钱"
+title: 资本游戏 vs 真实商业：为什么你不能学亚马逊不赚钱
 type: dk
 status: draft
 confidence: 0.87
 trust_level: high
 domain:
-  - profit-pricing
+- profit-pricing
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - principle
+- insight
+- principle
 source_refs:
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1198-L1266"
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1390-L1400"
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1198-L1266
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1390-L1400
 related:
-  - framework-利润-利润优先经营框架
-  - concept-利润-真正利润定义
-  - concept-利润-风险报偿本质
+- framework-利润-利润优先经营框架
+- concept-利润-真正利润定义
+- concept-利润-风险报偿本质
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 资本游戏 vs 真实商业：为什么你不能学亚马逊不赚钱

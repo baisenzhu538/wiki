@@ -53,6 +53,10 @@ related:
 - '[[tool-动力阻力分析]]'
 - '[[yt-management-goal-management]]'
 - '[[framework-business-formula-dual-triangle-bridge]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 一堂复盘营五年：8 个参数到 200+ 参数、1000+ 假设，把低转高做成不靠红利的长期生意
 

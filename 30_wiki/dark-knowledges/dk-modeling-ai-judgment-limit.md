@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-ai-judgment-limit
 title: AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响
 type: dk
@@ -15,8 +14,8 @@ source_person: Truman
 source_context: 一堂高阶建模能力培训（AI 与本质建模）。单一完整长文档支撑，但尚未找到第二独立来源，因此 trust_level 维持 medium；待后续案例或实践验证后可升
   high。
 quality_labels:
-  - quality
-  - validated
+- quality
+- validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -25,19 +24,13 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.89
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
-  
-  
-  
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
 tags:
-
-
-diagnostic_signals:
-
-
-
-
+- audience:executor
+- scene:reference
+- skill-level:intermediate
+diagnostic_signals: null
 ---
 
 ## 原始表述 / 核心洞察

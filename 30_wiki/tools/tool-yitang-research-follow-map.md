@@ -28,24 +28,28 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- "[[tool-yitang-18-strategy-tool-mapping]]"
-- "[[yitang-research-domain-digest]]"
-- "[[tool-yitang-research-two-dimensional-positioning]]"
-- "[[tool-yitang-research-cross-validation]]"
-- "[[tool-yitang-research-single-point-sniper]]"
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-competitive-quadrant]]"
-- "[[tool-yitang-research-two-dimensional-positioning]]"
-- "[[tool-yitang-research-best-practice]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-survivor-bias-in-research]]"
-- "[[concept-yitang-research-mindset]]"
-- "[[tool-doris-industry-report-search-tips]]"
-- "[[tool-yitang-product-full-experience]]"
-- "[[tool-yitang-research-deep-attribution]]"
-- "[[tool-yitang-research-quantitative-modeling]]"
+- '[[tool-yitang-18-strategy-tool-mapping]]'
+- '[[yitang-research-domain-digest]]'
+- '[[tool-yitang-research-two-dimensional-positioning]]'
+- '[[tool-yitang-research-cross-validation]]'
+- '[[tool-yitang-research-single-point-sniper]]'
+- '[[framework-yitang-oscar-research]]'
+- '[[framework-yitang-18-strategy-cards]]'
+- '[[tool-yitang-research-competitive-quadrant]]'
+- '[[tool-yitang-research-two-dimensional-positioning]]'
+- '[[tool-yitang-research-best-practice]]'
+- '[[case-yitang-sanjieke-benchmark-failure]]'
+- '[[dk-yitang-research-starter-vs-veteran]]'
+- '[[dk-yitang-survivor-bias-in-research]]'
+- '[[concept-yitang-research-mindset]]'
+- '[[tool-doris-industry-report-search-tips]]'
+- '[[tool-yitang-product-full-experience]]'
+- '[[tool-yitang-research-deep-attribution]]'
+- '[[tool-yitang-research-quantitative-modeling]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 按图索骥：根据定位寻找对标案例

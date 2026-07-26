@@ -17,12 +17,16 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yitang-y-model-dual-triangle-synergy]]"
-- "[[yt-decision-y-model]]"
-- "[[method-yitang-y-model-engine-cycle]]"
-- "[[dk-ai-collaboration-degradation-spiral]]"
-- "[[framework-yihang-ai-implementation-consultant]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yitang-y-model-dual-triangle-synergy]]'
+- '[[yt-decision-y-model]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+- '[[dk-ai-collaboration-degradation-spiral]]'
+- '[[framework-yihang-ai-implementation-consultant]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # AI 原生是结果，双三角是引擎

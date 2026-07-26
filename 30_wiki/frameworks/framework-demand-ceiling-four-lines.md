@@ -35,6 +35,10 @@ diagnostic_signals:
 quality_labels:
 - principle
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 需求天花板四层线：TAM/SAM/SOM/CR1/BEL

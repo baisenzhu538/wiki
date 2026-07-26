@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-心理激励优先机制
 title: 一堂心理激励优先机制：先名/权/情，后利
 type: tool
@@ -39,11 +38,14 @@ related:
 - '[[case-一堂-动力篇案例库]]'
 - '[[case-一堂-触点篇案例库]]'
 - '[[case-一堂-跆拳道黑带卡]]'
-
 - '[[tool-agent-spec-yitang-self-motivation]]'
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:manager
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂心理激励优先机制：先名/权/情，后利

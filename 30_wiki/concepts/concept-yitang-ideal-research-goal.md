@@ -24,6 +24,10 @@ related:
 - tool-yitang-amazon-bestseller
 - tool-yitang-ai-monitoring-alert
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # 理想调研目标三原则
 

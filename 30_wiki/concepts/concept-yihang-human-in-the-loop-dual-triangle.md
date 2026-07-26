@@ -12,29 +12,33 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-04
 domain:
-  - yitang
-  - ai-collaboration
+- yitang
+- ai-collaboration
 source_refs:
-  - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
-  - 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
-  - https://arxiv.org/abs/2506.12469
-  - https://arxiv.org/abs/2606.09848
-  - https://repost.aws/articles/ARoAKFARXvRBOam8zeOs1ZbA/re-invent-2025-implementing-human-in-the-loop-controls-for-multi-agent-ai-systems
+- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+- 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
+- https://arxiv.org/abs/2506.12469
+- https://arxiv.org/abs/2606.09848
+- https://repost.aws/articles/ARoAKFARXvRBOam8zeOs1ZbA/re-invent-2025-implementing-human-in-the-loop-controls-for-multi-agent-ai-systems
 related:
-  - '[[concept-yihang-dual-triangle-core]]'
-  - '[[framework-yitang-y-model-dual-triangle-synergy]]'
-  - '[[yt-decision-y-model]]'
-  - '[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]'
-  - '[[method-dual-triangle-flywheel-engine]]'
-  - '[[tool-yihang-dual-triangle-canvas]]'
-  - '[[concept-yitang-ai-research-human-loop]]'
-  - '[[system-yitang-Y-model-os]]'
-  - '[[framework-ai-native-organization-two-modes]]'
-  - '[[tool-open-closed-problem-classifier]]'
-  - '[[agent-spec-codex-teammate]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yitang-y-model-dual-triangle-synergy]]'
+- '[[yt-decision-y-model]]'
+- '[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
+- '[[concept-yitang-ai-research-human-loop]]'
+- '[[system-yitang-Y-model-os]]'
+- '[[framework-ai-native-organization-two-modes]]'
+- '[[tool-open-closed-problem-classifier]]'
+- '[[agent-spec-codex-teammate]]'
 aliases:
-  - 人在环双三角关系
-  - HITL双三角
+- 人在环双三角关系
+- HITL双三角
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 人在环 × 双三角：从治理原则到能力地图

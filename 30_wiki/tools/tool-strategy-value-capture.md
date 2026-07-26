@@ -41,6 +41,10 @@ related:
 - '[[tool-strategy-value-proposition]]'
 - yt-five-step-method
 - yt-business-model-definition
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 价值获取设计工具：8 问盈利模型
 

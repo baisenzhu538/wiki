@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-product-kernel-definition
@@ -14,22 +13,22 @@ source_refs:
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
 - 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[tool-月白-智能扩图-拓图双方案]]"
-  - "[[HIS系统开发实现方案-架构师指南]]"
-  - "[[tool-项目方案评估三角形]]"
-  - "[[tool-李诞-销售闭环验证：从0到1的重新定义]]"
-  - "[[tool-李诞-个人IP的重新定义与输出策略]]"
-  - "[[tool-Truman-多Agent通信协作方案]]"
-  - "[[tool-Truman-开源模型与商业模型融合方案]]"
+- '[[tool-月白-智能扩图-拓图双方案]]'
+- '[[HIS系统开发实现方案-架构师指南]]'
+- '[[tool-项目方案评估三角形]]'
+- '[[tool-李诞-销售闭环验证：从0到1的重新定义]]'
+- '[[tool-李诞-个人IP的重新定义与输出策略]]'
+- '[[tool-Truman-多Agent通信协作方案]]'
+- '[[tool-Truman-开源模型与商业模型融合方案]]'
 diagnostic_signals:
 - framework_lens: 产品内核定义——内核是价值，不是功能列表
   follow_up_question: 去掉一半功能，用户还会选择你吗？如果会，剩下的是内核；如果不会，你还没找到内核。
@@ -41,7 +40,10 @@ diagnostic_signals:
   follow_up_question: 你能用一句话（不超过20字）说清楚用户为什么选择你们吗？
 - framework_lens: 产品内核定义——内核必须是团队共识
   follow_up_question: 你们团队对'用户选择我们的核心原因'有共识吗？写下来，看是否一致？
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 产品内核定义：用户愿意选择你的最小解决方案

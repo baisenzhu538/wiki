@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-七大转化场景自检
 title: 一堂七大转化场景自检：流量 / 一对多 / 一对一 / 门店 / LTV / 运营节点 / 组织提升
 type: tool
@@ -42,6 +41,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:manager
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂七大转化场景自检：流量 / 一对多 / 一对一 / 门店 / LTV / 运营节点 / 组织提升

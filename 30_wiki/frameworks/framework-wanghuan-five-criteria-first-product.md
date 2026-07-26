@@ -1,5 +1,4 @@
 ---
-
 id: framework-wanghuan-five-criteria-first-product
 title: 王欢：选第一个产品场景的五条标准
 type: framework
@@ -30,18 +29,20 @@ diagnostic_signals:
 - lens: 下周测试失败
   follow_up: 设定一周后的使用复盘，若无人使用则回任务层重验
 related:
-  - "[[case-wanghuan-yiyu-qingji-medical-notes]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[case-wanghuan-yiyu-qingji-medical-notes]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 王欢：选第一个产品场景的五条标准

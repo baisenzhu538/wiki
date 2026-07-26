@@ -47,6 +47,10 @@ diagnostic_signals:
 quality_labels:
 - principle
 - insight
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 参数耦合与动态公式：A 涨 30% 不等于目标涨 30%，公式是个活物

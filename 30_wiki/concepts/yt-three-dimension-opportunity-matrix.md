@@ -15,7 +15,10 @@ language: zh-CN
 review_date: 2026-06-10
 reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
-tags: null
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 trust_level: medium
 version: 1
 yitang:
@@ -36,11 +39,11 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 related:
-- "[[yt-foresight-business-spectrum]]"
-- "[[yt-ai-trend-12-signals]]"
-- "[[yt-entrepreneur-five-step-method]]"
-- "[[framework-一堂-机会预判]]"
-- "[[tool-一堂-机会预判-五步法预判]]"
+- '[[yt-foresight-business-spectrum]]'
+- '[[yt-ai-trend-12-signals]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[framework-一堂-机会预判]]'
+- '[[tool-一堂-机会预判-五步法预判]]'
 ---
 
 # 三维排列组合找机会

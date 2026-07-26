@@ -41,6 +41,10 @@ related:
 - '[[tool-yitang-tech-project-research]]'
 - framework-yitang-six-layer-cross-validation
 - concept-yitang-research-objective
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # To B/To G调研手段：浅中深三层10大评估法

@@ -10,39 +10,43 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
-  - methodology
-  - ai-collaboration
+- yitang
+- decision-science
+- methodology
+- ai-collaboration
 source_refs:
-  - 30_wiki/concepts/yt-decision-y-model.md
-  - 30_wiki/methods/method-yitang-y-model-engine-cycle.md
-  - 60_feedback/diagnosis/diag_20260708_yitang-y-model-cross-domain-fusion-deep-dive-v2.md
-  - 60_feedback/diagnosis/diag_20260708_yitang-demand-analysis-deep-dive-v2.md
-  - 60_feedback/diagnosis/diag_20260708_yitang-pan-product-design-deep-dive-v2.md
-  - 60_feedback/diagnosis/diag_20260708_yitang-time-management-deep-dive-v2.md
-  - 60_feedback/diagnosis/diag_20260708_yitang-five-step-method-deep-dive-v2.md
-  - 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
+- 30_wiki/concepts/yt-decision-y-model.md
+- 30_wiki/methods/method-yitang-y-model-engine-cycle.md
+- 60_feedback/diagnosis/diag_20260708_yitang-y-model-cross-domain-fusion-deep-dive-v2.md
+- 60_feedback/diagnosis/diag_20260708_yitang-demand-analysis-deep-dive-v2.md
+- 60_feedback/diagnosis/diag_20260708_yitang-pan-product-design-deep-dive-v2.md
+- 60_feedback/diagnosis/diag_20260708_yitang-time-management-deep-dive-v2.md
+- 60_feedback/diagnosis/diag_20260708_yitang-five-step-method-deep-dive-v2.md
+- 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
 related:
-  - "[[yt-decision-y-model]]"
-  - "[[system-yitang-Y-model-os]]"
-  - "[[method-yitang-y-model-engine-cycle]]"
-  - "[[framework-yitang-y-model-dual-triangle-synergy]]"
-  - "[[framework-yitang-shishi-qiushi]]"
-  - "[[framework-yitang-jiefang-sixiang]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[framework-yitang-five-step-to-time-management]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
-  - "[[tool-yitang-Y-model-application]]"
-  - "[[dk-yitang-Y-model-pitfalls]]"
-  - "[[agent-spec-yitang-Y-model-cross-domain-coach]]"
-  - "[[principle-yitang-y-model-dual-posture]]"
-  - "[[tool-agent-spec-yitang-Y-model-coach]]"
-  - "[[framework-一堂-业务公式拆解-总纲]]"
-  - "[[framework-business-formula-y-model-bridge]]"
+- '[[yt-decision-y-model]]'
+- '[[system-yitang-Y-model-os]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+- '[[framework-yitang-y-model-dual-triangle-synergy]]'
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[framework-yitang-jiefang-sixiang]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[framework-yitang-five-step-to-time-management]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[tool-yitang-Y-model-application]]'
+- '[[dk-yitang-Y-model-pitfalls]]'
+- '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
+- '[[principle-yitang-y-model-dual-posture]]'
+- '[[tool-agent-spec-yitang-Y-model-coach]]'
+- '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[framework-business-formula-y-model-bridge]]'
 created_at: 2026-07-08
-updated_at: 2026-07-08T17:28:16Z
+updated_at: 2026-07-08 17:28:16+00:00
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # Y模型跨域融合框架

@@ -1,5 +1,4 @@
 ---
-
 id: dk-strategy-08-not-local-optimum
 title: 战略≠局部优化。战略是构建完整生态系统，不是单点提效
 type: dk
@@ -13,15 +12,19 @@ domain:
 source_refs:
 - src_unknown
 related:
-  - "[[dk-strategy-essence-four-elements]]"
-  - "[[dk-strategy-05-positioning-trap]]"
-  - "[[dk-strategy-three-must-do-moments]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[strategy-domain-digest]]"
+- '[[dk-strategy-essence-four-elements]]'
+- '[[dk-strategy-05-positioning-trap]]'
+- '[[dk-strategy-three-must-do-moments]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[strategy-domain-digest]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 战略≠局部优化。战略是构建完整生态系统，不是单点提效

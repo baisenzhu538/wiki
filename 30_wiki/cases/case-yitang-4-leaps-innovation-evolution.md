@@ -1,46 +1,47 @@
 ---
 id: case-yitang-4-leaps-innovation-evolution
-title: "一堂4次创新跃迁：从10%成功率到体系化"
+title: 一堂4次创新跃迁：从10%成功率到体系化
 type: case
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - innovation
+- innovation
 author: 老顽童
-review_date: "2026-07-26"
-reviewed_by: 待审
-  - framework-kdo-modeling-methodology
-  - framework-yitang-shishi-qiushi
-created_at: "2026-07-26"
-updated_at: "2026-07-26"
+review_date: '2026-07-26'
+reviewed_by: 待审 - framework-kdo-modeling-methodology - framework-yitang-shishi-qiushi
+created_at: '2026-07-26'
+updated_at: '2026-07-26'
 quality_labels:
-  - cited
-一句话标签: "一堂创新史：热情→务实→科学→修炼"
+- cited
+一句话标签: 一堂创新史：热情→务实→科学→修炼
 discoverable_by:
-  - 创新体系如何建成
-  - 组织创新力进化
-  - 方法论从何而来
+- 创新体系如何建成
+- 组织创新力进化
+- 方法论从何而来
 similar_to:
-  - 贝壳找房从链家到平台的模型升级
+- 贝壳找房从链家到平台的模型升级
 opposite_of:
-  - 瑞幸咖啡（资本驱动快速复制，非方法论驱动）
+- 瑞幸咖啡（资本驱动快速复制，非方法论驱动）
 source_refs:
-  - "00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt"
-  - "00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §三"
+- 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt
+- 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §三
 related:
-  - framework-yitang-thought-liberation-lightning
-  - bridge-yitang-seek-truth-liberate-thought
-  - concept-yitang-layered-self-consistency
-  - dk-yitang-innovation-failure-modes
+- framework-yitang-thought-liberation-lightning
+- bridge-yitang-seek-truth-liberate-thought
+- concept-yitang-layered-self-consistency
+- dk-yitang-innovation-failure-modes
 diagnostic_signals:
-  - signal: "创新方案执行后效果不如预期"
-    lens: 检查是否跳过了闪电模型的某个步骤
-    follow_up: 按四步闭环逐步排查
-  - signal: "团队对创新方法论的理解不一致"
-    lens: 培训不够或框架表达不清晰
-    follow_up: 用十层解读法重新学习框架
-
+- signal: 创新方案执行后效果不如预期
+  lens: 检查是否跳过了闪电模型的某个步骤
+  follow_up: 按四步闭环逐步排查
+- signal: 团队对创新方法论的理解不一致
+  lens: 培训不够或框架表达不清晰
+  follow_up: 用十层解读法重新学习框架
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 > 定位：[[framework-yitang-thought-liberation-lightning]] 的完整案例演示。

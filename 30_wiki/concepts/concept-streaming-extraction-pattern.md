@@ -1,5 +1,4 @@
 ---
-
 id: concept-streaming-extraction-pattern
 title: 流式提取模式——浏览器虚拟滚动到API分页的映射
 type: concept
@@ -20,16 +19,20 @@ source_refs:
 - pending_archive:src_unknown："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"
 - src_unknown
 related:
-  - "[[tool-yitang-web-scraping-research]]"
-  - "[[tool-月白-A-B双轨反推模式选择]]"
-  - "[[tool-城市合伙人模式复制能力]]"
-  - "[[concept-feishu-api-pagination-trap]]"
-  - "[[dk-yitang-model-asset-capitalization]]"
-  - "[[tool-月白-创作与执行双模式切换]]"
-  - "[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]"
-  - "[[tool-马易-平台模式验证法]]"
-  - "[[互联网医院模式深度调研报告]]"
-  - "[[tool-现场建模式萃取笔记]]"
+- '[[tool-yitang-web-scraping-research]]'
+- '[[tool-月白-A-B双轨反推模式选择]]'
+- '[[tool-城市合伙人模式复制能力]]'
+- '[[concept-feishu-api-pagination-trap]]'
+- '[[dk-yitang-model-asset-capitalization]]'
+- '[[tool-月白-创作与执行双模式切换]]'
+- '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
+- '[[tool-马易-平台模式验证法]]'
+- '[[互联网医院模式深度调研报告]]'
+- '[[tool-现场建模式萃取笔记]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 流式提取模式

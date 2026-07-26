@@ -1,7 +1,7 @@
 ---
 domain:
-  - yitang
-  - research
+- yitang
+- research
 id: yt-research-osl-framework
 title: OSCAR 商业调研框架
 type: framework
@@ -9,7 +9,7 @@ status: reviewed
 source_context: 一堂商业调研课程——OSCAR 框架总览
 source_person: 一堂
 source_refs:
-  - pending_archive:src_20260620_business-research-skill-v2.1.0
+- pending_archive:src_20260620_business-research-skill-v2.1.0
 created_at: '2026-06-20'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -18,16 +18,18 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-  - "[[yt-research-intelligence-map]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[yt-research-expert-interview]]"
-  - "[[yt-research-user-jtbd]]"
-  - "[[yt-research-industry-canvas]]"
-  - "[[yt-research-hypothesis-test]]"
-  - "[[yt-research-mindset]]"
-  - "[[yt-five-step-method]]"
-
-
+- '[[yt-research-intelligence-map]]'
+- '[[yt-research-competitor-toolkit]]'
+- '[[yt-research-expert-interview]]'
+- '[[yt-research-user-jtbd]]'
+- '[[yt-research-industry-canvas]]'
+- '[[yt-research-hypothesis-test]]'
+- '[[yt-research-mindset]]'
+- '[[yt-five-step-method]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 

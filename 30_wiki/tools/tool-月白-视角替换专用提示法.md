@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-多窗口并行工作法]]"
-- "[[tool-月白-PPT风格锁定工作流]]"
-- "[[tool-月白-PPT内容框架AIGC生成法]]"
-- "[[tool-月白-眼高手低训练法]]"
-- "[[tool-月白-AIGC橱窗陈列设计流程]]"
+- '[[tool-月白-多窗口并行工作法]]'
+- '[[tool-月白-PPT风格锁定工作流]]'
+- '[[tool-月白-PPT内容框架AIGC生成法]]'
+- '[[tool-月白-眼高手低训练法]]'
+- '[[tool-月白-AIGC橱窗陈列设计流程]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：视角替换专用提示法
 

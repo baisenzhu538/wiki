@@ -17,10 +17,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- "[[yt-demand-jtbd-application]]"
-- "[[yt-demand-hierarchy-model]]"
-- "[[yt-demand-fake-demand-detection]]"
-- "[[yt-five-step-method]]"
+- '[[yt-demand-jtbd-application]]'
+- '[[yt-demand-hierarchy-model]]'
+- '[[yt-demand-fake-demand-detection]]'
+- '[[yt-five-step-method]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 需求替代陷阱——竞争是所有完成同一任务的方案
@@ -37,6 +37,10 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 需求替代陷阱——'不解决'是最强的竞争对手
   follow_up_question: 用户现在不解决这个问题，后果是什么？如果后果不严重，需求可能不够痛。
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 

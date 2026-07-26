@@ -17,10 +17,14 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-yihang-aesthetic-fast-build]]"
-- "[[method-yitang-y-model-engine-cycle]]"
-- "[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-yihang-aesthetic-fast-build]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+- '[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]'
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 知识站场：从"试工具→失败→清零"到"建站场→持续积累→花开了"

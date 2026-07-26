@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-  - "[[yt-demand-treadmill-case]]"
-  - "[[yt-demand-b2b-vs-b2c]]"
-  - "[[yt-demand-hierarchy-model]]"
+- '[[yt-demand-treadmill-case]]'
+- '[[yt-demand-b2b-vs-b2c]]'
+- '[[yt-demand-hierarchy-model]]'
 diagnostic_signals:
 - framework_lens: AI知识库案例——技术驱动≠需求驱动
   follow_up_question: 用户现在怎么管理知识？AI知识库比现有方案好在哪里？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 用户在什么场景下需要查询知识库？这个场景多久发生一次？
 - framework_lens: AI知识库案例——技术能力≠用户价值
   follow_up_question: 用户对答案准确率的要求是多少？80%和95%的差异对用户的价值差异有多大？
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # AI企业知识库案例：从"技术炫技"到"需求验证"

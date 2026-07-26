@@ -1,48 +1,49 @@
 ---
 id: framework-yitang-thought-liberation-lightning
-title: "闪电模型：解放思想创新四阶体系"
+title: 闪电模型：解放思想创新四阶体系
 type: framework
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - innovation
+- innovation
 author: 老顽童
-review_date: "2026-07-26"
-reviewed_by: 待审
-  - framework-kdo-modeling-methodology
-  - framework-yitang-shishi-qiushi
-created_at: "2026-07-26"
-updated_at: "2026-07-26"
+review_date: '2026-07-26'
+reviewed_by: 待审 - framework-kdo-modeling-methodology - framework-yitang-shishi-qiushi
+created_at: '2026-07-26'
+updated_at: '2026-07-26'
 quality_labels:
-  - principle
-  - actionable
+- principle
+- actionable
 aliases:
-  - 闪电曲线
-  - 四阶创新法
-  - 大胆设想四步法
+- 闪电曲线
+- 四阶创新法
+- 大胆设想四步法
 discoverable_by:
-  - 如何系统创新
-  - 怎么做跟同行不一样的事
-  - 创新成功率低
+- 如何系统创新
+- 怎么做跟同行不一样的事
+- 创新成功率低
 source_refs:
-  - "00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt"
-  - "00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L496-568"
+- 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt
+- 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L496-568
 related:
-  - concept-yitang-layered-self-consistency
-  - bridge-yitang-seek-truth-liberate-thought
-  - framework-yitang-shishi-qiushi
-  - framework-ouyangfeng-review-methodology
-  - yt-decision-y-model
-  - dk-yitang-innovation-failure-modes
+- concept-yitang-layered-self-consistency
+- bridge-yitang-seek-truth-liberate-thought
+- framework-yitang-shishi-qiushi
+- framework-ouyangfeng-review-methodology
+- yt-decision-y-model
+- dk-yitang-innovation-failure-modes
 diagnostic_signals:
-  - signal: "创新方案执行后效果不如预期"
-    lens: 检查是否跳过了闪电模型的某个步骤
-    follow_up: 按四步闭环逐步排查
-  - signal: "团队对创新方法论的理解不一致"
-    lens: 培训不够或框架表达不清晰
-    follow_up: 用十层解读法重新学习框架
-
+- signal: 创新方案执行后效果不如预期
+  lens: 检查是否跳过了闪电模型的某个步骤
+  follow_up: 按四步闭环逐步排查
+- signal: 团队对创新方法论的理解不一致
+  lens: 培训不够或框架表达不清晰
+  follow_up: 用十层解读法重新学习框架
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 > 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的顶层框架，统摄解放思想创新体系。

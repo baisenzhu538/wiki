@@ -1,30 +1,34 @@
 ---
 id: concept-利润-真正利润定义
-title: "真正利润：履行义务后可自由支配的钱"
+title: 真正利润：履行义务后可自由支配的钱
 type: concept
 status: draft
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - profit-pricing
+- profit-pricing
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - principle
+- insight
+- principle
 source_refs:
-  - "00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L37-L55"
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L342-L520"
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1342-L1376"
+- 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L37-L55
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L342-L520
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1342-L1376
 related:
-  - framework-利润-利润优先经营框架
-  - concept-定价-价格杠杆
-  - concept-利润-风险报偿本质
-  - dk-利润-利润敏感度非对称性
-  - yt-decision-y-model
+- framework-利润-利润优先经营框架
+- concept-定价-价格杠杆
+- concept-利润-风险报偿本质
+- dk-利润-利润敏感度非对称性
+- yt-decision-y-model
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 真正利润：履行义务后可自由支配的钱

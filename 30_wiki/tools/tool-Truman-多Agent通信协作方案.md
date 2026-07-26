@@ -11,7 +11,7 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
 related:
@@ -25,6 +25,10 @@ related:
 - '[[tool-纪浩-Agent开工检查单制作法]]'
 - tool-纪浩-项目启动五问法
 - tool-ai-ai-workspace-setup
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：多Agent通信协作方案

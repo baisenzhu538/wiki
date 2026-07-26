@@ -1,5 +1,4 @@
 ---
-
 id: case-demand-b2c-consumer-insight
 title: ToC 消费洞察驱动需求案例
 type: case
@@ -8,9 +7,9 @@ domain:
 - yitang
 status: reviewed
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童
@@ -21,15 +20,19 @@ trust_level: medium
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - "[[case-demand-milkshake-jtbd]]"
-  - "[[framework-demand-usp-model]]"
-  - "[[yt-demand-motivation-resistance]]"
-  - "[[yt-demand-peak-end-rule]]"
-  - "[[yt-demand-user-segmentation]]"
-  - "[[case-demand-b2b-enterprise-erp]]"
-  - "[[dk-demand-signal-vs-noise]]"
-  - "[[case-smart-medicine-cabinet-failure-patterns-library]]"
-  - "[[dk-demand-misjudgment-rate]]"
+- '[[case-demand-milkshake-jtbd]]'
+- '[[framework-demand-usp-model]]'
+- '[[yt-demand-motivation-resistance]]'
+- '[[yt-demand-peak-end-rule]]'
+- '[[yt-demand-user-segmentation]]'
+- '[[case-demand-b2b-enterprise-erp]]'
+- '[[dk-demand-signal-vs-noise]]'
+- '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+- '[[dk-demand-misjudgment-rate]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # ToC 消费洞察驱动需求案例

@@ -27,6 +27,10 @@ related:
 - '[[tool-城市合伙人模式复制能力]]'
 - '[[tool-通过请吃饭获取行业内部资料]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：创始人+二当家分工协作模式
 

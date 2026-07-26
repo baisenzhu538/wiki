@@ -1,5 +1,4 @@
 ---
-
 id: framework-lean-four-principles
 title: 精益创业低成本验证四大原则
 type: framework
@@ -10,9 +9,9 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: 2026-06-23
 updated_at: 2026-06-23
 domain:
@@ -24,17 +23,21 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-四大原则-01_vlm_desc.md
 - 00_inbox/精益创业/truman-精益创业-创业全景图-超级小抄_ocr_text.md
 related:
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[framework-lean-false-model]]"
-  - "[[tool-泛产品落地-低成本测试MVP]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[framework-lean-six-wastes]]"
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[framework-lean-systematic-test-curve]]"
-  - "[[framework-lean-tenx-formula]]"
-  - "[[framework-strategy-basics-02-insight]]"
+- '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[framework-lean-false-model]]'
+- '[[tool-泛产品落地-低成本测试MVP]]'
+- '[[concept-一堂-kernel-validation]]'
+- '[[framework-lean-six-wastes]]'
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[framework-lean-systematic-test-curve]]'
+- '[[framework-lean-tenx-formula]]'
+- '[[framework-strategy-basics-02-insight]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 精益创业低成本验证四大原则

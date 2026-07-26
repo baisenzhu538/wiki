@@ -20,6 +20,10 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+tags:
+- audience:executor
+- scene:reference
+- skill-level:beginner
 ---
 
 # AI图像分析替代模型训练：快速提取参考图共性

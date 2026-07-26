@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-ai-report-drafting
 title: AI草写报告：用AI生成调研初稿
 type: tool
@@ -8,7 +7,7 @@ author: 老顽童
 reviewed_by: pending
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: "2026-06-30T16:07:51+00:00"
+updated_at: '2026-06-30T16:07:51+00:00'
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -16,14 +15,18 @@ domain:
 - yitang
 - research
 source_refs:
-- "00_inbox/调研专题/调研超级武器库_ocr_text.md"
+- 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[tool-马易-平台模式验证法]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[tool-马易-平台模式验证法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # AI草写报告：用AI生成调研初稿

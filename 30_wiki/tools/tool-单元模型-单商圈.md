@@ -24,6 +24,10 @@ related:
 - '[[yt-entrepreneur-unit-model]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 单元模型：单商圈模型

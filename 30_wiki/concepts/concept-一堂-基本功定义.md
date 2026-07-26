@@ -42,6 +42,10 @@ diagnostic_signals:
 quality_labels:
 - principle
 - insight
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 基本功定义：针对具体场景的独立可检验动作，重复形成复利

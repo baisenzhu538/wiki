@@ -25,6 +25,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:beginner
 related:
 - '[[yt-lean-beauty-store-conversion]]'
 - '[[yt-lean-daily-chemical-mvp]]'

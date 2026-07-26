@@ -1,5 +1,4 @@
 ---
-
 id: yt-tool-equity-checklist
 title: 股权设计检查清单
 type: tool
@@ -16,14 +15,14 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-  - "[[yt-management-business-formula]]"
-  - "[[yt-entrepreneur-lean-validation]]"
-  - "[[yt-management-partnership-equity]]"
-  - "[[yt-management-toolkit-overview]]"
-  - "[[yt-tool-hiring-scorecard]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[yt-decision-canvas]]"
-  - "[[yt-management-founder-role]]"
+- '[[yt-management-business-formula]]'
+- '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-management-partnership-equity]]'
+- '[[yt-management-toolkit-overview]]'
+- '[[yt-tool-hiring-scorecard]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-management-founder-role]]'
 contradicts: null
 query_triggers:
 - src_unknown
@@ -36,7 +35,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
-tags: []
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 trust_level: medium
 yitang:
   map: management
@@ -49,7 +51,6 @@ updated_at: '2026-06-16'
 estimated_tokens: 3400
 reviewed_by: null
 author: 老顽童
-
 ---
 
 # 股权设计检查清单

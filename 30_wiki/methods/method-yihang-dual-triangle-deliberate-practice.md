@@ -16,9 +16,13 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-dual-triangle-flywheel-engine]]"
-- "[[method-yitang-y-model-engine-cycle]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 双三角刻意练习法：长期追求 + 固定套路 × 非舒适区 × 及时反馈 × 大量重复

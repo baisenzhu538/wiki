@@ -1,37 +1,41 @@
 ---
 id: framework-利润-利润优先经营框架
-title: "利润优先经营框架：从「利润是剩余」到「利润是生存成本」"
+title: 利润优先经营框架：从「利润是剩余」到「利润是生存成本」
 type: framework
 status: draft
 confidence: 0.85
 trust_level: high
 domain:
-  - profit-pricing
+- profit-pricing
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - principle
-  - actionable
+- insight
+- principle
+- actionable
 source_refs:
-  - "00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md"
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt"
-  - "00_inbox/利润为王/企业利润经营分析_智能优化.txt"
-  - "00_inbox/利润为王/笔记1.txt"
-  - "00_inbox/利润为王/笔记2.txt"
-  - 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md
+- 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt
+- 00_inbox/利润为王/企业利润经营分析_智能优化.txt
+- 00_inbox/利润为王/笔记1.txt
+- 00_inbox/利润为王/笔记2.txt
+- 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md
 related:
-  - concept-利润-真正利润定义
-  - concept-定价-价格杠杆
-  - concept-利润-风险报偿本质
-  - bridge-利润-单元模型-定价闭环
-  - bridge-利润-需求冰山-价值定价
-  - yt-unit-model-build
-  - yt-decision-y-model
-  - dk-利润-利润敏感度非对称性
+- concept-利润-真正利润定义
+- concept-定价-价格杠杆
+- concept-利润-风险报偿本质
+- bridge-利润-单元模型-定价闭环
+- bridge-利润-需求冰山-价值定价
+- yt-unit-model-build
+- yt-decision-y-model
+- dk-利润-利润敏感度非对称性
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 利润优先经营框架：从「利润是剩余」到「利润是生存成本」

@@ -8,10 +8,10 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 quality_labels:
-  - cited
-  - principle
-  - quality
-  - validated
+- cited
+- principle
+- quality
+- validated
 created_at: 2026-05-05
 domain:
 - src_unknown
@@ -26,9 +26,9 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: 2026-05-06
 estimated_tokens: 3300
 related:
-  - "[[yt-research-action-camp-launch]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[yt-research-expert-interview]]"
+- '[[yt-research-action-camp-launch]]'
+- '[[yt-research-competitor-toolkit]]'
+- '[[yt-research-expert-interview]]'
 pipeline:
 - src_unknown
 diagnostic_signals:
@@ -42,6 +42,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 confidence: 0.85
 trust_level: high
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 一堂调研武器库课程

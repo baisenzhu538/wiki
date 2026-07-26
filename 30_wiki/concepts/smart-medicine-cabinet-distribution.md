@@ -1,19 +1,21 @@
 ---
-
-
 domain:
 - healthcare
-
-
 id: smart-medicine-cabinet-distribution
-title: "智能药柜分销业态洞察"
+title: 智能药柜分销业态洞察
 type: concept
 status: stable
 trust_level: medium
 diagnostic_signals:
-  - {'signal': '目标省份是否属于允许智慧药房售处方药的积极探索型政策区', 'framework_lens': '政策地域 / 合规边界', 'follow_up_question': '是否用山西模式直接套用到严格保守型省份？'}
-  - {'signal': '商业模式是否把医保结算作为前置假设', 'framework_lens': '关键依赖 / 商业可行性', 'follow_up_question': '当地医保是否已接入智慧药房？'}
-  - {'signal': '是否已完成单点单元模型测算而非仅看政策允许', 'framework_lens': '单元经济 / 从政策到利润', 'follow_up_question': '冷链、追溯、药师成本是否纳入模型？'}
+- signal: 目标省份是否属于允许智慧药房售处方药的积极探索型政策区
+  framework_lens: 政策地域 / 合规边界
+  follow_up_question: 是否用山西模式直接套用到严格保守型省份？
+- signal: 商业模式是否把医保结算作为前置假设
+  framework_lens: 关键依赖 / 商业可行性
+  follow_up_question: 当地医保是否已接入智慧药房？
+- signal: 是否已完成单点单元模型测算而非仅看政策允许
+  framework_lens: 单元经济 / 从政策到利润
+  follow_up_question: 冷链、追溯、药师成本是否纳入模型？
 source_refs:
 - 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
 - 10_raw/sources/src_20260619_d919434b_00_inbox_广冷电子_pharma_policy.agent.final.md
@@ -26,18 +28,22 @@ source_refs:
 - src_unknown
 created_at: 2026-06-13
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 updated_at: 2026-06-13
 author: unknown
-reviewed_by: "欧阳锋"
+reviewed_by: 欧阳锋
 related:
-- "[[case-smart-medicine-cabinet-failure-patterns-library]]"
-- "[[source-code-delivery-model]]"
-- "[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]"
-- "[[smart-medicine-cabinet-regional-policy-map]]"
-- "[[smart-medicine-cabinet-national-policy-redlines]]"
+- '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+- '[[source-code-delivery-model]]'
+- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+- '[[smart-medicine-cabinet-regional-policy-map]]'
+- '[[smart-medicine-cabinet-national-policy-redlines]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 智能药柜分销业态洞察
 

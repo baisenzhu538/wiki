@@ -1,5 +1,4 @@
 ---
-
 id: dk-ban-fei-mao-atomic-no-standard
 title: 暗知识：原子化没有固定标准
 type: dk
@@ -14,15 +13,14 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
-  - "[[dk-ban-fei-mao-skill-rejection-value]]"
-  - "[[dk-ji-hao-problem-vs-question]]"
-  - "[[dk-wanghuan-spec-trap]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-pipeline:
-
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
+- '[[dk-ji-hao-problem-vs-question]]'
+- '[[dk-wanghuan-spec-trap]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
+pipeline: null
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -34,7 +32,10 @@ diagnostic_signals:
 - signal: src_unknown
   lens: AI可抽取性
   follow_up: 该卡片的信息是否能被AI完整抽取，而不打断索引标签之间的关系？
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 暗知识：原子化没有固定标准

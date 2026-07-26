@@ -5,13 +5,13 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-  - human-ai-collaboration
-  - ai-collaboration
-  - yitang
+- human-ai-collaboration
+- ai-collaboration
+- yitang
 quality_labels:
-  - cited
-  - quality
-  - validated
+- cited
+- quality
+- validated
 created_at: '2026-06-19'
 updated_at: 2026-06-28
 author: 老顽童
@@ -21,41 +21,39 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享课后问答（2026-06-18）
 source_refs:
-  - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
-  - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
+- 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
+- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - '[[dk-modeling-ai-judgment-limit]]'
-  - '[[master-ai-info-literacy]]'
-  - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-  - '[[dk-wanghuan-standard-by-iteration]]'
-  - '[[dk-wanghuan-magic-defeats-magic]]'
-  - '[[human-ai-collaboration-double-triangle]]'
-  - '[[framework-wanghuan-actor-director-mode]]'
-  - '[[tool-wanghuan-ai-business-profile]]'
-  - '[[framework-taste-as-judgment-system]]'
-  - '[[agent-spec-codex-teammate]]'
+- '[[dk-modeling-ai-judgment-limit]]'
+- '[[master-ai-info-literacy]]'
+- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+- '[[dk-wanghuan-standard-by-iteration]]'
+- '[[dk-wanghuan-magic-defeats-magic]]'
+- '[[human-ai-collaboration-double-triangle]]'
+- '[[framework-wanghuan-actor-director-mode]]'
+- '[[tool-wanghuan-ai-business-profile]]'
+- '[[framework-taste-as-judgment-system]]'
+- '[[agent-spec-codex-teammate]]'
 diagnostic_signals:
-  - signal: src_unknown
-    framework_lens: 创造力重新分配——问题描述是核心创造力
-    follow_up_question: 你能用BITCOE把需求结构化吗？背景、意图、任务、输出、约束都明确了吗？
-  - signal: src_unknown
-    framework_lens: 创造力重新分配——验收审美是核心创造力
-    follow_up_question: '''差点意思''具体是什么？能用三个维度描述吗？颜色、排版、语气？'
-  - signal: src_unknown
-    framework_lens: 创造力重新分配——执行交给AI，人专注描述和验收
-    follow_up_question: 这件事的执行部分能不能交给AI？你把创造力放在描述和验收上。
-  - signal: src_unknown
-    framework_lens: 创造力重新分配——审美需要显性化，才能被AI学习
-    follow_up_question: 你的审美判断能不能翻译成具体标准？比如'配色要对比强烈'、'标题层级要拉开'？
-  - signal: src_unknown
-    framework_lens: 创造力重新分配——人的价值是描述问题和审美判断
-    follow_up_question: 告诉团队：人负责把问题描述清楚，负责判断结果好不好，执行交给AI。
+- signal: src_unknown
+  framework_lens: 创造力重新分配——问题描述是核心创造力
+  follow_up_question: 你能用BITCOE把需求结构化吗？背景、意图、任务、输出、约束都明确了吗？
+- signal: src_unknown
+  framework_lens: 创造力重新分配——验收审美是核心创造力
+  follow_up_question: '''差点意思''具体是什么？能用三个维度描述吗？颜色、排版、语气？'
+- signal: src_unknown
+  framework_lens: 创造力重新分配——执行交给AI，人专注描述和验收
+  follow_up_question: 这件事的执行部分能不能交给AI？你把创造力放在描述和验收上。
+- signal: src_unknown
+  framework_lens: 创造力重新分配——审美需要显性化，才能被AI学习
+  follow_up_question: 你的审美判断能不能翻译成具体标准？比如'配色要对比强烈'、'标题层级要拉开'？
+- signal: src_unknown
+  framework_lens: 创造力重新分配——人的价值是描述问题和审美判断
+  follow_up_question: 告诉团队：人负责把问题描述清楚，负责判断结果好不好，执行交给AI。
 tags:
-
-
-
-
-
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 review_date: '2026-06-28'
 ---
 

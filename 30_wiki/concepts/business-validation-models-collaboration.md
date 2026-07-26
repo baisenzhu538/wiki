@@ -20,7 +20,10 @@ source_refs:
 - 10_raw/sources/src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a.md
 - 10_raw/sources/src_20260614_1a0a6efa-网络话密达数据公司介绍.md
 - 10_raw/sources/src_20260614_7e8857b8-theme-other-summary.md
-tags: []
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -29,9 +32,8 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-- "[[ai-collaboration-mindset-shift]]"
-- "[[ai-landing-scene-selection]]"
-
+- '[[ai-collaboration-mindset-shift]]'
+- '[[ai-landing-scene-selection]]'
 ---
 
 # 非药柜主题综合知识卡

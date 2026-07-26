@@ -1,12 +1,11 @@
 ---
-
 id: tool-personal-time-audit-loop
 title: 个人时间审计与实验循环
 type: tool
 status: reviewed
 domain:
-  - personal-growth
-  - yitang
+- personal-growth
+- yitang
 confidence: 0.85
 trust_level: medium
 author: 老顽童
@@ -15,21 +14,24 @@ review_date: '2026-07-01'
 created_at: '2026-07-01'
 updated_at: '2026-07-01'
 source_refs:
-  - 00_inbox/时间管理/truman-时间管理课程-口述.txt
-  - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
-  - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
-  - 00_inbox/时间管理/_processed/vlm_summary.json
-  - 00_inbox/时间管理/时间管理-修炼进阶图.png
-  - 00_inbox/时间管理/时间管理-深度工作冰山图.png
+- 00_inbox/时间管理/truman-时间管理课程-口述.txt
+- 00_inbox/时间管理/truman-时间管理课程-笔记.txt
+- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+- 00_inbox/时间管理/_processed/vlm_summary.json
+- 00_inbox/时间管理/时间管理-修炼进阶图.png
+- 00_inbox/时间管理/时间管理-深度工作冰山图.png
 related:
-  - "[[framework-yitang-five-step-to-time-management]]"
-  - "[[yt-personal-time-management]]"
-  - "[[dk-time-management-common-mistakes]]"
-  - "[[yt-personal-ipo-learning]]"
-  - "[[framework-yitang-deliberate-practice-1plus4]]"
-  - "[[case-truman-time-management-commute-experiment]]"
-  - "[[case-yitang-copywriting-time-decomposition]]"
-
+- '[[framework-yitang-five-step-to-time-management]]'
+- '[[yt-personal-time-management]]'
+- '[[dk-time-management-common-mistakes]]'
+- '[[yt-personal-ipo-learning]]'
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[case-truman-time-management-commute-experiment]]'
+- '[[case-yitang-copywriting-time-decomposition]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 个人时间审计与实验循环

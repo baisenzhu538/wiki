@@ -25,6 +25,10 @@ related:
 - '[[pending_unknown]]'
 - case-lean-building-in-vacuum
 - case-yitang-redburger-selection-industrialization
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 洗发水卖点组合测试
 

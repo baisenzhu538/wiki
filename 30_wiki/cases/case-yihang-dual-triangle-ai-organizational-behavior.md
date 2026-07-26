@@ -16,8 +16,12 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/AI组织行为学的口述_text.md
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-yitang-y-model-engine-cycle]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 双三角案例：Truman 一夜深挖 AI 组织行为学——四个模型交叉验证

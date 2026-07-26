@@ -1,5 +1,4 @@
 ---
-
 domain:
 - yitang
 id: yt-prompt-anti-flattery
@@ -46,11 +45,15 @@ author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium-high
 related:
-  - "[[yt-model-prompt-engineering]]"
-  - "[[yt-prompt-iterative-prompting]]"
-  - "[[yt-model-personal-pitch-toolkit]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[yt-model-prompt-engineering]]'
+- '[[yt-prompt-iterative-prompting]]'
+- '[[yt-model-personal-pitch-toolkit]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 反谄媚机制：让 AI 说真话

@@ -33,12 +33,16 @@ source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt:L156-526（武器库篇）
 source_context: 2026-07-11 任务#150 升级：原 src 引用不可追溯，替换为苦练基本功系列课口述稿真实来源（认知/拆解/武器库三篇对应本卡三阶段结构）
 related:
-  - "[[一堂方法论体系总图]]"
-  - "[[yitang-course-map]]"
-  - "[[yt-system-course-catalog]]"
-  - "[[framework-一堂-苦练基本功-总纲]]"
-  - "[[framework-一堂-基本功-四字诀拆建推练]]"
-  - "[[management-domain-digest]]"
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[framework-一堂-苦练基本功-总纲]]'
+- '[[framework-一堂-基本功-四字诀拆建推练]]'
+- '[[management-domain-digest]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 基本功认知

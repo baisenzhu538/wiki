@@ -64,6 +64,10 @@ quality_labels:
 - principle
 - cited
 - validated
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 一堂五步法：从机会预判到规模化的五步闭环
 

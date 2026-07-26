@@ -20,6 +20,10 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+tags:
+- audience:executor
+- scene:reference
+- skill-level:beginner
 ---
 
 # 零训练风格迁移：三要素描述法

@@ -16,8 +16,12 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
 related:
-- "[[yt-model-dual-triangle-competitiveness]]"
-- "[[case-yitang-double-triangle-confidence]]"
+- '[[yt-model-dual-triangle-competitiveness]]'
+- '[[case-yitang-double-triangle-confidence]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 花总AMA精华摘要
 

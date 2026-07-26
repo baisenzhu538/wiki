@@ -24,12 +24,16 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-AI生图与图生图决策法]]"
-  - "[[tool-月白-多语言提示词精准法]]"
-  - "[[tool-月白-模型识别与边界测试法]]"
-  - "[[tool-月白-AI设计严苛批评法]]"
-  - "[[tool-月白-精准提示词消除模型幻觉]]"
-  - "[[tool-月白-AIGC模型选型决策法]]"
+- '[[tool-月白-AI生图与图生图决策法]]'
+- '[[tool-月白-多语言提示词精准法]]'
+- '[[tool-月白-模型识别与边界测试法]]'
+- '[[tool-月白-AI设计严苛批评法]]'
+- '[[tool-月白-精准提示词消除模型幻觉]]'
+- '[[tool-月白-AIGC模型选型决策法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：分层自洽海报生成法
 

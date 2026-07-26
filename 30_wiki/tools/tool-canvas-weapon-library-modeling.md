@@ -1,5 +1,4 @@
 ---
-
 id: tool-canvas-weapon-library-modeling
 title: 画布/武器库建模法：把工具箱变成可快速调用的系统
 type: tool
@@ -13,9 +12,9 @@ domain:
 - src_unknown
 - src_unknown
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -37,24 +36,26 @@ diagnostic_signals:
 - framework_lens: 武器库迭代
   follow_up_question: 是否定期淘汰失效工具、合并重复工具、补充新场景？
 related:
-  - "[[鑫港湾his系统分阶段整改报告]]"
-  - "[[tool-ROI决策评估画布]]"
-  - "[[HIS系统开发实现方案-架构师指南]]"
-  - "[[开源HIS系统代码深度分析报告]]"
-  - "[[deepseek-v4-在知识管理系统中的应用]]"
-  - "[[视觉prompt三层操作系统-srom-visual-os]]"
-  - "[[tool-Truman-判断力产品化与系统赋能]]"
-  - "[[tool-提问刻意练习画布]]"
-  - "[[tool-Truman-个人判断力系统建设（达克效应应对）]]"
-  - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
-  - "[[tool-scenario-selector-modeling]]"
+- '[[鑫港湾his系统分阶段整改报告]]'
+- '[[tool-ROI决策评估画布]]'
+- '[[HIS系统开发实现方案-架构师指南]]'
+- '[[开源HIS系统代码深度分析报告]]'
+- '[[deepseek-v4-在知识管理系统中的应用]]'
+- '[[视觉prompt三层操作系统-srom-visual-os]]'
+- '[[tool-Truman-判断力产品化与系统赋能]]'
+- '[[tool-提问刻意练习画布]]'
+- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[tool-scenario-selector-modeling]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 画布/武器库建模法：把工具箱变成可快速调用的系统

@@ -1,46 +1,49 @@
 ---
-id: "concept-open-source-knowledge-usage-boundary"
-title: "开源知识使用边界：学习与蒸馏的分界线"
-type: "concept"
+id: concept-open-source-knowledge-usage-boundary
+title: 开源知识使用边界：学习与蒸馏的分界线
+type: concept
 domain:
-  - "content-production"
-status: "reviewed"
+- content-production
+status: reviewed
 confidence: 0.82
-difficulty: "intermediate"
-language: "zh-CN"
-created_at: "2026-06-30"
-updated_at: "2026-06-30"
-author: "老顽童"
-reviewed_by: "欧阳锋"
-review_date: "2026-06-30"
+difficulty: intermediate
+language: zh-CN
+created_at: '2026-06-30'
+updated_at: '2026-06-30'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-30'
 source_refs:
-  - "00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md"
-  - "00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md"
+- 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md
+- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 query_triggers:
-  - 开源知识怎么算越界
-  - 学习和蒸馏有什么区别
-  - 游侠蒸馏事件是什么
-  - KDO 知识库使用协议
-  - 抄作业和借鉴的边界
+- 开源知识怎么算越界
+- 学习和蒸馏有什么区别
+- 游侠蒸馏事件是什么
+- KDO 知识库使用协议
+- 抄作业和借鉴的边界
 aliases:
-  - open-source-knowledge-usage-boundary
-  - 开源知识边界
-  - 学习与蒸馏的分界线
+- open-source-knowledge-usage-boundary
+- 开源知识边界
+- 学习与蒸馏的分界线
 tags:
-  - "#scene/business-analysis"
-  - "content-production"
-  - "open-source"
+- '#scene/business-analysis'
+- content-production
+- open-source
+- audience:general
+- scene:reference
+- skill-level:intermediate
 quality_labels:
-  - principle
-  - validated
+- principle
+- validated
 related:
-  - "[[system-kdo-quality-labels]]"
-  - "[[framework-brand-three-degree]]"
-  - "[[case-yitang-goat-milk-channel-partnership]]"
-  - "[[framework-yitang-research-quality-gate]]"
-  - "[[business-formula-to-kdo-card-quality]]"
+- '[[system-kdo-quality-labels]]'
+- '[[framework-brand-three-degree]]'
+- '[[case-yitang-goat-milk-channel-partnership]]'
+- '[[framework-yitang-research-quality-gate]]'
+- '[[business-formula-to-kdo-card-quality]]'
 pipeline:
-  - "confidence-draft"
+- confidence-draft
 ---
 
 # 开源知识使用边界：学习与蒸馏的分界线

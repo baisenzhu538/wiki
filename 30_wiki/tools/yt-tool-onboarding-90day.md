@@ -1,5 +1,4 @@
 ---
-
 id: yt-tool-onboarding-90day
 title: 新人 90 天融入加速器
 type: tool
@@ -16,14 +15,14 @@ prerequisites:
 component_of:
 - src_unknown
 related:
-  - "[[yt-management-team-knowledge]]"
-  - "[[yt-management-onboarding]]"
-  - "[[yt-management-toolkit-overview]]"
-  - "[[yt-tool-hiring-scorecard]]"
-  - "[[yt-tool-knowledge-extraction]]"
-  - "[[yt-management-company-culture]]"
-  - "[[yt-management-goal-management]]"
-  - "[[master-decision-hygiene]]"
+- '[[yt-management-team-knowledge]]'
+- '[[yt-management-onboarding]]'
+- '[[yt-management-toolkit-overview]]'
+- '[[yt-tool-hiring-scorecard]]'
+- '[[yt-tool-knowledge-extraction]]'
+- '[[yt-management-company-culture]]'
+- '[[yt-management-goal-management]]'
+- '[[master-decision-hygiene]]'
 contradicts: null
 query_triggers:
 - src_unknown
@@ -36,7 +35,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
-tags: []
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 trust_level: medium
 yitang:
   map: management
@@ -49,7 +51,6 @@ updated_at: '2026-06-16'
 estimated_tokens: 3200
 reviewed_by: null
 author: 老顽童
-
 ---
 
 # 新人 90 天融入加速器

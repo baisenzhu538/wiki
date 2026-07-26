@@ -14,21 +14,21 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- "[[yt-note-problem-solving-capability]]"
-- "[[tool-纪浩-problem-validation-four-checks]]"
-- "[[yt-model-scientific-questioning-map]]"
-- "[[yt-model-questioning-practice-canvas]]"
-- "[[tool-纪浩-Problem与Question区分法]]"
-- "[[tool-strategy-nine-problems]]"
-- "[[framework-问题边界与Problem澄清五层结构]]"
-- "[[dk-yitang-research-question-quality]]"
-- "[[case-ji-hao-skill-market-problem-validation]]"
-- "[[tool-纪浩-Agent技能市场设计法]]"
-- "[[dk-ji-hao-problem-vs-question]]"
-- "[[tool-一堂-kernel-three-questions]]"
-- "[[sk-ai-problem-validation]]"
-- "[[tool-ai-four-elements-validation]]"
-- "[[tool-ai-problem-validation]]"
+- '[[yt-note-problem-solving-capability]]'
+- '[[tool-纪浩-problem-validation-four-checks]]'
+- '[[yt-model-scientific-questioning-map]]'
+- '[[yt-model-questioning-practice-canvas]]'
+- '[[tool-纪浩-Problem与Question区分法]]'
+- '[[tool-strategy-nine-problems]]'
+- '[[framework-问题边界与Problem澄清五层结构]]'
+- '[[dk-yitang-research-question-quality]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[dk-ji-hao-problem-vs-question]]'
+- '[[tool-一堂-kernel-three-questions]]'
+- '[[sk-ai-problem-validation]]'
+- '[[tool-ai-four-elements-validation]]'
+- '[[tool-ai-problem-validation]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -38,7 +38,10 @@ tools_required:
 prerequisite_skills: null
 created_at: '2026-06-11'
 updated_at: '2026-06-17'
-tags: []
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 pipeline:
 - src_unknown
 reviewed_by: 欧阳锋

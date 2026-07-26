@@ -1,5 +1,4 @@
 ---
-
 id: yt-tool-peas-agent-analysis
 component_of:
 - src_unknown
@@ -23,17 +22,17 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - "[[鑫港湾his系统分阶段整改报告]]"
-  - "[[HIS系统开发实现方案-架构师指南]]"
-  - "[[开源HIS系统代码深度分析报告]]"
-  - "[[deepseek-v4-在知识管理系统中的应用]]"
-  - "[[视觉prompt三层操作系统-srom-visual-os]]"
-  - "[[tool-水水-保持系统冗余]]"
-  - "[[tool-Truman-个人判断力系统建设（达克效应应对）]]"
-  - "[[tool-Truman-判断力产品化与系统赋能]]"
-  - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
-  - "[[yt-concept-peas-insight]]"
-  - "[[ai-native-五层进阶从答案到效率到作品到产品到系统]]"
+- '[[鑫港湾his系统分阶段整改报告]]'
+- '[[HIS系统开发实现方案-架构师指南]]'
+- '[[开源HIS系统代码深度分析报告]]'
+- '[[deepseek-v4-在知识管理系统中的应用]]'
+- '[[视觉prompt三层操作系统-srom-visual-os]]'
+- '[[tool-水水-保持系统冗余]]'
+- '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
+- '[[tool-Truman-判断力产品化与系统赋能]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[yt-concept-peas-insight]]'
+- '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
 review_date: 2026-05-15
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -58,7 +57,10 @@ diagnostic_signals:
   follow_up_question: 危机时是否还在慢慢拆解效用函数？
 updated_at: '2026-06-28'
 author: 老顽童
-
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 ---
 
 # PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统

@@ -14,9 +14,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-28
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 updated_at: '2026-06-28'
 source_person: 兰毅
 source_context: 兰毅「用泛产品思维做组织」一堂分享，实习生团队产品化实践段落
@@ -25,16 +25,20 @@ source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 related:
-- "[[framework-pan-product-organization]]"
-- "[[case-panproduct-lanyi-shidonghui-npc]]"
-- "[[dk-panproduct-org-linear-to-circular]]"
-- "[[dk-panproduct-org-serve-the-lowest]]"
-- "[[framework-一堂五步法-泛产品设计]]"
-- "[[framework-yitang-growth-flywheel]]"
-- "[[framework-lean-abcd-model]]"
-- "[[framework-ai-accelerated-strategy-cycle]]"
-- "[[case-panproduct-lanyi-dahanghui-team]]"
+- '[[framework-pan-product-organization]]'
+- '[[case-panproduct-lanyi-shidonghui-npc]]'
+- '[[dk-panproduct-org-linear-to-circular]]'
+- '[[dk-panproduct-org-serve-the-lowest]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[framework-lean-abcd-model]]'
+- '[[framework-ai-accelerated-strategy-cycle]]'
+- '[[case-panproduct-lanyi-dahanghui-team]]'
 review_date: '2026-06-28'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 兰毅：实习生成长飞轮的产品化设计

@@ -33,6 +33,10 @@ related:
 - '[[tool-yitang-channel-partnership-design]]'
 - yt-management-scientific-meetings
 - concept-ai-native-organization-five-steps
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 羊奶粉「卖地图」区域代理模式案例
 

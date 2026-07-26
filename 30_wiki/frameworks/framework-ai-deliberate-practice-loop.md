@@ -30,12 +30,13 @@ source_refs:
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-
-
-
 - '[[framework-yitang-three-ring-ability-focus]]'
 - framework-yitang-deliberate-practice-1plus4
 - framework-一堂五步法-泛产品设计
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴

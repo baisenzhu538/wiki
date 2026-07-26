@@ -1,5 +1,4 @@
 ---
-
 id: dk-wanghuan-paced-sales-decision
 title: 暗知识：复制销冠不是复制话术——是还原决策链
 type: dk
@@ -18,17 +17,16 @@ updated_at: '2026-06-20'
 review_date: '2026-06-28'
 reviewed_by: 欧阳锋
 trust_level: medium
-source_refs:
-
+source_refs: null
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）"
 query_triggers: []
 aliases: []
 tags:
-
-
-pipeline:
-
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
+pipeline: null
 diagnostic_signals:
 - signal: src_unknown
   lens: 工具升级但系统未重构
@@ -43,13 +41,13 @@ diagnostic_signals:
   lens: 策略与话术混在同一存储层
   follow_up: 建立双轨存储：策略（跨场景复用）与话术（因场景而变）严格分离
 related:
-  - "[[dk-wanghuan-tacit-decision-extraction-cross-domain]]"
-  - "[[dk-wanghuan-agent-platform-director-mode]]"
-  - "[[dk-wanghuan-spec-trap]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[yitang-domain-digest]]"
-  - "[[ai-collaboration-domain-digest]]"
+- '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
+- '[[dk-wanghuan-agent-platform-director-mode]]'
+- '[[dk-wanghuan-spec-trap]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[yitang-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
 ---
 
 # 暗知识：复制销冠不是复制话术——是还原决策链

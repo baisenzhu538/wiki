@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-model-arsenal-paradigms
 title: 99% 的模型跑不出二三十个范式：先装武器库再创新
 type: dk
@@ -14,28 +13,17 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 confidence: 0.89
 trust_level: medium
-diagnostic_signals:
-
-
-
-
-
-
+diagnostic_signals: null
 related:
-  - "[[yitang-domain-digest]]"
-  
-  
-  
-  
+- '[[yitang-domain-digest]]'
 tags:
-
-
-
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-18'
-
 ---
 
 ## 原始表述/核心洞察

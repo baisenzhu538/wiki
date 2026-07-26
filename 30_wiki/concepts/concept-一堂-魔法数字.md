@@ -47,6 +47,10 @@ diagnostic_signals:
 quality_labels:
 - principle
 - insight
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 魔法数字：前置动作的拐点指标，找到一个价值百万千万

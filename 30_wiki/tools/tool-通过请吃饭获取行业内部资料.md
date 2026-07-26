@@ -22,12 +22,16 @@ review_date: 2026-06-29
 confidence: 0.7
 trust_level: low
 related:
-- "[[tool-用旗舰店替代纯招商投入]]"
-- "[[tool-快招品牌总部模拟调研]]"
-- "[[tool-敏捷发布快速迭代搭建体系]]"
-- "[[tool-城市合伙人模式复制能力]]"
-- "[[tool-创始人二当家分工协作模式]]"
-- "[[tool-按图索骥改良外部模板]]"
+- '[[tool-用旗舰店替代纯招商投入]]'
+- '[[tool-快招品牌总部模拟调研]]'
+- '[[tool-敏捷发布快速迭代搭建体系]]'
+- '[[tool-城市合伙人模式复制能力]]'
+- '[[tool-创始人二当家分工协作模式]]'
+- '[[tool-按图索骥改良外部模板]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：通过请吃饭获取行业内部资料

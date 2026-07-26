@@ -42,6 +42,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 拆解四法：靠框架/靠专家/靠外部/靠复盘，把关键动作挖出来

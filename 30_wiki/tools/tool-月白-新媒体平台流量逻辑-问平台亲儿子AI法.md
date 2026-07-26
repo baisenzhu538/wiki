@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-AI平台算法咨询法]]"
-- "[[tool-月白-口喷式设计工作流]]"
-- "[[tool-月白-基于基础形象做动作延展（1到10）]]"
-- "[[tool-月白-表情包风格筛选与确定]]"
-- "[[tool-月白-电商白底图生成与高清重绘]]"
+- '[[tool-月白-AI平台算法咨询法]]'
+- '[[tool-月白-口喷式设计工作流]]'
+- '[[tool-月白-基于基础形象做动作延展（1到10）]]'
+- '[[tool-月白-表情包风格筛选与确定]]'
+- '[[tool-月白-电商白底图生成与高清重绘]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：新媒体平台流量逻辑-问平台亲儿子AI法
 

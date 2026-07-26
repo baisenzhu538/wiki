@@ -1,42 +1,43 @@
 ---
 id: dk-yitang-innovation-failure-modes
-title: "解放思想六大失败模式"
+title: 解放思想六大失败模式
 type: dk
 status: draft
 confidence: 0.87
 trust_level: high
 domain:
-  - innovation
+- innovation
 author: 老顽童
-review_date: "2026-07-26"
-reviewed_by: 待审
-  - framework-kdo-modeling-methodology
-  - framework-yitang-shishi-qiushi
-created_at: "2026-07-26"
-updated_at: "2026-07-26"
+review_date: '2026-07-26'
+reviewed_by: 待审 - framework-kdo-modeling-methodology - framework-yitang-shishi-qiushi
+created_at: '2026-07-26'
+updated_at: '2026-07-26'
 quality_labels:
-  - insight
+- insight
 discoverable_by:
-  - 创新为什么失败
-  - 创新卡点
-  - 解放思想常见错误
+- 创新为什么失败
+- 创新卡点
+- 解放思想常见错误
 source_refs:
-  - "00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt"
-  - "00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt"
+- 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt
+- 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt
 related:
-  - framework-yitang-thought-liberation-lightning
-  - bridge-yitang-seek-truth-liberate-thought
-  - tool-yitang-dual-guardrail-system
-  - concept-yitang-layered-self-consistency
-  - dk-yitang-case-crafting-pitfalls
+- framework-yitang-thought-liberation-lightning
+- bridge-yitang-seek-truth-liberate-thought
+- tool-yitang-dual-guardrail-system
+- concept-yitang-layered-self-consistency
+- dk-yitang-case-crafting-pitfalls
 diagnostic_signals:
-  - signal: "创新方案执行后效果不如预期"
-    lens: 检查是否跳过了闪电模型的某个步骤
-    follow_up: 按四步闭环逐步排查
-  - signal: "团队对创新方法论的理解不一致"
-    lens: 培训不够或框架表达不清晰
-    follow_up: 用十层解读法重新学习框架
-
+- signal: 创新方案执行后效果不如预期
+  lens: 检查是否跳过了闪电模型的某个步骤
+  follow_up: 按四步闭环逐步排查
+- signal: 团队对创新方法论的理解不一致
+  lens: 培训不够或框架表达不清晰
+  follow_up: 用十层解读法重新学习框架
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 ## 原始表述

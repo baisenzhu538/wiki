@@ -1,28 +1,27 @@
 ---
-
 domain:
-  - modeling
-
+- modeling
 id: yt-model-truman-career-routes
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: advanced
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: "黄药师"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
-  - src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
-source_refs:
-  - pending_archive:src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
+- pending_archive:src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 楚门的选择：两条职业成长路线 X vs Y
 

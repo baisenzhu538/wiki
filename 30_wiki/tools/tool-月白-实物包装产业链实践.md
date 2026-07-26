@@ -25,11 +25,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-工厂对接信息清单制作]]"
-  - "[[tool-月白-最佳实践素材收集法]]"
-  - "[[tool-月白-新手设计师基本功训练法]]"
-  - "[[tool-月白-设计参考图精准定位法]]"
-  - "[[tool-月白-正向反馈强化AI生成]]"
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[tool-月白-最佳实践素材收集法]]'
+- '[[tool-月白-新手设计师基本功训练法]]'
+- '[[tool-月白-设计参考图精准定位法]]'
+- '[[tool-月白-正向反馈强化AI生成]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：实物包装产业链实践
 

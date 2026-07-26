@@ -1,5 +1,4 @@
 ---
-
 id: case-strategy-li-ka-shing
 title: 李嘉诚分筋错骨手：每次经济下行周期逆势并购→等涨
 type: case
@@ -19,10 +18,13 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_239_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_239_ocr_text.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[case-strategy-fangte-disney]]"
-  - "[[tool-人生红点战略对齐]]"
-
+- '[[strategy-domain-digest]]'
+- '[[case-strategy-fangte-disney]]'
+- '[[tool-人生红点战略对齐]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 **模式**：每次经济下行周期→所有人恐慌抛售→李嘉诚逆势收购→等周期回暖→高价卖出。

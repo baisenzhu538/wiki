@@ -7,9 +7,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
@@ -34,22 +34,25 @@ source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-笔记.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- "[[yt-tool-meeting-designer]]"
-- "[[framework-doris-industry-report-4step]]"
-- "[[business-research-skill-oscar-13-weapon-system]]"
-- "[[system-yitang-research-workflow]]"
-- "[[sk-ai-purpose-bias-check]]"
-- "[[framework-yitang-high-level-plan]]"
-- "[[framework-yitang-high-level-execution]]"
-- "[[yt-research-expert-interview]]"
-- "[[yt-research-intelligence-map]]"
-- "[[yt-research-mindset]]"
-- "[[dk-yitang-expert-interview-5-traps]]"
-- "[[concept-yitang-research-mindset]]"
-- "[[tool-yitang-expert-network-platform]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[yt-tool-business-formula-expert-interview-10]]"  # C 域课程原位版
-
+- '[[yt-tool-meeting-designer]]'
+- '[[framework-doris-industry-report-4step]]'
+- '[[business-research-skill-oscar-13-weapon-system]]'
+- '[[system-yitang-research-workflow]]'
+- '[[sk-ai-purpose-bias-check]]'
+- '[[framework-yitang-high-level-plan]]'
+- '[[framework-yitang-high-level-execution]]'
+- '[[yt-research-expert-interview]]'
+- '[[yt-research-intelligence-map]]'
+- '[[yt-research-mindset]]'
+- '[[dk-yitang-expert-interview-5-traps]]'
+- '[[concept-yitang-research-mindset]]'
+- '[[tool-yitang-expert-network-platform]]'
+- '[[case-yitang-sanjieke-benchmark-failure]]'
+- '[[yt-tool-business-formula-expert-interview-10]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 专家访谈黄金十步法：从盲区梳理到专家匹配

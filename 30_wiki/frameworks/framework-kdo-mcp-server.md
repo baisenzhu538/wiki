@@ -1,30 +1,34 @@
 ---
 id: framework-kdo-mcp-server
-title: "KDO MCP Server — 知识库能力的外部协议暴露层"
+title: KDO MCP Server — 知识库能力的外部协议暴露层
 type: framework
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - kdo
-  - ai-collaboration
+- kdo
+- ai-collaboration
 author: 黄药师
-created_at: "2026-07-26"
-updated_at: "2026-07-26"
+created_at: '2026-07-26'
+updated_at: '2026-07-26'
 quality_labels:
-  - actionable
-  - principle
+- actionable
+- principle
 source_refs:
-  - 30_wiki/concepts/concept-mcp-protocol.md
-  - 90_control/domain-routes.yaml
-  - kdo-tools/mcp/server.py
-  - kdo-tools/mcp/tools.py
+- 30_wiki/concepts/concept-mcp-protocol.md
+- 90_control/domain-routes.yaml
+- kdo-tools/mcp/server.py
+- kdo-tools/mcp/tools.py
 related:
-  - framework-kdo-modeling-methodology
-  - framework-kdo-retrieval-architecture-v2
-  - concept-mcp-protocol
-  - agent-spec-duanwangye-publisher
-  - agent-spec-hongqigong-multimodal
+- framework-kdo-modeling-methodology
+- framework-kdo-retrieval-architecture-v2
+- concept-mcp-protocol
+- agent-spec-duanwangye-publisher
+- agent-spec-hongqigong-multimodal
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # KDO MCP Server — 知识库能力的外部协议暴露层

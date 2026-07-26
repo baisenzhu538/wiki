@@ -34,6 +34,10 @@ related:
 - '[[tool-自我反馈修正笔记姿势]]'
 - yt-entrepreneur-research-cognition
 - yt-note-l6-extraction
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：现场建模式萃取笔记

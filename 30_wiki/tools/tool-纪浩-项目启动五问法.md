@@ -17,20 +17,24 @@ source_refs:
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
 updated_at: 2026-07-02
 related:
-  - "[[tool-纪浩-问题导向备课法]]"
-  - "[[tool-纪浩-线上问题应急值守]]"
-  - "[[tool-纪浩-评估AI从零写UI的可行性]]"
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[tool-纪浩-新手心态启动法]]"
-  - "[[tool-纪浩-识别AI不可维护代码]]"
-  - "[[tool-Truman-多Agent通信协作方案]]"
-  - "[[tool-月白-AI智价比评估决策]]"
-  - "[[tool-月白-AI质价比评估方法]]"
-  - "[[tool-纪浩-多视角切换思考法]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[tool-纪浩-里程碑验证法]]"
-  - "[[tool-马易-数字员工FD拆解落地]]"
+- '[[tool-纪浩-问题导向备课法]]'
+- '[[tool-纪浩-线上问题应急值守]]'
+- '[[tool-纪浩-评估AI从零写UI的可行性]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[tool-纪浩-新手心态启动法]]'
+- '[[tool-纪浩-识别AI不可维护代码]]'
+- '[[tool-Truman-多Agent通信协作方案]]'
+- '[[tool-月白-AI智价比评估决策]]'
+- '[[tool-月白-AI质价比评估方法]]'
+- '[[tool-纪浩-多视角切换思考法]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[tool-纪浩-里程碑验证法]]'
+- '[[tool-马易-数字员工FD拆解落地]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：项目启动五问法
 

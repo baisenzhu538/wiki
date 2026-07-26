@@ -20,15 +20,15 @@ source_refs:
 - 00_inbox/管项目/项目管理-管过程-控变化_vlm_desc.md
 - 00_inbox/管项目/项目管理-管过程-守质量_vlm_desc.md
 related:
-- "[[yt-management-project-management]]"
-- "[[framework-yitang-project-abcd-classification]]"
-- "[[framework-yitang-project-plan-design]]"
-- "[[framework-yitang-project-breakdown]]"
-- "[[tool-yitang-project-kickoff-meeting]]"
-- "[[workflow-yitang-project-four-step-loop]]"
-- "[[yt-management-basic-skills]]"
-- "[[framework-一堂-苦练基本功-总纲]]"
-- "[[management-domain-digest]]"
+- '[[yt-management-project-management]]'
+- '[[framework-yitang-project-abcd-classification]]'
+- '[[framework-yitang-project-plan-design]]'
+- '[[framework-yitang-project-breakdown]]'
+- '[[tool-yitang-project-kickoff-meeting]]'
+- '[[workflow-yitang-project-four-step-loop]]'
+- '[[yt-management-basic-skills]]'
+- '[[framework-一堂-苦练基本功-总纲]]'
+- '[[management-domain-digest]]'
 diagnostic_signals:
 - signal: 计划做得很完备，但一到执行就全线延期——每周发现问题时已经晚了5天
   lens: 进度管理缺位——仅有周会不够，需要高频主动跟进关键路径任务
@@ -48,8 +48,11 @@ diagnostic_signals:
 quality_labels:
 - principle
 - actionable
-- validated
-  - dk-管控vs协同执行策略
+- validated - dk-管控vs协同执行策略
+tags:
+- audience:manager
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 项目管过程：六大管理手段保障项目落地

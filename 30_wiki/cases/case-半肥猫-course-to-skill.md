@@ -1,5 +1,4 @@
 ---
-
 id: case-半肥猫-course-to-skill
 title: 案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具
 type: case
@@ -31,15 +30,18 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:beginner
 created_at: 2026-06-08
 updated_at: '2026-06-28'
 related:
-  - "[[yt-business-analysis-cognitive-biases]]"
-  - "[[kdo-ec-industrialization-migration-proposal]]"
-  - "[[case-纪浩-from-zip-to-five-layers]]"
-  - "[[yt-five-step-level-blindspots]]"
-  - "[[modeling-capability-for-kdo]]"
-  - "[[case-truman-ai-skill-engineering-guide]]"
+- '[[yt-business-analysis-cognitive-biases]]'
+- '[[kdo-ec-industrialization-migration-proposal]]'
+- '[[case-纪浩-from-zip-to-five-layers]]'
+- '[[yt-five-step-level-blindspots]]'
+- '[[modeling-capability-for-kdo]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
 author: 半肥猫
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -54,7 +56,6 @@ diagnostic_signals:
   follow_up_question: 工具中的每条关键 claim 是否有来源？哪些是个人经验、哪些是外部数据、哪些缺少反例？
 - framework_lens: 缺少工程化目录与封装机制
   follow_up_question: 你的 Skill 是否有 manifest、测试用例、版本记录和安装文档？
-
 ---
 
 # 案例：半肥猫的课程转 Skill 八步法

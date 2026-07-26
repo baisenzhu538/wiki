@@ -1,5 +1,4 @@
 ---
-
 id: yt-tool-hiring-scorecard
 title: 结构化面试打分卡
 type: tool
@@ -16,14 +15,14 @@ prerequisites: null
 component_of:
 - src_unknown
 related:
-  - "[[yt-management-scientific-hiring]]"
-  - "[[yt-decision-width-method]]"
-  - "[[master-decision-hygiene]]"
-  - "[[yt-personal-deep-review]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[yt-management-onboarding]]"
-  - "[[yt-management-toolkit-overview]]"
-  - "[[yt-management-company-culture]]"
+- '[[yt-management-scientific-hiring]]'
+- '[[yt-decision-width-method]]'
+- '[[master-decision-hygiene]]'
+- '[[yt-personal-deep-review]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-management-onboarding]]'
+- '[[yt-management-toolkit-overview]]'
+- '[[yt-management-company-culture]]'
 contradicts: null
 query_triggers:
 - src_unknown
@@ -37,7 +36,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
-tags: []
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 trust_level: medium
 yitang:
   map: management
@@ -55,7 +57,6 @@ diagnostic_signals:
 - framework_lens: 打分卡填了但招错人——流程完善≠准确预测。Tetlock证明了'专家预测'的低准确率。如果你从未系统性回溯过'面试评分'和'入职后实际表现'的相关性，你的打分卡只是一个漂亮的置信度幻觉
   follow_up_question: 过去一年录用的5个人，面试打分和6个月后实际表现的差距是多少？如果不知道这个数字——你的结构化流程是科学的仪式，不是科学的工具
 author: 老顽童
-
 ---
 
 # 结构化面试打分卡

@@ -30,6 +30,10 @@ author: 王语嫣
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 review_date: 2026-06-14# 产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 > 来源：听脑录音 5640373/5639853/5638569 + 公开信源六层交叉验证  
 > 置信度：整体 0.82，部分数字为个案/待复核

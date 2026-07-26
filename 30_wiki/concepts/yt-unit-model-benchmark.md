@@ -1,5 +1,4 @@
 ---
-
 id: yt-unit-model-benchmark
 confidence: 0.9
 created_at: 2026-05-24
@@ -20,11 +19,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - "[[yt-unit-model-construction]]"
-  - "[[yt-unit-model-selection]]"
-  - "[[yt-unit-model-dynamic]]"
-  - "[[yt-decision-y-model]]"
-  - "[[yt-unit-model-concept]]"
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-selection]]'
+- '[[yt-unit-model-dynamic]]'
+- '[[yt-decision-y-model]]'
+- '[[yt-unit-model-concept]]'
 source_refs:
 - 10_raw/sources/src_20260610_557408fa-一堂-一堂五步法-单元模型-笔记.md
 - 10_raw/sources/src_20260610_be139711-一堂-一堂五步法-单元模型-口述.md
@@ -59,7 +58,10 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 单元模型基准值：科学类比、三点预测与基准值共建

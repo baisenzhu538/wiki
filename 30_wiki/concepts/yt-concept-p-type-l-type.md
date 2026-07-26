@@ -1,10 +1,6 @@
 ---
-
 domain:
 - yitang
-
-
-
 id: yt-concept-p-type-l-type
 title: P型与L型创业者
 type: concept
@@ -18,27 +14,31 @@ updated_at: '2026-06-28'
 difficulty: beginner
 language: zh-CN
 prerequisites:
-  - src_unknown
+- src_unknown
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-06
 related:
-  - "[[yitang-course-map]]"
-  - "[[yt-entrepreneur-industry-forecast]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[tool-一堂-business-prediction-15-char]]"
-  - "[[pending_unknown]]"
+- '[[yitang-course-map]]'
+- '[[yt-entrepreneur-industry-forecast]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[tool-一堂-business-prediction-15-char]]'
+- '[[pending_unknown]]'
 source_refs:
-  - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+- pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # P型与L型创业者
 

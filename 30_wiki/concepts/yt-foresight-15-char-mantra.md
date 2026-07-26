@@ -43,10 +43,14 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 related:
-- "[[yt-foresight-ab-steady-state]]"
-- "[[yt-foresight-addition-subtraction]]"
-- "[[yt-foresight-business-spectrum]]"
-- "[[framework-一堂-机会预判]]"
+- '[[yt-foresight-ab-steady-state]]'
+- '[[yt-foresight-addition-subtraction]]'
+- '[[yt-foresight-business-spectrum]]'
+- '[[framework-一堂-机会预判]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 十五字黄金法诀：机会预判的核心框架

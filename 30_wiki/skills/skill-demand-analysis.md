@@ -35,6 +35,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 需求分析 Skill：冰山推演全流程

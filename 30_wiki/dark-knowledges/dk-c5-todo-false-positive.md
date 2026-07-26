@@ -1,5 +1,4 @@
 ---
-
 id: dk-c5-todo-false-positive
 title: C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符
 type: dk
@@ -14,9 +13,9 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- "[[kdo-watch-health-check-layer]]"
-- "[[dk-c4-selfcheck-superseded]]"
-- "[[master-cognitive-bias-checklist]]"
+- '[[kdo-watch-health-check-layer]]'
+- '[[dk-c4-selfcheck-superseded]]'
+- '[[master-cognitive-bias-checklist]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -29,6 +28,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 ## 原始表述/核心洞察
 

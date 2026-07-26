@@ -23,6 +23,10 @@ related:
 - '[[case-科学决策-深度案例06]]'
 - tool-yitang-amazon-bestseller
 - tool-yitang-ai-monitoring-alert
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 # 2024-2026战略新变量
 

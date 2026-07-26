@@ -3,24 +3,28 @@ id: tool-Truman-语义对齐沟通法
 title: 技能：语义对齐沟通法
 type: tool
 domain:
-  - ai-collaboration
-  - yitang- yitang
+- ai-collaboration
+- yitang- yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - "[[tool-Truman-科学提问法]]"
-  - "[[tool-Truman-提示词优化底层方法]]"
-  - "[[tool-Truman-技术社区严肃提问法]]"
-  - "[[tool-Truman-问题定义澄清法]]"
-  - "[[tool-Truman-职场异步协作提问法]]"
-  - "[[tool-Truman-AI时代提示词优化法]]"
+- '[[tool-Truman-科学提问法]]'
+- '[[tool-Truman-提示词优化底层方法]]'
+- '[[tool-Truman-技术社区严肃提问法]]'
+- '[[tool-Truman-问题定义澄清法]]'
+- '[[tool-Truman-职场异步协作提问法]]'
+- '[[tool-Truman-AI时代提示词优化法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：语义对齐沟通法
 

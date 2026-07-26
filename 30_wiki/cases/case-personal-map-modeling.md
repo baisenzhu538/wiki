@@ -20,15 +20,18 @@ review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.7
 related:
-- "[[case-truman-personal-growth-map-creation]]"
-- "[[tool-从案例中学习]]"
-- "[[case-科学决策-深度案例06]]"
-- "[[case-科学决策-深度案例02]]"
+- '[[case-truman-personal-growth-map-creation]]'
+- '[[tool-从案例中学习]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[case-科学决策-深度案例02]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 缺少抽象阶梯的顶层收敛——还停留在罗列，没有完成"一横一纵"级的压缩
   follow_up_question: 你能不能用一个不超过 10 个字的结构（如一横一纵、四格天花板）把全部课题装进去？如果写不出，说明还没找到主干。

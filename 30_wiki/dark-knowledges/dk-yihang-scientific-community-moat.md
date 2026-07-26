@@ -16,8 +16,12 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[concept-yihang-methodology-production-pipeline]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[concept-yihang-methodology-production-pipeline]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 科学共同体作为一堂核心资产——冲向最大难题，解不掉就交给下一个人

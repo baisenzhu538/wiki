@@ -20,6 +20,10 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+tags:
+- audience:manager
+- scene:reference
+- skill-level:beginner
 ---
 
 # 提示词有效期预期管理

@@ -31,6 +31,10 @@ diagnostic_signals:
   follow-up: 区分两个版本——融资版不超过3页
 quality_labels:
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 需求分析报告模板：融资版与经营版双版本

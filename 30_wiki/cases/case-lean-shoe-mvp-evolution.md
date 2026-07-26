@@ -26,6 +26,10 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
 - case-lean-building-in-vacuum
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 鞋类产品 MVP 演进
 

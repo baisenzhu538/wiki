@@ -27,23 +27,27 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- "[[framework-yitang-iterative-recursive-digging]]"
-- "[[yitang-research-domain-digest]]"
-- "[[tool-yitang-research-two-dimensional-positioning]]"
-- "[[tool-yitang-research-single-point-sniper]]"
-- "[[tool-yitang-research-follow-map]]"
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-cross-validation]]"
-- "[[tool-yitang-research-quantitative-modeling]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[concept-yitang-research-mindset]]"
-- "[[tool-yitang-comparable-company-selection]]"
-- "[[tool-yitang-user-interview-5steps]]"
-- "[[tool-月白-AI设计里程碑拆解法]]"
-- "[[tool-月白-里程碑思维-找对标优先于做设计]]"
-- "[[tool-月白-里程碑思维拆解设计流程]]"
-- "[[tool-通过综合案例沙盘走通全流程]]"
+- '[[framework-yitang-iterative-recursive-digging]]'
+- '[[yitang-research-domain-digest]]'
+- '[[tool-yitang-research-two-dimensional-positioning]]'
+- '[[tool-yitang-research-single-point-sniper]]'
+- '[[tool-yitang-research-follow-map]]'
+- '[[framework-yitang-oscar-research]]'
+- '[[framework-yitang-18-strategy-cards]]'
+- '[[tool-yitang-research-cross-validation]]'
+- '[[tool-yitang-research-quantitative-modeling]]'
+- '[[dk-yitang-research-starter-vs-veteran]]'
+- '[[concept-yitang-research-mindset]]'
+- '[[tool-yitang-comparable-company-selection]]'
+- '[[tool-yitang-user-interview-5steps]]'
+- '[[tool-月白-AI设计里程碑拆解法]]'
+- '[[tool-月白-里程碑思维-找对标优先于做设计]]'
+- '[[tool-月白-里程碑思维拆解设计流程]]'
+- '[[tool-通过综合案例沙盘走通全流程]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 深度归因：找到问题根因的5Why法

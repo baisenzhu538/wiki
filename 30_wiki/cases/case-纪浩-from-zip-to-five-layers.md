@@ -1,5 +1,4 @@
 ---
-
 id: case-纪浩-from-zip-to-five-layers
 title: 纪浩：从微信传 zip 到五层协作体系
 type: case
@@ -14,26 +13,26 @@ source_refs:
 - 10_raw/sources/src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记.md
 - 10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md
 related:
-  - "[[tool-纪浩-problem-validation-four-checks]]"
-  - "[[case-纪浩-focus-prompt-design]]"
-  - "[[tool-纪浩-Agent开工检查单制作法]]"
-  - "[[tool-纪浩-多视角切换思考法]]"
-  - "[[concept-纪浩-ai-collaboration-five-layer]]"
-  - "[[tool-纪浩-线上问题应急值守]]"
-  - "[[tool-纪浩-Problem与Question区分法]]"
-  - "[[tool-纪浩-新手心态启动法]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[tool-纪浩-里程碑验证法]]"
-  - "[[tool-纪浩-AI对话上下文隔离]]"
-  - "[[tool-纪浩-AI使用边界管理法]]"
-  - "[[tool-纪浩-项目启动五问法]]"
-  - "[[tool-纪浩-AI工作空间与导诊台设计法]]"
-  - "[[case-ji-hao-skills-market]]"
-  - "[[case-半肥猫-course-to-skill]]"
+- '[[tool-纪浩-problem-validation-four-checks]]'
+- '[[case-纪浩-focus-prompt-design]]'
+- '[[tool-纪浩-Agent开工检查单制作法]]'
+- '[[tool-纪浩-多视角切换思考法]]'
+- '[[concept-纪浩-ai-collaboration-five-layer]]'
+- '[[tool-纪浩-线上问题应急值守]]'
+- '[[tool-纪浩-Problem与Question区分法]]'
+- '[[tool-纪浩-新手心态启动法]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[tool-纪浩-里程碑验证法]]'
+- '[[tool-纪浩-AI对话上下文隔离]]'
+- '[[tool-纪浩-AI使用边界管理法]]'
+- '[[tool-纪浩-项目启动五问法]]'
+- '[[tool-纪浩-AI工作空间与导诊台设计法]]'
+- '[[case-ji-hao-skills-market]]'
+- '[[case-半肥猫-course-to-skill]]'
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-08
 updated_at: '2026-06-28'
 pipeline:
@@ -53,7 +52,10 @@ diagnostic_signals:
   follow_up_question: 用"从__变成__"一句话描述 Before-After，并指认一个愿意使用的真实人名
 - framework_lens: L3 Do-first PDCA 顺序错误
   follow_up_question: 能否在 30 分钟内先产出一个最小可验证输出，再根据问题补 Check 和 Plan？
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:beginner
 ---
 
 # 纪浩：从微信传 zip 到五层协作体系

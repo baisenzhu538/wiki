@@ -16,13 +16,17 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- "[[strategy-domain-digest]]"
-- "[[tool-月白-设计师AI工具习惯切换]]"
-- "[[tool-泛产品设计-需求工具箱指南]]"
-- "[[tool-Truman-AI工具选型决策]]"
-- "[[tool-清单小抄工具箱法]]"
-- "[[tool-月白-资深设计师AI工具切换法]]"
-- "[[tool-strategy-value-capture]]"
+- '[[strategy-domain-digest]]'
+- '[[tool-月白-设计师AI工具习惯切换]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[tool-Truman-AI工具选型决策]]'
+- '[[tool-清单小抄工具箱法]]'
+- '[[tool-月白-资深设计师AI工具切换法]]'
+- '[[tool-strategy-value-capture]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 产业链机会与行动计划分析工具

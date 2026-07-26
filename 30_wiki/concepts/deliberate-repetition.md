@@ -1,5 +1,4 @@
 ---
-
 id: deliberate-repetition
 title: 刻意重复
 type: concept
@@ -8,10 +7,10 @@ domain:
 - skill-building
 status: reviewed
 quality_labels:
-  - cited
-  - principle
-  - quality
-  - validated
+- cited
+- principle
+- quality
+- validated
 created_at: 2026-06-29
 updated_at: 2026-06-29
 author: 老顽童
@@ -23,11 +22,15 @@ source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 - 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
 related:
-- "[[deliberate-practice-four-elements]]"
-- "[[practice-card-decomposition]]"
-- "[[fixed-routine-design]]"
-- "[[comfort-zone-expansion]]"
-- "[[timely-feedback-loop]]"
+- '[[deliberate-practice-four-elements]]'
+- '[[practice-card-decomposition]]'
+- '[[fixed-routine-design]]'
+- '[[comfort-zone-expansion]]'
+- '[[timely-feedback-loop]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 刻意重复

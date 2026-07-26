@@ -1,27 +1,31 @@
 ---
 id: framework-agent-card-execution-pattern
-title: "Agent 执行模式：从卡片到可执行动作"
+title: Agent 执行模式：从卡片到可执行动作
 type: framework
 status: draft
 author: 黄药师
 created_at: 2026-07-04
 updated_at: 2026-07-04
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 domain:
-  - kdo
-  - ai-collaboration
+- kdo
+- ai-collaboration
 source_refs:
-  - 30_wiki/tools/agent-spec-dual-triangle-canvas-filler.md
-  - 30_wiki/tools/tool-opc-sales-dialogue-assistant.md
-  - kdo-tools/canvas-agent.py
-  - kdo-tools/agent-prompt-compiler.py
+- 30_wiki/tools/agent-spec-dual-triangle-canvas-filler.md
+- 30_wiki/tools/tool-opc-sales-dialogue-assistant.md
+- kdo-tools/canvas-agent.py
+- kdo-tools/agent-prompt-compiler.py
 related:
-  - "[[agent-spec-dual-triangle-canvas-filler]]"
-  - "[[tool-opc-sales-dialogue-assistant]]"
-  - "[[system-yitang-Y-model-os]]"
-  - "[[agents/agent-os]]"
-  - "[[concept-yihang-dual-triangle-core]]"
+- '[[agent-spec-dual-triangle-canvas-filler]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
+- '[[system-yitang-Y-model-os]]'
+- '[[agents/agent-os]]'
+- '[[concept-yihang-dual-triangle-core]]'
+tags:
+- audience:executor
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # Agent 执行模式：从卡片到可执行动作

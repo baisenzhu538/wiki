@@ -15,8 +15,12 @@ domain:
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
 related:
-- "[[yt-decision-y-model]]"
-- "[[method-yitang-y-model-engine-cycle]]"
+- '[[yt-decision-y-model]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # Y模型 案例：AI+Y模型——充电桩/养老院的黑盒报告 vs 拆开迭代

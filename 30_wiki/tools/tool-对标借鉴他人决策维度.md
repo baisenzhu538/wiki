@@ -38,6 +38,10 @@ related:
 - '[[tool-按月份摊销收入成本做计划]]'
 - '[[tool-稀缺资源机会成本比对法]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：对标借鉴他人决策维度

@@ -28,6 +28,10 @@ related:
 - '[[tool-demand-iceberg-l1-user]]'
 - '[[tool-demand-agent-l4-case-match]]'
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：老年智能设备
 

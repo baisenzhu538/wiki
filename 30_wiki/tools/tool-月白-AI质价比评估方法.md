@@ -32,6 +32,10 @@ related:
 - '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
 - '[[tool-月白-文创材质成本调研与精益选择]]'
 - tool-纪浩-项目启动五问法
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：AI质价比评估方法
 

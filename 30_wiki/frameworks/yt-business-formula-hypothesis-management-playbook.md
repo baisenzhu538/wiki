@@ -82,6 +82,10 @@ quality_labels:
 - framework
 - actionable
 - insight
+tags:
+- audience:manager
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 业务公式假设管理落地策略集：2+3 策略 × 入门/进阶/高阶三级 = 15 格行动矩阵

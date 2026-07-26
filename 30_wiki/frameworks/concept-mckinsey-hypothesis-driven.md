@@ -1,5 +1,4 @@
 ---
-
 id: concept-mckinsey-hypothesis-driven
 title: Hypothesis-Driven Approach：假设驱动工作法
 type: framework
@@ -24,20 +23,23 @@ diagnostic_signals:
 - framework_lens: Hypothesis-Driven 检查：初始假设是否被显式记录并可被证伪
   follow_up_question: 你们各自的核心假设是什么？这些假设中，哪些是可以用2周内的实验证伪的？
 related:
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
-  - "[[yt-entrepreneur-five-step-method]]"
-  - "[[tool-一堂-hypothesis-validation-three-axe]]"
-  - "[[concept-mckinsey-mece]]"
-  - "[[concept-mckinsey-issue-tree]]"
-  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
-  - "[[case-一堂-无人餐厅-hypothesis-failure]]"
-  - "[[yt-business-formula-hypothesis-management-playbook]]"
-  - "[[concept-maister-trusted-advisor]]"
-  - "[[concept-mckinsey-7s]]"
-  - "[[concept-minto-pyramid-principle]]"
-  - "[[concept-toyota-5-whys]]"
-tags: []
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[tool-一堂-hypothesis-validation-three-axe]]'
+- '[[concept-mckinsey-mece]]'
+- '[[concept-mckinsey-issue-tree]]'
+- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+- '[[case-一堂-无人餐厅-hypothesis-failure]]'
+- '[[yt-business-formula-hypothesis-management-playbook]]'
+- '[[concept-maister-trusted-advisor]]'
+- '[[concept-mckinsey-7s]]'
+- '[[concept-minto-pyramid-principle]]'
+- '[[concept-toyota-5-whys]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 version: 1
 created_at: 2026-06-11
 updated_at: '2026-06-16'
@@ -45,7 +47,6 @@ reviewed_by: laowantong
 author: 老顽童
 confidence: 0.85
 trust_level: medium-high
-
 ---
 
 # Hypothesis-Driven Approach：假设驱动工作法

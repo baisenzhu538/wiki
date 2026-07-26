@@ -36,6 +36,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 拆推评算使用指南：工具箱而非工作流

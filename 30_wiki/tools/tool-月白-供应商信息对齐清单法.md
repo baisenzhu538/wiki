@@ -24,14 +24,18 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-AIGC人群画像驱动详情页规划]]"
-  - "[[tool-月白-80分效率设计策略]]"
-  - "[[tool-月白-商业项目AI模型选型决策]]"
-  - "[[tool-月白-产品替换式场景合成法]]"
-  - "[[tool-月白-实物包装落地训练法]]"
-  - "[[tool-checklist-cheatsheet-modeling]]"
-  - "[[tool-月白-AI设计落地文件标准生成]]"
-  - "[[tool-月白-图像信息逆向解析训练]]"
+- '[[tool-月白-AIGC人群画像驱动详情页规划]]'
+- '[[tool-月白-80分效率设计策略]]'
+- '[[tool-月白-商业项目AI模型选型决策]]'
+- '[[tool-月白-产品替换式场景合成法]]'
+- '[[tool-月白-实物包装落地训练法]]'
+- '[[tool-checklist-cheatsheet-modeling]]'
+- '[[tool-月白-AI设计落地文件标准生成]]'
+- '[[tool-月白-图像信息逆向解析训练]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：供应商信息对齐清单法
 

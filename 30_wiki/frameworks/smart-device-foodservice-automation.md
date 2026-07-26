@@ -30,6 +30,10 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: 2026-06-14
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 # 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式
 

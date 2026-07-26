@@ -1,5 +1,4 @@
 ---
-
 id: framework-wanghuan-ooda-loop
 title: 王欢OODA闭环：人机协作的决策迭代框架
 type: framework
@@ -22,19 +21,22 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[framework-wanghuan-bitcoe-prompt-framework]]"
-  - "[[framework-wanghuan-task-product-system]]"
-  - "[[framework-wanghuan-gan-three-roles]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[framework-ai2041-critical-reading-os]]"
+- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- '[[framework-wanghuan-task-product-system]]'
+- '[[framework-wanghuan-gan-three-roles]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[framework-ai-deconstruction-methodology]]'
+- '[[framework-ai2041-critical-reading-os]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 diagnostic_signals:
 - lens: 观察瘫痪
   follow_up: 当前卡在哪个 OODA 环节？能否定义最小观察集，先转完一圈再迭代？
@@ -44,7 +46,6 @@ diagnostic_signals:
   follow_up: 能否把决策拆成一个可验证的小实验，用下一轮观察来降低不确定性？
 - lens: 行动不闭环
   follow_up: 每次行动是否设计了明确的反馈信号，并写入了下一轮观察清单？
-
 ---
 
 # 王欢OODA闭环：人机协作的决策迭代框架

@@ -52,6 +52,10 @@ domain_sources:
 - 30_wiki/frameworks/framework-yihang-dual-triangle-three-stages-six-changes.md
 - 30_wiki/frameworks/framework-yihang-dual-triangle-ai-landing-five-steps.md
 - 30_wiki/methods/method-dual-triangle-flywheel-engine.md
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 双三角画布填充 Agent（对话教练版）v4

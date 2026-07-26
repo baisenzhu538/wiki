@@ -29,6 +29,10 @@ related:
 - '[[tool-将未中标成本纳入循环计算真实投标成本]]'
 - '[[tool-费曼学习法三句话提炼]]'
 - tool-从案例中学习正反案例法
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：从案例中学习
 

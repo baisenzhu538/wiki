@@ -1,5 +1,4 @@
 ---
-
 id: dk-infrastructure-guardrails-over-checklist
 title: 基础设施工具不能只有检查清单，还必须有硬护栏
 type: dk
@@ -11,20 +10,18 @@ domain:
 - ai-collaboration
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修：C-10/C-11/P-16/P-8 共同暴露的护栏缺失问题
-source_refs:
+source_refs: null
 related:
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-制作行业化要素检查清单]]"
-  - "[[tool-月白-供应商信息对齐清单法]]"
-  - "[[tool-稀缺资源清单]]"
-  - "[[tool-清单式笔记法]]"
-  - "[[tool-用清单体记备忘笔记]]"
-  - "[[tool-月白-工厂对接信息清单制作]]"
-  - "[[轻量级诊所HIS调研全清单]]"
-  - "[[tool-清单小抄工具箱法]]"
-bridges_to:
-
-
+- '[[ai-collaboration-domain-digest]]'
+- '[[tool-制作行业化要素检查清单]]'
+- '[[tool-月白-供应商信息对齐清单法]]'
+- '[[tool-稀缺资源清单]]'
+- '[[tool-清单式笔记法]]'
+- '[[tool-用清单体记备忘笔记]]'
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[轻量级诊所HIS调研全清单]]'
+- '[[tool-清单小抄工具箱法]]'
+bridges_to: null
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
@@ -41,7 +38,10 @@ diagnostic_signals:
   framework_lens: 验证器本身无校验
   follow_up_question: 验证器的结果是否被另一个独立数据源交叉校验过？# 基础设施工具不能只有检查清单，还必须有硬护栏
 updated_at: 2026-06-28
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述 / 核心洞察

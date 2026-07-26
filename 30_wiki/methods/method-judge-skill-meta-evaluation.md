@@ -17,11 +17,11 @@ domain:
 source_refs:
 - C:/Users/Administrator/Desktop/从知识库到agent.txt
 related:
-- "[[method-kdo-agent-design-meta]]"
-- "[[agent-spec-dual-triangle-canvas-filler]]"
-- "[[framework-yihang-dual-triangle-weapon-library]]"
-- "[[method-kdo-agent-distillation]]"
-- "[[dk-ai-collaboration-degradation-spiral]]"
+- '[[method-kdo-agent-design-meta]]'
+- '[[agent-spec-dual-triangle-canvas-filler]]'
+- '[[framework-yihang-dual-triangle-weapon-library]]'
+- '[[method-kdo-agent-distillation]]'
+- '[[dk-ai-collaboration-degradation-spiral]]'
 diagnostic_signals:
 - signal: Skill/Agent-spec 上线后效果不稳定，有时好有时差
   lens: 缺质量门控——Skill 没有内置自检机制
@@ -36,6 +36,10 @@ quality_labels:
 - actionable
 - principle
 - validated
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # Judge Skill——评判 Skill 的 Skill：五维度元评估与3轮迭代法

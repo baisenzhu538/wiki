@@ -39,6 +39,10 @@ related:
 - '[[tool-yitang-weapon-user-direct-interview]]'
 - framework-yitang-growth-flywheel
 - tool-yitang-research-continuous-tracking
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 社会工程学调研：身份设计与信息获取的合法边界

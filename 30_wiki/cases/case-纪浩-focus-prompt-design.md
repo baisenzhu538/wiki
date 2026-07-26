@@ -1,5 +1,4 @@
 ---
-
 id: case-纪浩-focus-prompt-design
 title: 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接
 type: case
@@ -34,23 +33,26 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-07
 updated_at: '2026-06-28'
 related:
-  - "[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]"
-  - "[[tool-月白-口述作图法（口喷设计）]]"
-  - "[[tool-月白-设计能力蒸馏封装法]]"
-  - "[[tool-月白-AIGC设计作业复盘法]]"
-  - "[[tool-月白-AI设计反馈萃取法]]"
-  - "[[tool-月白-设计文件八要素命名法]]"
-  - "[[tool-月白-设计项目MVP拆解法]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[case-纪浩-from-zip-to-five-layers]]"
+- '[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]'
+- '[[tool-月白-口述作图法（口喷设计）]]'
+- '[[tool-月白-设计能力蒸馏封装法]]'
+- '[[tool-月白-AIGC设计作业复盘法]]'
+- '[[tool-月白-AI设计反馈萃取法]]'
+- '[[tool-月白-设计文件八要素命名法]]'
+- '[[tool-月白-设计项目MVP拆解法]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[case-纪浩-from-zip-to-five-layers]]'
 author: 纪浩
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -67,7 +69,6 @@ diagnostic_signals:
 - framework_lens: Migration Stop Point 硬门禁缺失
   follow_up_question: 这个改动是否必须新增 indexed/generated fields、专表或 DB migration？如果是，有没有先停下进入
     schema/data contract gate？
-
 ---
 
 # 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接

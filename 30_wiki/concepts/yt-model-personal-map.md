@@ -16,11 +16,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[一堂]]"
-- "[[yt-model-progress-map]]"
-- "[[yt-model-y-organization]]"
-- "[[yt-model-ipo-learning-strategy]]"
-- "[[pending_unknown]]"
+- '[[一堂]]'
+- '[[yt-model-progress-map]]'
+- '[[yt-model-y-organization]]'
+- '[[yt-model-ipo-learning-strategy]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
@@ -44,6 +44,10 @@ diagnostic_signals:
   follow_up_question: 你每天有多少时间是被自己主动规划的？如果<50%，先别谈人生红点，先死磕基础层
 author: 老顽童
 trust_level: medium-high
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 一堂个人地图：高潜力成长者修炼全景图

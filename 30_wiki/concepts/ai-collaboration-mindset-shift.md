@@ -12,13 +12,13 @@ source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 component_of: null
 related:
-  - "[[pending_unknown]]"
-  - "[[ai-learning-closed-loop]]"
-  - "[[structured-ai-workspace]]"
-  - "[[ai-landing-scene-selection]]"
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[dk-ai-design-pitfalls]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
+- '[[pending_unknown]]'
+- '[[ai-learning-closed-loop]]'
+- '[[structured-ai-workspace]]'
+- '[[ai-landing-scene-selection]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[dk-ai-design-pitfalls]]'
+- '[[tool-ai-deliverable-polish-loop]]'
 query_triggers:
 - src_unknown
 - src_unknown
@@ -42,6 +42,10 @@ diagnostic_signals:
   follow_up: 定义before/after、真实锚点、受益对象、可解性四要素
 - lens: 执行者循环
   follow_up: 检查是否在做管理者动作：派活、验收、纠偏，而非只复制粘贴
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 # AI协作思维转变：从"新手"到"管理者"
 

@@ -27,6 +27,10 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - '[[tool-月白-电商白底图生成与场景图匹配]]'
 - case-opc-agent-wave1-real-model-testing
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # 案例：VPN场景
 

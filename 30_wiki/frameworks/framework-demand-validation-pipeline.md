@@ -7,11 +7,11 @@ domain:
 - yitang
 status: reviewed
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
+- cited
+- insight
+- principle
+- quality
+- validated
 created_at: 2026-06-28
 updated_at: 2026-07-02
 author: 老顽童
@@ -22,15 +22,19 @@ trust_level: high
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - "[[framework-demand-lean-bridge]]"
-  - "[[case-demand-b2b-enterprise-erp]]"
-  - "[[case-demand-b2c-consumer-insight]]"
-  - "[[yt-demand-early-validation]]"
-  - "[[tool-lean-fake-product]]"
-  - "[[dk-demand-signal-vs-noise]]"
-  - "[[yt-demand-hierarchy-model]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
+- '[[framework-demand-lean-bridge]]'
+- '[[case-demand-b2b-enterprise-erp]]'
+- '[[case-demand-b2c-consumer-insight]]'
+- '[[yt-demand-early-validation]]'
+- '[[tool-lean-fake-product]]'
+- '[[dk-demand-signal-vs-noise]]'
+- '[[yt-demand-hierarchy-model]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-value-proposition-4step]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 需求验证流水线
 

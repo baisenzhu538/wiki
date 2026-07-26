@@ -27,20 +27,23 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- "[[framework-yitang-iterative-recursive-digging]]"
-- "[[yitang-research-domain-digest]]"
-- "[[tool-yitang-research-exhaust-means]]"
-- "[[tool-yitang-research-single-point-sniper]]"
-- "[[tool-yitang-research-follow-map]]"
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-high-level-plan]]"
-- "[[concept-yitang-research-scope]]"
-- "[[yt-research-osl-framework]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[dk-yitang-research-starter-vs-veteran]]"
-- "[[dk-yitang-research-ai-hallucination]]"
-- "[[concept-yitang-research-mindset]]"
-
+- '[[framework-yitang-iterative-recursive-digging]]'
+- '[[yitang-research-domain-digest]]'
+- '[[tool-yitang-research-exhaust-means]]'
+- '[[tool-yitang-research-single-point-sniper]]'
+- '[[tool-yitang-research-follow-map]]'
+- '[[framework-yitang-oscar-research]]'
+- '[[framework-yitang-high-level-plan]]'
+- '[[concept-yitang-research-scope]]'
+- '[[yt-research-osl-framework]]'
+- '[[case-yitang-sanjieke-benchmark-failure]]'
+- '[[dk-yitang-research-starter-vs-veteran]]'
+- '[[dk-yitang-research-ai-hallucination]]'
+- '[[concept-yitang-research-mindset]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 调研目标锁定：从"了解"到"决策"的认知跃迁

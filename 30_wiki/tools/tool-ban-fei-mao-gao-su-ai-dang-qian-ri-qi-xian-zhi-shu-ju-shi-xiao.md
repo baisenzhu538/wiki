@@ -1,5 +1,4 @@
 ---
-
 id: tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao
 title: 技能：告诉 AI 当前日期限制数据时效
 type: tool
@@ -17,11 +16,11 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-  - "[[concept-半肥猫-ai-learning-toolification-methodology]]"
-  - "[[tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]"
-  - "[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]"
-  - "[[dk-ban-fei-mao-silky-answer-warning]]"
-  - "[[case-ban-fei-mao-skill-ab-test]]"
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]'
+- '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+- '[[dk-ban-fei-mao-silky-answer-warning]]'
+- '[[case-ban-fei-mao-skill-ab-test]]'
 created_at: '2026-06-07'
 updated_at: '2026-06-28'
 pipeline:
@@ -39,7 +38,10 @@ diagnostic_signals:
   follow_up: 同时声明'不得使用训练数据中的过时信息，优先使用最新可得数据'
 - lens: 行业时效标准未定义
   follow_up: 补充说明该领域多久以前的数据应视为失效（如科技行业 1 年、传统制造业 5 年）
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：告诉 AI 当前日期限制数据时效

@@ -7,33 +7,46 @@ author: laowantong
 confidence: 0.82
 trust_level: medium
 domain:
-  - management
+- management
 source_refs:
-  - "00_inbox/坏世界研究/拆书会第212期_坏世界研究_逐字稿.md"
-  - "00_inbox/坏世界研究/赵汀阳-坏世界研究-拆书-口述.txt"
-aliases: ["协作哲学","制度设计哲学","为什么协作这么难","一人公司协作底层"]
-discoverable_by: ["协作冲突","规则失效","合作伙伴纠纷","一人公司管理","分钱方案设计"]
+- 00_inbox/坏世界研究/拆书会第212期_坏世界研究_逐字稿.md
+- 00_inbox/坏世界研究/赵汀阳-坏世界研究-拆书-口述.txt
+aliases:
+- 协作哲学
+- 制度设计哲学
+- 为什么协作这么难
+- 一人公司协作底层
+discoverable_by:
+- 协作冲突
+- 规则失效
+- 合作伙伴纠纷
+- 一人公司管理
+- 分钱方案设计
 related:
-  - framework-yitang-shishi-qiushi
-  - yt-management-company-culture
-  - yt-management-founder-role
-  - tool-position-switching-test
-  - tool-game-environment-checklist
-  - framework-kdo-modeling-methodology
+- framework-yitang-shishi-qiushi
+- yt-management-company-culture
+- yt-management-founder-role
+- tool-position-switching-test
+- tool-game-environment-checklist
+- framework-kdo-modeling-methodology
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 待审
 diagnostic_signals:
-  - signal: "协作总是出问题但不知道根本原因"
-    lens: 七层悖论链逐层诊断
-    follow_up: 定位到具体哪一层悖论
-  - signal: "规则定得很好但执行不下去"
-    lens: 检查可信性（金句16：可信即可行）
-    follow_up: 用博弈环境自检清单
-  - signal: "分钱方案大家都说公平但还是有人不满"
-    lens: 公平≠公正（金句14），用地位互换测试
-    follow_up: 换椅子重新评估规则本身
+- signal: 协作总是出问题但不知道根本原因
+  lens: 七层悖论链逐层诊断
+  follow_up: 定位到具体哪一层悖论
+- signal: 规则定得很好但执行不下去
+  lens: 检查可信性（金句16：可信即可行）
+  follow_up: 用博弈环境自检清单
+- signal: 分钱方案大家都说公平但还是有人不满
+  lens: 公平≠公正（金句14），用地位互换测试
+  follow_up: 换椅子重新评估规则本身
 quality_labels: cited
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > **定位**：属于 management 域·协作管理底层哲学。不教具体管理工具——教的是「为什么协作工具会失效」的底层逻辑。来源：莫非口述解读赵汀阳《坏世界研究》（二手来源）。

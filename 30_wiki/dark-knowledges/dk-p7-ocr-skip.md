@@ -1,5 +1,4 @@
 ---
-
 id: dk-p7-ocr-skip
 title: P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
 type: dk
@@ -13,7 +12,7 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
-related:
+related: null
 pipeline:
 - src_unknown
 - src_unknown
@@ -27,7 +26,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述/核心洞察

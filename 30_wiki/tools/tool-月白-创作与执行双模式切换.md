@@ -32,6 +32,10 @@ related:
 - '[[tool-月白-控制产品画面尺寸比例]]'
 - framework-yitang-shishi-qiushi
 - yt-model-entrepreneur-map
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：创作与执行双模式切换
 

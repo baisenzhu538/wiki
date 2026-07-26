@@ -25,15 +25,19 @@ reviewed_at: '2026-07-04'
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-AI图片风格逆向提取（抄图法）]]"
-- "[[tool-月白-产品反光修复术]]"
-- "[[tool-月白-Token效价比决策公式]]"
-- "[[tool-月白-控制产品画面尺寸比例]]"
-- "[[tool-月白-AIGC橱窗陈列设计流程]]"
-- "[[tool-月白-AI电商图人工过审处理]]"
-- "[[tool-月白-Token智甲比控制法]]"
-- "[[tool-月白-智能扩图-拓图双方案]]"
-- "[[tool-纪浩-处理AI生成代码运行异常]]"
+- '[[tool-月白-AI图片风格逆向提取（抄图法）]]'
+- '[[tool-月白-产品反光修复术]]'
+- '[[tool-月白-Token效价比决策公式]]'
+- '[[tool-月白-控制产品画面尺寸比例]]'
+- '[[tool-月白-AIGC橱窗陈列设计流程]]'
+- '[[tool-月白-AI电商图人工过审处理]]'
+- '[[tool-月白-Token智甲比控制法]]'
+- '[[tool-月白-智能扩图-拓图双方案]]'
+- '[[tool-纪浩-处理AI生成代码运行异常]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：AI图片去文字处理

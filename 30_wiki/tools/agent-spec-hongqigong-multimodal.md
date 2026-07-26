@@ -1,37 +1,41 @@
 ---
 id: agent-spec-hongqigong-multimodal
-title: "洪七公 Multimodal Agent — KDO 多模态渲染与视觉资产生产引擎"
+title: 洪七公 Multimodal Agent — KDO 多模态渲染与视觉资产生产引擎
 type: agent-spec
 status: draft
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - multimodal
-  - agent-capability
+- multimodal
+- agent-capability
 author: 黄药师
 reviewed_by: 待审
-created_at: "2026-07-21"
-updated_at: "2026-07-21"
+created_at: '2026-07-21'
+updated_at: '2026-07-21'
 quality_labels:
-  - actionable
+- actionable
 source_refs:
-  - .agent/hongqigong-context.md
-  - 40_outputs/capabilities/role-profiles/hongqigong-profile.md
-  - 40_outputs/capabilities/role-profiles/hongqigong-yinyin-soul.md
-  - 40_outputs/capabilities/skills/shared/beikai-multimodal-pipeline/SKILL.md
-  - 40_outputs/capabilities/skills/shared/vlm-image-describe-pipeline/SKILL.md
-  - 40_outputs/capabilities/skills/shared/comfyui-local/SKILL.md
-  - 40_outputs/capabilities/skills/shared/drawio-mcp-diagrams/SKILL.md
-  - 40_outputs/capabilities/skills/shared/wan-video-generation/SKILL.md
-  - 40_outputs/capabilities/skills/shared/presenton-ppt-generator/SKILL.md
-  - 40_outputs/capabilities/skills/shared/cosyvoice-tts/SKILL.md
-  - 40_outputs/capabilities/skills/shared/multi-page-article-capture/SKILL.md
-  - 40_outputs/capabilities/workflows/video-production-flow.md
+- .agent/hongqigong-context.md
+- 40_outputs/capabilities/role-profiles/hongqigong-profile.md
+- 40_outputs/capabilities/role-profiles/hongqigong-yinyin-soul.md
+- 40_outputs/capabilities/skills/shared/beikai-multimodal-pipeline/SKILL.md
+- 40_outputs/capabilities/skills/shared/vlm-image-describe-pipeline/SKILL.md
+- 40_outputs/capabilities/skills/shared/comfyui-local/SKILL.md
+- 40_outputs/capabilities/skills/shared/drawio-mcp-diagrams/SKILL.md
+- 40_outputs/capabilities/skills/shared/wan-video-generation/SKILL.md
+- 40_outputs/capabilities/skills/shared/presenton-ppt-generator/SKILL.md
+- 40_outputs/capabilities/skills/shared/cosyvoice-tts/SKILL.md
+- 40_outputs/capabilities/skills/shared/multi-page-article-capture/SKILL.md
+- 40_outputs/capabilities/workflows/video-production-flow.md
 related:
-  - agent-spec-duanwangye-publisher
-  - skill-duanwangye-feishu-publishing
-  - content-production-polish
-  - framework-visual-analysis-four-dimensions
+- agent-spec-duanwangye-publisher
+- skill-duanwangye-feishu-publishing
+- content-production-polish
+- framework-visual-analysis-four-dimensions
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 洪七公 Multimodal Agent — KDO 多模态渲染与视觉资产生产引擎

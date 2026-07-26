@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-触点质量五维
 title: 一堂触点质量五维：宽度/深度/承载力/主动被动/情绪的雷达评估法
 type: tool
@@ -38,6 +37,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂触点质量五维：宽度/深度/承载力/主动被动/情绪的雷达评估法

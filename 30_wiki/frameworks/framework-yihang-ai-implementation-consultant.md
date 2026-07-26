@@ -5,7 +5,7 @@ type: framework
 status: draft
 author: 老顽童
 reviewed_by: pending
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 created_at: 2026-07-05
@@ -16,8 +16,12 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-AI-native-dual-triangle-kernel]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-AI-native-dual-triangle-kernel]]'
+tags:
+- audience:executor
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # AI 落地顾问培养体系——双三角笃定 + 技术产品背景 + 学习能力 + 价值观

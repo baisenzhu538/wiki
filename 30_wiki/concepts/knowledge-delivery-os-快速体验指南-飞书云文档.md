@@ -15,14 +15,18 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 related:
-- "[[concept-wanghuan-tacit-knowledge-examples]]"
-- "[[yt-management-team-knowledge]]"
-- "[[tool-泛产品设计-需求工具箱指南]]"
-- "[[fix-dark-knowledge-extractor-llm]]"
-- "[[master-knowledge-compound]]"
-- "[[HIS系统开发实现方案-架构师指南]]"
-- "[[yt-personal-knowledge-extraction]]"
-- "[[yt-tool-knowledge-extraction]]"
+- '[[concept-wanghuan-tacit-knowledge-examples]]'
+- '[[yt-management-team-knowledge]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[fix-dark-knowledge-extractor-llm]]'
+- '[[master-knowledge-compound]]'
+- '[[HIS系统开发实现方案-架构师指南]]'
+- '[[yt-personal-knowledge-extraction]]'
+- '[[yt-tool-knowledge-extraction]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # Knowledge Delivery OS 快速体验指南

@@ -12,7 +12,10 @@ source_refs:
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 - pending_archive:src_20260614_a024fb17-Truman-高阶建模-抽象建模-案例-图-02
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-tags: []
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 created_at: 2026-06-15
 updated_at: '2026-06-29'
 author: 老顽童

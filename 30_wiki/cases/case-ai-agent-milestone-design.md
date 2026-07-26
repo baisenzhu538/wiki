@@ -1,5 +1,4 @@
 ---
-
 id: case-ai-agent-milestone-design
 title: AI Agent 里程碑设计：42 轮口授反馈实战
 type: case
@@ -17,12 +16,16 @@ trust_level: high
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - "[[dk-modeling-unit-pairs-milestone]]"
-  - "[[tool-iterative-recursive-deep-dig]]"
-  - "[[framework-course-milestone-model]]"
-  - "[[tool-ai-skill-engineering-method]]"
-  - "[[case-demand-travel-agent]]"
-  - "[[case-ji-hao-skills-market]]"
+- '[[dk-modeling-unit-pairs-milestone]]'
+- '[[tool-iterative-recursive-deep-dig]]'
+- '[[framework-course-milestone-model]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[case-demand-travel-agent]]'
+- '[[case-ji-hao-skills-market]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 > **Burn line**: 全程不动手，42 轮口授反馈，AI 3 小时产出人类可能需要两三周的方法论 + 组件库。

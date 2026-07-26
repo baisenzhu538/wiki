@@ -24,6 +24,10 @@ related:
 - '[[pending_unknown]]'
 - tool-yitang-ai-assisted-analysis
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # 规模化中的调研委派
 

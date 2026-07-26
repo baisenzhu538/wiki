@@ -15,11 +15,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[一堂]]"
-- "[[一堂方法论体系总图]]"
-- "[[yt-model-muse-ai-framework]]"
-- "[[yt-personal-ai-capability]]"
-- "[[yt-personal-ipo-learning]]"
+- '[[一堂]]'
+- '[[一堂方法论体系总图]]'
+- '[[yt-model-muse-ai-framework]]'
+- '[[yt-personal-ai-capability]]'
+- '[[yt-personal-ipo-learning]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
@@ -43,6 +43,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 双三角竞争力模型 (Yitang Dual Triangle Model)

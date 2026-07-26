@@ -1,55 +1,58 @@
 ---
-id: "concept-cognitive-offloading-in-ai-era"
-title: "AI 时代的认知卸载：什么交给 AI，什么必须保留"
-type: "concept"
+id: concept-cognitive-offloading-in-ai-era
+title: AI 时代的认知卸载：什么交给 AI，什么必须保留
+type: concept
 domain:
-  - "ai-collaboration"
+- ai-collaboration
 status: reviewed
 confidence: 0.78
-difficulty: "intermediate"
-language: "zh-CN"
-created_at: "2026-07-01T00:00:00+00:00"
+difficulty: intermediate
+language: zh-CN
+created_at: '2026-07-01T00:00:00+00:00'
 updated_at: 2026-07-02
-author: "老顽童"
-reviewed_by: "欧阳锋"
-trust_level: "medium"
+author: 老顽童
+reviewed_by: 欧阳锋
+trust_level: medium
 source_refs:
-  - "60_feedback/audit/20260701-wobeirushen-validation-report.md"
-  - "00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt"
-  - "00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt"
+- 60_feedback/audit/20260701-wobeirushen-validation-report.md
+- 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
+- 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt
 query_triggers:
-  - 什么是认知卸载
-  - AI 时代应该把什么交给 AI
-  - 过度依赖 AI 有什么风险
-  - 如何避免认知能力退化
-  - 杠铃策略在 AI 使用中怎么用
+- 什么是认知卸载
+- AI 时代应该把什么交给 AI
+- 过度依赖 AI 有什么风险
+- 如何避免认知能力退化
+- 杠铃策略在 AI 使用中怎么用
 aliases:
-  - cognitive-offloading
-  - 认知卸载
-  - AI 认知外包
+- cognitive-offloading
+- 认知卸载
+- AI 认知外包
 tags:
-  - "#scene/ai-collaboration"
-  - "#scene/learning"
+- '#scene/ai-collaboration'
+- '#scene/learning'
+- audience:general
+- scene:reference
+- skill-level:intermediate
 quality_labels:
-  - cited
-  - validated
+- cited
+- validated
 related:
-  - "[[framework-kdo-self-attack]]"
-  - "[[master-decision-hygiene]]"
-  - "[[concept-abundance-paradox]]"
-  - "[[framework-ai-deliberate-practice-loop]]"
-  - "[[learning-thinking]]"
-  - "[[deliberate-practice-four-elements]]"
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[case-bmw-human-ai-collaboration-idle-time]]"
-  - "[[case-ai-writing-homogenization]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[dk-ai-design-pitfalls]]"
-  - "[[tool-ai-use-barbell-strategy]]"
-  - "[[concept-ji-hao-ai-collaboration-methodology]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
+- '[[framework-kdo-self-attack]]'
+- '[[master-decision-hygiene]]'
+- '[[concept-abundance-paradox]]'
+- '[[framework-ai-deliberate-practice-loop]]'
+- '[[learning-thinking]]'
+- '[[deliberate-practice-four-elements]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[case-bmw-human-ai-collaboration-idle-time]]'
+- '[[case-ai-writing-homogenization]]'
+- '[[framework-yitang-nine-layer-deep-dig]]'
+- '[[dk-ai-design-pitfalls]]'
+- '[[tool-ai-use-barbell-strategy]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
+- '[[tool-ai-deliverable-polish-loop]]'
 pipeline:
-  - "confidence-draft"
+- confidence-draft
 ---
 # AI 时代的认知卸载：什么交给 AI，什么必须保留
 

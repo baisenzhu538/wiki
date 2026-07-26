@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-12大易浪费触点
 title: 一堂12大易浪费触点：SABC四级触点清单与小抄卡牌法
 type: tool
@@ -36,10 +35,13 @@ related:
 - '[[case-一堂-优秀案例逐字稿合集]]'
 - '[[case-一堂-一堂自身转化实践]]'
 - '[[tool-一堂-五种挖触点]]'
-
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂12大易浪费触点：SABC四级触点清单与小抄卡牌法

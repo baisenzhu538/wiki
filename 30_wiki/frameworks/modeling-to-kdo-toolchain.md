@@ -12,9 +12,9 @@ domain:
 - src_unknown
 - src_unknown
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: '2026-06-14'
 author: 黄药师
 reviewed_by: 老顽童
@@ -22,22 +22,25 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: '2026-06-14'
 trust_level: high
 related:
-- "[[case-纪浩-from-zip-to-five-layers]]"
-- "[[kdo-input-channel-strategy-2026-06-16]]"
-- "[[kdo-protocol]]"
-- "[[tool-泛产品落地-内核和边界]]"
-- "[[kdo-batch-produce-req014]]"
-- "[[tool-泛产品落地-灵感闪现]]"
-- "[[tool-泛产品落地-业务建模]]"
-- "[[tool-泛产品落地-解放思想]]"
-- "[[tool-月白-AI图片印刷落地预处理]]"
-- "[[framework-kdo-self-attack]]"
-- "[[kdo-yaml-frontmatter-safety]]"
+- '[[case-纪浩-from-zip-to-five-layers]]'
+- '[[kdo-input-channel-strategy-2026-06-16]]'
+- '[[kdo-protocol]]'
+- '[[tool-泛产品落地-内核和边界]]'
+- '[[kdo-batch-produce-req014]]'
+- '[[tool-泛产品落地-灵感闪现]]'
+- '[[tool-泛产品落地-业务建模]]'
+- '[[tool-泛产品落地-解放思想]]'
+- '[[tool-月白-AI图片印刷落地预处理]]'
+- '[[framework-kdo-self-attack]]'
+- '[[kdo-yaml-frontmatter-safety]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:manager
+- scene:diagnosis
+- skill-level:advanced
 diagnostic_signals:
 - framework_lens: 三段论门禁映射
   follow_up_question: 你的卡处于L3（流程）、L4（抽象）还是L5（本质）？对应的门禁标准不同。

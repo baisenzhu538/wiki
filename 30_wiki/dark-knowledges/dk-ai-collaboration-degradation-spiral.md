@@ -6,7 +6,7 @@ status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-05
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 created_at: 2026-07-05
@@ -17,11 +17,15 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-dual-triangle-flywheel-engine]]"
-- "[[concept-yihang-human-in-the-loop-dual-triangle]]"
-- "[[dk-yitang-sales-common-pitfalls]]"
-- "[[method-yitang-y-model-engine-cycle]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+- '[[concept-yihang-human-in-the-loop-dual-triangle]]'
+- '[[dk-yitang-sales-common-pitfalls]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 人机协作退化螺旋：飞轮反转的两种死亡模式

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-anonymous-roundtable
 title: 匿名座谈：以第三方身份组织行业讨论
 type: tool
@@ -17,12 +16,16 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-updated_at: "2026-06-30T16:07:51+00:00"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+updated_at: '2026-06-30T16:07:51+00:00'
+tags:
+- audience:manager
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 匿名座谈

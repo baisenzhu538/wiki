@@ -18,15 +18,15 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[concept-一堂-kernel-iteration]]"
-  - "[[concept-一堂-product-kernel]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[yt-product-kernel-validation]]"
-  - "[[yt-product-kernel-six-levels]]"
-  - "[[yt-product-kernel-to-business-model]]"
-  - "[[yt-product-kernel-cultivation]]"
-  - "[[tool-敏捷发布快速迭代搭建体系]]"
-  - "[[tool-纪浩-Do-first-PDCA渐进迭代法]]"
+- '[[concept-一堂-kernel-iteration]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[concept-一堂-kernel-validation]]'
+- '[[yt-product-kernel-validation]]'
+- '[[yt-product-kernel-six-levels]]'
+- '[[yt-product-kernel-to-business-model]]'
+- '[[yt-product-kernel-cultivation]]'
+- '[[tool-敏捷发布快速迭代搭建体系]]'
+- '[[tool-纪浩-Do-first-PDCA渐进迭代法]]'
 diagnostic_signals:
 - framework_lens: 产品内核迭代——内核需要随市场变化而迭代
   follow_up_question: 你的内核从定义到现在变化过吗？当前触发的是五种方向中的哪一种？
@@ -38,6 +38,10 @@ diagnostic_signals:
   follow_up_question: 你当前在哪个阶段（0→1 / 1→10 / 10→N）？对应的推荐方向是什么？
 - framework_lens: 产品内核迭代——迭代方向需要团队共识
   follow_up_question: 你们团队对迭代方向有共识吗？是基于数据触发还是主观判断？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 产品内核迭代：五方向 × 五案例 × 触发信号

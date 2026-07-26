@@ -21,11 +21,13 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-
-
 - '[[concept-ai-native-organization-five-steps]]'
 - tool-yitang-research-cross-validation
 - tool-yitang-research-company-disassembly
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # AI调研十大假设

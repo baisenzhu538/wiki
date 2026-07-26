@@ -23,6 +23,10 @@ related:
 - '[[pending_unknown]]'
 - '[[tool-strategy-value-capture]]'
 - yt-business-model-definition
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 业务单元业务设计模板

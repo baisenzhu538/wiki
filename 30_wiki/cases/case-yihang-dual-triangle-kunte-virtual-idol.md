@@ -6,7 +6,7 @@ status: reviewed
 author: 洪七公（VLM提取）+ 老顽童（enrich）
 reviewed_by: 欧阳锋
 review_date: 2026-07-04
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 created_at: 2026-07-04
@@ -17,8 +17,12 @@ domain:
 source_refs:
 - pending_archive
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[case-yihang-dual-triangle-guoshuai-ai-editorial]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[case-yihang-dual-triangle-guoshuai-ai-editorial]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 双三角案例：鲲特虚拟艺人——AI 产出越多，人类筛选越值钱

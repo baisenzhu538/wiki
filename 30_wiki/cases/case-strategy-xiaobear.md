@@ -21,6 +21,10 @@ related:
 - '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
 - '[[pending_unknown]]'
 - case-strategy-practice-12-zero-loss
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 **反常识**：家电品牌定位年轻单身男性——"最穷最没消费欲的人群"
 **成功**：别人都在抢家庭主妇，小熊电器选了被所有人忽略的群体——年轻人租房，需要便宜的小家电

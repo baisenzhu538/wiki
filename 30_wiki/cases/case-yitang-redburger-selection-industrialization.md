@@ -13,10 +13,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
@@ -24,16 +24,20 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-汉堡难点_vlm_desc.md
 source_person: Truman
 related:
-- "[[framework-yitang-channel-industrialization]]"
-- "[[framework-yitang-channel-exploration-4step]]"
-- "[[framework-yitang-channel-unit-economics]]"
-- "[[tool-yitang-channel-industrialization-node-design]]"
-- "[[case-yitang-lianjia-site-selection-industrialization]]"
-- "[[case-yitang-yitu-lead-industrialization]]"
-- "[[tool-区分获客渠道计算单元roi]]"
-- "[[framework-lean-abcd-model]]"
-- "[[case-lean-shampoo-selling-points]]"
+- '[[framework-yitang-channel-industrialization]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[tool-yitang-channel-industrialization-node-design]]'
+- '[[case-yitang-lianjia-site-selection-industrialization]]'
+- '[[case-yitang-yitu-lead-industrialization]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[framework-lean-abcd-model]]'
+- '[[case-lean-shampoo-selling-points]]'
 review_date: '2026-06-28'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：熊猫现烤汉堡如何用工业化流程破解选品难题

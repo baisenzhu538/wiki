@@ -22,9 +22,9 @@ source_refs:
 - 00_inbox/人机协作双三角/【组织】酒店行业AI标签案例口述.pdf
 - 00_inbox/人机协作双三角/_processed/组织酒店行业AI标签案例口述_text.md
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
-- "[[method-dual-triangle-human-ai-division]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[method-dual-triangle-human-ai-division]]'
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
@@ -33,6 +33,10 @@ aliases:
 - 酒店标签案例
 - 沙盒练兵案例
 - 边缘切入案例
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 一行双三角案例：酒店 AI 标签审核的边缘切入与沙盒练兵

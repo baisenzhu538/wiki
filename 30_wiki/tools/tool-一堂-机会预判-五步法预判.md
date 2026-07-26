@@ -1,6 +1,6 @@
 ---
 id: tool-一堂-机会预判-五步法预判
-title: 机会预判·五步法预判：选项池收敛为店型剧本 × 五步矩阵（出口 #141）
+title: 机会预判·五步法预判：选项池收敛为店型剧本 × 五步矩阵（出口
 type: tool
 status: pending_review
 author: 老顽童
@@ -37,6 +37,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - cited
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 机会预判·五步法预判

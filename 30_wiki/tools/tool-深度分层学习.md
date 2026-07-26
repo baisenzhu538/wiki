@@ -34,6 +34,10 @@ related:
 - '[[tool-从案例中学习正反案例法]]'
 - framework-wanghuan-ai-five-level-ladder
 - framework-yitang-18-strategy-cards
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：深度分层学习

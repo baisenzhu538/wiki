@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-AI平台算法咨询法]]"
-  - "[[tool-月白-AI提示词精准约束法]]"
-  - "[[tool-月白-口喷式设计工作流]]"
-  - "[[tool-月白-PPT内容框架AIGC生成法]]"
-  - "[[tool-月白-PPT风格锁定工作流]]"
+- '[[tool-月白-AI平台算法咨询法]]'
+- '[[tool-月白-AI提示词精准约束法]]'
+- '[[tool-月白-口喷式设计工作流]]'
+- '[[tool-月白-PPT内容框架AIGC生成法]]'
+- '[[tool-月白-PPT风格锁定工作流]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：用AIGC做设计专家批评复盘
 

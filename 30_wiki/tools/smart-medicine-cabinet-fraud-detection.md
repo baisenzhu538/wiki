@@ -18,6 +18,9 @@ source_refs:
 - src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
 tags:
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:advanced
 created_at: '2026-06-14'
 updated_at: '2026-06-29'
 author: 王语嫣

@@ -1,34 +1,38 @@
 ---
 id: bridge-利润-需求冰山-价值定价
-title: "桥接：一堂需求冰山 × 利润为王 — 客户为什么愿意付高价"
+title: 桥接：一堂需求冰山 × 利润为王 — 客户为什么愿意付高价
 type: framework
 status: draft
 confidence: 0.85
 trust_level: high
 domain:
-  - profit-pricing
-  - bridge
+- profit-pricing
+- bridge
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - actionable
+- insight
+- actionable
 source_refs:
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L2840-L2898"
-  - "00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L131-L163"
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1390-L1400"
-  - 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L2840-L2898
+- 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L131-L163
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1390-L1400
+- 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md
 related:
-  - framework-demand-iceberg
-  - bridge-利润-单元模型-定价闭环
-  - concept-定价-价格杠杆
-  - concept-利润-风险报偿本质
-  - framework-利润-利润优先经营框架
-  - yt-decision-y-model
-  - dk-利润-定价恐惧三段式反问
+- framework-demand-iceberg
+- bridge-利润-单元模型-定价闭环
+- concept-定价-价格杠杆
+- concept-利润-风险报偿本质
+- framework-利润-利润优先经营框架
+- yt-decision-y-model
+- dk-利润-定价恐惧三段式反问
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 桥接：一堂需求冰山 × 利润为王 — 客户为什么愿意付高价

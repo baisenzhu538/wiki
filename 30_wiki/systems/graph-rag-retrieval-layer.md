@@ -29,6 +29,10 @@ related:
 - - - kdo-watch-health-check-layer
 - agent-native-card-design
 - high-density-composite-compilation-strategy
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # Graph RAG 检索层技术说明
 

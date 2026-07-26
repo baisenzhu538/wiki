@@ -15,11 +15,15 @@ author: 段王爷（南帝）
 reviewed_by: 欧阳锋
 review_date: '2026-07-07'
 related:
-- "[[skill-duanwangye-wechat-extraction]]"
-- "[[skill-duanwangye-kdo-pipeline]]"
-- "[[feishu-docx-pagination-extraction]]"
-- "[[concept-feishu-api-pagination-trap]]"
-- "[[concept-streaming-extraction-pattern]]"
+- '[[skill-duanwangye-wechat-extraction]]'
+- '[[skill-duanwangye-kdo-pipeline]]'
+- '[[feishu-docx-pagination-extraction]]'
+- '[[concept-feishu-api-pagination-trap]]'
+- '[[concept-streaming-extraction-pattern]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 段王爷·飞书文档发布引擎

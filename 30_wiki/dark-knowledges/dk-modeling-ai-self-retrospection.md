@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-ai-self-retrospection
 title: AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
 type: dk
@@ -16,32 +15,26 @@ source_refs:
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[tool-制作行业化要素检查清单]]"
-  - "[[tool-月白-供应商信息对齐清单法]]"
-  - "[[tool-稀缺资源清单]]"
-  - "[[tool-清单式笔记法]]"
-  - "[[tool-用清单体记备忘笔记]]"
-  - "[[tool-月白-工厂对接信息清单制作]]"
-  - "[[轻量级诊所HIS调研全清单]]"
-  - "[[tool-清单小抄工具箱法]]"
+- '[[yitang-domain-digest]]'
+- '[[tool-制作行业化要素检查清单]]'
+- '[[tool-月白-供应商信息对齐清单法]]'
+- '[[tool-稀缺资源清单]]'
+- '[[tool-清单式笔记法]]'
+- '[[tool-用清单体记备忘笔记]]'
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[轻量级诊所HIS调研全清单]]'
+- '[[tool-清单小抄工具箱法]]'
 tags:
-
-
-
-
+- audience:executor
+- scene:reference
+- skill-level:advanced
 trust_level: high
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 author: 老顽童
 confidence: 0.89
 diagnostic_signals:
-
-
-
-
 - src_unknown# AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
-
 ---
 
 ## 原始表述 / 核心洞察

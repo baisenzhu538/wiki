@@ -1,35 +1,32 @@
 ---
-
 domain:
-  - entrepreneurship
-
-
-
+- entrepreneurship
 id: yt-entrepreneur-product-core
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 prerequisites:
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-06
 source_refs:
-  - pending_archive:src_20260614_0e6fd2e7-theme-product-business-summary
-  - src_20260614_0e6fd2e7-theme-product-business-summary
-source_refs:
-  - pending_archive:src_20260614_0e6fd2e7-theme-product-business-summary
+- pending_archive:src_20260614_0e6fd2e7-theme-product-business-summary
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 产品内核定义、迭代与验证方法论
 

@@ -1,31 +1,35 @@
 ---
 id: concept-利润-风险报偿本质
-title: "利润的风险报偿本质：创始人拿的不是贪婪，是承担风险的报酬"
+title: 利润的风险报偿本质：创始人拿的不是贪婪，是承担风险的报酬
 type: concept
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - profit-pricing
+- profit-pricing
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - principle
+- insight
+- principle
 source_refs:
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L660-L756"
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L800-L816"
-  - "00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L37-L43"
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L660-L756
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L800-L816
+- 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L37-L43
 related:
-  - framework-利润-利润优先经营框架
-  - concept-利润-真正利润定义
-  - yt-decision-y-model
-  - framework-yitang-high-level-execution
-  - dk-利润-创始人利润耻感
-  - dk-利润-资本游戏与真实商业分界线
+- framework-利润-利润优先经营框架
+- concept-利润-真正利润定义
+- yt-decision-y-model
+- framework-yitang-high-level-execution
+- dk-利润-创始人利润耻感
+- dk-利润-资本游戏与真实商业分界线
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 利润的风险报偿本质：创始人拿的不是贪婪，是承担风险的报酬

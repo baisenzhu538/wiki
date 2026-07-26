@@ -1,29 +1,28 @@
 ---
-
 domain:
-  - modeling
-
+- modeling
 id: yt-model-ipo-complete-checklist
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: "黄药师"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
-  - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
-source_refs:
-  - pending_archive:src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
+- pending_archive:src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # IPO 科学学习完整清单 (Complete List)
 

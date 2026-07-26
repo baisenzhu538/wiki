@@ -16,10 +16,10 @@ source_refs:
 source_person: Truman
 source_context: 一堂高阶建模能力培训（组织级建模价值）
 related:
-- "[[framework-course-milestone-model]]"
-- "[[modeling-scientific-milestones]]"
-- "[[concept-thousand-people-square]]"
-- "[[case-child-drawing-rhyme]]"
+- '[[framework-course-milestone-model]]'
+- '[[modeling-scientific-milestones]]'
+- '[[concept-thousand-people-square]]'
+- '[[case-child-drawing-rhyme]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 可购买 vs 不可购买增长视角：收入增长能靠钱买，建模能力增长不能
@@ -39,6 +39,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 暗知识：一堂真正的增长引擎是「周对周的建模能力增长」

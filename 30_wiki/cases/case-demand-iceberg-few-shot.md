@@ -32,6 +32,10 @@ diagnostic_signals:
 quality_labels:
 - cited
 - validated
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 需求冰山Few-Shot案例库

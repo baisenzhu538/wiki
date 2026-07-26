@@ -61,6 +61,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 关键假设池：三层形态 + 字段模板 + 四条运营纪律

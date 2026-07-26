@@ -20,6 +20,10 @@ author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+tags:
+- audience:executor
+- scene:reference
+- skill-level:beginner
 ---
 
 # 中式食物摄影低成本氛围道具搭配

@@ -17,9 +17,13 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-yihang-aesthetic-fast-build]]"
-- "[[tool-yihang-agent-config-7steps]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-yihang-aesthetic-fast-build]]'
+- '[[tool-yihang-agent-config-7steps]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 口喷：双三角内功 + 九字诀外功——语音驱动 AI 协作

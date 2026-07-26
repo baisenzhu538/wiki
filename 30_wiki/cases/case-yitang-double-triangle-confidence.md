@@ -22,6 +22,9 @@ definition_of_done:
 tags:
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 related_skills:
 - src_unknown
 related_concepts:

@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-ef-003-hand-soldering-bom-divergence
 title: 手焊板的隐性修改：原型调通了但量产就是不行
 type: dk
@@ -14,18 +12,22 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
-- "[[dk-ef-002-bom-version-async]]"
-- "[[case-guang-leng-dian-zi-hx-smj]]"
-- "[[concept-smart-medicine-cabinet-supply-chain-validation]]"
-- "[[dk-ef-001-sn74lvc2g07-open-drain]]"
-- "[[dk-ef-002-bom-version-async]]"
-- "[[dk-ef-004-missing-diagnostic-firmware]]"
+- '[[dk-ef-002-bom-version-async]]'
+- '[[case-guang-leng-dian-zi-hx-smj]]'
+- '[[concept-smart-medicine-cabinet-supply-chain-validation]]'
+- '[[dk-ef-001-sn74lvc2g07-open-drain]]'
+- '[[dk-ef-002-bom-version-async]]'
+- '[[dk-ef-004-missing-diagnostic-firmware]]'
 pipeline:
 - src_unknown
 author: 黄药师
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 # 手焊板的隐性修改：原型调通了但量产就是不行
 

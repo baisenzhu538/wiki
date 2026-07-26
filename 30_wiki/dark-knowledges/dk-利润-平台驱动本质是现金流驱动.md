@@ -1,25 +1,29 @@
 ---
 id: dk-利润-平台驱动本质是现金流驱动
-title: "平台驱动的本质是现金流驱动：流量生意为什么赚不到利润"
+title: 平台驱动的本质是现金流驱动：流量生意为什么赚不到利润
 type: dk
 status: draft
 confidence: 0.86
 trust_level: high
 domain:
-  - profit-pricing
+- profit-pricing
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
+- insight
 source_refs:
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1320-L1376"
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1320-L1376
 related:
-  - dk-利润-利润敏感度非对称性
-  - case-利润-白牌珠宝流量上瘾症
-  - concept-利润-真正利润定义
+- dk-利润-利润敏感度非对称性
+- case-利润-白牌珠宝流量上瘾症
+- concept-利润-真正利润定义
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 平台驱动的本质是现金流驱动：流量生意为什么赚不到利润

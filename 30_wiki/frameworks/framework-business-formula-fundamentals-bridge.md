@@ -5,55 +5,59 @@ type: framework
 status: enriched
 author: 黄药师
 reviewed_by: pending
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 created_at: 2026-07-12
 updated_at: 2026-07-12
 domain:
-  - yitang
-  - management
-  - methodology
+- yitang
+- management
+- methodology
 source_refs:
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1420-L1430
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1452
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L28-L124
-  - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1398-L1580
-  - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt
-  - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt
-  - 30_wiki/frameworks/framework-一堂-苦练基本功-总纲.md
-  - 30_wiki/frameworks/framework-一堂-基本功-九层金字塔.md
-  - 30_wiki/concepts/concept-一堂-基本功-段位体系.md
-  - 30_wiki/concepts/concept-一堂-基本功-刻意练习四要素.md
-  - 30_wiki/tools/tool-一堂-基本功-三环六维自检.md
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1420-L1430
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1452
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L28-L124
+- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1398-L1580
+- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt
+- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt
+- 30_wiki/frameworks/framework-一堂-苦练基本功-总纲.md
+- 30_wiki/frameworks/framework-一堂-基本功-九层金字塔.md
+- 30_wiki/concepts/concept-一堂-基本功-段位体系.md
+- 30_wiki/concepts/concept-一堂-基本功-刻意练习四要素.md
+- 30_wiki/tools/tool-一堂-基本功-三环六维自检.md
 related:
-  - '[[framework-一堂-苦练基本功-总纲]]'
-  - '[[framework-一堂-基本功-九层金字塔]]'
-  - '[[framework-一堂-基本功-四字诀拆建推练]]'
-  - '[[concept-一堂-基本功-段位体系]]'
-  - '[[concept-一堂-基本功-刻意练习四要素]]'
-  - '[[tool-一堂-基本功-三环六维自检]]'
-  - '[[tool-three-ring-capability-filter]]'
-  - '[[framework-business-formula-dual-triangle-bridge]]'
-  - '[[framework-business-formula-y-model-bridge]]'
-  - '[[framework-一堂-关键假设-ABCD模型]]'
-  - '[[concept-一堂-假设飞轮]]'
-  - '[[yt-business-formula-peahd-roles]]'
-  - '[[case-yitang-vicky-short-video]]'
-  - '[[yt-business-formula-parameter-iceberg]]'
-  - '[[yt-business-formula-six-level-logic]]'
+- '[[framework-一堂-苦练基本功-总纲]]'
+- '[[framework-一堂-基本功-九层金字塔]]'
+- '[[framework-一堂-基本功-四字诀拆建推练]]'
+- '[[concept-一堂-基本功-段位体系]]'
+- '[[concept-一堂-基本功-刻意练习四要素]]'
+- '[[tool-一堂-基本功-三环六维自检]]'
+- '[[tool-three-ring-capability-filter]]'
+- '[[framework-business-formula-dual-triangle-bridge]]'
+- '[[framework-business-formula-y-model-bridge]]'
+- '[[framework-一堂-关键假设-ABCD模型]]'
+- '[[concept-一堂-假设飞轮]]'
+- '[[yt-business-formula-peahd-roles]]'
+- '[[case-yitang-vicky-short-video]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-six-level-logic]]'
 diagnostic_signals:
-  - signal: 团队练了基本功但不知道"练得好不好"怎么体现在业务结果上
-    lens: 两个域割裂——基本功域在练"人的动作"，业务公式域在拆"业务的参数"，但没接起来
-    follow-up: 用本卡§三的映射表，把每个基本功对应到它优化的业务参数上
-  - signal: 业务公式拆出来了但没人会执行——拆了一堆参数没人练对应的基本功
-    lens: 反向割裂——有参数无动作，有公式无肌肉
-    follow-up: 用本卡§四的"参数→基本功"反向映射，每个关键参数配一个对应的基本功训练项
+- signal: 团队练了基本功但不知道"练得好不好"怎么体现在业务结果上
+  lens: 两个域割裂——基本功域在练"人的动作"，业务公式域在拆"业务的参数"，但没接起来
+  follow-up: 用本卡§三的映射表，把每个基本功对应到它优化的业务参数上
+- signal: 业务公式拆出来了但没人会执行——拆了一堆参数没人练对应的基本功
+  lens: 反向割裂——有参数无动作，有公式无肌肉
+  follow-up: 用本卡§四的"参数→基本功"反向映射，每个关键参数配一个对应的基本功训练项
 quality_labels:
-  - bridge
-  - framework
-  - insight
+- bridge
+- framework
+- insight
+tags:
+- audience:executor
+- scene:diagnosis
+- skill-level:advanced
 ---
 <!--
   桥接卡骨架 — 这是三张桥接卡中最重要的一张。

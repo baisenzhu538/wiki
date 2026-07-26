@@ -39,6 +39,9 @@ tags:
 - 渗透率
 - 零门槛
 - AI产品
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 query_triggers:
 - 市场信息差
 - 产品策略

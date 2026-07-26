@@ -1,5 +1,4 @@
 ---
-
 id: ai-virtual-coach-prompt
 title: AI 虚拟教练提示词模板
 type: tool
@@ -8,10 +7,10 @@ domain:
 - skill-building
 status: reviewed
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 created_at: 2026-06-29
 updated_at: 2026-06-29
 author: 老顽童
@@ -23,10 +22,14 @@ source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 - 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
 related:
-- "[[four-questions-feedback]]"
-- "[[timely-feedback-loop]]"
-- "[[ai-tool-learning-curve]]"
-- "[[fixed-routine-design]]"
+- '[[four-questions-feedback]]'
+- '[[timely-feedback-loop]]'
+- '[[ai-tool-learning-curve]]'
+- '[[fixed-routine-design]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # AI 虚拟教练提示词模板

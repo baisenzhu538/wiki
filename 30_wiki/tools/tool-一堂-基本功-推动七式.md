@@ -42,6 +42,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 推动七式：三条灰度轴，把基本功从一个人推到全员

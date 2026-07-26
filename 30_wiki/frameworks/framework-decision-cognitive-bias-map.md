@@ -1,5 +1,4 @@
 ---
-
 id: framework-decision-cognitive-bias-map
 title: 商业决策常见认知偏差地图
 type: framework
@@ -8,10 +7,10 @@ domain:
 - yitang
 status: reviewed
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - validated
+- cited
+- insight
+- principle
+- validated
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童
@@ -22,14 +21,18 @@ trust_level: high
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - "[[framework-decision-quality-checklist]]"
-  - "[[yt-decision-abcd-model]]"
-  - "[[master-cognitive-bias-checklist]]"
-  - "[[concept-X型Y型决策习惯]]"
-  - "[[dk-决策经验值]]"
-  - "[[case-科学决策-ROI案例01]]"
-  - "[[case-科学决策-深度案例02]]"
-  - "[[tool-决策深度-L1优先级定性]]"
+- '[[framework-decision-quality-checklist]]'
+- '[[yt-decision-abcd-model]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[concept-X型Y型决策习惯]]'
+- '[[dk-决策经验值]]'
+- '[[case-科学决策-ROI案例01]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[tool-决策深度-L1优先级定性]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 商业决策常见认知偏差地图

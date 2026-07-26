@@ -1,13 +1,17 @@
 ---
 id: yt-product-kernel-cultivation
 related:
-  - "[[yt-five-step-method]]"
-  - "[[yt-product-ten-metrics]]"
-  - "[[case-shampoo-product-kernel]]"
-  - "[[case-treadmill-demand-analysis]]"
-  - "[[pending_unknown]]"
+- '[[yt-five-step-method]]'
+- '[[yt-product-ten-metrics]]'
+- '[[case-shampoo-product-kernel]]'
+- '[[case-treadmill-demand-analysis]]'
+- '[[pending_unknown]]'
 source_refs:
 - pending_archive: src_unknown
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 产品内核修炼段位图

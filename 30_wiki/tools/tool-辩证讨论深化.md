@@ -47,6 +47,10 @@ related:
 - '[[tool-深度分层学习]]'
 - '[[tool-清单小抄制作]]'
 - tool-辩证讨论法
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：辩证讨论深化

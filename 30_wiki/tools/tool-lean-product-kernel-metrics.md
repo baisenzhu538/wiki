@@ -1,5 +1,4 @@
 ---
-
 id: tool-lean-product-kernel-metrics
 title: 产品内核十大典型指标
 type: tool
@@ -17,13 +16,17 @@ source_refs:
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_ocr_text.md
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_vlm_desc.md
 related:
-- "[[case-lean-electric-scooter-mvp]]"
-- "[[strategy-domain-digest]]"
-- "[[yitang-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[case-lean-electric-scooter-mvp]]'
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 产品内核十大典型指标

@@ -31,6 +31,10 @@ diagnostic_signals:
 quality_labels:
 - insight
 - principle
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 讲香·卖点直给到价值感

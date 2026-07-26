@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-左手Cubox右手里程碑学习法]]"
-  - "[[tool-月白-设计师AI资产四类型沉淀]]"
-  - "[[tool-月白-AIGC反向拆解法]]"
-  - "[[tool-月白-AI对话式海报修改（免PS）]]"
-  - "[[tool-月白-AI课程内容深度梳理法]]"
+- '[[tool-月白-左手Cubox右手里程碑学习法]]'
+- '[[tool-月白-设计师AI资产四类型沉淀]]'
+- '[[tool-月白-AIGC反向拆解法]]'
+- '[[tool-月白-AI对话式海报修改（免PS）]]'
+- '[[tool-月白-AI课程内容深度梳理法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：课程资料文件命名规范
 

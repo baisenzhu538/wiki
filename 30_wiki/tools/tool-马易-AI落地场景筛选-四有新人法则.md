@@ -23,6 +23,10 @@ related:
 - '[[tool-马易-AI答疑运营风格适配]]'
 - '[[tool-马易-减少输入噪音法]]'
 - tool-ai-deliverable-polish-loop
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 技能：AI落地场景筛选-四有新人法则
 

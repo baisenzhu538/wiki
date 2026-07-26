@@ -17,11 +17,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-  - "[[dk-ai-entrepreneur-technical-blindspot]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[dk-ai-entrepreneur-technical-blindspot]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 动机阻力分析——有动机但有阻力
   follow_up_question: 用户说'需要'，但什么阻碍了他们立即行动？是价格、时间、信任，还是习惯？
@@ -33,6 +33,10 @@ diagnostic_signals:
   follow_up_question: 用户预期多久用一次？实际多久用一次？差异原因是什么？
 - framework_lens: 动机阻力分析——动机不够强，被其他事情优先
   follow_up_question: 用户现在的优先级排序是什么？你的产品排在第几位？
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 需求动机与阻力分析：为什么用户"需要"但"不用"

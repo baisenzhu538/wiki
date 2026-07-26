@@ -33,6 +33,10 @@ related:
 - '[[tool-ai辅助学习]]'
 - '[[tool-费曼学习法三句话提炼]]'
 - tool-复盘推演法
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：复盘推演练习
 

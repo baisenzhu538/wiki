@@ -22,6 +22,10 @@ related:
 - tool-ai-prd-for-ai
 - concept-X型Y型决策习惯
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 ---
 # 科学决策ROI·关键训练清单
 

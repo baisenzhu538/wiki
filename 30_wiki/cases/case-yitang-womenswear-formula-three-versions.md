@@ -27,6 +27,10 @@ related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[business-formula-domain-digest]]'
 - '[[dk-yitang-business-formula-a-missing-syndrome]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 女装店收入公式三版本：从10分到60分看顶层拆解的形式规范

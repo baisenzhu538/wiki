@@ -30,6 +30,10 @@ tcp_default_mode: 实践共创（Produce）：基于用户当前作品和标杆�
 tcp_switch_trigger: 用户要求诊断当前版本的品质问题 → 切换为 C（联动审美雷达）；用户要求学习漂亮工作的标准和方法论 → 切换为 T；用户要求研究行业品质标杆的共同特征
   → 切换为 R
 tcp_session_opening: 我本次以 **P（Produce/实践）** 身份与你协作：和你一起想象这个作品「做到最漂亮」会是什么样子，画出品质愿景，然后倒推从现在到漂亮版本还需要做什么。请先让我看看你现在的作品。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 漂亮工作想象 Agent Spec
 

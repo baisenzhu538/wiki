@@ -25,11 +25,15 @@ reviewed_at: '2026-07-04'
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-多窗口并行工作法]]"
-- "[[tool-月白-多语言提示词降幻觉法]]"
-- "[[tool-月白-控制产品画面尺寸比例]]"
-- "[[tool-月白-竞品图精益替换法]]"
-- "[[tool-月白-AIGC橱窗陈列设计流程]]"
+- '[[tool-月白-多窗口并行工作法]]'
+- '[[tool-月白-多语言提示词降幻觉法]]'
+- '[[tool-月白-控制产品画面尺寸比例]]'
+- '[[tool-月白-竞品图精益替换法]]'
+- '[[tool-月白-AIGC橱窗陈列设计流程]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：AI归纳共性描述法
 

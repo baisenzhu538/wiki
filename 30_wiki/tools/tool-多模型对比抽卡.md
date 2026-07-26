@@ -12,11 +12,8 @@ source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
-definition_of_done:
-
-
-tools_required:
-
+definition_of_done: null
+tools_required: null
 created_at: '2026-06-09T14:38:36+00:00'
 updated_at: '2026-06-29'
 author: 老顽童
@@ -34,6 +31,10 @@ related:
 - '[[dk-ai-design-pitfalls]]'
 - '[[tool-ai-deliverable-polish-loop]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：多模型对比抽卡
 

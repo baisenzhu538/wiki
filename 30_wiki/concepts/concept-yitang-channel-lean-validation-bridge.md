@@ -34,6 +34,10 @@ related:
 - - - lean-startup-domain-digest
 - framework-yitang-channel-exploration-4step
 review_date: '2026-06-28'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 渠道精益验证：把渠道 0→1 测试当作一种 MVP
 

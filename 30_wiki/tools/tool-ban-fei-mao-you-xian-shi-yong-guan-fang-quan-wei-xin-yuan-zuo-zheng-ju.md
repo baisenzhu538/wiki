@@ -1,5 +1,4 @@
 ---
-
 id: tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju
 title: 技能：优先使用官方权威信源做证据
 type: tool
@@ -17,12 +16,12 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 related:
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]"
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-28'
@@ -40,7 +39,10 @@ diagnostic_signals:
   follow_up: 追问"这个数据/结论的来源是什么？发布机构？发布时间？原文链接？"
 - lens: 贴近真实业务场景
   follow_up: 要求补充中国地区、目标用户规模、行业真实案例等本地化权威数据
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：优先使用官方权威信源做证据

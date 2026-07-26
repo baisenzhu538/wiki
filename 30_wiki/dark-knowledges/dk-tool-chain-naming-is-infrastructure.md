@@ -1,5 +1,4 @@
 ---
-
 id: dk-tool-chain-naming-is-infrastructure
 title: 命名不规范会让整条工具链"失明"
 type: dk
@@ -14,11 +13,11 @@ source_context: 第26-27节精修中反复出现：source ID、文件名、正�
 source_refs:
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 bridges_to:
 - src_unknown
 - src_unknown
@@ -40,7 +39,10 @@ diagnostic_signals:
   framework_lens: 人眼与机器解析不一致
   follow_up_question: 是否有别名、特殊字符、过长 ID 导致解析器只能识别前半段？# 命名不规范会让整条工具链"失明"
 updated_at: 2026-06-28
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述 / 核心洞察

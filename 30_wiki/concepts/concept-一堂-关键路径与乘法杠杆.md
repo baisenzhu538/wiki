@@ -53,6 +53,10 @@ quality_labels:
 - principle
 - insight
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 关键路径与乘法杠杆：乘法必经优先，定量后分支可反超

@@ -13,9 +13,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
@@ -23,17 +23,21 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道选择.png
 source_person: Truman
 related:
-- "[[framework-yitang-channel-exploration-4step]]"
-- "[[framework-yitang-channel-unit-economics]]"
-- "[[tool-yitang-channel-scoring-matrix]]"
-- "[[tool-区分获客渠道计算单元roi]]"
-- "[[yt-unit-model-overview]]"
-- "[[framework-lean-abcd-model]]"
-- "[[case-yitang-shuzu-channel-scan-test]]"
-- "[[case-yitang-xujian-invoice-saas-channel]]"
-- "[[case-yitang-solid-redbull-channel]]"
-- "[[case-yitang-yitu-lead-industrialization]]"
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[tool-yitang-channel-scoring-matrix]]'
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[yt-unit-model-overview]]'
+- '[[framework-lean-abcd-model]]'
+- '[[case-yitang-shuzu-channel-scan-test]]'
+- '[[case-yitang-xujian-invoice-saas-channel]]'
+- '[[case-yitang-solid-redbull-channel]]'
+- '[[case-yitang-yitu-lead-industrialization]]'
 review_date: '2026-06-28'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：马毅云电脑如何扫描 60+ 渠道实现 3.7 亿营收

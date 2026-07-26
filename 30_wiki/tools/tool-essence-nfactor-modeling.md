@@ -12,9 +12,9 @@ domain:
 - src_unknown
 - src_unknown
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -23,17 +23,20 @@ review_date: '2026-06-17'
 trust_level: high
 confidence: 0.88
 related:
-  - "[[case-essence-education-strategy]]"
-  - "[[case-essence-entrepreneurship]]"
-  - "[[case-essence-humanity-trap]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[case-essence-education-strategy]]'
+- '[[case-essence-entrepreneurship]]'
+- '[[case-essence-humanity-trap]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:advanced
 diagnostic_signals:
 - framework_lens: 本质建模
   follow_up_question: 如果去掉你用的这个词，业务的成立条件还成立吗？

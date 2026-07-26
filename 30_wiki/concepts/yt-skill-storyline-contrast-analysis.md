@@ -2,7 +2,7 @@
 id: yt-skill-storyline-contrast-analysis
 title: 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
 domain:
-  - concepts
+- concepts
 diagnostic_signals:
 - framework_lens: 维度中立性 / 反偏见
   follow_up_question: 维度选择是否让用户偏好的对象天然得分更高？
@@ -24,10 +24,13 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
-  - "[[yt-skill-storyline-key-elements]]"
-  - "[[yt-skill-storyline-problem-solving]]"
-  - "[[yt-skill-storyline-target-tradeoff]]"
-
+- '[[yt-skill-storyline-key-elements]]'
+- '[[yt-skill-storyline-problem-solving]]'
+- '[[yt-skill-storyline-target-tradeoff]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 

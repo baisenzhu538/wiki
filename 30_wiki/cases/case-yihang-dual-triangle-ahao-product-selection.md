@@ -29,11 +29,11 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/阿豪的双三角模型_vlm.md
 - https://www.commercepundit.com/blog/ai-automation-for-ecommerce/
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-dual-triangle-human-ai-division]]"
-- "[[method-dual-triangle-flywheel-engine]]"
-- "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
-- "[[case-yihang-dual-triangle-beike-ai-outbound]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-dual-triangle-human-ai-division]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[case-yihang-dual-triangle-beike-ai-outbound]]'
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 - '[[case-kdo-agent-factory-dual-triangle-practice]]'
@@ -43,6 +43,10 @@ related:
 aliases:
 - 阿豪案例
 - 电商选品案例
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 一行双三角案例：阿豪电商选品函数替代模型

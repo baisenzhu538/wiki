@@ -26,18 +26,18 @@ quality_labels:
 - insight
 - cited
 related:
-- "[[framework-一堂-业务公式拆解-总纲]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-business-formula-six-level-logic]]"
-- "[[yt-business-formula-hypothesis-management-playbook]]"
-- "[[concept-一堂-假设飞轮]]"
-- "[[concept-一堂-参数即假设与递归嵌套]]"
-- "[[yt-tool-business-formula-18-moves]]"
-- "[[business-formula-domain-digest]]"
-- "[[case-yitang-woqingke-referral-15-to-40]]"
-- "[[case-yitang-vicky-short-video]]"
-- "[[framework-一堂-关键假设]]"
-- "[[framework-科学决策三角形]]"
+- '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-six-level-logic]]'
+- '[[yt-business-formula-hypothesis-management-playbook]]'
+- '[[concept-一堂-假设飞轮]]'
+- '[[concept-一堂-参数即假设与递归嵌套]]'
+- '[[yt-tool-business-formula-18-moves]]'
+- '[[business-formula-domain-digest]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[case-yitang-vicky-short-video]]'
+- '[[framework-一堂-关键假设]]'
+- '[[framework-科学决策三角形]]'
 diagnostic_signals:
 - signal: 老板拍板后下属问"为什么"，回答是"我直觉很准""我以前领导就是这么说的"
   lens: 典型黑盒决策——只有输入输出，中间逻辑不可见（进阶篇-口述 L3530-L3538）
@@ -48,6 +48,10 @@ diagnostic_signals:
 - signal: 团队换人就推倒重来，经验只长在某个人脑子里
   lens: 缺"可迁移"——白盒四属性少一个，认知就沉淀不下来
   follow-up: 把关键决策的逻辑写成参数+逻辑关系文档，新人按文档能复现推理过程
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 黑盒到白盒：把「一大坨」的直觉决策拆成可证伪、可讨论、可沉淀、可迁移的参数结构

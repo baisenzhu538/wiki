@@ -1,39 +1,40 @@
 ---
 id: tool-yitang-quantity-bold-matrix
-title: "数量×大胆二维诊断矩阵"
+title: 数量×大胆二维诊断矩阵
 type: tool
 status: draft
 confidence: 0.85
 trust_level: high
 domain:
-  - innovation
+- innovation
 author: 老顽童
-review_date: "2026-07-26"
-reviewed_by: 待审
-  - framework-kdo-modeling-methodology
-  - framework-yitang-shishi-qiushi
-created_at: "2026-07-26"
-updated_at: "2026-07-26"
+review_date: '2026-07-26'
+reviewed_by: 待审 - framework-kdo-modeling-methodology - framework-yitang-shishi-qiushi
+created_at: '2026-07-26'
+updated_at: '2026-07-26'
 quality_labels:
-  - actionable
+- actionable
 discoverable_by:
-  - 团队创新能力诊断
-  - 创新瓶颈定位
+- 团队创新能力诊断
+- 创新瓶颈定位
 source_refs:
-  - "00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt §4"
-  - "00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt"
+- 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt §4
+- 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt
 related:
-  - framework-yitang-thought-liberation-lightning
-  - bridge-yitang-seek-truth-liberate-thought
-  - dk-yitang-innovation-failure-modes
+- framework-yitang-thought-liberation-lightning
+- bridge-yitang-seek-truth-liberate-thought
+- dk-yitang-innovation-failure-modes
 diagnostic_signals:
-  - signal: "创新方案执行后效果不如预期"
-    lens: 检查是否跳过了闪电模型的某个步骤
-    follow_up: 按四步闭环逐步排查
-  - signal: "团队对创新方法论的理解不一致"
-    lens: 培训不够或框架表达不清晰
-    follow_up: 用十层解读法重新学习框架
-
+- signal: 创新方案执行后效果不如预期
+  lens: 检查是否跳过了闪电模型的某个步骤
+  follow_up: 按四步闭环逐步排查
+- signal: 团队对创新方法论的理解不一致
+  lens: 培训不够或框架表达不清晰
+  follow_up: 用十层解读法重新学习框架
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 > 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的第 1 步「大胆设想」的诊断工具。

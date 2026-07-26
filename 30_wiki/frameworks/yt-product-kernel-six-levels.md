@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-product-kernel-six-levels
@@ -14,17 +13,17 @@ source_refs:
 - 10_raw/sources/src_20260610_d4c3edda-一堂-一堂五步法-解决方案（产品内核）-口述.md
 - 10_raw/sources/src_20260611_f1da9821-一堂-一堂五步法-产品内核-修炼段位图_paddle_ocr.md
 quality_labels:
-  - principle
-  - validated
+- principle
+- validated
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 产品内核段位——L1缺价值意识
   follow_up_question: 你能用一句话说清楚用户为什么选择你们吗？如果说不出来，可能还在L1。
@@ -38,7 +37,10 @@ diagnostic_signals:
   follow_up_question: 你能把当前产品的内核逻辑应用到其他领域吗？
 - framework_lens: 产品内核段位——团队段位断层
   follow_up_question: 你们团队对内核的认知在哪个段位？是否一致？
-
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 产品内核六个段位：从缺价值意识到全面迁移

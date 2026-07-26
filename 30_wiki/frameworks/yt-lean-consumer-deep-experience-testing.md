@@ -18,9 +18,9 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - "[[case-ban-fei-mao-skill-ab-test]]"
-  - "[[case-jh-yitang-vs-sqlhelper]]"
-  - "[[case-strategy-walmart-vs-costco-pyramid]]"
+- '[[case-ban-fei-mao-skill-ab-test]]'
+- '[[case-jh-yitang-vs-sqlhelper]]'
+- '[[case-strategy-walmart-vs-costco-pyramid]]'
 tags:
 - src_unknown
 - src_unknown
@@ -28,6 +28,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:beginner
 diagnostic_signals:
 - framework_lens: 表层反馈（一口测试）≠ 深层体验（完整消费周期）
   follow_up_question: 测试中是否让用户在真实场景下完成整瓶/整份消费，并观察其停止节点与行为？

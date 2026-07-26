@@ -2,11 +2,11 @@
 id: yt-five-step-method
 confidence: 0.9
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
+- cited
+- insight
+- principle
+- quality
+- validated
 created_at: 2026-06-10
 difficulty: beginner
 domain:
@@ -21,14 +21,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-demand-analysis-hiking-map]]"
-- "[[yt-product-kernel-cultivation]]"
-- "[[yt-unit-model-three-tools]]"
-- "[[yt-growth-cycle-model]]"
-- "[[yt-barrier-analysis-cheat-sheet]]"
-- "[[yt-foresight-business-spectrum]]"
-- "[[dk-tool-as-phased-validator]]"
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-demand-analysis-hiking-map]]'
+- '[[yt-product-kernel-cultivation]]'
+- '[[yt-unit-model-three-tools]]'
+- '[[yt-growth-cycle-model]]'
+- '[[yt-barrier-analysis-cheat-sheet]]'
+- '[[yt-foresight-business-spectrum]]'
+- '[[dk-tool-as-phased-validator]]'
 review_date: 2026-06-10
 reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -59,6 +59,10 @@ diagnostic_signals:
   follow_up_question: 如果用最近3个月的业务结果反推，你哪一步的实际验证得分最高？哪一步最低？
 updated_at: '2026-06-16'
 author: 老顽童
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 一堂五步法总纲

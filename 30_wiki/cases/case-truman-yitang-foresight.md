@@ -32,19 +32,23 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-- "[[yt-foresight-15-char-mantra]]"
-- "[[case-gudong-tea-shop-foresight]]"
-- "[[yt-foresight-probability-engineering]]"
-- "[[tool-一堂-business-prediction-15-char]]"
-- "[[yt-foresight-deliverables-four-levels]]"
-- "[[case-ether-online-acquisition]]"
-- "[[yt-management-founder-role]]"
+- '[[yt-foresight-15-char-mantra]]'
+- '[[case-gudong-tea-shop-foresight]]'
+- '[[yt-foresight-probability-engineering]]'
+- '[[tool-一堂-business-prediction-15-char]]'
+- '[[yt-foresight-deliverables-four-levels]]'
+- '[[case-ether-online-acquisition]]'
+- '[[yt-management-founder-role]]'
 pipeline:
 - src_unknown
 - src_unknown
 author: 老顽童
 trust_level: medium-high
 updated_at: 2026-06-28
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 背景

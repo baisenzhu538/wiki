@@ -17,6 +17,9 @@ source_refs:
 - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 tags:
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 created_at: '2026-06-14'
 updated_at: '2026-06-29'
 author: 王语嫣

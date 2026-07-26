@@ -19,10 +19,10 @@ source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-逐字稿.md
 - 00_inbox/人机协作双三角/_processed/一堂双三角-一个引擎-三阶六变_vlm.md
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-dual-triangle-ten-year-map]]"
-- "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
-- "[[tool-yihang-dual-triangle-canvas]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-dual-triangle-ten-year-map]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
@@ -31,6 +31,10 @@ related:
 aliases:
 - 双三角三阶六变
 - 双三角六种落地场景
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一行双三角三阶六变

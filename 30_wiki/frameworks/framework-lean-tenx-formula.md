@@ -25,6 +25,10 @@ related:
 - framework-lean-four-principles
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 十倍速公式：避免系统性失败
 

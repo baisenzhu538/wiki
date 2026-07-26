@@ -1,5 +1,4 @@
 ---
-
 id: concept-strategy-evolution-cycle
 title: 新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期
 type: concept
@@ -8,11 +7,16 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain: [strategy]
+domain:
+- strategy
 source_refs:
-  - "pending_archive:src_unknown"
+- pending_archive:src_unknown
 reviewed_by: pending
-updated_at: "2026-06-30T16:07:51+00:00"
+updated_at: '2026-06-30T16:07:51+00:00'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 新兴业务进化周期

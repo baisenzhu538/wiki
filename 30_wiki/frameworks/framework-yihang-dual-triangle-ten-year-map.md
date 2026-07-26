@@ -19,10 +19,10 @@ source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-逐字稿.md
 - 00_inbox/人机协作双三角/填双三角画布十倍数刻意练习提示词.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-dual-triangle-weapon-library]]"
-- "[[framework-yihang-dual-triangle-three-stages-six-changes]]"
-- "[[framework-yitang-deliberate-practice-1plus4]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-dual-triangle-weapon-library]]'
+- '[[framework-yihang-dual-triangle-three-stages-six-changes]]'
+- '[[framework-yitang-deliberate-practice-1plus4]]'
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
@@ -30,6 +30,10 @@ related:
 aliases:
 - 双三角段位图
 - 双三角十年地图
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一行双三角十年爬山地图

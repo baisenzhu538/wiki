@@ -19,6 +19,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - tool-strategy-pareto
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 # 战略地图
 

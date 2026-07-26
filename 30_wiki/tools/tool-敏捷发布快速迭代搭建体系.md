@@ -33,6 +33,10 @@ related:
 - '[[tool-通过请吃饭获取行业内部资料]]'
 - '[[tool-按图索骥改良外部模板]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：敏捷发布快速迭代搭建体系

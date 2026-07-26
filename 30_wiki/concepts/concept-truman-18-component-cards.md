@@ -1,27 +1,31 @@
 ---
 id: concept-truman-18-component-cards
-title: "Truman 原 18 组件源框架：五维度 × 每维 4 张牌"
+title: Truman 原 18 组件源框架：五维度 × 每维 4 张牌
 type: concept
 status: draft
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - modeling
+- modeling
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - cited
+- cited
 source_refs:
-  - "00_inbox/Advanced modeling/ 口述 L2934-L3010"
+- 00_inbox/Advanced modeling/ 口述 L2934-L3010
 related:
-  - concept-kdo-component-library
-  - framework-kdo-modeling-methodology
-  - framework-modeling-relation-exploration
-  - modeling-weapon-library
-  - modeling-three-stages
+- concept-kdo-component-library
+- framework-kdo-modeling-methodology
+- framework-modeling-relation-exploration
+- modeling-weapon-library
+- modeling-three-stages
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # Truman 原 18 组件源框架：五维度 × 每维 4 张牌

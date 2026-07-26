@@ -11,10 +11,10 @@ source_refs:
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md
 - 10_raw/sources/src_20260613_12d63c1c-notes.md
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - validated
+- cited
+- insight
+- principle
+- validated
 created_at: '2026-06-13'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -23,12 +23,13 @@ review_date: '2026-06-28'
 confidence: 0.65
 trust_level: medium
 related:
-- "[[ai-short-drama-plot-three-axes]]"
-- "[[ai-short-drama-framework-three-axes]]"
-- "[[ai-short-drama-conflict-three-axes]]"
+- '[[ai-short-drama-plot-three-axes]]'
+- '[[ai-short-drama-framework-three-axes]]'
+- '[[ai-short-drama-conflict-three-axes]]'
 tags:
-
-
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 结构化拆本五维模型
   follow_up_question: 你拆本时是凭感觉，还是按文本语言、核心角色、主题事件、高潮反转、钩子密度五个维度逐一分析？

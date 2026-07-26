@@ -1,5 +1,4 @@
 ---
-
 id: tool-indicators-signposts
 title: Indicators & Signposts（指标与信号）
 type: tool
@@ -13,14 +12,17 @@ tags:
 - 信号监控
 - 假设验证
 - 预见性决策
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 source_person: Richars J. Heuer Jr. + Trumen（一堂）
 source_context: SATs 指标类技术工具化实现
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 - https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/
 related:
-- "[[yt-decision-y-model]]"
-- "[[yt-research-intelligence-map]]"
+- '[[yt-decision-y-model]]'
+- '[[yt-research-intelligence-map]]'
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

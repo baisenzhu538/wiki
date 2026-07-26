@@ -23,6 +23,10 @@ related:
 - '[[tool-分享输出检验法]]'
 - framework-five-step-lean-interface
 created_at: '2026-06-30'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 **输出**：七要素填完后的业务设计概要 + 多业务单元的设计对比 + 关键任务卡片
 **模板结构**：一句话业务定义→客户→价值主张→盈利模式→活动边界→控制点→风险→下一步行动

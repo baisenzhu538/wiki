@@ -24,12 +24,16 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-印刷DPI标准设置]]"
-- "[[tool-月白-RGB转CMYK印刷预检]]"
-- "[[tool-月白-供应商信息对齐清单法]]"
-- "[[tool-月白-AI图片印刷落地预处理]]"
-- "[[tool-月白-普通人AI设计80分法则]]"
-- "[[tool-月白-图像信息逆向解析训练]]"
+- '[[tool-月白-印刷DPI标准设置]]'
+- '[[tool-月白-RGB转CMYK印刷预检]]'
+- '[[tool-月白-供应商信息对齐清单法]]'
+- '[[tool-月白-AI图片印刷落地预处理]]'
+- '[[tool-月白-普通人AI设计80分法则]]'
+- '[[tool-月白-图像信息逆向解析训练]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：AI设计落地文件标准生成

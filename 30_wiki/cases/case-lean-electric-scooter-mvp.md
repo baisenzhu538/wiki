@@ -30,6 +30,10 @@ related:
 - '[[pending_unknown]]'
 - framework-five-step-lean-interface
 - yt-five-step-method
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # 案例：共享电动滑板车 A/B/C/D 四级 MVP 验证
 

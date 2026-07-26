@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[yt-growth-acquisition-channels]]"
-  - "[[yt-growth-activation-rate]]"
-  - "[[yt-growth-growth-hacking]]"
+- '[[yt-growth-acquisition-channels]]'
+- '[[yt-growth-activation-rate]]'
+- '[[yt-growth-growth-hacking]]'
 diagnostic_signals:
 - framework_lens: 病毒传播——自增长需要设计病毒机制，不是自然发生
   follow_up_question: 你的产品有病毒传播机制吗？用户为什么愿意分享？分享的动力是什么？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你的病毒传播是产品内生的（如微信红包）还是外部激励的（如裂变海报）？
 - framework_lens: 病毒传播——病毒传播有隐性成本，不是真的0成本
   follow_up_question: 病毒传播的产品开发成本、运营成本、用户激励成本是多少？
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 病毒传播：自增长机制设计

@@ -1,5 +1,4 @@
 ---
-
 id: case-wanghuan-education-sales-paced
 title: 王欢案例：教育机构用 PACED 还原销冠决策链
 type: case
@@ -20,12 +19,12 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[dk-wanghuan-paced-sales-decision]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[case-wanghuan-education-sales-capability-extraction]]"
-  - "[[case-wanghuan-shenyang-software-3x-efficiency]]"
-  - "[[case-wanghuan-yiyu-qingji-medical-notes]]"
+- '[[dk-wanghuan-paced-sales-decision]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[case-wanghuan-education-sales-capability-extraction]]'
+- '[[case-wanghuan-shenyang-software-3x-efficiency]]'
+- '[[case-wanghuan-yiyu-qingji-medical-notes]]'
 tags:
 - src_unknown
 - src_unknown
@@ -34,6 +33,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 diagnostic_signals:
 - lens: 隐性决策知识未被提取
   follow_up: 用 PACED 反向工程关键选择点，区分“说了什么”与“为何在此时说”
@@ -43,7 +45,6 @@ diagnostic_signals:
   follow_up: 建立双轨存储：策略（跨场景复用）与话术（因场景而变）严格分离
 - lens: 把 AI 当演员工具而非导演系统
   follow_up: 检查是否重新设计了角色、流程与验收标准，而非仅替换话术生成器
-
 ---
 
 # 王欢案例：教育机构用 PACED 还原销冠决策链

@@ -16,14 +16,22 @@ domain:
 source_person: 晓莉
 source_context: 一堂「转化率黑客」课程案例，学而思乐外教线下招商/引流课成交链路
 source_refs:
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-案例-图-01_vlm.md L7-L21
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-选对人-图-01_vlm.md L15-L39
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-敲开门-图-01_vlm.md L15-L22
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-触点拆解表-图-01_vlm.md L13-L18
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-现场触点拆解-01_vlm.md L13-L20
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-阻力消除法-图-01_vlm.md L13-L20
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-成交触点-01_vlm.md L12-L20
-- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-FAB基础价值-图-01_vlm.md L7-L11
+- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-案例-图-01_vlm.md
+  L7-L21
+- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-选对人-图-01_vlm.md
+  L15-L39
+- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-敲开门-图-01_vlm.md
+  L15-L22
+- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-触点拆解表-图-01_vlm.md
+  L13-L18
+- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-现场触点拆解-01_vlm.md
+  L13-L20
+- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-阻力消除法-图-01_vlm.md
+  L13-L20
+- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-成交触点-01_vlm.md
+  L12-L20
+- 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-FAB基础价值-图-01_vlm.md
+  L7-L11
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'
@@ -42,6 +50,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 转化率不是单一指标，而是动力、阻力、触点在一连串关键动作里共同推动出来的结果；晓莉把学而思线下招商课拆成「找对人→敲开门→请到场→做成交」四阶段，用 4 次自然拼读引流课 + 5000 元意向金降低决策压力，把校长的顾虑逐层拆开并在对应触点里给出确定性。

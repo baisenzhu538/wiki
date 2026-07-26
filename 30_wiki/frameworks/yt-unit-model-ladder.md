@@ -17,11 +17,15 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- "[[dk-modeling-logical-cleanliness-root]]"
-- "[[yitang-domain-digest]]"
-- "[[decision-science-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[dk-modeling-logical-cleanliness-root]]'
+- '[[yitang-domain-digest]]'
+- '[[decision-science-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 - [[dk-modeling-logical-cleanliness-root]]

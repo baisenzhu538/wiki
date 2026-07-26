@@ -1,5 +1,4 @@
 ---
-
 id: tool-cognitive-bias-12-check
 title: 技能：12种认知偏差完整自检
 type: tool
@@ -26,7 +25,10 @@ prerequisite_skills: null
 related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'
-tags: []
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 pipeline:
 - src_unknown
 reviewed_by: laowantong

@@ -31,6 +31,10 @@ tcp_default_mode: 咨询诊断（Consult）：基于用户提供的产品/功能
 tcp_switch_trigger: 用户要求直接给出修改方案/PRD 修订 → 切换为 P；用户要求学习场景走查方法论 → 切换为 T；用户要求对比竞品的场景体验
   → 切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：陪你逐场景走查你的产品，找出体验断点、逻辑漏洞和用户困惑点。请先描述你要走查的产品和核心场景。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 场景走查 Agent Spec
 

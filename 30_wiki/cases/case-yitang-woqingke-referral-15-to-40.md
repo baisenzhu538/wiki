@@ -41,6 +41,10 @@ related:
 - '[[framework-一堂-关键假设]]'
 - '[[tool-动力阻力分析]]'
 - '[[framework-business-formula-y-model-bridge]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 一堂「我请客」推荐率攻坚：三层公式展开把 15% 干到 40%，一年半 70-100 个假设
 

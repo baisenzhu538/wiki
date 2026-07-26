@@ -1,5 +1,4 @@
 ---
-
 id: case-modeling-essence-levels
 title: 本质建模案例：从盲目创新到学科经典的五层思维深度
 type: case
@@ -18,6 +17,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:advanced
 created_at: 2026-06-15
 updated_at: '2026-06-28'
 author: 老顽童
@@ -37,15 +39,15 @@ diagnostic_signals:
 - lens: 对 L4 本质与 L5 学科经典的适用边界不清
   follow_up: 明确当前决策是商业管理问题还是基础科学研究问题，再决定是否需要回到学科经典
 related:
-  - "[[tool-从案例中学习]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[case-科学决策-深度案例02]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
-  - "[[case-modeling-abstraction-reliability-ladder]]"
-  - "[[case-modeling-abstraction-yitang-models]]"
-  - "[[case-modeling-essence-schools]]"
+- '[[tool-从案例中学习]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
+- '[[case-modeling-abstraction-reliability-ladder]]'
+- '[[case-modeling-abstraction-yitang-models]]'
+- '[[case-modeling-essence-schools]]'
 ---
 
 # 本质建模案例：从盲目创新到学科经典的五层思维深度

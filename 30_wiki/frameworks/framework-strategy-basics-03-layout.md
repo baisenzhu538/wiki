@@ -23,6 +23,10 @@ related:
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 **五件事**：
 1. **现金流业务**：当前利润池，必须守住并持续优化效率。

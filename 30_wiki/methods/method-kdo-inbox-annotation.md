@@ -6,7 +6,7 @@ status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 created_at: 2026-07-07
@@ -20,11 +20,11 @@ source_refs:
 - 30_wiki/frameworks/framework-yitang-six-layer-cross-validation.md
 - 30_wiki/frameworks/framework-yitang-oscar-research.md
 related:
-- "[[framework-yitang-nine-layer-deep-dig]]"
-- "[[framework-yitang-six-layer-cross-validation]]"
-- "[[framework-yitang-oscar-research]]"
-- "[[method-kdo-external-exploration-sop]]"
-- "[[method-kdo-agent-distillation]]"
+- '[[framework-yitang-nine-layer-deep-dig]]'
+- '[[framework-yitang-six-layer-cross-validation]]'
+- '[[framework-yitang-oscar-research]]'
+- '[[method-kdo-external-exploration-sop]]'
+- '[[method-kdo-agent-distillation]]'
 diagnostic_signals:
 - signal: inbox 有新素材但标注报告里没有"已有卡对应关系"
   lens: 标注偷懒——只读了素材没查 wiki
@@ -38,6 +38,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # Inbox 素材标注方法——老顽童影子诊断三方法

@@ -18,11 +18,11 @@ diagnostic_signals:
 - framework_lens: 毛利率≠现金流/净利
   follow_up_question: 高毛利产品的现金回笼周期是多久？营销/研发/管理费用是否吃掉毛利？应收账款和库存是否占用现金？
 related:
-- "[[一堂方法论体系总图]]"
-- "[[yitang-course-map]]"
-- "[[yt-system-course-catalog]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 updated_at: '2026-06-16'
 id: yt-management-finance-basics
 author: 老顽童
@@ -33,6 +33,10 @@ trust_level: medium-low
 source_refs:
 - 10_raw/sources/src_20260614_40afd886-theme-finance-legal-business-summary.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260614_40afd886）
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 财务入门

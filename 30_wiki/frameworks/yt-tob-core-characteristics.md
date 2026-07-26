@@ -18,6 +18,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:beginner
 created_at: '2026-06-16'
 updated_at: '2026-06-28'
 author: 徐剑
@@ -27,9 +30,9 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - "[[tool-yitang-b2b-gov-research]]"
-  - "[[case-yitang-yitu-lead-industrialization]]"
-  - "[[yt-tob-cash-flow]]"
+- '[[tool-yitang-b2b-gov-research]]'
+- '[[case-yitang-yitu-lead-industrialization]]'
+- '[[yt-tob-cash-flow]]'
 diagnostic_signals:
 - framework_lens: 角色分离 / 决策者与使用者分离
   follow_up_question: 谁是最终付费决策者？他的考核指标、成本结构和决策链上还有哪些影响者？

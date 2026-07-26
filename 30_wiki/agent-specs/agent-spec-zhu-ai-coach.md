@@ -1,30 +1,34 @@
 ---
 id: agent-spec-zhu-ai-coach
-title: "老朱 AI 学习教练 Agent — 刻意练习陪跑者"
+title: 老朱 AI 学习教练 Agent — 刻意练习陪跑者
 type: agent-spec
 status: draft
 confidence: 0.85
 trust_level: high
 domain:
-  - personal-os
+- personal-os
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - actionable
+- actionable
 source_refs:
-  - 30_wiki/personal-os/zhu-future-directions.md
-  - 30_wiki/personal-os/zhu-feedback-patterns.md
-  - 30_wiki/personal-os/zhu-project-board.md
-  - 30_wiki/tools/tool-zhu-ai-deliberate-practice-roadmap.md
+- 30_wiki/personal-os/zhu-future-directions.md
+- 30_wiki/personal-os/zhu-feedback-patterns.md
+- 30_wiki/personal-os/zhu-project-board.md
+- 30_wiki/tools/tool-zhu-ai-deliberate-practice-roadmap.md
 related:
-  - tool-zhu-ai-deliberate-practice-roadmap
-  - zhu-future-directions
-  - zhu-feedback-patterns
-  - zhu-project-board
-  - user-insight-profile
+- tool-zhu-ai-deliberate-practice-roadmap
+- zhu-future-directions
+- zhu-feedback-patterns
+- zhu-project-board
+- user-insight-profile
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 老朱 AI 学习教练 Agent — 刻意练习陪跑者

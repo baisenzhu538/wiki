@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-demand-jtbd-application
@@ -18,11 +17,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-  - "[[yt-research-user-jtbd]]"
-  - "[[tool-prompt-jtbd-scenario-coach]]"
-  - "[[case-demand-milkshake-jtbd]]"
-  - "[[case-yitang-jtbd-story-formula]]"
-  - "[[pending_unknown]]"
+- '[[yt-research-user-jtbd]]'
+- '[[tool-prompt-jtbd-scenario-coach]]'
+- '[[case-demand-milkshake-jtbd]]'
+- '[[case-yitang-jtbd-story-formula]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: JTBD——用户要的不是马，是更快到达目的地的方案
   follow_up_question: 用户'雇佣'这个产品是为了完成什么任务？这个任务的真正目标是什么？
@@ -34,7 +33,10 @@ diagnostic_signals:
   follow_up_question: 流失用户现在用什么方案完成原来的任务？这个方案比你的好在哪里？
 - framework_lens: JTBD优先级——功能应该服务于用户的"待办任务"
   follow_up_question: 这个功能能帮助用户完成什么他们现在完成不了的任务？
-
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # JTBD需求分析实战应用：从"用户想要"到"用户雇佣"

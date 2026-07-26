@@ -31,6 +31,10 @@ related:
 - '[[agent-native-card-design]]'
 - tool-ai-cross-reading-method
 - tool-ai-critical-reading-three-layers
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # Apple Card 信用额度性别争议
 

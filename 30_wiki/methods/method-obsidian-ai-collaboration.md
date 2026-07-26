@@ -7,34 +7,46 @@ author: laowantong
 confidence: 0.82
 trust_level: medium
 domain:
-  - system
+- system
 source_refs:
-  - "00_inbox/一堂-obsidian加AI协作-内部实践分享/AI落地Live83_探索AI协作新范式_逐字稿.md"
-  - "00_inbox/一堂-obsidian加AI协作-内部实践分享/一堂-obsidian加AI协作-内部实践分享-口述.txt"
-aliases: ["Obsidian协作","AI协作工作流","人机协作方法","文件夹协作"]
-discoverable_by: ["AI协作","知识库搭建","团队工作流","Obsidian使用"]
+- 00_inbox/一堂-obsidian加AI协作-内部实践分享/AI落地Live83_探索AI协作新范式_逐字稿.md
+- 00_inbox/一堂-obsidian加AI协作-内部实践分享/一堂-obsidian加AI协作-内部实践分享-口述.txt
+aliases:
+- Obsidian协作
+- AI协作工作流
+- 人机协作方法
+- 文件夹协作
+discoverable_by:
+- AI协作
+- 知识库搭建
+- 团队工作流
+- Obsidian使用
 related:
-  - concept-structured-naming-as-infrastructure
-  - framework-kdo-modeling-methodology
-  - framework-yitang-thought-liberation-lightning
-  - yai-counsel-role
-  - concept-collaboration-philosophy-foundation
-  - tool-清单式笔记法
-  - framework-一堂-基本功-四字诀拆建推练
+- concept-structured-naming-as-infrastructure
+- framework-kdo-modeling-methodology
+- framework-yitang-thought-liberation-lightning
+- yai-counsel-role
+- concept-collaboration-philosophy-foundation
+- tool-清单式笔记法
+- framework-一堂-基本功-四字诀拆建推练
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 待审
 diagnostic_signals:
-  - signal: "AI协作做完就丢，下次从头来"
-    lens: 只对当下交付负责，没对未来数据负责
-    follow_up: 检查是否留下了可重用的数据资产
-  - signal: "聊天记录很多但找不到关键判断"
-    lens: 聊天≠记忆工具——上下文会滚走
-    follow_up: 关键判断必须落笔到文件
-  - signal: "换了AI工具后之前的协作全废了"
-    lens: 格式不开放——Markdown可迁移
-    follow_up: 用Markdown+文件而非平台锁定
+- signal: AI协作做完就丢，下次从头来
+  lens: 只对当下交付负责，没对未来数据负责
+  follow_up: 检查是否留下了可重用的数据资产
+- signal: 聊天记录很多但找不到关键判断
+  lens: 聊天≠记忆工具——上下文会滚走
+  follow_up: 关键判断必须落笔到文件
+- signal: 换了AI工具后之前的协作全废了
+  lens: 格式不开放——Markdown可迁移
+  follow_up: 用Markdown+文件而非平台锁定
 quality_labels: cited
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 > **定位**：属于 system 域·KDO 基础设施。来自于陆 Live83「探索AI协作新范式」——一堂内部三阶段 AI 协作实践经验。核心洞察：**YAI是长出来的不是设计出来的、聊天≠长期记忆工具、人外包的是维护不是判断**。

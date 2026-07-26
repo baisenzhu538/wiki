@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-动嘴动手动钱成本纪律
 title: 一堂动嘴动手动钱成本纪律：按成本由低到高选择阻力消除手段
 type: tool
@@ -41,6 +40,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂动嘴动手动钱成本纪律：按成本由低到高选择阻力消除手段

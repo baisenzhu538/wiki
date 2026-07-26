@@ -42,6 +42,9 @@ tags:
 - 薅羊毛
 - 中转商
 - AI工具
+- audience:executor
+- scene:execution
+- skill-level:advanced
 query_triggers:
 - AI工具开发成本
 - API省钱

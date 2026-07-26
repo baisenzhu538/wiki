@@ -30,6 +30,10 @@ related:
 - '[[tool-月白-AI对话式海报修改（免PS）]]'
 - '[[tool-月白-商业项目AI模型选型决策]]'
 - sk-ai-question-problem-checklist
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：AI去文字+稿定设计快速出图法
 

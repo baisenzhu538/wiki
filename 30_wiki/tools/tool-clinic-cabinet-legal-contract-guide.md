@@ -27,6 +27,10 @@ related:
 - '[[互联网医院项目]]'
 - tool-strategy-gap-analysis
 - tool-ai-use-barbell-strategy
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 ## 操作步骤
 

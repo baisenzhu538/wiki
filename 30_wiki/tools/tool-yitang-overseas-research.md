@@ -38,6 +38,10 @@ related:
 - '[[tool-yitang-consumer-goods-research]]'
 - '[[tool-yitang-tech-project-research]]'
 - framework-yitang-six-layer-cross-validation
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 出海调研手段：浅中深三层10大评估法

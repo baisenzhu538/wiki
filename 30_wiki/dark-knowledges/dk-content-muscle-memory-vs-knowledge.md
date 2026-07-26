@@ -7,31 +7,34 @@ status: reviewed
 source_person: wayofmusic / Vikki 战队
 source_context: Vikki 战队 2 群讨论「AI 味 vs 人味」和「信息 × 情绪」时提出：内容创作里很多能力不是知识，是肌肉记忆，很难抽象出来。
 source_refs:
-  - "00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md"
+- 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md
 domain:
-  - content-production
-  - personal-growth
-  - ai-collaboration
-created_at: "2026-07-02"
-updated_at: "2026-07-02"
+- content-production
+- personal-growth
+- ai-collaboration
+created_at: '2026-07-02'
+updated_at: '2026-07-02'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-02"
+review_date: '2026-07-02'
 trust_level: medium
 confidence: 0.84
 related:
-  - "[[yt-personal-deliberate-practice]]"
-  - "[[tool-ai-skill-engineering-method]]"
-  - "[[tool-shortvideo-six-dimension-deconstruction]]"
-  - "[[case-daxin-team-content-training-camp]]"
-  - "[[framework-community-knowledge-production-failure-modes]]"
+- '[[yt-personal-deliberate-practice]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[tool-shortvideo-six-dimension-deconstruction]]'
+- '[[case-daxin-team-content-training-camp]]'
+- '[[framework-community-knowledge-production-failure-modes]]'
 tags:
-  - "#source_type/insight"
-  - "#content-production"
-  - "#ai-collaboration"
+- '#source_type/insight'
+- '#content-production'
+- '#ai-collaboration'
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 quality_labels:
-  - insight
-  - validated
+- insight
+- validated
 ---
 
 # 内容创作中的肌肉记忆：很多能力不是知识

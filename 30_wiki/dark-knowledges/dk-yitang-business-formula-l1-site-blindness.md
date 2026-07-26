@@ -12,7 +12,8 @@ source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L217-L291
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2280-L2306
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2006-L2040
-- 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md L28-L58
+- 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
+  L28-L58
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-parameter-iceberg]]'
@@ -32,6 +33,10 @@ author: 老顽童（kimi）
 reviewed_by: pending
 confidence: 0.85
 trust_level: medium
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 # L1 不进公式=假装选址免费：选择型参数是线下业务最大的隐藏变量
 

@@ -25,6 +25,10 @@ related:
 - business-research-skill-oscar-13-weapon-system
 - tool-yitang-app-store-data
 updated_at: '2026-06-29'
+tags:
+- audience:manager
+- scene:execution
+- skill-level:advanced
 ---
 # 免费替代数据
 

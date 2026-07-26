@@ -21,12 +21,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[tool-月白-封面情绪转化法]]"
-- "[[tool-Truman-AI时代提示词优化法]]"
-- "[[tool-立即实践转化法]]"
-- "[[tool-月白-眼高手低转化法]]"
-- "[[tool-一堂-FAB说服法]]"
-- "[[framework-一堂-动力三曲线]]"
+- '[[tool-月白-封面情绪转化法]]'
+- '[[tool-Truman-AI时代提示词优化法]]'
+- '[[tool-立即实践转化法]]'
+- '[[tool-月白-眼高手低转化法]]'
+- '[[tool-一堂-FAB说服法]]'
+- '[[framework-一堂-动力三曲线]]'
 - '[[conversion-rate-domain-digest]]'
 review_by: 2026-12-06
 reviewed_by: 黄药师
@@ -37,7 +37,10 @@ status: enriched
 title: FAB核心说服：从产品特性到用户利益的转化法
 type: tool
 version: 1
-tags: []
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 pipeline:
 - src_unknown
 - src_unknown

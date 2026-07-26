@@ -25,11 +25,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-工厂对接信息清单制作]]"
-  - "[[tool-月白-小红书双重搜索法]]"
-  - "[[tool-月白-口喷作图工作流]]"
-  - "[[tool-月白-文创产品AI设计到生产的卡点预判]]"
-  - "[[tool-月白-商业项目AI模型选型决策]]"
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[tool-月白-小红书双重搜索法]]'
+- '[[tool-月白-口喷作图工作流]]'
+- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
+- '[[tool-月白-商业项目AI模型选型决策]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：手机外设计逻辑切换法
 

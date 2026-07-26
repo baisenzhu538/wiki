@@ -26,6 +26,10 @@ related:
 - '[[pending_unknown]]'
 - tool-yitang-channel-scan-cheat-sheet
 - case-lean-building-in-vacuum
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：堕落小龙虾组合测试
 

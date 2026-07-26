@@ -9,9 +9,9 @@ domain:
 - ai-collaboration
 - yitang
 quality_labels:
-  - cited
-  - quality
-  - validated
+- cited
+- quality
+- validated
 created_at: '2026-06-19'
 updated_at: 2026-06-28
 author: 老顽童
@@ -24,15 +24,15 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-- "[[dk-modeling-ai-judgment-limit]]"
-- "[[dk-wanghuan-ai-lifts-personal-ceiling]]"
-- "[[framework-wanghuan-bitcoe-prompt-framework]]"
-- "[[dk-wanghuan-standard-by-iteration]]"
-- "[[dk-wanghuan-creativity-in-description-and-taste]]"
-- "[[human-ai-collaboration-double-triangle]]"
-- "[[dk-wanghuan-standard-by-iteration]]"
-- "[[framework-wanghuan-actor-director-mode]]"
-- "[[framework-wanghuan-ooda-loop]]"
+- '[[dk-modeling-ai-judgment-limit]]'
+- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+- '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- '[[dk-wanghuan-standard-by-iteration]]'
+- '[[dk-wanghuan-creativity-in-description-and-taste]]'
+- '[[human-ai-collaboration-double-triangle]]'
+- '[[dk-wanghuan-standard-by-iteration]]'
+- '[[framework-wanghuan-actor-director-mode]]'
+- '[[framework-wanghuan-ooda-loop]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 输出=标准×迭代——标准高但迭代少，输出质量不高
@@ -50,11 +50,9 @@ diagnostic_signals:
   framework_lens: 输出=标准×迭代——团队需要统一最低迭代次数和验收标准
   follow_up_question: 团队有统一的最低迭代次数和验收标准吗？
 tags:
-
-
-
-
-
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 review_date: '2026-06-28'
 ---
 

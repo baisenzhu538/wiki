@@ -24,6 +24,10 @@ related:
 - '[[tool-人生红点战略对齐]]'
 - case-strategy-practice-12-zero-loss
 - case-strategy-practice-11-third-place
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 **困境**：数码相机毁灭胶卷行业，柯达倒闭。
 **转机**：乐凯的核心技术是"光学薄膜涂层"，迁移到液晶面板、光伏薄膜等新赛道后存活。

@@ -4,25 +4,29 @@ title: KDO 建模方法论——从踩坑打补丁到组件化建模
 type: framework
 status: draft
 author: 黄药师
-confidence: 0.90
+confidence: 0.9
 trust_level: high
-domain: [kdo, modeling]
+domain:
+- kdo
+- modeling
 source_refs:
-  - 00_inbox/Advanced modeling/一堂-高阶建模实践1-流程建模-口述.txt
-  - 00_inbox/Advanced modeling/一堂-高阶建模实践1-流程建模-笔记.txt
-  - .agent/pitfalls.md
-  - .agent/startup.md
-  - 90_control/rules-core.md
+- 00_inbox/Advanced modeling/一堂-高阶建模实践1-流程建模-口述.txt
+- 00_inbox/Advanced modeling/一堂-高阶建模实践1-流程建模-笔记.txt
+- .agent/pitfalls.md
+- .agent/startup.md
+- 90_control/rules-core.md
 related:
-  - framework-kdo-self-attack
-  - concept-kdo-component-library
-  - dk-process-is-scar-tissue
-  - framework-一堂-TCPR皇冠模型
-  - yt-decision-y-model
+- framework-kdo-self-attack
+- concept-kdo-component-library
+- dk-process-is-scar-tissue
+- framework-一堂-TCPR皇冠模型
+- yt-decision-y-model
 created_at: 2026-07-19
-updated_at: 2026-07-19
-  - tool-yitang-dialectical-modeling
-  - framework-yitang-thought-liberation-lightning
+updated_at: 2026-07-19 - tool-yitang-dialectical-modeling - framework-yitang-thought-liberation-lightning
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 ## 核心主张

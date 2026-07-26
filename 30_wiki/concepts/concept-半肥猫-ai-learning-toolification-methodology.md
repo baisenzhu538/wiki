@@ -1,5 +1,4 @@
 ---
-
 id: concept-半肥猫-ai-learning-toolification-methodology
 title: 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进
 type: concept
@@ -15,20 +14,20 @@ source_refs:
 - 10_raw/sources/src_20260617_26d0ee0b-ai俱乐部-ai学习落地-半肥猫-笔记.txt
 - 10_raw/sources/src_20260617_205eaa9b-ai俱乐部-ai学习落地-半肥猫-口述.txt
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: 2026-06-07
 updated_at: '2026-06-28'
 related:
-  - "[[tool-半肥猫-边学边练边沉淀的AI学习法]]"
-  - "[[tool-半肥猫-课程Skill化的八步工作流]]"
-  - "[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]"
-  - "[[tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]"
-  - "[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]"
-  - "[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]"
-  - "[[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]"
-  - "[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]"
+- '[[tool-半肥猫-边学边练边沉淀的AI学习法]]'
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
+- '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
+- '[[tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]'
+- '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+- '[[tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
+- '[[tool-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -47,7 +46,10 @@ diagnostic_signals:
   follow_up_question: 你过去三个月沉淀了多少个可复用的 SOP、Skill 或检查清单？最近一次调用自己沉淀的工具是什么时候？
 - framework_lens: 缺少知识库 / Skill 化基建
   follow_up_question: 你们团队有没有一份统一的 AI 使用协议或共享的 Skill 库？如果没有，每个人的"经验"是不是每次都在重新发明？
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 半肥猫 AI 学习落地方法论

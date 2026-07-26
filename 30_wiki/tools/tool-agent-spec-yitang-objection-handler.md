@@ -41,7 +41,6 @@ related:
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[tool-agent-spec-yitang-opening-3min]]'
 - '[[tool-osint-maltego]]'
-
 - '[[framework-一堂-阻力方法论骨架]]'
 - '[[framework-一堂-12种阻力总表]]'
 - '[[tool-一堂-阻力消除12策小抄]]'
@@ -51,6 +50,10 @@ tcp_role: C
 tcp_default_mode: 咨询诊断（Consult）：识别异议类型、优先级与应对策略
 tcp_switch_trigger: 用户要求切换到教学模式（异议类型讲解+案例）、实践模式（直接生成回复话术）或研究模式（异议模式统计/竞品对比）
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：先帮你识别客户异议的真实类型，再给出应对策略与话术草稿。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # OPC 客户异议处理助手 Agent Spec

@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[yt-growth-acquisition-channels]]"
-  - "[[yt-growth-activation-rate]]"
-  - "[[yt-growth-growth-hacking]]"
+- '[[yt-growth-acquisition-channels]]'
+- '[[yt-growth-activation-rate]]'
+- '[[yt-growth-growth-hacking]]'
 diagnostic_signals:
 - framework_lens: 推荐系统——老带新需要设计推荐机制，不是自然发生
   follow_up_question: 你的推荐机制是什么？推荐者得到什么？被推荐者得到什么？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你有没有防作弊机制？如何识别虚假推荐？
 - framework_lens: 推荐系统——推荐成本需要低于CAC
   follow_up_question: 你的推荐成本是多少？是否低于其他渠道的CAC？
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 推荐系统：老带新的设计框架

@@ -39,6 +39,10 @@ related:
 - '[[tool-demand-rat-generator]]'
 - '[[tool-demand-report-template]]'
 - tool-yitang-research-validate-assumption
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # L6需求假设

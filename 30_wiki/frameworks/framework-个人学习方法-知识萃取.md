@@ -31,6 +31,10 @@ diagnostic_signals:
 quality_labels:
 - principle
 - actionable
+tags:
+- audience:executor
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 知识萃取：碎片经验→可落地模型

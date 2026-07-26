@@ -26,6 +26,10 @@ diagnostic_signals:
   follow-up: 后续补全
 quality_labels:
 - actionable
+tags:
+- audience:manager
+- scene:execution
+- skill-level:intermediate
 ---
 # 团队任务池 (Team Task Pool)
 

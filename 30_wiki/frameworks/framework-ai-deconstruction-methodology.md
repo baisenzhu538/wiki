@@ -33,6 +33,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 quality_labels:
 - cited
 - principle

@@ -1,40 +1,42 @@
 ---
-
-id: "framework-ci-operating-model"
-title: "竞争情报操作系统（CI Operating Model）"
-type: "framework"
+id: framework-ci-operating-model
+title: 竞争情报操作系统（CI Operating Model）
+type: framework
 domain:
-  - "research"
-  - "strategy"
+- research
+- strategy
 tags:
-  - "竞争情报"
-  - "CI"
-  - "Define-Gather-Analyze-Implement"
-  - "一堂武器库对接"
-source_person: "Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps"
-source_context: "一堂调研武器库盲区诊断 + 外部CI专业框架比对"
+- 竞争情报
+- CI
+- Define-Gather-Analyze-Implement
+- 一堂武器库对接
+- audience:executor
+- scene:diagnosis
+- skill-level:intermediate
+source_person: Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
+source_context: 一堂调研武器库盲区诊断 + 外部CI专业框架比对
 source_refs:
-  - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
-  - "https://www.competitiveintelligencealliance.io/competitive-intelligence-framework/"
-  - "https://blog.bestbootcamps.com/competitive-intelligence-framework/"
+- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
+- https://www.competitiveintelligencealliance.io/competitive-intelligence-framework/
+- https://blog.bestbootcamps.com/competitive-intelligence-framework/
 related:
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[framework-yitang-18-strategy-cards]]"
-  - "[[case-course-milestone-model]]"
-  - "[[case-livestream-sop-modeling]]"
-  - "[[case-modeling-abstraction-reliability-ladder]]"
+- '[[framework-yitang-research-weapon-system]]'
+- '[[framework-yitang-18-strategy-cards]]'
+- '[[case-course-milestone-model]]'
+- '[[case-livestream-sop-modeling]]'
+- '[[case-modeling-abstraction-reliability-ladder]]'
 status: reviewed
-reviewed_by: "欧阳锋"
-review_date: "2026-06-28"
-created_at: "2026-06-28"
+reviewed_by: 欧阳锋
+review_date: '2026-06-28'
+created_at: '2026-06-28'
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - validated
+- cited
+- insight
+- principle
+- validated
 updated_at: '2026-06-28'
 confidence: 0.78
-trust_level: "medium"
+trust_level: medium
 ---
 
 # 竞争情报操作系统（CI Operating Model）

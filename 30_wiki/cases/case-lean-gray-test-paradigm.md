@@ -1,5 +1,4 @@
 ---
-
 id: case-lean-gray-test-paradigm
 title: 灰度测试范式实操案例
 type: case
@@ -22,9 +21,13 @@ source_refs:
 - 00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md
 - 00_inbox/精益创业/低成本验证-系统测试曲线_vlm_desc.md
 related:
-  - "[[lean-startup-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
+- '[[lean-startup-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 灰度测试范式实操案例

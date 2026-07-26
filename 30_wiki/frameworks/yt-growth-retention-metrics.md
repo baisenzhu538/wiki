@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[yt-growth-acquisition-channels]]"
-  - "[[yt-growth-activation-rate]]"
-  - "[[yt-growth-growth-hacking]]"
+- '[[yt-growth-acquisition-channels]]'
+- '[[yt-growth-activation-rate]]'
+- '[[yt-growth-growth-hacking]]'
 diagnostic_signals:
 - framework_lens: 留存指标——留存是增长的基础，获客不留存是漏斗漏水
   follow_up_question: 你的留存率是多少？次日留存、7日留存、30日留存分别是多少？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你的产品是否形成了用户习惯？用户什么场景下会回来？
 - framework_lens: 留存指标——补贴留存不可持续，需要产品价值留存
   follow_up_question: 停止补贴后，用户还会回来吗？产品本身的价值是否足够？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 留存指标：从流失到忠诚

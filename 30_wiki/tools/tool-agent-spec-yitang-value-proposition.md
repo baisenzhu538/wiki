@@ -36,7 +36,6 @@ related:
 - '[[tool-agent-spec-yitang-objection-handler]]'
 - '[[tool-agent-spec-yitang-opening-3min]]'
 - '[[tool-agent-spec-yitang-self-motivation]]'
-
 - '[[framework-一堂-动力三曲线]]'
 - '[[tool-一堂-FAB说服法]]'
 - '[[framework-一堂-十指模型]]'
@@ -46,6 +45,10 @@ tcp_role: C
 tcp_default_mode: 咨询共创（Consult）：把产品语言翻译成特定客户愿意付费的价值语言
 tcp_switch_trigger: 用户明确要求切换到教学模式（解释卖点方法论）、实践模式（直接产出话术/海报/PPT）或研究模式（跨行业卖点对比）
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：先帮你理解客户与产品匹配点，再共创差异化卖点。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # OPC 卖点提炼助手 Agent Spec

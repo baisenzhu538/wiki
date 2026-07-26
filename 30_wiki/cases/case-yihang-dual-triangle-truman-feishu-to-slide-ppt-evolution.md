@@ -20,21 +20,25 @@ source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 - 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
 related:
-- "[[yt-decision-y-model]]"
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-dual-triangle-flywheel-engine]]"
-- "[[tool-yihang-dual-triangle-canvas]]"
-- "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
-- "[[framework-yitang-y-model-dual-triangle-synergy]]"
-- "[[case-yihang-dual-triangle-ahao-product-selection]]"
-- "[[case-yihang-dual-triangle-beike-ai-outbound]]"
-- "[[case-yihang-dual-triangle-chentian-knowledge-agent]]"
-- "[[case-yihang-dual-triangle-huazao-synthetic-data]]"
-- "[[case-yihang-dual-triangle-tianmo-design-delivery]]"
-- "[[case-yitang-truman-time-management-transformation]]"
+- '[[yt-decision-y-model]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[framework-yitang-y-model-dual-triangle-synergy]]'
+- '[[case-yihang-dual-triangle-ahao-product-selection]]'
+- '[[case-yihang-dual-triangle-beike-ai-outbound]]'
+- '[[case-yihang-dual-triangle-chentian-knowledge-agent]]'
+- '[[case-yihang-dual-triangle-huazao-synthetic-data]]'
+- '[[case-yihang-dual-triangle-tianmo-design-delivery]]'
+- '[[case-yitang-truman-time-management-transformation]]'
 aliases:
 - Truman 飞书 To slide
 - PPT 迭代案例
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 一行双三角案例：Truman「飞书 To slide」PPT 迭代进化

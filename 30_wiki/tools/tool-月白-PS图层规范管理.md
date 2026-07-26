@@ -25,16 +25,20 @@ reviewed_at: '2026-07-04'
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-多窗口并行工作法]]"
-- "[[tool-月白-印刷DPI标准设置]]"
-- "[[tool-月白-AI图片印刷落地预处理]]"
-- "[[tool-月白-餐饮海报AB测试法]]"
-- "[[tool-月白-AIGC橱窗陈列设计流程]]"
-- "[[tool-月白-RGB转CMYK印刷预检]]"
-- "[[tool-月白-RGB转CMYK色彩校准法]]"
-- "[[tool-月白-文件命名与图层命名规范]]"
-- "[[tool-月白-色块分区控制法]]"
-- "[[tool-月白-跨境电商产品图替换法]]"
+- '[[tool-月白-多窗口并行工作法]]'
+- '[[tool-月白-印刷DPI标准设置]]'
+- '[[tool-月白-AI图片印刷落地预处理]]'
+- '[[tool-月白-餐饮海报AB测试法]]'
+- '[[tool-月白-AIGC橱窗陈列设计流程]]'
+- '[[tool-月白-RGB转CMYK印刷预检]]'
+- '[[tool-月白-RGB转CMYK色彩校准法]]'
+- '[[tool-月白-文件命名与图层命名规范]]'
+- '[[tool-月白-色块分区控制法]]'
+- '[[tool-月白-跨境电商产品图替换法]]'
+tags:
+- audience:manager
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：PS图层规范管理

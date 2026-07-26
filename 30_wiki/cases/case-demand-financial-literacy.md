@@ -27,6 +27,10 @@ related:
 - '[[dk-demand-pitfall-financial-literacy]]'
 - '[[tool-demand-agent-l4-case-match]]'
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # 案例：少儿财商教育
 

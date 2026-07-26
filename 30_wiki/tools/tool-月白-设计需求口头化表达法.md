@@ -24,12 +24,16 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-AI设计反馈萃取法]]"
-- "[[tool-月白-AI对话情绪管理法]]"
-- "[[tool-月白-竞品图精益替换法]]"
-- "[[tool-月白-文创材质调研与精益选择]]"
-- "[[tool-月白-控制产品画面尺寸比例]]"
-- "[[tool-demand-iceberg-l2-scenario]]"
+- '[[tool-月白-AI设计反馈萃取法]]'
+- '[[tool-月白-AI对话情绪管理法]]'
+- '[[tool-月白-竞品图精益替换法]]'
+- '[[tool-月白-文创材质调研与精益选择]]'
+- '[[tool-月白-控制产品画面尺寸比例]]'
+- '[[tool-demand-iceberg-l2-scenario]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：设计需求口头化表达法

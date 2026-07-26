@@ -20,6 +20,10 @@ related:
 - '[[yt-growth-channel-roi]]'
 - '[[tool-泛产品落地-ROI分析]]'
 - '[[tool-ai-deliverable-polish-loop]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：top 1/top 3/top 5 筛选打磨
 

@@ -21,17 +21,21 @@ pipeline:
 - src_unknown
 author: 月白
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 confidence: 0.6
 trust_level: low
 related:
-  - '[[tool-月白-AI精准替换产品技巧]]'
-  - '[[tool-月白-跨境电商产品图替换法]]'
-  - tool-月白-课程问题预埋法
-  - tool-月白-提示词长度控制法
-  - tool-月白-AI需求拆解咨询法
-  - tool-月白-用一堂方法论找最佳实践并拉满执行
-  - tool-月白-三步作业反馈法
+- '[[tool-月白-AI精准替换产品技巧]]'
+- '[[tool-月白-跨境电商产品图替换法]]'
+- tool-月白-课程问题预埋法
+- tool-月白-提示词长度控制法
+- tool-月白-AI需求拆解咨询法
+- tool-月白-用一堂方法论找最佳实践并拉满执行
+- tool-月白-三步作业反馈法
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：海报二维码快速替换法

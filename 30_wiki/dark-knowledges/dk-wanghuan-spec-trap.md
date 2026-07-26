@@ -1,6 +1,4 @@
 ---
-
-
 id: dk-wanghuan-spec-trap
 title: 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
 type: dk
@@ -12,9 +10,9 @@ domain:
 - yitang
 created_at: '2026-06-19'
 quality_labels:
-  - cited
-  - quality
-  - validated
+- cited
+- quality
+- validated
 updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -38,20 +36,18 @@ diagnostic_signals:
   lens: means-ends-confusion
   follow_up: 把验收标准前置，执行路径交给 AI 探索
 related:
-  - "[[dk-wanghuan-tacit-decision-extraction-cross-domain]]"
-  - "[[dk-wanghuan-paced-sales-decision]]"
-  - "[[dk-wanghuan-agent-platform-director-mode]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[yitang-domain-digest]]"
+- '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
+- '[[dk-wanghuan-paced-sales-decision]]'
+- '[[dk-wanghuan-agent-platform-director-mode]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
 tags:
-
-
-
-
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 review_date: '2026-06-28'
-
 ---
 
 # 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限

@@ -17,10 +17,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-- "[[yt-demand-scenario-reconstruction]]"
-- "[[yt-demand-decision-chain]]"
-- "[[yt-demand-qualitative-analysis]]"
-- "[[yt-five-step-method]]"
+- '[[yt-demand-scenario-reconstruction]]'
+- '[[yt-demand-decision-chain]]'
+- '[[yt-demand-qualitative-analysis]]'
+- '[[yt-five-step-method]]'
 diagnostic_signals:
 - framework_lens: ToB vs ToC差异——ToB必须分析决策链
   follow_up_question: 你的目标用户中，谁是使用者？谁是决策者？谁是采购者？他们的需求分别是什么？
@@ -32,6 +32,10 @@ diagnostic_signals:
   follow_up_question: 决策者采购时最关注什么？ROI、合规、风险，还是效率？
 - framework_lens: ToB vs ToC差异——ToB验证周期长，需要不同的验证方法
   follow_up_question: ToB客户的验证周期是多久？能否用PoC（概念验证）替代快速迭代？
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 

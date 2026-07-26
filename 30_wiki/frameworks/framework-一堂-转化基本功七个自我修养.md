@@ -1,5 +1,4 @@
 ---
-
 id: framework-一堂-转化基本功七个自我修养
 title: 一堂转化基本功七个自我修养：从固定拿结果到大量迁移的团队纪律
 type: framework
@@ -42,6 +41,10 @@ quality_labels:
 - framework
 - cited
 - actionable
+tags:
+- audience:manager
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一堂转化基本功七个自我修养

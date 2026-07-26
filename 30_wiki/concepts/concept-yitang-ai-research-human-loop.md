@@ -11,24 +11,26 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - research
-  - ai-collaboration
+- yitang
+- research
+- ai-collaboration
 source_refs:
-  - 00_inbox/调研专题/高阶调研行动营01.txt
-  - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+- 00_inbox/调研专题/高阶调研行动营01.txt
+- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
-  - '[[yitang-domain-digest]]'
-  - '[[yitang-research-domain-digest]]'
-  - '[[ai-collaboration-domain-digest]]'
-  
-  
-  - tool-yitang-amazon-bestseller
-  - tool-yitang-ai-monitoring-alert
-  - '[[framework-ai-native-organization-two-modes]]'
-  - '[[agent-spec-codex-teammate]]'
-  - '[[concept-yihang-human-in-the-loop-dual-triangle]]'
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[ai-collaboration-domain-digest]]'
+- tool-yitang-amazon-bestseller
+- tool-yitang-ai-monitoring-alert
+- '[[framework-ai-native-organization-two-modes]]'
+- '[[agent-spec-codex-teammate]]'
+- '[[concept-yihang-human-in-the-loop-dual-triangle]]'
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # AI调研中人机协作的判断节点
 

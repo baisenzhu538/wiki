@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-research-weapon-system
 title: 调研超级武器库：三层八模块十四节点
 type: framework
@@ -8,8 +7,8 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
 quality_labels:
-  - principle
-  - validated
+- principle
+- validated
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
@@ -34,14 +33,18 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[framework-ci-operating-model]]"
-  - "[[framework-ouyangfeng-review-methodology]]"
-  - "[[framework-yitang-research-weapon-supplement-2026]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[framework-ci-operating-model]]'
+- '[[framework-ouyangfeng-review-methodology]]'
+- '[[framework-yitang-research-weapon-supplement-2026]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 调研超级武器库：三层八模块十四节点

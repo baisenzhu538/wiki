@@ -26,6 +26,10 @@ related:
 - tool-yitang-reverse-data-analysis
 - tool-ai-prd-for-ai
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 武器库策略13：产品逆向/拆解
 

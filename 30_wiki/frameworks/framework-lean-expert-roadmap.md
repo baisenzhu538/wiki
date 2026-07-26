@@ -23,6 +23,10 @@ related:
 - tool-lean-minimum-version
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 # 精益高手十年修炼地图
 

@@ -14,9 +14,9 @@ difficulty: intermediate
 estimated_tokens: 2400
 language: zh-CN
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by: 黄药师（Builder体验Producer）
@@ -29,7 +29,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
-tags: []
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 pipeline:
 - src_unknown
 diagnostic_signals:
@@ -50,11 +53,11 @@ author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-29'
 related:
-- "[[yt-five-step-method]]"
-- "[[yt-barrier-analysis-cheat-sheet]]"
-- "[[yt-entrepreneur-barriers]]"
-- "[[case-five-step-growth-first-lever]]"
-- "[[yt-scale-economy-weapon-library]]"
+- '[[yt-five-step-method]]'
+- '[[yt-barrier-analysis-cheat-sheet]]'
+- '[[yt-entrepreneur-barriers]]'
+- '[[case-five-step-growth-first-lever]]'
+- '[[yt-scale-economy-weapon-library]]'
 ---
 
 # 案例：五步法中识别真壁垒和假壁垒

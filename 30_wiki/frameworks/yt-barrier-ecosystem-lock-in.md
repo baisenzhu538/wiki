@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[yt-barrier-brand-equity]]"
-  - "[[yt-barrier-culture-moat]]"
-  - "[[yt-barrier-data-assets]]"
+- '[[yt-barrier-brand-equity]]'
+- '[[yt-barrier-culture-moat]]'
+- '[[yt-barrier-data-assets]]'
 diagnostic_signals:
 - framework_lens: 生态锁定——生态需要两边都足够，开发者多≠用户多
   follow_up_question: 你的平台用户和开发者的比例是多少？哪边是瓶颈？如何启动？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你的生态参与者的收益模型是什么？收益是否可持续？
 - framework_lens: 生态锁定——生态建设需要种子用户和核心应用
   follow_up_question: 你的种子用户是谁？核心应用是什么？如何启动双边市场？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 生态锁定：平台壁垒

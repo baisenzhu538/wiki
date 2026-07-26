@@ -1,7 +1,7 @@
 ---
 domain:
-  - yitang
-  - research
+- yitang
+- research
 id: yt-research-intelligence-map
 title: 商业调研 13 武器体系
 type: tool
@@ -9,7 +9,7 @@ status: reviewed
 source_context: 一堂商业调研课程——13 种信息收集方法
 source_person: 一堂
 source_refs:
-  - pending_archive:src_20260620_business-research-skill-v2.1.0
+- pending_archive:src_20260620_business-research-skill-v2.1.0
 created_at: '2026-06-20'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -18,15 +18,17 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-  - "[[yt-research-osl-framework]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[yt-research-expert-interview]]"
-  - "[[yt-research-user-jtbd]]"
-  - "[[yt-research-industry-canvas]]"
-  - "[[yt-research-hypothesis-test]]"
-  - "[[yt-research-mindset]]"
-
-
+- '[[yt-research-osl-framework]]'
+- '[[yt-research-competitor-toolkit]]'
+- '[[yt-research-expert-interview]]'
+- '[[yt-research-user-jtbd]]'
+- '[[yt-research-industry-canvas]]'
+- '[[yt-research-hypothesis-test]]'
+- '[[yt-research-mindset]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 

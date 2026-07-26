@@ -37,6 +37,10 @@ diagnostic_signals:
   follow_up_question: 你的渠道集中度是多少？是否有计划拓展新渠道？
 - framework_lens: 渠道ROI评估——渠道成本上升需要优化或寻找替代渠道
   follow_up_question: 成本上升是因为竞争加剧还是渠道本身效率下降？有没有替代渠道？
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 渠道ROI评估与优化
 

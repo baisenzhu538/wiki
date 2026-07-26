@@ -7,7 +7,8 @@ domain:
 - yitang
 - business-formula
 source_person: 杜同学（一堂学员，儿童教育产品推广）
-source_context: 一堂「关键假设-业务公式」参数探索篇口述，L3 分层段学员案例（L1972-L1984）：杜同学做儿童教育产品现场推广，把孩子年龄×孩子成绩×陪同家长（父/母/老人）三维交叉切片分 SABC，发现老人无法现场决策、妈妈能拍板，据此设计"带父母来的往前坐"等运营动作
+source_context: 一堂「关键假设-业务公式」参数探索篇口述，L3 分层段学员案例（L1972-L1984）：杜同学做儿童教育产品现场推广，把孩子年龄×孩子成绩×陪同家长（父/母/老人）三维交叉切片分
+  SABC，发现老人无法现场决策、妈妈能拍板，据此设计"带父母来的往前坐"等运营动作
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1972-L1978
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1980-L1984
@@ -29,6 +30,10 @@ related:
 - '[[business-formula-domain-digest]]'
 - '[[framework-一堂-关键假设]]'
 - '[[case-toc-ecommerce-formula-misjudgment]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 杜同学儿童教育：年龄×成绩×陪同家长三维切 SABC，发现"妈妈能拍板、老人最弱"
 

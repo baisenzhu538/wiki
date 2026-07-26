@@ -20,16 +20,20 @@ quality_labels:
 - cited
 - actionable
 related:
-  - "[[framework-一堂-关键假设]]"
-  - "[[framework-一堂-关键假设-三板斧]]"
-  - "[[framework-一堂-关键假设-ABCD模型]]"
-  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
-  - "[[concept-一堂-business-prediction]]"
-  - "[[concept-一堂-product-kernel]]"
-  - "[[yt-foresight-15-char-mantra]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[case-一堂-无人餐厅-hypothesis-failure]]"
-  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
+- '[[framework-一堂-关键假设]]'
+- '[[framework-一堂-关键假设-三板斧]]'
+- '[[framework-一堂-关键假设-ABCD模型]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[concept-一堂-business-prediction]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[yt-foresight-15-char-mantra]]'
+- '[[concept-一堂-kernel-validation]]'
+- '[[case-一堂-无人餐厅-hypothesis-failure]]'
+- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 > 黄药师骨架 · 老顽童填内容

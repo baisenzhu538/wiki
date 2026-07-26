@@ -9,25 +9,29 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-  - yitang
-  - decision-science
+- yitang
+- decision-science
 source_refs:
-  - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-人机协作决策_vlm_desc.md
+- 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-人机协作决策_vlm_desc.md
 related:
-  - '[[pending_unknown]]'
-  - '[[decision-science-domain-digest]]'
-  - '[[case-live81-ai-trademark-design]]'
-  - '[[tool-ai-deliverable-polish-loop]]'
-  - '[[yitang-domain-digest]]'
-  - yt-decision-ai-partner
-  - concept-X型Y型决策习惯
-  - '[[framework-taste-as-judgment-system]]'
-  - '[[dk-ai-builder-illusion]]'
-  - '[[agent-spec-codex-teammate]]'
-  - '[[concept-ai-native-organization-five-steps]]'
-  - '[[concept-yihang-dual-triangle-core]]'
+- '[[pending_unknown]]'
+- '[[decision-science-domain-digest]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[yitang-domain-digest]]'
+- yt-decision-ai-partner
+- concept-X型Y型决策习惯
+- '[[framework-taste-as-judgment-system]]'
+- '[[dk-ai-builder-illusion]]'
+- '[[agent-spec-codex-teammate]]'
+- '[[concept-ai-native-organization-five-steps]]'
+- '[[concept-yihang-dual-triangle-core]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 # AI时代的双三角竞争力
 

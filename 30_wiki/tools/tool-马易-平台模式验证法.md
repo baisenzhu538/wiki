@@ -4,33 +4,36 @@ title: 技能：平台模式验证法
 type: tool
 domain:
 - ai-collaboration
-- yitang
-  - ai-saas
+- yitang - ai-saas
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
 related:
-  - '[[tool-马易-AI搜索公网数据增强（合规边界）]]'
-  - '[[tool-马易-AI落地能力内化训练]]'
-  - '[[tool-马易-关键假设识别与验证]]'
-  - '[[tool-马易-时间序列大模型场景识别]]'
-  - '[[tool-马易-知识库-回答技巧双建设]]'
-  - '[[tool-马易-视频转化关键要素标注校验]]'
-  - '[[tool-马易-风口痛点识别法]]'
-  - tool-马易-AI能力团队复制
-  - tool-马易-AI任务拆解提升控制度
-  - tool-马易-AI答疑运营风格适配
-  - tool-马易-隐私安全分层解决
-  - tool-马易-AIGC项目ROI评估
-  - yt-panproduct-demand-user-perspective
-  - tool-yitang-ai-report-drafting
+- '[[tool-马易-AI搜索公网数据增强（合规边界）]]'
+- '[[tool-马易-AI落地能力内化训练]]'
+- '[[tool-马易-关键假设识别与验证]]'
+- '[[tool-马易-时间序列大模型场景识别]]'
+- '[[tool-马易-知识库-回答技巧双建设]]'
+- '[[tool-马易-视频转化关键要素标注校验]]'
+- '[[tool-马易-风口痛点识别法]]'
+- tool-马易-AI能力团队复制
+- tool-马易-AI任务拆解提升控制度
+- tool-马易-AI答疑运营风格适配
+- tool-马易-隐私安全分层解决
+- tool-马易-AIGC项目ROI评估
+- yt-panproduct-demand-user-perspective
+- tool-yitang-ai-report-drafting
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：平台模式验证法

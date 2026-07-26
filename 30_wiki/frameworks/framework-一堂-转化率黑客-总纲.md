@@ -1,5 +1,4 @@
 ---
-
 id: framework-一堂-转化率黑客-总纲
 title: 一堂转化率黑客总纲：转化率 = 动力 − 阻力 + 触点（关键假设 ABCD 之 D 域·微观效率）
 type: framework
@@ -87,7 +86,6 @@ related:
 - '[[tool-一堂-触点挖掘四层级]]'
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
-
 - '[[opc-ai-sales-agent-architecture]]'
 - '[[tool-opc-sales-dialogue-assistant]]'
 diagnostic_signals:
@@ -105,6 +103,10 @@ quality_labels:
 - framework
 - cited
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一堂转化率黑客总纲：转化率 = 动力 − 阻力 + 触点

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-channel-partnership-design
 title: 区域代理/底价合伙人模式设计工具
 type: tool
@@ -14,20 +13,24 @@ domain:
 - growth
 - strategy
 created_at: '2026-06-29'
-updated_at: "2026-06-30T16:07:51+00:00"
+updated_at: '2026-06-30T16:07:51+00:00'
 source_refs:
 - 60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md
 - 10_raw/sources/src_20260614_22f103f0-战略培训-实战案例分析.md
 - 10_raw/itingnao/details/3979746.json
 source_person: 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）
 related:
-- "[[framework-yitang-channel-partnership-map]]"
-- "[[case-yitang-goat-milk-channel-partnership]]"
-- "[[tool-strategy-profit-model-comparison]]"
-- "[[tool-yitang-channel-scoring-matrix]]"
-- "[[yt-management-partnership-equity]]"
-- "[[framework-yitang-channel-unit-economics]]"
-- "[[tool-yitang-channel-agent-interview]]"
+- '[[framework-yitang-channel-partnership-map]]'
+- '[[case-yitang-goat-milk-channel-partnership]]'
+- '[[tool-strategy-profit-model-comparison]]'
+- '[[tool-yitang-channel-scoring-matrix]]'
+- '[[yt-management-partnership-equity]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[tool-yitang-channel-agent-interview]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 区域代理/底价合伙人模式设计工具

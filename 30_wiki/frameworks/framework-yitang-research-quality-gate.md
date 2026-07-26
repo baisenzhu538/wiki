@@ -29,6 +29,10 @@ diagnostic_signals:
   follow_up_question: 六维中哪一维最薄弱？薄弱项回补后再提交
 - framework_lens: 对照六维找缺口
   follow_up_question: 驳回理由对应六维中的哪一维？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 调研质量自检框架：六维门禁

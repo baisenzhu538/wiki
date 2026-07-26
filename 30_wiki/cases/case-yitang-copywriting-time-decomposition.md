@@ -5,7 +5,7 @@ type: case
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 confidence: 0.84
 trust_level: medium
 language: zh-CN
@@ -31,6 +31,10 @@ related:
 - tool-yitang-Y-model-application
 created_at: 2026-07-04
 updated_at: '2026-07-04'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 一堂文案团队时间拆解：把「写稿」拆成可测量的工序

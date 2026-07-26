@@ -15,11 +15,11 @@ confidence: 0.78
 prerequisites: null
 component_of: null
 related:
-- "[[yt-pitch-storytelling]]"
-- "[[yt-pitch-quantification]]"
-- "[[yt-tool-meeting-designer]]"
-- "[[yt-tool-strategy-workshop]]"
-- "[[yt-management-scientific-meetings]]"
+- '[[yt-pitch-storytelling]]'
+- '[[yt-pitch-quantification]]'
+- '[[yt-tool-meeting-designer]]'
+- '[[yt-tool-strategy-workshop]]'
+- '[[yt-management-scientific-meetings]]'
 contradicts: null
 query_triggers:
 - src_unknown
@@ -36,6 +36,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 trust_level: medium
 created_at: '2026-05-29'
 updated_at: '2026-06-28'

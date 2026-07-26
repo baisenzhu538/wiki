@@ -18,11 +18,11 @@ query_triggers:
 - src_unknown
 - src_unknown：动力三曲线 × 十大浪费触点
 related:
-- "[[yt-management-conversion-hacking]]"
-- "[[yt-entrepreneur-growth-flywheel]]"
-- "[[一堂]]"
-- "[[yt-model-product-core-metrics]]"
-- "[[yt-entrepreneur-five-step-method]]"
+- '[[yt-management-conversion-hacking]]'
+- '[[yt-entrepreneur-growth-flywheel]]'
+- '[[一堂]]'
+- '[[yt-model-product-core-metrics]]'
+- '[[yt-entrepreneur-five-step-method]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
@@ -46,6 +46,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 转化率优化：动力三曲线 × 十大浪费触点

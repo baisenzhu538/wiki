@@ -7,7 +7,8 @@ domain:
 - yitang
 - business-formula
 source_person: 潘鸿海（一堂学员，线下娱乐综合店增长负责人）
-source_context: 一堂「关键假设-业务公式」管理篇口述，假设管理进阶段第二个案例（L1380-L1452）：线下娱乐综合店（桌游/剧本杀/体验馆综合体，最大容纳 600 人），2024 年 4 月内测业务公式课后建团队假设池，涨价拆三子假设验证成功，半年业绩 +50%、美团抖音品类榜第一
+source_context: 一堂「关键假设-业务公式」管理篇口述，假设管理进阶段第二个案例（L1380-L1452）：线下娱乐综合店（桌游/剧本杀/体验馆综合体，最大容纳
+  600 人），2024 年 4 月内测业务公式课后建团队假设池，涨价拆三子假设验证成功，半年业绩 +50%、美团抖音品类榜第一
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1380-L1394
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1396-L1404
@@ -36,6 +37,10 @@ related:
 - '[[framework-一堂-关键假设]]'
 - '[[tool-动力阻力分析]]'
 - '[[yt-decision-abcd-model]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 潘鸿海娱乐店：涨价拆成三个子假设小范围测，GMV +15-20%，半年业绩 +50%
 

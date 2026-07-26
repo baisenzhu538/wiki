@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[yt-product-kernel-shampoo-case]]"
-  - "[[yt-product-kernel-add-subtract]]"
-  - "[[yt-product-kernel-aesthetic]]"
+- '[[yt-product-kernel-shampoo-case]]'
+- '[[yt-product-kernel-add-subtract]]'
+- '[[yt-product-kernel-aesthetic]]'
 diagnostic_signals:
 - framework_lens: 内核与边界——边界不清，资源分散
   follow_up_question: 你的产品边界是什么？什么坚决不做？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你们团队对'什么该做，什么不该做'有共识吗？写下来一致吗？
 - framework_lens: 内核与边界——边界被'试试看'突破
   follow_up_question: '''试试看''的功能，如果效果好，是否永久纳入边界？如果不好，是否果断砍掉？'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 内核与边界：什么该做，什么不该做

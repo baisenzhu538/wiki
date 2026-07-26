@@ -3,16 +3,19 @@ id: yt-unit-model-three-tools
 status: enriched
 reviewed_by: pending
 updated_at: '2026-07-12'
-
 related:
-  - "[[yt-five-step-method]]"
-  - "[[yt-growth-cycle-model]]"
-  - "[[case-toy-cabinet-business-model]]"
-  - "[[case-treadmill-demand-analysis]]"
-  - "[[yt-business-formula-abc-model]]"
-  - "[[pending_unknown]]"
+- '[[yt-five-step-method]]'
+- '[[yt-growth-cycle-model]]'
+- '[[case-toy-cabinet-business-model]]'
+- '[[case-treadmill-demand-analysis]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[pending_unknown]]'
 source_refs:
 - pending_archive: src_unknown
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 单元模型三工具：斧子尺子梯子

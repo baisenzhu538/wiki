@@ -5,7 +5,7 @@ type: dk
 status: draft
 author: 老顽童
 reviewed_by: pending
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 created_at: 2026-07-06
@@ -17,8 +17,12 @@ source_refs:
 - 对话记录：2026-07-05 老朱 Codex Claude Windows 10 案例
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[dk-ai-collaboration-degradation-spiral]]"
-- "[[concept-yihang-dual-triangle-core]]"
+- '[[dk-ai-collaboration-degradation-spiral]]'
+- '[[concept-yihang-dual-triangle-core]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # AI 错误笃定模式——被设计来回答问题，未被设计来"意识到自己不知道"

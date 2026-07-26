@@ -1,34 +1,31 @@
 ---
-
 domain:
-  - entrepreneurship
-
-
-
+- entrepreneurship
 id: yt-entrepreneur-industry-forecast
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
 language: zh-CN
 prerequisites:
-  - src_unknown
+- src_unknown
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-06-11
 source_refs:
-  - pending_archive:src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
-  - src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
-source_refs:
-  - pending_archive:src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
+- pending_archive:src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 商业预判15字诀
 

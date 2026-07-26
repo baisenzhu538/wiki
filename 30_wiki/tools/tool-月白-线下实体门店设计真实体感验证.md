@@ -25,12 +25,16 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-最佳实践素材收集法]]"
-  - "[[tool-月白-AIGC设计作业复盘法]]"
-  - "[[tool-月白-正向反馈强化AI生成]]"
-  - "[[tool-月白-实物包装落地训练法]]"
-  - "[[tool-月白-AI工艺图人工复核法]]"
-  - "[[tool-月白-行业配色快速确定法]]"
+- '[[tool-月白-最佳实践素材收集法]]'
+- '[[tool-月白-AIGC设计作业复盘法]]'
+- '[[tool-月白-正向反馈强化AI生成]]'
+- '[[tool-月白-实物包装落地训练法]]'
+- '[[tool-月白-AI工艺图人工复核法]]'
+- '[[tool-月白-行业配色快速确定法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：线下实体门店设计真实体感验证
 

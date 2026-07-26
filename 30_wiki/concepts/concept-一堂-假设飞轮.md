@@ -26,27 +26,27 @@ quality_labels:
 - insight
 - cited
 related:
-- "[[yt-business-formula-hypothesis-management-playbook]]"
-- "[[framework-一堂-业务公式拆解-总纲]]"
-- "[[concept-一堂-黑盒到白盒]]"
-- "[[yt-tool-business-formula-18-moves]]"
-- "[[yt-tool-business-formula-hypothesis-pool]]"
-- "[[yt-business-formula-peahd-roles]]"
-- "[[business-formula-domain-digest]]"
-- "[[case-yitang-fupanying-five-years-1000-hypotheses]]"
-- "[[case-yitang-woqingke-referral-15-to-40]]"
-- "[[case-yitang-marathon-ten-seasons]]"
-- "[[case-yitang-laowenqi-huixiao-10x]]"
-- "[[case-yitang-zhanglei-comic-booth]]"
-- "[[case-yitang-wenxiaozhang-driving-school]]"
-- "[[case-yitang-vicky-short-video]]"
-- "[[case-yitang-wang-mcn-funnel]]"
-- "[[case-yitang-panhonghai-entertainment]]"
-- "[[concept-一堂-三类目标策略]]"
-- "[[concept-一堂-脱离成本]]"
-- "[[framework-business-formula-fundamentals-bridge]]"
-- "[[framework-一堂-苦练基本功-总纲]]"
-- "[[framework-一堂-关键假设]]"
+- '[[yt-business-formula-hypothesis-management-playbook]]'
+- '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[concept-一堂-黑盒到白盒]]'
+- '[[yt-tool-business-formula-18-moves]]'
+- '[[yt-tool-business-formula-hypothesis-pool]]'
+- '[[yt-business-formula-peahd-roles]]'
+- '[[business-formula-domain-digest]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[case-yitang-marathon-ten-seasons]]'
+- '[[case-yitang-laowenqi-huixiao-10x]]'
+- '[[case-yitang-zhanglei-comic-booth]]'
+- '[[case-yitang-wenxiaozhang-driving-school]]'
+- '[[case-yitang-vicky-short-video]]'
+- '[[case-yitang-wang-mcn-funnel]]'
+- '[[case-yitang-panhonghai-entertainment]]'
+- '[[concept-一堂-三类目标策略]]'
+- '[[concept-一堂-脱离成本]]'
+- '[[framework-business-formula-fundamentals-bridge]]'
+- '[[framework-一堂-苦练基本功-总纲]]'
+- '[[framework-一堂-关键假设]]'
 diagnostic_signals:
 - signal: 团队死气沉沉，偶尔有人举手提想法，被老板一拍回去，之后更没人说话
   lens: 飞轮在反向转——「好不容易有个人举手说老板我有个想法，老板又拍回去，团队会越来越死气沉沉」（进阶篇-口述 L3302-L3306）
@@ -57,6 +57,10 @@ diagnostic_signals:
 - signal: 一次验证失败就总结「这个方法不行」，士气受挫
   lens: 缺默认失败共识——开放问题下验证有效率 30% 即常态，常常只有 10%（管理篇-口述 L1158-L1160）
   follow-up: 开新项目前先口头对齐「咱们一定失败，我要的是认知速度，根本不要成功」（管理篇-口述 L1176-L1178）
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 
 # 假设飞轮：假设→结果→激励→更多假设的团队侧增强回路

@@ -1,5 +1,4 @@
 ---
-
 id: concept-kdo-review-workflow
 title: KDO 生产审查工作流（欧阳锋模式）
 type: concept
@@ -19,11 +18,15 @@ source_refs:
 - pending_archive:2026-06-29 review retrospective
 - 60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
 related:
-- "[[ec工业化规范手册-v2.8.0|EC 工业化规范手册]]"
-- "[[concept-yitang-facts-first]]"
+- '[[ec工业化规范手册-v2.8.0|EC 工业化规范手册]]'
+- '[[concept-yitang-facts-first]]'
 - <code>kdo pre-submit</code>
 - <code>kdo lint</code>
-- "[[framework-kdo-self-attack|KDO 知识自攻击]]"
+- '[[framework-kdo-self-attack|KDO 知识自攻击]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # KDO 生产审查工作流（欧阳锋模式）

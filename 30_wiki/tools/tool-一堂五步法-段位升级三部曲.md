@@ -30,6 +30,10 @@ diagnostic_signals:
   follow-up: 用本卡自评，确认能独立跑完至少2次完整五步法
 quality_labels:
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 段位升级三部曲自检

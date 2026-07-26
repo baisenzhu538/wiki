@@ -4,31 +4,34 @@ type: case
 title: 案例：德州扑克玩家乔牌如何通过参数化训练成为大使
 status: reviewed
 domain:
-  - yitang
-  - personal-growth
+- yitang
+- personal-growth
 confidence: 0.75
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-27
 updated_at: 2026-06-28
 source_refs:
-  - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
-  - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
+- 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
+- 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
 source_person: 盈盈
 related:
-  - "[[framework-yitang-deliberate-practice-1plus4]]"
-  - "[[tool-yitang-practice-20hour-starter]]"
-  - "[[tool-yitang-best-practice-as-golden-finger]]"
-  - "[[case-yitang-sales-routine-deconstruction]]"
-  - "[[case-yitang-ai-painting-commercialization]]"
-  - "[[framework-ai-deliberate-practice-loop]]"
-
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[tool-yitang-practice-20hour-starter]]'
+- '[[tool-yitang-best-practice-as-golden-finger]]'
+- '[[case-yitang-sales-routine-deconstruction]]'
+- '[[case-yitang-ai-painting-commercialization]]'
+- '[[framework-ai-deliberate-practice-loop]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：德州扑克玩家乔牌如何通过参数化训练成为大使

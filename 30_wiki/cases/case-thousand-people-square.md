@@ -1,5 +1,4 @@
 ---
-
 id: case-thousand-people-square
 title: 案例：一堂'千人广场模型'——用统计建模心态做课
 type: case
@@ -22,17 +21,20 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.89
 related:
-  - "[[tool-月白-AI模型选择策略]]"
-  - "[[dk-单元模型-找单元模型实操难点]]"
-  - "[[tool-一堂-spectrum-positioning]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[concept-最简单元模型]]"
-  - "[[case-科学决策-ROI案例03]]"
+- '[[tool-月白-AI模型选择策略]]'
+- '[[dk-单元模型-找单元模型实操难点]]'
+- '[[tool-一堂-spectrum-positioning]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[concept-最简单元模型]]'
+- '[[case-科学决策-ROI案例03]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 diagnostic_signals:
 - lens: 广场优先
   follow_up: 回到广场看比例：这人是 95% 的 before 还是 5% 的 after？是否属于边界内？
@@ -44,7 +46,6 @@ diagnostic_signals:
   follow_up: 能否找到 ≥3 个独立 after 样本？共性是否剔除了个案特殊条件？
 - lens: 模型自信
   follow_up: 先定义广场边界，再验证五步法/模型能否覆盖边界内所有失败类型。
-
 ---
 
 # 案例：一堂「千人广场模型」——用统计建模心态做课

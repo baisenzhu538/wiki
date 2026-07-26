@@ -35,6 +35,10 @@ related:
 - '[[tool-yitang-value-proposition-4step]]'
 - modeling-personal-practice-loop
 - tool-yitang-channel-scan-cheat-sheet
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：崔磊如何通过 AI 绘画练习实现商业化交付
 

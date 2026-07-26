@@ -1,34 +1,31 @@
 ---
-
 domain:
-  - personal-growth
-
-
-
+- personal-growth
 id: yt-personal-inspiration-flash
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-05-08
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
-  - src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
-source_refs:
-  - pending_archive:src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
+- pending_archive:src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 灵感闪现（认知篇）
 

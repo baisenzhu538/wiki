@@ -37,6 +37,10 @@ related:
 - tool-yitang-Y-model-application
 - framework-yitang-shishi-qiushi
 - framework-yitang-jiefang-sixiang
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # KDO 知识自攻击框架：用对抗 Agent 在交付前主动找出弱点
 

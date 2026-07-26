@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-减法排序四招
 title: 一堂减法排序四招：经验专家/内部共识/同行调研/实验验证
 type: tool
@@ -35,6 +34,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂减法排序四招：经验专家/内部共识/同行调研/实验验证

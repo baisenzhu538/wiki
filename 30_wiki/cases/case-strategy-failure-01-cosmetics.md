@@ -33,6 +33,10 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - case-strategy-failure-09-boeing
 - case-strategy-failure-04-appliance
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 **表面问题**：营销投入巨大但ROI持续下降
 **战略根因**：方向错误——选了一个天花板极低的细分品类。营销再厉害也改不了市场大小

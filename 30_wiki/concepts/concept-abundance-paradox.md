@@ -1,47 +1,50 @@
 ---
-id: "concept-abundance-paradox"
-title: "富足悖论：为什么技术越富足，新问题越多"
-type: "concept"
+id: concept-abundance-paradox
+title: 富足悖论：为什么技术越富足，新问题越多
+type: concept
 domain:
-  - "decision-making"
+- decision-making
 status: reviewed
 confidence: 0.78
-difficulty: "intermediate"
-language: "zh-CN"
-created_at: "2026-07-01T00:00:00+00:00"
-updated_at: "2026-07-01T00:00:00+00:00"
-author: "老顽童"
-reviewed_by: "欧阳锋"
-trust_level: "medium"
+difficulty: intermediate
+language: zh-CN
+created_at: '2026-07-01T00:00:00+00:00'
+updated_at: '2026-07-01T00:00:00+00:00'
+author: 老顽童
+reviewed_by: 欧阳锋
+trust_level: medium
 source_refs:
-  - "60_feedback/audit/20260701-wobeirushen-validation-report.md"
-  - "00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt"
-  - "00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt"
+- 60_feedback/audit/20260701-wobeirushen-validation-report.md
+- 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
+- 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt
 query_triggers:
-  - 什么是富足悖论
-  - 技术进步为什么会带来新问题
-  - 富足时代决策者需要注意什么
-  - AI 富足会带来什么副作用
+- 什么是富足悖论
+- 技术进步为什么会带来新问题
+- 富足时代决策者需要注意什么
+- AI 富足会带来什么副作用
 aliases:
-  - abundance-paradox
-  - 富足悖论
-  - abundance paradox
+- abundance-paradox
+- 富足悖论
+- abundance paradox
 tags:
-  - "#scene/decision-making"
+- '#scene/decision-making'
+- audience:general
+- scene:reference
+- skill-level:intermediate
 quality_labels:
-  - cited
-  - validated
+- cited
+- validated
 related:
-  - "[[concept-cognitive-offloading-in-ai-era]]"
-  - "[[tool-ai-use-barbell-strategy]]"
-  - "[[case-ai-writing-homogenization]]"
-  - "[[case-bmw-human-ai-collaboration-idle-time]]"
-  - "[[master-antifragile-checklist]]"
-  - "[[master-decision-hygiene]]"
-  - "[[framework-decision-cognitive-bias-map]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
+- '[[concept-cognitive-offloading-in-ai-era]]'
+- '[[tool-ai-use-barbell-strategy]]'
+- '[[case-ai-writing-homogenization]]'
+- '[[case-bmw-human-ai-collaboration-idle-time]]'
+- '[[master-antifragile-checklist]]'
+- '[[master-decision-hygiene]]'
+- '[[framework-decision-cognitive-bias-map]]'
+- '[[framework-yitang-nine-layer-deep-dig]]'
 pipeline:
-  - "confidence-draft"
+- confidence-draft
 ---
 
 # 富足悖论：为什么技术越富足，新问题越多

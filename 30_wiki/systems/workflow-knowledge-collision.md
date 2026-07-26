@@ -32,6 +32,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium

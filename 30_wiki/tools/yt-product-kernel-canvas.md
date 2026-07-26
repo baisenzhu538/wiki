@@ -36,6 +36,10 @@ diagnostic_signals:
   follow_up_question: 你们上次迭代是基于画布的哪个格子发现的问题？
 - framework_lens: 产品内核画布——画布输出就是价值描述
   follow_up_question: 你能用画布中的'一句话价值描述'向客户介绍产品吗？
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 产品内核画布：从问题到解决方案的结构化工具
 

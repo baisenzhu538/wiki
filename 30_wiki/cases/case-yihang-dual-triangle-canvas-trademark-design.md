@@ -5,7 +5,7 @@ type: case
 status: draft
 author: 老顽童
 reviewed_by: pending
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 created_at: 2026-07-04
@@ -16,8 +16,12 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-画布案例2_vlm.md
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[tool-yihang-dual-triangle-canvas]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 双三角画布案例：商标设计——两天内产出 60 分可用版本

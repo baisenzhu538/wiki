@@ -1,5 +1,4 @@
 ---
-
 id: case-lean-building-in-vacuum
 title: 闭门造车案例集
 type: case
@@ -21,19 +20,23 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_vlm_desc.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[case-lean-2b-gray-test]]"
-  - "[[case-lean-adult-education]]"
-  - "[[case-lean-crayfish-combo-test]]"
-  - "[[case-lean-medical-device-milestone]]"
-  - "[[case-lean-perfectionism-traps]]"
-  - "[[case-lean-premature-expansion]]"
-  - "[[case-lean-shampoo-selling-points]]"
-  - "[[case-lean-shoe-mvp-evolution]]"
-  - "[[case-lean-weak-solution]]"
-  - "[[case-lean-wrong-demand]]"
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[case-lean-2b-gray-test]]'
+- '[[case-lean-adult-education]]'
+- '[[case-lean-crayfish-combo-test]]'
+- '[[case-lean-medical-device-milestone]]'
+- '[[case-lean-perfectionism-traps]]'
+- '[[case-lean-premature-expansion]]'
+- '[[case-lean-shampoo-selling-points]]'
+- '[[case-lean-shoe-mvp-evolution]]'
+- '[[case-lean-weak-solution]]'
+- '[[case-lean-wrong-demand]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 闭门造车案例集

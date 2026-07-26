@@ -24,13 +24,17 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-工厂对接信息清单制作]]"
-- "[[tool-月白-小红书双重搜索法]]"
-- "[[tool-月白-新手设计师基本功训练法]]"
-- "[[tool-月白-文创产品AI设计到生产的卡点预判]]"
-- "[[tool-月白-文创材质成本调研与精益选择]]"
-- "[[tool-strategy-industry-chain-analysis]]"
-- "[[tool-李诞-判断工作价值的交易成本视角]]"
+- '[[tool-月白-工厂对接信息清单制作]]'
+- '[[tool-月白-小红书双重搜索法]]'
+- '[[tool-月白-新手设计师基本功训练法]]'
+- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
+- '[[tool-月白-文创材质成本调研与精益选择]]'
+- '[[tool-strategy-industry-chain-analysis]]'
+- '[[tool-李诞-判断工作价值的交易成本视角]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：资深设计师AI工具切换法

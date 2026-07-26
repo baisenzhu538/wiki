@@ -35,6 +35,10 @@ related:
 - case-panproduct-lanyi-shidonghui-npc
 - tool-panproduct-org-five-step
 review_date: '2026-06-28'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 # 泛产品组织 vs 传统管理：从控制范式到设计范式
 

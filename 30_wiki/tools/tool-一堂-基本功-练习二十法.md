@@ -58,6 +58,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+tags:
+- audience:manager
+- scene:execution
+- skill-level:advanced
 ---
 
 # 练习二十法：五层加码，把刻意练习焊进团队日常

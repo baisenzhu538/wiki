@@ -11,42 +11,44 @@ source_context: AI落地场景识别 （原 legacy，已从 title/context/filena
 source_refs:
 - 10_raw/sources/src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md
 wiki_refs: null
-definition_of_done:
-
-
+definition_of_done: null
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
-pipeline:
+pipeline: null
 author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium-low
 related:
-- "[[tool-马易-AI能力团队复制]]"
-- "[[tool-马易-AI任务拆解提升控制度]]"
-- "[[tool-马易-AI项目需求拆解筛选]]"
-- "[[tool-马易-隐私安全分层解决]]"
-- "[[tool-马易-AI答疑运营风格适配]]"
-- "[[tool-马易-AI落地四阶段验证法]]"
-- "[[tool-马易-AI落地场景识别-拆工作流找场景]]"
-- "[[tool-马易-RPA数据整合法]]"
-- "[[tool-马易-中国企业AI落地五步法]]"
-- "[[tool-马易-低置信度样本黄金漏斗处理]]"
-- "[[tool-马易-公寓获客自跑通原则]]"
-- "[[tool-马易-减少输入噪音法]]"
-- "[[tool-马易-工作流优先于AIGC的决策方法]]"
-- "[[tool-马易-平台模式验证法]]"
-- "[[tool-马易-成为首位F工程师]]"
-- "[[tool-马易-数字员工FD拆解落地]]"
-- "[[tool-马易-数据存储架构选择]]"
-- "[[tool-马易-数据标注正确法]]"
-- "[[tool-马易-最小场景优先落地法]]"
-- "[[tool-马易-深度沉浸需求挖掘]]"
-- "[[tool-马易-痛点驱动的数字化]]"
-- "[[tool-马易-视频转化关键要素标注校验]]"
-- "[[tool-马易-隐性知识萃取与模型化]]"
+- '[[tool-马易-AI能力团队复制]]'
+- '[[tool-马易-AI任务拆解提升控制度]]'
+- '[[tool-马易-AI项目需求拆解筛选]]'
+- '[[tool-马易-隐私安全分层解决]]'
+- '[[tool-马易-AI答疑运营风格适配]]'
+- '[[tool-马易-AI落地四阶段验证法]]'
+- '[[tool-马易-AI落地场景识别-拆工作流找场景]]'
+- '[[tool-马易-RPA数据整合法]]'
+- '[[tool-马易-中国企业AI落地五步法]]'
+- '[[tool-马易-低置信度样本黄金漏斗处理]]'
+- '[[tool-马易-公寓获客自跑通原则]]'
+- '[[tool-马易-减少输入噪音法]]'
+- '[[tool-马易-工作流优先于AIGC的决策方法]]'
+- '[[tool-马易-平台模式验证法]]'
+- '[[tool-马易-成为首位F工程师]]'
+- '[[tool-马易-数字员工FD拆解落地]]'
+- '[[tool-马易-数据存储架构选择]]'
+- '[[tool-马易-数据标注正确法]]'
+- '[[tool-马易-最小场景优先落地法]]'
+- '[[tool-马易-深度沉浸需求挖掘]]'
+- '[[tool-马易-痛点驱动的数字化]]'
+- '[[tool-马易-视频转化关键要素标注校验]]'
+- '[[tool-马易-隐性知识萃取与模型化]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：AIGC项目ROI评估

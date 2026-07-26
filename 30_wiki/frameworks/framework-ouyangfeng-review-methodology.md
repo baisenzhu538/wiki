@@ -3,31 +3,33 @@ id: framework-ouyangfeng-review-methodology
 title: 欧阳锋审查方法论：三阶段架构评审框架
 type: framework
 status: reviewed
-reviewed_by: 黄药师
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 domain:
-  - master
-  - kdo
+- master
+- kdo
 author: 欧阳锋
-created_at: "2026-06-21"
-updated_at: "2026-07-20"
-status: reviewed
-reviewed_by: 欧阳锋
+created_at: '2026-06-21'
+updated_at: '2026-07-20'
 version: v2.0
 source_refs:
-  - "https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md"
-  - "https://cloud.google.com/blog/topics/developers-practitioners/a-methodical-approach-to-agent-evaluation/"
-  - "https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/adversarial-architecture-test-matrix-v1.md"
-  - 30_wiki/decisions/plan_20260621_skill-iteration-standard.md
-  - .agent/pitfalls.md
-  - .agent/daily-review/错误模式库.md
+- https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md
+- https://cloud.google.com/blog/topics/developers-practitioners/a-methodical-approach-to-agent-evaluation/
+- https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/adversarial-architecture-test-matrix-v1.md
+- 30_wiki/decisions/plan_20260621_skill-iteration-standard.md
+- .agent/pitfalls.md
+- .agent/daily-review/错误模式库.md
 related:
-  - "[[framework-yitang-research-quality-gate]]"
-  - "[[framework-yitang-six-layer-cross-validation]]"
-  - "[[system-yitang-research-workflow]]"
-  - "[[framework-yitang-research-weapon-system]]"
-  - "[[framework-kdo-self-attack]]"
+- '[[framework-yitang-research-quality-gate]]'
+- '[[framework-yitang-six-layer-cross-validation]]'
+- '[[system-yitang-research-workflow]]'
+- '[[framework-yitang-research-weapon-system]]'
+- '[[framework-kdo-self-attack]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 欧阳锋审查方法论
 

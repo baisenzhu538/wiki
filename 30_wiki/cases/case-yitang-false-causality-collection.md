@@ -18,7 +18,8 @@ domain:
 - yitang
 - business-formula
 source_person: Truman（一堂主讲）
-source_context: 一堂「关键假设·业务公式·逻辑关系篇」口述课，L2→L3 找因果环节：先出十道相关关系题辨真伪因果，再连讲四个「老板锁错 KPI + 聪明下属」的反噬案例，收尾给出归因规律
+source_context: 一堂「关键假设·业务公式·逻辑关系篇」口述课，L2→L3 找因果环节：先出十道相关关系题辨真伪因果，再连讲四个「老板锁错 KPI +
+  聪明下属」的反噬案例，收尾给出归因规律
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2322-L2380
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2394-L2406
@@ -38,6 +39,10 @@ related:
 - '[[case-yitang-magic-number-collection]]'
 - '[[framework-一堂-关键假设]]'
 - '[[yt-management-goal-management]]'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 # 伪因果十题与聪明下属反噬四案：KPI 锁错因果，团队越聪明业务越差
 

@@ -8,17 +8,17 @@ domain:
 source_person: 一堂·Truman
 source_context: 一堂-产品内核迭代课/验证课/实操课笔记
 source_refs:
-  - 10_raw/sources/src_20260619_e2f3dfec_00_inbox_一堂_产品内核迭代课_Truman_笔记.txt
-  - 10_raw/sources/src_20260619_6e7c14ee_00_inbox_一堂_产品内核验证课_truman_笔记.txt
-  - 00_inbox/一堂-产品内核迭代课-Truman-笔记.txt
-  - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
+- 10_raw/sources/src_20260619_e2f3dfec_00_inbox_一堂_产品内核迭代课_Truman_笔记.txt
+- 10_raw/sources/src_20260619_6e7c14ee_00_inbox_一堂_产品内核验证课_truman_笔记.txt
+- 00_inbox/一堂-产品内核迭代课-Truman-笔记.txt
+- 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 created_at: '2026-06-08'
 updated_at: 2026-07-02
 related:
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[yt-product-kernel-cultivation]]"
+- '[[case-live81-ai-trademark-design]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[concept-一堂-kernel-validation]]'
+- '[[yt-product-kernel-cultivation]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -45,6 +45,10 @@ diagnostic_signals:
   follow_up: 建立红色要素审查机制，每次迭代检查是否有红色复活
 - lens: 指标游戏
   follow_up: 内核画布需配备长期价值指标（续费率/复购率/口碑），不单看转化率
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 一堂产品内核画布应用技能
 

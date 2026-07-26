@@ -1,26 +1,30 @@
 ---
 id: case-利润-白牌珠宝流量上瘾症
-title: "白牌珠宝直播：流量驱动的利润陷阱"
+title: 白牌珠宝直播：流量驱动的利润陷阱
 type: case
 status: draft
 confidence: 0.85
 trust_level: medium
 domain:
-  - profit-pricing
+- profit-pricing
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - cited
+- cited
 source_refs:
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1274-L1316"
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1274-L1316
 related:
-  - dk-利润-平台驱动本质是现金流驱动
-  - dk-利润-利润敏感度非对称性
-  - concept-利润-真正利润定义
-  - framework-利润-利润优先经营框架
+- dk-利润-平台驱动本质是现金流驱动
+- dk-利润-利润敏感度非对称性
+- concept-利润-真正利润定义
+- framework-利润-利润优先经营框架
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 白牌珠宝直播：流量驱动的利润陷阱

@@ -18,11 +18,15 @@ review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
 related:
-  - '[[concept-ai-native-organization-five-steps]]'
-  - - - smart-medicine-cabinet-financial-model
-  - - - tool-smart-medicine-cabinet-compliance-checklist
-  - - - smart-medicine-cabinet-o2o-cost-structure
-  - 诊所O2O项目
+- '[[concept-ai-native-organization-five-steps]]'
+- - - smart-medicine-cabinet-financial-model
+- - - tool-smart-medicine-cabinet-compliance-checklist
+- - - smart-medicine-cabinet-o2o-cost-structure
+- 诊所O2O项目
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 智能药柜平台合作命题交叉验证

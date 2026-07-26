@@ -22,6 +22,10 @@ related:
 - - - dk-c6-large-source-overflow
 - - - dk-p8-toolkit-forget
 - tinyfish-agentic-web-infrastructure
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 # Agent 外挂大脑设计
 

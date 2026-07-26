@@ -16,16 +16,20 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212311_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212311_vlm_desc.md
 related:
-- "[[case-lean-electric-scooter-mvp]]"
-- "[[strategy-domain-digest]]"
-- "[[yitang-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[tool-lean-ai-accelerated-validation]]"
-- "[[tool-lean-human-replace-rnd]]"
-- "[[tool-lean-presell]]"
+- '[[case-lean-electric-scooter-mvp]]'
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[tool-lean-ai-accelerated-validation]]'
+- '[[tool-lean-human-replace-rnd]]'
+- '[[tool-lean-presell]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 借搭建工具：用现成系统跑业务流

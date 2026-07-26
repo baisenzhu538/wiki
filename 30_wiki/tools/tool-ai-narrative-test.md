@@ -3,25 +3,29 @@ id: tool-ai-narrative-test
 title: 技能：你的方案有叙事力吗？快速测试
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
-  - ai-saas
+- ai-collaboration
+- yitang
+- ai-saas
 status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - "[[sk-ai-narrative-test]]"
-  - "[[tool-ai-system-redundancy]]"
-  - "[[tool-水水-构建自利叙事]]"
-  - "[[tool-水水-降低故事逻辑要求]]"
-  - "[[sk-ai-purpose-bias-check]]"
-  - "[[tool-ai-purpose-bias-check]]"
+- '[[sk-ai-narrative-test]]'
+- '[[tool-ai-system-redundancy]]'
+- '[[tool-水水-构建自利叙事]]'
+- '[[tool-水水-降低故事逻辑要求]]'
+- '[[sk-ai-purpose-bias-check]]'
+- '[[tool-ai-purpose-bias-check]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：你的方案有叙事力吗？快速测试
 

@@ -25,11 +25,15 @@ reviewed_at: '2026-07-04'
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-口喷式AIGC设计法]]"
-- "[[tool-月白-AI生图与图生图决策法]]"
-- "[[tool-月白-多语言提示词精准法]]"
-- "[[tool-月白-关键要素提取改图法]]"
-- "[[tool-月白-AI设计三段式里程碑流程]]"
+- '[[tool-月白-口喷式AIGC设计法]]'
+- '[[tool-月白-AI生图与图生图决策法]]'
+- '[[tool-月白-多语言提示词精准法]]'
+- '[[tool-月白-关键要素提取改图法]]'
+- '[[tool-月白-AI设计三段式里程碑流程]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：AI逆向反推描述法
 

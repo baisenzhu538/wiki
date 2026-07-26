@@ -32,6 +32,10 @@ related:
 - '[[tool-费曼学习法三句话提炼]]'
 - tool-ai-prd-for-ai
 - yt-model-ipo-learning-strategy
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：人生红点战略对齐
 

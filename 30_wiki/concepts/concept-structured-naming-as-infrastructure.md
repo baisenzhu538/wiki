@@ -7,32 +7,45 @@ author: laowantong
 confidence: 0.82
 trust_level: medium
 domain:
-  - system
+- system
 source_refs:
-  - "00_inbox/一堂-obsidian加AI协作-内部实践分享/AI落地Live83_探索AI协作新范式_逐字稿.md"
-  - "00_inbox/一堂-obsidian加AI协作-内部实践分享/一堂-obsidian加AI协作-内部实践分享-口述.txt"
-  - "00_inbox/一堂-obsidian加AI协作-内部实践分享/一堂-obsidian加AI协作-内部实践分享-笔记.txt"
-aliases: ["命名规范","文件命名","文件夹组织","AI可读文件","命名即基础设施"]
-discoverable_by: ["文件管理","AI协作","知识库搭建","团队规范设计"]
+- 00_inbox/一堂-obsidian加AI协作-内部实践分享/AI落地Live83_探索AI协作新范式_逐字稿.md
+- 00_inbox/一堂-obsidian加AI协作-内部实践分享/一堂-obsidian加AI协作-内部实践分享-口述.txt
+- 00_inbox/一堂-obsidian加AI协作-内部实践分享/一堂-obsidian加AI协作-内部实践分享-笔记.txt
+aliases:
+- 命名规范
+- 文件命名
+- 文件夹组织
+- AI可读文件
+- 命名即基础设施
+discoverable_by:
+- 文件管理
+- AI协作
+- 知识库搭建
+- 团队规范设计
 related:
-  - method-obsidian-ai-collaboration
-  - framework-kdo-modeling-methodology
-  - framework-一堂-基本功-四字诀拆建推练
-  - concept-collaboration-philosophy-foundation
+- method-obsidian-ai-collaboration
+- framework-kdo-modeling-methodology
+- framework-一堂-基本功-四字诀拆建推练
+- concept-collaboration-philosophy-foundation
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 待审
 diagnostic_signals:
-  - signal: "文件夹越来越乱，找文件靠搜索"
-    lens: 命名不是给人看的——在文件树里扫读比搜索快10倍
-    follow_up: 检查是否所有文件遵循统一编号前缀
-  - signal: "AI读不全项目上下文"
-    lens: AI可以全量读取有编号前缀的文件夹，但无法理解杂乱命名
-    follow_up: 给文件夹配index.md+log.md
-  - signal: "新加入的人或AI要花很长时间理解项目结构"
-    lens: 命名=基础设施——好的命名让人和AI三秒定位
-    follow_up: 逐字稿L698-704
+- signal: 文件夹越来越乱，找文件靠搜索
+  lens: 命名不是给人看的——在文件树里扫读比搜索快10倍
+  follow_up: 检查是否所有文件遵循统一编号前缀
+- signal: AI读不全项目上下文
+  lens: AI可以全量读取有编号前缀的文件夹，但无法理解杂乱命名
+  follow_up: 给文件夹配index.md+log.md
+- signal: 新加入的人或AI要花很长时间理解项目结构
+  lens: 命名=基础设施——好的命名让人和AI三秒定位
+  follow_up: 逐字稿L698-704
 quality_labels: cited
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > **定位**：属于 system 域·KDO 基础设施。核心洞察来自于陆 Live83 分享与月白设计域八要素命名法的独立共振——命名不是为了整洁，是为了使人和 AI 都能「扫读文件夹、批量操作、无需逐文件打开」。

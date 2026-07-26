@@ -31,6 +31,10 @@ related:
 - '[[tool-agent-spec-yitang-payment-collection-risk]]'
 created_at: 2026-07-08
 updated_at: 2026-07-08
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 回款 / 催款 / 履约阶段 playbook
 

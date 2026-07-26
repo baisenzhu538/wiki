@@ -23,9 +23,11 @@ source_refs:
 - https://github.com/calesthio/OpenMontage
 related:
 - hongqigong-profile
-
-
 - agent-native-card-design
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # OpenMontage 中文 MCP 版：AI 视频工厂
 

@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-barrier-network-effects-deep
@@ -18,13 +17,13 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[tool-马易-数据存储架构选择]]"
-  - "[[tool-反向采访挖掘深度]]"
-  - "[[开源HIS系统代码深度分析报告]]"
-  - "[[tool-马易-AI搜索公网数据增强（合规边界）]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[tool-决策深度-L1优先级定性]]"
-  - "[[tool-决策深度-L4严格财务公式]]"
+- '[[tool-马易-数据存储架构选择]]'
+- '[[tool-反向采访挖掘深度]]'
+- '[[开源HIS系统代码深度分析报告]]'
+- '[[tool-马易-AI搜索公网数据增强（合规边界）]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[tool-决策深度-L1优先级定性]]'
+- '[[tool-决策深度-L4严格财务公式]]'
 diagnostic_signals:
 - framework_lens: 网络效应深度——网络效应有强弱之分，需要评估网络效应强度
   follow_up_question: 你的网络效应是同边、跨边、数据还是生态？强度如何？用户迁移成本多高？
@@ -36,7 +35,10 @@ diagnostic_signals:
   follow_up_question: 你的生态中，用户使用了多少？生态的参与度如何？
 - framework_lens: 网络效应深度——网络效应需要持续强化，不是自然发生
   follow_up_question: 你的网络效应在哪个维度？如何提升用户迁移成本？
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 网络效应深度：同边、跨边、数据、生态

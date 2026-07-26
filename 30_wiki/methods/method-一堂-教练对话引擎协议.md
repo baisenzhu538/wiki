@@ -9,26 +9,30 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - ai-collaboration
-  - methodology
+- yitang
+- ai-collaboration
+- methodology
 source_refs:
-  - C:/Users/Administrator/Desktop/YAI/关键决策agent-我现在面临重大的人生方向选择的 (1).md
-  - C:/Users/Administrator/Desktop/YAI/analysis_architecture.md
-  - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt
-  - 10_raw/sources/src_20260609_818119f0-ocr-一堂-tcpr模型-皇冠模型.md
-  - 70_product/tasks/task-177-coach-dialogue-engine-protocol.md
+- C:/Users/Administrator/Desktop/YAI/关键决策agent-我现在面临重大的人生方向选择的 (1).md
+- C:/Users/Administrator/Desktop/YAI/analysis_architecture.md
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt
+- 10_raw/sources/src_20260609_818119f0-ocr-一堂-tcpr模型-皇冠模型.md
+- 70_product/tasks/task-177-coach-dialogue-engine-protocol.md
 related:
-  - '[[framework-TCPR皇冠模型]]'
-  - '[[agent-一堂-科学决策教练]]'
-  - '[[agent-一堂-业务公式教练]]'
-  - '[[system-yitang-Y-model-os]]'
-  - '[[framework-一堂-关键假设-ABCD模型]]'
+- '[[framework-TCPR皇冠模型]]'
+- '[[agent-一堂-科学决策教练]]'
+- '[[agent-一堂-业务公式教练]]'
+- '[[system-yitang-Y-model-os]]'
+- '[[framework-一堂-关键假设-ABCD模型]]'
 created_at: 2026-07-13
 updated_at: 2026-07-13
 quality_labels:
-  - framework
-  - principle
+- framework
+- principle
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 <!--
   引擎层——不写任何域特异内容。域四件套接口留空槽位。

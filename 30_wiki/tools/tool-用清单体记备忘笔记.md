@@ -22,16 +22,20 @@ created_at: '2026-06-09T14:40:41+00:00'
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
 related:
-- "[[tool-提升笔记练习频次的方法]]"
-- "[[tool-自我反馈修正笔记姿势]]"
-- "[[tool-获取他人反馈优化笔记]]"
-- "[[tool-现场建模式萃取笔记]]"
-- "[[tool-用topdown方式整理内化笔记]]"
-- "[[tool-checklist-cheatsheet-modeling]]"
+- '[[tool-提升笔记练习频次的方法]]'
+- '[[tool-自我反馈修正笔记姿势]]'
+- '[[tool-获取他人反馈优化笔记]]'
+- '[[tool-现场建模式萃取笔记]]'
+- '[[tool-用topdown方式整理内化笔记]]'
+- '[[tool-checklist-cheatsheet-modeling]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：用清单体记备忘笔记

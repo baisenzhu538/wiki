@@ -1,5 +1,4 @@
 ---
-
 id: framework-一堂-12触点SABC分级
 title: 一堂 12 触点 SABC 分级：完整定义 + 12 触点清单 + 约 50 子分类（易浪费清单）
 type: framework
@@ -66,13 +65,16 @@ related:
 - '[[tool-一堂-触点挖掘四层级]]'
 - '[[tool-一堂-触点质量五维]]'
 - '[[tool-一堂-讲香双策略]]'
-
 - '[[tool-agent-spec-yitang-customer-segmentation]]'
 quality_labels:
 - principle
 - framework
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一堂 12 触点 SABC 分级

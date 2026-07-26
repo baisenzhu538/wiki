@@ -21,10 +21,10 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/组织硬件公司专利案例口述_text.md
 - 00_inbox/人机协作双三角/_processed/组织酒店行业AI标签案例口述_text.md
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-dual-triangle-three-stages-six-changes]]"
-- "[[tool-yihang-dual-triangle-canvas]]"
-- "[[agent-spec-dual-triangle-canvas-filler]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-dual-triangle-three-stages-six-changes]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
+- '[[agent-spec-dual-triangle-canvas-filler]]'
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
@@ -36,6 +36,10 @@ related:
 aliases:
 - 双三角AI落地五部曲
 - AI落地五部曲
+tags:
+- audience:executor
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一行双三角AI落地五部曲

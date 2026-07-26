@@ -22,7 +22,7 @@ created_at: '2026-06-09T15:06:23+00:00'
 updated_at: '2026-06-29'
 author: unknown
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
 related:
@@ -33,6 +33,10 @@ related:
 - tool-设计对抗效果追踪看板
 - yt-five-step-method-complete
 - tool-yitang-research-deep-attribution
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：通过综合案例沙盘走通全流程
 

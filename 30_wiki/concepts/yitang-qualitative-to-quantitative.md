@@ -12,15 +12,15 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 created_at: '2026-06-17'
 updated_at: '2026-06-17'
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 source_refs:
-  - pending_archive:src_20260614_606a631d-张磊-精益方法论培训
-  - pending_archive:src_20260614_6d9f7671-业务公式拆解培训
-  - pending_archive:src_20260616_b1e25c49-zhanglei-lean-testing-ama
-  - src_20260614_606a631d-张磊-精益方法论培训
-  - src_20260614_6d9f7671-业务公式拆解培训
-  - src_20260616_b1e25c49-zhanglei-lean-testing-ama
+- pending_archive:src_20260614_606a631d-张磊-精益方法论培训
+- pending_archive:src_20260614_6d9f7671-业务公式拆解培训
+- pending_archive:src_20260616_b1e25c49-zhanglei-lean-testing-ama
+- src_20260614_606a631d-张磊-精益方法论培训
+- src_20260614_6d9f7671-业务公式拆解培训
+- src_20260616_b1e25c49-zhanglei-lean-testing-ama
 tags:
 - src_unknown
 - src_unknown
@@ -28,12 +28,15 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:advanced
 related:
-  - [[case-ai-assisted-review]]
-  - [[case-ban-fei-mao-conversion-hacker-skill]]
-  - [[case-ban-fei-mao-from-assignment-to-tool]]
-  - [[pending_unknown]]
-  - [[pending_unknown]]
+- - - case-ai-assisted-review
+- - - case-ban-fei-mao-conversion-hacker-skill
+- - - case-ban-fei-mao-from-assignment-to-tool
+- - - pending_unknown
+- - - pending_unknown
 diagnostic_signals:
 - framework_lens: 产品形态决定验证手段、样本量和核心指标；形态未定时讨论样本量是伪问题
   follow_up_question: 你的产品是一本书、一个 APP、一门课，还是一个线下训练营？不同形态下，核心转化率与最小样本量分别是什么？

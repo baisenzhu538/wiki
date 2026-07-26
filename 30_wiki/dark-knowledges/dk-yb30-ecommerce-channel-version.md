@@ -1,5 +1,4 @@
 ---
-
 id: dk-yb30-ecommerce-channel-version
 title: 电商渠道专版区分：淘宝≠拼多多
 type: dk
@@ -14,13 +13,13 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-- "[[dk-yb19-visual-strategy-price-match]]"
-- "[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]"
-- "[[dk-yb17-product-lifestyle-photography]]"
-- "[[dk-yb27-pseudo-layer-evasion]]"
-- "[[dk-yb18-small-shop-image-mismatch]]"
-- "[[dk-yb21-ecommerce-pricing-independent-model]]"
-- "[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]"
+- '[[dk-yb19-visual-strategy-price-match]]'
+- '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
+- '[[dk-yb17-product-lifestyle-photography]]'
+- '[[dk-yb27-pseudo-layer-evasion]]'
+- '[[dk-yb18-small-shop-image-mismatch]]'
+- '[[dk-yb21-ecommerce-pricing-independent-model]]'
+- '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
 pipeline:
 - src_unknown
 - src_unknown
@@ -36,6 +35,10 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 技术版本命名与渠道版本命名未做隔离，易引发库存、客服与合规混乱
   follow_up_question: 是否有一套不依赖渠道名称的内部版本号，且渠道专版在BOM/ERP中有独立编码？# 电商渠道专版区分：淘宝≠拼多多
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 ## 原始表述 / 核心洞察
 

@@ -1,5 +1,4 @@
 ---
-
 id: case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch
 title: 案例：AI高考志愿填报产品因内核错位而失敗
 type: case
@@ -25,12 +24,12 @@ review_date: '2026-06-19'
 confidence: 0.9
 trust_level: medium
 related:
-  - "[[tool-从案例中学习]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[case-科学决策-深度案例02]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
+- '[[tool-从案例中学习]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -52,6 +51,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 diagnostic_signals:
 - lens: 产品内核从用户触点滑向产品触点
   follow_up: 列出用户选择该品类时的3个决定性要素，再检查现有卖点是否排在前列
@@ -59,7 +61,6 @@ diagnostic_signals:
   follow_up: 如果推荐导致滑档/退档，产品能否给出可执行的补救方案和责任边界？
 - lens: 信息不对称 + 信任缺口
   follow_up: 能否用第三方数据溯源、专家背书或人工复核把"不可验证"变成"可验证"？
-
 ---
 
 # 案例：AI高考志愿填报产品因内核错位而失敗

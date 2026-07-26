@@ -48,6 +48,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 攻坚会：5-15 人封闭 4-18 小时、不解决不出门、民主集中制

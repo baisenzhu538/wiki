@@ -1,5 +1,4 @@
 ---
-
 id: dk-ai-design-pitfalls
 title: AI 设计交付物的五个常见陷阱与反打
 type: dark-knowledge
@@ -15,25 +14,27 @@ source_refs:
 domain:
 - yitang
 tags:
-- "#ai-collaboration"
-- "#design"
-- "#pitfall"
+- '#ai-collaboration'
+- '#design'
+- '#pitfall'
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 trust_level: medium
 reviewed_by: 欧阳锋
 related:
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[tool-scene-design-language-translation]]"
-  - "[[concept-cognitive-offloading-in-ai-era]]"
-  - "[[tool-ai-use-barbell-strategy]]"
-  - "[[master-decision-hygiene]]"
-  - "[[yt-panproduct-aesthetic-pool]]"
-  - "[[yt-panproduct-aesthetic-modeling]]"
-  - "[[tool-月白-AI模型选择策略]]"
-  - "[[tool-多模型对比抽卡]]"
+- '[[case-live81-ai-trademark-design]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[tool-scene-design-language-translation]]'
+- '[[concept-cognitive-offloading-in-ai-era]]'
+- '[[tool-ai-use-barbell-strategy]]'
+- '[[master-decision-hygiene]]'
+- '[[yt-panproduct-aesthetic-pool]]'
+- '[[yt-panproduct-aesthetic-modeling]]'
+- '[[tool-月白-AI模型选择策略]]'
+- '[[tool-多模型对比抽卡]]'
 created_at: 2026-07-02
 updated_at: '2026-07-02'
-
 ---
 
 # AI 设计交付物的五个常见陷阱与反打

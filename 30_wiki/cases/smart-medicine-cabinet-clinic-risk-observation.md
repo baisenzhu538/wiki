@@ -1,8 +1,4 @@
 ---
-
-
-
-
 id: smart-medicine-cabinet-clinic-risk-observation
 title: 诊所 + 智能药柜协同模式：一线观察与风险提示
 type: case
@@ -13,9 +9,11 @@ domain:
 - policy-compliance
 - risk-warning
 source_refs:
-  - pending_archive:src_20260613_7cfd7b89corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape  - pending_archive:src_20260613_59270720corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
-  - pending_archive:src_20260613_ccf533f9corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance  - pending_archive:src_20260613_f3aecb2dcorr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
-  - pending_archive:src_20260613_9a2b289ecorr_20260613_smart-medicine-cabinet-iteration-8-synthesistags:
+- pending_archive:src_20260613_7cfd7b89corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape  -
+  pending_archive:src_20260613_59270720corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
+- pending_archive:src_20260613_ccf533f9corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance  -
+  pending_archive:src_20260613_f3aecb2dcorr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
+- pending_archive:src_20260613_9a2b289ecorr_20260613_smart-medicine-cabinet-iteration-8-synthesistags: null
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
@@ -25,24 +23,28 @@ review_date: '2026-06-14'
 confidence: 0.65
 trust_level: low
 related:
-- "[[smart-medicine-cabinet-o2o-cost-structure]]"
-- "[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]"
-- "[[case-smart-medicine-cabinet-failure-patterns-library]]"
-- "[[tool-smart-medicine-cabinet-site-selection-guide]]"
-- "[[tool-clinic-cabinet-legal-contract-guide]]"
-- "[[master-cognitive-bias-checklist]]"
-- "[[master-decision-hygiene]]"
-- "[[smart-medicine-cabinet-distribution]]"
-- "[[smart-medicine-cabinet-financial-model]]"
-- "[[smart-medicine-cabinet-fraud-detection]]"
-- "[[smart-medicine-cabinet-national-policy-redlines]]"
-- "[[smart-medicine-cabinet-o2o-cost-structure]]"
-- "[[smart-medicine-cabinet-regional-policy-map]]"
-query_triggers:
+- '[[smart-medicine-cabinet-o2o-cost-structure]]'
+- '[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]'
+- '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+- '[[tool-smart-medicine-cabinet-site-selection-guide]]'
+- '[[tool-clinic-cabinet-legal-contract-guide]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-decision-hygiene]]'
+- '[[smart-medicine-cabinet-distribution]]'
+- '[[smart-medicine-cabinet-financial-model]]'
+- '[[smart-medicine-cabinet-fraud-detection]]'
+- '[[smart-medicine-cabinet-national-policy-redlines]]'
+- '[[smart-medicine-cabinet-o2o-cost-structure]]'
+- '[[smart-medicine-cabinet-regional-policy-map]]'
+query_triggers: null
 difficulty: advanced
 prerequisites: smart-medicine-cabinet-national-policy-redlines
 source_person: 王语嫣
 source_context: 智能药柜五轮迭代调研与诊所访谈
+tags:
+- audience:general
+- scene:reference
+- skill-level:beginner
 ---
 # 诊所 + 智能药柜协同模式：一线观察与风险提示
 

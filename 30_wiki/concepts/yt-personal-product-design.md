@@ -1,31 +1,31 @@
 ---
-
 domain:
 - personal-growth
-
-
-
 id: yt-personal-product-design
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
 review_date: 2026-05-08
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - 10_raw/sources/src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece.md
+- 10_raw/sources/src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece.md
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 泛产品设计
 

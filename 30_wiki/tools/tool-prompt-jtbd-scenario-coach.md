@@ -20,6 +20,10 @@ related:
 - '[[yt-demand-analysis-hiking-map]]'
 - yt-system-course-map-lecture
 - yt-entrepreneur-needs-analysis
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 # JTBD 场景推演教练
 

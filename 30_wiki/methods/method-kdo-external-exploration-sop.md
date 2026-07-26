@@ -6,7 +6,7 @@ status: reviewed
 author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: 2026-07-07
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 language: zh-CN
 created_at: 2026-07-07
@@ -17,12 +17,12 @@ source_refs:
 - 30_wiki/frameworks/framework-yitang-oscar-research.md
 - 40_outputs/capabilities/skills/business-research/SKILL.md
 related:
-- "[[framework-yitang-oscar-research]]"
-- "[[tool-oscar-kdo-external-exploration]]"
-- "[[yt-research-weaponry-course]]"
-- "[[concept-yitang-research-objective]]"
-- "[[concept-yitang-research-scope]]"
-- "[[method-kdo-inbox-annotation]]"
+- '[[framework-yitang-oscar-research]]'
+- '[[tool-oscar-kdo-external-exploration]]'
+- '[[yt-research-weaponry-course]]'
+- '[[concept-yitang-research-objective]]'
+- '[[concept-yitang-research-scope]]'
+- '[[method-kdo-inbox-annotation]]'
 diagnostic_signals:
 - signal: 外部探索启动时用户说"我先搜搜看"
   lens: Step 0 缺失——没锁定目标就搜
@@ -36,6 +36,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+tags:
+- audience:executor
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # KDO 外部探索标准操作流程 v2（OSCAR 注入版）

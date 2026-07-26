@@ -34,6 +34,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 四层可信度标准
   follow_up_question: 你的模型处在哪个层级——有启发、有案例、充分实证、还是没有反例？

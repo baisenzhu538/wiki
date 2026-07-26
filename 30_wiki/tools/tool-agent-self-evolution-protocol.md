@@ -4,30 +4,34 @@ title: Agent自我进化协议：每次复盘四问
 type: tool
 status: reviewed
 author: laowantong
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 domain:
-  - system
+- system
 source_refs:
-  - 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
-  - .agent/pitfalls.md
-  - 30_wiki/frameworks/framework-kdo-modeling-methodology.md
+- 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
+- .agent/pitfalls.md
+- 30_wiki/frameworks/framework-kdo-modeling-methodology.md
 related:
-  - concept-kdo-agent-design-principles
-  - concept-kdo-agent-four-level-awareness
-  - bridge-lightning-agent-evolution
-  - dk-agent-evolution-pitfalls
-  - tool-agent-context-derivation-audit
-  - framework-kdo-modeling-methodology
-  - framework-yitang-thought-liberation-lightning
+- concept-kdo-agent-design-principles
+- concept-kdo-agent-four-level-awareness
+- bridge-lightning-agent-evolution
+- dk-agent-evolution-pitfalls
+- tool-agent-context-derivation-audit
+- framework-kdo-modeling-methodology
+- framework-yitang-thought-liberation-lightning
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 欧阳锋
 diagnostic_signals:
-  - Agent 完成复杂任务后无复盘动作
-  - 同类型 pitfall 在 30 天内复现
-  - Agent 改进完全依赖人类推动
+- Agent 完成复杂任务后无复盘动作
+- 同类型 pitfall 在 30 天内复现
+- Agent 改进完全依赖人类推动
 quality_labels: cited
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 ## 核心主张

@@ -7,7 +7,8 @@ domain:
 - yitang
 - business-strategy
 source_person: 董原
-source_context: 一堂「落地之夜第六场」直播 Live 第 255 场案例分享（2026），太原跃小兔少儿舞蹈学校，学期制续费模式下扩张后续班率从约 90% 跌到 80%，靠"业务公式找战场 + 转化率打节点"重回 90%+
+source_context: 一堂「落地之夜第六场」直播 Live 第 255 场案例分享（2026），太原跃小兔少儿舞蹈学校，学期制续费模式下扩张后续班率从约
+  90% 跌到 80%，靠"业务公式找战场 + 转化率打节点"重回 90%+
 source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1257-L1285
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1303-L1315
@@ -46,6 +47,10 @@ related:
 - '[[dk-yitang-business-formula-logic-l5-l6]]'
 - '[[dk-yitang-business-formula-cd-loop-undo-key]]'
 - '[[dk-yitang-business-formula-pseudo-causality-two-masks]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 少儿舞蹈学校：续班率打不动时，退回业务公式找战场，再用转化率打节点（C↔D 循环）
 

@@ -21,12 +21,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[yt-model-pan-product-demand-toolkit]]"
-- "[[yt-model-pan-product-36-strategies]]"
-- "[[一堂]]"
-- "[[yt-panproduct-demand-surprise-formula]]"
-- "[[yt-panproduct-demand-motivation-resistance]]"
-- "[[yt-model-conversion-optimization]]"
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[一堂]]'
+- '[[yt-panproduct-demand-surprise-formula]]'
+- '[[yt-panproduct-demand-motivation-resistance]]'
+- '[[yt-model-conversion-optimization]]'
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律.md
@@ -52,6 +52,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 峰终定律：用户体验的二八定律

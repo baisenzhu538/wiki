@@ -1,5 +1,4 @@
 ---
-
 id: case-strategy-fangte-disney
 title: 方特vs迪士尼：集团战略的范围经济——有IP也打不过
 type: case
@@ -18,11 +17,14 @@ source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - 00_inbox/战略专题/_strategy_cards_implementation_status.md
 related:
-  - "[[strategy-domain-digest]]"
-  - "[[case-strategy-li-ka-shing]]"
-  - "[[tool-三层目标对齐法]]"
-  - "[[case-strategy-lekai-film]]"
-
+- '[[strategy-domain-digest]]'
+- '[[case-strategy-li-ka-shing]]'
+- '[[tool-三层目标对齐法]]'
+- '[[case-strategy-lekai-film]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 **对比**：方特（拥有中国传统文化主题与熊出没/超级飞侠等 IP 合作） vs 迪士尼（拥有动画制片、复仇者联盟、酒店、电视台、消费品授权等多元业务）。

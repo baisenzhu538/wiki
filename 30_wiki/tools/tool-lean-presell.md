@@ -32,6 +32,10 @@ related:
 - tool-lean-leverage-tools
 - tool-lean-minimum-version
 created_at: '2026-06-30'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 做预售：用真实订单验证付费意愿
 

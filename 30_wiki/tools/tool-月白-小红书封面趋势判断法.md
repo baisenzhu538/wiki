@@ -31,6 +31,10 @@ related:
 - '[[tool-月白-正向反馈强化AI生成]]'
 - tool-纪浩-problem-validation-four-checks
 - sk-ai-question-problem-checklist
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：小红书封面趋势判断法
 

@@ -32,6 +32,10 @@ related:
 - '[[tool-渐进式披露上下文]]'
 - '[[tool-strategy-control-points]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：模型组合调用

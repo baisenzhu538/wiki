@@ -31,6 +31,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:reference
+- skill-level:advanced
 diagnostic_signals:
 - framework_lens: 迭代第二阶段——给SOP加SOP
   follow_up_question: 你的SOP是写给谁的？有没有专人负责检查每个节点？

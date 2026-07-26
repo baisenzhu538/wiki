@@ -31,6 +31,10 @@ related:
 - '[[tool-月白-普通人AI设计80分法则]]'
 - modeling-three-stages
 - tool-ai-parallel-validation
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：纳米级抄大师训练法
 

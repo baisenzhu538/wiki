@@ -19,10 +19,14 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
-- "[[framework-yitang-project-retrospective]]"
+- '[[framework-yitang-project-retrospective]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 科学学习IPO完整清单

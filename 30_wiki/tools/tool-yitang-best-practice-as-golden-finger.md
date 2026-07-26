@@ -4,32 +4,36 @@ type: tool
 title: 最佳实践临摹法：早期快速提升的「金手指」
 status: reviewed
 domain:
-  - yitang
-  - personal-growth
+- yitang
+- personal-growth
 confidence: 0.78
 trust_level: medium
 author: 老顽童
 reviewed_by: pending
 review_date: 2026-06-28
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-27
 updated_at: 2026-07-02
 source_refs:
-  - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
-  - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
+- 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
+- 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
 source_person: Truman
 related:
-  - "[[case-yitang-ai-painting-commercialization]]"
-  - "[[framework-yitang-three-ring-ability-focus]]"
-  - "[[tool-yitang-practice-20hour-starter]]"
-  - "[[tool-yitang-feedback-self-check]]"
-  - "[[framework-ai-deliberate-practice-loop]]"
-  - "[[concept-yitang-comfort-stretch-panic-zones]]"
-  - "[[framework-yitang-deliberate-practice-1plus4]]"
-  - "[[tool-yitang-sales-toolkit-radar]]"
+- '[[case-yitang-ai-painting-commercialization]]'
+- '[[framework-yitang-three-ring-ability-focus]]'
+- '[[tool-yitang-practice-20hour-starter]]'
+- '[[tool-yitang-feedback-self-check]]'
+- '[[framework-ai-deliberate-practice-loop]]'
+- '[[concept-yitang-comfort-stretch-panic-zones]]'
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[tool-yitang-sales-toolkit-radar]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 最佳实践临摹法：早期快速提升的「金手指」
 

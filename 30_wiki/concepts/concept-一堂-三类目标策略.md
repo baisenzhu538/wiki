@@ -41,8 +41,11 @@ diagnostic_signals:
   follow-up: 补一条挑战型目标（如关键比率翻倍/100%），明确告知「完不成是设计如此，追着它就是赢」
 quality_labels:
 - principle
-- insight
-  - concept-目标-北极星型vs探索型
+- insight - concept-目标-北极星型vs探索型
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 三类目标策略：必胜型严管、挑战型激驱、探索型留白

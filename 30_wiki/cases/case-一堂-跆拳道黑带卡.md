@@ -38,6 +38,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 同一个 8.8 万跆拳道黑带卡，1.0 平铺卖点时「完全没感觉」，2.0 用 FAB 讲清四大价值后开始松动家长，3.0 叠加名利权情动力加码让箱子摇晃，4.0 再叠加影响力六连招后「很难拒绝」——课程用这一进化链展示动力曲线如何从弱到强逐级拉升。

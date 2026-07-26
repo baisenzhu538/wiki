@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-伏笔式消除法
 title: 一堂伏笔式消除法：提前埋好答案，让阻力不发生
 type: tool
@@ -40,6 +39,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 一堂伏笔式消除法：提前埋好答案，让阻力不发生

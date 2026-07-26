@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-ai-monitoring-alert
 title: AI监控/预警：自动化竞争情报跟踪
 type: tool
@@ -17,10 +16,14 @@ domain:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[tool-demand-agent-case-match]]"
-updated_at: "2026-06-30T16:07:51+00:00"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[tool-demand-agent-case-match]]'
+updated_at: '2026-06-30T16:07:51+00:00'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # AI监控/预警

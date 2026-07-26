@@ -2,10 +2,10 @@
 id: case-toy-cabinet-business-model
 confidence: 0.85
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 created_at: 2026-06-10
 difficulty: intermediate
 domain: yitang
@@ -38,12 +38,16 @@ pipeline:
 - src_unknown
 author: 老顽童
 related:
-- "[[yt-unit-model-three-tools]]"
-- "[[yt-barrier-analysis-cheat-sheet]]"
-- "[[yt-scale-economy-weapon-library]]"
-- "[[yt-five-step-method]]"
-- "[[yitang-domain-digest]]"
-- "[[case-toy-cabinet-barrier]]"
+- '[[yt-unit-model-three-tools]]'
+- '[[yt-barrier-analysis-cheat-sheet]]'
+- '[[yt-scale-economy-weapon-library]]'
+- '[[yt-five-step-method]]'
+- '[[yitang-domain-digest]]'
+- '[[case-toy-cabinet-barrier]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：线下玩具柜商业模式

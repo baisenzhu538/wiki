@@ -1,28 +1,32 @@
 ---
 id: tool-kdo-agent-production-checklist
-title: "KDO Agent 生产 SOP 清单：从业务任务到可运行 Agent 的五步法"
+title: KDO Agent 生产 SOP 清单：从业务任务到可运行 Agent 的五步法
 type: tool
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - agent-engineering
+- agent-engineering
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - actionable
+- actionable
 source_refs:
-  - "00_inbox/半肥猫/【半肥猫】我的商业突破实践指南：如何封装一个可复用的业务 Skill_MCP 副本.md"
-  - "00_inbox/半肥猫/【半肥猫】用 AI 把脑子里的经验，推进成一个最小可验证的数字交付 副本.md"
+- 00_inbox/半肥猫/【半肥猫】我的商业突破实践指南：如何封装一个可复用的业务 Skill_MCP 副本.md
+- 00_inbox/半肥猫/【半肥猫】用 AI 把脑子里的经验，推进成一个最小可验证的数字交付 副本.md
 related:
-  - agent-native-card-design
-  - system-yitang-Y-model-os
-  - dk-agent-promise-verification
-  - dk-ai-memory-four-layers
-  - framework-建模四步法
+- agent-native-card-design
+- system-yitang-Y-model-os
+- dk-agent-promise-verification
+- dk-ai-memory-four-layers
+- framework-建模四步法
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # KDO Agent 生产 SOP 清单：从业务任务到可运行 Agent 的五步法

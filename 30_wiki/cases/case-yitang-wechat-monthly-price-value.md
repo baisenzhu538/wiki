@@ -27,6 +27,10 @@ related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[business-formula-domain-digest]]'
 - '[[case-yitang-shipinhao-ads-l1-l6]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 一堂公众号投放：自造「单月价格/单月价值」参数稳定渠道ROI

@@ -24,6 +24,10 @@ related:
 - '[[pending_unknown]]'
 - tool-ai-prd-for-ai
 updated_at: '2026-06-29'
+tags:
+- audience:manager
+- scene:execution
+- skill-level:advanced
 ---
 # 招募用户访谈
 

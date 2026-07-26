@@ -31,6 +31,10 @@ related:
 - '[[tool-设计对抗效果追踪看板]]'
 - '[[tool-checklist-cheatsheet-modeling]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：制作行业化要素检查清单

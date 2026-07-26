@@ -18,9 +18,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 related:
-  - "[[yt-demand-ai-knowledge-base-case]]"
-  - "[[yt-demand-b2b-vs-b2c]]"
-  - "[[yt-demand-hierarchy-model]]"
+- '[[yt-demand-ai-knowledge-base-case]]'
+- '[[yt-demand-b2b-vs-b2c]]'
+- '[[yt-demand-hierarchy-model]]'
 diagnostic_signals:
 - framework_lens: 跑步机案例——需求分析从"所有人"到"特定人群"
   follow_up_question: 你的目标用户是'想健身的人'，还是'有特定健身场景的人'？
@@ -32,6 +32,10 @@ diagnostic_signals:
   follow_up_question: 你的目标用户现在怎么健身？为什么现在的方式不够好？
 - framework_lens: 跑步机案例——价格不是唯一决策因素
   follow_up_question: 用户去健身房，除了健身还得到了什么？社交、氛围、专业指导？
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 跑步机案例：需求分析全流程实战

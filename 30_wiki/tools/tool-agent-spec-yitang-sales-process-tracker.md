@@ -37,7 +37,6 @@ related:
 - '[[tool-agent-spec-yitang-objection-handler]]'
 - '[[tool-agent-spec-yitang-opening-3min]]'
 - '[[tool-agent-spec-yitang-self-motivation]]'
-
 - '[[framework-一堂-转化率提升六步法]]'
 - '[[framework-一堂-12种阻力总表]]'
 created_at: 2026-07-02
@@ -46,6 +45,10 @@ tcp_role: C
 tcp_default_mode: 咨询诊断（Consult）：判断客户当前阶段、卡点和下一步动作
 tcp_switch_trigger: 用户要求切换到教学模式（解释销售阶段方法论）、实践模式（直接生成跟进清单/CRM 更新）或研究模式（长周期转化规律分析）
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：先帮你判断客户当前阶段与卡点，再给出下一步动作建议。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # OPC 销售过程追踪助手 Agent Spec

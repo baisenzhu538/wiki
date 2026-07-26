@@ -1,5 +1,4 @@
 ---
-
 id: case-jh-yitang-vs-sqlhelper
 title: 案例：一堂数据库 vs SQLHelper —— 同域不同构的产品策略分岔
 type: case
@@ -23,12 +22,12 @@ source_refs:
 - pending_archive:src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述
 - pending_archive:src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记
 related:
-  - "[[tool-从案例中学习]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[case-科学决策-深度案例02]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
+- '[[tool-从案例中学习]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 tags:
 - src_unknown
 - src_unknown
@@ -36,6 +35,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 author: 纪浩
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -52,7 +54,6 @@ diagnostic_signals:
   follow_up: 检查当前是否有任务分类机制、工作手册、工具集；若缺失，先补结构再补功能
 - lens: 领域知识层缺失或不足
   follow_up: 列出该问题涉及的业务术语、表结构/字段映射、常见例外情况，补进领域知识库
-
 ---
 
 # 案例：一堂数据库 vs SQLHelper

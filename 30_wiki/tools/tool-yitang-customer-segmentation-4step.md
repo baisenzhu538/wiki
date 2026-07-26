@@ -46,6 +46,10 @@ related:
 - '[[tool-agent-spec-yitang-user-perspective-training]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 一堂用户分层四步法（SABC 分级）
 

@@ -1,27 +1,31 @@
 ---
 id: dk-ai-memory-four-layers
-title: "AI 记忆四层分层模型：即时→会话→项目→长期"
+title: AI 记忆四层分层模型：即时→会话→项目→长期
 type: dk
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - agent-engineering
+- agent-engineering
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - principle
+- insight
+- principle
 source_refs:
-  - "00_inbox/半肥猫/【半肥猫】别只会问 AI：从一次 Codex 误删事故，看懂 AI 协作的记忆管理 副本.md §九-十"
+- 00_inbox/半肥猫/【半肥猫】别只会问 AI：从一次 Codex 误删事故，看懂 AI 协作的记忆管理 副本.md §九-十
 related:
-  - system-yitang-Y-model-os
-  - dk-agent-promise-verification
-  - tool-kdo-agent-production-checklist
-  - agent-native-card-design
+- system-yitang-Y-model-os
+- dk-agent-promise-verification
+- tool-kdo-agent-production-checklist
+- agent-native-card-design
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # AI 记忆四层分层模型：即时→会话→项目→长期

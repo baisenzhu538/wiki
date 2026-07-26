@@ -36,6 +36,10 @@ related:
 - '[[tool-通过综合案例沙盘走通全流程]]'
 - '[[tool-采用滚动预测机制]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：使用优先级快筛卡锁定核心矛盾

@@ -85,6 +85,10 @@ quality_labels:
 - framework
 - cited
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 一堂关键假设：用假设驱动业务的方法论入口总框架

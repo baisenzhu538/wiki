@@ -22,6 +22,10 @@ related:
 - '[[case-truman-ai-skill-self-packaging]]'
 - case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 案例：出境游产业链拆解

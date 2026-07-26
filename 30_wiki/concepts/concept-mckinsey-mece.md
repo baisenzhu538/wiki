@@ -1,5 +1,4 @@
 ---
-
 id: concept-mckinsey-mece
 title: MECE 原则：相互独立、完全穷尽
 type: concept
@@ -11,18 +10,18 @@ domain:
 source_person: Barbara Minto / McKinsey & Company
 source_context: McKinsey 问题解决方法论核心原则，最早系统化呈现于 Minto《金字塔原理》(1987) 与 McKinsey 内部培训
 source_refs:
-  - pending_archive:source material not yet ingested
+- pending_archive:source material not yet ingested
 related:
-  - "[[tool-mece体系框架法]]"
-  - "[[tool-泛产品落地-逻辑MECE]]"
-  - "[[yt-foresight-model-taxonomy]]"
-  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
-  - "[[case-yitang-radar-chart-selection]]"
-  - "[[concept-mckinsey-issue-tree]]"
-  - "[[concept-minto-pyramid-principle]]"
-  - "[[concept-mckinsey-hypothesis-driven]]"
-  - "[[concept-maister-trusted-advisor]]"
-  - "[[concept-mckinsey-7s]]"
+- '[[tool-mece体系框架法]]'
+- '[[tool-泛产品落地-逻辑MECE]]'
+- '[[yt-foresight-model-taxonomy]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[case-yitang-radar-chart-selection]]'
+- '[[concept-mckinsey-issue-tree]]'
+- '[[concept-minto-pyramid-principle]]'
+- '[[concept-mckinsey-hypothesis-driven]]'
+- '[[concept-maister-trusted-advisor]]'
+- '[[concept-mckinsey-7s]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -45,7 +44,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:beginner
 ---
 
 # MECE 原则：相互独立、完全穷尽

@@ -1,16 +1,20 @@
 ---
 id: tool-yitang-practice-20hour-starter
 related:
-  - "[[framework-yitang-deliberate-practice-1plus4]]"
-  - "[[framework-yitang-three-ring-ability-focus]]"
-  - "[[concept-yitang-comfort-stretch-panic-zones]]"
-  - "[[tool-yitang-feedback-self-check]]"
-  - "[[tool-yitang-best-practice-as-golden-finger]]"
-  - "[[case-yitang-poker-parameterized-practice]]"
-  - "[[yt-note-deliberate-practice-four-elements]]"
-  - "[[framework-ai-deliberate-practice-loop]]"
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[framework-yitang-three-ring-ability-focus]]'
+- '[[concept-yitang-comfort-stretch-panic-zones]]'
+- '[[tool-yitang-feedback-self-check]]'
+- '[[tool-yitang-best-practice-as-golden-finger]]'
+- '[[case-yitang-poker-parameterized-practice]]'
+- '[[yt-note-deliberate-practice-four-elements]]'
+- '[[framework-ai-deliberate-practice-loop]]'
 source_refs:
 - pending_archive: src_unknown
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 20 小时刻意练习入门法：快速达到够用水平

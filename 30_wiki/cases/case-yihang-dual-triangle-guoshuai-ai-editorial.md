@@ -5,7 +5,7 @@ type: case
 status: draft
 author: 洪七公（VLM提取）+ 老顽童（enrich）
 reviewed_by: pending
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 language: zh-CN
 created_at: 2026-07-04
@@ -16,9 +16,13 @@ domain:
 source_refs:
 - pending_archive
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[case-yihang-dual-triangle-一堂双三角-IP选题智能体挑战交付上限]]"
-- "[[case-yihang-dual-triangle-kunte-virtual-idol]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[case-yihang-dual-triangle-一堂双三角-IP选题智能体挑战交付上限]]'
+- '[[case-yihang-dual-triangle-kunte-virtual-idol]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 双三角案例：郭帅 AI 编辑部——智能体拉微信群协作内容生产

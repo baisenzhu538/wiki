@@ -14,6 +14,9 @@ source_refs:
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
 tags:
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 created_at: '2026-06-14'
 updated_at: '2026-06-29'
 author: 王语嫣

@@ -21,6 +21,10 @@ related:
 - '[[pending_unknown]]'
 - tool-strategy-pareto
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 六阶段企业生命周期
 

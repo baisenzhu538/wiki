@@ -17,8 +17,12 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-yihang-dual-triangle-ai-review]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-yihang-dual-triangle-ai-review]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # X光拆解：双三角案例逆向工程——从"用了什么工具"到"背后的双三角怎么支撑"

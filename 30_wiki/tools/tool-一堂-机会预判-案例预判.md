@@ -39,6 +39,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - cited
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 机会预判·案例预判 SOP

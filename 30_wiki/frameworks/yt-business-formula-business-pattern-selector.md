@@ -16,6 +16,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 quality_labels:
 - principle
 - validated

@@ -35,6 +35,10 @@ related:
 - '[[case-yitang-yewenbin-archery-business-formula]]'
 - '[[framework-一堂-关键假设]]'
 - '[[tool-动力阻力分析]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 温校长驾校：十年传统业务拆公式后校园代理×招生链成关键路径，"六杯奶茶"触点假设把推荐率再提一级、业务再翻一倍
 

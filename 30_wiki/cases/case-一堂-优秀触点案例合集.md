@@ -16,7 +16,7 @@ domain:
 source_person: 叶文彬/李刚/范渝（一堂学员）
 source_context: 一堂《优秀触点案例合集》逐字稿，收录三位学员真实业务的触点优化案例
 source_refs:
-- '00_inbox/Handle the business/conversion rate/优秀触点案例合集_逐字稿.md L17-L122'
+- 00_inbox/Handle the business/conversion rate/优秀触点案例合集_逐字稿.md L17-L122
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'
@@ -34,6 +34,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 一堂《优秀触点案例合集》收录叶文彬射箭门店办卡率触点、李刚黄金投资回收推荐率三版迭代、范渝烘焙门店触点分析三个真实案例，共同说明：触点改造必须与动力设计、阻力消除组合使用，且在终点/峰值/送礼/消息等关键触点上做功 ROI 最高。

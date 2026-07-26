@@ -13,10 +13,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 updated_at: '2026-06-28'
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
@@ -25,15 +25,19 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-一堂-工业化生产_vlm_desc.md
 source_person: Truman
 related:
-- "[[framework-yitang-channel-industrialization]]"
-- "[[framework-yitang-growth-flywheel]]"
-- "[[framework-yitang-channel-exploration-4step]]"
-- "[[case-yitang-yitang-shortvideo-industrialization]]"
-- "[[tool-yitang-channel-industrialization-node-design]]"
-- "[[framework-yitang-channel-unit-economics]]"
-- "[[concept-yitang-channel-lean-validation-bridge]]"
-- "[[case-yitang-lianjia-site-selection-industrialization]]"
+- '[[framework-yitang-channel-industrialization]]'
+- '[[framework-yitang-growth-flywheel]]'
+- '[[framework-yitang-channel-exploration-4step]]'
+- '[[case-yitang-yitang-shortvideo-industrialization]]'
+- '[[tool-yitang-channel-industrialization-node-design]]'
+- '[[framework-yitang-channel-unit-economics]]'
+- '[[concept-yitang-channel-lean-validation-bridge]]'
+- '[[case-yitang-lianjia-site-selection-industrialization]]'
 review_date: '2026-06-28'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：一堂如何用工业化生产保证每周高质量做课

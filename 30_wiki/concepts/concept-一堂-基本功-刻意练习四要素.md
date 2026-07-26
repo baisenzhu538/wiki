@@ -36,6 +36,10 @@ diagnostic_signals:
 quality_labels:
 - principle
 - actionable
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 
 # 刻意练习四要素（组织版）：套路×非舒适区×大量重复×及时反馈

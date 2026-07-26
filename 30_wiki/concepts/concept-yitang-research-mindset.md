@@ -27,6 +27,10 @@ related:
 - tool-yitang-amazon-bestseller
 - tool-yitang-ai-monitoring-alert
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 调研心态：从"找答案"到"拆假设"

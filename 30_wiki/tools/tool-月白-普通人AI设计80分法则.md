@@ -24,14 +24,18 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-新手设计师基本功训练法]]"
-- "[[tool-月白-AIGC设计作业复盘法]]"
-- "[[tool-月白-文创产品AI设计到生产的卡点预判]]"
-- "[[tool-月白-文创材质成本调研与精益选择]]"
-- "[[tool-月白-正向反馈强化AI生成]]"
-- "[[tool-月白-AI设计落地文件标准生成]]"
-- "[[tool-月白-像素图高清重绘修复法]]"
-- "[[tool-月白-纳米级抄大师训练法]]"
+- '[[tool-月白-新手设计师基本功训练法]]'
+- '[[tool-月白-AIGC设计作业复盘法]]'
+- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
+- '[[tool-月白-文创材质成本调研与精益选择]]'
+- '[[tool-月白-正向反馈强化AI生成]]'
+- '[[tool-月白-AI设计落地文件标准生成]]'
+- '[[tool-月白-像素图高清重绘修复法]]'
+- '[[tool-月白-纳米级抄大师训练法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：普通人AI设计80分法则

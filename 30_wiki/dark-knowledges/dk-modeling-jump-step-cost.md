@@ -1,29 +1,33 @@
 ---
 id: dk-modeling-jump-step-cost
-title: "跳步代价：前置输入为空，后半段十倍百倍惩罚"
+title: 跳步代价：前置输入为空，后半段十倍百倍惩罚
 type: dk
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - modeling
+- modeling
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - principle
+- insight
+- principle
 source_refs:
-  - "00_inbox/Advanced modeling/ 口述 L2718-L2728"
-  - "00_inbox/Advanced modeling/ 口述 L2378-L2384"
+- 00_inbox/Advanced modeling/ 口述 L2718-L2728
+- 00_inbox/Advanced modeling/ 口述 L2378-L2384
 related:
-  - dk-process-is-scar-tissue
-  - concept-truman-18-component-cards
-  - framework-modeling-relation-exploration
-  - modeling-level-map
-  - framework-kdo-modeling-methodology
+- dk-process-is-scar-tissue
+- concept-truman-18-component-cards
+- framework-modeling-relation-exploration
+- modeling-level-map
+- framework-kdo-modeling-methodology
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 跳步代价：前置输入为空，后半段十倍百倍惩罚

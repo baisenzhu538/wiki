@@ -27,6 +27,10 @@ related:
 - '[[tool-demand-rat-generator]]'
 - proposal-prompt-injection-infrastructure
 - tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # L5隐藏洞察

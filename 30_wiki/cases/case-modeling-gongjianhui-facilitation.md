@@ -1,29 +1,33 @@
 ---
 id: case-modeling-gongjianhui-facilitation
-title: "共建会/攻坚会流程建模：从 30-50% 成功率到 80-100% 的 8-9 步法"
+title: 共建会/攻坚会流程建模：从 30-50% 成功率到 80-100% 的 8-9 步法
 type: case
 status: draft
 confidence: 0.85
 trust_level: medium
 domain:
-  - modeling
+- modeling
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - cited
-  - actionable
+- cited
+- actionable
 source_refs:
-  - "00_inbox/Advanced modeling/ 口述 §3.2"
-  - "00_inbox/Advanced modeling/ 攻坚会的流程VLM+OCR"
+- 00_inbox/Advanced modeling/ 口述 §3.2
+- 00_inbox/Advanced modeling/ 攻坚会的流程VLM+OCR
 related:
-  - concept-truman-18-component-cards
-  - framework-modeling-relation-exploration
-  - framework-kdo-modeling-methodology
-  - case-modeling-ai-image-workflow
-  - modeling-weapon-library
+- concept-truman-18-component-cards
+- framework-modeling-relation-exploration
+- framework-kdo-modeling-methodology
+- case-modeling-ai-image-workflow
+- modeling-weapon-library
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 共建会/攻坚会流程建模：从 30-50% 成功率到 80-100% 的 8-9 步法

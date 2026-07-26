@@ -24,12 +24,16 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-AI图片风格逆向提取（抄图法）]]"
-- "[[tool-月白-最佳实践素材收集法]]"
-- "[[tool-月白-AIGC文字大小精确控制]]"
-- "[[tool-月白-新手设计师基本功训练法]]"
-- "[[tool-月白-AI自动生成多语种专业名词提示词]]"
-- "[[tool-月白-短视频封面-音量战争-设计法]]"
+- '[[tool-月白-AI图片风格逆向提取（抄图法）]]'
+- '[[tool-月白-最佳实践素材收集法]]'
+- '[[tool-月白-AIGC文字大小精确控制]]'
+- '[[tool-月白-新手设计师基本功训练法]]'
+- '[[tool-月白-AI自动生成多语种专业名词提示词]]'
+- '[[tool-月白-短视频封面-音量战争-设计法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：AI图生图尺寸快速转换

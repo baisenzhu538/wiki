@@ -18,17 +18,17 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[yt-entrepreneur-opportunity-selection]]"
-- "[[yitang-course-map]]"
-- "[[yt-model-entrepreneur-map]]"
-- "[[yt-entrepreneur-five-step-method]]"
-- "[[case-escort-service-tiered-growth]]"
-- "[[case-coffee-shop-foresight]]"
-- "[[case-ai-time-management-tiered-growth]]"
-- "[[yt-foresight-model-taxonomy]]"
-- "[[framework-一堂-机会预判]]"
-- "[[concept-一堂-终局光谱图解读]]"
-- "[[framework-一堂五步法]]"
+- '[[yt-entrepreneur-opportunity-selection]]'
+- '[[yitang-course-map]]'
+- '[[yt-model-entrepreneur-map]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[case-escort-service-tiered-growth]]'
+- '[[case-coffee-shop-foresight]]'
+- '[[case-ai-time-management-tiered-growth]]'
+- '[[yt-foresight-model-taxonomy]]'
+- '[[framework-一堂-机会预判]]'
+- '[[concept-一堂-终局光谱图解读]]'
+- '[[framework-一堂五步法]]'
 review_date: 2026-06-16
 reviewed_by:
 - src_unknown
@@ -65,6 +65,10 @@ pipeline:
 - src_unknown
 - src_unknown
 author: 老顽童
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 终局光谱图

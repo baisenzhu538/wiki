@@ -5,7 +5,7 @@ type: case
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.82
 trust_level: medium
 language: zh-CN
@@ -17,8 +17,12 @@ source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 60_feedback/extractions/extraction-kexue-linian-y-model.md
 related:
-- "[[yt-decision-y-model]]"
-- "[[tool-yitang-red-blue-cards]]"
+- '[[yt-decision-y-model]]'
+- '[[tool-yitang-red-blue-cards]]'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：毛泽东"主义清单"——红蓝卡的历史原型

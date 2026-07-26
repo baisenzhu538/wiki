@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[yt-barrier-brand-equity]]"
-  - "[[yt-barrier-culture-moat]]"
-  - "[[yt-barrier-data-assets]]"
+- '[[yt-barrier-brand-equity]]'
+- '[[yt-barrier-culture-moat]]'
+- '[[yt-barrier-data-assets]]'
 diagnostic_signals:
 - framework_lens: 供应链壁垒——供应链壁垒需要资源独占或长期关系
   follow_up_question: 你的供应链是否有独占资源？供应商关系是否长期稳定？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你的供应链是否有备份？关键物料的库存策略是什么？
 - framework_lens: 供应链壁垒——地理位置是壁垒，但需要持续维护
   follow_up_question: 你的地理位置优势是否可持续？竞品是否也能获得类似位置？
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 供应链壁垒：资源独占

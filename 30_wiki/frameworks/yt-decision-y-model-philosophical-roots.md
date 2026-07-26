@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-decision-y-model-philosophical-roots
@@ -17,10 +16,10 @@ author: 黄药师
 reviewed_by: 王语嫣（代欧阳锋）
 review_date: '2026-06-17'
 related:
-  - "[[yt-decision-ai-partner]]"
-  - "[[yt-decision-canvas]]"
-  - "[[yt-decision-consensus-iceberg]]"
-  - "[[skill-yitang-project-spiral-thinking]]"
+- '[[yt-decision-ai-partner]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[skill-yitang-project-spiral-thinking]]'
 diagnostic_signals:
 - framework_lens: 知行合一的断裂点——你在哪一步停了？
   follow_up_question: 你是"知"不够（宽度/深度没学透）还是"行"不够（画了画布但没有用于真实决策）？王阳明说"知而不行，只是未知"。
@@ -30,6 +29,10 @@ diagnostic_signals:
   follow_up_question: 这个业务的核心矛盾是什么？ToB、ToC、平台型的"宽度"清单本来就不该一样，你是在套用模板还是在识别特殊矛盾？
 source_refs:
 - pending_archive: src_unknown
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论

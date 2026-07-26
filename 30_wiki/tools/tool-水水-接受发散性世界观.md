@@ -3,8 +3,8 @@ id: tool-水水-接受发散性世界观
 title: 技能：接受发散性世界观
 type: tool
 domain:
-  - personal-growth
-  - decision-making
+- personal-growth
+- decision-making
 status: needs-review
 author: unknown
 reviewed_by: 欧阳锋
@@ -17,19 +17,23 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - "[[tool-水水-用感性维度构建溢价]]"
-  - "[[tool-水水-区分风险与不确定性]]"
-  - "[[tool-水水-利用基因漂变视角]]"
-  - "[[tool-水水-利用叙事驱动决策]]"
-  - "[[tool-水水-构建自利叙事]]"
-  - "[[tool-水水-保持系统冗余]]"
-  - "[[tool-水水-练习坦然说不知道]]"
-  - "[[tool-水水-识别关键偶然因素]]"
-  - "[[tool-水水-识别数据折磨陷阱]]"
-  - "[[tool-水水-识别模型局限性]]"
-  - "[[tool-水水-识别自证预言陷阱]]"
-  - "[[tool-水水-识别超级传播者风险]]"
-  - "[[tool-水水-降低故事逻辑要求]]"
+- '[[tool-水水-用感性维度构建溢价]]'
+- '[[tool-水水-区分风险与不确定性]]'
+- '[[tool-水水-利用基因漂变视角]]'
+- '[[tool-水水-利用叙事驱动决策]]'
+- '[[tool-水水-构建自利叙事]]'
+- '[[tool-水水-保持系统冗余]]'
+- '[[tool-水水-练习坦然说不知道]]'
+- '[[tool-水水-识别关键偶然因素]]'
+- '[[tool-水水-识别数据折磨陷阱]]'
+- '[[tool-水水-识别模型局限性]]'
+- '[[tool-水水-识别自证预言陷阱]]'
+- '[[tool-水水-识别超级传播者风险]]'
+- '[[tool-水水-降低故事逻辑要求]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 技能：接受发散性世界观
 

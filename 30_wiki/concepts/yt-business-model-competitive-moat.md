@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-business-model-competitive-moat
@@ -18,10 +17,10 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 商业模式护城河——技术优势不是护城河，需要持续创新
   follow_up_question: 你的技术优势能被竞品复制吗？复制周期多长？
@@ -33,7 +32,10 @@ diagnostic_signals:
   follow_up_question: 你的用户迁移成本有多高？用户离开的损失是什么？
 - framework_lens: 商业模式护城河——护城河需要可量化评估
   follow_up_question: 你的护城河强度如何量化？竞品突破的难度有多大？
-
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 商业模式护城河：持续竞争优势

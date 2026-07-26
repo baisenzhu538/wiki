@@ -52,6 +52,10 @@ diagnostic_signals:
   follow_up_question: 我们争论的是"哪个单元更本质"还是"哪个单元更容易算"？当前阶段最需要盯紧的是哪个？
 - framework_lens: 选了错误的"主模型"——容易算的单元不代表业务核心经济逻辑
   follow_up_question: 除了单订单，单销售、单客户LTV、单城市/单门店的账是否也算过？哪个单元是真正拖累总账的漏项？
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 ## Reusable Knowledge
 

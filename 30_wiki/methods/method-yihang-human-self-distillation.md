@@ -17,12 +17,12 @@ domain:
 source_refs:
 - 00_inbox/内容生产域/专家分享｜AI x 内容工业化生产（熙熙）— 逐字稿.md
 related:
-- "[[method-yihang-dual-triangle-ai-review]]"
-- "[[method-kdo-agent-distillation]]"
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-knowledge-data-decoupling]]"
-- "[[dk-ai-collaboration-degradation-spiral]]"
-- "[[method-kdo-agent-design-meta]]"
+- '[[method-yihang-dual-triangle-ai-review]]'
+- '[[method-kdo-agent-distillation]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-knowledge-data-decoupling]]'
+- '[[dk-ai-collaboration-degradation-spiral]]'
+- '[[method-kdo-agent-design-meta]]'
 diagnostic_signals:
 - signal: 用户说"我每次教 AI 都要重复说同样的话"
   lens: 系统性缺失——人没有把自己判断拆成规则
@@ -37,6 +37,10 @@ quality_labels:
 - actionable
 - principle
 - insight
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 人侧蒸馏法——把自己的隐性判断一步一步显性化

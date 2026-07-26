@@ -20,9 +20,9 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[case-wanghuan-education-sales-capability-extraction]]"
-  - "[[case-wanghuan-education-sales-paced]]"
-  - "[[case-wanghuan-yiyu-qingji-medical-notes]]"
+- '[[case-wanghuan-education-sales-capability-extraction]]'
+- '[[case-wanghuan-education-sales-paced]]'
+- '[[case-wanghuan-yiyu-qingji-medical-notes]]'
 tags:
 - src_unknown
 - src_unknown
@@ -32,6 +32,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 diagnostic_signals:
 - lens: 工具升级但系统未重新设计，仍停留在“演员模式”
   follow_up: 检查流程是否仍是“需求→编辑器→人工修改”，是否把 AI 仅当加速工具

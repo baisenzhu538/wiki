@@ -31,6 +31,10 @@ diagnostic_signals:
 - framework_lens: API分页遗漏——fetch_children没有has_more循环
   follow_up_question: 你的提取脚本在调用/blocks API后，检查了resp['data']['has_more']吗？
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 飞书API分页陷阱

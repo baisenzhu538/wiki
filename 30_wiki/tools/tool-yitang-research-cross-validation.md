@@ -27,26 +27,30 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- "[[tool-yitang-research-normalize-summary]]"
-- "[[yitang-research-domain-digest]]"
-- "[[tool-yitang-research-quantitative-modeling]]"
-- "[[concept-yitang-research-facts-first]]"
-- "[[tool-yitang-research-follow-map]]"
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-quantitative-modeling]]"
-- "[[dk-yitang-research-ai-hallucination]]"
-- "[[dk-yitang-research-source-freshness]]"
-- "[[dk-yitang-expert-interview-5-traps]]"
-- "[[concept-yitang-research-mindset]]"
-- "[[tool-yitang-app-store-data]]"
-- "[[tool-yitang-bp-analysis]]"
-- "[[tool-yitang-research-deep-attribution]]"
-- "[[tool-yitang-research-single-point-sniper]]"
-- "[[tool-yitang-research-two-dimensional-positioning]]"
-- "[[tool-yitang-reverse-data-analysis]]"
-- "[[tool-yitang-user-interview-5steps]]"
-- "[[tool-yitang-weapon-industry-expert]]"
+- '[[tool-yitang-research-normalize-summary]]'
+- '[[yitang-research-domain-digest]]'
+- '[[tool-yitang-research-quantitative-modeling]]'
+- '[[concept-yitang-research-facts-first]]'
+- '[[tool-yitang-research-follow-map]]'
+- '[[framework-yitang-oscar-research]]'
+- '[[framework-yitang-18-strategy-cards]]'
+- '[[tool-yitang-research-quantitative-modeling]]'
+- '[[dk-yitang-research-ai-hallucination]]'
+- '[[dk-yitang-research-source-freshness]]'
+- '[[dk-yitang-expert-interview-5-traps]]'
+- '[[concept-yitang-research-mindset]]'
+- '[[tool-yitang-app-store-data]]'
+- '[[tool-yitang-bp-analysis]]'
+- '[[tool-yitang-research-deep-attribution]]'
+- '[[tool-yitang-research-single-point-sniper]]'
+- '[[tool-yitang-research-two-dimensional-positioning]]'
+- '[[tool-yitang-reverse-data-analysis]]'
+- '[[tool-yitang-user-interview-5steps]]'
+- '[[tool-yitang-weapon-industry-expert]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 交叉验证：多源印证的信息可信度提升

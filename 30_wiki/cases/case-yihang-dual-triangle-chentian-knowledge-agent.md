@@ -28,11 +28,11 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/陈天同学案例口述_page008_vlm.md
 - https://www.researchandmarkets.com/reports/6041107/knowledge-management-the-ai-enabled-enterprise
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-dual-triangle-human-ai-division]]"
-- "[[method-dual-triangle-flywheel-engine]]"
-- "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
-- "[[case-yihang-dual-triangle-beike-ai-outbound]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-dual-triangle-human-ai-division]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[case-yihang-dual-triangle-beike-ai-outbound]]'
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 - '[[case-kdo-agent-factory-dual-triangle-practice]]'
@@ -42,6 +42,10 @@ related:
 aliases:
 - 陈天案例
 - 知识管理案例
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 
 # 一行双三角案例：陈天从知识管理到多 Agent 系统

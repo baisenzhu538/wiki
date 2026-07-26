@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-case-explosion-confidence
 title: 案例大爆炸的底气：来自销冠广场，不是胆子大
 type: dk
@@ -13,8 +12,8 @@ domain:
 source_person: Truman
 source_context: 一堂高阶建模能力培训（销冠广场与一堂五步法）
 quality_labels:
-  - quality
-  - validated
+- quality
+- validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -29,16 +28,18 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
-
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述/核心洞察

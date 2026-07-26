@@ -1,5 +1,4 @@
 ---
-
 id: dk-modeling-checklist-formatting-rules
 title: 清单体写不好，模型就建不好：换行、分层、优先级、完备
 type: dk
@@ -16,19 +15,19 @@ source_refs:
 confidence: 0.8
 trust_level: medium
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[tool-分层标注重点信息]]"
-  - "[[tool-月白-AIGC海报信息优先级排序法]]"
-  - "[[tool-使用优先级快筛卡锁定核心矛盾]]"
-  - "[[tool-Truman-AI能力分层学习路径]]"
-  - "[[tool-决策深度-L1优先级定性]]"
-  - "[[tool-深度分层学习]]"
-  - "[[tool-推行分层标准化策略]]"
-  - "[[tool-马易-隐私安全分层解决]]"
+- '[[yitang-domain-digest]]'
+- '[[tool-分层标注重点信息]]'
+- '[[tool-月白-AIGC海报信息优先级排序法]]'
+- '[[tool-使用优先级快筛卡锁定核心矛盾]]'
+- '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-决策深度-L1优先级定性]]'
+- '[[tool-深度分层学习]]'
+- '[[tool-推行分层标准化策略]]'
+- '[[tool-马易-隐私安全分层解决]]'
 tags:
-
-
-
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
@@ -46,7 +45,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 清单缺少分层或分级标准未共识
   follow_up_question: 为清单增加二级分类，并对S/A/B/C或P0/P1/P2的定义达成书面共识# 清单体写不好，模型就建不好：换行、分层、优先级、完备
-
 ---
 
 ## 原始表述

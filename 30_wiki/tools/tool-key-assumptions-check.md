@@ -1,41 +1,44 @@
 ---
-id: "tool-key-assumptions-check"
-title: "Key Assumptions Check（隐藏假设检验）"
-type: "tool"
+id: tool-key-assumptions-check
+title: Key Assumptions Check（隐藏假设检验）
+type: tool
 domain:
-  - "research"
-  - "critical-thinking"
-  - "decision"
+- research
+- critical-thinking
+- decision
 tags:
-  - "SATs"
-  - "假设检验"
-  - "认知偏差"
-  - "诊断类"
-source_person: "Richars J. Heuer Jr. + Truman（一堂）"
-source_context: "SATs 诊断类技术工具化实现"
+- SATs
+- 假设检验
+- 认知偏差
+- 诊断类
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+source_person: Richars J. Heuer Jr. + Truman（一堂）
+source_context: SATs 诊断类技术工具化实现
 source_refs:
-  - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
-  - "https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/"
+- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
+- https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/
 related:
-  - "[[framework-一堂-关键假设]]"
-  - "[[framework-一堂-关键假设-三板斧]]"
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[tool-半肥猫-ai-research-validation]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[yt-product-kernel-key-conversion]]"
-  - "[[yt-skill-storyline-key-elements]]"
-  - "[[tool-first-principles-assumption-classify]]"
+- '[[framework-一堂-关键假设]]'
+- '[[framework-一堂-关键假设-三板斧]]'
+- '[[framework-yitang-nine-layer-deep-dig]]'
+- '[[tool-半肥猫-ai-research-validation]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-product-kernel-key-conversion]]'
+- '[[yt-skill-storyline-key-elements]]'
+- '[[tool-first-principles-assumption-classify]]'
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
+review_date: '2026-06-28'
 quality_labels:
-  - actionable
-  - cited
-  - validated
-created_at: "2026-06-28"
+- actionable
+- cited
+- validated
+created_at: '2026-06-28'
 updated_at: '2026-06-28'
 confidence: 0.78
-trust_level: "medium"
+trust_level: medium
 ---
 
 # Key Assumptions Check（隐藏假设检验）

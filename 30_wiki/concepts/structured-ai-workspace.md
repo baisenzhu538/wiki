@@ -12,11 +12,11 @@ source_refs:
 component_of:
 - src_unknown
 related:
-- "[[ai-collaboration-mindset-shift]]"
-- "[[prd-as-ai-instruction]]"
-- "[[ai-learning-closed-loop]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[ai-collaboration-mindset-shift]]'
+- '[[prd-as-ai-instruction]]'
+- '[[ai-learning-closed-loop]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 query_triggers:
 - src_unknown
 - src_unknown
@@ -41,6 +41,10 @@ diagnostic_signals:
   follow_up: 建立日志模板，要求AI每次执行后记录，任务状态可追溯
 - lens: 过度工程
   follow_up: 简化模块，只保留核心，维护成本必须小于节省的时间
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 结构化AI工作空间搭建

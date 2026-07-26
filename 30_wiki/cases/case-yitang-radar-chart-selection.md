@@ -40,6 +40,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 diagnostic_signals:
 - lens: 决策超载 + 隐性标准
   follow_up: 召集有判断力的人开模型共建会，先定义 4-6 个评选维度和打分规则，再看任何候选人

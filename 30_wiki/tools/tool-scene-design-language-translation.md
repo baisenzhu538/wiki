@@ -1,5 +1,4 @@
 ---
-
 id: tool-scene-design-language-translation
 title: 场景设计语言转译：把场景需求变成可执行设计约束
 type: tool
@@ -21,18 +20,21 @@ source_refs:
 - 00_inbox/yitang-AI club/live81/AI赋能商标设计体系重构 — Live81逐字稿 副本.md
 - 60_feedback/diagnosis/diag_20260702_live81-ai-trademark-design.md
 related:
-  - "[[case-live81-ai-trademark-design]]"
-  - "[[tool-ai-deliverable-polish-loop]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
-  - "[[yt-panproduct-aesthetic-pool]]"
-  - "[[yt-panproduct-aesthetic-modeling]]"
-  - "[[dk-ai-design-pitfalls]]"
-  - "[[tool-ai-use-barbell-strategy]]"
-  - "[[concept-cognitive-offloading-in-ai-era]]"
-  - "[[tool-ai-scene-four-elements]]"
+- '[[case-live81-ai-trademark-design]]'
+- '[[tool-ai-deliverable-polish-loop]]'
+- '[[framework-一堂五步法-泛产品设计]]'
+- '[[yt-panproduct-aesthetic-pool]]'
+- '[[yt-panproduct-aesthetic-modeling]]'
+- '[[dk-ai-design-pitfalls]]'
+- '[[tool-ai-use-barbell-strategy]]'
+- '[[concept-cognitive-offloading-in-ai-era]]'
+- '[[tool-ai-scene-four-elements]]'
 created_at: 2026-07-02
 updated_at: '2026-07-02'
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 场景设计语言转译：把场景需求变成可执行设计约束

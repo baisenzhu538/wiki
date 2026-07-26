@@ -16,8 +16,8 @@ domain:
 source_person: 青柯老师/连锁自助棋牌室团队
 source_context: 一堂线下课“棋牌室新客办卡”触点优化真实案例
 source_refs:
-- '00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L462-L486'
-- '00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L4012-L4080'
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L462-L486
+- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L4012-L4080
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'
@@ -34,6 +34,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 连锁自助棋牌室把新客办卡率从 1% 优化到 5%，核心是在用户购买主路径上加平行入口、提升触点密度；讲师判断继续优化信息密度、号召直接性和场景拆分后，有望冲击 10%。

@@ -1,5 +1,4 @@
 ---
-
 id: tool-ci-define-phase
 title: CI Define 阶段工具：决策驱动的问题定义
 type: tool
@@ -12,15 +11,18 @@ tags:
 - KITs
 - KIQs
 - 决策驱动提问
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 source_person: Truman（一堂）+ Competitive Intelligence Alliance
 source_context: CI Operating Model Define 阶段工具化实现
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 - https://blog.bestbootcamps.com/competitive-intelligence-framework/
 related:
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[framework-yitang-research-weapon-system]]"
-- "[[tool-ci-implement-phase]]"
+- '[[framework-yitang-18-strategy-cards]]'
+- '[[framework-yitang-research-weapon-system]]'
+- '[[tool-ci-implement-phase]]'
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

@@ -1,7 +1,7 @@
 ---
 domain:
-  - yitang
-  - research
+- yitang
+- research
 id: yt-research-mindset
 title: 商业调研思维
 type: concept
@@ -9,7 +9,7 @@ status: reviewed
 source_context: 一堂商业调研课程——调研者的核心思维模式
 source_person: 一堂
 source_refs:
-  - pending_archive:src_20260620_business-research-skill-v2.1.0
+- pending_archive:src_20260620_business-research-skill-v2.1.0
 created_at: '2026-06-20'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -18,17 +18,19 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-  - "[[yt-research-osl-framework]]"
-  - "[[yt-research-intelligence-map]]"
-  - "[[yt-research-competitor-toolkit]]"
-  - "[[yt-research-expert-interview]]"
-  - "[[yt-research-user-jtbd]]"
-  - "[[yt-research-industry-canvas]]"
-  - "[[yt-research-hypothesis-test]]"
-  - "[[master-cognitive-bias-checklist]]"
-  - "[[master-decision-hygiene]]"
-
-
+- '[[yt-research-osl-framework]]'
+- '[[yt-research-intelligence-map]]'
+- '[[yt-research-competitor-toolkit]]'
+- '[[yt-research-expert-interview]]'
+- '[[yt-research-user-jtbd]]'
+- '[[yt-research-industry-canvas]]'
+- '[[yt-research-hypothesis-test]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-decision-hygiene]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 

@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-research-radar
 title: 调研雷达图：四象限能力诊断与六种缺失识别
 type: framework
@@ -8,8 +7,8 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
 quality_labels:
-  - principle
-  - validated
+- principle
+- validated
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
@@ -33,14 +32,18 @@ source_refs:
 - 00_inbox/调研专题/调研雷达图_vlm_desc.md
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[framework-yitang-high-level-execution]]"
-  - "[[framework-yitang-high-level-plan]]"
-  - "[[framework-yitang-oscar-research]]"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[framework-yitang-high-level-execution]]'
+- '[[framework-yitang-high-level-plan]]'
+- '[[framework-yitang-oscar-research]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 调研雷达图：四象限能力诊断与六种缺失识别

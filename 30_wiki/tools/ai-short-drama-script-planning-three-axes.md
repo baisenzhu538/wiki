@@ -12,9 +12,9 @@ domain:
 - ai-collaboration
 - product
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: '2026-06-13'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -23,12 +23,13 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.65
 related:
-- "[[ai-short-drama-plot-three-axes]]"
-- "[[ai-short-drama-framework-three-axes]]"
-- "[[ai-short-drama-conflict-three-axes]]"
+- '[[ai-short-drama-plot-three-axes]]'
+- '[[ai-short-drama-framework-three-axes]]'
+- '[[ai-short-drama-conflict-three-axes]]'
 tags:
-
-
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 第一板斧·剧本基地
   follow_up_question: 你是否先给了 AI 一份包含题材、主角、欲望、阻碍、场景的剧本基地？

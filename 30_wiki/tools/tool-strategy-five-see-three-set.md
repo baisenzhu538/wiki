@@ -1,6 +1,4 @@
 ---
-
-
 id: tool-strategy-five-see-three-set
 title: 华为五看三定：看行业/市场/客户/竞争/自己 → 定控制点/目标/路径
 type: tool
@@ -9,14 +7,18 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: "2026-06-30T16:07:51+00:00"
+updated_at: '2026-06-30T16:07:51+00:00'
 confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - strategy
+- strategy
 source_refs:
-  - "pending_archive:src_unknown"
+- pending_archive:src_unknown
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 华为五看三定

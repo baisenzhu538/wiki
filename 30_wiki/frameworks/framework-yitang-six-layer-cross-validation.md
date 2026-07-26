@@ -28,22 +28,26 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
-- "[[case-yitang-senior-university-product-design]]"
-- "[[framework-yitang-iterative-recursive-digging]]"
-- "[[framework-strategy-kai-innovation-directions]]"
-- "[[tool-深度分层学习]]"
-- "[[tool-yitang-research-exhaust-means]]"
-- "[[framework-yitang-oscar-research]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-cross-validation]]"
-- "[[dk-yitang-research-ai-hallucination]]"
-- "[[dk-yitang-research-source-freshness]]"
-- "[[dk-yitang-expert-interview-5-traps]]"
-- "[[concept-yitang-research-mindset]]"
-- "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[framework-kdo-self-attack]]"
-- "[[framework-ouyangfeng-review-methodology]]"
-- "[[framework-yitang-growth-flywheel]]"
+- '[[case-yitang-senior-university-product-design]]'
+- '[[framework-yitang-iterative-recursive-digging]]'
+- '[[framework-strategy-kai-innovation-directions]]'
+- '[[tool-深度分层学习]]'
+- '[[tool-yitang-research-exhaust-means]]'
+- '[[framework-yitang-oscar-research]]'
+- '[[framework-yitang-18-strategy-cards]]'
+- '[[tool-yitang-research-cross-validation]]'
+- '[[dk-yitang-research-ai-hallucination]]'
+- '[[dk-yitang-research-source-freshness]]'
+- '[[dk-yitang-expert-interview-5-traps]]'
+- '[[concept-yitang-research-mindset]]'
+- '[[case-yitang-sanjieke-benchmark-failure]]'
+- '[[framework-kdo-self-attack]]'
+- '[[framework-ouyangfeng-review-methodology]]'
+- '[[framework-yitang-growth-flywheel]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 六层交叉验证：从单源到多源的信息可信度提升

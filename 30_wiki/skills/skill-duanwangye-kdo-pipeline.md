@@ -3,7 +3,7 @@ id: skill-duanwangye-kdo-pipeline
 title: 段王爷·KDO文章生产管线 — produce→validate→ship 完整闭环
 type: skill
 status: reviewed
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
 - kdo
@@ -15,8 +15,12 @@ author: 段王爷（南帝）
 reviewed_by: 欧阳锋
 review_date: '2026-07-19'
 related:
-- "[[skill-duanwangye-feishu-publishing]]"
-- "[[concept-streaming-extraction-pattern]]"
+- '[[skill-duanwangye-feishu-publishing]]'
+- '[[concept-streaming-extraction-pattern]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 段王爷·KDO文章生产管线

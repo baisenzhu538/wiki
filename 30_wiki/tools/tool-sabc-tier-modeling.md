@@ -1,5 +1,4 @@
 ---
-
 id: tool-sabc-tier-modeling
 title: SABC分级/段位图建模法：给事物排优先级与成长路径
 type: tool
@@ -14,9 +13,9 @@ domain:
 - src_unknown
 - src_unknown
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -25,18 +24,21 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.9
 related:
-  - "[[case-yitang-weekly-modeling-engine]]"
-  - "[[modeling-three-values]]"
-  - "[[tool-checklist-cheatsheet-modeling]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[tool-scenario-selector-modeling]]"
+- '[[case-yitang-weekly-modeling-engine]]'
+- '[[modeling-three-values]]'
+- '[[tool-checklist-cheatsheet-modeling]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[tool-scenario-selector-modeling]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:advanced
 diagnostic_signals:
 - framework_lens: SABC 分级——S 级是“必须亲自盯、不做会出大事”的稀缺档位
   follow_up_question: 如果强制把 S 级压缩到 3 个以内，哪些事项可以降级为 A/B，降级标准是什么？
@@ -44,7 +46,6 @@ diagnostic_signals:
   follow_up_question: 在资源受限的前提下，哪件事如果现在明确不做，对结果影响最小？
 - framework_lens: 段位图与 SABC 标准——每一档必须用“能做什么 + 典型产出”定义
   follow_up_question: 这一级/档对应的具体行为、产出或可验证标准是什么，谁能一眼判断是否达标？
-
 ---
 
 # SABC分级/段位图建模法：给事物排优先级与成长路径

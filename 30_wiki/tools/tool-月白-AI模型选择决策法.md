@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-多语言提示词降幻觉法]]"
-- "[[tool-月白-AI生成IP表情包]]"
-- "[[tool-月白-电商白底图生成与高清重绘]]"
-- "[[tool-月白-AIGC生成人物证件照]]"
-- "[[tool-月白-电商白底图生成与高清处理]]"
+- '[[tool-月白-多语言提示词降幻觉法]]'
+- '[[tool-月白-AI生成IP表情包]]'
+- '[[tool-月白-电商白底图生成与高清重绘]]'
+- '[[tool-月白-AIGC生成人物证件照]]'
+- '[[tool-月白-电商白底图生成与高清处理]]'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：AI模型选择决策法
 

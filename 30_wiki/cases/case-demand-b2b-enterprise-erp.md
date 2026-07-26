@@ -1,5 +1,4 @@
 ---
-
 id: case-demand-b2b-enterprise-erp
 title: ToB 企业 ERP 需求分析案例
 type: case
@@ -8,9 +7,9 @@ domain:
 - yitang
 status: reviewed
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童
@@ -21,14 +20,18 @@ trust_level: medium
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - "[[framework-demand-iceberg]]"
-  - "[[yt-demand-decision-chain]]"
-  - "[[yt-tob-demand-metrics]]"
-  - "[[yt-demand-b2b-vs-b2c]]"
-  - "[[case-treadmill-demand-analysis]]"
-  - "[[framework-demand-validation-pipeline]]"
-  - "[[dk-demand-signal-vs-noise]]"
-  - "[[case-demand-b2c-consumer-insight]]"
+- '[[framework-demand-iceberg]]'
+- '[[yt-demand-decision-chain]]'
+- '[[yt-tob-demand-metrics]]'
+- '[[yt-demand-b2b-vs-b2c]]'
+- '[[case-treadmill-demand-analysis]]'
+- '[[framework-demand-validation-pipeline]]'
+- '[[dk-demand-signal-vs-noise]]'
+- '[[case-demand-b2c-consumer-insight]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # ToB 企业 ERP 需求分析案例

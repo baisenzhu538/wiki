@@ -24,6 +24,10 @@ related:
 - '[[pending_unknown]]'
 - tool-yitang-app-store-data
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 替代数据总览
 

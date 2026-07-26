@@ -16,9 +16,13 @@ domain:
 source_refs:
 - 对话记录：2026-07-05 老朱 Agent 纠察队/HR 角色实践
 related:
-- "[[method-yihang-ai-self-xray-iteration]]"
-- "[[method-yihang-dual-triangle-ai-review]]"
-- "[[concept-yihang-dual-triangle-core]]"
+- '[[method-yihang-ai-self-xray-iteration]]'
+- '[[method-yihang-dual-triangle-ai-review]]'
+- '[[concept-yihang-dual-triangle-core]]'
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # Agent HR 角色（元 Agent）——专门盯着其他 Agent 表现的监督者

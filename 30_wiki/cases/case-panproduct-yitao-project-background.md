@@ -20,6 +20,10 @@ related:
 - '[[yt-product-kernel-canvas]]'
 - '[[tool-yitang-growth-flywheel-design]]'
 - '[[tool-strategy-value-proposition]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：一淘项目背景与三大难题
 

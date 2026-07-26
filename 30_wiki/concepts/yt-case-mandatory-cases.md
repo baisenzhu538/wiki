@@ -7,9 +7,9 @@ source_refs:
 - 10_raw/sources/src_20260507_857c7ed4-声音和画面正常吗.md
 id: yt-case-mandatory-cases
 quality_labels:
-  - principle
-  - quality
-  - validated
+- principle
+- quality
+- validated
 created_at: 2026-05-05
 domain: yitang
 yitang:
@@ -33,11 +33,15 @@ author: 老顽童
 confidence: 0.85
 trust_level: high
 related:
-- "[[yitang-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 一堂案例必修课

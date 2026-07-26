@@ -1,29 +1,33 @@
 ---
 id: dk-目标管理四大病
-title: "目标管理四大病：经验主义、本本主义、形式主义、完美主义"
+title: 目标管理四大病：经验主义、本本主义、形式主义、完美主义
 type: dk
 status: draft
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - management
+- management
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - actionable
+- insight
+- actionable
 source_refs:
-  - "00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §2.1"
-  - "00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L1-L28"
+- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §2.1
+- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L1-L28
 related:
-  - yt-management-goal-management
-  - concept-目标-北极星型vs探索型
-  - framework-目标三层拆解
-  - yt-tool-okr-cycle
-  - management-domain-digest
+- yt-management-goal-management
+- concept-目标-北极星型vs探索型
+- framework-目标三层拆解
+- yt-tool-okr-cycle
+- management-domain-digest
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 
 # 目标管理四大病：经验主义、本本主义、形式主义、完美主义

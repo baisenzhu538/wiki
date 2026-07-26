@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-制作仿真三要点
 title: 一堂制作仿真三要点：在真实视角下打磨细节并沉淀过程资产
 type: tool
@@ -35,6 +34,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂制作仿真三要点：在真实视角下打磨细节并沉淀过程资产

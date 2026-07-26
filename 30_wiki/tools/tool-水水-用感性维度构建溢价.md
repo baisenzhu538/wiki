@@ -3,8 +3,8 @@ id: tool-水水-用感性维度构建溢价
 title: 技能：用感性维度构建溢价
 type: tool
 domain:
-  - personal-growth
-  - design
+- personal-growth
+- design
 status: needs-review
 author: unknown
 reviewed_by: pending
@@ -16,16 +16,20 @@ source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - "[[tool-水水-接受发散性世界观]]"
-  - "[[tool-水水-区分风险与不确定性]]"
-  - "[[tool-水水-利用基因漂变视角]]"
-  - "[[tool-水水-利用叙事驱动决策]]"
-  - "[[tool-水水-构建自利叙事]]"
-  - "[[tool-水水-警惕概率虚妄安全感]]"
-  - "[[tool-水水-警惕错误归因]]"
-  - "[[tool-水水-识别模型局限性]]"
-  - "[[tool-水水-识别饥饿效应]]"
-  - "[[tool-水水-避免原生家庭万能归因]]"
+- '[[tool-水水-接受发散性世界观]]'
+- '[[tool-水水-区分风险与不确定性]]'
+- '[[tool-水水-利用基因漂变视角]]'
+- '[[tool-水水-利用叙事驱动决策]]'
+- '[[tool-水水-构建自利叙事]]'
+- '[[tool-水水-警惕概率虚妄安全感]]'
+- '[[tool-水水-警惕错误归因]]'
+- '[[tool-水水-识别模型局限性]]'
+- '[[tool-水水-识别饥饿效应]]'
+- '[[tool-水水-避免原生家庭万能归因]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 技能：用感性维度构建溢价
 

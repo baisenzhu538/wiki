@@ -4,7 +4,7 @@ title: 一堂假设驱动型创业分析方法论
 type: concept
 status: reviewed
 reviewed_by: 周伯通
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 domain:
 - src_unknown
 - src_unknown
@@ -17,24 +17,24 @@ source_refs:
 - 10_raw/sources/src_20260606_6fa04636-一堂-产品内核实操课-truman-笔记.md
 created_at: 2026-06-08
 quality_labels:
-  - cited
-  - principle
-  - quality
-  - validated
+- cited
+- principle
+- quality
+- validated
 updated_at: 2026-07-09
 related:
-  - "[[framework-一堂-关键假设]]"
-  - "[[yt-foresight-15-char-mantra]]"
-  - "[[concept-一堂-key-assumptions]]"
-  - "[[concept-一堂-kernel-validation]]"
-  - "[[concept-一堂-product-kernel]]"
-  - "[[case-一堂-无人餐厅-hypothesis-failure]]"
-  - "[[tool-yitang-customer-segmentation-4step]]"
-  - "[[tool-yitang-value-proposition-4step]]"
-  - "[[framework-yitang-scientific-sales-five-step]]"
-  - "[[concept-mckinsey-hypothesis-driven]]"
-  - "[[concept-mckinsey-issue-tree]]"
-  - "[[concept-mckinsey-mece]]"
+- '[[framework-一堂-关键假设]]'
+- '[[yt-foresight-15-char-mantra]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[concept-一堂-kernel-validation]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[case-一堂-无人餐厅-hypothesis-failure]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[concept-mckinsey-hypothesis-driven]]'
+- '[[concept-mckinsey-issue-tree]]'
+- '[[concept-mckinsey-mece]]'
 wiki_refs:
 - src_unknown
 - src_unknown
@@ -60,6 +60,10 @@ diagnostic_signals:
 author: 老顽童
 confidence: 0.85
 trust_level: high
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 # 一堂假设驱动型创业分析方法论
 

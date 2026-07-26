@@ -1,5 +1,4 @@
 ---
-
 id: timely-feedback-loop
 title: 及时反馈闭环
 type: framework
@@ -8,11 +7,11 @@ domain:
 - skill-building
 status: reviewed
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
+- cited
+- insight
+- principle
+- quality
+- validated
 created_at: 2026-06-29
 updated_at: 2026-06-29
 author: 老顽童
@@ -24,11 +23,15 @@ source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 - 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
 related:
-- "[[deliberate-practice-four-elements]]"
-- "[[four-questions-feedback]]"
-- "[[ai-virtual-coach-prompt]]"
-- "[[fixed-routine-design]]"
-- "[[comfort-zone-expansion]]"
+- '[[deliberate-practice-four-elements]]'
+- '[[four-questions-feedback]]'
+- '[[ai-virtual-coach-prompt]]'
+- '[[fixed-routine-design]]'
+- '[[comfort-zone-expansion]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 及时反馈闭环

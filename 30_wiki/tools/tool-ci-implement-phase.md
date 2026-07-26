@@ -1,5 +1,4 @@
 ---
-
 id: tool-ci-implement-phase
 title: CI Implement 阶段工具：洞见嵌入运营节奏
 type: tool
@@ -12,17 +11,20 @@ tags:
 - Implement阶段
 - Battlecard
 - 运营嵌入
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 source_person: Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
 source_context: CI Operating Model Implement 阶段工具化实现
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 - https://blog.bestbootcamps.com/competitive-intelligence-framework/
 related:
-- "[[tool-yitang-research-continuous-tracking]]"
-- "[[framework-yitang-18-strategy-cards]]"
-- "[[yt-five-step-implementation]]"
-- "[[kdo-protocol-implementation-roadmap]]"
-- "[[tool-ci-define-phase]]"
+- '[[tool-yitang-research-continuous-tracking]]'
+- '[[framework-yitang-18-strategy-cards]]'
+- '[[yt-five-step-implementation]]'
+- '[[kdo-protocol-implementation-roadmap]]'
+- '[[tool-ci-define-phase]]'
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

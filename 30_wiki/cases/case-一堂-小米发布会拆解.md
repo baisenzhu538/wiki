@@ -14,18 +14,29 @@ domain:
 - yitang
 - conversion-rate
 source_person: 小米/雷军
-source_context: 一堂《小米发布会拆解练习》素材，作为动力/阻力/触点拆解的练习案例，PDF 共 63 页，实际有效页为目录+p001-p008 开场/颜色/设计片段+p062-p063 评论
+source_context: 一堂《小米发布会拆解练习》素材，作为动力/阻力/触点拆解的练习案例，PDF 共 63 页，实际有效页为目录+p001-p008 开场/颜色/设计片段+p062-p063
+  评论
 source_refs:
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p001.txt L1-L32'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p002.txt L12-L24'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p003.txt L1-L23'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p004.txt L22-L31'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p005.txt L6-L31'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p006.txt L1-L22'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p007.txt L1-L26'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p008.txt L1-L5'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p062.txt L1-L12'
-- '00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p063.txt L1-L11'
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p001.txt
+  L1-L32
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p002.txt
+  L12-L24
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p003.txt
+  L1-L23
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p004.txt
+  L22-L31
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p005.txt
+  L6-L31
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p006.txt
+  L1-L22
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p007.txt
+  L1-L26
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p008.txt
+  L1-L5
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p062.txt
+  L1-L12
+- 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p063.txt
+  L1-L11
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'
@@ -42,6 +53,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > 小米 SU7 发布会是一堂推荐的「动力 / 阻力 / 触点」拆解练习素材；从已获取的目录+开场+颜色/设计片段可见，其转化设计围绕「信任前置→价值堆高→情感共鸣→行动号召」展开，但完整价格/权益/下单触点等关键转化页缺失，本卡仅基于有效片段做可验证拆解。

@@ -34,6 +34,10 @@ related:
 - framework-yitang-shishi-qiushi
 - framework-yitang-jiefang-sixiang
 - '[[concept-yihang-dual-triangle-core]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 # 决策卫生五步法
 

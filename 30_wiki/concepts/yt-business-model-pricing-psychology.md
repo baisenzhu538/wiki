@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[yt-business-analysis-cognitive-biases]]"
-  - "[[yt-business-formula-l6-essence-formulas]]"
-  - "[[yt-business-formula-parameter-iceberg]]"
+- '[[yt-business-analysis-cognitive-biases]]'
+- '[[yt-business-formula-l6-essence-formulas]]'
+- '[[yt-business-formula-parameter-iceberg]]'
 diagnostic_signals:
 - framework_lens: 定价心理学——定价需要覆盖成本，同时让用户觉得值
   follow_up_question: 你的定价是否覆盖了成本？用户是否觉得这个价格值？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你的版本设计是否利用了锚定效应？是否引导用户选择目标版本？
 - framework_lens: 定价心理学——定价需要数据支撑
   follow_up_question: 你做过定价测试吗？用户愿意为不同价格付费的比例是多少？
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 定价心理学：让用户觉得值

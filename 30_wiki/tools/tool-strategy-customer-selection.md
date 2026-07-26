@@ -29,6 +29,10 @@ related:
 - '[[tool-strategy-value-capture]]'
 - proposal-prompt-injection-infrastructure
 - kdo-yaml-frontmatter-safety
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 客户选择：六步循环迭代法

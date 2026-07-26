@@ -1,5 +1,4 @@
 ---
-
 id: tool-wanghuan-ai-business-profile
 title: 王欢AI业务档案5字段工具
 type: tool
@@ -31,19 +30,21 @@ diagnostic_signals:
 - lens: role-ambiguity
   follow_up: 把个人/团队业务档案作为共享上下文资产统一注入
 related:
-  - "[[concept-wanghuan-tacit-knowledge-examples]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[tool-ai-critical-reading-three-layers]]"
+- '[[concept-wanghuan-tacit-knowledge-examples]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[tool-ai-critical-reading-three-layers]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
-
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 王欢AI业务档案5字段工具

@@ -24,13 +24,17 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-竞品图精益替换法]]"
-- "[[tool-月白-电商白底图生成与场景图匹配]]"
-- "[[tool-月白-眼高手低训练法]]"
-- "[[tool-月白-线下门店设计复杂度评估]]"
-- "[[tool-月白-控制产品画面尺寸比例]]"
-- "[[tool-四层联系建立法]]"
-- "[[tool-月白-普通人AI快速上手法]]"
+- '[[tool-月白-竞品图精益替换法]]'
+- '[[tool-月白-电商白底图生成与场景图匹配]]'
+- '[[tool-月白-眼高手低训练法]]'
+- '[[tool-月白-线下门店设计复杂度评估]]'
+- '[[tool-月白-控制产品画面尺寸比例]]'
+- '[[tool-四层联系建立法]]'
+- '[[tool-月白-普通人AI快速上手法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：灵感画布建立法

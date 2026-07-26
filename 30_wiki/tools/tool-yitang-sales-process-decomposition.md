@@ -47,6 +47,10 @@ related:
 - '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
 created_at: 2026-07-02
 updated_at: 2026-07-24
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 # 一堂销售过程拆解三步法（用户决策路径地图）
 

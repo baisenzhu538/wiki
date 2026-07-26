@@ -1,40 +1,43 @@
 ---
 id: dk-spatial-narrative-pitfalls
-title: "空间叙事四大失败模式：等距平铺/伪嵌套/横图看不清/构建者自审"
+title: 空间叙事四大失败模式：等距平铺/伪嵌套/横图看不清/构建者自审
 type: dk
 status: reviewed
 confidence: 0.88
 trust_level: high
 domain:
-  - content-production
+- content-production
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-21"
+review_date: '2026-07-21'
 grade: B+
-created_at: "2026-07-21"
-updated_at: "2026-07-21"
+created_at: '2026-07-21'
+updated_at: '2026-07-21'
 quality_labels:
-  - insight
+- insight
 diagnostic_signals:
-  - signal: "全景图看起来像棋盘格"
-    lens: 等距平铺——所有元素间距相同
-    follow_up: 用聚簇四原则重组空间布局
-  - signal: "有箭头但点进去没有钻入动画"
-    lens: 伪嵌套——平铺排列+箭头假装层级
-    follow_up: 检查scale比≥3+子坐标在父包围盒内
-
+- signal: 全景图看起来像棋盘格
+  lens: 等距平铺——所有元素间距相同
+  follow_up: 用聚簇四原则重组空间布局
+- signal: 有箭头但点进去没有钻入动画
+  lens: 伪嵌套——平铺排列+箭头假装层级
+  follow_up: 检查scale比≥3+子坐标在父包围盒内
 source_refs:
-  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L48-L51"
-  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L111-L113"
-  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L139-L143"
-  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L163-L170"
-  - "00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L269-L274"
+- 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L48-L51
+- 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L111-L113
+- 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L139-L143
+- 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L163-L170
+- 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L269-L274
 related:
-  - concept-spatial-narrative-design
-  - tool-presentation-quality-gate-pipeline
-  - framework-ouyangfeng-review-methodology
-  - case-infinite-canvas-founders-playbook
-  - framework-一堂-表达力火箭模型
+- concept-spatial-narrative-design
+- tool-presentation-quality-gate-pipeline
+- framework-ouyangfeng-review-methodology
+- case-infinite-canvas-founders-playbook
+- framework-一堂-表达力火箭模型
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 空间叙事四大失败模式

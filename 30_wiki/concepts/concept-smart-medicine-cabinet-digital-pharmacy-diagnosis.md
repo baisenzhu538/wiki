@@ -25,6 +25,10 @@ related:
 - - - case-smart-medicine-cabinet-business-model-validation
 - - - case-smart-medicine-cabinet-corporate-risk
 - smart-medicine-cabinet-clinic-risk-observation
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 > 卡片编号：kc_itingnao_digital-pharmacy  
 > 对应诊断报告：`60_feedback/itingnao-deep-dive-digital-pharmacy.md`  

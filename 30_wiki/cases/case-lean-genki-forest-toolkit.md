@@ -25,6 +25,10 @@ related:
 - '[[pending_unknown]]'
 - '[[case-dutch-childcare-scandal]]'
 - case-cross-yuanqi-forest
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 元气森林试错工具箱

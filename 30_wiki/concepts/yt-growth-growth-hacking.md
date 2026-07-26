@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[yt-growth-acquisition-channels]]"
-  - "[[yt-growth-activation-rate]]"
-  - "[[yt-growth-market-led-growth]]"
+- '[[yt-growth-acquisition-channels]]'
+- '[[yt-growth-activation-rate]]'
+- '[[yt-growth-market-led-growth]]'
 diagnostic_signals:
 - framework_lens: 增长黑客——低成本快速实验，不需要大预算
   follow_up_question: 你能用A/B测试验证假设吗？最小化实验成本，快速迭代。
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 你的增长实验是系统性的吗？还是随机尝试？
 - framework_lens: 增长黑客——增长黑客适用于任何需要增长的场景
   follow_up_question: 你的业务有增长假设吗？能否设计低成本实验验证？
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 增长黑客：低成本快速实验

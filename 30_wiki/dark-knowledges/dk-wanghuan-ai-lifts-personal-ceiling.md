@@ -9,9 +9,9 @@ domain:
 - ai-collaboration
 - yitang
 quality_labels:
-  - cited
-  - quality
-  - validated
+- cited
+- quality
+- validated
 created_at: '2026-06-19'
 updated_at: 2026-06-28
 author: 老顽童
@@ -24,14 +24,14 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-- "[[dk-modeling-ai-judgment-limit]]"
-- "[[dk-modeling-ai-compound-leverage]]"
-- "[[master-ai-info-literacy]]"
-- "[[dk-wanghuan-standard-by-iteration]]"
-- "[[dk-wanghuan-magic-defeats-magic]]"
-- "[[human-ai-collaboration-double-triangle]]"
-- "[[framework-wanghuan-actor-director-mode]]"
-- "[[framework-wanghuan-ai-five-level-ladder]]"
+- '[[dk-modeling-ai-judgment-limit]]'
+- '[[dk-modeling-ai-compound-leverage]]'
+- '[[master-ai-info-literacy]]'
+- '[[dk-wanghuan-standard-by-iteration]]'
+- '[[dk-wanghuan-magic-defeats-magic]]'
+- '[[human-ai-collaboration-double-triangle]]'
+- '[[framework-wanghuan-actor-director-mode]]'
+- '[[framework-wanghuan-ai-five-level-ladder]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: AI拉升个人上限——不会≠做不了，关键是导演思维
@@ -49,10 +49,9 @@ diagnostic_signals:
   framework_lens: AI拉升个人上限——竞争力来自把行业暗规则注入AI系统
   follow_up_question: 你的行业暗规则是什么？能不能写成AI业务档案，让AI成为最懂行的助手？
 tags:
-
-
-
-
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 review_date: '2026-06-28'
 ---
 

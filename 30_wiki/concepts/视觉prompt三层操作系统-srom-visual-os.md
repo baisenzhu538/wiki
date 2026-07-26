@@ -10,7 +10,7 @@ status: reviewed
 title: 视觉Prompt三层操作系统 (SROM Visual OS)
 type: concept
 updated_at: '2026-06-29'
-pipeline:
+pipeline: null
 author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.8
@@ -31,6 +31,10 @@ related:
 - '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
 - '[[yt-skill-p-role-prompt-design]]'
 - yt-system-course-map-lecture
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 # 视觉Prompt三层操作系统 (SROM Visual OS)
 

@@ -3,33 +3,37 @@ id: productization-judgment
 title: 产品化判断四维度
 type: tool
 domain:
-  - product
-  - ai
-  - yitang
+- product
+- ai
+- yitang
 status: reviewed
 source_refs:
-  - "00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md"
+- 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
-  - "[[ai-tool-learning-curve]]"
-  - "[[completion-criteria-design]]"
-  - "[[challenge-point-design]]"
+- '[[ai-tool-learning-curve]]'
+- '[[completion-criteria-design]]'
+- '[[challenge-point-design]]'
 aliases:
-  - "产品化判断"
-  - "工具产品化评估"
+- 产品化判断
+- 工具产品化评估
 author: 老顽童
-created_at: "2026-06-28"
-updated_at: "2026-06-28"
-confidence: 0.80
+created_at: '2026-06-28'
+updated_at: '2026-06-28'
+confidence: 0.8
 trust_level: high
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
+review_date: '2026-06-28'
 diagnostic_signals:
-  - signal: 用户学了一个工具但不知道能不能用到业务里
-    framework_lens: 缺少产品化判断
-    follow_up_question: "这个工具适合解决什么问题、不适合什么、能放在产品哪一层？"
-  - signal: 用户说"这个工具很好"
-    framework_lens: 需要边界判断
-    follow_up_question: "有没有场景是你绝对不会推荐用这个工具的？"
+- signal: 用户学了一个工具但不知道能不能用到业务里
+  framework_lens: 缺少产品化判断
+  follow_up_question: 这个工具适合解决什么问题、不适合什么、能放在产品哪一层？
+- signal: 用户说"这个工具很好"
+  framework_lens: 需要边界判断
+  follow_up_question: 有没有场景是你绝对不会推荐用这个工具的？
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 产品化判断四维度

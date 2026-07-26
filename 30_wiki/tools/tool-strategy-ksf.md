@@ -13,19 +13,23 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_84_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_85_ocr_text.md
 quality_labels:
-  - actionable
-  - validated
+- actionable
+- validated
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- "[[strategy-domain-digest]]"
-- "[[tool-水水-识别关键偶然因素]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[tool-demand-iceberg-l6-hypothesis]]"
+- '[[strategy-domain-digest]]'
+- '[[tool-水水-识别关键偶然因素]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[tool-demand-iceberg-l6-hypothesis]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 关键成功因素（KSF）分析工具

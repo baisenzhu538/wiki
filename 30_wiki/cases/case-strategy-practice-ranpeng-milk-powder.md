@@ -18,6 +18,10 @@ related:
 - strategy-domain-digest
 - case-opc-agent-wave1-real-model-testing
 - case-strategy-practice-12-zero-loss
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 **起点**：最初品牌叫"干饭娃"（益生菌/肠胃方向）。
 

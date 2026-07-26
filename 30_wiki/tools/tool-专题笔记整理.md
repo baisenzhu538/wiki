@@ -31,6 +31,10 @@ related:
 - '[[tool-建立知识联系]]'
 - tool-专题笔记脑图整理法
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：专题笔记整理

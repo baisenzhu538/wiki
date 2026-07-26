@@ -24,20 +24,24 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-海报文字错误修复法]]"
-- "[[tool-月白-课程问题预埋法]]"
-- "[[tool-月白-背景消除与分辨率修复]]"
-- "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
-- "[[tool-月白-三步作业反馈法]]"
-- "[[tool-demand-iceberg-l2-scenario]]"
-- "[[tool-月白-A-B双轨反推模式选择]]"
-- "[[tool-月白-AI海报快速生成法（15分钟无PS）]]"
-- "[[tool-月白-图片逆向反推提示词法]]"
-- "[[tool-月白-图片逆向提示词提取]]"
-- "[[tool-月白-提示词长度控制法]]"
-- "[[tool-月白-海报二维码快速替换法]]"
-- "[[tool-月白-薅AIGC羊毛资源法]]"
-- "[[tool-月白-设计文件八要素命名法]]"
+- '[[tool-月白-海报文字错误修复法]]'
+- '[[tool-月白-课程问题预埋法]]'
+- '[[tool-月白-背景消除与分辨率修复]]'
+- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
+- '[[tool-月白-三步作业反馈法]]'
+- '[[tool-demand-iceberg-l2-scenario]]'
+- '[[tool-月白-A-B双轨反推模式选择]]'
+- '[[tool-月白-AI海报快速生成法（15分钟无PS）]]'
+- '[[tool-月白-图片逆向反推提示词法]]'
+- '[[tool-月白-图片逆向提示词提取]]'
+- '[[tool-月白-提示词长度控制法]]'
+- '[[tool-月白-海报二维码快速替换法]]'
+- '[[tool-月白-薅AIGC羊毛资源法]]'
+- '[[tool-月白-设计文件八要素命名法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：AI需求拆解咨询法

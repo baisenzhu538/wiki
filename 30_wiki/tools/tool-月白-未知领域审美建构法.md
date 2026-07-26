@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-多窗口并行工作法]]"
-- "[[tool-月白-控制产品画面尺寸比例]]"
-- "[[tool-月白-竞品图精益替换法]]"
-- "[[tool-月白-餐饮海报AB测试法]]"
-- "[[tool-月白-AIGC橱窗陈列设计流程]]"
+- '[[tool-月白-多窗口并行工作法]]'
+- '[[tool-月白-控制产品画面尺寸比例]]'
+- '[[tool-月白-竞品图精益替换法]]'
+- '[[tool-月白-餐饮海报AB测试法]]'
+- '[[tool-月白-AIGC橱窗陈列设计流程]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：未知领域审美建构法
 

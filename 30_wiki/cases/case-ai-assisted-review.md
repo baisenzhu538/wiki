@@ -1,5 +1,4 @@
 ---
-
 id: case-ai-assisted-review
 title: 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己
 type: case
@@ -21,18 +20,21 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - "[[tool-从案例中学习]]"
-  - "[[case-科学决策-深度案例06]]"
-  - "[[case-科学决策-深度案例02]]"
-  - "[[tool-纪浩-案例池构建法]]"
-  - "[[case-科学决策-ROI案例03]]"
-  - "[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]"
+- '[[tool-从案例中学习]]'
+- '[[case-科学决策-深度案例06]]'
+- '[[case-科学决策-深度案例02]]'
+- '[[tool-纪浩-案例池构建法]]'
+- '[[case-科学决策-ROI案例03]]'
+- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:general
+- scene:reference
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: AI 辅助对比与合并可显著降低复盘成本
   follow_up_question: 你是否经常需要对比 Before/After 版本，或从大量协作记录中提炼 checklist？
@@ -42,7 +44,6 @@ diagnostic_signals:
   follow_up_question: 你的复盘是在工作完成后 24 小时内完成，还是等到下次再做类似工作时才想起？
 - framework_lens: 人必须负责审美判断和建模
   follow_up_question: 你拿到 AI 的复盘结果后，是否会基于自己的判断力做二次总结和边界修正？
-
 ---
 
 # 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己

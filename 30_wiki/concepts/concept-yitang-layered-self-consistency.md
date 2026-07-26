@@ -1,47 +1,48 @@
 ---
 id: concept-yitang-layered-self-consistency
-title: "分层自洽：五层击穿与双向推导"
+title: 分层自洽：五层击穿与双向推导
 type: concept
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - innovation
+- innovation
 author: 老顽童
-review_date: "2026-07-26"
-reviewed_by: 待审
-  - framework-kdo-modeling-methodology
-  - framework-yitang-shishi-qiushi
-created_at: "2026-07-26"
-updated_at: "2026-07-26"
+review_date: '2026-07-26'
+reviewed_by: 待审 - framework-kdo-modeling-methodology - framework-yitang-shishi-qiushi
+created_at: '2026-07-26'
+updated_at: '2026-07-26'
 quality_labels:
-  - insight
-  - principle
+- insight
+- principle
 aliases:
-  - 分层逻辑
-  - 五层击穿
-  - 向下击穿
+- 分层逻辑
+- 五层击穿
+- 向下击穿
 discoverable_by:
-  - 如何验证创新可行性
-  - 底层规律推导
+- 如何验证创新可行性
+- 底层规律推导
 source_refs:
-  - "00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L513-517"
-  - "00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §4.2"
+- 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L513-517
+- 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §4.2
 related:
-  - framework-yitang-thought-liberation-lightning
-  - bridge-yitang-seek-truth-liberate-thought
-  - framework-yitang-shishi-qiushi
-  - framework-ouyangfeng-review-methodology
-  - yt-decision-y-model
-  - tool-yitang-dual-guardrail-system
+- framework-yitang-thought-liberation-lightning
+- bridge-yitang-seek-truth-liberate-thought
+- framework-yitang-shishi-qiushi
+- framework-ouyangfeng-review-methodology
+- yt-decision-y-model
+- tool-yitang-dual-guardrail-system
 diagnostic_signals:
-  - signal: "创新方案执行后效果不如预期"
-    lens: 检查是否跳过了闪电模型的某个步骤
-    follow_up: 按四步闭环逐步排查
-  - signal: "团队对创新方法论的理解不一致"
-    lens: 培训不够或框架表达不清晰
-    follow_up: 用十层解读法重新学习框架
-
+- signal: 创新方案执行后效果不如预期
+  lens: 检查是否跳过了闪电模型的某个步骤
+  follow_up: 按四步闭环逐步排查
+- signal: 团队对创新方法论的理解不一致
+  lens: 培训不够或框架表达不清晰
+  follow_up: 用十层解读法重新学习框架
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 > 定位：属于 [[framework-yitang-thought-liberation-lightning]] 的第 2 步「底层自洽」。

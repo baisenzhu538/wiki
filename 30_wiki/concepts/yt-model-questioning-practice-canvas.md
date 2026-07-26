@@ -1,27 +1,26 @@
 ---
-
 domain:
-  - modeling
-
+- modeling
 id: yt-model-questioning-practice-canvas
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: "黄药师"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
-  - src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
-source_refs:
-  - pending_archive:src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
+- pending_archive:src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 提问刻意练习提升画布 (By YITANG)
 

@@ -22,20 +22,20 @@ diagnostic_signals:
 - framework_lens: 指标专政 / 目标与激励错位
   follow_up_question: 如果OKR完成率直接决定奖金，团队会怎么设目标？如果他们倾向设低目标，说明激励机制已经腐蚀了目标管理。
 related:
-  - "[[一堂方法论体系总图]]"
-  - "[[yitang-course-map]]"
-  - "[[yt-system-course-catalog]]"
-  - "[[yt-management-business-formula]]"
-  - "[[yt-tool-okr-cycle]]"
-  - "[[tool-yitang-sales-performance-management]]"
-  - "[[framework-yitang-sales-incentive-6d]]"
-  - "[[concept-一堂-双目标法]]"
-  - "[[case-yitang-fupanying-five-years-1000-hypotheses]]"
-  - "[[case-yitang-marathon-ten-seasons]]"
-  - "[[case-yitang-false-causality-collection]]"
-  - "[[case-yitang-magic-number-collection]]"
-  - "[[concept-一堂-三类目标策略]]"
-  - "[[yt-business-formula-hypothesis-management-playbook]]"
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[yt-management-business-formula]]'
+- '[[yt-tool-okr-cycle]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[framework-yitang-sales-incentive-6d]]'
+- '[[concept-一堂-双目标法]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+- '[[case-yitang-marathon-ten-seasons]]'
+- '[[case-yitang-false-causality-collection]]'
+- '[[case-yitang-magic-number-collection]]'
+- '[[concept-一堂-三类目标策略]]'
+- '[[yt-business-formula-hypothesis-management-playbook]]'
 updated_at: 2026-07-02
 id: yt-management-goal-management
 author: 老顽童
@@ -45,9 +45,11 @@ confidence: 0.88
 trust_level: medium-high
 source_refs:
 - 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
-source_context: （原始 source 无法追溯，source_refs 已清空，待后续补充）
-    - dk-目标管理四大病
-  - tool-OGSM目标管理工具
+source_context: （原始 source 无法追溯，source_refs 已清空，待后续补充） - dk-目标管理四大病 - tool-OGSM目标管理工具
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 ---
 # 目标管理
 

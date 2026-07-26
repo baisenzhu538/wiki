@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-口喷式AIGC设计法]]"
-- "[[tool-月白-AI生图与图生图决策法]]"
-- "[[tool-月白-AIGC餐饮海报优化一抽流]]"
-- "[[tool-月白-关键要素提取改图法]]"
-- "[[tool-月白-AI设计三段式里程碑流程]]"
+- '[[tool-月白-口喷式AIGC设计法]]'
+- '[[tool-月白-AI生图与图生图决策法]]'
+- '[[tool-月白-AIGC餐饮海报优化一抽流]]'
+- '[[tool-月白-关键要素提取改图法]]'
+- '[[tool-月白-AI设计三段式里程碑流程]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：一抽流改图法（自然语言精准许愿法）
 

@@ -1,31 +1,35 @@
 ---
 id: framework-yitang-case-crafting-four-step
-title: "案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达"
+title: 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
 type: framework
 status: draft
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - content-production
+- content-production
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-20"
-created_at: "2026-07-20"
-updated_at: "2026-07-20"
+review_date: '2026-07-20'
+created_at: '2026-07-20'
+updated_at: '2026-07-20'
 quality_labels:
-  - principle
-  - actionable
+- principle
+- actionable
 source_refs:
-  - "00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt"
-  - "00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt"
+- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt
+- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt
 related:
-  - framework-yitang-shishi-qiushi
-  - framework-yitang-nine-layer-deep-dig
-  - concept-yitang-case-jiejiaxiuzhen
-  - tool-yitang-case-fact-review-checklist
-  - dk-yitang-case-crafting-pitfalls
-  - framework-kdo-modeling-methodology
-  - framework-yitang-content-polish
+- framework-yitang-shishi-qiushi
+- framework-yitang-nine-layer-deep-dig
+- concept-yitang-case-jiejiaxiuzhen
+- tool-yitang-case-fact-review-checklist
+- dk-yitang-case-crafting-pitfalls
+- framework-kdo-modeling-methodology
+- framework-yitang-content-polish
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达

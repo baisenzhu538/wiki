@@ -20,6 +20,10 @@ related:
 - '[[method-kdo-agent-distillation]]'
 - '[[method-judge-skill-meta-evaluation]]'
 - '[[method-yihang-human-self-distillation]]'
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # KDO Agent 设计元方法：用双三角加速 Agent 建设

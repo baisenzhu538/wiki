@@ -24,13 +24,17 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-Token效价比决策公式]]"
-  - "[[tool-月白-最佳实践素材收集法]]"
-  - "[[tool-月白-RGB转CMYK印刷预检]]"
-  - "[[tool-月白-实物包装落地训练法]]"
-  - "[[tool-月白-正向反馈强化AI生成]]"
-  - "[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
-  - "[[tool-月白-纳米级抄大师训练法]]"
+- '[[tool-月白-Token效价比决策公式]]'
+- '[[tool-月白-最佳实践素材收集法]]'
+- '[[tool-月白-RGB转CMYK印刷预检]]'
+- '[[tool-月白-实物包装落地训练法]]'
+- '[[tool-月白-正向反馈强化AI生成]]'
+- '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
+- '[[tool-月白-纳米级抄大师训练法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：口述作图法（口喷设计）
 

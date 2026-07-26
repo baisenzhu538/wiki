@@ -18,13 +18,14 @@ source_refs:
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
-
-
-
 - '[[concept-ai-native-organization-five-steps]]'
 - business-research-skill-oscar-13-weapon-system
 - tool-yitang-amazon-bestseller
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 牲口而非宠物

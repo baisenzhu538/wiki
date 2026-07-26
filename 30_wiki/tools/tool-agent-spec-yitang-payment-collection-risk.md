@@ -40,6 +40,10 @@ tcp_default_mode: 咨询诊断（Consult）：基于合同阶段、付款节点�
 tcp_switch_trigger: 用户要求直接生成催款话术/跟进计划 → 切换为 P；用户要求解释四类决策逻辑 → 切换为 T；用户要求跨案例对比风险规律 →
   切换为 R
 tcp_session_opening: 我本次以 **C（Consult/咨询）** 身份与你协作：帮你诊断当前合同/项目的回款与履约风险，并给出下一步动作建议。涉及合同、付款、收入确认的判断需财务/法务复核。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 回款 / 履约风险预警 Agent Spec
 

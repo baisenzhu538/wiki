@@ -7,14 +7,18 @@ author: 老顽童
 reviewed_by: pending
 review_date: 2026-06-21
 created_at: 2026-06-21
-updated_at: "2026-06-30T16:07:51+00:00"
+updated_at: '2026-06-30T16:07:51+00:00'
 confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - strategy
+- strategy
 source_refs:
-  - "pending_archive:src_unknown"
+- pending_archive:src_unknown
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 # 差距分析
 

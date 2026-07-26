@@ -35,6 +35,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - insight
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # RAT生成器：从L5洞察自动生成最危险假设清单

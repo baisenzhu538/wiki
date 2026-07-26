@@ -25,6 +25,10 @@ related:
 - modeling-scientific-milestones
 - tool-纪浩-problem-validation-four-checks
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # Google Dorking：高级搜索语法
 

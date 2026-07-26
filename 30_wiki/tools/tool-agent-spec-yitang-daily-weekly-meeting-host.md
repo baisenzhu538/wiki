@@ -37,6 +37,10 @@ tcp_default_mode: 实践主持（Practice）：基于日报/周报/Pipeline 数�
 tcp_switch_trigger: 用户要求解释日会/周会定位差异 → 切换为 T；用户只给模糊数据 → 切换为 C，先诊断数据质量；用户要求复盘多周会议效率
   → 切换为 R
 tcp_session_opening: 我本次以 **P（Practice/实践）** 身份与你协作：帮你生成日会或周会的议程、Gap 分析和待办清单。请先告诉我会议类型、参会人和当前目标完成率数据。
+tags:
+- audience:manager
+- scene:execution
+- skill-level:intermediate
 ---
 # 日会 / 周会智能主持 Agent Spec
 

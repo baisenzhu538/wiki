@@ -16,10 +16,14 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-yihang-dual-triangle-team-assembly]]"
-- "[[concept-yihang-methodology-production-pipeline]]"
-- "[[concept-yihang-research-driven-company]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-yihang-dual-triangle-team-assembly]]'
+- '[[concept-yihang-methodology-production-pipeline]]'
+- '[[concept-yihang-research-driven-company]]'
+tags:
+- audience:manager
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # FDE 工程 × AI 原生组织——用双三角建中国风格 FD 工程师培养体系

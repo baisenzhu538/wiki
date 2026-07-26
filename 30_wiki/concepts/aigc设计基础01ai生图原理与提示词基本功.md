@@ -10,18 +10,21 @@ status: draft
 title: AIGC设计基础01：AI生图原理与提示词基本功
 type: concept
 updated_at: '2026-06-16'
-pipeline:
-
+pipeline: null
 author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 related:
-- "[[tool-月白-分层自洽海报生成法]]"
-- "[[tool-月白-AI设计严苛批评法]]"
-- "[[tool-月白-AIGC模型选型决策法]]"
-- "[[tool-月白-AI模型选择策略]]"
-- "[[tool-月白-精准提示词消除模型幻觉]]"
+- '[[tool-月白-分层自洽海报生成法]]'
+- '[[tool-月白-AI设计严苛批评法]]'
+- '[[tool-月白-AIGC模型选型决策法]]'
+- '[[tool-月白-AI模型选择策略]]'
+- '[[tool-月白-精准提示词消除模型幻觉]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:beginner
 ---
 # AIGC设计基础01：AI生图原理与提示词基本功
 

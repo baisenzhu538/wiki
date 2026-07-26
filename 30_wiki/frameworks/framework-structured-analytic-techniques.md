@@ -1,40 +1,43 @@
 ---
-id: "framework-structured-analytic-techniques"
-title: "结构化分析技术（SATs）总览"
-type: "framework"
+id: framework-structured-analytic-techniques
+title: 结构化分析技术（SATs）总览
+type: framework
 domain:
-  - "research"
-  - "strategy"
-  - "critical-thinking"
+- research
+- strategy
+- critical-thinking
 tags:
-  - "SATs"
-  - "结构化分析"
-  - "Heuer"
-  - "Pherson"
-  - "九层深挖"
-  - "交叉验证"
-source_person: "Richards J. Heuer Jr. + Randolph H. Pherson + Truman（一堂）"
-source_context: "SATs 文献综述 + 一堂九层深挖/交叉验证的 SATs 同构映射"
+- SATs
+- 结构化分析
+- Heuer
+- Pherson
+- 九层深挖
+- 交叉验证
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+source_person: Richards J. Heuer Jr. + Randolph H. Pherson + Truman（一堂）
+source_context: SATs 文献综述 + 一堂九层深挖/交叉验证的 SATs 同构映射
 source_refs:
-  - "60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md"
-  - "https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/"
+- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
+- https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/
 related:
-  - "[[framework-yitang-nine-layer-deep-dig]]"
-  - "[[yt-management-toolkit-overview]]"
-  - "[[tool-agent-native-overview]]"
-  - "[[tool-alt-data-overview]]"
+- '[[framework-yitang-nine-layer-deep-dig]]'
+- '[[yt-management-toolkit-overview]]'
+- '[[tool-agent-native-overview]]'
+- '[[tool-alt-data-overview]]'
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
+review_date: '2026-06-28'
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - validated
-created_at: "2026-06-28"
+- cited
+- insight
+- principle
+- validated
+created_at: '2026-06-28'
 updated_at: '2026-06-28'
 confidence: 0.78
-trust_level: "medium"
+trust_level: medium
 ---
 
 # 结构化分析技术（SATs）总览

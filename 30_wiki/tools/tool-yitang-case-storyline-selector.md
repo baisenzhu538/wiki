@@ -1,26 +1,30 @@
 ---
 id: tool-yitang-case-storyline-selector
-title: "案例故事线选择决策树：英雄之旅/难题攻坚/时间线"
+title: 案例故事线选择决策树：英雄之旅/难题攻坚/时间线
 type: tool
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - content-production
+- content-production
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-20"
-created_at: "2026-07-20"
-updated_at: "2026-07-20"
+review_date: '2026-07-20'
+created_at: '2026-07-20'
+updated_at: '2026-07-20'
 quality_labels:
-  - actionable
+- actionable
 source_refs:
-  - "00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt"
-  - "00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt"
+- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt
+- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt
 related:
-  - framework-yitang-case-crafting-four-step
-  - tool-yitang-case-fact-review-checklist
-  - dk-yitang-case-before-after
+- framework-yitang-case-crafting-four-step
+- tool-yitang-case-fact-review-checklist
+- dk-yitang-case-before-after
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 
 # 案例故事线选择决策树

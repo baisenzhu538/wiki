@@ -1,52 +1,55 @@
 ---
-id: "case-daxin-team-content-training-camp"
-title: "大馨战队短视频拆解训练营"
-type: "case"
+id: case-daxin-team-content-training-camp
+title: 大馨战队短视频拆解训练营
+type: case
 domain:
-  - "content-production"
-  - "knowledge-management"
-status: "reviewed"
+- content-production
+- knowledge-management
+status: reviewed
 confidence: 0.82
-difficulty: "intermediate"
-language: "zh-CN"
-created_at: 2026-06-30T15:02:38+00:00
-updated_at: 2026-06-30T15:23:37+00:00
-author: "老顽童"
-reviewed_by: "欧阳锋"
-review_date: "2026-06-30"
+difficulty: intermediate
+language: zh-CN
+created_at: 2026-06-30 15:02:38+00:00
+updated_at: 2026-06-30 15:23:37+00:00
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-30'
 source_refs:
-  - "00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md"
+- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 query_triggers:
-  - 大馨战队是怎么做短视频拆解的
-  - 拆解训练营的组织模式
-  - 短视频拆解群的失败模式
-  - 大航海开源群的案例
-  - 围观群为什么难以持续
+- 大馨战队是怎么做短视频拆解的
+- 拆解训练营的组织模式
+- 短视频拆解群的失败模式
+- 大航海开源群的案例
+- 围观群为什么难以持续
 aliases:
-  - daxin-team
-  - 大馨战队
-  - 短视频拆解训练营
+- daxin-team
+- 大馨战队
+- 短视频拆解训练营
 tags:
-  - "#scene/content-team"
-  - "#scene/community"
-  - "case-study"
+- '#scene/content-team'
+- '#scene/community'
+- case-study
+- audience:general
+- scene:reference
+- skill-level:intermediate
 quality_labels:
-  - cited
-  - validated
+- cited
+- validated
 related:
-  - "[[framework-founder-ip-three-positioning]]"
-  - "[[framework-brand-three-degree]]"
-  - "[[framework-content-business-six-step]]"
-  - "[[tool-shortvideo-six-dimension-deconstruction]]"
-  - "[[concept-open-source-knowledge-usage-boundary]]"
-  - "[[case-yitang-yitang-shortvideo-industrialization]]"
-  - "[[dk-content-muscle-memory-vs-knowledge]]"
-  - "[[dk-founding-ip-trust-over-traffic]]"
-  - "[[dk-content-implicit-value-without-price]]"
-  - "[[dk-community-lecturer-vs-crowd-model]]"
-  - "[[case-daxin-vikki-community-contrast]]"
+- '[[framework-founder-ip-three-positioning]]'
+- '[[framework-brand-three-degree]]'
+- '[[framework-content-business-six-step]]'
+- '[[tool-shortvideo-six-dimension-deconstruction]]'
+- '[[concept-open-source-knowledge-usage-boundary]]'
+- '[[case-yitang-yitang-shortvideo-industrialization]]'
+- '[[dk-content-muscle-memory-vs-knowledge]]'
+- '[[dk-founding-ip-trust-over-traffic]]'
+- '[[dk-content-implicit-value-without-price]]'
+- '[[dk-community-lecturer-vs-crowd-model]]'
+- '[[case-daxin-vikki-community-contrast]]'
 pipeline:
-  - "confidence-draft"
+- confidence-draft
 ---
 
 # 大馨战队短视频拆解训练营

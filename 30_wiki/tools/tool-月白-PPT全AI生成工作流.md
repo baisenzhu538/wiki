@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-AI生成电商白底图]]"
-- "[[tool-月白-官方提示词最佳实践迁移]]"
-- "[[tool-月白-AI模型选择策略]]"
-- "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
-- "[[tool-月白-三步作业反馈法]]"
+- '[[tool-月白-AI生成电商白底图]]'
+- '[[tool-月白-官方提示词最佳实践迁移]]'
+- '[[tool-月白-AI模型选择策略]]'
+- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
+- '[[tool-月白-三步作业反馈法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：PPT全AI生成工作流
 

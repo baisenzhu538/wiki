@@ -29,6 +29,10 @@ related:
 - '[[tool-agent-spec-yitang-kernel-verification-ladder]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 # 产品内核：不要过早细化未经思考的内核
 

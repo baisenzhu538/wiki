@@ -39,6 +39,10 @@ related:
 - '[[framework-wanghuan-gan-three-roles]]'
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - kdo-protocol-implementation-roadmap
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 剑桥小说家对 AI 创作态度调查
 

@@ -1,5 +1,4 @@
 ---
-
 id: framework-wanghuan-gan-three-roles
 title: 王欢GAN三角色架构：生成器/判别器/合成器
 type: framework
@@ -10,9 +9,9 @@ domain:
 - src_unknown
 - src_unknown
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -26,21 +25,21 @@ source_refs:
 - 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
-  - "[[dk-strategy-organization-strategy-mismatch]]"
-  - "[[xingangwan-pharma-business-model-formulas]]"
-  - "[[tool-yitang-ai-assisted-organize]]"
-  - "[[concept-ai-native-organization-five-steps]]"
-  - "[[case-cross-xingangwan-pharma]]"
-  - "[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]"
-  - "[[session-20260619-xingangwan-business-formula-reconstruction]]"
-  - "[[yt-model-y-organization]]"
-  - "[[xingangwan-pharma-business-model-calc]]"
-  - "[[xingangwan-pharma-business-formulas]]"
-  - "[[dk-lz-ai-native-organization]]"
-  - "[[framework-pan-product-organization]]"
-  - "[[framework-ai-deconstruction-methodology]]"
-  - "[[framework-ai2041-critical-reading-os]]"
-  - "[[framework-wanghuan-ooda-loop]]"
+- '[[dk-strategy-organization-strategy-mismatch]]'
+- '[[xingangwan-pharma-business-model-formulas]]'
+- '[[tool-yitang-ai-assisted-organize]]'
+- '[[concept-ai-native-organization-five-steps]]'
+- '[[case-cross-xingangwan-pharma]]'
+- '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+- '[[session-20260619-xingangwan-business-formula-reconstruction]]'
+- '[[yt-model-y-organization]]'
+- '[[xingangwan-pharma-business-model-calc]]'
+- '[[xingangwan-pharma-business-formulas]]'
+- '[[dk-lz-ai-native-organization]]'
+- '[[framework-pan-product-organization]]'
+- '[[framework-ai-deconstruction-methodology]]'
+- '[[framework-ai2041-critical-reading-os]]'
+- '[[framework-wanghuan-ooda-loop]]'
 tags:
 - src_unknown
 - src_unknown
@@ -49,6 +48,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 diagnostic_signals:
 - lens: 生成器能力到达瓶颈，需要引入异构评审视角
   follow_up: 检查是否已配置至少一个来自不同模型族/不同利益相关方的判别器
@@ -56,7 +58,6 @@ diagnostic_signals:
   follow_up: 引入更强的合成器模型或人工裁决，输出按优先级排序的修改清单
 - lens: 验收环节被AI模板化标准反噬
   follow_up: 加入人工终审红线，要求内容必须写给人看而非写给AI看
-
 ---
 
 # 王欢GAN三角色架构：生成器/判别器/合成器

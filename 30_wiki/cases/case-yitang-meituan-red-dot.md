@@ -28,6 +28,10 @@ related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[business-formula-domain-digest]]'
 - '[[case-yitang-burger-franchise-key-path]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 美团「意向优选」小红点：一个触点假设把APP活跃度提升30%-40%

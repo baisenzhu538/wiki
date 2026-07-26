@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-growth-acquisition-channels
@@ -18,11 +17,11 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[tool-区分获客渠道计算单元roi]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[tool-区分获客渠道计算单元roi]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 获客渠道——流量不够需要分析渠道结构
   follow_up_question: 你的流量来自哪些渠道？每个渠道的CAC和ROI是多少？
@@ -34,7 +33,10 @@ diagnostic_signals:
   follow_up_question: 这个渠道的用户是否匹配你的目标用户？转化漏斗哪里断了？
 - framework_lens: 获客渠道——低成本渠道有窗口期，需要快速规模化
   follow_up_question: 这个渠道的窗口期多长？能否快速规模化？竞品是否也在用？
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 获客渠道：流量获取的6大类型

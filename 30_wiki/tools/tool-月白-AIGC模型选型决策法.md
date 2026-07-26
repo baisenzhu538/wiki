@@ -30,6 +30,10 @@ related:
 - '[[tool-月白-AI设计三段式里程碑流程]]'
 - '[[tool-月白-AI设计严苛批评法]]'
 - aigc设计基础01ai生图原理与提示词基本功
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：AIGC模型选型决策法
 

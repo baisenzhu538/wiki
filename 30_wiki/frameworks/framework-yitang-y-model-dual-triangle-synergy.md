@@ -6,10 +6,10 @@ status: reviewed
 reviewed_by: 欧阳锋
 review_date: 2026-07-04
 domain:
-  - yitang
-  - decision-science
-  - ai-collaboration
-  - methodology
+- yitang
+- decision-science
+- ai-collaboration
+- methodology
 author: 老顽童
 confidence: 0.85
 trust_level: high
@@ -17,30 +17,34 @@ language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-08
 source_refs:
-  - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
-  - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
-  - 00_inbox/人机协作双三角/[【组织】贝壳找房案例口述.pdf
-  - 00_inbox/人机协作双三角/_processed/组织贝壳找房案例口述_text.md
-  - 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
+- 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
+- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+- 00_inbox/人机协作双三角/[【组织】贝壳找房案例口述.pdf
+- 00_inbox/人机协作双三角/_processed/组织贝壳找房案例口述_text.md
+- 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
 related:
-  - '[[yt-decision-y-model]]'
-  - '[[concept-yihang-dual-triangle-core]]'
-  - '[[framework-yitang-shishi-qiushi]]'
-  - '[[framework-yitang-jiefang-sixiang]]'
-  - '[[method-dual-triangle-flywheel-engine]]'
-  - '[[tool-yihang-dual-triangle-canvas]]'
-  - '[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]'
-  - '[[framework-taste-as-judgment-system]]'
-  - '[[dk-ai-builder-illusion]]'
-  - '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
-  - '[[tool-yitang-dual-triangle-domain-registry]]'
-  - '[[framework-business-formula-y-model-bridge]]'
-  - '[[framework-yihang-AI-native-dual-triangle-kernel]]'
-  - '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
-  - '[[framework-yitang-y-model-cross-domain-fusion]]'
+- '[[yt-decision-y-model]]'
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[framework-yitang-jiefang-sixiang]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
+- '[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]'
+- '[[framework-taste-as-judgment-system]]'
+- '[[dk-ai-builder-illusion]]'
+- '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
+- '[[tool-yitang-dual-triangle-domain-registry]]'
+- '[[framework-business-formula-y-model-bridge]]'
+- '[[framework-yihang-AI-native-dual-triangle-kernel]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[framework-yitang-y-model-cross-domain-fusion]]'
 aliases:
-  - Y模型双三角协同
-  - 双三角迭代发动机
+- Y模型双三角协同
+- 双三角迭代发动机
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # Y模型 × 双三角协同工作法

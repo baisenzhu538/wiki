@@ -3,10 +3,10 @@ id: yt-five-step-implementation
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
 quality_labels:
-  - actionable
-  - cited
-  - quality
-  - validated
+- actionable
+- cited
+- quality
+- validated
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
@@ -21,13 +21,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[yt-five-step-method]]"
-- "[[yt-demand-analysis-hiking-map]]"
-- "[[yt-product-kernel-cultivation]]"
-- "[[yt-unit-model-concept]]"
-- "[[yt-growth-cycle-model]]"
-- "[[yt-barrier-analysis-cheat-sheet]]"
-- "[[yt-five-step-common-pitfalls]]"
+- '[[yt-five-step-method]]'
+- '[[yt-demand-analysis-hiking-map]]'
+- '[[yt-product-kernel-cultivation]]'
+- '[[yt-unit-model-concept]]'
+- '[[yt-growth-cycle-model]]'
+- '[[yt-barrier-analysis-cheat-sheet]]'
+- '[[yt-five-step-common-pitfalls]]'
 review_date: 2026-06-11
 reviewed_by: 老顷童
 source_refs:
@@ -53,6 +53,10 @@ diagnostic_signals:
   follow_up_question: 5分钟内能把商业模式讲清楚吗？如果不能，不要急着定量
 updated_at: '2026-06-16'
 author: 老顽童
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 五步法落地实操：从故事版到分工版

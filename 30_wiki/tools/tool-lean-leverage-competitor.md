@@ -24,6 +24,10 @@ related:
 - framework-lean-four-principles
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 借同行产品：用竞品认知验证假设
 

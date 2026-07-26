@@ -25,6 +25,10 @@ related:
 - tool-yitang-research-industry-scan
 - tool-yitang-research-best-practice
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 差异化定位画布
 

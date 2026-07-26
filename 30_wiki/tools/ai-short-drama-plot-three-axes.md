@@ -19,10 +19,11 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.65
 related:
-- "[[ai-short-drama-conflict-three-axes]]"
+- '[[ai-short-drama-conflict-three-axes]]'
 tags:
-
-
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 第一板斧·极致对立
   follow_up_question: 主角与核心对手在身份、立场、价值观上是否有不可调和的对立？

@@ -17,11 +17,15 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-knowledge-data-decoupling]]"
-- "[[method-yihang-knowledge-battle-station]]"
-- "[[case-yihang-dual-triangle-ai-organizational-behavior]]"
-- "[[concept-yihang-research-driven-company]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-knowledge-data-decoupling]]'
+- '[[method-yihang-knowledge-battle-station]]'
+- '[[case-yihang-dual-triangle-ai-organizational-behavior]]'
+- '[[concept-yihang-research-driven-company]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 方法论生产流水线：一堂的"双面网络"——学员既是消费者也是生产者

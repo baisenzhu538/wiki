@@ -21,7 +21,7 @@ pipeline:
 - src_unknown
 author: 月白
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 confidence: 0.6
 trust_level: low
 related:
@@ -30,6 +30,10 @@ related:
 - tool-月白-AI设计严苛批评法
 - tool-月白-AI设计三段式里程碑流程
 - tool-月白-精准提示词消除模型幻觉
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：模型识别与边界测试法
 

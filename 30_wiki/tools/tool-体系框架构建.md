@@ -33,6 +33,10 @@ related:
 - '[[tool-费曼学习法三句话提炼]]'
 - '[[tool-专家访谈学习]]'
 - tool-mece体系框架法
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：体系框架构建
 

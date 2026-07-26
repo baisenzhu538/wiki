@@ -23,26 +23,30 @@ diagnostic_signals:
 - framework_lens: 公式停在L1/L2科目层
   follow_up_question: 你的公式拆到L3/L4可量化行为指标了吗？如果只停在营收/转化率这种科目层，无法指导行动
 related:
-- "[[一堂方法论体系总图]]"
-- "[[yitang-course-map]]"
-- "[[yt-system-course-catalog]]"
-- "[[framework-一堂-业务公式拆解-总纲]]"
-- "[[yt-business-formula-ten-paradigms]]"
+- '[[一堂方法论体系总图]]'
+- '[[yitang-course-map]]'
+- '[[yt-system-course-catalog]]'
+- '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[yt-business-formula-ten-paradigms]]'
 - yt-business-formula-six-level-logic
-- "[[concept-一堂-相关不等于因果]]"
-- "[[business-formula-domain-digest]]"
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-business-formula-six-level-logic]]"
+- '[[concept-一堂-相关不等于因果]]'
+- '[[business-formula-domain-digest]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-six-level-logic]]'
 updated_at: 2026-06-16
 id: yt-management-business-formula
 author: 老顽童
 reviewed_by: 欧阳锋
 quality_labels:
-  - cited
-  - principle
-  - validated
+- cited
+- principle
+- validated
 created_at: 2026-06-15
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 业务公式

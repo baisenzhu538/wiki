@@ -24,6 +24,10 @@ related:
 - '[[tool-模型组合调用]]'
 - framework-lean-four-principles
 - tool-strategy-five-see-three-set
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 **三件武器**：模型（框架思维）+图表（数据可视化）+假设验证（不凭直觉）
 **登高望远**：不是看竞对在做什么（太近），是看行业趋势和技术变革（更远）

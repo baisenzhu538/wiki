@@ -27,6 +27,10 @@ related:
 - '[[pending_unknown]]'
 - framework-strategy-lean-validation
 - '[[dk-tool-as-phased-validator]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 # 张磊 AMA：创业者 pivot 决策案例
 

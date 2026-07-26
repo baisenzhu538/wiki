@@ -3,33 +3,37 @@ id: four-questions-feedback
 title: 四问法自我反馈
 type: tool
 domain:
-  - learning-methodology
-  - personal-growth
-  - yitang
+- learning-methodology
+- personal-growth
+- yitang
 status: reviewed
 source_refs:
-  - "00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md"
+- 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
-  - "[[deliberate-practice-four-elements]]"
-  - "[[timely-feedback-loop]]"
-  - "[[ai-virtual-coach-prompt]]"
+- '[[deliberate-practice-four-elements]]'
+- '[[timely-feedback-loop]]'
+- '[[ai-virtual-coach-prompt]]'
 aliases:
-  - "四问法"
-  - "自我反馈四问法"
+- 四问法
+- 自我反馈四问法
 author: 老顽童
-created_at: "2026-06-28"
-updated_at: "2026-06-28"
+created_at: '2026-06-28'
+updated_at: '2026-06-28'
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋
-review_date: "2026-06-28"
+review_date: '2026-06-28'
 diagnostic_signals:
-  - signal: 用户说"不知道这次练得怎么样"
-    framework_lens: 缺少反馈机制
-    follow_up_question: "学完后你能不能回答四个问题：做对了什么？做错了什么？忘做了什么？下次怎么改进？"
-  - signal: 用户学完一个工具后没有复盘习惯
-    framework_lens: 需要最低成本反馈工具
-    follow_up_question: "能不能每次学习后用 10 分钟写四问法反馈？"
+- signal: 用户说"不知道这次练得怎么样"
+  framework_lens: 缺少反馈机制
+  follow_up_question: 学完后你能不能回答四个问题：做对了什么？做错了什么？忘做了什么？下次怎么改进？
+- signal: 用户学完一个工具后没有复盘习惯
+  framework_lens: 需要最低成本反馈工具
+  follow_up_question: 能不能每次学习后用 10 分钟写四问法反馈？
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 四问法自我反馈

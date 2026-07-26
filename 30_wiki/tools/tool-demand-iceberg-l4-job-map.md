@@ -27,6 +27,10 @@ related:
 - '[[tool-demand-micro-experience-script]]'
 - proposal-prompt-injection-infrastructure
 - business-research-skill-oscar-13-weapon-system
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # L4任务地图

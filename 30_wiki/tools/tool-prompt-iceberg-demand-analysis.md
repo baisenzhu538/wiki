@@ -19,6 +19,10 @@ related:
 - '[[yitang-domain-digest]]'
 - yt-business-formula-parameter-iceberg
 - yt-research-user-jtbd
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 # 冰山图 L1-L6 需求深挖
 

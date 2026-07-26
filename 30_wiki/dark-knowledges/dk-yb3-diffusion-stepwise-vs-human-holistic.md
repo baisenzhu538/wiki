@@ -1,5 +1,4 @@
 ---
-
 id: dk-yb3-diffusion-stepwise-vs-human-holistic
 title: AI生图'抽卡'本质：逐步拆解 vs 人类整体构思
 type: dk
@@ -14,12 +13,12 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - "[[tool-月白-AI图生图尺寸快速转换]]"
-  - "[[tool-月白-AI抽卡效率控制法]]"
-  - "[[tool-月白-AI生图与图生图决策法]]"
-  - "[[tool-月白-图生图产品替换与场景合成]]"
-  - "[[aigc设计基础01ai生图原理与提示词基本功]]"
-  - "[[tool-多模型对比抽卡]]"
+- '[[tool-月白-AI图生图尺寸快速转换]]'
+- '[[tool-月白-AI抽卡效率控制法]]'
+- '[[tool-月白-AI生图与图生图决策法]]'
+- '[[tool-月白-图生图产品替换与场景合成]]'
+- '[[aigc设计基础01ai生图原理与提示词基本功]]'
+- '[[tool-多模型对比抽卡]]'
 pipeline:
 - src_unknown
 author: 月白
@@ -34,7 +33,10 @@ diagnostic_signals:
   framework_lens: 工具选择错位——问题可能不在提示词质量，而在工具本身的架构局限
   follow_up_question: 同样的提示词在不同工具（MJ/SD/DALL-E）上效果是否一致？不一致说明是工具差异，不是提示词问题。# AI生图"抽卡"本质：逐步拆解
     vs 人类整体构思
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述

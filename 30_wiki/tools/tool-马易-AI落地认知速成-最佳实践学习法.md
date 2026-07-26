@@ -3,24 +3,28 @@ id: tool-马易-AI落地认知速成-最佳实践学习法
 title: 技能：AI落地认知速成-最佳实践学习法
 type: tool
 domain:
-  - ai-collaboration
-  - yitang
-  - ai-saas
+- ai-collaboration
+- yitang
+- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
-source_refs:
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-  - "[[tool-马易-深度沉浸需求挖掘]]"
-  - "[[tool-马易-AI能力团队复制]]"
-  - "[[tool-马易-痛点驱动的数字化]]"
-  - "[[tool-马易-数字员工FD拆解落地]]"
-  - "[[tool-马易-最小场景优先落地法]]"
+- '[[tool-马易-深度沉浸需求挖掘]]'
+- '[[tool-马易-AI能力团队复制]]'
+- '[[tool-马易-痛点驱动的数字化]]'
+- '[[tool-马易-数字员工FD拆解落地]]'
+- '[[tool-马易-最小场景优先落地法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 技能：AI落地认知速成-最佳实践学习法
 

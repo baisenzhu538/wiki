@@ -22,10 +22,10 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/龙虾和skills训练的口述_page004_vlm.md
 - 00_inbox/人机协作双三角/_processed/组织酒店行业AI标签案例口述_text.md
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-dual-triangle-three-stages-six-changes]]"
-- "[[agent-spec-dual-triangle-canvas-filler]]"
-- "[[method-dual-triangle-flywheel-engine]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-dual-triangle-three-stages-six-changes]]'
+- '[[agent-spec-dual-triangle-canvas-filler]]'
+- '[[method-dual-triangle-flywheel-engine]]'
 - '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
@@ -34,6 +34,10 @@ aliases:
 - 人机分工原则
 - AI组织行为学
 - 双三角分工法
+tags:
+- audience:manager
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 双三角人机分工与 AI 组织行为学

@@ -33,6 +33,10 @@ related:
 - '[[framework-lean-abcd-model]]'
 - case-panproduct-yitao-project-background
 review_date: '2026-06-28'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 增长飞轮设计工具：从业务要素到增强回路
 

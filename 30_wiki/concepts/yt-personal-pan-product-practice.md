@@ -17,11 +17,11 @@ query_triggers:
 - src_unknown实操篇：需求分析与用户洞察
 - src_unknown
 related:
-- "[[yt-model-pan-product-demand-toolkit]]"
-- "[[yt-personal-pan-product-concepts]]"
-- "[[一堂]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-personal-pan-product-concepts]]'
+- '[[一堂]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
@@ -48,6 +48,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 泛产品设计实操篇：需求分析与用户洞察

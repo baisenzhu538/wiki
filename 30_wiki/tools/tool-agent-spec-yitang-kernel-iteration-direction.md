@@ -31,6 +31,10 @@ related:
 - '[[tool-agent-spec-yitang-kernel-failure-mode-diagnosis]]'
 - '[[tool-agent-spec-yitang-kernel-three-questions]]'
 - '[[tool-agent-spec-yitang-kernel-verification-ladder]]'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 ---
 ## System Prompt 模板
 

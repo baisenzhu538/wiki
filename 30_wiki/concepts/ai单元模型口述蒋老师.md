@@ -1,15 +1,19 @@
 ---
 id: ai单元模型口述蒋老师
 related:
-  - "[[yt-unit-model-overview]]"
-  - "[[yt-unit-model-construction]]"
-  - "[[yt-unit-model-ladder]]"
-  - "[[yt-unit-model-dynamic]]"
-  - "[[yt-model-dual-triangle-competitiveness]]"
-  - "[[ai时代判断力口述-3]]"
-  - "[[yt-decision-y-model]]"
+- '[[yt-unit-model-overview]]'
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-ladder]]'
+- '[[yt-unit-model-dynamic]]'
+- '[[yt-model-dual-triangle-competitiveness]]'
+- '[[ai时代判断力口述-3]]'
+- '[[yt-decision-y-model]]'
 source_refs:
 - pending_archive: src_unknown
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > **一句话定位**：单元模型是商业可行性的最后一道防线——AI的角色不是替人算账，而是陪人拆解。人必须守住判断权。

@@ -17,6 +17,10 @@ updated_at: 2026-06-29
 related:
 - strategy-domain-digest
 - ai数据理解第一课
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 **轨迹**：全球光伏第一 → 行业进入绝望之谷 → 资金链断裂 → 外资低价收购。

@@ -1,27 +1,31 @@
 ---
 id: dk-利润-定价恐惧三段式反问
-title: "定价恐惧的三段式反问：价格上不去是因为创始人不敢"
+title: 定价恐惧的三段式反问：价格上不去是因为创始人不敢
 type: dk
 status: draft
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - profit-pricing
+- profit-pricing
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - actionable
-  - principle
+- actionable
+- principle
 source_refs:
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L2840-L2898"
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L2840-L2898
 related:
-  - concept-定价-价格杠杆
-  - concept-利润-风险报偿本质
-  - dk-利润-创始人利润耻感
-  - bridge-利润-需求冰山-价值定价
+- concept-定价-价格杠杆
+- concept-利润-风险报偿本质
+- dk-利润-创始人利润耻感
+- bridge-利润-需求冰山-价值定价
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 定价恐惧的三段式反问：价格上不去是因为创始人不敢

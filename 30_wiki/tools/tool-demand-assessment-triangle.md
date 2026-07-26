@@ -29,6 +29,10 @@ related:
 - yt-market-size-estimation
 - proposal-prompt-injection-infrastructure
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 需求评估三角形

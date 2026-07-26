@@ -26,6 +26,10 @@ diagnostic_signals:
   follow-up: 后续补全
 quality_labels:
 - actionable
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 # L1-L5 深度工作冰山模型
 

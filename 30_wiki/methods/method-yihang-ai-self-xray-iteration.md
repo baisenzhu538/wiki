@@ -17,12 +17,16 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-yihang-dual-triangle-ai-review]]"
-- "[[tool-yihang-dual-triangle-xray-deconstruct]]"
-- "[[framework-yihang-knowledge-data-decoupling]]"
-- "[[method-kdo-agent-design-meta]]"
-- "[[method-yihang-agent-hr-role]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-yihang-dual-triangle-ai-review]]'
+- '[[tool-yihang-dual-triangle-xray-deconstruct]]'
+- '[[framework-yihang-knowledge-data-decoupling]]'
+- '[[method-kdo-agent-design-meta]]'
+- '[[method-yihang-agent-hr-role]]'
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # AI 自我 X 光拆解：让 AI 在行动前主动暴露六要素盲区

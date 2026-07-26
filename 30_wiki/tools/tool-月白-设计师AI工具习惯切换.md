@@ -24,14 +24,18 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-最佳实践素材收集法]]"
-- "[[tool-月白-新手设计师基本功训练法]]"
-- "[[tool-月白-文创产品AI设计到生产的卡点预判]]"
-- "[[tool-月白-文创材质成本调研与精益选择]]"
-- "[[tool-月白-正向反馈强化AI生成]]"
-- "[[tool-strategy-blue-ocean-canvas]]"
-- "[[tool-strategy-industry-chain-analysis]]"
-- "[[tool-strategy-risk-management]]"
+- '[[tool-月白-最佳实践素材收集法]]'
+- '[[tool-月白-新手设计师基本功训练法]]'
+- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
+- '[[tool-月白-文创材质成本调研与精益选择]]'
+- '[[tool-月白-正向反馈强化AI生成]]'
+- '[[tool-strategy-blue-ocean-canvas]]'
+- '[[tool-strategy-industry-chain-analysis]]'
+- '[[tool-strategy-risk-management]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：设计师AI工具习惯切换

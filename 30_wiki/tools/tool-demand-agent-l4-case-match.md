@@ -32,6 +32,10 @@ related:
 - '[[case-demand-silver-parenting]]'
 - '[[case-demand-tier4-housekeeping]]'
 - '[[case-demand-travel-agent]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # Agent 做 L4：案例库自动检索匹配
 

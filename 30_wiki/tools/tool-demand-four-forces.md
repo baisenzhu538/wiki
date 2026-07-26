@@ -25,6 +25,10 @@ related:
 - proposal-prompt-injection-infrastructure
 - case-ai-agent-milestone-design
 updated_at: '2026-06-29'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 # 四种力量建模
 

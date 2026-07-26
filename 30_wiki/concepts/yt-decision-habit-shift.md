@@ -23,11 +23,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[yt-decision-canvas]]"
-- "[[yt-decision-y-model]]"
-- "[[yt-decision-depth-ladder]]"
-- "[[yt-decision-ai-partner]]"
-- "[[yt-management-team-knowledge]]"
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-y-model]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-ai-partner]]'
+- '[[yt-management-team-knowledge]]'
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched
@@ -57,6 +57,10 @@ diagnostic_signals:
 - framework_lens: 社会成本被低估——工具的使用受制于权力结构和组织文化，不是个人习惯问题
   follow_up_question: 在这个组织里，一个需要15分钟分析的决策，决策者通常有多少耐心？如果<5分钟，Y型工具需要改变使用场景（私下分析+公开汇报）
 author: 老顽童
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:intermediate
 ---
 
 # X型→Y型决策者习惯诊断与转换

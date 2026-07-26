@@ -1,5 +1,4 @@
 ---
-
 domain:
 - yitang
 id: yt-prompt-iterative-prompting
@@ -43,11 +42,15 @@ author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium-high
 related:
-  - "[[yt-model-prompt-engineering]]"
-  - "[[yt-prompt-anti-flattery]]"
-  - "[[yt-prompt-brainstorming]]"
-  - "[[yt-concept-context-engineering]]"
-  - "[[yitang-domain-digest]]"
+- '[[yt-model-prompt-engineering]]'
+- '[[yt-prompt-anti-flattery]]'
+- '[[yt-prompt-brainstorming]]'
+- '[[yt-concept-context-engineering]]'
+- '[[yitang-domain-digest]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 迭代式提示词工作流（5步法）

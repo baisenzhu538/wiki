@@ -22,14 +22,14 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[concept-最佳实践建模]]"
-- "[[数据标注维度最佳实践调研报告]]"
-- "[[tool-月白-最佳实践素材收集法]]"
-- "[[tool-月白-官方提示词最佳实践迁移]]"
-- "[[tool-马易-AI落地认知速成-最佳实践学习法]]"
-- "[[tool-最佳实践收集]]"
-- "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
-- "[[tool-Truman-知识库最佳实践构建]]"
+- '[[concept-最佳实践建模]]'
+- '[[数据标注维度最佳实践调研报告]]'
+- '[[tool-月白-最佳实践素材收集法]]'
+- '[[tool-月白-官方提示词最佳实践迁移]]'
+- '[[tool-马易-AI落地认知速成-最佳实践学习法]]'
+- '[[tool-最佳实践收集]]'
+- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
+- '[[tool-Truman-知识库最佳实践构建]]'
 review_by: 2026-12-06
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -55,6 +55,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 ## Summary

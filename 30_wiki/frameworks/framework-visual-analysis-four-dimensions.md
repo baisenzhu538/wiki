@@ -1,32 +1,36 @@
 ---
 id: framework-visual-analysis-four-dimensions
-title: "VA 四维法——从图片到结构化视觉分析的通用方法论"
+title: VA 四维法——从图片到结构化视觉分析的通用方法论
 type: framework
 status: draft
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - multimodal
-  - methodology
-  - visual-analysis
+- multimodal
+- methodology
+- visual-analysis
 author: 黄药师
 reviewed_by: 待审
-created_at: "2026-07-21"
-updated_at: "2026-07-21"
+created_at: '2026-07-21'
+updated_at: '2026-07-21'
 quality_labels:
-  - actionable
-  - principle
+- actionable
+- principle
 source_refs:
-  - 40_outputs/capabilities/role-profiles/hongqigong-profile.md
-  - 70_product/tasks/task-20260528-hongqigong-unit-model-va-and-articles.md
-  - 70_product/tasks/task-20260528-hongqigong-pitch-domain-va.md
-  - 70_product/tasks/task-20260523-hongqigong-va-and-articles.md
-  - 30_wiki/agent-specs/agent-spec-hongqigong-multimodal.md
+- 40_outputs/capabilities/role-profiles/hongqigong-profile.md
+- 70_product/tasks/task-20260528-hongqigong-unit-model-va-and-articles.md
+- 70_product/tasks/task-20260528-hongqigong-pitch-domain-va.md
+- 70_product/tasks/task-20260523-hongqigong-va-and-articles.md
+- 30_wiki/agent-specs/agent-spec-hongqigong-multimodal.md
 related:
-  - agent-spec-hongqigong-multimodal
-  - beikai-multimodal-pipeline
-  - vlm-image-describe-pipeline
-  - framework-kdo-modeling-methodology
+- agent-spec-hongqigong-multimodal
+- beikai-multimodal-pipeline
+- vlm-image-describe-pipeline
+- framework-kdo-modeling-methodology
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # VA 四维法——从图片到结构化视觉分析的通用方法论

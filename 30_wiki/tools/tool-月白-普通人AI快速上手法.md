@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-课程问题预埋法]]"
-- "[[tool-月白-三步作业反馈法]]"
-- "[[tool-月白-电商白底图生成与场景图匹配]]"
-- "[[tool-月白-用一堂方法论找最佳实践并拉满执行]]"
-- "[[tool-月白-灵感画布建立法]]"
+- '[[tool-月白-课程问题预埋法]]'
+- '[[tool-月白-三步作业反馈法]]'
+- '[[tool-月白-电商白底图生成与场景图匹配]]'
+- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
+- '[[tool-月白-灵感画布建立法]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：普通人AI快速上手法
 

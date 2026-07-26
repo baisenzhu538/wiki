@@ -15,6 +15,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:beginner
 created_at: '2026-06-16'
 updated_at: '2026-06-28'
 author: 张磊
@@ -24,9 +27,9 @@ review_date: '2026-06-16'
 confidence: 0.65
 trust_level: low
 related:
-  - "[[yt-lean-beauty-store-conversion]]"
-  - "[[yt-lean-daily-chemical-mvp]]"
-  - "[[yt-lean-flower-mom-group-leader]]"
+- '[[yt-lean-beauty-store-conversion]]'
+- '[[yt-lean-daily-chemical-mvp]]'
+- '[[yt-lean-flower-mom-group-leader]]'
 diagnostic_signals:
 - framework_lens: 未遵循"访谈调研→经验验证→实验验证"的成本递增顺序
   follow_up_question: 这个假设能否通过专家访谈或行业对标先排除？什么信息已经被他人验证过？

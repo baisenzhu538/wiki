@@ -24,11 +24,15 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-  - "[[tool-月白-小红书封面趋势判断法]]"
-  - "[[tool-月白-口喷作图工作流]]"
-  - "[[tool-月白-新手设计师基本功训练法]]"
-  - "[[tool-月白-文创产品AI设计到生产的卡点预判]]"
-  - "[[tool-月白-文创材质成本调研与精益选择]]"
+- '[[tool-月白-小红书封面趋势判断法]]'
+- '[[tool-月白-口喷作图工作流]]'
+- '[[tool-月白-新手设计师基本功训练法]]'
+- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
+- '[[tool-月白-文创材质成本调研与精益选择]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：小红书平台内容策略：从美图经济到沙雕梗图
 

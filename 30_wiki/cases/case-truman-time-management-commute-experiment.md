@@ -5,7 +5,7 @@ type: case
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-06-29"
+review_date: '2026-06-29'
 confidence: 0.82
 trust_level: medium
 language: zh-CN
@@ -30,6 +30,10 @@ related:
 - tool-yitang-Y-model-application
 created_at: 2026-07-04
 updated_at: '2026-07-04'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # Truman 通勤实验：用时间审计把「废时间」变成产能杠杆

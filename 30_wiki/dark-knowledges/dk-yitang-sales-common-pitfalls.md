@@ -17,6 +17,9 @@ tags:
 - '#yitang'
 - '#management'
 - '#pitfall'
+- audience:executor
+- scene:reference
+- skill-level:advanced
 trust_level: high
 reviewed_by: 欧阳锋
 related:

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-ai-assisted-analysis
 title: AI辅助分析：用AI做数据分析和模式识别
 type: tool
@@ -15,12 +14,16 @@ domain:
 - yitang
 - research
 source_refs:
-- "pending_archive:src_unknown"
+- pending_archive:src_unknown
 related:
-  - "[[yitang-domain-digest]]"
-  - "[[yitang-research-domain-digest]]"
-  - "[[tool-yitang-ai-assisted-organize]]"
-updated_at: "2026-06-30T16:07:51+00:00"
+- '[[yitang-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
+- '[[tool-yitang-ai-assisted-organize]]'
+updated_at: '2026-06-30T16:07:51+00:00'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # AI辅助分析

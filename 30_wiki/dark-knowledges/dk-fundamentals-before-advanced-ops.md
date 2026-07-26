@@ -19,9 +19,6 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
 - '[[framework-一堂-苦练基本功-总纲]]'
-
-
-
 bridges_to:
 - src_unknown-level-map
 author: 老顽童
@@ -43,6 +40,10 @@ quality_labels:
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 ## 原始表述 / 核心洞察
 

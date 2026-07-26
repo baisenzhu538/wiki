@@ -1,13 +1,12 @@
 ---
-
 id: case-cross-xingangwan-pharma
 title: 鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证
 type: case
 status: reviewed
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童
@@ -31,14 +30,18 @@ source_refs:
 - 30_wiki/entities/鑫港湾.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
-  - "[[framework-strategy-brm]]"
-  - "[[framework-lean-false-model]]"
-  - "[[framework-lean-abcd-model]]"
-  - "[[yt-decision-y-model]]"
-  - "[[yt-lean-assumption-prioritization]]"
-  - "[[framework-strategy-lean-validation]]"
-  - "[[yt-business-model-unit-economics]]"
-  - "[[framework-five-step-lean-interface]]"
+- '[[framework-strategy-brm]]'
+- '[[framework-lean-false-model]]'
+- '[[framework-lean-abcd-model]]'
+- '[[yt-decision-y-model]]'
+- '[[yt-lean-assumption-prioritization]]'
+- '[[framework-strategy-lean-validation]]'
+- '[[yt-business-model-unit-economics]]'
+- '[[framework-five-step-lean-interface]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证

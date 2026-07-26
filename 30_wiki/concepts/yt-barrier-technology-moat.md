@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
 related:
-  - "[[yt-barrier-brand-equity]]"
-  - "[[yt-barrier-culture-moat]]"
-  - "[[yt-barrier-data-assets]]"
+- '[[yt-barrier-brand-equity]]'
+- '[[yt-barrier-culture-moat]]'
+- '[[yt-barrier-data-assets]]'
 diagnostic_signals:
 - framework_lens: 技术护城河——技术领先≠持续领先，需要持续研发投入
   follow_up_question: 你的技术领先周期多长？研发投入占收入多少？专利布局如何？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 算法公开后，你的数据资产和工程能力是否构成壁垒？
 - framework_lens: 技术护城河——技术投入需要与商业目标对齐
   follow_up_question: 你的技术投入是否服务于商业目标？技术成果是否转化为产品或成本优势？
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:advanced
 ---
 
 # 技术护城河：专利与研发

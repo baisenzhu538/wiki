@@ -1,5 +1,4 @@
 ---
-
 domain:
 - src_unknown
 id: yt-product-kernel-key-conversion
@@ -18,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[tool-设定管理杠杆率指标评估效率]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[tool-设定管理杠杆率指标评估效率]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 diagnostic_signals:
 - framework_lens: 关键转化率——总用户数是虚荣指标，转化率才是核心
   follow_up_question: 从了解产品到选择产品的转化率是多少？这个数值健康吗？
@@ -32,7 +31,10 @@ diagnostic_signals:
   follow_up_question: 你的产品内核对应的北极星指标是什么？当前数值是多少？
 - framework_lens: 关键转化率——指标过多，无法聚焦
   follow_up_question: 如果只能看一个指标来判断内核健康度，你会选哪个？为什么？
-
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 关键转化率：产品内核的北极星指标

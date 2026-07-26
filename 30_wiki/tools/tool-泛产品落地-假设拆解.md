@@ -22,6 +22,10 @@ related:
 - '[[pending_unknown]]'
 - concept-X型Y型决策习惯
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 落地卡片：假设拆解
 

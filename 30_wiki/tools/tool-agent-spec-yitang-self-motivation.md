@@ -36,7 +36,6 @@ related:
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[tool-yitang-sales-performance-management]]'
 - '[[tool-agent-spec-yitang-opening-3min]]'
-
 - '[[framework-一堂-动力三曲线]]'
 - '[[tool-一堂-心理激励优先机制]]'
 created_at: 2026-07-02
@@ -45,6 +44,10 @@ tcp_role: P
 tcp_default_mode: 实践驱动（Practice）：把目标转化为最小可执行销售动作
 tcp_switch_trigger: 用户要求切换到教学模式（解释六维激励模型）、咨询模式（诊断动力不足根因）或研究模式（长期行为数据复盘）
 tcp_session_opening: 我本次以 **P（Practice/实践）** 身份与你协作：先帮你把目标拆解成本周最小动作，再推动你执行与复盘。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # OPC 销售自我驱动助手 Agent Spec
 

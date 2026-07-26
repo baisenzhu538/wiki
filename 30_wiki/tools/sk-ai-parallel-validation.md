@@ -1,5 +1,4 @@
 ---
-
 id: sk-ai-parallel-validation
 title: 技能：平行运行验证法
 type: tool
@@ -16,13 +15,13 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[tool-马易-需求创造验证法]]"
-  - "[[tool-纪浩-真需求四要素验证法]]"
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[tool-纪浩-里程碑验证法]]"
-  - "[[tool-纪浩-低成本输出验证法]]"
-  - "[[tool-马易-平台模式验证法]]"
-  - "[[tool-马易-AI落地四阶段验证法]]"
+- '[[tool-马易-需求创造验证法]]'
+- '[[tool-纪浩-真需求四要素验证法]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[tool-纪浩-里程碑验证法]]'
+- '[[tool-纪浩-低成本输出验证法]]'
+- '[[tool-马易-平台模式验证法]]'
+- '[[tool-马易-AI落地四阶段验证法]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -31,6 +30,9 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 created_at: '2026-06-06'
 updated_at: '2026-06-28'
 tools_required:
@@ -48,7 +50,6 @@ diagnostic_signals:
   follow_up: 后续补充至少1个真实业务案例或外部标杆
 - lens: 失败模式粗糙
   follow_up: 已表格化为症状-根因-修复三段式
-
 ---
 
 # 技能：平行运行验证法

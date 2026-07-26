@@ -25,13 +25,17 @@ reviewed_at: '2026-07-04'
 confidence: 0.6
 trust_level: low
 related:
-- "[[tool-月白-多窗口并行工作法]]"
-- "[[tool-月白-AI图片风格逆向提取（抄图法）]]"
-- "[[tool-月白-餐饮海报AB测试法]]"
-- "[[tool-月白-AI图片去文字处理]]"
-- "[[tool-月白-眼高手低训练法]]"
-- "[[tool-月白-AI电商图人工过审处理]]"
-- "[[tool-月白-图像信息逆向解析训练]]"
+- '[[tool-月白-多窗口并行工作法]]'
+- '[[tool-月白-AI图片风格逆向提取（抄图法）]]'
+- '[[tool-月白-餐饮海报AB测试法]]'
+- '[[tool-月白-AI图片去文字处理]]'
+- '[[tool-月白-眼高手低训练法]]'
+- '[[tool-月白-AI电商图人工过审处理]]'
+- '[[tool-月白-图像信息逆向解析训练]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 
 # 技能：产品反光修复术

@@ -1,5 +1,4 @@
 ---
-
 id: dk-decision-when-to-defer
 title: 何时应该推迟决策
 type: dk
@@ -8,8 +7,8 @@ domain:
 - yitang
 status: reviewed
 quality_labels:
-  - cited
-  - validated
+- cited
+- validated
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童
@@ -20,15 +19,19 @@ trust_level: medium
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
-  - "[[framework-decision-quality-checklist]]"
-  - "[[framework-decision-cognitive-bias-map]]"
-  - "[[dk-你的业务是一次抽样实验]]"
-  - "[[dk-决策经验值]]"
-  - "[[concept-稀缺机会窗口]]"
-  - "[[case-科学决策-深度案例03]]"
-  - "[[framework-lean-false-model]]"
-  - "[[concept-AI时代双三角竞争力]]"
-  - "[[master-decision-hygiene]]"
+- '[[framework-decision-quality-checklist]]'
+- '[[framework-decision-cognitive-bias-map]]'
+- '[[dk-你的业务是一次抽样实验]]'
+- '[[dk-决策经验值]]'
+- '[[concept-稀缺机会窗口]]'
+- '[[case-科学决策-深度案例03]]'
+- '[[framework-lean-false-model]]'
+- '[[concept-AI时代双三角竞争力]]'
+- '[[master-decision-hygiene]]'
+tags:
+- audience:ceo
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 何时应该推迟决策

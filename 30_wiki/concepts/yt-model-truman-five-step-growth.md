@@ -1,28 +1,27 @@
 ---
-
 domain:
-  - modeling
-
+- modeling
 id: yt-model-truman-five-step-growth
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: advanced
 language: zh-CN
 query_triggers:
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-  - src_unknown
-reviewed_by: "黄药师"
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+- src_unknown
+reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
-  - pending_archive:src_20260522_074c72ae-ocr-truman的个人成长五步法
-  - src_20260522_074c72ae-ocr-truman的个人成长五步法
-source_refs:
-  - pending_archive:src_20260522_074c72ae-ocr-truman的个人成长五步法
+- pending_archive:src_20260522_074c72ae-ocr-truman的个人成长五步法
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # Truman的个人成长五步法：用一页纸解释全部人生规划
 

@@ -1,6 +1,4 @@
 ---
-
-
 id: process-modeling
 title: 流程建模：用 SOP 与清单把经验变成稳定产出
 type: tool
@@ -19,9 +17,9 @@ source_refs:
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 created_at: '2026-06-14'
 quality_labels:
-  - actionable
-  - cited
-  - validated
+- actionable
+- cited
+- validated
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -29,13 +27,16 @@ review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.78
 related:
-  - "[[modeling-capability-system]]"
-  - "[[modeling-three-stages]]"
-  - "[[modeling-level-map]]"
-  - "[[modeling-weapon-library]]"
-  - "[[framework-kdo-self-attack]]"
-  - "[[yitang-domain-digest]]"
-tags: []
+- '[[modeling-capability-system]]'
+- '[[modeling-three-stages]]'
+- '[[modeling-level-map]]'
+- '[[modeling-weapon-library]]'
+- '[[framework-kdo-self-attack]]'
+- '[[yitang-domain-digest]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 diagnostic_signals:
 - framework_lens: 流程建模
   follow_up_question: 这个任务有没有 3 次以上重复发生？失败成本是什么？
@@ -45,7 +46,6 @@ diagnostic_signals:
   follow_up_question: 你是否给 SOP 的执行加了监督和检查机制？
 - framework_lens: 分解 × 锁 × 边界 × 迭代
   follow_up_question: 这个输出是否已拆到可检查步骤？关键节点是否有锁？边界是否写明？是否有迭代触发器？
-
 ---
 
 # 流程建模：用 SOP 与清单把经验变成稳定产出

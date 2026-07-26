@@ -21,11 +21,11 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-跨行业速解工业级难题_vlm.md
 - https://www.polarismarketresearch.com/industry-analysis/synthetic-data-generation-market
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
-- "[[method-dual-triangle-human-ai-division]]"
-- "[[tool-yihang-dual-triangle-canvas]]"
-- "[[case-yihang-dual-triangle-beike-ai-outbound]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
+- '[[method-dual-triangle-human-ai-division]]'
+- '[[tool-yihang-dual-triangle-canvas]]'
+- '[[case-yihang-dual-triangle-beike-ai-outbound]]'
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
 - '[[case-kdo-agent-factory-dual-triangle-practice]]'
@@ -35,6 +35,10 @@ related:
 aliases:
 - 花总案例
 - 合成数据案例
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 一行双三角案例：花总让 AI 先造数据破解工业级难题

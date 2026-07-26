@@ -32,6 +32,10 @@ quality_labels:
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 李开复 80% 概率过滤器

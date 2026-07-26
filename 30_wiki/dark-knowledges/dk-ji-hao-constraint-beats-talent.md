@@ -1,5 +1,4 @@
 ---
-
 id: dk-ji-hao-constraint-beats-talent
 title: 暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计
 type: dk
@@ -16,17 +15,15 @@ source_refs:
 created_at: 2026-06-09
 updated_at: 2026-06-28
 related:
-  - "[[dk-ji-hao-ai-cant-design-structure]]"
-  - "[[dk-wanghuan-spec-trap]]"
-  - "[[dk-wanghuan-output-equals-standard-times-iteration]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[yitang-domain-digest]]"
-wiki_refs:
-
-pipeline:
-
+- '[[dk-ji-hao-ai-cant-design-structure]]'
+- '[[dk-wanghuan-spec-trap]]'
+- '[[dk-wanghuan-output-equals-standard-times-iteration]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
+wiki_refs: null
+pipeline: null
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -38,7 +35,10 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 标准化/可复用中间产物
   follow_up: 是否已经存在一份共享约束文档，并被当作迭代的基线？
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 暗知识：约束的力量

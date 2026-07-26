@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-名利权情动力法
 title: 一堂名利权情动力法：名 / 利 / 权 / 情 四张内驱牌
 type: tool
@@ -42,6 +41,10 @@ related:
 quality_labels:
 - cited
 - actionable
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 一堂名利权情动力法：名 / 利 / 权 / 情 四张内驱牌

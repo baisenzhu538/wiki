@@ -1,5 +1,4 @@
 ---
-
 id: tool-strategy-12-word-test
 title: 12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略
 type: tool
@@ -9,11 +8,15 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-  - strategy
+- strategy
 source_refs:
-  - "pending_archive:src_unknown"
+- pending_archive:src_unknown
 reviewed_by: pending
-updated_at: "2026-06-30T16:07:51+00:00"
+updated_at: '2026-06-30T16:07:51+00:00'
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 
 # 12 词战略测试

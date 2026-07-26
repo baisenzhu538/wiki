@@ -41,6 +41,10 @@ diagnostic_signals:
 quality_labels:
 - actionable
 - principle
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 
 # 灵感闪现五字诀：压 / 看 / 聚 / 拆 / 再

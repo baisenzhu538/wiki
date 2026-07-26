@@ -24,15 +24,15 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-- "[[tool-制作行业化要素检查清单]]"
-- "[[tool-月白-供应商信息对齐清单法]]"
-- "[[tool-月白-设计师AI工具习惯切换]]"
-- "[[tool-泛产品设计-需求工具箱指南]]"
-- "[[tool-Truman-AI工具选型决策]]"
-- "[[tool-稀缺资源清单]]"
-- "[[轻量级诊所HIS调研全清单]]"
-- "[[tool-清单小抄工具箱法]]"
-- "[[tool-月白-工厂对接信息清单制作]]"
+- '[[tool-制作行业化要素检查清单]]'
+- '[[tool-月白-供应商信息对齐清单法]]'
+- '[[tool-月白-设计师AI工具习惯切换]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[tool-Truman-AI工具选型决策]]'
+- '[[tool-稀缺资源清单]]'
+- '[[轻量级诊所HIS调研全清单]]'
+- '[[tool-清单小抄工具箱法]]'
+- '[[tool-月白-工厂对接信息清单制作]]'
 source_refs:
 - 10_raw/sources/src_20260614_9ca806cd-theme-yitang-methodology-summary.md
 status: reviewed
@@ -85,6 +85,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 周伯通
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 宽度分析工具：列推建查四步法+三层盲区清单

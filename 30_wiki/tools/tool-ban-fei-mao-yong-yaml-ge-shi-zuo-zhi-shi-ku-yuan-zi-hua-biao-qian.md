@@ -1,5 +1,4 @@
 ---
-
 id: tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian
 title: 技能：用 YAML 格式做知识库原子化标签
 type: tool
@@ -11,29 +10,30 @@ source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
-tools_required:
-
-prerequisite_skills:
+tools_required: null
+prerequisite_skills: null
 related:
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[dk-p19-quote-yaml]]"
-  - "[[kdo-yaml-frontmatter-safety]]"
-  - "[[dk-p18-yaml-parser]]"
-  - "[[proposal-yaml-frontmatter-standardization]]"
-  - "[[dk-f13-handwritten-yaml-parser]]"
-  - "[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]"
-  - "[[tool-半肥猫-课程Skill化的八步工作流]]"
+- '[[ai-collaboration-domain-digest]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[dk-p19-quote-yaml]]'
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[dk-p18-yaml-parser]]'
+- '[[proposal-yaml-frontmatter-standardization]]'
+- '[[dk-f13-handwritten-yaml-parser]]'
+- '[[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]'
+- '[[tool-半肥猫-课程Skill化的八步工作流]]'
 created_at: 2026-06-07
 reviewed_by: 欧阳锋
 updated_at: '2026-06-19'
 author: 半肥猫
 confidence: 0.88
 trust_level: medium
-diagnostic_signals:
-
-pipeline:
-
+diagnostic_signals: null
+pipeline: null
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：用 YAML 格式做知识库原子化标签

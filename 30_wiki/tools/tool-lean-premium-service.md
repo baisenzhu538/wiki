@@ -16,16 +16,20 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212224_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212224_vlm_desc.md
 related:
-- "[[case-lean-electric-scooter-mvp]]"
-- "[[strategy-domain-digest]]"
-- "[[yitang-domain-digest]]"
-- "[[pending_unknown]]"
-- "[[pending_unknown]]"
-- "[[tool-lean-fake-marketing]]"
-- "[[tool-lean-fake-product]]"
-- "[[tool-lean-human-replace-system]]"
+- '[[case-lean-electric-scooter-mvp]]'
+- '[[strategy-domain-digest]]'
+- '[[yitang-domain-digest]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[tool-lean-fake-marketing]]'
+- '[[tool-lean-fake-product]]'
+- '[[tool-lean-human-replace-system]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 超值服务：用 VIP 服务验证标准服务

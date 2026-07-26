@@ -1,29 +1,33 @@
 ---
 id: dk-管控vs协同执行策略
-title: "管控 vs 协同：目标执行的二元选择框架"
+title: 管控 vs 协同：目标执行的二元选择框架
 type: dk
 status: draft
 confidence: 0.87
 trust_level: high
 domain:
-  - management
+- management
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - actionable
+- insight
+- actionable
 source_refs:
-  - "00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §5.1"
-  - "00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L802-L928"
+- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §5.1
+- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L802-L928
 related:
-  - framework-目标三层拆解
-  - concept-目标-北极星型vs探索型
-  - yt-management-goal-management
-  - dk-目标管理四大病
-  - management-domain-digest
+- framework-目标三层拆解
+- concept-目标-北极星型vs探索型
+- yt-management-goal-management
+- dk-目标管理四大病
+- management-domain-digest
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 管控 vs 协同：目标执行的二元选择框架

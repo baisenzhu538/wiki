@@ -1,6 +1,4 @@
 ---
-
-
 id: tool-strategy-three-horizons
 title: 三个地平线：现金流（现在）/增长（1-3年）/种子（3-5年）
 type: tool
@@ -13,10 +11,14 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-  - strategy
+- strategy
 source_refs:
-  - "pending_archive:src_unknown"
-updated_at: "2026-06-30T16:07:51+00:00"
+- pending_archive:src_unknown
+updated_at: '2026-06-30T16:07:51+00:00'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 三个地平线
 

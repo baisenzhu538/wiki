@@ -25,6 +25,10 @@ related:
 - '[[pending_unknown]]'
 - tool-ai-prd-for-ai
 updated_at: '2026-06-29'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # 武器库策略5：内部人情报
 

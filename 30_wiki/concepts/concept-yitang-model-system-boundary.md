@@ -5,7 +5,7 @@ type: concept
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -21,10 +21,14 @@ source_refs:
 - 60_feedback/extractions/extraction-kexue-linian-y-model.md
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
 related:
-- "[[yt-decision-y-model]]"
-- "[[framework-yitang-shishi-qiushi]]"
-- "[[method-yitang-y-model-engine-cycle]]"
-- "[[tool-yitang-method-ab-sides-checklist]]"
+- '[[yt-decision-y-model]]'
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+- '[[tool-yitang-method-ab-sides-checklist]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 体系与模型边界：每个模型都有内涵、成本和适用域

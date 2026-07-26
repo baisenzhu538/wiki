@@ -15,13 +15,8 @@ source_person: 一堂课程
 source_context: src_20260609_44a9e79a
 source_refs:
 - 10_raw/sources/src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要.md
-definition_of_done:
-
-
-tools_required:
-
-
-
+definition_of_done: null
+tools_required: null
 created_at: '2026-06-09T15:09:00+00:00'
 updated_at: '2026-06-29'
 author: 老顽童
@@ -35,6 +30,10 @@ related:
 - '[[tool-ai辅助学习]]'
 - '[[tool-将未中标成本纳入循环计算真实投标成本]]'
 - tool-ai-prd-for-ai
+tags:
+- audience:executor
+- scene:execution
+- skill-level:beginner
 ---
 # 技能：六维窗口期扫描法
 

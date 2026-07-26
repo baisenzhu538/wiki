@@ -1,27 +1,31 @@
 ---
 id: dk-yitang-case-crafting-pitfalls
-title: "案例打磨五大失败模式：空/散/浅/听不进/包装感"
+title: 案例打磨五大失败模式：空/散/浅/听不进/包装感
 type: dk
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - content-production
+- content-production
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-20"
-created_at: "2026-07-20"
-updated_at: "2026-07-20"
+review_date: '2026-07-20'
+created_at: '2026-07-20'
+updated_at: '2026-07-20'
 quality_labels:
-  - insight
+- insight
 source_refs:
-  - "00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt"
-  - "00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt"
+- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt
+- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt
 related:
-  - framework-yitang-case-crafting-four-step
-  - tool-yitang-case-fact-review-checklist
-  - concept-yitang-case-jiejiaxiuzhen
-  - dk-yitang-case-before-after
+- framework-yitang-case-crafting-four-step
+- tool-yitang-case-fact-review-checklist
+- concept-yitang-case-jiejiaxiuzhen
+- dk-yitang-case-before-after
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 案例打磨五大失败模式

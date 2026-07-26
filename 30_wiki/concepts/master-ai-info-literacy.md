@@ -18,13 +18,16 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 related:
-- "[[master-cognitive-bias-checklist]]"
-- "[[master-decision-hygiene]]"
-- "[[master-first-principles]]"
-- "[[master-systems-thinking]]"
-- "[[master-antifragile-checklist]]"
-- "[[master-knowledge-compound]]"
-
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-decision-hygiene]]'
+- '[[master-first-principles]]'
+- '[[master-systems-thinking]]'
+- '[[master-antifragile-checklist]]'
+- '[[master-knowledge-compound]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 

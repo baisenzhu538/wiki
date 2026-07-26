@@ -5,7 +5,7 @@ type: case
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.82
 trust_level: medium
 language: zh-CN
@@ -18,8 +18,12 @@ source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
 related:
-- "[[framework-yitang-shishi-qiushi]]"
-- "[[tool-yitang-quantitative-research-checklist]]"
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[tool-yitang-quantitative-research-checklist]]'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 案例：在线教育融资扩张——不会定量的代价

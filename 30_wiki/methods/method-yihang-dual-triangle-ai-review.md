@@ -17,14 +17,18 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-dual-triangle-flywheel-engine]]"
-- "[[dk-ai-collaboration-degradation-spiral]]"
-- "[[method-yitang-y-model-engine-cycle]]"
-- "[[method-kdo-agent-distillation]]"
-- "[[method-yihang-agent-hr-role]]"
-- "[[method-yihang-ai-self-xray-iteration]]"
-- "[[method-yihang-human-self-distillation]]"
+- '[[concept-yihang-dual-triangle-core]]'
+- '[[method-dual-triangle-flywheel-engine]]'
+- '[[dk-ai-collaboration-degradation-spiral]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+- '[[method-kdo-agent-distillation]]'
+- '[[method-yihang-agent-hr-role]]'
+- '[[method-yihang-ai-self-xray-iteration]]'
+- '[[method-yihang-human-self-distillation]]'
+tags:
+- audience:general
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 # 双三角 AI 辅助复盘法：让 AI 拆解你自己的协作过程

@@ -17,9 +17,9 @@ author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
 related:
-  - "[[yt-product-kernel-shampoo-case]]"
-  - "[[yt-product-kernel-add-subtract]]"
-  - "[[yt-product-kernel-aesthetic]]"
+- '[[yt-product-kernel-shampoo-case]]'
+- '[[yt-product-kernel-add-subtract]]'
+- '[[yt-product-kernel-aesthetic]]'
 diagnostic_signals:
 - framework_lens: 内核演化——内核需要随市场演化
   follow_up_question: 你的内核从V1到现在变化过吗？如果市场变化，内核是否需要调整？
@@ -31,6 +31,10 @@ diagnostic_signals:
   follow_up_question: 新内核是否兼容老用户需求？老用户如何迁移到新内核？
 - framework_lens: 内核演化——演化方向需要团队共识
   follow_up_question: 你们团队对内核演化方向有共识吗？是基于数据还是主观判断？
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 内核演化：从V1到Vn

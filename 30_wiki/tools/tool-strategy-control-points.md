@@ -27,6 +27,10 @@ related:
 - '[[tool-模型组合调用]]'
 - yt-tool-unit-model-dynamic
 - case-ether-online-acquisition
+tags:
+- audience:ceo
+- scene:execution
+- skill-level:advanced
 ---
 # 战略控制点设计工具：价值定位模型
 

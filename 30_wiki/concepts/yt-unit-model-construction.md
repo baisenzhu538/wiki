@@ -1,5 +1,4 @@
 ---
-
 id: yt-unit-model-construction
 confidence: 0.89
 created_at: 2026-05-24
@@ -20,12 +19,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 related:
-  - "[[yt-unit-model-selection]]"
-  - "[[yt-unit-model-benchmark]]"
-  - "[[yt-unit-model-dynamic]]"
-  - "[[yt-unit-model-ladder]]"
-  - "[[yt-entrepreneur-five-step-method]]"
-  - "[[yt-decision-y-model]]"
+- '[[yt-unit-model-selection]]'
+- '[[yt-unit-model-benchmark]]'
+- '[[yt-unit-model-dynamic]]'
+- '[[yt-unit-model-ladder]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-decision-y-model]]'
 source_refs:
 - 10_raw/sources/一堂-单元模型02口述_cleaned.md
 - 10_raw/sources/src_20260609_07b851fb-ocr-一堂-单元模型-abcd策略模型.md
@@ -62,7 +61,10 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 单元模型构建法：拆推评算与ABCD模型分类

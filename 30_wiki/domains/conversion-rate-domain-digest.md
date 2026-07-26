@@ -110,6 +110,10 @@ related:
 - '[[tool-agent-spec-yitang-sales-toolkit-gap]]'
 - '[[tool-agent-spec-yitang-incentive-design]]'
 - '[[tool-agent-spec-yitang-lead-funnel-health]]'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 ---
 # 域摘要：一堂转化率黑客（D 域）
 

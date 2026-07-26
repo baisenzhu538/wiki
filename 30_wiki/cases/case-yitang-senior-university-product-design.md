@@ -22,6 +22,10 @@ related:
 - concept-yitang-research-objective
 - case-opc-agent-wave1-real-model-testing
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # 案例：老年大学——用假设链验证赛道
 

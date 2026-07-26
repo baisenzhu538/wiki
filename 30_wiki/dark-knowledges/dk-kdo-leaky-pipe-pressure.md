@@ -1,7 +1,6 @@
 ---
-
 id: dk-kdo-leaky-pipe-pressure
-title: "暗知识：在漏水的管子上加压——基础链路没跑通时，硬门禁不是质量控制，而是流程卡死"
+title: 暗知识：在漏水的管子上加压——基础链路没跑通时，硬门禁不是质量控制，而是流程卡死
 type: dk
 dark_knowledge_type: anti-pattern
 status: reviewed
@@ -11,25 +10,28 @@ domain:
 source_person: 黄药师
 source_context: KDO EC工业化迁移提案讨论，第二十二节批次4精修，2026-06-17
 source_refs:
-  - src_unknown
+- src_unknown
 confidence: 0.88
 trust_level: medium
 related:
-- "[[kdo-ec-industrialization-migration-proposal]]"
-- "[[knowledge-delivery-os-快速体验指南-飞书云文档]]"
-- "[[sprint-2-gate-enrich-evidence]]"
-- "[[plan_20260503_f3e9a2b1-improvement-plan]]"
-- "[[dk-f10-broken-source-refs]]"
-- "[[kdo-ec-industrialization-migration-proposal]]"
-- "[[modeling-capability-for-kdo]]"
-- "[[dk-f7-surface-translation]]"
-- "[[dk-c8-format-complete-mind-empty]]"
-- "[[kdo-priority-checklist]]"
+- '[[kdo-ec-industrialization-migration-proposal]]'
+- '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+- '[[sprint-2-gate-enrich-evidence]]'
+- '[[plan_20260503_f3e9a2b1-improvement-plan]]'
+- '[[dk-f10-broken-source-refs]]'
+- '[[kdo-ec-industrialization-migration-proposal]]'
+- '[[modeling-capability-for-kdo]]'
+- '[[dk-f7-surface-translation]]'
+- '[[dk-c8-format-complete-mind-empty]]'
+- '[[kdo-priority-checklist]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
@@ -41,13 +43,15 @@ diagnostic_signals:
   follow_up_question: 先列出当前管线的基础链路指标（broken links 数、source 缺失率、artifact validate 通过率），这些归零之前，高级功能讨论暂停。
 - signal: src_unknown
   framework_lens: 在漏水处加压——lint 规则本身依赖不完整数据，规则越严误报越多
-  follow_up_question: 暂停新增 lint 规则。先修好导致数据不完整的根源（ingest 跳过、source 缺失、frontmatter 残缺），再评估需要哪些 lint。
+  follow_up_question: 暂停新增 lint 规则。先修好导致数据不完整的根源（ingest 跳过、source 缺失、frontmatter 残缺），再评估需要哪些
+    lint。
 - signal: src_unknown
   framework_lens: 绕过根因分析——被跳过说明该环节成本太高或价值不清晰，硬加审批只是把阻力的皮球踢给别人
   follow_up_question: 统计该环节的跳过率和跳过原因。如果是"太慢"，优化自动化；如果是"不知道要做什么"，先做最小可用模板。
 - signal: src_unknown
   framework_lens: 政策前置于基建——在没有干净数据的情况下定义标准，如在没有地基的沙地上画建筑图
-  follow_up_question: 暂停门禁标准讨论。用一周集中修复 status 漂移、dangling links 和 source 缺失。修完后再看需要什么门禁。# 暗知识：在漏水的管子上加压
+  follow_up_question: 暂停门禁标准讨论。用一周集中修复 status 漂移、dangling links 和 source 缺失。修完后再看需要什么门禁。#
+    暗知识：在漏水的管子上加压
 ---
 > 基础链路没跑通时，硬门禁不是质量控制，而是流程卡死。更多控制 ≠ 更高质量。
 

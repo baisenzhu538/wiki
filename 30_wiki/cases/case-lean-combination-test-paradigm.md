@@ -29,6 +29,10 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
 - case-shampoo-product-kernel
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 # 组合测试范式实操案例
 

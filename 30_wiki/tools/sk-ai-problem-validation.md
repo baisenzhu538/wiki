@@ -1,5 +1,4 @@
 ---
-
 id: sk-ai-problem-validation
 title: 技能：问题验证三维度法
 type: tool
@@ -11,31 +10,24 @@ source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
-wiki_refs:
-
-definition_of_done:
-
-
+wiki_refs: null
+definition_of_done: null
 tags:
-
-
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
-tools_required:
-
+tools_required: null
 prerequisite_skills: []
 related:
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  
-  
-  
+- '[[ai-collaboration-domain-digest]]'
+- '[[tool-纪浩-Agent技能市场设计法]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
-diagnostic_signals:
-
+diagnostic_signals: null
 ---
 
 # 技能：问题验证三维度法

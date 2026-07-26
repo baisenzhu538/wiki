@@ -38,6 +38,9 @@ tags:
 - 事后合理化
 - 方法论诚实
 - 框架偏见
+- audience:executor
+- scene:reference
+- skill-level:advanced
 query_triggers:
 - 复盘结构
 - 事后框架

@@ -38,6 +38,10 @@ tcp_default_mode: 实践共创（Practice）：基于通话数据和当前话术
 tcp_switch_trigger: 用户要求解释方法论 → 切换为 T；用户只给模糊需求 → 切换为 C，先诊断挂断原因；用户要求复盘多轮测试数据 → 切换为
   R
 tcp_session_opening: 我本次以 **P（Practice/实践）** 身份与你协作：基于你的通话数据，生成可 A/B 测试的前三秒开场白草稿。请先提供当前话术稿、渠道类型和挂断率数据。
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 # 前三秒话术优化 Agent Spec
 

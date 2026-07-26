@@ -21,6 +21,10 @@ related:
 - '[[strategy-domain-digest]]'
 - case-strategy-m-brand-profit-model
 - case-lean-premature-refinement
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 **案例**：某零食企业用"六要素 × 三步骤"业务设计矩阵，展示从现状到期望设计的完整跃迁
 

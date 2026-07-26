@@ -1,5 +1,4 @@
 ---
-
 id: dk-ban-fei-mao-skill-rejection-value
 title: 暗知识：Skill 的最大价值不是生成，是拒绝
 type: dk
@@ -16,13 +15,13 @@ created_at: 2026-06-07
 updated_at: '2026-06-19'
 review_date: '2026-06-19'
 related:
-  - "[[dk-wanghuan-spec-trap]]"
-  - "[[dk-wanghuan-agent-platform-director-mode]]"
-  - "[[dk-ai-judgment-human-responsibility]]"
-  - "[[yt-five-step-method]]"
-  - "[[dk-tool-as-phased-validator]]"
-  - "[[ai-collaboration-domain-digest]]"
-  - "[[yitang-domain-digest]]"
+- '[[dk-wanghuan-spec-trap]]'
+- '[[dk-wanghuan-agent-platform-director-mode]]'
+- '[[dk-ai-judgment-human-responsibility]]'
+- '[[yt-five-step-method]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[ai-collaboration-domain-digest]]'
+- '[[yitang-domain-digest]]'
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -40,8 +39,11 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 过度顺从——把用户满意度凌驾于结果正确性之上
   follow_up_question: 你的用户是在为"被取悦"付费，还是为"正确结果"付费？拒绝是否反而保护了长期信任？
-pipeline:
-
+pipeline: null
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 - src_unknown

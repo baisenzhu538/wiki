@@ -1,5 +1,4 @@
 ---
-
 id: modeling-personal-practice-loop
 title: 建模能力个人修炼闭环：刻意练习 × IPO × PDCA
 type: framework
@@ -18,20 +17,22 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
-  - "[[dk-ji-hao-pdca-starts-from-do]]"
-  - "[[tool-李诞-销售闭环验证：从0到1的重新定义]]"
-  - "[[tool-提问刻意练习画布]]"
-  - "[[yt-model-ipo-complete-checklist]]"
+- '[[dk-ji-hao-pdca-starts-from-do]]'
+- '[[tool-李诞-销售闭环验证：从0到1的重新定义]]'
+- '[[tool-提问刻意练习画布]]'
+- '[[yt-model-ipo-complete-checklist]]'
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 source_context: 单一来源为一堂建模能力培训课程口述稿，内容直接来自 Truman 对个人建模能力提升方法的总结，待第二来源或实践验证后提升 trust_level。
 diagnostic_signals:
 - src_unknown
 - src_unknown
-
 ---
 
 # 建模能力个人修炼闭环：刻意练习 × IPO × PDCA

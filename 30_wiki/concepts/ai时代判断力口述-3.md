@@ -1,13 +1,17 @@
 ---
 id: ai时代判断力口述-3
 related:
-  - "[[yt-personal-ipo-learning]]"
-  - "[[master-knowledge-compound]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[yt-personal-ipo-learning]]'
+- '[[master-knowledge-compound]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 source_refs:
 - pending_archive: src_unknown
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 > **一句话定位**：AI接管Process（加工推理）后，人的核心竞争力从"会做"变成"会判断"——判断力成为AI时代唯一不可外包的能力。

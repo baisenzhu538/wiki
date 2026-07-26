@@ -22,23 +22,26 @@ review_date: '2026-06-18'
 trust_level: high
 confidence: 0.9
 related:
-  - '[[tool-scenario-selector-modeling]]'
-  - '[[tool-yitang-customer-segmentation-4step]]'
-  - pending_unknown
-  - tool-动手建模法
-  - tool-yitang-sales-process-decomposition
-  - tool-yitang-sales-performance-management
-  - tool-yitang-Y-model-application
-  - yt-decision-y-model
-  - case-yitang-Y-model-seven-applications
-  - framework-yitang-shishi-qiushi
-  - framework-yitang-jiefang-sixiang
+- '[[tool-scenario-selector-modeling]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- pending_unknown
+- tool-动手建模法
+- tool-yitang-sales-process-decomposition
+- tool-yitang-sales-performance-management
+- tool-yitang-Y-model-application
+- yt-decision-y-model
+- case-yitang-Y-model-seven-applications
+- framework-yitang-shishi-qiushi
+- framework-yitang-jiefang-sixiang
 tags:
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
 - src_unknown
+- audience:executor
+- scene:execution
+- skill-level:advanced
 diagnostic_signals:
 - framework_lens: iceberg-visible-vs-hidden
   follow_up_question: 水面下的行为、模式、结构、信念中，哪一层真正在维持这个现象？

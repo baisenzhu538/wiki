@@ -1,29 +1,33 @@
 ---
 id: concept-目标-北极星型vs探索型
-title: "北极星型 vs 探索型目标：二分类与动态切换"
+title: 北极星型 vs 探索型目标：二分类与动态切换
 type: concept
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - management
+- management
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - principle
+- insight
+- principle
 source_refs:
-  - "00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §3.2"
-  - "00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L254-L300"
+- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §3.2
+- 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L254-L300
 related:
-  - concept-一堂-三类目标策略
-  - dk-目标管理四大病
-  - framework-目标三层拆解
-  - yt-tool-okr-cycle
-  - yt-management-goal-management
+- concept-一堂-三类目标策略
+- dk-目标管理四大病
+- framework-目标三层拆解
+- yt-tool-okr-cycle
+- yt-management-goal-management
+tags:
+- audience:general
+- scene:reference
+- skill-level:advanced
 ---
 
 # 北极星型 vs 探索型目标：二分类与动态切换

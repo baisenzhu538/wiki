@@ -41,6 +41,10 @@ related:
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[case-ai-job-displacement-wef]]'
 - tool-ai-cross-reading-method
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 陈楸帆对 AI 写作的态度转向

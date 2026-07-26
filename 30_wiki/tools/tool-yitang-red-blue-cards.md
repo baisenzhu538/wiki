@@ -5,7 +5,7 @@ type: tool
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -18,10 +18,14 @@ source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 60_feedback/extractions/extraction-kexue-linian-y-model.md
 related:
-- "[[yt-decision-y-model]]"
-- "[[case-yitang-mao-scientific-culture]]"
-- "[[framework-yitang-shishi-qiushi]]"
-- "[[framework-yitang-jiefang-sixiang]]"
+- '[[yt-decision-y-model]]'
+- '[[case-yitang-mao-scientific-culture]]'
+- '[[framework-yitang-shishi-qiushi]]'
+- '[[framework-yitang-jiefang-sixiang]]'
+tags:
+- audience:manager
+- scene:execution
+- skill-level:advanced
 ---
 
 # 红蓝卡：Y模型 团队自检/纠偏/激励行为工具

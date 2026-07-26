@@ -17,12 +17,12 @@ query_triggers:
 - src_unknown认知篇：重新理解泛化产品能力
 - src_unknown
 related:
-- "[[yt-model-pan-product-36-strategies]]"
-- "[[yt-personal-product-design]]"
-- "[[一堂]]"
-- "[[yt-model-pan-product-demand-toolkit]]"
-- "[[yt-model-pan-product-aesthetic-toolkit]]"
-- "[[yt-model-pan-product-execution-toolkit]]"
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[yt-personal-product-design]]'
+- '[[一堂]]'
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-pan-product-execution-toolkit]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_refs:
@@ -49,6 +49,10 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 泛产品设计认知篇：重新理解泛化产品能力

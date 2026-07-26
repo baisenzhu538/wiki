@@ -1,25 +1,29 @@
 ---
 id: dk-利润-利润敏感度非对称性
-title: "利润敏感度的非对称性：为什么老板对降价不敏感但对现金流极度敏感"
+title: 利润敏感度的非对称性：为什么老板对降价不敏感但对现金流极度敏感
 type: dk
 status: draft
 confidence: 0.88
 trust_level: high
 domain:
-  - profit-pricing
+- profit-pricing
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
+- insight
 source_refs:
-  - "00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1342-L1376"
+- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1342-L1376
 related:
-  - concept-利润-真正利润定义
-  - framework-利润-利润优先经营框架
-  - dk-利润-平台驱动本质是现金流驱动
+- concept-利润-真正利润定义
+- framework-利润-利润优先经营框架
+- dk-利润-平台驱动本质是现金流驱动
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 利润敏感度的非对称性：为什么老板对降价不敏感但对现金流极度敏感

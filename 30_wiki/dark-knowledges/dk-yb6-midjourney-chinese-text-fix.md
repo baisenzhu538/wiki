@@ -1,5 +1,4 @@
 ---
-
 id: dk-yb6-midjourney-chinese-text-fix
 title: Midjourney中文文字修复极简提示词
 type: dk
@@ -14,19 +13,19 @@ source_refs:
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
-  - "[[tool-Truman-提示词优化底层方法]]"
-  - "[[tool-月白-精准改图提示词写法]]"
-  - "[[tool-月白-精准提示词消除模型幻觉]]"
-  - "[[tool-月白-AI提示词精准约束法]]"
-  - "[[tool-Truman-AI时代提示词优化法]]"
-  - "[[tool-月白-一抽流长提示词写作法]]"
-  - "[[tool-月白-精准提示词撰写法]]"
-  - "[[tool-月白-提示词优化：信息流海报文字修复]]"
-  - "[[tool-月白-多语种专业名词提示词策略]]"
-  - "[[tool-提示词结构化迭代]]"
-  - "[[tool-月白-AI自动生成多语种专业名词提示词]]"
-  - "[[aigc设计基础01ai生图原理与提示词基本功]]"
-  - "[[tool-月白-官方提示词最佳实践迁移]]"
+- '[[tool-Truman-提示词优化底层方法]]'
+- '[[tool-月白-精准改图提示词写法]]'
+- '[[tool-月白-精准提示词消除模型幻觉]]'
+- '[[tool-月白-AI提示词精准约束法]]'
+- '[[tool-Truman-AI时代提示词优化法]]'
+- '[[tool-月白-一抽流长提示词写作法]]'
+- '[[tool-月白-精准提示词撰写法]]'
+- '[[tool-月白-提示词优化：信息流海报文字修复]]'
+- '[[tool-月白-多语种专业名词提示词策略]]'
+- '[[tool-提示词结构化迭代]]'
+- '[[tool-月白-AI自动生成多语种专业名词提示词]]'
+- '[[aigc设计基础01ai生图原理与提示词基本功]]'
+- '[[tool-月白-官方提示词最佳实践迁移]]'
 pipeline:
 - src_unknown
 author: 月白
@@ -40,7 +39,10 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 工具策略错位——问题不在模型而在提示词的精准度和冗余度
   follow_up_question: 同样的修复目标，在不同模型（MJ/SD/DALL-E）上试过同一句极简提示词吗？# Midjourney中文文字修复极简提示词
-
+tags:
+- audience:executor
+- scene:reference
+- skill-level:intermediate
 ---
 
 ## 原始表述

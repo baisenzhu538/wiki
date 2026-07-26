@@ -26,6 +26,10 @@ related:
 - proposal-prompt-injection-infrastructure
 - business-research-skill-oscar-13-weapon-system
 - '[[case-demand-elderly-smart-device]]'
+tags:
+- audience:executor
+- scene:execution
+- skill-level:advanced
 ---
 # L1粗拆用户标签
 

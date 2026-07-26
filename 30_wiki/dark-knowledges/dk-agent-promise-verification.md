@@ -1,27 +1,31 @@
 ---
 id: dk-agent-promise-verification
-title: "承诺核对表：Agent 能承诺什么、不能承诺什么"
+title: 承诺核对表：Agent 能承诺什么、不能承诺什么
 type: dk
 status: draft
 confidence: 0.87
 trust_level: high
 domain:
-  - agent-engineering
+- agent-engineering
 author: 老顽童
 reviewed_by: 待审
-review_date: "2026-07-19"
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+review_date: '2026-07-19'
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - actionable
-  - principle
+- actionable
+- principle
 source_refs:
-  - "00_inbox/半肥猫/【半肥猫】用 AI 把脑子里的经验，推进成一个最小可验证的数字交付 副本.md §第五步"
+- 00_inbox/半肥猫/【半肥猫】用 AI 把脑子里的经验，推进成一个最小可验证的数字交付 副本.md §第五步
 related:
-  - tool-kdo-agent-production-checklist
-  - agent-native-card-design
-  - dk-ai-memory-four-layers
-  - system-yitang-Y-model-os
+- tool-kdo-agent-production-checklist
+- agent-native-card-design
+- dk-ai-memory-four-layers
+- system-yitang-Y-model-os
+tags:
+- audience:executor
+- scene:reference
+- skill-level:advanced
 ---
 
 # 承诺核对表：Agent 能承诺什么、不能承诺什么

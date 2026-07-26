@@ -1,5 +1,4 @@
 ---
-
 domain:
 - yitang
 - business-formula
@@ -23,67 +22,70 @@ source_refs:
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
 created_at: '2026-06-14'
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
+- cited
+- insight
+- principle
+- quality
+- validated
 updated_at: '2026-07-12'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.9
 trust_level: high
 related:
-- "[[framework-一堂-业务公式拆解-总纲]]"
-- "[[yt-management-business-formula]]"
-- "[[yt-business-formula-ten-paradigms]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-business-formula-six-level-logic]]"
-- "[[yt-unit-model-three-tools]]"
-- "[[yt-five-step-method]]"
-- "[[yt-business-formula-hypothesis-management-playbook]]"
-- "[[yt-tool-business-formula-parameter-arsenal]]"
-- "[[yt-business-formula-three-stage-workflow]]"
-- "[[yt-tool-business-formula-format-spec]]"
-- "[[yt-tool-business-formula-18-moves]]"
-- "[[concept-一堂-关键路径与乘法杠杆]]"
-- "[[concept-一堂-参数耦合与动态公式]]"
-- "[[concept-一堂-脱离成本]]"
-- "[[concept-一堂-参数即假设与递归嵌套]]"
-- "[[business-formula-domain-digest]]"
-- "[[case-yitang-fupanying-five-years-1000-hypotheses]]"
-- "[[case-yitang-woqingke-referral-15-to-40]]"
-- "[[case-yitang-marathon-ten-seasons]]"
-- "[[case-yitang-laowenqi-huixiao-10x]]"
-- "[[case-yitang-zhanglei-comic-booth]]"
-- "[[case-yitang-zhanglei-gacha-points]]"
-- "[[case-yitang-homework-six-owners]]"
-- "[[case-yitang-shipinhao-ads-l1-l6]]"
-- "[[case-yitang-wenxiaozhang-driving-school]]"
-- "[[case-yitang-panhonghai-entertainment]]"
-- "[[case-yitang-shao-kaoyan-gmv]]"
-- "[[case-yitang-du-kids-education-sabc]]"
-- "[[case-yitang-three-industry-formula-demos]]"
-- "[[framework-一堂-关键假设-ABCD模型]]"
-- "[[framework-一堂-苦练基本功-总纲]]"
-- "[[concept-一堂-基本功定义]]"
-- "[[tool-一堂-业务公式-L1L6参数分层自检]]"
-- "[[dk-yitang-business-formula-a-missing-syndrome]]"
-- "[[framework-一堂五步法-单元模型]]"
-- "[[tool-一堂五步法-换档检查清单]]"
-- "[[tool-yitang-hypothesis-marginal-roi]]"
-- "[[case-toc-online-education-trust-metrics]]"
-- "[[case-yitang-burger-franchise-key-path]]"
-- "[[case-yitang-farm-machinery-matching]]"
-- "[[case-yitang-meituan-red-dot]]"
-- "[[case-yitang-subtraction-decisions-three]]"
-- "[[case-yitang-tob-devboard-price-coupling]]"
-- "[[case-yitang-wechat-monthly-price-value]]"
-- "[[case-yitang-womenswear-formula-three-versions]]"
-- "[[dk-yitang-business-formula-recursive-levels]]"
-- "[[dk-yitang-hypothesis-five-alternatives]]"
-- "[[dk-yitang-formula-unmeasurable-metrics]]"
-
+- '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[yt-management-business-formula]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-six-level-logic]]'
+- '[[yt-unit-model-three-tools]]'
+- '[[yt-five-step-method]]'
+- '[[yt-business-formula-hypothesis-management-playbook]]'
+- '[[yt-tool-business-formula-parameter-arsenal]]'
+- '[[yt-business-formula-three-stage-workflow]]'
+- '[[yt-tool-business-formula-format-spec]]'
+- '[[yt-tool-business-formula-18-moves]]'
+- '[[concept-一堂-关键路径与乘法杠杆]]'
+- '[[concept-一堂-参数耦合与动态公式]]'
+- '[[concept-一堂-脱离成本]]'
+- '[[concept-一堂-参数即假设与递归嵌套]]'
+- '[[business-formula-domain-digest]]'
+- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
+- '[[case-yitang-woqingke-referral-15-to-40]]'
+- '[[case-yitang-marathon-ten-seasons]]'
+- '[[case-yitang-laowenqi-huixiao-10x]]'
+- '[[case-yitang-zhanglei-comic-booth]]'
+- '[[case-yitang-zhanglei-gacha-points]]'
+- '[[case-yitang-homework-six-owners]]'
+- '[[case-yitang-shipinhao-ads-l1-l6]]'
+- '[[case-yitang-wenxiaozhang-driving-school]]'
+- '[[case-yitang-panhonghai-entertainment]]'
+- '[[case-yitang-shao-kaoyan-gmv]]'
+- '[[case-yitang-du-kids-education-sabc]]'
+- '[[case-yitang-three-industry-formula-demos]]'
+- '[[framework-一堂-关键假设-ABCD模型]]'
+- '[[framework-一堂-苦练基本功-总纲]]'
+- '[[concept-一堂-基本功定义]]'
+- '[[tool-一堂-业务公式-L1L6参数分层自检]]'
+- '[[dk-yitang-business-formula-a-missing-syndrome]]'
+- '[[framework-一堂五步法-单元模型]]'
+- '[[tool-一堂五步法-换档检查清单]]'
+- '[[tool-yitang-hypothesis-marginal-roi]]'
+- '[[case-toc-online-education-trust-metrics]]'
+- '[[case-yitang-burger-franchise-key-path]]'
+- '[[case-yitang-farm-machinery-matching]]'
+- '[[case-yitang-meituan-red-dot]]'
+- '[[case-yitang-subtraction-decisions-three]]'
+- '[[case-yitang-tob-devboard-price-coupling]]'
+- '[[case-yitang-wechat-monthly-price-value]]'
+- '[[case-yitang-womenswear-formula-three-versions]]'
+- '[[dk-yitang-business-formula-recursive-levels]]'
+- '[[dk-yitang-hypothesis-five-alternatives]]'
+- '[[dk-yitang-formula-unmeasurable-metrics]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
 ---
 
 

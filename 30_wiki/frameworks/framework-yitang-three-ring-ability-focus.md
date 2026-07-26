@@ -1,5 +1,4 @@
 ---
-
 id: framework-yitang-three-ring-ability-focus
 type: framework
 title: 三环能力聚焦法：从 30 个能力中锁定 3 个重点
@@ -13,11 +12,11 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
 quality_labels:
-  - cited
-  - insight
-  - principle
-  - quality
-  - validated
+- cited
+- insight
+- principle
+- quality
+- validated
 created_at: 2026-06-27
 updated_at: 2026-06-27
 source_refs:
@@ -25,12 +24,16 @@ source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
 - src_unknown
 related:
-  - "[[framework-yitang-deliberate-practice-1plus4]]"
-  - "[[tool-yitang-practice-20hour-starter]]"
-  - "[[concept-yitang-comfort-stretch-panic-zones]]"
-  - "[[dk-yitang-deliberate-practice-common-traps]]"
-  - "[[framework-ai-deliberate-practice-loop]]"
-  - "[[yitang-domain-digest]]"
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[tool-yitang-practice-20hour-starter]]'
+- '[[concept-yitang-comfort-stretch-panic-zones]]'
+- '[[dk-yitang-deliberate-practice-common-traps]]'
+- '[[framework-ai-deliberate-practice-loop]]'
+- '[[yitang-domain-digest]]'
+tags:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
 ---
 
 # 三环能力聚焦法：从 30 个能力中锁定 3 个重点

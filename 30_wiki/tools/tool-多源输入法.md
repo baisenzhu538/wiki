@@ -1,5 +1,4 @@
 ---
-
 id: tool-多源输入法
 title: 技能：多源输入法
 type: tool
@@ -15,11 +14,11 @@ wiki_refs:
 - src_unknown
 - src_unknown
 related:
-  - "[[tool-纪浩-Agent技能市场设计法]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
-  - "[[pending_unknown]]"
+- '[[tool-纪浩-Agent技能市场设计法]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
+- '[[pending_unknown]]'
 definition_of_done:
 - src_unknown
 - src_unknown
@@ -46,7 +45,10 @@ diagnostic_signals:
   follow_up: 建立信息质量标准：官方来源>研究机构>专业媒体，自媒体和AIGC内容需验证
 - lens: 时间成本失控
   follow_up: 时间敏感型决策采用'精准单源+快速验证'，非关键决策才用多源深度交叉
-
+tags:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
 ---
 
 # 技能：多源输入法

@@ -29,6 +29,10 @@ related:
 - yt-unit-model-overview
 created_at: 2026-07-03
 updated_at: '2026-07-03'
+tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
 ---
 # Y模型七人跨域应用案例集
 
