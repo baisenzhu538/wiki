@@ -21,7 +21,7 @@ related:
 - concept-X型Y型决策习惯
 - concept-发现决策
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

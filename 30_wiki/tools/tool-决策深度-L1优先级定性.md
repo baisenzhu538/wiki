@@ -23,7 +23,7 @@ related:
 - concept-X型Y型决策习惯
 updated_at: '2026-06-29'
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

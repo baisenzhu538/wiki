@@ -22,7 +22,7 @@ related:
 - tool-yitang-case-fact-review-checklist
 - dk-yitang-case-before-after
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---

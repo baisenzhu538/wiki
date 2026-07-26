@@ -33,7 +33,7 @@ pipeline:
 author: unknown
 trust_level: medium
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

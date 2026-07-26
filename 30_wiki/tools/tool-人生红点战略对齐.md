@@ -33,7 +33,7 @@ related:
 - tool-ai-prd-for-ai
 - yt-model-ipo-learning-strategy
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:beginner
 ---

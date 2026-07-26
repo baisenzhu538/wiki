@@ -14,7 +14,7 @@ source_refs:
 reviewed_by: pending
 updated_at: '2026-06-30T16:07:51+00:00'
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---

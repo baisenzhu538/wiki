@@ -31,7 +31,7 @@ related:
 - '[[strategy-domain-digest]]'
 - '[[case-lean-genki-forest-toolkit]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

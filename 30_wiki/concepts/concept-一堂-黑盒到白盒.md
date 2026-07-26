@@ -49,7 +49,7 @@ diagnostic_signals:
   lens: 缺"可迁移"——白盒四属性少一个，认知就沉淀不下来
   follow-up: 把关键决策的逻辑写成参数+逻辑关系文档，新人按文档能复现推理过程
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

@@ -18,7 +18,7 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[method-yitang-y-model-engine-cycle]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

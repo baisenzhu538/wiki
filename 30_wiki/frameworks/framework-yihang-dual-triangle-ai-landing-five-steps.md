@@ -37,7 +37,7 @@ aliases:
 - 双三角AI落地五部曲
 - AI落地五部曲
 tags:
-- audience:executor
+- audience:ceo
 - scene:diagnosis
 - skill-level:advanced
 ---

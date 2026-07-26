@@ -62,7 +62,7 @@ diagnostic_signals:
   follow_up_question: 你是否先独立估算过关键数字？如果AI数字与你估算差距<10%，强制让AI给出反向情景分析
 author: 老顽童
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

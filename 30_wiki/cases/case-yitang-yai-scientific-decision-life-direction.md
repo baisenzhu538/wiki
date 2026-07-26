@@ -27,7 +27,7 @@ quality_labels:
 - case-study
 - reverse-engineering
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

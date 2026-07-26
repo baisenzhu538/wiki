@@ -17,7 +17,7 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 updated_at: '2026-06-28'
 tags:
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:advanced
 ---

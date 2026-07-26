@@ -23,7 +23,7 @@ related:
 - '[[pending_unknown]]'
 - case-essence-entrepreneurship
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---

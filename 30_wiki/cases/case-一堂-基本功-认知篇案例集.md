@@ -42,7 +42,7 @@ quality_labels:
 - actionable
 - insight
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

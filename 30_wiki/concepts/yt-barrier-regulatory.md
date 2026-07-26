@@ -32,7 +32,7 @@ diagnostic_signals:
 - framework_lens: 监管壁垒——监管壁垒可能限制创新，需要平衡
   follow_up_question: 监管限制的具体是什么？是否有合规的创新路径？
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

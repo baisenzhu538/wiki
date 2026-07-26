@@ -56,7 +56,7 @@ quality_labels:
 - cited
 - validated
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

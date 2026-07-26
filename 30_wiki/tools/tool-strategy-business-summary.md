@@ -24,7 +24,7 @@ related:
 - framework-five-step-lean-interface
 created_at: '2026-06-30'
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---

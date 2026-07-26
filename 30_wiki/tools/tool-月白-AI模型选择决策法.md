@@ -30,7 +30,7 @@ related:
 - '[[tool-月白-AIGC生成人物证件照]]'
 - '[[tool-月白-电商白底图生成与高清处理]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:beginner
 ---

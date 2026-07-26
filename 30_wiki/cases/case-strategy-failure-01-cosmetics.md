@@ -34,7 +34,7 @@ related:
 - case-strategy-failure-09-boeing
 - case-strategy-failure-04-appliance
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

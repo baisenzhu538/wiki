@@ -25,7 +25,7 @@ related:
 - '[[master-systems-thinking]]'
 - '[[master-knowledge-compound]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

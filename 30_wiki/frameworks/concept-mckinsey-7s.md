@@ -45,7 +45,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 created_at: '2026-06-11'

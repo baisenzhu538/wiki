@@ -46,7 +46,7 @@ related:
 - '[[yt-five-step-method]]'
 - '[[yitang-domain-digest]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

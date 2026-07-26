@@ -43,7 +43,7 @@ related:
 - '[[case-yitang-burger-franchise-key-path]]'
 - '[[case-yitang-tob-devboard-price-coupling]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:advanced
 author: 欧阳锋

@@ -22,7 +22,7 @@ related:
 - '[[tool-三层目标对齐法]]'
 - '[[case-strategy-lekai-film]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

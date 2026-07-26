@@ -51,7 +51,7 @@ related:
 - '[[framework-yitang-expert-interview-10steps]]'
 - '[[framework-yitang-research-quality-gate]]'
 tags:
-- audience:executor
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 ---

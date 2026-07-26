@@ -69,7 +69,7 @@ related:
 - '[[yt-management-scientific-decision]]'
 author: 老顽童
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

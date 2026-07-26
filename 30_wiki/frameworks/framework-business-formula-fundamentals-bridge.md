@@ -55,7 +55,7 @@ quality_labels:
 - framework
 - insight
 tags:
-- audience:executor
+- audience:ceo
 - scene:diagnosis
 - skill-level:advanced
 ---

@@ -33,7 +33,7 @@ diagnostic_signals:
 - framework_lens: 商业模式护城河——护城河需要可量化评估
   follow_up_question: 你的护城河强度如何量化？竞品突破的难度有多大？
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

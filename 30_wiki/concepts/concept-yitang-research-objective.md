@@ -41,7 +41,7 @@ related:
 - '[[dk-yitang-research-ai-hallucination]]'
 - '[[concept-yitang-research-mindset]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

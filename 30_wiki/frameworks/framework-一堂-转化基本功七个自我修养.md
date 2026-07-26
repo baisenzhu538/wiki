@@ -42,7 +42,7 @@ quality_labels:
 - cited
 - actionable
 tags:
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:advanced
 ---

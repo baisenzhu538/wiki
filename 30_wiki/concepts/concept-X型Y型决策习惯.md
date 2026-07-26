@@ -40,7 +40,7 @@ related:
 review_date: '2026-06-29'
 updated_at: '2026-07-03'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

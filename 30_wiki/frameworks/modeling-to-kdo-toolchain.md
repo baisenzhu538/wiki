@@ -38,7 +38,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:advanced
 diagnostic_signals:

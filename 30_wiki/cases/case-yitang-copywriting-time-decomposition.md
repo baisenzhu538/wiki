@@ -32,7 +32,7 @@ related:
 created_at: 2026-07-04
 updated_at: '2026-07-04'
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

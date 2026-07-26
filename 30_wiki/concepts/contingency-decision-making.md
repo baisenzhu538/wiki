@@ -43,7 +43,7 @@ diagnostic_signals:
 - lens: 政治资本缺失
   follow_up: 检查组织文化：CEO说不知道=坦诚，中层说不知道=无能？建立心理安全
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

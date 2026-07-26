@@ -24,7 +24,7 @@ related:
 - concept-目标-北极星型vs探索型
 - management-domain-digest
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

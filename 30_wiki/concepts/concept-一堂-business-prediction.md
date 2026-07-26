@@ -39,7 +39,7 @@ aliases:
 - 机会预判
 - 15字诀
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

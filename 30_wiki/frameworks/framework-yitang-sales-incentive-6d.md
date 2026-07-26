@@ -36,7 +36,7 @@ tags:
 - '#management'
 - '#incentive'
 - '#yitang'
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 related:

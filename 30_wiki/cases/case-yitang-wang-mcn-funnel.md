@@ -35,7 +35,7 @@ related:
 - '[[framework-一堂-关键假设]]'
 - '[[tool-动力阻力分析]]'
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

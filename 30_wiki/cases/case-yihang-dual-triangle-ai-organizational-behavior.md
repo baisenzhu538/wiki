@@ -19,7 +19,7 @@ related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-yitang-y-model-engine-cycle]]'
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

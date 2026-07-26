@@ -31,7 +31,7 @@ related:
 - framework-yitang-case-crafting-four-step
 - dk-spatial-narrative-pitfalls
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

@@ -48,7 +48,7 @@ diagnostic_signals:
 - lens: 业务脱节
   follow_up: 检查是否有真实业务问题需要解答，没有真实问题=练习而非调研
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

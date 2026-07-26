@@ -29,7 +29,7 @@ related:
 created_at: 2026-06-29
 updated_at: 2026-07-08 17:38:57+00:00
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---

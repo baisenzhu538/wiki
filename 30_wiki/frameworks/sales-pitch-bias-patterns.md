@@ -12,7 +12,7 @@ source_refs:
 tags:
 - src_unknown
 - src_unknown
-- audience:executor
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 created_at: '2026-06-14'

@@ -49,7 +49,7 @@ related:
 - '[[tool-yitang-research-quantitative-modeling]]'
 - '[[framework-yitang-expert-interview-10steps]]'
 tags:
-- audience:executor
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 ---

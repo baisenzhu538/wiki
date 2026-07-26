@@ -17,7 +17,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[concept-ceo-must-do-user-research]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:intermediate
 author: 老顽童

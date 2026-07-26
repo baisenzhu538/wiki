@@ -25,7 +25,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 pipeline:

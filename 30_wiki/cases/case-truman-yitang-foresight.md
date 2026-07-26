@@ -46,7 +46,7 @@ author: 老顽童
 trust_level: medium-high
 updated_at: 2026-06-28
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

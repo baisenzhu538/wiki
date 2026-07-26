@@ -21,7 +21,7 @@ related:
 - '[[pending_unknown]]'
 - yt-concept-context-engineering
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

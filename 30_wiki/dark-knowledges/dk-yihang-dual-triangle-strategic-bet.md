@@ -20,7 +20,7 @@ related:
 - '[[framework-yihang-AI-native-dual-triangle-kernel]]'
 - '[[framework-yitang-y-model-dual-triangle-synergy]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:advanced
 ---

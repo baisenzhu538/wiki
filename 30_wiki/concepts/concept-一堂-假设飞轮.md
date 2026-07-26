@@ -58,7 +58,7 @@ diagnostic_signals:
   lens: 缺默认失败共识——开放问题下验证有效率 30% 即常态，常常只有 10%（管理篇-口述 L1158-L1160）
   follow-up: 开新项目前先口头对齐「咱们一定失败，我要的是认知速度，根本不要成功」（管理篇-口述 L1176-L1178）
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

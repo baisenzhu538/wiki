@@ -33,7 +33,7 @@ aliases:
 - 硬件公司专利案例
 - 规则显性化案例
 tags:
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:advanced
 ---

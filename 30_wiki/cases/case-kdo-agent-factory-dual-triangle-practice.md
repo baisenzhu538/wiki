@@ -33,7 +33,7 @@ related:
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
 - '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

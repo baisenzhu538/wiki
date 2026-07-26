@@ -23,7 +23,7 @@ related:
 - dk-利润-创始人利润耻感
 - bridge-利润-需求冰山-价值定价
 tags:
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:advanced
 ---

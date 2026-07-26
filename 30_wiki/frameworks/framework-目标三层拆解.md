@@ -26,7 +26,7 @@ related:
 - yt-management-goal-management
 - management-domain-digest
 tags:
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:advanced
 ---

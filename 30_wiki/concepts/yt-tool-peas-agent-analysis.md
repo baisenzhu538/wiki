@@ -58,7 +58,7 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

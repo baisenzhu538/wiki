@@ -39,7 +39,7 @@ related:
 - '[[yt-business-model-unit-economics]]'
 - '[[framework-five-step-lean-interface]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

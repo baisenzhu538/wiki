@@ -21,7 +21,7 @@ related:
 - '[[concept-yihang-methodology-production-pipeline]]'
 - '[[concept-yihang-research-driven-company]]'
 tags:
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:advanced
 ---

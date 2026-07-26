@@ -22,7 +22,7 @@ related:
 - dk-利润-定价恐惧三段式反问
 - yt-decision-y-model
 tags:
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:advanced
 ---

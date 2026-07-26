@@ -30,7 +30,7 @@ related:
 - '[[tool-马易-AI答疑运营风格适配]]'
 - tool-ai-deliverable-polish-loop
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

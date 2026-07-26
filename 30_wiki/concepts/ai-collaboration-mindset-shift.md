@@ -43,7 +43,7 @@ diagnostic_signals:
 - lens: 执行者循环
   follow_up: 检查是否在做管理者动作：派活、验收、纠偏，而非只复制粘贴
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

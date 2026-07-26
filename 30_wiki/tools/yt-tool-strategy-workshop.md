@@ -35,7 +35,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 trust_level: medium

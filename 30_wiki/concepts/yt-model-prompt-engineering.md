@@ -47,7 +47,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 tags:
-- audience:executor
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 ---

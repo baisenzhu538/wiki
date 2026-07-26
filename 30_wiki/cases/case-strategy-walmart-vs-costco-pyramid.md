@@ -23,7 +23,7 @@ related:
 - tool-strategy-four-layers
 - case-strategy-failure-09-boeing
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

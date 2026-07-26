@@ -32,7 +32,7 @@ diagnostic_signals:
 - framework_lens: 文化护城河——文化需要平衡稳定和变革
   follow_up_question: 你的文化是否鼓励试错？是否容忍失败？
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

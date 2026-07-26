@@ -29,7 +29,7 @@ related:
 - '[[dk-tool-as-phased-validator]]'
 - '[[strategy-domain-digest]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:advanced
 ---

@@ -47,7 +47,7 @@ related:
 - '[[framework-time-management-dual-loop-matrix]]'
 - '[[framework-time-management-matrix]]'
 tags:
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 ---

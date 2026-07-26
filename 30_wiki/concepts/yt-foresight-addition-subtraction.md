@@ -44,7 +44,7 @@ related:
 - '[[framework-一堂-机会预判]]'
 - '[[concept-一堂-终局光谱图解读]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:intermediate
 ---

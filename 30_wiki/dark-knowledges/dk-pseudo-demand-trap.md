@@ -15,7 +15,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:intermediate
 created_at: '2026-06-11'

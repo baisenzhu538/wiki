@@ -29,7 +29,7 @@ quality_labels:
 - actionable
 - framework
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

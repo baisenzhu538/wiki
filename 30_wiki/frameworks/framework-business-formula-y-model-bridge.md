@@ -49,7 +49,7 @@ quality_labels:
 - bridge
 - framework
 tags:
-- audience:executor
+- audience:ceo
 - scene:diagnosis
 - skill-level:advanced
 ---

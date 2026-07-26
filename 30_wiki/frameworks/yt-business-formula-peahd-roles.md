@@ -49,7 +49,7 @@ quality_labels:
 - actionable
 - principle
 tags:
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:advanced
 ---

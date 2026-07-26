@@ -58,7 +58,7 @@ diagnostic_signals:
   follow_up_question: 在这个组织里，一个需要15分钟分析的决策，决策者通常有多少耐心？如果<5分钟，Y型工具需要改变使用场景（私下分析+公开汇报）
 author: 老顽童
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

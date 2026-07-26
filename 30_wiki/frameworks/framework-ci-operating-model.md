@@ -10,7 +10,7 @@ tags:
 - CI
 - Define-Gather-Analyze-Implement
 - 一堂武器库对接
-- audience:executor
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 source_person: Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps

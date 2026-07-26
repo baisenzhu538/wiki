@@ -32,7 +32,7 @@ quality_labels:
 - principle
 - actionable
 tags:
-- audience:executor
+- audience:ceo
 - scene:diagnosis
 - skill-level:advanced
 ---

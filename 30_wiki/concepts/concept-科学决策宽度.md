@@ -29,7 +29,7 @@ quality_labels:
 updated_at: '2026-06-29'
 created_at: '2026-06-30'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

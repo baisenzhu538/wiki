@@ -26,7 +26,7 @@ diagnostic_signals:
 - framework_lens: 端到端工作流——7步从问题到报告
   follow_up_question: 你现在卡在哪一步？每一步的产出物是什么？
 tags:
-- audience:executor
+- audience:manager
 - scene:reference
 - skill-level:advanced
 ---

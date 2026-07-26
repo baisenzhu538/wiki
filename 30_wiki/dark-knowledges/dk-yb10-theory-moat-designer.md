@@ -36,7 +36,7 @@ diagnostic_signals:
   framework_lens: 投资错位——在AI抹平执行差距的时代，理论判断力反而升值
   follow_up_question: 过去一年团队培训预算中，AI工具 vs 设计理论的比例是多少？# AI时代设计师的理论护城河
 tags:
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:intermediate
 ---

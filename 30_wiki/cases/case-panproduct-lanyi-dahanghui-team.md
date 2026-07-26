@@ -35,7 +35,7 @@ related:
 - '[[framework-lean-abcd-model]]'
 - '[[framework-ai-accelerated-strategy-cycle]]'
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

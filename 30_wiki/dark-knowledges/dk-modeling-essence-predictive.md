@@ -40,7 +40,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:advanced
 reviewed_by: 欧阳锋

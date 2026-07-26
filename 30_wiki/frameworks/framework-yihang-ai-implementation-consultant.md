@@ -19,7 +19,7 @@ related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-AI-native-dual-triangle-kernel]]'
 tags:
-- audience:executor
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 ---

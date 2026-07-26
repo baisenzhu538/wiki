@@ -32,7 +32,7 @@ diagnostic_signals:
 - framework_lens: 人才密度——文化好≠人才密度高，需要综合激励
   follow_up_question: 除了文化，薪酬、发展、挑战是否足够吸引人才？
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

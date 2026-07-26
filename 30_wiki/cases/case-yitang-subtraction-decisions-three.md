@@ -29,7 +29,7 @@ related:
 - '[[business-formula-domain-digest]]'
 - '[[case-yitang-marathon-ten-seasons]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

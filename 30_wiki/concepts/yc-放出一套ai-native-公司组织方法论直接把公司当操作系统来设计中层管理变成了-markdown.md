@@ -27,7 +27,7 @@ related:
 - '[[dk-lz-ai-native-organization]]'
 - '[[management-domain-digest]]'
 tags:
-- audience:manager
+- audience:executor
 - scene:reference
 - skill-level:intermediate
 ---

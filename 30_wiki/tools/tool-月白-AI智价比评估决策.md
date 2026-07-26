@@ -34,7 +34,7 @@ related:
 - tool-纪浩-项目启动五问法
 - tinyfish-agentic-web-infrastructure
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:beginner
 ---

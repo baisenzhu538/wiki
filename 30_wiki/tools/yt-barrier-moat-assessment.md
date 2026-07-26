@@ -32,7 +32,7 @@ diagnostic_signals:
 - framework_lens: 护城河评估工具——需要定期评估护城河变化
   follow_up_question: 你的护城河减弱的速度和原因是什么？是否需要紧急修复？
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---

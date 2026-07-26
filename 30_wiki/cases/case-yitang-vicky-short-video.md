@@ -37,7 +37,7 @@ related:
 - '[[framework-business-formula-fundamentals-bridge]]'
 - '[[tool-泛产品落地-攻坚会]]'
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

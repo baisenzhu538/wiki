@@ -35,7 +35,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

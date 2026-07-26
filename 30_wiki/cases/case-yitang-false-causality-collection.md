@@ -40,7 +40,7 @@ related:
 - '[[framework-一堂-关键假设]]'
 - '[[yt-management-goal-management]]'
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

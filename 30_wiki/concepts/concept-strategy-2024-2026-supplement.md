@@ -24,7 +24,7 @@ related:
 - tool-yitang-amazon-bestseller
 - tool-yitang-ai-monitoring-alert
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

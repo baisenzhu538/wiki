@@ -62,7 +62,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 欧阳锋
 tags:
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 ---

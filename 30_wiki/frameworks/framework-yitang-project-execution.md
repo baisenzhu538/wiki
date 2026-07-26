@@ -50,7 +50,7 @@ quality_labels:
 - actionable
 - validated - dk-管控vs协同执行策略
 tags:
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:advanced
 ---

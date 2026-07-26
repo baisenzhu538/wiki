@@ -24,7 +24,7 @@ related:
 - '[[tool-清单小抄工具箱法]]'
 - '[[tool-提问刻意练习画布]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---

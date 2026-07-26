@@ -36,7 +36,7 @@ reviewed_by: pending
 confidence: 0.85
 trust_level: medium
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

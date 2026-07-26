@@ -30,7 +30,7 @@ tags:
 - '#source_type/insight'
 - '#content-production'
 - '#business-strategy'
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:intermediate
 quality_labels:

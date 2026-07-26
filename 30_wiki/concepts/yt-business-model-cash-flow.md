@@ -33,7 +33,7 @@ diagnostic_signals:
 - framework_lens: 现金流管理——烧钱需要计划，不是无限
   follow_up_question: 你的烧钱速度是多少？现金能支撑多久？盈利路径清晰吗？
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

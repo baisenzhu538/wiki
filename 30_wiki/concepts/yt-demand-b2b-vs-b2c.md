@@ -33,7 +33,7 @@ diagnostic_signals:
 - framework_lens: ToB vs ToC差异——ToB验证周期长，需要不同的验证方法
   follow_up_question: ToB客户的验证周期是多久？能否用PoC（概念验证）替代快速迭代？
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

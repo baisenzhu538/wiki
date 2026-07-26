@@ -11,7 +11,7 @@ tags:
 - KITs
 - KIQs
 - 决策驱动提问
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 source_person: Truman（一堂）+ Competitive Intelligence Alliance

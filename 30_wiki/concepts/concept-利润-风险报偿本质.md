@@ -27,7 +27,7 @@ related:
 - dk-利润-创始人利润耻感
 - dk-利润-资本游戏与真实商业分界线
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

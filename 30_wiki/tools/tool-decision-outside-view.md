@@ -36,7 +36,7 @@ related:
 - '[[tool-first-principles-assumption-classify]]'
 - '[[tool-cognitive-bias-12-check]]'
 tags:
-- audience:ceo
+- audience:manager
 - scene:execution
 - skill-level:beginner
 ---

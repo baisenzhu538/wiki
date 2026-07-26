@@ -33,7 +33,7 @@ related:
 - '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
 - tool-ai-prd-for-ai
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:beginner
 ---

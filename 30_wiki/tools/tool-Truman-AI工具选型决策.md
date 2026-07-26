@@ -29,7 +29,7 @@ related:
 - '[[tool-strategy-risk-management]]'
 - productization-judgment
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:beginner
 ---

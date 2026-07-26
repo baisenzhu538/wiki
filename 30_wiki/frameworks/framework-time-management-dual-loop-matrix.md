@@ -27,7 +27,7 @@ diagnostic_signals:
 quality_labels:
 - actionable
 tags:
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 ---

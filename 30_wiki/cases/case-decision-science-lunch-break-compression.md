@@ -21,7 +21,7 @@ related:
 - '[[dk-time-management-common-mistakes]]'
 - '[[case-gym-membership-formula]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

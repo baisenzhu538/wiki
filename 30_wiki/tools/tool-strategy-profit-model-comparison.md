@@ -21,7 +21,7 @@ related:
 - '[[pending_unknown]]'
 - case-strategy-m-brand-profit-model
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---

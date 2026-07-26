@@ -20,7 +20,7 @@ source_refs:
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

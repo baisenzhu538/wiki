@@ -36,7 +36,7 @@ related:
 - tool-panproduct-org-five-step
 review_date: '2026-06-28'
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

@@ -37,7 +37,7 @@ related:
 - '[[framework-yitang-channel-partnership-map]]'
 - '[[framework-yitang-three-ring-ability-focus]]'
 tags:
-- audience:executor
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 ---

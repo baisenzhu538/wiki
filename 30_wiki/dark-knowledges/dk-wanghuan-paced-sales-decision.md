@@ -23,7 +23,7 @@ source_context: 王欢 AI 实战分享（2026-06-18 授课）"
 query_triggers: []
 aliases: []
 tags:
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:intermediate
 pipeline: null

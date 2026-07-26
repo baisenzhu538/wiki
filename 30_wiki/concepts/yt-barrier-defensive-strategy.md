@@ -32,7 +32,7 @@ diagnostic_signals:
 - framework_lens: 防御策略——防御和进攻需要平衡
   follow_up_question: 你的资源是否过度投入防御？进攻机会在哪里？
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

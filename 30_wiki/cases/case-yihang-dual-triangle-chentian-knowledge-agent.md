@@ -43,7 +43,7 @@ aliases:
 - 陈天案例
 - 知识管理案例
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

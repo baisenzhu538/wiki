@@ -28,7 +28,7 @@ related:
 - smart-medicine-cabinet-clinic-risk-observation
 - 诊所O2O项目
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

@@ -70,7 +70,7 @@ related:
 - concept-发现决策
 updated_at: '2026-06-29'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

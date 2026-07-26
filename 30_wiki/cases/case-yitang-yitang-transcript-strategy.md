@@ -21,7 +21,7 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[case-yitang-course-start-time-evolution]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

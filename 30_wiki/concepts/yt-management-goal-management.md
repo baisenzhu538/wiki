@@ -47,7 +47,7 @@ source_refs:
 - 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
 source_context: （原始 source 无法追溯，source_refs 已清空，待后续补充） - dk-目标管理四大病 - tool-OGSM目标管理工具
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

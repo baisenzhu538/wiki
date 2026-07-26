@@ -24,7 +24,7 @@ related:
 - tool-ai-prd-for-ai
 updated_at: '2026-06-29'
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---

@@ -57,7 +57,7 @@ diagnostic_signals:
   follow_up_question: 这十几条教训中，有多少条已经被写入了'决策手册'或SOP？下次做同类决策时，决策者会不会自动看到这些规则？
 author: 老顽童
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

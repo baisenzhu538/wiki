@@ -37,7 +37,7 @@ related:
 review_date: '2026-06-28'
 created_at: '2026-06-30'
 tags:
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 ---

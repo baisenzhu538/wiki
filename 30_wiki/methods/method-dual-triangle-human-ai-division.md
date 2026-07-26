@@ -35,7 +35,7 @@ aliases:
 - AI组织行为学
 - 双三角分工法
 tags:
-- audience:manager
+- audience:general
 - scene:diagnosis
 - skill-level:advanced
 ---

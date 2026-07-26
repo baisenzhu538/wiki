@@ -28,7 +28,7 @@ related:
 - '[[yt-skill-storyline-key-elements]]'
 - '[[yt-skill-storyline-problem-solving]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

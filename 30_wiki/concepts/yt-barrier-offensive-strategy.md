@@ -33,7 +33,7 @@ diagnostic_signals:
 - framework_lens: 进攻策略——竞品弱点需要深入分析
   follow_up_question: 竞品的用户反馈是什么？竞品的产品、服务、渠道是否有弱点？
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

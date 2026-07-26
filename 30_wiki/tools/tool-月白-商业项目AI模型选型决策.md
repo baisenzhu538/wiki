@@ -37,7 +37,7 @@ related:
 - '[[tool-月白-手机外设计逻辑切换法]]'
 - '[[tool-月白-设计项目里程碑拆解法]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:beginner
 ---

@@ -32,7 +32,7 @@ source_refs:
 related:
 - framework-yitang-thought-liberation-lightning
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

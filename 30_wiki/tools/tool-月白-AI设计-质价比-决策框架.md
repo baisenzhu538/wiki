@@ -30,7 +30,7 @@ related:
 - '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
 - '[[tool-月白-三步作业反馈法]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:beginner
 ---

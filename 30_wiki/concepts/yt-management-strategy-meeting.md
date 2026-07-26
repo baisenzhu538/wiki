@@ -29,7 +29,7 @@ related:
 - '[[yt-management-business-formula]]'
 - '[[yt-management-company-culture]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

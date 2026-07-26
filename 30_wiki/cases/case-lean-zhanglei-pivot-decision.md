@@ -28,7 +28,7 @@ related:
 - framework-strategy-lean-validation
 - '[[dk-tool-as-phased-validator]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

@@ -60,7 +60,7 @@ related:
 - '[[yt-decision-height-toolkit]]'
 - '[[case-modeling-essence-levels]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

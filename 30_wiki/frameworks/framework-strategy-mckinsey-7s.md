@@ -29,7 +29,7 @@ related:
 - '[[tool-模型组合调用]]'
 - concept-mckinsey-7s
 tags:
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:advanced
 ---

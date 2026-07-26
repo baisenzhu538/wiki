@@ -85,7 +85,7 @@ diagnostic_signals:
   follow_up_question: 前3个关键数字中，有几个标注了"高/中/低"置信度和数据来源？如果<2个，深度区需要重新标定
 author: 老顽童
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

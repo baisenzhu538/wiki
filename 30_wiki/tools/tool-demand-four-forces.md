@@ -26,7 +26,7 @@ related:
 - case-ai-agent-milestone-design
 updated_at: '2026-06-29'
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---

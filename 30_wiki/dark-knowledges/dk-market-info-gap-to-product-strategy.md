@@ -39,7 +39,7 @@ tags:
 - 渗透率
 - 零门槛
 - AI产品
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:advanced
 query_triggers:

@@ -46,7 +46,7 @@ related:
 - '[[yt-scale-economy-weapon-library]]'
 - '[[yitang-domain-digest]]'
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

@@ -54,7 +54,7 @@ quality_labels:
 updated_at: '2026-06-29'
 created_at: '2026-06-30'
 tags:
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 ---

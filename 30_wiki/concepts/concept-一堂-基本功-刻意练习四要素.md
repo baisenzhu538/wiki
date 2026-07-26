@@ -37,7 +37,7 @@ quality_labels:
 - principle
 - actionable
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

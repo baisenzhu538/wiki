@@ -32,7 +32,7 @@ related:
 - yt-unit-model-build
 - tool-yitang-research-quantitative-modeling
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

@@ -43,7 +43,7 @@ related:
 - '[[framework-一堂-机会预判]]'
 - '[[tool-一堂-机会预判-案例预判]]'
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:intermediate
 ---

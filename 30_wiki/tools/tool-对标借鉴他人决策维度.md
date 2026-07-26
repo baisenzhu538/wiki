@@ -39,7 +39,7 @@ related:
 - '[[tool-稀缺资源机会成本比对法]]'
 - tool-ai-prd-for-ai
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:beginner
 ---

@@ -32,7 +32,7 @@ diagnostic_signals:
 - framework_lens: 技术护城河——技术投入需要与商业目标对齐
   follow_up_question: 你的技术投入是否服务于商业目标？技术成果是否转化为产品或成本优势？
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

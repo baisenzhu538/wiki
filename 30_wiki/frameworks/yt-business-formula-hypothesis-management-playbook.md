@@ -83,7 +83,7 @@ quality_labels:
 - actionable
 - insight
 tags:
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:advanced
 ---

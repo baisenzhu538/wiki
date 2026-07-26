@@ -45,7 +45,7 @@ quality_labels:
 - principle
 - insight - framework-yitang-thought-liberation-lightning
 tags:
-- audience:manager
+- audience:ceo
 - scene:diagnosis
 - skill-level:advanced
 ---

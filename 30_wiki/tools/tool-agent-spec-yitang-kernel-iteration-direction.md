@@ -32,7 +32,7 @@ related:
 - '[[tool-agent-spec-yitang-kernel-three-questions]]'
 - '[[tool-agent-spec-yitang-kernel-verification-ladder]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:intermediate
 ---

@@ -21,7 +21,7 @@ source_refs:
 - 10_raw/sources/src_20260614_1a0a6efa-网络话密达数据公司介绍.md
 - 10_raw/sources/src_20260614_7e8857b8-theme-other-summary.md
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:intermediate
 created_at: '2026-06-14'

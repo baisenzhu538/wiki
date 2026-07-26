@@ -20,7 +20,7 @@ related:
 - '[[pending_unknown]]'
 - tool-strategy-pareto
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---

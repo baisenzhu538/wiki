@@ -19,7 +19,7 @@ related:
 - '[[dk-ai-judgment-human-responsibility]]'
 - '[[dk-ai-judgment-programmer-paradox]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:beginner
 ---

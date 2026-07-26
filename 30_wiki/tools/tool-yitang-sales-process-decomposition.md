@@ -48,7 +48,7 @@ related:
 created_at: 2026-07-02
 updated_at: 2026-07-24
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---

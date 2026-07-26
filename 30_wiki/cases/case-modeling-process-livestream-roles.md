@@ -16,7 +16,7 @@ tags:
 - src_unknown
 - src_unknown
 - src_unknown
-- audience:manager
+- audience:executor
 - scene:reference
 - skill-level:advanced
 created_at: '2026-06-15'

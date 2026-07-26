@@ -32,7 +32,7 @@ diagnostic_signals:
 - framework_lens: 供应链壁垒——地理位置是壁垒，但需要持续维护
   follow_up_question: 你的地理位置优势是否可持续？竞品是否也能获得类似位置？
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

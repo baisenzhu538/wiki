@@ -24,7 +24,7 @@ related:
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]'
 tags:
-- audience:manager
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

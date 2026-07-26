@@ -27,7 +27,7 @@ diagnostic_signals:
 - framework_lens: 前置假设验证
   follow_up_question: 你的决策依赖哪 2-3 个前置假设？每个假设的不通过标准是什么？
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---

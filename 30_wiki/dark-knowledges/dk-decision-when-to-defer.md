@@ -29,7 +29,7 @@ related:
 - '[[concept-AI时代双三角竞争力]]'
 - '[[master-decision-hygiene]]'
 tags:
-- audience:ceo
+- audience:executor
 - scene:reference
 - skill-level:intermediate
 ---

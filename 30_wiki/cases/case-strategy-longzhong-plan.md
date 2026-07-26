@@ -20,7 +20,7 @@ related:
 - case-opc-agent-wave1-real-model-testing
 - case-strategy-practice-12-zero-loss
 tags:
-- audience:ceo
+- audience:general
 - scene:reference
 - skill-level:advanced
 ---

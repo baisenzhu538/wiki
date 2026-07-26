@@ -23,7 +23,7 @@ related:
 - '[[agents/agent-os]]'
 - '[[concept-yihang-dual-triangle-core]]'
 tags:
-- audience:executor
+- audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
 ---

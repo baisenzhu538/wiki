@@ -16,7 +16,7 @@ domain:
 source_refs:
 - pending_archive:src_unknown
 tags:
-- audience:ceo
+- audience:executor
 - scene:execution
 - skill-level:advanced
 ---
