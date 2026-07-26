@@ -50,6 +50,10 @@ related:
    - case: 关键证据/可迁移场景/教训/失败模式
    - framework: Critique/When NOT to Use/失败模式/Action Triggers
    - tool: 操作步骤/适用边界/失败模式
+□ 🆕 子卡定位声明（2026-07-25 补丁）：
+   每张 tool/concept/case/dk 卡，related 含 framework 时，正文首段是否声明了框架归属？
+   Grep: related 中 framework-* → Read body 前 3 行 → 有 "属于/定位/XX框架/第X步" 任意一个？
+   缺少定位声明 = body has no positioning declaration → 🔴 退回
 □ related 计数 ≥5 且 ≥2 跨域
 □ source_refs 非 src_unknown
 □ frontmatter 必填字段：id/type/status/domain/author/reviewed_by/review_date

@@ -46,9 +46,11 @@ related:
 - '[[tool-agent-spec-yitang-sales-toolkit-gap]]'
 - '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
 created_at: 2026-07-02
-updated_at: 2026-07-02
+updated_at: 2026-07-24
 ---
 # 一堂销售过程拆解三步法（用户决策路径地图）
+
+> 本卡属于 `framework-yitang-scientific-sales-five-step` 的 **B 步（拆解过程）**，完整框架还包括 A.提炼卖点 / C.推进业绩 / D.激励团队 / E.打造工具。
 
 ## 操作步骤
 

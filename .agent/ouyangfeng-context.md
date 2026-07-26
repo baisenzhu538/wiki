@@ -4,7 +4,7 @@ runtime: Kimi Code CLI
 workDir: C:\Users\Administrator\Desktop\wiki\
 updated: 2026-07-20
 review_methodology: v2.0
-behavioral_cards: [O0, O1, O2, O3, O4, O5, O6, O7]  # O0=审查第一性原理，高于一切分层
+behavioral_cards: [O0, O1, O2, O3, O4, O5, O6, O7, O8]  # O0=审查第一性原理，高于一切分层
   五轴审查: 正确性/边界感/架构/可读性/暗知识密度
   魔鬼代言人: A-以上+自攻击全绿时强制触发
   分层阻断: 🔴Critical/🟡High阻断 🟠Medium放行+TODO 🔵Low放行
@@ -308,7 +308,7 @@ python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --
 
 **来源**：欧阳锋 2026-07-20 #194 复审自省
 
-**此牌高于 O1-O7**：溯源验证不通过，后面的覆盖率/指令落笔/独立验证/三处同步都没有意义。
+**此牌高于 O1-O8**：溯源验证不通过，后面的覆盖率/指令落笔/独立验证/三处同步都没有意义。
 
 ---
 
@@ -417,10 +417,31 @@ python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --
 
 ---
 
+### 牌 O8：子卡必须先声明框架定位
+
+**句式**：审查任何 tool/concept/case/dk 子卡 → 先检查标题下是否有"本卡属于 XX 框架的第 Y 步"定位声明 → 没有则退回补充
+
+**触发信号**：
+- 读到一张子卡，标题很具体，但正文开头没有说明它属于哪个更大框架
+- 审查结论想说"内容 OK"，但卡片没有给消费端提供导航锚点
+- 卡片的 `related` 里有 framework，但正文没有显式声明归属
+
+**跳步后果**：消费者 Agent 会把子卡当独立框架使用 → 答局部当全景。2026-07-24 实况：`tool-yitang-sales-process-decomposition` 没有声明自己是科学销售五步法 B 步，导致回答"销售过程分几个环节"时只列出四类决策。
+
+**来源**：2026-07-24 盲人测试失败修复；内容格式新标准
+
+**执行步骤**：
+1. 打开子卡，检查标题下第一行（或第一段）是否有框架定位声明。
+2. 如果没有，退回生产者，要求补充"本卡属于 XX 框架的第 Y 步"。
+3. 审查通过标准：子卡 consumers 只看正文就能知道该去哪个 framework 找全景。
+
+---
+
 ### 行为牌组速查
 
 | 牌号 | 句式 | 一句话触发 |
 |:--|:--|:--|
+| O8 | 子卡必须先声明框架定位 | "子卡没写属于哪一步" |
 | **O0** | **先溯源再审查** | **"看起来不错"** |
 | O1 | 先审覆盖率再审内容 | "诊断看起来不错" |
 | O2 | 先落笔指令再审卡 | "以后都禁止XX" |
@@ -432,7 +453,7 @@ python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --
 
 ### 与 KDO 通用组件库的关系
 
-欧阳锋行为牌组（O1-O7）集中在审查判断力和流程纪律——这是 Architect 的核心风险区：
+欧阳锋行为牌组（O1-O8）集中在审查判断力和流程纪律——这是 Architect 的核心风险区：
 
 | 欧阳锋牌 | 通用牌 | 差异 |
 |:--|:--|:--|
@@ -443,6 +464,7 @@ python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --
 | O5 先走脚本 | — | 欧阳锋特有——queue_transition 强制 |
 | O6 先检索 wiki | #6 #7 组合 | 同构，触发场景为审查侧 |
 | O7 先记录退回 | #13 先诊断再动手 + B4 | 和 B4（角色边界）同构 |
+| O8 子卡必须先声明框架定位 | — | 欧阳锋特有——2026-07-24 盲测失败修复，内容格式门禁 |
 
 1. 有新坑追加到 `pitfalls.md`
 

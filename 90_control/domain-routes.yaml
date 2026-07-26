@@ -1,0 +1,63 @@
+# KDO 域路由配置 — 驱动 kdo query 的 MOC 优先 + BM25 融合检索
+# 每个域 = keyword 触发词 + 索引入口卡 + 搜索目录
+# 新增域 = 在此文件中加一行配置，无需改代码
+
+domains:
+  调研:
+    keywords: [调研, 研报, 报告, 情报, 尽调, 行业分析, 市场研究, 财报, 招股书, 上市公司, 对标, benchmark, research, 爬虫, 数据采集, scraping]
+    index_cards: [yitang-research-domain-digest]
+    search_dirs: [frameworks, tools, cases, dark-knowledges, concepts]
+
+  决策:
+    keywords: [决策, 判断, 选择, 评估, 风险, ROI, 投资]
+    index_cards: []
+    search_dirs: [concepts, frameworks, dark-knowledges]
+
+  五步法:
+    keywords: [五步法, 产品内核, 商业模式, 增长, 壁垒, 需求]
+    index_cards: [five-step-domain-digest]
+    search_dirs: [concepts, frameworks, tools, cases]
+
+  销售管理:
+    keywords: [销售, 卖点, 客户, 成交, 转化, 跟单, 激励, 提成, pipeline, CRM, SABC]
+    index_cards: [framework-yitang-scientific-sales-five-step]
+    search_dirs: [frameworks, tools, cases, concepts, dark-knowledges]
+
+  多模态:
+    keywords: [OCR, VLM, 识图, 视觉, 视频, 画图, PPT, 配音, TTS, 图片, 图像, video, image, audio, 无限画布, prezi]
+    index_cards: [beikai-multimodal-pipeline]
+    search_dirs: [frameworks, tools, skills, cases]
+
+  发布:
+    keywords: [发布, 飞书, 公众号, 小红书, 渠道, 分发, ship, publish, 推送]
+    index_cards: [skill-duanwangye-feishu-publishing]
+    search_dirs: [skills, workflows, tools, frameworks]
+
+  内容生产:
+    keywords: [写作, 文案, 口播, 文章, 逐字稿, 去AI味, 润色, 讲人话, content]
+    index_cards: [framework-candy-transcript-workflow]
+    search_dirs: [frameworks, tools, skills, cases, dark-knowledges]
+
+  需求分析:
+    keywords: [需求, 痛点, JTBD, 冰山, 用户画像, 场景, demand]
+    index_cards: []
+    search_dirs: [frameworks, tools, cases, concepts]
+
+  AI协作:
+    keywords: [AI, Agent, prompt, 智能体, 协作, RAG, skill, workflow, LLM, 模型, Claude, Codex]
+    index_cards: [concept-yihang-dual-triangle-core]
+    search_dirs: [frameworks, concepts, tools, skills, cases]
+
+  KDO:
+    keywords: [KDO, 知识工厂, 管线, pipeline, 索引, 检索, 编译, 门禁, lint, pre-submit]
+    index_cards: [framework-kdo-modeling-methodology]
+    search_dirs: [frameworks, concepts, tools, skills, workflows]
+
+# RRF 融合参数
+fusion:
+  graph_weight: 1.0      # Graph RAG 的 RRF k 值权重
+  bm25_weight: 1.0       # BM25 的 RRF k 值权重
+  moc_boost: 50          # MOC 索引入口卡命中时的加分
+  framework_boost: 10    # framework 卡的加权
+  tool_boost: 8          # tool 卡的加权
+  rrf_k: 60              # RRF 公式中的 k 常数

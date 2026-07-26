@@ -336,3 +336,39 @@ Agent v0 → 真实场景测试 → trace复盘 → 暴露缺口
   → 下次会话作为 data pack 加载
 ```
 
+---
+
+## 12. Agent 域知识回答标准（所有 Agent 必须遵守）
+
+> **2026-07-25 补丁**：盲人测试暴露——Agent 回答域知识问题时，会把匹配到的 tool 卡当 framework 卡答。根源是检索层缺 MOC 导航 + Agent 没有"向上溯源"的标准动作。以下规则写入 OS 层，不依赖各 context 口口相传。
+
+### 规则 1：先找 MOC 再回答
+
+**触发**：被问到域知识问题（"XX 域有哪些内容""XX 方法分成几个步骤"）。
+
+**动作**：
+1. 检索到候选卡片后，先看它的 `related` 字段——是否有指向 framework/domain-digest 的链接？
+2. 往上追溯一层：这张卡属于哪个更大的框架？
+3. 确认了它在全局的位置后，再组织回答。
+4. 回答的第一句话必须是定位，不是直接列内容：
+   ```
+   ✅ "科学销售五步法的 B 步。完整框架还有 A/C/D/E……"
+   ❌ "四类决策：接触/购买/付款/履约。"
+   ```
+
+**跳步后果**：把 tool 卡当成领域全景→只看到局部→答非所问。2026-07-24 实况验证。
+
+### 规则 2：子卡必须声明定位
+
+所有 tool/concept/case/dk 卡，如果 `related` 中包含 framework 引用，正文第一段必须声明所属框架位置：
+
+```markdown
+> **定位**：属于 [[framework-xxx]] 的 X 步。完整框架还包括……
+```
+
+此规则由 `kdo lint` 的 `position_declaration` 检查自动执行——pre-submit 阶段即被拦截，不到审查。
+
+### 规则 3：检索层 MOC 优先
+
+`kdo query` 使用 RRF 融合（Graph RAG + BM25）+ MOC 域优先 boost。新域上线时必须在 `90_control/domain-routes.yaml` 注册 keywords 和 index_cards，否则检索不会返回该域的上层框架卡。见 `framework-kdo-retrieval-architecture-v2`。
+

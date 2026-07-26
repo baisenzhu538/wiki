@@ -1,0 +1,41 @@
+# KDO MCP Server — Client Configuration
+# =========================================
+# Copy the relevant block into your MCP client config:
+#   - Claude Desktop: %APPDATA%\Claude\claude_desktop_config.json
+#   - Codex:          .codex\config.toml (mcp_servers section)
+#   - Cursor:         .cursor\mcp.json
+#   - Custom:         Any MCP-compatible client using stdio transport
+
+# ── Stdio transport (local, recommended) ─────────────────────────────
+stdio:
+  kdo:
+    command: python
+    args:
+      - kdo-tools/mcp/server.py
+    cwd: C:\Users\Administrator\Desktop\wiki
+    env:
+      WIKI_ROOT: C:\Users\Administrator\Desktop\wiki
+      KDO_SRC: C:\Users\Administrator\Knowledge Delivery OS 0.0.1
+
+# ── SSE transport (remote / multi-client) ────────────────────────────
+sse:
+  kdo:
+    command: python
+    args:
+      - kdo-tools/mcp/server.py
+      - --sse
+      - --port
+      - "8765"
+    cwd: C:\Users\Administrator\Desktop\wiki
+    env:
+      WIKI_ROOT: C:\Users\Administrator\Desktop\wiki
+      KDO_SRC: C:\Users\Administrator\Knowledge Delivery OS 0.0.1
+
+# ── External MCP servers that KDO can route to ───────────────────────
+external:
+  drawio:
+    url: https://mcp.draw.io/mcp
+    description: "JGraph Draw.io — natural language to editable diagrams"
+  feishu-docx:
+    url: http://localhost:5679/mcp
+    description: "飞书文档发布引擎 — Markdown to Feishu Docx"
