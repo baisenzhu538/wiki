@@ -8,6 +8,12 @@ confidence: 0.8
 trust_level: medium
 domain:
 - system
+aliases:
+  - Agent自我进化协议
+  - Agent自我进化协议：每次复盘四问
+  - 复盘四问
+  - 每次复盘四问
+  - 自我进化协议
 source_refs:
 - 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
 - .agent/pitfalls.md

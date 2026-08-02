@@ -14,6 +14,9 @@ domain:
 - yitang
 - ai-collaboration
 - planning
+aliases:
+  - 一行双三角画布三版合一
+  - 双三角画布三版合一
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-清单版画布.png
 - 00_inbox/人机协作双三角/一堂双三角-解释版画布.png
@@ -35,7 +38,6 @@ related:
 - '[[tool-yitang-dual-triangle-agent-handoff-protocol]]'
 - '[[tool-yitang-dual-triangle-domain-registry]]'
 - '[[tool-yitang-dual-triangle-scenario-router]]'
-aliases:
 - 双三角画布
 - 一行双三角画布
 - 一堂双三角

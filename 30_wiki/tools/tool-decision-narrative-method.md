@@ -26,6 +26,11 @@ diagnostic_signals:
 - signal: 听起来像背稿
   lens: 用真实故事替代话术
   follow_up: 用真实故事替代话术
+aliases:
+  - 决策叙事法
+  - 决策叙事法：磨难→代价→选择
+  - 叙事法
+  - 磨难→代价→选择
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt
 - 00_inbox/解放思想探索营/案例分享-笔记.txt
@@ -35,7 +40,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

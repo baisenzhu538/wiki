@@ -8,6 +8,11 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-2
+aliases:
+  - P2：tmuxsession缓存旧配置
+  - system
+  - 旧配置
+  - 缓存旧配置
 source_refs:
 - src_unknown
 created_at: 2026-06-03

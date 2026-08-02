@@ -23,6 +23,18 @@ tags:
 trust_level: high
 reviewed_by: 欧阳锋
 related:
+aliases:
+  - 一堂科学销售常见陷阱：六大反模式与修复动作
+  - 一堂科学销售常见陷阱
+  - 六大反模式与修复动作
+  - 李蕊
+  - 科学销售常见陷阱
+  - 反模式与修复动作
+aliases:
+  - 一堂科学销售常见陷阱：六大反模式与修复动作
+  - 一堂科学销售常见陷阱
+  - 六大反模式与修复动作
+  - 李蕊
 - '[[case-yitang-sales-transformation-jubensha-saas]]'
 - '[[case-yitang-sales-transformation-meirongyuan]]'
 - '[[case-yitang-sales-transformation-tuliaogongsi]]'

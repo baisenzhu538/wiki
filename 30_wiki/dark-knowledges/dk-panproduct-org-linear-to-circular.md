@@ -16,6 +16,12 @@ quality_labels:
 - cited
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - 从直线运动到圆周运动
+  - 兰毅 / 一堂
+  - 线运动到圆周运动
+  - 组织资产
+  - 组织资产：从直线运动到圆周运动
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
@@ -35,7 +41,6 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 泛产品设计
 - 用泛产品思维做组织
 ---

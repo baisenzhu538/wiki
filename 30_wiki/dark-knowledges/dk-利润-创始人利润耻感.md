@@ -14,6 +14,13 @@ created_at: '2026-07-19'
 updated_at: '2026-07-19'
 quality_labels:
 - insight
+aliases:
+  - 不敢拿利润不是贪婪问题
+  - 人利润耻感
+  - 创始人利润耻感
+  - 创始人利润耻感：不敢拿利润不是贪婪问题，是认知问题
+  - 拿利润不是贪婪问题
+  - 是认知问题
 source_refs:
 - 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L800-L816
 - 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L2200-L2216
@@ -25,7 +32,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 利润为王
 - 利润认知与企业生存
 ---

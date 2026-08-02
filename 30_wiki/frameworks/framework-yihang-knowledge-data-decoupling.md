@@ -17,10 +17,28 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
+discoverable_by:
+  - "知识数据解耦"
+  - "核心词data pack"
+  - "插件式知识组合"
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-aesthetic-library-builder]]'
 - '[[method-dual-triangle-flywheel-engine]]'
 tags:
+aliases:
+  - 知识层与数据层解耦：核心词+datapack插件式组合
+  - 知识层与数据层解耦
+  - 核心词
+  - 插件式组合
+  - 件式知识组合
+  - 识数据解耦
+aliases:
+  - 知识层与数据层解耦：核心词+datapack插件式组合
+  - 知识层与数据层解耦
+  - 核心词
+  - 插件式组合
+  - 识数据解耦
+  - 件式知识组合
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

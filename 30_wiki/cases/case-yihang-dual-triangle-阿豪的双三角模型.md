@@ -15,6 +15,19 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三�?_processed/阿豪的双三角模型_vlm.md
 related:
+aliases:
+  - 双三角案例：阿豪电商选品内网穿�?�?AI自动�?type:case
+  - 双三角案例
+  - 阿豪电商选品
+  - 内网穿�?�?AI
+  - 自动�?type
+  - 阿豪电商选品内网穿
+aliases:
+  - 双三角案例：阿豪电商选品内网穿�?�?AI自动�?type:case
+  - 双三角案例
+  - 阿豪电商选品
+  - 内网穿�?�?AI
+  - 自动�?type
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[case-yihang-dual-triangle-ahao-product-selection]]"
 ---

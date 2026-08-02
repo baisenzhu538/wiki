@@ -15,6 +15,13 @@ domain:
 - conversion-rate
 source_person: 佳佳校长
 source_context: 一堂「转化率黑客-组合篇」学员旗舰案例，大学生科目二峰值触点+信任触点
+aliases:
+  - 佳佳校长
+  - 佳佳校长抓住科目二考过峰值触点送六杯奶茶
+  - 佳佳校长抓住科目二考过峰值触点送六杯奶茶，将大学生推荐率拉到近100%
+  - 学生推荐率拉到近
+  - 将大学生推荐率拉到近
+  - 将大学生推荐率拉到近100%
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L578-L599
 related:
@@ -35,7 +42,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - conversion
 - handle
 ---

@@ -43,6 +43,12 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:intermediate
+discoverable_by:
+- 人机协作域
+- 双三角域
+- AI协作
+- 人机协同
+- 协作方法论
 ---
 # 域摘要：人机协作范式——双三角模型域
 

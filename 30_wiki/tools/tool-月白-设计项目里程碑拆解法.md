@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-产品替换式场景合成法]]'
 - '[[tool-月白-正向反馈强化AI生成]]'
 tags:
+aliases:
+  - 技能：设计项目里程碑拆解法
+  - 技能
+  - 设计项目里程碑拆解法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

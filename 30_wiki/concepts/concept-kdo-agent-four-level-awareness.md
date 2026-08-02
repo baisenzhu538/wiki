@@ -8,6 +8,12 @@ confidence: 0.85
 trust_level: high
 domain:
 - system
+aliases:
+  - Agent四层觉察
+  - Agent四层觉察：从后知后觉到先知先觉
+  - 从后知后觉到先知先觉
+  - 四层觉察
+  - 知后觉到先知先觉
 source_refs:
 - 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
 - 30_wiki/frameworks/framework-kdo-modeling-methodology.md

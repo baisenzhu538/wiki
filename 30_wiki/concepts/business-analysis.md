@@ -15,6 +15,8 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+aliases:
+  - 业务分析
 related:
 - '[[learning-thinking]]'
 - '[[meta-prompt-eng]]'

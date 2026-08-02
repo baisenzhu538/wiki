@@ -8,6 +8,12 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-14
+aliases:
+  - system
+  - 僵尸
+  - 死循环
+  - 进程默默烧钱
+  - 默默烧钱
 source_refs:
 - src_unknown
 created_at: 2026-06-03

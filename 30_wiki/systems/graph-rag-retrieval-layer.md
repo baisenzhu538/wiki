@@ -33,6 +33,12 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+discoverable_by:
+- Graph RAG
+- 知识检索
+- 图谱检索
+- 向量检索
+- RAG系统
 ---
 # Graph RAG 检索层技术说明
 

@@ -3,6 +3,13 @@ id: dk-modeling-expert-consensus-five-percent
 title: 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感
 type: dk
 dark_knowledge_type: principle
+aliases:
+  - 5%的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感
+  - Truman
+  - 不是个人灵感
+  - 家决定一堂课的最大公约数
+  - 的专家决定一堂课的最大公约数
+  - 课程质量来自专家共识
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
@@ -36,7 +43,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 建模能力培训
 ---
 

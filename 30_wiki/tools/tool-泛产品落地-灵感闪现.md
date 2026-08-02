@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-泛产品落地-灵感闪现
 title: 落地卡片：灵感闪现
 type: tool
@@ -15,6 +15,10 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-灵感闪现_vlm_desc.md
 related:
+aliases:
+  - 落地卡片：灵感闪现
+  - 落地卡片
+  - 灵感闪现
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
 - '[[pending_unknown]]'

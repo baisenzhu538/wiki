@@ -27,6 +27,13 @@ similar_to:
 - 得到App（重新定义知识产品的价值标准）
 opposite_of:
 - 传统创业赛（拼PPT、编数据）
+aliases:
+  - 从编造数据到价值塑造
+  - 创业赛重构
+  - 吴迪
+  - 吴迪创业赛重构：从编造数据到价值塑造
+  - 赛重构
+  - 造数据到价值塑造
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt L1014-1290
 - 00_inbox/解放思想探索营/案例分享-笔记.txt §四
@@ -47,7 +54,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

@@ -15,6 +15,12 @@ related:
 - '[[zhu-time-os]]'
 - '[[user-insight-profile]]'
 - '[[opc-ai-sales-agent-architecture]]'
+discoverable_by:
+- 代码库编排
+- AI开发工作流
+- 老朱代码库
+- AI编程
+- 开发自动化
 ---
 
 # 老朱代码库AI编排项目

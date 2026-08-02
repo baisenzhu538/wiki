@@ -21,6 +21,8 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_ocr_text.md
 - 00_inbox/精益创业/精益创业-false模型-策略图_ocr_text.md
 related:
+discoverable_by:
+  - "精益六大浪费"
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
@@ -34,6 +36,18 @@ quality_labels:
 updated_at: '2026-06-29'
 created_at: '2026-06-30'
 tags:
+aliases:
+  - 创业六宗罪/六大浪费
+  - 创业六宗罪
+  - 六大浪费
+  - 大浪费
+  - 六宗罪
+  - 益六大浪费
+aliases:
+  - 创业六宗罪/六大浪费
+  - 创业六宗罪
+  - 六大浪费
+  - 益六大浪费
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

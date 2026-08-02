@@ -19,6 +19,11 @@ diagnostic_signals:
 - signal: 系统交付形态是否与前期承诺一致
   framework_lens: 承诺一致性 / 交付对齐
   follow_up_question: 源码/SaaS/定制边界是否在合同中明确？
+aliases:
+  - 四步法
+  - 私域
+  - 私域SaaS销售四步法
+  - 销售四步法
 source_refs:
 - 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
 - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
@@ -43,6 +48,12 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 aliases: []
+discoverable_by:
+- 私域销售
+- SaaS销售流程
+- 私域SaaS
+- 私域招商
+- 分销系统销售
 ---
 # 私域 SaaS 销售四步法
 

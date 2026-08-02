@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-13
+aliases:
+  - P13：长会话=token黑洞一晚上烧掉80元
+  - system
+  - token黑洞
+  - 一晚上烧掉80元
+  - 长会话
+  - 黑洞一晚上烧掉
 source_refs:
 - src_unknown
 created_at: 2026-06-03

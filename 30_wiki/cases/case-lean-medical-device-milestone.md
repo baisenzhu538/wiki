@@ -14,6 +14,12 @@ domain:
 - strategy
 - yitang
 - product
+aliases:
+  - 一堂课程讲师（教学推演案例）
+  - 医疗器械项目里程碑测试
+  - 器械项目里程碑测试
+  - 教学推演案例
+  - 课程讲师
 source_refs:
 - 00_inbox/精益创业/truman-低成本验证-医疗器械案例-01_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-医疗器械案例-01_vlm_desc.md
@@ -34,7 +40,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 低成本验证
 - 医疗器械案例
 ---

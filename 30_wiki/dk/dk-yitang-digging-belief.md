@@ -14,6 +14,9 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 式深挖的信念
+  - 破案式深挖的信念
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:

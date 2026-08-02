@@ -26,6 +26,11 @@ source_refs:
 - 10_raw/itingnao/details/3979746.json
 source_person: 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）/ Truman（渠道方法论）
 related:
+discoverable_by:
+  - "渠道合伙人"
+  - "卖地图模式"
+  - "区域包干决策"
+  - "小众品类渠道"
 - '[[tool-strategy-profit-model-comparison]]'
 - '[[tool-yitang-channel-scoring-matrix]]'
 - '[[tool-yitang-channel-agent-interview]]'
@@ -38,6 +43,20 @@ related:
 - case-strategy-m-brand-profit-model
 - framework-yitang-deliberate-practice-1plus4
 tags:
+aliases:
+  - 小众品类渠道合伙人/区域包干决策框架卖地图模式
+  - 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）/ Truman（渠道方法论）
+  - 道合伙人
+  - 品类渠道合伙人
+  - 干决策
+  - 战略培训案例
+aliases:
+  - 小众品类渠道合伙人/区域包干决策框架卖地图模式
+  - 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）/ Truman（渠道方法论）
+  - 道合伙人
+  - 众品类渠道
+  - 域包干决策
+  - 地图模式
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

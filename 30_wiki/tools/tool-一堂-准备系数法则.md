@@ -13,6 +13,12 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂准备系数法则
+  - 一堂准备系数法则：需要量:准备量与三倍准备、三分之一挑选的经验系数
+  - 三分之一挑选的经验系数
+  - 准备量与三倍准备
+  - 需要量
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1864-L1926
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2386-L2398
@@ -39,7 +45,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - conversion
 - handle
 ---

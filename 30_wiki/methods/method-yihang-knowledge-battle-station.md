@@ -25,6 +25,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 知识战斗站
+- 知识碰撞
+- 框架对抗
+- 知识验证
+- 认知冲突
 ---
 
 # 知识站场：从"试工具→失败→清零"到"建站场→持续积累→花开了"

@@ -9,6 +9,13 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
+aliases:
+  - 不是会用工具
+  - 会用工具
+  - 王欢
+  - 王欢：AINative不是会用工具，而是默认把AI纳入流程
+  - 纳入流程
+  - 而是默认把
 source_refs:
 - src_unknown
 - src_unknown

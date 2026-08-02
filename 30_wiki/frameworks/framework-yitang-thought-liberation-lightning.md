@@ -15,7 +15,6 @@ updated_at: '2026-07-26'
 quality_labels:
 - principle
 - actionable
-aliases:
 - 闪电曲线
 - 四阶创新法
 - 大胆设想四步法
@@ -33,6 +32,11 @@ tags:
   - audience:decision-maker
   - content-format:framework
   - source-person:Truman
+aliases:
+  - 思想创新四阶体系
+  - 解放思想创新四阶体系
+  - 闪电模型
+  - 闪电模型：解放思想创新四阶体系
 source_refs:
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L496-568

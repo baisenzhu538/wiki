@@ -10,6 +10,13 @@ trust_level: high
 updated_at: '2026-06-29'
 language: zh-CN
 domain: strategy
+aliases:
+  - 影响力
+  - 影响力×急迫性四象限
+  - 急迫性四象限
+  - 核心能力评估矩阵
+  - 核心能力评估矩阵：影响力×急迫性四象限
+  - 能力评估矩阵
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_145_vlm_desc.md
 related:
@@ -22,7 +29,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

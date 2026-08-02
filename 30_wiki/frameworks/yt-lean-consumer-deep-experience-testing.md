@@ -7,6 +7,12 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 品深层体验测试
+  - 消费品深层体验测试
+  - 消费品深层体验测试：表层反馈vs深层体验
+  - 深层体验
+  - 表层反馈
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 created_at: '2026-06-16'
@@ -38,8 +44,13 @@ diagnostic_signals:
   follow_up_question: 这个痛点在用户的真实使用场景里是核心问题、次要问题，还是解决后会带来更多问题？
 - framework_lens: 缺少对照组，用户难以觉察自己的深层感受
   follow_up_question: 是否设计了 A/B 对照，让用户在对比中自然暴露差异偏好？
-aliases:
 - 精益方法论培训
+discoverable_by:
+- 消费者深度测试
+- 用户体验测试
+- 深度体验验证
+- 精益用户研究
+- 体验驱动验证
 ---
 
 

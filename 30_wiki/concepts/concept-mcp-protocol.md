@@ -14,6 +14,11 @@ domain:
 - yitang
 - research
 - ai-collaboration
+aliases:
+  - Agent调用外部工具的统一标准
+  - MCP协议
+  - MCP协议：Agent调用外部工具的统一标准
+  - 调用外部工具的统一标准
 source_refs: null
 related:
 - '[[yitang-domain-digest]]'

@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-设计参考图精准定位法]]'
 - '[[tool-月白-商业项目AI模型选型决策]]'
 tags:
+aliases:
+  - 技能：基于需求拆解找设计参考
+  - 技能
+  - 基于需求拆解找设计参考
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

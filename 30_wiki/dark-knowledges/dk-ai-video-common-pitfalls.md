@@ -29,6 +29,9 @@ diagnostic_signals:
 - signal: 测试期直接上正规 API
   lens: 成本失控
   follow_up: 先用中转商验证，效果通后切正规 API
+aliases:
+  - AI视频工具开发五大失败模式
+  - 视频工具开发五大失败模式
 source_refs:
 - 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-笔记.txt
 - 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt
@@ -51,7 +54,6 @@ query_triggers:
 - AI视频工具失败
 - 口播工具踩坑
 - 网感开发
-aliases:
 - AI口播工具开发经验
 - 付则宇
 ---

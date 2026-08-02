@@ -21,6 +21,11 @@ query_triggers:
 - src_unknown
 review_date: 2026-06-11
 reviewed_by: 老顷童
+aliases:
+  - 五步法常见误区与认知陷阱
+  - 暗知识
+  - 暗知识：五步法常见误区与认知陷阱
+  - 法常见误区与认知陷阱
 source_refs:
 - 10_raw/sources/src_20260611_7c893d19-一堂-一堂五步法-落地实操-口述.md
 - 10_raw/sources/src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记.md
@@ -56,7 +61,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 - 落地实操
 ---

@@ -34,6 +34,10 @@ source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-笔记.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+discoverable_by:
+  - "专家访谈十步法"
+  - "盲区梳理到专家匹配"
+  - "专家访谈方法"
 - '[[yt-tool-meeting-designer]]'
 - '[[framework-doris-industry-report-4step]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'
@@ -50,6 +54,20 @@ related:
 - '[[case-yitang-sanjieke-benchmark-failure]]'
 - '[[yt-tool-business-formula-expert-interview-10]]'
 tags:
+aliases:
+  - 专家访谈黄金十步法：从盲区梳理到专家匹配
+  - 专家访谈黄金十步法
+  - 从盲区梳理到专家匹配
+  - 谈十步法
+  - 访谈黄金十步法
+  - 家访谈十步法
+aliases:
+  - 专家访谈黄金十步法：从盲区梳理到专家匹配
+  - 专家访谈黄金十步法
+  - 从盲区梳理到专家匹配
+  - 家访谈方法
+  - 家访谈十步法
+  - 区梳理到专家匹配
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

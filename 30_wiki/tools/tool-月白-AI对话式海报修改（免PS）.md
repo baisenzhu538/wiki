@@ -38,6 +38,11 @@ related:
 - '[[tool-月白-课程资料文件命名规范]]'
 - '[[tool-李诞-判断工作价值的交易成本视角]]'
 tags:
+aliases:
+  - 技能：AI对话式海报修改免PS
+  - 技能
+  - AI对话式海报修改免PS
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

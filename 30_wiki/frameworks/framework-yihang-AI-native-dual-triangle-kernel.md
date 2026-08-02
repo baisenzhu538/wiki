@@ -17,6 +17,8 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
+discoverable_by:
+  - "双三角是引擎"
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yitang-y-model-dual-triangle-synergy]]'
 - '[[yt-decision-y-model]]'
@@ -24,6 +26,18 @@ related:
 - '[[dk-ai-collaboration-degradation-spiral]]'
 - '[[framework-yihang-ai-implementation-consultant]]'
 tags:
+aliases:
+  - AI原生是结果，双三角是引擎
+  - 原生是结果
+  - 双三角是引擎
+  - 三角是引擎
+  - 是引擎
+  - 角是引擎
+aliases:
+  - AI原生是结果，双三角是引擎
+  - 原生是结果
+  - 双三角是引擎
+  - 三角是引擎
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

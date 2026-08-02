@@ -23,6 +23,10 @@ related:
 - concept-发现决策
 updated_at: '2026-06-29'
 tags:
+aliases:
+  - 审美工具箱：产品审美的诊断和提升工具集合
+  - 审美工具箱
+  - 产品审美的诊断和提升工具集合
 - audience:executor
 - scene:execution
 - skill-level:intermediate

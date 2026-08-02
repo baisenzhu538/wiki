@@ -8,6 +8,13 @@ domain:
 - personal-growth
 - learning-methodology
 status: reviewed
+aliases:
+  - C角色咨询法
+  - YAIC角色咨询法：Counsel式方案输出节奏
+  - 式方案输出节奏
+  - 案输出节奏
+  - 色咨询法
+  - 角色咨询法
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
@@ -27,7 +34,6 @@ related:
 - '[[ai-virtual-coach-prompt]]'
 - '[[practice-card-decomposition]]'
 - '[[ai-tool-learning-workbook]]'
-aliases:
 - YAI Counsel 角色
 - YAI C角色
 - C角色咨询法

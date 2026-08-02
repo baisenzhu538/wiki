@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 妮招股书
+  - 敏感肌市场的完整画像
+  - 案例
+  - 案例：贝泰妮招股书敏感肌市场的完整画像
+  - 肌市场的完整画像
+  - 贝泰妮招股书
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 上市公司报告解读
 - 调研专题
 ---

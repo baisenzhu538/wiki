@@ -16,6 +16,13 @@ domain:
 source_person: 小米/雷军
 source_context: 一堂《小米发布会拆解练习》素材，作为动力/阻力/触点拆解的练习案例，PDF 共 63 页，实际有效页为目录+p001-p008 开场/颜色/设计片段+p062-p063
   评论
+aliases:
+  - 小米/雷军
+  - 小米汽车发布会拆解
+  - 小米汽车发布会拆解：用动力/阻力/触点框架解析一场标杆产品发布会
+  - 用动力
+  - 用动力/阻力/触点框架解析一场标杆产品发布会
+  - 触点框架解析一场标杆产品发布会
 source_refs:
 - 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p001.txt
   L1-L32
@@ -57,7 +64,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - conversion
 - handle
 ---

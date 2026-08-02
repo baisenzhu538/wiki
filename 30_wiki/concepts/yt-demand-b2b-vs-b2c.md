@@ -7,6 +7,13 @@ status: reviewed
 confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——ToB vs ToC差异
+aliases:
+  - ToBvsToC需求分析差异：决策链、频率与验证方法
+  - ToC需求分析差异
+  - 与验证方法
+  - 决策链
+  - 需求分析差异
+  - 频率与验证方法
 source_refs:
 - pending_archive:src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 - pending_archive:src_20260616_18764078-yitang-tob-five-step-19-images-ocr.md
@@ -36,7 +43,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 一堂五步法
 ---
 

@@ -13,6 +13,13 @@ updated_at: 2026-07-04
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 一夜深挖
+  - 双三角案例
+  - 双三角案例：Truman一夜深挖AI组织行为学四个模型交叉验证
+  - 四个模型交叉验证
+  - 组织行为学
+  - 角案例
 source_refs:
 - 00_inbox/人机协作双三角/_processed/AI组织行为学的口述_text.md
 related:
@@ -22,7 +29,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 人机协作双三角
 - 组织行为学的口述
 ---

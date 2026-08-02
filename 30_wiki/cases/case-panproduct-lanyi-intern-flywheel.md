@@ -20,6 +20,11 @@ quality_labels:
 updated_at: '2026-06-28'
 source_person: 兰毅
 source_context: 兰毅「用泛产品思维做组织」一堂分享，实习生团队产品化实践段落
+aliases:
+  - 兰毅
+  - 兰毅：实习生成长飞轮的产品化设计
+  - 实习生成长飞轮的产品化设计
+  - 生成长飞轮的产品化设计
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
@@ -39,7 +44,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 泛产品设计
 - 用泛产品思维做组织
 ---

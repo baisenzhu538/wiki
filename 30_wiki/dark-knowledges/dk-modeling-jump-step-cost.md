@@ -15,6 +15,13 @@ updated_at: '2026-07-19'
 quality_labels:
 - insight
 - principle
+aliases:
+  - 前置输入为空
+  - 后半段十倍百倍惩罚
+  - 段十倍百倍惩罚
+  - 跳步代价
+  - 跳步代价：前置输入为空，后半段十倍百倍惩罚
+  - 输入为空
 source_refs:
 - 00_inbox/Advanced modeling/ 口述 L2718-L2728
 - 00_inbox/Advanced modeling/ 口述 L2378-L2384
@@ -28,7 +35,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - advanced
 - modeling
 ---

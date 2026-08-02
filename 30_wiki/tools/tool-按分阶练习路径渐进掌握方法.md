@@ -6,6 +6,11 @@ domain: learning-methodology- design
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
+aliases:
+  - 技能
+  - 技能：按分阶练习路径渐进掌握方法
+  - 按分阶练习路径渐进掌握方法
+  - 课程设计者
 source_refs:
 - 10_raw/sources/src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点.md
 definition_of_done:
@@ -32,7 +37,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 单元模型
 - 规模对抗实操难点
 ---

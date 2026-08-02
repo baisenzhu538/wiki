@@ -3,6 +3,9 @@ id: yitang-huazong-ama-by-industry
 created_at: 2026-05-29
 domain:
 - healthcare
+aliases:
+  - 按行业分类整理商业突破大航海
+  - 花总AMA按行业分类整理商业突破大航海
 source_refs:
 - 'pending_archive: src_unknown'
 status: stable

@@ -128,7 +128,7 @@ def find_task_file_by_frontmatter_id(task_id: str) -> Path | None:
             continue
         for path in d.glob("*.md"):
             fm, _ = parse_frontmatter(path)
-            if fm.get("id") == task_id:
+            if fm.get("id") == task_id or str(fm.get("task_id", "")) == task_id:
                 return path
     return None
 

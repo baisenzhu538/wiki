@@ -12,6 +12,12 @@ domain:
 - strategy
 - yitang
 - product
+aliases:
+  - 借现成资源
+  - 借现成资源：降低重投入验证
+  - 成资源
+  - 重投入验证
+  - 降低重投入验证
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212256_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212256_vlm_desc.md
@@ -27,7 +33,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 精益创业
 ---
 

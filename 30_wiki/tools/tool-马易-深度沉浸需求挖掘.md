@@ -26,6 +26,10 @@ related:
 - '[[tool-马易-中国企业AI落地五步法]]'
 - '[[tool-马易-关键假设识别与验证]]'
 tags:
+aliases:
+  - 技能：深度沉浸需求挖掘
+  - 技能
+  - 深度沉浸需求挖掘
 - audience:executor
 - scene:execution
 - skill-level:intermediate

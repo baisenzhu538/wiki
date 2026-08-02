@@ -21,6 +21,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+discoverable_by:
+- KDO管线
+- 文章生产
+- produce validate ship
+- 内容生产闭环
+- 段王爷管线
 ---
 
 # 段王爷·KDO文章生产管线

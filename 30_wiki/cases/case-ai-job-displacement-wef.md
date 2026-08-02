@@ -18,6 +18,10 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
+aliases:
+  - WEF对AI就业影响的预测
+  - 就业影响的预测
+  - 影响的预测
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md

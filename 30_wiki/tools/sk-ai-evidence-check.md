@@ -18,6 +18,24 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[tool-纪浩-Agent技能市场设计法]]'
 tags:
+aliases:
+  - 技能：AI输出证据核查三问法
+  - 技能
+  - AI输出证据核查三问法
+  - 半肥猫
+  - 输出证据核查三问法
+  - 证据核查三问法
+aliases:
+  - 技能：AI输出证据核查三问法
+  - 技能
+  - AI输出证据核查三问法
+  - 半肥猫
+  - 输出证据核查三问法
+aliases:
+  - 技能：AI输出证据核查三问法
+  - 技能
+  - AI输出证据核查三问法
+  - 半肥猫
 - audience:executor
 - scene:execution
 - skill-level:intermediate

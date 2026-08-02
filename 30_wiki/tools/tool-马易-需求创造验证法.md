@@ -24,6 +24,10 @@ related:
 - tool-马易-RPA数据整合法
 - tool-yitang-bp-analysis
 tags:
+aliases:
+  - 技能：需求创造验证法
+  - 技能
+  - 需求创造验证法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

@@ -21,6 +21,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+discoverable_by:
+- 微信消息解密
+- 微信提取
+- 聊天记录解析
+- 结构化提取
+- 段王爷微信
 ---
 
 # 段王爷·微信消息解密与结构化提取

@@ -49,6 +49,11 @@ related:
 - tool-月白-线下门店设计复杂度评估
 - tool-月白-控制产品画面尺寸比例
 tags:
+aliases:
+  - 技能：竞品图精益替换法
+  - 技能
+  - 竞品图精益替换法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -12,6 +12,12 @@ domain:
 - strategy
 - yitang
 - product
+aliases:
+  - 借同行产品
+  - 借同行产品：用竞品认知验证假设
+  - 品认知验证假设
+  - 用竞品认知验证假设
+  - 行产品
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212241_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212241_vlm_desc.md
@@ -28,7 +34,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 精益创业
 ---
 # 借同行产品：用竞品认知验证假设

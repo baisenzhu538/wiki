@@ -6,6 +6,12 @@ title: 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/�
 type: concept
 status: reviewed
 source_context: 一堂 2026-06-13 AI 短剧创作培训，平台政策对比表
+aliases:
+  - 主流短剧平台政策对比
+  - 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果
+  - 抖音/红果/快手/腾讯/爱奇艺/优酷/芒果
+  - 爱奇艺
+  - 短剧平台政策对比
 source_refs:
 - 10_raw/sources/src_20260613_500dbed8-platform-policy-comparison.md
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md

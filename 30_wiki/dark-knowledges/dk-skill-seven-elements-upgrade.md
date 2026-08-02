@@ -14,6 +14,11 @@ updated_at: 2026-07-07
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - Skill≠Prompt蓝鱼七要素告诉你完整Skill缺了什么
+  - 七要素告诉你完整
+  - 缺了什么
+  - 蓝鱼七要素告诉你完整
 source_refs:
 - C:/Users/Administrator/Desktop/从知识库到agent.txt
 related:
@@ -40,7 +45,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - administrator
 - desktop
 - users

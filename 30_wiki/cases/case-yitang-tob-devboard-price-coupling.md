@@ -9,6 +9,13 @@ domain:
 - ai-saas
 source_person: 孔阳
 source_context: 一堂业务公式逻辑关系篇（2026-07-12），L5→L6参数耦合唯一完整案例：用ToC方式卖ToB芯片，降价带来销量上涨但企业客户未增加
+aliases:
+  - ToB芯片开发板
+  - ToB芯片开发板：降价涨量但ToB客户不变，参数耦合的定价回摆
+  - 参数耦合的定价回摆
+  - 孔阳
+  - 客户不变
+  - 降价涨量但ToB客户不变
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3096-L3128
 quality_labels:
@@ -32,7 +39,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - handle
 ---
 

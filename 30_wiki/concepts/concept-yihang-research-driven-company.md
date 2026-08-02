@@ -13,6 +13,13 @@ updated_at: 2026-07-05
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 做过去做不出来的东西
+  - 去做不出来的东西
+  - 型公司
+  - 工程型公司
+  - 研发型公司
+  - 研发型公司vs工程型公司做过去做不出来的东西
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
@@ -22,7 +29,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 一堂双三角
 - 人机协作双三角
 ---

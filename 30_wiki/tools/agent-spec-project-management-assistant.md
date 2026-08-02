@@ -1,4 +1,4 @@
-﻿---
+---
 id: agent-spec-project-management-assistant
 title: 项目管理助手 Agent（对话教练版）
 type: agent-spec
@@ -15,6 +15,13 @@ version: 1
 domain:
 - yitang
 - management
+aliases:
+  - Agent对话教练版
+  - 对话教练版
+  - 教练版
+  - 管理助手
+  - 项目管理助手
+  - 项目管理助手Agent对话教练版
 source_refs:
 - 00_inbox/管项目/项目管理-入门篇-口述.txt
 - 00_inbox/管项目/项目管理-定方案-口述.txt
@@ -37,7 +44,6 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[method-judge-skill-meta-evaluation]]'
 - '[[agent-spec-dual-triangle-canvas-filler]]'
-aliases:
 - 项目管理教练
 - 项目对话教练
 - 管项目Agent

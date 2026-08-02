@@ -2,6 +2,10 @@
 id: sprint-2-门禁举证验收
 created_at: 2026-05-09
 domain: master
+aliases:
+  - Sprint2门禁举证验收
+  - 举证验收
+  - 门禁举证验收
 source_refs:
 - 10_raw/sources/src_20260510_9e98a292-sprint-2-门禁举证验收.md
 status: reviewed
@@ -26,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 门禁举证验收
 ---
 # Sprint 2 门禁举证验收

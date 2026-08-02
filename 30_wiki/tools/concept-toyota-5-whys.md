@@ -2,6 +2,11 @@
 id: concept-toyota-5-whys
 title: 5 Whys：追问到根本原因
 type: tool
+aliases:
+  - 5Whys：追问到根本原因
+  - 到根本原因
+  - 本原因
+  - 追问到根本原因
 source_refs:
 - src_unknown
 - src_unknown

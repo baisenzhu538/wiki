@@ -24,6 +24,13 @@ query_triggers:
 - 差评痛点挖掘
 - 供应链调研
 - 渠道政策摸底
+aliases:
+  - 品调研手段
+  - 大评估法
+  - 浅中深三层10大评估法
+  - 消费品调研手段
+  - 消费品调研手段：浅中深三层10大评估法
+  - 深三层
 source_refs:
 - 00_inbox/调研专题/调研手段卡3（消费品）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡3（消费品）_vlm_desc.md
@@ -44,7 +51,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 消费品
 - 调研专题
 ---

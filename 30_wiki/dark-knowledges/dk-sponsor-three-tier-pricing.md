@@ -1,5 +1,6 @@
 ---
 id: dk-sponsor-three-tier-pricing
+title: "赞助商三层定价法：Logo→精准对接→内容资产"
 type: dk
 domain: management
 status: draft
@@ -9,6 +10,19 @@ author: 老顽童
 reviewed_by: 待审
 confidence: 0.85
 trust_level: observed
+aliases:
+  - Logo→精准对接→内容资产
+  - Logo精准对接内容资产
+  - 三层赞助
+  - 内容资产
+  - 助商说
+  - 王非私董会
+  - 私董会
+  - 第6期 55班 王非私董会 v2.0 【高强版】
+  - 第6期私董会总结
+  - 罗意三层赞助
+  - 赞助商三层定价法
+  - 赞助商三层定价法：Logo→精准对接→内容资产
 source_refs:
   - 00_inbox/私董会/第6期 55班 王非私董会 v2.0 【高强版】.md
   - 00_inbox/私董会/_processed/第6期私董会总结.md
@@ -34,14 +48,7 @@ diagnostic_signals:
   - "赞助商说'不值'→你没帮他算投了这笔钱能赚回多少"
   - "赞助费多年不涨→没有升级产品，一直在卖同一层"
 discoverable_by: "赞助商定价、三层定价法、罗意赞助、活动变现、赞助方案"
-aliases:
-  - 赞助商三层定价法
-  - 罗意三层赞助
-  - Logo精准对接内容资产
-  - 第6期 55班 王非私董会 v2.0 【高强版】
-  - 第6期私董会总结
 ---
-
 # 赞助商三层定价法：Logo→精准对接→内容资产
 
 > **定位**：属于 [[business-formula-domain-digest|业务公式域]] 在活动赞助场景的专项实现——把赞助从"求人给钱"升级为"可量化的ROI产品"。与 [[case-wangfei-newyear-event-diagnosis|王非跨年案例]] 形成"诊断→解法"的完整闭环。

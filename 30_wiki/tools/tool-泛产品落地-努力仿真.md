@@ -12,6 +12,10 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 努力仿真
+  - 落地卡片
+  - 落地卡片：努力仿真
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-努力仿真_vlm_desc.md
 related:
@@ -27,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 努力仿真
 - 泛产品设计
 ---

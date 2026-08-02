@@ -10,6 +10,12 @@ domain:
 - ai-collaboration
 source_person: KDO 团队复盘
 source_context: 第27节master系统暗知识精修：P-1/P-2/P-3/P-6/P-14/F-3 共同暴露的状态残留问题
+aliases:
+  - KDO 团队复盘
+  - 团队复盘
+  - 残留是自动化系统里最隐蔽的
+  - 状态残留是自动化系统里最隐蔽的
+  - 状态残留是自动化系统里最隐蔽的bug
 source_refs: null
 related:
 - '[[ai-collaboration-domain-digest]]'

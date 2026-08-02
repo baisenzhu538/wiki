@@ -25,6 +25,12 @@ diagnostic_signals:
 - signal: 调研问了很多没用的
   lens: 聚焦首次/峰值/终值三个时刻
   follow_up: 聚焦首次/峰值/终值三个时刻
+aliases:
+  - MOT调研法
+  - MOT调研法：关键时刻用户触点分析
+  - 关键时刻用户触点分析
+  - 时刻用户触点分析
+  - 调研法
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt
 - 00_inbox/解放思想探索营/案例分享-笔记.txt
@@ -34,7 +40,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

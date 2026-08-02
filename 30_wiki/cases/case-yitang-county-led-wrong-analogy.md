@@ -14,6 +14,13 @@ updated_at: '2026-07-04'
 domain:
 - yitang
 - decision-science
+aliases:
+  - 县城
+  - 屏对标分众
+  - 标分众
+  - 案例
+  - 案例：县城LED屏对标分众错误类比忽视前提条件
+  - 错误类比忽视前提条件
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - extractions
 ---
 

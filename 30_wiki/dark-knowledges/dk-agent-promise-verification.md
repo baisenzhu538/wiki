@@ -15,6 +15,13 @@ updated_at: '2026-07-19'
 quality_labels:
 - actionable
 - principle
+aliases:
+  - 不能承诺什么
+  - 承诺什么
+  - 承诺核对表
+  - 承诺核对表：Agent能承诺什么、不能承诺什么
+  - 能承诺什么
+  - 诺什么
 source_refs:
 - 00_inbox/半肥猫/【半肥猫】用 AI 把脑子里的经验，推进成一个最小可验证的数字交付 副本.md §第五步
 related:
@@ -26,7 +33,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 半肥猫
 - 把脑子里的经验
 ---

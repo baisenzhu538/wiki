@@ -25,6 +25,12 @@ related:
 - '[[pending_unknown]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - PEAS核心洞察
+  - PEAS核心洞察：决策系统的四槽诊断法
+  - 决策系统的四槽诊断法
+  - 核心洞察
+  - 系统的四槽诊断法
 source_refs:
 - 10_raw/sources/aima-ai-thinking-card-20260515.html
 status: enriched

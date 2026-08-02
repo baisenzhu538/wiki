@@ -2,6 +2,9 @@
 id: EC工业化规范手册
 created_at: 2026-05-03
 domain: healthcare
+aliases:
+  - EC工业化规范手册
+  - 工业化规范手册
 source_refs:
 - 10_raw/sources/src_20260503_dadc7838-EC工业化规范手册.md
 status: reviewed
@@ -24,7 +27,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 工业化规范手册
 ---
 

@@ -10,6 +10,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 3个月一单没卖
+  - 冉鹏失败案例
+  - 冉鹏失败案例：美区TikTok跨境电商3个月一单没卖
+  - 月一单没卖
+  - 美区TikTok跨境电商
+  - 跨境电商
 source_refs:
 - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
   - src_unknown - src_unknown

@@ -9,6 +9,15 @@ domain:
 - ai-saas- ai
 - ai-collaboration
 - management
+aliases:
+  - AI辅助复杂职场沟通：角色扮演、攻防演练与受众适配
+  - 准备复杂对话
+  - 攻防演练与受众适配
+  - 角色扮演
+  - 角色扮演沟通
+  - 辅助复杂职场沟通
+  - 辅助职场表达
+  - 防演练
 source_refs:
 - pending_archive:src_20260614_d79b42d1-D同学-AI技术落地案例
 - src_20260614_d79b42d1-D同学-AI技术落地案例
@@ -27,11 +36,16 @@ author: 王语嫣
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 review_date: 2026-06-14
+discoverable_by:
+  - "AI职场沟通怎么用"
+  - "AI角色扮演沟通"
+  - "用AI准备复杂对话"
+  - "攻防演练AI"
+  - "AI辅助职场表达"
 tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 技术落地案例
 ---
 # AI 辅助复杂职场沟通：角色扮演、攻防演练与受众适配

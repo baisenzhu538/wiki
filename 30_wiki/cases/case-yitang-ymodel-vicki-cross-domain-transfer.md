@@ -12,6 +12,13 @@ created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
 - yitang
+aliases:
+  - Y模型
+  - Y模型案例：Vicki开店→短视频跨域迁移Y模型比五步法更底层12层
+  - 开店→短视频跨域迁移
+  - 案例
+  - 模型比五步法更底层
+  - 比五步法更底层
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
 related:
@@ -21,7 +28,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - ideas
 - 个人修身
 ---

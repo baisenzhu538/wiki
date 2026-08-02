@@ -2,6 +2,13 @@
 id: case-ai-assisted-review
 title: 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己
 type: case
+aliases:
+  - 一堂用
+  - 做复盘
+  - 对比到
+  - 案例
+  - 案例：一堂用AI做复盘从Before/After对比到AI自己复盘自己
+  - 自己复盘自己
 source_refs:
 - src_unknown
 status: reviewed

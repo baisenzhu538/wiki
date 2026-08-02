@@ -24,6 +24,13 @@ query_triggers:
 - 停更博主研究
 - 内容创业调研
 - 星图蝉妈妈数据
+aliases:
+  - 内容IP/MCN调研手段
+  - 内容IP/MCN调研手段：浅中深三层10大评估法
+  - 大评估法
+  - 浅中深三层
+  - 浅中深三层10大评估法
+  - 深三层
 source_refs:
 - 00_inbox/调研专题/调研手段卡2（内容）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡2（内容）_vlm_desc.md
@@ -42,7 +49,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研手段卡
 ---

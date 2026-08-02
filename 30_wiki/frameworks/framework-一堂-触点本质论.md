@@ -25,6 +25,10 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L512-L654
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3656-L3656
 related:
+discoverable_by:
+  - "触点本质论"
+  - "火车货物剥离法"
+  - "假设挖掘三特性"
 - '[[case-一堂-一堂自身转化实践]]'
 - '[[case-一堂-入职率50到80-100]]'
 - '[[case-一堂-全会员出圈率1.5翻倍]]'
@@ -63,6 +67,20 @@ quality_labels:
 - cited
 - actionable
 tags:
+aliases:
+  - 一堂触点本质论：接触机会点+资产隐喻+火车货物剥离法+假设挖掘三特性
+  - 一堂触点本质论
+  - 接触机会点
+  - 资产隐喻
+  - 火车货物剥离法
+  - 假设挖掘三特性
+aliases:
+  - 一堂触点本质论：接触机会点+资产隐喻+火车货物剥离法+假设挖掘三特性
+  - 一堂触点本质论
+  - 接触机会点
+  - 资产隐喻
+  - 火车货物剥离法
+  - 假设挖掘三特性
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

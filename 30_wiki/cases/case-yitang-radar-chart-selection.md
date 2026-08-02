@@ -2,6 +2,13 @@
 id: case-yitang-radar-chart-selection
 title: 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」
 type: case
+aliases:
+  - Truman
+  - 一堂雷达图评选机制
+  - 拍板到只聊模型不聊结果
+  - 案例
+  - 案例：一堂雷达图评选机制从Truman拍板到只聊模型不聊结果
+  - 雷达图评选机制
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
@@ -54,7 +61,6 @@ diagnostic_signals:
   follow_up: 要求高管把直觉翻译成一个维度/分数，或只能行使否决权，不能直接通过
 - lens: 维度重叠/缺乏校准
   follow_up: 用 2-3 个样本做校准会，重写维度定义和锚定分数，检查 MECE
-aliases:
 - 建模能力培训
 ---
 # 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」

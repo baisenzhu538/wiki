@@ -24,6 +24,10 @@ related:
 - tool-马易-RPA数据整合法
 - tool-yitang-bp-analysis
 tags:
+aliases:
+  - 技能：风口痛点识别法
+  - 技能
+  - 风口痛点识别法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

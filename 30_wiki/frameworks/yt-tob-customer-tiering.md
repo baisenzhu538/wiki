@@ -8,6 +8,12 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - ToB客户分层：头部、腰部、腿部
+  - 头部
+  - 客户分层
+  - 腰部
+  - 腿部
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
@@ -40,6 +46,12 @@ diagnostic_signals:
   follow_up_question: 头部/腰部/腿部客户各自的核心诉求是风险、效果还是投入产出比？卖点是否对齐？
 - framework_lens: 行业集中度与业务目标交叉判断
   follow_up_question: 在目标细分场景里，真正符合业务目标的客户数量是多少？是按行业总企业数分层，还是按可服务的有效客户数分层？
+discoverable_by:
+- ToB客户分层
+- 企业客户分级
+- B2B客户管理
+- SABC分级
+- 客户价值分层
 ---
 
 

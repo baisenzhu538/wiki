@@ -23,6 +23,10 @@ related:
 - concept-发现决策
 updated_at: '2026-06-29'
 tags:
+aliases:
+  - 需求挖掘：从用户身上挖出真实需求
+  - 需求挖掘
+  - 从用户身上挖出真实需求
 - audience:executor
 - scene:execution
 - skill-level:intermediate

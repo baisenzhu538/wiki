@@ -254,10 +254,11 @@ python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --
 
 ## 完成任务后
 
-1. **使用 `queue_transition.py review` 更新队列和任务单状态**，禁止手动改文件。
-2. 更新卡片 → 标记 `reviewed_by: 欧阳锋`，`status: reviewed`，并补齐 `review_date`。
+1. **使用 `queue_transition.py review` 更新队列和任务单状态**，禁止手动改文件（O-3 已定位：纯数字 task_id 漏匹配 `task_id` 字段，传全名 `task_20260802_...` 可绕过；脚本不可用/被拦时手动 patch + `<!-- 手动终审：原因 -->` 注释）。
+2. **更新卡片 frontmatter** → 标记 `reviewed_by: 欧阳锋`，`status: reviewed`，并补齐 `review_date`（升级卡 review_date 也要更新）。**#213/#214 教训：漏同步此步 = 卡片入库后仍是 draft。** 可用 `90_control/scripts/review_mark.py`（#218 R1）批量写。
 3. 更新 `dashboard.md`
 4. 更新 `context.md`
+5. **跑 `kdo index` 刷新搜索索引**（#219 教训：索引过期 5 天 → 外部 agent 搜书名 0 结果。O-9 停车场待黄药师自动化，上线前靠此步兜底）
 
 ## 补审流程（2026-06-30 补丁）
 

@@ -2,6 +2,13 @@
 id: ai-short-drama-framework-three-axes
 title: 框架三板斧：短剧英雄之旅结构工具
 type: tool
+aliases:
+  - 三板斧
+  - 之旅结构工具
+  - 框架三板斧
+  - 框架三板斧：短剧英雄之旅结构工具
+  - 短剧英雄之旅结构工具
+  - 英雄之旅结构工具
 source_refs:
 - 10_raw/sources/src_20260613_1ade007d-framework-three-axes.md
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md

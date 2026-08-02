@@ -10,6 +10,12 @@ trust_level: high
 domain:
 - kdo
 - modeling
+aliases:
+  - KDO建模组件库从踩坑疤痕到可复用建模牌组
+  - 从踩坑疤痕到可复用建模牌组
+  - 坑疤痕到可复用建模牌组
+  - 建模组件库
+  - 组件库
 source_refs:
 - .agent/pitfalls.md
 - 90_control/rules-core.md
@@ -26,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - advanced
 - control
 ---

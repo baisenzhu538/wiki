@@ -14,6 +14,18 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-十年爬山地图_vlm.md
 tags:
+aliases:
+  - 一堂双三角十年爬山地图双三角案例
+  - 一堂双三角
+  - 十年爬山地图
+  - 双三角案例
+  - 爬山地图
+  - 角案例
+aliases:
+  - 一堂双三角十年爬山地图双三角案例
+  - 一堂双三角
+  - 十年爬山地图
+  - 双三角案例
 - '#domain/ai-collaboration'
 - '#method/dual-triangle'
 - audience:general

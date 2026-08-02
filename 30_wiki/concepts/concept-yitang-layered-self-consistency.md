@@ -15,7 +15,6 @@ updated_at: '2026-07-26'
 quality_labels:
 - insight
 - principle
-aliases:
 - 分层逻辑
 - 五层击穿
 - 向下击穿
@@ -24,6 +23,11 @@ aliases:
 discoverable_by:
 - 如何验证创新可行性
 - 底层规律推导
+aliases:
+  - 五层击穿与双向推导
+  - 击穿与双向推导
+  - 分层自洽
+  - 分层自洽：五层击穿与双向推导
 source_refs:
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L513-517
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §4.2

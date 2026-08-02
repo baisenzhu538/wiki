@@ -8,6 +8,12 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——假设测试
+aliases:
+  - 低成本验证方法
+  - 假设测试
+  - 内核假设测试
+  - 内核假设测试：低成本验证方法
+  - 本验证方法
 source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -36,9 +42,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核验证课
+discoverable_by:
+- 产品内核假设
+- 假设测试
+- 内核验证
+- 产品假设驱动
+- 内核实验设计
 ---
 
 # 内核假设测试：低成本验证方法

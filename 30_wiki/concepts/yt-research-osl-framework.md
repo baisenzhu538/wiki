@@ -8,6 +8,10 @@ type: framework
 status: reviewed
 source_context: 一堂商业调研课程——OSCAR 框架总览
 source_person: 一堂
+aliases:
+  - OSCAR商业调研框架
+  - 商业调研框架
+  - 调研框架
 source_refs:
 - pending_archive:src_20260620_business-research-skill-v2.1.0
 created_at: '2026-06-20'

@@ -4,6 +4,11 @@ title: 概率工程：把小概率变成大概率的方法论
 type: concept
 domain:
 - src_unknown
+aliases:
+  - 把小概率变成大概率的方法论
+  - 概率变成大概率的方法论
+  - 概率工程
+  - 概率工程：把小概率变成大概率的方法论
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
@@ -48,7 +53,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 机会预判课
 ---
 

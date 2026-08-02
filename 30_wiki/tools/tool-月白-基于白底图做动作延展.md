@@ -36,6 +36,11 @@ related:
 - '[[tool-月白-电商白底图生成与高清处理]]'
 - '[[tool-月白-电商白底图生成与高清重绘]]'
 tags:
+aliases:
+  - 技能：基于白底图做动作延展
+  - 技能
+  - 基于白底图做动作延展
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

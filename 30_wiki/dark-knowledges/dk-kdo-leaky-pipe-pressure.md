@@ -9,6 +9,13 @@ domain:
 - master
 source_person: 黄药师
 source_context: KDO EC工业化迁移提案讨论，第二十二节批次4精修，2026-06-17
+aliases:
+  - 在漏水的管子上加压
+  - 基础链路没跑通时
+  - 暗知识
+  - 暗知识：在漏水的管子上加压基础链路没跑通时，硬门禁不是质量控制，而是流程卡死
+  - 硬门禁不是质量控制
+  - 而是流程卡死
 source_refs:
 - src_unknown
 confidence: 0.88

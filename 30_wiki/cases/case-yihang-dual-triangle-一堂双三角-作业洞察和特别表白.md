@@ -14,6 +14,18 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-作业洞察和特别表白_vlm.md
 tags:
+aliases:
+  - 一堂双三角作业洞察和特别表白双三角案例
+  - 一堂双三角
+  - 作业洞察和特别表白
+  - 双三角案例
+  - 角案例
+  - 洞察和特别表白
+aliases:
+  - 一堂双三角作业洞察和特别表白双三角案例
+  - 一堂双三角
+  - 作业洞察和特别表白
+  - 双三角案例
 - '#domain/ai-collaboration'
 - '#method/dual-triangle'
 - audience:general

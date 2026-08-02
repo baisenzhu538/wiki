@@ -8,6 +8,13 @@ domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
+aliases:
+  - 产品场景化拍摄
+  - 产品场景化拍摄：从商品到生活方式的升维
+  - 从商品到生活方式的升维
+  - 品到生活方式的升维
+  - 场景化拍摄
+  - 月白
 source_refs:
 - 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
@@ -24,7 +31,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
-aliases:
 - 设计师实操培训
 ---
 

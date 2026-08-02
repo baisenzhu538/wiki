@@ -12,6 +12,11 @@ domain:
 - strategy
 - yitang
 - product
+aliases:
+  - 服务验证标准服务
+  - 超值服务
+  - 超值服务：用VIP服务验证标准服务
+  - 验证标准服务
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212224_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212224_vlm_desc.md
@@ -30,7 +35,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 精益创业
 ---
 

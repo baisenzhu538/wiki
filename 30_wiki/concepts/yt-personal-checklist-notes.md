@@ -2,6 +2,7 @@
 domain:
 - personal-growth
 id: yt-personal-checklist-notes
+title: "清单体笔记（一堂笔记法）"
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: foundational
@@ -24,13 +25,15 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 体笔记一堂笔记法
+  - 清单体笔记一堂笔记法
 source_refs:
 - pending_archive:src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 清单体笔记系统故事线
 ---
 # 清单体笔记（一堂笔记法）

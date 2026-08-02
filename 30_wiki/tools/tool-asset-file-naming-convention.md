@@ -8,6 +8,10 @@ domain:
 - master
 author: 王语嫣
 source_person: 月白
+aliases:
+  - 文件七要素命名法
+  - 月白
+  - 素材文件七要素命名法
 source_refs:
 - 30_wiki/tools/tool-月白-设计文件八要素命名法.md
 - 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
@@ -27,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - study
 - 大馨战队
 ---

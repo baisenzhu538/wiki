@@ -9,6 +9,13 @@ domain:
 - ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
+aliases:
+  - Truman
+  - 不是天赋
+  - 洁癖是建模之本
+  - 而是不能容忍低水平逻辑
+  - 逻辑洁癖是建模之本
+  - 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
 source_refs:
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
@@ -38,7 +45,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 缺少段位标准和自检清单，逻辑洁癖没有可执行的操作定义
   follow_up_question: 用 L1-L5 段位表逐条对标，明确当前段位和目标段位，列出 3 个具体升级动作。# 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
-aliases:
 - 建模能力培训
 ---
 

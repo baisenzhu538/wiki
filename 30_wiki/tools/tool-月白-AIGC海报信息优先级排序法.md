@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-社群直播海报利益点提炼法]]'
 - '[[tool-月白-AI工艺图人工复核法]]'
 tags:
+aliases:
+  - 技能：AIGC海报信息优先级排序法
+  - 技能
+  - AIGC海报信息优先级排序法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

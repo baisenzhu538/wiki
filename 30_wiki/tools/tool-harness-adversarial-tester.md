@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - ai-collaboration
+aliases:
+  - 对抗测试员
+  - 对抗测试员：成功标准是找到bug
+  - 成功标准是找到
+  - 成功标准是找到bug
+  - 标准是找到
+  - 测试员
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:

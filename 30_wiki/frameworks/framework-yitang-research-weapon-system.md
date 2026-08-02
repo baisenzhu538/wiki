@@ -28,6 +28,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 三层八模块十四节点
+  - 八模块十四节点
+  - 调研超级武器库
+  - 调研超级武器库：三层八模块十四节点
+  - 超级武器库
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
@@ -46,6 +52,12 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 aliases: []
+discoverable_by:
+- 调研方法论
+- 调研武器库
+- 三层调研法
+- 三端调研法
+- 调研手段穷尽
 ---
 
 # 调研超级武器库：三层八模块十四节点

@@ -23,6 +23,12 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:beginner
+discoverable_by:
+- Sprint门禁
+- 证据充实
+- 质量门禁
+- 卡片验收
+- 充实度检查
 ---
 # Sprint 2 门禁系统 + Enrich 举证 — 设计规格
 

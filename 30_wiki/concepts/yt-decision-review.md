@@ -27,6 +27,13 @@ related:
 - '[[yt-decision-canvas]]'
 - '[[yt-decision-habit-shift]]'
 - '[[yt-management-scientific-decision]]'
+aliases:
+  - L4深度复盘法
+  - 假设验证闭环
+  - 决策复盘工具
+  - 决策复盘工具：L1L4深度复盘法+假设验证闭环
+  - 复盘工具
+  - 验证闭环
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched
@@ -60,7 +67,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 课程地图精华串讲
 ---
 

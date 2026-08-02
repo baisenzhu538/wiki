@@ -36,6 +36,11 @@ related:
 - '[[tool-月白-跨境电商产品图替换法]]'
 - '[[tool-纪浩-处理AI生成代码运行异常]]'
 tags:
+aliases:
+  - 技能：AI图片印刷落地预处理
+  - 技能
+  - AI图片印刷落地预处理
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

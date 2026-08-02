@@ -14,6 +14,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - AI草写报告
+  - AI草写报告：用AI生成调研初稿
+  - 生成调研初稿
+  - 用AI生成调研初稿
+  - 草写报告
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -27,7 +33,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

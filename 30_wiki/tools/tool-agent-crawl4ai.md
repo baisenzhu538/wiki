@@ -17,6 +17,16 @@ domain:
 source_refs:
 
 related:
+aliases:
+  - Crawl4AI：开源AI爬虫自然语言描述即可提取
+  - 开源AI爬虫
+  - 自然语言描述即可提取
+  - 语言描述即可提取
+  - 爬虫自然语言描述即可提取
+aliases:
+  - Crawl4AI：开源AI爬虫自然语言描述即可提取
+  - 开源AI爬虫
+  - 自然语言描述即可提取
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'

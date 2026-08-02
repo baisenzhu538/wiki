@@ -34,7 +34,13 @@ diagnostic_signals:
   - signal: "团队对创新方法论的理解不一致"
     lens: 培训不够或框架表达不清晰
     follow_up: 用十层解读法重新学习框架
-
+discoverable_by:
+- 实事求是
+- 解放思想桥接
+- Y模型两面
+- 创新根基
+- 求真解放
+---
 ---
 
 > 定位：桥接 [[framework-yitang-thought-liberation-lightning]] 与 [[framework-yitang-shishi-qiushi]]。

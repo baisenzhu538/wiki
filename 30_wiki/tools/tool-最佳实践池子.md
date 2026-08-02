@@ -25,6 +25,10 @@ related:
 - concept-发现决策
 updated_at: '2026-06-29'
 tags:
+aliases:
+  - 最佳实践池子：建立你的最佳实践知识库
+  - 最佳实践池子
+  - 建立你的最佳实践知识库
 - audience:executor
 - scene:execution
 - skill-level:intermediate

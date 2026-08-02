@@ -37,6 +37,18 @@ quality_labels:
 - principle
 - validated
 related:
+aliases:
+  - 品牌三度
+  - 牌知名度美誉度忠诚度
+  - 名度美誉度忠诚度
+  - 牌三度
+aliases:
+  - 品牌三度
+  - 牌知名度美誉度忠诚度
+  - 牌三度
+discoverable_by:
+  - "品牌三度"
+  - "品牌知名度美誉度忠诚度"
 - '[[framework-content-business-six-step]]'
 - '[[dk-founding-ip-trust-over-traffic]]'
 - '[[case-yitang-yitang-shortvideo-industrialization]]'

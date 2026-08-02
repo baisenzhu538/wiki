@@ -9,6 +9,13 @@ status: reviewed
 confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析——市场规模估算的常见误区
+aliases:
+  - 个陷阱
+  - 从拍脑袋到结构化验证
+  - 市场规模估算的5个陷阱
+  - 市场规模估算的5个陷阱：从拍脑袋到结构化验证
+  - 脑袋到结构化验证
+  - 规模估算的
 source_refs:
 - src_unknown
 - src_unknown

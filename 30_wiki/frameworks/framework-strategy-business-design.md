@@ -18,6 +18,11 @@ updated_at: '2026-06-29'
 author: 老顽童（初版）→ 黄药师（PPT _97+_99 补强 v2）
 reviewed_by: 欧阳锋
 related:
+discoverable_by:
+  - "业务设计六要素"
+  - "冉鹏战略规划"
+  - "IBM BLM业务设计"
+  - "三步骤业务设计"
 - '[[strategy-domain-digest]]'
 - '[[framework-strategy-blm]]'
 - '[[pending_unknown]]'
@@ -27,6 +32,20 @@ related:
 - yt-business-model-canvas
 - case-strategy-exit-remove
 tags:
+aliases:
+  - 业务设计六要素×三步骤冉鹏战略规划核心操作框架源于IBMBLM
+  - 业务设计六要素×三步骤
+  - 冉鹏战略规划核心操作框架源于IBM
+  - 鹏战略规划
+  - 计六要素
+  - 务设计六要素
+aliases:
+  - 业务设计六要素×三步骤冉鹏战略规划核心操作框架源于IBMBLM
+  - 业务设计六要素×三步骤
+  - 冉鹏战略规划核心操作框架源于IBM
+  - 务设计六要素
+  - 鹏战略规划
+  - 步骤业务设计
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

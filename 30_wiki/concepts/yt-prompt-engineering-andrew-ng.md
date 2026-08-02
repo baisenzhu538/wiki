@@ -29,6 +29,13 @@ reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 source_of:
 - src_unknown
+aliases:
+  - 一堂拆书精华
+  - 吴恩达提示词课程
+  - 吴恩达提示词课程一堂拆书精华
+  - 拆书精华
+  - 达提示词课程
+  - 达提示词课程一堂拆书精华
 source_refs:
 - 10_raw/sources/src_20260522_a89ab860-meta-prompt-eng.md
 status: enriched

@@ -6,6 +6,12 @@ title: 冰火写本罗盘：AI短剧剧本策划全流程体系
 type: concept
 status: reviewed
 source_context: 一堂 2026-06-13 AI 短剧创作培训，写本罗盘方法论
+aliases:
+  - AI短剧剧本策划全流程体系
+  - 写本罗盘
+  - 冰火写本罗盘
+  - 冰火写本罗盘：AI短剧剧本策划全流程体系
+  - 短剧剧本策划全流程体系
 source_refs:
 - 10_raw/sources/src_20260613_41aceaf5-ice-fire-scripting-compass.md
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md

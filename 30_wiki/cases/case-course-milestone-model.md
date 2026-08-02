@@ -2,6 +2,13 @@
 id: case-course-milestone-model
 title: 案例：一堂课程里程碑模型——方法论级建模的六步生产流程
 type: case
+aliases:
+  - Truman
+  - 一堂课程里程碑模型
+  - 方法论级建模的六步生产流程
+  - 案例
+  - 案例：一堂课程里程碑模型方法论级建模的六步生产流程
+  - 课程里程碑模型
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
@@ -49,7 +56,6 @@ diagnostic_signals:
   follow_up_question: 我们是否设置了以“推翻模型”为目标的内部交叉评审和专家评审环节？
 - framework_lens: 认知沉没成本
   follow_up_question: 在模型通过撞击实验之前，是否已明确禁止对外宣讲？
-aliases:
 - 建模能力培训
 ---
 

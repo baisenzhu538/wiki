@@ -25,6 +25,10 @@ related:
 - concept-X型Y型决策习惯
 updated_at: '2026-06-29'
 tags:
+aliases:
+  - 场景推演：还原用户真实使用场景
+  - 场景推演
+  - 还原用户真实使用场景
 - audience:executor
 - scene:execution
 - skill-level:intermediate

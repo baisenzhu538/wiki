@@ -14,7 +14,6 @@ created_at: '2026-07-26'
 updated_at: '2026-07-26'
 quality_labels:
 - actionable
-aliases:
 - 探索营
 - 解放思想创新体系
 discoverable_by:
@@ -25,6 +24,13 @@ transferable_to:
 - 产品开发
 - 战略决策
 - 投资审查
+aliases:
+  - 事实护栏
+  - 双护栏系统
+  - 双护栏系统：逻辑护栏+事实护栏
+  - 栏系统
+  - 逻辑护栏
+  - 逻辑护栏+事实护栏
 source_refs:
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §4.3
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt

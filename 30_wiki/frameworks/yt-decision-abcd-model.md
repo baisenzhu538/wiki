@@ -18,6 +18,10 @@ updated_at: 2026-06-26
 confidence: 0.75
 trust_level: medium-low
 title: 关键假设 ABCD 模型
+aliases:
+  - 关键假设
+  - 关键假设ABCD模型
+  - 模型
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键假设ABCD模型_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-关键假设abcd模型.md
@@ -35,9 +39,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 关键假设
 - 科学决策
+discoverable_by:
+- ABCD模型
+- 决策场景
+- 风险收益分析
+- 决策门槛
+- 关键决策框架
 ---
 
 # 一堂·关键假设ABCD模型

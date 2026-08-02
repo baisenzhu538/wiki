@@ -15,6 +15,12 @@ updated_at: '2026-07-19'
 quality_labels:
 - insight
 - actionable
+aliases:
+  - 协同
+  - 执行的二元选择框架
+  - 目标执行的二元选择框架
+  - 管控
+  - 管控vs协同：目标执行的二元选择框架
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §5.1
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L802-L928
@@ -28,7 +34,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - handle
 ---
 

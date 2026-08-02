@@ -10,6 +10,10 @@ trust_level: medium
 language: zh-CN
 domain: yitang
 updated_at: '2026-06-29'
+aliases:
+  - 单元模型
+  - 单元模型：单城市模型
+  - 单城市模型
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md
@@ -27,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 单元模型
 - 单城市模型
 ---

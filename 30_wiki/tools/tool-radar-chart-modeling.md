@@ -2,6 +2,12 @@
 id: tool-radar-chart-modeling
 title: 雷达图建模法：多维度评估与筛选
 type: tool
+aliases:
+  - 图建模法
+  - 多维度评估与筛选
+  - 度评估与筛选
+  - 雷达图建模法
+  - 雷达图建模法：多维度评估与筛选
 source_refs:
 - 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -44,7 +50,6 @@ diagnostic_signals:
   follow_up_question: 每个维度的分数是否有可观察的行为定义，还是仅靠个人印象打分？
 - framework_lens: 抽象建模 / 边界判断
   follow_up_question: 这些候选对象是否面向同一评估目标，维度是否真正覆盖它们之间的关键差异？
-aliases:
 - 常见模型武器库
 - 建模能力培训
 - 抽象建模

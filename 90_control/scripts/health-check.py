@@ -17,6 +17,10 @@ import subprocess
 import sys
 from pathlib import Path
 
+# Ensure UTF-8 stdout
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 VAULT_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPTS_DIR = VAULT_ROOT / "90_control" / "scripts"
 
@@ -80,36 +84,57 @@ def main():
             print(json.dumps(results, ensure_ascii=False, indent=2))
         sys.exit(0 if all(r["exit_code"] == 0 for r in results.values()) else 1)
 
-    # 人类可读报告
-    lines = [
-        "# KDO 健康检查报告",
-        f"**模式**: {'快速' if args.quick else '完整'} | **域**: {args.domain or '全库'}",
-        "",
-        "| 检查项 | 状态 | 摘要 |",
-        "|---|---|---|",
-    ]
-
+    # 人类可读报告（讲香升级：场景化输出）
+    check_results = []
     worst = 0
     all_ok = True
+    passed = 0
     for name, cargs, desc in checks:
         ec, summary = run_script(name, cargs)
+        status_icon = "[PASS]" if ec == 0 else ("[WARN]" if ec < 0 else "[FAIL]")
         if ec > 0:
-            status = "❌ FAIL"
             all_ok = False
             worst = max(worst, ec)
         elif ec < 0:
-            status = "⚠️ ERROR"
             all_ok = False
             worst = 1
         else:
-            status = "✅ PASS"
-        lines.append(f"| {desc} | {status} | {summary[:100]} |")
+            passed += 1
+        check_results.append({"desc": desc, "status": status_icon, "summary": summary[:120]})
 
-    lines.append("")
+    total = len(check_results)
+    health_pct = int(passed / total * 100) if total else 0
+
+    verdict = "PASS" if all_ok else "FAIL"
+    lines = [
+        "=" * 60,
+        f"  KDO Health Check  |  {passed}/{total} passed  |  score {health_pct}/100  |  {verdict}",
+        "=" * 60,
+        "",
+    ]
+
+    # Add scenario-based context for each check
+    hints = {
+        "Lint 格式校验": "门禁第一关——frontmatter 格式、dk 七段、section 拼写、搜索可达性。红灯=老顽童提交前必须修。",
+        "source_refs 健康检查": "溯源链是否完整——每张卡能不能追溯到原始素材。断链=欧阳锋无法验证事实。",
+        "VLM 描述质量": "OCR/VLM 解析是否正常——影响洪七公的图片→prompt 管线。",
+        "生产进度": "老顽童的产能仪表盘——多少卡在生产/待审/入库。红灯=队列堵塞。",
+        "Agent 配置自检": "各 Agent 的 context/skill/权限是否一致——配置漂移=Agent 行为不可预期。",
+    }
+
+    for r in check_results:
+        hint = hints.get(r["desc"], "")
+        lines.append(f"  {r['status']} {r['desc']}")
+        if r["summary"] and r["summary"] != "no output":
+            lines.append(f"     {r['summary']}")
+        if hint:
+            lines.append(f"     {hint}")
+        lines.append("")
+
     if all_ok:
-        lines.append("✅ 全部检查通过。")
+        lines.append("[PASS] All green — safe to submit.")
     else:
-        lines.append("❌ 存在不健康项，请逐项检查。")
+        lines.append(f"[FAIL] {total - passed}/{total} checks failed. See hints above for what each means. Fix and re-run.")
 
     print("\n".join(lines))
     sys.exit(worst)

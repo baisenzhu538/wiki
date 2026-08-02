@@ -38,6 +38,12 @@ related:
 - '[[business-formula-to-kdo-card-quality]]'
 pipeline:
 - confidence-draft
+discoverable_by:
+- 质量标签
+- 卡片质量
+- 标签体系
+- 质量分级
+- 卡片评级
 ---
 
 # KDO 卡片质量标签体系使用指南

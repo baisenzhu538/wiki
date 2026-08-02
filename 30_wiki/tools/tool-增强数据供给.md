@@ -9,6 +9,11 @@ domain:
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
+aliases:
+  - Truman
+  - 增强数据供给
+  - 技能
+  - 技能：增强数据供给
 source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
 definition_of_done:
@@ -37,7 +42,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 自用的
 ---
 # 技能：增强数据供给

@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-9
+aliases:
+  - P9：Glob漏扫子目录→误判文件缺失→来回打脸
+  - system
+  - 子目录
+  - 来回打脸
+  - 漏扫子目录
+  - 误判文件缺失
 source_refs:
 - src_unknown
 created_at: 2026-06-03

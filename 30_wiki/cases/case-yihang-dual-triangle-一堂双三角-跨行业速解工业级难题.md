@@ -1,5 +1,6 @@
 ---
 id: case-yihang-dual-triangle-一堂双三角-跨行业速解工业级难�?title: 双三角案例：花总跨行业速解工业级难题—�?�?AI 先造数�?
+title: "双三角案例：花总跨行业速解工业级难题—�?�?AI 先造数�?"
 type: case
 status: enriched
 author: 洪七公（VLM提取�? 老顽童（enrich�?reviewed_by: ŷ����
@@ -15,10 +16,21 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三�?_processed/一堂双三角-跨行业速解工业级难题_vlm.md
 related:
+aliases:
+  - 双三角案例：花总跨行业速解工业级难题�?�?AI先造数�?
+  - 双三角案例
+  - 花总跨行业速解工业级难题
+  - 先造数�?
+  - 先造数
+  - 角案例
+aliases:
+  - 双三角案例：花总跨行业速解工业级难题�?�?AI先造数�?
+  - 双三角案例
+  - 花总跨行业速解工业级难题
+  - 先造数�?
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[case-yihang-dual-triangle-huazao-synthetic-data]]"
 ---
-
 # 双三角案例：花总跨行业速解工业级难题—�?�?AI 先造数�?
 
 > **一句话定义**：花总在一�?2026 春季马拉松中面对陌生工业领域，准确识别核心卡点在"数据"，提�?�?AI 先造数�?的破局假设。物理学背景打底的技术判断力 + LLM 多模型交叉验�?+ 仿真造数据几十万张，实现跨行业快速学习与难题击穿�?

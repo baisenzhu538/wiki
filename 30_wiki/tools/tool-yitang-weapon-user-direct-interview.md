@@ -13,6 +13,11 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 四种接触方式
+  - 武器库策略1
+  - 武器库策略1：直接访谈用户四种接触方式
+  - 直接访谈用户
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
@@ -26,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研武器库培训
 ---

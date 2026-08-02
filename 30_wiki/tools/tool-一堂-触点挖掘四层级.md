@@ -13,6 +13,10 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂触点挖掘四层级
+  - 一堂触点挖掘四层级：从狭义销售点到创新接触机会的冰山洞察力
+  - 从狭义销售点到创新接触机会的冰山洞察力
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L512-L774
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/触点挖掘冰山图_vlm.md
@@ -41,7 +45,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - conversion
 - handle
 ---

@@ -14,6 +14,13 @@ created_at: '2026-06-17'
 updated_at: '2026-06-17'
 confidence: 0.9
 trust_level: high
+aliases:
+  - 一堂
+  - 一堂从定性到定量：先证伪、后测量
+  - 从定性到定量
+  - 先证伪
+  - 后测量
+  - 性到定量
 source_refs:
 - pending_archive:src_20260614_606a631d-张磊-精益方法论培训
 - pending_archive:src_20260614_6d9f7671-业务公式拆解培训
@@ -44,7 +51,6 @@ diagnostic_signals:
   follow_up_question: 当前是要"排除错误选项"还是要"精确测量已知选项"？如果选项还不清晰，能否先用 5-15 个深度访谈替代问卷？
 - framework_lens: 定性参数必须转化为可观察、可追踪的行为指标，才能提出可验证假设
   follow_up_question: 这个定性参数能否拆成 3-5 个具体行为指标？每个指标变差时，对应哪个业务动作？
-aliases:
 - 业务公式拆解培训
 - 精益方法论培训
 ---

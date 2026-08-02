@@ -14,6 +14,12 @@ domain:
 - yitang
 - research
 - ai-collaboration
+aliases:
+  - 2026新范式
+  - Agent原生调研工具总览
+  - Agent原生调研工具总览：20252026新范式
+  - 原生调研工具总览
+  - 新范式
 source_refs: null
 related:
 - '[[yitang-domain-digest]]'

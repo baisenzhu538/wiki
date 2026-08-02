@@ -13,6 +13,13 @@ language: zh-CN
 domain: strategy
 source_person: 冉鹏
 source_context: 引擎点火20260110 战略破局课程 PPT
+aliases:
+  - 冉鹏
+  - 国产零食出口220国
+  - 国产零食出口220国：新区域机会的诱惑与风险预估
+  - 域机会的诱惑与风险预估
+  - 新区域机会的诱惑与风险预估
+  - 零食出口
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_54_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_54_vlm_desc.md
@@ -24,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

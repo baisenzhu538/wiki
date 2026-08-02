@@ -8,6 +8,12 @@ domain:
 - entrepreneurship
 - b2b
 - business-strategy
+aliases:
+  - ToB增长模式取舍：直销vs渠道
+  - 增长模式取舍
+  - 模式取舍
+  - 渠道
+  - 直销
 source_refs:
 - pending_archive: src_unknown
 tags:
@@ -34,6 +40,12 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+discoverable_by:
+- ToB增长渠道
+- B2B获客
+- 企业销售渠道
+- ToB营销
+- 企业增长方法
 ---
 
 > 增长环节最常见的坑，是不做任何判断：擅长销售的人什么都想做直销，不擅长销售的人则想全部丢给渠道。核心判断标准是——**单位时间内，针对当前业务目标，哪种方式的规模化效率最高**。（口述稿 ~3218-3482；课堂笔记 §5）

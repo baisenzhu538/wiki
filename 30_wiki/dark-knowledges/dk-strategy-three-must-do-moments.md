@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 三种必做战略的时刻
+  - 三种必做战略的时刻：快速扩张/业务平台期/行业下行期
+  - 业务平台期
+  - 必做战略的时刻
+  - 快速扩张
+  - 快速扩张/业务平台期/行业下行期
 source_refs:
 - 'pending_archive:'
 related:

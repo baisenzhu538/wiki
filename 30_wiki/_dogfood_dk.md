@@ -2,6 +2,7 @@
 status: enriched
 
 id: dogfood-dk-indent
+title: " dogfood dk"
 type: dk
 domain: [test]
 source_refs:

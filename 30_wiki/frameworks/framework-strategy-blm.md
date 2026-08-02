@@ -18,6 +18,11 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+discoverable_by:
+  - "IBM BLM"
+  - "业务领导力模型"
+  - "华为五看三定"
+  - "BLM战略规划"
 - '[[strategy-domain-digest]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
@@ -27,6 +32,20 @@ related:
 - tool-strategy-five-see-three-set
 - yt-five-step-method-complete
 tags:
+aliases:
+  - IBMBLM业务领导力模型+华为五看三定
+  - 业务领导力模型
+  - 华为五看三定
+  - 为五看三定
+  - 领导力模型
+  - 导力模型
+aliases:
+  - IBMBLM业务领导力模型+华为五看三定
+  - 业务领导力模型
+  - 华为五看三定
+  - 战略规划
+  - 为五看三定
+  - 务领导力模型
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

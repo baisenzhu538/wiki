@@ -8,6 +8,11 @@ domain:
 - src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
+aliases:
+  - AI调研纠偏与验证技能
+  - AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环
+  - 从'丝滑回答'到'证据决策'的六步闭环
+  - 半肥猫
 source_refs:
 - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
 created_at: '2026-06-08'
@@ -51,7 +56,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 俱乐部
 - 半肥猫
 ---

@@ -14,6 +14,10 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 公开招募+激励设计
+  - 招募用户访谈
+  - 招募用户访谈：公开招募+激励设计
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -28,7 +32,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 丢低端市场
+  - 定位公司陷阱
+  - 定位公司陷阱：高端定位→丢低端市场。清洁用品L的教训
+  - 清洁用品
+  - 的教训
+  - 高端定位→丢低端市场。清洁用品L的教训
 source_refs:
 - src_unknown
 related:

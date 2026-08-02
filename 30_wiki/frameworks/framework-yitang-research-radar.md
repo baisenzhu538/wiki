@@ -27,6 +27,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 四象限能力诊断与六种缺失识别
+  - 调研雷达图
+  - 调研雷达图：四象限能力诊断与六种缺失识别
+  - 限能力诊断与六种缺失识别
+  - 雷达图
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 00_inbox/调研专题/调研雷达图_vlm_desc.md
@@ -45,6 +51,12 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 aliases: []
+discoverable_by:
+- 调研能力诊断
+- 调研雷达图
+- 四象限分析
+- 调研能力评估
+- 调研方法选择
 ---
 
 # 调研雷达图：四象限能力诊断与六种缺失识别

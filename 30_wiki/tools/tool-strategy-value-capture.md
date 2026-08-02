@@ -44,6 +44,16 @@ related:
 - yt-five-step-method
 - yt-business-model-definition
 tags:
+aliases:
+  - 价值获取设计工具：8问盈利模型
+  - 价值获取设计工具
+  - 问盈利模型
+  - 利模型
+  - 获取设计工具
+aliases:
+  - 价值获取设计工具：8问盈利模型
+  - 价值获取设计工具
+  - 问盈利模型
 - audience:executor
 - scene:execution
 - skill-level:advanced

@@ -24,6 +24,10 @@ related:
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 - '[[tool-strategy-customer-selection]]'
 tags:
+aliases:
+  - 技能：AI搜索公网数据增强合规边界
+  - 技能
+  - AI搜索公网数据增强合规边界
 - audience:executor
 - scene:execution
 - skill-level:intermediate

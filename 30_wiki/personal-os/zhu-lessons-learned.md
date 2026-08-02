@@ -12,6 +12,12 @@ related:
   - "[[zhu-strategic-conclusions]]"
   - "[[zhu-project-board]]"
   - "[[user-insight-profile]]"
+discoverable_by:
+- 经验教训
+- 老朱复盘
+- 个人反思
+- 踩坑记录
+- 学习心得
 ---
 
 # 老朱经验教训案例库

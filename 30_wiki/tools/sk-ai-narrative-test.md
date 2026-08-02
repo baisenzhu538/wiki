@@ -8,6 +8,14 @@ domain:
 - src_unknown
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
+aliases:
+  - 你的方案有叙事力吗
+  - 你的方案有叙事力吗？快速测试
+  - 技能
+  - 技能：你的方案有叙事力吗？快速测试
+  - 方案有叙事力吗
+  - 有叙事力吗
+  - 水水
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
@@ -46,7 +54,6 @@ diagnostic_signals:
   follow_up_question: 你的方案里有没有一个具体的人、一个明确的冲突、一个出人意料的转折？
 - framework_lens: 叙事力五要素检查
   follow_up_question: 用户能否在3秒内说出"这个角色和我有什么关系、不做会失去什么"？
-aliases:
 - 时代要不要练笔记
 - 需要练那个
 ---

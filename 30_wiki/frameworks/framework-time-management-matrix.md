@@ -18,6 +18,9 @@ source_refs:
 - 00_inbox/时间管理/truman-时间管理课程-口述.txt
 - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 related:
+discoverable_by:
+  - "时间管理四象限"
+  - "艾森豪威尔矩阵"
 - '[[yt-personal-time-management]]'
 - '[[framework-yitang-five-step-to-time-management]]'
 diagnostic_signals:
@@ -27,6 +30,17 @@ diagnostic_signals:
 quality_labels:
 - actionable
 tags:
+aliases:
+  - 重要/紧急四象限艾森豪威尔矩阵
+  - 理四象限
+  - 紧急四象限艾森豪威尔矩阵
+  - 间管理四象限
+  - 森豪威尔矩阵
+  - 威尔矩阵
+aliases:
+  - 重要/紧急四象限艾森豪威尔矩阵
+  - 森豪威尔矩阵
+  - 间管理四象限
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

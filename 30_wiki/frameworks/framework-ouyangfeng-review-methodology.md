@@ -21,12 +21,26 @@ source_refs:
 - .agent/pitfalls.md
 - .agent/daily-review/错误模式库.md
 related:
+discoverable_by:
+  - "欧阳锋审查方法论"
 - '[[framework-yitang-research-quality-gate]]'
 - '[[framework-yitang-six-layer-cross-validation]]'
 - '[[system-yitang-research-workflow]]'
 - '[[framework-yitang-research-weapon-system]]'
 - '[[framework-kdo-self-attack]]'
 tags:
+aliases:
+  - 欧阳锋审查方法论：三阶段架构评审框架
+  - 欧阳锋审查方法论
+  - 三阶段架构评审框架
+  - 审查方法论
+  - 阳锋审查方法论
+  - 锋审查方法论
+aliases:
+  - 欧阳锋审查方法论：三阶段架构评审框架
+  - 欧阳锋审查方法论
+  - 三阶段架构评审框架
+  - 阳锋审查方法论
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

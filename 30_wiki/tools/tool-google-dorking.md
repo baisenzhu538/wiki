@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - GoogleDorking：高级搜索语法挖出搜索引擎的隐藏信息
+  - 挖出搜索引擎的隐藏信息
+  - 搜索引擎的隐藏信息
+  - 搜索语法
+  - 高级搜索语法
 source_refs:
 - src_unknown
 - src_unknown

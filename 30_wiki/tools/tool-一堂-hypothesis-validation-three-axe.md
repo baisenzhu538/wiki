@@ -19,6 +19,10 @@ related:
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[tool-mckinsey-hypothesis-driven-workflow]]'
 - '[[tool-一堂-关键假设-ABCD场景分类器]]'
+aliases:
+  - 假设验证三板斧
+  - 技能
+  - 技能：假设验证三板斧
 source_refs:
 - 00_inbox/一堂-关键假设课-truman-口述.txt L1064-L1074,L2460-L2482
 - 00_inbox/一堂-关键假设-关键假设三板斧_paddle_ocr.txt
@@ -26,7 +30,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 关键假设
 - 关键假设三板斧
 ---

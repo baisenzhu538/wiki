@@ -21,6 +21,8 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
+discoverable_by:
+  - "王欢OODA闭环"
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[framework-wanghuan-task-product-system]]'
 - '[[framework-wanghuan-gan-three-roles]]'
@@ -38,6 +40,17 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 diagnostic_signals:
+aliases:
+  - 王欢OODA闭环：人机协作的决策迭代框架
+  - 王欢OODA闭环
+  - 人机协作的决策迭代框架
+  - 王欢
+  - 协作的决策迭代框架
+aliases:
+  - 王欢OODA闭环：人机协作的决策迭代框架
+  - 王欢OODA闭环
+  - 人机协作的决策迭代框架
+  - 王欢
 - lens: 观察瘫痪
   follow_up: 当前卡在哪个 OODA 环节？能否定义最小观察集，先转完一圈再迭代？
 - lens: 定向漂移

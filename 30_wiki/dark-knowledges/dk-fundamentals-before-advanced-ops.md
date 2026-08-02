@@ -11,6 +11,13 @@ domain:
 - ai-collaboration
 source_person: Truman / 纪浩 / 老朱
 source_context: 一堂清单体笔记训练、高阶建模培训、AI协作方法论
+aliases:
+  - Truman / 纪浩 / 老朱
+  - 功未内化就强上高阶操作
+  - 基本功未内化就强上高阶操作
+  - 基本功未内化就强上高阶操作高阶工具失效的头号根因
+  - 工具失效的头号根因
+  - 高阶工具失效的头号根因
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260614_55135154-Truman-高阶建模-本质建模-案例-02.md
@@ -44,7 +51,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 协作方法论
 - 时代清单体笔记
 - 本质建模

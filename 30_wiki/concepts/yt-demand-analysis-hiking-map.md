@@ -1,11 +1,15 @@
 ---
 id: yt-demand-analysis-hiking-map
+title: "需求分析爬山地图"
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-market-size-estimation]]'
 - '[[case-treadmill-demand-analysis]]'
 - '[[yt-foresight-business-spectrum]]'
 - '[[pending_unknown]]'
+aliases:
+  - 分析爬山地图
+  - 需求分析爬山地图
 source_refs:
 - pending_archive: src_unknown
 tags:
@@ -13,7 +17,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 需求分析爬山地图
 
 > 来源：一堂五步法·需求篇 | [[yt-five-step-method]] | [[yt-market-size-estimation]] | [[case-treadmill-demand-analysis]]

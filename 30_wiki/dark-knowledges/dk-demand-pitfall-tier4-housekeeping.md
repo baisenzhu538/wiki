@@ -10,6 +10,13 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 四线家政
+  - 四线家政天花板误判
+  - 天花板误判。普遍性高≠能做大
+  - 普遍性高
+  - 踩坑
+  - 踩坑：四线家政天花板误判。普遍性高≠能做大
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
@@ -27,7 +34,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 需求评估避坑合集
 ---

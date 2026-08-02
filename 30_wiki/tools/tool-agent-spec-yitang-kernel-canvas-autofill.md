@@ -14,6 +14,11 @@ domain:
 - yitang
 - product-kernel
 - agent
+aliases:
+  - 产品内核
+  - 产品内核5格画布自动填充AgentSpec
+  - 布自动填充
+  - 格画布自动填充
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-kernel-canvas-autofill.md
 tcp_role: C
@@ -35,7 +40,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - prompts
 ---
 ## System Prompt 模板

@@ -17,6 +17,18 @@ trust_level: medium
 related:
 - '[[yitang-domain-digest]]'
 tags:
+aliases:
+  - 研究型课程无法提前排课表：只能等菜熟了再摘
+  - 研究型课程无法提前排课表
+  - 只能等菜熟了再摘
+  - Truman
+  - 等菜熟了再摘
+  - 型课程无法提前排课表
+aliases:
+  - 研究型课程无法提前排课表：只能等菜熟了再摘
+  - 研究型课程无法提前排课表
+  - 只能等菜熟了再摘
+  - Truman
 - audience:executor
 - scene:reference
 - skill-level:intermediate

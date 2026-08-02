@@ -35,6 +35,17 @@ tags:
 - scene:reference
 - skill-level:advanced
 diagnostic_signals:
+aliases:
+  - 一堂直播SOP三年迭代：从0到50条的迭代递归深挖法
+  - 一堂直播
+  - 三年迭代
+  - 条的迭代递归深挖法
+  - 迭代递归深挖法
+aliases:
+  - 一堂直播SOP三年迭代：从0到50条的迭代递归深挖法
+  - 一堂直播
+  - 三年迭代
+  - 条的迭代递归深挖法
 - framework_lens: 迭代第二阶段——给SOP加SOP
   follow_up_question: 你的SOP是写给谁的？有没有专人负责检查每个节点？
 - framework_lens: 迭代第三阶段——微颗粒度补丁

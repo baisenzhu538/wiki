@@ -42,6 +42,11 @@ related:
 - '[[tool-月白-设计师AI工具习惯切换]]'
 - '[[tool-月白-设计项目里程碑拆解法]]'
 tags:
+aliases:
+  - 技能：正向反馈强化AI生成
+  - 技能
+  - 正向反馈强化AI生成
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

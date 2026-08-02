@@ -8,6 +8,12 @@ domain:
 - yitang
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
+aliases:
+  - AI不会自己搞结构设计
+  - 不会自己搞结构设计
+  - 暗知识
+  - 暗知识：AI不会自己搞结构设计
+  - 纪浩
 source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 - 10_raw/sources/src_20260617_50e2866a-ai俱乐部-人和ai协作-纪浩-五层结构-结构化.md
@@ -40,7 +46,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 五层结构
 - 俱乐部
 - 协作方法论

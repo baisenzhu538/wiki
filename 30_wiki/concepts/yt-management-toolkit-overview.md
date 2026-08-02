@@ -39,6 +39,9 @@ related:
 - '[[yt-tool-onboarding-90day]]'
 - '[[yt-tool-okr-cycle]]'
 - '[[yt-tool-strategy-workshop]]'
+aliases:
+  - 工具箱总览
+  - 管理工具箱总览
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: reviewed
@@ -65,7 +68,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 课程地图精华串讲
 ---
 

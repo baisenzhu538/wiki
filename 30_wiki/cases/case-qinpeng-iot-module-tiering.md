@@ -1,4 +1,4 @@
-﻿---
+---
 id: case-qinpeng-iot-module-tiering
 title: 案例：秦鹏通信模组——从"半价策略"到用户分层+四格服务矩阵的产品内核进化
 type: case
@@ -8,6 +8,13 @@ domain:
 - product-kernel
 source_person: 秦鹏（一堂学员）
 source_context: 一堂产品内核验证课 - 产品内核分层+过度细化案例
+aliases:
+  - 从半价策略到用户分层+四格服务矩阵的产品内核进化
+  - 价策略到用户分层
+  - 案例
+  - 案例：秦鹏通信模组从半价策略到用户分层+四格服务矩阵的产品内核进化
+  - 秦鹏通信模组
+  - 秦鹏（一堂学员）
 source_refs:
 - 00_inbox/一堂-产品内核验证课-Truman-口述.txt L1300-L1658
 - 00_inbox/一堂-产品内核验证课-Truman-口述.txt L1714-L2070

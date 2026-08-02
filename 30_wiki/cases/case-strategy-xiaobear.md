@@ -10,6 +10,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 定位年轻单身男性
+  - 小熊电器
+  - 小熊电器：跳出行业范式定位年轻单身男性
+  - 行业范式
+  - 跳出行业范式
+  - 跳出行业范式定位年轻单身男性
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_239_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_239_ocr_text.md
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 冉鹏战略课逐字稿
 ---

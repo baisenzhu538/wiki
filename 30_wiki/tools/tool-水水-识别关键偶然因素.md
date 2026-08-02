@@ -30,6 +30,10 @@ related:
 - '[[tool-水水-识别饥饿效应]]'
 - '[[tool-水水-避免原生家庭万能归因]]'
 tags:
+aliases:
+  - 技能：识别关键偶然因素
+  - 技能
+  - 识别关键偶然因素
 - audience:executor
 - scene:execution
 - skill-level:intermediate

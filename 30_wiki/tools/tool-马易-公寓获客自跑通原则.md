@@ -31,6 +31,10 @@ related:
 - tool-马易-隐私安全分层解决
 - tool-马易-AIGC项目ROI评估
 tags:
+aliases:
+  - 技能：公寓获客自跑通原则
+  - 技能
+  - 公寓获客自跑通原则
 - audience:executor
 - scene:execution
 - skill-level:intermediate

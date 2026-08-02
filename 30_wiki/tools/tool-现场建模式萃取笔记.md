@@ -9,6 +9,10 @@ domain:
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f
+aliases:
+  - 技能
+  - 技能：现场建模式萃取笔记
+  - 现场建模式萃取笔记
 source_refs:
 - 10_raw/sources/src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md
 definition_of_done:
@@ -38,7 +42,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 清单体笔记训练段位图
 ---
 

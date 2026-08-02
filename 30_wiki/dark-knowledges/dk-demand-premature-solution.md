@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 冰山模型的根本价值
+  - 模型的根本价值
+  - 过早进入解决方案空间
+  - 过早进入解决方案空间冰山模型的根本价值
+  - 进入解决方案空间
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 related:
@@ -27,7 +33,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 任务洞察冰山图
 ---

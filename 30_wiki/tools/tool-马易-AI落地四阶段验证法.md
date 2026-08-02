@@ -23,6 +23,10 @@ related:
 - '[[tool-马易-AI答疑运营风格适配]]'
 - tool-ai-landing-five-steps
 tags:
+aliases:
+  - 技能：AI落地四阶段验证法
+  - 技能
+  - AI落地四阶段验证法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

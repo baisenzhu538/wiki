@@ -10,6 +10,9 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain: yitang
+aliases:
+  - 化的单元模型
+  - 最简化的单元模型
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-最简单元模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-最简单元模型_vlm_desc.md
@@ -32,7 +35,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 单元模型
 - 最简单元模型
 ---

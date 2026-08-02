@@ -11,6 +11,13 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 不缺机会
+  - 别窗口的能力
+  - 机会窗口
+  - 稀缺机会窗口
+  - 稀缺机会窗口：不缺机会，缺识别窗口的能力
+  - 缺识别窗口的能力
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-稀缺机会窗口_vlm_desc.md
 related:
@@ -27,7 +34,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 科学决策
 - 稀缺机会窗口
 ---

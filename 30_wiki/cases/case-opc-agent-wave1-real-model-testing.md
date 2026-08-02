@@ -14,6 +14,13 @@ domain:
 - yitang
 source_person: 老顽童
 source_context: OPC 销售智能体军团
+aliases:
+  - 案例
+  - 案例：OPC销售智能体Wave1真实模型测试
+  - 模型测试
+  - 真实模型测试
+  - 老顽童
+  - 销售智能体
 source_refs:
 - 60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-testing-wave1.md
 - 60_feedback/agent-traces/2026-07-02/_summary.json
@@ -95,7 +102,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - tasks
 ---
 

@@ -19,6 +19,10 @@ related:
 source_refs:
 - pending_archive: src_unknown
 tags:
+aliases:
+  - 技能：光谱模型定位法
+  - 技能
+  - 光谱模型定位法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

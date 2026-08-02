@@ -16,6 +16,11 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 业务七级演进
+  - 案例
+  - 案例：陪诊业务七级演进
+  - 陪诊业务七级演进
 source_refs:
 - 10_raw/sources/src_20260614_eca9f5b3-酒店行业-AI标签审核案例.md
 status: enriched
@@ -45,7 +50,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 标签审核案例
 - 酒店行业
 ---

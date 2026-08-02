@@ -21,6 +21,9 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
+discoverable_by:
+  - "王欢演员到导演"
+  - "人机协作框架"
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
@@ -38,6 +41,20 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 diagnostic_signals:
+aliases:
+  - 王欢人机协作框架：从演员到导演
+  - 王欢人机协作框架
+  - 从演员到导演
+  - 王欢
+  - 员到导演
+  - 作框架
+aliases:
+  - 王欢人机协作框架：从演员到导演
+  - 王欢人机协作框架
+  - 从演员到导演
+  - 王欢
+  - 机协作框架
+  - 欢演员到导演
 - lens: 演员模式锁定
   follow_up: 当前流程中，哪些环节是“人亲自执行、AI 仅加速”？能否把其中一段改成“人定义、AI 执行、人验收”？
 - lens: 导演标准缺失

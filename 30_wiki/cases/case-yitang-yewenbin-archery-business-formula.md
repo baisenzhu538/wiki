@@ -9,6 +9,13 @@ domain:
 source_person: 叶文彬（嗷大叶）
 source_context: 一堂「落地之夜第六场」直播 Live 第 255 场案例分享（2026），射箭馆连锁从 17 家到剩 5 家再回到 17 家，围绕业务公式四参数（进店量/办卡率/会员
   ARPU/裂变率）做转化率迭代
+aliases:
+  - 务公式四参数串起动力阻力触点
+  - 叶文彬（嗷大叶）
+  - 射箭馆
+  - 射箭馆：用业务公式四参数串起动力阻力触点，把等客流变成经营转化率
+  - 把等客流变成经营转化率
+  - 用业务公式四参数串起动力阻力触点
 source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L73-L135
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L161-L215
@@ -57,7 +64,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - study
 - 落地之夜第六场
 ---

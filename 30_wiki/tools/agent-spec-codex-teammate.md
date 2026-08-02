@@ -1,4 +1,4 @@
-﻿---
+---
 id: agent-spec-codex-teammate
 title: Codex 队友式使用规范
 type: agent-spec
@@ -15,6 +15,11 @@ domain:
 - ai-collaboration
 - engineering
 - agent
+aliases:
+  - Codex队友式使用规范
+  - 式使用规范
+  - 用规范
+  - 队友式使用规范
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
@@ -46,7 +51,6 @@ domain_sources:
 - 30_wiki/frameworks/framework-ai-native-organization-two-modes.md
 - 30_wiki/tools/tool-open-closed-problem-classifier.md
 - 30_wiki/concepts/concept-token-capital.md
-aliases:
 - Codex 队友
 - Codex teammate
 - Codex 协作教练

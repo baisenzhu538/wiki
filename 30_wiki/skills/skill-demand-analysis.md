@@ -39,6 +39,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+discoverable_by:
+- 需求分析
+- 冰山推演
+- 需求深挖
+- 用户需求
+- 全流程分析
 ---
 
 # 需求分析 Skill：冰山推演全流程

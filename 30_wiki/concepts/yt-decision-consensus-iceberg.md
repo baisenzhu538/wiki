@@ -24,6 +24,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 共识冰山工具
+  - 共识冰山工具：决策爬山说服挖冰四层法+教练式提问
+  - 冰山工具
+  - 决策爬山
+  - 教练式提问
+  - 说服挖冰四层法
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched
@@ -72,7 +79,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 课程地图精华串讲
 ---
 

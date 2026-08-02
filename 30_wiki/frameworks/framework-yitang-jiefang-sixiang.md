@@ -18,6 +18,24 @@ source_refs:
 - 00_inbox/解放思想/_processed/CASE_CANDIDATES.md
 - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
 related:
+aliases:
+  - 解放思想：不被行业常识和既有框架绑架
+  - 解放思想
+  - 不被行业常识和既有框架绑架
+  - 行业常识和既有框架绑架
+  - 业常识绑架
+  - 有框架
+aliases:
+  - 解放思想：不被行业常识和既有框架绑架
+  - 解放思想
+  - 不被行业常识和既有框架绑架
+  - 放思想
+  - 破既有框架
+  - 被行业常识绑架
+discoverable_by:
+  - "解放思想"
+  - "不被行业常识绑架"
+  - "打破既有框架"
 - yt-decision-y-model
 - framework-yitang-shishi-qiushi
 - tool-yitang-Y-model-application

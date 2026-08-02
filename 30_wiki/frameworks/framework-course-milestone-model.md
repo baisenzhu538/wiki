@@ -18,6 +18,9 @@ review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
 related:
+discoverable_by:
+  - "课程里程碑模型"
+  - "一堂做课七步"
 - '[[case-course-milestone-model]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
@@ -33,6 +36,19 @@ tags:
 - skill-level:intermediate
 source_context: 单一 source 为完整长文档，内容充分支撑 medium trust；待补充第二来源或充分验证后可升 high
 diagnostic_signals:
+aliases:
+  - 课程里程碑模型：一堂做课的七步生产流程
+  - 课程里程碑模型
+  - 一堂做课的七步生产流程
+  - 做课的七步生产流程
+  - 里程碑模型
+  - 程里程碑模型
+aliases:
+  - 课程里程碑模型：一堂做课的七步生产流程
+  - 课程里程碑模型
+  - 一堂做课的七步生产流程
+  - 程里程碑模型
+  - 堂做课七步
 - lens: 里程碑缺失
   follow_up: 用 M1-M7 检查当前课程处于哪一步，下一步停止条件是什么
 - lens: 边界漂移

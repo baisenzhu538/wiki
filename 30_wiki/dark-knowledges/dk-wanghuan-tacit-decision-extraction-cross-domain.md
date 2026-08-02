@@ -19,6 +19,12 @@ confidence: 0.78
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）教育机构销冠萃取案例，结合跨领域销售规律推演
+aliases:
+  - 暗知识
+  - 王欢
+  - 王欢暗知识
+  - 王欢暗知识：销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”销售
+  - 隐性判断型
 source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt

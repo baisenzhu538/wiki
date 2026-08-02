@@ -33,6 +33,11 @@ related:
 - tool-月白-AI去字-稿定设计加字工作流
 - tool-月白-三步作业反馈法
 tags:
+aliases:
+  - 技能：眼高手低转化法
+  - 技能
+  - 眼高手低转化法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

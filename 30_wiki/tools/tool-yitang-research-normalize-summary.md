@@ -36,6 +36,10 @@ related:
 - '[[tool-yitang-ai-assisted-organize]]'
 - '[[tool-yitang-research-cross-validation]]'
 tags:
+aliases:
+  - 归一总结：整合信息形成统一结论
+  - 归一总结
+  - 整合信息形成统一结论
 - audience:executor
 - scene:execution
 - skill-level:intermediate

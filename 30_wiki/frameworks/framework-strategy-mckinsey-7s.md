@@ -22,6 +22,11 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+discoverable_by:
+  - "麦肯锡7S模型"
+  - "组织诊断变革"
+  - "麦肯锡组织模型"
+  - "7S变革管理"
 - '[[strategy-domain-digest]]'
 - '[[tool-月白-AI模型选择策略]]'
 - '[[dk-单元模型-找单元模型实操难点]]'
@@ -29,6 +34,20 @@ related:
 - '[[tool-模型组合调用]]'
 - concept-mckinsey-7s
 tags:
+aliases:
+  - 麦肯锡7S模型：组织诊断与变革管理
+  - 麦肯锡
+  - 模型
+  - 组织诊断与变革管理
+  - 变革管理
+  - 织诊断变革
+aliases:
+  - 麦肯锡7S模型：组织诊断与变革管理
+  - 麦肯锡
+  - 模型
+  - 组织诊断与变革管理
+  - 变革管理
+  - 织诊断变革
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

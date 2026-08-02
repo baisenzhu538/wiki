@@ -14,6 +14,12 @@ created_at: '2026-07-19'
 updated_at: '2026-07-19'
 quality_labels:
 - insight
+aliases:
+  - 从不关注到统一体系
+  - 关注到统一体系
+  - 目标管理组织四阶段
+  - 目标管理组织四阶段：从不关注到统一体系
+  - 管理组织四阶段
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §7.1
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L1360-L1416
@@ -27,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - handle
 ---
 

@@ -32,6 +32,11 @@ related:
 - tool-纪浩-problem-validation-four-checks
 - sk-ai-question-problem-checklist
 tags:
+aliases:
+  - 技能：小红书封面趋势判断法
+  - 技能
+  - 小红书封面趋势判断法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

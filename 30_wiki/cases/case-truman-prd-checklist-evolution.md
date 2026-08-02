@@ -8,6 +8,13 @@ domain:
 - src_unknown
 source_person: Truman
 source_context: 一堂-个人修炼-知识萃取探索营口述版（2026-05）
+aliases:
+  - Truman
+  - Truman的PRD清单进化
+  - 从被领导反复打回到'不再二错
+  - 半年赶上三四年PM水平
+  - 清单进化
+  - 赶上三四年
 source_refs:
 - 10_raw/sources/src_20260510_814ec410-个人修炼-知识萃取探索营.md
 related:
@@ -43,7 +50,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 个人修炼
 - 知识萃取探索营
 ---

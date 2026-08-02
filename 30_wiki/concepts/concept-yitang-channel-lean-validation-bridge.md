@@ -13,6 +13,13 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 updated_at: '2026-06-29'
+aliases:
+  - Truman
+  - 把渠道
+  - 测试当作一种
+  - 渠道精益验证
+  - 渠道精益验证：把渠道0→1测试当作一种MVP
+  - 精益验证
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - pending_archive:lean-startup-domain-digest
@@ -38,7 +45,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 渠道探索方法论
 ---

@@ -25,6 +25,13 @@ diagnostic_signals:
 - signal: 企业认证额度未充分利用
   lens: 只用一个账号付费
   follow_up: 多账号薅免费额度，建立额度跟踪表
+aliases:
+  - AI工具开发成本优化清单
+  - AI工具开发成本优化清单：薅羊毛/中转商API/免费方案
+  - 中转商
+  - 免费方案
+  - 工具开发成本优化清单
+  - 薅羊毛/中转商API/免费方案
 source_refs:
 - 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-笔记.txt
 - 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt
@@ -50,7 +57,6 @@ query_triggers:
 - API省钱
 - 中转商API
 - 企业认证
-aliases:
 - AI口播工具开发经验
 - 付则宇
 ---

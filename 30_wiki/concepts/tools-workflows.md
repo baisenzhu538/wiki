@@ -15,6 +15,9 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+aliases:
+  - 工具工作流
+  - AI工具链
 related:
 - '[[yt-panproduct-execution-good-tools]]'
 - '[[tool-yitang-weapon-ai-tools]]'

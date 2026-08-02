@@ -15,6 +15,11 @@ updated_at: '2026-07-19'
 quality_labels:
 - insight
 - principle
+aliases:
+  - AI记忆四层分层模型：即时→会话→项目→长期
+  - 即时→会话→项目→长期
+  - 四层分层模型
+  - 记忆四层分层模型
 source_refs:
 - 00_inbox/半肥猫/【半肥猫】别只会问 AI：从一次 Codex 误删事故，看懂 AI 协作的记忆管理 副本.md §九-十
 related:
@@ -26,7 +31,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 从一次
 - 别只会问
 ---

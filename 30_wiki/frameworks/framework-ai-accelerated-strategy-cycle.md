@@ -20,6 +20,11 @@ source_refs:
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
+discoverable_by:
+- "AI加速战略"
+- "战略验证闭环"
+- "AI战略周期"
+- "精益AI加速"
 tags:
   - method:ai-strategy
   - method:acceleration
@@ -29,6 +34,16 @@ tags:
   - content-format:framework
   - source-person:Truman
 related:
+aliases:
+  - AI加速的战略验证闭环
+  - 加速的战略
+  - 验证闭环
+  - 加速的战略验证闭环
+  - 的战略
+aliases:
+  - AI加速的战略验证闭环
+  - 加速的战略
+  - 验证闭环
 - '[[framework-multi-agent-research-architecture]]'
 - '[[framework-wanghuan-harness-seven-stages]]'
 - '[[framework-lean-false-model]]'

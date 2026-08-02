@@ -13,6 +13,10 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂阻力挖掘方式
+  - 一堂阻力挖掘方式：把阻力当关键假设来定位
+  - 把阻力当关键假设来定位
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L712-L800
 related:
@@ -44,7 +48,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - conversion
 - handle
 ---

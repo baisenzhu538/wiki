@@ -27,6 +27,9 @@ reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.88
 trust_level: medium-high
+aliases:
+  - 功认知
+  - 基本功认知
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L104-360（认知篇）
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-口述.txt:L268-686（拆解篇）
@@ -43,7 +46,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - fundamentals
 - manage
 ---

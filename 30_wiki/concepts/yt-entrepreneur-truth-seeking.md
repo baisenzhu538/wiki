@@ -9,6 +9,12 @@ domain:
 confidence: 0.8
 language: zh-CN
 reviewed_by: 欧阳锋
+aliases:
+  - 写升级
+  - 实事求是已弃用
+  - 实事求是已弃用，待重写升级
+  - 待重写升级
+  - 求是已弃用
 source_refs:
 - pending_archive:src_placeholder
 related:

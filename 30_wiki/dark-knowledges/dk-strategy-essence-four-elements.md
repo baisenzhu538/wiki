@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 内核检测
+  - 战略内核检测
+  - 战略内核检测：细分市场+竞争优势+资源配置+范围经济
+  - 细分市场
+  - 细分市场+竞争优势+资源配置+范围经济
+  - 资源配置
 source_refs:
 - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
   - src_unknown - src_unknown

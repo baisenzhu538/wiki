@@ -9,6 +9,13 @@ domain:
 source_person: 子澄（鑫港湾西安代理）/金哥（新业务负责人），一堂课程讲师转述访谈
 source_context: 一堂「关键假设·业务公式」参数探索篇案例 2（L654-L886），一堂访谈鑫港湾西安代理后复盘：美团/抖音流量+小程序的自助棋牌室，从外行级四参数公式迭代到几十个参数，西安单店营业额达全国平均
   1.5 倍+、一年半回本、一年开 100+ 店全国第一
+aliases:
+  - 一年半回本
+  - 子澄（鑫港湾西安代理）/金哥（新业务负责人），一堂课程讲师转述访谈
+  - 把流量×转化×客单×复购四参数公式拆到几十个参数
+  - 新业务负责人
+  - 西安全国第一
+  - 鑫港湾自助棋牌室
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L654-L718
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L720-L760
@@ -41,7 +48,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - handle
 ---
 # 鑫港湾自助棋牌室：把"流量×转化×客单×复购"四参数公式拆到几十个参数，一年半回本、西安全国第一

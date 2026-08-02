@@ -13,6 +13,11 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂心理激励优先机制
+  - 一堂心理激励优先机制：先名/权/情，后利
+  - 先名/权/情
+  - 后利
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L668-L788
 related:
@@ -46,7 +51,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
-aliases:
 - conversion
 - handle
 ---

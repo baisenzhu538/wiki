@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 四线家政创业
+  - 四线家政创业天花板误判
+  - 天花板误判
+  - 家政创业
+  - 案例
+  - 案例：四线家政创业天花板误判
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
@@ -31,7 +38,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 五步法之需求分析
 - 需求评估避坑合集
 ---

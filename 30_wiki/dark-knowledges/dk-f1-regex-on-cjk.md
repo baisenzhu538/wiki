@@ -8,6 +8,12 @@ domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-001
+aliases:
+  - system
+  - 对中文页面永远返回
+  - 文页面永远返回
+  - 零返回
+  - 静默零返回→kdo
 source_refs:
 - src_unknown
 created_at: 2026-05-31

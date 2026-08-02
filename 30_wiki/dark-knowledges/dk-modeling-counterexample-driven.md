@@ -25,6 +25,18 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 tags:
+aliases:
+  - 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
+  - 建模不是找证据证明自己是对的
+  - 而是用反例把自己逼到没漏洞为止
+  - Truman
+  - 用反例把自己逼到没漏洞为止
+  - 不是找证据证明自己是对的
+aliases:
+  - 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
+  - 建模不是找证据证明自己是对的
+  - 而是用反例把自己逼到没漏洞为止
+  - Truman
 - src_unknown
 - src_unknown
 - src_unknown

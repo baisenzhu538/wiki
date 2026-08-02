@@ -13,6 +13,13 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 专家访谈黄金
+  - 专家访谈黄金10步法：分析3+准备3+执行4
+  - 准备
+  - 分析
+  - 执行
+  - 步法
 source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002213_vlm.md
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3028-L3068
@@ -45,7 +52,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - handle
 ---
 

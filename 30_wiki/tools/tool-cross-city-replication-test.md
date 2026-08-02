@@ -25,6 +25,9 @@ diagnostic_signals:
 - signal: 复制失败
   lens: 检查是模式问题还是执行问题
   follow_up: 检查是模式问题还是执行问题
+aliases:
+  - 市复制验证法
+  - 跨城市复制验证法
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt
 - 00_inbox/解放思想探索营/案例分享-笔记.txt
@@ -34,7 +37,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

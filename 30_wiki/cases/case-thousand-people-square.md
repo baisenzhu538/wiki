@@ -2,6 +2,13 @@
 id: case-thousand-people-square
 title: 案例：一堂'千人广场模型'——用统计建模心态做课
 type: case
+aliases:
+  - Truman
+  - 一堂'千人广场模型
+  - 千人广场模型
+  - 案例
+  - 案例：一堂'千人广场模型'用统计建模心态做课
+  - 用统计建模心态做课
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
@@ -46,7 +53,6 @@ diagnostic_signals:
   follow_up: 能否找到 ≥3 个独立 after 样本？共性是否剔除了个案特殊条件？
 - lens: 模型自信
   follow_up: 先定义广场边界，再验证五步法/模型能否覆盖边界内所有失败类型。
-aliases:
 - 建模能力培训
 ---
 

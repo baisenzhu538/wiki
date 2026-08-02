@@ -29,6 +29,10 @@ related:
 - tool-马易-隐私安全分层解决
 - tool-马易-AIGC项目ROI评估
 tags:
+aliases:
+  - 技能：减少输入噪音法
+  - 技能
+  - 减少输入噪音法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

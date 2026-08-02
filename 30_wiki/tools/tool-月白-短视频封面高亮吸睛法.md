@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-设计参考图精准定位法]]'
 - '[[tool-月白-正向反馈强化AI生成]]'
 tags:
+aliases:
+  - 技能：短视频封面高亮吸睛法
+  - 技能
+  - 短视频封面高亮吸睛法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -15,6 +15,8 @@ source_refs:
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_ocr_text.md
 - 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_vlm_desc.md
 related:
+discoverable_by:
+  - "精益高手十年修炼地图"
 - '[[lean-startup-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
@@ -24,6 +26,14 @@ related:
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
+aliases:
+  - 精益高手十年修炼地图
+  - 高手十年修炼地图
+  - 手十年修炼地图
+  - 益高手十年修炼地图
+aliases:
+  - 精益高手十年修炼地图
+  - 益高手十年修炼地图
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

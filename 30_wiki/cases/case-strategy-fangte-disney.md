@@ -13,6 +13,13 @@ language: zh-CN
 domain: strategy
 source_person: 冉鹏
 source_context: 引擎点火20260110 战略破局课程 逐字稿 §21-22
+aliases:
+  - 冉鹏
+  - 战略的范围经济
+  - 方特vs迪士尼
+  - 方特vs迪士尼：集团战略的范围经济有IP也打不过
+  - 有IP也打不过
+  - 集团战略的范围经济
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - 00_inbox/战略专题/_strategy_cards_implementation_status.md
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 冉鹏战略课逐字稿
 - 战略专题
 ---

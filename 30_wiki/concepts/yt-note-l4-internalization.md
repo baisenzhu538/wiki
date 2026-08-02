@@ -8,6 +8,12 @@ domain:
 language: zh-CN
 version: 1
 confidence: 0.88
+aliases:
+  - 从让别人看懂到让自己想清楚的跳跃
+  - 内化阶段
+  - 别人看懂到让自己想清楚的跳跃
+  - 清单体L4内化阶段
+  - 清单体L4内化阶段：从让别人看懂到让自己想清楚的跳跃
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 related:
@@ -45,7 +51,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 时代清单体笔记
 ---
 

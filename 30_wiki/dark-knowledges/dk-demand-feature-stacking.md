@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 功能堆叠陷阱
+  - 功能堆叠陷阱：加功能≠满足需求
+  - 加功能
+  - 加功能≠满足需求
+  - 堆叠陷阱
+  - 满足需求
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
@@ -28,7 +35,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 方法论
 ---

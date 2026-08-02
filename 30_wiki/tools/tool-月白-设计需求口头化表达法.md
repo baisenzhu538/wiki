@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-控制产品画面尺寸比例]]'
 - '[[tool-demand-iceberg-l2-scenario]]'
 tags:
+aliases:
+  - 技能：设计需求口头化表达法
+  - 技能
+  - 设计需求口头化表达法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

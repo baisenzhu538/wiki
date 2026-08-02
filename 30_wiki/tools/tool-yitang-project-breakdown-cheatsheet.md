@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-project-breakdown-cheatsheet
 title: 项目拆计划一页纸小抄
 type: tool
@@ -14,6 +14,9 @@ updated_at: 2026-07-07
 domain:
 - yitang
 - management
+aliases:
+  - 拆计划一页纸小抄
+  - 项目拆计划一页纸小抄
 source_refs:
 - 00_inbox/管项目/项目管理-拆计划-口述.txt
 - 00_inbox/管项目/项目管理-拆计划-笔记.txt

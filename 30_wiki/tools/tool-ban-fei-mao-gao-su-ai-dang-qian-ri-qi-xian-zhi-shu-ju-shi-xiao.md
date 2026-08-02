@@ -8,6 +8,13 @@ domain:
 - src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
+aliases:
+  - 半肥猫
+  - 告诉
+  - 当前日期限制数据时效
+  - 技能
+  - 技能：告诉AI当前日期限制数据时效
+  - 日期限制数据时效
 source_refs:
 - 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md
 tools_required:
@@ -42,7 +49,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 半肥猫
 - 学习落地
 ---

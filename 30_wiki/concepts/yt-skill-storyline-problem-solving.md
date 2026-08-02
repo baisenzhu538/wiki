@@ -20,6 +20,13 @@ confidence: 0.75
 trust_level: medium
 type: tool
 status: enriched
+aliases:
+  - 乱的诊断过程变成可追踪的思维链
+  - 体故事线
+  - 把混乱的诊断过程变成可追踪的思维链
+  - 清单体故事线④
+  - 清单体故事线④：问题解决线把混乱的诊断过程变成可追踪的思维链
+  - 问题解决线
 source_refs:
 - src_unknown
 source_context: 一堂清单体故事线系列（具体来源文件无法追溯，待后续补充）

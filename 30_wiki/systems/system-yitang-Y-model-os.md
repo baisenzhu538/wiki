@@ -46,6 +46,12 @@ created_at: 2026-07-03
 updated_at: '2026-07-08'
   - dk-ai-memory-four-layers
   - framework-yitang-thought-liberation-lightning
+discoverable_by:
+- Y模型OS
+- 决策系统
+- 认知操作系统
+- Y模型引擎
+- 决策框架
 ---
 
 # Y模型 OS：所有 Agent 的共享底层 prompt

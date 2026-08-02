@@ -1,10 +1,15 @@
-﻿---
+---
 id: rust-error-handling
 title: "Rust 错误处理：Result、? 与分层策略"
 type: concept
 status: draft
 domain:
   - rust
+aliases:
+  - Rust错误处理：Result、?与分层策略
+  - 与分层策略
+  - 层策略
+  - 错误处理
 source_refs:
   - pending_archive
 created_at: 2026-06-02

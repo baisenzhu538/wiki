@@ -1,4 +1,4 @@
-﻿---
+---
 id: framework-yitang-project-plan-design
 title: 项目定方案：背景-目标-关键路径三段论
 type: framework
@@ -14,6 +14,13 @@ updated_at: 2026-07-07
 domain:
 - yitang
 - management
+aliases:
+  - 关键路径三段论
+  - 目标
+  - 背景
+  - 路径三段论
+  - 项目定方案
+  - 项目定方案：背景目标关键路径三段论
 source_refs:
 - 00_inbox/管项目/项目管理-定方案-口述.txt
 - 00_inbox/管项目/项目管理-定方案-笔记.txt
@@ -38,6 +45,12 @@ diagnostic_signals:
 quality_labels:
 - principle
 - actionable
+discoverable_by:
+- 项目方案设计
+- 项目背景分析
+- 目标拆解方法
+- 三段论
+- 项目规划框架
 ---
 
 # 项目定方案：背景-目标-关键路径三段论

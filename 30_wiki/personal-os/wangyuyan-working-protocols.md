@@ -7,6 +7,12 @@ created_at: 2026-07-12T01:40:00+00:00
 updated_at: 2026-07-19T02:15:00+00:00
 domain:
   - personal-os
+discoverable_by:
+- 王语嫣协议
+- 工作规范
+- Agent规范
+- 标注协议
+- 工作约定
 ---
 
 # 王语嫣工作协议集

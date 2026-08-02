@@ -10,6 +10,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 两年30亿
+  - 从高考生切入
+  - 凉白开
+  - 凉白开：细分垄断从高考生切入，两年30亿
+  - 细分垄断
+  - 考生切入
 source_refs:
 - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
   - src_unknown - src_unknown

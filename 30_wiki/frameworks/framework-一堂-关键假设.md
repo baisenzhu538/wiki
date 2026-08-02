@@ -20,6 +20,10 @@ source_refs:
 - 00_inbox/一堂-关键假设-关键假设三板斧_paddle_ocr.txt
 - 00_inbox/一堂-关键假设-关键假设ABCD模型_paddle_ocr.txt
 related:
+discoverable_by:
+  - "关键假设"
+  - "假设驱动业务"
+  - "一堂关键假设方法"
 - '[[agent-一堂-关键假设教练]]'
 - '[[framework-一堂-关键假设-ABCD模型]]'
 - '[[framework-一堂-关键假设-三板斧]]'
@@ -86,6 +90,20 @@ quality_labels:
 - cited
 - actionable
 tags:
+aliases:
+  - 一堂关键假设：用假设驱动业务的方法论入口总框架
+  - 一堂关键假设
+  - 用假设驱动业务的方法论入口总框架
+  - 堂关键假设方法
+  - 键假设方法
+  - 关键假设
+aliases:
+  - 一堂关键假设：用假设驱动业务的方法论入口总框架
+  - 一堂关键假设
+  - 用假设驱动业务的方法论入口总框架
+  - 设驱动业务
+  - 键假设
+  - 堂关键假设方法
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

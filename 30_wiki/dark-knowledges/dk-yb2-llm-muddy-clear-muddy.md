@@ -8,6 +8,13 @@ domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
+aliases:
+  - 型训练本质
+  - 大模型训练本质
+  - 大模型训练本质：浑水→清水→浑水的双向转换
+  - 月白
+  - 浑水→清水→浑水的双向转换
+  - 浑水的双向转换
 source_refs:
 - src_unknown
 created_at: 2026-06-04

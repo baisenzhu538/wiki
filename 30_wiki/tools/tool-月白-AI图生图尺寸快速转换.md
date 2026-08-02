@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-AI自动生成多语种专业名词提示词]]'
 - '[[tool-月白-短视频封面-音量战争-设计法]]'
 tags:
+aliases:
+  - 技能：AI图生图尺寸快速转换
+  - 技能
+  - AI图生图尺寸快速转换
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

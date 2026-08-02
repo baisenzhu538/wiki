@@ -10,6 +10,11 @@ trust_level: medium-high
 reviewed_by:
 - src_unknown
 author: 老顽童
+aliases:
+  - 十大硬伤
+  - 十大硬伤：商业机会的致死缺陷清单
+  - 商业机会的致死缺陷清单
+  - 机会的致死缺陷清单
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 related:
@@ -41,7 +46,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 机会预判课
 ---
 

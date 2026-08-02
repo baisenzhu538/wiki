@@ -19,6 +19,9 @@ diagnostic_signals:
 - signal: 源码交付是否被当成逃避 SaaS 订阅锁定的方式
   framework_lens: 锁定 vs 自主 / 隐性成本
   follow_up_question: 客户是否意识到数据与安全责任转移？
+aliases:
+  - 交付模式
+  - 源码交付模式
 source_refs:
 - 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
 - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md

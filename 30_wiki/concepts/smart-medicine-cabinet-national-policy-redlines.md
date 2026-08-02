@@ -7,6 +7,13 @@ domain:
 - healthcare- healthcare
 - pharmaceutical-retail
 - policy-compliance
+aliases:
+  - 号公告解读
+  - 告解读
+  - 售药机国家政策与红线
+  - 年第
+  - 自助售药机国家政策与红线2024
+  - 自助售药机国家政策与红线2024年第48号公告解读
 source_refs:
 - pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - pending_archive:src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive

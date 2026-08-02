@@ -24,6 +24,10 @@ related:
 - concept-发现决策
 updated_at: '2026-06-29'
 tags:
+aliases:
+  - 最佳实践收集：系统性收集团队/行业的最佳做法
+  - 最佳实践收集
+  - 系统性收集团队/行业的最佳做法
 - audience:manager
 - scene:execution
 - skill-level:intermediate

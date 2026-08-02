@@ -14,6 +14,12 @@ updated_at: '2026-07-04'
 domain:
 - yitang
 - decision-science
+aliases:
+  - 创业方法
+  - 创业方法AB面清单：对立金句的适用场景判断
+  - 对立金句的适用场景判断
+  - 金句的适用场景判断
+  - 面清单
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
@@ -26,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - extractions
 ---
 

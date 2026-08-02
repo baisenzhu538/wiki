@@ -9,6 +9,9 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 source_context: 一堂产品内核系列课——失败案例
+aliases:
+  - 产品内核失败模式
+  - 内核失败模式
 source_refs:
 - src_unknown
 - src_unknown

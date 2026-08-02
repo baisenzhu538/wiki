@@ -8,6 +8,12 @@ domain:
 - business-strategy
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，线下连锁健身续卡案例（持续复购型）
+aliases:
+  - 孔阳
+  - 把到店频率变成到店习惯才是续卡率抓手
+  - 线下连锁健身
+  - 线下连锁健身：把到店频率变成到店习惯才是续卡率抓手
+  - 连锁健身
 source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md

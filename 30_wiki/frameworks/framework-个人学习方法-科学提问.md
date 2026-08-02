@@ -18,6 +18,9 @@ source_refs:
 - 00_inbox/AI-study/一堂-AI学习-科学提问口述.txt L96,L396,L432-L436,L1070
 - 00_inbox/一堂-个人修炼-提问刻意练习画布_paddle_ocr.txt
 related:
+discoverable_by:
+  - "科学提问"
+  - "AI时代提问生产力"
 - '[[framework-个人学习方法总框架]]'
 - '[[framework-个人学习方法-IPO学习闭环]]'
 - '[[agent-个人学习方法教练]]'
@@ -33,6 +36,19 @@ quality_labels:
 - principle
 - actionable
 tags:
+aliases:
+  - 科学提问：AI时代提问=生产力入口
+  - 科学提问
+  - AI时代提问=生产力入口
+  - 时代提问
+  - 提问生产力
+  - 生产力入口
+aliases:
+  - 科学提问：AI时代提问=生产力入口
+  - 科学提问
+  - AI时代提问=生产力入口
+  - 学提问
+  - 时代提问生产力
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

@@ -15,6 +15,13 @@ domain:
 - conversion-rate
 source_person: 课程案例/跆拳道机构销售（动力篇案例）
 source_context: 一堂「转化率黑客-动力篇」618大促8.8万黑带卡销售话术迭代案例
+aliases:
+  - 8.8万课包话术进化链
+  - 平铺卖点到
+  - 课程案例/跆拳道机构销售（动力篇案例）
+  - 跆拳道黑带卡从1.0平铺卖点到4.0影响力六连招
+  - 跆拳道黑带卡从1.0平铺卖点到4.0影响力六连招，8.8万课包话术进化链
+  - 道黑带卡从
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L808-L856
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3234-L3296
@@ -42,7 +49,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - conversion
 - handle
 ---

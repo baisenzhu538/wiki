@@ -8,6 +8,13 @@ domain:
 - src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享——真实案例：将一堂《转化率黑客五组合落地》课程转化为 Skill
+aliases:
+  - 从一堂转化率课程到可验证的
+  - 八步法
+  - 半肥猫的课程转
+  - 工具
+  - 案例
+  - 案例：半肥猫的课程转Skill八步法从一堂转化率课程到可验证的AI工具
 source_refs:
 - 10_raw/sources/src_20260617_2b8a01ce-ai俱乐部-ai学习落地-半肥猫-口述.txt
 - 10_raw/sources/src_20260617_629e996c-ai俱乐部-ai学习落地-半肥猫-笔记.txt
@@ -56,7 +63,6 @@ diagnostic_signals:
   follow_up_question: 工具中的每条关键 claim 是否有来源？哪些是个人经验、哪些是外部数据、哪些缺少反例？
 - framework_lens: 缺少工程化目录与封装机制
   follow_up_question: 你的 Skill 是否有 manifest、测试用例、版本记录和安装文档？
-aliases:
 - 俱乐部
 - 半肥猫
 - 学习落地

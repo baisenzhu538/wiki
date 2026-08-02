@@ -8,6 +8,10 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-4
+aliases:
+  - P4：批量格式升级产生格式完整但思维空洞卡片C8
+  - system
+  - 批量格式升级产生格式完整但思维空洞卡片
 source_refs:
 - src_unknown
 created_at: 2026-06-03

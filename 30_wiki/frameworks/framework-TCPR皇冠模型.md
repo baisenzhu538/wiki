@@ -11,6 +11,13 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - R皇冠模型
+  - TCPR皇冠模型：教学咨询实践研究的统一框架
+  - 咨询
+  - 实践
+  - 教学
+  - 研究的统一框架
 source_refs:
 - 00_inbox/_vlm_reprocess/其他/一堂-TCPR模型-皇冠模型_vlm_desc.md
 related:
@@ -30,6 +37,10 @@ related:
 - '[[tool-agent-spec-yitang-Y-model-coach]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+discoverable_by:
+  - "TCPR皇冠模型"
+  - "教学咨询实践研究框架"
+  - "TCPI-R统一框架"
 query_triggers:
 - TCPR 皇冠模型
 - 教学咨询实践研究怎么练
@@ -46,7 +57,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 皇冠模型
 ---
 

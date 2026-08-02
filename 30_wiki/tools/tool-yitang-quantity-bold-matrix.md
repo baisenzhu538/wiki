@@ -17,6 +17,8 @@ quality_labels:
 discoverable_by:
 - 团队创新能力诊断
 - 创新瓶颈定位
+aliases:
+  - 数量×大胆二维诊断矩阵
 source_refs:
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt §4
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt
@@ -35,7 +37,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 探索营
 - 解放思想创新体系
 ---

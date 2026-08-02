@@ -9,6 +9,11 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
+aliases:
+  - 双角色教练对练工具
+  - 王欢
+  - 王欢：AI双角色教练对练工具
+  - 色教练对练工具
 source_refs:
 - src_unknown
 - src_unknown

@@ -40,6 +40,11 @@ related:
 - '[[tool-月白-用AIGC做设计专家批评复盘]]'
 - '[[tool-月白-短视频封面一秒吸睛法]]'
 tags:
+aliases:
+  - 技能：口喷式设计工作流
+  - 技能
+  - 口喷式设计工作流
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

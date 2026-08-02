@@ -8,6 +8,9 @@ confidence: 0.8
 trust_level: medium
 domain:
 - system
+aliases:
+  - Agent进化常见失败模式
+  - 进化常见失败模式
 source_refs:
 - .agent/pitfalls.md
 - 30_wiki/frameworks/framework-kdo-modeling-methodology.md
@@ -33,7 +36,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - control
 ---
 

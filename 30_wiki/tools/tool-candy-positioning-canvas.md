@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - content-production
+aliases:
+  - Candy差异化定位画布
+  - Candy差异化定位画布：回答这篇东西凭什么存在
+  - 回答这篇东西凭什么存在
+  - 差异化定位画布
+  - 这篇东西凭什么存在
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:

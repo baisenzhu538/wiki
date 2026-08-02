@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-006
+aliases:
+  - FKDO006：骨架页面CJK内容损毁→ingest后中文摘要变成随机碎片
+  - system
+  - 内容损毁→ingest
+  - 后中文摘要变成随机碎片
+  - 文摘要变成随机碎片
+  - 骨架页面
 source_refs:
 - src_unknown
 created_at: 2026-05-31

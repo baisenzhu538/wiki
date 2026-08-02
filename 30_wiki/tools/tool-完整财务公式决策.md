@@ -11,6 +11,11 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - L6认知分级
+  - 商业模式决策的L1
+  - 完整财务公式
+  - 完整财务公式：商业模式决策的L1L6认知分级
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-商业模式-完整财务公式决策_vlm_desc.md
 related:
@@ -26,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 商业模式
 - 完整财务公式决策
 ---

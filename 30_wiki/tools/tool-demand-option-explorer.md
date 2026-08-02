@@ -14,6 +14,13 @@ updated_at: 2026-07-08
 domain:
 - yitang
 - demand-analysis
+aliases:
+  - USP追问+控变量+找盲区
+  - 找盲区
+  - 控变量
+  - 选项探讨工具
+  - 需求选项探讨工具
+  - 需求选项探讨工具：USP追问+控变量+找盲区
 source_refs:
 - 00_inbox/五步法之需求分析/AI辅助探讨需求选项的提示词.md
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt L1104-L1186
@@ -36,7 +43,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 五步法之需求分析
 - 辅助探讨需求选项的提示词
 ---

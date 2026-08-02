@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 亮都栽了
+  - 对失败四因
+  - 诸葛亮都栽了
+  - 资源/联盟/执行/环境
+  - 隆中对失败四因
+  - 隆中对失败四因：资源/联盟/执行/环境诸葛亮都栽了
 source_refs:
 - 'pending_archive:'
 related:

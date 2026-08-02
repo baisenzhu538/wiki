@@ -22,6 +22,24 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 - https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/
 related:
+aliases:
+  - 结构化分析技术SATs总览
+  - Richards J. Heuer Jr. + Randolph H. Pherson + Truman（一堂）
+  - 策分析技术
+  - 构化思维方法
+  - 析技术
+  - 分析技术
+aliases:
+  - 结构化分析技术SATs总览
+  - Richards J. Heuer Jr. + Randolph H. Pherson + Truman（一堂）
+  - 策分析技术
+  - 构化思维方法
+  - 构化分析技术
+discoverable_by:
+  - "结构化分析技术"
+  - "SATs"
+  - "决策分析技术"
+  - "结构化思维方法"
 - '[[framework-yitang-nine-layer-deep-dig]]'
 - '[[yt-management-toolkit-overview]]'
 - '[[tool-agent-native-overview]]'

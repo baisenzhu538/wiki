@@ -8,6 +8,13 @@ domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
+aliases:
+  - AIGC提示词迁移
+  - AIGC提示词迁移：先照搬再微调的务实策略
+  - 先照搬再微调的务实策略
+  - 提示词迁移
+  - 搬再微调的务实策略
+  - 月白
 source_refs:
 - 00_inbox/design/AI设计-AI设计基础01.txt
 created_at: 2026-06-04
@@ -24,7 +31,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
-aliases:
 - 设计基础
 ---
 

@@ -29,6 +29,10 @@ related:
 - '[[tool-水水-识别自证预言陷阱]]'
 - '[[tool-水水-识别超级传播者风险]]'
 tags:
+aliases:
+  - 技能：构建自利叙事
+  - 技能
+  - 构建自利叙事
 - audience:executor
 - scene:execution
 - skill-level:intermediate

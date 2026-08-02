@@ -12,6 +12,9 @@ domain:
 - strategy
 - yitang
 - product
+aliases:
+  - 人工替代复杂系统
+  - 替代复杂系统
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212351_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212351_vlm_desc.md
@@ -28,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 精益创业
 ---
 # 人工替代复杂系统

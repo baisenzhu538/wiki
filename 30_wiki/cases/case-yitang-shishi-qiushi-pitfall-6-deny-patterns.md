@@ -13,6 +13,13 @@ updated_at: 2026-07-05
 domain:
 - yitang
 - decision-science
+aliases:
+  - 不信规律
+  - 实事求是十坑
+  - 实事求是十坑不信规律：猎头互联网做大的结构性失败
+  - 求是十坑
+  - 求是十坑不信规律
+  - 猎头互联网做大的结构性失败
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
@@ -22,7 +29,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - extractions
 ---
 

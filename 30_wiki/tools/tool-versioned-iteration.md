@@ -25,6 +25,12 @@ diagnostic_signals:
 - signal: 旧模型不work但不知道怎么改
   lens: 先粉碎再重建
   follow_up: 先粉碎再重建
+aliases:
+  - 0.5→0.9逐版验证
+  - 版本迭代法
+  - 版本迭代法：0.5→0.9逐版验证
+  - 迭代法
+  - 逐版验证
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt
 - 00_inbox/解放思想探索营/案例分享-笔记.txt
@@ -34,7 +40,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

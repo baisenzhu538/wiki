@@ -22,6 +22,10 @@ related:
 - '[[tool-水水-利用基因漂变视角]]'
 - '[[tool-水水-构建自利叙事]]'
 tags:
+aliases:
+  - 技能：识别数据折磨陷阱
+  - 技能
+  - 识别数据折磨陷阱
 - audience:executor
 - scene:execution
 - skill-level:intermediate

@@ -39,6 +39,11 @@ related:
 - '[[tool-yitang-weapon-media-search]]'
 - '[[tool-yitang-weapon-third-party-database]]'
 tags:
+aliases:
+  - 穷尽手段：底线之上，努力拉满
+  - 穷尽手段
+  - 底线之上
+  - 努力拉满
 - audience:executor
 - scene:execution
 - skill-level:intermediate

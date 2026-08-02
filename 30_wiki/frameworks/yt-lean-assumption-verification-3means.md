@@ -7,6 +7,13 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 假设验证的三种手段
+  - 关键假设验证的三种手段
+  - 关键假设验证的三种手段：访谈调研、经验验证、实验验证
+  - 实验验证
+  - 经验验证
+  - 访谈调研
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -37,8 +44,13 @@ diagnostic_signals:
   follow_up_question: 产品是书、APP、课程还是线下训练营？不同形态的样本量与核心转化率标准是什么？
 - framework_lens: 未优先使用低成本的调研与竞品对标
   follow_up_question: 同样资源、同样条件的竞品是否已经在跑通这个模式？能否通过水下调研直接拿答案？
-aliases:
 - 精益方法论培训
+discoverable_by:
+- 假设验证方法
+- 三种验证手段
+- 精益实验
+- 快速验证
+- 假设测试方法
 ---
 
 

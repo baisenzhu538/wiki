@@ -29,6 +29,12 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:beginner
+discoverable_by:
+- 批量生产
+- KDO生产
+- 卡片批量
+- 生产需求
+- 批量卡片
 ---
 # REQ-014 批量 Produce 12 篇 Enriched 页面
 

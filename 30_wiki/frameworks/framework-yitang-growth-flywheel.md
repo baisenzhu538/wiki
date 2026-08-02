@@ -27,6 +27,10 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-案例-top city_vlm_desc.md
 source_person: Truman
 related:
+discoverable_by:
+  - "增长飞轮"
+  - "增强回路"
+  - "单点增长系统化"
 - '[[framework-yitang-channel-exploration-4step]]'
 - '[[framework-yitang-channel-industrialization]]'
 - '[[case-yitang-amazon-growth-flywheel]]'
@@ -37,6 +41,20 @@ related:
 - '[[framework-yitang-six-layer-cross-validation]]'
 review_date: '2026-06-28'
 tags:
+aliases:
+  - 增长飞轮：把单点增长变成自我强化的增强回路
+  - 增长飞轮
+  - 把单点增长变成自我强化的增强回路
+  - Truman
+  - 长飞轮
+  - 强回路
+aliases:
+  - 增长飞轮：把单点增长变成自我强化的增强回路
+  - 增长飞轮
+  - 把单点增长变成自我强化的增强回路
+  - Truman
+  - 长飞轮
+  - 强回路
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

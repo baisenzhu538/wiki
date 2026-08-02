@@ -22,6 +22,10 @@ trust_level: high
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
+discoverable_by:
+  - "需求验证流水线"
+  - "需求验证流程"
+  - "需求假设验证方法"
 - '[[framework-demand-lean-bridge]]'
 - '[[case-demand-b2b-enterprise-erp]]'
 - '[[case-demand-b2c-consumer-insight]]'
@@ -32,6 +36,18 @@ related:
 - '[[tool-yitang-customer-segmentation-4step]]'
 - '[[tool-yitang-value-proposition-4step]]'
 tags:
+aliases:
+  - 需求验证流水线
+  - 求验证流水线
+  - 求假设验证方法
+  - 证流程
+  - 证流水线
+  - 求验证流程
+aliases:
+  - 需求验证流水线
+  - 求验证流程
+  - 求验证流水线
+  - 求假设验证方法
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

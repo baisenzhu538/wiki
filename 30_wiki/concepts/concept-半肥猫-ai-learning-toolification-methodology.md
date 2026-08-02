@@ -9,6 +9,13 @@ domain:
 - src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享（2026-06）
+aliases:
+  - 从听课到造工具的三层递进
+  - 半肥猫
+  - 半肥猫AI学习落地方法论：从听课到造工具的三层递进
+  - 学习落地方法论
+  - 落地方法论
+  - 课到造工具的三层递进
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 - 10_raw/sources/src_20260617_26d0ee0b-ai俱乐部-ai学习落地-半肥猫-笔记.txt
@@ -50,7 +57,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 俱乐部
 - 半肥猫
 - 学习落地

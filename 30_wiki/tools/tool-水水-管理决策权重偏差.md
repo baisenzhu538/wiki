@@ -46,6 +46,11 @@ diagnostic_signals:
 - lens: 不可通约量化
   follow_up: 对于truly hard choices，不要试图用权重计算，而是问'我想成为什么样的人'
 tags:
+aliases:
+  - 技能：管理决策权重偏差
+  - 技能
+  - 管理决策权重偏差
+  - 水水
 - audience:manager
 - scene:execution
 - skill-level:intermediate

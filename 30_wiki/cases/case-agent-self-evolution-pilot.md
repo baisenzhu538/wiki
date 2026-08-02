@@ -8,6 +8,12 @@ confidence: 0.85
 trust_level: high
 domain:
 - system
+aliases:
+  - #200任务的完整过程记录
+  - Agent自我进化试点
+  - Agent自我进化试点：#200任务的完整过程记录
+  - 任务的完整过程记录
+  - 自我进化试点
 source_refs:
 - 60_feedback/tasks/task_20260726_wangyuyan-agent-evolution-lightning.md
 - 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
@@ -33,7 +39,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - tasks
 ---
 

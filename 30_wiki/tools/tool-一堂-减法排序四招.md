@@ -13,6 +13,10 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂减法排序四招
+  - 一堂减法排序四招：经验专家/内部共识/同行调研/实验验证
+  - 经验专家/内部共识/同行调研/实验验证
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2240-L2338
 related:
@@ -38,7 +42,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - conversion
 - handle
 ---

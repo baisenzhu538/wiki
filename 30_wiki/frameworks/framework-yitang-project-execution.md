@@ -14,6 +14,12 @@ updated_at: 2026-07-07
 domain:
 - yitang
 - management
+aliases:
+  - 六大管理手段保障项目落地
+  - 管理手段保障项目落地
+  - 管过程
+  - 项目管过程
+  - 项目管过程：六大管理手段保障项目落地
 source_refs:
 - 00_inbox/管项目/项目管理-管过程-口述.txt
 - 00_inbox/管项目/项目管理-管过程-笔记.txt
@@ -53,9 +59,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 守质量
 - 控变化
+discoverable_by:
+- 项目管理执行
+- 项目过程管控
+- 进度质量管理
+- 项目落地保障
+- 管事管人
 ---
 
 # 项目管过程：六大管理手段保障项目落地

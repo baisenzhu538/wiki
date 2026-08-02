@@ -33,6 +33,11 @@ related:
 - tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi
 - productization-judgment
 tags:
+aliases:
+  - 技能：烧Token快速积累体感
+  - 技能
+  - 烧Token快速积累体感
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

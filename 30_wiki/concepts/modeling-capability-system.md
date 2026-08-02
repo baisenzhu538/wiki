@@ -7,6 +7,12 @@ title: 高阶建模能力体系：一堂从经验到规律的教研方法论
 type: concept
 status: reviewed
 source_context: 一堂 2026-06-12 建模能力培训课程
+aliases:
+  - 一堂从经验到规律的教研方法论
+  - 从经验到规律的教研方法论
+  - 建模能力体系
+  - 高阶建模能力体系
+  - 高阶建模能力体系：一堂从经验到规律的教研方法论
 source_refs:
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -34,7 +40,6 @@ diagnostic_signals:
   follow_up_question: 你能不能用 1-4 个关键词概括这个领域的本质？
 - framework_lens: 人在环中建模五步法
   follow_up_question: 这个模型是否已定义边界、经过挑错/撞击实验、并固化成清单/SOP？
-aliases:
 - 建模能力培训
 - 流程建模
 - 高阶建模

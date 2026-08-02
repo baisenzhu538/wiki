@@ -25,6 +25,10 @@ related:
 - '[[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]'
 - '[[tool-李诞-销售闭环验证：从0到1的重新定义]]'
 tags:
+aliases:
+  - 技能：面对过去错误的平静心法
+  - 技能
+  - 面对过去错误的平静心法
 - audience:executor
 - scene:execution
 - skill-level:beginner

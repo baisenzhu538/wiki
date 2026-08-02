@@ -1,11 +1,15 @@
 ---
 id: yt-customer-acquisition-toolkit
+title: "获客工具合集"
 related:
 - '[[yt-growth-cycle-model]]'
 - '[[yt-unit-model-three-tools]]'
 - '[[case-toy-cabinet-business-model]]'
 - '[[yt-five-step-method]]'
 - '[[pending_unknown]]'
+aliases:
+  - 工具合集
+  - 获客工具合集
 source_refs:
 - pending_archive: src_unknown
 tags:
@@ -13,7 +17,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 获客工具合集
 
 > 来源：一堂五步法·增长篇 | [[yt-growth-cycle-model]] | [[yt-unit-model-three-tools]] | [[case-toy-cabinet-business-model]]

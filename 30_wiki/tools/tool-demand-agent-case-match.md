@@ -14,6 +14,13 @@ domain:
 - yitang
 - five-step-method
 - ai-collaboration
+aliases:
+  - AgentL4案例匹配：以历史摩擦点为起点填充8步地图
+  - L4案例匹配
+  - 以历史摩擦点为起点填充
+  - 以历史摩擦点为起点填充8步地图
+  - 史摩擦点为起点填充
+  - 步地图
 source_refs: null
 related:
 - '[[yitang-domain-digest]]'

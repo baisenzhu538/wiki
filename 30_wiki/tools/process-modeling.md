@@ -8,6 +8,13 @@ domain:
 - yitang
 source_person: 楚门/Truman
 source_context: 一堂 2026-06-12 建模能力培训课程，流程建模与 SOP
+aliases:
+  - 与清单把经验变成稳定产出
+  - 单把经验变成稳定产出
+  - 楚门/Truman
+  - 流程建模
+  - 流程建模：用SOP与清单把经验变成稳定产出
+  - 经验变成稳定产出
 source_refs:
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 - 10_raw/sources/src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01.md
@@ -46,7 +53,6 @@ diagnostic_signals:
   follow_up_question: 你是否给 SOP 的执行加了监督和检查机制？
 - framework_lens: 分解 × 锁 × 边界 × 迭代
   follow_up_question: 这个输出是否已拆到可检查步骤？关键节点是否有锁？边界是否写明？是否有迭代触发器？
-aliases:
 - 建模能力培训
 - 开播准备
 - 流程建模

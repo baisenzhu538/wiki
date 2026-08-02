@@ -25,6 +25,9 @@ diagnostic_signals:
 - signal: 只写事实不写判断
   lens: 补上"判断变化"行
   follow_up: 补上"判断变化"行
+aliases:
+  - 四行复盘法
+  - 复盘法
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt
 - 00_inbox/解放思想探索营/案例分享-笔记.txt
@@ -34,7 +37,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

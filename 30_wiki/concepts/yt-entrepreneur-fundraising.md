@@ -2,6 +2,7 @@
 domain:
 - entrepreneurship
 id: yt-entrepreneur-fundraising
+title: "融资认知"
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -19,13 +20,14 @@ query_triggers:
 - src_unknown
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 融资认知
 source_refs:
 - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 课程地图精华串讲
 ---
 # 融资认知

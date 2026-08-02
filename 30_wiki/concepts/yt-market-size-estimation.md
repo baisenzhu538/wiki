@@ -16,6 +16,9 @@ query_triggers:
 - src_unknown
 review_date: 2026-06-10
 reviewed_by: 老顷童（精修）
+aliases:
+  - 市场规模估算方法
+  - 规模估算方法
 source_refs:
 - src_unknown
 - src_unknown

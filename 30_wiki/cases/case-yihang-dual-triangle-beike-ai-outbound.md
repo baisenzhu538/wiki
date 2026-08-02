@@ -17,6 +17,13 @@ domain:
 - real-estate
 - call-center
 - organizational-transformation
+aliases:
+  - 一行双三角案例
+  - 一行双三角案例：贝壳找房110个场景的AI外呼
+  - 个场景的
+  - 双三角案例
+  - 贝壳找房
+  - 贝壳找房110个场景的AI外呼
 source_refs:
 - 00_inbox/人机协作双三角/[【组织】贝壳找房案例口述.pdf
 - 00_inbox/人机协作双三角/_processed/组织贝壳找房案例口述_text.md
@@ -30,7 +37,6 @@ related:
 - '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
 - '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
 - '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
-aliases:
 - 贝壳找房案例
 - AI外呼案例
 - 人机协作双三角

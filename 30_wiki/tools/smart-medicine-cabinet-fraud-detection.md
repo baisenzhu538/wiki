@@ -7,6 +7,10 @@ domain:
 - healthcare- healthcare
 - pharmaceutical-retail
 - risk-warning
+aliases:
+  - 智慧药房招商骗局识别清单
+  - 智能药柜/智慧药房招商骗局识别清单
+  - 药房招商骗局识别清单
 source_refs:
 - pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - pending_archive:src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive

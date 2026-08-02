@@ -13,6 +13,13 @@ updated_at: 2026-07-06
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 不懂的领域用
+  - 家判断替代法不懂的领域用
+  - 的领域用
+  - 集群建立可用判断力
+  - 非专家判断替代法
+  - 非专家判断替代法不懂的领域用AI集群建立可用判断力
 source_refs:
 - 对话记录：2026-07-05 老朱结构工程师案例
 - 对话记录：2026-07-05 老朱代码库梳理案例
@@ -23,7 +30,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 对话记录
 - 老朱代码库梳理案例
 - 老朱结构工程师案例

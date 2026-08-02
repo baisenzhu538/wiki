@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-AI图片印刷落地预处理]]'
 - '[[tool-月白-PS图层规范管理]]'
 tags:
+aliases:
+  - 技能：跨境电商产品图替换法
+  - 技能
+  - 跨境电商产品图替换法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

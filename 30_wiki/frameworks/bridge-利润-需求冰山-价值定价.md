@@ -16,6 +16,13 @@ updated_at: '2026-07-19'
 quality_labels:
 - insight
 - actionable
+aliases:
+  - 一堂需求冰山
+  - 利润为王
+  - 利润为王客户为什么愿意付高价
+  - 客户为什么愿意付高价
+  - 桥接
+  - 桥接：一堂需求冰山×利润为王客户为什么愿意付高价
 source_refs:
 - 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L2840-L2898
 - 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L131-L163
@@ -28,12 +35,16 @@ related:
 - concept-利润-风险报偿本质
 - framework-利润-利润优先经营框架
 - yt-decision-y-model
-- dk-利润-定价恐惧三段式反问
+discoverable_by:
+- "需求冰山和价值定价"
+- "客户为什么愿意付高价"
+- "价值定价方法"
+- "需求冰山定价"
+diagnostic_signals:
 tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 利润为王
 ---
 

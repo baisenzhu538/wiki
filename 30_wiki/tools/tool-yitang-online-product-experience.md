@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 产品完整体验
+  - 从注册到售后的全流程
+  - 册到售后的全流程
+  - 线上产品完整体验
+  - 线上产品完整体验：从注册到售后的全流程
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -28,7 +34,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

@@ -8,6 +8,12 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——用户视角
+aliases:
+  - 为什么我觉得好不等于用户觉得好
+  - 么我觉得好不等于用户觉得好
+  - 产品视角
+  - 用户视角
+  - 用户视角vs产品视角：为什么我觉得好不等于用户觉得好
 source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -36,7 +42,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核验证课
 ---

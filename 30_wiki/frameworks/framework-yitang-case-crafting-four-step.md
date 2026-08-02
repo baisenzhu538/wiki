@@ -19,6 +19,11 @@ source_refs:
 - 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt
 - 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt
 related:
+discoverable_by:
+  - "案例打磨四步法"
+  - "事实复盘选定魂儿"
+  - "案例写作方法"
+  - "案例打磨流程"
 - framework-yitang-shishi-qiushi
 - framework-yitang-nine-layer-deep-dig
 - concept-yitang-case-jiejiaxiuzhen
@@ -27,6 +32,20 @@ related:
 - framework-kdo-modeling-methodology
 - framework-yitang-content-polish
 tags:
+aliases:
+  - 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
+  - 案例打磨四步法
+  - 事实复盘→选定魂儿→挖专业度→打磨表达
+  - 实复盘选定魂儿
+  - 作方法
+  - 例打磨四步法
+aliases:
+  - 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
+  - 案例打磨四步法
+  - 事实复盘→选定魂儿→挖专业度→打磨表达
+  - 例打磨流程
+  - 实复盘选定魂儿
+  - 例写作方法
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

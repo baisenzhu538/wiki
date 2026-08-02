@@ -14,6 +14,12 @@ created_at: '2026-07-21'
 updated_at: '2026-07-21'
 quality_labels:
 - actionable
+aliases:
+  - 与渠道分发引擎
+  - 内容发布与渠道分发引擎
+  - 发布与渠道分发引擎
+  - 段王爷
+  - 段王爷PublisherAgentKDO内容发布与渠道分发引擎
 source_refs:
 - .agent/duanwangye-context.md
 - 40_outputs/capabilities/role-profiles/duanwangye-profile.md
@@ -34,7 +40,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - capabilities
 - content
 - outputs

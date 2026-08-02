@@ -30,6 +30,9 @@ source_refs:
 - 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-笔记.txt
 - 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt L1754-L1794
 related:
+discoverable_by:
+  - "AI产品审美体系"
+  - "审美定义结果体系重复"
 - framework-一堂-基本功-四字诀拆建推练
 - concept-ai-video-wanggan-componentization
 - case-fuzeyu-ai-koubo-tool-dev
@@ -40,6 +43,20 @@ related:
 - framework-yitang-nine-layer-deep-dig
 - concept-yihang-dual-triangle-core
 tags:
+aliases:
+  - AI产品开发审美与体系的分工：审美定义结果，体系让结果重复发生
+  - AI产品开发
+  - 审美与体系的分工
+  - 审美定义结果
+  - 体系让结果重复发生
+  - 产品开发
+aliases:
+  - AI产品开发审美与体系的分工：审美定义结果，体系让结果重复发生
+  - AI产品开发
+  - 审美与体系的分工
+  - 审美定义结果
+  - 体系让结果重复发生
+  - 产品审美体系
 - AI产品开发
 - 短视频自动化
 - 审美定义

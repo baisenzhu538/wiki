@@ -8,6 +8,13 @@ domain:
 - master
 source_person: Builder
 source_context: 2026-05-03
+aliases:
+  - Builder
+  - C5：TODO字符串匹配过宽→正文中的TODOs/TODOable被误报为占位符
+  - 串匹配过宽
+  - 字符串匹配过宽→正文中的
+  - 正文中的
+  - 被误报为占位符
 source_refs:
 - src_unknown
 created_at: 2026-05-31

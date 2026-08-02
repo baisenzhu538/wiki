@@ -33,6 +33,11 @@ related:
 - '[[tool-月白-文创材质成本调研与精益选择]]'
 - tool-纪浩-项目启动五问法
 tags:
+aliases:
+  - 技能：AI质价比评估方法
+  - 技能
+  - AI质价比评估方法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

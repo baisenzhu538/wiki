@@ -13,6 +13,10 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - N个为什么/清单体/时间线/BP模板/顾问式销售
+  - 一堂经典故事线框架库
+  - 一堂经典故事线框架库：N个为什么/清单体/时间线/BP模板/顾问式销售
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3234-L3384
 related:
@@ -38,7 +42,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - conversion
 - handle
 ---

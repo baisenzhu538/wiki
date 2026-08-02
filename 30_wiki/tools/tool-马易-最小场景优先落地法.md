@@ -30,6 +30,10 @@ related:
 - tool-马易-AIGC项目ROI评估
 - tool-yitang-bp-analysis
 tags:
+aliases:
+  - 技能：最小场景优先落地法
+  - 技能
+  - 最小场景优先落地法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

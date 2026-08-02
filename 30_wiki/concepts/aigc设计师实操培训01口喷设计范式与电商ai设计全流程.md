@@ -5,6 +5,13 @@ domain:
 - ai-saas
 - design
 - business-strategy
+aliases:
+  - AIGC设计师实操培训01
+  - AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程
+  - 口喷设计范式与电商AI设计全流程
+  - 设计全流程
+  - 设计师实操培训
+  - 设计范式与电商
 source_refs:
 - 10_raw/sources/src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md
 status: draft
@@ -26,7 +33,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
-aliases:
 - 口喷设计范式与电商
 - 设计全流程
 - 设计师实操培训

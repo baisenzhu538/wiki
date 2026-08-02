@@ -32,6 +32,11 @@ related:
 - '[[tool-strategy-industry-chain-analysis]]'
 - '[[tool-李诞-判断工作价值的交易成本视角]]'
 tags:
+aliases:
+  - 技能：资深设计师AI工具切换法
+  - 技能
+  - 资深设计师AI工具切换法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

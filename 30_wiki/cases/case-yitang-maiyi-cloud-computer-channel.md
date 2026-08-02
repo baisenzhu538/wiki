@@ -17,6 +17,13 @@ quality_labels:
 - cited
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - Truman
+  - 亿营收
+  - 案例
+  - 案例：马毅云电脑如何扫描60+渠道实现3.7亿营收
+  - 渠道实现
+  - 马毅云电脑如何扫描
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道扫描.png
@@ -38,7 +45,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 云电脑
 ---

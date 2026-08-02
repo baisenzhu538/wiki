@@ -8,6 +8,11 @@ domain:
 - master
 source_person: Builder
 source_context: 2026-05-03
+aliases:
+  - Builder
+  - 中文内容不能用
+  - 内容不能用
+  - 静默失败
 source_refs:
 - src_unknown
 created_at: 2026-05-31

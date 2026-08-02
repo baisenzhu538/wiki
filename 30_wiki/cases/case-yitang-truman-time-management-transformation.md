@@ -14,6 +14,13 @@ updated_at: '2026-07-04'
 domain:
 - yitang
 - personal-os
+aliases:
+  - Y模型
+  - 从被动打断到科学体系
+  - 动打断到科学体系
+  - 案例
+  - 案例：Truman用Y模型重构时间管理从被动打断到科学体系
+  - 重构时间管理
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 60_feedback/extractions/extraction-kexue-linian-y-model.md
@@ -27,7 +34,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - extractions
 ---
 

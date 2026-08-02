@@ -14,6 +14,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 新手重分析
+  - 新手重分析，老兵80%时间拿情报
+  - 时间拿情报
+  - 老兵80%时间拿情报
+  - 重分析
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:

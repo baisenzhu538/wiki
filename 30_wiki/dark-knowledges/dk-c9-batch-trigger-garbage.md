@@ -8,6 +8,13 @@ domain:
 - master
 source_person: 欧阳锋
 source_context: Sprint 6 终审发现，2026-05-13
+aliases:
+  - query_triggers→格式合法但语义垃圾
+  - 批处理脚本提取
+  - 格式合法但语义垃圾
+  - 欧阳锋
+  - 理脚本提取
+  - 被淹没
 source_refs:
 - src_unknown
 created_at: 2026-05-31

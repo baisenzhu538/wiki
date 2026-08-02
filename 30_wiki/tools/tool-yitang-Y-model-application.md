@@ -14,6 +14,13 @@ domain:
 - yitang
 source_person: 李善友 / 一堂课程设计
 source_context: 一堂底层逻辑域·Y模型课程（2026-07-03），王语嫣九层深挖诊断
+aliases:
+  - Y模型应用工作流
+  - Y模型应用工作流：把科学做事框架变成具体问题上的操作清单
+  - 一堂课程设计
+  - 型应用工作流
+  - 把科学做事框架变成具体问题上的操作清单
+  - 李善友 / 一堂课程设计
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt
@@ -40,7 +47,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 七人逐步骤对标分析
 ---
 

@@ -14,6 +14,9 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 没有目标就不要谈效率
+  - 目标就不要谈效率
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:

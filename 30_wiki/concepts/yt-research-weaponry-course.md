@@ -3,6 +3,9 @@ id: yt-research-weaponry-course
 title: 一堂调研武器库课程
 type: concept
 status: reviewed
+aliases:
+  - 一堂调研武器库课程
+  - 调研武器库课程
 source_refs:
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt

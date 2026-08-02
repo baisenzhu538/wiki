@@ -29,6 +29,20 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
+aliases:
+  - 个人成长：复杂系统、消除模糊与AI时代个体系统：主题综合索引卡
+  - 个人成长
+  - 复杂系统
+  - 消除模糊与
+  - 时代个体系统
+  - 主题综合索引卡
+aliases:
+  - 个人成长：复杂系统、消除模糊与AI时代个体系统：主题综合索引卡
+  - 个人成长
+  - 复杂系统
+  - 消除模糊与
+  - 时代个体系统
+  - 主题综合索引卡
 - '[[master-systems-thinking]]'
 - '[[master-cognitive-bias-checklist]]'
 - '[[master-decision-hygiene]]'

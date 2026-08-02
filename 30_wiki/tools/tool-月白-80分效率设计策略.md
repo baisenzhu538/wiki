@@ -6,6 +6,11 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+aliases:
+  - 80分效率设计策略
+  - 技能
+  - 技能：80分效率设计策略
+  - 月白
 source_refs:
 - 10_raw/sources/src_20260510_4bb17355-天花板.md
 wiki_refs: null
@@ -37,7 +42,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 天花板
 ---
 

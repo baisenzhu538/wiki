@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
 - '[[tool-月白-商业项目AI模型选型决策]]'
 tags:
+aliases:
+  - 技能：手机外设计逻辑切换法
+  - 技能
+  - 手机外设计逻辑切换法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

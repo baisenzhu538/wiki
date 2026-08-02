@@ -10,6 +10,11 @@ domain:
 - ai-collaboration
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修中反复出现的模式：YAML引号、regex截断、source refs断裂
+aliases:
+  - KDO 团队复盘
+  - 团队复盘
+  - 小格式错误在批量系统中引发级联失效
+  - 式错误在批量系统中引发级联失效
 source_refs: null
 related:
 - '[[ai-collaboration-domain-digest]]'

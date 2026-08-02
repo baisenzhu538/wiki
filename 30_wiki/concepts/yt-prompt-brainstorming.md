@@ -4,6 +4,9 @@ domain:
 id: yt-prompt-brainstorming
 title: AI头脑风暴工作流
 type: tool
+aliases:
+  - AI头脑风暴工作流
+  - 头脑风暴工作流
 source_refs:
 - src_unknown
 - src_unknown

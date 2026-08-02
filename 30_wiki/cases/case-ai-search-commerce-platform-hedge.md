@@ -1,4 +1,4 @@
-﻿---
+---
 id: case-ai-search-commerce-platform-hedge
 title: AI 搜索导流品牌官网，但不会取代电商平台
 type: case
@@ -14,6 +14,12 @@ domain:
 - ai-collaboration
 - e-commerce
 - strategy
+aliases:
+  - AI搜索导流品牌官网，但不会取代电商平台
+  - 会取代电商平台
+  - 但不会取代电商平台
+  - 导流品牌官网
+  - 搜索导流品牌官网
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
@@ -30,7 +36,6 @@ related:
 - "[[dk-ai-builder-illusion]]"
 - "[[agent-spec-codex-teammate]]"
 - "[[concept-AI时代双三角竞争力]]"
-aliases:
 - AI 搜索与电商平台
 - 平台履约能力护城河
 - 购物即娱乐案例

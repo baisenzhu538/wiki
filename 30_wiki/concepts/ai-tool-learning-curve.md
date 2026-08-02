@@ -7,6 +7,9 @@ domain:
 - learning-methodology
 - yitang
 status: reviewed
+aliases:
+  - AI工具循序渐进学习曲线
+  - 工具循序渐进学习曲线
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
@@ -22,7 +25,6 @@ related:
 - '[[ai-virtual-coach-prompt]]'
 - '[[practice-card-decomposition]]'
 - '[[ai-tool-learning-workbook]]'
-aliases:
 - Truman 学习曲线
 - 循序渐进学习曲线
 - AI工具学习五阶段

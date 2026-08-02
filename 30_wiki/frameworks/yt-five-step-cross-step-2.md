@@ -8,6 +8,11 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂五步法——跨步二：从1到10的规模化
+aliases:
+  - 从1到10的规模化
+  - 的规模化
+  - 跨步二
+  - 跨步二：从1到10的规模化
 source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -35,9 +40,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核验证课
+discoverable_by:
+- 五步法跨步
+- 产品到增长
+- 步骤联动
+- 内核到壁垒
+- 跨域方法
 ---
 
 # 跨步二：从1到10的规模化

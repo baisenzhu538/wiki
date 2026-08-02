@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-线下门店设计复杂度评估]]'
 - '[[tool-月白-AIGC橱窗陈列设计流程]]'
 tags:
+aliases:
+  - 技能：服务体验类去AI感设计
+  - 技能
+  - 服务体验类去AI感设计
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

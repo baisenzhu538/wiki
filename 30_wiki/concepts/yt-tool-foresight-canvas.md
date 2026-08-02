@@ -4,6 +4,11 @@ title: 预判画布：从加法到减法的标准化工作台
 type: tool
 domain:
 - src_unknown
+aliases:
+  - 从加法到减法的标准化工作台
+  - 法到减法的标准化工作台
+  - 预判画布
+  - 预判画布：从加法到减法的标准化工作台
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
@@ -49,7 +54,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 五步法预判
 - 咖啡店案例
 - 咖啡案例

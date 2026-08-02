@@ -13,6 +13,11 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 三人八卦
+  - 三人八卦：饭局/聚会中的非正式情报
+  - 聚会中的非正式情报
+  - 饭局/聚会中的非正式情报
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -27,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

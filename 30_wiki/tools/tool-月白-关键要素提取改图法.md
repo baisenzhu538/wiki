@@ -38,6 +38,11 @@ related:
 - '[[tool-月白-模型识别与边界测试法]]'
 - '[[tool-月白-精准提示词消除模型幻觉]]'
 tags:
+aliases:
+  - 技能：关键要素提取改图法
+  - 技能
+  - 关键要素提取改图法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -14,6 +14,12 @@ updated_at: 2026-07-08
 domain:
 - yitang
 - demand-analysis
+aliases:
+  - RAT生成器
+  - RAT生成器：从L5洞察自动生成最危险假设清单
+  - 从L5洞察自动生成最危险假设清单
+  - 洞察自动生成最危险假设清单
+  - 生成器
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt L476-L536
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt L2176-L2206
@@ -39,7 +45,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 五步法之需求分析
 - 方法论
 ---

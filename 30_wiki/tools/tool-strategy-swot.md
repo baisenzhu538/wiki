@@ -6,6 +6,11 @@ status: reviewed
 confidence: 0.92
 trust_level: high
 domain: strategy
+aliases:
+  - SWOT分析工具：从四象限到行动策略
+  - 从四象限到行动策略
+  - 分析工具
+  - 象限到行动策略
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_vlm_desc.md
@@ -24,7 +29,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

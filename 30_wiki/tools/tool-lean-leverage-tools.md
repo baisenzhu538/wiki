@@ -12,6 +12,12 @@ domain:
 - strategy
 - yitang
 - product
+aliases:
+  - 借搭建工具
+  - 借搭建工具：用现成系统跑业务流
+  - 建工具
+  - 成系统跑业务流
+  - 用现成系统跑业务流
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212311_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212311_vlm_desc.md
@@ -30,7 +36,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 精益创业
 ---
 

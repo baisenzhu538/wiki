@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-控制产品画面尺寸比例]]'
 - '[[tool-月白-AI电商图人工过审处理]]'
 tags:
+aliases:
+  - 技能：智能扩图/拓图双方案
+  - 技能
+  - 智能扩图/拓图双方案
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

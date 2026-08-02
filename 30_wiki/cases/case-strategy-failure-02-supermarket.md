@@ -11,6 +11,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 案例
+  - 案例：精品超市O目标错误。高速增长期追求盈利反噬增长
+  - 目标错误
+  - 目标错误。高速增长期追求盈利反噬增长
+  - 精品超市
+  - 精品超市O
 source_refs:
 - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
   - src_unknown - src_unknown

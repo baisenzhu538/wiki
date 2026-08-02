@@ -9,6 +9,13 @@ domain:
 source_person: 谢泽丰（泽丰）
 source_context: 一堂「落地之夜第六场」直播 Live 第 255 场案例分享（2026），广州泽择男装 4 家门店，在红海中从"疯狂轰假设无效"到重建业务公式，发现
   L5 创新参数"二次试穿"与 L6 魔法数字"音量80"，14 个月综合营收 +16%（极度内卷传统行业）
+aliases:
+  - 务公式定优先级
+  - 找到二次试穿创新参数L5与音量80魔法数字L6
+  - 服装店
+  - 用业务公式定优先级
+  - 谢泽丰（泽丰）
+  - 转化率找抓手
 source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2006-L2040
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2042-L2182
@@ -50,7 +57,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - study
 - 落地之夜第六场
 ---

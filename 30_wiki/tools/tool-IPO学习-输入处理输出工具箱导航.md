@@ -14,6 +14,13 @@ updated_at: 2026-07-09
 domain:
 - yitang
 - personal-learning
+aliases:
+  - I/P/O三段工具索引
+  - IPO工具箱导航
+  - IPO工具箱导航：I/P/O三段工具索引
+  - 三段工具索引
+  - 工具箱导航
+  - 工具索引
 source_refs:
 - 00_inbox/一堂-个人修炼-科学学习IPO-全景策略_paddle_ocr.txt
 - 00_inbox/一堂-个人修炼-科学学习IPO完整清单_paddle_ocr.txt
@@ -34,7 +41,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 个人修炼
 - 全景策略
 ---

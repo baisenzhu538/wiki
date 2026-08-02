@@ -8,6 +8,12 @@ domain:
 - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
+aliases:
+  - 技能
+  - 技能：真需求验证法
+  - 求验证法
+  - 真需求验证法
+  - 纪浩
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
@@ -52,7 +58,6 @@ diagnostic_signals:
   follow_up: 追加资源约束检查。四要素通过不代表资源足够，必须评估时间、人力、资金
 - lens: 验证瘫痪
   follow_up: 设定验证时间上限（15分钟）。四要素是快速筛选工具，不是完美主义陷阱
-aliases:
 - 时代要不要练笔记
 - 需要练那个
 ---

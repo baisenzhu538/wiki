@@ -13,6 +13,12 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 三级标准
+  - 业务公式格式规范
+  - 业务公式格式规范：L1L3三级标准+清单体+四不要女装店三版本打分
+  - 四不要女装店三版本打分
+  - 清单体
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1762-L2206
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2580-L2614
@@ -47,7 +53,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - handle
 ---
 

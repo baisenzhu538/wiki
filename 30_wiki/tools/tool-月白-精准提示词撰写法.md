@@ -33,6 +33,11 @@ related:
 - '[[tool-月白-电商场景图三类构建法]]'
 - '[[tool-月白-设计基本功回归法]]'
 tags:
+aliases:
+  - 技能：精准提示词撰写法
+  - 技能
+  - 精准提示词撰写法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

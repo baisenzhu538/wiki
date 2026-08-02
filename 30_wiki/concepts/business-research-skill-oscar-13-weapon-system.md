@@ -6,6 +6,10 @@ domain:
 review_date: 2026-05-04
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 13武器体系
+  - 实现
+  - 武器体系
 source_refs:
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 status: enriched

@@ -15,6 +15,13 @@ updated_at: '2026-07-19'
 quality_labels:
 - insight
 - principle
+aliases:
+  - 人拿的不是贪婪
+  - 创始人拿的不是贪婪
+  - 利润的风险报偿本质
+  - 利润的风险报偿本质：创始人拿的不是贪婪，是承担风险的报酬
+  - 担风险的报酬
+  - 是承担风险的报酬
 source_refs:
 - 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L660-L756
 - 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L800-L816
@@ -30,7 +37,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 利润为王
 - 利润认知与企业生存
 ---

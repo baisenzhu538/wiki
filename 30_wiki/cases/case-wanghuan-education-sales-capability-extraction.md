@@ -9,6 +9,12 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
+aliases:
+  - 教育机构销冠能力萃取系统
+  - 机构销冠能力萃取系统
+  - 王欢
+  - 王欢案例
+  - 王欢案例：教育机构销冠能力萃取系统
 source_refs:
 - src_unknown
 - src_unknown

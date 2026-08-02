@@ -2,6 +2,13 @@
 id: yt-decision-depth-ladder
 title: 深度阶梯工具：L1-L4停车场模型 + 三点预测法
 type: tool
+aliases:
+  - L4停车场模型
+  - 三点预测法
+  - 停车场模型
+  - 深度阶梯工具
+  - 深度阶梯工具：L1L4停车场模型+三点预测法
+  - 预测法
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 - 10_raw/sources/src_20260522_22cb5729-ocr-一堂-科学决策-深度-l1优先级定性.md
@@ -78,7 +85,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 严格财务公式
 - 优先级定性
 - 你的业务是一次抽样实验

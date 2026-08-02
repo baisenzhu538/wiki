@@ -9,6 +9,13 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain: strategy
+aliases:
+  - 全球光伏第一
+  - 全球光伏第一→熬不过绝望之谷→被外资阴了
+  - 无锡尚德
+  - 无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了
+  - 熬不过绝望之谷
+  - 被外资阴了
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - pending_archive: 无锡尚德破产重组相关公开报道（新浪、第一财经、每日经济新闻等）待本地归档
@@ -21,7 +28,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 冉鹏战略课逐字稿
 - 战略专题
 ---

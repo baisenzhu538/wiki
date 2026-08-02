@@ -17,6 +17,13 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-06-30T16:07:51+00:00'
+aliases:
+  - 一堂实验室
+  - 扫描小抄
+  - 推荐获客清单
+  - 渠道扫描小抄
+  - 渠道扫描小抄：线上/线下/转化/推荐获客清单
+  - 线上/线下/转化/推荐获客清单
 source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-小抄-01_vlm_desc.md
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-小抄-02_vlm_desc.md
@@ -38,7 +45,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 渠道探索方法论
 ---

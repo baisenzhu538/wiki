@@ -6,6 +6,10 @@ status: enriched
 domain:
 - src_unknown
 - src_unknown
+aliases:
+  - 智能药柜失败模式案例库
+  - 王语嫣
+  - 药柜失败模式案例库
 source_refs:
 - 10_raw/sources/src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive.md
 - 10_raw/sources/src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive.md

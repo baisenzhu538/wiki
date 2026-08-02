@@ -23,6 +23,10 @@ related:
 - tool-马易-公寓获客自跑通原则
 - tool-马易-RPA数据整合法
 tags:
+aliases:
+  - 技能：工作流拆解找场景
+  - 技能
+  - 工作流拆解找场景
 - audience:executor
 - scene:execution
 - skill-level:intermediate

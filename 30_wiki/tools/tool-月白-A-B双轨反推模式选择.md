@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
 - '[[tool-月白-三步作业反馈法]]'
 tags:
+aliases:
+  - 技能：A/B双轨反推模式选择
+  - 技能
+  - A/B双轨反推模式选择
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

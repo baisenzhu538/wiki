@@ -8,6 +8,13 @@ domain:
 - business
 source_person: 王语嫣
 source_context: 听脑财务-法务-商务主题摘要综合（6 条录音 meetingSummary）
+aliases:
+  - 主题综合索引卡
+  - 企业财务
+  - 企业财务法务商务运营实务：主题综合索引卡
+  - 商务运营实务
+  - 法务
+  - 王语嫣
 source_refs:
 - 10_raw/sources/src_20260614_ccba327a-多人-系统费用沟通.md
 - 10_raw/sources/src_20260614_d1166483-朱总-项目履约沟通.md
@@ -34,7 +41,6 @@ related:
 - '[[ai-hackathon-pitches]]'
 - '[[business-validation-models-collaboration]]'
 - '[[industry-ai-cases]]'
-aliases:
 - 企业高新技术与专精特新资质申报规划
 - 系统费用沟通
 - 进项税处理沟通

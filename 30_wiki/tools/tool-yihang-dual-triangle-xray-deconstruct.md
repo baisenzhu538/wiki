@@ -14,6 +14,12 @@ updated_at: 2026-07-05
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - X光拆解
+  - X光拆解：双三角案例逆向工程从用了什么工具到背后的双三角怎么支撑
+  - 从用了什么工具到背后的双三角怎么支撑
+  - 双三角案例逆向工程
+  - 角案例逆向工程
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
@@ -23,7 +29,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 一堂双三角
 - 人机协作双三角
 ---

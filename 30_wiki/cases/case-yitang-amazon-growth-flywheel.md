@@ -18,6 +18,12 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - Truman
+  - 亚马逊增长飞轮的五层逻辑
+  - 案例
+  - 案例：亚马逊增长飞轮的五层逻辑
+  - 逊增长飞轮的五层逻辑
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-亚马逊增长飞轮_vlm_desc.md
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt
@@ -37,7 +43,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 一堂五步法之增长
 - 亚马逊增长飞轮
 ---

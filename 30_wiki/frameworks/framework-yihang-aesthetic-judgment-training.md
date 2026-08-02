@@ -16,10 +16,24 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
+discoverable_by:
+  - "审美判断力训练"
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-yihang-aesthetic-fast-build]]'
 - '[[framework-taste-as-judgment-system]]'
 tags:
+aliases:
+  - AI时代审美判断力训练系统未来教育的核心转向
+  - 时代审美判断力训练系统
+  - 未来教育的核心转向
+  - 断力训练
+  - 美判断力训练
+  - 教育的核心转向
+aliases:
+  - AI时代审美判断力训练系统未来教育的核心转向
+  - 时代审美判断力训练系统
+  - 未来教育的核心转向
+  - 美判断力训练
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

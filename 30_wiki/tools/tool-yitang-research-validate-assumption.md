@@ -46,6 +46,10 @@ related:
 - '[[tool-yitang-weapon-public-official-info]]'
 - '[[tool-yitang-weapon-user-direct-interview]]'
 tags:
+aliases:
+  - 调研先行验证假设：在行动前杀死错误想法
+  - 调研先行验证假设
+  - 在行动前杀死错误想法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

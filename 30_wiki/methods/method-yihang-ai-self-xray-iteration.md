@@ -27,6 +27,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- AI自检
+- 迭代优化
+- 自我审查
+- Agent反思
+- 自动改进
 ---
 
 # AI 自我 X 光拆解：让 AI 在行动前主动暴露六要素盲区

@@ -13,6 +13,13 @@ updated_at: 2026-07-06
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - AI错误笃定模式被设计来回答问题，未被设计来意识到自己不知道
+  - 未被设计来意识到自己不知道
+  - 笃定模式
+  - 被设计来回答问题
+  - 设计来意识到自己不知道
+  - 错误笃定模式
 source_refs:
 - 对话记录：2026-07-05 老朱 Codex Claude Windows 10 案例
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
@@ -23,7 +30,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 一堂双三角
 - 人机协作双三角
 ---

@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-AIGC生成人物证件照]]'
 - '[[tool-Truman-AI时代提示词优化法]]'
 tags:
+aliases:
+  - 技能：短视频封面一秒吸睛法
+  - 技能
+  - 短视频封面一秒吸睛法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

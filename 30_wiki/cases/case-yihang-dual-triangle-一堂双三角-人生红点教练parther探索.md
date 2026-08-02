@@ -14,6 +14,18 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-人生红点教练parther探索_vlm.md
 tags:
+aliases:
+  - 一堂双三角人生红点教练parther探索双三角案例
+  - 一堂双三角
+  - 人生红点教练parther探索
+  - 双三角案例
+  - 角案例
+  - 双三角
+aliases:
+  - 一堂双三角人生红点教练parther探索双三角案例
+  - 一堂双三角
+  - 人生红点教练parther探索
+  - 双三角案例
 - '#domain/ai-collaboration'
 - '#method/dual-triangle'
 - audience:general

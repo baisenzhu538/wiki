@@ -25,6 +25,8 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L700
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1398-L1580
 related:
+discoverable_by:
+  - "业务公式Y模型桥接"
 - '[[yt-decision-y-model]]'
 - '[[system-yitang-Y-model-os]]'
 - '[[framework-yitang-y-model-cross-domain-fusion]]'
@@ -49,6 +51,19 @@ quality_labels:
 - bridge
 - framework
 tags:
+aliases:
+  - 业务公式×Y模型桥接：关键假设层的全面操作化
+  - 业务公式×Y模型桥接
+  - 关键假设层的全面操作化
+  - 假设层的全面操作化
+  - 务公式
+  - 模型桥接
+aliases:
+  - 业务公式×Y模型桥接：关键假设层的全面操作化
+  - 业务公式×Y模型桥接
+  - 关键假设层的全面操作化
+  - 模型桥接
+  - 务公式
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

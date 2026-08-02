@@ -96,6 +96,12 @@ related:
 - '[[framework-decision-cognitive-bias-map]]'
 - '[[dk-decision-when-to-defer]]'
 - '[[case-decision-ai-assisted-vs-human]]'
+discoverable_by:
+- 科学决策域
+- 决策方法
+- 决策质量
+- Y模型
+- ABCD模型
 ---
 
 # decision-science 域摘要

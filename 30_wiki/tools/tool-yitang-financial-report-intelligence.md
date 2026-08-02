@@ -26,6 +26,12 @@ query_triggers:
 - 创业预判
 - 财报分析
 - 行业天花板
+aliases:
+  - 市公司公开报告做创业预判
+  - 招股书情报
+  - 用上市公司公开报告做创业预判
+  - 财报/招股书情报
+  - 财报/招股书情报：用上市公司公开报告做创业预判
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 - 00_inbox/调研专题/一堂-上市公司报告解读-笔记.txt
@@ -41,7 +47,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 上市公司报告解读
 - 调研专题
 ---

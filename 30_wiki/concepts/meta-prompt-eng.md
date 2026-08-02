@@ -15,6 +15,9 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+aliases:
+  - 提示词工程
+  - Prompt Engineering
 related:
 - '[[design-ai-image-generation]]'
 - '[[business-analysis]]'

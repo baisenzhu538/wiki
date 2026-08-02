@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-004
+aliases:
+  - system
+  - 命令→命令静默失败
+  - 命令静默失败
+  - 无报错
+  - 无文件变更
+  - 错误工作目录执行
 source_refs:
 - src_unknown
 created_at: 2026-05-31

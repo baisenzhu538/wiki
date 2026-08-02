@@ -1,11 +1,15 @@
 ---
 id: yt-product-kernel-cultivation
+title: "产品内核修炼段位图"
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-product-ten-metrics]]'
 - '[[case-shampoo-product-kernel]]'
 - '[[case-treadmill-demand-analysis]]'
 - '[[pending_unknown]]'
+aliases:
+  - 产品内核修炼段位图
+  - 内核修炼段位图
 source_refs:
 - pending_archive: src_unknown
 tags:
@@ -13,7 +17,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 产品内核修炼段位图
 
 > 来源：一堂五步法·解决方案篇 | 视觉来源：`00_inbox/ocr_ingest/src_ocr_一堂产品内核_十大典型指标.md`（洪七公 OCR 整合） | [[yt-five-step-method]] | [[yt-product-ten-metrics]] | [[case-shampoo-product-kernel]]

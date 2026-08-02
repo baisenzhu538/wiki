@@ -15,6 +15,13 @@ domain:
 - conversion-rate
 source_person: Truman（一堂，课程口述）
 source_context: 一堂「转化率黑客·动力阻力触点·入门篇」课程案例：老带新裂变产品「我请客」的推荐率从 3%→5%→约 15%→K 系数 40% 的完整故事线
+aliases:
+  - 一堂我请客推荐率从约
+  - 假设持续优化
+  - 再叠加
+  - 提升到
+  - 用请客消除面子阻力
+  - 系数
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2178-L2409
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2414-L2449
@@ -42,7 +49,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - conversion
 - handle
 ---

@@ -7,6 +7,13 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - Truman
+  - 建模案例
+  - 开播团队分工与检查清单
+  - 流程建模案例
+  - 流程建模案例：直播开播团队分工与检查清单
+  - 直播开播团队分工与检查清单
 source_refs:
 - 10_raw/sources/src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -45,7 +52,6 @@ diagnostic_signals:
   follow_up_question: 这些看似非技术的环节有没有被分配到具体角色并设置触发时间？
 - framework_lens: RACI / 专人专事
   follow_up_question: 这个任务的 R（执行）和 A（负责）是否为同一个人？检查权是否也归他？
-aliases:
 - 建模能力培训
 - 开播准备
 - 流程建模

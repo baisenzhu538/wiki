@@ -18,6 +18,9 @@ source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt L2560-L2690
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/基本功武器库_vlm.md
 related:
+discoverable_by:
+  - "四类工作四化"
+  - "基本功进攻方向"
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[concept-一堂-基本功定义]]'
@@ -38,6 +41,19 @@ quality_labels:
 - principle
 - actionable
 tags:
+aliases:
+  - 五类工作×4化：基本功的进攻方向诊断图
+  - 五类工作
+  - 基本功的进攻方向诊断图
+  - 作四化
+  - 进攻方向
+  - 本功进攻方向
+aliases:
+  - 五类工作×4化：基本功的进攻方向诊断图
+  - 五类工作
+  - 基本功的进攻方向诊断图
+  - 本功进攻方向
+  - 类工作四化
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

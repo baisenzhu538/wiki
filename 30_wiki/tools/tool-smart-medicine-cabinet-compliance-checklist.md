@@ -6,6 +6,9 @@ status: enriched
 domain:
 - healthcare
 - business-strategy
+aliases:
+  - 医药项目合规快速校验清单
+  - 智能药柜/医药项目合规快速校验清单
 source_refs:
 - pending_archive:src_20260613_2286ccfb-itingnao-deep-dive-compliance
 - src_20260613_2286ccfb-itingnao-deep-dive-compliance

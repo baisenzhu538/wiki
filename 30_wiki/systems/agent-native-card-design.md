@@ -33,6 +33,12 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:intermediate
+discoverable_by:
+- Agent原生卡片
+- 卡片设计
+- Agent卡片
+- 卡片规范
+- 知识卡片格式
 ---
 # Agent 原生知识卡设计规范 v2
 

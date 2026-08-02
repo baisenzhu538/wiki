@@ -45,6 +45,16 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
+aliases:
+  - Y模型探索营2：五次质变与科学推演
+  - Y模型探索营2
+  - 五次质变与科学推演
+  - 质变与科学推演
+  - 型探索营
+aliases:
+  - Y模型探索营2：五次质变与科学推演
+  - Y模型探索营2
+  - 五次质变与科学推演
 - framework_lens: Y模型是预测引擎
   follow_up_question: 这个Y模型是在事件发生前画的，还是发生后补的？
 - framework_lens: Y模型是认知线头

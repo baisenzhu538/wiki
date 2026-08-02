@@ -30,6 +30,16 @@ related:
 - yt-tool-unit-model-dynamic
 - case-ether-online-acquisition
 tags:
+aliases:
+  - 战略控制点设计工具：价值定位模型
+  - 战略控制点设计工具
+  - 价值定位模型
+  - 控制点设计工具
+  - 定位模型
+aliases:
+  - 战略控制点设计工具：价值定位模型
+  - 战略控制点设计工具
+  - 价值定位模型
 - audience:executor
 - scene:execution
 - skill-level:advanced

@@ -17,6 +17,13 @@ quality_labels:
 - principle
 - validated
 updated_at: '2026-06-29'
+aliases:
+  - 从控制范式到设计范式
+  - 传统管理
+  - 兰毅 / 一堂
+  - 品组织
+  - 泛产品组织
+  - 泛产品组织vs传统管理：从控制范式到设计范式
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
@@ -39,7 +46,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 泛产品设计
 - 泛产品设计课程
 ---

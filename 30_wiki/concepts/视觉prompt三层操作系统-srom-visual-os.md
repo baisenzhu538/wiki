@@ -4,6 +4,10 @@ created_at: 2026-05-21
 domain:
 - ai-saas
 - design
+aliases:
+  - 三层操作系统
+  - 视觉Prompt三层操作系统
+  - 视觉Prompt三层操作系统SROMVisualOS
 source_refs:
 - 10_raw/sources/src_20260522_1ede9202-视觉prompt三层操作系统-srom-visual-os.md
 status: reviewed
@@ -35,7 +39,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 三层操作系统
 ---
 # 视觉Prompt三层操作系统 (SROM Visual OS)

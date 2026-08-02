@@ -14,6 +14,11 @@ domain:
 source_refs:
 - src_unknown
 related:
+discoverable_by:
+  - "BRM定式"
+  - "战略基本功定式"
+  - "战略肌肉记忆"
+  - "BRM核心框架"
 - '[[strategy-domain-digest]]'
 - '[[yt-tob-core-characteristics]]'
 - '[[yt-panproduct-execution-core-and-boundary]]'
@@ -27,6 +32,20 @@ related:
 - kdo-protocol-implementation-roadmap
 - tool-strategy-five-see-three-set
 tags:
+aliases:
+  - 定式CoreFoundation：BRM框架为核心，战略肌肉记忆
+  - 定式Core
+  - BRM框架为核心
+  - 战略肌肉记忆
+  - 框架为核心
+  - 略基本功定式
+aliases:
+  - 定式CoreFoundation：BRM框架为核心，战略肌肉记忆
+  - 定式Core
+  - BRM框架为核心
+  - 战略肌肉记忆
+  - 略基本功定式
+  - 核心框架
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

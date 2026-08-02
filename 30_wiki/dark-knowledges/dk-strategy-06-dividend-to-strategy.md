@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 低空经济仍有新红利
+  - 新能源汽车/AI制药/低空经济仍有新红利
+  - 现在靠战略。红利消退≠没有红利
+  - 红利消退
+  - 过去靠红利
+  - 靠红利
 source_refs:
 - src_unknown
 related:

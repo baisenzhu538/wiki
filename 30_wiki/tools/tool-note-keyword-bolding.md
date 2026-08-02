@@ -16,6 +16,12 @@ related:
 - '[[dk-note-surplus-brainpower]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+aliases:
+  - 关键词加粗三重结构
+  - 关键词加粗三重结构：视觉重心即认知重心的标记法则
+  - 视觉重心即认知重心的标记法则
+  - 词加粗三重结构
+  - 重心即认知重心的标记法则
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 tags:
@@ -41,7 +47,6 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
-aliases:
 - 时代清单体笔记
 ---
 

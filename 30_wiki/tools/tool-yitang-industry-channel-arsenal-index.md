@@ -16,6 +16,12 @@ quality_labels:
 - cited
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - 24行业获客清单索引：跨行业渠道灵感库
+  - 业渠道灵感库
+  - 获客清单索引
+  - 行业获客清单索引
+  - 跨行业渠道灵感库
 source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-01_vlm_desc.md
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-案例武器库-02_vlm_desc.md
@@ -55,7 +61,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 案例武器库
 ---

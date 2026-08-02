@@ -1,4 +1,4 @@
-﻿---
+---
 domain:
 - product
 id: yt-product-kernel-do-without-belief
@@ -9,6 +9,13 @@ status: reviewed
 confidence: 0.78
 trust_level: medium
 source_context: 一堂产品内核系列课——"做而不信"陷阱
+aliases:
+  - 不信陷阱
+  - 但不相信结果
+  - 做而不信陷阱
+  - 做而不信陷阱：执行了流程，但不相信结果
+  - 执行了流程
+  - 相信结果
 source_refs:
 - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L2776-L2806
 - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L2782-L2796

@@ -9,6 +9,12 @@ domain:
 language: zh-CN
 version: 1
 confidence: 0.88
+aliases:
+  - 从备忘工具到问题解决系统
+  - 忘工具到问题解决系统
+  - 笔记能力=解决问题能力
+  - 笔记能力=解决问题能力：从备忘工具到问题解决系统
+  - 解决问题能力
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 related:
@@ -46,7 +52,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 时代清单体笔记
 ---
 

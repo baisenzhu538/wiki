@@ -8,6 +8,10 @@ type: tool
 status: reviewed
 source_context: 一堂商业调研课程——13 种信息收集方法
 source_person: 一堂
+aliases:
+  - 商业调研
+  - 商业调研13武器体系
+  - 武器体系
 source_refs:
 - pending_archive:src_20260620_business-research-skill-v2.1.0
 created_at: '2026-06-20'

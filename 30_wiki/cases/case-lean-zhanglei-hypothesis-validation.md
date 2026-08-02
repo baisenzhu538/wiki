@@ -15,6 +15,13 @@ domain:
 - yitang
 source_person: 张磊（一堂精益创业教练）
 source_context: 张磊教练《精益测试关键问题》AMA 直播答疑
+aliases:
+  - 一堂精益创业教练
+  - 假设验证实操案例
+  - 张磊
+  - 张磊AMA：假设验证实操案例
+  - 张磊（一堂精益创业教练）
+  - 验证实操案例
 source_refs:
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
@@ -29,7 +36,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 张磊教练
 - 精益创业
 ---

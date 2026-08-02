@@ -32,6 +32,9 @@ related:
 review_date: 2026-06-10
 reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 一堂五步法总纲
+  - 五步法总纲
 source_refs:
 - 10_raw/sources/src_20260610_e2867174-一堂-一堂五步法-序言-口述.md
 - 10_raw/sources/src_20260610_ad79435b-一堂-一堂五步法-序言-笔记.md
@@ -63,7 +66,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 ---
 

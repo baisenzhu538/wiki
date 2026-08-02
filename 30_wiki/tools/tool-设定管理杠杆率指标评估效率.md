@@ -9,6 +9,11 @@ domain:
 status: reviewed
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
+aliases:
+  - 技能
+  - 技能：设定管理杠杆率指标评估效率
+  - 设定管理杠杆率指标评估效率
+  - 课程设计者
 source_refs:
 - 10_raw/sources/src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点.md
 definition_of_done:
@@ -41,7 +46,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:beginner
-aliases:
 - 单元模型
 - 规模对抗实操难点
 ---

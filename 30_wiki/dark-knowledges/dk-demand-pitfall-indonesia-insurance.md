@@ -10,6 +10,13 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 不存在
+  - 印尼寿险
+  - 场景错配。Situation变了
+  - 踩坑
+  - 踩坑：印尼寿险场景错配。Situation变了，需求不存在
+  - 需求不存在
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
@@ -26,7 +33,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 需求评估避坑合集
 ---

@@ -7,6 +7,13 @@ domain:
 - yitang
 - content
 - business-strategy
+aliases:
+  - ToC内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘
+  - 付费平台
+  - 内容付费平台
+  - 孔阳
+  - 当因果导致的投放崩盘
+  - 把“流量↑转化率↓”当因果导致的投放崩盘
 source_refs:
 - pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes

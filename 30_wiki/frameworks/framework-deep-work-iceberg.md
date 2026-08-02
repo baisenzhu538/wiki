@@ -18,6 +18,11 @@ source_refs:
 - 00_inbox/时间管理/truman-时间管理课程-口述.txt
 - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 related:
+discoverable_by:
+  - "深度工作冰山"
+  - "L1-L5深度工作"
+  - "冰山模型工作法"
+  - "深度工作怎么分层"
 - '[[yt-personal-time-management]]'
 - '[[framework-yitang-five-step-to-time-management]]'
 diagnostic_signals:
@@ -27,6 +32,20 @@ diagnostic_signals:
 quality_labels:
 - actionable
 tags:
+aliases:
+  - L1L5深度工作冰山模型
+  - 深度工作冰山模型
+  - 山模型工作法
+  - 型工作法
+  - 度工作冰山
+  - 度工作怎么分层
+aliases:
+  - L1L5深度工作冰山模型
+  - 深度工作冰山模型
+  - 山模型工作法
+  - 深度工作
+  - 度工作怎么分层
+  - 度工作冰山
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

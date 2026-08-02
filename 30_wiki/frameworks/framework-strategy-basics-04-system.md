@@ -14,6 +14,11 @@ domain:
 source_refs:
 - src_unknown
 related:
+discoverable_by:
+  - "战略体系"
+  - "丰田供应链生态"
+  - "苹果iOS生态"
+  - "战略系统建设"
 - '[[strategy-domain-digest]]'
 - '[[yt-barrier-ecosystem-lock-in]]'
 - '[[tool-mece体系框架法]]'
@@ -28,6 +33,20 @@ related:
 - '[[personal-growth-complex-systems]]'
 - yt-barrier-supply-chain
 tags:
+aliases:
+  - 体系CreationSystem：丰田供应链生态+苹果iOS生态
+  - 体系Creation
+  - 丰田供应链生态+苹果iOS生态
+  - 丰田供应链生态
+  - 略体系
+  - 统建设
+aliases:
+  - 体系CreationSystem：丰田供应链生态+苹果iOS生态
+  - 体系Creation
+  - 丰田供应链生态+苹果iOS生态
+  - 略体系
+  - 略系统建设
+  - 田供应链生态
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

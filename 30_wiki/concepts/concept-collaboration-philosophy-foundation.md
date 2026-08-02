@@ -8,10 +8,15 @@ confidence: 0.82
 trust_level: medium
 domain:
 - management
+aliases:
+  - 世界到和而不同
+  - 从坏世界到和而不同
+  - 协作底层哲学
+  - 协作底层哲学：从坏世界到和而不同
+  - 底层哲学
 source_refs:
 - 00_inbox/坏世界研究/拆书会第212期_坏世界研究_逐字稿.md
 - 00_inbox/坏世界研究/赵汀阳-坏世界研究-拆书-口述.txt
-aliases:
 - 坏世界研究
 - 坏世界
 - 赵汀阳

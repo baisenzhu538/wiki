@@ -14,6 +14,10 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+discoverable_by:
+  - "战略金字塔"
+  - "公司业务职能协同"
+  - "战略层级框架"
 - '[[strategy-domain-digest]]'
 - '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
@@ -21,6 +25,20 @@ related:
 - '[[pending_unknown]]'
 - tool-strategy-four-layers
 tags:
+aliases:
+  - 企业战略金字塔：公司、业务与职能协同
+  - 企业战略金字塔
+  - 公司
+  - 业务与职能协同
+  - 略金字塔
+  - 略层级框架
+aliases:
+  - 企业战略金字塔：公司、业务与职能协同
+  - 企业战略金字塔
+  - 公司
+  - 业务与职能协同
+  - 略金字塔
+  - 司业务职能协同
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

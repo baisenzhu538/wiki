@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 切换决策的博弈机制
+  - 力量建模
+  - 四种力量建模
+  - 四种力量建模：用户切换决策的博弈机制
+  - 用户切换决策的博弈机制
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-四种力量建模-01_ocr_text.md
 related:
@@ -29,7 +35,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 四种力量建模
 ---

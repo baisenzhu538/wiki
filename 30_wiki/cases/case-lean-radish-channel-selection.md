@@ -15,6 +15,12 @@ domain:
 - yitang
 source_person: 一堂课程讲师/学员（教学复盘案例）
 source_context: 一堂精益创业·低成本验证与渠道规划课程素材
+aliases:
+  - 一堂课程讲师/学员（教学复盘案例）
+  - 干渠道选择预判复盘
+  - 教学复盘案例
+  - 萝卜干渠道选择预判复盘
+  - 课程讲师
 source_refs:
 - 00_inbox/精益创业/萝卜干业务渠道选择预判复盘_ocr_text.md
 - 00_inbox/精益创业/萝卜干业务渠道选择预判复盘_vlm_desc.md
@@ -27,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 精益创业
 - 萝卜干业务渠道选择预判复盘
 ---

@@ -24,6 +24,13 @@ query_triggers:
 - 行业薪资水平调研
 - 猎头人才地图怎么获取
 - 社保人数查询竞对规模
+aliases:
+  - 大评估法
+  - 浅中深三层
+  - 浅中深三层10大评估法
+  - 深三层
+  - 组织调研手段
+  - 组织调研手段：浅中深三层10大评估法
 source_refs:
 - 00_inbox/调研专题/调研手段卡8（组织调研）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡8（组织调研）_vlm_desc.md
@@ -42,7 +49,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
-aliases:
 - 组织调研
 - 调研专题
 ---

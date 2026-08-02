@@ -25,6 +25,13 @@ related:
 - '[[yt-unit-model-ladder]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-decision-y-model]]'
+aliases:
+  - 单元模型构建法
+  - 单元模型构建法：拆推评算与ABCD模型分类
+  - 拆推评算与
+  - 拆推评算与ABCD模型分类
+  - 模型分类
+  - 模型构建法
 source_refs:
 - 10_raw/sources/一堂-单元模型02口述_cleaned.md
 - 10_raw/sources/src_20260609_07b851fb-ocr-一堂-单元模型-abcd策略模型.md
@@ -65,7 +72,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 单元模型
 - 策略模型
 ---

@@ -33,6 +33,11 @@ related:
 - tool-纪浩-问题导向备课法
 - productization-judgment
 tags:
+aliases:
+  - 技能：分步迭代改图法
+  - 技能
+  - 分步迭代改图法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

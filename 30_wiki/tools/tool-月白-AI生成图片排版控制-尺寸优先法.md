@@ -36,6 +36,12 @@ related:
 - '[[tool-月白-电商场景图三类分类法]]'
 - '[[tool-月白-里程碑思维拆解设计流程]]'
 tags:
+aliases:
+  - 技能：AI生成图片排版控制尺寸优先法
+  - 技能
+  - AI生成图片排版控制
+  - 尺寸优先法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

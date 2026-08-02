@@ -28,6 +28,8 @@ diagnostic_signals:
 - lens: 最终交付门控缺失
   follow_up: 增加 FreshCloneTester 与 AuditTrail，把"从零克隆能跑"作为硬性 Ship 条件
 related:
+discoverable_by:
+  - "王欢Harness七阶段"
 - '[[concept-harness-cattle-not-pets]]'
 - '[[tool-harness-adversarial-tester]]'
 - '[[plan_20260621_kdo-quality-harness-upgrade]]'
@@ -37,6 +39,16 @@ related:
 - '[[framework-ai-deconstruction-methodology]]'
 - '[[framework-ai2041-critical-reading-os]]'
 tags:
+aliases:
+  - 王欢：Harness七阶段AI构建流程
+  - 王欢
+  - 七阶段
+  - 构建流程
+aliases:
+  - 王欢：Harness七阶段AI构建流程
+  - 王欢
+  - 七阶段
+  - 构建流程
 - src_unknown
 - src_unknown
 - src_unknown

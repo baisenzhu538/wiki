@@ -1,5 +1,6 @@
 ---
 id: tool-private-board-facilitation-sop
+title: "私董会主持SOP：七步结构化流程"
 type: tool
 domain: management
 status: draft
@@ -9,6 +10,20 @@ author: 老顽童
 reviewed_by: 待审
 confidence: 0.85
 trust_level: observed
+aliases:
+  - 一堂私董会流程
+  - 七步结构化会议
+  - 七步结构化流程
+  - 主持人未在第一轮喊停
+  - 人未在第一轮喊停
+  - 会主持
+  - 检查是否跳过了
+  - 王非私董会
+  - 私董会主持SOP
+  - 私董会主持SOP：七步结构化流程
+  - 第6期 55班 王非私董会 v2.0 【高强版】
+  - 第6期私董会总结
+  - 结构化会议
 source_refs:
   - 00_inbox/私董会/第6期 55班 王非私董会 v2.0 【高强版】.md
   - 00_inbox/私董会/_processed/第6期私董会总结.md
@@ -34,14 +49,7 @@ diagnostic_signals:
   - "案主听了很多建议但不行动→AI笔记官复盘未产出可执行作业"
   - "幕僚提问变成了给建议→主持人未在第一轮喊停"
 discoverable_by: "私董会主持、七步法、会议SOP、主持人流程、结构化会议"
-aliases:
-  - 私董会主持SOP
-  - 七步结构化会议
-  - 一堂私董会流程
-  - 第6期 55班 王非私董会 v2.0 【高强版】
-  - 第6期私董会总结
 ---
-
 # 私董会主持SOP：七步结构化流程
 
 > **定位**：属于 [[framework-kdo-modeling-methodology|KDO 建模方法论]] 在会议场景的实操落地——将"好会"从玄学变成可复制的七步结构化流程。与 Vistage 的 issue-processing model 同源但本土化，融入了一堂的"先加法后减法""AI笔记官"等特色机制。

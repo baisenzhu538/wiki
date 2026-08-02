@@ -8,6 +8,11 @@ domain:
 - src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
+aliases:
+  - 半肥猫
+  - 半肥猫把一堂课程作业变成可复用调研工具
+  - 案例
+  - 案例：半肥猫把一堂课程作业变成可复用调研工具
 source_refs:
 - 10_raw/sources/src_20260617_2b8a01ce-ai俱乐部-ai学习落地-半肥猫-口述.txt
 created_at: 2026-06-08
@@ -40,7 +45,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 俱乐部
 - 半肥猫
 - 学习落地

@@ -7,6 +7,13 @@ status: reviewed
 confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——ToB决策链
+aliases:
+  - ToB决策链需求分析
+  - ToB决策链需求分析：多角色、多需求、多顾虑
+  - 决策链需求分析
+  - 多角色
+  - 多需求
+  - 多顾虑
 source_refs:
 - pending_archive:src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 - 10_raw/sources/xujian-tob-fivestep-oral.md
@@ -35,8 +42,13 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 一堂五步法
+discoverable_by:
+- 需求决策链
+- 需求分析链路
+- 需求发现方法
+- 需求验证链
+- 需求优先级
 ---
 
 

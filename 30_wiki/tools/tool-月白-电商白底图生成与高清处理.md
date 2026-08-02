@@ -38,6 +38,11 @@ related:
 - '[[tool-月白-精准改图提示词写法]]'
 - '[[tool-纪浩-处理AI生成代码运行异常]]'
 tags:
+aliases:
+  - 技能：电商白底图生成与高清处理
+  - 技能
+  - 电商白底图生成与高清处理
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

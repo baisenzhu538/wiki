@@ -8,6 +8,12 @@ domain:
 - yitang- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
+aliases:
+  - 做对比测试验证效果
+  - 半肥猫
+  - 技能
+  - 技能：用Skill做对比测试验证效果
+  - 比测试验证效果
 source_refs:
 - 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md
 tools_required:
@@ -46,7 +52,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 半肥猫
 - 学习落地
 ---

@@ -14,6 +14,10 @@ trust_level: medium
 language: zh-CN
 created_at: '2026-06-29'
 updated_at: '2026-06-29'
+aliases:
+  - 案例
+  - 案例：top1/top3/top5筛选打磨
+  - 筛选打磨
 source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
 related:
@@ -24,7 +28,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 泛产品设计
 - 泛产品设计课程
 ---

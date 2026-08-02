@@ -8,6 +8,10 @@ domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
+aliases:
+  - 提示词有效期预期管理
+  - 月白
+  - 词有效期预期管理
 source_refs:
 - 00_inbox/design/AI设计-AI设计基础01.txt
 created_at: 2026-06-04
@@ -24,7 +28,6 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:beginner
-aliases:
 - 设计基础
 ---
 

@@ -14,6 +14,9 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+aliases:
+  - 写作内容
+  - 内容创作
 related:
 - '[[case-toc-content-platform-correlation-trap]]'
 - '[[tool-yitang-content-ip-research]]'

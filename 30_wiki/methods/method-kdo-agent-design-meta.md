@@ -24,6 +24,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- Agent设计
+- 元方法
+- KDO Agent
+- Agent架构
+- 设计原则
 ---
 
 # KDO Agent 设计元方法：用双三角加速 Agent 建设

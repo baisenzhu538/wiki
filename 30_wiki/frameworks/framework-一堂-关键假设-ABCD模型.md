@@ -13,6 +13,13 @@ updated_at: 2026-07-13
 domain:
 - yitang
 - key-assumptions
+aliases:
+  - 一堂关键假设
+  - 关键假设
+  - 四场景
+  - 成败/效率定位器
+  - 效率定位器
+  - 模型YitangABCDStrategyModel
 source_refs:
 - 00_inbox/一堂-关键假设-关键假设ABCD模型_paddle_ocr.txt
 - 00_inbox/一堂-关键假设课-truman-口述.txt L364-L402,L1064-L1074
@@ -50,9 +57,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 关键假设
 - 关键假设课
+discoverable_by:
+- 关键假设ABCD
+- 业务假设验证
+- 成败效率定位
+- 关键假设分类
+- 假设驱动决策
 ---
 
 # 一堂关键假设 ABCD 模型（YitangABCDStrategyModel）

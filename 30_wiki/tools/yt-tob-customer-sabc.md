@@ -35,6 +35,10 @@ related:
 - yt-product-kernel-to-business-model
 - yt-product-kernel-shampoo-case
 diagnostic_signals:
+aliases:
+  - ToB客户SABC自定义切分法
+  - 客户
+  - 自定义切分法
 - framework_lens: 客户分层没有与自身业务目标对齐，导致分层失去决策意义。
   follow_up_question: 如果明天必须砍掉一半客户资源，哪类客户对今年业务目标的贡献度最大？为什么？
 - framework_lens: 忽略了行业集中度与自身业务属性的匹配；100 万家里能触达、能服务、愿付费的可能只有几十家。

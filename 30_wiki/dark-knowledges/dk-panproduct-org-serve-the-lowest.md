@@ -17,6 +17,13 @@ quality_labels:
 - cited
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - 兰毅
+  - 最高服务最低
+  - 服务最低
+  - 组织领导心法
+  - 组织领导心法：最高服务最低
+  - 领导心法
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
@@ -37,7 +44,6 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 泛产品设计
 - 用泛产品思维做组织
 ---

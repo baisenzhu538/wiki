@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 中提取商业模式
+  - 从竞对
+  - 从竞对BP中提取商业模式
+  - 商业计划书分析
+  - 商业计划书分析：从竞对BP中提取商业模式
+  - 计划书分析
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -32,7 +39,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

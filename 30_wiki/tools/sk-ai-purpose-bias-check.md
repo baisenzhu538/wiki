@@ -21,6 +21,24 @@ updated_at: '2026-06-16'
 tools_required: null
 prerequisite_skills: null
 related:
+aliases:
+  - 技能：目的论偏差快速识别法
+  - 技能
+  - 目的论偏差快速识别法
+  - 水水
+  - 论偏差快速识别法
+  - 差快速识别法
+aliases:
+  - 技能：目的论偏差快速识别法
+  - 技能
+  - 目的论偏差快速识别法
+  - 水水
+  - 论偏差快速识别法
+aliases:
+  - 技能：目的论偏差快速识别法
+  - 技能
+  - 目的论偏差快速识别法
+  - 水水
 - '[[tool-水水-接受发散性世界观]]'
 - '[[tool-ai-purpose-bias-check]]'
 - '[[tool-ai-system-redundancy]]'

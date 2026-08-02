@@ -27,6 +27,19 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
+aliases:
+  - AI电商产品图：抽卡图≠产品图，白底图才是交付标准
+  - AI电商产品图
+  - 抽卡图≠产品图
+  - 白底图才是交付标准
+  - 月白
+  - 抽卡图
+aliases:
+  - AI电商产品图：抽卡图≠产品图，白底图才是交付标准
+  - AI电商产品图
+  - 抽卡图≠产品图
+  - 白底图才是交付标准
+  - 月白
 - src_unknown
 - src_unknown
 - src_unknown# AI电商产品图：抽卡图≠产品图，白底图才是交付标准

@@ -12,6 +12,12 @@ related:
   - "[[zhu-project-board]]"
   - "[[zhu-lessons-learned]]"
   - "[[user-insight-profile]]"
+discoverable_by:
+- 未来方向
+- 老朱规划
+- 个人路线
+- 发展方向
+- AI学习方向
 ---
 
 # 老朱未来 10 年方向清单

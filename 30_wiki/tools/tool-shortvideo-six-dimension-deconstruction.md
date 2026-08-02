@@ -13,6 +13,11 @@ updated_at: '2026-06-30T15:23:37+00:00'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-30'
+aliases:
+  - 拆解工具
+  - 短视频
+  - 短视频6维度拆解工具
+  - 维度拆解工具
 source_refs:
 - 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 query_triggers:
@@ -20,7 +25,6 @@ query_triggers:
 - 短视频 6 维度拆解
 - 爆款视频拆解方法
 - 短视频脚本分析工具
-aliases:
 - shortvideo-six-dimension-deconstruction
 - 短视频六维度拆解
 - 短视频拆解工具

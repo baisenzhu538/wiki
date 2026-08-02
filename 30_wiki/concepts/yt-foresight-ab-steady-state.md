@@ -4,6 +4,12 @@ title: AB点稳态模型：行业预判的核心框架
 type: concept
 domain:
 - src_unknown
+aliases:
+  - AB点稳态模型
+  - AB点稳态模型：行业预判的核心框架
+  - 点稳态模型
+  - 行业预判的核心框架
+  - 预判的核心框架
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
@@ -49,7 +55,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 机会预判课
 ---
 

@@ -12,6 +12,11 @@ domain:
 - strategy
 - yitang
 - product
+aliases:
+  - 事验证兴趣
+  - 假营销
+  - 假营销：用故事验证兴趣
+  - 用故事验证兴趣
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212119_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212119_vlm_desc.md
@@ -28,7 +33,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 精益创业
 ---
 # 假营销：用故事验证兴趣

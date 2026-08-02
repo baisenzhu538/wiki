@@ -16,6 +16,13 @@ updated_at: '2026-07-19'
 quality_labels:
 - insight
 - actionable
+aliases:
+  - 一堂单元模型
+  - 利润为王
+  - 利润为王用业务公式做定价决策
+  - 桥接
+  - 桥接：一堂单元模型×利润为王用业务公式做定价决策
+  - 用业务公式做定价决策
 source_refs:
 - 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L560-L650
 - 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L37-L55
@@ -28,13 +35,17 @@ related:
 - yt-unit-model-benchmark
 - yt-entrepreneur-unit-model
 - yt-decision-y-model
-- framework-demand-iceberg
+discoverable_by:
+- "单元模型怎么定价格"
+- "业务公式定价"
+- "定价闭环"
+- "用单元模型做定价决策"
+diagnostic_signals:
 - bridge-利润-需求冰山-价值定价
 tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 企业利润经营分析
 ---
 

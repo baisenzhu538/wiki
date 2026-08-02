@@ -10,6 +10,9 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain: yitang
+aliases:
+  - 中行为证据重于口头证据
+  - 调研中行为证据重于口头证据
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:

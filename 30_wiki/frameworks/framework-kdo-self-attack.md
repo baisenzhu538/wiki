@@ -35,6 +35,23 @@ source_refs:
 - 30_wiki/frameworks/framework-yitang-six-layer-cross-validation.md
 - 30_wiki/frameworks/framework-yitang-nine-layer-deep-dig.md
 related:
+aliases:
+  - KDO知识自攻击框架：用对抗Agent在交付前主动找出弱点
+  - 知识自攻击框架
+  - 用对抗
+  - 在交付前主动找出弱点
+  - 弱点检测
+  - 王语嫣
+aliases:
+  - KDO知识自攻击框架：用对抗Agent在交付前主动找出弱点
+  - 知识自攻击框架
+  - 用对抗
+  - 在交付前主动找出弱点
+  - 自攻击框架
+  - 王语嫣
+discoverable_by:
+  - "KDO自攻击框架"
+  - "对抗Agent弱点检测"
 - framework-ouyangfeng-review-methodology
 - framework-yitang-research-quality-gate
 - framework-yitang-six-layer-cross-validation

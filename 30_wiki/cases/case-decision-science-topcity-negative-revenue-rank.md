@@ -14,6 +14,11 @@ trust_level: medium
 language: zh-CN
 created_at: '2026-06-29'
 updated_at: '2026-06-29'
+aliases:
+  - 案例
+  - 案例：TopCity负收益消减与自动排名
+  - 益消减与自动排名
+  - 负收益消减与自动排名
 source_refs:
 - 00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt
 related:
@@ -24,7 +29,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 决策实践实操课口述
 - 科学决策
 ---

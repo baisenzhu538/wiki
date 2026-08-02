@@ -2,6 +2,12 @@
 id: modeling-scientific-milestones
 title: 科学建模七步里程碑：从边界到封装的方法论生产流程
 type: framework
+aliases:
+  - 从边界到封装的方法论生产流程
+  - 建模七步里程碑
+  - 界到封装的方法论生产流程
+  - 科学建模七步里程碑
+  - 科学建模七步里程碑：从边界到封装的方法论生产流程
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
@@ -36,8 +42,13 @@ source_context: 单一 source 为完整长文档，内容充分支撑 medium-hig
 diagnostic_signals:
 - src_unknown
 - src_unknown
-aliases:
 - 建模能力培训
+discoverable_by:
+- 建模方法流程
+- 七步里程碑
+- 科学建模
+- 模型构建步骤
+- 方法论生产
 ---
 
 # 科学建模七步里程碑：从边界到封装的方法论生产流程

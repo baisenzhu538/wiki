@@ -22,6 +22,8 @@ related:
 - '[[xingangwan-pharma-business-model-calc]]'
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 - '[[shanxi-field-research-checklist-20260701]]'
+aliases:
+  - 鑫港湾医药零售商业模式计算框架与业务公式
 source_refs:
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 captured_at: '2026-06-19'
@@ -39,6 +41,12 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+discoverable_by:
+- 医药商业模式
+- 药店公式计算
+- 智慧药柜模型
+- 医药创业测算
+- O2O医药模型
 ---
 # 鑫港湾医药零售商业模式计算框架与业务公式
 

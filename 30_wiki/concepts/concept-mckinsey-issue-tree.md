@@ -9,6 +9,11 @@ domain:
 - src_unknown
 source_person: McKinsey & Company
 source_context: McKinsey 问题解决方法论核心工具，用于将复杂商业问题逐层拆解为可独立分析的子问题
+aliases:
+  - IssueTree：问题树拆解
+  - McKinsey & Company
+  - 树拆解
+  - 问题树拆解
 source_refs:
 - pending_archive:source material not yet ingested
 related:

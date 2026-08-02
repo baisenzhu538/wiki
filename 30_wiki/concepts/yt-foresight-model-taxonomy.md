@@ -2,6 +2,7 @@
 domain:
 - yitang
 id: yt-foresight-model-taxonomy
+title: "预判模型分类"
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: beginner
@@ -18,6 +19,9 @@ reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 status: enriched
 updated_at: '2026-07-09'
+aliases:
+  - 模型分类
+  - 预判模型分类
 source_refs:
 - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 related:

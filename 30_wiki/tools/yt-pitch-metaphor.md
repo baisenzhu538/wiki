@@ -30,6 +30,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 tags:
+aliases:
+  - 讲香比喻化
+  - 讲香
+  - 比喻化
 - audience:executor
 - scene:execution
 - skill-level:intermediate

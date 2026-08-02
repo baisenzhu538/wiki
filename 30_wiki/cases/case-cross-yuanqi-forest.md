@@ -16,6 +16,13 @@ domain:
 - yitang
 source_person: 一堂课程讲义/讲师案例
 source_context: 一堂精益创业·低成本验证课程（元气森林试错工具箱幻灯片）+ 冉鹏战略课程战略选择逻辑
+aliases:
+  - 一堂课程讲义/讲师案例
+  - 元气森林
+  - 元气森林：战略定位与精益试错的跨域闭环
+  - 定位与精益试错的跨域闭环
+  - 战略定位与精益试错的跨域闭环
+  - 讲师案例
 source_refs:
 - 00_inbox/精益创业/元气森林-试错工具箱_ocr_text.md
 - 00_inbox/精益创业/元气森林-试错工具箱_vlm_desc.md
@@ -34,7 +41,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 元气森林
 - 精益创业
 ---

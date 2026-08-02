@@ -4,6 +4,12 @@ domain:
 id: yt-concept-context-engineering
 title: 上下文工程：充分≠越多越好
 type: concept
+aliases:
+  - 上下文工程
+  - 上下文工程：充分≠越多越好
+  - 充分≠越多越好
+  - 文工程
+  - 越多越好
 source_refs:
 - src_unknown
 - src_unknown

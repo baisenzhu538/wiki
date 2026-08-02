@@ -24,6 +24,13 @@ query_triggers:
 - 出海 认证 关税 资金回国
 - 海外 本地化 市场调研
 - 出海 竞品 本地市场分析
+aliases:
+  - 出海调研手段
+  - 出海调研手段：浅中深三层10大评估法
+  - 大评估法
+  - 浅中深三层
+  - 浅中深三层10大评估法
+  - 深三层
 source_refs:
 - 00_inbox/调研专题/调研手段卡5（出海）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡5（出海）_vlm_desc.md
@@ -42,7 +49,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研手段卡
 ---

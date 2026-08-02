@@ -10,6 +10,16 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain: research
+aliases:
+  - 决策权重偏差
+  - 决策评估画布
+  - 型决策习惯
+  - 深度案例
+  - 研究活动如何服务决策
+  - 科学决策
+  - 策习惯
+  - 管理决策权重偏差
+  - 评估画布
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:

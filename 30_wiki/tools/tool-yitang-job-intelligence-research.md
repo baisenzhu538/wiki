@@ -24,6 +24,12 @@ query_triggers:
 - 猎头情报获取方法
 - 招聘渠道调研
 - 竞对组织架构调研
+aliases:
+  - 五层递进挖掘竞对内部信息
+  - 招聘渠道情报
+  - 招聘渠道情报：五层递进挖掘竞对内部信息
+  - 渠道情报
+  - 递进挖掘竞对内部信息
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
@@ -40,7 +46,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研武器库培训
 ---

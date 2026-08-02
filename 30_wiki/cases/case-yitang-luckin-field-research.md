@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 实地调研的教科书
+  - 案例
+  - 案例：瑞幸做空实地调研的教科书
+  - 瑞幸做空
+  - 瑞幸做空实地调研的教科书
+  - 调研的教科书
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 系统式调研
 - 调研专题
 ---

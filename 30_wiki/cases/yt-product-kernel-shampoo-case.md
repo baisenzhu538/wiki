@@ -11,6 +11,13 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——洗发水案例
+aliases:
+  - 产品内核实战
+  - 从去屑到专业形象
+  - 屑到专业形象
+  - 水案例
+  - 洗发水案例
+  - 洗发水案例：产品内核实战从去屑到专业形象
 source_refs:
 - 10_raw/sources/src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例.md
 - 10_raw/sources/src_20260611_89407193-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.md
@@ -37,7 +44,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 一堂五步法
 - 产品内核
 - 洗发水案例

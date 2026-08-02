@@ -11,6 +11,10 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 澄清五层结构
+  - 边界与
+  - 问题边界与Problem澄清五层结构
 source_refs:
 - src_unknown
 related:
@@ -27,6 +31,12 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+discoverable_by:
+- 问题澄清
+- 五层结构
+- 问题定义
+- 根因分析
+- 元问题
 ---
 # 问题边界与Problem澄清五层结构
 

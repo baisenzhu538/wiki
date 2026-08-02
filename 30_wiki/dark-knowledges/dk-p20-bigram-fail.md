@@ -8,6 +8,11 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-20
+aliases:
+  - P20：prescreenbigram匹配对中文文本完全失效
+  - system
+  - 匹配对中文文本完全失效
+  - 对中文文本完全失效
 source_refs:
 - src_unknown
 created_at: 2026-06-03

@@ -17,6 +17,13 @@ domain:
 source_refs:
 
 related:
+aliases:
+  - Firecrawl：专为LLM设计的Web抓取API
+  - 专为LLM设计的Web抓取API
+  - 设计的
+aliases:
+  - Firecrawl：专为LLM设计的Web抓取API
+  - 专为LLM设计的Web抓取API
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'

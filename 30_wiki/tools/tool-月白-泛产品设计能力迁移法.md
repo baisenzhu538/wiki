@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-线下门店设计复杂度评估]]'
 - '[[tool-月白-控制产品画面尺寸比例]]'
 tags:
+aliases:
+  - 技能：泛产品设计能力迁移法
+  - 技能
+  - 泛产品设计能力迁移法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

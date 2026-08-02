@@ -20,6 +20,13 @@ confidence: 0.75
 trust_level: medium
 type: tool
 status: enriched
+aliases:
+  - 体故事线
+  - 分析线
+  - 对比分析线
+  - 清单体故事线⑤
+  - 清单体故事线⑤：对比分析线用结构暴露被忽视的差异维度
+  - 用结构暴露被忽视的差异维度
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）

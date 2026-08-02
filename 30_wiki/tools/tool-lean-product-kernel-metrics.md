@@ -12,6 +12,9 @@ domain:
 - strategy
 - yitang
 - product
+aliases:
+  - 产品内核十大典型指标
+  - 内核十大典型指标
 source_refs:
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_ocr_text.md
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_vlm_desc.md
@@ -27,7 +30,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 精益创业
 ---
 

@@ -14,6 +14,13 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - L5隐藏洞察
+  - L5隐藏洞察：四种力量+三种任务+微观体感
+  - 四种力量
+  - 四种力量+三种任务+微观体感
+  - 微观体感
+  - 隐藏洞察
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
@@ -31,7 +38,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 场景推演教练提示词
 ---

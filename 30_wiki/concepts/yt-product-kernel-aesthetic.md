@@ -7,6 +7,12 @@ status: reviewed
 confidence: 0.91
 trust_level: high
 source_context: 一堂产品内核系列课——审美与内核
+aliases:
+  - 产品内核与审美
+  - 产品内核与审美：从好用到美好
+  - 从好用到美好
+  - 内核与审美
+  - 用到美好
 source_refs:
 - pending_archive:src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - pending_archive:src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
@@ -36,7 +42,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核迭代课
 ---

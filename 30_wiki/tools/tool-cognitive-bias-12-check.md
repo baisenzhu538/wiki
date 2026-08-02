@@ -9,6 +9,13 @@ domain:
 - 心理学
 source_person: 消化全库后提炼
 source_context: 基于master-cognitive-bias-checklist框架提炼，2026-05-18
+aliases:
+  - 12种认知偏差完整自检
+  - 全库后提炼
+  - 技能
+  - 技能：12种认知偏差完整自检
+  - 消化全库后提炼
+  - 种认知偏差完整自检
 source_refs:
 - src_unknown
 wiki_refs:

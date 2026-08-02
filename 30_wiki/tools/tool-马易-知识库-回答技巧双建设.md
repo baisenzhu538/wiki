@@ -24,6 +24,10 @@ related:
 - tool-马易-公寓获客自跑通原则
 - tool-yitang-bp-analysis
 tags:
+aliases:
+  - 技能：知识库+回答技巧双建设
+  - 技能
+  - 知识库+回答技巧双建设
 - audience:executor
 - scene:execution
 - skill-level:intermediate

@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 业报告判断海外市场
+  - 仪出海
+  - 案例
+  - 案例：美容仪出海用行业报告判断海外市场
+  - 用行业报告判断海外市场
+  - 美容仪出海
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 行业报告调研
 - 调研专题
 ---

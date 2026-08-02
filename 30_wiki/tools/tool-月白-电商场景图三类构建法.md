@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-AI去字-稿定设计加字工作流]]'
 - '[[tool-月白-电商场景图三类分类法]]'
 tags:
+aliases:
+  - 技能：电商场景图三类构建法
+  - 技能
+  - 电商场景图三类构建法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

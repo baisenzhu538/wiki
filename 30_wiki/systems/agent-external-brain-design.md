@@ -26,6 +26,12 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:intermediate
+discoverable_by:
+- 外部大脑
+- Agent设计
+- 知识架构
+- 认知外部化
+- 第二大脑
 ---
 # Agent 外挂大脑设计
 

@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 80%培训讲执行
+  - 90%公司无战略部
+  - 99%项目有断层
+  - 三悖论
+  - 战略三悖论
+  - 战略三悖论：80%培训讲执行/90%公司无战略部/99%项目有断层
 source_refs:
 - src_unknown
 related:

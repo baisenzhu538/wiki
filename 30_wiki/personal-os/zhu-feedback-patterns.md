@@ -7,6 +7,12 @@ created_at: 2026-07-01T17:19:35+00:00
 updated_at: 2026-07-19
 domain:
   - personal-os
+discoverable_by:
+- 反馈模式
+- 学习反馈
+- 老朱成长
+- 模式识别
+- 个人改进
 ---
 
 # 老朱反馈模式库

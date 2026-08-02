@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 加盟选址
+  - 拍脑袋
+  - 案例
+  - 案例：西安加盟选址系统调研vs拍脑袋
+  - 系统调研vs拍脑袋
+  - 西安加盟选址
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 调研专题
 - 高阶调研行动营
 ---

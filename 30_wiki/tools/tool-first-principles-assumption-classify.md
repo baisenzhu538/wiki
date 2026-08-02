@@ -9,6 +9,13 @@ domain:
 - 产品
 source_person: 消化全库后提炼
 source_context: 基于master-first-principles框架提炼，2026-05-18
+aliases:
+  - 假设分类法第一性原理
+  - 全库后提炼
+  - 分类法第一性原理
+  - 技能
+  - 技能：假设分类法第一性原理
+  - 消化全库后提炼
 source_refs:
 - src_unknown
 wiki_refs:

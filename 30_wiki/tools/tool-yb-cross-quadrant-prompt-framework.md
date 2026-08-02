@@ -1,5 +1,6 @@
 ---
 id: tool-yb-cross-quadrant-prompt-framework
+title: "十字象限提示词结构化框架"
 type: tool
 domain: system
 status: draft
@@ -10,6 +11,22 @@ reviewed_by: 待审
 confidence: 0.85
 trust_level: observed
 version: 1.0.0
+aliases:
+  - 三轴提示词框架
+  - 事后笔记
+  - 产出风格总偏离预期
+  - 十字象限提示词结构化
+  - 十字象限提示词结构化框架
+  - 半肥猫月白老朱线下聚会
+  - 可能是信息量要素冲突
+  - 四象限提示词法
+  - 应用研讨
+  - 提示词产出不如短词
+  - 月白十字象限
+  - 检查精准
+  - 模糊轴是否方向反了
+  - 轴是否方向反了
+  - 风格总偏离预期
 source_refs:
   - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L782-884
   - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L660-674
@@ -37,13 +54,7 @@ diagnostic_signals:
   - "AI产出风格总偏离预期 → 检查精准-模糊轴是否方向反了"
 discoverable_by: "月白十字象限、提示词框架、三轴提示词、结构化提示词、AIGC设计四象限"
 transferable_to: "GPT、Claude、Midjourney、Stable Diffusion、DALL-E、可灵、即梦等所有文本生图/生视频工具"
-aliases:
-  - 月白十字象限
-  - 三轴提示词框架
-  - 四象限提示词法
-  - 十字象限提示词结构化
 ---
-
 # 十字象限提示词结构化框架
 
 ## 定位声明

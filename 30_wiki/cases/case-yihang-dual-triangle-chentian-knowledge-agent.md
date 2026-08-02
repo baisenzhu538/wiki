@@ -17,6 +17,13 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-04
+aliases:
+  - 一行双三角案例
+  - 一行双三角案例：陈天从知识管理到多Agent系统
+  - 从知识管理到多
+  - 双三角案例
+  - 陈天从知识管理到多
+  - 陈天从知识管理到多Agent系统
 source_refs:
 - 00_inbox/人机协作双三角/_processed/陈天同学案例口述_page001_vlm.md
 - 00_inbox/人机协作双三角/_processed/陈天同学案例口述_page002_vlm.md
@@ -39,7 +46,6 @@ related:
 - '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
 - '[[case-yihang-dual-triangle-hardware-patent-rule-explicit]]'
 - '[[case-yihang-dual-triangle-hotel-tag-sandbox]]'
-aliases:
 - 陈天案例
 - 知识管理案例
 - 人机协作双三角

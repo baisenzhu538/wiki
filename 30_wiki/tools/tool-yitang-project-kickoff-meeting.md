@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-project-kickoff-meeting
 title: 项目启动会设计模板：两小时对齐六件事，后面不用跑断腿
 type: tool
@@ -8,6 +8,15 @@ trust_level: high
 domain:
   - yitang
   - management
+aliases:
+  - 不用跑断腿
+  - 两小时对齐六件事
+  - 后面不用跑断腿
+  - 启动会设计模板
+  - 沟通机制建立
+  - 管项目
+  - 项目启动会设计模板
+  - 项目启动会设计模板：两小时对齐六件事，后面不用跑断腿
 source_refs:
   - 00_inbox/管项目/项目管理-管过程-口述.txt
   - 00_inbox/管项目/项目管理-管过程-笔记.txt

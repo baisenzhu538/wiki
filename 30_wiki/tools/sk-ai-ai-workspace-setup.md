@@ -8,6 +8,13 @@ domain:
 - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
+aliases:
+  - 工作空间搭建
+  - 技能
+  - 技能：结构化AI工作空间搭建
+  - 纪浩
+  - 结构化
+  - 结构化AI工作空间搭建
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
@@ -49,7 +56,6 @@ diagnostic_signals:
   follow_up_question: 是否已有一份独立的系统自述 + 领域知识库，能在新任务开始时直接加载给 AI？
 - framework_lens: 重新投胎陷阱
   follow_up_question: 上一次“重新投胎”后，是否改变了结构设计方法？还是只换了目录名？
-aliases:
 - 时代要不要练笔记
 - 需要练那个
 ---

@@ -20,6 +20,13 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享课后问答（2026-06-18）
+aliases:
+  - 创造力重新分配到问题描述与验收审美
+  - 力重新分配到问题描述与验收审美
+  - 暗知识
+  - 王欢
+  - 王欢暗知识
+  - 王欢暗知识：创造力重新分配到问题描述与验收审美
 source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt

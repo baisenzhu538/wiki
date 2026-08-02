@@ -8,6 +8,12 @@ status: reviewed
 confidence: 0.91
 trust_level: high
 source_context: 一堂泛产品设计——需求工具箱指南
+aliases:
+  - 为什么用户需要但不用
+  - 么用户需要但不用
+  - 动机与阻力分析
+  - 需求动机与阻力分析
+  - 需求动机与阻力分析：为什么用户需要但不用
 source_refs:
 - 10_raw/sources/src_20260510_5d8b3e84-堂泛产品设计需求工具箱指南-堂.md
 - 10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md
@@ -37,7 +43,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 堂泛产品设计需求工具箱指南
 - 泛产品设计
 - 用户卡片

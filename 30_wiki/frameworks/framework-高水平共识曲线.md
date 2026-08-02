@@ -11,6 +11,12 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 决策质量的团队对齐模型
+  - 平共识曲线
+  - 质量的团队对齐模型
+  - 高水平共识曲线
+  - 高水平共识曲线：决策质量的团队对齐模型
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-高水平共识曲线（重要）_vlm_desc.md
 related:
@@ -27,9 +33,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 科学决策
 - 高水平共识曲线
+discoverable_by:
+- 高水平共识
+- 团队决策质量
+- 决策对齐
+- 团队辩论
+- 共识曲线
 ---
 # 高水平共识曲线
 

@@ -2,6 +2,11 @@
 id: case-personal-map-modeling
 title: 案例：一堂个人地图的完整建模过程（方法论视角）
 type: case
+aliases:
+  - Truman
+  - 一堂个人地图的完整建模过程方法论视角
+  - 案例
+  - 案例：一堂个人地图的完整建模过程方法论视角
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
@@ -41,7 +46,6 @@ diagnostic_signals:
   follow_up_question: AI 出了几个版本？你手工写了几个版本？两者差距是否集中在"为什么这类课程必须放在一起"？
 - framework_lens: 缺少路演验证锁，模型只在内部自洽，没有外部撞击
   follow_up_question: 这张图有没有在 ≥100 人的目标用户场域讲过？听众能否在 30 秒内复述出核心结构？
-aliases:
 - 建模能力培训
 ---
 

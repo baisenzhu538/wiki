@@ -9,6 +9,13 @@ domain:
 - src_unknown
 source_person: 张磊
 source_context: 张磊教练《精益测试关键问题》AMA Q4
+aliases:
+  - 不生产产品验证行业机会
+  - 产产品验证行业机会
+  - 张磊
+  - 日化沐浴露MVP
+  - 日化沐浴露MVP：不生产产品验证行业机会
+  - 沐浴露
 source_refs:
 - 10_raw/sources/zhanglei-lean-testing-oral-01.md
 - 10_raw/sources/zhanglei-lean-testing-notes-01.md

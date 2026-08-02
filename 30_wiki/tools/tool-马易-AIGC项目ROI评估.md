@@ -8,6 +8,11 @@ domain:
 - ai-collaboration
 source_person: 马易
 source_context: AI落地场景识别 （原 legacy，已从 title/context/filename 推断为 src_20260528_04be660c）
+aliases:
+  - AIGC项目ROI评估
+  - 技能
+  - 技能：AIGC项目ROI评估
+  - 马易
 source_refs:
 - 10_raw/sources/src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md
 wiki_refs: null
@@ -49,7 +54,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 口喷设计范式与电商
 - 设计全流程
 - 设计师实操培训

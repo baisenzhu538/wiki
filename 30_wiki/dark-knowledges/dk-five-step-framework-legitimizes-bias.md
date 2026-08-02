@@ -9,6 +9,13 @@ domain:
 - entrepreneur
 source_person: Truman
 source_context: 一堂五步法培训，第二十二节批次4精修提炼，2026-06-17
+aliases:
+  - Truman
+  - 反而可能合法化偏见
+  - 暗知识
+  - 暗知识：框架不会自动降噪，反而可能合法化偏见用了五步法不代表科学分析
+  - 框架不会自动降噪
+  - 用了五步法不代表科学分析
 source_refs:
 - 10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md
 - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
@@ -46,7 +53,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 学习信号缺失——真正的科学方法会不断推翻旧假设，稳定的结论往往是方法论停滞的信号
   follow_up_question: 上一次你团队用五步法得出和预期相反的结论是什么时候？如果从不发生，方法论可能已经沦为仪式。
-aliases:
 - 一堂五步法
 - 单元模型
 ---

@@ -14,6 +14,10 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 线上签约统计
+  - 线上签约统计：通过自增ID推算用户/订单量
+  - 通过自增ID推算用户/订单量
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -28,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

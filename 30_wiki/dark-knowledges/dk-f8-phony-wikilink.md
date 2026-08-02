@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-008
+aliases:
+  - FKDO008：虚假关联→wikilink指向自身或堆砌无关链接凑数
+  - system
+  - 指向自身或堆砌无关链接凑数
+  - 自身或堆砌无关链接凑数
+  - 虚假关联
+  - 虚假关联→wikilink
 source_refs:
 - src_unknown
 created_at: 2026-05-31

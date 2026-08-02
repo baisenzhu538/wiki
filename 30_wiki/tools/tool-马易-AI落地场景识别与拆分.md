@@ -23,6 +23,10 @@ related:
 - '[[tool-马易-判断标准快速产出法]]'
 - '[[tool-Truman-本地记忆与云端记忆管理]]'
 tags:
+aliases:
+  - 技能：AI落地场景识别与拆分
+  - 技能
+  - AI落地场景识别与拆分
 - audience:executor
 - scene:execution
 - skill-level:intermediate

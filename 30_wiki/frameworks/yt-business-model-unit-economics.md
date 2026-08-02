@@ -8,6 +8,10 @@ status: enriched
 confidence: 0.93
 trust_level: high
 source_context: 一堂商业模式系列课——单元经济学
+aliases:
+  - 单元经济学
+  - 单元经济学：LTV>CAC
+  - 经济学
 source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -37,9 +41,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核验证课
+discoverable_by:
+- 单元经济模型
+- 单元模型总纲
+- LTV CAC
+- 单位经济分析
+- 盈利单元计算
 ---
 
 # 单元经济学：LTV > CAC

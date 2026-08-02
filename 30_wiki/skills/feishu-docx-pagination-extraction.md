@@ -36,6 +36,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+discoverable_by:
+- 飞书API
+- 分页提取
+- 文档提取
+- 流式处理
+- Docx提取
 ---
 
 # 飞书 Docx API 分页安全提取 + 流式处理模式

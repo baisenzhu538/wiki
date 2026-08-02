@@ -58,6 +58,11 @@ related:
 - '[[tool-月白-资深设计师AI工具切换法]]'
 - '[[tool-月白-里程碑思维-找对标优先于做设计]]'
 tags:
+aliases:
+  - 技能：文创材质成本调研与精益选择
+  - 技能
+  - 文创材质成本调研与精益选择
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 从0调研目标市场
+  - 案例
+  - 案例：电动车出海本地化从0调研目标市场
+  - 电动车出海本地化
+  - 调研目标市场
+  - 车出海本地化
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
@@ -26,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 调研专题
 - 高阶情报调研课
 ---

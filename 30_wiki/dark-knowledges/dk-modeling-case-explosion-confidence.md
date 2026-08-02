@@ -3,6 +3,13 @@ id: dk-modeling-case-explosion-confidence
 title: 案例大爆炸的底气：来自销冠广场，不是胆子大
 type: dk
 dark_knowledge_type: insight
+aliases:
+  - Truman
+  - 不是胆子大
+  - 大爆炸的底气
+  - 来自销冠广场
+  - 案例大爆炸的底气
+  - 案例大爆炸的底气：来自销冠广场，不是胆子大
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
@@ -40,7 +47,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 建模能力培训
 ---
 

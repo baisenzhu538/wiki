@@ -8,6 +8,13 @@ domain:
 - master
 source_person: Builder
 source_context: 2026-05-03
+aliases:
+  - Builder
+  - C2：Schemastatus字段混用两个状态机→字段值互相污染
+  - 字段值互相污染
+  - 字段混用两个状态机
+  - 字段混用两个状态机→字段值互相污染
+  - 混用两个状态机
 source_refs:
 - src_unknown
 created_at: 2026-05-31

@@ -2,6 +2,13 @@
 id: HIS系统开发实现方案-架构师指南
 created_at: 2026-05-03
 domain: healthcare
+aliases:
+  - HIS系统开发实现方案
+  - HIS系统开发实现方案架构师指南
+  - 师指南
+  - 架构师指南
+  - 系统开发实现方案
+  - 系统开发实现方案架构师指南
 source_refs:
 - 10_raw/sources/src_20260503_1a1f0312-HIS系统开发实现方案-架构师指南.md
 status: reviewed
@@ -26,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 架构师指南
 - 系统开发实现方案
 ---

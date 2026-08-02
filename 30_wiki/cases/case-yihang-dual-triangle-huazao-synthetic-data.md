@@ -17,6 +17,13 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-04
+aliases:
+  - 一行双三角案例
+  - 一行双三角案例：花总让AI先造数据破解工业级难题
+  - 先造数据破解工业级难题
+  - 双三角案例
+  - 花总让
+  - 花总让AI先造数据破解工业级难题
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-跨行业速解工业级难题_vlm.md
 - https://www.polarismarketresearch.com/industry-analysis/synthetic-data-generation-market
@@ -32,7 +39,6 @@ related:
 - '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
 - '[[case-yihang-dual-triangle-hardware-patent-rule-explicit]]'
 - '[[case-yihang-dual-triangle-hotel-tag-sandbox]]'
-aliases:
 - 花总案例
 - 合成数据案例
 - 一堂双三角

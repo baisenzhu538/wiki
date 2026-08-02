@@ -9,6 +9,13 @@ domain:
 - note-taking
 source_person: Truman
 source_context: 一堂-AI时代清单体笔记-Truman-口述-02.md
+aliases:
+  - Truman
+  - 化目标倒逼笔记中的真实思考量
+  - 用量化目标倒逼笔记中的真实思考量
+  - 立flag记笔法
+  - 立flag记笔法：用量化目标倒逼笔记中的真实思考量
+  - 记笔法
 source_refs:
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
@@ -57,7 +64,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 指标表演化——flag从"倒逼思考"退化为"完成指标"
   follow_up_question: 这些"个人观点"如果删掉，是否会影响后续复用？三个月后你还会看吗？
-aliases:
 - 时代请单体笔记
 ---
 

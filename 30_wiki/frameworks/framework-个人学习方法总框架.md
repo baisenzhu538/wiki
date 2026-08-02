@@ -22,6 +22,9 @@ source_refs:
 - 00_inbox/一堂-个人修炼-科学学习IPO-全景策略_paddle_ocr.txt
 - 00_inbox/一堂-个人修炼-科学学习IPO完整清单_paddle_ocr.txt
 related:
+discoverable_by:
+  - "个人学习方法总框架"
+  - "IPO×四环闭环"
 - '[[framework-个人学习方法-IPO学习闭环]]'
 - '[[framework-个人学习方法-科学提问]]'
 - '[[framework-个人学习方法-思维模型]]'
@@ -43,6 +46,19 @@ quality_labels:
 - cited
 - validated
 tags:
+aliases:
+  - 个人学习方法总框架：IPO×四环闭环
+  - 个人学习方法总框架
+  - IPO×四环闭环
+  - 四环闭环
+  - 人学习方法总框架
+  - 习方法总框架
+aliases:
+  - 个人学习方法总框架：IPO×四环闭环
+  - 个人学习方法总框架
+  - IPO×四环闭环
+  - 人学习方法总框架
+  - 四环闭环
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

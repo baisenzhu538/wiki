@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-普通人AI设计80分法则]]'
 - '[[tool-月白-图像信息逆向解析训练]]'
 tags:
+aliases:
+  - 技能：AI设计落地文件标准生成
+  - 技能
+  - AI设计落地文件标准生成
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

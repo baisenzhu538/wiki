@@ -23,6 +23,12 @@ diagnostic_signals:
 - framework_lens: 合规决策树
   follow_up_question: 是否有公开 API 替代？数据是否可通过其他渠道获取？
 tags:
+aliases:
+  - 全网爬虫调研武器库：AI时代10大工具+合规红线
+  - 全网爬虫调研武器库
+  - 时代
+  - 大工具
+  - 合规红线
 - web-scraping
 - research
 - ai-tools

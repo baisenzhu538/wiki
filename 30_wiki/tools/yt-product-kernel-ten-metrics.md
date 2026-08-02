@@ -8,6 +8,10 @@ status: reviewed
 confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——十大典型指标
+aliases:
+  - 产品内核十大典型指标
+  - 产品内核十大典型指标：从假设到验证的数据体系
+  - 从假设到验证的数据体系
 source_refs:
 - 10_raw/sources/src_20260510_5ef61f8f-一堂产品内核十大典型指标.md
 - 10_raw/sources/src_20260610_29a11a33-一堂-一堂五步法-产品内核-十大典型指标.md
@@ -37,7 +41,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 一堂五步法
 - 一堂产品内核十大典型指标
 ---

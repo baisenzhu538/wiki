@@ -15,6 +15,12 @@ related:
   - "[[user-insight-profile]]"
   - "[[user-preferences]]"
   - "[[operating-principles]]"
+discoverable_by:
+- 时间OS
+- 个人时间管理
+- 日常系统
+- 老朱作息
+- 时间规划
 ---
 
 # 老朱个人时间操作系统

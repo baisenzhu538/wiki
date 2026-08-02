@@ -1,4 +1,4 @@
-﻿---
+---
 id: case-yitang-meeting-room-match
 title: 案例：一堂会议室场景匹配——同一个屋子不同布置，产出效率差一倍
 type: case
@@ -8,6 +8,13 @@ domain:
   - time-management
 source_person: Truman
 source_context: 一堂时间管理课程中，Truman分享了一堂在会议室场景匹配上的实践经验——不同布置对应不同会议类型
+aliases:
+  - Truman
+  - 一堂会议室场景匹配
+  - 产出效率差一倍
+  - 同一个屋子不同布置
+  - 案例
+  - 案例：一堂会议室场景匹配同一个屋子不同布置，产出效率差一倍
 source_refs:
   - 00_inbox/时间管理/truman-时间管理课程-口述.txt
   - 00_inbox/时间管理/truman-时间管理课程-笔记.txt

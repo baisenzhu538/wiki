@@ -8,6 +8,12 @@ domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
+aliases:
+  - 尺寸是唯一关键排版影响因素
+  - 是唯一关键排版影响因素
+  - 月白
+  - 豆包AIGC生图
+  - 豆包AIGC生图：尺寸是唯一关键排版影响因素
 source_refs:
 - 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
@@ -24,7 +30,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
-aliases:
 - 设计师实操培训
 ---
 

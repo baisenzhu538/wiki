@@ -16,6 +16,12 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain: strategy
+aliases:
+  - 10情境战略模型选择练习
+  - 10情境战略模型选择练习：什么情境配什么工具
+  - 什么情境配什么工具
+  - 情境战略模型选择练习
+  - 情境配什么工具
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_203_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_203_ocr_text.md
@@ -35,7 +41,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

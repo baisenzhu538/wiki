@@ -28,6 +28,8 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 调研认知
 source_refs:
 - 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md
 status: enriched
@@ -54,7 +56,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 深度调研集群方法论
 ---
 

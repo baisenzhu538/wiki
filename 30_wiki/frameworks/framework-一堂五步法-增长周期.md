@@ -18,6 +18,9 @@ source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt L39-L58,L331-L390,L372-L376,L582-L589
 - 00_inbox/一堂五步法/一堂-一堂五步法-增长-增长周期模型_paddle_ocr.txt
 related:
+discoverable_by:
+  - "增长周期三阶段"
+  - "获客驱动系统驱动对抗驱动"
 - '[[framework-一堂五步法]]'
 - '[[framework-一堂五步法-壁垒]]'
 - '[[framework-一堂五步法-单元模型]]'
@@ -33,6 +36,20 @@ quality_labels:
 - principle
 - actionable
 tags:
+aliases:
+  - 一堂五步法增长周期：获客驱动/系统驱动/对抗驱动三阶段
+  - 一堂五步法
+  - 增长周期
+  - 获客驱动/系统驱动/对抗驱动三阶段
+  - 获客驱动
+  - 客驱动系统驱动对抗驱动
+aliases:
+  - 一堂五步法增长周期：获客驱动/系统驱动/对抗驱动三阶段
+  - 一堂五步法
+  - 增长周期
+  - 获客驱动/系统驱动/对抗驱动三阶段
+  - 长周期三阶段
+  - 客驱动系统驱动对抗驱动
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

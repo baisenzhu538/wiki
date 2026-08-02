@@ -32,6 +32,11 @@ related:
 - '[[tool-月白-AI提示词精准约束法]]'
 - '[[tool-月白-精准提示词撰写法]]'
 tags:
+aliases:
+  - 技能：精准共用提示词撰写
+  - 技能
+  - 精准共用提示词撰写
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

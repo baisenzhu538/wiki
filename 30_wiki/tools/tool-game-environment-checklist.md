@@ -8,10 +8,15 @@ confidence: 0.8
 trust_level: medium
 domain:
 - management
+aliases:
+  - 制度面向未来
+  - 博弈环境自检清单
+  - 博弈环境自检清单：制度面向未来
+  - 环境自检清单
+  - 面向未来
 source_refs:
 - 00_inbox/坏世界研究/拆书会第212期_坏世界研究_逐字稿.md
 - 00_inbox/坏世界研究/赵汀阳-坏世界研究-拆书-口述.txt
-aliases:
 - 坏世界研究
 - 坏世界
 - 博弈环境

@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-project-resource-escalation
 title: 向上要资源的七种类型速查
 type: tool
@@ -14,6 +14,9 @@ updated_at: 2026-07-08
 domain:
 - yitang
 - management
+aliases:
+  - 向上要资源的七种类型速查
+  - 要资源的七种类型速查
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 191015_vlm_desc.md
 related:

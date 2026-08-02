@@ -14,6 +14,11 @@ updated_at: 2026-07-09
 domain:
 - yitang
 - opportunity-foresight
+aliases:
+  - 定位→列七段→排幻觉→保A争B→硬伤校验
+  - 机会预判
+  - 机会预判案例预判SOP：定位→列七段→排幻觉→保A争B→硬伤校验
+  - 案例预判
 source_refs:
 - 00_inbox/一堂-机会预判-案例预判01_paddle_ocr.txt
 - 00_inbox/一堂-机会预判-案例预判02_paddle_ocr.txt
@@ -43,7 +48,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 机会预判
 - 案例预判
 ---

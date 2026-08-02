@@ -19,6 +19,9 @@ source_refs:
 - 00_inbox/一堂-个人修炼-科学学习IPO-全景策略_paddle_ocr.txt
 - 00_inbox/一堂-个人修炼-科学学习IPO完整清单_paddle_ocr.txt
 related:
+discoverable_by:
+  - "IPO学习闭环"
+  - "Input Process Output"
 - '[[framework-个人学习方法总框架]]'
 - '[[framework-个人学习方法-科学提问]]'
 - '[[framework-个人学习方法-思维模型]]'
@@ -34,6 +37,14 @@ quality_labels:
 - principle
 - actionable
 tags:
+aliases:
+  - IPO学习闭环：Input→Process→Output→Feedback全景
+  - IPO学习闭环
+  - 学习闭环
+aliases:
+  - IPO学习闭环：Input→Process→Output→Feedback全景
+  - IPO学习闭环
+  - 学习闭环
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

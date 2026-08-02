@@ -4,6 +4,13 @@ title: 预判交付物四层级：从模糊想法到Plan ABC
 type: concept
 domain:
 - src_unknown
+aliases:
+  - 交付物四层级
+  - 从模糊想法到
+  - 从模糊想法到Plan
+  - 糊想法到
+  - 预判交付物四层级
+  - 预判交付物四层级：从模糊想法到PlanABC
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
@@ -58,7 +65,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 机会预判课
 ---
 

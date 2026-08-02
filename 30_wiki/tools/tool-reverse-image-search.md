@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 反向图片搜索
+  - 反向图片搜索：追踪图片来源和真实性
+  - 图片搜索
+  - 图片来源和真实性
+  - 追踪图片来源和真实性
 source_refs:
 - src_unknown
 - src_unknown

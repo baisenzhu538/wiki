@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 战略造句公式
+  - 战略造句公式：聚焦X市场→达到Y竞争优势→选择不做Z→采取连贯活动
+  - 竞争优势
+  - 选择不做
+  - 造句公式
+  - 采取连贯活动
 source_refs:
 - pending_archive:src_unknown
 reviewed_by: pending

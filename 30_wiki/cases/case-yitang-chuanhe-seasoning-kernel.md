@@ -1,4 +1,4 @@
-﻿---
+---
 id: case-yitang-chuanhe-seasoning-kernel
 title: 案例：川味调料供应链——从"厂家直销"到"买底料+全程帮扶"的六次产品内核迭代
 type: case
@@ -8,6 +8,13 @@ domain:
 - product-kernel
 source_person: 合发（一堂学员）
 source_context: 一堂产品内核迭代课 - 产品内核加法→减法案例
+aliases:
+  - 从厂家直销到买底料+全程帮扶的六次产品内核迭代
+  - 合发（一堂学员）
+  - 家直销到买底料
+  - 川味调料供应链
+  - 案例
+  - 案例：川味调料供应链从厂家直销到买底料+全程帮扶的六次产品内核迭代
 source_refs:
 - 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L194-L657
 - 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L700-L1150

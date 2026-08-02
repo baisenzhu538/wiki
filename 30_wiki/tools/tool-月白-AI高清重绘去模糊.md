@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-表情包风格筛选与确定]]'
 - '[[tool-月白-AIGC生成人物证件照]]'
 tags:
+aliases:
+  - 技能：AI高清重绘去模糊
+  - 技能
+  - AI高清重绘去模糊
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -54,6 +54,11 @@ related:
 - '[[tool-月白-醒图人脸精修法]]'
 - '[[tool-月白-风格不变局部调整]]'
 tags:
+aliases:
+  - 技能：线下门店设计复杂度评估
+  - 技能
+  - 线下门店设计复杂度评估
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

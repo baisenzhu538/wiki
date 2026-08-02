@@ -9,6 +9,13 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain: strategy
+aliases:
+  - 一米八八儿童奶粉
+  - 一米八八儿童奶粉从零到
+  - 亿的细分垄断
+  - 从零到20亿的细分垄断
+  - 冉鹏操盘
+  - 冉鹏操盘：一米八八儿童奶粉从零到20亿的细分垄断
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - pending_archive: 合生元益生菌/奶粉市场公开报道待本地归档
@@ -22,7 +29,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 冉鹏战略课逐字稿
 - 战略专题
 ---

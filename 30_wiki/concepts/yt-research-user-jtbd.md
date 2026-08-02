@@ -8,6 +8,10 @@ type: tool
 status: reviewed
 source_context: 一堂商业调研课程——用户 Jobs-to-be-Done 调研
 source_person: 一堂
+aliases:
+  - 用户
+  - 用户JTBD调研方法
+  - 调研方法
 source_refs:
 - pending_archive:src_20260620_business-research-skill-v2.1.0
 created_at: '2026-06-20'

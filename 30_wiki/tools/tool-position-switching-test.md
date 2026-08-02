@@ -8,10 +8,15 @@ confidence: 0.8
 trust_level: medium
 domain:
 - management
+aliases:
+  - 互换测试
+  - 公正性一分钟自检
+  - 地位互换测试
+  - 地位互换测试：规则公正性一分钟自检
+  - 规则公正性一分钟自检
 source_refs:
 - 00_inbox/坏世界研究/拆书会第212期_坏世界研究_逐字稿.md
 - 00_inbox/坏世界研究/赵汀阳-坏世界研究-拆书-口述.txt
-aliases:
 - 坏世界研究
 - 坏世界
 - 椅子测试

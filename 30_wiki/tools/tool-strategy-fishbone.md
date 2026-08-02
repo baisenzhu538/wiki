@@ -8,6 +8,9 @@ trust_level: high
 domain:
 - strategy
 - problem_solving
+aliases:
+  - 图根因分析工具
+  - 鱼骨图根因分析工具
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_42_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_44_ocr_text.md
@@ -29,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

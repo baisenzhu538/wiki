@@ -13,6 +13,11 @@ domain:
 status: draft
 source_person: 一堂课程
 source_context: src_20260609_44a9e79a
+aliases:
+  - 一堂课程
+  - 六维窗口期扫描法
+  - 技能
+  - 技能：六维窗口期扫描法
 source_refs:
 - 10_raw/sources/src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要.md
 definition_of_done: null
@@ -34,7 +39,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 关键训练清单重要
 - 科学决策
 ---

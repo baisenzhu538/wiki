@@ -1,4 +1,4 @@
-﻿---
+---
 id: case-yitang-leo-website-redesign
 title: 案例：Leo 官网改版失败——跳过定方案，用设计师当人肉方案探索工具
 type: case
@@ -14,6 +14,13 @@ domain:
   - management
 source_person: 老顽童
 source_context: 一堂项目管理入门篇口述稿（2026-07-07），Leo 官网改版失败案例
+aliases:
+  - 官网改版失败
+  - 案例
+  - 案例：Leo官网改版失败跳过定方案，用设计师当人肉方案探索工具
+  - 用设计师当人肉方案探索工具
+  - 老顽童
+  - 跳过定方案
 source_refs:
   - 00_inbox/管项目/项目管理-入门篇-口述.txt
 related:

@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - AI健身四力
+  - 健身四力四种力量的博弈分析
+  - 力量的博弈分析
+  - 四种力量的博弈分析
+  - 案例
+  - 案例：AI健身四力四种力量的博弈分析
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
@@ -31,7 +38,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 五步法之需求分析
 - 方法论
 ---

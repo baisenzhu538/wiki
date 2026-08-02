@@ -46,6 +46,10 @@ estimated_tokens: 2600
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 diagnostic_signals:
+aliases:
+  - AI对话式PPT生成器：把排版变成说话
+  - AI对话式PPT生成器
+  - 把排版变成说话
 - framework_lens: 工具完成了"视觉包装"，但没有完成"认知包装"。当PPT被用于高风险决策场景（融资、重大项目汇报），观众会默认漂亮排版背后有深度思考，反而放大认知风险
   follow_up_question: 这份PPT的核心论点是否有独立的数据源和逻辑链支撑？如果没有，是否应该先用[[yt-pitch-quantification]]和[[yt-pitch-storytelling]]梳理清楚再生成视觉？
 - framework_lens: 工具将"风格"和"内容"绑定在同一个AI窗口中，导致迭代成本被低估。当演讲稿频繁变动时，逐页重新生成的成本可能超过传统PPT模板

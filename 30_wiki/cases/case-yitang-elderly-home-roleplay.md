@@ -13,6 +13,11 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 假扮家属潜入养老院微信群
+  - 家属潜入养老院微信群
+  - 案例
+  - 案例：假扮家属潜入养老院微信群
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 related:
@@ -25,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 系统式调研
 - 调研专题
 ---

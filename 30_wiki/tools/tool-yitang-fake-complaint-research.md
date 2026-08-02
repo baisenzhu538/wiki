@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 以投诉之名获取内部信息
+  - 假装客户投诉
+  - 假装客户投诉：以投诉之名获取内部信息
+  - 客户投诉
+  - 诉之名获取内部信息
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -27,7 +33,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

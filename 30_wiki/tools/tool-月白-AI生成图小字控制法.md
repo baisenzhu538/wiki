@@ -35,6 +35,11 @@ related:
 - '[[tool-月白-纳米级抄大师训练法]]'
 - '[[tool-月白-里程碑思维-找对标优先于做设计]]'
 tags:
+aliases:
+  - 技能：AI生成图小字控制法
+  - 技能
+  - AI生成图小字控制法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

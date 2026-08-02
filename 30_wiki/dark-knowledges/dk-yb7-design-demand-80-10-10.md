@@ -10,6 +10,13 @@ domain:
 - business-strategy
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
+aliases:
+  - 10分层法则
+  - 中国设计需求的80
+  - 中国设计需求的801010分层法则
+  - 分层法则
+  - 月白
+  - 设计需求的
 source_refs:
 - src_unknown
 created_at: 2026-06-04

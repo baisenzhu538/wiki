@@ -13,6 +13,11 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 从朋友圈照片找到代工厂
+  - 友圈照片找到代工厂
+  - 案例
+  - 案例：从朋友圈照片找到代工厂
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
@@ -25,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 调研专题
 - 高阶情报调研课
 ---

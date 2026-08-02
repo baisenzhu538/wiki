@@ -12,6 +12,10 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 十倍速验证
+  - 落地卡片
+  - 落地卡片：十倍速验证
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-十倍速验证_vlm_desc.md
 related:
@@ -27,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 十倍速验证
 - 泛产品设计
 ---

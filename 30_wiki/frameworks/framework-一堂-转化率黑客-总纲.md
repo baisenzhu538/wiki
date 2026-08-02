@@ -27,6 +27,9 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2486-L2488
 - 60_feedback/diagnosis/d-domain-conversion-rate-2026-07-12.md
 related:
+discoverable_by:
+  - "转化率黑客总纲"
+  - "动力阻力触点转化率"
 - '[[framework-一堂-转化率黑客爬山地图]]'
 - '[[framework-一堂-转化基本功七个自我修养]]'
 - '[[framework-一堂-动力三曲线]]'
@@ -104,6 +107,20 @@ quality_labels:
 - cited
 - actionable
 tags:
+aliases:
+  - 一堂转化率黑客总纲：转化率=动力−阻力+触点关键假设ABCD之D域微观效率
+  - 一堂转化率黑客总纲
+  - 转化率
+  - 动力
+  - 阻力
+  - 触点关键假设
+aliases:
+  - 一堂转化率黑客总纲：转化率=动力−阻力+触点关键假设ABCD之D域微观效率
+  - 一堂转化率黑客总纲
+  - 转化率
+  - 动力
+  - 阻力
+  - 触点关键假设
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

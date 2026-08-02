@@ -11,6 +11,11 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 表达力的十种武器
+  - 讲香十指模型
+  - 讲香十指模型：超级武器库表达力的十种武器
+  - 超级武器库
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-讲香十指模型-超级武器库_vlm_desc.md
 related:
@@ -27,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 个人修炼
 - 讲香十指模型
 ---

@@ -11,6 +11,11 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 惊喜公式
+  - 惊喜公式：超越预期的用户体验设计
+  - 超越预期的用户体验设计
+  - 预期的用户体验设计
 source_refs:
 - src_unknown
 related:

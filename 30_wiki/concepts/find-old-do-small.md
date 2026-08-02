@@ -9,6 +9,12 @@ domain:
 - src_unknown
 - src_unknown
 status: reviewed
+aliases:
+  - AI落地场景评估框架
+  - 找老的干小的
+  - 找老的干小的：AI落地场景评估框架
+  - 的干小的
+  - 落地场景评估框架
 source_refs:
 - 10_raw/sources/src_20260606_ef4877d0-所以90的核心问题.md
 component_of:
@@ -45,7 +51,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 的核心问题
 ---
 

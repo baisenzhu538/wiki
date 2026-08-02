@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 从文件中提取隐藏信息
+  - 件中提取隐藏信息
+  - 元数据提取
+  - 元数据提取：从文件中提取隐藏信息
+  - 据提取
 source_refs:
 - src_unknown
 - src_unknown

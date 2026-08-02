@@ -14,6 +14,12 @@ created_at: '2026-07-21'
 updated_at: '2026-07-21'
 quality_labels:
 - actionable
+aliases:
+  - 多模态渲染与视觉资产生产引擎
+  - 态渲染与视觉资产生产引擎
+  - 染与视觉资产生产引擎
+  - 洪七公
+  - 洪七公MultimodalAgentKDO多模态渲染与视觉资产生产引擎
 source_refs:
 - .agent/hongqigong-context.md
 - 40_outputs/capabilities/role-profiles/hongqigong-profile.md
@@ -36,7 +42,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - article
 - beikai
 - capabilities

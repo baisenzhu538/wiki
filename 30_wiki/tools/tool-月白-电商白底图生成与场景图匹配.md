@@ -33,6 +33,11 @@ related:
 - '[[tool-月白-普通人AI快速上手法]]'
 - '[[tool-月白-灵感画布建立法]]'
 tags:
+aliases:
+  - 技能：电商白底图生成与场景图匹配
+  - 技能
+  - 电商白底图生成与场景图匹配
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

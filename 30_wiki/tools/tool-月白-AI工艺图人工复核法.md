@@ -40,6 +40,11 @@ related:
 - '[[tool-月白-电商详情页起承转合架构法]]'
 - '[[tool-月白-线下实体门店设计真实体感验证]]'
 tags:
+aliases:
+  - 技能：AI工艺图人工复核法
+  - 技能
+  - AI工艺图人工复核法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

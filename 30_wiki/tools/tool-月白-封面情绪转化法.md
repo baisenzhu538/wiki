@@ -38,6 +38,11 @@ related:
 - '[[tool-月白-里程碑思维拆解设计流程]]'
 - '[[tool-立即实践转化法]]'
 tags:
+aliases:
+  - 技能：封面情绪转化法
+  - 技能
+  - 封面情绪转化法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -8,6 +8,10 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——产品内核画布
+aliases:
+  - 产品内核画布
+  - 产品内核画布：从问题到解决方案的结构化工具
+  - 从问题到解决方案的结构化工具
 source_refs:
 - 10_raw/sources/src_20260510_8f50e43f-堂五步法实操产品内核画布-堂.md
 - 10_raw/sources/src_20260522_dc5c80df-ocr-一堂五步法-产品内核画布.md
@@ -40,7 +44,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 一堂五步法
 - 产品内核实操课
 - 产品内核画布

@@ -20,6 +20,12 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - 品十年爬山地图
+  - 成长路径升级版
+  - 泛产品十年爬山地图
+  - 泛产品十年爬山地图：L1L6成长路径升级版
+  - 路径升级版
 source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt
@@ -38,9 +44,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 泛产品设计
 - 泛产品设计实操
+discoverable_by:
+- 泛产品攀爬地图
+- 产品能力段位
+- 产品修炼路径
+- 泛产品进阶
+- 产品能力图谱
 ---
 
 

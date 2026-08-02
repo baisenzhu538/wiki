@@ -13,6 +13,13 @@ language: zh-CN
 domain: strategy
 source_person: 冉鹏
 source_context: 引擎点火20260110 战略破局课程 逐字稿 §7 / 知识点 / PPT 第 22 页
+aliases:
+  - 冉鹏
+  - 国产手机L
+  - 案例
+  - 案例：国产手机L能力缺失。无软件生态致收购失败
+  - 能力缺失
+  - 能力缺失。无软件生态致收购失败
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
@@ -28,7 +35,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 冉鹏战略课逐字稿
 ---

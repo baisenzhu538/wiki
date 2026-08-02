@@ -16,6 +16,13 @@ quality_labels:
 - cited
 - validated
 updated_at: '2026-06-29'
+aliases:
+  - Truman
+  - 一堂如何用
+  - 如何用
+  - 案例
+  - 案例：一堂如何用ABCD模型实现口播短视频工业化
+  - 模型实现口播短视频工业化
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-笔记.txt
@@ -38,7 +45,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 工业化生产
 ---

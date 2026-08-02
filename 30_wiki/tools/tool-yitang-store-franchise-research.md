@@ -24,6 +24,10 @@ query_triggers:
 - 中层手段 参加加盟商大会 蹲店数人头 体验产品服务
 - 深层手段 关店调研 访谈中介房东 选址软件交叉验证
 - 门店加盟调研失败模式 只看样板店 蹲店时间太短 只访谈成功者
+aliases:
+  - 浅中深三层10大评估法
+  - 门店加盟调研手段
+  - 门店加盟调研手段：浅中深三层10大评估法
 source_refs:
 - 00_inbox/调研专题/调研手段卡1（门店）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡1（门店）_vlm_desc.md
@@ -42,7 +46,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研手段卡
 ---

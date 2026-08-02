@@ -22,6 +22,10 @@ related:
 - '[[tool-水水-利用基因漂变视角]]'
 - '[[tool-水水-构建自利叙事]]'
 tags:
+aliases:
+  - 技能：练习坦然说不知道
+  - 技能
+  - 练习坦然说不知道
 - audience:executor
 - scene:execution
 - skill-level:intermediate

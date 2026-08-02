@@ -11,6 +11,11 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
+aliases:
+  - Problem识别与真实问题定位
+  - 技能
+  - 技能：XYProblem识别与真实问题定位
+  - 识别与真实问题定位
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'

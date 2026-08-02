@@ -1,4 +1,4 @@
-﻿---
+---
 domain:
 - product
 - yitang
@@ -10,6 +10,12 @@ status: reviewed
 confidence: 0.90
 trust_level: high
 source_context: 一堂产品内核实操课——九大原则之成本敏感原则
+aliases:
+  - 成本敏感默认不
+  - 成本敏感默认不：高成本低信息的价值项死守不做
+  - 敏感默认不
+  - 本低信息的价值项死守不做
+  - 高成本低信息的价值项死守不做
 source_refs:
 - 00_inbox/一堂-产品内核实操课-Truman-口述.txt
 - 00_inbox/一堂-产品内核实操课-truman-笔记.txt

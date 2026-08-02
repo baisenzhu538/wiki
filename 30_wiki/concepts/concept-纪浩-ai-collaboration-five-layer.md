@@ -8,6 +8,12 @@ domain:
 - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
+aliases:
+  - 协作五层工作空间法
+  - 概念
+  - 概念：纪浩AI协作五层工作空间法
+  - 纪浩
+  - 纪浩AI协作五层工作空间法
 source_refs:
 - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
 - 00_inbox/纪浩-AI协作方法论-口述.md
@@ -54,7 +60,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 协作方法论
 ---
 

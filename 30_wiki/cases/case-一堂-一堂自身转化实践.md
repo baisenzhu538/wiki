@@ -14,6 +14,10 @@ domain:
 - yitang
 - conversion-rate
 source_context: 扫描五篇口述稿中「一堂自己/我们自己/我们内部」相关内容，汇总一堂在作业率、推荐率、入职率、加微信率、文案、触点等方面的自身转化实践
+aliases:
+  - 一堂转化率黑客自身转化实践案例集内部阻力消除/触点浪费反思/文案迭代
+  - 文案迭代
+  - 触点浪费反思
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L36-L60
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L424-L448
@@ -73,7 +77,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - conversion
 - handle
 ---

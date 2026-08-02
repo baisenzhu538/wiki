@@ -8,6 +8,13 @@ domain:
 - ai-saas
 - yitang
 status: reviewed
+aliases:
+  - AI俱乐部人和AI协作参考案例对比一堂vsSQLHelper
+  - 人和
+  - 俱乐部
+  - 协作
+  - 参考案例对比一堂
+  - 案例对比一堂
 source_refs:
 - pending_archive:src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
 - src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
@@ -27,7 +34,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 俱乐部人和
 - 参考案例对比一堂
 ---

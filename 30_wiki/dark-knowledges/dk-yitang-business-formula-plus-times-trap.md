@@ -9,6 +9,13 @@ domain:
 - master
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系与运算符号章节
+aliases:
+  - 业务公式拆解
+  - 业务公式拆解：先切分再拆转化，+与×写错会误导决策
+  - 先切分再拆转化
+  - 公式拆解
+  - 写错会误导决策
+  - 孔阳
 source_refs:
 - pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes

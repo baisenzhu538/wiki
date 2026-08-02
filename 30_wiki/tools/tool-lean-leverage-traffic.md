@@ -12,6 +12,12 @@ domain:
 - strategy
 - yitang
 - product
+aliases:
+  - 借流量工具
+  - 借流量工具：用现有流量测试
+  - 有流量测试
+  - 用现有流量测试
+  - 量工具
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212323_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212323_vlm_desc.md
@@ -27,7 +33,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 精益创业
 ---
 

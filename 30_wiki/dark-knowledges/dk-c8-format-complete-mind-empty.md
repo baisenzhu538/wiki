@@ -8,6 +8,10 @@ domain:
 - master
 source_person: 欧阳锋
 source_context: Sprint 6 审查发现，2026-05-13
+aliases:
+  - C8：批处理格式升级产生格式完整但思维空洞的卡片
+  - 批处理格式升级产生格式完整但思维空洞的卡片
+  - 欧阳锋
 source_refs:
 - src_unknown
 created_at: 2026-05-31

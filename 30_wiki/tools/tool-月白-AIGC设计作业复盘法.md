@@ -40,6 +40,11 @@ related:
 - '[[tool-月白-线下实体门店设计真实体感验证]]'
 - '[[tool-李诞-内容创作中的观察训练法]]'
 tags:
+aliases:
+  - 技能：AIGC设计作业复盘法
+  - 技能
+  - AIGC设计作业复盘法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

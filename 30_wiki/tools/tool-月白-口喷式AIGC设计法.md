@@ -33,6 +33,11 @@ related:
 - '[[tool-月白-AI逆向反推描述法]]'
 - '[[tool-月白-一抽流改图法（自然语言精准许愿法）]]'
 tags:
+aliases:
+  - 技能：口喷式AIGC设计法
+  - 技能
+  - 口喷式AIGC设计法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

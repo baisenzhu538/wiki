@@ -34,6 +34,19 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
+aliases:
+  - 案例：孩子控笔画画歌最小单元的建模实践
+  - 案例
+  - 孩子控笔画画歌
+  - 最小单元的建模实践
+  - Truman
+  - 控笔画画歌
+aliases:
+  - 案例：孩子控笔画画歌最小单元的建模实践
+  - 案例
+  - 孩子控笔画画歌
+  - 最小单元的建模实践
+  - Truman
 - framework_lens: 最小建模 / 口诀压缩
   follow_up_question: 能否把最关键的动作压缩成四句以内、对方能背下来的口诀？
 - framework_lens: 观察先于设计——从好坏差异中提炼关键动作

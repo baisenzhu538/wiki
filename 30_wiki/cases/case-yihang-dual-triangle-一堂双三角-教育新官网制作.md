@@ -1,5 +1,6 @@
 ---
 id: case-yihang-dual-triangle-一堂双三角-教育新官网制�?title: 双三角案例：一堂教育新官网——审美驱�?AI 协作
+title: "双三角案例：一堂教育新官网——审美驱�?AI 协作"
 type: case
 status: enriched
 author: 洪七公（VLM提取�? 老顽童（enrich�?reviewed_by: ŷ����
@@ -15,10 +16,22 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三�?_processed/一堂双三角-教育新官网制作_vlm.md
 related:
+aliases:
+  - 双三角案例：一堂教育新官网审美驱�?AI协作
+  - 双三角案例
+  - 一堂教育新官网
+  - 审美驱�?AI
+  - 协作
+  - 教育新官网
+aliases:
+  - 双三角案例：一堂教育新官网审美驱�?AI协作
+  - 双三角案例
+  - 一堂教育新官网
+  - 审美驱�?AI
+  - 协作
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[case-yihang-truman-aesthetic-library-practices]]"
 ---
-
 # 双三角案例：一堂教育新官网——审美驱�?AI 协作
 
 > **一句话定义**：一堂用双三角框架制作教育新官网——人类侧用世�?Top 教育官网审美 + 品牌营销审美建立判断标准，AI 侧用基础提示�?+ VibeCoding 执行落地。展示了审美作为人类三角底座如何驱动 AI 协作质量�?

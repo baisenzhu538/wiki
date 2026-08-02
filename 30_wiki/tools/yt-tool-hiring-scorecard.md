@@ -52,6 +52,8 @@ updated_at: '2026-06-28'
 estimated_tokens: 3400
 reviewed_by: 周伯通
 diagnostic_signals:
+aliases:
+  - 结构化面试打分卡
 - framework_lens: 打分卡填了但招错人——总分陷阱。总分掩盖了'某个致命维度低分但其他维度高分'的情况。一个Must-have维度2分+其余5分的人，总分比4个维度各4分的人还高——但前者会在Must-have维度上导致灾难
   follow_up_question: 这个人在Must-have维度上的最低分是多少？如果有一个维度是2分，即使其他全是5分，也应该不录用
 - framework_lens: 打分卡填了但招错人——流程完善≠准确预测。Tetlock证明了'专家预测'的低准确率。如果你从未系统性回溯过'面试评分'和'入职后实际表现'的相关性，你的打分卡只是一个漂亮的置信度幻觉

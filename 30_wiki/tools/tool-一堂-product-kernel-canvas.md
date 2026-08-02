@@ -7,6 +7,9 @@ domain:
 - src_unknown
 source_person: 一堂·Truman
 source_context: 一堂-产品内核迭代课/验证课/实操课笔记
+aliases:
+  - 一堂·Truman
+  - 一堂产品内核画布应用技能
 source_refs:
 - 10_raw/sources/src_20260619_e2f3dfec_00_inbox_一堂_产品内核迭代课_Truman_笔记.txt
 - 10_raw/sources/src_20260619_6e7c14ee_00_inbox_一堂_产品内核验证课_truman_笔记.txt
@@ -49,7 +52,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 产品内核实操课
 - 产品内核迭代课
 ---

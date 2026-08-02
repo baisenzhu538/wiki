@@ -16,6 +16,13 @@ domain:
 - product
 source_person: 一堂课程讲师（教学推演案例）
 source_context: 一堂精益创业·低成本验证实操课程
+aliases:
+  - 一堂课程讲师（教学推演案例）
+  - 教学推演案例
+  - 演进
+  - 课程讲师
+  - 鞋类产品
+  - 鞋类产品MVP演进
 source_refs:
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例01_ocr_text.md
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例01_vlm_desc.md
@@ -30,7 +37,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 低成本验证
 - 种对比
 ---

@@ -14,6 +14,10 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 从二级市场看一级市场
+  - 股票/上市公司数据
+  - 股票/上市公司数据：从二级市场看一级市场
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -28,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

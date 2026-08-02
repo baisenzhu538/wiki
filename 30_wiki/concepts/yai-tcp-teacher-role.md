@@ -8,6 +8,13 @@ domain:
 - personal-growth
 - learning-methodology
 status: reviewed
+aliases:
+  - T角色咨询法
+  - YAIT角色咨询法：教师式理解对话节奏
+  - 式理解对话节奏
+  - 教师式理解对话节奏
+  - 色咨询法
+  - 角色咨询法
 source_refs:
 - 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
 related:
@@ -21,7 +28,6 @@ related:
 - '[[timely-feedback-loop]]'
 - '[[deliberate-repetition]]'
 - '[[ai-tool-learning-workbook]]'
-aliases:
 - YAI TCPR
 - YAI 教师角色
 - T角色咨询法

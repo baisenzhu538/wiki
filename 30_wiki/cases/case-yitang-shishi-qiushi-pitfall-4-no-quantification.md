@@ -13,6 +13,13 @@ updated_at: 2026-07-05
 domain:
 - yitang
 - decision-science
+aliases:
+  - 不会定量
+  - 在线教育融资扩张失败
+  - 实事求是十坑
+  - 实事求是十坑不会定量：在线教育融资扩张失败
+  - 教育融资扩张失败
+  - 求是十坑
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 00_inbox/实事求是/_processed/实事求是-大坑之四-不会定量_vlm.md
@@ -23,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 不会定量
 - 周子敬
 ---

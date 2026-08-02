@@ -12,6 +12,8 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 需求工具箱指南
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-需求工具箱指南_vlm_desc.md
 related:
@@ -32,7 +34,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 泛产品设计
 ---
 

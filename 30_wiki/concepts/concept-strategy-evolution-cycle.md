@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 业务进化周期
+  - 新兴业务进化周期
+  - 新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期
+  - 绝望之谷
+  - 适者生存
+  - 适者生存→绝望之谷→物种爆发→平台期
 source_refs:
 - pending_archive:src_unknown
 reviewed_by: pending

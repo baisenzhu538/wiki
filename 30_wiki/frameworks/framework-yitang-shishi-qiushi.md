@@ -26,6 +26,15 @@ tags:
   - content-format:framework
   - source-person:Truman
 related:
+aliases:
+  - 实事求是：把我希望是真的和事实是什么分开
+  - 实事求是
+  - 把我希望是真的和事实是什么分开
+  - 希望是真的和事实是什么分开
+aliases:
+  - 实事求是：把我希望是真的和事实是什么分开
+  - 实事求是
+  - 把我希望是真的和事实是什么分开
 - yt-decision-y-model
 - tool-yitang-Y-model-application
 - dk-yitang-Y-model-pitfalls
@@ -46,6 +55,12 @@ created_at: 2026-07-03
 updated_at: '2026-07-04'
 aliases:
 - 实事求是
+discoverable_by:
+- 实事求是
+- 事实与假设分离
+- 客观决策
+- 认识论基础
+- 假设验证方法
 ---
 
 # 实事求是：把「我希望是真的」和「事实是什么」分开

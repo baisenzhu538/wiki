@@ -30,12 +30,24 @@ diagnostic_signals:
 - lens: 工具链成熟度
   follow_up: 评估该原型是否已产品化、是否纳入每周工作流并产生复利
 related:
+discoverable_by:
+  - "王欢说想做工具链"
 - '[[tool-mece体系框架法]]'
 - '[[tool-使用一页纸速查卡快速调用框架]]'
 - '[[tool-月白-PPT内容框架AIGC生成法]]'
 - '[[tool-体系框架构建]]'
 - '[[tool-月白-AI设计-质价比-决策框架]]'
 tags:
+aliases:
+  - 王欢说→想→做工具链框架
+  - 王欢
+  - 欢说想做工具链
+  - 做工具链框架
+  - 想做工具链
+aliases:
+  - 王欢说→想→做工具链框架
+  - 王欢
+  - 欢说想做工具链
 - src_unknown
 - src_unknown
 - src_unknown

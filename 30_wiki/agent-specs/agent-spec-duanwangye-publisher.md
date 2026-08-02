@@ -34,6 +34,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+discoverable_by:
+- 段王爷
+- 内容发布
+- 渠道分发
+- KDO发布
+- 飞书发布
 ---
 
 # 段王爷 Publisher Agent — KDO 内容发布与渠道分发引擎

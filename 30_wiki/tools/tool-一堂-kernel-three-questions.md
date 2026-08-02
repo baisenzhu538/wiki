@@ -21,6 +21,10 @@ related:
 source_refs:
 - pending_archive: src_unknown
 tags:
+aliases:
+  - 技能：内核要素三问验证法
+  - 技能
+  - 内核要素三问验证法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

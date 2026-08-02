@@ -14,6 +14,11 @@ created_at: '2026-07-19'
 updated_at: '2026-07-19'
 quality_labels:
 - insight
+aliases:
+  - 为什么老板对降价不敏感但对现金流极度敏感
+  - 利润敏感度的非对称性
+  - 利润敏感度的非对称性：为什么老板对降价不敏感但对现金流极度敏感
+  - 敏感度的非对称性
 source_refs:
 - 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1342-L1376
 related:
@@ -24,7 +29,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 利润为王
 - 利润认知与企业生存
 ---

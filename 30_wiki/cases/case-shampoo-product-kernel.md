@@ -1,4 +1,4 @@
-﻿---
+---
 id: case-shampoo-product-kernel
 title: 案例：洗发水产品内核——从"包装好看"到"竞品拆解→专家访谈→用户访谈→排列组合测试"的完整验证路径
 type: case
@@ -8,6 +8,13 @@ domain:
 - product-kernel
 source_person: 张磊（一堂学员，阿蕊老师）
 source_context: 一堂产品内核验证课 - 洗发水产品内核验证完整案例 + 一堂产品内核系列课
+aliases:
+  - 一堂学员
+  - 张磊（一堂学员，阿蕊老师）
+  - 案例
+  - 水产品内核
+  - 洗发水产品内核
+  - 阿蕊老师
 source_refs:
 - 00_inbox/一堂-产品内核验证课-Truman-口述.txt L1026-L1296
 - 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L1304-L1346

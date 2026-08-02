@@ -9,6 +9,13 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain: strategy
+aliases:
+  - 价值链突变
+  - 价值链突变→市场规模预测→从生产转服务
+  - 壳牌石油
+  - 壳牌石油：价值链突变→市场规模预测→从生产转服务
+  - 市场规模预测
+  - 链突变
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - pending_archive: 壳牌《2024 年能源转型战略》公开报告待本地归档
@@ -23,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 冉鹏战略课逐字稿
 - 战略专题
 ---

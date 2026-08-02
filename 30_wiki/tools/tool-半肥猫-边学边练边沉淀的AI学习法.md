@@ -8,6 +8,12 @@ domain:
 - src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
+aliases:
+  - 半肥猫
+  - 学习法
+  - 技能
+  - 技能：边学边练边沉淀的AI学习法
+  - 边学边练边沉淀的
 source_refs:
 - 00_inbox/半肥猫-AI学习落地-口述.md
 tools_required:
@@ -52,7 +58,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 半肥猫
 - 学习落地
 ---

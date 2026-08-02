@@ -10,6 +10,9 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain: strategy
+aliases:
+  - 战略阶段与杠杆错配
+  - 阶段与杠杆错配
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:

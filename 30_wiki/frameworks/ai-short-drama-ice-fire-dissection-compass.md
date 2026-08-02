@@ -6,6 +6,15 @@ title: 冰火拆本罗盘：短剧剧本逆向拆解五维模型
 type: framework
 status: reviewed
 source_context: 一堂 2026-06-13 AI 短剧创作培训，拆本罗盘方法论
+aliases:
+  - 冰火拆本罗盘
+  - 冰火拆本罗盘：短剧剧本逆向拆解五维模型
+  - 剧剧本拆解
+  - 拆本罗盘
+  - 本逆向拆解方法
+  - 火拆本怎么用
+  - 火拆本罗盘
+  - 短剧剧本逆向拆解五维模型
 source_refs:
 - 10_raw/sources/src_20260613_c17fcdb2-ice-fire-dissection-compass.md
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md
@@ -27,9 +36,14 @@ related:
 - '[[ai-short-drama-framework-three-axes]]'
 - '[[ai-short-drama-conflict-three-axes]]'
 tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
+  - audience:ceo
+  - scene:diagnosis
+discoverable_by:
+  - "冰火拆本罗盘"
+  - "短剧剧本拆解"
+  - "短剧五维模型"
+  - "剧本逆向拆解方法"
+  - "冰火拆本怎么用"
 diagnostic_signals:
 - framework_lens: 结构化拆本五维模型
   follow_up_question: 你拆本时是凭感觉，还是按文本语言、核心角色、主题事件、高潮反转、钩子密度五个维度逐一分析？

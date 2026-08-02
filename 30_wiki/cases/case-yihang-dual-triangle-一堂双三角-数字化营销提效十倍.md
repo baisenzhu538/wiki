@@ -1,5 +1,6 @@
 ---
 id: case-yihang-dual-triangle-一堂双三角-数字化营销提效十�?title: 双三角案例：牟肥猫数字化营销 AI 提效十倍—�?00+Agent + 20�?卡片
+title: "双三角案例：牟肥猫数字化营销 AI 提效十倍—�?00+Agent + 20�?卡片"
 type: case
 status: enriched
 author: 洪七公（VLM提取�? 老顽童（enrich�?reviewed_by: ŷ����
@@ -15,10 +16,22 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三�?_processed/一堂双三角-数字化营销提效十倍_vlm.md
 related:
+aliases:
+  - 双三角案例：牟肥猫数字化营销AI提效十倍�?00+Agent+20�?卡片
+  - 双三角案例
+  - 牟肥猫数字化营销
+  - 提效十倍
+  - 20�?卡片
+  - 角案例
+aliases:
+  - 双三角案例：牟肥猫数字化营销AI提效十倍�?00+Agent+20�?卡片
+  - 双三角案例
+  - 牟肥猫数字化营销
+  - 提效十倍
+  - 20�?卡片
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[case-yihang-dual-triangle-ahao-product-selection]]"
 ---
-
 # 双三角案例：牟肥猫数字化营销 AI 提效十倍—�?00+Agent + 20�?卡片
 
 > **一句话定义**：牟肥猫用双三角框架搭建数字化营销 AI 系统——审美来自大健康领域专业�?+ 平台数据分析，数据侧积累 20 �? Obsidian 卡片�?2000+ 数字人形象，基本功侧部署 300+ Cherry Studio Agent。展示了双三角在大规模内容营销中的系统化落地�?

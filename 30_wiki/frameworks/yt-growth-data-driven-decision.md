@@ -8,6 +8,9 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——数据驱动决策
+aliases:
+  - 数据驱动增长决策
+  - 驱动增长决策
 source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -35,9 +38,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核验证课
+discoverable_by:
+- 数据驱动决策
+- 增长数据分析
+- 决策指标
+- 增长实验
+- 数据驱动增长
 ---
 
 # 数据驱动增长决策

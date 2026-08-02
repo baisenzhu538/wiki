@@ -13,6 +13,13 @@ updated_at: 2026-07-05
 domain:
 - yitang
 - decision-science
+aliases:
+  - 实事求是十坑
+  - 实事求是十坑忽略事实：小黄狗回收柜烧光融资
+  - 小黄狗回收柜烧光融资
+  - 忽略事实
+  - 求是十坑
+  - 求是十坑忽略事实
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 00_inbox/实事求是/_processed/实事求是-大坑之二-忽略事实_vlm.md
@@ -22,7 +29,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 周子敬
 - 大坑之二
 ---

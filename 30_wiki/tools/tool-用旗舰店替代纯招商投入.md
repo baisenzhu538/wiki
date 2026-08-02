@@ -9,6 +9,11 @@ domain:
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
+aliases:
+  - 技能
+  - 技能：用旗舰店替代纯招商投入
+  - 案例讲述者
+  - 用旗舰店替代纯招商投入
 source_refs:
 - 10_raw/sources/src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03.md
 definition_of_done:
@@ -36,7 +41,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 决策评估画布
 - 科学决策
 ---

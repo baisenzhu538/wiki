@@ -25,6 +25,9 @@ diagnostic_signals:
 - signal: 老师和学生评分不一致
   lens: 校准评分标准
   follow_up: 校准评分标准
+aliases:
+  - TRR技术成熟度量表
+  - 技术成熟度量表
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt
 - 00_inbox/解放思想探索营/案例分享-笔记.txt
@@ -34,7 +37,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

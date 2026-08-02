@@ -2,6 +2,12 @@
 id: tool-essence-nfactor-modeling
 title: 本质/N要素建模法：提炼不可再约的核心变量
 type: tool
+aliases:
+  - 不可再约的核心变量
+  - 提炼不可再约的核心变量
+  - 本质/N要素建模法
+  - 本质/N要素建模法：提炼不可再约的核心变量
+  - 要素建模法
 source_refs:
 - 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -48,7 +54,6 @@ diagnostic_signals:
   follow_up_question: 从这句话到落地动作，中间需要跳跃几步？关键要素是否完整？
 - framework_lens: 必要性检验
   follow_up_question: 真的只有这么多个要素吗？去掉任意一个，模型还成立吗？
-aliases:
 - 常见模型武器库
 - 建模能力培训
 - 抽象建模

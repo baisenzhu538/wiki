@@ -8,6 +8,13 @@ domain:
 - src_unknown
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别分享，2026-06
+aliases:
+  - 平行运行验证法
+  - 技能
+  - 技能：平行运行验证法
+  - 运行验证法
+  - 马易
+  - 验证法
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
@@ -50,7 +57,6 @@ diagnostic_signals:
   follow_up: 后续补充至少1个真实业务案例或外部标杆
 - lens: 失败模式粗糙
   follow_up: 已表格化为症状-根因-修复三段式
-aliases:
 - 时代要不要练笔记
 - 需要练那个
 ---

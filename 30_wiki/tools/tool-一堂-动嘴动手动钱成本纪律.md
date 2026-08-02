@@ -13,6 +13,10 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂动嘴动手动钱成本纪律
+  - 一堂动嘴动手动钱成本纪律：按成本由低到高选择阻力消除手段
+  - 按成本由低到高选择阻力消除手段
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L3228-L3300
 related:
@@ -44,7 +48,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - conversion
 - handle
 ---

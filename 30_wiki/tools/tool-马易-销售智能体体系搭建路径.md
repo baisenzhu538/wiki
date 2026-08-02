@@ -21,6 +21,10 @@ related:
 - '[[tool-马易-AI答疑运营风格适配]]'
 - '[[tool-马易-RPA数据整合法]]'
 tags:
+aliases:
+  - 技能：销售智能体体系搭建路径
+  - 技能
+  - 销售智能体体系搭建路径
 - audience:executor
 - scene:execution
 - skill-level:intermediate

@@ -34,6 +34,11 @@ related:
 - '[[tool-月白-设计项目里程碑拆解法]]'
 - '[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
 tags:
+aliases:
+  - 技能：产品替换式场景合成法
+  - 技能
+  - 产品替换式场景合成法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

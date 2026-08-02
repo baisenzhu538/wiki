@@ -8,6 +8,11 @@ domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-014
+aliases:
+  - FKDO014：准确率声明的测量口径不一致
+  - system
+  - 准确率声明的测量口径不一致
+  - 率声明的测量口径不一致
 source_refs:
 - src_unknown
 created_at: 2026-05-31

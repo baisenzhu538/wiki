@@ -23,6 +23,10 @@ related:
 - '[[tool-马易-最小场景优先落地法]]'
 - '[[tool-马易-AI落地场景识别与拆分]]'
 tags:
+aliases:
+  - 技能：判断标准快速产出法
+  - 技能
+  - 判断标准快速产出法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

@@ -14,6 +14,12 @@ created_at: '2026-07-19'
 updated_at: '2026-07-19'
 quality_labels:
 - cited
+aliases:
+  - 流量驱动的利润陷阱
+  - 珠宝直播
+  - 白牌珠宝直播
+  - 白牌珠宝直播：流量驱动的利润陷阱
+  - 驱动的利润陷阱
 source_refs:
 - 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1274-L1316
 related:
@@ -25,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 利润为王
 - 利润认知与企业生存
 ---

@@ -9,6 +9,13 @@ domain:
 source_person: Truman（一堂创始人，课程口述，内部开源案例）
 source_context: 「关键假设-业务公式」管理篇与参数探索篇口述：一堂年度大课「马拉松」五年十期的高阶管理全案——双目标制定、10 维数据切片、顶层策略会、PEAHD
   角色配置、攻坚会与「以业务公式为中心」的人/事/数统一管理
+aliases:
+  - Truman（一堂创始人，课程口述，内部开源案例）
+  - 一堂马拉松十期
+  - 双目标+10维切片+攻坚会
+  - 攻坚会
+  - 用假设驱动把年度续费大课做成一条稳定向上的曲线
+  - 维切片
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1918-L2038
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2060-L2148
@@ -56,7 +63,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - handle
 ---
 # 一堂马拉松十期：双目标+10维切片+攻坚会，用假设驱动把年度续费大课做成一条稳定向上的曲线

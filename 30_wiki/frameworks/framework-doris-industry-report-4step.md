@@ -33,6 +33,11 @@ source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+discoverable_by:
+  - "行业报告调研"
+  - "四步法行业认知"
+  - "7天建立行业认知"
+  - "Doris行业调研法"
 - '[[yitang-research-domain-digest]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
@@ -40,6 +45,20 @@ related:
 - '[[pending_unknown]]'
 - '[[framework-yitang-expert-interview-10steps]]'
 tags:
+aliases:
+  - 行业报告调研四步法：7天快速建立行业认知
+  - 行业报告调研四步法
+  - 7天快速建立行业认知
+  - 报告调研四步法
+  - 行业认知
+  - 业报告调研
+aliases:
+  - 行业报告调研四步法：7天快速建立行业认知
+  - 行业报告调研四步法
+  - 7天快速建立行业认知
+  - 业报告调研
+  - 行业调研法
+  - 步法行业认知
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

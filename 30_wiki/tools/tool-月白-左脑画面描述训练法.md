@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-眼高手低训练法]]'
 - '[[tool-月白-线下门店设计复杂度评估]]'
 tags:
+aliases:
+  - 技能：左脑画面描述训练法
+  - 技能
+  - 左脑画面描述训练法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

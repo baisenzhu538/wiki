@@ -23,6 +23,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 双三角练习
+- 刻意练习
+- 双三角训练
+- 能力提升
+- 技能修炼
 ---
 
 # 双三角刻意练习法：长期追求 + 固定套路 × 非舒适区 × 及时反馈 × 大量重复

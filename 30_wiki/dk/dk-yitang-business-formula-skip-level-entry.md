@@ -13,6 +13,13 @@ updated_at: '2026-07-14'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 业务不必从
+  - 业务公式跳级起手
+  - 业务公式跳级起手：成熟业务不必从L1开始
+  - 公式跳级起手
+  - 开始
+  - 成熟业务不必从
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1538-L1551
 related:

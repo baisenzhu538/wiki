@@ -8,6 +8,13 @@ domain:
 - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论 分享（第三次分享，2026-06）
+aliases:
+  - 从判断到规模复用的五层体系
+  - 协作方法论
+  - 断到规模复用的五层体系
+  - 方法论
+  - 纪浩
+  - 纪浩AI协作方法论：从判断到规模复用的五层体系
 source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 - 10_raw/sources/src_20260617_50e2866a-ai俱乐部-人和ai协作-纪浩-五层结构-结构化.md
@@ -47,7 +54,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:beginner
-aliases:
 - 五层结构
 - 俱乐部
 - 协作方法论

@@ -15,6 +15,13 @@ updated_at: '2026-07-19'
 quality_labels:
 - insight
 - actionable
+aliases:
+  - 完美主义
+  - 形式主义
+  - 本本主义
+  - 目标管理四大病
+  - 目标管理四大病：经验主义、本本主义、形式主义、完美主义
+  - 经验主义
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §2.1
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L1-L28
@@ -28,7 +35,6 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
-aliases:
 - handle
 ---
 

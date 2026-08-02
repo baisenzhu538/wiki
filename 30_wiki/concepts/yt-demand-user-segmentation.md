@@ -7,6 +7,13 @@ status: reviewed
 confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析口述——"人群定的太泛了"
+aliases:
+  - 从所有人到第一批
+  - 从所有人到第一批100个
+  - 分层与需求差异
+  - 有人到第一批
+  - 用户分层与需求差异
+  - 用户分层与需求差异：从所有人到第一批100个
 source_refs:
 - pending_archive:src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 created_at: '2026-06-19'
@@ -35,7 +42,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 ---
 

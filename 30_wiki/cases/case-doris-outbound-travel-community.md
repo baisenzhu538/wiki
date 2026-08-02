@@ -13,6 +13,11 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 出境游产业链拆解
+  - 案例
+  - 案例：出境游产业链拆解
+  - 游产业链拆解
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
@@ -26,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 行业报告调研
 - 调研专题
 ---

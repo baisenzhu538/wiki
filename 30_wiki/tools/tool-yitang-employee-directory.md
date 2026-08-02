@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 从通讯录取组织架构
+  - 公开名录
+  - 员工公开名录
+  - 员工公开名录：从通讯录取组织架构
+  - 讯录取组织架构
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -27,7 +33,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

@@ -8,6 +8,13 @@ domain:
 - yitang
 - business-formula
 source_context: C 域实战反哺——Live255 谢泽丰（自我选择偏差）/董原（中间变量）双案例 + 逻辑关系篇伪因果十题
+aliases:
+  - 伪因果的两个伪装
+  - 伪因果的两个伪装：自我选择偏差与中间变量，都穿正相关+符合常识的外衣
+  - 果的两个伪装
+  - 自我选择偏差与中间变量
+  - 选择偏差与中间变量
+  - 都穿正相关+符合常识的外衣
 source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2442-L2448
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1467-L1503
@@ -36,7 +43,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - handle
 ---
 # 伪因果的两个伪装：自我选择偏差与中间变量，都穿「正相关+符合常识」的外衣

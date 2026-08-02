@@ -9,6 +9,12 @@ domain:
 - ai-collaboration
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
+aliases:
+  - 先跑MVP再开PS
+  - 工作流
+  - 月白
+  - 设计师AIGC工作流
+  - 设计师AIGC工作流：先跑MVP再开PS
 source_refs: null
 created_at: 2026-06-04
 updated_at: '2026-06-19'

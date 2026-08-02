@@ -39,6 +39,11 @@ related:
 - '[[tool-月白-短视频封面一秒吸睛法]]'
 - '[[tool-月白-精准改图提示词写法]]'
 tags:
+aliases:
+  - 技能：AI生成IP表情包
+  - 技能
+  - AI生成IP表情包
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -22,6 +22,10 @@ related:
 - '[[tool-马易-公寓获客自跑通原则]]'
 - '[[tool-马易-最小场景优先落地法]]'
 tags:
+aliases:
+  - 技能：AI落地能力内化训练
+  - 技能
+  - AI落地能力内化训练
 - audience:executor
 - scene:execution
 - skill-level:intermediate

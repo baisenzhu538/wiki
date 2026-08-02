@@ -25,6 +25,16 @@ related:
 - '[[yt-entrepreneur-unit-model]]'
 - '[[yt-market-size-estimation]]'
 diagnostic_signals:
+aliases:
+  - 天花板测算教练：1015分钟对话输出天花板报告
+  - 天花板测算教练
+  - 15分钟对话输出天花板报告
+  - 分钟对话输出天花板报告
+  - 板测算教练
+aliases:
+  - 天花板测算教练：1015分钟对话输出天花板报告
+  - 天花板测算教练
+  - 15分钟对话输出天花板报告
 - signal: 创始人给的天花板数字是TAM的1%
   lens: "1%拍脑袋"——没有从底往上算
   follow-up: 从BEL重新算，不走TAM→SOM路线

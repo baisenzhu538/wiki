@@ -22,6 +22,16 @@ source_refs:
 - https://edison-a-n.github.io/2026/04/19/multi-agent-architecture-survey/
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 related:
+aliases:
+  - Agent调研Swarm模式工具
+  - 调研
+  - 模式工具
+  - LangChain Team（Will Fu-Hinthorn）+ Kimi Team + Truman（一堂）
+aliases:
+  - Agent调研Swarm模式工具
+  - 调研
+  - 模式工具
+  - LangChain Team（Will Fu-Hinthorn）+ Kimi Team + Truman（一堂）
 - '[[case-demand-travel-agent]]'
 - '[[case-truman-ai-partner]]'
 - '[[case-ban-fei-mao-from-assignment-to-tool]]'

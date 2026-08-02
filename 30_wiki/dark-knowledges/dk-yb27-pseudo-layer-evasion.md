@@ -7,6 +7,10 @@ status: reviewed
 domain: design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
+aliases:
+  - 伪图层叠加规避平台图像识别
+  - 层叠加规避平台图像识别
+  - 月白
 source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
 created_at: 2026-06-04
@@ -36,7 +40,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 设计师实操培训
 ---
 # 伪图层叠加规避平台图像识别

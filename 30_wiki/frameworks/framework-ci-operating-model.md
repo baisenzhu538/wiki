@@ -20,6 +20,20 @@ source_refs:
 - https://www.competitiveintelligencealliance.io/competitive-intelligence-framework/
 - https://blog.bestbootcamps.com/competitive-intelligence-framework/
 related:
+aliases:
+  - 竞争情报操作系统CIOperatingModel
+  - 竞争情报操作系统CI
+  - Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
+  - 情报操作系统
+  - 争情报
+aliases:
+  - 竞争情报操作系统CIOperatingModel
+  - 竞争情报操作系统CI
+  - Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
+  - 争情报
+discoverable_by:
+  - "竞争情报OS"
+  - "CI Operating Model"
 - '[[framework-yitang-research-weapon-system]]'
 - '[[framework-yitang-18-strategy-cards]]'
 - '[[case-course-milestone-model]]'

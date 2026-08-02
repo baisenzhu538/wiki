@@ -9,6 +9,13 @@ domain:
 - note-taking
 source_person: Truman
 source_context: 一堂-AI时代清单体笔记-Truman-口述-01
+aliases:
+  - Truman
+  - 体是人与
+  - 最大公约数
+  - 清单体是人与AI的'最大公约数
+  - 清单体是人与AI的'最大公约数'：结构降级即认知升级
+  - 结构降级即认知升级
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 created_at: 2026-06-07
@@ -34,7 +41,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 时代清单体笔记
 ---
 

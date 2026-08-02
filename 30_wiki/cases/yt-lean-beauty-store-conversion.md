@@ -7,6 +7,11 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 200→4000转化链路才是关键假设
+  - 美业门店
+  - 美业门店：200→4000转化链路才是关键假设
+  - 转化链路才是关键假设
 source_refs:
 - 10_raw/sources/zhanglei-lean-testing-oral-01.md
 - 10_raw/sources/zhanglei-lean-testing-notes-01.md

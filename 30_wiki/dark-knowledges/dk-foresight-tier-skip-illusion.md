@@ -7,6 +7,13 @@ status: reviewed
 domain:
 - yitang
 - business-strategy
+aliases:
+  - 为什么看到第
+  - 为什么看到第7级就忽视了第3级的人
+  - 暗知
+  - 暗知：终局光谱图的'跳级幻觉'为什么看到第7级就忽视了第3级的人，死得最快
+  - 死得最快
+  - 终局光谱图的'跳级幻觉
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
@@ -42,7 +49,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 现状评价 vs 终局预判
   follow_up_question: 这个焦虑是来自真实的市场压力，还是来自对光谱图高阶的对比心理？
-aliases:
 - 机会预判
 - 机会预判课
 - 终局光谱图

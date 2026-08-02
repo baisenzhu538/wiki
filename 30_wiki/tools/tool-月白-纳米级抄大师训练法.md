@@ -32,6 +32,11 @@ related:
 - modeling-three-stages
 - tool-ai-parallel-validation
 tags:
+aliases:
+  - 技能：纳米级抄大师训练法
+  - 技能
+  - 纳米级抄大师训练法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

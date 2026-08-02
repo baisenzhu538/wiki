@@ -8,6 +8,13 @@ domain:
 - business
 source_person: 王语嫣
 source_context: 听脑产品-商业战略主题摘要综合（3 条录音 meetingSummary）
+aliases:
+  - 主题综合索引卡
+  - 产品
+  - 产品商业战略综合：设备运营、方向取舍与产品开发：主题综合索引卡
+  - 商业战略综合
+  - 方向取舍与产品开发
+  - 设备运营
 source_refs:
 - 10_raw/sources/src_20260614_5f74ed61-多人-项目问题沟通.md
 - 10_raw/sources/src_20260614_0e07078e-多人-产品方向选择讨论.md
@@ -39,7 +46,6 @@ related:
 - '[[tool-泛产品落地-ROI分析]]'
 - business-validation-models-collaboration
 - supply-chain-beverage
-aliases:
 - 产品方向选择讨论
 - 市场分析讨论
 - 项目问题沟通

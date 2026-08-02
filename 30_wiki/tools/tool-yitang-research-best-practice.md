@@ -45,6 +45,11 @@ related:
 - '[[tool-candy-positioning-canvas]]'
 - '[[tool-yitang-research-company-disassembly]]'
 tags:
+aliases:
+  - 最佳实践调研：找到行业标杆，复制成功因素
+  - 最佳实践调研
+  - 找到行业标杆
+  - 复制成功因素
 - audience:executor
 - scene:execution
 - skill-level:intermediate

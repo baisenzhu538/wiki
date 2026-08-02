@@ -8,6 +8,13 @@ domain:
 - yitang- src_unknown
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
+aliases:
+  - 半肥猫
+  - 技能
+  - 技能：飞书多维表格+自建机器人做团队数据协同
+  - 机器人做团队数据协同
+  - 自建机器人做团队数据协同
+  - 飞书多维表格
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
@@ -38,7 +45,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 半肥猫
 - 学习落地
 ---

@@ -15,6 +15,13 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
+aliases:
+  - 倍效率
+  - 沈阳软件公司三层架构实现
+  - 沈阳软件公司三层架构实现3倍效率
+  - 王欢
+  - 王欢案例
+  - 王欢案例：沈阳软件公司三层架构实现3倍效率
 source_refs:
 - src_unknown
 - src_unknown

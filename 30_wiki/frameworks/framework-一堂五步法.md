@@ -25,6 +25,9 @@ source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt L6-L10
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L527-L528
 related:
+discoverable_by:
+  - "一堂五步法"
+  - "机会预判到规模化五步"
 - '[[agent-一堂五步法教练]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[framework-一堂-关键假设]]'
@@ -65,6 +68,19 @@ quality_labels:
 - cited
 - validated
 tags:
+aliases:
+  - 一堂五步法：从机会预判到规模化的五步闭环
+  - 一堂五步法
+  - 从机会预判到规模化的五步闭环
+  - 判到规模化五步
+  - 会预判到规模化的五步闭环
+  - 堂五步法
+aliases:
+  - 一堂五步法：从机会预判到规模化的五步闭环
+  - 一堂五步法
+  - 从机会预判到规模化的五步闭环
+  - 会预判到规模化五步
+  - 堂五步法
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

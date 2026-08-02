@@ -11,6 +11,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 品类化妆品
+  - 天花板低
+  - 方向错误。天花板低+营销浪费
+  - 案例
+  - 案例：长尾品类化妆品方向错误。天花板低+营销浪费
+  - 长尾品类化妆品
 source_refs:
 - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
   - src_unknown - src_unknown - src_unknown

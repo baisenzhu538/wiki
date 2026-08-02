@@ -23,6 +23,9 @@ reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
+aliases:
+  - 率黑客
+  - 转化率黑客
 source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260613_6b939d2b）

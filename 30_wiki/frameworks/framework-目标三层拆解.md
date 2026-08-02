@@ -15,6 +15,13 @@ updated_at: '2026-07-19'
 quality_labels:
 - insight
 - actionable
+aliases:
+  - 三层拆解
+  - 业务层
+  - 目标三层拆解
+  - 目标三层拆解：项目层→业务层→组织层
+  - 项目层
+  - 项目层→业务层→组织层
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §4
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L460-L750
@@ -29,8 +36,13 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - handle
+discoverable_by:
+- 目标拆解方法
+- 三层目标管理
+- 项目业务组织
+- 目标分层
+- OKR KPI选择
 ---
 
 # 目标三层拆解：项目层→业务层→组织层

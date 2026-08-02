@@ -17,6 +17,11 @@ reviewed_by: 欧阳锋
 review_date: 2026-06-28
 confidence: 0.75
 trust_level: medium
+aliases:
+  - ToB企业ERP需求分析案例
+  - 企业
+  - 分析案例
+  - 需求分析案例
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
@@ -32,7 +37,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 决策高度实操课口述
 - 科学决策
 ---

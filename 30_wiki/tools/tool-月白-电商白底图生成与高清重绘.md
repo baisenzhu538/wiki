@@ -38,6 +38,11 @@ related:
 - '[[tool-月白-新媒体平台流量逻辑-问平台亲儿子AI法]]'
 - '[[tool-月白-精准改图提示词写法]]'
 tags:
+aliases:
+  - 技能：电商白底图生成与高清重绘
+  - 技能
+  - 电商白底图生成与高清重绘
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

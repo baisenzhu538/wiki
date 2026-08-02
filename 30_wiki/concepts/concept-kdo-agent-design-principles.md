@@ -8,6 +8,13 @@ confidence: 0.85
 trust_level: high
 domain:
 - system
+aliases:
+  - Agent设计原则
+  - Agent设计原则：从双三角推导的5条底层原则
+  - 三角推导的
+  - 从双三角推导的
+  - 从双三角推导的5条底层原则
+  - 条底层原则
 source_refs:
 - 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
 - 30_wiki/frameworks/framework-kdo-modeling-methodology.md
@@ -36,7 +43,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - control
 ---
 

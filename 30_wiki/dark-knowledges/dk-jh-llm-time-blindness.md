@@ -5,6 +5,13 @@ type: dk
 status: draft
 domain:
 - ai-saas
+aliases:
+  - AI不知道现在是什么时候
+  - LLM时间盲症
+  - LLM时间盲症：AI不知道现在是什么时候纪浩的隐形风险识别
+  - 不知道现在是什么时候
+  - 的隐形风险识别
+  - 纪浩的隐形风险识别
 source_refs: null
 created_at: '2026-06-09'
 author: 纪浩

@@ -29,6 +29,10 @@ related:
 - tool-马易-AIGC项目ROI评估
 - tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi
 tags:
+aliases:
+  - 技能：RPA数据整合法
+  - 技能
+  - RPA数据整合法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

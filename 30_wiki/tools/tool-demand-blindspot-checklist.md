@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 2B/2C盲区和机会清单
+  - 2B/2C盲区和机会清单：场景拆解的维度小抄
+  - 场景拆解的维度小抄
+  - 拆解的维度小抄
+  - 盲区和机会清单
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-盲区和机会清单-图-01_ocr_text.md
 related:
@@ -27,7 +33,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 盲区和机会清单
 ---

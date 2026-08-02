@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 2026年新武器
+  - OSINT工具+Agent原生+替代数据+验证技术
+  - 年新武器
+  - 武器库补充
+  - 调研武器库补充
+  - 验证技术
 source_refs:
 - src_unknown
 - src_unknown
@@ -35,6 +42,12 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 调研工具库
+- OSINT工具
+- 开源情报工具
+- 调研武器库
+- 替代数据源
 ---
 # 调研武器库补充：2025-2026年新武器
 

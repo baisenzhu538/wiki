@@ -8,6 +8,10 @@ status: reviewed
 confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——段位图与进阶路径
+aliases:
+  - 从L1到L6的进阶路径
+  - 需求分析段位自评表
+  - 需求分析段位自评表：从L1到L6的进阶路径
 source_refs:
 - 10_raw/sources/src_20260610_9e786027-一堂-一堂五步法-需求-分析段位图.md
 - 10_raw/sources/src_20260611_78d65c7a-一堂-一堂五步法-需求-段位示例-01_paddle_ocr.md
@@ -36,7 +40,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 一堂五步法
 - 分析段位图
 - 段位示例

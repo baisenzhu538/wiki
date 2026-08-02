@@ -14,6 +14,10 @@ updated_at: 2026-07-09
 domain:
 - yitang
 - personal-learning
+aliases:
+  - 会学习→会提问→会想→会沉淀
+  - 四环修炼闭环自检清单
+  - 四环修炼闭环自检清单：会学习→会提问→会想→会沉淀
 source_refs:
 - 00_inbox/ideas/一堂-个人修炼-IPO模型实操课口述.md
 related:
@@ -33,7 +37,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - ideas
 - 个人修炼
 ---

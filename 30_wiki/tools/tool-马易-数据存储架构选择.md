@@ -23,6 +23,10 @@ related:
 - '[[tool-strategy-customer-selection]]'
 - '[[tool-马易-业务为先的AI中台建设]]'
 tags:
+aliases:
+  - 技能：数据存储架构选择
+  - 技能
+  - 数据存储架构选择
 - audience:executor
 - scene:execution
 - skill-level:intermediate

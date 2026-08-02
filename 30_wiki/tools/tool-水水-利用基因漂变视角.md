@@ -31,6 +31,10 @@ related:
 - '[[tool-水水-避免原生家庭万能归因]]'
 - '[[tool-水水-降低故事逻辑要求]]'
 tags:
+aliases:
+  - 技能：利用基因漂变视角
+  - 技能
+  - 利用基因漂变视角
 - audience:executor
 - scene:execution
 - skill-level:intermediate

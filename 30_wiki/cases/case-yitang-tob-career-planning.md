@@ -34,6 +34,15 @@ related:
   - "[[yt-tob-product-kernel]]"
   - "[[yt-tob-customer-sabc]]"
 diagnostic_signals:
+aliases:
+  - 案例：新高考选科与生涯规划项目失败复盘
+  - 案例
+  - 新高考选科与生涯规划项目失败复盘
+  - 考选科与生涯规划项目失败复盘
+aliases:
+  - 案例：新高考选科与生涯规划项目失败复盘
+  - 案例
+  - 新高考选科与生涯规划项目失败复盘
 - framework_lens: 业务天花板 / [[yt-tob-revenue-is-customer-cost]]
   follow_up_question: 这 100 亿中，有多少来自学校真实预算？可触达的头部学校有多少家？单校专项成本与成本占有率分别是多少？
 - framework_lens: 客户切分与商业模式 / [[yt-tob-customer-sabc]]

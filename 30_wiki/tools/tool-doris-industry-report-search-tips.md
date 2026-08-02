@@ -22,6 +22,13 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 三级搜索能力
+  - 三级搜索能力+渠道清单
+  - 搜索能力
+  - 渠道清单
+  - 行业报告搜索七技
+  - 行业报告搜索七技：三级搜索能力+渠道清单
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
@@ -37,7 +44,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 行业报告调研
 - 调研专题
 ---

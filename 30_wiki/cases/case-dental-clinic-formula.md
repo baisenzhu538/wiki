@@ -9,6 +9,13 @@ domain:
 - business-strategy
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，连锁口腔诊所案例（单次成交 & 长周期复购型）
+aliases:
+  - ToC连锁口腔诊所：成交率30%背后的危机感知公式
+  - 孔阳
+  - 成交率
+  - 的危机感知公式
+  - 背后的危机感知公式
+  - 连锁口腔诊所
 source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md

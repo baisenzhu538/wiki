@@ -47,6 +47,12 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
+discoverable_by:
+- 五步法域
+- 一堂方法论
+- 创业五步
+- 需求到壁垒
+- 五步框架
 ---
 # 域摘要：一堂五步法
 

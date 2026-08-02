@@ -43,6 +43,10 @@ related:
 - '[[tool-马易-隐性知识萃取与模型化]]'
 - '[[tool-马易-需求创造验证法]]'
 tags:
+aliases:
+  - 技能：AI能力团队复制
+  - 技能
+  - AI能力团队复制
 - audience:manager
 - scene:execution
 - skill-level:intermediate

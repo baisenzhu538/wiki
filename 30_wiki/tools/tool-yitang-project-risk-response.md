@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-project-risk-response
 title: 项目风险四级应对执行清单
 type: tool
@@ -21,6 +21,8 @@ related:
 - "[[framework-yitang-project-plan-design]]"
 - "[[tool-yitang-project-risk-discovery]]"
 diagnostic_signals:
+aliases:
+  - 项目风险四级应对执行清单
 - signal: 项目出问题后手忙脚乱，没有分级应对预案
   lens: 缺风险分级思维——所有风险用同一套方法
   follow-up: 拿到风险清单后，对每个风险标上级别（一~四级），打印贴在工位

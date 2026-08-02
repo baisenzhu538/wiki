@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-project-risk-discovery
 title: 项目常见风险发现七维度清单
 type: tool
@@ -21,6 +21,8 @@ related:
 - "[[framework-yitang-project-plan-design]]"
 - "[[tool-yitang-project-risk-response]]"
 diagnostic_signals:
+aliases:
+  - 项目常见风险发现七维度清单
 - signal: 项目启动时觉得"没什么风险"，做到一半才发现全是坑
   lens: 缺系统性的风险扫描——只凭直觉判断
   follow-up: 每次启动新项目，用本清单逐条过一遍，至少标出前3个高风险项

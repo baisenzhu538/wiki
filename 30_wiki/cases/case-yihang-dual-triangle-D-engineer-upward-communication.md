@@ -16,6 +16,13 @@ domain:
 - ai-collaboration
 - communication
 - organizational-politics
+aliases:
+  - D同学用红蓝军破解向上沟通
+  - 一行双三角案例
+  - 一行双三角案例：D同学用红蓝军破解向上沟通
+  - 双三角案例
+  - 同学用红蓝军破解向上沟通
+  - 学用红蓝军破解向上沟通
 source_refs:
 - 00_inbox/人机协作双三角/D同学的案例口述.pdf
 - 00_inbox/人机协作双三角/_processed/D同学的案例口述_text.md
@@ -27,7 +34,6 @@ related:
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
 - '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
-aliases:
 - D同学案例
 - 红蓝军沟通法
 - 人机协作双三角

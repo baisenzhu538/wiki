@@ -28,6 +28,9 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 低成本验证/MVP
+  - 本验证
 source_refs:
 - pending_archive:source material not yet ingested
 status: enriched

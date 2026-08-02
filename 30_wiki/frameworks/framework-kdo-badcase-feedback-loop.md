@@ -1,4 +1,4 @@
-﻿---
+---
 id: framework-kdo-badcase-feedback-loop
 title: KDO Bad Case 鍥炴祦鏈哄埗锛氫粠鐢ㄦ埛绾犻敊鍒扮煡璇嗚繘鍖栫殑闂幆
 type: framework
@@ -25,6 +25,21 @@ source_refs:
   - 60_feedback/tasks/task_20260714_wangyuyan-badcase-feedback-loop.md
   - .agent/laowantong-context.md
 related:
+aliases:
+  - KDOBadCase鍥炴祦鏈哄埗锛氫粠鐢ㄦ埛绾犻敊鍒扮煡璇嗚繘鍖栫殑闂幆
+  - 反馈机制
+  - 鍥炴祦鏈哄埗锛氫粠鐢
+  - 埛绾犻敊鍒扮煡璇嗚繘鍖栫殑闂
+  - 错知识进化
+  - 户纠错知识进化
+aliases:
+  - KDOBadCase鍥炴祦鏈哄埗锛氫粠鐢ㄦ埛绾犻敊鍒扮煡璇嗚繘鍖栫殑闂幆
+  - 户纠错知识进化
+  - 反馈机制
+discoverable_by:
+  - "KDO Bad Case"
+  - "Bad Case反馈机制"
+  - "用户纠错知识进化"
   - framework-kdo-self-attack
   - framework-ouyangfeng-review-methodology
   - system-kdo-quality-labels

@@ -20,6 +20,17 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 - https://blog.bestbootcamps.com/competitive-intelligence-framework/
 related:
+aliases:
+  - CIDefine阶段工具：决策驱动的问题定义
+  - 阶段工具
+  - 决策驱动的问题定义
+  - Truman（一堂）+ Competitive Intelligence Alliance
+  - 驱动的问题定义
+aliases:
+  - CIDefine阶段工具：决策驱动的问题定义
+  - 阶段工具
+  - 决策驱动的问题定义
+  - Truman（一堂）+ Competitive Intelligence Alliance
 - '[[framework-yitang-18-strategy-cards]]'
 - '[[framework-yitang-research-weapon-system]]'
 - '[[tool-ci-implement-phase]]'

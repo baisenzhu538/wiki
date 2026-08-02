@@ -11,6 +11,12 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 同角色审视产品
+  - 多视角思考
+  - 多视角思考：用不同角色审视产品
+  - 用不同角色审视产品
+  - 角思考
 source_refs:
 - src_unknown
 related:

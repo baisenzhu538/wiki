@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 不是单点提效
+  - 单点提效
+  - 局部优化
+  - 战略≠局部优化。战略是构建完整生态系统
+  - 战略≠局部优化。战略是构建完整生态系统，不是单点提效
+  - 战略是构建完整生态系统
 source_refs:
 - src_unknown
 related:

@@ -15,6 +15,13 @@ domain:
 - yitang
 source_person: 张磊（一堂精益创业教练）
 source_context: 张磊教练《精益测试关键问题》AMA 直播答疑（2026-06-14），Q6 老业务去留与 Q9 多方向选择
+aliases:
+  - 一堂精益创业教练
+  - 决策案例
+  - 创业者
+  - 张磊
+  - 张磊AMA：创业者pivot决策案例
+  - 张磊（一堂精益创业教练）
 source_refs:
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
@@ -31,7 +38,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 张磊教练
 - 精益创业
 ---

@@ -13,6 +13,12 @@ updated_at: '2026-07-14'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 五条替代路径与适用边界
+  - 假设思维不是唯一道路
+  - 假设思维不是唯一道路：五条替代路径与适用边界
+  - 思维不是唯一道路
+  - 替代路径与适用边界
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L488-L552
 related:

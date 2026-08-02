@@ -13,6 +13,11 @@ updated_at: 2026-07-11
 domain:
 - management
 - yitang
+aliases:
+  - 把关键动作挖出来
+  - 拆解四法
+  - 拆解四法：靠框架/靠专家/靠外部/靠复盘，把关键动作挖出来
+  - 靠框架/靠专家/靠外部/靠复盘
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/拆解卡-靠框架拆-01_vlm.md
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/拆解卡-靠专家拆-02_vlm.md
@@ -46,7 +51,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - fundamentals
 - manage
 ---

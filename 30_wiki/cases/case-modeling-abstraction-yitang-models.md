@@ -15,6 +15,12 @@ industry: 在线教育
 scale: 公司
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
+aliases:
+  - Truman
+  - 一堂内部模型武器库与跨领域商业模型地图
+  - 建模案例
+  - 抽象建模案例
+  - 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
 source_refs:
 - 10_raw/sources/src_20260614_87b29a61-Truman-高阶建模-抽象建模-案例-图-01.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -48,7 +54,6 @@ diagnostic_signals:
   follow_up: 建立模型武器库索引，每个模型标注适用问题、边界、使用 checklist 和案例
 - lens: 模型空转——把模型当装饰，没有结合真实问题推导到具体动作
   follow_up: 要求每次使用模型后输出"3条具体判断"和"1个下一步动作"，否则视为无效使用
-aliases:
 - 建模能力培训
 - 抽象建模
 - 高阶建模

@@ -15,6 +15,13 @@ domain:
 - conversion-rate
 source_person: 青柯老师/连锁自助棋牌室团队
 source_context: 一堂线下课“棋牌室新客办卡”触点优化真实案例
+aliases:
+  - 主路径加触点+提升密度+直接号召+拆分场景
+  - 提升密度
+  - 棋牌室新客办卡率从1%到5%
+  - 棋牌室新客办卡率从1%到5%：主路径加触点+提升密度+直接号召+拆分场景
+  - 连锁自助棋牌室团队
+  - 青柯老师/连锁自助棋牌室团队
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L462-L486
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L4012-L4080
@@ -38,7 +45,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - conversion
 - handle
 ---

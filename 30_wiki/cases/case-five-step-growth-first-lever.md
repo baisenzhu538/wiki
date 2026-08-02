@@ -4,6 +4,11 @@ title: 案例：五步法中从产品内核到增长的第一次跨越
 type: case
 domain:
 - src_unknown
+aliases:
+  - Truman
+  - 五步法中从产品内核到增长的第一次跨越
+  - 案例
+  - 案例：五步法中从产品内核到增长的第一次跨越
 source_refs:
 - 10_raw/sources/src_20260610_8865798f-一堂-一堂五步法-增长-口述.md
 - 10_raw/sources/src_20260610_92cd2b4e-一堂-一堂五步法-增长-笔记.md
@@ -58,7 +63,6 @@ related:
 - '[[yt-customer-acquisition-toolkit]]'
 - '[[case-five-step-fake-vs-real-barriers]]'
 - '[[case-truman-ai-skill-self-packaging]]'
-aliases:
 - 一堂五步法
 ---
 

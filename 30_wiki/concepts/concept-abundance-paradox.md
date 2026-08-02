@@ -13,6 +13,13 @@ updated_at: '2026-07-01T00:00:00+00:00'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
+aliases:
+  - 为什么技术越富足
+  - 么技术越富足
+  - 富足悖论
+  - 富足悖论：为什么技术越富足，新问题越多
+  - 新问题越多
+  - 题越多
 source_refs:
 - 60_feedback/audit/20260701-wobeirushen-validation-report.md
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
@@ -22,7 +29,6 @@ query_triggers:
 - 技术进步为什么会带来新问题
 - 富足时代决策者需要注意什么
 - AI 富足会带来什么副作用
-aliases:
 - abundance-paradox
 - 富足悖论
 - abundance paradox

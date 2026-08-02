@@ -13,6 +13,10 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂触点减法与排序
+  - 一堂触点减法与排序：冗长/低价值/资源有限下的好钢用在刀刃上
+  - 冗长/低价值/资源有限下的好钢用在刀刃上
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3352-L3536
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3640-L3654
@@ -41,7 +45,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - conversion
 - handle
 ---

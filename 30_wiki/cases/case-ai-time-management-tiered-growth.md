@@ -17,6 +17,12 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - AI时间管理App七级演进
+  - 七级演进
+  - 时间管理
+  - 案例
+  - 案例：AI时间管理App七级演进
 source_refs:
 - 10_raw/sources/src_20260430_59a3d224-街顺app全面调研报告.md
 status: enriched
@@ -46,7 +52,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 全面调研报告
 ---
 

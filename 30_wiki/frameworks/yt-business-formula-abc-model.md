@@ -7,6 +7,10 @@ title: 业务公式 ABC 模型（Ambition-Basis-Connection）
 type: framework
 status: enriched
 source_context: 一堂业务公式系列课（导入/实操/进阶/参数探索/逻辑关系/管理），ABC 模型框架
+aliases:
+  - 业务公式
+  - 业务公式ABC模型AmbitionBasisConnection
+  - 模型Ambition
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L164-L184
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1400-L1658
@@ -86,8 +90,13 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - handle
+discoverable_by:
+- 业务公式ABC
+- ABC模型
+- Ambition-Basis-Connection
+- 三层业务公式
+- 目标基础关联
 ---
 
 

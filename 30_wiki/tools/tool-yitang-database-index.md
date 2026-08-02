@@ -24,6 +24,9 @@ query_triggers:
 - 裁判文书网
 - IT桔子融资
 - 行业报告渠道
+aliases:
+  - 方数据库与行业报告来源索引
+  - 第三方数据库与行业报告来源索引
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
@@ -37,7 +40,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研武器库培训
 ---

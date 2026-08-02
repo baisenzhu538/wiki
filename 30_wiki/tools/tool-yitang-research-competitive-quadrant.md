@@ -45,6 +45,10 @@ related:
 - '[[tool-yitang-product-full-experience]]'
 - '[[tool-yitang-public-information-research]]'
 tags:
+aliases:
+  - 竞争象限：用二维矩阵可视化竞争格局
+  - 竞争象限
+  - 用二维矩阵可视化竞争格局
 - audience:executor
 - scene:execution
 - skill-level:intermediate

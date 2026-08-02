@@ -13,6 +13,13 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 业务公式假设管理落地策略集
+  - 业务公式假设管理落地策略集：2+3策略×入门/进阶/高阶三级=15格行动矩阵
+  - 入门/进阶/高阶三级
+  - 格行动矩阵
+  - 策略
+  - 高阶三级
 source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712005240_vlm.md
@@ -86,8 +93,13 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - handle
+discoverable_by:
+- 假设管理
+- 落地策略
+- 行动矩阵
+- 业务公式落地
+- 假设思维
 ---
 
 # 业务公式假设管理落地策略集：2+3 策略 × 入门/进阶/高阶三级 = 15 格行动矩阵

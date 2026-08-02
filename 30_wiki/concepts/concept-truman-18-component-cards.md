@@ -14,6 +14,13 @@ created_at: '2026-07-19'
 updated_at: '2026-07-19'
 quality_labels:
 - cited
+aliases:
+  - Truman原18组件源框架：五维度×每维4张牌
+  - 五维度
+  - 张牌
+  - 每维
+  - 源框架
+  - 组件源框架
 source_refs:
 - 00_inbox/Advanced modeling/ 口述 L2934-L3010
 related:
@@ -26,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - advanced
 - modeling
 ---

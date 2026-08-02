@@ -13,6 +13,13 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 业务公式三阶段工作流
+  - 业务公式三阶段工作流：A梳理→B建立→C深入反架空公式
+  - 公式三阶段工作流
+  - 建立
+  - 梳理
+  - 深入反架空公式
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L400-L432
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1152-L1332
@@ -55,8 +62,13 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - handle
+discoverable_by:
+- 三阶段工作流
+- 业务公式流程
+- 梳理建立深入
+- 反架空公式
+- 公式落地
 ---
 
 # 业务公式三阶段工作流：A 梳理 → B 建立 → C 深入（反架空公式）

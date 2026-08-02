@@ -23,6 +23,13 @@ diagnostic_signals:
 - signal: 所有元素大小一样
   lens: 没有聚簇、没有主次
   follow_up: 用聚簇四原则重组——同主题靠近、主次分大小
+aliases:
+  - 内容结构
+  - 内容结构→画布空间的四结构+四原则映射
+  - 四原则映射
+  - 画布空间的四结构
+  - 空间即逻辑
+  - 空间即逻辑：内容结构→画布空间的四结构+四原则映射
 source_refs:
 - 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L105-L145
 related:
@@ -35,7 +42,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 做成一张会移动的无限画布
 - 多模态输出
 ---

@@ -11,6 +11,12 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 两种典型思考习惯
+  - 两种典型思考习惯：效率导向vs效果导向
+  - 典型思考习惯
+  - 效果导向
+  - 效率导向
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-高度-两种典型的思考习惯_vlm_desc.md
 related:
@@ -27,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 两种典型的思考习惯
 - 科学决策
 ---

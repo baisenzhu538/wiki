@@ -14,6 +14,13 @@ created_at: '2026-07-20'
 updated_at: '2026-07-20'
 quality_labels:
 - actionable
+aliases:
+  - 故事线选择决策树
+  - 案例故事线选择决策树
+  - 案例故事线选择决策树：英雄之旅/难题攻坚/时间线
+  - 英雄之旅
+  - 英雄之旅/难题攻坚/时间线
+  - 难题攻坚
 source_refs:
 - 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt
 - 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt
@@ -25,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 案例打磨方法
 - 案例打造法-李頔
 ---

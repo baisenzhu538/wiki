@@ -47,6 +47,10 @@ related:
 - '[[tool-yitang-research-deep-attribution]]'
 - '[[tool-yitang-research-quantitative-modeling]]'
 tags:
+aliases:
+  - 按图索骥：根据定位寻找对标案例
+  - 按图索骥
+  - 根据定位寻找对标案例
 - audience:executor
 - scene:execution
 - skill-level:intermediate

@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-正向反馈强化AI生成]]'
 - '[[tool-月白-AI课程内容深度梳理法]]'
 tags:
+aliases:
+  - 技能：左手Cubox右手里程碑学习法
+  - 技能
+  - 左手Cubox右手里程碑学习法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

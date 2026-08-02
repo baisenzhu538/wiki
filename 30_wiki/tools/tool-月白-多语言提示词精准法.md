@@ -34,6 +34,11 @@ related:
 - '[[tool-月白-分层自洽海报生成法]]'
 - '[[tool-月白-精准提示词消除模型幻觉]]'
 tags:
+aliases:
+  - 技能：多语言提示词精准法
+  - 技能
+  - 多语言提示词精准法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -14,6 +14,17 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/AI基本功_vlm.md
 tags:
+aliases:
+  - AI基本功双三角案例
+  - AI基本功
+  - 双三角案例
+  - 基本功双三角案例
+  - 基本功
+  - 角案例
+aliases:
+  - AI基本功双三角案例
+  - AI基本功
+  - 双三角案例
 - '#domain/ai-collaboration'
 - '#method/dual-triangle'
 - audience:general

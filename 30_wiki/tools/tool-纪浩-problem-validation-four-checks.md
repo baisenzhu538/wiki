@@ -8,6 +8,12 @@ domain:
 - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
+aliases:
+  - 判断需求是真实Problem还是伪需求
+  - 四问验证法
+  - 技能
+  - 技能：四问验证法判断需求是真实Problem还是伪需求
+  - 纪浩
 source_refs:
 - 00_inbox/纪浩-AI协作方法论-口述.md
 created_at: '2026-06-09'
@@ -60,7 +66,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 协作方法论
 ---
 

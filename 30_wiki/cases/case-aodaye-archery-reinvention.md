@@ -27,6 +27,13 @@ similar_to:
 - 得到APP（从罗辑思维到知识服务平台的重构）
 opposite_of:
 - 传统射箭馆（重资产、低坪效）
+aliases:
+  - 17→3→17的模型重生
+  - 嗷大叶
+  - 嗷大叶射箭馆重构：17→3→17的模型重生
+  - 射箭馆重构
+  - 的模型重生
+  - 馆重构
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt L946-1278
 - 00_inbox/解放思想探索营/案例分享-笔记.txt §三
@@ -46,7 +53,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

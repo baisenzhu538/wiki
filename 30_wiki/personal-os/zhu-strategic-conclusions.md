@@ -7,6 +7,12 @@ created_at: 2026-07-02
 updated_at: 2026-07-19
 domain:
   - personal-os
+discoverable_by:
+- 战略结论
+- 老朱决策
+- 方向判断
+- 关键决策
+- 个人战略
 ---
 
 # 老朱战略结论存档

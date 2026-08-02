@@ -14,6 +14,10 @@ domain:
 - management
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+aliases:
+  - 一堂科学销售五步法
+  - 李蕊
+  - 科学销售五步法
 source_refs:
 - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
@@ -61,8 +65,13 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 整合笔记
+discoverable_by:
+- 科学销售方法
+- 销售五步法
+- 销售流程设计
+- 销售体系搭建
+- B2B销售方法
 ---
 # 一堂科学销售五步法
 

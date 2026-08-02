@@ -9,6 +9,13 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain: strategy
+aliases:
+  - 与失败四因
+  - 中国最著名的战略规划
+  - 成功与失败四因
+  - 最著名的战略规划
+  - 隆中对
+  - 隆中对：中国最著名的战略规划成功与失败四因
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - pending_archive: 《三国志·诸葛亮传》隆中对原文待本地归档
@@ -23,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 冉鹏战略课逐字稿
 - 战略专题
 ---

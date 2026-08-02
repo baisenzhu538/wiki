@@ -11,6 +11,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 定位错误
+  - 定位错误。盲目高端丢低端市场
+  - 案例
+  - 案例：清洁用品L定位错误。盲目高端丢低端市场
+  - 清洁用品L
+  - 盲目高端丢低端市场
 source_refs:
 - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
   - src_unknown - src_unknown

@@ -14,6 +14,13 @@ domain:
 source_person: 张磊（一堂同学，业务公式课案例主讲引用）
 source_context: 一堂业务公式进阶篇（假设驱动 18 招）第二个完整案例：张磊加入一堂前的二手动漫周边漫展摆摊业务，从 9 平米扩张到 100 平米亏损后，用业务公式拆解+摄像头复盘+逐轮假设实验迭代，两年四五十场做到
   200+ 平米盈利。数字均为「课程案例口径」，未独立核实。
+aliases:
+  - 9平米亏到100平米
+  - 平米盈利
+  - 张磊漫展展位
+  - 张磊（一堂同学，业务公式课案例主讲引用）
+  - 漫展展位
+  - 靠一张业务公式+摄像头复盘把展位做到200平米盈利
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1090-L1116
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1138-L1156
@@ -45,7 +52,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - handle
 ---
 # 张磊漫展展位：9平米亏到100平米，靠一张业务公式+摄像头复盘把展位做到200平米盈利

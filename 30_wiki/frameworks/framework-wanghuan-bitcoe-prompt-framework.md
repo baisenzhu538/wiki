@@ -21,6 +21,8 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
+discoverable_by:
+  - "王欢BITCOE提示词"
 - '[[tool-wanghuan-ai-business-profile]]'
 - '[[framework-wanghuan-ooda-loop]]'
 - '[[framework-wanghuan-actor-director-mode]]'
@@ -40,6 +42,15 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 diagnostic_signals:
+aliases:
+  - 王欢BITCOE提示词框架
+  - 王欢
+  - 提示词
+  - 提示词框架
+aliases:
+  - 王欢BITCOE提示词框架
+  - 王欢
+  - 提示词
 - lens: 意图模糊
   follow_up: 用 BITCOE 六槽位逐条检查：背景、指令、任务、约束、输出、示例是否都已显式写出？
 - lens: 约束缺失

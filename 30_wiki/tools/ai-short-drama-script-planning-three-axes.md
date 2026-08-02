@@ -2,6 +2,15 @@
 id: ai-short-drama-script-planning-three-axes
 title: 剧本策划三板斧：短剧从0到1的框架搭建工具
 type: tool
+aliases:
+  - 三板斧
+  - 剧本策划三板斧
+  - 剧本策划三板斧：短剧从0到1的框架搭建工具
+  - 架搭建工具
+  - 的框架搭建工具
+  - 短剧从
+  - 短剧从0到1的框架搭建工具
+  - 策划三板斧
 source_refs:
 - 10_raw/sources/src_20260613_61c0cd80-script-planning-three-axes.md
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md

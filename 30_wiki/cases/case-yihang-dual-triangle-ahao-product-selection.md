@@ -17,6 +17,12 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-04
+aliases:
+  - 一行双三角案例
+  - 一行双三角案例：阿豪电商选品函数替代模型
+  - 双三角案例
+  - 电商选品函数替代模型
+  - 阿豪电商选品函数替代模型
 source_refs:
 - 00_inbox/人机协作双三角/_processed/阿豪案例的口述_page001_vlm.md
 - 00_inbox/人机协作双三角/_processed/阿豪案例的口述_page002_vlm.md
@@ -40,7 +46,6 @@ related:
 - '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
 - '[[case-yihang-dual-triangle-hardware-patent-rule-explicit]]'
 - '[[case-yihang-dual-triangle-hotel-tag-sandbox]]'
-aliases:
 - 阿豪案例
 - 电商选品案例
 - 人机协作双三角

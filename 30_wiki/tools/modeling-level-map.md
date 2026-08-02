@@ -7,6 +7,14 @@ title: 建模能力段位图：从 L1 到 L6 的十年爬山地图
 type: tool
 status: reviewed
 source_context: 一堂 2026-06-12 建模能力培训课程，段位图与 L1-L6 自评框架
+aliases:
+  - 山地图
+  - 年爬山地图
+  - 建模能力段位图
+  - 建模能力段位图：从L1到L6的十年爬山地图
+  - 段位图
+  - 的十年爬山地图
+  - 能力段位图
 source_refs:
 - 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
@@ -41,7 +49,6 @@ diagnostic_signals:
   follow_up_question: 让成员分别自评 L1-L6，先画出团队 heatmap，再决定统一训练还是分层培养。
 - framework_lens: 段位跃迁风险
   follow_up_question: 你是否有 10+ 案例支撑和可复用的 SOP？没有的话，先回 L3 补课。
-aliases:
 - 建模能力培训
 - 段位图
 - 高阶建模

@@ -20,12 +20,28 @@ source_refs:
 - kdo-tools/mcp/server.py
 - kdo-tools/mcp/tools.py
 related:
+discoverable_by:
+  - "KDO MCP Server"
+  - "知识库外部协议"
+  - "MCP Server知识库"
 - framework-kdo-modeling-methodology
 - framework-kdo-retrieval-architecture-v2
 - concept-mcp-protocol
 - agent-spec-duanwangye-publisher
 - agent-spec-hongqigong-multimodal
 tags:
+aliases:
+  - KDOMCPServer知识库能力的外部协议暴露层
+  - 知识库能力的外部协议暴露层
+  - 识库外部协议
+  - 外部协议
+  - 库能力的外部协议暴露层
+  - 知识库
+aliases:
+  - KDOMCPServer知识库能力的外部协议暴露层
+  - 知识库能力的外部协议暴露层
+  - 识库外部协议
+  - 知识库
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

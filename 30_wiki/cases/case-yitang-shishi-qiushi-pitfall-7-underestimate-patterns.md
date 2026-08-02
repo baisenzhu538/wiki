@@ -13,6 +13,13 @@ updated_at: 2026-07-05
 domain:
 - yitang
 - decision-science
+aliases:
+  - 一堂
+  - 元单课模式试错
+  - 实事求是十坑
+  - 实事求是十坑轻视规律：一堂199元单课模式试错
+  - 求是十坑轻视规律
+  - 轻视规律
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
@@ -22,7 +29,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - extractions
 ---
 

@@ -4,6 +4,13 @@ title: 加法减法实操：从100个选项到3个高概率方向
 type: concept
 domain:
 - src_unknown
+aliases:
+  - 个选项到
+  - 个高概率方向
+  - 从100个选项到3个高概率方向
+  - 减法实操
+  - 加法减法实操
+  - 加法减法实操：从100个选项到3个高概率方向
 source_refs:
 - src_unknown
 status: draft

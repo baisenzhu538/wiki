@@ -32,6 +32,11 @@ related:
 - '[[tool-月白-AI工艺图人工复核法]]'
 - '[[tool-月白-行业配色快速确定法]]'
 tags:
+aliases:
+  - 技能：线下实体门店设计真实体感验证
+  - 技能
+  - 线下实体门店设计真实体感验证
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

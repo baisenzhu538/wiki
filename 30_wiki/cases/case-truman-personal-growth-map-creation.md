@@ -30,6 +30,18 @@ tags:
 - scene:reference
 - skill-level:intermediate
 diagnostic_signals:
+aliases:
+  - Truman个人地图创作全历程：七步创作法与AI判断创作者视角
+  - 个人地图创作全历程
+  - 七步创作法与
+  - 判断创作者视角
+  - 创作法与
+  - 创作者视角
+aliases:
+  - Truman个人地图创作全历程：七步创作法与AI判断创作者视角
+  - 个人地图创作全历程
+  - 七步创作法与
+  - 判断创作者视角
 - framework_lens: 七步创作法
   follow_up_question: 你们有没有先做全量整理？有没有每个人独立找一遍规律再碰撞？
 - framework_lens: 5-10个版本手工迭代 → AI辅助但不替代

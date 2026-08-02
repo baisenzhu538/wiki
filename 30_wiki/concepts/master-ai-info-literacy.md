@@ -6,6 +6,9 @@ title: AI时代信息素养框架
 type: framework
 status: reviewed
 source_context: 一堂科学决策课程——AI时代信息素养三层防护框架
+aliases:
+  - AI时代信息素养框架
+  - 时代信息素养框架
 source_refs:
 - pending_archive:src_20260522_33c40d41-ocr-一堂-科学决策-人机协作决策.md
 - pending_archive:src_20260524_836ad51c-学会提问在信息洪流中锻造批判性思维的利刃.md
@@ -28,7 +31,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 人机协作决策
 - 学会提问在信息洪流中锻造批判性思维的利刃
 - 知识萃取探索营

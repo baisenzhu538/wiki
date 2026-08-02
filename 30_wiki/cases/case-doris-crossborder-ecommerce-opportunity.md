@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 从报告到行动
+  - 告到行动
+  - 案例
+  - 案例：跨境电商机会识别从报告到行动
+  - 跨境电商机会识别
+  - 跨境电商机会识别从报告到行动
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 行业报告调研
 - 调研专题
 ---

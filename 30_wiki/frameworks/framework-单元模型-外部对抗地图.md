@@ -19,11 +19,25 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-外部对抗地图_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-单元模型-外部对抗地图.md
 related:
+discoverable_by:
+  - "外部对抗地图"
+  - "单元模型外部对抗"
 - '[[yitang-domain-digest]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
 created_at: '2026-06-30'
 tags:
+aliases:
+  - 外部对抗地图
+  - 型外部对抗
+  - 对抗地图
+  - 元模型外部对抗
+  - 部对抗地图
+  - 抗地图
+aliases:
+  - 外部对抗地图
+  - 部对抗地图
+  - 元模型外部对抗
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

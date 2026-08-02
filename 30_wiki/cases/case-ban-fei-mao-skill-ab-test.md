@@ -8,6 +8,13 @@ domain:
 - yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
+aliases:
+  - 不用
+  - 半肥猫
+  - 案例
+  - 案例：SkillA/B测试用Skillvs不用Skill的12维度对比
+  - 测试
+  - 维度对比
 source_refs:
 - 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md
 created_at: 2026-06-07
@@ -26,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 半肥猫
 - 学习落地
 ---

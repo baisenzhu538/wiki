@@ -29,6 +29,13 @@ related:
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-decision-canvas]]'
 - '[[yt-decision-ai-partner]]'
+aliases:
+  - 上帝视角四维提升法
+  - 平共识曲线
+  - 视角四维提升法
+  - 高度分析工具
+  - 高度分析工具：上帝视角四维提升法+高水平共识曲线
+  - 高水平共识曲线
 source_refs:
 - 10_raw/sources/src_20260609_006cb9b3-ocr-一堂-科学决策-高水平共识曲线重要.md
 status: enriched
@@ -81,7 +88,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 科学决策
 - 高水平共识曲线重要
 ---

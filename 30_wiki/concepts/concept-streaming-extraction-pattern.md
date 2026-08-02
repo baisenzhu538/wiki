@@ -15,6 +15,13 @@ domain:
 - content-extraction
 - publishing
 - architecture
+aliases:
+  - 分页的映射
+  - 器虚拟滚动到
+  - 提取模式
+  - 流式提取模式
+  - 流式提取模式浏览器虚拟滚动到API分页的映射
+  - 浏览器虚拟滚动到API分页的映射
 source_refs:
 - pending_archive:src_unknown："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"
 - src_unknown
@@ -33,7 +40,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 内容只有滚动到视口时才加载到内存中
 - 虚拟滚动机制
 ---

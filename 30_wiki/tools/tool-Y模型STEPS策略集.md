@@ -13,6 +13,12 @@ domain:
 - yitang
 - decision-science
 - methodology
+aliases:
+  - Y模型STEPS策略集
+  - Y模型STEPS策略集：五步策略框架
+  - 五步策略框架
+  - 策略框架
+  - 策略集
 source_refs:
 - 30_wiki/methods/method-yitang-y-model-engine-cycle.md
 - 30_wiki/frameworks/framework-yitang-y-model-cross-domain-fusion.md

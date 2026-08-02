@@ -51,6 +51,9 @@ updated_at: '2026-06-28'
 estimated_tokens: 3300
 reviewed_by: 周伯通
 diagnostic_signals:
+aliases:
+  - OKR制定与复盘罗盘
+  - 制定与复盘罗盘
 - framework_lens: 写了但没用——OKR是'季度初写一次、季度末看一眼'的文档，而非实时引导工具。OKR的真正价值在追踪过程中，而非在设定时
   follow_up_question: 你们上一次在周会上讨论OKR是什么时候？如果答案是'记不清了'，OKR已经是一个形式而非工具
 - framework_lens: 写了但没用——全绿的OKR和全红的OKR一样危险。可能是KR设成了任务清单（做了=完成了），也可能是团队在'挑软柿子'——只完成容易量化的KR，回避了真正重要但难量化的突破

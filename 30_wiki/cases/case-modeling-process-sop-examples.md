@@ -7,6 +7,13 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - Truman
+  - 个学员企业的
+  - 实践样本
+  - 建模案例
+  - 流程建模案例
+  - 流程建模案例：10个学员企业的SOP实践样本
 source_refs:
 - 10_raw/sources/src_20260614_1e814b94-Truman-高阶建模-流程建模-图-02.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -47,7 +54,6 @@ related:
 - '[[tool-sop-template-modeling]]'
 - '[[case-truman-livestream-sop-iteration]]'
 - case-modeling-process-livestream-prep
-aliases:
 - 建模能力培训
 - 流程建模
 - 高阶建模

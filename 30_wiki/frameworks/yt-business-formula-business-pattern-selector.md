@@ -7,6 +7,13 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 业务公式商业模式选型框架
+  - 业务公式商业模式选型框架：单次成交型vs持续复购型
+  - 公式商业模式选型框架
+  - 单次成交型
+  - 成交型
+  - 持续复购型
 source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
@@ -48,6 +55,12 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[business-formula-domain-digest]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'
+discoverable_by:
+- 商业模式选型
+- 单次成交
+- 持续复购
+- 业务公式范式
+- 收入模式选择
 ---
 # 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 

@@ -49,6 +49,12 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
+discoverable_by:
+- 需求分析域
+- 需求挖掘
+- 冰山模型
+- JTBD
+- 需求验证
 ---
 
 # 域索引：需求分析

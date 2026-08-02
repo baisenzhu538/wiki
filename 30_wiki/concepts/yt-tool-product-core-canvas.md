@@ -30,6 +30,9 @@ related:
 - '[[yt-entrepreneur-unit-model]]'
 - '[[yt-tool-meeting-designer]]'
 review_date: 2026-06-06
+aliases:
+  - 产品内核画布与九大原则
+  - 内核画布与九大原则
 source_refs:
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md
 status: reviewed
@@ -62,7 +65,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 一堂五步法画布
 ---
 

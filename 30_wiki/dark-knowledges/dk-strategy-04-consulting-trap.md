@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 告诉已知信息
+  - 告诉已知信息+方案脱离实际+缺逻辑闭环
+  - 已知信息
+  - 战略咨询陷阱
+  - 战略咨询陷阱：告诉已知信息+方案脱离实际+缺逻辑闭环
+  - 方案脱离实际
 source_refs:
 - src_unknown
 related:

@@ -31,6 +31,11 @@ related:
 - tool-月白-电商白底图生成与高清重绘
 - tool-月白-电商白底图生成与高清处理
 tags:
+aliases:
+  - 技能：精准改图提示词写法
+  - 技能
+  - 精准改图提示词写法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

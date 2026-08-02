@@ -10,6 +10,11 @@ domain:
 - yitang
 source_person: KDO 团队复盘
 source_context: 第26-27节精修中反复出现：source ID、文件名、正则边界、YAML 命名导致解析失败
+aliases:
+  - KDO 团队复盘
+  - 不规范会让整条工具链失明
+  - 命名不规范会让整条工具链失明
+  - 团队复盘
 source_refs:
 - src_unknown
 related:

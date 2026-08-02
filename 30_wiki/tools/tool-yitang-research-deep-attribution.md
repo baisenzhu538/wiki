@@ -45,6 +45,10 @@ related:
 - '[[tool-月白-里程碑思维拆解设计流程]]'
 - '[[tool-通过综合案例沙盘走通全流程]]'
 tags:
+aliases:
+  - 深度归因：找到问题根因的5Why法
+  - 深度归因
+  - 找到问题根因的5Why法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

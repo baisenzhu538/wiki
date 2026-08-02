@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 奶昔JTBD
+  - 案例
+  - 案例：奶昔JTBD经典的任务洞察
+  - 的任务洞察
+  - 经典的任务洞察
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-JTBD理论-笔记.txt
 related:
@@ -32,7 +38,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 需求分析
 ---

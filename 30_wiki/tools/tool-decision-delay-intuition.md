@@ -9,6 +9,13 @@ domain:
 - 个人管理
 source_person: 消化全库后提炼
 source_context: 基于master-decision-hygiene框架提炼，2026-05-18
+aliases:
+  - 全库后提炼
+  - 延迟直觉法
+  - 技能
+  - 技能：延迟直觉法
+  - 消化全库后提炼
+  - 直觉法
 source_refs:
 - src_unknown
 wiki_refs:

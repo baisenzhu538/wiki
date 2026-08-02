@@ -2,6 +2,12 @@
 id: tool-canvas-weapon-library-modeling
 title: 画布/武器库建模法：把工具箱变成可快速调用的系统
 type: tool
+aliases:
+  - 具箱变成可快速调用的系统
+  - 把工具箱变成可快速调用的系统
+  - 武器库建模法
+  - 画布/武器库建模法
+  - 画布/武器库建模法：把工具箱变成可快速调用的系统
 source_refs:
 - 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -56,7 +62,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 常见模型武器库
 - 建模能力培训
 - 抽象建模

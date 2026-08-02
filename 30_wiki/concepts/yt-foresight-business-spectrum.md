@@ -32,6 +32,9 @@ related:
 review_date: 2026-06-16
 reviewed_by:
 - src_unknown
+aliases:
+  - 光谱图
+  - 终局光谱图
 source_refs:
 - 10_raw/sources/src_20260614_40afd886-theme-finance-legal-business-summary.md
 status: enriched

@@ -16,6 +16,11 @@ domain:
 - strategy
 - yitang
 - product
+aliases:
+  - 做预售
+  - 做预售：用真实订单验证付费意愿
+  - 实订单验证付费意愿
+  - 用真实订单验证付费意愿
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212157_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212157_vlm_desc.md
@@ -36,7 +41,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 低成本验证实操
 - 剥离假设篇
 ---

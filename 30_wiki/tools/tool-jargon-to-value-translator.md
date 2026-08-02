@@ -25,6 +25,13 @@ diagnostic_signals:
 - signal: 技术参数堆砌
   lens: 替换为用户场景
   follow_up: 替换为用户场景
+aliases:
+  - 不明觉厉表
+  - 不明觉厉表：技术语言→用户价值翻译
+  - 技术语言
+  - 技术语言→用户价值翻译
+  - 用户价值翻译
+  - 觉厉表
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt
 - 00_inbox/解放思想探索营/案例分享-笔记.txt
@@ -34,7 +41,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

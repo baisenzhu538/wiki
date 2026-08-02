@@ -2,6 +2,13 @@
 id: kdo_product_design_agent_final
 created_at: 2026-05-03
 domain: ai-saas
+aliases:
+  - Obsidian+KDO内容产出工作流产品设计大纲v1.0完整版
+  - v1.0完整版
+  - 产品设计大纲
+  - 内容产出工作流
+  - 内容产出工作流产品设计大纲
+  - 设计大纲
 source_refs:
 - 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: reviewed

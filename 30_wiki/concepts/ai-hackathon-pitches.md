@@ -8,6 +8,13 @@ domain:
 - ' entrepreneurship'
 source_person: 王语嫣
 source_context: 听脑 AI 大航海项目路演主题摘要综合（11 条录音 meetingSummary）
+aliases:
+  - AI大航海项目路演：主题综合索引卡
+  - 主题综合索引卡
+  - 大航海项目路演
+  - 海项目路演
+  - 王语嫣
+  - 综合索引卡
 source_refs:
 - 10_raw/sources/src_20260614_3b46ff78-一堂武智院-项目介绍.md
 - 10_raw/sources/src_20260614_1d4cc0e0-2298战队-AI组织落地探索.md
@@ -35,7 +42,6 @@ trust_level: medium
 related:
 - '[[ai-collaboration-mindset-shift]]'
 - '[[ai-landing-scene-selection]]'
-aliases:
 - 一堂武智院
 - 价值投资大师项目
 - 内容营销路演

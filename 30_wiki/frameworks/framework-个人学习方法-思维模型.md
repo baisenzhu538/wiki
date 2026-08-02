@@ -17,6 +17,9 @@ domain:
 source_refs:
 - 00_inbox/一堂-个人修身-思维模型口述版.md L8,L18,L1072-L1086,L2756
 related:
+discoverable_by:
+  - "思维模型"
+  - "项目换模型永生"
 - '[[framework-个人学习方法总框架]]'
 - '[[framework-个人学习方法-IPO学习闭环]]'
 - '[[agent-个人学习方法教练]]'
@@ -31,6 +34,20 @@ quality_labels:
 - principle
 - actionable
 tags:
+aliases:
+  - 思维模型：项目随时换、模型永生
+  - 思维模型
+  - 项目随时换
+  - 模型永生
+  - 维模型
+  - 目换模型永生
+aliases:
+  - 思维模型：项目随时换、模型永生
+  - 思维模型
+  - 项目随时换
+  - 模型永生
+  - 维模型
+  - 目换模型永生
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

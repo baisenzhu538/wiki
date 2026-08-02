@@ -13,6 +13,13 @@ updated_at: 2026-07-05
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 个人学习可用
+  - 包使用伦理
+  - 学习可用
+  - 数据包使用伦理
+  - 数据包使用伦理个人学习可用，禁止规模化批量抓取流通
+  - 禁止规模化批量抓取流通
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
@@ -22,7 +29,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 一堂双三角
 - 人机协作双三角
 ---

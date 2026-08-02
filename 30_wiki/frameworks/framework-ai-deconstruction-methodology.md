@@ -17,6 +17,9 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
+discoverable_by:
+  - "三层拆书法"
+  - "王欢拆书方法"
 - '[[dk-ai-prediction-expiry-date]]'
 - '[[concept-ai-information-quality-ladder]]'
 - '[[framework-ai2041-critical-reading-os]]'
@@ -28,6 +31,16 @@ related:
 - '[[framework-wanghuan-gan-three-roles]]'
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 tags:
+aliases:
+  - 王欢三层拆书法
+  - 层拆书法
+  - 三层拆书法
+  - 书方法
+  - 欢拆书方法
+aliases:
+  - 王欢三层拆书法
+  - 欢拆书方法
+  - 层拆书法
 - src_unknown
 - src_unknown
 - src_unknown

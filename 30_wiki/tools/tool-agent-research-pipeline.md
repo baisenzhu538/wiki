@@ -20,6 +20,16 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 - https://www.langchain.com/blog/benchmarking-multi-agent-architectures
 related:
+aliases:
+  - Agent调研Pipeline模式工具
+  - 调研
+  - 模式工具
+  - Truman（一堂）+ LangChain Team
+aliases:
+  - Agent调研Pipeline模式工具
+  - 调研
+  - 模式工具
+  - Truman（一堂）+ LangChain Team
 - '[[framework-yitang-oscar-research]]'
 - '[[case-demand-travel-agent]]'
 - '[[case-ji-hao-skills-market]]'

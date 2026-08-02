@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - Shodan：互联网设备搜索引擎发现竞对的技术栈
+  - 互联网设备搜索引擎
+  - 发现竞对的技术栈
+  - 竞对的技术栈
+  - 网设备搜索引擎
 source_refs:
 - src_unknown
 - src_unknown

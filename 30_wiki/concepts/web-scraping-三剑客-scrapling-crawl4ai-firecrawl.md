@@ -18,6 +18,10 @@ source_refs:
 - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 related:
+aliases:
+  - 三剑客
+aliases:
+  - 三剑客
 - - - tinyfish-agentic-web-infrastructure
 - - - plan_20260621_crawl4ai-firecrawl-evaluation
 - - - tool-yitang-web-scraping-research

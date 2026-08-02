@@ -41,6 +41,11 @@ related:
 - '[[tool-月白-模型性价比选型决策]]'
 - '[[tool-李诞-面对过去错误的平静心法]]'
 tags:
+aliases:
+  - 技能：口喷作图工作流
+  - 技能
+  - 口喷作图工作流
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

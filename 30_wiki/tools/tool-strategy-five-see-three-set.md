@@ -13,6 +13,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 五看三定
+  - 华为五看三定
+  - 华为五看三定：看行业/市场/客户/竞争/自己→定控制点/目标/路径
+  - 定控制点
+  - 定控制点/目标/路径
+  - 看行业/市场/客户/竞争/自己
 source_refs:
 - pending_archive:src_unknown
 tags:

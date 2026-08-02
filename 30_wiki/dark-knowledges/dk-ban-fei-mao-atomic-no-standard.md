@@ -8,6 +8,12 @@ domain:
 - yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
+aliases:
+  - 化没有固定标准
+  - 半肥猫
+  - 原子化没有固定标准
+  - 暗知识
+  - 暗知识：原子化没有固定标准
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 created_at: 2026-06-07
@@ -36,7 +42,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 半肥猫
 - 学习落地
 ---

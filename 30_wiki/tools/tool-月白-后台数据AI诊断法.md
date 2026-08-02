@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-基于白底图做动作延展]]'
 - '[[tool-strategy-customer-selection]]'
 tags:
+aliases:
+  - 技能：后台数据AI诊断法
+  - 技能
+  - 后台数据AI诊断法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

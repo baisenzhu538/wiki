@@ -8,6 +8,13 @@ domain:
 - business-strategy
 source_person: 孔阳
 source_context: 一堂业务公式实操篇（2026-07-12），格式规范引出案例：女装店收入公式三个版本的打分演进
+aliases:
+  - 从10分到60分看顶层拆解的形式规范
+  - 分看顶层拆解的形式规范
+  - 女装店收入公式三版本
+  - 女装店收入公式三版本：从10分到60分看顶层拆解的形式规范
+  - 孔阳
+  - 店收入公式三版本
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1806-L1946
 quality_labels:
@@ -31,7 +38,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - handle
 ---
 

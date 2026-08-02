@@ -14,6 +14,11 @@ domain:
 source_refs:
 - src_unknown
 related:
+discoverable_by:
+  - "战略洞察"
+  - "模型图表假设验证"
+  - "战略视野"
+  - "登高望远战略分析"
 - '[[strategy-domain-digest]]'
 - '[[yt-note-fact-pattern-insight]]'
 - '[[tool-月白-AI模型选择策略]]'
@@ -25,6 +30,20 @@ related:
 - framework-lean-four-principles
 - tool-strategy-five-see-three-set
 tags:
+aliases:
+  - 洞察CriticalInsight：模型+图表+假设验证，战略视野需登高望远
+  - 洞察Critical
+  - 模型+图表+假设验证
+  - 战略视野需登高望远
+  - 型图表假设验证
+  - 视野需登高望远
+aliases:
+  - 洞察CriticalInsight：模型+图表+假设验证，战略视野需登高望远
+  - 洞察Critical
+  - 模型+图表+假设验证
+  - 战略视野需登高望远
+  - 型图表假设验证
+  - 高望远战略分析
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

@@ -32,6 +32,11 @@ related:
 - '[[tool-月白-AI生成图片排版控制-尺寸优先法]]'
 - tool-yitang-research-deep-attribution
 tags:
+aliases:
+  - 技能：里程碑思维拆解设计流程
+  - 技能
+  - 里程碑思维拆解设计流程
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

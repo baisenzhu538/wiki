@@ -8,6 +8,13 @@ domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
+aliases:
+  - 三要素描述法
+  - 月白
+  - 素描述法
+  - 练风格迁移
+  - 零训练风格迁移
+  - 零训练风格迁移：三要素描述法
 source_refs:
 - 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
@@ -24,7 +31,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
-aliases:
 - 设计师实操培训
 ---
 

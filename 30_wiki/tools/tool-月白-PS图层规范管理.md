@@ -36,6 +36,11 @@ related:
 - '[[tool-月白-色块分区控制法]]'
 - '[[tool-月白-跨境电商产品图替换法]]'
 tags:
+aliases:
+  - 技能：PS图层规范管理
+  - 技能
+  - PS图层规范管理
+  - 月白
 - audience:manager
 - scene:execution
 - skill-level:beginner

@@ -21,6 +21,9 @@ query_triggers:
 - src_unknown
 - src_unknown·审美卡片：最佳实践建模
 - src_unknown
+aliases:
+  - 审美建模
+  - 鉴宝之眼
 related:
   - "[[dk-ai-design-pitfalls]]"
   - "[[yt-model-prediction-model]]"

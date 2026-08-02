@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 接待方案
+  - 案例
+  - 案例：民宿接待方案用调研优化服务体验设计
+  - 民宿接待方案
+  - 用调研优化服务体验设计
+  - 研优化服务体验设计
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 调研专题
 - 高阶调研行动营
 ---

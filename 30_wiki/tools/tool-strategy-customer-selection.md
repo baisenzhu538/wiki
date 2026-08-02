@@ -6,6 +6,13 @@ status: reviewed
 confidence: 0.9
 trust_level: high
 domain: strategy
+aliases:
+  - 六步循环迭代法
+  - 六步循环迭代法场景
+  - 场景→行为→情绪→触发器→数据→循环
+  - 客户选择
+  - 客户选择：六步循环迭代法场景→行为→情绪→触发器→数据→循环
+  - 触发器
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_101_vlm_desc.md
@@ -33,7 +40,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

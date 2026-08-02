@@ -23,6 +23,12 @@ similar_to:
 - 贝壳找房从链家到平台的模型升级
 opposite_of:
 - 瑞幸咖啡（资本驱动快速复制，非方法论驱动）
+aliases:
+  - 一堂4次创新跃迁
+  - 一堂4次创新跃迁：从10%成功率到体系化
+  - 从10%成功率到体系化
+  - 成功率到体系化
+  - 次创新跃迁
 source_refs:
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §三
@@ -42,7 +48,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 探索营
 - 解放思想创新体系
 ---

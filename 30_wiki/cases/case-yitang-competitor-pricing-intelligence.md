@@ -13,6 +13,11 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 假装订货套取竞品真实价格
+  - 案例
+  - 案例：假装订货套取竞品真实价格
+  - 订货套取竞品真实价格
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
@@ -25,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 调研专题
 - 高阶情报调研课
 ---

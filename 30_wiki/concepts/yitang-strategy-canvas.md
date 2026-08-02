@@ -24,6 +24,11 @@ query_triggers:
 - 如何做差异化
 review_date: 2026-06-17
 reviewed_by: 欧阳锋
+aliases:
+  - 争格局画成一张价值曲线
+  - 战略画布Strategy
+  - 战略画布StrategyCanvas：把竞争格局画成一张价值曲线
+  - 把竞争格局画成一张价值曲线
 source_refs:
 - 10_raw/sources/src_20260614_b23e9ae3-波特五力模型-商业分析.md
 - 10_raw/sources/src_20260614_dcf9d023-战略培训-案例分析.md
@@ -63,7 +68,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 商业分析
 - 实战案例分析
 - 战略培训

@@ -27,6 +27,10 @@ related:
 - '[[pending_unknown]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 升华化
+  - 讲香
+  - 讲香升华化
 source_refs:
 - 10_raw/sources/src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库.md
 status: enriched
@@ -50,7 +54,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 个人修炼
 - 讲香十指模型
 - 超级武器库

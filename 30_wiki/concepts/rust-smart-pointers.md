@@ -1,10 +1,15 @@
-﻿---
+---
 id: rust-smart-pointers
 title: "Rust 智能指针：超越引用的所有权管理"
 type: concept
 status: draft
 domain:
   - rust
+aliases:
+  - Rust智能指针：超越引用的所有权管理
+  - 引用的所有权管理
+  - 智能指针
+  - 超越引用的所有权管理
 source_refs:
   - pending_archive
 created_at: 2026-06-02

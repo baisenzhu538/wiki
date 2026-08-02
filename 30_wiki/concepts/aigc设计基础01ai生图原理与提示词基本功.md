@@ -4,6 +4,12 @@ created_at: 2026-05-28
 domain:
 - ai-saas
 - design
+aliases:
+  - AIGC设计基础01
+  - AIGC设计基础01：AI生图原理与提示词基本功
+  - AI生图原理与提示词基本功
+  - 生图原理与提示词基本功
+  - 设计基础
 source_refs:
 - 10_raw/sources/src_20260528_2ba8539f-aigc设计基础01ai生图原理与提示词基本功.md
 status: draft
@@ -25,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:beginner
-aliases:
 - 生图原理与提示词基本功
 - 设计基础
 ---

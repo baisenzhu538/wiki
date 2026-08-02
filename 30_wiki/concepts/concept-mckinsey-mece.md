@@ -9,6 +9,12 @@ domain:
 - src_unknown
 source_person: Barbara Minto / McKinsey & Company
 source_context: McKinsey 问题解决方法论核心原则，最早系统化呈现于 Minto《金字塔原理》(1987) 与 McKinsey 内部培训
+aliases:
+  - Barbara Minto / McKinsey & Company
+  - MECE原则：相互独立、完全穷尽
+  - 原则
+  - 完全穷尽
+  - 相互独立
 source_refs:
 - pending_archive:source material not yet ingested
 related:

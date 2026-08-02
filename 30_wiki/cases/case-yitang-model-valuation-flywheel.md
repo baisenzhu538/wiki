@@ -10,6 +10,13 @@ industry: 在线教育
 scale: 公司
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
+aliases:
+  - Truman
+  - 一堂内部给模型定价
+  - 万美金的价值飞轮
+  - 元到
+  - 案例
+  - 案例：一堂内部给模型定价从5000元到10万美金的价值飞轮
 source_refs:
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
@@ -53,7 +60,6 @@ related:
 - '[[case-yitang-weekly-modeling-engine]]'
 - case-essence-entrepreneurship
 - case-decision-ai-assisted-vs-human
-aliases:
 - 建模能力培训
 ---
 

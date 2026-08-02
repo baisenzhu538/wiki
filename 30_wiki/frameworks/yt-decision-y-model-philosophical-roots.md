@@ -27,12 +27,25 @@ diagnostic_signals:
   follow_up_question: 这个最优解违反了你的什么信念？王阳明说"致良知"，不是算出来的最优解，是内心不撒谎的答案。
 - framework_lens: 矛盾的特殊性——不同质的矛盾用不同方法
   follow_up_question: 这个业务的核心矛盾是什么？ToB、ToC、平台型的"宽度"清单本来就不该一样，你是在套用模板还是在识别特殊矛盾？
+aliases:
+  - Y模型的哲学根基：王阳明知行合一、矛盾论、实践论的三重映射
+  - 实践论的三重映射
+  - 模型的哲学根基
+  - 王阳明知行合一
+  - 的哲学根基
+  - 矛盾论
 source_refs:
 - pending_archive: src_unknown
 tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
+discoverable_by:
+- Y模型哲学
+- 认知根基
+- 客观因果
+- 规律认知
+- 决策哲学
 ---
 
 # Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论

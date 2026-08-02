@@ -24,6 +24,9 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4796-L4904
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2954-L2968
 related:
+discoverable_by:
+  - "转化基本功七个自我修养"
+  - "转化率团队纪律"
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'
 - '[[framework-一堂-动力三曲线]]'
@@ -42,6 +45,19 @@ quality_labels:
 - cited
 - actionable
 tags:
+aliases:
+  - 一堂转化基本功七个自我修养：从固定拿结果到大量迁移的团队纪律
+  - 一堂转化基本功七个自我修养
+  - 从固定拿结果到大量迁移的团队纪律
+  - 本功七个自我修养
+  - 化率团队纪律
+  - 化基本功七个自我修养
+aliases:
+  - 一堂转化基本功七个自我修养：从固定拿结果到大量迁移的团队纪律
+  - 一堂转化基本功七个自我修养
+  - 从固定拿结果到大量迁移的团队纪律
+  - 化率团队纪律
+  - 化基本功七个自我修养
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

@@ -13,6 +13,12 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 三层形态
+  - 关键假设池
+  - 关键假设池：三层形态+字段模板+四条运营纪律测试群/颗粒度/证伪留存/云端协作
+  - 四条运营纪律测试群/颗粒度/证伪留存/云端协作
+  - 字段模板
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L776-L880
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1490-L1518
@@ -65,7 +71,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - handle
 ---
 

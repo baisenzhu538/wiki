@@ -7,6 +7,13 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 假设排序
+  - 关键假设排序
+  - 关键假设排序：前置优先、风险高的优先
+  - 前置优先
+  - 风险高的优先
+  - 高的优先
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -39,8 +46,13 @@ diagnostic_signals:
   follow_up_question: 当前最可能导致项目死亡的假设是什么？用最低成本能否在2周内先证伪它？
 - framework_lens: 需求/产品侧假设先于增长
   follow_up_question: 在验证增长渠道之前，需求假设和产品内核是否已拿到初步肯定判断？是否有真实付费或复购信号？
-aliases:
 - 精益方法论培训
+discoverable_by:
+- 假设优先级
+- 假设排序
+- 精益验证顺序
+- 风险假设优先
+- 假设矩阵
 ---
 
 

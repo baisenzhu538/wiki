@@ -14,6 +14,13 @@ updated_at: '2026-07-04'
 domain:
 - yitang
 - decision-science
+aliases:
+  - 事实的典型代价
+  - 小黄狗回收柜
+  - 小黄狗回收柜忽略事实的典型代价
+  - 忽略事实的典型代价
+  - 案例
+  - 案例：小黄狗回收柜忽略事实的典型代价
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
@@ -24,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - extractions
 ---
 

@@ -25,6 +25,13 @@ related:
 - '[[yt-unit-model-ladder]]'
 - '[[yt-unit-model-ai-assisted]]'
 - '[[pending_unknown]]'
+aliases:
+  - 动态单元模型
+  - 动态单元模型：规模变量、拐点预判与规模经济对抗
+  - 单元模型
+  - 拐点预判与规模经济对抗
+  - 规模变量
+  - 预判与规模经济对抗
 source_refs:
 - 10_raw/sources/src_20260609_9fd664f5-ocr-一堂-单元模型-动态预测.md
 status: reviewed
@@ -67,7 +74,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 动态预测
 - 单元模型
 ---

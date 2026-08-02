@@ -8,6 +8,10 @@ domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
+aliases:
+  - Midjourney中文文字修复极简提示词
+  - 中文文字修复极简提示词
+  - 月白
 source_refs:
 - src_unknown
 created_at: 2026-06-04

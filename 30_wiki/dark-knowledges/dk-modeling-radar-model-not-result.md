@@ -17,6 +17,20 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[concept-ceo-must-do-user-research]]'
 tags:
+aliases:
+  - 复杂评选别让CEO拍结果，只让CEO审模型
+  - 复杂评选别让
+  - 拍结果
+  - 只让
+  - 审模型
+  - Truman
+aliases:
+  - 复杂评选别让CEO拍结果，只让CEO审模型
+  - 复杂评选别让
+  - 拍结果
+  - 只让
+  - 审模型
+  - Truman
 - audience:executor
 - scene:reference
 - skill-level:intermediate

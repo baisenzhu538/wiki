@@ -33,6 +33,13 @@ related:
 - '[[轻量级诊所HIS调研全清单]]'
 - '[[tool-清单小抄工具箱法]]'
 - '[[tool-月白-工厂对接信息清单制作]]'
+aliases:
+  - 三层盲区清单
+  - 分析工具
+  - 列推建查四步法+三层盲区清单
+  - 宽度分析工具
+  - 宽度分析工具：列推建查四步法+三层盲区清单
+  - 建查四步法
 source_refs:
 - 10_raw/sources/src_20260614_9ca806cd-theme-yitang-methodology-summary.md
 status: reviewed

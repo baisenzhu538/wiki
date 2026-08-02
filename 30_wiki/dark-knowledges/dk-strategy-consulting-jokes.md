@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 勺子告诉已知
+  - 告诉已知/脱离实际/无闭环
+  - 属羊+勺子
+  - 战略咨询两个笑话
+  - 战略咨询两个笑话：属羊+勺子告诉已知/脱离实际/无闭环
+  - 无闭环
 source_refs:
 - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
   - src_unknown - src_unknown

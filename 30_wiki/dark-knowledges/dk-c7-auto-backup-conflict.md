@@ -8,6 +8,12 @@ domain:
 - master
 source_person: Builder
 source_context: 2026-05-03
+aliases:
+  - Builder
+  - 干扰
+  - 拆分→staged
+  - 文件被自动打包提交
+  - 被自动打包提交
 source_refs:
 - src_unknown
 created_at: 2026-05-31

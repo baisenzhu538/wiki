@@ -35,6 +35,11 @@ related:
 - '[[tool-月白-电商场景图三类分类法]]'
 - '[[tool-月白-里程碑思维拆解设计流程]]'
 tags:
+aliases:
+  - 技能：AIGC产品白底图制作
+  - 技能
+  - AIGC产品白底图制作
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

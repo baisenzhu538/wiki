@@ -33,6 +33,12 @@ related:
 review_by: 2026-12-06
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 从收集到超越
+  - 实践学习四步法
+  - 最佳实践学习四步法
+  - 最佳实践学习四步法：从收集到超越
+  - 集到超越
 source_refs:
 - 10_raw/sources/src_20260522_0af1f6dd-learning-thinking.md
 status: enriched

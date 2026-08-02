@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 从融资事件反推竞对状态
+  - 信息分析
+  - 融资信息分析
+  - 融资信息分析：从融资事件反推竞对状态
+  - 资事件反推竞对状态
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -27,7 +33,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

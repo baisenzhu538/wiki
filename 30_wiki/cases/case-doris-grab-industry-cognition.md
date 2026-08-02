@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 7天从零建立行业认知
+  - 从零建立行业认知
+  - 天从零建立行业认知
+  - 案例
+  - 案例：Doris7天从零建立行业认知
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
@@ -25,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 行业报告调研
 - 调研专题
 ---

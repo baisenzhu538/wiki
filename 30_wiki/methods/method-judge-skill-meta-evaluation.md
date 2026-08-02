@@ -40,6 +40,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 判断力评估
+- 元评估
+- 技能评价
+- 能力分级
+- 质量判断
 ---
 
 # Judge Skill——评判 Skill 的 Skill：五维度元评估与3轮迭代法

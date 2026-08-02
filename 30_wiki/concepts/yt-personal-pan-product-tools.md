@@ -24,6 +24,13 @@ related:
 - '[[pending_unknown]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 出牌教学法与
+  - 出牌教学法与30张卡牌
+  - 品设计工具篇
+  - 张卡牌
+  - 泛产品设计工具篇
+  - 泛产品设计工具篇：出牌教学法与30张卡牌
 source_refs:
 - 10_raw/sources/src_20260510_e6643d52-个人修炼-泛产品设计工具篇.md
 status: enriched
@@ -51,7 +58,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 个人修炼
 - 泛产品设计工具篇
 ---

@@ -28,6 +28,9 @@ related:
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-decision-ai-partner]]'
 - '[[yt-management-team-knowledge]]'
+aliases:
+  - X型→Y型决策者习惯诊断与转换
+  - 型决策者习惯诊断与转换
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched
@@ -61,7 +64,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 课程地图精华串讲
 ---
 

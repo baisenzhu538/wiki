@@ -3,6 +3,13 @@ id: dk-modeling-explanatory-vs-predictive-essence
 title: 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践
 type: dk
 dark_knowledge_type: principle
+aliases:
+  - Truman
+  - 值钱的本质必须能预测下一次实践
+  - 性本质是高级鸡汤
+  - 真正值钱的本质必须能预测下一次实践
+  - 解释性本质是高级鸡汤
+  - 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
@@ -43,7 +50,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 建模能力培训
 ---
 

@@ -18,6 +18,13 @@ quality_labels:
 - cited
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - Truman
+  - 并跑通支付合作
+  - 数族如何扫描
+  - 案例
+  - 案例：数族如何扫描100+渠道并跑通支付合作
+  - 渠道并跑通支付合作
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-数族-渠道扫描.png
@@ -37,7 +44,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 渠道扫描
 ---

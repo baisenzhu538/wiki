@@ -18,6 +18,13 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-07-08'
+aliases:
+  - Truman
+  - 如何用漏斗模型工业化筛选
+  - 案例
+  - 案例：益涂如何用漏斗模型工业化筛选ToB销售线索
+  - 益涂如何用漏斗模型工业化筛选
+  - 销售线索
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-益涂-线索模型.png
@@ -41,7 +48,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 客户分层和卖点提炼
 ---

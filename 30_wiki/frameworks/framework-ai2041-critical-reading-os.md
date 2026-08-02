@@ -17,6 +17,9 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
+discoverable_by:
+  - "AI2041阅读"
+  - "批判性认知OS"
 - '[[framework-wanghuan-harness-seven-stages]]'
 - '[[framework-wanghuan-ooda-loop]]'
 - '[[framework-wanghuan-gan-three-roles]]'
@@ -31,6 +34,15 @@ quality_labels:
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
 tags:
+aliases:
+  - AI2041批判性认知操作系统
+  - 批判性认知操作系统
+  - 性认知操作系统
+  - 判性认知
+aliases:
+  - AI2041批判性认知操作系统
+  - 批判性认知操作系统
+  - 判性认知
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

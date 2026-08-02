@@ -20,6 +20,9 @@ source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L574-L589
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-十大单元模型清单_paddle_ocr.txt
 related:
+discoverable_by:
+  - "五步法单元模型"
+  - "斧子尺子梯子"
 - '[[framework-一堂五步法]]'
 - '[[agent-一堂五步法教练]]'
 - '[[yt-entrepreneur-unit-model]]'
@@ -40,6 +43,20 @@ quality_labels:
 - principle
 - actionable
 tags:
+aliases:
+  - 一堂五步法单元模型：斧子/尺子/梯子三角色
+  - 一堂五步法
+  - 单元模型
+  - 斧子/尺子/梯子三角色
+  - 梯子三角色
+  - 子尺子梯子
+aliases:
+  - 一堂五步法单元模型：斧子/尺子/梯子三角色
+  - 一堂五步法
+  - 单元模型
+  - 斧子/尺子/梯子三角色
+  - 子尺子梯子
+  - 步法单元模型
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

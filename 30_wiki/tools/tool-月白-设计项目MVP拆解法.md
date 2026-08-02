@@ -32,6 +32,11 @@ related:
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 - aigc文创案例设计课leo文创ip从0到1全流程
 tags:
+aliases:
+  - 技能：设计项目MVP拆解法
+  - 技能
+  - 设计项目MVP拆解法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

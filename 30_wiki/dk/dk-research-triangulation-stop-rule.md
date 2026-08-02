@@ -10,6 +10,9 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain: research
+aliases:
+  - 交叉验证的停止规则
+  - 多源交叉验证的停止规则
 source_refs:
 - 60_feedback/audit/synthesis_research.md
 related:

@@ -18,6 +18,9 @@ confidence: 0.75
 trust_level: medium
 type: concept
 status: enriched
+aliases:
+  - 刻意练习笔记落地诊断框架
+  - 练习笔记落地诊断框架
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）

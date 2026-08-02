@@ -38,6 +38,18 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 diagnostic_signals:
+aliases:
+  - 模型可信度四层标准+千人广场模型：Truman如何定义一个好模型
+  - 模型可信度四层标准
+  - 千人广场模型
+  - 如何定义一个好模型
+  - 定义一个好模型
+  - 广场模型
+aliases:
+  - 模型可信度四层标准+千人广场模型：Truman如何定义一个好模型
+  - 模型可信度四层标准
+  - 千人广场模型
+  - 如何定义一个好模型
 - framework_lens: 四层可信度标准
   follow_up_question: 你的模型处在哪个层级——有启发、有案例、充分实证、还是没有反例？
 - framework_lens: 四类缺陷诊断（定义不清/丢三落四/边界不清/太随机）
@@ -47,6 +59,12 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 updated_at: '2026-06-29'
 aliases:
 - 建模能力培训
+discoverable_by:
+- 模型可信度
+- 建模四层标准
+- 模型质量评估
+- 千人广场模型
+- 思维模型验证
 ---
 # 模型可信度四层标准 + 千人广场模型
 

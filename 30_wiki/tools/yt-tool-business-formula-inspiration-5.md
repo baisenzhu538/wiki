@@ -13,6 +13,9 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 灵感闪现五字诀
+  - 灵感闪现五字诀：压/看/聚/拆/再
 source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 002100_vlm.md
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2658-L2726
@@ -45,7 +48,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - handle
 ---
 

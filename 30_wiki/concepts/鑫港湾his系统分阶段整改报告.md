@@ -1,11 +1,15 @@
 ---
 id: 鑫港湾his系统分阶段整改报告
+title: "鑫港湾HIS系统分阶段整改报告"
 related:
 - '[[紫鲸ai智能体工作流平台]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+aliases:
+  - 系统分阶段整改报告
+  - 鑫港湾HIS系统分阶段整改报告
 source_refs:
 - pending_archive: src_unknown
 tags:
@@ -13,7 +17,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 - [[紫鲸ai智能体工作流平台]]
 
 # 鑫港湾HIS系统分阶段整改报告

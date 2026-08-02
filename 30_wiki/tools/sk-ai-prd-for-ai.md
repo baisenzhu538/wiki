@@ -8,6 +8,13 @@ domain:
 - src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
+aliases:
+  - 半肥猫
+  - 技能
+  - 技能：把PRD写成AI能执行的指令
+  - 把PRD写成AI能执行的指令
+  - 能执行的指令
+  - 行的指令
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
@@ -49,7 +56,6 @@ diagnostic_signals:
   follow_up_question: 请提供半肥猫分享中关于PRD作为AI可执行指令的具体原文，或补充另一份来源以支撑该主张？
 - framework_lens: authorship-attribution
   follow_up_question: 是否需要将source_person更正为纪浩，或找到半肥猫对应分享的原始记录？
-aliases:
 - 时代要不要练笔记
 - 需要练那个
 ---

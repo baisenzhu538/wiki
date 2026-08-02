@@ -2,6 +2,7 @@
 domain:
 - modeling
 id: yt-model-product-core-metrics
+title: "产品内核十大典型指标：从获客到推荐的度量框架"
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
@@ -15,13 +16,18 @@ query_triggers:
 - src_unknown
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 产品内核十大典型指标
+  - 产品内核十大典型指标：从获客到推荐的度量框架
+  - 从获客到推荐的度量框架
+  - 内核十大典型指标
+  - 客到推荐的度量框架
 source_refs:
 - pending_archive:src_20260510_5ef61f8f-一堂产品内核十大典型指标
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂产品内核十大典型指标
 ---
 # 产品内核十大典型指标：从获客到推荐的度量框架

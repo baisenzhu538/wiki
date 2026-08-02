@@ -1,11 +1,18 @@
 ---
 id: dk-modeling-business-visual-logic-match
+title: "交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配"
 related:
 - '[[dk-yb25-solution-driven-visual-design]]'
 - '[[dk-yb22-visual-presentation-scene-match]]'
 - '[[dk-ji-hao-ai-cant-design-structure]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+aliases:
+  - 交互设计的精髓不是好看
+  - 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
+  - 务逻辑和视觉逻辑高度匹配
+  - 是业务逻辑和视觉逻辑高度匹配
+  - 设计的精髓不是好看
 source_refs:
 - pending_archive: src_unknown
 tags:
@@ -13,7 +20,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
 
 ## 原始表述

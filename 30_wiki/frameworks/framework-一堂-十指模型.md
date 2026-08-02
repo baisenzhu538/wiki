@@ -20,6 +20,10 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2878-L2888
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-笔记.txt L80-L80
 related:
+discoverable_by:
+  - "十指模型"
+  - "左手五化右手五化"
+  - "黄宝书演示"
 - '[[case-一堂-组合篇案例库]]'
 - '[[conversion-rate-domain-digest]]'
 - '[[framework-一堂-六大优化原则]]'
@@ -41,6 +45,20 @@ quality_labels:
 - cited
 - actionable
 tags:
+aliases:
+  - 一堂十指模型
+  - 左手五化场景/口语/数字/故事/素材+
+  - 右手五化比喻/金句/情绪/冲突/升华+
+  - 黄宝书完整演示
+  - 五化比喻
+  - 化右手五化
+aliases:
+  - 一堂十指模型
+  - 左手五化场景/口语/数字/故事/素材+
+  - 右手五化比喻/金句/情绪/冲突/升华+
+  - 黄宝书完整演示
+  - 手五化右手五化
+  - 宝书演示
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

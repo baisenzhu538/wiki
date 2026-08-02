@@ -27,6 +27,32 @@ EXCEPTIONS_FILE = VAULT_ROOT / "90_control" / ".lint_exceptions.json"
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 SOURCE_REF_RE = re.compile(r"^src_[0-9]{8}_[a-f0-9]{8}$")
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]")
+SECTION_HEADING_RE = re.compile(r"^##\s+(.+)$", re.MULTILINE)
+
+# ── R1: dk 七段完整性（#213 P0-2 + #214 P0-1 同源）────
+DK_SEVEN_SECTIONS = [
+    "原始表述", "使用场景", "操作方法", "适用边界",
+    "为什么值钱", "与其他知识的关联", "Critique"
+]
+
+# ── R2: section 名拼写白名单（#213 P0-1 三处 Critque 漏检）────
+# 已知错误拼写 → 正确拼写
+SECTION_TYPO_MAP = {
+    "Critque": "Critique",
+    "Snythesis": "Synthesis",
+    "Synthsis": "Synthesis",
+    "Failure Modes": "失败模式",
+}
+
+# ── HINT_MAP: 错误码→场景化修复提示（讲香升级 #220 P0-1）────
+ERROR_HINT_MAP = {
+    "DK_SECTION MISSING": "补上缺失的标准段后再提交。欧阳锋终审会直接退回缺段的 dk 卡。",
+    "SECTION TYPO": "拼写错误 = 该段在 lint 眼里不存在 = 等同于缺段。改成正确拼写即可。",
+    "F1 VIOLATION": "缺 updated_at 会让欧阳锋无法判断这张卡是否过时。补上最近修改日期。",
+    "R6 SEARCH BLOCK": "title 为空 → 外部 Agent（小昭/Codex）永远搜不到这张卡。补上中文标题。",
+    "R6 WARN": "缺中文 aliases 或 scene 标签 → 卡存在但搜不到。老顽童提交前补上。",
+    "F3 DUPLICATE ID": "两个文件用了同一个 id → 其中一个可能是旧副本。确认后删除重复文件或用不同 id。",
+}
 
 
 def parse_yaml_frontmatter(text: str) -> dict:
@@ -107,6 +133,27 @@ def parse_schema(text: str) -> dict:
     return schema
 
 
+def check_dk_sections(content: str, rel: str) -> list:
+    """R1: dk 七段完整性校验——缺任一段（含 Critique）→ ERROR。（#213 P0-2 + #214 P0-1）"""
+    errors = []
+    for section in DK_SEVEN_SECTIONS:
+        pattern = re.compile(rf"^##\s+{re.escape(section)}\s*$", re.MULTILINE)
+        if not pattern.search(content):
+            errors.append(f"{rel}: DK_SECTION MISSING: ## {section} (dk card must have all 7 standard sections)")
+    return errors
+
+
+def check_section_spelling(content: str, rel: str) -> list:
+    """R2: 标准 section 名拼写校验——已知错误拼写 → 报错提示正确拼写。（#213 P0-1）"""
+    errors = []
+    for m in SECTION_HEADING_RE.finditer(content):
+        heading = m.group(1).strip()
+        if heading in SECTION_TYPO_MAP:
+            correct = SECTION_TYPO_MAP[heading]
+            errors.append(f"{rel}: SECTION TYPO: '## {heading}' → should be '## {correct}' (typo means section is invisible to standard checks)")
+    return errors
+
+
 def check_source_refs_exist(fm: dict, rel: str) -> list:
     """检查 source_refs 指向的文件是否真实存在。（新增 2026-06-21）"""
     errors = []
@@ -135,6 +182,12 @@ def check_source_refs_exist(fm: dict, rel: str) -> list:
         candidate = VAULT_ROOT / clean
         if not candidate.exists():
             errors.append(f"{rel}: source_refs dead file: {s}")
+
+    # R6/S4: source_refs 指向 00_inbox/ 而非 10_raw/sources/（#214 P0 任务单边界未完成）
+    for ref in refs:
+        s = str(ref).strip()
+        if s.startswith("00_inbox/") and not s.startswith("00_inbox/_vlm") and not s.startswith("00_inbox/ocr"):
+            errors.append(f"{rel}: source_refs WARN: points to 00_inbox/ not 10_raw/sources/ — source file should be moved to 10_raw/sources/: {s[:100]}")
 
     # 检查已知污染模式
     CONTAMINATION = "src_20260503_52ae08ba"
@@ -209,8 +262,40 @@ def validate_file(fp: Path, schemas: dict) -> list:
         if "## TCPR 身份声明" not in content:
             errors.append(f"{rel}: WARN: agent-spec System Prompt missing TCPR identity declaration")
 
+    # R6: 搜索可达性 — title/aliases/tags 不完整导致外部 Agent 搜不到（小昭 2026-08-02 诊断）
+    title = fm.get("title")
+    if title is None:
+        title = ""
+    title = str(title).strip().strip("'\"")
+    if not title:
+        errors.append(f"{rel}: R6 SEARCH BLOCK: title is empty — card invisible to kdo_search (external agents cannot discover it)")
+    aliases = fm.get("aliases", [])
+    if aliases is None:
+        aliases = []
+    if isinstance(aliases, str):
+        aliases = [aliases]
+    has_chinese_alias = any(re.search(r'[一-鿿]', str(a)) for a in aliases if a)
+    if not has_chinese_alias:
+        errors.append(f"{rel}: R6 WARN: aliases missing Chinese keywords — card unreachable via Chinese search terms")
+    tags = fm.get("tags", [])
+    if tags is None:
+        tags = []
+    if isinstance(tags, str):
+        tags = [tags]
+    has_audience = any("audience" in str(t) for t in tags if t)
+    has_scene = any("scene" in str(t) for t in tags if t)
+    if not has_audience or not has_scene:
+        errors.append(f"{rel}: R6 WARN: tags missing audience/scene — card won't appear in scenario-based search results")
+
     # source_refs 文件存在性检查
     errors.extend(check_source_refs_exist(fm, rel))
+
+    # R2: section 名拼写校验（#213 P0-1 — Critque/Failure Modes 等已知错误拼写）
+    errors.extend(check_section_spelling(content, rel))
+
+    # R1: dk 七段完整性（#213 P0-2 + #214 P0-1）
+    if page_type == "dk":
+        errors.extend(check_dk_sections(content, rel))
 
     # F1: updated_at 必填（欧阳锋 F1 扣分项 — 2026-07-12 系统化 enforce）
     updated_at = fm.get("updated_at", "")
@@ -234,6 +319,9 @@ def lint(target: Path) -> dict:
     else:
         # 可能是多个路径（shell glob 展开）
         return {"files_checked": 0, "errors": [], "passed": True}
+
+    id_to_paths: dict[str, list[str]] = {}  # card_id → [relative_paths]
+
     for fp in md_files:
         file_count += 1
         errs = validate_file(fp, schemas)
@@ -255,6 +343,9 @@ def lint(target: Path) -> dict:
                     card_ids.add(cid)
                     # 同时注册文件名（解决中文文件名引用）
                     card_ids.add(fp.stem)
+                    # 记录 id→路径 映射（重复检测用）
+                    rel_path = fp.relative_to(VAULT_ROOT).as_posix()
+                    id_to_paths.setdefault(cid, []).append(rel_path)
                     related = fm.get("related", [])
                     if isinstance(related, str):
                         related = [related.strip().strip("'\"")] if related.strip() else []
@@ -292,6 +383,13 @@ def lint(target: Path) -> dict:
                 if cid not in target_related:
                     f2_errors.append(f"F2 MISSING BACKLINK: {cid} → {target} (target has no backlink to {cid})")
     all_errors.extend(f2_errors)
+
+    # F3: 重复卡片检测（#217 R3 — 同 id 不同文件 / 标题高度相似）
+    dup_errors = []
+    for cid, paths in id_to_paths.items():
+        if len(paths) > 1:
+            dup_errors.append(f"F3 DUPLICATE ID: '{cid}' appears in {len(paths)} files → {', '.join(paths)}")
+    all_errors.extend(dup_errors)
 
     return {
         "files_checked": file_count,
@@ -509,6 +607,11 @@ def main():
     if filtered:
         for err in filtered:
             print(f"  [ERROR] {err}")
+            # 讲香升级: 追加场景化修复提示
+            for code, hint in ERROR_HINT_MAP.items():
+                if code in err:
+                    print(f"           {hint}")
+                    break
         sys.exit(1)
     else:
         if args.incremental and baseline:

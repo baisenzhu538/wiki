@@ -19,6 +19,10 @@ source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/基本功武器库_vlm.md
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/整合笔记_苦练基本功完整版.md
 related:
+discoverable_by:
+  - "拆建推练"
+  - "基本功四字诀"
+  - "动作练成组织能力"
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[concept-一堂-基本功定义]]'
 - '[[management-domain-digest]]'
@@ -45,6 +49,20 @@ quality_labels:
 - principle
 - insight - framework-yitang-thought-liberation-lightning
 tags:
+aliases:
+  - 基本功四字诀拆建推练：把一个动作练成组织能力
+  - 基本功四字诀拆建推练
+  - 把一个动作练成组织能力
+  - 本功四字诀
+  - 四字诀
+  - 作练成组织能力
+aliases:
+  - 基本功四字诀拆建推练：把一个动作练成组织能力
+  - 基本功四字诀拆建推练
+  - 把一个动作练成组织能力
+  - 作练成组织能力
+  - 本功四字诀
+  - 建推练
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

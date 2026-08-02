@@ -1,4 +1,4 @@
-﻿---
+---
 id: concept-一堂-kernel-validation
 title: 产品内核验证：三维度评估 + 六策略验证
 type: concept
@@ -10,6 +10,13 @@ domain:
 - yitang
 source_person: Truman
 source_context: 一堂产品内核验证课（2026年）
+aliases:
+  - Truman
+  - 三维度评估
+  - 产品内核验证
+  - 产品内核验证：三维度评估+六策略验证
+  - 六策略验证
+  - 陈贤敏汉堡
 source_refs:
 - src_unknown
 created_at: 2026-06-09

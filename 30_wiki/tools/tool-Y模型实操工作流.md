@@ -13,6 +13,12 @@ domain:
 - yitang
 - decision-science
 - methodology
+aliases:
+  - Y模型实操工作流
+  - Y模型实操工作流：从分析到决策的完整路径
+  - 从分析到决策的完整路径
+  - 型实操工作流
+  - 析到决策的完整路径
 source_refs:
 - 30_wiki/methods/method-yitang-y-model-engine-cycle.md
 - 30_wiki/tools/tool-yitang-Y-model-application.md

@@ -15,6 +15,9 @@ domain:
 - business-formula
 confidence: 0.85
 trust_level: high
+aliases:
+  - 业务公式定性参数行为化指标库
+  - 公式定性参数行为化指标库
 source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
@@ -36,6 +39,12 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 定性参数
+- 行为化指标
+- 参数量化
+- 定性转定量
+- 业务指标库
 ---
 
 # 业务公式定性参数行为化指标库

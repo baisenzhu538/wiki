@@ -18,6 +18,11 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - Truman
+  - 一堂如何用工业化生产保证每周高质量做课
+  - 案例
+  - 案例：一堂如何用工业化生产保证每周高质量做课
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-笔记.txt
@@ -38,7 +43,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 一堂做课工业化
 ---

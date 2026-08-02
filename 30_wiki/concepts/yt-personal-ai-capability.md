@@ -29,6 +29,10 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - AI能力双模型
+  - 双模型
+  - 能力双模型
 source_refs:
 - 10_raw/sources/src_20260614_ea308189-一堂-教学能力修炼分享.md
 status: enriched
@@ -58,7 +62,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 教学能力修炼分享
 ---
 

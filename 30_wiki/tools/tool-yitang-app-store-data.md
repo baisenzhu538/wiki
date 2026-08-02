@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - APP数据查询
+  - APP数据查询：应用商店排名与下载量估算
+  - 商店排名与下载量估算
+  - 应用商店排名与下载量估算
+  - 数据查询
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -28,7 +34,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

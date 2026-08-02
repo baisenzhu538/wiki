@@ -43,6 +43,10 @@ related:
 - '[[tool-yitang-research-deep-attribution]]'
 - '[[tool-yitang-reverse-data-analysis]]'
 tags:
+aliases:
+  - 定量建模：用数字说话的分析框架
+  - 定量建模
+  - 用数字说话的分析框架
 - audience:executor
 - scene:execution
 - skill-level:intermediate

@@ -26,6 +26,8 @@ source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计实操-口述.txt
 source_person: 兰毅 / 一堂
 related:
+discoverable_by:
+  - "泛产品组织"
 - '[[case-panproduct-lanyi-shidonghui-npc]]'
 - '[[dk-panproduct-org-linear-to-circular]]'
 - '[[dk-panproduct-org-serve-the-lowest]]'
@@ -37,6 +39,19 @@ related:
 review_date: '2026-06-28'
 created_at: '2026-06-30'
 tags:
+aliases:
+  - 泛产品组织设计：把团队当成产品来打磨
+  - 泛产品组织设计
+  - 把团队当成产品来打磨
+  - 兰毅 / 一堂
+  - 队当成产品来打磨
+  - 品组织设计
+aliases:
+  - 泛产品组织设计：把团队当成产品来打磨
+  - 泛产品组织设计
+  - 把团队当成产品来打磨
+  - 兰毅 / 一堂
+  - 产品组织
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

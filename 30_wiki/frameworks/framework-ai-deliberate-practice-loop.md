@@ -28,12 +28,27 @@ source_refs:
 - pending_archive:S. Guo et al., "Using generative AI and multi-agents to provide
   automatic feedback," arXiv:2411.07407, 2024
 related:
+discoverable_by:
+  - "AI刻意练习闭环"
+  - "AI练习伙伴"
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
 - '[[framework-yitang-three-ring-ability-focus]]'
 - framework-yitang-deliberate-practice-1plus4
 - framework-一堂五步法-泛产品设计
 tags:
+aliases:
+  - AI刻意练习闭环：把AI当作按需生成的练习伙伴
+  - 刻意练习闭环
+  - 当作按需生成的练习伙伴
+  - 练习闭环
+  - 按需生成的练习伙伴
+  - 练习伙伴
+aliases:
+  - AI刻意练习闭环：把AI当作按需生成的练习伙伴
+  - 刻意练习闭环
+  - 当作按需生成的练习伙伴
+  - 练习伙伴
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

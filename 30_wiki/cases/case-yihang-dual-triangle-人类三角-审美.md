@@ -14,6 +14,18 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/人类三角-审美_vlm.md
 tags:
+aliases:
+  - 人类三角审美双三角案例
+  - 人类三角
+  - 审美
+  - 双三角案例
+  - 三角审美双三角案例
+  - 角案例
+aliases:
+  - 人类三角审美双三角案例
+  - 人类三角
+  - 审美
+  - 双三角案例
 - '#domain/ai-collaboration'
 - '#method/dual-triangle'
 - audience:general

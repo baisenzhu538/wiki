@@ -36,6 +36,11 @@ related:
 - '[[tool-月白-找AI要平台专属方法（模型对抗法）]]'
 - '[[tool-月白-精准改图提示词写法]]'
 tags:
+aliases:
+  - 技能：AI生成棉花娃娃形象
+  - 技能
+  - AI生成棉花娃娃形象
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

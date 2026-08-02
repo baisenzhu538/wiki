@@ -10,6 +10,11 @@ domain:
 status: reviewed
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
+aliases:
+  - 技能
+  - 技能：遵循规模前倾原则设计组织架构
+  - 课程设计者
+  - 遵循规模前倾原则设计组织架构
 source_refs:
 - 10_raw/sources/src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点.md
 definition_of_done:
@@ -42,7 +47,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:beginner
-aliases:
 - 单元模型
 - 规模对抗实操难点
 ---

@@ -29,6 +29,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 双三角审查
+- AI审查
+- 内容审查
+- 双三角评估
+- 质量把控
 ---
 
 # 双三角 AI 辅助复盘法：让 AI 拆解你自己的协作过程

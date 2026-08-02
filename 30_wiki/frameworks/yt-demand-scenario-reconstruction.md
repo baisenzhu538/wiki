@@ -7,6 +7,12 @@ status: reviewed
 confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析口述——"描述用户使用场景的三个层次"
+aliases:
+  - 使用前中后的完整体验地图
+  - 前中后的完整体验地图
+  - 场景重构法
+  - 用户场景重构法
+  - 用户场景重构法：使用前中后的完整体验地图
 source_refs:
 - pending_archive:src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 created_at: '2026-06-19'
@@ -35,8 +41,13 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 一堂五步法
+discoverable_by:
+- 场景重建
+- 用户场景还原
+- 需求场景分析
+- 场景驱动设计
+- 用户故事场景
 ---
 
 

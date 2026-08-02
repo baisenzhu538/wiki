@@ -10,6 +10,13 @@ industry: 通用
 scale: 团队
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
+aliases:
+  - Truman
+  - 个散点升级成逻辑链
+  - 案例
+  - 案例：Truman重构销售失利汇报把10个散点升级成逻辑链
+  - 重构销售失利汇报
+  - 销售失利汇报
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 wiki_refs:
@@ -55,7 +62,6 @@ related:
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - '[[case-科学决策-深度案例06]]'
-aliases:
 - 建模能力培训
 ---
 

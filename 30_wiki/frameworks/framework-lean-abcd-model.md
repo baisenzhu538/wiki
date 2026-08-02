@@ -17,6 +17,9 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-关键假设ABCD模型_vlm_desc.md
 - 00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md
 related:
+discoverable_by:
+  - "关键假设ABCD模型"
+  - "精益ABCD"
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
@@ -35,6 +38,16 @@ quality_labels:
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
 tags:
+aliases:
+  - 关键假设ABCD模型
+  - 关键假设
+  - 模型
+  - 键假设
+aliases:
+  - 关键假设ABCD模型
+  - 关键假设
+  - 模型
+  - 键假设
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

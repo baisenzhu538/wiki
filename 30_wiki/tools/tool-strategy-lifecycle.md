@@ -8,6 +8,10 @@ trust_level: high
 domain:
 - strategy
 - entrepreneurship
+aliases:
+  - 企业生命周期战略
+  - 企业生命周期战略：从0到1、从N到∞、从N到0
+  - 生命周期战略
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_26_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_26_vlm_desc.md
@@ -26,7 +30,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

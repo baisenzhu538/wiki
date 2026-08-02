@@ -20,6 +20,11 @@ query_triggers:
 - src_unknown
 review_date: 2026-06-17
 reviewed_by: 欧阳锋
+aliases:
+  - 五步法的段位盲区与自评陷阱
+  - 暗知识
+  - 暗知识：五步法的段位盲区与自评陷阱
+  - 法的段位盲区与自评陷阱
 source_refs:
 - 10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md
 - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
@@ -59,7 +64,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 - 单元模型
 - 落地实操

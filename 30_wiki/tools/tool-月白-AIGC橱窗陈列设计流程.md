@@ -48,6 +48,11 @@ related:
 - '[[tool-月白-设计项目MVP拆解法]]'
 - '[[tool-月白-风格不变局部调整]]'
 tags:
+aliases:
+  - 技能：AIGC橱窗陈列设计流程
+  - 技能
+  - AIGC橱窗陈列设计流程
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -20,6 +20,8 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
+discoverable_by:
+  - "王欢任务产品系统演进"
 - '[[tool-mece体系框架法]]'
 - '[[tool-泛产品落地-内核和边界]]'
 - '[[tool-泛产品落地-灵感闪现]]'
@@ -39,6 +41,16 @@ diagnostic_signals:
 - lens: 系统层缺口
   follow_up: 绘制数据流图，识别自动触发点与人工验收点，设计最小闭环
 tags:
+aliases:
+  - 王欢任务→产品→系统演进框架
+  - 王欢
+  - 欢任务产品系统演进
+  - 系统演进框架
+  - 务产品系统演进
+aliases:
+  - 王欢任务→产品→系统演进框架
+  - 王欢
+  - 欢任务产品系统演进
 - src_unknown
 - src_unknown
 - src_unknown

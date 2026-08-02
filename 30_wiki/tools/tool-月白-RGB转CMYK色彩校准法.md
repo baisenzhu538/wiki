@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-RGB转CMYK印刷预检]]'
 - '[[tool-月白-PS图层规范管理]]'
 tags:
+aliases:
+  - 技能：RGB转CMYK色彩校准法
+  - 技能
+  - RGB转CMYK色彩校准法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -24,6 +24,10 @@ related:
 - tool-水水-利用叙事驱动决策
 - tool-水水-识别自证预言陷阱
 tags:
+aliases:
+  - 技能：降低故事逻辑要求
+  - 技能
+  - 降低故事逻辑要求
 - audience:executor
 - scene:execution
 - skill-level:intermediate

@@ -42,6 +42,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 收件箱标注
+- 素材标注
+- 内容分类
+- KDO inbox
+- 信息预处理
 ---
 
 # Inbox 素材标注方法——老顽童影子诊断三方法

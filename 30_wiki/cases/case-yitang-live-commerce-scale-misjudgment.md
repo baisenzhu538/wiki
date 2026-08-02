@@ -14,6 +14,13 @@ updated_at: '2026-07-04'
 domain:
 - yitang
 - decision-science
+aliases:
+  - 以电视购物做类比导致以偏概全
+  - 案例
+  - 案例：直播电商规模误判以电视购物做类比导致以偏概全
+  - 电商规模误判
+  - 直播电商规模误判
+  - 视购物做类比导致以偏概全
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
@@ -24,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - extractions
 ---
 

@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 印尼寿险分支
+  - 印尼寿险分支场景错配
+  - 场景错配
+  - 寿险分支
+  - 案例
+  - 案例：印尼寿险分支场景错配
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
@@ -31,7 +38,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 五步法之需求分析
 - 需求评估避坑合集
 ---

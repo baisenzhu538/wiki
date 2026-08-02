@@ -32,6 +32,12 @@ related:
 - '[[tool-Truman-开源模型与商业模型融合方案]]'
 - '[[tool-月白-图片逆向反推提示词法]]'
 tags:
+aliases:
+  - 技能：提示词优化：信息流海报文字修复
+  - 技能
+  - 提示词优化
+  - 信息流海报文字修复
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

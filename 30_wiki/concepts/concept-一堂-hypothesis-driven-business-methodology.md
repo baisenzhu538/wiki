@@ -10,6 +10,10 @@ domain:
 - src_unknown
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课/商业预判课/产品内核课程笔记
+aliases:
+  - 一堂·Truman
+  - 一堂假设驱动型创业分析方法论
+  - 假设驱动型创业分析方法论
 source_refs:
 - 10_raw/sources/src_20260606_22c4a291-一堂-关键假设课-truman-笔记.md
 - 10_raw/sources/src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记.md
@@ -64,7 +68,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核迭代课
 - 产品内核验证课

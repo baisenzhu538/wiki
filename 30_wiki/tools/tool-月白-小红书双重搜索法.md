@@ -57,6 +57,11 @@ related:
 - '[[tool-月白-设计参考图精准定位法]]'
 - '[[tool-月白-资深设计师AI工具切换法]]'
 tags:
+aliases:
+  - 技能：小红书双重搜索法
+  - 技能
+  - 小红书双重搜索法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

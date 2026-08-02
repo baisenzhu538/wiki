@@ -16,6 +16,10 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+discoverable_by:
+  - "凯纳创新方向"
+  - "创新方向分类"
+  - "创新路径框架"
 - '[[strategy-domain-digest]]'
 - '[[tool-mece体系框架法]]'
 - '[[tool-使用一页纸速查卡快速调用框架]]'
@@ -26,6 +30,18 @@ related:
 - concept-yitang-research-objective
 - tool-yitang-research-exhaust-means
 tags:
+aliases:
+  - 凯纳创新方向分类框架
+  - 纳创新方向
+  - 新方向
+  - 向分类
+  - 创新方向分类框架
+  - 径框架
+aliases:
+  - 凯纳创新方向分类框架
+  - 新路径框架
+  - 纳创新方向
+  - 新方向分类
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

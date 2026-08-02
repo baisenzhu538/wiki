@@ -2,6 +2,9 @@
 id: ai时代判断力口述
 created_at: 2026-05-25
 domain: healthcare
+aliases:
+  - AI时代判断力口述
+  - 时代判断力口述
 source_refs:
 - 10_raw/sources/src_20260525_6748cc27-ai时代判断力口述.md
 status: reviewed
@@ -26,7 +29,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 时代判断力口述
 ---
 # AI时代判断力口述

@@ -14,6 +14,12 @@ created_at: '2026-07-20'
 updated_at: '2026-07-20'
 quality_labels:
 - actionable
+aliases:
+  - 事实复盘清单
+  - 六类事实
+  - 案例事实复盘清单
+  - 案例事实复盘清单：六类事实+自访六问
+  - 自访六问
 source_refs:
 - 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt
 - 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt
@@ -26,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 案例打磨方法
 - 案例打造法-李頔
 ---

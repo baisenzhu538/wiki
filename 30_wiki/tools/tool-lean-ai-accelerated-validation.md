@@ -12,6 +12,10 @@ domain:
 - strategy
 - yitang
 - product
+aliases:
+  - AI加速FALSE模型验证
+  - 加速
+  - 模型验证
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212828_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212828_vlm_desc.md
@@ -34,7 +38,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 张磊教练
 - 精益创业
 ---

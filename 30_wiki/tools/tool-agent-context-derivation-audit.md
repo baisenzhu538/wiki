@@ -8,6 +8,12 @@ confidence: 0.8
 trust_level: medium
 domain:
 - system
+aliases:
+  - Agentcontext推导链审计：从经验堆叠到原则推导
+  - context推导链审计
+  - 从经验堆叠到原则推导
+  - 推导链审计
+  - 验堆叠到原则推导
 source_refs:
 - .agent/laowantong-context.md
 - .agent/ouyangfeng-context.md
@@ -34,7 +40,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - control
 ---
 

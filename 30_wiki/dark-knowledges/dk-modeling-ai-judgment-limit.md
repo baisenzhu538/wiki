@@ -32,6 +32,19 @@ tags:
 - skill-level:intermediate
 diagnostic_signals: null
 aliases:
+  - AI能辅助建模，但核心判断必须人做：AI太容易受你影响
+  - 能辅助建模
+  - 但核心判断必须人做
+  - 太容易受你影响
+  - Truman
+  - 易受你影响
+aliases:
+  - AI能辅助建模，但核心判断必须人做：AI太容易受你影响
+  - 能辅助建模
+  - 但核心判断必须人做
+  - 太容易受你影响
+  - Truman
+aliases:
 - 建模能力培训
 ---
 

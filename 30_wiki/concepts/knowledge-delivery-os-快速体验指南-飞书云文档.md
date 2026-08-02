@@ -2,6 +2,13 @@
 id: knowledge-delivery-os-快速体验指南-飞书云文档
 created_at: 2026-04-30
 domain: master
+aliases:
+  - KnowledgeDeliveryOS快速体验指南飞书云文档
+  - 云文档
+  - 体验指南
+  - 快速体验指南
+  - 快速体验指南飞书云文档
+  - 飞书云文档
 source_refs:
 - 10_raw/sources/src_20260501_6a491b80-knowledge-delivery-os-快速体验指南-飞书云文档.md
 status: reviewed
@@ -27,7 +34,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 快速体验指南
 - 飞书云文档
 ---

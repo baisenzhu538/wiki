@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 半年后发现对方已转型
+  - 半年后发现对方已转型B端
+  - 后发现对方已转型
+  - 对标三节课做C端
+  - 案例
+  - 案例：对标三节课做C端，半年后发现对方已转型B端
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 专家访谈调研
 - 调研专题
 ---

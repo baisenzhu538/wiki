@@ -44,6 +44,11 @@ related:
 - '[[tool-月白-线下实体门店设计真实体感验证]]'
 - '[[tool-月白-行业配色快速确定法]]'
 tags:
+aliases:
+  - 技能：实物包装落地训练法
+  - 技能
+  - 实物包装落地训练法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

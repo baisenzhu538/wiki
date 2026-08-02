@@ -22,6 +22,10 @@ related:
 - '[[tool-马易-AIGC项目ROI评估]]'
 - '[[tool-马易-最小场景优先落地法]]'
 tags:
+aliases:
+  - 技能：中国企业AI落地五步法
+  - 技能
+  - 中国企业AI落地五步法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-泛产品设计-需求可行性四字诀
 title: 泛产品设计·需求可行性四字诀（拆推评算）
 type: tool
@@ -28,6 +28,12 @@ related:
   - "[[yt-model-pan-product-product-core]]"
   - "[[yt-model-pan-product-unit-model]]"
   - "[[framework-一堂五步法-泛产品设计]]"
+aliases:
+  - 泛产品设计需求可行性四字诀拆推评算
+  - 泛产品设计
+  - 需求可行性四字诀拆推评算
+  - 一堂五步法
+  - 出牌指南
 ---
 
 # 泛产品设计·需求可行性四字诀（拆推评算）

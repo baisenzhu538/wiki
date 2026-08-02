@@ -30,6 +30,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+discoverable_by:
+- 交叉验证
+- 停止规则
+- 多源验证
+- 调研收敛
+- 信息饱和度
 ---
 
 # 多源交叉验证的停止规则

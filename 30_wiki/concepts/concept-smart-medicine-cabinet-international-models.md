@@ -6,6 +6,10 @@ status: enriched
 domain:
 - healthcare
 - business-strategy
+aliases:
+  - 国际自动取药机/药房模式经验与启示
+  - 自动取药机
+  - 药房模式经验与启示
 source_refs:
 - pending_archive:src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
 - pending_archive:src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis

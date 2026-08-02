@@ -7,6 +7,9 @@ domain:
 - healthcare
 - business-strategy
 - product
+aliases:
+  - 消费者购药行为与智能药柜接受度
+  - 者购药行为与智能药柜接受度
 source_refs:
 - pending_archive:src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
 - pending_archive:src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis

@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - WaybackMachine：网站时光机看竞对的每一个历史版本
+  - 对的每一个历史版本
+  - 时光机
+  - 看竞对的每一个历史版本
+  - 网站时光机
 source_refs:
 - src_unknown
 - src_unknown

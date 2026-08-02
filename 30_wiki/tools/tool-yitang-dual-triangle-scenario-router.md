@@ -12,6 +12,9 @@ language: zh-CN
 domain:
 - yitang
 - ai-collaboration
+aliases:
+  - 双三角场景路由表
+  - 角场景路由表
 source_refs:
 - 60_feedback/diagnosis/diag_20260708_yitang-dual-triangle-cross-domain-agent.md
 - 30_wiki/concepts/concept-yihang-dual-triangle-core.md

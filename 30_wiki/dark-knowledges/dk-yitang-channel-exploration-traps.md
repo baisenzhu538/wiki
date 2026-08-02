@@ -16,6 +16,13 @@ quality_labels:
 - quality
 - validated
 updated_at: 2026-07-02
+aliases:
+  - Truman
+  - 万字共建作业里的血泪教训
+  - 共建作业里的血泪教训
+  - 探索常见陷阱
+  - 渠道探索常见陷阱
+  - 渠道探索常见陷阱：18万字共建作业里的血泪教训
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-反案例-渠道扫描错误案例.png
@@ -42,7 +49,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 反案例
 ---

@@ -27,6 +27,10 @@ related:
 - '[[tool-水水-识别饥饿效应]]'
 - '[[tool-水水-避免原生家庭万能归因]]'
 tags:
+aliases:
+  - 技能：用感性维度构建溢价
+  - 技能
+  - 用感性维度构建溢价
 - audience:executor
 - scene:execution
 - skill-level:intermediate

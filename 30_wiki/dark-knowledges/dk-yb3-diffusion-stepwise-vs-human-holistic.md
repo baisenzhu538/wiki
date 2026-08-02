@@ -8,6 +8,13 @@ domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
+aliases:
+  - AI生图'抽卡'本质
+  - AI生图'抽卡'本质：逐步拆解vs人类整体构思
+  - 人类整体构思
+  - 整体构思
+  - 月白
+  - 逐步拆解
 source_refs:
 - src_unknown
 created_at: 2026-06-04

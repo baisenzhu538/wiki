@@ -32,6 +32,11 @@ related:
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 - '[[tool-月白-纳米级抄大师训练法]]'
 tags:
+aliases:
+  - 技能：口述作图法口喷设计
+  - 技能
+  - 口述作图法口喷设计
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

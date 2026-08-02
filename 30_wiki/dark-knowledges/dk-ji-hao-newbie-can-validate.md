@@ -9,6 +9,13 @@ domain:
 - yitang
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论 分享——四要素验证法的补充说明
+aliases:
+  - 不是眼光
+  - 因为验证靠的是工具
+  - 新手也可以用工具验证
+  - 暗知识
+  - 暗知识：新手也可以用工具验证因为验证靠的是工具，不是眼光
+  - 纪浩
 source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 created_at: '2026-06-07'
@@ -37,7 +44,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 协作方法论
 ---
 

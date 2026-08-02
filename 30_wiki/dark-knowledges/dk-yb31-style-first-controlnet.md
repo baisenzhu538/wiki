@@ -8,6 +8,13 @@ domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
+aliases:
+  - AI绘图工作流
+  - AI绘图工作流：先锁风格再开ControlNet
+  - 先锁风格再开
+  - 先锁风格再开ControlNet
+  - 月白
+  - 风格再开
 source_refs:
 - 00_inbox/design/AI设计-AI设计基础01.txt
 created_at: 2026-06-04
@@ -24,7 +31,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
-aliases:
 - 设计基础
 ---
 

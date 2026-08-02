@@ -10,6 +10,13 @@ industry: 在线教育/AI 产品
 scale: 公司
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
+aliases:
+  - Truman
+  - 一堂把双三角模型变成
+  - 案例
+  - 案例：一堂把双三角模型变成AI难题的通用解题底盘
+  - 的通用解题底盘
+  - 难题的通用解题底盘
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
@@ -58,7 +65,6 @@ diagnostic_signals:
   follow_up: 在动手前先回答：这个任务的六维要素是否已覆盖？里程碑是什么？
 - lens: 体系/里程碑成为最大卡点，而非基本功或数据
   follow_up: 用双三角做前置筹备，把“六词空壳”往下推两层变成具体检查项和动作
-aliases:
 - 建模能力培训
 ---
 # 案例：一堂把双三角模型变成 AI 难题的通用解题底盘

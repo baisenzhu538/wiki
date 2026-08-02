@@ -17,12 +17,29 @@ quality_labels:
 source_refs:
 - 00_inbox/Advanced modeling/ 口述 L1916-L1970
 related:
+discoverable_by:
+  - "建模关系探索"
+  - "建模底层连接"
 - framework-kdo-modeling-methodology
 - concept-truman-18-component-cards
 - concept-kdo-component-library
 - modeling-three-stages
 - yt-decision-y-model
 tags:
+aliases:
+  - 流程建模的关系探索：关系vs规律，从并列到因果
+  - 流程建模的关系探索
+  - 关系vs规律
+  - 从并列到因果
+  - 建模的关系探索
+  - 系探索
+aliases:
+  - 流程建模的关系探索：关系vs规律，从并列到因果
+  - 流程建模的关系探索
+  - 关系vs规律
+  - 从并列到因果
+  - 模底层连接
+  - 模关系探索
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

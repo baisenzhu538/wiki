@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-listening-37-rule
 title: 阿里铁军聆听三七法则执行卡
 type: tool
@@ -15,6 +15,15 @@ domain:
   - business-strategy
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
+aliases:
+  - 有工具
+  - 李蕊
+  - 铁军的三七法则
+  - 销售专题
+  - 销售有工具
+  - 销售系统之五
+  - 阿里铁军的三七法则
+  - 阿里铁军聆听三七法则执行卡
 source_refs:
   - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L1488-L1524
   - 00_inbox/销售专题/_processed/销售有工具-阿里铁军的三七法则_vlm.md L5-L27

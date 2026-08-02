@@ -25,6 +25,9 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L2328-L2410
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L2422-L2488
 related:
+discoverable_by:
+  - "阻力方法论骨架"
+  - "降低消除逆转阻力"
 - '[[case-一堂-作业率20到50]]'
 - '[[case-一堂-阻力篇案例库]]'
 - '[[conversion-rate-domain-digest]]'
@@ -62,6 +65,20 @@ quality_labels:
 - cited
 - actionable
 tags:
+aliases:
+  - 一堂阻力方法论骨架
+  - 两大误区
+  - 消除深度三层降低/消除/逆转+
+  - 消除时机三种被动/主动/伏笔式
+  - 伏笔式
+  - 时机三种被动
+aliases:
+  - 一堂阻力方法论骨架
+  - 两大误区
+  - 消除深度三层降低/消除/逆转+
+  - 消除时机三种被动/主动/伏笔式
+  - 低消除逆转阻力
+  - 力方法论骨架
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

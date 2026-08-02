@@ -2,6 +2,13 @@
 id: case-livestream-sop-modeling
 title: 案例：直播前热身 SOP 建模
 type: case
+aliases:
+  - Truman
+  - 前热身
+  - 建模
+  - 案例
+  - 案例：直播前热身SOP建模
+  - 直播前热身
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
@@ -43,7 +50,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 建模能力培训
 - 流程建模
 - 高阶建模

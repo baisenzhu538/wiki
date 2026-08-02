@@ -6,6 +6,14 @@ status: reviewed
 domain:
 - src_unknown
 - src_unknown
+aliases:
+  - TrustedAdvisor：可信顾问信任模型
+  - 任度诊断框架
+  - 何建立客户信任
+  - 信任公式
+  - 信任模型
+  - 可信顾问信任模型
+  - 立客户信任
 source_refs:
 - src_unknown
 - src_unknown
@@ -19,6 +27,12 @@ bridges_to:
 - relation: applies_to
   description: 五步法的需求分析环节需要创业者成为自己团队的 Trusted Advisor
   context: 创始人在团队内部做需求调研，同样需要信任关系，否则得不到真实反馈
+discoverable_by:
+  - "Trusted Advisor信任模型"
+  - "可信顾问模型"
+  - "Maister信任公式"
+  - "如何建立客户信任"
+  - "信任度诊断框架"
 diagnostic_signals:
 - framework_lens: Trusted Advisor 检查：信任度还不足以支撑建议输出
   follow_up_question: 目前我们还在了解情况的阶段，为什么这个问题对你来说是最紧急的？

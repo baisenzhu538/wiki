@@ -8,6 +8,12 @@ status: reviewed
 confidence: 0.92
 trust_level: high
 source_context: 一堂五步法需求分析——跑步机案例
+aliases:
+  - 分析全流程实战
+  - 机案例
+  - 跑步机案例
+  - 跑步机案例：需求分析全流程实战
+  - 需求分析全流程实战
 source_refs:
 - 10_raw/sources/src_20260610_c8e74781-一堂-一堂五步法-需求-跑步机案例-需求分析图.md
 - 10_raw/sources/src_20260611_375ccfae-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
@@ -36,7 +42,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 一堂五步法
 - 跑步机案例
 - 需求分析图

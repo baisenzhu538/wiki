@@ -2,6 +2,7 @@
 domain:
 - modeling
 id: yt-model-management-map
+title: "一堂管理地图：高潜力管理者修炼全景图"
 status: reviewed
 confidence: 0.85
 created_at: 2026-05-07
@@ -20,6 +21,12 @@ query_triggers:
 - src_unknown
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 一堂管理地图
+  - 一堂管理地图：高潜力管理者修炼全景图
+  - 力管理者修炼全景图
+  - 管理地图
+  - 高潜力管理者修炼全景图
 source_refs:
 - pending_archive:src_20260613_96e45c45-qishijian-business-model
 related:

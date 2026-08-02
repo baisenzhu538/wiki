@@ -9,6 +9,13 @@ domain:
 - business-strategy
 source_person: 老朱
 source_context: YC口述/AI时代组织与代码价值判断
+aliases:
+  - 上下文才是
+  - 业务上下文才是AI时代的永恒资产
+  - 代码正在变成一次性消耗品
+  - 代码正在变成一次性消耗品业务上下文才是AI时代的永恒资产
+  - 时代的永恒资产
+  - 老朱
 source_refs:
 - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
 - 10_raw/sources/src_20260614_1d4cc0e0-2298战队-AI组织落地探索.md
@@ -35,7 +42,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 公司组织方法论直接把公司当操作系统来设计中层管理变成了
 - 放出一套
 - 组织落地探索

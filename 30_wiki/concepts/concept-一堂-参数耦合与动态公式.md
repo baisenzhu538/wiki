@@ -13,6 +13,13 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 不等于目标涨
+  - 于目标涨
+  - 公式是个活物
+  - 参数耦合与动态公式
+  - 参数耦合与动态公式：A涨30%不等于目标涨30%，公式是个活物
+  - 是个活物
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1082-L1170
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1180-L1236
@@ -51,7 +58,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - handle
 ---
 

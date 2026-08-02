@@ -1,11 +1,15 @@
 ---
 id: yt-barrier-analysis-cheat-sheet
+title: "壁垒分析完整cheatsheet"
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-scale-economy-weapon-library]]'
 - '[[yt-unit-model-three-tools]]'
 - '[[case-toy-cabinet-business-model]]'
 - '[[pending_unknown]]'
+aliases:
+  - 分析完整
+  - 壁垒分析完整cheatsheet
 source_refs:
 - pending_archive: src_unknown
 tags:
@@ -13,7 +17,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 壁垒分析完整cheatsheet
 
 > 来源：一堂五步法·壁垒篇 | [[yt-five-step-method]] | [[yt-scale-economy-weapon-library]] | [[yt-unit-model-three-tools]]

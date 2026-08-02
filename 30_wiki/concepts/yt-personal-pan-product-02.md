@@ -24,6 +24,12 @@ related:
 - '[[pending_unknown]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 品设计落地篇
+  - 无限进步与持续打磨
+  - 泛产品设计落地篇
+  - 泛产品设计落地篇：无限进步与持续打磨
+  - 进步与持续打磨
 source_refs:
 - 10_raw/sources/src_20260522_e4b635ac-ocr-泛产品设计落地篇.md
 status: enriched
@@ -51,7 +57,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 泛产品设计落地篇
 ---
 

@@ -34,6 +34,11 @@ related:
 - tool-纪浩-项目启动五问法
 - tinyfish-agentic-web-infrastructure
 tags:
+aliases:
+  - 技能：AI智价比评估决策
+  - 技能
+  - AI智价比评估决策
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

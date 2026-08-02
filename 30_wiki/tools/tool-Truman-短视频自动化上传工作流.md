@@ -11,6 +11,11 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
+aliases:
+  - 技能
+  - 技能：短视频自动化上传工作流
+  - 短视频自动化上传工作流
+  - 频自动化上传工作流
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'

@@ -16,9 +16,25 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
+discoverable_by:
+  - "AI落地顾问培养"
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-AI-native-dual-triangle-kernel]]'
 tags:
+aliases:
+  - AI落地顾问培养体系双三角笃定+技术产品背景+学习能力+价值观
+  - 落地顾问培养体系
+  - 双三角笃定
+  - 技术产品背景
+  - 学习能力
+  - 价值观
+aliases:
+  - AI落地顾问培养体系双三角笃定+技术产品背景+学习能力+价值观
+  - 落地顾问培养体系
+  - 双三角笃定
+  - 技术产品背景
+  - 学习能力
+  - 价值观
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

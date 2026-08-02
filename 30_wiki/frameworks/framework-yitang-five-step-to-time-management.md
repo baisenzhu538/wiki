@@ -25,6 +25,10 @@ source_refs:
 - 00_inbox/时间管理/时间管理-双环矩阵图.png
 - 00_inbox/时间管理/时间管理-双峰哲学模型.png
 related:
+discoverable_by:
+  - "五步法时间管理"
+  - "自管理场景实例化"
+  - "五步法应用到时间管理"
 - '[[yt-five-step-method-complete]]'
 - '[[framework-一堂五步法-泛产品设计]]'
 - '[[framework-yitang-deliberate-practice-1plus4]]'
@@ -47,6 +51,20 @@ related:
 - '[[framework-time-management-dual-loop-matrix]]'
 - '[[framework-time-management-matrix]]'
 tags:
+aliases:
+  - 一堂五步法在时间管理中的应用：自管理场景的完整实例化
+  - 一堂五步法在时间管理中的应用
+  - 自管理场景的完整实例化
+  - 场景实例化
+  - 五步法在时间管理中的应用
+  - 应用到时间管理
+aliases:
+  - 一堂五步法在时间管理中的应用：自管理场景的完整实例化
+  - 一堂五步法在时间管理中的应用
+  - 自管理场景的完整实例化
+  - 步法应用到时间管理
+  - 步法时间管理
+  - 管理场景实例化
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

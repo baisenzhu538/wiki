@@ -34,6 +34,11 @@ related:
 - '[[tool-月白-设计需求口头化表达法]]'
 - '[[tool-纪浩-AI使用边界管理法]]'
 tags:
+aliases:
+  - 技能：AI对话情绪管理法
+  - 技能
+  - AI对话情绪管理法
+  - 月白
 - audience:manager
 - scene:execution
 - skill-level:beginner

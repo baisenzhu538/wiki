@@ -15,6 +15,9 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+aliases:
+  - 产品UX
+  - 用户体验
 related:
 - '[[design-ai-image-generation]]'
 - '[[business-analysis]]'

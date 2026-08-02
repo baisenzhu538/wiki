@@ -26,6 +26,9 @@ source_refs:
 - 00_inbox/精益创业/truman-低成本验证-思考策略_ocr_text.md
 - 00_inbox/精益创业/truman-低成本验证-思考策略_vlm_desc.md
 related:
+discoverable_by:
+  - "FALSE低成本验证"
+  - "FLESAI验证模型"
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
@@ -41,6 +44,19 @@ related:
 - tool-lean-premium-service
 created_at: '2026-06-30'
 tags:
+aliases:
+  - 一堂FALSE/FLESAI低成本验证模型
+  - 一堂
+  - 低成本验证模型
+  - 验证模型
+  - 本验证模型
+  - 低成本验证
+aliases:
+  - 一堂FALSE/FLESAI低成本验证模型
+  - 一堂
+  - 低成本验证模型
+  - 低成本验证
+  - 验证模型
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

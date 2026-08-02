@@ -31,6 +31,10 @@ related:
 - '[[tool-马易-视频转化关键要素标注校验]]'
 - '[[tool-马易-需求创造验证法]]'
 tags:
+aliases:
+  - 技能：低置信度样本黄金漏斗处理
+  - 技能
+  - 低置信度样本黄金漏斗处理
 - audience:executor
 - scene:execution
 - skill-level:intermediate

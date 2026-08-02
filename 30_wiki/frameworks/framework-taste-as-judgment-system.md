@@ -1,4 +1,4 @@
-﻿---
+---
 id: framework-taste-as-judgment-system
 title: 品味系统：判断力 × 审美 × 系统思维
 type: framework
@@ -23,6 +23,24 @@ quality_labels:
 - principle
 - actionable
 related:
+aliases:
+  - 品味系统：判断力×审美×系统思维
+  - 品味系统
+  - 判断力
+  - 审美
+  - 系统思维
+  - 味系统
+aliases:
+  - 品味系统：判断力×审美×系统思维
+  - 品味系统
+  - 判断力
+  - 审美
+  - 系统思维
+  - 断力审美系统
+discoverable_by:
+  - "品味系统"
+  - "判断力审美系统"
+  - "审美系统思维"
 - "[[concept-AI时代双三角竞争力]]"
 - "[[dk-wanghuan-creativity-in-description-and-taste]]"
 - "[[framework-yihang-aesthetic-judgment-training]]"

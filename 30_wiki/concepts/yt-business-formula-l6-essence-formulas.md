@@ -7,6 +7,12 @@ domain:
 - yitang- yitang
 - master
 - business-strategy
+aliases:
+  - 业务公式
+  - 业务公式L6魔法参数：跨行业本质公式集锦
+  - 业本质公式集锦
+  - 跨行业本质公式集锦
+  - 魔法参数
 source_refs:
 - pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes

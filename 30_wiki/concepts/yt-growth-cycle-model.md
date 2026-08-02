@@ -1,5 +1,6 @@
 ---
 id: yt-growth-cycle-model
+title: "增长周期模型"
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-unit-model-three-tools]]'
@@ -7,6 +8,9 @@ related:
 - '[[yt-barrier-analysis-cheat-sheet]]'
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[pending_unknown]]'
+aliases:
+  - 周期模型
+  - 增长周期模型
 source_refs:
 - pending_archive: src_unknown
 status: enriched
@@ -18,7 +22,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 增长周期模型
 
 > 来源：一堂五步法·增长篇 | [[yt-five-step-method]] | [[yt-unit-model-three-tools]] | [[yt-customer-acquisition-toolkit]]

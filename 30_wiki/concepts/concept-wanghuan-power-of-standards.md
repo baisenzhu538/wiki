@@ -9,6 +9,13 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
+aliases:
+  - 标准的力量
+  - 标准的力量质量乘数
+  - 王欢
+  - 王欢：标准的力量质量乘数
+  - 的力量
+  - 质量乘数
 source_refs:
 - src_unknown
 - src_unknown

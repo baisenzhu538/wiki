@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 亿不是战略
+  - 从现状到
+  - 从现状到100亿的路径才是
+  - 定目标
+  - 战略≠定目标。三年100亿不是战略
+  - 战略≠定目标。三年100亿不是战略，从现状到100亿的路径才是
 source_refs:
 - src_unknown
 related:

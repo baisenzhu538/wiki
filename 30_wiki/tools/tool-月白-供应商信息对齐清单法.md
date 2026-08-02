@@ -33,6 +33,11 @@ related:
 - '[[tool-月白-AI设计落地文件标准生成]]'
 - '[[tool-月白-图像信息逆向解析训练]]'
 tags:
+aliases:
+  - 技能：供应商信息对齐清单法
+  - 技能
+  - 供应商信息对齐清单法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

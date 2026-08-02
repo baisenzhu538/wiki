@@ -1,5 +1,6 @@
 ---
 id: yt-tool-business-formula-metrics-checklist
+title: "业务公式数据埋点设计清单"
 status: enriched
 reviewed_by: pending
 updated_at: '2026-07-12'
@@ -15,11 +16,12 @@ related:
 source_refs:
 - pending_archive: src_unknown
 tags:
+aliases:
+  - 业务公式数据埋点设计清单
 - audience:general
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 业务公式数据埋点设计清单
 
 > 业务公式拆到 L3-L4 后，每个定性参数都需要 3-5 个可定量的行为指标来佐证。本清单帮助你在提出假设的同时，把数据埋点一起设计好，避免“拆完公式却无从验证”。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。

@@ -15,6 +15,13 @@ domain:
 - content-extraction
 - publishing
 - yitang
+aliases:
+  - 分页陷阱
+  - 分页陷阱静默截断比报错更危险
+  - 截断比报错更危险
+  - 静默截断比报错更危险
+  - 飞书API分页陷阱
+  - 飞书API分页陷阱静默截断比报错更危险
 source_refs:
 - src_unknown
 - src_unknown

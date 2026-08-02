@@ -14,6 +14,13 @@ reviewed_by: 欧阳锋
 review_date: '2026-07-01'
 created_at: '2026-07-01'
 updated_at: '2026-06-29'
+aliases:
+  - 二极管思维
+  - 工具迷信
+  - 时间管理三大反模式
+  - 时间管理三大反模式：工具迷信、二极管思维、边界模糊
+  - 管思维
+  - 边界模糊
 source_refs:
 - 00_inbox/时间管理/truman-时间管理课程-口述.txt
 - 00_inbox/时间管理/truman-时间管理课程-笔记.txt

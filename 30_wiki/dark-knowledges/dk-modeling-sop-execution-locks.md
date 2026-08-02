@@ -9,6 +9,13 @@ domain:
 - master
 source_person: Truman
 source_context: 一堂建模能力培训（流程建模案例），2026-06-12
+aliases:
+  - Truman
+  - 写出来≠被执行
+  - 才能把执行率从
+  - 把执行率从
+  - 拉到近
+  - 的两层锁
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
@@ -50,7 +57,6 @@ diagnostic_signals:
   framework_lens: 无限细化不如加锁，锁的层数应基于 ROI 而非完美主义
   follow_up_question: 这个环节的价值/风险/频率是否值得加第二层甚至第三层锁？低价值环节能否先只留一层？# SOP 写出来≠被执行：给 SOP
     加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
-aliases:
 - 建模能力培训
 - 流程建模
 - 高阶建模

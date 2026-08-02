@@ -8,6 +8,13 @@ domain:
 - master
 source_person: 欧阳锋
 source_context: pitfalls.md P-10，老顽童 Batch 2+3 审查，2026-06-03
+aliases:
+  - P10：口头禁令vs书面约束审查意见必须落笔到任务文件
+  - 书面约束
+  - 口头禁令
+  - 审查意见必须落笔到任务文件
+  - 意见必须落笔到任务文件
+  - 欧阳锋
 source_refs:
 - src_unknown
 created_at: 2026-06-03

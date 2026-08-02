@@ -13,6 +13,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-07-01'
 created_at: '2026-07-01'
 updated_at: '2026-07-01'
+aliases:
+  - 个人时间审计与实验循环
+  - 时间审计与实验循环
 source_refs:
 - 00_inbox/时间管理/truman-时间管理课程-口述.txt
 - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
@@ -32,7 +35,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 修炼进阶图
 - 整合笔记
 ---

@@ -8,6 +8,13 @@ domain:
 - yitang- src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
+aliases:
+  - 分规则与风险边界
+  - 半肥猫
+  - 技能
+  - 技能：设计Skill的评分规则与风险边界
+  - 的评分规则与风险边界
+  - 设计
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
@@ -52,7 +59,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 半肥猫
 - 学习落地
 ---

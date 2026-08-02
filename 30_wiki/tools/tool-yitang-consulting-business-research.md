@@ -24,6 +24,13 @@ query_triggers:
 - 咨询定价策略
 - 咨询获客渠道
 - 竞对询价方法
+aliases:
+  - 咨询类业务调研手段
+  - 咨询类业务调研手段：浅中深三层10大评估法
+  - 大评估法
+  - 浅中深三层
+  - 浅中深三层10大评估法
+  - 类业务调研手段
 source_refs:
 - 00_inbox/调研专题/调研手段卡4（咨询类）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡4（咨询类）_vlm_desc.md
@@ -44,7 +51,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 咨询类
 - 调研专题
 ---

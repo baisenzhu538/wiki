@@ -15,6 +15,13 @@ domain:
 - conversion-rate
 source_person: 叶文彬/李刚/范渝（一堂学员）
 source_context: 一堂《优秀触点案例合集》逐字稿，收录三位学员真实业务的触点优化案例
+aliases:
+  - 优秀触点案例合集
+  - 优秀触点案例合集：射箭办卡率、黄金推荐率、烘焙触点分析三案例索引
+  - 叶文彬/李刚/范渝（一堂学员）
+  - 射箭办卡率
+  - 烘焙触点分析三案例索引
+  - 黄金推荐率
 source_refs:
 - 00_inbox/Handle the business/conversion rate/优秀触点案例合集_逐字稿.md L17-L122
 related:
@@ -38,7 +45,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - conversion
 - handle
 ---

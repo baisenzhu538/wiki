@@ -33,6 +33,11 @@ related:
 - '[[tool-strategy-industry-chain-analysis]]'
 - '[[tool-strategy-risk-management]]'
 tags:
+aliases:
+  - 技能：设计师AI工具习惯切换
+  - 技能
+  - 设计师AI工具习惯切换
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

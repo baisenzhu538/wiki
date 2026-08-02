@@ -33,6 +33,12 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
+discoverable_by:
+- 精益创业域
+- 精益方法论
+- MVP验证
+- 假设测试
+- 精益实验
 ---
 # 域摘要：精益创业方法论
 

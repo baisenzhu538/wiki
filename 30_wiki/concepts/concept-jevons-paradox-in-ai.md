@@ -1,4 +1,4 @@
-﻿---
+---
 id: concept-jevons-paradox-in-ai
 title: 杰文斯悖论在 AI 时代
 type: concept
@@ -14,6 +14,11 @@ domain:
 - ai-collaboration
 - economics
 - strategy
+aliases:
+  - 斯悖论在
+  - 时代
+  - 杰文斯悖论在
+  - 杰文斯悖论在AI时代
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
@@ -30,7 +35,6 @@ related:
 - "[[case-ai-search-commerce-platform-hedge]]"
 - "[[agent-spec-codex-teammate]]"
 - "[[concept-AI时代双三角竞争力]]"
-aliases:
 - 杰文斯悖论
 - Jevons paradox in AI
 - AI 时代杰文斯悖论

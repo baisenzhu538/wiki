@@ -6,6 +6,11 @@ status: enriched
 domain:
 - healthcare
 - business-strategy
+aliases:
+  - 智能药柜平台合作命题交叉验证美团/饿了么/阿里健康/京东
+  - 药柜平台合作命题交叉验证美团
+  - 阿里健康
+  - 饿了么
 source_refs:
 - pending_archive:src_20260613_945a21d7-itingnao-deep-dive-platforms
 - src_20260613_945a21d7-itingnao-deep-dive-platforms

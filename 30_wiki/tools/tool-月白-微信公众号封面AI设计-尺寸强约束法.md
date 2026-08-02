@@ -31,6 +31,12 @@ related:
 - '[[tool-月白-Token效价比决策法]]'
 - '[[tool-月白-AI生成图片排版控制-尺寸优先法]]'
 tags:
+aliases:
+  - 技能：微信公众号封面AI设计尺寸强约束法
+  - 技能
+  - 微信公众号封面AI设计
+  - 尺寸强约束法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

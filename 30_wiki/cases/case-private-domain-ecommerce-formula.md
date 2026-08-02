@@ -9,6 +9,13 @@ domain:
 - business-strategy
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，私域电商案例（持续复购型）
+aliases:
+  - 人社群
+  - 从拉人发广告到信任
+  - 孔阳
+  - 用户升级路径
+  - 私域电商
+  - 私域电商10W人社群：从拉人发广告到信任×用户升级路径
 source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md

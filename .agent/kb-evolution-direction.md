@@ -49,6 +49,17 @@ audience: 欧阳锋 / 黄药师 / 老顽童 / 洪七公 / 段王爷
 | 🆕 管项目域卡片化与 Agent 化 | 王语嫣编排 / 老顽童生产 / 欧阳锋审查 | 🟢 活跃 | #131：P1 核心 13 张卡（concept 重写 + 5 framework（含 ABCD）+ 4 tool + 1 skill + 1 workflow + 1 agent-spec）；#132：P2 补产约 30 张卡（case×2 + 武器库入口 + dk + 批量 tool）；反向更新 ≥14 张已有卡；详见 `diag_20260707_yitang-project-management-nine-layer.md` |
 | 🆕 AI前哨站第2集卡片化 | 王语嫣编排 / 老顽童生产 / 欧阳锋审查 | 🟢 活跃 | #133：8 张卡（4 P0 + 4 P1）：AI控制台/Agent平台双形态、Token Capital、品味系统、Builder幻觉、杰文斯悖论、开放/封闭分类器、平台案例、Codex队友agent-spec；反向更新 14 张已有卡；详见 `diag_20260708_ai-outpost-episode2-nine-layer.md` |
 | 🆕 Claude 王语嫣回溯审计修复 | 王语嫣审计 / 老顽童修复 / 欧阳锋审查 | 🟢 活跃 | #134 P0 修复（元数据一致性/卡片 ID 对齐/统计评级校准）+ #135 P1 补全（source_refs 行号/外部 URL/诊断深度）；详见 `audit_20260708_wangyuyan-claude-retrospective.md` |
+| 🆕 创新者的窘境×AI时代（秦鹏拆书） | 王语嫣编排 / 老顽童生产 | 🟢 queued | #213：14 张卡（1 bridge + 2 framework + 3 concept + 2 tool + 3 dk + 3 case）。补全 60+ 文件引用的 Christensen 原著空白（"高引用低覆盖"）。P0。直接入队不前置审查；生产后飞书王语嫣复核。跨战略/产品/决策三域。详见 `60_feedback/diagnosis/diag_20260802_创新者的窘境_秦鹏拆书.md` |
+| 🆕 泛产品设计K12教学层（崔磊Live84） | 王语嫣编排 / 老顽童生产 | 🔴 修复中 | #214：5 张卡已生产但欧阳锋终审 FAIL（dk 缺 Critique 节 + case 节名不规范，内容极优）。等老顽童修复后复审。详见 `60_feedback/diagnosis/diag_20260802_wangyuyan-live84-kids-panproduct.md` |
+| 🆕 讲香基本功·十指模型完整版（李頔） | 王语嫣编排 / 老顽童生产 | ✅ reviewed A- | #215：9 张卡（3 升级 + 4 新建 + 2 补全）+ 5 处暗知识融入。非新域，表达力域"浅卡→深卡"升级。补 why 层 + 40 策略 + 三原则 + AI 四层级 + 策略选择框架 + 蒙太奇案例。P0。2 项 TODO（tool-ai 缺 Critique / dk-boundary 缺外部攻击者）已记 #207。详见 `60_feedback/diagnosis/diag_20260802_wangyuyan-jiangxiang-basic-skills.md` |
+| 🆕 Christensen卡组related补链 | 王语嫣编排 / 老顽童生产 | ✅ done | #216：#213 验收#7 TODO 清零。9 张卡全部 ≥5 且跨域（roi-analysis/low-cost-mvp/马易/cognitive-offloading 等）。 |
+| 🆕 KDO结构门禁强化 | 欧阳锋落盘 / 黄药师修复 | 🟢 queued | #217：dk 七段完整性（缺 Critique→ERROR）+ section 名拼写白名单（Critque→报错）+ 重复节检测。触发：#213+#214 跨批复发。P1。不追溯存量。 |
+| 🆕 KDO终审基础设施 | 欧阳锋落盘 / 黄药师修复 | 🟢 queued | #218：kdo review-mark 批量同步命令（终审通过→卡片 frontmatter 三字段落盘）+ queue_transition O-3 修复 + pre-submit --files 文件级 + source_refs 00_inbox 校验 + R6 搜索可达性（索引自动刷新/title校验）。P0。触发：19 张卡 PASS 后仍 draft + 小昭搜"创新者的窘境"0结果。 |
+| 🆕 卡片元数据紧急修复 | 王语嫣编排 / 老顽童生产 | 🟢 queued | #219：#213 全部 14 张卡 title 为空 + aliases 补"创新者的窘境" + bridge tags。P0。小昭搜索诊断触发，只补 frontmatter 不动正文。 |
+| 🆕 基础设施"讲香"升级 | 黄药师建议 / 王语嫣编排 | 🟢 queued | #220：CLI 触点讲香 + MCP 外部 Agent 体验（8 项 P0/P1，lint 提示/cap_hub list/title 门禁/MCP 描述/query 路由/诊断字段/路由网）。#221：P2 配套（仪表盘/设计原则/kdo_help/自查脚本）。与 #218 R6b+#219 形成防增量+补存量闭环。 |
+| 🆕 全局元数据回填 | 王语嫣扫描 / 老顽童回填 | 🟢 queued | 全局扫描：discoverable_by 93.2% 缺失 / aliases 32.7% / title 3.5% / tags 5.2%。分层：#222 高价值卡 P1（~300 张）+ #223 aliases 全量 P1（860 张）+ #224 长程渐进 P2（~2200 张）。与 #219 存量修复+#220 门禁形成完整闭环。 |
+| 🆕 老朱个人OS洞察补全 | 小昭提取 / 王语嫣编排 / 老顽童更新 | 🟢 queued | #225：4 文件更新（user-insight-profile / zhu-lessons-learned / zhu-strategic-conclusions / zhu-project-board）+ 2 可选 case。洞察 1（对话）+ 洞察 2（飞书文档：3 月会议纪要 24 条观点 / 段王爷 BLM 报告 / 性格五特质 / 前瞻预判+时机错位模式）。P1。 |
+| 🆕 老朱方向转向审查 | 小昭建议 / 王语嫣编排 / 欧阳锋审查 | 🟢 queued | #226：段王爷 6 月"守医院数字化" vs 老朱 8 月"药店即时零售"——转向是深思熟虑还是跳跃思维？P2 不阻塞。 |
 
 ---
 

@@ -15,6 +15,13 @@ domain:
 - epistemic-foundations
 source_person: 一堂《吾辈如神》拆书会主讲人 / 老顽童整理
 source_context: 一堂《吾辈如神》拆书会（2026-07-01），讨论 AI 生成内容对表达多样性的影响
+aliases:
+  - 一堂《吾辈如神》拆书会主讲人 / 老顽童整理
+  - 内容平台
+  - 内容平台AI洗稿同质化：当生成式AI压低表达多样性
+  - 压低表达多样性
+  - 当生成式
+  - 洗稿同质化
 source_refs:
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
@@ -33,7 +40,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 书籍拆解
 - 吾辈如神
 ---

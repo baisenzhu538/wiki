@@ -14,6 +14,10 @@ domain:
 - yitang
 - product-kernel
 - agent
+aliases:
+  - 产品内核加减法诊断
+  - 产品内核加减法诊断AgentSpec
+  - 内核加减法诊断
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-kernel-add-subtract-diagnosis.md
 tcp_role: C
@@ -35,7 +39,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - prompts
 ---
 ## System Prompt 模板

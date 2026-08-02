@@ -13,6 +13,13 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂阻力消除
+  - 一堂阻力消除12策小抄：12种常见阻力×动嘴/动手/动钱消除策略
+  - 动嘴/动手/动钱
+  - 消除策略
+  - 种常见阻力
+  - 策小抄
 source_refs:
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/阻力消除策略之1：觉得贵_vlm.md
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/阻力消除策略之2：没能力_vlm.md
@@ -66,7 +73,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - conversion
 - handle
 ---

@@ -19,6 +19,9 @@ source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt L3900-L3959
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/整合笔记_苦练基本功完整版.md
 related:
+discoverable_by:
+  - "苦练基本功总纲"
+  - "基本功是组织能力最小单位"
 - '[[management-domain-digest]]'
 - '[[concept-一堂-基本功定义]]'
 - '[[yt-model-management-map]]'
@@ -57,6 +60,20 @@ quality_labels:
 - actionable
 - insight
 tags:
+aliases:
+  - 苦练基本功总纲：人不是组织能力的最小单位，基本功才是
+  - 苦练基本功总纲
+  - 人不是组织能力的最小单位
+  - 基本功才是
+  - 本功是组织能力最小单位
+  - 基本功总纲
+aliases:
+  - 苦练基本功总纲：人不是组织能力的最小单位，基本功才是
+  - 苦练基本功总纲
+  - 人不是组织能力的最小单位
+  - 基本功才是
+  - 本功是组织能力最小单位
+  - 练基本功总纲
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

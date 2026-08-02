@@ -16,6 +16,11 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-08
+aliases:
+  - Y模型
+  - Y模型×双三角协同工作法
+  - 双三角协同工作法
+  - 角协同工作法
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
@@ -38,10 +43,15 @@ related:
 - '[[framework-yihang-AI-native-dual-triangle-kernel]]'
 - '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
 - '[[framework-yitang-y-model-cross-domain-fusion]]'
-aliases:
 - Y模型双三角协同
 - 双三角迭代发动机
 - annotations
+discoverable_by:
+- Y模型双三角
+- 人机协作框架
+- 双三角协同
+- AI落地方法
+- 人在环 governance
 tags:
 - audience:ceo
 - scene:diagnosis

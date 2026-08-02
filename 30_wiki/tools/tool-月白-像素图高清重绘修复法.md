@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-普通人AI设计80分法则]]'
 - '[[tool-月白-电商白底图生成与高清处理]]'
 tags:
+aliases:
+  - 技能：像素图高清重绘修复法
+  - 技能
+  - 像素图高清重绘修复法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

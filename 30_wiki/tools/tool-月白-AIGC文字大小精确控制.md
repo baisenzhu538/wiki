@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-AI工艺图人工复核法]]'
 - '[[tool-月白-短视频封面-音量战争-设计法]]'
 tags:
+aliases:
+  - 技能：AIGC文字大小精确控制
+  - 技能
+  - AIGC文字大小精确控制
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

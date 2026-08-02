@@ -46,6 +46,10 @@ related:
 - '[[tool-yitang-research-deep-attribution]]'
 - '[[tool-yitang-reverse-data-analysis]]'
 tags:
+aliases:
+  - 二维定位：找到差异化竞争的坐标
+  - 二维定位
+  - 找到差异化竞争的坐标
 - audience:executor
 - scene:execution
 - skill-level:intermediate

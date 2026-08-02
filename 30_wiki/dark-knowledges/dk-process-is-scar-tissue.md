@@ -15,6 +15,12 @@ updated_at: '2026-07-19'
 quality_labels:
 - insight
 - principle
+aliases:
+  - 是业务的疤痕
+  - 每个节点都曾是流血后的痂
+  - 流程是业务的疤痕
+  - 流程是业务的疤痕：每个节点都曾是流血后的痂
+  - 节点都曾是流血后的痂
 source_refs:
 - 00_inbox/Advanced modeling/ 口述 L2617-L2624
 related:
@@ -27,7 +33,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - advanced
 - modeling
 ---

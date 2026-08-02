@@ -21,6 +21,15 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 - https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/
 related:
+aliases:
+  - Indicators&Signposts指标与信号
+  - Signposts指标与信号
+  - Richars J. Heuer Jr. + Trumen（一堂）
+  - 指标与信号
+aliases:
+  - Indicators&Signposts指标与信号
+  - Signposts指标与信号
+  - Richars J. Heuer Jr. + Trumen（一堂）
 - '[[yt-decision-y-model]]'
 - '[[yt-research-intelligence-map]]'
 status: reviewed

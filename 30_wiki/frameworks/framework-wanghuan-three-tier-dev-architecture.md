@@ -26,6 +26,9 @@ source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
+discoverable_by:
+  - "王欢三层开发架构"
+  - "需求拆解AI开发哨兵质检"
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[concept-wanghuan-adversarial-generation]]'
@@ -41,6 +44,20 @@ diagnostic_signals:
 - lens: 验收标准
   follow_up: 检查哨兵质检层是否有清晰的人工复核 checklist 和红线约束
 tags:
+aliases:
+  - 王欢三层开发架构：需求拆解→AI开发→哨兵质检
+  - 王欢三层开发架构
+  - 需求拆解→AI开发→哨兵质检
+  - 王欢
+  - 欢三层开发架构
+  - 三层开发架构
+aliases:
+  - 王欢三层开发架构：需求拆解→AI开发→哨兵质检
+  - 王欢三层开发架构
+  - 需求拆解→AI开发→哨兵质检
+  - 王欢
+  - 求拆解
+  - 开发哨兵质检
 - src_unknown
 - src_unknown
 - src_unknown

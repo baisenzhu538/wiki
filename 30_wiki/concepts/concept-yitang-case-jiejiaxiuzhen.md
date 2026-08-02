@@ -15,6 +15,13 @@ updated_at: '2026-07-20'
 quality_labels:
 - insight
 - principle
+aliases:
+  - 借假修真
+  - 借假修真：案例是载体，方法论是真经
+  - 方法论是真经
+  - 是载体
+  - 案例是载体
+  - 论是真经
 source_refs:
 - 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt
 - 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt
@@ -29,7 +36,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 案例打磨方法
 - 案例打造法-李頔
 ---

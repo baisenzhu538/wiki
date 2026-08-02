@@ -1,5 +1,6 @@
 ---
 id: tool-yitang-practice-20hour-starter
+title: "20 小时刻意练习入门法：快速达到够用水平"
 related:
 - '[[framework-yitang-deliberate-practice-1plus4]]'
 - '[[framework-yitang-three-ring-ability-focus]]'
@@ -9,6 +10,12 @@ related:
 - '[[case-yitang-poker-parameterized-practice]]'
 - '[[yt-note-deliberate-practice-four-elements]]'
 - '[[framework-ai-deliberate-practice-loop]]'
+aliases:
+  - 20小时刻意练习入门法：快速达到够用水平
+  - 刻意练习入门法
+  - 小时刻意练习入门法
+  - 快速达到够用水平
+  - 达到够用水平
 source_refs:
 - pending_archive: src_unknown
 tags:
@@ -16,7 +23,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 20 小时刻意练习入门法：快速达到够用水平
 
 ## Burn line

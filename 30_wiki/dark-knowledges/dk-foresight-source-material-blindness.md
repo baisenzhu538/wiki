@@ -5,6 +5,11 @@ type: dk
 dark_knowledge_type: process-failure
 domain:
 - yitang
+aliases:
+  - 命名不一致导致完整口述稿被遗漏
+  - 暗知识
+  - 暗知识：素材命名不一致导致完整口述稿被遗漏
+  - 素材命名不一致导致完整口述稿被遗漏
 source_refs:
 - 10_raw/sources/src_20260619_833c79d5_60_feedback_corrections_corr_20260611_laowantong_机会预判域_OCR遗漏_旧卡未清理.md
 - 10_raw/sources/src_20260619_ad98829e_60_feedback_corrections_corr_20260611_hongqigong_机会预判域_OCR流程盲区.md
@@ -44,7 +49,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 旧卡未清理
 - 机会预判域
 - 流程盲区

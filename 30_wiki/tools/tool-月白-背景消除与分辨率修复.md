@@ -37,6 +37,11 @@ related:
 - '[[tool-月白-提示词长度控制法]]'
 - '[[tool-月白-文件命名与存档规范（口述暗示）]]'
 tags:
+aliases:
+  - 技能：背景消除与分辨率修复
+  - 技能
+  - 背景消除与分辨率修复
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

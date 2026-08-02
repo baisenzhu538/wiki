@@ -14,6 +14,18 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-画布案例2_vlm.md
 tags:
+aliases:
+  - 一堂双三角画布案例2双三角案例
+  - 一堂双三角
+  - 画布案例2
+  - 双三角案例
+  - 双三角画布案例
+  - 角案例
+aliases:
+  - 一堂双三角画布案例2双三角案例
+  - 一堂双三角
+  - 画布案例2
+  - 双三角案例
 - '#domain/ai-collaboration'
 - '#method/dual-triangle'
 - audience:general

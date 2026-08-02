@@ -11,6 +11,12 @@ related:
   - "[[zhu-project-board]]"
   - "[[zhu-strategic-conclusions]]"
   - "[[user-insight-profile]]"
+discoverable_by:
+- 网络资源
+- 学习资源
+- 老朱收藏
+- 工具清单
+- 资源索引
 ---
 
 # 老朱关键关系与资源档案

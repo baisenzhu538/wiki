@@ -29,6 +29,10 @@ related:
 - '[[tool-水水-避免原生家庭万能归因]]'
 - '[[tool-水水-降低故事逻辑要求]]'
 tags:
+aliases:
+  - 技能：识别自证预言陷阱
+  - 技能
+  - 识别自证预言陷阱
 - audience:executor
 - scene:execution
 - skill-level:intermediate

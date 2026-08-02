@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-1
+aliases:
+  - P1：切模型改环境变量无效ClaudeCode走全局设置
+  - system
+  - 切模型改环境变量无效
+  - 型改环境变量无效
+  - 局设置
+  - 走全局设置
 source_refs:
 - src_unknown
 created_at: 2026-06-03

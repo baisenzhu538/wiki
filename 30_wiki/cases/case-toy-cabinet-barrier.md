@@ -20,6 +20,11 @@ query_triggers:
 - src_unknown
 review_date: 2026-06-11
 reviewed_by: 周伯通
+aliases:
+  - 案例
+  - 案例：线下玩具柜的壁垒困局与突围路径
+  - 玩具柜的壁垒困局与突围路径
+  - 线下玩具柜的壁垒困局与突围路径
 source_refs:
 - 10_raw/sources/src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例.md
 - 10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md
@@ -49,7 +54,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 - 商业模型
 - 线下玩具柜案例

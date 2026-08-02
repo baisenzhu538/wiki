@@ -31,6 +31,9 @@ related:
 - '[[yt-business-formula-parameter-iceberg]]'
 review_date: 2026-06-16
 reviewed_by: 王语嫣
+aliases:
+  - 单元模型搭建五步法
+  - 模型搭建五步法
 source_refs:
 - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
 - 10_raw/sources/src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记.md
@@ -62,7 +65,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 - 单元模型
 ---

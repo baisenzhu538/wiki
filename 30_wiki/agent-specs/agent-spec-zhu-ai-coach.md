@@ -29,6 +29,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+discoverable_by:
+- AI学习教练
+- 刻意练习陪跑
+- AI能力建设
+- 学习路线
+- 24周计划
 ---
 
 # 老朱 AI 学习教练 Agent — 刻意练习陪跑者

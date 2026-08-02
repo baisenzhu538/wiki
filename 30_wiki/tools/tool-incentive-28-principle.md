@@ -25,6 +25,8 @@ diagnostic_signals:
 - signal: 团队不积极
   lens: 是否给了80%自主权
   follow_up: 是否给了80%自主权
+aliases:
+  - 奖励设计28原则
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt
 - 00_inbox/解放思想探索营/案例分享-笔记.txt
@@ -34,7 +36,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

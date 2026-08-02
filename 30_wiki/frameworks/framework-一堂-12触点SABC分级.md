@@ -13,6 +13,13 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂
+  - 一堂12触点SABC分级：完整定义+12触点清单+约50子分类易浪费清单
+  - 分级
+  - 完整定义
+  - 触点
+  - 触点清单
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1188-L1216
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1218-L1248
@@ -75,9 +82,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - conversion
 - handle
+discoverable_by:
+- 用户触点分级
+- SABC触点模型
+- 转化触点优化
+- 触点管理
+- 用户旅程优化
 ---
 
 # 一堂 12 触点 SABC 分级

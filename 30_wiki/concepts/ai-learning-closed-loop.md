@@ -8,6 +8,12 @@ domain:
 - src_unknown
 - src_unknown
 status: reviewed
+aliases:
+  - AI学习闭环
+  - AI学习闭环：从听懂到能力的转化路径
+  - 从听懂到能力的转化路径
+  - 学习闭环
+  - 懂到能力的转化路径
 source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 component_of: null
@@ -44,7 +50,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 没有人呀现在
 ---
 

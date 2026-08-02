@@ -8,6 +8,13 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - ToB三大核心特性：角色分离、务实理性、周期较长
+  - 三大核心特性
+  - 务实理性
+  - 周期较长
+  - 核心特性
+  - 角色分离
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
@@ -40,6 +47,12 @@ diagnostic_signals:
   follow_up_question: 该资源是否对应客户真实预算和投放场景？能否量化给客户带来的收益？
 - framework_lens: 周期较长 / 回款与财务确认周期
   follow_up_question: 成交、交付、回款、财务确认各周期分别是多少？自由现金流何时转正？
+discoverable_by:
+- ToB特征
+- 企业服务特点
+- B2B业务模式
+- ToB vs ToC
+- 企业级产品
 ---
 
 

@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-AI生成图小字控制法]]'
 - '[[tool-月白-AI图生图尺寸快速转换]]'
 tags:
+aliases:
+  - 技能：短视频封面'音量战争'设计法
+  - 技能
+  - 短视频封面'音量战争'设计法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

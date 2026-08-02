@@ -15,6 +15,11 @@ domain:
 - yitang
 - research
 - ai-collaboration
+aliases:
+  - AI调研效果取决于问题拆解和人工判断
+  - AI调研效果取决于问题拆解和人工判断不是提示词技巧
+  - 不是提示词技巧
+  - 提示词技巧
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt

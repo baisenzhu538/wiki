@@ -23,6 +23,10 @@ related:
 - concept-发现决策
 updated_at: '2026-06-29'
 tags:
+aliases:
+  - 行业分析画布：系统性理解行业结构
+  - 行业分析画布
+  - 系统性理解行业结构
 - audience:executor
 - scene:execution
 - skill-level:intermediate

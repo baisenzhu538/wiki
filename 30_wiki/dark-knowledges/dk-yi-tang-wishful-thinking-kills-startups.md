@@ -8,6 +8,13 @@ domain:
 - business-strategy
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课 Truman 口述（涉及商业预判/产品内核案例）
+aliases:
+  - 一堂·Truman
+  - 愿望思维
+  - 愿望思维'是创业最大的陷阱
+  - 暗知
+  - 暗知：'愿望思维'是创业最大的陷阱
+  - 望思维
 source_refs:
 - 10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt
 created_at: 2026-06-08
@@ -42,7 +49,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 关键假设课
 ---
 

@@ -8,6 +8,13 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain: strategy
+aliases:
+  - 市场分析逻辑
+  - 市场分析逻辑雅士利
+  - 细分市场分析逻辑
+  - 细分市场分析逻辑雅士利/蒙牛案例©Yashili2021
+  - 蒙牛案例
+  - 雅士利/蒙牛案例©
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_70_vlm_desc.md
 related:
@@ -24,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

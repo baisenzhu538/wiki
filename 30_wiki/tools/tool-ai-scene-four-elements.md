@@ -23,6 +23,17 @@ related:
 created_at: 2026-06-11
 updated_at: 2026-07-02
 tags:
+aliases:
+  - 技能：AI落地场景四要素评估法
+  - 技能
+  - AI落地场景四要素评估法
+  - 马易
+  - 落地场景四要素评估法
+aliases:
+  - 技能：AI落地场景四要素评估法
+  - 技能
+  - AI落地场景四要素评估法
+  - 马易
 - audience:executor
 - scene:execution
 - skill-level:beginner

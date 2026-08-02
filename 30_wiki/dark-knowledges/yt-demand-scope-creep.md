@@ -9,6 +9,11 @@ status: reviewed
 confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析——需求膨胀陷阱
+aliases:
+  - 从MVP到全功能的陷阱
+  - 到全功能的陷阱
+  - 需求蔓延
+  - 需求蔓延：从MVP到全功能的陷阱
 source_refs:
 - src_unknown
 created_at: '2026-06-19'

@@ -7,6 +7,13 @@ confidence: 0.92
 trust_level: high
 domain:
 - src_unknown
+aliases:
+  - 六维门禁
+  - 六维门禁判断调研是否足够好
+  - 判断调研是否足够好
+  - 调研是否足够好
+  - 调研质量自检框架
+  - 调研质量自检框架：六维门禁判断调研是否足够好
 source_refs:
 - 30_wiki/domains/yitang-research-domain-digest.md
 - 30_wiki/frameworks/framework-yitang-six-layer-cross-validation.md
@@ -33,9 +40,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - control
 - domains
+discoverable_by:
+- 调研质量自检
+- 六维门禁
+- 调研质量评估
+- 信息质量把关
+- OSCLSC
 ---
 
 # 调研质量自检框架：六维门禁

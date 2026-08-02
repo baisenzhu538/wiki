@@ -18,6 +18,11 @@ query_triggers:
 - src_unknown
 review_date: 2026-06-17
 reviewed_by: 王语嫣
+aliases:
+  - 单元模型
+  - 单元模型：商业模式评估的核心工具
+  - 商业模式评估的核心工具
+  - 模式评估的核心工具
 source_refs:
 - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
 - 10_raw/sources/src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记.md
@@ -57,7 +62,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 - 单元模型
 ---

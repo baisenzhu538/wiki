@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - content-production
+aliases:
+  - Candy口语化润色
+  - Candy口语化润色：七条原则让文字读出声来
+  - 七条原则让文字读出声来
+  - 原则让文字读出声来
+  - 口语化润色
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:

@@ -13,6 +13,12 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
+aliases:
+  - 案例
+  - 案例：社恐销售蓝军如何通过拆解销冠套路半年成亚军
+  - 盈盈行动营
+  - 社恐销售蓝军如何通过拆解销冠套路半年成亚军
+  - 行动营
 source_refs:
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
@@ -35,7 +41,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 元能力-刻意练习
 - 刻意练习行动营
 ---

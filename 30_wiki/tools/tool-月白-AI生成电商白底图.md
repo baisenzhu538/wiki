@@ -32,6 +32,11 @@ related:
 - '[[tool-月白-PPT全AI生成工作流]]'
 - aigc设计基础01ai生图原理与提示词基本功
 tags:
+aliases:
+  - 技能：AI生成电商白底图
+  - 技能
+  - AI生成电商白底图
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

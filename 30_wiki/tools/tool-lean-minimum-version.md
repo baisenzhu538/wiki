@@ -12,6 +12,9 @@ domain:
 - strategy
 - yitang
 - product
+aliases:
+  - 只发布最小版本
+  - 布最小版本
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212406_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212406_vlm_desc.md
@@ -30,7 +33,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 精益创业
 ---
 

@@ -11,6 +11,13 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain: strategy
+aliases:
+  - 冉鹏覆盖了什么
+  - 战略框架全景图
+  - 战略框架全景图：冉鹏覆盖了什么、没覆盖什么
+  - 没覆盖什么
+  - 盖什么
+  - 覆盖了什么
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md
 related:
@@ -22,7 +29,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 交叉验证
 - 冉鹏框架
 ---

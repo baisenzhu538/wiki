@@ -14,6 +14,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+aliases:
+  - AI图像生成
+  - AI设计
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-yitang-channel-industrialization-node-design]]'

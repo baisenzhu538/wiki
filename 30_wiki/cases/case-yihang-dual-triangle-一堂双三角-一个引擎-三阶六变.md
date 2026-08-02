@@ -14,6 +14,19 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-一个引擎-三阶六变_vlm.md
 tags:
+aliases:
+  - 一堂双三角一个引擎三阶六变双三角案例
+  - 一堂双三角
+  - 一个引擎
+  - 三阶六变
+  - 双三角案例
+  - 角案例
+aliases:
+  - 一堂双三角一个引擎三阶六变双三角案例
+  - 一堂双三角
+  - 一个引擎
+  - 三阶六变
+  - 双三角案例
 - '#domain/ai-collaboration'
 - '#method/dual-triangle'
 - audience:general

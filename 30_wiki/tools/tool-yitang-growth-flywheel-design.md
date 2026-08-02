@@ -17,6 +17,13 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-06-29'
+aliases:
+  - Truman
+  - 从业务要素到增强回路
+  - 务要素到增强回路
+  - 增长飞轮设计工具
+  - 增长飞轮设计工具：从业务要素到增强回路
+  - 飞轮设计工具
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-笔记.txt
@@ -37,7 +44,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 四步法
 ---

@@ -8,6 +8,13 @@ domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
+aliases:
+  - 拼多多
+  - 月白
+  - 淘宝≠拼多多
+  - 渠道专版区分
+  - 电商渠道专版区分
+  - 电商渠道专版区分：淘宝≠拼多多
 source_refs:
 - 10_raw/sources/src_20260619_82fb121b_00_inbox_design_AI设计_AI设计基础01.txt
 created_at: 2026-06-04
@@ -39,7 +46,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 设计基础
 ---
 ## 原始表述 / 核心洞察

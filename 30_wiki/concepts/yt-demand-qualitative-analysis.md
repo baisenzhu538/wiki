@@ -8,6 +8,12 @@ status: reviewed
 confidence: 0.93
 trust_level: high
 source_context: 一堂五步法需求分析口述——"需求分析先定性后定量"
+aliases:
+  - 定性分析框架
+  - 拆推评算四步法
+  - 评算四步法
+  - 需求定性分析框架
+  - 需求定性分析框架：拆推评算四步法
 source_refs:
 - 10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 - 10_raw/sources/src_20260610_9e786027-一堂-一堂五步法-需求-分析段位图.md
@@ -35,7 +41,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 一堂五步法
 - 分析段位图
 ---

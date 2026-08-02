@@ -32,6 +32,11 @@ related:
 - tool-agent-research-supervisor
 - '[[concept-token-capital]]'
 tags:
+aliases:
+  - 技能：Token智甲比控制法
+  - 技能
+  - Token智甲比控制法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

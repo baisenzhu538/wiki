@@ -7,6 +7,13 @@ status: reviewed
 confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析口述——"最悲惨的结果是需求错了"
+aliases:
+  - 伪需求与衍生需求
+  - 层次模型
+  - 求与衍生需求
+  - 真需求
+  - 需求层次模型
+  - 需求层次模型：真需求、伪需求与衍生需求
 source_refs:
 - pending_archive:src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 created_at: '2026-06-19'
@@ -35,7 +42,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 ---
 

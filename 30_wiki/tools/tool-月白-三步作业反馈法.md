@@ -49,6 +49,11 @@ related:
 - '[[tool-月白-设计师AI资产四类型沉淀]]'
 - '[[tool-月白-设计文件八要素命名法]]'
 tags:
+aliases:
+  - 技能：三步作业反馈法
+  - 技能
+  - 三步作业反馈法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

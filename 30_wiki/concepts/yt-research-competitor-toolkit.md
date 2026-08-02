@@ -8,6 +8,9 @@ type: tool
 status: reviewed
 source_context: 一堂商业调研课程——竞品拆解方法论
 source_person: 一堂
+aliases:
+  - 分析工具包
+  - 竞品分析工具包
 source_refs:
 - pending_archive:src_20260620_business-research-skill-v2.1.0
 created_at: '2026-06-20'

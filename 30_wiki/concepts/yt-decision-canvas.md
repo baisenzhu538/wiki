@@ -28,6 +28,9 @@ related:
 - '[[yt-decision-ai-partner]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 reviewed_by: 周伯通
+aliases:
+  - Y模型决策画布一页纸工具
+  - 型决策画布一页纸工具
 source_refs:
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md
 - 10_raw/sources/src_20260616_aac184cc-yitang-tob-five-step-homework-collection.md
@@ -88,7 +91,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 一堂五步法画布
 ---
 

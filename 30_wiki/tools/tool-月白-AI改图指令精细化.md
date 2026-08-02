@@ -32,6 +32,11 @@ related:
 - '[[tool-月白-替换大法改图]]'
 - '[[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]'
 tags:
+aliases:
+  - 技能：AI改图指令精细化
+  - 技能
+  - AI改图指令精细化
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

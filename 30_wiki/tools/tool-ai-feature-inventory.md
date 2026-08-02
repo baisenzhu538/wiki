@@ -8,6 +8,13 @@ confidence: 0.88
 trust_level: high
 created_at: 2026-07-06
 updated_at: 2026-07-06
+aliases:
+  - AI工具特性清单原子化Feature分类框架
+  - 分类框架
+  - 原子化
+  - 工具特性清单
+  - 工具特性清单原子化
+  - 特性清单
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt L1402-1451
 - GitHub synaptiai/agent-capability-standard 99原子能力本体
@@ -21,7 +28,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - github
 - synaptiai
 ---

@@ -12,6 +12,10 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 复盘迭代
+  - 落地卡片
+  - 落地卡片：复盘迭代
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-复盘迭代_vlm_desc.md
 related:
@@ -27,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 复盘迭代
 - 泛产品设计
 ---

@@ -1,10 +1,16 @@
-﻿---
+---
 id: rust-borrowing-references
 title: "Rust 借用与引用：不转移所有权的访问"
 type: concept
 status: draft
 domain:
   - rust
+aliases:
+  - Rust借用与引用：不转移所有权的访问
+  - 不转移所有权的访问
+  - 与引用
+  - 借用与引用
+  - 移所有权的访问
 source_refs:
   - pending_archive
 created_at: 2026-06-02

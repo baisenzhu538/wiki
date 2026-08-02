@@ -14,6 +14,13 @@ domain:
 - entrepreneur
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），美容院连锁 To C 门店改造案例
+aliases:
+  - 从总部门店冲突到新客转化率提升
+  - 李蕊
+  - 案例
+  - 案例：美容院连锁销售体系改造从总部门店冲突到新客转化率提升
+  - 美容院连锁销售体系改造
+  - 院连锁销售体系改造
 source_refs:
 - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
@@ -52,7 +59,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 客户分层
 ---
 # 案例：美容院连锁销售体系改造——从总部门店冲突到新客转化率提升

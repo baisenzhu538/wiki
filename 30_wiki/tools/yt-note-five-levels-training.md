@@ -21,6 +21,10 @@ related:
 prerequisites:
 - src_unknown
 - src_unknown
+aliases:
+  - 从理论到现场的完整通关路径
+  - 清单体笔记五阶进阶训练法
+  - 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
@@ -64,7 +68,6 @@ diagnostic_signals:
   follow_up_question: 这篇笔记中至少有30%是你自己的判断、关联或反常识问题吗？
 - framework_lens: 广泛涉猎前提缺失
   follow_up_question: 你的清单体基本功是否已经练到"肌肉记忆"级别？
-aliases:
 - 时代清单体笔记
 - 时代请单体笔记
 ---

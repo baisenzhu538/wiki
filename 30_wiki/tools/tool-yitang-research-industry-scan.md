@@ -41,6 +41,10 @@ related:
 - '[[tool-yitang-research-unit-model]]'
 - '[[tool-yitang-research-validate-assumption]]'
 tags:
+aliases:
+  - 行业扫描：快速建立行业全貌认知
+  - 行业扫描
+  - 快速建立行业全貌认知
 - audience:executor
 - scene:execution
 - skill-level:intermediate

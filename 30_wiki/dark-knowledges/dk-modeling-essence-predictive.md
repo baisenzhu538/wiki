@@ -36,6 +36,18 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 tags:
+aliases:
+  - 解释性本质''是高级鸡汤：真正值钱的本质必须能指导下一次真实决策
+  - 解释性本质''是高级鸡汤
+  - 真正值钱的本质必须能指导下一次真实决策
+  - Truman
+  - 性本质
+  - 是高级鸡汤
+aliases:
+  - 解释性本质''是高级鸡汤：真正值钱的本质必须能指导下一次真实决策
+  - 解释性本质''是高级鸡汤
+  - 真正值钱的本质必须能指导下一次真实决策
+  - Truman
 - src_unknown
 - src_unknown
 - src_unknown

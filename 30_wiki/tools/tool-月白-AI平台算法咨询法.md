@@ -38,6 +38,11 @@ related:
 - '[[tool-月白-用AIGC做设计专家批评复盘]]'
 - '[[tool-月白-短视频封面一秒吸睛法]]'
 tags:
+aliases:
+  - 技能：AI平台算法咨询法
+  - 技能
+  - AI平台算法咨询法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -22,6 +22,12 @@ related:
 - '[[yt-model-pan-product-three-virtues]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 不见到大胆想象的进化路径
+  - 从看不见到大胆想象的进化路径
+  - 审美提升的层级
+  - 审美提升的层级：从看不见到大胆想象的进化路径
+  - 提升的层级
 source_refs:
 - 10_raw/sources/src_20260522_7d2a79f8-ocr-审美提升的层级.md
 status: enriched
@@ -46,7 +52,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 审美提升的层级
 ---
 

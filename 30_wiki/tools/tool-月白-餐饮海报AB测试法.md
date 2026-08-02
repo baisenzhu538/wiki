@@ -47,6 +47,11 @@ related:
 - '[[tool-月白-设计能力蒸馏封装法]]'
 - '[[tool-月白-醒图人脸精修法]]'
 tags:
+aliases:
+  - 技能：餐饮海报AB测试法
+  - 技能
+  - 餐饮海报AB测试法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

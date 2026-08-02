@@ -6,6 +6,9 @@ title: 决策卫生五步法
 type: framework
 status: reviewed
 source_context: 一堂科学决策课程——决策卫生五步法框架
+aliases:
+  - 决策卫生五步法
+  - 卫生五步法
 source_refs:
 - pending_archive:src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md
 - pending_archive:src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
@@ -38,7 +41,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 关键训练清单重要
 - 决策高度实操课口述
 - 发现决策

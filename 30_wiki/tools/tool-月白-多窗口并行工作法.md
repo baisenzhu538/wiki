@@ -56,6 +56,11 @@ related:
 - '[[tool-月白-风格不变局部调整]]'
 - '[[tool-月白-餐饮类线下设计调性把控]]'
 tags:
+aliases:
+  - 技能：多窗口并行工作法
+  - 技能
+  - 多窗口并行工作法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

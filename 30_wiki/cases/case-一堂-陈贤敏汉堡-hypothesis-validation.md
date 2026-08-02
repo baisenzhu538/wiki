@@ -8,6 +8,11 @@ domain:
 - src_unknown
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课-truman-笔记.txt、一堂-关键假设课-truman-口述.txt
+aliases:
+  - 一堂·Truman
+  - 案例
+  - 案例：陈贤敏中式汉堡先开实验店验证关键假设
+  - 陈贤敏中式汉堡先开实验店验证关键假设
 source_refs:
 - pending_archive:src_20260606_22c4a291-一堂-关键假设课-truman-笔记
 - pending_archive:src_20260606_9dd317aa-一堂-关键假设课-truman-口述
@@ -58,7 +63,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 关键假设课
 ---
 

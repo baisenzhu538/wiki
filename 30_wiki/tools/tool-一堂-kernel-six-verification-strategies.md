@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-一堂-kernel-six-verification-strategies
 title: 聊问查测盘赌 — 产品内核六策略完整操作手册
 type: tool
@@ -32,6 +32,13 @@ related:
   - "[[concept-一堂-hypothesis-driven-business-methodology]]"
   - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
   - "[[case-一堂-无人餐厅-hypothesis-failure]]"
+aliases:
+  - 聊问查测盘赌产品内核六策略完整操作手册
+  - 聊问查测盘赌
+  - 产品内核六策略完整操作手册
+  - Truman
+  - 陈贤敏汉堡
+  - 无人餐厅
 created_at: '2026-07-08'
 updated_at: '2026-07-08'
 author: 老顽童

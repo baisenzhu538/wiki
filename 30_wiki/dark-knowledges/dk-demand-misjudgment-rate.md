@@ -13,6 +13,10 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 3050%创业失败源于需求误判
+  - 50%创业失败源于需求误判
+  - 创业失败源于需求误判
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
@@ -28,7 +32,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 方法论
 ---

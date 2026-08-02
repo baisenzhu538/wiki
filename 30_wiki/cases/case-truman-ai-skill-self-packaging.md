@@ -42,6 +42,17 @@ tags:
 - scene:reference
 - skill-level:intermediate
 diagnostic_signals:
+aliases:
+  - 自复盘自封装
+  - 技能是如何让
+  - 自己包装出来的
+  - 盘自封装
+  - 包装出来的
+  - 是如何让
+aliases:
+  - 自复盘自封装
+  - 技能是如何让
+  - 自己包装出来的
 - framework_lens: AI自复盘——让AI总结这次经验变下次基础
   follow_up_question: 你最后一次项目结束时，有没有让AI扫描你全程的纠偏记录、自动生成一个skill？
 - framework_lens: 让AI跨工具扫描+合并同类项+封装

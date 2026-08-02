@@ -6,6 +6,13 @@ status: enriched
 domain:
 - healthcare
 - business-strategy
+aliases:
+  - 公司/股权/资金风险诊断
+  - 智能药柜推广项目
+  - 智能药柜推广项目：公司/股权/资金风险诊断
+  - 王语嫣
+  - 药柜推广项目
+  - 资金风险诊断
 source_refs:
 - pending_archive:src_20260613_fc2124d8-itingnao-deep-dive-corporate-risk
 created_at: 2026-06-15

@@ -31,6 +31,10 @@ related:
 - '[[tool-水水-识别超级传播者风险]]'
 - '[[tool-水水-降低故事逻辑要求]]'
 tags:
+aliases:
+  - 技能：区分风险与不确定性
+  - 技能
+  - 区分风险与不确定性
 - audience:executor
 - scene:execution
 - skill-level:intermediate

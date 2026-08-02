@@ -13,6 +13,11 @@ domain:
 - key-assumptions
 confidence: 0.85
 trust_level: high
+aliases:
+  - 业务成功依赖的核心前提条件
+  - 关键假设Key
+  - 关键假设KeyAssumption：业务成功依赖的核心前提条件
+  - 成功依赖的核心前提条件
 source_refs:
 - 00_inbox/一堂-关键假设课-truman-口述.txt L364-L402,L584,L818,L1064-L1074,L2460-L2482
 quality_labels:
@@ -34,7 +39,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 关键假设课
 ---
 

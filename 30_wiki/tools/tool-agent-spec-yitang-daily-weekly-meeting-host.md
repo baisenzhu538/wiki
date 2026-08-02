@@ -15,6 +15,12 @@ domain:
 - yitang
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
+aliases:
+  - 周会智能主持
+  - 日会
+  - 日会/周会智能主持AgentSpec
+  - 智能主持
+  - 李蕊
 source_refs:
 - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L1426-L1462,L1488-L1490
 - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L246,L954-L970
@@ -41,7 +47,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
-aliases:
 - product
 ---
 # 日会 / 周会智能主持 Agent Spec

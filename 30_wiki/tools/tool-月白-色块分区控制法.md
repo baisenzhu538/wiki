@@ -32,6 +32,11 @@ related:
 - tool-月白-眼高手低训练法
 - tool-月白-PS图层规范管理
 tags:
+aliases:
+  - 技能：色块分区控制法
+  - 技能
+  - 色块分区控制法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

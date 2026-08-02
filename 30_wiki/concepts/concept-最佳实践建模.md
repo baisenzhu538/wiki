@@ -11,6 +11,12 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 人的成功拆成可复制的模型
+  - 实践建模
+  - 把别人的成功拆成可复制的模型
+  - 最佳实践建模
+  - 最佳实践建模：把别人的成功拆成可复制的模型
 source_refs:
 - src_unknown
 related:

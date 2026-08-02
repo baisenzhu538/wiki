@@ -8,6 +8,12 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - ToB单销售模型：时间闭环+空间闭环
+  - 单销售模型
+  - 售模型
+  - 时间闭环
+  - 空间闭环
 source_refs:
 - pending_archive:source material not yet ingested
 tags:

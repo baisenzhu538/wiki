@@ -22,6 +22,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 双三角团队
+- 团队组装
+- 能力搭配
+- 角色配置
+- 人机团队
 ---
 
 # 双三角分工拼图——推翻"产品+业务+程序员"，凑齐三个角

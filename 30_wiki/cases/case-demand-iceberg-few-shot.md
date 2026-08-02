@@ -14,6 +14,13 @@ updated_at: 2026-07-08
 domain:
 - yitang
 - demand-analysis
+aliases:
+  - Shot案例库
+  - 奶昔/银发育儿/挂脖空调/马术课
+  - 银发育儿
+  - 需求冰山Few
+  - 需求冰山FewShot案例库：奶昔/银发育儿/挂脖空调/马术课
+  - 马术课
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-JTBD理论-口述.txt L1034-L1044
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt
@@ -36,7 +43,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 方法论
 ---

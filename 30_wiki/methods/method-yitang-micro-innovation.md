@@ -23,6 +23,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 微创新
+- 小步迭代
+- 低成本创新
+- 快速试错
+- 渐进改进
 ---
 
 # 破除创新迷信：小范围流程级创新同样有效

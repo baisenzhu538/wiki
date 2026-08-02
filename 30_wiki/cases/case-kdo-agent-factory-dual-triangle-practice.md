@@ -15,6 +15,11 @@ domain:
 - yitang
 - ai-saas
 - personal-os
+aliases:
+  - KDO多Agent工厂：人机协作双三角的组织化实践
+  - 人机协作双三角的组织化实践
+  - 协作双三角的组织化实践
+  - 工厂
 source_refs:
 - .agent/context.md
 - 70_product/tasks/production-queue.md
@@ -36,7 +41,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - product
 - tasks
 ---

@@ -9,6 +9,13 @@ domain:
 - master
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
+aliases:
+  - AIGC眼高原则
+  - AIGC眼高原则：审美先于技术
+  - 先于技术
+  - 审美先于技术
+  - 月白
+  - 眼高原则
 source_refs:
 - 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
@@ -25,7 +32,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
-aliases:
 - 设计师实操培训
 ---
 

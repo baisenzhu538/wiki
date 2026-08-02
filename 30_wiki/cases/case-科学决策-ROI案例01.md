@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 参加纽约时装周
+  - 是否参加纽约时装周
+  - 是否参加纽约时装周2018
+  - 案例
+  - 案例：是否参加纽约时装周2018
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例01_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-roi决策评估画布-案例01.md
@@ -27,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 决策评估画布
 - 科学决策
 ---

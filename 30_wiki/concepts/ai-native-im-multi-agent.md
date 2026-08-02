@@ -9,6 +9,11 @@ domain:
 - ai-saas- ai
 - product
 - ai-collaboration
+aliases:
+  - AI原生IM：让Agent成为一等公民的协作基础设施
+  - 一等公民的协作基础设施
+  - 原生
+  - 成为一等公民的协作基础设施
 source_refs:
 - pending_archive:src_20260614_c5115d2c-龙虾-AI原生IM工具演示
 - src_20260614_c5115d2c-龙虾-AI原生IM工具演示
@@ -31,7 +36,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 工具演示
 ---
 # AI 原生 IM：让 Agent 成为一等公民的协作基础设施

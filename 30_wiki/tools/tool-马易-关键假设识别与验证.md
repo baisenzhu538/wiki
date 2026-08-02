@@ -22,6 +22,10 @@ related:
 - '[[tool-马易-隐私安全分层解决]]'
 - '[[tool-马易-最小场景优先落地法]]'
 tags:
+aliases:
+  - 技能：关键假设识别与验证
+  - 技能
+  - 关键假设识别与验证
 - audience:executor
 - scene:execution
 - skill-level:intermediate

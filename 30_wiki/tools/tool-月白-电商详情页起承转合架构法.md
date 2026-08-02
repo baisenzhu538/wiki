@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-AI对话式海报修改（免PS）]]'
 - '[[tool-月白-AI工艺图人工复核法]]'
 tags:
+aliases:
+  - 技能：电商详情页起承转合架构法
+  - 技能
+  - 电商详情页起承转合架构法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

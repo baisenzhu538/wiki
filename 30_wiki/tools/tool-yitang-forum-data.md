@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 知乎豆瓣贴吧的深度讨论
+  - 社区数据
+  - 论坛/社区数据
+  - 论坛/社区数据：知乎豆瓣贴吧的深度讨论
+  - 豆瓣贴吧的深度讨论
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -27,7 +33,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

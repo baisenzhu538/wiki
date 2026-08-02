@@ -9,6 +9,13 @@ status: reviewed
 confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析——替代方案分析
+aliases:
+  - 不是敌人
+  - 替代方案才是
+  - 替代陷阱
+  - 竞品不是敌人
+  - 需求替代陷阱
+  - 需求替代陷阱：竞品不是敌人，替代方案才是
 source_refs:
 - src_unknown
 created_at: '2026-06-19'

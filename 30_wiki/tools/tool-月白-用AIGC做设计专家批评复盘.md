@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-PPT内容框架AIGC生成法]]'
 - '[[tool-月白-PPT风格锁定工作流]]'
 tags:
+aliases:
+  - 技能：用AIGC做设计专家批评复盘
+  - 技能
+  - 用AIGC做设计专家批评复盘
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

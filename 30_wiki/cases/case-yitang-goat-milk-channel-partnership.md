@@ -19,6 +19,13 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-06-29'
+aliases:
+  - 九层深挖诊断
+  - 冉鹏（战略培训讲师）/ 王语嫣（九层深挖诊断）
+  - 战略培训讲师
+  - 王语嫣
+  - 粉卖地图区域代理模式案例
+  - 羊奶粉卖地图区域代理模式案例
 source_refs:
 - 60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md
 - 10_raw/sources/src_20260614_22f103f0-战略培训-实战案例分析.md
@@ -37,7 +44,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - details
 - itingnao
 ---

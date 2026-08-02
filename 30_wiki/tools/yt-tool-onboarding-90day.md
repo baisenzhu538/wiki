@@ -36,6 +36,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 tags:
+aliases:
+  - 新人90天融入加速器
+  - 新人
+  - 天融入加速器
 - audience:executor
 - scene:execution
 - skill-level:intermediate

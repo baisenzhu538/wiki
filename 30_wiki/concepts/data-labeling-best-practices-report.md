@@ -4,6 +4,9 @@ title: 数据标注最佳实践调研报告
 type: concept
 status: draft
 domain: master
+aliases:
+  - 数据标注最佳实践调研报告
+  - 标注最佳实践调研报告
 source_refs:
 - src_unknown
 - src_unknown

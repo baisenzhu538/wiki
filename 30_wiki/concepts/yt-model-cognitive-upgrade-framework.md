@@ -26,6 +26,12 @@ related:
 review_date: 2026-05-15
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 书到安装认知补丁
+  - 从读书到安装认知补丁
+  - 升级十步框架
+  - 认知升级十步框架
+  - 认知升级十步框架：从读书到安装认知补丁
 source_refs:
 - 10_raw/sources/aima-ai-thinking-card-20260515.html
 - 10_raw/sources/aima-ai-thinking-card-20260515.md

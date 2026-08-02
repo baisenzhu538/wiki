@@ -13,6 +13,13 @@ updated_at: 2026-07-04
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 双三角案例
+  - 双三角案例：郭帅AI编辑部智能体拉微信群协作内容生产
+  - 智能体拉微信群协作内容生产
+  - 编辑部
+  - 角案例
+  - 郭帅
 source_refs:
 - pending_archive
 related:

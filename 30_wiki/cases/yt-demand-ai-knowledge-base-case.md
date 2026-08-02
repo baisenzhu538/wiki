@@ -8,6 +8,12 @@ status: reviewed
 confidence: 0.91
 trust_level: high
 source_context: 一堂五步法需求分析——AI企业知识库案例
+aliases:
+  - AI企业知识库案例
+  - AI企业知识库案例：从技术炫技到需求验证
+  - 从技术炫技到需求验证
+  - 企业知识库案例
+  - 术炫技到需求验证
 source_refs:
 - 10_raw/sources/src_20260611_4c587435-一堂-一堂五步法-需求-AI企业知识库-产品路线图_paddle_ocr.md
 - 10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
@@ -35,7 +41,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 一堂五步法
 - 产品路线图
 - 企业知识库

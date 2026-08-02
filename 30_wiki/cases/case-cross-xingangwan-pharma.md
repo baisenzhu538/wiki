@@ -21,6 +21,13 @@ domain:
 - lean-startup
 - healthcare
 - decision-making
+aliases:
+  - 商业模式与合规假设的跨域验证
+  - 战略选择
+  - 湾智慧药柜
+  - 鑫港湾智慧药柜
+  - 鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证
+  - 项目相关方（录音）/ 王语嫣（整理）
 source_refs:
 - 30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md
 - 30_wiki/cases/case-smart-medicine-cabinet-corporate-risk.md
@@ -42,7 +49,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - entities
 - 鑫港湾
 ---

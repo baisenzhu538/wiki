@@ -13,6 +13,13 @@ updated_at: 2026-07-05
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 冲向最大难题
+  - 掉就交给下一个人
+  - 最大难题
+  - 科学共同体作为一堂核心资产
+  - 科学共同体作为一堂核心资产冲向最大难题，解不掉就交给下一个人
+  - 解不掉就交给下一个人
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
@@ -22,7 +29,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 一堂双三角
 - 人机协作双三角
 ---

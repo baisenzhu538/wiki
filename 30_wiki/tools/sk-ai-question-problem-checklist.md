@@ -30,6 +30,24 @@ confidence: 0.9
 trust_level: medium
 diagnostic_signals: null
 aliases:
+  - 技能：提问题转化三问清单
+  - 技能
+  - 提问题转化三问清单
+  - 纪浩
+  - 题转化三问清单
+  - 化三问清单
+aliases:
+  - 技能：提问题转化三问清单
+  - 技能
+  - 提问题转化三问清单
+  - 纪浩
+  - 题转化三问清单
+aliases:
+  - 技能：提问题转化三问清单
+  - 技能
+  - 提问题转化三问清单
+  - 纪浩
+aliases:
 - 俱乐部
 - 协作方法论
 ---

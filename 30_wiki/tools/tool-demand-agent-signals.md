@@ -14,6 +14,12 @@ domain:
 - yitang
 - five-step-method
 - ai-collaboration
+aliases:
+  - AgentL1L2信号聚合：替代凭经验猜用户
+  - L2信号聚合
+  - 信号聚合
+  - 凭经验猜用户
+  - 替代凭经验猜用户
 source_refs: null
 related:
 - '[[yitang-domain-digest]]'

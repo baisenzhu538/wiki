@@ -11,6 +11,14 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - ROI决策评估画布
+  - ROI决策评估画布：三维度投资回报评估模板
+  - 三维度投资回报评估模板
+  - 决策评估画布
+  - 度投资回报评估模板
+  - 评估画布
+  - 资回报评估模板
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md
@@ -30,7 +38,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 决策评估画布
 - 科学决策
 ---

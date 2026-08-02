@@ -23,11 +23,26 @@ source_refs:
 - 70_product/tasks/task-20260523-hongqigong-va-and-articles.md
 - 30_wiki/agent-specs/agent-spec-hongqigong-multimodal.md
 related:
+discoverable_by:
+  - "VA四维法"
+  - "视觉分析通用方法"
 - agent-spec-hongqigong-multimodal
 - beikai-multimodal-pipeline
 - vlm-image-describe-pipeline
 - framework-kdo-modeling-methodology
 tags:
+aliases:
+  - VA四维法从图片到结构化视觉分析的通用方法论
+  - 四维法
+  - 从图片到结构化视觉分析的通用方法论
+  - 析通用方法
+  - 觉分析通用方法
+  - 片到结构化视觉分析的通用方法论
+aliases:
+  - VA四维法从图片到结构化视觉分析的通用方法论
+  - 四维法
+  - 从图片到结构化视觉分析的通用方法论
+  - 觉分析通用方法
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

@@ -22,6 +22,13 @@ query_triggers:
 - src_unknown
 review_date: 2026-06-11
 reviewed_by: 周伯通
+aliases:
+  - 得到网络效应壁垒的对比分析
+  - 效应壁垒的对比分析
+  - 案例
+  - 案例：知乎vs得到网络效应壁垒的对比分析
+  - 知乎vs得到
+  - 网络效应壁垒的对比分析
 source_refs:
 - 10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md
 status: reviewed
@@ -49,7 +56,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 ---
 

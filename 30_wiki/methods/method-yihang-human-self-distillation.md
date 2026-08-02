@@ -41,6 +41,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 自我蒸馏
+- 经验提炼
+- 能力萃取
+- 人类学习
+- 知识沉淀
 ---
 
 # 人侧蒸馏法——把自己的隐性判断一步一步显性化

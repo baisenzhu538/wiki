@@ -13,6 +13,11 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 案例
+  - 案例：美妆行业渠道效率发现
+  - 美妆行业渠道效率发现
+  - 行业渠道效率发现
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 related:
@@ -25,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 行业报告调研
 - 调研专题
 ---

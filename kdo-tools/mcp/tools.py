@@ -30,15 +30,27 @@ def _get_root():
 
 # ── kdo_search ──────────────────────────────────────────────────────
 def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
-    """RRF fusion search (Graph RAG + BM25 + MOC priority boost).
+    """Search KDO wiki for business methodology cards, case studies, frameworks.
+
+    Use this when you need to find knowledge cards about business strategy,
+    demand analysis, decision science, growth models, etc. Returns cards with
+    titles, snippets, relevance scores, and source paths.
+
+    score > 70: highly relevant, use directly.
+    score 40-70: somewhat relevant, call kdo_read to verify.
+    score < 40 or 0 results: try different keywords (Chinese/English), or
+    use kdo_graph to browse by domain.
 
     Args:
-        query: Natural language query, e.g. "销售过程 环节 阶段"
+        query: Natural language query, e.g. "如何判断需求是真需求还是伪需求"
         domain: Optional domain filter from domain-routes.yaml
         limit: Max results (1-20)
 
     Returns:
         {"results": [{id, title, type, snippet, score, path}], "engine": "hybrid RRF"}
+
+    Related tools: kdo_read(card_id) to read full card body; kdo_graph(domain)
+    to browse cards by domain when you don't know exact keywords.
     """
     try:
         from kdo.commands.delivery import (
@@ -63,7 +75,16 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
             fused = [(s, str(p), sn) for s, p, sn in bm25[:limit]]
             engine = "BM25"
         else:
-            return {"results": [], "engine": "none", "query": query}
+            return {
+                "results": [],
+                "engine": "none",
+                "query": query,
+                "diagnosis": {
+                    "suggestion": "No cards matched. Try: ① different keywords (Chinese↔English) ② kdo_graph to browse domains ③ confirm the topic has been ingested into KDO",
+                    "indexed_at": _index_mtime(root),
+                    "total_cards_estimate": _count_cards(root),
+                }
+            }
 
         fused = _filter_by_trust(root, fused, "medium")
         fused = _sort_by_layer(root, fused)
@@ -110,12 +131,33 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
             except Exception:
                 pass
 
+            # Extract scene/audience from tags for scenario routing
+            scene = ""
+            audience = ""
+            for t in (tags if isinstance(tags, list) else []):
+                t_str = str(t)
+                if t_str.startswith("scene:"):
+                    scene = t_str.split(":", 1)[1]
+                elif t_str.startswith("audience:"):
+                    audience = t_str.split(":", 1)[1]
+
+            # Score label for quick triage
+            if score >= 70:
+                score_label = "high"
+            elif score >= 40:
+                score_label = "medium"
+            else:
+                score_label = "low"
+
             results.append({
                 "id": card_id,
                 "title": title,
                 "type": card_type,
                 "aliases": aliases[:8],
                 "tags": tags,
+                "scene": scene,
+                "audience": audience,
+                "score_label": score_label,
                 "position": position,
                 "snippet": snippet[:500],
                 "score": round(score, 3),
@@ -141,6 +183,9 @@ def onboard(domain: str) -> dict:
 
     Returns:
         {domain, framework, tools[], cases[], skills[], reading_order[]}
+
+    Related tools: kdo_search(query) for keyword search; kdo_read(card_id)
+    to read any card from the reading_order list.
     """
     try:
         import yaml
@@ -262,6 +307,9 @@ def read_card(card_id: str) -> dict:
 
     Returns:
         {id, title, type, frontmatter, body, path}
+
+    Related tools: kdo_search(query) to discover card IDs; kdo_graph(domain)
+    to explore a domain's full card map before deep-reading specific cards.
     """
     try:
         root = _get_root()
@@ -305,6 +353,9 @@ def capabilities() -> dict:
     Returns:
         {frameworks: {count, list[]}, workflows: {count, list[]},
          skills: {count}, agent_specs: [...]}
+
+    Related tools: kdo_graph(domain) for a guided tour of a specific domain;
+    kdo_search(query) to find cards by topic or keyword.
     """
     try:
         root = _get_root()
@@ -350,7 +401,70 @@ def capabilities() -> dict:
         return {"error": str(e)}
 
 
+# ── kdo_help ─────────────────────────────────────────────────────────
+def help_guide() -> dict:
+    """First-time guide to KDO — call this once when connecting to understand how to search.
+
+    Returns a structured onboarding guide covering what KDO is, how to search
+    effectively, and common search patterns for different question types.
+
+    Call this once at session start, then use kdo_search / kdo_read / kdo_graph
+    for actual knowledge retrieval.
+    """
+    return {
+        "what_is_kdo": {
+            "summary": "KDO is a curated business methodology knowledge base (~2,500 cards) covering strategy, demand analysis, decision science, growth, barriers, product design, and AI collaboration.",
+            "card_types": {
+                "framework": "Methodology frameworks — the 'what and why'",
+                "tool": "Operational tools/checklists — the 'how'",
+                "case": "Real business cases — the 'prove it'",
+                "dk": "Dark knowledge — counter-intuitive insights and failure modes",
+                "concept": "Core concepts and definitions",
+            },
+        },
+        "how_to_search": [
+            "1. kdo_search('your question') — keyword/semantic search, returns cards with scores",
+            "2. kdo_read(card_id) — read the full card body",
+            "3. kdo_graph(domain) — browse a domain's full card map when you're exploring",
+            "4. If 0 results: try different keywords (Chinese↔English), or kdo_graph to browse",
+        ],
+        "common_patterns": {
+            "What is X?": 'kdo_search("X") → look for type=framework cards',
+            "How to do X?": 'kdo_search("X 方法") → look for type=tool cards',
+            "Is there a case about X?": 'kdo_search("X 案例") → look for type=case cards',
+            "What are the pitfalls of X?": 'kdo_search("X 失败") → look for type=dk cards',
+            "Explore a domain": 'kdo_graph("strategy") or kdo_graph("demand") → get full map',
+        },
+        "score_guide": {
+            "high (>70)": "Directly relevant — can cite confidently",
+            "medium (40-70)": "Partially relevant — call kdo_read to verify before citing",
+            "low (<40)": "Weak match — try different keywords or broader query",
+        },
+    }
+
+
 # ── Helpers ──────────────────────────────────────────────────────────
+def _index_mtime(root) -> str:
+    """Return last index modification time as ISO string."""
+    try:
+        idx = root / "30_wiki" / ".graph" / "index.json"
+        if idx.exists():
+            from datetime import datetime
+            return datetime.fromtimestamp(idx.stat().st_mtime).strftime("%Y-%m-%dT%H:%M:%SZ")
+    except Exception:
+        pass
+    return "unknown"
+
+
+def _count_cards(root) -> int:
+    """Quick estimate of total cards indexed."""
+    try:
+        wiki = root / "30_wiki"
+        return sum(1 for _ in wiki.rglob("*.md") if "_archive" not in str(_) and "raw" not in str(_))
+    except Exception:
+        return 0
+
+
 def _infer_type(path_str: str) -> str:
     for t in ["frameworks", "tools", "cases", "concepts", "dark-knowledges",
               "skills", "methods", "systems", "agent-specs"]:

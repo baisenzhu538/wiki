@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-控制产品画面尺寸比例]]'
 - '[[tool-月白-替换大法改图]]'
 tags:
+aliases:
+  - 技能：批量生成多视角素材
+  - 技能
+  - 批量生成多视角素材
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

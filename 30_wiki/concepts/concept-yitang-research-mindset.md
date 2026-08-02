@@ -13,6 +13,11 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 从找答案到拆假设
+  - 答案到拆假设
+  - 调研心态
+  - 调研心态：从找答案到拆假设
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
@@ -31,7 +36,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研武器库培训
 ---

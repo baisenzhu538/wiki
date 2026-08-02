@@ -1,11 +1,16 @@
 ---
 id: concept-smart-medicine-cabinet-supply-chain-validation
+title: "智能药柜供应链/技术交叉验证（知识卡草稿）"
 related:
 - '[[yt-lean-beauty-store-conversion]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+aliases:
+  - 技术交叉验证知识卡草稿
+  - 智能药柜供应链/技术交叉验证知识卡草稿
+  - 药柜供应链
 source_refs:
 - pending_archive: src_unknown
 tags:
@@ -13,7 +18,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 - [[yt-lean-beauty-store-conversion]]
 
 # 智能药柜供应链/技术交叉验证（知识卡草稿）

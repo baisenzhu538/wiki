@@ -18,6 +18,10 @@ reviewed_by: 欧阳锋
 review_date: 2026-06-29
 confidence: 0.8
 trust_level: high
+aliases:
+  - AI工具学习工作手册
+  - 学习工作手册
+  - 工具学习工作手册
 source_refs:
 - 40_outputs/capabilities/skills/consultant-mode-yai-style/WORKBOOK.md
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
@@ -30,7 +34,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - capabilities
 - consultant
 ---

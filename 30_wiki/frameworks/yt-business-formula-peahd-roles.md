@@ -13,6 +13,11 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - PEAHD五角色：一个强大的假设团队需要哪五种人可兼
+  - 一个强大的假设团队需要哪五种人可兼
+  - 五角色
+  - 强大的假设团队需要哪五种人可兼
 source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2374-L2460
@@ -52,8 +57,13 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - handle
+discoverable_by:
+- PEAHD
+- 假设团队
+- 角色配置
+- 五人团队
+- 假设协作
 ---
 
 # PEAHD 五角色：一个强大的假设团队需要哪五种人（可兼）

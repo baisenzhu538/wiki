@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 和场景分析
+  - 婚礼操盘
+  - 婚礼操盘用户和场景分析
+  - 案例
+  - 案例：婚礼操盘用户和场景分析
+  - 用户和场景分析
 source_refs:
 - src_unknown
 related:

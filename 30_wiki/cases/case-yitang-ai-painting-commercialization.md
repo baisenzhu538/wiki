@@ -18,6 +18,13 @@ quality_labels:
 - validated
 created_at: 2026-06-27
 updated_at: '2026-06-29'
+aliases:
+  - 如何通过
+  - 崔磊如何通过
+  - 案例
+  - 案例：崔磊如何通过AI绘画练习实现商业化交付
+  - 盈盈
+  - 绘画练习实现商业化交付
 source_refs:
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
@@ -39,7 +46,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 元能力-刻意练习
 - 刻意练习行动营
 ---

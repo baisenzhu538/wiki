@@ -14,6 +14,13 @@ domain:
 - yitang
 - key-assumptions
 - business-formula
+aliases:
+  - 一堂业务公式拆解总纲
+  - 一堂业务公式拆解总纲：关键假设ABCD体系的核心骨架与灵魂贯通定性→定量
+  - 业务公式拆解总纲
+  - 体系的核心骨架与灵魂贯通定性→定量
+  - 关键假设
+  - 的核心骨架与灵魂贯通定性
 source_refs:
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt L178-L194
 - 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt L2474-L2500
@@ -138,8 +145,13 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - handle
+discoverable_by:
+- 业务公式拆解
+- 关键假设体系
+- 收入公式设计
+- 业务模型计算
+- 定性转定量
 ---
 
 # 一堂业务公式拆解总纲：关键假设 ABCD 体系的核心骨架与灵魂

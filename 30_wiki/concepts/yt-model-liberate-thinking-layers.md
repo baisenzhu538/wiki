@@ -9,6 +9,12 @@ domain:
 confidence: 0.8
 language: zh-CN
 reviewed_by: 欧阳锋
+aliases:
+  - 写升级
+  - 待重写升级
+  - 思想五层模型已弃用
+  - 解放思想五层模型已弃用
+  - 解放思想五层模型已弃用，待重写升级
 source_refs:
 - pending_archive:src_placeholder
 related:

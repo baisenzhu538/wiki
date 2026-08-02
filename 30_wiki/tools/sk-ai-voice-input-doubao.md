@@ -8,6 +8,13 @@ domain:
 - src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
+aliases:
+  - 半肥猫
+  - 口喷式语音输入法
+  - 式语音输入法
+  - 技能
+  - 技能：口喷式语音输入法
+  - 音输入法
 source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 wiki_refs:
@@ -47,7 +54,6 @@ diagnostic_signals:
   follow_up_question: 能否提供半肥猫/季浩分享中关于“口喷式语音输入”具体步骤的原文，或补充一份实测记录？
 - framework_lens: evidence-gap
   follow_up_question: 这些数字和快捷设置来自个人体验还是官方说明？能否附上截图或另一份来源以支撑？
-aliases:
 - 没有人呀现在
 ---
 

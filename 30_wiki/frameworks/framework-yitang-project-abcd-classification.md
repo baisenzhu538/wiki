@@ -1,4 +1,4 @@
-﻿---
+---
 id: framework-yitang-project-abcd-classification
 title: 项目ABCD复杂度分类：工具跟着复杂度走
 type: framework
@@ -18,6 +18,10 @@ source_refs:
 - 00_inbox/管项目/项目管理-入门篇-口述.txt
 - 00_inbox/管项目/项目管理-定方案-口述.txt
 related:
+discoverable_by:
+  - "项目ABCD分类"
+  - "工具跟着复杂度走"
+  - "项目复杂度分类"
 - "[[yt-management-project-management]]"
 - "[[framework-yitang-project-plan-design]]"
 - "[[framework-yitang-project-breakdown]]"
@@ -26,6 +30,19 @@ related:
 - "[[workflow-yitang-project-four-step-loop]]"
 - "[[yt-management-basic-skills]]"
 diagnostic_signals:
+aliases:
+  - 项目ABCD复杂度分类：工具跟着复杂度走
+  - 项目ABCD复杂度分类
+  - 工具跟着复杂度走
+  - 复杂度分类
+  - 杂度分类
+  - 着复杂度走
+aliases:
+  - 项目ABCD复杂度分类：工具跟着复杂度走
+  - 项目ABCD复杂度分类
+  - 工具跟着复杂度走
+  - 目复杂度分类
+  - 具跟着复杂度走
 - signal: 团队的所有项目都套用同一套管理流程——简单项目过度管理，复杂项目管理不足
   lens: 缺ABCD分级意识——没有"工具跟着复杂度走"
   follow-up: 把当前所有项目拉出来跑一次ABCD分级，对比实际用的工具和推荐的工具

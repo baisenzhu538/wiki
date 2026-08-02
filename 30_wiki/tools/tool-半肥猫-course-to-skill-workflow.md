@@ -8,6 +8,11 @@ domain:
 - src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
+aliases:
+  - 从结构化内容到可复用AI技能的完整转化
+  - 半肥猫
+  - 课程→Skill八步工作流
+  - 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化
 source_refs:
 - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
 created_at: '2026-06-08'
@@ -58,7 +63,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 俱乐部
 - 半肥猫
 ---

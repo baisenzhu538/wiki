@@ -14,6 +14,11 @@ trust_level: medium
 language: zh-CN
 created_at: '2026-06-29'
 updated_at: '2026-06-29'
+aliases:
+  - 全员涨薪
+  - 全员涨薪20%的ROI测算
+  - 案例
+  - 案例：全员涨薪20%的ROI测算
 source_refs:
 - 00_inbox/科学决策/一堂-科学决策-审美拉升01口述.txt
 related:
@@ -24,7 +29,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 审美拉升
 - 科学决策
 ---

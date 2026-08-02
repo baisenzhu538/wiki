@@ -13,6 +13,13 @@ updated_at: 2026-07-11
 domain:
 - management
 - yitang
+aliases:
+  - 万年营收
+  - 兼职学生军跑出
+  - 把过山车业务焊成
+  - 温校长校园代理
+  - 温校长校园代理：把过山车业务焊成SOP，兼职学生军跑出800万年营收
+  - 长校园代理
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L386-650（温校长案例完整口述）
 related:
@@ -43,7 +50,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - fundamentals
 - manage
 ---

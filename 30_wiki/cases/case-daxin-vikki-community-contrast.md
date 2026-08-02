@@ -14,6 +14,12 @@ updated_at: '2026-06-30T16:19:57+00:00'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-30'
+aliases:
+  - Vikki群与大馨群：两种社群知识生产模式的对比
+  - 两种社群知识生产模式的对比
+  - 大馨群
+  - 社群知识生产模式的对比
+  - 群与大馨群
 source_refs:
 - 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md
 - 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
@@ -22,7 +28,6 @@ query_triggers:
 - 自由讨论型社群和结构化训练型社群哪个好
 - 社群知识生产模式对比
 - 开源群运营模式选择
-aliases:
 - daxin-vikki-community-contrast
 - Vikki大馨对比
 - 社群模式对比

@@ -16,6 +16,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
+aliases:
+  - 一堂课程大地图
+  - 课程大地图
 source_refs:
 - 'pending_archive: src_unknown'
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）

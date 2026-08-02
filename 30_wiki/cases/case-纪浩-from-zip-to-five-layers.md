@@ -8,6 +8,12 @@ domain:
 - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
+aliases:
+  - 从微信传
+  - 到五层协作体系
+  - 层协作体系
+  - 纪浩
+  - 纪浩：从微信传zip到五层协作体系
 source_refs:
 - 10_raw/sources/src_20260606_6ea91aa8-纪浩-AI协作方法论-口述.md
 - 10_raw/sources/src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记.md
@@ -56,7 +62,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:beginner
-aliases:
 - 俱乐部
 - 协作方法论
 - 参考案例

@@ -6,6 +6,8 @@ status: enriched
 domain:
 - healthcare
 - business-strategy
+aliases:
+  - 诊所+智能药柜合作的法律关系与合同要点
 source_refs:
 - pending_archive:src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
 - pending_archive:src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis

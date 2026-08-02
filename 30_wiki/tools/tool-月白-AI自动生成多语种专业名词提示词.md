@@ -41,6 +41,11 @@ related:
 - '[[tool-月白-文创材质调研与精益选择]]'
 - '[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
 tags:
+aliases:
+  - 技能：AI自动生成多语种专业名词提示词
+  - 技能
+  - AI自动生成多语种专业名词提示词
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -13,6 +13,13 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 乘法必经优先
+  - 关键路径与乘法杠杆
+  - 关键路径与乘法杠杆：乘法必经优先，定量后分支可反超
+  - 后分支可反超
+  - 定量后分支可反超
+  - 必经优先
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L900-L966
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1036-L1070
@@ -57,7 +64,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - handle
 ---
 

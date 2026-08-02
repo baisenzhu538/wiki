@@ -34,6 +34,11 @@ related:
 - '[[tool-月白-多语言提示词精准法]]'
 - '[[tool-月白-找AI要平台专属方法（模型对抗法）]]'
 tags:
+aliases:
+  - 技能：多语言提示词降幻觉法
+  - 技能
+  - 多语言提示词降幻觉法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

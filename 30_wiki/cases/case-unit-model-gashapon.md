@@ -11,6 +11,12 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain: yitang
+aliases:
+  - 店规模化扩张三阶段决策
+  - 扭蛋机案例
+  - 扭蛋机案例：玩具店规模化扩张三阶段决策
+  - 机案例
+  - 玩具店规模化扩张三阶段决策
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-扭蛋机案例_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-扭蛋机案例_vlm_desc.md
@@ -24,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 单元模型
 - 扭蛋机案例
 ---

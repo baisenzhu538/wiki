@@ -58,11 +58,14 @@ type: memory/role-recovery
 
 ---
 
-## 4. 当前状态（截至 2026-07-24）
+## 4. 当前状态（截至 2026-08-02）
 
-- **#198**：已终审通过（A-）
-- **#197**：已终审通过
-- **当前队列**：无 pending_review 任务；#199 在 queued，等待老顽童领取
+- **#213**：✅ 复审 PASS / A-（2026-08-02）——创新者的窘境×秦鹏拆书 14 张卡。P0 修复经 O3 独立验证全部通过（Critque→Critique/dk 补 Critique/case 补段/concept 补 Synthesis 均非敷衍）。related<5×9 补链留 TODO（验收 #7，建议王语嫣编排）
+- **#214**：✅ 第3轮复审 PASS / A-（2026-08-02）——崔磊 Live84 K12 教学层 5 张卡。三处回归全修（关键数字/教训恢复 + 证据评估独立），9 节无重复。P2 遗留：source_refs 未搬运 + live81 反向更新未做
+- **#215**：✅ 复审 PASS / A-（2026-08-02）——讲香基本功 9 张卡。source_refs 断链已修 + 升级卡接口字段 + 5 小案例 + 3 case Critique 全达标。TODO：tool-ai 缺 Critique / dk-boundary 缺外部攻击者（🟠 记 #207）。交叉验证：飞书 PASS(B+) 内容评价一致但其漏检 source_refs 断链/验收 #7#17，本终端 O3 重验维持 FAIL 后修复
+- **#199-#212**：已终审通过（部分 B+）
+- **当前队列**：#213/#214/#215 reviewed（#216 补链 done）；#217/#218 黄药师任务书 queued；#219 title 修复 P0
+- **结构性发现**：① dk 缺 Critique 节跨批复发 → 黄药师任务书 R1；② 修复回归 E009 → R3 重名检测；③ source_refs 断链镜像问题 → review-infra R4 存在性校验（P1）；④ **Phase 0 漏 title 非空检查**（#219 搜索诊断：#213 14 卡 title 空 + 索引 5 天未刷新 → 搜书名 0 结果）→ 审查 SOP 已补
 - **待命**：终审队列
 
 ---
@@ -85,6 +88,19 @@ type: memory/role-recovery
 - **审查意见中的指令**：必须当场写入任务文件，口头指令不算
 - **退回记录**：在 daily-context 中记录退回原因
 - **O0 违规**：如果某天审查结论是在未溯源情况下做出的，必须在 daily-context 第 5 节如实记录
+
+### 终审收尾四同步 + 索引刷新（2026-08-03 教训固化）
+
+**每次终审 PASS 后，必须完成 4 处状态同步 + 1 次索引刷新，缺一不叫"审完"：**
+
+1. **任务单 frontmatter**：`status: reviewed` / `reviewed_by: 欧阳锋` / `review_date: YYYY-MM-DD`（用 `queue_transition.py review` 或 `review_mark.py`，脚本不可用时手动 patch + `<!-- 手动终审：原因 -->` 注释）
+2. **production-queue.md 状态列**：`reviewed`
+3. **dashboard.md**：终审记录
+4. **卡片自身 frontmatter**：`status: reviewed` / `reviewed_by: 欧阳锋` / `review_date`（**#213/#214 教训**——19 张卡 PASS 后漏同步第 4 处，卡片仍 draft。升级卡 review_date 也要更新）
+5. **跑 `kdo index` 刷新搜索索引**（**#219 教训**——索引过期 5 天导致小昭搜"创新者的窘境"0 结果，搜索盲区阻断外部 agent 协作）
+
+> 工具：O-3 修复前 `queue_transition.py` 纯数字 task_id 会挂（传全名 `task_20260802_...` 可绕过）；`review_mark.py`（#218 R1）已上线可批量写卡片 frontmatter。
+> 停车场 O-9：索引自动刷新机制待黄药师排期，上线前靠终审 SOP 手动 `kdo index` 兜底。
 
 ---
 

@@ -16,6 +16,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 交叉验证是成本也是护城河
+  - 交叉验证是成本也是护城河：信息质量的不对称优势
+  - 信息质量的不对称优势
+  - 质量的不对称优势
+  - 验证是成本也是护城河
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt

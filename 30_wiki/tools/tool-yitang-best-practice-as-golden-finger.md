@@ -17,6 +17,13 @@ quality_labels:
 - validated
 created_at: 2026-06-27
 updated_at: 2026-07-02
+aliases:
+  - Truman
+  - 实践临摹法
+  - 快速提升的金手指
+  - 早期快速提升的金手指
+  - 最佳实践临摹法
+  - 最佳实践临摹法：早期快速提升的金手指
 source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
@@ -34,7 +41,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 元能力-刻意练习
 - 刻意练习
 ---

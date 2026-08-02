@@ -14,6 +14,13 @@ domain:
 - yitang
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），传统工业分销场景用户分层转型案例
+aliases:
+  - 万线索中筛出
+  - 个高价值客户的分层转型
+  - 李蕊
+  - 案例
+  - 案例：涂料公司“意图”从10万线索中筛出220个高价值客户的分层转型
+  - 涂料公司“意图”
 source_refs:
 - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
@@ -39,7 +46,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 客户分层和卖点提炼
 ---
 # 案例：涂料公司“意图”——从 10 万线索中筛出 220 个高价值客户的分层转型

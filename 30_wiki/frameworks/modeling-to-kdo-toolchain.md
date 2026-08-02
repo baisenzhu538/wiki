@@ -42,6 +42,18 @@ tags:
 - scene:diagnosis
 - skill-level:advanced
 diagnostic_signals:
+aliases:
+  - 建模三段论→KDO工具链映射：从SOP到本质的知识管理落地
+  - 建模三段论
+  - 工具链映射
+  - 到本质的知识管理落地
+  - 链映射
+  - 三段论
+aliases:
+  - 建模三段论→KDO工具链映射：从SOP到本质的知识管理落地
+  - 建模三段论
+  - 工具链映射
+  - 到本质的知识管理落地
 - framework_lens: 三段论门禁映射
   follow_up_question: 你的卡处于L3（流程）、L4（抽象）还是L5（本质）？对应的门禁标准不同。
 - framework_lens: KDO管线五阶段
@@ -55,6 +67,12 @@ aliases:
 - 建模能力培训
 - 流程建模
 - 高阶建模
+discoverable_by:
+- 建模KDO映射
+- 三段论工具链
+- KDO管线
+- 知识管理落地
+- 建模到卡片
 ---
 
 # 建模三段论 → KDO 工具链映射

@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-三步作业反馈法]]'
 - '[[tool-月白-一抽流长提示词写作法]]'
 tags:
+aliases:
+  - 技能：AI海报快速生成法15分钟无PS
+  - 技能
+  - AI海报快速生成法15分钟无PS
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

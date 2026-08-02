@@ -10,6 +10,12 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain: yitang
+aliases:
+  - 别在模式没跑通前做完美产品
+  - 商业模式风险高于产品风险
+  - 商业模式风险高于产品风险：别在模式没跑通前做完美产品
+  - 模式没跑通前做完美产品
+  - 模式风险高于产品风险
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
 related:

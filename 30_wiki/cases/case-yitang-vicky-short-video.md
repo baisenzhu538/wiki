@@ -8,6 +8,13 @@ domain:
 - business-formula
 source_person: Vicky（一堂视频大航海学员，短视频培训业务负责人），一堂课程讲师转述
 source_context: 一堂「关键假设·业务公式」管理篇入门案例 1（L776-L880）：Vicky 从"盯结果、抄同行、成败像掷骰子"的传统做生意心态，转为把业务转成一组假设定期复盘，借鉴一堂建测试群（只扔假设不讨论不点赞）和飞书团队假设池，团队心力从"出错白干"逆转为"越挫越勇"
+aliases:
+  - Vicky（一堂视频大航海学员，短视频培训业务负责人），一堂课程讲师转述
+  - 业务跑出来
+  - 从盯结果+抄同行+掷骰子到测试群+飞书假设池
+  - 团队心力逆转
+  - 心力逆转
+  - 短视频
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L776-L796
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L798-L814
@@ -40,7 +47,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - handle
 ---
 # Vicky 短视频：从"盯结果+抄同行+掷骰子"到测试群+飞书假设池，团队心力逆转、业务跑出来

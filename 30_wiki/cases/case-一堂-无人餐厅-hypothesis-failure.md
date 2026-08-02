@@ -8,6 +8,11 @@ domain:
 - business-strategy
 source_person: 一堂·Truman
 source_context: 一堂关键假设课，京东天津无人餐厅案例
+aliases:
+  - 一堂·Truman
+  - 一堂无人餐厅项目因忽视关键假设而失败
+  - 案例
+  - 案例：一堂无人餐厅项目因忽视关键假设而失败
 source_refs:
 - pending_archive:src_20260506_9b4788a6-声音和画面正常吗
 - pending_archive:src_20260606_22c4a291-一堂-关键假设课-truman-笔记
@@ -45,7 +50,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 关键假设课
 - 声音和画面正常吗
 ---

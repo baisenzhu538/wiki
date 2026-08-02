@@ -14,6 +14,12 @@ updated_at: 2026-07-05
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - Agent配置7步法：人类画像+规则匹配
+  - 人类画像
+  - 步法
+  - 规则匹配
+  - 配置
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
@@ -24,7 +30,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 一堂双三角
 - 人机协作双三角
 ---

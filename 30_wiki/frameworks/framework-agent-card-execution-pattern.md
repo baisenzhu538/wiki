@@ -11,6 +11,11 @@ trust_level: medium
 domain:
 - kdo
 - ai-collaboration
+aliases:
+  - Agent执行模式：从卡片到可执行动作
+  - 从卡片到可执行动作
+  - 执行模式
+  - 片到可执行动作
 source_refs:
 - 30_wiki/tools/agent-spec-dual-triangle-canvas-filler.md
 - 30_wiki/tools/tool-opc-sales-dialogue-assistant.md
@@ -22,6 +27,10 @@ related:
 - '[[system-yitang-Y-model-os]]'
 - '[[agents/agent-os]]'
 - '[[concept-yihang-dual-triangle-core]]'
+discoverable_by:
+- "Agent执行模式"
+- "卡片到可执行动作"
+- "Agent卡片执行"
 tags:
 - audience:ceo
 - scene:diagnosis

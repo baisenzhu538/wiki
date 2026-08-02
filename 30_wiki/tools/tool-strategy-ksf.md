@@ -8,6 +8,10 @@ trust_level: high
 domain:
 - strategy
 - competitive_analysis
+aliases:
+  - 关键成功因素KSF分析工具
+  - 分析工具
+  - 成功因素
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_82_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_84_ocr_text.md
@@ -30,7 +34,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

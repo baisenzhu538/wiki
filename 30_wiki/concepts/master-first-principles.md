@@ -6,6 +6,9 @@ title: 第一性原理
 type: tool
 status: reviewed
 source_context: 一堂科学决策课程——第一性原理与关键假设拆解框架
+aliases:
+  - 性原理
+  - 第一性原理
 source_refs:
 - pending_archive:src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md
 - pending_archive:src_20260614_239c9f4e-一堂-知识萃取探索营.md
@@ -28,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 关键假设
 - 知识萃取探索营
 - 科学决策

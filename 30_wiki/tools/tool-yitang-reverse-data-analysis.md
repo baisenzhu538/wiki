@@ -40,6 +40,10 @@ related:
 - '[[tool-yitang-weapon-third-party-database]]'
 - '[[tool-月白-控制产品画面尺寸比例]]'
 tags:
+aliases:
+  - 逆向数据分析：从公开数据反推商业真相
+  - 逆向数据分析
+  - 从公开数据反推商业真相
 - audience:executor
 - scene:execution
 - skill-level:intermediate

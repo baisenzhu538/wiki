@@ -61,6 +61,11 @@ related:
 - '[[tool-月白-里程碑思维-找对标优先于做设计]]'
 - '[[tool-李诞-面对过去错误的平静心法]]'
 tags:
+aliases:
+  - 技能：文创产品AI设计到生产的卡点预判
+  - 技能
+  - 文创产品AI设计到生产的卡点预判
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

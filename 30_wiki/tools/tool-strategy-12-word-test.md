@@ -9,6 +9,12 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 12词战略测试
+  - 12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略
+  - 只有份额
+  - 数字化这些
+  - 词战略测试
 source_refs:
 - pending_archive:src_unknown
 reviewed_by: pending

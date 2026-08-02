@@ -8,6 +8,11 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂商业模式系列课——平台战略
+aliases:
+  - 从单边到双边
+  - 平台战略
+  - 平台战略：从单边到双边
+  - 边到双边
 source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -35,9 +40,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核验证课
+discoverable_by:
+- 平台策略
+- 平台商业模式
+- 双边平台
+- 平台增长
+- 网络效应平台
 ---
 
 # 平台战略：从单边到双边

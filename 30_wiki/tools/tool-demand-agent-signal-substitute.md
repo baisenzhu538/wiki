@@ -14,6 +14,12 @@ domain:
 - yitang
 - five-step-method
 - ai-collaboration
+aliases:
+  - AgentL5信号提取：替代微观体感的非结构化数据分析
+  - L5信号提取
+  - 信号提取
+  - 微观体感的非结构化数据分析
+  - 替代微观体感的非结构化数据分析
 source_refs: null
 related:
 - '[[yitang-domain-digest]]'

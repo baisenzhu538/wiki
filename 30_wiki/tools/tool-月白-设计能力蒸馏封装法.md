@@ -32,6 +32,11 @@ related:
 - '[[tool-ai-skill-engineering-method]]'
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 tags:
+aliases:
+  - 技能：设计能力蒸馏封装法
+  - 技能
+  - 设计能力蒸馏封装法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

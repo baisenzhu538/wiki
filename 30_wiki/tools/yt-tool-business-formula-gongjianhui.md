@@ -13,6 +13,13 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 不解决不出门
+  - 人封闭
+  - 小时
+  - 攻坚会
+  - 攻坚会：515人封闭418小时、不解决不出门、民主集中制的难题解题机制
+  - 民主集中制的难题解题机制
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L340-L368
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L410-L414
@@ -52,7 +59,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - handle
 ---
 

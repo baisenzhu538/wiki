@@ -2,6 +2,13 @@
 id: ai-short-drama-plot-three-axes
 title: 剧情三板斧：短剧剧本的情节张力设计工具
 type: tool
+aliases:
+  - 三板斧
+  - 剧情三板斧
+  - 剧情三板斧：短剧剧本的情节张力设计工具
+  - 剧本的情节张力设计工具
+  - 的情节张力设计工具
+  - 短剧剧本的情节张力设计工具
 source_refs:
 - 10_raw/sources/src_20260613_083395df-plot-three-axes.md
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md

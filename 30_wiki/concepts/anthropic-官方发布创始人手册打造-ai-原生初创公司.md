@@ -20,6 +20,13 @@ related:
 - '[[framework-lean-false-model]]'
 - '[[dk-modeling-ai-judgment-limit]]'
 reviewed_by: 欧阳锋
+aliases:
+  - AI原生创业四阶段模型Anthropic创始人手册
+  - 人手册
+  - 创业四阶段模型
+  - 创始人手册
+  - 原生创业四阶段模型
+  - 原生创业四阶段模型Anthropic
 source_refs:
 - 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md
 status: reviewed
@@ -36,7 +43,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 原生初创公司
 - 官方发布创始人手册打造
 ---

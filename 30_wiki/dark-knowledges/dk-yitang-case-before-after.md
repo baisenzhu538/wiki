@@ -15,6 +15,12 @@ updated_at: '2026-07-20'
 quality_labels:
 - actionable
 - insight
+aliases:
+  - BeforeAfter对比心法：四维度+过去往往有合理性
+  - 四维度
+  - 对比心法
+  - 往往有合理性
+  - 过去往往有合理性
 source_refs:
 - 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt
 - 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt
@@ -26,7 +32,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 案例打磨方法
 - 案例打造法-李頔
 ---

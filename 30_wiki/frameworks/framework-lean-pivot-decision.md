@@ -25,6 +25,8 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 related:
+discoverable_by:
+  - "精益转型决策"
 - '[[strategy-domain-digest]]'
 - '[[framework-lean-abcd-model]]'
 - '[[lean-startup-domain-digest]]'
@@ -35,6 +37,16 @@ related:
 - '[[case-yitang-sales-transformation-jubensha-saas]]'
 updated_at: 2026-07-02
 tags:
+aliases:
+  - 精益验证结果如何触发战略/产品pivot
+  - 精益验证结果如何触发战略/产品
+  - 益转型决策
+  - 验证结果如何触发战略
+  - 型决策
+aliases:
+  - 精益验证结果如何触发战略/产品pivot
+  - 精益验证结果如何触发战略/产品
+  - 益转型决策
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

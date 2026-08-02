@@ -14,6 +14,12 @@ domain:
 - strategy
 created_at: '2026-06-29'
 updated_at: '2026-06-30T16:07:51+00:00'
+aliases:
+  - 九层深挖诊断
+  - 区域代理/底价合伙人模式设计工具
+  - 底价合伙人模式设计工具
+  - 战略培训案例
+  - 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）
 source_refs:
 - 60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md
 - 10_raw/sources/src_20260614_22f103f0-战略培训-实战案例分析.md
@@ -31,7 +37,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - details
 - itingnao
 ---

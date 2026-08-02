@@ -8,6 +8,13 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - ToB需求测算双指标：成本占有率+业务天花板
+  - 业务天花板
+  - 占有率
+  - 成本占有率
+  - 测算双指标
+  - 需求测算双指标
 source_refs:
 - 'pending_archive: src_unknown'
 tags:
@@ -41,6 +48,12 @@ diagnostic_signals:
   follow_up_question: 单家目标客户为此付出的专项成本是多少？我能切到的占有率上限是多少？同类客户又有多少家？
 - framework_lens: To B 收入本质
   follow_up_question: 我们帮客户省下的成本或创造的收入，能否用客户听得懂的数字呈现并传导给决策者？
+discoverable_by:
+- ToB需求指标
+- 企业需求量化
+- B2B需求分析
+- 客户价值量化
+- ROI计算
 ---
 
 > "我们做 To B 的，你的收入就是你服务对象的成本。" ——徐剑，To B 五步法口述稿 §需求测算（oral ~1366-1577）；课堂笔记 §2 亦将"成本占有率 + 业务天花板"列为需求测算双指标。

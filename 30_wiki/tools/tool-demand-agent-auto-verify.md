@@ -14,6 +14,13 @@ domain:
 - yitang
 - five-step-method
 - ai-collaboration
+aliases:
+  - AgentL6自动预验证：RAT的竞品数据+趋势快速验证
+  - L6自动预验证
+  - RAT的竞品数据+趋势快速验证
+  - 的竞品数据
+  - 自动预验证
+  - 趋势快速验证
 source_refs: null
 related:
 - '[[yitang-domain-digest]]'

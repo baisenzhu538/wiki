@@ -48,6 +48,10 @@ related:
 - '[[tool-yitang-user-interview-5steps]]'
 - '[[tool-yitang-weapon-industry-expert]]'
 tags:
+aliases:
+  - 交叉验证：多源印证的信息可信度提升
+  - 交叉验证
+  - 多源印证的信息可信度提升
 - audience:executor
 - scene:execution
 - skill-level:intermediate

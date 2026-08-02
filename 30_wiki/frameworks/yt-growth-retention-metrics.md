@@ -8,6 +8,11 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——留存指标
+aliases:
+  - 从流失到忠诚
+  - 失到忠诚
+  - 留存指标
+  - 留存指标：从流失到忠诚
 source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -35,9 +40,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核验证课
+discoverable_by:
+- 留存指标
+- 用户留存
+- 续费率
+- 流失分析
+- 留存优化
 ---
 
 # 留存指标：从流失到忠诚

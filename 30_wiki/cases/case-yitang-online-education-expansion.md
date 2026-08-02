@@ -14,6 +14,13 @@ updated_at: '2026-07-04'
 domain:
 - yitang
 - decision-science
+aliases:
+  - 不会定量的代价
+  - 在线教育融资扩张
+  - 在线教育融资扩张不会定量的代价
+  - 定量的代价
+  - 案例
+  - 案例：在线教育融资扩张不会定量的代价
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
@@ -24,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - extractions
 ---
 

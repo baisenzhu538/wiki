@@ -8,6 +8,9 @@ type: concept
 status: reviewed
 source_context: 一堂商业调研课程——调研者的核心思维模式
 source_person: 一堂
+aliases:
+  - 商业调研思维
+  - 调研思维
 source_refs:
 - pending_archive:src_20260620_business-research-skill-v2.1.0
 created_at: '2026-06-20'

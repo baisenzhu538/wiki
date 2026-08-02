@@ -7,6 +7,13 @@ domain:
 dark_knowledge_type: hardware-failure
 source_person: 黄药师
 source_context: 复杂信号链路调试（MCU→电平转换→595→MOSFET→LED→接收管→MUX→运放→MCU）——不知道哪一级出了问题
+aliases:
+  - 你不知道信号卡在哪一级
+  - 没有诊断固件就是盲调
+  - 没有诊断固件就是盲调：你不知道信号卡在哪一级
+  - 知道信号卡在哪一级
+  - 诊断固件就是盲调
+  - 黄药师
 source_refs:
 - 90_control/electronics-practice/failure-modes-electronics.md
 created_at: 2026-06-07
@@ -26,7 +33,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - control
 - electronics
 - practice

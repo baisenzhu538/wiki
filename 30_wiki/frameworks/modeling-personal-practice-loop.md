@@ -2,6 +2,11 @@
 id: modeling-personal-practice-loop
 title: 建模能力个人修炼闭环：刻意练习 × IPO × PDCA
 type: framework
+aliases:
+  - 刻意练习
+  - 建模能力个人修炼闭环
+  - 建模能力个人修炼闭环：刻意练习×IPO×PDCA
+  - 能力个人修炼闭环
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
@@ -33,8 +38,13 @@ source_context: 单一来源为一堂建模能力培训课程口述稿，内容�
 diagnostic_signals:
 - src_unknown
 - src_unknown
-aliases:
 - 建模能力培训
+discoverable_by:
+- 建模能力修炼
+- 刻意练习建模
+- IPO学习闭环
+- PDCA模型
+- 思维模型训练
 ---
 
 # 建模能力个人修炼闭环：刻意练习 × IPO × PDCA

@@ -24,6 +24,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+discoverable_by:
+- 段王爷发布
+- 飞书文档
+- 全链路发布
+- docx发布
+- KDO发布管线
 ---
 
 # 段王爷·飞书文档发布引擎

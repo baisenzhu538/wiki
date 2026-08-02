@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-AIGC橱窗陈列设计流程]]'
 - '[[tool-月白-AI精准替换产品技巧]]'
 tags:
+aliases:
+  - 技能：替换大法改图
+  - 技能
+  - 替换大法改图
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

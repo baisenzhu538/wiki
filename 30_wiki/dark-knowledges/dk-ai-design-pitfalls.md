@@ -23,6 +23,15 @@ tags:
 trust_level: medium
 reviewed_by: 欧阳锋
 related:
+aliases:
+  - AI设计交付物的五个常见陷阱与反打
+  - 设计交付物的五个常见陷阱与反打
+  - 陈舒妍
+  - 交付物的五个常见陷阱与反打
+aliases:
+  - AI设计交付物的五个常见陷阱与反打
+  - 设计交付物的五个常见陷阱与反打
+  - 陈舒妍
 - '[[case-live81-ai-trademark-design]]'
 - '[[tool-ai-deliverable-polish-loop]]'
 - '[[tool-scene-design-language-translation]]'

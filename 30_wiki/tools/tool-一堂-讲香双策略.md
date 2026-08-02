@@ -13,6 +13,10 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂讲香双策略
+  - 一堂讲香双策略：具体化+抽象化与波峰波谷的张力表达
+  - 具体化+抽象化与波峰波谷的张力表达
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2422-L2730
 related:
@@ -42,7 +46,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - conversion
 - handle
 ---

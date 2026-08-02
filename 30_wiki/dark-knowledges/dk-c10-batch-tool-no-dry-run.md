@@ -8,6 +8,11 @@ domain:
 - master
 source_person: 欧阳锋
 source_context: Sprint 6 终审发现，2026-05-20
+aliases:
+  - C10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
+  - 基础设施工具改后直接跑批量
+  - 张卡攻击者内容被清空
+  - 欧阳锋
 source_refs:
 - src_unknown
 created_at: 2026-05-31

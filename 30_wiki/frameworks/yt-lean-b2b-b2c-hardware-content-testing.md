@@ -7,6 +7,9 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - ToB/ToC/硬件/内容产品的测试差异
+  - 内容产品的测试差异
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -39,8 +42,13 @@ diagnostic_signals:
   follow_up_question: 能不能不做硬件？能不能不做独立App？能不能不动开发借用现有工具？
 - framework_lens: 内容的核心风险是产品内核，应优先拿10-30个精准用户的高质量定性反馈
   follow_up_question: 用户是否主动给出积极评价？在多个课程选项里你的内容是否被优先选择？
-aliases:
 - 精益方法论培训
+discoverable_by:
+- B2B测试方法
+- B2C测试方法
+- 硬件测试
+- 内容测试
+- 精益测试类型
 ---
 
 

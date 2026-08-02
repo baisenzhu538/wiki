@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-泛产品落地-内核和边界
 title: 落地卡片：内核和边界
 type: tool
@@ -15,6 +15,10 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-内核和边界_vlm_desc.md
 related:
+aliases:
+  - 落地卡片：内核和边界
+  - 落地卡片
+  - 内核和边界
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
 - '[[pending_unknown]]'

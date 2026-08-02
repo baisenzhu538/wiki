@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-AIGC生成人物证件照]]'
 - '[[tool-月白-电商白底图生成与高清处理]]'
 tags:
+aliases:
+  - 技能：圈图指定修改法
+  - 技能
+  - 圈图指定修改法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

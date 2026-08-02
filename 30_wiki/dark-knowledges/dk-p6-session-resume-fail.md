@@ -9,6 +9,13 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-6
+aliases:
+  - system
+  - 了失效的
+  - 修好
+  - 后仍然空响应
+  - 然空响应
+  - 缓存了失效的
 source_refs:
 - src_unknown
 created_at: 2026-06-03

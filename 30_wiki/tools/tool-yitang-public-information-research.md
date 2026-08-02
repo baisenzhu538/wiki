@@ -24,6 +24,10 @@ query_triggers:
 - 公开信息 读出 没说什么
 - 竞品 公开信息 交叉验证
 - 公开信息 局限 补强 路径
+aliases:
+  - 公司自己发布的信息最有价值
+  - 官方公开信息渠道
+  - 官方公开信息渠道：公司自己发布的信息最有价值
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
@@ -38,7 +42,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研武器库培训
 ---

@@ -8,6 +8,12 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂增长策略系列课——增长策略总纲
+aliases:
+  - 业模式到增长飞轮
+  - 从商业模式到增长飞轮
+  - 增长策略总纲
+  - 增长策略总纲：从商业模式到增长飞轮
+  - 策略总纲
 source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -35,9 +41,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核验证课
+discoverable_by:
+- 增长策略总纲
+- 增长框架
+- 增长体系
+- 增长方法论
+- 规模化增长
 ---
 
 # 增长策略总纲：从商业模式到增长飞轮

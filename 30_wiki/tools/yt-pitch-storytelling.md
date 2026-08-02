@@ -31,6 +31,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 tags:
+aliases:
+  - 讲香故事化
+  - 讲香
+  - 故事化
 - audience:executor
 - scene:execution
 - skill-level:intermediate

@@ -12,6 +12,12 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain: strategy
+aliases:
+  - 从种植到零售的利润分布与竞争格局
+  - 果干产业链分析
+  - 植到零售的利润分布与竞争格局
+  - 话梅果干产业链分析
+  - 话梅果干产业链分析：从种植到零售的利润分布与竞争格局
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_67_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_67_ocr_text.md
@@ -24,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

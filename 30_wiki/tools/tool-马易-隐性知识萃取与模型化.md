@@ -23,6 +23,10 @@ related:
 - '[[tool-马易-AI答疑运营风格适配]]'
 - '[[tool-Truman-Skill全生命周期管理]]'
 tags:
+aliases:
+  - 技能：隐性知识萃取与模型化
+  - 技能
+  - 隐性知识萃取与模型化
 - audience:executor
 - scene:execution
 - skill-level:intermediate

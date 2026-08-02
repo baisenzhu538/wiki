@@ -13,6 +13,11 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - MVP阶段花钱做用户访谈的浪费
+  - 案例
+  - 案例：MVP阶段花钱做用户访谈的浪费
+  - 阶段花钱做用户访谈的浪费
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
@@ -26,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 专家访谈调研
 - 用户调研实操课
 ---

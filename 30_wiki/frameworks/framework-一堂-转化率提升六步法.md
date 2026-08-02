@@ -25,6 +25,9 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1748-L1748
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-笔记.txt L11-L134
 related:
+discoverable_by:
+  - "转化率提升六步法"
+  - "拆解加法减法讲香"
 - '[[case-一堂-一堂自身转化实践]]'
 - '[[case-一堂-优秀案例逐字稿合集]]'
 - '[[case-一堂-作业率20到50]]'
@@ -91,6 +94,20 @@ quality_labels:
 - cited
 - actionable
 tags:
+aliases:
+  - 一堂转化率提升六步法：拆解/加法/减法/讲香/组合/制作+双模式立论+四阶段映射
+  - 一堂转化率提升六步法
+  - 拆解/加法/减法/讲香/组合/制作
+  - 双模式立论
+  - 四阶段映射
+  - 提升六步法
+aliases:
+  - 一堂转化率提升六步法：拆解/加法/减法/讲香/组合/制作+双模式立论+四阶段映射
+  - 一堂转化率提升六步法
+  - 拆解/加法/减法/讲香/组合/制作
+  - 双模式立论
+  - 四阶段映射
+  - 化率提升六步法
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

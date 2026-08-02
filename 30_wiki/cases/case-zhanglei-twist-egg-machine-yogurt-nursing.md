@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 养老院
+  - 张磊
+  - 扭蛋机+酸奶+养老院
+  - 案例
+  - 案例：张磊扭蛋机+酸奶+养老院，调研先行的连续创业
+  - 调研先行的连续创业
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
@@ -26,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 调研专题
 - 调研武器库培训
 ---

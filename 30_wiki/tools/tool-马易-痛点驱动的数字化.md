@@ -27,6 +27,10 @@ related:
 - tool-马易-隐私安全分层解决
 - tool-马易-AIGC项目ROI评估
 tags:
+aliases:
+  - 技能：痛点驱动的数字化
+  - 技能
+  - 痛点驱动的数字化
 - audience:executor
 - scene:execution
 - skill-level:intermediate

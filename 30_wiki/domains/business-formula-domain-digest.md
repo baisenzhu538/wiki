@@ -118,6 +118,12 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
+discoverable_by:
+- 业务公式域
+- 公式拆解
+- 业务模型
+- 参数体系
+- 关键假设C域
 ---
 
 # 域摘要：一堂业务公式（C 域）

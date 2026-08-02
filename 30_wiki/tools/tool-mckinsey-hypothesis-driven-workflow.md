@@ -2,6 +2,11 @@
 id: tool-mckinsey-hypothesis-driven-workflow
 title: 技能：假设驱动工作流
 type: tool
+aliases:
+  - 假设驱动工作流
+  - 技能
+  - 技能：假设驱动工作流
+  - 驱动工作流
 source_refs:
 - src_unknown
 - 'pending_archive: src_unknown'

@@ -30,6 +30,12 @@ diagnostic_signals:
   - 大胆设想/假设试错/建模重构三阶在 Agent 层完全缺失
   - 41 条 pitfalls 是后知后觉的积累，尚未转化为 Agent 自主进化引擎
 quality_labels: cited
+discoverable_by:
+- 闪电模型
+- Agent进化
+- 四阶映射
+- 解放思想Agent
+- 认知框架同构
 ---
 
 ## 核心主张

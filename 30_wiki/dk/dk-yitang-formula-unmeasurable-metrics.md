@@ -13,6 +13,13 @@ updated_at: '2026-07-14'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 不可统计指标也要写
+  - 不可统计指标也要写：公式归公式，数字归数字
+  - 公式归公式
+  - 归公式
+  - 数字归数字
+  - 统计指标也要写
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2572-L2614
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2306-L2352

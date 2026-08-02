@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-project-change-workflow
 title: 项目变更处理三步工作流
 type: tool
@@ -14,6 +14,9 @@ updated_at: 2026-07-08
 domain:
 - yitang
 - management
+aliases:
+  - 变更处理三步工作流
+  - 项目变更处理三步工作流
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 190929_vlm_desc.md
 - 00_inbox/管项目/批注 2026-07-07 190944_vlm_desc.md

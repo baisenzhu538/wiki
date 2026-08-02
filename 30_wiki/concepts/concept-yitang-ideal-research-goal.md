@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 支撑
+  - 敏感
+  - 理想调研目标三原则
+  - 理想调研目标三原则：敏感短期支撑
+  - 短期
+  - 调研目标三原则
 source_refs:
 - 00_inbox/调研专题/理想调研三原则_ocr_text.md
 related:
@@ -28,7 +35,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 理想调研三原则
 - 调研专题
 ---

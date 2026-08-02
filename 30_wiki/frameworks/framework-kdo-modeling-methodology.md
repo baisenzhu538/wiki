@@ -24,6 +24,24 @@ tags:
   - content-format:framework
   - source-person:黄药师
 related:
+aliases:
+  - KDO建模方法论从踩坑打补丁到组件化建模
+  - 建模方法论
+  - 从踩坑打补丁到组件化建模
+  - 件化建模
+  - 坑打补丁到组件化建模
+  - 黄药师
+aliases:
+  - KDO建模方法论从踩坑打补丁到组件化建模
+  - 建模方法论
+  - 从踩坑打补丁到组件化建模
+  - 坑打补丁建模
+  - 件化建模
+  - 黄药师
+discoverable_by:
+  - "KDO建模方法论"
+  - "组件化建模"
+  - "踩坑打补丁建模"
 - framework-kdo-self-attack
 - concept-kdo-component-library
 - dk-process-is-scar-tissue

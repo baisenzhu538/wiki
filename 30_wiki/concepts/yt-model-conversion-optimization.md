@@ -25,6 +25,13 @@ related:
 - '[[yt-entrepreneur-five-step-method]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 三曲线
+  - 动力三曲线
+  - 十大浪费触点
+  - 率优化
+  - 转化率优化
+  - 转化率优化：动力三曲线×十大浪费触点
 source_refs:
 - 10_raw/sources/src_20260510_d5e71a5e-一堂最佳转化率动力三曲线-堂.md
 status: enriched
@@ -50,7 +57,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 一堂最佳转化率动力三曲线
 ---
 

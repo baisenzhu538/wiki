@@ -11,6 +11,10 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain: yitang
+aliases:
+  - 单元模型
+  - 单元模型：象限分析法
+  - 象限分析法
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-象限分析法_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-象限分析法_vlm_desc.md
@@ -28,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 单元模型
 - 象限分析法
 ---

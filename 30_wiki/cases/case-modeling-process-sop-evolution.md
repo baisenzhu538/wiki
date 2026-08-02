@@ -7,6 +7,13 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - Truman
+  - 一堂
+  - 建模案例
+  - 流程建模案例
+  - 流程建模案例：一堂20212024年SOP清单演进史
+  - 清单演进史
 source_refs:
 - 10_raw/sources/src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -41,7 +48,6 @@ diagnostic_signals:
   follow_up_question: 这份 SOP 有责任人、督导人和品控人吗？最近一次更新是因为什么意外？
 - framework_lens: 流程建模适用边界
   follow_up_question: 哪些步骤必须标准化（高失败成本），哪些环节应该保留判断空间？这份 SOP 是否用在了不该标准化的创意型任务上？
-aliases:
 - 建模能力培训
 - 流程建模
 - 高阶建模

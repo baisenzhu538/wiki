@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - ai-collaboration
+aliases:
+  - 每次迭代用全新
+  - 每次迭代用全新Generator实例
+  - 牲口而非宠物
+  - 牲口而非宠物：每次迭代用全新Generator实例
+  - 而非宠物
+  - 迭代用全新
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:

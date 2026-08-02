@@ -17,6 +17,9 @@ domain:
 source_refs:
 - 00_inbox/一堂-个人修炼-知识萃取探索营口述版.md L22-L36,L48,L80,L96
 related:
+discoverable_by:
+  - "知识萃取"
+  - "碎片经验变成模型"
 - '[[framework-个人学习方法总框架]]'
 - '[[framework-个人学习方法-IPO学习闭环]]'
 - '[[framework-个人学习方法-思维模型]]'
@@ -32,6 +35,19 @@ quality_labels:
 - principle
 - actionable
 tags:
+aliases:
+  - 知识萃取：碎片经验→可落地模型
+  - 知识萃取
+  - 碎片经验→可落地模型
+  - 可落地模型
+  - 识萃取
+  - 片经验变成模型
+aliases:
+  - 知识萃取：碎片经验→可落地模型
+  - 知识萃取
+  - 碎片经验→可落地模型
+  - 片经验变成模型
+  - 识萃取
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

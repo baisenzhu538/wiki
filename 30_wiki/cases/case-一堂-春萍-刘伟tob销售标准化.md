@@ -13,6 +13,13 @@ updated_at: 2026-07-11
 domain:
 - management
 - yitang
+aliases:
+  - 刘伟
+  - 刘伟ToB销售标准化：十八般武艺，把大客户销售从能人手艺练成组织能力
+  - 十八般武艺
+  - 客户销售从能人手艺练成组织能力
+  - 把大客户销售从能人手艺练成组织能力
+  - 销售标准化
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L176-384（刘伟案例完整口述）
 related:
@@ -42,7 +49,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - fundamentals
 - manage
 ---

@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-011
+aliases:
+  - FKDO011：百科词条化→概念卡写成定义→分类→特征→应用场景
+  - system
+  - 应用场景
+  - 百科词条化
+  - 百科词条化→概念卡写成定义→分类→特征→应用场景
+  - 词条化
 source_refs:
 - src_unknown
 created_at: 2026-05-31

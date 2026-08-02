@@ -50,6 +50,10 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
+aliases:
+  - 深度复盘
+aliases:
+  - 深度复盘
 - framework_lens: 具体事件是复盘的锚
   follow_up_question: 如果复盘只保留一个关键事件，你会选哪一个？
 - framework_lens: 冰山复盘模型

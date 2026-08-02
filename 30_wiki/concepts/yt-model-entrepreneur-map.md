@@ -27,6 +27,9 @@ related:
 - '[[yt-personal-knowledge-extraction]]'
 - '[[yt-personal-ipo-learning]]'
 reviewed_by: 王语嫣
+aliases:
+  - 修炼地图
+  - 创业修炼地图
 source_refs:
 - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 status: enriched

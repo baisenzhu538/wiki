@@ -57,7 +57,7 @@ def list_manuals() -> list[dict]:
     if sk_dir.exists():
         manuals.append({"type": "skills", "count": sum(1 for _ in sk_dir.rglob("SKILL.md")), "path": "40_outputs/capabilities/skills/", "how": "Read <skill>/SKILL.md"})
 
-    # Agent Specs — scan both tools/ and agent-specs/ directories
+    # Agent Specs — scan both tools/ and agent-specs/ directories, extract one-liner
     seen_specs = set()
     for spec_dir_name in ["tools", "agent-specs"]:
         spec_dir = WIKI_ROOT / "30_wiki" / spec_dir_name
@@ -65,7 +65,17 @@ def list_manuals() -> list[dict]:
             for f in spec_dir.glob("agent-spec-*.md"):
                 if f.stem not in seen_specs:
                     seen_specs.add(f.stem)
-                    manuals.append({"type": "agent-spec", "name": f.stem, "path": f"30_wiki/{spec_dir_name}/{f.name}", "how": f"Read 30_wiki/{spec_dir_name}/{f.name}"})
+                    one_liner = ""
+                    try:
+                        content = f.read_text(encoding="utf-8")
+                        for line in content.splitlines():
+                            s = line.strip()
+                            if s.startswith("one_liner:") or s.startswith("title:"):
+                                one_liner = s.split(":", 1)[1].strip().strip('"').strip("'")
+                                break
+                    except Exception:
+                        pass
+                    manuals.append({"type": "agent-spec", "name": f.stem, "one_liner": one_liner, "path": f"30_wiki/{spec_dir_name}/{f.name}", "how": f"Read 30_wiki/{spec_dir_name}/{f.name}"})
 
     return manuals
 
@@ -89,7 +99,11 @@ def print_list():
     print(f"\n  可参考的说明书 ({len(manuals)} 类)：")
     for m in manuals:
         if m["type"] == "agent-spec":
-            print(f"     {m['name']}")
+            desc = m.get("one_liner", "")
+            if desc:
+                print(f"     📦 {m['name']:<30} — {desc}")
+            else:
+                print(f"     📦 {m['name']}")
             print(f"       {m['how']}")
         else:
             print(f"     {m['type']:<18} {m['count']} 个  ->  {m['how']}")

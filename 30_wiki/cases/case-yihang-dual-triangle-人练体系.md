@@ -14,6 +14,16 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/人练体系_vlm.md
 tags:
+aliases:
+  - 人练体系双三角案例
+  - 人练体系
+  - 双三角案例
+  - 角案例
+  - 体系双三角案例
+aliases:
+  - 人练体系双三角案例
+  - 人练体系
+  - 双三角案例
 - '#domain/ai-collaboration'
 - '#method/dual-triangle'
 - audience:general

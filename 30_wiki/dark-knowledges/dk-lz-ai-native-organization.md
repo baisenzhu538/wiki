@@ -7,6 +7,13 @@ status: reviewed
 domain:
 - ai-saas
 - business-strategy
+aliases:
+  - AI原生组织
+  - AI原生组织：罗马军团正在被自进化有机体取代中层管理的全部存在理由是人脑带宽不足
+  - 中层管理的全部存在理由是人脑带宽不足
+  - 军团正在被自进化有机体取代
+  - 原生组织
+  - 罗马军团正在被自进化有机体取代
 source_refs:
 - 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
 - 10_raw/sources/src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md
@@ -30,7 +37,6 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 五层进阶从答案到效率到作品到产品到系统
 - 公司组织方法论直接把公司当操作系统来设计中层管理变成了
 - 放出一套

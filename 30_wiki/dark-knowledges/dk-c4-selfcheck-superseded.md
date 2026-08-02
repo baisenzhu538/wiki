@@ -8,6 +8,12 @@ domain:
 - master
 source_person: Builder
 source_context: 2026-05-03
+aliases:
+  - Builder
+  - C4：自检误报superseded页面→终态卡片被标记为未enrich
+  - 终态卡片被标记为未
+  - 自检误报
+  - 页面→终态卡片被标记为未
 source_refs:
 - src_unknown
 created_at: 2026-05-31

@@ -2,6 +2,12 @@
 id: tool-funnel-formula-modeling
 title: 漏斗图/公式建模法：量化流程与关键变量
 type: tool
+aliases:
+  - 公式建模法
+  - 流程与关键变量
+  - 漏斗图/公式建模法
+  - 漏斗图/公式建模法：量化流程与关键变量
+  - 量化流程与关键变量
 source_refs:
 - 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -44,7 +50,6 @@ diagnostic_signals:
   follow_up_question: 能否把变量精简到3-5个，并识别出可干预的杠杆变量？
 - framework_lens: 数据驱动建模
   follow_up_question: 每个阶段/变量是否有对应的埋点、数据来源和验证计划？
-aliases:
 - 常见模型武器库
 - 建模能力培训
 - 抽象建模

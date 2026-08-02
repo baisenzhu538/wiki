@@ -36,6 +36,11 @@ related:
 - '[[tool-月白-社群直播海报利益点提炼法]]'
 - '[[tool-月白-视角替换专用提示法]]'
 tags:
+aliases:
+  - 技能：PPT内容框架AIGC生成法
+  - 技能
+  - PPT内容框架AIGC生成法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

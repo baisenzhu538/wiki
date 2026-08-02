@@ -13,6 +13,13 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂
+  - 一堂12种阻力总表：定义切分+四大类归类+底层三参数+动嘴/动手/动钱矩阵
+  - 四大类归类
+  - 定义切分
+  - 底层三参数
+  - 种阻力总表
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L1634-L1676
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L1714-L1930
@@ -84,9 +91,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - conversion
 - handle
+discoverable_by:
+- 用户阻力分析
+- 转化阻力分类
+- 12种阻力
+- 转化率优化
+- 购买阻力消除
 ---
 # 一堂 12 种阻力总表
 

@@ -33,13 +33,15 @@ related:
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[tool-一堂-business-prediction-15-char]]'
 - '[[pending_unknown]]'
+aliases:
+  - P型与L型创业者
+  - 型创业者
 source_refs:
 - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 课程地图精华串讲
 ---
 # P型与L型创业者

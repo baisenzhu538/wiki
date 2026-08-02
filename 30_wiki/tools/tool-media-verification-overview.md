@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 判断对方说的是不是真的
+  - 媒体验证技术总览
+  - 媒体验证技术总览：判断对方说的是不是真的
+  - 对方说的是不是真的
+  - 验证技术总览
 source_refs:
 - src_unknown
 - src_unknown

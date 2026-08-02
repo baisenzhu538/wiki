@@ -8,6 +8,13 @@ trust_level: high
 domain:
 - yitang
 - research
+aliases:
+  - 十八掌
+  - 对应的执行工具和
+  - 工具映射表
+  - 每掌对应的执行工具和
+  - 降龙十八掌→工具映射表
+  - 降龙十八掌→工具映射表：每掌对应的执行工具和Skill
 source_refs:
 - 30_wiki/frameworks/framework-yitang-18-strategy-cards.md
 - 30_wiki/concepts/yt-research-osl-framework.md
@@ -47,7 +54,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - domains
 - 系统式调研
 ---

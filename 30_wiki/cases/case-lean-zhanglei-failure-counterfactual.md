@@ -15,6 +15,10 @@ source_context: 张磊教练《精益测试关键问题》AMA 精华（2026-06-1
 domain:
 - lean-startup
 - yitang
+aliases:
+  - 判断力训练产品的验证陷阱与反事实推演
+  - 张磊
+  - 张磊AMA：判断力训练产品的验证陷阱与反事实推演
 source_refs:
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
@@ -29,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 张磊教练
 - 精益创业
 ---

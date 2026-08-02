@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - JTBD故事公式
+  - 从用户故事中提取需求
+  - 户故事中提取需求
+  - 故事公式从用户故事中提取需求
+  - 案例
+  - 案例：JTBD故事公式从用户故事中提取需求
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 用户调研实操课
 - 调研专题
 ---

@@ -16,6 +16,12 @@ industry: 企业服务（FA/资本对接）
 scale: 平台级
 source_person: Truman
 source_context: 一堂课程，规模经济章节；以太资本对接平台用全网调研能力扫描新上创业项目并自动化跟进
+aliases:
+  - Truman
+  - 以太利用全网调研能力快速获客
+  - 利用全网调研能力快速获客
+  - 案例
+  - 案例：以太利用全网调研能力快速获客
 source_refs:
 - src_unknown
 - 10_raw/sources/src_20260614_6b2c4f5b-一堂-To-B业务探索分享.md
@@ -69,7 +75,6 @@ diagnostic_signals:
   follow_up_question: 是否建立了集中化的线索库？线索进入后是否有自动分级、去重和分配规则？
 - framework_lens: 抓取规则缺少质量分门槛
   follow_up_question: 除了"是新公司"之外，是否还设置了融资阶段、行业匹配度、需求信号等过滤条件？
-aliases:
 - 一堂五步法
 - 业务探索分享
 - 线上获客小抄

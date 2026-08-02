@@ -11,6 +11,13 @@ trust_level: medium
 reviewed_by: pending
 source_person: Truman
 source_context: 一堂笔记训练体系——认知三级跃迁
+aliases:
+  - Truman
+  - 碎片化→结构化→体系化
+  - 碎片化→结构化→体系化：笔记认知的三级进化跃迁
+  - 笔记认知的三级进化跃迁
+  - 结构化
+  - 认知的三级进化跃迁
 source_refs:
 - src_unknown
 created_at: '2026-06-15'

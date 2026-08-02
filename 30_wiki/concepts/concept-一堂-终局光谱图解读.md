@@ -14,6 +14,13 @@ updated_at: 2026-07-09
 domain:
 - yitang
 - opportunity-foresight
+aliases:
+  - 七段风险
+  - 七段风险/收益量化
+  - 五条读法
+  - 收益量化
+  - 终局光谱图解读
+  - 终局光谱图解读：五条读法+七段风险/收益量化
 source_refs:
 - 00_inbox/一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt L1-L5
 - 00_inbox/一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt L1-L14
@@ -47,7 +54,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 机会预判
 - 终局光谱图
 ---

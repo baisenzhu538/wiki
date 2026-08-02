@@ -14,6 +14,11 @@ created_at: '2026-07-19'
 updated_at: '2026-07-19'
 quality_labels:
 - cited
+aliases:
+  - 份额降价的代价
+  - 通用汽车
+  - 通用汽车20022010：为29%份额降价的代价
+  - 降价的代价
 source_refs:
 - 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L105-L110
 related:
@@ -23,7 +28,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 利润为王
 - 战略定价顾问
 ---

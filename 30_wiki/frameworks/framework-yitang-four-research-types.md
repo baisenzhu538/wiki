@@ -33,6 +33,10 @@ source_refs:
 - 00_inbox/调研专题/调研全景策略图_vlm_desc.md
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+discoverable_by:
+  - "四类调研模型"
+  - "挖掘式系统式爆炸式"
+  - "调研方法分类"
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[pending_unknown]]'
@@ -42,6 +46,20 @@ related:
 - '[[framework-yitang-high-level-plan]]'
 - '[[framework-yitang-oscar-research]]'
 tags:
+aliases:
+  - 四类调研模型：挖掘式系统式爆炸式自动式
+  - 四类调研模型
+  - 挖掘式
+  - 系统式
+  - 爆炸式
+  - 自动式
+aliases:
+  - 四类调研模型：挖掘式系统式爆炸式自动式
+  - 四类调研模型
+  - 挖掘式
+  - 系统式
+  - 爆炸式
+  - 自动式
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

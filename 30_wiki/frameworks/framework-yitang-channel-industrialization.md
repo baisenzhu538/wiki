@@ -30,6 +30,10 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-汉堡难点_vlm_desc.md
 source_person: Truman
 related:
+discoverable_by:
+  - "渠道工业化"
+  - "高不确定工作交付"
+  - "渠道标准化生产"
 - '[[case-yitang-yitang-course-industrialization]]'
 - '[[case-yitang-yitu-lead-industrialization]]'
 - '[[concept-yitang-channel-lean-validation-bridge]]'
@@ -42,6 +46,20 @@ related:
 - '[[tool-agent-spec-yitang-lead-funnel-health]]'
 review_date: '2026-06-28'
 tags:
+aliases:
+  - 渠道工业化生产：让高不确定工作持续高质量交付
+  - 渠道工业化生产
+  - 让高不确定工作持续高质量交付
+  - Truman
+  - 不确定工作交付
+  - 定工作交付
+aliases:
+  - 渠道工业化生产：让高不确定工作持续高质量交付
+  - 渠道工业化生产
+  - 让高不确定工作持续高质量交付
+  - Truman
+  - 不确定工作交付
+  - 道标准化生产
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

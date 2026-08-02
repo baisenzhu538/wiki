@@ -34,12 +34,23 @@ diagnostic_signals:
 - lens: 思维瓶颈
   follow_up: 检查是否仍在演员模式执行单点任务，而非导演模式重设系统
 related:
+discoverable_by:
+  - "王欢AI五层跃迁"
 - '[[case-wanghuan-education-sales-capability-extraction]]'
 - '[[case-wanghuan-education-sales-paced]]'
 - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 tags:
+aliases:
+  - 王欢AI能力五层跃迁模型
+  - 王欢
+  - 五层跃迁
+  - 能力五层跃迁模型
+aliases:
+  - 王欢AI能力五层跃迁模型
+  - 王欢
+  - 五层跃迁
 - src_unknown
 - src_unknown
 - src_unknown

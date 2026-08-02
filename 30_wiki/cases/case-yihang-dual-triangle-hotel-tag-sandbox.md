@@ -17,6 +17,12 @@ domain:
 - hospitality
 - content-moderation
 - organizational-transformation
+aliases:
+  - 一行双三角案例
+  - 一行双三角案例：酒店AI标签审核的边缘切入与沙盒练兵
+  - 双三角案例
+  - 标签审核的边缘切入与沙盒练兵
+  - 酒店AI标签审核的边缘切入与沙盒练兵
 source_refs:
 - 00_inbox/人机协作双三角/【组织】酒店行业-AI标签审核案例.png
 - 00_inbox/人机协作双三角/【组织】酒店行业AI标签案例口述.pdf
@@ -29,7 +35,6 @@ related:
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
 - '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
-aliases:
 - 酒店标签案例
 - 沙盒练兵案例
 - 边缘切入案例

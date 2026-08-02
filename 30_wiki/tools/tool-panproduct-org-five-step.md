@@ -18,6 +18,10 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - 兰毅 / 一堂
+  - 场景五步法操作卡
+  - 组织场景五步法操作卡
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
@@ -37,7 +41,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 泛产品设计
 - 用泛产品思维做组织
 ---

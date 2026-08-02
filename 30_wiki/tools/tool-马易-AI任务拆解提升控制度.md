@@ -39,6 +39,10 @@ related:
 - tool-马易-隐私安全分层解决
 - tool-马易-AI答疑运营风格适配
 tags:
+aliases:
+  - 技能：AI任务拆解提升控制度
+  - 技能
+  - AI任务拆解提升控制度
 - audience:executor
 - scene:execution
 - skill-level:intermediate

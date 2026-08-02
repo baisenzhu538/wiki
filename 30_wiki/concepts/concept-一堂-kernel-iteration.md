@@ -1,4 +1,4 @@
-﻿---
+---
 
 id: concept-一堂-kernel-iteration
 title: 产品内核迭代：从静态到动态的五方向演化
@@ -11,6 +11,13 @@ domain:
 - yitang
 source_person: Truman
 source_context: 一堂产品内核迭代课（2026年）
+aliases:
+  - Truman
+  - 产品内核迭代
+  - 产品内核迭代：从静态到动态的五方向演化
+  - 从静态到动态的五方向演化
+  - 内核迭代
+  - 态到动态的五方向演化
 source_refs:
 - pending_archive:src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述
 created_at: 2026-06-09

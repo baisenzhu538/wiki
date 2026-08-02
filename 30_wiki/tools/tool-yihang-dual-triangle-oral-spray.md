@@ -14,6 +14,13 @@ updated_at: 2026-07-05
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 九字诀外功
+  - 协作
+  - 双三角内功
+  - 口喷
+  - 口喷：双三角内功+九字诀外功语音驱动AI协作
+  - 语音驱动
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
@@ -24,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 一堂双三角
 - 人机协作双三角
 ---

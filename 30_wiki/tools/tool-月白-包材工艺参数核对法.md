@@ -32,6 +32,11 @@ related:
 - '[[tool-月白-AI工艺图人工复核法]]'
 - '[[tool-月白-RGB转CMYK色彩校准法]]'
 tags:
+aliases:
+  - 技能：包材工艺参数核对法
+  - 技能
+  - 包材工艺参数核对法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

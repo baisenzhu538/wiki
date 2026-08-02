@@ -14,6 +14,16 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/AI数据_vlm.md
 tags:
+aliases:
+  - AI数据双三角案例
+  - AI数据
+  - 双三角案例
+  - 数据双三角案例
+  - 角案例
+aliases:
+  - AI数据双三角案例
+  - AI数据
+  - 双三角案例
 - '#domain/ai-collaboration'
 - '#method/dual-triangle'
 - audience:general

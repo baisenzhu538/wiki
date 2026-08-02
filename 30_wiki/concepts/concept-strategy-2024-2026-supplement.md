@@ -12,6 +12,13 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain: strategy
+aliases:
+  - 20242026战略新变量：AI决策/地缘政治/ESG冉鹏课程未覆盖的盲区
+  - 2026战略新变量
+  - AI决策/地缘政治/ESG
+  - 冉鹏课程未覆盖的盲区
+  - 地缘政治
+  - 课程未覆盖的盲区
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md
 related:
@@ -27,7 +34,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 交叉验证
 - 冉鹏框架
 ---

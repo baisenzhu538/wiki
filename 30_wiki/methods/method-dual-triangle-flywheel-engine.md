@@ -44,6 +44,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 双三角飞轮
+- 迭代引擎
+- 飞轮驱动
+- 人机协同飞轮
+- 双三角循环
 ---
 
 # 双三角飞轮引擎与制度化运行

@@ -23,6 +23,11 @@ related:
 - '[[tool-马易-AI答疑运营风格适配]]'
 - ai-landing-scene-selection
 tags:
+aliases:
+  - 技能：AI落地场景识别拆工作流找场景
+  - 技能
+  - AI落地场景识别
+  - 拆工作流找场景
 - audience:executor
 - scene:execution
 - skill-level:intermediate

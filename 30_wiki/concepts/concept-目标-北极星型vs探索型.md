@@ -15,6 +15,13 @@ updated_at: '2026-07-19'
 quality_labels:
 - insight
 - principle
+aliases:
+  - 二分类与动态切换
+  - 北极星型
+  - 北极星型vs探索型目标：二分类与动态切换
+  - 型目标
+  - 探索型目标
+  - 类与动态切换
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §3.2
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L254-L300
@@ -28,7 +35,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - handle
 ---
 

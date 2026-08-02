@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-project-progress-tracking
 title: 项目进度跟进手段选择清单
 type: tool
@@ -14,6 +14,9 @@ updated_at: 2026-07-08
 domain:
 - yitang
 - management
+aliases:
+  - 进度跟进手段选择清单
+  - 项目进度跟进手段选择清单
 source_refs:
 - 00_inbox/管项目/项目管理-管过程-手段评估表_vlm_desc.md
 related:

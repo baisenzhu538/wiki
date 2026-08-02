@@ -9,6 +9,11 @@ domain:
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
+aliases:
+  - 制作行业化要素检查清单
+  - 技能
+  - 技能：制作行业化要素检查清单
+  - 课程设计者
 source_refs:
 - 10_raw/sources/src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点.md
 definition_of_done:
@@ -35,7 +40,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 单元模型
 - 规模对抗实操难点
 ---

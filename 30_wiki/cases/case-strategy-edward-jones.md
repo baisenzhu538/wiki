@@ -10,6 +10,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 0办公位的券商模式
+  - 公位的券商模式
+  - 小镇只招一人
+  - 每个小镇只招一人
+  - 爱德华琼斯
+  - 爱德华琼斯：每个小镇只招一人0办公位的券商模式
 source_refs:
 - pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
   - src_unknown - src_unknown

@@ -1,15 +1,17 @@
 ---
-updated: 2026-07-26
-updated_at: 2026-07-26T15:00:00+00:00
+updated: 2026-08-02
+updated_at: 2026-08-02T22:30:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#201 终审PASS(B+)。解放思想探索营：24张卡七轮审查后入库——0 ERROR、ds全齐、Critique/Synthesis全齐。队列清零。#199/#200/#201全部入库。"
+active_task: "#213 终审FAIL（结构补齐后复审）。创新者的窘境×秦鹏拆书14张卡：内容质量极高（O0溯源8项全中、O8定位声明14/14、外部攻击者全部真名实姓），但存在系统性结构缺口——4类🟡High（Critque拼写×3 / dk缺Critique节 / case缺可迁移场景教训 / concept缺Synthesis）×9张卡 + related<5×9张。修复清单已落笔任务单，等老顽童补结构后复审。"
 blockers:
-  - "无阻塞项。队列与任务单状态已同步。"
+  - "#213 终审FAIL退回——等老顽童补结构缺口后重新提交 pending_review，欧阳锋快速复审"
+  - "queue_transition.py review 路径被 auto mode 分类器拦截 + O-3 已知 bug——终审状态变更走手动 patch（加注释）"
   - "当前任务状态见 production-queue.md（唯一真相源）"
   - "旧任务文件 laowantong-next-tasks.md / laowantong-batch-*.md 已废弃——不要读。"
-next_session_hint: "下一步：① 黄药师继续处理 #159 lint 基线回卷 / #163 ocr 死链处置；② 老顽童 #162 C域骨干直连生产中；③ 欧阳锋按需月度抽检或等待新 pending_review 任务；④ 关注 health-check.py Windows GBK 编码错误（已暴露，待黄药师修）。"
+next_session_hint: "下一步：① #213 等老顽童修复后复审（只看修复点，内容不用动）；② 黄药师处理 pre-submit section 名校验漏洞（P2-1）+ #159/#163；③ 欧阳锋月度抽检继续；④ 停车场 O-3 queue_transition.py 待黄药师修。"
+---
 ---
 
 ## 📢 全厂通知（2026-06-19）

@@ -2,7 +2,7 @@
 id: parking-lot-ouyangfeng
 type: parking_lot
 created_at: 2026-06-28
-updated_at: 2026-07-04
+updated_at: 2026-08-02
 owner: 欧阳锋
 ---
 
@@ -25,6 +25,8 @@ owner: 欧阳锋
 | O-5 | **审查时必须检查双目录版本冲突**：#197 案例——标准目录（frameworks/concepts/tools/cases/dark-knowledges）和域目录（ai-collaboration/）各有一套版本，内容分裂（一个 ds 真实但缺 Critique，一个内容完整但 ds 占位符）。以后每批审查先跑 `find` 检查所有卡片是否在标准目录和域目录各有一份 | 欧阳锋 2026-07-21 | P1 | 即时生效 | 审查 SOP 补充 | 无 |
 | O-6 | **存量 tool/concept/case/dk 卡补定位声明**：400+ 张旧卡 related 含 framework-* 但正文无框架定位声明。不专门开批量任务（C-10 教训）；老顽童接到返工/enrich/修复任务时顺手补。新卡由 lint + 欧阳锋 Phase 0 拦截。覆盖率随返工自然增长。 | 欧阳锋 2026-07-26 | P2 | 随返工递增 | 待排期（不主动派发） | 依赖 lint 规则上线（黄药师） |
 | O-7 | **L8 lint 关键词收紧**：`_check_position_declaration()` 中 `"前置知识"`/`"的子集"`/`"上层框架"` 过于宽松会漏检；`"XX框架"`/`"X步"` 是模板占位符字面量无实际匹配价值。建议改为正则：`属于 .+ 的 .+ 步` 或 blockquote 中 `定位.*属于.*框架`。当前 WARNING 级别可接受，后续排期优化。 | 欧阳锋 2026-07-26 | P2 | 0.3 天 | 待排期 | 黄药师 |
+| O-8 | **pre-submit 未拦截 section 名拼写错误**：#213 审查发现 3 处 `## Critque` 拼写错误但 pre-submit 声称 14/14 PASS——标准 section 名（Critique/Synthesis/Failure Modes 等）无精确校验。建议 lint 增加标准 section 名白名单校验（拼写错误 → ERROR 或 WARNING） | 欧阳锋 2026-08-02 | P1 | 0.3 天 | ✅ 已升级（`task_20260802_huangyaoshi-kdo-section-lint-hardening`）| 黄药师 |
+| O-9 | **索引自动刷新机制**：#218 R6a 手动 `kdo index` 已完成（Aug 3 01:52 重建，3755 文档，闭环合上）——但刷新仍是手动的。每次老顽童入库一批卡，索引又会过期（本次就是 7/27→8/3 过期 5 天导致搜索盲区）。建议黄药师加 pre-submit hook 或 review-mark 后自动触发增量索引更新 | 欧阳锋 2026-08-03 | P1 | 0.5 天 | 待排期 | 黄药师 |
 
 
 ---

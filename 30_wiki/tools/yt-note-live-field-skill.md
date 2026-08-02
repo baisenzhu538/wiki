@@ -39,6 +39,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 tags:
+aliases:
+  - 现场笔记完成度五步法：从到场到驱动行动的实战手册
+  - 现场笔记完成度五步法
+  - 从到场到驱动行动的实战手册
 - src_unknown
 - src_unknown
 - src_unknown

@@ -16,6 +16,9 @@ domain:
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
 related:
+discoverable_by:
+  - "Candy逐字稿九步法"
+  - "逐字稿生产流程"
 - '[[yitang-domain-digest]]'
 - '[[tool-马易-中国企业AI落地五步法]]'
 - '[[framework-一堂五步法-泛产品设计]]'
@@ -27,6 +30,19 @@ related:
 - '[[tool-candy-oral-polish]]'
 - '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
 tags:
+aliases:
+  - Candy逐字稿九步法：从素材到可交付内容的生产流程
+  - Candy逐字稿九步法
+  - 从素材到可交付内容的生产流程
+  - 生产流程
+  - 材到可交付内容的生产流程
+  - 逐字稿九步法
+aliases:
+  - Candy逐字稿九步法：从素材到可交付内容的生产流程
+  - Candy逐字稿九步法
+  - 从素材到可交付内容的生产流程
+  - 逐字稿九步法
+  - 字稿生产流程
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

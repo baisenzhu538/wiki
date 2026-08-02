@@ -33,6 +33,11 @@ related:
 - '[[tool-Truman-科学提问法]]'
 - '[[tool-月白-设计需求口头化表达法]]'
 tags:
+aliases:
+  - 技能：AI设计反馈萃取法
+  - 技能
+  - AI设计反馈萃取法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

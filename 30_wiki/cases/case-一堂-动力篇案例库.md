@@ -14,6 +14,11 @@ domain:
 - yitang
 - conversion-rate
 source_context: 收录《转化率黑客·动力篇》口述稿中用于说明动力三曲线与影响力六原则的案例，按课程分层结构索引
+aliases:
+  - 一堂转化率黑客动力篇案例索引库FAB/名利权情/影响力六原则
+  - 名利权情
+  - 影响力六原则
+  - 转化率黑客动力篇案例索引库
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L780-L1018
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L1080-L1118
@@ -48,7 +53,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - conversion
 - handle
 ---

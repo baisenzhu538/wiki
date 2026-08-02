@@ -32,6 +32,11 @@ related:
 - '[[tool-月白-AIGC海报信息优先级排序法]]'
 - '[[tool-费曼简单提炼法]]'
 tags:
+aliases:
+  - 技能：社群直播海报利益点提炼法
+  - 技能
+  - 社群直播海报利益点提炼法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

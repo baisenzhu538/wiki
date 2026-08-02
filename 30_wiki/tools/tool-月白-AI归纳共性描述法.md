@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-竞品图精益替换法]]'
 - '[[tool-月白-AIGC橱窗陈列设计流程]]'
 tags:
+aliases:
+  - 技能：AI归纳共性描述法
+  - 技能
+  - AI归纳共性描述法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -15,6 +15,12 @@ domain:
 - ai-collaboration
 - personal-os
 - organizational-transformation
+aliases:
+  - 一行双三角
+  - 一行双三角：人机协作的元模型
+  - 人机协作的元模型
+  - 协作的元模型
+  - 双三角
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-逐字稿.md
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-笔记.txt
@@ -56,7 +62,6 @@ related:
 - '[[concept-yitang-education-formula]]'
 - '[[master-decision-hygiene]]'
 - '[[lean-startup-domain-digest]]'
-aliases:
 - 一行双三角
 - 一堂双三角
 - 缪斯模型

@@ -13,6 +13,13 @@ updated_at: 2026-07-11
 domain:
 - management
 - yitang
+aliases:
+  - 具体场景的独立可检验动作
+  - 功定义
+  - 基本功定义
+  - 基本功定义：针对具体场景的独立可检验动作，重复形成复利
+  - 重复形成复利
+  - 针对具体场景的独立可检验动作
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt L104-L360
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/整合笔记_苦练基本功完整版.md
@@ -46,7 +53,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - fundamentals
 - manage
 ---

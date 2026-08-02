@@ -17,6 +17,13 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-06-30T16:07:51+00:00'
+aliases:
+  - Truman
+  - 排序候选渠道
+  - 渠道预判评分矩阵
+  - 渠道预判评分矩阵：科学排序候选渠道
+  - 科学排序候选渠道
+  - 预判评分矩阵
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-笔记.txt
@@ -45,7 +52,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 云电脑
 ---

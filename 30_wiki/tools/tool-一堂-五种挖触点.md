@@ -13,6 +13,10 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂五种挖触点
+  - 一堂五种挖触点：推演/同行/用户/创造/清单的双向触点挖掘法
+  - 推演/同行/用户/创造/清单的双向触点挖掘法
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1022-L1180
 related:
@@ -41,7 +45,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - conversion
 - handle
 ---

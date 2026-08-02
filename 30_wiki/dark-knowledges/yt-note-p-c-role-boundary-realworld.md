@@ -11,6 +11,10 @@ trust_level: medium
 reviewed_by: pending
 source_person: Truman
 source_context: 一堂AI Partner设计——P/C角色边界真实案例
+aliases:
+  - P/C角色真实场景边界与切换条件基于聊天记录案例
+  - Truman
+  - 角色真实场景边界与切换条件基于聊天记录案例
 source_refs:
 - src_unknown
 created_at: '2026-06-15'

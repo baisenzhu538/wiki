@@ -38,6 +38,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 人机分工
+- 双三角分工
+- AI人类协作
+- 任务分配
+- 人机协同
 ---
 
 # 双三角人机分工与 AI 组织行为学

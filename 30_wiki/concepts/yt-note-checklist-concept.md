@@ -21,6 +21,12 @@ related:
 - '[[yt-note-fact-pattern-insight]]'
 prerequisites:
 - src_unknown
+aliases:
+  - 一堂笔记法
+  - 一堂笔记法：清单体笔记的核心概念与原理
+  - 体笔记的核心概念与原理
+  - 清单体笔记的核心概念与原理
+  - 笔记法
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
@@ -55,7 +61,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 时代清单体笔记
 - 时代请单体笔记
 ---

@@ -9,6 +9,9 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 source_context: 一堂增长策略系列课——增长规模化陷阱
+aliases:
+  - 增长规模化陷阱
+  - 规模化陷阱
 source_refs:
 - src_unknown
 - src_unknown

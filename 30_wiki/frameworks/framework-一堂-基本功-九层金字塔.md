@@ -18,6 +18,9 @@ source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/整合笔记_苦练基本功完整版.md:L286-300（九层递进金字塔整理稿）
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/基本功武器库_vlm.md
 related:
+discoverable_by:
+  - "基本功九层金字塔"
+  - "底层信念到基本功化"
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[framework-一堂-基本功-四类工作四化]]'
@@ -47,6 +50,19 @@ quality_labels:
 - framework
 - insight
 tags:
+aliases:
+  - 基本功九层金字塔：从底层信念到基本功化的完整地图
+  - 基本功九层金字塔
+  - 从底层信念到基本功化的完整地图
+  - 功九层金字塔
+  - 本功九层金字塔
+  - 念到基本功化
+aliases:
+  - 基本功九层金字塔：从底层信念到基本功化的完整地图
+  - 基本功九层金字塔
+  - 从底层信念到基本功化的完整地图
+  - 本功九层金字塔
+  - 层信念到基本功化
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

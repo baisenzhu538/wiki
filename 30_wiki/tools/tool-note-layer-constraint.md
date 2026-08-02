@@ -26,6 +26,13 @@ wiki_refs:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 3层每层≤7点
+  - Truman十年经验的量化标准
+  - 十年经验的量化标准
+  - 层每层
+  - 清单体分层硬约束
+  - 清单体分层硬约束：23层每层≤7点，Truman十年经验的量化标准
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
@@ -66,7 +73,6 @@ diagnostic_signals:
   follow_up: 确定唯一归属层级，删除重复或改为引用
 - lens: 机器可读性差
   follow_up: 将4层及以上嵌套压缩到3层以内，并统一列表符号
-aliases:
 - 时代清单体笔记
 - 系统代码深度分析报告
 ---

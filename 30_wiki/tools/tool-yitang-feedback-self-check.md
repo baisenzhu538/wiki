@@ -18,6 +18,13 @@ quality_labels:
 - validated
 created_at: 2026-06-27
 updated_at: '2026-06-29'
+aliases:
+  - Truman
+  - 师反馈自检法
+  - 无导师反馈自检法
+  - 无导师反馈自检法：自己给自己找差距
+  - 给自己找差距
+  - 自己给自己找差距
 source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
@@ -35,7 +42,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 元能力-刻意练习
 - 刻意练习
 ---

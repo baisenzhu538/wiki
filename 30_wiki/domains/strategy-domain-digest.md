@@ -22,6 +22,12 @@ tags:
 - audience:ceo
 - scene:reference
 - skill-level:advanced
+discoverable_by:
+- 战略域
+- 战略规划
+- 商业模式
+- 竞争战略
+- 壁垒策略
 ---
 
 # 域摘要：企业战略

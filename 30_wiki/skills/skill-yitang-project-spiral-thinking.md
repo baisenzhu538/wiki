@@ -35,6 +35,12 @@ diagnostic_signals:
   follow_up_question: 如果现在被问到"你做这个事到底解决什么问题"，你能用一句话说清吗？
 - framework_lens: 反复返工——关键节点未确认就推进
   follow_up_question: 当前阶段的决策人确认过了吗？下一阶段的边界条件是什么？
+discoverable_by:
+- 项目螺旋思考
+- 顶层设计
+- 项目决策
+- 螺旋思考法
+- 项目管理方法
 ---
 
 # 项目螺旋思考法：先顶层再细节、先选择再执行、先确认再推进

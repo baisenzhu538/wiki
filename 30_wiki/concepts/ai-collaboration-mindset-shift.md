@@ -8,6 +8,12 @@ domain:
 - src_unknown
 - src_unknown
 status: reviewed
+aliases:
+  - AI协作思维转变
+  - AI协作思维转变：从新手到管理者
+  - 从新手到管理者
+  - 协作思维转变
+  - 手到管理者
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 component_of: null
@@ -46,7 +52,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 时代要不要练笔记
 - 需要练那个
 ---

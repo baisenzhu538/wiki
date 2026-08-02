@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 公司要不要自研
+  - 公司要不要自研IM+CRM系统
+  - 案例
+  - 案例：公司要不要自研IM+CRM系统
+  - 要不要自研
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例03_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-深度-案例03.md
@@ -27,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 科学决策
 ---
 # 案例：公司要不要自研 IM+CRM 系统

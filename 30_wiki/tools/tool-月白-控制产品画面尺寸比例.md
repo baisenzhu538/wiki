@@ -55,6 +55,11 @@ related:
 - '[[tool-月白-醒图人脸精修法]]'
 - tool-yitang-reverse-data-analysis
 tags:
+aliases:
+  - 技能：控制产品画面尺寸比例
+  - 技能
+  - 控制产品画面尺寸比例
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

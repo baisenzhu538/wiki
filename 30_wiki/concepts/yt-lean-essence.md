@@ -9,6 +9,13 @@ domain:
 - src_unknown
 source_person: 张磊
 source_context: 一堂·精益测试 AMA 答疑（2026-06-14）
+aliases:
+  - 一堂张磊版精益测试的本质
+  - 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险
+  - 张磊
+  - 张磊版精益测试的本质
+  - 用少量试错成本降低系统性风险
+  - 量试错成本降低系统性风险
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -41,7 +48,6 @@ diagnostic_signals:
   follow_up_question: 在讨论增长之前，你是否已经证明目标用户真的有痛点、且你的最小解法被用户接受？
 - framework_lens: 精益 AI 检查：AI 降低的是执行成本，不是战略拆解成本
   follow_up_question: AI 可以帮你生成测试素材，但你要测的假设清单是否清晰？哪些假设风险最高？
-aliases:
 - 精益方法论培训
 ---
 # 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险

@@ -17,6 +17,9 @@ query_triggers:
 - src_unknown
 review_date: 2026-06-11
 reviewed_by: pending
+aliases:
+  - 产品内核十大典型指标
+  - 内核十大典型指标
 source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-产品内核-十大典型指标_paddle_ocr.txt
 - 00_inbox/一堂五步法/一堂-一堂五步法-解决方案（产品内核）-口述.txt
@@ -49,7 +52,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 - 产品内核
 ---

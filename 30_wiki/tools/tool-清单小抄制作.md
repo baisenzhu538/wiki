@@ -10,6 +10,11 @@ domain:
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
+aliases:
+  - 一堂课程
+  - 技能
+  - 技能：清单小抄制作
+  - 清单小抄制作
 source_refs:
 - 10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 definition_of_done:
@@ -38,7 +43,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 个人修炼
 - 全景策略
 - 科学学习

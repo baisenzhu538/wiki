@@ -14,6 +14,12 @@ domain:
 - yitang
 source_person: 陈舒妍
 source_context: 一堂 AI 俱乐部落地 Live81 分享（2026-07-02），宠物用品出海品牌喵善养（meow sayang）商标设计实践
+aliases:
+  - 喵善养商标设计
+  - 案例
+  - 案例：Live81AI赋能喵善养商标设计
+  - 赋能喵善养商标设计
+  - 陈舒妍
 source_refs:
 - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-口述.txt
 - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-笔记.txt
@@ -33,6 +39,7 @@ related:
 - '[[case-bmw-human-ai-collaboration-idle-time]]'
 - '[[case-ai-writing-homogenization]]'
 - '[[tool-纪浩-项目启动五问法]]'
+- '[[case-cui-lei-kids-ai-design-class]]'
 - '[[tool-一堂-product-kernel-canvas]]'
 - '[[yt-panproduct-aesthetic-pool]]'
 - '[[yt-panproduct-aesthetic-modeling]]'
@@ -45,7 +52,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - yitang
 ---
 

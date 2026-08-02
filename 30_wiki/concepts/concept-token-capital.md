@@ -1,4 +1,4 @@
-﻿---
+---
 id: concept-token-capital
 title: Token Capital：AI 时代的第三种资本结构
 type: concept
@@ -14,6 +14,10 @@ domain:
 - ai-native
 - management
 - strategy
+aliases:
+  - TokenCapital：AI时代的第三种资本结构
+  - 时代的第三种资本结构
+  - 的第三种资本结构
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
@@ -32,7 +36,6 @@ related:
 - "[[concept-jevons-paradox-in-ai]]"
 - "[[agent-spec-codex-teammate]]"
 - "[[concept-AI时代双三角竞争力]]"
-aliases:
 - token capital
 - 第三种资本结构
 - AI 时代资本结构

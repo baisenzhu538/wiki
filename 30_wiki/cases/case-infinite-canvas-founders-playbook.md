@@ -22,6 +22,12 @@ diagnostic_signals:
 - signal: 60镜头观众跟不上
   lens: 镜头过多停留时间不足
   follow_up: 控制在40-50镜头
+aliases:
+  - 60镜头《创始人手册》
+  - 60镜头《创始人手册》：ClaudeBlog长文→Prezi式创业旅程画布
+  - Blog长文→Prezi式创业旅程画布
+  - 创始人手册
+  - 式创业旅程画布
 source_refs:
 - 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L281-L326
 related:
@@ -34,7 +40,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 做成一张会移动的无限画布
 - 多模态输出
 ---

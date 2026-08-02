@@ -29,6 +29,9 @@ related:
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-prompt-anti-flattery]]'
 reviewed_by: 周伯通
+aliases:
+  - AI决策Partner对话法
+  - 对话法
 source_refs:
 - 10_raw/sources/src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02.md
 status: reviewed
@@ -65,7 +68,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 决策评估画布
 - 科学决策
 ---

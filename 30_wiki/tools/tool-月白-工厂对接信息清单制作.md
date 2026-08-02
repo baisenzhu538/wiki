@@ -66,6 +66,11 @@ related:
 - '[[tool-月白-资深设计师AI工具切换法]]'
 - '[[tool-月白-里程碑思维-找对标优先于做设计]]'
 tags:
+aliases:
+  - 技能：工厂对接信息清单制作
+  - 技能
+  - 工厂对接信息清单制作
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

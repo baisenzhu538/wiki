@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-retrospective-canvas
 title: 项目复盘关键成果画布
 type: tool
@@ -28,6 +28,8 @@ related:
 - "[[tool-yitang-project-breakdown-cheatsheet]]"
 - "[[yt-management-basic-skills]]"
 diagnostic_signals:
+aliases:
+  - 项目复盘关键成果画布
 - signal: 复盘会开了6小时，结束时大家面面相觑——"所以呢？我们学到了什么？"
   lens: 缺画布沉淀——讨论热烈但没有把认知结构化地"拉走"
   follow-up: 复盘会最后30分钟强制用本画布产出一页纸，不填满不散会

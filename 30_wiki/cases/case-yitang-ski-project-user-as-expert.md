@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 户当专家访谈
+  - 把用户当专家访谈
+  - 案例
+  - 案例：滑雪项目把用户当专家访谈
+  - 滑雪项目
+  - 滑雪项目把用户当专家访谈
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 专家访谈调研
 - 调研专题
 ---

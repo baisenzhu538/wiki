@@ -14,6 +14,10 @@ updated_at: 2026-07-08
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 五步法换档检查清单
+  - 五步法换档检查清单：每步的验收条件与常见卡点
+  - 每步的验收条件与常见卡点
 source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt L866-L980
 related:
@@ -37,7 +41,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 一堂五步法
 ---
 

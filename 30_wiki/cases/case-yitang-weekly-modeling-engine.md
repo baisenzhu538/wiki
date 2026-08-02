@@ -10,6 +10,13 @@ industry: 在线教育
 scale: 公司
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
+aliases:
+  - Truman
+  - 一堂的周对周建模迭代
+  - 五课程逼成公司增长引擎
+  - 把周五课程逼成公司增长引擎
+  - 案例
+  - 案例：一堂的周对周建模迭代把周五课程逼成公司增长引擎
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 wiki_refs: []
@@ -54,7 +61,6 @@ related:
 - '[[yt-lean-daily-chemical-mvp]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[case-yitang-model-valuation-flywheel]]'
-aliases:
 - 建模能力培训
 ---
 

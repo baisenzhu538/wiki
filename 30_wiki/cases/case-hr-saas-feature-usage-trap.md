@@ -7,6 +7,13 @@ domain:
 - yitang
 - ai-saas
 - business-strategy
+aliases:
+  - HRSaaS：把“功能使用率↑续费率↑”当因果的功能堆砌陷阱
+  - 功能使用率
+  - 孔阳
+  - 当因果的功能堆砌陷阱
+  - 把“功能使用率↑续费率↑”当因果的功能堆砌陷阱
+  - 续费率
 source_refs:
 - pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes

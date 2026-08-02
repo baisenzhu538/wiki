@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-精准提示词撰写法]]'
 - '[[tool-月白-AI去字-稿定设计加字工作流]]'
 tags:
+aliases:
+  - 技能：设计基本功回归法
+  - 技能
+  - 设计基本功回归法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

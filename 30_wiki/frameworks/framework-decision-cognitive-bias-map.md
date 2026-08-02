@@ -21,6 +21,11 @@ trust_level: high
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
+discoverable_by:
+  - "认知偏差地图"
+  - "商业决策偏差"
+  - "决策认知偏差"
+  - "决策心理偏差清单"
 - '[[framework-decision-quality-checklist]]'
 - '[[yt-decision-abcd-model]]'
 - '[[master-cognitive-bias-checklist]]'
@@ -30,6 +35,19 @@ related:
 - '[[case-科学决策-深度案例02]]'
 - '[[tool-决策深度-L1优先级定性]]'
 tags:
+aliases:
+  - 商业决策常见认知偏差地图
+  - 策认知偏差
+  - 知偏差地图
+  - 理偏差清单
+  - 策心理偏差清单
+  - 决策常见认知偏差地图
+aliases:
+  - 商业决策常见认知偏差地图
+  - 知偏差地图
+  - 业决策偏差
+  - 策心理偏差清单
+  - 策认知偏差
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

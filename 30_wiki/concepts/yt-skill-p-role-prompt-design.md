@@ -19,6 +19,13 @@ created_at: '2026-06-15'
 confidence: 0.75
 trust_level: medium
 type: concept
+aliases:
+  - P角色Prompt设计执行者型AI的交付规范
+  - 执行者型
+  - 的交付规范
+  - 角色
+  - 设计
+  - 设计执行者型
 source_refs:
 - pending_archive:src_20260522_38173b48-design-ai-image-generation
 tags:

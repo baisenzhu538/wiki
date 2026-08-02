@@ -8,6 +8,13 @@ domain:
 - hardware-debugging
 source_person: 黄药师
 source_context: 广冷电子 HX-SMJ 闸机红外光栅项目——四板卡（主控+红外A+红外B+继电器）全套资料整理与交叉验证
+aliases:
+  - 从文件混乱到可投产基线
+  - 广冷电子
+  - 案例
+  - 案例：广冷电子HXSMJ红外光栅项目从文件混乱到可投产基线
+  - 红外光栅项目
+  - 黄药师
 source_refs:
 - 10_raw/sources/src_20260606_7937a5d9-广冷电子-hx-smj-红外光栅项目资料库.md
 - 10_raw/sources/src_20260606_5809b496-广冷电子资料交叉验证综合报告.md
@@ -45,7 +52,6 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
-aliases:
 - 交叉验证报告
 - 原理图与
 - 广冷电子

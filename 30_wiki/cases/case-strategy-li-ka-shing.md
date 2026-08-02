@@ -13,6 +13,13 @@ language: zh-CN
 domain: strategy
 source_person: 冉鹏
 source_context: 引擎点火20260110 战略破局课程 逐字稿 §23 / §1475
+aliases:
+  - 冉鹏
+  - 李嘉诚分筋错骨手
+  - 李嘉诚分筋错骨手：每次经济下行周期逆势并购→等涨
+  - 每次经济下行周期逆势并购
+  - 每次经济下行周期逆势并购→等涨
+  - 经济下行周期逆势并购
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_239_vlm_desc.md
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 冉鹏战略课逐字稿
 ---

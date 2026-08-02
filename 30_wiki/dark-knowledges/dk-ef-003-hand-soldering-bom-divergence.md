@@ -7,6 +7,13 @@ domain:
 dark_knowledge_type: hardware-failure
 source_person: 黄药师
 source_context: 原型阶段工程师手焊调通→量产机贴后参数无效——手工焊接中的飞线/替换元件/跳线未记录
+aliases:
+  - 原型调通了但量产就是不行
+  - 手焊板的隐性修改
+  - 手焊板的隐性修改：原型调通了但量产就是不行
+  - 板的隐性修改
+  - 调通了但量产就是不行
+  - 黄药师
 source_refs:
 - 90_control/electronics-practice/failure-modes-electronics.md
 created_at: 2026-06-07
@@ -28,7 +35,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - control
 - electronics
 - practice

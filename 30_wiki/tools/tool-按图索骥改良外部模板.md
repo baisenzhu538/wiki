@@ -6,6 +6,11 @@ domain: learning-methodology- product
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
+aliases:
+  - 技能
+  - 技能：按图索骥改良外部模板
+  - 按图索骥改良外部模板
+  - 案例讲述者
 source_refs:
 - 10_raw/sources/src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03.md
 definition_of_done:
@@ -33,7 +38,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 决策评估画布
 - 科学决策
 ---

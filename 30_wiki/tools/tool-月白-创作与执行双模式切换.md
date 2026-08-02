@@ -33,6 +33,11 @@ related:
 - framework-yitang-shishi-qiushi
 - yt-model-entrepreneur-map
 tags:
+aliases:
+  - 技能：创作与执行双模式切换
+  - 技能
+  - 创作与执行双模式切换
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

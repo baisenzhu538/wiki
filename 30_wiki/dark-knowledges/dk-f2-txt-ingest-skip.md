@@ -8,6 +8,12 @@ domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-002
+aliases:
+  - system
+  - 化但用户以为成功
+  - 文件
+  - 无变化但用户以为成功
+  - 静默跳过→state.json
 source_refs:
 - src_unknown
 created_at: 2026-05-31

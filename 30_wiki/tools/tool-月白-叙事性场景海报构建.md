@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-80分效率设计策略]]'
 - '[[tool-月白-实物包装落地训练法]]'
 tags:
+aliases:
+  - 技能：叙事性场景海报构建
+  - 技能
+  - 叙事性场景海报构建
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

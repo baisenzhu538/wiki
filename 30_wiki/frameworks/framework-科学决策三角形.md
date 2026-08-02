@@ -11,6 +11,12 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 决策三角形
+  - 宽度×高度×深度三维决策框架
+  - 深度三维决策框架
+  - 科学决策三角形
+  - 科学决策三角形：宽度×高度×深度三维决策框架
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-决策三角形_vlm_desc.md
 related:
@@ -37,9 +43,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 决策三角形
 - 科学决策
+discoverable_by:
+- 科学决策
+- 决策三角形
+- 三维决策框架
+- 宽度高度深度
+- 决策质量提升
 ---
 
 # 科学决策三角形

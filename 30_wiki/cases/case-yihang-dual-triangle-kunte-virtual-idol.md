@@ -14,6 +14,13 @@ updated_at: 2026-07-04
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 产出越多
+  - 人类筛选越值钱
+  - 双三角案例
+  - 双三角案例：鲲特虚拟艺人AI产出越多，人类筛选越值钱
+  - 角案例
+  - 鲲特虚拟艺人
 source_refs:
 - pending_archive
 related:

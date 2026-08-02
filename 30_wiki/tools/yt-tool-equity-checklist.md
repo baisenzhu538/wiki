@@ -36,6 +36,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 tags:
+aliases:
+  - 股权设计检查清单
 - audience:executor
 - scene:execution
 - skill-level:intermediate

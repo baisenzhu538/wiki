@@ -30,6 +30,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+discoverable_by:
+- 行为证据
+- 用户研究
+- 观察vs询问
+- 调研方法
+- 用户行为
 ---
 
 # 行为证据重于口头证据

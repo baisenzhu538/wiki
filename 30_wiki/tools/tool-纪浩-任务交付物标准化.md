@@ -8,6 +8,11 @@ domain:
 - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
+aliases:
+  - 任务交付物标准化
+  - 技能
+  - 技能：任务交付物标准化
+  - 纪浩
 source_refs:
 - 10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md
 author: 纪浩
@@ -38,7 +43,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 五层结构
 - 俱乐部
 ---

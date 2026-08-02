@@ -28,6 +28,12 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:beginner
+discoverable_by:
+- KDO监控
+- 健康检查
+- 质量监控
+- 看板
+- 系统健康
 ---
 # kdo watch 定时巡检层技术说明
 

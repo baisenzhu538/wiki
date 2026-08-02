@@ -25,6 +25,9 @@ source_refs:
 - 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
+discoverable_by:
+  - "王欢GAN三角色"
+  - "生成器判别器合成器"
 - '[[dk-strategy-organization-strategy-mismatch]]'
 - '[[xingangwan-pharma-business-model-formulas]]'
 - '[[tool-yitang-ai-assisted-organize]]'
@@ -52,6 +55,20 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 diagnostic_signals:
+aliases:
+  - 王欢GAN三角色架构：生成器/判别器/合成器
+  - 王欢GAN三角色架构
+  - 生成器/判别器/合成器
+  - 王欢
+  - 三角色
+  - 三角色架构
+aliases:
+  - 王欢GAN三角色架构：生成器/判别器/合成器
+  - 王欢GAN三角色架构
+  - 生成器/判别器/合成器
+  - 王欢
+  - 成器判别器合成器
+  - 三角色
 - lens: 生成器能力到达瓶颈，需要引入异构评审视角
   follow_up: 检查是否已配置至少一个来自不同模型族/不同利益相关方的判别器
 - lens: 缺少合成器做最终裁决与可执行化

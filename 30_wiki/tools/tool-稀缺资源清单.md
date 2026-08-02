@@ -11,6 +11,10 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 稀缺资源清单
+  - 稀缺资源清单：识别和配置决策中的关键约束
+  - 识别和配置决策中的关键约束
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-稀缺资源清单_vlm_desc.md
 related:
@@ -27,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 科学决策
 - 稀缺资源清单
 ---

@@ -34,6 +34,11 @@ related:
 - '[[tool-月白-AI电商图人工过审处理]]'
 - '[[tool-月白-短视频封面-音量战争-设计法]]'
 tags:
+aliases:
+  - 技能：AI图片风格逆向提取抄图法
+  - 技能
+  - AI图片风格逆向提取抄图法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

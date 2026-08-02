@@ -1,4 +1,4 @@
-﻿---
+---
 id: yt-model-pan-product-aesthetic-toolkit
 component_of:
 - "[[yt-panproduct-best-practice-collection]]"
@@ -32,6 +32,13 @@ related:
 review_by: 2026-11-11
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 品设计审美工具箱
+  - 审美工具箱4张卡牌
+  - 工具箱
+  - 张卡牌
+  - 泛产品设计
+  - 泛产品设计审美工具箱4张卡牌
 source_refs:
 - 10_raw/sources/src_20260522_65a78106-ocr-泛产品设计-审美工具箱指南.md
 status: reviewed

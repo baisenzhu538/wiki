@@ -28,6 +28,12 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
+discoverable_by:
+- 创新域
+- 解放思想
+- 闪电模型
+- 微创新
+- 创新方法论
 ---
 
 # 解放思想创新体系 · 域摘要

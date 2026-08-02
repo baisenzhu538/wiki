@@ -7,6 +7,10 @@ domain:
 - healthcare- healthcare
 - pharmaceutical-retail
 - financial-model
+aliases:
+  - 单点财务模型与回本测算表
+  - 智能药柜单点财务模型与回本测算表
+  - 药柜单点财务模型与回本测算表
 source_refs:
 - pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - pending_archive:src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive

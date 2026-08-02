@@ -2,6 +2,13 @@
 id: aima-ai思维卡-外部链接归档
 created_at: 2026-05-21
 domain: healthcare
+aliases:
+  - AIMAAI思维卡外部链接归档
+  - AI思维卡
+  - 外部链接归档
+  - 思维卡
+  - 思维卡外部链接归档
+  - 链接归档
 source_refs:
 - 10_raw/sources/src_20260522_a8e05d98-aima-ai思维卡-外部链接归档.md
 status: reviewed
@@ -20,7 +27,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 外部链接归档
 - 思维卡
 ---

@@ -17,6 +17,10 @@ source_refs:
 - 00_inbox/一堂-关键假设课-truman-口述.txt L1064-L1074,L2460-L2482
 - 00_inbox/一堂-关键假设-关键假设三板斧_paddle_ocr.txt
 related:
+discoverable_by:
+  - "关键假设三板斧"
+  - "加法减法验证迭代"
+  - "假设驱动收敛"
 - '[[framework-一堂-关键假设]]'
 - '[[tool-一堂-hypothesis-validation-three-axe]]'
 - '[[framework-一堂-关键假设-ABCD模型]]'
@@ -37,6 +41,20 @@ quality_labels:
 - framework
 - cited
 tags:
+aliases:
+  - 一堂关键假设三板斧骨架：加法→减法→验证→迭代的收敛逻辑
+  - 一堂关键假设三板斧骨架
+  - 加法→减法→验证→迭代的收敛逻辑
+  - 法验证迭代
+  - 关键假设三板斧骨架
+  - 设驱动收敛
+aliases:
+  - 一堂关键假设三板斧骨架：加法→减法→验证→迭代的收敛逻辑
+  - 一堂关键假设三板斧骨架
+  - 加法→减法→验证→迭代的收敛逻辑
+  - 法减法验证迭代
+  - 设驱动收敛
+  - 键假设三板斧
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

@@ -28,6 +28,12 @@ related:
 - '[[case-zhihu-vs-degetao-network-effect]]'
 review_date: 2026-06-11
 reviewed_by: 周伯通
+aliases:
+  - 从真假壁垒到护城河建设
+  - 假壁垒到护城河建设
+  - 壁垒识别与构建技能
+  - 壁垒识别与构建技能：从真假壁垒到护城河建设
+  - 识别与构建技能
 source_refs:
 - 10_raw/sources/src_20260611_7c3a2a57-一堂-一堂五步法-壁垒-口述.md
 - 10_raw/sources/src_20260611_89e8a16b-一堂-一堂五步法-壁垒-假的壁垒_paddle_ocr.md
@@ -58,7 +64,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 - 假的壁垒
 - 规模经济分析武器库

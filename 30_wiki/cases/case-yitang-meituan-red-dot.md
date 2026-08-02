@@ -9,6 +9,13 @@ domain:
 - ai-saas
 source_person: 孔阳
 source_context: 一堂业务公式进阶篇（2026-07-12），讲师亲历最小项目最大杠杆案例：在投资人APP上加「待查看项目数量」小红点
+aliases:
+  - 一个触点假设把APP活跃度提升30%
+  - 孔阳
+  - 意向优选小红点
+  - 美团意向优选小红点
+  - 美团意向优选小红点：一个触点假设把APP活跃度提升30%40%
+  - 触点假设把
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2306-L2338
 quality_labels:
@@ -32,7 +39,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - handle
 ---
 

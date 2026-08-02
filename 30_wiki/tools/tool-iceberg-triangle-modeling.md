@@ -2,6 +2,12 @@
 id: tool-iceberg-triangle-modeling
 title: 冰山图/三角图建模法：从表象深挖结构与本质
 type: tool
+aliases:
+  - 三角图建模法
+  - 从表象深挖结构与本质
+  - 冰山图/三角图建模法
+  - 冰山图/三角图建模法：从表象深挖结构与本质
+  - 象深挖结构与本质
 source_refs:
 - 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -49,7 +55,6 @@ diagnostic_signals:
   follow_up_question: 这三个要素之间是否真实相互支撑？去掉任意一个，系统真的会崩塌吗？
 - framework_lens: iceberg-level-confusion
   follow_up_question: 当前这一层的证据是什么？它与上一层、下一层的因果或支撑关系是否清晰？
-aliases:
 - 常见模型武器库
 - 建模能力培训
 - 抽象建模

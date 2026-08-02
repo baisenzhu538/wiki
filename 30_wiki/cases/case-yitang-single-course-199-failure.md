@@ -13,6 +13,13 @@ created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
 - yitang
+aliases:
+  - 一堂
+  - 元单课
+  - 元单课轻视行业规律的试错
+  - 案例
+  - 案例：一堂199元单课轻视行业规律的试错
+  - 轻视行业规律的试错
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
@@ -23,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - extractions
 ---
 

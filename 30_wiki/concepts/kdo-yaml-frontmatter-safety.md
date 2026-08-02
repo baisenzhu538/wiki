@@ -31,6 +31,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
+aliases:
+  - KDOYAMLFrontmatter安全操作指南
+  - 安全操作指南
+  - 操作指南
 source_refs:
 - src_unknown
 source_context: 原始source无法追溯，已标记为src_unknown，待后续补充

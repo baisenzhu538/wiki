@@ -14,6 +14,18 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-双三角预判画布_vlm.md
 tags:
+aliases:
+  - 一堂双三角双三角预判画布双三角案例
+  - 一堂双三角
+  - 双三角预判画布
+  - 双三角案例
+  - 双三角双三角预判画布双三角案例
+  - 角预判画布
+aliases:
+  - 一堂双三角双三角预判画布双三角案例
+  - 一堂双三角
+  - 双三角预判画布
+  - 双三角案例
 - '#domain/ai-collaboration'
 - '#method/dual-triangle'
 - audience:general

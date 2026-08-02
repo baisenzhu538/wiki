@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - Sherlock：用户名跨平台追踪找到一个人的所有社交账号
+  - 一个人的所有社交账号
+  - 名跨平台追踪
+  - 找到一个人的所有社交账号
+  - 用户名跨平台追踪
 source_refs:
 - src_unknown
 - src_unknown

@@ -8,11 +8,16 @@ confidence: 0.82
 trust_level: medium
 domain:
 - system
+aliases:
+  - 人机共识的文件系统设计
+  - 共识的文件系统设计
+  - 化命名即基础设施
+  - 结构化命名即基础设施
+  - 结构化命名即基础设施：人机共识的文件系统设计
 source_refs:
 - 00_inbox/一堂-obsidian加AI协作-内部实践分享/AI落地Live83_探索AI协作新范式_逐字稿.md
 - 00_inbox/一堂-obsidian加AI协作-内部实践分享/一堂-obsidian加AI协作-内部实践分享-口述.txt
 - 00_inbox/一堂-obsidian加AI协作-内部实践分享/一堂-obsidian加AI协作-内部实践分享-笔记.txt
-aliases:
 - 命名规范
 - 文件命名
 - 文件夹组织

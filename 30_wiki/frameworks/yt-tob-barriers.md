@@ -8,6 +8,12 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - ToB业务壁垒：选择、强弱判断与规模不经济对抗
+  - 业务壁垒
+  - 判断与规模不经济对抗
+  - 强弱判断与规模不经济对抗
+  - 选择
 source_refs:
 - 'pending_archive: src_unknown'
 tags:
@@ -39,7 +45,13 @@ diagnostic_signals:
 - framework_lens: 壁垒强弱三维度
   follow_up_question: 这个壁垒在我们的单元模型中占多大比重？成本是否随着规模显著降低？行业集中度是否真正对我们有利？
 - framework_lens: 规模不经济对抗
-  follow_up_question: 哪些环节是“重决策、重关系、重销售、依赖人”的？我们能否通过减少定制、缩减 SKU、替代专家服务来对抗？
+  follow_up_question: 哪些环节是"重决策、重关系、重销售、依赖人"的？我们能否通过减少定制、缩减 SKU、替代专家服务来对抗？
+discoverable_by:
+- ToB壁垒
+- 企业服务壁垒
+- B2B竞争壁垒
+- ToB护城河
+- 企业软件壁垒
 ---
 
 > To B 业务常见的三类壁垒：转化成本、规模效应、无形资产；判断强弱看集中度、单元模型占比、成本变化；对抗规模不经济要减少定制、缩减 SKU、替代专家服务。——徐剑《To B 五步法》

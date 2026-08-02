@@ -8,6 +8,12 @@ domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-003
+aliases:
+  - system
+  - 写竞态
+  - 执行后
+  - 覆盖写竞态→improve
+  - 记录丢失
 source_refs:
 - src_unknown
 created_at: 2026-05-31

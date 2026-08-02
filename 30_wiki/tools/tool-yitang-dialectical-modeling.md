@@ -18,6 +18,12 @@ discoverable_by:
 - 如何处理矛盾观点
 - 辩证分析
 - 建模方法
+aliases:
+  - 式建模
+  - 新规律
+  - 矛盾→合并→新规律
+  - 辩证式建模
+  - 辩证式建模：矛盾→合并→新规律
 source_refs:
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L496-508
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt §3.4
@@ -39,7 +45,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 探索营
 - 解放思想创新体系
 ---

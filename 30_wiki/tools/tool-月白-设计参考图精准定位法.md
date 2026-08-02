@@ -37,6 +37,11 @@ related:
 - '[[tool-月白-微信公众号封面AI设计-尺寸强约束法]]'
 - '[[tool-月白-短视频封面高亮吸睛法]]'
 tags:
+aliases:
+  - 技能：设计参考图精准定位法
+  - 技能
+  - 设计参考图精准定位法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

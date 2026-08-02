@@ -15,6 +15,11 @@ domain:
 - yitang
 source_person: Truman / 一堂课程体系
 source_context: 一堂全产品方法论课程（2026-07-08），场景走查专题深挖补产
+aliases:
+  - Truman / 一堂课程体系
+  - 一堂课程体系
+  - 场景走查
+  - 场景走查AgentSpec
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-scenario-walkthrough.md
 related:
@@ -35,7 +40,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - prompts
 ---
 # 场景走查 Agent Spec

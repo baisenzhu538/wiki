@@ -7,6 +7,13 @@ status: reviewed
 domain:
 - yitang
 - business-strategy
+aliases:
+  - 为什么排除了所有风险的方向
+  - 么排除了所有风险的方向
+  - 仍然可能一败涂地
+  - 伪需求陷阱
+  - 暗知
+  - 暗知：伪需求陷阱为什么排除了所有风险的方向，仍然可能一败涂地
 source_refs:
 - 10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md
 - 10_raw/sources/src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
@@ -33,7 +40,6 @@ trust_level: medium
 diagnostic_signals:
 - src_unknown
 - src_unknown
-aliases:
 - 一堂五步法
 - 关键假设课
 - 跑步机案例

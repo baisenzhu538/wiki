@@ -2,6 +2,13 @@
 id: case-nine-pm-livestream-survey
 title: 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选
 type: case
+aliases:
+  - Truman
+  - 一堂直播时间为什么是
+  - 三次用户调研的多数人选
+  - 案例
+  - 案例：一堂直播时间为什么是21:00三次用户调研的多数人选
+  - 直播时间为什么是
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
@@ -40,7 +47,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 建模能力培训
 ---
 

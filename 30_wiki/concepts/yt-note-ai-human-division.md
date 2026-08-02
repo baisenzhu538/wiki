@@ -19,6 +19,13 @@ related:
 - '[[yt-personal-ai-capability]]'
 prerequisites:
 - src_unknown
+aliases:
+  - AI在哪里
+  - AI时代笔记分工边界
+  - AI时代笔记分工边界：人在哪里，AI在哪里
+  - 人在哪里
+  - 在哪里
+  - 时代笔记分工边界
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
@@ -57,7 +64,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 时代清单体笔记
 - 时代请单体笔记
 - 清单体笔记系统故事线

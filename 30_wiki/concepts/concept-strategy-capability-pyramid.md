@@ -8,6 +8,13 @@ confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain: strategy
+aliases:
+  - 战略统帅四层素养
+  - 战略能力金字塔
+  - 战略能力金字塔：格局→行动→决断→洞察战略统帅四层素养
+  - 格局→行动→决断→洞察
+  - 统帅四层素养
+  - 能力金字塔
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_30_vlm_desc.md
 related:
@@ -24,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

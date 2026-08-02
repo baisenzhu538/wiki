@@ -8,6 +8,13 @@ domain:
 - business-strategy
 source_person: 孔阳
 source_context: 一堂业务公式课程（2026-07-12），三篇共用标准例题：邀约+30% vs PR稿+30% vs 抖音+30%，用来说明关键路径乘法杠杆
+aliases:
+  - 为什么优先做邀约成功率？
+  - 同样的30%提升
+  - 孔阳
+  - 店加盟三渠道关键路径
+  - 汉堡店加盟三渠道关键路径
+  - 汉堡店加盟三渠道关键路径：同样的30%提升，为什么优先做邀约成功率？
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L3042-L3074
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2812-L2848
@@ -34,7 +41,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - handle
 ---
 

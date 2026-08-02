@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-AI工艺图人工复核法]]'
 - '[[tool-月白-AI去文字-稿定设计快速出图法]]'
 tags:
+aliases:
+  - 技能：AI一句话改图尺寸
+  - 技能
+  - AI一句话改图尺寸
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -8,6 +8,13 @@ domain:
 - master
 source_person: Builder
 source_context: 2026-05-03
+aliases:
+  - Builder
+  - C6：大源文件导致session容量超载→produce骨架生成但内容填不进去
+  - 大源文件导致
+  - 容量超载→produce
+  - 生成但内容填不进去
+  - 骨架生成但内容填不进去
 source_refs:
 - src_unknown
 created_at: 2026-05-31

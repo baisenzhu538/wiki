@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-设计参考图精准定位法]]'
 - '[[tool-月白-AIGC人群画像驱动详情页规划]]'
 tags:
+aliases:
+  - 技能：多语种专业名词提示词策略
+  - 技能
+  - 多语种专业名词提示词策略
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

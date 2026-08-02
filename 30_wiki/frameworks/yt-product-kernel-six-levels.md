@@ -8,6 +8,12 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——六个段位
+aliases:
+  - 产品内核六个段位
+  - 产品内核六个段位：从缺价值意识到全面迁移
+  - 从缺价值意识到全面迁移
+  - 价值意识到全面迁移
+  - 内核六个段位
 source_refs:
 - 10_raw/sources/src_20260610_1a72a5cb-一堂-一堂五步法-产品内核-修炼段位图.md
 - 10_raw/sources/src_20260610_d4c3edda-一堂-一堂五步法-解决方案（产品内核）-口述.md
@@ -41,10 +47,15 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 一堂五步法
 - 产品内核
 - 修炼段位图
+discoverable_by:
+- 产品内核六层
+- 产品深挖
+- 内核层次
+- 产品本质探索
+- 六层模型
 ---
 
 # 产品内核六个段位：从缺价值意识到全面迁移

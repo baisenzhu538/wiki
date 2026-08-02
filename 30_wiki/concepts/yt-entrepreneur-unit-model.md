@@ -36,6 +36,8 @@ related:
 review_date: 2026-06-15
 updated_at: '2026-06-18'
 reviewed_by: 欧阳锋
+aliases:
+  - 单元模型
 source_refs:
 - pending_archive:source material not yet ingested
 status: reviewed

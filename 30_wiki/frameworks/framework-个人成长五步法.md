@@ -14,6 +14,9 @@ domain:
 source_refs:
 - 00_inbox/_vlm_reprocess/其他/Truman的个人成长五步法_vlm_desc.md
 related:
+discoverable_by:
+  - "个人成长五步法"
+  - "Truman个人版本"
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'
 - '[[pending_unknown]]'
@@ -24,6 +27,19 @@ related:
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
+aliases:
+  - 个人成长五步法：Truman的个人版本
+  - 个人成长五步法
+  - Truman的个人版本
+  - 长五步法
+  - 人成长五步法
+  - 的个人版本
+aliases:
+  - 个人成长五步法：Truman的个人版本
+  - 个人成长五步法
+  - Truman的个人版本
+  - 人成长五步法
+  - 个人版本
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

@@ -4,6 +4,12 @@ title: 案例：五步法中识别真壁垒和假壁垒
 type: case
 domain:
 - src_unknown
+aliases:
+  - Truman
+  - 五步法中识别真壁垒和假壁垒
+  - 案例
+  - 案例：五步法中识别真壁垒和假壁垒
+  - 法中识别真壁垒和假壁垒
 source_refs:
 - 10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md
 - 10_raw/sources/src_20260610_8ac68c66-一堂-一堂五步法-壁垒-笔记.md
@@ -58,7 +64,6 @@ related:
 - '[[yt-entrepreneur-barriers]]'
 - '[[case-five-step-growth-first-lever]]'
 - '[[yt-scale-economy-weapon-library]]'
-aliases:
 - 一堂五步法
 - 假的壁垒
 ---

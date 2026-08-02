@@ -27,6 +27,11 @@ source_refs:
 - pending_archive:Yerkes, R. M. & Dodson, J. D., "The Relation of Strength of Stimulus
   to Rapidity of Habit-Formation," 1908
 related:
+discoverable_by:
+  - "刻意练习1+4"
+  - "科学成长操作系统"
+  - "刻意练习方法"
+  - "1+4成长模型"
 - '[[framework-yitang-five-step-to-time-management]]'
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
@@ -37,6 +42,20 @@ related:
 - '[[framework-yitang-channel-partnership-map]]'
 - '[[framework-yitang-three-ring-ability-focus]]'
 tags:
+aliases:
+  - 刻意练习1+4模型：科学成长的操作系统
+  - 刻意练习
+  - 模型
+  - 科学成长的操作系统
+  - 成长的操作系统
+  - 习方法
+aliases:
+  - 刻意练习1+4模型：科学成长的操作系统
+  - 刻意练习
+  - 模型
+  - 科学成长的操作系统
+  - 意练习方法
+  - 成长模型
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

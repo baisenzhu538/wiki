@@ -9,6 +9,13 @@ confidence: 0.85
 trust_level: high
 domain:
 - ai-collaboration
+aliases:
+  - 么还有人不知道到零门槛
+  - 产品策略决策链
+  - 从怎么还有人不知道到零门槛+80分
+  - 信息差
+  - 市场信息差→产品策略决策链
+  - 市场信息差→产品策略决策链从怎么还有人不知道到零门槛+80分
 source_refs:
 - 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt
 related:
@@ -47,7 +54,6 @@ query_triggers:
 - 产品策略
 - 渗透率
 - 零门槛
-aliases:
 - AI口播工具开发经验
 - 付则宇
 ---

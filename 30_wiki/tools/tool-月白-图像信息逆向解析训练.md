@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-竞品图精益替换法]]'
 - '[[tool-月白-眼高手低训练法]]'
 tags:
+aliases:
+  - 技能：图像信息逆向解析训练
+  - 技能
+  - 图像信息逆向解析训练
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

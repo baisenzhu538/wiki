@@ -31,6 +31,12 @@ related:
 - '[[tool-月白-AI工艺图人工复核法]]'
 - '[[tool-月白-价格带视觉策略匹配]]'
 tags:
+aliases:
+  - 技能：产品风格选择：测而非定
+  - 技能
+  - 产品风格选择
+  - 测而非定
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

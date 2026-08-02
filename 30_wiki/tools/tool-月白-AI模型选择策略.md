@@ -35,6 +35,11 @@ related:
 - '[[tool-strategy-control-points]]'
 - aigc设计基础01ai生图原理与提示词基本功
 tags:
+aliases:
+  - 技能：AI模型选择策略
+  - 技能
+  - AI模型选择策略
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-关键要素提取改图法]]'
 - '[[tool-月白-AI设计三段式里程碑流程]]'
 tags:
+aliases:
+  - 技能：一抽流改图法自然语言精准许愿法
+  - 技能
+  - 一抽流改图法自然语言精准许愿法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

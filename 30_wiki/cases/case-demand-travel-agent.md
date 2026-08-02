@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 旅行攻略
+  - 旅行攻略Agent
+  - 案例
+  - 案例：旅行攻略Agent隐性需求被忽略
+  - 隐性需求被忽略
+  - 需求被忽略
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
@@ -36,7 +43,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 五步法之需求分析
 - 需求评估避坑合集
 ---

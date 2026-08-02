@@ -20,6 +20,13 @@ confidence: 0.75
 trust_level: medium
 type: tool
 status: enriched
+aliases:
+  - 关键要素线
+  - 构拆解
+  - 清单体故事线⑥
+  - 清单体故事线⑥：关键要素线用结构拆解'什么才是真正重要的
+  - 用结构拆解'什么才是真正重要的
+  - 要素线
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）

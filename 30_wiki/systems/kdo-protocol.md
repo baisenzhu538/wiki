@@ -29,7 +29,15 @@ author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
 - 'pending_archive: src_unknown'
-confidence: 0.6# KDO Protocol — AI-Agent Operating Contract
+confidence: 0.6
+discoverable_by:
+- KDO协议
+- AI操作契约
+- 知识库协议
+- Agent规范
+- 仓库操作标准
+---
+# KDO Protocol — AI-Agent Operating Contract
 ---
 ## Core Points
 

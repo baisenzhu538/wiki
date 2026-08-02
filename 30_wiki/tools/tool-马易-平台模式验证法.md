@@ -31,6 +31,10 @@ related:
 - yt-panproduct-demand-user-perspective
 - tool-yitang-ai-report-drafting
 tags:
+aliases:
+  - 技能：平台模式验证法
+  - 技能
+  - 平台模式验证法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

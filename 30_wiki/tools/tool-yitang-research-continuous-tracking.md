@@ -38,6 +38,10 @@ related:
 - '[[tool-yitang-social-engineering-research]]'
 - '[[tool-yitang-supply-chain-research]]'
 tags:
+aliases:
+  - 持续跟踪：建立动态信息监控机制
+  - 持续跟踪
+  - 建立动态信息监控机制
 - audience:executor
 - scene:execution
 - skill-level:intermediate

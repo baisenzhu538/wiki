@@ -14,6 +14,13 @@ created_at: '2026-07-19'
 updated_at: '2026-07-19'
 quality_labels:
 - cited
+aliases:
+  - 出货量拿走
+  - 利润
+  - 智能手机利润垄断
+  - 苹果智能手机利润垄断
+  - 苹果智能手机利润垄断：18%出货量拿走85%利润
+  - 量拿走
 source_refs:
 - 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md L75
 - 00_inbox/利润为王/笔记2.txt
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 利润为王
 - 战略定价顾问
 ---

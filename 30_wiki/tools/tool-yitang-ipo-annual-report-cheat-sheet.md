@@ -23,6 +23,12 @@ query_triggers:
 - 年报核心章节
 - 创业benchmark数据来源
 - 竞对财务对比方法
+aliases:
+  - 上市公司报告价值Cheat
+  - 上市公司报告价值CheatSheet：创业各阶段该读什么
+  - 公司报告价值
+  - 创业各阶段该读什么
+  - 各阶段该读什么
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
@@ -36,7 +42,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 上市公司报告解读
 - 调研专题
 ---

@@ -8,6 +8,13 @@ domain:
 - yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
+aliases:
+  - 一堂转化率黑客课→Skill
+  - 从拿到资料到测试通过的完整历程
+  - 半肥猫
+  - 案例
+  - 案例：一堂转化率黑客课→Skill从拿到资料到测试通过的完整历程
+  - 转化率黑客课
 source_refs:
 - 10_raw/sources/src_20260617_2b8a01ce-ai俱乐部-ai学习落地-半肥猫-口述.txt
 - 10_raw/sources/src_20260617_26d0ee0b-ai俱乐部-ai学习落地-半肥猫-笔记.txt
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 俱乐部
 - 半肥猫
 - 学习落地

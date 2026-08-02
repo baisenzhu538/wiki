@@ -14,6 +14,13 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - L6需求假设
+  - L6需求假设：机会卡片+最危险假设RAT
+  - 最危险假设
+  - 机会卡片
+  - 机会卡片+最危险假设RAT
+  - 需求假设
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
@@ -43,7 +50,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 场景推演教练提示词
 ---

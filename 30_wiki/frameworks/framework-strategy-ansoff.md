@@ -16,6 +16,11 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+discoverable_by:
+  - "安索夫矩阵"
+  - "产品市场增长战略"
+  - "安索夫增长矩阵"
+  - "市场产品扩张"
 - '[[strategy-domain-digest]]'
 - '[[tool-泛产品落地-内核和边界]]'
 - '[[tool-泛产品落地-灵感闪现]]'
@@ -26,6 +31,20 @@ related:
 - yt-five-step-method-complete
 - yt-demand-quantitative-estimation
 tags:
+aliases:
+  - 安索夫矩阵：产品市场增长战略
+  - 安索夫矩阵
+  - 产品
+  - 市场增长战略
+  - 品扩张
+  - 夫矩阵
+aliases:
+  - 安索夫矩阵：产品市场增长战略
+  - 安索夫矩阵
+  - 产品
+  - 市场增长战略
+  - 场产品扩张
+  - 品市场增长战略
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

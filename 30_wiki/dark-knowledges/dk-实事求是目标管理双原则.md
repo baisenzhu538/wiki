@@ -15,6 +15,12 @@ updated_at: '2026-07-19'
 quality_labels:
 - principle
 - actionable
+aliases:
+  - 实事求是+最佳实践
+  - 实事求是+最佳实践：目标管理的两条铁律
+  - 最佳实践
+  - 目标管理的两条铁律
+  - 管理的两条铁律
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §7.2
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L1448-L1510
@@ -28,7 +34,6 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
-aliases:
 - handle
 ---
 

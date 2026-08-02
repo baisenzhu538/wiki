@@ -9,6 +9,11 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
+aliases:
+  - 王欢
+  - 王欢：AI飞轮第一圈
+  - 第一圈
+  - 飞轮第一圈
 source_refs:
 - src_unknown
 - src_unknown

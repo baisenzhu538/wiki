@@ -8,6 +8,12 @@ status: reviewed
 confidence: 0.91
 trust_level: high
 source_context: 一堂五步法需求分析——JTBD框架在需求挖掘中的应用
+aliases:
+  - JTBD需求分析实战应用
+  - JTBD需求分析实战应用：从用户想要到用户雇佣
+  - 从用户想要到用户雇佣
+  - 户想要到用户雇佣
+  - 需求分析实战应用
 source_refs:
 - 10_raw/sources/src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 - 10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md
@@ -37,10 +43,15 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 一堂五步法
 - 泛产品设计
 - 用户卡片
+discoverable_by:
+- JTBD应用
+- 用户任务
+- jobs-to-be-done
+- 用户需求分析
+- 用户场景
 ---
 
 # JTBD需求分析实战应用：从"用户想要"到"用户雇佣"

@@ -10,6 +10,13 @@ domain:
 - ai-collaboration
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修：C-10/C-11/P-16/P-8 共同暴露的护栏缺失问题
+aliases:
+  - KDO 团队复盘
+  - 团队复盘
+  - 基础设施工具不能只有检查清单
+  - 基础设施工具不能只有检查清单，还必须有硬护栏
+  - 还必须有硬护栏
+  - 须有硬护栏
 source_refs: null
 related:
 - '[[ai-collaboration-domain-digest]]'

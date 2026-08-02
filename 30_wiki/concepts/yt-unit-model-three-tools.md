@@ -1,5 +1,6 @@
 ---
 id: yt-unit-model-three-tools
+title: "单元模型三工具：斧子尺子梯子"
 status: enriched
 reviewed_by: pending
 updated_at: '2026-07-12'
@@ -10,6 +11,12 @@ related:
 - '[[case-treadmill-demand-analysis]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[pending_unknown]]'
+aliases:
+  - 单元模型三工具
+  - 单元模型三工具：斧子尺子梯子
+  - 尺子梯子
+  - 斧子尺子梯子
+  - 模型三工具
 source_refs:
 - pending_archive: src_unknown
 tags:
@@ -17,7 +24,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 单元模型三工具：斧子尺子梯子
 
 > 来源：一堂五步法·单元模型篇 | [[yt-five-step-method]] | [[yt-growth-cycle-model]] | [[case-toy-cabinet-business-model]]

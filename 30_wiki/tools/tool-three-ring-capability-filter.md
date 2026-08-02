@@ -13,6 +13,13 @@ updated_at: 2026-07-11
 domain:
 - infrastructure
 - ai-collaboration
+aliases:
+  - cap_hub三环过滤器能力注册准入checklist
+  - 三环过滤器
+  - 三环过滤器能力注册准入
+  - 注册准入
+  - 能力注册准入
+  - 过滤器
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-笔记.txt
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/整合笔记_苦练基本功完整版.md
@@ -22,7 +29,6 @@ related:
 - '[[concept-一堂-基本功定义]]'
 - '[[task_20260708_huangyaoshi-capability-hub-phase1]]'
 - '[[concept-yihang-dual-triangle-core]]'
-aliases:
 - 三环过滤器
 - capability filter
 - 能力准入

@@ -25,6 +25,9 @@ diagnostic_signals:
 - signal: 教学只讲道理
   lens: 加入价值认知和价值判断环节
   follow_up: 加入价值认知和价值判断环节
+aliases:
+  - 价值教学三阶模型
+  - 教学三阶模型
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt
 - 00_inbox/解放思想探索营/案例分享-笔记.txt
@@ -34,7 +37,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

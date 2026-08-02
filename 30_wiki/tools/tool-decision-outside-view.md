@@ -9,6 +9,13 @@ domain:
 - 噪声减少
 source_person: 消化全库后提炼
 source_context: 基于master-decision-hygiene框架提炼，2026-05-18
+aliases:
+  - 全库后提炼
+  - 决策外部视角法
+  - 团队决策外部视角法
+  - 技能
+  - 技能：团队决策外部视角法
+  - 消化全库后提炼
 source_refs:
 - src_unknown
 wiki_refs:

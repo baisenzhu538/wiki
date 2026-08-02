@@ -13,6 +13,13 @@ updated_at: 2026-07-04
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 五维评分+三色灯阻断
+  - 双三角画布案例
+  - 双三角画布案例：AI论文初审五维评分+三色灯阻断
+  - 角画布案例
+  - 论文初审
+  - 论文初审五维评分
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-画布案例1_vlm.md
 related:
@@ -22,7 +29,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂双三角
 - 人机协作双三角
 ---

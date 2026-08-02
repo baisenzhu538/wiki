@@ -24,6 +24,11 @@ query_triggers:
 - 评论 分析 AI 辅助
 - 动力 阻力 触点 口碑映射
 - 舆情 口碑 批量收集 分析
+aliases:
+  - 好评决定内核
+  - 差评决定机会
+  - 舆情/口碑批量收集
+  - 舆情/口碑批量收集：好评决定内核，差评决定机会
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
@@ -38,7 +43,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研武器库培训
 ---

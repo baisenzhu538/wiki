@@ -15,6 +15,13 @@ domain:
 - yitang
 source_person: Truman（一堂学员/时间管理经验分享者）
 source_context: 一堂时间管理域案例分享（2026-07-01），个人实验记录
+aliases:
+  - Truman通勤实验：用时间审计把废时间变成产能杠杆
+  - Truman（一堂学员/时间管理经验分享者）
+  - 时间管理经验分享者
+  - 用时间审计把废时间变成产能杠杆
+  - 通勤实验
+  - 间审计把废时间变成产能杠杆
 source_refs:
 - 00_inbox/时间管理/truman-时间管理课程-口述.txt
 - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
@@ -34,7 +41,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 整合笔记
 - 时间管理
 ---

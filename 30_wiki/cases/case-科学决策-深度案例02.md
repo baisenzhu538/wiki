@@ -13,6 +13,11 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 上班开车还是打车的量化决策
+  - 开车还是打车的量化决策
+  - 案例
+  - 案例：上班开车还是打车的量化决策
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例02_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-深度-案例02.md
@@ -73,7 +78,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 科学决策
 ---
 

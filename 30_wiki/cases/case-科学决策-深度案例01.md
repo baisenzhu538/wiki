@@ -13,6 +13,11 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 全员涨薪
+  - 全员涨薪20%的ROI决策
+  - 案例
+  - 案例：全员涨薪20%的ROI决策
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例01_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-深度-案例01.md
@@ -28,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 科学决策
 ---
 

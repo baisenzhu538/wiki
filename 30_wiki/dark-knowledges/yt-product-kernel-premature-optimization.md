@@ -9,6 +9,12 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 source_context: 一堂产品内核系列课——过早细化陷阱
+aliases:
+  - 在验证前追求完美
+  - 细化陷阱
+  - 证前追求完美
+  - 过早细化陷阱
+  - 过早细化陷阱：在验证前追求完美
 source_refs:
 - src_unknown
 - src_unknown

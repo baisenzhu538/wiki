@@ -20,6 +20,15 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 - https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/
 related:
+aliases:
+  - Devil'sAdvocacy魔鬼代言人
+  - Advocacy魔鬼代言人
+  - Richars J. Heuer Jr. + Truman（一堂）
+  - 魔鬼代言人
+aliases:
+  - Devil'sAdvocacy魔鬼代言人
+  - Advocacy魔鬼代言人
+  - Richars J. Heuer Jr. + Truman（一堂）
 - '[[framework-yitang-18-strategy-cards]]'
 - '[[tool-半肥猫-ai-research-validation]]'
 - '[[pending_unknown]]'

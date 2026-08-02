@@ -7,6 +7,13 @@ domain:
 - yitang
 - business-formula
 source_context: 一堂「关键假设-业务公式-参数探索篇」口述逐字稿 L4 拆动作与 L5 创新参数两节中的 11 个学员/自营小案例。主题：行业里没有现成指标时，业务负责人自己定义动作侧、数值侧、组合侧的创新参数，参数一定义出来，动力阻力触点和假设就跟着长出来
+aliases:
+  - 伸手接传单率
+  - 创新参数与动作案例集
+  - 夸孩子率与一堂自定义参数群
+  - 把没被命名过的率挖出来
+  - 进会议室率
+  - 鞋店连带率
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2180-L2230
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2260-L2296
@@ -41,7 +48,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - handle
 ---
 # 创新参数与动作案例集：把"没被命名过的率"挖出来

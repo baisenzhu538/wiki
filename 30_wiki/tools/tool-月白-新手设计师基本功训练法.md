@@ -63,6 +63,11 @@ related:
 - '[[tool-月白-资深设计师AI工具切换法]]'
 - '[[tool-月白-里程碑思维-找对标优先于做设计]]'
 tags:
+aliases:
+  - 技能：新手设计师基本功训练法
+  - 技能
+  - 新手设计师基本功训练法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -6,6 +6,16 @@ status: reviewed
 domain: design
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+aliases:
+  - 八要素
+  - 命名八要素
+  - 技能
+  - 技能：设计文件命名法
+  - 文件命名八要素
+  - 月白
+  - 月白八要素
+  - 设计文件八要素命名法
+  - 设计文件命名法
 source_refs:
 - 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
@@ -41,10 +51,6 @@ diagnostic_signals:
 - "文件名无法一眼判断内容→八要素缺了关键维"
 - "协作方频繁问'这是哪个版本'→版本标注遗漏"
 discoverable_by: "月白命名法、八要素命名、设计文件命名规范、文件命名八要素"
-aliases:
-  - 设计文件八要素命名法
-  - 月白八要素
-  - 文件命名八要素
 ---
 
 # 技能：设计文件八要素命名法

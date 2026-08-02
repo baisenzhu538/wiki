@@ -10,6 +10,12 @@ language: zh-CN
 domain:
 - strategy
 - operations
+aliases:
+  - 从单吨运费到全链成本的结构化拆解
+  - 吨运费到全链成本的结构化拆解
+  - 物流费用三年节约计划
+  - 物流费用三年节约计划：从单吨运费到全链成本的结构化拆解
+  - 费用三年节约计划
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_184_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_184_vlm_desc.md
@@ -27,7 +33,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

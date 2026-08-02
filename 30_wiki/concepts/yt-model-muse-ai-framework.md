@@ -2,6 +2,7 @@
 domain:
 - modeling
 id: yt-model-muse-ai-framework
+title: "MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)"
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
@@ -16,13 +17,16 @@ query_triggers:
 - src_unknown
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - MUSE人工智能全景图YitangAIMUSEFrameworkV3.0
+  - 人工智能全景图
+  - 智能全景图
 source_refs:
 - pending_archive:src_20260510_62b2cfa1-一堂人工智能全景图muse模型
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂人工智能全景图
 ---
 # MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)

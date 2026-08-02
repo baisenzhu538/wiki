@@ -14,6 +14,10 @@ updated_at: 2026-07-08
 domain:
 - yitang
 - five-step-method
+aliases:
+  - ToB五步法十八式速查
+  - ToB五步法十八式速查：必知必会导航
+  - 必知必会导航
 source_refs:
 - 00_inbox/一堂五步法/一堂-toB五步法-必知必会十八式-图片_paddle_ocr.txt
 related:
@@ -34,7 +38,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 - 五步法
 ---

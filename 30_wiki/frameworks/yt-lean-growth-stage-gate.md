@@ -7,6 +7,13 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 单元模型成立
+  - 增长渠道
+  - 增长阶段标志
+  - 增长阶段标志：单元模型成立+找到增长渠道
+  - 找到增长渠道
+  - 模型成立
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -38,8 +45,13 @@ diagnostic_signals:
   follow_up_question: 当前渠道的试错成本、ROI、天花板、团队能力匹配度是否已评估？有没有小样本的转化数据支撑？
 - framework_lens: 阶段判断错误
   follow_up_question: 需求、产品、商业模式三类前置假设中，还有哪些是红灯？如果前置假设不成立，增长测试是不是在验证错误的问题？
-aliases:
 - 精益方法论培训
+discoverable_by:
+- 增长阶段门
+- 阶段关卡
+- 精益里程碑
+- 增长节奏
+- 阶段验证
 ---
 
 

@@ -21,6 +21,19 @@ trust_level: high
 related:
 - '[[yitang-domain-digest]]'
 tags:
+aliases:
+  - AI能生成'看着很厉害'的模型，但如果你没有逻辑洁癖，它只会加速你跑偏
+  - 能生成'看着很厉害'的模型
+  - 但如果你没有逻辑洁癖
+  - 它只会加速你跑偏
+  - Truman
+  - 的模型
+aliases:
+  - AI能生成'看着很厉害'的模型，但如果你没有逻辑洁癖，它只会加速你跑偏
+  - 能生成'看着很厉害'的模型
+  - 但如果你没有逻辑洁癖
+  - 它只会加速你跑偏
+  - Truman
 - audience:executor
 - scene:reference
 - skill-level:advanced

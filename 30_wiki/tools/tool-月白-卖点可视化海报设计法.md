@@ -36,6 +36,11 @@ related:
 - '[[tool-月白-设计基本功回归法]]'
 - '[[tool-月白-餐饮类线下设计调性把控]]'
 tags:
+aliases:
+  - 技能：卖点可视化海报设计法
+  - 技能
+  - 卖点可视化海报设计法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

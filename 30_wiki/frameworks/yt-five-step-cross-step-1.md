@@ -8,6 +8,11 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂五步法——跨步一：从0到1的验证
+aliases:
+  - 从0到1的验证
+  - 的验证
+  - 跨步一
+  - 跨步一：从0到1的验证
 source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -37,9 +42,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核验证课
+discoverable_by:
+- 五步法跨步
+- 需求到增长
+- 跨域衔接
+- 五步法联动
+- 方法论串联
 ---
 
 # 跨步一：从0到1的验证

@@ -8,6 +8,13 @@ confidence: 0.95
 trust_level: high
 language: zh-CN
 domain: strategy
+aliases:
+  - 判断该不该进
+  - 市场机会分析矩阵
+  - 用什么进
+  - 细分市场机会分析矩阵
+  - 细分市场机会分析矩阵：10维度判断该不该进、用什么进
+  - 维度判断该不该进
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_249_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_249_vlm_desc.md
@@ -26,7 +33,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

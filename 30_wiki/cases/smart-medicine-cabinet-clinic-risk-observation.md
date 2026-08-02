@@ -8,6 +8,13 @@ domain:
 - pharmaceutical-retail
 - policy-compliance
 - risk-warning
+aliases:
+  - 一线观察与风险提示
+  - 智能药柜协同模式
+  - 王语嫣
+  - 药柜协同模式
+  - 诊所
+  - 诊所+智能药柜协同模式：一线观察与风险提示
 source_refs:
 - pending_archive:src_20260613_7cfd7b89corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape  -
   pending_archive:src_20260613_59270720corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures

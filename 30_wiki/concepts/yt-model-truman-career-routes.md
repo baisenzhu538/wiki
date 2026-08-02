@@ -2,6 +2,7 @@
 domain:
 - modeling
 id: yt-model-truman-career-routes
+title: "楚门的选择：两条职业成长路线 X vs Y"
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: advanced
@@ -16,13 +17,18 @@ query_triggers:
 - src_unknown
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 两条职业成长路线
+  - 楚门的选择
+  - 楚门的选择：两条职业成长路线XvsY
+  - 的选择
+  - 职业成长路线
 source_refs:
 - pending_archive:src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 的选择两条职业成长路线
 ---
 # 楚门的选择：两条职业成长路线 X vs Y

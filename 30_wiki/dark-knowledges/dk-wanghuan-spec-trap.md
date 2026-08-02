@@ -44,6 +44,20 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
 tags:
+aliases:
+  - 王欢暗知识：Spec陷阱过度拆解会锁死AI上限
+  - 王欢暗知识
+  - 陷阱
+  - 过度拆解会锁死
+  - 上限
+  - 王欢
+aliases:
+  - 王欢暗知识：Spec陷阱过度拆解会锁死AI上限
+  - 王欢暗知识
+  - 陷阱
+  - 过度拆解会锁死
+  - 上限
+  - 王欢
 - audience:executor
 - scene:reference
 - skill-level:intermediate

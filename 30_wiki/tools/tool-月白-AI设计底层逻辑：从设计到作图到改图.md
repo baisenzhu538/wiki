@@ -31,6 +31,12 @@ related:
 - '[[tool-月白-实物包装落地训练法]]'
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 tags:
+aliases:
+  - 技能：AI设计底层逻辑：从设计到作图到改图
+  - 技能
+  - AI设计底层逻辑
+  - 从设计到作图到改图
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

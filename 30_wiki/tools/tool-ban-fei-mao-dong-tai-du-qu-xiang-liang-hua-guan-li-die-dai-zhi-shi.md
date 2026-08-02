@@ -8,6 +8,13 @@ domain:
 - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
+aliases:
+  - 动态读取
+  - 化管理迭代知识
+  - 半肥猫
+  - 向量化管理迭代知识
+  - 技能
+  - 技能：动态读取+向量化管理迭代知识
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required: null
@@ -29,7 +36,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 半肥猫
 - 学习落地
 ---

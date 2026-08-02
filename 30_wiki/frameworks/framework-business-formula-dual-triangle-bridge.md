@@ -26,6 +26,8 @@ source_refs:
 - 30_wiki/frameworks/framework-yihang-dual-triangle-weapon-library.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/任务编排建议书_王语嫣_业务公式_v2.md
 related:
+discoverable_by:
+  - "业务公式双三角桥接"
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-dual-triangle-weapon-library]]'
 - '[[method-dual-triangle-flywheel-engine]]'
@@ -51,6 +53,18 @@ quality_labels:
 - bridge
 - framework
 tags:
+aliases:
+  - 业务公式×双三角桥接：C域在六顶点中的定位与映射
+  - 业务公式×双三角桥接
+  - C域在六顶点中的定位与映射
+  - 在六顶点中的定位与映射
+  - 双三角桥接
+  - 式双三角桥接
+aliases:
+  - 业务公式×双三角桥接：C域在六顶点中的定位与映射
+  - 业务公式×双三角桥接
+  - C域在六顶点中的定位与映射
+  - 务公式双三角桥接
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

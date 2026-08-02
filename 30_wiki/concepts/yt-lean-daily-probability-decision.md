@@ -7,6 +7,9 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 假设驱动日常决策三问
+  - 驱动日常决策三问
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -36,7 +39,6 @@ diagnostic_signals:
   follow_up_question: 这个认知能否用当前 10% 的成本拿到？最便宜的验证手段是什么？
 - framework_lens: 关键假设排序 / 分析概率
   follow_up_question: 这些任务中，哪一个背后的假设一旦被证伪，整个项目就废了？
-aliases:
 - 精益方法论培训
 ---
 

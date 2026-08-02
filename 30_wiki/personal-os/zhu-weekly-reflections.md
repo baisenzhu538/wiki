@@ -12,6 +12,12 @@ related:
   - "[[zhu-strategic-conclusions]]"
   - "[[zhu-network-resources]]"
   - "[[zhu-project-board]]"
+discoverable_by:
+- 周复盘
+- 老朱周记
+- 个人回顾
+- 每周总结
+- 进度反思
 ---
 
 # 老朱周度思考汇编

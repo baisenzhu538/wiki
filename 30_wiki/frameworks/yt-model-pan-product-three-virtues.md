@@ -20,6 +20,13 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - 品三大自我修养
+  - 无限进步
+  - 最佳实践
+  - 泛产品三大自我修养
+  - 泛产品三大自我修养：用户价值×最佳实践×无限进步
+  - 用户价值×最佳实践×无限进步
 source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt
@@ -42,9 +49,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 泛产品设计
 - 泛产品设计实操
+discoverable_by:
+- 泛产品三德
+- 产品基本功
+- 产品修炼方法
+- 内功外功心法
+- 产品能力模型
 ---
 
 

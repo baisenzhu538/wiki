@@ -7,13 +7,15 @@ domain:
 - personal-growth
 - yitang
 status: reviewed
+aliases:
+  - 完成标准设定
+  - 标准设定
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
 - '[[deliberate-practice-four-elements]]'
 - '[[challenge-point-design]]'
 - '[[ai-tool-learning-curve]]'
-aliases:
 - 完成标准
 - 学会的定义
 - 元能力-刻意练习

@@ -2,6 +2,12 @@
 id: concept-thousand-people-square
 title: 千人广场模型：一堂做课背后的统计建模理念
 type: concept
+aliases:
+  - 一堂做课背后的统计建模理念
+  - 做课背后的统计建模理念
+  - 千人广场模型
+  - 千人广场模型：一堂做课背后的统计建模理念
+  - 广场模型
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
@@ -41,7 +47,6 @@ diagnostic_signals:
   follow_up: 明确画出问题边界：服务谁？不服务谁？
 - lens: 统计建模
   follow_up: 找5%已走过的人，提炼共性而非个案
-aliases:
 - 建模能力培训
 ---
 # 千人广场模型：一堂做课背后的统计建模理念

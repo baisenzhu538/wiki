@@ -17,6 +17,13 @@ quality_labels:
 - validated
 created_at: 2026-06-27
 updated_at: '2026-06-28'
+aliases:
+  - Truman
+  - 如何用
+  - 小说
+  - 案例
+  - 案例：小说app如何用SEO补全增长飞轮
+  - 补全增长飞轮
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt
 source_person: Truman
@@ -33,7 +40,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 渠道增长飞轮
 ---

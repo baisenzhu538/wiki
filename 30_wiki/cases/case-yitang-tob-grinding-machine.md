@@ -8,6 +8,11 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 案例
+  - 案例：精密磨床自制项目失败复盘
+  - 磨床自制项目失败复盘
+  - 精密磨床自制项目失败复盘
 source_refs:
 - src_unknown
 tags:

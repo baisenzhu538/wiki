@@ -14,6 +14,10 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 在用户活跃的平台做轻量访谈
+  - 社交媒体采访
+  - 社交媒体采访：在用户活跃的平台做轻量访谈
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -28,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

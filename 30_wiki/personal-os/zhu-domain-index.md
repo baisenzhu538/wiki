@@ -7,6 +7,12 @@ created_at: 2026-07-01T17:19:35+00:00
 updated_at: 2026-07-19T02:15:00+00:00
 domain:
   - personal-os
+discoverable_by:
+- 老朱域索引
+- 个人知识体系
+- 域导航
+- 老朱项目
+- 个人OS
 ---
 
 # 老朱个人域索引

@@ -1,4 +1,4 @@
-﻿---
+---
 id: framework-yitang-project-breakdown
 title: 项目拆计划：六维敏感度驱动的科学拆解
 type: framework
@@ -21,6 +21,10 @@ source_refs:
 - 00_inbox/管项目/项目管理-拆计划-拆计划小抄_vlm_desc.md
 - 00_inbox/管项目/项目管理-角色分工-RASCI模型_vlm_desc.md
 related:
+discoverable_by:
+  - "项目拆计划"
+  - "六维敏感度拆解"
+  - "科学拆解项目"
 - "[[yt-management-project-management]]"
 - "[[framework-yitang-project-abcd-classification]]"
 - "[[framework-yitang-project-plan-design]]"
@@ -30,6 +34,20 @@ related:
 - "[[yt-management-goal-management]]"
 - "[[workflow-yitang-project-four-step-loop]]"
 diagnostic_signals:
+aliases:
+  - 项目拆计划：六维敏感度驱动的科学拆解
+  - 项目拆计划
+  - 六维敏感度驱动的科学拆解
+  - 敏感度驱动的科学拆解
+  - 解项目
+  - 目拆计划
+aliases:
+  - 项目拆计划：六维敏感度驱动的科学拆解
+  - 项目拆计划
+  - 六维敏感度驱动的科学拆解
+  - 目拆计划
+  - 学拆解项目
+  - 目标三层拆解
 - signal: 项目一启动就冲进去做，做到一半发现漏了关键事项，到处补坑
   lens: 缺拆解——没有把方案变成可执行的工作清单
   follow-up: 跑一次完整拆解：里程碑→工作模块→优先级，用"先拆后查"交叉验证

@@ -29,6 +29,10 @@ related:
 - '[[tool-水水-识别饥饿效应]]'
 - '[[tool-水水-避免原生家庭万能归因]]'
 tags:
+aliases:
+  - 技能：识别超级传播者风险
+  - 技能
+  - 识别超级传播者风险
 - audience:executor
 - scene:execution
 - skill-level:intermediate

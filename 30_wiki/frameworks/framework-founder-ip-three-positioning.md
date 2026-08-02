@@ -37,6 +37,25 @@ quality_labels:
 - principle
 - validated
 related:
+aliases:
+  - 创始人IP三定位模型
+  - 创始人
+  - 三定位模型
+  - 位模型
+  - 定位模型
+  - 品牌定位
+aliases:
+  - 创始人IP三定位模型
+  - 创始人
+  - 三定位模型
+  - 始人品牌定位
+  - 怎么定位
+  - 定位模型
+discoverable_by:
+  - "创始人IP定位"
+  - "三定位模型"
+  - "个人IP怎么定位"
+  - "创始人品牌定位"
 - '[[framework-brand-three-degree]]'
 - '[[framework-content-business-six-step]]'
 - '[[tool-shortvideo-six-dimension-deconstruction]]'

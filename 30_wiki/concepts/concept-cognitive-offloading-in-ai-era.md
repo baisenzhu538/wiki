@@ -13,6 +13,13 @@ updated_at: 2026-07-02
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
+aliases:
+  - AI时代的认知卸载：什么交给AI，什么必须保留
+  - 什么交给
+  - 什么必须保留
+  - 必须保留
+  - 时代的认知卸载
+  - 的认知卸载
 source_refs:
 - 60_feedback/audit/20260701-wobeirushen-validation-report.md
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
@@ -23,7 +30,6 @@ query_triggers:
 - 过度依赖 AI 有什么风险
 - 如何避免认知能力退化
 - 杠铃策略在 AI 使用中怎么用
-aliases:
 - cognitive-offloading
 - 认知卸载
 - AI 认知外包

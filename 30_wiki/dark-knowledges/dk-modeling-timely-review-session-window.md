@@ -9,6 +9,13 @@ domain:
 - master
 source_person: Truman
 source_context: 一堂建模能力培训（流程建模原则），2026-06-12
+aliases:
+  - Truman
+  - 及时复盘必须卡在
+  - 离开业务现场再复盘
+  - 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在session窗口内
+  - 窗口内
+  - 质量会掉一大半
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
@@ -37,7 +44,6 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown# 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
-aliases:
 - 建模能力培训
 - 流程建模
 - 高阶建模

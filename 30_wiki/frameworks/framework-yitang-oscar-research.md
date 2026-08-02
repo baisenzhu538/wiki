@@ -34,6 +34,10 @@ source_refs:
 - 00_inbox/调研专题/系统调研（高水平计划）_vlm_desc.md
 - 00_inbox/调研专题/系统调研（高水平执行）_vlm_desc.md
 related:
+discoverable_by:
+  - "OSCAR调研模型"
+  - "目标锁定到正确归因"
+  - "五步法调研"
 - '[[framework-yitang-high-level-execution]]'
 - '[[framework-yitang-four-research-types]]'
 - '[[yt-research-osl-framework]]'
@@ -59,6 +63,20 @@ diagnostic_signals:
   lens: C步骤僵化——清单套模板
   follow-up: 根据本次目标重新设计关键词和来源类型
 tags:
+aliases:
+  - OSCAR调研模型：从目标锁定到正确归因的五步法
+  - OSCAR调研模型
+  - 从目标锁定到正确归因的五步法
+  - 定到正确归因
+  - 标锁定到正确归因的五步法
+  - 步法调研
+aliases:
+  - OSCAR调研模型：从目标锁定到正确归因的五步法
+  - OSCAR调研模型
+  - 从目标锁定到正确归因的五步法
+  - 调研模型
+  - 标锁定到正确归因
+  - 步法调研
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

@@ -23,6 +23,10 @@ related:
 - concept-发现决策
 updated_at: '2026-06-29'
 tags:
+aliases:
+  - 用户视角：跳出产品思维看用户
+  - 用户视角
+  - 跳出产品思维看用户
 - audience:executor
 - scene:execution
 - skill-level:intermediate

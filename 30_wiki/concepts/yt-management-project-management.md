@@ -14,6 +14,12 @@ updated_at: 2026-07-07
 domain:
 - yitang
 - management
+aliases:
+  - 一堂管项目四步闭环
+  - 科学项目管理
+  - 科学项目管理：一堂管项目四步闭环
+  - 管项目四步闭环
+  - 项目管理
 source_refs:
 - 00_inbox/管项目/项目管理-入门篇-口述.txt
 - 00_inbox/管项目/项目管理-定方案-口述.txt
@@ -59,7 +65,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 做复盘
 - 入门篇
 ---

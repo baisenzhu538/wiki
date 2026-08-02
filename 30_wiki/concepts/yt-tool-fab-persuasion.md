@@ -45,6 +45,16 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
+aliases:
+  - FAB核心说服：从产品特性到用户利益的转化法
+  - FAB核心说服
+  - 从产品特性到用户利益的转化法
+  - 品特性到用户利益的转化法
+  - 核心说服
+aliases:
+  - FAB核心说服：从产品特性到用户利益的转化法
+  - FAB核心说服
+  - 从产品特性到用户利益的转化法
 - framework_lens: 用户中心 / 转化文案
   follow_up_question: 用户看完第一句后能否立刻回答'这跟我有什么关系？'
 - framework_lens: 可验证性 / 信任

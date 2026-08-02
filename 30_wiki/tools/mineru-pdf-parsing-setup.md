@@ -8,6 +8,11 @@ trust_level: medium
 domain:
 - src_unknown
 - src_unknown
+aliases:
+  - MinerUmagicpdfPDF解析工具安装与使用
+  - 安装与使用
+  - 工具安装与使用
+  - 解析工具安装与使用
 source_refs:
 - src_unknown
 created_at: '2026-06-17'

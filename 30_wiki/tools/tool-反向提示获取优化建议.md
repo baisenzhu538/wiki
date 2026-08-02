@@ -10,6 +10,11 @@ domain:
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
+aliases:
+  - Truman
+  - 反向提示获取优化建议
+  - 技能
+  - 技能：反向提示获取优化建议
 source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
 definition_of_done: null
@@ -45,7 +50,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 自用的
 ---
 

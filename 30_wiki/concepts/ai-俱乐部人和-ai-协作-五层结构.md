@@ -8,6 +8,13 @@ domain:
 - yitang
 - decision-making
 status: reviewed
+aliases:
+  - AI俱乐部人和AI协作五层结构
+  - 五层结构
+  - 人和
+  - 俱乐部
+  - 俱乐部人和
+  - 协作
 source_refs:
 - pending_archive:src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构
 - src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构
@@ -28,7 +35,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 五层结构
 - 俱乐部人和
 ---

@@ -18,6 +18,11 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - Truman
+  - 案例
+  - 案例：熊猫现烤汉堡如何用工业化流程破解选品难题
+  - 熊猫现烤汉堡如何用工业化流程破解选品难题
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-汉堡难点.png
@@ -38,7 +43,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 汉堡难点
 ---

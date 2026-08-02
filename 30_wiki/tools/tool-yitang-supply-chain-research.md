@@ -24,6 +24,10 @@ query_triggers:
 - 渠道商情报获取方法
 - 合作方口中的竞对数据
 - 供应商交叉验证技巧
+aliases:
+  - 从合作方口中拿到竞对的水下数据
+  - 供应链/合作方情报
+  - 供应链/合作方情报：从合作方口中拿到竞对的水下数据
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
@@ -37,7 +41,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研武器库培训
 ---

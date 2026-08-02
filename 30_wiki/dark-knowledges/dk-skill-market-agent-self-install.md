@@ -9,6 +9,13 @@ domain:
 - yitang
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享，第二十二节批次4精修提炼，2026-06-17
+aliases:
+  - 不是给人看的说明书
+  - 暗知识
+  - 纪浩
+  - 而是给
+  - 自安装的自描述
+  - 装的自描述
 source_refs:
 - pending_archive:src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 - src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
@@ -45,7 +52,6 @@ diagnostic_signals:
   framework_lens: 更多描述 ≠ 更好的自描述——结构化约束比自然语言描述更有效
   follow_up_question: 与其加文字，不如把当前描述中模糊的部分转化为显式规则（输入类型、输出格式、拒绝条件）。Agent 更尊重规则，不尊重建议。#
     暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述
-aliases:
 - 协作方法论
 ---
 > 人的工作从"写说明"降级为"跟 AI 说清楚，让 AI 去补全"。

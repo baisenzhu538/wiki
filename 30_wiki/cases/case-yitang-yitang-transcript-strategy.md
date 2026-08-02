@@ -13,6 +13,13 @@ created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
 - yitang
+aliases:
+  - ROI+内容壁垒打破不能给的行业惯例
+  - 一堂逐字稿
+  - 内容壁垒打破不能给的行业惯例
+  - 案例
+  - 案例：一堂逐字稿用ROI+内容壁垒打破不能给的行业惯例
+  - 逐字稿
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
@@ -24,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - extractions
 ---
 

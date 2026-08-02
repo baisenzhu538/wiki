@@ -21,6 +21,10 @@ related:
 - '[[tool-马易-AIGC项目ROI评估]]'
 - '[[tool-马易-公寓获客自跑通原则]]'
 tags:
+aliases:
+  - 技能：视频转化关键要素标注校验
+  - 技能
+  - 视频转化关键要素标注校验
 - audience:executor
 - scene:execution
 - skill-level:intermediate

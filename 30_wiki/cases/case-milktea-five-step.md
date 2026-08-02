@@ -8,6 +8,13 @@ domain:
 - yitang
 source_person: Truman / 古董
 source_context: 一堂案例拆解课程-奶茶店案例
+aliases:
+  - Truman / 古董
+  - 从九死一生到十年百店的科学创业之路
+  - 奶茶店五步法
+  - 奶茶店五步法：从九死一生到十年百店的科学创业之路
+  - 店五步法
+  - 死一生到十年百店的科学创业之路
 source_refs:
 - pending_archive:src_20260508_03a07f45-一堂-案例拆解-串讲口述
 - pending_archive:src_20260510_1aea3d4b-一堂-案例拆解-课程清单
@@ -37,7 +44,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 串讲口述
 - 案例拆解
 - 课程清单

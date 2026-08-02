@@ -8,6 +8,9 @@ trust_level: high
 domain:
 - strategy
 - business_design
+aliases:
+  - 业务单元业务设计模板
+  - 单元业务设计模板
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_132_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_132_ocr_text.md
@@ -27,7 +30,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

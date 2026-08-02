@@ -14,6 +14,13 @@ industry: 企业服务 / AI 协作工具
 scale: 团队 / 公司
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第六期AI共创社，2026-06）
+aliases:
+  - 一堂数据库
+  - 不同构的产品策略分岔
+  - 同域不同构的产品策略分岔
+  - 案例
+  - 案例：一堂数据库vsSQLHelper同域不同构的产品策略分岔
+  - 纪浩
 source_refs:
 - pending_archive:src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
 - pending_archive:src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述
@@ -54,7 +61,6 @@ diagnostic_signals:
   follow_up: 检查当前是否有任务分类机制、工作手册、工具集；若缺失，先补结构再补功能
 - lens: 领域知识层缺失或不足
   follow_up: 列出该问题涉及的业务术语、表结构/字段映射、常见例外情况，补进领域知识库
-aliases:
 - 俱乐部
 - 俱乐部人和
 - 协作方法论

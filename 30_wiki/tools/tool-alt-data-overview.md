@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - Fund级别的调研武器
+  - 数据总览
+  - 替代数据总览
+  - 替代数据总览：HedgeFund级别的调研武器
+  - 级别的调研武器
 source_refs:
 - src_unknown
 - src_unknown

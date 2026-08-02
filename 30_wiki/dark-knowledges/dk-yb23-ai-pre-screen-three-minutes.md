@@ -8,6 +8,13 @@ domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
+aliases:
+  - AI出图前置筛选
+  - AI出图前置筛选：三分钟十套方案定风格
+  - 三分钟十套方案定风格
+  - 出图前置筛选
+  - 月白
+  - 钟十套方案定风格
 source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
 created_at: 2026-06-04
@@ -37,7 +44,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 设计师实操培训
 ---
 

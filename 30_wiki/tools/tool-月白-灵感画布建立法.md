@@ -32,6 +32,11 @@ related:
 - '[[tool-四层联系建立法]]'
 - '[[tool-月白-普通人AI快速上手法]]'
 tags:
+aliases:
+  - 技能：灵感画布建立法
+  - 技能
+  - 灵感画布建立法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

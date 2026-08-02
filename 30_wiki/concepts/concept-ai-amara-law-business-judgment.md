@@ -12,6 +12,9 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
+aliases:
+  - 拉定律与商业判断校准
+  - 阿马拉定律与商业判断校准
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md

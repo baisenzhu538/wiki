@@ -14,6 +14,10 @@ review_date: 2026-06-29
 review_notes: ⚠️ 补审标记（2026-07-08）：原为self-review，违反L0铁律#4。欧阳锋已读内容无重大问题。正式审查待王语嫣方向确认。
 confidence: 0.85
 trust_level: high
+aliases:
+  - KDO生产审查工作流欧阳锋模式
+  - 审查工作流欧阳锋模式
+  - 生产审查工作流欧阳锋模式
 source_refs:
 - pending_archive:2026-06-29 review retrospective
 - 60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md
@@ -27,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - tasks
 ---
 

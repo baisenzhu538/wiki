@@ -36,6 +36,19 @@ quality_labels:
 - principle
 - validated
 related:
+aliases:
+  - 内容经营6步闭环
+  - 内容经营
+  - 步闭环
+  - 容经营六步闭环
+  - 营六步闭环
+aliases:
+  - 内容经营6步闭环
+  - 内容经营
+  - 步闭环
+  - 容经营六步闭环
+discoverable_by:
+  - "内容经营六步闭环"
 - '[[framework-founder-ip-three-positioning]]'
 - '[[framework-brand-three-degree]]'
 - '[[tool-shortvideo-six-dimension-deconstruction]]'

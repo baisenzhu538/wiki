@@ -1,4 +1,4 @@
-﻿---
+---
 domain:
 - product
 - yitang
@@ -9,6 +9,15 @@ status: reviewed
 confidence: 0.94
 trust_level: high
 source_context: 一堂产品内核验证课（2026年）——统一版本，对齐概念卡
+aliases:
+  - 三维度评估
+  - 产品内核验证
+  - 产品内核验证：三维度评估×六策略阶梯
+  - 六策略阶梯
+  - 关键假设识别与验证
+  - 内核验证
+  - 略阶梯
+  - 里程碑验证法
 source_refs:
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
 - 10_raw/sources/src_20260606_7610584b-一堂-产品内核验证课-truman-笔记.md
@@ -41,6 +50,12 @@ diagnostic_signals:
   follow_up_question: 你的验证策略和当前风险匹配吗？高风险项目用「聊」，还是低风险项目用「赌」？
 - framework_lens: 产品内核验证——验证结果不被尊重
   follow_up_question: 如果验证结果不支持内核假设，你会调整方向吗？还是像「做而不信」一样继续投入？
+discoverable_by:
+- 产品内核验证
+- 内核验证方法
+- 六策略验证
+- 低成本验证
+- 产品假设验证
 ---
 
 # 产品内核验证：三维度评估 × 六策略阶梯

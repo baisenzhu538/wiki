@@ -33,6 +33,11 @@ related:
 - '[[tool-月白-像素图高清重绘修复法]]'
 - '[[tool-月白-纳米级抄大师训练法]]'
 tags:
+aliases:
+  - 技能：普通人AI设计80分法则
+  - 技能
+  - 普通人AI设计80分法则
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

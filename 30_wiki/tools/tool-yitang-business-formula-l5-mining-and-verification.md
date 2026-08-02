@@ -7,6 +7,12 @@ domain:
 - yitang
 - business-formula
 source_context: C 域实战反哺——参数挖掘武器库 L5 层 + 参数冰山双向八路 + Live255 谢泽丰（挖）/董原（验）两案例互补
+aliases:
+  - L5创新参数挖掘三方向+挖后必验因果候选标注制
+  - 创新参数挖掘三方向
+  - 参数挖掘三方向
+  - 必验因果候选标注制
+  - 挖后必验因果候选标注制
 source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
   L164-L190
@@ -39,7 +45,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - handle
 ---
 # L5 创新参数挖掘三方向 + 挖后必验因果（候选标注制）

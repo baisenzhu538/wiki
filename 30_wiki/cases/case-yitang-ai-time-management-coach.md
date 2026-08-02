@@ -14,6 +14,13 @@ domain:
 - yitang
 - research
 - ai-collaboration
+aliases:
+  - AI辅助调研
+  - 时间管理教练产品验证
+  - 案例
+  - 案例：AI辅助调研时间管理教练产品验证
+  - 管理教练产品验证
+  - 辅助调研时间管理教练产品验证
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
@@ -26,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 调研专题
 - 高阶调研行动营
 ---

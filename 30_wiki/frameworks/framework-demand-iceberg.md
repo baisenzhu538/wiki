@@ -17,6 +17,11 @@ source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
+discoverable_by:
+  - "需求冰山模型"
+  - "需求洞察冰山"
+  - "L1-L6需求分析"
+  - "需求深度推演"
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
@@ -27,6 +32,20 @@ related:
 - '[[case-demand-b2b-enterprise-erp]]'
 updated_at: '2026-07-04'
 tags:
+aliases:
+  - 需求洞察冰山模型：L1L6六层深度推演框架
+  - 需求洞察冰山模型
+  - L6六层深度推演框架
+  - 需求分析
+  - 求洞察冰山
+  - 求冰山模型
+aliases:
+  - 需求洞察冰山模型：L1L6六层深度推演框架
+  - 需求洞察冰山模型
+  - L6六层深度推演框架
+  - 需求分析
+  - 求洞察冰山
+  - 求冰山模型
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

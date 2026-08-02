@@ -8,6 +8,11 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-3
+aliases:
+  - P3：Hermes换APIKey后仍然401auth.json缓存覆盖.env
+  - system
+  - 后仍然
+  - 缓存覆盖
 source_refs:
 - src_unknown
 created_at: 2026-06-03

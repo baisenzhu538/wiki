@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 一堂赛道选择
+  - 案例
+  - 案例：一堂赛道选择用调研方法论选创业方向
+  - 用调研方法论选创业方向
+  - 研方法论选创业方向
+  - 赛道选择
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 系统式调研
 - 调研专题
 ---

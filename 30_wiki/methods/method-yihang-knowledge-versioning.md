@@ -22,6 +22,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 知识版本
+- 版本管理
+- 知识迭代
+- 框架升级
+- 知识演进
 ---
 
 # 课程多版本压缩法——3分钟/15分钟/1小时/3小时版本

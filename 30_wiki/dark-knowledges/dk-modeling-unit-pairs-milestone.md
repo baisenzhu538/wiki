@@ -20,6 +20,18 @@ related:
 - '[[concept-最简单元模型]]'
 - '[[tool-模型组合调用]]'
 tags:
+aliases:
+  - 里程碑不是任务清单，是成对单元模型拼出来的
+  - 里程碑不是任务清单
+  - 是成对单元模型拼出来的
+  - Truman
+  - 对单元模型拼出来的
+  - 碑不是任务清单
+aliases:
+  - 里程碑不是任务清单，是成对单元模型拼出来的
+  - 里程碑不是任务清单
+  - 是成对单元模型拼出来的
+  - Truman
 - audience:executor
 - scene:reference
 - skill-level:intermediate

@@ -2,6 +2,12 @@
 id: yt-model-prompt-engineering
 title: 人机协作操作系统：提示词工程总框架
 type: framework
+aliases:
+  - 人机协作操作系统
+  - 人机协作操作系统：提示词工程总框架
+  - 协作操作系统
+  - 提示词工程总框架
+  - 词工程总框架
 source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
@@ -50,7 +56,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 吴恩达提示词课程
 - 拆书会
 ---

@@ -32,6 +32,10 @@ related:
 - '[[tool-马易-隐性知识萃取与模型化]]'
 - '[[tool-马易-需求创造验证法]]'
 tags:
+aliases:
+  - 技能：AI项目需求拆解筛选
+  - 技能
+  - AI项目需求拆解筛选
 - audience:executor
 - scene:execution
 - skill-level:intermediate

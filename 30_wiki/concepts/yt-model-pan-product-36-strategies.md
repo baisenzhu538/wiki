@@ -1,4 +1,4 @@
-﻿---
+---
 id: yt-model-pan-product-36-strategies
 component_of:
 - "[[yt-composite-pan-product-methodology]]"
@@ -31,6 +31,13 @@ related:
 review_by: 2026-11-11
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 全套官方工具箱
+  - 品设计
+  - 官方工具箱
+  - 泛产品设计36计
+  - 泛产品设计36计全套官方工具箱
+  - 计全套官方工具箱
 source_refs:
 - 10_raw/sources/src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图.md
 - 00_inbox/一堂-个人修炼-泛产品设计概念口述版.md

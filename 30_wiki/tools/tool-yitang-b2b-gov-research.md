@@ -27,6 +27,13 @@ query_triggers:
 - 政府采购调研
 - 决策链分析
 - 政策窗口期
+aliases:
+  - G调研手段
+  - ToB/ToG调研手段：浅中深三层10大评估法
+  - 浅中深三层
+  - 浅中深三层10大评估法
+  - 研手段
+  - 调研手段
 source_refs:
 - 00_inbox/调研专题/调研手段卡7（B、G端）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡7（B、G端）_vlm_desc.md
@@ -45,7 +52,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研手段卡
 ---

@@ -14,6 +14,11 @@ updated_at: 2026-07-10
 domain:
 - yitang
 - personal-expression
+aliases:
+  - 四要素操作指南
+  - 执行武器库
+  - 表达力火箭模型
+  - 表达力火箭模型执行武器库：四要素操作指南
 source_refs:
 - 00_inbox/一堂-个人修炼-表达力火箭模型-执行武器库_paddle_ocr.txt
 related:
@@ -32,7 +37,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 个人修炼
 - 执行武器库
 ---

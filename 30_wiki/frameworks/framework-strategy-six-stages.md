@@ -14,6 +14,10 @@ domain: strategy
 source_refs:
 - src_unknown
 related:
+discoverable_by:
+  - "六阶段生命周期"
+  - "冉鹏企业生命周期"
+  - "不同阶段核心命题"
 - '[[strategy-domain-digest]]'
 - '[[tool-Truman-Skill全生命周期管理]]'
 - '[[pending_unknown]]'
@@ -22,6 +26,20 @@ related:
 - tool-strategy-pareto
 updated_at: '2026-06-29'
 tags:
+aliases:
+  - 冉鹏六阶段企业生命周期：不同阶段的核心命题完全不同
+  - 冉鹏六阶段企业生命周期
+  - 不同阶段的核心命题完全不同
+  - 业生命周期
+  - 鹏企业生命周期
+  - 六阶段企业生命周期
+aliases:
+  - 冉鹏六阶段企业生命周期：不同阶段的核心命题完全不同
+  - 冉鹏六阶段企业生命周期
+  - 不同阶段的核心命题完全不同
+  - 同阶段核心命题
+  - 阶段生命周期
+  - 鹏企业生命周期
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

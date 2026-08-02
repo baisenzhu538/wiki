@@ -6,6 +6,13 @@ status: draft
 domain:
 - ai-saas
 - yitang
+aliases:
+  - 人做判断AI做生产
+  - 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果
+  - 敢不敢点这个头承担后果
+  - 核心不是会不会用
+  - 核心不是会不会用AI
+  - 而是敢不敢点这个头承担后果
 source_refs:
 - 00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt
 created_at: '2026-06-09'
@@ -24,7 +31,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
-aliases:
 - study
 - 时代判断力口述
 ---

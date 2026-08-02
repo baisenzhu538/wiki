@@ -18,6 +18,13 @@ quality_labels:
 - validated
 created_at: 2026-06-27
 updated_at: 2026-06-27
+aliases:
+  - 困难区
+  - 恐慌区
+  - 拉伸区
+  - 练习区域分层
+  - 练习区域分层：舒适区、拉伸区、困难区、恐慌区
+  - 舒适区
 source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
@@ -34,7 +41,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 元能力-刻意练习
 - 刻意练习
 ---

@@ -10,6 +10,13 @@ domain:
 prompt_role: 你是一位拥有'上帝视角'的顶级商业洞察大师，受过麦肯锡、一堂教育及第一性原理思维的深度训练
 prompt_methodology: USP需求模型 + 五层深度分析 + 2B/2C全量字典 + 五步法画布
 prompt_version: 1.0.0
+aliases:
+  - USP深度洞察引擎需求分析提示词模板
+  - 分析提示词模板
+  - 洞察引擎
+  - 深度洞察引擎
+  - 深度洞察引擎需求分析提示词模板
+  - 需求分析提示词模板
 source_refs:
 - 00_inbox/五步法之需求分析/需求分析提示词.txt
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt
@@ -30,7 +37,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 方法论
 ---

@@ -25,6 +25,14 @@ confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋
 related:
+aliases:
+  - Y模型常见六大陷阱与反打
+  - 李善友 / 一堂课程设计
+  - 一堂课程设计
+  - 型常见六大陷阱与反打
+aliases:
+  - Y模型常见六大陷阱与反打
+  - 李善友 / 一堂课程设计
 - yt-decision-y-model
 - tool-yitang-Y-model-application
 - case-yitang-Y-model-advertising-turnaround

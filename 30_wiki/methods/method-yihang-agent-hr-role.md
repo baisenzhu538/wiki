@@ -23,6 +23,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- Agent HR
+- 角色分配
+- Agent管理
+- 团队配置
+- Agent分工
 ---
 
 # Agent HR 角色（元 Agent）——专门盯着其他 Agent 表现的监督者

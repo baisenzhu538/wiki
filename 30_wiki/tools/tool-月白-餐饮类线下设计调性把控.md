@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-眼高手低训练法]]'
 - '[[tool-月白-AI去字-稿定设计加字工作流]]'
 tags:
+aliases:
+  - 技能：餐饮类线下设计调性把控
+  - 技能
+  - 餐饮类线下设计调性把控
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

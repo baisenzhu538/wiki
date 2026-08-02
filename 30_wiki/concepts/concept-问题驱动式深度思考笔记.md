@@ -7,6 +7,12 @@ type: concept
 status: reviewed
 version: 1
 confidence: 0.75
+aliases:
+  - 用真问题取代真记录
+  - 问题取代真记录
+  - 问题驱动式深度思考笔记
+  - 问题驱动式深度思考笔记：用真问题取代真记录
+  - 驱动式深度思考笔记
 source_refs:
 - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 related:
@@ -43,7 +49,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 时代请单体笔记
 ---
 

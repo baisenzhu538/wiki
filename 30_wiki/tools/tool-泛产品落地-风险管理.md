@@ -12,6 +12,10 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 落地卡片
+  - 落地卡片：风险管理
+  - 风险管理
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-风险管理_vlm_desc.md
 related:
@@ -28,7 +32,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 泛产品设计
 - 落地卡片
 ---

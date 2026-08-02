@@ -15,6 +15,13 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）中的行业暗规则示例
+aliases:
+  - 招投标
+  - 暗规则实例库招聘
+  - 王欢
+  - 王欢：行业暗规则实例库招聘/招投标/销售/培训
+  - 行业暗规则实例库招聘
+  - 行业暗规则实例库招聘/招投标/销售/培训
 source_refs:
 - 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt

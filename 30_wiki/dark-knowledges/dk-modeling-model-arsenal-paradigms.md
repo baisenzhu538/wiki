@@ -17,6 +17,18 @@ diagnostic_signals: null
 related:
 - '[[yitang-domain-digest]]'
 tags:
+aliases:
+  - 99%的模型跑不出二三十个范式：先装武器库再创新
+  - 的模型跑不出二三十个范式
+  - 先装武器库再创新
+  - Truman
+  - 武器库再创新
+  - 型跑不出二三十个范式
+aliases:
+  - 99%的模型跑不出二三十个范式：先装武器库再创新
+  - 的模型跑不出二三十个范式
+  - 先装武器库再创新
+  - Truman
 - audience:executor
 - scene:reference
 - skill-level:intermediate

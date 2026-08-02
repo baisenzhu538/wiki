@@ -34,6 +34,10 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+discoverable_by:
+  - "高水平执行AR"
+  - "获取情报正确归因"
+  - "高水平执行方法"
 - '[[framework-yitang-oscar-research]]'
 - '[[tool-yitang-research-industry-scan]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'
@@ -49,6 +53,20 @@ related:
 - '[[tool-yitang-research-quantitative-modeling]]'
 - '[[framework-yitang-expert-interview-10steps]]'
 tags:
+aliases:
+  - 高水平执行AR：获取情报正确归因
+  - 高水平执行
+  - 获取情报
+  - 正确归因
+  - 平执行
+  - 执行方法
+aliases:
+  - 高水平执行AR：获取情报正确归因
+  - 高水平执行
+  - 获取情报
+  - 正确归因
+  - 水平执行方法
+  - 取情报正确归因
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

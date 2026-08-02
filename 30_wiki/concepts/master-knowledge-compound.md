@@ -6,6 +6,11 @@ title: 知识复利：IPO+萃取+原子化复用
 type: concept
 status: reviewed
 source_context: 一堂知识萃取探索营——知识复利与IPO萃取框架
+aliases:
+  - IPO+萃取+原子化复用
+  - 原子化复用
+  - 知识复利
+  - 知识复利：IPO+萃取+原子化复用
 source_refs:
 - pending_archive:src_20260614_239c9f4e-一堂-知识萃取探索营.md
 - pending_archive:src_20260522_0af1f6dd-learning-thinking.md
@@ -28,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 知识萃取探索营
 - 萃取总结
 ---

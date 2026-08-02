@@ -44,6 +44,10 @@ related:
 - '[[tool-yitang-public-sentiment-research]]'
 - '[[tool-yitang-research-best-practice]]'
 tags:
+aliases:
+  - 竞对跟踪：持续监控竞争对手的动态与策略
+  - 竞对跟踪
+  - 持续监控竞争对手的动态与策略
 - audience:executor
 - scene:execution
 - skill-level:intermediate

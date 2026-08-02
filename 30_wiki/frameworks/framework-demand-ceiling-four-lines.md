@@ -18,6 +18,11 @@ source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-空间测算-口述.txt L322-L344,L1308-L1870,L2252-L2278,L2348
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt L1720-L1796,L1962-L1976
 related:
+discoverable_by:
+  - "需求天花板"
+  - "TAM SAM SOM"
+  - "需求天花板四层线"
+  - "市场规模估算方法"
 - '[[tool-demand-assessment-triangle]]'
 - '[[tool-demand-iceberg-l6-hypothesis]]'
 - '[[tool-demand-ceiling-coach]]'
@@ -36,6 +41,19 @@ quality_labels:
 - principle
 - actionable
 tags:
+aliases:
+  - 需求天花板四层线：TAM/SAM/SOM/CR1/BEL
+  - 需求天花板四层线
+  - 场规模估算方法
+  - 求天花板四层线
+  - 求天花板
+  - 花板四层线
+aliases:
+  - 需求天花板四层线：TAM/SAM/SOM/CR1/BEL
+  - 需求天花板四层线
+  - 求天花板四层线
+  - 求天花板
+  - 场规模估算方法
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

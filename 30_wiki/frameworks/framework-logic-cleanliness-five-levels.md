@@ -18,6 +18,8 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.89
 related:
+discoverable_by:
+  - "逻辑整洁度五级"
 - '[[modeling-capability-system]]'
 - '[[concept-mckinsey-mece]]'
 tags:
@@ -29,6 +31,19 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 diagnostic_signals:
+aliases:
+  - 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
+  - 逻辑洁癖五段位
+  - 从散点堆到逻辑链的建模审美标准
+  - Truman
+  - 洁癖五段位
+  - 洁度五级
+aliases:
+  - 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
+  - 逻辑洁癖五段位
+  - 从散点堆到逻辑链的建模审美标准
+  - Truman
+  - 辑整洁度五级
 - framework_lens: 逻辑洁癖五段位
   follow_up_question: 这些点是 L1 散点堆，还是已经拆成 L2 清单？是否还能分出优先级？
 - framework_lens: 逻辑洁癖五段位

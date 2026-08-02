@@ -9,6 +9,13 @@ confidence: 0.9
 trust_level: high
 domain:
 - ai-collaboration
+aliases:
+  - 事后框架的诚实标注问题
+  - 复盘结构
+  - 复盘结构事后框架的诚实标注问题
+  - 框架的诚实标注问题
+  - 真实过程≠复盘结构
+  - 真实过程≠复盘结构事后框架的诚实标注问题
 source_refs:
 - 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt
 related:
@@ -46,7 +53,6 @@ query_triggers:
 - 事后框架
 - 方法论诚实
 - 付则宇
-aliases:
 - AI口播工具开发经验
 - 付则宇
 ---

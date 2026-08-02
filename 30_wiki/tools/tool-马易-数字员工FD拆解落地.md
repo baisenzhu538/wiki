@@ -33,6 +33,10 @@ related:
 - '[[tool-马易-知识库-回答技巧双建设]]'
 - tool-纪浩-项目启动五问法
 tags:
+aliases:
+  - 技能：数字员工FD拆解落地
+  - 技能
+  - 数字员工FD拆解落地
 - audience:executor
 - scene:execution
 - skill-level:intermediate

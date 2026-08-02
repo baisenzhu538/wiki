@@ -30,6 +30,12 @@ related:
 - '[[tool-月白-表情包风格筛选与确定]]'
 - '[[tool-月白-电商白底图生成与高清重绘]]'
 tags:
+aliases:
+  - 技能：新媒体平台流量逻辑问平台亲儿子AI法
+  - 技能
+  - 新媒体平台流量逻辑
+  - 问平台亲儿子AI法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

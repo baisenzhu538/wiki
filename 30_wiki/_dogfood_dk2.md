@@ -2,6 +2,7 @@
 status: enriched
 
 id: dogfood-dk-missing
+title: " dogfood dk2"
 type: dk
 domain: [test]
 source_refs:

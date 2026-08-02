@@ -7,6 +7,13 @@ domain:
 - yitang
 - e-commerce
 - business-strategy
+aliases:
+  - ToC消费品电商：业务公式拆解误判导致放量亏损
+  - 业务公式拆解误判导致放量亏损
+  - 公式拆解误判导致放量亏损
+  - 品电商
+  - 孔阳
+  - 消费品电商
 source_refs:
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
   L532-L650

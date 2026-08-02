@@ -1,5 +1,6 @@
 ---
 id: tool-一堂-five-step-validation
+title: "技能：聊问查测盘五步验证法"
 related:
 - '[[concept-一堂-product-kernel]]'
 - '[[tool-一堂-kernel-three-questions]]'
@@ -13,11 +14,14 @@ status: enriched
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 tags:
+aliases:
+  - 技能：聊问查测盘五步验证法
+  - 技能
+  - 聊问查测盘五步验证法
 - audience:general
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 技能：聊问查测盘五步验证法
 
 ## Summary

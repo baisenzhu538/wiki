@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-口喷式设计工作流]]'
 - '[[tool-月白-基于基础形象做动作延展（1到10）]]'
 tags:
+aliases:
+  - 技能：找AI要平台专属方法模型对抗法
+  - 技能
+  - 找AI要平台专属方法模型对抗法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

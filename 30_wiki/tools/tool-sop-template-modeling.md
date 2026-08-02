@@ -2,6 +2,12 @@
 id: tool-sop-template-modeling
 title: SOP/模板建模法：把关键动作固化成标准工作流
 type: tool
+aliases:
+  - SOP/模板建模法
+  - SOP/模板建模法：把关键动作固化成标准工作流
+  - 把关键动作固化成标准工作流
+  - 模板建模法
+  - 键动作固化成标准工作流
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
@@ -43,7 +49,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 建模能力培训
 - 流程建模
 - 高阶建模

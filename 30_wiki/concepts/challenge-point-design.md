@@ -7,13 +7,15 @@ domain:
 - personal-growth
 - yitang
 status: reviewed
+aliases:
+  - 挑战点设计
+  - 点设计
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 related:
 - '[[deliberate-practice-four-elements]]'
 - '[[comfort-zone-expansion]]'
 - '[[completion-criteria-design]]'
-aliases:
 - 挑战点
 - 拉伸区设计
 - 元能力-刻意练习

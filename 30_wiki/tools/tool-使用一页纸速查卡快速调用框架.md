@@ -1,5 +1,6 @@
 ---
 id: tool-使用一页纸速查卡快速调用框架
+title: "tool 使用一页纸速查卡快速调用框架"
 related:
 - '[[yt-five-step-method]]'
 - '[[master-cognitive-bias-checklist]]'
@@ -9,11 +10,13 @@ related:
 source_refs:
 - pending_archive: src_unknown
 tags:
+aliases:
+  - tool使用一页纸速查卡快速调用框架
+  - 使用一页纸速查卡快速调用框架
 - audience:general
 - scene:reference
 - skill-level:intermediate
 ---
-
 > 将复杂的决策/分析框架浓缩为一张 A4 速查图，分析时置于案头快速查阅——把"需要记忆"的认知负担转移为"需要看到"的外部辅助。
 
 ## Claims

@@ -23,6 +23,11 @@ related:
 - '[[tool-马易-减少输入噪音法]]'
 - tool-ai-parallel-validation
 tags:
+aliases:
+  - 技能：AI项目上线先平行再独行
+  - 技能
+  - AI项目上线
+  - 先平行再独行
 - audience:executor
 - scene:execution
 - skill-level:intermediate

@@ -34,6 +34,10 @@ source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-反案例-渠道建模踩坑_vlm_desc.md
 source_person: Truman
 related:
+discoverable_by:
+  - "渠道探索四步法"
+  - "科学获客渠道"
+  - "渠道探索方法"
 - '[[framework-yitang-channel-partnership-map]]'
 - tool-区分获客渠道计算单元roi
 - framework-yitang-channel-industrialization
@@ -58,6 +62,20 @@ related:
 - framework-yitang-jiefang-sixiang
 review_date: '2026-06-28'
 tags:
+aliases:
+  - 渠道探索四步法：科学找到可持续获客渠道
+  - 渠道探索四步法
+  - 科学找到可持续获客渠道
+  - Truman
+  - 道探索方法
+  - 学获客渠道
+aliases:
+  - 渠道探索四步法：科学找到可持续获客渠道
+  - 渠道探索四步法
+  - 科学找到可持续获客渠道
+  - Truman
+  - 学获客渠道
+  - 道探索方法
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

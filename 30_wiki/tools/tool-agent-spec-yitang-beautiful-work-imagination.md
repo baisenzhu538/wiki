@@ -15,6 +15,12 @@ domain:
 - yitang
 source_person: Truman / 一堂课程体系
 source_context: 一堂全产品方法论课程（2026-07-08），漂亮工作与品质追求专题深挖补产
+aliases:
+  - Truman / 一堂课程体系
+  - 一堂课程体系
+  - 工作想象
+  - 漂亮工作想象
+  - 漂亮工作想象AgentSpec
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-beautiful-work-imagination.md
 related:
@@ -34,7 +40,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - prompts
 ---
 # 漂亮工作想象 Agent Spec

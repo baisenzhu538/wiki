@@ -3,6 +3,13 @@ id: yt-research-action-camp-launch
 title: 一堂调研行动营 · 启动课（LLM 精炼）
 type: concept
 status: reviewed
+aliases:
+  - 一堂调研行动营
+  - 一堂调研行动营启动课LLM精炼
+  - 启动课LLM
+  - 精炼
+  - 调研行动营
+  - 调研行动营启动课
 source_refs:
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 - 00_inbox/调研专题/一堂-调研行动营-口述.txt

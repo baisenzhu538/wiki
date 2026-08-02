@@ -7,6 +7,9 @@ domain:
 - src_unknown
 - src_unknown
 status: reviewed
+aliases:
+  - 工作空间搭建
+  - 结构化AI工作空间搭建
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 component_of:
@@ -45,7 +48,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 时代要不要练笔记
 - 需要练那个
 ---

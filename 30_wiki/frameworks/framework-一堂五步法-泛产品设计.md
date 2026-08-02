@@ -29,6 +29,21 @@ source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
 source_person: 一堂 / 兰毅
 related:
+aliases:
+  - 一堂五步法在泛产品设计中的应用
+  - 一堂 / 兰毅
+  - 泛产品设计
+  - 步法泛产品设计
+  - 五步法在泛产品设计中的应用
+  - 步法产品应用
+aliases:
+  - 一堂五步法在泛产品设计中的应用
+  - 一堂 / 兰毅
+  - 步法泛产品设计
+  - 步法产品应用
+discoverable_by:
+  - "五步法泛产品设计"
+  - "五步法产品应用"
 - '[[framework-candy-transcript-workflow]]'
 - '[[framework-一堂五步法-增长周期]]'
 - '[[agent-spec-yitang-Y-model-cross-domain-coach]]'

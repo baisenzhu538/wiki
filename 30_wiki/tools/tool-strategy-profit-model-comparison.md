@@ -6,6 +6,13 @@ status: reviewed
 confidence: 0.9
 trust_level: high
 domain: strategy
+aliases:
+  - 弱类直营
+  - 强类直营
+  - 模式对比框架
+  - 盈利模式对比框架
+  - 盈利模式对比框架直营/强类直营/弱类直营/代理加盟四象限决策
+  - 直营/强类直营/弱类直营/代理加盟四象限决策
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
 - 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
@@ -24,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

@@ -25,6 +25,9 @@ diagnostic_signals:
 - signal: 人工抽检太慢
   lens: AI全量筛查
   follow_up: AI全量筛查
+aliases:
+  - AI客服质检反欺诈体系
+  - 客服质检反欺诈体系
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt
 - 00_inbox/解放思想探索营/案例分享-笔记.txt
@@ -34,7 +37,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

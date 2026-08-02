@@ -8,6 +8,13 @@ domain:
 - business-formula
 source_person: Truman（一堂，课程口述）
 source_context: 一堂「关键假设·业务公式」实操篇与参数探索篇课程案例：老带新裂变产品「我请客」的推荐率从 3%→5%→15%→40% 的攻坚全过程，后半段（15%→40%）是业务公式三层展开+假设池驱动的系统化工程
+aliases:
+  - 一堂我请客推荐率攻坚
+  - 一堂我请客推荐率攻坚：三层公式展开把15%干到40%，一年半70100个假设
+  - 一年半
+  - 三层公式展开把
+  - 个假设
+  - 干到
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L318-L568
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2444-L2512
@@ -45,7 +52,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - handle
 ---
 # 一堂「我请客」推荐率攻坚：三层公式展开把 15% 干到 40%，一年半 70-100 个假设

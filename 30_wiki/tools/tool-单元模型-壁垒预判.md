@@ -9,6 +9,10 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain: yitang
+aliases:
+  - 单元模型
+  - 单元模型：壁垒预判
+  - 壁垒预判
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-壁垒预判_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-壁垒预判_vlm_desc.md
@@ -25,7 +29,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 单元模型
 - 壁垒预判
 ---

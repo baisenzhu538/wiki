@@ -5,6 +5,12 @@ type: dk
 status: draft
 domain:
 - ai-saas
+aliases:
+  - AI落地三大壁垒
+  - AI落地三大壁垒：从会用到用好的黑洞
+  - 从会用到用好的黑洞
+  - 用到用好的黑洞
+  - 落地三大壁垒
 source_refs: null
 created_at: '2026-06-09'
 author: unknown

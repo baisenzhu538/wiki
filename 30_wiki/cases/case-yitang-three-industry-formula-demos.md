@@ -7,6 +7,13 @@ domain:
 - yitang
 - business-formula
 source_context: 一堂业务公式课程材料（批注 2026-07-12 001958）中的三个同学拆解样板，进阶篇口述将其作为"拆解三大追求（尽量 MECE/定量/分层）"的示范引用。三个案例均为静态公式拆解示范，素材未附验证结果与数字
+aliases:
+  - 三行业公式拆解示范
+  - 入目标逐层拆到可执行的因子
+  - 把收入目标逐层拆到可执行的因子
+  - 摄像头
+  - 民营眼科医院
+  - 篮球培训
 source_refs:
 - 00_inbox/Handle the business/Business formula/批注 2026-07-12 001958.png
 - 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001958_vlm.md
@@ -36,7 +43,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - handle
 ---
 # 三行业公式拆解示范：民营眼科医院、篮球培训、ToB 摄像头

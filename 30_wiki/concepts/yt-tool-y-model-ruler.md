@@ -30,6 +30,12 @@ related:
 review_by: 2026-12-06
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - Y模型尺子刻度法
+  - Y模型尺子刻度法：从模糊经验到可复用评估模型
+  - 从模糊经验到可复用评估模型
+  - 型尺子刻度法
+  - 糊经验到可复用评估模型
 source_refs:
 - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 status: enriched

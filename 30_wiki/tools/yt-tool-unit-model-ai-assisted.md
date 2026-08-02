@@ -5,6 +5,9 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+aliases:
+  - 单元模型
+  - 单元模型工具
 related: null
 id: yt-tool-unit-model-ai-assisted
 author: unknown

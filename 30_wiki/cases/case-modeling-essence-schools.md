@@ -7,6 +7,13 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - Truman
+  - 付费派
+  - 本质建模案例
+  - 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
+  - 知识付费派
+  - 经验萃取派与学科建模派的三派分野
 source_refs:
 - 10_raw/sources/src_20260614_55135154-Truman-高阶建模-本质建模-案例-02.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
@@ -44,7 +51,6 @@ diagnostic_signals:
   follow_up: 评估自己是否具备跨领域案例库和反例验证能力
 - lens: 学科建模标准侵入经验萃取场景
   follow_up: 把抽象层级降到组织内可执行，补充上下文和触发条件
-aliases:
 - 建模能力培训
 - 本质建模
 - 高阶建模

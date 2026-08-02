@@ -1,4 +1,4 @@
-﻿---
+---
 id: yt-model-pan-product-demand-toolkit
 component_of:
 - "[[yt-composite-pan-product-methodology]]"
@@ -29,6 +29,13 @@ related:
 review_by: 2026-11-11
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 品设计
+  - 工具箱
+  - 张卡牌
+  - 泛产品设计
+  - 泛产品设计需求工具箱13张卡牌
+  - 需求工具箱13张卡牌
 source_refs:
 - 10_raw/sources/src_20260522_726a6a3b-ocr-泛产品设计-需求工具箱指南.md
 - 00_inbox/一堂-个人修身-泛产品设计实操口述版.md L1796,L1808-L1870,L1936-L2096,L2370-L2417,L4350-L4450,L5070-L5170,L5420-L5460

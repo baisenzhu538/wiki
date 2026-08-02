@@ -2,6 +2,13 @@
 id: case-essence-entrepreneurship
 title: 案例：创业本质 = 小概率游戏
 type: case
+aliases:
+  - Truman 的早期领导
+  - 创业本质
+  - 小概率游戏
+  - 案例
+  - 案例：创业本质=小概率游戏
+  - 率游戏
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
@@ -41,7 +48,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 建模能力培训
 ---
 

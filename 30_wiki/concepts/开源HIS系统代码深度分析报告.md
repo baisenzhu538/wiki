@@ -2,6 +2,9 @@
 id: 开源HIS系统代码深度分析报告
 created_at: 2026-05-03
 domain: healthcare
+aliases:
+  - 开源HIS系统代码深度分析报告
+  - 系统代码深度分析报告
 source_refs:
 - 10_raw/sources/src_20260503_f4891888-开源HIS系统代码深度分析报告.md
 status: reviewed
@@ -31,7 +34,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 系统代码深度分析报告
 ---
 

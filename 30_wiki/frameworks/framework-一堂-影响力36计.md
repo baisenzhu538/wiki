@@ -33,6 +33,10 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5264-L5428
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5430-L5722
 related:
+discoverable_by:
+  - "影响力36计"
+  - "6原则6强度"
+  - "影响力段位"
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-动力三曲线]]'
 - '[[framework-一堂-转化基本功七个自我修养]]'
@@ -53,6 +57,20 @@ quality_labels:
 - cited
 - actionable
 tags:
+aliases:
+  - 一堂影响力36计：6原则×6强度A1F6全名+两大对齐原则+强弱规律+段位元规则
+  - 一堂影响力
+  - 原则
+  - 强度A1
+  - 全名+
+  - 两大对齐原则
+aliases:
+  - 一堂影响力36计：6原则×6强度A1F6全名+两大对齐原则+强弱规律+段位元规则
+  - 一堂影响力
+  - 原则
+  - 强度A1
+  - 全名+
+  - 两大对齐原则
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

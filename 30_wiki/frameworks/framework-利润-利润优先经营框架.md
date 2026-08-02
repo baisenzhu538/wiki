@@ -24,6 +24,9 @@ source_refs:
 - 00_inbox/利润为王/笔记2.txt
 - 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md
 related:
+discoverable_by:
+  - "利润优先经营框架"
+  - "利润是生存成本"
 - concept-利润-真正利润定义
 - concept-定价-价格杠杆
 - concept-利润-风险报偿本质
@@ -33,6 +36,19 @@ related:
 - yt-decision-y-model
 - dk-利润-利润敏感度非对称性
 tags:
+aliases:
+  - 利润优先经营框架：从利润是剩余到利润是生存成本
+  - 利润优先经营框架
+  - 从利润是剩余到利润是生存成本
+  - 润是剩余到利润是生存成本
+  - 先经营框架
+  - 优先经营框架
+aliases:
+  - 利润优先经营框架：从利润是剩余到利润是生存成本
+  - 利润优先经营框架
+  - 从利润是剩余到利润是生存成本
+  - 润优先经营框架
+  - 润是生存成本
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

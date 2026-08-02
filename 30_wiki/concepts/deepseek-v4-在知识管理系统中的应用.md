@@ -2,6 +2,10 @@
 id: deepseek-v4-在知识管理系统中的应用
 created_at: 2026-05-05
 domain: healthcare
+aliases:
+  - DeepSeekV4在知识管理系统中的应用
+  - 在知识管理系统中的应用
+  - 识管理系统中的应用
 source_refs:
 - 10_raw/sources/src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用.md
 status: reviewed
@@ -24,7 +28,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 在知识管理系统中的应用
 ---
 # DeepSeek V4 在知识管理系统中的应用

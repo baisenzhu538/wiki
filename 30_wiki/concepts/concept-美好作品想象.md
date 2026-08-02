@@ -11,6 +11,12 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 作品想象
+  - 先看到终局再倒推路径
+  - 到终局再倒推路径
+  - 美好作品想象
+  - 美好作品想象：先看到终局再倒推路径
 source_refs:
 - src_unknown
 related:

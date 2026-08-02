@@ -30,6 +30,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+discoverable_by:
+- 决策优先
+- 调研设计
+- 研究动作
+- 决策映射
+- 调研效率
 ---
 
 # 决策优先映射：让研究动作直接服务决策

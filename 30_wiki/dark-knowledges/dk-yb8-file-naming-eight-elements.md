@@ -8,6 +8,13 @@ domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
+aliases:
+  - AI增效前置
+  - AI增效前置：文件命名八要素体系
+  - 命名八要素体系
+  - 增效前置
+  - 文件命名八要素体系
+  - 月白
 source_refs:
 - src_unknown
 created_at: 2026-06-04

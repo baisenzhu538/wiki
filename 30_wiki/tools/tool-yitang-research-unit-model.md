@@ -46,6 +46,10 @@ related:
 - '[[tool-yitang-research-quantitative-modeling]]'
 - '[[tool-yitang-weapon-public-official-info]]'
 tags:
+aliases:
+  - 单元模型：找到业务最小单元的经济密码
+  - 单元模型
+  - 找到业务最小单元的经济密码
 - audience:executor
 - scene:execution
 - skill-level:intermediate

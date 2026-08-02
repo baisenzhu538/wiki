@@ -22,6 +22,11 @@ trust_level: high
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
+discoverable_by:
+  - "决策质量检查"
+  - "决策六问"
+  - "决策质量清单"
+  - "怎么检查决策质量"
 - '[[yt-decision-abcd-model]]'
 - '[[framework-科学决策三角形]]'
 - '[[tool-ROI决策评估画布]]'
@@ -35,6 +40,19 @@ related:
 - '[[concept-AI时代双三角竞争力]]'
 - case-decision-science-universal-salary-raise-roi
 tags:
+aliases:
+  - 决策质量六问检查表
+  - 量检查
+  - 策六问
+  - 么检查决策质量
+  - 策质量清单
+  - 质量六问检查表
+aliases:
+  - 决策质量六问检查表
+  - 策六问
+  - 策质量清单
+  - 策质量检查
+  - 么检查决策质量
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

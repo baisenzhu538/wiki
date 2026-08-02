@@ -24,6 +24,10 @@ query_triggers:
 - 社会工程学调研道德边界 三条红线 不违法 不伤害 不欺弱
 - 社会工程学调研失败模式 身份准备不足 身份选择不当 一次身份用到底
 - 如何在不违法的情况下获取竞品核心情报
+aliases:
+  - 社会工程学调研
+  - 社会工程学调研：身份设计与信息获取的合法边界
+  - 身份设计与信息获取的合法边界
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
@@ -43,7 +47,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 系统式调研
 - 调研专题
 ---

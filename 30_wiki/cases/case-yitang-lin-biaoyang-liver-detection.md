@@ -13,6 +13,13 @@ created_at: 2026-07-04
 updated_at: '2026-07-04'
 domain:
 - yitang
+aliases:
+  - 学科层推翻商业层二三十年惯例
+  - 层推翻商业层二三十年惯例
+  - 林标阳肝病检测
+  - 案例
+  - 案例：林标阳肝病检测L5学科层推翻商业层二三十年惯例
+  - 阳肝病检测
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
@@ -24,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - extractions
 ---
 

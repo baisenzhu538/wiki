@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-AI去字-稿定设计加字工作流]]'
 - '[[tool-月白-三步作业反馈法]]'
 tags:
+aliases:
+  - 技能：审美刻意练习法
+  - 技能
+  - 审美刻意练习法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

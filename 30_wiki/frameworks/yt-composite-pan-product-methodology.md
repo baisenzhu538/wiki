@@ -20,6 +20,10 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - 一堂 / 兰毅
+  - 品设计方法论升级版
+  - 泛产品设计方法论升级版
 source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt
@@ -43,9 +47,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 泛产品设计
 - 泛产品设计实操
+discoverable_by:
+- 泛产品方法论
+- 产品组合设计
+- 泛产品体系
+- 产品内核边界
+- 方法组合
 ---
 
 

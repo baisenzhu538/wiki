@@ -14,6 +14,12 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - L2粗拆场景问题
+  - L2粗拆场景问题：捕捉表层的痛点和需求
+  - 捕捉表层的痛点和需求
+  - 粗拆场景问题
+  - 表层的痛点和需求
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 related:
@@ -35,7 +41,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 场景推演教练提示词
 ---

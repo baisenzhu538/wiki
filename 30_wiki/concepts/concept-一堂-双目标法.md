@@ -14,6 +14,13 @@ domain:
 - yitang
 - business-formula
 source_context: 一堂业务公式课程（孔阳），管理篇「一堂马拉松·双目标」口述逐字稿
+aliases:
+  - 一条目标带两种士气
+  - 优秀线冲刺
+  - 双目标法
+  - 双目标法：合格线保底+优秀线冲刺，一条目标带两种士气
+  - 合格线保底
+  - 目标带两种士气
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2090-L2152
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1538-L1566
@@ -44,7 +51,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - handle
 ---
 

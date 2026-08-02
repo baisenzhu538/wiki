@@ -18,6 +18,12 @@ bridges_to:
 - relation: complements
   description: 关键假设验证过程天然形成金字塔结构
   context: 假设驱动工作的输出——核心假设→子假设→验证结果→结论——本身就是一座金字塔
+discoverable_by:
+  - "金字塔原理"
+  - "Minto金字塔"
+  - "结论先行沟通"
+  - "结构化表达框架"
+  - "麦肯锡金字塔"
 diagnostic_signals:
 - framework_lens: 金字塔原理检查：你的分析结构是否有清晰的纵向关系——最高层结论是什么？下面几层分别支持什么？
   follow_up_question: 如果可以只用一句话向老板说明你最重要的结论，那句话是什么？
@@ -35,6 +41,20 @@ related:
 - '[[concept-mckinsey-hypothesis-driven]]'
 - '[[concept-mckinsey-7s]]'
 tags:
+aliases:
+  - 金字塔原理：结论先行的结构化沟通框架
+  - 金字塔原理
+  - 结论先行的结构化沟通框架
+  - 金字塔
+  - 表达框架
+  - 字塔原理
+aliases:
+  - 金字塔原理：结论先行的结构化沟通框架
+  - 金字塔原理
+  - 结论先行的结构化沟通框架
+  - 构化表达框架
+  - 肯锡金字塔
+  - 字塔原理
 - src_unknown
 - src_unknown
 - src_unknown

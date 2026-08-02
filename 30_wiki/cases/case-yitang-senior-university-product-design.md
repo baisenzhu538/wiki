@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 案例
+  - 案例：老年大学用假设链逐层验证赛道可行性
+  - 用假设链逐层验证赛道可行性
+  - 老年大学
+  - 设链逐层验证赛道可行性
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 related:
@@ -26,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 调研专题
 - 高阶调研行动营
 ---

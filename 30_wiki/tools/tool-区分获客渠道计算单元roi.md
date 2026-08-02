@@ -10,6 +10,11 @@ domain:
 status: draft
 source_person: 一堂课程（未具名讲师）
 source_context: src_20260609_99032bf9
+aliases:
+  - 一堂课程（未具名讲师）
+  - 区分获客渠道计算单元ROI
+  - 技能
+  - 技能：区分获客渠道计算单元ROI
 source_refs:
 - 10_raw/sources/src_20260609_99032bf9-ocr-一堂-单元模型-示例.md
 definition_of_done:
@@ -60,7 +65,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 单元模型
 ---
 

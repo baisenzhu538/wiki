@@ -40,6 +40,11 @@ related:
 - '[[tool-月白-多语言提示词精准法]]'
 - '[[tool-月白-精准提示词消除模型幻觉]]'
 tags:
+aliases:
+  - 技能：AI生图与图生图决策法
+  - 技能
+  - AI生图与图生图决策法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

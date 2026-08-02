@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 用户要的
+  - 用户说的
+  - 用户说的≠用户要的
+  - 隐性需求伪装
+  - 隐性需求伪装：用户说的≠用户要的
+  - 需求伪装
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
 related:
@@ -27,7 +34,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 方法论
 ---

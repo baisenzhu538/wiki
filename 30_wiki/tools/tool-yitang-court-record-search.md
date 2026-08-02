@@ -14,6 +14,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 从法律纠纷中挖掘商业情报
+  - 律纠纷中挖掘商业情报
+  - 文书检索
+  - 裁判文书检索
+  - 裁判文书检索：从法律纠纷中挖掘商业情报
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -28,7 +34,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

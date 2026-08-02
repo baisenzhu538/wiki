@@ -14,6 +14,13 @@ created_at: '2026-07-19'
 updated_at: '2026-07-19'
 quality_labels:
 - actionable
+aliases:
+  - KDOAgent生产SOP清单：从业务任务到可运行Agent的五步法
+  - 从业务任务到可运行
+  - 务任务到可运行
+  - 清单
+  - 生产
+  - 的五步法
 source_refs:
 - 00_inbox/半肥猫/【半肥猫】我的商业突破实践指南：如何封装一个可复用的业务 Skill_MCP 副本.md
 - 00_inbox/半肥猫/【半肥猫】用 AI 把脑子里的经验，推进成一个最小可验证的数字交付 副本.md
@@ -27,7 +34,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 半肥猫
 - 如何封装一个可复用的业务
 ---

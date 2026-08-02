@@ -14,6 +14,13 @@ trust_level: medium
 language: zh-CN
 created_at: '2026-06-29'
 updated_at: '2026-06-29'
+aliases:
+  - 出售Musical.ly
+  - 型布局
+  - 撤退型布局
+  - 撤退型布局1
+  - 案例
+  - 案例：撤退型布局1出售Musical.ly
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_253_vlm_desc.md
 related:
@@ -23,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

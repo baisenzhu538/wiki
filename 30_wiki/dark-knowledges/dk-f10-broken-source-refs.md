@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-010
+aliases:
+  - FKDO010：溯源断裂→source_refs为空，知识卡片无法追溯到原始材料
+  - system
+  - 为空
+  - 卡片无法追溯到原始材料
+  - 溯源断裂→source_refs
+  - 知识卡片无法追溯到原始材料
 source_refs:
 - src_unknown
 created_at: 2026-05-31

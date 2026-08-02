@@ -13,6 +13,10 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 一堂业务公式十大经典范式收入/竞争/运营三环完整版
+  - 业务公式十大经典范式收入
+  - 运营三环完整版
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2208-L2950
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L320-L568
@@ -64,7 +68,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - handle
 ---
 

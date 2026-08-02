@@ -9,6 +9,13 @@ domain:
 - yitang
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
+aliases:
+  - 心态的五个保护期
+  - 新手心态的五个保护期
+  - 暗知识
+  - 暗知识：新手心态的五个保护期萌新时代才是AI协作的黄金窗口
+  - 纪浩
+  - 萌新时代才是AI协作的黄金窗口
 source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 created_at: 2026-06-09
@@ -40,7 +47,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 协作方法论
 ---
 

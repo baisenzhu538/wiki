@@ -15,6 +15,10 @@ domain:
 - multimodal
 - ai-agent
 - mcp
+aliases:
+  - OpenMontage中文MCP版：AI视频工厂
+  - 中文
+  - 视频工厂
 source_refs:
 - 00_inbox/AI-study/openmontage/【观察团专享】Noah（OPT版）：Github上最火的AI视频项目OpenMontage，我改了个中文MCP版
   副本.md
@@ -28,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - capabilities
 - openmontage
 ---

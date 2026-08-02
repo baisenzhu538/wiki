@@ -18,6 +18,9 @@ source_refs:
 - 00_inbox/一堂-个人修炼-表达力火箭模型_paddle_ocr.txt
 - 00_inbox/一堂-个人修炼-表达力火箭模型-执行武器库_paddle_ocr.txt
 related:
+discoverable_by:
+  - "表达力火箭模型"
+  - "四要素递进表达"
 - '[[framework-一堂-个人表达力]]'
 - '[[agent-一堂-个人表达力教练]]'
 - '[[tool-一堂-表达力火箭模型-执行武器库]]'
@@ -32,6 +35,19 @@ diagnostic_signals:
 quality_labels:
 - principle
 tags:
+aliases:
+  - 表达力火箭模型：四要素递进
+  - 表达力火箭模型
+  - 四要素递进
+  - 要素递进表达
+  - 递进表达
+  - 力火箭模型
+aliases:
+  - 表达力火箭模型：四要素递进
+  - 表达力火箭模型
+  - 四要素递进
+  - 要素递进表达
+  - 达力火箭模型
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

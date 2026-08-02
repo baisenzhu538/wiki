@@ -13,6 +13,13 @@ updated_at: 2026-07-06
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 严格技术域审美
+  - 严格技术域审美对就是对错就是错域不需要品位，需要验证机制
+  - 对就是对错就是错域不需要品位
+  - 技术域审美
+  - 需要验证机制
+  - 验证机制
 source_refs:
 - 对话记录：2026-07-05 老朱论电子工程/SaaS/机械结构域审美
 related:
@@ -23,7 +30,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 对话记录：2026-07-05 老朱论电子工程
 - 机械结构域审美
 ---

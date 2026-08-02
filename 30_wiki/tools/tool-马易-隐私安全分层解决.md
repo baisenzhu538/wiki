@@ -34,6 +34,10 @@ related:
 - tool-马易-AIGC项目ROI评估
 - tool-马易-AI答疑运营风格适配
 tags:
+aliases:
+  - 技能：隐私安全分层解决
+  - 技能
+  - 隐私安全分层解决
 - audience:executor
 - scene:execution
 - skill-level:intermediate

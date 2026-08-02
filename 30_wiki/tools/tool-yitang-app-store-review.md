@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 功能请求
+  - 功能请求+竞品对比的富矿
+  - 商店评论分析
+  - 应用商店评论分析
+  - 应用商店评论分析：功能请求+竞品对比的富矿
+  - 竞品对比的富矿
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -24,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

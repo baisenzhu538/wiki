@@ -9,6 +9,13 @@ status: reviewed
 confidence: 0.78
 trust_level: medium
 source_context: 一堂五步法需求分析口述——"最悲惨的结果是需求错了"
+aliases:
+  - 7个危险信号
+  - 个危险信号
+  - 伪需求识别
+  - 伪需求识别：7个危险信号
+  - 危险信号
+  - 求识别
 source_refs:
 - src_unknown
 created_at: '2026-06-19'

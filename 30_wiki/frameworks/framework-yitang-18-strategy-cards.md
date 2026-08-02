@@ -32,6 +32,10 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+discoverable_by:
+  - "降龙十八掌"
+  - "18张调研策略卡"
+  - "调研策略全景图"
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
 - '[[pending_unknown]]'
@@ -42,6 +46,20 @@ related:
 - '[[framework-yitang-research-quality-gate]]'
 - '[[framework-yitang-six-layer-cross-validation]]'
 tags:
+aliases:
+  - 降龙十八掌：18张调研策略卡全景图
+  - 降龙十八掌
+  - 18张调研策略卡全景图
+  - 研策略卡
+  - 研策略全景图
+  - 十八掌
+aliases:
+  - 降龙十八掌：18张调研策略卡全景图
+  - 降龙十八掌
+  - 18张调研策略卡全景图
+  - 研策略全景图
+  - 龙十八掌
+  - 张调研策略卡
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

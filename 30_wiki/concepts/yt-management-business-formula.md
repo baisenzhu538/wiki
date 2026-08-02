@@ -1,6 +1,8 @@
 ---
 title: 业务公式
 type: concept
+aliases:
+  - 业务公式
 source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
@@ -47,7 +49,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 业务公式拆解培训
 ---
 

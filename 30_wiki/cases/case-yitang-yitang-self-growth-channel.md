@@ -17,6 +17,12 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - Truman
+  - 一堂自身如何三年增长十倍
+  - 案例
+  - 案例：一堂自身如何三年增长十倍
+  - 自身如何三年增长十倍
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-一堂-渠道探索分析图.png
@@ -35,7 +41,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 渠道探索分析图
 ---

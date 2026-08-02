@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-005
+aliases:
+  - FKDO005：过期feedback引用残留→kdolint报错但文件已不存在
+  - system
+  - 但文件已不存在
+  - 引用残留→kdo
+  - 报错但文件已不存在
+  - 过期
 source_refs:
 - src_unknown
 created_at: 2026-05-31

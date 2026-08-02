@@ -1,4 +1,4 @@
-﻿---
+---
 id: dk-ai-builder-illusion
 title: Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到 1
 type: dk
@@ -15,6 +15,11 @@ domain:
 - ai-collaboration
 - product-design
 - entrepreneurship
+aliases:
+  - Builder幻觉：用AI做出东西≠完成从0到1
+  - 做出东西
+  - 完成从
+  - 幻觉
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
@@ -32,7 +37,6 @@ related:
 - "[[concept-jevons-paradox-in-ai]]"
 - "[[agent-spec-codex-teammate]]"
 - "[[concept-AI时代双三角竞争力]]"
-aliases:
 - builder 幻觉
 - AI  builder 幻觉
 - 做出来不是从 0 到 1

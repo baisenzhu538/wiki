@@ -36,6 +36,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+discoverable_by:
+- 洪七公
+- 多模态渲染
+- 视觉资产
+- ComfyUI
+- 视频生产
 ---
 
 # 洪七公 Multimodal Agent — KDO 多模态渲染与视觉资产生产引擎

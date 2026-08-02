@@ -13,6 +13,11 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 因果三件套
+  - 因果三件套：常识判断+逻辑推理+控制变量，验证一条关系配不配当抓手
+  - 常识判断+逻辑推理+控制变量
+  - 验证一条关系配不配当抓手
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2404-L2458
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2470-L2532
@@ -50,7 +55,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - handle
 ---
 

@@ -8,6 +8,11 @@ domain:
 - pharmaceutical-retail
 - o2o
 - financial-model
+aliases:
+  - 与毛利结构
+  - 医药
+  - 医药O2O成本与毛利结构
+  - 成本与毛利结构
 source_refs:
 - pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - pending_archive:src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive

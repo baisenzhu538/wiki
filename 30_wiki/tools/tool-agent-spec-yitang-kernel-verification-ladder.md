@@ -14,6 +14,10 @@ domain:
 - yitang
 - product-kernel
 - agent
+aliases:
+  - 产品内核验证阶梯
+  - 产品内核验证阶梯AgentSpec
+  - 内核验证阶梯
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-kernel-verification-ladder.md
 tcp_role: C
@@ -35,7 +39,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - prompts
 ---
 ## System Prompt 模板

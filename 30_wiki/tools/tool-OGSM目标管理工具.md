@@ -14,6 +14,9 @@ created_at: '2026-07-19'
 updated_at: '2026-07-19'
 quality_labels:
 - actionable
+aliases:
+  - 目标管理工具
+  - 管理工具
 source_refs:
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §4.1
 - 00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-口述.txt L646-L656
@@ -27,7 +30,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:advanced
-aliases:
 - handle
 ---
 

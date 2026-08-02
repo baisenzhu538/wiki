@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-眼高手低训练法]]'
 - '[[tool-月白-AIGC橱窗陈列设计流程]]'
 tags:
+aliases:
+  - 技能：视角替换专用提示法
+  - 技能
+  - 视角替换专用提示法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

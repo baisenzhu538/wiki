@@ -11,6 +11,12 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
+aliases:
+  - 复杂项目
+  - 复杂项目AI落地稳定性保障
+  - 技能
+  - 技能：复杂项目AI落地稳定性保障
+  - 落地稳定性保障
 source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
@@ -27,7 +33,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 自用的
 ---
 

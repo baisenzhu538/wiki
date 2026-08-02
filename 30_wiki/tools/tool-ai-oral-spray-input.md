@@ -11,6 +11,12 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
+aliases:
+  - 喷输入法生成高质量
+  - 技能
+  - 技能：用口喷输入法生成高质量AI提示词
+  - 提示词
+  - 用口喷输入法生成高质量
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'

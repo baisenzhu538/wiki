@@ -15,6 +15,11 @@ domain:
 - yitang
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-08），销售专题口述稿二次深挖补产
+aliases:
+  - 李蕊
+  - 激励方案设计辅助
+  - 销售激励方案设计辅助
+  - 销售激励方案设计辅助AgentSpec
 source_refs:
 - 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt L398-L402,L1126-L1128,L1648-L1654
 - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt L280-L282,L392-L394,L470-L500,L508-L520
@@ -42,7 +47,6 @@ tags:
 - audience:manager
 - scene:execution
 - skill-level:intermediate
-aliases:
 - product
 ---
 # 销售激励方案设计辅助 Agent Spec

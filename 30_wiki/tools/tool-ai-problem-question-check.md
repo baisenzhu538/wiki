@@ -8,6 +8,11 @@ domain:
 - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
+aliases:
+  - 区分法
+  - 技能
+  - 技能：ProblemvsQuestion区分法
+  - 纪浩
 source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
@@ -59,7 +64,6 @@ diagnostic_signals:
   follow_up: 记录question并关联到具体problem。完全拒绝question会治标不治本
 - lens: 分类即终点
   follow_up: 分类只是第一步，problem必须进入四要素验证或立即行动。分类不行动等于没分类
-aliases:
 - 时代要不要练笔记
 - 需要练那个
 ---

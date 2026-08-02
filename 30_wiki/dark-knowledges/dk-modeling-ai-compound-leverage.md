@@ -9,6 +9,13 @@ domain:
 - ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
+aliases:
+  - AI加杠杆最大的场景是建模，因为好模型会被反复调用
+  - Truman
+  - 加杠杆最大的场景是建模
+  - 因为好模型会被反复调用
+  - 好模型会被反复调用
+  - 杆最大的场景是建模
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 confidence: 0.89
@@ -37,7 +44,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 资产化不等于可用化——模型必须嵌入决策/评审/复盘环节
   follow_up_question: 为模型设计触发条件、使用责任人和调用入口；没有调用场景的模型不值得继续打磨。# AI 加杠杆最大的场景是建模，因为好模型会被反复调用
-aliases:
 - 建模能力培训
 ---
 

@@ -12,6 +12,10 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 业务建模
+  - 落地卡片
+  - 落地卡片：业务建模
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-业务建模_vlm_desc.md
 related:
@@ -28,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 业务建模
 - 泛产品设计
 ---

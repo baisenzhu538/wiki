@@ -23,6 +23,12 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
+discoverable_by:
+- 调研域
+- 调研方法论
+- 武器库
+- 交叉验证
+- 系统式调研
 ---
 
 # 域摘要：调研方法论

@@ -13,6 +13,13 @@ updated_at: 2026-07-04
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 半年蜕变
+  - 双三角案例
+  - 双三角案例：谭再超从AI小白到MCP大航海MVP，半年蜕变
+  - 大航海
+  - 小白到
+  - 谭再超
 source_refs:
 - 00_inbox/人机协作双三角/_processed/谭再超案例口述_page001_vlm.md
 - 00_inbox/人机协作双三角/谭再超案例口述.pdf
@@ -23,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 人机协作双三角
 - 谭再超案例口述
 ---

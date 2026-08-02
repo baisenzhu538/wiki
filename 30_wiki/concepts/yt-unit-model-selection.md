@@ -24,6 +24,13 @@ related:
 - '[[yt-unit-model-build]]'
 - '[[yt-decision-y-model]]'
 - '[[yt-unit-model-three-tools]]'
+aliases:
+  - 单元模型选择法
+  - 单元模型选择法：复制哪个算哪个，找到核心经济单元
+  - 哪个算哪个
+  - 复制哪个算哪个
+  - 找到核心经济单元
+  - 模型选择法
 source_refs:
 - pending_archive:source material not yet ingested
 status: reviewed

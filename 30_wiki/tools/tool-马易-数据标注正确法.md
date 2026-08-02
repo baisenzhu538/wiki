@@ -24,6 +24,10 @@ related:
 - tool-马易-AIGC项目ROI评估
 - tool-yitang-bp-analysis
 tags:
+aliases:
+  - 技能：数据标注正确法
+  - 技能
+  - 数据标注正确法
 - audience:executor
 - scene:execution
 - skill-level:intermediate

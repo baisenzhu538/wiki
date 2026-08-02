@@ -2,6 +2,12 @@
 id: business-formula-to-kdo-card-quality
 title: 业务公式 ABC → KDO 卡片质量：用公式思维诊断知识卡的健康度
 type: framework
+aliases:
+  - 业务公式
+  - 业务公式ABC→KDO卡片质量：用公式思维诊断知识卡的健康度
+  - 卡片质量
+  - 式思维诊断知识卡的健康度
+  - 用公式思维诊断知识卡的健康度
 source_refs:
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
@@ -28,6 +34,12 @@ related:
 - '[[modeling-to-kdo-toolchain]]'
 - '[[kdo-batch-produce-req014]]'
 - '[[kdo-15-dimension-label-spec]]'
+discoverable_by:
+- "业务公式卡片质量"
+- "用公式诊断知识卡"
+- "KDO卡片健康度"
+- "业务公式ABC"
+- "公式思维和知识卡"
 - '[[framework-kdo-self-attack]]'
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[yt-business-formula-abc-model]]'

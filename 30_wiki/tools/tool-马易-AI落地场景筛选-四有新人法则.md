@@ -12,6 +12,11 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
+aliases:
+  - AI落地场景筛选
+  - 四有新人法则
+  - 技能
+  - 技能：AI落地场景筛选四有新人法则
 source_refs:
 - 10_raw/sources/src_20260510_4bb17355-天花板.md
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
@@ -27,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 天花板
 ---
 # 技能：AI落地场景筛选-四有新人法则

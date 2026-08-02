@@ -20,6 +20,11 @@ related:
 - '[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
 - '[[tool-李诞-面对过去错误的平静心法]]'
 tags:
+aliases:
+  - 技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱
+  - 技能
+  - 短视频/脱口秀创作
+  - 从'风格''自然'的无效建议中解脱
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -8,6 +8,9 @@ domain:
 - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
+aliases:
+  - 真需求四要素验证法
+  - 纪浩
 source_refs:
 - 00_inbox/纪浩-AI协作方法论-口述.md
 tools_required:
@@ -46,7 +49,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 协作方法论
 ---
 

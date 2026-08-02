@@ -6,6 +6,12 @@ status: reviewed
 confidence: 0.88
 trust_level: high
 domain: strategy
+aliases:
+  - 业务单元的战略蓝图模板
+  - 公司/各BU/业务单元的战略蓝图模板
+  - 地图公司
+  - 战略地图
+  - 战略地图公司/各BU/业务单元的战略蓝图模板
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_142_vlm_desc.md
 created_at: '2026-06-22'
@@ -23,7 +29,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

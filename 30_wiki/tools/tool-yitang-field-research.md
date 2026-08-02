@@ -24,6 +24,13 @@ query_triggers:
 - 实地调研与公开数据交叉验证
 - 线下门店转化率统计方法
 - 瑞幸做空报告实地调研方法
+aliases:
+  - 头三板斧
+  - 实地调研/蹲店
+  - 实地调研/蹲店：蹲店谈话数人头三板斧
+  - 数人头三板斧
+  - 谈话
+  - 蹲店
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
@@ -42,7 +49,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 系统式调研
 - 调研专题
 ---

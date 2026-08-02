@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-012
+aliases:
+  - system
+  - 上下文过载死锁→Token
+  - 卡死
+  - 文过载死锁
+  - 无产出
+  - 零跳动
 source_refs:
 - src_unknown
 created_at: 2026-05-31

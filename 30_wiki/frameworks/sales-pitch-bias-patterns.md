@@ -7,6 +7,9 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 话术偏误识别模式库
+  - 销售话术偏误识别模式库
 source_refs:
 - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 tags:
@@ -34,6 +37,12 @@ diagnostic_signals:
   follow_up_question: 哪种偏误对当前采购决策影响最大？
 review_grade: A
 review_note: 🟢放行。方法论资产，可复用于任何供应商评估。
+discoverable_by:
+- 销售话术识别
+- 话术偏误
+- 销售陈述验证
+- 供应商评估
+- 认知偏误销售
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
 ---

@@ -21,6 +21,16 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 - https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/
 related:
+aliases:
+  - RedTeamAnalysis红队分析/竞对视角模拟
+  - Analysis红队分析/竞对视角模拟
+  - Richards J. Heuer Jr. + Truman（一堂）
+  - 竞对视角模拟
+  - 红队分析
+aliases:
+  - RedTeamAnalysis红队分析/竞对视角模拟
+  - Analysis红队分析/竞对视角模拟
+  - Richards J. Heuer Jr. + Truman（一堂）
 - '[[framework-yitang-18-strategy-cards]]'
 - '[[case-ai-time-management-tiered-growth]]'
 - '[[case-doris-2014-music-streaming-prediction]]'

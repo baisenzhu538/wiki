@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-5
+aliases:
+  - P5：ccconnect切模型后CLI正常但飞书401+找不到文件夹
+  - system
+  - 切模型后
+  - 到文件夹
+  - 找不到文件夹
+  - 正常但飞书
 source_refs:
 - src_unknown
 created_at: 2026-06-03

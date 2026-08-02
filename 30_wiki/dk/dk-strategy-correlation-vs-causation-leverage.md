@@ -10,6 +10,10 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain: strategy
+aliases:
+  - 因果抓手
+  - 相关指标
+  - 相关指标vs因果抓手
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
 related:

@@ -102,7 +102,7 @@ def main():
     print("Pre-submit Gate")
     print("=" * 55)
     print(f"  申报文件: {len(target_files)}")
-    print(f"  检查项:   F1 (updated_at) + F2 (双向链接) + schema")
+    print(f"  检查项:   F1+F2+F3 (updated_at/链接/重复) + DK_SECTION (dk七段) + SECTION_TYPO (拼写) + R6 (搜索可达性) + schema")
     print()
 
     # 跑 lint

@@ -45,6 +45,10 @@ related:
 - '[[tool-yitang-research-unit-model]]'
 - '[[tool-yitang-tech-project-research]]'
 tags:
+aliases:
+  - 公司拆解：深度分析竞争对手的六维框架
+  - 公司拆解
+  - 深度分析竞争对手的六维框架
 - audience:executor
 - scene:execution
 - skill-level:intermediate

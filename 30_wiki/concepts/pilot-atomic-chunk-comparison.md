@@ -8,6 +8,10 @@ domain:
 - master
 status: draft
 created_at: 2026-05-31
+aliases:
+  - Pilot：masterdecisionhygiene真原子切分对比
+  - 子切分对比
+  - 真原子切分对比
 source_refs:
 - 30_wiki/concepts/master-decision-hygiene.md
 pipeline: null

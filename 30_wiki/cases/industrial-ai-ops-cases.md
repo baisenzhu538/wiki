@@ -9,6 +9,13 @@ domain:
 - ai
 - ai-saas
 - entrepreneur
+aliases:
+  - 产业
+  - 产业AI运营落地：酒店/房产/电商三大案例的去伪存真
+  - 多位产业从业者（酒店 SaaS、贝壳云管家、电商阿豪）
+  - 电商三大案例的去伪存真
+  - 运营落地
+  - 酒店/房产/电商三大案例的去伪存真
 source_refs:
 - pending_archive:src_20260614_eca9f5b3-酒店行业-AI标签审核案例
 - pending_archive:src_20260614_b85c364e-贝壳-云管家AI外呼案例
@@ -34,7 +41,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 云管家
 - 外呼案例
 - 标签审核案例

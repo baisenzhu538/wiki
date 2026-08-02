@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-009
+aliases:
+  - FKDO009：无质疑接受→Critique段全是万能废话，可粘贴到任何卡片上
+  - system
+  - 可粘贴到任何卡片上
+  - 无质疑接受
+  - 无质疑接受→Critique
+  - 段全是万能废话
 source_refs:
 - src_unknown
 created_at: 2026-05-31

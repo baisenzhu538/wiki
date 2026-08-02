@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 张磊
+  - 张磊洗衣液蹲超市
+  - 案例
+  - 案例：张磊洗衣液蹲超市+假扮促销员
+  - 洗衣液蹲超市+假扮促销员
+  - 液蹲超市
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研武器库培训
 ---

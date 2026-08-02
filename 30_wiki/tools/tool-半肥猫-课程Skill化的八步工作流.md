@@ -8,6 +8,11 @@ domain:
 - src_unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
+aliases:
+  - 半肥猫
+  - 技能
+  - 技能：课程Skill化的八步工作流
+  - 课程Skill化的八步工作流
 source_refs:
 - 00_inbox/半肥猫-AI学习落地-口述.md
 tools_required:
@@ -56,7 +61,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 半肥猫
 - 学习落地
 ---

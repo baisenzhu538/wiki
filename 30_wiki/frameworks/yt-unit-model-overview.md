@@ -18,6 +18,12 @@ quality_labels:
 created_at: 2026-06-15
 confidence: 0.8
 trust_level: medium
+aliases:
+  - 十大单元模型与三角色分工
+  - 单元模型与三角色分工
+  - 单元模型概览
+  - 单元模型概览：十大单元模型与三角色分工
+  - 模型概览
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单城市模型_vlm_desc.md
@@ -56,9 +62,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 单元模型
 - 单商圈模型
+discoverable_by:
+- 单元模型总纲
+- 单元经济概述
+- 单位经济分析
+- 盈利单元
+- 商业模型基础
 ---
 ## Reusable Knowledge
 

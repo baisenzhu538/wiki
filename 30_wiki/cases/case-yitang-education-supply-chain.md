@@ -2,6 +2,13 @@
 id: case-yitang-education-supply-chain
 title: 案例：一堂是'教育供应链创新公司'——从真实实践里种菜、摘菜、炒菜
 type: case
+aliases:
+  - 一堂是'教育供应链创新公司
+  - 从真实实践里种菜
+  - 摘菜
+  - 案例
+  - 案例：一堂是'教育供应链创新公司'从真实实践里种菜、摘菜、炒菜
+  - 炒菜
 source_refs:
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
@@ -32,7 +39,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 建模能力培训
 ---
 

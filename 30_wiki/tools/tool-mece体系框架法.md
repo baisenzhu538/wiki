@@ -7,6 +7,12 @@ domain:
 - src_unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
+aliases:
+  - MECE体系框架法
+  - 一堂课程
+  - 体系框架法
+  - 技能
+  - 技能：MECE体系框架法
 source_refs:
 - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
@@ -48,7 +54,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 个人修炼
 - 全景策略
 - 科学学习

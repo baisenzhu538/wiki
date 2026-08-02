@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-project-weapon-library-v1-8
 title: 项目管理武器库V1.8入口索引卡
 type: tool
@@ -21,6 +21,8 @@ source_refs:
 - 00_inbox/管项目/项目管理-管过程-口述.txt
 - 00_inbox/管项目/项目管理-做复盘-口述.txt
 related:
+aliases:
+  - 项目管理武器库V1.8入口索引卡
 - '[[framework-yitang-project-abcd-classification]]'
 - '[[framework-yitang-project-plan-design]]'
 - '[[framework-yitang-project-breakdown]]'

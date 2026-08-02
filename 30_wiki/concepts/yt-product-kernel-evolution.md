@@ -8,6 +8,10 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂产品内核系列课——内核演化
+aliases:
+  - 从V1到Vn
+  - 内核演化
+  - 内核演化：从V1到Vn
 source_refs:
 - 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
 - 10_raw/sources/src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记.md
@@ -35,7 +39,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 产品内核迭代课
 ---
 

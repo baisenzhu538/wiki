@@ -8,6 +8,11 @@ domain:
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
+aliases:
+  - 快招品牌总部模拟调研
+  - 技能
+  - 技能：快招品牌总部模拟调研
+  - 案例讲述者
 source_refs:
 - 10_raw/sources/src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03.md
 definition_of_done:
@@ -36,7 +41,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 决策评估画布
 - 科学决策
 ---

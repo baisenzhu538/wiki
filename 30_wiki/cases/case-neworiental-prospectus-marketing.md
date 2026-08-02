@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 新东方招股书
+  - 新东方招股书营销渠道全览
+  - 案例
+  - 案例：新东方招股书营销渠道全览
+  - 渠道全览
+  - 营销渠道全览
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 上市公司报告解读
 - 调研专题
 ---

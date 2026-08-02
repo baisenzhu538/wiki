@@ -19,6 +19,13 @@ quality_labels:
 - validated
 created_at: 2026-06-27
 updated_at: 2026-06-27
+aliases:
+  - 三环能力聚焦法
+  - 三环能力聚焦法：从30个能力中锁定3个重点
+  - 个能力中锁定
+  - 个重点
+  - 力中锁定
+  - 能力聚焦法
 source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt
@@ -34,9 +41,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 元能力-刻意练习
 - 刻意练习
+discoverable_by:
+- 能力聚焦
+- 刻意练习规划
+- 三环模型
+- 核心能力选择
+- 个人成长规划
 ---
 
 # 三环能力聚焦法：从 30 个能力中锁定 3 个重点

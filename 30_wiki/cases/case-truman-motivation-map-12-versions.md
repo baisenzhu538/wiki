@@ -8,6 +8,13 @@ domain:
 - src_unknown
 source_person: Truman
 source_context: 一堂-个人修炼-泛产品设计工具篇口述版.md
+aliases:
+  - Truman
+  - Truman的用户行为驱动迭代法
+  - 先观察再设计
+  - 动机地图12版迭代
+  - 动机地图12版迭代：先观察再设计Truman的用户行为驱动迭代法
+  - 版迭代
 source_refs:
 - 10_raw/sources/src_20260510_79f0f8c6-一堂-个人修炼-泛产品设计工具篇口述版.md
 related:
@@ -45,7 +52,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 个人修炼
 - 泛产品设计工具篇口述版
 ---

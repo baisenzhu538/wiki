@@ -9,6 +9,13 @@ domain:
 - note-taking
 source_person: Truman
 source_context: 一堂-AI时代请单体笔记-Truman-口述-02.txt
+aliases:
+  - AI时代笔记基本功的幻灭危机
+  - Truman
+  - “新人灾难
+  - “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
+  - 老人天堂
+  - 老人天堂”
 source_refs:
 - 10_raw/sources/src_20260617_c5e5fb8e-一堂-ai时代请单体笔记-truman-口述-02.txt
 tags:
@@ -43,7 +50,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 审美未内化——AI提供了形式，但没提供判断
   follow_up_question: 这份笔记里如果只能保留3个要点，你会怎么选？为什么？# “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
-aliases:
 - 时代请单体笔记
 ---
 

@@ -24,6 +24,9 @@ related:
 - '[[yt-model-entrepreneur-map]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 无限进步大地图
+  - 进步大地图
 source_refs:
 - 10_raw/sources/src_20260510_ef0a5055-堂-堂无限进步大地图十年收藏版.md
 status: enriched
@@ -48,7 +51,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 堂无限进步大地图十年收藏版
 ---
 

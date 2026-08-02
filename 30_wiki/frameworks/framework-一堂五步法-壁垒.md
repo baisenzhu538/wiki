@@ -18,6 +18,9 @@ source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt L425-L427,L1222-L1234
 - 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-假的壁垒_paddle_ocr.txt
 related:
+discoverable_by:
+  - "壁垒六大护城河"
+  - "真假壁垒判断"
 - '[[framework-一堂五步法]]'
 - '[[framework-一堂五步法-增长周期]]'
 - '[[agent-一堂五步法教练]]'
@@ -33,6 +36,20 @@ quality_labels:
 - principle
 - actionable
 tags:
+aliases:
+  - 一堂五步法壁垒：六大护城河+真假壁垒判断
+  - 一堂五步法
+  - 壁垒
+  - 六大护城河+真假壁垒判断
+  - 护城河
+  - 假壁垒判断
+aliases:
+  - 一堂五步法壁垒：六大护城河+真假壁垒判断
+  - 一堂五步法
+  - 壁垒
+  - 六大护城河+真假壁垒判断
+  - 假壁垒判断
+  - 垒六大护城河
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

@@ -8,6 +8,9 @@ trust_level: high
 domain:
 - strategy
 - market_positioning
+aliases:
+  - 战略画布价值曲线工具
+  - 蓝海战略画布价值曲线工具
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_112_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_112_ocr_text.md
@@ -27,7 +30,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

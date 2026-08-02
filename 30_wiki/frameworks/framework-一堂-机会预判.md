@@ -31,6 +31,9 @@ source_refs:
 - 00_inbox/一堂-机会预判-咖啡案例01_paddle_ocr.txt
 - 00_inbox/一堂-机会预判-咖啡店案例-五步法预判_paddle_ocr.txt
 related:
+discoverable_by:
+  - "机会预判"
+  - "CEO预判操作系统"
 - '[[agent-一堂-机会预判教练]]'
 - '[[concept-一堂-终局光谱图解读]]'
 - '[[tool-一堂-机会预判-案例预判]]'
@@ -67,6 +70,20 @@ quality_labels:
 - validated
 - actionable
 tags:
+aliases:
+  - 一堂机会预判：CEO的预判操作系统总框架
+  - 一堂
+  - 机会预判
+  - 的预判操作系统总框架
+  - 预判操作系统
+  - 会预判
+aliases:
+  - 一堂机会预判：CEO的预判操作系统总框架
+  - 一堂
+  - 机会预判
+  - 的预判操作系统总框架
+  - 会预判
+  - 预判操作系统
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

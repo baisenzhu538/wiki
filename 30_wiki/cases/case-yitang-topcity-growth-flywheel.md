@@ -17,6 +17,13 @@ quality_labels:
 - cited
 - validated
 updated_at: '2026-06-29'
+aliases:
+  - Truman
+  - 双端飞轮
+  - 商户双端飞轮
+  - 如何用六大要素搭建内容
+  - 案例
+  - 案例：TopCity如何用六大要素搭建内容商户双端飞轮
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-案例-top city.png
 - 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-案例-top city_vlm_desc.md
@@ -38,7 +45,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 渠道增长飞轮
 ---

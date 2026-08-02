@@ -20,6 +20,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 用户视角
+  - 换位读心
 related:
 - "[[yt-model-pan-product-demand-toolkit]]"
 - "[[yt-model-pan-product-36-strategies]]"

@@ -29,12 +29,26 @@ diagnostic_signals:
 - lens: 下周测试失败
   follow_up: 设定一周后的使用复盘，若无人使用则回任务层重验
 related:
+discoverable_by:
+  - "王欢第一个产品五条标准"
 - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 tags:
+aliases:
+  - 王欢：选第一个产品场景的五条标准
+  - 王欢
+  - 选第一个产品场景的五条标准
+  - 欢第一个产品五条标准
+  - 一个产品五条标准
+  - 一个产品场景的五条标准
+aliases:
+  - 王欢：选第一个产品场景的五条标准
+  - 王欢
+  - 选第一个产品场景的五条标准
+  - 欢第一个产品五条标准
 - src_unknown
 - src_unknown
 - src_unknown

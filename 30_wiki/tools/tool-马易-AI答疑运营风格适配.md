@@ -42,6 +42,10 @@ related:
 - '[[tool-马易-隐性知识萃取与模型化]]'
 - '[[tool-马易-需求创造验证法]]'
 tags:
+aliases:
+  - 技能：AI答疑运营风格适配
+  - 技能
+  - AI答疑运营风格适配
 - audience:executor
 - scene:execution
 - skill-level:intermediate

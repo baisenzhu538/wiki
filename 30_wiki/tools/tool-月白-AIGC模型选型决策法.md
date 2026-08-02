@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-AI设计严苛批评法]]'
 - aigc设计基础01ai生图原理与提示词基本功
 tags:
+aliases:
+  - 技能：AIGC模型选型决策法
+  - 技能
+  - AIGC模型选型决策法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

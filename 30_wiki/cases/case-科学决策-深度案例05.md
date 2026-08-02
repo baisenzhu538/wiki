@@ -12,6 +12,12 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 一堂租办公室的
+  - 一堂租办公室的ROI分析
+  - 案例
+  - 案例：一堂租办公室的ROI分析
+  - 租办公室的
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例05_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-深度-案例05.md
@@ -27,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 科学决策
 ---
 # 案例：一堂租办公室的 ROI 分析

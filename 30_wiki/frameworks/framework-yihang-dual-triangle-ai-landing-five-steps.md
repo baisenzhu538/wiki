@@ -21,6 +21,8 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/组织硬件公司专利案例口述_text.md
 - 00_inbox/人机协作双三角/_processed/组织酒店行业AI标签案例口述_text.md
 related:
+discoverable_by:
+  - "双三角AI落地五部曲"
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-dual-triangle-three-stages-six-changes]]'
 - '[[tool-yihang-dual-triangle-canvas]]'
@@ -39,6 +41,14 @@ aliases:
 - 一堂双三角
 - 人机协作双三角
 tags:
+aliases:
+  - 一行双三角AI落地五部曲
+  - 五部曲
+  - 落地五部曲
+  - 双三角
+aliases:
+  - 一行双三角AI落地五部曲
+  - 落地五部曲
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

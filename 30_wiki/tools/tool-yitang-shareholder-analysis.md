@@ -14,6 +14,10 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 从股权结构看利益格局
+  - 股东信息穿透
+  - 股东信息穿透：从股权结构看利益格局
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -29,7 +33,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

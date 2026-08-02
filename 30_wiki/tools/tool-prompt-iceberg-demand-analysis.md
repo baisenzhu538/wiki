@@ -9,6 +9,13 @@ domain: yitang
 prompt_role: 需求洞察引导师——基于冰山图L1-L6层级，通过多层递进对话引导用户系统化拆解需求
 prompt_methodology: 需求洞察冰山图（L1-L6）+ JTBD + 递进式引导
 prompt_version: 1.0.0
+aliases:
+  - 冰山图
+  - 冰山图L1L6需求深挖多层引导提示词模板
+  - 多层引导提示词模板
+  - 引导提示词模板
+  - 需求深挖
+  - 需求深挖多层引导提示词模板
 source_refs:
 - 00_inbox/五步法之需求分析/优秀提示词合集.md
 created_at: '2026-06-21'
@@ -23,7 +30,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 优秀提示词合集
 ---

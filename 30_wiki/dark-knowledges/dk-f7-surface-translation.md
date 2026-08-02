@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-007
+aliases:
+  - FKDO007：表层翻译式提炼→Condense段变成课程目录改写
+  - system
+  - 成课程目录改写
+  - 段变成课程目录改写
+  - 表层翻译式提炼
+  - 表层翻译式提炼→Condense
 source_refs:
 - src_unknown
 created_at: 2026-05-31

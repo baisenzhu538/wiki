@@ -4,6 +4,12 @@ domain:
 id: yt-prompt-anti-flattery
 title: 反谄媚机制：让AI说真话
 type: tool
+aliases:
+  - 反谄媚机制
+  - 反谄媚机制：让AI说真话
+  - 媚机制
+  - 让AI说真话
+  - 说真话
 source_refs:
 - src_unknown
 - src_unknown

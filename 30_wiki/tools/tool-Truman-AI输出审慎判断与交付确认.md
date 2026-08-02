@@ -11,6 +11,11 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
+aliases:
+  - AI输出审慎判断与交付确认
+  - 技能
+  - 技能：AI输出审慎判断与交付确认
+  - 输出审慎判断与交付确认
 source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
@@ -25,7 +30,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 自用的
 ---
 # 技能：AI输出审慎判断与交付确认

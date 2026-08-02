@@ -16,6 +16,8 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_vlm_desc.md
 related:
+discoverable_by:
+  - "精益十倍公式"
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
@@ -26,6 +28,18 @@ related:
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
+aliases:
+  - 十倍速公式：避免系统性失败
+  - 十倍速公式
+  - 避免系统性失败
+  - 速公式
+  - 倍公式
+  - 益十倍公式
+aliases:
+  - 十倍速公式：避免系统性失败
+  - 十倍速公式
+  - 避免系统性失败
+  - 益十倍公式
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

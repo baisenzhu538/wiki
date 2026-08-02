@@ -16,6 +16,12 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-04
+aliases:
+  - Truman飞书
+  - 一行双三角案例
+  - 一行双三角案例：Truman飞书ToslidePPT迭代进化
+  - 双三角案例
+  - 迭代进化
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 - 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
@@ -32,7 +38,6 @@ related:
 - '[[case-yihang-dual-triangle-huazao-synthetic-data]]'
 - '[[case-yihang-dual-triangle-tianmo-design-delivery]]'
 - '[[case-yitang-truman-time-management-transformation]]'
-aliases:
 - Truman 飞书 To slide
 - PPT 迭代案例
 - annotations

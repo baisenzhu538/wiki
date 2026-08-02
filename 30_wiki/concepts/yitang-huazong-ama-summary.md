@@ -3,6 +3,9 @@ id: yitang-huazong-ama-summary
 created_at: 2026-05-29
 domain:
 - healthcare
+aliases:
+  - 精华摘要商业突破大航海
+  - 花总AMA精华摘要商业突破大航海
 source_refs:
 - 'pending_archive: src_unknown'
 status: stable

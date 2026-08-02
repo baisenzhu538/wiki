@@ -18,6 +18,11 @@ source_refs:
 - 00_inbox/时间管理/truman-时间管理课程-口述.txt
 - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 related:
+discoverable_by:
+  - "时间管理矩阵"
+  - "双循环矩阵"
+  - "独立协作时间管理"
+  - "重点效率矩阵"
 - '[[yt-personal-time-management]]'
 - '[[framework-yitang-five-step-to-time-management]]'
 diagnostic_signals:
@@ -27,6 +32,20 @@ diagnostic_signals:
 quality_labels:
 - actionable
 tags:
+aliases:
+  - 时间管理双循环矩阵：独立/协作×重点/效率
+  - 时间管理双循环矩阵
+  - 独立/协作
+  - 重点/效率
+  - 间管理矩阵
+  - 循环矩阵
+aliases:
+  - 时间管理双循环矩阵：独立/协作×重点/效率
+  - 时间管理双循环矩阵
+  - 独立/协作
+  - 重点/效率
+  - 点效率矩阵
+  - 循环矩阵
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

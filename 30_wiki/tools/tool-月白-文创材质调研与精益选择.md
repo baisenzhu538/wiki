@@ -33,6 +33,11 @@ related:
 - '[[tool-月白-AI人物特征精准描述法]]'
 - '[[tool-月白-设计需求口头化表达法]]'
 tags:
+aliases:
+  - 技能：文创材质调研与精益选择
+  - 技能
+  - 文创材质调研与精益选择
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

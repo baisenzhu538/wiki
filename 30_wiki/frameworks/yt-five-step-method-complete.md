@@ -8,6 +8,12 @@ status: enriched
 confidence: 0.93
 trust_level: high
 source_context: 一堂五步法完整地图——从需求到壁垒
+aliases:
+  - 五步法完整地图
+  - 五步法完整地图：从需求到壁垒
+  - 从需求到壁垒
+  - 求到壁垒
+  - 法完整地图
 source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -42,9 +48,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核验证课
+discoverable_by:
+- 一堂五步法
+- 五步法完整版
+- 方法论体系
+- 创业方法论
+- 产品增长壁垒
 ---
 # 五步法完整地图：从需求到壁垒
 

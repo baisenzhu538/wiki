@@ -14,6 +14,13 @@ domain:
 - yitang
 source_person: 陈舒妍
 source_context: 一堂 AI 俱乐部落地 Live81 分享（2026-07-02），喵善养商标场景建模方法抽象
+aliases:
+  - 场景设计语言转译
+  - 场景设计语言转译：把场景需求变成可执行设计约束
+  - 把场景需求变成可执行设计约束
+  - 景需求变成可执行设计约束
+  - 设计语言转译
+  - 陈舒妍
 source_refs:
 - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-口述.txt
 - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-笔记.txt
@@ -35,7 +42,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - yitang
 ---
 

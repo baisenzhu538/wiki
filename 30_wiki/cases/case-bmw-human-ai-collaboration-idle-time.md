@@ -15,6 +15,13 @@ domain:
 - yitang
 source_person: 《吾辈如神》拆书会主讲人
 source_context: 一堂《吾辈如神》拆书会（2026-07-01），讨论 AI 时代人机协作的未来
+aliases:
+  - BMW工厂人机协作案例：idletime减少85%被误读为产能提升85%
+  - 《吾辈如神》拆书会主讲人
+  - 减少
+  - 工厂人机协作案例
+  - 拆书会主讲人
+  - 被误读为产能提升
 source_refs:
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
@@ -36,7 +43,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 书籍拆解
 ---
 

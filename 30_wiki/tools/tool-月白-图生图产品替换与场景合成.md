@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-AI自动生成多语种专业名词提示词]]'
 - '[[tool-月白-实物包装落地训练法]]'
 tags:
+aliases:
+  - 技能：图生图产品替换与场景合成
+  - 技能
+  - 图生图产品替换与场景合成
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

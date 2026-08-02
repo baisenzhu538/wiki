@@ -34,6 +34,11 @@ related:
 - '[[tool-月白-多语言提示词精准法]]'
 - '[[tool-月白-模型识别与边界测试法]]'
 tags:
+aliases:
+  - 技能：AI设计严苛批评法
+  - 技能
+  - AI设计严苛批评法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

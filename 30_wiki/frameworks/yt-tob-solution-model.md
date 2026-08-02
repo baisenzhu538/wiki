@@ -8,6 +8,10 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - ToB解决方案类型矩阵
+  - 方案类型矩阵
+  - 解决方案类型矩阵
 source_refs:
 - pending_archive: src_unknown
 tags:
@@ -41,6 +45,12 @@ diagnostic_signals:
   follow_up_question: 客户使用期间我方是否每天都在发生履约成本？收入确认应该一次性确认还是按周期分摊？
 - framework_lens: 采购方式矩阵
   follow_up_question: 客户采购属于入围型、一次性采购还是周期性采购？每种形态对应的销售投入、利润设计和现金流结构是什么？
+discoverable_by:
+- ToB解决方案模型
+- B2B方案设计
+- 企业解决方案
+- 解决方案销售
+- 方案定价
 ---
 
 # To B 解决方案类型矩阵

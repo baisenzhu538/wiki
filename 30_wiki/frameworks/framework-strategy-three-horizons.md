@@ -16,6 +16,11 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+discoverable_by:
+  - "三个地平线"
+  - "短中长期业务"
+  - "业务组合管理"
+  - "创新地平线框架"
 - '[[strategy-domain-digest]]'
 - '[[tool-Truman-Skill全生命周期管理]]'
 - '[[tool-Truman-上下文质量管理（AI协作）]]'
@@ -27,6 +32,20 @@ related:
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - tool-strategy-three-horizons
 tags:
+aliases:
+  - 三个地平线：短中长期业务组合管理
+  - 三个地平线
+  - 短中长期业务组合管理
+  - 长期业务组合管理
+  - 地平线
+  - 中长期业务
+aliases:
+  - 三个地平线：短中长期业务组合管理
+  - 三个地平线
+  - 短中长期业务组合管理
+  - 新地平线框架
+  - 务组合管理
+  - 中长期业务
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

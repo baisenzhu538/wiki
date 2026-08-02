@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 小馆人才选拔
+  - 案例
+  - 案例：麦家小馆人才选拔频次高估
+  - 频次高估
+  - 麦家小馆人才选拔
+  - 麦家小馆人才选拔频次高估
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
@@ -31,7 +38,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 需求评估避坑合集
 ---

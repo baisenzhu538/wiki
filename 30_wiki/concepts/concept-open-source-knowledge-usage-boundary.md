@@ -13,6 +13,12 @@ updated_at: '2026-06-30'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-30'
+aliases:
+  - 与蒸馏的分界线
+  - 学习与蒸馏的分界线
+  - 开源知识使用边界
+  - 开源知识使用边界：学习与蒸馏的分界线
+  - 知识使用边界
 source_refs:
 - 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md
 - 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
@@ -22,7 +28,6 @@ query_triggers:
 - 游侠蒸馏事件是什么
 - KDO 知识库使用协议
 - 抄作业和借鉴的边界
-aliases:
 - open-source-knowledge-usage-boundary
 - 开源知识边界
 - 学习与蒸馏的分界线

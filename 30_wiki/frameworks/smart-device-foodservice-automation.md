@@ -9,6 +9,13 @@ domain:
 - yitang- business-strategy
 - product
 - entrepreneur
+aliases:
+  - 无人零售接入美团
+  - 无人零售接入美团/饿了么的技术与商业模式
+  - 智能设备外卖对接
+  - 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式
+  - 设备外卖对接
+  - 饿了么的技术与商业模式
 source_refs:
 - pending_archive:src_20260614_909802bd-智能设备-外卖对接方案讨论
 - src_20260614_909802bd-智能设备-外卖对接方案讨论
@@ -34,9 +41,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 外卖对接方案讨论
 - 智能设备
+discoverable_by:
+- 智能设备外卖
+- 无人零售外卖
+- 美团饿了么对接
+- 智能零售商业模式
+- 外卖自动化
 ---
 # 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式
 

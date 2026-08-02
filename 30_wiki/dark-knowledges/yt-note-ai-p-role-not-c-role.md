@@ -11,6 +11,13 @@ trust_level: medium
 reviewed_by: pending
 source_person: Truman
 source_context: 一堂AI Partner设计——P角色设计哲学
+aliases:
+  - AIPartner应是P角色实践者而非C角色顾问：防止AI越界替人思考
+  - Partner应是P角色实践者而非C角色顾问
+  - Truman
+  - 角色顾问
+  - 越界替人思考
+  - 防止AI越界替人思考
 source_refs:
 - src_unknown
 created_at: '2026-06-15'

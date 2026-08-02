@@ -1,5 +1,6 @@
 ---
 id: concept-ai-co-learning
+title: "AI共学模式：人+AI共学课程→固化知识→产生Skill"
 type: concept
 domain: ai-collaboration
 status: draft
@@ -10,6 +11,18 @@ reviewed_by: 待审
 confidence: 0.80
 trust_level: observed
 version: 1.0.0
+aliases:
+  - AI共学模式
+  - AI共学模式：人+AI共学课程→固化知识→产生Skill
+  - 事后笔记
+  - 人+AI共学
+  - 人+AI共学课程→固化知识→产生Skill
+  - 共学模式
+  - 双向共学
+  - 学课程但只是
+  - 知识固化了但没
+  - 缺了共学的第二步
+  - 识库建了但没产生新
 source_refs:
   - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6752-6756
   - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6746-6750
@@ -35,12 +48,7 @@ diagnostic_signals:
   - "知识库建了但没产生新skill → 知识固化了但没'交互来问'——缺了共学的第二步"
   - "AI产出很多但你自己的判断力没进步 → 共学的目标是你的能力增长，不是AI的产出量"
 discoverable_by: "AI共学、人机共学、AI一起学、跟AI学课程、AI脚手架学习"
-aliases:
-  - AI共学模式
-  - 人+AI共学
-  - 双向共学
 ---
-
 # AI共学模式：人+AI共学课程→固化知识→产生Skill
 
 ## 原始表述

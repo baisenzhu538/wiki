@@ -35,6 +35,18 @@ related:
 - tool-yitang-research-single-point-sniper
 - case-panproduct-yitao-project-background
 tags:
+aliases:
+  - 价值主张设计工具：三问+六维排序法
+  - 价值主张设计工具
+  - 三问
+  - 六维排序法
+  - 主张设计工具
+  - 排序法
+aliases:
+  - 价值主张设计工具：三问+六维排序法
+  - 价值主张设计工具
+  - 三问
+  - 六维排序法
 - audience:executor
 - scene:execution
 - skill-level:advanced

@@ -18,6 +18,13 @@ quality_labels:
 - validated
 created_at: 2026-06-27
 updated_at: '2026-06-28'
+aliases:
+  - Truman
+  - 咨询实现选址工业化
+  - 如何用
+  - 案例
+  - 案例：链家如何用IBM咨询实现选址工业化
+  - 链家如何用
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 source_person: Truman
@@ -35,7 +42,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 渠道工业化生产
 ---

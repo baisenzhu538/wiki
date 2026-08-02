@@ -29,6 +29,12 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
+discoverable_by:
+- 调研工作流
+- 调研系统
+- 研究流程
+- 调研自动化
+- 系统式调研
 ---
 # 调研工作流：从问题到报告的端到端执行路径
 

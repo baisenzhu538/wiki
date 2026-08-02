@@ -8,6 +8,13 @@ domain:
 - master
 source_person: 欧阳锋
 source_context: 2026-05-20
+aliases:
+  - C11：洪七公跳步三段画面连续产出，三次提报全部跳过
+  - 三次提报全部跳过
+  - 三段画面连续产出
+  - 欧阳锋
+  - 洪七公跳步
+  - 画面连续产出
 source_refs:
 - src_unknown
 created_at: 2026-05-31

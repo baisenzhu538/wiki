@@ -6,6 +6,13 @@ status: enriched
 domain:
 - healthcare
 - business-strategy
+aliases:
+  - 商业模式命题交叉验证
+  - 录音商业模式命题交叉验证
+  - 智能药柜推广项目
+  - 智能药柜推广项目：录音商业模式命题交叉验证
+  - 王语嫣
+  - 药柜推广项目
 source_refs:
 - pending_archive:src_20260613_732d251f-itingnao-deep-dive-business-model
 created_at: 2026-06-15

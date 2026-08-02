@@ -36,6 +36,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+discoverable_by:
+- 需求洞察
+- 需求提取
+- 用户洞察
+- 问题发现
+- 需求收集
 ---
 
 # 从用户访谈中提取真实需求：访谈技巧与偏见规避

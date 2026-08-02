@@ -13,6 +13,13 @@ updated_at: 2026-07-02
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
+aliases:
+  - AI使用杠铃策略：把任务分成高AI区和无AI区
+  - 使用杠铃策略
+  - 务分成高
+  - 区和无
+  - 把任务分成高
+  - 杠铃策略
 source_refs:
 - 60_feedback/audit/20260701-wobeirushen-validation-report.md
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
@@ -22,7 +29,6 @@ query_triggers:
 - AI 使用边界怎么设定
 - 杠铃策略在 AI 时代怎么用
 - 如何避免过度依赖 AI
-aliases:
 - ai-use-barbell-strategy
 - AI 杠铃策略
 - 认知卸载杠铃

@@ -12,6 +12,10 @@ language: zh-CN
 domain:
 - yitang
 - ai-collaboration
+aliases:
+  - 子域
+  - 子域Agent转交协议
+  - 转交协议
 source_refs:
 - 60_feedback/diagnosis/diag_20260708_yitang-dual-triangle-cross-domain-agent.md
 related:

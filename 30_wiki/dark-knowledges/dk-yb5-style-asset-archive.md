@@ -9,6 +9,13 @@ domain:
 - ai-collaboration
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
+aliases:
+  - AI绘图降本的前提
+  - AI绘图降本的前提：风格资产工程化归档
+  - 月白
+  - 绘图降本的前提
+  - 资产工程化归档
+  - 风格资产工程化归档
 source_refs: null
 created_at: 2026-06-04
 updated_at: '2026-06-19'

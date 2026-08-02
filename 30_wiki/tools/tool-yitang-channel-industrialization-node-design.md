@@ -18,6 +18,13 @@ quality_labels:
 - quality
 - validated
 updated_at: '2026-06-30T16:07:51+00:00'
+aliases:
+  - Truman
+  - 化生产节点设计工具
+  - 工业化生产节点设计工具
+  - 工业化生产节点设计工具：把复杂交付变成可控流程
+  - 把复杂交付变成可控流程
+  - 杂交付变成可控流程
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-笔记.txt
@@ -39,7 +46,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 一堂做课工业化
 ---

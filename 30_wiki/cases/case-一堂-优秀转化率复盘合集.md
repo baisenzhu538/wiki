@@ -15,6 +15,13 @@ domain:
 - conversion-rate
 source_person: 邹韵涛/沈伟杰/王静静/董程滨/钟征/翁晓锋/甘绘忆/王巍（一堂学员）
 source_context: 一堂《优秀转化率复盘合集》PDF 24 页，VLM 已跑完全部页面，但正文大量空白，仅邹韵涛案例完整、沈伟杰案例部分背景可见
+aliases:
+  - 一堂优秀转化率复盘合集索引
+  - 一堂优秀转化率复盘合集索引：8位学员案例的内容可用性边界
+  - 优秀转化率复盘合集索引
+  - 位学员案例的内容可用性边界
+  - 董程滨
+  - 邹韵涛/沈伟杰/王静静/董程滨/钟征/翁晓锋/甘绘忆/王巍（一堂学员）
 source_refs:
 - 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p001.txt
   L1-L23
@@ -46,7 +53,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - conversion
 - handle
 ---

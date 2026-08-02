@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
 - '[[tool-月白-灵感画布建立法]]'
 tags:
+aliases:
+  - 技能：普通人AI快速上手法
+  - 技能
+  - 普通人AI快速上手法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

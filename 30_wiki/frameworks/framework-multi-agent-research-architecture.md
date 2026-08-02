@@ -23,6 +23,19 @@ source_refs:
 - https://edison-a-n.github.io/2026/04/19/multi-agent-architecture-survey/
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 related:
+aliases:
+  - 多智能体研究架构模式MultiAgentResearchArchitecture
+  - 多智能体研究架构模式Multi
+  - LangChain Team（Will Fu-Hinthorn）+ Truman（一堂）
+  - 调研架构
+  - 能体研究架构模式
+aliases:
+  - 多智能体研究架构模式MultiAgentResearchArchitecture
+  - 多智能体研究架构模式Multi
+  - LangChain Team（Will Fu-Hinthorn）+ Truman（一堂）
+  - 调研架构
+discoverable_by:
+  - "多Agent调研架构"
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 - '[[framework-yitang-oscar-research]]'
 - '[[ai-native-im-multi-agent]]'

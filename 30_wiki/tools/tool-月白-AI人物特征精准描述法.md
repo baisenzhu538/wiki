@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-关键要素提取改图法]]'
 - '[[tool-月白-文创材质调研与精益选择]]'
 tags:
+aliases:
+  - 技能：AI人物特征精准描述法
+  - 技能
+  - AI人物特征精准描述法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

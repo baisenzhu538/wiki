@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 从单据反推真实数据
+  - 公司收据分析
+  - 据反推真实数据
+  - 旅行公司收据分析
+  - 案例
+  - 案例：旅行公司收据分析从单据反推真实数据
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研武器库培训
 ---

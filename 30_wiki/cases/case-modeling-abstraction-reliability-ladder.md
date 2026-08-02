@@ -7,6 +7,13 @@ domain:
 - yitang
 - master
 - modeling
+aliases:
+  - Truman
+  - 从听着很香到没有反例
+  - 建模案例
+  - 抽象建模案例
+  - 抽象建模案例：知识可靠度四阶梯从听着很香到没有反例
+  - 知识可靠度四阶梯
 source_refs:
 - pending_archive:src_20260614_a024fb17-Truman-高阶建模-抽象建模-案例-图-02
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
@@ -35,7 +42,6 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - case-modeling-process-livestream-prep
 - case-modeling-essence-levels
-aliases:
 - 建模能力培训
 - 抽象建模
 - 高阶建模

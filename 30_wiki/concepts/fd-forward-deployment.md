@@ -8,6 +8,12 @@ trust_level: medium-high
 domain:
 - business-strategy
 - ai-saas
+aliases:
+  - DeploymentFD模式
+  - ForwardDeploymentFD模式：企业级AI落地的高接触服务范式
+  - 企业级
+  - 的高接触服务范式
+  - 落地的高接触服务范式
 source_refs:
 - pending_archive:src_20260614_ab09af1c-多人-FD模式解析
 - src_20260614_ab09af1c-多人-FD模式解析
@@ -32,7 +38,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 模式解析
 ---
 > 来源：听脑录音 6086504 + 公开信源六层交叉验证  

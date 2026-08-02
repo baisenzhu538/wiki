@@ -13,6 +13,13 @@ updated_at: 2026-07-11
 domain:
 - management
 - yitang
+aliases:
+  - AI+基本功
+  - 一个技术团队的五年修炼
+  - 从拆解自己到
+  - 研发
+  - 花总
+  - 花总AI研发：从拆解自己到AI+基本功，一个技术团队的五年修炼
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L654-866（花总案例完整口述）
 related:
@@ -43,7 +50,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - fundamentals
 - manage
 ---

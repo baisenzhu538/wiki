@@ -12,6 +12,11 @@ language: zh-CN
 version: 1
 confidence: 0.89
 trust_level: medium-high
+aliases:
+  - 不是答案
+  - 是提问的脚手架
+  - 模型是提问的脚手架
+  - 模型是提问的脚手架，不是答案
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 related:
@@ -61,7 +66,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 建模能力培训
 ---
 

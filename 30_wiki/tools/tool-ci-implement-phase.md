@@ -20,6 +20,17 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 - https://blog.bestbootcamps.com/competitive-intelligence-framework/
 related:
+aliases:
+  - CIImplement阶段工具：洞见嵌入运营节奏
+  - 阶段工具
+  - 洞见嵌入运营节奏
+  - Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
+  - 嵌入运营节奏
+aliases:
+  - CIImplement阶段工具：洞见嵌入运营节奏
+  - 阶段工具
+  - 洞见嵌入运营节奏
+  - Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
 - '[[tool-yitang-research-continuous-tracking]]'
 - '[[framework-yitang-18-strategy-cards]]'
 - '[[yt-five-step-implementation]]'

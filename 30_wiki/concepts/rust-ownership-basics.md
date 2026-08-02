@@ -1,4 +1,4 @@
-﻿---
+---
 id: rust-ownership-basics
 title: "Rust 所有权基础：三条核心规则"
 type: concept
@@ -8,6 +8,12 @@ domain:
 tags:
   - "#domain/rust"
   - "#method/thinking-tool"
+aliases:
+  - Rust所有权基础：三条核心规则
+  - 三条核心规则
+  - 所有权基础
+  - 权基础
+  - 核心规则
 source_refs:
   - pending_archive
 created_at: 2026-06-02

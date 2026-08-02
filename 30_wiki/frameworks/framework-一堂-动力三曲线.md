@@ -25,6 +25,10 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/最佳转化率-动力三曲线_vlm.md
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/一堂复盘营的动力曲线分析_vlm.md
 related:
+discoverable_by:
+  - "动力三曲线"
+  - "FAB名利权情影响力"
+  - "动力层级模型"
 - '[[case-一堂-一堂自身转化实践]]'
 - '[[case-一堂-优秀案例逐字稿合集]]'
 - '[[case-一堂-作业率20到50]]'
@@ -77,6 +81,20 @@ quality_labels:
 - cited
 - actionable
 tags:
+aliases:
+  - 一堂动力三曲线：FAB60分/名利权情70分/影响力法则85分与使用三原则
+  - 一堂动力三曲线
+  - 名利权情70
+  - 影响力法则85
+  - 分与使用三原则
+  - 名利权情影响力
+aliases:
+  - 一堂动力三曲线：FAB60分/名利权情70分/影响力法则85分与使用三原则
+  - 一堂动力三曲线
+  - 名利权情70
+  - 影响力法则85
+  - 分与使用三原则
+  - 力三曲线
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

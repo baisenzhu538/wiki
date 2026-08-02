@@ -9,6 +9,11 @@ status: enriched
 confidence: 0.78
 trust_level: medium
 source_context: 一堂商业模式系列课——转型信号
+aliases:
+  - 何时该
+  - 商业模式转型信号
+  - 商业模式转型信号：何时该pivot
+  - 模式转型信号
 source_refs:
 - src_unknown
 - src_unknown

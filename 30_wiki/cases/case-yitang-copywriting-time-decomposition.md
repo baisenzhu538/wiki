@@ -15,6 +15,13 @@ domain:
 - yitang
 source_person: 一堂课程设计团队 / 李善友口述
 source_context: 一堂「底层逻辑之一：Y模型」课程中关于业务公式拆解的示例（2026-07-03）
+aliases:
+  - 一堂文案团队时间拆解
+  - 一堂文案团队时间拆解：把写稿拆成可测量的工序
+  - 一堂课程设计团队 / 李善友口述
+  - 把写稿拆成可测量的工序
+  - 李善友口述
+  - 课程设计团队
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt
@@ -35,7 +42,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 底层逻辑之一
 - 底层逻辑之一-Y模型
 ---

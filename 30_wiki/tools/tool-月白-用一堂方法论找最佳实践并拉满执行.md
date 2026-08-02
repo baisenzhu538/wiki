@@ -42,6 +42,11 @@ related:
 - tool-月白-AI需求拆解咨询法
 - tool-月白-三步作业反馈法
 tags:
+aliases:
+  - 技能：用一堂方法论找最佳实践并拉满执行
+  - 技能
+  - 用一堂方法论找最佳实践并拉满执行
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

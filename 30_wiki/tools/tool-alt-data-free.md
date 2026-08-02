@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - Fund武器
+  - 免费替代数据
+  - 免费替代数据：小团队的HedgeFund武器
+  - 小团队的
+  - 小团队的Hedge
+  - 替代数据
 source_refs:
 - src_unknown
 - src_unknown

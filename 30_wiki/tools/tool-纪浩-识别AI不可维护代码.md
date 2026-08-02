@@ -11,6 +11,10 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
+aliases:
+  - 技能
+  - 技能：识别AI不可维护代码
+  - 识别AI不可维护代码
 source_refs:
 - 10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
@@ -28,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:beginner
-aliases:
 - 五层结构
 - 俱乐部
 ---

@@ -13,6 +13,12 @@ updated_at: 2026-07-05
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 一画就知道能交付什么
+  - 双三角让团队敢承诺
+  - 双三角让团队敢承诺画布一画就知道能交付什么
+  - 画布一画就知道能交付什么
+  - 角让团队敢承诺
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
@@ -22,7 +28,6 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
-aliases:
 - 一堂双三角
 - 人机协作双三角
 ---

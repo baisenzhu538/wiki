@@ -12,6 +12,13 @@ created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
 - yitang
+aliases:
+  - Y模型
+  - Y模型案例：小学生在线阅读外行看一眼画布就能平等对话
+  - 外行看一眼画布就能平等对话
+  - 小学生在线阅读
+  - 案例
+  - 生在线阅读
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
 related:
@@ -21,7 +28,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - ideas
 - 个人修身
 ---

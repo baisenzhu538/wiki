@@ -1,5 +1,6 @@
 ---
 id: case-wangfei-newyear-event-diagnosis
+title: "王非跨年活动：500→1000人增长诊断"
 type: case
 domain: management
 status: draft
@@ -9,6 +10,21 @@ author: 老顽童
 reviewed_by: 待审
 confidence: 0.85
 trust_level: observed
+aliases:
+  - 500→1000人增长诊断
+  - 500到1000人增长案例
+  - 人增长案例
+  - 存量运营优先于拉新
+  - 数还是要利润
+  - 王非跨年活动
+  - 王非跨年活动诊断
+  - 王非跨年活动：500→1000人增长诊断
+  - 私域基本盘但转化率极低
+  - 第6期 55班 王非私董会 v2.0 【高强版】
+  - 第6期私董会总结
+  - 西安跨年演讲分会场
+  - 要人数还是要利润
+  - 跨年活动诊断
 source_refs:
   - 00_inbox/私董会/第6期 55班 王非私董会 v2.0 【高强版】.md
   - 00_inbox/私董会/_processed/第6期私董会总结.md
@@ -33,14 +49,7 @@ diagnostic_signals:
   - "有私域基本盘但转化率极低→存量运营优先于拉新"
   - "案主自己分不清'要人数还是要利润'→帮案主做优先级排序"
 discoverable_by: "王非跨年、私董会案例、500到1000人、赞助商定价、增长诊断"
-aliases:
-  - 王非跨年活动诊断
-  - 西安跨年演讲分会场
-  - 500到1000人增长案例
-  - 第6期 55班 王非私董会 v2.0 【高强版】
-  - 第6期私董会总结
 ---
-
 # 王非跨年活动：500→1000人增长诊断
 
 > **定位**：属于 [[five-step-domain-digest|五步法]] 的 需求→解决方案→商业模式→增长→壁垒 全景诊断案例。同时演示 [[tool-private-board-facilitation-sop|私董会七步法]] 如何在真实业务中执行。

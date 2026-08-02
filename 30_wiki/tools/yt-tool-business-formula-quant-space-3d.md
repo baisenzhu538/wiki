@@ -13,6 +13,13 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 判断一个参数还值不值得砸资源
+  - 定量空间三维评估
+  - 定量空间三维评估：差距×对标×成熟度，判断一个参数还值不值得砸资源
+  - 对标
+  - 差距
+  - 成熟度
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1838-L1856
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L3118-L3148
@@ -51,7 +58,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - handle
 ---
 

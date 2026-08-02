@@ -6,6 +6,9 @@ title: 反脆弱决策检查清单
 type: tool
 status: reviewed
 source_context: 一堂科学决策课程——反脆弱决策检查清单
+aliases:
+  - 反脆弱决策检查清单
+  - 弱决策检查清单
 source_refs:
 - pending_archive:src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
 - pending_archive:src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
@@ -28,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 关键训练清单重要
 - 决策经验值
 - 决策高度实操课口述

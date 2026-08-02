@@ -34,6 +34,10 @@ source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+discoverable_by:
+  - "高水平计划OSC"
+  - "锁定目标缩小范围"
+  - "罗列清单方法"
 - '[[framework-yitang-oscar-research]]'
 - '[[tool-yitang-research-industry-scan]]'
 - '[[concept-yitang-research-scope]]'
@@ -51,6 +55,20 @@ related:
 - '[[framework-yitang-expert-interview-10steps]]'
 - '[[framework-yitang-research-quality-gate]]'
 tags:
+aliases:
+  - 高水平计划OSC：锁定目标缩小范围罗列清单
+  - 高水平计划
+  - 锁定目标
+  - 缩小范围
+  - 罗列清单
+  - 锁定目标缩小范围罗列清单
+aliases:
+  - 高水平计划OSC：锁定目标缩小范围罗列清单
+  - 高水平计划
+  - 锁定目标
+  - 缩小范围
+  - 罗列清单
+  - 水平计划
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

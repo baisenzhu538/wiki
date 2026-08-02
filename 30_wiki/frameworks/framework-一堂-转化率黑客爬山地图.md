@@ -22,6 +22,9 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2804-L2804
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2812-L2812
 related:
+discoverable_by:
+  - "转化率黑客爬山地图"
+  - "L1-L6转化能力段位"
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化基本功七个自我修养]]'
 - '[[framework-一堂-转化率提升六步法]]'
@@ -54,6 +57,20 @@ quality_labels:
 - cited
 - actionable
 tags:
+aliases:
+  - 一堂转化率黑客爬山地图：六段L1L6能力段位与三次跨越
+  - 一堂转化率黑客爬山地图
+  - 六段
+  - 能力段位与三次跨越
+  - 能力段位
+  - 转化能力段位
+aliases:
+  - 一堂转化率黑客爬山地图：六段L1L6能力段位与三次跨越
+  - 一堂转化率黑客爬山地图
+  - 六段
+  - 能力段位与三次跨越
+  - 化率黑客爬山地图
+  - 转化能力段位
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

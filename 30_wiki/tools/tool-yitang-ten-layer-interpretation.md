@@ -18,6 +18,10 @@ discoverable_by:
 - 如何深度理解一个框架
 - 教学拆解
 - 模型解读
+aliases:
+  - 十层解读法
+  - 十层解读法：感性⇄理性四步摆动
+  - 感性⇄理性四步摆动
 source_refs:
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L528-568
 - 00_inbox/解放思想探索营/解放思想创新体系_逐字稿.md §十层解读
@@ -37,7 +41,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 探索营
 - 解放思想创新体系
 ---

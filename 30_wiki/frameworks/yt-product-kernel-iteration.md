@@ -9,6 +9,13 @@ status: reviewed
 confidence: 0.94
 trust_level: high
 source_context: 一堂产品内核迭代课（2026年）——统一版本，对齐概念卡
+aliases:
+  - 五方向
+  - 五案例
+  - 产品内核迭代
+  - 产品内核迭代：五方向×五案例×触发信号
+  - 内核迭代
+  - 触发信号
 source_refs:
 - 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
 - 10_raw/sources/src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记.md
@@ -42,8 +49,13 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 产品内核迭代课
+discoverable_by:
+- 产品内核迭代
+- 产品迭代方法
+- 内核优化
+- 产品进化
+- 迭代路径
 ---
 
 # 产品内核迭代：五方向 × 五案例 × 触发信号

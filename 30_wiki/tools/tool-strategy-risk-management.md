@@ -40,6 +40,17 @@ related:
 - '[[concept-maister-trusted-advisor]]'
 - yt-demand-qualitative-analysis
 tags:
+aliases:
+  - 业务设计风险管理工具：ISO31000四步闭环×GraceLaConte矩阵
+  - 业务设计风险管理工具
+  - 四步闭环
+  - 矩阵
+  - 设计风险管理工具
+aliases:
+  - 业务设计风险管理工具：ISO31000四步闭环×GraceLaConte矩阵
+  - 业务设计风险管理工具
+  - 四步闭环
+  - 矩阵
 - audience:manager
 - scene:execution
 - skill-level:advanced

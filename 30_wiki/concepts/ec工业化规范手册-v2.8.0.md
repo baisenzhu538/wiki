@@ -1,11 +1,16 @@
 ---
 id: ec工业化规范手册-v2.8.0
+title: "ec工业化规范手册 v2.8.0"
 related:
 - '[[鑫港湾his系统分阶段整改报告]]'
 - '[[诊所o2o外卖平台业务深度调研报告]]'
 - '[[街顺app全面调研报告]]'
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 - '[[pending_unknown]]'
+aliases:
+  - ec工业化规范手册
+  - ec工业化规范手册v2.8.0
+  - 工业化规范手册
 source_refs:
 - pending_archive: src_unknown
 tags:
@@ -13,7 +18,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 > **定位**：鑫港湾HIS系统 · 执行卡片（Execution Card）设计规范
 > **编制**：扫地僧 | 初版 2026-03-28 | 最新更新 2026-04-27（v2.8.0）
 > **范围**：鑫港湾HIS系统全部EC卡的设计、执行、审查

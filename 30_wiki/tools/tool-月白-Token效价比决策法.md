@@ -36,6 +36,11 @@ related:
 - '[[tool-月白-文创材质调研与精益选择]]'
 - '[[tool-月白-社群直播海报利益点提炼法]]'
 tags:
+aliases:
+  - 技能：Token效价比决策法
+  - 技能
+  - Token效价比决策法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

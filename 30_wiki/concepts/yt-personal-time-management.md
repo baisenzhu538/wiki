@@ -1,4 +1,4 @@
-﻿---
+---
 id: yt-personal-time-management
 title: 时间管理
 type: concept
@@ -25,6 +25,17 @@ query_triggers:
 review_date: 2026-07-08
 reviewed_by: "黄药师"
 review_notes: 从L1-L3旧框架升级为L1-L6+三门模型，替换src_unknown为明确来源引用，与framework-yitang-five-step-to-time-management对齐。
+aliases:
+  - 一堂方法论体系总图
+  - 三门模型
+  - 三门模型是操作核心
+  - 太多做不完
+  - 整合笔记
+  - 时间管理
+  - 时间管理课程
+  - 是能力进阶而非简单分层
+  - 深度工作
+  - 管理课程
 source_refs:
   - 00_inbox/时间管理/truman-时间管理课程-口述.txt
   - 00_inbox/时间管理/truman-时间管理课程-笔记.txt

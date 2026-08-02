@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-sales-toolkit-maturity-60-75-85
 title: 销售工具武器库成熟度盘点
 type: tool
@@ -30,6 +30,13 @@ related:
   - "[[case-yitang-sales-transformation-jubensha-saas]]"
   - "[[framework-yitang-deliberate-practice-1plus4]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
+aliases:
+  - 销售工具武器库成熟度盘点
+  - 李蕊
+  - 销售工具箱
+  - 销售系统之五
+  - 销售工具武器库
+  - 销售专题
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

@@ -16,6 +16,11 @@ domain:
 - ai-collaboration
 - personal-os
 - organizational-transformation
+aliases:
+  - 从Copilot到Partner
+  - 从Copilot到Partner：老朱×洪七公的人机协作跃迁诊断
+  - 洪七公的人机协作跃迁诊断
+  - 老朱×洪七公的人机协作跃迁诊断
 source_refs:
 - C:/Users/Administrator/Desktop/老朱×洪七公_人机协作深度洞察.md
 - 00_inbox/人机协作双三角/_processed/洪七公_双三角深度理解.md
@@ -27,7 +32,6 @@ related:
 - '[[framework-yihang-dual-triangle-weapon-library]]'
 - '[[method-dual-triangle-flywheel-engine]]'
 - '[[method-dual-triangle-human-ai-division]]'
-aliases:
 - 老朱洪七公诊断
 - Copilot到Partner
 - 人机协作跃迁

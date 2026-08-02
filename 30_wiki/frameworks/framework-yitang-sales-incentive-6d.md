@@ -14,13 +14,16 @@ domain:
 - yitang
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售专题九层深挖诊断
+aliases:
+  - 一堂六维销售激励模型
+  - 六维销售激励模型
+  - 李蕊
 source_refs:
 - 00_inbox/销售专题/_processed/销售专题_整合笔记.md
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
 - 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-笔记.txt
 - 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt
 - 00_inbox/销售专题/李蕊-销售体系之四-激励体系搭建-口述.txt L398-L402,L1126-L1128,L1648-L1654
-aliases:
 - 六维销售激励
 - 销售激励6D
 - yitang-sales-incentive-6d
@@ -60,6 +63,12 @@ related:
 - '[[tool-agent-spec-yitang-incentive-design]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
+discoverable_by:
+- 销售激励方案
+- 销售团队激励
+- 六维激励模型
+- 销售提成设计
+- 非物质激励
 ---
 # 一堂六维销售激励模型
 

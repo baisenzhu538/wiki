@@ -9,6 +9,14 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain: yitang
+aliases:
+  - TCPR模型：商业管理世界的底层网络协议
+  - 业网络协议框架
+  - 商业底层协议
+  - 商业管理世界的底层网络协议
+  - 是什么
+  - 模型
+  - 管理世界的底层网络协议
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md
@@ -37,6 +45,11 @@ related:
 - '[[tool-模型组合调用]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+discoverable_by:
+  - "TCPR模型"
+  - "TCPI商业底层协议"
+  - "商业网络协议框架"
+  - "TCP-R是什么"
 query_triggers:
 - 让 Agent 以什么身份帮我
 - 切换到研究模式
@@ -57,7 +70,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 单元模型
 - 底层网络协议
 ---

@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-18
+aliases:
+  - 15行修复
+  - P18：手写YAML解析器导致嵌套数据丢失97行bug→15行修复
+  - system
+  - 手写YAML解析器导致嵌套数据丢失
+  - 行修复
+  - 解析器导致嵌套数据丢失
 source_refs:
 - src_unknown
 created_at: 2026-06-03

@@ -11,6 +11,13 @@ language: zh-CN
 version: 1
 confidence: 0.88
 trust_level: medium
+aliases:
+  - Truman
+  - 一堂真正的增长引擎是
+  - 一堂真正的增长引擎是'周对周的建模能力增长
+  - 周对周的建模能力增长
+  - 暗知识
+  - 暗知识：一堂真正的增长引擎是'周对周的建模能力增长
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 source_person: Truman
@@ -42,7 +49,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 建模能力培训
 ---
 

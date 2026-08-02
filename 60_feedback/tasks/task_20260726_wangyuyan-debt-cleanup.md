@@ -4,7 +4,7 @@ task_id: 207
 assignee: laowantong
 status: pending_review
 created_at: 2026-07-26
-updated_at: '2026-07-26T16:17:13.941455+00:00'
+updated_at: '2026-08-02T23:59:00+00:00'
 domain: system
 priority: P3
 ---
@@ -65,6 +65,15 @@ priority: P3
 | # | 卡 | 动作 |
 |:--|:--|:--|
 | 10 | `framework-yitang-jiefang-sixiang.md` | 清理source_refs中000_inbox路径残留 |
+
+### #215讲香新卡欠账（来源：#215复审TODO，2026-08-02）
+
+> 欧阳锋复审#215 PASS/A-时放行的2项🟠TODO，记入本清单（欧阳锋裁决）。
+
+| # | 卡 | 当前状态 | 动作 |
+|:--|:--|:--|:--|
+| 14 | `tool-jiangxiang-ai-four-levels` | 缺`## Critique`节（只有Synthesis） | 补Critique节——外部攻击者（如"快速迭代派：等你想清楚市场已没"）+内部局限（"最后一步"前置时间成本） |
+| 15 | `dk-jiangxiang-boundary-overpromise` | Critique只有内部局限 | 补外部攻击者——如"营销派：讲香就是包装话术""广告法合规视角：断言式金句是否越界" |
 
 ### 发现新问题时追加到本清单
 

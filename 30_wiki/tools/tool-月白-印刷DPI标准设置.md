@@ -33,6 +33,11 @@ related:
 - '[[tool-月白-文件命名与图层命名规范]]'
 - '[[tool-月白-色块分区控制法]]'
 tags:
+aliases:
+  - 技能：印刷DPI标准设置
+  - 技能
+  - 印刷DPI标准设置
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

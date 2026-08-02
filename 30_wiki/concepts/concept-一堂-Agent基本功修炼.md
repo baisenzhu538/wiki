@@ -14,6 +14,13 @@ domain:
 - management
 - yitang
 - ai-collaboration
+aliases:
+  - Agent基本功修炼：KDO工厂就是Agent军团练基本功的系统
+  - 军团练基本功的系统
+  - 功修炼
+  - 基本功修炼
+  - 工厂就是
+  - 练基本功的系统
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt L654-L866
 - 30_wiki/personal-os/zhu-feedback-patterns.md
@@ -48,7 +55,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - fundamentals
 - manage
 ---

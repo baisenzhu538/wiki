@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-用AIGC做设计专家批评复盘]]'
 - '[[tool-月白-电商白底图生成与高清处理]]'
 tags:
+aliases:
+  - 技能：AI提示词精准约束法
+  - 技能
+  - AI提示词精准约束法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

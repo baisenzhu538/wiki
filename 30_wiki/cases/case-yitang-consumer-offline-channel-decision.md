@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 先访谈再算账
+  - 案例
+  - 案例：消费品线下渠道决策先访谈再算账
+  - 消费品线下渠道决策
+  - 消费品线下渠道决策先访谈再算账
+  - 谈再算账
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 用户调研实操课
 - 调研专题
 ---

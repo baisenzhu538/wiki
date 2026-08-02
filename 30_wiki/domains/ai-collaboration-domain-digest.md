@@ -28,6 +28,12 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
+discoverable_by:
+- AI协作域
+- 人机协作
+- AI协同
+- 双三角
+- AI工作流
 ---
 
 # 域摘要：AI 协作方法论

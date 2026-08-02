@@ -14,6 +14,13 @@ updated_at: 2026-07-05
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 从模糊需求到九层可执行计划
+  - 双三角画布演示
+  - 双三角画布演示：巨米推广从模糊需求到九层可执行计划
+  - 巨米推广
+  - 糊需求到九层可执行计划
+  - 角画布演示
 source_refs:
 - 00_inbox/人机协作双三角/_processed/测试_巨米推广_双三角画布.md
 related:
@@ -24,7 +31,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 人机协作双三角
 - 双三角画布
 ---

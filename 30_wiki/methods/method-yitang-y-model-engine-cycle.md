@@ -46,6 +46,12 @@ tags:
 - audience:executor
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- Y模型引擎
+- 决策循环
+- 认知迭代
+- 引擎循环
+- Y模型应用
 ---
 
 # Y模型引擎层：从分析框架到迭代发动机的操作法

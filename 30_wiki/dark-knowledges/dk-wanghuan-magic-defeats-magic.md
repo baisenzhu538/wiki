@@ -20,6 +20,13 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）中的 Q&A 与案例
+aliases:
+  - 不知道怎么定标准时
+  - 对抗
+  - 建立标准
+  - 王欢
+  - 王欢暗知识
+  - 王欢暗知识：不知道怎么定标准时，用AI对抗AI建立标准
 source_refs:
 - 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
 - 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt

@@ -20,6 +20,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 动机阻力
+  - 需求动机
 related:
 - "[[yt-model-pan-product-demand-toolkit]]"
 - "[[yt-model-pan-product-36-strategies]]"

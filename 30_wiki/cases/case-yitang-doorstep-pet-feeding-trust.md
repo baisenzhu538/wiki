@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 上门宠物喂养
+  - 上门宠物喂养用调研解决信任障碍
+  - 案例
+  - 案例：上门宠物喂养用调研解决信任障碍
+  - 用调研解决信任障碍
+  - 研解决信任障碍
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt
@@ -26,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 用户调研实操课
 - 调研专题
 ---

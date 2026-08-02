@@ -20,6 +20,15 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 - https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/
 related:
+aliases:
+  - KeyAssumptionsCheck隐藏假设检验
+  - Check隐藏假设检验
+  - Richars J. Heuer Jr. + Truman（一堂）
+  - 隐藏假设检验
+aliases:
+  - KeyAssumptionsCheck隐藏假设检验
+  - Check隐藏假设检验
+  - Richars J. Heuer Jr. + Truman（一堂）
 - '[[framework-一堂-关键假设]]'
 - '[[framework-一堂-关键假设-三板斧]]'
 - '[[framework-yitang-nine-layer-deep-dig]]'

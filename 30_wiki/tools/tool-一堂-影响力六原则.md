@@ -13,6 +13,13 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂影响力六原则
+  - 一堂影响力六原则：互惠/承诺一致/社会认同/喜好/权威/稀缺使用决策表
+  - 互惠
+  - 喜好
+  - 承诺一致
+  - 社会认同
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3894-L4188
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4176-L4188
@@ -54,7 +61,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - conversion
 - handle
 ---

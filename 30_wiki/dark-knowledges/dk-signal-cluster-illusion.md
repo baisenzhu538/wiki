@@ -7,6 +7,13 @@ status: reviewed
 domain:
 - yitang
 - ai
+aliases:
+  - 为什么12个AI变化信号同时亮起时
+  - 你反而应该更警惕
+  - 信号簇幻觉
+  - 变化信号同时亮起时
+  - 暗知
+  - 暗知：信号簇幻觉为什么12个AI变化信号同时亮起时，你反而应该更警惕
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260610_ac25d82a-一堂-机会预判-三维排列组合01.md
@@ -39,7 +46,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 时效性衰减
   follow_up_question: 这个信号的有效期还有多久？哪些关键变量可能在3个月内推翻它？
-aliases:
 - 三维排列组合
 - 机会预判
 - 机会预判课

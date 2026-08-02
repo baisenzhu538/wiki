@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-8
+aliases:
+  - P8：欧阳锋忘记本地已有武器重新调研已部署工具
+  - system
+  - 欧阳锋忘记本地已有武器
+  - 调研已部署工具
+  - 重新调研已部署工具
+  - 锋忘记本地已有武器
 source_refs:
 - src_unknown
 created_at: 2026-06-03

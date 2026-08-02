@@ -27,6 +27,11 @@ related:
 - framework-yitang-nine-layer-deep-dig
 - user-insight-profile
 tags:
+aliases:
+  - 老朱AI能力刻意练习路线图：从工具使用到智能体搭建的24周
+  - 老朱
+  - 能力刻意练习路线图
+  - 从工具使用到智能体搭建的
 - audience:executor
 - scene:execution
 - skill-level:advanced

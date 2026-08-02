@@ -8,6 +8,9 @@ trust_level: high
 domain:
 - strategy
 - retail
+aliases:
+  - 品类角色矩阵
+  - 零售品类角色矩阵
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_93_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_93_ocr_text.md
@@ -26,7 +29,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

@@ -16,6 +16,9 @@ diagnostic_signals:
 - signal: 是否已完成单点单元模型测算而非仅看政策允许
   framework_lens: 单元经济 / 从政策到利润
   follow_up_question: 冷链、追溯、药师成本是否纳入模型？
+aliases:
+  - 智能药柜分销业态洞察
+  - 药柜分销业态洞察
 source_refs:
 - 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
 - 10_raw/sources/src_20260619_d919434b_00_inbox_广冷电子_pharma_policy.agent.final.md
@@ -44,7 +47,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 广冷电子
 ---
 # 智能药柜分销业态洞察

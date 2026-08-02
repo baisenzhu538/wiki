@@ -8,6 +8,13 @@ domain:
 - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论 分享
+aliases:
+  - 一堂内部
+  - 从微信传
+  - 分发平台
+  - 案例
+  - 案例：一堂内部Skills分发平台从微信传zip到Agent自助
+  - 自助
 source_refs:
 - 10_raw/sources/src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述.md
 tags:
@@ -55,7 +62,6 @@ diagnostic_signals:
   follow_up_question: 能否列出最近一周 3 个因 zip 分发而产生实际损失的现场？如果列不出，先用四问法验证再动手。
 - framework_lens: Agent-facing 设计：元数据应让人"说清楚"后由 AI 补全，安装由 Agent 自动完成
   follow_up_question: 哪些字段可以让维护者口述/截图后由 AI 自动转成结构化元数据？安装步骤能否由 Agent 自己完成？
-aliases:
 - 俱乐部
 - 协作方法论
 ---

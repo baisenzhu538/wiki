@@ -23,6 +23,12 @@ tags:
 - audience:manager
 - scene:reference
 - skill-level:advanced
+discoverable_by:
+- 一堂域
+- 一堂方法论
+- Truman方法论
+- 五步法
+- 创业框架
 ---
 
 # 域摘要：一堂知识体系

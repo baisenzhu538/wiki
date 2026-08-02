@@ -11,6 +11,10 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 提问即思考
+  - 科学提问刻意练习
+  - 科学提问刻意练习：提问即思考
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-科学提问刻意练习_vlm_desc.md
 related:
@@ -26,7 +30,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 个人修炼
 - 科学提问刻意练习
 ---

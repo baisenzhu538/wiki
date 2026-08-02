@@ -36,6 +36,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 tags:
+aliases:
+  - 项目健康度雷达
 - audience:executor
 - scene:execution
 - skill-level:intermediate

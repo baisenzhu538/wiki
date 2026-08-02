@@ -8,6 +8,11 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 园区项目复盘
+  - 智慧园区项目复盘
+  - 案例
+  - 案例：智慧园区项目复盘
 source_refs:
 - pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 - pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection

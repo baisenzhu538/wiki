@@ -14,6 +14,9 @@ updated_at: 2026-06-30 15:23:37+00:00
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-30'
+aliases:
+  - 大馨战队短视频拆解训练营
+  - 战队短视频拆解训练营
 source_refs:
 - 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 query_triggers:
@@ -22,7 +25,6 @@ query_triggers:
 - 短视频拆解群的失败模式
 - 大航海开源群的案例
 - 围观群为什么难以持续
-aliases:
 - daxin-team
 - 大馨战队
 - 短视频拆解训练营

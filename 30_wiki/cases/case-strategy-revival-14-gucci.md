@@ -12,6 +12,13 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain: strategy
+aliases:
+  - Gucci起死回生
+  - 案例
+  - 案例：Gucci起死回生砍折扣+收渠道+换创意+聚焦千禧一代
+  - 砍折扣+收渠道+换创意+聚焦千禧一代
+  - 聚焦千禧一代
+  - 起死回生
 source_refs:
 - src_unknown
 related:

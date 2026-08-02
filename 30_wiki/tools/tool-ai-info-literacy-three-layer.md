@@ -8,6 +8,13 @@ domain:
 - src_unknown
 source_person: 消化全库后提炼
 source_context: 基于master-ai-info-literacy框架提炼，2026-05-18
+aliases:
+  - AI输出三层防护检查法
+  - 全库后提炼
+  - 技能
+  - 技能：AI输出三层防护检查法
+  - 消化全库后提炼
+  - 输出三层防护检查法
 source_refs:
 - pending_archive:source material not yet ingested
 wiki_refs:

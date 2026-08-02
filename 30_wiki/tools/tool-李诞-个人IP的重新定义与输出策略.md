@@ -20,6 +20,10 @@ related:
 - '[[tool-李诞-阅读重读机制：与书籍的-因缘-相遇]]'
 - '[[tool-李诞-面对过去错误的平静心法]]'
 tags:
+aliases:
+  - 技能：个人IP的重新定义与输出策略
+  - 技能
+  - 个人IP的重新定义与输出策略
 - audience:executor
 - scene:execution
 - skill-level:beginner

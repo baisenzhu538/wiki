@@ -25,6 +25,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- Y模型表单
+- 结构化决策
+- 决策模板
+- 决策表单
+- Y模型工具
 ---
 
 # Y模型 解决真实难题的结构化填表法

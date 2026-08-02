@@ -17,6 +17,12 @@ quality_labels:
 - validated
 created_at: 2026-06-27
 updated_at: '2026-06-28'
+aliases:
+  - 动力
+  - 老带新渠道优化工具
+  - 老带新渠道优化工具：动力×触点×阻力
+  - 触点
+  - 阻力
 source_refs:
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-客户介绍增长渠道-常见动力分析_vlm_desc.md
 - 00_inbox/一堂五步法之增长/一堂-渠道探索方法论-客户介绍增长渠道-常见触点分析_vlm_desc.md
@@ -41,7 +47,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 客户介绍增长渠道
 ---

@@ -23,6 +23,10 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-false模型_ocr_text.md
 - 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
+discoverable_by:
+  - "五步法精益接口"
+  - "五步法与精益验证"
+  - "需求到MVP衔接"
 - '[[framework-lean-false-model]]'
 - '[[yitang-domain-digest]]'
 - '[[lean-startup-domain-digest]]'
@@ -30,6 +34,17 @@ related:
 - '[[pending_unknown]]'
 updated_at: '2026-06-30'
 tags:
+aliases:
+  - 五步法与精益验证的接口
+  - 法与精益验证的接口
+  - 与精益验证
+  - 步法与精益验证
+  - 步法精益接口
+  - 精益接口
+aliases:
+  - 五步法与精益验证的接口
+  - 步法与精益验证
+  - 步法精益接口
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

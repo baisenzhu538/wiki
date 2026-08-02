@@ -29,6 +29,11 @@ source_refs:
 - 40_outputs/capabilities/skills/nine-layer-business-dig/SKILL.md
 - 10_raw/sources/src_20260614_78622699-战略培训-九层宝塔模型.md
 related:
+discoverable_by:
+  - "九层深挖法"
+  - "自我纠错迭代分析"
+  - "商业分析深挖"
+  - "L1-L9深挖框架"
 - '[[tool-ai-deliverable-polish-loop]]'
 - '[[yitang-research-domain-digest]]'
 - '[[case-live81-ai-trademark-design]]'
@@ -42,6 +47,20 @@ related:
 - '[[framework-yitang-research-weapon-supplement-2026]]'
 - framework-structured-analytic-techniques
 tags:
+aliases:
+  - 九层深挖法：商业分析的自我纠错式迭代框架
+  - 九层深挖法
+  - 商业分析的自我纠错式迭代框架
+  - 深挖框架
+  - 层深挖法
+  - 析深挖
+aliases:
+  - 九层深挖法：商业分析的自我纠错式迭代框架
+  - 九层深挖法
+  - 商业分析的自我纠错式迭代框架
+  - 我纠错迭代分析
+  - 业分析深挖
+  - 层深挖法
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

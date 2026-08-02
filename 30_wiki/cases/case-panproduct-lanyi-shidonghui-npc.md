@@ -17,6 +17,13 @@ quality_labels:
 - cited
 - validated
 updated_at: '2026-06-28'
+aliases:
+  - 世董会与
+  - 兰毅
+  - 兰毅 / 一堂
+  - 兰毅：世董会与NPC的组织产品化实践
+  - 的组织产品化实践
+  - 织产品化实践
 source_refs:
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt
 - 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-笔记.txt
@@ -40,7 +47,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 泛产品设计
 - 泛产品设计课程
 ---

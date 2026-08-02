@@ -13,6 +13,10 @@ updated_at: 2026-07-11
 domain:
 - management
 - yitang
+aliases:
+  - 三环六维自检
+  - 三环六维自检：10分钟判断一个动作配不配练成基本功
+  - 分钟判断一个动作配不配练成基本功
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt L240-L300
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/拆解卡-六维分析-05_vlm.md
@@ -44,7 +48,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - fundamentals
 - manage
 ---

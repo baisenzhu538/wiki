@@ -8,6 +8,11 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂五步法——跨步三：从10到100的壁垒
+aliases:
+  - 从10到100的壁垒
+  - 的壁垒
+  - 跨步三
+  - 跨步三：从10到100的壁垒
 source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -37,9 +42,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核验证课
+discoverable_by:
+- 五步法跨步
+- 增长到壁垒
+- 五步闭环
+- 增长壁垒联动
+- 五步衔接
 ---
 
 # 跨步三：从10到100的壁垒

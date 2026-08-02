@@ -6,6 +6,13 @@ status: enriched
 domain:
 - src_unknown
 - src_unknown
+aliases:
+  - 7SFramework：组织诊断的七维模型
+  - 组织诊断的七维模型
+  - 织诊断框架
+  - 织诊断模型
+  - 维组织诊断框架
+  - 肯锡组织诊断
 source_refs:
 - src_unknown
 bridges_to:
@@ -18,6 +25,12 @@ bridges_to:
 - relation: uses
   description: 7-S 是 MECE 原则在组织诊断中的具体应用
   context: 7 个维度相互独立、共同构成组织整体，符合 MECE 原则
+discoverable_by:
+  - "7S模型"
+  - "麦肯锡7S"
+  - "组织诊断模型"
+  - "七维组织诊断框架"
+  - "麦肯锡组织诊断"
 diagnostic_signals:
 - framework_lens: 7-S 检查：从 7 个维度逐一排查，识别哪个维度是薄弱环节
   follow_up_question: 如果用一句话说你们团队最痛的地方，是战略不清、结构不对、还是人不对？

@@ -2,6 +2,13 @@
 id: tool-ai-skill-engineering-method
 title: AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位
 type: tool
+aliases:
+  - AISkill工程化封装法：用指南把AI输出锁死在高质量水位
+  - Truman
+  - 化封装法
+  - 工程化封装法
+  - 用指南把
+  - 输出锁死在高质量水位
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
@@ -56,7 +63,6 @@ diagnostic_signals:
   follow_up_question: 你在生成 Skill 时，是否至少经过 5-15 轮针对架构、遗漏、逻辑链、优先级的迭代纠偏？
 - framework_lens: 缺乏可复用的工程指南和审计基准
   follow_up_question: 你是否把“好 Skill”的审美转化为 P0/P1/P2 检查清单，并让 AI 用统一维度做交叉验证？
-aliases:
 - 建模能力培训
 ---
 

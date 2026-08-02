@@ -1,5 +1,6 @@
 ---
 id: dk-ai-cross-domain-inference
+title: "AI跨域自发推导：碎片中拼出完整框架"
 type: dk
 domain: ai-collaboration
 status: draft
@@ -10,6 +11,17 @@ reviewed_by: 待审
 confidence: 0.80
 trust_level: observed
 version: 1.0.0
+aliases:
+  - AI跨域自发推导
+  - AI跨域自发推导：碎片中拼出完整框架
+  - 中拼出完整框架
+  - 关键是底层逻辑是否自洽
+  - 域推导与原始课程内容有偏差
+  - 推导出
+  - 的误解
+  - 碎片中拼出完整框架
+  - 课程推导出
+  - 跨域推导
 source_refs:
   - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6820-6842
   - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6820-6824
@@ -34,11 +46,7 @@ diagnostic_signals:
   - "跨域推导与原始课程内容有偏差 → 需要验证：偏差是AI的误解，还是课程之间的真实张力？"
   - "知识库碎片化但AI能串起来 → 知识库碎片化不一定是问题，关键是底层逻辑是否自洽"
 discoverable_by: "AI跨域推导、AI自发推理、跨课程推导、AI涌现、汗毛竖起"
-aliases:
-  - AI跨域自发推导
-  - 跨域推导
 ---
-
 # AI跨域自发推导：碎片中拼出完整框架
 
 > **定位**：属于 [[framework-kdo-modeling-methodology|KDO 建模方法论]] 的「底层自洽→上层推导」原则在 AI 场景的涌现验证。与 [[dk-bfm-compression-path|压缩路径]] 形成正交——压缩路径是人有意识地找模式，跨域推导是 AI 无意识地自己长出来。

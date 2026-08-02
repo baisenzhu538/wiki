@@ -13,6 +13,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 与生存的平衡
+  - 法律与生存的平衡
+  - 调研责任边界
+  - 调研责任边界：道德、法律与生存的平衡
+  - 责任边界
+  - 道德
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
@@ -29,7 +36,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研武器库培训
 ---

@@ -28,6 +28,8 @@ source_refs:
 - 30_wiki/concepts/concept-一堂-基本功-刻意练习四要素.md
 - 30_wiki/tools/tool-一堂-基本功-三环六维自检.md
 related:
+discoverable_by:
+  - "业务公式基本功桥接"
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[framework-一堂-基本功-九层金字塔]]'
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
@@ -55,6 +57,18 @@ quality_labels:
 - framework
 - insight
 tags:
+aliases:
+  - 业务公式×基本功域桥接：同一套操作系统的两个对象
+  - 业务公式×基本功域桥接
+  - 同一套操作系统的两个对象
+  - 套操作系统的两个对象
+  - 基本功域桥接
+  - 务公式基本功桥接
+aliases:
+  - 业务公式×基本功域桥接：同一套操作系统的两个对象
+  - 业务公式×基本功域桥接
+  - 同一套操作系统的两个对象
+  - 务公式基本功桥接
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

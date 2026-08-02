@@ -25,6 +25,12 @@ diagnostic_signals:
 - signal: 不知道盈亏平衡点
   lens: 算清单件成本底线
   follow_up: 算清单件成本底线
+aliases:
+  - 从成本反推可行性
+  - 单元模型反向测算
+  - 单元模型反向测算：从成本反推可行性
+  - 本反推可行性
+  - 模型反向测算
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt
 - 00_inbox/解放思想探索营/案例分享-笔记.txt
@@ -34,7 +40,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

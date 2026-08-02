@@ -13,6 +13,13 @@ created_at: 2026-07-12
 updated_at: 2026-07-12
 domain:
 - personal-os
+aliases:
+  - 三道防线
+  - 子代理外存+行号锚点
+  - 密度×长度选策略
+  - 理外存
+  - 长素材分层读取协议
+  - 长素材分层读取协议：密度×长度选策略/子代理外存+行号锚点/三道防线
 source_refs:
 - 30_wiki/personal-os/wangyuyan-working-protocols.md
 - 70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md
@@ -35,7 +42,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - product
 - tasks
 ---

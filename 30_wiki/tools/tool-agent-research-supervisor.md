@@ -16,6 +16,11 @@ tags:
 - skill-level:intermediate
 source_person: LangChain Team（Will Fu-Hinthorn）+ Truman（一堂）
 source_context: LangChain 官方 Supervisor 模式 benchmark + 优化方案
+aliases:
+  - Agent调研Supervisor模式工具
+  - LangChain Team（Will Fu-Hinthorn）+ Truman（一堂）
+  - 模式工具
+  - 调研
 source_refs:
 - https://www.langchain.com/blog/benchmarking-multi-agent-architectures
 - https://github.com/langchain-ai/langgraph-supervisor-py

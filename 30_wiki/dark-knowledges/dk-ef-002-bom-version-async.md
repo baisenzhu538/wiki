@@ -7,6 +7,13 @@ domain:
 dark_knowledge_type: hardware-failure
 source_person: 黄药师
 source_context: 多人交接的硬件项目——原理图/BOM/PCB/Gerber/固件散落在多台电脑，版本混乱
+aliases:
+  - BOM多版本不同步：你手里的文件和产线手里的不是同一份
+  - 你手里的文件和产线手里的不是同一份
+  - 多版本不同步
+  - 本不同步
+  - 里的文件和产线手里的不是同一份
+  - 黄药师
 source_refs:
 - 90_control/electronics-practice/failure-modes-electronics.md
 created_at: 2026-06-07
@@ -28,7 +35,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - control
 - electronics
 - practice

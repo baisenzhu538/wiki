@@ -18,6 +18,9 @@ discoverable_by:
 - 创新为什么失败
 - 创新卡点
 - 解放思想常见错误
+aliases:
+  - 思想六大失败模式
+  - 解放思想六大失败模式
 source_refs:
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-笔记.txt
 - 00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt
@@ -38,7 +41,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 探索营
 - 解放思想创新体系
 ---

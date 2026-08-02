@@ -17,6 +17,11 @@ domain:
 - r-and-d
 - patent
 - organizational-transformation
+aliases:
+  - 一行双三角案例
+  - 一行双三角案例：硬件公司专利落地的规则显性化与一号位决心
+  - 双三角案例
+  - 硬件公司专利落地的规则显性化与一号位决心
 source_refs:
 - 00_inbox/人机协作双三角/【组织】硬件公司专利案例口述.pdf
 - 00_inbox/人机协作双三角/_processed/组织硬件公司专利案例口述_text.md
@@ -29,7 +34,6 @@ related:
 - '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
 - '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
 - '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
-aliases:
 - 硬件公司专利案例
 - 规则显性化案例
 - 专利落地案例

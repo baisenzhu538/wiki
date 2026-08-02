@@ -15,6 +15,12 @@ updated_at: '2026-07-19'
 quality_labels:
 - cited
 - actionable
+aliases:
+  - 共建会/攻坚会流程建模
+  - 共建会/攻坚会流程建模：从3050%成功率到80100%的89步法
+  - 成功率到
+  - 攻坚会流程建模
+  - 步法
 source_refs:
 - 00_inbox/Advanced modeling/ 口述 §3.2
 - 00_inbox/Advanced modeling/ 攻坚会的流程VLM+OCR
@@ -28,7 +34,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - advanced
 - modeling
 ---

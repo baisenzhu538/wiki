@@ -14,6 +14,9 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 专家访谈五大陷阱
+  - 访谈五大陷阱
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 related:

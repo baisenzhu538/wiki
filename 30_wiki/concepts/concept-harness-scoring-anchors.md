@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - ai-collaboration
+aliases:
+  - 5分制+语义锚点+取较低值
+  - 取较低值
+  - 评分锚定
+  - 评分锚定：15分制+语义锚点+取较低值
+  - 语义锚点
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
 related:

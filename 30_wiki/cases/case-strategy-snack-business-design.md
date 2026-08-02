@@ -12,6 +12,12 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain: strategy
+aliases:
+  - 从大众散货到家庭健康亲子零食专家
+  - 企业业务设计示例
+  - 众散货到家庭健康亲子零食专家
+  - 零食企业业务设计示例
+  - 零食企业业务设计示例：从大众散货到家庭健康亲子零食专家
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_ocr_text.md
@@ -25,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

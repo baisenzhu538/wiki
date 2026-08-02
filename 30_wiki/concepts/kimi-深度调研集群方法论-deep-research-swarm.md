@@ -2,6 +2,10 @@
 id: kimi-深度调研集群方法论-deep-research-swarm
 created_at: 2026-05-01
 domain: ai-saas
+aliases:
+  - Kimi深度调研集群方法论DeepResearchSwarm
+  - 深度调研集群方法论
+  - 调研集群方法论
 source_refs:
 - 10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md
 status: reviewed
@@ -35,7 +39,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 深度调研集群方法论
 ---
 

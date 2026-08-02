@@ -8,6 +8,13 @@ domain:
 - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论 分享 + 真实项目 /focus 功能的产品设计提示词
+aliases:
+  - 协作产品设计
+  - 实现交接
+  - 案例
+  - 案例：纪浩的AI协作产品设计从S1设计冻结到S7实现交接
+  - 纪浩的
+  - 设计冻结到
 source_refs:
 - 10_raw/sources/src_20260619_76cc7f71_00_inbox_AI俱乐部_人和AI协作_纪浩_提示词案例01.txt
 - 10_raw/sources/src_20260619_5ec7f3c8_00_inbox_AI俱乐部_人和AI协作_纪浩_提示词案例02.txt
@@ -69,7 +76,6 @@ diagnostic_signals:
 - framework_lens: Migration Stop Point 硬门禁缺失
   follow_up_question: 这个改动是否必须新增 indexed/generated fields、专表或 DB migration？如果是，有没有先停下进入
     schema/data contract gate？
-aliases:
 - 五层结构
 - 俱乐部
 - 参考案例

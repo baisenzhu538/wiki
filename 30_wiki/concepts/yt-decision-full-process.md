@@ -31,6 +31,13 @@ related:
 - '[[yt-decision-review]]'
 - '[[yt-decision-habit-shift]]'
 - '[[yt-decision-y-model]]'
+aliases:
+  - 写初版
+  - 有共识
+  - 有意识
+  - 有意识→写初版→细打磨→有共识→复盘五阶段模型
+  - 科学决策全景流程
+  - 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched
@@ -85,7 +92,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 课程地图精华串讲
 ---
 

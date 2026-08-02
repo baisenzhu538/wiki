@@ -10,6 +10,13 @@ industry: 在线教育
 scale: 公司
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
+aliases:
+  - Truman
+  - 一堂用
+  - 扫描内容资产
+  - 把三四百个模型归集到二三十个范式
+  - 案例
+  - 案例：一堂用AI扫描内容资产，把三四百个模型归集到二三十个范式
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 wiki_refs:
@@ -63,7 +70,6 @@ related:
 - '[[tool-纪浩-案例池构建法]]'
 - '[[case-科学决策-ROI案例03]]'
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-aliases:
 - 建模能力培训
 ---
 

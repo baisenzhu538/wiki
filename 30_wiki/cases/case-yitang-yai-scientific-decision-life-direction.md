@@ -12,6 +12,13 @@ domain:
 - yitang
 - decision-science
 - ai-collaboration
+aliases:
+  - 50岁创业者的留vs走与赛道选择
+  - YAI实录
+  - YAI实录：关键决策agent50岁创业者的留vs走与赛道选择
+  - 关键决策agent
+  - 岁创业者的留
+  - 走与赛道选择
 source_refs:
 - C:/Users/Administrator/Desktop/YAI/关键决策agent-我现在面临重大的人生方向选择的 (1).md
 related:
@@ -30,7 +37,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - administrator
 - desktop
 - users

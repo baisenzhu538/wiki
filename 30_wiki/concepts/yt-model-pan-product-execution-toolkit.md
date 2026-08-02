@@ -1,4 +1,4 @@
-﻿---
+---
 id: yt-model-pan-product-execution-toolkit
 component_of:
 - "[[yt-composite-pan-product-methodology]]"
@@ -32,6 +32,13 @@ related:
 review_by: 2026-11-11
 reviewed_by: 黄药师
 review_notes: v2升级：2026-07-08由老顽童补齐19张卡牌真实名称与A/B/C分级，增补8张核心卡口头操作细节。source_refs精确到口述稿行号。
+aliases:
+  - 品设计
+  - 工具箱
+  - 张卡牌
+  - 泛产品设计
+  - 泛产品设计落地工具箱19张卡牌
+  - 落地工具箱19张卡牌
 source_refs:
 - 10_raw/sources/src_20260510_f2a1d58b-一堂泛产品设计落地工具箱指南-堂.md
 - 00_inbox/一堂-个人修身-泛产品设计实操口述版.md L2750-L2920,L4082-L4140,L4234-L4348,L4456-L4588,L4716-L4870,L5066-L5080,L5100-L5170

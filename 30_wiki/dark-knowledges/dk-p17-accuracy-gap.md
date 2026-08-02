@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-17
+aliases:
+  - system
+  - 个维度
+  - 准确率
+  - 声称85%准确率
+  - 实测34.8%
+  - 差距来自被忽略的5个维度
 source_refs:
 - src_unknown
 created_at: 2026-06-03

@@ -23,6 +23,13 @@ related:
 - '[[yt-model-product-core-metrics]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - 五步法画布
+  - 五步法画布×产品内核画布：从假设到壁垒的实操工具
+  - 产品内核画布
+  - 从假设到壁垒的实操工具
+  - 法画布
+  - 设到壁垒的实操工具
 source_refs:
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md
 status: enriched
@@ -47,7 +54,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases:
 - 一堂五步法画布
 ---
 

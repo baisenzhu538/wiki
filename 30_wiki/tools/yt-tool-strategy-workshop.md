@@ -35,6 +35,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 tags:
+aliases:
+  - 战略研讨会引导手册
 - audience:executor
 - scene:execution
 - skill-level:intermediate

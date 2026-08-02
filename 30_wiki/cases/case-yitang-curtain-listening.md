@@ -1,4 +1,4 @@
-﻿---
+---
 id: case-yitang-curtain-listening
 title: 案例：一堂帘子隔音——用物理隔离在开放式办公中创造"可调场景质量"
 type: case
@@ -8,6 +8,14 @@ domain:
   - time-management
 source_person: Truman
 source_context: 一堂时间管理课程中，Truman 提到一堂办公室用帘子作为物理隔离手段——当一个团队成员的开放式工位无法满足深度工作需求时，拉上帘子就临时创造一个"封闭空间"
+aliases:
+  - Truman
+  - 一堂帘子隔音
+  - 三门模型的
+  - 整合笔记
+  - 案例
+  - 案例：一堂帘子隔音用物理隔离在开放式办公中创造可调场景质量
+  - 用物理隔离在开放式办公中创造可调场景质量
 source_refs:
   - 00_inbox/时间管理/truman-时间管理课程-口述.txt
   - 00_inbox/时间管理/truman-时间管理课程-笔记.txt

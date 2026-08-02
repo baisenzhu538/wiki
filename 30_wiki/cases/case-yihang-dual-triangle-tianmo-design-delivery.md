@@ -17,6 +17,12 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-04
+aliases:
+  - 一行双三角案例
+  - 一行双三角案例：天末4天商业级室内设计交付
+  - 双三角案例
+  - 天商业级室内设计交付
+  - 天末4天商业级室内设计交付
 source_refs:
 - 00_inbox/人机协作双三角/_processed/天末的案例口述_page001_vlm.md
 - 00_inbox/人机协作双三角/_processed/天末的案例口述_page002_vlm.md
@@ -39,7 +45,6 @@ related:
 - '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
 - '[[case-yihang-dual-triangle-hardware-patent-rule-explicit]]'
 - '[[case-yihang-dual-triangle-hotel-tag-sandbox]]'
-aliases:
 - 天末案例
 - 设计交付案例
 - 人机协作双三角

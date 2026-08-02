@@ -26,6 +26,8 @@ reviewed_by: 欧阳锋 - concept-collaboration-philosophy-foundation - tool-game
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
+aliases:
+  - 公司文化
 source_refs:
 - 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）

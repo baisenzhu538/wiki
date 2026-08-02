@@ -13,6 +13,13 @@ updated_at: 2026-07-05
 domain:
 - ai-collaboration
 - yitang
+aliases:
+  - 双三角作为一堂未来5年战略操作系统
+  - 双三角作为一堂未来5年战略操作系统笃定、迭代速度、知行合一
+  - 年战略操作系统笃定
+  - 知行合一
+  - 笃定
+  - 迭代速度
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
@@ -23,7 +30,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 一堂双三角
 - 人机协作双三角
 ---

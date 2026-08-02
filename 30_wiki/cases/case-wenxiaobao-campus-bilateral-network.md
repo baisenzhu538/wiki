@@ -27,6 +27,13 @@ similar_to:
 - 贝壳找房（从链家直营到平台网络）
 opposite_of:
 - 传统驾校（单业务、无网络效应）
+aliases:
+  - 从驾校到学生网络平台
+  - 双边网络
+  - 宝校园双边网络
+  - 校园双边网络
+  - 温小宝
+  - 温小宝校园双边网络：从驾校到学生网络平台
 source_refs:
 - 00_inbox/解放思想探索营/案例分享-口述.txt L1-890
 - 00_inbox/解放思想探索营/案例分享-笔记.txt §二
@@ -47,7 +54,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 案例分享
 - 解放思想探索营
 ---

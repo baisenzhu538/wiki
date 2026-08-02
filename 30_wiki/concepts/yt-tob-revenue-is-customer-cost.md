@@ -8,6 +8,10 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - ToB收入本质=客户成本
+  - 客户成本
+  - 收入本质
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md

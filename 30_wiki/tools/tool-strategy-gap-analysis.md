@@ -13,6 +13,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 业绩差距内部+机会差距外部
+  - 差距内部
+  - 差距分析
+  - 差距分析：战略的起点业绩差距内部+机会差距外部
+  - 战略的起点
+  - 战略的起点业绩差距内部
 source_refs:
 - pending_archive:src_unknown
 tags:

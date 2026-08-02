@@ -2,6 +2,10 @@
 id: 轻量级诊所HIS调研全清单
 created_at: 2026-05-03
 domain: healthcare
+aliases:
+  - 级诊所
+  - 调研全清单
+  - 轻量级诊所HIS调研全清单
 source_refs:
 - 10_raw/sources/src_20260503_5c91e867-轻量级诊所HIS调研全清单.md
 status: reviewed
@@ -27,7 +31,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 调研全清单
 - 轻量级诊所
 ---

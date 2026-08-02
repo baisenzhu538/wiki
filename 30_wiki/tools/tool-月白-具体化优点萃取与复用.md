@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-文创材质成本调研与精益选择]]'
 - '[[tool-月白-实物包装落地训练法]]'
 tags:
+aliases:
+  - 技能：具体化优点萃取与复用
+  - 技能
+  - 具体化优点萃取与复用
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -33,6 +33,11 @@ related:
 - '[[tool-纪浩-处理AI生成代码运行异常]]'
 - tool-ai-deliverable-polish-loop
 tags:
+aliases:
+  - 技能：设计素材脱敏处理规范
+  - 技能
+  - 设计素材脱敏处理规范
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

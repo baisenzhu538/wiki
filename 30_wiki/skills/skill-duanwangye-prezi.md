@@ -24,6 +24,12 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+discoverable_by:
+- Prezi
+- 无限画布
+- 空间叙事
+- HTML演示
+- 段王爷演示
 ---
 
 # 段王爷·Prezi 无限画布演示发布

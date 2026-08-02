@@ -35,6 +35,10 @@ related:
 - '[[pending_unknown]]'
 - '[[tool-yitang-research-competitor-tracking]]'
 tags:
+aliases:
+  - 地图在手：建立全局信息获取体系
+  - 地图在手
+  - 建立全局信息获取体系
 - audience:executor
 - scene:execution
 - skill-level:intermediate

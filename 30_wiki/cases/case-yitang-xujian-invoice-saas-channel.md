@@ -19,6 +19,13 @@ quality_labels:
 - validated
 created_at: 2026-06-27
 updated_at: '2026-06-28'
+aliases:
+  - Truman
+  - 如何通过渠道探索找到支付推手
+  - 徐建发票
+  - 案例
+  - 案例：徐建发票SaaS如何通过渠道探索找到支付推手
+  - 通过渠道探索找到支付推手
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 source_person: Truman
@@ -38,7 +45,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法之增长
 - 渠道探索方法论
 ---

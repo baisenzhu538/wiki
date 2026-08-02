@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-open-closed-problem-classifier
 title: 开放/封闭问题分类器：判断任务该交给 AI 控制台还是 Agent 平台
 type: tool
@@ -14,6 +14,13 @@ domain:
 - ai-collaboration
 - ai-native
 - decision-making
+aliases:
+  - 判断任务该交给
+  - 台还是
+  - 平台
+  - 开放/封闭问题分类器
+  - 开放/封闭问题分类器：判断任务该交给AI控制台还是Agent平台
+  - 控制台还是
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
@@ -33,7 +40,6 @@ related:
 - "[[tool-Truman-人在环渐进自动化策略]]"
 - "[[yt-decision-y-model]]"
 - "[[concept-AI时代双三角竞争力]]"
-aliases:
 - 开放封闭问题分类器
 - open-closed-problem-classifier
 - AI 任务形态判断器

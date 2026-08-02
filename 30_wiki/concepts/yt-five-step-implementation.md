@@ -30,6 +30,12 @@ related:
 - '[[yt-five-step-common-pitfalls]]'
 review_date: 2026-06-11
 reviewed_by: 老顷童
+aliases:
+  - 事版到分工版
+  - 五步法落地实操
+  - 五步法落地实操：从故事版到分工版
+  - 从故事版到分工版
+  - 法落地实操
 source_refs:
 - 10_raw/sources/src_20260611_7c893d19-一堂-一堂五步法-落地实操-口述.md
 - 10_raw/sources/src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记.md
@@ -57,7 +63,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 - 落地实操
 ---

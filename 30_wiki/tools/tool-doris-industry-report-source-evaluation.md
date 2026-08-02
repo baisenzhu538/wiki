@@ -22,6 +22,12 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 多信数据
+  - 少信观点
+  - 报告可信度评估
+  - 行业报告可信度评估
+  - 行业报告可信度评估：多信数据，少信观点
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
@@ -36,7 +42,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 行业报告调研
 - 调研专题
 ---

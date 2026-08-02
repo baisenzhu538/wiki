@@ -1,4 +1,4 @@
-﻿---
+---
 id: framework-yitang-project-retrospective
 title: 项目复盘：美团16字原则——从经验中挖金矿
 type: framework
@@ -14,6 +14,13 @@ updated_at: 2026-07-07
 domain:
 - yitang
 - management
+aliases:
+  - 从经验中挖金矿
+  - 字原则
+  - 美团16字原则
+  - 项目复盘
+  - 项目复盘：美团16字原则从经验中挖金矿
+  - 验中挖金矿
 source_refs:
 - 00_inbox/管项目/项目管理-做复盘-口述.txt
 - 00_inbox/管项目/项目管理-做复盘-笔记.txt
@@ -47,6 +54,12 @@ quality_labels:
 - actionable
 - validated
 - battle-tested
+discoverable_by:
+- 项目复盘方法
+- 美团十六字原则
+- 复盘方法论
+- 成败认定
+- 经验沉淀
 ---
 
 # 项目复盘：美团16字原则——从经验中挖金矿

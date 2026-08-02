@@ -9,6 +9,9 @@ created_at: 2026-05-03
 domain: healthcare
 review_date: 2026-05-03
 reviewed_by: Claude
+aliases:
+  - HIS系统深度调研
+  - 系统深度调研
 source_refs:
 - 10_raw/sources/src_20260503_968e0210-HIS系统深度调研.md
 status: reviewed
@@ -38,7 +41,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 系统深度调研
 ---
 

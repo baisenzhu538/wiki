@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-三步作业反馈法]]'
 - '[[tool-月白-一抽流长提示词写作法]]'
 tags:
+aliases:
+  - 技能：图片逆向反推提示词法
+  - 技能
+  - 图片逆向反推提示词法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

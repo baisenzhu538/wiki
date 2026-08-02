@@ -36,6 +36,11 @@ related:
 - '[[tool-月白-智能扩图-拓图双方案]]'
 - '[[tool-月白-纳米级抄大师训练法]]'
 tags:
+aliases:
+  - 技能：Token效价比决策公式
+  - 技能
+  - Token效价比决策公式
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

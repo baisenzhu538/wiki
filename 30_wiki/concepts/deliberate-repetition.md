@@ -18,6 +18,8 @@ reviewed_by: 欧阳锋
 review_date: 2026-06-29
 confidence: 0.8
 trust_level: high
+aliases:
+  - 刻意重复
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
 - 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
@@ -31,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 元能力-刻意练习
 - 关于刻意练习的对话
 ---

@@ -21,6 +21,9 @@ query_triggers:
 - src_unknown·审美卡片：美好作品想象
 - src_unknown
 - src_unknown
+aliases:
+  - 审美想象
+  - 最美设想
 related:
 - "[[yt-model-pan-product-aesthetic-toolkit]]"
 - "[[yt-panproduct-aesthetic-modeling]]"

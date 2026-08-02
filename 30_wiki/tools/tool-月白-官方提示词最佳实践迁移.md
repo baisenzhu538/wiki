@@ -32,6 +32,11 @@ related:
 - '[[tool-月白-AI生成电商白底图]]'
 - '[[tool-月白-PPT全AI生成工作流]]'
 tags:
+aliases:
+  - 技能：官方提示词最佳实践迁移
+  - 技能
+  - 官方提示词最佳实践迁移
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

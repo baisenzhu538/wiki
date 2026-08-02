@@ -8,6 +8,13 @@ domain:
 - validation
 source_person: 王语嫣
 source_context: 听脑 other 主题摘要综合（11 条录音 meetingSummary）
+aliases:
+  - AI时代的业务验证、商业模式与组织协作：主题综合索引卡
+  - 主题综合索引卡
+  - 商业模式与组织协作
+  - 时代的业务验证
+  - 王语嫣
+  - 综合索引卡
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 - 10_raw/sources/src_20260614_cb61aeca-外卖平台-智能分单系统沟通.md
@@ -34,7 +41,6 @@ trust_level: medium
 related:
 - '[[ai-collaboration-mindset-shift]]'
 - '[[ai-landing-scene-selection]]'
-aliases:
 - 一起引擎
 - 刘长胜
 - 外卖对接方案讨论

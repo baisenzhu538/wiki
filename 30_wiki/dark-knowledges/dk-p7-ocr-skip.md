@@ -8,6 +8,13 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-7
+aliases:
+  - P7：素材预处理缺少OCR强制检查执行者跳过图片
+  - system
+  - 强制检查
+  - 执行者跳过图片
+  - 素材预处理缺少
+  - 者跳过图片
 source_refs:
 - src_unknown
 created_at: 2026-06-03

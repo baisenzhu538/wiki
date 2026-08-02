@@ -14,6 +14,12 @@ updated_at: 2026-07-04
 domain:
 - yitang
 - ai-collaboration
+aliases:
+  - 人在环
+  - 人在环×双三角：从治理原则到能力地图
+  - 从治理原则到能力地图
+  - 双三角
+  - 理原则到能力地图
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 - 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
@@ -32,7 +38,6 @@ related:
 - '[[framework-ai-native-organization-two-modes]]'
 - '[[tool-open-closed-problem-classifier]]'
 - '[[agent-spec-codex-teammate]]'
-aliases:
 - 人在环双三角关系
 - HITL双三角
 - annotations

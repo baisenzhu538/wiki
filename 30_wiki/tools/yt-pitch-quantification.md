@@ -29,6 +29,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 tags:
+aliases:
+  - 讲香数字化
+  - 讲香
+  - 数字化
 - audience:executor
 - scene:execution
 - skill-level:intermediate

@@ -6,6 +6,11 @@ title: 系统思考：反馈循环与杠杆点
 type: concept
 status: reviewed
 source_context: 一堂科学决策课程——系统思考、反馈循环与杠杆点
+aliases:
+  - 反馈循环与杠杆点
+  - 循环与杠杆点
+  - 系统思考
+  - 系统思考：反馈循环与杠杆点
 source_refs:
 - pending_archive:src_20260522_d96543bb-ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md
 - pending_archive:src_20260522_f3429a35-ocr-一堂-科学决策-决策三角形.md
@@ -28,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂双三角磨合追求
 - 五层进阶从答案到效率到作品到产品到系统
 - 从入门到无限进步

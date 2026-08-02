@@ -16,6 +16,19 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三�?_processed/【组织】硬件公�?AI专利落地案例_vlm.md
 related:
+aliases:
+  - 双三角案例：硬件公司AI专利落地规则显性化与一号位决心
+  - 双三角案例
+  - 硬件公司
+  - 专利落地
+  - 规则显性化与一号位决心
+  - 专利落地规则显性化与一号位决心
+aliases:
+  - 双三角案例：硬件公司AI专利落地规则显性化与一号位决心
+  - 双三角案例
+  - 硬件公司
+  - 专利落地
+  - 规则显性化与一号位决心
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[case-yihang-dual-triangle-hotel-tag-sandbox]]"
 - "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"

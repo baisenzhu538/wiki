@@ -8,6 +8,12 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略系列课——技术护城河
+aliases:
+  - 与研发
+  - 专利与研发
+  - 技术护城河
+  - 技术护城河：专利与研发
+  - 护城河
 source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -35,7 +41,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核验证课
 ---

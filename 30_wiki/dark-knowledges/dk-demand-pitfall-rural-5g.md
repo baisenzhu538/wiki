@@ -10,6 +10,13 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 偏远县域5G
+  - 性误判
+  - 普遍性误判
+  - 普遍性误判。政策推动≠市场存在
+  - 踩坑
+  - 踩坑：偏远县域5G普遍性误判。政策推动≠市场存在
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
@@ -27,7 +34,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 需求评估避坑合集
 ---

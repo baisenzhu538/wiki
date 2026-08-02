@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-智能扩图-拓图双方案]]'
 - '[[tool-纪浩-处理AI生成代码运行异常]]'
 tags:
+aliases:
+  - 技能：AI电商图人工精修与平台合规发布
+  - 技能
+  - AI电商图人工精修与平台合规发布
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

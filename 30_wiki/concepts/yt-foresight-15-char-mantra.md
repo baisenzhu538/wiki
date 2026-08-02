@@ -4,6 +4,12 @@ title: 十五字黄金法诀：机会预判的核心框架
 type: concept
 domain:
 - src_unknown
+aliases:
+  - 十五字黄金法诀
+  - 十五字黄金法诀：机会预判的核心框架
+  - 字黄金法诀
+  - 机会预判的核心框架
+  - 预判的核心框架
 source_refs:
 - 10_raw/sources/src_20260610_b3e09bdf-一堂-机会预判-终局光谱图-truman-图01.md
 - 10_raw/sources/src_20260610_d9fca55f-一堂-机会预判-终局光谱图-truman-图02.md
@@ -51,7 +57,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 机会预判
 - 终局光谱图
 ---

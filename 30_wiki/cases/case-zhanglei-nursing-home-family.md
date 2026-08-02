@@ -13,6 +13,11 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 假扮孙子调研养老院真实状况
+  - 孙子调研养老院真实状况
+  - 案例
+  - 案例：假扮孙子调研养老院真实状况
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
@@ -25,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研武器库培训
 ---

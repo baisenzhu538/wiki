@@ -19,6 +19,11 @@ query_triggers:
 - src_unknown
 review_date: 2026-06-10
 reviewed_by: 老顷童（精修）
+aliases:
+  - 案例
+  - 案例：线下玩具柜商业模式
+  - 玩具柜商业模式
+  - 线下玩具柜商业模式
 source_refs:
 - 10_raw/sources/src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例.md
 - 10_raw/sources/src_20260610_be139711-一堂-一堂五步法-单元模型-口述.md
@@ -48,7 +53,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 一堂五步法
 - 单元模型
 - 商业模型

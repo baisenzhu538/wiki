@@ -1,4 +1,4 @@
-﻿---
+---
 id: framework-ai-native-organization-two-modes
 title: AI 原生组织的两种形态：AI 控制台 vs Agent 平台
 type: framework
@@ -26,6 +26,22 @@ quality_labels:
 - principle
 - actionable
 related:
+aliases:
+  - AI原生组织的两种形态：AI控制台vsAgent平台
+  - 原生组织的两种形态
+  - 控制台
+  - 平台
+  - 组织的两种形态
+  - 原生组织
+aliases:
+  - AI原生组织的两种形态：AI控制台vsAgent平台
+  - 原生组织的两种形态
+  - 控制台
+  - 平台
+  - 原生组织
+discoverable_by:
+  - "AI原生组织"
+  - "AI控制台vs Agent平台"
 - "[[tool-open-closed-problem-classifier]]"
 - "[[concept-ai-native-organization-five-steps]]"
 - "[[concept-yihang-human-in-the-loop-dual-triangle]]"

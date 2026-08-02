@@ -11,6 +11,13 @@ domain:
 - modeling
 source_person: 张磊 / Truman / 徐剑
 source_context: 精益方法论培训、关键假设课、ToB五步法、建模训练
+aliases:
+  - 张磊 / Truman / 徐剑
+  - 把工具/框架当成答案
+  - 把工具/框架当成答案，而不是提问的脚手架
+  - 是提问的脚手架
+  - 框架当成答案
+  - 而不是提问的脚手架
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 - 10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md
@@ -49,7 +56,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 关键假设课
 - 精益方法论培训
 ---

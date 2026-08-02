@@ -7,6 +7,10 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - FALSE模型在AI时代的加速应用
+  - 时代的加速应用
+  - 模型在
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
@@ -39,8 +43,13 @@ related:
 - '[[yt-lean-flower-mom-group-leader]]'
 - yt-lean-assumption-verification-3means
 - yt-lean-daily-probability-decision
-aliases:
 - 精益方法论培训
+discoverable_by:
+- 假模型识别
+- AI幻觉
+- 模型验证
+- 精益建模
+- 模型陷阱
 ---
 # 一堂精益小抄 FALSE 模型在 AI 时代的加速应用
 

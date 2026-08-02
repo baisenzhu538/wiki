@@ -8,6 +8,11 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-11
+aliases:
+  - system
+  - 处截断
+  - 失效
+  - 所有文章
 source_refs:
 - src_unknown
 created_at: 2026-06-03

@@ -14,6 +14,13 @@ quality_labels:
 updated_at: '2026-06-29'
 language: zh-CN
 domain: strategy
+aliases:
+  - 业务设计总结
+  - 业务设计总结：战略蓝图输出+关键任务卡片
+  - 关键任务卡片
+  - 战略蓝图输出
+  - 战略蓝图输出+关键任务卡片
+  - 设计总结
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_130_vlm_desc.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_vlm_desc.md
@@ -27,7 +34,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 冉鹏PPT截图
 - 引擎点火
 ---

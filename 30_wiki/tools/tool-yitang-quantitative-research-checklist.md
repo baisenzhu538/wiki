@@ -14,6 +14,11 @@ updated_at: '2026-07-04'
 domain:
 - yitang
 - decision-science
+aliases:
+  - 六维指标
+  - 创业者定量研究清单
+  - 创业者定量研究清单：六维指标+强制五问
+  - 强制五问
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
@@ -26,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - extractions
 ---
 

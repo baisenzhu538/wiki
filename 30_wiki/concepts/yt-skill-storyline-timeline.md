@@ -20,6 +20,13 @@ confidence: 0.75
 trust_level: medium
 type: tool
 status: enriched
+aliases:
+  - 严格时间线
+  - 体故事线
+  - 时间线
+  - 清单体故事线①
+  - 清单体故事线①：严格时间线用时间轴重构事件因果链
+  - 用时间轴重构事件因果链
 source_refs:
 - src_unknown
 source_context: 一堂清单体故事线系列（具体来源文件无法追溯，待后续补充）

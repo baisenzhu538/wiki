@@ -8,6 +8,12 @@ status: enriched
 confidence: 0.92
 trust_level: high
 source_context: 一堂壁垒策略系列课——壁垒策略总纲
+aliases:
+  - 从增长到可持续优势
+  - 壁垒策略总纲
+  - 壁垒策略总纲：从增长到可持续优势
+  - 策略总纲
+  - 长到可持续优势
 source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
@@ -35,9 +41,14 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases:
 - 产品内核实操课
 - 产品内核验证课
+discoverable_by:
+- 壁垒策略
+- 可持续优势
+- 增长壁垒
+- 竞争壁垒
+- 定价权
 ---
 
 # 壁垒策略总纲：从增长到可持续优势

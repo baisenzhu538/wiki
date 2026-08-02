@@ -28,6 +28,10 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
+discoverable_by:
+  - "迭代递归深挖"
+  - "认知穿透"
+  - "从表层到内核"
 - '[[tool-yitang-research-deep-attribution]]'
 - '[[tool-yitang-18-strategy-tool-mapping]]'
 - '[[yitang-research-domain-digest]]'
@@ -44,6 +48,20 @@ related:
 - '[[case-yitang-sanjieke-benchmark-failure]]'
 - '[[framework-yitang-six-layer-cross-validation]]'
 tags:
+aliases:
+  - 迭代递归深挖法：从表层到内核的认知穿透
+  - 迭代递归深挖法
+  - 从表层到内核的认知穿透
+  - 表层到内核
+  - 递归深挖法
+  - 知穿透
+aliases:
+  - 迭代递归深挖法：从表层到内核的认知穿透
+  - 迭代递归深挖法
+  - 从表层到内核的认知穿透
+  - 知穿透
+  - 代递归深挖
+  - 表层到内核
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

@@ -14,6 +14,12 @@ trust_level: medium
 language: zh-CN
 created_at: '2026-06-29'
 updated_at: '2026-06-29'
+aliases:
+  - 小时休息压缩为
+  - 小时的
+  - 把2小时休息压缩为1小时的ROI决策
+  - 案例
+  - 案例：把2小时休息压缩为1小时的ROI决策
 source_refs:
 - 00_inbox/科学决策/一堂-科学决策-ROI决策深度实操课口述03.txt
 related:
@@ -24,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 决策深度实操课口述
 - 科学决策
 ---

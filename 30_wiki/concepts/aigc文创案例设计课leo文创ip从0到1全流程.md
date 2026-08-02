@@ -4,6 +4,12 @@ created_at: 2026-05-28
 domain:
 - ai-saas
 - design
+aliases:
+  - AIGC文创案例设计课
+  - AIGC文创案例设计课：Leo文创IP从0到1全流程
+  - Leo文创IP从0到1全流程
+  - 全流程
+  - 文创案例设计课
 source_refs:
 - 10_raw/sources/src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程.md
 status: draft
@@ -24,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:beginner
-aliases:
 - 全流程
 - 文创案例设计课
 ---

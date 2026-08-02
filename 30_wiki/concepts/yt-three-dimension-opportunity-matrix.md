@@ -2,6 +2,9 @@
 id: yt-three-dimension-opportunity-matrix
 title: 三维排列组合找机会
 type: tool
+aliases:
+  - 三维排列组合找机会
+  - 排列组合找机会
 source_refs:
 - 10_raw/sources/src_20260610_ac25d82a-一堂-机会预判-三维排列组合01.md
 status: enriched
@@ -44,7 +47,6 @@ related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[framework-一堂-机会预判]]'
 - '[[tool-一堂-机会预判-五步法预判]]'
-aliases:
 - 三维排列组合
 - 机会预判
 ---

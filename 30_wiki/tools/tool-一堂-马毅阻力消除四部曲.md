@@ -13,6 +13,12 @@ updated_at: '2026-07-13'
 domain:
 - yitang
 - conversion-rate
+aliases:
+  - 一堂马毅阻力消除四部曲
+  - 一堂马毅阻力消除四部曲：赞/肯定/换角度/上价值
+  - 上价值
+  - 换角度
+  - 肯定
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L2974-L3016
 related:
@@ -41,7 +47,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - conversion
 - handle
 ---

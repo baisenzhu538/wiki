@@ -17,6 +17,11 @@ quality_labels:
 - validated
 created_at: 2026-06-27
 updated_at: 2026-06-28
+aliases:
+  - 德州扑克玩家乔牌如何通过参数化训练成为大使
+  - 案例
+  - 案例：德州扑克玩家乔牌如何通过参数化训练成为大使
+  - 盈盈
 source_refs:
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
@@ -32,7 +37,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 元能力-刻意练习
 - 刻意练习行动营
 ---

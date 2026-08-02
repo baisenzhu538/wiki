@@ -9,6 +9,12 @@ domain:
 - business-strategy
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
+aliases:
+  - 价格带需独立建模
+  - 月白
+  - 电商定价
+  - 电商定价：线上价格带需独立建模
+  - 线上价格带需独立建模
 source_refs:
 - 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
@@ -25,7 +31,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:beginner
-aliases:
 - 设计师实操培训
 ---
 

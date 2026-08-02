@@ -12,6 +12,13 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - AI辅助整理
+  - AI辅助整理：把访谈录音/会议记录结构化
+  - 会议记录结构化
+  - 把访谈录音
+  - 把访谈录音/会议记录结构化
+  - 谈录音
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -25,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

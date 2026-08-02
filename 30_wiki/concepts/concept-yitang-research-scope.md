@@ -24,6 +24,13 @@ query_triggers:
 - src_unknown
 - src_unknown控制
 - src_unknown
+aliases:
+  - 专业
+  - 专注
+  - 专注专业剥离三原则
+  - 剥离三原则
+  - 调研范围缩小
+  - 调研范围缩小：专注专业剥离三原则
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md

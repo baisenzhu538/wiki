@@ -6,6 +6,15 @@ status: reviewed
 domain: design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+aliases:
+  - PS图层命名规范
+  - 命名与图层命名规范
+  - 图层命名规范
+  - 技能
+  - 技能：文件命名与图层命名规范
+  - 文件命名与图层命名规范
+  - 月白
+  - 月白图层命名
 source_refs:
 - 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
@@ -39,10 +48,6 @@ diagnostic_signals:
 - "PS图层命名混乱找不到→检查是否跳过统一规范"
 - "协作方打开文件发现字体缺失→命名未标注字体依赖"
 discoverable_by: "月白图层命名、文件命名规范、PS图层管理、设计文件图层命名"
-aliases:
-  - 文件命名与图层命名规范
-  - 月白图层命名
-  - PS图层命名规范
 ---
 # 技能：文件命名与图层命名规范
 

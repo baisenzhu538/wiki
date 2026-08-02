@@ -3,6 +3,13 @@ id: dk-modeling-ai-cross-validation
 title: 拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤
 type: dk
 dark_knowledge_type: pattern
+aliases:
+  - Truman
+  - 交叉验证是防止自我陶醉的必需步骤
+  - 商报告撞自己的模型
+  - 拿友商报告撞自己的模型
+  - 拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤
+  - 验证是防止自我陶醉的必需步骤
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
@@ -31,7 +38,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 建模能力培训
 ---
 

@@ -15,6 +15,9 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+aliases:
+  - 学习思维
+  - 学习方法
 related:
 - '[[yt-model-liberate-thinking-layers]]'
 - '[[yt-tool-best-practice-learning]]'

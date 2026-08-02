@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-一堂-product-kernel-add-subtract
 title: 技能：产品内核加减法
 type: tool
@@ -16,6 +16,10 @@ related:
   - "[[tool-一堂-kernel-three-questions]]"
   - "[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]"
   - "[[pending_unknown]]"
+aliases:
+  - 技能：产品内核加减法
+  - 技能
+  - 产品内核加减法
 source_refs:
 - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L2378-L2416
 - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L190-L194

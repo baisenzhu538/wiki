@@ -12,6 +12,12 @@ language: zh-CN
 domain:
 - yitang
 - decision-science
+aliases:
+  - 外呼的
+  - 案例
+  - 案例：电话外呼的ROI分析
+  - 电话外呼的
+  - 电话外呼的ROI分析
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例06_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-深度-案例06.md
@@ -80,7 +86,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 科学决策
 ---
 

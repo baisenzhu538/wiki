@@ -14,6 +14,11 @@ domain:
 source_refs:
 - src_unknown
 related:
+discoverable_by:
+  - "战略变革"
+  - "加外挂换路换轮子"
+  - "企业变革路径"
+  - "战略转型框架"
 - '[[strategy-domain-digest]]'
 - '[[yt-barrier-ecosystem-lock-in]]'
 - '[[tool-mece体系框架法]]'
@@ -28,6 +33,20 @@ related:
 - '[[personal-growth-complex-systems]]'
 - yt-business-model-channel-economics
 tags:
+aliases:
+  - 变革Change：加外挂/换路/换轮子
+  - 变革Change
+  - 加外挂/换路/换轮子
+  - 略转型框架
+  - 略变革
+  - 加外挂
+aliases:
+  - 变革Change：加外挂/换路/换轮子
+  - 变革Change
+  - 加外挂/换路/换轮子
+  - 业变革路径
+  - 外挂换路换轮子
+  - 略转型框架
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

@@ -46,6 +46,10 @@ related:
 - '[[tool-yitang-research-deep-attribution]]'
 - '[[tool-yitang-research-quantitative-modeling]]'
 tags:
+aliases:
+  - 单点狙击：聚焦关键问题的深度验证
+  - 单点狙击
+  - 聚焦关键问题的深度验证
 - audience:executor
 - scene:execution
 - skill-level:intermediate

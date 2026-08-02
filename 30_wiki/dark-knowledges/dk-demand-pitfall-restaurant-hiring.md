@@ -10,6 +10,13 @@ language: zh-CN
 domain:
 - yitang
 - five-step-method
+aliases:
+  - 踩坑
+  - 踩坑：麦家小馆频次高估。需求强烈≠高频
+  - 需求强烈
+  - 频次高估。需求强烈≠高频
+  - 麦家小馆
+  - 麦家小馆频次高估
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
 related:
@@ -27,7 +34,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:advanced
-aliases:
 - 五步法之需求分析
 - 需求评估避坑合集
 ---

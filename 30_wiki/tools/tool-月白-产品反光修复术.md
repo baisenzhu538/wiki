@@ -33,6 +33,11 @@ related:
 - '[[tool-月白-AI电商图人工过审处理]]'
 - '[[tool-月白-图像信息逆向解析训练]]'
 tags:
+aliases:
+  - 技能：产品反光修复术
+  - 技能
+  - 产品反光修复术
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

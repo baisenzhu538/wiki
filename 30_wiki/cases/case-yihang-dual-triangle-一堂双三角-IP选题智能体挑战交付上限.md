@@ -1,5 +1,6 @@
 ---
 id: case-yihang-dual-triangle-一堂双三角-IP选题智能体挑战交付上�?title: 双三角案例：Vikki IP 选题智能体——跳�?AI 工具回到业务视角
+title: "双三角案例：Vikki IP 选题智能体——跳�?AI 工具回到业务视角"
 type: case
 status: enriched
 author: 洪七公（VLM提取�? 老顽童（enrich�?reviewed_by: ŷ����
@@ -15,10 +16,21 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三�?_processed/一堂双三角-IP选题智能体挑战交付上限_vlm.md
 related:
+aliases:
+  - 双三角案例：VikkiIP选题智能体跳�?AI工具回到业务视角
+  - 双三角案例
+  - 选题智能体
+  - 工具回到业务视角
+  - 角案例
+  - 选题智能体跳
+aliases:
+  - 双三角案例：VikkiIP选题智能体跳�?AI工具回到业务视角
+  - 双三角案例
+  - 选题智能体
+  - 工具回到业务视角
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[case-yihang-dual-triangle-一堂双三角-数字化营销提效十倍]]"
 ---
-
 # 双三角案例：Vikki IP 选题智能体——跳�?AI 工具回到业务视角
 
 > **一句话定义**：Vikki 用双三角框架搭建 IP 选题智能体——人类侧用选题四象限方法论 + 商业分析思维体系建立判断标准，AI 侧用 Coze Agent + 结构化提示词 + 爆款选题案例库执行。核心洞察：最好的 AI 工具使用者是能跳�?AI 工具、回到业务视角的人�?

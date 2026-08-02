@@ -9,6 +9,9 @@ domain:
 - yitang
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
+aliases:
+  - 月白
+  - 餐饮图片视觉策略与价格定位的匹配法则
 source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
 confidence: 0.88
@@ -31,7 +34,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 设计师实操培训
 ---
 

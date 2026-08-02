@@ -22,6 +22,13 @@ diagnostic_signals:
 - signal: 连续3次审查不通过
   lens: 可能在错误的方向上死磕
   follow_up: 降级铁律：2-3次失败→立即降级为静态方案
+aliases:
+  - 七维独立终审
+  - 四道机械闸门
+  - 机械闸门
+  - 演示产线双防线质量控制
+  - 演示产线双防线质量控制：四道机械闸门+七维独立终审
+  - 独立终审
 source_refs:
 - 00_inbox/多模态输出/王欢：把一个想法，做成一张会移动的无限画布/王欢：把一个想法，做成一张会移动的无限画布.md L235-L278
 related:
@@ -34,7 +41,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 做成一张会移动的无限画布
 - 多模态输出
 ---

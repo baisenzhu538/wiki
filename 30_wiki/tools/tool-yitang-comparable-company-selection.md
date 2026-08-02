@@ -22,6 +22,13 @@ query_triggers:
 - 上市公司研究
 - 竞品筛选方法
 - 加法减法三原则
+aliases:
+  - 三原则
+  - 公司选择三步法
+  - 减法
+  - 加法
+  - 对标公司选择三步法
+  - 对标公司选择三步法：加法减法三原则
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 related:
@@ -35,7 +42,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 上市公司报告解读
 - 调研专题
 ---

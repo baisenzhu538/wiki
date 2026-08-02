@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-project-unblock-techniques
 title: 让卡点更平滑的六种推进手段
 type: tool
@@ -20,6 +20,8 @@ related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-progress-tracking]]"
 diagnostic_signals:
+aliases:
+  - 让卡点更平滑的六种推进手段
 - signal: 项目卡住了，催不动、说不通、僵在那里
   lens: 只用一种方式推进——硬催
   follow-up: 卡住时对照六种手段，挑2-3种组合使用

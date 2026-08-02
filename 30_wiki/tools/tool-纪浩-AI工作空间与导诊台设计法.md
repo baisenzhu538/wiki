@@ -8,6 +8,11 @@ domain:
 - src_unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
+aliases:
+  - AI工作空间与导诊台设计法
+  - 技能
+  - 技能：AI工作空间与导诊台设计法
+  - 纪浩
 source_refs:
 - 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
 - 10_raw/sources/src_20260619_71c86250_00_inbox_AI俱乐部_人和AI协作_纪浩_五层结构_结构化.md
@@ -49,7 +54,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 五层结构
 - 俱乐部
 ---

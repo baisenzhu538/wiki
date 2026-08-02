@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-餐饮海报AB测试法]]'
 - '[[tool-月白-AIGC橱窗陈列设计流程]]'
 tags:
+aliases:
+  - 技能：未知领域审美建构法
+  - 技能
+  - 未知领域审美建构法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

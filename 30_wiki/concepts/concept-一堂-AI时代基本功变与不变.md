@@ -14,6 +14,13 @@ domain:
 - management
 - yitang
 - ai-collaboration
+aliases:
+  - AI时代基本功的变与不变：拆建不变，推练变形，AI是外骨骼肌肉靠苦练
+  - 拆建不变
+  - 推练变形
+  - 时代基本功的变与不变
+  - 是外骨骼肌肉靠苦练
+  - 骨骼肌肉靠苦练
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt L1810-L2117
 related:
@@ -42,7 +49,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - fundamentals
 - manage
 ---

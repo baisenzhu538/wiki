@@ -23,6 +23,8 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-四大原则-01_vlm_desc.md
 - 00_inbox/精益创业/truman-精益创业-创业全景图-超级小抄_ocr_text.md
 related:
+discoverable_by:
+  - "精益验证四大原则"
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[framework-lean-false-model]]'
@@ -35,6 +37,14 @@ related:
 - '[[framework-lean-tenx-formula]]'
 - '[[framework-strategy-basics-02-insight]]'
 tags:
+aliases:
+  - 精益创业低成本验证四大原则
+  - 益验证四大原则
+  - 证四大原则
+  - 创业低成本验证四大原则
+aliases:
+  - 精益创业低成本验证四大原则
+  - 益验证四大原则
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

@@ -41,6 +41,16 @@ quality_labels:
 - principle
 - validated
 related:
+aliases:
+  - 社群知识生产失败模式库
+  - 群知识生产失败模式
+  - 识生产失败模式
+  - 知识生产失败模式库
+aliases:
+  - 社群知识生产失败模式库
+  - 群知识生产失败模式
+discoverable_by:
+  - "社群知识生产失败模式"
 - '[[concept-open-source-knowledge-usage-boundary]]'
 - '[[case-daxin-team-content-training-camp]]'
 - '[[case-daxin-vikki-community-contrast]]'

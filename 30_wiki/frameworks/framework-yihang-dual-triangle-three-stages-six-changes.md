@@ -19,6 +19,8 @@ source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-逐字稿.md
 - 00_inbox/人机协作双三角/_processed/一堂双三角-一个引擎-三阶六变_vlm.md
 related:
+discoverable_by:
+  - "双三角三阶六变"
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-dual-triangle-ten-year-map]]'
 - '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
@@ -34,6 +36,14 @@ aliases:
 - 一个引擎
 - 一堂双三角
 tags:
+aliases:
+  - 一行双三角三阶六变
+  - 三阶六变
+  - 三角三阶六变
+  - 双三角三阶六变
+aliases:
+  - 一行双三角三阶六变
+  - 三角三阶六变
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

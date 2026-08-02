@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-封面情绪转化法]]'
 - '[[tool-月白-AI生成图片排版控制-尺寸优先法]]'
 tags:
+aliases:
+  - 技能：光影灰度控制能力构建
+  - 技能
+  - 光影灰度控制能力构建
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

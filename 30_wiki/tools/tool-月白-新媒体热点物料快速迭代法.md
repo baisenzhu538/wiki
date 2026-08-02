@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-AIGC人群画像驱动详情页规划]]'
 - '[[tool-月白-AI生成图片排版控制-尺寸优先法]]'
 tags:
+aliases:
+  - 技能：新媒体热点物料快速迭代法
+  - 技能
+  - 新媒体热点物料快速迭代法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

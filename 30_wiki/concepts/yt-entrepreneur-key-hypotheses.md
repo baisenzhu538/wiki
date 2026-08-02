@@ -29,6 +29,9 @@ related:
 - '[[yt-entrepreneur-unit-model]]'
 - '[[yt-model-cognitive-upgrade-framework]]'
 review_date: 2026-06-06
+aliases:
+  - 关键假设259工具与假设验证三板斧
+  - 工具与假设验证三板斧
 source_refs:
 - 10_raw/sources/src_20260609_76e76298-ocr-一堂-科学决策-关键假设abcd模型.md
 status: enriched
@@ -55,7 +58,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 关键假设
 - 科学决策
 ---

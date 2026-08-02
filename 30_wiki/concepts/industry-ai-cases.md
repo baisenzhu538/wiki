@@ -30,6 +30,19 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
+aliases:
+  - 产业AI落地案例集非药柜：主题综合索引卡
+  - 产业
+  - 落地案例集非药柜
+  - 主题综合索引卡
+  - 王语嫣
+  - 案例集非药柜
+aliases:
+  - 产业AI落地案例集非药柜：主题综合索引卡
+  - 产业
+  - 落地案例集非药柜
+  - 主题综合索引卡
+  - 王语嫣
 - '[[tool-月白-实物包装产业链实践]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'

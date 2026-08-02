@@ -8,6 +8,12 @@ domain:
 - yitang- ai-collaboration
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
+aliases:
+  - 做知识库原子化标签
+  - 半肥猫
+  - 技能
+  - 技能：用YAML格式做知识库原子化标签
+  - 格式做知识库原子化标签
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required: null
@@ -34,7 +40,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 半肥猫
 - 学习落地
 ---

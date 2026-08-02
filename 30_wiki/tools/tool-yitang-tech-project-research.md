@@ -24,6 +24,10 @@ query_triggers:
 - 中层手段 展会谈科学家 供应链深度访谈 逆向工程拆解
 - 深层手段 顶级科学家验证 供应商交叉验证 行业专家深度访谈
 - 科技项目调研失败模式 只看PR稿 忽视专利布局 未做逆向工程
+aliases:
+  - 浅中深三层10大评估法
+  - 科技型项目调研手段
+  - 科技型项目调研手段：浅中深三层10大评估法
 source_refs:
 - 00_inbox/调研专题/调研手段卡6（科技项目）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡6（科技项目）_vlm_desc.md
@@ -44,7 +48,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 科技项目
 - 调研专题
 ---

@@ -34,6 +34,12 @@ related:
 - tool-yitang-research-deep-attribution
 - yt-product-kernel-to-business-model
 tags:
+aliases:
+  - 技能：里程碑思维找对标优先于做设计
+  - 技能
+  - 里程碑思维
+  - 找对标优先于做设计
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

@@ -32,6 +32,9 @@ related:
 - '[[yt-demand-analysis-hiking-map]]'
 - '[[yt-entrepreneur-needs-analysis]]'
 reviewed_by: 王语嫣
+aliases:
+  - 一堂五步法
+  - 五步法
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md
@@ -72,7 +75,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 一堂五步法画布
 - 产品内核
 - 单元模型

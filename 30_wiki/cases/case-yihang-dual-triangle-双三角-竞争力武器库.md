@@ -14,6 +14,18 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/双三角-竞争力武器库_vlm.md
 tags:
+aliases:
+  - 双三角竞争力武器库双三角案例
+  - 双三角
+  - 竞争力武器库
+  - 双三角案例
+  - 角案例
+  - 角竞争力武器库双三角案例
+aliases:
+  - 双三角竞争力武器库双三角案例
+  - 双三角
+  - 竞争力武器库
+  - 双三角案例
 - '#domain/ai-collaboration'
 - '#method/dual-triangle'
 - audience:general

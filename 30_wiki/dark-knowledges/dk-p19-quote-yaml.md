@@ -8,6 +8,12 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-19
+aliases:
+  - P19：花引号被YAML误解析为字符串定界符
+  - system
+  - 花引号被
+  - 花引号被YAML误解析为字符串定界符
+  - 误解析为字符串定界符
 source_refs:
 - src_unknown
 created_at: 2026-06-03

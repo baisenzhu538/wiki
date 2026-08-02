@@ -19,6 +19,12 @@ author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260501_58b6edef）
 source_refs:
 - pending_archive:src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲
+discoverable_by:
+- Git同步
+- Obsidian同步
+- 版本控制
+- 知识库同步
+- 多端协作
 ---
 # Obsidian Git Multi-Device Sync Protocol
 

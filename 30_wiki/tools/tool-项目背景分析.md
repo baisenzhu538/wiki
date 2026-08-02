@@ -24,6 +24,10 @@ related:
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
+aliases:
+  - 项目背景分析：启动前的环境扫描
+  - 项目背景分析
+  - 启动前的环境扫描
 - audience:executor
 - scene:execution
 - skill-level:intermediate

@@ -38,6 +38,11 @@ related:
 - '[[tool-月白-社群直播海报利益点提炼法]]'
 - '[[tool-月白-课程资料文件命名规范]]'
 tags:
+aliases:
+  - 技能：AIGC反向拆解法
+  - 技能
+  - AIGC反向拆解法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

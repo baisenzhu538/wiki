@@ -9,6 +9,13 @@ domain:
 - entrepreneur
 source_person: Truman
 source_context: 一堂五步法培训·段位自评实验，第二十二节批次4精修提炼，2026-06-17
+aliases:
+  - 8分幻觉是结构性盲区
+  - Truman
+  - 低段位者高估自己
+  - 因为没见过高段位的具体打法
+  - 暗知识
+  - 暗知识：78分幻觉是结构性盲区低段位者高估自己，因为没见过高段位的具体打法
 source_refs:
 - 10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md
 confidence: 0.89
@@ -45,7 +52,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 完成 ≠ 深度——段位的标志不是你会用多少工具，而是你能处理多复杂的问题
   follow_up_question: 把你最近一份分析报告中的核心数字改掉一个，整个结论会不会变？如果不会，你只是在填表。
-aliases:
 - 一堂五步法
 ---
 

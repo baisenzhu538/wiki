@@ -35,6 +35,15 @@ related:
 - framework-five-step-lean-interface
 - tool-red-team-analysis
 tags:
+aliases:
+  - 活动范围设计工具：What×How×Where三问
+  - 活动范围设计工具
+  - 三问
+  - 范围设计工具
+aliases:
+  - 活动范围设计工具：What×How×Where三问
+  - 活动范围设计工具
+  - 三问
 - audience:executor
 - scene:execution
 - skill-level:advanced

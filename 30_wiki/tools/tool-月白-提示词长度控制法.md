@@ -38,6 +38,11 @@ related:
 - '[[tool-月白-薅AIGC羊毛资源法]]'
 - '[[tool-月白-设计文件八要素命名法]]'
 tags:
+aliases:
+  - 技能：提示词长度控制法
+  - 技能
+  - 提示词长度控制法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

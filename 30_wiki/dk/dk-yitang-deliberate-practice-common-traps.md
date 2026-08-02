@@ -17,6 +17,13 @@ quality_labels:
   - validated
 created_at: 2026-06-27
 updated_at: 2026-06-28
+aliases:
+  - Truman
+  - 个坑
+  - 刻意练习常见陷阱
+  - 刻意练习常见陷阱：老学员最容易踩的7个坑
+  - 练习常见陷阱
+  - 老学员最容易踩的
 source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt

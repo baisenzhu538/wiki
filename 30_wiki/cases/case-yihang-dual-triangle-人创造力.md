@@ -14,6 +14,16 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/人创造力_vlm.md
 tags:
+aliases:
+  - 人创造力双三角案例
+  - 人创造力
+  - 双三角案例
+  - 造力双三角案例
+  - 角案例
+aliases:
+  - 人创造力双三角案例
+  - 人创造力
+  - 双三角案例
 - '#domain/ai-collaboration'
 - '#method/dual-triangle'
 - audience:general

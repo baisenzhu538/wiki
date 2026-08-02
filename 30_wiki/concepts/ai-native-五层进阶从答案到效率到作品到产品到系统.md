@@ -15,6 +15,13 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+aliases:
+  - AINative五层进阶：从答案，到效率，到作品，到产品，到系统
+  - 五层进阶
+  - 从答案
+  - 到产品
+  - 到作品
+  - 到效率
 source_refs:
 - pending_archive: src_unknown
 status: reviewed

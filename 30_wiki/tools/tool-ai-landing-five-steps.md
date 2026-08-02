@@ -21,6 +21,17 @@ related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 tags:
+aliases:
+  - 技能：AI落地五步执行流程
+  - 技能
+  - AI落地五步执行流程
+  - 马易
+  - 落地五步执行流程
+aliases:
+  - 技能：AI落地五步执行流程
+  - 技能
+  - AI落地五步执行流程
+  - 马易
 - audience:executor
 - scene:execution
 - skill-level:beginner

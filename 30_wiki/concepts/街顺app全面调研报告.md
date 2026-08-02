@@ -9,6 +9,9 @@ created_at: 2026-04-26
 domain: healthcare
 review_date: 2026-05-03
 reviewed_by: Claude
+aliases:
+  - 全面调研报告
+  - 街顺APP全面调研报告
 source_refs:
 - 10_raw/sources/src_20260427_970eb338-街顺app全面调研报告.md
 status: reviewed
@@ -38,7 +41,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 全面调研报告
 ---
 

@@ -16,6 +16,11 @@ updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
+discoverable_by:
+  - "波特五力"
+  - "五力分析"
+  - "行业竞争分析"
+  - "Porter五力模型"
 - '[[strategy-domain-digest]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
@@ -24,6 +29,19 @@ related:
 - yt-five-step-method
 - yt-barrier-defensive-strategy
 tags:
+aliases:
+  - 波特五力分析框架
+  - 业竞争分析
+  - 力分析
+  - 五力模型
+  - 五力分析框架
+  - 争分析
+aliases:
+  - 波特五力分析框架
+  - 五力模型
+  - 力分析
+  - 特五力
+  - 业竞争分析
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

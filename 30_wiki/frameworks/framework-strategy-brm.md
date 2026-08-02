@@ -31,6 +31,24 @@ source_refs:
 - src_unknown
 - src_unknown
 related:
+aliases:
+  - 冉鹏版BRM框架源于IBMBLM方法论
+  - 冉鹏版
+  - 框架源于
+  - 方法论
+  - 肉记忆
+  - 略肌肉记忆
+aliases:
+  - 冉鹏版BRM框架源于IBMBLM方法论
+  - 冉鹏版
+  - 框架源于
+  - 方法论
+  - 略肌肉记忆
+discoverable_by:
+  - "冉鹏BRM"
+  - "BRM框架"
+  - "冉鹏版BRM方法"
+  - "战略肌肉记忆BRM"
   - '[[framework-strategy-basics-01-core]]'
   - tool-strategy-gap-analysis
   - case-strategy-exit-remove

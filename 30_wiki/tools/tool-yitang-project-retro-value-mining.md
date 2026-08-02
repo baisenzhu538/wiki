@@ -1,4 +1,4 @@
-﻿---
+---
 id: tool-yitang-project-retro-value-mining
 title: 项目复盘五大价值挖掘清单
 type: tool
@@ -21,6 +21,8 @@ related:
 - "[[tool-yitang-project-gap-analysis]]"
 - "[[framework-yitang-project-retrospective]]"
 diagnostic_signals:
+aliases:
+  - 项目复盘五大价值挖掘清单
 - signal: 复盘做完了，但除了"下次注意"什么也没留下
   lens: 复盘只做了"回顾"没做"挖掘"——停在表面
   follow-up: 每次复盘用五维度逐个挖掘，至少产出一个可复用的资产

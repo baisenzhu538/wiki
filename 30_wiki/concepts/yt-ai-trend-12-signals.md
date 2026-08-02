@@ -2,6 +2,7 @@
 domain:
 - yitang
 id: yt-ai-trend-12-signals
+title: "AI趋势12大变化模型"
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: intermediate
@@ -18,6 +19,9 @@ reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 status: enriched
 updated_at: '2026-07-09'
+aliases:
+  - AI趋势12大变化模型
+  - 大变化模型
 source_refs:
 - pending_archive:src_20260614_82a4fdb9-凯文凯利-必然趋势分享
 related:
@@ -29,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 凯文凯利
 - 必然趋势分享
 ---

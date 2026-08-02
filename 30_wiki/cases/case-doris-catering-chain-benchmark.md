@@ -13,6 +13,11 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 案例
+  - 案例：餐饮连锁对标调研
+  - 连锁对标调研
+  - 餐饮连锁对标调研
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 related:
@@ -25,7 +30,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 行业报告调研
 - 调研专题
 ---

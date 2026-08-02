@@ -31,6 +31,11 @@ related:
 - '[[tool-月白-课程资料文件命名规范]]'
 - '[[tool-月白-文创材质调研与精益选择]]'
 tags:
+aliases:
+  - 技能：AI课程内容深度梳理法
+  - 技能
+  - AI课程内容深度梳理法
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

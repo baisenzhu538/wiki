@@ -40,6 +40,12 @@ tags:
 - audience:executor
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 外部探索
+- 调研SOP
+- 信息搜集
+- 探索流程
+- KDO调研
 ---
 
 # KDO 外部探索标准操作流程 v2（OSCAR 注入版）

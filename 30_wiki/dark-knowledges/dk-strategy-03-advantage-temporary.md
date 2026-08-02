@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 优势难持久
+  - 已消失
+  - 已消失竞争优势
+  - 竞争优势≠永久
+  - 竞争优势难持久。30年前500强90%已消失
+  - 竞争优势难持久。30年前500强90%已消失竞争优势≠永久
 source_refs:
 - src_unknown
 related:

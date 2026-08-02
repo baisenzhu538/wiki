@@ -7,6 +7,13 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 拆C端与小B的分阶段验证
+  - 生活鲜花宝妈团长
+  - 生活鲜花宝妈团长：拆C端与小B的分阶段验证
+  - 的分阶段验证
+  - 端与小
+  - 鲜花宝妈团长
 source_refs:
 - 10_raw/sources/zhanglei-lean-testing-oral-01.md
 - 10_raw/sources/zhanglei-lean-testing-notes-01.md

@@ -13,6 +13,11 @@ updated_at: '2026-07-12'
 domain:
 - yitang
 - business-formula
+aliases:
+  - 假设驱动业务增长的
+  - 招全清单五环节
+  - 降龙十八掌
+  - 降龙十八掌：假设驱动业务增长的18招全清单五环节3/4/4/4/3
 source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001759_vlm.md
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1668-L1748
@@ -76,7 +81,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - handle
 ---
 

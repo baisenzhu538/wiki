@@ -6,6 +6,9 @@ title: 认知偏差快速诊断清单
 type: tool
 status: reviewed
 source_context: 一堂科学决策课程——认知偏差识别与决策训练清单
+aliases:
+  - 偏差快速诊断清单
+  - 认知偏差快速诊断清单
 source_refs:
 - pending_archive:src_20260522_23b5714d-ocr-一堂-科学决策-高度-两种典型的思考习惯.md
 - pending_archive:src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
@@ -28,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 两种典型的思考习惯
 - 关键训练清单重要
 - 决策经验值

@@ -37,6 +37,11 @@ related:
 - '[[tool-月白-设计基本功回归法]]'
 - '[[tool-月白-餐饮类线下设计调性把控]]'
 tags:
+aliases:
+  - 技能：AI去字+稿定设计加字工作流
+  - 技能
+  - AI去字+稿定设计加字工作流
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

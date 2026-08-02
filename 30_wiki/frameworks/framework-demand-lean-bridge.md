@@ -28,6 +28,10 @@ source_refs:
 - 30_wiki/tools/tool-demand-iceberg-l5-forces.md
 - 30_wiki/tools/tool-demand-iceberg-l6-hypothesis.md
 related:
+discoverable_by:
+  - "需求判断精益验证"
+  - "需求到精益衔接"
+  - "精益需求验证桥接"
 - '[[framework-demand-iceberg]]'
 - '[[framework-lean-false-model]]'
 - '[[framework-lean-abcd-model]]'
@@ -36,6 +40,18 @@ related:
 - '[[framework-demand-validation-pipeline]]'
 updated_at: '2026-06-30'
 tags:
+aliases:
+  - 需求判断与精益验证的衔接
+  - 精益衔接
+  - 求判断精益验证
+  - 断精益验证
+  - 求验证桥接
+  - 判断与精益验证的衔接
+aliases:
+  - 需求判断与精益验证的衔接
+  - 益需求验证桥接
+  - 求到精益衔接
+  - 求判断精益验证
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate

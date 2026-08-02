@@ -15,6 +15,13 @@ domain:
 - yitang
 - decision-science
 - methodology
+aliases:
+  - 与模型边界
+  - 体系与模型边界
+  - 体系与模型边界：每个模型都有内涵、成本和适用域
+  - 和适用域
+  - 成本和适用域
+  - 每个模型都有内涵
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
@@ -29,7 +36,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - extractions
 ---
 

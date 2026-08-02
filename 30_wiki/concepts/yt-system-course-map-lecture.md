@@ -2,6 +2,9 @@
 title: 一堂课程地图精华串讲
 type: concept
 status: reviewed
+aliases:
+  - 一堂课程地图精华串讲
+  - 课程地图精华串讲
 source_refs:
 - 10_raw/sources/src_20260506_13e7bbca-值班主.md
 - 10_raw/sources/src_20260507_3f2ac357-值班主.md
@@ -49,7 +52,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 值班主
 ---
 

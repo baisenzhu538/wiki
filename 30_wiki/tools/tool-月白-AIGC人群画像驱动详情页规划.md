@@ -39,6 +39,11 @@ related:
 - '[[tool-月白-模型性价比选型决策]]'
 - '[[tool-月白-行业配色快速确定法]]'
 tags:
+aliases:
+  - 技能：AIGC人群画像驱动详情页规划
+  - 技能
+  - AIGC人群画像驱动详情页规划
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

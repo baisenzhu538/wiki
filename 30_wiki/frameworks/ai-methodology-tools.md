@@ -8,6 +8,14 @@ domain:
 - methodology
 source_person: 王语嫣
 source_context: 听脑 AI AI 方法论与工具栈主题摘要综合提炼
+aliases:
+  - AI方法论与工具栈：主题综合知识卡
+  - 主题综合知识卡
+  - 工具栈
+  - 方法论
+  - 方法论与工具
+  - 方法论与工具栈
+  - 王语嫣
 source_refs:
 - 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
 - 10_raw/sources/src_20260614_144d986e-多人-Open-Cloud培训.md
@@ -25,10 +33,14 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 quality_labels:
-- cited
-- insight
-- principle
-- validated
+  - cited
+  - insight
+  - principle
+discoverable_by:
+  - "AI方法论"
+  - "AI工具栈"
+  - "AI方法论与工具"
+  - "AI应用方法大全"
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -40,7 +52,6 @@ related:
 - '[[case-ai-assisted-review]]'
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[ai-俱乐部人和-ai-协作-五层结构]]'
-aliases:
 - 何老师
 - 场景落地方法分享
 - 工具使用分享

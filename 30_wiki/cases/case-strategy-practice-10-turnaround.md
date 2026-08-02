@@ -10,6 +10,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 2年30亿→50亿
+  - 7个月转连续7年亏损
+  - 企业扭亏
+  - 尾部企业扭亏
+  - 案例
+  - 案例：尾部企业扭亏7个月转连续7年亏损，2年30亿→50亿
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt
@@ -28,7 +35,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 一堂五步法
 - 冉鹏战略课逐字稿
 ---

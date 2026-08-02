@@ -26,6 +26,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- Agent蒸馏
+- 知识蒸馏
+- 经验提炼
+- 模式提取
+- Agent学习
 ---
 
 # Agent 蒸馏方法：对话→系统提示词 5 步框架

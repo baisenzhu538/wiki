@@ -30,6 +30,11 @@ related:
 - '[[tool-月白-AIGC人群画像驱动详情页规划]]'
 - '[[tool-月白-实物包装落地训练法]]'
 tags:
+aliases:
+  - 技能：模型性价比选型决策
+  - 技能
+  - 模型性价比选型决策
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

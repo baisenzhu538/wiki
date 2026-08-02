@@ -33,6 +33,12 @@ tags:
 - audience:general
 - scene:diagnosis
 - skill-level:advanced
+discoverable_by:
+- 教练对话
+- 提问引擎
+- 引导式对话
+- 教练协议
+- 对话框架
 ---
 <!--
   引擎层——不写任何域特异内容。域四件套接口留空槽位。

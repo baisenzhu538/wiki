@@ -8,6 +8,13 @@ domain:
 - business-formula
 source_person: 温校长（山西太原大学生驾校经营者，一堂学员），一堂课程讲师转述
 source_context: 一堂「关键假设·业务公式」管理篇入门案例 2（L886-L988）：温校长把做了十多年、以为"成熟透了"的传统驾校业务拆成业务公式，锁定"校园代理×招生链"两个关键要素，建陌生人话术库、提"六杯奶茶"触点假设，业务在去年基础上再翻一倍
+aliases:
+  - 业务再翻一倍
+  - 六杯奶茶触点假设把推荐率再提一级
+  - 十年传统业务拆公式后校园代理×招生链成关键路径
+  - 温校长驾校
+  - 温校长（山西太原大学生驾校经营者，一堂学员），一堂课程讲师转述
+  - 长驾校
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L886-L906
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L908-L924
@@ -39,7 +46,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - handle
 ---
 # 温校长驾校：十年传统业务拆公式后校园代理×招生链成关键路径，"六杯奶茶"触点假设把推荐率再提一级、业务再翻一倍

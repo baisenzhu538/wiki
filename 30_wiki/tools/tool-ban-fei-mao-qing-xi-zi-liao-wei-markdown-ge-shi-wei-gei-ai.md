@@ -7,6 +7,13 @@ author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
+aliases:
+  - 半肥猫
+  - 技能
+  - 技能：清洗资料为Markdown格式喂给AI
+  - 格式喂给
+  - 清洗资料为
+  - 资料为
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 related:
@@ -29,7 +36,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 半肥猫
 - 学习落地
 ---

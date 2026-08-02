@@ -9,6 +9,13 @@ trust_level: high
 language: zh-CN
 domain:
 - strategy
+aliases:
+  - 依赖环境
+  - 前者创造路径
+  - 后者依赖环境
+  - 战略驱动
+  - 战略驱动vs红利驱动：前者创造路径，后者依赖环境
+  - 红利驱动
 source_refs:
 - src_unknown
 related:

@@ -14,6 +14,13 @@ created_at: '2026-07-19'
 updated_at: '2026-07-19'
 quality_labels:
 - cited
+aliases:
+  - AI文生图流程建模：从v1抽卡到v5攻坚会的五版迭代
+  - 会的五版迭代
+  - 图流程建模
+  - 抽卡到
+  - 攻坚会的五版迭代
+  - 文生图流程建模
 source_refs:
 - 00_inbox/Advanced modeling/ 口述 §3.1
 - 00_inbox/Advanced modeling/ 批注2026-07-19-203816 VLM
@@ -27,7 +34,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - advanced
 - modeling
 ---

@@ -12,6 +12,13 @@ domain:
 - yitang
 - ai-collaboration
 - business-formula
+aliases:
+  - YAI实录
+  - YAI实录：转化率agent智慧药柜电话到访率10%→30%五阻力拆解
+  - 智慧药柜电话到访率
+  - 智慧药柜电话到访率10%→30%五阻力拆解
+  - 转化率
+  - 转化率agent
 source_refs:
 - C:/Users/Administrator/Desktop/YAI/转化率agent-我们是专门做软硬件一体化的公司，我们有智....md
 related:
@@ -26,7 +33,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - administrator
 - desktop
 - users

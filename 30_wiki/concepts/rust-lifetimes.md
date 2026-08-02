@@ -1,10 +1,15 @@
-﻿---
+---
 id: rust-lifetimes
 title: "Rust 生命周期：引用有效性的编译期保证"
 type: concept
 status: draft
 domain:
   - rust
+aliases:
+  - Rust生命周期：引用有效性的编译期保证
+  - 引用有效性的编译期保证
+  - 有效性的编译期保证
+  - 生命周期
 source_refs:
   - pending_archive
 created_at: 2026-06-02

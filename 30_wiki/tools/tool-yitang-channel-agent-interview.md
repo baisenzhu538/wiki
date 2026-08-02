@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 代理商访谈
+  - 渠道/代理商访谈
+  - 渠道/代理商访谈：渠道端的情报获取
+  - 渠道端的情报获取
+  - 端的情报获取
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 related:
@@ -26,7 +32,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases:
 - 调研专题
 - 调研超级武器库
 ---

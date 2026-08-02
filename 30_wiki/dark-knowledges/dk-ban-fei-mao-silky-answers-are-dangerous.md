@@ -6,6 +6,13 @@ status: reviewed
 domain: ai-collaboration
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
+aliases:
+  - AI给的回答越丝滑
+  - 半肥猫
+  - 完全不等于可靠陷阱
+  - 暗知
+  - 暗知：AI给的回答越丝滑，问题越大完全不等于可靠陷阱
+  - 问题越大
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 created_at: 2026-06-08
@@ -47,7 +54,6 @@ tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 半肥猫
 - 学习落地
 ---

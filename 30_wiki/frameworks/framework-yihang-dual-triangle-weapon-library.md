@@ -23,6 +23,8 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/AI三角-基本功_vlm.md
 - 00_inbox/人机协作双三角/_processed/AI三角-数据_vlm.md
 related:
+discoverable_by:
+  - "双三角武器库"
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-dual-triangle-ten-year-map]]'
 - '[[framework-yihang-dual-triangle-three-stages-six-changes]]'
@@ -40,6 +42,14 @@ aliases:
 - 一堂双三角
 - 人机协作双三角
 tags:
+aliases:
+  - 一行双三角六要素武器库
+  - 三角武器库
+  - 武器库
+  - 双三角六要素武器库
+aliases:
+  - 一行双三角六要素武器库
+  - 三角武器库
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced

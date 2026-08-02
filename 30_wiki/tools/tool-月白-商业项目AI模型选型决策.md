@@ -37,6 +37,11 @@ related:
 - '[[tool-月白-手机外设计逻辑切换法]]'
 - '[[tool-月白-设计项目里程碑拆解法]]'
 tags:
+aliases:
+  - 技能：商业项目AI模型选型决策
+  - 技能
+  - 商业项目AI模型选型决策
+  - 月白
 - audience:executor
 - scene:execution
 - skill-level:beginner

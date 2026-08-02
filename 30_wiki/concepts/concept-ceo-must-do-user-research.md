@@ -13,6 +13,9 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - CEO必须亲自做用户调研
+  - 必须亲自做用户调研
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
@@ -29,7 +32,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 用户调研实操课
 - 调研专题
 ---

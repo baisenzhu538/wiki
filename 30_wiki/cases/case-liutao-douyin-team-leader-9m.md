@@ -13,6 +13,12 @@ language: zh-CN
 domain:
 - yitang
 - research
+aliases:
+  - 从信息碎片拼出抖音团长赛道真相
+  - 刘涛
+  - 息碎片拼出抖音团长赛道真相
+  - 案例
+  - 案例：刘涛从信息碎片拼出抖音团长赛道真相
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 related:
@@ -25,7 +31,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases:
 - 调研专题
 - 高阶情报调研课
 ---

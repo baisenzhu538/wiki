@@ -8,6 +8,10 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - ToB需求场景四象限
+  - 场景四象限
+  - 需求场景四象限
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
@@ -40,6 +44,12 @@ diagnostic_signals:
   follow_up_question: 老客加购依赖的是信任迁移和增量价值，新客获客依赖的是低成本规模化触达，两者的核心验证指标是否被混为一谈？
 - framework_lens: 经营重心误判
   follow_up_question: 在考虑新产品或新客之前，老客老品的复购率、续约率、单客产值还有多大提升空间？为什么当前象限不是最优解？
+discoverable_by:
+- ToB需求场景
+- 企业需求分类
+- B2B场景分析
+- 需求优先级矩阵
+- 四象限需求
 ---
 
 
