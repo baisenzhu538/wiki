@@ -11,43 +11,20 @@ language: zh-CN
 created_at: 2026-07-11
 updated_at: 2026-07-11
 domain:
-- management
-- yitang
 source_refs:
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt L304-L330
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt L2684-L2750
-- 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/基本功武器库_vlm.md
-- 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/整合笔记_苦练基本功完整版.md
 related:
 discoverable_by:
   - "拆建推练"
   - "基本功四字诀"
   - "动作练成组织能力"
-- '[[framework-一堂-苦练基本功-总纲]]'
-- '[[concept-一堂-基本功定义]]'
-- '[[management-domain-digest]]'
-- '[[deliberate-practice-four-elements]]'
-- '[[yt-management-team-knowledge]]'
-- '[[concept-yihang-dual-triangle-core]]'
-- '[[yt-management-basic-skills]]'
-- '[[framework-一堂-业务公式拆解-总纲]]'
-- '[[framework-business-formula-fundamentals-bridge]]'
-- '[[framework-一堂-基本功-九层金字塔]]'
-- '[[framework-一堂-基本功-四类工作四化]]'
 diagnostic_signals:
-- signal: 基本功清单发下去两周，问团队"练到哪一步了"，答案五花八门
   lens: 四字诀顺序断了——多数团队只做了"拆"，没"建"就催"练"
   follow-up: 按本卡四步自查定位断点，缺哪步补哪步，不许跳步
-- signal: 拆出来 20+ 个基本功全要练，开三次会还定不下来先练哪个
   lens: 「拆」只做加法没做减法——缺三环六维筛选
   follow-up: 用六维分析给每个候选打分，砍到 Top1-5，其余挂起
-- signal: 模型建得很漂亮（大文档/思维导图），没人照着做
   lens: 「建」停在了抽象层，没走到清单/小抄/SOP 的具体层
   follow-up: 把方法论压缩成一页小抄 + 一张自查清单，贴到手边再谈推广
 quality_labels:
-- actionable
-- principle
-- insight - framework-yitang-thought-liberation-lightning
 tags:
 aliases:
   - 基本功四字诀拆建推练：把一个动作练成组织能力
@@ -63,14 +40,8 @@ aliases:
   - 作练成组织能力
   - 本功四字诀
   - 建推练
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- fundamentals
-- manage
 ---
-
 # 基本功四字诀「拆建推练」：把一个动作练成组织能力
 
 > **一句话**：拆出关键动作 → 建成固定套路 → 推成团队共识 → 练出大量重复。四步有顺序、缺一不可：没拆出来的练是瞎练，没建模的练靠手感，没共识的推是压服，没重复的练等于没练。

@@ -11,84 +11,20 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-13
 domain:
-- yitang
-- key-assumptions
-- methodology
 source_refs:
-- src_20260606_9dd317aa L22-L80,L364-L402,L584,L818,L962-L982,L1064-L1074,L1560,L1644,L1810,L1982-L1998,L2460-L2482
-- 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-口述.txt L2474-L2500
-- 00_inbox/一堂-关键假设-关键假设三板斧_paddle_ocr.txt
-- 00_inbox/一堂-关键假设-关键假设ABCD模型_paddle_ocr.txt
 related:
 discoverable_by:
   - "关键假设"
   - "假设驱动业务"
   - "一堂关键假设方法"
-- '[[agent-一堂-关键假设教练]]'
-- '[[framework-一堂-关键假设-ABCD模型]]'
-- '[[framework-一堂-关键假设-三板斧]]'
-- '[[framework-一堂-业务公式拆解-总纲]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[concept-一堂-business-prediction]]'
-- '[[tool-一堂-hypothesis-validation-three-axe]]'
-- '[[framework-一堂五步法]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
-- '[[dk-yitang-business-formula-plus-times-trap]]'
-- '[[yt-business-formula-hypothesis-management-playbook]]'
-- '[[yt-tool-business-formula-hypothesis-pool]]'
-- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
-- '[[case-yitang-woqingke-referral-15-to-40]]'
-- '[[case-yitang-homework-six-owners]]'
-- '[[case-yitang-xingangwan-chess-room]]'
-- '[[case-yitang-wenxiaozhang-driving-school]]'
-- '[[case-yitang-vicky-short-video]]'
-- '[[case-yitang-wang-mcn-funnel]]'
-- '[[case-yitang-panhonghai-entertainment]]'
-- '[[case-yitang-shao-kaoyan-gmv]]'
-- '[[case-yitang-du-kids-education-sabc]]'
-- '[[case-yitang-false-causality-collection]]'
-- '[[case-yitang-magic-number-collection]]'
-- '[[case-yitang-innovative-metrics-collection]]'
-- '[[case-yitang-three-industry-formula-demos]]'
-- '[[concept-一堂-关键路径与乘法杠杆]]'
-- '[[concept-一堂-参数即假设与递归嵌套]]'
-- '[[concept-一堂-魔法数字]]'
-- '[[yt-business-formula-three-stage-workflow]]'
-- '[[case-yitang-laowenqi-huixiao-10x]]'
-- '[[case-yitang-zhanglei-comic-booth]]'
-- '[[case-yitang-zhanglei-gacha-points]]'
-- '[[concept-一堂-黑盒到白盒]]'
-- '[[concept-一堂-假设飞轮]]'
-- '[[concept-一堂-三类目标策略]]'
-- '[[concept-一堂-双目标法]]'
-- '[[yt-business-formula-peahd-roles]]'
-- '[[yt-tool-business-formula-expert-interview-10]]'
-- '[[yt-tool-business-formula-18-moves]]'
-- '[[yt-tool-business-formula-inspiration-5]]'
-- '[[yt-business-formula-ten-paradigms]]'
-- '[[business-formula-domain-digest]]'
-- '[[conversion-rate-domain-digest]]'
-- '[[tool-一堂-业务公式-L1L6参数分层自检]]'
-- '[[framework-business-formula-y-model-bridge]]'
-- '[[tool-yitang-hypothesis-marginal-roi]]'
-- '[[dk-yitang-hypothesis-five-alternatives]]'
 diagnostic_signals:
-- signal: 团队说"我们有个好想法，准备全力以赴"，却说不清这个想法依赖哪些前提
   lens: 缺假设驱动意识——把创业当执行计划，不是当一组待验证假设
   follow-up: 先问"你这个业务/渠道/产品的关键假设是什么？"，答不上来就从本卡 Step 1 开始
-- signal: 争论双方各执一词，谁也说服不了谁
   lens: 在争结论，没在争假设——结论背后是不同前提
   follow-up: 让双方各自写出观点背后的关键假设，先验证最前置、风险最高的那一条
-- signal: 某个关键假设失败，整个业务出现巨大硬伤
   lens: 乘法关系没守住——关键假设是乘项，任一为零整体为零
   follow-up: 回退到关键假设清单，定位是哪一条被证伪，决定调整/转型/放弃
 quality_labels:
-- principle
-- framework
-- cited
-- actionable
 tags:
 aliases:
   - 一堂关键假设：用假设驱动业务的方法论入口总框架
@@ -104,14 +40,8 @@ aliases:
   - 设驱动业务
   - 键假设
   - 堂关键假设方法
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- 业务公式拆解
-- 关键假设
 ---
-
 # 一堂关键假设：用假设驱动业务的方法论入口总框架
 
 > **一句话**：关键假设课是一堂整个课程体系的「第一节必修课」与方法论入口，内核只有一句话——**用假设驱动业务**；方法论骨架是**三板斧（加法→减法→验证→迭代）**，场景定位靠**关键假设 ABCD 模型**，本质是**风险管理**，而定性假设要落到可验证，必须贯通**业务公式 L1-L6 定量化**。本卡统摄这四根柱子，是 [[framework-一堂五步法]] 商业分析版的「第 0 步/前置入口」。

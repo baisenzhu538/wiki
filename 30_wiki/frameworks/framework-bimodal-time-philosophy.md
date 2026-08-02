@@ -12,23 +12,15 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
-- time-management
 source_refs:
-- 00_inbox/时间管理/truman-时间管理课程-口述.txt
-- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 related:
 discoverable_by:
   - "双峰时间哲学"
   - "时间管理双峰模型"
-- '[[yt-personal-time-management]]'
-- '[[framework-yitang-five-step-to-time-management]]'
 diagnostic_signals:
-- signal: placeholder
   lens: placeholder
   follow-up: 后续补全
 quality_labels:
-- actionable
 tags:
 aliases:
   - 双峰时间哲学模型
@@ -41,12 +33,7 @@ aliases:
   - 双峰时间哲学模型
   - 峰时间哲学
   - 间管理双峰模型
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 aliases:
-- 整合笔记
-- 时间管理
 ---
 # 双峰时间哲学模型
 

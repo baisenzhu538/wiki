@@ -11,44 +11,19 @@ language: zh-CN
 created_at: 2026-07-11
 updated_at: 2026-07-11
 domain:
-- management
-- yitang
 source_refs:
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt:L2512-2891（十层解读逐层口述）
-- 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/整合笔记_苦练基本功完整版.md:L286-300（九层递进金字塔整理稿）
-- 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/基本功武器库_vlm.md
 related:
 discoverable_by:
   - "基本功九层金字塔"
   - "底层信念到基本功化"
-- '[[framework-一堂-苦练基本功-总纲]]'
-- '[[framework-一堂-基本功-四字诀拆建推练]]'
-- '[[framework-一堂-基本功-四类工作四化]]'
-- '[[concept-一堂-基本功定义]]'
-- '[[concept-一堂-基本功-段位体系]]'
-- '[[tool-一堂-基本功-建模七法]]'
-- '[[tool-一堂-基本功-推动七式]]'
-- '[[tool-一堂-基本功-练习二十法]]'
-- '[[management-domain-digest]]'
-- '[[method-dual-triangle-flywheel-engine]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-business-formula-six-level-logic]]'
-- '[[framework-business-formula-fundamentals-bridge]]'
-- '[[framework-一堂-业务公式拆解-总纲]]'
 diagnostic_signals:
-- signal: 团队学了基本功课，回去只记得"要苦练"三个字，落地动作一个没有
   lens: 只爬到金字塔第一层（理念）就停了——下面八层（对象/目标/路径/策略/工具）一层没碰
   follow-up: 拿本卡九层表逐层自查，定位团队目前站在第几层，下一层的入口动作是什么
-- signal: 基本功推行卡在"选什么练/怎么练/谁来练"的争吵里，来回打转
   lens: 跨层操作——第四层（四字诀路径）没走通，直接跳到第八层找工具
   follow-up: 回到第四层按 拆→建→推→练 顺序补齐，工具只在路径通了之后取用
-- signal: 练了半年基本功，问成果只有"大家更努力了"，没有可见交付物
   lens: 停在第五层之前——拆出的不是"独立动作"，练的不是"固定套路"，无法检查
   follow-up: 用第五层四个目标逐一验收：动作是否独立可练、套路是否固定、共识是否形成、反馈是否大量
 quality_labels:
-- principle
-- framework
-- insight
 tags:
 aliases:
   - 基本功九层金字塔：从底层信念到基本功化的完整地图
@@ -63,14 +38,8 @@ aliases:
   - 从底层信念到基本功化的完整地图
   - 本功九层金字塔
   - 层信念到基本功化
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- fundamentals
-- manage
 ---
-
 # 基本功九层金字塔：从底层信念到基本功化的完整地图
 
 > **一句话**：一堂把整套基本功方法论压进一张「武器库全景图」，并用逐层解读的方式读出九层结构——**底层信念**（人不是组织能力的最小单位，基本功才是）托着九层：理念 → 对象 → 目标 → 路径 → 各字目标 → 策略集合 → 演化路径 → 关键工具 → 内化。读透这张图，等于拿到基本功从认知到落地的完整地图；落地时从底层信念开始逐层往下走，缺一层上面全是空的。

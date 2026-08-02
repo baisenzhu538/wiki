@@ -12,30 +12,15 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
-- yitang
-- personal-learning
 source_refs:
-- 00_inbox/ideas/一堂-个人修炼-IPO模型实操课口述.md
-- 00_inbox/一堂-个人修炼-科学学习IPO-全景策略_paddle_ocr.txt
-- 00_inbox/一堂-个人修炼-科学学习IPO完整清单_paddle_ocr.txt
 related:
 discoverable_by:
   - "IPO学习闭环"
   - "Input Process Output"
-- '[[framework-个人学习方法总框架]]'
-- '[[framework-个人学习方法-科学提问]]'
-- '[[framework-个人学习方法-思维模型]]'
-- '[[framework-个人学习方法-知识萃取]]'
-- '[[agent-个人学习方法教练]]'
-- '[[yt-personal-ipo-learning]]'
-- '[[yt-model-ipo-learning-strategy]]'
 diagnostic_signals:
-- signal: 学了很多但说不清学到了什么
   lens: IPO的O(Output)缺失——只有输入没有输出
   follow-up: 强制输出：学完任何东西写一段200字的"我学到了什么"
 quality_labels:
-- principle
-- actionable
 tags:
 aliases:
   - IPO学习闭环：Input→Process→Output→Feedback全景
@@ -45,14 +30,8 @@ aliases:
   - IPO学习闭环：Input→Process→Output→Feedback全景
   - IPO学习闭环
   - 学习闭环
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- ideas
-- 个人修炼
 ---
-
 # IPO学习闭环：Input→Process→Output→Feedback全景
 
 > **一句话**：IPO是个人学习能力的底层引擎。不是"学了就行"——Input（输入）→Process（处理）→Output（输出）→Feedback（反馈），四步闭环。缺任何一步，学习效率打对折。

@@ -11,45 +11,16 @@ language: zh-CN
 created_at: 2026-07-12
 updated_at: 2026-07-12
 domain:
-- yitang
-- decision-science
-- methodology
 source_refs:
-- 30_wiki/concepts/yt-decision-y-model.md
-- 30_wiki/systems/system-yitang-Y-model-os.md
-- 30_wiki/frameworks/framework-yitang-y-model-cross-domain-fusion.md
-- 30_wiki/frameworks/framework-yitang-y-model-dual-triangle-synergy.md
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1452
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L700
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1398-L1580
 related:
 discoverable_by:
   - "业务公式Y模型桥接"
-- '[[yt-decision-y-model]]'
-- '[[system-yitang-Y-model-os]]'
-- '[[framework-yitang-y-model-cross-domain-fusion]]'
-- '[[framework-yitang-y-model-dual-triangle-synergy]]'
-- '[[framework-一堂-关键假设-ABCD模型]]'
-- '[[framework-一堂-关键假设]]'
-- '[[framework-business-formula-dual-triangle-bridge]]'
-- '[[framework-business-formula-fundamentals-bridge]]'
-- '[[tool-agent-spec-business-formula-parameter-miner]]'
-- '[[case-yitang-marathon-ten-seasons]]'
-- '[[case-yitang-woqingke-referral-15-to-40]]'
-- '[[yt-tool-business-formula-quant-space-3d]]'
-- '[[yt-business-formula-ten-paradigms]]'
 diagnostic_signals:
-- signal: 团队会用Y模型画"理论×事实→假设"，但假设质量参差不齐，"提升转化率"这种假假设混在里面
   lens: Y模型给了"提出关键假设"这个动作但没给"怎么提出好假设"的方法——C域补的就是这个缺口
   follow-up: 把当前假设池的每个假设用参数冰山L1-L6打分：能落到L3以下（分层/转化/创新/魔法）的才是好假设
-- signal: Y模型跑了很多轮，但每轮假设之间没有积累——像原地转圈
   lens: Y模型的迭代是"假设→验证→新假设"的循环，但如果没有参数认知的积累，新假设不会比旧假设更好
   follow-up: 在Y模型每轮迭代后补一步"参数认知升级"：这轮验证让我们对哪个参数的理解深了一层？
 quality_labels:
-- bridge
-- framework
 tags:
 aliases:
   - 业务公式×Y模型桥接：关键假设层的全面操作化
@@ -64,11 +35,7 @@ aliases:
   - 关键假设层的全面操作化
   - 模型桥接
   - 务公式
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- handle
 ---
 <!--
   桥接卡骨架 — C域本体卡产出后补充 wikilink。

@@ -12,29 +12,15 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
-- yitang
-- personal-learning
 source_refs:
-- 00_inbox/AI-study/一堂-AI学习-科学提问口述.txt L96,L396,L432-L436,L1070
-- 00_inbox/一堂-个人修炼-提问刻意练习画布_paddle_ocr.txt
 related:
 discoverable_by:
   - "科学提问"
   - "AI时代提问生产力"
-- '[[framework-个人学习方法总框架]]'
-- '[[framework-个人学习方法-IPO学习闭环]]'
-- '[[agent-个人学习方法教练]]'
-- '[[yt-model-questioning-practice-canvas]]'
-- '[[yt-model-scientific-questioning-map]]'
-- '[[tool-提问刻意练习画布]]'
-- '[[yt-decision-y-model]]'
 diagnostic_signals:
-- signal: 问AI的问题太宽泛，输出也很泛
   lens: 提问段位低——问题本身决定了答案质量
   follow-up: 用四段位画布精炼问题
 quality_labels:
-- principle
-- actionable
 tags:
 aliases:
   - 科学提问：AI时代提问=生产力入口
@@ -49,14 +35,8 @@ aliases:
   - AI时代提问=生产力入口
   - 学提问
   - 时代提问生产力
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- study
-- 个人修炼
 ---
-
 # 科学提问：AI时代提问=生产力入口
 
 > **一句话**：AI时代，提问能力=生产力。你问得多好，AI就回答得多好。科学提问是IPO的输入放大器——问对问题=Input质量翻倍。横跨IPO（学习场景）和Y模型（创业场景）。

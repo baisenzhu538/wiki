@@ -11,47 +11,16 @@ language: zh-CN
 created_at: 2026-07-12
 updated_at: 2026-07-12
 domain:
-- yitang
-- ai-collaboration
-- methodology
 source_refs:
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2208-L2210
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1420-L1430
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1362-L1452
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L28-L124
-- 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1398-L1580
-- 30_wiki/concepts/concept-yihang-dual-triangle-core.md
-- 30_wiki/frameworks/framework-yihang-dual-triangle-weapon-library.md
-- 00_inbox/Handle the business/Business formula/_vlm_output/任务编排建议书_王语嫣_业务公式_v2.md
 related:
 discoverable_by:
   - "业务公式双三角桥接"
-- '[[concept-yihang-dual-triangle-core]]'
-- '[[framework-yihang-dual-triangle-weapon-library]]'
-- '[[method-dual-triangle-flywheel-engine]]'
-- '[[framework-一堂-关键假设-ABCD模型]]'
-- '[[framework-business-formula-y-model-bridge]]'
-- '[[framework-business-formula-fundamentals-bridge]]'
-- '[[tool-agent-spec-business-formula-parameter-miner]]'
-- '[[case-yitang-fupanying-five-years-1000-hypotheses]]'
-- '[[yt-tool-business-formula-causality-toolkit]]'
-- '[[concept-一堂-参数即假设与递归嵌套]]'
-- '[[yt-tool-business-formula-18-moves]]'
-- '[[yt-business-formula-six-level-logic]]'
-- '[[yt-business-formula-ten-paradigms]]'
-- '[[yt-business-formula-parameter-iceberg]]'
 diagnostic_signals:
-- signal: 团队有双三角体系但不知道怎么把业务拆成可练的AI能力
   lens: C域桥接缺失——双三角给了六顶点框架，但没有告诉你怎么从业务里挖出参数给AI吃
   follow-up: 用本卡的六顶点映射表，每个顶点找到对应的C域能力入口
-- signal: 业务公式的产出（参数/公式/假设池）不知道怎么纳入双三角飞轮
   lens: 飞轮只定义了"人/AI/能力"三回路，缺少"业务指标→参数→验证→飞轮转速"的对接点
   follow-up: 见§三飞轮对接：参数变化率=飞轮转速的量化代理
 quality_labels:
-- bridge
-- framework
 tags:
 aliases:
   - 业务公式×双三角桥接：C域在六顶点中的定位与映射
@@ -65,11 +34,7 @@ aliases:
   - 业务公式×双三角桥接
   - C域在六顶点中的定位与映射
   - 务公式双三角桥接
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- handle
 ---
 <!--
   桥接卡骨架 — C域本体卡产出后补充 wikilink。

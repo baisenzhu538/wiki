@@ -12,25 +12,17 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
-- time-management
 source_refs:
-- 00_inbox/时间管理/truman-时间管理课程-口述.txt
-- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 related:
 discoverable_by:
   - "时间管理矩阵"
   - "双循环矩阵"
   - "独立协作时间管理"
   - "重点效率矩阵"
-- '[[yt-personal-time-management]]'
-- '[[framework-yitang-five-step-to-time-management]]'
 diagnostic_signals:
-- signal: placeholder
   lens: placeholder
   follow-up: 后续补全
 quality_labels:
-- actionable
 tags:
 aliases:
   - 时间管理双循环矩阵：独立/协作×重点/效率
@@ -46,12 +38,7 @@ aliases:
   - 重点/效率
   - 点效率矩阵
   - 循环矩阵
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 aliases:
-- 整合笔记
-- 时间管理
 ---
 # 时间管理双循环矩阵：独立/协作 × 重点/效率
 

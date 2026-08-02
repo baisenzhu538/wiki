@@ -12,34 +12,19 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
-- demand-analysis
 source_refs:
-- 00_inbox/五步法之需求分析/一堂-需求分析-空间测算-口述.txt L322-L344,L1308-L1870,L2252-L2278,L2348
-- 00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt L1720-L1796,L1962-L1976
 related:
 discoverable_by:
   - "需求天花板"
   - "TAM SAM SOM"
   - "需求天花板四层线"
   - "市场规模估算方法"
-- '[[tool-demand-assessment-triangle]]'
-- '[[tool-demand-iceberg-l6-hypothesis]]'
-- '[[tool-demand-ceiling-coach]]'
-- '[[yt-market-size-estimation]]'
-- '[[framework-demand-opportunity-spectrum]]'
-- '[[domain-demand-analysis-index]]'
-- '[[yt-entrepreneur-unit-model]]'
 diagnostic_signals:
-- signal: 创始人说"我们的市场是万亿级的"但无法说清SOM是多少
   lens: 天花板估算跳跃——从TAM直接跳到"我们能做到XX%"
   follow-up: 用四层线逐层收紧，从TAM→SAM→SOM→CR1→BEL
-- signal: 融资BP里的市场规模数字和内部经营计划对不上
   lens: 融资版vs经营版未区分——两套算法混用
   follow-up: 明确当前场景是融资版还是经营版，用对应算法
 quality_labels:
-- principle
-- actionable
 tags:
 aliases:
   - 需求天花板四层线：TAM/SAM/SOM/CR1/BEL
@@ -54,14 +39,8 @@ aliases:
   - 求天花板四层线
   - 求天花板
   - 场规模估算方法
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- 五步法之需求分析
-- 空间测算
 ---
-
 # 需求天花板四层线：TAM/SAM/SOM/CR1/BEL
 
 > **一句话**：大多数创业者把"天花板"讲成一个数，但在五步法的需求分析里，天花板不是算出来的——是"一层层紧"出来的。TAM→SAM→SOM→CR1→BEL，五层收紧，融资版和经营版算法不同。

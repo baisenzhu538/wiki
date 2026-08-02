@@ -12,39 +12,17 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
-- yitang
-- personal-learning
 source_refs:
-- 00_inbox/ideas/一堂-个人修炼-IPO模型实操课口述.md L18-L58
-- 00_inbox/AI-study/一堂-AI学习-科学提问口述.txt L96,L396
-- 00_inbox/一堂-个人修身-思维模型口述版.md L8,L1072-L1086
-- 00_inbox/一堂-个人修炼-知识萃取探索营口述版.md L22-L36
-- 00_inbox/一堂-个人修炼-科学学习IPO-全景策略_paddle_ocr.txt
-- 00_inbox/一堂-个人修炼-科学学习IPO完整清单_paddle_ocr.txt
 related:
 discoverable_by:
   - "个人学习方法总框架"
   - "IPO×四环闭环"
-- '[[framework-个人学习方法-IPO学习闭环]]'
-- '[[framework-个人学习方法-科学提问]]'
-- '[[framework-个人学习方法-思维模型]]'
-- '[[framework-个人学习方法-知识萃取]]'
-- '[[agent-个人学习方法教练]]'
-- '[[yt-personal-ipo-learning]]'
-- '[[yt-decision-y-model]]'
-- '[[tool-个人学习方法-修炼闭环自检清单]]'
-- '[[framework-一堂五步法]]'
 diagnostic_signals:
-- signal: 用户说"我学过IPO但不知道怎么和提问/思维模型/知识萃取串起来"
   lens: 缺总框架——四环孤立，没有闭环意识
   follow-up: 用本卡的四环链路定位当前在哪个环节，补相邻环
-- signal: 用户搞不清楚"IPO和Y模型是什么关系"
   lens: 概念打架——两个框架都有Input/Process/Output
   follow-up: 读本卡§四的IPO×Y边界表——IPO管学习，Y管创业
 quality_labels:
-- principle
-- cited
-- validated
 tags:
 aliases:
   - 个人学习方法总框架：IPO×四环闭环
@@ -59,14 +37,8 @@ aliases:
   - IPO×四环闭环
   - 人学习方法总框架
   - 四环闭环
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- ideas
-- study
 ---
-
 # 个人学习方法总框架：IPO×四环闭环
 
 > **一句话**：IPO是个人学习能力的底层引擎——输入→处理→输出→反馈，四环闭环：IPO驱动科学提问（输入放大器）→思维模型（处理内核）→知识萃取（输出高阶形态）。和Y模型是"学/做"分工——IPO管个人学习进化，Y管创业假设验证。

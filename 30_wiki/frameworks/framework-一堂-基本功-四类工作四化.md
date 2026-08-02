@@ -11,35 +11,19 @@ language: zh-CN
 created_at: 2026-07-11
 updated_at: 2026-07-11
 domain:
-- management
-- yitang
 source_refs:
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt L334-L360
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt L2560-L2690
-- 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/基本功武器库_vlm.md
 related:
 discoverable_by:
   - "四类工作四化"
   - "基本功进攻方向"
-- '[[framework-一堂-苦练基本功-总纲]]'
-- '[[framework-一堂-基本功-四字诀拆建推练]]'
-- '[[concept-一堂-基本功定义]]'
-- '[[management-domain-digest]]'
-- '[[yt-management-team-knowledge]]'
-- '[[framework-一堂-基本功-九层金字塔]]'
 diagnostic_signals:
-- signal: 创意岗同学被要求每周交 SOP，越来越不敢试新东西
   lens: 创造类工作被按标准类管理——4 化错位，把探索当执行管
   follow-up: 创造类只追到「专业化」为止（建池子/多轮减法），SOP 要求立即撤掉
-- signal: 公司某项能力很依赖一个明星员工，他休假业务就抖
   lens: 领先类工作没标准化——能力长在人身上没长在组织上
   follow-up: 启动「建模型+持续复盘升级」，三个月内把该能力的套路落到文档和小抄
-- signal: 团队争论某项工作到底算哪一类，开了两次会没结论
   lens: 把类别当标签不当坐标——类别允许重合、允许随阶段迁移
   follow-up: 按「成功率是否开放」和「是否依赖特定个人」两问快速定位，定完就走
 quality_labels:
-- principle
-- actionable
 tags:
 aliases:
   - 五类工作×4化：基本功的进攻方向诊断图
@@ -54,14 +38,8 @@ aliases:
   - 基本功的进攻方向诊断图
   - 本功进攻方向
   - 类工作四化
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- fundamentals
-- manage
 ---
-
 # 五类工作 × 4化：基本功的进攻方向诊断图
 
 > **一句话**：你手上的活分五类——创造、专业、领先、标准、SOP；练基本功不是平均用力，是看清每类工作的「下一站」往哪推：创造类→专业化、专业类→领先化、领先类→标准化、标准类→SOP化。

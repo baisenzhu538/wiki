@@ -12,63 +12,21 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
-- yitang
-- opportunity-foresight
-- five-step-method
 source_refs:
-- 00_inbox/一堂-机会预判课-Truman-口述.txt L38-L66
-- 00_inbox/一堂-机会预判课-Truman-口述.txt L68-L90
-- 00_inbox/一堂-机会预判课-truman-笔记.txt L21-L23
-- 00_inbox/一堂-机会预判课-truman-笔记.txt L31-L37
-- 00_inbox/一堂-机会预判-终局光谱图-truman-图01_paddle_ocr.txt
-- 00_inbox/一堂-机会预判-终局光谱图-truman-图02_paddle_ocr.txt
-- 00_inbox/一堂-机会预判-终局光谱图-truman-图03_paddle_ocr.txt
-- 00_inbox/一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt L1-L5
-- 00_inbox/一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt L1-L14
-- 00_inbox/一堂-机会预判-案例预判01_paddle_ocr.txt
-- 00_inbox/一堂-机会预判-案例预判02_paddle_ocr.txt
-- 00_inbox/一堂-机会预判-案例预判03_paddle_ocr.txt
-- 00_inbox/一堂-机会预判-咖啡案例01_paddle_ocr.txt
-- 00_inbox/一堂-机会预判-咖啡店案例-五步法预判_paddle_ocr.txt
 related:
 discoverable_by:
   - "机会预判"
   - "CEO预判操作系统"
-- '[[agent-一堂-机会预判教练]]'
-- '[[concept-一堂-终局光谱图解读]]'
-- '[[tool-一堂-机会预判-案例预判]]'
-- '[[tool-一堂-机会预判-五步法预判]]'
-- '[[yt-foresight-business-spectrum]]'
-- '[[framework-demand-opportunity-spectrum]]'
-- '[[yt-foresight-15-char-mantra]]'
-- '[[yt-foresight-ab-steady-state]]'
-- '[[yt-foresight-addition-subtraction]]'
-- '[[yt-foresight-ten-fatal-flaws]]'
-- '[[yt-three-dimension-opportunity-matrix]]'
-- '[[yt-ai-trend-12-signals]]'
-- '[[concept-一堂-business-prediction]]'
-- '[[framework-一堂五步法]]'
-- '[[case-coffee-shop-foresight]]'
-- '[[case-escort-service-tiered-growth]]'
-- '[[case-ai-time-management-tiered-growth]]'
 diagnostic_signals:
-- signal: 看到别人赚钱就想跟进 Copy，没看过同行就开干
   lens: 缺预判——三失败模式之"人云亦云"
   follow-up: 先列同行主流模式≥5个，再谈自己想做什么
-- signal: 靠一口气、一口热情、八字硬把全部资源压到一个选项上
   lens: 缺加法减法——P型创业者单点下注
   follow-up: 强制先拆出≥10个选项，再做硬伤排除
-- signal: 赌上十年时间和毕生积蓄，做明眼人一眼看穿的硬伤项目
   lens: 预判段位差——L1 热情段硬扛 L4-L6 才该识别的硬伤
   follow-up: 用段位阶梯定位自己，缺哪段补哪段，不越级烧钱
-- signal: 在终局光谱上"保1争7"——副业资源却想做到上市
   lens: 区间错配——把"评价现在"当成"预判终局"
   follow-up: 用保A争B选一个区间，而不是赌一个点
 quality_labels:
-- principle
-- cited
-- validated
-- actionable
 tags:
 aliases:
   - 一堂机会预判：CEO的预判操作系统总框架
@@ -84,14 +42,8 @@ aliases:
   - 的预判操作系统总框架
   - 会预判
   - 预判操作系统
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- 五步法预判
-- 咖啡店案例
 ---
-
 # 一堂·机会预判：CEO 的预判操作系统（总框架）
 
 > **一句话**：预判是每个 CEO/业务负责人**最重要的工作之一**——从第一天到最后一天都要持续做。本卡把"预判段位差 → 15字诀 → 终局光谱七段 → 保A争B → 加法/减法 → 五步法预判"串成一条项链，并声明：**机会预判是五步法（[[framework-一堂五步法]]）的前置滤镜 / 第 0 步**——它回答"这件事值不值得做、最多做多大"，然后才进入需求分析。

@@ -12,28 +12,15 @@ language: zh-CN
 created_at: 2026-07-10
 updated_at: 2026-07-10
 domain:
-- yitang
-- personal-expression
 source_refs:
-- 00_inbox/一堂-个人修炼-表达力火箭模型_paddle_ocr.txt
-- 00_inbox/一堂-个人修炼-表达力火箭模型-执行武器库_paddle_ocr.txt
 related:
 discoverable_by:
   - "表达力火箭模型"
   - "四要素递进表达"
-- '[[framework-一堂-个人表达力]]'
-- '[[agent-一堂-个人表达力教练]]'
-- '[[tool-一堂-表达力火箭模型-执行武器库]]'
-- '[[yt-personal-scientific-expression]]'
-- '[[yt-personal-verbatim-script]]'
-- '[[concept-讲香-卖点直给到价值感]]'
-- '[[yt-model-personal-pitch-toolkit]]'
 diagnostic_signals:
-- signal: 表达时"有内容但没说服力"
   lens: 火箭模型只到第一层——有卖点但缺专业度和打动人
   follow-up: 火箭四要素逐层检查，补缺层
 quality_labels:
-- principle
 tags:
 aliases:
   - 表达力火箭模型：四要素递进
@@ -48,14 +35,8 @@ aliases:
   - 四要素递进
   - 要素递进表达
   - 达力火箭模型
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- 个人修炼
-- 执行武器库
 ---
-
 # 表达力火箭模型：四要素递进
 
 > **一句话**：表达力像火箭——从底部一层层往上推。四要素：有卖点（底座）→有专业度（信任）→打动人（情感）→逐字稿（控制）。每层缺一不可。

@@ -12,36 +12,15 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
-- five-step-method
 source_refs:
-- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt L6-L10
-- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L527-L528
-- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-AI落地行动-口述.txt L574-L589
-- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-十大单元模型清单_paddle_ocr.txt
 related:
 discoverable_by:
   - "五步法单元模型"
   - "斧子尺子梯子"
-- '[[framework-一堂五步法]]'
-- '[[agent-一堂五步法教练]]'
-- '[[yt-entrepreneur-unit-model]]'
-- '[[yt-model-five-step-canvas]]'
-- '[[framework-一堂五步法-增长周期]]'
-- '[[tool-一堂五步法-换档检查清单]]'
-- '[[yt-five-step-method]]'
-- '[[yt-tool-business-formula-parameter-arsenal]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[framework-一堂-业务公式拆解-总纲]]'
-- '[[framework-一堂五步法-壁垒]]'
 diagnostic_signals:
-- signal: 创始人说"我们LTV>CAC"但LTV是"假设用户用3年"算出来的
   lens: 单元模型自欺——LTV用乐观假设估算
   follow-up: 用实测留存率重算LTV，不要用"假设"
 quality_labels:
-- principle
-- actionable
 tags:
 aliases:
   - 一堂五步法单元模型：斧子/尺子/梯子三角色
@@ -57,14 +36,8 @@ aliases:
   - 斧子/尺子/梯子三角色
   - 子尺子梯子
   - 步法单元模型
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- 一堂五步法
-- 十大单元模型清单
 ---
-
 # 一堂五步法·单元模型：斧子/尺子/梯子三角色
 
 > **一句话**：单元模型是五步法第四步的核心。"斧子"砍假设、"尺子"量进度、"梯子"爬段位——从粗到精，从会用到出神入化。

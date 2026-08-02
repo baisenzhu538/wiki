@@ -11,54 +11,21 @@ language: zh-CN
 created_at: 2026-07-11
 updated_at: 2026-07-11
 domain:
-- management
-- yitang
 source_refs:
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt L104-L360
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt L2512-L2891
-- 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt L3900-L3959
-- 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/整合笔记_苦练基本功完整版.md
 related:
 discoverable_by:
   - "苦练基本功总纲"
   - "基本功是组织能力最小单位"
-- '[[management-domain-digest]]'
-- '[[concept-一堂-基本功定义]]'
-- '[[yt-model-management-map]]'
-- '[[yt-management-project-management]]'
-- '[[yt-management-basic-skills]]'
-- '[[yt-management-team-knowledge]]'
-- '[[dk-fundamentals-before-advanced-ops]]'
-- '[[deliberate-practice-four-elements]]'
-- '[[tool-讲香基本功-十指模型]]'
-- '[[concept-yihang-dual-triangle-core]]'
-- '[[concept-一堂-假设飞轮]]'
-- '[[yt-tool-business-formula-18-moves]]'
-- '[[yt-tool-business-formula-format-spec]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[framework-一堂-业务公式拆解-总纲]]'
-- '[[framework-business-formula-fundamentals-bridge]]'
-- '[[framework-yitang-project-execution]]'
-- '[[framework-一堂-基本功-九层金字塔]]'
-- '[[framework-一堂-基本功-四字诀拆建推练]]'
-- '[[framework-一堂-基本功-四类工作四化]]'
 diagnostic_signals:
-- signal: 团队能力描述全是"沟通能力强""有领导力""有责任心"，一上手做事就露馅
   lens: 管理颗粒度停在"人"和"素质"层，没有拆到基本功层——素质没法练，动作才能练
   follow-up: 把每个"素质词"翻译成一组可观察动作（如"沟通能力强"→"开场 3 分钟讲清方案+结论先行"），拆不动就不是基本功
-- signal: 培训做了、模型发了，两周后团队照旧，领导一问"都懂"，一看动作全变形
   lens: 只完成了"拆+建"，缺"推+练"——共识没形成、重复次数不够
   follow-up: 补推动七式（灰度发布+启动会+以身作则）和练习二十法（考核/会议/复盘嵌入），按季度看行为数据
-- signal: 基本功清单列了 30 多项，人人喊重要，三个月一项都没练出来
   lens: 没做减法——早期同时推多个基本功等于一个都不推
   follow-up: 用三环六维筛到只剩 1-3 个标杆基本功，练透再扩
-- signal: 练基本功靠喊口号、贴标语，一考核就反弹成应付
   lens: 练的手段停在氛围层（挂在嘴边/文化墙），没进流程和制度层
   follow-up: 氛围→工具→流程→制度四层加码：先考核评估，再绩效/职级/晋升挂钩
 quality_labels:
-- principle
-- actionable
-- insight
 tags:
 aliases:
   - 苦练基本功总纲：人不是组织能力的最小单位，基本功才是
@@ -74,14 +41,8 @@ aliases:
   - 基本功才是
   - 本功是组织能力最小单位
   - 练基本功总纲
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- fundamentals
-- manage
 ---
-
 # 苦练基本功总纲：人不是组织能力的最小单位，基本功才是
 
 > **一句话**：招一堆人码在一起干不出组织能力——你码的不是人，是他们的基本功。基本功是针对具体工作场景的独立可检验动作，靠重复练习形成长期复利；带团队苦练基本功走四字诀「拆 → 建 → 推 → 练」，配套 40 张工具卡（拆 6 / 建 7 / 推 7 / 练 20）。

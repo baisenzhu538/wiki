@@ -12,25 +12,17 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
-- time-management
 source_refs:
-- 00_inbox/时间管理/truman-时间管理课程-口述.txt
-- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 related:
 discoverable_by:
   - "深度工作冰山"
   - "L1-L5深度工作"
   - "冰山模型工作法"
   - "深度工作怎么分层"
-- '[[yt-personal-time-management]]'
-- '[[framework-yitang-five-step-to-time-management]]'
 diagnostic_signals:
-- signal: placeholder
   lens: placeholder
   follow-up: 后续补全
 quality_labels:
-- actionable
 tags:
 aliases:
   - L1L5深度工作冰山模型
@@ -46,12 +38,7 @@ aliases:
   - 深度工作
   - 度工作怎么分层
   - 度工作冰山
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 aliases:
-- 整合笔记
-- 时间管理
 ---
 # L1-L5 深度工作冰山模型
 

@@ -7,59 +7,27 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07
 quality_labels:
-- cited
-- principle
-- validated
 created_at: 2026-06-20
 updated_at: 2026-07-07
 confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- 怎么做调研
-- 行业研究用什么框架
-- 竞品分析流程
-- 尽职调查步骤
-- 市场进入调研
-- 如何验证调研结论
 source_refs:
-- 00_inbox/调研专题/一堂-系统式调研-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-- 00_inbox/调研专题/系统调研（高水平计划）_vlm_desc.md
-- 00_inbox/调研专题/系统调研（高水平执行）_vlm_desc.md
 related:
 discoverable_by:
   - "OSCAR调研模型"
   - "目标锁定到正确归因"
   - "五步法调研"
-- '[[framework-yitang-high-level-execution]]'
-- '[[framework-yitang-four-research-types]]'
-- '[[yt-research-osl-framework]]'
-- '[[concept-yitang-research-scope]]'
-- '[[framework-yitang-high-level-plan]]'
-- '[[framework-yitang-research-radar]]'
-- '[[concept-yitang-research-objective]]'
-- '[[method-kdo-external-exploration-sop]]'
-- '[[tool-oscar-kdo-external-exploration]]'
-- '[[yt-research-weaponry-course]]'
-- '[[framework-multi-agent-research-architecture]]'
-- '[[framework-yitang-iterative-recursive-digging]]'
-- '[[framework-yitang-research-quality-gate]]'
-- '[[framework-yitang-six-layer-cross-validation]]'
 diagnostic_signals:
-- signal: 调研启动时无法一句话说清"这次调研要回答什么问题"
   lens: O步骤缺失——目标未锁定
   follow-up: 强制用四种类型（选择题/解答题/设计题/竞争题）分类后重试
-- signal: 搜索方向超过5个，跨了宏观/中观/微观多个层面
   lens: S步骤失控——范围未缩小
   follow-up: 写剥离清单，明确"本次不搜什么"
-- signal: 每次外部探索用的都是同一套搜索词
   lens: C步骤僵化——清单套模板
   follow-up: 根据本次目标重新设计关键词和来源类型
 tags:
@@ -77,12 +45,8 @@ aliases:
   - 调研模型
   - 标锁定到正确归因
   - 步法调研
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases: []
 ---
-
 # OSCAR调研模型：从目标锁定到正确归因的五步法
 
 > **一句话**：调研失效的70%根因在前三步（OSC），调研价值的70%来自后两步（AR）。OSCAR强迫你区分"计划"和"执行"，区分"获取"和"归因"，确保每一次调研都能产出可执行的决策依据。

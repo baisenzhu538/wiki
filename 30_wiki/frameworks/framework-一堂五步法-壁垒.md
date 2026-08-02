@@ -12,29 +12,15 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
-- five-step-method
 source_refs:
-- 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt L425-L427,L1222-L1234
-- 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-假的壁垒_paddle_ocr.txt
 related:
 discoverable_by:
   - "壁垒六大护城河"
   - "真假壁垒判断"
-- '[[framework-一堂五步法]]'
-- '[[framework-一堂五步法-增长周期]]'
-- '[[agent-一堂五步法教练]]'
-- '[[case-five-step-fake-vs-real-barriers]]'
-- '[[yt-entrepreneur-barriers]]'
-- '[[yt-model-five-step-canvas]]'
-- '[[framework-一堂五步法-单元模型]]'
 diagnostic_signals:
-- signal: 创始人说"我们的壁垒是品牌"但品牌知名度<5%
   lens: 假壁垒——品牌是结果不是壁垒
   follow-up: 六大护城河逐一检查——品牌不在六条里
 quality_labels:
-- principle
-- actionable
 tags:
 aliases:
   - 一堂五步法壁垒：六大护城河+真假壁垒判断
@@ -50,14 +36,8 @@ aliases:
   - 六大护城河+真假壁垒判断
   - 假壁垒判断
   - 垒六大护城河
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- 一堂五步法
-- 假的壁垒
 ---
-
 # 一堂五步法·壁垒：六大护城河+真假壁垒判断
 
 > **一句话**：增长到一定阶段，不建壁垒就等着被复制。但不是所有"我们认为的壁垒"都是真壁垒——品牌、先发优势、技术专利，很多都是假壁垒。

@@ -12,29 +12,15 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- yitang
-- five-step-method
 source_refs:
-- 00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt L39-L58,L331-L390,L372-L376,L582-L589
-- 00_inbox/一堂五步法/一堂-一堂五步法-增长-增长周期模型_paddle_ocr.txt
 related:
 discoverable_by:
   - "增长周期三阶段"
   - "获客驱动系统驱动对抗驱动"
-- '[[framework-一堂五步法]]'
-- '[[framework-一堂五步法-壁垒]]'
-- '[[framework-一堂五步法-单元模型]]'
-- '[[agent-一堂五步法教练]]'
-- '[[yt-entrepreneur-five-step-method]]'
-- '[[yt-model-five-step-canvas]]'
-- '[[framework-一堂五步法-泛产品设计]]'
 diagnostic_signals:
-- signal: 增长停滞后团队的反应是"加大投放"——但用户留存已经在掉
   lens: 系统驱动缺位——获客驱动到极限后需要系统驱动
   follow-up: 判断当前是获客驱动还是需要切换到系统驱动
 quality_labels:
-- principle
-- actionable
 tags:
 aliases:
   - 一堂五步法增长周期：获客驱动/系统驱动/对抗驱动三阶段
@@ -50,14 +36,8 @@ aliases:
   - 获客驱动/系统驱动/对抗驱动三阶段
   - 长周期三阶段
   - 客驱动系统驱动对抗驱动
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- 一堂五步法
-- 增长周期模型
 ---
-
 # 一堂五步法·增长周期：获客驱动/系统驱动/对抗驱动三阶段
 
 > **一句话**：增长不是一条直线。五步法第五步把增长分为三个阶段——获客驱动（拼执行力）、系统驱动（拼体系）、对抗驱动（拼认知）。每个阶段有不同的增长引擎和死亡方式。

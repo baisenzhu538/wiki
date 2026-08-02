@@ -12,27 +12,15 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
-- yitang
-- personal-learning
 source_refs:
-- 00_inbox/一堂-个人修身-思维模型口述版.md L8,L18,L1072-L1086,L2756
 related:
 discoverable_by:
   - "思维模型"
   - "项目换模型永生"
-- '[[framework-个人学习方法总框架]]'
-- '[[framework-个人学习方法-IPO学习闭环]]'
-- '[[agent-个人学习方法教练]]'
-- '[[yt-personal-thinking-models]]'
-- '[[yt-model-questioning-practice-canvas]]'
-- '[[framework-个人学习方法-知识萃取]]'
 diagnostic_signals:
-- signal: 每个项目都从零思考，没有可复用的框架
   lens: 缺思维模型——在靠经验直觉而非结构化思考
   follow-up: 做过的项目里有没有"同样的模式出现了两次"——那就是模型雏形
 quality_labels:
-- principle
-- actionable
 tags:
 aliases:
   - 思维模型：项目随时换、模型永生
@@ -48,14 +36,8 @@ aliases:
   - 模型永生
   - 维模型
   - 目换模型永生
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- 个人修身
-- 思维模型口述版
 ---
-
 # 思维模型：项目随时换、模型永生
 
 > **一句话**：项目会做完，公司会转型，但思维模型跟你一辈子。它是IPO的P（Process）内核——你不是靠直觉处理信息，是靠模型。

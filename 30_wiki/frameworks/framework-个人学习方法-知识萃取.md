@@ -12,28 +12,15 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
-- yitang
-- personal-learning
 source_refs:
-- 00_inbox/一堂-个人修炼-知识萃取探索营口述版.md L22-L36,L48,L80,L96
 related:
 discoverable_by:
   - "知识萃取"
   - "碎片经验变成模型"
-- '[[framework-个人学习方法总框架]]'
-- '[[framework-个人学习方法-IPO学习闭环]]'
-- '[[framework-个人学习方法-思维模型]]'
-- '[[agent-个人学习方法教练]]'
-- '[[yt-personal-knowledge-extraction]]'
-- '[[yt-tool-knowledge-extraction]]'
-- '[[tool-个人学习方法-修炼闭环自检清单]]'
 diagnostic_signals:
-- signal: 做了很多项目但说不出"我从中学到了什么可复用的"
   lens: 缺萃取能力——经验停留在脑子里没变成资产
   follow-up: 刚做完的项目，用"如果换一个人来做，我要给他什么SOP"倒逼萃取
 quality_labels:
-- principle
-- actionable
 tags:
 aliases:
   - 知识萃取：碎片经验→可落地模型
@@ -48,14 +35,8 @@ aliases:
   - 碎片经验→可落地模型
   - 片经验变成模型
   - 识萃取
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- 个人修炼
-- 知识萃取探索营口述版
 ---
-
 # 知识萃取：碎片经验→可落地模型
 
 > **一句话**：管理是"存"——把经验记下来。萃取是"炼"——从碎片经验中提炼出可复用的模型/SOP/原则。它是IPO的O（Output）高阶形态。

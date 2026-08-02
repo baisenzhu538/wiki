@@ -11,35 +11,18 @@ language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
 domain:
-- yitang
-- key-assumptions
 source_refs:
-- 00_inbox/一堂-关键假设课-truman-口述.txt L1064-L1074,L2460-L2482
-- 00_inbox/一堂-关键假设-关键假设三板斧_paddle_ocr.txt
 related:
 discoverable_by:
   - "关键假设三板斧"
   - "加法减法验证迭代"
   - "假设驱动收敛"
-- '[[framework-一堂-关键假设]]'
-- '[[tool-一堂-hypothesis-validation-three-axe]]'
-- '[[framework-一堂-关键假设-ABCD模型]]'
-- '[[framework-一堂-业务公式拆解-总纲]]'
-- '[[concept-一堂-key-assumptions]]'
-- '[[tool-key-assumptions-check]]'
-- '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
-- '[[dk-yitang-business-formula-plus-times-trap]]'
 diagnostic_signals:
-- signal: 团队列了一堆假设，但直接进入执行
   lens: 跳过减法和验证——加法做完就开工
   follow-up: 强制走减法拉到2-3条，每条配最便宜验证，验证通过前不大投
-- signal: 验证过一次，结论没变，就当成永久成立
   lens: 缺迭代——把验证当终点而非贝叶斯更新
   follow-up: 用贝叶斯思维：新证据出现后验概率要更新，定期重估关键假设
 quality_labels:
-- principle
-- framework
-- cited
 tags:
 aliases:
   - 一堂关键假设三板斧骨架：加法→减法→验证→迭代的收敛逻辑
@@ -55,14 +38,8 @@ aliases:
   - 法减法验证迭代
   - 设驱动收敛
   - 键假设三板斧
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 aliases:
-- 关键假设
-- 关键假设三板斧
 ---
-
 # 一堂关键假设三板斧（骨架）
 
 > **一句话**：三板斧是把「一堆假设」收敛成「用最小成本验证最脆弱那几条」的方法论骨架——**先做加法（解构要素）、再做减法（找风险最高假设）、最后快速验证（最便宜策略）、并用贝叶斯迭代**；操作清单见 [[tool-一堂-hypothesis-validation-three-axe]]，本卡只讲骨架与「为什么」。来源：`truman-口述:1064-1074` + `一堂-关键假设-关键假设三板斧_paddle_ocr.txt`（YitangΩModel）。
