@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""#227 final pass — �?key pattern + unicode cleanup"""
+"""#227 final pass v2 — explicit chr(0xFFFD) split + full cleanup"""
 import re, yaml
 from pathlib import Path
 
+FFFD = chr(0xFFFD)
 root = Path(r'C:\Users\Administrator\Desktop\wiki')
 KEYS = ['title:', 'type:', 'reviewed_by:', 'source_refs:', 'related:',
         'status:', 'confidence:', 'domain:', 'created_at:', 'updated_at:',
@@ -20,25 +21,27 @@ for fp in root.rglob("30_wiki/**/*.md"):
     except: pass
 
     for key in KEYS:
-        fm = fm.replace('\ufffd?' + key, '\n' + key)
-        fm = fm.replace('\ufffd' + key, '\n' + key)
-    fm = fm.replace('\ufffd?', '')
-    while '\ufffd' in fm:
-        fm = fm.replace('\ufffd', '')
+        fm = fm.replace(FFFD + '?' + key, '\n' + key)
+        fm = fm.replace(FFFD + key, '\n' + key)
+    while FFFD in fm:
+        fm = fm.replace(FFFD + '?', '')
+        fm = fm.replace(FFFD, '')
     fm = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\xad]', '', fm)
     fm = re.sub(r'(\S)  +([a-zA-Z_]\w*\s*:)', r'\1\n\2', fm)
     nf = '\n'.join(l.rstrip() for l in fm.splitlines() if l.rstrip())
+    nf = re.sub(r'\n\n\n+', '\n\n', nf)
     try:
         yaml.safe_load(nf)
         fp.write_text('---\n' + nf + '\n---\n' + body, encoding="utf-8")
         fixed += 1
-    except: pass
+    except Exception as e:
+        pass
 
 rem = 0
 for fp in root.rglob("30_wiki/**/*.md"):
     if "_archive" in str(fp): continue
-    t = fp.read_text(encoding="utf-8", errors="replace")
-    m2 = re.match(r'^---\s*\n(.*?)\n---\s*\n', t, re.DOTALL)
+    tt = fp.read_text(encoding="utf-8", errors="replace")
+    m2 = re.match(r'^---\s*\n(.*?)\n---\s*\n', tt, re.DOTALL)
     if not m2: continue
     try: yaml.safe_load(m2.group(1))
     except: rem += 1
