@@ -16,6 +16,13 @@ reviewed_by: pending
 related:
   - framework-目标三层拆解
 discoverable_by:
+- 管理方法论
+- 管理地图
+- 管理基本功
+- 一堂管理
+- 五阶管理
+- 管项目
+- 管团队
 ---
 # 域摘要：一堂管理方法论
 
