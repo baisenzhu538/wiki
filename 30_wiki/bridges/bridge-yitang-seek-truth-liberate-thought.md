@@ -34,6 +34,10 @@ diagnostic_signals:
   - signal: "团队对创新方法论的理解不一致"
     lens: 培训不够或框架表达不清晰
     follow_up: 用十层解读法重新学习框架
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 discoverable_by:
 - 实事求是
 - 解放思想桥接

@@ -12,6 +12,10 @@ related:
   - "[[zhu-strategic-conclusions]]"
   - "[[zhu-project-board]]"
   - "[[user-insight-profile]]"
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 discoverable_by:
 - 经验教训
 - 老朱复盘

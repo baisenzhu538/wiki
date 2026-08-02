@@ -48,6 +48,10 @@ related:
 - '[[tool-agent-spec-yitang-lead-funnel-health]]'
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[conversion-rate-domain-digest]]'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 discoverable_by:
 - OPC销售Agent
 - AI销售架构

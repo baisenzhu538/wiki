@@ -11,6 +11,10 @@ related:
   - "[[zhu-project-board]]"
   - "[[zhu-strategic-conclusions]]"
   - "[[user-insight-profile]]"
+tags:
+- audience:manager
+- scene:reference
+- skill-level:beginner
 discoverable_by:
 - 网络资源
 - 学习资源

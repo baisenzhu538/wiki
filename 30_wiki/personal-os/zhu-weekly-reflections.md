@@ -12,6 +12,10 @@ related:
   - "[[zhu-strategic-conclusions]]"
   - "[[zhu-network-resources]]"
   - "[[zhu-project-board]]"
+tags:
+- audience:manager
+- scene:reference
+- skill-level:beginner
 discoverable_by:
 - 周复盘
 - 老朱周记

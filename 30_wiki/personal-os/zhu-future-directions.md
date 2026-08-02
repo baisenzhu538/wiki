@@ -12,6 +12,10 @@ related:
   - "[[zhu-project-board]]"
   - "[[zhu-lessons-learned]]"
   - "[[user-insight-profile]]"
+tags:
+- audience:manager
+- scene:reference
+- skill-level:intermediate
 discoverable_by:
 - 未来方向
 - 老朱规划

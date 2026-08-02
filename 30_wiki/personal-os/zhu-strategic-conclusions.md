@@ -7,6 +7,10 @@ created_at: 2026-07-02
 updated_at: 2026-07-19
 domain:
   - personal-os
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 discoverable_by:
 - 战略结论
 - 老朱决策

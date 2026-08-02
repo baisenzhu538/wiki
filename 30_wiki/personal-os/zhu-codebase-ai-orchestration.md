@@ -15,6 +15,10 @@ related:
 - '[[zhu-time-os]]'
 - '[[user-insight-profile]]'
 - '[[opc-ai-sales-agent-architecture]]'
+tags:
+- audience:builder
+- scene:howto
+- skill-level:advanced
 discoverable_by:
 - 代码库编排
 - AI开发工作流

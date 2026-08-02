@@ -22,6 +22,10 @@ related:
 - "[[tool-aesthetic-library-builder]]"
 - "[[case-yihang-truman-aesthetic-library-practices]]"
 - "[[method-yitang-y-model-engine-cycle]]"
+tags:
+- audience:practitioner
+- scene:howto
+- skill-level:intermediate
 discoverable_by:
 - 审美构建
 - 快速原型

@@ -15,6 +15,10 @@ author: 老顽童
 reviewed_by: pending
 related:
   - framework-目标三层拆解
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 discoverable_by:
 - 管理方法论
 - 管理地图

@@ -46,6 +46,10 @@ related:
 - framework-yitang-thought-liberation-lightning
 created_at: 2026-07-03
 updated_at: '2026-07-08'
+tags:
+- audience:manager
+- scene:reference
+- skill-level:advanced
 discoverable_by:
 - Y模型OS
 - 决策系统

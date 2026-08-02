@@ -7,6 +7,10 @@ created_at: 2026-07-09T22:35:00+00:00
 updated_at: 2026-07-19
 domain:
   - personal-os
+tags:
+- audience:manager
+- scene:reference
+- skill-level:beginner
 discoverable_by:
 - 项目看板
 - 老朱项目

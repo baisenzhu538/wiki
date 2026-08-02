@@ -7,6 +7,10 @@ created_at: 2026-07-01T17:19:35+00:00
 updated_at: 2026-07-19T02:15:00+00:00
 domain:
   - personal-os
+tags:
+- audience:manager
+- scene:reference
+- skill-level:beginner
 discoverable_by:
 - 老朱域索引
 - 个人知识体系

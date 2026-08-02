@@ -15,6 +15,10 @@ related:
   - "[[user-insight-profile]]"
   - "[[user-preferences]]"
   - "[[operating-principles]]"
+tags:
+- audience:manager
+- scene:howto
+- skill-level:intermediate
 discoverable_by:
 - 时间OS
 - 个人时间管理
