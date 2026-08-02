@@ -30,6 +30,33 @@ updated_at: '2026-08-03T03:45:00+00:00'
 > 2. **8/2新建卡**：按discoverable_by/title反向补齐
 > 3. 合并规则：原aliases + 新aliases 去重合并
 
+## 📋 恢复方案（2026-08-03 05:10 王语嫣编排——串行+目录划分）
+
+> **事故教训（E010+编排层）**："实例隔离"只防队列领取冲突，不防文件写入冲突。#222/#223并行写入同一批文件导致C-10级破坏。恢复后**必须串行**。
+
+**执行顺序（串行，禁止并行）**：
+1. **先 #222 完成并审查**（飞书老顽童）→ 再 #223（hermes）
+2. **目录划分（零重叠）**：
+   - #222 只管：frameworks/ + domains/ + personal-os/ + systems/ + agent-specs/ + skills/ + methods/ + bridges/（8个高价值目录）
+   - #223 只管：tools/ + concepts/ + dark-knowledges/ + dk/ + cases/ + 其他（6个目录）
+3. **每批写入前**：dry-run 预览 + `git diff` 验证 + yaml.safe_load 确认
+4. **aliases 合并规则**（git 恢复原值 + 去重合并，不替换）
+5. **本任务剩余范围调整**：原860张aliases回填 + **原aliases恢复**（git对比7/27恢复~2000张旧卡 + 8/2新建卡反向补齐）+ **125张双aliases清理**
+
+## 🆕 17张顽固卡收尾项（2026-08-03 欧阳锋裁决纳入本任务）
+
+> **来源**：#227修复的剩余17张（0.65%）——多层腐败（GBK乱码/author与reviewed_by值融合/双aliases/空related/src_unknown粘连），机械修复无法恢复乱码原值。欧阳锋裁决：**纳入#223恢复范围**（不阻塞#222/#223恢复）。
+
+**清单**（O3扫描）：case-yihang-dual-triangle-* ×10 + framework-strategy-brm + framework-yitang-project-abcd-classification + framework-yitang-project-breakdown + system-yitang-Y-model-os + tool-Truman-Feature原子拆解 + plan_20260531_data-curator（统计差1张）
+
+**处置**：
+1. 乱码/值融合字段（author/reviewed_by/source_refs）→ 从源素材（VLM/口述）或 `git show 16b64db39:<path>` 恢复原值
+2. 双aliases/空related → 机械合并（可修部分）
+3. **验收门槛**：修复后 `yaml.safe_load` 通过 + 内容不劣化 + 原搜索词在位
+4. 优先级：**#223收尾项**——不阻塞主恢复，但完成#223时必须清零
+
+**⚠️ 注意**：这17张是#227修复的**剩余顽固卡**（黄药师手修部分转交），不是#222/#223破坏新增。执行时与主恢复分开处理。
+
 # 全局aliases回填：860张卡补中文别名
 
 # #223 全局aliases回填：860张卡补中文别名
