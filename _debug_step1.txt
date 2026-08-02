@@ -1,0 +1,33 @@
+id: case-yihang-dual-triangle-一堂双三角-IP选题智能体挑战交付上
+title: 双三角案例：Vikki IP 选题智能体——跳�?AI 工具回到业务视角
+title: "双三角案例：Vikki IP 选题智能体——跳�?AI 工具回到业务视角"
+type: case
+status: enriched
+author: 洪七公（VLM提取�? 老顽童（enrich
+reviewed_by: ŷ����
+review_date: 2026-07-04
+confidence: 0.78
+trust_level: medium
+language: zh-CN
+created_at: 2026-07-04
+updated_at: 2026-07-04
+domain:
+- ai-collaboration
+- yitang
+source_refs:
+- 00_inbox/人机协作双三�?_processed/一堂双三角-IP选题智能体挑战交付上限_vlm.md
+related:
+aliases:
+  - 双三角案例：VikkiIP选题智能体跳�?AI工具回到业务视角
+  - 双三角案例
+  - 选题智能体
+  - 工具回到业务视角
+  - 角案例
+  - 选题智能体跳
+aliases:
+  - 双三角案例：VikkiIP选题智能体跳�?AI工具回到业务视角
+  - 双三角案例
+  - 选题智能体
+  - 工具回到业务视角
+- "[[concept-yihang-dual-triangle-core]]"
+- "[[case-yihang-dual-triangle-一堂双三角-数字化营销提效十倍]]"
