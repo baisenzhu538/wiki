@@ -9,7 +9,8 @@ domain:
   - kdo
   - quality
   - meta-methodology
-author: 鑰侀〗绔?reviewed_by: 寰呭
+author: 鑰侀〗绔?
+reviewed_by: 寰呭
 review_date: "2026-07-19"
 review_grade: A-
 created_at: "2026-07-19"
@@ -46,7 +47,6 @@ discoverable_by:
   - kdo-flywheel
   - yt-decision-y-model
 ---
-
 # KDO Bad Case 鍥炴祦鏈哄埗锛氫粠鐢ㄦ埛绾犻敊鍒扮煡璇嗚繘鍖栫殑闂幆
 
 > 涓€鍙ヨ瘽锛氬綋鑷敾鍑绘病鎷︿綇銆佸鏌ユ病鍙戠幇銆佺敤鎴锋槑纭寚鍑洪敊璇椂锛岀敤缁撴瀯鍖栨祦绋嬫妸姣忎竴娆＄籂閿欏彉鎴愮煡璇嗗簱鐨勬案涔呰繘鍖栵紝鑰屼笉鏄慨瀹屽氨蹇樸€?

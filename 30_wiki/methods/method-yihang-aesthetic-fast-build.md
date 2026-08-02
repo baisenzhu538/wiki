@@ -3,7 +3,8 @@ id: method-yihang-aesthetic-fast-build
 title: 审美快速建立工作法：四步把判断力拉起来
 type: method
 status: reviewed
-author: 老顽�?reviewed_by: ŷ����
+author: 老顽?
+reviewed_by: ŷ
 review_date: 2026-07-04
 confidence: 0.88
 trust_level: high
@@ -14,7 +15,7 @@ domain:
 - yitang
 - ai-collaboration
 source_refs:
-- 00_inbox/人机协作双三�?一堂双三角-人机协作模型-口述.txt
+- 00_inbox/人机协作双三?一堂双三角-人机协作模型-口述.txt
 - 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
 related:
 - "[[concept-yihang-dual-triangle-core]]"
@@ -28,7 +29,6 @@ discoverable_by:
 - 视觉快速搭建
 - 美感方法论
 ---
-
 # 审美快速建立工作法：四步把判断力拉起来
 
 > **一句话定义**：审美不是品味，不是天赋——是通过密集最佳实践输入快速拉起的**判断�?*。Truman 过去一年用这套四步工作法在 PPT/官网/图片/视频/音乐�?10+ 个领域建立了审美标准，半年做的审美比过去三年都快�?
