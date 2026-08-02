@@ -42,10 +42,10 @@ related:
 - framework-yitang-y-model-cross-domain-fusion
 - agent-spec-yitang-Y-model-cross-domain-coach
 - "[[framework-一堂-业务公式拆解-总纲]]"
+- dk-ai-memory-four-layers
+- framework-yitang-thought-liberation-lightning
 created_at: 2026-07-03
 updated_at: '2026-07-08'
-  - dk-ai-memory-four-layers
-  - framework-yitang-thought-liberation-lightning
 discoverable_by:
 - Y模型OS
 - 决策系统
