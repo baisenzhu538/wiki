@@ -6,13 +6,21 @@ status: reviewed
 confidence: 0.95
 trust_level: high
 domain: strategy
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 业务设计六要素×三步骤
+  - 业务设计六要素×三步骤冉鹏战略规划核心操作框架源于IBMBLM
+  - 冉鹏PPT截图
+  - 冉鹏战略规划核心操作框架源于IBM
+  - 务设计六要素
+  - 引擎点火
+  - 步骤业务设计
+  - 计六要素
+  - 鹏战略规划
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_99_vlm_desc.md
-- 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
 quality_labels:
-- principle
-- validated
 created_at: '2026-06-21'
 updated_at: '2026-06-29'
 author: 老顽童（初版）→ 黄药师（PPT _97+_99 补强 v2）
@@ -23,35 +31,7 @@ discoverable_by:
   - "冉鹏战略规划"
   - "IBM BLM业务设计"
   - "三步骤业务设计"
-- '[[strategy-domain-digest]]'
-- '[[framework-strategy-blm]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- tool-strategy-five-see-three-set
-- yt-business-model-canvas
-- case-strategy-exit-remove
 tags:
-aliases:
-  - 业务设计六要素×三步骤冉鹏战略规划核心操作框架源于IBMBLM
-  - 业务设计六要素×三步骤
-  - 冉鹏战略规划核心操作框架源于IBM
-  - 鹏战略规划
-  - 计六要素
-  - 务设计六要素
-aliases:
-  - 业务设计六要素×三步骤冉鹏战略规划核心操作框架源于IBMBLM
-  - 业务设计六要素×三步骤
-  - 冉鹏战略规划核心操作框架源于IBM
-  - 务设计六要素
-  - 鹏战略规划
-  - 步骤业务设计
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 冉鹏PPT截图
-- 引擎点火
 ---
 # 业务设计六要素×三步骤
 

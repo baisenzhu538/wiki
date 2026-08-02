@@ -7,49 +7,30 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-23
 quality_labels:
-- cited
-- principle
-- validated
 created_at: 2026-06-23
 confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- lean-startup
-- strategy
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 与精益验证
+  - 五步法与精益验证的接口
+  - 低成本验证认知篇
+  - 步法与精益验证
+  - 步法精益接口
+  - 法与精益验证的接口
+  - 精益接口
 source_refs:
-- 00_inbox/精益创业/transcript_低成本验证认知篇.md
-- 00_inbox/精益创业/truman-精益创业-false模型_ocr_text.md
-- 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
 discoverable_by:
   - "五步法精益接口"
   - "五步法与精益验证"
   - "需求到MVP衔接"
-- '[[framework-lean-false-model]]'
-- '[[yitang-domain-digest]]'
-- '[[lean-startup-domain-digest]]'
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
 updated_at: '2026-06-30'
 tags:
-aliases:
-  - 五步法与精益验证的接口
-  - 法与精益验证的接口
-  - 与精益验证
-  - 步法与精益验证
-  - 步法精益接口
-  - 精益接口
-aliases:
-  - 五步法与精益验证的接口
-  - 步法与精益验证
-  - 步法精益接口
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 低成本验证认知篇
 ---
 # 五步法与精益验证的接口
 

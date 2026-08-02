@@ -2,21 +2,15 @@
 id: tool-马易-业务为先的AI中台建设
 title: "tool 马易 业务为先的AI中台建设"
 related:
-- '[[ai-landing-scene-selection]]'
-- '[[tool-马易-数据存储架构选择]]'
-- '[[yt-entrepreneur-pragmatic-startup]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-source_refs:
-- pending_archive: src_unknown
-tags:
 aliases:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
   - tool马易业务为先的AI中台建设
-  - 马易
   - 业务为先的AI中台建设
-- audience:general
-- scene:reference
-- skill-level:intermediate
+  - 马易
+source_refs:
+tags:
 ---
 > 马易在 AI 落地场景识别中提出的核心实操方法。解决"先建平台还是先找场景"这个 AI 落地中最常见的路径错误。
 

@@ -5,44 +5,29 @@ type: dk
 dark_knowledge_type: workflow
 status: reviewed
 domain:
-- yitang
-- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
+aliases:
+  - Truman
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 对单元模型拼出来的
+  - 建模能力培训
+  - 是成对单元模型拼出来的
+  - 碑不是任务清单
+  - 里程碑不是任务清单
+  - 里程碑不是任务清单，是成对单元模型拼出来的
 source_refs:
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 confidence: 0.89
 trust_level: medium
 related:
-- '[[yitang-domain-digest]]'
-- '[[tool-月白-AI模型选择策略]]'
-- '[[dk-单元模型-找单元模型实操难点]]'
-- '[[concept-最简单元模型]]'
-- '[[tool-模型组合调用]]'
 tags:
-aliases:
-  - 里程碑不是任务清单，是成对单元模型拼出来的
-  - 里程碑不是任务清单
-  - 是成对单元模型拼出来的
-  - Truman
-  - 对单元模型拼出来的
-  - 碑不是任务清单
-aliases:
-  - 里程碑不是任务清单，是成对单元模型拼出来的
-  - 里程碑不是任务清单
-  - 是成对单元模型拼出来的
-  - Truman
-- audience:executor
-- scene:reference
-- skill-level:intermediate
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-17'
-aliases:
-- 建模能力培训
 ---
-
 ## diagnostic_signals
 
 - src_unknown

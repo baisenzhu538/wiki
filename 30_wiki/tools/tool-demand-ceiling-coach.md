@@ -14,6 +14,13 @@ updated_at: 2026-07-08
 domain:
 - yitang
 - demand-analysis
+aliases:
+  - 15分钟对话输出天花板报告
+  - signal: 创始人给的天花板数字是TAM的1%
+  - 分钟对话输出天花板报告
+  - 天花板测算教练
+  - 天花板测算教练：1015分钟对话输出天花板报告
+  - 板测算教练
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-空间测算-口述.txt L322-L344,L1308-L1870
 related:
@@ -25,23 +32,9 @@ related:
 - '[[yt-entrepreneur-unit-model]]'
 - '[[yt-market-size-estimation]]'
 diagnostic_signals:
-aliases:
-  - 天花板测算教练：1015分钟对话输出天花板报告
-  - 天花板测算教练
-  - 15分钟对话输出天花板报告
-  - 分钟对话输出天花板报告
-  - 板测算教练
-aliases:
-  - 天花板测算教练：1015分钟对话输出天花板报告
-  - 天花板测算教练
-  - 15分钟对话输出天花板报告
-- signal: 创始人给的天花板数字是TAM的1%
-  lens: "1%拍脑袋"——没有从底往上算
-  follow-up: 从BEL重新算，不走TAM→SOM路线
 quality_labels:
 - actionable
 ---
-
 # 天花板测算教练：10-15分钟对话输出天花板报告
 
 > **一句话**：不用花半天做Excel。跟AI聊10-15分钟，从BEL一路垒到SOM，输出融资版和经营版两套天花板数字。

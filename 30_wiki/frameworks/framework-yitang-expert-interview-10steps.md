@@ -7,73 +7,37 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
 quality_labels:
-- cited
-- principle
-- validated
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 4000
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown流程
-- src_unknown
-- src_unknown技巧
-- src_unknown
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 专家访谈黄金十步法
+  - 专家访谈黄金十步法：从盲区梳理到专家匹配
+  - 从盲区梳理到专家匹配
+  - 区梳理到专家匹配
+  - 家访谈十步法
+  - 家访谈方法
+  - 访谈黄金十步法
+  - 谈十步法
 source_refs:
-- 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
-- 00_inbox/调研专题/一堂-专家访谈调研-笔记.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
 discoverable_by:
   - "专家访谈十步法"
   - "盲区梳理到专家匹配"
   - "专家访谈方法"
-- '[[yt-tool-meeting-designer]]'
-- '[[framework-doris-industry-report-4step]]'
-- '[[business-research-skill-oscar-13-weapon-system]]'
-- '[[system-yitang-research-workflow]]'
-- '[[sk-ai-purpose-bias-check]]'
-- '[[framework-yitang-high-level-plan]]'
-- '[[framework-yitang-high-level-execution]]'
-- '[[yt-research-expert-interview]]'
-- '[[yt-research-intelligence-map]]'
-- '[[yt-research-mindset]]'
-- '[[dk-yitang-expert-interview-5-traps]]'
-- '[[concept-yitang-research-mindset]]'
-- '[[tool-yitang-expert-network-platform]]'
-- '[[case-yitang-sanjieke-benchmark-failure]]'
-- '[[yt-tool-business-formula-expert-interview-10]]'
 tags:
-aliases:
-  - 专家访谈黄金十步法：从盲区梳理到专家匹配
-  - 专家访谈黄金十步法
-  - 从盲区梳理到专家匹配
-  - 谈十步法
-  - 访谈黄金十步法
-  - 家访谈十步法
-aliases:
-  - 专家访谈黄金十步法：从盲区梳理到专家匹配
-  - 专家访谈黄金十步法
-  - 从盲区梳理到专家匹配
-  - 家访谈方法
-  - 家访谈十步法
-  - 区梳理到专家匹配
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 aliases: []
 ---
-
 # 专家访谈黄金十步法：从盲区梳理到专家匹配
 
 > **一句话**：专家访谈不是"找个人聊聊"，而是花小钱办大事的系统工程。十步法从盲区梳理到专家匹配，确保每一次访谈都能拿到高价值认知。

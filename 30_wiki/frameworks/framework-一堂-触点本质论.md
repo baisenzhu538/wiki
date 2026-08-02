@@ -11,82 +11,26 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
-- conversion-rate
+aliases:
+  - audience:ceo
+  - conversion
+  - handle
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂触点本质论
+  - 一堂触点本质论：接触机会点+资产隐喻+火车货物剥离法+假设挖掘三特性
+  - 假设挖掘三特性
+  - 接触机会点
+  - 火车货物剥离法
+  - 资产隐喻
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L328-L352
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L364-L380
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L384-L400
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L422-L490
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L438-L456
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L462-L486
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L924-L972
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L990-L1020
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L512-L654
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3656-L3656
 related:
 discoverable_by:
   - "触点本质论"
   - "火车货物剥离法"
   - "假设挖掘三特性"
-- '[[case-一堂-一堂自身转化实践]]'
-- '[[case-一堂-入职率50到80-100]]'
-- '[[case-一堂-全会员出圈率1.5翻倍]]'
-- '[[case-一堂-六杯奶茶推荐率近100]]'
-- '[[case-一堂-我请客推荐率5到40]]'
-- '[[case-一堂-教研加微信率40到100]]'
-- '[[case-一堂-晓莉学而思引流课]]'
-- '[[case-一堂-棋牌室办卡率1到5]]'
-- '[[case-一堂-视频号加微信率44到85]]'
-- '[[case-一堂-触点篇案例库]]'
-- '[[case-一堂-跆拳道黑带卡]]'
-- '[[conversion-rate-domain-digest]]'
-- '[[framework-一堂-12种阻力总表]]'
-- '[[framework-一堂-12触点SABC分级]]'
-- '[[framework-一堂-转化基本功七个自我修养]]'
-- '[[framework-一堂-转化率提升六步法]]'
-- '[[framework-一堂-转化率黑客-总纲]]'
-- '[[tool-agent-spec-yitang-opening-3min]]'
-- '[[tool-一堂-12大易浪费触点]]'
-- '[[tool-一堂-ABACC叙事法]]'
-- '[[tool-一堂-五大转化率范式]]'
-- '[[tool-一堂-五种挖触点]]'
-- '[[tool-一堂-准备系数法则]]'
-- '[[tool-一堂-减法排序四招]]'
-- '[[tool-一堂-制作仿真三要点]]'
-- '[[tool-一堂-提假设四大类策略]]'
-- '[[tool-一堂-经典故事线框架库]]'
-- '[[tool-一堂-触点减法与排序]]'
-- '[[tool-一堂-触点挖掘四层级]]'
-- '[[tool-一堂-触点质量五维]]'
-- '[[tool-一堂-讲香双策略]]'
-- '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
 quality_labels:
-- principle
-- framework
-- cited
-- actionable
 tags:
-aliases:
-  - 一堂触点本质论：接触机会点+资产隐喻+火车货物剥离法+假设挖掘三特性
-  - 一堂触点本质论
-  - 接触机会点
-  - 资产隐喻
-  - 火车货物剥离法
-  - 假设挖掘三特性
-aliases:
-  - 一堂触点本质论：接触机会点+资产隐喻+火车货物剥离法+假设挖掘三特性
-  - 一堂触点本质论
-  - 接触机会点
-  - 资产隐喻
-  - 火车货物剥离法
-  - 假设挖掘三特性
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- conversion
-- handle
 ---
 # 一堂触点本质论
 

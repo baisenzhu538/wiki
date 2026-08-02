@@ -9,50 +9,25 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 quality_labels:
-- cited
-- principle
-- validated
 created_at: 2026-06-23
 updated_at: 2026-06-23
 domain:
-- strategy
-- yitang
-- product
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 低成本验证
+  - 创业低成本验证四大原则
+  - 创业全景图
+  - 益验证四大原则
+  - 精益创业低成本验证四大原则
+  - 证四大原则
 source_refs:
-- 00_inbox/精益创业/truman-精益创业-低成本验证-四大原则-01_ocr_text.md
-- 00_inbox/精益创业/truman-精益创业-低成本验证-四大原则-01_vlm_desc.md
-- 00_inbox/精益创业/truman-精益创业-创业全景图-超级小抄_ocr_text.md
 related:
 discoverable_by:
   - "精益验证四大原则"
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[framework-lean-false-model]]'
-- '[[tool-泛产品落地-低成本测试MVP]]'
-- '[[concept-一堂-kernel-validation]]'
-- '[[framework-lean-six-wastes]]'
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[framework-lean-systematic-test-curve]]'
-- '[[framework-lean-tenx-formula]]'
-- '[[framework-strategy-basics-02-insight]]'
 tags:
-aliases:
-  - 精益创业低成本验证四大原则
-  - 益验证四大原则
-  - 证四大原则
-  - 创业低成本验证四大原则
-aliases:
-  - 精益创业低成本验证四大原则
-  - 益验证四大原则
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 低成本验证
-- 创业全景图
 ---
-
 # 精益创业低成本验证四大原则
 
 > 用四条相互锁定的行为原则，把"默认失败"的文化翻译成日常决策：不要等到完美才发布，每次只验证一个关键假设，用克制对抗完美主义，用数据替代执念。

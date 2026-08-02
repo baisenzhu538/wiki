@@ -12,44 +12,23 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: advanced
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 穷尽手段 信息获取 如何拿到最高质量情报
-- 调研手段层次 公开信息 专家访谈 逆向工程
-- 合法合规 底线之上 努力拉满
-- 信息获取成本控制 调研投入产出比
-- 社会工程 调研 合规风险
-- 手段升级 什么时候从公开信息升级到专家访谈
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[tool-osint-overview]]'
-- '[[tool-yitang-job-intelligence-research]]'
-- '[[tool-yitang-reverse-data-analysis]]'
-- '[[tool-yitang-weapon-media-search]]'
-- '[[tool-yitang-weapon-third-party-database]]'
-tags:
 aliases:
-  - 穷尽手段：底线之上，努力拉满
-  - 穷尽手段
-  - 底线之上
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 努力拉满
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - 底线之上
+  - 穷尽手段
+  - 穷尽手段：底线之上，努力拉满
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 穷尽手段：底线之上，努力拉满
 
 > **一句话**：穷尽手段不是"不择手段"，而是"在合法合规的底线之上，穷尽所有可用手段，拿到最高质量情报"。

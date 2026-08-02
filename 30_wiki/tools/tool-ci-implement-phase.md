@@ -3,39 +3,24 @@ id: tool-ci-implement-phase
 title: CI Implement 阶段工具：洞见嵌入运营节奏
 type: tool
 domain:
-- research
-- strategy
-- sales
 tags:
-- CI
-- Implement阶段
-- Battlecard
-- 运营嵌入
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 source_person: Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
 source_context: CI Operating Model Implement 阶段工具化实现
-source_refs:
-- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
-- https://blog.bestbootcamps.com/competitive-intelligence-framework/
-related:
 aliases:
   - CIImplement阶段工具：洞见嵌入运营节奏
-  - 阶段工具
-  - 洞见嵌入运营节奏
   - Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
+  - [[framework-yitang-18-strategy-cards]]
+  - [[kdo-protocol-implementation-roadmap]]
+  - [[tool-ci-define-phase]]
+  - [[tool-yitang-research-continuous-tracking]]
+  - [[yt-five-step-implementation]]
+  - 三个新盲区
+  - 外部知识探索
   - 嵌入运营节奏
-aliases:
-  - CIImplement阶段工具：洞见嵌入运营节奏
-  - 阶段工具
   - 洞见嵌入运营节奏
-  - Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
-- '[[tool-yitang-research-continuous-tracking]]'
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[yt-five-step-implementation]]'
-- '[[kdo-protocol-implementation-roadmap]]'
-- '[[tool-ci-define-phase]]'
+  - 阶段工具
+source_refs:
+related:
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
@@ -43,11 +28,7 @@ created_at: '2026-06-28'
 updated_at: '2026-06-29'
 confidence: 0.78
 trust_level: medium
-aliases:
-- 三个新盲区
-- 外部知识探索
 ---
-
 # CI Implement 阶段工具：洞见嵌入运营节奏
 
 ## 原始表述

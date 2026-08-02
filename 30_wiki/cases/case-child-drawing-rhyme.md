@@ -7,6 +7,15 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - Truman
+  - framework_lens: 最小建模 / 口诀压缩
+  - 孩子控笔画画歌
+  - 建模能力培训
+  - 控笔画画歌
+  - 最小单元的建模实践
+  - 案例
+  - 案例：孩子控笔画画歌最小单元的建模实践
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 source_person: Truman
@@ -34,31 +43,9 @@ tags:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-aliases:
-  - 案例：孩子控笔画画歌最小单元的建模实践
-  - 案例
-  - 孩子控笔画画歌
-  - 最小单元的建模实践
-  - Truman
-  - 控笔画画歌
-aliases:
-  - 案例：孩子控笔画画歌最小单元的建模实践
-  - 案例
-  - 孩子控笔画画歌
-  - 最小单元的建模实践
-  - Truman
-- framework_lens: 最小建模 / 口诀压缩
-  follow_up_question: 能否把最关键的动作压缩成四句以内、对方能背下来的口诀？
-- framework_lens: 观察先于设计——从好坏差异中提炼关键动作
-  follow_up_question: 表现好的 3 次和表现差的 3 次，共同差异出现在哪几个动作上？
-- framework_lens: 先找最小可验证单元
-  follow_up_question: 如果只允许总结四句话，必须保留哪四句才能解决眼前这一个小问题？
 - framework_lens: 建模验证闭环——提醒、观察、迭代
   follow_up_question: 有没有在真实场景中提醒、观察效果，并根据反馈调整口诀或触发条件？
-aliases:
-- 建模能力培训
 ---
-
 # 案例：孩子控笔「画画歌」——最小单元的建模实践
 
 > **Burn line**: 建模可以复杂到一门课，也可以小到四句话——关键是观察规律、压缩成口诀、反复验证。

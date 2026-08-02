@@ -11,38 +11,24 @@ language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
-- ai-collaboration
-- yitang
+aliases:
+  - AI落地顾问培养体系双三角笃定+技术产品背景+学习能力+价值观
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 一堂双三角
+  - 人机协作双三角
+  - 价值观
+  - 双三角笃定
+  - 学习能力
+  - 技术产品背景
+  - 落地顾问培养体系
 source_refs:
-- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
 discoverable_by:
   - "AI落地顾问培养"
-- '[[concept-yihang-dual-triangle-core]]'
-- '[[framework-yihang-AI-native-dual-triangle-kernel]]'
 tags:
-aliases:
-  - AI落地顾问培养体系双三角笃定+技术产品背景+学习能力+价值观
-  - 落地顾问培养体系
-  - 双三角笃定
-  - 技术产品背景
-  - 学习能力
-  - 价值观
-aliases:
-  - AI落地顾问培养体系双三角笃定+技术产品背景+学习能力+价值观
-  - 落地顾问培养体系
-  - 双三角笃定
-  - 技术产品背景
-  - 学习能力
-  - 价值观
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-aliases:
-- 一堂双三角
-- 人机协作双三角
 ---
-
 # AI 落地顾问培养体系——双三角笃定 + 技术产品背景 + 学习能力 + 价值观
 
 > **一句话定义**：Truman 在课后闲聊中提出的 AI 落地顾问/FD 工程师画像——四个核心条件：对双三角笃定（不摇摆）、技术产品背景（能动手）、学习能力强（能快速进入陌生领域）、价值观正（不忽悠客户）。

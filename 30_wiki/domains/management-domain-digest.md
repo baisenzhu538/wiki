@@ -6,38 +6,17 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-- management
-- yitang
 source_context: 一堂管理必修课体系——管理地图 L1-L5 五阶路径 + 管项目四步闭环 + 管团队苦练基本功（四字诀 + 40 工具卡）
 source_refs:
-- 70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md
-- 60_feedback/diagnosis/diag_20260711_yitang-fundamentals-deep-dive.md
 quality_labels:
-- cited
-- validated
 created_at: '2026-07-11'
 updated_at: '2026-07-11'
 author: 老顽童
 reviewed_by: pending
 related:
-- '[[yitang-domain-digest]]'
-- '[[yt-model-management-map]]'
-- '[[yt-management-project-management]]'
-- '[[yt-management-basic-skills]]'
-- '[[yt-management-team-knowledge]]'
-- '[[framework-一堂-苦练基本功-总纲]]'
-- '[[concept-一堂-基本功定义]]'
-- '[[dk-fundamentals-before-advanced-ops]]'
-- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
   - framework-目标三层拆解
 discoverable_by:
-- 管理域
-- 项目管理
-- 目标管理
-- 复盘方法
-- 团队管理
 ---
-
 # 域摘要：一堂管理方法论
 
 > 一句话：一堂管理域以「管理地图」五阶路径（管自己→管项目→管团队→管业务→管公司）为骨架，以「苦练基本功」为能力底座——**项目管事（事的最小单元），基本功练能力（能力的最小单元）**。

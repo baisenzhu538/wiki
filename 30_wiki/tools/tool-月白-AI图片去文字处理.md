@@ -6,45 +6,30 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+aliases:
+  - AI图片去文字处理
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：AI图片去文字处理
+  - 月白
 source_refs:
-- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AI图片风格逆向提取（抄图法）]]'
-- '[[tool-月白-产品反光修复术]]'
-- '[[tool-月白-Token效价比决策公式]]'
-- '[[tool-月白-控制产品画面尺寸比例]]'
-- '[[tool-月白-AIGC橱窗陈列设计流程]]'
-- '[[tool-月白-AI电商图人工过审处理]]'
-- '[[tool-月白-Token智甲比控制法]]'
-- '[[tool-月白-智能扩图-拓图双方案]]'
-- '[[tool-纪浩-处理AI生成代码运行异常]]'
 tags:
-aliases:
-  - 技能：AI图片去文字处理
-  - 技能
-  - AI图片去文字处理
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
-
 # 技能：AI图片去文字处理
 
 ## 原始表述

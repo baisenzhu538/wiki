@@ -2,25 +2,19 @@
 id: tool-一堂-business-prediction-15-char
 title: "技能：商业预判15字诀"
 related:
-- '[[tool-一堂-spectrum-positioning]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
+aliases:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 商业预判15字诀
+  - 技能
+  - 技能：商业预判15字诀
 source_refs:
-- pending_archive: src_unknown
 updated_at: '2026-06-29'
 status: enriched
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 tags:
-aliases:
-  - 技能：商业预判15字诀
-  - 技能
-  - 商业预判15字诀
-- audience:general
-- scene:reference
-- skill-level:intermediate
 ---
 # 技能：商业预判15字诀
 

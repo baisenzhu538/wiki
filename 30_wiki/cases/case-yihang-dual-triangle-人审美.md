@@ -9,30 +9,21 @@ updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
 domain:
-- ai-collaboration
-- yitang
-source_refs:
-- 00_inbox/人机协作双三角/_processed/人审美_vlm.md
-tags:
 aliases:
-  - 人审美双三角案例
+  - #domain/ai-collaboration
+  - #method/dual-triangle
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
   - 人审美
+  - 人审美双三角案例
+  - 人机协作双三角
   - 双三角案例
   - 美双三角案例
   - 角案例
-aliases:
-  - 人审美双三角案例
-  - 人审美
-  - 双三角案例
-- '#domain/ai-collaboration'
-- '#method/dual-triangle'
-- audience:general
-- scene:reference
-- skill-level:intermediate
+source_refs:
+tags:
 reviewed_by: pending
-aliases:
-- 人审美
-- 人机协作双三角
 ---
 # 人审美
 

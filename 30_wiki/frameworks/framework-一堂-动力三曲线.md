@@ -11,96 +11,27 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
-- conversion-rate
+aliases:
+  - audience:ceo
+  - conversion
+  - handle
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂动力三曲线
+  - 一堂动力三曲线：FAB60分/名利权情70分/影响力法则85分与使用三原则
+  - 分与使用三原则
+  - 力三曲线
+  - 名利权情70
+  - 名利权情影响力
+  - 影响力法则85
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L296-L312
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L202-L212
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L364-L378
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L522-L556
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L560-L664
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L668-L788
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L604-L660
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L2232-L2232
-- 00_inbox/Handle the business/conversion rate/_vlm_output/images/最佳转化率-动力三曲线_vlm.md
-- 00_inbox/Handle the business/conversion rate/_vlm_output/images/一堂复盘营的动力曲线分析_vlm.md
 related:
 discoverable_by:
   - "动力三曲线"
   - "FAB名利权情影响力"
   - "动力层级模型"
-- '[[case-一堂-一堂自身转化实践]]'
-- '[[case-一堂-优秀案例逐字稿合集]]'
-- '[[case-一堂-作业率20到50]]'
-- '[[case-一堂-入职率50到80-100]]'
-- '[[case-一堂-全会员出圈率1.5翻倍]]'
-- '[[case-一堂-六杯奶茶推荐率近100]]'
-- '[[case-一堂-动力篇案例库]]'
-- '[[case-一堂-我请客推荐率5到40]]'
-- '[[case-一堂-教研加微信率40到100]]'
-- '[[case-一堂-晓莉学而思引流课]]'
-- '[[case-一堂-棋牌室办卡率1到5]]'
-- '[[case-一堂-组合篇案例库]]'
-- '[[case-一堂-跆拳道黑带卡]]'
-- '[[conversion-rate-domain-digest]]'
-- '[[framework-yitang-sales-incentive-6d]]'
-- '[[framework-一堂-12种阻力总表]]'
-- '[[framework-一堂-影响力36计]]'
-- '[[framework-一堂-转化基本功七个自我修养]]'
-- '[[framework-一堂-转化率提升六步法]]'
-- '[[framework-一堂-转化率黑客-总纲]]'
-- '[[framework-一堂-阻力方法论骨架]]'
-- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
-- '[[tool-agent-spec-yitang-self-motivation]]'
-- '[[tool-agent-spec-yitang-value-proposition]]'
-- '[[tool-yitang-sales-performance-management]]'
-- '[[tool-yitang-value-proposition-4step]]'
-- '[[tool-一堂-12大易浪费触点]]'
-- '[[tool-一堂-ABACC叙事法]]'
-- '[[tool-一堂-FAB说服法]]'
-- '[[tool-一堂-五大转化率范式]]'
-- '[[tool-一堂-五种挖触点]]'
-- '[[tool-一堂-准备系数法则]]'
-- '[[tool-一堂-减法排序四招]]'
-- '[[tool-一堂-制作仿真三要点]]'
-- '[[tool-一堂-名利权情动力法]]'
-- '[[tool-一堂-影响力六原则]]'
-- '[[tool-一堂-心理激励优先机制]]'
-- '[[tool-一堂-提假设四大类策略]]'
-- '[[tool-一堂-经典故事线框架库]]'
-- '[[tool-一堂-触点减法与排序]]'
-- '[[tool-一堂-触点挖掘四层级]]'
-- '[[tool-一堂-触点质量五维]]'
-- '[[tool-一堂-讲香双策略]]'
-- '[[tool-动力阻力分析]]'
-- '[[yt-tool-fab-persuasion]]'
-- '[[tool-agent-spec-yitang-incentive-design]]'
 quality_labels:
-- principle
-- framework
-- cited
-- actionable
 tags:
-aliases:
-  - 一堂动力三曲线：FAB60分/名利权情70分/影响力法则85分与使用三原则
-  - 一堂动力三曲线
-  - 名利权情70
-  - 影响力法则85
-  - 分与使用三原则
-  - 名利权情影响力
-aliases:
-  - 一堂动力三曲线：FAB60分/名利权情70分/影响力法则85分与使用三原则
-  - 一堂动力三曲线
-  - 名利权情70
-  - 影响力法则85
-  - 分与使用三原则
-  - 力三曲线
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- conversion
-- handle
 ---
 # 一堂动力三曲线：FAB / 名利权情 / 影响力法则
 

@@ -2,8 +2,12 @@
 id: yt-tool-strategy-workshop
 title: 战略研讨会引导手册
 type: tool
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 战略研讨会引导手册
 source_refs:
-- 10_raw/sources/src_20260619_86ca05fb_30_wiki_concepts_yt_management_strategy_meeting.md
 status: reviewed
 domain: yitang- yitang
 language: zh-CN
@@ -12,48 +16,23 @@ difficulty: foundational
 confidence: 0.85
 prerequisites: null
 component_of:
-- src_unknown
 related:
-- '[[yt-management-strategy-meeting]]'
-- '[[yt-management-scientific-decision]]'
-- '[[yt-management-goal-management]]'
-- '[[yt-tool-okr-cycle]]'
-- '[[yt-management-scientific-meetings]]'
-- '[[yt-management-founder-role]]'
-- '[[yt-management-company-culture]]'
-- '[[yt-decision-y-model]]'
 contradicts: null
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 tags:
-aliases:
-  - 战略研讨会引导手册
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 trust_level: medium
 yitang:
-  map: management
-  module: 战略会
-  course_id: yt-tool-strategy-workshop
-  course_type: tool
-  level: advanced
+map: management
+module: 战略会
+course_id: yt-tool-strategy-workshop
+course_type: tool
+level: advanced
 created_at: 2026-05-19
 updated_at: '2026-06-16'
 estimated_tokens: 3300
 reviewed_by: 周伯通
 author: 老顽童
 ---
-
 # 战略研讨会引导手册
 
 > 来源：从 [[yt-management-strategy-meeting]] 概念卡萃取的工具内核。一套完整的战略研讨会开会指南——从会前准备到会中引导到会后产出，防止战略会沦为汇报大会或老板一言堂。

@@ -1,57 +1,32 @@
 ---
 id: tool-strategy-value-proposition
 title: 价值主张设计工具：三问 + 六维排序法
-aliases:
-- src_unknown
-- src_unknown
-- 冉鹏PPT截图
-- 引擎点火
 type: tool
 status: reviewed
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- marketing
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 三问
+  - 主张设计工具
+  - 价值主张设计工具
+  - 价值主张设计工具：三问+六维排序法
+  - 六维排序法
+  - 冉鹏PPT截图
+  - 引擎点火
+  - 排序法
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_107_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_107_vlm_desc.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_110_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_112_ocr_text.md
 quality_labels:
-- actionable
-- validated
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[tool-yitang-value-proposition-4step]]'
-- '[[framework-yitang-scientific-sales-five-step]]'
-- '[[tool-agent-spec-yitang-value-proposition]]'
-- '[[tool-strategy-value-capture]]'
-- tool-yitang-research-single-point-sniper
-- case-panproduct-yitao-project-background
 tags:
-aliases:
-  - 价值主张设计工具：三问+六维排序法
-  - 价值主张设计工具
-  - 三问
-  - 六维排序法
-  - 主张设计工具
-  - 排序法
-aliases:
-  - 价值主张设计工具：三问+六维排序法
-  - 价值主张设计工具
-  - 三问
-  - 六维排序法
-- audience:executor
-- scene:execution
-- skill-level:advanced
 ---
-
 # 价值主张设计工具：三问 + 六维排序法
 
 > 业务设计六要素第 2 要素。核心问题：**我们提供什么独特价值，让客户选择我们而不是对手？**

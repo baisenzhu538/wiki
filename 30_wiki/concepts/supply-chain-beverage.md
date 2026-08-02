@@ -4,58 +4,37 @@ title: 餐饮渠道饮料产品成本-口感-供应链综合洞察：主题综�
 type: concept
 status: reviewed
 domain:
-- supply-chain
-- beverage
 source_person: 王语嫣
 source_context: 听脑餐饮渠道饮料主题摘要综合（3 条录音 meetingSummary）
+aliases:
+  - [[dk-单元模型-找全成本实操难点]]
+  - [[tool-将未中标成本纳入循环计算真实投标成本]]
+  - [[tool-按月份摊销收入成本做计划]]
+  - [[tool-李诞-判断工作价值的交易成本视角]]
+  - [[tool-泛产品落地-低成本测试MVP]]
+  - [[tool-稀缺资源机会成本比对法]]
+  - [[tool-纪浩-低成本输出验证法]]
+  - 主题综合索引卡
+  - 产品调配
+  - 供应链综合洞察
+  - 双柚汁产品成本沟通
+  - 口感
+  - 口感与成本讨论
+  - 王语嫣
+  - 餐饮渠道饮料产品成本
+  - 餐饮渠道饮料产品成本口感供应链综合洞察：主题综合索引卡
 source_refs:
-- 10_raw/sources/src_20260614_16c4bf0d-双柚汁产品成本沟通.md
-- 10_raw/sources/src_20260614_d6ab6fb6-产品调配-口感与成本讨论.md
-- 10_raw/sources/src_20260614_9b574611-金银花浓缩汁餐饮产品方案.md
-- 10_raw/sources/src_20260614_95352714-theme-supply-chain-beverage-summary.md
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
 created_at: '2026-06-14'
 quality_labels:
-- cited
-- principle
-- validated
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-aliases:
-  - 餐饮渠道饮料产品成本口感供应链综合洞察：主题综合索引卡
-  - 餐饮渠道饮料产品成本
-  - 口感
-  - 供应链综合洞察
-  - 主题综合索引卡
-  - 王语嫣
-aliases:
-  - 餐饮渠道饮料产品成本口感供应链综合洞察：主题综合索引卡
-  - 餐饮渠道饮料产品成本
-  - 口感
-  - 供应链综合洞察
-  - 主题综合索引卡
-  - 王语嫣
-- '[[tool-李诞-判断工作价值的交易成本视角]]'
-- '[[tool-泛产品落地-低成本测试MVP]]'
-- '[[tool-稀缺资源机会成本比对法]]'
-- '[[tool-按月份摊销收入成本做计划]]'
-- '[[tool-纪浩-低成本输出验证法]]'
-- '[[dk-单元模型-找全成本实操难点]]'
-- '[[tool-将未中标成本纳入循环计算真实投标成本]]'
 confidence: 0.65
 trust_level: medium
-aliases:
-- 产品调配
-- 双柚汁产品成本沟通
-- 口感与成本讨论
 ---
-
 # 餐饮渠道饮料产品成本-口感-供应链综合洞察
 
 ## 主题定义

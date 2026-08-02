@@ -3,7 +3,6 @@ id: framework-brand-three-degree
 title: 品牌三度
 type: framework
 domain:
-- content-production
 status: reviewed
 confidence: 0.85
 difficulty: intermediate
@@ -13,54 +12,25 @@ updated_at: 2026-07-02
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-30'
-source_refs:
-- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
-query_triggers:
-- 做创始人 IP 要先搞什么
-- 人设视频和营销视频有什么区别
-- 品牌三度是什么
-- 知名度美誉度信任度怎么提升
-- 为什么有流量却不转化
 aliases:
-- brand-three-degree
-- 品牌三度模型
-- 知名度美誉度信任度
-- study
-- 大馨战队
-tags:
-- '#scene/business-analysis'
-- content-production
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-quality_labels:
-- principle
-- validated
-related:
-aliases:
-  - 品牌三度
-  - 牌知名度美誉度忠诚度
+  - brand-three-degree
+  - study
   - 名度美誉度忠诚度
-  - 牌三度
-aliases:
   - 品牌三度
-  - 牌知名度美誉度忠诚度
+  - 品牌三度模型
+  - 大馨战队
   - 牌三度
+  - 牌知名度美誉度忠诚度
+  - 知名度美誉度信任度
+source_refs:
+query_triggers:
+tags:
+quality_labels:
+related:
 discoverable_by:
   - "品牌三度"
   - "品牌知名度美誉度忠诚度"
-- '[[framework-content-business-six-step]]'
-- '[[dk-founding-ip-trust-over-traffic]]'
-- '[[case-yitang-yitang-shortvideo-industrialization]]'
-- '[[writing-content]]'
-- '[[case-yitang-goat-milk-channel-partnership]]'
-- '[[yt-barrier-brand-equity]]'
-- '[[dk-content-implicit-value-without-price]]'
-- '[[framework-founder-ip-three-positioning]]'
-- '[[tool-yitang-value-proposition-4step]]'
-- '[[framework-community-knowledge-production-failure-modes]]'
 pipeline:
-- confidence-draft
 ---
 # 品牌三度
 

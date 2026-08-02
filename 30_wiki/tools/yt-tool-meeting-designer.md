@@ -2,6 +2,11 @@
 id: yt-tool-meeting-designer
 title: 会议设计师：一页纸会议蓝图
 type: tool
+aliases:
+  - framework_lens: 设计了但没人执行——会议设计解决了'会议本身的问题'，但没解决'会后动力的问题'。完美的议程是最精致的逃避——把'执行力问题'包装成'会议效率问题
+  - 一页纸会议蓝图
+  - 会议设计师
+  - 会议设计师：一页纸会议蓝图
 source_refs:
 - 10_raw/sources/src_20260619_d11dc3a2_30_wiki_concepts_yt_management_scientific_meetings.md
 status: reviewed
@@ -51,17 +56,10 @@ updated_at: '2026-06-28'
 estimated_tokens: 3200
 reviewed_by: 周伯通
 diagnostic_signals:
-aliases:
-  - 会议设计师：一页纸会议蓝图
-  - 会议设计师
-  - 一页纸会议蓝图
-- framework_lens: 设计了但没人执行——会议设计解决了'会议本身的问题'，但没解决'会后动力的问题'。完美的议程是最精致的逃避——把'执行力问题'包装成'会议效率问题'
-  follow_up_question: 行动项没有被执行的真正原因是什么？是没时间、忘记了、还是内心觉得这个行动项不重要？如果是后者，会议本身可能就讨论错了方向
 - framework_lens: 设计了但没人执行——工具适配度问题。蓝图对5人以下快速对齐型团队的认知负担大于收益。当工具带来的'可控感'没超过'仪式感的不适'时，团队会暗中抵制
   follow_up_question: 团队现在开会最大的痛点是什么——是太散漫？还是太冗长？还是产出不清？只保留解决那个痛点的最小工具，其余全删
 author: 老顽童
 ---
-
 # 会议设计师：一页纸会议蓝图
 
 > 来源：从 [[yt-management-scientific-meetings]] 概念卡萃取的工具内核。一张纸、五分钟，让每次会议都有存在的理由。

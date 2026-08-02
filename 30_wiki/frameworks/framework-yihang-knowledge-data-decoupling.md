@@ -12,41 +12,26 @@ language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
-- ai-collaboration
-- yitang
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂双三角
+  - 人机协作双三角
+  - 件式知识组合
+  - 插件式组合
+  - 核心词
+  - 知识层与数据层解耦
+  - 知识层与数据层解耦：核心词+datapack插件式组合
+  - 识数据解耦
 source_refs:
-- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
 discoverable_by:
   - "知识数据解耦"
   - "核心词data pack"
   - "插件式知识组合"
-- '[[concept-yihang-dual-triangle-core]]'
-- '[[tool-aesthetic-library-builder]]'
-- '[[method-dual-triangle-flywheel-engine]]'
 tags:
-aliases:
-  - 知识层与数据层解耦：核心词+datapack插件式组合
-  - 知识层与数据层解耦
-  - 核心词
-  - 插件式组合
-  - 件式知识组合
-  - 识数据解耦
-aliases:
-  - 知识层与数据层解耦：核心词+datapack插件式组合
-  - 知识层与数据层解耦
-  - 核心词
-  - 插件式组合
-  - 识数据解耦
-  - 件式知识组合
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 一堂双三角
-- 人机协作双三角
 ---
-
 # 知识层与数据层解耦：核心词 + data pack 插件式组合
 
 > **一句话定义**：Truman 在 YAI 架构设计中将系统核心词（审美+体系）与 data pack（数据+场景+基本功）分开生产、插件式组合——核心词稳定变化慢，data pack 需要频繁更新。这是双三角人类三角和 AI 三角在 Agent 架构层的直接落地。

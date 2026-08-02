@@ -9,27 +9,17 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- decision-science
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 产品审美的诊断和提升工具集合
+  - 审美工具箱
+  - 审美工具箱：产品审美的诊断和提升工具集合
 source_refs:
-- src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- concept-X型Y型决策习惯
-- concept-发现决策
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - 审美工具箱：产品审美的诊断和提升工具集合
-  - 审美工具箱
-  - 产品审美的诊断和提升工具集合
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 ---
 # 审美工具箱：产品审美的诊断和提升工具集合
 

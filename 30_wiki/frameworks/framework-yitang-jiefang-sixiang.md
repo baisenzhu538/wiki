@@ -4,59 +4,31 @@ title: 解放思想：不被行业常识和既有框架绑架
 type: framework
 status: reviewed
 domain:
-- epistemic-foundations
-- decision-science
-- yitang
 confidence: 0.86
 trust_level: high
 language: zh-CN
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: "2026-07-05"
-source_refs:
-- 00_inbox/解放思想/_processed/解放思想_整合笔记.md
-- 00_inbox/解放思想/_processed/CASE_CANDIDATES.md
-- 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
-related:
 aliases:
-  - 解放思想：不被行业常识和既有框架绑架
-  - 解放思想
   - 不被行业常识和既有框架绑架
-  - 行业常识和既有框架绑架
   - 业常识绑架
-  - 有框架
-aliases:
-  - 解放思想：不被行业常识和既有框架绑架
-  - 解放思想
-  - 不被行业常识和既有框架绑架
   - 放思想
+  - 有框架
   - 破既有框架
+  - 行业常识和既有框架绑架
   - 被行业常识绑架
+  - 解放思想
+  - 解放思想：不被行业常识和既有框架绑架
+source_refs:
+related:
 discoverable_by:
   - "解放思想"
   - "不被行业常识绑架"
   - "打破既有框架"
-- yt-decision-y-model
-- framework-yitang-shishi-qiushi
-- tool-yitang-Y-model-application
-- dk-yitang-Y-model-pitfalls
-- yt-model-liberate-thinking-layers
-- framework-yitang-channel-exploration-4step
-- tool-iceberg-triangle-modeling
-- framework-一堂五步法-泛产品设计
-- master-decision-hygiene
-- concept-X型Y型决策习惯
-- case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution
-- framework-yitang-y-model-dual-triangle-synergy
-- yt-business-formula-six-level-logic
-- framework-TCPR底层网络协议
-- framework-kdo-self-attack
-- framework-yitang-y-model-cross-domain-fusion
-- framework-yitang-thought-liberation-lightning
 created_at: 2026-07-03
 updated_at: '2026-07-04'
 ---
-
 # 解放思想：不被行业常识和既有框架绑架
 
 > 定位：属于一堂底层逻辑体系。解放思想方法论的总纲卡。

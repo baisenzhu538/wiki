@@ -6,60 +6,29 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：课程问题预埋法
+  - 月白
+  - 课程问题预埋法
 source_refs:
-- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-提示词长度控制法]]'
-- '[[tool-月白-背景消除与分辨率修复]]'
-- '[[tool-月白-AI需求拆解咨询法]]'
-- '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
-- '[[tool-月白-三步作业反馈法]]'
-- '[[tool-demand-iceberg-l2-scenario]]'
-- '[[tool-半肥猫-course-to-skill-workflow]]'
-- '[[tool-月白-A-B双轨反推模式选择]]'
-- '[[tool-月白-AI海报快速生成法（15分钟无PS）]]'
-- '[[tool-月白-AI生成电商白底图]]'
-- '[[tool-月白-AI设计-质价比-决策框架]]'
-- '[[tool-月白-一抽流长提示词写作法]]'
-- '[[tool-月白-图片逆向反推提示词法]]'
-- '[[tool-月白-图片逆向提示词提取]]'
-- '[[tool-月白-审美刻意练习法]]'
-- '[[tool-月白-提示词优化：信息流海报文字修复]]'
-- '[[tool-月白-文件命名与存档规范（口述暗示）]]'
-- '[[tool-月白-普通人AI快速上手法]]'
-- '[[tool-月白-海报二维码快速替换法]]'
-- '[[tool-月白-海报文字错误修复法]]'
-- '[[tool-月白-眼高手低转化法]]'
-- '[[tool-月白-薅AIGC羊毛资源法]]'
-- '[[tool-月白-设计师AI资产四类型沉淀]]'
-- '[[tool-月白-设计文件八要素命名法]]'
 tags:
-aliases:
-  - 技能：课程问题预埋法
-  - 技能
-  - 课程问题预埋法
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
-
 # 技能：课程问题预埋法
 
 ## 原始表述

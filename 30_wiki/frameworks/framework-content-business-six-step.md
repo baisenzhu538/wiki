@@ -3,7 +3,6 @@ id: framework-content-business-six-step
 title: 内容经营 6 步闭环
 type: framework
 domain:
-- content-production
 status: reviewed
 confidence: 0.85
 difficulty: intermediate
@@ -13,53 +12,26 @@ updated_at: '2026-06-30T15:23:37+00:00'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-30'
-source_refs:
-- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
-query_triggers:
-- 内容经营怎么做
-- 短视频内容闭环
-- 内容生产 6 步法
-- 从用户定位到数据复盘
 aliases:
-- content-business-six-step
-- 内容经营六步闭环
-- 短视频内容经营
-- study
-- 大馨战队
-tags:
-- '#scene/business-analysis'
-- content-production
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-quality_labels:
-- principle
-- validated
-related:
-aliases:
-  - 内容经营6步闭环
+  - content-business-six-step
+  - study
   - 内容经营
-  - 步闭环
+  - 内容经营6步闭环
+  - 内容经营六步闭环
+  - 大馨战队
   - 容经营六步闭环
+  - 步闭环
+  - 短视频内容经营
   - 营六步闭环
-aliases:
-  - 内容经营6步闭环
-  - 内容经营
-  - 步闭环
-  - 容经营六步闭环
+source_refs:
+query_triggers:
+tags:
+quality_labels:
+related:
 discoverable_by:
   - "内容经营六步闭环"
-- '[[framework-founder-ip-three-positioning]]'
-- '[[framework-brand-three-degree]]'
-- '[[tool-shortvideo-six-dimension-deconstruction]]'
-- '[[case-daxin-team-content-training-camp]]'
-- '[[case-yitang-yitang-shortvideo-industrialization]]'
-- '[[system-kdo-quality-labels]]'
-- '[[framework-community-knowledge-production-failure-modes]]'
 pipeline:
-- confidence-draft
 ---
-
 # 内容经营 6 步闭环
 
 > **Burn line**: 带商业目的的内容不是创作，而是经营。你不是在追求爆款，而是在用内容一笔一笔地积累信任资产。

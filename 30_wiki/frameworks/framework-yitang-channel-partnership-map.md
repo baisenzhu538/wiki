@@ -9,21 +9,25 @@ review_date: 2026-06-29
 confidence: 0.82
 trust_level: medium
 domain:
-- yitang
-- growth
-- strategy
 created_at: '2026-06-29'
 quality_labels:
-- cited
-- insight
-- principle
-- quality
-- validated
 updated_at: '2026-06-29'
+aliases:
+  - audience:ceo
+  - details
+  - itingnao
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 众品类渠道
+  - 品类渠道合伙人
+  - 地图模式
+  - 域包干决策
+  - 小众品类渠道合伙人/区域包干决策框架卖地图模式
+  - 干决策
+  - 战略培训案例
+  - 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）/ Truman（渠道方法论）
+  - 道合伙人
 source_refs:
-- 60_feedback/diag/diag_20260629_wangyuyan-goat-milk-channel-partnership-nine-layer.md
-- 10_raw/sources/src_20260614_22f103f0-战略培训-实战案例分析.md
-- 10_raw/itingnao/details/3979746.json
 source_person: 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）/ Truman（渠道方法论）
 related:
 discoverable_by:
@@ -31,38 +35,7 @@ discoverable_by:
   - "卖地图模式"
   - "区域包干决策"
   - "小众品类渠道"
-- '[[tool-strategy-profit-model-comparison]]'
-- '[[tool-yitang-channel-scoring-matrix]]'
-- '[[tool-yitang-channel-agent-interview]]'
-- '[[yt-management-partnership-equity]]'
-- '[[framework-yitang-channel-unit-economics]]'
-- '[[tool-yitang-channel-partnership-design]]'
-- '[[case-yitang-goat-milk-channel-partnership]]'
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[yt-tool-unit-model-construction]]'
-- case-strategy-m-brand-profit-model
-- framework-yitang-deliberate-practice-1plus4
 tags:
-aliases:
-  - 小众品类渠道合伙人/区域包干决策框架卖地图模式
-  - 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）/ Truman（渠道方法论）
-  - 道合伙人
-  - 品类渠道合伙人
-  - 干决策
-  - 战略培训案例
-aliases:
-  - 小众品类渠道合伙人/区域包干决策框架卖地图模式
-  - 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）/ Truman（渠道方法论）
-  - 道合伙人
-  - 众品类渠道
-  - 域包干决策
-  - 地图模式
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-aliases:
-- details
-- itingnao
 ---
 # 小众品类渠道合伙人/区域包干决策框架（「卖地图」模式）
 

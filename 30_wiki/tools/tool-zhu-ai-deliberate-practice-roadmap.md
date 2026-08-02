@@ -6,38 +6,25 @@ status: draft
 confidence: 0.88
 trust_level: high
 domain:
-- personal-os
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
 quality_labels:
-- actionable
-source_refs:
-- 30_wiki/personal-os/zhu-future-directions.md
-- 30_wiki/personal-os/zhu-feedback-patterns.md
-- 30_wiki/personal-os/zhu-project-board.md
-- 30_wiki/personal-os/user-insight-profile.md
-related:
-- zhu-future-directions
-- zhu-feedback-patterns
-- zhu-project-board
-- agent-spec-zhu-ai-coach
-- framework-yitang-nine-layer-deep-dig
-- user-insight-profile
-tags:
 aliases:
-  - 老朱AI能力刻意练习路线图：从工具使用到智能体搭建的24周
-  - 老朱
-  - 能力刻意练习路线图
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
   - 从工具使用到智能体搭建的
-- audience:executor
-- scene:execution
-- skill-level:advanced
+  - 老朱
+  - 老朱AI能力刻意练习路线图：从工具使用到智能体搭建的24周
+  - 能力刻意练习路线图
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周
 
 > 一句话：这一年不 all in 某个方向，而是把 AI 能力从"会用工具"练到"能独立搭建智能体并嵌入真实业务"——用鑫港湾黑石和 OPC 作为练习场，借假修真。

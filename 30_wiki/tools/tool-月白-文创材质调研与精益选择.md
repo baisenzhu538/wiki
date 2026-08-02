@@ -6,41 +6,28 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：文创材质调研与精益选择
+  - 文创材质调研与精益选择
+  - 月白
 source_refs:
-- src_unknown
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AI设计反馈萃取法]]'
-- '[[tool-月白-AI对话情绪管理法]]'
-- '[[tool-月白-AI自动生成多语种专业名词提示词]]'
-- '[[tool-月白-Token效价比决策法]]'
-- '[[tool-月白-AI课程内容深度梳理法]]'
-- '[[tool-Truman-科学提问法]]'
-- '[[tool-月白-AI人物特征精准描述法]]'
-- '[[tool-月白-设计需求口头化表达法]]'
 tags:
-aliases:
-  - 技能：文创材质调研与精益选择
-  - 技能
-  - 文创材质调研与精益选择
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
 # 技能：文创材质调研与精益选择
 

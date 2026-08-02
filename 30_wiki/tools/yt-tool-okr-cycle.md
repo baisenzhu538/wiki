@@ -2,6 +2,10 @@
 id: yt-tool-okr-cycle
 title: OKR 制定与复盘罗盘
 type: tool
+aliases:
+  - OKR制定与复盘罗盘
+  - framework_lens: 写了但没用——OKR是'季度初写一次、季度末看一眼'的文档，而非实时引导工具。OKR的真正价值在追踪过程中，而非在设定时
+  - 制定与复盘罗盘
 source_refs:
 - 10_raw/sources/src_20260619_adef6403_30_wiki_concepts_yt_management_goal_management.md
 status: reviewed
@@ -51,16 +55,10 @@ updated_at: '2026-06-28'
 estimated_tokens: 3300
 reviewed_by: 周伯通
 diagnostic_signals:
-aliases:
-  - OKR制定与复盘罗盘
-  - 制定与复盘罗盘
-- framework_lens: 写了但没用——OKR是'季度初写一次、季度末看一眼'的文档，而非实时引导工具。OKR的真正价值在追踪过程中，而非在设定时
-  follow_up_question: 你们上一次在周会上讨论OKR是什么时候？如果答案是'记不清了'，OKR已经是一个形式而非工具
 - framework_lens: 写了但没用——全绿的OKR和全红的OKR一样危险。可能是KR设成了任务清单（做了=完成了），也可能是团队在'挑软柿子'——只完成容易量化的KR，回避了真正重要但难量化的突破
   follow_up_question: 完成的KR里，去掉'按流程完成'类的、挑出真正创造了用户/客户价值的——还剩几个？
 author: 老顽童
 ---
-
 # OKR 制定与复盘罗盘
 
 > 来源：从 [[yt-management-goal-management]] 概念卡萃取的工具内核。一套季度 OKR 全周期操作工具——从目标对齐到关键结果量化到周度脉搏到季度复盘，防止 OKR 沦为 KPI 换皮。

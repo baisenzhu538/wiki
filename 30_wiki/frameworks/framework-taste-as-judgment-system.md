@@ -11,52 +11,24 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- ai-collaboration
-- product-design
-- decision-making
-source_refs:
-- 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
-- 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
-- pending_archive:Andrew Ambrosino（OpenAI Codex 产品负责人），《The New Shape of Software》，Lenny's Newsletter（2026-06-28）
-quality_labels:
-- insight
-- principle
-- actionable
-related:
 aliases:
-  - 品味系统：判断力×审美×系统思维
-  - 品味系统
+  - AI 时代品味五维
+  - taste-as-judgment-system
   - 判断力
-  - 审美
-  - 系统思维
   - 味系统
-aliases:
-  - 品味系统：判断力×审美×系统思维
   - 品味系统
-  - 判断力
+  - 品味系统：判断力×审美×系统思维
   - 审美
-  - 系统思维
   - 断力审美系统
+  - 系统思维
+source_refs:
+quality_labels:
+related:
 discoverable_by:
   - "品味系统"
   - "判断力审美系统"
   - "审美系统思维"
-- "[[concept-AI时代双三角竞争力]]"
-- "[[dk-wanghuan-creativity-in-description-and-taste]]"
-- "[[framework-yihang-aesthetic-judgment-training]]"
-- "[[framework-ai-native-organization-two-modes]]"
-- "[[dk-ai-builder-illusion]]"
-- "[[agent-spec-codex-teammate]]"
-- "[[framework-founder-ip-three-positioning]]"
-- "[[yt-decision-y-model]]"
-- "[[concept-yihang-human-in-the-loop-dual-triangle]]"
-- "[[prd-as-ai-instruction]]"
-aliases:
-- 品味系统
-- taste-as-judgment-system
-- AI 时代品味五维
 ---
-
 # 品味系统：判断力 × 审美 × 系统思维
 
 > **Burn line**: AI 把「做出来」的门槛降到地板价之后，「该不该做、做成什么样」成为新瓶颈。这个瓶颈就是品味——一种可以被拆解、训练、但无法被 AI 替代的判断系统。

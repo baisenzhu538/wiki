@@ -12,39 +12,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 信息地图 信息获取体系 如何建立系统化信息获取
-- 信息源管理 RSS订阅 Google Alerts 自动化工具
-- 信息需求识别 信息地图构建法
-- 信息获取体系维护 定期更新 信息源评估
-- 团队信息共享 知识库 信息存储共享方式
-- 信息过载 信息筛选 如何避免被信息淹没
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[tool-yitang-research-competitor-tracking]]'
-tags:
 aliases:
-  - 地图在手：建立全局信息获取体系
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 地图在手
+  - 地图在手：建立全局信息获取体系
   - 建立全局信息获取体系
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 地图在手：建立全局信息获取体系
 
 > **一句话**：地图在手不是"知道几个信息源"，而是"建立系统化的信息获取体系，知道什么信息在哪里，怎么获取，什么时候更新"。

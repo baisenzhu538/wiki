@@ -8,76 +8,24 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 created_at: 2026-06-26
 quality_labels:
-- cited
-- insight
-- principle
-- quality
-- validated
 updated_at: '2026-07-08'
 confidence: 0.82
 trust_level: medium-high
 language: zh-CN
 domain:
-- panproduct
-- yitang
-- methodology
-source_refs:
-- 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
-- 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt
-- 00_inbox/泛产品设计/一堂-泛产品设计实操-口述.txt
-- 00_inbox/泛产品设计/一堂-泛产品设计实操-笔记.txt
-- 00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md
-source_person: 一堂 / 兰毅
-related:
 aliases:
-  - 一堂五步法在泛产品设计中的应用
   - 一堂 / 兰毅
-  - 泛产品设计
-  - 步法泛产品设计
+  - 一堂五步法在泛产品设计中的应用
   - 五步法在泛产品设计中的应用
   - 步法产品应用
-aliases:
-  - 一堂五步法在泛产品设计中的应用
-  - 一堂 / 兰毅
   - 步法泛产品设计
-  - 步法产品应用
+  - 泛产品设计
+source_refs:
+source_person: 一堂 / 兰毅
+related:
 discoverable_by:
   - "五步法泛产品设计"
   - "五步法产品应用"
-- '[[framework-candy-transcript-workflow]]'
-- '[[framework-一堂五步法-增长周期]]'
-- '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
-- '[[case-live81-ai-trademark-design]]'
-- '[[case-yitang-Y-model-advertising-turnaround]]'
-- '[[case-yitang-sales-transformation-jubensha-saas]]'
-- '[[case-yitang-sales-transformation-meirongyuan]]'
-- '[[case-yitang-sales-transformation-tuliaogongsi]]'
-- '[[framework-ai-accelerated-strategy-cycle]]'
-- '[[framework-lean-abcd-model]]'
-- '[[framework-pan-product-organization]]'
-- '[[framework-yitang-five-step-to-time-management]]'
-- '[[framework-yitang-scientific-sales-five-step]]'
-- '[[framework-yitang-y-model-cross-domain-fusion]]'
-- '[[tool-agent-spec-yitang-aesthetic-radar-modeling]]'
-- '[[tool-agent-spec-yitang-beautiful-work-imagination]]'
-- '[[tool-agent-spec-yitang-kernel-add-subtract-diagnosis]]'
-- '[[tool-agent-spec-yitang-kernel-canvas-autofill]]'
-- '[[tool-agent-spec-yitang-kernel-case-matching]]'
-- '[[tool-agent-spec-yitang-kernel-failure-mode-diagnosis]]'
-- '[[tool-agent-spec-yitang-kernel-iteration-direction]]'
-- '[[tool-agent-spec-yitang-kernel-three-questions]]'
-- '[[tool-agent-spec-yitang-kernel-verification-ladder]]'
-- '[[tool-agent-spec-yitang-scenario-walkthrough]]'
-- '[[tool-agent-spec-yitang-user-perspective-training]]'
-- '[[tool-ai-deliverable-polish-loop]]'
-- '[[tool-scene-design-language-translation]]'
-- '[[tool-yitang-Y-model-application]]'
-- '[[tool-yitang-customer-segmentation-4step]]'
-- '[[tool-yitang-sales-process-decomposition]]'
-- '[[tool-yitang-value-proposition-4step]]'
-- '[[yt-composite-pan-product-methodology]]'
-- '[[yt-decision-y-model]]'
-- '[[yt-model-pan-product-three-virtues]]'
   - framework-yitang-thought-liberation-lightning
 ---
 # 一堂五步法在泛产品设计中的应用

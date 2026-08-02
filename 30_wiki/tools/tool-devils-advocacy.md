@@ -3,35 +3,21 @@ id: tool-devils-advocacy
 title: Devil's Advocacy（魔鬼代言人）
 type: tool
 domain:
-- research
-- critical-thinking
-- decision
 tags:
-- SATs
-- 反向类
-- 魔鬼代言人
-- 挑战主流结论
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 source_person: Richars J. Heuer Jr. + Truman（一堂）
 source_context: SATs 反向类技术工具化实现
-source_refs:
-- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
-- https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/
-related:
 aliases:
-  - Devil'sAdvocacy魔鬼代言人
   - Advocacy魔鬼代言人
+  - Devil'sAdvocacy魔鬼代言人
   - Richars J. Heuer Jr. + Truman（一堂）
+  - [[framework-yitang-18-strategy-cards]]
+  - [[pending_unknown]]
+  - [[tool-半肥猫-ai-research-validation]]
+  - 三个新盲区
+  - 外部知识探索
   - 魔鬼代言人
-aliases:
-  - Devil'sAdvocacy魔鬼代言人
-  - Advocacy魔鬼代言人
-  - Richars J. Heuer Jr. + Truman（一堂）
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[tool-半肥猫-ai-research-validation]]'
-- '[[pending_unknown]]'
+source_refs:
+related:
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
@@ -39,11 +25,7 @@ created_at: '2026-06-28'
 updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: medium
-aliases:
-- 三个新盲区
-- 外部知识探索
 ---
-
 # Devil's Advocacy（魔鬼代言人）
 
 ## 原始表述

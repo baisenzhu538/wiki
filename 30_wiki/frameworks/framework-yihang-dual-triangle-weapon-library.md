@@ -11,50 +11,24 @@ language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-11
 domain:
-- yitang
-- ai-collaboration
-- competency-model
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂双三角
+  - 一行双三角六要素武器库
+  - 三角武器库
+  - 人机协作双三角
+  - 双三角六要素武器库
+  - 双三角武器库
+  - 双三角能力矩阵 - framework-yitang-thought-liberation-lightning
+  - 武器库
 source_refs:
-- 00_inbox/人机协作双三角/一堂双三角-AI时代的竞争力武器库.png
-- 00_inbox/人机协作双三角/_processed/人类三角-审美_vlm.md
-- 00_inbox/人机协作双三角/_processed/人类三角-练体系_vlm.md
-- 00_inbox/人机协作双三角/_processed/人类三角-创造力_vlm.md
-- 00_inbox/人机协作双三角/_processed/AI三角-场景_vlm.md
-- 00_inbox/人机协作双三角/_processed/AI三角-基本功_vlm.md
-- 00_inbox/人机协作双三角/_processed/AI三角-数据_vlm.md
 related:
 discoverable_by:
   - "双三角武器库"
-- '[[concept-yihang-dual-triangle-core]]'
-- '[[framework-yihang-dual-triangle-ten-year-map]]'
-- '[[framework-yihang-dual-triangle-three-stages-six-changes]]'
-- '[[tool-yihang-dual-triangle-canvas]]'
-- '[[concept-一堂-AI时代基本功变与不变]]'
-- '[[concept-一堂-基本功-段位体系]]'
-- '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
-- '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
-- '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
-- '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
-- '[[framework-business-formula-dual-triangle-bridge]]'
-aliases:
-- 双三角武器库
-- 双三角能力矩阵 - framework-yitang-thought-liberation-lightning
-- 一堂双三角
-- 人机协作双三角
 tags:
-aliases:
-  - 一行双三角六要素武器库
-  - 三角武器库
-  - 武器库
-  - 双三角六要素武器库
-aliases:
-  - 一行双三角六要素武器库
-  - 三角武器库
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 ---
-
 # 一行双三角六要素武器库
 
 > **一句话定义**：把「一行双三角」的六个要素各拆成「自我修养 → 基础 → 进阶 → 高阶」四级，形成一张 6×4 的竞争力段位矩阵。它回答了「我现在在哪一级、下一级该练什么」。

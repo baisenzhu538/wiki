@@ -5,41 +5,29 @@ type: dk
 dark_knowledge_type: workflow
 status: reviewed
 domain:
-- yitang
-- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
+aliases:
+  - Truman
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 只能等菜熟了再摘
+  - 型课程无法提前排课表
+  - 建模能力培训
+  - 研究型课程无法提前排课表
+  - 研究型课程无法提前排课表：只能等菜熟了再摘
+  - 等菜熟了再摘
 source_refs:
-- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 confidence: 0.8
 trust_level: medium
 related:
-- '[[yitang-domain-digest]]'
 tags:
-aliases:
-  - 研究型课程无法提前排课表：只能等菜熟了再摘
-  - 研究型课程无法提前排课表
-  - 只能等菜熟了再摘
-  - Truman
-  - 等菜熟了再摘
-  - 型课程无法提前排课表
-aliases:
-  - 研究型课程无法提前排课表：只能等菜熟了再摘
-  - 研究型课程无法提前排课表
-  - 只能等菜熟了再摘
-  - Truman
-- audience:executor
-- scene:reference
-- skill-level:intermediate
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: 2026-06-28
-aliases:
-- 建模能力培训
 ---
-
 ## 原始表述
 
 > 我们真的给不出来你们课表，我们甚至都不知道下个月的这个星期去讲什么……因为研究本身就代表我们不知道研究到什么程度……成熟了我们就摘那个果实，不成熟就养着它。

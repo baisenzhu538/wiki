@@ -4,58 +4,32 @@ title: 产业 AI 落地案例集（非药柜）：主题综合索引卡
 type: concept
 status: reviewed
 domain:
-- ai
-- industry
 source_person: 王语嫣
 source_context: 听脑产业 AI 案例主题摘要综合（8 条录音 meetingSummary）
+aliases:
+  - [[pending_unknown]]
+  - [[tool-月白-实物包装产业链实践]]
+  - 主题综合索引卡
+  - 云管家
+  - 产业
+  - 产业AI落地案例集非药柜：主题综合索引卡
+  - 优行业分享
+  - 剧本创作分享
+  - 案例集非药柜
+  - 王语嫣
+  - 落地案例集非药柜
 source_refs:
-- 10_raw/sources/src_20260614_07a9fc2a-戴志龙-AI剧本创作分享.md
-- 10_raw/sources/src_20260614_3cefab90-奢侈品-存量时代营销逻辑.md
-- 10_raw/sources/src_20260614_45ab8b35-GEO业务-最佳实践讨论.md
-- 10_raw/sources/src_20260614_4b3b6427-阿豪-自动选品系统案例.md
-- 10_raw/sources/src_20260614_5e47c1c5-AI营销-AIO与G优行业分享.md
-- 10_raw/sources/src_20260614_b85c364e-贝壳-云管家AI外呼案例.md
-- 10_raw/sources/src_20260614_eca9f5b3-酒店行业-AI标签审核案例.md
-- 10_raw/sources/src_20260614_eed6d83c-AI四格漫画创作交流.md
 tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
 created_at: '2026-06-14'
 quality_labels:
-- principle
-- validated
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-aliases:
-  - 产业AI落地案例集非药柜：主题综合索引卡
-  - 产业
-  - 落地案例集非药柜
-  - 主题综合索引卡
-  - 王语嫣
-  - 案例集非药柜
-aliases:
-  - 产业AI落地案例集非药柜：主题综合索引卡
-  - 产业
-  - 落地案例集非药柜
-  - 主题综合索引卡
-  - 王语嫣
-- '[[tool-月白-实物包装产业链实践]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 confidence: 0.65
 trust_level: medium
-aliases:
-- 云管家
-- 优行业分享
-- 剧本创作分享
 ---
-
 # 产业 AI 落地案例集（非药柜）
 
 > Source: 听脑主题摘要 `90_control/itingnao-kit/work/theme-industry-ai-cases-summary.md`，共 9 条录音。

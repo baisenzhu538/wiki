@@ -6,11 +6,20 @@ status: reviewed
 confidence: 0.95
 trust_level: high
 domain:
-- strategy
-- market_analysis
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 业竞争分析
+  - 争分析
+  - 五力分析框架
+  - 五力模型
+  - 冉鹏PPT截图
+  - 力分析
+  - 引擎点火
+  - 波特五力分析框架
+  - 特五力
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_74_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_74_vlm_desc.md
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
@@ -21,33 +30,7 @@ discoverable_by:
   - "五力分析"
   - "行业竞争分析"
   - "Porter五力模型"
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- yt-five-step-method
-- yt-barrier-defensive-strategy
 tags:
-aliases:
-  - 波特五力分析框架
-  - 业竞争分析
-  - 力分析
-  - 五力模型
-  - 五力分析框架
-  - 争分析
-aliases:
-  - 波特五力分析框架
-  - 五力模型
-  - 力分析
-  - 特五力
-  - 业竞争分析
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 冉鹏PPT截图
-- 引擎点火
 ---
 # 波特五力分析框架
 

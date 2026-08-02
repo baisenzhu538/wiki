@@ -12,50 +12,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 单元模型 业务最小经济单元 如何判断业务是否可持续
-- 单元收入 单元成本 单元利润 单元利润率
-- LTV/CAC 分析 用户生命周期价值 获客成本
-- 单元模型模板 如何做单元模型分析
-- 单元定义 如何找到业务的最小经济单元
-- 单元模型失败模式 成本遗漏 收入高估 忽视 CAC
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[yt-business-model-unit-economics]]'
-- '[[yt-entrepreneur-unit-model]]'
-- '[[case-five-step-growth-first-lever]]'
-- '[[yt-business-model-definition]]'
-- '[[yt-growth-channel-roi]]'
-- '[[framework-yitang-oscar-research]]'
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[tool-yitang-research-company-disassembly]]'
-- '[[tool-yitang-research-industry-scan]]'
-- '[[yt-research-competitor-toolkit]]'
-- '[[case-yitang-sanjieke-benchmark-failure]]'
-- '[[dk-yitang-research-starter-vs-veteran]]'
-- '[[concept-yitang-research-mindset]]'
-- '[[tool-yitang-financial-report-intelligence]]'
-- '[[tool-yitang-public-sentiment-research]]'
-- '[[tool-yitang-research-quantitative-modeling]]'
-- '[[tool-yitang-weapon-public-official-info]]'
-tags:
 aliases:
-  - 单元模型：找到业务最小单元的经济密码
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 单元模型
+  - 单元模型：找到业务最小单元的经济密码
   - 找到业务最小单元的经济密码
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 单元模型：找到业务最小单元的经济密码
 
 > **一句话**：单元模型是业务的最小经济单元，如单店、单用户、单订单。分析单元模型的收入和成本，判断业务是否可持续，是商业模式验证的核心工具。

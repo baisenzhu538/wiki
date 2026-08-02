@@ -4,51 +4,33 @@ title: 技能：AI输出证据核查三问法
 type: tool
 status: reviewed
 domain:
-- ai-collaboration
-- yitang- ai-collaboration
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
+aliases:
+  - AI输出证据核查三问法
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 半肥猫
+  - 技能
+  - 技能：AI输出证据核查三问法
+  - 没有人呀现在
+  - 证据核查三问法
+  - 输出证据核查三问法
 source_refs:
-- 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 wiki_refs: null
 related:
-- '[[ai-collaboration-domain-digest]]'
-- '[[tool-纪浩-Agent技能市场设计法]]'
 tags:
-aliases:
-  - 技能：AI输出证据核查三问法
-  - 技能
-  - AI输出证据核查三问法
-  - 半肥猫
-  - 输出证据核查三问法
-  - 证据核查三问法
-aliases:
-  - 技能：AI输出证据核查三问法
-  - 技能
-  - AI输出证据核查三问法
-  - 半肥猫
-  - 输出证据核查三问法
-aliases:
-  - 技能：AI输出证据核查三问法
-  - 技能
-  - AI输出证据核查三问法
-  - 半肥猫
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required: null
 prerequisite_skills: null
 definition_of_done: null
 trust_level: medium
-aliases:
-- 没有人呀现在
 ---
-
 # 技能：AI输出证据核查三问法
 
 ## 用一句话讲清楚

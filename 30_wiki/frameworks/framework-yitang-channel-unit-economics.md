@@ -4,24 +4,26 @@ type: framework
 title: 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
 status: reviewed
 domain:
-- yitang
-- growth
-- unit-model
 confidence: 0.8
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 updated_at: '2026-06-29'
+aliases:
+  - Truman
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 一堂五步法之增长
+  - 云电脑
+  - 单元经济模型
+  - 客渠道核算
+  - 把每个获客渠道当作独立经济单元核算
+  - 渠道单元经济模型
+  - 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
+  - 道单元经济模型
 source_refs:
-- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
-- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道选择_vlm_desc.md
-- pending_archive:yt-unit-model-concept
-- pending_archive:yt-unit-model-overview
-- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
-- 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-云电脑-渠道选择_vlm_desc.md
-- yt-unit-model-concept
-- yt-unit-model-overview
 source_person: Truman
 note: 本框架核心公式与案例来自 Truman 口述/笔记及一堂内部案例（L5 单源），单元经济概念跨域引自 yt-unit-model-concept/overview；外部基准阈值未找到独立验证来源，已删除或改为业务自定口径。
 related:
@@ -29,44 +31,8 @@ discoverable_by:
   - "渠道单元经济模型"
   - "获客渠道核算"
   - "渠道ROI计算"
-- - - framework-yitang-channel-exploration-4step
-- - - yt-unit-model-concept
-- - - yt-unit-model-overview
-- - - framework-yitang-channel-partnership-map
-- - - case-yitang-goat-milk-channel-partnership
-- - - tool-yitang-channel-partnership-design
-- - - tool-区分获客渠道计算单元roi
-- - - framework-yitang-growth-flywheel
-- - - tool-yitang-channel-scoring-matrix
-- - - case-yitang-maiyi-cloud-computer-channel
-- - - framework-yitang-channel-industrialization
-- - - concept-yitang-channel-lean-validation-bridge
-- - - framework-yitang-channel-partnership-map
-- yt-business-model-unit-economics
-- yt-growth-channel-roi
-- '[[yt-tool-business-formula-parameter-arsenal]]'
 review_date: '2026-06-28'
 tags:
-aliases:
-  - 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
-  - 渠道单元经济模型
-  - 把每个获客渠道当作独立经济单元核算
-  - Truman
-  - 客渠道核算
-  - 单元经济模型
-aliases:
-  - 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
-  - 渠道单元经济模型
-  - 把每个获客渠道当作独立经济单元核算
-  - Truman
-  - 道单元经济模型
-  - 客渠道核算
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-aliases:
-- 一堂五步法之增长
-- 云电脑
 ---
 # 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
 

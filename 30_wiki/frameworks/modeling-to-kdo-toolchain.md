@@ -2,6 +2,14 @@
 id: modeling-to-kdo-toolchain
 title: 建模三段论 → KDO 工具链映射：从 SOP 到本质的知识管理落地
 type: framework
+aliases:
+  - framework_lens: 三段论门禁映射
+  - 三段论
+  - 到本质的知识管理落地
+  - 工具链映射
+  - 建模三段论
+  - 建模三段论→KDO工具链映射：从SOP到本质的知识管理落地
+  - 链映射
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
@@ -42,24 +50,6 @@ tags:
 - scene:diagnosis
 - skill-level:advanced
 diagnostic_signals:
-aliases:
-  - 建模三段论→KDO工具链映射：从SOP到本质的知识管理落地
-  - 建模三段论
-  - 工具链映射
-  - 到本质的知识管理落地
-  - 链映射
-  - 三段论
-aliases:
-  - 建模三段论→KDO工具链映射：从SOP到本质的知识管理落地
-  - 建模三段论
-  - 工具链映射
-  - 到本质的知识管理落地
-- framework_lens: 三段论门禁映射
-  follow_up_question: 你的卡处于L3（流程）、L4（抽象）还是L5（本质）？对应的门禁标准不同。
-- framework_lens: KDO管线五阶段
-  follow_up_question: 素材是P0/P1/P2哪个级别？P0走王语嫣门禁，P2老顽童直接消化。
-- framework_lens: 人在环中建模五步法
-  follow_up_question: AI输出是否经过边界定义、挑错、上锁、撞击实验？缺少哪一步？
 - framework_lens: 阶段不可跳级
   follow_up_question: 当前是否有执行稳定的SOP/清单？执行率达到90%以上再进入抽象建模。
 updated_at: '2026-06-17'
@@ -74,7 +64,6 @@ discoverable_by:
 - 知识管理落地
 - 建模到卡片
 ---
-
 # 建模三段论 → KDO 工具链映射
 
 > **Burn line**: 建模不是抽象概念——每个阶段都有对应的 KDO 命令和检查项。

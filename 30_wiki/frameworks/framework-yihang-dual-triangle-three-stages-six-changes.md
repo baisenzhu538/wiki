@@ -11,44 +11,23 @@ language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-03
 domain:
-- yitang
-- ai-collaboration
-- application-framework
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一个引擎
+  - 一堂双三角
+  - 一行双三角三阶六变
+  - 三角三阶六变
+  - 三阶六变
+  - 双三角三阶六变
+  - 双三角六种落地场景
 source_refs:
-- 00_inbox/人机协作双三角/一堂双三角-一个引擎-三阶六变.png
-- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-逐字稿.md
-- 00_inbox/人机协作双三角/_processed/一堂双三角-一个引擎-三阶六变_vlm.md
 related:
 discoverable_by:
   - "双三角三阶六变"
-- '[[concept-yihang-dual-triangle-core]]'
-- '[[framework-yihang-dual-triangle-ten-year-map]]'
-- '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
-- '[[tool-yihang-dual-triangle-canvas]]'
-- '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
-- '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
-- '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
-- '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
-- '[[framework-yihang-dual-triangle-weapon-library]]'
-aliases:
-- 双三角三阶六变
-- 双三角六种落地场景
-- 一个引擎
-- 一堂双三角
 tags:
-aliases:
-  - 一行双三角三阶六变
-  - 三阶六变
-  - 三角三阶六变
-  - 双三角三阶六变
-aliases:
-  - 一行双三角三阶六变
-  - 三角三阶六变
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 ---
-
 # 一行双三角三阶六变
 
 > **一句话定义**：同一个双三角科学内核，可以装进六种不同的使用形态：X光、心法、画布、拼图、地图、底牌。它们按「入门基础 → 进阶使用 → 高阶修炼」三阶逐级升级。

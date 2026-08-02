@@ -9,28 +9,18 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- decision-science
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 启动前的环境扫描
+  - 项目背景分析
+  - 项目背景分析：启动前的环境扫描
 source_refs:
-- src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- concept-X型Y型决策习惯
-- concept-发现决策
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - 项目背景分析：启动前的环境扫描
-  - 项目背景分析
-  - 启动前的环境扫描
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 ---
 # 项目背景分析：启动前的环境扫描
 

@@ -7,64 +7,38 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
 quality_labels:
-- principle
-- validated
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- research- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown调研
-- src_unknown
-- src_unknown
-- src_unknown
+aliases:
+  - 7天快速建立行业认知
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 业报告调研
+  - 报告调研四步法
+  - 步法行业认知
+  - 行业报告调研四步法
+  - 行业报告调研四步法：7天快速建立行业认知
+  - 行业认知
+  - 行业调研法
 source_refs:
-- 00_inbox/调研专题/Doris-行业报告调研-口述.txt
-- 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
 discoverable_by:
   - "行业报告调研"
   - "四步法行业认知"
   - "7天建立行业认知"
   - "Doris行业调研法"
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[framework-yitang-expert-interview-10steps]]'
 tags:
-aliases:
-  - 行业报告调研四步法：7天快速建立行业认知
-  - 行业报告调研四步法
-  - 7天快速建立行业认知
-  - 报告调研四步法
-  - 行业认知
-  - 业报告调研
-aliases:
-  - 行业报告调研四步法：7天快速建立行业认知
-  - 行业报告调研四步法
-  - 7天快速建立行业认知
-  - 业报告调研
-  - 行业调研法
-  - 步法行业认知
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 aliases: []
 ---
-
 # 行业报告调研四步法：7天快速建立行业认知
 
 > **一句话**：80%的创业者浪费大量时间和金钱找信息，而这些信息往往能在行业报告中找到。四步法帮你用7天建立完整行业认知，成本不到一次专家访谈的1/10。

@@ -6,47 +6,29 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 商业项目AI模型选型决策
+  - 技能
+  - 技能：商业项目AI模型选型决策
+  - 月白
 source_refs:
-- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-工厂对接信息清单制作]]'
-- '[[tool-月白-小红书双重搜索法]]'
-- '[[tool-月白-新手设计师基本功训练法]]'
-- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
-- '[[tool-月白-文创材质成本调研与精益选择]]'
-- '[[tool-月白-AI一句话改图尺寸]]'
-- '[[tool-月白-AI去文字-稿定设计快速出图法]]'
-- '[[tool-月白-供应商信息对齐清单法]]'
-- '[[tool-月白-包材工艺参数核对法]]'
-- '[[tool-月白-基于需求拆解找设计参考]]'
-- '[[tool-月白-手机外设计逻辑切换法]]'
-- '[[tool-月白-设计项目里程碑拆解法]]'
 tags:
-aliases:
-  - 技能：商业项目AI模型选型决策
-  - 技能
-  - 商业项目AI模型选型决策
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
-
 # 技能：商业项目AI模型选型决策
 
 ## 原始表述

@@ -14,6 +14,9 @@ updated_at: 2026-07-07
 domain:
 - yitang
 - management
+aliases:
+  - signal: 复盘会开了6小时，结束时大家面面相觑——"所以呢？我们学到了什么？
+  - 项目复盘关键成果画布
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 192810_vlm_desc.md
 - 00_inbox/管项目/批注 2026-07-07 192859_vlm_desc.md
@@ -28,22 +31,10 @@ related:
 - "[[tool-yitang-project-breakdown-cheatsheet]]"
 - "[[yt-management-basic-skills]]"
 diagnostic_signals:
-aliases:
-  - 项目复盘关键成果画布
-- signal: 复盘会开了6小时，结束时大家面面相觑——"所以呢？我们学到了什么？"
-  lens: 缺画布沉淀——讨论热烈但没有把认知结构化地"拉走"
-  follow-up: 复盘会最后30分钟强制用本画布产出一页纸，不填满不散会
-- signal: 上次复盘产出的行动计划3个月后没人记得——文档躺在文件夹吃灰
-  lens: 缺可视化载体——纯文字纪要不易传播和review
-  follow-up: 复盘画布打印贴在工位或截图发飞书群，下周周会第一项review画布上的行动计划
-- signal: 老板说"复盘太花时间了，口头说说就行"
-  lens: 把复盘和填画布割裂了——填画布本身就是复盘的过程
-  follow-up: 画布不是"额外的文书工作"，它就是复盘会的白板——边讨论边填
 quality_labels:
 - actionable
 - template
 ---
-
 # 项目复盘关键成果画布
 
 > **一句话**：项目复盘"挖到的金矿"一页纸拉走。按十六字原则（成败认定→场景还原→得失分析→总结提炼）走完复盘会后，把核心共识、行动计划和过程资产填入本画布——可打印、可截图、可发飞书。

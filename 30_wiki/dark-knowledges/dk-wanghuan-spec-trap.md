@@ -5,14 +5,8 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
 created_at: '2026-06-19'
 quality_labels:
-- cited
-- quality
-- validated
 updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -20,53 +14,30 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）中的 harness 流程与销售策略案例
+aliases:
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 上限
+  - 王欢
+  - 王欢暗知识
+  - 王欢暗知识：Spec陷阱过度拆解会锁死AI上限
+  - 的七个阶段
+  - 示意图
+  - 过度拆解会锁死
+  - 陷阱
 source_refs:
-- 10_raw/sources/src_20260619_1ffb2cef_wanghuan_harness的七个阶段_示意图.md
-- 10_raw/sources/src_20260619_2b457485_wanghuan_harness的七个阶段_示意图_ocr.md
-- 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
-- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 diagnostic_signals:
-- signal: src_unknown
-  lens: over-specification
-  follow_up: 把 spec 拆成"方向 + 约束 + 验收"，删掉具体执行步骤
-- signal: src_unknown
-  lens: implicit-freeze
-  follow_up: 在文档里显式标注"哪些不能改"，而不是"哪些必须按我说的做"
-- signal: src_unknown
-  lens: means-ends-confusion
-  follow_up: 把验收标准前置，执行路径交给 AI 探索
+lens: over-specification
+follow_up: 把 spec 拆成"方向 + 约束 + 验收"，删掉具体执行步骤
+lens: implicit-freeze
+follow_up: 在文档里显式标注"哪些不能改"，而不是"哪些必须按我说的做"
+lens: means-ends-confusion
+follow_up: 把验收标准前置，执行路径交给 AI 探索
 related:
-- '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
-- '[[dk-wanghuan-paced-sales-decision]]'
-- '[[dk-wanghuan-agent-platform-director-mode]]'
-- '[[yt-five-step-method]]'
-- '[[dk-tool-as-phased-validator]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[yitang-domain-digest]]'
 tags:
-aliases:
-  - 王欢暗知识：Spec陷阱过度拆解会锁死AI上限
-  - 王欢暗知识
-  - 陷阱
-  - 过度拆解会锁死
-  - 上限
-  - 王欢
-aliases:
-  - 王欢暗知识：Spec陷阱过度拆解会锁死AI上限
-  - 王欢暗知识
-  - 陷阱
-  - 过度拆解会锁死
-  - 上限
-  - 王欢
-- audience:executor
-- scene:reference
-- skill-level:intermediate
 review_date: '2026-06-28'
-aliases:
-- 的七个阶段
-- 示意图
 ---
-
 # 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
 
 > **Burn line**：导演的工作不是写满每一步，而是说清方向、划好红线、验收结果。

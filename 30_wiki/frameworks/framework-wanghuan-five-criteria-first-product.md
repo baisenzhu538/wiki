@@ -9,56 +9,30 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 一个产品五条标准
+  - 一个产品场景的五条标准
+  - 欢第一个产品五条标准
+  - 王欢
+  - 王欢：选第一个产品场景的五条标准
+  - 选第一个产品场景的五条标准
 source_refs:
-- src_unknown
-- src_unknown
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 diagnostic_signals:
-- lens: 伪需求 / 非真实痛点
-  follow_up: 用“我自己每周都头疼吗”重验，要求提出者提供自己的使用场景
-- lens: 低频陷阱
-  follow_up: 把大任务拆细，找其中每周都在发生的子任务
-- lens: 场景过于模糊或过大
-  follow_up: 用“我做了一个__，它帮__在__场景下，把__变成__”句式强制压缩
-- lens: 下周测试失败
-  follow_up: 设定一周后的使用复盘，若无人使用则回任务层重验
+follow_up: 用“我自己每周都头疼吗”重验，要求提出者提供自己的使用场景
+follow_up: 把大任务拆细，找其中每周都在发生的子任务
+follow_up: 用“我做了一个__，它帮__在__场景下，把__变成__”句式强制压缩
+follow_up: 设定一周后的使用复盘，若无人使用则回任务层重验
 related:
 discoverable_by:
   - "王欢第一个产品五条标准"
-- '[[case-wanghuan-yiyu-qingji-medical-notes]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 tags:
-aliases:
-  - 王欢：选第一个产品场景的五条标准
-  - 王欢
-  - 选第一个产品场景的五条标准
-  - 欢第一个产品五条标准
-  - 一个产品五条标准
-  - 一个产品场景的五条标准
-aliases:
-  - 王欢：选第一个产品场景的五条标准
-  - 王欢
-  - 选第一个产品场景的五条标准
-  - 欢第一个产品五条标准
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 ---
-
 # 王欢：选第一个产品场景的五条标准
 
 > **Burn line**: 最好的选题，往往是你一看菜单就说“上面没有我要的，但我知道我要做什么”。

@@ -11,54 +11,23 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- ai-native
-- management
-- ai-collaboration
-source_refs:
-- 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
-- 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
-- pending_archive:Ivan Zhao（Notion），《Steam, Steel and Infinite Minds: AI》，notion.com/blog/steam-steel-and-infinite-minds-ai
-- pending_archive:Jack Dorsey / Block，《From Hierarchy to Intelligence》（2026-03）
-- pending_archive:闲庭落木（公众号），《开放问题由人驱动，封闭问题由 AI 驱动》（待验证观点）
-- pending_archive:Pete Koomen（YC），《Inside YC's AI Playbook》，ycombinator.com/library/Qh-inside-yc-s-ai-playbook
-quality_labels:
-- insight
-- principle
-- actionable
-related:
 aliases:
+  - AI 原生组织双形态
+  - AI 控制台
   - AI原生组织的两种形态：AI控制台vsAgent平台
+  - Agent 平台
+  - 原生组织
   - 原生组织的两种形态
-  - 控制台
   - 平台
+  - 控制台
   - 组织的两种形态
-  - 原生组织
-aliases:
-  - AI原生组织的两种形态：AI控制台vsAgent平台
-  - 原生组织的两种形态
-  - 控制台
-  - 平台
-  - 原生组织
+source_refs:
+quality_labels:
+related:
 discoverable_by:
   - "AI原生组织"
   - "AI控制台vs Agent平台"
-- "[[tool-open-closed-problem-classifier]]"
-- "[[concept-ai-native-organization-five-steps]]"
-- "[[concept-yihang-human-in-the-loop-dual-triangle]]"
-- "[[concept-token-capital]]"
-- "[[dk-ai-builder-illusion]]"
-- "[[concept-jevons-paradox-in-ai]]"
-- "[[agent-spec-codex-teammate]]"
-- "[[framework-taste-as-judgment-system]]"
-- "[[concept-AI时代双三角竞争力]]"
-- "[[tool-Truman-人在环渐进自动化策略]]"
-- "[[yt-decision-y-model]]"
-aliases:
-- AI 原生组织双形态
-- AI 控制台
-- Agent 平台
 ---
-
 # AI 原生组织的两种形态：AI 控制台 vs Agent 平台
 
 > **Burn line**: 不是每家公司都要变成同一种 AI 原生组织。开放问题多的组织需要「AI 控制台」保护人的心流；封闭问题多的组织需要「Agent 平台」实现工业化。真正的 AI 原生是按需组合这两种形态。

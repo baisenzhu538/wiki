@@ -6,58 +6,29 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+aliases:
+  - AIGC橱窗陈列设计流程
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：AIGC橱窗陈列设计流程
+  - 月白
 source_refs:
-- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-多窗口并行工作法]]'
-- '[[tool-月白-餐饮海报AB测试法]]'
-- '[[tool-月白-眼高手低训练法]]'
-- '[[tool-月白-线下门店设计复杂度评估]]'
-- '[[tool-月白-控制产品画面尺寸比例]]'
-- '[[tool-月白-AI图片印刷落地预处理]]'
-- '[[tool-月白-AI图片去文字处理]]'
-- '[[tool-月白-AI图片风格逆向提取（抄图法）]]'
-- '[[tool-月白-AI归纳共性描述法]]'
-- '[[tool-月白-AI改图指令精细化]]'
-- '[[tool-月白-AI精准替换产品技巧]]'
-- '[[tool-月白-PS图层规范管理]]'
-- '[[tool-月白-价格带视觉策略匹配]]'
-- '[[tool-月白-卖点可视化海报设计法]]'
-- '[[tool-月白-官方提示词最佳实践迁移]]'
-- '[[tool-月白-替换大法改图]]'
-- '[[tool-月白-服务体验类去AI感设计]]'
-- '[[tool-月白-未知领域审美建构法]]'
-- '[[tool-月白-电商白底图生成与场景图匹配]]'
-- '[[tool-月白-视角替换专用提示法]]'
-- '[[tool-月白-设计素材脱敏处理规范]]'
-- '[[tool-月白-设计项目MVP拆解法]]'
-- '[[tool-月白-风格不变局部调整]]'
 tags:
-aliases:
-  - 技能：AIGC橱窗陈列设计流程
-  - 技能
-  - AIGC橱窗陈列设计流程
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
-
 # 技能：AIGC橱窗陈列设计流程
 
 ## 原始表述

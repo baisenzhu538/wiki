@@ -11,40 +11,27 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain: strategy
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 冉鹏战略五基本功5C
+  - 冉鹏战略五基本功5C：定式/洞察/布局/体系/变革
+  - 功战略
+  - 基本功战略
+  - 定式/洞察/布局/体系/变革
+  - 式洞察布局体系变革
+  - 战略框架
+  - 鹏五基本功
 source_refs:
-- src_unknown
 related:
 discoverable_by:
   - "冉鹏五基本功"
   - "5C战略框架"
   - "定式洞察布局体系变革"
   - "五基本功战略"
-- '[[strategy-domain-digest]]'
-- '[[tool-mece体系框架法]]'
-- '[[一堂方法论体系总图]]'
-- '[[tool-敏捷发布快速迭代搭建体系]]'
-- '[[tool-马易-销售智能体体系搭建路径]]'
-- '[[tool-体系框架构建]]'
-- tool-strategy-pareto
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - 冉鹏战略五基本功5C：定式/洞察/布局/体系/变革
-  - 冉鹏战略五基本功5C
-  - 定式/洞察/布局/体系/变革
-  - 鹏五基本功
-  - 功战略
-  - 式洞察布局体系变革
-aliases:
-  - 冉鹏战略五基本功5C：定式/洞察/布局/体系/变革
-  - 冉鹏战略五基本功5C
-  - 定式/洞察/布局/体系/变革
-  - 鹏五基本功
-  - 战略框架
-  - 基本功战略
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 ---
 # 战略五基本功（5C）
 

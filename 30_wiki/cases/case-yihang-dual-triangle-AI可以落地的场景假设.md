@@ -9,31 +9,22 @@ updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
 domain:
-- ai-collaboration
-- yitang
-source_refs:
-- 00_inbox/人机协作双三角/_processed/AI可以落地的场景假设_vlm.md
-tags:
 aliases:
-  - AI可以落地的场景假设双三角案例
+  - #domain/ai-collaboration
+  - #method/dual-triangle
   - AI可以落地的场景假设
+  - AI可以落地的场景假设双三角案例
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 人机协作双三角
   - 双三角案例
-  - 角案例
   - 可以落地的场景假设
   - 可以落地的场景假设双三角案例
-aliases:
-  - AI可以落地的场景假设双三角案例
-  - AI可以落地的场景假设
-  - 双三角案例
-- '#domain/ai-collaboration'
-- '#method/dual-triangle'
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - 角案例
+source_refs:
+tags:
 reviewed_by: pending
-aliases:
-- 人机协作双三角
-- 可以落地的场景假设
 ---
 # AI可以落地的场景假设
 

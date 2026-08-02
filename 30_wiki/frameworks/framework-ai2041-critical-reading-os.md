@@ -9,46 +9,25 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+aliases:
+  - AI2041批判性认知操作系统
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 判性认知
+  - 性认知操作系统
+  - 批判性认知操作系统
 source_refs:
-- 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
-- 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
-- 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
 discoverable_by:
   - "AI2041阅读"
   - "批判性认知OS"
-- '[[framework-wanghuan-harness-seven-stages]]'
-- '[[framework-wanghuan-ooda-loop]]'
-- '[[framework-wanghuan-gan-three-roles]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[tool-ai-critical-reading-three-layers]]'
-- '[[tool-ai2041-source-verification-checklist]]'
-- '[[framework-ai-deconstruction-methodology]]'
 quality_labels:
-- cited
-- principle
-- validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
 tags:
-aliases:
-  - AI2041批判性认知操作系统
-  - 批判性认知操作系统
-  - 性认知操作系统
-  - 判性认知
-aliases:
-  - AI2041批判性认知操作系统
-  - 批判性认知操作系统
-  - 判性认知
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 aliases: []
 ---
-
 # AI 2041 批判性认知操作系统
 
 > **Burn line**：面对任何关于 AI 的预测，不要先问“它会实现吗”，要问“它实现之后，具体哪个人在哪个岔路口还能做什么选择”。

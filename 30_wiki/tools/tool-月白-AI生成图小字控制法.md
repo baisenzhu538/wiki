@@ -6,45 +6,29 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+aliases:
+  - AI生成图小字控制法
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：AI生成图小字控制法
+  - 月白
 source_refs:
-- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-工厂对接信息清单制作]]'
-- '[[tool-月白-小红书双重搜索法]]'
-- '[[tool-月白-新手设计师基本功训练法]]'
-- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
-- '[[tool-月白-文创材质成本调研与精益选择]]'
-- '[[tool-月白-包材工艺参数核对法]]'
-- '[[tool-月白-电商详情页起承转合架构法]]'
-- '[[tool-月白-短视频封面-音量战争-设计法]]'
-- '[[tool-月白-纳米级抄大师训练法]]'
-- '[[tool-月白-里程碑思维-找对标优先于做设计]]'
 tags:
-aliases:
-  - 技能：AI生成图小字控制法
-  - 技能
-  - AI生成图小字控制法
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
-
 # 技能：AI生成图小字控制法
 
 ## 原始表述

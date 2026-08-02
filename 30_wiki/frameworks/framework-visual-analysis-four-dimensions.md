@@ -6,51 +6,30 @@ status: draft
 confidence: 0.9
 trust_level: high
 domain:
-- multimodal
-- methodology
-- visual-analysis
 author: 黄药师
 reviewed_by: 待审
 created_at: '2026-07-21'
 updated_at: '2026-07-21'
 quality_labels:
-- actionable
-- principle
+aliases:
+  - VA四维法从图片到结构化视觉分析的通用方法论
+  - audience:ceo
+  - capabilities
+  - outputs
+  - scene:diagnosis
+  - skill-level:advanced
+  - 从图片到结构化视觉分析的通用方法论
+  - 四维法
+  - 析通用方法
+  - 片到结构化视觉分析的通用方法论
+  - 觉分析通用方法
 source_refs:
-- 40_outputs/capabilities/role-profiles/hongqigong-profile.md
-- 70_product/tasks/task-20260528-hongqigong-unit-model-va-and-articles.md
-- 70_product/tasks/task-20260528-hongqigong-pitch-domain-va.md
-- 70_product/tasks/task-20260523-hongqigong-va-and-articles.md
-- 30_wiki/agent-specs/agent-spec-hongqigong-multimodal.md
 related:
 discoverable_by:
   - "VA四维法"
   - "视觉分析通用方法"
-- agent-spec-hongqigong-multimodal
-- beikai-multimodal-pipeline
-- vlm-image-describe-pipeline
-- framework-kdo-modeling-methodology
 tags:
-aliases:
-  - VA四维法从图片到结构化视觉分析的通用方法论
-  - 四维法
-  - 从图片到结构化视觉分析的通用方法论
-  - 析通用方法
-  - 觉分析通用方法
-  - 片到结构化视觉分析的通用方法论
-aliases:
-  - VA四维法从图片到结构化视觉分析的通用方法论
-  - 四维法
-  - 从图片到结构化视觉分析的通用方法论
-  - 觉分析通用方法
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- capabilities
-- outputs
 ---
-
 # VA 四维法——从图片到结构化视觉分析的通用方法论
 
 > **一句话**：任何图片/图表/信息图都可以拆成四个维度来分析——空间层级、分组逻辑、阅读路径、视觉强调。四维全过才算分析完成。不用颜色做唯一区分。

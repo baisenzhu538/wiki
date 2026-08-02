@@ -6,45 +6,29 @@ dark_knowledge_type: failure
 status: reviewed
 source_person: 李善友 / 一堂课程设计
 source_context: 一堂底层逻辑域·Y模型课程（2026-07-03）
+aliases:
+  - Y模型常见六大陷阱与反打
+  - case-yitang-Y-model-advertising-turnaround
+  - case-yitang-Y-model-seven-applications
+  - concept-X型Y型决策习惯
+  - framework-kdo-self-attack
+  - master-decision-hygiene
+  - tool-yitang-Y-model-application
+  - yt-decision-y-model
+  - 一堂课程设计
+  - 七人逐步骤对标分析
+  - 型常见六大陷阱与反打
+  - 李善友 / 一堂课程设计
 source_refs:
-- 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
-- 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt
-- 00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md
-- 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
 domain:
-- yitang
 tags:
-- '#epistemic-foundations'
-- '#decision-science'
-- '#Y-model'
-- '#pitfall'
-- audience:executor
-- scene:reference
-- skill-level:advanced
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋
 related:
-aliases:
-  - Y模型常见六大陷阱与反打
-  - 李善友 / 一堂课程设计
-  - 一堂课程设计
-  - 型常见六大陷阱与反打
-aliases:
-  - Y模型常见六大陷阱与反打
-  - 李善友 / 一堂课程设计
-- yt-decision-y-model
-- tool-yitang-Y-model-application
-- case-yitang-Y-model-advertising-turnaround
-- case-yitang-Y-model-seven-applications
-- master-decision-hygiene
-- concept-X型Y型决策习惯
-- framework-kdo-self-attack
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 author: 老顽童
-aliases:
-- 七人逐步骤对标分析
 ---
 # Y模型常见六大陷阱与反打
 

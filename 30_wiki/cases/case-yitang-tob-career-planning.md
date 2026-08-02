@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-tob-career-planning
 title: 案例：新高考选科与生涯规划项目失败复盘
 type: case
@@ -9,6 +8,12 @@ domain:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - framework_lens: 业务天花板 / [[yt-tob-revenue-is-customer-cost]]
+  - 新高考选科与生涯规划项目失败复盘
+  - 案例
+  - 案例：新高考选科与生涯规划项目失败复盘
+  - 考选科与生涯规划项目失败复盘
 source_refs:
 - pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 - pending_archive:src_20260616_18764078-yitang-tob-five-step-19-images-ocr
@@ -34,25 +39,8 @@ related:
   - "[[yt-tob-product-kernel]]"
   - "[[yt-tob-customer-sabc]]"
 diagnostic_signals:
-aliases:
-  - 案例：新高考选科与生涯规划项目失败复盘
-  - 案例
-  - 新高考选科与生涯规划项目失败复盘
-  - 考选科与生涯规划项目失败复盘
-aliases:
-  - 案例：新高考选科与生涯规划项目失败复盘
-  - 案例
-  - 新高考选科与生涯规划项目失败复盘
-- framework_lens: 业务天花板 / [[yt-tob-revenue-is-customer-cost]]
-  follow_up_question: 这 100 亿中，有多少来自学校真实预算？可触达的头部学校有多少家？单校专项成本与成本占有率分别是多少？
-- framework_lens: 客户切分与商业模式 / [[yt-tob-customer-sabc]]
-  follow_up_question: 在现金流耗尽前，哪一端能先跑通单销售模型？toB/toC 各自的获客、交付、回款周期分别是多少？
 - framework_lens: 成本占有率 / [[yt-tob-demand-metrics]]
-  - "[[case-yitang-tob-grinding-machine]]"
-  follow_up_question: 这项支出在副校长政绩指标和主要任务中排第几？没有上级立项和验收压力时，学校是否仍愿自费采购？
-
 ---
-
 > 来源：一堂 ToB 五步法优秀作业合集，学员董程滨自述。案例中的市场规模和财务数字为学员自述，需独立核实关键数据。
 
 ---

@@ -3,37 +3,22 @@ id: tool-ci-define-phase
 title: CI Define 阶段工具：决策驱动的问题定义
 type: tool
 domain:
-- research
-- strategy
 tags:
-- CI
-- Define阶段
-- KITs
-- KIQs
-- 决策驱动提问
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 source_person: Truman（一堂）+ Competitive Intelligence Alliance
 source_context: CI Operating Model Define 阶段工具化实现
-source_refs:
-- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
-- https://blog.bestbootcamps.com/competitive-intelligence-framework/
-related:
 aliases:
   - CIDefine阶段工具：决策驱动的问题定义
-  - 阶段工具
-  - 决策驱动的问题定义
   - Truman（一堂）+ Competitive Intelligence Alliance
+  - [[framework-yitang-18-strategy-cards]]
+  - [[framework-yitang-research-weapon-system]]
+  - [[tool-ci-implement-phase]]
+  - 三个新盲区
+  - 决策驱动的问题定义
+  - 外部知识探索
+  - 阶段工具
   - 驱动的问题定义
-aliases:
-  - CIDefine阶段工具：决策驱动的问题定义
-  - 阶段工具
-  - 决策驱动的问题定义
-  - Truman（一堂）+ Competitive Intelligence Alliance
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[framework-yitang-research-weapon-system]]'
-- '[[tool-ci-implement-phase]]'
+source_refs:
+related:
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
@@ -41,11 +26,7 @@ created_at: '2026-06-28'
 updated_at: '2026-06-29'
 confidence: 0.78
 trust_level: medium
-aliases:
-- 三个新盲区
-- 外部知识探索
 ---
-
 # CI Define 阶段工具：决策驱动的问题定义
 
 ## 原始表述

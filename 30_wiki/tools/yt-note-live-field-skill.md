@@ -19,6 +19,13 @@ related:
 prerequisites:
 - src_unknown
 - src_unknown
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 从到场到驱动行动的实战手册
+  - 现场笔记完成度五步法
+  - 现场笔记完成度五步法：从到场到驱动行动的实战手册
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
@@ -33,27 +40,6 @@ query_triggers:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-tags:
-aliases:
-  - 现场笔记完成度五步法：从到场到驱动行动的实战手册
-  - 现场笔记完成度五步法
-  - 从到场到驱动行动的实战手册
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 created_at: '2026-06-07'
 updated_at: '2026-06-18'
 estimated_tokens: 4500
@@ -64,7 +50,6 @@ aliases:
 - 时代清单体笔记
 - 时代请单体笔记
 ---
-
 # 现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心洞察：**现场笔记不是“记了多少”，而是“记完后能驱动多少行动”**。完成度是现场笔记的唯一度量标准。暗知识：**“如厕大法”——在信息过载的现场，主动放空大脑，才能看到真正的结构**。

@@ -6,65 +6,29 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：控制产品画面尺寸比例
+  - 控制产品画面尺寸比例
+  - 月白
 source_refs:
-- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-29'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-多窗口并行工作法]]'
-- '[[tool-月白-竞品图精益替换法]]'
-- '[[tool-月白-餐饮海报AB测试法]]'
-- '[[tool-月白-眼高手低训练法]]'
-- '[[tool-月白-线下门店设计复杂度评估]]'
-- '[[tool-月白-AIGC橱窗陈列设计流程]]'
-- '[[tool-月白-AI图片去文字处理]]'
-- '[[tool-月白-AI归纳共性描述法]]'
-- '[[tool-月白-AI改图指令精细化]]'
-- '[[tool-月白-Token智甲比控制法]]'
-- '[[tool-月白-分步迭代改图法]]'
-- '[[tool-月白-创作与执行双模式切换]]'
-- '[[tool-月白-卖点可视化海报设计法]]'
-- '[[tool-月白-官方提示词最佳实践迁移]]'
-- '[[tool-月白-强约束画面尺寸比例]]'
-- '[[tool-月白-手绘草稿AI转化工作流]]'
-- '[[tool-月白-批量生成多视角素材]]'
-- '[[tool-月白-文件命名与图层命名规范]]'
-- '[[tool-月白-智能扩图-拓图双方案]]'
-- '[[tool-月白-未知领域审美建构法]]'
-- '[[tool-月白-泛产品设计能力迁移法]]'
-- '[[tool-月白-灵感画布建立法]]'
-- '[[tool-月白-烧Token快速积累体感]]'
-- '[[tool-月白-电商白底图生成与场景图匹配]]'
-- '[[tool-月白-设计素材脱敏处理规范]]'
-- '[[tool-月白-设计能力蒸馏封装法]]'
-- '[[tool-月白-设计需求口头化表达法]]'
-- '[[tool-月白-设计项目MVP拆解法]]'
-- '[[tool-月白-醒图人脸精修法]]'
-- tool-yitang-reverse-data-analysis
 tags:
-aliases:
-  - 技能：控制产品画面尺寸比例
-  - 技能
-  - 控制产品画面尺寸比例
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
-
 # 技能：控制产品画面尺寸比例
 
 ## 原始表述

@@ -6,40 +6,28 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 包材工艺参数核对法
+  - 技能
+  - 技能：包材工艺参数核对法
+  - 月白
 source_refs:
-- src_unknown
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-口喷作图工作流]]'
-- '[[tool-月白-AI生成图小字控制法]]'
-- '[[tool-月白-AI自动生成多语种专业名词提示词]]'
-- '[[tool-月白-商业项目AI模型选型决策]]'
-- '[[tool-月白-AI工艺图人工复核法]]'
-- '[[tool-月白-RGB转CMYK色彩校准法]]'
 tags:
-aliases:
-  - 技能：包材工艺参数核对法
-  - 技能
-  - 包材工艺参数核对法
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
 # 技能：包材工艺参数核对法
 

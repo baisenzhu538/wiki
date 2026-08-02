@@ -9,27 +9,17 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- decision-science
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 按价值和行为细分用户群
+  - 用户分层
+  - 用户分层：按价值和行为细分用户群
 source_refs:
-- src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- concept-X型Y型决策习惯
-- concept-发现决策
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - 用户分层：按价值和行为细分用户群
-  - 用户分层
-  - 按价值和行为细分用户群
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 ---
 # 用户分层：按价值和行为细分用户群
 

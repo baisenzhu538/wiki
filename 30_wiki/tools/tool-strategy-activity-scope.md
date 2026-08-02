@@ -1,54 +1,30 @@
 ---
 id: tool-strategy-activity-scope
 title: 活动范围设计工具：What × How × Where 三问
-aliases:
-- src_unknown
-- src_unknown
-- 冉鹏PPT截图
-- 引擎点火
 type: tool
 status: reviewed
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- operations
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 三问
+  - 冉鹏PPT截图
+  - 引擎点火
+  - 活动范围设计工具
+  - 活动范围设计工具：What×How×Where三问
+  - 范围设计工具
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_vlm_desc.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_vlm_desc.md
 quality_labels:
-- actionable
-- validated
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[tool-strategy-value-capture]]'
-- framework-five-step-lean-interface
-- tool-red-team-analysis
 tags:
-aliases:
-  - 活动范围设计工具：What×How×Where三问
-  - 活动范围设计工具
-  - 三问
-  - 范围设计工具
-aliases:
-  - 活动范围设计工具：What×How×Where三问
-  - 活动范围设计工具
-  - 三问
-- audience:executor
-- scene:execution
-- skill-level:advanced
 ---
-
 # 活动范围设计工具：What × How × Where 三问
 
 > 业务设计六要素第 4 要素。核心问题：**我们在价值链上做哪些事、不做哪些事？经营边界和角色是什么？**

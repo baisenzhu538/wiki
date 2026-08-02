@@ -6,11 +6,21 @@ status: reviewed
 confidence: 0.88
 trust_level: high
 domain:
-- strategy
-- innovation
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 冉鹏PPT截图
+  - 凯纳创新方向分类框架
+  - 创新方向分类框架
+  - 向分类
+  - 引擎点火
+  - 径框架
+  - 新方向
+  - 新方向分类
+  - 新路径框架
+  - 纳创新方向
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_90_vlm_desc.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_90_ocr_text.md
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
@@ -20,36 +30,8 @@ discoverable_by:
   - "凯纳创新方向"
   - "创新方向分类"
   - "创新路径框架"
-- '[[strategy-domain-digest]]'
-- '[[tool-mece体系框架法]]'
-- '[[tool-使用一页纸速查卡快速调用框架]]'
-- '[[tool-月白-PPT内容框架AIGC生成法]]'
-- '[[tool-体系框架构建]]'
-- '[[tool-月白-AI设计-质价比-决策框架]]'
-- '[[framework-yitang-six-layer-cross-validation]]'
-- concept-yitang-research-objective
-- tool-yitang-research-exhaust-means
 tags:
-aliases:
-  - 凯纳创新方向分类框架
-  - 纳创新方向
-  - 新方向
-  - 向分类
-  - 创新方向分类框架
-  - 径框架
-aliases:
-  - 凯纳创新方向分类框架
-  - 新路径框架
-  - 纳创新方向
-  - 新方向分类
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 冉鹏PPT截图
-- 引擎点火
 ---
-
 # 凯纳创新方向分类框架
 
 > 企业创新不是一句口号，而是发生在三个不同层面的系统性工程。凯纳咨询将该框架用于帮助企业识别创新切入点：产品/服务与市场创新、业务模式创新、运营创新。

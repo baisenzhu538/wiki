@@ -12,50 +12,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 二维定位 差异化竞争 找到空白坐标
-- 差异化维度 用户需求 竞品弱点 技术能力 资源禀赋
-- 定位可行性验证 需求验证 能力验证 竞争验证 盈利验证
-- 定位强化策略 产品差异化 服务差异化 品牌差异化
-- 定位失败模式 维度选择不当 定位不可行 定位不独特
-- 竞品坐标 定位策略 如何找到竞品未覆盖的差异化位置
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[yitang-research-domain-digest]]'
-- '[[tool-yitang-research-competitive-quadrant]]'
-- '[[tool-yitang-research-cross-validation]]'
-- '[[tool-yitang-research-single-point-sniper]]'
-- '[[tool-yitang-research-follow-map]]'
-- '[[framework-yitang-oscar-research]]'
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[tool-yitang-research-competitive-quadrant]]'
-- '[[tool-yitang-research-follow-map]]'
-- '[[yt-research-competitor-toolkit]]'
-- '[[case-yitang-sanjieke-benchmark-failure]]'
-- '[[dk-yitang-research-starter-vs-veteran]]'
-- '[[dk-yitang-research-ai-hallucination]]'
-- '[[concept-yitang-research-mindset]]'
-- '[[tool-yitang-product-full-experience]]'
-- '[[tool-yitang-research-deep-attribution]]'
-- '[[tool-yitang-reverse-data-analysis]]'
-tags:
 aliases:
-  - 二维定位：找到差异化竞争的坐标
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 二维定位
+  - 二维定位：找到差异化竞争的坐标
   - 找到差异化竞争的坐标
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 二维定位：找到差异化竞争的坐标
 
 > **一句话**：二维定位不是"选择一个位置"，而是"创造一个新位置"。找到两个差异化维度，在竞品未覆盖的坐标上建立优势。

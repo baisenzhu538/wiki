@@ -7,72 +7,37 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
 quality_labels:
-- cited
-- principle
-- validated
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 取情报正确归因
+  - 平执行
+  - 执行方法
+  - 正确归因
+  - 水平执行方法
+  - 获取情报
+  - 高水平执行
+  - 高水平执行AR：获取情报正确归因
 source_refs:
-- 00_inbox/调研专题/系统调研（高水平执行）_vlm_desc.md
-- 00_inbox/调研专题/一堂-系统式调研-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
 discoverable_by:
   - "高水平执行AR"
   - "获取情报正确归因"
   - "高水平执行方法"
-- '[[framework-yitang-oscar-research]]'
-- '[[tool-yitang-research-industry-scan]]'
-- '[[business-research-skill-oscar-13-weapon-system]]'
-- '[[system-yitang-research-workflow]]'
-- '[[tool-yitang-research-validate-assumption]]'
-- '[[framework-yitang-high-level-plan]]'
-- '[[framework-yitang-four-research-types]]'
-- '[[framework-yitang-research-radar]]'
-- '[[yt-research-osl-framework]]'
-- '[[yt-research-intelligence-map]]'
-- '[[concept-yitang-research-facts-first]]'
-- '[[tool-yitang-research-cross-validation]]'
-- '[[tool-yitang-research-quantitative-modeling]]'
-- '[[framework-yitang-expert-interview-10steps]]'
 tags:
-aliases:
-  - 高水平执行AR：获取情报正确归因
-  - 高水平执行
-  - 获取情报
-  - 正确归因
-  - 平执行
-  - 执行方法
-aliases:
-  - 高水平执行AR：获取情报正确归因
-  - 高水平执行
-  - 获取情报
-  - 正确归因
-  - 水平执行方法
-  - 取情报正确归因
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 aliases: []
 ---
-
 # 高水平执行 AR：获取情报·正确归因
 
 > **一句话**：调研的价值不在信息多少，而在信息质量。AR框架强迫你区分"获取"和"归因"：先穷尽手段拿到高质量情报，再用批判性思维验证情报可信度。

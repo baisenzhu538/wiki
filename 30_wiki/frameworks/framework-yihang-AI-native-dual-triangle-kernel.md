@@ -12,40 +12,24 @@ language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
-- ai-collaboration
-- yitang
+aliases:
+  - AI原生是结果，双三角是引擎
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂双三角
+  - 三角是引擎
+  - 人机协作双三角
+  - 原生是结果
+  - 双三角是引擎
+  - 是引擎
+  - 角是引擎
 source_refs:
-- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
 discoverable_by:
   - "双三角是引擎"
-- '[[concept-yihang-dual-triangle-core]]'
-- '[[framework-yitang-y-model-dual-triangle-synergy]]'
-- '[[yt-decision-y-model]]'
-- '[[method-yitang-y-model-engine-cycle]]'
-- '[[dk-ai-collaboration-degradation-spiral]]'
-- '[[framework-yihang-ai-implementation-consultant]]'
 tags:
-aliases:
-  - AI原生是结果，双三角是引擎
-  - 原生是结果
-  - 双三角是引擎
-  - 三角是引擎
-  - 是引擎
-  - 角是引擎
-aliases:
-  - AI原生是结果，双三角是引擎
-  - 原生是结果
-  - 双三角是引擎
-  - 三角是引擎
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 一堂双三角
-- 人机协作双三角
 ---
-
 # AI 原生是结果，双三角是引擎
 
 > **一句话定义**：AI 原生不是喊口号能达到的终局，而是范式迁移后的**结果**。双三角是通往那个结果的科学**引擎**——把它装到业务上，它就带着你往 AI 原生的方向跑。Truman 用五步法的历史做了精确类比：年入千万是结果，五步法是内核；AI 原生是结果，双三角是内核。

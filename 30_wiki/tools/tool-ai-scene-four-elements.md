@@ -4,46 +4,32 @@ title: 技能：AI落地场景四要素评估法
 type: tool
 status: draft
 domain:
-- ai-collaboration
-- yitang- AI
-- 落地
-- 评估
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别-口述，2026-06-06
+aliases:
+  - AI落地场景四要素评估法
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：AI落地场景四要素评估法
+  - 的核心问题
+  - 落地场景四要素评估法
+  - 马易
 source_refs:
-- pending_archive:src_20260606_ef4877d0-所以90的核心问题
-- src_20260606_ef4877d0-所以90的核心问题
 wiki_refs: null
 definition_of_done: null
 tools_required: null
 prerequisite_skills: null
 related:
-- '[[case-live81-ai-trademark-design]]'
-- '[[tool-scene-design-language-translation]]'
 created_at: 2026-06-11
 updated_at: 2026-07-02
 tags:
-aliases:
-  - 技能：AI落地场景四要素评估法
-  - 技能
-  - AI落地场景四要素评估法
-  - 马易
-  - 落地场景四要素评估法
-aliases:
-  - 技能：AI落地场景四要素评估法
-  - 技能
-  - AI落地场景四要素评估法
-  - 马易
-- audience:executor
-- scene:execution
-- skill-level:beginner
 pipeline: null
 reviewed_by: laowantong
 author: unknown
 confidence: 0.7
 trust_level: low
-aliases:
-- 的核心问题
 ---
 # 技能：AI落地场景四要素评估法
 

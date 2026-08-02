@@ -6,41 +6,29 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+aliases:
+  - AI图生图尺寸快速转换
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：AI图生图尺寸快速转换
+  - 月白
 source_refs:
-- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AI图片风格逆向提取（抄图法）]]'
-- '[[tool-月白-最佳实践素材收集法]]'
-- '[[tool-月白-AIGC文字大小精确控制]]'
-- '[[tool-月白-新手设计师基本功训练法]]'
-- '[[tool-月白-AI自动生成多语种专业名词提示词]]'
-- '[[tool-月白-短视频封面-音量战争-设计法]]'
 tags:
-aliases:
-  - 技能：AI图生图尺寸快速转换
-  - 技能
-  - AI图生图尺寸快速转换
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
-
 # 技能：AI图生图尺寸快速转换
 
 ## 原始表述

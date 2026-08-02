@@ -7,65 +7,35 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
 quality_labels:
-- principle
-- validated
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 四类调研模型
+  - 四类调研模型：挖掘式系统式爆炸式自动式
+  - 挖掘式
+  - 爆炸式
+  - 系统式
+  - 自动式
 source_refs:
-- 00_inbox/调研专题/一堂-系统式调研-口述.txt
-- 00_inbox/调研专题/调研全景策略图_vlm_desc.md
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
 discoverable_by:
   - "四类调研模型"
   - "挖掘式系统式爆炸式"
   - "调研方法分类"
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[framework-yitang-high-level-execution]]'
-- '[[framework-yitang-high-level-plan]]'
-- '[[framework-yitang-oscar-research]]'
 tags:
-aliases:
-  - 四类调研模型：挖掘式系统式爆炸式自动式
-  - 四类调研模型
-  - 挖掘式
-  - 系统式
-  - 爆炸式
-  - 自动式
-aliases:
-  - 四类调研模型：挖掘式系统式爆炸式自动式
-  - 四类调研模型
-  - 挖掘式
-  - 系统式
-  - 爆炸式
-  - 自动式
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 aliases: []
 ---
-
 # 四类调研模型：挖掘式·系统式·爆炸式·自动式
 
 > **一句话**：商业调研不是"做不做"的问题，而是"用哪种调研类型、做到什么深度"的匹配问题。四种调研类型分别对应四种商业决策场景，选错类型是调研失效的首要原因。

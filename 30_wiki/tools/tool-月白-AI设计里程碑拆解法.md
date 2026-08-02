@@ -6,40 +6,28 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+aliases:
+  - AI设计里程碑拆解法
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：AI设计里程碑拆解法
+  - 月白
 source_refs:
-- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-29'
 pipeline:
-- src_unknown
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-里程碑思维-找对标优先于做设计]]'
-- '[[tool-月白-里程碑思维拆解设计流程]]'
-- '[[tool-月白-产品白底图标准化制作]]'
-- '[[tool-月白-精准提示词撰写法]]'
-- '[[tool-月白-AI去字-稿定设计加字工作流]]'
-- tool-yitang-research-deep-attribution
 tags:
-aliases:
-  - 技能：AI设计里程碑拆解法
-  - 技能
-  - AI设计里程碑拆解法
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
 # 技能：AI设计里程碑拆解法
 

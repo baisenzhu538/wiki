@@ -3,7 +3,6 @@ id: framework-founder-ip-three-positioning
 title: 创始人 IP 三定位模型
 type: framework
 domain:
-- content-production
 status: reviewed
 confidence: 0.85
 difficulty: intermediate
@@ -13,61 +12,32 @@ updated_at: '2026-06-30T15:23:37+00:00'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-30'
-source_refs:
-- 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
-query_triggers:
-- 创始人 IP 怎么做
-- 商业定位内容定位人设定位
-- 网红和创始人 IP 有什么区别
-- 用户为什么信你
 aliases:
-- founder-ip-three-positioning
-- 创始人 IP 三定位
-- IP 三定位模型
-- study
-- 大馨战队
-tags:
-- '#scene/business-analysis'
-- content-production
-- founder-ip
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-quality_labels:
-- principle
-- validated
-related:
-aliases:
-  - 创始人IP三定位模型
-  - 创始人
+  - IP 三定位模型
+  - founder-ip-three-positioning
+  - study
   - 三定位模型
   - 位模型
-  - 定位模型
-  - 品牌定位
-aliases:
-  - 创始人IP三定位模型
   - 创始人
-  - 三定位模型
+  - 创始人 IP 三定位
+  - 创始人IP三定位模型
+  - 品牌定位
+  - 大馨战队
   - 始人品牌定位
-  - 怎么定位
   - 定位模型
+  - 怎么定位
+source_refs:
+query_triggers:
+tags:
+quality_labels:
+related:
 discoverable_by:
   - "创始人IP定位"
   - "三定位模型"
   - "个人IP怎么定位"
   - "创始人品牌定位"
-- '[[framework-brand-three-degree]]'
-- '[[framework-content-business-six-step]]'
-- '[[tool-shortvideo-six-dimension-deconstruction]]'
-- '[[case-daxin-team-content-training-camp]]'
-- '[[case-yitang-goat-milk-channel-partnership]]'
-- '[[system-kdo-quality-labels]]'
-- '[[case-ai-search-commerce-platform-hedge]]'
-- '[[framework-community-knowledge-production-failure-modes]]'
 pipeline:
-- confidence-draft
 ---
-
 # 创始人 IP 三定位模型
 
 > **Burn line**: 网红追求流量，创始人 IP 追求信任。三定位不是三件事，而是一个递进问题：先回答怎么赚钱，再回答拍什么，最后回答用户为什么信你。

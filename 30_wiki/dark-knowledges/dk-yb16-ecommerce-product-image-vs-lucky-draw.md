@@ -8,6 +8,15 @@ domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
+aliases:
+  - AI电商产品图
+  - AI电商产品图：抽卡图≠产品图，白底图才是交付标准
+  - src_unknown# AI电商产品图：抽卡图≠产品图，白底图才是交付标准
+  - 抽卡图
+  - 抽卡图≠产品图
+  - 月白
+  - 白底图才是交付标准
+  - 设计师实操培训
 source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
 created_at: 2026-06-04
@@ -27,26 +36,7 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-aliases:
-  - AI电商产品图：抽卡图≠产品图，白底图才是交付标准
-  - AI电商产品图
-  - 抽卡图≠产品图
-  - 白底图才是交付标准
-  - 月白
-  - 抽卡图
-aliases:
-  - AI电商产品图：抽卡图≠产品图，白底图才是交付标准
-  - AI电商产品图
-  - 抽卡图≠产品图
-  - 白底图才是交付标准
-  - 月白
-- src_unknown
-- src_unknown
-- src_unknown# AI电商产品图：抽卡图≠产品图，白底图才是交付标准
-aliases:
-- 设计师实操培训
 ---
-
 ## 原始表述/核心洞察
 
 > 这张图也是我抽卡抽出来的。然后第二张白底图才是跨境电商真正的产品。

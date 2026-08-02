@@ -3,8 +3,6 @@ id: tool-水水-降低故事逻辑要求
 title: 技能：降低故事逻辑要求
 type: tool
 domain:
-- personal-growth
-- design
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
@@ -12,25 +10,18 @@ review_date: '2026-06-29'
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 技能
+  - 技能：降低故事逻辑要求
+  - 降低故事逻辑要求
 source_refs:
-- src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
 related:
-- '[[tool-ai-narrative-test]]'
-- tool-水水-接受发散性世界观
-- tool-水水-区分风险与不确定性
-- tool-水水-利用基因漂变视角
-- tool-水水-利用叙事驱动决策
-- tool-水水-识别自证预言陷阱
 tags:
-aliases:
-  - 技能：降低故事逻辑要求
-  - 技能
-  - 降低故事逻辑要求
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 ---
 # 技能：降低故事逻辑要求
 

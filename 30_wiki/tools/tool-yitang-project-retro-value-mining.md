@@ -14,6 +14,9 @@ updated_at: 2026-07-08
 domain:
 - yitang
 - management
+aliases:
+  - signal: 复盘做完了，但除了"下次注意"什么也没留下
+  - 项目复盘五大价值挖掘清单
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 192121_vlm_desc.md
 related:
@@ -21,16 +24,10 @@ related:
 - "[[tool-yitang-project-gap-analysis]]"
 - "[[framework-yitang-project-retrospective]]"
 diagnostic_signals:
-aliases:
-  - 项目复盘五大价值挖掘清单
-- signal: 复盘做完了，但除了"下次注意"什么也没留下
-  lens: 复盘只做了"回顾"没做"挖掘"——停在表面
-  follow-up: 每次复盘用五维度逐个挖掘，至少产出一个可复用的资产
 quality_labels:
 - actionable
 - checklist
 ---
-
 # 项目复盘五大价值挖掘清单
 
 > **一句话**：复盘不是为了"走流程"，而是为了"挖金矿"。五个维度逐一挖掘，确保每次复盘都有产出。

@@ -4,10 +4,6 @@ title: 王欢说→想→做工具链框架
 type: framework
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -16,48 +12,26 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 做工具链框架
+  - 想做工具链
+  - 欢说想做工具链
+  - 王欢
+  - 王欢说→想→做工具链框架
 source_refs:
-- src_unknown
-- src_unknown
-- src_unknown
 diagnostic_signals:
-- lens: 角色定位
-  follow_up: 追问“谁负责定义目标与验收标准？”若只有执行没有定义，说明仍在演员模式
-- lens: 资产沉淀
-  follow_up: 检查是否已将输入结构、约束、样例固化成可复用模板或 AI 业务档案
-- lens: 分层诊断
-  follow_up: 回到“想”层重新拆解需求，必要时回到“说”层补全背景与约束
-- lens: 工具链成熟度
-  follow_up: 评估该原型是否已产品化、是否纳入每周工作流并产生复利
+follow_up: 追问“谁负责定义目标与验收标准？”若只有执行没有定义，说明仍在演员模式
+follow_up: 检查是否已将输入结构、约束、样例固化成可复用模板或 AI 业务档案
+follow_up: 回到“想”层重新拆解需求，必要时回到“说”层补全背景与约束
+follow_up: 评估该原型是否已产品化、是否纳入每周工作流并产生复利
 related:
 discoverable_by:
   - "王欢说想做工具链"
-- '[[tool-mece体系框架法]]'
-- '[[tool-使用一页纸速查卡快速调用框架]]'
-- '[[tool-月白-PPT内容框架AIGC生成法]]'
-- '[[tool-体系框架构建]]'
-- '[[tool-月白-AI设计-质价比-决策框架]]'
 tags:
-aliases:
-  - 王欢说→想→做工具链框架
-  - 王欢
-  - 欢说想做工具链
-  - 做工具链框架
-  - 想做工具链
-aliases:
-  - 王欢说→想→做工具链框架
-  - 王欢
-  - 欢说想做工具链
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 ---
-
 # 王欢说→想→做工具链框架
 
 > **Burn line**: AI 协作的工具链可以分成三层：说（输入）、想（推理）、做（执行）。

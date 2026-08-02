@@ -3,15 +3,8 @@ id: framework-decision-quality-checklist
 title: 决策质量六问检查表
 type: framework
 domain:
-- decision-science
-- yitang
 status: reviewed
 quality_labels:
-- cited
-- insight
-- principle
-- quality
-- validated
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 author: 老顽童
@@ -19,46 +12,27 @@ reviewed_by: 欧阳锋
 review_date: 2026-06-28
 confidence: 0.8
 trust_level: high
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 么检查决策质量
+  - 决策质量六问检查表
+  - 决策高度实操课口述
+  - 科学决策
+  - 策六问
+  - 策质量检查
+  - 策质量清单
+  - 质量六问检查表
+  - 量检查
 source_refs:
-- 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
 discoverable_by:
   - "决策质量检查"
   - "决策六问"
   - "决策质量清单"
   - "怎么检查决策质量"
-- '[[yt-decision-abcd-model]]'
-- '[[framework-科学决策三角形]]'
-- '[[tool-ROI决策评估画布]]'
-- '[[case-科学决策-深度案例01]]'
-- '[[case-科学决策-深度案例05]]'
-- '[[dk-决策经验值]]'
-- '[[master-decision-hygiene]]'
-- '[[concept-发现决策]]'
-- '[[framework-decision-cognitive-bias-map]]'
-- '[[framework-lean-false-model]]'
-- '[[concept-AI时代双三角竞争力]]'
-- case-decision-science-universal-salary-raise-roi
 tags:
-aliases:
-  - 决策质量六问检查表
-  - 量检查
-  - 策六问
-  - 么检查决策质量
-  - 策质量清单
-  - 质量六问检查表
-aliases:
-  - 决策质量六问检查表
-  - 策六问
-  - 策质量清单
-  - 策质量检查
-  - 么检查决策质量
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 决策高度实操课口述
-- 科学决策
 ---
 # 决策质量六问检查表
 

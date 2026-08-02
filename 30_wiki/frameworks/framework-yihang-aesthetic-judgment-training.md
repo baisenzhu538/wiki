@@ -11,37 +11,24 @@ language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:
-- ai-collaboration
-- yitang
+aliases:
+  - AI时代审美判断力训练系统未来教育的核心转向
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂双三角
+  - 人机协作双三角
+  - 教育的核心转向
+  - 断力训练
+  - 时代审美判断力训练系统
+  - 未来教育的核心转向
+  - 美判断力训练
 source_refs:
-- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
 discoverable_by:
   - "审美判断力训练"
-- '[[concept-yihang-dual-triangle-core]]'
-- '[[method-yihang-aesthetic-fast-build]]'
-- '[[framework-taste-as-judgment-system]]'
 tags:
-aliases:
-  - AI时代审美判断力训练系统未来教育的核心转向
-  - 时代审美判断力训练系统
-  - 未来教育的核心转向
-  - 断力训练
-  - 美判断力训练
-  - 教育的核心转向
-aliases:
-  - AI时代审美判断力训练系统未来教育的核心转向
-  - 时代审美判断力训练系统
-  - 未来教育的核心转向
-  - 美判断力训练
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 一堂双三角
-- 人机协作双三角
 ---
-
 # AI 时代审美判断力训练系统——未来教育的核心转向
 
 > **一句话定义**：Truman 在课后闲聊中提出的审美训练系统——A/B 对比 → 指出好坏 → 用专业语言解释为什么。AI 时代教育的核心转向：知识获取被 AI 解决后，判断力（审美）成为最稀缺的教育产出。

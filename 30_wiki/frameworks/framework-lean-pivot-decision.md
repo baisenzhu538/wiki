@@ -7,51 +7,27 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-23
 quality_labels:
-- cited
-- principle
-- validated
 created_at: 2026-06-23
 confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- lean-startup
-- decision
-- yitang
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 型决策
+  - 张磊教练
+  - 益转型决策
+  - 精益验证结果如何触发战略/产品
+  - 精益验证结果如何触发战略/产品pivot
+  - 验证结果如何触发战略
 source_refs:
-- 60_feedback/audit/cross-domain-bridge-design-specs.md
-- 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
-- 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
-- 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 related:
 discoverable_by:
   - "精益转型决策"
-- '[[strategy-domain-digest]]'
-- '[[framework-lean-abcd-model]]'
-- '[[lean-startup-domain-digest]]'
-- '[[yt-decision-y-model]]'
-- '[[tool-ai-deliverable-polish-loop]]'
-- '[[case-live81-ai-trademark-design]]'
-- '[[yitang-domain-digest]]'
-- '[[case-yitang-sales-transformation-jubensha-saas]]'
 updated_at: 2026-07-02
 tags:
-aliases:
-  - 精益验证结果如何触发战略/产品pivot
-  - 精益验证结果如何触发战略/产品
-  - 益转型决策
-  - 验证结果如何触发战略
-  - 型决策
-aliases:
-  - 精益验证结果如何触发战略/产品pivot
-  - 精益验证结果如何触发战略/产品
-  - 益转型决策
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 张磊教练
 ---
 # 精益验证结果如何触发战略/产品 pivot
 

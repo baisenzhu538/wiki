@@ -12,51 +12,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 按图索骥 对标案例 定位匹配
-- 成功路径分析 可借鉴之处 如何避免盲目模仿
-- 对标案例寻找 定位明确后 如何找最匹配的案例
-- 案例时效 过时案例 如何判断案例是否还适用
-- 定位匹配度评估 对标案例调整方案
-- 路径分析 关键决策 资源投入 时间节奏
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[tool-yitang-18-strategy-tool-mapping]]'
-- '[[yitang-research-domain-digest]]'
-- '[[tool-yitang-research-two-dimensional-positioning]]'
-- '[[tool-yitang-research-cross-validation]]'
-- '[[tool-yitang-research-single-point-sniper]]'
-- '[[framework-yitang-oscar-research]]'
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[tool-yitang-research-competitive-quadrant]]'
-- '[[tool-yitang-research-two-dimensional-positioning]]'
-- '[[tool-yitang-research-best-practice]]'
-- '[[case-yitang-sanjieke-benchmark-failure]]'
-- '[[dk-yitang-research-starter-vs-veteran]]'
-- '[[dk-yitang-survivor-bias-in-research]]'
-- '[[concept-yitang-research-mindset]]'
-- '[[tool-doris-industry-report-search-tips]]'
-- '[[tool-yitang-product-full-experience]]'
-- '[[tool-yitang-research-deep-attribution]]'
-- '[[tool-yitang-research-quantitative-modeling]]'
-tags:
 aliases:
-  - 按图索骥：根据定位寻找对标案例
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 按图索骥
+  - 按图索骥：根据定位寻找对标案例
   - 根据定位寻找对标案例
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 按图索骥：根据定位寻找对标案例
 
 > **一句话**：按图索骥不是"随便找个案例学习"，而是"根据我的定位，找到最匹配的对标案例，分析其成功路径，判断哪些可以借鉴"。

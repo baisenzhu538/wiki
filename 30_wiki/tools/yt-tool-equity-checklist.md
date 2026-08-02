@@ -2,8 +2,12 @@
 id: yt-tool-equity-checklist
 title: 股权设计检查清单
 type: tool
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 股权设计检查清单
 source_refs:
-- 10_raw/sources/src_20260619_52c76864_30_wiki_concepts_yt_management_business_formula.md
 status: enriched
 domain: yitang- yitang
 language: zh-CN
@@ -11,50 +15,24 @@ version: 1
 difficulty: advanced
 confidence: 0.75
 prerequisites:
-- src_unknown
 component_of:
-- src_unknown
 related:
-- '[[yt-management-business-formula]]'
-- '[[yt-entrepreneur-lean-validation]]'
-- '[[yt-management-partnership-equity]]'
-- '[[yt-management-toolkit-overview]]'
-- '[[yt-tool-hiring-scorecard]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-management-founder-role]]'
 contradicts: null
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 tags:
-aliases:
-  - 股权设计检查清单
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 trust_level: medium
 yitang:
-  map: management
-  module: 管公司
-  course_id: yt-tool-equity-checklist
-  course_type: tool
-  level: advanced
+map: management
+module: 管公司
+course_id: yt-tool-equity-checklist
+course_type: tool
+level: advanced
 created_at: 2026-05-20
 updated_at: '2026-06-16'
 estimated_tokens: 3400
 reviewed_by: null
 author: 老顽童
 ---
-
 # 股权设计检查清单
 
 > 从 [[yt-management-business-formula]] 和 [[yt-entrepreneur-lean-validation]] 萃取的公司治理工具。不是“分股比例怎么切”的财务计算，而是一套在“绑定”前检查关系健康度的“婚前协议”——**80% 的创业团队分裂不是因为业务失败，而是因为股权没说清楚**。

@@ -6,19 +6,11 @@ status: reviewed
 confidence: 0.86
 trust_level: high
 domain:
-- kdo
-- quality
-- meta-methodology
 author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: '2026-06-27'
 created_at: '2026-06-27'
 quality_labels:
-- cited
-- insight
-- principle
-- quality
-- validated
 tags:
   - method:adversarial-testing
   - method:red-team
@@ -28,44 +20,22 @@ tags:
   - content-format:framework
   - source-person:王语嫣
 updated_at:
-source_refs:
-- 40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md
-- 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md
-- 30_wiki/frameworks/framework-yitang-research-quality-gate.md
-- 30_wiki/frameworks/framework-yitang-six-layer-cross-validation.md
-- 30_wiki/frameworks/framework-yitang-nine-layer-deep-dig.md
-related:
 aliases:
   - KDO知识自攻击框架：用对抗Agent在交付前主动找出弱点
-  - 知识自攻击框架
-  - 用对抗
+  - attack
+  - capabilities
+  - outputs
   - 在交付前主动找出弱点
   - 弱点检测
   - 王语嫣
-aliases:
-  - KDO知识自攻击框架：用对抗Agent在交付前主动找出弱点
-  - 知识自攻击框架
   - 用对抗
-  - 在交付前主动找出弱点
+  - 知识自攻击框架
   - 自攻击框架
-  - 王语嫣
+source_refs:
+related:
 discoverable_by:
   - "KDO自攻击框架"
   - "对抗Agent弱点检测"
-- framework-ouyangfeng-review-methodology
-- framework-yitang-research-quality-gate
-- framework-yitang-six-layer-cross-validation
-- framework-yitang-nine-layer-deep-dig
-- tool-demand-blindspot-checklist
-- yt-decision-y-model
-- dk-yitang-Y-model-pitfalls
-- tool-yitang-Y-model-application
-- framework-yitang-shishi-qiushi
-- framework-yitang-jiefang-sixiang
-aliases:
-- attack
-- capabilities
-- outputs
 ---
 # KDO 知识自攻击框架：用对抗 Agent 在交付前主动找出弱点
 

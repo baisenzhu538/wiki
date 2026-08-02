@@ -3,8 +3,6 @@ id: tool-水水-保持系统冗余
 title: 技能：保持系统冗余
 type: tool
 domain:
-- personal-growth
-- management
 status: needs-review
 author: unknown
 reviewed_by: 欧阳锋
@@ -12,24 +10,18 @@ reviewed_at: 2026-07-04
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 保持系统冗余
+  - 技能
+  - 技能：保持系统冗余
 source_refs:
-- src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-水水-接受发散性世界观]]'
-- '[[tool-水水-区分风险与不确定性]]'
-- '[[tool-水水-识别关键偶然因素]]'
-- '[[tool-水水-识别自证预言陷阱]]'
-- '[[tool-水水-识别超级传播者风险]]'
 tags:
-aliases:
-  - 技能：保持系统冗余
-  - 技能
-  - 保持系统冗余
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 ---
 # 技能：保持系统冗余
 

@@ -4,14 +4,7 @@ title: 王欢AI能力五层跃迁模型
 type: framework
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 quality_labels:
-- cited
-- principle
-- validated
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -20,50 +13,27 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 五层跃迁
+  - 王欢
+  - 王欢AI能力五层跃迁模型
+  - 示意图
+  - 能力五层跃迁
+  - 能力五层跃迁模型
 source_refs:
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
-- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
-- 10_raw/sources/src_20260619_7bd154f7_wanghuan_AI能力五层跃迁_示意图.md
 diagnostic_signals:
-- lens: 层级诊断
-  follow_up: 检查是否已建立可复用 prompt 模板与知识库（工作流层）
-- lens: 产品化缺口
-  follow_up: 从作品层跃迁至产品/应用层，需找到第一位真实用户并收集反馈
-- lens: 系统化缺口
-  follow_up: 设计统一编排底座，把分散作品串成自动运转的操作台
-- lens: 思维瓶颈
-  follow_up: 检查是否仍在演员模式执行单点任务，而非导演模式重设系统
+follow_up: 检查是否已建立可复用 prompt 模板与知识库（工作流层）
+follow_up: 从作品层跃迁至产品/应用层，需找到第一位真实用户并收集反馈
+follow_up: 设计统一编排底座，把分散作品串成自动运转的操作台
+follow_up: 检查是否仍在演员模式执行单点任务，而非导演模式重设系统
 related:
 discoverable_by:
   - "王欢AI五层跃迁"
-- '[[case-wanghuan-education-sales-capability-extraction]]'
-- '[[case-wanghuan-education-sales-paced]]'
-- '[[case-wanghuan-shenyang-software-3x-efficiency]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 tags:
-aliases:
-  - 王欢AI能力五层跃迁模型
-  - 王欢
-  - 五层跃迁
-  - 能力五层跃迁模型
-aliases:
-  - 王欢AI能力五层跃迁模型
-  - 王欢
-  - 五层跃迁
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-aliases:
-- 示意图
-- 能力五层跃迁
 ---
-
 # 王欢AI能力五层跃迁模型
 
 > **Burn line**: 从“会问 AI 问题”到“能搭建系统级 AI 操作台”，有五层台阶。多数人卡在第二层。

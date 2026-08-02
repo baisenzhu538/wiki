@@ -4,15 +4,7 @@ title: 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 type: framework
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 quality_labels:
-- cited
-- principle
-- validated
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -21,54 +13,30 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 三层开发架构
+  - 开发哨兵质检
+  - 欢三层开发架构
+  - 求拆解
+  - 王欢
+  - 王欢三层开发架构
+  - 王欢三层开发架构：需求拆解→AI开发→哨兵质检
+  - 需求拆解→AI开发→哨兵质检
 source_refs:
-- 10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md
-- 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
-- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
 discoverable_by:
   - "王欢三层开发架构"
   - "需求拆解AI开发哨兵质检"
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
-- '[[concept-wanghuan-adversarial-generation]]'
-- '[[case-wanghuan-shenyang-software-3x-efficiency]]'
-- '[[pending_unknown]]'
 diagnostic_signals:
-- lens: 系统瓶颈 vs. 工具瓶颈
-  follow_up: 检查当前流程是否只是给马车换发动机，还是已重新设计工作系统
-- lens: 角色定义
-  follow_up: 将角色重新定义为让 AI 把代码写好的人，强调判断力而非执行量
-- lens: 输入质量
-  follow_up: 回到需求拆解层，用 BTICOE 补全原子任务和约束条件
-- lens: 验收标准
-  follow_up: 检查哨兵质检层是否有清晰的人工复核 checklist 和红线约束
+follow_up: 检查当前流程是否只是给马车换发动机，还是已重新设计工作系统
+follow_up: 将角色重新定义为让 AI 把代码写好的人，强调判断力而非执行量
+follow_up: 回到需求拆解层，用 BTICOE 补全原子任务和约束条件
+follow_up: 检查哨兵质检层是否有清晰的人工复核 checklist 和红线约束
 tags:
-aliases:
-  - 王欢三层开发架构：需求拆解→AI开发→哨兵质检
-  - 王欢三层开发架构
-  - 需求拆解→AI开发→哨兵质检
-  - 王欢
-  - 欢三层开发架构
-  - 三层开发架构
-aliases:
-  - 王欢三层开发架构：需求拆解→AI开发→哨兵质检
-  - 王欢三层开发架构
-  - 需求拆解→AI开发→哨兵质检
-  - 王欢
-  - 求拆解
-  - 开发哨兵质检
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 ---
-
 # 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 
 > **Burn line**: 程序员不是写代码的人，是让 AI 把代码写好的人。

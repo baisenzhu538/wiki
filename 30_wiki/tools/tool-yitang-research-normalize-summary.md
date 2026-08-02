@@ -12,40 +12,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 归一总结 调研结论 如何整合信息形成统一结论
-- 调研结论 actionable 明确结论 有置信度
-- 信息整合 分类整理 去重去噪 优先级排序
-- 调研报告模板 行动计划 风险提示
-- 结论模糊 无依据 如何避免只有信息没有结论
-- 置信度标注 调研结论可信度 如何判断结论是否可靠
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[tool-yitang-ai-assisted-organize]]'
-- '[[tool-yitang-research-cross-validation]]'
-tags:
 aliases:
-  - 归一总结：整合信息形成统一结论
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 归一总结
+  - 归一总结：整合信息形成统一结论
   - 整合信息形成统一结论
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 归一总结：整合信息形成统一结论
 
 > **一句话**：调研的价值不在信息多少，而在结论是否 actionable。归一总结强迫你整合所有信息，形成明确、可执行、有置信度的结论。

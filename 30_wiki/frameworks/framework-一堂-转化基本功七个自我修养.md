@@ -11,61 +11,26 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
-- conversion-rate
+aliases:
+  - audience:ceo
+  - conversion
+  - handle
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂转化基本功七个自我修养
+  - 一堂转化基本功七个自我修养：从固定拿结果到大量迁移的团队纪律
+  - 从固定拿结果到大量迁移的团队纪律
+  - 化基本功七个自我修养
+  - 化率团队纪律
+  - 本功七个自我修养
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2916-L2924
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2940-L2946
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L3034-L3084
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L3052-L3060
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L3878-L3910
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4308-L4450
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4594-L4618
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4796-L4904
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2954-L2968
 related:
 discoverable_by:
   - "转化基本功七个自我修养"
   - "转化率团队纪律"
-- '[[framework-一堂-转化率黑客-总纲]]'
-- '[[framework-一堂-转化率黑客爬山地图]]'
-- '[[framework-一堂-动力三曲线]]'
-- '[[framework-一堂-影响力36计]]'
-- '[[framework-一堂-12种阻力总表]]'
-- '[[framework-一堂-阻力方法论骨架]]'
-- '[[framework-一堂-12触点SABC分级]]'
-- '[[framework-一堂-触点本质论]]'
-- '[[framework-一堂-转化率提升六步法]]'
-- '[[conversion-rate-domain-digest]]'
-- '[[case-一堂-教研加微信率40到100]]'
-- '[[case-一堂-视频号加微信率44到85]]'
 quality_labels:
-- principle
-- framework
-- cited
-- actionable
 tags:
-aliases:
-  - 一堂转化基本功七个自我修养：从固定拿结果到大量迁移的团队纪律
-  - 一堂转化基本功七个自我修养
-  - 从固定拿结果到大量迁移的团队纪律
-  - 本功七个自我修养
-  - 化率团队纪律
-  - 化基本功七个自我修养
-aliases:
-  - 一堂转化基本功七个自我修养：从固定拿结果到大量迁移的团队纪律
-  - 一堂转化基本功七个自我修养
-  - 从固定拿结果到大量迁移的团队纪律
-  - 化率团队纪律
-  - 化基本功七个自我修养
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- conversion
-- handle
 ---
-
 # 一堂转化基本功七个自我修养
 
 > **一句话**：第一次跨越（混乱→稳定）的修炼清单——入门篇官宣「今天会讲**七个**自我修养」（`入门篇-口述:2916-2918`），这是把「动力阻力触点」从知识变成肌肉记忆的七条团队纪律。

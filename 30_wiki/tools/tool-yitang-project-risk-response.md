@@ -14,6 +14,9 @@ updated_at: 2026-07-08
 domain:
 - yitang
 - management
+aliases:
+  - signal: 项目出问题后手忙脚乱，没有分级应对预案
+  - 项目风险四级应对执行清单
 source_refs:
 - 00_inbox/管项目/项目管理-定方案-常见风险应对清单_vlm_desc.md
 related:
@@ -21,16 +24,10 @@ related:
 - "[[framework-yitang-project-plan-design]]"
 - "[[tool-yitang-project-risk-discovery]]"
 diagnostic_signals:
-aliases:
-  - 项目风险四级应对执行清单
-- signal: 项目出问题后手忙脚乱，没有分级应对预案
-  lens: 缺风险分级思维——所有风险用同一套方法
-  follow-up: 拿到风险清单后，对每个风险标上级别（一~四级），打印贴在工位
 quality_labels:
 - actionable
 - checklist
 ---
-
 # 项目风险四级应对执行清单
 
 > **一句话**：风险不是"有或没有"，而是"你知道该用哪一级应对"。从被动监控到主动借势，四级递进，逐级升级。

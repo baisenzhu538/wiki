@@ -6,48 +6,31 @@ dark_knowledge_type: failure
 status: reviewed
 source_person: 陈舒妍
 source_context: 一堂 AI 俱乐部落地 Live81 分享（2026-07-02），喵善养商标设计中的真实踩坑与纠偏经验
+aliases:
+  - AI设计交付物的五个常见陷阱与反打
+  - [[case-live81-ai-trademark-design]]
+  - [[concept-cognitive-offloading-in-ai-era]]
+  - [[master-decision-hygiene]]
+  - [[tool-ai-deliverable-polish-loop]]
+  - [[tool-ai-use-barbell-strategy]]
+  - [[tool-scene-design-language-translation]]
+  - [[tool-多模型对比抽卡]]
+  - [[tool-月白-AI模型选择策略]]
+  - [[yt-panproduct-aesthetic-modeling]]
+  - [[yt-panproduct-aesthetic-pool]]
+  - yitang
+  - 交付物的五个常见陷阱与反打
+  - 设计交付物的五个常见陷阱与反打
+  - 陈舒妍
 source_refs:
-- 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-口述.txt
-- 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-笔记.txt
-- 00_inbox/yitang-AI club/live81/AI赋能商标设计体系重构 — Live81逐字稿 副本.md
-- 60_feedback/diagnosis/diag_20260702_live81-ai-trademark-design.md
 domain:
-- yitang
 tags:
-- '#ai-collaboration'
-- '#design'
-- '#pitfall'
-- audience:executor
-- scene:reference
-- skill-level:intermediate
 trust_level: medium
 reviewed_by: 欧阳锋
 related:
-aliases:
-  - AI设计交付物的五个常见陷阱与反打
-  - 设计交付物的五个常见陷阱与反打
-  - 陈舒妍
-  - 交付物的五个常见陷阱与反打
-aliases:
-  - AI设计交付物的五个常见陷阱与反打
-  - 设计交付物的五个常见陷阱与反打
-  - 陈舒妍
-- '[[case-live81-ai-trademark-design]]'
-- '[[tool-ai-deliverable-polish-loop]]'
-- '[[tool-scene-design-language-translation]]'
-- '[[concept-cognitive-offloading-in-ai-era]]'
-- '[[tool-ai-use-barbell-strategy]]'
-- '[[master-decision-hygiene]]'
-- '[[yt-panproduct-aesthetic-pool]]'
-- '[[yt-panproduct-aesthetic-modeling]]'
-- '[[tool-月白-AI模型选择策略]]'
-- '[[tool-多模型对比抽卡]]'
 created_at: 2026-07-02
 updated_at: '2026-07-02'
-aliases:
-- yitang
 ---
-
 # AI 设计交付物的五个常见陷阱与反打
 
 > 这五个陷阱不是「AI 不好用」，而是「人把 AI 用成了更贵的抽奖机」。知道它们，能帮你把 AI 从变量变成杠杆。

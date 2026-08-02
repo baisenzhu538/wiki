@@ -11,109 +11,26 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
-- conversion-rate
+aliases:
+  - audience:ceo
+  - conversion
+  - handle
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂转化率提升六步法
+  - 一堂转化率提升六步法：拆解/加法/减法/讲香/组合/制作+双模式立论+四阶段映射
+  - 化率提升六步法
+  - 双模式立论
+  - 四阶段映射
+  - 拆解/加法/减法/讲香/组合/制作
+  - 提升六步法
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L548-L977
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L702-L728
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L746-L852
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L608-L676
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L888-L900
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L462-L482
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L582-L598
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1300-L1300
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1748-L1748
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-笔记.txt L11-L134
 related:
 discoverable_by:
   - "转化率提升六步法"
   - "拆解加法减法讲香"
-- '[[case-一堂-一堂自身转化实践]]'
-- '[[case-一堂-优秀案例逐字稿合集]]'
-- '[[case-一堂-作业率20到50]]'
-- '[[case-一堂-入职率50到80-100]]'
-- '[[case-一堂-全会员出圈率1.5翻倍]]'
-- '[[case-一堂-六杯奶茶推荐率近100]]'
-- '[[case-一堂-动力篇案例库]]'
-- '[[case-一堂-我请客推荐率5到40]]'
-- '[[case-一堂-教研加微信率40到100]]'
-- '[[case-一堂-晓莉学而思引流课]]'
-- '[[case-一堂-棋牌室办卡率1到5]]'
-- '[[case-一堂-组合篇案例库]]'
-- '[[case-一堂-视频号加微信率44到85]]'
-- '[[case-一堂-触点篇案例库]]'
-- '[[case-一堂-跆拳道黑带卡]]'
-- '[[case-一堂-阻力篇案例库]]'
-- '[[conversion-rate-domain-digest]]'
-- '[[dk-yitang-sales-common-pitfalls]]'
-- '[[framework-一堂-12种阻力总表]]'
-- '[[framework-一堂-12触点SABC分级]]'
-- '[[framework-一堂-六大优化原则]]'
-- '[[framework-一堂-动力三曲线]]'
-- '[[framework-一堂-十指模型]]'
-- '[[framework-一堂-影响力36计]]'
-- '[[framework-一堂-触点本质论]]'
-- '[[framework-一堂-转化基本功七个自我修养]]'
-- '[[framework-一堂-转化率黑客-总纲]]'
-- '[[framework-一堂-转化率黑客爬山地图]]'
-- '[[framework-一堂-阻力方法论骨架]]'
-- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
-- '[[tool-agent-spec-yitang-sales-process-tracker]]'
-- '[[tool-yitang-sales-performance-management]]'
-- '[[tool-yitang-sales-process-decomposition]]'
-- '[[tool-一堂-12大易浪费触点]]'
-- '[[tool-一堂-ABACC叙事法]]'
-- '[[tool-一堂-FAB说服法]]'
-- '[[tool-一堂-七大转化场景自检]]'
-- '[[tool-一堂-不着急阻力两类消除]]'
-- '[[tool-一堂-五大转化率范式]]'
-- '[[tool-一堂-五种挖触点]]'
-- '[[tool-一堂-伏笔式消除法]]'
-- '[[tool-一堂-准备系数法则]]'
-- '[[tool-一堂-减法排序四招]]'
-- '[[tool-一堂-制作仿真三要点]]'
-- '[[tool-一堂-动嘴动手动钱成本纪律]]'
-- '[[tool-一堂-名利权情动力法]]'
-- '[[tool-一堂-影响力六原则]]'
-- '[[tool-一堂-心理激励优先机制]]'
-- '[[tool-一堂-提假设四大类策略]]'
-- '[[tool-一堂-经典故事线框架库]]'
-- '[[tool-一堂-触点减法与排序]]'
-- '[[tool-一堂-触点挖掘四层级]]'
-- '[[tool-一堂-触点质量五维]]'
-- '[[tool-一堂-讲香双策略]]'
-- '[[tool-一堂-阻力三句话心法]]'
-- '[[tool-一堂-阻力挖掘方式]]'
-- '[[tool-一堂-阻力消除12策小抄]]'
-- '[[tool-一堂-马毅阻力消除四部曲]]'
-- '[[tool-动力阻力分析]]'
-- '[[tool-agent-spec-yitang-lead-funnel-health]]'
 quality_labels:
-- principle
-- framework
-- cited
-- actionable
 tags:
-aliases:
-  - 一堂转化率提升六步法：拆解/加法/减法/讲香/组合/制作+双模式立论+四阶段映射
-  - 一堂转化率提升六步法
-  - 拆解/加法/减法/讲香/组合/制作
-  - 双模式立论
-  - 四阶段映射
-  - 提升六步法
-aliases:
-  - 一堂转化率提升六步法：拆解/加法/减法/讲香/组合/制作+双模式立论+四阶段映射
-  - 一堂转化率提升六步法
-  - 拆解/加法/减法/讲香/组合/制作
-  - 双模式立论
-  - 四阶段映射
-  - 化率提升六步法
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- conversion
-- handle
 ---
 # 一堂转化率提升六步法
 

@@ -6,17 +6,20 @@ status: reviewed
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- organization
-- change_management
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 冉鹏PPT截图
+  - 变革管理
+  - 引擎点火
+  - 模型
+  - 组织诊断与变革管理
+  - 织诊断变革
+  - 麦肯锡
+  - 麦肯锡7S模型：组织诊断与变革管理
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_128_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_128_vlm_desc.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_203_ocr_text.md
 quality_labels:
-- cited
-- principle
-- validated
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
@@ -27,33 +30,7 @@ discoverable_by:
   - "组织诊断变革"
   - "麦肯锡组织模型"
   - "7S变革管理"
-- '[[strategy-domain-digest]]'
-- '[[tool-月白-AI模型选择策略]]'
-- '[[dk-单元模型-找单元模型实操难点]]'
-- '[[concept-最简单元模型]]'
-- '[[tool-模型组合调用]]'
-- concept-mckinsey-7s
 tags:
-aliases:
-  - 麦肯锡7S模型：组织诊断与变革管理
-  - 麦肯锡
-  - 模型
-  - 组织诊断与变革管理
-  - 变革管理
-  - 织诊断变革
-aliases:
-  - 麦肯锡7S模型：组织诊断与变革管理
-  - 麦肯锡
-  - 模型
-  - 组织诊断与变革管理
-  - 变革管理
-  - 织诊断变革
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 冉鹏PPT截图
-- 引擎点火
 ---
 # 麦肯锡 7S 模型：组织诊断与变革管理
 

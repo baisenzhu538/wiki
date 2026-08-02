@@ -9,43 +9,25 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 低成本验证
+  - 倍公式
+  - 十倍数公式
+  - 十倍速公式
+  - 十倍速公式：避免系统性失败
+  - 益十倍公式
+  - 速公式
+  - 避免系统性失败
 source_refs:
-- 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_ocr_text.md
-- 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_vlm_desc.md
 related:
 discoverable_by:
   - "精益十倍公式"
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- tool-lean-product-kernel-metrics
-- framework-lean-four-principles
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - 十倍速公式：避免系统性失败
-  - 十倍速公式
-  - 避免系统性失败
-  - 速公式
-  - 倍公式
-  - 益十倍公式
-aliases:
-  - 十倍速公式：避免系统性失败
-  - 十倍速公式
-  - 避免系统性失败
-  - 益十倍公式
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 低成本验证
-- 十倍数公式
 ---
 # 十倍速公式：避免系统性失败
 

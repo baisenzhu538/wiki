@@ -9,27 +9,17 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- decision-science
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 从用户身上挖出真实需求
+  - 需求挖掘
+  - 需求挖掘：从用户身上挖出真实需求
 source_refs:
-- src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- concept-X型Y型决策习惯
-- concept-发现决策
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - 需求挖掘：从用户身上挖出真实需求
-  - 需求挖掘
-  - 从用户身上挖出真实需求
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 ---
 # 需求挖掘：从用户身上挖出真实需求
 

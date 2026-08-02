@@ -9,56 +9,28 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 七阶段
+  - 构建流程
+  - 王欢
+  - 王欢：Harness七阶段AI构建流程
 source_refs:
-- src_unknown
-- src_unknown
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 diagnostic_signals:
-- lens: 生成者与验收者角色未分离
-  follow_up: 引入独立评估者角色，按用户视角逐功能测试并回传问题清单
-- lens: 规划与技术栈选型缺失
-  follow_up: 在动手生成前，先用最强推理模型输出 product-spec.md 与 tech-stack.md
-- lens: 缺少审美精修阶段
-  follow_up: 在 Ship 前固定插入一轮 Polish Sprint，切换评分权重到审美维度
-- lens: 最终交付门控缺失
-  follow_up: 增加 FreshCloneTester 与 AuditTrail，把"从零克隆能跑"作为硬性 Ship 条件
+follow_up: 引入独立评估者角色，按用户视角逐功能测试并回传问题清单
+follow_up: 在动手生成前，先用最强推理模型输出 product-spec.md 与 tech-stack.md
+follow_up: 在 Ship 前固定插入一轮 Polish Sprint，切换评分权重到审美维度
+follow_up: 增加 FreshCloneTester 与 AuditTrail，把"从零克隆能跑"作为硬性 Ship 条件
 related:
 discoverable_by:
   - "王欢Harness七阶段"
-- '[[concept-harness-cattle-not-pets]]'
-- '[[tool-harness-adversarial-tester]]'
-- '[[plan_20260621_kdo-quality-harness-upgrade]]'
-- '[[concept-harness-scoring-anchors]]'
-- '[[pending_unknown]]'
-- '[[framework-ai-accelerated-strategy-cycle]]'
-- '[[framework-ai-deconstruction-methodology]]'
-- '[[framework-ai2041-critical-reading-os]]'
 tags:
-aliases:
-  - 王欢：Harness七阶段AI构建流程
-  - 王欢
-  - 七阶段
-  - 构建流程
-aliases:
-  - 王欢：Harness七阶段AI构建流程
-  - 王欢
-  - 七阶段
-  - 构建流程
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 ---
-
 # 王欢：Harness 七阶段 AI 构建流程
 
 > **Burn line**: 把生成者和验收者分开，是 Harness 从"损坏的玩具"变"可玩的游戏"的关键。

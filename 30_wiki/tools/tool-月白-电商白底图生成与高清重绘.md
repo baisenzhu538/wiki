@@ -6,46 +6,28 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：电商白底图生成与高清重绘
+  - 月白
+  - 电商白底图生成与高清重绘
 source_refs:
-- src_unknown
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-基于白底图做动作延展]]'
-- '[[tool-月白-表情包风格筛选与确定]]'
-- '[[tool-月白-基于基础形象做动作延展（1到10）]]'
-- '[[tool-月白-风格探索试错法]]'
-- '[[tool-月白-AIGC生成人物证件照]]'
-- '[[tool-月白-AI平台算法咨询法]]'
-- '[[tool-月白-AI模型选择决策法]]'
-- '[[tool-月白-AI生图与图生图决策法]]'
-- '[[tool-月白-像素图高清重绘修复法]]'
-- '[[tool-月白-口喷式设计工作流]]'
-- '[[tool-月白-圈图指定修改法]]'
-- '[[tool-月白-新媒体平台流量逻辑-问平台亲儿子AI法]]'
-- '[[tool-月白-精准改图提示词写法]]'
 tags:
-aliases:
-  - 技能：电商白底图生成与高清重绘
-  - 技能
-  - 电商白底图生成与高清重绘
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
 # 技能：电商白底图生成与高清重绘
 

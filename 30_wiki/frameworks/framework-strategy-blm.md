@@ -6,13 +6,22 @@ status: reviewed
 confidence: 0.95
 trust_level: high
 domain: strategy
+aliases:
+  - IBMBLM业务领导力模型+华为五看三定
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 业务领导力模型
+  - 为五看三定
+  - 冉鹏PPT截图
+  - 务领导力模型
+  - 华为五看三定
+  - 导力模型
+  - 引擎点火
+  - 战略规划
+  - 领导力模型
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_34_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_35_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_ocr_text.md
 quality_labels:
-- principle
-- validated
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
@@ -23,37 +32,8 @@ discoverable_by:
   - "业务领导力模型"
   - "华为五看三定"
   - "BLM战略规划"
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[framework-strategy-business-design]]'
-- tool-strategy-five-see-three-set
-- yt-five-step-method-complete
 tags:
-aliases:
-  - IBMBLM业务领导力模型+华为五看三定
-  - 业务领导力模型
-  - 华为五看三定
-  - 为五看三定
-  - 领导力模型
-  - 导力模型
-aliases:
-  - IBMBLM业务领导力模型+华为五看三定
-  - 业务领导力模型
-  - 华为五看三定
-  - 战略规划
-  - 为五看三定
-  - 务领导力模型
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 冉鹏PPT截图
-- 引擎点火
 ---
-
 # IBM BLM 业务领导力模型 + 华为五看三定
 
 > IBM BLM（Business Leadership Model）是连接战略制定与执行的系统框架。华为在此基础上演化为“五看三定”。

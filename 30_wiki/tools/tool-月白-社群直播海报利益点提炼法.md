@@ -6,40 +6,28 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：社群直播海报利益点提炼法
+  - 月白
+  - 社群直播海报利益点提炼法
 source_refs:
-- src_unknown
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AIGC反向拆解法]]'
-- '[[tool-月白-文创材质成本调研与精益选择]]'
-- '[[tool-月白-PPT内容框架AIGC生成法]]'
-- '[[tool-月白-Token效价比决策法]]'
-- '[[tool-月白-PPT风格锁定工作流]]'
-- '[[tool-月白-AIGC海报信息优先级排序法]]'
-- '[[tool-费曼简单提炼法]]'
 tags:
-aliases:
-  - 技能：社群直播海报利益点提炼法
-  - 技能
-  - 社群直播海报利益点提炼法
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
 # 技能：社群直播海报利益点提炼法
 

@@ -3,41 +3,26 @@ id: tool-red-team-analysis
 title: Red Team Analysis（红队分析/竞对视角模拟）
 type: tool
 domain:
-- research
-- strategy
-- competitive-intelligence
 tags:
-- SATs
-- 反向类
-- Red Team
-- 竞对视角
-- 模拟决策
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 source_person: Richards J. Heuer Jr. + Truman（一堂）
 source_context: SATs 反向类技术工具化实现
-source_refs:
-- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
-- https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/
-related:
 aliases:
-  - RedTeamAnalysis红队分析/竞对视角模拟
   - Analysis红队分析/竞对视角模拟
+  - RedTeamAnalysis红队分析/竞对视角模拟
   - Richards J. Heuer Jr. + Truman（一堂）
+  - [[case-ai-time-management-tiered-growth]]
+  - [[case-doris-2014-music-streaming-prediction]]
+  - [[case-escort-service-tiered-growth]]
+  - [[case-liutao-douyin-team-leader-9m]]
+  - [[framework-yitang-18-strategy-cards]]
+  - [[tool-harness-adversarial-tester]]
+  - [[tool-strategy-activity-scope]]
+  - 三个新盲区
+  - 外部知识探索
   - 竞对视角模拟
   - 红队分析
-aliases:
-  - RedTeamAnalysis红队分析/竞对视角模拟
-  - Analysis红队分析/竞对视角模拟
-  - Richards J. Heuer Jr. + Truman（一堂）
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[case-ai-time-management-tiered-growth]]'
-- '[[case-doris-2014-music-streaming-prediction]]'
-- '[[case-escort-service-tiered-growth]]'
-- '[[case-liutao-douyin-team-leader-9m]]'
-- '[[tool-harness-adversarial-tester]]'
-- '[[tool-strategy-activity-scope]]'
+source_refs:
+related:
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
@@ -45,11 +30,7 @@ created_at: '2026-06-28'
 updated_at: '2026-06-29'
 confidence: 0.78
 trust_level: medium
-aliases:
-- 三个新盲区
-- 外部知识探索
 ---
-
 # Red Team Analysis（红队分析/竞对视角模拟）
 
 ## 原始表述

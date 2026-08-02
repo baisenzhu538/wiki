@@ -6,56 +6,32 @@ status: draft
 confidence: 0.85
 trust_level: high
 domain:
-- profit-pricing
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
 quality_labels:
-- insight
-- principle
-- actionable
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 从利润是剩余到利润是生存成本
+  - 企业利润经营分析
+  - 优先经营框架
+  - 先经营框架
+  - 利润优先经营框架
+  - 利润优先经营框架：从利润是剩余到利润是生存成本
+  - 润优先经营框架
+  - 润是剩余到利润是生存成本
+  - 润是生存成本
 source_refs:
-- 00_inbox/利润为王/《真正的利润》拆书逐字稿 — 水水｜战略定价顾问.md
-- 00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt
-- 00_inbox/利润为王/企业利润经营分析_智能优化.txt
-- 00_inbox/利润为王/笔记1.txt
-- 00_inbox/利润为王/笔记2.txt
-- 60_feedback/diagnosis/diag_20260719_wangyuyan-profit-pricing-dark-knowledge-supplement.md
 related:
 discoverable_by:
   - "利润优先经营框架"
   - "利润是生存成本"
-- concept-利润-真正利润定义
-- concept-定价-价格杠杆
-- concept-利润-风险报偿本质
-- bridge-利润-单元模型-定价闭环
-- bridge-利润-需求冰山-价值定价
-- yt-unit-model-build
-- yt-decision-y-model
-- dk-利润-利润敏感度非对称性
 tags:
-aliases:
-  - 利润优先经营框架：从利润是剩余到利润是生存成本
-  - 利润优先经营框架
-  - 从利润是剩余到利润是生存成本
-  - 润是剩余到利润是生存成本
-  - 先经营框架
-  - 优先经营框架
-aliases:
-  - 利润优先经营框架：从利润是剩余到利润是生存成本
-  - 利润优先经营框架
-  - 从利润是剩余到利润是生存成本
-  - 润优先经营框架
-  - 润是生存成本
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 企业利润经营分析
 ---
-
 # 利润优先经营框架：从「利润是剩余」到「利润是生存成本」
 
 > 一句话：利润不是年底碰运气的余额——它是企业的生存成本，应当像房租和工资一样被优先赚回来。

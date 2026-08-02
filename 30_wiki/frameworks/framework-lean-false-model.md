@@ -8,63 +8,28 @@ reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: high
 quality_labels:
-- principle
-- validated
 updated_at: '2026-06-29'
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂
+  - 一堂FALSE/FLESAI低成本验证模型
+  - 低成本验证
+  - 低成本验证模型
+  - 创业全景图
+  - 本验证模型
+  - 验证模型
 source_refs:
-- 00_inbox/精益创业/精益创业-false模型-策略图_ocr_text.md
-- 00_inbox/精益创业/精益创业-false模型-策略图_vlm_desc.md
-- 00_inbox/精益创业/truman-精益创业-创业全景图-超级小抄_ocr_text.md
-- 00_inbox/精益创业/truman-精益创业-创业全景图-超级小抄_vlm_desc.md
-- 00_inbox/精益创业/truman-精益创业-false模型_ocr_text.md
-- 00_inbox/精益创业/truman-精益创业-false模型_vlm_desc.md
-- 00_inbox/精益创业/truman-低成本验证-思考策略_ocr_text.md
-- 00_inbox/精益创业/truman-低成本验证-思考策略_vlm_desc.md
 related:
 discoverable_by:
   - "FALSE低成本验证"
   - "FLESAI验证模型"
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[framework-ai-accelerated-strategy-cycle]]'
-- '[[framework-decision-quality-checklist]]'
-- '[[framework-demand-lean-bridge]]'
-- '[[framework-five-step-lean-interface]]'
-- '[[framework-lean-four-principles]]'
-- '[[framework-strategy-lean-validation]]'
-- tool-lean-minimum-version
-- tool-lean-premium-service
 created_at: '2026-06-30'
 tags:
-aliases:
-  - 一堂FALSE/FLESAI低成本验证模型
-  - 一堂
-  - 低成本验证模型
-  - 验证模型
-  - 本验证模型
-  - 低成本验证
-aliases:
-  - 一堂FALSE/FLESAI低成本验证模型
-  - 一堂
-  - 低成本验证模型
-  - 低成本验证
-  - 验证模型
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 低成本验证
-- 创业全景图
 ---
-
 # 一堂 FALSE/FLESAI 低成本验证模型
 
 > 用一条成本光谱，把"不做产品直接验证"到"全量投入"之间的所有中间策略串起来，帮助创业者在确定性不足时选择最省钱的验证路径。

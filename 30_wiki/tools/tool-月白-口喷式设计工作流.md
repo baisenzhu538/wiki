@@ -6,48 +6,29 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 口喷式设计工作流
+  - 技能
+  - 技能：口喷式设计工作流
+  - 月白
 source_refs:
-- src_unknown
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AI平台算法咨询法]]'
-- '[[tool-月白-AI生成IP表情包]]'
-- '[[tool-月白-基于基础形象做动作延展（1到10）]]'
-- '[[tool-月白-表情包风格筛选与确定]]'
-- '[[tool-月白-电商白底图生成与高清重绘]]'
-- '[[tool-Truman-AI工具选型决策]]'
-- '[[tool-月白-AI提示词精准约束法]]'
-- '[[tool-月白-AI高清重绘去模糊]]'
-- '[[tool-月白-像素图高清重绘修复法]]'
-- '[[tool-月白-后台数据AI诊断法]]'
-- '[[tool-月白-找AI要平台专属方法（模型对抗法）]]'
-- '[[tool-月白-新媒体平台流量逻辑-问平台亲儿子AI法]]'
-- '[[tool-月白-用AIGC做设计专家批评复盘]]'
-- '[[tool-月白-短视频封面一秒吸睛法]]'
 tags:
-aliases:
-  - 技能：口喷式设计工作流
-  - 技能
-  - 口喷式设计工作流
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
 # 技能：口喷式设计工作流
 

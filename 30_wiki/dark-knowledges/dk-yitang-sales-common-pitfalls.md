@@ -6,59 +6,42 @@ dark_knowledge_type: failure
 status: reviewed
 source_person: 李蕊
 source_context: 一堂科学销售方法论课程（2026-07-02），销售管理失败模式提炼
+aliases:
+  - [[case-yitang-sales-transformation-jubensha-saas]]
+  - [[case-yitang-sales-transformation-meirongyuan]]
+  - [[case-yitang-sales-transformation-tuliaogongsi]]
+  - [[framework-yitang-nine-layer-deep-dig]]
+  - [[framework-yitang-sales-incentive-6d]]
+  - [[framework-yitang-scientific-sales-five-step]]
+  - [[framework-一堂-12种阻力总表]]
+  - [[framework-一堂-转化率提升六步法]]
+  - [[master-decision-hygiene]]
+  - [[tool-agent-spec-yitang-daily-weekly-meeting-host]]
+  - [[tool-agent-spec-yitang-incentive-design]]
+  - [[tool-agent-spec-yitang-payment-collection-risk]]
+  - [[tool-agent-spec-yitang-three-second-opening-scripts]]
+  - [[tool-opc-sales-dialogue-assistant]]
+  - [[tool-yitang-customer-segmentation-4step]]
+  - [[tool-yitang-payment-collection-playbook]]
+  - [[tool-yitang-sales-performance-management]]
+  - [[tool-yitang-sales-process-decomposition]]
+  - [[tool-yitang-sales-toolkit-radar]]
+  - [[tool-yitang-value-proposition-4step]]
+  - 一堂科学销售常见陷阱
+  - 一堂科学销售常见陷阱：六大反模式与修复动作
+  - 六大反模式与修复动作
+  - 反模式与修复动作
+  - 整合笔记
+  - 李蕊
+  - 科学销售常见陷阱
 source_refs:
-- 00_inbox/销售专题/_processed/销售专题_整合笔记.md
-- 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
 domain:
-- yitang
 tags:
-- '#sales'
-- '#failure-pattern'
-- '#yitang'
-- '#management'
-- '#pitfall'
-- audience:executor
-- scene:reference
-- skill-level:advanced
 trust_level: high
 reviewed_by: 欧阳锋
 related:
-aliases:
-  - 一堂科学销售常见陷阱：六大反模式与修复动作
-  - 一堂科学销售常见陷阱
-  - 六大反模式与修复动作
-  - 李蕊
-  - 科学销售常见陷阱
-  - 反模式与修复动作
-aliases:
-  - 一堂科学销售常见陷阱：六大反模式与修复动作
-  - 一堂科学销售常见陷阱
-  - 六大反模式与修复动作
-  - 李蕊
-- '[[case-yitang-sales-transformation-jubensha-saas]]'
-- '[[case-yitang-sales-transformation-meirongyuan]]'
-- '[[case-yitang-sales-transformation-tuliaogongsi]]'
-- '[[framework-yitang-nine-layer-deep-dig]]'
-- '[[framework-yitang-sales-incentive-6d]]'
-- '[[framework-yitang-scientific-sales-five-step]]'
-- '[[framework-一堂-12种阻力总表]]'
-- '[[framework-一堂-转化率提升六步法]]'
-- '[[master-decision-hygiene]]'
-- '[[tool-opc-sales-dialogue-assistant]]'
-- '[[tool-yitang-customer-segmentation-4step]]'
-- '[[tool-yitang-payment-collection-playbook]]'
-- '[[tool-yitang-sales-performance-management]]'
-- '[[tool-yitang-sales-process-decomposition]]'
-- '[[tool-yitang-sales-toolkit-radar]]'
-- '[[tool-yitang-value-proposition-4step]]'
-- '[[tool-agent-spec-yitang-daily-weekly-meeting-host]]'
-- '[[tool-agent-spec-yitang-incentive-design]]'
-- '[[tool-agent-spec-yitang-payment-collection-risk]]'
-- '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
 created_at: 2026-07-02
 updated_at: 2026-07-02
-aliases:
-- 整合笔记
 ---
 # 一堂科学销售常见陷阱：六大反模式与修复动作
 

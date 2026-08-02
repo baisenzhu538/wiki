@@ -10,27 +10,17 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- decision-science
+aliases:
+  - audience:manager
+  - scene:execution
+  - skill-level:intermediate
+  - 最佳实践收集
+  - 最佳实践收集：系统性收集团队/行业的最佳做法
+  - 系统性收集团队/行业的最佳做法
 source_refs:
-- src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- concept-X型Y型决策习惯
-- concept-发现决策
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - 最佳实践收集：系统性收集团队/行业的最佳做法
-  - 最佳实践收集
-  - 系统性收集团队/行业的最佳做法
-- audience:manager
-- scene:execution
-- skill-level:intermediate
 ---
 # 最佳实践收集：系统性收集团队/行业的最佳做法
 

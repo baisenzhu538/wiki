@@ -10,22 +10,17 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- decision-science
-source_refs:
-- 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-灵感闪现_vlm_desc.md
-related:
 aliases:
-  - 落地卡片：灵感闪现
-  - 落地卡片
+  - [[decision-science-domain-digest]]
+  - [[pending_unknown]]
+  - [[yitang-domain-digest]]
+  - concept-X型Y型决策习惯
+  - concept-发现决策
   - 灵感闪现
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- concept-X型Y型决策习惯
-- concept-发现决策
+  - 落地卡片
+  - 落地卡片：灵感闪现
+source_refs:
+related:
 updated_at: '2026-06-29'
 ---
 # 落地卡片：灵感闪现

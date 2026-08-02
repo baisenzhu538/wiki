@@ -11,74 +11,27 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
-- conversion-rate
+aliases:
+  - audience:ceo
+  - conversion
+  - handle
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂转化率黑客爬山地图
+  - 一堂转化率黑客爬山地图：六段L1L6能力段位与三次跨越
+  - 六段
+  - 化率黑客爬山地图
+  - 能力段位
+  - 能力段位与三次跨越
+  - 转化能力段位
 source_refs:
-- 00_inbox/Handle the business/conversion rate/_vlm_output/images/转化率黑客的爬山地图_vlm.md
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2774-L2800
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2840-L2862
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4752-L4756
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4772-L4794
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2804-L2804
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2812-L2812
 related:
 discoverable_by:
   - "转化率黑客爬山地图"
   - "L1-L6转化能力段位"
-- '[[framework-一堂-转化率黑客-总纲]]'
-- '[[framework-一堂-转化基本功七个自我修养]]'
-- '[[framework-一堂-转化率提升六步法]]'
-- '[[framework-一堂-业务公式拆解-总纲]]'
-- '[[conversion-rate-domain-digest]]'
-- '[[case-一堂-作业率20到50]]'
-- '[[case-一堂-六杯奶茶推荐率近100]]'
-- '[[case-一堂-动力篇案例库]]'
-- '[[case-一堂-晓莉学而思引流课]]'
-- '[[case-一堂-棋牌室办卡率1到5]]'
-- '[[case-一堂-视频号加微信率44到85]]'
-- '[[case-一堂-触点篇案例库]]'
-- '[[case-一堂-跆拳道黑带卡]]'
-- '[[tool-一堂-12大易浪费触点]]'
-- '[[tool-一堂-ABACC叙事法]]'
-- '[[tool-一堂-五大转化率范式]]'
-- '[[tool-一堂-五种挖触点]]'
-- '[[tool-一堂-准备系数法则]]'
-- '[[tool-一堂-减法排序四招]]'
-- '[[tool-一堂-制作仿真三要点]]'
-- '[[tool-一堂-提假设四大类策略]]'
-- '[[tool-一堂-经典故事线框架库]]'
-- '[[tool-一堂-触点减法与排序]]'
-- '[[tool-一堂-触点挖掘四层级]]'
-- '[[tool-一堂-触点质量五维]]'
-- '[[tool-一堂-讲香双策略]]'
 quality_labels:
-- principle
-- framework
-- cited
-- actionable
 tags:
-aliases:
-  - 一堂转化率黑客爬山地图：六段L1L6能力段位与三次跨越
-  - 一堂转化率黑客爬山地图
-  - 六段
-  - 能力段位与三次跨越
-  - 能力段位
-  - 转化能力段位
-aliases:
-  - 一堂转化率黑客爬山地图：六段L1L6能力段位与三次跨越
-  - 一堂转化率黑客爬山地图
-  - 六段
-  - 能力段位与三次跨越
-  - 化率黑客爬山地图
-  - 转化能力段位
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- conversion
-- handle
 ---
-
 # 一堂转化率黑客爬山地图：六段 L1-L6 与三次跨越
 
 > **一句话**：D 域自带段位体系——爬山地图把转化率能力切成 L1-L6 六段（图原字为权威，口述未口播逐段名称），口述主讲**三次跨越**（混乱→稳定→专业→迁移），两者是同一座山的两种坐标：六段回答「你在哪」，三次跨越回答「下一步往哪走」。

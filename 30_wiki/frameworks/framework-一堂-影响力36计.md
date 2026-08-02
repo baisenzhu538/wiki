@@ -11,74 +11,27 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
-- conversion-rate
+aliases:
+  - audience:ceo
+  - conversion
+  - handle
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂影响力
+  - 一堂影响力36计：6原则×6强度A1F6全名+两大对齐原则+强弱规律+段位元规则
+  - 两大对齐原则
+  - 全名+
+  - 原则
+  - 强度A1
 source_refs:
-- 00_inbox/Handle the business/conversion rate/_vlm_output/images/转化率黑客-影响力36计-极其重要-逐字扫描_vlm.md
-- 00_inbox/Handle the business/conversion rate/_vlm_output/images/转化率影响力36计-高清版_vlm.md
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5744-L5782
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4176-L4188
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3786-L3814
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3834-L3892
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4170-L4170
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4524-L4530
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4854-L4856
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5102-L5104
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5338-L5338
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5566-L5588
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3896-L4254
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4256-L4654
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4656-L4912
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4916-L5262
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5264-L5428
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5430-L5722
 related:
 discoverable_by:
   - "影响力36计"
   - "6原则6强度"
   - "影响力段位"
-- '[[framework-一堂-转化率黑客-总纲]]'
-- '[[framework-一堂-动力三曲线]]'
-- '[[framework-一堂-转化基本功七个自我修养]]'
-- '[[framework-一堂-转化率提升六步法]]'
-- '[[framework-一堂-十指模型]]'
-- '[[conversion-rate-domain-digest]]'
-- '[[tool-一堂-FAB说服法]]'
-- '[[tool-一堂-影响力六原则]]'
-- '[[case-一堂-入职率50到80-100]]'
-- '[[case-一堂-全会员出圈率1.5翻倍]]'
-- '[[case-一堂-六杯奶茶推荐率近100]]'
-- '[[case-一堂-动力篇案例库]]'
-- '[[case-一堂-我请客推荐率5到40]]'
-- '[[case-一堂-跆拳道黑带卡]]'
 quality_labels:
-- principle
-- framework
-- cited
-- actionable
 tags:
-aliases:
-  - 一堂影响力36计：6原则×6强度A1F6全名+两大对齐原则+强弱规律+段位元规则
-  - 一堂影响力
-  - 原则
-  - 强度A1
-  - 全名+
-  - 两大对齐原则
-aliases:
-  - 一堂影响力36计：6原则×6强度A1F6全名+两大对齐原则+强弱规律+段位元规则
-  - 一堂影响力
-  - 原则
-  - 强度A1
-  - 全名+
-  - 两大对齐原则
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- conversion
-- handle
 ---
-
 # 一堂影响力 36 计：6 原则 × 6 强度
 
 > **一句话**：影响力法则（动力三曲线的右曲线·85 分）的完整工具集——6 大原则 × 6 档强度 = 36 计，「你们只需要在想提升影响力的时候，从这三十六计里选就好了」（`动力篇-口述:5780`）。计名以逐字扫描版图片原字为权威（诊断书 §四 #8），口述 4190-5686 为唯一逐条讲解版。

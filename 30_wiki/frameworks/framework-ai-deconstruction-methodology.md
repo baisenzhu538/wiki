@@ -9,50 +9,22 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 三层拆书法
+  - 书方法
+  - 层拆书法
+  - 欢拆书方法
+  - 王欢三层拆书法
 source_refs:
-- 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
-- 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
-- 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
 related:
 discoverable_by:
   - "三层拆书法"
   - "王欢拆书方法"
-- '[[dk-ai-prediction-expiry-date]]'
-- '[[concept-ai-information-quality-ladder]]'
-- '[[framework-ai2041-critical-reading-os]]'
-- '[[tool-ai-critical-reading-three-layers]]'
-- '[[concept-ai-chair-determines-view]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[framework-wanghuan-harness-seven-stages]]'
-- '[[framework-wanghuan-ooda-loop]]'
-- '[[framework-wanghuan-gan-three-roles]]'
-- '[[framework-wanghuan-bitcoe-prompt-framework]]'
 tags:
-aliases:
-  - 王欢三层拆书法
-  - 层拆书法
-  - 三层拆书法
-  - 书方法
-  - 欢拆书方法
-aliases:
-  - 王欢三层拆书法
-  - 欢拆书方法
-  - 层拆书法
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 quality_labels:
-- cited
-- principle
-- validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
 aliases: []

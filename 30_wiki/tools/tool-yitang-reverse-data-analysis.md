@@ -12,44 +12,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: advanced
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 逆向数据分析 从公开数据反推商业真相
-- ID 自增分析 爬虫抓取 产品拆解 门店侦察
-- 逆向数据分析报告模板 如何做逆向分析
-- 逆向数据分析失败模式 数据不准确 假设错误 样本不足
-- 竞品不公开数据获取 如何拿到竞品不想让你看到的数据
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[tool-yitang-weapon-product-reverse]]'
-- '[[tool-yitang-research-two-dimensional-positioning]]'
-- '[[tool-yitang-research-quantitative-modeling]]'
-- '[[tool-yitang-research-cross-validation]]'
-- '[[tool-yitang-research-exhaust-means]]'
-- '[[framework-yitang-research-weapon-system]]'
-- '[[yt-research-competitor-toolkit]]'
-- '[[tool-yitang-consumer-goods-research]]'
-- '[[tool-yitang-tech-project-research]]'
-- '[[tool-yitang-weapon-media-search]]'
-- '[[tool-yitang-weapon-third-party-database]]'
-- '[[tool-月白-控制产品画面尺寸比例]]'
-tags:
 aliases:
-  - 逆向数据分析：从公开数据反推商业真相
-  - 逆向数据分析
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 从公开数据反推商业真相
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - 逆向数据分析
+  - 逆向数据分析：从公开数据反推商业真相
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 逆向数据分析：从公开数据反推商业真相
 
 > **一句话**：公开数据中隐藏着商业真相。通过逆向分析ID规律、爬虫抓取、产品拆解、门店侦察等手段，可以获取不公开的关键数据。

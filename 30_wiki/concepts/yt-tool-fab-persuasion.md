@@ -31,6 +31,13 @@ related:
 review_by: 2026-12-06
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+aliases:
+  - FAB核心说服
+  - FAB核心说服：从产品特性到用户利益的转化法
+  - framework_lens: 用户中心 / 转化文案
+  - 从产品特性到用户利益的转化法
+  - 品特性到用户利益的转化法
+  - 核心说服
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: enriched
@@ -45,22 +52,6 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
-aliases:
-  - FAB核心说服：从产品特性到用户利益的转化法
-  - FAB核心说服
-  - 从产品特性到用户利益的转化法
-  - 品特性到用户利益的转化法
-  - 核心说服
-aliases:
-  - FAB核心说服：从产品特性到用户利益的转化法
-  - FAB核心说服
-  - 从产品特性到用户利益的转化法
-- framework_lens: 用户中心 / 转化文案
-  follow_up_question: 用户看完第一句后能否立刻回答'这跟我有什么关系？'
-- framework_lens: 可验证性 / 信任
-  follow_up_question: '''快 10 倍''''省 50% 时间''等说法是否有数据或场景支撑？'
-- framework_lens: 期望管理 / NPS
-  follow_up_question: 用户被说服后体验，是否会发现'说得比做得好'？
 - framework_lens: 场景适配 / 说服节奏
   follow_up_question: 高客单价/低认知场景是否仍在用功能列表开场？
 updated_at: '2026-06-16'
@@ -69,7 +60,6 @@ trust_level: medium-high
 aliases:
 - 课程地图精华串讲
 ---
-
 ## Summary
 
 > **一句话**：90% 的产品介绍都死在第一句——因为他们在说「我有什么」，而不是「你能得到什么」。

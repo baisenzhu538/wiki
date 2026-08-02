@@ -4,10 +4,6 @@ title: 王欢任务→产品→系统演进框架
 type: framework
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -16,51 +12,26 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 务产品系统演进
+  - 欢任务产品系统演进
+  - 王欢
+  - 王欢任务→产品→系统演进框架
+  - 系统演进框架
 source_refs:
-- src_unknown
-- src_unknown
 related:
 discoverable_by:
   - "王欢任务产品系统演进"
-- '[[tool-mece体系框架法]]'
-- '[[tool-泛产品落地-内核和边界]]'
-- '[[tool-泛产品落地-灵感闪现]]'
-- '[[tool-泛产品落地-业务建模]]'
-- '[[tool-泛产品落地-解放思想]]'
-- '[[tool-泛产品设计-需求工具箱指南]]'
-- '[[tool-Truman-判断力产品化与系统赋能]]'
-- '[[tool-泛产品落地-ROI分析]]'
-- '[[framework-wanghuan-ooda-loop]]'
 diagnostic_signals:
-- lens: 任务层→产品层的跃迁信号
-  follow_up: 立即拆解输入字段与输出格式，做成可复用模板，下周验证是否仍在使用
-- lens: 演员思维固化
-  follow_up: 用导演视角重画流程：哪些环节由 AI 执行、哪些由人验收、标准是否书面化
-- lens: 伪需求 / 低频痛点
-  follow_up: 回到任务层重新验证：这件事我每周都做吗？不做我会开心吗？
-- lens: 系统层缺口
-  follow_up: 绘制数据流图，识别自动触发点与人工验收点，设计最小闭环
+follow_up: 立即拆解输入字段与输出格式，做成可复用模板，下周验证是否仍在使用
+follow_up: 用导演视角重画流程：哪些环节由 AI 执行、哪些由人验收、标准是否书面化
+follow_up: 回到任务层重新验证：这件事我每周都做吗？不做我会开心吗？
+follow_up: 绘制数据流图，识别自动触发点与人工验收点，设计最小闭环
 tags:
-aliases:
-  - 王欢任务→产品→系统演进框架
-  - 王欢
-  - 欢任务产品系统演进
-  - 系统演进框架
-  - 务产品系统演进
-aliases:
-  - 王欢任务→产品→系统演进框架
-  - 王欢
-  - 欢任务产品系统演进
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 ---
-
 # 王欢任务→产品→系统演进框架
 
 > **Burn line**: 一次性任务是消耗，可复用产品是资产，可编排系统是护城河。

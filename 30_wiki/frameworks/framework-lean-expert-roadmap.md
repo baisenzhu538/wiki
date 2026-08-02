@@ -9,37 +9,23 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-- lean-startup
-- yitang
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 十年修炼
+  - 手十年修炼地图
+  - 益高手十年修炼地图
+  - 精益创业
+  - 精益高手十年修炼地图
+  - 高手十年修炼地图
 source_refs:
-- 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_ocr_text.md
-- 00_inbox/精益创业/Truman-精益创业-精益高手-十年修炼-01_vlm_desc.md
 related:
 discoverable_by:
   - "精益高手十年修炼地图"
-- '[[lean-startup-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- tool-lean-minimum-version
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - 精益高手十年修炼地图
-  - 高手十年修炼地图
-  - 手十年修炼地图
-  - 益高手十年修炼地图
-aliases:
-  - 精益高手十年修炼地图
-  - 益高手十年修炼地图
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-aliases:
-- 十年修炼
-- 精益创业
 ---
 # 精益高手十年修炼地图
 

@@ -3,36 +3,24 @@ id: tool-马易-深度沉浸需求挖掘
 title: 技能：深度沉浸需求挖掘
 type: tool
 domain:
-- ai-collaboration
-- yitang
-- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 技能
+  - 技能：深度沉浸需求挖掘
+  - 深度沉浸需求挖掘
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-马易-AI能力团队复制]]'
-- '[[tool-马易-AI任务拆解提升控制度]]'
-- '[[tool-马易-AI答疑运营风格适配]]'
-- '[[tool-马易-隐私安全分层解决]]'
-- '[[tool-马易-AIGC项目ROI评估]]'
-- '[[tool-demand-iceberg-l2-scenario]]'
-- '[[tool-马易-AI落地认知速成-最佳实践学习法]]'
-- '[[tool-马易-中国企业AI落地五步法]]'
-- '[[tool-马易-关键假设识别与验证]]'
 tags:
-aliases:
-  - 技能：深度沉浸需求挖掘
-  - 技能
-  - 深度沉浸需求挖掘
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 ---
 # 技能：深度沉浸需求挖掘
 

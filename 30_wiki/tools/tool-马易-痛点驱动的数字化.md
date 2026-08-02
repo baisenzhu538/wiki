@@ -3,9 +3,6 @@ id: tool-马易-痛点驱动的数字化
 title: 技能：痛点驱动的数字化
 type: tool
 domain:
-- ai-collaboration
-- yitang
-- ai-saas
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
@@ -13,27 +10,18 @@ review_date: '2026-06-29'
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 技能
+  - 技能：痛点驱动的数字化
+  - 痛点驱动的数字化
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
 related:
-- '[[tool-马易-AI落地认知速成-最佳实践学习法]]'
-- '[[tool-马易-判断标准快速产出法]]'
-- '[[tool-马易-工作流优先于AIGC的决策方法]]'
-- '[[tool-马易-数据标注正确法]]'
-- tool-马易-AI能力团队复制
-- tool-马易-AI任务拆解提升控制度
-- tool-马易-AI答疑运营风格适配
-- tool-马易-隐私安全分层解决
-- tool-马易-AIGC项目ROI评估
 tags:
-aliases:
-  - 技能：痛点驱动的数字化
-  - 技能
-  - 痛点驱动的数字化
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 ---
 # 技能：痛点驱动的数字化
 

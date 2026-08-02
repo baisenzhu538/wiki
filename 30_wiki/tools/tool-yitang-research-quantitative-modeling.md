@@ -12,47 +12,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 定量建模 用数字说话 调研分析框架
-- 市场规模估算 TAM SAM SOM 模型
-- 财务模型 用户模型 LTV CAC 竞争模型
-- 数据质量检查 来源 时效 样本 方法 偏差
-- 模型验证 历史验证 交叉验证 敏感性分析
-- 定量建模失败模式 数据质量差 模型过度复杂
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[concept-yitang-research-facts-first]]'
-- '[[yitang-research-domain-digest]]'
-- '[[tool-yitang-research-cross-validation]]'
-- '[[tool-yitang-research-single-point-sniper]]'
-- '[[tool-yitang-research-follow-map]]'
-- '[[framework-yitang-oscar-research]]'
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[tool-yitang-research-cross-validation]]'
-- '[[tool-yitang-research-unit-model]]'
-- '[[dk-yitang-research-ai-hallucination]]'
-- '[[dk-yitang-expert-interview-5-traps]]'
-- '[[concept-yitang-research-mindset]]'
-- '[[tool-yitang-research-deep-attribution]]'
-- '[[tool-yitang-reverse-data-analysis]]'
-tags:
 aliases:
-  - 定量建模：用数字说话的分析框架
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 定量建模
+  - 定量建模：用数字说话的分析框架
   - 用数字说话的分析框架
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 定量建模：用数字说话的分析框架
 
 > **一句话**：定量建模不是"做数学题"，而是"用数字把模糊的判断变得清晰可验证"。没有数字支撑的调研结论，都是观点。

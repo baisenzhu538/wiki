@@ -2,12 +2,19 @@
 id: framework-logic-cleanliness-five-levels
 title: 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
 type: framework
+aliases:
+  - Truman
+  - framework_lens: 逻辑洁癖五段位
+  - 从散点堆到逻辑链的建模审美标准
+  - 建模能力培训
+  - 洁度五级
+  - 洁癖五段位
+  - 辑整洁度五级
+  - 逻辑洁癖五段位
+  - 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
 source_refs:
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（逻辑洁癖与建模审美）
 created_at: '2026-06-14'
@@ -20,40 +27,14 @@ confidence: 0.89
 related:
 discoverable_by:
   - "逻辑整洁度五级"
-- '[[modeling-capability-system]]'
-- '[[concept-mckinsey-mece]]'
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 diagnostic_signals:
-aliases:
-  - 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
-  - 逻辑洁癖五段位
-  - 从散点堆到逻辑链的建模审美标准
-  - Truman
-  - 洁癖五段位
-  - 洁度五级
-aliases:
-  - 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
-  - 逻辑洁癖五段位
-  - 从散点堆到逻辑链的建模审美标准
-  - Truman
-  - 辑整洁度五级
 - framework_lens: 逻辑洁癖五段位
-  follow_up_question: 这些点是 L1 散点堆，还是已经拆成 L2 清单？是否还能分出优先级？
 - framework_lens: 逻辑洁癖五段位
-  follow_up_question: 是否达到了 L4 MECE？概念之间是否彼此独立、完全穷尽？
-- framework_lens: 逻辑洁癖五段位
-  follow_up_question: 模块之间是否有推理关系，还是只是分类？是否达到了 L5 逻辑链？
-aliases:
-- 建模能力培训
+follow_up_question: 这些点是 L1 散点堆，还是已经拆成 L2 清单？是否还能分出优先级？
+follow_up_question: 是否达到了 L4 MECE？概念之间是否彼此独立、完全穷尽？
+follow_up_question: 模块之间是否有推理关系，还是只是分类？是否达到了 L5 逻辑链？
 ---
-
 # 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
 
 > **Burn line**: 建模不是把东西堆在一起，而是让内容从散点 → 清单 → 优先级 → MECE → 逻辑链逐段升级。

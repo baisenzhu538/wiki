@@ -9,27 +9,17 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- decision-science
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 系统性理解行业结构
+  - 行业分析画布
+  - 行业分析画布：系统性理解行业结构
 source_refs:
-- src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- concept-X型Y型决策习惯
-- concept-发现决策
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - 行业分析画布：系统性理解行业结构
-  - 行业分析画布
-  - 系统性理解行业结构
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 ---
 # 行业分析画布：系统性理解行业结构
 

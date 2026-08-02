@@ -12,49 +12,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 5Why 深度归因 找到问题根因
-- 根因分析 归因错误 如何避免停留在表面解释
-- 问题反复出现 如何找到真正原因
-- 深度复盘 归因方法
-- 可干预根因 归因过深 如何停在可行动层面
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[framework-yitang-iterative-recursive-digging]]'
-- '[[yitang-research-domain-digest]]'
-- '[[tool-yitang-research-two-dimensional-positioning]]'
-- '[[tool-yitang-research-single-point-sniper]]'
-- '[[tool-yitang-research-follow-map]]'
-- '[[framework-yitang-oscar-research]]'
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[tool-yitang-research-cross-validation]]'
-- '[[tool-yitang-research-quantitative-modeling]]'
-- '[[dk-yitang-research-starter-vs-veteran]]'
-- '[[concept-yitang-research-mindset]]'
-- '[[tool-yitang-comparable-company-selection]]'
-- '[[tool-yitang-user-interview-5steps]]'
-- '[[tool-月白-AI设计里程碑拆解法]]'
-- '[[tool-月白-里程碑思维-找对标优先于做设计]]'
-- '[[tool-月白-里程碑思维拆解设计流程]]'
-- '[[tool-通过综合案例沙盘走通全流程]]'
-tags:
 aliases:
-  - 深度归因：找到问题根因的5Why法
-  - 深度归因
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 找到问题根因的5Why法
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - 深度归因
+  - 深度归因：找到问题根因的5Why法
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 深度归因：找到问题根因的5Why法
 
 > **一句话**：表面现象背后有深层原因。5Why法强迫你连续追问"为什么"，直到找到可干预的根因，而不是停留在表面解释。

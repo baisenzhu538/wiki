@@ -12,45 +12,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: beginner
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 行业扫描 快速建立行业认知 1-2天完成
-- 产业链图谱 利润分布 关键控制点
-- 行业边界定义 市场规模 增速 渗透率
-- 关键玩家识别 行业集中度 CR5 CR10
-- 行业趋势分析 技术趋势 用户趋势 政策趋势
-- 行业认知报告模板 机会和威胁
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[tool-candy-positioning-canvas]]'
-- '[[tool-demand-iceberg-l2-scenario]]'
-- '[[tool-yitang-research-best-practice]]'
-- '[[tool-yitang-research-company-disassembly]]'
-- '[[tool-yitang-research-competitor-tracking]]'
-- '[[tool-yitang-research-unit-model]]'
-- '[[tool-yitang-research-validate-assumption]]'
-tags:
 aliases:
-  - 行业扫描：快速建立行业全貌认知
-  - 行业扫描
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 快速建立行业全貌认知
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - 行业扫描
+  - 行业扫描：快速建立行业全貌认知
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 行业扫描：快速建立行业全貌认知
 
 > **一句话**：进入新行业前，用1-2天完成行业扫描，建立行业全貌认知。不是深度调研，而是快速画出行业地图，识别机会和威胁。

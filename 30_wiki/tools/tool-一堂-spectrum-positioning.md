@@ -11,23 +11,16 @@ domain: yitang
 confidence: 0.75
 trust_level: medium
 related:
-- '[[tool-一堂-business-prediction-15-char]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-source_refs:
-- pending_archive: src_unknown
-tags:
 aliases:
-  - 技能：光谱模型定位法
-  - 技能
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 光谱模型定位法
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - 技能
+  - 技能：光谱模型定位法
+source_refs:
+tags:
 ---
-
 # 技能：光谱模型定位法
 
 ## 不要用的场景

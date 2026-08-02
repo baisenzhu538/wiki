@@ -10,30 +10,18 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- decision-science
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 场景推演
+  - 场景推演：还原用户真实使用场景
+  - 还原用户真实使用场景
 source_refs:
-- src_unknown
 related:
-- '[[yitang-domain-digest]]'
-- '[[decision-science-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[tool-strategy-customer-selection]]'
-- tool-ai-prd-for-ai
-- concept-X型Y型决策习惯
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - 场景推演：还原用户真实使用场景
-  - 场景推演
-  - 还原用户真实使用场景
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 ---
-
 # 场景推演：还原用户真实使用场景
 
 ## 一句话定义

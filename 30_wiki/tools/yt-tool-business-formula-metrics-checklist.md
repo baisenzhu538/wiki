@@ -5,22 +5,13 @@ status: enriched
 reviewed_by: pending
 updated_at: '2026-07-12'
 related:
-- '[[business-formula-domain-digest]]'
-- '[[yt-business-formula-qualitative-metrics-library]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[dk-yitang-business-formula-plus-times-trap]]'
-- '[[framework-一堂-业务公式拆解-总纲]]'
-- '[[pending_unknown]]'
-- '[[yt-tool-business-formula-parameter-arsenal]]'
-source_refs:
-- pending_archive: src_unknown
-tags:
 aliases:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
   - 业务公式数据埋点设计清单
-- audience:general
-- scene:reference
-- skill-level:intermediate
+source_refs:
+tags:
 ---
 # 业务公式数据埋点设计清单
 

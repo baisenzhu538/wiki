@@ -9,28 +9,20 @@ updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
 domain:
-- ai-collaboration
-- yitang
-source_refs:
-- 00_inbox/人机协作双三角/_processed/一堂DOC-20260704025752_vlm.md
-tags:
 aliases:
-  - 一堂DOC20260704025752双三角案例
+  - #domain/ai-collaboration
+  - #method/dual-triangle
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
   - 一堂DOC
+  - 一堂DOC20260704025752双三角案例
+  - 人机协作双三角
   - 双三角案例
   - 角案例
-aliases:
-  - 一堂DOC20260704025752双三角案例
-  - 一堂DOC
-  - 双三角案例
-- '#domain/ai-collaboration'
-- '#method/dual-triangle'
-- audience:general
-- scene:reference
-- skill-level:intermediate
+source_refs:
+tags:
 reviewed_by: pending
-aliases:
-- 人机协作双三角
 ---
 # 一堂DOC-20260704025752
 

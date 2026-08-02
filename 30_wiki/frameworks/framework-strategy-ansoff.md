@@ -6,11 +6,21 @@ status: reviewed
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- growth
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 产品
+  - 冉鹏PPT截图
+  - 品市场增长战略
+  - 品扩张
+  - 场产品扩张
+  - 夫矩阵
+  - 安索夫矩阵
+  - 安索夫矩阵：产品市场增长战略
+  - 市场增长战略
+  - 引擎点火
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_91_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_91_vlm_desc.md
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
@@ -21,36 +31,7 @@ discoverable_by:
   - "产品市场增长战略"
   - "安索夫增长矩阵"
   - "市场产品扩张"
-- '[[strategy-domain-digest]]'
-- '[[tool-泛产品落地-内核和边界]]'
-- '[[tool-泛产品落地-灵感闪现]]'
-- '[[tool-泛产品落地-业务建模]]'
-- '[[tool-泛产品落地-解放思想]]'
-- '[[tool-泛产品设计-需求工具箱指南]]'
-- '[[tool-Truman-判断力产品化与系统赋能]]'
-- yt-five-step-method-complete
-- yt-demand-quantitative-estimation
 tags:
-aliases:
-  - 安索夫矩阵：产品市场增长战略
-  - 安索夫矩阵
-  - 产品
-  - 市场增长战略
-  - 品扩张
-  - 夫矩阵
-aliases:
-  - 安索夫矩阵：产品市场增长战略
-  - 安索夫矩阵
-  - 产品
-  - 市场增长战略
-  - 场产品扩张
-  - 品市场增长战略
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 冉鹏PPT截图
-- 引擎点火
 ---
 # 安索夫矩阵：产品-市场增长战略
 

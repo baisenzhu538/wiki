@@ -9,32 +9,22 @@ updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
 domain:
-- ai-collaboration
-- yitang
-source_refs:
-- 00_inbox/人机协作双三角/_processed/一堂双三角-AI企业经营数据分析_vlm.md
-tags:
 aliases:
-  - 一堂双三角AI企业经营数据分析双三角案例
-  - 一堂双三角
+  - #domain/ai-collaboration
+  - #method/dual-triangle
   - AI企业经营数据分析
-  - 双三角案例
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 一堂双三角
+  - 一堂双三角AI企业经营数据分析双三角案例
+  - 人机协作双三角
   - 企业经营数据分析
   - 企业经营数据分析双三角案例
-aliases:
-  - 一堂双三角AI企业经营数据分析双三角案例
-  - 一堂双三角
-  - AI企业经营数据分析
   - 双三角案例
-- '#domain/ai-collaboration'
-- '#method/dual-triangle'
-- audience:general
-- scene:reference
-- skill-level:intermediate
+source_refs:
+tags:
 reviewed_by: pending
-aliases:
-- 一堂双三角
-- 人机协作双三角
 ---
 # 一堂双三角-AI企业经营数据分析
 

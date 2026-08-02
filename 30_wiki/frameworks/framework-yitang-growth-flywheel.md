@@ -4,66 +4,35 @@ type: framework
 title: 增长飞轮：把单点增长变成自我强化的增强回路
 status: reviewed
 domain:
-- yitang
-- growth
-- strategy
 confidence: 0.8
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 quality_labels:
-- cited
-- insight
-- principle
-- quality
-- validated
 updated_at: '2026-06-28'
+aliases:
+  - Truman
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 一堂五步法之增长
+  - 亚马逊增长飞轮
+  - 增长飞轮
+  - 增长飞轮：把单点增长变成自我强化的增强回路
+  - 强回路
+  - 把单点增长变成自我强化的增强回路
+  - 长飞轮
 source_refs:
-- 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-口述.txt
-- 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-笔记.txt
-- 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-亚马逊增长飞轮_vlm_desc.md
-- 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-四步法_vlm_desc.md
-- 00_inbox/一堂五步法之增长/truman-渠道增长飞轮-案例-top city_vlm_desc.md
 source_person: Truman
 related:
 discoverable_by:
   - "增长飞轮"
   - "增强回路"
   - "单点增长系统化"
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[framework-yitang-channel-industrialization]]'
-- '[[case-yitang-amazon-growth-flywheel]]'
-- '[[case-yitang-novel-app-flywheel]]'
-- '[[case-yitang-topcity-growth-flywheel]]'
-- '[[tool-yitang-growth-flywheel-design]]'
-- '[[framework-yitang-nine-layer-deep-dig]]'
-- '[[framework-yitang-six-layer-cross-validation]]'
 review_date: '2026-06-28'
 tags:
-aliases:
-  - 增长飞轮：把单点增长变成自我强化的增强回路
-  - 增长飞轮
-  - 把单点增长变成自我强化的增强回路
-  - Truman
-  - 长飞轮
-  - 强回路
-aliases:
-  - 增长飞轮：把单点增长变成自我强化的增强回路
-  - 增长飞轮
-  - 把单点增长变成自我强化的增强回路
-  - Truman
-  - 长飞轮
-  - 强回路
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-aliases:
-- 一堂五步法之增长
-- 亚马逊增长飞轮
 ---
-
-
 # 增长飞轮：把单点增长变成自我强化的增强回路
 
 ## 一句话

@@ -12,52 +12,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 交叉验证 多源印证 信息可信度
-- 单一来源 信息验证 如何判断信息是否可靠
-- 调研信息验证 交叉验证方法
-- 关键信息 验证状态 调研结论可信度
-- 信息来源独立性 如何判断两个来源是否独立
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[tool-yitang-research-normalize-summary]]'
-- '[[yitang-research-domain-digest]]'
-- '[[tool-yitang-research-quantitative-modeling]]'
-- '[[concept-yitang-research-facts-first]]'
-- '[[tool-yitang-research-follow-map]]'
-- '[[framework-yitang-oscar-research]]'
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[tool-yitang-research-quantitative-modeling]]'
-- '[[dk-yitang-research-ai-hallucination]]'
-- '[[dk-yitang-research-source-freshness]]'
-- '[[dk-yitang-expert-interview-5-traps]]'
-- '[[concept-yitang-research-mindset]]'
-- '[[tool-yitang-app-store-data]]'
-- '[[tool-yitang-bp-analysis]]'
-- '[[tool-yitang-research-deep-attribution]]'
-- '[[tool-yitang-research-single-point-sniper]]'
-- '[[tool-yitang-research-two-dimensional-positioning]]'
-- '[[tool-yitang-reverse-data-analysis]]'
-- '[[tool-yitang-user-interview-5steps]]'
-- '[[tool-yitang-weapon-industry-expert]]'
-tags:
 aliases:
-  - 交叉验证：多源印证的信息可信度提升
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 交叉验证
+  - 交叉验证：多源印证的信息可信度提升
   - 多源印证的信息可信度提升
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 交叉验证：多源印证的信息可信度提升
 
 > **一句话**：单一来源的信息不可信。交叉验证强迫你用至少2个独立来源验证关键信息，确保结论可靠。

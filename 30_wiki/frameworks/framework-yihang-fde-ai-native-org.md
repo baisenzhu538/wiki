@@ -11,39 +11,24 @@ language: zh-CN
 created_at: 2026-07-06
 updated_at: 2026-07-06
 domain:
-- ai-collaboration
-- yitang
+aliases:
+  - FDE工程×AI原生组织用双三角建中国风格FD工程师培养体系
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂双三角
+  - 人机协作双三角
+  - 原生组织
+  - 原生组织用双三角建中国风格
+  - 工程
+  - 工程师培养体系
+  - 用双三角建中国风格
 source_refs:
-- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 related:
 discoverable_by:
   - "FDE AI原生组织"
-- '[[concept-yihang-dual-triangle-core]]'
-- '[[method-yihang-dual-triangle-team-assembly]]'
-- '[[concept-yihang-methodology-production-pipeline]]'
-- '[[concept-yihang-research-driven-company]]'
 tags:
-aliases:
-  - FDE工程×AI原生组织用双三角建中国风格FD工程师培养体系
-  - 工程
-  - 原生组织
-  - 用双三角建中国风格
-  - 工程师培养体系
-  - 原生组织用双三角建中国风格
-aliases:
-  - FDE工程×AI原生组织用双三角建中国风格FD工程师培养体系
-  - 工程
-  - 原生组织
-  - 用双三角建中国风格
-  - 工程师培养体系
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 一堂双三角
-- 人机协作双三角
 ---
-
 # FDE 工程 × AI 原生组织——用双三角建中国风格 FD 工程师培养体系
 
 > **一句话定义**：Truman 的双重愿景——FDE（Future Delivery Engineer/AI 落地工程师）：用双三角做统一工作框架，1000 块钱一个案例 × 1000 个案例 = 改变世界。AI 原生组织：研发型公司做"过去做不出来的东西"，教育供应链免费，品控线优先于 deadline。

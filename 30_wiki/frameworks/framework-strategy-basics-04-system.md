@@ -10,46 +10,26 @@ trust_level: high
 updated_at: '2026-06-29'
 language: zh-CN
 domain:
-- strategy
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 丰田供应链生态
+  - 丰田供应链生态+苹果iOS生态
+  - 体系Creation
+  - 体系CreationSystem：丰田供应链生态+苹果iOS生态
+  - 田供应链生态
+  - 略体系
+  - 略系统建设
+  - 统建设
 source_refs:
-- src_unknown
 related:
 discoverable_by:
   - "战略体系"
   - "丰田供应链生态"
   - "苹果iOS生态"
   - "战略系统建设"
-- '[[strategy-domain-digest]]'
-- '[[yt-barrier-ecosystem-lock-in]]'
-- '[[tool-mece体系框架法]]'
-- '[[case-truman-personal-growth-map-creation]]'
-- '[[yt-system-course-catalog]]'
-- '[[一堂方法论体系总图]]'
-- '[[tool-敏捷发布快速迭代搭建体系]]'
-- '[[yitang-methodology-system]]'
-- '[[yt-tob-demand-scenarios]]'
-- '[[tool-马易-销售智能体体系搭建路径]]'
-- '[[master-systems-thinking]]'
-- '[[personal-growth-complex-systems]]'
-- yt-barrier-supply-chain
 tags:
-aliases:
-  - 体系CreationSystem：丰田供应链生态+苹果iOS生态
-  - 体系Creation
-  - 丰田供应链生态+苹果iOS生态
-  - 丰田供应链生态
-  - 略体系
-  - 统建设
-aliases:
-  - 体系CreationSystem：丰田供应链生态+苹果iOS生态
-  - 体系Creation
-  - 丰田供应链生态+苹果iOS生态
-  - 略体系
-  - 略系统建设
-  - 田供应链生态
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 ---
 **不是做产品，是建生态**：丰田不只造车——供应链伙伴形成深度绑定，对手难以复制
 **竞争优势三层**：

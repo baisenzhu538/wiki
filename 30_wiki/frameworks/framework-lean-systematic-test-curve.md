@@ -9,51 +9,25 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 低成本测试
+  - 低成本验证
+  - 测试曲线与三大测试范式
+  - 益系统测试曲线
+  - 系统测试曲线与三大测试范式
+  - 统测试曲线
 source_refs:
-- 00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md
-- 00_inbox/精益创业/低成本验证-系统测试曲线_vlm_desc.md
-- 00_inbox/精益创业/一堂-低成本测试-系统测试-笔记.txt
-- 00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt
-- 00_inbox/精益创业/一堂DOC-20260622212828_ocr_text.md
-- 00_inbox/精益创业/一堂DOC-20260622213019_ocr_text.md
-- 00_inbox/精益创业/一堂DOC-20260622213143_ocr_text.md
-- 00_inbox/精益创业/truman-精益创业-低成本验证-案例-4种对比-01_vlm_desc.md
 related:
 discoverable_by:
   - "精益系统测试曲线"
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[framework-ai-accelerated-strategy-cycle]]'
-- modeling-three-stages
-- framework-lean-four-principles
 quality_labels:
-- principle
-- validated
 updated_at: '2026-06-29'
 created_at: '2026-06-30'
 tags:
-aliases:
-  - 系统测试曲线与三大测试范式
-  - 统测试曲线
-  - 测试曲线与三大测试范式
-  - 益系统测试曲线
-aliases:
-  - 系统测试曲线与三大测试范式
-  - 益系统测试曲线
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 低成本测试
-- 低成本验证
 ---
-
 # 系统测试曲线与三大测试范式
 
 > 用"X 型幻想曲线 vs Y 型螺旋上升曲线"建立真实业务进展的心智模型，再按灰度/组合/里程碑三种范式组织多轮 MVP，避免一次性重投入、错误选项固化和全盘推翻式浪费。

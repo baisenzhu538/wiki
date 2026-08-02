@@ -11,30 +11,19 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
-- ai-collaboration
-source_refs:
-
-related:
 aliases:
   - Firecrawl：专为LLM设计的Web抓取API
+  - [[ai-collaboration-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
   - 专为LLM设计的Web抓取API
   - 设计的
-aliases:
-  - Firecrawl：专为LLM设计的Web抓取API
-  - 专为LLM设计的Web抓取API
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
+source_refs:
+related:
 
 
-- '[[tool-纪浩-Agent开工检查单制作法]]'
-- web-scraping-三剑客-scrapling-crawl4ai-firecrawl
-- agent-native-card-design
 updated_at: '2026-06-29'
 ---
-
 # Firecrawl
 
 > 输入一个URL，输出干净Markdown。专为LLM/RAG设计——Agent不需要"看网页"，直接拿到结构化内容。

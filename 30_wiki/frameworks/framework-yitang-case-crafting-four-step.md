@@ -6,54 +6,35 @@ status: draft
 confidence: 0.9
 trust_level: high
 domain:
-- content-production
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-07-20'
 created_at: '2026-07-20'
 updated_at: '2026-07-20'
 quality_labels:
-- principle
-- actionable
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 事实复盘→选定魂儿→挖专业度→打磨表达
+  - 作方法
+  - 例写作方法
+  - 例打磨四步法
+  - 例打磨流程
+  - 实复盘选定魂儿
+  - 案例打磨四步法
+  - 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
+  - 案例打磨方法
+  - 案例打造法-李頔
 source_refs:
-- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-笔记.txt
-- 00_inbox/案例打造法-李頔/一堂-案例打磨方法-李頔-口述.txt
 related:
 discoverable_by:
   - "案例打磨四步法"
   - "事实复盘选定魂儿"
   - "案例写作方法"
   - "案例打磨流程"
-- framework-yitang-shishi-qiushi
-- framework-yitang-nine-layer-deep-dig
-- concept-yitang-case-jiejiaxiuzhen
-- tool-yitang-case-fact-review-checklist
-- dk-yitang-case-crafting-pitfalls
-- framework-kdo-modeling-methodology
-- framework-yitang-content-polish
 tags:
-aliases:
-  - 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
-  - 案例打磨四步法
-  - 事实复盘→选定魂儿→挖专业度→打磨表达
-  - 实复盘选定魂儿
-  - 作方法
-  - 例打磨四步法
-aliases:
-  - 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
-  - 案例打磨四步法
-  - 事实复盘→选定魂儿→挖专业度→打磨表达
-  - 例打磨流程
-  - 实复盘选定魂儿
-  - 例写作方法
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 案例打磨方法
-- 案例打造法-李頔
 ---
-
 # 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
 
 > 一句话：案例打磨不是包装故事——是从真实经历中提炼可迁移的认知。四步走：先做加法（摊开所有事实），再做减法（选定核心主线），然后做选择（挖出专业判断），最后做呈现（让人听得进去）。

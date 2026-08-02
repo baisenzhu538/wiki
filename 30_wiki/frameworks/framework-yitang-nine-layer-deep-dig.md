@@ -12,63 +12,33 @@ confidence: 0.92
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
-- business-analysis
 difficulty: advanced
 estimated_tokens: 4000
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+aliases:
+  - audience:ceo
+  - capabilities
+  - layer
+  - scene:diagnosis
+  - skill-level:advanced
+  - 业分析深挖
+  - 九层深挖法
+  - 九层深挖法：商业分析的自我纠错式迭代框架
+  - 商业分析的自我纠错式迭代框架
+  - 层深挖法
+  - 我纠错迭代分析
+  - 析深挖
+  - 深挖框架
 source_refs:
-- 40_outputs/capabilities/skills/nine-layer-business-dig/SKILL.md
-- 10_raw/sources/src_20260614_78622699-战略培训-九层宝塔模型.md
 related:
 discoverable_by:
   - "九层深挖法"
   - "自我纠错迭代分析"
   - "商业分析深挖"
   - "L1-L9深挖框架"
-- '[[tool-ai-deliverable-polish-loop]]'
-- '[[yitang-research-domain-digest]]'
-- '[[case-live81-ai-trademark-design]]'
-- '[[pending_unknown]]'
-- '[[yitang-domain-digest]]'
-- '[[tool-yitang-sales-performance-management]]'
-- '[[case-yitang-sales-transformation-tuliaogongsi]]'
-- '[[framework-kdo-self-attack]]'
-- '[[framework-yitang-growth-flywheel]]'
-- '[[framework-yitang-iterative-recursive-digging]]'
-- '[[framework-yitang-research-weapon-supplement-2026]]'
-- framework-structured-analytic-techniques
 tags:
-aliases:
-  - 九层深挖法：商业分析的自我纠错式迭代框架
-  - 九层深挖法
-  - 商业分析的自我纠错式迭代框架
-  - 深挖框架
-  - 层深挖法
-  - 析深挖
-aliases:
-  - 九层深挖法：商业分析的自我纠错式迭代框架
-  - 九层深挖法
-  - 商业分析的自我纠错式迭代框架
-  - 我纠错迭代分析
-  - 业分析深挖
-  - 层深挖法
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- capabilities
-- layer
 ---
-
 # 九层深挖法：商业分析的自我纠错式迭代框架
 
 > **实战验证**：药柜案例分析中，通过九层迭代从单点财务模型逐步补全到政策边界、失败模式、隐性成本、招商骗局、诊所协同风险，最终形成可用决策框架。

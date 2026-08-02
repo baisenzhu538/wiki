@@ -12,49 +12,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- 公司拆解 竞争对手 分析
-- 六维框架 战略 组织 产品
-- 竞品 深度分析 框架
-- 公司拆解 报告 模板
-- 竞争对手 优势 劣势 借鉴
-- 公司拆解 时间 分配
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[tool-strategy-competition-traps]]'
-- '[[tool-yitang-research-best-practice]]'
-- '[[yt-business-model-asset-light]]'
-- '[[tool-yitang-research-industry-scan]]'
-- '[[tool-yitang-research-competitor-tracking]]'
-- '[[framework-yitang-oscar-research]]'
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[tool-yitang-research-industry-scan]]'
-- '[[tool-yitang-research-competitor-tracking]]'
-- '[[yt-research-competitor-toolkit]]'
-- '[[case-yitang-sanjieke-benchmark-failure]]'
-- '[[dk-yitang-research-starter-vs-veteran]]'
-- '[[dk-yitang-survivor-bias-in-research]]'
-- '[[concept-yitang-research-mindset]]'
-- '[[tool-yitang-research-unit-model]]'
-- '[[tool-yitang-tech-project-research]]'
-tags:
 aliases:
-  - 公司拆解：深度分析竞争对手的六维框架
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 公司拆解
+  - 公司拆解：深度分析竞争对手的六维框架
   - 深度分析竞争对手的六维框架
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 公司拆解：深度分析竞争对手的六维框架
 
 > **一句话**：公司拆解不是"看看竞品官网"，而是系统分析竞品的战略、组织、产品、运营、技术、财务六个维度，找到其优势、劣势和可借鉴之处。

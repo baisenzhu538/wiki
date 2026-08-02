@@ -14,22 +14,19 @@ updated_at: 2026-07-08
 domain:
 - yitang
 - management
+aliases:
+  - signal: 项目卡住了，催不动、说不通、僵在那里
+  - 让卡点更平滑的六种推进手段
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 190747_vlm_desc.md
 related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-progress-tracking]]"
 diagnostic_signals:
-aliases:
-  - 让卡点更平滑的六种推进手段
-- signal: 项目卡住了，催不动、说不通、僵在那里
-  lens: 只用一种方式推进——硬催
-  follow-up: 卡住时对照六种手段，挑2-3种组合使用
 quality_labels:
 - actionable
 - checklist
 ---
-
 # 让卡点更平滑的六种推进手段
 
 > **一句话**：项目卡住不是"对方不配合"，是"你没用对推进手段"。六种手段从软到硬，组合使用。

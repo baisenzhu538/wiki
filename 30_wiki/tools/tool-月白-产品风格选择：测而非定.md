@@ -6,40 +6,29 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 产品风格选择
+  - 技能
+  - 技能：产品风格选择：测而非定
+  - 月白
+  - 测而非定
 source_refs:
-- src_unknown
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AIGC反向拆解法]]'
-- '[[tool-月白-AIGC设计作业复盘法]]'
-- '[[tool-月白-设计参考图精准定位法]]'
-- '[[tool-月白-正向反馈强化AI生成]]'
-- '[[tool-月白-AI工艺图人工复核法]]'
-- '[[tool-月白-价格带视觉策略匹配]]'
 tags:
-aliases:
-  - 技能：产品风格选择：测而非定
-  - 技能
-  - 产品风格选择
-  - 测而非定
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
 # 技能：产品风格选择：测而非定
 

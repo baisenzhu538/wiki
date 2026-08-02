@@ -9,31 +9,22 @@ updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
 domain:
-- ai-collaboration
-- yitang
-source_refs:
-- 00_inbox/人机协作双三角/_processed/AI基本功_vlm.md
-tags:
 aliases:
-  - AI基本功双三角案例
+  - #domain/ai-collaboration
+  - #method/dual-triangle
   - AI基本功
+  - AI基本功双三角案例
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+  - 人机协作双三角
   - 双三角案例
-  - 基本功双三角案例
   - 基本功
+  - 基本功双三角案例
   - 角案例
-aliases:
-  - AI基本功双三角案例
-  - AI基本功
-  - 双三角案例
-- '#domain/ai-collaboration'
-- '#method/dual-triangle'
-- audience:general
-- scene:reference
-- skill-level:intermediate
+source_refs:
+tags:
 reviewed_by: pending
-aliases:
-- 人机协作双三角
-- 基本功
 ---
 # AI基本功
 

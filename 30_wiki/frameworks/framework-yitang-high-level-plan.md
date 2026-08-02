@@ -7,74 +7,36 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
 quality_labels:
-- cited
-- principle
-- validated
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 水平计划
+  - 缩小范围
+  - 罗列清单
+  - 锁定目标
+  - 锁定目标缩小范围罗列清单
+  - 高水平计划
+  - 高水平计划OSC：锁定目标缩小范围罗列清单
 source_refs:
-- 00_inbox/调研专题/系统调研（高水平计划）_vlm_desc.md
-- 00_inbox/调研专题/一堂-系统式调研-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
 discoverable_by:
   - "高水平计划OSC"
   - "锁定目标缩小范围"
   - "罗列清单方法"
-- '[[framework-yitang-oscar-research]]'
-- '[[tool-yitang-research-industry-scan]]'
-- '[[concept-yitang-research-scope]]'
-- '[[system-yitang-research-workflow]]'
-- '[[tool-yitang-research-validate-assumption]]'
-- '[[framework-yitang-high-level-execution]]'
-- '[[framework-yitang-four-research-types]]'
-- '[[framework-yitang-research-radar]]'
-- '[[yt-research-osl-framework]]'
-- '[[yt-research-intelligence-map]]'
-- '[[concept-yitang-research-scope]]'
-- '[[concept-yitang-research-objective]]'
-- '[[tool-yitang-research-competitive-quadrant]]'
-- '[[tool-yitang-research-two-dimensional-positioning]]'
-- '[[framework-yitang-expert-interview-10steps]]'
-- '[[framework-yitang-research-quality-gate]]'
 tags:
-aliases:
-  - 高水平计划OSC：锁定目标缩小范围罗列清单
-  - 高水平计划
-  - 锁定目标
-  - 缩小范围
-  - 罗列清单
-  - 锁定目标缩小范围罗列清单
-aliases:
-  - 高水平计划OSC：锁定目标缩小范围罗列清单
-  - 高水平计划
-  - 锁定目标
-  - 缩小范围
-  - 罗列清单
-  - 水平计划
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 aliases: []
 ---
-
 # 高水平计划 OSC：锁定目标·缩小范围·罗列清单
 
 > **一句话**：调研失效的70%根因在前三步：目标不清、范围失控、清单缺失。OSC框架强迫你在动手前回答三个问题：要做什么决定？聚焦什么范围？按什么清单执行？

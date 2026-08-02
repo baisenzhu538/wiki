@@ -3,15 +3,8 @@ id: framework-demand-validation-pipeline
 title: 需求验证流水线
 type: framework
 domain:
-- demand-analysis
-- yitang
 status: reviewed
 quality_labels:
-- cited
-- insight
-- principle
-- quality
-- validated
 created_at: 2026-06-28
 updated_at: 2026-07-02
 author: 老顽童
@@ -19,41 +12,25 @@ reviewed_by: 欧阳锋
 review_date: 2026-06-28
 confidence: 0.8
 trust_level: high
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 决策高度实操课口述
+  - 求假设验证方法
+  - 求验证流水线
+  - 求验证流程
+  - 科学决策
+  - 证流水线
+  - 证流程
+  - 需求验证流水线
 source_refs:
-- 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 related:
 discoverable_by:
   - "需求验证流水线"
   - "需求验证流程"
   - "需求假设验证方法"
-- '[[framework-demand-lean-bridge]]'
-- '[[case-demand-b2b-enterprise-erp]]'
-- '[[case-demand-b2c-consumer-insight]]'
-- '[[yt-demand-early-validation]]'
-- '[[tool-lean-fake-product]]'
-- '[[dk-demand-signal-vs-noise]]'
-- '[[yt-demand-hierarchy-model]]'
-- '[[tool-yitang-customer-segmentation-4step]]'
-- '[[tool-yitang-value-proposition-4step]]'
 tags:
-aliases:
-  - 需求验证流水线
-  - 求验证流水线
-  - 求假设验证方法
-  - 证流程
-  - 证流水线
-  - 求验证流程
-aliases:
-  - 需求验证流水线
-  - 求验证流程
-  - 求验证流水线
-  - 求假设验证方法
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 决策高度实操课口述
-- 科学决策
 ---
 # 需求验证流水线
 

@@ -9,32 +9,22 @@ updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
 domain:
-- ai-collaboration
-- yitang
-source_refs:
-- 00_inbox/人机协作双三角/_processed/一堂双三角-AI落地五部曲_vlm.md
-tags:
 aliases:
-  - 一堂双三角AI落地五部曲双三角案例
-  - 一堂双三角
+  - #domain/ai-collaboration
+  - #method/dual-triangle
   - AI落地五部曲
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 一堂双三角
+  - 一堂双三角AI落地五部曲双三角案例
+  - 人机协作双三角
   - 双三角案例
-  - 角案例
   - 落地五部曲双三角案例
-aliases:
-  - 一堂双三角AI落地五部曲双三角案例
-  - 一堂双三角
-  - AI落地五部曲
-  - 双三角案例
-- '#domain/ai-collaboration'
-- '#method/dual-triangle'
-- audience:executor
-- scene:reference
-- skill-level:intermediate
+  - 角案例
+source_refs:
+tags:
 reviewed_by: pending
-aliases:
-- 一堂双三角
-- 人机协作双三角
 ---
 # 一堂双三角-AI落地五部曲
 

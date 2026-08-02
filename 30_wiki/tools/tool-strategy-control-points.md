@@ -1,48 +1,29 @@
 ---
 id: tool-strategy-control-points
 title: 战略控制点设计工具：价值定位模型
-aliases:
-- src_unknown
-- src_unknown
-- src_unknown
-- 冉鹏PPT截图
-- 引擎点火
 type: tool
 status: reviewed
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- competitive_advantage
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:advanced
+  - 价值定位模型
+  - 冉鹏PPT截图
+  - 定位模型
+  - 引擎点火
+  - 战略控制点设计工具
+  - 战略控制点设计工具：价值定位模型
+  - 控制点设计工具
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_124_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_124_vlm_desc.md
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- '[[strategy-domain-digest]]'
-- '[[tool-月白-AI模型选择策略]]'
-- '[[dk-单元模型-找单元模型实操难点]]'
-- '[[concept-最简单元模型]]'
-- '[[tool-模型组合调用]]'
-- yt-tool-unit-model-dynamic
-- case-ether-online-acquisition
 tags:
-aliases:
-  - 战略控制点设计工具：价值定位模型
-  - 战略控制点设计工具
-  - 价值定位模型
-  - 控制点设计工具
-  - 定位模型
-aliases:
-  - 战略控制点设计工具：价值定位模型
-  - 战略控制点设计工具
-  - 价值定位模型
-- audience:executor
-- scene:execution
-- skill-level:advanced
 ---
 # 战略控制点设计工具：价值定位模型
 

@@ -14,6 +14,9 @@ updated_at: 2026-07-08
 domain:
 - yitang
 - management
+aliases:
+  - signal: 项目启动时觉得"没什么风险"，做到一半才发现全是坑
+  - 项目常见风险发现七维度清单
 source_refs:
 - 00_inbox/管项目/项目管理-定方案-常见风险清单_vlm_desc.md
 related:
@@ -21,16 +24,10 @@ related:
 - "[[framework-yitang-project-plan-design]]"
 - "[[tool-yitang-project-risk-response]]"
 diagnostic_signals:
-aliases:
-  - 项目常见风险发现七维度清单
-- signal: 项目启动时觉得"没什么风险"，做到一半才发现全是坑
-  lens: 缺系统性的风险扫描——只凭直觉判断
-  follow-up: 每次启动新项目，用本清单逐条过一遍，至少标出前3个高风险项
 quality_labels:
 - actionable
 - checklist
 ---
-
 # 项目常见风险发现七维度清单
 
 > **一句话**：项目启动前，用这7个维度系统扫描一遍，把"没想到"变成"想到了"。

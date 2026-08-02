@@ -6,48 +6,33 @@ status: draft
 confidence: 0.88
 trust_level: high
 domain:
-- modeling
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
 quality_labels:
-- cited
+aliases:
+  - advanced
+  - audience:ceo
+  - modeling
+  - scene:diagnosis
+  - skill-level:advanced
+  - 从并列到因果
+  - 关系vs规律
+  - 建模的关系探索
+  - 模关系探索
+  - 模底层连接
+  - 流程建模的关系探索
+  - 流程建模的关系探索：关系vs规律，从并列到因果
+  - 系探索
 source_refs:
-- 00_inbox/Advanced modeling/ 口述 L1916-L1970
 related:
 discoverable_by:
   - "建模关系探索"
   - "建模底层连接"
-- framework-kdo-modeling-methodology
-- concept-truman-18-component-cards
-- concept-kdo-component-library
-- modeling-three-stages
-- yt-decision-y-model
 tags:
-aliases:
-  - 流程建模的关系探索：关系vs规律，从并列到因果
-  - 流程建模的关系探索
-  - 关系vs规律
-  - 从并列到因果
-  - 建模的关系探索
-  - 系探索
-aliases:
-  - 流程建模的关系探索：关系vs规律，从并列到因果
-  - 流程建模的关系探索
-  - 关系vs规律
-  - 从并列到因果
-  - 模底层连接
-  - 模关系探索
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- advanced
-- modeling
 ---
-
 # 流程建模的关系探索：关系 vs 规律，从并列到因果
 
 > 一句话：拆完要素之后，不是直接出方案——要先探索要素之间的关系。Truman 说关系有很多种（并列、映射、依赖、时序、选择……），其中有一类最值钱——因果关系和规律。

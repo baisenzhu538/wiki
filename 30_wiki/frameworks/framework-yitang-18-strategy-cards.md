@@ -7,65 +7,37 @@ author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
 quality_labels:
-- principle
-- validated
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 4000
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown卡
+aliases:
+  - 18张调研策略卡全景图
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 十八掌
+  - 张调研策略卡
+  - 研策略全景图
+  - 研策略卡
+  - 降龙十八掌
+  - 降龙十八掌：18张调研策略卡全景图
+  - 龙十八掌
 source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
 discoverable_by:
   - "降龙十八掌"
   - "18张调研策略卡"
   - "调研策略全景图"
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[framework-ci-operating-model]]'
-- '[[framework-yitang-iterative-recursive-digging]]'
-- '[[framework-yitang-research-quality-gate]]'
-- '[[framework-yitang-six-layer-cross-validation]]'
 tags:
-aliases:
-  - 降龙十八掌：18张调研策略卡全景图
-  - 降龙十八掌
-  - 18张调研策略卡全景图
-  - 研策略卡
-  - 研策略全景图
-  - 十八掌
-aliases:
-  - 降龙十八掌：18张调研策略卡全景图
-  - 降龙十八掌
-  - 18张调研策略卡全景图
-  - 研策略全景图
-  - 龙十八掌
-  - 张调研策略卡
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 aliases: []
 ---
-
 # 降龙十八掌：18张调研策略卡全景图
 
 > **一句话**：降龙十八掌不是18个独立招式，而是18个策略节点，覆盖从假设验证到深度归因的完整调研链条。每一掌都有明确的触发条件、执行标准和验收标准。

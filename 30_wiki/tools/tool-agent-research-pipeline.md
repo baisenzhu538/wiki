@@ -3,55 +3,33 @@ id: tool-agent-research-pipeline
 title: Agent 调研 Pipeline 模式工具
 type: tool
 domain:
-- AI
-- research
-- agent
 tags:
-- 多智能体
-- Pipeline模式
-- OSCAR五步法
-- 串行流程
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 source_person: Truman（一堂）+ LangChain Team
 source_context: OSCAR 五步法的 Agent 自动化版本
+aliases:
+  - Agent调研Pipeline模式工具
+  - Truman（一堂）+ LangChain Team
+  - [[case-ban-fei-mao-from-assignment-to-tool]]
+  - [[case-demand-travel-agent]]
+  - [[case-ji-hao-skills-market]]
+  - [[case-truman-ai-partner]]
+  - [[framework-yitang-oscar-research]]
+  - [[tool-纪浩-Agent开工检查单制作法]]
+  - 三个新盲区
+  - 外部知识探索
+  - 模式工具
+  - 调研
 source_refs:
-- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
-- https://www.langchain.com/blog/benchmarking-multi-agent-architectures
 related:
-aliases:
-  - Agent调研Pipeline模式工具
-  - 调研
-  - 模式工具
-  - Truman（一堂）+ LangChain Team
-aliases:
-  - Agent调研Pipeline模式工具
-  - 调研
-  - 模式工具
-  - Truman（一堂）+ LangChain Team
-- '[[framework-yitang-oscar-research]]'
-- '[[case-demand-travel-agent]]'
-- '[[case-ji-hao-skills-market]]'
-- '[[case-truman-ai-partner]]'
-- '[[case-ban-fei-mao-from-assignment-to-tool]]'
-- '[[tool-纪浩-Agent开工检查单制作法]]'
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 quality_labels:
-- actionable
-- cited
-- validated
 created_at: '2026-06-28'
 updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: medium
-aliases:
-- 三个新盲区
-- 外部知识探索
 ---
-
 # Agent 调研 Pipeline 模式工具
 
 ## 原始表述

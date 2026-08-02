@@ -11,43 +11,24 @@ language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-03
 domain:
-- yitang
-- ai-collaboration
-- deliberate-practice
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂双三角
+  - 一行双三角十年爬山地图
+  - 三角十年爬山地图
+  - 人机协作双三角
+  - 十年爬山地图
+  - 双三角十年地图
+  - 双三角十年爬山地图
+  - 双三角段位图
 source_refs:
-- 00_inbox/人机协作双三角/一堂双三角-十年爬山地图.png
-- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-逐字稿.md
-- 00_inbox/人机协作双三角/填双三角画布十倍数刻意练习提示词.txt
 related:
 discoverable_by:
   - "双三角十年爬山地图"
-- '[[concept-yihang-dual-triangle-core]]'
-- '[[framework-yihang-dual-triangle-weapon-library]]'
-- '[[framework-yihang-dual-triangle-three-stages-six-changes]]'
-- '[[framework-yitang-deliberate-practice-1plus4]]'
-- '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
-- '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
-- '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
-- '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
-aliases:
-- 双三角段位图
-- 双三角十年地图
-- 一堂双三角
-- 人机协作双三角
 tags:
-aliases:
-  - 一行双三角十年爬山地图
-  - 十年爬山地图
-  - 双三角十年爬山地图
-  - 三角十年爬山地图
-aliases:
-  - 一行双三角十年爬山地图
-  - 三角十年爬山地图
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 ---
-
 # 一行双三角十年爬山地图
 
 > **一句话定义**：把一行双三角的修炼拆成 L1-L6 六个段位、三个阶段，用 5-10 年的心态建立人机协作的复利能力。

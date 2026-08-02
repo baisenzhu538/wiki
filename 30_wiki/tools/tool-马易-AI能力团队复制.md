@@ -3,53 +3,24 @@ id: tool-马易-AI能力团队复制
 title: 技能：AI能力团队复制
 type: tool
 domain:
-- ai-collaboration
-- yitang
-- ai-saas
 status: needs-review
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
+aliases:
+  - AI能力团队复制
+  - audience:manager
+  - scene:execution
+  - skill-level:intermediate
+  - 技能
+  - 技能：AI能力团队复制
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-马易-AI任务拆解提升控制度]]'
-- '[[tool-马易-AIGC项目ROI评估]]'
-- '[[tool-马易-AI项目需求拆解筛选]]'
-- '[[tool-马易-隐私安全分层解决]]'
-- '[[tool-马易-AI答疑运营风格适配]]'
-- '[[tool-马易-AI落地前置条件验证]]'
-- '[[tool-马易-AI落地四阶段验证法]]'
-- '[[tool-马易-AI落地场景识别-拆工作流找场景]]'
-- '[[tool-马易-AI落地场景识别与拆分]]'
-- '[[tool-马易-AI落地认知速成-最佳实践学习法]]'
-- '[[tool-马易-RPA数据整合法]]'
-- '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
-- '[[tool-马易-低置信度样本黄金漏斗处理]]'
-- '[[tool-马易-公寓获客自跑通原则]]'
-- '[[tool-马易-减少输入噪音法]]'
-- '[[tool-马易-工作流优先于AIGC的决策方法]]'
-- '[[tool-马易-工作流拆解找场景]]'
-- '[[tool-马易-平台模式验证法]]'
-- '[[tool-马易-成为首位F工程师]]'
-- '[[tool-马易-数字员工FD拆解落地]]'
-- '[[tool-马易-最小场景优先落地法]]'
-- '[[tool-马易-深度沉浸需求挖掘]]'
-- '[[tool-马易-痛点驱动的数字化]]'
-- '[[tool-马易-销售智能体体系搭建路径]]'
-- '[[tool-马易-隐性知识萃取与模型化]]'
-- '[[tool-马易-需求创造验证法]]'
 tags:
-aliases:
-  - 技能：AI能力团队复制
-  - 技能
-  - AI能力团队复制
-- audience:manager
-- scene:execution
-- skill-level:intermediate
 ---
 # 技能：AI能力团队复制
 

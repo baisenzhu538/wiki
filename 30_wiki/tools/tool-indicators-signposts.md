@@ -3,35 +3,20 @@ id: tool-indicators-signposts
 title: Indicators & Signposts（指标与信号）
 type: tool
 domain:
-- research
-- strategy
-- decision
 tags:
-- SATs
-- 指标类
-- 信号监控
-- 假设验证
-- 预见性决策
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 source_person: Richars J. Heuer Jr. + Trumen（一堂）
 source_context: SATs 指标类技术工具化实现
-source_refs:
-- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
-- https://www.amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/150636893X/
-related:
 aliases:
   - Indicators&Signposts指标与信号
-  - Signposts指标与信号
   - Richars J. Heuer Jr. + Trumen（一堂）
+  - Signposts指标与信号
+  - [[yt-decision-y-model]]
+  - [[yt-research-intelligence-map]]
+  - 三个新盲区
+  - 外部知识探索
   - 指标与信号
-aliases:
-  - Indicators&Signposts指标与信号
-  - Signposts指标与信号
-  - Richars J. Heuer Jr. + Trumen（一堂）
-- '[[yt-decision-y-model]]'
-- '[[yt-research-intelligence-map]]'
+source_refs:
+related:
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
@@ -39,11 +24,7 @@ created_at: '2026-06-28'
 updated_at: '2026-06-29'
 confidence: 0.78
 trust_level: medium
-aliases:
-- 三个新盲区
-- 外部知识探索
 ---
-
 # Indicators & Signposts（指标与信号）
 
 ## 原始表述

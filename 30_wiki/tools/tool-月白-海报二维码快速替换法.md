@@ -6,43 +6,30 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：海报二维码快速替换法
+  - 月白
+  - 海报二维码快速替换法
 source_refs:
-- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-29'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-AI精准替换产品技巧]]'
-- '[[tool-月白-跨境电商产品图替换法]]'
-- tool-月白-课程问题预埋法
-- tool-月白-提示词长度控制法
-- tool-月白-AI需求拆解咨询法
-- tool-月白-用一堂方法论找最佳实践并拉满执行
-- tool-月白-三步作业反馈法
 tags:
-aliases:
-  - 技能：海报二维码快速替换法
-  - 技能
-  - 海报二维码快速替换法
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
-
 # 技能：海报二维码快速替换法
 
 ## 原始表述

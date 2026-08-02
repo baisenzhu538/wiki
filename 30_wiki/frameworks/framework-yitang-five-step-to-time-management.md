@@ -4,9 +4,6 @@ title: 一堂五步法在时间管理中的应用：自管理场景的完整实�
 type: framework
 status: reviewed
 domain:
-- personal-growth
-- yitang
-- methodology
 confidence: 0.88
 trust_level: medium
 author: 老顽童
@@ -14,65 +11,29 @@ reviewed_by: 欧阳锋
 review_date: '2026-07-01'
 created_at: '2026-07-01'
 updated_at: '2026-07-08'
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 一堂五步法在时间管理中的应用
+  - 一堂五步法在时间管理中的应用：自管理场景的完整实例化
+  - 五步法在时间管理中的应用
+  - 修炼进阶图
+  - 双峰哲学模型
+  - 场景实例化
+  - 应用到时间管理
+  - 步法应用到时间管理
+  - 步法时间管理
+  - 管理场景实例化
+  - 自管理场景的完整实例化
 source_refs:
-- 00_inbox/时间管理/truman-时间管理课程-口述.txt
-- 00_inbox/时间管理/truman-时间管理课程-笔记.txt
-- 00_inbox/时间管理/_processed/时间管理_整合笔记.md
-- 00_inbox/时间管理/_processed/vlm_summary.json
-- 00_inbox/时间管理/时间管理-修炼进阶图.png
-- 00_inbox/时间管理/时间管理-深度工作冰山图.png
-- 00_inbox/时间管理/时间管理-时间管理矩阵图.png
-- 00_inbox/时间管理/时间管理-双环矩阵图.png
-- 00_inbox/时间管理/时间管理-双峰哲学模型.png
 related:
 discoverable_by:
   - "五步法时间管理"
   - "自管理场景实例化"
   - "五步法应用到时间管理"
-- '[[yt-five-step-method-complete]]'
-- '[[framework-一堂五步法-泛产品设计]]'
-- '[[framework-yitang-deliberate-practice-1plus4]]'
-- '[[master-decision-hygiene]]'
-- '[[yt-unit-model-overview]]'
-- '[[concept-yitang-research-scope]]'
-- '[[yt-personal-time-management]]'
-- '[[yt-personal-ipo-learning]]'
-- '[[yt-personal-knowledge-management]]'
-- '[[yt-personal-deliberate-practice]]'
-- '[[tool-personal-time-audit-loop]]'
-- '[[dk-time-management-common-mistakes]]'
-- '[[case-truman-time-management-commute-experiment]]'
-- '[[case-yitang-copywriting-time-decomposition]]'
-- case-decision-science-lunch-break-compression
-- '[[framework-yitang-y-model-cross-domain-fusion]]'
-- '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
-- '[[framework-bimodal-time-philosophy]]'
-- '[[framework-deep-work-iceberg]]'
-- '[[framework-time-management-dual-loop-matrix]]'
-- '[[framework-time-management-matrix]]'
 tags:
-aliases:
-  - 一堂五步法在时间管理中的应用：自管理场景的完整实例化
-  - 一堂五步法在时间管理中的应用
-  - 自管理场景的完整实例化
-  - 场景实例化
-  - 五步法在时间管理中的应用
-  - 应用到时间管理
-aliases:
-  - 一堂五步法在时间管理中的应用：自管理场景的完整实例化
-  - 一堂五步法在时间管理中的应用
-  - 自管理场景的完整实例化
-  - 步法应用到时间管理
-  - 步法时间管理
-  - 管理场景实例化
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
-aliases:
-- 修炼进阶图
-- 双峰哲学模型
 ---
-
 # 一堂五步法在时间管理中的应用：自管理场景的完整实例化
 
 > **一句话**：时间管理不是一门独立的新课，而是**一堂五步法在「管理自己」场景下的完整实例化**——用需求分析定位时间困境，用三门模型建立个人时间操作系统，用单元模型计算时间 ROI，用增长循环持续迭代，最终形成别人抄不走的时间判断力和习惯。

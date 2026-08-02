@@ -5,52 +5,30 @@ type: dk
 dark_knowledge_type: insight
 status: enriched
 domain:
-- yitang
-- master
 source_person: Truman
 source_context: 一堂建模能力培训（抽象建模与本质建模方法论），2026-06-12
+aliases:
+  - Truman
+  - audience:executor
+  - scene:reference
+  - skill-level:advanced
+  - 不是找证据证明自己是对的
+  - 建模不是找证据证明自己是对的
+  - 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
+  - 建模能力培训
+  - 用反例把自己逼到没漏洞为止
+  - 而是用反例把自己逼到没漏洞为止
 source_refs:
-- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-- pending_archive:src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
-- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-- pending_archive:src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 created_at: '2026-06-14'
 updated_at: 2026-06-28
 confidence: 0.8
 trust_level: high
 related:
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
 tags:
-aliases:
-  - 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
-  - 建模不是找证据证明自己是对的
-  - 而是用反例把自己逼到没漏洞为止
-  - Truman
-  - 用反例把自己逼到没漏洞为止
-  - 不是找证据证明自己是对的
-aliases:
-  - 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
-  - 建模不是找证据证明自己是对的
-  - 而是用反例把自己逼到没漏洞为止
-  - Truman
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- audience:executor
-- scene:reference
-- skill-level:advanced
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
 author: 老顽童
-aliases:
-- 建模能力培训
 ---
-
 ## 原始表述
 
 > 科学是靠反例驱动的。你建了一个模，你只要找一个反例，这个模型就得修正——要么修正理论，要么修正边界。一堂做课的理念是：我们假设广场上有一千个同学，95% 是未经训练的新手，5% 是训练过的高手。我们总结这 5% 的共性，做成课程方法论去服务 95%。只要广场上有任何一个可见的反例，就是我们的错——要么把这个人放到广场外面（修正边界），要么修正模型。所以我们出了一版模型之后，内部会启动“撞击实验”：所有人以推翻这个模型为目标去找硬伤、找反例、找边界模糊。先推翻，实在推翻不动，才能去讲它、宣传它。

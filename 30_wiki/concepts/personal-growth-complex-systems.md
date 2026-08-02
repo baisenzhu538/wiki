@@ -4,58 +4,35 @@ title: 个人成长：复杂系统、消除模糊与 AI 时代个体系统：主
 type: concept
 status: reviewed
 domain:
-- personal-growth
-- complex-systems
 source_person: 王语嫣
 source_context: 听脑个人成长主题摘要综合（6 条录音 meetingSummary）
+aliases:
+  - [[master-antifragile-checklist]]
+  - [[master-cognitive-bias-checklist]]
+  - [[master-decision-hygiene]]
+  - [[master-first-principles]]
+  - [[master-systems-thinking]]
+  - 世界发展
+  - 个人中国行
+  - 个人成长
+  - 个人成长：复杂系统、消除模糊与AI时代个体系统：主题综合索引卡
+  - 主题综合索引卡
+  - 偶然与必然讨论
+  - 复杂系统
+  - 时代个体系统
+  - 消除模糊与
 source_refs:
-- 10_raw/sources/src_20260614_fb753683-世界发展-偶然与必然讨论.md
-- 10_raw/sources/src_20260614_8d349c5b-超级个体-百万美元架构师.md
-- 10_raw/sources/src_20260614_82a4fdb9-凯文凯利-必然趋势分享.md
-- 10_raw/sources/src_20260614_6fb509a4-自我提升-消除模糊.md
-- 10_raw/sources/src_20260614_7963c2f2-个人中国行：使命、教学创新与平台价值.md
-- 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md
 tags:
-- audience:general
-- scene:reference
-- skill-level:intermediate
 created_at: '2026-06-14'
 quality_labels:
-- cited
-- principle
-- validated
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 related:
-aliases:
-  - 个人成长：复杂系统、消除模糊与AI时代个体系统：主题综合索引卡
-  - 个人成长
-  - 复杂系统
-  - 消除模糊与
-  - 时代个体系统
-  - 主题综合索引卡
-aliases:
-  - 个人成长：复杂系统、消除模糊与AI时代个体系统：主题综合索引卡
-  - 个人成长
-  - 复杂系统
-  - 消除模糊与
-  - 时代个体系统
-  - 主题综合索引卡
-- '[[master-systems-thinking]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[master-decision-hygiene]]'
-- '[[master-antifragile-checklist]]'
-- '[[master-first-principles]]'
 confidence: 0.65
 trust_level: medium
-aliases:
-- 世界发展
-- 个人中国行
-- 偶然与必然讨论
 ---
-
 # 个人成长主题综合知识卡
 
 > **状态**：草稿，待原文复核与人工 enrichment

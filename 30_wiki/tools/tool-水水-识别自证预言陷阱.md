@@ -3,39 +3,24 @@ id: tool-水水-识别自证预言陷阱
 title: 技能：识别自证预言陷阱
 type: tool
 domain:
-- personal-growth
-- management
 status: needs-review
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
+  - 技能
+  - 技能：识别自证预言陷阱
+  - 识别自证预言陷阱
 source_refs:
-- src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 related:
-- '[[tool-水水-接受发散性世界观]]'
-- '[[tool-水水-区分风险与不确定性]]'
-- '[[tool-水水-利用基因漂变视角]]'
-- '[[tool-水水-利用叙事驱动决策]]'
-- '[[tool-水水-构建自利叙事]]'
-- '[[tool-水水-保持系统冗余]]'
-- '[[tool-水水-警惕概率虚妄安全感]]'
-- '[[tool-水水-警惕错误归因]]'
-- '[[tool-水水-识别模型局限性]]'
-- '[[tool-水水-识别饥饿效应]]'
-- '[[tool-水水-避免原生家庭万能归因]]'
-- '[[tool-水水-降低故事逻辑要求]]'
 tags:
-aliases:
-  - 技能：识别自证预言陷阱
-  - 技能
-  - 识别自证预言陷阱
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 ---
 # 技能：识别自证预言陷阱
 

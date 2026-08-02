@@ -10,40 +10,30 @@ confidence: 0.95
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- management
-source_refs:
-- 00_inbox/管项目/项目管理-项目管理武器库_vlm_desc.md
-- 00_inbox/管项目/项目管理-项目管理武器库_ocr_text.md
-- 00_inbox/管项目/项目管理-入门篇-口述.txt
-- 00_inbox/管项目/项目管理-定方案-口述.txt
-- 00_inbox/管项目/项目管理-拆计划-口述.txt
-- 00_inbox/管项目/项目管理-管过程-口述.txt
-- 00_inbox/管项目/项目管理-做复盘-口述.txt
-related:
 aliases:
+  - [[framework-yitang-project-abcd-classification]]
+  - [[framework-yitang-project-breakdown]]
+  - [[framework-yitang-project-execution]]
+  - [[framework-yitang-project-plan-design]]
+  - [[framework-yitang-project-retrospective]]
+  - [[skill-yitang-project-spiral-thinking]]
+  - [[tool-yitang-project-breakdown-cheatsheet]]
+  - [[tool-yitang-project-kickoff-meeting]]
+  - [[tool-yitang-project-plan-canvas]]
+  - [[tool-yitang-retrospective-canvas]]
+  - [[workflow-yitang-project-four-step-loop]]
+  - [[yt-management-basic-skills]]
+  - [[yt-management-goal-management]]
+  - [[yt-management-project-management]]
+  - [[yt-management-scientific-meetings]]
+  - [[yt-management-toolkit-overview]]
+  - [[yt-tool-project-health-radar]]
   - 项目管理武器库V1.8入口索引卡
-- '[[framework-yitang-project-abcd-classification]]'
-- '[[framework-yitang-project-plan-design]]'
-- '[[framework-yitang-project-breakdown]]'
-- '[[framework-yitang-project-execution]]'
-- '[[framework-yitang-project-retrospective]]'
-- '[[tool-yitang-project-plan-canvas]]'
-- '[[tool-yitang-project-breakdown-cheatsheet]]'
-- '[[tool-yitang-project-kickoff-meeting]]'
-- '[[tool-yitang-retrospective-canvas]]'
-- '[[yt-tool-project-health-radar]]'
-- '[[workflow-yitang-project-four-step-loop]]'
-- '[[skill-yitang-project-spiral-thinking]]'
-- '[[yt-management-project-management]]'
-- '[[yt-management-toolkit-overview]]'
-- '[[yt-management-goal-management]]'
-- '[[yt-management-basic-skills]]'
-- '[[yt-management-scientific-meetings]]'
+source_refs:
+related:
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---
-
 # 项目管理武器库V1.8入口索引卡
 
 > **一句话**：本卡是一堂项目管理方法论的统一入口。无论你是刚接手一个新项目不知道从哪下手，还是项目执行中遇到卡点需要找到对应工具——先来本卡定位，再跳转到对应的框架/工具/工作流/技能卡片。

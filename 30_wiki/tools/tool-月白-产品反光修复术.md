@@ -6,43 +6,30 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 产品反光修复术
+  - 技能
+  - 技能：产品反光修复术
+  - 月白
 source_refs:
-- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-多窗口并行工作法]]'
-- '[[tool-月白-AI图片风格逆向提取（抄图法）]]'
-- '[[tool-月白-餐饮海报AB测试法]]'
-- '[[tool-月白-AI图片去文字处理]]'
-- '[[tool-月白-眼高手低训练法]]'
-- '[[tool-月白-AI电商图人工过审处理]]'
-- '[[tool-月白-图像信息逆向解析训练]]'
 tags:
-aliases:
-  - 技能：产品反光修复术
-  - 技能
-  - 产品反光修复术
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
-
 # 技能：产品反光修复术
 
 ## 原始表述

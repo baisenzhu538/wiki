@@ -6,47 +6,29 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+aliases:
+  - AIGC人群画像驱动详情页规划
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：AIGC人群画像驱动详情页规划
+  - 月白
 source_refs:
-- src_unknown
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-工厂对接信息清单制作]]'
-- '[[tool-月白-小红书双重搜索法]]'
-- '[[tool-月白-新手设计师基本功训练法]]'
-- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
-- '[[tool-月白-文创材质成本调研与精益选择]]'
-- '[[tool-月白-AI去文字-稿定设计快速出图法]]'
-- '[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]'
-- '[[tool-月白-产品白底图标准化制作]]'
-- '[[tool-月白-供应商信息对齐清单法]]'
-- '[[tool-月白-多语种专业名词提示词策略]]'
-- '[[tool-月白-新媒体热点物料快速迭代法]]'
-- '[[tool-月白-模型性价比选型决策]]'
-- '[[tool-月白-行业配色快速确定法]]'
 tags:
-aliases:
-  - 技能：AIGC人群画像驱动详情页规划
-  - 技能
-  - AIGC人群画像驱动详情页规划
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
 # 技能：AIGC人群画像驱动详情页规划
 

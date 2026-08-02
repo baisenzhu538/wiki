@@ -8,44 +8,28 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- strategy
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 件事战略布局
+  - 布局Configuration
+  - 布局ConfigurationLayout：现金流/增长/种子/撤退/突破五件事
+  - 现金流
+  - 现金流/增长/种子/撤退/突破五件事
+  - 金流增长种子
+  - 鹏布局框架
 source_refs:
-- src_unknown
-- src_unknown
-- src_unknown
 related:
 discoverable_by:
   - "战略布局"
   - "现金流增长种子"
   - "五件事战略布局"
   - "冉鹏布局框架"
-- '[[strategy-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- tool-strategy-three-horizons
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - 布局ConfigurationLayout：现金流/增长/种子/撤退/突破五件事
-  - 布局Configuration
-  - 现金流/增长/种子/撤退/突破五件事
-  - 现金流
-  - 鹏布局框架
-  - 金流增长种子
-aliases:
-  - 布局ConfigurationLayout：现金流/增长/种子/撤退/突破五件事
-  - 布局Configuration
-  - 现金流/增长/种子/撤退/突破五件事
-  - 鹏布局框架
-  - 件事战略布局
-  - 金流增长种子
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 ---
 **五件事**：
 1. **现金流业务**：当前利润池，必须守住并持续优化效率。

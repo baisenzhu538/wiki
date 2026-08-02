@@ -7,57 +7,33 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-23
 quality_labels:
-- cited
-- principle
-- validated
 created_at: 2026-06-23
 confidence: 0.82
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- lean-startup
-- five-step-method
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 判断与精益验证的衔接
+  - 断精益验证
+  - 求判断精益验证
+  - 求到精益衔接
+  - 求验证桥接
+  - 益需求验证桥接
+  - 精益衔接
+  - 需求判断与精益验证的衔接
 source_refs:
-- 60_feedback/audit/cross-domain-bridge-design-specs.md
-- 30_wiki/frameworks/framework-demand-iceberg.md
-- 30_wiki/tools/tool-demand-iceberg-l1-user.md
-- 30_wiki/tools/tool-demand-iceberg-l2-scenario.md
-- 30_wiki/tools/tool-demand-iceberg-l3-core-job.md
-- 30_wiki/tools/tool-demand-iceberg-l4-job-map.md
-- 30_wiki/tools/tool-demand-iceberg-l5-forces.md
-- 30_wiki/tools/tool-demand-iceberg-l6-hypothesis.md
 related:
 discoverable_by:
   - "需求判断精益验证"
   - "需求到精益衔接"
   - "精益需求验证桥接"
-- '[[framework-demand-iceberg]]'
-- '[[framework-lean-false-model]]'
-- '[[framework-lean-abcd-model]]'
-- '[[yitang-domain-digest]]'
-- '[[lean-startup-domain-digest]]'
-- '[[framework-demand-validation-pipeline]]'
 updated_at: '2026-06-30'
 tags:
-aliases:
-  - 需求判断与精益验证的衔接
-  - 精益衔接
-  - 求判断精益验证
-  - 断精益验证
-  - 求验证桥接
-  - 判断与精益验证的衔接
-aliases:
-  - 需求判断与精益验证的衔接
-  - 益需求验证桥接
-  - 求到精益衔接
-  - 求判断精益验证
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 aliases: []
 ---
-
 # 需求判断与精益验证的衔接
 
 > 把需求分析冰山（L1–L6）中识别出的需求假设，用 FALSE 模型和 ABCD 模型进行低成本验证。

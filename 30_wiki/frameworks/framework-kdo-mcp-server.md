@@ -6,49 +6,29 @@ status: draft
 confidence: 0.88
 trust_level: high
 domain:
-- kdo
-- ai-collaboration
 author: 黄药师
 created_at: '2026-07-26'
 updated_at: '2026-07-26'
 quality_labels:
-- actionable
-- principle
+aliases:
+  - KDOMCPServer知识库能力的外部协议暴露层
+  - audience:ceo
+  - control
+  - scene:diagnosis
+  - skill-level:advanced
+  - 外部协议
+  - 库能力的外部协议暴露层
+  - 知识库
+  - 知识库能力的外部协议暴露层
+  - 识库外部协议
 source_refs:
-- 30_wiki/concepts/concept-mcp-protocol.md
-- 90_control/domain-routes.yaml
-- kdo-tools/mcp/server.py
-- kdo-tools/mcp/tools.py
 related:
 discoverable_by:
   - "KDO MCP Server"
   - "知识库外部协议"
   - "MCP Server知识库"
-- framework-kdo-modeling-methodology
-- framework-kdo-retrieval-architecture-v2
-- concept-mcp-protocol
-- agent-spec-duanwangye-publisher
-- agent-spec-hongqigong-multimodal
 tags:
-aliases:
-  - KDOMCPServer知识库能力的外部协议暴露层
-  - 知识库能力的外部协议暴露层
-  - 识库外部协议
-  - 外部协议
-  - 库能力的外部协议暴露层
-  - 知识库
-aliases:
-  - KDOMCPServer知识库能力的外部协议暴露层
-  - 知识库能力的外部协议暴露层
-  - 识库外部协议
-  - 知识库
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- control
 ---
-
 # KDO MCP Server — 知识库能力的外部协议暴露层
 
 > **一句话**：KDO MCP Server 是 KDO 知识工厂编译链的最终产物——把 framework → tool → skill → workflow → agent-spec 的完整能力栈，通过 MCP 标准协议暴露给任何外部 Agent。

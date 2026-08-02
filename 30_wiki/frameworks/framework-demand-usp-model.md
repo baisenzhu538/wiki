@@ -11,51 +11,27 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- five-step-method
+aliases:
+  - USP需求洞察模型
+  - USP需求洞察模型：Demand=User×Situation×Problem
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 五步法之需求分析
+  - 户场景问题模型
+  - 求洞察
+  - 需求分析
+  - 需求模型
+  - 需求洞察模型
 source_refs:
-- 00_inbox/五步法之需求分析/一堂-需求分析-需求洞察USP模型-图-01_ocr_text.md
 related:
 discoverable_by:
   - "USP需求模型"
   - "需求洞察USP"
   - "用户场景问题模型"
   - "Demand = User × Situation × Problem"
-- '[[yitang-domain-digest]]'
-- '[[yt-note-problem-solving-capability]]'
-- '[[yt-demand-level-assessment]]'
-- '[[tool-demand-iceberg-l1-user]]'
-- '[[case-demand-pharma-bigdata]]'
-- '[[yt-demand-peak-end-rule]]'
-- '[[tool-月白-AI模型选择策略]]'
-- '[[tool-demand-iceberg-l3-core-job]]'
-- '[[tool-demand-iceberg-l6-hypothesis]]'
-- '[[yt-demand-insight-extraction]]'
-- '[[concept-最简单元模型]]'
-- '[[case-treadmill-demand-analysis]]'
-- proposal-prompt-injection-infrastructure
-- tool-yitang-amazon-bestseller
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - USP需求洞察模型：Demand=User×Situation×Problem
-  - USP需求洞察模型
-  - 需求模型
-  - 求洞察
-  - 需求洞察模型
-  - 户场景问题模型
-aliases:
-  - USP需求洞察模型：Demand=User×Situation×Problem
-  - USP需求洞察模型
-  - 求洞察
-  - 户场景问题模型
-  - 需求模型
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 五步法之需求分析
-- 需求分析
 ---
 # USP需求洞察模型
 

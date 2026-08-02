@@ -6,65 +6,28 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 小红书双重搜索法
+  - 技能
+  - 技能：小红书双重搜索法
+  - 月白
 source_refs:
-- src_unknown
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-工厂对接信息清单制作]]'
-- '[[tool-月白-AI生成图小字控制法]]'
-- '[[tool-月白-新手设计师基本功训练法]]'
-- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
-- '[[tool-月白-文创材质成本调研与精益选择]]'
-- '[[tool-月白-80分效率设计策略]]'
-- '[[tool-月白-AIGC人群画像驱动详情页规划]]'
-- '[[tool-月白-AIGC反向拆解法]]'
-- '[[tool-月白-AIGC设计作业复盘法]]'
-- '[[tool-月白-AI对话式海报修改（免PS）]]'
-- '[[tool-月白-AI工艺图人工复核法]]'
-- '[[tool-月白-AI生成图片排版控制-尺寸优先法]]'
-- '[[tool-月白-AI自动生成多语种专业名词提示词]]'
-- '[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]'
-- '[[tool-月白-Token效价比决策法]]'
-- '[[tool-月白-产品替换式场景合成法]]'
-- '[[tool-月白-叙事性场景海报构建]]'
-- '[[tool-月白-口喷作图工作流]]'
-- '[[tool-月白-商业项目AI模型选型决策]]'
-- '[[tool-月白-图生图产品替换与场景合成]]'
-- '[[tool-月白-基于需求拆解找设计参考]]'
-- '[[tool-月白-实物包装落地训练法]]'
-- '[[tool-月白-封面情绪转化法]]'
-- '[[tool-月白-左手Cubox右手里程碑学习法]]'
-- '[[tool-月白-手机外设计逻辑切换法]]'
-- '[[tool-月白-文件命名与平台适配规范]]'
-- '[[tool-月白-最佳实践素材收集法]]'
-- '[[tool-月白-模型性价比选型决策]]'
-- '[[tool-月白-正向反馈强化AI生成]]'
-- '[[tool-月白-精准提示词撰写法]]'
-- '[[tool-月白-设计参考图精准定位法]]'
-- '[[tool-月白-资深设计师AI工具切换法]]'
 tags:
-aliases:
-  - 技能：小红书双重搜索法
-  - 技能
-  - 小红书双重搜索法
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
 # 技能：小红书双重搜索法
 

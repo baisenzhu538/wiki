@@ -1,59 +1,30 @@
 ---
 id: tool-strategy-risk-management
 title: 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
-aliases:
-- src_unknown
-- src_unknown
-- src_unknown
-- 冉鹏PPT截图
-- 引擎点火
 type: tool
 status: reviewed
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- risk_management
+aliases:
+  - audience:manager
+  - scene:execution
+  - skill-level:advanced
+  - 业务设计风险管理工具
+  - 业务设计风险管理工具：ISO31000四步闭环×GraceLaConte矩阵
+  - 冉鹏PPT截图
+  - 四步闭环
+  - 引擎点火
+  - 矩阵
+  - 设计风险管理工具
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_127_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_127_vlm_desc.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_129_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_129_vlm_desc.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_ocr_text.md
 quality_labels:
-- actionable
-- cited
-- validated
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-- '[[strategy-domain-digest]]'
-- '[[tool-月白-设计师AI工具习惯切换]]'
-- '[[ai-short-drama-platform-policy-comparison]]'
-- '[[tool-泛产品设计-需求工具箱指南]]'
-- '[[tool-Truman-AI工具选型决策]]'
-- '[[dk-note-maximum-common-divisor]]'
-- '[[tool-泛产品落地-风险管理]]'
-- '[[tool-清单小抄工具箱法]]'
-- '[[concept-maister-trusted-advisor]]'
-- yt-demand-qualitative-analysis
 tags:
-aliases:
-  - 业务设计风险管理工具：ISO31000四步闭环×GraceLaConte矩阵
-  - 业务设计风险管理工具
-  - 四步闭环
-  - 矩阵
-  - 设计风险管理工具
-aliases:
-  - 业务设计风险管理工具：ISO31000四步闭环×GraceLaConte矩阵
-  - 业务设计风险管理工具
-  - 四步闭环
-  - 矩阵
-- audience:manager
-- scene:execution
-- skill-level:advanced
 ---
 # 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
 

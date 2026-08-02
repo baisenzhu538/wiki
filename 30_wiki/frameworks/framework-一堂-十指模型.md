@@ -11,60 +11,28 @@ language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
 domain:
-- yitang
-- conversion-rate
+aliases:
+  - audience:ceo
+  - conversion
+  - handle
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂十指模型
+  - 五化比喻
+  - 化右手五化
+  - 右手五化比喻/金句/情绪/冲突/升华+
+  - 宝书演示
+  - 左手五化场景/口语/数字/故事/素材+
+  - 手五化右手五化
+  - 黄宝书完整演示
 source_refs:
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2732-L2892
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2736-L2736
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2762-L2764
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2878-L2888
-- 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-笔记.txt L80-L80
 related:
 discoverable_by:
   - "十指模型"
   - "左手五化右手五化"
   - "黄宝书演示"
-- '[[case-一堂-组合篇案例库]]'
-- '[[conversion-rate-domain-digest]]'
-- '[[framework-一堂-六大优化原则]]'
-- '[[framework-一堂-影响力36计]]'
-- '[[framework-一堂-转化率提升六步法]]'
-- '[[framework-一堂-转化率黑客-总纲]]'
-- '[[tool-agent-spec-yitang-opening-3min]]'
-- '[[tool-agent-spec-yitang-value-proposition]]'
-- '[[tool-一堂-FAB说服法]]'
-- '[[tool-一堂-七大转化场景自检]]'
-- '[[tool-一堂-名利权情动力法]]'
-- '[[tool-一堂-影响力六原则]]'
-- '[[tool-一堂-讲香双策略]]'
-- '[[tool-动力阻力分析]]'
-- '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
 quality_labels:
-- principle
-- framework
-- cited
-- actionable
 tags:
-aliases:
-  - 一堂十指模型
-  - 左手五化场景/口语/数字/故事/素材+
-  - 右手五化比喻/金句/情绪/冲突/升华+
-  - 黄宝书完整演示
-  - 五化比喻
-  - 化右手五化
-aliases:
-  - 一堂十指模型
-  - 左手五化场景/口语/数字/故事/素材+
-  - 右手五化比喻/金句/情绪/冲突/升华+
-  - 黄宝书完整演示
-  - 手五化右手五化
-  - 宝书演示
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- conversion
-- handle
 ---
 # 一堂十指模型：左手具象五化 + 右手抽象五化
 

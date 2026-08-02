@@ -6,52 +6,29 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 技能
+  - 技能：正向反馈强化AI生成
+  - 月白
+  - 正向反馈强化AI生成
 source_refs:
-- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-工厂对接信息清单制作]]'
-- '[[tool-月白-小红书双重搜索法]]'
-- '[[tool-月白-新手设计师基本功训练法]]'
-- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
-- '[[tool-月白-文创材质成本调研与精益选择]]'
-- '[[tool-月白-产品风格选择：测而非定]]'
-- '[[tool-月白-口述作图法（口喷设计）]]'
-- '[[tool-月白-实物包装产业链实践]]'
-- '[[tool-月白-小红书封面趋势判断法]]'
-- '[[tool-月白-左手Cubox右手里程碑学习法]]'
-- '[[tool-月白-新媒体热点物料快速迭代法]]'
-- '[[tool-月白-普通人AI设计80分法则]]'
-- '[[tool-月白-短视频封面高亮吸睛法]]'
-- '[[tool-月白-精准共用提示词撰写]]'
-- '[[tool-月白-线下实体门店设计真实体感验证]]'
-- '[[tool-月白-设计师AI工具习惯切换]]'
-- '[[tool-月白-设计项目里程碑拆解法]]'
 tags:
-aliases:
-  - 技能：正向反馈强化AI生成
-  - 技能
-  - 正向反馈强化AI生成
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
-
 # 技能：正向反馈强化AI生成
 
 ## 原始表述

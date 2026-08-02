@@ -9,22 +9,25 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- strategy
-- lean-startup
-- ai-collaboration
-- yitang
+aliases:
+  - AI加速的战略验证闭环
+  - [[ai-collaboration-domain-digest]]
+  - [[framework-lean-false-model]]
+  - [[framework-lean-systematic-test-curve]]
+  - [[framework-multi-agent-research-architecture]]
+  - [[framework-pan-product-organization]]
+  - [[framework-strategy-brm]]
+  - [[framework-wanghuan-harness-seven-stages]]
+  - [[framework-一堂五步法-泛产品设计]]
+  - [[lean-startup-domain-digest]]
+  - [[strategy-domain-digest]]
+  - 加速的战略
+  - 加速的战略验证闭环
+  - 张磊教练
+  - 的战略
+  - 验证闭环
 source_refs:
-- 60_feedback/audit/cross-domain-bridge-design-specs.md
-- 00_inbox/精益创业/一堂DOC-20260622212828_ocr_text.md
-- 00_inbox/精益创业/一堂DOC-20260622212828_vlm_desc.md
-- 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
-- 00_inbox/精益创业/张磊-精益方法论-AMA-口述-01.txt
-- 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 discoverable_by:
-- "AI加速战略"
-- "战略验证闭环"
-- "AI战略周期"
-- "精益AI加速"
 tags:
   - method:ai-strategy
   - method:acceleration
@@ -34,36 +37,10 @@ tags:
   - content-format:framework
   - source-person:Truman
 related:
-aliases:
-  - AI加速的战略验证闭环
-  - 加速的战略
-  - 验证闭环
-  - 加速的战略验证闭环
-  - 的战略
-aliases:
-  - AI加速的战略验证闭环
-  - 加速的战略
-  - 验证闭环
-- '[[framework-multi-agent-research-architecture]]'
-- '[[framework-wanghuan-harness-seven-stages]]'
-- '[[framework-lean-false-model]]'
-- '[[framework-lean-systematic-test-curve]]'
-- '[[framework-strategy-brm]]'
-- '[[strategy-domain-digest]]'
-- '[[lean-startup-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
-- '[[framework-pan-product-organization]]'
-- '[[framework-一堂五步法-泛产品设计]]'
 quality_labels:
-- cited
-- principle
-- validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
-aliases:
-- 张磊教练
 ---
-
 # AI 加速的战略-验证闭环
 
 > 用 AI 同时压缩战略分析（市场/竞争/用户）和精益验证（假设生成/实验执行/数据分析）的周期，让“人定方向 → AI 加速验证 → 人做决策”的闭环转得更快，但不改变决策责任归属。

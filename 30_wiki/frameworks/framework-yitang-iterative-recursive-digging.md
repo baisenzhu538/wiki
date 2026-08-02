@@ -12,62 +12,30 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: advanced
 estimated_tokens: 3500
 version: 1
 query_triggers:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:intermediate
+  - 从表层到内核的认知穿透
+  - 代递归深挖
+  - 知穿透
+  - 表层到内核
+  - 迭代递归深挖法
+  - 迭代递归深挖法：从表层到内核的认知穿透
+  - 递归深挖法
 source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
 discoverable_by:
   - "迭代递归深挖"
   - "认知穿透"
   - "从表层到内核"
-- '[[tool-yitang-research-deep-attribution]]'
-- '[[tool-yitang-18-strategy-tool-mapping]]'
-- '[[yitang-research-domain-digest]]'
-- '[[system-yitang-research-workflow]]'
-- '[[tool-yitang-research-follow-map]]'
-- '[[framework-yitang-oscar-research]]'
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[framework-yitang-nine-layer-deep-dig]]'
-- '[[tool-yitang-research-deep-attribution]]'
-- '[[tool-yitang-research-cross-validation]]'
-- '[[dk-yitang-research-starter-vs-veteran]]'
-- '[[dk-yitang-survivor-bias-in-research]]'
-- '[[concept-yitang-research-mindset]]'
-- '[[case-yitang-sanjieke-benchmark-failure]]'
-- '[[framework-yitang-six-layer-cross-validation]]'
 tags:
-aliases:
-  - 迭代递归深挖法：从表层到内核的认知穿透
-  - 迭代递归深挖法
-  - 从表层到内核的认知穿透
-  - 表层到内核
-  - 递归深挖法
-  - 知穿透
-aliases:
-  - 迭代递归深挖法：从表层到内核的认知穿透
-  - 迭代递归深挖法
-  - 从表层到内核的认知穿透
-  - 知穿透
-  - 代递归深挖
-  - 表层到内核
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 aliases: []
 ---
-
 # 迭代递归深挖法：从表层到内核的认知穿透
 
 > **一句话**：真正的调研不是"看一遍"，而是"看一遍→发现疑问→再深挖→再发现→再深挖"的递归过程。迭代递归深挖法强迫你不满足于表层信息，持续追问直到找到内核。

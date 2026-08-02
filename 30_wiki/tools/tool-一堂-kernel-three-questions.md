@@ -11,25 +11,16 @@ domain: yitang
 confidence: 0.75
 trust_level: medium
 related:
-- '[[concept-一堂-product-kernel]]'
-- '[[tool-一堂-product-kernel-add-subtract]]'
-- '[[tool-一堂-five-step-validation]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[tool-ai-problem-question-check]]'
-- '[[tool-纪浩-Problem与Question区分法]]'
-source_refs:
-- pending_archive: src_unknown
-tags:
 aliases:
-  - 技能：内核要素三问验证法
-  - 技能
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 内核要素三问验证法
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - 技能
+  - 技能：内核要素三问验证法
+source_refs:
+tags:
 ---
-
 # 技能：内核要素三问验证法
 
 ## 不要用的场景

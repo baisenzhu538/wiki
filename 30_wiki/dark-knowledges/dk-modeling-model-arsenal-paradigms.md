@@ -5,41 +5,30 @@ type: dk
 dark_knowledge_type: insight
 status: reviewed
 domain:
-- yitang
-- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
+aliases:
+  - 99%的模型跑不出二三十个范式：先装武器库再创新
+  - Truman
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 先装武器库再创新
+  - 型跑不出二三十个范式
+  - 建模能力培训
+  - 武器库再创新
+  - 的模型跑不出二三十个范式
 source_refs:
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 confidence: 0.89
 trust_level: medium
 diagnostic_signals: null
 related:
-- '[[yitang-domain-digest]]'
 tags:
-aliases:
-  - 99%的模型跑不出二三十个范式：先装武器库再创新
-  - 的模型跑不出二三十个范式
-  - 先装武器库再创新
-  - Truman
-  - 武器库再创新
-  - 型跑不出二三十个范式
-aliases:
-  - 99%的模型跑不出二三十个范式：先装武器库再创新
-  - 的模型跑不出二三十个范式
-  - 先装武器库再创新
-  - Truman
-- audience:executor
-- scene:reference
-- skill-level:intermediate
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-18'
-aliases:
-- 建模能力培训
 ---
-
 ## 原始表述/核心洞察
 
 > 未来我们可能会给你个武器库……大概也就这么二三十个模型……如果你们不做创新模型，你几乎 99% 最后建的模型，它都是在这些图里你选就行了。

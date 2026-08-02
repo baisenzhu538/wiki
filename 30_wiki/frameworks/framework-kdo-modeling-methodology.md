@@ -7,14 +7,17 @@ author: 黄药师
 confidence: 0.9
 trust_level: high
 domain:
-- kdo
-- modeling
+aliases:
+  - KDO建模方法论从踩坑打补丁到组件化建模
+  - advanced
+  - control
+  - 从踩坑打补丁到组件化建模
+  - 件化建模
+  - 坑打补丁到组件化建模
+  - 坑打补丁建模
+  - 建模方法论
+  - 黄药师
 source_refs:
-- 00_inbox/Advanced modeling/一堂-高阶建模实践1-流程建模-口述.txt
-- 00_inbox/Advanced modeling/一堂-高阶建模实践1-流程建模-笔记.txt
-- .agent/pitfalls.md
-- .agent/startup.md
-- 90_control/rules-core.md
 tags:
   - method:kdo-modeling
   - method:knowledge-engineering
@@ -24,36 +27,13 @@ tags:
   - content-format:framework
   - source-person:黄药师
 related:
-aliases:
-  - KDO建模方法论从踩坑打补丁到组件化建模
-  - 建模方法论
-  - 从踩坑打补丁到组件化建模
-  - 件化建模
-  - 坑打补丁到组件化建模
-  - 黄药师
-aliases:
-  - KDO建模方法论从踩坑打补丁到组件化建模
-  - 建模方法论
-  - 从踩坑打补丁到组件化建模
-  - 坑打补丁建模
-  - 件化建模
-  - 黄药师
 discoverable_by:
   - "KDO建模方法论"
   - "组件化建模"
   - "踩坑打补丁建模"
-- framework-kdo-self-attack
-- concept-kdo-component-library
-- dk-process-is-scar-tissue
-- framework-一堂-TCPR皇冠模型
-- yt-decision-y-model
 created_at: 2026-07-19
 updated_at: 2026-07-19 - tool-yitang-dialectical-modeling - framework-yitang-thought-liberation-lightning
-aliases:
-- advanced
-- control
 ---
-
 ## 核心主张
 
 KDO 工厂的 Agent 们卡在 Truman 定义的「后知后觉」层次——每次踩坑后打补丁（41 条 pitfalls 为证），但没有把补丁萃取为可复用的**建模组件**。本卡将 Truman 的建模四步法映射到 KDO 管线，把「流程是业务的疤痕」从一个比喻变成一套操作方法。

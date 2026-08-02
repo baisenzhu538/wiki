@@ -9,53 +9,25 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 低成本验证实操
+  - 关键假设
+  - 关键假设ABCD模型
+  - 模型
+  - 键假设
 source_refs:
-- 00_inbox/精益创业/truman-精益创业-关键假设ABCD模型_ocr_text.md
-- 00_inbox/精益创业/truman-精益创业-关键假设ABCD模型_vlm_desc.md
-- 00_inbox/精益创业/transcript_低成本验证实操1_剥离假设篇.md
 related:
 discoverable_by:
   - "关键假设ABCD模型"
   - "精益ABCD"
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[framework-demand-lean-bridge]]'
-- '[[framework-lean-pivot-decision]]'
-- '[[framework-pan-product-organization]]'
-- '[[framework-strategy-lean-validation]]'
-- '[[framework-yitang-channel-exploration-4step]]'
-- '[[framework-一堂-关键假设-ABCD模型]]'
-- '[[framework-一堂五步法-泛产品设计]]'
 quality_labels:
-- principle
-- validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
 tags:
-aliases:
-  - 关键假设ABCD模型
-  - 关键假设
-  - 模型
-  - 键假设
-aliases:
-  - 关键假设ABCD模型
-  - 关键假设
-  - 模型
-  - 键假设
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 低成本验证实操
-- 关键假设
 ---
-
 # 关键假设 ABCD 模型
 
 ## 一句话定义

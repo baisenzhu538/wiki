@@ -4,10 +4,6 @@ title: 王欢BITCOE提示词框架
 type: framework
 status: reviewed
 domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -16,51 +12,23 @@ confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
+aliases:
+  - lens: 意图模糊
+  - 提示词
+  - 提示词框架
+  - 王欢
+  - 王欢BITCOE提示词框架
 source_refs:
-- src_unknown
-- src_unknown
-- src_unknown
 related:
 discoverable_by:
   - "王欢BITCOE提示词"
-- '[[tool-wanghuan-ai-business-profile]]'
-- '[[framework-wanghuan-ooda-loop]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[framework-ai-deconstruction-methodology]]'
-- '[[framework-ai2041-critical-reading-os]]'
-- '[[framework-wanghuan-three-tier-dev-architecture]]'
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- audience:ceo
-- scene:diagnosis
-- skill-level:intermediate
 diagnostic_signals:
-aliases:
-  - 王欢BITCOE提示词框架
-  - 王欢
-  - 提示词
-  - 提示词框架
-aliases:
-  - 王欢BITCOE提示词框架
-  - 王欢
-  - 提示词
-- lens: 意图模糊
-  follow_up: 用 BITCOE 六槽位逐条检查：背景、指令、任务、约束、输出、示例是否都已显式写出？
-- lens: 约束缺失
-  follow_up: Constraint 槽位是否写明了"不要做什么、不能碰什么、避免什么风格"？
-- lens: 示例与格式缺位
-  follow_up: Output 和 Example 槽位是否给出了可对照的格式样例和风格参考？
-- lens: 上下文工程缺失
-  follow_up: 高频任务是否已把稳定背景写进 [[tool-wanghuan-ai-business-profile]]，而非每次用 BITCOE 重复？
+follow_up: 用 BITCOE 六槽位逐条检查：背景、指令、任务、约束、输出、示例是否都已显式写出？
+follow_up: Constraint 槽位是否写明了"不要做什么、不能碰什么、避免什么风格"？
+follow_up: Output 和 Example 槽位是否给出了可对照的格式样例和风格参考？
+follow_up: 高频任务是否已把稳定背景写进 [[tool-wanghuan-ai-business-profile]]，而非每次用 BITCOE 重复？
 ---
-
 # 王欢BITCOE提示词框架
 
 > **Burn line**: BITCOE 不是公式，是消灭模糊的思维习惯。

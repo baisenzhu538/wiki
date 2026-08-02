@@ -11,42 +11,27 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- lean-startup
-- yitang
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 低成本验证认知篇
+  - 假设的精益验证流程
+  - 战略假设的精益验证流程
+  - 略假设验证
+  - 略流程
+  - 略精益验证
+  - 益战略流程
+  - 益验证
+  - 设验证
 source_refs:
-- 00_inbox/精益创业/transcript_低成本验证认知篇.md
-- 60_feedback/audit/cross-domain-bridge-design-specs.md
 related:
 discoverable_by:
   - "战略精益验证"
   - "战略假设验证"
   - "精益战略流程"
-- '[[framework-lean-false-model]]'
-- '[[framework-lean-abcd-model]]'
-- '[[strategy-domain-digest]]'
-- '[[lean-startup-domain-digest]]'
-- '[[yitang-domain-digest]]'
 tags:
-aliases:
-  - 战略假设的精益验证流程
-  - 益战略流程
-  - 略流程
-  - 设验证
-  - 益验证
-  - 假设的精益验证流程
-aliases:
-  - 战略假设的精益验证流程
-  - 略假设验证
-  - 略精益验证
-  - 益战略流程
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 低成本验证认知篇
 ---
-
 # 战略假设的精益验证流程
 
 > 把战略选择翻译成一个可验证的假设清单，并用精益工具按优先级和成本排序验证。

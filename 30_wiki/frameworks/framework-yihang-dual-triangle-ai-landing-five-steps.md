@@ -11,49 +11,24 @@ language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-08
 domain:
-- yitang
-- ai-collaboration
-- implementation
+aliases:
+  - AI落地五部曲
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 一堂双三角
+  - 一行双三角AI落地五部曲
+  - 五部曲
+  - 人机协作双三角
+  - 双三角
+  - 双三角AI落地五部曲
+  - 落地五部曲
 source_refs:
-- 00_inbox/人机协作双三角/一堂双三角-AI落地五部曲.png
-- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-逐字稿.md
-- 00_inbox/人机协作双三角/_processed/贝壳找房案例口述.pdf
-- 00_inbox/人机协作双三角/_processed/组织硬件公司专利案例口述_text.md
-- 00_inbox/人机协作双三角/_processed/组织酒店行业AI标签案例口述_text.md
 related:
 discoverable_by:
   - "双三角AI落地五部曲"
-- '[[concept-yihang-dual-triangle-core]]'
-- '[[framework-yihang-dual-triangle-three-stages-six-changes]]'
-- '[[tool-yihang-dual-triangle-canvas]]'
-- '[[agent-spec-dual-triangle-canvas-filler]]'
-- '"[[case-yihang-dual-triangle-tianmo-design-delivery]]"'
-- '"[[case-yihang-dual-triangle-ahao-product-selection]]"'
-- '"[[case-yihang-dual-triangle-huazao-synthetic-data]]"'
-- '"[[case-yihang-dual-triangle-chentian-knowledge-agent]]"'
-- '"[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"'
-- '"[[framework-yitang-y-model-dual-triangle-synergy]]"'
-- '"[[framework-yitang-y-model-cross-domain-fusion]]"'
-- '"[[agent-spec-yitang-Y-model-cross-domain-coach]]"'
-aliases:
-- 双三角AI落地五部曲
-- AI落地五部曲
-- 一堂双三角
-- 人机协作双三角
 tags:
-aliases:
-  - 一行双三角AI落地五部曲
-  - 五部曲
-  - 落地五部曲
-  - 双三角
-aliases:
-  - 一行双三角AI落地五部曲
-  - 落地五部曲
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 ---
-
 # 一行双三角AI落地五部曲
 
 > **一句话定义**：把 AI 项目落地拆成五个递进步骤：定场景 → 做计划 → 快验证 → 工程化 → 做迭代。核心原则是「充分加法，专业减法」。

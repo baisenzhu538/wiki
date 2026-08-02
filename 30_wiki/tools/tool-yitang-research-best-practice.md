@@ -12,50 +12,23 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: beginner
 estimated_tokens: 3000
 version: 1
 query_triggers:
-- 最佳实践 调研 标杆
-- 行业 标杆 复制 成功因素
-- 最佳实践 调研 四步法
-- 标杆案例 寻找 筛选
-- 成功因素 分析 框架
-- 最佳实践 借鉴 计划
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[framework-yitang-iterative-recursive-digging]]'
-- '[[tool-yitang-research-industry-scan]]'
-- '[[business-research-skill-oscar-13-weapon-system]]'
-- '[[system-yitang-research-workflow]]'
-- '[[tool-yitang-research-follow-map]]'
-- '[[framework-yitang-oscar-research]]'
-- '[[framework-yitang-18-strategy-cards]]'
-- '[[tool-yitang-research-competitor-tracking]]'
-- '[[tool-yitang-research-industry-scan]]'
-- '[[yt-research-competitor-toolkit]]'
-- '[[case-yitang-sanjieke-benchmark-failure]]'
-- '[[dk-yitang-research-starter-vs-veteran]]'
-- '[[dk-yitang-survivor-bias-in-research]]'
-- '[[concept-yitang-research-mindset]]'
-- '[[tool-candy-positioning-canvas]]'
-- '[[tool-yitang-research-company-disassembly]]'
-tags:
 aliases:
-  - 最佳实践调研：找到行业标杆，复制成功因素
-  - 最佳实践调研
-  - 找到行业标杆
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 复制成功因素
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - 找到行业标杆
+  - 最佳实践调研
+  - 最佳实践调研：找到行业标杆，复制成功因素
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 最佳实践调研：找到行业标杆，复制成功因素
 
 > **一句话**：不要重新发明轮子。找到行业内做得最好的，分析其成功因素，判断哪些可以复制，哪些需要调整，这是成本最低的学习方式。

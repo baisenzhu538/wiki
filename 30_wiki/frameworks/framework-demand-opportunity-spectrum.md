@@ -11,46 +11,30 @@ confidence: 0.88
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- five-step-method
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 业机会光谱
+  - 业机会怎么判断
+  - 五步法之需求分析
+  - 会光谱
+  - 商业机会预判
+  - 商业机会预判终局光谱图
+  - 商业终局光谱图
+  - 局光谱图
+  - 求机会预判
+  - 终局光谱图
 source_refs:
-- 00_inbox/五步法之需求分析/一堂-需求分析-商业终局光谱图-图-01_ocr_text.md
 related:
 discoverable_by:
   - "商业机会光谱"
   - "终局光谱图"
   - "需求机会预判"
   - "创业机会怎么判断"
-- '[[yitang-domain-digest]]'
-- '[[tool-月白-文创产品AI设计到生产的卡点预判]]'
-- '[[tool-单元模型-壁垒预判]]'
-- '[[framework-demand-ceiling-four-lines]]'
-- '[[framework-一堂-机会预判]]'
-- yt-foresight-business-spectrum
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - 商业机会预判终局光谱图
-  - 商业机会预判
-  - 终局光谱图
-  - 求机会预判
-  - 会光谱
-  - 业机会光谱
-aliases:
-  - 商业机会预判终局光谱图
-  - 商业机会预判
-  - 终局光谱图
-  - 业机会光谱
-  - 业机会怎么判断
-  - 局光谱图
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 五步法之需求分析
-- 商业终局光谱图
 ---
-
 # 商业机会预判·终局光谱图
 
 > 不是所有机会都值得做成上市公司的。光谱图帮你定位：这个机会最多能做到多大？

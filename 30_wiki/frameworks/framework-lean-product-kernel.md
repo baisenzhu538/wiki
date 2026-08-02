@@ -9,47 +9,25 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- strategy
-- yitang
-- product
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 不要过早细化未经思考的产品内核
+  - 不要过早细化未经思考的内核
+  - 产品内核
+  - 产品内核：不要过早细化未经思考的内核
+  - 品内核
+  - 益产品内核
+  - 精益创业
+  - 过早细化未经思考的内核
 source_refs:
-- 00_inbox/精益创业/truman-精益创业-不要过早细化未经思考的产品内核_ocr_text.md
-- 00_inbox/精益创业/truman-精益创业-不要过早细化未经思考的产品内核_vlm_desc.md
 related:
 discoverable_by:
   - "精益产品内核"
-- '[[concept-一堂-kernel-validation]]'
-- '[[pending_unknown]]'
-- '[[strategy-domain-digest]]'
-- '[[yitang-domain-digest]]'
-- '[[tool-agent-spec-yitang-kernel-add-subtract-diagnosis]]'
-- '[[tool-agent-spec-yitang-kernel-canvas-autofill]]'
-- '[[tool-agent-spec-yitang-kernel-case-matching]]'
-- '[[tool-agent-spec-yitang-kernel-failure-mode-diagnosis]]'
-- '[[tool-agent-spec-yitang-kernel-iteration-direction]]'
-- '[[tool-agent-spec-yitang-kernel-three-questions]]'
-- '[[tool-agent-spec-yitang-kernel-verification-ladder]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:
-aliases:
-  - 产品内核：不要过早细化未经思考的内核
-  - 产品内核
-  - 不要过早细化未经思考的内核
-  - 益产品内核
-  - 过早细化未经思考的内核
-  - 品内核
-aliases:
-  - 产品内核：不要过早细化未经思考的内核
-  - 产品内核
-  - 不要过早细化未经思考的内核
-  - 益产品内核
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 不要过早细化未经思考的产品内核
-- 精益创业
 ---
 # 产品内核：不要过早细化未经思考的内核
 

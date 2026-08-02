@@ -10,45 +10,25 @@ trust_level: high
 updated_at: '2026-06-29'
 language: zh-CN
 domain:
-- strategy
+aliases:
+  - BRM框架为核心
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 定式Core
+  - 定式CoreFoundation：BRM框架为核心，战略肌肉记忆
+  - 战略肌肉记忆
+  - 核心框架
+  - 框架为核心
+  - 略基本功定式
 source_refs:
-- src_unknown
 related:
 discoverable_by:
   - "BRM定式"
   - "战略基本功定式"
   - "战略肌肉记忆"
   - "BRM核心框架"
-- '[[strategy-domain-digest]]'
-- '[[yt-tob-core-characteristics]]'
-- '[[yt-panproduct-execution-core-and-boundary]]'
-- '[[framework-strategy-brm]]'
-- '[[yt-model-product-core-metrics]]'
-- '[[yt-entrepreneur-product-core]]'
-- '[[yt-tool-hiring-scorecard]]'
-- '[[tool-strategy-core-competence-matrix]]'
-- '[[tool-demand-iceberg-l3-core-job]]'
-- '[[yt-tool-product-core-canvas]]'
-- kdo-protocol-implementation-roadmap
-- tool-strategy-five-see-three-set
 tags:
-aliases:
-  - 定式CoreFoundation：BRM框架为核心，战略肌肉记忆
-  - 定式Core
-  - BRM框架为核心
-  - 战略肌肉记忆
-  - 框架为核心
-  - 略基本功定式
-aliases:
-  - 定式CoreFoundation：BRM框架为核心，战略肌肉记忆
-  - 定式Core
-  - BRM框架为核心
-  - 战略肌肉记忆
-  - 略基本功定式
-  - 核心框架
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 ---
 **核心**：BRM（差距→规划→执行）不是一次性的项目，是需要形成肌肉记忆的日常习惯
 **战略洞察两大要素**：速度（多快发现机会和威胁）+ 视野（看多宽——行业/跨行业/全球）

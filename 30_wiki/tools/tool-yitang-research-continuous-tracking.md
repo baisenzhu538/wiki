@@ -12,42 +12,22 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- yitang
-- research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
-- 持续跟踪 动态 监控
-- 跟踪对象 监控 机制
-- 认知 更新 迭代
-- 策略 动态调整 响应
-- 信息 监控 预警 机制
-- 持续 调研 认知 迭代
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
-related:
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- '[[tool-ci-implement-phase]]'
-- '[[tool-yitang-research-competitor-tracking]]'
-- '[[tool-yitang-social-engineering-research]]'
-- '[[tool-yitang-supply-chain-research]]'
-tags:
 aliases:
-  - 持续跟踪：建立动态信息监控机制
-  - 持续跟踪
+  - audience:executor
+  - scene:execution
+  - skill-level:intermediate
   - 建立动态信息监控机制
-- audience:executor
-- scene:execution
-- skill-level:intermediate
+  - 持续跟踪
+  - 持续跟踪：建立动态信息监控机制
+source_refs:
+related:
+tags:
 aliases: []
 ---
-
 # 持续跟踪：建立动态信息监控机制
 
 > **一句话**：调研不是一次性的，而是持续性的。建立动态监控机制，确保关键信息变化时第一时间知晓，认知持续迭代。

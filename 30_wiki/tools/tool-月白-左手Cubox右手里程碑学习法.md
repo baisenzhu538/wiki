@@ -6,38 +6,28 @@ status: draft
 domain: design- design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+aliases:
+  - audience:executor
+  - scene:execution
+  - skill-level:beginner
+  - 左手Cubox右手里程碑学习法
+  - 技能
+  - 技能：左手Cubox右手里程碑学习法
+  - 月白
 source_refs:
-- src_unknown
 wiki_refs: null
 definition_of_done:
-- src_unknown
-- src_unknown
-- src_unknown
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
-- src_unknown
 author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 related:
-- '[[tool-月白-小红书双重搜索法]]'
-- '[[tool-月白-设计师AI资产四类型沉淀]]'
-- '[[tool-月白-课程资料文件命名规范]]'
-- '[[tool-月白-正向反馈强化AI生成]]'
-- '[[tool-月白-AI课程内容深度梳理法]]'
 tags:
-aliases:
-  - 技能：左手Cubox右手里程碑学习法
-  - 技能
-  - 左手Cubox右手里程碑学习法
-  - 月白
-- audience:executor
-- scene:execution
-- skill-level:beginner
 ---
 # 技能：左手Cubox右手里程碑学习法
 

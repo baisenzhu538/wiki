@@ -11,32 +11,21 @@ confidence: 0.85
 trust_level: high
 language: zh-CN
 domain:
-- yitang
-- research
-- ai-collaboration
-source_refs:
-
-related:
 aliases:
   - Crawl4AI：开源AI爬虫自然语言描述即可提取
+  - [[ai-collaboration-domain-digest]]
+  - [[yitang-domain-digest]]
+  - [[yitang-research-domain-digest]]
   - 开源AI爬虫
+  - 爬虫自然语言描述即可提取
   - 自然语言描述即可提取
   - 语言描述即可提取
-  - 爬虫自然语言描述即可提取
-aliases:
-  - Crawl4AI：开源AI爬虫自然语言描述即可提取
-  - 开源AI爬虫
-  - 自然语言描述即可提取
-- '[[yitang-domain-digest]]'
-- '[[yitang-research-domain-digest]]'
-- '[[ai-collaboration-domain-digest]]'
+source_refs:
+related:
 
 
-- '[[tool-纪浩-Agent开工检查单制作法]]'
-- web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 updated_at: '2026-06-29'
 ---
-
 # Crawl4AI
 
 > 开源、免费、本地部署。用自然语言描述你想提取什么——不需要写CSS选择器或XPath。网页改版不影集爬虫。

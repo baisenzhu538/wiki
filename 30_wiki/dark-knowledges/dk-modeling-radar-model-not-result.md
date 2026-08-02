@@ -5,44 +5,30 @@ type: dk
 dark_knowledge_type: workflow
 status: reviewed
 domain:
-- yitang
-- ai-saas
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
+aliases:
+  - Truman
+  - audience:executor
+  - scene:reference
+  - skill-level:intermediate
+  - 只让
+  - 复杂评选别让
+  - 复杂评选别让CEO拍结果，只让CEO审模型
+  - 审模型
+  - 建模能力培训
+  - 拍结果
 source_refs:
-- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 confidence: 0.88
 trust_level: medium
 related:
-- '[[yitang-domain-digest]]'
-- '[[concept-ceo-must-do-user-research]]'
 tags:
-aliases:
-  - 复杂评选别让CEO拍结果，只让CEO审模型
-  - 复杂评选别让
-  - 拍结果
-  - 只让
-  - 审模型
-  - Truman
-aliases:
-  - 复杂评选别让CEO拍结果，只让CEO审模型
-  - 复杂评选别让
-  - 拍结果
-  - 只让
-  - 审模型
-  - Truman
-- audience:executor
-- scene:reference
-- skill-level:intermediate
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 created_at: '2026-06-15'
 updated_at: '2026-06-18'
-aliases:
-- 建模能力培训
 ---
-
 ## 原始表述
 
 > 你们要习惯性建模，你们带着模型过来跟我聊，我只聊模型不聊结果……我有一票否，但我没有一票通过权……我负责的是模型足够健康，且执行是 OK 的。

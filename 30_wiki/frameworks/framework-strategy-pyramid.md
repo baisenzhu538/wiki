@@ -6,9 +6,20 @@ status: reviewed
 confidence: 0.92
 trust_level: high
 domain: strategy
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 业务与职能协同
+  - 企业战略金字塔
+  - 企业战略金字塔：公司、业务与职能协同
+  - 公司
+  - 冉鹏PPT截图
+  - 司业务职能协同
+  - 引擎点火
+  - 略层级框架
+  - 略金字塔
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_20_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_21_ocr_text.md
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
@@ -18,33 +29,7 @@ discoverable_by:
   - "战略金字塔"
   - "公司业务职能协同"
   - "战略层级框架"
-- '[[strategy-domain-digest]]'
-- '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
-- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
-- '[[pending_unknown]]'
-- '[[pending_unknown]]'
-- tool-strategy-four-layers
 tags:
-aliases:
-  - 企业战略金字塔：公司、业务与职能协同
-  - 企业战略金字塔
-  - 公司
-  - 业务与职能协同
-  - 略金字塔
-  - 略层级框架
-aliases:
-  - 企业战略金字塔：公司、业务与职能协同
-  - 企业战略金字塔
-  - 公司
-  - 业务与职能协同
-  - 略金字塔
-  - 司业务职能协同
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 冉鹏PPT截图
-- 引擎点火
 ---
 # 企业战略金字塔：公司、业务与职能协同
 

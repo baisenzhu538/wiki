@@ -3,55 +3,32 @@ id: tool-agent-research-swarm
 title: Agent 调研 Swarm 模式工具
 type: tool
 domain:
-- AI
-- research
-- agent
 tags:
-- 多智能体
-- Swarm模式
-- 并行探索
-- LangChain benchmark
-- Kimi Deep Research
-- audience:executor
-- scene:execution
-- skill-level:intermediate
 source_person: LangChain Team（Will Fu-Hinthorn）+ Kimi Team + Truman（一堂）
 source_context: LangChain 官方 Swarm 架构 benchmark + Kimi Deep Research Swarm 生产案例
+aliases:
+  - Agent调研Swarm模式工具
+  - LangChain Team（Will Fu-Hinthorn）+ Kimi Team + Truman（一堂）
+  - [[case-ban-fei-mao-from-assignment-to-tool]]
+  - [[case-demand-travel-agent]]
+  - [[case-ji-hao-skills-market]]
+  - [[case-truman-ai-partner]]
+  - [[kimi-深度调研集群方法论-deep-research-swarm]]
+  - [[tool-yitang-sales-toolkit-radar]]
+  - 三个新盲区
+  - 外部知识探索
+  - 模式工具
+  - 调研
 source_refs:
-- https://www.langchain.com/blog/benchmarking-multi-agent-architectures
-- https://edison-a-n.github.io/2026/04/19/multi-agent-architecture-survey/
-- 60_feedback/diagnosis/diag_20260621_外部知识探索_三个新盲区.md
 related:
-aliases:
-  - Agent调研Swarm模式工具
-  - 调研
-  - 模式工具
-  - LangChain Team（Will Fu-Hinthorn）+ Kimi Team + Truman（一堂）
-aliases:
-  - Agent调研Swarm模式工具
-  - 调研
-  - 模式工具
-  - LangChain Team（Will Fu-Hinthorn）+ Kimi Team + Truman（一堂）
-- '[[case-demand-travel-agent]]'
-- '[[case-truman-ai-partner]]'
-- '[[case-ban-fei-mao-from-assignment-to-tool]]'
-- '[[case-ji-hao-skills-market]]'
-- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
-- '[[tool-yitang-sales-toolkit-radar]]'
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 created_at: '2026-06-28'
 quality_labels:
-- actionable
-- cited
-- validated
 updated_at: 2026-07-02
 confidence: 0.78
 trust_level: medium
-aliases:
-- 三个新盲区
-- 外部知识探索
 ---
 # Agent 调研 Swarm 模式工具
 

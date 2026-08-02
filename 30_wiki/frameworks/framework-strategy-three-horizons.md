@@ -6,11 +6,21 @@ status: reviewed
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- portfolio
+aliases:
+  - audience:ceo
+  - scene:diagnosis
+  - skill-level:advanced
+  - 三个地平线
+  - 三个地平线：短中长期业务组合管理
+  - 中长期业务
+  - 冉鹏PPT截图
+  - 务组合管理
+  - 地平线
+  - 引擎点火
+  - 新地平线框架
+  - 短中长期业务组合管理
+  - 长期业务组合管理
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_246_ocr_text.md
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_246_vlm_desc.md
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
@@ -21,37 +31,7 @@ discoverable_by:
   - "短中长期业务"
   - "业务组合管理"
   - "创新地平线框架"
-- '[[strategy-domain-digest]]'
-- '[[tool-Truman-Skill全生命周期管理]]'
-- '[[tool-Truman-上下文质量管理（AI协作）]]'
-- '[[deepseek-v4-在知识管理系统中的应用]]'
-- '[[tool-纪浩-AI使用边界管理法]]'
-- '[[tool-泛产品落地-风险管理]]'
-- '[[tool-泛产品落地-管理三段论]]'
-- '[[tool-水水-管理决策权重偏差]]'
-- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
-- tool-strategy-three-horizons
 tags:
-aliases:
-  - 三个地平线：短中长期业务组合管理
-  - 三个地平线
-  - 短中长期业务组合管理
-  - 长期业务组合管理
-  - 地平线
-  - 中长期业务
-aliases:
-  - 三个地平线：短中长期业务组合管理
-  - 三个地平线
-  - 短中长期业务组合管理
-  - 新地平线框架
-  - 务组合管理
-  - 中长期业务
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
-aliases:
-- 冉鹏PPT截图
-- 引擎点火
 ---
 # 三个地平线：短中长期业务组合管理
 
