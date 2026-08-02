@@ -44,6 +44,9 @@ SECTION_TYPO_MAP = {
     "Failure Modes": "失败模式",
 }
 
+# ── R3: frontmatter 重复键检测（#228 E010终极防线）────
+DUPLICATE_CHECK_KEYS = ['aliases', 'tags', 'related', 'diagnostic_signals', 'discoverable_by', 'source_refs']
+
 # ── HINT_MAP: 错误码→场景化修复提示（讲香升级 #220 P0-1）────
 ERROR_HINT_MAP = {
     "DK_SECTION MISSING": "补上缺失的标准段后再提交。欧阳锋终审会直接退回缺段的 dk 卡。",
@@ -52,6 +55,7 @@ ERROR_HINT_MAP = {
     "R6 SEARCH BLOCK": "title 为空 → 外部 Agent（小昭/Codex）永远搜不到这张卡。补上中文标题。",
     "R6 WARN": "缺中文 aliases 或 scene 标签 → 卡存在但搜不到。老顽童提交前补上。",
     "F3 DUPLICATE ID": "两个文件用了同一个 id → 其中一个可能是旧副本。确认后删除重复文件或用不同 id。",
+    "DUPLICATE KEY": "同一个 key 出现多次 → 合并为单块。双 aliases 是 #222/#223 事故的根因模式。",
 }
 
 
@@ -216,6 +220,13 @@ def validate_file(fp: Path, schemas: dict) -> list:
     except Exception as e:
         errors.append(f"{rel}: frontmatter parse error: {e}")
         return errors
+
+    # R3: frontmatter 重复键检测（#228 E010终极防线 — #222/#223 事故根因模式）
+    fm_text = m.group(1)
+    for key in DUPLICATE_CHECK_KEYS:
+        count = len(re.findall(rf'^{key}:\s*', fm_text, re.MULTILINE))
+        if count > 1:
+            errors.append(f"{rel}: DUPLICATE KEY '{key}' — appears {count} times, merge into single block (duplicate keys are the root cause pattern of the #222/#223 YAML corruption incident)")
 
     # 自审检测——"牲口而非宠物"原则（Harness Engineering 落地）
     author = str(fm.get("author", "")).strip().strip('"')
