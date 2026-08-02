@@ -1,0 +1,14 @@
+has � in line: True
+has 'title:' after �: False
+after replace: id: case-yihang-dual-triangle-一堂双三角-IP选题智能体挑战交付上�?title: 双三角案例：Vikki IP 选题智能体——跳�?AI 工具回到业务视角
+still has �: True
+  [45] U+4EA4 ('交')
+  [46] U+4ED8 ('付')
+  [47] U+4E0A ('上')
+  [48] U+FFFD ('�')
+  [49] U+003F ('?')
+  [50] U+0074 ('t')
+  [51] U+0069 ('i')
+  [52] U+0074 ('t')
+  [53] U+006C ('l')
+  [54] U+0065 ('e')
