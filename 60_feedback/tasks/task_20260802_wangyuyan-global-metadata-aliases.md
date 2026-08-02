@@ -41,7 +41,7 @@ updated_at: '2026-08-03T03:45:00+00:00'
    - #223 只管：tools/ + concepts/ + dark-knowledges/ + dk/ + cases/ + 其他（6个目录）
 3. **每批写入前**：dry-run 预览 + `git diff` 验证 + yaml.safe_load 确认
 4. **aliases 合并规则**（git 恢复原值 + 去重合并，不替换）
-5. **本任务剩余范围调整**：原860张aliases回填 + **原aliases恢复**（git对比7/27恢复~2000张旧卡 + 8/2新建卡反向补齐）+ **125张双aliases清理**
+5. **本任务剩余范围调整**：原860张aliases回填 + **原aliases恢复**（git对比7/27恢复~2000张旧卡 + 8/2新建卡反向补齐）+ **131张重复键清理**（王语嫣实测：含双aliases/tags/related/diagnostic_signals——原125双aliases扩展，见#228背景）
 
 ## 🆕 17张顽固卡收尾项（2026-08-03 欧阳锋裁决纳入本任务）
 
