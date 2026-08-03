@@ -1,4 +1,5 @@
 ---
+
 id: tool-Y模型STEPS策略集
 title: Y模型STEPS策略集：五步策略框架
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - 五步策略框架
   - 策略框架
   - 策略集
+discoverable_by:
+  - Y模型STEPS策略集：五步策略框架
+  - Y模型STEPS策略集
+  - 五步策略框架
 related:
 - '[[yt-decision-y-model]]'
 - '[[method-yitang-y-model-engine-cycle]]'

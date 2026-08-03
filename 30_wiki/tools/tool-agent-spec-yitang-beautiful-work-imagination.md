@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-beautiful-work-imagination
 title: 漂亮工作想象 Agent Spec
 type: agent-spec
@@ -23,6 +24,9 @@ aliases:
   - 漂亮工作想象AgentSpec
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-beautiful-work-imagination.md
+discoverable_by:
+  - 漂亮工作想象 Agent Spec
+  - 漂亮工作想象
 related:
 - '[[framework-一堂五步法]]'
 - '[[framework-一堂五步法-泛产品设计]]'

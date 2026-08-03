@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-business-formula-parameter-miner
 title: 业务公式参数挖掘 Agent Spec
 type: tool-agent-spec
@@ -35,6 +36,9 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的逻辑关系探索地图_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
 - 30_wiki/systems/system-yitang-Y-model-os.md
+discoverable_by:
+  - 业务公式参数挖掘 Agent Spec
+  - 业务公式参数挖掘
 related:
 - '[[framework-business-formula-dual-triangle-bridge]]'
 - '[[framework-business-formula-y-model-bridge]]'

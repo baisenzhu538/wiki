@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-scenario-walkthrough
 title: 场景走查 Agent Spec
 type: agent-spec
@@ -22,6 +23,9 @@ aliases:
   - 场景走查AgentSpec
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-scenario-walkthrough.md
+discoverable_by:
+  - 场景走查 Agent Spec
+  - 场景走查
 related:
 - '[[framework-一堂五步法]]'
 - '[[framework-一堂五步法-泛产品设计]]'

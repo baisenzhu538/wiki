@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-sales-performance-monitor
 title: OPC 销售业绩监控助手 Agent Spec
 type: tool-agent-spec
@@ -26,6 +27,9 @@ source_refs:
 - 30_wiki/tools/tool-opc-sales-dialogue-assistant.md
 - 30_wiki/personal-os/opc-ai-sales-agent-architecture.md
 - 30_wiki/frameworks/framework-yitang-scientific-sales-five-step.md
+discoverable_by:
+  - OPC 销售业绩监控助手 Agent Spec
+  - 销售业绩监控助手
 related:
 - '[[zhu-time-os]]'
 - '[[yt-management-goal-management]]'

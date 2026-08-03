@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-ability-migration-diagnosis
 title: 能力迁移诊断 Agent Spec
 type: agent-spec
@@ -23,6 +24,9 @@ aliases:
   - 迁移诊断
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-ability-migration-diagnosis.md
+discoverable_by:
+  - 能力迁移诊断 Agent Spec
+  - 能力迁移诊断
 related:
 - '[[framework-yitang-scientific-sales-five-step]]'
 - '[[framework-一堂五步法]]'

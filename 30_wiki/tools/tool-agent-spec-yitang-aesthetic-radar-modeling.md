@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-aesthetic-radar-modeling
 title: 审美雷达建模 Agent Spec
 type: agent-spec
@@ -23,6 +24,9 @@ aliases:
   - 雷达建模
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-aesthetic-radar-modeling.md
+discoverable_by:
+  - 审美雷达建模 Agent Spec
+  - 审美雷达建模
 related:
 - '[[framework-一堂五步法]]'
 - '[[framework-一堂五步法-泛产品设计]]'

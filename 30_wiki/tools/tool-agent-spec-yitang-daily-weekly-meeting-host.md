@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-daily-weekly-meeting-host
 title: 日会 / 周会智能主持 Agent Spec
 type: agent-spec
@@ -29,6 +30,9 @@ source_refs:
 - 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
 - 30_wiki/tools/tool-yitang-daily-weekly-meeting-hosting.md
 - .agent/prompts/tool-agent-spec-yitang-daily-weekly-meeting-host.md
+discoverable_by:
+  - 日会 / 周会智能主持 Agent Spec
+  - 周会智能主持
 related:
 - '[[dk-yitang-sales-common-pitfalls]]'
 - '[[framework-yitang-scientific-sales-five-step]]'

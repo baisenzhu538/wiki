@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-opening-3min
 title: OPC 开场 3 分钟助手 Agent Spec
 type: tool-agent-spec
@@ -27,6 +28,9 @@ source_refs:
 - 30_wiki/tools/tool-yitang-customer-segmentation-4step.md
 - 30_wiki/tools/tool-opc-sales-dialogue-assistant.md
 - 30_wiki/personal-os/opc-ai-sales-agent-architecture.md
+discoverable_by:
+  - OPC 开场 3 分钟助手 Agent Spec
+  - 分钟助手
 related:
 - '[[framework-yitang-scientific-sales-five-step]]'
 - '[[opc-ai-sales-agent-architecture]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-sales-toolkit-gap
 title: 销售工具箱缺口盘点 Agent Spec
 type: agent-spec
@@ -27,6 +28,9 @@ source_refs:
 - 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
 - 30_wiki/tools/tool-yitang-sales-toolkit-maturity-60-75-85.md
 - .agent/prompts/tool-agent-spec-yitang-sales-toolkit-gap.md
+discoverable_by:
+  - 销售工具箱缺口盘点 Agent Spec
+  - 销售工具箱缺口盘点
 related:
 - '[[framework-yitang-scientific-sales-five-step]]'
 - '[[opc-ai-sales-agent-architecture]]'

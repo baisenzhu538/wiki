@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-research-supervisor
 title: Agent 调研 Supervisor 模式工具
 type: tool
@@ -6,6 +7,9 @@ domain:
 - AI
 - research
 - agent
+discoverable_by:
+  - Agent 调研 Supervisor 模式工具
+  - 模式工具
 tags:
 - 多智能体
 - Supervisor模式

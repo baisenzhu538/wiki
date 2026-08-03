@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-card-dealing-guide
 title: 出牌指南 Agent Spec
 type: agent-spec
@@ -22,6 +23,9 @@ aliases:
   - 出牌指南AgentSpec
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-card-dealing-guide.md
+discoverable_by:
+  - 出牌指南 Agent Spec
+  - 出牌指南
 related:
 - '[[framework-yitang-scientific-sales-five-step]]'
 - '[[framework-一堂五步法]]'

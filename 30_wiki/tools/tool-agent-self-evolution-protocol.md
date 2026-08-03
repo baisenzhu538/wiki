@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-self-evolution-protocol
 title: Agent自我进化协议：每次复盘四问
 type: tool
@@ -18,6 +19,10 @@ aliases:
   - 复盘四问
   - 每次复盘四问
   - 自我进化协议
+discoverable_by:
+  - Agent自我进化协议：每次复盘四问
+  - Agent自我进化协议
+  - 每次复盘四问
 related:
 - concept-kdo-agent-design-principles
 - concept-kdo-agent-four-level-awareness

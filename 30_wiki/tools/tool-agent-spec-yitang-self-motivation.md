@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-self-motivation
 title: OPC 销售自我驱动助手 Agent Spec
 type: tool-agent-spec
@@ -27,6 +28,9 @@ source_refs:
 - 30_wiki/tools/tool-opc-sales-dialogue-assistant.md
 - 30_wiki/personal-os/opc-ai-sales-agent-architecture.md
 - 30_wiki/frameworks/framework-yitang-scientific-sales-five-step.md
+discoverable_by:
+  - OPC 销售自我驱动助手 Agent Spec
+  - 销售自我驱动助手
 related:
 - '[[framework-yitang-scientific-sales-five-step]]'
 - '[[opc-ai-sales-agent-architecture]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-lead-funnel-health
 title: 线索漏斗健康度诊断 Agent Spec
 type: agent-spec
@@ -27,6 +28,9 @@ source_refs:
 - 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
 - 30_wiki/cases/case-yitang-yitu-lead-industrialization.md
 - .agent/prompts/tool-agent-spec-yitang-lead-funnel-health.md
+discoverable_by:
+  - 线索漏斗健康度诊断 Agent Spec
+  - 线索漏斗健康度诊断
 related:
 - '[[case-yitang-yitu-lead-industrialization]]'
 - '[[framework-yitang-channel-industrialization]]'

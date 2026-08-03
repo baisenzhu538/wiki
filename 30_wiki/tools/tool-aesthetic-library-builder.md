@@ -1,5 +1,6 @@
 ---
 
+
 id: tool-aesthetic-library-builder
 title: 审美库采集工具：批量抓取→打分→筛选→生成 DataPack
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 审美库采集工具
   - DataPack生成
   - 批量抓取
+discoverable_by:
+  - 审美库采集工具：批量抓取→打分→筛选→生成 DataPack
+  - 审美库采集工具
+  - 批量抓取→打分→筛选→生成
 related:
 - "[[method-yihang-aesthetic-fast-build]]"
 - "[[case-yihang-truman-aesthetic-library-practices]]"

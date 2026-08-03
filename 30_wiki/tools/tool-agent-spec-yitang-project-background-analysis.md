@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-project-background-analysis
 title: 项目背景分析 Agent Spec
 type: agent-spec
@@ -23,6 +24,9 @@ aliases:
   - 项目背景分析AgentSpec
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-project-background-analysis.md
+discoverable_by:
+  - 项目背景分析 Agent Spec
+  - 项目背景分析
 related:
 - '[[framework-yitang-scientific-sales-five-step]]'
 - '[[framework-一堂五步法]]'

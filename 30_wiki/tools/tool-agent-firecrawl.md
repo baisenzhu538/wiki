@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-firecrawl
 title: Firecrawl：专为LLM设计的Web抓取API
 type: tool
@@ -19,6 +20,9 @@ aliases:
   - 专为LLM设计的Web抓取API
   - 设计的
 source_refs:
+discoverable_by:
+  - Firecrawl：专为LLM设计的Web抓取API
+  - 专为LLM设计的Web抓取API
 related:
 
 

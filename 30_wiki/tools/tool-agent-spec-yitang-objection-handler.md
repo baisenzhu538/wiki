@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-objection-handler
 title: OPC 客户异议处理助手 Agent Spec
 type: tool-agent-spec
@@ -30,6 +31,9 @@ source_refs:
 - 30_wiki/frameworks/framework-yitang-sales-incentive-6d.md
 - 30_wiki/tools/tool-opc-sales-dialogue-assistant.md
 - 30_wiki/personal-os/opc-ai-sales-agent-architecture.md
+discoverable_by:
+  - OPC 客户异议处理助手 Agent Spec
+  - 客户异议处理助手
 related:
 - '[[framework-yitang-scientific-sales-five-step]]'
 - '[[opc-ai-sales-agent-architecture]]'

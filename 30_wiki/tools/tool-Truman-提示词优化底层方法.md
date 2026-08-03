@@ -1,4 +1,5 @@
 ---
+
 id: tool-Truman-提示词优化底层方法
 title: 技能：提示词优化底层方法
 type: tool
@@ -19,6 +20,9 @@ aliases:
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：提示词优化底层方法
+  - 提示词优化底层方法
 related:
 - '[[tool-Truman-AI工具选型决策]]'
 - '[[tool-Truman-开源模型与商业模型融合方案]]'

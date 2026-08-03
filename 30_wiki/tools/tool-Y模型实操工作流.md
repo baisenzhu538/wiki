@@ -1,4 +1,5 @@
 ---
+
 id: tool-Y模型实操工作流
 title: Y模型实操工作流：从分析到决策的完整路径
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - 从分析到决策的完整路径
   - 型实操工作流
   - 析到决策的完整路径
+discoverable_by:
+  - Y模型实操工作流：从分析到决策的完整路径
+  - Y模型实操工作流
+  - 从分析到决策的完整路径
 related:
 - '[[yt-decision-y-model]]'
 - '[[method-yitang-y-model-engine-cycle]]'

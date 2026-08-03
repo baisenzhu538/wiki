@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-incentive-design
 title: 销售激励方案设计辅助 Agent Spec
 type: agent-spec
@@ -27,6 +28,9 @@ source_refs:
 - 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
 - 30_wiki/frameworks/framework-yitang-sales-incentive-6d.md
 - .agent/prompts/tool-agent-spec-yitang-incentive-design.md
+discoverable_by:
+  - 销售激励方案设计辅助 Agent Spec
+  - 销售激励方案设计辅助
 related:
 - '[[dk-yitang-sales-common-pitfalls]]'
 - '[[framework-yitang-sales-incentive-6d]]'

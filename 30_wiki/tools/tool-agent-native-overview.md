@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-native-overview
 title: Agent原生调研工具总览：2025-2026新范式
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 原生调研工具总览
   - 新范式
 source_refs: null
+discoverable_by:
+  - Agent原生调研工具总览：2025-2026新范式
+  - Agent原生调研工具总览
+  - 2026新范式
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

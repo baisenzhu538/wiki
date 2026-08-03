@@ -1,4 +1,5 @@
 ---
+
 id: tool-Truman-科学提问法
 title: 技能：科学提问法
 type: tool
@@ -19,6 +20,9 @@ aliases:
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：科学提问法
+  - 科学提问法
 related:
 - '[[tool-月白-AI设计反馈萃取法]]'
 - '[[tool-Truman-职场异步协作提问法]]'

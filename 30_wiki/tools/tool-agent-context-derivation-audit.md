@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-context-derivation-audit
 title: Agent context推导链审计：从经验堆叠到原则推导
 type: tool
@@ -21,6 +22,10 @@ source_refs:
 - .agent/huangyaoshi-context.md
 - concept-kdo-agent-design-principles
 - 90_control/rules-core.md
+discoverable_by:
+  - Agent context推导链审计：从经验堆叠到原则推导
+  - context推导链审计
+  - 从经验堆叠到原则推导
 related:
 - concept-kdo-agent-design-principles
 - concept-kdo-agent-four-level-awareness

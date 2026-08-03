@@ -1,8 +1,12 @@
 ---
+
 id: tool-agent-research-pipeline
 title: Agent 调研 Pipeline 模式工具
 type: tool
 domain:
+discoverable_by:
+  - Agent 调研 Pipeline 模式工具
+  - 模式工具
 tags:
 source_person: Truman（一堂）+ LangChain Team
 source_context: OSCAR 五步法的 Agent 自动化版本

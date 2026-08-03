@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-crawl4ai
 title: Crawl4AI：开源AI爬虫——自然语言描述即可提取
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 自然语言描述即可提取
   - 语言描述即可提取
 source_refs:
+discoverable_by:
+  - Crawl4AI：开源AI爬虫——自然语言描述即可提取
+  - 开源AI爬虫
+  - 自然语言描述即可提取
 related:
 
 

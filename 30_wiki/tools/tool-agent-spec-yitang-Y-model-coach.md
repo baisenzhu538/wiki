@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-Y-model-coach
 title: Y模型 Coach 模式 Agent Spec
 type: tool-agent-spec
@@ -27,6 +28,8 @@ source_refs:
 - 30_wiki/frameworks/framework-yitang-jiefang-sixiang.md
 - 30_wiki/tools/tool-yitang-Y-model-application.md
 - 30_wiki/dark-knowledges/dk-yitang-Y-model-pitfalls.md
+discoverable_by:
+  - Y模型 Coach 模式 Agent Spec
 related:
 - system-yitang-Y-model-os
 - yt-decision-y-model

@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-payment-collection-risk
 title: 回款 / 履约风险预警 Agent Spec
 type: agent-spec
@@ -28,6 +29,9 @@ source_refs:
 - 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
 - 30_wiki/tools/tool-yitang-payment-collection-playbook.md
 - .agent/prompts/tool-agent-spec-yitang-payment-collection-risk.md
+discoverable_by:
+  - 回款 / 履约风险预警 Agent Spec
+  - 履约风险预警
 related:
 - '[[dk-yitang-sales-common-pitfalls]]'
 - '[[framework-yitang-scientific-sales-five-step]]'
