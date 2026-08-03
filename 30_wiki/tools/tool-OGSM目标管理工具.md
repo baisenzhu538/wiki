@@ -1,4 +1,5 @@
 ---
+
 id: tool-OGSM目标管理工具
 title: OGSM 目标管理工具：Objective-Goals-Strategies-Measures
 type: tool
@@ -12,6 +13,9 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - OGSM 目标管理工具：Objective-Goals-St
+  - 目标管理工具
 quality_labels:
 - actionable
 aliases:

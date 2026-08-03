@@ -1,4 +1,5 @@
 ---
+
 id: tool-Truman-AI工具选型决策
 title: 技能：AI工具选型决策
 type: tool
@@ -21,6 +22,9 @@ source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-29'
+discoverable_by:
+  - 技能：AI工具选型决策
+  - AI工具选型决策
 related:
 - '[[tool-月白-口喷式设计工作流]]'
 - '[[tool-Truman-提示词优化底层方法]]'

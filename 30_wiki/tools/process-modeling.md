@@ -1,4 +1,5 @@
 ---
+
 id: process-modeling
 title: 流程建模：用 SOP 与清单把经验变成稳定产出
 type: tool
@@ -23,6 +24,10 @@ source_refs:
 - 10_raw/sources/src_20260614_50b37986-Truman-高阶建模-流程建模-识别建模点-图-01.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 created_at: '2026-06-14'
+discoverable_by:
+  - 流程建模：用 SOP 与清单把经验变成稳定产出
+  - 流程建模
+  - 与清单把经验变成稳定产出
 quality_labels:
 - actionable
 - cited

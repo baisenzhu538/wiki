@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-purpose-bias-check
 title: 技能：目的论偏差快速识别法
 type: tool
@@ -22,6 +23,9 @@ aliases:
 source_refs:
 wiki_refs: []
 definition_of_done: null
+discoverable_by:
+  - 技能：目的论偏差快速识别法
+  - 目的论偏差快速识别法
 tags:
 created_at: '2026-06-06'
 updated_at: '2026-06-16'

@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-evidence-check
 title: 技能：AI输出证据核查三问法
 type: tool
@@ -22,6 +23,9 @@ aliases:
   - 输出证据核查三问法
 source_refs:
 wiki_refs: null
+discoverable_by:
+  - 技能：AI输出证据核查三问法
+  - AI输出证据核查三问法
 related:
 tags:
 created_at: '2026-06-06'

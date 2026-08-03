@@ -1,4 +1,5 @@
 ---
+
 id: tool-Truman-Skill全生命周期管理
 title: 技能：Skill全生命周期管理
 type: tool
@@ -19,6 +20,9 @@ aliases:
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
+discoverable_by:
+  - 技能：Skill全生命周期管理
+  - Skill全生命周期管理
 related:
 - '[[tool-Truman-AI能力分层学习路径]]'
 - '[[tool-Truman-提示词优化底层方法]]'

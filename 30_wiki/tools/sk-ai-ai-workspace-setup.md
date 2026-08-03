@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
 type: tool
@@ -25,6 +26,9 @@ definition_of_done:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：结构化AI工作空间搭建
+  - 结构化AI工作空间搭建
 tags:
 - src_unknown
 - src_unknown

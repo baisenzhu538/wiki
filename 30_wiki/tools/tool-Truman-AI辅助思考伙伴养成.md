@@ -1,4 +1,5 @@
 ---
+
 id: tool-Truman-AI辅助思考伙伴养成
 title: 技能：AI辅助思考伙伴养成
 type: tool
@@ -20,6 +21,9 @@ source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：AI辅助思考伙伴养成
+  - AI辅助思考伙伴养成
 related:
 - '[[tool-Truman-XY-Problem识别与真实问题定位]]'
 - '[[tool-Truman-低质量动作识别与拒绝]]'

@@ -1,4 +1,5 @@
 ---
+
 id: smart-medicine-cabinet-fraud-detection
 title: 智能药柜/智慧药房招商骗局识别清单
 type: tool
@@ -20,6 +21,8 @@ source_refs:
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
 - src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
 - src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
+discoverable_by:
+  - 智能药柜/智慧药房招商骗局识别清单
 tags:
 - src_unknown
 - audience:executor

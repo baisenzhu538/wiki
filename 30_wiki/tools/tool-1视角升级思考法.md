@@ -1,4 +1,5 @@
 ---
+
 id: tool-1视角升级思考法
 title: 技能：+1视角升级思考法
 type: tool
@@ -33,6 +34,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：+1视角升级思考法
+  - +1视角升级思考法
 related:
 - '[[tool-稀缺资源机会成本比对法]]'
 - '[[tool-区分获客渠道计算单元roi]]'

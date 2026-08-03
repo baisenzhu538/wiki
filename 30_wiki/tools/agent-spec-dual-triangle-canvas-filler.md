@@ -1,4 +1,5 @@
 ---
+
 id: agent-spec-dual-triangle-canvas-filler
 title: 双三角画布填充 Agent（对话教练版）v4
 type: agent-spec
@@ -29,6 +30,10 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260705_yai-agent-distillation.md
 - 60_feedback/diagnosis/diag_20260705_yai-agent-distillation-v2.md
 - C:/Users/Administrator/Desktop/从知识库到agent.txt
+discoverable_by:
+  - 双三角画布填充 Agent对话教练版v4
+  - 双三角画布填充
+  - Agent对话教练版v4
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-yihang-dual-triangle-canvas]]'

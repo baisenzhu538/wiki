@@ -1,4 +1,5 @@
 ---
+
 id: ai-short-drama-script-planning-three-axes
 title: 剧本策划三板斧：短剧从0到1的框架搭建工具
 type: tool
@@ -20,6 +21,10 @@ domain:
 - ai-saas- yitang
 - ai-collaboration
 - product
+discoverable_by:
+  - 剧本策划三板斧：短剧从0到1的框架搭建工具
+  - 剧本策划三板斧
+  - 短剧从0到1的框架搭建工具
 quality_labels:
 - actionable
 - cited

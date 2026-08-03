@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-narrative-test
 title: 技能：你的方案有叙事力吗？快速测试
 type: tool
@@ -26,6 +27,9 @@ definition_of_done:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：你的方案有叙事力吗？快速测试
+  - 你的方案有叙事力吗？快速测试
 tags:
 - src_unknown
 - src_unknown

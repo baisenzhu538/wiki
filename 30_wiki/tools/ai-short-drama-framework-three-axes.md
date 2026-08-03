@@ -1,4 +1,5 @@
 ---
+
 id: ai-short-drama-framework-three-axes
 title: 框架三板斧：短剧英雄之旅结构工具
 type: tool
@@ -25,6 +26,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.65
+discoverable_by:
+  - 框架三板斧：短剧英雄之旅结构工具
+  - 框架三板斧
+  - 短剧英雄之旅结构工具
 related:
 - '[[ai-short-drama-plot-three-axes]]'
 - '[[ai-short-drama-conflict-three-axes]]'

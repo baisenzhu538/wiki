@@ -1,4 +1,5 @@
 ---
+
 id: tool-Truman-判断力产品化与系统赋能
 title: 技能：判断力产品化与系统赋能
 type: tool
@@ -19,6 +20,9 @@ aliases:
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：判断力产品化与系统赋能
+  - 判断力产品化与系统赋能
 related:
 - '[[tool-Truman-XY-Problem识别与真实问题定位]]'
 - '[[tool-Truman-低质量动作识别与拒绝]]'

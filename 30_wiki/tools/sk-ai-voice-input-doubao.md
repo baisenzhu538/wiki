@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
 type: tool
@@ -24,6 +25,9 @@ definition_of_done:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：口喷式语音输入法
+  - 口喷式语音输入法
 tags:
 - src_unknown
 - src_unknown

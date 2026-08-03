@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-landing-five-steps
 title: 技能：AI落地五步执行清单
 type: tool
@@ -21,6 +22,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
+discoverable_by:
+  - 技能：AI落地五步执行清单
+  - AI落地五步执行清单
 related:
 - '[[sk-ai-old-small-checklist]]'
 - '[[sk-ai-parallel-validation]]'

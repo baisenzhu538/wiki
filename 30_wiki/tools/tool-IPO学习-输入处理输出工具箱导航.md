@@ -1,4 +1,5 @@
 ---
+
 id: tool-IPO学习-输入处理输出工具箱导航
 title: IPO工具箱导航：I/P/O三段工具索引
 type: tool
@@ -24,6 +25,10 @@ aliases:
 source_refs:
 - 00_inbox/一堂-个人修炼-科学学习IPO-全景策略_paddle_ocr.txt
 - 00_inbox/一堂-个人修炼-科学学习IPO完整清单_paddle_ocr.txt
+discoverable_by:
+  - IPO工具箱导航：I/P/O三段工具索引
+  - IPO工具箱导航
+  - I/P/O三段工具索引
 related:
 - '[[framework-个人学习方法-IPO学习闭环]]'
 - '[[tool-科学学习IPO完整清单]]'

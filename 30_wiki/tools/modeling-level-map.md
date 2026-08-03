@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 - yitang
@@ -19,6 +20,10 @@ source_refs:
 - 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+discoverable_by:
+  - 建模能力段位图：从 L1 到 L6 的十年爬山地图
+  - 建模能力段位图
+  - 的十年爬山地图
 quality_labels:
 - actionable
 - cited

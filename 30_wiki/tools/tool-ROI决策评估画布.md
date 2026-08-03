@@ -1,4 +1,5 @@
 ---
+
 id: tool-ROI决策评估画布
 title: ROI决策评估画布：三维度投资回报评估模板
 type: tool
@@ -22,6 +23,10 @@ aliases:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md
+discoverable_by:
+  - ROI决策评估画布：三维度投资回报评估模板
+  - ROI决策评估画布
+  - 三维度投资回报评估模板
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

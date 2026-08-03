@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-problem-validation
 title: 技能：问题验证三维度法
 type: tool
@@ -12,6 +13,9 @@ source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs: null
 definition_of_done: null
+discoverable_by:
+  - 技能：问题验证三维度法
+  - 问题验证三维度法
 tags:
 - audience:executor
 - scene:execution

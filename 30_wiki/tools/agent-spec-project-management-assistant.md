@@ -1,4 +1,5 @@
 ---
+
 id: agent-spec-project-management-assistant
 title: 项目管理助手 Agent（对话教练版）
 type: agent-spec
@@ -28,6 +29,10 @@ source_refs:
 - 00_inbox/管项目/项目管理-拆计划-口述.txt
 - 00_inbox/管项目/项目管理-管过程-口述.txt
 - 00_inbox/管项目/项目管理-做复盘-口述.txt
+discoverable_by:
+  - 项目管理助手 Agent对话教练版
+  - 项目管理助手
+  - Agent对话教练版
 related:
 - '[[yt-management-project-management]]'
 - '[[framework-yitang-project-abcd-classification]]'

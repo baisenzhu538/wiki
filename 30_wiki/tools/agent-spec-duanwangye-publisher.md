@@ -1,4 +1,5 @@
 ---
+
 id: agent-spec-duanwangye-publisher
 title: 段王爷 Publisher Agent — KDO 内容发布与渠道分发引擎
 type: agent-spec
@@ -12,6 +13,10 @@ author: 黄药师
 reviewed_by: 待审
 created_at: '2026-07-21'
 updated_at: '2026-07-21'
+discoverable_by:
+  - 段王爷 Publisher Agent — KDO 内容发布
+  - 段王爷
+  - 内容发布与渠道分发引擎
 quality_labels:
 - actionable
 aliases:

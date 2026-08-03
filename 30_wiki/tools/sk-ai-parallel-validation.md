@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-parallel-validation
 title: 技能：平行运行验证法
 type: tool
@@ -21,6 +22,9 @@ wiki_refs:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：平行运行验证法
+  - 平行运行验证法
 related:
 - '[[tool-马易-需求创造验证法]]'
 - '[[tool-纪浩-真需求四要素验证法]]'

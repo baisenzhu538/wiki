@@ -1,4 +1,5 @@
 ---
+
 id: ai-short-drama-plot-three-axes
 title: 剧情三板斧：短剧剧本的情节张力设计工具
 type: tool
@@ -25,6 +26,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.65
+discoverable_by:
+  - 剧情三板斧：短剧剧本的情节张力设计工具
+  - 剧情三板斧
+  - 短剧剧本的情节张力设计工具
 related:
 - '[[ai-short-drama-conflict-three-axes]]'
 tags:

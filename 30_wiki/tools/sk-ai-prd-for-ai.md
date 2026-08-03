@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
 type: tool
@@ -25,6 +26,9 @@ definition_of_done:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：把PRD写成AI能执行的指令
+  - 把PRD写成AI能执行的指令
 tags:
 - src_unknown
 - src_unknown

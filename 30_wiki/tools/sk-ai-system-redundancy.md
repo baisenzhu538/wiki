@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-system-redundancy
 title: 技能：系统冗余度快速检查清单
 type: tool
@@ -12,6 +13,9 @@ source_refs:
 - 10_raw/sources/src_20260614_fb753683-世界发展-偶然与必然讨论.md
 wiki_refs: null
 definition_of_done: null
+discoverable_by:
+  - 技能：系统冗余度快速检查清单
+  - 系统冗余度快速检查清单
 tags:
 - audience:executor
 - scene:execution

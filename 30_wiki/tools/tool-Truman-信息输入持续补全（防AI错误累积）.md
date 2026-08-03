@@ -1,4 +1,5 @@
 ---
+
 id: tool-Truman-信息输入持续补全（防AI错误累积）
 title: 技能：信息输入持续补全（防AI错误累积）
 type: tool
@@ -22,6 +23,9 @@ source_refs:
 - 10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：信息输入持续补全防AI错误累积
+  - 信息输入持续补全防AI错误累积
 related:
 - '[[tool-Truman-AI辅助思考伙伴养成]]'
 - '[[tool-Truman-低质量动作识别与拒绝]]'

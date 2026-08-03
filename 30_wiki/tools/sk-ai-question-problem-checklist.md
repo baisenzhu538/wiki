@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-question-problem-checklist
 title: 技能：提问题转化三问清单
 type: tool
@@ -13,6 +14,9 @@ source_refs:
 - 10_raw/sources/src_20260606_6ea91aa8-纪浩-AI协作方法论-口述.md
 wiki_refs: null
 definition_of_done: null
+discoverable_by:
+  - 技能：提问题转化三问清单
+  - 提问题转化三问清单
 tags:
 - audience:executor
 - scene:execution

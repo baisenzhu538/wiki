@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-old-small-checklist
 title: 技能："找老的干小的"场景评估清单
 type: tool
@@ -12,6 +13,9 @@ source_refs:
 - 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
 wiki_refs: null
 definition_of_done: null
+discoverable_by:
+  - 技能：找老的干小的场景评估清单
+  - 找老的干小的场景评估清单
 tags:
 - audience:executor
 - scene:execution
