@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-春萍-花总AI研发
 title: 花总 AI 研发：从拆解自己到 AI+基本功，一个技术团队的五年修炼
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 花总AI研发：从拆解自己到AI+基本功，一个技术团队的五年修炼
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L654-866（花总案例完整口述）
+discoverable_by:
+  - 花总 AI 研发：从拆解自己到 AI+基本功，一个技术团队的
+  - 从拆解自己到
+  - AI+基本功，一个技术团队的五年修炼
 related:
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[framework-一堂-苦练基本功-总纲]]'

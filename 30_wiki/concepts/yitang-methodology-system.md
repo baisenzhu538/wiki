@@ -1,4 +1,5 @@
 ---
+
 id: yitang-methodology-system
 title: 一堂方法论体系：从科学做事到无限进步
 type: concept
@@ -34,6 +35,10 @@ source_refs:
 - 10_raw/sources/src_20260614_f2578dfb-一堂-世总会0到1实践.md
 - 10_raw/sources/src_20260614_faa8021d-Y模型探索营-第二节课.md
 - 10_raw/sources/src_20260614_9ca806cd-theme-yitang-methodology-summary.md
+discoverable_by:
+  - 一堂方法论体系：从科学做事到无限进步
+  - 一堂方法论体系
+  - 从科学做事到无限进步
 tags:
 - audience:general
 - scene:reference

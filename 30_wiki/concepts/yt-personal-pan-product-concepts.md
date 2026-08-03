@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-pan-product-concepts
 component_of:
 - src_unknown
@@ -16,6 +17,10 @@ query_triggers:
 - src_unknown认知篇
 - src_unknown认知篇：重新理解泛化产品能力
 - src_unknown
+discoverable_by:
+  - 泛产品设计认知篇：重新理解泛化产品能力
+  - 泛产品设计认知篇
+  - 重新理解泛化产品能力
 related:
 - '[[yt-model-pan-product-36-strategies]]'
 - '[[yt-personal-product-design]]'

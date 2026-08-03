@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-yitang-shortvideo-industrialization
 type: case
 title: 案例：一堂如何用 ABCD 模型实现口播短视频工业化
@@ -11,6 +12,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
+discoverable_by:
+  - 案例：一堂如何用 ABCD 模型实现口播短视频工业化
+  - 一堂如何用
+  - 模型实现口播短视频工业化
 quality_labels:
 - actionable
 - cited

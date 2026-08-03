@@ -16,6 +16,7 @@ difficulty: advanced
 estimated_tokens: 3000
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -24,10 +25,8 @@ aliases:
   - 底线之上
   - 穷尽手段
   - 穷尽手段：底线之上，努力拉满
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 穷尽手段：底线之上，努力拉满
 

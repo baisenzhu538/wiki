@@ -1,4 +1,5 @@
 ---
+
 id: concept-yihang-methodology-production-pipeline
 title: 方法论生产流水线：一堂的"双面网络"——学员既是消费者也是生产者
 type: concept
@@ -23,6 +24,11 @@ aliases:
   - 论生产流水线
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+discoverable_by:
+  - 方法论生产流水线：一堂的双面网络——学员既是消费者也是生产者
+  - 方法论生产流水线
+  - 一堂的双面网络
+  - 学员既是消费者也是生产者
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-knowledge-data-decoupling]]'

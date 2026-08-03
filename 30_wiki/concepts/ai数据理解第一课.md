@@ -1,6 +1,9 @@
 ---
+
 id: ai数据理解第一课
 title: "ai数据理解第一课"
+discoverable_by:
+  - ai数据理解第一课
 related:
 - '[[人机协作决策-双三角模型]]'
 - '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'

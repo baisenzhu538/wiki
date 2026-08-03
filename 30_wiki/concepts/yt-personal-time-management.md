@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-time-management
 title: 时间管理
 type: concept
@@ -48,6 +49,8 @@ yitang:
   course_id: 401
   course_type: method
   level: foundational
+discoverable_by:
+  - 时间管理
 related:
   - "[[一堂方法论体系总图]]"
   - "[[framework-yitang-five-step-to-time-management]]"

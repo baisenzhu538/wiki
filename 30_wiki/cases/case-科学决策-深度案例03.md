@@ -1,4 +1,5 @@
 ---
+
 id: case-科学决策-深度案例03
 title: 案例：公司要不要自研IM+CRM系统
 type: case
@@ -22,6 +23,9 @@ aliases:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例03_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-深度-案例03.md
+discoverable_by:
+  - 案例：公司要不要自研IM+CRM系统
+  - 公司要不要自研IM+CRM系统
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

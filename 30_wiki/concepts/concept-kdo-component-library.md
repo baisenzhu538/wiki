@@ -1,4 +1,5 @@
 ---
+
 id: concept-kdo-component-library
 title: KDO 建模组件库——从踩坑疤痕到可复用建模牌组
 type: concept
@@ -22,6 +23,10 @@ source_refs:
 - .agent/startup.md
 - 20_memory/corrections.md
 - 00_inbox/Advanced modeling/一堂-高阶建模实践1-流程建模-口述.txt
+discoverable_by:
+  - KDO 建模组件库——从踩坑疤痕到可复用建模牌组
+  - 建模组件库
+  - 从踩坑疤痕到可复用建模牌组
 related:
 - framework-kdo-modeling-methodology
 - dk-process-is-scar-tissue

@@ -1,8 +1,15 @@
 ---
+
 id: case-yitang-magic-number-collection
 title: 魔法数字案例集：从美团 30 天 3 单到一堂 50 学分，拐点参数怎么找、怎么用
 type: case
 status: enriched
+discoverable_by:
+  - 魔法数字案例集：从美团 30 天 3 单到一堂 50 学分，
+  - 魔法数字案例集
+  - 从美团
+  - 单到一堂
+  - 学分，拐点参数怎么找、怎么用
 quality_labels:
 - actionable
 - cited

@@ -1,4 +1,5 @@
 ---
+
 id: ai-tool-learning-curve
 title: AI工具循序渐进学习曲线
 type: framework
@@ -12,6 +13,8 @@ aliases:
   - 工具循序渐进学习曲线
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
+discoverable_by:
+  - AI工具循序渐进学习曲线
 related:
 - '[[deliberate-practice-four-elements]]'
 - '[[completion-criteria-design]]'

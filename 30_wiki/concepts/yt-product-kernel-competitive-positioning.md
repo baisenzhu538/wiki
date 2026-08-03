@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-product-kernel-competitive-positioning
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 内核竞争定位：差异化策略
+  - 内核竞争定位
+  - 差异化策略
 related:
 - '[[tool-Truman-XY-Problem识别与真实问题定位]]'
 - '[[tool-月白-设计参考图精准定位法]]'

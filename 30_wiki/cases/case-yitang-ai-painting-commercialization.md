@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-ai-painting-commercialization
 type: case
 title: 案例：崔磊如何通过 AI 绘画练习实现商业化交付
@@ -12,6 +13,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
+discoverable_by:
+  - 案例：崔磊如何通过 AI 绘画练习实现商业化交付
+  - 崔磊如何通过
+  - 绘画练习实现商业化交付
 quality_labels:
 - actionable
 - cited

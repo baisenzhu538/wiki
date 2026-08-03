@@ -23,15 +23,15 @@ query_triggers:
 - 产品 注册体验 核心功能 边缘功能
 - 产品体验报告 模板
 - 用户体验 评估 维度 weighted
+source_refs:
+- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 aliases:
   - 从用户视角理解产品全貌
   - 体验产品
   - 完整体验产品
   - 完整体验产品：从用户视角理解产品全貌
   - 户视角理解产品全貌
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
 - '[[yitang-research-domain-digest]]'
 - '[[tool-yitang-research-competitive-quadrant]]'
@@ -46,7 +46,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases: []
 ---
 
 # 完整体验产品：从用户视角理解产品全貌

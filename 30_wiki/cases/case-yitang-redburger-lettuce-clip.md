@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-redburger-lettuce-clip
 title: 案例：楚门生菜夹子——L1 追问到 L2 就能产生流程创新
 type: case
@@ -23,6 +24,11 @@ aliases:
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
+discoverable_by:
+  - 案例：楚门生菜夹子——L1 追问到 L2 就能产生流程创新
+  - 楚门生菜夹子
+  - 追问到
+  - 就能产生流程创新
 related:
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[yt-decision-y-model]]'

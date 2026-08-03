@@ -20,6 +20,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 行业画布
+  - 需求分析画布
 related:
 - '[[yt-model-pan-product-demand-toolkit]]'
 - '[[yt-model-pan-product-36-strategies]]'
@@ -56,7 +59,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 泛产品设计
 - 用户卡片
 - 行业分析画布

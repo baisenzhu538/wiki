@@ -1,4 +1,5 @@
 ---
+
 id: case-科学决策-深度案例04
 title: 案例：公司要不要管员工中午饭
 type: case
@@ -21,6 +22,9 @@ aliases:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例04_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-深度-案例04.md
+discoverable_by:
+  - 案例：公司要不要管员工中午饭
+  - 公司要不要管员工中午饭
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

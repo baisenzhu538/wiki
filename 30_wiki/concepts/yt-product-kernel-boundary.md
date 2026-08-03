@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-product-kernel-boundary
@@ -23,6 +24,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 内核与边界：什么该做，什么不该做
+  - 内核与边界
+  - 什么该做，什么不该做
 related:
 - '[[yt-product-kernel-shampoo-case]]'
 - '[[yt-product-kernel-add-subtract]]'

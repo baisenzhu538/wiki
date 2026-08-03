@@ -1,4 +1,5 @@
 ---
+
 id: rust-borrowing-references
 title: "Rust 借用与引用：不转移所有权的访问"
 type: concept
@@ -15,6 +16,10 @@ source_refs:
   - pending_archive
 created_at: 2026-06-02
 updated_at: 2026-06-02
+discoverable_by:
+  - Rust 借用与引用：不转移所有权的访问
+  - 借用与引用
+  - 不转移所有权的访问
 ---
 
 # Rust 借用与引用

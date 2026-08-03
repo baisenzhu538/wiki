@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-wuxi-suntech
 title: 无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了
 type: case
@@ -21,6 +22,10 @@ source_refs:
 - pending_archive: 无锡尚德破产重组相关公开报道（新浪、第一财经、每日经济新闻等）待本地归档
 reviewed_by: pending
 updated_at: 2026-06-29
+discoverable_by:
+  - 无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了
+  - 无锡尚德
+  - 全球光伏第一→熬不过绝望之谷→被外资阴了
 related:
 - strategy-domain-digest
 - ai数据理解第一课

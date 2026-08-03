@@ -1,4 +1,5 @@
 ---
+
 id: case-milktea-five-step
 title: 奶茶店五步法：从九死一生到十年百店的科学创业之路
 type: case
@@ -22,6 +23,10 @@ source_refs:
 - pending_archive:src_20260510_1aea3d4b-一堂-案例拆解-课程清单
 created_at: 2026-06-11
 updated_at: 2026-06-28
+discoverable_by:
+  - 奶茶店五步法：从九死一生到十年百店的科学创业之路
+  - 奶茶店五步法
+  - 从九死一生到十年百店的科学创业之路
 related:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[concept-一堂-key-assumptions]]'

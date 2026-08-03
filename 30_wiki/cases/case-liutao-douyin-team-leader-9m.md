@@ -1,4 +1,5 @@
 ---
+
 id: case-liutao-douyin-team-leader-9m
 title: 案例：刘涛——从信息碎片拼出抖音团长赛道真相
 type: case
@@ -21,6 +22,9 @@ aliases:
   - 案例：刘涛从信息碎片拼出抖音团长赛道真相
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
+discoverable_by:
+  - 案例：刘涛——从信息碎片拼出抖音团长赛道真相
+  - 从信息碎片拼出抖音团长赛道真相
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

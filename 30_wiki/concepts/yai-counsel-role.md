@@ -1,4 +1,5 @@
 ---
+
 id: yai-counsel-role
 title: YAI C角色咨询法： Counsel 式方案输出节奏
 type: framework
@@ -17,6 +18,10 @@ aliases:
   - 角色咨询法
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
+discoverable_by:
+  - YAI C角色咨询法： Counsel 式方案输出节奏
+  - C角色咨询法
+  - 式方案输出节奏
 related:
 - '[[yai-tcp-teacher-role]]'
 - 刻意练习方法论

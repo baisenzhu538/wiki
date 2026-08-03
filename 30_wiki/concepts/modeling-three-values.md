@@ -1,4 +1,5 @@
 ---
+
 id: modeling-three-values
 title: 建模的三重价值：确定性、框架性、迁移性
 type: concept
@@ -20,6 +21,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.75
+discoverable_by:
+  - 建模的三重价值：确定性、框架性、迁移性
+  - 建模的三重价值
+  - 确定性、框架性、迁移性
 related:
 - '[[tool-水水-区分风险与不确定性]]'
 - '[[pending_unknown]]'

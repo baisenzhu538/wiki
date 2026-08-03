@@ -16,18 +16,6 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三�?_processed/一堂双三角-龙虾训练实验_vlm.md
 related:
-aliases:
-  - 双三角案例：龙虾训练灵魂赋能实验Agent角色配置
-  - 双三角案例
-  - 龙虾训练灵魂赋能实验
-  - 角色配置
-  - 训练灵魂赋能实验
-  - 角案例
-aliases:
-  - 双三角案例：龙虾训练灵魂赋能实验Agent角色配置
-  - 双三角案例
-  - 龙虾训练灵魂赋能实验
-  - 角色配置
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[method-dual-triangle-flywheel-engine]]"
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-shishi-qiushi-pitfall-8-wrong-analogy
 title: 实事求是十坑·错误类比：县城 LED 屏对标分众传媒
 type: case
@@ -23,6 +24,11 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 实事求是十坑·错误类比：县城 LED 屏对标分众传媒
+  - 实事求是十坑
+  - 错误类比
+  - 屏对标分众传媒
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 tags:

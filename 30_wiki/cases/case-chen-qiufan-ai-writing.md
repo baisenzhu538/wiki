@@ -1,8 +1,18 @@
 ---
+
 id: case-chen-qiufan-ai-writing
 title: 陈楸帆对 AI 写作的态度转向
 type: case
 status: enriched
+aliases:
+  - 写作的态度转向
+  - 的态度转向
+  - 陈楸帆对
+  - 陈楸帆对AI写作的态度转向
+discoverable_by:
+  - 陈楸帆对 AI 写作的态度转向
+  - 陈楸帆对
+  - 写作的态度转向
 quality_labels:
 - actionable
 - cited
@@ -18,11 +28,6 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-aliases:
-  - 写作的态度转向
-  - 的态度转向
-  - 陈楸帆对
-  - 陈楸帆对AI写作的态度转向
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -50,7 +55,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases: []
 ---
 
 # 陈楸帆对 AI 写作的态度转向

@@ -1,4 +1,5 @@
 ---
+
 id: anthropic-官方发布创始人手册打造-ai-原生初创公司
 confidence: 0.8
 created_at: 2026-05-19
@@ -12,6 +13,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - AI 原生创业四阶段模型Anthropic 创始人手册
+  - 原生创业四阶段模型Anthropic
+  - 创始人手册
 related:
 - '[[yt-management-toolkit-overview]]'
 - '[[yt-model-dual-triangle-competitiveness]]'

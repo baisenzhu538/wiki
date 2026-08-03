@@ -1,4 +1,5 @@
 ---
+
 id: concept-惊喜公式
 title: 惊喜公式：超越预期的用户体验设计
 type: concept
@@ -18,6 +19,10 @@ aliases:
   - 预期的用户体验设计
 source_refs:
 - src_unknown
+discoverable_by:
+  - 惊喜公式：超越预期的用户体验设计
+  - 惊喜公式
+  - 超越预期的用户体验设计
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

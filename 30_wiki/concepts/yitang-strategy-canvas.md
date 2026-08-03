@@ -1,9 +1,14 @@
 ---
+
 domain:
 - concepts
 - strategy
 id: yitang-strategy-canvas
 confidence: 0.9
+discoverable_by:
+  - 战略画布Strategy Canvas：把竞争格局画成一张价
+  - 战略画布Strategy
+  - 把竞争格局画成一张价值曲线
 quality_labels:
 - actionable
 - cited

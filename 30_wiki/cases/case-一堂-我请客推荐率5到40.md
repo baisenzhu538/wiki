@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-我请客推荐率5到40
 title: 一堂「我请客」推荐率从约 3%-5% 提升到 K 系数 40%：用「请客」消除面子阻力，再叠加 30+ 假设持续优化
 type: case
@@ -25,6 +26,11 @@ aliases:
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2178-L2409
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L2414-L2449
+discoverable_by:
+  - 一堂我请客推荐率从约
+  - 提升到
+  - 用请客消除面子阻力，再叠加
+  - 假设持续优化
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'

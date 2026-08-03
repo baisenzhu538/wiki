@@ -1,15 +1,9 @@
 ---
+
 id: yt-research-action-camp-launch
 title: 一堂调研行动营 · 启动课（LLM 精炼）
 type: concept
 status: reviewed
-aliases:
-  - 一堂调研行动营
-  - 一堂调研行动营启动课LLM精炼
-  - 启动课LLM
-  - 精炼
-  - 调研行动营
-  - 调研行动营启动课
 source_refs:
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 - 00_inbox/调研专题/一堂-调研行动营-口述.txt
@@ -39,6 +33,17 @@ diagnostic_signals:
 - signal: AI只作为辅助，人掌握方向盘和目标
   framework_lens: 人控AI
   follow_up_question: 这个调研结论中，哪些部分来自AI、哪些来自你的判断？
+aliases:
+  - 一堂调研行动营
+  - 一堂调研行动营启动课LLM精炼
+  - 启动课LLM
+  - 精炼
+  - 调研行动营
+  - 调研行动营启动课
+discoverable_by:
+  - 一堂调研行动营 · 启动课LLM 精炼
+  - 一堂调研行动营
+  - 启动课LLM
 quality_labels:
 - cited
 - principle
@@ -58,7 +63,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases: []
 ---
 
 # 一堂调研行动营 · 启动课（LLM 精炼）

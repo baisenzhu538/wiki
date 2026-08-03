@@ -1,4 +1,5 @@
 ---
+
 id: case-neworiental-prospectus-marketing
 title: 案例：新东方招股书——营销渠道全览
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 营销渠道全览
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
+discoverable_by:
+  - 案例：新东方招股书——营销渠道全览
+  - 新东方招股书
+  - 营销渠道全览
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

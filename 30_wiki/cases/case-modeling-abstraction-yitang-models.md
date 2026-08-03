@@ -1,4 +1,5 @@
 ---
+
 id: case-modeling-abstraction-yitang-models
 title: 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
 type: case
@@ -24,6 +25,10 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_87b29a61-Truman-高阶建模-抽象建模-案例-图-01.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+discoverable_by:
+  - 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
+  - 抽象建模案例
+  - 一堂内部模型武器库与跨领域商业模型地图
 tags:
 - src_unknown
 - src_unknown

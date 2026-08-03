@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-mental-model-refinement
 component_of:
 - src_unknown
@@ -21,6 +22,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 思维模型提炼：从体感经验到可复用武器库
+  - 思维模型提炼
+  - 从体感经验到可复用武器库
 related:
 - '[[tool-动手建模提炼]]'
 - '[[tool-月白-社群直播海报利益点提炼法]]'

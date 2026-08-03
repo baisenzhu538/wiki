@@ -1,4 +1,5 @@
 ---
+
 id: concept-kdo-agent-four-level-awareness
 title: Agent四层觉察：从后知后觉到先知先觉
 type: concept
@@ -8,17 +9,21 @@ confidence: 0.85
 trust_level: high
 domain:
 - system
+source_refs:
+- 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
+- 30_wiki/frameworks/framework-kdo-modeling-methodology.md
+- .agent/pitfalls.md
+- 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md
 aliases:
   - Agent四层觉察
   - Agent四层觉察：从后知后觉到先知先觉
   - 从后知后觉到先知先觉
   - 四层觉察
   - 知后觉到先知先觉
-source_refs:
-- 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
-- 30_wiki/frameworks/framework-kdo-modeling-methodology.md
-- .agent/pitfalls.md
-- 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md
+discoverable_by:
+  - Agent四层觉察：从后知后觉到先知先觉
+  - Agent四层觉察
+  - 从后知后觉到先知先觉
 related:
 - framework-kdo-modeling-methodology
 - concept-kdo-agent-design-principles
@@ -37,7 +42,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases: []
 ---
 
 ## 核心主张

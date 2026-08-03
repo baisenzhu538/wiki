@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-product-kernel-evolution
@@ -20,6 +21,9 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 内核演化：从V1到Vn
+  - 内核演化
 related:
 - '[[yt-product-kernel-shampoo-case]]'
 - '[[yt-product-kernel-add-subtract]]'

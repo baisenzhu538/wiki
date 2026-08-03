@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-259-milestone
 title: "259里程碑"
 confidence: 0.8
@@ -35,6 +36,8 @@ source_refs:
 - pending_archive:src_20260611_84990c99-一堂-一堂五步法-单元模型-段位升级三部曲_paddle_ocr
 - pending_archive:src_20260611_4266769b-一堂-一堂五步法-单元模型-尺子和梯子区别_paddle_ocr
 - pending_archive:src_20260611_d913eb1d-一堂-一堂五步法-序言-口述
+discoverable_by:
+  - 259里程碑
 tags:
 - audience:general
 - scene:reference

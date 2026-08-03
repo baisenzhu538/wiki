@@ -1,4 +1,5 @@
 ---
+
 id: aima-ai思维卡-外部链接归档
 created_at: 2026-05-21
 domain: healthcare
@@ -21,6 +22,10 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - AIMA AI思维卡 — 外部链接归档
+  - AI思维卡
+  - 外部链接归档
 related:
 - yt-system-course-map-lecture
 tags:

@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-conversion-optimization
 confidence: 0.85
 created_at: 2026-05-11
@@ -17,6 +18,11 @@ query_triggers:
 - src_unknown清单
 - src_unknown
 - src_unknown：动力三曲线 × 十大浪费触点
+discoverable_by:
+  - 转化率优化：动力三曲线 × 十大浪费触点
+  - 转化率优化
+  - 动力三曲线
+  - 十大浪费触点
 related:
 - '[[yt-management-conversion-hacking]]'
 - '[[yt-entrepreneur-growth-flywheel]]'

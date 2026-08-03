@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-假设飞轮
 title: 假设飞轮：假设→结果→激励→更多假设的团队侧增强回路
 type: concept
@@ -26,6 +27,10 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1192-L1218
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1436-L1452
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002258_vlm.md
+discoverable_by:
+  - 假设飞轮：假设→结果→激励→更多假设的团队侧增强回路
+  - 假设飞轮
+  - 假设→结果→激励→更多假设的团队侧增强回路
 quality_labels:
 - principle
 - insight

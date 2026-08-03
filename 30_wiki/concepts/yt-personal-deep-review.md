@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-deep-review
 component_of: null
 confidence: 0.8
@@ -20,6 +21,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 深度复盘
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'
@@ -29,9 +32,6 @@ related:
 review_date: 2026-05-07
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
-aliases:
-  - framework_lens: 具体事件是复盘的锚
-  - 深度复盘
 source_refs:
 - 10_raw/sources/src_20260522_c92a36ba-ocr-一堂深度复盘冰山图.md
 status: enriched
@@ -53,6 +53,10 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
+- framework_lens: 具体事件是复盘的锚
+  follow_up_question: 如果复盘只保留一个关键事件，你会选哪一个？
+- framework_lens: 冰山复盘模型
+  follow_up_question: 这次事件背后的模式，在另外三个场景中是否也可能出现？
 - framework_lens: 复盘的价值在于改变未来行为
   follow_up_question: 上次深度复盘的行动项，现在完成了多少？
 updated_at: '2026-06-16'
@@ -61,6 +65,7 @@ trust_level: medium-high
 aliases:
 - 一堂深度复盘冰山图
 ---
+
 # 深度复盘
 
 > 来源：src_20260507_9dd09688（周子敬讲授，2026年科学学习/深度复盘课程录音）。[[一堂方法论体系总图]] | [[yitang-course-map]]

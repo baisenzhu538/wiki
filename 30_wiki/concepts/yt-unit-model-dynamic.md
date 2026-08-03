@@ -1,4 +1,5 @@
 ---
+
 id: yt-unit-model-dynamic
 confidence: 0.88
 created_at: 2026-05-24
@@ -19,6 +20,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 动态单元模型：规模变量、拐点预判与规模经济对抗
+  - 动态单元模型
+  - 规模变量、拐点预判与规模经济对抗
 related:
 - '[[yt-unit-model-benchmark]]'
 - '[[yt-unit-model-construction]]'

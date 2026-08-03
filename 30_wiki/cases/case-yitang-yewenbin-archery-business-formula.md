@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-yewenbin-archery-business-formula
 title: 射箭馆：用业务公式四参数串起动力阻力触点，把"等客流"变成"经营转化率"
 type: case
@@ -24,6 +25,10 @@ source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L429-L619
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L621-L887
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L891-L997
+discoverable_by:
+  - 射箭馆：用业务公式四参数串起动力阻力触点，把等客流变成经营转
+  - 射箭馆
+  - 用业务公式四参数串起动力阻力触点，把等客流变成经营转化率
 quality_labels:
 - actionable
 - cited

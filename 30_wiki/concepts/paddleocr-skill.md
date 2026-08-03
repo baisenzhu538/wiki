@@ -1,4 +1,5 @@
 ---
+
 id: paddleocr-skill
 created_at: 2026-05-07
 domain: master
@@ -19,6 +20,8 @@ aliases:
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+discoverable_by:
+  - PaddleOCR — 本地 ONNX + 云端 API 双
 related:
 - '[[tinyfish-agentic-web-infrastructure]]'
 tags:

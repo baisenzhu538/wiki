@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-du-kids-education-sabc
 title: 杜同学儿童教育：年龄×成绩×陪同家长三维切 SABC，发现"妈妈能拍板、老人最弱"
 type: case
@@ -20,6 +21,11 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1972-L1978
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1980-L1984
 - 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L247-L247
+discoverable_by:
+  - 杜同学儿童教育：年龄×成绩×陪同家长三维切 SABC，发现妈
+  - 杜同学儿童教育
+  - 年龄×成绩×陪同家长三维切
+  - SABC，发现妈妈能拍板、老人最弱
 quality_labels:
 - actionable
 - cited

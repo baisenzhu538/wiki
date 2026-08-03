@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-全会员出圈率1.5翻倍
 title: 全会员出圈率从1.5%翻一倍：承诺一致+降低阻力+奖项素材+冲榜动力
 type: case
@@ -25,6 +26,10 @@ aliases:
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L424-L458
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3988-L4010
+discoverable_by:
+  - 全会员出圈率从1.5%翻一倍：承诺一致+降低阻力+奖项素材+
+  - 全会员出圈率从1.5%翻一倍
+  - 承诺一致+降低阻力+奖项素材+冲榜动力
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'

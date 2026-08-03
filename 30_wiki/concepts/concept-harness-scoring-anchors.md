@@ -1,4 +1,5 @@
 ---
+
 id: concept-harness-scoring-anchors
 title: 评分锚定：1-5分制+语义锚点+取较低值
 type: concept
@@ -21,6 +22,10 @@ aliases:
   - 语义锚点
 source_refs:
 - 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
+discoverable_by:
+  - 评分锚定：1-5分制+语义锚点+取较低值
+  - 评分锚定
+  - 5分制+语义锚点+取较低值
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'

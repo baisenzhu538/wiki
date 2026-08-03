@@ -1,4 +1,5 @@
 ---
+
 id: case-利润-通用汽车份额追逐失败
 title: 通用汽车 2002-2010：为 29% 份额降价的代价
 type: case
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 通用汽车 2002-2010：为 29% 份额降价的代价
+  - 通用汽车
+  - 份额降价的代价
 quality_labels:
 - cited
 aliases:

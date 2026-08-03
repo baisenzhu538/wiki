@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-基本功-段位体系
 title: 基本功段位体系：L1-L6 爬山图 × SABC 岗位阶段 × 60/70/85 分数制
 type: concept
@@ -25,6 +26,12 @@ source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-口述.txt L1150-L1206
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt L156-L196
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/一堂DOC-20260711110401_vlm.md
+discoverable_by:
+  - 基本功段位体系：L1-L6 爬山图 × SABC 岗位阶段
+  - 基本功段位体系
+  - 爬山图
+  - 岗位阶段
+  - 分数制
 related:
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[framework-一堂-基本功-四字诀拆建推练]]'

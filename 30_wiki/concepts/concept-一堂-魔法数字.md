@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-魔法数字
 title: 魔法数字：前置动作的拐点指标，找到一个价值百万千万
 type: concept
@@ -27,6 +28,10 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3156-L3200
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3202-L3302
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式的参数冰山_vlm.md
+discoverable_by:
+  - 魔法数字：前置动作的拐点指标，找到一个价值百万千万
+  - 魔法数字
+  - 前置动作的拐点指标，找到一个价值百万千万
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-parameter-iceberg]]'

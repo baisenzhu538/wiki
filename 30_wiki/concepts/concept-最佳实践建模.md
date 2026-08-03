@@ -1,4 +1,5 @@
 ---
+
 id: concept-最佳实践建模
 title: 最佳实践建模：把别人的成功拆成可复制的模型
 type: concept
@@ -19,6 +20,10 @@ aliases:
   - 最佳实践建模：把别人的成功拆成可复制的模型
 source_refs:
 - src_unknown
+discoverable_by:
+  - 最佳实践建模：把别人的成功拆成可复制的模型
+  - 最佳实践建模
+  - 把别人的成功拆成可复制的模型
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

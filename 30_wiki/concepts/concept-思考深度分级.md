@@ -1,4 +1,5 @@
 ---
+
 id: concept-思考深度分级
 title: 思考深度分级：从表象到本质的认知阶梯
 type: concept
@@ -19,6 +20,10 @@ aliases:
   - 象到本质的认知阶梯
 source_refs:
 - src_unknown
+discoverable_by:
+  - 思考深度分级：从表象到本质的认知阶梯
+  - 思考深度分级
+  - 从表象到本质的认知阶梯
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

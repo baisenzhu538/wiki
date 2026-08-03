@@ -9,19 +9,6 @@ domain:
 - yitang
 - research
 - ai
-aliases:
-  - ai-tools
-  - audience:executor
-  - data-collection
-  - research
-  - scene:execution
-  - skill-level:advanced
-  - web-scraping
-  - 全网爬虫调研武器库
-  - 全网爬虫调研武器库：AI时代10大工具+合规红线
-  - 合规红线
-  - 大工具
-  - 时代
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
@@ -31,8 +18,18 @@ related:
 - web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 - framework-multi-agent-research-architecture
 diagnostic_signals:
+- framework_lens: 爬虫工具匹配矩阵
+  follow_up_question: 目标是单页抽取还是全站爬取？需要 JS 渲染吗？数据量多大？
 - framework_lens: 合规决策树
   follow_up_question: 是否有公开 API 替代？数据是否可通过其他渠道获取？
+tags:
+- web-scraping
+- research
+- ai-tools
+- data-collection
+- audience:executor
+- scene:execution
+- skill-level:advanced
 created_at: '2026-06-21'
 updated_at: '2026-07-04'
 author: 黄药师
@@ -43,6 +40,7 @@ aliases:
 - 调研专题
 - 调研武器库培训
 ---
+
 # 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线
 
 > 调研武器库"逆向数据分析"板块的执行层。对应 OSCAR 的 A（获取情报）阶段。

@@ -1,4 +1,5 @@
 ---
+
 id: HIS系统开发实现方案-架构师指南
 created_at: 2026-05-03
 domain: healthcare
@@ -21,6 +22,10 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - HIS系统开发实现方案-架构师指南
+  - HIS系统开发实现方案
+  - 架构师指南
 related:
 - '[[鑫港湾his系统分阶段整改报告]]'
 - '[[case-xian-franchise-location-decision]]'

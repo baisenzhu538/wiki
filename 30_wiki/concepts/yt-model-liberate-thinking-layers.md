@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-liberate-thinking-layers
 title: 解放思想五层模型（已弃用，待重写升级）
 type: concept
@@ -17,6 +18,8 @@ aliases:
   - 解放思想五层模型已弃用，待重写升级
 source_refs:
 - pending_archive:src_placeholder
+discoverable_by:
+  - 解放思想五层模型已弃用，待重写升级
 related:
 - yt-decision-y-model
 - tool-yitang-Y-model-application

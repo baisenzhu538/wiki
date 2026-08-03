@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-demand-ai-knowledge-base-case
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
+discoverable_by:
+  - AI企业知识库案例：从技术炫技到需求验证
+  - AI企业知识库案例
+  - 从技术炫技到需求验证
 related:
 - '[[yt-demand-treadmill-case]]'
 - '[[yt-demand-b2b-vs-b2c]]'

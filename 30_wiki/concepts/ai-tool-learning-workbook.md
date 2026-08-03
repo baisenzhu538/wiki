@@ -1,4 +1,5 @@
 ---
+
 id: ai-tool-learning-workbook
 title: AI 工具学习工作手册
 type: tool
@@ -6,6 +7,9 @@ domain:
 - ai-collaboration
 - skill-building
 status: reviewed
+discoverable_by:
+  - AI 工具学习工作手册
+  - 工具学习工作手册
 quality_labels:
 - actionable
 - cited

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-sales-routine-deconstruction
 type: case
 title: 案例：社恐销售蓝军如何通过拆解销冠套路半年成亚军
@@ -23,6 +24,9 @@ source_refs:
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt
 - 00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-笔记.txt
 source_person: 盈盈行动营
+discoverable_by:
+  - 案例：社恐销售蓝军如何通过拆解销冠套路半年成亚军
+  - 社恐销售蓝军如何通过拆解销冠套路半年成亚军
 related:
 - '[[case-yitang-ai-painting-commercialization]]'
 - '[[framework-yitang-three-ring-ability-focus]]'

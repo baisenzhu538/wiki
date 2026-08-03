@@ -12,12 +12,12 @@ language: zh-CN
 domain:
 - yitang
 - ai-collaboration
+source_refs:
+- 60_feedback/diagnosis/diag_20260708_yitang-dual-triangle-cross-domain-agent.md
 aliases:
   - 子域
   - 子域Agent转交协议
   - 转交协议
-source_refs:
-- 60_feedback/diagnosis/diag_20260708_yitang-dual-triangle-cross-domain-agent.md
 related:
 - '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
 - '[[tool-yitang-dual-triangle-scenario-router]]'
@@ -31,7 +31,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases: []
 ---
 
 # 子域 Agent 转交协议

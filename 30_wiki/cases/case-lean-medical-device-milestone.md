@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-medical-device-milestone
 title: 医疗器械项目里程碑测试
 type: case
@@ -31,6 +32,8 @@ source_refs:
 - 00_inbox/精益创业/truman-低成本验证-医疗器械案例-04_vlm_desc.md
 source_person: 一堂课程讲师（教学推演案例）
 source_context: 一堂精益创业·低成本验证课程·医疗器械案例
+discoverable_by:
+  - 医疗器械项目里程碑测试
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'

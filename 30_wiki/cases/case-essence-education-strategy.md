@@ -1,4 +1,5 @@
 ---
+
 id: case-essence-education-strategy
 title: 案例：教育本质与战略本质的提炼
 type: case
@@ -24,6 +25,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
+discoverable_by:
+  - 案例：教育本质与战略本质的提炼
+  - 教育本质与战略本质的提炼
 related:
 - '[[yitang-domain-digest]]'
 - '[[strategy-domain-digest]]'

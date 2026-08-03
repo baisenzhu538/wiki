@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-ai-time-management-coach
 title: 案例：AI辅助调研——时间管理教练产品验证
 type: case
@@ -23,6 +24,10 @@ aliases:
   - 辅助调研时间管理教练产品验证
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
+discoverable_by:
+  - 案例：AI辅助调研——时间管理教练产品验证
+  - AI辅助调研
+  - 时间管理教练产品验证
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

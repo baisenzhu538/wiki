@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-product-kernel-user-perspective
@@ -22,6 +23,11 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 用户视角 vs 产品视角：为什么我觉得好不等于用户觉得好
+  - 用户视角
+  - 产品视角
+  - 为什么我觉得好不等于用户觉得好
 related:
 - '[[tool-用户视角]]'
 - '[[pending_unknown]]'

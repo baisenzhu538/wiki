@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-smart-microphone-color
 title: 案例：智能麦克风颜色——投资人凭个人喜好做产品决策
 type: case
@@ -24,6 +25,10 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 案例：智能麦克风颜色——投资人凭个人喜好做产品决策
+  - 智能麦克风颜色
+  - 投资人凭个人喜好做产品决策
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 tags:

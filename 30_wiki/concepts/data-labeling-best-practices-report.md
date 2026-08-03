@@ -1,4 +1,5 @@
 ---
+
 id: data-labeling-best-practices-report
 title: 数据标注最佳实践调研报告
 type: concept
@@ -21,6 +22,8 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 数据标注最佳实践调研报告
 related:
 - '[[dk-p20-bigram-fail]]'
 - '[[labeling-final-consolidation]]'

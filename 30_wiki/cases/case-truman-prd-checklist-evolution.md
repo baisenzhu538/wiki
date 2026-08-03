@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-prd-checklist-evolution
 title: Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平
 type: case
@@ -17,6 +18,11 @@ aliases:
   - 赶上三四年
 source_refs:
 - 10_raw/sources/src_20260510_814ec410-个人修炼-知识萃取探索营.md
+discoverable_by:
+  - Truman的PRD清单进化：从被领导反复打回到'不再二错'
+  - Truman的PRD清单进化
+  - 从被领导反复打回到'不再二错'
+  - 半年赶上三四年PM水平
 related:
 - '[[tool-Truman-提示词优化底层方法]]'
 - '[[tool-Truman-Skill全生命周期管理]]'

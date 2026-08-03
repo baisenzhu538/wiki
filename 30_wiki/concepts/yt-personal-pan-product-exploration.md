@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-pan-product-exploration
 component_of:
 - src_unknown
@@ -16,6 +17,10 @@ query_triggers:
 - src_unknown
 - src_unknown探索营
 - src_unknown探索营：案例启发与认知重构
+discoverable_by:
+  - 泛产品设计探索营：案例启发与认知重构
+  - 泛产品设计探索营
+  - 案例启发与认知重构
 related:
 - '[[yt-personal-pan-product-concepts]]'
 - '[[yt-model-pan-product-36-strategies]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-shishi-qiushi-pitfall-5-over-prediction
 title: 实事求是十坑·过度预测：早期项目 3-10 年精确财务预测
 type: case
@@ -23,6 +24,12 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 00_inbox/实事求是/_processed/实事求是-大坑之五-过度预测_vlm.md
+discoverable_by:
+  - 实事求是十坑·过度预测：早期项目 3-10 年精确财务预测
+  - 实事求是十坑
+  - 过度预测
+  - 早期项目
+  - 年精确财务预测
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[dk-yitang-over-prediction-danger]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-wechat-monthly-price-value
 title: 一堂公众号投放：自造「单月价格/单月价值」参数稳定渠道ROI
 type: case
@@ -17,6 +18,10 @@ aliases:
   - 自造单月价格/单月价值参数稳定渠道ROI
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2652-L2686
+discoverable_by:
+  - 一堂公众号投放：自造单月价格/单月价值参数稳定渠道ROI
+  - 一堂公众号投放
+  - 自造单月价格/单月价值参数稳定渠道ROI
 quality_labels:
 - actionable
 - cited

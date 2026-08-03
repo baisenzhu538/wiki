@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-基本功-刻意练习四要素
 title: 刻意练习四要素（组织版）：套路×非舒适区×大量重复×及时反馈
 type: concept
@@ -22,6 +23,10 @@ aliases:
   - 非舒适区
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论武器库-口述.txt L156-L605
+discoverable_by:
+  - 刻意练习四要素组织版：套路×非舒适区×大量重复×及时反馈
+  - 刻意练习四要素组织版
+  - 套路×非舒适区×大量重复×及时反馈
 related:
 - '[[deliberate-practice-four-elements]]'
 - '[[framework-一堂-苦练基本功-总纲]]'

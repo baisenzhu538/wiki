@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-mahjong-machine-fake-order
 title: 案例：假装订货套取麻将机竞品数据
 type: case
@@ -20,6 +21,9 @@ aliases:
   - 订货套取麻将机竞品数据
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - 案例：假装订货套取麻将机竞品数据
+  - 假装订货套取麻将机竞品数据
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

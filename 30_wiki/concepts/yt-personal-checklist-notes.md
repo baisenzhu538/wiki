@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 id: yt-personal-checklist-notes
@@ -30,6 +31,8 @@ aliases:
   - 清单体笔记一堂笔记法
 source_refs:
 - pending_archive:src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
+discoverable_by:
+  - 清单体笔记一堂笔记法
 tags:
 - audience:general
 - scene:reference

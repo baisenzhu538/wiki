@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-radar-chart-selection
 title: 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」
 type: case
@@ -26,6 +27,10 @@ reviewed_by: 王语嫣（代欧阳锋）
 review_date: '2026-06-16'
 trust_level: medium
 confidence: 0.7
+discoverable_by:
+  - 案例：一堂雷达图评选机制——从 Truman 拍板到只聊模型
+  - 一堂雷达图评选机制
+  - 拍板到只聊模型不聊结果
 related:
 - '[[tool-Truman-提示词优化底层方法]]'
 - '[[tool-Truman-Skill全生命周期管理]]'

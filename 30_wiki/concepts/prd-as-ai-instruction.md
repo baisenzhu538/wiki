@@ -1,4 +1,5 @@
 ---
+
 id: prd-as-ai-instruction
 title: PRD文档作为AI可执行指令
 type: tool
@@ -16,6 +17,8 @@ source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 component_of:
 - src_unknown
+discoverable_by:
+  - PRD文档作为AI可执行指令
 related:
 - '[[course-to-skill-conversion]]'
 - '[[voice-input-doubao]]'

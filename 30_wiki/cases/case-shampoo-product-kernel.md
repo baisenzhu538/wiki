@@ -1,4 +1,5 @@
 ---
+
 id: case-shampoo-product-kernel
 title: 案例：洗发水产品内核——从"包装好看"到"竞品拆解→专家访谈→用户访谈→排列组合测试"的完整验证路径
 type: case
@@ -30,6 +31,8 @@ trust_level: high
 merged_from:
 - yt-product-kernel-shampoo-case
 merge_notes: 以口述验证路径（竞品拆解→专家访谈→用户访谈→排列组合测试）为主线，合并了 case-shampoo-product-kernel 的卖点矩阵分析和 yt-product-kernel-shampoo-case 的内核层次分析
+discoverable_by:
+  - 洗发水产品内核
 tags:
 - product-kernel
 - verification

@@ -1,4 +1,5 @@
 ---
+
 id: case-bmw-human-ai-collaboration-idle-time
 title: BMW 工厂人机协作案例：idle time 减少 85% 被误读为产能提升 85%
 type: case
@@ -26,6 +27,10 @@ source_refs:
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
 - 60_feedback/audit/20260701-wobeirushen-validation-report.md
+discoverable_by:
+  - BMW 工厂人机协作案例：idle time 减少 85%
+  - 工厂人机协作案例
+  - 被误读为产能提升
 related:
 - '[[case-ai-writing-homogenization]]'
 - concept-cognitive-offloading-in-ai-era

@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-优秀转化率复盘合集
 title: 一堂优秀转化率复盘合集索引：8 位学员案例的内容可用性边界
 type: case
@@ -35,6 +36,10 @@ source_refs:
   L1-L8
 - 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p006.txt
   L1-L44
+discoverable_by:
+  - 一堂优秀转化率复盘合集索引：8 位学员案例的内容可用性边界
+  - 一堂优秀转化率复盘合集索引
+  - 位学员案例的内容可用性边界
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

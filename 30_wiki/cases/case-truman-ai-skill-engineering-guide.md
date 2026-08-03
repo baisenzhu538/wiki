@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-ai-skill-engineering-guide
 title: 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 type: case
@@ -25,6 +26,11 @@ reviewed_by: 王语嫣
 review_date: '2026-06-16'
 trust_level: medium
 confidence: 0.7
+discoverable_by:
+  - 案例：Truman 如何用 3 小时做出高阶 AI Skil
+  - 如何用
+  - 小时做出高阶
+  - 工程指南
 related:
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
 - '[[tool-ai-skill-engineering-method]]'

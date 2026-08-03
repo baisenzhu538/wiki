@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-xingangwan-chess-room
 title: 鑫港湾自助棋牌室：把"流量×转化×客单×复购"四参数公式拆到几十个参数，一年半回本、西安全国第一
 type: case
@@ -24,6 +25,8 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L862-L876
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L878-L886
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L888-L902
+discoverable_by:
+  - 鑫港湾自助棋牌室
 quality_labels:
 - actionable
 - cited

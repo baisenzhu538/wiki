@@ -1,4 +1,5 @@
 ---
+
 id: case-modeling-essence-schools
 title: 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
 type: case
@@ -17,6 +18,10 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_55135154-Truman-高阶建模-本质建模-案例-02.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+discoverable_by:
+  - 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
+  - 本质建模案例
+  - 知识付费派、经验萃取派与学科建模派的三派分野
 tags:
 - src_unknown
 - src_unknown

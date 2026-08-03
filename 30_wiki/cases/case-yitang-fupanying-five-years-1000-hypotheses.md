@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-fupanying-five-years-1000-hypotheses
 title: 一堂复盘营五年：8 个参数到 200+ 参数、1000+ 假设，把低转高做成不靠红利的长期生意
 type: case
@@ -28,6 +29,11 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001619_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001640_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001559_vlm.md
+discoverable_by:
+  - 一堂复盘营五年：8 个参数到 200+ 参数、1000+ 假
+  - 一堂复盘营五年
+  - 个参数到
+  - 假设，把低转高做成不靠红利的长期生意
 quality_labels:
 - actionable
 - cited

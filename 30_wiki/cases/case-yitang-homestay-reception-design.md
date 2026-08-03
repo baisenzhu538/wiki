@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-homestay-reception-design
 title: 案例：民宿接待方案——用调研优化服务体验设计
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 研优化服务体验设计
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
+discoverable_by:
+  - 案例：民宿接待方案——用调研优化服务体验设计
+  - 民宿接待方案
+  - 用调研优化服务体验设计
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-crayfish-combo-test
 title: 案例：堕落小龙虾组合测试
 type: case
@@ -27,6 +28,9 @@ source_refs:
 - 00_inbox/精益创业/堕落小龙虾组合测试实验_vlm_desc.md
 - 00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt
 - 00_inbox/精益创业/低成本验证-系统测试曲线_ocr_text.md
+discoverable_by:
+  - 案例：堕落小龙虾组合测试
+  - 堕落小龙虾组合测试
 related:
 - '[[lean-startup-domain-digest]]'
 - '[[yitang-domain-digest]]'

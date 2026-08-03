@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-formula-parameter-iceberg
 title: 业务公式参数冰山（L1-L6）
 type: concept
@@ -31,6 +32,9 @@ source_refs:
 - 30_wiki/cases/case-yitang-xiezefeng-clothing-innovation-param.md
 confidence: 0.9
 trust_level: high
+discoverable_by:
+  - 业务公式参数冰山L1-L6
+  - 业务公式参数冰山L1
 quality_labels:
 - cited
 - principle

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-subscription
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 订阅制商业模式：从一次性到持续收入
+  - 订阅制商业模式
+  - 从一次性到持续收入
 related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'

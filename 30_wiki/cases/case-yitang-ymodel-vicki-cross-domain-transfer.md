@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-ymodel-vicki-cross-domain-transfer
 title: Y模型 案例：Vicki 开店→短视频跨域迁移——Y模型 比五步法更底层 1-2 层
 type: case
@@ -21,6 +22,10 @@ aliases:
   - 比五步法更底层
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
+discoverable_by:
+  - Y模型 案例：Vicki 开店→短视频跨域迁移——Y模型 比
+  - 开店→短视频跨域迁移
+  - 比五步法更底层
 related:
 - '[[yt-decision-y-model]]'
 - '[[method-yitang-y-model-engine-cycle]]'

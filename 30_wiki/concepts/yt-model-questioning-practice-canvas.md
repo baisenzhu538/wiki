@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 id: yt-model-questioning-practice-canvas
@@ -22,6 +23,9 @@ aliases:
   - 提问刻意练习提升画布ByYITANG
 source_refs:
 - pending_archive:src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
+discoverable_by:
+  - 提问刻意练习提升画布 By YITANG
+  - 提问刻意练习提升画布
 tags:
 - audience:general
 - scene:reference

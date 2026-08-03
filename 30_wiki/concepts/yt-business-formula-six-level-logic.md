@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 - business-formula
@@ -40,6 +41,11 @@ source_refs:
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
 created_at: '2026-06-14'
+discoverable_by:
+  - 业务公式六层逻辑关系冰山L1 模糊理解 → L6 动态建模
+  - 业务公式六层逻辑关系冰山L1
+  - 模糊理解
+  - 动态建模
 quality_labels:
 - cited
 - principle

@@ -16,6 +16,7 @@ difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 归一总结
   - 归一总结：整合信息形成统一结论
   - 整合信息形成统一结论
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 归一总结：整合信息形成统一结论
 

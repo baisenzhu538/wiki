@@ -12,13 +12,13 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-aliases:
-  - 交叉阅读法
-  - 阅读法
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
+aliases:
+  - 交叉阅读法
+  - 阅读法
 related:
 - '[[framework-wanghuan-gan-three-roles]]'
 - '[[framework-wanghuan-ooda-loop]]'
@@ -38,7 +38,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases: []
 ---
 # 交叉阅读法
 

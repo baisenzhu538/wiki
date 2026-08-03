@@ -1,4 +1,5 @@
 ---
+
 id: case-candy-problem-os-vpn
 title: 案例：VPN场景——一个低质量提问如何消耗双方关系
 type: case
@@ -22,6 +23,9 @@ aliases:
   - 案例：VPN场景一个低质量提问如何消耗双方关系
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
+discoverable_by:
+  - 案例：VPN场景——一个低质量提问如何消耗双方关系
+  - 一个低质量提问如何消耗双方关系
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-从案例中学习]]'

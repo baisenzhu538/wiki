@@ -1,4 +1,5 @@
 ---
+
 id: concept-美好作品想象
 title: 美好作品想象：先看到终局再倒推路径
 type: concept
@@ -19,6 +20,10 @@ aliases:
   - 美好作品想象：先看到终局再倒推路径
 source_refs:
 - src_unknown
+discoverable_by:
+  - 美好作品想象：先看到终局再倒推路径
+  - 美好作品想象
+  - 先看到终局再倒推路径
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

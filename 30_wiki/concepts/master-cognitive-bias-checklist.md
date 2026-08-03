@@ -1,4 +1,5 @@
 ---
+
 domain:
 - master
 id: master-cognitive-bias-checklist
@@ -20,6 +21,8 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
+discoverable_by:
+  - 认知偏差快速诊断清单
 related:
 - '[[master-ai-info-literacy]]'
 - '[[master-decision-hygiene]]'

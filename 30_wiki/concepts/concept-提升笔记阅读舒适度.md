@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: concept-提升笔记阅读舒适度
@@ -15,6 +16,10 @@ aliases:
   - 笔记阅读舒适度
 source_refs:
 - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
+discoverable_by:
+  - 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
+  - 提升笔记阅读舒适度
+  - 用产品意识和视觉编码降低认知摩擦
 related:
 - '[[tool-提升笔记练习频次的方法]]'
 - '[[pending_unknown]]'

@@ -15,18 +15,6 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三�?_processed/天末的双三角模型_vlm.md
 related:
-aliases:
-  - 双三角案例：天末室内设计AI辅助从调研到效果图直�?type:case
-  - 双三角案例
-  - 天末室内设计
-  - 辅助从调研到效果图直�?type
-  - 从调研到效果图直
-  - 辅助从调研到效果图直
-aliases:
-  - 双三角案例：天末室内设计AI辅助从调研到效果图直�?type:case
-  - 双三角案例
-  - 天末室内设计
-  - 辅助从调研到效果图直�?type
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[case-yihang-dual-triangle-tianmo-design-delivery]]"
 ---

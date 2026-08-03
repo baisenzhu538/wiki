@@ -1,4 +1,5 @@
 ---
+
 id: concept-mckinsey-mece
 title: MECE 原则：相互独立、完全穷尽
 type: concept
@@ -17,6 +18,9 @@ aliases:
   - 相互独立
 source_refs:
 - pending_archive:source material not yet ingested
+discoverable_by:
+  - MECE 原则：相互独立、完全穷尽
+  - 相互独立、完全穷尽
 related:
 - '[[tool-mece体系框架法]]'
 - '[[tool-泛产品落地-逻辑MECE]]'

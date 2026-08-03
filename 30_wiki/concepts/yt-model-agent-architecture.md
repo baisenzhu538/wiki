@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-agent-architecture
 confidence: 0.85
 created_at: 2026-05-15
@@ -17,6 +18,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 智能体架构：PEAS与五层Agent模型
+  - 智能体架构
+  - PEAS与五层Agent模型
 related:
 - '[[yt-tool-peas-agent-analysis]]'
 - '[[tool-agent-research-pipeline]]'

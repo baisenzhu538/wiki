@@ -1,6 +1,9 @@
 ---
+
 id: yt-demand-analysis-hiking-map
 title: "需求分析爬山地图"
+discoverable_by:
+  - 需求分析爬山地图
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-market-size-estimation]]'

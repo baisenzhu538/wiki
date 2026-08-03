@@ -1,6 +1,11 @@
 ---
+
 id: yt-unit-model-ai-assisted
 confidence: 0.89
+discoverable_by:
+  - AI+单元模型：TCP-R双导师与出口式咨询实践
+  - AI+单元模型
+  - R双导师与出口式咨询实践
 quality_labels:
 - actionable
 - cited

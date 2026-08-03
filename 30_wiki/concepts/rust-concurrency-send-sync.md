@@ -1,4 +1,5 @@
 ---
+
 id: rust-concurrency-send-sync
 title: "Rust 并发安全：Send 与 Sync 的编译期保证"
 type: concept
@@ -13,6 +14,10 @@ aliases:
 source_refs:
   - pending_archive
 created_at: 2026-06-02
+discoverable_by:
+  - Rust 并发安全：Send 与 Sync 的编译期保证
+  - 并发安全
+  - 的编译期保证
 ---
 
 # Rust 并发安全

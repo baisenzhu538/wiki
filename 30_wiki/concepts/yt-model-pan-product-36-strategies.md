@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-pan-product-36-strategies
 component_of:
 - "[[yt-composite-pan-product-methodology]]"
@@ -20,6 +21,10 @@ query_triggers:
 - 产品设计36张牌
 - 泛产品设计工具有哪些
 - 36计怎么用
+discoverable_by:
+  - 泛产品设计36计·全套官方工具箱
+  - 泛产品设计36计
+  - 全套官方工具箱
 related:
 - "[[yt-composite-pan-product-methodology]]"
 - "[[yt-model-pan-product-demand-toolkit]]"

@@ -1,4 +1,5 @@
 ---
+
 id: yt-foresight-ten-fatal-flaws
 title: 十大硬伤：商业机会的致死缺陷清单
 type: tool
@@ -17,6 +18,10 @@ aliases:
   - 机会的致死缺陷清单
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
+discoverable_by:
+  - 十大硬伤：商业机会的致死缺陷清单
+  - 十大硬伤
+  - 商业机会的致死缺陷清单
 related:
 - '[[yt-foresight-15-char-mantra]]'
 - '[[yt-foresight-ab-steady-state]]'

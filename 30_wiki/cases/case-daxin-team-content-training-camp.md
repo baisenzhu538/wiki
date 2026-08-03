@@ -1,4 +1,5 @@
 ---
+
 id: case-daxin-team-content-training-camp
 title: 大馨战队短视频拆解训练营
 type: case
@@ -30,6 +31,8 @@ query_triggers:
 - 短视频拆解训练营
 - study
 - 短视频内容拆解方法论精华提炼
+discoverable_by:
+  - 大馨战队短视频拆解训练营
 tags:
 - '#scene/content-team'
 - '#scene/community'

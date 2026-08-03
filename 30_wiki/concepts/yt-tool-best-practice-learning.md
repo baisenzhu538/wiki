@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-best-practice-learning
 component_of:
 - src_unknown
@@ -21,6 +22,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 最佳实践学习四步法：从收集到超越
+  - 最佳实践学习四步法
+  - 从收集到超越
 related:
 - '[[concept-最佳实践建模]]'
 - '[[数据标注维度最佳实践调研报告]]'

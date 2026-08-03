@@ -1,4 +1,5 @@
 ---
+
 id: case-doris-outbound-travel-community
 title: 案例：出境游产业链拆解
 type: case
@@ -20,6 +21,9 @@ aliases:
   - 游产业链拆解
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
+discoverable_by:
+  - 案例：出境游产业链拆解
+  - 出境游产业链拆解
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

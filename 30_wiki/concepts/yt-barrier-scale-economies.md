@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-barrier-scale-economies
@@ -20,6 +21,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 规模经济：成本优势
+  - 规模经济
+  - 成本优势
 related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'

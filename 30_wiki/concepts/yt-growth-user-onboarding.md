@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-growth-user-onboarding
@@ -21,6 +22,9 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 用户 onboarding：第一印象设计
+  - 第一印象设计
 related:
 - '[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]'
 - '[[tool-月白-口述作图法（口喷设计）]]'

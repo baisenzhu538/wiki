@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-棋牌室办卡率1到5
 title: 棋牌室新客办卡率从1%到5%：主路径加触点+提升密度+直接号召+拆分场景
 type: case
@@ -25,6 +26,10 @@ aliases:
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L462-L486
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L4012-L4080
+discoverable_by:
+  - 棋牌室新客办卡率从1%到5%：主路径加触点+提升密度+直接号
+  - 棋牌室新客办卡率从1%到5%
+  - 主路径加触点+提升密度+直接号召+拆分场景
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

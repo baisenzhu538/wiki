@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 id: yt-personal-deliberate-practice
@@ -30,6 +31,8 @@ aliases:
 source_refs:
 - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
+discoverable_by:
+  - 科学成长刻意练习
 related:
 - '[[dk-content-muscle-memory-vs-knowledge]]'
 - '[[framework-yitang-sales-incentive-6d]]'

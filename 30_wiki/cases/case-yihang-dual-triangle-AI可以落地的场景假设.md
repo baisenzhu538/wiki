@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-AI可以落地的场景假设
 title: AI可以落地的场景假设 — 双三角案例
 type: case
@@ -23,6 +24,10 @@ aliases:
   - 可以落地的场景假设双三角案例
   - 角案例
 source_refs:
+discoverable_by:
+  - AI可以落地的场景假设 — 双三角案例
+  - AI可以落地的场景假设
+  - 双三角案例
 tags:
 reviewed_by: pending
 ---

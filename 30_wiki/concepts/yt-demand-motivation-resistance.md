@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-demand-motivation-resistance
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
+discoverable_by:
+  - 需求动机与阻力分析：为什么用户需要但不用
+  - 需求动机与阻力分析
+  - 为什么用户需要但不用
 related:
 - '[[dk-ai-entrepreneur-technical-blindspot]]'
 - '[[pending_unknown]]'

@@ -1,4 +1,5 @@
 ---
+
 id: 视觉prompt三层操作系统-srom-visual-os
 created_at: 2026-05-21
 domain:
@@ -19,6 +20,9 @@ author: 月白
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - 视觉Prompt三层操作系统 SROM Visual OS
+  - 视觉Prompt三层操作系统
 related:
 - '[[yt-prompt-engineering-andrew-ng]]'
 - '[[鑫港湾his系统分阶段整改报告]]'

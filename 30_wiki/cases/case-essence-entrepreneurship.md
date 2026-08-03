@@ -1,4 +1,5 @@
 ---
+
 id: case-essence-entrepreneurship
 title: 案例：创业本质 = 小概率游戏
 type: case
@@ -32,6 +33,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 案例：创业本质 = 小概率游戏
+  - 创业本质
+  - 小概率游戏
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-从案例中学习]]'

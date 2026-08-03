@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-一堂双三角-一个引擎-三阶六变
 title: 一堂双三角-一个引擎-三阶六变 — 双三角案例
 type: case
@@ -22,6 +23,12 @@ aliases:
   - 双三角案例
   - 角案例
 source_refs:
+discoverable_by:
+  - 一堂双三角-一个引擎-三阶六变 — 双三角案例
+  - 一堂双三角
+  - 一个引擎
+  - 三阶六变
+  - 双三角案例
 tags:
 reviewed_by: pending
 ---

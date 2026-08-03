@@ -1,4 +1,5 @@
 ---
+
 id: fixed-routine-design
 title: 固定套路设计
 type: concept
@@ -6,6 +7,8 @@ domain:
 - ai-collaboration
 - skill-building
 status: reviewed
+discoverable_by:
+  - 固定套路设计
 quality_labels:
 - cited
 - principle

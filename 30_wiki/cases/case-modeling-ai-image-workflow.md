@@ -1,4 +1,5 @@
 ---
+
 id: case-modeling-ai-image-workflow
 title: AI 文生图流程建模：从 v1 抽卡到 v5 攻坚会的五版迭代
 type: case
@@ -12,6 +13,11 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - AI 文生图流程建模：从 v1 抽卡到 v5 攻坚会的五版迭
+  - 文生图流程建模
+  - 抽卡到
+  - 攻坚会的五版迭代
 quality_labels:
 - cited
 aliases:

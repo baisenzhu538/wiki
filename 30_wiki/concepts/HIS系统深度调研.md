@@ -1,5 +1,8 @@
 ---
+
 id: HIS系统深度调研
+discoverable_by:
+  - HIS系统深度调研
 quality_labels:
 - cited
 - principle

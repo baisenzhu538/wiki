@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-邹韵涛-中小企业高级管理辅导班专题培训会
 title: 邹韵涛：政府出资的中小企业高管封闭培训会，106 人报名、50 人实到、满意度 100%
 type: case
@@ -31,6 +32,12 @@ source_refs:
   L1-L26
 - 00_inbox/Handle the business/conversion rate/_vlm_native_text/优秀转化率复盘合集/p004.txt
   L1-L16
+discoverable_by:
+  - 邹韵涛：政府出资的中小企业高管封闭培训会，106 人报名、5
+  - 邹韵涛
+  - 政府出资的中小企业高管封闭培训会，106
+  - 人报名、50
+  - 人实到、满意度
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 id: yt-entrepreneur-fundraising
@@ -24,6 +25,8 @@ aliases:
   - 融资认知
 source_refs:
 - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+discoverable_by:
+  - 融资认知
 tags:
 - audience:general
 - scene:reference

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 id: yt-model-management-map
@@ -29,6 +30,10 @@ aliases:
   - 高潜力管理者修炼全景图
 source_refs:
 - pending_archive:src_20260613_96e45c45-qishijian-business-model
+discoverable_by:
+  - 一堂管理地图：高潜力管理者修炼全景图
+  - 一堂管理地图
+  - 高潜力管理者修炼全景图
 related:
 - '[[framework-一堂-苦练基本功-总纲]]'
 - '[[management-domain-digest]]'

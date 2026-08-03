@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-小米发布会拆解
 title: 小米汽车发布会拆解：用动力/阻力/触点框架解析一场标杆产品发布会
 type: case
@@ -44,6 +45,10 @@ source_refs:
   L1-L12
 - 00_inbox/Handle the business/conversion rate/_vlm_native_text/小米发布会拆解练习/p063.txt
   L1-L11
+discoverable_by:
+  - 小米汽车发布会拆解：用动力/阻力/触点框架解析一场标杆产品发
+  - 小米汽车发布会拆解
+  - 用动力/阻力/触点框架解析一场标杆产品发布会
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

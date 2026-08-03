@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-barrier-supply-chain
@@ -21,6 +22,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 供应链壁垒：资源独占
+  - 供应链壁垒
+  - 资源独占
 related:
 - '[[yt-barrier-brand-equity]]'
 - '[[yt-barrier-culture-moat]]'

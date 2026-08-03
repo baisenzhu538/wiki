@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 id: yt-foresight-model-taxonomy
@@ -24,6 +25,8 @@ aliases:
   - 预判模型分类
 source_refs:
 - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
+discoverable_by:
+  - 预判模型分类
 related:
 - '[[framework-一堂-机会预判]]'
 - '[[yt-foresight-business-spectrum]]'

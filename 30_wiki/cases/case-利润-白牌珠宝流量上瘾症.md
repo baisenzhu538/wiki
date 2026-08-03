@@ -1,4 +1,5 @@
 ---
+
 id: case-利润-白牌珠宝流量上瘾症
 title: 白牌珠宝直播：流量驱动的利润陷阱
 type: case
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 白牌珠宝直播：流量驱动的利润陷阱
+  - 白牌珠宝直播
+  - 流量驱动的利润陷阱
 quality_labels:
 - cited
 aliases:

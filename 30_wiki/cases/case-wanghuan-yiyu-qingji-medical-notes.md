@@ -1,4 +1,5 @@
 ---
+
 id: case-wanghuan-yiyu-qingji-medical-notes
 title: 王欢案例：医语轻记用语音录入缩短病历时间
 type: case
@@ -34,6 +35,10 @@ diagnostic_signals:
   follow_up: 记录使用次数、节省时间，作为产品活下来的证据
 - lens: 领域知识可转化为约束和默认值
   follow_up: 把行业特有的字段、术语、流程固化到产品输入输出中
+discoverable_by:
+  - 王欢案例：医语轻记用语音录入缩短病历时间
+  - 王欢案例
+  - 医语轻记用语音录入缩短病历时间
 related:
 - '[[case-wanghuan-education-sales-capability-extraction]]'
 - '[[case-wanghuan-education-sales-paced]]'

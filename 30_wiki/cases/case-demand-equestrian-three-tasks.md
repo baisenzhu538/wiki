@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-equestrian-three-tasks
 title: 案例：马术三层任务——功能/情感/社交的完美展演
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 马术三层任务
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
+discoverable_by:
+  - 案例：马术三层任务——功能/情感/社交的完美展演
+  - 马术三层任务
+  - 功能/情感/社交的完美展演
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-马易-AI任务拆解提升控制度]]'

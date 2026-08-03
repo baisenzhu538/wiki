@@ -1,4 +1,5 @@
 ---
+
 id: concept-mckinsey-issue-tree
 title: Issue Tree：问题树拆解
 type: concept
@@ -16,6 +17,9 @@ aliases:
   - 问题树拆解
 source_refs:
 - pending_archive:source material not yet ingested
+discoverable_by:
+  - Issue Tree：问题树拆解
+  - 问题树拆解
 related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'

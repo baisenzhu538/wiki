@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-habit-shift
 component_of:
 - src_unknown
@@ -22,6 +23,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - X型→Y型决策者习惯诊断与转换
 related:
 - '[[yt-decision-canvas]]'
 - '[[yt-decision-y-model]]'

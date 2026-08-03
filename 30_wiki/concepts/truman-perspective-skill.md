@@ -1,4 +1,5 @@
 ---
+
 id: truman-perspective-skill
 title: Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现
 type: concept
@@ -17,6 +18,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
+discoverable_by:
+  - Truman Perspective Skill — 许楚思
+  - 许楚思维操作系统
 related:
 - '[[business-research-skill-oscar-13-weapon-system]]'
 tags:

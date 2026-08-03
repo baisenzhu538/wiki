@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-lianjia-site-selection-industrialization
 type: case
 title: 案例：链家如何用 IBM 咨询实现选址工业化
@@ -11,6 +12,10 @@ confidence: 0.82
 trust_level: medium-high
 author: 老顽童
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 案例：链家如何用 IBM 咨询实现选址工业化
+  - 链家如何用
+  - 咨询实现选址工业化
 quality_labels:
 - actionable
 - cited

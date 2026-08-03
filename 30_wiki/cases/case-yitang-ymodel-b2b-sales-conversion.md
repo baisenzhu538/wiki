@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-ymodel-b2b-sales-conversion
 title: Y模型 案例：To B 顾问销售——一号位脑子里的结构用 Y模型 显性化
 type: case
@@ -21,6 +22,11 @@ aliases:
   - 顾问销售
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
+discoverable_by:
+  - Y模型 案例：To B 顾问销售——一号位脑子里的结构用 Y
+  - 顾问销售
+  - 一号位脑子里的结构用
+  - 显性化
 related:
 - '[[yt-decision-y-model]]'
 - '[[method-yitang-y-model-engine-cycle]]'

@@ -13,16 +13,16 @@ domain:
 - yitang
 - decision-science
 - methodology
+source_refs:
+- 30_wiki/methods/method-yitang-y-model-engine-cycle.md
+- 30_wiki/frameworks/framework-yitang-y-model-cross-domain-fusion.md
+- 60_feedback/diagnosis/diag_20260708_yitang-y-model-cross-domain-fusion-deep-dive-v2.md
 aliases:
   - Y模型STEPS策略集
   - Y模型STEPS策略集：五步策略框架
   - 五步策略框架
   - 策略框架
   - 策略集
-source_refs:
-- 30_wiki/methods/method-yitang-y-model-engine-cycle.md
-- 30_wiki/frameworks/framework-yitang-y-model-cross-domain-fusion.md
-- 60_feedback/diagnosis/diag_20260708_yitang-y-model-cross-domain-fusion-deep-dive-v2.md
 related:
 - '[[yt-decision-y-model]]'
 - '[[method-yitang-y-model-engine-cycle]]'
@@ -37,7 +37,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases: []
 ---
 
 # Y模型STEPS策略集：五步策略框架

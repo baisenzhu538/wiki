@@ -1,4 +1,5 @@
 ---
+
 id: concept-open-source-knowledge-usage-boundary
 title: 开源知识使用边界：学习与蒸馏的分界线
 type: concept
@@ -33,6 +34,10 @@ query_triggers:
 - 学习与蒸馏的分界线
 - study
 - 大馨战队
+discoverable_by:
+  - 开源知识使用边界：学习与蒸馏的分界线
+  - 开源知识使用边界
+  - 学习与蒸馏的分界线
 tags:
 - '#scene/business-analysis'
 - content-production

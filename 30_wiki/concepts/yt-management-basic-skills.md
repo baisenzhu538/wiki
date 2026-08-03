@@ -1,10 +1,13 @@
 ---
+
 title: 基本功认知
 type: concept
 domain:
 - management
 - yitang
 status: reviewed
+discoverable_by:
+  - 基本功认知
 quality_labels:
 - principle
 - actionable

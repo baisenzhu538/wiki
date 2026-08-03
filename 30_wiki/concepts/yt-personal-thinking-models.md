@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 id: yt-personal-thinking-models
@@ -26,6 +27,10 @@ aliases:
   - 片经验到稳定模型
 source_refs:
 - pending_archive:src_20260614_1be3d76f-一堂-思维模型案例分享
+discoverable_by:
+  - 思维模型：从碎片经验到稳定模型
+  - 思维模型
+  - 从碎片经验到稳定模型
 tags:
 - audience:general
 - scene:reference

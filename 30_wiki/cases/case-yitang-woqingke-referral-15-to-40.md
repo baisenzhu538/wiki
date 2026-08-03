@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-woqingke-referral-15-to-40
 title: 一堂「我请客」推荐率攻坚：三层公式展开把 15% 干到 40%，一年半 70-100 个假设
 type: case
@@ -19,6 +20,12 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L318-L568
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2444-L2512
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002650_vlm.md
+discoverable_by:
+  - 一堂我请客推荐率攻坚：三层公式展开把 15% 干到 40%，
+  - 一堂我请客推荐率攻坚
+  - 三层公式展开把
+  - 40%，一年半
+  - 个假设
 quality_labels:
 - actionable
 - cited

@@ -16,6 +16,7 @@ difficulty: beginner
 estimated_tokens: 3000
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -24,10 +25,8 @@ aliases:
   - 找到行业标杆
   - 最佳实践调研
   - 最佳实践调研：找到行业标杆，复制成功因素
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 最佳实践调研：找到行业标杆，复制成功因素
 

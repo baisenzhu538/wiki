@@ -1,6 +1,9 @@
 ---
+
 id: yt-growth-cycle-model
 title: "增长周期模型"
+discoverable_by:
+  - 增长周期模型
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-unit-model-three-tools]]'

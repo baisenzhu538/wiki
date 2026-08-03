@@ -1,4 +1,5 @@
 ---
+
 id: yt-unit-model-benchmark
 confidence: 0.9
 created_at: 2026-05-24
@@ -18,6 +19,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 单元模型基准值：科学类比、三点预测与基准值共建
+  - 单元模型基准值
+  - 科学类比、三点预测与基准值共建
 related:
 - '[[yt-unit-model-construction]]'
 - '[[yt-unit-model-selection]]'

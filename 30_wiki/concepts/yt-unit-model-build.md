@@ -1,4 +1,5 @@
 ---
+
 id: yt-unit-model-build
 component_of: '[[yt-unit-model-concept]]'
 confidence: 0.8
@@ -21,6 +22,8 @@ query_triggers:
 - 单元模型预判
 - 创业如何算账
 - 商业模式验证
+discoverable_by:
+  - 单元模型搭建五步法
 related:
 - '[[yt-unit-model-concept]]'
 - '[[yt-unit-model-ladder]]'

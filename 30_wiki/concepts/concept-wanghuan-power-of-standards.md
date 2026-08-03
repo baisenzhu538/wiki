@@ -1,4 +1,5 @@
 ---
+
 id: concept-wanghuan-power-of-standards
 title: 王欢：标准的力量——质量乘数
 type: concept
@@ -34,6 +35,10 @@ diagnostic_signals:
   follow_up: 定义风格指南：配色、节奏、信息密度、可读性优先等
 - lens: 约束缺失
   follow_up: 在 BTICOE 的 C（约束）中补充至少 3 条“不能碰”的红线
+discoverable_by:
+  - 王欢：标准的力量——质量乘数
+  - 标准的力量
+  - 质量乘数
 related:
 - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[dk-wanghuan-spec-trap]]'

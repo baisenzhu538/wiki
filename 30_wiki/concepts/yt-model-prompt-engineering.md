@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-prompt-engineering
 title: 人机协作操作系统：提示词工程总框架
 type: framework
@@ -18,6 +19,10 @@ language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.9
+discoverable_by:
+  - 人机协作操作系统：提示词工程总框架
+  - 人机协作操作系统
+  - 提示词工程总框架
 related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-model-ipo-learning-strategy]]'

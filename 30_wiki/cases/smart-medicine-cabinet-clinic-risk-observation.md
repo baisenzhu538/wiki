@@ -1,4 +1,5 @@
 ---
+
 id: smart-medicine-cabinet-clinic-risk-observation
 title: 诊所 + 智能药柜协同模式：一线观察与风险提示
 type: case
@@ -29,6 +30,10 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: '2026-06-14'
 confidence: 0.65
 trust_level: low
+discoverable_by:
+  - 诊所 + 智能药柜协同模式：一线观察与风险提示
+  - 智能药柜协同模式
+  - 一线观察与风险提示
 related:
 - '[[smart-medicine-cabinet-o2o-cost-structure]]'
 - '[[concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet]]'

@@ -1,4 +1,5 @@
 ---
+
 id: challenge-point-design
 title: 挑战点设计
 type: tool
@@ -12,6 +13,8 @@ aliases:
   - 点设计
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
+discoverable_by:
+  - 挑战点设计
 related:
 - '[[deliberate-practice-four-elements]]'
 - '[[comfort-zone-expansion]]'

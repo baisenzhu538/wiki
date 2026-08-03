@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-five-step-canvas
 confidence: 0.85
 created_at: 2026-05-11
@@ -14,6 +15,11 @@ query_triggers:
 - src_unknown
 - src_unknown（三栏结构）
 - src_unknown
+discoverable_by:
+  - 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
+  - 五步法画布
+  - 产品内核画布
+  - 从假设到壁垒的实操工具
 related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-product-core]]'

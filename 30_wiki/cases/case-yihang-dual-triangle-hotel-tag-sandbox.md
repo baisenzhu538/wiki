@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-hotel-tag-sandbox
 title: 一行双三角案例：酒店AI标签审核的边缘切入与沙盒练兵
 type: case
@@ -27,6 +28,10 @@ source_refs:
 - 00_inbox/人机协作双三角/【组织】酒店行业-AI标签审核案例.png
 - 00_inbox/人机协作双三角/【组织】酒店行业AI标签案例口述.pdf
 - 00_inbox/人机协作双三角/_processed/组织酒店行业AI标签案例口述_text.md
+discoverable_by:
+  - 一行双三角案例：酒店AI标签审核的边缘切入与沙盒练兵
+  - 一行双三角案例
+  - 酒店AI标签审核的边缘切入与沙盒练兵
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-opc-agent-wave1-real-model-testing
 title: 案例：OPC 销售智能体 Wave 1 真实模型测试
 type: case
@@ -24,6 +25,10 @@ aliases:
 source_refs:
 - 60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-testing-wave1.md
 - 60_feedback/agent-traces/2026-07-02/_summary.json
+discoverable_by:
+  - 案例：OPC 销售智能体 Wave 1 真实模型测试
+  - 销售智能体
+  - 真实模型测试
 related:
 - '[[tool-agent-spec-yitang-customer-segmentation]]'
 - '[[tool-agent-spec-yitang-value-proposition]]'

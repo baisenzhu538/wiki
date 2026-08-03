@@ -1,4 +1,5 @@
 ---
+
 id: concept-yihang-research-driven-company
 title: 研发型公司 vs 工程型公司——做"过去做不出来的东西"
 type: concept
@@ -22,6 +23,11 @@ aliases:
   - 研发型公司vs工程型公司做过去做不出来的东西
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+discoverable_by:
+  - 研发型公司 vs 工程型公司——做过去做不出来的东西
+  - 研发型公司
+  - 工程型公司
+  - 做过去做不出来的东西
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[concept-yihang-methodology-production-pipeline]]'

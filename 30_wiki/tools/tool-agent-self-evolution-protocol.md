@@ -8,16 +8,16 @@ confidence: 0.8
 trust_level: medium
 domain:
 - system
+source_refs:
+- 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
+- .agent/pitfalls.md
+- 30_wiki/frameworks/framework-kdo-modeling-methodology.md
 aliases:
   - Agent自我进化协议
   - Agent自我进化协议：每次复盘四问
   - 复盘四问
   - 每次复盘四问
   - 自我进化协议
-source_refs:
-- 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
-- .agent/pitfalls.md
-- 30_wiki/frameworks/framework-kdo-modeling-methodology.md
 related:
 - concept-kdo-agent-design-principles
 - concept-kdo-agent-four-level-awareness
@@ -38,7 +38,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases: []
 ---
 
 ## 核心主张

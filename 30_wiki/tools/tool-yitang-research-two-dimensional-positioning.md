@@ -16,6 +16,7 @@ difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 二维定位
   - 二维定位：找到差异化竞争的坐标
   - 找到差异化竞争的坐标
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 二维定位：找到差异化竞争的坐标
 

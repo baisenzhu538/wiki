@@ -1,4 +1,5 @@
 ---
+
 id: case-unit-model-gashapon
 title: 扭蛋机案例：玩具店规模化扩张三阶段决策
 type: case
@@ -20,6 +21,10 @@ aliases:
 source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-扭蛋机案例_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-扭蛋机案例_vlm_desc.md
+discoverable_by:
+  - 扭蛋机案例：玩具店规模化扩张三阶段决策
+  - 扭蛋机案例
+  - 玩具店规模化扩张三阶段决策
 related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-pharma-bigdata
 title: 案例：大数据私有化在创新药领域的切入——评估三角形实战
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 评估三角形实战
 source_refs:
 - 00_inbox/五步法之需求分析/优秀案例分析合集.md
+discoverable_by:
+  - 案例：大数据私有化在创新药领域的切入——评估三角形实战
+  - 大数据私有化在创新药领域的切入
+  - 评估三角形实战
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-从案例中学习]]'

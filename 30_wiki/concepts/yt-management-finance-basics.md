@@ -1,4 +1,5 @@
 ---
+
 title: 财务入门
 type: concept
 domain:
@@ -17,6 +18,8 @@ diagnostic_signals:
   follow_up_question: 你最近一次亲自看过三表并理解数字含义是什么时候？
 - framework_lens: 毛利率≠现金流/净利
   follow_up_question: 高毛利产品的现金回笼周期是多久？营销/研发/管理费用是否吃掉毛利？应收账款和库存是否占用现金？
+discoverable_by:
+  - 财务入门
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'

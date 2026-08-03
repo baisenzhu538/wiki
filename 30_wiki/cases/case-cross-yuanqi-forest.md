@@ -1,4 +1,5 @@
 ---
+
 id: case-cross-yuanqi-forest
 title: 元气森林：战略定位与精益试错的跨域闭环
 type: case
@@ -27,6 +28,10 @@ source_refs:
 - 00_inbox/精益创业/元气森林-试错工具箱_ocr_text.md
 - 00_inbox/精益创业/元气森林-试错工具箱_vlm_desc.md
 - src_unknown
+discoverable_by:
+  - 元气森林：战略定位与精益试错的跨域闭环
+  - 元气森林
+  - 战略定位与精益试错的跨域闭环
 related:
 - '[[framework-lean-false-model]]'
 - '[[framework-lean-abcd-model]]'

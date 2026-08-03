@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-solid-redbull-channel
 type: case
 title: 案例：固体红牛如何通过渠道探索找到司机群体
@@ -10,6 +11,9 @@ confidence: 0.78
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 案例：固体红牛如何通过渠道探索找到司机群体
+  - 固体红牛如何通过渠道探索找到司机群体
 quality_labels:
 - actionable
 - cited

@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-praise-wall-precondition
 title: 案例：Truman 赞美墙——用"积极情绪前置"为深度工作预热场景质量
 type: case
@@ -19,6 +20,10 @@ source_refs:
   - 00_inbox/时间管理/truman-时间管理课程-口述.txt
   - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
   - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+discoverable_by:
+  - 案例：Truman 赞美墙——用积极情绪前置为深度工作预热场
+  - 赞美墙
+  - 用积极情绪前置为深度工作预热场景质量
 tags:
   - "#yitang"
   - "#time-management"

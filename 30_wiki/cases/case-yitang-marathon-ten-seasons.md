@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-marathon-ten-seasons
 title: 一堂马拉松十期：双目标+10维切片+攻坚会，用假设驱动把年度续费大课做成一条稳定向上的曲线
 type: case
@@ -27,6 +28,8 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1696-L1790
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1812-L1906
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1916-L1942
+discoverable_by:
+  - 一堂马拉松十期
 quality_labels:
 - actionable
 - cited

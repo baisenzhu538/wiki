@@ -1,4 +1,5 @@
 ---
+
 id: concept-ai-information-quality-ladder
 title: 信息质量阶梯
 type: concept
@@ -12,13 +13,15 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-aliases:
-  - 信息质量阶梯
-  - 质量阶梯
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
+aliases:
+  - 信息质量阶梯
+  - 质量阶梯
+discoverable_by:
+  - 信息质量阶梯
 related:
 - '[[tool-ai2041-source-verification-checklist]]'
 - '[[concept-ai-chair-determines-view]]'
@@ -35,7 +38,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases: []
 ---
 # 信息质量阶梯
 

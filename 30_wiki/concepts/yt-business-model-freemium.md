@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-freemium
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 免费增值模式：获客与变现的平衡
+  - 免费增值模式
+  - 获客与变现的平衡
 related:
 - '[[tool-月白-A-B双轨反推模式选择]]'
 - '[[tool-城市合伙人模式复制能力]]'

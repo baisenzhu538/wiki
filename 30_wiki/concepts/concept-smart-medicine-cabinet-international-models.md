@@ -1,4 +1,5 @@
 ---
+
 id: concept-smart-medicine-cabinet-international-models
 title: 国际自动取药机/药房模式经验与启示
 type: concept
@@ -23,6 +24,8 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: 2026-06-15
 confidence: 0.82
 trust_level: high
+discoverable_by:
+  - 国际自动取药机/药房模式经验与启示
 related:
 - - - smart-medicine-cabinet-distribution
 - - - case-smart-medicine-cabinet-failure-patterns-library

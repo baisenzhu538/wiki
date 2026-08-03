@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-sales-report-structure
 title: 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链
 type: case
@@ -25,6 +26,10 @@ definition_of_done:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 案例：Truman 重构销售失利汇报——把 10 个散点升级
+  - 重构销售失利汇报
+  - 个散点升级成逻辑链
 tags:
 - src_unknown
 - src_unknown

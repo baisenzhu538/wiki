@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-mvp-reward-interview-waste
 title: 案例：MVP阶段花钱做用户访谈的浪费
 type: case
@@ -21,6 +22,9 @@ aliases:
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
+discoverable_by:
+  - 案例：MVP阶段花钱做用户访谈的浪费
+  - MVP阶段花钱做用户访谈的浪费
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

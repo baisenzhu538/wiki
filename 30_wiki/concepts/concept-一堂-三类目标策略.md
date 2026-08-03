@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-三类目标策略
 title: 三类目标策略：必胜型严管、挑战型激驱、探索型留白
 type: concept
@@ -26,6 +27,10 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1538-L1566
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1700-L1756
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
+discoverable_by:
+  - 三类目标策略：必胜型严管、挑战型激驱、探索型留白
+  - 三类目标策略
+  - 必胜型严管、挑战型激驱、探索型留白
 related:
 - '[[concept-一堂-双目标法]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'

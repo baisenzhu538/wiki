@@ -1,4 +1,5 @@
 ---
+
 id: knowledge-delivery-os-快速体验指南-飞书云文档
 created_at: 2026-04-30
 domain: master
@@ -21,6 +22,10 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - Knowledge Delivery OS 快速体验指南 -
+  - 快速体验指南
+  - 飞书云文档
 related:
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
 - '[[yt-management-team-knowledge]]'

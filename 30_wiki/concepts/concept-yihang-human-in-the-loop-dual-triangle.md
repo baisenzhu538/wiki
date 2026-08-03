@@ -1,4 +1,5 @@
 ---
+
 id: concept-yihang-human-in-the-loop-dual-triangle
 title: 人在环 × 双三角：从治理原则到能力地图
 type: concept
@@ -26,6 +27,11 @@ source_refs:
 - https://arxiv.org/abs/2506.12469
 - https://arxiv.org/abs/2606.09848
 - https://repost.aws/articles/ARoAKFARXvRBOam8zeOs1ZbA/re-invent-2025-implementing-human-in-the-loop-controls-for-multi-agent-ai-systems
+discoverable_by:
+  - 人在环 × 双三角：从治理原则到能力地图
+  - 人在环
+  - 双三角
+  - 从治理原则到能力地图
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yitang-y-model-dual-triangle-synergy]]'

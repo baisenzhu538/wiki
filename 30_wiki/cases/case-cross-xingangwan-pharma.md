@@ -1,8 +1,13 @@
 ---
+
 id: case-cross-xingangwan-pharma
 title: 鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证
 type: case
 status: reviewed
+discoverable_by:
+  - 鑫港湾智慧药柜：战略选择、商业模式与合规假设的跨域验证
+  - 鑫港湾智慧药柜
+  - 战略选择、商业模式与合规假设的跨域验证
 quality_labels:
 - actionable
 - cited

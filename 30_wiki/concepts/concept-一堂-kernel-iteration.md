@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-一堂-kernel-iteration
 title: 产品内核迭代：从静态到动态的五方向演化
 type: concept
@@ -22,6 +23,10 @@ source_refs:
 - pending_archive:src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述
 created_at: 2026-06-09
 updated_at: '2026-07-08'
+discoverable_by:
+  - 产品内核迭代：从静态到动态的五方向演化
+  - 产品内核迭代
+  - 从静态到动态的五方向演化
 related:
   - "[[concept-一堂-kernel-validation]]"
   - "[[yt-product-kernel-cultivation]]"
@@ -39,7 +44,6 @@ pipeline:
 author: 老顽童
 confidence: 0.7
 trust_level: medium# 产品内核迭代：从静态到动态的五方向演化
-
 ---
 
 > **产品内核迭代的本质：产品内核不是一次性定死的，而是需要随需求变化、竞争加剧、规模扩张持续动态调整的生存机制。**

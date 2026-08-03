@@ -1,4 +1,5 @@
 ---
+
 id: case-decision-science-topcity-negative-revenue-rank
 title: 案例：Top City 负收益消减与自动排名
 type: case
@@ -21,6 +22,9 @@ aliases:
   - 负收益消减与自动排名
 source_refs:
 - 00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt
+discoverable_by:
+  - 案例：Top City 负收益消减与自动排名
+  - 负收益消减与自动排名
 related:
 - '[[case-yitang-topcity-growth-flywheel]]'
 - '[[yt-decision-y-model]]'

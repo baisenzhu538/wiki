@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-channel-lean-validation-bridge
 type: concept
 title: 渠道精益验证：把渠道 0→1 测试当作一种 MVP
@@ -28,6 +29,11 @@ source_refs:
 - lean-startup-domain-digest
 - diag_20260627_wangyuyan-cross-domain-bridge-supplement
 source_person: Truman
+discoverable_by:
+  - 渠道精益验证：把渠道 0→1 测试当作一种 MVP
+  - 渠道精益验证
+  - 把渠道
+  - 测试当作一种
 related:
 - - - framework-yitang-channel-exploration-4step
 - - - framework-yitang-channel-industrialization

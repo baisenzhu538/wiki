@@ -1,4 +1,5 @@
 ---
+
 id: case-ether-online-acquisition
 title: 案例：以太利用全网调研能力快速获客
 type: case
@@ -36,6 +37,9 @@ definition_of_done:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 案例：以太利用全网调研能力快速获客
+  - 以太利用全网调研能力快速获客
 tags:
 - src_unknown
 - src_unknown

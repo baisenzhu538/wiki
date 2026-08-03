@@ -16,6 +16,7 @@ difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 地图在手
   - 地图在手：建立全局信息获取体系
   - 建立全局信息获取体系
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 地图在手：建立全局信息获取体系
 

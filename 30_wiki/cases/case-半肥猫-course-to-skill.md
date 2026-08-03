@@ -1,4 +1,5 @@
 ---
+
 id: case-半肥猫-course-to-skill
 title: 案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具
 type: case
@@ -18,6 +19,11 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260617_2b8a01ce-ai俱乐部-ai学习落地-半肥猫-口述.txt
 - 10_raw/sources/src_20260617_629e996c-ai俱乐部-ai学习落地-半肥猫-笔记.txt
+discoverable_by:
+  - 案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程
+  - 半肥猫的课程转
+  - 八步法
+  - 从一堂转化率课程到可验证的
 tags:
 - src_unknown
 - src_unknown

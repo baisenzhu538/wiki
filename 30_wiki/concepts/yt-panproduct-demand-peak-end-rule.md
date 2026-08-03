@@ -20,6 +20,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+aliases:
+  - 峰终定律
+  - 峰值体验
 related:
 - '[[yt-model-pan-product-demand-toolkit]]'
 - '[[yt-model-pan-product-36-strategies]]'
@@ -56,7 +59,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 峰终定律
 - 泛产品设计
 - 用户卡片

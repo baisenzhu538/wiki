@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-pricing-psychology
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 定价心理学：让用户觉得值
+  - 定价心理学
+  - 让用户觉得值
 related:
 - '[[yt-business-analysis-cognitive-biases]]'
 - '[[yt-business-formula-l6-essence-formulas]]'

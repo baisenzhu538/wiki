@@ -1,4 +1,5 @@
 ---
+
 title: 转化率黑客
 type: concept
 domain:
@@ -29,6 +30,8 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260613_6b939d2b）
+discoverable_by:
+  - 转化率黑客
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'

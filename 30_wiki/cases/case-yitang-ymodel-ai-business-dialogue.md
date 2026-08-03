@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-ymodel-ai-business-dialogue
 title: Y模型 案例：AI+Y模型——充电桩/养老院的黑盒报告 vs 拆开迭代
 type: case
@@ -21,6 +22,10 @@ aliases:
   - 案例
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
+discoverable_by:
+  - Y模型 案例：AI+Y模型——充电桩/养老院的黑盒报告 vs
+  - 充电桩/养老院的黑盒报告
+  - 拆开迭代
 related:
 - '[[yt-decision-y-model]]'
 - '[[method-yitang-y-model-engine-cycle]]'

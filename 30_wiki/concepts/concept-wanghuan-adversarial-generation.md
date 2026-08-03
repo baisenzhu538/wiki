@@ -1,4 +1,5 @@
 ---
+
 id: concept-wanghuan-adversarial-generation
 title: 王欢概念：对抗式生成
 type: concept
@@ -24,6 +25,10 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 王欢概念：对抗式生成
+  - 王欢概念
+  - 对抗式生成
 related:
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[framework-wanghuan-task-product-system]]'

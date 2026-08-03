@@ -1,4 +1,5 @@
 ---
+
 id: pilot-atomic-chunk-comparison
 title: Pilot：master-decision-hygiene 真原子切分对比
 type: analysis
@@ -20,6 +21,9 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 updated_at: '2026-06-29'
+discoverable_by:
+  - Pilot：master-decision-hygiene
+  - 真原子切分对比
 related:
 - '[[tool-decision-delay-intuition]]'
 - '[[tool-decision-outside-view]]'

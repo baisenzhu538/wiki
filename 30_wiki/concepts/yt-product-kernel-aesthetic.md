@@ -1,4 +1,5 @@
 ---
+
 domain: product
 id: yt-product-kernel-aesthetic
 title: 产品内核与审美：从"好用"到"美好"
@@ -21,6 +22,10 @@ updated_at: '2026-06-19'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
+discoverable_by:
+  - 产品内核与审美：从好用到美好
+  - 产品内核与审美
+  - 从好用到美好
 related:
 - '[[yt-product-kernel-definition]]'
 - '[[yt-product-kernel-shampoo-case]]'

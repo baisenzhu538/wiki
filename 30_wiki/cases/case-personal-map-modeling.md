@@ -1,4 +1,5 @@
 ---
+
 id: case-personal-map-modeling
 title: 案例：一堂个人地图的完整建模过程（方法论视角）
 type: case
@@ -24,6 +25,9 @@ reviewed_by: 王语嫣（代欧阳锋）
 review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.7
+discoverable_by:
+  - 案例：一堂个人地图的完整建模过程方法论视角
+  - 一堂个人地图的完整建模过程方法论视角
 related:
 - '[[case-truman-personal-growth-map-creation]]'
 - '[[tool-从案例中学习]]'

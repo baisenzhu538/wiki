@@ -1,4 +1,5 @@
 ---
+
 id: concept-AI时代双三角竞争力
 title: AI时代的双三角竞争力：人+AI协作决策
 type: concept
@@ -19,6 +20,10 @@ aliases:
   - 时代的双三角竞争力
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-人机协作决策_vlm_desc.md
+discoverable_by:
+  - AI时代的双三角竞争力：人+AI协作决策
+  - AI时代的双三角竞争力
+  - 人+AI协作决策
 related:
 - '[[pending_unknown]]'
 - '[[decision-science-domain-digest]]'

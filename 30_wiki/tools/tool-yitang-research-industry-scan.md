@@ -16,6 +16,7 @@ difficulty: beginner
 estimated_tokens: 3000
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 快速建立行业全貌认知
   - 行业扫描
   - 行业扫描：快速建立行业全貌认知
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 行业扫描：快速建立行业全貌认知
 

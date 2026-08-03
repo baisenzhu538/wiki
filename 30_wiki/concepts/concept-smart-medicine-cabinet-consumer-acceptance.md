@@ -1,4 +1,5 @@
 ---
+
 id: concept-smart-medicine-cabinet-consumer-acceptance
 title: 消费者购药行为与智能药柜接受度
 type: concept
@@ -23,6 +24,8 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: 2026-06-15
 confidence: 0.78
 trust_level: medium
+discoverable_by:
+  - 消费者购药行为与智能药柜接受度
 related:
 - - - concept-smart-medicine-cabinet-international-models
 - - - tool-smart-medicine-cabinet-site-selection-guide

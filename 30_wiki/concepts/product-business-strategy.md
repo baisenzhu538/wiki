@@ -1,4 +1,5 @@
 ---
+
 id: product-business-strategy
 title: 产品-商业战略综合：设备运营、方向取舍与产品开发：主题综合索引卡
 type: concept
@@ -20,6 +21,11 @@ source_refs:
 - 10_raw/sources/src_20260614_0e07078e-多人-产品方向选择讨论.md
 - 10_raw/sources/src_20260614_8a0317f1-产品-市场分析讨论.md
 - 10_raw/sources/src_20260614_0e6fd2e7-theme-product-business-summary.md
+discoverable_by:
+  - 产品-商业战略综合：设备运营、方向取舍与产品开发：主题综合索
+  - 商业战略综合
+  - 设备运营、方向取舍与产品开发
+  - 主题综合索引卡
 tags:
 - audience:general
 - scene:reference

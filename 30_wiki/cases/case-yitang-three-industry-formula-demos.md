@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-three-industry-formula-demos
 title: 三行业公式拆解示范：民营眼科医院、篮球培训、ToB 摄像头——把收入目标逐层拆到可执行的因子
 type: case
@@ -19,6 +20,11 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/批注 2026-07-12 001958_vlm.md
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2062-L2110
 - 00_inbox/Handle the business/Business formula/_vlm_output/整合笔记_业务公式完整版.md L206-L217
+discoverable_by:
+  - 三行业公式拆解示范
+  - 民营眼科医院、篮球培训、ToB
+  - 摄像头
+  - 把收入目标逐层拆到可执行的因子
 quality_labels:
 - cited
 created_at: '2026-07-12'

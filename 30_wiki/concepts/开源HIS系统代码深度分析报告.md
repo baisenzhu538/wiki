@@ -1,4 +1,5 @@
 ---
+
 id: 开源HIS系统代码深度分析报告
 created_at: 2026-05-03
 domain: healthcare
@@ -17,6 +18,8 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - 开源HIS系统代码深度分析报告
 related:
 - '[[街顺app全面调研报告]]'
 - '[[鑫港湾his系统分阶段整改报告]]'

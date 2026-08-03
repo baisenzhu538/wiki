@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-ymodel-children-reading-retention
 title: Y模型 案例：小学生在线阅读——外行看一眼画布就能平等对话
 type: case
@@ -21,6 +22,10 @@ aliases:
   - 生在线阅读
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
+discoverable_by:
+  - Y模型 案例：小学生在线阅读——外行看一眼画布就能平等对话
+  - 小学生在线阅读
+  - 外行看一眼画布就能平等对话
 related:
 - '[[yt-decision-y-model]]'
 - '[[method-yitang-y-model-engine-cycle]]'

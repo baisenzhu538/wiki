@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-analysis-cognitive-biases
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
@@ -47,6 +48,10 @@ diagnostic_signals:
   follow_up_question: 这次讨论前是否要求每个人独立写判断？有没有指定"恶魔辩护人"专门挑刺？
 updated_at: '2026-06-28'
 author: 老顽童
+discoverable_by:
+  - 暗知识：五步法中的主要认知偏差
+  - 暗知识
+  - 五步法中的主要认知偏差
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-five-step-common-pitfalls]]'

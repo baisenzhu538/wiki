@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-人类三角-创造力
 title: 人类三角-创造力 — 双三角案例
 type: case
@@ -23,6 +24,11 @@ aliases:
   - 双三角案例
   - 角案例
 source_refs:
+discoverable_by:
+  - 人类三角-创造力 — 双三角案例
+  - 人类三角
+  - 创造力
+  - 双三角案例
 tags:
 reviewed_by: pending
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: case-five-step-growth-first-lever
 title: 案例：五步法中从产品内核到增长的第一次跨越
 type: case
@@ -29,6 +30,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 案例：五步法中从产品内核到增长的第一次跨越
+  - 五步法中从产品内核到增长的第一次跨越
 tags:
 - audience:general
 - scene:reference

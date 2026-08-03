@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-优秀触点案例合集
 title: 优秀触点案例合集：射箭办卡率、黄金推荐率、烘焙触点分析三案例索引
 type: case
@@ -24,6 +25,10 @@ aliases:
   - 黄金推荐率
 source_refs:
 - 00_inbox/Handle the business/conversion rate/优秀触点案例合集_逐字稿.md L17-L122
+discoverable_by:
+  - 优秀触点案例合集：射箭办卡率、黄金推荐率、烘焙触点分析三案例
+  - 优秀触点案例合集
+  - 射箭办卡率、黄金推荐率、烘焙触点分析三案例索引
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

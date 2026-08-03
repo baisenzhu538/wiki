@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 id: yt-prompt-brainstorming
@@ -44,6 +45,8 @@ updated_at: 2026-06-13
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium-high
+discoverable_by:
+  - AI头脑风暴工作流
 related:
 - '[[yt-model-prompt-engineering]]'
 - '[[yt-prompt-iterative-prompting]]'

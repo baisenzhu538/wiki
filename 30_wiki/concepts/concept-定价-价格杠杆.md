@@ -1,4 +1,5 @@
 ---
+
 id: concept-定价-价格杠杆
 title: 价格杠杆：定价那一刻，利润已经锁定
 type: concept
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 价格杠杆：定价那一刻，利润已经锁定
+  - 价格杠杆
+  - 定价那一刻，利润已经锁定
 quality_labels:
 - insight
 - actionable

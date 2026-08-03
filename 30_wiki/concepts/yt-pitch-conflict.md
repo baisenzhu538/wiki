@@ -1,4 +1,5 @@
 ---
+
 id: yt-pitch-conflict
 component_of:
 - src_unknown
@@ -19,6 +20,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 讲香·冲突化
+  - 冲突化
 related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-concept-weapon-arsenal]]'

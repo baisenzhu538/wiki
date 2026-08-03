@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-failure-08-video
 title: 案例：视频平台B——资源短缺。版权库太弱致转型失败
 type: case
@@ -25,6 +26,10 @@ source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_22_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_22_vlm_desc.md
+discoverable_by:
+  - 案例：视频平台B——资源短缺。版权库太弱致转型失败
+  - 视频平台B
+  - 资源短缺。版权库太弱致转型失败
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-三层目标对齐法]]'

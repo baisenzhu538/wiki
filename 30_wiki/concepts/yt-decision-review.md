@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-review
 component_of:
 - src_unknown
@@ -21,6 +22,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环
+  - 决策复盘工具
+  - L4深度复盘法
+  - 假设验证闭环
 related:
 - '[[yt-decision-y-model]]'
 - '[[yt-decision-consensus-iceberg]]'

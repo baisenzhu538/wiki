@@ -1,4 +1,5 @@
 ---
+
 id: case-thousand-people-square
 title: 案例：一堂'千人广场模型'——用统计建模心态做课
 type: case
@@ -27,6 +28,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.89
+discoverable_by:
+  - 案例：一堂'千人广场模型'——用统计建模心态做课
+  - 一堂'千人广场模型'
+  - 用统计建模心态做课
 related:
 - '[[tool-月白-AI模型选择策略]]'
 - '[[dk-单元模型-找单元模型实操难点]]'

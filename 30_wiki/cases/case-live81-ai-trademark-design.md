@@ -1,4 +1,5 @@
 ---
+
 id: case-live81-ai-trademark-design
 title: 案例：Live81 AI 赋能喵善养商标设计
 type: case
@@ -25,6 +26,9 @@ source_refs:
 - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-笔记.txt
 - 00_inbox/yitang-AI club/live81/AI赋能商标设计体系重构 — Live81逐字稿 副本.md
 - 60_feedback/diagnosis/diag_20260702_live81-ai-trademark-design.md
+discoverable_by:
+  - 案例：Live81 AI 赋能喵善养商标设计
+  - 赋能喵善养商标设计
 related:
 - '[[framework-一堂五步法-泛产品设计]]'
 - '[[human-ai-collaboration-double-triangle]]'

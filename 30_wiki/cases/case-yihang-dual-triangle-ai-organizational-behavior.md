@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-ai-organizational-behavior
 title: 双三角案例：Truman 一夜深挖 AI 组织行为学——四个模型交叉验证
 type: case
@@ -22,6 +23,12 @@ aliases:
   - 角案例
 source_refs:
 - 00_inbox/人机协作双三角/_processed/AI组织行为学的口述_text.md
+discoverable_by:
+  - 双三角案例：Truman 一夜深挖 AI 组织行为学——四个
+  - 双三角案例
+  - 一夜深挖
+  - 组织行为学
+  - 四个模型交叉验证
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-yitang-y-model-engine-cycle]]'

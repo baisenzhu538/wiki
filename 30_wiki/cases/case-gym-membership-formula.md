@@ -1,4 +1,5 @@
 ---
+
 id: case-gym-membership-formula
 title: 线下连锁健身：把"到店频率"变成"到店习惯"才是续卡率抓手
 type: case
@@ -18,6 +19,10 @@ source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
+discoverable_by:
+  - 线下连锁健身：把到店频率变成到店习惯才是续卡率抓手
+  - 线下连锁健身
+  - 把到店频率变成到店习惯才是续卡率抓手
 quality_labels:
 - actionable
 - cited

@@ -1,15 +1,8 @@
 ---
+
 id: case-truman-ai-skill-self-packaging
 title: AI 自复盘自封装：Truman 的 design case 技能是如何让 AI 自己包装出来的
 type: case
-aliases:
-  - framework_lens: AI自复盘——让AI总结这次经验变下次基础
-  - 包装出来的
-  - 技能是如何让
-  - 是如何让
-  - 盘自封装
-  - 自复盘自封装
-  - 自己包装出来的
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
@@ -23,6 +16,11 @@ reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 review_date: '2026-06-16'
 trust_level: medium
+discoverable_by:
+  - AI 自复盘自封装：Truman 的 design case
+  - 自复盘自封装
+  - 技能是如何让
+  - 自己包装出来的
 related:
 - '[[case-strategy-practice-11-third-place]]'
 - '[[case-private-domain-ecommerce-formula]]'
@@ -50,6 +48,10 @@ tags:
 - scene:reference
 - skill-level:intermediate
 diagnostic_signals:
+- framework_lens: AI自复盘——让AI总结这次经验变下次基础
+  follow_up_question: 你最后一次项目结束时，有没有让AI扫描你全程的纠偏记录、自动生成一个skill？
+- framework_lens: 让AI跨工具扫描+合并同类项+封装
+  follow_up_question: 你用过哪些AI工具？它们的对话/反馈记录是明文存储的吗？如果是，可以直接让另一个AI去读。
 - framework_lens: 缺少可复用的审美底盘和硬性坑清单
   follow_up_question: 你是否有一个"做过就忘不掉"的skill文件，能在每次同类任务开始时自动加载审美标准和禁止项？
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
@@ -58,6 +60,7 @@ updated_at: '2026-06-29'
 aliases:
 - 建模能力培训
 ---
+
 # AI 自复盘自封装：Truman 怎么让 AI 把自己包装成一个技能
 
 > **Burn line**: 不是人写 skill——是 AI 扫描你所有的纠偏记录，自己把自己的经验封装成 skill。

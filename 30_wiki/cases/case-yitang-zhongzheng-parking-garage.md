@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-zhongzheng-parking-garage
 title: 案例：立体车库——从12车位样机到全自动无人化部署的产品内核迭代
 type: case
@@ -24,6 +25,10 @@ author: 老顽童
 reviewed_by: 待审
 confidence: 0.85
 trust_level: medium
+discoverable_by:
+  - 案例：立体车库——从12车位样机到全自动无人化部署的产品内核
+  - 立体车库
+  - 从12车位样机到全自动无人化部署的产品内核迭代
 tags:
 - product-kernel
 - iteration

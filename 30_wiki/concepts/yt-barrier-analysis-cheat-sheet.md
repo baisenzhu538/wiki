@@ -1,6 +1,9 @@
 ---
+
 id: yt-barrier-analysis-cheat-sheet
 title: "壁垒分析完整cheatsheet"
+discoverable_by:
+  - 壁垒分析完整cheatsheet
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-scale-economy-weapon-library]]'

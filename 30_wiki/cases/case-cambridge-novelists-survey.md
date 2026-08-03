@@ -1,8 +1,19 @@
 ---
+
 id: case-cambridge-novelists-survey
 title: 剑桥小说家对 AI 创作态度调查
 type: case
 status: enriched
+aliases:
+  - 创作态度调查
+  - 剑桥小说家对
+  - 剑桥小说家对AI创作态度调查
+  - 小说家对
+  - 态度调查
+discoverable_by:
+  - 剑桥小说家对 AI 创作态度调查
+  - 剑桥小说家对
+  - 创作态度调查
 quality_labels:
 - actionable
 - cited
@@ -18,12 +29,6 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-aliases:
-  - 创作态度调查
-  - 剑桥小说家对
-  - 剑桥小说家对AI创作态度调查
-  - 小说家对
-  - 态度调查
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -49,7 +54,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases: []
 ---
 # 剑桥小说家对 AI 创作态度调查
 

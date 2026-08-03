@@ -1,6 +1,9 @@
 ---
+
 id: yt-customer-acquisition-toolkit
 title: "获客工具合集"
+discoverable_by:
+  - 获客工具合集
 related:
 - '[[yt-growth-cycle-model]]'
 - '[[yt-unit-model-three-tools]]'

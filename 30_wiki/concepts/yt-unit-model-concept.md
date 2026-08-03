@@ -1,4 +1,5 @@
 ---
+
 id: yt-unit-model-concept
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
@@ -26,6 +27,10 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
 - 10_raw/sources/src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记.md
+discoverable_by:
+  - 单元模型：商业模式评估的核心工具
+  - 单元模型
+  - 商业模式评估的核心工具
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-market-size-estimation]]'

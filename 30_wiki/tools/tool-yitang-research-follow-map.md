@@ -16,6 +16,7 @@ difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 按图索骥
   - 按图索骥：根据定位寻找对标案例
   - 根据定位寻找对标案例
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 按图索骥：根据定位寻找对标案例
 

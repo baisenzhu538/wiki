@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-consumer-offline-channel-decision
 title: 案例：消费品线下渠道决策——先访谈再算账
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 谈再算账
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
+discoverable_by:
+  - 案例：消费品线下渠道决策——先访谈再算账
+  - 消费品线下渠道决策
+  - 先访谈再算账
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

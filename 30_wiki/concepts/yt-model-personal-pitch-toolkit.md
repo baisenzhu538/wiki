@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-personal-pitch-toolkit
 component_of:
 - src_unknown
@@ -20,6 +21,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 十指讲香模型框架
 related:
 - '[[yt-pitch-scenarization]]'
 - '[[yt-pitch-colloquialization]]'

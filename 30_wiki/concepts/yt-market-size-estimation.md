@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 id: yt-market-size-estimation
@@ -23,6 +24,8 @@ source_refs:
 - src_unknown
 - src_unknown
 status: reviewed
+discoverable_by:
+  - 市场规模估算方法
 related:
 - '[[yt-demand-analysis-hiking-map]]'
 - '[[yt-five-step-method]]'

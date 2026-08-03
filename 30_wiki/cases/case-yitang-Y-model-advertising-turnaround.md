@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-Y-model-advertising-turnaround
 title: 一堂抖音 AD 投放扭亏：Y模型科学投放实战
 type: case
@@ -28,6 +29,11 @@ source_refs:
 - 00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md
 - 00_inbox/底层逻辑之一-Y模型/科学理念-Y模型.png
 - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
+discoverable_by:
+  - 一堂抖音 AD 投放扭亏：Y模型科学投放实战
+  - 一堂抖音
+  - 投放扭亏
+  - Y模型科学投放实战
 related:
 - '[[case-yitang-copywriting-time-decomposition]]'
 - yt-decision-y-model

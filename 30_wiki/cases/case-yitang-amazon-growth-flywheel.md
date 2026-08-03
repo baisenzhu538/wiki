@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-amazon-growth-flywheel
 type: case
 title: 案例：亚马逊增长飞轮的五层逻辑
@@ -12,6 +13,9 @@ trust_level: high
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
+discoverable_by:
+  - 案例：亚马逊增长飞轮的五层逻辑
+  - 亚马逊增长飞轮的五层逻辑
 quality_labels:
 - actionable
 - cited

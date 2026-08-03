@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-AI三角-场景
 title: AI三角-场景 — 双三角案例
 type: case
@@ -23,6 +24,9 @@ aliases:
   - 场景
   - 角案例
 source_refs:
+discoverable_by:
+  - AI三角-场景 — 双三角案例
+  - 双三角案例
 tags:
 reviewed_by: pending
 ---

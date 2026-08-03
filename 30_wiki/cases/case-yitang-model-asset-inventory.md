@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-model-asset-inventory
 title: 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式
 type: case
@@ -26,6 +27,10 @@ definition_of_done:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十
+  - 一堂用
+  - 扫描内容资产，把三四百个模型归集到二三十个范式
 tags:
 - src_unknown
 - src_unknown

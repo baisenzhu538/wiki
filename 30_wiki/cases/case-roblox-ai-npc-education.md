@@ -1,4 +1,5 @@
 ---
+
 id: case-roblox-ai-npc-education
 title: Roblox AI NPC 与教育场景
 type: case
@@ -14,14 +15,17 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-aliases:
-  - RobloxAINPC与教育场景
-  - 与教育场景
-  - 育场景
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
+aliases:
+  - RobloxAINPC与教育场景
+  - 与教育场景
+  - 育场景
+discoverable_by:
+  - Roblox AI NPC 与教育场景
+  - 与教育场景
 related:
 - '[[case-panproduct-lanyi-shidonghui-npc]]'
 - '[[pending_unknown]]'
@@ -32,7 +36,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases: []
 ---
 # Roblox AI NPC 与教育场景
 

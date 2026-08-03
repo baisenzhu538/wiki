@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-research-objective
 title: 调研目标锁定：从"了解"到"决策"的认知跃迁
 type: concept
@@ -23,15 +24,19 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+source_refs:
+- 00_inbox/调研专题/一堂-系统式调研-口述.txt
+- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 aliases:
   - 从了解到决策的认知跃迁
   - 目标锁定
   - 解到决策的认知跃迁
   - 调研目标锁定
   - 调研目标锁定：从了解到决策的认知跃迁
-source_refs:
-- 00_inbox/调研专题/一堂-系统式调研-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
+discoverable_by:
+  - 调研目标锁定：从了解到决策的认知跃迁
+  - 调研目标锁定
+  - 从了解到决策的认知跃迁
 related:
 - '[[framework-yitang-iterative-recursive-digging]]'
 - '[[yitang-research-domain-digest]]'
@@ -50,7 +55,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases: []
 ---
 
 # 调研目标锁定：从"了解"到"决策"的认知跃迁

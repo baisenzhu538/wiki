@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-growth-sales-led-growth
@@ -21,6 +22,9 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 销售驱动增长：SLG模式
+  - 销售驱动增长
 related:
 - '[[tool-月白-A-B双轨反推模式选择]]'
 - '[[tool-城市合伙人模式复制能力]]'

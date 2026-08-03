@@ -1,6 +1,11 @@
 ---
+
 id: yt-barrier-identification-skill
 confidence: 0.85
+discoverable_by:
+  - 壁垒识别与构建技能：从真假壁垒到护城河建设
+  - 壁垒识别与构建技能
+  - 从真假壁垒到护城河建设
 quality_labels:
 - actionable
 - cited

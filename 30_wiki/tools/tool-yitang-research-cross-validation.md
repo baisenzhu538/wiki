@@ -16,6 +16,7 @@ difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 交叉验证
   - 交叉验证：多源印证的信息可信度提升
   - 多源印证的信息可信度提升
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 交叉验证：多源印证的信息可信度提升
 

@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-y-model-exploration-2
 component_of: null
 confidence: 0.8
@@ -19,6 +20,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - Y模型探索营2：五次质变与科学推演
+  - Y模型探索营2
+  - 五次质变与科学推演
 related:
 - '[[yt-personal-y-model-practice]]'
 - '[[yt-model-y-organization]]'
@@ -27,13 +32,6 @@ related:
 - '[[yt-model-scientific-questioning-map]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
-aliases:
-  - Y模型探索营2
-  - Y模型探索营2：五次质变与科学推演
-  - framework_lens: Y模型是预测引擎
-  - 五次质变与科学推演
-  - 型探索营
-  - 质变与科学推演
 source_refs:
 - 10_raw/sources/src_20260510_6d771b2a-个人修身-y模型探索营2.md
 status: enriched
@@ -52,6 +50,10 @@ pipeline:
 - src_unknown
 - src_unknown
 diagnostic_signals:
+- framework_lens: Y模型是预测引擎
+  follow_up_question: 这个Y模型是在事件发生前画的，还是发生后补的？
+- framework_lens: Y模型是认知线头
+  follow_up_question: 这个Y模型牵出了你哪些原本分散的认知？
 - framework_lens: 预测必须可证伪
   follow_up_question: 如果Y模型预测错了，你会在什么观察出现后承认它错了？
 updated_at: '2026-06-16'
@@ -61,6 +63,7 @@ aliases:
 - 个人修身
 - 模型探索营
 ---
+
 # Y模型探索营2：五次质变与科学推演
 
 > 来源：一堂Y模型探索营第二课口述（Truman）。[[yt-personal-y-model-practice]] | [[yt-model-y-organization]] | [[一堂]]

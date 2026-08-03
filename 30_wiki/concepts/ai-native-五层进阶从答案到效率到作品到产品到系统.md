@@ -1,4 +1,5 @@
 ---
+
 id: ai-native-五层进阶从答案到效率到作品到产品到系统
 created_at: '2026-05-23T17:29:50+00:00'
 domain:
@@ -9,6 +10,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - AI Native 五层进阶：从答案，到效率，到作品，到产品
+  - 五层进阶
+  - 从答案，到效率，到作品，到产品，到系统
 related:
 - '[[yt-research-osl-framework]]'
 - '[[yt-note-checklist-concept]]'

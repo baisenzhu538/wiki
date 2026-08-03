@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-live-commerce-scale-misjudgment
 title: 案例：直播电商规模误判——以电视购物做类比导致以偏概全
 type: case
@@ -24,6 +25,10 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 案例：直播电商规模误判——以电视购物做类比导致以偏概全
+  - 直播电商规模误判
+  - 以电视购物做类比导致以偏概全
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[case-yitang-county-led-wrong-analogy]]'

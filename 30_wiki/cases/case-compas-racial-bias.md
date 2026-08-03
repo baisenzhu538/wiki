@@ -1,4 +1,5 @@
 ---
+
 id: case-compas-racial-bias
 title: COMPAS 再犯算法种族偏见
 type: case
@@ -14,14 +15,17 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-aliases:
-  - COMPAS再犯算法种族偏见
-  - 再犯算法种族偏见
-  - 算法种族偏见
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
+aliases:
+  - COMPAS再犯算法种族偏见
+  - 再犯算法种族偏见
+  - 算法种族偏见
+discoverable_by:
+  - COMPAS 再犯算法种族偏见
+  - 再犯算法种族偏见
 related:
 - '[[ai-short-drama-ice-fire-dissection-compass]]'
 - '[[ai-short-drama-ice-fire-scripting-compass]]'
@@ -32,7 +36,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases: []
 ---
 # COMPAS 再犯算法种族偏见
 

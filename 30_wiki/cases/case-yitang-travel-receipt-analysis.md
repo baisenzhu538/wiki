@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-travel-receipt-analysis
 title: 案例：旅行公司收据分析——从单据反推真实数据
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 案例：旅行公司收据分析从单据反推真实数据
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - 案例：旅行公司收据分析——从单据反推真实数据
+  - 旅行公司收据分析
+  - 从单据反推真实数据
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-leo-website-redesign
 title: 案例：Leo 官网改版失败——跳过定方案，用设计师当人肉方案探索工具
 type: case
@@ -23,6 +24,10 @@ aliases:
   - 跳过定方案
 source_refs:
   - 00_inbox/管项目/项目管理-入门篇-口述.txt
+discoverable_by:
+  - 案例：Leo 官网改版失败——跳过定方案，用设计师当人肉方案
+  - 官网改版失败
+  - 跳过定方案，用设计师当人肉方案探索工具
 related:
   - "[[framework-yitang-project-plan-design]]"
   - "[[tool-yitang-project-plan-canvas]]"

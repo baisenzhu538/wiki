@@ -1,6 +1,10 @@
 ---
+
 id: case-toy-cabinet-barrier
 confidence: 0.85
+discoverable_by:
+  - 案例：线下玩具柜的壁垒困局与突围路径
+  - 线下玩具柜的壁垒困局与突围路径
 quality_labels:
 - actionable
 - cited

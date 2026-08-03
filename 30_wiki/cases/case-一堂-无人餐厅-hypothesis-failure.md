@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-无人餐厅-hypothesis-failure
 title: 案例：一堂无人餐厅项目因忽视关键假设而失败
 type: case
@@ -20,6 +21,9 @@ source_refs:
 - pending_archive:src_20260606_22c4a291-一堂-关键假设课-truman-笔记
 created_at: 2026-06-08
 updated_at: 2026-06-28
+discoverable_by:
+  - 案例：一堂无人餐厅项目因忽视关键假设而失败
+  - 一堂无人餐厅项目因忽视关键假设而失败
 related:
 - '[[framework-一堂-关键假设-三板斧]]'
 - '[[framework-一堂-关键假设]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-panproduct-lanyi-intern-flywheel
 type: case
 title: 兰毅：实习生成长飞轮的产品化设计
@@ -13,6 +14,9 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-28
+discoverable_by:
+  - 兰毅：实习生成长飞轮的产品化设计
+  - 实习生成长飞轮的产品化设计
 quality_labels:
 - actionable
 - cited

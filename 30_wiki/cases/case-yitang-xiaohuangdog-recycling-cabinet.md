@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-xiaohuangdog-recycling-cabinet
 title: 案例：小黄狗回收柜——忽略事实的典型代价
 type: case
@@ -24,6 +25,10 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 案例：小黄狗回收柜——忽略事实的典型代价
+  - 小黄狗回收柜
+  - 忽略事实的典型代价
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[yt-decision-y-model]]'

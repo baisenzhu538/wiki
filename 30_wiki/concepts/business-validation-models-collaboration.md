@@ -1,4 +1,5 @@
 ---
+
 id: business-validation-models-collaboration
 title: AI 时代的业务验证、商业模式与组织协作：主题综合索引卡
 type: concept
@@ -27,6 +28,10 @@ source_refs:
 - 10_raw/sources/src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a.md
 - 10_raw/sources/src_20260614_1a0a6efa-网络话密达数据公司介绍.md
 - 10_raw/sources/src_20260614_7e8857b8-theme-other-summary.md
+discoverable_by:
+  - AI 时代的业务验证、商业模式与组织协作：主题综合索引卡
+  - 时代的业务验证、商业模式与组织协作
+  - 主题综合索引卡
 tags:
 - audience:general
 - scene:reference

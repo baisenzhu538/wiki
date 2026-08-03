@@ -1,4 +1,5 @@
 ---
+
 id: yt-lean-daily-probability-decision
 title: 假设驱动日常决策三问
 type: concept
@@ -12,6 +13,8 @@ aliases:
   - 驱动日常决策三问
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
+discoverable_by:
+  - 假设驱动日常决策三问
 tags:
 - src_unknown
 - src_unknown

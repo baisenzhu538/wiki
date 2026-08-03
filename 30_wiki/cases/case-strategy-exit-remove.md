@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-exit-remove
 title: 案例：撤退型布局2——去除（IBM郭士纳复兴）
 type: case
@@ -23,6 +24,10 @@ aliases:
   - 郭士纳复兴
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_254_vlm_desc.md
+discoverable_by:
+  - 案例：撤退型布局2——去除IBM郭士纳复兴
+  - 撤退型布局2
+  - 去除IBM郭士纳复兴
 related:
 - '[[case-strategy-m-brand-profit-model]]'
 - '[[framework-strategy-business-design]]'

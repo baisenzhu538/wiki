@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-ipo-learning-strategy
 confidence: 0.85
 created_at: 2026-05-07
@@ -16,6 +17,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - IPO 科学学习全景策略
+  - 科学学习全景策略
 related:
 - '[[一堂]]'
 - '[[yt-personal-ipo-learning]]'

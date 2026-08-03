@@ -1,4 +1,5 @@
 ---
+
 id: case-ai-assisted-review
 title: 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己
 type: case
@@ -26,6 +27,12 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
+discoverable_by:
+  - 案例：一堂用 AI 做复盘——从 Before/After
+  - 一堂用
+  - 做复盘
+  - 对比到
+  - 自己复盘自己
 related:
 - '[[tool-从案例中学习]]'
 - '[[case-科学决策-深度案例06]]'

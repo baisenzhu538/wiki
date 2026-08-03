@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-一堂DOC-20260704025752
 title: 一堂DOC-20260704025752 — 双三角案例
 type: case
@@ -21,6 +22,9 @@ aliases:
   - 双三角案例
   - 角案例
 source_refs:
+discoverable_by:
+  - 一堂DOC-20260704025752 — 双三角案例
+  - 双三角案例
 tags:
 reviewed_by: pending
 ---

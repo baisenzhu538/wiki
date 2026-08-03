@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-canvas-thesis-review
 title: 双三角画布案例：AI 论文初审——五维评分+三色灯阻断
 type: case
@@ -22,6 +23,11 @@ aliases:
   - 论文初审五维评分
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-画布案例1_vlm.md
+discoverable_by:
+  - 双三角画布案例：AI 论文初审——五维评分+三色灯阻断
+  - 双三角画布案例
+  - 论文初审
+  - 五维评分+三色灯阻断
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-yihang-dual-triangle-canvas]]'

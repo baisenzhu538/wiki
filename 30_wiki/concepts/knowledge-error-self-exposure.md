@@ -1,10 +1,15 @@
 ---
+
 id: knowledge-error-self-exposure
 title: 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向
 type: concept
 status: draft
 domain:
 - src_unknown
+discoverable_by:
+  - 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向
+  - 知识库错误自暴露
+  - 检测半径全域覆盖，修复半径靶向
 related:
 - '[[kdo-flywheel]]'
 - '[[master-ai-info-literacy]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-b2b-enterprise-erp
 title: ToB 企业 ERP 需求分析案例
 type: case
@@ -6,6 +7,9 @@ domain:
 - demand-analysis
 - yitang
 status: reviewed
+discoverable_by:
+  - ToB 企业 ERP 需求分析案例
+  - 需求分析案例
 quality_labels:
 - actionable
 - cited

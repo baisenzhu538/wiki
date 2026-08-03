@@ -1,8 +1,11 @@
 ---
+
 id: 诊所o2o外卖平台业务深度调研报告
 title: "诊所O2O外卖平台业务深度调研报告"
 aliases:
   - 外卖平台业务深度调研报告
+  - 诊所O2O外卖平台业务深度调研报告
+discoverable_by:
   - 诊所O2O外卖平台业务深度调研报告
 related:
 - '[[yt-panproduct-demand-project-background]]'

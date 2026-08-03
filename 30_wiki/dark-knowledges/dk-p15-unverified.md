@@ -1,4 +1,5 @@
----status: reviewed
+---
+status: reviewed
 type: dk
 domain:
 - product
@@ -13,6 +14,9 @@ source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
+aliases:
+  - P15未验证
+  - P15审计
 related:
 - "[[ai-short-drama-script-planning-three-axes]]"
 - "[[dk-p10-oral-ban]]"

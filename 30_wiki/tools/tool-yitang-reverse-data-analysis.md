@@ -16,6 +16,7 @@ difficulty: advanced
 estimated_tokens: 3000
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 从公开数据反推商业真相
   - 逆向数据分析
   - 逆向数据分析：从公开数据反推商业真相
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 逆向数据分析：从公开数据反推商业真相
 

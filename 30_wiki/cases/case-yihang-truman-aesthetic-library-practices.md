@@ -16,18 +16,6 @@ source_refs:
 - 00_inbox/人机协作双三�?一堂双三角-人机协作模型-口述.txt
 - 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
 related:
-aliases:
-  - 案例：Truman审美库建设实践�?0+领域一年速建判断�?type:case
-  - 案例
-  - 审美库建设实践
-  - 领域一年速建判断�?type
-  - 库建设实践
-  - 领域一年速建判断
-aliases:
-  - 案例：Truman审美库建设实践�?0+领域一年速建判断�?type:case
-  - 案例
-  - 审美库建设实践
-  - 领域一年速建判断�?type
 - "[[method-yihang-aesthetic-fast-build]]"
 - "[[tool-aesthetic-library-builder]]"
 - "[[concept-yihang-dual-triangle-core]]"

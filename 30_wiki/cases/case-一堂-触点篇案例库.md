@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-触点篇案例库
 title: 一堂转化率黑客触点篇案例索引库（SABC 分级与触点挖掘）
 type: case
@@ -34,6 +35,10 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L2980-L3022
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3132-L3186
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3680-L3714
+discoverable_by:
+  - 一堂转化率黑客触点篇案例索引库SABC 分级与触点挖掘
+  - 一堂转化率黑客触点篇案例索引库SABC
+  - 分级与触点挖掘
 related:
 - framework-一堂-转化率黑客-总纲
 - framework-一堂-转化率提升六步法

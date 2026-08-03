@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-陈贤敏汉堡-hypothesis-validation
 title: 案例：陈贤敏中式汉堡先开实验店验证关键假设
 type: case
@@ -20,6 +21,9 @@ source_refs:
 - pending_archive:src_20260606_9dd317aa-一堂-关键假设课-truman-口述
 created_at: 2026-06-08
 updated_at: '2026-06-28'
+discoverable_by:
+  - 案例：陈贤敏中式汉堡先开实验店验证关键假设
+  - 陈贤敏中式汉堡先开实验店验证关键假设
 related:
 - '[[framework-一堂-关键假设-三板斧]]'
 - '[[framework-一堂-关键假设]]'

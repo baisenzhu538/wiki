@@ -1,4 +1,5 @@
 ---
+
 id: yt-skill-storyline-timeline
 title: 清单体故事线①：严格时间线——用时间轴重构事件因果链
 domain:
@@ -30,6 +31,11 @@ aliases:
 source_refs:
 - src_unknown
 source_context: 一堂清单体故事线系列（具体来源文件无法追溯，待后续补充）
+discoverable_by:
+  - 清单体故事线①：严格时间线——用时间轴重构事件因果链
+  - 清单体故事线①
+  - 严格时间线
+  - 用时间轴重构事件因果链
 related:
 - '[[yt-skill-storyline-contrast-analysis]]'
 - '[[yt-skill-storyline-key-elements]]'

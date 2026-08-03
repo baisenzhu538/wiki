@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-poker-deck-roi
 title: 扑克牌案例：同样的任务，两个同学评估结果截然相反
 type: case
@@ -18,6 +19,10 @@ aliases:
   - 的任务
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
+discoverable_by:
+  - 扑克牌案例：同样的任务，两个同学评估结果截然相反
+  - 扑克牌案例
+  - 同样的任务，两个同学评估结果截然相反
 related:
 - '[[case-truman-ai-partner]]'
 - '[[case-truman-ai-skill-engineering-guide]]'

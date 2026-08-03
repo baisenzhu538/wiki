@@ -1,4 +1,5 @@
 ---
+
 id: yt-skill-checklist-as-ai-protocol
 title: 清单体作为AI的I/O协议——用笔记替代prompt工程
 type: concept
@@ -18,6 +19,10 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
+discoverable_by:
+  - 清单体作为AI的I/O协议——用笔记替代prompt工程
+  - 清单体作为AI的I/O协议
+  - 用笔记替代prompt工程
 related:
 - '[[yt-prompt-engineering-andrew-ng]]'
 - '[[case-纪浩-focus-prompt-design]]'

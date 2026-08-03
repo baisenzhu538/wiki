@@ -1,4 +1,5 @@
 ---
+
 id: case-dental-clinic-formula
 title: ToC 连锁口腔诊所：成交率 30% 背后的"危机感知"公式
 type: case
@@ -20,6 +21,11 @@ source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
+discoverable_by:
+  - ToC 连锁口腔诊所：成交率 30% 背后的危机感知公式
+  - 连锁口腔诊所
+  - 成交率
+  - 背后的危机感知公式
 quality_labels:
 - actionable
 - cited

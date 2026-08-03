@@ -1,4 +1,5 @@
 ---
+
 domain: demand-analysis
 id: yt-demand-hierarchy-model
 title: 需求层次模型：真需求、伪需求与衍生需求
@@ -21,6 +22,10 @@ updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
+discoverable_by:
+  - 需求层次模型：真需求、伪需求与衍生需求
+  - 需求层次模型
+  - 真需求、伪需求与衍生需求
 related:
 - '[[yt-demand-fake-demand-detection]]'
 - '[[yt-demand-qualitative-analysis]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-course-start-time-evolution
 title: 案例：一堂开课时间——从"同行七八点"到"用户真正需要九点"
 type: case
@@ -23,6 +24,10 @@ aliases:
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
+discoverable_by:
+  - 案例：一堂开课时间——从同行七八点到用户真正需要九点
+  - 一堂开课时间
+  - 从同行七八点到用户真正需要九点
 related:
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[case-yitang-yitang-transcript-strategy]]'

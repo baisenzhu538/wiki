@@ -1,10 +1,15 @@
 ---
+
 id: rust-ownership-basics
 title: "Rust 所有权基础：三条核心规则"
 type: concept
 status: draft
 domain:
   - rust
+discoverable_by:
+  - Rust 所有权基础：三条核心规则
+  - 所有权基础
+  - 三条核心规则
 tags:
   - "#domain/rust"
   - "#method/thinking-tool"

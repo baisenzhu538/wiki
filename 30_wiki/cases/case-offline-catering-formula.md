@@ -1,4 +1,5 @@
 ---
+
 id: case-offline-catering-formula
 title: 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定
 type: case
@@ -19,6 +20,11 @@ source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
+discoverable_by:
+  - 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定
+  - 线下连锁餐饮
+  - 同店增长
+  - 的盲区在会员复购与场景绑定
 quality_labels:
 - actionable
 - cited

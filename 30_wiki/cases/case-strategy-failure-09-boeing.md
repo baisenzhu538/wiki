@@ -1,3 +1,5 @@
+---
+
 id: case-strategy-failure-09-boeing
 title: 案例：飞机制造公司——机制背离。激励偏财务致安全事故
 type: case
@@ -16,6 +18,10 @@ source_refs:
 - pending_archive: FAA 737 MAX 复飞安全评估报告待本地归档
 reviewed_by: pending
 updated_at: 2026-06-29
+discoverable_by:
+  - 案例：飞机制造公司——机制背离。激励偏财务致安全事故
+  - 飞机制造公司
+  - 机制背离。激励偏财务致安全事故
 related:
   - '[[case-strategy-failure-01-cosmetics]]'
   - '[[case-strategy-failure-02-supermarket]]'
@@ -30,7 +36,7 @@ related:
   - tool-纪浩-案例池构建法
   - case-科学决策-ROI案例03
   - tool-马易-业务问题AI化拆解-餐饮设计案例法
-
+---
 **表面问题**：737 MAX 安全事故。
 
 **战略根因**：机制背离——内部激励机制优先财务指标而非安全。MCAS 单传感器设计被批评为成本妥协。

@@ -1,4 +1,5 @@
 ---
+
 id: case-zhangyang-anchor-sop-three-locks
 title: 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%
 type: case
@@ -33,6 +34,12 @@ diagnostic_signals:
   follow_up_question: 执行者、督导、品控三个角色是否由不同人担任？还是同一人既执行又自查？
 - framework_lens: SOP 检查机制独立化
   follow_up_question: 当前检查者是否独立于执行者？有没有明确的检查清单和反馈闭环？
+discoverable_by:
+  - 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近
+  - 张扬主播
+  - 三层锁
+  - 把执行率从
+  - 拉到近
 related:
 - '[[tool-从案例中学习]]'
 - '[[case-科学决策-深度案例06]]'

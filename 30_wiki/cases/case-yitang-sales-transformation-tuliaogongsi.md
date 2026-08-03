@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-sales-transformation-tuliaogongsi
 title: 案例：涂料公司“意图”——从 10 万线索中筛出 220 个高价值客户的分层转型
 type: case
@@ -26,6 +27,11 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
 - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
 - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
+discoverable_by:
+  - 案例：涂料公司“意图”——从 10 万线索中筛出 220 个
+  - 涂料公司“意图”
+  - 万线索中筛出
+  - 个高价值客户的分层转型
 related:
 - '[[dk-yitang-sales-common-pitfalls]]'
 - '[[framework-demand-validation-pipeline]]'

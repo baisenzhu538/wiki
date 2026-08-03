@@ -1,4 +1,5 @@
 ---
+
 id: practice-card-decomposition
 title: 练习卡片拆解
 type: tool
@@ -6,6 +7,8 @@ domain:
 - ai-collaboration
 - skill-building
 status: reviewed
+discoverable_by:
+  - 练习卡片拆解
 quality_labels:
 - actionable
 - cited

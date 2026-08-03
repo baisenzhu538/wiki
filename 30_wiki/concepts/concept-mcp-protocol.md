@@ -1,4 +1,5 @@
 ---
+
 id: concept-mcp-protocol
 title: MCP协议：Agent调用外部工具的统一标准
 type: concept
@@ -20,6 +21,9 @@ aliases:
   - MCP协议：Agent调用外部工具的统一标准
   - 调用外部工具的统一标准
 source_refs: null
+discoverable_by:
+  - MCP协议：Agent调用外部工具的统一标准
+  - Agent调用外部工具的统一标准
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

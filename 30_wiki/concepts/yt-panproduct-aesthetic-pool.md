@@ -21,6 +21,9 @@ query_triggers:
 - src_unknown
 - src_unknown·审美卡片：最佳实践池子
 - src_unknown
+aliases:
+  - 审美池
+  - 审美库
 related:
 - '[[yt-panproduct-aesthetic-collection]]'
 - '[[dk-ai-design-pitfalls]]'
@@ -61,7 +64,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 审美卡片
 - 最佳实践池子
 - 泛产品设计

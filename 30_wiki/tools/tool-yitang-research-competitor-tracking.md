@@ -16,6 +16,7 @@ difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 持续监控竞争对手的动态与策略
   - 竞对跟踪
   - 竞对跟踪：持续监控竞争对手的动态与策略
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 竞对跟踪：持续监控竞争对手的动态与策略
 

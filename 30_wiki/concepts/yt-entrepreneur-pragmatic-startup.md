@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 id: yt-entrepreneur-pragmatic-startup
@@ -25,6 +26,8 @@ aliases:
   - 务实创业
 source_refs:
 - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+discoverable_by:
+  - 务实创业
 tags:
 - audience:general
 - scene:reference

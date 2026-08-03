@@ -1,4 +1,5 @@
 ---
+
 domain: demand-analysis
 id: yt-demand-user-segmentation
 title: 用户分层与需求差异：从"所有人"到"第一批100个"
@@ -21,6 +22,10 @@ updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
+discoverable_by:
+  - 用户分层与需求差异：从所有人到第一批100个
+  - 用户分层与需求差异
+  - 从所有人到第一批100个
 related:
 - '[[yt-demand-hierarchy-model]]'
 - '[[yt-demand-qualitative-analysis]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-shishi-qiushi-pitfall-9-methodology-superstition
 title: 实事求是十坑·金句迷信：方法论堆叠比不懂更危险
 type: case
@@ -23,6 +24,11 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 实事求是十坑·金句迷信：方法论堆叠比不懂更危险
+  - 实事求是十坑
+  - 金句迷信
+  - 方法论堆叠比不懂更危险
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[dk-yitang-methodology-stack-fallacy]]'

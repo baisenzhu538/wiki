@@ -1,4 +1,5 @@
 ---
+
 id: case-ai-agent-milestone-design
 title: AI Agent 里程碑设计：42 轮口授反馈实战
 type: case
@@ -21,6 +22,10 @@ aliases:
   - 里程碑设计
 source_refs:
 - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
+discoverable_by:
+  - AI Agent 里程碑设计：42 轮口授反馈实战
+  - 里程碑设计
+  - 轮口授反馈实战
 related:
 - '[[dk-modeling-unit-pairs-milestone]]'
 - '[[tool-iterative-recursive-deep-dig]]'

@@ -16,6 +16,7 @@ difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 定量建模
   - 定量建模：用数字说话的分析框架
   - 用数字说话的分析框架
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 定量建模：用数字说话的分析框架
 

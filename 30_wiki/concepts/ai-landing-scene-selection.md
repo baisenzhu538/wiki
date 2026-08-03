@@ -1,4 +1,5 @@
 ---
+
 id: ai-landing-scene-selection
 title: AI落地场景识别：从找老的干小的开始
 type: concept
@@ -17,6 +18,10 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260606_ef4877d0-所以90的核心问题.md
 component_of: null
+discoverable_by:
+  - AI落地场景识别：从找老的干小的开始
+  - AI落地场景识别
+  - 从找老的干小的开始
 related:
 - '[[find-old-do-small]]'
 - '[[ai-learning-closed-loop]]'

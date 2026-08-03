@@ -1,4 +1,5 @@
 ---
+
 id: comfort-zone-expansion
 title: 舒适区扩展
 type: concept
@@ -6,6 +7,8 @@ domain:
 - ai-collaboration
 - skill-building
 status: reviewed
+discoverable_by:
+  - 舒适区扩展
 quality_labels:
 - cited
 - principle

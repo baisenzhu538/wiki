@@ -1,4 +1,5 @@
 ---
+
 id: productization-judgment
 title: 产品化判断四维度
 type: tool
@@ -12,6 +13,8 @@ aliases:
   - 化判断四维度
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
+discoverable_by:
+  - 产品化判断四维度
 related:
 - '[[ai-tool-learning-curve]]'
 - '[[completion-criteria-design]]'

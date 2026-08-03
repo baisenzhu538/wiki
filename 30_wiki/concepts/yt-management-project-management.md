@@ -1,4 +1,5 @@
 ---
+
 id: yt-management-project-management
 title: 科学项目管理：一堂管项目四步闭环
 type: concept
@@ -31,6 +32,10 @@ source_refs:
 - 00_inbox/管项目/项目管理-拆计划-笔记.txt
 - 00_inbox/管项目/项目管理-管过程-笔记.txt
 - 00_inbox/管项目/项目管理-做复盘-笔记.txt
+discoverable_by:
+  - 科学项目管理：一堂管项目四步闭环
+  - 科学项目管理
+  - 一堂管项目四步闭环
 related:
 - '[[framework-yitang-project-abcd-classification]]'
 - '[[framework-yitang-project-plan-design]]'

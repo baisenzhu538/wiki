@@ -1,8 +1,13 @@
 ---
+
 id: case-strategy-model-selection-quiz
 title: 10情境战略模型选择练习：什么情境配什么工具
 type: case
 status: reviewed
+discoverable_by:
+  - 10情境战略模型选择练习：什么情境配什么工具
+  - 10情境战略模型选择练习
+  - 什么情境配什么工具
 quality_labels:
 - actionable
 - cited

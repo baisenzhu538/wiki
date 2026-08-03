@@ -1,4 +1,5 @@
 ---
+
 id: concept-利润-真正利润定义
 title: 真正利润：履行义务后可自由支配的钱
 type: concept
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 真正利润：履行义务后可自由支配的钱
+  - 真正利润
+  - 履行义务后可自由支配的钱
 quality_labels:
 - insight
 - principle

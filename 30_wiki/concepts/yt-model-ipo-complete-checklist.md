@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 id: yt-model-ipo-complete-checklist
@@ -24,6 +25,9 @@ aliases:
   - 科学学习完整清单
 source_refs:
 - pending_archive:src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
+discoverable_by:
+  - IPO 科学学习完整清单 Complete List
+  - 科学学习完整清单
 tags:
 - audience:general
 - scene:reference

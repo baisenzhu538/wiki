@@ -1,6 +1,9 @@
 ---
+
 id: yt-product-kernel-cultivation
 title: "产品内核修炼段位图"
+discoverable_by:
+  - 产品内核修炼段位图
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-product-ten-metrics]]'

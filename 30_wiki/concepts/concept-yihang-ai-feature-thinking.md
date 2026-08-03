@@ -1,4 +1,6 @@
 ---
+
+
 id: concept-yihang-ai-feature-thinking
 title: AI 基本功的 Feature 思维：把工具拆成最小可操作技术特?
 type: concept
@@ -18,6 +20,14 @@ source_refs:
 - 00_inbox/人机协作双三?一堂双三角-人机协作模型-口述.txt
 - 00_inbox/AI-study/一?AI学习-AI工具应用AMA口述.txt
 - 10_raw/sources/src_20260609_03491271-ocr-一?ai学习-truman自用的ai-featureset.md
+aliases:
+  - Feature思维
+  - AI基本功
+  - 技术特性原子化
+discoverable_by:
+  - AI 基本功的 Feature 思维：把工具拆成最小可操作技
+  - 基本功的
+  - 把工具拆成最小可操作技术特?
 related:
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[tool-Truman-Feature特性层训练法]]"

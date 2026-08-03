@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 id: yt-entrepreneur-spin-selling
@@ -26,6 +27,10 @@ aliases:
   - 顾问式销售的奠基之作
 source_refs:
 - pending_archive:src_20260510_349a66fd-读书会-spin销售法
+discoverable_by:
+  - SPIN销售法：顾问式销售的奠基之作
+  - SPIN销售法
+  - 顾问式销售的奠基之作
 tags:
 - audience:general
 - scene:reference

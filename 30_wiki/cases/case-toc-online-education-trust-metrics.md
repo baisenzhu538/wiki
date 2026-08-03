@@ -1,4 +1,5 @@
 ---
+
 id: case-toc-online-education-trust-metrics
 title: ToC在线教育：把「信任度」拆成4个可定量行为指标，对话率10%→15%
 type: case
@@ -19,6 +20,10 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
   L1412-L1518
+discoverable_by:
+  - ToC在线教育：把信任度拆成4个可定量行为指标，对话率10%
+  - ToC在线教育
+  - 把信任度拆成4个可定量行为指标，对话率10%→15%
 quality_labels:
 - actionable
 - cited

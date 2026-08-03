@@ -1,4 +1,5 @@
 ---
+
 id: concept-cognitive-offloading-in-ai-era
 title: AI 时代的认知卸载：什么交给 AI，什么必须保留
 type: concept
@@ -34,6 +35,11 @@ query_triggers:
 - 认知卸载
 - AI 认知外包
 - 书籍拆解
+discoverable_by:
+  - AI 时代的认知卸载：什么交给 AI，什么必须保留
+  - 时代的认知卸载
+  - 什么交给
+  - AI，什么必须保留
 tags:
 - '#scene/ai-collaboration'
 - '#scene/learning'

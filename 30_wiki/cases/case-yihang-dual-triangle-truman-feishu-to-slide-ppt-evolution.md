@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution
 title: 一行双三角案例：Truman「飞书 To slide」PPT 迭代进化
 type: case
@@ -25,6 +26,10 @@ aliases:
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
 - 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
+discoverable_by:
+  - 一行双三角案例：Truman飞书 To slidePPT 迭
+  - 一行双三角案例
+  - 迭代进化
 related:
 - '[[yt-decision-y-model]]'
 - '[[concept-yihang-dual-triangle-core]]'

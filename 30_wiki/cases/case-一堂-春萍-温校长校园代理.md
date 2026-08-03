@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-春萍-温校长校园代理
 title: 温校长校园代理：把过山车业务焊成 SOP，兼职学生军跑出 800 万年营收
 type: case
@@ -22,6 +23,12 @@ aliases:
   - 长校园代理
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L386-650（温校长案例完整口述）
+discoverable_by:
+  - 温校长校园代理：把过山车业务焊成 SOP，兼职学生军跑出 8
+  - 温校长校园代理
+  - 把过山车业务焊成
+  - SOP，兼职学生军跑出
+  - 万年营收
 related:
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[framework-一堂-苦练基本功-总纲]]'

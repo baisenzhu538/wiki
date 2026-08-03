@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-yitang-self-growth-channel
 type: case
 title: 案例：一堂自身如何三年增长十倍
@@ -11,6 +12,9 @@ trust_level: medium-high
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
+discoverable_by:
+  - 案例：一堂自身如何三年增长十倍
+  - 一堂自身如何三年增长十倍
 quality_labels:
 - actionable
 - cited

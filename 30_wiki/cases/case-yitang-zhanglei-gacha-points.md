@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-zhanglei-gacha-points
 title: 张磊点位扭蛋机：5个点位日销100单，沿L1到L6六阶段把业务从"模糊模型"推演成动态公式
 type: case
@@ -27,6 +28,8 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/案例2_vlm.md
 confidence: 0.85
 trust_level: medium
+discoverable_by:
+  - 张磊点位扭蛋机
 quality_labels:
 - cited
 - actionable

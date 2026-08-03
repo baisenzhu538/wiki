@@ -1,4 +1,5 @@
 ---
+
 id: case-course-milestone-model
 title: 案例：一堂课程里程碑模型——方法论级建模的六步生产流程
 type: case
@@ -29,6 +30,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
+discoverable_by:
+  - 案例：一堂课程里程碑模型——方法论级建模的六步生产流程
+  - 一堂课程里程碑模型
+  - 方法论级建模的六步生产流程
 related:
 - '[[tool-从案例中学习]]'
 - '[[case-科学决策-深度案例06]]'

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-product-kernel-add-subtract
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 产品内核的加减法：什么该加，什么该减
+  - 产品内核的加减法
+  - 什么该加，什么该减
 related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'

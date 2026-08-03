@@ -1,6 +1,10 @@
 ---
+
 id: ai时代判断力口述-3
 title: "ai时代判断力口述 3"
+discoverable_by:
+  - ai时代判断力口述 3
+  - ai时代判断力口述
 related:
 - '[[yt-personal-ipo-learning]]'
 - '[[master-knowledge-compound]]'

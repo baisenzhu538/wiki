@@ -1,4 +1,5 @@
 ---
+
 id: case-decision-ai-assisted-vs-human
 title: AI 辅助决策 vs 人工决策的边界案例
 type: case
@@ -6,6 +7,10 @@ domain:
 - decision-science
 - ai-collaboration
 status: reviewed
+discoverable_by:
+  - AI 辅助决策 vs 人工决策的边界案例
+  - 辅助决策
+  - 人工决策的边界案例
 quality_labels:
 - actionable
 - cited

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-xujian-invoice-saas-channel
 type: case
 title: 案例：徐建发票 SaaS 如何通过渠道探索找到支付推手
@@ -12,6 +13,10 @@ confidence: 0.8
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 案例：徐建发票 SaaS 如何通过渠道探索找到支付推手
+  - 徐建发票
+  - 如何通过渠道探索找到支付推手
 quality_labels:
 - actionable
 - cited

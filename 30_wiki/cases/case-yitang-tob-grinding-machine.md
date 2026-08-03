@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-tob-grinding-machine
 title: 案例：精密磨床自制项目失败复盘
 type: case
@@ -15,6 +16,9 @@ aliases:
   - 精密磨床自制项目失败复盘
 source_refs:
 - src_unknown
+discoverable_by:
+  - 案例：精密磨床自制项目失败复盘
+  - 精密磨床自制项目失败复盘
 tags:
 - src_unknown
 - src_unknown

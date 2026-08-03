@@ -1,4 +1,5 @@
 ---
+
 title: 一堂案例必修课
 type: concept
 status: reviewed
@@ -9,6 +10,8 @@ source_refs:
 - 10_raw/sources/src_20260506_9b4788a6-声音和画面正常吗.md
 - 10_raw/sources/src_20260507_857c7ed4-声音和画面正常吗.md
 id: yt-case-mandatory-cases
+discoverable_by:
+  - 一堂案例必修课
 quality_labels:
 - principle
 - quality

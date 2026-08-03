@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-farm-machinery-matching
 title: 农机撮合平台：从「续费率10%」到「新客一月5次撮合率」的因果验证
 type: case
@@ -17,6 +18,10 @@ aliases:
   - 次撮合率的因果验证
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3246-L3278
+discoverable_by:
+  - 农机撮合平台：从续费率10%到新客一月5次撮合率的因果验证
+  - 农机撮合平台
+  - 从续费率10%到新客一月5次撮合率的因果验证
 quality_labels:
 - actionable
 - cited

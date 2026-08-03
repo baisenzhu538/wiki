@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-mao-scientific-culture
 title: 案例：毛泽东"主义清单"——红蓝卡的历史原型
 type: case
@@ -23,6 +24,10 @@ aliases:
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 60_feedback/extractions/extraction-kexue-linian-y-model.md
+discoverable_by:
+  - 案例：毛泽东主义清单——红蓝卡的历史原型
+  - 毛泽东主义清单
+  - 红蓝卡的历史原型
 related:
 - '[[yt-decision-y-model]]'
 - '[[tool-yitang-red-blue-cards]]'

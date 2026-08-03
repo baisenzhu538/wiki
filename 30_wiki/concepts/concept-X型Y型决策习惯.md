@@ -1,4 +1,5 @@
 ---
+
 id: concept-X型Y型决策习惯
 title: X型 vs Y型：两种决策习惯对比
 type: concept
@@ -17,6 +18,9 @@ aliases:
   - 决策习惯对比
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-X型Y型决策习惯对比_vlm_desc.md
+discoverable_by:
+  - X型 vs Y型：两种决策习惯对比
+  - 两种决策习惯对比
 related:
 - '[[concept-AI时代双三角竞争力]]'
 - '[[concept-ai-native-organization-five-steps]]'

@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-research-facts-first
 title: 事实优先：区分事实与观点的认知纪律
 type: concept
@@ -23,14 +24,18 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+source_refs:
+- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 aliases:
   - 事实与观点的认知纪律
   - 事实优先
   - 事实优先：区分事实与观点的认知纪律
   - 区分事实与观点的认知纪律
-source_refs:
-- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
-- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
+discoverable_by:
+  - 事实优先：区分事实与观点的认知纪律
+  - 事实优先
+  - 区分事实与观点的认知纪律
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'
@@ -42,7 +47,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases: []
 ---
 
 # 事实优先：区分事实与观点的认知纪律

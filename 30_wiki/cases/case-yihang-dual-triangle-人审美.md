@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-人审美
 title: 人审美 — 双三角案例
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 美双三角案例
   - 角案例
 source_refs:
+discoverable_by:
+  - 人审美 — 双三角案例
+  - 人审美
+  - 双三角案例
 tags:
 reviewed_by: pending
 ---

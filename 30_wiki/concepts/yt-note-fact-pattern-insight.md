@@ -1,4 +1,5 @@
 ---
+
 id: yt-note-fact-pattern-insight
 title: 事实→规律→见解：深度思考笔记的三段论结构
 type: concept
@@ -16,6 +17,10 @@ aliases:
   - 深度思考笔记的三段论结构
 source_refs:
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
+discoverable_by:
+  - 事实→规律→见解：深度思考笔记的三段论结构
+  - 事实→规律→见解
+  - 深度思考笔记的三段论结构
 related:
 - '[[concept-问题驱动式深度思考笔记]]'
 - '[[pending_unknown]]'

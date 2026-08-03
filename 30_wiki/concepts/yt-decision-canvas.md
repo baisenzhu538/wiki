@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-canvas
 component_of:
 - src_unknown
@@ -21,6 +22,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - Y模型决策画布一页纸工具
 related:
 - '[[yt-decision-y-model]]'
 - '[[yt-decision-width-method]]'

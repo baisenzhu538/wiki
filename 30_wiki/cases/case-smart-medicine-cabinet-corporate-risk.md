@@ -1,4 +1,5 @@
 ---
+
 id: case-smart-medicine-cabinet-corporate-risk
 title: 智能药柜推广项目：公司/股权/资金风险诊断
 type: case
@@ -23,6 +24,10 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
+discoverable_by:
+  - 智能药柜推广项目：公司/股权/资金风险诊断
+  - 智能药柜推广项目
+  - 公司/股权/资金风险诊断
 related:
 - '[[case-smart-medicine-cabinet-business-model-validation]]'
 - '[[case-smart-medicine-cabinet-failure-patterns-library]]'

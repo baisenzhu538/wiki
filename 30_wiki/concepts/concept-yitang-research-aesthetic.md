@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-research-aesthetic
 title: 调研审美：判断"什么是好的调研"的能力
 type: concept
@@ -21,6 +22,10 @@ aliases:
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - 调研审美：判断什么是好的调研的能力
+  - 调研审美
+  - 判断什么是好的调研的能力
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-婚礼操盘-用户和场景
 title: 案例：婚礼操盘——用户和场景分析
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 用户和场景分析
 source_refs:
 - src_unknown
+discoverable_by:
+  - 案例：婚礼操盘——用户和场景分析
+  - 婚礼操盘
+  - 用户和场景分析
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

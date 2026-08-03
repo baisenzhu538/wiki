@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-shishi-qiushi-pitfall-7-underestimate-patterns
 title: 实事求是十坑·轻视规律：一堂 199 元单课模式试错
 type: case
@@ -23,6 +24,11 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 实事求是十坑·轻视规律：一堂 199 元单课模式试错
+  - 实事求是十坑
+  - 轻视规律
+  - 元单课模式试错
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 tags:

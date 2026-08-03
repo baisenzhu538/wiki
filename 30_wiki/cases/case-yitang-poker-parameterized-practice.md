@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-poker-parameterized-practice
 type: case
 title: 案例：德州扑克玩家乔牌如何通过参数化训练成为大使
@@ -11,6 +12,9 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
+discoverable_by:
+  - 案例：德州扑克玩家乔牌如何通过参数化训练成为大使
+  - 德州扑克玩家乔牌如何通过参数化训练成为大使
 quality_labels:
 - actionable
 - cited

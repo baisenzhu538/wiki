@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-business-prediction
 title: 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
 type: concept
@@ -27,6 +28,11 @@ aliases:
 source_refs:
 - 00_inbox/一堂-商业预判课-Truman-口述.txt
 - 00_inbox/一堂-商业预判课-truman-笔记.txt
+discoverable_by:
+  - 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
+  - 商业预判
+  - 15字诀与光谱模型
+  - 从拍脑袋到科学决策
 quality_labels:
 - principle
 - framework

@@ -1,4 +1,5 @@
 ---
+
 id: yt-note-problem-solving-capability
 title: 笔记能力=解决问题能力：从备忘工具到问题解决系统
 type: concept
@@ -17,6 +18,10 @@ aliases:
   - 解决问题能力
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
+discoverable_by:
+  - 笔记能力=解决问题能力：从备忘工具到问题解决系统
+  - 笔记能力=解决问题能力
+  - 从备忘工具到问题解决系统
 related:
 - '[[tool-月白-设计能力蒸馏封装法]]'
 - '[[tool-月白-泛产品设计能力迁移法]]'

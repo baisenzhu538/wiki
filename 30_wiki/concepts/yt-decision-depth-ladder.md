@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-depth-ladder
 title: 深度阶梯工具：L1-L4停车场模型 + 三点预测法
 type: tool
@@ -36,6 +37,11 @@ prerequisites:
 - src_unknown
 component_of:
 - src_unknown
+discoverable_by:
+  - 深度阶梯工具：L1-L4停车场模型 + 三点预测法
+  - 深度阶梯工具
+  - L4停车场模型
+  - 三点预测法
 related:
 - '[[tool-月白-设计师AI工具习惯切换]]'
 - '[[tool-泛产品设计-需求工具箱指南]]'

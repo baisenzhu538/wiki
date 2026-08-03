@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-xiaobear
 title: 小熊电器：跳出行业范式——定位年轻单身男性
 type: case
@@ -23,6 +24,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 reviewed_by: pending
 updated_at: '2026-06-29'
+discoverable_by:
+  - 小熊电器：跳出行业范式——定位年轻单身男性
+  - 小熊电器
+  - 跳出行业范式
+  - 定位年轻单身男性
 related:
 - '[[strategy-domain-digest]]'
 - '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'

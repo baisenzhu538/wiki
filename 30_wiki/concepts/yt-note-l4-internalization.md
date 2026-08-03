@@ -1,4 +1,5 @@
 ---
+
 id: yt-note-l4-internalization
 title: 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃
 type: concept
@@ -16,6 +17,10 @@ aliases:
   - 清单体L4内化阶段：从让别人看懂到让自己想清楚的跳跃
 source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
+discoverable_by:
+  - 清单体L4内化阶段：从让别人看懂到让自己想清楚的跳跃
+  - 清单体L4内化阶段
+  - 从让别人看懂到让自己想清楚的跳跃
 related:
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-five-levels-training]]'

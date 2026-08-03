@@ -1,4 +1,5 @@
 ---
+
 id: yt-tob-sales-unit-model
 title: To B 单销售模型：时间闭环 + 空间闭环
 type: concept
@@ -16,6 +17,11 @@ aliases:
   - 空间闭环
 source_refs:
 - pending_archive:source material not yet ingested
+discoverable_by:
+  - To B 单销售模型：时间闭环 + 空间闭环
+  - 单销售模型
+  - 时间闭环
+  - 空间闭环
 tags:
 - src_unknown
 - src_unknown

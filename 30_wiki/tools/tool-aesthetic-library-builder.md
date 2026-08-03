@@ -1,4 +1,5 @@
 ---
+
 id: tool-aesthetic-library-builder
 title: 审美库采集工具：批量抓取→打分→筛选→生成 DataPack
 type: tool
@@ -17,6 +18,10 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三?一堂双三角-人机协作模型-口述.txt
 - kdo-tools/aesthetic-library-builder.py
+aliases:
+  - 审美库采集工具
+  - DataPack生成
+  - 批量抓取
 related:
 - "[[method-yihang-aesthetic-fast-build]]"
 - "[[case-yihang-truman-aesthetic-library-practices]]"

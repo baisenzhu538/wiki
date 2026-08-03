@@ -1,4 +1,5 @@
 ---
+
 id: smart-medicine-cabinet-o2o-cost-structure
 title: 医药 O2O 成本与毛利结构
 type: concept
@@ -20,6 +21,9 @@ source_refs:
 - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
 - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
 - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
+discoverable_by:
+  - 医药 O2O 成本与毛利结构
+  - 成本与毛利结构
 tags:
 - src_unknown
 - audience:general

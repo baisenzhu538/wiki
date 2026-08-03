@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-shipinhao-ads-l1-l6
 title: 一堂视频号投放 L1→L6 全案：好友率 40%→85%、脚本寿命 benchmark 与四个矩阵号的动态平衡
 type: case
@@ -21,6 +22,12 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1626-L1630
 - 00_inbox/Handle the business/Business formula/_vlm_output/案例1_vlm.md
 - 00_inbox/Handle the business/Business formula/案例1.png
+discoverable_by:
+  - 一堂视频号投放 L1→L6 全案：好友率 40%→85%、脚
+  - 一堂视频号投放
+  - 好友率
+  - 40%→85%、脚本寿命
+  - 与四个矩阵号的动态平衡
 quality_labels:
 - cited
 - actionable

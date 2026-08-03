@@ -1,4 +1,5 @@
 ---
+
 id: case-ji-hao-ai-workspace-chaos
 title: 案例：AI工作空间混乱导致'行为退化'而重来
 type: case
@@ -20,6 +21,9 @@ source_refs:
 - 10_raw/sources/src_20260617_15ca3bb2-ai俱乐部-人和ai协作-纪浩-参考案例-结构化.md
 created_at: 2026-06-09
 updated_at: '2026-06-29'
+discoverable_by:
+  - 案例：AI工作空间混乱导致'行为退化'而重来
+  - AI工作空间混乱导致'行为退化'而重来
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'

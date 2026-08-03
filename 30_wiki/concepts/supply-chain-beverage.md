@@ -1,4 +1,5 @@
 ---
+
 id: supply-chain-beverage
 title: 餐饮渠道饮料产品成本-口感-供应链综合洞察：主题综合索引卡
 type: concept
@@ -24,6 +25,11 @@ aliases:
   - 餐饮渠道饮料产品成本
   - 餐饮渠道饮料产品成本口感供应链综合洞察：主题综合索引卡
 source_refs:
+discoverable_by:
+  - 餐饮渠道饮料产品成本-口感-供应链综合洞察：主题综合索引卡
+  - 餐饮渠道饮料产品成本
+  - 供应链综合洞察
+  - 主题综合索引卡
 tags:
 created_at: '2026-06-14'
 quality_labels:

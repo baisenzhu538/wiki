@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-consensus-iceberg
 component_of:
 - src_unknown
@@ -65,6 +66,12 @@ diagnostic_signals:
   follow_up_question: 会议中产出了几条'会前没人提过'的新事实、数据或反例？如果为0，说明挖冰没有挖出新信息
 - framework_lens: 表面共识 vs 真实分歧——文字统一掩盖了L2判断层或L3逻辑层的真实差异
   follow_up_question: 把'一致认为'改成'各自理解'，让每个人用自己的话重写决策目标、成功标准和第一动作，差异超过30%则重开会
+discoverable_by:
+  - 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问
+  - 共识冰山工具
+  - 决策爬山
+  - 说服挖冰四层法
+  - 教练式提问
 related:
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-decision-width-method]]'

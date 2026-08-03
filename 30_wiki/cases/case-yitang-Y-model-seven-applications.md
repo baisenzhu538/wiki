@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-Y-model-seven-applications
 title: Y模型七人跨域应用案例集
 type: case
@@ -25,6 +26,8 @@ source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt
 - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
+discoverable_by:
+  - Y模型七人跨域应用案例集
 related:
 - yt-decision-y-model
 - tool-yitang-Y-model-application

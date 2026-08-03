@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-vicky-short-video
 title: Vicky 短视频：从"盯结果+抄同行+掷骰子"到测试群+飞书假设池，团队心力逆转、业务跑出来
 type: case
@@ -21,6 +22,8 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L816-L836
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L838-L868
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L870-L880
+discoverable_by:
+  - 短视频
 quality_labels:
 - actionable
 - cited

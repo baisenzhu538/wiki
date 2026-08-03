@@ -1,4 +1,5 @@
 ---
+
 domain:
 - master
 id: master-knowledge-compound
@@ -22,6 +23,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
+discoverable_by:
+  - 知识复利：IPO+萃取+原子化复用
+  - 知识复利
+  - IPO+萃取+原子化复用
 related:
 - '[[master-ai-info-literacy]]'
 - '[[master-cognitive-bias-checklist]]'

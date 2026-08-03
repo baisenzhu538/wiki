@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-barrier-technology-moat
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 技术护城河：专利与研发
+  - 技术护城河
+  - 专利与研发
 related:
 - '[[yt-barrier-brand-equity]]'
 - '[[yt-barrier-culture-moat]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-perfectionism-traps
 title: 完美心态踩坑案例集
 type: case
@@ -27,6 +28,8 @@ source_refs:
 - 00_inbox/精益创业/truman-低成本验证-完美心态踩坑-01_vlm_desc.md
 - 00_inbox/精益创业/truman-精益创业-心态关-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-心态关-01_vlm_desc.md
+discoverable_by:
+  - 完美心态踩坑案例集
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'

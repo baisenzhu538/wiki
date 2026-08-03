@@ -17,6 +17,10 @@ updated_at: '2026-06-20'
 review_date: '2026-06-28'
 reviewed_by: 欧阳锋
 trust_level: medium
+source_refs: null
+source_person: 王欢
+source_context: 王欢 AI 实战分享（2026-06-18 授课）"
+query_triggers: []
 aliases:
   - 复制销冠不是复制话术
   - 是还原决策链
@@ -24,11 +28,6 @@ aliases:
   - 暗知识：复制销冠不是复制话术是还原决策链
   - 王欢
   - 销冠不是复制话术
-source_refs: null
-source_person: 王欢
-source_context: 王欢 AI 实战分享（2026-06-18 授课）"
-query_triggers: []
-aliases: []
 tags:
 - audience:executor
 - scene:reference

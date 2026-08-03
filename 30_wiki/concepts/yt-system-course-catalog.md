@@ -1,4 +1,5 @@
 ---
+
 id: yt-system-course-catalog
 title: 一堂全课程目录索引
 type: concept
@@ -37,6 +38,8 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - 一堂全课程目录索引
 related:
 - '[[一堂]]'
 - '[[yt-system-course-map-lecture]]'

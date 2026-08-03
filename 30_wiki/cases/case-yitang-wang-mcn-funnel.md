@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-wang-mcn-funnel
 title: 王同学 MCN：签素人六环漏斗 + 团队假设表，从一个人盯签约到四期行动营量率双升
 type: case
@@ -23,6 +24,10 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1350-L1362
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1364-L1370
 - 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L42-L42
+discoverable_by:
+  - 王同学
+  - 签素人六环漏斗
+  - 团队假设表，从一个人盯签约到四期行动营量率双升
 quality_labels:
 - actionable
 - cited

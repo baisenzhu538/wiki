@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-truth-seeking
 title: 实事求是（已弃用，待重写升级）
 type: concept
@@ -17,6 +18,8 @@ aliases:
   - 求是已弃用
 source_refs:
 - pending_archive:src_placeholder
+discoverable_by:
+  - 实事求是已弃用，待重写升级
 related:
 - yt-decision-y-model
 - tool-yitang-Y-model-application

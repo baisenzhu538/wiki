@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-zhanglei-comic-booth
 title: 张磊漫展展位：9平米亏到100平米，靠一张业务公式+摄像头复盘把展位做到200平米盈利
 type: case
@@ -30,6 +31,8 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712001710_vlm.md
 confidence: 0.85
 trust_level: medium
+discoverable_by:
+  - 张磊漫展展位
 quality_labels:
 - cited
 - actionable

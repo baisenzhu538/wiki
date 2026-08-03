@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-shampoo-selling-points
 title: 洗发水卖点组合测试
 type: case
@@ -26,6 +27,8 @@ source_refs:
 - 00_inbox/精益创业/洗发水案例卖点组合_ocr_text.md
 - 00_inbox/精益创业/洗发水案例卖点组合_vlm_desc.md
 - 00_inbox/精益创业/一堂-低成本测试-系统测试-口述.txt
+discoverable_by:
+  - 洗发水卖点组合测试
 related:
 - '[[lean-startup-domain-digest]]'
 - '[[yitang-domain-digest]]'

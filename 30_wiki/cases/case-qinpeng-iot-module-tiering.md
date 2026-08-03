@@ -1,4 +1,5 @@
 ---
+
 id: case-qinpeng-iot-module-tiering
 title: 案例：秦鹏通信模组——从"半价策略"到用户分层+四格服务矩阵的产品内核进化
 type: case
@@ -24,6 +25,9 @@ author: 老顽童
 reviewed_by: 待审
 confidence: 0.88
 trust_level: medium
+discoverable_by:
+  - 秦鹏通信模组
+  - 从半价策略到用户分层+四格服务矩阵的产品内核进化
 tags:
 - product-kernel
 - tiering

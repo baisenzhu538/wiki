@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 id: yt-entrepreneur-concentration-analysis
@@ -26,6 +27,8 @@ aliases:
   - 集中度分析
 source_refs:
 - pending_archive:src_20260522_9d98d526-business-analysis
+discoverable_by:
+  - 集中度分析
 tags:
 - audience:general
 - scene:reference

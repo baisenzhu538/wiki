@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-dongyuan-dance-retention-c-vs-d
 title: 少儿舞蹈学校：续班率打不动时，退回业务公式找战场，再用转化率打节点（C↔D 循环）
 type: case
@@ -25,6 +26,9 @@ source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1575-L1661
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1671-L1810
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1814-L1928
+discoverable_by:
+  - 少儿舞蹈学校
+  - 续班率打不动时，退回业务公式找战场，再用转化率打节点C↔D
 quality_labels:
 - actionable
 - cited

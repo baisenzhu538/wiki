@@ -1,4 +1,5 @@
 ---
+
 id: case-daxin-vikki-community-contrast
 title: Vikki 群与大馨群：两种社群知识生产模式的对比
 type: case
@@ -33,6 +34,10 @@ query_triggers:
 - 社群模式对比
 - study
 - 大馨战队
+discoverable_by:
+  - Vikki 群与大馨群：两种社群知识生产模式的对比
+  - 群与大馨群
+  - 两种社群知识生产模式的对比
 tags:
 - '#scene/community'
 - '#scene/content-team'

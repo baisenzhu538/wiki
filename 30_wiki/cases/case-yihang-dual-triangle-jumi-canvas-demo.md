@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-jumi-canvas-demo
 title: 双三角画布演示：巨米推广——从模糊需求到九层可执行计划
 type: case
@@ -23,6 +24,11 @@ aliases:
   - 角画布演示
 source_refs:
 - 00_inbox/人机协作双三角/_processed/测试_巨米推广_双三角画布.md
+discoverable_by:
+  - 双三角画布演示：巨米推广——从模糊需求到九层可执行计划
+  - 双三角画布演示
+  - 巨米推广
+  - 从模糊需求到九层可执行计划
 related:
 - '[[tool-yihang-dual-triangle-canvas]]'
 - '[[concept-yihang-dual-triangle-core]]'

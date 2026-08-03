@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-exit-sell
 title: 案例：撤退型布局1——出售（Musical.ly）
 type: case
@@ -23,6 +24,9 @@ aliases:
   - 案例：撤退型布局1出售Musical.ly
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_253_vlm_desc.md
+discoverable_by:
+  - 案例：撤退型布局1——出售Musical.ly
+  - 撤退型布局1
 related:
 - '[[case-strategy-m-brand-profit-model]]'
 - '[[yt-decision-y-model]]'

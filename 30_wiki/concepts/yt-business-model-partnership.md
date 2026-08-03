@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-partnership
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 合作伙伴策略：生态与联盟
+  - 合作伙伴策略
+  - 生态与联盟
 related:
 - '[[tool-月白-AI模型选择策略]]'
 - '[[tool-Truman-人在环渐进自动化策略]]'

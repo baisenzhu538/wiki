@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-practice-ranpeng-milk-powder
 title: 冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断
 type: case
@@ -21,6 +22,11 @@ source_refs:
 - pending_archive: 合生元益生菌/奶粉市场公开报道待本地归档
 reviewed_by: pending
 updated_at: '2026-06-29'
+discoverable_by:
+  - 冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断
+  - 冉鹏操盘
+  - 一米八八儿童奶粉
+  - 从零到20亿的细分垄断
 related:
 - strategy-domain-digest
 - case-opc-agent-wave1-real-model-testing

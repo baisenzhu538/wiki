@@ -1,4 +1,5 @@
 ---
+
 id: case-ban-fei-mao-from-assignment-to-tool
 title: 案例：半肥猫把一堂课程作业变成可复用调研工具
 type: case
@@ -17,6 +18,9 @@ source_refs:
 - 10_raw/sources/src_20260617_2b8a01ce-ai俱乐部-ai学习落地-半肥猫-口述.txt
 created_at: 2026-06-08
 updated_at: '2026-06-28'
+discoverable_by:
+  - 案例：半肥猫把一堂课程作业变成可复用调研工具
+  - 半肥猫把一堂课程作业变成可复用调研工具
 related:
 - '[[tool-从案例中学习]]'
 - '[[case-科学决策-深度案例06]]'

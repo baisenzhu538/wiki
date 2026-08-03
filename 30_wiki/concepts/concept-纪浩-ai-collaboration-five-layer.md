@@ -1,4 +1,5 @@
 ---
+
 id: concept-纪浩-ai-collaboration-five-layer
 title: 概念：纪浩AI协作五层工作空间法
 type: concept
@@ -21,6 +22,9 @@ source_refs:
 - 00_inbox/纪浩-AI协作方法论-口述.md
 created_at: '2026-06-09'
 updated_at: '2026-06-17'
+discoverable_by:
+  - 概念：纪浩AI协作五层工作空间法
+  - 纪浩AI协作五层工作空间法
 related:
 - - - concept-wanghuan-adversarial-generation
 - - - yt-concept-weapon-arsenal

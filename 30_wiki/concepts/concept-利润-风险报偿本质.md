@@ -1,4 +1,5 @@
 ---
+
 id: concept-利润-风险报偿本质
 title: 利润的风险报偿本质：创始人拿的不是贪婪，是承担风险的报酬
 type: concept
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 利润的风险报偿本质：创始人拿的不是贪婪，是承担风险的报酬
+  - 利润的风险报偿本质
+  - 创始人拿的不是贪婪，是承担风险的报酬
 quality_labels:
 - insight
 - principle

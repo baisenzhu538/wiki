@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-peas-agent-analysis
 component_of:
 - src_unknown
@@ -21,6 +22,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统
+  - 智能体分析
+  - 工程师的眼睛诊断任何决策系统
 related:
 - '[[鑫港湾his系统分阶段整改报告]]'
 - '[[HIS系统开发实现方案-架构师指南]]'

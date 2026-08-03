@@ -1,4 +1,5 @@
 ---
+
 domain:
 - master
 id: master-decision-hygiene
@@ -20,6 +21,8 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
+discoverable_by:
+  - 决策卫生五步法
 related:
 - master-antifragile-checklist
 - framework-yitang-five-step-to-time-management

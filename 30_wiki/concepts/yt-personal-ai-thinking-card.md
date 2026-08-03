@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-ai-thinking-card
 confidence: 0.8
 created_at: 2026-05-15
@@ -16,6 +17,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - AI思维卡：从读书到安装认知补丁
+  - AI思维卡
+  - 从读书到安装认知补丁
 related:
 - aima-ai思维卡-外部链接归档
 - '[[pending_unknown]]'

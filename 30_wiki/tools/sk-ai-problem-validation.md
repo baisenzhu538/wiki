@@ -29,24 +29,6 @@ confidence: 0.88
 trust_level: medium
 diagnostic_signals: null
 aliases:
-  - 技能：问题验证三维度法
-  - 技能
-  - 问题验证三维度法
-  - 纪浩
-  - 验证三维度法
-  - 三维度法
-aliases:
-  - 技能：问题验证三维度法
-  - 技能
-  - 问题验证三维度法
-  - 纪浩
-  - 验证三维度法
-aliases:
-  - 技能：问题验证三维度法
-  - 技能
-  - 问题验证三维度法
-  - 纪浩
-aliases:
 - 时代要不要练笔记
 - 需要练那个
 ---

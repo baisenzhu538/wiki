@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-product-kernel
 title: 产品内核 — 用户愿意选择你的最小解决方案
 type: concept
@@ -23,6 +24,10 @@ aliases:
 source_refs:
 - 00_inbox/一堂-产品内核实操课-Truman-口述.txt
 - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
+discoverable_by:
+  - 产品内核 — 用户愿意选择你的最小解决方案
+  - 产品内核
+  - 用户愿意选择你的最小解决方案
 quality_labels:
 - principle
 - framework

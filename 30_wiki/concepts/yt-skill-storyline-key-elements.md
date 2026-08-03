@@ -1,4 +1,5 @@
 ---
+
 id: yt-skill-storyline-key-elements
 title: 清单体故事线⑥：关键要素线——用结构拆解'什么才是真正重要的'
 domain:
@@ -30,6 +31,11 @@ aliases:
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+discoverable_by:
+  - 清单体故事线⑥：关键要素线——用结构拆解'什么才是真正重要的
+  - 清单体故事线⑥
+  - 关键要素线
+  - 用结构拆解'什么才是真正重要的'
 related:
 - '[[yt-skill-storyline-contrast-analysis]]'
 - '[[yt-skill-storyline-problem-solving]]'

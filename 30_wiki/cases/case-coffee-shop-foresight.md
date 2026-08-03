@@ -1,4 +1,5 @@
 ---
+
 id: case-coffee-shop-foresight
 confidence: 0.85
 created_at: 2026-06-10
@@ -37,6 +38,9 @@ pipeline:
 - src_unknown
 - src_unknown
 author: 老顽童
+discoverable_by:
+  - 案例：咖啡馆创业预判
+  - 咖啡馆创业预判
 related:
 - '[[yt-foresight-business-spectrum]]'
 - '[[yt-entrepreneur-five-step-method]]'

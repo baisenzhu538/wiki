@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 id: yt-model-muse-ai-framework
@@ -23,6 +24,9 @@ aliases:
   - 智能全景图
 source_refs:
 - pending_archive:src_20260510_62b2cfa1-一堂人工智能全景图muse模型
+discoverable_by:
+  - MUSE 人工智能全景图 Yitang AI MUSE Fr
+  - 人工智能全景图
 tags:
 - audience:general
 - scene:reference

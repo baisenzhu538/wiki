@@ -1,4 +1,5 @@
 ---
+
 id: concept-feishu-api-pagination-trap
 title: 飞书API分页陷阱——静默截断比报错更危险
 type: concept
@@ -25,6 +26,10 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 飞书API分页陷阱——静默截断比报错更危险
+  - 飞书API分页陷阱
+  - 静默截断比报错更危险
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-yitang-web-scraping-research]]'

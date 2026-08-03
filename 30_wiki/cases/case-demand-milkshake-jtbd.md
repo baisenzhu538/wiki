@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-milkshake-jtbd
 title: 案例：奶昔JTBD——经典的任务洞察
 type: case
@@ -21,6 +22,9 @@ aliases:
   - 经典的任务洞察
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-JTBD理论-笔记.txt
+discoverable_by:
+  - 案例：奶昔JTBD——经典的任务洞察
+  - 经典的任务洞察
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-从案例中学习]]'

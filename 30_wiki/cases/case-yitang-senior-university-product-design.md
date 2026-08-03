@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-senior-university-product-design
 title: 案例：老年大学——用假设链逐层验证赛道可行性
 type: case
@@ -21,6 +22,10 @@ aliases:
   - 设链逐层验证赛道可行性
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
+discoverable_by:
+  - 案例：老年大学——用假设链逐层验证赛道可行性
+  - 老年大学
+  - 用假设链逐层验证赛道可行性
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

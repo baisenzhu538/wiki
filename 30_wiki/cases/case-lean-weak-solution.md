@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-weak-solution
 title: 方案做错案例集
 type: case
@@ -26,6 +27,8 @@ aliases:
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_vlm_desc.md
+discoverable_by:
+  - 方案做错案例集
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'

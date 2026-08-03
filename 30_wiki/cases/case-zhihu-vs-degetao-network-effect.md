@@ -1,6 +1,11 @@
 ---
+
 id: case-zhihu-vs-degetao-network-effect
 confidence: 0.85
+discoverable_by:
+  - 案例：知乎vs得到——网络效应壁垒的对比分析
+  - 知乎vs得到
+  - 网络效应壁垒的对比分析
 quality_labels:
 - actionable
 - cited

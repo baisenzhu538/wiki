@@ -15,19 +15,6 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三�?_processed/一堂双三角-图书分析AI工具_vlm.md
 related:
-aliases:
-  - 双三角案例：刘凯图书分析AI工具RAG+审美驱动畅销书分�?type:case
-  - 双三角案例
-  - 刘凯图书分析
-  - 工具
-  - RAG+审美驱动畅销书分�?type
-  - 审美驱动畅销书分
-aliases:
-  - 双三角案例：刘凯图书分析AI工具RAG+审美驱动畅销书分�?type:case
-  - 双三角案例
-  - 刘凯图书分析
-  - 工具
-  - RAG+审美驱动畅销书分�?type
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[case-yihang-dual-triangle-ahao-product-selection]]"
 ---

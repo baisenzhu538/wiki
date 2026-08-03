@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-demand-treadmill-case
@@ -23,6 +24,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
+discoverable_by:
+  - 跑步机案例：需求分析全流程实战
+  - 跑步机案例
+  - 需求分析全流程实战
 related:
 - '[[yt-demand-ai-knowledge-base-case]]'
 - '[[yt-demand-b2b-vs-b2c]]'

@@ -1,4 +1,5 @@
 ---
+
 id: yt-foresight-business-spectrum
 type: framework
 confidence: 0.8
@@ -17,6 +18,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 终局光谱图
 related:
 - '[[yt-entrepreneur-opportunity-selection]]'
 - '[[yitang-course-map]]'

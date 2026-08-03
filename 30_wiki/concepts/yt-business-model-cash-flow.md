@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-cash-flow
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 现金流管理：商业模式的血液循环
+  - 现金流管理
+  - 商业模式的血液循环
 related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'

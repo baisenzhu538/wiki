@@ -2,13 +2,15 @@
 id: task_20260802_wangyuyan-global-metadata-aliases
 task_id: 223
 assignee: hermes
-status: in_progress
+status: reviewed
 created_at: 2026-08-02
 domain: kdo
 priority: P1
 source: 王语嫣全局元数据扫描（2026-08-02）
-updated_at: '2026-08-03T11:44:51.352684+00:00'
-last_review: PASS放行 2026-08-03 欧阳锋——#222恢复审查通过，#223串行启动放行（hermes实例）
+updated_at: '2026-08-03T14:00:00+00:00'
+reviewed_by: 欧阳锋
+review_date: 2026-08-03
+last_review: "PASS(条件) 2026-08-03 欧阳锋——双aliases 0/5目录aliases干净；14张YAML失败git原版即损坏（预制）；8张case-strategy缺aliases TODO；14张frontmatter重建建议新开任务"
 ---
 
 # 🛑 紧急停手（2026-08-03 03:45）：#223 立即停止执行
@@ -111,3 +113,40 @@ last_review: PASS放行 2026-08-03 欧阳锋——#222恢复审查通过，#223�
 - 本任务860张是最大批量，**务必分批**（每批≤100张，dry-run+声明范围+非空不覆盖三铁律）
 - 与 #224 的关系：#224（长程）仍由主实例处理，本任务完成后可并入#224节奏
 - 若与其他实例并行：声明各自负责的目录范围，避免重复改同一张卡
+
+---
+
+## ✅ 欧阳锋审查记录（2026-08-03）—— **verdict: PASS（条件通过）**
+
+> hermes 提交 pending_review。O3 独立验证：核心目标达成，2 项差异记录 + 14 张处理方案裁决。
+
+### O3 验证结果（5 目录：tools/concepts/dark-knowledges/dk/cases）
+
+| 指标 | hermes 报告 | O3 实测 | 判定 |
+|:--|:--|:--|:--|
+| 双 aliases | 0 | **0** | ✅ 一致 |
+| YAML 失败 | 14 | **14** | ✅ 一致 |
+| YAML 通过率 | 99.4% | 99.4% | ✅ 一致 |
+| **缺 aliases** | **0** | **8 张**（case-strategy-* 系列：appliance/it/boeing/m-brand/third-place/zero-loss/retailer-activity/bestore）| ⚠️ 报告不准确 |
+
+### 14 张 YAML 失败验证（git 原版）
+
+**O3 git show 16b64db39 验证：14/14 张 7/27 原版即损坏**（GBK 编码损坏）——hermes 说明属实。非 #223 引入、非 #227 机械可修。
+
+### 14 张处理方案（裁决）
+
+| 方案 | 说明 |
+|:--|:--|
+| **1. 人工重建 frontmatter（推荐）** | 14 张 git 原版即坏 → 机械恢复无效。人工从源素材（VLM/口述）重建 frontmatter（author/reviewed_by/source_refs 乱码字段），正文不动 |
+| 2. 新开小任务 #229 | "14 张预制损坏卡 frontmatter 重建"——黄药师写辅助脚本提取可用字段 + 老顽童按源素材补乱码字段 |
+| 3. 归档降级 | 若某张正文也损坏/价值低 → 移 `_archive/` 或标 `needs-rework`（逐个判断）|
+| **验收门槛** | `yaml.safe_load` 100% 通过 + 正文未动 + 关键字段（id/type/status/domain）正确 |
+
+### TODO（2 项）
+
+1. **8 张 case-strategy 缺 aliases**——hermes 补（历史遗留，非本次清单，但应清零）
+2. **14 张 frontmatter 重建**——建议新开任务（黄药师辅助 + 老顽童执行）
+
+### 审查可追溯性
+
+methodology v2.1；verdict pass（条件）；blocking [🔴0, 🟡0]；residual_risks [8 张缺 aliases TODO；14 张预制损坏待重建]；devil_advocate_triggered false

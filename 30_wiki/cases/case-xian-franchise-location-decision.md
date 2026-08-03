@@ -1,4 +1,5 @@
 ---
+
 id: case-xian-franchise-location-decision
 title: 案例：西安加盟选址——系统调研vs拍脑袋
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 西安加盟选址
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
+discoverable_by:
+  - 案例：西安加盟选址——系统调研vs拍脑袋
+  - 西安加盟选址
+  - 系统调研vs拍脑袋
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

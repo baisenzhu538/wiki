@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-shishi-qiushi-pitfall-10-over-abstraction
 title: 实事求是十坑·过度抽象：问到"下周具体做什么"时答不上来
 type: case
@@ -23,6 +24,11 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 实事求是十坑·过度抽象：问到下周具体做什么时答不上来
+  - 实事求是十坑
+  - 过度抽象
+  - 问到下周具体做什么时答不上来
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[dk-yitang-over-abstraction]]'

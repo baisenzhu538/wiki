@@ -1,4 +1,5 @@
 ---
+
 id: case-private-domain-ecommerce-formula
 title: 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升级路径"
 type: case
@@ -20,6 +21,12 @@ source_refs:
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
 - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
+discoverable_by:
+  - 私域电商 10W 人社群：从拉人发广告到信任 × 用户升级路
+  - 私域电商
+  - 人社群
+  - 从拉人发广告到信任
+  - 用户升级路径
 quality_labels:
 - actionable
 - cited

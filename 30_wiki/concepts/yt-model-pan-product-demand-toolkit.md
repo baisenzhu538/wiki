@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-pan-product-demand-toolkit
 component_of:
 - "[[yt-composite-pan-product-methodology]]"
@@ -20,6 +21,10 @@ query_triggers:
 - 拆推评算是什么怎么用
 - 动力阻力触点怎么分析
 - 泛产品设计从哪张牌开始出
+discoverable_by:
+  - 泛产品设计·需求工具箱13张卡牌
+  - 泛产品设计
+  - 需求工具箱13张卡牌
 related:
 - "[[yt-composite-pan-product-methodology]]"
 - "[[yt-model-pan-product-36-strategies]]"

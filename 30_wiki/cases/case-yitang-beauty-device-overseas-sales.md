@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-beauty-device-overseas-sales
 title: 案例：美容仪出海——用行业报告判断海外市场
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 美容仪出海
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
+discoverable_by:
+  - 案例：美容仪出海——用行业报告判断海外市场
+  - 美容仪出海
+  - 用行业报告判断海外市场
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

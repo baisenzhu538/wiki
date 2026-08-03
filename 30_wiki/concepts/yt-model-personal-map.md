@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-personal-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -15,6 +16,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 个人修炼地图
 related:
 - '[[一堂]]'
 - '[[yt-model-progress-map]]'

@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-ai-research-human-loop
 title: AI调研中人机协作的判断节点
 type: concept
@@ -20,6 +21,8 @@ aliases:
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - AI调研中人机协作的判断节点
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

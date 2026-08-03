@@ -1,4 +1,5 @@
 ---
+
 id: yt-management-scientific-meetings
 title: 科学开会
 type: concept
@@ -27,6 +28,8 @@ diagnostic_signals:
   follow_up_question: 这些行动项在写下的那一刻，owner是否真正承诺过？还是只是"礼貌性点头"？给每个行动项加一个承诺级（L1尽量/L2承诺/L3赌约），2周后看各级完成率
 - framework_lens: 权力压制下的伪共识
   follow_up_question: 这个会议上最后一个真实的反对意见是什么时候出现的？如果超过15分钟没有人挑战，会议可能只是在确认预设结论
+discoverable_by:
+  - 科学开会
 related:
 - '[[yt-management-basic-skills]]'
 - '[[yt-management-business-formula]]'

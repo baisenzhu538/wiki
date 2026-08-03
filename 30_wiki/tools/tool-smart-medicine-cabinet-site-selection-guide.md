@@ -1,3 +1,4 @@
+---
 id: tool-smart-medicine-cabinet-site-selection-guide
 title: 智能药柜选址深度指南：场景、指标与验证方法
 type: tool

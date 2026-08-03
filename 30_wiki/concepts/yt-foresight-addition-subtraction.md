@@ -1,4 +1,5 @@
 ---
+
 id: yt-foresight-addition-subtraction
 title: 加法减法实操：从100个选项到3个高概率方向
 type: concept
@@ -44,6 +45,10 @@ diagnostic_signals:
 updated_at: '2026-06-28'
 author: 老顽童
 trust_level: medium-high
+discoverable_by:
+  - 加法减法实操：从100个选项到3个高概率方向
+  - 加法减法实操
+  - 从100个选项到3个高概率方向
 related:
 - '[[yt-foresight-15-char-mantra]]'
 - '[[yt-foresight-probability-engineering]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-利润-苹果智能手机利润垄断
 title: 苹果智能手机利润垄断：18% 出货量拿走 85% 利润
 type: case
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 苹果智能手机利润垄断：18% 出货量拿走 85% 利润
+  - 苹果智能手机利润垄断
+  - 出货量拿走
 quality_labels:
 - cited
 aliases:

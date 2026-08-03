@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-chentian-knowledge-agent
 title: 一行双三角案例：陈天从知识管理到多Agent系统
 type: case
@@ -34,6 +35,10 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/陈天同学案例口述_page007_vlm.md
 - 00_inbox/人机协作双三角/_processed/陈天同学案例口述_page008_vlm.md
 - https://www.researchandmarkets.com/reports/6041107/knowledge-management-the-ai-enabled-enterprise
+discoverable_by:
+  - 一行双三角案例：陈天从知识管理到多Agent系统
+  - 一行双三角案例
+  - 陈天从知识管理到多Agent系统
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-dual-triangle-human-ai-division]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-双三角-竞争力武器库
 title: 双三角-竞争力武器库 — 双三角案例
 type: case
@@ -23,6 +24,11 @@ aliases:
   - 角案例
   - 角竞争力武器库双三角案例
 source_refs:
+discoverable_by:
+  - 双三角-竞争力武器库 — 双三角案例
+  - 双三角
+  - 竞争力武器库
+  - 双三角案例
 tags:
 reviewed_by: pending
 ---

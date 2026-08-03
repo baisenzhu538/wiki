@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-sales-transformation-meirongyuan
 title: 案例：美容院连锁销售体系改造——从总部门店冲突到新客转化率提升
 type: case
@@ -28,6 +29,10 @@ source_refs:
 - 00_inbox/销售专题/_processed/销售体系之序-案例-美容院-客户分层_vlm.md
 - 00_inbox/销售专题/_processed/销售体系之序-案例-美容院-销售过程拆解_vlm.md
 - 00_inbox/销售专题/_processed/销售体系之序-案例-美容院-激励机制调整_vlm.md
+discoverable_by:
+  - 案例：美容院连锁销售体系改造——从总部门店冲突到新客转化率提
+  - 美容院连锁销售体系改造
+  - 从总部门店冲突到新客转化率提升
 related:
 - '[[tool-yitang-customer-segmentation-4step]]'
 - '[[framework-yitang-channel-exploration-4step]]'

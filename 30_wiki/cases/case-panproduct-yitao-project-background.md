@@ -1,4 +1,5 @@
 ---
+
 id: case-panproduct-yitao-project-background
 title: 案例：一淘项目背景与三大难题
 type: case
@@ -21,6 +22,9 @@ aliases:
   - 项目背景与三大难题
 source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
+discoverable_by:
+  - 案例：一淘项目背景与三大难题
+  - 一淘项目背景与三大难题
 related:
 - '[[yt-product-kernel-canvas]]'
 - '[[tool-yitang-growth-flywheel-design]]'

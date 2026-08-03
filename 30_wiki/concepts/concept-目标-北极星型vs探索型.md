@@ -1,4 +1,5 @@
 ---
+
 id: concept-目标-北极星型vs探索型
 title: 北极星型 vs 探索型目标：二分类与动态切换
 type: concept
@@ -12,6 +13,11 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 北极星型 vs 探索型目标：二分类与动态切换
+  - 北极星型
+  - 探索型目标
+  - 二分类与动态切换
 quality_labels:
 - insight
 - principle

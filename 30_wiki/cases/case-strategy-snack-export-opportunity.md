@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-snack-export-opportunity
 title: 国产零食出口220国：新区域机会的诱惑与风险预估
 type: case
@@ -23,6 +24,10 @@ aliases:
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_54_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_54_vlm_desc.md
+discoverable_by:
+  - 国产零食出口220国：新区域机会的诱惑与风险预估
+  - 国产零食出口220国
+  - 新区域机会的诱惑与风险预估
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-月白-供应商信息对齐清单法]]'

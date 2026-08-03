@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-practice-10-turnaround
 title: 案例：尾部企业扭亏——7个月转连续7年亏损，2年30亿→50亿
 type: case
@@ -22,6 +23,10 @@ source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt
 reviewed_by: pending
 updated_at: '2026-06-29'
+discoverable_by:
+  - 案例：尾部企业扭亏——7个月转连续7年亏损，2年30亿→50
+  - 尾部企业扭亏
+  - 7个月转连续7年亏损，2年30亿→50亿
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-从案例中学习]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-guoshuai-ai-editorial
 title: 双三角案例：郭帅 AI 编辑部——智能体拉微信群协作内容生产
 type: case
@@ -22,6 +23,11 @@ aliases:
   - 郭帅
 source_refs:
 - pending_archive
+discoverable_by:
+  - 双三角案例：郭帅 AI 编辑部——智能体拉微信群协作内容生产
+  - 双三角案例
+  - 编辑部
+  - 智能体拉微信群协作内容生产
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[case-yihang-dual-triangle-一堂双三角-IP选题智能体挑战交付上限]]'

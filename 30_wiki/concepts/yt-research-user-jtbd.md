@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 - research
@@ -21,6 +22,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
+discoverable_by:
+  - 用户 JTBD 调研方法
+  - 调研方法
 related:
 - '[[yt-research-osl-framework]]'
 - '[[yt-research-intelligence-map]]'

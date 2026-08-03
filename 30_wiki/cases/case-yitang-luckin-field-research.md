@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-luckin-field-research
 title: 案例：瑞幸做空——实地调研的教科书
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 调研的教科书
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
+discoverable_by:
+  - 案例：瑞幸做空——实地调研的教科书
+  - 瑞幸做空
+  - 实地调研的教科书
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

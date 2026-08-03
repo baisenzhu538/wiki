@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-curtain-listening
 title: 案例：一堂帘子隔音——用物理隔离在开放式办公中创造"可调场景质量"
 type: case
@@ -20,6 +21,10 @@ source_refs:
   - 00_inbox/时间管理/truman-时间管理课程-口述.txt
   - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
   - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+discoverable_by:
+  - 案例：一堂帘子隔音——用物理隔离在开放式办公中创造可调场景质
+  - 一堂帘子隔音
+  - 用物理隔离在开放式办公中创造可调场景质量
 tags:
   - "#yitang"
   - "#time-management"

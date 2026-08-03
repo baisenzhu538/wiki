@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-longzhong-plan
 title: 隆中对：中国最著名的战略规划——成功与失败四因
 type: case
@@ -22,6 +23,11 @@ source_refs:
 - pending_archive: 武都大地震与秦岭古道地理变迁公开资料待本地归档
 reviewed_by: pending
 updated_at: '2026-06-29'
+discoverable_by:
+  - 隆中对：中国最著名的战略规划——成功与失败四因
+  - 隆中对
+  - 中国最著名的战略规划
+  - 成功与失败四因
 related:
 - strategy-domain-digest
 - case-opc-agent-wave1-real-model-testing

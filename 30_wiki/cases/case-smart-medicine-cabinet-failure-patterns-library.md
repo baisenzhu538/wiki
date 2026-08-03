@@ -1,4 +1,5 @@
 ---
+
 id: case-smart-medicine-cabinet-failure-patterns-library
 title: 智能药柜失败模式案例库
 type: case
@@ -24,6 +25,8 @@ reviewed_by: 王语嫣（代欧阳锋）
 review_date: 2026-06-16
 confidence: 0.82
 trust_level: high
+discoverable_by:
+  - 智能药柜失败模式案例库
 related:
 - '[[case-smart-medicine-cabinet-business-model-validation]]'
 - '[[case-smart-medicine-cabinet-corporate-risk]]'

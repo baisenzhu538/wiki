@@ -1,4 +1,5 @@
 ---
+
 id: kdo_product_design_agent_final
 created_at: 2026-05-03
 domain: ai-saas
@@ -21,6 +22,11 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - Obsidian + KDO 内容产出工作流 — 产品设计大
+  - 内容产出工作流
+  - 产品设计大纲
+  - v1.0完整版
 related:
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
 - '[[kdo-input-channel-strategy-2026-06-16]]'

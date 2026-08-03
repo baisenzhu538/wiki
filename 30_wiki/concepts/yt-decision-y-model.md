@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-y-model
 title: Y模型：一堂科学做事系统（KDO 根节点）
 type: framework
@@ -28,6 +29,10 @@ source_refs:
 - 00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md
 - 00_inbox/底层逻辑之一-Y模型/科学理念-Y模型.png
 - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
+discoverable_by:
+  - Y模型：一堂科学做事系统KDO 根节点
+  - 一堂科学做事系统KDO
+  - 根节点
 related:
 - yt-five-step-method-complete
 - yitang-methodology-system

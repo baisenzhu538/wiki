@@ -1,4 +1,5 @@
 ---
+
 id: yai-tcp-teacher-role
 title: YAI T角色咨询法：教师式理解对话节奏
 type: framework
@@ -17,6 +18,10 @@ aliases:
   - 角色咨询法
 source_refs:
 - 00_inbox/元能力-刻意练习/我和一堂YAI关于刻意练习的对话.md
+discoverable_by:
+  - YAI T角色咨询法：教师式理解对话节奏
+  - T角色咨询法
+  - 教师式理解对话节奏
 related:
 - 刻意练习方法论
 - 咨询对话框架

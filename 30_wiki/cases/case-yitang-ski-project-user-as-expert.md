@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-ski-project-user-as-expert
 title: 案例：滑雪项目——把用户当专家访谈
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 滑雪项目把用户当专家访谈
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
+discoverable_by:
+  - 案例：滑雪项目——把用户当专家访谈
+  - 滑雪项目
+  - 把用户当专家访谈
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

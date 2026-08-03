@@ -16,6 +16,7 @@ difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 建立动态信息监控机制
   - 持续跟踪
   - 持续跟踪：建立动态信息监控机制
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 持续跟踪：建立动态信息监控机制
 

@@ -1,4 +1,5 @@
 ---
+
 id: concept-ai-video-wanggan-componentization
 title: 网感组件化：9类视频分类 + 四要素可量化体系
 type: concept
@@ -12,6 +13,11 @@ reviewed_by: 待审
 review_date: '2026-07-20'
 created_at: '2026-07-20'
 updated_at: '2026-07-20'
+discoverable_by:
+  - 网感组件化：9类视频分类 + 四要素可量化体系
+  - 网感组件化
+  - 9类视频分类
+  - 四要素可量化体系
 quality_labels:
 - actionable
 - insight

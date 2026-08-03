@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 id: yt-entrepreneur-business-growth
@@ -25,6 +26,8 @@ aliases:
   - 业务增长
 source_refs:
 - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
+discoverable_by:
+  - 业务增长
 tags:
 - audience:general
 - scene:reference

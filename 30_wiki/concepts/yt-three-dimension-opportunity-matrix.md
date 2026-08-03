@@ -1,4 +1,5 @@
 ---
+
 id: yt-three-dimension-opportunity-matrix
 title: 三维排列组合找机会
 type: tool
@@ -18,6 +19,8 @@ language: zh-CN
 review_date: 2026-06-10
 reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
+discoverable_by:
+  - 三维排列组合找机会
 tags:
 - audience:executor
 - scene:execution

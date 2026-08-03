@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-tier4-housekeeping
 title: 案例：四线家政创业——天花板误判
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 案例：四线家政创业天花板误判
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
+discoverable_by:
+  - 案例：四线家政创业——天花板误判
+  - 四线家政创业
+  - 天花板误判
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-从案例中学习]]'

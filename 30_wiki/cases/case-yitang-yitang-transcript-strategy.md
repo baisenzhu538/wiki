@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-yitang-transcript-strategy
 title: 案例：一堂逐字稿——用 ROI+内容壁垒打破"不能给"的行业惯例
 type: case
@@ -23,6 +24,10 @@ aliases:
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
+discoverable_by:
+  - 案例：一堂逐字稿——用 ROI+内容壁垒打破不能给的行业惯例
+  - 一堂逐字稿
+  - ROI+内容壁垒打破不能给的行业惯例
 related:
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[yt-decision-y-model]]'

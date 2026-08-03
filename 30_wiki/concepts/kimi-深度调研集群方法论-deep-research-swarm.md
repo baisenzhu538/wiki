@@ -1,4 +1,5 @@
 ---
+
 id: kimi-深度调研集群方法论-deep-research-swarm
 created_at: 2026-05-01
 domain: ai-saas
@@ -18,6 +19,9 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - Kimi 深度调研集群方法论 Deep-Research-S
+  - 深度调研集群方法论
 related:
 - '[[tool-yitang-weapon-partner-research]]'
 - '[[tool-agent-research-pipeline]]'

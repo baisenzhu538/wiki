@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-demand-peak-end-rule
@@ -23,6 +24,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
+discoverable_by:
+  - 峰终定律在需求分析中的应用：用户记住的不是平均，而是峰值和终
+  - 峰终定律在需求分析中的应用
+  - 用户记住的不是平均，而是峰值和终点
 related:
 - '[[concept-峰终定律]]'
 - '[[pending_unknown]]'

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-demand-qualitative-analysis
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
+discoverable_by:
+  - 需求定性分析框架：拆推评算四步法
+  - 需求定性分析框架
+  - 拆推评算四步法
 related:
 - '[[yt-demand-ai-knowledge-base-case]]'
 - '[[yt-demand-treadmill-case]]'

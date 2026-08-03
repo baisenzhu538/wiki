@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-online-education-expansion
 title: 案例：在线教育融资扩张——不会定量的代价
 type: case
@@ -24,6 +25,10 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 案例：在线教育融资扩张——不会定量的代价
+  - 在线教育融资扩张
+  - 不会定量的代价
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[tool-yitang-quantitative-research-checklist]]'

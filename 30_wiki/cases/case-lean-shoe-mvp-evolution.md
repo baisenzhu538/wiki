@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-shoe-mvp-evolution
 title: 鞋类产品 MVP 演进
 type: case
@@ -28,6 +29,9 @@ source_refs:
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例01_vlm_desc.md
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例-4种对比-01_ocr_text.md
 - 00_inbox/精益创业/Truman-精益创业-低成本验证-案例-4种对比-01_vlm_desc.md
+discoverable_by:
+  - 鞋类产品 MVP 演进
+  - 鞋类产品
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'

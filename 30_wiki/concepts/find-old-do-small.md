@@ -1,4 +1,5 @@
 ---
+
 id: find-old-do-small
 title: 找老的干小的：AI落地场景评估框架
 type: tool
@@ -19,6 +20,10 @@ source_refs:
 - 10_raw/sources/src_20260606_ef4877d0-所以90的核心问题.md
 component_of:
 - src_unknown
+discoverable_by:
+  - 找老的干小的：AI落地场景评估框架
+  - 找老的干小的
+  - AI落地场景评估框架
 related:
 - '[[ai-landing-scene-selection]]'
 - '[[course-to-skill-conversion]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-shower-toilet-ideation
 title: 案例：Truman 洗澡/厕所灵感爆发——暗时间如何在"脑力CPU不饱和"时产出高价值创意
 type: case
@@ -19,6 +20,10 @@ aliases:
 source_refs:
   - 00_inbox/时间管理/truman-时间管理课程-口述.txt
   - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
+discoverable_by:
+  - 案例：Truman 洗澡/厕所灵感爆发——暗时间如何在脑力C
+  - 洗澡/厕所灵感爆发
+  - 暗时间如何在脑力CPU不饱和时产出高价值创意
 tags:
   - "#yitang"
   - "#time-management"

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-burger-franchise-key-path
 title: 汉堡店加盟三渠道关键路径：同样的30%提升，为什么优先做邀约成功率？
 type: case
@@ -19,6 +20,10 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L3042-L3074
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2812-L2848
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3018-L3036
+discoverable_by:
+  - 汉堡店加盟三渠道关键路径：同样的30%提升，为什么优先做邀约
+  - 汉堡店加盟三渠道关键路径
+  - 同样的30%提升，为什么优先做邀约成功率？
 quality_labels:
 - actionable
 - cited

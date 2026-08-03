@@ -1,4 +1,5 @@
 ---
+
 id: yt-pitch-emotionalization
 component_of:
 - src_unknown
@@ -19,6 +20,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 讲香·情绪化
+  - 情绪化
 related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-concept-weapon-arsenal]]'

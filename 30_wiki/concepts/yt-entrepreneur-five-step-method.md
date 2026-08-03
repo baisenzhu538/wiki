@@ -1,6 +1,9 @@
 ---
+
 id: yt-entrepreneur-five-step-method
 confidence: 0.8
+discoverable_by:
+  - 一堂五步法
 quality_labels:
 - actionable
 - cited

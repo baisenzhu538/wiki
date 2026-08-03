@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-growth-activation-rate
@@ -21,6 +22,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 激活率：让用户第一次体验到价值
+  - 激活率
+  - 让用户第一次体验到价值
 related:
 - '[[yt-growth-acquisition-channels]]'
 - '[[yt-growth-growth-hacking]]'

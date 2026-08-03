@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-ymodel-watermelon-challenge
 title: Y模型 案例：拍西瓜满级挑战——1000次循环从普通人到顶尖选手
 type: case
@@ -21,6 +22,10 @@ aliases:
   - 次循环从普通人到顶尖选手
 source_refs:
 - 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
+discoverable_by:
+  - Y模型 案例：拍西瓜满级挑战——1000次循环从普通人到顶尖
+  - 拍西瓜满级挑战
+  - 1000次循环从普通人到顶尖选手
 related:
 - '[[yt-decision-y-model]]'
 - '[[method-yitang-y-model-engine-cycle]]'

@@ -1,4 +1,5 @@
 ---
+
 id: yt-unit-model-construction
 confidence: 0.89
 created_at: 2026-05-24
@@ -18,6 +19,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 单元模型构建法：拆推评算与ABCD模型分类
+  - 单元模型构建法
+  - 拆推评算与ABCD模型分类
 related:
 - '[[yt-unit-model-selection]]'
 - '[[yt-unit-model-benchmark]]'

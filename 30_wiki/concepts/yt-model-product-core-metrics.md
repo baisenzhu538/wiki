@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 id: yt-model-product-core-metrics
@@ -24,6 +25,10 @@ aliases:
   - 客到推荐的度量框架
 source_refs:
 - pending_archive:src_20260510_5ef61f8f-一堂产品内核十大典型指标
+discoverable_by:
+  - 产品内核十大典型指标：从获客到推荐的度量框架
+  - 产品内核十大典型指标
+  - 从获客到推荐的度量框架
 tags:
 - audience:general
 - scene:reference

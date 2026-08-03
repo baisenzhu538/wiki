@@ -1,4 +1,5 @@
 ---
+
 id: yt-tob-cash-flow
 title: To B 现金流管理：自由现金流比账面利润更重要
 type: concept
@@ -17,6 +18,10 @@ aliases:
 source_refs:
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 - 10_raw/sources/xujian-tob-fivestep-notes.md
+discoverable_by:
+  - To B 现金流管理：自由现金流比账面利润更重要
+  - 现金流管理
+  - 自由现金流比账面利润更重要
 tags:
 - src_unknown
 - src_unknown

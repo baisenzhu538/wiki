@@ -1,4 +1,5 @@
 ---
+
 id: concept-yihang-dual-triangle-core
 title: 一行双三角：人机协作的元模型
 type: concept
@@ -31,6 +32,10 @@ source_refs:
 - https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study
 - https://www.faros.ai/blog/harness-engineering
 - https://atlan.com/know/harness-engineering-vs-prompt-engineering/
+discoverable_by:
+  - 一行双三角：人机协作的元模型
+  - 一行双三角
+  - 人机协作的元模型
 related:
 - '[[framework-yihang-dual-triangle-weapon-library]]'
 - '[[yt-business-formula-parameter-iceberg]]'

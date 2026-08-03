@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-D-engineer-upward-communication
 title: 一行双三角案例：D同学用红蓝军破解向上沟通
 type: case
@@ -26,6 +27,10 @@ aliases:
 source_refs:
 - 00_inbox/人机协作双三角/D同学的案例口述.pdf
 - 00_inbox/人机协作双三角/_processed/D同学的案例口述_text.md
+discoverable_by:
+  - 一行双三角案例：D同学用红蓝军破解向上沟通
+  - 一行双三角案例
+  - D同学用红蓝军破解向上沟通
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-dual-triangle-human-ai-division]]'

@@ -11,6 +11,9 @@ status: reviewed
 source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 component_of: null
+aliases:
+  - 豆包语音输入
+  - voice input
 related:
 - '[[yitang-domain-digest]]'
 - '[[kdo-input-channel-strategy-2026-06-16]]'
@@ -34,7 +37,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases:
 - 没有人呀现在
 ---
 

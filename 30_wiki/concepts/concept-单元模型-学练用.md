@@ -1,4 +1,5 @@
 ---
+
 id: concept-单元模型-学练用
 title: 学练用：知识内化的三阶模型
 type: concept
@@ -20,6 +21,10 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-学练用_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-学练用_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-单元模型-学练用.md
+discoverable_by:
+  - 学练用：知识内化的三阶模型
+  - 学练用
+  - 知识内化的三阶模型
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

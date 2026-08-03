@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-dialer
 title: 案例：小胖猴拨号器——需求到方案的跳跃
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 需求到方案的跳跃
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
+discoverable_by:
+  - 案例：小胖猴拨号器——需求到方案的跳跃
+  - 小胖猴拨号器
+  - 需求到方案的跳跃
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-从案例中学习]]'

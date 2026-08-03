@@ -1,4 +1,5 @@
 ---
+
 id: rust-domain-overview
 title: "Rust 编程语言：零成本抽象与内存安全的系统编程"
 type: framework
@@ -14,6 +15,10 @@ source_refs:
   - pending_archive
 created_at: 2026-06-02
 updated_at: 2026-06-02
+discoverable_by:
+  - Rust 编程语言：零成本抽象与内存安全的系统编程
+  - 编程语言
+  - 零成本抽象与内存安全的系统编程
 ---
 
 # Rust 编程语言概述

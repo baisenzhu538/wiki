@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-foresight-canvas
 title: 预判画布：从加法到减法的标准化工作台
 type: tool
@@ -31,6 +32,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 预判画布：从加法到减法的标准化工作台
+  - 预判画布
+  - 从加法到减法的标准化工作台
 related:
 - '[[yt-tool-best-practice-learning]]'
 - '[[yt-tool-fab-persuasion]]'

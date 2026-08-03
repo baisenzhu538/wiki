@@ -1,9 +1,14 @@
 ---
+
 id: yt-unit-model-three-tools
 title: "单元模型三工具：斧子尺子梯子"
 status: enriched
 reviewed_by: pending
 updated_at: '2026-07-12'
+discoverable_by:
+  - 单元模型三工具：斧子尺子梯子
+  - 单元模型三工具
+  - 斧子尺子梯子
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-growth-cycle-model]]'

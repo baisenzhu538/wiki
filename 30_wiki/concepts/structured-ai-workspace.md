@@ -1,4 +1,5 @@
 ---
+
 id: structured-ai-workspace
 title: 结构化AI工作空间搭建
 type: tool
@@ -14,6 +15,8 @@ source_refs:
 - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 component_of:
 - src_unknown
+discoverable_by:
+  - 结构化AI工作空间搭建
 related:
 - '[[ai-collaboration-mindset-shift]]'
 - '[[prd-as-ai-instruction]]'

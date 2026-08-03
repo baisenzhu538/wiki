@@ -1,4 +1,5 @@
 ---
+
 id: concept-five-step-growth-to-barrier-transition
 title: 五步法衔接：什么时候从增长切换到壁垒建设
 type: concept
@@ -31,6 +32,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 五步法衔接：什么时候从增长切换到壁垒建设
+  - 五步法衔接
+  - 什么时候从增长切换到壁垒建设
 tags:
 - audience:general
 - scene:reference

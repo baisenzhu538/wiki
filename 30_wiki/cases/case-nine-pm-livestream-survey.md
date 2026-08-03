@@ -1,4 +1,5 @@
 ---
+
 id: case-nine-pm-livestream-survey
 title: 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选
 type: case
@@ -31,6 +32,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
+discoverable_by:
+  - 案例：一堂直播时间为什么是 21:00——三次用户调研的多数
+  - 一堂直播时间为什么是
+  - 三次用户调研的多数人选
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-从案例中学习]]'

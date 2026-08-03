@@ -1,4 +1,5 @@
 ---
+
 id: case-treadmill-demand-analysis
 title: 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈
 type: case
@@ -21,6 +22,10 @@ source_refs:
 - pending_archive:src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr
 created_at: 2026-06-11
 updated_at: 2026-06-28
+discoverable_by:
+  - 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈
+  - 跑步机需求分析
+  - 在家健身场景的需求拆解与替代方案博弈
 related:
 - '[[yt-foresight-15-char-mantra]]'
 - '[[case-shampoo-product-kernel]]'

@@ -16,6 +16,7 @@ difficulty: beginner
 estimated_tokens: 2500
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 用二维矩阵可视化竞争格局
   - 竞争象限
   - 竞争象限：用二维矩阵可视化竞争格局
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 竞争象限：用二维矩阵可视化竞争格局
 

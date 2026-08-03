@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 - yitang
@@ -24,6 +25,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 trust_level: medium
 confidence: 0.78
+discoverable_by:
+  - 高阶建模能力体系：一堂从经验到规律的教研方法论
+  - 高阶建模能力体系
+  - 一堂从经验到规律的教研方法论
 tags:
 - audience:general
 - scene:reference

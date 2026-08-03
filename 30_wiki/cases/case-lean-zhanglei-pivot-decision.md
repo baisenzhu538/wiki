@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-zhanglei-pivot-decision
 title: 张磊 AMA：创业者 pivot 决策案例
 type: case
@@ -28,6 +29,10 @@ source_refs:
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-01.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-02.txt
+discoverable_by:
+  - 张磊 AMA：创业者 pivot 决策案例
+  - 创业者
+  - 决策案例
 related:
 - '[[lean-startup-domain-digest]]'
 - '[[yitang-domain-digest]]'

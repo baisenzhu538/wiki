@@ -1,4 +1,5 @@
 ---
+
 id: case-wanghuan-education-sales-paced
 title: 王欢案例：教育机构用 PACED 还原销冠决策链
 type: case
@@ -25,6 +26,11 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 王欢案例：教育机构用 PACED 还原销冠决策链
+  - 王欢案例
+  - 教育机构用
+  - 还原销冠决策链
 related:
 - '[[dk-wanghuan-paced-sales-decision]]'
 - '[[pending_unknown]]'

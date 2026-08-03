@@ -1,4 +1,5 @@
 ---
+
 id: yt-skill-storyline-problem-solving
 title: 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链
 domain:
@@ -30,6 +31,11 @@ aliases:
 source_refs:
 - src_unknown
 source_context: 一堂清单体故事线系列（具体来源文件无法追溯，待后续补充）
+discoverable_by:
+  - 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思
+  - 清单体故事线④
+  - 问题解决线
+  - 把混乱的诊断过程变成可追踪的思维链
 related:
 - '[[yt-skill-storyline-contrast-analysis]]'
 - '[[yt-skill-storyline-key-elements]]'

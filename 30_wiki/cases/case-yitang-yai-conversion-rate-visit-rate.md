@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-yai-conversion-rate-visit-rate
 title: YAI实录：转化率agent——智慧药柜电话到访率10%→30%五阻力拆解
 type: case
@@ -21,6 +22,10 @@ aliases:
   - 转化率agent
 source_refs:
 - C:/Users/Administrator/Desktop/YAI/转化率agent-我们是专门做软硬件一体化的公司，我们有智....md
+discoverable_by:
+  - YAI实录：转化率agent——智慧药柜电话到访率10%→3
+  - 转化率agent
+  - 智慧药柜电话到访率10%→30%五阻力拆解
 related:
 - '[[method-一堂-教练对话引擎协议]]'
 - '[[framework-一堂-关键假设-ABCD模型]]'

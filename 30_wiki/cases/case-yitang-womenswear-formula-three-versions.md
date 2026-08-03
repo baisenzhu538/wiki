@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-womenswear-formula-three-versions
 title: 女装店收入公式三版本：从10分到60分看顶层拆解的形式规范
 type: case
@@ -17,6 +18,10 @@ aliases:
   - 店收入公式三版本
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L1806-L1946
+discoverable_by:
+  - 女装店收入公式三版本：从10分到60分看顶层拆解的形式规范
+  - 女装店收入公式三版本
+  - 从10分到60分看顶层拆解的形式规范
 quality_labels:
 - actionable
 - cited

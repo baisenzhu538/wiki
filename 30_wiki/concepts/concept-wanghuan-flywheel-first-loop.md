@@ -1,4 +1,5 @@
 ---
+
 id: concept-wanghuan-flywheel-first-loop
 title: 王欢：AI 飞轮第一圈
 type: concept
@@ -32,6 +33,9 @@ diagnostic_signals:
   follow_up: 每周跑一次观察-定向-决策-行动循环，把改进写回档案和模板
 - lens: 飞轮资产未共享
   follow_up: 把个人业务档案升级为团队共享上下文资产
+discoverable_by:
+  - 王欢：AI 飞轮第一圈
+  - 飞轮第一圈
 related:
 - '[[case-wanghuan-education-sales-capability-extraction]]'
 - '[[case-wanghuan-education-sales-paced]]'

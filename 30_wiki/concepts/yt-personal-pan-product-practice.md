@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-pan-product-practice
 component_of:
 - src_unknown
@@ -16,6 +17,10 @@ query_triggers:
 - src_unknown实操篇
 - src_unknown实操篇：需求分析与用户洞察
 - src_unknown
+discoverable_by:
+  - 泛产品设计实操篇：需求分析与用户洞察
+  - 泛产品设计实操篇
+  - 需求分析与用户洞察
 related:
 - '[[yt-model-pan-product-demand-toolkit]]'
 - '[[yt-personal-pan-product-concepts]]'

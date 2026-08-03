@@ -46,41 +46,33 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-03 19:44</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-04 02:29</p>
 
 <div class="stats">
-<div class="stat queued"><div class="stat-num">5</div><div class="stat-label">待领取 Queued</div></div>
-<div class="stat pending"><div class="stat-num">0</div><div class="stat-label">审查中 Review</div></div>
-<div class="stat active"><div class="stat-num">1</div><div class="stat-label">进行中 Active</div></div>
-<div class="stat done"><div class="stat-num">220</div><div class="stat-label">已完成 Done</div></div>
+<div class="stat queued"><div class="stat-num">3</div><div class="stat-label">待领取 Queued</div></div>
+<div class="stat pending"><div class="stat-num">1</div><div class="stat-label">审查中 Review</div></div>
+<div class="stat active"><div class="stat-num">0</div><div class="stat-label">进行中 Active</div></div>
+<div class="stat done"><div class="stat-num">223</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">18</div><div class="stat-label">活跃角色</div></div>
 </div>
 
 
 <div class="task-group">
-<div class="group-header queued">待领取</div>
+<div class="group-header pending">审查中 · 等待欧阳锋</div>
 <div class="task-card">
-<div class="task-prio p2">P2</div>
-<div class="task-info">
-<div class="task-id">#221</div>
-<div class="task-title">KDO基础设施"讲香"升级P2：健康仪表盘+CLI设计原则文档+kdo_help新人引导+可发现性自查脚本</div>
-<div class="task-detail">黄药师建议书P2配套项；自查脚本交付后老顽童生产规范需更新；P2</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p2">P2</div>
+<div class="task-prio p1">P1</div>
 <div class="task-info">
 <div class="task-id">#224</div>
 <div class="task-title">全局元数据回填P2：长程渐进（~2200张discoverable_by长尾）</div>
-<div class="task-detail">长程任务（与#207同类节奏）；月度目标93.2%→70%→50%；不设截止；P2</div>
+<div class="task-detail">✅欧阳锋本阶段审查PASS(2026-08-04)：concepts 96.4%覆盖（477/495）+10批次零破坏（0 YAML失败/0双aliases）；剩余18张英文title长尾；hermes可进入下一目录（cases→tools…</div>
 </div>
 <div class="task-meta">
-<span class="task-assignee laowantong">老顽童</span>
+<span class="task-assignee laowantong">hermes</span>
 </div>
 </div>
+</div>
+<div class="task-group">
+<div class="group-header queued">待领取</div>
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
@@ -115,21 +107,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 </div>
-<div class="task-group">
-<div class="group-header active">进行中</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
-<div class="task-id">#223</div>
-<div class="task-title">全局aliases回填：860张卡补中文别名（tools/concepts/dk优先）</div>
-<div class="task-detail">🛑王语嫣紧急停手(2026-08-03 03:45)：**新增根因——#223与#222范围重叠（都含frameworks/），两个实例并行写入同一批文件导致C-10级破坏**（git 2626文件未提交=hermes持续执行中）。herm…</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee laowantong">hermes</span>
-</div>
-</div>
-</div>
 
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-03 19:44</footer>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-04 02:29</footer>
 </body>
 </html>

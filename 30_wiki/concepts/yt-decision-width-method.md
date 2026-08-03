@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-width-method
 component_of:
 - src_unknown
@@ -23,6 +24,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 宽度分析工具：列推建查四步法+三层盲区清单
+  - 宽度分析工具
+  - 列推建查四步法+三层盲区清单
 related:
 - '[[tool-制作行业化要素检查清单]]'
 - '[[tool-月白-供应商信息对齐清单法]]'

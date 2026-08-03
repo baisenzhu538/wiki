@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-b2b-pricing
@@ -21,6 +22,9 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - B2B定价策略：从SMB到Enterprise
+  - B2B定价策略
 related:
 - '[[yt-business-analysis-cognitive-biases]]'
 - '[[yt-business-formula-l6-essence-formulas]]'

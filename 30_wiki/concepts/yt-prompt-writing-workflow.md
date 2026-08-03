@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 id: yt-prompt-writing-workflow
@@ -46,6 +47,10 @@ updated_at: 2026-06-13
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium-high
+discoverable_by:
+  - AI写作工作流：大纲→要点→全文
+  - AI写作工作流
+  - 大纲→要点→全文
 related:
 - '[[yt-model-prompt-engineering]]'
 - '[[yt-prompt-brainstorming]]'

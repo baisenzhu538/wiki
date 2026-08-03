@@ -11,7 +11,6 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
-quality_labels:
 aliases:
   - audience:executor
   - scene:execution
@@ -20,10 +19,10 @@ aliases:
   - 老朱
   - 老朱AI能力刻意练习路线图：从工具使用到智能体搭建的24周
   - 能力刻意练习路线图
+quality_labels:
 source_refs:
 related:
 tags:
-aliases: []
 ---
 # 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周
 

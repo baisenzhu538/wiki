@@ -1,4 +1,5 @@
 ---
+
 id: case-laozhu-hongqigong-human-ai-partner-evolution
 title: 从Copilot到Partner：老朱×洪七公的人机协作跃迁诊断
 type: case
@@ -27,6 +28,9 @@ source_refs:
 - https://arxiv.org/abs/2506.12469
 - https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study
 - https://www.faros.ai/blog/harness-engineering
+discoverable_by:
+  - 从Copilot到Partner：老朱×洪七公的人机协作跃迁
+  - 老朱×洪七公的人机协作跃迁诊断
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-dual-triangle-weapon-library]]'

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-barrier-switching-costs
@@ -21,6 +22,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 转换成本：让用户离不开
+  - 转换成本
+  - 让用户离不开
 related:
 - '[[yt-barrier-brand-equity]]'
 - '[[yt-barrier-culture-moat]]'

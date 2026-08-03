@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-wrong-demand
 title: 需求找错案例集
 type: case
@@ -29,6 +30,8 @@ source_refs:
 - 00_inbox/精益创业/truman-精益创业-需求没有剥离的案例_vlm_desc.md
 - 00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_ocr_text.md
 - 00_inbox/精益创业/把商业模式从增长和收入目标剥离出来_vlm_desc.md
+discoverable_by:
+  - 需求找错案例集
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'

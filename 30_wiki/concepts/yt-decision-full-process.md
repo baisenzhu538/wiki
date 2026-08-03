@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-full-process
 component_of:
 - src_unknown
@@ -22,6 +23,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段
+  - 科学决策全景流程
+  - 有意识→写初版→细打磨→有共识→复盘五阶段模型
 related:
 - '[[yt-decision-width-method]]'
 - '[[yt-decision-depth-ladder]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-hardware-patent-rule-explicit
 title: 一行双三角案例：硬件公司专利落地的规则显性化与一号位决心
 type: case
@@ -26,6 +27,10 @@ source_refs:
 - 00_inbox/人机协作双三角/【组织】硬件公司专利案例口述.pdf
 - 00_inbox/人机协作双三角/_processed/组织硬件公司专利案例口述_text.md
 - 00_inbox/人机协作双三角/_processed/【组织】硬件公司-AI专利落地案例_vlm.md
+discoverable_by:
+  - 一行双三角案例：硬件公司专利落地的规则显性化与一号位决心
+  - 一行双三角案例
+  - 硬件公司专利落地的规则显性化与一号位决心
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'

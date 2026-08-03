@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-终局光谱图解读
 title: 终局光谱图解读：五条读法 + 七段风险/收益量化
 type: concept
@@ -25,6 +26,11 @@ source_refs:
 - 00_inbox/一堂-机会预判-终局光谱图解读-truman-02_paddle_ocr.txt L1-L5
 - 00_inbox/一堂-机会预判-终局光谱图示例-truman-图01_paddle_ocr.txt L1-L14
 - 00_inbox/一堂-机会预判-终局光谱图-truman-图01_paddle_ocr.txt
+discoverable_by:
+  - 终局光谱图解读：五条读法 + 七段风险/收益量化
+  - 终局光谱图解读
+  - 五条读法
+  - 七段风险/收益量化
 related:
 - '[[framework-一堂-机会预判]]'
 - '[[yt-foresight-business-spectrum]]'

@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-相关不等于因果
 title: 相关不等于因果：三种伪因果模式与聪明下属反噬规律
 type: concept
@@ -27,6 +28,10 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2640-L2784
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2788-L2914
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3186-L3192
+discoverable_by:
+  - 相关不等于因果：三种伪因果模式与聪明下属反噬规律
+  - 相关不等于因果
+  - 三种伪因果模式与聪明下属反噬规律
 related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'

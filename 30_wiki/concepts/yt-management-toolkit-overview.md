@@ -1,4 +1,5 @@
 ---
+
 id: yt-management-toolkit-overview
 component_of:
 - src_unknown
@@ -30,6 +31,13 @@ query_triggers:
 - src_unknown选择
 - src_unknown
 - src_unknown
+aliases:
+  - 管理工具箱
+  - 管理工具概览
+  - 工具箱总览
+  - 管理工具箱总览
+discoverable_by:
+  - 管理工具箱总览
 related:
 - '[[yt-model-personal-map]]'
 - '[[yt-tool-project-health-radar]]'
@@ -39,9 +47,6 @@ related:
 - '[[yt-tool-onboarding-90day]]'
 - '[[yt-tool-okr-cycle]]'
 - '[[yt-tool-strategy-workshop]]'
-aliases:
-  - 工具箱总览
-  - 管理工具箱总览
 source_refs:
 - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
 status: reviewed

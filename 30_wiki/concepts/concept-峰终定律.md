@@ -1,4 +1,5 @@
 ---
+
 id: concept-峰终定律
 title: 峰终定律：用户体验的二八定律
 type: concept
@@ -18,6 +19,10 @@ aliases:
   - 用户体验的二八定律
 source_refs:
 - src_unknown
+discoverable_by:
+  - 峰终定律：用户体验的二八定律
+  - 峰终定律
+  - 用户体验的二八定律
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

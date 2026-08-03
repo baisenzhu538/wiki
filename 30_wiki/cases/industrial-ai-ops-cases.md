@@ -1,4 +1,5 @@
 ---
+
 id: industrial-ai-ops-cases
 title: 产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真
 type: case
@@ -20,6 +21,10 @@ source_refs:
 - pending_archive:src_20260614_eca9f5b3-酒店行业-AI标签审核案例
 - pending_archive:src_20260614_b85c364e-贝壳-云管家AI外呼案例
 - pending_archive:src_20260614_4b3b6427-阿豪-自动选品系统案例
+discoverable_by:
+  - 产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真
+  - 运营落地
+  - 酒店/房产/电商三大案例的去伪存真
 related:
 - '[[dk-modeling-ai-judgment-limit]]'
 - '[[dk-modeling-ai-compound-leverage]]'

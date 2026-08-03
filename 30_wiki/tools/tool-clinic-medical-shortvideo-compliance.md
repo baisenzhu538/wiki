@@ -1,3 +1,4 @@
+---
 id: tool-clinic-medical-shortvideo-compliance
 title: 诊所医疗短视频/个人 IP 合规边界 checklist
 type: tool

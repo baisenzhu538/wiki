@@ -1,7 +1,12 @@
 ---
+
 id: yt-five-step-implementation
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
+discoverable_by:
+  - 五步法落地实操：从故事版到分工版
+  - 五步法落地实操
+  - 从故事版到分工版
 quality_labels:
 - actionable
 - cited

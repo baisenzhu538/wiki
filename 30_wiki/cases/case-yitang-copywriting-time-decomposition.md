@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-copywriting-time-decomposition
 title: 一堂文案团队时间拆解：把「写稿」拆成可测量的工序
 type: case
@@ -26,6 +27,10 @@ source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-笔记.txt
 - case-yitang-Y-model-advertising-turnaround
+discoverable_by:
+  - 一堂文案团队时间拆解：把写稿拆成可测量的工序
+  - 一堂文案团队时间拆解
+  - 把写稿拆成可测量的工序
 related:
 - concept-time-block-energy-fit
 - tool-time-audit-matrix

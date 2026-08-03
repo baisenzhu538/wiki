@@ -1,4 +1,5 @@
 ---
+
 id: yt-pitch-materialization
 component_of:
 - src_unknown
@@ -19,6 +20,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 讲香·素材化
+  - 素材化
 related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-concept-weapon-arsenal]]'

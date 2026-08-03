@@ -1,4 +1,5 @@
 ---
+
 id: yt-unit-model-selection
 confidence: 0.8
 created_at: 2026-05-24
@@ -16,6 +17,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 单元模型选择法：复制哪个算哪个，找到核心经济单元
+  - 单元模型选择法
+  - 复制哪个算哪个，找到核心经济单元
 related:
 - '[[yt-unit-model-ladder]]'
 - '[[yt-unit-model-construction]]'

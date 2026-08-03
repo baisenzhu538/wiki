@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-lekai-film
 title: 乐凯胶卷：乾坤大挪移——胶卷→光学薄膜→新赛道存活
 type: case
@@ -25,6 +26,11 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_242_vlm_desc.md
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
+discoverable_by:
+  - 乐凯胶卷：乾坤大挪移——胶卷→光学薄膜→新赛道存活
+  - 乐凯胶卷
+  - 乾坤大挪移
+  - 胶卷→光学薄膜→新赛道存活
 related:
 - '[[strategy-domain-digest]]'
 - '[[case-strategy-fangte-disney]]'

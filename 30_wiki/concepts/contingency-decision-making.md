@@ -1,4 +1,5 @@
 ---
+
 id: contingency-decision-making
 title: 偶然性与决策：承认'我不知道'比虚假确定性更明智
 type: concept
@@ -18,6 +19,10 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260606_cde17edd-大的事件它可能是必然的它是被计划的.md
 component_of: null
+discoverable_by:
+  - 偶然性与决策：承认'我不知道'比虚假确定性更明智
+  - 偶然性与决策
+  - 承认'我不知道'比虚假确定性更明智
 related:
 - '[[ai-collaboration-mindset-shift]]'
 - '[[ai-landing-scene-selection]]'

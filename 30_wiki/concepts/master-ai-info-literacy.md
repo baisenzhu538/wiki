@@ -1,4 +1,5 @@
 ---
+
 domain:
 - master
 id: master-ai-info-literacy
@@ -20,6 +21,8 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
+discoverable_by:
+  - AI时代信息素养框架
 related:
 - '[[master-cognitive-bias-checklist]]'
 - '[[master-decision-hygiene]]'

@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-pan-product-tools
 component_of:
 - src_unknown
@@ -16,6 +17,10 @@ query_triggers:
 - src_unknown
 - src_unknown工具篇
 - src_unknown工具篇：出牌教学法与30张卡牌
+discoverable_by:
+  - 泛产品设计工具篇：出牌教学法与30张卡牌
+  - 泛产品设计工具篇
+  - 出牌教学法与30张卡牌
 related:
 - '[[yt-model-pan-product-36-strategies]]'
 - '[[yt-personal-pan-product-concepts]]'

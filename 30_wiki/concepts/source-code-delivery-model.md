@@ -1,4 +1,5 @@
 ---
+
 id: source-code-delivery-model
 title: 源码交付模式
 type: concept
@@ -19,14 +20,16 @@ diagnostic_signals:
 - signal: 源码交付是否被当成逃避 SaaS 订阅锁定的方式
   framework_lens: 锁定 vs 自主 / 隐性成本
   follow_up_question: 客户是否意识到数据与安全责任转移？
-aliases:
-  - 交付模式
-  - 源码交付模式
 source_refs:
 - 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
 - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
 - src_unknown
 - src_unknown
+aliases:
+  - 交付模式
+  - 源码交付模式
+discoverable_by:
+  - 源码交付模式
 quality_labels:
 - cited
 - principle
@@ -47,7 +50,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:advanced
-aliases: []
 ---
 # 源码交付模式
 

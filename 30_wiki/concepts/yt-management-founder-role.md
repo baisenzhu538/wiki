@@ -1,4 +1,5 @@
 ---
+
 title: 一号位
 type: concept
 domain:
@@ -30,6 +31,8 @@ aliases:
   - 一号位
 source_refs:
 - 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md
+discoverable_by:
+  - 一号位
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'

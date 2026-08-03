@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-genki-forest-toolkit
 title: 元气森林试错工具箱
 type: case
@@ -25,6 +26,8 @@ aliases:
 source_refs:
 - 00_inbox/精益创业/元气森林-试错工具箱_ocr_text.md
 - 00_inbox/精益创业/元气森林-试错工具箱_vlm_desc.md
+discoverable_by:
+  - 元气森林试错工具箱
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'

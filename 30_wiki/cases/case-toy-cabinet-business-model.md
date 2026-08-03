@@ -1,6 +1,10 @@
 ---
+
 id: case-toy-cabinet-business-model
 confidence: 0.85
+discoverable_by:
+  - 案例：线下玩具柜商业模式
+  - 线下玩具柜商业模式
 quality_labels:
 - actionable
 - cited

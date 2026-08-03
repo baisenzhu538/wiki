@@ -1,4 +1,5 @@
 ---
+
 id: industry-ai-cases
 title: 产业 AI 落地案例集（非药柜）：主题综合索引卡
 type: concept
@@ -19,6 +20,10 @@ aliases:
   - 王语嫣
   - 落地案例集非药柜
 source_refs:
+discoverable_by:
+  - 产业 AI 落地案例集非药柜：主题综合索引卡
+  - 落地案例集非药柜
+  - 主题综合索引卡
 tags:
 created_at: '2026-06-14'
 quality_labels:

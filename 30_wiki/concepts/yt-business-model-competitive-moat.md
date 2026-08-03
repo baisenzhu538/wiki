@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-competitive-moat
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 商业模式护城河：持续竞争优势
+  - 商业模式护城河
+  - 持续竞争优势
 related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'

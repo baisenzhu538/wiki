@@ -1,4 +1,5 @@
 ---
+
 id: case-纪浩-focus-prompt-design
 title: 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接
 type: case
@@ -20,6 +21,12 @@ source_refs:
 - 10_raw/sources/src_20260619_5ec7f3c8_00_inbox_AI俱乐部_人和AI协作_纪浩_提示词案例02.txt
 - 10_raw/sources/src_20260619_d9794671_00_inbox_AI俱乐部_人和AI协作_纪浩_五层结构_图片01.png
 - 10_raw/sources/src_20260619_df980155_00_inbox_AI俱乐部_人和AI协作_纪浩_参考案例_图片02.png
+discoverable_by:
+  - 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S
+  - 纪浩的
+  - 协作产品设计
+  - 设计冻结到
+  - 实现交接
 tags:
 - src_unknown
 - src_unknown

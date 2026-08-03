@@ -1,4 +1,5 @@
 ---
+
 id: ai-virtual-coach-prompt
 title: AI 虚拟教练提示词模板
 type: tool
@@ -6,6 +7,9 @@ domain:
 - ai-collaboration
 - skill-building
 status: reviewed
+discoverable_by:
+  - AI 虚拟教练提示词模板
+  - 虚拟教练提示词模板
 quality_labels:
 - actionable
 - cited

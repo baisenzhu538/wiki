@@ -1,4 +1,5 @@
 ---
+
 id: case-modeling-process-sop-examples
 title: 流程建模案例：10 个学员企业的 SOP 实践样本
 type: case
@@ -17,6 +18,11 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_1e814b94-Truman-高阶建模-流程建模-图-02.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+discoverable_by:
+  - 流程建模案例：10 个学员企业的 SOP 实践样本
+  - 流程建模案例
+  - 个学员企业的
+  - 实践样本
 tags:
 - src_unknown
 - src_unknown

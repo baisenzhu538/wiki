@@ -1,4 +1,5 @@
 ---
+
 id: concept-科学决策宽度
 title: 科学决策宽度：个人·企业·团队三层视角
 type: concept
@@ -22,6 +23,10 @@ source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-宽度-个人_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-宽度-企业_vlm_desc.md
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-宽度-团队_vlm_desc.md
+discoverable_by:
+  - 科学决策宽度：个人·企业·团队三层视角
+  - 科学决策宽度
+  - 团队三层视角
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

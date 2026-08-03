@@ -1,4 +1,5 @@
 ---
+
 id: 紫鲸ai智能体工作流平台
 created_at: 2026-04-28
 domain: ai-saas
@@ -18,6 +19,8 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - 紫鲸AI智能体工作流平台
 related:
 - '[[紫鲸AI]]'
 - '[[紫鲸ai_智能体工作流平台_深度分析与产品设计]]'

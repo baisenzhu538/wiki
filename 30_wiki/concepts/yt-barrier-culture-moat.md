@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-barrier-culture-moat
@@ -21,6 +22,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 文化护城河：难以复制
+  - 文化护城河
+  - 难以复制
 related:
 - '[[yt-barrier-brand-equity]]'
 - '[[yt-barrier-data-assets]]'

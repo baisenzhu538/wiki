@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-failure-02-supermarket
 title: 案例：精品超市O——目标错误。高速增长期追求盈利反噬增长
 type: case
@@ -29,6 +30,10 @@ source_refs:
 - src_unknown
 - src_unknown
 updated_at: '2026-06-29'
+discoverable_by:
+  - 案例：精品超市O——目标错误。高速增长期追求盈利反噬增长
+  - 精品超市O
+  - 目标错误。高速增长期追求盈利反噬增长
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-从案例中学习]]'

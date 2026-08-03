@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-truman-time-management-transformation
 title: 案例：Truman 用 Y模型 重构时间管理——从被动打断到科学体系
 type: case
@@ -24,6 +25,10 @@ aliases:
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 60_feedback/extractions/extraction-kexue-linian-y-model.md
+discoverable_by:
+  - 案例：Truman 用 Y模型 重构时间管理——从被动打断到
+  - 重构时间管理
+  - 从被动打断到科学体系
 related:
 - '[[yt-decision-y-model]]'
 - '[[method-yitang-y-model-engine-cycle]]'

@@ -1,4 +1,5 @@
 ---
+
 id: yt-concept-ai-guard-brain
 title: 守脑如玉：AI时代保持大脑锋利
 type: concept
@@ -17,6 +18,10 @@ language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.85
+discoverable_by:
+  - 守脑如玉：AI时代保持大脑锋利
+  - 守脑如玉
+  - AI时代保持大脑锋利
 related:
 - '[[yt-model-prompt-engineering]]'
 - '[[yt-model-ipo-learning-strategy]]'

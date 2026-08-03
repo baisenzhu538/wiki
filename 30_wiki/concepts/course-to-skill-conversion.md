@@ -1,4 +1,5 @@
 ---
+
 id: course-to-skill-conversion
 title: 课程到Skill转化：将知识变成AI可执行的能力模块
 type: tool
@@ -21,6 +22,10 @@ source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 component_of:
 - src_unknown
+discoverable_by:
+  - 课程到Skill转化：将知识变成AI可执行的能力模块
+  - 课程到Skill转化
+  - 将知识变成AI可执行的能力模块
 related:
 - '[[ai-learning-closed-loop]]'
 - '[[prd-as-ai-instruction]]'

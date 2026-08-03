@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-product-core-canvas
 confidence: 0.85
 created_at: 2026-06-06
@@ -20,6 +21,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 产品内核画布与九大原则
 related:
 - '[[yitang-course-map]]'
 - '[[yt-entrepreneur-product-core]]'

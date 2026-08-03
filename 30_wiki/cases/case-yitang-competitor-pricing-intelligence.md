@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-competitor-pricing-intelligence
 title: 案例：假装订货套取竞品真实价格
 type: case
@@ -20,6 +21,9 @@ aliases:
   - 订货套取竞品真实价格
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
+discoverable_by:
+  - 案例：假装订货套取竞品真实价格
+  - 假装订货套取竞品真实价格
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

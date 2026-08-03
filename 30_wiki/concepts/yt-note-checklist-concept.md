@@ -1,4 +1,5 @@
 ---
+
 id: yt-note-checklist-concept
 title: 一堂笔记法：清单体笔记的核心概念与原理
 type: concept
@@ -10,6 +11,10 @@ language: zh-CN
 version: 1
 difficulty: beginner
 confidence: 0.75
+discoverable_by:
+  - 一堂笔记法：清单体笔记的核心概念与原理
+  - 一堂笔记法
+  - 清单体笔记的核心概念与原理
 related:
 - '[[yt-note-five-levels-training]]'
 - '[[yt-note-ai-human-division]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-doris-grab-industry-cognition
 title: 案例：Doris 7天从零建立行业认知
 type: case
@@ -21,6 +22,9 @@ aliases:
   - 案例：Doris7天从零建立行业认知
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
+discoverable_by:
+  - 案例：Doris 7天从零建立行业认知
+  - 7天从零建立行业认知
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

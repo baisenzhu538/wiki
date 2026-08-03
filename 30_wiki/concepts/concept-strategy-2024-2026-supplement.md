@@ -1,4 +1,5 @@
 ---
+
 id: concept-strategy-2024-2026-supplement
 title: 2024-2026战略新变量：AI决策/地缘政治/ESG——冉鹏课程未覆盖的盲区
 type: concept
@@ -21,6 +22,11 @@ aliases:
   - 课程未覆盖的盲区
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md
+discoverable_by:
+  - 2024-2026战略新变量：AI决策/地缘政治/ESG——
+  - 2026战略新变量
+  - AI决策/地缘政治/ESG
+  - 冉鹏课程未覆盖的盲区
 related:
 - '[[strategy-domain-digest]]'
 - '[[concept-X型Y型决策习惯]]'

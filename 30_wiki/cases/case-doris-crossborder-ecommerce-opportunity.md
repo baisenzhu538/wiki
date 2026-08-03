@@ -1,4 +1,5 @@
 ---
+
 id: case-doris-crossborder-ecommerce-opportunity
 title: 案例：跨境电商机会识别——从报告到行动
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 跨境电商机会识别从报告到行动
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
+discoverable_by:
+  - 案例：跨境电商机会识别——从报告到行动
+  - 跨境电商机会识别
+  - 从报告到行动
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

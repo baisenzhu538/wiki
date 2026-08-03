@@ -1,4 +1,5 @@
 ---
+
 id: case-agent-self-evolution-pilot
 title: Agent自我进化试点：#200任务的完整过程记录
 type: case
@@ -19,6 +20,10 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
 - 30_wiki/frameworks/framework-kdo-modeling-methodology.md
 - .agent/pitfalls.md
+discoverable_by:
+  - Agent自我进化试点：#200任务的完整过程记录
+  - Agent自我进化试点
+  - #200任务的完整过程记录
 related:
 - concept-kdo-agent-design-principles
 - concept-kdo-agent-four-level-awareness

@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-fangte-disney
 title: 方特vs迪士尼：集团战略的范围经济——有IP也打不过
 type: case
@@ -23,6 +24,11 @@ aliases:
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
 - 00_inbox/战略专题/_strategy_cards_implementation_status.md
+discoverable_by:
+  - 方特vs迪士尼：集团战略的范围经济——有IP也打不过
+  - 方特vs迪士尼
+  - 集团战略的范围经济
+  - 有IP也打不过
 related:
 - '[[strategy-domain-digest]]'
 - '[[case-strategy-li-ka-shing]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-panproduct-top135-selection-polish
 title: 案例：top 1/top 3/top 5 筛选打磨
 type: case
@@ -20,6 +21,9 @@ aliases:
   - 筛选打磨
 source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
+discoverable_by:
+  - 案例：top 1/top 3/top 5 筛选打磨
+  - 筛选打磨
 related:
 - '[[yt-growth-channel-roi]]'
 - '[[tool-泛产品落地-ROI分析]]'

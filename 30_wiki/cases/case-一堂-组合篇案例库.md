@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-组合篇案例库
 title: 一堂转化率黑客组合篇案例索引库（动力×阻力×触点落地工作流）
 type: case
@@ -35,6 +36,8 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3338-L3374
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3616-L3668
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3858-L3880
+discoverable_by:
+  - 一堂转化率黑客组合篇案例索引库动力×阻力×触点落地工作流
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'

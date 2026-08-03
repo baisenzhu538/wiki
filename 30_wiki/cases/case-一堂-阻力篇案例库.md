@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-阻力篇案例库
 title: 一堂转化率黑客阻力篇案例索引库（12 种阻力消除）
 type: case
@@ -33,6 +34,10 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L4070-L4090
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L4518-L4524
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L4718-L4736
+discoverable_by:
+  - 一堂转化率黑客阻力篇案例索引库12 种阻力消除
+  - 一堂转化率黑客阻力篇案例索引库12
+  - 种阻力消除
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'

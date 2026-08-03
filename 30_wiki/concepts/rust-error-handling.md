@@ -1,4 +1,5 @@
 ---
+
 id: rust-error-handling
 title: "Rust 错误处理：Result、? 与分层策略"
 type: concept
@@ -13,6 +14,10 @@ aliases:
 source_refs:
   - pending_archive
 created_at: 2026-06-02
+discoverable_by:
+  - Rust 错误处理：Result、? 与分层策略
+  - 错误处理
+  - 与分层策略
 ---
 
 # Rust 错误处理

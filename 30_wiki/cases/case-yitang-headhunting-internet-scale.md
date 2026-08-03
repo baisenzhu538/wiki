@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-headhunting-internet-scale
 title: 案例：猎头互联网做大——忽视行业结构性限制
 type: case
@@ -24,6 +25,10 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 案例：猎头互联网做大——忽视行业结构性限制
+  - 猎头互联网做大
+  - 忽视行业结构性限制
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 tags:

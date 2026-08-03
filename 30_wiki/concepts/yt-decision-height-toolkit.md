@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-height-toolkit
 component_of:
 - src_unknown
@@ -22,6 +23,11 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 高度分析工具：上帝视角四维提升法 + 高水平共识曲线
+  - 高度分析工具
+  - 上帝视角四维提升法
+  - 高水平共识曲线
 related:
 - '[[yt-model-liberate-thinking-layers]]'
 - '[[yt-decision-habit-shift]]'

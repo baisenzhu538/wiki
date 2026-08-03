@@ -1,4 +1,5 @@
 ---
+
 id: concept-smart-medicine-cabinet-digital-pharmacy-diagnosis
 title: 智能药柜/数字药房项目诊断：大院处方、小院续方模式
 type: concept
@@ -24,6 +25,10 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
+discoverable_by:
+  - 智能药柜/数字药房项目诊断：大院处方、小院续方模式
+  - 智能药柜/数字药房项目诊断
+  - 大院处方、小院续方模式
 related:
 - - - ai时代判断力口述
 - - - deepseek-v4-在知识管理系统中的应用

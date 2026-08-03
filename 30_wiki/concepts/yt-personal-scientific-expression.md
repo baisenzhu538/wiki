@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-scientific-expression
 confidence: 0.8
 created_at: 2026-05-06
@@ -18,6 +19,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 科学表达火箭模型
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'

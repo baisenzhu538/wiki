@@ -1,7 +1,12 @@
 ---
+
 id: yt-five-step-common-pitfalls
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
+discoverable_by:
+  - 暗知识：五步法常见误区与认知陷阱
+  - 暗知识
+  - 五步法常见误区与认知陷阱
 quality_labels:
 - cited
 - quality

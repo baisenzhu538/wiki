@@ -1,4 +1,5 @@
 ---
+
 id: yt-prompt-engineering-andrew-ng
 confidence: 0.8
 created_at: 2026-05-13
@@ -18,6 +19,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 吴恩达提示词课程·一堂拆书精华
+  - 吴恩达提示词课程
+  - 一堂拆书精华
 related:
 - '[[yt-model-prompt-engineering]]'
 - '[[dk-modeling-ai-judgment-limit]]'

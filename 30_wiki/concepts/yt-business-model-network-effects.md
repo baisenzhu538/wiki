@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-network-effects
@@ -21,6 +22,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 网络效应：平台型商业模式的核心
+  - 网络效应
+  - 平台型商业模式的核心
 related:
 - '[[tool-使用优先级快筛卡锁定核心矛盾]]'
 - '[[pending_unknown]]'

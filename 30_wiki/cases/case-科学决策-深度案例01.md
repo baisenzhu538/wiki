@@ -1,4 +1,5 @@
 ---
+
 id: case-科学决策-深度案例01
 title: 案例：全员涨薪20%的ROI决策
 type: case
@@ -21,6 +22,9 @@ aliases:
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例01_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-深度-案例01.md
+discoverable_by:
+  - 案例：全员涨薪20%的ROI决策
+  - 全员涨薪20%的ROI决策
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

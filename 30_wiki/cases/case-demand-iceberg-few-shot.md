@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-iceberg-few-shot
 title: 需求冰山Few-Shot案例库：奶昔/银发育儿/挂脖空调/马术课
 type: case
@@ -24,6 +25,11 @@ aliases:
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-JTBD理论-口述.txt L1034-L1044
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt
+discoverable_by:
+  - 需求冰山Few-Shot案例库：奶昔/银发育儿/挂脖空调/马
+  - 需求冰山Few
+  - Shot案例库
+  - 奶昔/银发育儿/挂脖空调/马术课
 related:
 - '[[tool-demand-iceberg-l1-user]]'
 - '[[tool-demand-iceberg-l3-core-job]]'

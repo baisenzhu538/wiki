@@ -1,4 +1,5 @@
 ---
+
 id: case-ban-fei-mao-conversion-hacker-skill
 title: 案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程
 type: case
@@ -20,6 +21,10 @@ source_refs:
 - 10_raw/sources/src_20260617_26d0ee0b-ai俱乐部-ai学习落地-半肥猫-笔记.txt
 created_at: 2026-06-07
 updated_at: '2026-06-29'
+discoverable_by:
+  - 案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过
+  - 一堂转化率黑客课→Skill
+  - 从拿到资料到测试通过的完整历程
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'

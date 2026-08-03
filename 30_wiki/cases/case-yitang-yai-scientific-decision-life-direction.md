@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-yai-scientific-decision-life-direction
 title: YAI实录：关键决策agent——50岁创业者的"留vs走"与赛道选择
 type: case
@@ -21,6 +22,10 @@ aliases:
   - 走与赛道选择
 source_refs:
 - C:/Users/Administrator/Desktop/YAI/关键决策agent-我现在面临重大的人生方向选择的 (1).md
+discoverable_by:
+  - YAI实录：关键决策agent——50岁创业者的留vs走与赛
+  - 关键决策agent
+  - 50岁创业者的留vs走与赛道选择
 related:
 - '[[method-一堂-教练对话引擎协议]]'
 - '[[yt-decision-y-model]]'

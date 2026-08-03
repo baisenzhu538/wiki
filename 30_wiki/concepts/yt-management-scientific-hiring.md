@@ -1,4 +1,5 @@
 ---
+
 title: 科学招聘
 type: concept
 domain:
@@ -27,6 +28,8 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
+discoverable_by:
+  - 科学招聘
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'

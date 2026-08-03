@@ -1,4 +1,5 @@
 ---
+
 domain:
 - ai-saas
 id: ai-short-drama-platform-policy-comparison
@@ -23,6 +24,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
+discoverable_by:
+  - 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/
+  - 主流短剧平台政策对比
+  - 抖音/红果/快手/腾讯/爱奇艺/优酷/芒果
 related:
 - '[[ai-short-drama-plot-three-axes]]'
 tags:

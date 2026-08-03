@@ -1,4 +1,5 @@
 ---
+
 id: yt-lean-flower-mom-group-leader
 title: 生活鲜花宝妈团长：拆C端与小B的分阶段验证
 type: case
@@ -17,6 +18,10 @@ aliases:
 source_refs:
 - 10_raw/sources/zhanglei-lean-testing-oral-01.md
 - 10_raw/sources/zhanglei-lean-testing-notes-01.md
+discoverable_by:
+  - 生活鲜花宝妈团长：拆C端与小B的分阶段验证
+  - 生活鲜花宝妈团长
+  - 拆C端与小B的分阶段验证
 tags:
 - src_unknown
 - src_unknown

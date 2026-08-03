@@ -1,4 +1,5 @@
 ---
+
 id: index
 title: index
 type: index
@@ -14,6 +15,8 @@ source_refs:
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+aliases:
+  - 案例索引
 tags:
 - audience:manager
 - scene:reference

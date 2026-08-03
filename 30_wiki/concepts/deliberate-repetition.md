@@ -1,4 +1,5 @@
 ---
+
 id: deliberate-repetition
 title: 刻意重复
 type: concept
@@ -6,6 +7,8 @@ domain:
 - ai-collaboration
 - skill-building
 status: reviewed
+discoverable_by:
+  - 刻意重复
 quality_labels:
 - cited
 - principle

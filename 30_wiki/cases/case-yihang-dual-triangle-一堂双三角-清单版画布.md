@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-一堂双三角-清单版画布
 title: 一堂双三角-清单版画布 — 双三角案例
 type: case
@@ -23,6 +24,11 @@ aliases:
   - 清单版画布
   - 版画布
 source_refs:
+discoverable_by:
+  - 一堂双三角-清单版画布 — 双三角案例
+  - 一堂双三角
+  - 清单版画布
+  - 双三角案例
 tags:
 reviewed_by: pending
 ---

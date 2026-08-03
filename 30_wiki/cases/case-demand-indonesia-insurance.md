@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-indonesia-insurance
 title: 案例：印尼寿险分支——场景错配
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 案例：印尼寿险分支场景错配
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
+discoverable_by:
+  - 案例：印尼寿险分支——场景错配
+  - 印尼寿险分支
+  - 场景错配
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-从案例中学习]]'

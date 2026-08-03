@@ -1,4 +1,5 @@
 ---
+
 id: case-纪浩-from-zip-to-five-layers
 title: 纪浩：从微信传 zip 到五层协作体系
 type: case
@@ -18,6 +19,10 @@ source_refs:
 - 10_raw/sources/src_20260606_6ea91aa8-纪浩-AI协作方法论-口述.md
 - 10_raw/sources/src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记.md
 - 10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md
+discoverable_by:
+  - 纪浩：从微信传 zip 到五层协作体系
+  - 从微信传
+  - 到五层协作体系
 related:
 - '[[tool-纪浩-problem-validation-four-checks]]'
 - '[[case-纪浩-focus-prompt-design]]'

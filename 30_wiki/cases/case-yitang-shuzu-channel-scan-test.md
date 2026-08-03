@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-shuzu-channel-scan-test
 type: case
 title: 案例：数族如何扫描 100+ 渠道并跑通支付合作
@@ -13,6 +14,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
+discoverable_by:
+  - 案例：数族如何扫描 100+ 渠道并跑通支付合作
+  - 数族如何扫描
+  - 渠道并跑通支付合作
 quality_labels:
 - actionable
 - cited

@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-practice-ranpeng-crossborder
 title: 冉鹏失败案例：美区TikTok跨境电商——3个月一单没卖
 type: case
@@ -29,6 +30,11 @@ source_refs:
 - src_unknown
 reviewed_by: 欧阳锋
 updated_at: '2026-06-29'
+discoverable_by:
+  - 冉鹏失败案例：美区TikTok跨境电商——3个月一单没卖
+  - 冉鹏失败案例
+  - 美区TikTok跨境电商
+  - 3个月一单没卖
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-从案例中学习]]'

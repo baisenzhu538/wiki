@@ -13,6 +13,9 @@ language: zh-CN
 prerequisites: []
 query_triggers: null
 diagnostic_signals: null
+aliases:
+  - AI原生组织五步法
+  - AI原生组织
 related:
 - '[[concept-harness-cattle-not-pets]]'
 - '[[concept-X型Y型决策习惯]]'
@@ -45,7 +48,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 公司组织方法论直接把公司当操作系统来设计中层管理变成了
 - 放出一套
 ---

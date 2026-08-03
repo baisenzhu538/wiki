@@ -1,4 +1,5 @@
 ---
+
 title: 一堂课程地图精华串讲
 type: concept
 status: reviewed
@@ -9,6 +10,8 @@ source_refs:
 - 10_raw/sources/src_20260506_13e7bbca-值班主.md
 - 10_raw/sources/src_20260507_3f2ac357-值班主.md
 id: yt-system-course-map-lecture
+discoverable_by:
+  - 一堂课程地图精华串讲
 quality_labels:
 - principle
 - quality

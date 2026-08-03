@@ -1,4 +1,5 @@
 ---
+
 domain:
 - healthcare
 id: smart-medicine-cabinet-distribution
@@ -30,6 +31,8 @@ source_refs:
 - src_unknown
 - src_unknown
 created_at: 2026-06-13
+discoverable_by:
+  - 智能药柜分销业态洞察
 quality_labels:
 - cited
 - principle

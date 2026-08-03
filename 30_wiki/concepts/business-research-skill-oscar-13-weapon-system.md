@@ -1,4 +1,5 @@
 ---
+
 id: business-research-skill-oscar-13-weapon-system
 created_at: 2026-05-04
 domain:
@@ -6,10 +7,6 @@ domain:
 review_date: 2026-05-04
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
-aliases:
-  - 13武器体系
-  - 实现
-  - 武器体系
 source_refs:
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 status: enriched
@@ -19,6 +16,13 @@ type: concept
 updated_at: '2026-06-28'
 author: 老顽童
 confidence: 0.7
+aliases:
+  - 13武器体系
+  - 实现
+  - 武器体系
+discoverable_by:
+  - Business Research Skill — OSCA
+  - 13武器体系
 related:
 - '[[truman-perspective-skill]]'
 - '[[concept-yitang-research-objective]]'
@@ -33,7 +37,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases: []
 ---
 
 

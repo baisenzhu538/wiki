@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-kernel-validation
 title: 产品内核验证：三维度评估 + 六策略验证
 type: concept
@@ -21,6 +22,11 @@ source_refs:
 - src_unknown
 created_at: 2026-06-09
 updated_at: '2026-07-08'
+discoverable_by:
+  - 产品内核验证：三维度评估 + 六策略验证
+  - 产品内核验证
+  - 三维度评估
+  - 六策略验证
 related:
   - "[[concept-一堂-key-assumptions]]"
   - "[[concept-一堂-kernel-iteration]]"

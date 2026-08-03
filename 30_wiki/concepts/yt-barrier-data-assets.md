@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-barrier-data-assets
@@ -21,6 +22,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 数据资产：数据网络效应
+  - 数据资产
+  - 数据网络效应
 related:
 - '[[tool-Truman-个人判断力系统建设（达克效应应对）]]'
 - '[[tool-水水-识别饥饿效应]]'

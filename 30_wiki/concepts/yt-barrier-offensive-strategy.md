@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-barrier-offensive-strategy
@@ -21,6 +22,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 进攻策略：突破竞品壁垒
+  - 进攻策略
+  - 突破竞品壁垒
 related:
 - '[[tool-单元模型-壁垒预判]]'
 - '[[pending_unknown]]'

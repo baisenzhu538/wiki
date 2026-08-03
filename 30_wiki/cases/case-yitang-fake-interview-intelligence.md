@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-fake-interview-intelligence
 title: 案例：假扮面试发现行业红利退潮
 type: case
@@ -20,6 +21,9 @@ aliases:
   - 面试发现行业红利退潮
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
+discoverable_by:
+  - 案例：假扮面试发现行业红利退潮
+  - 假扮面试发现行业红利退潮
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

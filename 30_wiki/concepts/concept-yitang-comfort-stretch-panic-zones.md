@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-comfort-stretch-panic-zones
 type: concept
 title: 练习区域分层：舒适区、拉伸区、困难区、恐慌区
@@ -11,6 +12,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
+discoverable_by:
+  - 练习区域分层：舒适区、拉伸区、困难区、恐慌区
+  - 练习区域分层
+  - 舒适区、拉伸区、困难区、恐慌区
 quality_labels:
 - cited
 - principle

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-supplier-security-guard
 title: 案例：通过保安打听到工厂收购价
 type: case
@@ -20,6 +21,9 @@ aliases:
   - 通过保安打听到工厂收购价
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - 案例：通过保安打听到工厂收购价
+  - 通过保安打听到工厂收购价
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

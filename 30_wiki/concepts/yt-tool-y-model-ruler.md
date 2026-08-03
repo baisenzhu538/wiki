@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-y-model-ruler
 component_of:
 - src_unknown
@@ -23,6 +24,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - Y模型尺子刻度法：从模糊经验到可复用评估模型
+  - Y模型尺子刻度法
+  - 从模糊经验到可复用评估模型
 related:
 - '[[yt-tool-best-practice-learning]]'
 - '[[yt-tool-fab-persuasion]]'

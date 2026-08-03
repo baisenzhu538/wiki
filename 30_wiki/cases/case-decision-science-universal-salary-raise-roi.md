@@ -1,4 +1,5 @@
 ---
+
 id: case-decision-science-universal-salary-raise-roi
 title: 案例：全员涨薪20%的ROI测算
 type: case
@@ -21,6 +22,9 @@ aliases:
   - 案例：全员涨薪20%的ROI测算
 source_refs:
 - 00_inbox/科学决策/一堂-科学决策-审美拉升01口述.txt
+discoverable_by:
+  - 案例：全员涨薪20%的ROI测算
+  - 全员涨薪20%的ROI测算
 related:
 - '[[yt-decision-y-model]]'
 - '[[tool-泛产品落地-ROI分析]]'

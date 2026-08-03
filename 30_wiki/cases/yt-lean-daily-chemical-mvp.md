@@ -1,4 +1,5 @@
 ---
+
 id: yt-lean-daily-chemical-mvp
 title: 日化沐浴露MVP：不生产产品验证行业机会
 type: case
@@ -19,6 +20,10 @@ aliases:
 source_refs:
 - 10_raw/sources/zhanglei-lean-testing-oral-01.md
 - 10_raw/sources/zhanglei-lean-testing-notes-01.md
+discoverable_by:
+  - 日化沐浴露MVP：不生产产品验证行业机会
+  - 日化沐浴露MVP
+  - 不生产产品验证行业机会
 tags:
 - src_unknown
 - src_unknown

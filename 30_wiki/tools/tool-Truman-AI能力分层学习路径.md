@@ -1,4 +1,5 @@
 ---
+
 id: tool-Truman-AI能力分层学习路径
 title: AI 能力分层学习路径：从零基础?Feature 专家的五层进?
 type: tool
@@ -18,6 +19,11 @@ source_refs:
 - 00_inbox/AI-study/一?AI学习-AI工具应用AMA口述.txt
 - 10_raw/sources/src_20260609_03491271-ocr-一?ai学习-truman自用的ai-featureset.md
 - 00_inbox/人机协作双三?一堂双三角-人机协作模型-口述.txt
+aliases:
+  - AI能力分层学习路径
+  - Truman AI学习路径
+  - Feature专家
+  - AI学习五层
 related:
 - "[[concept-yihang-ai-feature-thinking]]"
 - "[[tool-Truman-Feature特性层训练法]]"

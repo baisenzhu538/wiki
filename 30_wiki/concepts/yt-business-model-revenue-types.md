@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-revenue-types
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 收入模式：6种典型变现方式
+  - 收入模式
+  - 6种典型变现方式
 related:
 - '[[yt-business-analysis-cognitive-biases]]'
 - '[[yt-business-formula-l6-essence-formulas]]'

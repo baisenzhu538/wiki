@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-aesthetic-progression
 confidence: 0.85
 created_at: 2026-05-11
@@ -14,6 +15,10 @@ query_triggers:
 - src_unknown
 - src_unknown：从看不见到大胆想象的进化路径
 - src_unknown
+discoverable_by:
+  - 审美提升的层级：从看不见到大胆想象的进化路径
+  - 审美提升的层级
+  - 从看不见到大胆想象的进化路径
 related:
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-product-excellence]]'

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 id: yt-entrepreneur-opportunity-selection
@@ -25,6 +26,8 @@ aliases:
   - 机会选择
 source_refs:
 - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+discoverable_by:
+  - 机会选择
 tags:
 - audience:general
 - scene:reference

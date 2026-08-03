@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-六杯奶茶推荐率近100
 title: 佳佳校长抓住科目二考过峰值触点送六杯奶茶，将大学生推荐率拉到近100%
 type: case
@@ -24,6 +25,8 @@ aliases:
   - 将大学生推荐率拉到近100%
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L578-L599
+discoverable_by:
+  - 佳佳校长抓住科目二考过峰值触点送六杯奶茶，将大学生推荐率拉到
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'

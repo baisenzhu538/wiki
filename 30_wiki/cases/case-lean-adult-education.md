@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-adult-education
 title: 成人技能教育精益验证
 type: case
@@ -24,6 +25,8 @@ aliases:
 source_refs:
 - 00_inbox/精益创业/truman-精益创业-成人技能教育案例_ocr_text.md
 - 00_inbox/精益创业/truman-精益创业-成人技能教育案例_vlm_desc.md
+discoverable_by:
+  - 成人技能教育精益验证
 related:
 - '[[lean-startup-domain-digest]]'
 - '[[yitang-domain-digest]]'

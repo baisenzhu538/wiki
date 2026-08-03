@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-chuanhe-seasoning-kernel
 title: 案例：川味调料供应链——从"厂家直销"到"买底料+全程帮扶"的六次产品内核迭代
 type: case
@@ -24,6 +25,9 @@ author: 老顽童
 reviewed_by: 待审
 confidence: 0.82
 trust_level: medium
+discoverable_by:
+  - 川味调料供应链
+  - 从厂家直销到买底料+全程帮扶的六次产品内核迭代
 tags:
 - product-kernel
 - iteration

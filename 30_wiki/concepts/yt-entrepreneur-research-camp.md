@@ -1,4 +1,5 @@
 ---
+
 domain:
 - entrepreneurship
 id: yt-entrepreneur-research-camp
@@ -26,6 +27,10 @@ aliases:
   - 调研行动营：从调研认知到AI调研武器库
 source_refs:
 - pending_archive:src_20260510_2ba8671c-创业-调研行动营口述01
+discoverable_by:
+  - 调研行动营：从调研认知到AI调研武器库
+  - 调研行动营
+  - 从调研认知到AI调研武器库
 tags:
 - audience:general
 - scene:reference

@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-跆拳道黑带卡
 title: 跆拳道黑带卡从1.0平铺卖点到4.0影响力六连招，8.8万课包话术进化链
 type: case
@@ -27,6 +28,8 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3234-L3296
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3632-L3660
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5806-L5844
+discoverable_by:
+  - 跆拳道黑带卡从1.0平铺卖点到4.0影响力六连招，8.8万课
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'

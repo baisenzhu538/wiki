@@ -1,4 +1,5 @@
 ---
+
 id: concept-streaming-extraction-pattern
 title: 流式提取模式——浏览器虚拟滚动到API分页的映射
 type: concept
@@ -25,6 +26,10 @@ aliases:
 source_refs:
 - pending_archive:src_unknown："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"
 - src_unknown
+discoverable_by:
+  - 流式提取模式——浏览器虚拟滚动到API分页的映射
+  - 流式提取模式
+  - 浏览器虚拟滚动到API分页的映射
 related:
 - '[[tool-yitang-web-scraping-research]]'
 - '[[tool-月白-A-B双轨反推模式选择]]'

@@ -1,4 +1,5 @@
 ---
+
 domain: demand-analysis
 id: yt-demand-b2b-vs-b2c
 title: ToB vs ToC需求分析差异：决策链、频率与验证方法
@@ -23,6 +24,10 @@ updated_at: '2026-06-19'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
+discoverable_by:
+  - ToB vs ToC需求分析差异：决策链、频率与验证方法
+  - ToC需求分析差异
+  - 决策链、频率与验证方法
 related:
 - '[[yt-demand-scenario-reconstruction]]'
 - '[[yt-demand-decision-chain]]'

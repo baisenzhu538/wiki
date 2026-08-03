@@ -1,4 +1,5 @@
 ---
+
 id: case-livestream-sop-modeling
 title: 案例：直播前热身 SOP 建模
 type: case
@@ -34,6 +35,9 @@ diagnostic_signals:
   follow_up_question: 每个关键节点有没有指定专人负责检查？检查者自己有没有 SOP？
 - framework_lens: 趁热复盘 + 24 小时补丁机制
   follow_up_question: 最近一次直播意外后，多久更新了 SOP？触发条件是什么？
+discoverable_by:
+  - 案例：直播前热身 SOP 建模
+  - 直播前热身
 related:
 - '[[case-truman-livestream-sop-iteration]]'
 - '[[case-zhangyang-anchor-sop-three-locks]]'

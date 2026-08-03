@@ -1,4 +1,5 @@
 ---
+
 id: concept-wanghuan-tacit-knowledge-examples
 title: 王欢：行业暗规则实例库（招聘/招投标/销售/培训）
 type: concept
@@ -32,6 +33,9 @@ diagnostic_signals:
   follow_up: 在每个暗规则前加上"在我司/本行业，默认..."
 - lens: knowledge-trap
   follow_up: 用暗规则实例库作为新人 onboarding 和 AI 上下文的共同原料
+discoverable_by:
+  - 王欢：行业暗规则实例库招聘/招投标/销售/培训
+  - 行业暗规则实例库招聘/招投标/销售/培训
 related:
 - '[[tool-李诞-销售闭环验证：从0到1的重新定义]]'
 - '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-walmart-vs-costco-pyramid
 title: 沃尔玛 vs 好市多：同样的"性价比第一"，不同的战略金字塔
 type: case
@@ -23,6 +24,11 @@ aliases:
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_21_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_21_vlm_desc.md
+discoverable_by:
+  - 沃尔玛 vs 好市多：同样的性价比第一，不同的战略金字塔
+  - 沃尔玛
+  - 好市多
+  - 同样的性价比第一，不同的战略金字塔
 related:
 - '[[strategy-domain-digest]]'
 - '[[case-strategy-retailer-activity-scope]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-rural-5g
 title: 案例：偏远县域5G覆盖——普遍性误判
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 覆盖普遍性误判
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
+discoverable_by:
+  - 案例：偏远县域5G覆盖——普遍性误判
+  - 偏远县域5G覆盖
+  - 普遍性误判
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-从案例中学习]]'

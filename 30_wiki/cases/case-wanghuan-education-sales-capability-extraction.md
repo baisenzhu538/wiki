@@ -1,4 +1,5 @@
 ---
+
 id: case-wanghuan-education-sales-capability-extraction
 title: 王欢案例：教育机构销冠能力萃取系统
 type: case
@@ -36,6 +37,10 @@ diagnostic_signals:
   follow_up: 在评分顶层加入“策略判断”维度，权重高于话术流利度
 - lens: 培训系统与真实决策脱节
   follow_up: 引入双角色 AI 对练，把培训目标从“背话术”改为“练判断”
+discoverable_by:
+  - 王欢案例：教育机构销冠能力萃取系统
+  - 王欢案例
+  - 教育机构销冠能力萃取系统
 related:
 - '[[case-wanghuan-education-sales-paced]]'
 - '[[case-wanghuan-shenyang-software-3x-efficiency]]'

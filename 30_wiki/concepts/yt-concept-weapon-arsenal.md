@@ -1,4 +1,5 @@
 ---
+
 id: yt-concept-weapon-arsenal
 confidence: 0.85
 created_at: 2026-05-13
@@ -16,6 +17,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 超级武器库元概念
 related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-personal-scientific-expression]]'

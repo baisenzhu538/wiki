@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-pan-product-aesthetics
 component_of:
 - src_unknown
@@ -16,6 +17,10 @@ query_triggers:
 - src_unknown
 - src_unknown审美篇
 - src_unknown审美篇：最佳实践与审美建模
+discoverable_by:
+  - 泛产品设计审美篇：最佳实践与审美建模
+  - 泛产品设计审美篇
+  - 最佳实践与审美建模
 related:
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-personal-pan-product-concepts]]'

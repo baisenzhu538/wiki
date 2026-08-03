@@ -1,4 +1,5 @@
 ---
+
 id: web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 created_at: 2026-05-04
 domain:
@@ -22,6 +23,8 @@ aliases:
   - 深度调研集群方法论
 source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+discoverable_by:
+  - 三剑客
 related:
 ---
 # Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl

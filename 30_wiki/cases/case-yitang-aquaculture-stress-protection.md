@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-aquaculture-stress-protection
 title: 案例：水产养殖——从行业经验到学科原理的上层创新
 type: case
@@ -22,6 +23,10 @@ aliases:
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
+discoverable_by:
+  - 案例：水产养殖——从行业经验到学科原理的上层创新
+  - 水产养殖
+  - 从行业经验到学科原理的上层创新
 related:
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[case-yitang-lin-biaoyang-liver-detection]]'

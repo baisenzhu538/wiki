@@ -1,4 +1,5 @@
 ---
+
 id: concept-abundance-paradox
 title: 富足悖论：为什么技术越富足，新问题越多
 type: concept
@@ -33,6 +34,10 @@ query_triggers:
 - 富足悖论
 - abundance paradox
 - 书籍拆解
+discoverable_by:
+  - 富足悖论：为什么技术越富足，新问题越多
+  - 富足悖论
+  - 为什么技术越富足，新问题越多
 tags:
 - '#scene/decision-making'
 - audience:general

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-ai-outbound-roi-model
 title: 案例：AI 外呼——ROI模型统一"真人 vs. AI"矛盾经验
 type: case
@@ -24,6 +25,10 @@ aliases:
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
+discoverable_by:
+  - 案例：AI 外呼——ROI模型统一真人 vs. AI矛盾经验
+  - ROI模型统一真人
+  - AI矛盾经验
 related:
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[yt-decision-y-model]]'

@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-case-jiejiaxiuzhen
 title: 借假修真：案例是载体，方法论是真经
 type: concept
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-20'
 created_at: '2026-07-20'
 updated_at: '2026-07-20'
+discoverable_by:
+  - 借假修真：案例是载体，方法论是真经
+  - 借假修真
+  - 案例是载体，方法论是真经
 quality_labels:
 - insight
 - principle

@@ -1,7 +1,12 @@
 ---
+
 id: yt-five-step-level-blindspots
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
+discoverable_by:
+  - 暗知识：五步法的段位盲区与自评陷阱
+  - 暗知识
+  - 五步法的段位盲区与自评陷阱
 quality_labels:
 - cited
 - validated

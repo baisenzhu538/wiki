@@ -1,4 +1,5 @@
 ---
+
 domain:
 - master
 id: master-antifragile-checklist
@@ -20,6 +21,8 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
+discoverable_by:
+  - 反脆弱决策检查清单
 related:
 - '[[master-ai-info-literacy]]'
 - '[[master-cognitive-bias-checklist]]'

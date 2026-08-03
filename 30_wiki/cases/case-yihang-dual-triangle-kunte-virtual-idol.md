@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-kunte-virtual-idol
 title: 双三角案例：鲲特虚拟艺人——AI 产出越多，人类筛选越值钱
 type: case
@@ -23,6 +24,11 @@ aliases:
   - 鲲特虚拟艺人
 source_refs:
 - pending_archive
+discoverable_by:
+  - 双三角案例：鲲特虚拟艺人——AI 产出越多，人类筛选越值钱
+  - 双三角案例
+  - 鲲特虚拟艺人
+  - 产出越多，人类筛选越值钱
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[case-yihang-dual-triangle-guoshuai-ai-editorial]]'

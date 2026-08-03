@@ -1,4 +1,5 @@
 ---
+
 id: concept-ji-hao-ai-collaboration-methodology
 title: 纪浩 AI 协作方法论：从判断到规模复用的五层体系
 type: concept
@@ -19,6 +20,10 @@ source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 - 10_raw/sources/src_20260617_50e2866a-ai俱乐部-人和ai协作-纪浩-五层结构-结构化.md
 - 10_raw/sources/src_20260617_15ca3bb2-ai俱乐部-人和ai协作-纪浩-参考案例-结构化.md
+discoverable_by:
+  - 纪浩 AI 协作方法论：从判断到规模复用的五层体系
+  - 协作方法论
+  - 从判断到规模复用的五层体系
 quality_labels:
 - cited
 - principle

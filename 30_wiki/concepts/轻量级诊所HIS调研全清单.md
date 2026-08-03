@@ -1,4 +1,5 @@
 ---
+
 id: 轻量级诊所HIS调研全清单
 created_at: 2026-05-03
 domain: healthcare
@@ -19,6 +20,8 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - 轻量级诊所HIS调研全清单
 related:
 - '[[鑫港湾his系统分阶段整改报告]]'
 - '[[case-xian-franchise-location-decision]]'

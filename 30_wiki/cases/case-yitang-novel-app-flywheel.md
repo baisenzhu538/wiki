@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-novel-app-flywheel
 type: case
 title: 案例：小说 app 如何用 SEO 补全增长飞轮
@@ -10,6 +11,10 @@ confidence: 0.8
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 案例：小说 app 如何用 SEO 补全增长飞轮
+  - 如何用
+  - 补全增长飞轮
 quality_labels:
 - actionable
 - cited

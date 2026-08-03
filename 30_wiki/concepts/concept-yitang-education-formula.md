@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-education-formula
 title: 教育 = 教材 + 教学 + 积极改变
 type: concept
@@ -21,6 +22,9 @@ aliases:
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
+discoverable_by:
+  - 教育 = 教材 + 教学 + 积极改变
+  - 积极改变
 related:
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[yt-decision-y-model]]'

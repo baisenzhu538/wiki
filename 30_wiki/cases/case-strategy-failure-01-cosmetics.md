@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-failure-01-cosmetics
 title: 案例：长尾品类化妆品——方向错误。天花板低+营销浪费
 type: case
@@ -30,6 +31,10 @@ source_refs:
 - src_unknown
 - src_unknown
 updated_at: '2026-06-29'
+discoverable_by:
+  - 案例：长尾品类化妆品——方向错误。天花板低+营销浪费
+  - 长尾品类化妆品
+  - 方向错误。天花板低+营销浪费
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-从案例中学习]]'

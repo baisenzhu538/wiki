@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-一堂双三角-AI企业经营数据分析
 title: 一堂双三角-AI企业经营数据分析 — 双三角案例
 type: case
@@ -23,6 +24,11 @@ aliases:
   - 企业经营数据分析双三角案例
   - 双三角案例
 source_refs:
+discoverable_by:
+  - 一堂双三角-AI企业经营数据分析 — 双三角案例
+  - 一堂双三角
+  - AI企业经营数据分析
+  - 双三角案例
 tags:
 reviewed_by: pending
 ---

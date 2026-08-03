@@ -1,4 +1,5 @@
 ---
+
 id: case-ai-time-management-tiered-growth
 confidence: 0.85
 created_at: 2026-06-10
@@ -40,6 +41,9 @@ pipeline:
 - src_unknown
 - src_unknown
 author: 老顽童
+discoverable_by:
+  - 案例：AI时间管理App七级演进
+  - AI时间管理App七级演进
 related:
 - '[[yt-foresight-business-spectrum]]'
 - '[[yt-ai-trend-12-signals]]'

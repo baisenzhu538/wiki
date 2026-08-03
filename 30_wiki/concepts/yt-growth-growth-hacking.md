@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-growth-growth-hacking
@@ -21,6 +22,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 增长黑客：低成本快速实验
+  - 增长黑客
+  - 低成本快速实验
 related:
 - '[[yt-growth-acquisition-channels]]'
 - '[[yt-growth-activation-rate]]'

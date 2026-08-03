@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-topcity-growth-flywheel
 type: case
 title: 案例：Top City 如何用六大要素搭建内容-商户双端飞轮
@@ -12,6 +13,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
+discoverable_by:
+  - 案例：Top City 如何用六大要素搭建内容-商户双端飞轮
+  - 如何用六大要素搭建内容
+  - 商户双端飞轮
 quality_labels:
 - actionable
 - cited

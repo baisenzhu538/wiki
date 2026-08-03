@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-knowledge-extraction
 component_of:
 - src_unknown
@@ -22,6 +23,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 团队知识萃取器
 related:
 - '[[yt-management-team-knowledge]]'
 - '[[yt-management-toolkit-overview]]'

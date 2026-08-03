@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-knowledge-extraction
 confidence: 0.8
 created_at: 2026-05-07
@@ -18,6 +19,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 知识萃取方法论
 related:
 - '[[一堂]]'
 - '[[yt-model-personal-map]]'

@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-黑盒到白盒
 title: 黑盒到白盒：把「一大坨」的直觉决策拆成可证伪、可讨论、可沉淀、可迁移的参数结构
 type: concept
@@ -28,6 +29,8 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712003303_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712003311_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712003318_vlm.md
+discoverable_by:
+  - 黑盒到白盒
 quality_labels:
 - principle
 - insight

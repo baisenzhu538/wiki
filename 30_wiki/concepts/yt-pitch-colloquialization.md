@@ -1,4 +1,5 @@
 ---
+
 id: yt-pitch-colloquialization
 component_of:
 - src_unknown
@@ -18,6 +19,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 讲香·口语化
+  - 口语化
 related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-personal-scientific-expression]]'

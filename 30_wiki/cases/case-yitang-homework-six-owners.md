@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-homework-six-owners
 title: 一堂作业数六负责人推演：同一个作业率目标，六种业务理解深度决定六种操盘高度
 type: case
@@ -24,6 +25,9 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L838-L968
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L974-L1076
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1080-L1290
+discoverable_by:
+  - 一堂作业数六负责人推演
+  - 同一个作业率目标，六种业务理解深度决定六种操盘高度
 quality_labels:
 - cited
 - actionable

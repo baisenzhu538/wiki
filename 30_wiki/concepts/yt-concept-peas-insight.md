@@ -1,4 +1,5 @@
 ---
+
 id: yt-concept-peas-insight
 confidence: 0.85
 created_at: 2026-05-18
@@ -17,6 +18,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - PEAS核心洞察：决策系统的四槽诊断法
+  - PEAS核心洞察
+  - 决策系统的四槽诊断法
 related:
 - '[[yt-tool-peas-agent-analysis]]'
 - '[[tool-月白-后台数据AI诊断法]]'

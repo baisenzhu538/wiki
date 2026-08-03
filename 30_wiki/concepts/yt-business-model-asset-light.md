@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-asset-light
@@ -21,6 +22,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 轻资产模式：资源杠杆
+  - 轻资产模式
+  - 资源杠杆
 related:
 - '[[yt-business-analysis-cognitive-biases]]'
 - '[[yt-business-formula-l6-essence-formulas]]'

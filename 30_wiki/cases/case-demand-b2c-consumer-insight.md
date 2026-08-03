@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-b2c-consumer-insight
 title: ToC 消费洞察驱动需求案例
 type: case
@@ -6,6 +7,9 @@ domain:
 - demand-analysis
 - yitang
 status: reviewed
+discoverable_by:
+  - ToC 消费洞察驱动需求案例
+  - 消费洞察驱动需求案例
 quality_labels:
 - actionable
 - cited

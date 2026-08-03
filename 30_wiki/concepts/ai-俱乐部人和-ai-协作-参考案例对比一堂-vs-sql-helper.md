@@ -1,4 +1,5 @@
 ---
+
 title: AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper）
 type: concept
 domain:
@@ -25,6 +26,10 @@ author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - AI 俱乐部·人和 AI 协作 — 参考案例对比一堂 vs
+  - 俱乐部
+  - 参考案例对比一堂
 related:
 - - - case-truman-ai-partner
 - ai-俱乐部人和-ai-协作-五层结构

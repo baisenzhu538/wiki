@@ -1,4 +1,5 @@
 ---
+
 id: yt-note-extensive-research-input
 title: 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 type: concept
@@ -17,6 +18,10 @@ aliases:
   - 题为入口的多源交叉认知法
 source_refs:
 - 10_raw/sources/src_20260617_c5e5fb8e-一堂-ai时代请单体笔记-truman-口述-02.txt
+discoverable_by:
+  - 广泛涉猎式笔记：以问题为入口的多源交叉认知法
+  - 广泛涉猎式笔记
+  - 以问题为入口的多源交叉认知法
 related:
 - '[[tool-清单式笔记法]]'
 - '[[pending_unknown]]'

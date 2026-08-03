@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-优秀案例逐字稿合集
 title: 一堂转化率黑客优秀案例逐字稿合集索引（Truman 故事线 + PDF 案例合集）
 type: case
@@ -23,6 +24,11 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/Truman常用经典故事线框架笔记_逐字稿.md L1-L92
 - 00_inbox/Handle the business/conversion rate/_vlm_output/质检报告_PDF案例合集校验.md L1-L58
 - 00_inbox/Handle the business/conversion rate/_vlm_output/PDF校验_修正清单.md L1-L58
+discoverable_by:
+  - 一堂转化率黑客优秀案例逐字稿合集索引Truman 故事线 +
+  - 一堂转化率黑客优秀案例逐字稿合集索引Truman
+  - 故事线
+  - 案例合集
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'

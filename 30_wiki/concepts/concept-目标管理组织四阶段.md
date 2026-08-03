@@ -1,4 +1,5 @@
 ---
+
 id: concept-目标管理组织四阶段
 title: 目标管理组织四阶段：从不关注到统一体系
 type: concept
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 目标管理组织四阶段：从不关注到统一体系
+  - 目标管理组织四阶段
+  - 从不关注到统一体系
 quality_labels:
 - insight
 aliases:

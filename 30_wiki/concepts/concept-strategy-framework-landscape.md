@@ -1,4 +1,5 @@
 ---
+
 id: concept-strategy-framework-landscape
 title: 战略框架全景图：冉鹏覆盖了什么、没覆盖什么
 type: concept
@@ -20,6 +21,10 @@ aliases:
   - 覆盖了什么
 source_refs:
 - 60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md
+discoverable_by:
+  - 战略框架全景图：冉鹏覆盖了什么、没覆盖什么
+  - 战略框架全景图
+  - 冉鹏覆盖了什么、没覆盖什么
 related:
 - '[[strategy-domain-digest]]'
 - '[[pending_unknown]]'

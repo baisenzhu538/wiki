@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-动力篇案例库
 title: 一堂转化率黑客动力篇案例索引库（FAB/名利权情/影响力六原则）
 type: case
@@ -31,6 +32,8 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4916-L5264
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5264-L5430
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L5430-L5568
+discoverable_by:
+  - 一堂转化率黑客动力篇案例索引库FAB/名利权情/影响力六原则
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-ai-fitness-four-forces
 title: 案例：AI健身四力——四种力量的博弈分析
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 案例：AI健身四力四种力量的博弈分析
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
+discoverable_by:
+  - 案例：AI健身四力——四种力量的博弈分析
+  - AI健身四力
+  - 四种力量的博弈分析
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-从案例中学习]]'

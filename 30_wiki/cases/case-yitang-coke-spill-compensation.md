@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-coke-spill-compensation
 title: 案例：可乐撒了——ROI模型重构客户赔偿流程（Y模型推导产物）
 type: case
@@ -23,6 +24,10 @@ aliases:
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
+discoverable_by:
+  - 案例：可乐撒了——ROI模型重构客户赔偿流程Y模型推导产物
+  - 可乐撒了
+  - ROI模型重构客户赔偿流程Y模型推导产物
 related:
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[yt-decision-y-model]]'

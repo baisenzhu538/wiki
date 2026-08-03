@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-liberate-thinking
 confidence: 0.8
 created_at: 2026-05-06
@@ -18,6 +19,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 解放思想
 related:
 - '[[yitang-course-map]]'
 - '[[yt-system-course-catalog]]'

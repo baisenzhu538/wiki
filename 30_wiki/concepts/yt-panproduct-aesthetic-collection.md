@@ -21,6 +21,9 @@ query_triggers:
 - src_unknown
 - src_unknown·审美卡片：最佳实践收集
 - src_unknown
+aliases:
+  - 审美收集
+  - 最佳实践收集
 related:
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-36-strategies]]'
@@ -56,7 +59,6 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
-aliases:
 - 审美卡片
 - 最佳实践收集
 - 泛产品设计

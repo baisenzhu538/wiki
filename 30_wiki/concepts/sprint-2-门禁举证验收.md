@@ -1,4 +1,5 @@
 ---
+
 id: sprint-2-门禁举证验收
 created_at: 2026-05-09
 domain: master
@@ -18,6 +19,9 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - Sprint 2 门禁举证验收
+  - 门禁举证验收
 related:
 - '[[sprint-2-gate-enrich-evidence]]'
 - '[[sprint-6-cli-gap-proposal]]'

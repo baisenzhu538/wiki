@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-barrier-network-effects-deep
@@ -23,6 +24,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 网络效应深度：同边、跨边、数据、生态
+  - 网络效应深度
+  - 同边、跨边、数据、生态
 related:
 - '[[tool-马易-数据存储架构选择]]'
 - '[[tool-反向采访挖掘深度]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-modeling-process-sop-evolution
 title: 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 type: case
@@ -17,6 +18,10 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01.md
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+discoverable_by:
+  - 流程建模案例：一堂 2021-2024 年 SOP 清单演进
+  - 流程建模案例
+  - 清单演进史
 tags:
 - src_unknown
 - src_unknown

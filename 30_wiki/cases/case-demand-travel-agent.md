@@ -1,4 +1,5 @@
 ---
+
 id: case-demand-travel-agent
 title: 案例：旅行攻略Agent——隐性需求被忽略
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 需求被忽略
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
+discoverable_by:
+  - 案例：旅行攻略Agent——隐性需求被忽略
+  - 旅行攻略Agent
+  - 隐性需求被忽略
 related:
 - '[[yitang-domain-digest]]'
 - '[[yt-tool-peas-agent-analysis]]'

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 id: yt-model-scientific-questioning-map
@@ -21,6 +22,8 @@ aliases:
   - 科学提问刻意练习地图
 source_refs:
 - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
+discoverable_by:
+  - 科学提问刻意练习地图
 tags:
 - audience:general
 - scene:reference

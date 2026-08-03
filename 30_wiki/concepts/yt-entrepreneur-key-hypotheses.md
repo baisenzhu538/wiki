@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-key-hypotheses
 confidence: 0.85
 created_at: 2026-05-06
@@ -20,6 +21,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 关键假设259工具与假设验证三板斧
 related:
 - '[[yitang-course-map]]'
 - '[[yt-system-course-catalog]]'

@@ -1,4 +1,5 @@
 ---
+
 id: concept-candy-ai-as-collaborator
 title: Candy：AI是协作者而非代写工具
 type: concept
@@ -20,6 +21,9 @@ aliases:
   - 是协作者而非代写工具
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
+discoverable_by:
+  - Candy：AI是协作者而非代写工具
+  - AI是协作者而非代写工具
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'

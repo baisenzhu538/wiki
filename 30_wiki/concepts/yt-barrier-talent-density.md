@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-barrier-talent-density
@@ -20,6 +21,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 人才密度：组织壁垒
+  - 人才密度
+  - 组织壁垒
 related:
 - '[[yt-barrier-brand-equity]]'
 - '[[yt-barrier-culture-moat]]'

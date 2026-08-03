@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 id: yt-personal-verbatim-script
@@ -25,6 +26,8 @@ aliases:
   - 逐字稿
 source_refs:
 - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
+discoverable_by:
+  - 逐字稿
 tags:
 - audience:general
 - scene:reference

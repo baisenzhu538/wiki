@@ -1,4 +1,5 @@
 ---
+
 id: concept-smart-medicine-cabinet-platform-cooperation-validation
 title: 智能药柜平台合作命题交叉验证（美团/饿了么/阿里健康/京东）
 type: concept
@@ -22,6 +23,8 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
+discoverable_by:
+  - 智能药柜平台合作命题交叉验证美团/饿了么/阿里健康/京东
 related:
 - '[[concept-ai-native-organization-five-steps]]'
 - - - smart-medicine-cabinet-financial-model

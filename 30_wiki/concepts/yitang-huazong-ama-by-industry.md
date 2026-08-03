@@ -1,4 +1,5 @@
 ---
+
 id: yitang-huazong-ama-by-industry
 created_at: 2026-05-29
 domain:
@@ -19,6 +20,8 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
+discoverable_by:
+  - 花总AMA按行业分类整理商业突破大航海
 related:
 - '[[yitang-huazong-ama-summary]]'
 tags:

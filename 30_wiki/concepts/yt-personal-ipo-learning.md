@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-ipo-learning
 confidence: 0.8
 created_at: 2026-05-06
@@ -17,6 +18,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - IPO 科学学习
+  - 科学学习
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'

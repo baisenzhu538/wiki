@@ -1,4 +1,5 @@
 ---
+
 id: concept-research-delegation-in-scaling
 title: 规模化中的调研委派：从"自己做"到"建机制"
 type: concept
@@ -22,6 +23,10 @@ aliases:
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
+discoverable_by:
+  - 规模化中的调研委派：从自己做到建机制
+  - 规模化中的调研委派
+  - 从自己做到建机制
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

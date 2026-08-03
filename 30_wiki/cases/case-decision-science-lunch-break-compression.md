@@ -1,4 +1,5 @@
 ---
+
 id: case-decision-science-lunch-break-compression
 title: 案例：把2小时休息压缩为1小时的ROI决策
 type: case
@@ -22,6 +23,9 @@ aliases:
   - 案例：把2小时休息压缩为1小时的ROI决策
 source_refs:
 - 00_inbox/科学决策/一堂-科学决策-ROI决策深度实操课口述03.txt
+discoverable_by:
+  - 案例：把2小时休息压缩为1小时的ROI决策
+  - 把2小时休息压缩为1小时的ROI决策
 related:
 - '[[framework-yitang-five-step-to-time-management]]'
 - '[[dk-time-management-common-mistakes]]'

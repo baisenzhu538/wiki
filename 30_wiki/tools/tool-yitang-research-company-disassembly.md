@@ -16,6 +16,7 @@ difficulty: intermediate
 estimated_tokens: 3500
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 公司拆解
   - 公司拆解：深度分析竞争对手的六维框架
   - 深度分析竞争对手的六维框架
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 公司拆解：深度分析竞争对手的六维框架
 

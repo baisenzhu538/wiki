@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 id: yt-concept-p-type-l-type
@@ -27,6 +28,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 review_date: 2026-06-06
+discoverable_by:
+  - P型与L型创业者
 related:
 - '[[yitang-course-map]]'
 - '[[yt-entrepreneur-industry-forecast]]'

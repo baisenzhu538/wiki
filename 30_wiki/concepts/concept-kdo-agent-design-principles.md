@@ -1,4 +1,5 @@
 ---
+
 id: concept-kdo-agent-design-principles
 title: Agent设计原则：从双三角推导的5条底层原则
 type: concept
@@ -22,6 +23,10 @@ source_refs:
 - .agent/pitfalls.md
 - .agent/startup.md
 - 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md
+discoverable_by:
+  - Agent设计原则：从双三角推导的5条底层原则
+  - Agent设计原则
+  - 从双三角推导的5条底层原则
 related:
 - framework-kdo-modeling-methodology
 - concept-kdo-agent-four-level-awareness

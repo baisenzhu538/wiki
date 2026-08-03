@@ -1,5 +1,8 @@
 ---
+
 id: 街顺app全面调研报告
+discoverable_by:
+  - 街顺APP全面调研报告
 quality_labels:
 - cited
 - principle

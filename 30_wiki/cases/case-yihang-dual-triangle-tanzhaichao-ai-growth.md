@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-tanzhaichao-ai-growth
 title: 双三角案例：谭再超——从 AI 小白到 MCP 大航海 MVP，半年蜕变
 type: case
@@ -23,6 +24,12 @@ aliases:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/谭再超案例口述_page001_vlm.md
 - 00_inbox/人机协作双三角/谭再超案例口述.pdf
+discoverable_by:
+  - 双三角案例：谭再超——从 AI 小白到 MCP 大航海 MV
+  - 双三角案例
+  - 谭再超
+  - 小白到
+  - 大航海
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-Truman-AI能力分层学习路径]]'

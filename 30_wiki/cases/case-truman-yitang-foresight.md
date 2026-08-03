@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-yitang-foresight
 title: Truman一堂：市场扫描→六方向→Plan ABC试错
 type: case
@@ -38,6 +39,9 @@ wiki_refs:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - Truman一堂：市场扫描→六方向→Plan ABC试错
+  - 市场扫描→六方向→Plan
 related:
 - '[[yt-foresight-15-char-mantra]]'
 - '[[case-gudong-tea-shop-foresight]]'

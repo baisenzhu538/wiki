@@ -13,16 +13,16 @@ domain:
 - yitang
 - decision-science
 - methodology
+source_refs:
+- 30_wiki/methods/method-yitang-y-model-engine-cycle.md
+- 30_wiki/tools/tool-yitang-Y-model-application.md
+- 60_feedback/diagnosis/diag_20260708_yitang-y-model-cross-domain-fusion-deep-dive-v2.md
 aliases:
   - Y模型实操工作流
   - Y模型实操工作流：从分析到决策的完整路径
   - 从分析到决策的完整路径
   - 型实操工作流
   - 析到决策的完整路径
-source_refs:
-- 30_wiki/methods/method-yitang-y-model-engine-cycle.md
-- 30_wiki/tools/tool-yitang-Y-model-application.md
-- 60_feedback/diagnosis/diag_20260708_yitang-y-model-cross-domain-fusion-deep-dive-v2.md
 related:
 - '[[yt-decision-y-model]]'
 - '[[method-yitang-y-model-engine-cycle]]'
@@ -38,7 +38,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
-aliases: []
 ---
 
 # Y模型实操工作流：从分析到决策的完整路径

@@ -16,19 +16,6 @@ domain:
 source_refs:
 - 00_inbox/人机协作双三�?_processed/【组织】酒店行�?AI标签审核案例_vlm.md
 related:
-aliases:
-  - 双三角案例：酒店AI标签审核边缘切入与沙盒练兵
-  - 双三角案例
-  - 酒店
-  - 标签审核
-  - 边缘切入与沙盒练兵
-  - 切入与沙盒练兵
-aliases:
-  - 双三角案例：酒店AI标签审核边缘切入与沙盒练兵
-  - 双三角案例
-  - 酒店
-  - 标签审核
-  - 边缘切入与沙盒练兵
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[case-yihang-dual-triangle-hotel-tag-sandbox]]"
 ---

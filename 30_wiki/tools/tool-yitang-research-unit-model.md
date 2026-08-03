@@ -16,6 +16,7 @@ difficulty: intermediate
 estimated_tokens: 3000
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 单元模型
   - 单元模型：找到业务最小单元的经济密码
   - 找到业务最小单元的经济密码
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 单元模型：找到业务最小单元的经济密码
 

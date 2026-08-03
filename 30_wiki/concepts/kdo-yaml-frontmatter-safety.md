@@ -1,4 +1,5 @@
 ---
+
 id: kdo-yaml-frontmatter-safety
 title: KDO YAML Frontmatter 安全操作指南
 type: concept
@@ -10,6 +11,9 @@ updated_at: '2026-06-17'
 target_roles:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - KDO YAML Frontmatter 安全操作指南
+  - 安全操作指南
 related:
 - '[[kdo-input-channel-strategy-2026-06-16]]'
 - '[[kdo-protocol]]'

@@ -1,4 +1,5 @@
 ---
+
 title: 业务公式
 type: concept
 aliases:
@@ -24,6 +25,8 @@ diagnostic_signals:
   follow_up_question: 你的业务公式最近一次更新是什么时候？如果超过一个季度，公式可能已经过时
 - framework_lens: 公式停在L1/L2科目层
   follow_up_question: 你的公式拆到L3/L4可量化行为指标了吗？如果只停在营收/转化率这种科目层，无法指导行动
+discoverable_by:
+  - 业务公式
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'

@@ -1,4 +1,5 @@
 ---
+
 id: case-liutao-electric-bike-localization
 title: 案例：电动车出海本地化——从0调研目标市场
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 车出海本地化
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
+discoverable_by:
+  - 案例：电动车出海本地化——从0调研目标市场
+  - 电动车出海本地化
+  - 从0调研目标市场
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

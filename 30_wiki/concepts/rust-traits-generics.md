@@ -1,4 +1,5 @@
 ---
+
 id: rust-traits-generics
 title: "Rust Trait 与泛型：零成本抽象的接口设计"
 type: concept
@@ -13,6 +14,10 @@ aliases:
 source_refs:
   - pending_archive
 created_at: 2026-06-02
+discoverable_by:
+  - Rust Trait 与泛型：零成本抽象的接口设计
+  - 与泛型
+  - 零成本抽象的接口设计
 ---
 
 # Rust Trait 与泛型

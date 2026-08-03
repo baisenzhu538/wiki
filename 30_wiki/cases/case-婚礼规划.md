@@ -1,4 +1,5 @@
 ---
+
 id: case-婚礼规划
 title: 案例：婚礼规划——完整决策流程
 type: case
@@ -24,6 +25,10 @@ source_refs:
 - 婚礼行业一线策划师访谈与多场真实婚礼复盘
 - Y模型在婚礼筹备场景中的实操映射
 - 新人婚后满意度回访数据（样本量约120对）
+discoverable_by:
+  - 案例：婚礼规划——完整决策流程
+  - 婚礼规划
+  - 完整决策流程
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

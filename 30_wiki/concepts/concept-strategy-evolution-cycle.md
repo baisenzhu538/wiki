@@ -1,4 +1,5 @@
 ---
+
 id: concept-strategy-evolution-cycle
 title: 新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期
 type: concept
@@ -20,6 +21,10 @@ source_refs:
 - pending_archive:src_unknown
 reviewed_by: pending
 updated_at: '2026-06-30T16:07:51+00:00'
+discoverable_by:
+  - 新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期
+  - 新兴业务进化周期
+  - 适者生存→绝望之谷→物种爆发→平台期
 tags:
 - audience:general
 - scene:reference

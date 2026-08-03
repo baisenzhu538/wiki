@@ -1,4 +1,5 @@
 ---
+
 domain:
 - ai-saas
 id: ai-short-drama-ice-fire-scripting-compass
@@ -16,6 +17,10 @@ source_refs:
 - 10_raw/sources/src_20260613_41aceaf5-ice-fire-scripting-compass.md
 - 10_raw/sources/src_20260613_687c4ec0-transcript.md
 - 10_raw/sources/src_20260613_12d63c1c-notes.md
+discoverable_by:
+  - 冰火写本罗盘：AI短剧剧本策划全流程体系
+  - 冰火写本罗盘
+  - AI短剧剧本策划全流程体系
 quality_labels:
 - cited
 - principle

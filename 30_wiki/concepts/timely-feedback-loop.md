@@ -1,4 +1,5 @@
 ---
+
 id: timely-feedback-loop
 title: 及时反馈闭环
 type: framework
@@ -6,6 +7,8 @@ domain:
 - ai-collaboration
 - skill-building
 status: reviewed
+discoverable_by:
+  - 及时反馈闭环
 quality_labels:
 - cited
 - insight

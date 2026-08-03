@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-formula-ten-paradigms
 title: 一堂业务公式十大经典范式（收入/竞争/运营三环完整版）
 type: concept
@@ -35,6 +36,8 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式十大经典范式_vlm.md
 - pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+discoverable_by:
+  - 一堂业务公式十大经典范式收入/竞争/运营三环完整版
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-parameter-iceberg]]'

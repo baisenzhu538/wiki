@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 id: yt-personal-product-design
@@ -26,6 +27,8 @@ aliases:
   - 泛产品设计
 source_refs:
 - 10_raw/sources/src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece.md
+discoverable_by:
+  - 泛产品设计
 tags:
 - audience:general
 - scene:reference

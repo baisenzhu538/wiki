@@ -1,4 +1,5 @@
 ---
+
 id: deepseek-v4-在知识管理系统中的应用
 created_at: 2026-05-05
 domain: healthcare
@@ -18,6 +19,9 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - DeepSeek V4 在知识管理系统中的应用
+  - 在知识管理系统中的应用
 related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'

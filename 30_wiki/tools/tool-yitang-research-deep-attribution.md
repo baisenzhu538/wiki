@@ -16,6 +16,7 @@ difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 找到问题根因的5Why法
   - 深度归因
   - 深度归因：找到问题根因的5Why法
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 深度归因：找到问题根因的5Why法
 

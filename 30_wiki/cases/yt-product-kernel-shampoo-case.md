@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-product-kernel-shampoo-case
@@ -27,6 +28,11 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 洗发水案例：产品内核实战——从去屑到专业形象
+  - 洗发水案例
+  - 产品内核实战
+  - 从去屑到专业形象
 related:
 - '[[pending_unknown]]'
 diagnostic_signals:

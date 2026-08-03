@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-AI三角-基本功
 title: AI三角-基本功 — 双三角案例
 type: case
@@ -23,6 +24,10 @@ aliases:
   - 基本功
   - 角案例
 source_refs:
+discoverable_by:
+  - AI三角-基本功 — 双三角案例
+  - 基本功
+  - 双三角案例
 tags:
 reviewed_by: pending
 ---

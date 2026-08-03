@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-meituan-red-dot
 title: 美团「意向优选」小红点：一个触点假设把APP活跃度提升30%-40%
 type: case
@@ -18,6 +19,10 @@ aliases:
   - 触点假设把
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2306-L2338
+discoverable_by:
+  - 美团意向优选小红点：一个触点假设把APP活跃度提升30%-4
+  - 美团意向优选小红点
+  - 一个触点假设把APP活跃度提升30%
 quality_labels:
 - actionable
 - cited

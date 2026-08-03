@@ -1,4 +1,5 @@
 ---
+
 id: concept-thousand-people-square
 title: 千人广场模型：一堂做课背后的统计建模理念
 type: concept
@@ -22,6 +23,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.75
+discoverable_by:
+  - 千人广场模型：一堂做课背后的统计建模理念
+  - 千人广场模型
+  - 一堂做课背后的统计建模理念
 related:
 - '[[tool-月白-AI模型选择策略]]'
 - '[[dk-单元模型-找单元模型实操难点]]'

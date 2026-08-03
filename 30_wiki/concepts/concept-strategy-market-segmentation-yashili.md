@@ -1,4 +1,5 @@
 ---
+
 id: concept-strategy-market-segmentation-yashili
 title: 细分市场分析逻辑——雅士利/蒙牛案例（© Yashili 2021）
 type: concept
@@ -17,6 +18,10 @@ aliases:
   - 雅士利/蒙牛案例©
 source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_70_vlm_desc.md
+discoverable_by:
+  - 细分市场分析逻辑——雅士利/蒙牛案例© Yashili 20
+  - 细分市场分析逻辑
+  - 雅士利/蒙牛案例©
 related:
 - '[[strategy-domain-digest]]'
 - '[[pending_unknown]]'

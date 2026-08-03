@@ -1,4 +1,5 @@
 ---
+
 id: finance-legal-business-operations
 title: 企业财务-法务-商务运营实务：主题综合索引卡
 type: concept
@@ -22,6 +23,11 @@ source_refs:
 - 10_raw/sources/src_20260614_6e91528d-项目分账与支付对接方案.md
 - 10_raw/sources/src_20260614_fbe4a480-企业高新技术与专精特新资质申报规划.md
 - 10_raw/sources/src_20260614_40afd886-theme-finance-legal-business-summary.md
+discoverable_by:
+  - 企业财务-法务-商务运营实务：主题综合索引卡
+  - 企业财务
+  - 商务运营实务
+  - 主题综合索引卡
 tags:
 - audience:general
 - scene:reference

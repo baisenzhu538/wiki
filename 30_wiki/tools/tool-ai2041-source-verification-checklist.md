@@ -12,14 +12,14 @@ domain:
 - ai_collaboration
 - critical_thinking
 - business_judgment
-aliases:
-  - AI预测来源验证检查单
-  - 来源验证检查单
-  - 预测来源验证检查单
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
+aliases:
+  - AI预测来源验证检查单
+  - 来源验证检查单
+  - 预测来源验证检查单
 related:
 - '[[tool-tech-probability-80-filter]]'
 - '[[tool-ai-critical-reading-three-layers]]'
@@ -38,7 +38,6 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
-aliases: []
 ---
 # AI 预测来源验证检查单
 

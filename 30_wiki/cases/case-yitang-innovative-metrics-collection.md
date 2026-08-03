@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-innovative-metrics-collection
 title: 创新参数与动作案例集：把"没被命名过的率"挖出来——鞋店连带率、伸手接传单率、进会议室率、夸孩子率与一堂自定义参数群
 type: case
@@ -22,6 +23,9 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2630-L2690
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2692-L2754
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2756-L2828
+discoverable_by:
+  - 创新参数与动作案例集
+  - 把没被命名过的率挖出来
 quality_labels:
 - actionable
 - cited

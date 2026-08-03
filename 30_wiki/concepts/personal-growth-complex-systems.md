@@ -1,4 +1,5 @@
 ---
+
 id: personal-growth-complex-systems
 title: 个人成长：复杂系统、消除模糊与 AI 时代个体系统：主题综合索引卡
 type: concept
@@ -22,6 +23,12 @@ aliases:
   - 时代个体系统
   - 消除模糊与
 source_refs:
+discoverable_by:
+  - 个人成长：复杂系统、消除模糊与 AI 时代个体系统：主题综合
+  - 个人成长
+  - 复杂系统、消除模糊与
+  - 时代个体系统
+  - 主题综合索引卡
 tags:
 created_at: '2026-06-14'
 quality_labels:

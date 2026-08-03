@@ -1,4 +1,5 @@
 ---
+
 id: concept-最简单元模型
 title: 最简化的单元模型
 type: concept
@@ -17,6 +18,8 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-最简单元模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-最简单元模型_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-单元模型-最简单元模型.md
+discoverable_by:
+  - 最简化的单元模型
 related:
 - '[[yitang-domain-digest]]'
 - '[[dk-单元模型-找单元模型实操难点]]'

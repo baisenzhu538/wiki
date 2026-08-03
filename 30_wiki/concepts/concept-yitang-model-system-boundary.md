@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-model-system-boundary
 title: 体系与模型边界：每个模型都有内涵、成本和适用域
 type: concept
@@ -27,6 +28,10 @@ source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-kexue-linian-y-model.md
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 体系与模型边界：每个模型都有内涵、成本和适用域
+  - 体系与模型边界
+  - 每个模型都有内涵、成本和适用域
 related:
 - '[[yt-decision-y-model]]'
 - '[[framework-yitang-shishi-qiushi]]'

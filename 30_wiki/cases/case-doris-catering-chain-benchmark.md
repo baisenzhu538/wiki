@@ -1,4 +1,5 @@
 ---
+
 id: case-doris-catering-chain-benchmark
 title: 案例：餐饮连锁对标调研
 type: case
@@ -20,6 +21,9 @@ aliases:
   - 餐饮连锁对标调研
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
+discoverable_by:
+  - 案例：餐饮连锁对标调研
+  - 餐饮连锁对标调研
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

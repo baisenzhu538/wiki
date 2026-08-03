@@ -1,4 +1,5 @@
 ---
+
 id: case-fuzeyu-ai-koubo-tool-dev
 title: 付则宇AI口播工具：从16小时到零门槛的完整开发历程
 type: case
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-20'
 created_at: '2026-07-20'
 updated_at: '2026-07-20'
+discoverable_by:
+  - 付则宇AI口播工具：从16小时到零门槛的完整开发历程
+  - 付则宇AI口播工具
+  - 从16小时到零门槛的完整开发历程
 quality_labels:
 - cited
 - validated

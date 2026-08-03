@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-product-kernel-key-conversion
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 关键转化率：产品内核的北极星指标
+  - 关键转化率
+  - 产品内核的北极星指标
 related:
 - '[[tool-设定管理杠杆率指标评估效率]]'
 - '[[pending_unknown]]'

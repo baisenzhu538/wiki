@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-goat-milk-channel-partnership
 title: 羊奶粉「卖地图」区域代理模式案例
 type: case
@@ -13,6 +14,8 @@ domain:
 - growth
 - strategy
 created_at: '2026-06-29'
+discoverable_by:
+  - 羊奶粉卖地图区域代理模式案例
 quality_labels:
 - actionable
 - cited

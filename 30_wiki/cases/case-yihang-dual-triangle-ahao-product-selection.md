@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-ahao-product-selection
 title: 一行双三角案例：阿豪电商选品函数替代模型
 type: case
@@ -34,6 +35,10 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/阿豪案例的口述_page008_vlm.md
 - 00_inbox/人机协作双三角/_processed/阿豪的双三角模型_vlm.md
 - https://www.commercepundit.com/blog/ai-automation-for-ecommerce/
+discoverable_by:
+  - 一行双三角案例：阿豪电商选品函数替代模型
+  - 一行双三角案例
+  - 阿豪电商选品函数替代模型
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-dual-triangle-human-ai-division]]'

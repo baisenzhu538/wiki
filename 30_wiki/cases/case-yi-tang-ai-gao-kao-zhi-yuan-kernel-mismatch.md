@@ -1,4 +1,5 @@
 ---
+
 id: case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch
 title: 案例：AI高考志愿填报产品因内核错位而失敗
 type: case
@@ -28,6 +29,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 confidence: 0.9
 trust_level: medium
+discoverable_by:
+  - 案例：AI高考志愿填报产品因内核错位而失敗
+  - AI高考志愿填报产品因内核错位而失敗
 related:
 - '[[tool-从案例中学习]]'
 - '[[case-科学决策-深度案例06]]'

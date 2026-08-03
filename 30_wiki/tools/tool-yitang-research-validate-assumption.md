@@ -16,6 +16,7 @@ difficulty: beginner
 estimated_tokens: 3000
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 在行动前杀死错误想法
   - 调研先行验证假设
   - 调研先行验证假设：在行动前杀死错误想法
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 调研先行验证假设：在行动前杀死错误想法
 

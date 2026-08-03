@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-product-kernel-definition
@@ -18,6 +19,10 @@ source_refs:
 - 10_raw/sources/src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
 - 10_raw/sources/src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
 - 10_raw/sources/src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
+discoverable_by:
+  - 产品内核定义：用户愿意选择你的最小解决方案
+  - 产品内核定义
+  - 用户愿意选择你的最小解决方案
 quality_labels:
 - cited
 - principle

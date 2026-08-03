@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-growth-acquisition-channels
@@ -23,6 +24,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 获客渠道：流量获取的6大类型
+  - 获客渠道
+  - 流量获取的6大类型
 related:
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[pending_unknown]]'

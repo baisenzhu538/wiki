@@ -1,4 +1,5 @@
 ---
+
 id: case-infinite-canvas-founders-playbook
 title: 60镜头《创始人手册》：Claude Blog长文→Prezi式创业旅程画布
 type: case
@@ -13,6 +14,10 @@ review_date: '2026-07-21'
 grade: A-
 created_at: '2026-07-21'
 updated_at: '2026-07-21'
+discoverable_by:
+  - 60镜头《创始人手册》：Claude Blog长文→Prez
+  - 60镜头《创始人手册》
+  - Blog长文→Prezi式创业旅程画布
 quality_labels:
 - cited
 diagnostic_signals:

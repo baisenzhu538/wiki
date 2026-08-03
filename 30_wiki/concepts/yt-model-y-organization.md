@@ -1,4 +1,5 @@
 ---
+
 domain:
 - modeling
 id: yt-model-y-organization
@@ -24,6 +25,9 @@ aliases:
   - 型创业模型
 source_refs:
 - pending_archive:src_20260613_96e45c45-qishijian-business-model
+discoverable_by:
+  - Y 型创业模型 Y Model for Startups
+  - 型创业模型
 tags:
 - audience:general
 - scene:reference

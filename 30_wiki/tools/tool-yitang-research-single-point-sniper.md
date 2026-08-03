@@ -16,6 +16,7 @@ difficulty: intermediate
 estimated_tokens: 2500
 version: 1
 query_triggers:
+source_refs:
 aliases:
   - audience:executor
   - scene:execution
@@ -23,10 +24,8 @@ aliases:
   - 单点狙击
   - 单点狙击：聚焦关键问题的深度验证
   - 聚焦关键问题的深度验证
-source_refs:
 related:
 tags:
-aliases: []
 ---
 # 单点狙击：聚焦关键问题的深度验证
 

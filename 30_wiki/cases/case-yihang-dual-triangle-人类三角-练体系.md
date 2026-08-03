@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-人类三角-练体系
 title: 人类三角-练体系 — 双三角案例
 type: case
@@ -23,6 +24,11 @@ aliases:
   - 练体系
   - 角案例
 source_refs:
+discoverable_by:
+  - 人类三角-练体系 — 双三角案例
+  - 人类三角
+  - 练体系
+  - 双三角案例
 tags:
 reviewed_by: pending
 ---

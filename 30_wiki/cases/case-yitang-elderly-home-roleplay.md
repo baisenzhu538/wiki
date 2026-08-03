@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-elderly-home-roleplay
 title: 案例：假扮家属潜入养老院微信群
 type: case
@@ -20,6 +21,9 @@ aliases:
   - 案例：假扮家属潜入养老院微信群
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
+discoverable_by:
+  - 案例：假扮家属潜入养老院微信群
+  - 假扮家属潜入养老院微信群
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

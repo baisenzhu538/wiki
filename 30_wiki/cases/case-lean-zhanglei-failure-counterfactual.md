@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-zhanglei-failure-counterfactual
 title: 张磊 AMA：判断力训练产品的验证陷阱与反事实推演
 type: case
@@ -23,6 +24,9 @@ source_refs:
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊-精益方法论-AMA-口述-02.txt
 - 00_inbox/精益创业/张磊-精益方法论-AMA-笔记-02.txt
+discoverable_by:
+  - 张磊 AMA：判断力训练产品的验证陷阱与反事实推演
+  - 判断力训练产品的验证陷阱与反事实推演
 related:
 - '[[lean-startup-domain-digest]]'
 - '[[yitang-domain-digest]]'

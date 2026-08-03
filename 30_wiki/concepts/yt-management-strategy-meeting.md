@@ -1,4 +1,5 @@
 ---
+
 title: 战略会
 type: concept
 domain:
@@ -26,6 +27,8 @@ aliases:
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+discoverable_by:
+  - 战略会
 related:
 - '[[yt-management-basic-skills]]'
 - '[[yt-management-business-formula]]'

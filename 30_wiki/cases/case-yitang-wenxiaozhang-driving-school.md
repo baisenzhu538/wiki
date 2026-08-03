@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-wenxiaozhang-driving-school
 title: 温校长驾校：十年传统业务拆公式后校园代理×招生链成关键路径，"六杯奶茶"触点假设把推荐率再提一级、业务再翻一倍
 type: case
@@ -22,6 +23,8 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L954-L982
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L984-L988
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L932-L944
+discoverable_by:
+  - 温校长驾校
 quality_labels:
 - actionable
 - cited

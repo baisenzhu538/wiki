@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-maiyi-cloud-computer-channel
 type: case
 title: 案例：马毅云电脑如何扫描 60+ 渠道实现 3.7 亿营收
@@ -12,6 +13,11 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
+discoverable_by:
+  - 案例：马毅云电脑如何扫描 60+ 渠道实现 3.7 亿营收
+  - 马毅云电脑如何扫描
+  - 渠道实现
+  - 亿营收
 quality_labels:
 - actionable
 - cited

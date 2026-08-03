@@ -1,4 +1,5 @@
 ---
+
 id: concept-truman-18-component-cards
 title: Truman 原 18 组件源框架：五维度 × 每维 4 张牌
 type: concept
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - Truman 原 18 组件源框架：五维度 × 每维 4 张
+  - 组件源框架
+  - 五维度
 quality_labels:
 - cited
 aliases:

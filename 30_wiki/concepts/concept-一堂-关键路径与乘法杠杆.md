@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-关键路径与乘法杠杆
 title: 关键路径与乘法杠杆：乘法必经优先，定量后分支可反超
 type: concept
@@ -27,6 +28,10 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2958-L2970
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L3024-L3146
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1838-L1898
+discoverable_by:
+  - 关键路径与乘法杠杆：乘法必经优先，定量后分支可反超
+  - 关键路径与乘法杠杆
+  - 乘法必经优先，定量后分支可反超
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-abc-model]]'

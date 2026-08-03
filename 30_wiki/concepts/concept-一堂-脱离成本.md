@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-脱离成本
 title: 脱离成本：续费/留存的本质是「离开太痛」，不是信任加深
 type: concept
@@ -26,6 +27,10 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L1956-L2038
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2638-L2746
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3120-L3130
+discoverable_by:
+  - 脱离成本：续费/留存的本质是离开太痛，不是信任加深
+  - 脱离成本
+  - 续费/留存的本质是离开太痛，不是信任加深
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-ten-paradigms]]'

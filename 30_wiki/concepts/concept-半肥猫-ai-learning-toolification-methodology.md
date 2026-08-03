@@ -1,4 +1,5 @@
 ---
+
 id: concept-半肥猫-ai-learning-toolification-methodology
 title: 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进
 type: concept
@@ -20,6 +21,11 @@ source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 - 10_raw/sources/src_20260617_26d0ee0b-ai俱乐部-ai学习落地-半肥猫-笔记.txt
 - 10_raw/sources/src_20260617_205eaa9b-ai俱乐部-ai学习落地-半肥猫-口述.txt
+discoverable_by:
+  - 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进
+  - 半肥猫
+  - 学习落地方法论
+  - 从听课到造工具的三层递进
 quality_labels:
 - cited
 - principle

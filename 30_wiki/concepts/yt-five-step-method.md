@@ -1,6 +1,9 @@
 ---
+
 id: yt-five-step-method
 confidence: 0.9
+discoverable_by:
+  - 一堂五步法总纲
 quality_labels:
 - cited
 - insight

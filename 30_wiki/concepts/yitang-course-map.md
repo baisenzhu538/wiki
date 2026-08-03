@@ -1,4 +1,5 @@
 ---
+
 title: 一堂课程大地图
 type: concept
 subtype: hub
@@ -8,6 +9,8 @@ status: stable
 created_at: 2026-05-06
 updated_at: '2026-06-16'
 id: yitang-course-map
+discoverable_by:
+  - 一堂课程大地图
 tags:
 - audience:general
 - scene:reference

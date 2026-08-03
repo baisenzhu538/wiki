@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-tob-devboard-price-coupling
 title: ToB芯片开发板：降价涨量但ToB客户不变，参数耦合的定价回摆
 type: case
@@ -18,6 +19,10 @@ aliases:
   - 降价涨量但ToB客户不变
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3096-L3128
+discoverable_by:
+  - ToB芯片开发板：降价涨量但ToB客户不变，参数耦合的定价回
+  - ToB芯片开发板
+  - 降价涨量但ToB客户不变，参数耦合的定价回摆
 quality_labels:
 - actionable
 - cited

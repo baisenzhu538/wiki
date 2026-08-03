@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-key-assumptions
 title: 关键假设（Key Assumption）：业务成功依赖的核心前提条件
 type: concept
@@ -20,6 +21,10 @@ aliases:
   - 成功依赖的核心前提条件
 source_refs:
 - 00_inbox/一堂-关键假设课-truman-口述.txt L364-L402,L584,L818,L1064-L1074,L2460-L2482
+discoverable_by:
+  - 关键假设Key Assumption：业务成功依赖的核心前提
+  - 关键假设Key
+  - 业务成功依赖的核心前提条件
 quality_labels:
 - principle
 - cited

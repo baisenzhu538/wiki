@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-canvas-trademark-design
 title: 双三角画布案例：商标设计——两天内产出 60 分可用版本
 type: case
@@ -22,6 +23,12 @@ aliases:
   - 用版本
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-画布案例2_vlm.md
+discoverable_by:
+  - 双三角画布案例：商标设计——两天内产出 60 分可用版本
+  - 双三角画布案例
+  - 商标设计
+  - 两天内产出
+  - 分可用版本
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-yihang-dual-triangle-canvas]]'

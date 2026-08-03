@@ -1,8 +1,13 @@
 ---
+
 id: case-yitang-false-causality-collection
 title: 伪因果十题与聪明下属反噬四案：KPI 锁错因果，团队越聪明业务越差
 type: case
 status: enriched
+discoverable_by:
+  - 伪因果十题与聪明下属反噬四案：KPI 锁错因果，团队越聪明业
+  - 伪因果十题与聪明下属反噬四案
+  - 锁错因果，团队越聪明业务越差
 quality_labels:
 - actionable
 - cited

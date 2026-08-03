@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-AI数据
 title: AI数据 — 双三角案例
 type: case
@@ -22,6 +23,9 @@ aliases:
   - 数据双三角案例
   - 角案例
 source_refs:
+discoverable_by:
+  - AI数据 — 双三角案例
+  - 双三角案例
 tags:
 reviewed_by: pending
 ---

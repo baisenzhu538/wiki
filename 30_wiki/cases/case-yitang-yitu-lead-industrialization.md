@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-yitu-lead-industrialization
 type: case
 title: 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索
@@ -12,6 +13,10 @@ trust_level: medium-high
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
+discoverable_by:
+  - 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索
+  - 益涂如何用漏斗模型工业化筛选
+  - 销售线索
 quality_labels:
 - actionable
 - cited

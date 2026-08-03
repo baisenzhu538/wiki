@@ -1,4 +1,5 @@
 ---
+
 id: aigc设计师实操培训01口喷设计范式与电商ai设计全流程
 created_at: 2026-05-28
 domain:
@@ -23,6 +24,10 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程
+  - AIGC设计师实操培训01
+  - 口喷设计范式与电商AI设计全流程
 related:
 - '[[tool-月白-设计项目MVP拆解法]]'
 - '[[dk-yb7-design-demand-80-10-10]]'

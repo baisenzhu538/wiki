@@ -1,4 +1,5 @@
 ---
+
 id: case-proya-betaine-skincare-benchmark
 title: 案例：贝泰妮招股书——敏感肌市场的完整画像
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 贝泰妮招股书
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
+discoverable_by:
+  - 案例：贝泰妮招股书——敏感肌市场的完整画像
+  - 贝泰妮招股书
+  - 敏感肌市场的完整画像
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

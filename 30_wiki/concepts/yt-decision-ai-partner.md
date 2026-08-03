@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-ai-partner
 component_of:
 - src_unknown
@@ -21,6 +22,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - AI决策Partner对话法
 related:
 - '[[yt-decision-y-model]]'
 - '[[yt-decision-canvas]]'

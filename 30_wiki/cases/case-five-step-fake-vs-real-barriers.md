@@ -1,4 +1,5 @@
 ---
+
 id: case-five-step-fake-vs-real-barriers
 title: 案例：五步法中识别真壁垒和假壁垒
 type: case
@@ -19,6 +20,9 @@ confidence: 0.85
 difficulty: intermediate
 estimated_tokens: 2400
 language: zh-CN
+discoverable_by:
+  - 案例：五步法中识别真壁垒和假壁垒
+  - 五步法中识别真壁垒和假壁垒
 quality_labels:
 - actionable
 - cited

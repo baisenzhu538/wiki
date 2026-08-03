@@ -1,4 +1,5 @@
 ---
+
 id: concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet
 title: 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析
 type: concept
@@ -26,6 +27,10 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: 2026-06-15
 confidence: 0.85
 trust_level: high
+discoverable_by:
+  - 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析
+  - 巨头为何不做诊所+智能药柜
+  - 竞争格局与壁垒分析
 related:
 - - - concept-smart-medicine-cabinet-international-models
 - - - tool-smart-medicine-cabinet-site-selection-guide

@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-参数即假设与递归嵌套
 title: 参数即假设与递归嵌套：公式里每个参数都是一条假设，参数是下一级的目标
 type: concept
@@ -25,6 +26,9 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1012-L1058
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L592-L630
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L704-L718
+discoverable_by:
+  - 参数即假设与递归嵌套
+  - 公式里每个参数都是一条假设，参数是下一级的目标
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-parameter-iceberg]]'

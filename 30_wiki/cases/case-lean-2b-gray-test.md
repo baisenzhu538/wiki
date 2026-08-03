@@ -1,4 +1,5 @@
 ---
+
 id: case-lean-2b-gray-test
 title: 一堂 2B 内训灰度测试
 type: case
@@ -26,6 +27,9 @@ aliases:
 source_refs:
 - 00_inbox/精益创业/一堂2B内训的灰度测试_ocr_text.md
 - 00_inbox/精益创业/一堂2B内训的灰度测试_vlm_desc.md
+discoverable_by:
+  - 一堂 2B 内训灰度测试
+  - 内训灰度测试
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'

@@ -1,4 +1,5 @@
 ---
+
 id: yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
 created_at: 2026-04-29
 domain: ai-saas
@@ -23,6 +24,10 @@ pipeline:
 - src_unknown
 author: unknown
 confidence: 0.8
+discoverable_by:
+  - 放出一套AI
+  - 公司组织方法论
+  - 直接把公司当操作系统来设计！中层管理变成了
 related:
 - '[[concept-wanghuan-ai-native-definition]]'
 - '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'

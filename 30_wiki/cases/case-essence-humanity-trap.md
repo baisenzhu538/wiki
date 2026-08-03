@@ -1,4 +1,5 @@
 ---
+
 id: case-essence-humanity-trap
 title: 案例：招聘/股权/激励专家都把本质归为'人性'——解释性本质的陷阱
 type: case
@@ -32,6 +33,10 @@ diagnostic_signals:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 案例：招聘/股权/激励专家都把本质归为'人性'——解释性本质
+  - 招聘/股权/激励专家都把本质归为'人性'
+  - 解释性本质的陷阱
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-从案例中学习]]'

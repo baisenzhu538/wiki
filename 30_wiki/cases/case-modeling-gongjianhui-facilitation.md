@@ -1,4 +1,5 @@
 ---
+
 id: case-modeling-gongjianhui-facilitation
 title: 共建会/攻坚会流程建模：从 30-50% 成功率到 80-100% 的 8-9 步法
 type: case
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 共建会/攻坚会流程建模：从 30-50% 成功率到 80-1
+  - 共建会/攻坚会流程建模
+  - 成功率到
 quality_labels:
 - cited
 - actionable

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-2022-annual-lessons
 title: 案例：一堂2022初五大课复盘——用四步闭环管理一堂自己的D级战略项目
 type: case
@@ -27,6 +28,10 @@ source_refs:
   - 00_inbox/管项目/项目管理-案例-一堂初五大课分析_ocr_text.md
   - 00_inbox/管项目/项目管理-入门篇-口述.txt
   - 00_inbox/管项目/项目管理-做复盘-口述.txt
+discoverable_by:
+  - 案例：一堂2022初五大课复盘——用四步闭环管理一堂自己的D
+  - 一堂2022初五大课复盘
+  - 用四步闭环管理一堂自己的D级战略项目
 related:
   - "[[framework-yitang-project-retrospective]]"
   - "[[framework-yitang-project-abcd-classification]]"

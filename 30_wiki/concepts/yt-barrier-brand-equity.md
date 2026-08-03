@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-barrier-brand-equity
@@ -21,6 +22,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 品牌资产：认知与信任
+  - 品牌资产
+  - 认知与信任
 related:
 - '[[yt-barrier-culture-moat]]'
 - '[[yt-barrier-data-assets]]'

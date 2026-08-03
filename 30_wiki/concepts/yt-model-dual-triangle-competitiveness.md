@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-dual-triangle-competitiveness
 confidence: 0.85
 created_at: 2026-05-07
@@ -14,6 +15,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 双三角竞争力模型
 related:
 - '[[一堂]]'
 - '[[一堂方法论体系总图]]'

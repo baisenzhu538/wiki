@@ -1,4 +1,5 @@
 ---
+
 id: case-guang-leng-dian-zi-hx-smj
 title: 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线
 type: case
@@ -20,6 +21,11 @@ source_refs:
 - 10_raw/sources/src_20260606_5809b496-广冷电子资料交叉验证综合报告.md
 - 10_raw/sources/src_20260606_04f43d43-原理图与bom交叉验证报告.md
 - 10_raw/sources/src_20260606_66c22d5d-广冷电子-hx-smj-红外光栅故障分析报告.md
+discoverable_by:
+  - 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可
+  - 广冷电子
+  - 红外光栅项目
+  - 从文件混乱到可投产基线
 tags:
 - src_unknown
 - src_unknown

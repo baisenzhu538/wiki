@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-春萍-刘伟tob销售标准化
 title: 刘伟 ToB 销售标准化：十八般武艺，把大客户销售从能人手艺练成组织能力
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 销售标准化
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt:L176-384（刘伟案例完整口述）
+discoverable_by:
+  - 刘伟 ToB 销售标准化：十八般武艺，把大客户销售从能人手艺
+  - 销售标准化
+  - 十八般武艺，把大客户销售从能人手艺练成组织能力
 related:
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[framework-一堂-苦练基本功-总纲]]'

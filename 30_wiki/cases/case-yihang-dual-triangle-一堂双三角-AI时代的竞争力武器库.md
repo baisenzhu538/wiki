@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-一堂双三角-AI时代的竞争力武器库
 title: 一堂双三角-AI时代的竞争力武器库 — 双三角案例
 type: case
@@ -23,6 +24,11 @@ aliases:
   - 时代的竞争力武器库双三角案例
   - 角案例
 source_refs:
+discoverable_by:
+  - 一堂双三角-AI时代的竞争力武器库 — 双三角案例
+  - 一堂双三角
+  - AI时代的竞争力武器库
+  - 双三角案例
 tags:
 reviewed_by: pending
 ---

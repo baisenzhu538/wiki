@@ -1,4 +1,5 @@
 ---
+
 id: yt-skill-storyline-contrast-analysis
 title: 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
 domain:
@@ -30,6 +31,11 @@ aliases:
 source_refs:
 - src_unknown
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
+discoverable_by:
+  - 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
+  - 清单体故事线⑤
+  - 对比分析线
+  - 用结构暴露被忽视的差异维度
 related:
 - '[[yt-skill-storyline-key-elements]]'
 - '[[yt-skill-storyline-problem-solving]]'

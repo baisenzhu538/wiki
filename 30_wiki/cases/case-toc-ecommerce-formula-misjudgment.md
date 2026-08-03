@@ -1,4 +1,5 @@
 ---
+
 id: case-toc-ecommerce-formula-misjudgment
 title: ToC 消费品电商：业务公式拆解误判导致放量亏损
 type: case
@@ -19,6 +20,10 @@ source_refs:
   L532-L650
 - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
   L38-L48
+discoverable_by:
+  - ToC 消费品电商：业务公式拆解误判导致放量亏损
+  - 消费品电商
+  - 业务公式拆解误判导致放量亏损
 tags:
 - audience:general
 - scene:reference

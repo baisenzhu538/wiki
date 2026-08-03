@@ -1,4 +1,5 @@
 ---
+
 id: case-child-drawing-rhyme
 title: 案例：孩子控笔「画画歌」——最小单元的建模实践
 type: case
@@ -28,6 +29,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
+discoverable_by:
+  - 案例：孩子控笔画画歌——最小单元的建模实践
+  - 孩子控笔画画歌
+  - 最小单元的建模实践
 related:
 - '[[tool-从案例中学习]]'
 - '[[case-科学决策-深度案例06]]'

@@ -1,4 +1,5 @@
 ---
+
 id: yt-lean-essence
 title: 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险
 type: concept
@@ -18,6 +19,10 @@ aliases:
   - 量试错成本降低系统性风险
 source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
+discoverable_by:
+  - 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险
+  - 一堂张磊版精益测试的本质
+  - 用少量试错成本降低系统性风险
 tags:
 - src_unknown
 - src_unknown

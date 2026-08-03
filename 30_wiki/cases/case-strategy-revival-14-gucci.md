@@ -1,4 +1,5 @@
 ---
+
 id: case-strategy-revival-14-gucci
 title: 案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千禧一代
 type: case
@@ -21,6 +22,10 @@ aliases:
   - 起死回生
 source_refs:
 - src_unknown
+discoverable_by:
+  - 案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千禧
+  - Gucci起死回生
+  - 砍折扣+收渠道+换创意+聚焦千禧一代
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-从案例中学习]]'

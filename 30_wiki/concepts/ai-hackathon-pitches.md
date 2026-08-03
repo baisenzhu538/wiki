@@ -1,4 +1,5 @@
 ---
+
 id: ai-hackathon-pitches
 title: AI 大航海项目路演：主题综合索引卡
 type: concept
@@ -28,6 +29,10 @@ source_refs:
 - 10_raw/sources/src_20260614_489554e9-瑶光阁-非遗珠宝项目汇报.md
 - 10_raw/sources/src_20260614_ef4f24d7-AI旋风组-项目介绍.md
 - 10_raw/sources/src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary.md
+discoverable_by:
+  - AI 大航海项目路演：主题综合索引卡
+  - 大航海项目路演
+  - 主题综合索引卡
 tags:
 - audience:general
 - scene:reference

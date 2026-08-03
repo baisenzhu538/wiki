@@ -1,4 +1,5 @@
 ---
+
 domain:
 - yitang
 id: yt-scale-economy-weapon-library
@@ -22,6 +23,8 @@ aliases:
   - 规模经济分析武器库
 source_refs:
 - pending_archive:src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
+discoverable_by:
+  - 规模经济分析武器库
 tags:
 - audience:general
 - scene:reference

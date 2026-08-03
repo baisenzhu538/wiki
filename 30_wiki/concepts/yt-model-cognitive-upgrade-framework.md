@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-cognitive-upgrade-framework
 confidence: 0.85
 created_at: 2026-05-15
@@ -17,6 +18,10 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 认知升级十步框架：从读书到安装认知补丁
+  - 认知升级十步框架
+  - 从读书到安装认知补丁
 related:
 - '[[yt-personal-checklist-notes]]'
 - '[[framework-kdo-self-attack]]'

@@ -1,4 +1,5 @@
 ---
+
 id: yt-management-partnership-equity
 created_at: 2026-05-06
 domain:
@@ -14,6 +15,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 合伙股权
 related:
 - '[[yitang-course-map]]'
 - '[[yt-system-course-catalog]]'

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - src_unknown
 id: yt-business-model-definition
@@ -22,6 +23,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 商业模式定义：从内核到变现
+  - 商业模式定义
+  - 从内核到变现
 related:
 - '[[tool-李诞-销售闭环验证：从0到1的重新定义]]'
 - '[[tool-李诞-个人IP的重新定义与输出策略]]'

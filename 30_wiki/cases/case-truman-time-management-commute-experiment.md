@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-time-management-commute-experiment
 title: Truman 通勤实验：用时间审计把「废时间」变成产能杠杆
 type: case
@@ -27,6 +28,10 @@ source_refs:
 - 00_inbox/时间管理/truman-时间管理课程-笔记.txt
 - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 - 00_inbox/时间管理/_processed/vlm_summary.json
+discoverable_by:
+  - Truman 通勤实验：用时间审计把废时间变成产能杠杆
+  - 通勤实验
+  - 用时间审计把废时间变成产能杠杆
 related:
 - framework-yitang-five-step-to-time-management
 - tool-personal-time-audit-loop

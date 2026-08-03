@@ -1,4 +1,5 @@
 ---
+
 id: case-ai-writing-homogenization
 title: 内容平台 AI 洗稿同质化：当生成式 AI 压低表达多样性
 type: case
@@ -25,6 +26,12 @@ aliases:
 source_refs:
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-口述.txt
 - 00_inbox/吾辈如神-拆书会/吾辈如神-书籍拆解-笔记.txt
+discoverable_by:
+  - 内容平台 AI 洗稿同质化：当生成式 AI 压低表达多样性
+  - 内容平台
+  - 洗稿同质化
+  - 当生成式
+  - 压低表达多样性
 related:
 - concept-abundance-paradox
 - tool-ai-use-barbell-strategy

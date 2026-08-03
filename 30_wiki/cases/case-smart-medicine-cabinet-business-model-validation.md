@@ -1,4 +1,5 @@
 ---
+
 id: case-smart-medicine-cabinet-business-model-validation
 title: 智能药柜推广项目：录音商业模式命题交叉验证
 type: case
@@ -23,6 +24,10 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: 2026-06-15
 confidence: 0.6
 trust_level: low
+discoverable_by:
+  - 智能药柜推广项目：录音商业模式命题交叉验证
+  - 智能药柜推广项目
+  - 录音商业模式命题交叉验证
 related:
 - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
 - '[[case-smart-medicine-cabinet-corporate-risk]]'

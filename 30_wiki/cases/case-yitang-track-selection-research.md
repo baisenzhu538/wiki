@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-track-selection-research
 title: 案例：一堂赛道选择——用调研方法论选创业方向
 type: case
@@ -22,6 +23,10 @@ aliases:
   - 赛道选择
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
+discoverable_by:
+  - 案例：一堂赛道选择——用调研方法论选创业方向
+  - 一堂赛道选择
+  - 用调研方法论选创业方向
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

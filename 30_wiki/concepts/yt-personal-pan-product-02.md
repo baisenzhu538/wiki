@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-pan-product-02
 component_of:
 - src_unknown
@@ -16,6 +17,10 @@ query_triggers:
 - src_unknown
 - src_unknown落地篇
 - src_unknown落地篇：无限进步与持续打磨
+discoverable_by:
+  - 泛产品设计落地篇：无限进步与持续打磨
+  - 泛产品设计落地篇
+  - 无限进步与持续打磨
 related:
 - '[[yt-model-pan-product-execution-toolkit]]'
 - '[[yt-personal-pan-product-concepts]]'

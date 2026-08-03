@@ -1,4 +1,5 @@
 ---
+
 id: concept-一堂-Agent基本功修炼
 title: Agent 基本功修炼：KDO 工厂就是 Agent 军团练基本功的系统
 type: concept
@@ -25,6 +26,11 @@ source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt L654-L866
 - 30_wiki/personal-os/zhu-feedback-patterns.md
 - 70_product/tasks/task_20260711_wangyuyan-agent-fundamentals-cultivation.md
+discoverable_by:
+  - Agent 基本功修炼：KDO 工厂就是 Agent 军团练
+  - 基本功修炼
+  - 工厂就是
+  - 军团练基本功的系统
 related:
 - '[[concept-一堂-AI时代基本功变与不变]]'
 - '[[yt-business-formula-parameter-iceberg]]'

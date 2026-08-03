@@ -1,4 +1,5 @@
 ---
+
 id: concept-yitang-ai-research-10-assumptions
 title: AI调研十大假设：人机协作的底层原则
 type: concept
@@ -23,6 +24,10 @@ aliases:
   - 调研十大假设
 source_refs:
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
+discoverable_by:
+  - AI调研十大假设：人机协作的底层原则
+  - AI调研十大假设
+  - 人机协作的底层原则
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

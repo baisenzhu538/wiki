@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-xiezefeng-clothing-innovation-param
 title: 服装店：找到"二次试穿"创新参数（L5）与"音量80"魔法数字（L6），用业务公式定优先级、转化率找抓手
 type: case
@@ -23,6 +24,8 @@ source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2398-L2560
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2474-L2508
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2560-L2629
+discoverable_by:
+  - 服装店
 quality_labels:
 - actionable
 - cited

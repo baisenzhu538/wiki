@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-huazao-synthetic-data
 title: 一行双三角案例：花总让AI先造数据破解工业级难题
 type: case
@@ -27,6 +28,10 @@ aliases:
 source_refs:
 - 00_inbox/人机协作双三角/_processed/一堂双三角-跨行业速解工业级难题_vlm.md
 - https://www.polarismarketresearch.com/industry-analysis/synthetic-data-generation-market
+discoverable_by:
+  - 一行双三角案例：花总让AI先造数据破解工业级难题
+  - 一行双三角案例
+  - 花总让AI先造数据破解工业级难题
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'

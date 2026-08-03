@@ -1,4 +1,5 @@
 ---
+
 id: concept-spatial-narrative-design
 title: 空间即逻辑：内容结构→画布空间的四结构+四原则映射
 type: concept
@@ -13,6 +14,10 @@ review_date: '2026-07-21'
 grade: A-
 created_at: '2026-07-21'
 updated_at: '2026-07-21'
+discoverable_by:
+  - 空间即逻辑：内容结构→画布空间的四结构+四原则映射
+  - 空间即逻辑
+  - 内容结构→画布空间的四结构+四原则映射
 quality_labels:
 - insight
 - principle

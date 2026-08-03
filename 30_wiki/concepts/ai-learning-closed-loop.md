@@ -1,4 +1,5 @@
 ---
+
 id: ai-learning-closed-loop
 title: AI学习闭环：从听懂到能力的转化路径
 type: concept
@@ -17,6 +18,10 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
 component_of: null
+discoverable_by:
+  - AI学习闭环：从听懂到能力的转化路径
+  - AI学习闭环
+  - 从听懂到能力的转化路径
 related:
 - '[[ai-collaboration-mindset-shift]]'
 - '[[course-to-skill-conversion]]'

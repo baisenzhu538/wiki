@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-晓莉学而思引流课
 title: 晓莉用「四阶段触点链+5000元意向金」把学而思线下引流课从筛选对象推成交
 type: case
@@ -36,6 +37,8 @@ source_refs:
   L12-L20
 - 00_inbox/Handle the business/conversion rate/_vlm_output/晓莉案例/晓莉-转化率黑客-FAB基础价值-图-01_vlm.md
   L7-L11
+discoverable_by:
+  - 晓莉用四阶段触点链+5000元意向金把学而思线下引流课从筛选
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'

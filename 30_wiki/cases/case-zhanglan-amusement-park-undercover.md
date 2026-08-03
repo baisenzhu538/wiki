@@ -1,4 +1,5 @@
 ---
+
 id: case-zhanglan-amusement-park-undercover
 title: 案例：张兰假扮游乐园店长卧底15天
 type: case
@@ -21,6 +22,9 @@ aliases:
   - 案例：张兰假扮游乐园店长卧底15天
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
+discoverable_by:
+  - 案例：张兰假扮游乐园店长卧底15天
+  - 张兰假扮游乐园店长卧底15天
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

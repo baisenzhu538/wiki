@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-shishi-qiushi-pitfall-2-ignore-facts
 title: 实事求是十坑·忽略事实：小黄狗回收柜烧光融资
 type: case
@@ -23,6 +24,11 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 00_inbox/实事求是/_processed/实事求是-大坑之二-忽略事实_vlm.md
+discoverable_by:
+  - 实事求是十坑·忽略事实：小黄狗回收柜烧光融资
+  - 实事求是十坑
+  - 忽略事实
+  - 小黄狗回收柜烧光融资
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 tags:

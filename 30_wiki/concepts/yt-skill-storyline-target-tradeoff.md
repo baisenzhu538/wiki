@@ -1,4 +1,5 @@
 ---
+
 id: yt-skill-storyline-target-tradeoff
 title: 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架
 domain:
@@ -30,6 +31,11 @@ aliases:
 source_refs:
 - src_unknown
 source_context: 一堂清单体故事线系列（具体来源文件无法追溯，待后续补充）
+discoverable_by:
+  - 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架
+  - 清单体故事线⑦
+  - 目标取舍线
+  - 把模糊的纠结变成显性的决策框架
 related:
 - '[[yt-skill-storyline-contrast-analysis]]'
 - '[[yt-skill-storyline-key-elements]]'

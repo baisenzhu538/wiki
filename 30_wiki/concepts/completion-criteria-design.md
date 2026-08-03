@@ -1,4 +1,5 @@
 ---
+
 id: completion-criteria-design
 title: 完成标准设定
 type: tool
@@ -12,6 +13,8 @@ aliases:
   - 标准设定
 source_refs:
 - 00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md
+discoverable_by:
+  - 完成标准设定
 related:
 - '[[deliberate-practice-four-elements]]'
 - '[[challenge-point-design]]'

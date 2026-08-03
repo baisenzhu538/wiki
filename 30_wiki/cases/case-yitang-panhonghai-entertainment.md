@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-panhonghai-entertainment
 title: 潘鸿海娱乐店：涨价拆成三个子假设小范围测，GMV +15-20%，半年业绩 +50%
 type: case
@@ -24,6 +25,11 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1442-L1448
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L1450-L1452
 - 00_inbox/Handle the business/Business formula/_vlm_output/王语嫣_五篇逐字稿精读索引.md L43-L43
+discoverable_by:
+  - 潘鸿海娱乐店：涨价拆成三个子假设小范围测，GMV +15-2
+  - 潘鸿海娱乐店
+  - 涨价拆成三个子假设小范围测，GMV
+  - 20%，半年业绩
 quality_labels:
 - actionable
 - cited

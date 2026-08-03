@@ -1,4 +1,5 @@
 ---
+
 domain:
 - personal-growth
 id: yt-personal-knowledge-management
@@ -25,6 +26,8 @@ aliases:
   - 知识管理
 source_refs:
 - pending_archive:src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
+discoverable_by:
+  - 知识管理
 tags:
 - audience:general
 - scene:reference

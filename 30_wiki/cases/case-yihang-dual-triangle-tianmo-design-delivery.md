@@ -1,4 +1,5 @@
 ---
+
 id: case-yihang-dual-triangle-tianmo-design-delivery
 title: 一行双三角案例：天末4天商业级室内设计交付
 type: case
@@ -33,6 +34,10 @@ source_refs:
 - 00_inbox/人机协作双三角/_processed/天末的案例口述_page007_vlm.md
 - 00_inbox/人机协作双三角/_processed/天末的双三角模型_vlm.md
 - https://www.chinaseo.com/competitive-intelligence-the-2025-2026-ai-landscape-and-new-paradigm-for-digital-growth/
+discoverable_by:
+  - 一行双三角案例：天末4天商业级室内设计交付
+  - 一行双三角案例
+  - 天末4天商业级室内设计交付
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-yihang-dual-triangle-canvas]]'

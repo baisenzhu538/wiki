@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-lin-biaoyang-liver-detection
 title: 案例：林标阳肝病检测——L5 学科层推翻商业层二三十年惯例
 type: case
@@ -23,6 +24,10 @@ aliases:
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
+discoverable_by:
+  - 案例：林标阳肝病检测——L5 学科层推翻商业层二三十年惯例
+  - 林标阳肝病检测
+  - 学科层推翻商业层二三十年惯例
 related:
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[yt-decision-y-model]]'
