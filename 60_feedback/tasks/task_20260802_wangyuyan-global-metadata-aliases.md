@@ -2,12 +2,13 @@
 id: task_20260802_wangyuyan-global-metadata-aliases
 task_id: 223
 assignee: hermes
-status: blocked
+status: queued
 created_at: 2026-08-02
 domain: kdo
 priority: P1
 source: 王语嫣全局元数据扫描（2026-08-02）
-updated_at: '2026-08-03T03:45:00+00:00'
+updated_at: '2026-08-03T06:30:00+00:00'
+last_review: "PASS放行 2026-08-03 欧阳锋——#222恢复审查通过，#223串行启动放行（hermes实例）"
 ---
 
 # 🛑 紧急停手（2026-08-03 03:45）：#223 立即停止执行

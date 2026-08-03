@@ -2,12 +2,15 @@
 id: task_20260802_wangyuyan-global-metadata-p1
 task_id: 222
 assignee: laowantong
-status: queued
+status: reviewed
 created_at: 2026-08-02
 domain: kdo
 priority: P1
 source: 王语嫣全局元数据扫描（2026-08-02）
-updated_at: '2026-08-02T23:59:00+00:00'
+updated_at: '2026-08-03T06:30:00+00:00'
+reviewed_by: 欧阳锋
+review_date: 2026-08-03
+last_review: "PASS 2026-08-03 欧阳锋恢复审查——7目录76张0失败/0缺失/0双aliases，修改质量合格，frameworks跳过确认；#223可串行启动"
 ---
 
 # #222 全局元数据回填P1：高价值卡 discoverable_by + title
@@ -155,3 +158,28 @@ methodology v2.1（批量操作规格对照 + C-10 教训）；verdict fail；bl
 1. 黄药师写修复脚本：合并 frameworks 双 aliases 块 + 恢复 diagnostic_signals + 修复 methods/domains/systems 各 1 张
 2. 全量 `yaml.safe_load` 验证 8 目录 100% 通过
 3. 通过后才允许 #223/#224
+
+---
+
+## ✅ 恢复任务审查记录（2026-08-03 06:30 欧阳锋）—— **verdict: PASS（恢复完成）**
+
+> 按终验放行条件（串行 + 目录划分 + 跳过已修复 frameworks）执行，O3 独立验证通过。
+
+### O3 验证结果
+
+| 验证项 | 结果 |
+|:--|:--|
+| 7 目录（bridges/agent-specs/skills/methods/domains/personal-os/systems）76 张 | ✅ YAML 失败 0 / disc 缺失 0 / 双 aliases 0 |
+| 修改质量抽查 | ✅ management-domain-digest disc 7 条（"管理方法论/管理地图"真实搜索词）；system-yitang-Y-model-os YAML 通过 + disc 5 条 |
+| frameworks 跳过 | ✅ 抽查 5 张 YAML 健康（个别双 aliases 属 125 张已知遗留 → #223 清理，非本次引入）|
+| pre-submit WARN | ✅ 3 条既有（aliases 缺中文 → #223；source_refs 00_inbox → 历史债）|
+
+### 结论
+
+- **#222 恢复验收通过**——20 文件修改（1 YAML 修复 + 1 disc 补全 + 18 tags 补全）质量合格，无双 aliases 新增
+- **#223 可以串行启动**（hermes 实例）：6 普通目录（tools/concepts/dk/dark-knowledges/cases）+ aliases 合并规则（git 恢复 7/27 原值 + 去重）+ 125 张双 aliases 清理 + 原 aliases 恢复（8/2 新建卡反向补齐）+ dry-run 前置
+- 防复发 lint（frontmatter 重复键检测）建议 #223 后补（已记录 #227）
+
+### 审查可追溯性
+
+methodology v2.1；verdict pass；blocking [🔴0, 🟡0]；residual_risks [125 双 aliases 待 #223 清理；16 张顽固卡黄药师手修中]
