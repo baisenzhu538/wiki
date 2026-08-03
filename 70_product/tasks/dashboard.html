@@ -46,13 +46,13 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-03 02:18</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-03 19:44</p>
 
 <div class="stats">
-<div class="stat queued"><div class="stat-num">4</div><div class="stat-label">待领取 Queued</div></div>
+<div class="stat queued"><div class="stat-num">5</div><div class="stat-label">待领取 Queued</div></div>
 <div class="stat pending"><div class="stat-num">0</div><div class="stat-label">审查中 Review</div></div>
 <div class="stat active"><div class="stat-num">1</div><div class="stat-label">进行中 Active</div></div>
-<div class="stat done"><div class="stat-num">219</div><div class="stat-label">已完成 Done</div></div>
+<div class="stat done"><div class="stat-num">220</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">18</div><div class="stat-label">活跃角色</div></div>
 </div>
 
@@ -68,17 +68,6 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
-<div class="task-id">#222</div>
-<div class="task-title">全局元数据回填P1：高价值卡（framework/domain/system/agent-spec/skill/method/bridge）discoverable_by+title+tags</div>
-<div class="task-detail">全局扫描发现discoverable_by 93.2%缺失；P1高价值层回填；只动frontmatter；P1</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee laowantong">老顽童</span>
 </div>
 </div>
 <div class="task-card">
@@ -103,6 +92,28 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <span class="task-assignee laowantong">老顽童</span>
 </div>
 </div>
+<div class="task-card">
+<div class="task-prio p0">P0</div>
+<div class="task-info">
+<div class="task-id">#227</div>
+<div class="task-title">紧急修复：双线并行写入破坏~1800张卡YAML结构（#222 frameworks 247 + #223 tools/concepts等1300+）</div>
+<div class="task-detail">🚨双线事故：飞书#222（247 frameworks）+hermes#223（tools 958/concepts 461/dk 16）同用"追加aliases块"模式并行写入→~1680张YAML失败。王语嫣实测验证+扩大范围。恢复条件…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#228</div>
+<div class="task-title">lint防复发：frontmatter重复键检测（E010终极防线）</div>
+<div class="task-detail">欧阳锋洞察+王语嫣验证：lint无重复键检测，当前全库131张卡含重复键提交不拦。若8/2有此规则，#222/#223事故根本不会发生。aliases/tags/related/ds重复键→ERROR，与#217 F3同模式。P1</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
 </div>
 <div class="task-group">
 <div class="group-header active">进行中</div>
@@ -111,7 +122,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-info">
 <div class="task-id">#223</div>
 <div class="task-title">全局aliases回填：860张卡补中文别名（tools/concepts/dk优先）</div>
-<div class="task-detail">用户指示：存量aliases/tags债单列给hermes老顽童独立消化，飞书老顽童继续#222主线；实例隔离不互堵；分批机械回填；P1</div>
+<div class="task-detail">🛑王语嫣紧急停手(2026-08-03 03:45)：**新增根因——#223与#222范围重叠（都含frameworks/），两个实例并行写入同一批文件导致C-10级破坏**（git 2626文件未提交=hermes持续执行中）。herm…</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee laowantong">hermes</span>
@@ -119,6 +130,6 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-03 02:18</footer>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-03 19:44</footer>
 </body>
 </html>
