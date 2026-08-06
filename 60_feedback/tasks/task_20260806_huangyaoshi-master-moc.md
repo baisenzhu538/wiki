@@ -43,3 +43,9 @@ priority: P2
 
 - 后续序列 product(75) → kdo(51) 依此类推（P2 逐个启动）
 - MOC 不展开内容，节点卡不动正文
+
+## 🆕 验收记录（2026-08-06）
+
+- ✅ **欧阳锋终审 PASS**：related 15 张 0 死链（全库 id 集合精确匹配——#238 教训已生效，RELATED_DEAD 检查到位）/ 定位声明 ✅ / ds 2 条 ✅ / 增量 0
+- **三 MOC 规律确认**：死链检查从"手测发现 7 张"→"RELATED_DEAD 自动 0"——黄药师 MOC 生产流程成熟（全库 id 集合验证成为标准动作）
+- 队列登记核查：任务单 + production-queue #241 条目均已存在（欧阳锋审查时视图未见，实际已登记）；状态 reviewed 待 queue_transition 同步
