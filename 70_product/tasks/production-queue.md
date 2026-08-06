@@ -479,4 +479,4 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 241 | \`task_20260806_huangyaoshi-master-moc\` | master主题域MOC索引卡（横向序列②，104张） | queued | huangyaoshi | 1 张MOC | #238 reviewed + #240 后 | \`60_feedback/tasks/task_20260806_huangyaoshi-master-moc.md\` | 模板复用#236/#238定稿版（含状态联动）；后续product→kdo依此类推 |
 
-| 242 | \`task_20260806_huangyaoshi-deadlink-lint-gate\` | 死链检测纳入lint门禁：F2全库模式修正+MOC/索引类卡死链0强制（防增量） | queued | huangyaoshi | 1 项lint规则 | 无（可�
+| 242 | \`task_20260806_huangyaoshi-deadlink-lint-gate\` | 死链检测纳入lint门禁：F2全库模式修正+MOC/索引类卡死链0强制（防增量） | queued | huangyaoshi | 1 项lint规则 | 无（可与#238修复并行） | \`60_feedback/tasks/task_20260806_huangyaoshi-deadlink-lint-gate.md\` | 触发：#238 MOC死链54%而checklist PASS未拦；欧阳锋观察F2单文件误报；对标#217/#228防复发模式 |
