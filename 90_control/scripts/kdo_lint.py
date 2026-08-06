@@ -56,6 +56,7 @@ ERROR_HINT_MAP = {
     "R6 WARN": "缺中文 aliases 或 scene 标签 → 卡存在但搜不到。老顽童提交前补上。",
     "F3 DUPLICATE ID": "两个文件用了同一个 id → 其中一个可能是旧副本。确认后删除重复文件或用不同 id。",
     "DUPLICATE KEY": "同一个 key 出现多次 → 合并为单块。双 aliases 是 #222/#223 事故的根因模式。",
+    "F4 MOC DEAD LINK": "MOC 导航卡存在死链 → 导航失效。用实际卡 id 替换 related 中的描述性名称。",
 }
 
 
@@ -322,6 +323,7 @@ def lint(target: Path) -> dict:
     file_count = 0
     card_ids: set[str] = set()
     related_map: dict[str, list[str]] = {}  # card_id → list of related card_ids
+    card_types: dict[str, str] = {}  # card_id → type (for MOC dead link check)
 
     if target.is_file():
         md_files = [target]
@@ -357,6 +359,10 @@ def lint(target: Path) -> dict:
                     # 记录 id→路径 映射（重复检测用）
                     rel_path = fp.relative_to(VAULT_ROOT).as_posix()
                     id_to_paths.setdefault(cid, []).append(rel_path)
+                    # 记录卡类型（MOC 死链检查用）
+                    ct = fm.get("type", "")
+                    if isinstance(ct, list): ct = ct[0] if ct else ""
+                    if ct: card_types[cid] = str(ct)
                     related = fm.get("related", [])
                     if isinstance(related, str):
                         related = [related.strip().strip("'\"")] if related.strip() else []
@@ -402,6 +408,18 @@ def lint(target: Path) -> dict:
             dup_errors.append(f"F3 DUPLICATE ID: '{cid}' appears in {len(paths)} files → {', '.join(paths)}")
     all_errors.extend(dup_errors)
 
+    # F4: MOC/索引类卡死链检测（#242 — MOC 导航卡死链=导航失效，强制 ERROR）
+    MOC_TYPES = {"index", "digest", "moc"}
+    for cid, related_list in related_map.items():
+        ct = card_types.get(cid, "")
+        if ct not in MOC_TYPES:
+            continue
+        for target in related_list:
+            if target.startswith("<<") or not target:
+                continue
+            if target not in card_ids:
+                all_errors.append(f"F4 MOC DEAD LINK: {cid} → {target} (MOC cards must have zero dead links — target card not found)")
+
     return {
         "files_checked": file_count,
         "errors": all_errors,
@@ -414,6 +432,7 @@ def lint(target: Path) -> dict:
 def error_signature(error: str) -> str:
     """提取错误的稳定签名——用于跨基线去重。
     F2: "F2 BROKEN LINK: A → B (...)" → "F2_BROKEN: A→B"
+    F4: "F4 MOC DEAD LINK: A → B (...)" → "F4_MOC: A→B"
     F1: "path: F1 VIOLATION: ..." → "F1: path"
     其他: 取前 120 字符归一化空白。
     """
@@ -421,6 +440,9 @@ def error_signature(error: str) -> str:
     m = re.match(r"^(F2 (?:BROKEN LINK|MISSING BACKLINK)):\s*(\S+)\s*→\s*(\S+)", e)
     if m:
         return f"{m.group(1).replace(' ', '_')}: {m.group(2)}→{m.group(3)}"
+    m = re.match(r"^(F4 MOC DEAD LINK):\s*(\S+)\s*→\s*(\S+)", e)
+    if m:
+        return f"F4_MOC: {m.group(2)}→{m.group(3)}"
     m = re.match(r"^(\S+):\s*(F1 VIOLATION:.*)", e)
     if m:
         return f"F1: {m.group(1)}"
