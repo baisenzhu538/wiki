@@ -4,9 +4,9 @@ title: 技能：延迟直觉法
 type: tool
 status: draft
 domain:
-- decision-making
-- 认知
-- 个人管理
+  - decision-making
+  - modeling
+  - personal-os
 source_person: 消化全库后提炼
 source_context: 基于master-decision-hygiene框架提炼，2026-05-18
 aliases:
@@ -31,6 +31,9 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：延迟直觉法
+  - 延迟直觉法
 related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'

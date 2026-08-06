@@ -1,13 +1,8 @@
 ---
-
 id: ai-landing-scene-selection
 title: AI落地场景识别：从找老的干小的开始
 type: concept
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 aliases:
   - AI落地场景识别
@@ -57,7 +52,6 @@ tags:
 - skill-level:intermediate
 - 的核心问题
 ---
-
 # AI落地场景识别：从"找老的干小的"开始
 
 > Source: src_20260606_ef4877d0 (马易-AI落地场景识别-口述)

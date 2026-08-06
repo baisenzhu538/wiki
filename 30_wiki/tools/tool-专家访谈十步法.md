@@ -3,8 +3,9 @@ id: tool-专家访谈十步法
 title: 技能：专家访谈十步法
 type: tool
 domain:
-- research- design
-- yitang
+  - research
+  - design
+  - yitang
 status: draft
 source_person: 一堂课程设计
 source_context: src_20260522_e139c9e9
@@ -27,6 +28,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：专家访谈十步法
+  - 专家访谈十步法
 related:
 - '[[tool-知识库团队管理]]'
 - '[[tool-项目复盘基本功]]'

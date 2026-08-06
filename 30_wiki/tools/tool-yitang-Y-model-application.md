@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-Y-model-application
 title: Y模型应用工作流：把科学做事框架变成具体问题上的操作清单
 type: tool
@@ -27,6 +28,10 @@ source_refs:
 - 00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md
 - 00_inbox/底层逻辑之一-Y模型/科学理念-Y模型.png
 - 60_feedback/diagnosis/diag_20260703_yitang-Y-model-foundation.md
+discoverable_by:
+  - Y模型应用工作流：把科学做事框架变成具体问题上的操作清单
+  - Y模型应用工作流
+  - 把科学做事框架变成具体问题上的操作清单
 related:
 - yt-decision-y-model
 - dk-yitang-Y-model-pitfalls

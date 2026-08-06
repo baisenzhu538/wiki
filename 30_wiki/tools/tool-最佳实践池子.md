@@ -1,4 +1,5 @@
 ---
+
 id: tool-最佳实践池子
 title: 最佳实践池子：建立你的最佳实践知识库
 type: tool
@@ -18,6 +19,10 @@ aliases:
   - 最佳实践池子
   - 最佳实践池子：建立你的最佳实践知识库
 source_refs:
+discoverable_by:
+  - 最佳实践池子：建立你的最佳实践知识库
+  - 最佳实践池子
+  - 建立你的最佳实践知识库
 related:
 updated_at: '2026-06-29'
 tags:

@@ -3,9 +3,9 @@ id: tool-用topdown方式整理内化笔记
 title: 技能：用Topdown方式整理内化笔记
 type: tool
 domain:
-- learning-methodology- product
-- management
-- yitang
+  - learning-methodology
+  - management
+  - yitang
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f
@@ -29,6 +29,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：用Topdown方式整理内化笔记
+  - 用Topdown方式整理内化笔记
 related:
 - '[[tool-提升笔记练习频次的方法]]'
 - '[[tool-自我反馈修正笔记姿势]]'

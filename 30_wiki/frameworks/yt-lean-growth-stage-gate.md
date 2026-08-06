@@ -3,10 +3,7 @@ id: yt-lean-growth-stage-gate
 title: 增长阶段标志：单元模型成立 + 找到增长渠道
 type: framework
 status: draft
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - 单元模型成立
   - 增长渠道
@@ -53,8 +50,6 @@ discoverable_by:
 - 增长节奏
 - 阶段验证
 ---
-
-
 # 增长阶段标志：单元模型成立 + 找到增长渠道
 
 > 商业模式跑通的标志是：核心单元成立，且找到了一条增长渠道。指标必须放回具体的单元模型里判断，而不是直接看指标。——张磊，AMA Q3（src_20260616_b1e25c49）

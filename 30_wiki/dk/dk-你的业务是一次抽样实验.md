@@ -1,4 +1,5 @@
 ---
+
 id: dk-你的业务是一次抽样实验
 title: 暗知识：你的业务是一次抽样实验
 type: dk
@@ -19,6 +20,10 @@ aliases:
   - 暗知识：你的业务是一次抽样实验
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-你的业务是一次抽样实验_vlm_desc.md
+discoverable_by:
+  - 暗知识：你的业务是一次抽样实验
+  - 暗知识
+  - 你的业务是一次抽样实验
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

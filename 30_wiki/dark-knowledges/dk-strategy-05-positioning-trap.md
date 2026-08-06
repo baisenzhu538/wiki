@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-05-positioning-trap
 title: 定位公司陷阱：高端定位→丢低端市场。清洁用品L的教训
 type: dk
@@ -18,6 +19,10 @@ aliases:
   - 高端定位→丢低端市场。清洁用品L的教训
 source_refs:
 - src_unknown
+discoverable_by:
+  - 定位公司陷阱：高端定位→丢低端市场。清洁用品L的教训
+  - 定位公司陷阱
+  - 高端定位→丢低端市场。清洁用品L的教训
 related:
 - '[[dk-strategy-essence-four-elements]]'
 - '[[dk-strategy-03-advantage-temporary]]'

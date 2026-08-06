@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-知识库最佳实践构建
 title: 技能：知识库最佳实践构建
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

@@ -1,4 +1,5 @@
 ---
+
 id: yt-pitch-metaphor
 title: 讲香·比喻化
 type: tool
@@ -20,6 +21,9 @@ difficulty: foundational
 confidence: 0.85
 prerequisites:
 component_of:
+discoverable_by:
+  - 讲香·比喻化
+  - 比喻化
 related:
 contradicts: null
 query_triggers:

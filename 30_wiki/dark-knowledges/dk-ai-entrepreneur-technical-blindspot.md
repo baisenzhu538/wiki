@@ -10,21 +10,19 @@ domain:
 source_person: 一堂
 source_context: AI创业机会预判课程中对"新能力"维度过度加权的诊断，2026-06
 aliases:
-  - AI创业者最大的盲区
-  - 创业者最大的盲区
-  - 我们能做出来'≠'用户需要这个
-  - 暗知
-  - 暗知：AI创业者最大的盲区'我们能做出来'≠'用户需要这个
-  - 用户需要这个
+- AI创业者最大的盲区
+- 创业者最大的盲区
+- 我们能做出来'≠'用户需要这个
+- 暗知
 source_refs:
 - 10_raw/sources/src_20260610_ac25d82a-一堂-机会预判-三维排列组合01.md
 - 10_raw/sources/src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a.md
 - 10_raw/sources/src_20260430_59a3d224-街顺app全面调研报告.md
+discoverable_by:
+- AI创业者最大的盲区
+- '''我们能做出来''≠''用户需要这个'''
+- AI创业机会预判
 tags:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 - audience:executor
 - scene:reference
 - skill-level:intermediate
@@ -48,12 +46,6 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 技术可行性幻觉——把能力可见性误当成需求真实性
   follow_up_question: 如果这个AI功能明天消失，用户会因为失去什么而取消订阅？
-- signal: src_unknown
-  framework_lens: 新能力"维度权重过高，"新行业/新模式"需求验证被系统性跳过
-  follow_up_question: 每个候选交叉点是否有≥5个真实用户愿意付费的证据？
-- 三维排列组合
-- 全面调研报告
-- 刘长胜
 ---
 
 # 暗知：AI创业者最大的盲区——"我们能做出来"≠"用户需要这个"

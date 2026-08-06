@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-public-sentiment-research
 title: 舆情/口碑批量收集：好评决定内核，差评决定机会
 type: tool
@@ -31,6 +32,10 @@ aliases:
   - 舆情/口碑批量收集：好评决定内核，差评决定机会
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - 舆情/口碑批量收集：好评决定内核，差评决定机会
+  - 舆情/口碑批量收集
+  - 好评决定内核，差评决定机会
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

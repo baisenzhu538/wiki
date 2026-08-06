@@ -1,8 +1,13 @@
 ---
+
 id: tool-ci-implement-phase
 title: CI Implement 阶段工具：洞见嵌入运营节奏
 type: tool
 domain:
+discoverable_by:
+  - CI Implement 阶段工具：洞见嵌入运营节奏
+  - 阶段工具
+  - 洞见嵌入运营节奏
 tags:
 source_person: Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
 source_context: CI Operating Model Implement 阶段工具化实现

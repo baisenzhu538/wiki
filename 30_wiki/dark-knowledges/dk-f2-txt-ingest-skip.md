@@ -1,4 +1,5 @@
 ---
+
 id: dk-f2-txt-ingest-skip
 title: F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功
 type: dk
@@ -18,6 +19,10 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-28'
+discoverable_by:
+  - F-KDO-002：非 .md 文件 ingest 静默跳过
+  - 静默跳过→state.json
+  - 无变化但用户以为成功
 related:
 - '[[dk-c1-cjk-regex-silent-fail]]'
 - '[[kdo-input-channel-strategy-2026-06-16]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-c10-batch-tool-no-dry-run
 title: C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
 type: dk
@@ -17,6 +18,9 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
+discoverable_by:
+  - C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清
+  - 基础设施工具改后直接跑批量→71张卡攻击者内容被清空
 related:
 - '[[dk-small-format-error-cascades-to-system-failure]]'
 - '[[dk-f4-wrong-workdir]]'

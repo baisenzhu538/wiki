@@ -12,10 +12,7 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -23,6 +20,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
+discoverable_by:
+  - 迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞
+  - 迭代递归深挖法
+  - 改”循环把模型推到撞无可撞
 related:
 - '[[case-truman-livestream-sop-iteration]]'
 - '[[framework-yitang-iterative-recursive-digging]]'
@@ -47,7 +48,6 @@ diagnostic_signals:
   follow_up_question: 停止标准是“我当前能力上限找不到问题”，还是“客观上已无硬伤”？是否已记录边界和假设？
 - 建模能力培训
 ---
-
 # 迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞
 
 ## 用一句话讲清楚

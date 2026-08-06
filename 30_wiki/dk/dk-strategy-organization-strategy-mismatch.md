@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-strategy-organization-strategy-mismatch
 title: 组织能力与战略方向不匹配
 type: dk
@@ -15,6 +16,8 @@ aliases:
   - 能力与战略方向不匹配
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
+discoverable_by:
+  - 组织能力与战略方向不匹配
 related:
   - "[[case-strategy-failure-05-it]]"
   - "[[case-strategy-failure-06-phone-n]]"

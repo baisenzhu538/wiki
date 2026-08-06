@@ -1,5 +1,4 @@
 ---
-
 id: yt-five-step-method
 confidence: 0.9
 discoverable_by:
@@ -12,8 +11,7 @@ quality_labels:
 - validated
 created_at: 2026-06-10
 difficulty: beginner
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
@@ -71,7 +69,6 @@ tags:
 - skill-level:intermediate
 - 一堂五步法
 ---
-
 # 一堂五步法总纲
 
 > 来源：一堂全员必修课程 | Truman口述 | [[yt-demand-analysis-hiking-map]] | [[yt-product-kernel-cultivation]] | [[yt-unit-model-three-tools]] | [[yt-growth-cycle-model]] | [[yt-barrier-analysis-cheat-sheet]]

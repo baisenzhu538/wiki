@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-名利权情动力法
 title: 一堂名利权情动力法：名 / 利 / 权 / 情 四张内驱牌
 type: tool
@@ -19,6 +20,10 @@ aliases:
   - 四张内驱牌
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3310-L3628
+discoverable_by:
+  - 一堂名利权情动力法：名 / 利 / 权 / 情 四张内驱牌
+  - 一堂名利权情动力法
+  - 四张内驱牌
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-动力三曲线]]'

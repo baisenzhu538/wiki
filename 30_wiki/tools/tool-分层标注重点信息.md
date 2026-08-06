@@ -1,4 +1,5 @@
 ---
+
 id: tool-分层标注重点信息
 title: 技能：分层标注重点信息
 type: tool
@@ -30,6 +31,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：分层标注重点信息
+  - 分层标注重点信息
 related:
 - '[[tool-多轮确认防偏差]]'
 - '[[tool-主动摘要压缩上下文]]'

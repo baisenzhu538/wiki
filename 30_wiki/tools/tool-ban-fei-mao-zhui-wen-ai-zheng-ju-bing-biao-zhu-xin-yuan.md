@@ -4,8 +4,8 @@ title: 技能：追问 AI 证据并标注信源
 type: tool
 status: reviewed
 domain:
-- src_unknown
-- yitang- src_unknown
+  - src-unknown
+  - yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 aliases:
@@ -21,6 +21,9 @@ tools_required:
 - src_unknown
 prerequisite_skills:
 - src_unknown
+discoverable_by:
+  - 技能：追问 AI 证据并标注信源
+  - 证据并标注信源
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[tool-三阶追问法穷尽决策要素]]'
@@ -54,7 +57,6 @@ tags:
 - 半肥猫
 - 学习落地
 ---
-
 # 技能：追问 AI 证据并标注信源
 
 ## 用一句话讲清楚

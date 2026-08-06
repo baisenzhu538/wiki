@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-FAB说服法
 title: 一堂 FAB 说服法：事实起点 → 逻辑节点 → 价值终点的以理服人结构
 type: tool
@@ -22,6 +23,12 @@ aliases:
   - 逻辑节点
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L858-L1601
+discoverable_by:
+  - 一堂 FAB 说服法：事实起点 → 逻辑节点 → 价值终点的
+  - 说服法
+  - 事实起点
+  - 逻辑节点
+  - 价值终点的以理服人结构
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-动力三曲线]]'

@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-demand-ai-knowledge-base-case
 title: AI企业知识库案例：从"技术炫技"到"需求验证"
 type: case
@@ -50,7 +48,6 @@ tags:
 - 产品路线图
 - 企业知识库
 ---
-
 # AI企业知识库案例：从"技术炫技"到"需求验证"
 
 > 一堂五步法需求分析案例：AI企业知识库——技术很炫，但需求验证不足。

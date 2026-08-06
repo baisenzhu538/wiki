@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-demand-motivation-resistance
 title: 需求动机与阻力分析：为什么用户"需要"但"不用"
 type: concept
@@ -52,7 +50,6 @@ tags:
 - 泛产品设计
 - 用户卡片
 ---
-
 # 需求动机与阻力分析：为什么用户"需要"但"不用"
 
 > 一堂泛产品设计：需求不是"有"或"没有"，而是"动机"和"阻力"的博弈。

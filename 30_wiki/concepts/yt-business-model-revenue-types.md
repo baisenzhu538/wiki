@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-revenue-types
 title: 收入模式：6种典型变现方式
 type: concept
@@ -49,7 +47,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 收入模式：6种典型变现方式
 
 > 一堂五步法：收入模式是商业模式的核心，需要与内核匹配，不是随机选择。

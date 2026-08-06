@@ -9,8 +9,7 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260619_adef6403_30_wiki_concepts_yt_management_goal_management.md
 status: reviewed
-domain:
-- src_unknown
+domain: src-unknown
 language: zh-CN
 version: 1
 difficulty: foundational
@@ -18,6 +17,9 @@ confidence: 0.85
 prerequisites: null
 component_of:
 - src_unknown
+discoverable_by:
+  - OKR 制定与复盘罗盘
+  - 制定与复盘罗盘
 related:
 - '[[yt-management-goal-management]]'
 - '[[yt-tool-strategy-workshop]]'

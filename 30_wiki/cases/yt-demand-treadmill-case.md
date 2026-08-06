@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-demand-treadmill-case
 title: 跑步机案例：需求分析全流程实战
 type: case
@@ -51,7 +49,6 @@ tags:
 - 跑步机案例
 - 需求分析图
 ---
-
 # 跑步机案例：需求分析全流程实战
 
 > 一堂五步法需求分析经典案例：跑步机——从"所有人想健身"到"特定人群的特定场景"。

@@ -1,4 +1,5 @@
 ---
+
 id: dk-ban-fei-mao-silky-answers-are-dangerous
 title: 暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱
 type: dk
@@ -17,6 +18,10 @@ source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 created_at: 2026-06-08
 updated_at: 2026-06-28
+discoverable_by:
+  - 暗知：AI给的回答越丝滑，问题越大——完全不等于可靠陷阱
+  - AI给的回答越丝滑，问题越大
+  - 完全不等于可靠陷阱
 related:
 - '[[dk-ban-fei-mao-skill-rejection-value]]'
 - '[[dk-ai-judgment-human-responsibility]]'

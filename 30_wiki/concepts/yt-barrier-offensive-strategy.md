@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-offensive-strategy
 title: 进攻策略：突破竞品壁垒
 type: concept
@@ -49,7 +47,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 进攻策略：突破竞品壁垒
 
 > 一堂五步法：最好的进攻是找到竞品壁垒的弱点，差异化突破。不是硬碰硬，而是侧翼包抄。

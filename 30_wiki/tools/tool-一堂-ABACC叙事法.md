@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-ABACC叙事法
 title: 一堂ABACC叙事法：非标品与非高科技讲香的开头捕获框架
 type: tool
@@ -19,6 +20,10 @@ aliases:
   - 非标品与非高科技讲香的开头捕获框架
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3234-L3270
+discoverable_by:
+  - 一堂ABACC叙事法：非标品与非高科技讲香的开头捕获框架
+  - 一堂ABACC叙事法
+  - 非标品与非高科技讲香的开头捕获框架
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

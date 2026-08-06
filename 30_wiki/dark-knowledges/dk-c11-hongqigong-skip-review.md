@@ -1,4 +1,5 @@
 ---
+
 id: dk-c11-hongqigong-skip-review
 title: C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
+discoverable_by:
+  - C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过
+  - 洪七公跳步
+  - 三段画面连续产出，三次提报全部跳过
 related:
 - '[[dk-p2-tmux-cache]]'
 - '[[dk-p6-session-resume-fail]]'

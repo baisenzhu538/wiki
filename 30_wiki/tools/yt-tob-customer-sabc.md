@@ -3,11 +3,7 @@ id: yt-tob-customer-sabc
 title: To B 客户 SABC 自定义切分法
 type: tool
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - ToB客户SABC自定义切分法
   - framework_lens: 客户分层没有与自身业务目标对齐，导致分层失去决策意义。
@@ -15,6 +11,9 @@ aliases:
   - 自定义切分法
 source_refs:
 - pending_archive:source material not yet ingested
+discoverable_by:
+  - To B 客户 SABC 自定义切分法
+  - 自定义切分法
 tags:
 - src_unknown
 - src_unknown

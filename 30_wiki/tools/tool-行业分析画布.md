@@ -1,4 +1,5 @@
 ---
+
 id: tool-行业分析画布
 title: 行业分析画布：系统性理解行业结构
 type: tool
@@ -17,6 +18,10 @@ aliases:
   - 行业分析画布
   - 行业分析画布：系统性理解行业结构
 source_refs:
+discoverable_by:
+  - 行业分析画布：系统性理解行业结构
+  - 行业分析画布
+  - 系统性理解行业结构
 related:
 updated_at: '2026-06-29'
 tags:

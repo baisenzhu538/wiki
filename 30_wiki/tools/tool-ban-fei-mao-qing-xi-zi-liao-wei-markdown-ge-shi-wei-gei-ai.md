@@ -1,4 +1,5 @@
 ---
+
 id: tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai
 title: 技能：清洗资料为 Markdown 格式喂给 AI
 type: tool
@@ -16,6 +17,10 @@ aliases:
   - 资料为
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
+discoverable_by:
+  - 技能：清洗资料为 Markdown 格式喂给 AI
+  - 清洗资料为
+  - 格式喂给
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'

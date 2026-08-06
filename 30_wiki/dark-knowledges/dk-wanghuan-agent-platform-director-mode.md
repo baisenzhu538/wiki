@@ -1,4 +1,5 @@
 ---
+
 id: dk-wanghuan-agent-platform-director-mode
 title: 王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌柜
 type: dk
@@ -36,6 +37,10 @@ diagnostic_signals:
 - signal: src_unknown
   lens: acceptance-gap
   follow_up: 在任务启动前把验收标准写进 prompt 或 AI 业务档案，而不是事后凭感觉修
+discoverable_by:
+  - 王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌
+  - 王欢暗知识
+  - 平台的正确用法是当导演，不是当甩手掌柜
 related:
 - '[[dk-wanghuan-spec-trap]]'
 - '[[dk-wanghuan-paced-sales-decision]]'

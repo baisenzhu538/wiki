@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-multi-hypothesis
 title: Agent L3多假设并行：5个核心任务同时推演
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 多假设并行
   - 核心任务同时推演
 source_refs: null
+discoverable_by:
+  - Agent L3多假设并行：5个核心任务同时推演
+  - L3多假设并行
+  - 5个核心任务同时推演
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'

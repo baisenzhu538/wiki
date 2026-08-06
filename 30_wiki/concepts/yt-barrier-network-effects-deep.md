@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-network-effects-deep
 title: 网络效应深度：同边、跨边、数据、生态
 type: concept
@@ -54,7 +52,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 网络效应深度：同边、跨边、数据、生态
 
 > 一堂五步法：网络效应不是单一概念，而是4个层次。层次越高，壁垒越强。

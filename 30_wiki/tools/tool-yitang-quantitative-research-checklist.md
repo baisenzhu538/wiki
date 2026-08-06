@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-quantitative-research-checklist
 title: 创业者定量研究清单：六维指标 + 强制五问
 type: tool
@@ -22,6 +23,11 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 创业者定量研究清单：六维指标 + 强制五问
+  - 创业者定量研究清单
+  - 六维指标
+  - 强制五问
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[yt-decision-y-model]]'

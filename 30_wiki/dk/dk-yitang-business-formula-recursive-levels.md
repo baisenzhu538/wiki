@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-business-formula-recursive-levels
 title: 业务公式分型递归：每一层都是独立公式，只看一层
 type: dk
@@ -22,6 +23,10 @@ aliases:
   - 每一层都是独立公式
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L1833-L1892
+discoverable_by:
+  - 业务公式分型递归：每一层都是独立公式，只看一层
+  - 业务公式分型递归
+  - 每一层都是独立公式，只看一层
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-six-level-logic]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-parallel-validation
 title: 技能：平行运行验证法
 type: tool
@@ -20,6 +21,9 @@ aliases:
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：平行运行验证法
+  - 平行运行验证法
 related:
 - '[[tool-月白-纳米级抄大师训练法]]'
 - '[[tool-马易-AI项目上线-先平行再独行]]'

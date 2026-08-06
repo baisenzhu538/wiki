@@ -3,11 +3,7 @@ id: tool-wanghuan-ai-business-profile
 title: 王欢AI业务档案5字段工具
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -34,6 +30,8 @@ diagnostic_signals:
   follow_up: 补充"行业暗规则"字段，把"不说但默认"的规矩写成否定句
 - lens: role-ambiguity
   follow_up: 把个人/团队业务档案作为共享上下文资产统一注入
+discoverable_by:
+  - 王欢AI业务档案5字段工具
 related:
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
 - '[[pending_unknown]]'
@@ -51,7 +49,6 @@ tags:
 - scene:execution
 - skill-level:intermediate
 ---
-
 # 王欢AI业务档案5字段工具
 
 > **Burn line**: 每次新对话，第一步先把你的业务档案粘进去。

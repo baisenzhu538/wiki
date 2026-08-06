@@ -1,4 +1,5 @@
 ---
+
 id: tool-马易-RPA数据整合法
 title: 技能：RPA数据整合法
 type: tool
@@ -20,6 +21,9 @@ aliases:
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
+discoverable_by:
+  - 技能：RPA数据整合法
+  - RPA数据整合法
 related:
 tags:
 ---

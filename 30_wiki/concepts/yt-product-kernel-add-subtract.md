@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-add-subtract
 title: 产品内核的加减法：什么该加，什么该减
 type: concept
@@ -49,7 +47,6 @@ tags:
 - 产品内核实操课
 - 产品内核迭代课
 ---
-
 # 产品内核的加减法：什么该加，什么该减
 
 > 一堂五步法：产品内核需要持续做加减法——加的是强化内核的功能，减的是稀释内核的功能。

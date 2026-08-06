@@ -1,11 +1,9 @@
 ---
-
 id: yt-model-entrepreneur-map
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2009
 language: zh-CN
 query_triggers:
@@ -63,7 +61,6 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 ---
-
 # 一堂创业地图：高潜力创业者修炼全景图
 
 > 来源：一堂《创业地图：高潜力创业者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | yt-system-course-catalog#创业必修

@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-decision-y-model-philosophical-roots
 title: Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论的三重映射
 type: framework
@@ -47,7 +46,6 @@ discoverable_by:
 - 规律认知
 - 决策哲学
 ---
-
 # Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论
 
 > **Burn line**: Y 模型不是决策工具——是一堂用 2000+ 企业案例实证出来的"知行合一"操作化框架。

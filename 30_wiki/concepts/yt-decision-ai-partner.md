@@ -1,13 +1,11 @@
 ---
-
 id: yt-decision-ai-partner
 component_of:
 - src_unknown
 confidence: 0.75
 created_at: 2026-05-17
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1950
 language: zh-CN
 prerequisites:
@@ -74,7 +72,6 @@ tags:
 - 决策评估画布
 - 科学决策
 ---
-
 # AI决策Partner对话法
 
 > 来源：一堂2026年AI决策行动营。与[[yt-decision-y-model]]配套的AI协作工具，将AI从"一次性出结论的工具"重新定位为"多轮对话中的协作伙伴"，通过结构化交互流程辅助人类完成高质量决策分析。

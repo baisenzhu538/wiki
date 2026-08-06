@@ -1,12 +1,9 @@
 ---
-
 id: case-truman-ai-partner
 title: 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent
 type: case
 status: enriched
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: Truman
 source_context: 一堂《AI时代清单体笔记》课程
 aliases:
@@ -68,7 +65,6 @@ diagnostic_signals:
 - 时代清单体笔记
 - 时代请单体笔记
 ---
-
 # 案例：Truman AI Partner（阿蕊老师）
 
 > Truman 用十年时间积累 1500+ 篇清单体模型笔记，将其编译为领域知识库，封装成一个 P 角色的 AI agent（内部代号"阿蕊老师"），在一堂内部使用并计划单独售卖。

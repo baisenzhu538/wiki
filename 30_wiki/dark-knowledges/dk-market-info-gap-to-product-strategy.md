@@ -1,4 +1,5 @@
 ---
+
 id: dk-market-info-gap-to-product-strategy
 title: 市场信息差→产品策略决策链——从"怎么还有人不知道"到"零门槛+80分"
 type: dk
@@ -18,6 +19,10 @@ aliases:
   - 市场信息差→产品策略决策链从怎么还有人不知道到零门槛+80分
 source_refs:
 - 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt
+discoverable_by:
+  - 市场信息差→产品策略决策链——从怎么还有人不知道到零门槛+8
+  - 市场信息差→产品策略决策链
+  - 从怎么还有人不知道到零门槛+80分
 related:
 - framework-ai-video-production-aesthetics-first
 - tool-ai-video-market-gap-assessment

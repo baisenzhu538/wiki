@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-ai-assisted-analysis
 title: AI辅助分析：用AI做数据分析和模式识别
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 辅助分析
 source_refs:
 - pending_archive:src_unknown
+discoverable_by:
+  - AI辅助分析：用AI做数据分析和模式识别
+  - AI辅助分析
+  - 用AI做数据分析和模式识别
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

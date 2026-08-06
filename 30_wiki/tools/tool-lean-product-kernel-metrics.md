@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-product-kernel-metrics
 title: 产品内核十大典型指标
 type: tool
@@ -18,6 +19,8 @@ aliases:
 source_refs:
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_ocr_text.md
 - 00_inbox/精益创业/一堂-精益创业-产品内核十大典型指标_vlm_desc.md
+discoverable_by:
+  - 产品内核十大典型指标
 related:
 - '[[case-lean-electric-scooter-mvp]]'
 - '[[strategy-domain-digest]]'

@@ -3,9 +3,10 @@ id: tool-获取他人反馈优化笔记
 title: 技能：获取他人反馈优化笔记
 type: tool
 domain:
-- content-production- entrepreneurship
-- yitang
-- business-strategy
+  - content-production
+  - entrepreneurship
+  - yitang
+  - business-strategy
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f
@@ -29,6 +30,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：获取他人反馈优化笔记
+  - 获取他人反馈优化笔记
 related:
 - '[[tool-提升笔记练习频次的方法]]'
 - '[[tool-自我反馈修正笔记姿势]]'

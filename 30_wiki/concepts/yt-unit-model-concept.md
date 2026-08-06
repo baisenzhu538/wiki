@@ -1,12 +1,10 @@
 ---
-
 id: yt-unit-model-concept
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites: '[[yt-five-step-method]]'
@@ -70,7 +68,6 @@ tags:
 - 一堂五步法
 - 单元模型
 ---
-
 # 单元模型：商业模式评估的核心工具
 
 > 来源：一堂五步法·单元模型篇 | [[yt-five-step-method]] | [[yt-market-size-estimation]] | [[yt-unit-model-build]] | [[case-unit-model-gashapon]]

@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-business-formula-causality-toolkit
 title: 因果三件套：常识判断+逻辑推理+控制变量，验证一条关系配不配当抓手
 type: tool
@@ -25,6 +26,10 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L766-L776
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2916-L2928
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2930-L2992
+discoverable_by:
+  - 因果三件套：常识判断+逻辑推理+控制变量，验证一条关系配不配
+  - 因果三件套
+  - 常识判断+逻辑推理+控制变量，验证一条关系配不配当抓手
 related:
 - '[[concept-一堂-相关不等于因果]]'
 - '[[yt-business-formula-six-level-logic]]'

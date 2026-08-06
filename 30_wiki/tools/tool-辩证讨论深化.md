@@ -3,10 +3,10 @@ id: tool-辩证讨论深化
 title: 技能：辩证讨论深化
 type: tool
 domain:
-- learning-methodology- product
-- management
-- master
-- yitang
+  - learning-methodology
+  - management
+  - master
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -32,6 +32,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：辩证讨论深化
+  - 辩证讨论深化
 related:
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[tool-ai辅助学习]]'
@@ -60,7 +63,6 @@ tags:
 - 全景策略
 - 科学学习
 ---
-
 # 技能：辩证讨论深化
 
 ## 原始表述

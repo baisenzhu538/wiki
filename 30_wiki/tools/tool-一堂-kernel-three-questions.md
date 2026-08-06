@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-kernel-three-questions
 title: 技能：内核要素三问验证法
 type: tool
@@ -10,6 +11,9 @@ language: zh-CN
 domain: yitang
 confidence: 0.75
 trust_level: medium
+discoverable_by:
+  - 技能：内核要素三问验证法
+  - 内核要素三问验证法
 related:
 aliases:
   - audience:executor

@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-减法排序四招
 title: 一堂减法排序四招：经验专家/内部共识/同行调研/实验验证
 type: tool
@@ -19,6 +20,10 @@ aliases:
   - 经验专家/内部共识/同行调研/实验验证
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2240-L2338
+discoverable_by:
+  - 一堂减法排序四招：经验专家/内部共识/同行调研/实验验证
+  - 一堂减法排序四招
+  - 经验专家/内部共识/同行调研/实验验证
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-signal-cluster-illusion
 title: 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕
 type: dk
@@ -17,6 +18,10 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260610_ac25d82a-一堂-机会预判-三维排列组合01.md
+discoverable_by:
+  - 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反
+  - 信号簇幻觉
+  - 为什么12个AI变化信号同时亮起时，你反而应该更警惕
 tags:
 - src_unknown
 - src_unknown

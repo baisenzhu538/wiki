@@ -1,11 +1,9 @@
 ---
-
 id: yt-concept-peas-insight
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -57,7 +55,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # PEAS核心洞察：决策系统的四槽诊断法
 
 > **一句话**：90% 的目标失败不是因为不够努力，是因为只填了 P（目标数字），漏了 E/A/S。

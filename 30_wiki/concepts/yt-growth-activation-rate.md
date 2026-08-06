@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-activation-rate
 title: 激活率：让用户第一次体验到价值
 type: concept
@@ -48,7 +46,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 激活率：让用户第一次体验到价值
 
 > 一堂五步法：激活是留存的前提。用户第一次体验到价值的时间越短，留存率越高。

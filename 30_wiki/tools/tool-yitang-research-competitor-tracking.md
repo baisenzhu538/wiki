@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-competitor-tracking
 title: 竞对跟踪：持续监控竞争对手的动态与策略
 type: tool
@@ -24,6 +25,10 @@ aliases:
   - 持续监控竞争对手的动态与策略
   - 竞对跟踪
   - 竞对跟踪：持续监控竞争对手的动态与策略
+discoverable_by:
+  - 竞对跟踪：持续监控竞争对手的动态与策略
+  - 竞对跟踪
+  - 持续监控竞争对手的动态与策略
 related:
 tags:
 ---

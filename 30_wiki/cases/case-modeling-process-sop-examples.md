@@ -1,13 +1,9 @@
 ---
-
 id: case-modeling-process-sop-examples
 title: 流程建模案例：10 个学员企业的 SOP 实践样本
 type: case
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - Truman
   - 个学员企业的
@@ -64,7 +60,6 @@ related:
 - 流程建模
 - 高阶建模
 ---
-
 # 流程建模案例：10 个学员企业的 SOP 实践样本
 
 > 来源：Truman-高阶建模-流程建模-图-02 | 一堂建模能力培训（Truman）

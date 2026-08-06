@@ -3,10 +3,11 @@ id: tool-按月份摊销收入成本做计划
 title: 技能：按月份摊销收入成本做计划
 type: tool
 domain:
-- entrepreneurship- finance-legal
-- decision-making
-- yitang
-- business-strategy
+  - entrepreneurship
+  - finance-legal
+  - decision-making
+  - yitang
+  - business-strategy
 status: draft
 source_person: 一堂课程（未具名讲师）
 source_context: src_20260609_99032bf9
@@ -31,6 +32,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：按月份摊销收入成本做计划
+  - 按月份摊销收入成本做计划
 related:
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[tool-辩证讨论深化]]'
@@ -45,7 +49,6 @@ tags:
 - skill-level:beginner
 - 单元模型
 ---
-
 # 技能：按月份摊销收入成本做计划
 
 ## 原始表述

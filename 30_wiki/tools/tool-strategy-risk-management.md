@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-risk-management
 title: 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
 type: tool
@@ -18,6 +19,10 @@ aliases:
   - 矩阵
   - 设计风险管理工具
 source_refs:
+discoverable_by:
+  - 业务设计风险管理工具：ISO31000 四步闭环 × Gra
+  - 业务设计风险管理工具
+  - 四步闭环
 quality_labels:
 created_at: '2026-06-22'
 updated_at: '2026-06-29'

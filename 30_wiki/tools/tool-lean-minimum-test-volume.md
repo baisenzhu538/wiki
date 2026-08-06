@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-minimum-test-volume
 title: 只测试最小数量
 type: tool
@@ -8,6 +9,8 @@ reviewed_by: pending
 confidence: 0.85
 trust_level: medium
 language: zh-CN
+discoverable_by:
+  - 只测试最小数量
 quality_labels:
 - actionable
 - cited

@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-activity-scope
 title: 活动范围设计工具：What × How × Where 三问
 type: tool
@@ -17,6 +18,9 @@ aliases:
   - 活动范围设计工具：What×How×Where三问
   - 范围设计工具
 source_refs:
+discoverable_by:
+  - 活动范围设计工具：What × How × Where 三问
+  - 活动范围设计工具
 quality_labels:
 created_at: '2026-06-22'
 updated_at: '2026-06-29'

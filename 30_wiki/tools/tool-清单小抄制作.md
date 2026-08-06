@@ -3,10 +3,11 @@ id: tool-清单小抄制作
 title: 技能：清单小抄制作
 type: tool
 domain:
-- learning-methodology- management
-- kdo
-- yitang
-- business-strategy
+  - learning-methodology
+  - management
+  - kdo
+  - yitang
+  - business-strategy
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -32,6 +33,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：清单小抄制作
+  - 清单小抄制作
 related:
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[tool-辩证讨论深化]]'

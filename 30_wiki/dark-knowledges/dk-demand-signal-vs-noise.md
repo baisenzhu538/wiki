@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-signal-vs-noise
 title: 需求信号与噪音的区分
 type: dk
@@ -6,6 +7,8 @@ domain:
 - demand-analysis
 - yitang
 status: reviewed
+discoverable_by:
+  - 需求信号与噪音的区分
 quality_labels:
 - cited
 - validated

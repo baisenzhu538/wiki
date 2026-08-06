@@ -1,4 +1,5 @@
 ---
+
 id: dk-my-ai-landing-three-barriers
 title: AI落地三大壁垒：从"会用"到"用好"的黑洞
 type: dk
@@ -18,6 +19,10 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
+discoverable_by:
+  - AI落地三大壁垒：从会用到用好的黑洞
+  - AI落地三大壁垒
+  - 从会用到用好的黑洞
 related:
 - '[[tool-纪浩-处理AI生成代码运行异常]]'
 - '[[tool-ai-skill-engineering-guide]]'

@@ -1,5 +1,4 @@
 ---
-
 id: case-truman-livestream-sop-iteration
 title: 一堂直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法
 type: case
@@ -8,9 +7,7 @@ source_refs:
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: enriched
 confidence: 0.9
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-14'
 author: 黄药师（基于 Truman 口述提取）
 reviewed_by: 黄药师

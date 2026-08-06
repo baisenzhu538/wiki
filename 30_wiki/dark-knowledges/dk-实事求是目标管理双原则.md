@@ -1,4 +1,5 @@
 ---
+
 id: dk-实事求是目标管理双原则
 title: 实事求是+最佳实践：目标管理的两条铁律
 type: dk
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 实事求是+最佳实践：目标管理的两条铁律
+  - 实事求是+最佳实践
+  - 目标管理的两条铁律
 quality_labels:
 - principle
 - actionable

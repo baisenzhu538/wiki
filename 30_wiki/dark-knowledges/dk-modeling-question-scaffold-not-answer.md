@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-question-scaffold-not-answer
 title: 模型是提问的脚手架，不是答案
 type: dk
@@ -19,6 +20,8 @@ aliases:
   - 模型是提问的脚手架，不是答案
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+discoverable_by:
+  - 模型是提问的脚手架，不是答案
 related:
 - '[[dk-modeling-explanatory-vs-predictive-essence]]'
 - '[[dk-tool-as-answer-trap]]'

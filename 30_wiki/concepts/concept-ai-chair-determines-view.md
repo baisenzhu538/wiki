@@ -1,5 +1,4 @@
 ---
-
 id: concept-ai-chair-determines-view
 title: 椅子决定视角
 type: concept
@@ -10,9 +9,9 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+  - ai-collaboration
+  - critical-thinking
+  - business-judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -43,7 +42,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 椅子决定视角
 
 > **Burn line**：读任何关于 AI 的预测之前，先问作者坐在哪把椅子上——因为椅子决定他看得见什么、看不见什么，以及为什么他不想让你看见某些东西。

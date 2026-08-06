@@ -1,4 +1,5 @@
 ---
+
 id: tool-用户分层
 title: 用户分层：按价值和行为细分用户群
 type: tool
@@ -17,6 +18,10 @@ aliases:
   - 用户分层
   - 用户分层：按价值和行为细分用户群
 source_refs:
+discoverable_by:
+  - 用户分层：按价值和行为细分用户群
+  - 用户分层
+  - 按价值和行为细分用户群
 related:
 updated_at: '2026-06-29'
 tags:

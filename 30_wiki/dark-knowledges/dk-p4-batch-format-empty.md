@@ -1,4 +1,5 @@
 ---
+
 id: dk-p4-batch-format-empty
 title: P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)
 type: dk
@@ -16,6 +17,9 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-18'
+discoverable_by:
+  - P-4：批量格式升级产生格式完整但思维空洞卡片 C-8
+  - 批量格式升级产生格式完整但思维空洞卡片
 related: null
 pipeline:
 - src_unknown

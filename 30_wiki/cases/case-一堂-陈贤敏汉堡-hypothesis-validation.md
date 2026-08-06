@@ -1,12 +1,9 @@
 ---
-
 id: case-一堂-陈贤敏汉堡-hypothesis-validation
 title: 案例：陈贤敏中式汉堡先开实验店验证关键假设
 type: case
 status: enriched
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课-truman-笔记.txt、一堂-关键假设课-truman-口述.txt
 aliases:
@@ -69,7 +66,6 @@ tags:
 - skill-level:intermediate
 - 关键假设课
 ---
-
 # 案例：陈贤敏中式汉堡先开实验店验证关键假设
 
 > "他没有直接开三家店，而是先做实验验证关键假设，这就是假设思维的价值。" —— 一堂关键假设课

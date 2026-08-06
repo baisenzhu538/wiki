@@ -1,13 +1,9 @@
 ---
-
 id: case-modeling-process-livestream-prep
 title: 流程建模案例：Truman 直播开播前 2 小时个人准备清单
 type: case
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - Truman
   - 个人准备清单
@@ -75,7 +71,6 @@ diagnostic_signals:
 - 开播准备
 - 流程建模
 ---
-
 # 流程建模案例：Truman 直播开播前 2 小时个人准备清单
 
 > 来源：Truman-高阶建模-流程建模-开播准备-图-01 | 一堂建模能力培训（Truman）

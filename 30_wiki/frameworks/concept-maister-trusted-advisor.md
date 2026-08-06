@@ -3,9 +3,7 @@ id: concept-maister-trusted-advisor
 title: Trusted Advisor：可信顾问信任模型
 type: framework
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - TrustedAdvisor：可信顾问信任模型
   - 任度诊断框架
@@ -64,7 +62,6 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
 ---
-
 # Trusted Advisor：可信顾问信任模型
 
 > 来源：Maister, Green & Galford (2000). *The Trusted Advisor*

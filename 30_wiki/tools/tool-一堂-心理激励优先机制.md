@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-心理激励优先机制
 title: 一堂心理激励优先机制：先名/权/情，后利
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 后利
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L668-L788
+discoverable_by:
+  - 一堂心理激励优先机制：先名/权/情，后利
+  - 一堂心理激励优先机制
+  - 先名/权/情，后利
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-动力三曲线]]'

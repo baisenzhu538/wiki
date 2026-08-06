@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-人在环渐进自动化策略
 title: 技能：人在环渐进自动化策略
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

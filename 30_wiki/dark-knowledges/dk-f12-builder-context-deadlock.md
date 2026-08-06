@@ -1,4 +1,5 @@
 ---
+
 id: dk-f12-builder-context-deadlock
 title: F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
 type: dk
@@ -19,6 +20,11 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
+discoverable_by:
+  - F-KDO-012：Builder 上下文过载死锁→Toke
+  - 上下文过载死锁→Token
+  - 零跳动、Agent
+  - 卡死、无产出
 related:
 - '[[yt-tool-peas-agent-analysis]]'
 - '[[tool-agent-research-pipeline]]'

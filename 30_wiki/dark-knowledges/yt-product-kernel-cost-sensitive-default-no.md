@@ -1,4 +1,5 @@
 ---
+
 domain:
 - product
 - yitang
@@ -24,6 +25,10 @@ updated_at: '2026-07-08'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-07-08'
+discoverable_by:
+  - 成本敏感默认不：高成本低信息的价值项死守不做
+  - 成本敏感默认不
+  - 高成本低信息的价值项死守不做
 related:
   - "[[concept-一堂-product-kernel]]"
   - "[[concept-一堂-kernel-validation]]"

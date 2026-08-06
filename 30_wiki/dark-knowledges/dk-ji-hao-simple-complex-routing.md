@@ -1,4 +1,5 @@
 ---
+
 id: dk-ji-hao-simple-complex-routing
 title: 暗知识：简单系统跳过导诊台，复杂系统必须路由
 type: dk
@@ -18,6 +19,10 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 - 10_raw/sources/src_20260617_50e2866a-ai俱乐部-人和ai协作-纪浩-五层结构-结构化.md
+discoverable_by:
+  - 暗知识：简单系统跳过导诊台，复杂系统必须路由
+  - 暗知识
+  - 简单系统跳过导诊台，复杂系统必须路由
 related:
 - '[[dk-ji-hao-ai-cant-design-structure]]'
 - '[[dk-ji-hao-logs-fastest-ignored]]'

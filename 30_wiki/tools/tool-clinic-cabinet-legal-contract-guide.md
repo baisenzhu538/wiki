@@ -1,4 +1,5 @@
 ---
+
 id: tool-clinic-cabinet-legal-contract-guide
 title: 诊所+智能药柜合作的法律关系与合同要点
 type: tool
@@ -21,6 +22,8 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
+discoverable_by:
+  - 诊所+智能药柜合作的法律关系与合同要点
 related:
 - '[[concept-smart-medicine-cabinet-international-models]]'
 - '[[tool-smart-medicine-cabinet-compliance-checklist]]'

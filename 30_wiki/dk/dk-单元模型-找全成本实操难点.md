@@ -1,4 +1,5 @@
 ---
+
 id: dk-单元模型-找全成本实操难点
 title: 找全成本实操难点
 type: dk
@@ -16,6 +17,8 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找全成本实操难点_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-找全成本实操难点_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-单元模型-找全成本实操难点.md
+discoverable_by:
+  - 找全成本实操难点
 related:
 - '[[yitang-domain-digest]]'
 - '[[dk-单元模型-找单元模型实操难点]]'

@@ -3,10 +3,7 @@ title: 单元模型概览：十大单元模型与三角色分工
 date: 2026-06-26
 type: framework
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 id: yt-unit-model-overview
 author: 老顽童
 reviewed_by: 欧阳锋

@@ -1,13 +1,12 @@
 ---
-
 id: smart-medicine-cabinet-national-policy-redlines
 title: 自助售药机国家政策与红线（2024 年第 48 号公告解读）
 type: concept
 status: enriched
 domain:
-- healthcare- healthcare
-- pharmaceutical-retail
-- policy-compliance
+  - healthcare
+  - pharmaceutical-retail
+  - policy-compliance
 aliases:
   - 号公告解读
   - 告解读

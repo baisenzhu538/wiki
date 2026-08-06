@@ -1,13 +1,12 @@
 ---
-
 id: smart-medicine-cabinet-regional-policy-map
 title: 各省市自助售药机政策差异地图
 type: concept
 status: enriched
 domain:
-- healthcare- healthcare
-- pharmaceutical-retail
-- policy-compliance
+  - healthcare
+  - pharmaceutical-retail
+  - policy-compliance
 aliases:
   - 各省市自助售药机政策差异地图
   - 市自助售药机政策差异地图

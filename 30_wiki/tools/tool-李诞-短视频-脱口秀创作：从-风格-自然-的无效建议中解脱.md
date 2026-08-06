@@ -2,7 +2,9 @@
 id: tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱
 title: 技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱
 type: tool
-domain: content-production- personal
+domain:
+  - content-production
+  - personal
 status: draft
 author: unknown
 reviewed_by: pending
@@ -20,6 +22,10 @@ aliases:
 source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱
+  - 短视频/脱口秀创作
+  - 从'风格''自然'的无效建议中解脱
 related:
 tags:
 ---

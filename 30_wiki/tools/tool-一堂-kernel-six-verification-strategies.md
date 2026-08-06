@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-kernel-six-verification-strategies
 title: 聊问查测盘赌 — 产品内核六策略完整操作手册
 type: tool
@@ -24,6 +25,10 @@ prerequisite_skills:
 - 关键假设识别能力
 - 基础访谈技巧
 - 基础数据分析能力
+discoverable_by:
+  - 聊问查测盘赌 — 产品内核六策略完整操作手册
+  - 聊问查测盘赌
+  - 产品内核六策略完整操作手册
 related:
   - "[[concept-一堂-kernel-validation]]"
   - "[[concept-一堂-product-kernel]]"

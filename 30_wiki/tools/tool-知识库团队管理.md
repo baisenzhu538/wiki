@@ -3,11 +3,12 @@ id: tool-知识库团队管理
 title: 技能：知识库团队管理
 type: tool
 domain:
-- content-production- management
-- design
-- yitang
-- entrepreneurship
-- kdo
+  - content-production
+  - management
+  - design
+  - yitang
+  - entrepreneurship
+  - kdo
 status: draft
 source_person: 一堂课程设计
 source_context: src_20260522_e139c9e9
@@ -31,6 +32,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：知识库团队管理
+  - 知识库团队管理
 related:
 - '[[tool-项目复盘基本功]]'
 - '[[tool-清单式笔记法]]'
@@ -47,7 +51,6 @@ tags:
 - 完整清单
 - 科学学习
 ---
-
 # 技能：知识库团队管理
 
 ## 原始表述

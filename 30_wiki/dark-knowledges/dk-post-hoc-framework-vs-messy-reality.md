@@ -1,4 +1,5 @@
 ---
+
 id: dk-post-hoc-framework-vs-messy-reality
 title: 真实过程≠复盘结构——事后框架的诚实标注问题
 type: dk
@@ -18,6 +19,10 @@ aliases:
   - 真实过程≠复盘结构事后框架的诚实标注问题
 source_refs:
 - 00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt
+discoverable_by:
+  - 真实过程≠复盘结构——事后框架的诚实标注问题
+  - 真实过程≠复盘结构
+  - 事后框架的诚实标注问题
 related:
 - framework-ai-video-production-aesthetics-first
 - case-fuzeyu-ai-koubo-tool-dev

@@ -1,4 +1,5 @@
 ---
+
 id: dk-利润-定价恐惧三段式反问
 title: 定价恐惧的三段式反问：价格上不去是因为创始人不敢
 type: dk
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 定价恐惧的三段式反问：价格上不去是因为创始人不敢
+  - 定价恐惧的三段式反问
+  - 价格上不去是因为创始人不敢
 quality_labels:
 - actionable
 - principle

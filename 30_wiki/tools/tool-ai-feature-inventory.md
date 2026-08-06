@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-feature-inventory
 title: AI 工具特性清单——原子化 Feature 分类框架
 type: tool
@@ -20,6 +21,11 @@ source_refs:
 - GitHub synaptiai/agent-capability-standard 99原子能力本体
 - arXiv 2510.14537 MCP Server Taxonomy
 - IEEE Access 2026 7维29子维评估框架
+discoverable_by:
+  - AI 工具特性清单——原子化 Feature 分类框架
+  - 工具特性清单
+  - 原子化
+  - 分类框架
 related:
 - '[[concept-yihang-ai-feature-thinking]]'
 - '[[framework-yihang-dual-triangle-weapon-library]]'

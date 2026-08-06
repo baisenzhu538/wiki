@@ -3,9 +3,7 @@ id: tool-ai-problem-question-check
 title: 技能：Problem vs Question 区分法
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 aliases:
@@ -18,6 +16,9 @@ source_refs:
 wiki_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：Problem vs Question 区分法
+  - 区分法
 related:
 - '[[yt-note-problem-solving-capability]]'
 - '[[tool-纪浩-problem-validation-four-checks]]'
@@ -67,7 +68,6 @@ diagnostic_signals:
 - 时代要不要练笔记
 - 需要练那个
 ---
-
 # 技能：Problem vs Question 区分法
 
 > **来源**：纪浩（AI俱乐部-AI协作方法论-口述）

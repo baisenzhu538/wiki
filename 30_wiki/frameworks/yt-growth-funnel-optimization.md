@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-funnel-optimization
 title: 漏斗优化：从认知到付费
 type: framework
@@ -49,7 +48,6 @@ discoverable_by:
 - AARRR
 - 用户旅程优化
 ---
-
 # 漏斗优化：从认知到付费
 
 > 一堂五步法：漏斗不是静态的，而是动态优化的。每个环节的流失都是机会。

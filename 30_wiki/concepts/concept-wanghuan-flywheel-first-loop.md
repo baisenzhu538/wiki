@@ -1,5 +1,4 @@
 ---
-
 id: concept-wanghuan-flywheel-first-loop
 title: 王欢：AI 飞轮第一圈
 type: concept
@@ -18,10 +17,7 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 diagnostic_signals:
@@ -52,7 +48,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 王欢：AI 飞轮第一圈
 
 > **Burn line**: 飞轮不怕慢，怕的是不转。

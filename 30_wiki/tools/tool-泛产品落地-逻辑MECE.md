@@ -1,4 +1,5 @@
 ---
+
 id: tool-泛产品落地-逻辑MECE
 title: 落地卡片：逻辑MECE
 type: tool
@@ -18,6 +19,9 @@ aliases:
   - 逻辑MECE
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-逻辑MECE_vlm_desc.md
+discoverable_by:
+  - 落地卡片：逻辑MECE
+  - 落地卡片
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

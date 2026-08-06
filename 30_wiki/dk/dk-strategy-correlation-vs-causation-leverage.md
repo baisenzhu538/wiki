@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-strategy-correlation-vs-causation-leverage
 title: 相关指标 vs 因果抓手
 type: dk
@@ -16,6 +17,10 @@ aliases:
   - 相关指标vs因果抓手
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
+discoverable_by:
+  - 相关指标 vs 因果抓手
+  - 相关指标
+  - 因果抓手
 related:
   - "[[case-gym-membership-formula]]"
   - "[[case-saas-renewal-formula]]"

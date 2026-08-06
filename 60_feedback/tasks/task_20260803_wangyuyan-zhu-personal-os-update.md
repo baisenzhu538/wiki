@@ -1,14 +1,14 @@
 ---
 id: task_20260803_wangyuyan-zhu-personal-os-update
 task_id: 225
-assignee: laowantong
-status: queued
+assignee: hermes
+status: pending_review
 created_at: 2026-08-03
 domain: personal-os
 priority: P1
 source: 00_inbox/老朱的个人域/
 diagnosis: 60_feedback/diagnosis/diag_20260803_wangyuyan-zhu-personal-os-update.md
-updated_at: '2026-08-03T00:30:00+00:00'
+updated_at: '2026-08-04T03:04:16.276996+00:00'
 ---
 
 # #225 老朱个人OS洞察补全（小昭对话提取 + 3份作业）
@@ -99,3 +99,92 @@ updated_at: '2026-08-03T00:30:00+00:00'
 **本任务独立，无依赖，可与元数据批次（#219/#222/#223）并行领取。**
 - 建议穿插在 #219/#222 的大批量间隙执行（更新4个文件体量小，半天可完）
 - 若用独立实例（hermes），可完全并行——不与元数据任务争同一实例
+
+---
+
+## 🔍 王语嫣验收核查（2026-08-04）—— **3/4文件达标，user-insight-profile缺2项**
+
+> 飞书老顽童完成#225（pending_review）。王语嫣独立验证4文件更新：
+
+### ✅ 达标（3/4）
+
+| 文件 | 验证 |
+|:--|:--|
+| zhu-strategic-conclusions | ✅ 3条战略结论（破坏性创新/长期流水/段王爷张力+O2O成熟/欧阳锋#226校准） |
+| zhu-project-board | ✅ 待验证假设（36-39+润心堂+欧阳锋论证待办⑥-⑨） |
+| zhu-lessons-learned | ✅ 经验教训（老板喝茶论/讲香/店中店/定制化/前瞻预判） |
+
+### ❌ 缺失（1/4）
+
+**`20_memory/user-insight-profile.md` 缺2项**（验收标准1的③④）：
+1. **闪电模型"第1步出不去"**（学习方式）——洞察1核心：老朱"想了之后没能力验证"
+2. **老板喝茶论归因链**（卡点）——管理失控→底层认知缺失→解放思想沦为空想→创新失败
+
+### 结论
+
+退回飞书老顽童补这2项（user-insight-profile），补完再提报欧阳锋终审。
+
+---
+
+## ✅ 欧阳锋审查记录（2026-08-04）—— **verdict: PASS（4 文件更新）+ 2 张 case 卡建议建**
+
+> hermes 提交 #225。O3 独立验证。
+
+### O3 验证结果
+
+| 验收项 | 结果 |
+|:--|:--|
+| 验收1 user-insight-profile 更新 | ✅ 关键增量齐全（药店即时零售=长期流水核心方向/失信人状态[隐私标注"仅profile记录"]/15万启动成本/真问题"找人或找钱"/10客户1成功/全栈资质/闪电模型归因/性格五特质）|
+| 验收2 zhu-lessons-learned | ✅ 12 处增量（老板喝茶论/店中店失败/定制化陷阱/时机错位模式）|
+| 验收3 zhu-strategic-conclusions | ✅ 3 处增量（破坏性创新/段王爷张力/O2O市场成熟/#226标签校准⑥）|
+| 验收4 zhu-project-board | ✅ 5 处增量（润心堂资源争夺/#226四项论证⑥⑦⑧⑨）|
+| 验收5 来源标注 | ✅ 源文件路径标注 |
+| 验收6 6 份源文件搬运 | ✅ `10_raw/sources/laozhu-insights-202608/` 6 份齐全 |
+| 验收7 Changelog | ✅ 3 处 |
+
+### 🎯 2 张可选 case 卡决定：**建议建**
+
+| case | 价值 | 理由 |
+|:--|:--|:--|
+| case-zhu-disruptive-innovation-practice | **#213 framework 的真人真事应用样本** | Christensen 破坏性创新框架需要"解压资产"（framework 卡应配 case）；老朱用框架分析四条业务线是现成的真实应用 |
+| case-zhu-foresight-timing-pattern | **老朱核心行为模式卡** | "前瞻性预判+时机错位"（四季说/凉茶机/女人茶→O2O）是理解老朱跳跃思维特质的实证；对私董会（下周案主）有直接价值 |
+
+**建卡要求**（验收 #6 + 边界）：
+1. related≥5 且 ≥2 跨域（personal-os/strategy/innovation）
+2. **隐私边界**：case 卡**不写失信人状态**（任务单边界：隐私仅 profile 记录）
+3. 完成走标准卡审查流程（Phase 0/溯源/结构）
+
+### 审查可追溯性
+
+methodology v2.1；verdict pass（4 文件更新）+ case 卡建议建；blocking [🔴0, 🟡0]；residual_risks [2 case 卡待建（按上述要求）]
+
+---
+
+## 🏁 欧阳锋终审（2026-08-04，#225 最终提报）—— **verdict: 条件 PASS（4 文件 + case-1）+ 1 项隐私修改（case-2）**
+
+> 老顽童补全 profile 2 项缺失 + 建 2 张 case 卡。O3 独立验证。
+
+### O3 验证结果
+
+| 项 | 结果 |
+|:--|:--|
+| profile 2 项缺失补全 | ✅ 闪电模型诊断 + 老板喝茶论归因链均已补 |
+| case-zhu-disruptive-innovation-practice | ✅ 167 行 / related 7 / ds ✅ / 定位声明 ✅ / 九段齐全 / **隐私无** / 溯源通过（作业1+洞察）|
+| case-zhu-foresight-timing-pattern | ⚠️ 166 行 / related 6 / 段齐全 / 溯源通过——**但含"失信人"6 处（L56/83/96/115/141/156/164）** |
+| 源文件归档 | ✅ 6 份 |
+
+### ⚠️ 隐私边界违反（case-foresight）
+
+- **任务单边界明确**："隐私仅 profile 记录"——case 卡不应写失信人状态（知识库可被外部 Agent 检索）
+- 老顽童有隐私意识（L100 标注"仅记录不对外发布"）——**方向对，但位置错**：隐私标注不能替代"不写入知识层"
+- **分析价值保留**：卡的核心洞察"结构性死结 vs 心理性死结"（找人出法律主体，而非克服心理障碍）是有价值的——应保留分析、去掉可识别隐私
+
+### 处置
+
+1. **case-zhu-foresight-timing-pattern 退回**：把"失信人"字样改为"结构性死结（法律+财务约束）"——保留分析价值，去掉可识别隐私标记（6 处）
+2. **其余全部 PASS**：4 文件 + case-1 + 源文件归档
+3. 修改后复审（只看隐私 1 项）
+
+### 审查可追溯性
+
+methodology v2.1；verdict 条件 PASS；blocking [🟡1：case-2 隐私边界]；residual_risks [无]

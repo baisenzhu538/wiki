@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-checklist-formatting-rules
 title: 清单体写不好，模型就建不好：换行、分层、优先级、完备
 type: dk
@@ -21,6 +22,10 @@ source_refs:
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - 清单体写不好，模型就建不好：换行、分层、优先级、完备
+  - 清单体写不好，模型就建不好
+  - 换行、分层、优先级、完备
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-分层标注重点信息]]'

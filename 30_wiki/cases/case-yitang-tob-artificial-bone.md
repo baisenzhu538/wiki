@@ -1,14 +1,9 @@
 ---
-
 id: case-yitang-tob-artificial-bone
 title: 案例：人工骨医疗器械上市失败复盘
 type: case
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - 人工骨医疗器械上市失败复盘
   - 案例
@@ -53,7 +48,6 @@ diagnostic_signals:
 - framework_lens: 关键假设检验与复盘
   follow_up_question: 如果换三任销售总监都未达目标，是选人问题还是增长假设与行业导入期不匹配？
 ---
-
 > 来源：一堂 ToB 五步法优秀作业合集，学员李志军自述。案例中的销售数字为学员自述，需独立核实关键数据。
 
 ---

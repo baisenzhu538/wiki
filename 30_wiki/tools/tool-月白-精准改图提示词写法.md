@@ -3,7 +3,7 @@ id: tool-月白-精准改图提示词写法
 title: 技能：精准改图提示词写法
 type: tool
 status: draft
-domain: design- design
+domain: design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 aliases:
@@ -27,6 +27,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.6
 trust_level: low
+discoverable_by:
+  - 技能：精准改图提示词写法
+  - 精准改图提示词写法
 related:
 tags:
 ---

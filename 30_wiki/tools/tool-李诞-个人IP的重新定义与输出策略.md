@@ -2,7 +2,9 @@
 id: tool-李诞-个人IP的重新定义与输出策略
 title: 技能：个人IP的重新定义与输出策略
 type: tool
-domain: content-production- personal
+domain:
+  - content-production
+  - personal
 status: draft
 author: unknown
 reviewed_by: pending
@@ -19,6 +21,9 @@ aliases:
 source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：个人IP的重新定义与输出策略
+  - 个人IP的重新定义与输出策略
 related:
 tags:
 ---

@@ -1,5 +1,4 @@
 ---
-
 id: case-truman-ai-skill-engineering-guide
 title: 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 type: case
@@ -13,10 +12,7 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI 建模协作案例）
 created_at: '2026-06-14'
@@ -67,7 +63,6 @@ diagnostic_signals:
   follow_up_question: 你最近封装新 Skill 时，是否先让 AI 用工程指南做一遍自查？
 - 建模能力培训
 ---
-
 # 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 
 > **Burn line**: 不是让 AI 随便写个 Skill，而是用工程指南把 AI 的输出质量锁死在你的审美上限。

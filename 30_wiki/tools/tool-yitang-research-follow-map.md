@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-follow-map
 title: 按图索骥：根据定位寻找对标案例
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - skill-level:intermediate
   - 按图索骥
   - 按图索骥：根据定位寻找对标案例
+  - 根据定位寻找对标案例
+discoverable_by:
+  - 按图索骥：根据定位寻找对标案例
+  - 按图索骥
   - 根据定位寻找对标案例
 related:
 tags:

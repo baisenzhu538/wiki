@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-method-ab-sides-checklist
 title: 创业方法 AB 面清单：对立金句的适用场景判断
 type: tool
@@ -23,6 +24,11 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 创业方法 AB 面清单：对立金句的适用场景判断
+  - 创业方法
+  - 面清单
+  - 对立金句的适用场景判断
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[yt-decision-y-model]]'

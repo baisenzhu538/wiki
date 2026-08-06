@@ -1,4 +1,5 @@
 ---
+
 id: tool-泛产品落地-善用佳软
 title: 落地卡片：善用佳软
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 落地卡片
   - 落地卡片：善用佳软
 source_refs:
+discoverable_by:
+  - 落地卡片：善用佳软
+  - 落地卡片
+  - 善用佳软
 related:
 updated_at: '2026-06-29'
 ---

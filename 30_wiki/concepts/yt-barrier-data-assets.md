@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-data-assets
 title: 数据资产：数据网络效应
 type: concept
@@ -50,7 +48,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 数据资产：数据网络效应
 
 > 一堂五步法：数据资产是新时代的壁垒。数据越多，产品越好；产品越好，用户越多；用户越多，数据越多。

@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-use-barbell-strategy
 title: AI 使用杠铃策略：把任务分成高 AI 区和无 AI 区
 type: tool
@@ -33,6 +34,11 @@ query_triggers:
 - AI 杠铃策略
 - 认知卸载杠铃
 - 书籍拆解
+discoverable_by:
+  - AI 使用杠铃策略：把任务分成高 AI 区和无 AI 区
+  - 使用杠铃策略
+  - 把任务分成高
+  - 区和无
 tags:
 - '#scene/ai-collaboration'
 - '#scene/productivity'

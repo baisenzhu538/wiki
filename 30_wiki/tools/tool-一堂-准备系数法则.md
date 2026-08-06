@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-准备系数法则
 title: 一堂准备系数法则：需要量:准备量与三倍准备、三分之一挑选的经验系数
 type: tool
@@ -22,6 +23,11 @@ aliases:
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1864-L1926
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2386-L2398
+discoverable_by:
+  - 一堂准备系数法则：需要量:准备量与三倍准备、三分之一挑选的经
+  - 一堂准备系数法则
+  - 需要量
+  - 准备量与三倍准备、三分之一挑选的经验系数
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

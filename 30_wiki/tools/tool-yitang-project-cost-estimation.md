@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-cost-estimation
 title: 项目成本估算三维度清单
 type: tool
@@ -19,6 +20,8 @@ aliases:
   - 项目成本估算三维度清单
 source_refs:
 - 00_inbox/管项目/项目管理-定方案-成本估算维度_vlm_desc.md
+discoverable_by:
+  - 项目成本估算三维度清单
 related:
 - "[[yt-management-project-management]]"
 - "[[framework-yitang-project-plan-design]]"

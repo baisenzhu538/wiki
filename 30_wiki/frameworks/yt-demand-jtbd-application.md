@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-demand-jtbd-application
 title: JTBD需求分析实战应用：从"用户想要"到"用户雇佣"
 type: framework
@@ -53,7 +52,6 @@ discoverable_by:
 - 用户需求分析
 - 用户场景
 ---
-
 # JTBD需求分析实战应用：从"用户想要"到"用户雇佣"
 
 > JTBD（Jobs-to-be-Done）：用户不是买产品，而是"雇佣"产品完成某个任务。

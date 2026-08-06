@@ -6,8 +6,8 @@ status: reviewed
 confidence: 0.92
 trust_level: high
 domain:
-- strategy
-- competitive_analysis
+  - strategy
+  - competitive-analysis
 aliases:
   - 关键成功因素KSF分析工具
   - 分析工具
@@ -16,6 +16,8 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_82_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_84_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_85_ocr_text.md
+discoverable_by:
+  - 关键成功因素KSF分析工具
 quality_labels:
 - actionable
 - validated
@@ -37,7 +39,6 @@ tags:
 - 冉鹏PPT截图
 - 引擎点火
 ---
-
 # 关键成功因素（KSF）分析工具
 
 > 关键成功因素（Key Success Factors, KSF）是行业内决定企业输赢的 3-5 个核心要素。识别 KSF 后，才能判断自身优势和劣势，制定针对性策略。

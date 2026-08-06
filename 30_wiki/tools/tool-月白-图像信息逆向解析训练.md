@@ -3,7 +3,7 @@ id: tool-月白-图像信息逆向解析训练
 title: 技能：图像信息逆向解析训练
 type: tool
 status: draft
-domain: design- design
+domain: design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 aliases:
@@ -26,6 +26,9 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+discoverable_by:
+  - 技能：图像信息逆向解析训练
+  - 图像信息逆向解析训练
 related:
 tags:
 ---

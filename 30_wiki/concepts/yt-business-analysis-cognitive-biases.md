@@ -1,12 +1,10 @@
 ---
-
 id: yt-business-analysis-cognitive-biases
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites: []
@@ -68,7 +66,6 @@ tags:
 - 一堂五步法
 - 落地实操
 ---
-
 # 暗知识：五步法中的主要认知偏差
 
 > 来源：一堂五步法·序言篇及落地实操篇 | [[yt-five-step-method]] | [[yt-five-step-common-pitfalls]] | [[yt-demand-analysis-hiking-map]] | [[master-cognitive-bias-checklist]] | [[case-five-step-fake-vs-real-barriers]]

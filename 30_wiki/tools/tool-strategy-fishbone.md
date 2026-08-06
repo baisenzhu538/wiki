@@ -6,8 +6,8 @@ status: reviewed
 confidence: 0.9
 trust_level: high
 domain:
-- strategy
-- problem_solving
+  - strategy
+  - problem-solving
 aliases:
   - 图根因分析工具
   - 鱼骨图根因分析工具
@@ -15,6 +15,8 @@ source_refs:
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_42_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_44_ocr_text.md
 - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_48_ocr_text.md
+discoverable_by:
+  - 鱼骨图根因分析工具
 quality_labels:
 - actionable
 - validated
@@ -35,7 +37,6 @@ tags:
 - 冉鹏PPT截图
 - 引擎点火
 ---
-
 # 鱼骨图根因分析工具
 
 > 用于结构化拆解业绩差距或问题的根因，从现象逐层深入到可行动的底层要素。

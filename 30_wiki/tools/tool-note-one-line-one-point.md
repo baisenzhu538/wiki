@@ -4,12 +4,17 @@ title: 一行一点精简法则：砍掉语气词、括号、修饰语，只留�
 type: tool
 status: reviewed
 domain:
-- learning-methodology- yitang
-- note-taking
+  - learning-methodology
+  - yitang
+  - note-taking
 language: zh-CN
 version: 1
 difficulty: beginner
 confidence: 0.88
+discoverable_by:
+  - 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词
+  - 一行一点精简法则
+  - 砍掉语气词、括号、修饰语，只留主语+关键词+关键动作
 related:
 - '[[tool-note-layer-constraint]]'
 - '[[tool-note-keyword-bolding]]'
@@ -50,7 +55,6 @@ diagnostic_signals:
 - src_unknown
 - 时代清单体笔记
 ---
-
 # 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作
 
 ## 用一句话讲清楚

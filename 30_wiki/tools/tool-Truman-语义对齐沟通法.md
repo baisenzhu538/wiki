@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-语义对齐沟通法
 title: 技能：语义对齐沟通法
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

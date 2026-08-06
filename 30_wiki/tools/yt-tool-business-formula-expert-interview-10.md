@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-business-formula-expert-interview-10
 title: 专家访谈黄金 10 步法：分析 3 + 准备 3 + 执行 4
 type: tool
@@ -25,6 +26,9 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3028-L3068
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3120-L3152
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3154-L3188
+discoverable_by:
+  - 专家访谈黄金 10 步法：分析 3 + 准备 3 + 执行
+  - 专家访谈黄金
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-hypothesis-management-playbook]]'

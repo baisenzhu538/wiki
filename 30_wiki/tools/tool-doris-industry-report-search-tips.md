@@ -1,4 +1,5 @@
 ---
+
 id: tool-doris-industry-report-search-tips
 title: 行业报告搜索七技：三级搜索能力+渠道清单
 type: tool
@@ -32,6 +33,10 @@ aliases:
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
 - 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
+discoverable_by:
+  - 行业报告搜索七技：三级搜索能力+渠道清单
+  - 行业报告搜索七技
+  - 三级搜索能力+渠道清单
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

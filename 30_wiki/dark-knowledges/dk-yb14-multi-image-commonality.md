@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb14-multi-image-commonality
 title: AI生图：用多图共性替代语言描述
 type: dk
@@ -18,6 +19,9 @@ source_refs:
 - 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-16'
+discoverable_by:
+  - AI生图：用多图共性替代语言描述
+  - 用多图共性替代语言描述
 related: null
 pipeline:
 - src_unknown

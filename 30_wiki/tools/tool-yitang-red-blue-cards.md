@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-red-blue-cards
 title: 红蓝卡：Y模型 团队自检/纠偏/激励行为工具
 type: tool
@@ -22,6 +23,10 @@ aliases:
 source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 60_feedback/extractions/extraction-kexue-linian-y-model.md
+discoverable_by:
+  - 红蓝卡：Y模型 团队自检/纠偏/激励行为工具
+  - 红蓝卡
+  - 团队自检/纠偏/激励行为工具
 related:
 - '[[yt-decision-y-model]]'
 - '[[case-yitang-mao-scientific-culture]]'

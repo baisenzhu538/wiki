@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-value-proposition
 title: 价值主张设计工具：三问 + 六维排序法
 type: tool
@@ -19,6 +20,10 @@ aliases:
   - 引擎点火
   - 排序法
 source_refs:
+discoverable_by:
+  - 价值主张设计工具：三问 + 六维排序法
+  - 价值主张设计工具
+  - 六维排序法
 quality_labels:
 created_at: '2026-06-22'
 updated_at: '2026-06-29'

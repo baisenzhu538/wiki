@@ -1,14 +1,9 @@
 ---
-
 id: case-yitang-tob-smart-park
 title: 案例：智慧园区项目复盘
 type: case
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - 园区项目复盘
   - 智慧园区项目复盘
@@ -53,7 +48,6 @@ diagnostic_signals:
 - framework_lens: 现金流结构
   follow_up_question: 能否将付款节奏从"首付+尾款"改为"首付+年度服务费"，使收入曲线年金化？
 ---
-
 > 来源：一堂 ToB 五步法优秀作业合集，学员黄成有自述。案例中的项目细节为学员自述，需独立核实关键数据。
 
 ---

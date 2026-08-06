@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-model-asset-inventory
 title: 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式
 type: case
@@ -52,10 +51,7 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-16'
 confidence: 0.8
 trust_level: medium
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 diagnostic_signals:
 - lens: 模型资产黑箱
   follow_up: 用 AI 扫描全部交付内容，按形态（清单/SOP/雷达图/漏斗/象限/冰山图/三角图/段位图/画布）做一遍强制分类，看 95% 是否能落入
@@ -77,7 +73,6 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - 建模能力培训
 ---
-
 # 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式
 
 ## 原始表述

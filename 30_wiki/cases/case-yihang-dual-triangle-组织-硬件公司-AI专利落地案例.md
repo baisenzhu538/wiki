@@ -1,26 +1,29 @@
 ---
 id: case-yihang-dual-triangle-组织-硬件公司-AI专利落地案例
-title: 双三角案例：硬件公司 AI 专利落地——规则显性化与一号位决心
+title: "双三角案例：硬件公司 AI 专利落地——规则显性化与一号位决心"
 type: case
-status: enriched
-author: 洪七公（VLM提取�? 老顽童（enrich�?reviewed_by: ŷ����
-review_date: 2026-07-04
-confidence: 0.80
-trust_level: medium
-language: zh-CN
-created_at: 2026-07-04
-updated_at: 2026-07-04
+status: draft
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - panproduct
+author: 洪七公（VLM提取） 老顽童（enrich）
+reviewed_by: 待审
+confidence: 0.7
+trust_level: low
 source_refs:
-- 00_inbox/人机协作双三�?_processed/【组织】硬件公�?AI专利落地案例_vlm.md
+  - src_unknown
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[case-yihang-dual-triangle-hotel-tag-sandbox]]"
-- "[[framework-yihang-dual-triangle-ai-landing-five-steps]]"
+created_at: 2026-06-30
+updated_at: 2026-08-04
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+aliases:
+  - 双三角案例：硬件公司 AI 专利落地——规则显性化与一号位决心
+discoverable_by:
+  - 双三角案例：硬件公司 AI 专利落地——规则显性化与一号位决心
 ---
-
 # 双三角案例：硬件公司 AI 专利落地——规则显性化与一号位决心
 
 > **一句话定义**：硬件行业头部上市公司面对每年上百个专利申请的压力，�?11 个候选场景中选定专利场景，将流程拆为 8 阶段 21 个节点，明确每个节点的人机分工。最�?80% 专利实现 AI 辅助，专利人员缩�?50%-80%。关键成功因素：一号位决心 + 规则显性化 + 组织三角（AI/专利/技术三人小组）�?

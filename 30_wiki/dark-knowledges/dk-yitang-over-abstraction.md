@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-over-abstraction
 title: 过度抽象无法指导工作，就失去意义
 type: dk
@@ -23,6 +24,8 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 过度抽象无法指导工作，就失去意义
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[concept-yitang-model-system-boundary]]'

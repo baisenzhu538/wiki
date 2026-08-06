@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-fake-complaint-research
 title: 假装客户投诉：以投诉之名获取内部信息
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 诉之名获取内部信息
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 假装客户投诉：以投诉之名获取内部信息
+  - 假装客户投诉
+  - 以投诉之名获取内部信息
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

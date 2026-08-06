@@ -1,4 +1,5 @@
 ---
+
 id: tool-yihang-dual-triangle-canvas
 title: 一行双三角画布（三版合一）
 type: tool
@@ -24,6 +25,8 @@ source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-画布案例1.png
 - 00_inbox/人机协作双三角/一堂双三角-画布案例2.png
 - 00_inbox/人机协作双三角/_processed/任务建议_双三角画布填充Prompt.md
+discoverable_by:
+  - 一行双三角画布三版合一
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-dual-triangle-weapon-library]]'

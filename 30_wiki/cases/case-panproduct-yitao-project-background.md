@@ -1,12 +1,12 @@
 ---
-
 id: case-panproduct-yitao-project-background
 title: 案例：一淘项目背景与三大难题
 type: case
 status: reviewed
 domain:
-- product-design
-- yitang
+  - product
+  - design
+  - yitang
 author: 老顽童
 reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'

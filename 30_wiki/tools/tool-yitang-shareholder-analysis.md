@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-shareholder-analysis
 title: 股东信息穿透：从股权结构看利益格局
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 股东信息穿透：从股权结构看利益格局
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 股东信息穿透：从股权结构看利益格局
+  - 股东信息穿透
+  - 从股权结构看利益格局
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

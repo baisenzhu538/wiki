@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-yitang-research-scale-vs-depth
 title: 调研深度决定决策质量：信息精度的边际价值
 type: dk
@@ -23,6 +24,10 @@ aliases:
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - 调研深度决定决策质量：信息精度的边际价值
+  - 调研深度决定决策质量
+  - 信息精度的边际价值
 related:
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
@@ -30,7 +35,6 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 updated_at: 2026-06-28
-
 ---
 
 # 调研深度决定决策质量

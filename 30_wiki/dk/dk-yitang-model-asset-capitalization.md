@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-yitang-model-asset-capitalization
 title: 组织级模型资产的盘点、定价与迭代
 type: dk
@@ -18,6 +19,8 @@ aliases:
   - 组织级模型资产的盘点、定价与迭代
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
+discoverable_by:
+  - 组织级模型资产的盘点、定价与迭代
 related:
   - "[[case-yitang-weekly-modeling-engine]]"
   - "[[case-yitang-model-valuation-flywheel]]"

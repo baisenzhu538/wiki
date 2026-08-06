@@ -4,8 +4,8 @@ title: 技能：用 Skill 做对比测试验证效果
 type: tool
 status: reviewed
 domain:
-- src_unknown
-- yitang- src_unknown
+  - src-unknown
+  - yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 aliases:
@@ -20,6 +20,9 @@ tools_required:
 - src_unknown
 prerequisite_skills:
 - src_unknown
+discoverable_by:
+  - 技能：用 Skill 做对比测试验证效果
+  - 做对比测试验证效果
 related:
 - '[[tool-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]'
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
@@ -55,7 +58,6 @@ tags:
 - 半肥猫
 - 学习落地
 ---
-
 # 技能：用 Skill 做对比测试验证效果
 
 ## 用一句话讲清楚

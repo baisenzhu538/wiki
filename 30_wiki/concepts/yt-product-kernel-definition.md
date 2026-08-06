@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-definition
 title: 产品内核定义：用户愿意选择你的最小解决方案
 type: concept
@@ -59,7 +57,6 @@ tags:
 - 产品内核迭代课
 - 产品内核验证课
 ---
-
 # 产品内核定义：用户愿意选择你的最小解决方案
 
 > 一堂五步法第二步：产品内核是用户愿意选择你的**最小解决方案**，不是功能越多越好，而是找到决定用户选择的**核心因果关系**。

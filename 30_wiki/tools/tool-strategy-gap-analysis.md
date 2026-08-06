@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-gap-analysis
 title: 差距分析：战略的起点——业绩差距（内部）+机会差距（外部）
 type: tool
@@ -22,6 +23,11 @@ aliases:
   - 战略的起点业绩差距内部
 source_refs:
 - pending_archive:src_unknown
+discoverable_by:
+  - 差距分析：战略的起点——业绩差距内部+机会差距外部
+  - 差距分析
+  - 战略的起点
+  - 业绩差距内部+机会差距外部
 tags:
 - audience:executor
 - scene:execution

@@ -1,4 +1,5 @@
 ---
+
 id: tool-dns-intelligence
 title: DNS情报：从域名和网络基础设施反推竞对动态
 type: tool
@@ -21,6 +22,9 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - DNS情报：从域名和网络基础设施反推竞对动态
+  - 从域名和网络基础设施反推竞对动态
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

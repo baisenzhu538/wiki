@@ -3,9 +3,7 @@ id: tool-半肥猫-课程Skill化的八步工作流
 title: 技能：课程Skill化的八步工作流
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 aliases:
@@ -21,6 +19,9 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：课程Skill化的八步工作流
+  - 课程Skill化的八步工作流
 related:
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[tool-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]'
@@ -64,7 +65,6 @@ tags:
 - 半肥猫
 - 学习落地
 ---
-
 # 技能：课程Skill化的八步工作流
 
 ## Summary

@@ -1,4 +1,5 @@
 ---
+
 id: tool-opc-sales-dialogue-assistant
 title: OPC 销售对话助手智能体
 type: tool
@@ -24,6 +25,9 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
 - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
 - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
+discoverable_by:
+  - OPC 销售对话助手智能体
+  - 销售对话助手智能体
 related:
 - '[[case-yitang-sales-transformation-jubensha-saas]]'
 - '[[case-yitang-sales-transformation-meirongyuan]]'

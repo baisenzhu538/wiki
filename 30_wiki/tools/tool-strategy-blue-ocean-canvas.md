@@ -6,8 +6,8 @@ status: reviewed
 confidence: 0.95
 trust_level: high
 domain:
-- strategy
-- market_positioning
+  - strategy
+  - market-positioning
 aliases:
   - 战略画布价值曲线工具
   - 蓝海战略画布价值曲线工具
@@ -18,6 +18,8 @@ created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 蓝海战略画布价值曲线工具
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-月白-设计师AI工具习惯切换]]'
@@ -33,7 +35,6 @@ tags:
 - 冉鹏PPT截图
 - 引擎点火
 ---
-
 # 蓝海战略画布（价值曲线工具）
 
 > 通过可视化价值曲线，把客户重视的多个竞争要素同时展示出来，从而发现"同时追求差异化与低成本"的蓝海空间。

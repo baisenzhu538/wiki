@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-in-home-experience-research
 title: 上门体验调研：去用户家里看真实使用场景
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 户家里看真实使用场景
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 上门体验调研：去用户家里看真实使用场景
+  - 上门体验调研
+  - 去用户家里看真实使用场景
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

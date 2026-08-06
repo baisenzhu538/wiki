@@ -3,10 +3,11 @@ id: tool-封装可复用skill
 title: 技能：封装可复用Skill
 type: tool
 domain:
-- learning-methodology - ai-saas
-- management
-- kdo
-- yitang
+  - learning-methodology
+  - ai-saas
+  - management
+  - kdo
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
@@ -31,6 +32,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：封装可复用Skill
+  - 封装可复用Skill
 related:
 - '[[tool-多轮确认防偏差]]'
 - '[[tool-主动摘要压缩上下文]]'
@@ -48,7 +52,6 @@ tags:
 - skill-level:beginner
 - 自用的
 ---
-
 # 技能：封装可复用Skill
 
 ## 原始表述

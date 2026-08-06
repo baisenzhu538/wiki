@@ -4,8 +4,8 @@ title: 技能：飞书多维表格 + 自建机器人做团队数据协同
 type: tool
 status: reviewed
 domain:
-- src_unknown
-- yitang- src_unknown
+  - src-unknown
+  - yitang
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 aliases:
@@ -22,6 +22,10 @@ tools_required:
 - src_unknown
 prerequisite_skills:
 - src_unknown
+discoverable_by:
+  - 技能：飞书多维表格 + 自建机器人做团队数据协同
+  - 飞书多维表格
+  - 自建机器人做团队数据协同
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[pending_unknown]]'
@@ -48,7 +52,6 @@ tags:
 - 半肥猫
 - 学习落地
 ---
-
 # 技能：飞书多维表格 + 自建机器人做团队数据协同
 
 ## 用一句话讲清楚

@@ -1,13 +1,9 @@
 ---
-
 id: case-modeling-process-sop-evolution
 title: 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 type: case
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - Truman
   - 一堂
@@ -57,7 +53,6 @@ diagnostic_signals:
 - 流程建模
 - 高阶建模
 ---
-
 # 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 
 > 来源：Truman-高阶建模-流程建模-图-01 | 一堂建模能力培训（Truman）

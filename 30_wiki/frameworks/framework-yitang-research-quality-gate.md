@@ -5,8 +5,7 @@ type: framework
 status: reviewed
 confidence: 0.92
 trust_level: high
-domain:
-- src_unknown
+domain: src-unknown
 aliases:
   - 六维门禁
   - 六维门禁判断调研是否足够好
@@ -49,7 +48,6 @@ discoverable_by:
 - 信息质量把关
 - OSCLSC
 ---
-
 # 调研质量自检框架：六维门禁
 
 > 调研做完 ≠ 调研做完了。六维门禁是提交前的最后一道自检——每个维度答不上来就不能交。

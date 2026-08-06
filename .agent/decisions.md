@@ -265,3 +265,38 @@
 **澄清**：`Bash(python )` 匹配 `python` + 空格，涵盖 `python -m pytest`、`python -c ...` 等所有 python 调用。`Bash(pytest)` 无空格，匹配 `pytest` 命令本身。`Bash(git )` 涵盖所有 git 子命令。
 
 **后果**：黄药师在 wiki vault 和 KDO 源码两个目录均无需手动批准。新权限从下次会话生效。
+
+---
+## 2026-08-06：域名标准化裁定（kebab-case 统一）
+**背景**：欧阳锋发现 frontmatter domain 脏值会让 MOC 按 domain 聚合时分裂成伪域。王语嫣全库扫描验证（2634 卡 / 257 个 domain 值）：`design- design`(187)、`yitang- yitang`(34)、`ai_collaboration`(20)、`learning-methodology- product`(14)、`critical_thinking`(20)、`business_judgment`(19)。
+**决策**：
+- 统一 kebab-case 英文小写（与存量主流 yitang 1022 / ai-collaboration 262 一致）：design / yitang / ai-collaboration / learning-methodology / critical-thinking / business-judgment（294 张）
+- **只统一"值"，不统一"格式"**（43 张内联标量 `domain: strategy` 与列表格式并存为历史遗留，本次不动）
+- src_unknown（733 张）= 占位未填≠命名脏，单列跟踪不纳入本次
+- 执行纪律：bulk-fix-frontmatter.py 模式（dry-run→git diff→yaml.safe_load ≥99% 才 apply）、串行+目录划分、#228 重复键护栏、基于 7/27 基线 16b64db39 全量比对
+- 编排：#237 执行（黄药师 P0）；MOC 建卡按关系图手工聚合不依赖 domain 字段（与 #237 并行）
+**否决的替代方案**：一次性全量重写 domain（含格式统一）——风险大收益低，否决；src_unknown 一并迁移——733 张放大风险，否决。
+**后果**：#237 迁移 → MOC/domain digest 聚合正确性恢复 → 横向 MOC 序列（design→master→product→kdo）可复用模板。
+
+
+## 2026-08-06 中文域名白名单（#240 裁定）
+
+以下 15 个中文域经语义查重确认无英文域对应，保留为合法值。未来新增中文域需先对照此表查重——有英文对应的合并，无对应的追加登记。
+
+| 中文域 | 卡片数 | 语义判定 |
+|:--|:--|:--|
+| 向上汇报 | 1 | 独立——汇报技巧无英文域对应 |
+| 流程结构化 | 1 | 独立 |
+| 组织理念 | 1 | 独立 |
+| 模型与建模 | 1 | 独立 |
+| 演讲与表达 | 1 | 独立 |
+| 价值观 | 1 | 独立 |
+| 核心价值 | 1 | 独立 |
+| 交付模式 | 1 | 独立 |
+| 个人表达力 | 1 | 独立 |
+| 核心模型-十指模型 | 1 | 独立 |
+| 基本功训练营 | 1 | 独立 |
+| 私域流量 | 1 | 独立 |
+| 核心假设 | 1 | 独立 |
+| 心理学 | 1 | 独立 |
+| 决策方法 | 1 | 独立（与 decision-science 角度不同：决策方法=具体技法，decision-science=域） |

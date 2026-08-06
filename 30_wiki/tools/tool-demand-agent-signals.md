@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-signals
 title: Agent L1-L2信号聚合：替代"凭经验猜用户"
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 凭经验猜用户
   - 替代凭经验猜用户
 source_refs: null
+discoverable_by:
+  - Agent L1-L2信号聚合：替代凭经验猜用户
+  - L2信号聚合
+  - 替代凭经验猜用户
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'

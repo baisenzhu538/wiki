@@ -1,13 +1,9 @@
 ---
-
 id: concept-wanghuan-adversarial-generation
 title: 王欢概念：对抗式生成
 type: concept
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -53,7 +49,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 王欢概念：对抗式生成
 
 > **Burn line**: 让生成者和评审者分离，避免既当裁判又当运动员。

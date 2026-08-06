@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb5-style-asset-archive
 title: AI绘图降本的前提：风格资产工程化归档
 type: dk
@@ -19,6 +20,10 @@ aliases:
 source_refs: null
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - AI绘图降本的前提：风格资产工程化归档
+  - AI绘图降本的前提
+  - 风格资产工程化归档
 related:
 - '[[ai-collaboration-domain-digest]]'
 pipeline: null

@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-阻力消除12策小抄
 title: 一堂阻力消除 12 策小抄：12 种常见阻力 × 动嘴/动手/动钱 消除策略
 type: tool
@@ -33,6 +34,12 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/阻力消除策略之10：体验差_vlm.md
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/阻力消除策略之11：怕冲动_vlm.md
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/阻力消除策略之12：还不急_vlm.md
+discoverable_by:
+  - 一堂阻力消除 12 策小抄：12 种常见阻力 × 动嘴/动手
+  - 一堂阻力消除
+  - 策小抄
+  - 种常见阻力
+  - 动嘴/动手/动钱
 related:
 - '[[case-一堂-一堂自身转化实践]]'
 - '[[case-一堂-作业率20到50]]'

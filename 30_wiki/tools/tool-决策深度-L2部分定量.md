@@ -1,4 +1,5 @@
 ---
+
 id: tool-决策深度-L2部分定量
 title: 决策深度L2：部分定量
 type: tool
@@ -17,6 +18,10 @@ aliases:
   - 部分定量
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-L2部分定量_vlm_desc.md
+discoverable_by:
+  - 决策深度L2：部分定量
+  - 决策深度L2
+  - 部分定量
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

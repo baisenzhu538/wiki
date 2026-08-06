@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-communication-plan
 title: 项目沟通计划表模板
 type: tool
@@ -19,6 +20,8 @@ aliases:
   - 项目沟通计划表模板
 source_refs:
 - 00_inbox/管项目/项目管理-拆计划-沟通机制建立_vlm_desc.md
+discoverable_by:
+  - 项目沟通计划表模板
 related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-comm-matrix]]"

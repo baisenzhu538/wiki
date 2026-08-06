@@ -1,12 +1,7 @@
 ---
-
 title: 战略会
 type: concept
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: draft
 pipeline:
 - src_unknown
@@ -38,7 +33,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 战略会
 
 > 来源：一堂管理必修课「管公司」模块，《经营必修：重新理解"战略会"》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

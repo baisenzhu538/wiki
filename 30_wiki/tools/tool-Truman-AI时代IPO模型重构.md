@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-AI时代IPO模型重构
 title: 技能：AI时代IPO模型重构
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -38,7 +37,6 @@ tags:
 - skill-level:beginner
 - 自用的
 ---
-
 # 技能：AI时代IPO模型重构
 
 ## 原始表述

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-case-storyline-selector
 title: 案例故事线选择决策树：英雄之旅/难题攻坚/时间线
 type: tool
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-20'
 created_at: '2026-07-20'
 updated_at: '2026-07-20'
+discoverable_by:
+  - 案例故事线选择决策树：英雄之旅/难题攻坚/时间线
+  - 案例故事线选择决策树
+  - 英雄之旅/难题攻坚/时间线
 quality_labels:
 - actionable
 aliases:

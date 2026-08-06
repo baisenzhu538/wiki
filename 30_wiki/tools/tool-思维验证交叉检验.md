@@ -3,10 +3,10 @@ id: tool-思维验证交叉检验
 title: 技能：思维验证交叉检验
 type: tool
 domain:
-- learning-methodology- product
-- ai-saas
-- decision-making
-- yitang
+  - learning-methodology
+  - ai-saas
+  - decision-making
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
@@ -26,6 +26,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：思维验证交叉检验
+  - 思维验证交叉检验
 related:
 - '[[tool-反向提示获取优化建议]]'
 - '[[tool-多轮确认防偏差]]'

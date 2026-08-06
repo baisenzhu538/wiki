@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-industry-channel-arsenal-index
 type: tool
 title: 24 行业获客清单索引：跨行业渠道灵感库
@@ -11,6 +12,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
+discoverable_by:
+  - 24 行业获客清单索引：跨行业渠道灵感库
+  - 行业获客清单索引
+  - 跨行业渠道灵感库
 quality_labels:
 - actionable
 - cited

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-research-triangulation-stop-rule
 title: 多源交叉验证的停止规则
 type: dk
@@ -15,6 +16,8 @@ aliases:
   - 多源交叉验证的停止规则
 source_refs:
 - 60_feedback/audit/synthesis_research.md
+discoverable_by:
+  - 多源交叉验证的停止规则
 related:
   - "[[case-yitang-travel-receipt-analysis]]"
   - "[[case-yitang-luckin-field-research]]"

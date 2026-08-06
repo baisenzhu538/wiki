@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-longzhong-four-failures
 title: 隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了
 type: dk
@@ -18,6 +19,11 @@ aliases:
   - 隆中对失败四因：资源/联盟/执行/环境诸葛亮都栽了
 source_refs:
 - 'pending_archive:'
+discoverable_by:
+  - 隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了
+  - 隆中对失败四因
+  - 资源/联盟/执行/环境
+  - 诸葛亮都栽了
 related:
 - '[[dk-strategy-three-must-do-moments]]'
 reviewed_by: 欧阳锋

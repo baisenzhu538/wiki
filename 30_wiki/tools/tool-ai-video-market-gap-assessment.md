@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-video-market-gap-assessment
 title: AI工具市场信息差评估矩阵：先建审美→量化工具→判断自建vs借用
 type: tool
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-20'
 created_at: '2026-07-20'
 updated_at: '2026-07-20'
+discoverable_by:
+  - AI工具市场信息差评估矩阵：先建审美→量化工具→判断自建vs
+  - AI工具市场信息差评估矩阵
+  - 先建审美→量化工具→判断自建vs借用
 quality_labels:
 - actionable
 - validated

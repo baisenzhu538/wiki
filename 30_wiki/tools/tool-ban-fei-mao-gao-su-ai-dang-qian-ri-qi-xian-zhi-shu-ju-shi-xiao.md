@@ -3,9 +3,7 @@ id: tool-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao
 title: 技能：告诉 AI 当前日期限制数据时效
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 aliases:
@@ -22,6 +20,9 @@ tools_required:
 - src_unknown
 prerequisite_skills:
 - src_unknown
+discoverable_by:
+  - 技能：告诉 AI 当前日期限制数据时效
+  - 当前日期限制数据时效
 related:
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[tool-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]'
@@ -52,7 +53,6 @@ tags:
 - 半肥猫
 - 学习落地
 ---
-
 # 技能：告诉 AI 当前日期限制数据时效
 
 ## 用一句话讲清楚

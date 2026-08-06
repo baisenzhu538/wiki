@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-growth-flywheel-design
 type: tool
 title: 增长飞轮设计工具：从业务要素到增强回路
@@ -11,6 +12,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
+discoverable_by:
+  - 增长飞轮设计工具：从业务要素到增强回路
+  - 增长飞轮设计工具
+  - 从业务要素到增强回路
 quality_labels:
 - actionable
 - cited

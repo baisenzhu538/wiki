@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-five-step-cross-step-3
 title: 跨步三：从10到100的壁垒
 type: framework
@@ -51,7 +50,6 @@ discoverable_by:
 - 增长壁垒联动
 - 五步衔接
 ---
-
 # 跨步三：从10到100的壁垒
 
 > 一堂五步法：从10到100不是增长，而是壁垒。没有壁垒的增长，是为别人做嫁衣。

@@ -1,4 +1,5 @@
 ---
+
 id: tool-项目背景分析
 title: 项目背景分析：启动前的环境扫描
 type: tool
@@ -17,6 +18,10 @@ aliases:
   - 项目背景分析
   - 项目背景分析：启动前的环境扫描
 source_refs:
+discoverable_by:
+  - 项目背景分析：启动前的环境扫描
+  - 项目背景分析
+  - 启动前的环境扫描
 related:
 review_date: '2026-06-29'
 updated_at: '2026-06-29'

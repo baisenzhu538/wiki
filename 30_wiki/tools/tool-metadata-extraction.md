@@ -1,4 +1,5 @@
 ---
+
 id: tool-metadata-extraction
 title: 元数据提取：从文件中提取隐藏信息
 type: tool
@@ -22,6 +23,10 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 元数据提取：从文件中提取隐藏信息
+  - 元数据提取
+  - 从文件中提取隐藏信息
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-four-forces
 title: 四种力量建模：用户切换决策的博弈机制
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 用户切换决策的博弈机制
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-四种力量建模-01_ocr_text.md
+discoverable_by:
+  - 四种力量建模：用户切换决策的博弈机制
+  - 四种力量建模
+  - 用户切换决策的博弈机制
 related:
 - '[[yitang-domain-digest]]'
 - '[[concept-最佳实践建模]]'

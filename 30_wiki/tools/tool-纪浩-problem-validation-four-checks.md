@@ -3,9 +3,7 @@ id: tool-纪浩-problem-validation-four-checks
 title: 技能：四问验证法 —— 判断需求是真实Problem还是伪需求
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 aliases:
@@ -18,6 +16,10 @@ source_refs:
 - 00_inbox/纪浩-AI协作方法论-口述.md
 created_at: '2026-06-09'
 updated_at: '2026-06-28'
+discoverable_by:
+  - 技能：四问验证法 —— 判断需求是真实Problem还是伪需
+  - 四问验证法
+  - 判断需求是真实Problem还是伪需求
 related:
 - '[[yt-note-problem-solving-capability]]'
 - '[[tool-ai-problem-question-check]]'
@@ -68,7 +70,6 @@ tags:
 - skill-level:intermediate
 - 协作方法论
 ---
-
 # 技能：四问验证法
 
 ## Actionable Steps

@@ -1,4 +1,5 @@
 ---
+
 id: dk-spatial-narrative-pitfalls
 title: 空间叙事四大失败模式：等距平铺/伪嵌套/横图看不清/构建者自审
 type: dk
@@ -13,6 +14,10 @@ review_date: '2026-07-21'
 grade: B+
 created_at: '2026-07-21'
 updated_at: '2026-07-21'
+discoverable_by:
+  - 空间叙事四大失败模式：等距平铺/伪嵌套/横图看不清/构建者自
+  - 空间叙事四大失败模式
+  - 等距平铺/伪嵌套/横图看不清/构建者自审
 quality_labels:
 - insight
 diagnostic_signals:

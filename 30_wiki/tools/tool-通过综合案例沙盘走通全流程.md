@@ -1,4 +1,5 @@
 ---
+
 id: tool-通过综合案例沙盘走通全流程
 title: 技能：通过综合案例沙盘走通全流程
 type: tool
@@ -30,6 +31,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：通过综合案例沙盘走通全流程
+  - 通过综合案例沙盘走通全流程
 related:
 - tool-使用概念辨析卡区分易混淆概念
 - tool-设定管理杠杆率指标评估效率

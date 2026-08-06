@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-government-data-search
 title: 国家数据查询：最权威的宏观数据来源
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 最权威的宏观数据来源
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 国家数据查询：最权威的宏观数据来源
+  - 国家数据查询
+  - 最权威的宏观数据来源
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

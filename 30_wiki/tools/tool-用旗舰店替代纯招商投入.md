@@ -3,9 +3,10 @@ id: tool-用旗舰店替代纯招商投入
 title: 技能：用旗舰店替代纯招商投入
 type: tool
 domain:
-- entrepreneurship- product
-- design
-- business-strategy
+  - entrepreneurship
+  - product
+  - design
+  - business-strategy
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
@@ -29,6 +30,9 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：用旗舰店替代纯招商投入
+  - 用旗舰店替代纯招商投入
 related:
 - '[[tool-快招品牌总部模拟调研]]'
 - '[[tool-敏捷发布快速迭代搭建体系]]'
@@ -44,7 +48,6 @@ tags:
 - 决策评估画布
 - 科学决策
 ---
-
 # 技能：用旗舰店替代纯招商投入
 
 ## 原始表述

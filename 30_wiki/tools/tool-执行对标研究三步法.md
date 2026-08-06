@@ -3,8 +3,9 @@ id: tool-执行对标研究三步法
 title: 技能：执行对标研究三步法
 type: tool
 domain:
-- entrepreneurship- product
-- design
+  - entrepreneurship
+  - product
+  - design
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
@@ -31,6 +32,9 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：执行对标研究三步法
+  - 执行对标研究三步法
 related:
 - '[[tool-使用概念辨析卡区分易混淆概念]]'
 - '[[tool-设定管理杠杆率指标评估效率]]'

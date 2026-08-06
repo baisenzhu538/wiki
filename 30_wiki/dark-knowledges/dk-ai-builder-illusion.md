@@ -12,9 +12,10 @@ language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
 domain:
-- ai-collaboration
-- product-design
-- entrepreneurship
+  - ai-collaboration
+  - product
+  - design
+  - entrepreneurship
 aliases:
   - Builder幻觉：用AI做出东西≠完成从0到1
   - 做出东西
@@ -25,6 +26,10 @@ source_refs:
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
 - pending_archive:Andrew Ambrosino（OpenAI Codex 产品负责人），《The New Shape of Software》，Lenny's Newsletter（2026-06-28）
 - pending_archive:Tony Fadell，Lenny's Podcast：《Father of the iPod and iPhone on...》（2026-06-07）
+discoverable_by:
+  - Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到
+  - 做出东西
+  - 完成从
 quality_labels:
 - insight
 - actionable
@@ -41,7 +46,6 @@ related:
 - AI  builder 幻觉
 - 做出来不是从 0 到 1
 ---
-
 # Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到 1
 
 > **一句话**：AI 让「把产品做出来」变得极其便宜，但「做出来」从来不是商业成功的瓶颈。Builder 幻觉就是把「能跑通的原型」误当成「完成了从 0 到 1」，忽略了市场验证、用户洞察和品味判断。

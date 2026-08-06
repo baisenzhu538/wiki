@@ -1,13 +1,11 @@
 ---
-
 id: yt-tool-best-practice-learning
 component_of:
 - src_unknown
 confidence: 0.88
 created_at: 2026-06-06
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -71,7 +69,6 @@ tags:
 - scene:execution
 - skill-level:intermediate
 ---
-
 ## Summary
 
 > **一句话**：大多数人做产品做得差，不是因为不努力，而是因为“最佳实践”只停留在“看过”——从来没有系统性地收集、建池、拆解、超越。

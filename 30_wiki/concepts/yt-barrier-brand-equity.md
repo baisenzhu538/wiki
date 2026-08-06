@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-brand-equity
 title: 品牌资产：认知与信任
 type: concept
@@ -48,7 +46,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 品牌资产：认知与信任
 
 > 一堂五步法：品牌是长期的壁垒。品牌资产 = 认知度 × 信任度 × 联想度。

@@ -1,13 +1,9 @@
 ---
-
 id: concept-半肥猫-ai-learning-toolification-methodology
 title: 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进
 type: concept
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享（2026-06）
 aliases:
@@ -67,7 +63,6 @@ tags:
 - 半肥猫
 - 学习落地
 ---
-
 # 半肥猫 AI 学习落地方法论
 
 > 半肥猫是一堂的学员，也是连续创业者。他在 AI 俱乐部的分享中，用两小时讲述了自己如何把"听课→做作业"的传统学习模式，改造成"听课→跑真实业务→沉淀工具/SOP/Skill"的落地系统。他的方法论和纪浩的 AI 协作方法论是互补关系：纪浩讲"怎么让 AI 做好执行"，半肥猫讲"怎么让学习真正变成能力"。

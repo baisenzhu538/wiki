@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-camel-dung-process-inertia
 title: 流程经验不与底层原因对齐，会长期低效存在
 type: dk
@@ -22,6 +23,8 @@ aliases:
 source_refs:
 - 00_inbox/解放思想/解放思想-truman-口述.txt
 - 60_feedback/extractions/extraction-jiefang-sixiang-truman.md
+discoverable_by:
+  - 流程经验不与底层原因对齐，会长期低效存在
 related:
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[case-yitang-redburger-lettuce-clip]]'

@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-market-led-growth
 title: 市场驱动增长：MLG模式
 type: concept
@@ -51,7 +49,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 市场驱动增长：MLG模式
 
 > 一堂五步法：市场驱动增长不是做广告，而是系统化的品牌建设和需求生成。市场为销售提供弹药。

@@ -2,7 +2,9 @@
 id: tool-专题笔记整理
 title: 技能：专题笔记整理
 type: tool
-domain: learning-methodology- yitang
+domain:
+  - learning-methodology
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -27,6 +29,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：专题笔记整理
+  - 专题笔记整理
 related:
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[tool-辩证讨论深化]]'
@@ -44,7 +49,6 @@ tags:
 - 全景策略
 - 科学学习
 ---
-
 # 技能：专题笔记整理
 
 ## 原始表述

@@ -1,4 +1,5 @@
 ---
+
 id: dk-ai-video-common-pitfalls
 title: AI视频工具开发五大失败模式
 type: dk
@@ -12,6 +13,8 @@ reviewed_by: 待审
 review_date: '2026-07-20'
 created_at: '2026-07-20'
 updated_at: '2026-07-20'
+discoverable_by:
+  - AI视频工具开发五大失败模式
 quality_labels:
 - insight
 - actionable

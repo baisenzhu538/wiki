@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-channel-economics
 title: 渠道经济学：获客成本优化
 type: framework
@@ -53,7 +52,6 @@ discoverable_by:
 - 渠道ROI
 - 分销经济
 ---
-
 # 渠道经济学：获客成本优化
 
 > 一堂五步法：获客渠道不是越多越好，而是需要优化组合。理解每个渠道的CAC、LTV、可规模化，才能优化获客成本。

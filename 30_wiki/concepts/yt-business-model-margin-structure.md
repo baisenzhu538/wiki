@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-margin-structure
 title: 毛利率结构分析：钱从哪来，到哪去
 type: concept
@@ -49,7 +47,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 毛利率结构分析：钱从哪来，到哪去
 
 > 一堂五步法：毛利率不是单一数字，需要拆解结构。知道钱从哪来、到哪去，才能优化。

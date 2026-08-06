@@ -5,8 +5,7 @@ type: prompt-template
 status: reviewed
 confidence: 0.92
 trust_level: high
-domain:
-- src_unknown
+domain: src-unknown
 prompt_role: 你是一位拥有'上帝视角'的顶级商业洞察大师，受过麦肯锡、一堂教育及第一性原理思维的深度训练
 prompt_methodology: USP需求模型 + 五层深度分析 + 2B/2C全量字典 + 五步法画布
 prompt_version: 1.0.0
@@ -24,6 +23,10 @@ created_at: '2026-06-21'
 updated_at: '2026-06-29'
 author: 黄药师（从 inbox 提示词提取 + 结构化）
 reviewed_by: 欧阳锋
+discoverable_by:
+  - USP 深度洞察引擎——需求分析提示词模板
+  - 深度洞察引擎
+  - 需求分析提示词模板
 related:
 - '[[framework-demand-usp-model]]'
 - '[[tool-prompt-usp-quick-scan]]'
@@ -40,7 +43,6 @@ tags:
 - 五步法之需求分析
 - 方法论
 ---
-
 # USP 深度洞察引擎
 
 > `prompt-template` — 可复用、可迭代。不只复制，学会设计原理。

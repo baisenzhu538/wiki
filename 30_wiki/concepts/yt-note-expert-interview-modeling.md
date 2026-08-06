@@ -1,12 +1,9 @@
 ---
-
 id: yt-note-expert-interview-modeling
 title: 专家访谈式笔记：边聊边建模的高阶认知工作流
 type: concept
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 language: zh-CN
 version: 1
 confidence: 0.82
@@ -62,7 +59,6 @@ tags:
 - 时代清单体笔记
 - 时代请单体笔记
 ---
-
 # 专家访谈式笔记：边聊边建模的高阶认知工作流
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman将其定义为"目前教研里面最核心的一个工作"——找一个专家/讲师/案主，**一边访谈一边记笔记，一边挖掘、一边互动，一边纠偏，还要挑战**——最终现场整理出比对方更清晰的模型，甚至直接把访谈笔记翻译为课程大纲。

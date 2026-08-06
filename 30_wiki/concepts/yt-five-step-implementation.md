@@ -1,5 +1,4 @@
 ---
-
 id: yt-five-step-implementation
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
@@ -14,8 +13,7 @@ quality_labels:
 - validated
 created_at: 2026-06-11
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2400
 language: zh-CN
 prerequisites: '[[yt-five-step-method]]'
@@ -71,7 +69,6 @@ tags:
 - 一堂五步法
 - 落地实操
 ---
-
 # 五步法落地实操：从故事版到分工版
 
 > 来源：一堂五步法·落地实操篇 | [[yt-five-step-method]] | [[yt-demand-analysis-hiking-map]] | [[yt-product-kernel-cultivation]] | [[yt-unit-model-concept]] | [[yt-growth-cycle-model]] | [[yt-barrier-analysis-cheat-sheet]]

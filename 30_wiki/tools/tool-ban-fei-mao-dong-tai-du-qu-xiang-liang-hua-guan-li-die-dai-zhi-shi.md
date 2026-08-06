@@ -4,8 +4,8 @@ title: 技能：动态读取 + 向量化管理迭代知识
 type: tool
 status: reviewed
 domain:
-- ai-collaboration
-- yitang- ai-collaboration
+  - ai-collaboration
+  - yitang
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 aliases:
@@ -19,6 +19,10 @@ source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required: null
 prerequisite_skills: null
+discoverable_by:
+  - 技能：动态读取 + 向量化管理迭代知识
+  - 动态读取
+  - 向量化管理迭代知识
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[tool-纪浩-Agent技能市场设计法]]'
@@ -39,7 +43,6 @@ tags:
 - 半肥猫
 - 学习落地
 ---
-
 # 技能：动态读取 + 向量化管理迭代知识
 
 ## 用一句话讲清楚

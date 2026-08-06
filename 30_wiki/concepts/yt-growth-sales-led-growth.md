@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-sales-led-growth
 title: 销售驱动增长：SLG模式
 type: concept
@@ -51,7 +49,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 销售驱动增长：SLG模式
 
 > 一堂五步法：高客单价产品需要销售驱动。销售不是打电话，而是价值传递和信任建立。

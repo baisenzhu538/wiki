@@ -1,12 +1,11 @@
 ---
-
 id: ai-hackathon-pitches
 title: AI 大航海项目路演：主题综合索引卡
 type: concept
 status: reviewed
 domain:
-- ai
-- ' entrepreneurship'
+  - ai
+  - entrepreneurship
 source_person: 王语嫣
 source_context: 听脑 AI 大航海项目路演主题摘要综合（11 条录音 meetingSummary）
 aliases:
@@ -51,7 +50,6 @@ related:
 - 价值投资大师项目
 - 内容营销路演
 ---
-
 # AI 大航海项目路演：主题综合知识卡
 
 > 本卡基于 `90_control/itingnao-kit/work/theme-ai-hackathon-pitches-summary.md` 中的 11 条录音 meetingSummary 摘要提炼而成。**未逐段核对原文**，关键结论已按置信度分层，不确定处标注「待原文复核」。

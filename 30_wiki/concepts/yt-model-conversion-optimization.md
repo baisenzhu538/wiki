@@ -1,11 +1,9 @@
 ---
-
 id: yt-model-conversion-optimization
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
@@ -65,7 +63,6 @@ tags:
 - skill-level:intermediate
 - 一堂最佳转化率动力三曲线
 ---
-
 # 转化率优化：动力三曲线 × 十大浪费触点
 
 > 来源：一堂知识地图《最佳转化率·动力三曲线》+《10大最易浪费触点》。[[yt-management-conversion-hacking]] | [[yt-entrepreneur-growth-flywheel]] | [[一堂]]

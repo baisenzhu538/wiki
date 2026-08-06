@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb28-prompt-expiration-management
 title: 提示词有效期预期管理
 type: dk
@@ -16,6 +17,8 @@ source_refs:
 - 00_inbox/design/AI设计-AI设计基础01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-16'
+discoverable_by:
+  - 提示词有效期预期管理
 related: null
 pipeline:
 - src_unknown

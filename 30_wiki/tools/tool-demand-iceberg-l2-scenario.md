@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-iceberg-l2-scenario
 title: L2粗拆场景问题：捕捉表层的痛点和需求
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 表层的痛点和需求
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
+discoverable_by:
+  - L2粗拆场景问题：捕捉表层的痛点和需求
+  - L2粗拆场景问题
+  - 捕捉表层的痛点和需求
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-泛产品设计-需求工具箱指南]]'

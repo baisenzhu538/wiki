@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-gossip-intelligence
 title: 三人八卦：饭局/聚会中的非正式情报
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 饭局/聚会中的非正式情报
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 三人八卦：饭局/聚会中的非正式情报
+  - 三人八卦
+  - 饭局/聚会中的非正式情报
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

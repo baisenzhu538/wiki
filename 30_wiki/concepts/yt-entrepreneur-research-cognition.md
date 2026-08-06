@@ -1,11 +1,9 @@
 ---
-
 id: yt-entrepreneur-research-cognition
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1821
 language: zh-CN
 query_triggers:
@@ -61,7 +59,6 @@ tags:
 - skill-level:intermediate
 - 深度调研集群方法论
 ---
-
 # 调研认知
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]

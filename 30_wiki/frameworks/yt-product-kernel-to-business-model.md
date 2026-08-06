@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-to-business-model
 title: 从内核到商业模式：承上启下
 type: framework
@@ -50,7 +49,6 @@ discoverable_by:
 - 商业模式内核
 - 产品商业转化
 ---
-
 # 从内核到商业模式：承上启下
 
 > 一堂五步法：产品内核是价值，商业模式是变现。内核验证成功≠商业模式成功，需要承上启下的设计。

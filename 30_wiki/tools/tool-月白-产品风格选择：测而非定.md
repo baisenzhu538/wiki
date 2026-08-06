@@ -3,7 +3,7 @@ id: tool-月白-产品风格选择：测而非定
 title: 技能：产品风格选择：测而非定
 type: tool
 status: draft
-domain: design- design
+domain: design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 aliases:
@@ -27,6 +27,10 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+discoverable_by:
+  - 技能：产品风格选择：测而非定
+  - 产品风格选择
+  - 测而非定
 related:
 tags:
 ---

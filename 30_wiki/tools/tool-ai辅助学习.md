@@ -3,13 +3,13 @@ id: tool-ai辅助学习
 title: 技能：AI辅助学习
 type: tool
 domain:
-- ai-collaboration
-- yitang- product
-- ai-saas
-- design
-- yitang
-- entrepreneurship
-- decision-making
+  - ai-collaboration
+  - yitang
+  - product
+  - ai-saas
+  - design
+  - entrepreneurship
+  - decision-making
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -29,6 +29,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：AI辅助学习
+  - AI辅助学习
 related:
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[tool-辩证讨论深化]]'
@@ -61,7 +64,6 @@ tags:
 - 全景策略
 - 科学学习
 ---
-
 # 技能：AI辅助学习
 
 ## 原始表述

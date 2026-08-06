@@ -1,12 +1,11 @@
 ---
-
 id: sk-ai-question-problem-checklist
 title: 技能：提问题转化三问清单
 type: tool
 status: reviewed
 domain:
-- ai-collaboration
-- yitang- ai-collaboration
+  - ai-collaboration
+  - yitang
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
@@ -37,7 +36,6 @@ aliases:
 - 俱乐部
 - 协作方法论
 ---
-
 # 技能：提问题转化三问清单
 
 ## 用一句话讲清楚

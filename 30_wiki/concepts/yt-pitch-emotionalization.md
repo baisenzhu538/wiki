@@ -1,14 +1,11 @@
 ---
-
 id: yt-pitch-emotionalization
 component_of:
 - src_unknown
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: intermediate
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1600
 language: zh-CN
 prerequisites:
@@ -61,7 +58,6 @@ tags:
 - 讲香十指模型
 - 超级武器库
 ---
-
 # 讲香·情绪化
 
 > 十指模型右手第三指——向上抽象。让用户从波澜不惊到涌现情绪——恐惧、向往、好奇、认同，一旦情绪被唤起，理性防线就不再坚固。

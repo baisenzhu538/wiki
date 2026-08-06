@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-case-match
 title: Agent L4案例匹配：以历史摩擦点为起点填充8步地图
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 史摩擦点为起点填充
   - 步地图
 source_refs: null
+discoverable_by:
+  - Agent L4案例匹配：以历史摩擦点为起点填充8步地图
+  - L4案例匹配
+  - 以历史摩擦点为起点填充8步地图
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'

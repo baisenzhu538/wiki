@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-deep-attribution
 title: 深度归因：找到问题根因的5Why法
 type: tool
@@ -24,6 +25,10 @@ aliases:
   - 找到问题根因的5Why法
   - 深度归因
   - 深度归因：找到问题根因的5Why法
+discoverable_by:
+  - 深度归因：找到问题根因的5Why法
+  - 深度归因
+  - 找到问题根因的5Why法
 related:
 tags:
 ---

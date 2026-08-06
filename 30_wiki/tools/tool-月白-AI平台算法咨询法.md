@@ -3,7 +3,7 @@ id: tool-月白-AI平台算法咨询法
 title: 技能：AI平台算法咨询法
 type: tool
 status: draft
-domain: design- design
+domain: design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 aliases:
@@ -26,6 +26,9 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+discoverable_by:
+  - 技能：AI平台算法咨询法
+  - AI平台算法咨询法
 related:
 tags:
 ---

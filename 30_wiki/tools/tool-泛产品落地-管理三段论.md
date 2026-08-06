@@ -1,4 +1,5 @@
 ---
+
 id: tool-泛产品落地-管理三段论
 title: 落地卡片：管理三段论
 type: tool
@@ -18,6 +19,10 @@ aliases:
   - 落地卡片：管理三段论
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-管理三段论_vlm_desc.md
+discoverable_by:
+  - 落地卡片：管理三段论
+  - 落地卡片
+  - 管理三段论
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

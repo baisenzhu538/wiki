@@ -1,12 +1,9 @@
 ---
-
 id: yt-note-checklist-concept
 title: 一堂笔记法：清单体笔记的核心概念与原理
 type: concept
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 language: zh-CN
 version: 1
 difficulty: beginner
@@ -69,7 +66,6 @@ tags:
 - 时代清单体笔记
 - 时代请单体笔记
 ---
-
 # 一堂笔记法：清单体笔记的核心概念与原理
 
 > 来源：一堂《AI时代清单体笔记》完整课程。Truman十年刻意练习的沉淀——清单体不是"简陋"，而是"极简"；不是备忘手段，而是认知加工方法。

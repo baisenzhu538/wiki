@@ -1,4 +1,5 @@
 ---
+
 id: dk-f14-accuracy-measurement-mismatch
 title: F-KDO-014：准确率声明的测量口径不一致
 type: dk
@@ -17,6 +18,9 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
+discoverable_by:
+  - F-KDO-014：准确率声明的测量口径不一致
+  - 准确率声明的测量口径不一致
 related:
 - '[[kdo-input-channel-strategy-2026-06-16]]'
 - '[[kdo-protocol]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-动嘴动手动钱成本纪律
 title: 一堂动嘴动手动钱成本纪律：按成本由低到高选择阻力消除手段
 type: tool
@@ -19,6 +20,10 @@ aliases:
   - 按成本由低到高选择阻力消除手段
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L3228-L3300
+discoverable_by:
+  - 一堂动嘴动手动钱成本纪律：按成本由低到高选择阻力消除手段
+  - 一堂动嘴动手动钱成本纪律
+  - 按成本由低到高选择阻力消除手段
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-12种阻力总表]]'

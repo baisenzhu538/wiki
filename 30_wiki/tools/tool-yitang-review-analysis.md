@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-review-analysis
 title: 差评分析：系统化提取竞品缺陷
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 系统化提取竞品缺陷
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 差评分析：系统化提取竞品缺陷
+  - 差评分析
+  - 系统化提取竞品缺陷
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

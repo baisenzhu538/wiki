@@ -1,11 +1,9 @@
 ---
-
 id: yt-concept-weapon-arsenal
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
@@ -55,7 +53,6 @@ tags:
 - 讲香十指模型
 - 超级武器库
 ---
-
 # 超级武器库（元概念）
 
 > 跨域通用概念：一种"即查即用、实战验证、自由排列组合"的战术集合形态。不附属于任何单一方法论域。

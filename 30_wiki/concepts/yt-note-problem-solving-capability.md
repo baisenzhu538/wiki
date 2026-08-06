@@ -1,12 +1,9 @@
 ---
-
 id: yt-note-problem-solving-capability
 title: 笔记能力=解决问题能力：从备忘工具到问题解决系统
 type: concept
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 language: zh-CN
 version: 1
 confidence: 0.88
@@ -59,7 +56,6 @@ tags:
 - skill-level:intermediate
 - 时代清单体笔记
 ---
-
 # 笔记能力=解决问题能力：从备忘工具到问题解决系统
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心断言：**笔记远远不是为了记下来所谓的备忘，而是为了解决问题。笔记能力就是你的解决问题的能力。**“遇到一个问题开一篇笔记——笔记的数量本质上是我遇到的最小的问题数量。笔记的拉满就是我解决问题能力的拉满。”

@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-business-formula-pseudo-causality-two-masks
 title: 伪因果的两个伪装：自我选择偏差与中间变量，都穿「正相关+符合常识」的外衣
 type: dk
@@ -20,6 +21,9 @@ source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1467-L1503
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1615-L1629
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L2326-L2380
+discoverable_by:
+  - 伪因果的两个伪装
+  - 自我选择偏差与中间变量，都穿正相关+符合常识的外衣
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-six-level-logic]]'

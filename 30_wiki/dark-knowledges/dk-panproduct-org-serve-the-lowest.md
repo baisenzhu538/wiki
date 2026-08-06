@@ -1,4 +1,5 @@
 ---
+
 id: dk-panproduct-org-serve-the-lowest
 type: dk
 title: 组织领导心法：最高服务最低
@@ -13,6 +14,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-28
+discoverable_by:
+  - 组织领导心法：最高服务最低
+  - 组织领导心法
+  - 最高服务最低
 quality_labels:
 - cited
 - validated

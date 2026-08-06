@@ -3,8 +3,9 @@ id: tool-推行分层标准化策略
 title: 技能：推行分层标准化策略
 type: tool
 domain:
-- entrepreneurship- product
-- design
+  - entrepreneurship
+  - product
+  - design
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
@@ -29,6 +30,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：推行分层标准化策略
+  - 推行分层标准化策略
 related:
 - '[[tool-设定管理杠杆率指标评估效率]]'
 - '[[tool-建立策略-要素映射表设计对抗策略]]'

@@ -3,11 +3,7 @@ id: yt-tob-demand-scenarios
 title: To B 需求场景四象限
 type: framework
 status: draft
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - ToB需求场景四象限
   - 场景四象限
@@ -51,8 +47,6 @@ discoverable_by:
 - 需求优先级矩阵
 - 四象限需求
 ---
-
-
 # To B 需求场景四象限
 
 > To B 的业务需求和客户自身的经营重心相关。我们看自己或客户时，往往有四类场景：老客户加购、新客户新产品创新、老客户老产品复购、新客户老产品获客。先判断落在哪个象限，才能理解客户的目标到底是什么，以及你能帮他做什么。——徐剑，To B 五步法口述稿（src_20260616_0e684368）

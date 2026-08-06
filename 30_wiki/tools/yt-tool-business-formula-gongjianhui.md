@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-business-formula-gongjianhui
 title: 攻坚会：5-15 人封闭 4-18 小时、不解决不出门、民主集中制的难题解题机制
 type: tool
@@ -27,6 +28,11 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2474-L2568
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3284-L3292
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
+discoverable_by:
+  - 攻坚会：5-15 人封闭 4-18 小时、不解决不出门、民主
+  - 攻坚会
+  - 人封闭
+  - 小时、不解决不出门、民主集中制的难题解题机制
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-hypothesis-management-playbook]]'

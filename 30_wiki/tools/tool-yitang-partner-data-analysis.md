@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-partner-data-analysis
 title: 合作方案数据：从合作方拿到的真实数字
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 方案数据
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 合作方案数据：从合作方拿到的真实数字
+  - 合作方案数据
+  - 从合作方拿到的真实数字
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

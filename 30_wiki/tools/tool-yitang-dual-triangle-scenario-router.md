@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-dual-triangle-scenario-router
 title: 双三角场景路由表
 type: tool
@@ -18,6 +19,8 @@ source_refs:
 aliases:
   - 双三角场景路由表
   - 角场景路由表
+discoverable_by:
+  - 双三角场景路由表
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yitang-y-model-dual-triangle-synergy]]'

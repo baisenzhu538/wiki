@@ -3,8 +3,7 @@ id: tool-四层联系建立法
 title: 技能：四层联系建立法
 type: tool
 status: reviewed
-domain:
-- src_unknown
+domain: src-unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 aliases:
@@ -18,6 +17,9 @@ wiki_refs:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：四层联系建立法
+  - 四层联系建立法
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[tool-月白-灵感画布建立法]]'
@@ -57,7 +59,6 @@ tags:
 - 全景策略
 - 科学学习
 ---
-
 # 技能：四层联系建立法
 
 ## 原始表述

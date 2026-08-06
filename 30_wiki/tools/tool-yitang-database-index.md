@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-database-index
 title: 第三方数据库与行业报告来源索引
 type: tool
@@ -29,6 +30,8 @@ aliases:
   - 第三方数据库与行业报告来源索引
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - 第三方数据库与行业报告来源索引
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

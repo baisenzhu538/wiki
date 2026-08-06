@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-business-formula-cd-loop-undo-key
 title: 公式是经营的撤销键：C-D 循环的真实形态是「打不动就退，找到就回」
 type: dk
@@ -21,6 +22,10 @@ source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1531-L1569
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1575-L1661
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2398-L2432
+discoverable_by:
+  - 公式是经营的撤销键：C-D 循环的真实形态是打不动就退，找到
+  - 公式是经营的撤销键
+  - 循环的真实形态是打不动就退，找到就回
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[framework-一堂-关键假设-ABCD模型]]'

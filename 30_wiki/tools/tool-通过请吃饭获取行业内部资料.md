@@ -2,7 +2,9 @@
 id: tool-通过请吃饭获取行业内部资料
 title: 技能：通过请吃饭获取行业内部资料
 type: tool
-domain: learning-methodology- business-strategy
+domain:
+  - learning-methodology
+  - business-strategy
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
@@ -26,6 +28,9 @@ reviewed_by: 欧阳锋
 review_date: 2026-06-29
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：通过请吃饭获取行业内部资料
+  - 通过请吃饭获取行业内部资料
 related:
 - '[[tool-用旗舰店替代纯招商投入]]'
 - '[[tool-快招品牌总部模拟调研]]'
@@ -40,7 +45,6 @@ tags:
 - 决策评估画布
 - 科学决策
 ---
-
 # 技能：通过请吃饭获取行业内部资料
 
 ## 原始表述

@@ -1,4 +1,5 @@
 ---
+
 id: dk-infrastructure-guardrails-over-checklist
 title: 基础设施工具不能只有检查清单，还必须有硬护栏
 type: dk
@@ -18,6 +19,8 @@ aliases:
   - 还必须有硬护栏
   - 须有硬护栏
 source_refs: null
+discoverable_by:
+  - 基础设施工具不能只有检查清单，还必须有硬护栏
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[tool-制作行业化要素检查清单]]'

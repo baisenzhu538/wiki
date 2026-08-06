@@ -1,11 +1,9 @@
 ---
-
 id: yt-personal-ai-capability
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
@@ -68,7 +66,6 @@ tags:
 - skill-level:intermediate
 - 教学能力修炼分享
 ---
-
 # AI 能力（双模型）
 
 > 来源：一堂个人必修课，属于"形成竞争力"子模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

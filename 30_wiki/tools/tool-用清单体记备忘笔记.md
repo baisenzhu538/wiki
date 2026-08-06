@@ -3,9 +3,10 @@ id: tool-用清单体记备忘笔记
 title: 技能：用清单体记备忘笔记
 type: tool
 domain:
-- learning-methodology- management
-- decision-making
-- yitang
+  - learning-methodology
+  - management
+  - decision-making
+  - yitang
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f
@@ -29,6 +30,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：用清单体记备忘笔记
+  - 用清单体记备忘笔记
 related:
 - '[[tool-提升笔记练习频次的方法]]'
 - '[[tool-自我反馈修正笔记姿势]]'
@@ -42,7 +46,6 @@ tags:
 - skill-level:beginner
 - 清单体笔记训练段位图
 ---
-
 # 技能：用清单体记备忘笔记
 
 ## 原始表述

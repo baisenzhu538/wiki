@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-change-workflow
 title: 项目变更处理三步工作流
 type: tool
@@ -20,6 +21,8 @@ aliases:
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 190929_vlm_desc.md
 - 00_inbox/管项目/批注 2026-07-07 190944_vlm_desc.md
+discoverable_by:
+  - 项目变更处理三步工作流
 related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-change-decision]]"

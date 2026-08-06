@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-数学题与语文题区分法
 title: 技能：数学题与语文题区分法
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

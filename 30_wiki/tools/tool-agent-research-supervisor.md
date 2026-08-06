@@ -1,12 +1,11 @@
 ---
-
 id: tool-agent-research-supervisor
 title: Agent 调研 Supervisor 模式工具
 type: tool
 domain:
-- AI
-- research
-- agent
+  - ai
+  - research
+  - agent
 discoverable_by:
   - Agent 调研 Supervisor 模式工具
   - 模式工具
@@ -47,7 +46,6 @@ updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 ---
-
 # Agent 调研 Supervisor 模式工具
 
 ## 原始表述

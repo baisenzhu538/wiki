@@ -1,4 +1,5 @@
 ---
+
 id: dk-f3-state-json-race-condition
 title: F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
 type: dk
@@ -18,6 +19,11 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-19'
+discoverable_by:
+  - F-KDO-003：state.json 覆盖写竞态→imp
+  - 覆盖写竞态→improve
+  - 执行后
+  - 记录丢失
 related:
 - '[[plan_20260501_ca61cdd7-improvement-plan]]'
 - '[[kdo-input-channel-strategy-2026-06-16]]'

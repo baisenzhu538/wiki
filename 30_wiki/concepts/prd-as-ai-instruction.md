@@ -1,13 +1,8 @@
 ---
-
 id: prd-as-ai-instruction
 title: PRD文档作为AI可执行指令
 type: tool
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 aliases:
   - PRD文档作为AI可执行指令
@@ -55,7 +50,6 @@ tags:
 - skill-level:intermediate
 - 没有人呀现在
 ---
-
 # PRD文档作为AI可执行指令
 
 > Source: src_20260606_90b44191 (半肥猫-AI学习落地-口述，第430-448行)

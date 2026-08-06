@@ -1,13 +1,8 @@
 ---
-
 id: ai-collaboration-mindset-shift
 title: AI协作思维转变：从新手到管理者
 type: concept
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 aliases:
   - AI协作思维转变

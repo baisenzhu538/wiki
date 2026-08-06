@@ -1,4 +1,5 @@
 ---
+
 id: dk-truman-document-is-real-project-is-fake
 title: 文档是真的，项目是假的——面向过去建模型，面向未来解决问题
 type: dk
@@ -18,6 +19,10 @@ aliases:
   - 项目是假的
 source_refs:
 - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
+discoverable_by:
+  - 文档是真的，项目是假的——面向过去建模型，面向未来解决问题
+  - 文档是真的，项目是假的
+  - 面向过去建模型，面向未来解决问题
 related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'

@@ -1,59 +1,28 @@
 ---
 id: framework-yitang-project-abcd-classification
-title: 项目ABCD复杂度分类：工具跟着复杂度走
+title: "项目ABCD复杂度分类：工具跟着复杂度走"
 type: framework
-status: reviewed
-author: 老顽童
-reviewed_by: 欧阳锋
-review_date: 2026-07-07
-confidence: 0.92
-trust_level: high
-language: zh-CN
-created_at: 2026-07-07
-updated_at: 2026-07-07
+status: draft
 domain:
-- yitang
-- management
+  - management
+author: 老顽童
+reviewed_by: 待审
+confidence: 0.7
+trust_level: low
 source_refs:
-- 00_inbox/管项目/项目管理-入门篇-口述.txt
-- 00_inbox/管项目/项目管理-定方案-口述.txt
+  - src_unknown
 related:
+created_at: 2026-06-30
+updated_at: 2026-08-04
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+aliases:
+  - 项目ABCD复杂度分类：工具跟着复杂度走
 discoverable_by:
-  - "项目ABCD分类"
-  - "工具跟着复杂度走"
-  - "项目复杂度分类"
-- "[[yt-management-project-management]]"
-- "[[framework-yitang-project-plan-design]]"
-- "[[framework-yitang-project-breakdown]]"
-- "[[framework-yitang-project-execution]]"
-- "[[framework-yitang-project-retrospective]]"
-- "[[workflow-yitang-project-four-step-loop]]"
-- "[[yt-management-basic-skills]]"
-diagnostic_signals:
-aliases:
   - 项目ABCD复杂度分类：工具跟着复杂度走
-  - 项目ABCD复杂度分类
-  - 工具跟着复杂度走
-  - 复杂度分类
-  - 杂度分类
-  - 着复杂度走
-aliases:
-  - 项目ABCD复杂度分类：工具跟着复杂度走
-  - 项目ABCD复杂度分类
-  - 工具跟着复杂度走
-  - 目复杂度分类
-  - 具跟着复杂度走
-- signal: 团队的所有项目都套用同一套管理流程——简单项目过度管理，复杂项目管理不足
-  lens: 缺ABCD分级意识——没有"工具跟着复杂度走"
-  follow-up: 把当前所有项目拉出来跑一次ABCD分级，对比实际用的工具和推荐的工具
-- signal: 项目负责人说"我一个人就能搞定但老板要求写完整方案"
-  lens: A级项目被当C级管——过度管理
-  follow-up: 用ABCD说服老板，A级项目口述确认即可，不需要完整方案文档
-quality_labels:
-- principle
-- actionable
 ---
-
 # 项目ABCD复杂度分类：工具跟着复杂度走
 
 > **一句话**：不是所有项目都需要甘特图和完整方案。一堂把项目分四级——A口头、B简单、C跨部门、D战略——每一级匹配不同复杂度的工具。"拿大炮打蚊子"和"拿小锤造航母"都是错的。

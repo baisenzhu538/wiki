@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb22-visual-presentation-scene-match
 title: 视觉呈现方式与消费场景的匹配原则
 type: dk
@@ -16,6 +17,8 @@ source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - 视觉呈现方式与消费场景的匹配原则
 related:
 - '[[dk-yb26-chinese-food-photography-props]]'
 - '[[dk-yb19-visual-strategy-price-match]]'

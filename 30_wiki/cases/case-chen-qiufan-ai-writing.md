@@ -1,5 +1,4 @@
 ---
-
 id: case-chen-qiufan-ai-writing
 title: 陈楸帆对 AI 写作的态度转向
 type: case
@@ -25,9 +24,9 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+  - ai-collaboration
+  - critical-thinking
+  - business-judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -56,7 +55,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 陈楸帆对 AI 写作的态度转向
 
 > **Burn line**：一位从 2017 年就亲自训练 AI 模型、把 AI 当「写作主人」的科幻作家，在 2025 年 DeepSeek 之后公开转向审慎——这个反转不是情绪，而是「亲自试过错」的人对技术保质期的修正。

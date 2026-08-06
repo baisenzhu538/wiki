@@ -1,13 +1,9 @@
 ---
-
 id: case-truman-poker-deck-roi
 title: 扑克牌案例：同样的任务，两个同学评估结果截然相反
 type: case
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: Truman
 source_context: 一堂-科学决策-ROI决策高度实操课口述04（2026）
 aliases:
@@ -54,7 +50,6 @@ tags:
 - 决策高度实操课口述
 - 科学决策
 ---
-
 # 扑克牌案例：同样的任务，两个同学评估结果截然相反
 
 > Truman 在 ROI 决策高度课上分享了一个真实内部案例：同样是评估"是否做一套扑克牌知识产品"，两个同学给出了截然相反的结论。这不是能力差距的问题，而是**决策高度**的问题。

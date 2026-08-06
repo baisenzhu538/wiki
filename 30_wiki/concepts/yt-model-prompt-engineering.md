@@ -1,5 +1,4 @@
 ---
-
 id: yt-model-prompt-engineering
 title: 人机协作操作系统：提示词工程总框架
 type: framework
@@ -12,9 +11,7 @@ aliases:
 source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: enriched
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 language: zh-CN
 version: 1
 difficulty: intermediate
@@ -64,7 +61,6 @@ tags:
 - 吴恩达提示词课程
 - 拆书会
 ---
-
 # 人机协作操作系统：提示词工程总框架
 
 > 基于吴恩达《AI Prompting for Everyone》（21节课） × 一堂拆书会第202期深度消化。提示词工程不是"写提示词的技巧"，而是**把 AI 纳入自己工作系统的管理能力**。

@@ -2,7 +2,7 @@
 id: task_20260802_huangyaoshi-review-infra
 task_id: 218
 assignee: huangyaoshi
-status: queued
+status: done
 created_at: 2026-08-02
 domain: kdo
 priority: P0

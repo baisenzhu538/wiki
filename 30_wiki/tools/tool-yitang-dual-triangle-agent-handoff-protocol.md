@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-dual-triangle-agent-handoff-protocol
 title: 子域 Agent 转交协议
 type: tool
@@ -17,6 +18,9 @@ source_refs:
 aliases:
   - 子域
   - 子域Agent转交协议
+  - 转交协议
+discoverable_by:
+  - 子域 Agent 转交协议
   - 转交协议
 related:
 - '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'

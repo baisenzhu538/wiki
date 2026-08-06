@@ -9,13 +9,15 @@ aliases:
   - 战略研讨会引导手册
 source_refs:
 status: reviewed
-domain: yitang- yitang
+domain: yitang
 language: zh-CN
 version: 1
 difficulty: foundational
 confidence: 0.85
 prerequisites: null
 component_of:
+discoverable_by:
+  - 战略研讨会引导手册
 related:
 contradicts: null
 query_triggers:

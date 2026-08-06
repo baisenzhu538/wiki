@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-monetization-optimization
 title: 变现优化：从免费到付费
 type: concept
@@ -48,7 +46,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 变现优化：从免费到付费
 
 > 一堂五步法：变现不是最后一步，而是贯穿增长飞轮。免费用户是付费用户的基础。

@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-hypothesis-five-alternatives
 title: 假设思维不是唯一道路：五条替代路径与适用边界
 type: dk
@@ -21,6 +22,10 @@ aliases:
   - 替代路径与适用边界
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L488-L552
+discoverable_by:
+  - 假设思维不是唯一道路：五条替代路径与适用边界
+  - 假设思维不是唯一道路
+  - 五条替代路径与适用边界
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[framework-一堂-关键假设]]'

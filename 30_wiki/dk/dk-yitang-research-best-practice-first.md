@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-research-best-practice-first
 title: 做重要设计前先摸行业最佳实践：认知套利
 type: dk
@@ -21,6 +22,10 @@ aliases:
 source_refs:
 - 00_inbox/调研专题/高阶调研行动营01.txt
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
+discoverable_by:
+  - 做重要设计前先摸行业最佳实践：认知套利
+  - 做重要设计前先摸行业最佳实践
+  - 认知套利
 related:
   - "[[pending_unknown]]"
   - "[[case-live81-ai-trademark-design]]"

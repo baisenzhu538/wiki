@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-business-formula-quant-space-3d
 title: 定量空间三维评估：差距 × 对标 × 成熟度，判断一个参数还值不值得砸资源
 type: tool
@@ -27,6 +28,10 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3060-L3086
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-逻辑关系篇-口述.txt L3286-L3314
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L2934-L2975
+discoverable_by:
+  - 定量空间三维评估：差距 × 对标 × 成熟度，判断一个参数还
+  - 定量空间三维评估
+  - 成熟度，判断一个参数还值不值得砸资源
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[concept-一堂-关键路径与乘法杠杆]]'

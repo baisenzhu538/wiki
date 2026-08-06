@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-canvas
 title: 商业模式画布：一堂版
 type: tool
@@ -24,6 +23,10 @@ review_verdict: fail
 review_grade: C
 review_notes: 补审。核心框架有价值但 body 大面积 src_unknown（步骤1-4、行动触发器、关联卡片、来源验证），domain 为 src_unknown。退回老顽童返工：补
   domain + 清 body 占位符。
+discoverable_by:
+  - 商业模式画布：一堂版
+  - 商业模式画布
+  - 一堂版
 related:
 - '[[tool-ROI决策评估画布]]'
 - '[[tool-行业分析画布]]'
@@ -46,7 +49,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 商业模式画布：一堂版
 
 > 一堂五步法：商业模式画布是梳理商业模式的工具，9个要素缺一不可，帮助发现矛盾和对齐团队。

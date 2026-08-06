@@ -3,13 +3,15 @@ id: tool-note-layer-constraint
 title: 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 language: zh-CN
 version: 2
 difficulty: beginner
 confidence: 0.88
+discoverable_by:
+  - 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的
+  - 清单体分层硬约束
+  - 3层每层≤7点，Truman十年经验的量化标准
 related:
 - '[[yt-tool-meeting-designer]]'
 - '[[case-truman-prd-checklist-evolution]]'
@@ -76,7 +78,6 @@ diagnostic_signals:
 - 时代清单体笔记
 - 系统代码深度分析报告
 ---
-
 # 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准
 
 ## 用一句话讲清楚

@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-iceberg-l4-job-map
 title: L4任务地图：全流程8步推演+摩擦点识别
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - 摩擦点识别
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
+discoverable_by:
+  - L4任务地图：全流程8步推演+摩擦点识别
+  - L4任务地图
+  - 全流程8步推演+摩擦点识别
 related:
 - '[[yitang-domain-digest]]'
 - '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'

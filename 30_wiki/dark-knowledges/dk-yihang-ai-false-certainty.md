@@ -1,4 +1,5 @@
 ---
+
 id: dk-yihang-ai-false-certainty
 title: AI 错误笃定模式——被设计来回答问题，未被设计来"意识到自己不知道"
 type: dk
@@ -23,6 +24,10 @@ aliases:
 source_refs:
 - 对话记录：2026-07-05 老朱 Codex Claude Windows 10 案例
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+discoverable_by:
+  - AI 错误笃定模式——被设计来回答问题，未被设计来意识到自己
+  - 错误笃定模式
+  - 被设计来回答问题，未被设计来意识到自己不知道
 related:
 - '[[dk-ai-collaboration-degradation-spiral]]'
 - '[[concept-yihang-dual-triangle-core]]'

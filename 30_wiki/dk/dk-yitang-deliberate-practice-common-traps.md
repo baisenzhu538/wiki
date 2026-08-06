@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-deliberate-practice-common-traps
 type: dk
 title: 刻意练习常见陷阱：老学员最容易踩的 7 个坑
@@ -11,6 +12,10 @@ trust_level: medium-high
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
+discoverable_by:
+  - 刻意练习常见陷阱：老学员最容易踩的 7 个坑
+  - 刻意练习常见陷阱
+  - 老学员最容易踩的
 quality_labels:
   - cited
   - quality
@@ -37,7 +42,6 @@ related:
 - "[[framework-ai-deliberate-practice-loop]]"
 - "[[yt-model-deliberate-practice-growth]]"
 - "[[yt-note-deliberate-practice-four-elements]]"
-
 ---
 
 # 刻意练习常见陷阱：老学员最容易踩的 7 个坑

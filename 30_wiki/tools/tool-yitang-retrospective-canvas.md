@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-retrospective-canvas
 title: 项目复盘关键成果画布
 type: tool
@@ -21,6 +22,8 @@ source_refs:
 - 00_inbox/管项目/批注 2026-07-07 192810_vlm_desc.md
 - 00_inbox/管项目/批注 2026-07-07 192859_vlm_desc.md
 - 00_inbox/管项目/项目管理-做复盘-口述.txt
+discoverable_by:
+  - 项目复盘关键成果画布
 related:
 - "[[framework-yitang-project-retrospective]]"
 - "[[yt-management-project-management]]"

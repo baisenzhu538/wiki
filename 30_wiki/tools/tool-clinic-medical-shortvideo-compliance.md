@@ -1,53 +1,28 @@
 ---
 id: tool-clinic-medical-shortvideo-compliance
-title: 诊所医疗短视频/个人 IP 合规边界 checklist
+title: "诊所医疗短视频/个人 IP 合规边界"
 type: tool
-status: enriched
+status: draft
 domain:
-- healthcare
-- business-strategy
+  - healthcare
+author: 洪七公（VLM提取） 老顽童（enrich）
+reviewed_by: 待审
+confidence: 0.7
+trust_level: low
 source_refs:
-- pending_archive:src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
-- pending_archive:src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
-- src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
-- src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
-created_at: 2026-06-15
-updated_at: '2026-06-29'
-author: 王语嫣
-reviewed_by: 老顽童
-review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
-review_date: 2026-06-15
-confidence: 0.88
-trust_level: high
+  - src_unknown
 related:
-- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
-- '[[dk-wanghuan-standard-by-iteration]]'
-- '[[dk-modeling-ai-compound-leverage]]'
-- '[[tool-yitang-content-ip-research]]'
-- '[[dk-modeling-ai-judgment-limit]]'
-- '[[tool-smart-medicine-cabinet-compliance-checklist]]'
-- tool-strategy-gap-analysis
-- tool-ai-use-barbell-strategy
-## 操作步骤
-
-
-Step 1: 明确诊所医疗短视频/个人 IP 合规边界 c要解决的核心问题
-Step 2: 收集至少3个数据点或案例
-Step 3: 按诊所医疗短视频/个人 IP 合规边界 c框架结构化分析
-Step 4: 识别关键风险和依赖
-Step 5: 制定执行计划和时间节点
-
-## Purpose
-
-本工具解决以下问题：
-
-1. 为智能药柜/医药项目相关方提供结构化的检查框架。
-2. 在决策前识别关键风险点，避免被单方面宣传误导。
-3. 作为团队内部复核清单，确保关键证据已经交叉验证。
-4. 为后续尽职调查、合同谈判或政策申报提供起点。
-
+created_at: 2026-06-30
+updated_at: 2026-08-04
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+aliases:
+  - 诊所医疗短视频/个人 IP 合规边界
+discoverable_by:
+  - 诊所医疗短视频/个人 IP 合规边界
 ---
-
 ## Protocol/Procedure
 
 使用本工具的步骤：

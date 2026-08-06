@@ -1,4 +1,5 @@
 ---
+
 id: dk-tool-chain-naming-is-infrastructure
 title: 命名不规范会让整条工具链"失明"
 type: dk
@@ -17,6 +18,8 @@ aliases:
   - 团队复盘
 source_refs:
 - src_unknown
+discoverable_by:
+  - 命名不规范会让整条工具链失明
 related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'

@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-yitang-public-info-is-enough
 title: 多数情报可通过公开信息深挖获得
 type: dk
@@ -19,6 +20,8 @@ aliases:
   - 情报可通过公开信息深挖获得
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
+discoverable_by:
+  - 多数情报可通过公开信息深挖获得
 related:
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
@@ -26,7 +29,6 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 updated_at: 2026-06-28
-
 ---
 
 # 多数情报可通过公开信息深挖获得

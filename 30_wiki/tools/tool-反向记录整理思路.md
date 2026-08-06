@@ -3,10 +3,10 @@ id: tool-反向记录整理思路
 title: 技能：反向记录整理思路
 type: tool
 domain:
-- learning-methodology- product
-- ai-saas
-- management
-- yitang
+  - learning-methodology
+  - ai-saas
+  - management
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
@@ -26,6 +26,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：反向记录整理思路
+  - 反向记录整理思路
 related:
 - '[[tool-反向提示获取优化建议]]'
 - '[[tool-多轮确认防偏差]]'
@@ -40,7 +43,6 @@ tags:
 - skill-level:beginner
 - 自用的
 ---
-
 # 技能：反向记录整理思路
 
 ## 原始表述

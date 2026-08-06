@@ -1,9 +1,7 @@
 ---
-
 id: yt-note-deliberate-practice-four-elements
 title: 刻意练习笔记落地诊断框架
-domain:
-- src_unknown
+domain: src-unknown
 pipeline:
 - src_unknown
 diagnostic_signals:
@@ -36,7 +34,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 四要素诊断模型——刻意练习的笔记落地框架
 
 ## Constraints & Boundaries

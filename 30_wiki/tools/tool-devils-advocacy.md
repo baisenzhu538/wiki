@@ -1,8 +1,12 @@
 ---
+
 id: tool-devils-advocacy
 title: Devil's Advocacy（魔鬼代言人）
 type: tool
 domain:
+discoverable_by:
+  - Devil's Advocacy魔鬼代言人
+  - Advocacy魔鬼代言人
 tags:
 source_person: Richars J. Heuer Jr. + Truman（一堂）
 source_context: SATs 反向类技术工具化实现

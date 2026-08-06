@@ -1,4 +1,5 @@
 ---
+
 id: tool-泛产品设计-出牌指南
 title: 泛产品设计·出牌指南
 type: tool
@@ -20,6 +21,10 @@ source_refs:
   - 10_raw/ocr-cards/ocr-一堂泛产品设计-多出牌多练习.md
   - 30_wiki/concepts/yt-personal-pan-product-practice.md
   - 00_inbox/一堂-个人修身-泛产品设计实操口述版.md
+discoverable_by:
+  - 泛产品设计·出牌指南
+  - 泛产品设计
+  - 出牌指南
 related:
   - "[[yt-model-pan-product-demand-toolkit]]"
   - "[[yt-model-pan-product-36-strategies]]"

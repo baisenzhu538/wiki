@@ -1,13 +1,12 @@
 ---
-
 id: smart-medicine-cabinet-fraud-detection
 title: 智能药柜/智慧药房招商骗局识别清单
 type: tool
 status: enriched
 domain:
-- healthcare- healthcare
-- pharmaceutical-retail
-- risk-warning
+  - healthcare
+  - pharmaceutical-retail
+  - risk-warning
 aliases:
   - 智慧药房招商骗局识别清单
   - 智能药柜/智慧药房招商骗局识别清单

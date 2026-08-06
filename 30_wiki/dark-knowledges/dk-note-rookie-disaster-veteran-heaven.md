@@ -1,4 +1,5 @@
 ---
+
 id: dk-note-rookie-disaster-veteran-heaven
 title: “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
 type: dk
@@ -18,6 +19,10 @@ aliases:
   - 老人天堂”
 source_refs:
 - 10_raw/sources/src_20260617_c5e5fb8e-一堂-ai时代请单体笔记-truman-口述-02.txt
+discoverable_by:
+  - “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
+  - “新人灾难，老人天堂”
+  - AI时代笔记基本功的幻灭危机
 tags:
 - src_unknown
 - src_unknown

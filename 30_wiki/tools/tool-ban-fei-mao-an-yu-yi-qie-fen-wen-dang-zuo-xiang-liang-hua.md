@@ -4,8 +4,8 @@ title: 技能：按语义切分文档做向量化
 type: tool
 status: reviewed
 domain:
-- src_unknown
-- yitang- src_unknown
+  - src-unknown
+  - yitang
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 aliases:
@@ -22,6 +22,9 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：按语义切分文档做向量化
+  - 按语义切分文档做向量化
 related:
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
 - '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
@@ -52,7 +55,6 @@ tags:
 - 半肥猫
 - 学习落地
 ---
-
 # 技能：按语义切分文档做向量化
 
 ## 用一句话讲清楚

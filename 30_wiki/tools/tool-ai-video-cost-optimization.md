@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-video-cost-optimization
 title: AI工具开发成本优化清单：薅羊毛/中转商API/免费方案
 type: tool
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-20'
 created_at: '2026-07-20'
 updated_at: '2026-07-20'
+discoverable_by:
+  - AI工具开发成本优化清单：薅羊毛/中转商API/免费方案
+  - AI工具开发成本优化清单
+  - 薅羊毛/中转商API/免费方案
 quality_labels:
 - actionable
 - validated

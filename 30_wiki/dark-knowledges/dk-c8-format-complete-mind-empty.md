@@ -1,4 +1,5 @@
 ---
+
 id: dk-c8-format-complete-mind-empty
 title: C-8：批处理格式升级产生格式完整但思维空洞的卡片
 type: dk
@@ -16,6 +17,9 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
+discoverable_by:
+  - C-8：批处理格式升级产生格式完整但思维空洞的卡片
+  - 批处理格式升级产生格式完整但思维空洞的卡片
 related:
 - '[[case-strategy-wuxi-suntech]]'
 - '[[dk-small-format-error-cascades-to-system-failure]]'

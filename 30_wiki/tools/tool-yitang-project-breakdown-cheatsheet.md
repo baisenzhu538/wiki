@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-breakdown-cheatsheet
 title: 项目拆计划一页纸小抄
 type: tool
@@ -23,6 +24,8 @@ source_refs:
 - 00_inbox/管项目/项目管理-拆计划-六维敏感度模型_vlm_desc.md
 - 00_inbox/管项目/项目管理-拆计划-拆计划小抄_vlm_desc.md
 - 00_inbox/管项目/项目管理-角色分工-RASCI模型_vlm_desc.md
+discoverable_by:
+  - 项目拆计划一页纸小抄
 related:
 - "[[framework-yitang-project-breakdown]]"
 - "[[yt-management-project-management]]"

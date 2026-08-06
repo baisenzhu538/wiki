@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-基本功-拆解四法
 title: 拆解四法：靠框架/靠专家/靠外部/靠复盘，把关键动作挖出来
 type: tool
@@ -25,6 +26,10 @@ source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/拆解卡-靠复盘拆-04_vlm.md
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/拆解卡-基本功命名-06_vlm.md
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-口述.txt L502-L687
+discoverable_by:
+  - 拆解四法：靠框架/靠专家/靠外部/靠复盘，把关键动作挖出来
+  - 拆解四法
+  - 靠框架/靠专家/靠外部/靠复盘，把关键动作挖出来
 related:
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[tool-一堂-基本功-三环六维自检]]'

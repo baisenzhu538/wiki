@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-two-dimensional-positioning
 title: 二维定位：找到差异化竞争的坐标
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - skill-level:intermediate
   - 二维定位
   - 二维定位：找到差异化竞争的坐标
+  - 找到差异化竞争的坐标
+discoverable_by:
+  - 二维定位：找到差异化竞争的坐标
+  - 二维定位
   - 找到差异化竞争的坐标
 related:
 tags:

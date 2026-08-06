@@ -1,9 +1,12 @@
 ---
+
 id: yt-tool-business-formula-metrics-checklist
 title: "业务公式数据埋点设计清单"
 status: enriched
 reviewed_by: pending
 updated_at: '2026-07-12'
+discoverable_by:
+  - 业务公式数据埋点设计清单
 related:
 aliases:
   - audience:general

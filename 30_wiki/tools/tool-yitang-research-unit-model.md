@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-unit-model
 title: 单元模型：找到业务最小单元的经济密码
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - skill-level:intermediate
   - 单元模型
   - 单元模型：找到业务最小单元的经济密码
+  - 找到业务最小单元的经济密码
+discoverable_by:
+  - 单元模型：找到业务最小单元的经济密码
+  - 单元模型
   - 找到业务最小单元的经济密码
 related:
 tags:

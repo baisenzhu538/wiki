@@ -5,8 +5,7 @@ component_of:
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1127
 language: zh-CN
 prerequisites:
@@ -62,7 +61,6 @@ tags:
 - 泛产品设计
 - 用户卡片
 ---
-
 # 惊喜公式：理解惊喜的本质
 
 > 需求工具箱第 8 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

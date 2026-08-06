@@ -1,12 +1,11 @@
 ---
-
 id: sk-ai-problem-validation
 title: 技能：问题验证三维度法
 type: tool
 status: reviewed
 domain:
-- ai-collaboration
-- yitang- ai-collaboration
+  - ai-collaboration
+  - yitang
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
@@ -36,7 +35,6 @@ aliases:
 - 时代要不要练笔记
 - 需要练那个
 ---
-
 # 技能：问题验证三维度法
 
 ## 用一句话讲清楚

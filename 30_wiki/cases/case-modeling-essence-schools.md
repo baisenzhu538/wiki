@@ -1,13 +1,9 @@
 ---
-
 id: case-modeling-essence-schools
 title: 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
 type: case
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - Truman
   - 付费派

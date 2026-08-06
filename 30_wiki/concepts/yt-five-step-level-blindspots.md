@@ -1,5 +1,4 @@
 ---
-
 id: yt-five-step-level-blindspots
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
@@ -12,8 +11,7 @@ quality_labels:
 - validated
 created_at: 2026-06-11
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3400
 language: zh-CN
 prerequisites: []
@@ -73,7 +71,6 @@ tags:
 - 单元模型
 - 落地实操
 ---
-
 # 暗知识：五步法的段位盲区与自评陷阱
 
 > 来源：一堂五步法·序言篇、单元模型篇、落地实操篇 | [[yt-five-step-method]] | [[yt-unit-model-concept]] | [[yt-five-step-implementation]] | [[yt-business-analysis-cognitive-biases]] | [[yt-five-step-common-pitfalls]] | [[yt-research-mindset]]

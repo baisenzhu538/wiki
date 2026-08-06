@@ -2,7 +2,7 @@
 id: task_20260803_huangyaoshi-duplicate-key-lint
 task_id: 228
 assignee: huangyaoshi
-status: queued
+status: done
 created_at: 2026-08-03
 domain: kdo
 priority: P0

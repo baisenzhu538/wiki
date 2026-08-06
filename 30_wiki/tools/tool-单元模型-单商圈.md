@@ -1,4 +1,5 @@
 ---
+
 id: tool-单元模型-单商圈
 title: 单元模型：单商圈模型
 type: tool
@@ -19,6 +20,10 @@ source_refs:
 - 00_inbox/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-单商圈模型_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-单元模型-单商圈模型.md
+discoverable_by:
+  - 单元模型：单商圈模型
+  - 单元模型
+  - 单商圈模型
 related:
 - '[[yitang-domain-digest]]'
 - '[[dk-单元模型-找单元模型实操难点]]'

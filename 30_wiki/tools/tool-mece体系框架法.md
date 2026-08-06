@@ -3,8 +3,7 @@ id: tool-mece体系框架法
 title: 技能：MECE体系框架法
 type: tool
 status: reviewed
-domain:
-- src_unknown
+domain: src-unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 aliases:
@@ -19,6 +18,9 @@ wiki_refs:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：MECE体系框架法
+  - MECE体系框架法
 related:
 - '[[tool-泛产品落地-逻辑MECE]]'
 - '[[tool-纪浩-Agent技能市场设计法]]'
@@ -58,7 +60,6 @@ tags:
 - 全景策略
 - 科学学习
 ---
-
 # 技能：MECE体系框架法
 
 ## 原始表述

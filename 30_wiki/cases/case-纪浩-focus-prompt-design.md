@@ -1,12 +1,9 @@
 ---
-
 id: case-纪浩-focus-prompt-design
 title: 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接
 type: case
 status: enriched
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论 分享 + 真实项目 /focus 功能的产品设计提示词
 aliases:
@@ -87,7 +84,6 @@ diagnostic_signals:
 - 俱乐部
 - 参考案例
 ---
-
 # 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接
 
 > 纪浩用自己讲的五层方法论，建造了一个 AI 辅助的现场工作台（`/focus`）。这两份提示词是方法论在真实产品上的落地实例——不是"怎么用 AI"的方法论，是"怎么用结构化 prompt 做产品设计"的工程方法。

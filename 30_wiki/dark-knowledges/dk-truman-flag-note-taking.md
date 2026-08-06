@@ -1,4 +1,5 @@
 ---
+
 id: dk-truman-flag-note-taking
 title: 立flag记笔法：用量化目标倒逼笔记中的真实思考量
 type: dk
@@ -18,6 +19,10 @@ aliases:
   - 记笔法
 source_refs:
 - 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
+discoverable_by:
+  - 立flag记笔法：用量化目标倒逼笔记中的真实思考量
+  - 立flag记笔法
+  - 用量化目标倒逼笔记中的真实思考量
 related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'

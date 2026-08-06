@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-低质量动作识别与拒绝
 title: 技能：低质量动作识别与拒绝
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

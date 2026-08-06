@@ -1,4 +1,5 @@
 ---
+
 id: tool-反向采访挖掘深度
 title: 技能：反向采访挖掘深度
 type: tool
@@ -29,6 +30,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：反向采访挖掘深度
+  - 反向采访挖掘深度
 related:
 - '[[tool-反向提示获取优化建议]]'
 - '[[tool-多轮确认防偏差]]'

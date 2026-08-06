@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-demand-quantitative-estimation
 title: 市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案估值
 type: tool
@@ -23,6 +22,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
+discoverable_by:
+  - 市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案
+  - 市场规模估算四种方法
+  - 自上而下、自下而上、竞品对标、替代方案估值
 related:
 - '[[tool-Truman-提示词优化底层方法]]'
 - '[[一堂方法论体系总图]]'
@@ -52,7 +55,6 @@ tags:
 - 一堂五步法
 - 市场规模估算四种方法
 ---
-
 # 市场规模估算四种方法：自上而下、自下而上、竞品对标、替代方案估值
 
 > 一堂五步法：市场规模估算不是"拍数字"，而是有方法、有逻辑、有交叉验证的结构化过程。

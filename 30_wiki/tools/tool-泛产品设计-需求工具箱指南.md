@@ -1,4 +1,5 @@
 ---
+
 id: tool-泛产品设计-需求工具箱指南
 title: 需求工具箱指南
 type: tool
@@ -16,6 +17,8 @@ aliases:
   - 需求工具箱指南
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-需求工具箱指南_vlm_desc.md
+discoverable_by:
+  - 需求工具箱指南
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

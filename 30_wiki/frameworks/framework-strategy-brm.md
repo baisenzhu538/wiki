@@ -1,61 +1,29 @@
 ---
 id: framework-strategy-brm
-title: 冉鹏版 BRM 框架（源于 IBM BLM 方法论）
+title: "冉鹏版 BRM 框架（源于 IBM BLM 方法论）"
 type: framework
-status: reviewed
-author: 老顽童
-reviewed_by: 欧阳锋
-review_date: 2026-07-04
-created_at: 2026-06-21
-confidence: 0.9
-trust_level: high
-language: zh-CN
+status: draft
 domain:
-- strategy
+  - strategy
+author: 老顽童
+reviewed_by: 待审
+confidence: 0.7
+trust_level: low
 source_refs:
-- 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
-  - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
   - src_unknown
-- 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
 related:
+  - [[method-yitang-y-model-engine-cycle]]
+created_at: 2026-06-30
+updated_at: 2026-08-04
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
 aliases:
-  - 冉鹏版BRM框架源于IBMBLM方法论
-  - 冉鹏版
-  - 框架源于
-  - 方法论
-  - 肉记忆
-  - 略肌肉记忆
-aliases:
-  - 冉鹏版BRM框架源于IBMBLM方法论
-  - 冉鹏版
-  - 框架源于
-  - 方法论
-  - 略肌肉记忆
+  - 冉鹏版 BRM 框架（源于 IBM BLM 方法论）
 discoverable_by:
-  - "冉鹏BRM"
-  - "BRM框架"
-  - "冉鹏版BRM方法"
-  - "战略肌肉记忆BRM"
-  - '[[framework-strategy-basics-01-core]]'
-  - tool-strategy-gap-analysis
-  - case-strategy-exit-remove
-updated_at: '2026-07-04'
-  - framework-yitang-thought-liberation-lightning
+  - 冉鹏版 BRM 框架（源于 IBM BLM 方法论）
 ---
-
 # 冉鹏版 BRM 框架（源于 IBM BLM 方法论）
 
 > ⚠️ 注意：国际通行的"BRM"= Business Relationship Management（IT与业务关系管理），是另一个领域。冉鹏的 BRM 源于他在 IBM 担任咨询总监时所学的 BLM (Business Leadership Model)，经过30年中国实战改编。华为"五看三定"就是 BLM 的中国版本。

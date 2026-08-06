@@ -1,4 +1,5 @@
 ---
+
 id: tool-shortvideo-six-dimension-deconstruction
 title: 短视频 6 维度拆解工具
 type: tool
@@ -30,6 +31,10 @@ query_triggers:
 - 短视频拆解工具
 - study
 - 大馨战队
+discoverable_by:
+  - 短视频 6 维度拆解工具
+  - 短视频
+  - 维度拆解工具
 tags:
 - '#scene/business-analysis'
 - content-production

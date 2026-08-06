@@ -3,9 +3,10 @@ id: tool-复盘推演练习
 title: 技能：复盘推演练习
 type: tool
 domain:
-- learning-methodology- kdo
-- decision-making
-- yitang
+  - learning-methodology
+  - kdo
+  - decision-making
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -31,6 +32,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：复盘推演练习
+  - 复盘推演练习
 related:
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[tool-辩证讨论深化]]'

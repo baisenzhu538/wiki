@@ -1,12 +1,11 @@
 ---
-
 id: sk-ai-system-redundancy
 title: 技能：系统冗余度快速检查清单
 type: tool
 status: reviewed
 domain:
-- ai-collaboration
-- yitang- ai-collaboration
+  - ai-collaboration
+  - yitang
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 source_refs:
@@ -38,7 +37,6 @@ aliases:
 - 世界发展
 - 偶然与必然讨论
 ---
-
 # 技能：系统冗余度快速检查清单
 
 ## 用一句话讲清楚

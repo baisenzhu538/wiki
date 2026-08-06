@@ -1,11 +1,9 @@
 ---
-
 id: yt-model-agent-architecture
 confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 language: zh-CN
 query_triggers:
 - src_unknown
@@ -62,7 +60,6 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 ---
-
 # 智能体架构：PEAS与五层Agent模型
 
 > 来源：Russell & Norvig《Artificial Intelligence: A Modern Approach》第4版，经AI思维卡深度加工。

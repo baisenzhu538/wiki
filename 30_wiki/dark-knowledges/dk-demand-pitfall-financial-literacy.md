@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-pitfall-financial-literacy
 title: 踩坑：少儿财商——刚性误判。用户说重要≠会付费
 type: dk
@@ -19,6 +20,10 @@ aliases:
   - 踩坑：少儿财商刚性误判。用户说重要≠会付费
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
+discoverable_by:
+  - 踩坑：少儿财商——刚性误判。用户说重要≠会付费
+  - 少儿财商
+  - 刚性误判。用户说重要≠会付费
 related:
 - '[[yt-demand-fake-demand-detection]]'
 - '[[dk-demand-misjudgment-rate]]'

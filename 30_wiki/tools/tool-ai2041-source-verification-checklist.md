@@ -9,9 +9,9 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+  - ai-collaboration
+  - critical-thinking
+  - business-judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -19,6 +19,9 @@ source_refs:
 aliases:
   - AI预测来源验证检查单
   - 来源验证检查单
+  - 预测来源验证检查单
+discoverable_by:
+  - AI 预测来源验证检查单
   - 预测来源验证检查单
 related:
 - '[[tool-tech-probability-80-filter]]'

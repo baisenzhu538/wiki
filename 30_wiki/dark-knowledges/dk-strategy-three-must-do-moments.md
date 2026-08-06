@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-three-must-do-moments
 title: 三种必做战略的时刻：快速扩张/业务平台期/行业下行期
 type: dk
@@ -18,6 +19,10 @@ aliases:
   - 快速扩张/业务平台期/行业下行期
 source_refs:
 - 'pending_archive:'
+discoverable_by:
+  - 三种必做战略的时刻：快速扩张/业务平台期/行业下行期
+  - 三种必做战略的时刻
+  - 快速扩张/业务平台期/行业下行期
 related:
 - '[[dk-strategy-longzhong-four-failures]]'
 reviewed_by: 欧阳锋

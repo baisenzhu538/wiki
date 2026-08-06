@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-shishi-qiushi-cheat-sheet
 title: 实事求是团队训练小抄：实事问句 + 求是问句
 type: tool
@@ -22,6 +23,11 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 实事求是团队训练小抄：实事问句 + 求是问句
+  - 实事求是团队训练小抄
+  - 实事问句
+  - 求是问句
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[yt-decision-y-model]]'

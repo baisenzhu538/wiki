@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-sales-process-decomposition
 title: 一堂销售过程拆解三步法（用户决策路径地图）
 type: tool
@@ -23,6 +24,8 @@ source_refs:
 - 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt
 - 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-笔记.txt
 - 00_inbox/销售专题/李蕊-科学销售方法论-笔记.txt
+discoverable_by:
+  - 一堂销售过程拆解三步法用户决策路径地图
 related:
 - '[[case-yitang-sales-transformation-jubensha-saas]]'
 - '[[case-yitang-sales-transformation-meirongyuan]]'

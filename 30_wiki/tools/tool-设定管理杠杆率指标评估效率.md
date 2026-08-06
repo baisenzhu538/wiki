@@ -1,4 +1,5 @@
 ---
+
 id: tool-设定管理杠杆率指标评估效率
 title: 技能：设定管理杠杆率指标评估效率
 type: tool
@@ -30,6 +31,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：设定管理杠杆率指标评估效率
+  - 设定管理杠杆率指标评估效率
 related:
 - '[[tool-应用人员降级公式实现标准化]]'
 - '[[tool-执行对标研究三步法]]'

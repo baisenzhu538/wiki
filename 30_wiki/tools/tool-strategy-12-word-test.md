@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-12-word-test
 title: 12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略
 type: tool
@@ -19,6 +20,10 @@ source_refs:
 - pending_archive:src_unknown
 reviewed_by: pending
 updated_at: '2026-06-30T16:07:51+00:00'
+discoverable_by:
+  - 12词战略测试：只有份额/收入/ROI/SWOT/OKR/数
+  - 12词战略测试
+  - 只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略
 tags:
 - audience:executor
 - scene:execution

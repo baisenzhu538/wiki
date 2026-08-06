@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-weapon-public-official-info
 title: 武器库策略8：官方公开信息——公司的十大公开信息源
 type: tool
@@ -21,6 +22,11 @@ aliases:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - 武器库策略8：官方公开信息——公司的十大公开信息源
+  - 武器库策略8
+  - 官方公开信息
+  - 公司的十大公开信息源
 related:
 - '[[tool-yitang-business-registration-check]]'
 - '[[tool-yitang-research-unit-model]]'

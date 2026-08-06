@@ -1,5 +1,4 @@
 ---
-
 id: case-personal-map-modeling
 title: 案例：一堂个人地图的完整建模过程（方法论视角）
 type: case
@@ -11,10 +10,7 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（做客流程/个人地图案例） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
@@ -52,7 +48,6 @@ diagnostic_signals:
   follow_up_question: 这张图有没有在 ≥100 人的目标用户场域讲过？听众能否在 30 秒内复述出核心结构？
 - 建模能力培训
 ---
-
 # 案例：一堂个人地图的完整建模过程
 
 > **Burn line**: 一张 10 万美金级别的地图，是从十几个模糊课题开始，经过全量整理、找规律、写废 5–10 版、逻辑洁癖、路演验证才磨出来的。

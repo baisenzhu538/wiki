@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-12大易浪费触点
 title: 一堂12大易浪费触点：SABC四级触点清单与小抄卡牌法
 type: tool
@@ -21,6 +22,10 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1182-L1504
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L3314-L3350
 - 00_inbox/Handle the business/conversion rate/_vlm_output/images/最佳转化率-12大👄易浪费触点_vlm.md
+discoverable_by:
+  - 一堂12大易浪费触点：SABC四级触点清单与小抄卡牌法
+  - 一堂12大易浪费触点
+  - SABC四级触点清单与小抄卡牌法
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

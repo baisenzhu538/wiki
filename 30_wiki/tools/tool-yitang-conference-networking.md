@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-conference-networking
 title: 行业会议/论坛情报：茶歇时的信息质量最高
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 论坛情报
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 行业会议/论坛情报：茶歇时的信息质量最高
+  - 行业会议/论坛情报
+  - 茶歇时的信息质量最高
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

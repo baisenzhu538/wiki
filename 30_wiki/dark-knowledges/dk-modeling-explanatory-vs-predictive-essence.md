@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-explanatory-vs-predictive-essence
 title: 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践
 type: dk
@@ -38,6 +39,10 @@ diagnostic_signals:
 - signal: src_unknown
   framework_lens: 生成式模型的解释力幻觉
   follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
+discoverable_by:
+  - 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践
+  - 解释性本质是高级鸡汤
+  - 真正值钱的本质必须能预测下一次实践
 related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'

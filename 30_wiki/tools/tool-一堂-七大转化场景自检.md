@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-七大转化场景自检
 title: 一堂七大转化场景自检：流量 / 一对多 / 一对一 / 门店 / LTV / 运营节点 / 组织提升
 type: tool
@@ -23,6 +24,12 @@ aliases:
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L954-L970
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1172-L1176
+discoverable_by:
+  - 一堂七大转化场景自检：流量 / 一对多 / 一对一 / 门店
+  - 一堂七大转化场景自检
+  - 一对多
+  - 一对一
+  - 运营节点
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率提升六步法]]'

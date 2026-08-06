@@ -1,4 +1,5 @@
 ---
+
 id: dk-c1-cjk-regex-silent-fail
 title: C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败
 type: dk
@@ -17,6 +18,10 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
+discoverable_by:
+  - C-1：enrich 中文内容不能用 CLI regex→0
+  - 中文内容不能用
+  - 静默失败
 related:
 - '[[dk-f6-cjk-skeleton-corruption]]'
 - '[[yt-model-pan-product-climbing-map]]'

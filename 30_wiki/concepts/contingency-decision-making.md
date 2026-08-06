@@ -1,13 +1,8 @@
 ---
-
 id: contingency-decision-making
 title: 偶然性与决策：承认'我不知道'比虚假确定性更明智
 type: concept
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 aliases:
   - 偶然性与决策
@@ -60,7 +55,6 @@ tags:
 - skill-level:intermediate
 - 大的事件它可能是必然的它是被计划的
 ---
-
 # 偶然性与决策：承认"我不知道"比虚假确定性更明智
 
 > Source: src_20260606_cde17edd (水水-拆书会《偶然》-口述)

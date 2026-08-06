@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-pitfall-travel-agent
 title: 踩坑：旅行攻略Agent——隐性需求忽略。只做功能不碰情感
 type: dk
@@ -19,6 +20,10 @@ aliases:
   - 需求忽略
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
+discoverable_by:
+  - 踩坑：旅行攻略Agent——隐性需求忽略。只做功能不碰情感
+  - 旅行攻略Agent
+  - 隐性需求忽略。只做功能不碰情感
 related:
 - '[[dk-demand-hidden-need]]'
 - '[[yt-demand-fake-demand-detection]]'

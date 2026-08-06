@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb8-file-naming-eight-elements
 title: AI增效前置：文件命名八要素体系
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - AI增效前置：文件命名八要素体系
+  - AI增效前置
+  - 文件命名八要素体系
 related:
 - '[[tool-月白-课程资料文件命名规范]]'
 - '[[tool-月白-文件命名与图层命名规范]]'

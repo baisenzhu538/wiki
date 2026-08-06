@@ -1,4 +1,5 @@
 ---
+
 id: tool-yihang-dual-triangle-xray-deconstruct
 title: X光拆解：双三角案例逆向工程——从"用了什么工具"到"背后的双三角怎么支撑"
 type: tool
@@ -22,6 +23,11 @@ aliases:
   - 角案例逆向工程
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+discoverable_by:
+  - X光拆解：双三角案例逆向工程——从用了什么工具到背后的双三角
+  - X光拆解
+  - 双三角案例逆向工程
+  - 从用了什么工具到背后的双三角怎么支撑
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-yihang-dual-triangle-ai-review]]'

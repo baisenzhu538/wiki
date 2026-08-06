@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb7-design-demand-80-10-10
 title: 中国设计需求的80-10-10分层法则
 type: dk
@@ -21,6 +22,10 @@ source_refs:
 - src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - 中国设计需求的80-10-10分层法则
+  - 中国设计需求的80
+  - 10分层法则
 related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'

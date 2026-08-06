@@ -1,6 +1,10 @@
 ---
+
 id: tool-使用一页纸速查卡快速调用框架
 title: "tool 使用一页纸速查卡快速调用框架"
+discoverable_by:
+  - tool 使用一页纸速查卡快速调用框架
+  - 使用一页纸速查卡快速调用框架
 related:
 aliases:
   - audience:general

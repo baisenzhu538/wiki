@@ -1,4 +1,5 @@
 ---
+
 id: dk-five-step-framework-legitimizes-bias
 title: 暗知识：框架不会自动降噪，反而可能「合法化」偏见——用了五步法不代表科学分析
 type: dk
@@ -21,6 +22,10 @@ source_refs:
 - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
 confidence: 0.88
 trust_level: medium
+discoverable_by:
+  - 暗知识
+  - 框架不会自动降噪，反而可能合法化偏见
+  - 用了五步法不代表科学分析
 related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'

@@ -1,12 +1,7 @@
 ---
-
 title: Y模型/科学决策
 type: concept
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 pipeline:
 - src_unknown
@@ -42,7 +37,6 @@ tags:
 - skill-level:intermediate
 - 策略集
 ---
-
 # Y模型/科学决策
 
 > 来源：一堂管理必修课「管业务」模块，共4节系列课（审美篇/宽度篇/深度篇/高度篇）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

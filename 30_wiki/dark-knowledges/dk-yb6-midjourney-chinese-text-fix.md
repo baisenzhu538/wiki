@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb6-midjourney-chinese-text-fix
 title: Midjourney中文文字修复极简提示词
 type: dk
@@ -16,6 +17,8 @@ source_refs:
 - src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - Midjourney中文文字修复极简提示词
 related:
 - '[[tool-Truman-提示词优化底层方法]]'
 - '[[tool-月白-精准改图提示词写法]]'

@@ -1,13 +1,11 @@
 ---
-
 id: yt-tool-peas-agent-analysis
 component_of:
 - src_unknown
 confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 language: zh-CN
 prerequisites:
 - src_unknown
@@ -73,7 +71,6 @@ tags:
 - scene:execution
 - skill-level:intermediate
 ---
-
 # PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统
 
 > 来源：Russell & Norvig《Artificial Intelligence: A Modern Approach》第 4 版第 2 章。本卡将 PEAS 四元组 + 5 层 Agent 架构打包为一张可独立使用的自我诊断工具卡。

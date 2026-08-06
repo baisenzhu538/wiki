@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-fake-product
 title: 假产品：用前端仿真验证需求
 type: tool
@@ -22,6 +23,10 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212131_vlm_desc.md
 - 00_inbox/精益创业/一堂DOC-20260622212140_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212140_vlm_desc.md
+discoverable_by:
+  - 假产品：用前端仿真验证需求
+  - 假产品
+  - 用前端仿真验证需求
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'

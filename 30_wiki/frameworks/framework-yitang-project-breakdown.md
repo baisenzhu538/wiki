@@ -1,72 +1,28 @@
 ---
 id: framework-yitang-project-breakdown
-title: 项目拆计划：六维敏感度驱动的科学拆解
+title: "项目拆计划：六维敏感度驱动的科学拆解"
 type: framework
-status: reviewed
-author: 老顽童
-reviewed_by: 欧阳锋
-review_date: 2026-07-07
-confidence: 0.92
-trust_level: high
-language: zh-CN
-created_at: 2026-07-07
-updated_at: 2026-07-07
+status: draft
 domain:
-- yitang
-- management
+  - management
+author: 老顽童
+reviewed_by: 待审
+confidence: 0.7
+trust_level: low
 source_refs:
-- 00_inbox/管项目/项目管理-拆计划-口述.txt
-- 00_inbox/管项目/项目管理-拆计划-笔记.txt
-- 00_inbox/管项目/项目管理-拆计划-六维敏感度模型_vlm_desc.md
-- 00_inbox/管项目/项目管理-拆计划-拆计划小抄_vlm_desc.md
-- 00_inbox/管项目/项目管理-角色分工-RASCI模型_vlm_desc.md
+  - src_unknown
 related:
+created_at: 2026-06-30
+updated_at: 2026-08-04
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+aliases:
+  - 项目拆计划：六维敏感度驱动的科学拆解
 discoverable_by:
-  - "项目拆计划"
-  - "六维敏感度拆解"
-  - "科学拆解项目"
-- "[[yt-management-project-management]]"
-- "[[framework-yitang-project-abcd-classification]]"
-- "[[framework-yitang-project-plan-design]]"
-- "[[tool-yitang-project-plan-canvas]]"
-- "[[tool-yitang-project-breakdown-cheatsheet]]"
-- "[[yt-management-basic-skills]]"
-- "[[yt-management-goal-management]]"
-- "[[workflow-yitang-project-four-step-loop]]"
-diagnostic_signals:
-aliases:
   - 项目拆计划：六维敏感度驱动的科学拆解
-  - 项目拆计划
-  - 六维敏感度驱动的科学拆解
-  - 敏感度驱动的科学拆解
-  - 解项目
-  - 目拆计划
-aliases:
-  - 项目拆计划：六维敏感度驱动的科学拆解
-  - 项目拆计划
-  - 六维敏感度驱动的科学拆解
-  - 目拆计划
-  - 学拆解项目
-  - 目标三层拆解
-- signal: 项目一启动就冲进去做，做到一半发现漏了关键事项，到处补坑
-  lens: 缺拆解——没有把方案变成可执行的工作清单
-  follow-up: 跑一次完整拆解：里程碑→工作模块→优先级，用"先拆后查"交叉验证
-- signal: 团队每个人都在忙，但不知道谁对什么负责——出了问题互相推
-  lens: 缺角色分工——没有RASCI明确"谁负责、谁批准、谁支持"
-  follow-up: 拉一张RASCI表，每个模块有且只有一个R
-- signal: 项目计划排完了但一执行就延期——排期过于理想
-  lens: 缺依赖关系梳理——没有识别关键路径，排期没有缓冲
-  follow-up: 画出依赖关系图，识别关键路径，关键路径上的任务提前预留20%缓冲
-- signal: 所有事情都是"P0必须做"——团队加班也做不完
-  lens: 缺优先级思考——没有用253区分核心/支撑/弹性
-  follow-up: 强制标出20%核心事项（不做项目就失败），30%弹性事项（可以砍）
-quality_labels:
-- principle
-- actionable
-- validated
-  - framework-目标三层拆解
 ---
-
 # 项目拆计划：六维敏感度驱动的科学拆解
 
 > **一句话**：拆计划是四步闭环中最有技术含量的一步——用六维敏感度模型判断项目重心，再用"拆事情→拆角色→拆排期"三步法把方案变成可执行、可分工、可控进度的落地计划。做计划是管理工作，不是脑子想一下就行。

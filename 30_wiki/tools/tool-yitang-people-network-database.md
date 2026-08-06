@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-people-network-database
 title: 人脉库检索：系统化搜索目标公司的员工
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 系统化搜索目标公司的员工
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 人脉库检索：系统化搜索目标公司的员工
+  - 人脉库检索
+  - 系统化搜索目标公司的员工
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

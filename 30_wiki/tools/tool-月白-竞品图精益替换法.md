@@ -3,7 +3,7 @@ id: tool-月白-竞品图精益替换法
 title: 技能：竞品图精益替换法
 type: tool
 status: draft
-domain: design- design
+domain: design
 source_person: 月白
 source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 aliases:
@@ -27,6 +27,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.6
 trust_level: low
+discoverable_by:
+  - 技能：竞品图精益替换法
+  - 竞品图精益替换法
 related:
 tags:
 ---

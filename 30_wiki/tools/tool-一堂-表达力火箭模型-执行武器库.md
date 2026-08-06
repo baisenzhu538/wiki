@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-表达力火箭模型-执行武器库
 title: 表达力火箭模型·执行武器库：四要素操作指南
 type: tool
@@ -21,6 +22,11 @@ aliases:
   - 表达力火箭模型执行武器库：四要素操作指南
 source_refs:
 - 00_inbox/一堂-个人修炼-表达力火箭模型-执行武器库_paddle_ocr.txt
+discoverable_by:
+  - 表达力火箭模型·执行武器库：四要素操作指南
+  - 表达力火箭模型
+  - 执行武器库
+  - 四要素操作指南
 related:
 - '[[framework-一堂-表达力火箭模型]]'
 - '[[framework-一堂-个人表达力]]'

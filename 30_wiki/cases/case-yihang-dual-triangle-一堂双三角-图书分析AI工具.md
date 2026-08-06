@@ -1,24 +1,29 @@
 ---
 id: case-yihang-dual-triangle-一堂双三角-图书分析AI工具
-title: 双三角案例：刘凯图书分析 AI 工具——RAG+审美驱动畅销书分�?type: case
-status: enriched
-author: 洪七公（VLM提取�? 老顽童（enrich�?reviewed_by: ŷ����
-review_date: 2026-07-04
-confidence: 0.75
-trust_level: medium
-language: zh-CN
-created_at: 2026-07-04
-updated_at: 2026-07-04
+title: "双三角案例：刘凯图书分析 AI 工具——RAG+审美驱动畅销书分析"
+type: case
+status: draft
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - panproduct
+author: 洪七公（VLM提取） 老顽童（enrich）
+reviewed_by: 待审
+confidence: 0.7
+trust_level: low
 source_refs:
-- 00_inbox/人机协作双三�?_processed/一堂双三角-图书分析AI工具_vlm.md
+  - src_unknown
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[case-yihang-dual-triangle-ahao-product-selection]]"
+created_at: 2026-06-30
+updated_at: 2026-08-04
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+aliases:
+  - 双三角案例：刘凯图书分析 AI 工具——RAG+审美驱动畅销书分析
+discoverable_by:
+  - 双三角案例：刘凯图书分析 AI 工具——RAG+审美驱动畅销书分析
 ---
-
 # 双三角案例：刘凯图书分析 AI 工具——RAG+审美驱动畅销书分�?
 > **一句话定义**：刘凯用双三角框架搭建图书分�?AI 工具——人类侧以资深图书编辑审�?+ 品牌图书价值观为判断底座，AI 侧用 RAG 知识�?+ 基础提示词分析畅销书。展示了"行业专家审美 × AI 数据处理能力"的标准协作模式�?
 ---

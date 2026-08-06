@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-channel-partnership-design
 title: 区域代理/底价合伙人模式设计工具
 type: tool
@@ -25,6 +26,8 @@ source_refs:
 - 10_raw/sources/src_20260614_22f103f0-战略培训-实战案例分析.md
 - 10_raw/itingnao/details/3979746.json
 source_person: 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）
+discoverable_by:
+  - 区域代理/底价合伙人模式设计工具
 related:
 - '[[framework-yitang-channel-partnership-map]]'
 - '[[case-yitang-goat-milk-channel-partnership]]'

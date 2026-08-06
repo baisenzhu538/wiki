@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-four-moves
 title: 战略四招法：小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移
 type: tool
@@ -20,6 +21,10 @@ aliases:
 source_refs:
 - pending_archive:src_unknown
 updated_at: '2026-06-30T16:07:51+00:00'
+discoverable_by:
+  - 战略四招法：小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移
+  - 战略四招法
+  - 小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移
 tags:
 - audience:executor
 - scene:execution

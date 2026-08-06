@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-product-kernel-add-subtract
 title: 技能：产品内核加减法
 type: tool
@@ -10,6 +11,9 @@ language: zh-CN
 domain: yitang
 confidence: 0.75
 trust_level: medium
+discoverable_by:
+  - 技能：产品内核加减法
+  - 产品内核加减法
 related:
   - "[[concept-一堂-product-kernel]]"
   - "[[tool-一堂-product-kernel-canvas]]"

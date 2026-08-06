@@ -10,8 +10,7 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260619_d11dc3a2_30_wiki_concepts_yt_management_scientific_meetings.md
 status: reviewed
-domain:
-- src_unknown
+domain: src-unknown
 language: zh-CN
 version: 1
 difficulty: foundational
@@ -19,6 +18,10 @@ confidence: 0.85
 prerequisites: null
 component_of:
 - src_unknown
+discoverable_by:
+  - 会议设计师：一页纸会议蓝图
+  - 会议设计师
+  - 一页纸会议蓝图
 related:
 - '[[yt-management-scientific-meetings]]'
 - '[[yt-decision-y-model]]'

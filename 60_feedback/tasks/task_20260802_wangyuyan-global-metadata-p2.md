@@ -7,7 +7,7 @@ created_at: 2026-08-02
 domain: kdo
 priority: P2
 source: 王语嫣全局元数据扫描（2026-08-02）
-updated_at: '2026-08-03T18:39:53.972796+00:00'
+updated_at: '2026-08-03T20:00:25.598445+00:00'
 ---
 
 # #224 全局元数据回填P2：长程渐进（长程任务）
@@ -31,15 +31,16 @@ updated_at: '2026-08-03T18:39:53.972796+00:00'
 - 优先顺序：concepts → cases → tools → dark-knowledges → 其余
 - 每批：dry-run预览 + 声明范围 + 非空不覆盖
 
-## 📋 分批规则（2026-08-04 王语嫣明确）
+## 📋 分批规则（2026-08-04 王语嫣明确；2026-08-04 欧阳锋升级为 100 张/批 + 熔断）
 
-**每批 50 张**（hermes首批50张已执行，保持一致）：
-- **批次定义**：每批 ≤50 张卡（按目录内顺序取）
-- **批次流程**：取50张 → dry-run预览 → 写入 → yaml.safe_load验证 → 更新任务单进度 → 提报pending_review
+**每批 100 张**（2026-08-04 用户确认升级——前 17 批零破坏，纪律已验证）：
+- **批次定义**：每批 ≤100 张卡（按目录内顺序取）
+- **批次流程**：取100张 → dry-run预览 → 写入 → yaml.safe_load验证 → 更新任务单进度 → 提报pending_review
 - **每批独立提报**：欧阳锋审查通过后，下一批才开始（不积压多批）
-- **进度记录**：任务单维护"已批次数/剩余量"（当前：第1批 concepts 44/498 ✅ → 剩余~2150张disc + ~80 title + ~130 tags）
-- **为什么50张**：①防#222事故重演（上次就是批量过大无控制）②小批可审快③随时可中断
-- 特殊情况（单目录>50张）：分批处理，同一目录可跨多批
+- **进度记录**：任务单维护"已批次数/剩余量"（当前：concepts 477 + cases 430 + tools 149 = 1056/2229，47%）
+- **升级理由**：#222事故本质是"追加块模式+并行重叠"非批次大小；17批零破坏证明纪律（dry-run+结构自检）是防破坏关键；批次数减半提速
+- **🛑 熔断条件**：某批出现 >0 破坏（YAML失败/双键）→ 立即降回 50 张/批，连续 2 批零破坏后才恢复 100
+- 特殊情况（单目录>100张）：分批处理，同一目录可跨多批
 
 ### 🆕 后续批次计划（2026-08-04 王语嫣补充——欧阳锋修正定性：18张英文title卡优先）
 
@@ -68,10 +69,10 @@ updated_at: '2026-08-03T18:39:53.972796+00:00'
 
 ## 🆕 并行冲突防呆（2026-08-04 王语嫣补充——#229同批执行）
 
-**⚠️ 与#229（17张frontmatter重建，黄药师）存在cases/目录重叠**——case-yihang×10 + case-truman-aesthetic在cases/，当前YAML失败（10/10）。
+**⚠️ 与#229（17张frontmatter重建，黄药师——王语嫣2026-08-04全库实测确认17张）存在cases/目录重叠**——case-yihang×10 + case-truman-aesthetic在cases/，当前YAML失败（10/10）。#229完整清单（实测17张）：case-yihang×10 + case-truman-aesthetic + framework-strategy-brm + framework-yitang-project-abcd + framework-yitang-project-breakdown + tool-clinic + tool-smart + tool-Truman-Feature。**注：dk-yi-tang已由hermes修复（不在清单）、plan_20260531_data-curator已处理（不在清单）**。
 
 **hermes执行#224时必须**：
-1. **跳过YAML解析失败的卡**（17张：#229清单）——只处理YAML健康的卡
+1. **跳过YAML解析失败的卡**（19张：#229清单）——只处理YAML健康的卡
 2. 判断方法：`yaml.safe_load(frontmatter)` 失败 → 跳过并记录，不写入
 3. **禁止**对YAML失败卡做任何写入（discoverable_by/title/tags）——那是#229的重建范围
 4. 若#224处理到#229清单内的卡：跳过，在任务单记录"已跳过（#229重建中）"
@@ -173,3 +174,203 @@ methodology v2.1；verdict pass（cases 阶段）；blocking [🔴0, 🟡0]；re
 ### 审查可追溯性
 
 methodology v2.1；verdict pass（tools 第一批）；blocking [🔴0, 🟡0]；residual_risks [无新增]
+
+---
+
+## ✅ 欧阳锋 tools 第二批审查记录（2026-08-04）—— **verdict: PASS**
+
+> hermes 提交 tools 第二批（50 张）。O3 独立验证。
+
+### O3 验证结果
+
+| 验证项 | 结果 |
+|:--|:--|
+| **结构健康** | ✅ 双 aliases 0；YAML 失败 3（#229 预制不变）——零新增破坏 |
+| disc 覆盖 | ✅ **13.0%**（缺 disc 853，从 7.9% 新增 ~50 张）——第二批完成 |
+| 剩余 | tools 剩 ~885 张（约 18 批）|
+
+### 结论
+
+- **tools 第二批 PASS**——hermes 继续第三批（50 张/批独立提报）
+
+### 审查可追溯性
+
+methodology v2.1；verdict pass（tools 第二批）；blocking [🔴0, 🟡0]；residual_risks [无新增]
+
+---
+
+## ✅ 欧阳锋 tools 第三批审查记录（2026-08-04）—— **verdict: PASS**
+
+> hermes 提交 tools 第三批（100-149，49 张，数据已落盘）。O3 独立验证。
+
+### O3 验证结果
+
+| 验证项 | 结果 |
+|:--|:--|
+| **结构健康** | ✅ 双 aliases 0；YAML 失败 3（#229 预制不变）——零新增破坏 |
+| disc 覆盖 | ✅ **18.0%**（13.0% → 18.0%，新增 ~50 张）——第三批完成 |
+| 剩余 | tools 剩 ~836 张（约 17 批）|
+
+### 结论
+
+- **tools 第三批 PASS**——已释放队列回 `claimed-hermes`，hermes 继续第四批
+- 流程提示：hermes 提报后如队列被标 `pending_review` 无法继续领取，由欧阳锋释放回 claimed-hermes（已执行）
+
+### 审查可追溯性
+
+methodology v2.1；verdict pass（tools 第三批）；blocking [🔴0, 🟡0]；residual_risks [无新增]
+
+---
+
+## 🛑 欧阳锋熔断记录（2026-08-04，dark-knowledges 批）—— **verdict: 条件 PASS + 熔断**
+
+> dark-knowledges 两批 194 张：193 张 disc 正常（覆盖 78.3%），但 **2 张 YAML 破坏**——熔断条件触发。
+
+### 破坏详情（O3 核查）
+
+| 卡 | 破坏模式 | git 7/27 原版 |
+|:--|:--|:--|
+| dk-ai-entrepreneur-technical-blindspot | 列表项悬空（`- 三维排列组合` 等悬在 ds 块后）| ✅ 健康——**本次引入** |
+| dk-modeling-essence-predictive | aliases 列表未闭合就接 `related:` | ✅ 健康——**本次引入** |
+
+> 修改时间 08-04 03:35（本次批次），git 原版健康——**hermes 写入引入，非历史遗留**。
+
+### 熔断处置（按规则执行）
+
+1. **降回 50 张/批**（连续 2 批零破坏后恢复 100）
+2. **2 张卡修复**（hermes）：把悬空列表项合并回正确块（ds/aliases），`yaml.safe_load` 通过后验证
+3. 其余 193 张 PASS（覆盖 78.3%）——不因 2 张否决整批，但熔断必须执行
+
+### 审查可追溯性
+
+methodology v2.1；verdict 条件 PASS + 熔断；blocking [🟡2：本次引入 YAML 破坏]；residual_risks [2 张待修复；批次降回 50]
+
+---
+
+## 🏁 欧阳锋终审记录（2026-08-04，#224 全量提报）—— **verdict: 条件 PASS（任务主体完成）+ 1 张新破坏待修**
+
+### O3 终验（5 目录 2223 张）
+
+| 目录 | 覆盖 | YAML 失败 | 说明 |
+|:--|:--|:--|:--|
+| concepts | 96.4% | 0 | 缺 18 英文 title 长尾（已知）|
+| cases | 99.5% | 11（#229 预制）| 缺 2 |
+| tools | 99.5% | 3（#229 预制）| 缺 5 |
+| dark-knowledges | 99.6% | **1（本次新引入）** | 缺 1 |
+| dk | **100.0%** | 0 | ✅ |
+| **合计** | **98.8%** | **15**（14 预制 + 1 新）| 缺 26 |
+
+### ⚠️ 同类破坏第 3 次——根因升级
+
+**`dk-yi-tang-wishful-thinking-kills-startups`**（修改 03:43，git 原版健康）：ds 块后直接接 `tags:`（块未闭合）——**与前 2 张完全同模式**。
+
+**结论：不是偶发，是 hermes 写入模板的系统性缺陷**——写入逻辑在 ds 块后追加字段时未正确闭合块。**必须修模板，不是修单卡**。熔断继续（50 张/批），且模板修复前不得恢复 100 张/批。
+
+### 处置
+
+1. **hermes 修复 1 张**（dk-yi-tang-wishful-thinking-kills-startups）+ **定位写入模板 bug**（ds 后追加字段 → 块悬空），修复模板后自测 3 张验证
+2. 熔断维持 50 张/批
+3. 剩余收尾：#229 **17 张重建**（黄药师，14张#223范围+3张#222范围）+ concepts 18 英文 title + 各目录零星缺 disc（26 张）——作为 #224 收尾清单
+
+### 审查可追溯性
+
+methodology v2.1；verdict 条件 PASS；blocking [🟡1：同类破坏第 3 次（模板缺陷）]；residual_risks [1 张待修；模板待修；26 张缺 disc 收尾]
+
+---
+
+## 🔍 王语嫣核查异议的独立复核（2026-08-04 欧阳锋 O3 重验）—— **原判断维持**
+
+> 王语嫣独立核查提出异议（"dk-yi-tang 7/27 就坏=历史遗留；模板缺陷证据不足"）。O3 严格重验（git show 字节级 + UTF-8 严格解码 + yaml.safe_load）——**异议不成立，原判断维持**。
+
+### 严格重验结果（3 张卡 git 16b64db39 原版）
+
+| 卡 | git show | 7/27 原版 |
+|:--|:--|:--|
+| dk-yi-tang-wishful-thinking-kills-startups | 6587 字节 | ✅ **可解析（健康）** |
+| dk-ai-entrepreneur-technical-blindspot | 7639 字节 | ✅ 可解析（健康）|
+| dk-modeling-essence-predictive | 9792 字节 | ✅ 可解析（健康）|
+
+### 决定性证据链（谁引入破坏）
+
+1. **#223 审查（08-04 早）**：O3 验证 dark-knowledges **255 张 YAML 失败 0**——此时 3 张卡全健康
+2. **#224 dark-knowledges 批（08-04 03:35-03:43）后**：2 张失败 → hermes 修复 2 张 → 最后一批又 1 张失败
+3. 结论：**破坏是 hermes #224 批引入**（#223 审查时 0 失败 → #224 批后失败），**非历史遗留**
+
+### 对王语嫣异议的逐条回应
+
+| 异议 | 复核结论 |
+|:--|:--|
+| "dk-yi-tang 7/27 就坏" | ❌ 严格重验 7/27 原版可解析——异议方法可能有误（git 路径/提交/解码差异）|
+| "模板缺陷证据不足" | ❌ 证据链完整：#223 时 0 失败 → hermes 批后失败，同类模式第 3 次 |
+| "真实破坏仅 1 张（历史遗留）" | ❌ 3 张均本次引入（其中 2 张 hermes 已修复，1 张待修）|
+
+### 处置维持
+
+1. **熔断维持 50 张/批**（模板修复前不恢复 100）
+2. **hermes 修 1 张**（dk-yi-tang）+ **定位写入模板 bug**（ds 块后追加字段 → 块未闭合）
+3. 感谢王语嫣核查——独立验证精神正确，本次异议方法有误；双方都应以"严格 git 字节验证 + 时间线证据链"为准
+
+### 审查可追溯性
+
+methodology v2.1；verdict 维持条件 PASS；blocking [🟡1：模板缺陷第 3 次]；residual_risks [1 张待修；模板待修]
+
+---
+
+## 🏁 欧阳锋最终验收（2026-08-04，#224 收尾终态）—— **verdict: PASS（主任务完成）**
+
+### O3 终验（与 hermes 报告一致）
+
+| 目录 | 覆盖 | YAML 失败 | 备注 |
+|:--|:--|:--|:--|
+| concepts | 96.4% | 0 | 缺 18（英文 title 长尾）|
+| cases | 99.5% | 11（#229 预制）| 缺 2 |
+| tools | 99.5% | 3（#229 预制）| 缺 5 |
+| dark-knowledges | 99.6% | **0（修复批后清零）** | 缺 1 |
+| dk | **100.0%** | 0 | ✅ |
+| **合计 2223** | **98.8%** | **14（全部 #229 预制）** | 缺 26 |
+
+### 验收结论
+
+- ✅ **#224 主任务 PASS**：5 目录 discoverable_by 回填完成（98.8%），hermes 零新增破坏（修复批后 dark-knowledges 清零）
+- ✅ 熔断闭环：触发（3 张破坏）→ 修复（3 张全修）+ 模板定位 → dark-knowledges 255 张 0 失败
+- ✅ dk 100% 完成
+
+### 收尾清单（独立跟踪）
+
+| 项 | 归属 | 状态 |
+|:--|:--|:--|
+| **#229 17 张 frontmatter 重建**（O3 全库实测 2026-08-04：cases 11[case-yihang×10+case-truman] + frameworks 3[strategy-brm/abcd/breakdown] + tools 3[Truman-Feature/clinic/smart]；dk-yi-tang 已由 hermes 修复✅、plan_20260531 已归档✅）| 黄药师 | 等 #224 完成后解禁 |
+| concepts 18 张英文 title（中文化 + disc）| hermes/后续 | 长尾 |
+| 零星缺 disc 26 张（cases 2 + tools 5 + dark-knowledges 1 + concepts 18）| hermes/后续 | 长尾 |
+
+### 审查可追溯性
+
+methodology v2.1；verdict pass（主任务完成）；blocking [🔴0, 🟡0]；residual_risks [收尾 3 项独立跟踪]
+
+---
+
+## 🔍 王语嫣核查修正记录（2026-08-04）——撤回异议，欧阳锋判断成立
+
+> **王语嫣对欧阳锋"模板缺陷"判断的异议已被O3严格重验推翻，正式撤回。**
+
+**欧阳锋O3严格重验（字节级 + UTF-8严格解码 + yaml.safe_load）**：
+
+| 卡 | 7/27原版（严格验证） | 结论 |
+|:--|:--|:--|
+| dk-yi-tang-wishful-thinking-kills-startups | ✅ **可解析（6587字节）** | hermes #224批引入 |
+| dk-ai-entrepreneur-technical-blindspot | ✅ 可解析（7639字节） | hermes #224批引入 |
+| dk-modeling-essence-predictive | ✅ 可解析（9792字节） | hermes #224批引入 |
+
+**决定性时间线证据**：
+```
+#223审查（08-04早）：dark-knowledges 255张 YAML失败0 ← 3张当时全健康
+→ #224 dark-knowledges批（03:35-03:43）写入后：出现失败
+→ 破坏是hermes #224批引入——非历史遗留
+```
+
+**王语嫣错误根因**：初判用了`errors='replace'`宽容解码+frontmatter边界误匹配——把当前文件的损坏读成"7/27即坏"。**教训（已记停车场 O-11）**：跨实例事实分歧=双方各自跑严格git字节验证，以字节证据为准。协议详见 `60_feedback/tasks/O11-cross-instance-dispute-protocol.md`。
+
+**修正结论（撤回后）**：
+1. ✅ 欧阳锋判断成立——3张均hermes引入，模板缺陷属实（同类第3次）
+2. dk-yi-tang **不归#229**（#229清单已撤回18→17张），归hermes修复
+3. 熔断维持50张/批 + hermes修1张+定位模板bug

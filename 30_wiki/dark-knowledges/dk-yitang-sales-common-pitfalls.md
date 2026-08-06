@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-sales-common-pitfalls
 title: 一堂科学销售常见陷阱：六大反模式与修复动作
 type: dark-knowledge
@@ -36,6 +37,10 @@ aliases:
   - 科学销售常见陷阱
 source_refs:
 domain:
+discoverable_by:
+  - 一堂科学销售常见陷阱：六大反模式与修复动作
+  - 一堂科学销售常见陷阱
+  - 六大反模式与修复动作
 tags:
 trust_level: high
 reviewed_by: 欧阳锋

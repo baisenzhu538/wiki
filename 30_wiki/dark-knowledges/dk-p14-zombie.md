@@ -1,4 +1,5 @@
 ---
+
 id: dk-p14-zombie
 title: P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
 type: dk
@@ -18,6 +19,10 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
+discoverable_by:
+  - P-14：僵尸 claude 进程默默烧钱 — Obsidi
+  - 进程默默烧钱
+  - 死循环
 related:
 - '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
 - '[[dk-c7-auto-backup-conflict]]'

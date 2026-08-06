@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-ai-assisted-organize
 title: AI辅助整理：把访谈录音/会议记录结构化
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 谈录音
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - AI辅助整理：把访谈录音/会议记录结构化
+  - AI辅助整理
+  - 把访谈录音/会议记录结构化
 related:
 - '[[tool-yitang-ai-assisted-analysis]]'
 - '[[tool-yitang-research-normalize-summary]]'

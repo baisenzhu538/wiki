@@ -3,10 +3,10 @@ id: tool-多模型对比抽卡
 title: 技能：多模型对比抽卡
 type: tool
 domain:
-- learning-methodology- product
-- ai-saas
-- decision-making
-- yitang
+  - learning-methodology
+  - ai-saas
+  - decision-making
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
@@ -26,6 +26,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：多模型对比抽卡
+  - 多模型对比抽卡
 related:
 - '[[tool-主动摘要压缩上下文]]'
 - '[[tool-多轮确认防偏差]]'

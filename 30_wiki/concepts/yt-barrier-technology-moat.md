@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-technology-moat
 title: 技术护城河：专利与研发
 type: concept
@@ -49,7 +47,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 技术护城河：专利与研发
 
 > 一堂五步法：技术护城河不是技术领先，而是持续领先的能力。专利保护，研发迭代。

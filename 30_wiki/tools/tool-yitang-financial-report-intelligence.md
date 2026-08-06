@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-financial-report-intelligence
 title: 财报/招股书情报：用上市公司公开报告做创业预判
 type: tool
@@ -35,6 +36,10 @@ aliases:
 source_refs:
 - 00_inbox/调研专题/一堂-上市公司报告解读-口述.txt
 - 00_inbox/调研专题/一堂-上市公司报告解读-笔记.txt
+discoverable_by:
+  - 财报/招股书情报：用上市公司公开报告做创业预判
+  - 财报/招股书情报
+  - 用上市公司公开报告做创业预判
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

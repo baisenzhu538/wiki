@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-demand-qualitative-analysis
 title: 需求定性分析框架：拆推评算四步法
 type: framework
@@ -49,7 +47,6 @@ tags:
 - 一堂五步法
 - 分析段位图
 ---
-
 # 需求定性分析框架：拆推评算四步法
 
 > 一堂五步法需求分析的核心工具：先定性（拆推评），再定量（算）。顺序不能颠倒。

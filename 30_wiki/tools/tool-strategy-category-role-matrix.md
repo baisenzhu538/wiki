@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-category-role-matrix
 title: 零售品类角色矩阵
 type: tool
@@ -18,6 +19,8 @@ created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 零售品类角色矩阵
 related:
 - '[[strategy-domain-digest]]'
 - '[[pending_unknown]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-competitor-financial-analysis
 title: 竞对财税分析：从社保/纳税/财报反推真实规模
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 财税分析
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 竞对财税分析：从社保/纳税/财报反推真实规模
+  - 竞对财税分析
+  - 从社保/纳税/财报反推真实规模
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

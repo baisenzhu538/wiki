@@ -1,4 +1,5 @@
 ---
+
 id: dk-wanghuan-creativity-in-description-and-taste
 title: 王欢暗知识：创造力重新分配到问题描述与验收审美
 type: dk
@@ -8,6 +9,10 @@ domain:
 - human-ai-collaboration
 - ai-collaboration
 - yitang
+discoverable_by:
+  - 王欢暗知识：创造力重新分配到问题描述与验收审美
+  - 王欢暗知识
+  - 创造力重新分配到问题描述与验收审美
 quality_labels:
 - cited
 - quality

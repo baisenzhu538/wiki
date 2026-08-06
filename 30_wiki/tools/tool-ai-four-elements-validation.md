@@ -3,9 +3,7 @@ id: tool-ai-four-elements-validation
 title: 技能：真需求验证法
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 aliases:
@@ -19,6 +17,9 @@ source_refs:
 wiki_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：真需求验证法
+  - 真需求验证法
 related:
 - '[[tool-纪浩-真需求四要素验证法]]'
 - '[[tool-纪浩-Agent技能市场设计法]]'

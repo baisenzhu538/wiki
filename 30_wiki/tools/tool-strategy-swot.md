@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-swot
 title: SWOT 分析工具：从四象限到行动策略
 type: tool
@@ -18,6 +19,10 @@ created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
+discoverable_by:
+  - SWOT 分析工具：从四象限到行动策略
+  - 分析工具
+  - 从四象限到行动策略
 related:
 - '[[strategy-domain-digest]]'
 - '[[pending_unknown]]'

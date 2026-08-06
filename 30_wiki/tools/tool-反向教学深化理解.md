@@ -1,4 +1,5 @@
 ---
+
 id: tool-反向教学深化理解
 title: 技能：反向教学深化理解
 type: tool
@@ -29,6 +30,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：反向教学深化理解
+  - 反向教学深化理解
 related:
 - '[[tool-多轮确认防偏差]]'
 - '[[tool-主动摘要压缩上下文]]'

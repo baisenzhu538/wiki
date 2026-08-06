@@ -1,13 +1,11 @@
 ---
-
 id: yt-personal-pan-product-tools
 component_of:
 - src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3400
 language: zh-CN
 query_triggers:
@@ -66,7 +64,6 @@ tags:
 - 个人修炼
 - 泛产品设计工具篇
 ---
-
 # 泛产品设计工具篇：出牌教学法与30张卡牌
 
 > 来源：一堂泛产品设计框架篇口述（Truman）。[[yt-model-pan-product-36-strategies]] | [[yt-personal-pan-product-concepts]] | [[一堂]]

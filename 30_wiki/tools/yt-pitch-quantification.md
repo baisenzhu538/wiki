@@ -1,4 +1,5 @@
 ---
+
 id: yt-pitch-quantification
 title: 讲香·数字化
 type: tool
@@ -20,6 +21,9 @@ difficulty: intermediate
 confidence: 0.85
 prerequisites:
 component_of:
+discoverable_by:
+  - 讲香·数字化
+  - 数字化
 related:
 query_triggers:
 tags:

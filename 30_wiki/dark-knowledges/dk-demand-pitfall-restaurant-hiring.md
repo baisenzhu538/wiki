@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-pitfall-restaurant-hiring
 title: 踩坑：麦家小馆——频次高估。需求强烈≠高频
 type: dk
@@ -19,6 +20,10 @@ aliases:
   - 麦家小馆频次高估
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
+discoverable_by:
+  - 踩坑：麦家小馆——频次高估。需求强烈≠高频
+  - 麦家小馆
+  - 频次高估。需求强烈≠高频
 related:
 - '[[yt-demand-fake-demand-detection]]'
 - '[[dk-demand-misjudgment-rate]]'

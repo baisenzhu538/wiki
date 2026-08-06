@@ -1,5 +1,4 @@
 ---
-
 id: case-livestream-sop-modeling
 title: 案例：直播前热身 SOP 建模
 type: case
@@ -14,10 +13,7 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（流程建模部分）
 created_at: '2026-06-14'
@@ -58,7 +54,6 @@ tags:
 - 流程建模
 - 高阶建模
 ---
-
 # 案例：直播前热身 SOP 建模
 
 > **Burn line**: 直播状态不是运气，而是一套可以被 SOP 化的热身动作。

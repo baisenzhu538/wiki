@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-sales-toolkit-radar
 title: 一堂销售工具箱六维雷达图
 type: tool
@@ -21,6 +22,8 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
 - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-笔记.txt
 - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt
+discoverable_by:
+  - 一堂销售工具箱六维雷达图
 related:
 - '[[case-yitang-sales-transformation-jubensha-saas]]'
 - '[[dk-yitang-sales-common-pitfalls]]'

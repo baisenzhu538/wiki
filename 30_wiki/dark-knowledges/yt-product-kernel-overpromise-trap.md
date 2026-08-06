@@ -1,4 +1,5 @@
 ---
+
 domain:
 - product
 - yitang
@@ -24,6 +25,10 @@ updated_at: '2026-07-08'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-07-08'
+discoverable_by:
+  - 过度承诺陷阱：前端卖了后端做不出来的东西
+  - 过度承诺陷阱
+  - 前端卖了后端做不出来的东西
 related:
   - "[[concept-一堂-product-kernel]]"
   - "[[concept-一堂-kernel-validation]]"

@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb27-pseudo-layer-evasion
 title: 伪图层叠加规避平台图像识别
 type: dk
@@ -15,6 +16,8 @@ source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - 伪图层叠加规避平台图像识别
 related:
 - '[[dk-yb30-ecommerce-channel-version]]'
 - '[[dk-yb31-style-first-controlnet]]'

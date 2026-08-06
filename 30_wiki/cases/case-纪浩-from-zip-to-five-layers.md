@@ -1,12 +1,9 @@
 ---
-
 id: case-纪浩-from-zip-to-five-layers
 title: 纪浩：从微信传 zip 到五层协作体系
 type: case
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 aliases:
@@ -71,7 +68,6 @@ tags:
 - 协作方法论
 - 参考案例
 ---
-
 # 纪浩：从微信传 zip 到五层协作体系
 
 > 纪浩是一堂的后端工程师。从2026年1月到4月，他每天高强度使用AI协作，经历了从"新手盲目"到"有体系地驾驭AI"的完整过程。这个案例记录了他在这四个月中遇到的核心问题、解决方案的演化，以及最终形成的五层协作体系。

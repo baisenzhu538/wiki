@@ -1,4 +1,5 @@
 ---
+
 id: dk-decision-value-overrides-roi
 title: Y 模型失效场景：当价值观权重超过经济理性时，广义 ROI 公式不再适用
 type: dk
@@ -29,6 +30,11 @@ review_date: '2026-07-08'
 review_verdict: pass
 review_grade: B-
 review_notes: 补审（原reviewed_by黄药师，self-review违反L0铁律#4）。洞察有价值（Y模型在价值观驱动场景下失效），但source_refs和tags为src_unknown，需补真实引用。
+discoverable_by:
+  - Y 模型失效场景：当价值观权重超过经济理性时，广义 ROI
+  - 模型失效场景
+  - 当价值观权重超过经济理性时，广义
+  - 公式不再适用
 related:
 - '[[yt-decision-y-model]]'
 - '[[yt-decision-canvas]]'

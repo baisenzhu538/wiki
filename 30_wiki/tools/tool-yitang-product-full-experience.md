@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-product-full-experience
 title: 完整体验产品：从用户视角理解产品全貌
 type: tool
@@ -32,6 +33,10 @@ aliases:
   - 完整体验产品
   - 完整体验产品：从用户视角理解产品全貌
   - 户视角理解产品全貌
+discoverable_by:
+  - 完整体验产品：从用户视角理解产品全貌
+  - 完整体验产品
+  - 从用户视角理解产品全貌
 related:
 - '[[yitang-research-domain-digest]]'
 - '[[tool-yitang-research-competitive-quadrant]]'

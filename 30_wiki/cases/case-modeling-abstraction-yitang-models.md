@@ -1,13 +1,9 @@
 ---
-
 id: case-modeling-abstraction-yitang-models
 title: 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
 type: case
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 problem_domains:
 - src_unknown
 - src_unknown

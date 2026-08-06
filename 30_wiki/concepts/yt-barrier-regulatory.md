@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-regulatory
 title: 监管壁垒：牌照与合规
 type: concept
@@ -48,7 +46,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 监管壁垒：牌照与合规
 
 > 一堂五步法：监管壁垒是双刃剑。对新进入者是障碍，对在位者是保护。但需要持续合规，否则牌照变废纸。

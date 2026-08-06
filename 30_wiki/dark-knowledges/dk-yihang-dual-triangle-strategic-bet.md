@@ -1,4 +1,5 @@
 ---
+
 id: dk-yihang-dual-triangle-strategic-bet
 title: 双三角作为一堂未来5年战略操作系统——笃定、迭代速度、知行合一
 type: dk
@@ -22,6 +23,10 @@ aliases:
   - 迭代速度
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+discoverable_by:
+  - 双三角作为一堂未来5年战略操作系统——笃定、迭代速度、知行合
+  - 双三角作为一堂未来5年战略操作系统
+  - 笃定、迭代速度、知行合一
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[framework-yihang-AI-native-dual-triangle-kernel]]'

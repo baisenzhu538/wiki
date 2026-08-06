@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-misjudgment-rate
 title: 30-50%创业失败源于需求误判
 type: dk
@@ -19,6 +20,9 @@ aliases:
   - 创业失败源于需求误判
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
+discoverable_by:
+  - 30-50%创业失败源于需求误判
+  - 50%创业失败源于需求误判
 related:
 - '[[yt-demand-fake-demand-detection]]'
 - '[[dk-demand-premature-solution]]'

@@ -1,5 +1,4 @@
 ---
-
 id: case-zhangyang-anchor-sop-three-locks
 title: 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%
 type: case
@@ -13,10 +12,7 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（流程建模/SOP 执行案例）。单一来源，内容充分支撑 medium trust；待补充第二来源或交叉验证后可升至
   high。
@@ -63,7 +59,6 @@ tags:
 - skill-level:intermediate
 - 建模能力培训
 ---
-
 # 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%
 
 > **Burn line**: SOP 写出来不等于被执行，给 SOP 加两层“锁”，才能把执行率从 50–70% 提到接近 100%。

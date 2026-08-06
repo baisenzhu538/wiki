@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-cross-validation
 title: 交叉验证：多源印证的信息可信度提升
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - skill-level:intermediate
   - 交叉验证
   - 交叉验证：多源印证的信息可信度提升
+  - 多源印证的信息可信度提升
+discoverable_by:
+  - 交叉验证：多源印证的信息可信度提升
+  - 交叉验证
   - 多源印证的信息可信度提升
 related:
 tags:

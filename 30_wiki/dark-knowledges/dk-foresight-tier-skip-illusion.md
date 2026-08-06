@@ -1,4 +1,5 @@
 ---
+
 id: dk-foresight-tier-skip-illusion
 title: 暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快
 type: dk
@@ -19,6 +20,9 @@ source_refs:
 - 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
 - 10_raw/sources/src_20260610_b3e09bdf-一堂-机会预判-终局光谱图-truman-图01.md
 - 10_raw/sources/src_20260610_d9fca55f-一堂-机会预判-终局光谱图-truman-图02.md
+discoverable_by:
+  - 终局光谱图的'跳级幻觉'
+  - 为什么看到第7级就忽视了第3级的人，死得最快
 tags:
 - src_unknown
 - src_unknown

@@ -1,12 +1,9 @@
 ---
-
 id: yt-note-extensive-research-input
 title: 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 type: concept
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 language: zh-CN
 version: 1
 confidence: 0.84
@@ -57,7 +54,6 @@ tags:
 - skill-level:intermediate
 - 时代请单体笔记
 ---
-
 # 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心判断：**不要假设你听的那个信息源就是你的全部**。如果脑子够快，只需听30%，剩下的70%自己去找——翻自己的旧笔记、搜书评、反思管理得失、辩析相关观点、让AI帮你分析。这种笔记最终只有1/3来自讲师，2/3来自你自己。

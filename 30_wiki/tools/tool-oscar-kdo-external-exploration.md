@@ -1,4 +1,5 @@
 ---
+
 id: tool-oscar-kdo-external-exploration
 title: OSCAR-KDO 融合：一堂 OSCAR 在 KDO 外部探索中的具体落地
 type: tool
@@ -24,6 +25,9 @@ source_refs:
 - 00_inbox/OSCAR-KDO-外部探索融合方案.md
 - 30_wiki/frameworks/framework-yitang-oscar-research.md
 - method-kdo-external-exploration-sop
+discoverable_by:
+  - OSCAR-KDO 融合：一堂 OSCAR 在 KDO 外部
+  - 外部探索中的具体落地
 related:
 - '[[framework-yitang-oscar-research]]'
 - '[[method-kdo-external-exploration-sop]]'

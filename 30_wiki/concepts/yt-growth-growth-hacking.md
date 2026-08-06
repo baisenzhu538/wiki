@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-growth-hacking
 title: 增长黑客：低成本快速实验
 type: concept
@@ -48,7 +46,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 增长黑客：低成本快速实验
 
 > 一堂五步法：增长黑客不是找漏洞，而是系统性的低成本快速实验。核心：假设→实验→数据→迭代。

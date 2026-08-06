@@ -1,5 +1,4 @@
 ---
-
 id: concept-toyota-5-whys
 title: 5 Whys：追问到根本原因
 type: tool
@@ -13,9 +12,7 @@ source_refs:
 - src_unknown
 - src_unknown
 status: enriched
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 bridges_to:
 - relation: provides_foundation_for
   description: 5 Whys 是产品内核三问中'根因追问'精神的最轻量级工具
@@ -50,7 +47,6 @@ author: 老顽童
 confidence: 0.85
 trust_level: medium-high
 ---
-
 # 5 Whys：追问到根本原因
 
 > 来源：Ohno, T. (1988). *Toyota Production System: Beyond Large-Scale Production*; Senge, P. M. (1990). *The Fifth Discipline*

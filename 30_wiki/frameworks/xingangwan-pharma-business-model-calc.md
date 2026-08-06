@@ -3,11 +3,7 @@ id: xingangwan-pharma-business-model-calc
 title: 鑫港湾医药零售商业模型计算框架
 type: framework
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: unknown
@@ -52,7 +48,6 @@ discoverable_by:
 - 药店盈亏平衡
 - 医药创业模型
 ---
-
 # 鑫港湾医药零售商业模型计算框架
 
 > **用途**：为「小程序医药商城 + 实体药店 + 智慧药柜 + 诊所场地合作 + 互联网医院/HIS」模式提供一套可复用的**财务计算框架**。

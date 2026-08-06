@@ -1,13 +1,11 @@
 ---
-
 id: yt-tool-knowledge-extraction
 component_of:
 - src_unknown
 confidence: 0.85
 created_at: 2026-05-19
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3400
 language: zh-CN
 prerequisites:
@@ -74,7 +72,6 @@ tags:
 - 知识萃取探索营
 - 萃取总结
 ---
-
 # 团队知识萃取器
 
 > 来源：一堂《团队知识管理》课程工具化升级。本工具聚焦"萃取"这一核心动作——把散落在个人头脑中的经验转化为团队可复用的知识资产。与完整的知识管理体系不同，萃取器只回答三个问题：什么值得萃？怎么萃？萃得有没有用？

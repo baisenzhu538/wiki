@@ -1,4 +1,5 @@
 ---
+
 id: tool-审美工具箱
 title: 审美工具箱：产品审美的诊断和提升工具集合
 type: tool
@@ -17,6 +18,10 @@ aliases:
   - 审美工具箱
   - 审美工具箱：产品审美的诊断和提升工具集合
 source_refs:
+discoverable_by:
+  - 审美工具箱：产品审美的诊断和提升工具集合
+  - 审美工具箱
+  - 产品审美的诊断和提升工具集合
 related:
 updated_at: '2026-06-29'
 tags:

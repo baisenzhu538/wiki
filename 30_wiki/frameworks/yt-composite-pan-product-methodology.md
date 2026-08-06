@@ -4,10 +4,11 @@ type: framework
 title: 泛产品设计方法论（升级版）
 status: reviewed
 domain:
-- panproduct
-- product-design
-- organization
-- yitang
+  - panproduct
+  - product
+  - design
+  - organization
+  - yitang
 confidence: 0.84
 trust_level: medium-high
 author: 老顽童
@@ -56,8 +57,6 @@ discoverable_by:
 - 产品内核边界
 - 方法组合
 ---
-
-
 # 泛产品设计方法论（升级版）
 
 ## 一句话定义

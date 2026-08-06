@@ -13,10 +13,11 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
+discoverable_by:
+  - 画布/武器库建模法：把工具箱变成可快速调用的系统
+  - 画布/武器库建模法
+  - 把工具箱变成可快速调用的系统
 quality_labels:
 - actionable
 - cited
@@ -66,7 +67,6 @@ tags:
 - 建模能力培训
 - 抽象建模
 ---
-
 # 画布/武器库建模法：把工具箱变成可快速调用的系统
 
 > **Burn line**: 武器库不是工具的堆砌，而是“遇到什么情况，拿哪把刀”的快速匹配系统。

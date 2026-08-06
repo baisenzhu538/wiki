@@ -1,4 +1,5 @@
 ---
+
 id: tool-水水-利用叙事驱动决策
 title: 技能：利用叙事驱动决策
 type: tool
@@ -20,6 +21,9 @@ aliases:
 source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：利用叙事驱动决策
+  - 利用叙事驱动决策
 related:
 tags:
 ---

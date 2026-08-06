@@ -4,9 +4,9 @@ title: 技能：12种认知偏差完整自检
 type: tool
 status: draft
 domain:
-- decision-making
-- 认知
-- 心理学
+  - decision-making
+  - modeling
+  - 心理学
 source_person: 消化全库后提炼
 source_context: 基于master-cognitive-bias-checklist框架提炼，2026-05-18
 aliases:
@@ -29,6 +29,9 @@ tools_required:
 - src_unknown
 - src_unknown
 prerequisite_skills: null
+discoverable_by:
+  - 技能：12种认知偏差完整自检
+  - 12种认知偏差完整自检
 related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'

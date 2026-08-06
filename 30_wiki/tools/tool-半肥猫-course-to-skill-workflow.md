@@ -3,9 +3,7 @@ id: tool-半肥猫-course-to-skill-workflow
 title: 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
 aliases:
@@ -17,6 +15,10 @@ source_refs:
 - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
 created_at: '2026-06-08'
 updated_at: '2026-06-28'
+discoverable_by:
+  - 课程→Skill八步工作流：从结构化内容到可复用AI技能的完
+  - 课程→Skill八步工作流
+  - 从结构化内容到可复用AI技能的完整转化
 related:
 - '[[case-半肥猫-course-to-skill]]'
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
@@ -66,7 +68,6 @@ tags:
 - 俱乐部
 - 半肥猫
 ---
-
 # 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化
 
 ## 原始表述

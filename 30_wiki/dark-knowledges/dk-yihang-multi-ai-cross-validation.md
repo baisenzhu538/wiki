@@ -1,4 +1,5 @@
 ---
+
 id: dk-yihang-multi-ai-cross-validation
 title: 多 AI 交叉比对验证法——没有标准答案时用 AI 互校验
 type: dk
@@ -22,6 +23,11 @@ aliases:
   - 没有标准答案时用
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角partner的对话记录20260705.md
+discoverable_by:
+  - 多 AI 交叉比对验证法——没有标准答案时用 AI 互校验
+  - 交叉比对验证法
+  - 没有标准答案时用
+  - 互校验
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[dk-yitang-over-abstraction]]'

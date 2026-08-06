@@ -4,10 +4,10 @@ title: 鑫港湾医药零售商业模式计算框架与业务公式
 type: framework
 status: reviewed
 domain:
-- healthcare- healthcare
-- pharmaceutical-retail
-- business-strategy
-- finance
+  - healthcare
+  - pharmaceutical-retail
+  - business-strategy
+  - finance
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: unknown

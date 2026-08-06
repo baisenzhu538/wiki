@@ -2,7 +2,7 @@
 id: tool-按图索骥改良外部模板
 title: 技能：按图索骥改良外部模板
 type: tool
-domain: learning-methodology- product
+domain: learning-methodology
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
@@ -26,6 +26,9 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：按图索骥改良外部模板
+  - 按图索骥改良外部模板
 related:
 - '[[tool-用旗舰店替代纯招商投入]]'
 - '[[tool-快招品牌总部模拟调研]]'
@@ -41,7 +44,6 @@ tags:
 - 决策评估画布
 - 科学决策
 ---
-
 # 技能：按图索骥改良外部模板
 
 ## 原始表述

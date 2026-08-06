@@ -1,4 +1,5 @@
 ---
+
 id: tool-场景推演
 title: 场景推演：还原用户真实使用场景
 type: tool
@@ -18,6 +19,10 @@ aliases:
   - 场景推演：还原用户真实使用场景
   - 还原用户真实使用场景
 source_refs:
+discoverable_by:
+  - 场景推演：还原用户真实使用场景
+  - 场景推演
+  - 还原用户真实使用场景
 related:
 updated_at: '2026-06-29'
 tags:

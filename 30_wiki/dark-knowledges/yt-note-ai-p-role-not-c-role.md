@@ -1,4 +1,5 @@
 ---
+
 domain:
 - learning-methodology
 id: yt-note-ai-p-role-not-c-role
@@ -22,6 +23,10 @@ source_refs:
 - src_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-20'
+discoverable_by:
+  - AI Partner应是P角色实践者而非C角色顾问：防止AI
+  - Partner应是P角色实践者而非C角色顾问
+  - 防止AI越界替人思考
 related:
 - '[[yt-note-l4-internalization]]'
 - '[[dk-note-rookie-disaster-veteran-heaven]]'

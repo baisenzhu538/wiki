@@ -1,25 +1,29 @@
 ---
 id: case-yihang-dual-triangle-组织-酒店行业-AI标签审核案例
-title: 双三角案例：酒店 AI 标签审核——边缘切入与沙盒练兵
+title: "双三角案例：酒店 AI 标签审核——边缘切入与沙盒练兵"
 type: case
-status: enriched
-author: 洪七公（VLM提取�? 老顽童（enrich�?reviewed_by: ŷ����
-review_date: 2026-07-04
-confidence: 0.78
-trust_level: medium
-language: zh-CN
-created_at: 2026-07-04
-updated_at: 2026-07-04
+status: draft
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - panproduct
+author: 洪七公（VLM提取） 老顽童（enrich）
+reviewed_by: 待审
+confidence: 0.7
+trust_level: low
 source_refs:
-- 00_inbox/人机协作双三�?_processed/【组织】酒店行�?AI标签审核案例_vlm.md
+  - src_unknown
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[case-yihang-dual-triangle-hotel-tag-sandbox]]"
+created_at: 2026-06-30
+updated_at: 2026-08-04
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+aliases:
+  - 双三角案例：酒店 AI 标签审核——边缘切入与沙盒练兵
+discoverable_by:
+  - 双三角案例：酒店 AI 标签审核——边缘切入与沙盒练兵
 ---
-
 # 双三角案例：酒店 AI 标签审核——边缘切入与沙盒练兵
 
 > **一句话定义**：酒店行�?SaaS 头部公司面对资源极少、团队抵触的约束，从"客服话术"边缘场景切入，用"AI 当裁�?的沙盒机制练兵，逐步扩展 AI 功能，最终让 AI 接管超过一半的标签审核工作量�?

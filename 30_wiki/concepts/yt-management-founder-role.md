@@ -1,11 +1,7 @@
 ---
-
 title: 一号位
 type: concept
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 pipeline:
 - src_unknown
@@ -46,7 +42,6 @@ tags:
 - 原生初创公司
 - 官方发布创始人手册打造
 ---
-
 # 一号位
 
 > 来源：一堂管理必修课「管公司」模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-app-store-review
 title: 应用商店评论分析：功能请求+竞品对比的富矿
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 竞品对比的富矿
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 应用商店评论分析：功能请求+竞品对比的富矿
+  - 应用商店评论分析
+  - 功能请求+竞品对比的富矿
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

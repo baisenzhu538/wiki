@@ -1,4 +1,5 @@
 ---
+
 id: dk-利润-资本游戏与真实商业分界线
 title: 资本游戏 vs 真实商业：为什么你不能学亚马逊不赚钱
 type: dk
@@ -12,6 +13,11 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 资本游戏 vs 真实商业：为什么你不能学亚马逊不赚钱
+  - 资本游戏
+  - 真实商业
+  - 为什么你不能学亚马逊不赚钱
 quality_labels:
 - insight
 - principle

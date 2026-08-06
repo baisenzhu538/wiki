@@ -1,57 +1,28 @@
 ---
 id: tool-smart-medicine-cabinet-site-selection-guide
-title: 智能药柜选址深度指南：场景、指标与验证方法
+title: "智能药柜选址深度指南：场景、指标与验证方法"
 type: tool
-status: enriched
+status: draft
 domain:
-- healthcare
-- business-strategy
+  - healthcare
+author: 洪七公（VLM提取） 老顽童（enrich）
+reviewed_by: 待审
+confidence: 0.7
+trust_level: low
 source_refs:
-- pending_archive:src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
-- pending_archive:src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
-- pending_archive:src_20260613_fb0e6521-corr_20260613_smart-medicine-cabinet-iteration-9-tier-cities-and-special-scenes
-- pending_archive:src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
-- src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
-- src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
-- src_20260613_fb0e6521-corr_20260613_smart-medicine-cabinet-iteration-9-tier-cities-and-special-scenes
-- src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
-created_at: 2026-06-15
-updated_at: '2026-06-29'
-author: 王语嫣
-reviewed_by: 老顽童
-review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
-review_date: 2026-06-15
-confidence: 0.78
-trust_level: medium
+  - src_unknown
 related:
-  - '[[tool-smart-medicine-cabinet-compliance-checklist]]'
-  - - - concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet
-  - - - concept-smart-medicine-cabinet-consumer-acceptance
-  - - - smart-medicine-cabinet-clinic-risk-observation
-  - - - smart-medicine-cabinet-national-policy-redlines
-  - - - smart-medicine-cabinet-o2o-cost-structure
-  - smart-medicine-cabinet-financial-model
-  - tool-strategy-gap-analysis
-## 操作步骤
-
-
-1. 确认智能药柜选址深度指南：场景、指标与验证方的适用前提是否满足
-2. 梳理当前状况与目标的差距
-3. 选择对应的智能药柜选址深度指南：场景、指标与验证方分析维度
-4. 逐维度填写并标注数据来源
-5. 汇总形成行动建议
-
-## Purpose
-
-本工具解决以下问题：
-
-1. 为智能药柜/医药项目相关方提供结构化的检查框架。
-2. 在决策前识别关键风险点，避免被单方面宣传误导。
-3. 作为团队内部复核清单，确保关键证据已经交叉验证。
-4. 为后续尽职调查、合同谈判或政策申报提供起点。
-
+created_at: 2026-06-30
+updated_at: 2026-08-04
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+aliases:
+  - 智能药柜选址深度指南：场景、指标与验证方法
+discoverable_by:
+  - 智能药柜选址深度指南：场景、指标与验证方法
 ---
-
 ## Protocol/Procedure
 
 使用本工具的步骤：

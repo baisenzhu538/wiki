@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-culture-moat
 title: 文化护城河：难以复制
 type: concept
@@ -48,7 +46,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 文化护城河：难以复制
 
 > 一堂五步法：文化是最难复制的壁垒。文化不是口号，是行为模式。

@@ -1,4 +1,5 @@
 ---
+
 id: dk-wanghuan-standard-by-iteration
 title: 王欢暗知识：标准不清时，用AI对抗AI生成标准
 type: dk
@@ -8,6 +9,10 @@ domain:
 - human-ai-collaboration
 - ai-collaboration
 - yitang
+discoverable_by:
+  - 王欢暗知识：标准不清时，用AI对抗AI生成标准
+  - 王欢暗知识
+  - 标准不清时，用AI对抗AI生成标准
 quality_labels:
 - cited
 - quality

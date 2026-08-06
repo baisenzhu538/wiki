@@ -1,4 +1,5 @@
 ---
+
 id: dk-wanghuan-ai-lifts-personal-ceiling
 title: 王欢暗知识：AI 拉升个人上限
 type: dk
@@ -8,6 +9,10 @@ domain:
 - human-ai-collaboration
 - ai-collaboration
 - yitang
+discoverable_by:
+  - 王欢暗知识：AI 拉升个人上限
+  - 王欢暗知识
+  - 拉升个人上限
 quality_labels:
 - cited
 - quality

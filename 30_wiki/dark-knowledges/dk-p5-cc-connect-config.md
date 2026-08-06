@@ -1,4 +1,5 @@
 ---
+
 id: dk-p5-cc-connect-config
 title: P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
 type: dk
@@ -19,6 +20,11 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
+discoverable_by:
+  - P-5：cc-connect 切模型后 CLI 正常但飞书
+  - 切模型后
+  - 正常但飞书
+  - 找不到文件夹
 related:
 - '[[yt-model-pan-product-climbing-map]]'
 - '[[tool-clinic-medical-shortvideo-compliance]]'

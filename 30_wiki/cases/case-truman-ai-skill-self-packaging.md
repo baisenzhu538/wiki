@@ -1,5 +1,4 @@
 ---
-
 id: case-truman-ai-skill-self-packaging
 title: AI 自复盘自封装：Truman 的 design case 技能是如何让 AI 自己包装出来的
 type: case
@@ -7,9 +6,7 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 confidence: 0.7
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-14'
 author: 黄药师（基于 Truman 口述提取）
 reviewed_by: 老顽童
@@ -60,7 +57,6 @@ updated_at: '2026-06-29'
 aliases:
 - 建模能力培训
 ---
-
 # AI 自复盘自封装：Truman 怎么让 AI 把自己包装成一个技能
 
 > **Burn line**: 不是人写 skill——是 AI 扫描你所有的纠偏记录，自己把自己的经验封装成 skill。

@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-logical-cleanliness-root
 title: 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
 type: dk
@@ -21,6 +22,10 @@ source_refs:
 - pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
+  - 逻辑洁癖是建模之本
+  - 不是天赋，而是不能容忍低水平逻辑
 related:
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[yitang-domain-digest]]'

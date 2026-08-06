@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-本地记忆与云端记忆管理
 title: 技能：本地记忆与云端记忆管理
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

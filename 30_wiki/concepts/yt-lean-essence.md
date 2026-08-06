@@ -1,13 +1,9 @@
 ---
-
 id: yt-lean-essence
 title: 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险
 type: concept
 status: draft
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 张磊
 source_context: 一堂·精益测试 AMA 答疑（2026-06-14）
 aliases:

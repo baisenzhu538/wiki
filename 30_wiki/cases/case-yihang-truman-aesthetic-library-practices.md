@@ -1,27 +1,29 @@
 ---
 id: case-yihang-truman-aesthetic-library-practices
-title: 案例：Truman 审美库建设实践—�?0+ 领域一年速建判断�?type: case
-status: reviewed
-author: 老顽�?reviewed_by: ŷ����
-review_date: 2026-07-04
-confidence: 0.88
-trust_level: high
-language: zh-CN
-created_at: 2026-07-04
-updated_at: '2026-07-04'
+title: "案例：Truman 审美库建设实践——10+ 领域一年速建判断力"
+type: case
+status: draft
 domain:
-- yitang
-- ai-collaboration
+  - panproduct
+  - modeling
+author: 洪七公（VLM提取） 老顽童（enrich）
+reviewed_by: 待审
+confidence: 0.7
+trust_level: low
 source_refs:
-- 00_inbox/人机协作双三�?一堂双三角-人机协作模型-口述.txt
-- 60_feedback/annotations/annotation-yihang-dual-triangle-master.md
+  - src_unknown
 related:
-- "[[method-yihang-aesthetic-fast-build]]"
-- "[[tool-aesthetic-library-builder]]"
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"
+created_at: 2026-06-30
+updated_at: 2026-08-04
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+aliases:
+  - 案例：Truman 审美库建设实践——10+ 领域一年速建判断力
+discoverable_by:
+  - 案例：Truman 审美库建设实践——10+ 领域一年速建判断力
 ---
-
 # 案例：Truman 审美库建设实践—�?0+ 领域一年速建判断�?
 > **一句话定义**：Truman 在过去一年里用四步工作法�?PPT/官网/图片/视频/音乐�?10+ 个领域建立了审美库——爬虫抓 5161 张图片精�?244 张�?67 个视频精�?16 个�?00+ 首歌喂给 AI 建审美记忆模型。半年做的审美比过去三年都快，并直接支撑了飞�?ToSlide、官网、音乐、Agent 等项目�?
 ---

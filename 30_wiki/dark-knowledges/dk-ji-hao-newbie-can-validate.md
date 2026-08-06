@@ -1,4 +1,5 @@
 ---
+
 id: dk-ji-hao-newbie-can-validate
 title: 暗知识：新手也可以用工具验证——因为验证靠的是工具，不是眼光
 type: dk
@@ -20,6 +21,11 @@ source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 created_at: '2026-06-07'
 updated_at: '2026-06-19'
+discoverable_by:
+  - 暗知识：新手也可以用工具验证——因为验证靠的是工具，不是眼光
+  - 暗知识
+  - 新手也可以用工具验证
+  - 因为验证靠的是工具，不是眼光
 related:
 - '[[dk-ji-hao-problem-vs-question]]'
 - '[[yt-demand-fake-demand-detection]]'

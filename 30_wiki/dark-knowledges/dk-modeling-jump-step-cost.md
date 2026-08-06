@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-jump-step-cost
 title: 跳步代价：前置输入为空，后半段十倍百倍惩罚
 type: dk
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 跳步代价：前置输入为空，后半段十倍百倍惩罚
+  - 跳步代价
+  - 前置输入为空，后半段十倍百倍惩罚
 quality_labels:
 - insight
 - principle

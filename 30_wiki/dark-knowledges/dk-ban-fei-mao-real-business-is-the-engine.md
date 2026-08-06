@@ -1,4 +1,5 @@
 ---
+
 id: dk-ban-fei-mao-real-business-is-the-engine
 title: 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁
 type: dk
@@ -17,6 +18,10 @@ aliases:
   - 真实业务是唯一的燃料
 source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
+discoverable_by:
+  - 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼
+  - 真实业务是唯一的燃料
+  - 没有真实问题，工具化就是空中楼阁
 related:
 - '[[dk-ji-hao-problem-vs-question]]'
 - '[[yt-demand-fake-demand-detection]]'

@@ -1,5 +1,4 @@
 ---
-
 title: 业务公式
 type: concept
 aliases:
@@ -10,10 +9,7 @@ source_refs:
 - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
 - 10_raw/sources/src_20260614_6d9f7671-业务公式拆解培训.md
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 confidence: 0.92
 trust_level: high
 pipeline:
@@ -54,7 +50,6 @@ tags:
 - skill-level:advanced
 - 业务公式拆解培训
 ---
-
 # 业务公式
 
 > 来源：一堂管理必修课「管业务」模块，共4节系列课（导入篇/建立公式/参数探索/逻辑关系）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-ai-research-workflow
 title: AI辅助调研工作流：七工具四层深度+十大假设
 type: tool
@@ -6,6 +7,10 @@ status: enriched
 author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
+discoverable_by:
+  - AI辅助调研工作流：七工具四层深度+十大假设
+  - AI辅助调研工作流
+  - 七工具四层深度+十大假设
 quality_labels:
 - actionable
 - cited

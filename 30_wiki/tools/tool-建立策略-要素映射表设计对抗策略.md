@@ -3,11 +3,12 @@ id: tool-建立策略-要素映射表设计对抗策略
 title: 技能：建立策略-要素映射表设计对抗策略
 type: tool
 domain:
-- learning-methodology- management
-- product
-- business-strategy
-- design
-- decision-making
+  - learning-methodology
+  - management
+  - product
+  - business-strategy
+  - design
+  - decision-making
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
@@ -31,6 +32,10 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：建立策略-要素映射表设计对抗策略
+  - 建立策略
+  - 要素映射表设计对抗策略
 related:
 - '[[tool-推行分层标准化策略]]'
 - '[[tool-设定管理杠杆率指标评估效率]]'
@@ -46,7 +51,6 @@ tags:
 - 单元模型
 - 规模对抗实操难点
 ---
-
 # 技能：建立策略-要素映射表设计对抗策略
 
 ## 原始表述

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - product
 id: yt-product-kernel-premature-optimization
@@ -23,6 +24,10 @@ updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 过早细化陷阱：在验证前追求完美
+  - 过早细化陷阱
+  - 在验证前追求完美
 related:
 - '[[yt-product-kernel-definition]]'
 - '[[yt-product-kernel-validation]]'

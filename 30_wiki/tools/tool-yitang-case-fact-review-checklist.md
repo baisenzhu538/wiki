@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-case-fact-review-checklist
 title: 案例事实复盘清单：六类事实 + 自访六问
 type: tool
@@ -12,6 +13,11 @@ reviewed_by: 待审
 review_date: '2026-07-20'
 created_at: '2026-07-20'
 updated_at: '2026-07-20'
+discoverable_by:
+  - 案例事实复盘清单：六类事实 + 自访六问
+  - 案例事实复盘清单
+  - 六类事实
+  - 自访六问
 quality_labels:
 - actionable
 aliases:

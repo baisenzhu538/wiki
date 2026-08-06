@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-case-explosion-confidence
 title: 案例大爆炸的底气：来自销冠广场，不是胆子大
 type: dk
@@ -18,6 +19,10 @@ domain:
 - modeling
 source_person: Truman
 source_context: 一堂高阶建模能力培训（销冠广场与一堂五步法）
+discoverable_by:
+  - 案例大爆炸的底气：来自销冠广场，不是胆子大
+  - 案例大爆炸的底气
+  - 来自销冠广场，不是胆子大
 quality_labels:
 - quality
 - validated

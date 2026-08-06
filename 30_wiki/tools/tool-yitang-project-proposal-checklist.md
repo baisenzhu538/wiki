@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-proposal-checklist
 title: 撰写方案细节六项检查清单
 type: tool
@@ -19,6 +20,8 @@ aliases:
   - 方案细节六项检查清单
 source_refs:
 - 00_inbox/管项目/项目管理-定方案-撰写方案细节checklist_vlm_desc.md
+discoverable_by:
+  - 撰写方案细节六项检查清单
 related:
 - "[[yt-management-project-management]]"
 - "[[framework-yitang-project-plan-design]]"

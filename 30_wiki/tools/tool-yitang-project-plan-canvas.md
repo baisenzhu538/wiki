@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-plan-canvas
 title: 项目定方案一页纸画布
 type: tool
@@ -22,6 +23,8 @@ source_refs:
 - 00_inbox/管项目/项目管理-定方案-方案评估三角形_vlm_desc.md
 - 00_inbox/管项目/项目管理-定方案-背景分析8个维度_vlm_desc.md
 - 00_inbox/管项目/项目管理-定方案-目标分析-思考清单_vlm_desc.md
+discoverable_by:
+  - 项目定方案一页纸画布
 related:
 - '[[framework-yitang-project-plan-design]]'
 - '[[yt-management-project-management]]'

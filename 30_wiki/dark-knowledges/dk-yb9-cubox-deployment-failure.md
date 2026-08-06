@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb9-cubox-deployment-failure
 title: Cubox及AI协作工具的团队部署失败模式
 type: dk
@@ -17,6 +18,8 @@ aliases:
 source_refs: null
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - Cubox及AI协作工具的团队部署失败模式
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[tool-月白-左手Cubox右手里程碑学习法]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-f7-surface-translation
 title: F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-19'
+discoverable_by:
+  - F-KDO-007：表层翻译式提炼→Condense 段变成
+  - 表层翻译式提炼→Condense
+  - 段变成课程目录改写
 related:
 - '[[kdo-input-channel-strategy-2026-06-16]]'
 - '[[kdo-protocol]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-counterexample-driven
 title: 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
 type: dk
@@ -23,6 +24,8 @@ created_at: '2026-06-14'
 updated_at: 2026-06-28
 confidence: 0.8
 trust_level: high
+discoverable_by:
+  - 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
 related:
 tags:
 reviewed_by: 王语嫣

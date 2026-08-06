@@ -11,13 +11,16 @@ aliases:
   - 新人90天融入加速器
 source_refs:
 status: enriched
-domain: yitang- yitang
+domain: yitang
 language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.75
 prerequisites:
 component_of:
+discoverable_by:
+  - 新人 90 天融入加速器
+  - 天融入加速器
 related:
 contradicts: null
 query_triggers:

@@ -1,4 +1,5 @@
 ---
+
 id: dk-yihang-report-book-learner
 title: 报告书型学习者：不听课直接读卡也能学会的极简路径
 type: dk
@@ -22,6 +23,10 @@ aliases:
   - 课直接读卡也能学会的极简路径
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+discoverable_by:
+  - 报告书型学习者：不听课直接读卡也能学会的极简路径
+  - 报告书型学习者
+  - 不听课直接读卡也能学会的极简路径
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-yitang-y-model-engine-cycle]]'

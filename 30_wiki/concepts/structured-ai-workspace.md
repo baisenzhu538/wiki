@@ -1,12 +1,8 @@
 ---
-
 id: structured-ai-workspace
 title: 结构化AI工作空间搭建
 type: tool
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 aliases:
   - 工作空间搭建
@@ -54,7 +50,6 @@ tags:
 - 时代要不要练笔记
 - 需要练那个
 ---
-
 # 结构化AI工作空间搭建
 
 > Source: src_20260606_42e11f09 (纪浩-AI协作方法论-口述)

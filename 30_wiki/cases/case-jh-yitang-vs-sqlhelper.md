@@ -1,12 +1,9 @@
 ---
-
 id: case-jh-yitang-vs-sqlhelper
 title: 案例：一堂数据库 vs SQLHelper —— 同域不同构的产品策略分岔
 type: case
 status: enriched
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 problem_domains:
 - src_unknown
 - src_unknown
@@ -70,7 +67,6 @@ diagnostic_signals:
 - 俱乐部人和
 - 协作方法论
 ---
-
 # 案例：一堂数据库 vs SQLHelper
 
 > **原始表述**：

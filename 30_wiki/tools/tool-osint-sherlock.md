@@ -1,4 +1,5 @@
 ---
+
 id: tool-osint-sherlock
 title: Sherlock：用户名跨平台追踪——找到一个人的所有社交账号
 type: tool
@@ -22,6 +23,10 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - Sherlock：用户名跨平台追踪——找到一个人的所有社交账
+  - 用户名跨平台追踪
+  - 找到一个人的所有社交账号
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

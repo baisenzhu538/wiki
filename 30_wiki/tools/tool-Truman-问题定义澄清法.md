@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-问题定义澄清法
 title: 技能：问题定义澄清法
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

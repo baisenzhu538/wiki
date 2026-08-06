@@ -1,13 +1,9 @@
 ---
-
 id: yitang-qualitative-to-quantitative
 title: 一堂·从定性到定量：先证伪、后测量
 type: concept
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
@@ -59,7 +55,6 @@ diagnostic_signals:
 - 业务公式拆解培训
 - 精益方法论培训
 ---
-
 # 一堂·从定性到定量：先证伪、后测量
 
 > 在需求很难直接证实时，最好的方式是排除掉那些不好的选项，留下好的细分用户、细分场景、细分问题；后续再放到产品迭代模型中，用量化的方式进一步验证需求有没有找准。——张磊《精益测试关键问题》AMA Q1

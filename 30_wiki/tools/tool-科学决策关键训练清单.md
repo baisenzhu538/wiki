@@ -1,4 +1,5 @@
 ---
+
 id: tool-科学决策关键训练清单
 title: 科学决策ROI·关键训练清单
 type: tool
@@ -17,6 +18,10 @@ aliases:
   - 科学决策ROI关键训练清单
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-关键训练清单（重要））_vlm_desc.md
+discoverable_by:
+  - 科学决策ROI·关键训练清单
+  - 科学决策ROI
+  - 关键训练清单
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

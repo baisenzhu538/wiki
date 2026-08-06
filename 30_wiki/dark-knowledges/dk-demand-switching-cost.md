@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-switching-cost
 title: 新体验-旧体验-切换成本=产品价值
 type: dk
@@ -22,6 +23,11 @@ aliases:
   - 验旧体验切换成本
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt
+discoverable_by:
+  - 新体验-旧体验-切换成本=产品价值
+  - 新体验
+  - 旧体验
+  - 切换成本=产品价值
 related:
 - '[[yt-demand-fake-demand-detection]]'
 - '[[dk-demand-premature-solution]]'

@@ -1,5 +1,4 @@
 ---
-
 id: concept-ai-information-quality-ladder
 title: 信息质量阶梯
 type: concept
@@ -10,9 +9,9 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+  - ai-collaboration
+  - critical-thinking
+  - business-judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md

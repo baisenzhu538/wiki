@@ -1,4 +1,5 @@
 ---
+
 id: tool-yihang-agent-config-7steps
 title: Agent 配置 7 步法：人类画像 + 规则匹配
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 配置
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+discoverable_by:
+  - Agent 配置 7 步法：人类画像 + 规则匹配
+  - 人类画像
+  - 规则匹配
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-yihang-dual-triangle-oral-spray]]'

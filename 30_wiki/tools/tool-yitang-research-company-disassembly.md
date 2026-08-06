@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-company-disassembly
 title: 公司拆解：深度分析竞争对手的六维框架
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - skill-level:intermediate
   - 公司拆解
   - 公司拆解：深度分析竞争对手的六维框架
+  - 深度分析竞争对手的六维框架
+discoverable_by:
+  - 公司拆解：深度分析竞争对手的六维框架
+  - 公司拆解
   - 深度分析竞争对手的六维框架
 related:
 tags:

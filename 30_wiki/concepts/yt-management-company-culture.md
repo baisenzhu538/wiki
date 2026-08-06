@@ -1,13 +1,7 @@
 ---
-
 title: 公司文化
 type: concept
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 pipeline:
 - src_unknown
@@ -45,7 +39,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 公司文化
 
 > 来源：一堂管理必修课「管公司」模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

@@ -1,4 +1,5 @@
 ---
+
 id: tool-单元模型-壁垒预判
 title: 单元模型：壁垒预判
 type: tool
@@ -17,6 +18,10 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-壁垒预判_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-壁垒预判_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-单元模型-壁垒预判.md
+discoverable_by:
+  - 单元模型：壁垒预判
+  - 单元模型
+  - 壁垒预判
 related:
 - '[[yitang-domain-digest]]'
 - '[[dk-单元模型-找单元模型实操难点]]'

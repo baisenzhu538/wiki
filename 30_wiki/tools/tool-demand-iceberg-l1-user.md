@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-iceberg-l1-user
 title: L1粗拆用户标签：识别任务执行者的核心角色
 type: tool
@@ -23,6 +24,10 @@ aliases:
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
 - 00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md
+discoverable_by:
+  - L1粗拆用户标签：识别任务执行者的核心角色
+  - L1粗拆用户标签
+  - 识别任务执行者的核心角色
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-demand-iceberg-l2-scenario]]'

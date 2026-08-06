@@ -1,4 +1,5 @@
 ---
+
 id: dk-yihang-non-expert-judgment
 title: 非专家判断替代法——不懂的领域用 AI 集群建立可用判断力
 type: dk
@@ -23,6 +24,11 @@ aliases:
 source_refs:
 - 对话记录：2026-07-05 老朱结构工程师案例
 - 对话记录：2026-07-05 老朱代码库梳理案例
+discoverable_by:
+  - 非专家判断替代法——不懂的领域用 AI 集群建立可用判断力
+  - 非专家判断替代法
+  - 不懂的领域用
+  - 集群建立可用判断力
 related:
 - '[[dk-yihang-multi-ai-cross-validation]]'
 - '[[concept-yihang-dual-triangle-core]]'

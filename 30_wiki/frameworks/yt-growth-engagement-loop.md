@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-engagement-loop
 title: 参与循环：让用户持续回来
 type: framework
@@ -49,7 +48,6 @@ discoverable_by:
 - 留存激活
 - 参与飞轮
 ---
-
 # 参与循环：让用户持续回来
 
 > 一堂五步法：参与循环是留存的核心。用户回来的理由 = 触发 + 行动 + 奖励 + 投入。

@@ -3,10 +3,11 @@ id: tool-遵循规模前倾原则设计组织架构
 title: 技能：遵循规模前倾原则设计组织架构
 type: tool
 domain:
-- entrepreneurship- product
-- management
-- design
-- business-strategy
+  - entrepreneurship
+  - product
+  - management
+  - design
+  - business-strategy
 status: reviewed
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
@@ -31,6 +32,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：遵循规模前倾原则设计组织架构
+  - 遵循规模前倾原则设计组织架构
 related:
 - '[[tool-应用人员降级公式实现标准化]]'
 - '[[tool-执行对标研究三步法]]'
@@ -50,7 +54,6 @@ tags:
 - 单元模型
 - 规模对抗实操难点
 ---
-
 # 技能：遵循规模前倾原则设计组织架构
 
 ## 原始表述

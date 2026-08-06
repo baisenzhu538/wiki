@@ -2,7 +2,9 @@
 id: tool-创始人二当家分工协作模式
 title: 技能：创始人+二当家分工协作模式
 type: tool
-domain: entrepreneurship- management
+domain:
+  - entrepreneurship
+  - management
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
@@ -25,6 +27,9 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：创始人+二当家分工协作模式
+  - 创始人+二当家分工协作模式
 related:
 - '[[tool-用旗舰店替代纯招商投入]]'
 - '[[tool-快招品牌总部模拟调研]]'

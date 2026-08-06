@@ -5,9 +5,7 @@ type: index
 status: reviewed
 confidence: 0.95
 trust_level: high
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: Truman
 source_context: 一堂五步法培训口述与笔记
 source_refs:

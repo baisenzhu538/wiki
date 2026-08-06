@@ -1,4 +1,5 @@
 ---
+
 id: dk-p17-accuracy-gap
 title: P-17：auto_label 声称"85%准确率"——实测34.8%，差距来自被忽略的5个维度
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
+discoverable_by:
+  - P-17：auto_label 声称85%准确率——实测34
+  - 声称85%准确率
+  - 实测34.8%，差距来自被忽略的5个维度
 related:
 - '[[labeling-final-consolidation]]'
 - '[[kdo-15-dimension-label-spec]]'

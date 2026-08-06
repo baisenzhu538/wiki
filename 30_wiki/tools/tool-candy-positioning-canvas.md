@@ -1,4 +1,5 @@
 ---
+
 id: tool-candy-positioning-canvas
 title: Candy差异化定位画布：回答"这篇东西凭什么存在"
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 这篇东西凭什么存在
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
+discoverable_by:
+  - Candy差异化定位画布：回答这篇东西凭什么存在
+  - Candy差异化定位画布
+  - 回答这篇东西凭什么存在
 related:
 - '[[yitang-domain-digest]]'
 - '[[framework-candy-transcript-workflow]]'

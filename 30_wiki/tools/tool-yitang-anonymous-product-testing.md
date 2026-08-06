@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-anonymous-product-testing
 title: 匿名产品体验：以真实用户身份盲测竞品
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 实用户身份盲测竞品
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 匿名产品体验：以真实用户身份盲测竞品
+  - 匿名产品体验
+  - 以真实用户身份盲测竞品
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

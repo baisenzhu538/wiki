@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-ai-report-drafting
 title: AI草写报告：用AI生成调研初稿
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 草写报告
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - AI草写报告：用AI生成调研初稿
+  - AI草写报告
+  - 用AI生成调研初稿
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

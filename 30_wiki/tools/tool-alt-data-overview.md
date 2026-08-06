@@ -1,4 +1,5 @@
 ---
+
 id: tool-alt-data-overview
 title: 替代数据总览：Hedge Fund级别的调研武器
 type: tool
@@ -22,6 +23,10 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 替代数据总览：Hedge Fund级别的调研武器
+  - 替代数据总览
+  - Fund级别的调研武器
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

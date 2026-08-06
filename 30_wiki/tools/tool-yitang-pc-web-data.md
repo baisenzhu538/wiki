@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-pc-web-data
 title: PC/Web端数据：传统互联网的数据来源
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 端数据
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - PC/Web端数据：传统互联网的数据来源
+  - PC/Web端数据
+  - 传统互联网的数据来源
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

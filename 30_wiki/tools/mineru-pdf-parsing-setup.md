@@ -1,14 +1,11 @@
 ---
-
 id: mineru-pdf-parsing-setup
 title: MinerU (magic-pdf) PDF 解析工具安装与使用
 type: tool
 status: enriched
 confidence: 0.75
 trust_level: medium
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - MinerUmagicpdfPDF解析工具安装与使用
   - 安装与使用

@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-five-step-cross-step-1
 title: 跨步一：从0到1的验证
 type: framework
@@ -51,7 +50,6 @@ discoverable_by:
 - 五步法联动
 - 方法论串联
 ---
-
 # 跨步一：从0到1的验证
 
 > 一堂五步法：从0到1不是做产品，而是验证假设。验证通过，才能进入1到10。

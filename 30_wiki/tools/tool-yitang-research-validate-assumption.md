@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-validate-assumption
 title: 调研先行验证假设：在行动前杀死错误想法
 type: tool
@@ -24,6 +25,10 @@ aliases:
   - 在行动前杀死错误想法
   - 调研先行验证假设
   - 调研先行验证假设：在行动前杀死错误想法
+discoverable_by:
+  - 调研先行验证假设：在行动前杀死错误想法
+  - 调研先行验证假设
+  - 在行动前杀死错误想法
 related:
 tags:
 ---

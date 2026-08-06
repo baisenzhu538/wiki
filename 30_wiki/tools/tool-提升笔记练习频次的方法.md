@@ -3,8 +3,9 @@ id: tool-提升笔记练习频次的方法
 title: 技能：提升笔记练习频次的方法
 type: tool
 domain:
-- learning-methodology- design
-- yitang
+  - learning-methodology
+  - design
+  - yitang
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f
@@ -27,6 +28,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：提升笔记练习频次的方法
+  - 提升笔记练习频次的方法
 related:
 - '[[tool-自我反馈修正笔记姿势]]'
 - '[[tool-获取他人反馈优化笔记]]'
@@ -41,7 +45,6 @@ tags:
 - skill-level:beginner
 - 清单体笔记训练段位图
 ---
-
 # 技能：提升笔记练习频次的方法
 
 ## 原始表述

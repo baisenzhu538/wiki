@@ -1,10 +1,8 @@
 ---
-
 id: yt-foresight-deliverables-four-levels
 title: 预判交付物四层级：从模糊想法到Plan ABC
 type: concept
-domain:
-- src_unknown
+domain: src-unknown
 aliases:
   - 交付物四层级
   - 从模糊想法到
@@ -72,7 +70,6 @@ tags:
 - skill-level:intermediate
 - 机会预判课
 ---
-
 # 预判交付物四层级：从模糊想法到Plan ABC
 
 ## Core Claims

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-best-practice
 title: 最佳实践调研：找到行业标杆，复制成功因素
 type: tool
@@ -25,6 +26,10 @@ aliases:
   - 找到行业标杆
   - 最佳实践调研
   - 最佳实践调研：找到行业标杆，复制成功因素
+discoverable_by:
+  - 最佳实践调研：找到行业标杆，复制成功因素
+  - 最佳实践调研
+  - 找到行业标杆，复制成功因素
 related:
 tags:
 ---

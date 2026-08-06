@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-referral-channel-optimization
 type: tool
 title: 老带新渠道优化工具：动力 × 触点 × 阻力
@@ -10,6 +11,9 @@ confidence: 0.8
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 老带新渠道优化工具：动力 × 触点 × 阻力
+  - 老带新渠道优化工具
 quality_labels:
 - actionable
 - cited

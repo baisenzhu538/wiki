@@ -1,13 +1,11 @@
 ---
-
 id: yt-tool-fab-persuasion
 component_of:
 - src_unknown
 confidence: 0.85
 created_at: 2026-06-06
 difficulty: foundational
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2800
 language: zh-CN
 prerequisites:
@@ -64,7 +62,6 @@ trust_level: medium-high
 aliases:
 - 课程地图精华串讲
 ---
-
 ## Summary
 
 > **一句话**：90% 的产品介绍都死在第一句——因为他们在说「我有什么」，而不是「你能得到什么」。

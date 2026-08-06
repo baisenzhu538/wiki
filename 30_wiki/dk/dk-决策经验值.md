@@ -1,4 +1,5 @@
 ---
+
 id: dk-决策经验值
 title: 暗知识：决策经验值——老手和新手的隐性差距
 type: dk
@@ -21,6 +22,11 @@ aliases:
   - 老手和新手的隐性差距
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-决策经验值_vlm_desc.md
+discoverable_by:
+  - 暗知识：决策经验值——老手和新手的隐性差距
+  - 暗知识
+  - 决策经验值
+  - 老手和新手的隐性差距
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

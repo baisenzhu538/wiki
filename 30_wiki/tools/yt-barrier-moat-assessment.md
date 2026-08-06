@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-moat-assessment
 title: 护城河评估工具
 type: tool
@@ -18,6 +17,8 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 护城河评估工具
 related:
 - '[[yt-barrier-brand-equity]]'
 - '[[yt-barrier-culture-moat]]'
@@ -40,7 +41,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 护城河评估工具
 
 > 一堂五步法：护城河需要定期评估。评估工具 = 护城河清单 × 强度评分 × 趋势分析。

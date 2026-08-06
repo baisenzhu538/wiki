@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-unit-pairs-milestone
 title: 里程碑不是任务清单，是"成对单元模型"拼出来的
 type: dk
@@ -21,6 +22,8 @@ aliases:
 source_refs:
 confidence: 0.89
 trust_level: medium
+discoverable_by:
+  - 里程碑不是任务清单，是成对单元模型拼出来的
 related:
 tags:
 author: 老顽童

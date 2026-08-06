@@ -1,12 +1,9 @@
 ---
-
 id: yt-unit-model-construction
 confidence: 0.89
 created_at: 2026-05-24
 difficulty: intermediate
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -80,7 +77,6 @@ tags:
 - 单元模型
 - 策略模型
 ---
-
 # 单元模型构建法：拆推评算与ABCD模型分类
 
 > 来源：一堂《单元模型实操系列课》第二至四课——构建篇。选定核心单元后，如何将模糊的业务理解转化为可计算、可验证的单元模型公式？本工具提供"拆推评算"四步构建法和ABCD模型分类体系，帮助操盘手建立从业务到财务的完整映射。

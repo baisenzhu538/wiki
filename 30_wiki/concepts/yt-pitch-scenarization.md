@@ -1,14 +1,11 @@
 ---
-
 id: yt-pitch-scenarization
 component_of:
 - src_unknown
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: foundational
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1500
 language: zh-CN
 prerequisites:
@@ -61,7 +58,6 @@ tags:
 - 讲香十指模型
 - 超级武器库
 ---
-
 # 讲香·场景化
 
 > 十指模型左手第一指——向下具象。在产品/服务与用户之间架一座场景的桥，让用户从「与我无关」到「我正需要」。

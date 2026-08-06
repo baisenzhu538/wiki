@@ -1,13 +1,11 @@
 ---
-
 id: yt-decision-width-method
 component_of:
 - src_unknown
 confidence: 0.82
 created_at: 2026-05-17
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2800
 language: zh-CN
 prerequisites:
@@ -102,7 +100,6 @@ tags:
 - scene:execution
 - skill-level:intermediate
 ---
-
 # 宽度分析工具：列推建查四步法+三层盲区清单
 
 

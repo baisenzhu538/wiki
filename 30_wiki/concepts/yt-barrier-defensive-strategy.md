@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-defensive-strategy
 title: 防御策略：守住壁垒
 type: concept
@@ -47,7 +45,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 防御策略：守住壁垒
 
 > 一堂五步法：最好的防御是进攻。但进攻前，先确保壁垒稳固。

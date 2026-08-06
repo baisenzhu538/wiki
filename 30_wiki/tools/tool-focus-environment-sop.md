@@ -1,4 +1,5 @@
 ---
+
 id: tool-focus-environment-sop
 title: 专注环境SOP (Focus Environment SOP)
 type: tool
@@ -20,6 +21,9 @@ aliases:
 source_refs:
 - 00_inbox/时间管理/truman-时间管理课程-口述.txt
 - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
+discoverable_by:
+  - 专注环境SOP Focus Environment SOP
+  - 专注环境SOP
 related:
 - '[[yt-personal-time-management]]'
 - '[[framework-yitang-five-step-to-time-management]]'

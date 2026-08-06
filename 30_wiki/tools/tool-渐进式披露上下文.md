@@ -3,11 +3,12 @@ id: tool-渐进式披露上下文
 title: 技能：渐进式披露上下文
 type: tool
 domain:
-- learning-methodology- management
-- product
-- ai-saas
-- design
-- yitang
+  - learning-methodology
+  - management
+  - product
+  - ai-saas
+  - design
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
@@ -27,6 +28,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：渐进式披露上下文
+  - 渐进式披露上下文
 related:
 - '[[tool-多轮确认防偏差]]'
 - '[[tool-主动摘要压缩上下文]]'
@@ -52,7 +56,6 @@ tags:
 - skill-level:beginner
 - 自用的
 ---
-
 # 技能：渐进式披露上下文
 
 ## 原始表述

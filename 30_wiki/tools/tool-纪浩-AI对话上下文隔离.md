@@ -1,6 +1,10 @@
 ---
+
 id: tool-纪浩-AI对话上下文隔离
 title: "tool 纪浩 AI对话上下文隔离"
+discoverable_by:
+  - tool 纪浩 AI对话上下文隔离
+  - AI对话上下文隔离
 related:
 aliases:
   - AI对话上下文隔离

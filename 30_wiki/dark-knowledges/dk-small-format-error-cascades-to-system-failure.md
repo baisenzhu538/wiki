@@ -1,4 +1,5 @@
 ---
+
 id: dk-small-format-error-cascades-to-system-failure
 title: 小格式错误在批量系统中引发级联失效
 type: dk
@@ -16,6 +17,8 @@ aliases:
   - 小格式错误在批量系统中引发级联失效
   - 式错误在批量系统中引发级联失效
 source_refs: null
+discoverable_by:
+  - 小格式错误在批量系统中引发级联失效
 related:
 - '[[ai-collaboration-domain-digest]]'
 bridges_to: null

@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-six-levels
 title: 产品内核六个段位：从缺价值意识到全面迁移
 type: framework
@@ -57,7 +56,6 @@ discoverable_by:
 - 产品本质探索
 - 六层模型
 ---
-
 # 产品内核六个段位：从缺价值意识到全面迁移
 
 > 一堂五步法：产品内核有段位，从"不重视价值"到"能跨领域迁移"。

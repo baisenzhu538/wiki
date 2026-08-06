@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-moat-building
 title: 壁垒建设路线图
 type: framework
@@ -48,7 +47,6 @@ discoverable_by:
 - 壁垒路线
 - 防御战略
 ---
-
 # 壁垒建设路线图
 
 > 一堂五步法：壁垒建设不是一蹴而就，而是基于现有优势，逐步积累。路线图 = 现状评估 → 目标设定 → 路径规划 → 执行监控。

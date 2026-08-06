@@ -1,10 +1,8 @@
 ---
-
 id: yt-foresight-ab-steady-state
 title: AB点稳态模型：行业预判的核心框架
 type: concept
-domain:
-- src_unknown
+domain: src-unknown
 aliases:
   - AB点稳态模型
   - AB点稳态模型：行业预判的核心框架
@@ -62,7 +60,6 @@ tags:
 - skill-level:intermediate
 - 机会预判课
 ---
-
 # AB点稳态模型：行业预判的核心框架
 
 ## Core Claims

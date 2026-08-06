@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-profit-model-comparison
 title: 盈利模式对比框架——直营/强类直营/弱类直营/代理加盟四象限决策
 type: tool
@@ -20,6 +21,10 @@ created_at: '2026-06-21'
 updated_at: '2026-06-29'
 author: 黄药师（从 PPT _117 提取）
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 盈利模式对比框架——直营/强类直营/弱类直营/代理加盟四象限
+  - 盈利模式对比框架
+  - 直营/强类直营/弱类直营/代理加盟四象限决策
 related:
 - '[[strategy-domain-digest]]'
 - '[[framework-yitang-channel-partnership-map]]'

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - demand-analysis
 id: yt-demand-fake-demand-detection
@@ -23,6 +24,10 @@ updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
+discoverable_by:
+  - 伪需求识别：7个危险信号
+  - 伪需求识别
+  - 7个危险信号
 related:
 - '[[yt-demand-hierarchy-model]]'
 - '[[yt-demand-qualitative-analysis]]'

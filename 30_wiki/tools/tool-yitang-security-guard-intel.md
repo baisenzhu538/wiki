@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-security-guard-intel
 title: 保安/门卫情报：非正式但有效的信息源
 type: tool
@@ -21,6 +22,10 @@ aliases:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - 保安/门卫情报：非正式但有效的信息源
+  - 保安/门卫情报
+  - 非正式但有效的信息源
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

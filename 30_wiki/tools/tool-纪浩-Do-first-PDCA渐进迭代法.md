@@ -3,9 +3,7 @@ id: tool-纪浩-Do-first-PDCA渐进迭代法
 title: 技能：Do-first PDCA渐进迭代法
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 aliases:
@@ -19,6 +17,9 @@ tools_required:
 - src_unknown
 - src_unknown
 prerequisite_skills: skill-纪浩-真需求四要素验证法
+discoverable_by:
+  - 技能：Do-first PDCA渐进迭代法
+  - PDCA渐进迭代法
 related:
 - '[[case-five-step-growth-first-lever]]'
 - '[[dk-yb31-style-first-controlnet]]'
@@ -57,7 +58,6 @@ tags:
 - skill-level:intermediate
 - 协作方法论
 ---
-
 # 技能：Do-first PDCA渐进迭代法
 
 ## 不要用的场景

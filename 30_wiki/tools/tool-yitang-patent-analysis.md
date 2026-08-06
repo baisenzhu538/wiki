@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-patent-analysis
 title: 专利分析：从知识产权反推技术路线
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 识产权反推技术路线
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 专利分析：从知识产权反推技术路线
+  - 专利分析
+  - 从知识产权反推技术路线
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

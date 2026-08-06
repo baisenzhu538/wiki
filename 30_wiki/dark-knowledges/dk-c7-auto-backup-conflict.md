@@ -1,4 +1,5 @@
 ---
+
 id: dk-c7-auto-backup-conflict
 title: C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交
 type: dk
@@ -18,6 +19,9 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
+discoverable_by:
+  - C-7：Obsidian auto-backup 干扰 co
+  - 文件被自动打包提交
 related:
 - '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
 - '[[dk-ai-social-progress-not-automatic]]'

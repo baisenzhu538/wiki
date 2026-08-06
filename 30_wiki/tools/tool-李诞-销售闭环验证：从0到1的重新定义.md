@@ -2,7 +2,9 @@
 id: tool-李诞-销售闭环验证：从0到1的重新定义
 title: 技能：销售闭环验证：从0到1的重新定义
 type: tool
-domain: content-production- marketing
+domain:
+  - content-production
+  - marketing
 status: draft
 author: unknown
 reviewed_by: pending
@@ -18,6 +20,10 @@ source_refs:
 - 10_raw/sources/src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260528_4277c6be）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：销售闭环验证：从0到1的重新定义
+  - 销售闭环验证
+  - 从0到1的重新定义
 related:
 - '[[tool-李诞-判断工作价值的交易成本视角]]'
 - '[[tool-李诞-个人IP的重新定义与输出策略]]'

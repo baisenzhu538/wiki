@@ -1,4 +1,5 @@
 ---
+
 id: dk-p8-toolkit-forget
 title: P-8：欧阳锋忘记本地已有武器——重新调研已部署工具
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
+discoverable_by:
+  - P-8：欧阳锋忘记本地已有武器——重新调研已部署工具
+  - 欧阳锋忘记本地已有武器
+  - 重新调研已部署工具
 related:
 - '[[dk-p2-tmux-cache]]'
 - '[[agent-external-brain-design]]'

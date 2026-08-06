@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-channel-industrialization-node-design
 type: tool
 title: 工业化生产节点设计工具：把复杂交付变成可控流程
@@ -12,6 +13,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: pending
 created_at: 2026-06-27
+discoverable_by:
+  - 工业化生产节点设计工具：把复杂交付变成可控流程
+  - 工业化生产节点设计工具
+  - 把复杂交付变成可控流程
 quality_labels:
 - actionable
 - cited

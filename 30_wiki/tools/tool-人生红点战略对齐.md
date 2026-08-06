@@ -1,4 +1,5 @@
 ---
+
 id: tool-人生红点战略对齐
 title: 技能：人生红点战略对齐
 type: tool
@@ -29,6 +30,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：人生红点战略对齐
+  - 人生红点战略对齐
 related:
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[tool-辩证讨论深化]]'

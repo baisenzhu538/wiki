@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-course-rnd-ripe-fruit
 title: 研究型课程无法提前排课表：只能等菜熟了再摘
 type: dk
@@ -21,6 +22,10 @@ aliases:
 source_refs:
 confidence: 0.8
 trust_level: medium
+discoverable_by:
+  - 研究型课程无法提前排课表：只能等菜熟了再摘
+  - 研究型课程无法提前排课表
+  - 只能等菜熟了再摘
 related:
 tags:
 author: 老顽童

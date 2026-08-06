@@ -1,24 +1,29 @@
 ---
 id: case-yihang-dual-triangle-阿豪的双三角模型
-title: 双三角案例：阿豪电商选品——内网穿�?�?AI 自动�?type: case
-status: enriched
-author: 洪七公（VLM提取�? 老顽童（enrich�?reviewed_by: ŷ����
-review_date: 2026-07-04
-confidence: 0.78
-trust_level: medium
-language: zh-CN
-created_at: 2026-07-04
-updated_at: 2026-07-04
+title: "双三角案例：阿豪电商选品——内网穿透与 AI 自动化"
+type: case
+status: draft
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - panproduct
+author: 洪七公（VLM提取） 老顽童（enrich）
+reviewed_by: 待审
+confidence: 0.7
+trust_level: low
 source_refs:
-- 00_inbox/人机协作双三�?_processed/阿豪的双三角模型_vlm.md
+  - src_unknown
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[case-yihang-dual-triangle-ahao-product-selection]]"
+created_at: 2026-06-30
+updated_at: 2026-08-04
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+aliases:
+  - 双三角案例：阿豪电商选品——内网穿透与 AI 自动化
+discoverable_by:
+  - 双三角案例：阿豪电商选品——内网穿透与 AI 自动化
 ---
-
 # 双三角案例：阿豪电商选品——内网穿�?�?AI 自动�?
 > **一句话定义**：阿豪用双三角框架构建电商选品 AI 系统——内网穿�?本地部署快速上线，数据打标解决 AI 幻觉，全 AI 自动化选品/诊断完整方案。用 START 模型识别高频高价值场景，把成熟业务体系用 AI 改造落地�?
 ---

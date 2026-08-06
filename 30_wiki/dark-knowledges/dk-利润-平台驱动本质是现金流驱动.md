@@ -1,4 +1,5 @@
 ---
+
 id: dk-利润-平台驱动本质是现金流驱动
 title: 平台驱动的本质是现金流驱动：流量生意为什么赚不到利润
 type: dk
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 平台驱动的本质是现金流驱动：流量生意为什么赚不到利润
+  - 平台驱动的本质是现金流驱动
+  - 流量生意为什么赚不到利润
 quality_labels:
 - insight
 aliases:

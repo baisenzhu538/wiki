@@ -1,4 +1,5 @@
 ---
+
 id: dk-process-is-scar-tissue
 title: 流程是业务的疤痕：每个节点都曾是流血后的痂
 type: dk
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 流程是业务的疤痕：每个节点都曾是流血后的痂
+  - 流程是业务的疤痕
+  - 每个节点都曾是流血后的痂
 quality_labels:
 - insight
 - principle

@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-ceiling-coach
 title: 天花板测算教练：10-15分钟对话输出天花板报告
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - 板测算教练
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-空间测算-口述.txt L322-L344,L1308-L1870
+discoverable_by:
+  - 天花板测算教练：10-15分钟对话输出天花板报告
+  - 天花板测算教练
+  - 15分钟对话输出天花板报告
 related:
 - '[[framework-demand-ceiling-four-lines]]'
 - '[[tool-demand-assessment-triangle]]'

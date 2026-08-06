@@ -2,7 +2,9 @@
 id: tool-费曼学习法三句话提炼
 title: 技能：费曼学习法三句话提炼
 type: tool
-domain: learning-methodology- yitang
+domain:
+  - learning-methodology
+  - yitang
 status: draft
 source_person: 一堂课程（费曼学习法变体）
 source_context: src_20260522_dee56cff
@@ -27,6 +29,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：费曼学习法三句话提炼
+  - 费曼学习法三句话提炼
 related:
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[tool-辩证讨论深化]]'
@@ -52,7 +57,6 @@ tags:
 - 全景策略
 - 科学学习
 ---
-
 # 技能：费曼学习法三句话提炼
 
 ## 原始表述

@@ -1,12 +1,10 @@
 ---
-
 id: yt-foresight-business-spectrum
 type: framework
 confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
@@ -76,7 +74,6 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 ---
-
 # 终局光谱图
 
 > 来源：一堂课程体系 | 阶段：预判阶段 | [[yt-entrepreneur-opportunity-selection]] | [[yitang-course-map]]

@@ -1,12 +1,8 @@
 ---
-
 id: yt-management-scientific-meetings
 title: 科学开会
 type: concept
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -41,7 +37,6 @@ tags:
 - skill-level:intermediate
 - 管理地图
 ---
-
 # 科学开会
 
 > 来源：一堂管理必修课「管团队」模块，含认知篇+实操篇。原始 source 无法追溯，待后续补充到 `10_raw/sources/` 后更新 source_refs。

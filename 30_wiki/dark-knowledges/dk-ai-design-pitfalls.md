@@ -1,4 +1,5 @@
 ---
+
 id: dk-ai-design-pitfalls
 title: AI 设计交付物的五个常见陷阱与反打
 type: dark-knowledge
@@ -24,6 +25,9 @@ aliases:
   - 陈舒妍
 source_refs:
 domain:
+discoverable_by:
+  - AI 设计交付物的五个常见陷阱与反打
+  - 设计交付物的五个常见陷阱与反打
 tags:
 trust_level: medium
 reviewed_by: 欧阳锋

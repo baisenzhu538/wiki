@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb29-prompt-migrate-copy-first
 title: AIGC提示词迁移：先照搬再微调的务实策略
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - 00_inbox/design/AI设计-AI设计基础01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-16'
+discoverable_by:
+  - AIGC提示词迁移：先照搬再微调的务实策略
+  - AIGC提示词迁移
+  - 先照搬再微调的务实策略
 related: null
 pipeline:
 - src_unknown

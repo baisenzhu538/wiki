@@ -13,10 +13,11 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
+discoverable_by:
+  - 雷达图建模法：多维度评估与筛选
+  - 雷达图建模法
+  - 多维度评估与筛选
 quality_labels:
 - actionable
 - validated
@@ -54,7 +55,6 @@ diagnostic_signals:
 - 建模能力培训
 - 抽象建模
 ---
-
 # 雷达图建模法：多维度评估与筛选
 
 > **Burn line**: 当你需要从多个选项中做选择，但不想靠拍脑袋时，先用雷达图把维度拆清楚。

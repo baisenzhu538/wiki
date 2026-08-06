@@ -1,11 +1,9 @@
 ---
-
 id: yt-personal-knowledge-extraction
 confidence: 0.8
 created_at: 2026-05-07
 difficulty: foundational
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
@@ -62,7 +60,6 @@ tags:
 - scene:execution
 - skill-level:intermediate
 ---
-
 # 一堂知识萃取探索营：从碎片经验到确定模型
 
 > 来源：一堂《知识萃取探索营》案例篇（Truman口述，约2小时）。[[一堂]] | [[yt-model-personal-map]] | [[yt-model-ipo-learning-strategy]]

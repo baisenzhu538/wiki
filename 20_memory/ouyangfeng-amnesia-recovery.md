@@ -66,8 +66,8 @@ type: memory/role-recovery
 - **#199-#212**：已终审通过（部分 B+）
 - **当前队列**：#213/#214/#215 reviewed（#216 补链 done）；#217/#218 黄药师任务书 queued；#219 title 修复 P0
 - **结构性发现**：① dk 缺 Critique 节跨批复发 → 黄药师任务书 R1；② 修复回归 E009 → R3 重名检测；③ source_refs 断链镜像问题 → review-infra R4 存在性校验（P1）；④ **Phase 0 漏 title 非空检查**（#219 搜索诊断）→ 审查 SOP 已补；⑤ **E010 批量追加块破坏 YAML**（#222+#223 双线并行写入事故，~2350 张破坏，#227 修复至 98.1%）
-- **当前状态**：#222/#223 事故闭环——#227 修复终验 PASS（99.35% 通过，17 张顽固卡纳入 #223 收尾）；王语嫣编排已迭代（#222 先→#223 后，串行+目录划分+aliases 合并+dry-run）；恢复已放行，等待执行
-- **待命**：① 终审队列（恢复后的新批次）② 17 张顽固卡 #223 收尾验收（yaml 通过+内容不劣化）
+- **当前状态**（2026-08-04）：#213-#229 事故全链路闭环——全库活跃卡 YAML 100% 通过、索引 3762 docs、8 类 lint 门禁上线。遗留长尾：#224 收尾（concepts 18 英文 title + 26 缺 disc）；黄药师 7 卡 FAIL 待修复复审（1 重复卡 + 结构缺口）
+- **待命**：① 黄药师 7 卡修复复审 ② #224 长尾收尾 ③ 新批次终审
 
 ---
 
@@ -90,17 +90,18 @@ type: memory/role-recovery
 - **退回记录**：在 daily-context 中记录退回原因
 - **O0 违规**：如果某天审查结论是在未溯源情况下做出的，必须在 daily-context 第 5 节如实记录
 
-### 终审收尾四同步 + 索引刷新（2026-08-03 教训固化）
+### 终审收尾四同步 + 索引刷新（2026-08-03 教训固化；2026-08-05 E012 升级）
 
-**每次终审 PASS 后，必须完成 4 处状态同步 + 1 次索引刷新，缺一不叫"审完"：**
+**每次终审 PASS 后，必须完成 4 处状态同步 + 1 次索引刷新，缺一不叫"审完"——PASS 判定后立即执行，不等生产者（E012：三批 19 张卡漏同步的教训）：**
 
 1. **任务单 frontmatter**：`status: reviewed` / `reviewed_by: 欧阳锋` / `review_date: YYYY-MM-DD`（用 `queue_transition.py review` 或 `review_mark.py`，脚本不可用时手动 patch + `<!-- 手动终审：原因 -->` 注释）
 2. **production-queue.md 状态列**：`reviewed`
 3. **dashboard.md**：终审记录
-4. **卡片自身 frontmatter**：`status: reviewed` / `reviewed_by: 欧阳锋` / `review_date`（**#213/#214 教训**——19 张卡 PASS 后漏同步第 4 处，卡片仍 draft。升级卡 review_date 也要更新）
-5. **跑 `kdo index` 刷新搜索索引**（**#219 教训**——索引过期 5 天导致小昭搜"创新者的窘境"0 结果，搜索盲区阻断外部 agent 协作）
+4. **卡片自身 frontmatter**：`status: reviewed` / `reviewed_by: 欧阳锋` / `review_date`——**用 `review_mark.py`（#218 R1）批量写，或手动批量**；**不得依赖生产者补**（#230/#231/#232 三批 PASS 后卡片仍 draft 的教训）
+5. **跑 `kdo index` 刷新搜索索引**（**#219 教训**——索引过期 5 天导致小昭搜"创新者的窘境"0 结果）
+6. **PASS 后 grep 确认**：`grep "status: reviewed"` 覆盖本批全部卡，再宣布"审完"
 
-> 工具：O-3 修复前 `queue_transition.py` 纯数字 task_id 会挂（传全名 `task_20260802_...` 可绕过）；`review_mark.py`（#218 R1）已上线可批量写卡片 frontmatter。
+> 工具：`review_mark.py`（#218 R1）已上线——终审通过后 `python 90_control/scripts/review_mark.py <卡路径> --reviewer 欧阳锋` 批量同步。
 > 停车场 O-9：索引自动刷新机制待黄药师排期，上线前靠终审 SOP 手动 `kdo index` 兜底。
 
 ---

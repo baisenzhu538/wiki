@@ -1,8 +1,12 @@
 ---
+
 id: tool-key-assumptions-check
 title: Key Assumptions Check（隐藏假设检验）
 type: tool
 domain:
+discoverable_by:
+  - Key Assumptions Check隐藏假设检验
+  - Check隐藏假设检验
 tags:
 source_person: Richars J. Heuer Jr. + Truman（一堂）
 source_context: SATs 诊断类技术工具化实现

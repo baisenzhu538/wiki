@@ -3,8 +3,9 @@ id: tool-纪浩-问题导向备课法
 title: 技能：问题导向备课法
 type: tool
 domain:
-- ai-collaboration
-- yitang - ai-saas
+  - ai-collaboration
+  - yitang
+  - ai-saas
 status: draft
 author: 纪浩
 reviewed_by: pending
@@ -19,6 +20,9 @@ source_refs:
 - 10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：问题导向备课法
+  - 问题导向备课法
 related:
 - '[[tool-纪浩-新手心态启动法]]'
 - '[[tool-纪浩-项目启动五问法]]'
@@ -36,7 +40,6 @@ tags:
 - 五层结构
 - 俱乐部
 ---
-
 # 技能：问题导向备课法
 
 - src_unknown

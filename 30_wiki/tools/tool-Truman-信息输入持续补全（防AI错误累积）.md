@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-信息输入持续补全（防AI错误累积）
 title: 技能：信息输入持续补全（防AI错误累积）
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -40,7 +39,6 @@ tags:
 - skill-level:beginner
 - 自用的
 ---
-
 # 技能：信息输入持续补全（防AI错误累积）
 
 ## 原始表述

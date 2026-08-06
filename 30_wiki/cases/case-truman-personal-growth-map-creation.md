@@ -1,5 +1,4 @@
 ---
-
 id: case-truman-personal-growth-map-creation
 title: Truman 个人地图创作全历程：七步创作法与 AI 判断（创作者视角）
 type: case
@@ -7,9 +6,7 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
 confidence: 0.7
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-14'
 author: 老顽童
 reviewed_by: 王语嫣（代欧阳锋）
@@ -50,7 +47,6 @@ updated_at: '2026-06-29'
 aliases:
 - 建模能力培训
 ---
-
 # Truman 个人地图创作：从模糊想法到四格天花板的七步
 
 > **Burn line**: AI 出了几个版本全是"分类不明确"——真正突破来自人手工写 5-10 个版本。

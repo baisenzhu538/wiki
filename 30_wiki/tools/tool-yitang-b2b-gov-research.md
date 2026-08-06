@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-b2b-gov-research
 title: To B/To G调研手段：浅中深三层10大评估法
 type: tool
@@ -6,6 +7,10 @@ status: enriched
 author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
+discoverable_by:
+  - To B/To G调研手段：浅中深三层10大评估法
+  - G调研手段
+  - 浅中深三层10大评估法
 quality_labels:
 - actionable
 - validated

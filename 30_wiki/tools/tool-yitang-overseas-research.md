@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-overseas-research
 title: 出海调研手段：浅中深三层10大评估法
 type: tool
@@ -35,6 +36,10 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡5（出海）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡5（出海）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - 出海调研手段：浅中深三层10大评估法
+  - 出海调研手段
+  - 浅中深三层10大评估法
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

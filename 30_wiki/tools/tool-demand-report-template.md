@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-report-template
 title: 需求分析报告模板：融资版与经营版双版本
 type: tool
@@ -23,6 +24,10 @@ aliases:
 source_refs:
 - 00_inbox/五步法之需求分析/需求分析提示词.txt
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt
+discoverable_by:
+  - 需求分析报告模板：融资版与经营版双版本
+  - 需求分析报告模板
+  - 融资版与经营版双版本
 related:
 - '[[tool-demand-assessment-triangle]]'
 - '[[framework-demand-ceiling-four-lines]]'

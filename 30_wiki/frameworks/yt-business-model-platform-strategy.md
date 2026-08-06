@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-platform-strategy
 title: 平台战略：从单边到双边
 type: framework
@@ -49,7 +48,6 @@ discoverable_by:
 - 平台增长
 - 网络效应平台
 ---
-
 # 平台战略：从单边到双边
 
 > 一堂五步法：双边平台是最难做的商业模式。从单边启动，逐步演化到双边，是平台战略的核心。

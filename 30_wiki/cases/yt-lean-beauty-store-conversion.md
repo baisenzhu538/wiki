@@ -1,13 +1,9 @@
 ---
-
 id: yt-lean-beauty-store-conversion
 title: 美业门店：200→4000转化链路才是关键假设
 type: case
 status: draft
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - 200→4000转化链路才是关键假设
   - 美业门店

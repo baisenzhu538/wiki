@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-pitfall-dialer
 title: 踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6
 type: dk
@@ -19,6 +20,10 @@ aliases:
   - 需求→方案跳跃。跳过L3直接到L6
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
+discoverable_by:
+  - 踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6
+  - 小胖猴拨号器
+  - 需求→方案跳跃。跳过L3直接到L6
 related:
 - '[[dk-demand-premature-solution]]'
 - '[[dk-demand-feature-stacking]]'

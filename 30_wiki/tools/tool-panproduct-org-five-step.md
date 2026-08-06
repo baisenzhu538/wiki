@@ -1,4 +1,5 @@
 ---
+
 id: tool-panproduct-org-five-step
 type: tool
 title: 组织场景五步法操作卡
@@ -12,6 +13,8 @@ trust_level: medium-high
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-28
+discoverable_by:
+  - 组织场景五步法操作卡
 quality_labels:
 - actionable
 - cited

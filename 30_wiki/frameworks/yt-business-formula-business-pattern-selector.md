@@ -3,10 +3,7 @@ id: yt-business-formula-business-pattern-selector
 title: 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 type: framework
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - 业务公式商业模式选型框架
   - 业务公式商业模式选型框架：单次成交型vs持续复购型

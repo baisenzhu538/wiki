@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-switching-costs
 title: 转换成本：让用户离不开
 type: concept
@@ -48,7 +46,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 转换成本：让用户离不开
 
 > 一堂五步法：转换成本是用户离开你的成本。成本越高，用户越离不开。

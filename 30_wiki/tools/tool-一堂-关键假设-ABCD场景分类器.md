@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-关键假设-ABCD场景分类器
 title: 工具：关键假设 ABCD 场景分类器——把问题分到商业/决策/增长/转化并标成败·效率
 type: tool
@@ -23,6 +24,11 @@ aliases:
 source_refs:
 - 00_inbox/一堂-关键假设-关键假设ABCD模型_paddle_ocr.txt
 - 00_inbox/一堂-关键假设课-truman-口述.txt L1064-L1074
+discoverable_by:
+  - 工具：关键假设 ABCD 场景分类器——把问题分到商业/决策
+  - 关键假设
+  - 场景分类器
+  - 把问题分到商业/决策/增长/转化并标成败
 related:
 - '[[framework-一堂-关键假设-ABCD模型]]'
 - '[[framework-一堂-关键假设]]'

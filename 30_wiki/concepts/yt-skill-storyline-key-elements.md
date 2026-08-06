@@ -1,9 +1,7 @@
 ---
-
 id: yt-skill-storyline-key-elements
 title: 清单体故事线⑥：关键要素线——用结构拆解'什么才是真正重要的'
-domain:
-- src_unknown
+domain: src-unknown
 diagnostic_signals:
 - framework_lens: 穷尽性 / 避免先下结论
   follow_up_question: 是否一上手就'找关键'导致只看见熟悉因素？
@@ -45,8 +43,6 @@ tags:
 - scene:execution
 - skill-level:intermediate
 ---
-
-
 # 清单体故事线⑥：关键要素线——用结构拆解‘什么才是真正重要的’
 
 ## Condense

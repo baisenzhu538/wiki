@@ -1,13 +1,11 @@
 ---
-
 id: yt-personal-pan-product-concepts
 component_of:
 - src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3300
 language: zh-CN
 query_triggers:
@@ -65,7 +63,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 泛产品设计认知篇：重新理解泛化产品能力
 
 > 来源：一堂《全员必修：泛产品设计认知篇》口述（Truman）。[[yt-model-pan-product-36-strategies]] | [[yt-personal-product-design]] | [[一堂]]

@@ -1,5 +1,4 @@
 ---
-
 id: yt-unit-model-ai-assisted
 confidence: 0.89
 discoverable_by:
@@ -12,10 +11,7 @@ quality_labels:
 - validated
 created_at: 2026-05-24
 difficulty: intermediate
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
@@ -75,7 +71,6 @@ tags:
 - 单元模型
 - 单元模型口述
 ---
-
 # AI+单元模型：TCP-R双导师与出口式咨询实践
 
 > 来源：一堂《AI+单元模型》专题课。当单元模型的底层方法论建立后，AI 可以如何加速分析、降低门槛、提升质量？本工具提供"TCP-R 双导师"框架和"出口式咨询"实践方法，帮助操盘者用 AI 辅助完成从 L3 到 L6 的单元模型分析。

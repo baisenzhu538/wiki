@@ -1,4 +1,5 @@
 ---
+
 id: dk-c4-selfcheck-superseded
 title: C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich
 type: dk
@@ -18,6 +19,10 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
+discoverable_by:
+  - C-4：自检误报 superseded 页面→终态卡片被标记
+  - 自检误报
+  - 页面→终态卡片被标记为未
 related:
 - '[[sprint-2-gate-enrich-evidence]]'
 - '[[pending_unknown]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-continuous-tracking
 title: 持续跟踪：建立动态信息监控机制
 type: tool
@@ -24,6 +25,10 @@ aliases:
   - 建立动态信息监控机制
   - 持续跟踪
   - 持续跟踪：建立动态信息监控机制
+discoverable_by:
+  - 持续跟踪：建立动态信息监控机制
+  - 持续跟踪
+  - 建立动态信息监控机制
 related:
 tags:
 ---

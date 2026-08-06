@@ -1,5 +1,4 @@
 ---
-
 id: case-course-milestone-model
 title: 案例：一堂课程里程碑模型——方法论级建模的六步生产流程
 type: case
@@ -13,10 +12,7 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（课程里程碑模型案例），单一口述来源，内容支撑充分但待第二来源交叉验证
 problem_domains:
@@ -63,7 +59,6 @@ diagnostic_signals:
   follow_up_question: 在模型通过撞击实验之前，是否已明确禁止对外宣讲？
 - 建模能力培训
 ---
-
 # 案例：一堂课程里程碑模型——方法论级建模的六步生产流程
 
 > **Burn line**: 如果八年前 Truman 能穿越到现在，他会把这套课程建模的六句话带走。

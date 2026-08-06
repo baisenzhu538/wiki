@@ -1,12 +1,9 @@
 ---
-
 id: sk-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 aliases:
@@ -63,7 +60,6 @@ diagnostic_signals:
 - 时代要不要练笔记
 - 需要练那个
 ---
-
 # 技能：把PRD写成AI能执行的指令
 
 ## 用一句话讲清楚

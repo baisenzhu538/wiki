@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-yitang-digging-belief
 title: 破案式深挖的信念
 type: dk
@@ -19,6 +20,8 @@ aliases:
   - 破案式深挖的信念
 source_refs:
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
+discoverable_by:
+  - 破案式深挖的信念
 related:
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
@@ -26,7 +29,6 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 updated_at: 2026-06-28
-
 ---
 
 # 破案式深挖的信念

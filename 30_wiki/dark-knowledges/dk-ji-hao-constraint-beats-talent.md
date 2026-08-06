@@ -1,4 +1,5 @@
 ---
+
 id: dk-ji-hao-constraint-beats-talent
 title: 暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计
 type: dk
@@ -21,6 +22,11 @@ source_refs:
 - 10_raw/sources/src_20260617_50e2866a-ai俱乐部-人和ai协作-纪浩-五层结构-结构化.md
 created_at: 2026-06-09
 updated_at: 2026-06-28
+discoverable_by:
+  - 暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动
+  - 暗知识
+  - 约束的力量
+  - 600行文档让AI输出吊打人类手动设计
 related:
 - '[[dk-ji-hao-ai-cant-design-structure]]'
 - '[[dk-wanghuan-spec-trap]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-ai-collaboration-degradation-spiral
 title: 人机协作退化螺旋：飞轮反转的两种死亡模式
 type: dk
@@ -22,6 +23,10 @@ aliases:
   - 飞轮反转的两种死亡模式
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+discoverable_by:
+  - 人机协作退化螺旋：飞轮反转的两种死亡模式
+  - 人机协作退化螺旋
+  - 飞轮反转的两种死亡模式
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-dual-triangle-flywheel-engine]]'

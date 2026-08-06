@@ -1,4 +1,5 @@
 ---
+
 id: dk-p2-tmux-cache
 title: P-2：tmux session 缓存旧配置
 type: dk
@@ -17,6 +18,9 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
+discoverable_by:
+  - P-2：tmux session 缓存旧配置
+  - 缓存旧配置
 related:
 - '[[dk-modeling-timely-review-session-window]]'
 - '[[session-20260619-xingangwan-business-formula-reconstruction]]'

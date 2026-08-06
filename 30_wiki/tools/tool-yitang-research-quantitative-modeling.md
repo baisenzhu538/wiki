@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-quantitative-modeling
 title: 定量建模：用数字说话的分析框架
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - skill-level:intermediate
   - 定量建模
   - 定量建模：用数字说话的分析框架
+  - 用数字说话的分析框架
+discoverable_by:
+  - 定量建模：用数字说话的分析框架
+  - 定量建模
   - 用数字说话的分析框架
 related:
 tags:

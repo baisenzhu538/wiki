@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-supply-chain
 title: 供应链壁垒：资源独占
 type: concept
@@ -48,7 +46,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 供应链壁垒：资源独占
 
 > 一堂五步法：供应链壁垒不是成本低，而是资源独占、关系锁定、难以复制。

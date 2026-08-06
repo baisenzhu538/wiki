@@ -1,14 +1,11 @@
 ---
-
 id: yt-pitch-colloquialization
 component_of:
 - src_unknown
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: intermediate
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1600
 language: zh-CN
 prerequisites:
@@ -61,7 +58,6 @@ tags:
 - 讲香十指模型
 - 超级武器库
 ---
-
 # 讲香·口语化
 
 > 十指模型左手第二指——向下具象。「说人话」的基本功，把书面化的晦涩文字转化为像跟朋友聊天一样自然的口语。

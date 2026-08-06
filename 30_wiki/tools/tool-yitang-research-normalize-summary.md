@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-normalize-summary
 title: 归一总结：整合信息形成统一结论
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - skill-level:intermediate
   - 归一总结
   - 归一总结：整合信息形成统一结论
+  - 整合信息形成统一结论
+discoverable_by:
+  - 归一总结：整合信息形成统一结论
+  - 归一总结
   - 整合信息形成统一结论
 related:
 tags:

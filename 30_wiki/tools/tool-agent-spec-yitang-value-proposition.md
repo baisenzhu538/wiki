@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-value-proposition
 title: OPC 卖点提炼助手 Agent Spec
 type: tool-agent-spec
@@ -25,6 +26,9 @@ source_refs:
 - 30_wiki/tools/tool-yitang-value-proposition-4step.md
 - 30_wiki/tools/tool-opc-sales-dialogue-assistant.md
 - 30_wiki/personal-os/opc-ai-sales-agent-architecture.md
+discoverable_by:
+  - OPC 卖点提炼助手 Agent Spec
+  - 卖点提炼助手
 related:
 - '[[zhu-time-os]]'
 - '[[framework-yitang-scientific-sales-five-step]]'

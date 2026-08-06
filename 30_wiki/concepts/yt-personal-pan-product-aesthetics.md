@@ -1,13 +1,11 @@
 ---
-
 id: yt-personal-pan-product-aesthetics
 component_of:
 - src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3200
 language: zh-CN
 query_triggers:
@@ -66,7 +64,6 @@ tags:
 - skill-level:intermediate
 - 泛产品设计审美卡片
 ---
-
 # 泛产品设计审美篇：永远以最佳实践为追求
 
 > 来源：一堂泛产品设计实操第二课·审美篇口述（Truman）。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-personal-pan-product-concepts]] | [[一堂]]

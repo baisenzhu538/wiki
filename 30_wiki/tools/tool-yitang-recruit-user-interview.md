@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-recruit-user-interview
 title: 招募用户访谈：公开招募+激励设计
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 招募用户访谈：公开招募+激励设计
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 招募用户访谈：公开招募+激励设计
+  - 招募用户访谈
+  - 公开招募+激励设计
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

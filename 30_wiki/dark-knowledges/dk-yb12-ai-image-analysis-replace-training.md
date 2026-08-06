@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb12-ai-image-analysis-replace-training
 title: AI图像分析替代模型训练：快速提取参考图共性
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-16'
+discoverable_by:
+  - AI图像分析替代模型训练：快速提取参考图共性
+  - AI图像分析替代模型训练
+  - 快速提取参考图共性
 related: null
 pipeline:
 - src_unknown

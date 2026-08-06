@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-yitang-expert-interview-5-traps
 title: 专家访谈五大陷阱
 type: dk
@@ -19,6 +20,8 @@ aliases:
   - 访谈五大陷阱
 source_refs:
 - 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
+discoverable_by:
+  - 专家访谈五大陷阱
 related:
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
@@ -26,7 +29,6 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 updated_at: 2026-06-28
-
 ---
 
 # 专家访谈五大陷阱

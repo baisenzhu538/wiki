@@ -1,4 +1,5 @@
 ---
+
 id: dk-c2-dual-status-machine
 title: C-2：Schema status 字段混用两个状态机→字段值互相污染
 type: dk
@@ -19,6 +20,9 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-16'
+discoverable_by:
+  - C-2：Schema status 字段混用两个状态机→字段
+  - 字段混用两个状态机→字段值互相污染
 related:
 - '[[kdo-ec-industrialization-migration-proposal]]'
 - '[[kdo-protocol-implementation-roadmap]]'

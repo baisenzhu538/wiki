@@ -4,9 +4,8 @@ title: 技能：将学习成果沉淀为 PRD 文档
 type: tool
 status: reviewed
 domain:
-- src_unknown
-- yitang- src_unknown
-- src_unknown
+  - src-unknown
+  - yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 aliases:
@@ -23,6 +22,9 @@ tools_required:
 - src_unknown
 prerequisite_skills:
 - src_unknown
+discoverable_by:
+  - 技能：将学习成果沉淀为 PRD 文档
+  - 将学习成果沉淀为
 related:
 - '[[tool-ai-prd-for-ai]]'
 - '[[prd-as-ai-instruction]]'
@@ -54,7 +56,6 @@ tags:
 - 半肥猫
 - 学习落地
 ---
-
 # 技能：将学习成果沉淀为 PRD 文档
 
 ## 用一句话讲清楚

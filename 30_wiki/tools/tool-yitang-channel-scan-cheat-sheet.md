@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-channel-scan-cheat-sheet
 type: tool
 title: 渠道扫描小抄：线上/线下/转化/推荐获客清单
@@ -11,6 +12,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: pending
 created_at: 2026-06-27
+discoverable_by:
+  - 渠道扫描小抄：线上/线下/转化/推荐获客清单
+  - 渠道扫描小抄
+  - 线上/线下/转化/推荐获客清单
 quality_labels:
 - actionable
 - cited

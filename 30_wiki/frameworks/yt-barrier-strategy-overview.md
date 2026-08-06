@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-strategy-overview
 title: 壁垒策略总纲：从增长到可持续优势
 type: framework
@@ -50,7 +49,6 @@ discoverable_by:
 - 竞争壁垒
 - 定价权
 ---
-
 # 壁垒策略总纲：从增长到可持续优势
 
 > 一堂五步法：壁垒是第五步，但不是最后一步。壁垒保护增长成果，增长强化壁垒。两者循环。

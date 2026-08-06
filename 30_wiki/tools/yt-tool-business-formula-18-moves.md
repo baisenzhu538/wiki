@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-business-formula-18-moves
 title: 降龙十八掌：假设驱动业务增长的 18 招全清单（五环节 3/4/4/4/3）
 type: tool
@@ -34,6 +35,11 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3266-L3292
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3294-L3386
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2756-L2902
+discoverable_by:
+  - 降龙十八掌：假设驱动业务增长的 18 招全清单五环节 3/4
+  - 降龙十八掌
+  - 假设驱动业务增长的
+  - 招全清单五环节
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-abc-model]]'

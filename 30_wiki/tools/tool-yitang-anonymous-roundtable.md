@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-anonymous-roundtable
 title: 匿名座谈：以第三方身份组织行业讨论
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 匿名座谈：以第三方身份组织行业讨论
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 匿名座谈：以第三方身份组织行业讨论
+  - 匿名座谈
+  - 以第三方身份组织行业讨论
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

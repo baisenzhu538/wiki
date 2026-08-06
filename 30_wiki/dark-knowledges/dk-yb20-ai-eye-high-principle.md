@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb20-ai-eye-high-principle
 title: AIGC眼高原则：审美先于技术
 type: dk
@@ -20,6 +21,10 @@ source_refs:
 - 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-16'
+discoverable_by:
+  - AIGC眼高原则：审美先于技术
+  - AIGC眼高原则
+  - 审美先于技术
 related: null
 pipeline:
 - src_unknown

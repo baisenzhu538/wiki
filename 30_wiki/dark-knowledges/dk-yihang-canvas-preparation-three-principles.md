@@ -1,4 +1,5 @@
 ---
+
 id: dk-yihang-canvas-preparation-three-principles
 title: 画布筹备三原则：花总转折 / 先加后减 / 15分钟出租车
 type: dk
@@ -23,6 +24,12 @@ aliases:
   - 花总转折
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+discoverable_by:
+  - 画布筹备三原则：花总转折 / 先加后减 / 15分钟出租车
+  - 画布筹备三原则
+  - 花总转折
+  - 先加后减
+  - 15分钟出租车
 related:
 - '[[tool-yihang-dual-triangle-canvas]]'
 - '[[concept-yihang-dual-triangle-core]]'

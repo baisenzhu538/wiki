@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-payment-collection-playbook
 title: 回款 / 催款 / 履约阶段 playbook
 type: tool
@@ -24,6 +25,9 @@ aliases:
 source_refs:
 - 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt L320-L354,L420-L458,L560-L588,L824-L832,L1386-L1394,L1466
 - 00_inbox/销售专题/_processed/销售工具武器库_vlm.md L48-L51
+discoverable_by:
+  - 回款 / 催款 / 履约阶段 playbook
+  - 履约阶段
 related:
 - '[[dk-yitang-sales-common-pitfalls]]'
 - '[[framework-yitang-sales-incentive-6d]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-代入场景推演要素法
 title: 技能：代入场景推演要素法
 type: tool
@@ -31,6 +32,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：代入场景推演要素法
+  - 代入场景推演要素法
 related:
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[tool-对标借鉴他人决策维度]]'

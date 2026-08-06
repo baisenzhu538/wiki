@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-07-strategy-vs-dividend
 title: 战略驱动 vs 红利驱动：前者创造路径，后者依赖环境
 type: dk
@@ -18,6 +19,11 @@ aliases:
   - 红利驱动
 source_refs:
 - src_unknown
+discoverable_by:
+  - 战略驱动 vs 红利驱动：前者创造路径，后者依赖环境
+  - 战略驱动
+  - 红利驱动
+  - 前者创造路径，后者依赖环境
 related:
 - '[[dk-strategy-06-dividend-to-strategy]]'
 - '[[dk-strategy-03-advantage-temporary]]'

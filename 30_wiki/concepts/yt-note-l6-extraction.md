@@ -1,11 +1,9 @@
 ---
-
 id: yt-note-l6-extraction
 title: 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品
 type: concept
 status: reviewed
-domain:
-- src_unknown
+domain: src-unknown
 language: zh-CN
 version: 2
 confidence: 0.89
@@ -63,7 +61,6 @@ tags:
 - 时代清单体笔记
 - 时代请单体笔记
 ---
-
 # 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品
 
 ## 用一句话讲清楚

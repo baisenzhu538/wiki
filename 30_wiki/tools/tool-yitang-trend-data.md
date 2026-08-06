@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-trend-data
 title: 趋势数据查询：行业走向的定量判断
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 趋势数据查询：行业走向的定量判断
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 趋势数据查询：行业走向的定量判断
+  - 趋势数据查询
+  - 行业走向的定量判断
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

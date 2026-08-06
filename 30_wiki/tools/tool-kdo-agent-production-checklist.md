@@ -1,4 +1,5 @@
 ---
+
 id: tool-kdo-agent-production-checklist
 title: KDO Agent 生产 SOP 清单：从业务任务到可运行 Agent 的五步法
 type: tool
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - KDO Agent 生产 SOP 清单：从业务任务到可运行
+  - 从业务任务到可运行
+  - 的五步法
 quality_labels:
 - actionable
 aliases:

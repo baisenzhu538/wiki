@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-weekly-modeling-engine
 title: 案例：一堂的"周对周建模迭代"——把周五课程逼成公司增长引擎
 type: case
@@ -51,10 +50,7 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-15'
 confidence: 0.8
 trust_level: medium
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 diagnostic_signals:
 - framework_lens: 组织学习闭环
   follow_up_question: 过去10次交付中，有多少次明确改进了某个模型或SOP？
@@ -68,7 +64,6 @@ related:
 - '[[case-yitang-model-valuation-flywheel]]'
 - 建模能力培训
 ---
-
 # 案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎
 
 ## 原始表述

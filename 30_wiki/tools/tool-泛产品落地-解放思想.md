@@ -1,4 +1,5 @@
 ---
+
 id: tool-泛产品落地-解放思想
 title: 落地卡片：解放思想
 type: tool
@@ -18,6 +19,10 @@ aliases:
   - 解放思想
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-解放思想_vlm_desc.md
+discoverable_by:
+  - 落地卡片：解放思想
+  - 落地卡片
+  - 解放思想
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

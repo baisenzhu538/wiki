@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-radar-model-not-result
 title: 复杂评选别让 CEO 拍结果，只让 CEO 审模型
 type: dk
@@ -21,6 +22,11 @@ aliases:
 source_refs:
 confidence: 0.88
 trust_level: medium
+discoverable_by:
+  - 复杂评选别让 CEO 拍结果，只让 CEO 审模型
+  - 复杂评选别让
+  - 拍结果，只让
+  - 审模型
 related:
 tags:
 author: 老顽童

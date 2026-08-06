@@ -3,7 +3,7 @@ id: tool-月白-80分效率设计策略
 title: 技能：80分效率设计策略
 type: tool
 status: draft
-domain: design- design
+domain: design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 aliases:
@@ -29,6 +29,9 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+discoverable_by:
+  - 技能：80分效率设计策略
+  - 80分效率设计策略
 related:
 - '[[tool-月白-工厂对接信息清单制作]]'
 - '[[tool-月白-小红书双重搜索法]]'
@@ -44,7 +47,6 @@ tags:
 - skill-level:beginner
 - 天花板
 ---
-
 # 技能：80分效率设计策略
 
 ## 原始表述

@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-strategy-overview
 title: 增长策略总纲：从商业模式到增长飞轮
 type: framework
@@ -50,7 +49,6 @@ discoverable_by:
 - 增长方法论
 - 规模化增长
 ---
-
 # 增长策略总纲：从商业模式到增长飞轮
 
 > 一堂五步法：增长不是单一动作，而是系统优化。增长飞轮 = 获客 × 激活 × 留存 × 变现 × 推荐。

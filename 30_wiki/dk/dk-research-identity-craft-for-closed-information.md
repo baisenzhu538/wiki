@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-research-identity-craft-for-closed-information
 title: 为获取封闭情报设计合法身份
 type: dk
@@ -15,6 +16,8 @@ aliases:
   - 取封闭情报设计合法身份
 source_refs:
 - 60_feedback/audit/synthesis_research.md
+discoverable_by:
+  - 为获取封闭情报设计合法身份
 related:
   - "[[case-yitang-competitor-pricing-intelligence]]"
   - "[[case-yitang-elderly-home-roleplay]]"

@@ -1,12 +1,10 @@
 ---
-
 id: yt-entrepreneur-259-milestone
 title: "259里程碑"
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1851
 language: zh-CN
 query_triggers:

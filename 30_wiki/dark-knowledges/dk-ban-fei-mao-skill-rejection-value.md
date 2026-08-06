@@ -1,4 +1,5 @@
 ---
+
 id: dk-ban-fei-mao-skill-rejection-value
 title: 暗知识：Skill 的最大价值不是生成，是拒绝
 type: dk
@@ -21,6 +22,10 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-19'
 review_date: '2026-06-19'
+discoverable_by:
+  - 暗知识：Skill 的最大价值不是生成，是拒绝
+  - 暗知识
+  - 的最大价值不是生成，是拒绝
 related:
 - '[[dk-wanghuan-spec-trap]]'
 - '[[dk-wanghuan-agent-platform-director-mode]]'

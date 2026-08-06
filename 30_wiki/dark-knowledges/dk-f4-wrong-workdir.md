@@ -1,4 +1,5 @@
 ---
+
 id: dk-f4-wrong-workdir
 title: F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-19'
+discoverable_by:
+  - F-KDO-004：错误工作目录执行 pipeline 命令
+  - 错误工作目录执行
+  - 命令→命令静默失败、无报错、无文件变更
 related:
 - '[[tool-agent-research-pipeline]]'
 - '[[kdo-input-channel-strategy-2026-06-16]]'

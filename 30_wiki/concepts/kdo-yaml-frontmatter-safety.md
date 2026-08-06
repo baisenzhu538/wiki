@@ -1,11 +1,9 @@
 ---
-
 id: kdo-yaml-frontmatter-safety
 title: KDO YAML Frontmatter 安全操作指南
 type: concept
 status: reviewed
-domain:
-- src_unknown
+domain: src-unknown
 created_at: '2026-05-31'
 updated_at: '2026-06-17'
 target_roles:
@@ -56,7 +54,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # KDO YAML Frontmatter 安全操作指南
 
 > **背景**：2026-05-31 Data Curator Phase 2 Clean 因手写 YAML 解析器导致 `visual_analysis` 4 图→5 字符串、`related` 4 链接→`level: intermediate` 的数据丢失。教训：**不要手写 YAML 解析器，用标准库**。

@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-pitfall-indonesia-insurance
 title: 踩坑：印尼寿险——场景错配。Situation变了，需求不存在
 type: dk
@@ -19,6 +20,10 @@ aliases:
   - 需求不存在
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
+discoverable_by:
+  - 踩坑：印尼寿险——场景错配。Situation变了，需求不存
+  - 印尼寿险
+  - 场景错配。Situation变了，需求不存在
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-five-step-cross-step-1]]'

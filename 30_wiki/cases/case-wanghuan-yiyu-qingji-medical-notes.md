@@ -1,5 +1,4 @@
 ---
-
 id: case-wanghuan-yiyu-qingji-medical-notes
 title: 王欢案例：医语轻记用语音录入缩短病历时间
 type: case
@@ -19,11 +18,7 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 diagnostic_signals:
@@ -53,7 +48,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 王欢案例：医语轻记用语音录入缩短病历时间
 
 > **Burn line**: 一个连设计稿都没有的原型，因为长在真实痛点上，第一天就活下来了。

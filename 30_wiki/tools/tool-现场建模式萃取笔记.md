@@ -3,9 +3,9 @@ id: tool-现场建模式萃取笔记
 title: 技能：现场建模式萃取笔记
 type: tool
 domain:
-- learning-methodology- product
-- management
-- yitang
+  - learning-methodology
+  - management
+  - yitang
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f
@@ -28,6 +28,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：现场建模式萃取笔记
+  - 现场建模式萃取笔记
 related:
 - '[[tool-提升笔记练习频次的方法]]'
 - '[[tool-获取他人反馈优化笔记]]'
@@ -44,7 +47,6 @@ tags:
 - skill-level:beginner
 - 清单体笔记训练段位图
 ---
-
 # 技能：现场建模式萃取笔记
 
 ## 原始表述

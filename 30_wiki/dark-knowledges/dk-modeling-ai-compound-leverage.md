@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-ai-compound-leverage
 title: AI 加杠杆最大的场景是建模，因为好模型会被反复调用
 type: dk
@@ -20,6 +21,9 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 confidence: 0.89
 trust_level: medium
+discoverable_by:
+  - AI 加杠杆最大的场景是建模，因为好模型会被反复调用
+  - 加杠杆最大的场景是建模，因为好模型会被反复调用
 related:
 - '[[yitang-domain-digest]]'
 tags:

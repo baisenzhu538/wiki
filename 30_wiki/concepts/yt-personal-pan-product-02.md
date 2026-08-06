@@ -1,13 +1,11 @@
 ---
-
 id: yt-personal-pan-product-02
 component_of:
 - src_unknown
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3400
 language: zh-CN
 query_triggers:
@@ -64,7 +62,6 @@ tags:
 - skill-level:intermediate
 - 泛产品设计落地篇
 ---
-
 # 泛产品设计落地篇：无限进步与持续打磨
 
 > 来源：一堂泛产品设计系列最后一课·落地篇口述（Truman）。[[yt-model-pan-product-execution-toolkit]] | [[yt-personal-pan-product-concepts]] | [[一堂]]

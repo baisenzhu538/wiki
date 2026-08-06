@@ -3,9 +3,10 @@ id: tool-增强数据供给
 title: 技能：增强数据供给
 type: tool
 domain:
-- learning-methodology- design
-- yitang
-- decision-making
+  - learning-methodology
+  - design
+  - yitang
+  - decision-making
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
@@ -31,6 +32,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：增强数据供给
+  - 增强数据供给
 related:
 - '[[tool-反向提示获取优化建议]]'
 - '[[tool-多轮确认防偏差]]'

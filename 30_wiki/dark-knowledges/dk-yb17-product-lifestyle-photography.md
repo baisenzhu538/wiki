@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb17-product-lifestyle-photography
 title: 产品场景化拍摄：从商品到生活方式的升维
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-16'
+discoverable_by:
+  - 产品场景化拍摄：从商品到生活方式的升维
+  - 产品场景化拍摄
+  - 从商品到生活方式的升维
 related: null
 pipeline:
 - src_unknown

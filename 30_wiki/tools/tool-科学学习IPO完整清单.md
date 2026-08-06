@@ -1,4 +1,5 @@
 ---
+
 id: tool-科学学习IPO完整清单
 title: 科学学习IPO完整清单：Input-Process-Output学习系统
 type: tool
@@ -17,6 +18,10 @@ aliases:
   - 科学学习IPO完整清单：InputProcessOutput学习系统
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-科学学习IPO完整清单_vlm_desc.md
+discoverable_by:
+  - 科学学习IPO完整清单：Input-Process-Outp
+  - 科学学习IPO完整清单
+  - Output学习系统
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

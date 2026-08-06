@@ -1,12 +1,9 @@
 ---
-
 id: case-ban-fei-mao-from-assignment-to-tool
 title: 案例：半肥猫把一堂课程作业变成可复用调研工具
 type: case
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
 aliases:
@@ -53,7 +50,6 @@ tags:
 - 半肥猫
 - 学习落地
 ---
-
 # 案例：半肥猫把一堂课程作业变成可复用调研工具
 
 > 半肥猫将一堂《AIGC调研方法》课程作业用自己的真实业务重做，通过给AI提供结构化上下文、连续四轮纠偏把AI从"推理"逼到"证据"，最终把单次作业沉淀为一套可复用的"从模糊问题到证据决策型报告"调研工具。

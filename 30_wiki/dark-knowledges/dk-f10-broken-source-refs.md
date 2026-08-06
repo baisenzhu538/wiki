@@ -1,4 +1,5 @@
 ---
+
 id: dk-f10-broken-source-refs
 title: F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
+discoverable_by:
+  - F-KDO-010：溯源断裂→source_refs 为空，
+  - 溯源断裂→source_refs
+  - 为空，知识卡片无法追溯到原始材料
 related:
 - '[[kdo-input-channel-strategy-2026-06-16]]'
 - '[[kdo-protocol]]'

@@ -1,4 +1,5 @@
 ---
+
 domain:
 - demand-analysis
 id: yt-demand-scope-creep
@@ -21,6 +22,10 @@ updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
+discoverable_by:
+  - 需求蔓延：从MVP到全功能的陷阱
+  - 需求蔓延
+  - 从MVP到全功能的陷阱
 related:
 - '[[yt-demand-hierarchy-model]]'
 - '[[yt-demand-fake-demand-detection]]'

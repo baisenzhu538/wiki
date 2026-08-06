@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-cash-flow
 title: 现金流管理：商业模式的血液循环
 type: concept
@@ -50,7 +48,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 现金流管理：商业模式的血液循环
 
 > 一堂五步法：现金流是商业模式的血液循环。利润高但现金流断裂，企业照样死。

@@ -1,4 +1,5 @@
 ---
+
 id: dk-decision-when-to-defer
 title: 何时应该推迟决策
 type: dk
@@ -6,6 +7,8 @@ domain:
 - decision-science
 - yitang
 status: reviewed
+discoverable_by:
+  - 何时应该推迟决策
 quality_labels:
 - cited
 - validated

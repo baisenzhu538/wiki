@@ -1,12 +1,9 @@
 ---
-
 id: yt-unit-model-dynamic
 confidence: 0.88
 created_at: 2026-05-24
 difficulty: advanced
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -82,7 +79,6 @@ tags:
 - 动态预测
 - 单元模型
 ---
-
 # 动态单元模型：规模变量、拐点预判与规模经济对抗
 
 > 来源：一堂《单元模型实操系列课》第四课——动态预测篇。当单元模型在单点验证成功后，如何预判规模化过程中的变化？本工具提供"规模变量/业务变量/环境变量"三维分析框架、拐点识别方法和规模经济对抗策略，帮助操盘手从"算清现在"走向"预判未来"。

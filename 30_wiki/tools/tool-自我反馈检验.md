@@ -3,8 +3,9 @@ id: tool-自我反馈检验
 title: 技能：自我反馈检验
 type: tool
 domain:
-- content-production- master
-- yitang
+  - content-production
+  - master
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -30,6 +31,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：自我反馈检验
+  - 自我反馈检验
 related:
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[tool-辩证讨论深化]]'

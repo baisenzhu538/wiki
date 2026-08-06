@@ -11,10 +11,10 @@ confidence: 0.85
 trust_level: medium
 language: zh-CN
 domain:
-- video_production
-- multimodal
-- ai-agent
-- mcp
+  - video-production
+  - multimodal
+  - ai-agent
+  - mcp
 aliases:
   - OpenMontage中文MCP版：AI视频工厂
   - 中文
@@ -25,6 +25,9 @@ source_refs:
 - 40_outputs/capabilities/skills/openmontage-video/SKILL.md
 - https://github.com/noah-1106/openmontage-zh-mcp
 - https://github.com/calesthio/OpenMontage
+discoverable_by:
+  - OpenMontage 中文 MCP 版：AI 视频工厂
+  - 视频工厂
 related:
 - hongqigong-profile
 - agent-native-card-design

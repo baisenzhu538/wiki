@@ -5,8 +5,7 @@ component_of:
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1204
 language: zh-CN
 prerequisites:
@@ -61,7 +60,6 @@ tags:
 - 泛产品设计
 - 用户卡片
 ---
-
 # 多视角思考：综合内部/外部/角色考量
 
 > 需求工具箱第 6 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

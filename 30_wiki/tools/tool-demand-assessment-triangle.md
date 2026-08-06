@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-assessment-triangle
 title: 需求评估三角形：普遍性×频次×刚性
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 需求评估三角形：普遍性×频次×刚性
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估三角形_ocr_text.md
+discoverable_by:
+  - 需求评估三角形：普遍性×频次×刚性
+  - 需求评估三角形
+  - 普遍性×频次×刚性
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-项目方案评估三角形]]'

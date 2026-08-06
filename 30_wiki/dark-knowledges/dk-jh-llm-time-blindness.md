@@ -1,4 +1,5 @@
 ---
+
 id: dk-jh-llm-time-blindness
 title: LLM时间盲症：AI不知道现在是什么时候——纪浩的隐形风险识别
 type: dk
@@ -19,6 +20,11 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
+discoverable_by:
+  - LLM时间盲症：AI不知道现在是什么时候——纪浩的隐形风险识
+  - LLM时间盲症
+  - AI不知道现在是什么时候
+  - 纪浩的隐形风险识别
 related:
 - '[[dk-f7-surface-translation]]'
 - '[[dk-my-ai-landing-three-barriers]]'

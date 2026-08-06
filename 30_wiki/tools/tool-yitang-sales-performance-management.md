@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-sales-performance-management
 title: 一堂销售业绩管理三步法
 type: tool
@@ -25,6 +26,8 @@ source_refs:
 - 00_inbox/销售专题/李蕊-销售体系之三-销售过程管理-口述.txt L1426-L1462,L1488-L1490
 - 00_inbox/销售专题/李蕊-销售系统之五-销售工具箱-口述.txt L2150-L2154
 - 00_inbox/销售专题/_processed/业绩推进管理-一堂业绩管理拆解画布-课程匹配工具_vlm.md L21-L24,L79-L82
+discoverable_by:
+  - 一堂销售业绩管理三步法
 related:
 - '[[case-yitang-sales-transformation-meirongyuan]]'
 - '[[case-yitang-sales-transformation-tuliaogongsi]]'

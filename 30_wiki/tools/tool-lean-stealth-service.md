@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-stealth-service
 title: 偷偷服务：用人工模拟产品后端
 type: tool
@@ -20,6 +21,10 @@ aliases:
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212212_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212212_vlm_desc.md
+discoverable_by:
+  - 偷偷服务：用人工模拟产品后端
+  - 偷偷服务
+  - 用人工模拟产品后端
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'

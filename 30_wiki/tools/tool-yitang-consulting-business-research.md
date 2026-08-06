@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-consulting-business-research
 title: 咨询类业务调研手段：浅中深三层10大评估法
 type: tool
@@ -35,6 +36,10 @@ source_refs:
 - 00_inbox/调研专题/调研手段卡4（咨询类）_ocr_text.md
 - 00_inbox/调研专题/调研手段卡4（咨询类）_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - 咨询类业务调研手段：浅中深三层10大评估法
+  - 咨询类业务调研手段
+  - 浅中深三层10大评估法
 related:
 - '[[tool-yitang-tech-project-research]]'
 - '[[tool-yitang-overseas-research]]'

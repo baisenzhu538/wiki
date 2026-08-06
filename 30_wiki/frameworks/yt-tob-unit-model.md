@@ -3,11 +3,7 @@ id: yt-tob-unit-model
 title: To B 单元模型选择与跑通
 type: framework
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - ToB单元模型选择与跑通
   - framework_lens: 业务单元总毛利覆盖所有成本

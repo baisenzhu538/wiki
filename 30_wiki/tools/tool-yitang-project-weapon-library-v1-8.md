@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-weapon-library-v1-8
 title: 项目管理武器库V1.8入口索引卡
 type: tool
@@ -30,6 +31,8 @@ aliases:
   - [[yt-tool-project-health-radar]]
   - 项目管理武器库V1.8入口索引卡
 source_refs:
+discoverable_by:
+  - 项目管理武器库V1.8入口索引卡
 related:
 created_at: 2026-07-08
 updated_at: 2026-07-08

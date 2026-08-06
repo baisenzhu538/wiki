@@ -1,10 +1,8 @@
 ---
-
 id: case-five-step-fake-vs-real-barriers
 title: 案例：五步法中识别真壁垒和假壁垒
 type: case
-domain:
-- src_unknown
+domain: src-unknown
 aliases:
   - Truman
   - 五步法中识别真壁垒和假壁垒
@@ -71,7 +69,6 @@ related:
 - 一堂五步法
 - 假的壁垒
 ---
-
 # 案例：五步法中识别真壁垒和假壁垒
 
 > 五步法第五步"壁垒"是最容易被创业者自我欺骗的环节。Truman 在壁垒篇中反复强调：**"你列的壁垒清单里，至少有一半是假的。"**

@@ -1,5 +1,4 @@
 ---
-
 id: yt-barrier-identification-skill
 confidence: 0.85
 discoverable_by:
@@ -12,8 +11,7 @@ quality_labels:
 - validated
 created_at: 2026-06-11
 difficulty: advanced
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3200
 language: zh-CN
 query_triggers:
@@ -73,7 +71,6 @@ tags:
 - 假的壁垒
 - 规模经济分析武器库
 ---
-
 # 壁垒识别与构建技能：从真假壁垒到护城河建设
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-five-step-method]] | [[yt-unit-model-three-tools]]

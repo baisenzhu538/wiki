@@ -1,12 +1,9 @@
 ---
-
 id: yt-note-fact-pattern-insight
 title: 事实→规律→见解：深度思考笔记的三段论结构
 type: concept
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 language: zh-CN
 version: 1
 confidence: 0.75
@@ -56,7 +53,6 @@ tags:
 - skill-level:intermediate
 - 时代请单体笔记
 ---
-
 # 事实→规律→见解：深度思考笔记的三段论结构
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的内部标准三段论：**事实是什么？规律是什么？见解是什么？** "你只要罗列足够多的真实的事实，很多规律它自然而然就呈现了。前提是你的笔记能到这个程度。"

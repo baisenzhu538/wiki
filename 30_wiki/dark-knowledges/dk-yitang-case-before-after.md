@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-case-before-after
 title: Before-After 对比心法：四维度 + 过去往往有合理性
 type: dk
@@ -12,6 +13,11 @@ reviewed_by: 待审
 review_date: '2026-07-20'
 created_at: '2026-07-20'
 updated_at: '2026-07-20'
+discoverable_by:
+  - Before-After 对比心法：四维度 + 过去往往有合
+  - 对比心法
+  - 四维度
+  - 过去往往有合理性
 quality_labels:
 - actionable
 - insight

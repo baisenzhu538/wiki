@@ -1,10 +1,15 @@
 ---
+
 id: tool-lean-presell
 title: 做预售：用真实订单验证付费意愿
 type: tool
 status: enriched
 author: 老顽童
 reviewed_by: pending
+discoverable_by:
+  - 做预售：用真实订单验证付费意愿
+  - 做预售
+  - 用真实订单验证付费意愿
 quality_labels:
 - actionable
 - validated

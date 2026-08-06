@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-shampoo-case
 merged_into: case-shampoo-product-kernel
 merge_date: '2026-07-08'
@@ -54,7 +52,6 @@ tags:
 - 产品内核
 - 洗发水案例
 ---
-
 # 洗发水案例：产品内核实战——从"去屑"到"专业形象"
 
 > 一堂五步法：产品内核案例——高端洗发水，内核不是"去屑功能"，而是"有效去屑+专业形象"。

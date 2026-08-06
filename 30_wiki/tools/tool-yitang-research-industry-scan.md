@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-industry-scan
 title: 行业扫描：快速建立行业全貌认知
 type: tool
@@ -24,6 +25,10 @@ aliases:
   - 快速建立行业全貌认知
   - 行业扫描
   - 行业扫描：快速建立行业全貌认知
+discoverable_by:
+  - 行业扫描：快速建立行业全貌认知
+  - 行业扫描
+  - 快速建立行业全貌认知
 related:
 tags:
 ---

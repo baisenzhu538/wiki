@@ -3,10 +3,7 @@ id: yt-lean-qualitative-quantitative-research
 title: 定性调研与定量调研的边界：证伪优先、阶段匹配
 type: framework
 status: draft
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 author: 张磊
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

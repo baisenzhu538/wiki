@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-social-engineering-research
 title: 社会工程学调研：身份设计与信息获取的合法边界
 type: tool
@@ -32,6 +33,10 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
+discoverable_by:
+  - 社会工程学调研：身份设计与信息获取的合法边界
+  - 社会工程学调研
+  - 身份设计与信息获取的合法边界
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

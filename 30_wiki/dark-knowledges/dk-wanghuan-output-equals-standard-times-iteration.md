@@ -1,4 +1,5 @@
 ---
+
 id: dk-wanghuan-output-equals-standard-times-iteration
 title: 王欢暗知识：输出质量 = 标准 × 迭代
 type: dk
@@ -8,6 +9,10 @@ domain:
 - human-ai-collaboration
 - ai-collaboration
 - yitang
+discoverable_by:
+  - 王欢暗知识：输出质量 = 标准 × 迭代
+  - 王欢暗知识
+  - 输出质量
 quality_labels:
 - cited
 - quality

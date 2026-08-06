@@ -1,4 +1,5 @@
 ---
+
 id: tool-对标借鉴他人决策维度
 title: 技能：对标借鉴他人决策维度
 type: tool
@@ -31,6 +32,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：对标借鉴他人决策维度
+  - 对标借鉴他人决策维度
 related:
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[tool-辩证讨论深化]]'

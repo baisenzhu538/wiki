@@ -1,10 +1,8 @@
 ---
-
 id: yt-foresight-probability-engineering
 title: 概率工程：把小概率变成大概率的方法论
 type: concept
-domain:
-- src_unknown
+domain: src-unknown
 aliases:
   - 把小概率变成大概率的方法论
   - 概率变成大概率的方法论
@@ -60,7 +58,6 @@ tags:
 - skill-level:intermediate
 - 机会预判课
 ---
-
 # 概率工程：把小概率变成大概率的方法论
 
 ## Core Claims

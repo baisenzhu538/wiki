@@ -1,4 +1,5 @@
 ---
+
 id: tool-reverse-image-search
 title: 反向图片搜索：追踪图片来源和真实性
 type: tool
@@ -22,6 +23,10 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 反向图片搜索：追踪图片来源和真实性
+  - 反向图片搜索
+  - 追踪图片来源和真实性
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

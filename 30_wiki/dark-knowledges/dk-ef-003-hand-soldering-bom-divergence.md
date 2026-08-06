@@ -1,4 +1,5 @@
 ---
+
 id: dk-ef-003-hand-soldering-bom-divergence
 title: 手焊板的隐性修改：原型调通了但量产就是不行
 type: dk
@@ -18,6 +19,10 @@ source_refs:
 - 90_control/electronics-practice/failure-modes-electronics.md
 created_at: 2026-06-07
 updated_at: '2026-06-16'
+discoverable_by:
+  - 手焊板的隐性修改：原型调通了但量产就是不行
+  - 手焊板的隐性修改
+  - 原型调通了但量产就是不行
 related:
 - '[[dk-ef-002-bom-version-async]]'
 - '[[case-guang-leng-dian-zi-hx-smj]]'

@@ -1,25 +1,29 @@
 ---
 id: case-yihang-dual-triangle-一堂双三角-龙虾训练实验
-title: 双三角案例：龙虾训练"灵魂赋能"实验——Agent 角色配置
+title: "双三角案例：龙虾训练灵魂赋能实验——Agent 角色配置"
 type: case
-status: enriched
-author: 洪七公（VLM提取�? 老顽童（enrich�?reviewed_by: ŷ����
-review_date: 2026-07-04
-confidence: 0.75
-trust_level: medium
-language: zh-CN
-created_at: 2026-07-04
-updated_at: 2026-07-04
+status: draft
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - panproduct
+author: 洪七公（VLM提取） 老顽童（enrich）
+reviewed_by: 待审
+confidence: 0.7
+trust_level: low
 source_refs:
-- 00_inbox/人机协作双三�?_processed/一堂双三角-龙虾训练实验_vlm.md
+  - src_unknown
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[method-dual-triangle-flywheel-engine]]"
+created_at: 2026-06-30
+updated_at: 2026-08-04
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+aliases:
+  - 双三角案例：龙虾训练灵魂赋能实验——Agent 角色配置
+discoverable_by:
+  - 双三角案例：龙虾训练灵魂赋能实验——Agent 角色配置
 ---
-
 # 双三角案例：龙虾训练"灵魂赋能"实验——Agent 角色配置
 
 > **一句话定义**：一�?2026 春季马拉松中�?龙虾训练"实验——训练的本质就是几个文档，一次性拉满做�?Max 水平。用双三角六要素配置 Agent 角色，实�?灵魂赋能"。核心洞察：Agent 的能力上限取决于你给它的配置文档质量�?

@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-AI工具选型决策
 title: 技能：AI工具选型决策
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -44,7 +43,6 @@ tags:
 - skill-level:beginner
 - 自用的
 ---
-
 # 技能：AI工具选型决策
 
 ## 原始表述

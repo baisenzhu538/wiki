@@ -1,4 +1,5 @@
 ---
+
 id: dk-skill-market-agent-self-install
 title: 暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述
 type: dk
@@ -21,6 +22,11 @@ source_refs:
 - src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 confidence: 0.88
 trust_level: medium
+discoverable_by:
+  - 暗知识：Skills Market 不是给人看的说明书，而是
+  - 暗知识
+  - 不是给人看的说明书，而是给
+  - 自安装的自描述
 related:
 - - - plan_20260621_skill-iteration-standard
 - - - dk-ban-fei-mao-skill-rejection-value

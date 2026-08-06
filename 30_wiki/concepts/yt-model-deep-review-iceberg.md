@@ -35,6 +35,13 @@ discoverable_by:
 related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-business-formula-parameter-iceberg]]'
+- '[[framework-一堂-复盘本质与三要素]]'
+- '[[framework-一堂-四象限复盘法]]'
+- '[[framework-一堂-团队复盘四阶段12策略]]'
+- '[[case-一堂-A加社失败归因→一堂诞生]]'
+- '[[case-一堂-迷你访谈五周迭代]]'
+- '[[case-一堂-教材品控事故]]'
+- '[[case-莹莹-before-after复盘]]'
 tags:
 - audience:general
 - scene:reference

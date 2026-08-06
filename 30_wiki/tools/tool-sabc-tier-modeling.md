@@ -14,10 +14,11 @@ source_refs:
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 - 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
+discoverable_by:
+  - SABC分级/段位图建模法：给事物排优先级与成长路径
+  - SABC分级/段位图建模法
+  - 给事物排优先级与成长路径
 quality_labels:
 - actionable
 - cited
@@ -56,7 +57,6 @@ diagnostic_signals:
 - 建模能力培训
 - 抽象建模
 ---
-
 # SABC分级/段位图建模法：给事物排优先级与成长路径
 
 ## 用一句话讲清楚

@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-landing-five-steps
 title: 技能：AI落地五步执行流程
 type: tool
@@ -21,6 +22,9 @@ wiki_refs: null
 definition_of_done: null
 tools_required: null
 prerequisite_skills: null
+discoverable_by:
+  - 技能：AI落地五步执行流程
+  - AI落地五步执行流程
 related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'

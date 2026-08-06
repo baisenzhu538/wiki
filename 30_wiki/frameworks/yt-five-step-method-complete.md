@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-five-step-method-complete
 title: 五步法完整地图：从需求到壁垒
 type: framework

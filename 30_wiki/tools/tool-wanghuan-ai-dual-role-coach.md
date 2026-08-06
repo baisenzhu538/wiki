@@ -18,7 +18,7 @@ source_refs:
 - src_unknown
 - src_unknown
 - src_unknown
-domain: human-ai-collaboration;ai-collaboration;yitang
+domain: human-ai-collaboration
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 diagnostic_signals:
@@ -30,6 +30,9 @@ diagnostic_signals:
   follow_up: 在评分顶层增加"策略判断"维度并赋予最高权重
 - lens: 知识未隔离
   follow_up: 让扮演用户的 AI 不知道销冠策略，教练 AI 能看到全部
+discoverable_by:
+  - 王欢：AI 双角色教练对练工具
+  - 双角色教练对练工具
 related:
 - '[[case-wanghuan-education-sales-capability-extraction]]'
 - '[[case-wanghuan-education-sales-paced]]'
@@ -46,7 +49,6 @@ tags:
 - scene:execution
 - skill-level:intermediate
 ---
-
 # 王欢：AI 双角色教练对练工具
 
 > **Burn line**: 话术是决策链最末端的产物，只复制话术会得到"一堆在错误时机说出的正确的话"。

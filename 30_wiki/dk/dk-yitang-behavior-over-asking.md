@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-yitang-behavior-over-asking
 title: 调研中行为证据重于口头证据
 type: dk
@@ -15,6 +16,8 @@ aliases:
   - 调研中行为证据重于口头证据
 source_refs:
 - 60_feedback/audit/synthesis_yitang.md
+discoverable_by:
+  - 调研中行为证据重于口头证据
 related:
   - "[[tool-yitang-user-interview-5steps]]"
   - "[[yt-research-user-jtbd]]"

@@ -2,7 +2,9 @@
 id: tool-模型匹配调度
 title: 技能：模型匹配调度
 type: tool
-domain: learning-methodology- yitang
+domain:
+  - learning-methodology
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
@@ -28,6 +30,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：模型匹配调度
+  - 模型匹配调度
 related:
 - '[[tool-反向提示获取优化建议]]'
 - '[[tool-多轮确认防偏差]]'

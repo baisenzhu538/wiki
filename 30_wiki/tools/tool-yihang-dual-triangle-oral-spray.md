@@ -1,4 +1,5 @@
 ---
+
 id: tool-yihang-dual-triangle-oral-spray
 title: 口喷：双三角内功 + 九字诀外功——语音驱动 AI 协作
 type: tool
@@ -23,6 +24,11 @@ aliases:
   - 语音驱动
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+discoverable_by:
+  - 口喷：双三角内功 + 九字诀外功——语音驱动 AI 协作
+  - 双三角内功
+  - 九字诀外功
+  - 语音驱动
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[method-yihang-aesthetic-fast-build]]'

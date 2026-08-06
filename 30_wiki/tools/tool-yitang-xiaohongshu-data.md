@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-xiaohongshu-data
 title: 小红书数据：种草热度和用户口碑追踪
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 种草热度和用户口碑追踪
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 小红书数据：种草热度和用户口碑追踪
+  - 小红书数据
+  - 种草热度和用户口碑追踪
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

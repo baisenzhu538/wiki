@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-control-points
 title: 战略控制点设计工具：价值定位模型
 type: tool
@@ -22,6 +23,10 @@ created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 战略控制点设计工具：价值定位模型
+  - 战略控制点设计工具
+  - 价值定位模型
 related:
 tags:
 ---

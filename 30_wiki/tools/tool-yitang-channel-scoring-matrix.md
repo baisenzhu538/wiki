@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-channel-scoring-matrix
 type: tool
 title: 渠道预判评分矩阵：科学排序候选渠道
@@ -11,6 +12,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: pending
 created_at: 2026-06-27
+discoverable_by:
+  - 渠道预判评分矩阵：科学排序候选渠道
+  - 渠道预判评分矩阵
+  - 科学排序候选渠道
 quality_labels:
 - actionable
 - cited

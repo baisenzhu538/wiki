@@ -1,4 +1,5 @@
 ---
+
 id: dk-skill-seven-elements-upgrade
 title: Skill ≠ Prompt——蓝鱼七要素告诉你完整 Skill 缺了什么
 type: dk
@@ -21,6 +22,10 @@ aliases:
   - 蓝鱼七要素告诉你完整
 source_refs:
 - C:/Users/Administrator/Desktop/从知识库到agent.txt
+discoverable_by:
+  - Skill ≠ Prompt——蓝鱼七要素告诉你完整 Ski
+  - 蓝鱼七要素告诉你完整
+  - 缺了什么
 related:
 - '[[method-judge-skill-meta-evaluation]]'
 - '[[method-kdo-agent-design-meta]]'

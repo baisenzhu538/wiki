@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-讲香双策略
 title: 一堂讲香双策略：具体化+抽象化与波峰波谷的张力表达
 type: tool
@@ -19,6 +20,10 @@ aliases:
   - 具体化+抽象化与波峰波谷的张力表达
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L2422-L2730
+discoverable_by:
+  - 一堂讲香双策略：具体化+抽象化与波峰波谷的张力表达
+  - 一堂讲香双策略
+  - 具体化+抽象化与波峰波谷的张力表达
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-tool-as-answer-trap
 title: 把工具/框架当成答案，而不是提问的脚手架
 type: dk
@@ -22,6 +23,8 @@ source_refs:
 - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 - 10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md
 - 10_raw/sources/xujian-tob-fivestep-oral.md
+discoverable_by:
+  - 把工具/框架当成答案，而不是提问的脚手架
 related:
 - '[[dk-tool-as-phased-validator]]'
 - '[[yitang-domain-digest]]'

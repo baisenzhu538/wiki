@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-上下文质量管理（AI协作）
 title: 技能：上下文质量管理（AI协作）
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -39,7 +38,6 @@ tags:
 - skill-level:beginner
 - 自用的
 ---
-
 # 技能：上下文质量管理（AI协作）
 
 ## 原始表述

@@ -1,13 +1,12 @@
 ---
-
 id: smart-medicine-cabinet-financial-model
 title: 智能药柜单点财务模型与回本测算表
 type: tool
 status: enriched
 domain:
-- healthcare- healthcare
-- pharmaceutical-retail
-- financial-model
+  - healthcare
+  - pharmaceutical-retail
+  - financial-model
 aliases:
   - 单点财务模型与回本测算表
   - 智能药柜单点财务模型与回本测算表

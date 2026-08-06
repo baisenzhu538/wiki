@@ -1,4 +1,5 @@
 ---
+
 id: tool-zhu-ai-deliberate-practice-roadmap
 title: 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周
 type: tool
@@ -19,6 +20,10 @@ aliases:
   - 老朱
   - 老朱AI能力刻意练习路线图：从工具使用到智能体搭建的24周
   - 能力刻意练习路线图
+discoverable_by:
+  - 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 2
+  - 能力刻意练习路线图
+  - 从工具使用到智能体搭建的
 quality_labels:
 source_refs:
 related:

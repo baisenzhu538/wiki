@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-partnership
 title: 合作伙伴策略：生态与联盟
 type: concept
@@ -56,7 +54,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 合作伙伴策略：生态与联盟
 
 > 一堂五步法：合作伙伴不是越多越好，而是需要精心设计合作关系。生态是商业模式的放大器。

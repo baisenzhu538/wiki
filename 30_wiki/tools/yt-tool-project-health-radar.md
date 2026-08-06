@@ -9,13 +9,15 @@ aliases:
   - 项目健康度雷达
 source_refs:
 status: enriched
-domain: yitang- yitang
+domain: yitang
 language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.8
 prerequisites:
 component_of:
+discoverable_by:
+  - 项目健康度雷达
 related:
 contradicts: null
 query_triggers:

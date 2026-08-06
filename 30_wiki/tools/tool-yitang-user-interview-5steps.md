@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-user-interview-5steps
 title: 用户访谈五步执行法：画像·场景·信任·提问·判断
 type: tool
@@ -33,6 +34,9 @@ aliases:
 source_refs:
 - 00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md
 - 00_inbox/调研专题/一堂-用户调研实操课-笔记.txt
+discoverable_by:
+  - 用户访谈五步执行法：画像·场景·信任·提问·判断
+  - 用户访谈五步执行法
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

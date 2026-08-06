@@ -1,4 +1,5 @@
 ---
+
 domain:
 - demand-analysis
 id: yt-demand-competitive-displacement
@@ -23,6 +24,10 @@ updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
+discoverable_by:
+  - 需求替代陷阱：竞品不是敌人，替代方案才是
+  - 需求替代陷阱
+  - 竞品不是敌人，替代方案才是
 related:
 - '[[yt-demand-jtbd-application]]'
 - '[[yt-demand-hierarchy-model]]'

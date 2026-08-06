@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-platform-business-map
 title: 平台商业模式地图
 type: tool
@@ -18,6 +19,8 @@ created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 平台商业模式地图
 related:
 - '[[strategy-domain-digest]]'
 - '[[pending_unknown]]'

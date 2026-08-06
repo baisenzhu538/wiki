@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-pitfall-tier4-housekeeping
 title: 踩坑：四线家政——天花板误判。普遍性高≠能做大
 type: dk
@@ -19,6 +20,10 @@ aliases:
   - 踩坑：四线家政天花板误判。普遍性高≠能做大
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
+discoverable_by:
+  - 踩坑：四线家政——天花板误判。普遍性高≠能做大
+  - 四线家政
+  - 天花板误判。普遍性高≠能做大
 related:
 - '[[yt-demand-fake-demand-detection]]'
 - '[[dk-demand-misjudgment-rate]]'

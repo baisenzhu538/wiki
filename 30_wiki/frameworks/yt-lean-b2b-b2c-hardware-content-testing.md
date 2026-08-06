@@ -3,10 +3,7 @@ id: yt-lean-b2b-b2c-hardware-content-testing
 title: ToB/ToC/硬件/内容产品的测试差异
 type: framework
 status: draft
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - ToB/ToC/硬件/内容产品的测试差异
   - 内容产品的测试差异
@@ -50,8 +47,6 @@ discoverable_by:
 - 内容测试
 - 精益测试类型
 ---
-
-
 # ToB/ToC/硬件/内容产品的测试差异
 
 > **Burn line**: 产品形态不同，风险结构就不同；风险结构不同，测试手段就必须分层。

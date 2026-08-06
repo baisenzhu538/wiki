@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-iceberg-l3-core-job
 title: L3圈定核心任务：方案中立的动词+对象+语境
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - 方案中立的动词+对象+语境
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
+discoverable_by:
+  - L3圈定核心任务：方案中立的动词+对象+语境
+  - L3圈定核心任务
+  - 方案中立的动词+对象+语境
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-马易-AI任务拆解提升控制度]]'

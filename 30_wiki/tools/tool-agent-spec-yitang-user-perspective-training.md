@@ -1,4 +1,5 @@
 ---
+
 id: tool-agent-spec-yitang-user-perspective-training
 title: 用户视角训练 Agent Spec
 type: agent-spec
@@ -23,6 +24,9 @@ aliases:
   - 视角训练
 source_refs:
 - .agent/prompts/tool-agent-spec-yitang-user-perspective-training.md
+discoverable_by:
+  - 用户视角训练 Agent Spec
+  - 用户视角训练
 related:
 - '[[framework-yitang-scientific-sales-five-step]]'
 - '[[framework-一堂五步法]]'

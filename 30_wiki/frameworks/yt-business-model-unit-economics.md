@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-unit-economics
 title: 单元经济学：LTV > CAC
 type: framework
@@ -50,7 +49,6 @@ discoverable_by:
 - 单位经济分析
 - 盈利单元计算
 ---
-
 # 单元经济学：LTV > CAC
 
 > 一堂五步法：单元经济学是商业模式的验证标准。LTV（用户生命周期价值）> CAC（获客成本），单元模型才成立。

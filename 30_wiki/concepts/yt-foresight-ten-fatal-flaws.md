@@ -1,10 +1,8 @@
 ---
-
 id: yt-foresight-ten-fatal-flaws
 title: 十大硬伤：商业机会的致死缺陷清单
 type: tool
-domain:
-- src_unknown
+domain: src-unknown
 status: enriched
 confidence: 0.88
 trust_level: medium-high
@@ -53,7 +51,6 @@ tags:
 - skill-level:intermediate
 - 机会预判课
 ---
-
 # 十大硬伤：商业机会的致死缺陷清单
 
 ## 用一句话讲清楚

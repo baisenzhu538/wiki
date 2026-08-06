@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-signup-statistics
 title: 线上签约统计：通过自增ID推算用户/订单量
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 通过自增ID推算用户/订单量
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 线上签约统计：通过自增ID推算用户/订单量
+  - 线上签约统计
+  - 通过自增ID推算用户/订单量
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

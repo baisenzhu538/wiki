@@ -1,4 +1,5 @@
 ---
+
 id: dk-ban-fei-mao-atomic-no-standard
 title: 暗知识：原子化没有固定标准
 type: dk
@@ -18,6 +19,10 @@ source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 created_at: 2026-06-07
 updated_at: '2026-06-19'
+discoverable_by:
+  - 暗知识：原子化没有固定标准
+  - 暗知识
+  - 原子化没有固定标准
 related:
 - '[[dk-ban-fei-mao-skill-rejection-value]]'
 - '[[dk-ji-hao-problem-vs-question]]'

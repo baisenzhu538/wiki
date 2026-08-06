@@ -1,4 +1,5 @@
 ---
+
 id: dk-community-lecturer-vs-crowd-model
 title: 讲师中心 vs 群众中心：社群知识生产的两种模式
 type: dark-knowledge
@@ -27,6 +28,11 @@ reviewed_by: 欧阳锋
 review_date: '2026-07-02'
 trust_level: medium
 confidence: 0.82
+discoverable_by:
+  - 讲师中心 vs 群众中心：社群知识生产的两种模式
+  - 讲师中心
+  - 群众中心
+  - 社群知识生产的两种模式
 related:
 - '[[framework-community-knowledge-production-failure-modes]]'
 - '[[case-daxin-team-content-training-camp]]'

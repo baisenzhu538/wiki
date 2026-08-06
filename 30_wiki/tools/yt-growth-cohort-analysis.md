@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-cohort-analysis
 title: 同期群分析：用户行为追踪
 type: tool
@@ -20,6 +19,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 同期群分析：用户行为追踪
+  - 同期群分析
+  - 用户行为追踪
 related:
 - '[[tool-设计对抗效果追踪看板]]'
 - '[[pending_unknown]]'
@@ -44,7 +47,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 同期群分析：用户行为追踪
 
 > 一堂五步法：同期群分析是留存分析的利器。把用户按时间分群，看留存曲线变化，找到问题 cohort。

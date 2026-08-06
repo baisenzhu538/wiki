@@ -3,8 +3,9 @@ id: tool-模型组合调用
 title: 技能：模型组合调用
 type: tool
 domain:
-- learning-methodology- design
-- yitang
+  - learning-methodology
+  - design
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
@@ -29,6 +30,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：模型组合调用
+  - 模型组合调用
 related:
 - '[[tool-反向提示获取优化建议]]'
 - '[[tool-多轮确认防偏差]]'
@@ -43,7 +47,6 @@ tags:
 - skill-level:beginner
 - 自用的
 ---
-
 # 技能：模型组合调用
 
 ## 原始表述

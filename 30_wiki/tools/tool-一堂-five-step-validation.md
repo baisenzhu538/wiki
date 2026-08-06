@@ -1,6 +1,10 @@
 ---
+
 id: tool-一堂-five-step-validation
 title: "技能：聊问查测盘五步验证法"
+discoverable_by:
+  - 技能：聊问查测盘五步验证法
+  - 聊问查测盘五步验证法
 related:
 aliases:
   - audience:general

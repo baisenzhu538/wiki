@@ -1,4 +1,5 @@
 ---
+
 id: dk-p9-glob-miss
 title: P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
 type: dk
@@ -19,6 +20,11 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: 2026-06-28
+discoverable_by:
+  - P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
+  - 漏扫子目录
+  - 误判文件缺失
+  - 来回打脸
 related:
 - '[[dk-p8-toolkit-forget]]'
 - '[[dk-p15-unverified]]'

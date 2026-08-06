@@ -1,4 +1,5 @@
 ---
+
 id: dk-ji-hao-novice-mindset-advantage
 title: 暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口
 type: dk
@@ -20,6 +21,11 @@ source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 created_at: 2026-06-09
 updated_at: '2026-06-19'
+discoverable_by:
+  - 暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄
+  - 暗知识
+  - 新手心态的五个保护期
+  - 萌新时代才是AI协作的黄金窗口
 related:
 - '[[dk-ji-hao-problem-vs-question]]'
 - '[[dk-wanghuan-ai-lifts-personal-ceiling]]'

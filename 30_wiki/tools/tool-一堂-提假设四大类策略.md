@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-提假设四大类策略
 title: 一堂提假设四大类策略：自己琢磨/用好小抄/借鉴外部/团队开会
 type: tool
@@ -19,6 +20,10 @@ aliases:
   - 自己琢磨/用好小抄/借鉴外部/团队开会
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1940-L2008
+discoverable_by:
+  - 一堂提假设四大类策略：自己琢磨/用好小抄/借鉴外部/团队开会
+  - 一堂提假设四大类策略
+  - 自己琢磨/用好小抄/借鉴外部/团队开会
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

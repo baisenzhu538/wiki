@@ -1,4 +1,5 @@
 ---
+
 id: dk-f5-stale-feedback-ref
 title: F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-19'
+discoverable_by:
+  - F-KDO-005：过期 feedback 引用残留→kdo
+  - 引用残留→kdo
+  - 报错但文件已不存在
 related:
 - '[[kdo-input-channel-strategy-2026-06-16]]'
 - '[[kdo-protocol]]'

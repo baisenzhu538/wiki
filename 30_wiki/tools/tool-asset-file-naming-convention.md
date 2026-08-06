@@ -1,4 +1,5 @@
 ---
+
 id: tool-asset-file-naming-convention
 title: 素材文件七要素命名法
 type: tool
@@ -20,6 +21,8 @@ trust_level: medium
 reviewed_by: 欧阳锋
 review_date: 2026-06-30
 updated_at: '2026-06-29'
+discoverable_by:
+  - 素材文件七要素命名法
 related:
 - '[[tool-月白-设计文件八要素命名法]]'
 - '[[tool-月白-设计师AI资产四类型沉淀]]'

@@ -1,13 +1,11 @@
 ---
-
 id: yt-tool-y-model-ruler
 component_of:
 - src_unknown
 confidence: 0.85
 created_at: 2026-06-06
 difficulty: advanced
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3400
 language: zh-CN
 prerequisites:
@@ -68,7 +66,6 @@ tags:
 - scene:execution
 - skill-level:intermediate
 ---
-
 ## Summary
 
 > **一句话**：“我觉得这个人不错”不是评估，是猜测。真正的评估是：**用一套“尺子”量化每个维度，用“刻度”确定打分标准，用“基准”找到参照系，用“权重”告诉你哪些维度值得花更多时间”。

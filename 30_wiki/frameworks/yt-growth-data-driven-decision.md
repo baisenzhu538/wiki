@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-data-driven-decision
 title: 数据驱动增长决策
 type: framework
@@ -47,7 +46,6 @@ discoverable_by:
 - 增长实验
 - 数据驱动增长
 ---
-
 # 数据驱动增长决策
 
 > 一堂五步法：数据不是答案，而是假设的验证工具。数据驱动 = 假设 → 实验 → 数据 → 决策。

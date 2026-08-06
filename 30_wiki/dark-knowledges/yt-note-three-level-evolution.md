@@ -1,4 +1,5 @@
 ---
+
 domain:
 - learning-methodology
 id: yt-note-three-level-evolution
@@ -22,6 +23,10 @@ source_refs:
 - src_unknown
 created_at: '2026-06-15'
 updated_at: '2026-06-20'
+discoverable_by:
+  - 碎片化→结构化→体系化：笔记认知的三级进化跃迁
+  - 碎片化→结构化→体系化
+  - 笔记认知的三级进化跃迁
 related:
 - '[[yt-note-l4-internalization]]'
 - '[[yt-management-team-knowledge]]'

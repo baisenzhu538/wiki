@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-baidu-index
 title: 百度指数：搜索需求趋势分析
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 需求趋势分析
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 百度指数：搜索需求趋势分析
+  - 百度指数
+  - 搜索需求趋势分析
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

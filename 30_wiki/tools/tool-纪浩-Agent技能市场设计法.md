@@ -3,9 +3,7 @@ id: tool-纪浩-Agent技能市场设计法
 title: 技能：Agent技能市场设计法
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 aliases:
@@ -21,6 +19,9 @@ tools_required:
 - src_unknown
 - src_unknown
 prerequisite_skills: skill-纪浩-Do-first-PDCA渐进迭代法
+discoverable_by:
+  - 技能：Agent技能市场设计法
+  - Agent技能市场设计法
 related:
 - '[[case-lean-adult-education]]'
 - '[[case-truman-ai-skill-self-packaging]]'
@@ -90,7 +91,6 @@ tags:
 - 俱乐部
 - 协作方法论
 ---
-
 # 技能：Agent技能市场设计法
 
 ## 不要用的场景

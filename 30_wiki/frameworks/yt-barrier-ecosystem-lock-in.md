@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-ecosystem-lock-in
 title: 生态锁定：平台壁垒
 type: framework
@@ -48,7 +47,6 @@ discoverable_by:
 - 生态系统建设
 - 网络效应
 ---
-
 # 生态锁定：平台壁垒
 
 > 一堂五步法：生态是最强的壁垒。生态越丰富，用户越离不开；用户越多，生态越丰富。

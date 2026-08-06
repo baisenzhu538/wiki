@@ -1,4 +1,5 @@
 ---
+
 id: tool-用户视角
 title: 用户视角：跳出产品思维看用户
 type: tool
@@ -17,6 +18,10 @@ aliases:
   - 用户视角：跳出产品思维看用户
   - 跳出产品思维看用户
 source_refs:
+discoverable_by:
+  - 用户视角：跳出产品思维看用户
+  - 用户视角
+  - 跳出产品思维看用户
 related:
 updated_at: '2026-06-29'
 tags:

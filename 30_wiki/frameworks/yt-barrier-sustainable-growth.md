@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-sustainable-growth
 title: 可持续增长：壁垒驱动
 type: framework
@@ -49,7 +48,6 @@ discoverable_by:
 - 长期增长
 - 复利增长
 ---
-
 # 可持续增长：壁垒驱动
 
 > 一堂五步法：可持续增长 = 增长飞轮 × 壁垒保护 × 持续迭代。不是一次性的增长，而是循环往复。

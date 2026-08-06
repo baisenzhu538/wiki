@@ -1,12 +1,9 @@
 ---
-
 id: concept-ji-hao-ai-collaboration-methodology
 title: 纪浩 AI 协作方法论：从判断到规模复用的五层体系
 type: concept
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论 分享（第三次分享，2026-06）
 aliases:
@@ -63,7 +60,6 @@ tags:
 - 俱乐部
 - 协作方法论
 ---
-
 # 纪浩 AI 协作方法论
 
 > 纪浩是一堂的后端工程师。他在 AI 俱乐部的第三次分享中，用两小时讲述了自己过去四个月高强度 AI 协作的完整方法论——不是几个孤立技巧，而是一个从"判断该不该做"到"规模复用"的完整闭环。他的方法论和 Truman 的 AI Partner 设计哲学是同一套模式在不同场景下的应用：Truman 讲"为什么"，纪浩讲"怎么做"。

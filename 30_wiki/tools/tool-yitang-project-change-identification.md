@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-change-identification
 title: 常见项目变化五维识别清单
 type: tool
@@ -19,6 +20,8 @@ aliases:
   - 项目变化五维识别清单
 source_refs:
 - 00_inbox/管项目/项目管理-管过程-控变化_vlm_desc.md
+discoverable_by:
+  - 常见项目变化五维识别清单
 related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-change-decision]]"

@@ -1,4 +1,5 @@
 ---
+
 id: dk-wanghuan-spec-trap
 title: 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
 type: dk
@@ -6,6 +7,10 @@ dark_knowledge_type: insight
 status: reviewed
 domain:
 created_at: '2026-06-19'
+discoverable_by:
+  - 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
+  - 王欢暗知识
+  - 过度拆解会锁死
 quality_labels:
 updated_at: 2026-06-28
 author: 老顽童

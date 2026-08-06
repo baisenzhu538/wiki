@@ -5,8 +5,7 @@ type: system
 status: reviewed
 confidence: 0.9
 trust_level: high
-domain:
-- src_unknown
+domain: src-unknown
 source_refs:
 - 30_wiki/frameworks/framework-yitang-oscar-research.md
 - 30_wiki/frameworks/framework-yitang-high-level-plan.md

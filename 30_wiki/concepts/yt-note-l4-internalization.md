@@ -1,11 +1,9 @@
 ---
-
 id: yt-note-l4-internalization
 title: 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃
 type: concept
 status: reviewed
-domain:
-- src_unknown
+domain: src-unknown
 language: zh-CN
 version: 1
 confidence: 0.88
@@ -58,7 +56,6 @@ tags:
 - skill-level:intermediate
 - 时代清单体笔记
 ---
-
 # 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃
 
 ## 用一句话讲清楚

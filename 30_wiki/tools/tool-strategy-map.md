@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-map
 title: 战略地图——公司/各BU/业务单元的战略蓝图模板
 type: tool
@@ -18,6 +19,10 @@ created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 黄药师（从 PPT _142 提取）
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 战略地图——公司/各BU/业务单元的战略蓝图模板
+  - 战略地图
+  - 公司/各BU/业务单元的战略蓝图模板
 related:
 - '[[strategy-domain-digest]]'
 - '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'

@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-business-formula-hypothesis-pool
 title: 关键假设池：三层形态 + 字段模板 + 四条运营纪律（测试群/颗粒度/证伪留存/云端协作）
 type: tool
@@ -26,6 +27,11 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-进阶篇-口述.txt L3202-L3264
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002232_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/以业务公式为中心的统一管理_vlm.md
+discoverable_by:
+  - 关键假设池
+  - 三层形态
+  - 字段模板
+  - 四条运营纪律测试群/颗粒度/证伪留存/云端协作
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-hypothesis-management-playbook]]'

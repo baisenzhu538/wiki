@@ -1,4 +1,5 @@
 ---
+
 id: tool-泛产品落地-设计原则
 title: 落地卡片：设计原则
 type: tool
@@ -18,6 +19,10 @@ aliases:
   - 设计原则
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-设计原则_vlm_desc.md
+discoverable_by:
+  - 落地卡片：设计原则
+  - 落地卡片
+  - 设计原则
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

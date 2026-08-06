@@ -1,4 +1,5 @@
 ---
+
 id: tool-google-dorking
 title: Google Dorking：高级搜索语法——挖出搜索引擎的隐藏信息
 type: tool
@@ -22,6 +23,10 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - Google Dorking：高级搜索语法——挖出搜索引擎的
+  - 高级搜索语法
+  - 挖出搜索引擎的隐藏信息
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

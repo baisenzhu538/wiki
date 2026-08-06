@@ -1,13 +1,9 @@
 ---
-
 id: case-modeling-process-livestream-roles
 title: 流程建模案例：直播开播团队分工与检查清单
 type: case
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - Truman
   - 建模案例

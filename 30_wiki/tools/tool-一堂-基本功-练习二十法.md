@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-基本功-练习二十法
 title: 练习二十法：五层加码，把刻意练习焊进团队日常
 type: tool
@@ -39,6 +40,10 @@ source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/练习卡-绩效考评-18_vlm.md
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/练习卡-职级划分-19_vlm.md
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/练习卡-岗位晋升-20_vlm.md
+discoverable_by:
+  - 练习二十法：五层加码，把刻意练习焊进团队日常
+  - 练习二十法
+  - 五层加码，把刻意练习焊进团队日常
 related:
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[framework-一堂-苦练基本功-总纲]]'

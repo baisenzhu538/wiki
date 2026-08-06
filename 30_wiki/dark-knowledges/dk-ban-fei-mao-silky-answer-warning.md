@@ -1,4 +1,5 @@
 ---
+
 id: dk-ban-fei-mao-silky-answer-warning
 title: 暗知识：AI 回答越丝滑，问题越大
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 created_at: 2026-06-07
 updated_at: '2026-06-19'
+discoverable_by:
+  - 暗知识：AI 回答越丝滑，问题越大
+  - 暗知识
+  - 回答越丝滑，问题越大
 related:
 - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
 - '[[dk-ban-fei-mao-skill-rejection-value]]'

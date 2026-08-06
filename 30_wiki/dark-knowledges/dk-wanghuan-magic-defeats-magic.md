@@ -1,4 +1,5 @@
 ---
+
 id: dk-wanghuan-magic-defeats-magic
 title: 王欢暗知识：不知道怎么定标准时，用 AI 对抗 AI 建立标准
 type: dk
@@ -8,6 +9,11 @@ domain:
 - human-ai-collaboration
 - ai-collaboration
 - yitang
+discoverable_by:
+  - 王欢暗知识：不知道怎么定标准时，用 AI 对抗 AI 建立标
+  - 王欢暗知识
+  - 不知道怎么定标准时，用
+  - 建立标准
 quality_labels:
 - cited
 - quality

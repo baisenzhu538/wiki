@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-yitang-research-cross-validation-cost
 title: 交叉验证是成本也是护城河：信息质量的不对称优势
 type: dk
@@ -7,6 +8,10 @@ status: enriched
 author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
+discoverable_by:
+  - 交叉验证是成本也是护城河：信息质量的不对称优势
+  - 交叉验证是成本也是护城河
+  - 信息质量的不对称优势
 quality_labels:
   - validated
 created_at: 2026-06-21
@@ -33,7 +38,6 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 updated_at: 2026-06-28
-
 ---
 
 # 交叉验证是成本也是护城河

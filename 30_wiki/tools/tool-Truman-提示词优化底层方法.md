@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-提示词优化底层方法
 title: 技能：提示词优化底层方法
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

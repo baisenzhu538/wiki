@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-kickoff-meeting
 title: 项目启动会设计模板：两小时对齐六件事，后面不用跑断腿
 type: tool
@@ -27,6 +28,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-07-07'
 
+discoverable_by:
+  - 项目启动会设计模板：两小时对齐六件事，后面不用跑断腿
+  - 项目启动会设计模板
+  - 两小时对齐六件事，后面不用跑断腿
 related:
   - '[[framework-yitang-project-abcd-classification]]'
   - '[[yt-tool-meeting-designer]]'

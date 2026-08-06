@@ -1,9 +1,7 @@
 ---
-
 id: yt-management-partnership-equity
 created_at: 2026-05-06
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3300
 query_triggers:
 - src_unknown
@@ -57,7 +55,6 @@ tags:
 - skill-level:intermediate
 - 课程地图精华串讲
 ---
-
 # 合伙股权
 
 > 来源：一堂课程体系 | 阶段：管公司。[[yitang-course-map]] | [[yt-system-course-catalog]]

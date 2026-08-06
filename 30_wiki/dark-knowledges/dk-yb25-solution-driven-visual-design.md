@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb25-solution-driven-visual-design
 title: 解决方案驱动视觉设计，非门店风格导向
 type: dk
@@ -19,6 +20,8 @@ source_refs:
 - 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-16'
+discoverable_by:
+  - 解决方案驱动视觉设计，非门店风格导向
 related: null
 pipeline:
 - src_unknown

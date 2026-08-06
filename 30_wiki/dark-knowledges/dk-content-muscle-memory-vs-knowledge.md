@@ -1,4 +1,5 @@
 ---
+
 id: dk-content-muscle-memory-vs-knowledge
 title: 内容创作中的肌肉记忆：很多能力不是知识
 type: dark-knowledge
@@ -26,6 +27,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-07-02'
 trust_level: medium
 confidence: 0.84
+discoverable_by:
+  - 内容创作中的肌肉记忆：很多能力不是知识
+  - 内容创作中的肌肉记忆
+  - 很多能力不是知识
 related:
 - '[[yt-personal-deliberate-practice]]'
 - '[[tool-ai-skill-engineering-method]]'

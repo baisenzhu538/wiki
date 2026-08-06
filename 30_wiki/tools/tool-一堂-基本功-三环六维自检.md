@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-基本功-三环六维自检
 title: 三环六维自检：10 分钟判断一个动作配不配练成基本功
 type: tool
@@ -21,6 +22,10 @@ source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt L240-L300
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/拆解卡-六维分析-05_vlm.md
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/基本功武器库_vlm.md
+discoverable_by:
+  - 三环六维自检：10 分钟判断一个动作配不配练成基本功
+  - 三环六维自检
+  - 分钟判断一个动作配不配练成基本功
 related:
 - '[[concept-一堂-基本功定义]]'
 - '[[framework-一堂-苦练基本功-总纲]]'

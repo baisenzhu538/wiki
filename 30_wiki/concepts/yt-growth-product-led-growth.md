@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-product-led-growth
 title: 产品驱动增长：PLG模式
 type: concept
@@ -51,7 +49,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 产品驱动增长：PLG模式
 
 > 一堂五步法：PLG不是免费试用，而是产品本身驱动获客、激活、留存、变现。产品是最好的销售员。

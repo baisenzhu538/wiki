@@ -1,4 +1,5 @@
 ---
+
 id: dk-time-management-common-mistakes
 title: 时间管理三大反模式：工具迷信、二极管思维、边界模糊
 type: dark-knowledge
@@ -27,6 +28,10 @@ source_refs:
 - 00_inbox/时间管理/_processed/时间管理_整合笔记.md
 - 00_inbox/时间管理/_processed/vlm_summary.json
 - 00_inbox/时间管理/时间管理-双环矩阵图.png
+discoverable_by:
+  - 时间管理三大反模式：工具迷信、二极管思维、边界模糊
+  - 时间管理三大反模式
+  - 工具迷信、二极管思维、边界模糊
 related:
 - '[[framework-yitang-five-step-to-time-management]]'
 - '[[tool-personal-time-audit-loop]]'

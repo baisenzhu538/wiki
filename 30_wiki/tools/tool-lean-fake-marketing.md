@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-fake-marketing
 title: 假营销：用故事验证兴趣
 type: tool
@@ -20,6 +21,10 @@ aliases:
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212119_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212119_vlm_desc.md
+discoverable_by:
+  - 假营销：用故事验证兴趣
+  - 假营销
+  - 用故事验证兴趣
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'

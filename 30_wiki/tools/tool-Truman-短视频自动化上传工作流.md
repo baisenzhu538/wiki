@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-短视频自动化上传工作流
 title: 技能：短视频自动化上传工作流
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

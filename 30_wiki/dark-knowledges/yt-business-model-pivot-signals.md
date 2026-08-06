@@ -1,4 +1,5 @@
 ---
+
 domain:
 - business-model
 id: yt-business-model-pivot-signals
@@ -22,6 +23,10 @@ updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 商业模式转型信号：何时该 pivot
+  - 商业模式转型信号
+  - 何时该
 related:
 - '[[yt-business-model-definition]]'
 - '[[yt-business-model-unit-economics]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-demand-pitfall-rural-5g
 title: 踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在
 type: dk
@@ -19,6 +20,10 @@ aliases:
   - 踩坑：偏远县域5G普遍性误判。政策推动≠市场存在
 source_refs:
 - 00_inbox/五步法之需求分析/需求评估避坑合集.md
+discoverable_by:
+  - 踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在
+  - 偏远县域5G
+  - 普遍性误判。政策推动≠市场存在
 related:
 - '[[yt-demand-fake-demand-detection]]'
 - '[[dk-demand-misjudgment-rate]]'

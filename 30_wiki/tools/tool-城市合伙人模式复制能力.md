@@ -3,9 +3,10 @@ id: tool-城市合伙人模式复制能力
 title: 技能：城市合伙人模式复制能力
 type: tool
 domain:
-- entrepreneurship- management
-- design
-- business-strategy
+  - entrepreneurship
+  - management
+  - design
+  - business-strategy
 status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
@@ -30,6 +31,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：城市合伙人模式复制能力
+  - 城市合伙人模式复制能力
 related:
 - '[[tool-用旗舰店替代纯招商投入]]'
 - '[[tool-快招品牌总部模拟调研]]'
@@ -45,7 +49,6 @@ tags:
 - 决策评估画布
 - 科学决策
 ---
-
 # 技能：城市合伙人模式复制能力
 
 ## 原始表述

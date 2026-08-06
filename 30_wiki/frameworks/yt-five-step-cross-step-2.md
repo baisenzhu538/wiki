@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-five-step-cross-step-2
 title: 跨步二：从1到10的规模化
 type: framework
@@ -49,7 +48,6 @@ discoverable_by:
 - 内核到壁垒
 - 跨域方法
 ---
-
 # 跨步二：从1到10的规模化
 
 > 一堂五步法：从1到10不是简单放大，而是系统性的规模化。单元模型、组织能力、产品体验，缺一不可。

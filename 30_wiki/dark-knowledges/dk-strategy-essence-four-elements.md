@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-essence-four-elements
 title: 战略内核检测：细分市场+竞争优势+资源配置+范围经济
 type: dk
@@ -28,6 +29,10 @@ source_refs:
 - src_unknown
 reviewed_by: 欧阳锋
 updated_at: 2026-06-28
+discoverable_by:
+  - 战略内核检测：细分市场+竞争优势+资源配置+范围经济
+  - 战略内核检测
+  - 细分市场+竞争优势+资源配置+范围经济
 related:
 - '[[dk-strategy-longzhong-four-failures]]'
 - '[[dk-strategy-three-must-do-moments]]'

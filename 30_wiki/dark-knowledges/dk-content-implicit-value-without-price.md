@@ -1,4 +1,5 @@
 ---
+
 id: dk-content-implicit-value-without-price
 title: 全文不提价格，但处处暗示价值
 type: dark-knowledge
@@ -26,6 +27,8 @@ reviewed_by: 欧阳锋
 review_date: '2026-07-02'
 trust_level: medium
 confidence: 0.85
+discoverable_by:
+  - 全文不提价格，但处处暗示价值
 related:
 - '[[framework-brand-three-degree]]'
 - '[[tool-shortvideo-six-dimension-deconstruction]]'

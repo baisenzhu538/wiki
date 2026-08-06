@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-value-proposition-4step
 title: 一堂卖点提炼四步法：把功能语言变成客户愿意掏钱的价值语言
 type: tool
@@ -24,6 +25,10 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260702_yitang-scientific-sales-methodology.md
 - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
 - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
+discoverable_by:
+  - 一堂卖点提炼四步法：把功能语言变成客户愿意掏钱的价值语言
+  - 一堂卖点提炼四步法
+  - 把功能语言变成客户愿意掏钱的价值语言
 related:
 - '[[tool-strategy-value-proposition]]'
 - '[[tool-yitang-customer-segmentation-4step]]'

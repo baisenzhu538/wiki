@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-cac-ltv
 title: CAC与LTV的实战计算
 type: tool
@@ -18,6 +17,8 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - CAC与LTV的实战计算
 related:
 - '[[dk-p3-auth-cache]]'
 - '[[dk-p2-tmux-cache]]'
@@ -42,7 +43,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # CAC与LTV的实战计算
 
 > 一堂五步法：CAC和LTV不是估算，而是需要精确计算。计算错误，决策就错误。

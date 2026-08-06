@@ -3,8 +3,9 @@ id: tool-自我反馈修正笔记姿势
 title: 技能：自我反馈修正笔记姿势
 type: tool
 domain:
-- content-production- management
-- yitang
+  - content-production
+  - management
+  - yitang
 status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f
@@ -27,6 +28,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：自我反馈修正笔记姿势
+  - 自我反馈修正笔记姿势
 related:
 - '[[tool-提升笔记练习频次的方法]]'
 - '[[tool-现场建模式萃取笔记]]'

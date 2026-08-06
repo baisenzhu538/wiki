@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-判断力产品化与系统赋能
 title: 技能：判断力产品化与系统赋能
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

@@ -10,9 +10,9 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+  - ai-collaboration
+  - critical-thinking
+  - business-judgment
 aliases:
   - 社会进步不是自动的
   - 进步不是自动的
@@ -20,6 +20,8 @@ source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
+discoverable_by:
+  - 社会进步不是自动的
 related:
 - '[[framework-ai2041-critical-reading-os]]'
 - '[[concept-ai-chair-determines-view]]'

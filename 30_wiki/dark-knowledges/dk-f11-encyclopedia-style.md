@@ -1,4 +1,5 @@
 ---
+
 id: dk-f11-encyclopedia-style
 title: F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
 type: dk
@@ -19,6 +20,9 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
+discoverable_by:
+  - F-KDO-011：百科词条化→概念卡写成定义→分类→特征→
+  - 百科词条化→概念卡写成定义→分类→特征→应用场景
 related:
 - '[[kdo-input-channel-strategy-2026-06-16]]'
 - '[[kdo-protocol]]'

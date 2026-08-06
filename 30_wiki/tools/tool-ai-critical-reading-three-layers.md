@@ -9,15 +9,17 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- reading_methodology
+  - ai-collaboration
+  - critical-thinking
+  - reading-methodology
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 aliases:
   - 三层拆书批判法
   - 拆书批判法
+discoverable_by:
+  - 三层拆书批判法
 related:
 - '[[framework-wanghuan-harness-seven-stages]]'
 - '[[framework-wanghuan-ooda-loop]]'
@@ -32,7 +34,6 @@ tags:
 - scene:execution
 - skill-level:intermediate
 ---
-
 # 三层拆书批判法
 
 > **Burn line**：拆书不是复述内容，而是在作者的盲区上长出你自己可行动的认知。

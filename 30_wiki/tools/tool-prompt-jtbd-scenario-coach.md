@@ -1,4 +1,5 @@
 ---
+
 id: tool-prompt-jtbd-scenario-coach
 title: JTBD 场景推演教练——六层需求深挖提示词模板
 type: prompt-template
@@ -21,6 +22,10 @@ created_at: '2026-06-21'
 updated_at: '2026-06-29'
 author: 黄药师（从 inbox 提示词提取）
 reviewed_by: 欧阳锋
+discoverable_by:
+  - JTBD 场景推演教练——六层需求深挖提示词模板
+  - 场景推演教练
+  - 六层需求深挖提示词模板
 related:
 - '[[tool-prompt-usp-demand-analysis]]'
 - '[[yt-demand-analysis-hiking-map]]'

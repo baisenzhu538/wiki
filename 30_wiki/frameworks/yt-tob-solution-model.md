@@ -3,11 +3,7 @@ id: yt-tob-solution-model
 title: To B 解决方案类型矩阵
 type: framework
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - ToB解决方案类型矩阵
   - 方案类型矩阵
@@ -52,7 +48,6 @@ discoverable_by:
 - 解决方案销售
 - 方案定价
 ---
-
 # To B 解决方案类型矩阵
 
 > "To B 业务不存在唯一的标准答案，关键是把业务按多个维度拆清楚：交付形式上是标品还是定制、履约周期上是一次性完成还是需要持续服务、采购方式上是入围型/一次性/周期性。这三个维度交叉组合，才能判断你真正的商业模式和单元模型。" ——徐剑《To B 五步法》口述稿（约 1906–2278 行）；课堂笔记 §3 将其归纳为"模式选择：根据标准化程度和履约方式选择产品型、服务型或项目型"。

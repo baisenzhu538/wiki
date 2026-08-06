@@ -1,4 +1,5 @@
 ---
+
 id: dk-note-maximum-common-divisor
 title: 清单体是人与AI的'最大公约数'：结构降级即认知升级
 type: dk
@@ -20,6 +21,10 @@ source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 created_at: 2026-06-07
 updated_at: '2026-06-18'
+discoverable_by:
+  - 清单体是人与AI的'最大公约数'：结构降级即认知升级
+  - 清单体是人与AI的'最大公约数'
+  - 结构降级即认知升级
 related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'

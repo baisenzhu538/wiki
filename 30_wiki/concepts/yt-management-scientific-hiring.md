@@ -1,13 +1,7 @@
 ---
-
 title: 科学招聘
 type: concept
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 pipeline:
 - src_unknown
@@ -41,7 +35,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 科学招聘
 
 > 来源：一堂管理必修课「管团队」模块，含科学招聘四部曲+结构化面试+产品经理招聘专项。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

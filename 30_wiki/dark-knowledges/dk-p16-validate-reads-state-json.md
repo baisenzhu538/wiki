@@ -1,4 +1,5 @@
 ---
+
 id: dk-p16-validate-reads-state-json
 title: P-16：validate 优先读取 state.json 而非文件 frontmatter
 type: dk
@@ -15,6 +16,10 @@ source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'
+discoverable_by:
+  - P-16：validate 优先读取 state.json
+  - 优先读取
+  - 而非文件
 related:
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[yt-foresight-ab-steady-state]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-weibo-index
 title: 微博指数：公共话题热度追踪
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 微博指数：公共话题热度追踪
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 微博指数：公共话题热度追踪
+  - 微博指数
+  - 公共话题热度追踪
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

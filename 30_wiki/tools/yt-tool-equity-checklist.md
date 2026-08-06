@@ -9,13 +9,15 @@ aliases:
   - 股权设计检查清单
 source_refs:
 status: enriched
-domain: yitang- yitang
+domain: yitang
 language: zh-CN
 version: 1
 difficulty: advanced
 confidence: 0.75
 prerequisites:
 component_of:
+discoverable_by:
+  - 股权设计检查清单
 related:
 contradicts: null
 query_triggers:

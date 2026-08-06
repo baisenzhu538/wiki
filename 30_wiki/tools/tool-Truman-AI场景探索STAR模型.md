@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-AI场景探索STAR模型
 title: 技能：AI场景探索STAR模型
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -41,7 +40,6 @@ tags:
 - skill-level:beginner
 - 自用的
 ---
-
 # 技能：AI场景探索STAR模型
 
 ## 原始表述

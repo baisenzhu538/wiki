@@ -1,5 +1,4 @@
 ---
-
 id: yt-model-pan-product-aesthetic-toolkit
 component_of:
 - "[[yt-panproduct-best-practice-collection]]"
@@ -9,8 +8,7 @@ component_of:
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
-domain:
-- 泛产品设计
+domain: panproduct
 estimated_tokens: 1600
 language: zh-CN
 prerequisites:
@@ -64,7 +62,6 @@ updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
 ---
-
 ## Constraints & Boundaries
 
 ### 适用边界

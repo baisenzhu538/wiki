@@ -9,15 +9,16 @@ domain:
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课 Truman 口述（涉及商业预判/产品内核案例）
 aliases:
-  - 一堂·Truman
-  - 愿望思维
-  - 愿望思维'是创业最大的陷阱
-  - 暗知
-  - 暗知：'愿望思维'是创业最大的陷阱
-  - 望思维
+- 愿望思维
+- 创业最大的陷阱
+- 一堂·Truman
 source_refs:
 - 10_raw/sources/src_20260619_97bd6151_00_inbox_一堂_关键假设课_truman_口述.txt
-created_at: 2026-06-08
+discoverable_by:
+- 愿望思维是创业最大的陷阱
+- 创业陷阱
+- 一堂关键假设
+created_at: '2026-06-08'
 updated_at: '2026-06-19'
 related:
 - '[[yt-demand-fake-demand-detection]]'
@@ -35,21 +36,7 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-19'
 confidence: 0.88
 trust_level: medium
-diagnostic_signals:
-- signal: src_unknown
-  framework_lens: 愿望思维——把情感上的必然当成逻辑上的必然
-  follow_up_question: 这是我们自己的愿望，还是已被5个以上真实用户验证过的付费原因？
-- signal: src_unknown
-  framework_lens: 把功能可行当成商业必然
-  follow_up_question: 如果去掉这个技术亮点，用户还会选择我们吗？他们愿意多付多少钱？
-- signal: src_unknown
-  framework_lens: 把执行力当成验证
-  follow_up_question: 在为这个假设全力以赴之前，我们愿意承受的最大验证成本是多少？有没有更小的实验可以证伪它？
-tags:
-- audience:executor
-- scene:reference
-- skill-level:intermediate
-- 关键假设课
+diagnostic_signals: []
 ---
 
 # 暗知："愿望思维"是创业最大的陷阱

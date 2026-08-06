@@ -1,14 +1,11 @@
 ---
-
 id: concept-一堂-hypothesis-driven-business-methodology
 title: 一堂假设驱动型创业分析方法论
 type: concept
 status: reviewed
 reviewed_by: 周伯通
 review_date: '2026-07-05'
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课/商业预判课/产品内核课程笔记
 aliases:

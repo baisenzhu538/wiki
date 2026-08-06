@@ -4,8 +4,8 @@ title: 技能：设计 Skill 的评分规则与风险边界
 type: tool
 status: reviewed
 domain:
-- src_unknown
-- yitang- src_unknown
+  - src-unknown
+  - yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 aliases:
@@ -23,6 +23,9 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：设计 Skill 的评分规则与风险边界
+  - 的评分规则与风险边界
 related:
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
 - '[[tool-ai-skill-engineering-method]]'
@@ -62,7 +65,6 @@ tags:
 - 半肥猫
 - 学习落地
 ---
-
 # 技能：设计 Skill 的评分规则与风险边界
 
 ## 用一句话讲清楚

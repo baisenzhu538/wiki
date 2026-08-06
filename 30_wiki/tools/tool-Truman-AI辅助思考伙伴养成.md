@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-AI辅助思考伙伴养成
 title: 技能：AI辅助思考伙伴养成
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

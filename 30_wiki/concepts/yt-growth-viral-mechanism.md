@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-viral-mechanism
 title: 病毒传播：自增长机制设计
 type: concept
@@ -48,7 +46,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 病毒传播：自增长机制设计
 
 > 一堂五步法：病毒传播不是运气，而是机制设计。K因子 > 1，增长自循环。

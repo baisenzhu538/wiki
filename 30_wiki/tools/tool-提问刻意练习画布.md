@@ -1,4 +1,5 @@
 ---
+
 id: tool-提问刻意练习画布
 title: 提问刻意练习画布：L1-L4四级提问能力进阶
 type: tool
@@ -17,6 +18,10 @@ aliases:
   - 提问刻意练习画布：L1L4四级提问能力进阶
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-提问刻意练习画布_vlm_desc.md
+discoverable_by:
+  - 提问刻意练习画布：L1-L4四级提问能力进阶
+  - 提问刻意练习画布
+  - L4四级提问能力进阶
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

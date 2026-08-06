@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-key-conversion
 title: 关键转化率：产品内核的北极星指标
 type: concept
@@ -49,7 +47,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 关键转化率：产品内核的北极星指标
 
 > 一堂五步法：产品内核的北极星指标是"关键转化率"——从"了解产品"到"选择产品"的转化率。内核清晰，转化率就高；内核模糊，转化率就低。

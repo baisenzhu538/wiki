@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-three-second-opening-scripts
 title: 一通电话前三秒话术优化卡
 type: tool
@@ -21,6 +22,8 @@ source_refs:
   - 00_inbox/销售专题/李蕊-销售体系之二-销售过程拆解-口述.txt L764
   - 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
   - 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
+discoverable_by:
+  - 一通电话前三秒话术优化卡
 related:
   - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[tool-opc-sales-dialogue-assistant]]"

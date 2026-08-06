@@ -1,4 +1,5 @@
 ---
+
 id: tool-prompt-usp-quick-scan
 title: USP 快速需求拆解——3分钟单轮提示词模板
 type: prompt-template
@@ -22,6 +23,10 @@ created_at: '2026-06-21'
 updated_at: '2026-06-29'
 author: 黄药师（从程诚同学提示词提取）
 reviewed_by: 欧阳锋
+discoverable_by:
+  - USP 快速需求拆解——3分钟单轮提示词模板
+  - 快速需求拆解
+  - 3分钟单轮提示词模板
 related:
 - '[[tool-prompt-usp-demand-analysis]]'
 - tool-yitang-ai-assisted-organize

@@ -2,7 +2,9 @@
 id: tool-按分阶练习路径渐进掌握方法
 title: 技能：按分阶练习路径渐进掌握方法
 type: tool
-domain: learning-methodology- design
+domain:
+  - learning-methodology
+  - design
 status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
@@ -26,6 +28,9 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：按分阶练习路径渐进掌握方法
+  - 按分阶练习路径渐进掌握方法
 related:
 - '[[tool-使用概念辨析卡区分易混淆概念]]'
 - '[[tool-设定管理杠杆率指标评估效率]]'

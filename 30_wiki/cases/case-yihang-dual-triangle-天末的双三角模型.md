@@ -1,24 +1,29 @@
 ---
 id: case-yihang-dual-triangle-天末的双三角模型
-title: 双三角案例：天末室内设计——AI 辅助从调研到效果图直�?type: case
-status: enriched
-author: 洪七公（VLM提取�? 老顽童（enrich�?reviewed_by: ŷ����
-review_date: 2026-07-04
-confidence: 0.78
-trust_level: medium
-language: zh-CN
-created_at: 2026-07-04
-updated_at: 2026-07-04
+title: "双三角案例：天末室内设计——AI 辅助从调研到效果图直出"
+type: case
+status: draft
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - panproduct
+author: 洪七公（VLM提取） 老顽童（enrich）
+reviewed_by: 待审
+confidence: 0.7
+trust_level: low
 source_refs:
-- 00_inbox/人机协作双三�?_processed/天末的双三角模型_vlm.md
+  - src_unknown
 related:
-- "[[concept-yihang-dual-triangle-core]]"
-- "[[case-yihang-dual-triangle-tianmo-design-delivery]]"
+created_at: 2026-06-30
+updated_at: 2026-08-04
+tags:
+  - audience:general
+  - scene:reference
+  - skill-level:intermediate
+aliases:
+  - 双三角案例：天末室内设计——AI 辅助从调研到效果图直出
+discoverable_by:
+  - 双三角案例：天末室内设计——AI 辅助从调研到效果图直出
 ---
-
 # 双三角案例：天末室内设计——AI 辅助从调研到效果图直�?
 > **一句话定义**：天末用双三角框架重构室内设计工作流——审美来自室内设计风�?品味 + 设计图可落地性判断，AI 侧用 LLM 深度研究 + RAG 知识�?+ 结构化提示词实现从调研到效果图直出。探索了 AI 参与商业交付的新业务模式�?
 ---

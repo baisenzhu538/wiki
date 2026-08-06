@@ -3,11 +3,7 @@ id: yt-tob-product-kernel
 title: To B 产品内核：面向决策者研究付费，面向使用者夯实价值
 type: framework
 status: draft
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - ToB产品内核：面向决策者研究付费，面向使用者夯实价值
   - 产品内核

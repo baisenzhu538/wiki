@@ -1,14 +1,13 @@
 ---
-
 id: smart-medicine-cabinet-clinic-risk-observation
 title: 诊所 + 智能药柜协同模式：一线观察与风险提示
 type: case
 status: enriched
 domain:
-- healthcare-healthcare
-- pharmaceutical-retail
-- policy-compliance
-- risk-warning
+  - healthcare
+  - pharmaceutical-retail
+  - policy-compliance
+  - risk-warning
 aliases:
   - 一线观察与风险提示
   - 智能药柜协同模式

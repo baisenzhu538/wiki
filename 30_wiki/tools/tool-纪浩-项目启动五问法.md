@@ -1,4 +1,5 @@
 ---
+
 id: tool-纪浩-项目启动五问法
 title: 技能：项目启动五问法
 type: tool
@@ -20,6 +21,9 @@ source_refs:
 - 10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
 updated_at: 2026-07-02
+discoverable_by:
+  - 技能：项目启动五问法
+  - 项目启动五问法
 related:
 - '[[tool-纪浩-问题导向备课法]]'
 - '[[tool-纪浩-线上问题应急值守]]'

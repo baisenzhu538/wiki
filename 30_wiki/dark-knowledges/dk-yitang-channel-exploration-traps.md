@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-channel-exploration-traps
 type: dk
 title: 渠道探索常见陷阱：18 万字共建作业里的血泪教训
@@ -11,6 +12,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
+discoverable_by:
+  - 渠道探索常见陷阱：18 万字共建作业里的血泪教训
+  - 渠道探索常见陷阱
+  - 万字共建作业里的血泪教训
 quality_labels:
 - cited
 - quality

@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-个人判断力系统建设（达克效应应对）
 title: 技能：个人判断力系统建设（达克效应应对）
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

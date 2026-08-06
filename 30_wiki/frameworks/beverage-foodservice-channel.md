@@ -6,9 +6,10 @@ status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-- yitang- business-strategy
-- product
-- entrepreneur
+  - yitang
+  - business-strategy
+  - product
+  - entrepreneur
 aliases:
   - 产品
   - 工艺框架

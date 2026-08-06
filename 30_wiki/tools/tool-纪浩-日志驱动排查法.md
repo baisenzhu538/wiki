@@ -3,9 +3,7 @@ id: tool-纪浩-日志驱动排查法
 title: 技能：日志驱动排查法
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 aliases:
@@ -21,6 +19,9 @@ tools_required:
 - src_unknown
 - src_unknown
 prerequisite_skills: skill-纪浩-AI工作空间与导诊台设计法
+discoverable_by:
+  - 技能：日志驱动排查法
+  - 日志驱动排查法
 related:
 - '[[case-lean-adult-education]]'
 - '[[case-truman-ai-skill-self-packaging]]'
@@ -54,7 +55,6 @@ tags:
 - 五层结构
 - 俱乐部
 ---
-
 # 技能：日志驱动排查法
 
 ## 不要用的场景

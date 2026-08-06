@@ -1,4 +1,5 @@
 ---
+
 id: tool-candy-oral-polish
 title: Candy口语化润色：七条原则让文字"读出声来"
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 口语化润色
 source_refs:
 - 10_raw/sources/src_20260621_candy-transcript-workflow.md
+discoverable_by:
+  - Candy口语化润色：七条原则让文字读出声来
+  - Candy口语化润色
+  - 七条原则让文字读出声来
 related:
 - '[[yitang-domain-digest]]'
 - '[[framework-candy-transcript-workflow]]'

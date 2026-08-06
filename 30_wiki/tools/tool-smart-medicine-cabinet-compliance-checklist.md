@@ -1,4 +1,5 @@
 ---
+
 id: tool-smart-medicine-cabinet-compliance-checklist
 title: 智能药柜/医药项目合规快速校验清单
 type: tool
@@ -20,6 +21,8 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
+discoverable_by:
+  - 智能药柜/医药项目合规快速校验清单
 related:
 - '[[tool-smart-medicine-cabinet-site-selection-guide]]'
 - '[[tool-clinic-medical-shortvideo-compliance]]'

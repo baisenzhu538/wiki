@@ -1,14 +1,13 @@
 ---
-
 id: smart-medicine-cabinet-o2o-cost-structure
 title: 医药 O2O 成本与毛利结构
 type: concept
 status: enriched
 domain:
-- healthcare- healthcare
-- pharmaceutical-retail
-- o2o
-- financial-model
+  - healthcare
+  - pharmaceutical-retail
+  - o2o
+  - financial-model
 aliases:
   - 与毛利结构
   - 医药

@@ -1,4 +1,5 @@
 ---
+
 id: tool-three-ring-capability-filter
 title: cap_hub 三环过滤器——能力注册准入 checklist
 type: tool
@@ -24,6 +25,10 @@ source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-笔记.txt
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/整合笔记_苦练基本功完整版.md
 - 70_product/tasks/task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout.md
+discoverable_by:
+  - cap_hub 三环过滤器——能力注册准入 checklis
+  - 三环过滤器
+  - 能力注册准入
 related:
 - '[[tool-一堂-基本功-三环六维自检]]'
 - '[[concept-一堂-基本功定义]]'

@@ -1,5 +1,4 @@
 ---
-
 id: case-wanghuan-education-sales-capability-extraction
 title: 王欢案例：教育机构销冠能力萃取系统
 type: case
@@ -22,10 +21,7 @@ source_refs:
 - src_unknown
 - src_unknown
 - src_unknown
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-20'
 updated_at: '2026-06-28'
 diagnostic_signals:
@@ -58,7 +54,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 王欢案例：教育机构销冠能力萃取系统
 
 > **Burn line**: 话术是决策链最末端的产物，只萃取话术会得到“一堆在错误时机说出的正确的话”。

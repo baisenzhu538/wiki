@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-l4-case-match
 title: Agent做L4：案例库自动检索匹配——用历史摩擦点作为推演起点
 type: tool
@@ -21,6 +22,10 @@ created_at: '2026-06-21'
 updated_at: '2026-06-29'
 author: 黄药师
 reviewed_by: 欧阳锋
+discoverable_by:
+  - Agent做L4：案例库自动检索匹配——用历史摩擦点作为推演
+  - 案例库自动检索匹配
+  - 用历史摩擦点作为推演起点
 related:
 - '[[tool-demand-iceberg-l4-job-map]]'
 - '[[framework-multi-agent-research-architecture]]'

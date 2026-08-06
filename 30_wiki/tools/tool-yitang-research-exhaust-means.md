@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-exhaust-means
 title: 穷尽手段：底线之上，努力拉满
 type: tool
@@ -25,6 +26,10 @@ aliases:
   - 底线之上
   - 穷尽手段
   - 穷尽手段：底线之上，努力拉满
+discoverable_by:
+  - 穷尽手段：底线之上，努力拉满
+  - 穷尽手段
+  - 底线之上，努力拉满
 related:
 tags:
 ---

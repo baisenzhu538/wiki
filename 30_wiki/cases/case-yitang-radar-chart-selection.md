@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-radar-chart-selection
 title: 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」
 type: case
@@ -13,10 +12,7 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（抽象建模/雷达图案例） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）

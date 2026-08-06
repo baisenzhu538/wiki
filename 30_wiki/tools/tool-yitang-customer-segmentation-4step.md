@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-customer-segmentation-4step
 title: 一堂用户分层四步法（SABC 分级）
 type: tool
@@ -26,6 +27,9 @@ source_refs:
 - 00_inbox/销售专题/李蕊-科学销售方法论-口述.txt
 - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-口述.txt
 - 00_inbox/销售专题/李蕊-销售体系之一-客户分层和卖点提炼-笔记.txt
+discoverable_by:
+  - 一堂用户分层四步法SABC 分级
+  - 一堂用户分层四步法SABC
 related:
 - '[[case-yitang-sales-transformation-tuliaogongsi]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'

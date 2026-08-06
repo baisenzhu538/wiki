@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-demand-level-assessment
 title: 需求分析段位自评表：从L1到L6的进阶路径
 type: tool
@@ -21,6 +20,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
+discoverable_by:
+  - 需求分析段位自评表：从L1到L6的进阶路径
+  - 需求分析段位自评表
+  - 从L1到L6的进阶路径
 related:
 - '[[yt-demand-ai-knowledge-base-case]]'
 - '[[yt-demand-treadmill-case]]'
@@ -44,7 +47,6 @@ tags:
 - 分析段位图
 - 段位示例
 ---
-
 # 需求分析段位自评表：从L1到L6的进阶路径
 
 > 一堂五步法：需求分析有段位，从"能描述功能"到"能预判需求变化"。

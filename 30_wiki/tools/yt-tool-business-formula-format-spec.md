@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-business-formula-format-spec
 title: 业务公式格式规范：L1-L3 三级标准 + 清单体 + 四不要（女装店三版本打分）
 type: tool
@@ -24,6 +25,12 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-实操篇-口述.txt L2580-L2614
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002832_vlm.md
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂DOC-20260712002843_vlm.md
+discoverable_by:
+  - 业务公式格式规范：L1-L3 三级标准 + 清单体 + 四不
+  - 业务公式格式规范
+  - 三级标准
+  - 清单体
+  - 四不要女装店三版本打分
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-three-stage-workflow]]'

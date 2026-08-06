@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-yitang-research-goal-before-efficiency
 title: 没有目标就不要谈效率
 type: dk
@@ -19,6 +20,8 @@ aliases:
   - 目标就不要谈效率
 source_refs:
 - 00_inbox/调研专题/Doris-行业报告调研-口述.txt
+discoverable_by:
+  - 没有目标就不要谈效率
 related:
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
@@ -26,7 +29,6 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 updated_at: 2026-06-28
-
 ---
 
 # 没有目标就不要谈效率

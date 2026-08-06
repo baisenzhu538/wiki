@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-web-scraping-research
 title: 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线
 type: tool
@@ -11,6 +12,11 @@ domain:
 - ai
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线
+  - 全网爬虫调研武器库
+  - 大工具
+  - 合规红线
 related:
 - '[[ai时代判断力口述]]'
 - '[[ai时代判断力口述-3]]'

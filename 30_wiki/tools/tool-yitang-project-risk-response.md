@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-risk-response
 title: 项目风险四级应对执行清单
 type: tool
@@ -19,6 +20,8 @@ aliases:
   - 项目风险四级应对执行清单
 source_refs:
 - 00_inbox/管项目/项目管理-定方案-常见风险应对清单_vlm_desc.md
+discoverable_by:
+  - 项目风险四级应对执行清单
 related:
 - "[[yt-management-project-management]]"
 - "[[framework-yitang-project-plan-design]]"

@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-weapon-media-search
 title: 武器库策略12：媒体/社区搜索——从业者观点和专业讨论
 type: tool
@@ -20,6 +21,11 @@ aliases:
   - 武器库策略12：媒体/社区搜索从业者观点和专业讨论
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 武器库策略12：媒体/社区搜索——从业者观点和专业讨论
+  - 武器库策略12
+  - 媒体/社区搜索
+  - 从业者观点和专业讨论
 related:
 - '[[tool-yitang-reverse-data-analysis]]'
 - '[[tool-yitang-research-exhaust-means]]'

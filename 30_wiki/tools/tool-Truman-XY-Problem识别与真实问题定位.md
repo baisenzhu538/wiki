@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-XY-Problem识别与真实问题定位
 title: 技能：XY Problem识别与真实问题定位
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

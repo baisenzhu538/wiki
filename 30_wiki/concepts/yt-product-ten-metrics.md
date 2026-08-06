@@ -1,12 +1,10 @@
 ---
-
 id: yt-product-ten-metrics
 component_of: '[[yt-product-kernel-cultivation]]'
 confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2200
 language: zh-CN
 prerequisites: '[[yt-product-kernel-cultivation]]'
@@ -58,8 +56,6 @@ tags:
 - 一堂五步法
 - 产品内核
 ---
-
-
 # 产品内核十大典型指标
 
 > 来源：一堂五步法·解决方案篇 | 洪七公 OCR 整合 | [[yt-product-kernel-cultivation]] | [[yt-customer-acquisition-toolkit]] | [[yt-unit-model-three-tools]]

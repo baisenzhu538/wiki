@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-retro-goal-types
 title: 项目复盘目标类型选择清单
 type: tool
@@ -19,6 +20,8 @@ aliases:
   - 项目复盘目标类型选择清单
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 192335_vlm_desc.md
+discoverable_by:
+  - 项目复盘目标类型选择清单
 related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-retro-value-mining]]"

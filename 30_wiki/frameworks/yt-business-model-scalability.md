@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-scalability
 title: 商业模式可规模化评估：从1到100万
 type: framework
@@ -53,7 +52,6 @@ discoverable_by:
 - 复制扩张
 - 规模经济
 ---
-
 # 商业模式可规模化评估：从1到100万
 
 > 一堂五步法：单元模型成立只是开始，商业模式还需要可规模化。评估规模化潜力，避免"做不大"的陷阱。

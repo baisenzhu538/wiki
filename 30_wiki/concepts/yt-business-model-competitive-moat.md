@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-competitive-moat
 title: 商业模式护城河：持续竞争优势
 type: concept
@@ -50,7 +48,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 商业模式护城河：持续竞争优势
 
 > 一堂五步法：护城河不是单一优势，而是多层次防御体系。没有护城河，商业模式不可持续。

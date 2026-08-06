@@ -4,9 +4,9 @@ title: 私域 SaaS 销售四步法
 type: framework
 status: stable
 domain:
-- SaaS
-- 私域电商
-- 销售流程
+  - saas
+  - 私域电商
+  - 销售流程
 confidence: 0.8
 trust_level: medium
 diagnostic_signals:

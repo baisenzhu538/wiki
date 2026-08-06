@@ -1,11 +1,9 @@
 ---
-
 id: yt-entrepreneur-unit-model
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1868
 language: zh-CN
 query_triggers:
@@ -69,7 +67,6 @@ tags:
 - scene:execution
 - skill-level:advanced
 ---
-
 # 单元模型
 
 > 来源：一堂课程体系 | 阶段：预判阶段/核心框架。[[yitang-course-map]] | [[yt-system-course-catalog]]

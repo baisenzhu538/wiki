@@ -8,8 +8,7 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260619_642947cb_30_wiki_concepts_yt_management_scientific_hiring.md
 status: reviewed
-domain:
-- src_unknown
+domain: src-unknown
 language: zh-CN
 version: 1
 difficulty: foundational
@@ -17,6 +16,8 @@ confidence: 0.85
 prerequisites: null
 component_of:
 - src_unknown
+discoverable_by:
+  - 结构化面试打分卡
 related:
 - '[[yt-management-scientific-hiring]]'
 - '[[yt-decision-width-method]]'

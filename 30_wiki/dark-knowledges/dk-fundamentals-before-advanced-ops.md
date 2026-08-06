@@ -1,4 +1,5 @@
 ---
+
 id: dk-fundamentals-before-advanced-ops
 title: 基本功未内化就强上高阶操作——高阶工具失效的头号根因
 type: dk
@@ -22,6 +23,10 @@ source_refs:
 - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 - 10_raw/sources/src_20260614_55135154-Truman-高阶建模-本质建模-案例-02.md
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
+discoverable_by:
+  - 基本功未内化就强上高阶操作——高阶工具失效的头号根因
+  - 基本功未内化就强上高阶操作
+  - 高阶工具失效的头号根因
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'

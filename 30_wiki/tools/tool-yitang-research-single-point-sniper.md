@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-single-point-sniper
 title: 单点狙击：聚焦关键问题的深度验证
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - skill-level:intermediate
   - 单点狙击
   - 单点狙击：聚焦关键问题的深度验证
+  - 聚焦关键问题的深度验证
+discoverable_by:
+  - 单点狙击：聚焦关键问题的深度验证
+  - 单点狙击
   - 聚焦关键问题的深度验证
 related:
 tags:

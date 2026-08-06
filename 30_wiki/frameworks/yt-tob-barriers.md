@@ -3,11 +3,7 @@ id: yt-tob-barriers
 title: To B 业务壁垒：选择、强弱判断与规模不经济对抗
 type: framework
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - ToB业务壁垒：选择、强弱判断与规模不经济对抗
   - 业务壁垒
@@ -53,7 +49,6 @@ discoverable_by:
 - ToB护城河
 - 企业软件壁垒
 ---
-
 > To B 业务常见的三类壁垒：转化成本、规模效应、无形资产；判断强弱看集中度、单元模型占比、成本变化；对抗规模不经济要减少定制、缩减 SKU、替代专家服务。——徐剑《To B 五步法》
 
 ---

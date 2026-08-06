@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-subscription
 title: 订阅制商业模式：从一次性到持续收入
 type: concept
@@ -50,7 +48,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 订阅制商业模式：从一次性到持续收入
 
 > 一堂五步法：订阅制是最健康的商业模式之一，提供可预测、可持续的收入。但订阅制需要从产品设计之初考虑。

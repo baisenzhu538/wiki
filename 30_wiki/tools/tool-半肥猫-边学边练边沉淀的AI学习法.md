@@ -3,9 +3,7 @@ id: tool-半肥猫-边学边练边沉淀的AI学习法
 title: 技能：边学边练边沉淀的 AI 学习法
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 aliases:
@@ -23,6 +21,10 @@ tools_required:
 prerequisite_skills:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：边学边练边沉淀的 AI 学习法
+  - 边学边练边沉淀的
+  - 学习法
 related:
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
@@ -61,7 +63,6 @@ tags:
 - 半肥猫
 - 学习落地
 ---
-
 # 技能：边学边练边沉淀的 AI 学习法
 
 ## Summary

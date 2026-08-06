@@ -1,4 +1,5 @@
 ---
+
 id: dk-agent-promise-verification
 title: 承诺核对表：Agent 能承诺什么、不能承诺什么
 type: dk
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 承诺核对表：Agent 能承诺什么、不能承诺什么
+  - 承诺核对表
+  - 能承诺什么、不能承诺什么
 quality_labels:
 - actionable
 - principle

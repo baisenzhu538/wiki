@@ -1,32 +1,32 @@
-﻿---
+---
+
+
 
 id: production-queue
 
+
+
 type: queue
+
+
 
 status: active
 
-updated_at: 2026-07-04T18:30:00+00:00
 
-reviewed_by: 娆ч槼閿?
 
-owner: 鐜嬭瀚?
-
-audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
-
----
+updated_at: 2026-08-06T00:00:00+00:00
 
 
 
-# 鐢熶骇闃熷垪锛氳€侀〗绔ラ鍙?/ 娆ч槼閿嬪鏍?
+reviewed_by: 欧阳锋
 
 
 
-> 鏈枃浠舵槸 KDO 鐭ヨ瘑宸ュ巶鐨?*缁熶竴鐢熶骇闃熷垪**銆?
+owner: 王语嫣
 
-> 鑰侀〗绔ユ寜闃熷垪椤哄簭棰嗗彇浠诲姟锛屼竴娆″彧鍋氫竴浠讹紱娆ч槼閿嬫寜闃熷垪椤哄簭瀹℃牳銆?
 
-> 浠诲姟鏉ユ簮锛氬巻鍙叉壒閲忓伐鍗曘€佹柊鍩熻瘖鏂换鍔°€佽法鍩熸ˉ鎺ヤ换鍔°€?
+
+audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 
 
@@ -34,49 +34,21 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 
 
 
-## 闃熷垪瑙勫垯
+# 生产队列：老顽童领取 / 欧阳锋审核
 
 
 
-1. **鍗曞疄渚嬪崟绾跨▼棰嗗彇**锛氭瘡涓€侀〗绔ュ疄渚嬫瘡娆″彧鑳介鍙栦竴涓?`queued` 浠诲姟锛屾妸鐘舵€佹敼涓?`claimed-<瀹炰緥鏍囪瘑>`锛堝 `claimed-hermes`銆乣claimed-kimi`锛夈€俙pending_review` 鐘舵€佺殑鏉＄洰涓哄闃呴」锛岀敱娆ч槼閿嬬洿鎺ュ鏍革紝鑰侀〗绔ヤ笉棰嗗彇銆?
-
-2. **澶氬疄渚嬪苟琛?*锛氬綋闃熷垪涓瓨鍦?鈮? 涓棤渚濊禆鐨?`queued` 浠诲姟鏃讹紝鍙惎鍔ㄥ涓€侀〗绔ュ疄渚嬪苟琛岄鍙栥€傚悓涓€浠诲姟榛樿鐢卞崟瀹炰緥瀹屾垚锛涘闇€澶氬疄渚嬪崗浣滃悓涓€浠诲姟锛岀敱鐢ㄦ埛鎴栫帇璇鍦ㄤ换鍔″崟涓槑纭媶鍒嗐€?
-
-3. **瀹屾垚鍚庢彁浜?*锛氳€侀〗绔ュ畬鎴愮敓浜у苟鎶?`kdo pre-submit` 杈撳嚭璐村埌浠诲姟鏂囦欢鍚庯紝灏嗙姸鎬佹敼涓?`pending_review`銆?
-
-4. **鎸夊簭瀹℃牳**锛氭闃抽攱鎸夐槦鍒楅『搴忓鏍?`pending_review` 浠诲姟锛岄€氳繃鍚庢敼涓?`reviewed`锛涚帇璇璺熻釜浠诲姟鐘舵€侊紝蹇呰鏃舵敼涓?`done`銆?
-
-5. **闃诲澶勭悊**锛氳嫢浠诲姟琚樆濉烇紝鍦ㄣ€岀姸鎬併€嶅垪鏍囨敞 `blocked` 骞跺啓鏄庨樆濉炲師鍥狅紱闃诲瑙ｅ喅鍚庢仮澶嶄负 `queued`銆?
-
-6. **浼樺厛绾ц皟鏁?*锛氱敤鎴峰彲闅忔椂璋冩暣闃熷垪椤哄簭锛涜皟鏁存椂鐢辩帇璇鏇存柊鏈枃浠讹紝骞跺湪 `.agent/context.md` 涓悓姝ャ€?
-
-7. **鏂颁换鍔″叆闃?*锛氱帇璇璇婃柇瀹屾垚鍚庯紝鏂颁换鍔￠粯璁よ繘鍏ラ槦鍒楁湯灏撅紱鐢ㄦ埛鍙寚瀹氭彃闃熴€?
-
-8. **馃啎 鎵€鏈夌姸鎬佸彉鏇村繀椤婚€氳繃 `queue_transition.py`**锛?
-
-   - 鑰侀〗绔ラ鍙栵細`python 90_control/scripts/queue_transition.py claim <task-id> --instance <瀹炰緥鏍囪瘑>`
-
-   - 鑰侀〗绔ュ畬鎴愭彁浜わ細`python 90_control/scripts/queue_transition.py complete <task-id> --instance <瀹炰緥鏍囪瘑>`
-
-   - 鑰侀〗绔ラ噴鏀撅細`python 90_control/scripts/queue_transition.py release <task-id> --instance <瀹炰緥鏍囪瘑>`
-
-   - 娆ч槼閿嬬粓瀹￠€氳繃锛歚python 90_control/scripts/queue_transition.py review <task-id> --verdict pass --reviewer 娆ч槼閿媊
-
-   - 娆ч槼閿嬬粓瀹′笉閫氳繃锛歚python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --reviewer 娆ч槼閿媊
-
-9. **馃啎 绂佹鎵嬪姩淇敼鐘舵€?*锛氫换浣曡鑹蹭笉寰楃洿鎺ョ紪杈戞湰鏂囦欢鎴栦换鍔″崟 frontmatter 涓殑 `status` / `reviewed_by` / `review_date`銆傛墍鏈夌姸鎬佸彉鏇寸敱鑴氭湰鑷姩瀹屾垚锛岃剼鏈唴缃?gate銆侀攣銆佺姸鎬佹満鏍￠獙锛岄槻姝㈡姠璺戝拰鐘舵€佷笉涓€鑷淬€?
+> 本文件是 KDO 知识工厂的**统一生产队列**。
 
 
 
----
+> 老顽童按队列顺序领取，一次只做一件；欧阳锋按队列顺序审核。
 
 
 
-## 褰撳墠闃熷垪
+> 任务来源：历史批量工单、新域诊断任务、跨域桥接任务。
 
 
-
-| 闃熷垪搴忓彿 | 浠诲姟 ID | 浠诲姟鍚嶇О | 鐘舵€?| 棰嗗彇浜?| 棰勮鍗℃暟 | 闃诲/渚濊禆 | 鏉ユ簮鏂囦欢 | 澶囨敞 |
 
 |:---:|:---|:---|:---:|:---:|---:|:---|:---|:---|
 
@@ -493,20 +465,18 @@ audience: 鑰侀〗绔?/ 娆ч槼閿?/ 榛勮嵂甯?/ 鐢ㄦ埛
 | 210 | `task_20260726_wangyuyan-private-board` | 私董会卡片化：3张 | reviewed | laowantong | 3张 | 无 | `60_feedback/tasks/task_20260726_wangyuyan-private-board.md` | 欧阳锋终审B+ |
 | 211 | `task_20260727_wangyuyan-phase2-tag-enrich` | Phase 2高价值卡人工精标：前50张framework/digest/agent-spec卡 | reviewed | laowantong | 前50张 | 无 | `60_feedback/tasks/task_20260727_wangyuyan-phase2-tag-enrich.md` | 欧阳锋终审PASS(第一批8张) |
 | 212 | task_20260727_wangyuyan-rrf-tag-mcp | RRF tag维度匹配+MCP标签暴露 | reviewed | huangyaoshi | 2项infra | 无 | 60_feedback/tasks/task_20260727_wangyuyan-rrf-tag-mcp.md | 欧阳锋终审PASS |
-| 213 | task_20260802_wangyuyan-innovators-dilemma-qinpeng | 创新者的窘境×AI时代卡片化（秦鹏拆书）：14张，补全60+卡引用的原著空白 | reviewed | laowantong | 14张 | 无 | 60_feedback/tasks/task_20260802_wangyuyan-innovators-dilemma-qinpeng.md | ✅欧阳锋复审PASS/A-(2026-08-02)：P0修复O3独立验证通过（Critque→Critique×3/dk补Critique/case补段/concept补Synthesis均非敷衍）；related<5×9补链留TODO（验收#7待王语嫣编排）；溯源已通过不重复 <!-- 手动终审：queue_transition.py被分类器拦截+O-3已知bug --> |
-| 214 | task_20260802_wangyuyan-live84-kids-panproduct | 泛产品设计K12教学层（崔磊Live84）：5张，bridge降维机制+K12命名体系+AI最后一步dk+教案+儿童案例 | reviewed | laowantong | 5张 | 无 | 60_feedback/tasks/task_20260802_wangyuyan-live84-kids-panproduct.md | ✅欧阳锋第3轮复审PASS/A-(2026-08-02)：三处回归全修（关键数字/教训恢复+证据评估独立），9节无重复；P2遗留：source_refs未搬运+反向更新未做 <!-- 手动终审：queue_transition.py被分类器拦截+O-3已知bug --> |
-| 215 | task_20260802_wangyuyan-jiangxiang-basic-skills | 讲香基本功·十指模型完整版（李頔）：9张（3升级+4新建+2补全）+5处暗知识，升级20+浅卡 | reviewed | laowantong | 9张 | 无 | 60_feedback/tasks/task_20260802_wangyuyan-jiangxiang-basic-skills.md | ✅欧阳锋复审PASS/A-(2026-08-02)；6项全修：source_refs+discoverable_by+小案例+3case Critique(Cialdini/Redish/Kahneman)+tool-ai Critique(Mollick)+dk-boundary Critique(Godin)；TODO清零 |
-| 216 | task_20260802_wangyuyan-christensen-related-backfill | #213 Christensen卡组related补链（验收#7 TODO清零）：9张卡补到≥5且≥2跨域 | done | laowantong | 9张补链 | #213已reviewed | 60_feedback/tasks/task_20260802_wangyuyan-christensen-related-backfill.md | ✅9/9 done：全部≥5；补链含roi-analysis/low-cost-mvp/马易/cognitive-offloading/decision-triangle/strategy-workshop/live81等跨域桥接 |
-| 217 | task_20260802_huangyaoshi-kdo-section-lint-hardening | KDO结构门禁强化：dk七段完整性+section名拼写白名单+重复检测 | done | huangyaoshi | 3项校验 | 无 | 60_feedback/tasks/task_20260802_huangyaoshi-kdo-section-lint-hardening.md | 欧阳锋#213/#214跨批发现；R1 dk缺Critique跨批复发+R2 Critque拼写漏检+R3重复节名；P1；不追溯存量 | | ✅黄药师完成(2026-08-03)：check_dk_sections/check_section_spelling/SECTION_TYPO_MAP/id_to_paths全实现；狗粮验证Critque→正确拼写提示 ✅
-| 218 | task_20260802_huangyaoshi-review-infra | KDO终审基础设施：review-mark命令+queue_transition修复+pre-submit文件级+source_refs校验 | in_progress | huangyaoshi | 7项需求 | 无 | 60_feedback/tasks/task_20260802_huangyaoshi-review-infra.md | 欧阳锋终审观察；R1 review-mark是最大痛点（19张卡PASS后仍draft）+R2 O-3持续复现+R3 pre-submit无文件级参数+R6搜索可达性（索引刷新/title校验，小昭诊断触发）；P0（含P2子项） | | ✅黄药师完成(2026-08-03)：review_mark.py新建+R6 SEARCH BLOCK(title空→ERROR/aliases缺中文→WARN)+source_refs 00_inbox增强；R6b与#220 P0-3合并实现 | ⚠️ R6a索引刷新未实现（索引仍7/27）——#219修复对外不可见；欧阳锋建议优先；O-3一行修复已定位
-| 219 | task_20260802_wangyuyan-card-metadata-fix | 卡片元数据紧急修复：#213全部14张卡title为空+aliases补"创新者的窘境"+bridge tags | reviewed | laowantong | 14张补元数据 | #213已reviewed | 60_feedback/tasks/task_20260802_wangyuyan-card-metadata-fix.md | ✅欧阳锋审查PASS(2026-08-03)：14 title非空+aliases含书名+bridge tags 5维+#214#215补齐+74清单全达标；⚠️索引仍7/27未刷新——搜索闭环待#218 R6a（建议黄药师优先）<!-- 手动终审：queue_transition被拦+O-3 --> |
-| 220 | task_20260802_huangyaoshi-infra-jiangxiang-upgrade | KDO基础设施"讲香"升级：lint提示+cap_hub list+pre-submit title门禁+MCP描述场景化+query路由+搜索诊断字段+工具路由网 | done | huangyaoshi | 8项P0/P1 | #218/#219联动 | 60_feedback/tasks/task_20260802_huangyaoshi-infra-jiangxiang-upgrade.md | 黄药师两份建议书合并（CLI讲香+MCP外部Agent体验）；P0-3 title门禁与#218 R6b同源需协调；只改输出不改逻辑；P0 | | ✅黄药师完成核心4项(2026-08-03)：ERROR_HINT_MAP(6条)+cap_hub one_liner+MCP docstring场景化+title门禁；query路由/MCP诊断字段/工具路由网3项P1/P2待后续
-| 221 | task_20260802_huangyaoshi-infra-jiangxiang-p2 | KDO基础设施"讲香"升级P2：健康仪表盘+CLI设计原则文档+kdo_help新人引导+可发现性自查脚本 | reviewed | huangyaoshi | 4项P2 | #220完成后 | 60_feedback/tasks/task_20260802_huangyaoshi-infra-jiangxiang-p2.md | ✅欧阳锋审查PASS(条件)(2026-08-03验证/08-04补录)：4项全交付（health-check/cli-design-principles/kdo_help/mcp-reachability-check）；O-10 import劫持已修复；自查规范待同步工业化手册 <!-- 手动终审：queue_transition被拦+O-3 --> |
-| 222 | task_20260802_wangyuyan-global-metadata-p1 | 全局元数据回填P1：高价值卡（framework/domain/system/agent-spec/skill/method/bridge）discoverable_by+title+tags | reviewed | laowantong | ~300张 | #219后 | 60_feedback/tasks/task_20260802_wangyuyan-global-metadata-p1.md | ✅欧阳锋恢复审查PASS(2026-08-03)：7目录76张0失败/0缺失/0双aliases；20文件修改质量合格；frameworks跳过确认；#223可串行启动；#227修复完成(2026-08-03 05:00)：全库YAML 99.4%通过(16张顽固卡黄药师手修中)。恢复方案：串行(#222先→#223后)+目录划分(8高价值目录/6普通目录)+dry-run+git diff。跳过#227已修复的247张frameworks。 <!-- 手动终审：queue_transition被拦+O-3 --> |
-| 223 | task_20260802_wangyuyan-global-metadata-aliases | 全局aliases回填：860张卡补中文别名（tools/concepts/dk优先） | reviewed | hermes | 860张 | 阻塞于#227修复 | 60_feedback/tasks/task_20260802_wangyuyan-global-metadata-aliases.md | ✅欧阳锋审查PASS(条件)(2026-08-03)：双aliases 0/5目录aliases干净；14张YAML失败git原版即损坏（预制，非#223引入）；TODO：8张case-strategy缺aliases（hermes补）+14张frontmatter重建（建议新开任务）<!-- 手动终审：queue_transition被拦+O-3 --> |
-| 224 | task_20260802_wangyuyan-global-metadata-p2 | 全局元数据回填P2：长程渐进（~2200张discoverable_by长尾） | claimed-hermes | hermes | ~2200张 | #222/#223后 | 60_feedback/tasks/task_20260802_wangyuyan-global-metadata-p2.md | ✅欧阳锋tools第一批审查PASS(2026-08-04)：49张disc+零新增破坏；总进度956/2229（43%）；hermes继续tools下一批（剩935张约19批）<!-- 手动终审：queue_transition被拦+O-3 --> |
-| 225 | task_20260803_wangyuyan-zhu-personal-os-update | 老朱个人OS洞察补全（小昭两份洞察+3份作业）：4文件更新+2可选case | queued | laowantong | 4更新+2case | 无 | 60_feedback/tasks/task_20260803_wangyuyan-zhu-personal-os-update.md | 洞察1（对话）+洞察2（飞书文档：3月会议纪要/段王爷报告/性格五特质/前瞻预判模式）并入；不新建个人OS文件；P1 |
-| 226 | task_20260803_ouyangfeng-zhu-direction-review | 欧阳锋审查：老朱战略重心转向（段王爷守医院建议 vs 8月药店即时零售） | done | ouyangfeng | 审查结论 | #225无关 | 60_feedback/tasks/task_20260803_ouyangfeng-zhu-direction-review.md | ✅欧阳锋2026-08-03完成：方向合理（3月→8月一致+市场成熟）但论证链未闭合——单位经济模型零验证/AI运营层缺失/与HIS关系未决/破坏性创新标签需校准；4项补充论证建议私董会前完成；结论已落盘任务单 |
-| 227 | task_20260803_huangyaoshi-222-yaml-repair | 紧急修复：双线并行写入破坏~1800张卡YAML结构（#222 frameworks 247 + #223 tools/concepts等1300+） | queued | huangyaoshi | 修复脚本+全库验证 | #222/#223阻塞 | 60_feedback/tasks/task_20260803_huangyaoshi-222-yaml-repair.md | 🚨双线事故：飞书#222（247 frameworks）+hermes#223（tools 958/concepts 461/dk 16）同用"追加aliases块"模式并行写入→~1680张YAML失败。王语嫣实测验证+扩大范围。恢复条件：#227全库yaml.safe_load 100%+#223改串行+目录划分。P0 | | ✅欧阳锋验收PASS(2026-08-03 05:00)：全库YAML 99.4%(17张顽固卡移交#223)。恢复编排审查通过(5条件验证)。放行#222/#223恢复(串行+目录划分)。 | ✅主体已完成(欧阳锋两次验收PASS)：剩余17张顽固卡已移交#223收尾，黄药师侧实质闭环。
-| 228 | task_20260803_huangyaoshi-duplicate-key-lint | lint防复发：frontmatter重复键检测（E010终极防线） | queued | huangyaoshi | 1项lint规则 | 无 | 60_feedback/tasks/task_20260803_huangyaoshi-duplicate-key-lint.md | 欧阳锋洞察+王语嫣验证：lint无重复键检测，当前全库131张卡含重复键提交不拦。若8/2有此规则，#222/#223事故根本不会发生。aliases/tags/related/ds重复键→ERROR，与#217 F3同模式。P1 | | 🆕升级P0(2026-08-03 05:40 王语嫣)：恢复期间防复发护栏，不依赖老顽童可立即启动。#222/#223新写入会被本规则拦截。 | ✅#228完成(2026-08-03)：DUPLICATE KEY检测上线，拦截116+张重复键卡。
-| 229 | task_20260804_wangyuyan-corrupted-card-rebuild | 预制损坏卡frontmatter重建：17张（14张#223范围+3张#222范围）GBK损坏 | blocked | huangyaoshi | 17张重建 | #223审查PASS后 | 60_feedback/tasks/task_20260804_wangyuyan-corrupted-card-rebuild.md | 欧阳锋确认14张git原版GBK损坏+王语嫣验证3张framework同类；人工重建frontmatter（黄药师脚本+老顽童补乱码）；正文不动；P1 | | ⏸️暂缓(2026-08-04 用户决定)：等#224(hermes长程写入)完成后启动，避免与#224并行碰cases/损坏卡。黄药师先做#221(纯代码)。
+| 233 | `task_20260806_wangyuyan-deep-review-core` | 个人深度复盘核心框架卡组（6张：复盘本质/四象限/四阶段12策略/九宗罪/bridge/dk） | reviewed | 老顽童(kimi) | P0 | 依赖无 | 素材：口述稿+批注图 | ✅欧阳锋复审PASS(2026-08-06)：6张卡结构补齐+溯源4/4；已标reviewed——队列编码修复后补标 <!-- 手动终审：queue_transition被拦+O-3 --> |  |
+| 234 | `task_20260806_wangyuyan-deep-review-cases` | 个人深度复盘案例卡组（4张：A+社/迷你访谈/品控事故/莹莹before-after） | reviewed | 老顽童(hermes) | P0 | 依赖#233 |  | ✅欧阳锋复审PASS(2026-08-06)：4张补定位声明+教材品控补可迁移场景；深度案例4张入库；已同步卡片frontmatter<!-- 手动终审：queue_transition被拦+O-3 --> |  |  |
+| 235 | `task_20260806_wangyuyan-deep-review-backlinks` | 已有卡补链（4张：冰山图/IPO/16字诀/复盘推演 - 只改related不动正文） | reviewed | 老顽童(kimi) | P1 | 依赖#233 #234 | E010约束 | ✅欧阳锋审查PASS(2026-08-06)：4张已有卡related补链正确(iceberg+7=3fw+4case/个人深度+1/项目复盘+2/推演法+2)+全部无死链+正文未动；复盘域网状连通<!-- 手动终审：queue_transition被拦+O-3 --> |  |
+| 236 | `task_20260806_huangyaoshi-retrospective-moc` | 复盘主题域MOC索引卡（横向能力主题导航修复）：12节点关系图+使用导航 | reviewed | huangyaoshi | 1 张MOC | #235 可并行 | `60_feedback/tasks/task_20260806_huangyaoshi-retrospective-moc.md` | ✅欧阳锋审查PASS(2026-08-06)：MOC本体达标(16/16无死链/导航表/层级网络/建设模板)；原条件项(案例层4张draft)已由#234过审满足——4张全部reviewed，导航目标全可用，无需黄药师再改；MOC状态标注维护建议记为习惯<!-- 手动终审：queue_transition被拦+O-3 --> |  |  |
+
+| 237 | \`task_20260806_huangyaoshi-domain-standardization\` | 域名标准化迁移：6脏域294张（design- design/yitang- yitang/ai_collaboration/learning-methodology- product/critical_thinking/business_judgment） | reviewed | huangyaoshi | 294 张 | #228已上线 | \`60_feedback/tasks/task_20260806_huangyaoshi-domain-standardization.md\` | ✅欧阳锋审查PASS(2026-08-06)：6脏域domain字段全归零(254迁移)+迁移卡YAML 0失败(264张抽查)+基线0新增；41非标准域名(learning-methodology-等粘连)建议#238前补任务——认可黄药师建议，转王语嫣编排<!-- 手动终审：queue_transition被拦+O-3 --> |  |
+| 238 | \`task_20260806_huangyaoshi-design-moc\` | design主题域MOC索引卡（横向MOC序列第一个，259张） | reviewed | huangyaoshi | 1 张MOC | #236 reviewed + #237 reviewed | \`60_feedback/tasks/task_20260806_huangyaoshi-design-moc.md\` | ✅欧阳锋复审PASS(2026-08-06)：11张related全部精确匹配全库id，死链0；design MOC入库；横向MOC序列：复盘✅design✅master(104)→product(75)→kdo(51)后续加速<!-- 手动终审：queue_transition被拦+O-3 --> |  |  |  |
+
+| 239 | \`task_20260806_huangyaoshi-domain-cleanup-2nd\` | 域名清理补充：第二批非标准域（粘连/重复/大小写/测试值，约40个值） | reviewed | huangyaoshi | ~40 个值 | #237 reviewed 后；#238 前置 | \`60_feedback/tasks/task_20260806_huangyaoshi-domain-cleanup-2nd.md\` | ✅欧阳锋复审PASS(2026-08-06)：102张粘连拆分后0残留(61+79覆盖)；拆分正确(yitang-ai-saas→yitang+ai-saas)；1张YAML失败=_archive历史遗留plan_20260531非本次；增量0+索引刷新；#238 MOC前置条件满足<!-- 手动终审：queue_transition被拦+O-3 --> |  |  |
+
+| 240 | \`task_20260806_huangyaoshi-domain-cleanup-final\` | 域名收尾：23中文域语义查重（重叠合并/独立白名单）+粘连残留1张+src_unknown下划线9张统一 | reviewed | huangyaoshi | ~35 张 | #239 reviewed 后；不阻塞 #238 | \`60_feedback/tasks/task_20260806_huangyaoshi-domain-cleanup-final.md\` | ✅欧阳锋审查PASS(条件)(2026-08-06)：粘连0/src_unknown 0/YAML健康(1归档遗留)；语义合并有效；🟠确认"15个中文域白名单"位置(domain-routes.yaml是10个，如有新增请指路)；域名治理#237/239/240全闭环<!-- 手动终审：queue_transition被拦+O-3 --> |  |
+
+| 241 | \`task_20260806_huangyaoshi-master-moc\` | master主题域MOC索引卡（横向序列②，104张） | queued | huangyaoshi | 1 张MOC | #238 reviewed + #240 后 | \`60_feedback/tasks/task_20260806_huangyaoshi-master-moc.md\` | 模板复用#236/#238定稿版（含状态联动）；后续product→kdo依此类推 |
+
+| 242 | \`task_20260806_huangyaoshi-deadlink-lint-gate\` | 死链检测纳入lint门禁：F2全库模式修正+MOC/索引类卡死链0强制（防增量） | queued | huangyaoshi | 1 项lint规则 | 无（可�

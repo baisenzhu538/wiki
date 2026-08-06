@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-ai-iterative-prompting
 title: AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
 type: dk
@@ -20,6 +21,11 @@ domain:
 - ai-collaboration
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI Skill 工程指南产出过程）
+discoverable_by:
+  - AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
+  - 不会离职
+  - 用十几轮挑错把
+  - 输出推到你能力的上限
 quality_labels:
 - quality
 - validated

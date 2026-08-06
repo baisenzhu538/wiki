@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-马毅阻力消除四部曲
 title: 一堂马毅阻力消除四部曲：赞 / 肯定 / 换角度 / 上价值
 type: tool
@@ -21,6 +22,11 @@ aliases:
   - 肯定
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L2974-L3016
+discoverable_by:
+  - 一堂马毅阻力消除四部曲：赞 / 肯定 / 换角度 / 上价值
+  - 一堂马毅阻力消除四部曲
+  - 换角度
+  - 上价值
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-12种阻力总表]]'

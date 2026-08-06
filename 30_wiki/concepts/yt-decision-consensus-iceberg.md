@@ -1,13 +1,11 @@
 ---
-
 id: yt-decision-consensus-iceberg
 component_of:
 - src_unknown
 confidence: 0.82
 created_at: 2026-05-17
 difficulty: advanced
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
@@ -88,7 +86,6 @@ tags:
 - skill-level:intermediate
 - 课程地图精华串讲
 ---
-
 # 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问
 
 > 来源：一堂《科学决策·ROI决策实践》共识篇。70%的决策执行失败不是分析错误，而是"虚假共识"——表面上点头，桌下各干各的。本工具提供"决策爬山+说服挖冰"的四层模型，配合教练式提问，让团队从"被告知结论"升级为"一起推导结论"，形成真正可执行的共识。

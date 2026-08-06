@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-app-store-data
 title: APP数据查询：应用商店排名与下载量估算
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 数据查询
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - APP数据查询：应用商店排名与下载量估算
+  - APP数据查询
+  - 应用商店排名与下载量估算
 related:
 - '[[tool-yitang-app-store-review]]'
 - '[[tool-yitang-research-cross-validation]]'

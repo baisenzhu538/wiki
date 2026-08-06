@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-iceberg-l6-hypothesis
 title: L6需求假设：机会卡片+最危险假设(RAT)
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - 需求假设
 source_refs:
 - 00_inbox/五步法之需求分析/AI场景推演教练提示词.txt
+discoverable_by:
+  - L6需求假设：机会卡片+最危险假设RAT
+  - L6需求假设
+  - 机会卡片+最危险假设RAT
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-strategy-ksf]]'

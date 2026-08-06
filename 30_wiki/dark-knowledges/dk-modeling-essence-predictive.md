@@ -4,38 +4,36 @@ title: '''解释性本质''是高级鸡汤：真正值钱的本质必须能指�
 type: dk
 dark_knowledge_type: insight
 status: reviewed
-domain:
+domain: []
 source_person: Truman
 source_context: 一堂建模能力培训（本质建模案例），2026-06-12
 aliases:
-  - Truman
-  - audience:executor
-  - scene:reference
-  - skill-level:advanced
-  - 三个目标
-  - 建模能力培训
-  - 性本质
-  - 是高级鸡汤
-  - 本质建模
-  - 真正值钱的本质必须能指导下一次真实决策
-  - 解释性本质''是高级鸡汤
-  - 解释性本质''是高级鸡汤：真正值钱的本质必须能指导下一次真实决策
-source_refs:
+- Truman
+- 本质建模
+- 解释性本质
+- 预测性本质
+- 三个目标
+- 真正值钱的本质必须能指导下一次真实决策
+discoverable_by:
+- '''解释性本质''是高级鸡汤'
+- 真正值钱的本质必须能指导下一次真实决策
+- 建模能力培训
+source_refs: []
 created_at: '2026-06-14'
 updated_at: '2026-06-17'
 confidence: 0.9
 trust_level: high
 diagnostic_signals:
-framework_lens: 解释性本质 vs 预测性本质
-follow_up_question: 用这个本质能推导出三个互不重复的具体决策或检查项吗？
-framework_lens: 可证伪性与预测力
-follow_up_question: 这个本质能否明确预测一个新场景的结果，以及什么情况下它会失效？
-framework_lens: 决策可推导性
-follow_up_question: 如果从本质到方案需要跳跃超过一步，中间缺失的变量是什么？
-framework_lens: 生成式模型的解释力幻觉
-follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
-related:
-tags:
+- framework_lens: 解释性本质 vs 预测性本质
+  follow_up_question: 用这个本质能推导出三个互不重复的具体决策或检查项吗？
+- framework_lens: 可证伪性与预测力
+  follow_up_question: 这个本质能否明确预测一个新场景的结果，以及什么情况下它会失效？
+- framework_lens: 决策可推导性
+  follow_up_question: 如果从本质到方案需要跳跃超过一步，中间缺失的变量是什么？
+- framework_lens: 生成式模型的解释力幻觉
+  follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
+related: []
+tags: []
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 author: 老顽童

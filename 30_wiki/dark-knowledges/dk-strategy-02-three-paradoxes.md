@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-02-three-paradoxes
 title: 战略三悖论：80%培训讲执行 / 90%公司无战略部 / 99%项目有断层
 type: dk
@@ -18,6 +19,12 @@ aliases:
   - 战略三悖论：80%培训讲执行/90%公司无战略部/99%项目有断层
 source_refs:
 - src_unknown
+discoverable_by:
+  - 战略三悖论：80%培训讲执行 / 90%公司无战略部 / 9
+  - 战略三悖论
+  - 80%培训讲执行
+  - 90%公司无战略部
+  - 99%项目有断层
 related:
 - '[[yt-five-step-method]]'
 - '[[framework-five-step-lean-interface]]'

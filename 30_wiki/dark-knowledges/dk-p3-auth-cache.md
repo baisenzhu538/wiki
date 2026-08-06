@@ -1,4 +1,5 @@
 ---
+
 id: dk-p3-auth-cache
 title: P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
 type: dk
@@ -17,6 +18,10 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
+discoverable_by:
+  - P-3：Hermes 换 API Key 后仍然 401 —
+  - 后仍然
+  - 缓存覆盖
 related:
 - '[[tool-yitang-web-scraping-research]]'
 - '[[concept-feishu-api-pagination-trap]]'

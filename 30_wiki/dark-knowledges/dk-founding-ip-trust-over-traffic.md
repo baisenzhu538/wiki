@@ -1,4 +1,5 @@
 ---
+
 id: dk-founding-ip-trust-over-traffic
 title: 创始人 IP 追求信任，网红追求流量
 type: dark-knowledge
@@ -26,6 +27,10 @@ reviewed_by: 欧阳锋
 review_date: '2026-07-02'
 trust_level: medium
 confidence: 0.86
+discoverable_by:
+  - 创始人 IP 追求信任，网红追求流量
+  - 创始人
+  - 追求信任，网红追求流量
 related:
 - '[[framework-brand-three-degree]]'
 - '[[case-daxin-team-content-training-camp]]'

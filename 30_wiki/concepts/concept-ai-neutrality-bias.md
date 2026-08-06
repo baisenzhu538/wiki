@@ -1,5 +1,4 @@
 ---
-
 id: concept-ai-neutrality-bias
 title: 中立的暴政
 type: concept
@@ -10,9 +9,9 @@ confidence: 0.78
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+  - ai-collaboration
+  - critical-thinking
+  - business-judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -41,7 +40,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 中立的暴政
 
 > 一句话："技术本质上是中立的"这句看似理性的话，实际上把责任转嫁给使用者、遮蔽权力结构、并把维持现状包装成默认选项——最精明的立场，就是假装没有立场。

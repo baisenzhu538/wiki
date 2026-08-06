@@ -1,4 +1,5 @@
 ---
+
 id: tool-单元模型-象限分析法
 title: 单元模型：象限分析法
 type: tool
@@ -19,6 +20,10 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-象限分析法_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-象限分析法_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-单元模型-象限分析法.md
+discoverable_by:
+  - 单元模型：象限分析法
+  - 单元模型
+  - 象限分析法
 related:
 - '[[yitang-domain-digest]]'
 - '[[dk-单元模型-找单元模型实操难点]]'

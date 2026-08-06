@@ -1,4 +1,5 @@
 ---
+
 id: tool-泛产品设计-需求可行性四字诀
 title: 泛产品设计·需求可行性四字诀（拆推评算）
 type: tool
@@ -20,6 +21,10 @@ source_refs:
   - 30_wiki/concepts/yt-entrepreneur-needs-analysis.md
   - 30_wiki/concepts/yt-personal-pan-product-practice.md
   - 30_wiki/frameworks/yt-unit-model-ladder.md
+discoverable_by:
+  - 泛产品设计·需求可行性四字诀拆推评算
+  - 泛产品设计
+  - 需求可行性四字诀拆推评算
 related:
   - "[[yt-model-pan-product-demand-toolkit]]"
   - "[[yt-entrepreneur-needs-analysis]]"

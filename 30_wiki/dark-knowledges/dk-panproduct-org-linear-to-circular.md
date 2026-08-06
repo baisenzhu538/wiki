@@ -1,4 +1,5 @@
 ---
+
 id: dk-panproduct-org-linear-to-circular
 type: dk
 title: 组织资产：从直线运动到圆周运动
@@ -12,6 +13,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-28
+discoverable_by:
+  - 组织资产：从直线运动到圆周运动
+  - 组织资产
+  - 从直线运动到圆周运动
 quality_labels:
 - cited
 - validated

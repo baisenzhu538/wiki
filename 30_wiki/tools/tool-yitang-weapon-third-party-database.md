@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-weapon-third-party-database
 title: 武器库策略11：第三方数据库——15+核心数据源
 type: tool
@@ -20,6 +21,11 @@ aliases:
   - 第三方数据库
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 武器库策略11：第三方数据库——15+核心数据源
+  - 武器库策略11
+  - 第三方数据库
+  - 15+核心数据源
 related:
 - '[[tool-yitang-research-exhaust-means]]'
 - '[[tool-yitang-reverse-data-analysis]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-agent-evolution-pitfalls
 title: Agent进化常见失败模式
 type: dk
@@ -16,6 +17,8 @@ source_refs:
 - 30_wiki/frameworks/framework-kdo-modeling-methodology.md
 - 60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md
 - 90_control/rules-core.md
+discoverable_by:
+  - Agent进化常见失败模式
 related:
 - concept-kdo-agent-design-principles
 - concept-kdo-agent-four-level-awareness

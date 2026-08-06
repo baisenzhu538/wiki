@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-reverse-data-analysis
 title: 逆向数据分析：从公开数据反推商业真相
 type: tool
@@ -24,6 +25,10 @@ aliases:
   - 从公开数据反推商业真相
   - 逆向数据分析
   - 逆向数据分析：从公开数据反推商业真相
+discoverable_by:
+  - 逆向数据分析：从公开数据反推商业真相
+  - 逆向数据分析
+  - 从公开数据反推商业真相
 related:
 tags:
 ---

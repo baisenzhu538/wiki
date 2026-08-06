@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-to-barrier
 title: 从增长到壁垒：承上启下
 type: framework
@@ -50,7 +49,6 @@ discoverable_by:
 - 可持续增长
 - 增长壁垒联动
 ---
-
 # 从增长到壁垒：承上启下
 
 > 一堂五步法：增长是攻城，壁垒是守城。没有壁垒的增长，是为别人做嫁衣。

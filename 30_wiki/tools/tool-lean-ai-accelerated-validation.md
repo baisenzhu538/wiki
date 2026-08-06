@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-ai-accelerated-validation
 title: AI 加速 FALSE 模型验证
 type: tool
@@ -21,6 +22,9 @@ source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212828_vlm_desc.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md
 - 00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本_meta.md
+discoverable_by:
+  - AI 加速 FALSE 模型验证
+  - 模型验证
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'

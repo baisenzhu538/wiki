@@ -3,8 +3,7 @@ id: tool-一堂-product-kernel-canvas
 title: 一堂产品内核画布应用技能
 type: tool
 status: reviewed
-domain:
-- src_unknown
+domain: src-unknown
 source_person: 一堂·Truman
 source_context: 一堂-产品内核迭代课/验证课/实操课笔记
 aliases:
@@ -17,6 +16,8 @@ source_refs:
 - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 created_at: '2026-06-08'
 updated_at: 2026-07-02
+discoverable_by:
+  - 一堂产品内核画布应用技能
 related:
 - '[[case-live81-ai-trademark-design]]'
 - '[[tool-ai-deliverable-polish-loop]]'

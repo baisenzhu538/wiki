@@ -1,6 +1,10 @@
 ---
+
 id: tool-马易-业务为先的AI中台建设
 title: "tool 马易 业务为先的AI中台建设"
+discoverable_by:
+  - tool 马易 业务为先的AI中台建设
+  - 业务为先的AI中台建设
 related:
 aliases:
   - audience:general

@@ -3,7 +3,7 @@ id: tool-月白-基于基础形象做动作延展（1到10）
 title: 技能：基于基础形象做动作延展（1到10）
 type: tool
 status: draft
-domain: design- design
+domain: design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260528_4277c6be）
 aliases:
@@ -28,6 +28,9 @@ author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+discoverable_by:
+  - 技能：基于基础形象做动作延展1到10
+  - 基于基础形象做动作延展1到10
 related:
 - '[[tool-月白-AI生成IP表情包]]'
 - '[[tool-月白-基于白底图做动作延展]]'
@@ -50,7 +53,6 @@ tags:
 - 全流程
 - 文创案例设计课
 ---
-
 # 技能：基于基础形象做动作延展（1到10）
 
 ## 原始表述

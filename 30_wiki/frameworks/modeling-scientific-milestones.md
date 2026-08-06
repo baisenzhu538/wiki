@@ -12,9 +12,9 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
 domain:
-- modeling- yitang
-- modeling
-- research
+  - modeling
+  - yitang
+  - research
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
 author: 老顽童
@@ -50,7 +50,6 @@ discoverable_by:
 - 模型构建步骤
 - 方法论生产
 ---
-
 # 科学建模七步里程碑：从边界到封装的方法论生产流程
 
 > **Burn line**: 方法论级别的建模不是灵感爆发，而是一套有里程碑、可迭代、可验证的生产流程。

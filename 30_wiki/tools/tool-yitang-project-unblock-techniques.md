@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-unblock-techniques
 title: 让卡点更平滑的六种推进手段
 type: tool
@@ -19,6 +20,8 @@ aliases:
   - 让卡点更平滑的六种推进手段
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 190747_vlm_desc.md
+discoverable_by:
+  - 让卡点更平滑的六种推进手段
 related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-progress-tracking]]"

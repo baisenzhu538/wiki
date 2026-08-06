@@ -1,13 +1,8 @@
 ---
-
 id: ai-learning-closed-loop
 title: AI学习闭环：从听懂到能力的转化路径
 type: concept
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 aliases:
   - AI学习闭环
@@ -57,7 +52,6 @@ tags:
 - skill-level:intermediate
 - 没有人呀现在
 ---
-
 # AI学习闭环：从"听懂"到"能力"的转化路径
 
 > Source: src_20260606_90b44191 (半肥猫-AI学习落地-口述)

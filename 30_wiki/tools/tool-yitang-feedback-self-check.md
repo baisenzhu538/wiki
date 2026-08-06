@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-feedback-self-check
 type: tool
 title: 无导师反馈自检法：自己给自己找差距
@@ -11,6 +12,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
+discoverable_by:
+  - 无导师反馈自检法：自己给自己找差距
+  - 无导师反馈自检法
+  - 自己给自己找差距
 quality_labels:
 - actionable
 - cited

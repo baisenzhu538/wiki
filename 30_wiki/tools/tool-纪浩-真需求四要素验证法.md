@@ -3,9 +3,7 @@ id: tool-纪浩-真需求四要素验证法
 title: 真需求四要素验证法
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 aliases:
@@ -17,6 +15,8 @@ tools_required:
 - src_unknown
 - src_unknown
 prerequisite_skills: null
+discoverable_by:
+  - 真需求四要素验证法
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[pending_unknown]]'
@@ -51,7 +51,6 @@ tags:
 - skill-level:intermediate
 - 协作方法论
 ---
-
 # 技能：真需求四要素验证法
 
 ## 不要用的场景

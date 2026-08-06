@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-weapon-full-product-experience
 title: 武器库策略3：完整体验产品——从购买到使用的全链路
 type: tool
@@ -22,6 +23,11 @@ aliases:
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+discoverable_by:
+  - 武器库策略3：完整体验产品——从购买到使用的全链路
+  - 武器库策略3
+  - 完整体验产品
+  - 从购买到使用的全链路
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

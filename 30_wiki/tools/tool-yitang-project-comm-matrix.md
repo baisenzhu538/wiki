@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-comm-matrix
 title: 项目沟通方式四象限选择矩阵
 type: tool
@@ -19,6 +20,8 @@ aliases:
   - 项目沟通方式四象限选择矩阵
 source_refs:
 - 00_inbox/管项目/项目管理-管过程-沟通渠道_vlm_desc.md
+discoverable_by:
+  - 项目沟通方式四象限选择矩阵
 related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-comm-frequency]]"

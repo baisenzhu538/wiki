@@ -1,4 +1,5 @@
 ---
+
 id: tool-水水-识别数据折磨陷阱
 title: 技能：识别数据折磨陷阱
 type: tool
@@ -19,6 +20,9 @@ aliases:
 source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：识别数据折磨陷阱
+  - 识别数据折磨陷阱
 related:
 tags:
 ---

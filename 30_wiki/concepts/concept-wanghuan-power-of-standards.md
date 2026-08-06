@@ -1,5 +1,4 @@
 ---
-
 id: concept-wanghuan-power-of-standards
 title: 王欢：标准的力量——质量乘数
 type: concept
@@ -20,10 +19,7 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 diagnostic_signals:
@@ -57,7 +53,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 王欢：标准的力量——质量乘数
 
 > **Burn line**: 标准是零，乘什么都是零。

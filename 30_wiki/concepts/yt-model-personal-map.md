@@ -1,11 +1,9 @@
 ---
-
 id: yt-model-personal-map
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1825
 language: zh-CN
 query_triggers:
@@ -55,7 +53,6 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 ---
-
 # 一堂个人地图：高潜力成长者修炼全景图
 
 > 来源：一堂《个人地图：高潜力成长者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | yt-system-course-catalog#个人必修

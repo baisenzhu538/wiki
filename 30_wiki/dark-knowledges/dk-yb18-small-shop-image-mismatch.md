@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb18-small-shop-image-mismatch
 title: 小店图片错配陷阱：精致摄影反而吓跑客户
 type: dk
@@ -21,6 +22,10 @@ source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - 小店图片错配陷阱：精致摄影反而吓跑客户
+  - 小店图片错配陷阱
+  - 精致摄影反而吓跑客户
 related:
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'

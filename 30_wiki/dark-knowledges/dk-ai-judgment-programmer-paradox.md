@@ -1,4 +1,5 @@
 ---
+
 id: dk-ai-judgment-programmer-paradox
 title: 程序员的AI悖论：写AI工具的人最晚享受到AI红利
 type: dk
@@ -19,6 +20,10 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
+discoverable_by:
+  - 程序员的AI悖论：写AI工具的人最晚享受到AI红利
+  - 程序员的AI悖论
+  - 写AI工具的人最晚享受到AI红利
 related:
 - '[[dk-my-ai-landing-three-barriers]]'
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'

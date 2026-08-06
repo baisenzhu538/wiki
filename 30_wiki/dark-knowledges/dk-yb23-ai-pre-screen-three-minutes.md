@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb23-ai-pre-screen-three-minutes
 title: AI出图前置筛选：三分钟十套方案定风格
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - AI出图前置筛选：三分钟十套方案定风格
+  - AI出图前置筛选
+  - 三分钟十套方案定风格
 related:
 - '[[tool-月白-产品风格选择：测而非定]]'
 - '[[tool-月白-风格不变局部调整]]'

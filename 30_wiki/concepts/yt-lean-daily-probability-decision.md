@@ -1,13 +1,9 @@
 ---
-
 id: yt-lean-daily-probability-decision
 title: 假设驱动日常决策三问
 type: concept
 status: draft
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - 假设驱动日常决策三问
   - 驱动日常决策三问
@@ -44,8 +40,6 @@ diagnostic_signals:
   follow_up_question: 这些任务中，哪一个背后的假设一旦被证伪，整个项目就废了？
 - 精益方法论培训
 ---
-
-
 > "三个每天的拷问：你在想这个事情做错了会不会死？这个事情是不是致命的假设？我能不能拿更低的成本来验证这个假设？"  
 > —— 张磊，一堂《精益测试关键问题》AMA Q26（来源：`src_20260616_b1e25c49`、`src_20260616_59f708ea`）
 

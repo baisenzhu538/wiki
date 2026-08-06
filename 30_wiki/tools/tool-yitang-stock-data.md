@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-stock-data
 title: 股票/上市公司数据：从二级市场看一级市场
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 股票/上市公司数据：从二级市场看一级市场
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 股票/上市公司数据：从二级市场看一级市场
+  - 股票/上市公司数据
+  - 从二级市场看一级市场
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

@@ -1,12 +1,9 @@
 ---
-
 id: yt-prompt-engineering-andrew-ng
 confidence: 0.8
 created_at: 2026-05-13
 difficulty: intermediate
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3600
 language: zh-CN
 prerequisites:
@@ -65,7 +62,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 吴恩达提示词课程·一堂拆书精华
 
 > **此卡已展开为完整卡片树。** 本文是课程原始笔记（20条 claims），系统化架构见 [[yt-model-prompt-engineering]]（1 framework + 4 tool + 2 concept）。

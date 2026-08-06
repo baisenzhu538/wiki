@@ -1,4 +1,5 @@
 ---
+
 id: tool-泛产品落地-低成本测试MVP
 title: 落地卡片：低成本测试MVP
 type: tool
@@ -18,6 +19,10 @@ aliases:
   - 落地卡片：低成本测试MVP
 source_refs:
 - 00_inbox/_vlm_reprocess/泛产品设计/泛产品设计-落地卡片-低成本测试MVP_vlm_desc.md
+discoverable_by:
+  - 落地卡片：低成本测试MVP
+  - 落地卡片
+  - 低成本测试MVP
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

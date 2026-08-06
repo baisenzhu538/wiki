@@ -1,5 +1,4 @@
 ---
-
 id: yt-five-step-common-pitfalls
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
@@ -13,8 +12,7 @@ quality_labels:
 - validated
 created_at: 2026-06-11
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2200
 language: zh-CN
 prerequisites: []
@@ -69,7 +67,6 @@ tags:
 - 一堂五步法
 - 落地实操
 ---
-
 # 暗知识：五步法常见误区与认知陷阱
 
 > 来源：一堂五步法·落地实操篇 | [[yt-five-step-method]] | [[yt-five-step-implementation]] | [[yt-demand-analysis-hiking-map]] | [[yt-product-kernel-cultivation]]

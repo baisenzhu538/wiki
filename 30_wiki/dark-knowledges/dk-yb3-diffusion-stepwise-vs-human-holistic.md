@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb3-diffusion-stepwise-vs-human-holistic
 title: AI生图'抽卡'本质：逐步拆解 vs 人类整体构思
 type: dk
@@ -19,6 +20,11 @@ source_refs:
 - src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - AI生图'抽卡'本质：逐步拆解 vs 人类整体构思
+  - AI生图'抽卡'本质
+  - 逐步拆解
+  - 人类整体构思
 related:
 - '[[tool-月白-AI图生图尺寸快速转换]]'
 - '[[tool-月白-AI抽卡效率控制法]]'

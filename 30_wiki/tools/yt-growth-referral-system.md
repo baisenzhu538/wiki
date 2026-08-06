@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-referral-system
 title: 推荐系统：老带新的设计框架
 type: tool
@@ -20,6 +19,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 推荐系统：老带新的设计框架
+  - 推荐系统
+  - 老带新的设计框架
 related:
 - '[[yt-growth-acquisition-channels]]'
 - '[[yt-growth-activation-rate]]'
@@ -42,7 +45,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 推荐系统：老带新的设计框架
 
 > 一堂五步法：推荐系统是低成本获客的核心。设计好双边激励，让老用户成为获客渠道。

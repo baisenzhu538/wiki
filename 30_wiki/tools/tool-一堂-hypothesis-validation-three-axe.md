@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-hypothesis-validation-three-axe
 title: 技能：假设验证三板斧
 type: tool
@@ -10,6 +11,9 @@ language: zh-CN
 domain: yitang
 confidence: 0.82
 trust_level: high
+discoverable_by:
+  - 技能：假设验证三板斧
+  - 假设验证三板斧
 related:
 - '[[framework-一堂-关键假设-三板斧]]'
 - '[[framework-一堂-关键假设]]'

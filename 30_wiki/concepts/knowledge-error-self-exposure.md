@@ -1,11 +1,9 @@
 ---
-
 id: knowledge-error-self-exposure
 title: 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向
 type: concept
 status: draft
-domain:
-- src_unknown
+domain: src-unknown
 discoverable_by:
   - 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向
   - 知识库错误自暴露
@@ -56,7 +54,6 @@ tags:
 - 产品路线图
 - 企业知识库
 ---
-
 # 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向
 
 > **核心定位**：知识库的谬误不会自己消失——它们只会积累。问题不是"要不要全域检测"，而是"能不能在不触发全量重跑的前提下，让每一条错误自己暴露出来"。

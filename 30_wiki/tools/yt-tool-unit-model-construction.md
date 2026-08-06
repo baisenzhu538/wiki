@@ -1,6 +1,7 @@
 ---
 domain:
-- yitang- master
+  - yitang
+  - master
 tags:
 - audience:executor
 - scene:execution

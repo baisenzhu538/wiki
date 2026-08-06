@@ -6,9 +6,10 @@ status: enriched
 confidence: 0.7
 trust_level: medium
 domain:
-- yitang- business-strategy
-- product
-- entrepreneur
+  - yitang
+  - business-strategy
+  - product
+  - entrepreneur
 aliases:
   - 无人零售接入美团
   - 无人零售接入美团/饿了么的技术与商业模式

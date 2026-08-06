@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-project-comm-frequency
 title: 不同沟通频次管理手段速查表
 type: tool
@@ -19,6 +20,8 @@ aliases:
   - 沟通频次管理手段速查表
 source_refs:
 - 00_inbox/管项目/批注 2026-07-07 190510_vlm_desc.md
+discoverable_by:
+  - 不同沟通频次管理手段速查表
 related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-communication-plan]]"

@@ -1,4 +1,5 @@
 ---
+
 id: tool-思维链显化推理
 title: 技能：思维链显化推理
 type: tool
@@ -31,6 +32,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：思维链显化推理
+  - 思维链显化推理
 related:
 - '[[tool-多轮确认防偏差]]'
 - '[[tool-主动摘要压缩上下文]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-customer-selection
 title: 客户选择：六步循环迭代法——场景→行为→情绪→触发器→数据→循环
 type: tool
@@ -20,6 +21,11 @@ created_at: '2026-06-21'
 updated_at: '2026-06-29'
 author: 老顽童（初版）→ 黄药师（PPT _97 补强 v2）
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 客户选择：六步循环迭代法——场景→行为→情绪→触发器→数据→
+  - 客户选择
+  - 六步循环迭代法
+  - 场景→行为→情绪→触发器→数据→循环
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-马易-数据存储架构选择]]'

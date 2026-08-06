@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂五步法-ToB-十八式-checklist
 title: ToB五步法十八式速查：必知必会导航
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 必知必会导航
 source_refs:
 - 00_inbox/一堂五步法/一堂-toB五步法-必知必会十八式-图片_paddle_ocr.txt
+discoverable_by:
+  - ToB五步法十八式速查：必知必会导航
+  - ToB五步法十八式速查
+  - 必知必会导航
 related:
 - '[[framework-一堂五步法]]'
 - '[[agent-一堂五步法教练]]'

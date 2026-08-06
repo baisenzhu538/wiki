@@ -1,11 +1,7 @@
 ---
-
 title: 目标管理
 type: concept
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 pipeline:
 - src_unknown

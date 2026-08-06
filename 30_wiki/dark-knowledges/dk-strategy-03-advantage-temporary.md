@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-03-advantage-temporary
 title: 竞争优势难持久。30年前500强90%已消失——竞争优势≠永久
 type: dk
@@ -18,6 +19,10 @@ aliases:
   - 竞争优势难持久。30年前500强90%已消失竞争优势≠永久
 source_refs:
 - src_unknown
+discoverable_by:
+  - 竞争优势难持久。30年前500强90%已消失——竞争优势≠永
+  - 竞争优势难持久。30年前500强90%已消失
+  - 竞争优势≠永久
 related:
 - '[[dk-strategy-longzhong-four-failures]]'
 - '[[dk-strategy-three-must-do-moments]]'

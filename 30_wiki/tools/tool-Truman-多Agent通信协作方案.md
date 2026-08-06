@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-多Agent通信协作方案
 title: 技能：多Agent通信协作方案
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending
@@ -39,7 +38,6 @@ tags:
 - scene:execution
 - skill-level:beginner
 ---
-
 # 技能：多Agent通信协作方案
 
 ## 原始表述

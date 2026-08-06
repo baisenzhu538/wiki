@@ -1,12 +1,12 @@
 ---
-updated: 2026-08-02
-updated_at: 2026-08-02T22:30:00+00:00
+updated: 2026-08-06
+updated_at: 2026-08-06T00:30:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#213 终审FAIL（结构补齐后复审）。创新者的窘境×秦鹏拆书14张卡：内容质量极高（O0溯源8项全中、O8定位声明14/14、外部攻击者全部真名实姓），但存在系统性结构缺口——4类🟡High（Critque拼写×3 / dk缺Critique节 / case缺可迁移场景教训 / concept缺Synthesis）×9张卡 + related<5×9张。修复清单已落笔任务单，等老顽童补结构后复审。"
+active_task: "#233/#234/#235 已入队（Truman 个人深度复盘课卡片化：核心框架 6 张 + 深度案例 4 张 + 已有卡补链 4 张）。诊断 diag_20260806_wangyuyan-deep-review.md 完成（三方法前置+口述稿 3838 行全量通读）。等老顽童领取生产。"
 blockers:
-  - "#213 终审FAIL退回——等老顽童补结构缺口后重新提交 pending_review，欧阳锋快速复审"
+  - "production-queue.md 全文件中文 mojibake 损坏（UTF-8-SIG 混合编码）——历史遗留，新行正常 UTF-8；提请黄药师做编码修复（与 design domain 同类问题）"
   - "queue_transition.py review 路径被 auto mode 分类器拦截 + O-3 已知 bug——终审状态变更走手动 patch（加注释）"
   - "当前任务状态见 production-queue.md（唯一真相源）"
   - "旧任务文件 laowantong-next-tasks.md / laowantong-batch-*.md 已废弃——不要读。"

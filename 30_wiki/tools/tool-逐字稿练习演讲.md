@@ -3,8 +3,9 @@ id: tool-逐字稿练习演讲
 title: 技能：逐字稿练习演讲
 type: tool
 domain:
-- content-production- design
-- yitang
+  - content-production
+  - design
+  - yitang
 status: draft
 source_person: 一堂课程设计
 source_context: src_20260522_e139c9e9
@@ -28,6 +29,9 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：逐字稿练习演讲
+  - 逐字稿练习演讲
 related:
 - '[[tool-知识库团队管理]]'
 - '[[tool-项目复盘基本功]]'

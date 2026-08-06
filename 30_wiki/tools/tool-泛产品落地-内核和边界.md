@@ -1,4 +1,5 @@
 ---
+
 id: tool-泛产品落地-内核和边界
 title: 落地卡片：内核和边界
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 落地卡片
   - 落地卡片：内核和边界
 source_refs:
+discoverable_by:
+  - 落地卡片：内核和边界
+  - 落地卡片
+  - 内核和边界
 related:
 updated_at: '2026-06-29'
 ---

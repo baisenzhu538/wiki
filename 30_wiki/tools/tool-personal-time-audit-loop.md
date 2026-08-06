@@ -1,4 +1,5 @@
 ---
+
 id: tool-personal-time-audit-loop
 title: 个人时间审计与实验循环
 type: tool
@@ -23,6 +24,8 @@ source_refs:
 - 00_inbox/时间管理/_processed/vlm_summary.json
 - 00_inbox/时间管理/时间管理-修炼进阶图.png
 - 00_inbox/时间管理/时间管理-深度工作冰山图.png
+discoverable_by:
+  - 个人时间审计与实验循环
 related:
 - '[[framework-yitang-five-step-to-time-management]]'
 - '[[yt-personal-time-management]]'

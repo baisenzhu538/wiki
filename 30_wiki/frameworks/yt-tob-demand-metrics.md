@@ -3,11 +3,7 @@ id: yt-tob-demand-metrics
 title: To B 需求测算双指标：成本占有率 + 业务天花板
 type: framework
 status: enriched
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - ToB需求测算双指标：成本占有率+业务天花板
   - 业务天花板
@@ -55,7 +51,6 @@ discoverable_by:
 - 客户价值量化
 - ROI计算
 ---
-
 > "我们做 To B 的，你的收入就是你服务对象的成本。" ——徐剑，To B 五步法口述稿 §需求测算（oral ~1366-1577）；课堂笔记 §2 亦将"成本占有率 + 业务天花板"列为需求测算双指标。
 
 该框架用于在 To B 创业早期对需求做**定量验证**：先判断需求是否真实且可持续（成本占有率），再估算业务能做多大（业务天花板）。它强调 To B 的收入本质上是客户的成本，因此应反向拆解客户的单元模型，找到其成本结构中占比高、长期存在且可替代的项目。它与 [[yt-tob-revenue-is-customer-cost]] 互为表里，又与 [[yt-tob-demand-scenarios]] 搭配使用：先定位客户经营重心，再算需求量级。

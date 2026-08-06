@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-五种挖触点
 title: 一堂五种挖触点：推演/同行/用户/创造/清单的双向触点挖掘法
 type: tool
@@ -19,6 +20,10 @@ aliases:
   - 推演/同行/用户/创造/清单的双向触点挖掘法
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1022-L1180
+discoverable_by:
+  - 一堂五种挖触点：推演/同行/用户/创造/清单的双向触点挖掘法
+  - 一堂五种挖触点
+  - 推演/同行/用户/创造/清单的双向触点挖掘法
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

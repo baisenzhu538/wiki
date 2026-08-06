@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-model-arsenal-paradigms
 title: 99% 的模型跑不出二三十个范式：先装武器库再创新
 type: dk
@@ -22,6 +23,10 @@ source_refs:
 confidence: 0.89
 trust_level: medium
 diagnostic_signals: null
+discoverable_by:
+  - 99% 的模型跑不出二三十个范式：先装武器库再创新
+  - 的模型跑不出二三十个范式
+  - 先装武器库再创新
 related:
 tags:
 author: 老顽童

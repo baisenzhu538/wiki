@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-industry-report-search
 title: 行业报告搜索：拓宽关键词+多平台交叉
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 行业报告搜索：拓宽关键词+多平台交叉
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 行业报告搜索：拓宽关键词+多平台交叉
+  - 行业报告搜索
+  - 拓宽关键词+多平台交叉
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

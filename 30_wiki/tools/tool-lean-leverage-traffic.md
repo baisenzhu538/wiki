@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-leverage-traffic
 title: 借流量工具：用现有流量测试
 type: tool
@@ -21,6 +22,10 @@ aliases:
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212323_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212323_vlm_desc.md
+discoverable_by:
+  - 借流量工具：用现有流量测试
+  - 借流量工具
+  - 用现有流量测试
 related:
 - '[[case-lean-electric-scooter-mvp]]'
 - '[[strategy-domain-digest]]'

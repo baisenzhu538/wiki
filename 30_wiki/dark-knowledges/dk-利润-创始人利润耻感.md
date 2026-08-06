@@ -1,4 +1,5 @@
 ---
+
 id: dk-利润-创始人利润耻感
 title: 创始人利润耻感：不敢拿利润不是贪婪问题，是认知问题
 type: dk
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 创始人利润耻感：不敢拿利润不是贪婪问题，是认知问题
+  - 创始人利润耻感
+  - 不敢拿利润不是贪婪问题，是认知问题
 quality_labels:
 - insight
 aliases:

@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-competitive-positioning
 title: 内核竞争定位：差异化策略
 type: concept
@@ -51,7 +49,6 @@ tags:
 - 产品内核实操课
 - 产品内核迭代课
 ---
-
 # 内核竞争定位：差异化策略
 
 > 一堂五步法：产品内核必须有清晰的竞争定位——差异化不是"做得更好"，而是"做得不同"。

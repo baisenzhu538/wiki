@@ -3,9 +3,7 @@ id: concept-mckinsey-7s
 title: 7-S Framework：组织诊断的七维模型
 type: framework
 status: enriched
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - 7SFramework：组织诊断的七维模型
   - 组织诊断的七维模型
@@ -68,7 +66,6 @@ reviewed_by: laowantong
 confidence: 0.8
 trust_level: medium
 ---
-
 # 7-S Framework：组织诊断的七维模型
 
 > 来源：Peters & Waterman (1982). *In Search of Excellence*; Waterman, Peters & Phillips (1980). "Structure is not organization"

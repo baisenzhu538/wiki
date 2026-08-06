@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-micro-experience-script
 title: 微观体感访谈脚本生成器：基于L4崩溃点生成5感访谈问题
 type: tool
@@ -24,6 +25,10 @@ aliases:
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt L1074-L1126
 - 00_inbox/五步法之需求分析/一堂-需求分析-剥离需求-口述.txt L1228-L1232,L1336-L1342
+discoverable_by:
+  - 微观体感访谈脚本生成器：基于L4崩溃点生成5感访谈问题
+  - 微观体感访谈脚本生成器
+  - 基于L4崩溃点生成5感访谈问题
 related:
 - '[[tool-demand-iceberg-l4-job-map]]'
 - '[[tool-demand-iceberg-l5-forces]]'

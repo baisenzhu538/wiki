@@ -1,15 +1,9 @@
 ---
-
 id: case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch
 title: 案例：AI高考志愿填报产品因内核错位而失敗
 type: case
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 industry: 教育科技 / AI 工具
 scale: 团队/公司
 source_person: 一堂·Truman
@@ -72,7 +66,6 @@ diagnostic_signals:
   follow_up: 能否用第三方数据溯源、专家背书或人工复核把"不可验证"变成"可验证"？
 - 产品内核实操课
 ---
-
 # 案例：AI高考志愿填报产品因内核错位而失敗
 
 > 老顽童整理 · 一堂产品内核实操课案例

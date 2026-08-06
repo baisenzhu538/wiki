@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-cut-features
 title: 太复杂就砍功能
 type: tool
@@ -18,6 +19,8 @@ aliases:
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212421_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212421_vlm_desc.md
+discoverable_by:
+  - 太复杂就砍功能
 related:
 - '[[case-lean-electric-scooter-mvp]]'
 - '[[framework-lean-six-wastes]]'

@@ -3,11 +3,7 @@ id: yt-tob-core-characteristics
 title: To B 三大核心特性：角色分离、务实理性、周期较长
 type: framework
 status: draft
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - ToB三大核心特性：角色分离、务实理性、周期较长
   - 三大核心特性
@@ -54,8 +50,6 @@ discoverable_by:
 - ToB vs ToC
 - 企业级产品
 ---
-
-
 > To B 业务面向的是组织，必然会存在多角色共同参与决策和使用；客户决策基于实际价值，情绪价值作用有限；成交、交付、回款、财务确认周期均较长，必须重视现金流管理。——徐剑《To B 业务五步法》口述稿（oral ~216–557）及课堂笔记 §1
 
 ## 核心摘要

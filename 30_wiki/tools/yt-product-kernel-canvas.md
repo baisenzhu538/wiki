@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-canvas
 title: 产品内核画布：从问题到解决方案的结构化工具
 type: tool
@@ -21,6 +20,10 @@ updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 产品内核画布：从问题到解决方案的结构化工具
+  - 产品内核画布
+  - 从问题到解决方案的结构化工具
 related:
 - '[[tool-月白-设计师AI工具习惯切换]]'
 - '[[tool-ROI决策评估画布]]'

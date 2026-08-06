@@ -1,13 +1,11 @@
 ---
-
 id: yt-decision-full-process
 component_of:
 - src_unknown
 confidence: 0.82
 created_at: 2026-05-17
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
@@ -99,7 +97,6 @@ tags:
 - skill-level:intermediate
 - 课程地图精华串讲
 ---
-
 # 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型
 
 > 来源：一堂《科学决策·ROI决策实践》全景地图篇。Y模型是"什么是好决策"，本模型回答"好决策是怎么从无到有做出来的"。五阶段流程将之前所有单点工具（习惯诊断、宽度、深度、高度、共识冰山、复盘）串联成可执行的工作流，新手用简化版快速上手，高手用完整版追求极致。

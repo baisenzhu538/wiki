@@ -1,4 +1,5 @@
 ---
+
 id: dk-p10-oral-ban
 title: P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
 type: dk
@@ -19,6 +20,11 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
+discoverable_by:
+  - P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务
+  - 口头禁令
+  - 书面约束
+  - 审查意见必须落笔到任务文件
 related:
 - '[[dk-skill-market-agent-self-install]]'
 - '[[ai-native-im-multi-agent]]'

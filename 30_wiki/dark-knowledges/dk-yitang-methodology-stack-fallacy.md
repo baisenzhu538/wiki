@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-methodology-stack-fallacy
 title: 方法论金句堆叠乱用，不如不懂
 type: dk
@@ -22,6 +23,8 @@ aliases:
 source_refs:
 - 00_inbox/实事求是/实事求是-周子敬-口述.txt
 - 60_feedback/extractions/extraction-shishi-qiushi-zhouzijing.md
+discoverable_by:
+  - 方法论金句堆叠乱用，不如不懂
 related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[tool-yitang-method-ab-sides-checklist]]'

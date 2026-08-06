@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-Y-model-pitfalls
 title: Y模型常见六大陷阱与反打
 type: dark-knowledge
@@ -21,6 +22,8 @@ aliases:
   - 李善友 / 一堂课程设计
 source_refs:
 domain:
+discoverable_by:
+  - Y模型常见六大陷阱与反打
 tags:
 confidence: 0.85
 trust_level: high

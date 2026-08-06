@@ -1,4 +1,5 @@
 ---
+
 id: dk-单元模型-对抗小抄
 title: 单元模型对抗小抄
 type: dk
@@ -19,6 +20,8 @@ source_refs:
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄01_vlm_desc.md
 - 00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-对抗小抄02_vlm_desc.md
+discoverable_by:
+  - 单元模型对抗小抄
 related:
 - '[[yitang-domain-digest]]'
 - '[[dk-单元模型-找单元模型实操难点]]'

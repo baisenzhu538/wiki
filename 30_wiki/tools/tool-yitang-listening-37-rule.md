@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-listening-37-rule
 title: 阿里铁军聆听三七法则执行卡
 type: tool
@@ -29,6 +30,8 @@ source_refs:
   - 00_inbox/销售专题/_processed/销售有工具-阿里铁军的三七法则_vlm.md L5-L27
   - 60_feedback/diagnosis/diag_20260708_yitang-sales-domain-oral-deep-dive-v2.md
   - 70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md
+discoverable_by:
+  - 阿里铁军聆听三七法则执行卡
 related:
   - "[[framework-yitang-scientific-sales-five-step]]"
   - "[[tool-yitang-sales-process-decomposition]]"

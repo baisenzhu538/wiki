@@ -1,4 +1,5 @@
 ---
+
 id: dk-f13-handwritten-yaml-parser
 title: F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
 type: dk
@@ -20,6 +21,9 @@ source_refs:
   - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-013
 created_at: 2026-05-31
 updated_at: '2026-06-19'
+discoverable_by:
+  - F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
+  - 解析器导致嵌套数据丢失
 related:
   - "[[kdo-yaml-frontmatter-safety]]"
   - "[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]"

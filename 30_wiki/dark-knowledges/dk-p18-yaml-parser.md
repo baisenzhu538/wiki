@@ -1,4 +1,5 @@
 ---
+
 id: dk-p18-yaml-parser
 title: P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-18'
+discoverable_by:
+  - P-18：手写YAML解析器导致嵌套数据丢失 — 97行bu
+  - 手写YAML解析器导致嵌套数据丢失
+  - 15行修复
 related:
 - '[[dk-p19-quote-yaml]]'
 - '[[kdo-yaml-frontmatter-safety]]'

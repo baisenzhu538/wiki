@@ -1,13 +1,11 @@
 ---
-
 id: yt-decision-canvas
 component_of:
 - src_unknown
 confidence: 0.8
 created_at: 2026-05-17
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1800
 language: zh-CN
 prerequisites:
@@ -96,7 +94,6 @@ tags:
 - skill-level:intermediate
 - 一堂五步法画布
 ---
-
 # Y模型决策画布（一页纸工具）
 
 > 来源：一堂《科学决策》落地篇。与[[yt-decision-y-model]]配套使用的一页纸落地工具，将"宽度-深度-高度"框架转化为可填写的结构化画布，支持独自决策、团队共识和AI辅助三种场景。

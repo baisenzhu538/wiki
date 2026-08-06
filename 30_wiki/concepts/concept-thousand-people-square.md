@@ -1,5 +1,4 @@
 ---
-
 id: concept-thousand-people-square
 title: 千人广场模型：一堂做课背后的统计建模理念
 type: concept
@@ -12,10 +11,7 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-29'
 author: 老顽童

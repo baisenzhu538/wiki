@@ -3,10 +3,10 @@ id: tool-反向提示获取优化建议
 title: 技能：反向提示获取优化建议
 type: tool
 domain:
-- learning-methodology- product
-- ai-saas
-- master
-- yitang
+  - learning-methodology
+  - ai-saas
+  - master
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
@@ -26,6 +26,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：反向提示获取优化建议
+  - 反向提示获取优化建议
 related:
 - '[[tool-多轮确认防偏差]]'
 - '[[tool-主动摘要压缩上下文]]'
@@ -52,7 +55,6 @@ tags:
 - skill-level:beginner
 - 自用的
 ---
-
 # 技能：反向提示获取优化建议
 
 ## 原始表述

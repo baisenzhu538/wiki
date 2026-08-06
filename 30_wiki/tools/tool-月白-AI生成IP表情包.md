@@ -3,7 +3,7 @@ id: tool-月白-AI生成IP表情包
 title: 技能：AI生成IP表情包
 type: tool
 status: draft
-domain: design- design
+domain: design
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 aliases:
@@ -27,6 +27,9 @@ reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'
 confidence: 0.6
 trust_level: low
+discoverable_by:
+  - 技能：AI生成IP表情包
+  - AI生成IP表情包
 related:
 tags:
 ---

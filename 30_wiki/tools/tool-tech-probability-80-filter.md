@@ -9,9 +9,9 @@ confidence: 0.75
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+  - ai-collaboration
+  - critical-thinking
+  - business-judgment
 aliases:
   - 李开复
   - 李开复80%概率过滤器
@@ -22,6 +22,10 @@ source_refs:
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
 - 60_feedback/tasks/task_20260624_laowantong-ai2041-cards.md
 - 60_feedback/decisions/dec_20260624_wangyuyan-ai2041-card-plan.md
+discoverable_by:
+  - 李开复 80% 概率过滤器
+  - 李开复
+  - 概率过滤器
 related:
 - '[[tool-ai-cross-reading-method]]'
 - '[[framework-wanghuan-ooda-loop]]'
@@ -43,7 +47,6 @@ tags:
 - skill-level:intermediate
 - tasks
 ---
-
 # 李开复 80% 概率过滤器
 
 > **一句话**：用「未来 20 年内发生概率 ≥80%」作为硬门槛，把对 AI 的无限焦虑过滤成有限准备清单的工具。

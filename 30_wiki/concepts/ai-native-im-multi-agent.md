@@ -1,5 +1,4 @@
 ---
-
 id: ai-native-im-multi-agent
 title: AI 原生 IM：让 Agent 成为一等公民的协作基础设施
 type: concept
@@ -7,9 +6,10 @@ status: enriched
 confidence: 0.85
 trust_level: medium-high
 domain:
-- ai-saas- ai
-- product
-- ai-collaboration
+  - ai-saas
+  - ai
+  - product
+  - ai-collaboration
 aliases:
   - AI原生IM：让Agent成为一等公民的协作基础设施
   - 一等公民的协作基础设施

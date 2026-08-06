@@ -1,4 +1,5 @@
 ---
+
 id: dk-c6-large-source-overflow
 title: C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
 type: dk
@@ -19,6 +20,11 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
+discoverable_by:
+  - C-6：大源文件导致 session 容量超载→produc
+  - 大源文件导致
+  - 容量超载→produce
+  - 骨架生成但内容填不进去
 related:
 - '[[kdo-batch-produce-req014]]'
 - '[[dk-modeling-timely-review-session-window]]'

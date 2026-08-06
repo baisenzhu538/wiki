@@ -1,13 +1,11 @@
 ---
-
 id: yt-decision-habit-shift
 component_of:
 - src_unknown
 confidence: 0.82
 created_at: 2026-05-17
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2200
 language: zh-CN
 prerequisites:
@@ -69,7 +67,6 @@ tags:
 - skill-level:intermediate
 - 课程地图精华串讲
 ---
-
 # X型→Y型决策者习惯诊断与转换
 
 > 来源：一堂《科学决策·审美拉升》认知篇。X型Y型决策习惯对比图是建立ROI认知审美的核心入口。多数人并非不会算ROI，而是习惯了"要么精算、要么拍脑袋"的断裂模式。本卡提供一套自我诊断+刻意训练工具，帮助决策者从X型断裂模式转向Y型漏斗模式。

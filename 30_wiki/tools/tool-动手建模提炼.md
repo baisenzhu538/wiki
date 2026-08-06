@@ -2,7 +2,9 @@
 id: tool-动手建模提炼
 title: 技能：动手建模提炼
 type: tool
-domain: learning-methodology- yitang
+domain:
+  - learning-methodology
+  - yitang
 status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
@@ -28,6 +30,9 @@ reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：动手建模提炼
+  - 动手建模提炼
 related:
 - '[[tool-区分获客渠道计算单元roi]]'
 - '[[tool-辩证讨论深化]]'
@@ -44,7 +49,6 @@ tags:
 - 全景策略
 - 科学学习
 ---
-
 # 技能：动手建模提炼
 
 ## 原始表述

@@ -3,8 +3,7 @@ id: tool-从案例中学习正反案例法
 title: 技能：从案例中学习（正反案例法）
 type: tool
 status: reviewed
-domain:
-- src_unknown
+domain: src-unknown
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 aliases:
@@ -18,6 +17,9 @@ wiki_refs:
 - src_unknown
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 技能：从案例中学习正反案例法
+  - 从案例中学习正反案例法
 related:
 - '[[tool-专家访谈学习]]'
 - '[[tool-从案例中学习]]'
@@ -58,7 +60,6 @@ tags:
 - 全景策略
 - 科学学习
 ---
-
 # 技能：从案例中学习（正反案例法）
 
 ## 原始表述

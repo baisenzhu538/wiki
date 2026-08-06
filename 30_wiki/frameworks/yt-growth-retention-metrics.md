@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-retention-metrics
 title: 留存指标：从流失到忠诚
 type: framework
@@ -49,7 +48,6 @@ discoverable_by:
 - 流失分析
 - 留存优化
 ---
-
 # 留存指标：从流失到忠诚
 
 > 一堂五步法：留存是增长的基础。获客不留存，是漏斗漏水。留存率每提升5%，利润提升25-95%。

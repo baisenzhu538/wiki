@@ -1,4 +1,5 @@
 ---
+
 id: dk-p1-model-switch-env
 title: P-1：切模型改环境变量无效——Claude Code 走全局设置
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
+discoverable_by:
+  - P-1：切模型改环境变量无效——Claude Code 走全
+  - 切模型改环境变量无效
+  - 走全局设置
 related:
 - '[[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]'
 - '[[dk-lz-code-is-disposable]]'

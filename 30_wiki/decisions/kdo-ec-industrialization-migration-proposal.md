@@ -1,9 +1,7 @@
 ---
-
 title: EC工业化规范 → KDO管线迁移方案
 type: decision
-domain:
-- src_unknown
+domain: src-unknown
 status: reviewed
 id: kdo-ec-industrialization-migration-proposal
 author: 黄药师
@@ -32,7 +30,6 @@ related:
   - "[[modeling-capability-for-kdo]]"
   - "[[modeling-to-kdo-toolchain]]"
 ---
-
 # EC工业化规范 → KDO管线迁移方案（征求意见稿）
 
 > 黄药师起草，请欧阳锋审查，最终由老朱拍板。

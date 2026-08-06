@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-user-onboarding
 title: 用户 onboarding：第一印象设计
 type: concept
@@ -53,7 +51,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 用户 onboarding：第一印象设计
 
 > 一堂五步法：onboarding不是教程，而是让用户快速体验到价值的旅程。第一印象决定留存。

@@ -1,12 +1,10 @@
 ---
-
 id: yt-personal-y-model-exploration-2
 component_of: null
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1885
 language: zh-CN
 prerequisites: null
@@ -63,7 +61,6 @@ aliases:
 - 个人修身
 - 模型探索营
 ---
-
 # Y模型探索营2：五次质变与科学推演
 
 > 来源：一堂Y模型探索营第二课口述（Truman）。[[yt-personal-y-model-practice]] | [[yt-model-y-organization]] | [[一堂]]

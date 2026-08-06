@@ -1,12 +1,9 @@
 ---
-
 id: yt-unit-model-selection
 confidence: 0.8
 created_at: 2026-05-24
 difficulty: intermediate
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
@@ -68,7 +65,6 @@ tags:
 - scene:execution
 - skill-level:intermediate
 ---
-
 # 单元模型选择法：复制哪个算哪个，找到核心经济单元
 
 > 来源：一堂《单元模型实操系列课》第二课——选择篇。面对一个复杂业务，存在多个可能的单元模型（单订单、单用户、单门店等），本工具解决"到底复制哪个单元来分析“的问题。

@@ -5,8 +5,7 @@ component_of:
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1281
 language: zh-CN
 prerequisites:
@@ -63,7 +62,6 @@ tags:
 - 用户卡片
 - 行业分析画布
 ---
-
 # 行业分析画布：分析行业赛道的变化和机会
 
 > 需求工具箱高级卡牌。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

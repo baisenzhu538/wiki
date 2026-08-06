@@ -1,4 +1,5 @@
 ---
+
 id: yt-pitch-storytelling
 title: 讲香·故事化
 type: tool
@@ -20,6 +21,9 @@ difficulty: advanced
 confidence: 0.85
 prerequisites:
 component_of:
+discoverable_by:
+  - 讲香·故事化
+  - 故事化
 related:
 contradicts: null
 query_triggers:

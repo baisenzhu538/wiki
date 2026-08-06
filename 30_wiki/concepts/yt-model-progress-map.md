@@ -1,11 +1,9 @@
 ---
-
 id: yt-model-progress-map
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1881
 language: zh-CN
 query_triggers:
@@ -56,7 +54,6 @@ tags:
 - skill-level:intermediate
 - 堂无限进步大地图十年收藏版
 ---
-
 # 一堂无限进步大地图·十年收藏版
 
 > 来源：一堂《无限进步大地图》十年收藏版。[[一堂]] | [[yt-model-y-organization]] | [[yt-system-course-catalog]]

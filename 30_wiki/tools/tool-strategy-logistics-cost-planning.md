@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-logistics-cost-planning
 title: 物流费用三年节约计划：从单吨运费到全链成本的结构化拆解
 type: tool
@@ -22,6 +23,10 @@ source_refs:
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 reviewed_by: pending
+discoverable_by:
+  - 物流费用三年节约计划：从单吨运费到全链成本的结构化拆解
+  - 物流费用三年节约计划
+  - 从单吨运费到全链成本的结构化拆解
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-按月份摊销收入成本做计划]]'

@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-boundary
 title: 内核与边界：什么该做，什么不该做
 type: concept
@@ -51,7 +49,6 @@ tags:
 - 内核和边界
 - 泛产品设计
 ---
-
 # 内核与边界：什么该做，什么不该做
 
 > 一堂五步法：产品内核需要清晰的边界——边界保护内核，边界不清则内核被稀释。

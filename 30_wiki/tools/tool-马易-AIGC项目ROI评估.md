@@ -4,8 +4,9 @@ title: 技能：AIGC项目ROI评估
 type: tool
 status: needs-review
 domain:
-- design- business-strategy
-- ai-collaboration
+  - design
+  - business-strategy
+  - ai-collaboration
 source_person: 马易
 source_context: AI落地场景识别 （原 legacy，已从 title/context/filename 推断为 src_20260528_04be660c）
 aliases:
@@ -26,6 +27,9 @@ author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium-low
+discoverable_by:
+  - 技能：AIGC项目ROI评估
+  - AIGC项目ROI评估
 related:
 - '[[tool-马易-AI能力团队复制]]'
 - '[[tool-马易-AI任务拆解提升控制度]]'
@@ -58,7 +62,6 @@ tags:
 - 设计全流程
 - 设计师实操培训
 ---
-
 # 技能：AIGC项目ROI评估
 
 ## 原始表述

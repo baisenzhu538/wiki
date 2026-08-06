@@ -1,13 +1,11 @@
 ---
-
 id: yt-tool-mental-model-refinement
 component_of:
 - src_unknown
 confidence: 0.85
 created_at: 2026-06-06
 difficulty: advanced
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
@@ -70,7 +68,6 @@ tags:
 - scene:execution
 - skill-level:intermediate
 ---
-
 ## Summary
 
 > **一句话**：90% 的管理者不是缺经验，是缺「把经验压成模型」的刻意练习——模型提炼能力才是团队一号位的真正护城河。

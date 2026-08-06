@@ -1,13 +1,11 @@
 ---
-
 id: yt-decision-height-toolkit
 component_of:
 - src_unknown
 confidence: 0.8
 created_at: 2026-05-17
 difficulty: advanced
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2800
 language: zh-CN
 prerequisites:
@@ -97,7 +95,6 @@ tags:
 - 科学决策
 - 高水平共识曲线重要
 ---
-
 # 高度分析工具：上帝视角四维提升法 + 高水平共识曲线
 
 ## Summary

@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-leverage-resources
 title: 借现成资源：降低重投入验证
 type: tool
@@ -21,6 +22,10 @@ aliases:
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212256_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212256_vlm_desc.md
+discoverable_by:
+  - 借现成资源：降低重投入验证
+  - 借现成资源
+  - 降低重投入验证
 related:
 - '[[case-lean-electric-scooter-mvp]]'
 - '[[strategy-domain-digest]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-truman-knowledge-extraction-three-schools
 title: 知识萃取三流派：99%的知识付费只是A，一堂做B+C——为什么你学的大多数课只是"听个响"
 type: dk
@@ -20,6 +21,10 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
 - 10_raw/sources/src_20260510_814ec410-个人修炼-知识萃取探索营.md
+discoverable_by:
+  - 知识萃取三流派
+  - 99%的知识付费只是A，一堂做B+C
+  - 为什么你学的大多数课只是听个响
 related:
 - '[[yitang-domain-digest]]'
 - '[[tool-马易-隐性知识萃取与模型化]]'

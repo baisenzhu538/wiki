@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-职场异步协作提问法
 title: 技能：职场异步协作提问法
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

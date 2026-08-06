@@ -1,4 +1,5 @@
 ---
+
 id: tool-三阶追问法穷尽决策要素
 title: 技能：三阶追问法穷尽决策要素
 type: tool
@@ -29,6 +30,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：三阶追问法穷尽决策要素
+  - 三阶追问法穷尽决策要素
 related:
 - '[[tool-稀缺资源机会成本比对法]]'
 - '[[tool-区分获客渠道计算单元roi]]'

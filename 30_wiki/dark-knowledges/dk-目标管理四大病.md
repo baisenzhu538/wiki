@@ -1,4 +1,5 @@
 ---
+
 id: dk-目标管理四大病
 title: 目标管理四大病：经验主义、本本主义、形式主义、完美主义
 type: dk
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 目标管理四大病：经验主义、本本主义、形式主义、完美主义
+  - 目标管理四大病
+  - 经验主义、本本主义、形式主义、完美主义
 quality_labels:
 - insight
 - actionable

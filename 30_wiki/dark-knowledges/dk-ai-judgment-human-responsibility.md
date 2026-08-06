@@ -1,4 +1,5 @@
 ---
+
 id: dk-ai-judgment-human-responsibility
 title: 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果
 type: dk
@@ -21,6 +22,10 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: low
 updated_at: '2026-06-16'
+discoverable_by:
+  - 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头
+  - 人做判断AI做生产
+  - 核心不是会不会用AI，而是敢不敢点这个头承担后果
 related:
 - '[[tool-纪浩-处理AI生成代码运行异常]]'
 - '[[dk-my-ai-landing-three-barriers]]'

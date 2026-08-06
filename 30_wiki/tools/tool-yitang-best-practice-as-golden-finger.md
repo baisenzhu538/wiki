@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-best-practice-as-golden-finger
 type: tool
 title: 最佳实践临摹法：早期快速提升的「金手指」
@@ -11,6 +12,10 @@ trust_level: medium
 author: 老顽童
 reviewed_by: pending
 review_date: 2026-06-28
+discoverable_by:
+  - 最佳实践临摹法：早期快速提升的金手指
+  - 最佳实践临摹法
+  - 早期快速提升的金手指
 quality_labels:
 - actionable
 - cited

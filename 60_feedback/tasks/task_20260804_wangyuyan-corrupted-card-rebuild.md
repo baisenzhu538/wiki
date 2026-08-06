@@ -2,13 +2,13 @@
 id: task_20260804_wangyuyan-corrupted-card-rebuild
 task_id: 229
 assignee: huangyaoshi
-status: blocked
+status: queued
 created_at: 2026-08-04
 domain: kdo
 priority: P1
 source: #223审查PASS（欧阳锋）+ #222范围额外3张（王语嫣独立验证）
-updated_at: '2026-08-04T01:00:00+00:00'
-last_review: "⏸️暂缓 2026-08-04 用户决定——等#224(hermes长程写入)完成后启动，避免与#224并行碰cases/损坏卡"
+updated_at: '2026-08-04T02:00:00+00:00'
+last_review: "✅解禁 2026-08-04 王语嫣——#224已reviewed（5目录98%，零新增破坏），暂缓条件解除，黄药师可领取"
 ---
 
 # #229 预制损坏卡frontmatter重建（17张：14张#223范围 + 3张#222范围）
@@ -31,6 +31,8 @@ last_review: "⏸️暂缓 2026-08-04 用户决定——等#224(hermes长程写�
 | 17 | framework-yitang-project-breakdown | #222 | 无frontmatter（王语嫣验证） |
 
 > **性质确认**：全部为**历史遗留损坏**（7/27原版即坏），非#222/#223事故引入。GBK编码字节在UTF-8下读取失败（`unacceptable character #xdc88`类），机械修复无法恢复乱码原值。
+
+> ⚠️ **修正记录（2026-08-04）**：曾误将dk-yi-tang-wishful-thinking-kills-startups列入本清单（王语嫣初判"7/27即坏"）——**欧阳锋O3严格重验（字节级+UTF-8严格解码+yaml.safe_load）证明该卡7/27原版健康**，王语嫣初判错误（用了宽容解码）。dk-yi-tang是hermes #224批引入的破坏（非历史遗留），归hermes修，**不属本任务**。本清单维持17张。
 
 ## 修复方案（人工重建frontmatter）
 

@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-双三角模型应用
 title: 技能：双三角模型应用
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

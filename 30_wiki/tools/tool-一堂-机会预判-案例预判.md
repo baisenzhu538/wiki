@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-机会预判-案例预判
 title: 机会预判·案例预判 SOP：定位→列七段→排幻觉→保A争B→硬伤校验
 type: tool
@@ -24,6 +25,11 @@ source_refs:
 - 00_inbox/一堂-机会预判-案例预判02_paddle_ocr.txt
 - 00_inbox/一堂-机会预判-案例预判03_paddle_ocr.txt
 - 00_inbox/一堂-机会预判-陪诊案例01_paddle_ocr.txt
+discoverable_by:
+  - 机会预判·案例预判 SOP：定位→列七段→排幻觉→保A争B→
+  - 机会预判
+  - 案例预判
+  - 定位→列七段→排幻觉→保A争B→硬伤校验
 related:
 - '[[framework-一堂-机会预判]]'
 - '[[concept-一堂-终局光谱图解读]]'

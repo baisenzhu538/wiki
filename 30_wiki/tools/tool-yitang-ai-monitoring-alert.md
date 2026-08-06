@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-ai-monitoring-alert
 title: AI监控/预警：自动化竞争情报跟踪
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 自动化竞争情报跟踪
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - AI监控/预警：自动化竞争情报跟踪
+  - AI监控/预警
+  - 自动化竞争情报跟踪
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-mvp-design
 title: 内核MVP设计：最小可验证产品
 type: tool
@@ -20,6 +19,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 内核MVP设计：最小可验证产品
+  - 内核MVP设计
+  - 最小可验证产品
 related:
 - '[[tool-月白-AI设计底层逻辑：从设计到作图到改图]]'
 - '[[yt-panproduct-execution-low-cost-mvp]]'
@@ -50,7 +53,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 内核MVP设计：最小可验证产品
 
 > 一堂五步法：MVP（Minimum Viable Product）不是"最小产品"，而是"最小可验证产品"——用最小成本验证核心假设。

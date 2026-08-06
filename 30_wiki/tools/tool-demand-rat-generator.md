@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-rat-generator
 title: RAT生成器：从L5洞察自动生成最危险假设清单
 type: tool
@@ -23,6 +24,10 @@ aliases:
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt L476-L536
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt L2176-L2206
+discoverable_by:
+  - RAT生成器：从L5洞察自动生成最危险假设清单
+  - RAT生成器
+  - 从L5洞察自动生成最危险假设清单
 related:
 - '[[tool-demand-iceberg-l5-forces]]'
 - '[[tool-demand-iceberg-l6-hypothesis]]'

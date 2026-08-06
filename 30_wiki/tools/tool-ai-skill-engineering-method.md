@@ -12,12 +12,7 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -26,6 +21,11 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 trust_level: medium
 confidence: 0.88
+discoverable_by:
+  - AI Skill 工程化封装法：用指南把 AI 输出锁死在高
+  - 工程化封装法
+  - 用指南把
+  - 输出锁死在高质量水位
 related:
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
 - '[[tool-Truman-Skill全生命周期管理]]'
@@ -65,7 +65,6 @@ diagnostic_signals:
   follow_up_question: 你是否把“好 Skill”的审美转化为 P0/P1/P2 检查清单，并让 AI 用统一维度做交叉验证？
 - 建模能力培训
 ---
-
 # AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位
 
 > 来源：一堂建模能力培训（Truman）口述稿 | 背景：Truman 分享如何通过“找最佳实践 → 翻译解读 → 合并建模 → 迭代挑错 → 交叉验证 → 落地审计”六步，把个人审美和逻辑洁癖固化成一份可复用、可审计的 AI Skill 工程指南。

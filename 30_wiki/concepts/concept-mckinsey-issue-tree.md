@@ -1,13 +1,9 @@
 ---
-
 id: concept-mckinsey-issue-tree
 title: Issue Tree：问题树拆解
 type: concept
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: McKinsey & Company
 source_context: McKinsey 问题解决方法论核心工具，用于将复杂商业问题逐层拆解为可独立分析的子问题
 aliases:
@@ -57,7 +53,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # Issue Tree：问题树拆解
 
 ## 核心定义

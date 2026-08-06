@@ -1,12 +1,9 @@
 ---
-
 id: yt-unit-model-benchmark
 confidence: 0.9
 created_at: 2026-05-24
 difficulty: intermediate
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2500
 language: zh-CN
 prerequisites:
@@ -77,7 +74,6 @@ tags:
 - 一堂五步法
 - 单元模型
 ---
-
 # 单元模型基准值：科学类比、三点预测与基准值共建
 
 > 来源：一堂《单元模型实操系列课》第三至四课——基准值篇。当单元模型建好后，如何判断模型中的数字是否合理？本工具提供"科学类比"方法、"三点预测"技巧和"基准值共建"流程，帮助操盘手让单元模型从"假设集合"走向"可验证的决策基础"。

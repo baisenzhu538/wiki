@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb24-ai-poster-de-ai-feeling
 title: AI海报去AI感：图标+质感人物双要素
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-16'
+discoverable_by:
+  - AI海报去AI感：图标+质感人物双要素
+  - AI海报去AI感
+  - 图标+质感人物双要素
 related: null
 pipeline:
 - src_unknown

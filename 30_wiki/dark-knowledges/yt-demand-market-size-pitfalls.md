@@ -1,4 +1,5 @@
 ---
+
 domain:
 - demand-analysis
 id: yt-demand-market-size-pitfalls
@@ -24,6 +25,10 @@ updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
+discoverable_by:
+  - 市场规模估算的5个陷阱：从拍脑袋到结构化验证
+  - 市场规模估算的5个陷阱
+  - 从拍脑袋到结构化验证
 related:
 - '[[yt-demand-quantitative-estimation]]'
 - '[[yt-demand-qualitative-analysis]]'

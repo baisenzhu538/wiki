@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-employee-directory
 title: 员工公开名录：从通讯录取组织架构
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 讯录取组织架构
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 员工公开名录：从通讯录取组织架构
+  - 员工公开名录
+  - 从通讯录取组织架构
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

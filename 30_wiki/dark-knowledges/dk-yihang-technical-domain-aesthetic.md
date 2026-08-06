@@ -1,4 +1,5 @@
 ---
+
 id: dk-yihang-technical-domain-aesthetic
 title: 严格技术域审美——"对就是对错就是错"域不需要品位，需要验证机制
 type: dk
@@ -22,6 +23,10 @@ aliases:
   - 验证机制
 source_refs:
 - 对话记录：2026-07-05 老朱论电子工程/SaaS/机械结构域审美
+discoverable_by:
+  - 严格技术域审美——对就是对错就是错域不需要品位，需要验证机制
+  - 严格技术域审美
+  - 对就是对错就是错域不需要品位，需要验证机制
 related:
 - '[[framework-yihang-dual-triangle-weapon-library]]'
 - '[[dk-ai-collaboration-degradation-spiral]]'

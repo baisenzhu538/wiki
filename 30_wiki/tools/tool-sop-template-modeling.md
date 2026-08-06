@@ -12,10 +12,7 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -32,6 +29,10 @@ diagnostic_signals:
   follow_up_question: SOP 是否有独立的检查层？督导和品控是否也被标准化？
 - framework_lens: SOP + 配套模板
   follow_up_question: 是否为新场景配套了可填写、可验收的模板？
+discoverable_by:
+  - SOP/模板建模法：把关键动作固化成标准工作流
+  - SOP/模板建模法
+  - 把关键动作固化成标准工作流
 related:
 - '[[dk-modeling-sop-execution-locks]]'
 - '[[case-zhangyang-anchor-sop-three-locks]]'
@@ -53,7 +54,6 @@ tags:
 - 流程建模
 - 高阶建模
 ---
-
 # SOP/模板建模法：把关键动作固化成标准工作流
 
 > **Burn line**: SOP 不是“写出来给别人看”，而是“写到别人能无脑执行”。

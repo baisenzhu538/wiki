@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-bidding-analysis
 title: 招投标分析：从政府采购反推客户和订单
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 标分析
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_ocr_text.md
+discoverable_by:
+  - 招投标分析：从政府采购反推客户和订单
+  - 招投标分析
+  - 从政府采购反推客户和订单
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

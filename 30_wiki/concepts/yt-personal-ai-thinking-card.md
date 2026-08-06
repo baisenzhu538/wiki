@@ -1,11 +1,9 @@
 ---
-
 id: yt-personal-ai-thinking-card
 confidence: 0.8
 created_at: 2026-05-15
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 language: zh-CN
 query_triggers:
 - src_unknown
@@ -59,7 +57,6 @@ tags:
 - scene:execution
 - skill-level:intermediate
 ---
-
 # AI思维卡：从「读书」到「安装认知补丁」
 
 > 来源：「认知升级系统」v3.2 产出的结构化深度阅读笔记格式。本卡以 Russell & Norvig《人工智能：一种现代方法》的AI思维卡为参考实现。

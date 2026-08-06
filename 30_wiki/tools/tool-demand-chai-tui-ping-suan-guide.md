@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-chai-tui-ping-suan-guide
 title: 拆推评算使用指南：工具箱而非工作流
 type: tool
@@ -23,6 +24,10 @@ aliases:
 source_refs:
 - 00_inbox/五步法之需求分析/一堂-需求分析-需求评估-口述.txt L476-L536,L1104-L1186
 - 00_inbox/五步法之需求分析/一堂-需求分析-方法论-口述.txt L1262-L1272,L1308-L1318
+discoverable_by:
+  - 拆推评算使用指南：工具箱而非工作流
+  - 拆推评算使用指南
+  - 工具箱而非工作流
 related:
 - '[[tool-demand-assessment-triangle]]'
 - '[[tool-demand-iceberg-l6-hypothesis]]'

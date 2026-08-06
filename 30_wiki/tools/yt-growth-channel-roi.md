@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-channel-roi
 title: 渠道ROI评估与优化
 type: tool
@@ -18,6 +17,8 @@ updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 渠道ROI评估与优化
 related:
 - '[[tool-ROI决策评估画布]]'
 - '[[yt-panproduct-execution-roi-analysis]]'

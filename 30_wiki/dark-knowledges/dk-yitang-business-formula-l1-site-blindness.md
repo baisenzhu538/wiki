@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-business-formula-l1-site-blindness
 title: L1 不进公式=假装选址免费：选择型参数是线下业务最大的隐藏变量
 type: dk
@@ -21,6 +22,10 @@ source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2006-L2040
 - 00_inbox/Handle the business/Business formula/_vlm_output/一堂业务公式-参数挖掘武器库（极其重要，需要精细识别）_vlm.md
   L28-L58
+discoverable_by:
+  - L1 不进公式=假装选址免费：选择型参数是线下业务最大的隐藏
+  - 不进公式=假装选址免费
+  - 选择型参数是线下业务最大的隐藏变量
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-parameter-iceberg]]'

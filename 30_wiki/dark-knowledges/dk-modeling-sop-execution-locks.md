@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-sop-execution-locks
 title: SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
 type: dk
@@ -23,6 +24,11 @@ created_at: '2026-06-14'
 updated_at: '2026-06-17'
 confidence: 0.9
 trust_level: high
+discoverable_by:
+  - SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才
+  - 写出来≠被执行
+  - 的两层锁，才能把执行率从
+  - 拉到近
 related:
 - '[[yitang-domain-digest]]'
 - '[[case-zhangyang-anchor-sop-three-locks]]'

@@ -1,5 +1,4 @@
 ---
-
 id: case-deepfake-market-misuse
 title: Deepfake 的商业机会与滥用风险
 type: case
@@ -12,9 +11,9 @@ confidence: 0.8
 trust_level: medium
 language: zh-CN
 domain:
-- ai_collaboration
-- critical_thinking
-- business_judgment
+  - ai-collaboration
+  - critical-thinking
+  - business-judgment
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 - 60_feedback/diagnosis/diag_20260624_wangyuyan_ai2041-annotation.md
@@ -38,7 +37,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # Deepfake 的商业机会与滥用风险
 
 > **Burn line**：deepfake 同时是最具商业想象力的生成式 AI 赛道之一，也是最快的信任腐蚀剂——它挣的钱越大，社会为“眼见为实”崩塌付出的代价就越高。

@@ -1,4 +1,5 @@
 ---
+
 id: tool-讲香十指模型-超级武器库
 title: 讲香十指模型：超级武器库——表达力的十种武器
 type: tool
@@ -18,6 +19,11 @@ aliases:
   - 超级武器库
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-讲香十指模型-超级武器库_vlm_desc.md
+discoverable_by:
+  - 讲香十指模型：超级武器库——表达力的十种武器
+  - 讲香十指模型
+  - 超级武器库
+  - 表达力的十种武器
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

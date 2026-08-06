@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-影响力六原则
 title: 一堂影响力六原则：互惠 / 承诺一致 / 社会认同 / 喜好 / 权威 / 稀缺 使用决策表
 type: tool
@@ -25,6 +26,12 @@ source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L4176-L4188
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3786-L3814
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L3834-L3892
+discoverable_by:
+  - 一堂影响力六原则：互惠 / 承诺一致 / 社会认同 / 喜好
+  - 一堂影响力六原则
+  - 承诺一致
+  - 社会认同
+  - 使用决策表
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-动力三曲线]]'

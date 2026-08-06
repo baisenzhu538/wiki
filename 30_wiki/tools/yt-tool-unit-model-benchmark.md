@@ -1,6 +1,7 @@
 ---
 domain:
-- yitang- master
+  - yitang
+  - master
 tags:
 - audience:executor
 - scene:execution
@@ -24,7 +25,6 @@ updated_at: '2026-06-16'
 status: enriched
 review_date: '2026-06-29'
 ---
-
 ## 不要用的场景
 
 

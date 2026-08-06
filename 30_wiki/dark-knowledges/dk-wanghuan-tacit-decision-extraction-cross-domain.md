@@ -1,4 +1,5 @@
 ---
+
 id: dk-wanghuan-tacit-decision-extraction-cross-domain
 title: 王欢暗知识：销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”销售
 type: dk
@@ -39,6 +40,10 @@ diagnostic_signals:
 - signal: src_unknown
   lens: 个人隐性经验未转化为组织资产
   follow_up: 把专家的“判断链”而非“输出文本”萃取为可模拟、可评分的规则库
+discoverable_by:
+  - 王欢暗知识：销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”
+  - 王欢暗知识
+  - 销冠能力萃取的底层逻辑可迁移到任何“隐性判断型”销售
 related:
 - '[[case-wanghuan-education-sales-paced]]'
 - '[[dk-wanghuan-paced-sales-decision]]'

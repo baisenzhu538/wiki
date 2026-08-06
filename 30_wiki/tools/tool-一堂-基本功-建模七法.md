@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-基本功-建模七法
 title: 建模七法：从本质要素到 SOP，把基本功建成固定套路
 type: tool
@@ -26,6 +27,11 @@ source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/建模卡-工具箱小抄-05_vlm.md
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/建模卡-文档模板-06_vlm.md
 - 00_inbox/Manage the team/Fundamentals Seminar/_vlm_output/建模卡-写sop-07_vlm.md
+discoverable_by:
+  - 建模七法：从本质要素到 SOP，把基本功建成固定套路
+  - 建模七法
+  - 从本质要素到
+  - SOP，把基本功建成固定套路
 related:
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[framework-一堂-苦练基本功-总纲]]'

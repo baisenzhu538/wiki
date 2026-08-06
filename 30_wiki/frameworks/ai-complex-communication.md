@@ -6,9 +6,10 @@ status: enriched
 confidence: 0.85
 trust_level: medium-high
 domain:
-- ai-saas- ai
-- ai-collaboration
-- management
+  - ai-saas
+  - ai
+  - ai-collaboration
+  - management
 aliases:
   - AI辅助复杂职场沟通：角色扮演、攻防演练与受众适配
   - 准备复杂对话

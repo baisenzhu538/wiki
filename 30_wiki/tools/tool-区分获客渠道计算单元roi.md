@@ -3,10 +3,10 @@ id: tool-区分获客渠道计算单元roi
 title: 技能：区分获客渠道计算单元ROI
 type: tool
 domain:
-- learning-methodology- product
-- decision-making
-- yitang
-- business-strategy
+  - learning-methodology
+  - decision-making
+  - yitang
+  - business-strategy
 status: draft
 source_person: 一堂课程（未具名讲师）
 source_context: src_20260609_99032bf9
@@ -30,6 +30,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：区分获客渠道计算单元ROI
+  - 区分获客渠道计算单元ROI
 related:
 - '[[tool-辩证讨论深化]]'
 - '[[tool-对标借鉴他人决策维度]]'
@@ -67,7 +70,6 @@ tags:
 - skill-level:beginner
 - 单元模型
 ---
-
 # 技能：区分获客渠道计算单元ROI
 
 ## 原始表述

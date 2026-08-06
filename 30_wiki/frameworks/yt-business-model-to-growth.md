@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-to-growth
 title: 从商业模式到增长：承上启下
 type: framework
@@ -51,7 +50,6 @@ discoverable_by:
 - 商业增长路径
 - 增长引擎
 ---
-
 # 从商业模式到增长：承上启下
 
 > 一堂五步法：商业模式是增长的基础，增长是商业模式的放大。两者需要协同，不是割裂。

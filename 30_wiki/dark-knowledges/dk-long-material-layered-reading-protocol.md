@@ -1,4 +1,5 @@
 ---
+
 id: dk-long-material-layered-reading-protocol
 title: 长素材分层读取协议：密度×长度选策略 / 子代理外存+行号锚点 / 三道防线
 type: dk
@@ -23,6 +24,12 @@ aliases:
 source_refs:
 - 30_wiki/personal-os/wangyuyan-working-protocols.md
 - 70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md
+discoverable_by:
+  - 长素材分层读取协议：密度×长度选策略 / 子代理外存+行号锚
+  - 长素材分层读取协议
+  - 密度×长度选策略
+  - 子代理外存+行号锚点
+  - 三道防线
 related:
 - '[[wangyuyan-working-protocols]]'
 - '[[dk-research-decision-first-mapping]]'

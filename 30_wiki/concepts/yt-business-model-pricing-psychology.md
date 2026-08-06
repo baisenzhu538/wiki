@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-pricing-psychology
 title: 定价心理学：让用户觉得值
 type: concept
@@ -49,7 +47,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 定价心理学：让用户觉得值
 
 > 一堂五步法：定价不是成本+利润，而是让用户觉得"值"。定价心理学帮助设计让用户愿意付费的价格。

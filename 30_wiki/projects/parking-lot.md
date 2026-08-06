@@ -1,12 +1,12 @@
 ---
-
 title: 停车场清单
 type: index
 status: reviewed
 domain:
   - healthcare
   - compliance
-  - product-management
+  - product
+  - management
 id: parking-lot
 created_at: '2026-06-13'
 updated_at: '2026-06-29'

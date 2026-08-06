@@ -3,11 +3,7 @@ id: yt-tob-customer-tiering
 title: To B 客户分层：头部、腰部、腿部
 type: framework
 status: draft
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - ToB客户分层：头部、腰部、腿部
   - 头部
@@ -53,8 +49,6 @@ discoverable_by:
 - SABC分级
 - 客户价值分层
 ---
-
-
 > **核心观点**：To B 业务最糙、最基础也最通用的客户划分，是按客户数量级切成三层——头部（千级以下）、腰部（几万到几十万）、腿部（百万级以上）。不同层级的需求复杂度、决策机制、合作重点和付费特征差异显著，选择服务哪一层应先于产品设计。——徐剑《To B 五步法》口述稿（约 867–980 行）及课堂笔记 §2
 
 ## 一、框架概述

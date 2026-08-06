@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-经典故事线框架库
 title: 一堂经典故事线框架库：N个为什么/清单体/时间线/BP模板/顾问式销售
 type: tool
@@ -19,6 +20,10 @@ aliases:
   - 一堂经典故事线框架库：N个为什么/清单体/时间线/BP模板/顾问式销售
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3234-L3384
+discoverable_by:
+  - 一堂经典故事线框架库：N个为什么/清单体/时间线/BP模板/
+  - 一堂经典故事线框架库
+  - N个为什么/清单体/时间线/BP模板/顾问式销售
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

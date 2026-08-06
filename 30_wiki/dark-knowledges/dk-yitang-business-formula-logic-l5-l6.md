@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-business-formula-logic-l5-l6
 title: 定量与动态的正名：逻辑冰山 L5=基准值与判断空间，L6=公式随业务进化
 type: dk
@@ -20,6 +21,11 @@ source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1605-L1609
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2328-L2350
 - 60_feedback/analysis/c-domain-mastery-review-and-agent-design-2026-07-12.md
+discoverable_by:
+  - 定量与动态的正名：逻辑冰山 L5=基准值与判断空间，L6=公
+  - 定量与动态的正名
+  - 逻辑冰山
+  - L5=基准值与判断空间，L6=公式随业务进化
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-six-level-logic]]'

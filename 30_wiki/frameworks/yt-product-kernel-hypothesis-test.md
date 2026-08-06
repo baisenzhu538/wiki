@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-hypothesis-test
 title: 内核假设测试：低成本验证方法
 type: framework
@@ -51,7 +50,6 @@ discoverable_by:
 - 产品假设驱动
 - 内核实验设计
 ---
-
 # 内核假设测试：低成本验证方法
 
 > 一堂五步法：产品内核基于假设，假设必须通过低成本方法测试，不是"我觉得"。

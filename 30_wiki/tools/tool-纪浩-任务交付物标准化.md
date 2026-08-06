@@ -3,9 +3,7 @@ id: tool-纪浩-任务交付物标准化
 title: 技能：任务交付物标准化
 type: tool
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 aliases:
@@ -21,6 +19,9 @@ created_at: '2026-06-15'
 updated_at: '2026-06-17'
 confidence: 0.75
 trust_level: medium
+discoverable_by:
+  - 技能：任务交付物标准化
+  - 任务交付物标准化
 related:
 - '[[tool-纪浩-Agent技能市场设计法]]'
 - '[[pending_unknown]]'
@@ -46,7 +47,6 @@ tags:
 - 五层结构
 - 俱乐部
 ---
-
 # 技能：任务交付物标准化
 
 - src_unknown

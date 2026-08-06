@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-evidence-check
 title: 技能：AI输出证据核查三问法
 type: tool
@@ -20,6 +21,9 @@ aliases:
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：AI输出证据核查三问法
+  - AI输出证据核查三问法
 related:
 - '[[tool-ai-problem-validation]]'
 - '[[tool-ai-ai-workspace-setup]]'

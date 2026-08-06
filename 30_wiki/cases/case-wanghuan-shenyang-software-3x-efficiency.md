@@ -1,13 +1,9 @@
 ---
-
 id: case-wanghuan-shenyang-software-3x-efficiency
 title: 王欢案例：沈阳软件公司三层架构实现3倍效率
 type: case
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -57,7 +53,6 @@ diagnostic_signals:
 - lens: 把系统问题误判为工具问题
   follow_up: 验证同一批工具在重新设计流程后能否接近 3 倍提升，再决定是否追加工具投入
 ---
-
 # 王欢案例：沈阳软件公司三层架构实现3倍效率
 
 > **Burn line**: 从 30% 到 3 倍，差的不是工具，是系统重新设计。

@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-user-perspective
 title: 用户视角 vs 产品视角：为什么"我觉得好"不等于"用户觉得好"
 type: concept
@@ -51,7 +49,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 用户视角 vs 产品视角：为什么"我觉得好"不等于"用户觉得好"
 
 > 一堂五步法：产品内核必须从用户视角定义，不是从产品视角或技术视角。

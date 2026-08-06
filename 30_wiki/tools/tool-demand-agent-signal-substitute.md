@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-signal-substitute
 title: Agent L5信号提取：替代微观体感的非结构化数据分析
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 微观体感的非结构化数据分析
   - 替代微观体感的非结构化数据分析
 source_refs: null
+discoverable_by:
+  - Agent L5信号提取：替代微观体感的非结构化数据分析
+  - L5信号提取
+  - 替代微观体感的非结构化数据分析
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'

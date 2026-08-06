@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-acquisition-channels
 title: 获客渠道：流量获取的6大类型
 type: concept
@@ -52,7 +50,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 获客渠道：流量获取的6大类型
 
 > 一堂五步法：获客渠道不是越多越好，而是需要匹配产品和用户。每个渠道都有成本、质量、规模的权衡。

@@ -1,4 +1,5 @@
 ---
+
 id: tool-科学提问刻意练习
 title: 科学提问刻意练习：提问即思考
 type: tool
@@ -17,6 +18,10 @@ aliases:
   - 科学提问刻意练习：提问即思考
 source_refs:
 - 00_inbox/_vlm_reprocess/个人修炼/一堂-个人修炼-科学提问刻意练习_vlm_desc.md
+discoverable_by:
+  - 科学提问刻意练习：提问即思考
+  - 科学提问刻意练习
+  - 提问即思考
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

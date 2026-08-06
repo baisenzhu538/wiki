@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb11-visual-book-reverse
 title: 不训练模型锁定风格的逆向视觉书法
 type: dk
@@ -16,6 +17,8 @@ source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - 不训练模型锁定风格的逆向视觉书法
 related:
 - '[[tool-月白-一抽流长提示词写作法]]'
 - '[[dk-yb13-zero-shot-style-transfer]]'

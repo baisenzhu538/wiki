@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-demand-segmentation-canvas
 title: 需求分层画布：从"所有人"到"第一批100个"的结构化工具
 type: tool
@@ -20,6 +19,10 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
+discoverable_by:
+  - 需求分层画布：从所有人到第一批100个的结构化工具
+  - 需求分层画布
+  - 从所有人到第一批100个的结构化工具
 related:
 - '[[tool-月白-设计师AI工具习惯切换]]'
 - '[[tool-ROI决策评估画布]]'
@@ -45,7 +48,6 @@ tags:
 - 一堂五步法
 - 分析段位图
 ---
-
 # 需求分层画布：从"所有人"到"第一批100个"的结构化工具
 
 > 一堂五步法：用户分层不是分类，而是识别需求差异，找到最值得先服务的群体。

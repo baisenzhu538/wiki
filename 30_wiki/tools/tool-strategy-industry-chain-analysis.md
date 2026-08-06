@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-industry-chain-analysis
 title: 产业链机会与行动计划分析工具
 type: tool
@@ -18,6 +19,8 @@ created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 产业链机会与行动计划分析工具
 related:
 - '[[strategy-domain-digest]]'
 - '[[tool-月白-设计师AI工具习惯切换]]'

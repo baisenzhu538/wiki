@@ -1,11 +1,9 @@
 ---
-
 id: yt-entrepreneur-needs-analysis
 confidence: 0.7
 created_at: 2026-05-06
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
@@ -65,7 +63,6 @@ tags:
 - 跑步机案例
 - 需求分析图
 ---
-
 # 需求分析
 
 > 来源：一堂创业五步法第一步实操课（拆推评算之推演篇）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-map-lecture]]

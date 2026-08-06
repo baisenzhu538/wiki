@@ -1,4 +1,5 @@
 ---
+
 id: dk-state-residue-is-the-silent-killer
 title: 状态残留是自动化系统里最隐蔽的 bug
 type: dk
@@ -17,6 +18,9 @@ aliases:
   - 状态残留是自动化系统里最隐蔽的
   - 状态残留是自动化系统里最隐蔽的bug
 source_refs: null
+discoverable_by:
+  - 状态残留是自动化系统里最隐蔽的 bug
+  - 状态残留是自动化系统里最隐蔽的
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[fix-data-curator-parse-bug]]'

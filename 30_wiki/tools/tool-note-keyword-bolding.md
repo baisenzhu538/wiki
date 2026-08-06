@@ -4,12 +4,17 @@ title: 关键词加粗三重结构：视觉重心即认知重心的标记法则
 type: tool
 status: reviewed
 domain:
-- learning-methodology- yitang
-- note-taking
+  - learning-methodology
+  - yitang
+  - note-taking
 language: zh-CN
 version: 1
 difficulty: beginner
 confidence: 0.88
+discoverable_by:
+  - 关键词加粗三重结构：视觉重心即认知重心的标记法则
+  - 关键词加粗三重结构
+  - 视觉重心即认知重心的标记法则
 related:
 - '[[tool-note-one-line-one-point]]'
 - '[[tool-note-layer-constraint]]'
@@ -49,7 +54,6 @@ diagnostic_signals:
 - src_unknown
 - 时代清单体笔记
 ---
-
 # 关键词加粗三重结构：视觉重心即认知重心的标记法则
 
 ## 用一句话讲清楚

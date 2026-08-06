@@ -1,4 +1,5 @@
 ---
+
 id: tool-media-verification-overview
 title: 媒体验证技术总览：判断"对方说的是不是真的"
 type: tool
@@ -22,6 +23,10 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - 媒体验证技术总览：判断对方说的是不是真的
+  - 媒体验证技术总览
+  - 判断对方说的是不是真的
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

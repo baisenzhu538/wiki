@@ -1,12 +1,10 @@
 ---
-
 id: yt-personal-deep-review
 component_of: null
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 3000
 language: zh-CN
 prerequisites: null
@@ -26,6 +24,7 @@ discoverable_by:
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'
+- '[[framework-一堂-复盘本质与三要素]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
@@ -65,7 +64,6 @@ trust_level: medium-high
 aliases:
 - 一堂深度复盘冰山图
 ---
-
 # 深度复盘
 
 > 来源：src_20260507_9dd09688（周子敬讲授，2026年科学学习/深度复盘课程录音）。[[一堂方法论体系总图]] | [[yitang-course-map]]

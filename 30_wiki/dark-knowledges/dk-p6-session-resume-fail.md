@@ -1,4 +1,5 @@
 ---
+
 id: dk-p6-session-resume-fail
 title: P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session
   ID
@@ -20,6 +21,10 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
+discoverable_by:
+  - P-6：cc-connect 修好 work_dir + A
+  - 后仍然空响应
+  - 缓存了失效的
 related:
 - '[[tool-yitang-weapon-former-employee-network]]'
 - '[[framework-wanghuan-gan-three-roles]]'

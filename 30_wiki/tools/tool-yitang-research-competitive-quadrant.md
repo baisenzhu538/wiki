@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-competitive-quadrant
 title: 竞争象限：用二维矩阵可视化竞争格局
 type: tool
@@ -24,6 +25,10 @@ aliases:
   - 用二维矩阵可视化竞争格局
   - 竞争象限
   - 竞争象限：用二维矩阵可视化竞争格局
+discoverable_by:
+  - 竞争象限：用二维矩阵可视化竞争格局
+  - 竞争象限
+  - 用二维矩阵可视化竞争格局
 related:
 tags:
 ---

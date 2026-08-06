@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-barrier-talent-density
 title: 人才密度：组织壁垒
 type: concept
@@ -47,7 +45,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 人才密度：组织壁垒
 
 > 一堂五步法：人才密度是组织壁垒。人才密度 = 人才质量 × 人才浓度 × 人才稳定性。

@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-freemium
 title: 免费增值模式：获客与变现的平衡
 type: concept
@@ -53,7 +51,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 免费增值模式：获客与变现的平衡
 
 > 一堂五步法：免费增值是最常见的获客策略，但需要精心设计免费与付费的边界，否则获客成本高，变现困难。

@@ -1,4 +1,5 @@
 ---
+
 id: dk-p20-bigram-fail
 title: P-20：pre-screen bigram 匹配对中文文本完全失效
 type: dk
@@ -17,6 +18,9 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-19'
+discoverable_by:
+  - P-20：pre-screen bigram 匹配对中文文本
+  - 匹配对中文文本完全失效
 related:
 - '[[dk-yb23-ai-pre-screen-three-minutes]]'
 - '[[yt-entrepreneur-needs-analysis]]'

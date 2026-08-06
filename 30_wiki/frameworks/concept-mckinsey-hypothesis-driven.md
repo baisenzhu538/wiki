@@ -13,9 +13,7 @@ aliases:
 source_refs:
 - pending_archive: src_unknown
 status: enriched
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 bridges_to:
 - relation: provides_foundation_for
   description: Hypothesis-Driven 是'关键假设'概念的底层工作流
@@ -61,7 +59,6 @@ author: 老顽童
 confidence: 0.85
 trust_level: medium-high
 ---
-
 # Hypothesis-Driven Approach：假设驱动工作法
 
 > 来源：Rasiel, E. (1999). *The McKinsey Way*; Friga, P. N. (2003). *The McKinsey Mind*

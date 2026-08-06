@@ -1,12 +1,9 @@
 ---
-
 id: case-ji-hao-skills-market
 title: 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助
 type: case
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论 分享
 aliases:
@@ -71,7 +68,6 @@ diagnostic_signals:
 - 俱乐部
 - 协作方法论
 ---
-
 # 案例：一堂内部 Skills 分发平台
 
 ## 一句话摘要

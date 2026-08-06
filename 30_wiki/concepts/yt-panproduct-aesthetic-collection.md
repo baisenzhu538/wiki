@@ -5,8 +5,7 @@ component_of:
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1309
 language: zh-CN
 prerequisites:
@@ -63,7 +62,6 @@ tags:
 - 最佳实践收集
 - 泛产品设计
 ---
-
 # 最佳实践收集：积极搜集最佳案例
 
 > 审美工具箱第 1 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

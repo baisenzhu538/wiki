@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-research-decision-first-mapping
 title: 研究活动如何服务决策
 type: dk
@@ -22,6 +23,8 @@ aliases:
   - 评估画布
 source_refs:
 - 60_feedback/audit/synthesis_research.md
+discoverable_by:
+  - 研究活动如何服务决策
 related:
   - "[[yitang-research-domain-digest]]"
   - "[[concept-X型Y型决策习惯]]"

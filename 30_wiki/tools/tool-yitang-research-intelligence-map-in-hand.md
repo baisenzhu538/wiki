@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-research-intelligence-map-in-hand
 title: 地图在手：建立全局信息获取体系
 type: tool
@@ -23,6 +24,10 @@ aliases:
   - skill-level:intermediate
   - 地图在手
   - 地图在手：建立全局信息获取体系
+  - 建立全局信息获取体系
+discoverable_by:
+  - 地图在手：建立全局信息获取体系
+  - 地图在手
   - 建立全局信息获取体系
 related:
 tags:

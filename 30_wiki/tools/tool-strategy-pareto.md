@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-pareto
 title: 帕雷托图（80/20法则）：识别库存/客户/品类的关键少数
 type: tool
@@ -21,6 +22,10 @@ aliases:
   - 识别库存/客户/品类的关键少数
 source_refs:
 - pending_archive:src_unknown
+discoverable_by:
+  - 帕雷托图80/20法则：识别库存/客户/品类的关键少数
+  - 帕雷托图80/20法则
+  - 识别库存/客户/品类的关键少数
 tags:
 - audience:executor
 - scene:execution

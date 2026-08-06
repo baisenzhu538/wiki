@@ -1,4 +1,5 @@
 ---
+
 id: dk-ji-hao-problem-vs-question
 title: 暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem
 type: dk
@@ -16,6 +17,9 @@ source_refs:
 - 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
 created_at: 2026-06-09
 updated_at: '2026-06-19'
+discoverable_by:
+  - 暗知识：Problem vs Question —— AI时
+  - 暗知识
 related:
 - '[[yt-demand-fake-demand-detection]]'
 - '[[dk-ai-judgment-human-responsibility]]'

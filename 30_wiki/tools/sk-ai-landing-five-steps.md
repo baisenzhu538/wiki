@@ -1,5 +1,4 @@
 ---
-
 id: sk-ai-landing-five-steps
 title: 技能：AI落地五步执行清单
 type: tool
@@ -12,9 +11,7 @@ aliases:
 source_refs:
 - 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 created_at: '2026-06-06'
 updated_at: '2026-06-28'
 author: 老顽童
@@ -47,7 +44,6 @@ diagnostic_signals:
   follow_up_question: 是否有3个月的平行运行计划和明确的回退方案？
 - 场景落地方法分享
 ---
-
 # 技能：AI落地五步执行清单
 
 > **Burn line**: AI落地不是技术炫技，而是从熟悉的小场景出发，五步验收、逐步放大的执行路径。

@@ -3,10 +3,7 @@ id: yt-lean-assumption-verification-3means
 title: 关键假设验证的三种手段：访谈调研、经验验证、实验验证
 type: framework
 status: draft
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - 假设验证的三种手段
   - 关键假设验证的三种手段
@@ -52,8 +49,6 @@ discoverable_by:
 - 快速验证
 - 假设测试方法
 ---
-
-
 > 精益不是不花钱、不花时间，而是用少量的试错成本，大幅降低当前最重要的系统性风险。验证关键假设时，优先使用左侧低成本手段：专家访谈/调研、经验验证，最后再自己做实验。——张磊《精益测试关键问题》AMA Q1
 
 ## 核心框架

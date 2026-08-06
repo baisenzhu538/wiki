@@ -1,14 +1,11 @@
 ---
-
 id: yt-pitch-conflict
 component_of:
 - src_unknown
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: advanced
-domain:
-- src_unknown
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1600
 language: zh-CN
 prerequisites:
@@ -62,7 +59,6 @@ tags:
 - 讲香十指模型
 - 超级武器库
 ---
-
 # 讲香·冲突化
 
 > 十指模型右手第四指——向上抽象。大家都喜欢反差——制造认知/价值/竞争/逆袭的反差，让用户从「无所谓」到「我倒要看看怎么回事」。

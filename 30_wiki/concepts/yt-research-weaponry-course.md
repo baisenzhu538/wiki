@@ -1,5 +1,4 @@
 ---
-
 id: yt-research-weaponry-course
 title: 一堂调研武器库课程
 type: concept
@@ -19,8 +18,7 @@ quality_labels:
 - quality
 - validated
 created_at: 2026-05-05
-domain:
-- src_unknown
+domain: src-unknown
 yitang:
   map: entrepreneur
   module: 调研方法论
@@ -53,7 +51,6 @@ tags:
 - scene:reference
 - skill-level:advanced
 ---
-
 # 一堂调研武器库课程
 
 ## Constraints & Boundaries

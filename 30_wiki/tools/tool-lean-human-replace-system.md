@@ -1,4 +1,5 @@
 ---
+
 id: tool-lean-human-replace-system
 title: 人工替代复杂系统
 type: tool
@@ -18,6 +19,8 @@ aliases:
 source_refs:
 - 00_inbox/精益创业/一堂DOC-20260622212351_ocr_text.md
 - 00_inbox/精益创业/一堂DOC-20260622212351_vlm_desc.md
+discoverable_by:
+  - 人工替代复杂系统
 related:
 - '[[strategy-domain-digest]]'
 - '[[yitang-domain-digest]]'

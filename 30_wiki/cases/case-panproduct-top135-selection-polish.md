@@ -1,12 +1,12 @@
 ---
-
 id: case-panproduct-top135-selection-polish
 title: 案例：top 1/top 3/top 5 筛选打磨
 type: case
 status: reviewed
 domain:
-- product-design
-- yitang
+  - product
+  - design
+  - yitang
 author: 老顽童
 reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'

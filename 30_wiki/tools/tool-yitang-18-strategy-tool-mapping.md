@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-18-strategy-tool-mapping
 title: 降龙十八掌→工具映射表：每掌对应的执行工具和 Skill
 type: tool
@@ -20,6 +21,10 @@ source_refs:
 - 30_wiki/concepts/yt-research-osl-framework.md
 - 30_wiki/domains/yitang-research-domain-digest.md
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
+discoverable_by:
+  - 降龙十八掌→工具映射表：每掌对应的执行工具和 Skill
+  - 降龙十八掌→工具映射表
+  - 每掌对应的执行工具和
 quality_labels:
 - actionable
 - cited

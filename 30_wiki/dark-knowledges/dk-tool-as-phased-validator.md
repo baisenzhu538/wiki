@@ -1,4 +1,5 @@
 ---
+
 id: dk-tool-as-phased-validator
 title: 把 AI/工具当成分阶段校验器，而不是一次性生成器
 type: dk
@@ -21,6 +22,9 @@ aliases:
   - 而不是一次性生成器
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+discoverable_by:
+  - 把 AI/工具当成分阶段校验器，而不是一次性生成器
+  - AI/工具当成分阶段校验器，而不是一次性生成器
 related:
 - '[[dk-modeling-ai-compound-leverage]]'
 - '[[dk-modeling-ai-judgment-limit]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-机会预判-五步法预判
 title: 机会预判·五步法预判：选项池收敛为店型剧本 × 五步矩阵（出口
 type: tool
@@ -24,6 +25,12 @@ aliases:
 source_refs:
 - 00_inbox/一堂-机会预判-咖啡店案例-五步法预判_paddle_ocr.txt L1-L5
 - 00_inbox/一堂-机会预判-咖啡案例01_paddle_ocr.txt L1-L20
+discoverable_by:
+  - 机会预判·五步法预判：选项池收敛为店型剧本 × 五步矩阵出口
+  - 机会预判
+  - 五步法预判
+  - 选项池收敛为店型剧本
+  - 五步矩阵出口
 related:
 - '[[framework-一堂-机会预判]]'
 - '[[tool-一堂-机会预判-案例预判]]'

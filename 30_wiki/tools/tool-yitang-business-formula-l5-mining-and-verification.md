@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-business-formula-l5-mining-and-verification
 title: L5 创新参数挖掘三方向 + 挖后必验因果（候选标注制）
 type: tool
@@ -22,6 +23,10 @@ source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1725-L1776
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1467-L1503
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1615-L1629
+discoverable_by:
+  - L5 创新参数挖掘三方向 + 挖后必验因果候选标注制
+  - 创新参数挖掘三方向
+  - 挖后必验因果候选标注制
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-parameter-iceberg]]'

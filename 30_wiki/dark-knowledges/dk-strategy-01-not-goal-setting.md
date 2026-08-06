@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-01-not-goal-setting
 title: 战略≠定目标。"三年100亿"不是战略，从现状到100亿的路径才是
 type: dk
@@ -18,6 +19,8 @@ aliases:
   - 战略≠定目标。三年100亿不是战略，从现状到100亿的路径才是
 source_refs:
 - src_unknown
+discoverable_by:
+  - 战略≠定目标。三年100亿不是战略，从现状到100亿的路径才
 related:
 - '[[dk-strategy-essence-four-elements]]'
 - '[[dk-strategy-08-not-local-optimum]]'

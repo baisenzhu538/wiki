@@ -1,4 +1,5 @@
 ---
+
 domain:
 - product
 id: yt-product-kernel-do-without-belief
@@ -24,6 +25,10 @@ updated_at: '2026-07-08'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 做而不信陷阱：执行了流程，但不相信结果
+  - 做而不信陷阱
+  - 执行了流程，但不相信结果
 related:
 - "[[yt-product-kernel-definition]]"
 - "[[yt-product-kernel-validation]]"

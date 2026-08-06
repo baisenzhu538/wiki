@@ -1,6 +1,10 @@
 ---
+
 id: tool-一堂-business-prediction-15-char
 title: "技能：商业预判15字诀"
+discoverable_by:
+  - 技能：商业预判15字诀
+  - 商业预判15字诀
 related:
 aliases:
   - audience:general

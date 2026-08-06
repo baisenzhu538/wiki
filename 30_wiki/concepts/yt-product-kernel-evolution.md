@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-evolution
 title: 内核演化：从V1到Vn
 type: concept
@@ -45,7 +43,6 @@ tags:
 - skill-level:advanced
 - 产品内核迭代课
 ---
-
 # 内核演化：从V1到Vn
 
 > 一堂五步法：产品内核不是静态的，需要随市场演化。演化有路径，不是随机跳跃。

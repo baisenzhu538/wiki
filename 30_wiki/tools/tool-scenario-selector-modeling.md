@@ -13,10 +13,11 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
+discoverable_by:
+  - 场景→工具选择器：根据需求快速匹配合适的建模工具
+  - 场景→工具选择器
+  - 根据需求快速匹配合适的建模工具
 quality_labels:
 - actionable
 - cited
@@ -62,7 +63,6 @@ diagnostic_signals:
 - 建模能力培训
 - 抽象建模
 ---
-
 # 场景→工具选择器：根据需求快速匹配合适的建模工具
 
 > **Burn line**: 先问“我要解决什么问题”，再问“哪个工具最合适”。

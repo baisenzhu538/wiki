@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-business-formula-parameter-arsenal
 title: 参数挖掘武器库：6 策略 → 22 动作 → 100+ 参数全量清单
 type: tool
@@ -29,6 +30,10 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2842-L3032
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3080-L3176
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L3232-L3298
+discoverable_by:
+  - 参数挖掘武器库：6 策略 → 22 动作 → 100+ 参数
+  - 参数挖掘武器库
+  - 参数全量清单
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[concept-yihang-dual-triangle-core]]'

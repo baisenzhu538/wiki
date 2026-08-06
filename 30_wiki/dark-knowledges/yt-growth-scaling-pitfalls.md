@@ -1,4 +1,5 @@
 ---
+
 domain:
 - growth
 id: yt-growth-scaling-pitfalls
@@ -20,6 +21,8 @@ updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - 增长规模化陷阱
 related:
 - '[[yt-growth-strategy-overview]]'
 - '[[yt-business-model-scalability]]'

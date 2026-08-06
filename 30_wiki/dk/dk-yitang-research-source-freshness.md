@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-yitang-research-source-freshness
 title: 信源时效性：AI/监管/融资数据≤30天
 type: dk
@@ -22,6 +23,10 @@ aliases:
   - 融资数据
 source_refs:
 - 00_inbox/调研专题/提升AI调研能力的10条关键假设_vlm_desc.md
+discoverable_by:
+  - 信源时效性：AI/监管/融资数据≤30天
+  - 信源时效性
+  - AI/监管/融资数据≤30天
 related:
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
@@ -29,7 +34,6 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
 updated_at: 2026-06-28
-
 ---
 
 # 信源时效性

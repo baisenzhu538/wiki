@@ -1,4 +1,5 @@
 ---
+
 id: tool-presentation-quality-gate-pipeline
 title: 演示产线双防线质量控制：四道机械闸门 + 七维独立终审
 type: tool
@@ -13,6 +14,11 @@ review_date: '2026-07-21'
 grade: B+
 created_at: '2026-07-21'
 updated_at: '2026-07-21'
+discoverable_by:
+  - 演示产线双防线质量控制：四道机械闸门 + 七维独立终审
+  - 演示产线双防线质量控制
+  - 四道机械闸门
+  - 七维独立终审
 quality_labels:
 - actionable
 diagnostic_signals:

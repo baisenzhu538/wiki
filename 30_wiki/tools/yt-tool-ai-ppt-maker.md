@@ -1,4 +1,5 @@
 ---
+
 domain:
 - design
 id: yt-tool-ai-ppt-maker
@@ -14,6 +15,10 @@ difficulty: foundational
 confidence: 0.78
 prerequisites: null
 component_of: null
+discoverable_by:
+  - AI对话式PPT生成器：把排版变成说话
+  - AI对话式PPT生成器
+  - 把排版变成说话
 related:
 - '[[yt-pitch-storytelling]]'
 - '[[yt-pitch-quantification]]'

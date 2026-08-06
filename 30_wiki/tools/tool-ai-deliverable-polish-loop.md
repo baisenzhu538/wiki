@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-deliverable-polish-loop
 title: AI 交付物打磨循环：从模糊需求到 60 分可用版本
 type: tool
@@ -27,6 +28,11 @@ source_refs:
 - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-笔记.txt
 - 00_inbox/yitang-AI club/live81/AI赋能商标设计体系重构 — Live81逐字稿 副本.md
 - 60_feedback/diagnosis/diag_20260702_live81-ai-trademark-design.md
+discoverable_by:
+  - AI 交付物打磨循环：从模糊需求到 60 分可用版本
+  - 交付物打磨循环
+  - 从模糊需求到
+  - 分可用版本
 related:
 - '[[case-live81-ai-trademark-design]]'
 - '[[case-bmw-human-ai-collaboration-idle-time]]'

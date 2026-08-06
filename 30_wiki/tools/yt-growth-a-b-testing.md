@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-growth-a-b-testing
 title: A/B测试：增长实验的统计基础
 type: tool
@@ -20,6 +19,9 @@ updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-20'
+discoverable_by:
+  - A/B测试：增长实验的统计基础
+  - 增长实验的统计基础
 related:
 - '[[tool-泛产品落地-低成本测试MVP]]'
 - '[[tool-月白-模型识别与边界测试法]]'
@@ -43,7 +45,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # A/B测试：增长实验的统计基础
 
 > 一堂五步法：A/B测试不是简单的对比，而是统计实验。样本量、显著性、置信区间，缺一不可。

@@ -1,4 +1,5 @@
 ---
+
 id: tool-osint-wayback
 title: Wayback Machine：网站时光机——看竞对的每一个历史版本
 type: tool
@@ -22,6 +23,10 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - Wayback Machine：网站时光机——看竞对的每一个
+  - 网站时光机
+  - 看竞对的每一个历史版本
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

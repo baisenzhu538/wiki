@@ -1,4 +1,5 @@
 ---
+
 id: dk-yihang-dual-triangle-commitment-confidence
 title: 双三角让团队敢承诺——画布一画就知道能交付什么
 type: dk
@@ -21,6 +22,10 @@ aliases:
   - 角让团队敢承诺
 source_refs:
 - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+discoverable_by:
+  - 双三角让团队敢承诺——画布一画就知道能交付什么
+  - 双三角让团队敢承诺
+  - 画布一画就知道能交付什么
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-yihang-dual-triangle-canvas]]'

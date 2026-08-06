@@ -1,4 +1,5 @@
 ---
+
 id: tool-prompt-iceberg-demand-analysis
 title: 冰山图 L1-L6 需求深挖——多层引导提示词模板
 type: prompt-template
@@ -22,6 +23,11 @@ created_at: '2026-06-21'
 updated_at: '2026-06-29'
 author: 黄药师（从程诚同学提示词提取）
 reviewed_by: 欧阳锋
+discoverable_by:
+  - 冰山图 L1-L6 需求深挖——多层引导提示词模板
+  - 冰山图
+  - 需求深挖
+  - 多层引导提示词模板
 related:
 - '[[yitang-domain-digest]]'
 - yt-business-formula-parameter-iceberg

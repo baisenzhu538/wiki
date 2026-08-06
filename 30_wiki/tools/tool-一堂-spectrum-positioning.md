@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-spectrum-positioning
 title: 技能：光谱模型定位法
 type: tool
@@ -10,6 +11,9 @@ language: zh-CN
 domain: yitang
 confidence: 0.75
 trust_level: medium
+discoverable_by:
+  - 技能：光谱模型定位法
+  - 光谱模型定位法
 related:
 aliases:
   - audience:executor

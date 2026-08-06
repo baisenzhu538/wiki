@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-business-formula-a-missing-syndrome
 title: A 缺失的并发症：没有锚定目标的公式无法排优先级
 type: dk
@@ -20,6 +21,10 @@ source_refs:
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1257-L1285
 - 00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1575-L1661
 - 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-ABC模型图-ocr.md
+discoverable_by:
+  - A 缺失的并发症：没有锚定目标的公式无法排优先级
+  - 缺失的并发症
+  - 没有锚定目标的公式无法排优先级
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[yt-business-formula-abc-model]]'

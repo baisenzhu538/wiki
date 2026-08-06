@@ -5,8 +5,7 @@ component_of:
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 1167
 language: zh-CN
 prerequisites:
@@ -62,7 +61,6 @@ tags:
 - 用户卡片
 - 需求挖掘
 ---
-
 # 需求挖掘：理解背后的深层原因
 
 > 需求工具箱基础卡牌。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

@@ -1,4 +1,5 @@
 ---
+
 id: tool-泛产品落地-灵感闪现
 title: 落地卡片：灵感闪现
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 落地卡片
   - 落地卡片：灵感闪现
 source_refs:
+discoverable_by:
+  - 落地卡片：灵感闪现
+  - 落地卡片
+  - 灵感闪现
 related:
 updated_at: '2026-06-29'
 ---

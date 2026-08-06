@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb10-theory-moat-designer
 title: AI时代设计师的理论护城河
 type: dk
@@ -17,6 +18,8 @@ source_refs:
 - src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - AI时代设计师的理论护城河
 related:
 - '[[dk-yb6-midjourney-chinese-text-fix]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'

@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-开源模型与商业模型融合方案
 title: 技能：开源模型与商业模型融合方案
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

@@ -1,6 +1,5 @@
 ---
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-product-kernel-ten-metrics
 title: 产品内核十大典型指标：从假设到验证的数据体系
 type: tool
@@ -22,6 +21,10 @@ updated_at: '2026-07-08'
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-06-19'
+discoverable_by:
+  - 产品内核十大典型指标：从假设到验证的数据体系
+  - 产品内核十大典型指标
+  - 从假设到验证的数据体系
 related:
 - '[[tool-设定管理杠杆率指标评估效率]]'
 - '[[pending_unknown]]'
@@ -44,7 +47,6 @@ tags:
 - 一堂五步法
 - 一堂产品内核十大典型指标
 ---
-
 # 产品内核十大典型指标：从假设到验证的数据体系
 
 > 一堂五步法：产品内核必须有指标验证，不是"感觉好"，而是"数据好"。

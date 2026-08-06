@@ -1,4 +1,5 @@
 ---
+
 id: tool-osint-maltego
 title: Maltego：实体关系图谱——画出目标公司的隐藏网络
 type: tool
@@ -22,6 +23,10 @@ aliases:
 source_refs:
 - src_unknown
 - src_unknown
+discoverable_by:
+  - Maltego：实体关系图谱——画出目标公司的隐藏网络
+  - 实体关系图谱
+  - 画出目标公司的隐藏网络
 related:
 - '[[yitang-domain-digest]]'
 - '[[yitang-research-domain-digest]]'

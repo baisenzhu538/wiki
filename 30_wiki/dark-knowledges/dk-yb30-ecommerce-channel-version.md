@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb30-ecommerce-channel-version
 title: 电商渠道专版区分：淘宝≠拼多多
 type: dk
@@ -19,6 +20,10 @@ source_refs:
 - 10_raw/sources/src_20260619_82fb121b_00_inbox_design_AI设计_AI设计基础01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - 电商渠道专版区分：淘宝≠拼多多
+  - 电商渠道专版区分
+  - 淘宝≠拼多多
 related:
 - '[[dk-yb19-visual-strategy-price-match]]'
 - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'

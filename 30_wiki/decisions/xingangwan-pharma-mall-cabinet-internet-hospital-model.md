@@ -5,10 +5,10 @@ type: decision
 status: proposed
 decision_date: '2026-06-18'
 domain:
-- healthcare- healthcare
-- pharmaceutical-retail
-- compliance
-- business-strategy
+  - healthcare
+  - pharmaceutical-retail
+  - compliance
+  - business-strategy
 source_refs:
 - src_unknown
 - src_unknown

@@ -1,10 +1,8 @@
 ---
-
 id: yt-tool-foresight-canvas
 title: 预判画布：从加法到减法的标准化工作台
 type: tool
-domain:
-- src_unknown
+domain: src-unknown
 aliases:
   - 从加法到减法的标准化工作台
   - 法到减法的标准化工作台
@@ -63,7 +61,6 @@ tags:
 - 咖啡店案例
 - 咖啡案例
 ---
-
 # 预判画布：从加法到减法的标准化工作台
 
 ## 用途

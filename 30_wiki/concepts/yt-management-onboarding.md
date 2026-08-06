@@ -1,13 +1,7 @@
 ---
-
 title: 新人落地
 type: concept
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 pipeline:
 - src_unknown
@@ -41,7 +35,6 @@ tags:
 - scene:reference
 - skill-level:intermediate
 ---
-
 # 新人落地
 
 > 来源：一堂管理必修课「管团队」模块，《新人落地：新人Landing必修课》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

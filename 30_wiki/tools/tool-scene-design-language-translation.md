@@ -1,4 +1,5 @@
 ---
+
 id: tool-scene-design-language-translation
 title: 场景设计语言转译：把场景需求变成可执行设计约束
 type: tool
@@ -26,6 +27,10 @@ source_refs:
 - 00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-笔记.txt
 - 00_inbox/yitang-AI club/live81/AI赋能商标设计体系重构 — Live81逐字稿 副本.md
 - 60_feedback/diagnosis/diag_20260702_live81-ai-trademark-design.md
+discoverable_by:
+  - 场景设计语言转译：把场景需求变成可执行设计约束
+  - 场景设计语言转译
+  - 把场景需求变成可执行设计约束
 related:
 - '[[case-live81-ai-trademark-design]]'
 - '[[tool-ai-deliverable-polish-loop]]'

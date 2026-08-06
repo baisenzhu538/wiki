@@ -1,4 +1,5 @@
 ---
+
 id: tool-demand-agent-auto-verify
 title: Agent L6自动预验证：RAT的竞品数据+趋势快速验证
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 自动预验证
   - 趋势快速验证
 source_refs: null
+discoverable_by:
+  - Agent L6自动预验证：RAT的竞品数据+趋势快速验证
+  - L6自动预验证
+  - RAT的竞品数据+趋势快速验证
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂五步法-段位升级三部曲
 title: 段位升级三部曲自检：从会用到出神入化
 type: tool
@@ -20,6 +21,10 @@ aliases:
   - 段位升级三部曲自检：从会用到出神入化
 source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-段位升级三部曲_paddle_ocr.txt
+discoverable_by:
+  - 段位升级三部曲自检：从会用到出神入化
+  - 段位升级三部曲自检
+  - 从会用到出神入化
 related:
 - '[[framework-一堂五步法]]'
 - '[[framework-一堂五步法-单元模型]]'

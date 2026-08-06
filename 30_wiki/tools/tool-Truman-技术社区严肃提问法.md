@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-技术社区严肃提问法
 title: 技能：技术社区严肃提问法
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

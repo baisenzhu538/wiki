@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-definition
 title: 商业模式定义：从内核到变现
 type: concept
@@ -50,7 +48,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 商业模式定义：从内核到变现
 
 > 一堂五步法：商业模式是产品内核的变现路径。内核是价值，商业模式是让用户为这个价值付费的方式。

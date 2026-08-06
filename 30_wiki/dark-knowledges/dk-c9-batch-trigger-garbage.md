@@ -1,4 +1,5 @@
 ---
+
 id: dk-c9-batch-trigger-garbage
 title: C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
 type: dk
@@ -19,6 +20,11 @@ source_refs:
 - src_unknown
 created_at: 2026-05-31
 updated_at: '2026-06-18'
+discoverable_by:
+  - C-9：批处理脚本提取 query_triggers→格式合
+  - 批处理脚本提取
+  - query_triggers→格式合法但语义垃圾，真
+  - 被淹没
 related:
 - '[[framework-ci-operating-model]]'
 - '[[tool-ci-implement-phase]]'

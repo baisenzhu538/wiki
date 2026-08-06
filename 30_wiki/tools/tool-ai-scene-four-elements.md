@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-scene-four-elements
 title: 技能：AI落地场景四要素评估法
 type: tool
@@ -21,6 +22,9 @@ wiki_refs: null
 definition_of_done: null
 tools_required: null
 prerequisite_skills: null
+discoverable_by:
+  - 技能：AI落地场景四要素评估法
+  - AI落地场景四要素评估法
 related:
 created_at: 2026-06-11
 updated_at: 2026-07-02

@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-business-summary
 title: 业务设计总结：战略蓝图输出+关键任务卡片
 type: tool
@@ -7,6 +8,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
+discoverable_by:
+  - 业务设计总结：战略蓝图输出+关键任务卡片
+  - 业务设计总结
+  - 战略蓝图输出+关键任务卡片
 quality_labels:
 - actionable
 - cited

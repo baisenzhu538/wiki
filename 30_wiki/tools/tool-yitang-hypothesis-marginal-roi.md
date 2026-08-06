@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-hypothesis-marginal-roi
 title: 工具：测试三难题 + 边际 ROI 决策框架
 type: tool
@@ -22,6 +23,10 @@ aliases:
   - 边际
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-管理篇-口述.txt L2960-L3076
+discoverable_by:
+  - 工具：测试三难题 + 边际 ROI 决策框架
+  - 测试三难题
+  - 决策框架
 related:
 - '[[framework-一堂-业务公式拆解-总纲]]'
 - '[[framework-一堂-关键假设]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb16-ecommerce-product-image-vs-lucky-draw
 title: AI电商产品图：抽卡图≠产品图，白底图才是交付标准
 type: dk
@@ -21,6 +22,10 @@ source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - AI电商产品图：抽卡图≠产品图，白底图才是交付标准
+  - AI电商产品图
+  - 抽卡图≠产品图，白底图才是交付标准
 related:
 - '[[tool-月白-跨境电商产品图替换法]]'
 - '[[pending_unknown]]'

@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-阻力挖掘方式
 title: 一堂阻力挖掘方式：把阻力当关键假设来定位
 type: tool
@@ -19,6 +20,10 @@ aliases:
   - 把阻力当关键假设来定位
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L712-L800
+discoverable_by:
+  - 一堂阻力挖掘方式：把阻力当关键假设来定位
+  - 一堂阻力挖掘方式
+  - 把阻力当关键假设来定位
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-12种阻力总表]]'

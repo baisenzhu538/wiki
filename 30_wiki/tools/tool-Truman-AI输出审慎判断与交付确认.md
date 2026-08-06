@@ -1,11 +1,10 @@
 ---
-
 id: tool-Truman-AI输出审慎判断与交付确认
 title: 技能：AI输出审慎判断与交付确认
 type: tool
 domain:
-- ai-collaboration
-- yitang- yitang
+  - ai-collaboration
+  - yitang
 status: draft
 author: 老顽童
 reviewed_by: pending

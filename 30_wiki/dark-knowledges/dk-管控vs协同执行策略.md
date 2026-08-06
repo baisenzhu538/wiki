@@ -1,4 +1,5 @@
 ---
+
 id: dk-管控vs协同执行策略
 title: 管控 vs 协同：目标执行的二元选择框架
 type: dk
@@ -12,6 +13,9 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 管控 vs 协同：目标执行的二元选择框架
+  - 目标执行的二元选择框架
 quality_labels:
 - insight
 - actionable

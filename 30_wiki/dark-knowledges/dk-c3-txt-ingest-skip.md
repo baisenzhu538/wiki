@@ -1,4 +1,5 @@
 ---
+
 id: dk-c3-txt-ingest-skip
 title: C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功
 type: dk
@@ -17,6 +18,11 @@ source_refs:
 - 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md
 created_at: 2026-05-31
 updated_at: '2026-06-16'
+discoverable_by:
+  - C-3：.txt 文件被 kdo ingest 静默跳过→s
+  - 文件被
+  - 静默跳过→state.json
+  - 无变化但返回成功
 related:
 - '[[kdo-input-channel-strategy-2026-06-16]]'
 - '[[kdo-protocol]]'

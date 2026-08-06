@@ -1,13 +1,12 @@
 ---
-
 id: yt-business-formula-l6-essence-formulas
 title: 业务公式 L6 魔法参数：跨行业本质公式集锦
 type: concept
 status: enriched
 domain:
-- yitang- yitang
-- master
-- business-strategy
+  - yitang
+  - master
+  - business-strategy
 aliases:
   - 业务公式
   - 业务公式L6魔法参数：跨行业本质公式集锦

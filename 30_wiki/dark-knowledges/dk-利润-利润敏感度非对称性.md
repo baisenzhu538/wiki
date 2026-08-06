@@ -1,4 +1,5 @@
 ---
+
 id: dk-利润-利润敏感度非对称性
 title: 利润敏感度的非对称性：为什么老板对降价不敏感但对现金流极度敏感
 type: dk
@@ -12,6 +13,10 @@ reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
+discoverable_by:
+  - 利润敏感度的非对称性：为什么老板对降价不敏感但对现金流极度敏
+  - 利润敏感度的非对称性
+  - 为什么老板对降价不敏感但对现金流极度敏感
 quality_labels:
 - insight
 aliases:

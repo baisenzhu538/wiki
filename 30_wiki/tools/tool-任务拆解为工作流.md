@@ -3,9 +3,10 @@ id: tool-任务拆解为工作流
 title: 技能：任务拆解为工作流
 type: tool
 domain:
-- entrepreneurship- management
-- design
-- yitang
+  - entrepreneurship
+  - management
+  - design
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
@@ -29,6 +30,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+discoverable_by:
+  - 技能：任务拆解为工作流
+  - 任务拆解为工作流
 related:
 - '[[tool-反向提示获取优化建议]]'
 - '[[tool-多轮确认防偏差]]'
@@ -43,7 +47,6 @@ tags:
 - skill-level:beginner
 - 自用的
 ---
-
 # 技能：任务拆解为工作流
 
 ## 原始表述

@@ -1,4 +1,5 @@
 ---
+
 id: tool-strategy-value-capture
 title: 价值获取设计工具：8 问盈利模型
 type: tool
@@ -18,6 +19,10 @@ aliases:
   - 获取设计工具
   - 问盈利模型
 source_refs:
+discoverable_by:
+  - 价值获取设计工具：8 问盈利模型
+  - 价值获取设计工具
+  - 问盈利模型
 quality_labels:
 created_at: '2026-06-22'
 updated_at: '2026-06-29'

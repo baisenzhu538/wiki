@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-timely-review-session-window
 title: 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
 type: dk
@@ -21,6 +22,11 @@ source_refs:
 - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 created_at: '2026-06-14'
 updated_at: '2026-06-18'
+discoverable_by:
+  - 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 ses
+  - 离开业务现场再复盘，质量会掉一大半
+  - 及时复盘必须卡在
+  - 窗口内
 related:
 - '[[dk-note-maximum-common-divisor]]'
 - '[[yitang-domain-digest]]'

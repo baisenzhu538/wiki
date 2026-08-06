@@ -1,4 +1,5 @@
 ---
+
 id: tool-yitang-dual-triangle-domain-registry
 title: 双三角域注册与扩展协议
 type: tool
@@ -17,6 +18,8 @@ source_refs:
 aliases:
   - 双三角域注册与扩展协议
   - 角域注册与扩展协议
+discoverable_by:
+  - 双三角域注册与扩展协议
 related:
 - '[[agent-spec-yitang-dual-triangle-cross-domain-diagnostician]]'
 - '[[tool-yitang-dual-triangle-scenario-router]]'

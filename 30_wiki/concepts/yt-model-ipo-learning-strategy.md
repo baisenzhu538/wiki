@@ -1,11 +1,9 @@
 ---
-
 id: yt-model-ipo-learning-strategy
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
-domain:
-- src_unknown
+domain: src-unknown
 estimated_tokens: 2214
 language: zh-CN
 query_triggers:
@@ -63,7 +61,6 @@ tags:
 - 个人修炼
 - 科学学习
 ---
-
 # IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)
 
 > 来源：一堂《科学学习 IPO·全景策略图》第二版。[[一堂]] | [[yt-personal-ipo-learning]] | [[yt-personal-deep-review]]

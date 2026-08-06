@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb1-aigc-mvp-before-ps
 title: 设计师AIGC工作流：先跑MVP再开PS
 type: dk
@@ -18,6 +19,10 @@ aliases:
 source_refs: null
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - 设计师AIGC工作流：先跑MVP再开PS
+  - 设计师AIGC工作流
+  - 先跑MVP再开PS
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'

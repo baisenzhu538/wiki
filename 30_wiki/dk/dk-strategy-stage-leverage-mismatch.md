@@ -1,5 +1,6 @@
 ---
 
+
 id: dk-strategy-stage-leverage-mismatch
 title: 战略阶段与杠杆错配
 type: dk
@@ -15,6 +16,8 @@ aliases:
   - 阶段与杠杆错配
 source_refs:
 - 60_feedback/audit/synthesis_strategy.md
+discoverable_by:
+  - 战略阶段与杠杆错配
 related:
   - "[[case-strategy-failure-02-supermarket]]"
   - "[[case-lean-premature-expansion]]"

@@ -4,9 +4,8 @@ title: 技能：判断课程是否值得做成Skill
 type: tool
 status: reviewed
 domain:
-- ai-collaboration
-- yitang- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 aliases:
@@ -20,6 +19,9 @@ source_refs:
 - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required: null
 prerequisite_skills: []
+discoverable_by:
+  - 技能：判断课程是否值得做成Skill
+  - 判断课程是否值得做成Skill
 related:
 - '[[tool-半肥猫-课程Skill化的八步工作流]]'
 - '[[tool-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]'
@@ -45,7 +47,6 @@ tags:
 - 半肥猫
 - 学习落地
 ---
-
 # 技能：判断课程是否值得做成Skill
 
 ## 用一句话讲清楚

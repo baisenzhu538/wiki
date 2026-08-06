@@ -1,4 +1,5 @@
 ---
+
 id: dk-yitang-project-overmanagement-vs-bare-run
 title: 过度管理 vs 裸跑的平衡暗知识：匹配工具复杂度与项目复杂度
 type: dk
@@ -25,6 +26,11 @@ aliases:
 source_refs:
 - 00_inbox/管项目/项目管理-入门篇-口述.txt
 - 00_inbox/管项目/项目管理-定方案-口述.txt
+discoverable_by:
+  - 过度管理 vs 裸跑的平衡暗知识：匹配工具复杂度与项目复杂度
+  - 过度管理
+  - 裸跑的平衡暗知识
+  - 匹配工具复杂度与项目复杂度
 related:
 - "[[framework-yitang-project-abcd-classification]]"
 - "[[framework-yitang-project-plan-design]]"

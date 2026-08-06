@@ -2,7 +2,9 @@
 id: tool-李诞-内容创作中的观察训练法
 title: 技能：内容创作中的观察训练法
 type: tool
-domain: content-production- design
+domain:
+  - content-production
+  - design
 status: draft
 author: unknown
 reviewed_by: pending
@@ -19,6 +21,9 @@ aliases:
 source_refs:
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
+discoverable_by:
+  - 技能：内容创作中的观察训练法
+  - 内容创作中的观察训练法
 related:
 tags:
 ---

@@ -3,10 +3,7 @@ id: yt-lean-assumption-prioritization
 title: 关键假设排序：前置优先、风险高的优先
 type: framework
 status: draft
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 aliases:
   - 假设排序
   - 关键假设排序
@@ -54,8 +51,6 @@ discoverable_by:
 - 风险假设优先
 - 假设矩阵
 ---
-
-
 # 关键假设排序：前置优先、风险高的优先
 
 > "前置假设优先，风险高的假设优先。越在需求侧、越在产品侧的假设，风险越高；越往后，风险越低。早期要尽早判断前面的假设，前面的验证完了之后再去验证后面的，是一个前后关系。"  

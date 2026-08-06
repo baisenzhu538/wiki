@@ -1,4 +1,5 @@
 ---
+
 id: tool-一堂-五大转化率范式
 title: 一堂五大转化率范式：从一句话到发布会的信息容量与复杂度分层
 type: tool
@@ -19,6 +20,10 @@ aliases:
   - 从一句话到发布会的信息容量与复杂度分层
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L1334-L1712
+discoverable_by:
+  - 一堂五大转化率范式：从一句话到发布会的信息容量与复杂度分层
+  - 一堂五大转化率范式
+  - 从一句话到发布会的信息容量与复杂度分层
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-转化率黑客爬山地图]]'

@@ -1,4 +1,5 @@
 ---
+
 id: dk-yb4-nano-banana-style-reproduction
 title: Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o
 type: dk
@@ -17,6 +18,9 @@ source_refs:
 - src_unknown
 created_at: 2026-06-04
 updated_at: '2026-06-19'
+discoverable_by:
+  - Nano Banana 在特定艺术风格稳定复现上优于 GPT
+  - 在特定艺术风格稳定复现上优于
 related:
 - '[[tool-月白-AI模型选择策略]]'
 - '[[tool-月白-PPT全AI生成工作流]]'

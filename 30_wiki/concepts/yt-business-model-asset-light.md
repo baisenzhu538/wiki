@@ -1,7 +1,5 @@
 ---
-
-domain:
-- src_unknown
+domain: src-unknown
 id: yt-business-model-asset-light
 title: 轻资产模式：资源杠杆
 type: concept
@@ -48,7 +46,6 @@ tags:
 - 产品内核实操课
 - 产品内核验证课
 ---
-
 # 轻资产模式：资源杠杆
 
 > 一堂五步法：轻资产模式不是不投入，而是用别人的资产做自己的事。核心竞争力不在资产，而在品牌、技术、运营。

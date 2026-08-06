@@ -1,14 +1,8 @@
 ---
-
 id: find-old-do-small
 title: 找老的干小的：AI落地场景评估框架
 type: tool
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
 status: reviewed
 aliases:
   - AI落地场景评估框架
@@ -58,7 +52,6 @@ tags:
 - skill-level:intermediate
 - 的核心问题
 ---
-
 # "找老的干小的"场景评估框架
 
 > Source: src_20260606_ef4877d0 (马易-AI落地场景识别-口述)

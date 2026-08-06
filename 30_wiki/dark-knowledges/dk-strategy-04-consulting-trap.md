@@ -1,4 +1,5 @@
 ---
+
 id: dk-strategy-04-consulting-trap
 title: 战略咨询陷阱：告诉已知信息+方案脱离实际+缺逻辑闭环
 type: dk
@@ -18,6 +19,10 @@ aliases:
   - 方案脱离实际
 source_refs:
 - src_unknown
+discoverable_by:
+  - 战略咨询陷阱：告诉已知信息+方案脱离实际+缺逻辑闭环
+  - 战略咨询陷阱
+  - 告诉已知信息+方案脱离实际+缺逻辑闭环
 related:
 - '[[dk-strategy-consulting-jokes]]'
 - '[[dk-strategy-longzhong-four-failures]]'

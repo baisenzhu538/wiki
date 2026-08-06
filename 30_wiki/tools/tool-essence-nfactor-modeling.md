@@ -13,10 +13,11 @@ source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 status: reviewed
-domain:
-- src_unknown
-- src_unknown
-- src_unknown
+domain: src-unknown
+discoverable_by:
+  - 本质/N要素建模法：提炼不可再约的核心变量
+  - 本质/N要素建模法
+  - 提炼不可再约的核心变量
 quality_labels:
 - actionable
 - cited
@@ -58,7 +59,6 @@ diagnostic_signals:
 - 建模能力培训
 - 抽象建模
 ---
-
 # 本质/N要素建模法：提炼不可再约的核心变量
 
 > **Burn line**: 本质不是“最抽象的词”，而是“去掉它，整个事情就不成立的那个东西”。

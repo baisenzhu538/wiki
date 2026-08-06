@@ -1,4 +1,5 @@
 ---
+
 id: tool-完整财务公式决策
 title: 完整财务公式：商业模式决策的L1-L6认知分级
 type: tool
@@ -18,6 +19,11 @@ aliases:
   - 完整财务公式：商业模式决策的L1L6认知分级
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-商业模式-完整财务公式决策_vlm_desc.md
+discoverable_by:
+  - 完整财务公式：商业模式决策的L1-L6认知分级
+  - 完整财务公式
+  - 商业模式决策的L1
+  - L6认知分级
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

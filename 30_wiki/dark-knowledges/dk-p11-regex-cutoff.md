@@ -1,4 +1,5 @@
 ---
+
 id: dk-p11-regex-cutoff
 title: P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
 type: dk
@@ -17,6 +18,10 @@ source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-18'
+discoverable_by:
+  - P-11：validator `section_conten
+  - 处截断
+  - 所有文章
 related:
 - '[[ai-short-drama-ice-fire-dissection-compass]]'
 - '[[writing-content]]'

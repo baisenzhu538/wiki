@@ -1,11 +1,9 @@
 ---
-
 id: yt-model-cognitive-upgrade-framework
 confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
-domain:
-- src_unknown
+domain: src-unknown
 language: zh-CN
 query_triggers:
 - src_unknown
@@ -59,7 +57,6 @@ tags:
 - scene:diagnosis
 - skill-level:intermediate
 ---
-
 # 认知升级十步框架：从「读书」到「安装认知补丁」
 
 > 来源：「认知升级系统 v3.2」的底层方法论，经 AI 思维卡（《人工智能：一种现代方法》深度阅读产出）逆向萃取。
