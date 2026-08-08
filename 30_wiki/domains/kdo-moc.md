@@ -94,7 +94,8 @@ KDO 主题域 MOC（本卡）
 │   ├── dk-infrastructure-guardrails          ← 基础设施护栏 > 检查清单
 │   ├── dk-tool-chain-naming-is-infrastructure ← 工具命名就是基础设施
 │   ├── dk-state-residue-is-the-silent-killer ← 状态残留是隐形杀手
-│   └── dk-kdo-leaky-pipe-pressure            ← 管道漏水：堵了就硬塞
+│   ├── dk-kdo-leaky-pipe-pressure            ← 管道漏水：堵了就硬塞
+│   └── dk-agent-access-kdo-pitfalls          ← 外部Agent接入三连坑：审批门禁/cwd格式/检索规则过时
 │
 ├── 工具与流程层
 │   ├── tool-mcp-reachability-check           ← 可发现性自查

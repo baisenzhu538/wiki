@@ -1,0 +1,122 @@
+{
+  "_doc": "KDO Feature Registry — 原子化最小技术单位。每个 Feature 可独立测试、独立组合。灵感来源：Truman Feature思维（口述 L1402-1450）",
+  "features": {
+    "F1_UPDATED_AT": {
+      "id": "F1_UPDATED_AT",
+      "name": "updated_at 必填检查",
+      "category": "lint",
+      "description": "每张卡必须有 updated_at 字段——欧阳锋审查时判断卡是否过时的唯一依据",
+      "test": "缺 updated_at 的卡 → kdo lint → ERROR",
+      "source": "kdo_lint.py:validate_file",
+      "status": "active"
+    },
+    "F2_BACKLINK": {
+      "id": "F2_BACKLINK",
+      "name": "双向链接完整性",
+      "category": "lint",
+      "description": "A 引用了 B → B 必须回链 A。断链和缺回链都会被检测",
+      "test": "A→B 但 B 不回链 → ERROR",
+      "source": "kdo_lint.py:lint",
+      "status": "active"
+    },
+    "F3_DUPLICATE_ID": {
+      "id": "F3_DUPLICATE_ID",
+      "name": "重复卡片ID检测",
+      "category": "lint",
+      "description": "同 id 出现在多个文件 → 可能是旧副本或误复制",
+      "test": "同 id 两个文件 → DUPLICATE ID ERROR",
+      "source": "kdo_lint.py:lint",
+      "status": "active"
+    },
+    "F4_MOC_DEADLINK": {
+      "id": "F4_MOC_DEADLINK",
+      "name": "MOC 导航卡死链检测",
+      "category": "lint",
+      "description": "MOC/index/digest 卡 related 死链 > 0 → ERROR。导航卡死链 = 导航失效",
+      "test": "MOC 卡指向不存在的卡 → F4 ERROR 阻断",
+      "source": "kdo_lint.py:lint",
+      "status": "active"
+    },
+    "DK_7_SECTIONS": {
+      "id": "DK_7_SECTIONS",
+      "name": "dk 七段完整性",
+      "category": "lint",
+      "description": "dk 卡必须包含七段：原始表述/使用场景/操作方法/适用边界/为什么值钱/与其他知识的关联/Critique",
+      "test": "缺 Critique 的 dk 卡 → DK_SECTION MISSING ERROR",
+      "source": "kdo_lint.py:check_dk_sections",
+      "status": "active"
+    },
+    "SEC_TYPO": {
+      "id": "SEC_TYPO",
+      "name": "section 名拼写白名单",
+      "category": "lint",
+      "description": "已知错误拼写（Critque→Critique, Failure Modes→失败模式）→ 报错提示正确拼写",
+      "test": "## Critque → SECTION TYPO ERROR",
+      "source": "kdo_lint.py:check_section_spelling",
+      "status": "active"
+    },
+    "R6_SEARCH": {
+      "id": "R6_SEARCH",
+      "name": "搜索可达性检查",
+      "category": "lint",
+      "description": "title 空 → SEARCH BLOCK ERROR；缺中文 aliases → WARN；缺 audience/scene 标签 → WARN",
+      "test": "空 title 的卡 → R6 SEARCH BLOCK ERROR",
+      "source": "kdo_lint.py:validate_file",
+      "status": "active"
+    },
+    "DUP_KEY": {
+      "id": "DUP_KEY",
+      "name": "frontmatter 重复键检测",
+      "category": "lint",
+      "description": "6 个关键字段（aliases/tags/related/diagnostic_signals/discoverable_by/source_refs）同键 ≥2 次 → ERROR。#222/#223 事故根因模式的终极防线",
+      "test": "双 aliases 块 → DUPLICATE KEY ERROR",
+      "source": "kdo_lint.py:validate_file",
+      "status": "active"
+    },
+    "REVIEW_MARK": {
+      "id": "REVIEW_MARK",
+      "name": "终审标记 CLI",
+      "category": "cli",
+      "description": "欧阳锋审查通过后对卡片打 reviewed 标记——更新 status/reviewed_by/review_date/confidence",
+      "test": "python review_mark.py card.md --reviewer 欧阳锋 --dry-run → 预览变更",
+      "source": "90_control/scripts/review_mark.py",
+      "status": "active"
+    },
+    "REACH_CHECK": {
+      "id": "REACH_CHECK",
+      "name": "MCP 可发现性自查",
+      "category": "cli",
+      "description": "新卡提交前用真实搜索关键词验证外部 Agent（小昭/Codex）能否搜到——补 pre-submit 的搜索盲区",
+      "test": "python mcp-reachability-check.py card.md --keywords '关键词' → 命中/失败",
+      "source": "kdo-tools/mcp-reachability-check.py",
+      "status": "active"
+    },
+    "HINT_MAP": {
+      "id": "HINT_MAP",
+      "name": "lint 错误场景化提示",
+      "category": "ux",
+      "description": "每条 lint 错误追加场景化修复提示——从编译器风格升级为教练风格",
+      "test": "DK_SECTION MISSING 错误输出包含 '补上缺失的标准段后再提交'",
+      "source": "kdo_lint.py:ERROR_HINT_MAP",
+      "status": "active"
+    },
+    "CARD_CHECKLIST": {
+      "id": "CARD_CHECKLIST",
+      "name": "卡片复审自检",
+      "category": "cli",
+      "description": "提交欧阳锋审查前逐项打勾——YAML/TITLE/TYPE/DS/RELATED/RELATED_DEAD/POSITION/REVIEW_DATE/类型段",
+      "test": "python card_review_checklist.py card.md → 全 PASS 才提报",
+      "source": "90_control/scripts/card_review_checklist.py",
+      "status": "active"
+    },
+    "FEATURE_MENU": {
+      "id": "FEATURE_MENU",
+      "name": "Feature 点菜工具",
+      "category": "cli",
+      "description": "从周期表 100 个 AI 基本功 Feature 中按 layer/dimension/scenario 过滤点菜——消费端协议技术底座",
+      "test": "python kdo-tools/feature_menu.py pick --n 3 → 随机点菜 3 个 Feature",
+      "source": "kdo-tools/feature_menu.py",
+      "status": "active"
+    }
+  }
+}

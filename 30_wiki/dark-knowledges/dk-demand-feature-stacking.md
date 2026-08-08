@@ -28,6 +28,11 @@ discoverable_by:
   - 功能堆叠陷阱
   - 加功能≠满足需求
 related:
+  - '[[yt-ai-startup-20-risky-hypotheses]]'
+  - '[[yt-five-step-method]]'
+  - '[[framework-truman-feature-thinking-core]]'
+  - '[[framework-truman-feature-layered-system]]'
+  - '[[concept-truman-feature-four-scenarios]]'
 - '[[yt-demand-fake-demand-detection]]'
 - '[[dk-demand-premature-solution]]'
 - '[[dk-demand-switching-cost]]'

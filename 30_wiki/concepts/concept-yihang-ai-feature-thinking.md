@@ -29,6 +29,9 @@ discoverable_by:
   - 基本功的
   - 把工具拆成最小可操作技术特?
 related:
+  - '[[framework-truman-feature-thinking-core]]'
+  - '[[framework-truman-feature-layered-system]]'
+  - '[[concept-truman-feature-four-scenarios]]'
 - "[[concept-yihang-dual-triangle-core]]"
 - "[[tool-Truman-Feature特性层训练法]]"
 - "[[tool-Truman-AI能力分层学习路径]]"

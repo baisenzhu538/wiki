@@ -1435,6 +1435,8 @@ _Last updated: 2026-08-02T17:42:19+00:00_
 - [[frameworks/framework-yitang-project-plan-design|项目定方案：背景-目标-关键路径三段论]] — source `00_inbox/管项目/项目管理-定方案-口述.txt`
 - [[frameworks/framework-yitang-project-retrospective|项目复盘：美团16字原则——从经验中挖金矿]] — source `00_inbox/管项目/项目管理-做复盘-口述.txt`
 - [[frameworks/framework-yitang-research-quality-gate|调研质量自检框架：六维门禁——判断调研是否"足够好"]] — source `30_wiki/domains/yitang-research-domain-digest.md`
+
+- [[domains/ai-basic-domain-digest|域摘要：ai-basic（AI基本功）]] — source `src_unknown`
 - [[frameworks/framework-yitang-research-radar|调研雷达图：四象限能力诊断与六种缺失识别]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
 - [[frameworks/framework-yitang-research-weapon-supplement-2026|调研武器库补充：2025-2026年新武器——OSINT工具+Agent原生+替代数据+验证技术]] — source `src_unknown`
 - [[frameworks/framework-yitang-research-weapon-system|调研超级武器库：三层八模块十四节点]] — source `00_inbox/调研专题/调研超级武器库_vlm_desc.md`

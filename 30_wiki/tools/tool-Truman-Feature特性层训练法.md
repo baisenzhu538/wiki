@@ -10,8 +10,15 @@ reviewed_by: 待审
 confidence: 0.7
 trust_level: low
 source_refs:
-  - src_unknown
+  - 00_inbox/AI基本功/AI学习-Feature思维解析（上）-口述.txt
+  - 00_inbox/AI基本功/AI学习-Feature思维解析（下）-口述.txt
+  - 10_raw/sources/feature-periodic-table-v0.8.json
+source_context: Truman《AI学习·Feature思维解析》2026-08-07直播；源素材替代src_unknown
 related:
+  - '[[framework-truman-feature-thinking-core]]'
+  - '[[framework-truman-feature-layered-system]]'
+  - '[[concept-truman-feature-four-scenarios]]'
+  - '[[concept-truman-feature-six-stages]]'
 created_at: 2026-06-30
 updated_at: 2026-08-04
 tags:

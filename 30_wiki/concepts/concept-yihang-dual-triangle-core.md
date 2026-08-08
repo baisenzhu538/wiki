@@ -45,6 +45,8 @@ related:
 - '[[framework-yihang-dual-triangle-ai-landing-five-steps]]'
 - '[[tool-yihang-dual-triangle-canvas]]'
 - '[[agent-spec-dual-triangle-canvas-filler]]'
+- '[[framework-truman-feature-thinking-core]]'
+- '[[framework-truman-feature-layered-system]]'
 - '[[method-dual-triangle-flywheel-engine]]'
 - '[[人机协作决策-双三角模型]]'
 - '[[concept-AI时代双三角竞争力]]'

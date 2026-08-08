@@ -80,11 +80,41 @@ def list_manuals() -> list[dict]:
     return manuals
 
 
+def list_features():
+    """Load Feature registry from features.json."""
+    import json
+    from pathlib import Path
+    fp = Path(__file__).resolve().parent / "features.json"
+    if not fp.exists():
+        return {}
+    try:
+        data = json.loads(fp.read_text(encoding="utf-8"))
+        return data.get("features", {})
+    except Exception:
+        return {}
+
+
 def print_list():
     """输出能力列表。"""
     print("=" * 55)
     print("  KDO 能力中台")
     print("=" * 55)
+
+    # Features first (Truman Feature思维: 原子化最小技术单位)
+    features = list_features()
+    if features:
+        cats = {}
+        for fid, f in features.items():
+            cats.setdefault(f.get("category", "other"), []).append(f)
+        print(f"\n  Feature 清单（{len(features)} 个原子能力）：")
+        cat_names = {"lint": "门禁规则", "cli": "CLI 命令", "ux": "用户体验"}
+        for cat, cat_label in cat_names.items():
+            items = cats.get(cat, [])
+            if items:
+                print(f"\n  [{cat_label}]")
+                for f in items:
+                    print(f"    {f['name']:<25} — {f['description'][:60]}")
+                    print(f"      测试: {f['test'][:80]}")
 
     tools = list_tools()
     print(f"\n  可调用的工具 ({len(tools)})：")

@@ -2,7 +2,7 @@
 id: task_20260806_huangyaoshi-deadlink-lint-gate
 task_id: 242
 assignee: huangyaoshi
-status: queued
+status: reviewed
 updated_at: 2026-08-06
 domain: system
 priority: P1
@@ -39,3 +39,10 @@ F2 断链检测接入 lint/pre-submit 流程，MOC/索引类卡（type: index/di
 ## 依赖
 
 - 无硬依赖；可与 #239 复审后的修复并行（#238 修复是内容修复，本任务是门禁，互不冲突）
+
+## 🆕 完成记录（2026-08-07 黄药师交付）
+
+- ✅ **F4 MOC 死链门禁就位**：type: index/digest/moc → related 死链 > 0 → ERROR 阻断；普通卡维持 WARNING
+- ✅ 五张 MOC 全部零死链验证通过；增量 0 新增
+- ✅ 门禁闭环：#238 FAIL（54% 死链手测发现）→ F4 自动拦截——不会再出现同类审查 FAIL
+- 状态：待欧阳锋审查（基建任务惯例）

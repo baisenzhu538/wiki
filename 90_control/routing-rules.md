@@ -106,3 +106,28 @@ When two rules match a trigger:
 | 0.1 | 2026-05-02 | Initial prose routing rules |
 | 0.2 | 2026-05-03 | Restructured as decision matrix with tool whitelists and failure modes |
 | 0.3 | 2026-05-03 | **FIX**: Reverted to 3 roles per CLAUDE.md; removed Delivery Producer as independent agent; added Skills & Workflows layer; Ship and Produce correctly routed to Librarian + Arbiter |
+
+
+## 中文域名白名单（#240 裁定，2026-08-06）
+
+以下 15 个中文域经语义查重确认无英文域对应，保留为合法值。新增中文域需先对照此表查重——有英文对应的合并，无对应的追加登记。
+
+| 中文域 | 语义判定 |
+|:--|:--|
+| 向上汇报 | 独立——汇报技巧无英文域对应 |
+| 流程结构化 | 独立 |
+| 组织理念 | 独立 |
+| 模型与建模 | 独立 |
+| 演讲与表达 | 独立 |
+| 价值观 | 独立 |
+| 核心价值 | 独立 |
+| 交付模式 | 独立 |
+| 个人表达力 | 独立 |
+| 核心模型-十指模型 | 独立 |
+| 基本功训练营 | 独立 |
+| 私域流量 | 独立 |
+| 核心假设 | 独立 |
+| 心理学 | 独立 |
+| 决策方法 | 独立（与 decision-science 角度不同） |
+
+> 裁定记录：`.agent/decisions.md` 2026-08-06

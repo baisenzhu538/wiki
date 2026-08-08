@@ -30,6 +30,8 @@ related:
 - '[[concept-yihang-ai-feature-thinking]]'
 - '[[framework-yihang-dual-triangle-weapon-library]]'
 - '[[concept-yihang-dual-triangle-core]]'
+- '[[framework-truman-feature-layered-system]]'
+- '[[bridge-dual-track-feature-system]]'
 tags:
 - audience:executor
 - scene:execution

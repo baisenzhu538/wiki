@@ -1,0 +1,1036 @@
+{
+  "version": "V0.8",
+  "total": 100,
+  "features": [
+    {
+      "id": "F001",
+      "name": "模型选择",
+      "layer": "L0",
+      "dimension": "C",
+      "purpose": "根据任务选择最优模型",
+      "scenario": "所有AI任务",
+      "case_ref": "口述下 L666（招商日报：换巨米模型成本降10倍）",
+      "verified": true
+    },
+    {
+      "id": "F002",
+      "name": "模型组合",
+      "layer": "L0",
+      "dimension": "C",
+      "purpose": "多模型优势互补协同工作",
+      "scenario": "复杂任务",
+      "case_ref": "口述下 L510-552（模型组合+抽卡+Skill+Agent）",
+      "verified": true
+    },
+    {
+      "id": "F003",
+      "name": "模型调优",
+      "layer": "L0",
+      "dimension": "C",
+      "purpose": "调整模型参数优化输出",
+      "scenario": "质量优化",
+      "case_ref": "口述下 L802-860（温度参数：成本2万→1-2千）",
+      "verified": true
+    },
+    {
+      "id": "F004",
+      "name": "能换模型(找最好)",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "按质量选择最佳模型",
+      "scenario": "质量优先任务",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F005",
+      "name": "换快模型(找最快)",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "按速度选择最快模型",
+      "scenario": "实时响应",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F006",
+      "name": "换便宜模型(找最少)",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "按成本选择最经济模型",
+      "scenario": "批量任务",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F007",
+      "name": "快慢切换模型(按需取)",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "根据场景动态切换快慢模型",
+      "scenario": "混合场景",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F008",
+      "name": "换多模态模型",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "切换支持图文/音视频的模型",
+      "scenario": "多模态任务",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F009",
+      "name": "换本地模型",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "切换本地部署模型保护数据",
+      "scenario": "数据安全",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F010",
+      "name": "换推理模式",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "切换o1/R1等推理模型",
+      "scenario": "复杂推理",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F011",
+      "name": "最大上下文长度",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "调整模型上下文窗口大小",
+      "scenario": "长文档",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F012",
+      "name": "温度(Temperature)",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "控制输出随机性——低温确定高温创造",
+      "scenario": "所有生成任务",
+      "case_ref": "口述上 L812-872（调温度参数，准确率95%）",
+      "verified": true
+    },
+    {
+      "id": "F013",
+      "name": "Top-K/Top-P",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "控制词汇选择范围",
+      "scenario": "文本生成",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F014",
+      "name": "频率惩罚",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "减少重复内容",
+      "scenario": "长文生成",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F015",
+      "name": "随机种子",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "固定输出可复现性",
+      "scenario": "测试对比",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F016",
+      "name": "同时抽点测试",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "多个模型并行测试对比效果",
+      "scenario": "选型评估",
+      "case_ref": "口述下 L510（抽卡测试：模型组合时测试Feature）",
+      "verified": true
+    },
+    {
+      "id": "F017",
+      "name": "模型微调训练",
+      "layer": "L1",
+      "dimension": "C",
+      "purpose": "Fine-tuning定制模型",
+      "scenario": "特定领域",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F018",
+      "name": "赋予角色",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "给AI指定角色身份——'你是一个年薪百万的设计师'",
+      "scenario": "所有对话",
+      "case_ref": "口述上 L330+L388（赋予角色+背景信息）",
+      "verified": true
+    },
+    {
+      "id": "F019",
+      "name": "用户身份",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "告知AI用户是谁——'我是一个创业者'",
+      "scenario": "个性化输出",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F020",
+      "name": "各方协作身份",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "设定多方角色——'你是设计师，我是产品经理'",
+      "scenario": "多角色协作",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F021",
+      "name": "反向提示",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "让AI反过来问你——'你需要我了解什么才能更好地帮你？'",
+      "scenario": "信息不足时",
+      "case_ref": "口述上 L338（反向确认：你跟我确认对吧）",
+      "verified": true
+    },
+    {
+      "id": "F022",
+      "name": "反向教我",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "让AI教你它擅长的用法",
+      "scenario": "新工具上手",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F023",
+      "name": "反向采访",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "AI以采访者身份挖掘你真正的需求",
+      "scenario": "需求模糊",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F024",
+      "name": "反向记录",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "AI记录对话中的关键信息供后续使用",
+      "scenario": "长对话",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F025",
+      "name": "自我批评",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "让AI评价自己的输出——'这个答案有什么问题？'",
+      "scenario": "质量复核",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F026",
+      "name": "Few-shot示例",
+      "layer": "L2",
+      "dimension": "B",
+      "purpose": "给AI 2-5个输入输出范例",
+      "scenario": "格式固定任务",
+      "case_ref": "口述下 L206（Few-shot+DataPack+最终意图）",
+      "verified": true
+    },
+    {
+      "id": "F027",
+      "name": "给背景信息",
+      "layer": "L2",
+      "dimension": "B",
+      "purpose": "在提示词开头说明业务背景和场景",
+      "scenario": "所有任务",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F028",
+      "name": "联网搜索",
+      "layer": "L2",
+      "dimension": "B",
+      "purpose": "触发联网获取最新信息",
+      "scenario": "时效性要求高",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F029",
+      "name": "给DataPack",
+      "layer": "L2",
+      "dimension": "B",
+      "purpose": "打包结构化数据作为上下文",
+      "scenario": "需要领域知识",
+      "case_ref": "口述下 L206（给DataPack+最终意图+负面限制）",
+      "verified": true
+    },
+    {
+      "id": "F030",
+      "name": "RAG检索增强",
+      "layer": "L2",
+      "dimension": "B",
+      "purpose": "从知识库检索内容注入提示词",
+      "scenario": "长文档/专业领域",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F031",
+      "name": "最终意图",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "在提示词末尾声明最终目标——防AI跑偏的核心锚点",
+      "scenario": "所有任务",
+      "case_ref": "口述上 L676-750（最终意图+银行品牌案例）",
+      "verified": true
+    },
+    {
+      "id": "F032",
+      "name": "负面限制",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "明确告诉AI不要做什么",
+      "scenario": "防AI自由发挥",
+      "case_ref": "口述下 L206（负面限制+最终意图+DataPack）",
+      "verified": true
+    },
+    {
+      "id": "F033",
+      "name": "输出要求",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "指定输出格式/字数/语气",
+      "scenario": "结构化输出",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F034",
+      "name": "测评建模(SABC/雷达图)",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "定义评分标准让AI评价有锚点",
+      "scenario": "批量评估",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F035",
+      "name": "剥离最小场景",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "不让AI做整个任务——先做第一步",
+      "scenario": "复杂任务入口",
+      "case_ref": "口述上 L778-780（剥离：Feature最难部分）",
+      "verified": true
+    },
+    {
+      "id": "F036",
+      "name": "先澄清后执行",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "AI先确认理解再开始——'我理解你要做的是...'",
+      "scenario": "模糊需求",
+      "case_ref": "口述下 L510（先澄清再执行：定义策略列）",
+      "verified": true
+    },
+    {
+      "id": "F037",
+      "name": "多轮对话",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "第一轮试探→第二轮修正→第三轮定稿",
+      "scenario": "创意/分析",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F038",
+      "name": "CoT链式思考",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "提示AI一步步推理再给结论",
+      "scenario": "推理/数学/决策",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F039",
+      "name": "CoV视觉链式思考",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "让AI通过视觉化步骤推理",
+      "scenario": "图表/设计",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F040",
+      "name": "状态机",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "定义任务状态流转——待确认→执行中→完成",
+      "scenario": "多步骤任务",
+      "case_ref": "口述上 L992-1024（状态机+科学角色教练模块）",
+      "verified": true
+    },
+    {
+      "id": "F041",
+      "name": "语气风格",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "指定AI用语风格",
+      "scenario": "需要特定调性",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F042",
+      "name": "优化词语",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "精调关键用词影响输出方向",
+      "scenario": "文案/品牌",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F043",
+      "name": "指定能力",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "明确要求AI使用某项特定能力",
+      "scenario": "多能力工具",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F044",
+      "name": "新开窗分支测试",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "新窗口测试不同方向再回来合并",
+      "scenario": "探索性任务",
+      "case_ref": "周期表V0.8截图 L2F节奏控制（口述无独立讲解行）",
+      "verified": false
+    },
+    {
+      "id": "F045",
+      "name": "Prompt版本管理",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "标注日期+改动+效果——管理提示词进化",
+      "scenario": "长期使用",
+      "case_ref": "KDO #256: card_review_checklist.py 版本化——每个 Feature 独立可测，每次迭代标注改动+效果。等价于 Prompt 版本管理的工程实践",
+      "verified": true
+    },
+    {
+      "id": "F046",
+      "name": "人工审核",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "AI输出后加人工审核节点",
+      "scenario": "高风险任务",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F047",
+      "name": "AI自动搭",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "AI自己组合多个Feature完成任务",
+      "scenario": "进阶自动化",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F048",
+      "name": "插件调用",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "AI调用外部工具/插件",
+      "scenario": "需要外部数据",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F049",
+      "name": "人工写提示词",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "手动编写结构化提示词",
+      "scenario": "精确控制",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F050",
+      "name": "口喷提示词",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "自然语言口述让AI理解意图",
+      "scenario": "快速原型",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F051",
+      "name": "AI自动写提示词",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "让AI自己生成优化后的提示词",
+      "scenario": "批量/优化",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F052",
+      "name": "能力命名",
+      "layer": "L3",
+      "dimension": "C",
+      "purpose": "给Skill起规范名称+触发条件",
+      "scenario": "Skill管理",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F053",
+      "name": "触发条件",
+      "layer": "L3",
+      "dimension": "C",
+      "purpose": "定义Skill何时自动激活",
+      "scenario": "自动化",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F054",
+      "name": "数据库",
+      "layer": "L3",
+      "dimension": "B",
+      "purpose": "连接外部数据库存储/查询",
+      "scenario": "数据持久化",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F055",
+      "name": "文件上传",
+      "layer": "L3",
+      "dimension": "B",
+      "purpose": "上传文件作为上下文",
+      "scenario": "文档处理",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F056",
+      "name": "多维表格",
+      "layer": "L3",
+      "dimension": "B",
+      "purpose": "结构化表格数据交互",
+      "scenario": "数据分析",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F057",
+      "name": "渐进式披露",
+      "layer": "L3",
+      "dimension": "C",
+      "purpose": "按需展示Skill能力——不用全量加载",
+      "scenario": "复杂Skill",
+      "case_ref": "KDO #242: pre-submit 门禁栈 8道 Feature 逐道拦截——F1→DUP_KEY→F3→R6→DK_7→SEC_TYPO→F2→F4。每道独立可测，不等到终审才发现",
+      "verified": true
+    },
+    {
+      "id": "F058",
+      "name": "自动触发/执行脚本",
+      "layer": "L3",
+      "dimension": "C",
+      "purpose": "条件满足时自动运行预设脚本",
+      "scenario": "自动化工作流",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F059",
+      "name": "用自然语言封装Skill",
+      "layer": "L3",
+      "dimension": "C",
+      "purpose": "用自然语言定义Skill而非代码",
+      "scenario": "快速封装",
+      "case_ref": "口述下 L510（封装3个Skill：品位/设计宪法/复盘）",
+      "verified": true
+    },
+    {
+      "id": "F060",
+      "name": "API调用",
+      "layer": "L3",
+      "dimension": "C",
+      "purpose": "通过API接入外部服务",
+      "scenario": "系统集成",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F061",
+      "name": "MCP/CLI调用",
+      "layer": "L3",
+      "dimension": "C",
+      "purpose": "通过MCP协议或CLI调用工具",
+      "scenario": "开发/运维",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F062",
+      "name": "设计工作流",
+      "layer": "L3",
+      "dimension": "D",
+      "purpose": "编排顺序/分支/循环的任务流程",
+      "scenario": "复杂流程",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F063",
+      "name": "沉淀资产→开源",
+      "layer": "L3",
+      "dimension": "D",
+      "purpose": "把验证有效的workflow/Skill开源共享",
+      "scenario": "团队协作",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F064",
+      "name": "Coze/dify/n8n",
+      "layer": "L3",
+      "dimension": "D",
+      "purpose": "使用低代码平台编排AI工作流",
+      "scenario": "快速搭建",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F065",
+      "name": "ComfyUI",
+      "layer": "L3",
+      "dimension": "D",
+      "purpose": "节点式编排图像生成工作流",
+      "scenario": "图像生成",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F066",
+      "name": "用户画像",
+      "layer": "L4",
+      "dimension": "A",
+      "purpose": "Agent记住用户偏好/背景/历史",
+      "scenario": "个性化服务",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F067",
+      "name": "角色身份配置",
+      "layer": "L4",
+      "dimension": "A",
+      "purpose": "设定Agent的角色+能力边界",
+      "scenario": "所有Agent",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F068",
+      "name": "专业岗位设定",
+      "layer": "L4",
+      "dimension": "A",
+      "purpose": "按专业岗位定义Agent能力范围",
+      "scenario": "企业应用",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F069",
+      "name": "工作边界指定",
+      "layer": "L4",
+      "dimension": "A",
+      "purpose": "明确Agent能做什么不能做什么",
+      "scenario": "防越界",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F070",
+      "name": "长期记忆",
+      "layer": "L4",
+      "dimension": "B",
+      "purpose": "跨对话持久化重要信息",
+      "scenario": "长期项目",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F071",
+      "name": "自进化能力",
+      "layer": "L4",
+      "dimension": "B",
+      "purpose": "Agent从反馈中自我优化",
+      "scenario": "持续改进",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F072",
+      "name": "上下文压缩",
+      "layer": "L4",
+      "dimension": "B",
+      "purpose": "自动压缩历史对话节省token",
+      "scenario": "长对话",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F073",
+      "name": "ComputerUse权限",
+      "layer": "L4",
+      "dimension": "D",
+      "purpose": "Agent操作电脑——终端/文件/浏览器",
+      "scenario": "自动化执行",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F074",
+      "name": "心跳机制",
+      "layer": "L4",
+      "dimension": "D",
+      "purpose": "定期检测Agent在线/卡住/超时",
+      "scenario": "生产环境",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F075",
+      "name": "定时任务",
+      "layer": "L4",
+      "dimension": "D",
+      "purpose": "Agent按计划自动执行任务",
+      "scenario": "周期性任务",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F076",
+      "name": "沙箱隔离",
+      "layer": "L4",
+      "dimension": "D",
+      "purpose": "Agent在隔离环境中运行——不影响主系统",
+      "scenario": "安全执行",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F077",
+      "name": "ReAct模式",
+      "layer": "L4",
+      "dimension": "D",
+      "purpose": "思考→行动→观察→再思考循环",
+      "scenario": "需要推理+行动",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F078",
+      "name": "结果检查",
+      "layer": "L4",
+      "dimension": "D",
+      "purpose": "Agent自检输出质量后再交付",
+      "scenario": "质量保障",
+      "case_ref": "KDO #256: card_review_checklist.py 8项自检——YAML/TITLE/TYPE/DS/RELATED/RELATED_DEAD/POSITION/REVIEW_DATE。提报前强制跑，不跑不交",
+      "verified": true
+    },
+    {
+      "id": "F079",
+      "name": "失败恢复",
+      "layer": "L4",
+      "dimension": "D",
+      "purpose": "任务失败后自动重试或降级",
+      "scenario": "容错",
+      "case_ref": "KDO #230: card_review_checklist RELATED_DEAD 自动定位断链——欧阳锋退回后黄药师修→跑 checklist→确认全绿→重提。失败恢复闭环",
+      "verified": true
+    },
+    {
+      "id": "F080",
+      "name": "持续推Goal",
+      "layer": "L4",
+      "dimension": "D",
+      "purpose": "Agent持续朝目标推进不偏离",
+      "scenario": "目标导向任务",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F081",
+      "name": "主动汇报",
+      "layer": "L4",
+      "dimension": "D",
+      "purpose": "Agent完成/遇到问题时主动通知",
+      "scenario": "协作",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F082",
+      "name": "网关机制",
+      "layer": "L4",
+      "dimension": "D",
+      "purpose": "根据任务类型路由到不同Agent",
+      "scenario": "多Agent系统",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F083",
+      "name": "跨工具协同",
+      "layer": "L4",
+      "dimension": "D",
+      "purpose": "Agent调用IM/WorkBuddy/Hermes等工具",
+      "scenario": "多平台",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F084",
+      "name": "角色分工",
+      "layer": "L5",
+      "dimension": "A",
+      "purpose": "组织级：谁负责什么AI能力的建设",
+      "scenario": "团队AI化",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F085",
+      "name": "能力分工",
+      "layer": "L5",
+      "dimension": "A",
+      "purpose": "按能力域分配AI建设职责",
+      "scenario": "大团队",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F086",
+      "name": "组织整体设计",
+      "layer": "L5",
+      "dimension": "A",
+      "purpose": "从组织架构层面设计AI协作模式",
+      "scenario": "战略规划",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F087",
+      "name": "共享资产",
+      "layer": "L5",
+      "dimension": "C",
+      "purpose": "团队共享Prompt库/Skill库",
+      "scenario": "团队协作",
+      "case_ref": "KDO #240: cap_hub Feature清单 13项——所有 Agent 启动时可见。MOC 卡 5张——设计/复盘/master/product/kdo 域可导航。共享资产的 KDO 实践",
+      "verified": true
+    },
+    {
+      "id": "F088",
+      "name": "共享技能",
+      "layer": "L5",
+      "dimension": "C",
+      "purpose": "跨团队成员复用已验证的AI能力",
+      "scenario": "知识共享",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F089",
+      "name": "共享知识库",
+      "layer": "L5",
+      "dimension": "C",
+      "purpose": "团队级RAG知识库",
+      "scenario": "组织学习",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F090",
+      "name": "系统权限",
+      "layer": "L5",
+      "dimension": "A",
+      "purpose": "不同角色访问不同AI系统/数据",
+      "scenario": "安全合规",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F091",
+      "name": "工具权限",
+      "layer": "L5",
+      "dimension": "A",
+      "purpose": "控制谁能使用哪些AI工具",
+      "scenario": "治理",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F092",
+      "name": "任务路由",
+      "layer": "L5",
+      "dimension": "D",
+      "purpose": "根据任务类型自动分发到对应Agent/人",
+      "scenario": "多Agent系统",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F093",
+      "name": "Agent调用",
+      "layer": "L5",
+      "dimension": "D",
+      "purpose": "Agent之间互相调用协作",
+      "scenario": "Agent编排",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F094",
+      "name": "交叉验证/反方评审",
+      "layer": "L5",
+      "dimension": "D",
+      "purpose": "多个Agent/人对同一输出做交叉验证",
+      "scenario": "质量保障",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F095",
+      "name": "Agent组织设计",
+      "layer": "L5",
+      "dimension": "D",
+      "purpose": "设计Agent团队的组织架构和协作模式",
+      "scenario": "Agent系统设计",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F096",
+      "name": "Agent编排/分工",
+      "layer": "L5",
+      "dimension": "D",
+      "purpose": "编排多个Agent的分工和协作流程",
+      "scenario": "复杂任务",
+      "case_ref": "",
+      "verified": false
+    },
+    {
+      "id": "F097",
+      "name": "CoV视觉链式思考",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "让AI通过视觉化步骤推理，图表的CoT版本",
+      "scenario": "图表/设计分析",
+      "case_ref": "口述下 2D拆分任务（CoV与CoT并列）",
+      "verified": false
+    },
+    {
+      "id": "F098",
+      "name": "里程碑/编号控制",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "给任务设定里程碑编号，不是无限优化而是分阶段达标",
+      "scenario": "长期项目",
+      "case_ref": "口述下 L518（8个设计里程碑）",
+      "verified": true
+    },
+    {
+      "id": "F099",
+      "name": "N选一/备选方案",
+      "layer": "L2",
+      "dimension": "D",
+      "purpose": "让AI同时生成N个不同方向的方案供选择",
+      "scenario": "创意/头脑风暴",
+      "case_ref": "口述下（多方案对比）",
+      "verified": false
+    },
+    {
+      "id": "F100",
+      "name": "反向确认",
+      "layer": "L2",
+      "dimension": "A",
+      "purpose": "AI在关键节点主动向用户确认理解是否正确",
+      "scenario": "高风险决策",
+      "case_ref": "口述上 L338（反向确认：你跟我确认对吧）",
+      "verified": true
+    }
+  ],
+  "total_target": 100,
+  "gaps": 82,
+  "gap_note": "V0.8化学元素视觉皮肤遮蔽4个Feature，已从口述推断补充。verified=false需对照截图确认",
+  "c3_reconciliation": [
+    {
+      "candidate": "里程碑/编号控制",
+      "disposition": "新增 F098",
+      "oral_ref": "口述下 L518"
+    },
+    {
+      "candidate": "N选一/备选方案",
+      "disposition": "新增 F099",
+      "oral_ref": "口述下"
+    },
+    {
+      "candidate": "参考案例",
+      "disposition": "表内已覆盖 F013 Few-shot",
+      "oral_ref": "口述下 L206"
+    },
+    {
+      "candidate": "反向确认",
+      "disposition": "新增 F100",
+      "oral_ref": "口述上 L338"
+    },
+    {
+      "candidate": "增强数据",
+      "disposition": "表内已覆盖 F014 DataPack + F015 RAG",
+      "oral_ref": "口述下 L206"
+    }
+  ]
+}

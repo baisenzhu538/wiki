@@ -1,4 +1,4 @@
----
+﻿---
 
 
 
@@ -483,3 +483,31 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 243 | \`task_20260806_huangyaoshi-product-moc\` | product主题域MOC（后补登记，已完成） | reviewed | huangyaoshi | 1 张MOC | 无 | \`60_feedback/tasks/task_20260806_huangyaoshi-product-moc.md\` | 欧阳锋PASS：related 15/死链0/定位/ds2；横向序列5/5闭环 |
 | 244 | \`task_20260806_huangyaoshi-kdo-moc\` | kdo主题域MOC（后补登记，已完成） | reviewed | huangyaoshi | 1 张MOC | 无 | \`60_feedback/tasks/task_20260806_huangyaoshi-kdo-moc.md\` | 欧阳锋PASS：related 14/死链0/定位/ds2；横向序列5/5闭环 |
+
+| 245 | \`task_20260807_wangyuyan-team-review-guide-tool\` | 团队复盘引导清单 tool 卡（复盘 workflow 补缺，千惠实战验证过） | reviewed | laowantong | 1 张 tool | 无 | \`60_feedback/tasks/task_20260807_wangyuyan-team-review-guide-tool.md\` | 复盘域16节点缺workflow类；素材=桌面千惠清单（实战版） |【编排提审：规格待欧阳锋生产前审】；欧阳锋终审PASS(条件) 2026-08-07：结构八段齐全；source_refs已搬运修复
+| 246 | \`task_20260807_wangyuyan-review-coach-agent\` | 复盘教练 agent-spec（复盘域 agent 补缺，TCPR Coach 身份） | reviewed | laowantong | 1 张 agent-spec | #245 生产后 | \`60_feedback/tasks/task_20260807_wangyuyan-review-coach-agent.md\` | #233 暂缓条件已解除（核心卡全入库）；千惠案例实测验收 |【编排提审：规格待欧阳锋生产前审】；欧阳锋终审PASS(条件) 2026-08-07：TCPR/门/边界齐全；source_refs已搬运修复
+| 247 | \`task_20260807_wangyuyan-qianhui-supply-chain-case\` | 千惠供应链复盘案例卡（S级：真实数据+15踩坑+70/30拆解） | reviewed | laowantong | 1 张 case | 无 | \`60_feedback/tasks/task_20260807_wangyuyan-qianhui-supply-chain-case.md\` | 复盘域第一个自己实战案例；供应商管理办法不入库（待验证草案） |【编排提审：规格待欧阳锋生产前审】；欧阳锋终审PASS 2026-08-07：情报→知识转化正面样板；70/30拆解+15踩坑溯源命中
+
+| 248 | \`task_20260808_laowantong-feature-thinking-w0\` | Feature思维W0前置：OCR收尾（洪七公34/34图）+周期表V0.8结构化（100 Feature JSON最小字段集） | reviewed | laowantong | JSON+OCR | 无（阻塞W1-4） | \`60_feedback/tasks/task_20260808_laowantong-feature-thinking-w0.md\` | ✅欧阳锋终审PASS B+(2026-08-08)+条件项收尾(2026-08-08#255)：C1 100/100✅(F098里程碑/F100反向确认行号命中)+C2缺位标注✅+C3对账5候选闭环✅+C4 16/17(F044留尾巴:口述无独立讲解行,待选截图源或verified改False)+顺手3/4(agent-spec L107漏改)。不阻塞#256/#252<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 249 | \`task_20260808_laowantong-feature-thinking-w1\` | Feature思维W1框架层：4张新卡+已有5张卡处置（升级tool-Truman-Feature/concept-yihang-ai-feature-thinking，补链dk-demand-feature-stacking） | reviewed | laowantong | 4张+5处置 | #248 reviewed | \`60_feedback/tasks/task_20260808_laowantong-feature-thinking-w1.md\` | ✅欧阳锋复审PASS A-(2026-08-08 R2)：6项修复全独立核验——yihang related+3✅/死链改concept-刻意练习四要素×3✅/L81行号L330-334+诚实标注✅/concept×2补Constraints+Critique(内容真实)✅/L110演绎标注✅/core第二攻击者(教程模板派)✅。依赖链#248→#249→#250全通，#251补链依赖满足<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 250 | \`task_20260808_laowantong-feature-thinking-w2\` | Feature思维W2案例+dk：case×3（作图/日报/温度参数，数字可溯源）+dk×2 | reviewed | laowantong | 5张 | #249 reviewed | \`60_feedback/tasks/task_20260808_laowantong-feature-thinking-w2.md\` | ✅欧阳锋终审PASS B+(2026-08-08 R2)：5项修复4.5完成——L54残留旧行号(🟡不阻塞)，其余全部修复。详见任务单补审记录<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 251 | \`task_20260808_wangyuyan-feature-thinking-w3w4\` | Feature思维W3补链+W4 Agent：双轨Feature bridge（cap_hub协调）+回链+对账merge+agent-basic-skills-coach | reviewed | laowantong | 3项+1agent | #249+#250 reviewed | \`60_feedback/tasks/task_20260808_wangyuyan-feature-thinking-w3w4.md\` | ✅欧阳锋先行审PASS(条件)(2026-08-08)→老顽童修复完成(2026-08-08)：bridge A-/agent-spec A-；条件全满足（#249 reviewed✅/"96"→100✅/aliases+定位声明✅）；pre-submit 2/2 PASS<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 252 | \`task_20260808_wangyuyan-feature-consumption-pilot\` | 消费端协议试点（防死清单机制）：真实任务点菜5-10Feature→测试→复盘→回填周期表JSON→协议v0.1 | queued | laowantong | 协议v0.1+回填 | #248 reviewed | \`60_feedback/tasks/task_20260808_wangyuyan-feature-consumption-pilot.md\` | 王语嫣补充（欧阳锋消费端洞察落地）；试点任务用户拍板 |
+
+| 253 | \`task_20260808_huangyaoshi-ai-basic-domain-onboarding\` | AI基本功域onboarding注册：index登记/目录/digest预留/双三角回链+顺手清#240两尾巴+#242状态 | reviewed | huangyaoshi | 域注册+清理 | 无（与#248并行） | \`60_feedback/tasks/task_20260808_huangyaoshi-ai-basic-domain-onboarding.md\` | ✅欧阳锋复审PASS B(2026-08-08)：4项修复全核验——index L1439登记/白名单routing-rules L111/domain字段src_unknown下划线0残留/#242任务单reviewed一致。🟢观察：digest登记行source列显示src_unknown(疑似index生成逻辑,P2)。#254依赖全满足可启动<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 254 | \`task_20260808_huangyaoshi-feature-menu-tool\` | 周期表点菜查询工具：kdo feature list/query/pick/info，双轨防混编（cap_hub lint vs capability） | reviewed | huangyaoshi | 1个CLI命令 | #248 reviewed + #253 | \`60_feedback/tasks/task_20260808_huangyaoshi-feature-menu-tool.md\` | ✅欧阳锋终审PASS A(2026-08-08)：四命令实测全通+双轨隔离+cap_hub登记。T1 9测试过✅ T2 --seed复现✅ T3 README L115-126登记✅——三条件全齐升级A<!-- 手动终审：queue_transition被拦+O-3 --> |
+
+| 255 | \`task_20260808_laowantong-feature-periodic-table-finalize\` | 周期表收尾（欧阳锋#248条件项C1-C4）：补4个遮蔽Feature+missing标注+口述对账5候选+C4行号 | queued | laowantong | JSON收尾 | 与#249并行 | \`60_feedback/tasks/task_20260808_laowantong-feature-periodic-table-finalize.md\` | 周期表=消费端菜单/工具/agent公共数据源，完整性直接决定下游 |
+
+| 256 | \`task_20260808_huangyaoshi-basic-skills-coach-deploy\` | agent-basic-skills-coach部署（层次2/3，黄药师独立）：agents/目录+cap_hub注册+kdo feature接入+冒烟测试 | reviewed | huangyaoshi | 部署+冒烟 | #251规格层 reviewed | \`60_feedback/tasks/task_20260808_huangyaoshi-basic-skills-coach-deploy.md\` | ✅欧阳锋终审PASS(条件)B+(2026-08-08)：目录落地✅/数据源100四命令✅/测试8/8动态断言✅。条件：①cap_hub agent条目未注册(任务单验收缺口)②96残留×3(agent CLAUDE/system-prompt/FEATURE_MENU)。#252可用agents/目录启动，不阻塞<!-- 手动终审：queue_transition被拦+O-3 --> |
+
+| 257 | \`task_20260808_laowantong-96-to-100-cards-cleanup\` | 卡文件96→100清扫：framework-layered L58 + dk-key-hypothesis L46（统一改"周期表JSON"不带数字） | queued | laowantong | 2处修改 | 无 | \`60_feedback/tasks/task_20260808_laowantong-96-to-100-cards-cleanup.md\` | 欧阳锋清扫建议转王语嫣；根治写死问题 |
+| 258 | \`task_20260808_huangyaoshi-96-to-100-tools-cleanup\` | 工具/agent侧96→100清扫（agent×2+FEATURE_MENU+README）+cap_hub agent注册裁定（试点期先不注册，试点后统一） | queued | huangyaoshi | 4处+裁定 | 无（与#257并行） | \`60_feedback/tasks/task_20260808_huangyaoshi-96-to-100-tools-cleanup.md\` | #256条件项①处置+全库清扫6处收尾 |
+
+| 259 | \`task_20260808_laowantong-feature-patches\` | Feature卡5项增量patch（飞书王语嫣审计4项+预测属性1项）：融入5张已过审卡，patch后欧阳锋复审 | reviewed | laowantong | 5处追加段 | 无 | \`60_feedback/tasks/task_20260808_laowantong-feature-patches.md\` | ✅欧阳锋复审PASS(条件)A-(2026-08-08)：5追加段引用逐字命中(P1 L324-364/P2 L1664-1676/P3 L1650/P5 L1812-1814)。修正项🟡：①P5"8格留白"无源数字(口述仅空位类比)②P4"调低温度"未标推测③P1插入位置。不阻塞<!-- 手动终审：queue_transition被拦+O-3 --> |
+
+| 260 | \`task_20260808_huangyaoshi-agent-knowledge-access\` | KDO Agent知识接入规范（agent用知识库基建缺口）：系统提示知识地图段+检索工具接入+coach试点 | queued | huangyaoshi | 规范+coach接入 | 无 | \`60_feedback/tasks/task_20260808_huangyaoshi-agent-knowledge-access.md\` | 用户实测触发：coach不知道KDO；对照Truman"去一堂学一下"原则；补"agent用知识库"缺口 |
+
+| 261 | \`task_20260808_huangyaoshi-agent-global-awareness\` | KDO全局认知标准化（所有角色agent）：context同步MOC清单+段王爷部署确认+飞书端MCP桥推广 | queued | huangyaoshi | 认知/路径/检索三件套 | #260（复用coach桥） | \`60_feedback/tasks/task_20260808_huangyaoshi-agent-global-awareness.md\` | 用户期望"所有agent都必须知道KDO全局"固化；飞书端全体检索层缺口 |
+
+| 262 | \`task_20260808_huangyaoshi-permission-standardization\` | 命令权限标准化（agent被拦治理）：settings.json补cd/node等+template对齐+飞书Hermes执行层确认+被拦清单 | queued | huangyaoshi | 权限三处+清单 | 与#261配套 | \`60_feedback/tasks/task_20260808_huangyaoshi-permission-standardization.md\` | 用户实测触发：多agent反馈命令行被拦截；模板与实际不一致=新agent天然缺权限 |
