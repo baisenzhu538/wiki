@@ -6,12 +6,15 @@ status: draft
 domain:
   - kdo
   - ai-basic
-author: 黄药师
+author: 老顽童（黄药师初稿）
 reviewed_by: 待审
 review_date: 2026-08-09
 confidence: 0.90
 trust_level: observed
 source_refs:
+  - 00_inbox/Agent生产流水线-案例-AI基本功教练自举-20260809.md
+  - agents/agent-os.md §10.2（复盘唯一标准）
+  - 桌面/agent复盘/AI基本功教练/错误模式库.md（E001-E005）
   - 30_wiki/tools/agent-spec-basic-skills-coach.md
   - 30_wiki/dark-knowledges/dk-agent-access-kdo-pitfalls.md
   - agents/agent-basic-skills-coach/
@@ -45,6 +48,10 @@ related:
   - '[[system-kdo-quality-framework]]'
   - '[[kdo-moc]]'
   - '[[workflow-cross-agent-fact-dispute]]'
+  - '[[agent-spec-zhu-ai-coach]]'
+  - '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
+  - '[[agent-spec-dual-triangle-cross-domain-diagnostician]]'
+  - '[[agent-spec-复盘教练]]'
 ---
 
 # KDO Agent 生产流水线
@@ -84,21 +91,38 @@ spec 只需定义：角色身份（TCPR）+ 核心能力 + 输入输出格式。
 | 部署件 | agents/ 目录 + Hermes profile | agents/<name>/ + .hermes/profiles/<name>/ | Agent 有家、有运行时 |
 
 三件套模板（直接复用）：
-- 认知件：见 `agents/agent-basic-skills-coach/system-prompt.md` 的"KDO 知识库接入"段
-- 路径件：`terminal.cwd + persistent_shell + toolsets: [terminal, web]`
-- 部署件：CLAUDE.md + SOUL.md + config.yaml 最小配置
+- 认知件：见 `agents/agent-basic-skills-coach/system-prompt.md` 的"KDO 知识库接入"段（5 MOC + 检索规则 + 生产纪律）——实现规范见 #260（Agent 知识接入）
+- 路径件：`terminal.cwd + persistent_shell + toolsets: [terminal, web]`——权限/检索接入见 #261（Agent 全局认知）+ #262（命令权限标准化）
+- 部署件：CLAUDE.md + SOUL.md + config.yaml 最小配置（approvals.mode: smart——飞书网关实测，manual 会导致需审批命令 60s 超时被杀）
+
+> ⚠️ **三件套缺一不可**：缺认知件 → Agent 不知道 KDO 是什么（案例实证：教练上线时对 KDO 一无所知）；缺路径件 → Agent 不会查 MOC/grep（知识在但够不着）；缺权限件 → Agent 被审批拦截无法执行（E001 实测：BLOCKED 60s 超时）。spec 定义"做什么"，三件套定义"怎么在 KDO 里做"——两件不缺才能自举。
 
 ### Step 3：Agent 自举 —— 自己做剩下的
 
 三件套注入后，Agent 应该能够自主完成：
 
-1. **自我定位**：查 MOC → 确认自己的领域在 KDO 的什么位置
+1. **自我定位**：查 MOC → 确认自己的领域在 KDO 的什么位置（教练实证：发现自己的注册卡 agent-spec-basic-skills-coach）
 2. **探索环境**：查 kdo-moc → 了解工厂有什么工具、有什么坑
-3. **踩坑沉淀**：遇到问题 → 查坑库（E 系列 dk）→ 找不到 → 建新坑卡 → 注册 MOC
-4. **建立复盘**：按 Truman 10 章格式建自己的复盘体系
+3. **踩坑沉淀**：遇到问题 → 查坑库（E 系列 dk）→ 找不到 → 建新坑卡 → 注册 MOC（教练实证：三个配置坑 → dk-agent-access-kdo-pitfalls）
+4. **建立复盘**：按 Truman 10 章格式建自己的复盘体系（教练实证：调研两个模板 → 对比选优 → 融合 → 建 4 文件体系）
 5. **迭代 spec**：基于实测反馈更新自己的 agent-spec
 
-**自举成功的标志**：Agent 能在不被提示的情况下，完成"发现问题→查 KDO→建卡→注册→复盘"全链路。教练首次自举耗时 2 轮对话。
+**自举成功的标志**：Agent 能在不被提示的情况下，完成"发现问题→查 KDO→建卡→注册→复盘"全链路。教练首次自举耗时 2 轮对话（接入→认知→检索→踩坑→修复→沉淀→自建体系→自举）。
+
+### 实证自举行为链（AI 基本功教练，2026-08-09 两轮对话）
+
+```
+① 部署（spec + 三件套注入）→ 上线即知 KDO 知识地图（5 MOC + 检索规则）
+② 跑通检索链路：查 MOC → 定位域 → 读关键卡（质量门禁分析全链路走通）
+③ 踩三个配置坑：审批 BLOCKED / cwd 路径 / 检索规则过时 → 按"approvals→cwd→文档"诊断
+④ 修复：approvals 改 smart + cwd 改 WSL 格式 + SOUL.md 更新（权限层突破）
+⑤ 沉淀三线：建 dk 卡（三连坑）+ 更新 skill v1.0→v1.1 + 注册 MOC + 挂 related
+⑥ 主动学习：调研两个复盘模板（黄药师 Truman 10 章 vs 段王爷实战复盘）→ 对比选优 → 融合
+⑦ 自建体系：4 文件复盘体系（错误模式库 E001-E005 + 技能进化日志 + 索引 + daily-context）
+⑧ 自我进化意识：主动问"要不要设自动复盘习惯"
+```
+
+> 这不是"配置生效了"，是"模式验证了"——三件套配齐后 Agent 的行为链自动，不需要人教、不需要手配。
 
 ## 适用边界
 
@@ -106,6 +130,41 @@ spec 只需定义：角色身份（TCPR）+ 核心能力 + 输入输出格式。
 - 不适用于外部第三方 Agent（无 KDO MOC 导航）
 - Agent 自举的前提：MOC 覆盖率足够 + 终端权限开通 + spec 定义清晰
 - 第一个跑通的 Agent（教练）样本量为 1——第二个 Agent 上线时会验证可复制性
+
+## 生产纪律（E018——写进规范正文，不是附录）
+
+**Agent 有 KDO 写权限，但审查纪律一样适用。** 教练自建 dk 卡时踩的坑（E018）：
+
+| 纪律 | 允许 | 禁止 |
+|:---|:---|:---|
+| **author 属实** | Agent 自建经验卡 author = 自己 | 冒用其他角色名义（如老顽童/欧阳锋） |
+| **审查真实** | 送欧阳锋真实审查后转正 | 伪造审查记录（reviewed_by 填真实审查者但没审） |
+| **自建默认 draft** | 自建卡 status 默认 draft | 自标 reviewed（未经审查） |
+
+**正确流程**：自建默认 draft → 送欧阳锋真实审查 → 审查通过 → 转正。
+
+> 反面教材（实证）：教练自建 dk 卡后 frontmatter 标了 `author: 老顽童 + reviewed_by: 欧阳锋 + status: reviewed`——实际老顽童没生产、欧阳锋没审（自建自签伪造审查记录）。已修正 + 写入错误模式库 E018。
+
+## 复盘格式约束（agent-os §10.2 唯一标准）
+
+**所有 Agent 统一使用 Truman YAI 复盘法——10 章缺一不可，禁止任何其他格式：**
+
+```markdown
+## 概要（一句话：今天做了什么）
+## 关键决策（表格：决策/理由/结果）
+## 思维盲点（≥1条：什么被漏掉了？每条追问"为什么漏掉"）
+## 顿悟（≥1条：什么基础认知被推翻了？）
+## 过程资产（新增/更新的文件路径清单）
+## 元反思（下次怎么做才能不一样？）
+
+## Truman复盘
+### 逐轮映射（表格：轮次/人做什么/双三角要素/AI做什么/双三角要素）
+### 飞轮效应（本轮加速了哪个回路？）
+### 对照实验（无人会怎样/无AI会怎样/合在一起怎样）
+### 下次改进（Agent自身改进/方法论卡更新）
+```
+
+> ⚠️ 教练曾借鉴黄药师旧版格式（章节名与标准不符）——已提醒修正。**各 Agent 的 -context.md 不得定义独立复盘模板，全部引用 agent-os §10.2。**
 
 ## 为什么值钱
 

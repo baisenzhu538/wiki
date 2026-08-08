@@ -36,15 +36,29 @@ metadata:
 2. **路径格式**：cwd写成Windows路径`C:\Users\...`在WSL报"No such file"。修复：`/mnt/c/Users/...`
 3. **检索规则过时**：SOUL.md写"kdo feature"实际`invalid choice`。修复：查真实入口（kdo-tools/feature_menu.py）更新文档
 
-> 沉淀卡：`dk-agent-access-kdo-pitfalls`（30_wiki/dark-knowledges/）——含三坑诊断+操作方法+适用边界
+> 完整版见 `dk-agent-access-kdo-pitfalls`（30_wiki/dark-knowledges/）——含三坑诊断+smart原理+复用步骤+红线。**本skill只存精简关键事实，完整版以dk卡为准，避免双轨漂移。**
 
-### 第四个坑（2026-08-09 老顽童）：归因谬误——从目录结构猜运行环境
+### smart 模式原理（精简版）
 
-- **症状**：调查"教练Agent怎么绕开审批"时，看到 `agents/agent-basic-skills-coach/` 部署目录里带 `.claude/` 目录 + `CLAUDE.md`，**推断教练Agent跑在Claude Code**，还分析了一套Claude Code白名单机制
-- **根因**：关联谬误——`CLAUDE.md`/`.claude/` 是通用文件命名（Hermes也读 `CLAUDE.md`/`AGENTS.md` 做项目上下文注入），不代表运行框架。把"文件布局"当成"运行环境"的证据
-- **真相**：教练Agent是 **Hermes**（#262任务单L68写明"教练侧已实测验证smart生效"）；绕法 = `hermes config set approvals.mode smart`
-- **修复**：归因看证据链（任务单/配置值/日志），不看表面文件名。正确路径：查 `60_feedback/tasks/` 任务单 → 查 profile config → 查 skill 已有记录（agent-self-iteration L18 早写了修复方式）
-- **教训**：`CLAUDE.md` ≠ Claude Code；`AGENTS.md` ≠ 特定框架。诊断工具/环境归属时，以配置文件和任务单为准
+```
+manual：命令 → 弹确认框 → 网关无UI → 等不到 → 60s超时被杀
+smart ：命令 → 辅助LLM判风险 → 低风险自动放行 ✓ / 高风险标记后仍放行
+```
+
+- smart把"每个命令都要人点头"降级为"辅助LLM替你把关低风险命令"——绕过网关无UI问题，**代价是少一道人工闸门**
+- **红线**：❌不用`--yolo`/`off`（真·绕开）；❌未经用户授权改审批配置（安全底线）；❌以为smart会拦截危险命令（它只标记，拦截靠Agent行为层自律）；✅改完要向用户说明风险
+
+### 复用步骤（网关/无人值守环境，照抄）
+
+```bash
+# 1. 诊断（先确认根因，别怀疑命令本身）
+grep -A3 "approvals" ~/.hermes/config.yaml     # 看 mode / timeout
+# 2. 改 smart（必须用户授权后执行——审批策略是安全底线）
+hermes config set approvals.mode smart
+# 3. 验证（重跑刚才被杀的命令）
+python3 -c "print('ok')"
+# 期望：Command was flagged (...) and auto-approved by smart approval.
+```
 
 ## 五步闭环
 
