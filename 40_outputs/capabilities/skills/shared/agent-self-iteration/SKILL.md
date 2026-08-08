@@ -38,6 +38,14 @@ metadata:
 
 > 沉淀卡：`dk-agent-access-kdo-pitfalls`（30_wiki/dark-knowledges/）——含三坑诊断+操作方法+适用边界
 
+### 第四个坑（2026-08-09 老顽童）：归因谬误——从目录结构猜运行环境
+
+- **症状**：调查"教练Agent怎么绕开审批"时，看到 `agents/agent-basic-skills-coach/` 部署目录里带 `.claude/` 目录 + `CLAUDE.md`，**推断教练Agent跑在Claude Code**，还分析了一套Claude Code白名单机制
+- **根因**：关联谬误——`CLAUDE.md`/`.claude/` 是通用文件命名（Hermes也读 `CLAUDE.md`/`AGENTS.md` 做项目上下文注入），不代表运行框架。把"文件布局"当成"运行环境"的证据
+- **真相**：教练Agent是 **Hermes**（#262任务单L68写明"教练侧已实测验证smart生效"）；绕法 = `hermes config set approvals.mode smart`
+- **修复**：归因看证据链（任务单/配置值/日志），不看表面文件名。正确路径：查 `60_feedback/tasks/` 任务单 → 查 profile config → 查 skill 已有记录（agent-self-iteration L18 早写了修复方式）
+- **教训**：`CLAUDE.md` ≠ Claude Code；`AGENTS.md` ≠ 特定框架。诊断工具/环境归属时，以配置文件和任务单为准
+
 ## 五步闭环
 
 ### Step 1：发现问题（不绕过）
