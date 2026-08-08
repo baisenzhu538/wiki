@@ -100,6 +100,26 @@ spec 只需定义：角色身份（TCPR）+ 核心能力 + 输入输出格式。
 
 **自举成功的标志**：Agent 能在不被提示的情况下，完成"发现问题→查 KDO→建卡→注册→复盘"全链路。教练首次自举耗时 2 轮对话。
 
+## 适用边界
+
+- 适用于 KDO 体系内新建 Agent（有 agent-spec + 三件套标准）
+- 不适用于外部第三方 Agent（无 KDO MOC 导航）
+- Agent 自举的前提：MOC 覆盖率足够 + 终端权限开通 + spec 定义清晰
+- 第一个跑通的 Agent（教练）样本量为 1——第二个 Agent 上线时会验证可复制性
+
+## 为什么值钱
+
+1. **Agent 生产成本从"手配半天"降到"注入三件套 5 分钟"**——黄药师不需要为每个 Agent 写定制 prompt
+2. **Agent 质量上限从"黄药师能想到的"变成"Agent 自己能探索的"**——教练自己查到 MOC、自己建 dk 卡、自己建复盘体系，这些黄药师没教过
+3. **可复制**：三件套是模板——下一个 Agent（如复盘教练 #246）只需换 spec，三件套原样注入
+
+## 与其他知识的关联
+
+- agent-spec-basic-skills-coach → 第一个跑通全链路的 Agent 注册卡
+- dk-agent-access-kdo-pitfalls → Agent 自举过程中踩的坑——已沉淀为 dk 卡
+- concept-kdo-feature-registry → Agent 的武器库——13 个 Feature 是 Agent 了解 KDO 能力的入口
+- kdo-moc → Agent 的导航地图——自举第一步就是查这个
+
 ## 验收标准
 
 1. Agent 在飞书/CLI 端能响应"你知道 KDO 吗？"→ 命中 MOC 导航
