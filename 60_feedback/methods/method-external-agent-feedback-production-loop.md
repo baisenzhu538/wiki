@@ -4,7 +4,8 @@ title: "外部 Agent 反馈→生产深化闭环机制（双驱动固化）"
 type: method
 status: draft
 author: 王语嫣
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 created_at: 2026-08-09
 domain:
   - system
