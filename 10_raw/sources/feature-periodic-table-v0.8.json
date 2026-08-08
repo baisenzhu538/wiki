@@ -219,8 +219,9 @@
       "dimension": "A",
       "purpose": "让AI教你它擅长的用法",
       "scenario": "新工具上手",
-      "case_ref": "",
-      "verified": false
+      "case_ref": "case-252-quality-gate-pilot",
+      "verified": true,
+      "verify_note": "试点#252: HINT_MAP即\"反向教我\"的雏形——lint报错附场景化修复提示，从编译器风格升级为教练风格"
     },
     {
       "id": "F023",
@@ -389,8 +390,9 @@
       "dimension": "D",
       "purpose": "让AI通过视觉化步骤推理",
       "scenario": "图表/设计",
-      "case_ref": "",
-      "verified": false
+      "case_ref": "case-252-quality-gate-pilot",
+      "verified": true,
+      "verify_note": "试点#252: 边界验证——CoV视觉链式思考对门禁体系不适用(门禁是确定性lint非视觉推理)，标记为跨域无效"
     },
     {
       "id": "F040",
@@ -799,8 +801,9 @@
       "dimension": "D",
       "purpose": "Agent持续朝目标推进不偏离",
       "scenario": "目标导向任务",
-      "case_ref": "",
-      "verified": false
+      "case_ref": "case-252-quality-gate-pilot",
+      "verified": true,
+      "verify_note": "试点#252: 门禁体系即\"持续推Goal\"的机制化——CARD_CHECKLIST强制逐项自检、REVIEW_MARK终审标记，让Agent不偏离\"卡片合格\"目标"
     },
     {
       "id": "F081",
@@ -809,8 +812,9 @@
       "dimension": "D",
       "purpose": "Agent完成/遇到问题时主动通知",
       "scenario": "协作",
-      "case_ref": "",
-      "verified": false
+      "case_ref": "case-252-quality-gate-pilot",
+      "verified": true,
+      "verify_note": "试点#252: 门禁的lint报告+REVIEW_MARK即\"主动汇报\"——PASS/FAIL自动通知，审查结果写回卡片"
     },
     {
       "id": "F082",
@@ -849,8 +853,9 @@
       "dimension": "A",
       "purpose": "按能力域分配AI建设职责",
       "scenario": "大团队",
-      "case_ref": "",
-      "verified": false
+      "case_ref": "case-252-quality-gate-pilot",
+      "verified": true,
+      "verify_note": "试点#252: 双轨体系即\"能力分工\"——quality-gate轨(生产者/审查者)与capability轨(AI使用者)按角色分工，互不混编"
     },
     {
       "id": "F086",
