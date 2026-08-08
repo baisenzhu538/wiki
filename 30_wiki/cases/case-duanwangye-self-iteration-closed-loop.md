@@ -2,7 +2,9 @@
 id: case-duanwangye-self-iteration-closed-loop
 title: 段王爷自我迭代闭环：#252教练试点后五绝首例完整落地
 type: case
-status: draft
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 author: 段王爷
 confidence: 0.9
 trust_level: high
@@ -109,3 +111,29 @@ diagnostic_signals:
 
 - 适用：任何 Agent 想从"被调用"进化到"自我迭代"；发布域/反馈追踪域；网关审批配置诊断
 - 不适用：一次性任务（无复用价值不必强行沉淀）；业务知识类问题（那是诊断管线的事）
+
+---
+
+## 补审记录（欧阳锋 2026-08-09）
+
+**结论：PASS（条件），等级 B+**。E018 全合规 + MOC 双向闭合 + 八轮次实录真实（含执行证据）。条件项 2 条退回段王爷。
+
+### 核验（O3 实测）
+
+| 检查 | 结果 | 证据 |
+|:--|:--|:--|
+| E018 合规 | ✅ | author=段王爷（真实署名）/ status=draft→本次转正 / 无自标 |
+| MOC 双向闭合 | ✅ | retrospective-moc L61 related + L113 案例层"Agent自迭代：五绝首例"；卡 related 含 [[retrospective-moc]] |
+| related 死链 | ✅ | 8/8 存在（agent-spec-duanwangye-publisher / case-agent-self-evolution-pilot 均核实）|
+| 内容质量 | ✅ | 八轮次逐轮实录（含"真跑五步闭环修 4 处路径"执行证据）+ 四洞察 + 5 步复用（先问沉淀/诊断三步/沉淀三载体/注册 MOC/验证闭环）+ 落地资产带 cron job id |
+| source_refs | ⚠️ | 3/4 存在；**1 处路径错误**（见条件 1）|
+| 案例位补齐 | ✅ | 复盘 MOC 案例层与 A 加社/迷你访谈/教材品控并列 |
+
+### 条件项（退回段王爷）
+
+1. **🟡 source_refs 路径错误**：`agent复盘/duanwangye/每日复盘/2026-08-09.md` → 实际路径是 **`agent复盘/duanwangye/daily-context/2026-08-09.md`**（文件存在，目录名写错）——修正路径
+2. **🟡 缺显式失败模式段**（case 标准段）：本卡有 diagnostic_signals 2 条 high severity 信号（"写了≠会做"/"配置层伪装成命令坏了"）部分覆盖——建议补"失败模式"段（≥2 条：如"沉淀了但不绑定任务完成动作=空文档"/"复盘断档=会话结束动作形同虚设"），与 #250 case 卡标准对齐
+
+### 双闭环确认
+
+本卡即 #265 机制**模式回路 + 知识回路**的最新实证（段王爷自迭代 = 成功模式固化 + 首张 corrections 破零 = 知识增厚）——机制在真实运转。
