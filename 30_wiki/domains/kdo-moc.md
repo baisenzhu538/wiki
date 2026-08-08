@@ -48,6 +48,7 @@ related:
   - '[[dk-tool-chain-naming-is-infrastructure]]'
   - '[[dk-state-residue-is-the-silent-killer]]'
   - '[[dk-kdo-leaky-pipe-pressure]]'
+  - '[[dk-publish-collapse-to-iterate]]'
   - '[[workflow-cross-agent-fact-dispute]]'
   - '[[tool-mcp-reachability-check]]'
   - '[[tool-kdo-help]]'

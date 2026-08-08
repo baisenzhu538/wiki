@@ -2,7 +2,7 @@
 id: parking-lot-huangyaoshi
 type: parking_lot
 created_at: 2026-06-28
-updated_at: 2026-06-28
+updated_at: 2026-08-08
 owner: 黄药师
 ---
 
@@ -35,6 +35,9 @@ owner: 黄药师
 | P-14 | **SQLite FTS 全文索引** | 黄药师 2026-07-06 | P2 | 待定 | 触发条件：口述稿 ≥20 份 |
 | P-15 | **JSON索引瘦身**：`transcript-index.py` 当前在索引 JSON 里嵌入了全段原文（一份 673KB），口述稿超过 5 份后应改为只存行号，原文从原始口述稿按行号读取 | 黄药师 2026-07-06 | P2 | 待定 | 触发条件：已预处理口述稿 ≥5 份 |
 | P-16 | **自动代码审查 Skill**：子 Agent 回头自检 KDO CLI 代码——Codex 自动代码审查模式迁移到 Claude Code。用 Workflow + Agent 工具实现：写代码→派子 Agent 审查→修复→再审查 | 用户 2026-07-07 | P1 | 1-2d | 待排期 | 需要先调研 Claude Code hooks/skills 的代码审查最佳实践 |
+| P-27 | **Hermes terminal.cwd 固定为 wiki**：`config.yaml` L33 `cwd: .` → `/mnt/c/Users/Administrator/Desktop/wiki`。根治 search_files 搜 30_wiki 跨 /mnt/c 全树超时（老顽童+王语嫣都踩）+ 免每次 cd | 老顽童 2026-08-08（教练Agent闭环诊断） | P1 | 5min | 待排期 | 无 |
+| P-28 | **飞书网关下 approvals.mode=manual 评估**：教练 Agent 因 BLOCKED 切 smart；Hermes 老顽童同配置。至少把 `kdo` 命令加入 `command_allowlist`（当前为空），避免需审批命令 60s 超时被杀；`subagent_auto_approve: false` 也需评估 | 老顽童 2026-08-08（教练Agent闭环诊断） | P1 | 30min | 待排期 | 无 |
+| P-29 | **queue_transition.py 编码修复**：production-queue.md GBK/UTF-8 混排乱码 → 脚本定位任务失败（O-3 已知，多任务已手动 patch + 标注）。方案：队列文件统一 UTF-8 或脚本加编码检测 | 老顽童 2026-08-08（O-3 复现） | P2 | 1d | 待排期 | #218 已知 O-3 |
 
 ---
 

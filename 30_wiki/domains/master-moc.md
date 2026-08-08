@@ -94,7 +94,7 @@ Master 主题域 MOC（本卡）
 │   ├── F 系列（14 张）— 工厂基础设施坑：F-3 竞态 / F-13 YAML 解析 / F-14 准确率
 │   ├── P 系列（20+ 张）— 流程坑：P-1 切模型 / P-13 token 黑洞 / P-42 核查缺位
 │   ├── E 系列（新）— 事故教训：E010 重复键 / P-42 争议裁决
-│   └── dk 独立卡 — 设计原则：infrastructure-guardrails / tool-chain-naming / state-residue
+│   └── dk 独立卡 — 设计原则：infrastructure-guardrails / tool-chain-naming / state-residue / publish-collapse-to-iterate（发布=知识迭代入口）
 │
 ├── 方法论层（跨域通用）
 │   ├── master-decision-hygiene              ← 决策卫生五步法
