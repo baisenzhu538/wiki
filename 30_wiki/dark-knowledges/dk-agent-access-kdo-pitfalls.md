@@ -98,6 +98,41 @@ tags:
 4. **验证**：改完跑一遍 `python3 -c "print('ok')"` + `kdo status` + `feature_menu.py pick --n 3`，看 approval 字段是否 auto-approved
 5. **行为自律**：即使 smart 放行，rm -rf / git push --force / DROP TABLE 类命令默认先问用户
 
+## smart 模式原理与其他Agent复用步骤
+
+### 原理：为什么 smart 不需要确认 UI
+
+```
+manual 模式：命令 → 弹确认框 → 等人工点"同意" → 网关无UI → 永远等不到 → 60s超时被杀
+smart 模式：命令 → 辅助LLM判断风险 → 低风险→自动批准 ✓ / 高风险→弹确认框
+```
+
+- **低风险命令**（`python3 -c`、`ls`、`curl`）：辅助 LLM 判断"安全" → 自动放行，不需要人
+- **高风险命令**（`rm -rf`、删库）：被标记（如 `flagged: delete in root path`）但**实测仍自动批准**——smart 是"标记+放行"，不是"标记+拦截"
+- 关键：smart 把"每个命令都要人点头"降级为"辅助 LLM 替你把关低风险命令"——**网关没有 UI 的问题被绕过，但代价是少了一道人工闸门**
+
+### 其他 Agent 复用步骤（网关/无人值守环境）
+
+```bash
+# 1. 诊断（先确认根因，别怀疑命令本身）
+grep -A3 "approvals" ~/.hermes/config.yaml     # 看 mode / timeout
+
+# 2. 改 smart（必须用户授权后执行——审批策略是安全底线，Agent 不该自己决定放松）
+hermes config set approvals.mode smart
+
+# 3. 验证（重跑刚才被杀的命令，看 approval 字段）
+python3 -c "print('ok')"
+# 期望输出：Command was flagged (...) and auto-approved by smart approval.
+# 如果还是 BLOCKED：检查 timeout 是否太短 / 辅助 LLM 是否可用（auxiliary 配置）
+```
+
+### 红线（不能做的事）
+
+- ❌ **不要用 `--yolo` / `approvals.mode: off`**——那是真·绕开，危险命令无标记全放行
+- ❌ **不要未经用户授权就改审批配置**——这是安全底线，必须用户点头
+- ❌ **不要以为 smart 会拦截危险命令**——它只标记；拦截靠的是 Agent 行为层自律（危险命令先问用户）
+- ✅ 改完要向用户说明风险（smart 仍放行 rm -rf），不能只报喜不报忧
+
 ## 适用边界
 
 - 适用：Hermes Agent 接入 KDO、飞书网关场景、审批配置诊断
