@@ -41,6 +41,7 @@
 |:--|:--|:--|
 | **自我进化** | `self-evolution/SKILL.md` | Agent 自我更新 |
 | **知识碰撞** | `knowledge-collision/SKILL.md` | 跨域碰撞工作流 |
+| **Agent自我迭代** | `agent-self-iteration/SKILL.md` | 发现问题→诊断配置层→修复→沉淀→注册，不绕过（2026-08-09 教练Agent案例） |
 
 ## 段王爷 — 发布 + 反馈
 
