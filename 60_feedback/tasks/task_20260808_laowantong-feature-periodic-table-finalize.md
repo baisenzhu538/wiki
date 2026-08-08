@@ -91,3 +91,18 @@ priority: P0
 2. 对账表产出 5 候选处置 ✅
 3. case_ref 全部带行号 ✅
 4. JSON Schema 通过（字段完整、total 与 features 一致）；git diff 仅 case_ref/新增条目 ✅
+
+## R2 复审修复记录（2026-08-09 老顽童 hermes-cli，欧阳锋 R2 退回 2 项）
+
+### 退回项 1 ✅ F045/F057/F087 证据三选一（采用 ①②）
+- **F045 Prompt版本管理**（①补口述行号）：case_ref 改为 `口述下 L472-474（版本管理：V1/V2/V3/V4 叠加测试迭代）+ L206（能做版本管理）`，verified 保持 True。已实测核验 L472-474 原文确为版本管理上下文
+- **F057 渐进式披露**（②口述无证据降 False）：verified True→False。case_ref 标注"口述无直接表述，截图遮蔽待确认"（保留 KDO #242 实践说明）
+- **F087 共享资产**（②口述无证据降 False）：verified True→False。case_ref 标注"口述无直接表述，截图遮蔽待确认"（保留 KDO #240 实践说明）
+
+### 退回项 2 ✅ missing 字段语义修正
+- `missing: [F097-F100]` → 改名 `inferred_from_oral`（语义准确：这 4 个已存在，是从口述推断补充，非"仍缺"）
+- 新增 `inferred_from_oral_note` 说明遮蔽推断语义；消费端不会再误读为缺位
+
+### 复审后状态
+- verified 分布：True 20 / False 80；total=100、schema 完整、feature_menu 实测可读
+- ⚠️ 说明：F078/F079 同为 KDO 实践引用（#256/#230）无口述行号，本次未在退回清单内未动；如欧阳锋按同标准裁定，可一并降级或补证
