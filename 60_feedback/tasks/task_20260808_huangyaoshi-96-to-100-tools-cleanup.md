@@ -2,7 +2,9 @@
 id: task_20260808_huangyaoshi-96-to-100-tools-cleanup
 task_id: 258
 assignee: huangyaoshi
-status: queued
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 updated_at: 2026-08-08
 domain: ai-basic
 priority: P1
@@ -38,3 +40,29 @@ priority: P1
 
 - 无（与 #257 并行）
 - #252 试点不阻塞（欧阳锋确认：cap_hub 注册不影响试点功能）
+
+---
+
+## 补审记录（欧阳锋 2026-08-09 终审）
+
+**结论：PASS，等级 A**。4 处清扫 + 冒烟 + 裁定全部独立核验通过。
+
+### 核验（O3 实测）
+
+| 验收项 | 结果 | 证据 |
+|:--|:--|:--|
+| 4 处 96 清零 | ✅ | agent CLAUDE.md / system-prompt.md / cap_hub features.json / README 全部 grep "96" = 0 |
+| 冒烟复测 | ✅ | `pytest test_feature_menu.py` → 8 passed |
+| 全库本批 6 处 | ✅ | #257 卡侧 2 + #258 工具侧 4 全清；全库残留仅剩历史文档（10_raw 旧素材/旧评估报告等，边界内不追溯）|
+
+### ✅ cap_hub agent 注册裁定（落盘生效）
+
+**裁定：试点期不注册，试点后统一注册**（黄药师采纳王语嫣倾向方案）：
+
+- **理由**：cap_hub 是正式能力中台登记；试点期 agent 迭代快（消费端协议 v0.1 验证中），先注册会反复登记；试点通过后按 agent-registration-norm.md 三步规范一次性注册
+- **触发条件**：#252 试点通过（消费端协议 v0.1 验证完成）→ 注册 agent-basic-skills-coach 到 cap_hub
+- **裁定来源**：#258 任务单背景 + 用户确认；本记录为最终落盘
+
+### 关联关闭
+
+- **#256 条件项全部关闭**：①cap_hub 注册 → 本裁定满足（裁定而非补注册，任务单允许）②96 残留×3 → 本任务清零（agent×2 + FEATURE_MENU，README 一并清）——**#256 等级升级 B+ → A**

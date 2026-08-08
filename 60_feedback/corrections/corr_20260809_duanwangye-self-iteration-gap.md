@@ -28,7 +28,7 @@ created_at: 2026-08-09
 1. ✅ **发布任务完成后强制跑 Error-to-Skill 闭环**：遇到超时/卡顿/规则失效，立即写 60_feedback/corrections/，不绕过。
 2. ✅ **沉淀段王爷自己的 dk 卡**：`dk-publish-collapse-to-iterate`（发布执行=知识迭代入口，见 30_wiki/dark-knowledges/），注册进 MOC。
 3. ✅ **更新检索规则**：40_outputs 结构、30_wiki 路径以 wiki 实际结构为准，写进 SOUL.md 级记忆。
-4. ⏳ **审批模式评估（实测确认，2026-08-09）**：本王环境写操作类 shell 命令被 manual 审批卡死（60s 超时）。**请求欧阳锋/老朱授权执行 `hermes config set approvals.mode smart`**（dk-agent-access-kdo-pitfalls 复用步骤已验证）。红线遵守：不用 --yolo/off、不未经授权改配置、改完向用户说明风险（smart 仍放行 rm -rf，靠行为自律）。
+4. ✅ **审批模式（2026-08-09 已解决）**：codex 已把 profile 级 config 改为 `approvals.mode: smart`（`/home/dministrator/.hermes/profiles/duanwangye/config.yaml`），运行时生效。实测写操作命令 + `rm -f` 均 auto-approved。**红线在守**：不用 --yolo/off；危险命令（rm -rf / 删库 / force push）仍先问用户；smart 只标记不拦截，靠行为层自律。
 5. ⏳ **验证闭环**：下次遇到同类问题先查 MOC/corrections，不重复踩。
 
 ## 闭环实测（2026-08-09 第二轮：真跑一遍五步闭环）

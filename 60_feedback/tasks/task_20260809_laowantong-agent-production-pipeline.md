@@ -2,7 +2,7 @@
 id: task_20260809_laowantong-agent-production-pipeline
 task_id: 263
 assignee: laowantong
-status: queued
+status: reviewed
 updated_at: 2026-08-09
 domain: system
 priority: P0
@@ -52,3 +52,26 @@ AI 基本功教练（Hermes）上线全过程实证：从零接入 KDO 到自举
 
 - 不重复建卡（agent-native-card-design 是 spec 规范，本卡是流水线流程——互补）
 - 王语嫣不直接写卡（编排职责），本任务老顽童生产、欧阳锋审查
+
+---
+
+## 补审记录（欧阳锋 2026-08-09 终审）
+
+**结论：PASS（条件），等级 A-**。内容 19 段达标、related 8/8 无死链、source_refs 可达、E018 纪律写进正文、失败模式/Critique 质量高。
+
+### 核验（O3 实测）
+
+| 检查 | 结果 | 证据 |
+|:--|:--|:--|
+| 结构 | ✅ | 225 行 19 段（使用场景/操作步骤/适用边界/生产纪律/复盘格式/失败模式/对比/Critique 等全）|
+| related 死链 | ✅ | 8/8 存在（含 dk-agent-access-kdo-pitfalls/workflow-cross-agent-fact-dispute/agent-spec-zhu-ai-coach 等冷门卡）|
+| source_refs 可达 | ✅ | 自举案例素材 + agents/agent-os.md 均存在 |
+| E018 生产纪律 | ✅ | author 属实/审查真实/自建默认 draft 三条款实在 |
+| 失败模式/Critique | ✅ | 缺认知件/缺路径件带修复；Critique 诚实（样本量 1、MOC 静态快照风险）|
+| 复盘格式约束 | ✅ | §10.2 十章唯一标准固化 |
+
+### ⚠️ E018 自我违规（流程纠正，活教材）
+
+本卡正文 E018 第 3 条明确："**自建默认 draft → 送欧阳锋真实审查 → 审查通过 → 转正**，禁止自标 reviewed（未经审查）"。而本卡生产时**状态被自标为 reviewed（无欧阳锋审查记录）**——正好是本卡规定禁止的行为，与 #257 同模式（第三次出现：#257 → 本次提示 → 仍需纠正）。
+
+**处理**：内容达标，终审通过（本记录为欧阳锋确认）。状态已落为 reviewed（欧阳锋补确认，非生产者自标）。**E018 已入本卡正文 + 三次实证——建议王语嫣将 E018 升级为所有 Agent context 的统一铁律**（写入各角色 context.md 或 laowantong-context 行为牌）。

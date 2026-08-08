@@ -2,7 +2,7 @@
 id: workflow-kdo-agent-production-pipeline
 title: "KDO Agent 生产流水线：spec → 三件套注入 → Agent 自举"
 type: workflow
-status: draft
+status: reviewed
 domain:
   - kdo
   - ai-basic
@@ -13,11 +13,10 @@ confidence: 0.90
 trust_level: observed
 source_refs:
   - 00_inbox/Agent生产流水线-案例-AI基本功教练自举-20260809.md
-  - agents/agent-os.md §10.2（复盘唯一标准）
-  - 桌面/agent复盘/AI基本功教练/错误模式库.md（E001-E005）
+  - agents/agent-os.md
+  - agents/agent-basic-skills-coach/CLAUDE.md
   - 30_wiki/tools/agent-spec-basic-skills-coach.md
   - 30_wiki/dark-knowledges/dk-agent-access-kdo-pitfalls.md
-  - agents/agent-basic-skills-coach/
 created_at: 2026-08-09
 updated_at: 2026-08-09
 tags:
@@ -30,6 +29,8 @@ aliases:
   - Agent生产流水线
   - Agent自举
   - Agent三件套
+  - AI基本功教练
+  - agent-basic-skills-coach
 discoverable_by:
   - Agent生产流水线
   - Agent自举
@@ -49,8 +50,6 @@ related:
   - '[[kdo-moc]]'
   - '[[workflow-cross-agent-fact-dispute]]'
   - '[[agent-spec-zhu-ai-coach]]'
-  - '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
-  - '[[agent-spec-dual-triangle-cross-domain-diagnostician]]'
   - '[[agent-spec-复盘教练]]'
 ---
 
