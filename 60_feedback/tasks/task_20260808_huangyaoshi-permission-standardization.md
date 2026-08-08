@@ -61,3 +61,11 @@ priority: P0
 **偏差 1：SOUL.md 检索规则过时**——写"Feature 点菜用 `kdo feature`"，但 kdo 命令无 feature 子命令（实际入口 `kdo-tools/feature_menu.py`）。处置：更新 SOUL.md/检索规则文档为实际入口；或把 feature_menu.py 注册为 kdo 子命令（统一入口，黄药师裁定——最小动作是改文档）
 
 **偏差 2：cap_hub/features.json GBK 编码**——UTF-8 解码失败（字节级确认），其他工具读取会乱码。处置：转码 UTF-8（对齐全库标准），转码后验证 json 可解析 + FEATURE_MENU 读取正常
+
+## 🆕 飞书欧阳锋请求并入（2026-08-09，corr_20260808_ouyangfeng-self-iteration.md）
+
+① `cmd.exe`/`iconv`/`dir` 等只读命令加进 approvals whitelist（飞书欧阳锋实测：复杂内联命令被 BLOCKED——"user has NOT consented"）
+② 飞书网关 approvals.mode 评估（至少只读命令放行；长期 smart——教练侧已实测验证 smart 生效）
+④ production-queue 编码统一修复（UTF-8-SIG 混合 mojibake，历史遗留挂账——本次落实）
+
+**请求③（ouyangfeng-context.md runtime）不归本任务**——双实例问题（Claude 端 Kimi Code CLI 描述正确），由用户拍板：共享文件双注 vs 飞书端独立配置。
