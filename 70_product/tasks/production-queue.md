@@ -477,7 +477,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 240 | `task_20260806_huangyaoshi-domain-cleanup-final` | 域名收尾：23中文域语义查重（重叠合并/独立白名单）+粘连残留1张+src_unknown下划线9张统一 | reviewed | huangyaoshi | ~35 张 | #239 reviewed 后；不阻塞 #238 | \`60_feedback/tasks/task_20260806_huangyaoshi-domain-cleanup-final.md\` | ✅欧阳锋审查PASS(条件)(2026-08-06)：粘连0/src_unknown 0/YAML健康(1归档遗留)；语义合并有效；🟠确认"15个中文域白名单"位置(domain-routes.yaml是10个，如有新增请指路)；域名治理#237/239/240全闭环<!-- 手动终审：queue_transition被拦+O-3 --> |  |
 
-| 241 | `task_20260806_huangyaoshi-master-moc` | master主题域MOC索引卡（横向序列②，104张） | queued | huangyaoshi | 1 张MOC | #238 reviewed + #240 后 | \`60_feedback/tasks/task_20260806_huangyaoshi-master-moc.md\` | 模板复用#236/#238定稿版（含状态联动）；后续product→kdo依此类推 |
+| 241 | `task_20260806_huangyaoshi-master-moc` | master主题域MOC索引卡（横向序列②，104张） | reviewed | huangyaoshi | 1 张MOC | #238 reviewed + #240 后 | \`60_feedback/tasks/task_20260806_huangyaoshi-master-moc.md\` | ✅欧阳锋确认审PASS(2026-08-09)：master-moc.md 127行/type index/related 16+正文引用27全无死链(F4门禁0强制通过)/KDO自身运营知识定位清晰。注：卡早已建成，仅队列状态未流转——补流转闭环<!-- 手动终审：queue_transition被拦+O-3 --> |
 
 | 242 | `task_20260806_huangyaoshi-deadlink-lint-gate` | 死链检测纳入lint门禁：F2全库模式修正+MOC/索引类卡死链0强制（防增量） | reviewed | huangyaoshi | 1 项lint规则 | 无（可与#238修复并行） | \`60_feedback/tasks/task_20260806_huangyaoshi-deadlink-lint-gate.md\` | ✅欧阳锋审查PASS(2026-08-06)：F4 MOC死链门禁落地——MOC_TYPES{index/digest/moc}死链→ERROR阻断；普通卡维持WARNING；5张MOC零死链验证；#238事故防复发门禁就位<!-- 手动终审：queue_transition被拦+O-3 --> |  |
 

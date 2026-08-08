@@ -5,9 +5,9 @@ type: index
 domain:
   - system
   - master
-status: draft
+status: reviewed
 author: 黄药师
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 review_date: 2026-08-06
 confidence: 0.85
 trust_level: observed
