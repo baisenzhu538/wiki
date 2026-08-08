@@ -56,11 +56,21 @@ type: memory/role-recovery
 
 ---
 
-## 4. 当前状态（截至 2026-07-24）
+## 4. 当前状态（截至 2026-08-09）
 
-- **#199**：`task_20260724_wangyuyan-blind-test-three-layer-fix` 已入队，等待领取
-- **#198/#197**：已完成并通过终审
-- **当前**：待命，按队列顺序领取任务
+- **#255/#257**：Feature 周期表收尾已终审通过（reviewed），R2 退回 2 项已修复（F045 补口述行号 L472-474 / F057、F087 降 verified=False / missing 字段改名 inferred_from_oral）
+- **队列**：无老顽童可领任务——4 个 queued 全归黄药师（#241 master-moc、#260/#261/#262 agent-*），#252 王语嫣已领取（claimed-wangyuyan）
+- **遗留提示**：F078/F079 与 F057/F087 同构（KDO 实践引用 #256/#230 无口述行号），已在 #255 任务单 R2 记录注明，留待欧阳锋裁定
+- **parking lot**：`tool-泛产品设计-出牌指南 缺 frontmatter` 已验证过时（pre-submit PASS），标记 ✅ 已解决
+- **当前**：待命。重启后说"继续"→ 直接读本节 + 跑 `queue_transition.py status` 确认队列，无需重新摸状态
+
+## 4.1 快速恢复口令（2026-08-09 新增）
+
+用户说"继续"时按此顺序执行（<2 分钟恢复）：
+1. `queue_transition.py status` → 看 queued/claimed/pending_review 分布
+2. 有老顽童可领的 queued → `claim`；没有 → 跑维护义务清单（parking lot 实测清理 / 锚点 §4 更新 / 复盘补写）
+3. 上次会话遗留 → 先查 `60_feedback/tasks/` 最新任务单的审查结论（识别"reviewed+条件项"分支），再决定是否补修复
+4. 收尾四件套是 todo 显式条目：技能进化日志 / 锚点 §4 / Truman 复盘 / `daily-context-save.py save`
 
 ---
 
