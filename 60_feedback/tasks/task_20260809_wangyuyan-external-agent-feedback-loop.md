@@ -2,7 +2,7 @@
 id: task_20260809_wangyuyan-external-agent-feedback-loop
 task_id: 265
 assignee: wangyuyan
-status: queued
+status: in_progress
 updated_at: 2026-08-09
 domain: system
 priority: P1
