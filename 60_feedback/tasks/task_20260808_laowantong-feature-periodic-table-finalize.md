@@ -1,9 +1,9 @@
 ---
 id: task_20260808_laowantong-feature-periodic-table-finalize
 task_id: 255
-assignee: laowantong
-status: queued
-updated_at: 2026-08-08
+assignee: hermes-cli
+status: in_progress
+updated_at: '2026-08-08T17:08:24.549952+00:00'
 domain: ai-basic
 priority: P0
 ---
