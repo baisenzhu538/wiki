@@ -1,7 +1,7 @@
 ---
 title: 老顽童失忆恢复记录
 created_at: 2026-07-24
-updated_at: 2026-07-24
+updated_at: 2026-08-09
 type: memory/role-recovery
 ---
 
