@@ -51,6 +51,7 @@ related:
   - '[[dk-kdo-leaky-pipe-pressure]]'
   - '[[dk-tool-chain-naming-is-infrastructure]]'
   - '[[dk-state-residue-is-the-silent-killer]]'
+  - '[[dk-publish-collapse-to-iterate]]'
   - '[[kdo-flywheel]]'
   - '[[master-decision-hygiene]]'
   - '[[master-systems-thinking]]'

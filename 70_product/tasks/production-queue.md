@@ -511,3 +511,5 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 261 | `task_20260808_huangyaoshi-agent-global-awareness` | KDO全局认知标准化（所有角色agent）：context同步MOC清单+段王爷部署确认+飞书端MCP桥推广 | queued | huangyaoshi | 认知/路径/检索三件套 | #260（复用coach桥） | \`60_feedback/tasks/task_20260808_huangyaoshi-agent-global-awareness.md\` | 用户期望"所有agent都必须知道KDO全局"固化；飞书端全体检索层缺口 |
 
 | 262 | `task_20260808_huangyaoshi-permission-standardization` | 命令权限标准化（agent被拦治理）：settings.json补cd/node等+template对齐+飞书Hermes执行层确认+被拦清单 | queued | huangyaoshi | 权限三处+清单 | 与#261配套 | \`60_feedback/tasks/task_20260808_huangyaoshi-permission-standardization.md\` | 用户实测触发：多agent反馈命令行被拦截；模板与实际不一致=新agent天然缺权限 |
+
+| 263 | \`task_20260809_laowantong-agent-production-pipeline\` | Agent生产流水线workflow卡（模式固化）：spec→三件套注入→Agent自举三步+生产纪律E018+复盘格式约束 | queued | laowantong | 1张workflow | 无 | \`60_feedback/tasks/task_20260809_laowantong-agent-production-pipeline.md\` | 教练自举实证固化；实证案例00_inbox/Agent生产流水线-案例 |
