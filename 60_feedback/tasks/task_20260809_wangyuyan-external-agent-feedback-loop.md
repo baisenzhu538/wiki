@@ -45,3 +45,13 @@ priority: P1
 
 - #264（E018 铁律升级——机制里的"流程回路"依赖铁律就位）
 - 不阻塞（机制设计先行，落地可后置）
+
+---
+
+## 完成记录（2026-08-09）
+
+- ✅ 机制文档落盘：`60_feedback/methods/method-external-agent-feedback-production-loop.md`
+  - 四回路模型（知识/数据/流程/模式）+ 四条流入通道 + 触发规则 + agent 侧义务
+  - Dogfooding 自验证：教练反馈四回路全部走通（三连坑→dk / 5Feature→回填 / E018→铁律 / 自举→流水线）
+- ✅ 用户确认无调整 → **送欧阳锋审查**（机制文档 + 本任务）
+- 状态：in_progress → 待审（欧阳锋审过后转 reviewed）
