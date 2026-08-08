@@ -2,12 +2,13 @@
 id: case-252-quality-gate-pilot
 title: "#252 消费端协议试点：用Feature思维分析卡片质量门禁体系"
 type: case
-status: reviewed
+status: draft
 domain:
   - ai-basic
   - kdo
 author: AI基本功教练
-reviewed_by: 待审
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 confidence: 0.9
 trust_level: observed
 source_refs:
