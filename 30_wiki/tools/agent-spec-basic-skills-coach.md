@@ -32,6 +32,7 @@ related:
   - bridge-dual-track-feature-system
   - agent-spec-复盘教练
   - dk-agent-access-kdo-pitfalls
+  - case-252-quality-gate-pilot
 tags:
   - method:agent-spec
   - method:coaching
