@@ -508,7 +508,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 260 | `task_20260808_huangyaoshi-agent-knowledge-access` | KDO Agent知识接入规范（agent用知识库基建缺口）：系统提示知识地图段+检索工具接入+coach试点 | reviewed | huangyaoshi | 规范+coach接入 | 无 | \`60_feedback/tasks/task_20260808_huangyaoshi-agent-knowledge-access.md\` | ✅欧阳锋终审PASS A(2026-08-09)：system-prompt KDO接入段完整(5 MOC+检索规则3条"先查MOC不凭记忆/不编造")+CLAUDE.md点菜命令修正(python全路径)+coach实测命中MOC<!-- 手动终审：queue_transition被拦+O-3 --> |
 
-| 261 | `task_20260808_huangyaoshi-agent-global-awareness` | KDO全局认知标准化（所有角色agent）：context同步MOC清单+段王爷部署确认+飞书端MCP桥推广 | reviewed | huangyaoshi | 认知/路径/检索三件套 | #260（复用coach桥） | \`60_feedback/tasks/task_20260808_huangyaoshi-agent-global-awareness.md\` | ✅欧阳锋终审PASS(条件)B+(2026-08-09)：报告6/6注入统一模板(5 MOC+检索规则+"不凭记忆回答")。条件：SOUL.md在飞书端本地不可验证——飞书端抽查确认后条件关闭<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 261 | `task_20260808_huangyaoshi-agent-global-awareness` | KDO全局认知标准化（所有角色agent）：context同步MOC清单+段王爷部署确认+飞书端MCP桥推广 | reviewed | huangyaoshi | 认知/路径/检索三件套 | #260（复用coach桥） | \`60_feedback/tasks/task_20260808_huangyaoshi-agent-global-awareness.md\` | ✅欧阳锋复审PASS(条件)B+(2026-08-09 R2)：domain-mapping.md落盘✅(两视图映射+三处登记规则+ai-basic入列+白名单引用routing-rules不重复)。条件：①飞书端抽查7 Agent指向(本地不可验证)②🟢教练system-prompt建议补domain-mapping引用(现仍指MOC导航——需确认设计意图:导航vs域清单双轨)③🟢卡片数标统计日期<!-- 手动终审：queue_transition被拦+O-3 --> |
 
 | 262 | `task_20260808_huangyaoshi-permission-standardization` | 命令权限标准化（agent被拦治理）：settings.json补cd/node等+template对齐+飞书Hermes执行层确认+被拦清单 | reviewed | huangyaoshi | 权限三处+清单 | 与#261配套 | \`60_feedback/tasks/task_20260808_huangyaoshi-permission-standardization.md\` | ✅欧阳锋终审PASS(条件)B+(2026-08-09)：教练manual→smart实测代码执行auto-approved(被拦根因=manual 60s超时)+5角色config.yaml确认smart。条件：config.yaml飞书端本地不可验证——飞书端抽查后关闭<!-- 手动终审：queue_transition被拦+O-3 --> |
 
