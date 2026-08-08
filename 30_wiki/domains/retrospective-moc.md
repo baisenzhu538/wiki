@@ -58,6 +58,7 @@ related:
   - '[[case-一堂-迷你访谈五周迭代]]'
   - '[[case-一堂-教材品控事故]]'
   - '[[case-莹莹-before-after复盘]]'
+  - '[[case-duanwangye-self-iteration-closed-loop]]'
   - '[[bridge-个人复盘×知识管理W-Z-K-P]]'
   - '[[yt-personal-deep-review]]'
 ---
@@ -108,7 +109,8 @@ related:
 │   ├── case-一堂-A加社失败归因→一堂诞生  ← 20元获客→9.9崩塌→四维归因→47坟
 │   ├── case-一堂-迷你访谈五周迭代          ← 感觉→事实→原因→模型逐层调参
 │   ├── case-一堂-教材品控事故              ← 归因到能力层全链路
-│   └── case-莹莹-before-after复盘          ← 吸收率 3%→50%，before/after 实证
+│   ├── case-莹莹-before-after复盘          ← 吸收率 3%→50%，before/after 实证
+│   └── case-duanwangye-self-iteration-closed-loop ← Agent自迭代：五绝首例（#252试点后）
 │
 ├── 桥接层（#233 新建 + 预留）
 │   ├── bridge-个人复盘×知识管理W-Z-K-P    ← 复盘=知识萃取起点
