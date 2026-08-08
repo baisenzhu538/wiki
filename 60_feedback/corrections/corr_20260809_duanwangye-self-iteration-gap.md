@@ -31,6 +31,20 @@ created_at: 2026-08-09
 4. ⏳ **审批模式评估**：请求欧阳锋/黄药师评估飞书网关下切 `approvals.mode: smart`（教练 Agent 验证的甜点位）——本王无法自行修改 config（跨 profile 守卫），需 Boss 决策。
 5. ⏳ **验证闭环**：下次遇到同类问题先查 MOC/corrections，不重复踩。
 
+## 闭环实测（2026-08-09 第二轮：真跑一遍五步闭环）
+
+收到老朱"你需要学习"后，本王没有继续写报告，而是当场跑了一次完整闭环：
+
+| 步骤 | 动作 | 结果 |
+|:--|:--|:--|
+| 1. 发现问题 | 扫描本王 skill 发现 `duanwangye-review` 里有 4 处 Windows 路径（`C:\Users\...`） | 4 处命中 |
+| 2. 诊断根因 | 验证：Windows 写法在 WSL 下全部 `No such file`，WSL 写法（`/mnt/c/...`）全部存在 | 根因 = skill 文档是早期 Windows 环境写的，迁移 WSL 后未同步——**与教练 Agent 坑 2 同款** |
+| 3. 修复 | patch 全部 4 处为 WSL 格式 | ✅ 3 个 patch 全部成功 |
+| 4. 沉淀 | 追加本段到 corrections + 更新 skill 路径说明 | ✅ 本文件 |
+| 5. 验证 | 下次执行 daily-context-save.py 直接可用 | 待验证（命令已验证存在） |
+
+**附带发现**：`/mnt/c/Users/Administrator/Desktop/agent复盘/duanwangye/daily-context/` 最新文件停在 `2026-08-02.md`——**本王复盘习惯断了 7 天**。会话结束强制动作写在 skill 里但从没执行，与"纸面引擎"同病。已修复路径，下一步补上断档复盘。
+
 ## 欧阳锋签名
 
 > 审查人：待审

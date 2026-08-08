@@ -439,7 +439,7 @@
       "dimension": "D",
       "purpose": "新窗口测试不同方向再回来合并",
       "scenario": "探索性任务",
-      "case_ref": "周期表V0.8截图 L2F节奏控制（口述无独立讲解行）",
+      "case_ref": "周期表V0.8截图 L2F节奏控制（口述无独立讲解行；参照下口述 L472-474 版本管理迭代上下文）",
       "verified": false
     },
     {
@@ -969,7 +969,7 @@
       "dimension": "D",
       "purpose": "让AI通过视觉化步骤推理，图表的CoT版本",
       "scenario": "图表/设计分析",
-      "case_ref": "口述下 2D拆分任务（CoV与CoT并列）",
+      "case_ref": "M3重试OCR L133（2D拆分任务：用CoT/CoV）+ 口述下 L514（思维链）",
       "verified": false
     },
     {
@@ -989,7 +989,7 @@
       "dimension": "D",
       "purpose": "让AI同时生成N个不同方向的方案供选择",
       "scenario": "创意/头脑风暴",
-      "case_ref": "口述下（多方案对比）",
+      "case_ref": "口述下 L528（加一些N选一）+ L550（多选N选一）",
       "verified": false
     },
     {
@@ -1010,17 +1010,17 @@
     {
       "candidate": "里程碑/编号控制",
       "disposition": "新增 F098",
-      "oral_ref": "口述下 L518"
+      "oral_ref": "口述下 L518（8个设计里程碑）+ L526（2-4个里程碑）"
     },
     {
       "candidate": "N选一/备选方案",
       "disposition": "新增 F099",
-      "oral_ref": "口述下"
+      "oral_ref": "口述下 L528+L550"
     },
     {
       "candidate": "参考案例",
-      "disposition": "表内已覆盖 F013 Few-shot",
-      "oral_ref": "口述下 L206"
+      "disposition": "表内已覆盖 F026 Few-shot示例",
+      "oral_ref": "口述上 L336（给他几个参考案例/For shot）"
     },
     {
       "candidate": "反向确认",
@@ -1029,8 +1029,15 @@
     },
     {
       "candidate": "增强数据",
-      "disposition": "表内已覆盖 F014 DataPack + F015 RAG",
-      "oral_ref": "口述下 L206"
+      "disposition": "表内已覆盖 F029 给DataPack + F030 RAG检索增强",
+      "oral_ref": "口述下 L242（给了他十个数据包）+ L276"
     }
-  ]
+  ],
+  "missing": [
+    "F097",
+    "F098",
+    "F099",
+    "F100"
+  ],
+  "missing_note": "V0.8 化学元素视觉皮肤遮蔽，从口述推断补充；F097/F099 未截图确认（verified=false），F098/F100 有口述行号支撑"
 }
