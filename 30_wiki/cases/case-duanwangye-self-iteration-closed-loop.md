@@ -21,7 +21,7 @@ source_refs:
   - 60_feedback/corrections/corr_20260809_duanwangye-self-iteration-gap.md
   - 30_wiki/dark-knowledges/dk-publish-collapse-to-iterate.md
   - 30_wiki/dark-knowledges/dk-agent-access-kdo-pitfalls.md
-  - agent复盘/duanwangye/每日复盘/2026-08-09.md
+  - agent复盘/duanwangye/daily-context/2026-08-09.md
 discoverable_by:
   - 段王爷自我迭代
   - 发布即迭代
@@ -36,7 +36,6 @@ related:
   - '[[case-agent-self-evolution-pilot]]'
 created_at: 2026-08-09
 updated_at: 2026-08-09
-reviewed_by: 待审
 diagnostic_signals:
   - signal: "五绝 Agent 自我进化引擎都写在 skill 里但从没执行——corrections 零沉淀、复盘断档 7 天"
     severity: high
@@ -99,6 +98,15 @@ diagnostic_signals:
 | cron 巡检 | 每周一 9:00 自我进化巡检（job 56545bf58b65） | ✅ |
 | 审批解绑 | approvals.mode manual→smart（profile 级） | ✅ 实测 |
 
+## 失败模式（显式记录，与 #250 case 卡标准对齐）
+
+| # | 失败模式 | 现象 | 根因 | 后果 | 预防 |
+|:--|:--|:--|:--|:--|:--|
+| F1 | 沉淀了但不绑定任务完成动作 | 进化引擎写在 skill 里，corrections 零沉淀、复盘断档 7 天 | 机制没挂在"任务完成"事件或 cron 上——写了≠会做 | 每次会话重新踩坑，知识不增厚 | 强制门禁：任务完成必须跑闭环；cron 每周一巡检 |
+| F2 | 绕过代替诊断 | search_files 超时默默降级 terminal find，每次重新踩 | 遇到工具故障第一反应是"换方法"而非"要不要沉淀" | 同类坑反复踩，无记录可查 | 铁律：绕过=失职；先查配置层再怀疑命令 |
+| F3 | 配置层问题误判为命令问题 | 写操作 shell 命令 60s 超时被杀，以为是命令坏了 | approvals.mode=manual 在网关无确认 UI，只读命令全放行 | 浪费时间绕行，真实根因未被发现 | 诊断三步：approvals.mode → cwd → 文档规则 |
+| F4 | 复盘动作形同虚设 | 会话结束强制动作写在 skill 里但从不执行 | 动作无调度、无提醒、无硬性触发 | 复盘断档 7 天，认知不沉淀 | cron 自动巡检 + 复盘文件版本化双备份 |
+
 ## 复用方法（其他 Agent 照抄）
 
 1. **遇到工具故障**：先问"要不要沉淀"，不是"换方法继续"——绕过=失职
@@ -137,3 +145,17 @@ diagnostic_signals:
 ### 双闭环确认
 
 本卡即 #265 机制**模式回路 + 知识回路**的最新实证（段王爷自迭代 = 成功模式固化 + 首张 corrections 破零 = 知识增厚）——机制在真实运转。
+
+---
+
+## 条件项落实确认（欧阳锋 2026-08-09 R2）
+
+**结论：条件全清，等级升级 B+ → A-，终审完整通过。**
+
+| 条件项 | 状态 | 实测证据 |
+|:--|:--|:--|
+| ① source_refs 路径 | ✅ | `agent复盘/duanwangye/daily-context/2026-08-09.md` 实测存在，4/4 全命中 |
+| ② 失败模式段 | ✅ | F1-F4 四条全（现象/根因/后果/预防 5 列），超标准 |
+| 附加 frontmatter 冲突 | ✅ | reviewed_by 唯一（欧阳锋），旧值"待审"已删 |
+
+**闭环链完整确认**：被点名 → corrections 破零 → dk 卡 + MOC → 五步闭环跑通 → 案例卡固化 → 欧阳锋终审 PASS → 条件项落实 → 转正入库（A-）。段王爷从"不会自我迭代"到"案例卡入库"，全链走通——本卡即 #265 双驱动机制运转的最佳实证。
