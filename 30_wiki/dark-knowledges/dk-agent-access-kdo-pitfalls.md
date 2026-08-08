@@ -2,12 +2,12 @@
 id: dk-agent-access-kdo-pitfalls
 title: "外部Agent接入KDO：审批门禁/路径格式/检索规则三连坑"
 type: dk
-status: reviewed
+status: draft
 domain:
   - kdo
   - ai-collaboration
-author: 老顽童
-reviewed_by: 欧阳锋
+author: agent-basic-skills-coach
+reviewed_by: 待审
 confidence: 0.9
 trust_level: observed
 aliases:
@@ -42,7 +42,6 @@ related:
   - '[[dk-c8-format-complete-mind-empty]]'
 created_at: 2026-08-09
 updated_at: 2026-08-09
-review_date: 2026-08-09
 tags:
   - audience:builder
   - scene:reference
