@@ -46,3 +46,9 @@ python kdo-tools/feature_menu.py pick --n 3  # 确认点菜可用
 | dual-triangle-canvas-filler | tools/ | yitang/ai-collaboration |
 
 > 登记：2026-08-08 黄药师 | #251 先行B
+
+## 已注册 Agent
+
+| Agent | 状态 | 注册日期 |
+|:--|:--|:--|
+| basic-skills-coach | active | 2026-08-09 |

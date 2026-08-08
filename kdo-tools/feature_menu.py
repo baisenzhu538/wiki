@@ -24,7 +24,9 @@ def load():
 
 def fmt(f):
     v = "V" if f.get("verified") else "?"
-    return f"{f['id']} {v} [{f['layer']}][{f['dimension']}] {f['name']:<20} {f['purpose'][:50]}"
+    note = f.get("verify_note", "")
+    note_str = f" [{note}]" if note else ""
+    return f"{f['id']} {v}{note_str} [{f['layer']}][{f['dimension']}] {f['name']:<20} {f['purpose'][:50]}"
 
 
 def cmd_list():
