@@ -3,6 +3,8 @@ id: task_20260808_laowantong-96-to-100-cards-cleanup
 task_id: 257
 assignee: laowantong
 status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 updated_at: 2026-08-08
 domain: ai-basic
 priority: P1
