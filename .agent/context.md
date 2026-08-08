@@ -1,16 +1,16 @@
 ---
-updated: 2026-08-06
-updated_at: 2026-08-06T00:30:00+00:00
+updated: 2026-08-09
+updated_at: 2026-08-09T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#233/#234/#235 已入队（Truman 个人深度复盘课卡片化：核心框架 6 张 + 深度案例 4 张 + 已有卡补链 4 张）。诊断 diag_20260806_wangyuyan-deep-review.md 完成（三方法前置+口述稿 3838 行全量通读）。等老顽童领取生产。"
+active_task: "全链收官（2026-08-08/09）：#248-266 全部终审闭环，生产队列清空。Feature 域（周期表 100/100 + W0-W4）+ Agent 基建（#260-266）+ 双驱动机制（#265）固化。遗留：飞书端抽查（#261 条件①）、协议 v0.2 候选（verified 语义声明/info 显示 verify_note）、审查方法论卡 v2.2 候选。"
 blockers:
-  - "production-queue.md 全文件中文 mojibake 损坏（UTF-8-SIG 混合编码）——历史遗留，新行正常 UTF-8；提请黄药师做编码修复（与 design domain 同类问题）"
+  - "production-queue.md 全文件中文 mojibake 损坏（UTF-8-SIG 混合编码）——历史遗留，新行正常 UTF-8；提请黄药师做编码修复"
   - "queue_transition.py review 路径被 auto mode 分类器拦截 + O-3 已知 bug——终审状态变更走手动 patch（加注释）"
   - "当前任务状态见 production-queue.md（唯一真相源）"
   - "旧任务文件 laowantong-next-tasks.md / laowantong-batch-*.md 已废弃——不要读。"
-next_session_hint: "下一步：① #213 等老顽童修复后复审（只看修复点，内容不用动）；② 黄药师处理 pre-submit section 名校验漏洞（P2-1）+ #159/#163；③ 欧阳锋月度抽检继续；④ 停车场 O-3 queue_transition.py 待黄药师修。"
+next_session_hint: "① 用户重启后说'继续'→读本文件 + ouyangfeng-context.md + 20_memory/ouyangfeng-amnesia-recovery.md + 桌面/agent复盘/ouyangfeng/daily-context/2026-08-09.md；② 队列已清空——新任务从 pending_review 起审；③ E018 合规是默认检查项（status=reviewed 无终审记录 = 退回）；④ 验证口径先声明（#253 教训）；⑤ 周期表 JSON 是消费端菜单（100/100，verified 25）。"
 ---
 ---
 
