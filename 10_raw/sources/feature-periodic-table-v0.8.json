@@ -449,7 +449,7 @@
       "dimension": "D",
       "purpose": "标注日期+改动+效果——管理提示词进化",
       "scenario": "长期使用",
-      "case_ref": "KDO #256: card_review_checklist.py 版本化——每个 Feature 独立可测，每次迭代标注改动+效果。等价于 Prompt 版本管理的工程实践",
+      "case_ref": "口述下 L472-474（版本管理：V1/V2/V3/V4 叠加测试迭代）+ L206（能做版本管理）",
       "verified": true
     },
     {
@@ -569,8 +569,8 @@
       "dimension": "C",
       "purpose": "按需展示Skill能力——不用全量加载",
       "scenario": "复杂Skill",
-      "case_ref": "KDO #242: pre-submit 门禁栈 8道 Feature 逐道拦截——F1→DUP_KEY→F3→R6→DK_7→SEC_TYPO→F2→F4。每道独立可测，不等到终审才发现",
-      "verified": true
+      "case_ref": "KDO #242 pre-submit 门禁栈实践（口述无直接表述，截图遮蔽待确认）",
+      "verified": false
     },
     {
       "id": "F058",
@@ -869,8 +869,8 @@
       "dimension": "C",
       "purpose": "团队共享Prompt库/Skill库",
       "scenario": "团队协作",
-      "case_ref": "KDO #240: cap_hub Feature清单 13项——所有 Agent 启动时可见。MOC 卡 5张——设计/复盘/master/product/kdo 域可导航。共享资产的 KDO 实践",
-      "verified": true
+      "case_ref": "KDO #240 cap_hub 实践（口述无直接表述，截图遮蔽待确认）",
+      "verified": false
     },
     {
       "id": "F088",
@@ -1033,11 +1033,12 @@
       "oral_ref": "口述下 L242（给了他十个数据包）+ L276"
     }
   ],
-  "missing": [
+  "missing_note": "V0.8 化学元素视觉皮肤遮蔽，从口述推断补充；F097/F099 未截图确认（verified=false），F098/F100 有口述行号支撑",
+  "inferred_from_oral": [
     "F097",
     "F098",
     "F099",
     "F100"
   ],
-  "missing_note": "V0.8 化学元素视觉皮肤遮蔽，从口述推断补充；F097/F099 未截图确认（verified=false），F098/F100 有口述行号支撑"
+  "inferred_from_oral_note": "F097-F100 为化学元素视觉皮肤遮蔽、从口述推断补充的 4 个 Feature（非缺位）。verified=False 需对照截图确认"
 }

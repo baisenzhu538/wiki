@@ -113,12 +113,12 @@
 ## Feature 周期表查询
 
 ### `kdo-tools/feature_menu.py`
-- **功能**：从 96 个 AI 基本功 Feature 中按层级/维度/场景过滤点菜
+- **功能**：从 周期表 Feature 中按层级/维度/场景过滤点菜
 - **命令**：`python kdo-tools/feature_menu.py list|query|pick|info`
 - **使用场景**：#251 Agent 部署的数据源 / 消费端协议试点 / 老顽童 W1 生产点菜
 - **运行**：
   ```bash
-  python kdo-tools/feature_menu.py list                    # 全量 96 Feature
+  python kdo-tools/feature_menu.py list                    # 全量 Feature
   python kdo-tools/feature_menu.py query --layer L2        # 按层级过滤
   python kdo-tools/feature_menu.py query --dimension A     # 按维度过滤
   python kdo-tools/feature_menu.py pick --n 5 --seed 42    # 随机点菜（可复现）

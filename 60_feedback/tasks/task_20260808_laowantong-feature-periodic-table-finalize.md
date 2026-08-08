@@ -2,8 +2,8 @@
 id: task_20260808_laowantong-feature-periodic-table-finalize
 task_id: 255
 assignee: hermes-cli
-status: in_progress
-updated_at: '2026-08-08T17:08:24.549952+00:00'
+status: pending_review
+updated_at: '2026-08-08T18:11:53.190809+00:00'
 domain: ai-basic
 priority: P0
 ---
@@ -59,3 +59,35 @@ priority: P0
 - **F044（新开窗分支测试）case_ref 无行号**——#248 C4 剩余项，本任务 C4 一并补
 
 - **"96 个 Feature"写死引用 ×4**（欧阳锋 #251 补审条件项 2）：bridge L49/L58 + agent-spec L57/L94/L107——#248 补齐后应随动 100。收尾时同步检查这些卡，改为"周期表 JSON"不带数字（或更新为 100）
+
+## 执行报告（2026-08-09 老顽童 hermes-cli）
+
+### C1 ✅ 4 个遮蔽 Feature 补齐（total=100）
+- F097 CoV视觉链式思考：case_ref 补精确溯源 = M3重试OCR L133（2D拆分任务：用CoT/CoV）+ 口述下 L514（思维链）。verified=False（口述无直接 CoV 表述，诚实标注未验证）
+- F098 里程碑/编号控制：已有行号（口述下 L518 8个设计里程碑）✓ verified=True
+- F099 N选一/备选方案：case_ref 补行号 = 口述下 L528（加一些N选一）+ L550（多选N选一）。verified=False（截图遮蔽，口述推断）
+- F100 反向确认：已有行号（口述上 L338）✓ verified=True
+
+### C2 ✅ JSON 缺位标注
+- 新增 `missing: ["F097","F098","F099","F100"]` + missing_note 说明遮蔽推断语义
+- 消费端（kdo feature_menu）实测可读取，100 个 Feature 正常显示
+
+### C3 ✅ 口述 Feature 对账表（修正 2 处引用错误）
+- 参考案例：原标"F013 Few-shot"错误（F013=Top-K/Top-P）→ 修正为 F026 Few-shot示例，oral_ref=口述上 L336（给他几个参考案例）
+- 增强数据：原标"F014 DataPack + F015 RAG"错误（F014=频率惩罚/F015=随机种子）→ 修正为 F029 给DataPack + F030 RAG检索增强，oral_ref=口述下 L242（给了他十个数据包）
+- 里程碑/编号控制：oral_ref 补 L526；N选一：oral_ref 补 L528+L550
+
+### C4 ✅ 行号补全
+- F044 case_ref 补参照：周期表V0.8截图 L2F节奏控制（口述无独立讲解行；参照下口述 L472-474 版本管理迭代上下文）
+- 全库口述引用无行号项 = 0
+
+### 顺手修 ✅
+- dk-key-hypothesis L54 残留：已确认修复为 L388-392 ✓
+- F044 case_ref 无行号：已补 ✓
+- "96 个 Feature"写死 ×4：bridge L49/L58 + agent-spec L57/L94/L107 均已为 100 ✓
+
+### 验收自检
+1. total=100 + missing 标注可读 ✅
+2. 对账表产出 5 候选处置 ✅
+3. case_ref 全部带行号 ✅
+4. JSON Schema 通过（字段完整、total 与 features 一致）；git diff 仅 case_ref/新增条目 ✅

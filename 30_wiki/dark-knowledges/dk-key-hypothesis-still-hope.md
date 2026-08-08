@@ -43,7 +43,7 @@ quality_labels:
   - cited
 diagnostic_signals:
   - signal: "AI项目卡住了，团队想放弃"
-    lens: '没有Feature可测了=放弃的标志——但周期表有96个Feature，你测了几个？'
+    lens: '没有Feature可测了=放弃的标志——但周期表有100个Feature，你测了几个？'
     follow_up: 打开周期表JSON，逐行问：这个Feature在这个项目上有没有可能有用？
 ---
 

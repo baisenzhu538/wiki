@@ -55,7 +55,7 @@ diagnostic_signals:
     follow_up: 从L2的"最终意图/负面限制/Few-shot"三个Feature开始
 ---
 
-> 本卡属于AI基本功域——Feature分层体系L0-L5六层+分层自洽原则。完整周期表见 `10_raw/sources/feature-periodic-table-v0.8.json`（96 Feature）。
+> 本卡属于AI基本功域——Feature分层体系L0-L5六层+分层自洽原则。完整周期表见 `10_raw/sources/feature-periodic-table-v0.8.json`（100 个 Feature）。
 
 # Feature分层体系：L0-L5六层+分层自洽
 

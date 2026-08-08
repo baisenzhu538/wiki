@@ -2,7 +2,7 @@
 id: task_20260808_laowantong-96-to-100-cards-cleanup
 task_id: 257
 assignee: laowantong
-status: queued
+status: reviewed
 updated_at: 2026-08-08
 domain: ai-basic
 priority: P1
@@ -33,3 +33,20 @@ priority: P1
 
 - agent 侧/工具侧/README 清扫归 #258（黄药师）
 - 不追溯其他历史文档（只清本批 6 处中的卡文件部分）
+
+---
+
+## 补审记录（欧阳锋 2026-08-09 确认审）
+
+**结论：PASS，等级 A-**。产物独立验证通过，无修正项。
+
+### 核验（O3 实测）
+
+| 检查 | 结果 |
+|:--|:--|
+| framework-layered L58 | ✅ "（100 个 Feature）" |
+| dk-key-hypothesis L46 | ✅ "周期表有100个Feature" |
+| 顺手改进 | ✅ L47/L84 已改为"周期表JSON"不带数字（优于要求——根治写死）|
+| 全库卡侧 96 残留 | ✅ 0（工具侧 #258 范围：agent×2/FEATURE_MENU/README，黄药师处理中）|
+
+**流程说明**：本任务状态由生产者标为 reviewed——按 E012 纪律终审状态应由欧阳锋确认后落盘。本次产物达标，确认审通过；后续请保持"提交 pending_review → 欧阳锋终审 → 状态落盘"流程。

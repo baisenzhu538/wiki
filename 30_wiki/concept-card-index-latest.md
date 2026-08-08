@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-08-07 18:08 UTC
+# Concept Card Index — 2026-08-08 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -59,6 +59,7 @@
 | concept-kdo-agent-design-principles | Agent设计原则：从双三角推导的5条底层原则 | concept | system |
 | concept-kdo-agent-four-level-awareness | Agent四层觉察：从后知后觉到先知先觉 | concept | system |
 | concept-kdo-component-library | KDO 建模组件库——从踩坑疤痕到可复用建模牌组 | concept | kdo, modeling |
+| concept-kdo-feature-registry | KDO Feature 注册表：原子化最小技术单位 | concept | kdo, master |
 | concept-kdo-review-workflow | KDO 生产审查工作流（欧阳锋模式） | concept | ai-collaboration, knowledge-management |
 | concept-mckinsey-issue-tree | Issue Tree：问题树拆解 | concept |  |
 | concept-mckinsey-mece | MECE 原则：相互独立、完全穷尽 | concept |  |
@@ -86,12 +87,13 @@
 | concept-thousand-people-square | 千人广场模型：一堂做课背后的统计建模理念 | concept |  |
 | concept-token-capital | Token Capital：AI 时代的第三种资本结构 | concept | ai-native, management, strategy |
 | concept-truman-18-component-cards | Truman 原 18 组件源框架：五维度 × 每维 4 张牌 | concept | modeling |
+| concept-truman-feature-four-scenarios | 「概念：Feature四大应用场景——解题地图·调优·练习·坐标系」 | concept | ai-basic, methodology |
+| concept-truman-feature-six-stages | 「概念：Feature学习六阶段——从偶遇到肌肉记忆」 | concept | ai-basic, methodology |
 | concept-wanghuan-adversarial-generation | 王欢概念：对抗式生成 | concept |  |
 | concept-wanghuan-ai-native-definition | 王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程 | concept |  |
 | concept-wanghuan-flywheel-first-loop | 王欢：AI 飞轮第一圈 | concept |  |
 | concept-wanghuan-power-of-standards | 王欢：标准的力量——质量乘数 | concept |  |
 | concept-wanghuan-tacit-knowledge-examples | 王欢：行业暗规则实例库（招聘/招投标/销售/培训） | concept |  |
-| concept-yihang-ai-feature-thinking | AI 基本功的 Feature 思维：把工具拆成最小可操作技术特? | concept | ai-collaboration, yitang |
 | concept-yihang-data-pack-ethics | 数据包使用伦理——个人学习可用，禁止规模化批量抓取流通 | concept | ai-collaboration, yitang |
 | concept-yihang-dual-triangle-core | 一行双三角：人机协作的元模型 | concept | yitang, ai-collaboration, personal-os, organizational-transformation |
 | concept-yihang-human-in-the-loop-dual-triangle | 人在环 × 双三角：从治理原则到能力地图 | concept | yitang, ai-collaboration |
@@ -588,6 +590,8 @@
 | framework-taste-as-judgment-system | 品味系统：判断力 × 审美 × 系统思维 | framework |  |
 | framework-time-management-dual-loop-matrix | 时间管理双循环矩阵：独立/协作 × 重点/效率 | framework |  |
 | framework-time-management-matrix | 重要/紧急四象限（艾森豪威尔矩阵） | framework |  |
+| framework-truman-feature-layered-system | 「框架：Feature分层体系——L0-L5六层+分层自洽」 | framework | ai-basic, methodology |
+| framework-truman-feature-thinking-core | 「框架：Feature思维——提升AI解题水平的最小实践单位」 | framework | ai-basic, methodology |
 | framework-visual-analysis-four-dimensions | VA 四维法——从图片到结构化视觉分析的通用方法论 | framework |  |
 | framework-wanghuan-actor-director-mode | 王欢人机协作框架：从演员到导演 | framework |  |
 | framework-wanghuan-ai-five-level-ladder | 王欢AI能力五层跃迁模型 | framework |  |
@@ -755,6 +759,7 @@
 | yt-tob-unit-model | To B 单元模型选择与跑通 | framework |  |
 | yt-unit-model-ladder | 单元模型六段进阶：从拍脑袋到动态预测 | framework | yitang, decision-science |
 | yt-unit-model-overview | 单元模型概览：十大单元模型与三角色分工 | framework |  |
+| agent-spec-basic-skills-coach | 「Agent Spec：AI基本功教练——Feature点菜+路径建议+证据链」 | agent-spec | ai-basic |
 | agent-spec-codex-teammate | Codex 队友式使用规范 | agent-spec | ai-collaboration, engineering, agent |
 | agent-spec-dual-triangle-canvas-filler | 双三角画布填充 Agent（对话教练版）v4 | agent-spec | yitang, ai-collaboration, agent |
 | agent-spec-duanwangye-publisher | 段王爷 Publisher Agent — KDO 内容发布与渠道分发引擎 | agent-spec | publishing, agent-capability |
@@ -858,6 +863,7 @@
 | tool-agent-spec-yitang-three-second-opening-scripts | 前三秒话术优化 Agent Spec | agent-spec | personal-os, sales, ai-collaboration, yitang |
 | tool-agent-spec-yitang-user-perspective-training | 用户视角训练 Agent Spec | agent-spec | personal-os, product, ai-collaboration, yitang |
 | tool-agent-spec-yitang-value-proposition | OPC 卖点提炼助手 Agent Spec | tool-agent-spec | personal-os, sales, ai-collaboration, yitang |
+| tool-ai-agent-feature-comparison | 「AI Agent 工具对比：Claude Code / Hermes / Codex / CodeBuddy 的 Feature 差异」 | tool | ai-basic, ai-collaboration |
 | tool-ai-ai-workspace-setup | 技能：结构化AI工作空间搭建 | tool | ai-collaboration, yitang, ai-saas |
 | tool-ai-critical-reading-three-layers | 三层拆书批判法 | tool | ai-collaboration, critical-thinking, reading-methodology |
 | tool-ai-cross-reading-method | 交叉阅读法 | tool | ai-collaboration, critical-thinking, business-judgment |
@@ -1765,7 +1771,7 @@
 | case-cambridge-novelists-survey | 剑桥小说家对 AI 创作态度调查 | case | ai-collaboration, critical-thinking, business-judgment |
 | case-candy-problem-os-vpn | 案例：VPN场景——一个低质量提问如何消耗双方关系 | case | yitang, content-production |
 | case-chen-qiufan-ai-writing | 陈楸帆对 AI 写作的态度转向 | case | ai-collaboration, critical-thinking, business-judgment |
-| case-child-drawing-rhyme | 案例：孩子控笔「画画歌」——最小单元的建模实践 | case | src_unknown, src_unknown, src_unknown |
+| case-child-drawing-rhyme | 案例：孩子控笔「画画歌」——最小单元的建模实践 | case | src-unknown, src_unknown, src_unknown |
 | case-coffee-shop-foresight | 案例：咖啡馆创业预判 | case |  |
 | case-compas-racial-bias | COMPAS 再犯算法种族偏见 | case | ai-collaboration, critical-thinking, business-judgment |
 | case-course-milestone-model | 案例：一堂课程里程碑模型——方法论级建模的六步生产流程 | case |  |
@@ -1923,9 +1929,11 @@
 | case-toy-cabinet-barrier | 案例：线下玩具柜的壁垒困局与突围路径 | case |  |
 | case-toy-cabinet-business-model | 案例：线下玩具柜商业模式 | case |  |
 | case-treadmill-demand-analysis | 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈 | case | product, yitang |
+| case-truman-ai-image-workflow-evolution | 「案例：Truman作图工作流进化——从3小时一张到日产30-40张」 | case | ai-basic, ai-collaboration |
 | case-truman-ai-partner | 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent | case |  |
 | case-truman-ai-skill-engineering-guide | 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南 | case |  |
 | case-truman-ai-skill-self-packaging | AI 自复盘自封装：Truman 的 design case 技能是如何让 AI 自己包装出来的 | case |  |
+| case-truman-investment-daily-report | 「案例：招商日报30→90分——不是换工具，是叠Feature」 | case | ai-basic, ai-collaboration |
 | case-truman-livestream-sop-iteration | 一堂直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法 | case |  |
 | case-truman-motivation-map-12-versions | 动机地图12版迭代：先观察再设计——Truman的用户行为驱动迭代法 | case |  |
 | case-truman-personal-growth-map-creation | Truman 个人地图创作全历程：七步创作法与 AI 判断（创作者视角） | case |  |
@@ -1934,6 +1942,7 @@
 | case-truman-prd-checklist-evolution | Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平 | case |  |
 | case-truman-sales-report-structure | 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链 | case | 工作汇报, 复盘结构化 |
 | case-truman-shower-toilet-ideation | 案例：Truman 洗澡/厕所灵感爆发——暗时间如何在"脑力CPU不饱和"时产出高价值创意 | case | yitang, time-management |
+| case-truman-temperature-parameter | 「案例：温度参数——一个L0 Feature降成本10倍」 | case | ai-basic |
 | case-truman-time-management-commute-experiment | Truman 通勤实验：用时间审计把「废时间」变成产能杠杆 | case | time-management, personal-productivity, yitang |
 | case-truman-yitang-foresight | Truman一堂：市场扫描→六方向→Plan ABC试错 | case | yitang |
 | case-unit-model-gashapon | 扭蛋机案例：玩具店规模化扩张三阶段决策 | case |  |
@@ -2200,6 +2209,7 @@
 | yt-product-kernel-shampoo-case | 洗发水案例：产品内核实战——从"去屑"到"专业形象" | case |  |
 | dk-E010-duplicate-key-detection | E010：frontmatter重复键——一次批量写入摧毁2350张卡的根因 | dk |  |
 | dk-P42-agent-fact-check-gap | P-42：Agent 凭错误核查挑战审查结论——git 字节验证缺位 | dk |  |
+| dk-agent-access-kdo-pitfalls | 外部Agent接入KDO：审批门禁/路径格式/检索规则三连坑 | dk | kdo, ai-collaboration |
 | dk-agent-evolution-pitfalls | Agent进化常见失败模式 | dk | system |
 | dk-agent-promise-verification | 承诺核对表：Agent 能承诺什么、不能承诺什么 | dk | agent-engineering |
 | dk-agreeableness-double-edged | 「暗知识：宜人性是双刃剑——老好人≠高价值」 | dk | human-insights, leadership |
@@ -2236,7 +2246,6 @@
 | dk-decision-value-overrides-roi | Y 模型失效场景：当价值观权重超过经济理性时，广义 ROI 公式不再适用 | dk | yitang, master, decision-making |
 | dk-decision-when-to-defer | 何时应该推迟决策 | dk | decision-science, yitang |
 | dk-delivery-path-type-bug | delivery.py Path类型bug：字符串root→TypeError被吞→搜索永远0结果 | dk |  |
-| dk-demand-feature-stacking | 功能堆叠陷阱：加功能≠满足需求 | dk | yitang, five-step-method |
 | dk-demand-hidden-need | 隐性需求伪装：用户说的≠用户要的 | dk | yitang, five-step-method |
 | dk-demand-misjudgment-rate | 30-50%创业失败源于需求误判 | dk | yitang, five-step-method |
 | dk-demand-pitfall-dialer | 踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6 | dk | yitang, five-step-method |
@@ -2269,6 +2278,7 @@
 | dk-f7-surface-translation | F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写 | dk | master |
 | dk-f8-phony-wikilink | F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数 | dk | master |
 | dk-f9-generic-critique | F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上 | dk | master |
+| dk-feature-not-learned-but-used | 「暗知识：Feature不是学会的，是用会的」 | dk | ai-basic |
 | dk-five-step-framework-legitimizes-bias | 暗知识：框架不会自动降噪，反而可能「合法化」偏见——用了五步法不代表科学分析 | dk | yitang, entrepreneur |
 | dk-foresight-source-material-blindness | 暗知识：素材命名不一致导致完整口述稿被遗漏 | dk | yitang |
 | dk-foresight-tier-skip-illusion | 暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快 | dk | yitang, business-strategy |
@@ -2285,6 +2295,7 @@
 | dk-ji-hao-problem-vs-question | 暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem | dk | ai-collaboration, yitang |
 | dk-ji-hao-simple-complex-routing | 暗知识：简单系统跳过导诊台，复杂系统必须路由 | dk | ai-collaboration, yitang |
 | dk-kdo-leaky-pipe-pressure | 暗知识：在漏水的管子上加压——基础链路没跑通时，硬门禁不是质量控制，而是流程卡死 | dk | kdo, master |
+| dk-key-hypothesis-still-hope | 「暗知识：只要还有关键假设就还有机会——Feature无限调优的底气」 | dk | ai-basic |
 | dk-level-blindspot-external-feedback | 暗知识：「7-8分幻觉」是结构性盲区——低段位者高估自己，因为没见过高段位的具体打法 | dk | yitang, entrepreneur |
 | dk-long-material-layered-reading-protocol | 长素材分层读取协议：密度×长度选策略 / 子代理外存+行号锚点 / 三道防线 | dk | personal-os |
 | dk-lu-gui-lv-bu-bei-yu-wang | 按规律办事，不被欲望左右：多藏而厚亡 | dk | decision-science, personal-os |
@@ -2343,6 +2354,7 @@
 | dk-post-hoc-framework-vs-messy-reality | 真实过程≠复盘结构——事后框架的诚实标注问题 | dk | ai-collaboration |
 | dk-process-is-scar-tissue | 流程是业务的疤痕：每个节点都曾是流血后的痂 | dk | modeling |
 | dk-pseudo-demand-trap | 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地 | dk | yitang, business-strategy |
+| dk-publish-collapse-to-iterate | 发布不是终点——发布执行是知识迭代的入口 | dk | publishing, ai-collaboration, knowledge-management |
 | dk-signal-cluster-illusion | 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕 | dk | yitang, ai |
 | dk-skill-market-agent-self-install | 暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述 | dk | ai-collaboration, yitang |
 | dk-skill-seven-elements-upgrade | Skill ≠ Prompt——蓝鱼七要素告诉你完整 Skill 缺了什么 | dk | ai-collaboration, yitang |
