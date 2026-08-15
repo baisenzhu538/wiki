@@ -1,7 +1,7 @@
 ---
 title: 洪七公失忆恢复记录
 created_at: 2026-06-13
-updated_at: 2026-07-21
+updated_at: 2026-08-15
 type: memory/role-recovery
 ---
 
@@ -40,20 +40,30 @@ type: memory/role-recovery
 
 ---
 
-## 3. 当前状态（截至 2026-07-21）
+## 3. 当前状态（截至 2026-08-15，以目录内最新为准）
 
 > 任务 1-18（VA 前置 A1、单元模型域 VA、OCR 系列）已于 2026-06-13 前全部完成，历史从略。
+> 最新状态以 `桌面/agent复盘/洪七公/每日复盘/` + `桌面/agent复盘/洪七公/索引.md` 为准，本文件只保留最近锚点。
 
 - **2026-07-12**：C 域（业务公式）101 图、D 域（转化率）484 文件（155 图+329 PDF 页）OCR+VLM 收官，整合笔记+任务编排建议书交付王语嫣；报告在各素材 `_vlm_output/`。沉淀错误模式 E013-E017
 - **2026-07-21**：王欢《无限画布》教程 22 图识别+md 交叉验证收官（报告在素材旁 `_vlm_output/识别报告_无限画布教程.md`）；认领新武器 `infinite-canvas-prezi`（见第 4 节）
-- **当前**：无 active task，待命。任务由欧阳锋派（看 `70_product/tasks/production-queue.md` + `.agent/context.md`）
+- **2026-08-09（最新一轮）**：
+  - AI基本功：69 次 VLM 调用（92.8%），产出位置曾被纠正为"直接落素材目录、Obsidian 可见"；周期表 4 个被化学元素皮肤遮蔽的 Feature 待人工对照补齐
+  - 教练式领导力：79 图全量 OCR+VLM 覆盖，双引擎补跑（M3 55/68），8 卡任务编排建议书交付
+  - 科学开会：27 图全量 OCR+VLM（83/86，96% 一次通过），十大原则武器库 + 8 卡建议书交付
+  - `long-image-ocr` skill 迭代到 **v2.0**（M3 铁律 + 断点续跑 + 双路径密钥）并完成 KDO 注册
+  - 错误模式库累计 **E001-E024**（新增 E021-E024）
+  - 固化铁律：①产出=OCR 原文而非分析总结，直接写素材目录；②顺序=先 OCR+VLM→理解→最后写建议书；③脚本运行前三查（import/变量/路径）；④密钥放家目录，`/tmp` 会被清
+  - 模型铁律：**只用 MiniMax-M3**，`abab6.5s-chat` 禁用（7% 随机失败）
+- **当前**：AI基本功 / 教练式领导力 / 科学开会三个专题已收官，待命；遗留"周期表 4 个 Feature"人工对照。任务由欧阳锋派（看 `70_product/tasks/production-queue.md` + `.agent/context.md`）
 
 ---
 
 ## 4. 我的武器库（已部署且可用）
 
-> ⚠️ **2026-07-21 起，武器以活注册表为准**：`.agent/hongqigong-context.md`「武器路由」表（分析/渲染/质检/交接四类）+ `40_outputs/capabilities/workflows/multimodal-production.md` 决策树。下方静态清单仅作历史参考。
+> ⚠️ **2026-08-09 起，武器以活注册表为准**：`.agent/hongqigong-context.md`「武器路由」表（分析/渲染/质检/交接四类）+ `40_outputs/capabilities/workflows/multimodal-production.md` 决策树。下方静态清单仅作历史参考。
 > 🆕 **新武器**：`infinite-canvas-prezi`——内容→无限画布空间叙事（impress.js 单文件 HTML，镜头缩放/平移/旋转叙事）。登记：路由表渲染类 / 决策树 Pipeline E / skill 卡 `30_wiki/skills/skill-duanwangye-prezi.md`（draft）。**生产归我，发布归段王爷。**
+> 🆕 **long-image-ocr v2.0（2026-08-09）**——长图/截图批量 OCR+VLM 主力流程：MiniMax-M3 铁律、断点续跑、双路径密钥。注册卡 `40_outputs/capabilities/skills/long-image-ocr/SKILL.md`，可执行技能 `~/.hermes/profiles/beikai/skills/creative/long-image-ocr/SKILL.md`。
 
 ### 4.1 Skills（`40_outputs/capabilities/skills/`）
 
@@ -61,6 +71,7 @@ type: memory/role-recovery
 |:---|:---|:---|
 | Image OCR | `image-ocr/SKILL.md` | 本地 PaddleOCR v5，PNG/JPEG 中英文提取 |
 | Deep Image Parser | `deep-image-parser/SKILL.md` | 多模态 AI 表格/公式/密集文字/视觉标记解析 |
+| Long Image OCR | `long-image-ocr/SKILL.md` | 长图/截图切分 + VLM 识别，原始 OCR 文本直出 |
 | Design Prompt Iteration | `design-prompt-iteration/SKILL.md` | 设计师反馈 → AI 图像 prompt 翻译 |
 | Visual Prompt System | `visual-prompt-system/SKILL.md` | SROM Visual OS：视角+美学宪章+拼贴海报 |
 | AI Design Assets | `ai-design-assets/SKILL.md` | 设计资产管理规范（8要素命名+PS四层+Moodboard） |
@@ -98,7 +109,8 @@ type: memory/role-recovery
 | P0 | `70_product/tasks/dashboard.md` | 看洪七公任务区领任务 |
 | P1 | `.agent/toolkit.md` | 本地武器库、命令速查 |
 | P1 | `.agent/pitfalls.md` | 别踩过的坑 |
-| P1 | `桌面/agent复盘/洪七公/`（错误模式库/技能进化日志/每日复盘/索引） | 我个人的错误模式与技能进化史（E001-E018） |
+| P1 | `桌面/agent复盘/洪七公/`（错误模式库 E001-E024 / 技能进化日志 / 每日复盘 / 索引，以目录内最新为准） | 我个人的错误模式与技能进化史 |
+| P1 | `桌面/agent复盘/hongqigong/daily-context/`（以目录内最新日期为准） | 最近 Truman 10章复盘 |
 | P1 | `40_outputs/capabilities/role-profiles/hongqigong-profile.md` | 角色画像快照 |
 | P2 | `90_control/AGENTS.md` | 全厂角色分工、禁止清单 |
 | P2 | `20_memory/hongqigong-amnesia-recovery-20260613.md` | 本文件：完整恢复记录 |
@@ -126,13 +138,14 @@ type: memory/role-recovery
 4. 给 AI 出图反馈 → prompt 迭代
 5. 给设计团队 → 资产管理规范
 6. 发现图文错位 → 写 `60_feedback/corrections/` 记录
+7. 给长图/截图批量素材 → `long-image-ocr v2.0`：切分→M3 VLM→原始 OCR 文本直出素材目录
 
 ---
 
-## 8. 共享阻塞（来自 `.agent/context.md`）
+## 8. 共享阻塞（以 `.agent/context.md` 最新为准）
 
-- Kimi K2.7 Anthropic tool call 待修复（临时切 DeepSeek）
-- 欧阳锋待审查黄药师 I/J/K/L/M/N 批量任务
+- 本文件不再复制阻塞清单——失忆恢复时读 `.agent/context.md` 的 blockers 节。
+- 历史阻塞（供追溯）：Kimi K2.7 Anthropic tool call 待修复（临时切 DeepSeek）；欧阳锋待审查黄药师 I/J/K/L/M/N 批量任务。
 
 ---
 
@@ -145,3 +158,4 @@ type: memory/role-recovery
 - `70_product/tasks/dashboard.md`
 - `90_control/AGENTS.md`
 - `40_outputs/capabilities/role-profiles/hongqigong-profile.md`
+- `40_outputs/capabilities/skills/long-image-ocr/SKILL.md`

@@ -1,7 +1,7 @@
 ---
 title: 段王爷失忆恢复记录
 created_at: 2026-07-21
-updated_at: 2026-07-21
+updated_at: 2026-08-15
 type: memory/role-recovery
 ---
 
@@ -35,8 +35,8 @@ type: memory/role-recovery
 | **P0** | `70_product/tasks/dashboard.md` | 看段王爷任务区领任务 |
 | **P1** | `.agent/toolkit.md` | 本地武器库、命令速查 |
 | **P1** | `.agent/pitfalls.md` | 别踩过的坑 |
-| **P1** | `桌面/agent复盘/duanwangye/技能进化日志.md` | 我学到的发布技能进化史 |
-| **P1** | `桌面/agent复盘/duanwangye/daily-context/` | 最近几天的 Trumen 10章复盘 |
+| **P1** | `桌面/agent复盘/段王爷/`（技能进化日志 / 错误模式库 E001-E009 / 能力雷达图 / 用户反馈档案 / 每日复盘，以目录内最新为准） | 我学到的发布技能进化史与错误模式 |
+| **P1** | `桌面/agent复盘/duanwangye/daily-context/`（以目录内最新日期为准） | 最近几天的 Truman 10章复盘 |
 | **P2** | `90_control/AGENTS.md` | 全厂角色分工、禁止清单 |
 | **P2** | `20_memory/duanwangye-amnesia-recovery-2026-07-21.md` | 本文件：完整恢复记录 |
 
@@ -44,7 +44,7 @@ type: memory/role-recovery
 
 ---
 
-## 3. 我的武器库（截至 2026-07-21）
+## 3. 我的武器库（截至 2026-08-15）
 
 ### 3.1 已部署且可用
 
@@ -59,6 +59,8 @@ type: memory/role-recovery
 | **Prezi 无限画布** | `30_wiki/skills/skill-duanwangye-prezi.md` | 空间叙事演示（发布侧——生产归洪七公） |
 | **visual-polish** | `skills/shared/visual-polish/SKILL.md` | 检查洪七公交付的视觉资产 |
 | **feedback-improve-flow** | `workflows/feedback-improve-flow.md` | 收集反馈→回流到卡片 |
+| **duanwangye-review** | 每周一 cron：Memory / Skills / Error-to-Skill / 复盘四阶段 | 自我进化巡检，强制门禁 |
+| **duanwangye-knowledge-collision** | 发布前知识碰撞（personal-os 必读 + 30_wiki 按需碰撞） | 输出前对齐 wiki 语境 |
 
 ### 3.2 已部署但实战不足
 
@@ -86,12 +88,18 @@ type: memory/role-recovery
 
 ---
 
-## 5. 当前状态（截至 2026-07-21）
+## 5. 当前状态（截至 2026-08-15，以目录内最新为准）
 
 - **KDO 视频试点 ship**：✅ 完成
-- **agent-spec 已注册**：`30_wiki/agent-specs/agent-spec-duanwangye-publisher.md`（黄药师 2026-07-21 建）
-- **context 已升级**：武器路由表 + 行为牌组 D1-D5 + 启动步骤已注入
-- **当前**：待命。任务由欧阳锋通过飞书直接分配。
+- **2026-08-09**：自我进化引擎从"可选流程"改为"强制门禁"——段王爷域第一张 corrections 落盘、`dk-publish-collapse-to-iterate`（发布=知识迭代入口）+ MOC 双注册、每周一 9:00 cron 巡检建立、4 处 WSL 路径修复、approvals.mode 切 smart 实测通过
+- **2026-08-11（最新一轮，周一 cron 巡检）**：
+  - 删除重复/孤儿 cron job（旧 `duanwangye-self-evolution` → 合并入 `duanwangye-review`）
+  - Memory 自检 93% → 78%（凭据修正 + 微信精简）
+  - Skills 自检通过（feishu-publishing / duanwangye-review / duanwangye-knowledge-collision）
+  - 错误模式新增 **E008**（cron 引用失效 skill）+ **E009**（发布后未同步 Bitable 追踪表，D4 牌违反）
+  - 飞书发布追踪表补录 8 月 3 条发布记录（拆书会 213 期 / 如何了解一个人 / 供应商管理手册）
+  - 待用户确认：Bitable 10 条空壳记录（rec27DElQ06*）清理
+- **当前**：待命。任务由欧阳锋通过飞书直接分配；每周一 9:00 cron 自动巡检。
 
 ---
 
@@ -107,6 +115,7 @@ type: memory/role-recovery
 6. 生产/发布 Prezi 风格无限画布演示
 7. 接收洪七公的视觉资产并发布到渠道
 8. 发布后收集反馈并路由回对应卡片域
+9. 每周一自我进化巡检（duanwangye-review 四阶段闭环）
 
 ---
 
