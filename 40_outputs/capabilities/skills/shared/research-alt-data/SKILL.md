@@ -4,7 +4,7 @@ description: 替代数据调研——从免费层到百万级，按预算分级�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [替代数据, Google Trends, Reddit, Glassdoor, alt data]

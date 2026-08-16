@@ -1,8 +1,10 @@
 ---
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 id: task_20260808_huangyaoshi-agent-knowledge-access
 task_id: 260
 assignee: huangyaoshi
-status: queued
+status: reviewed
 updated_at: 2026-08-08
 domain: system
 priority: P0

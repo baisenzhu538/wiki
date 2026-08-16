@@ -163,3 +163,9 @@ Expected:
 
 - `60_feedback/issues/` — linter behavior bugs or unexpected results
 - `60_feedback/eval-results/` — eval case failures recorded by `kdo eval`
+
+## 触发词
+
+**触发场景**：对工作区做完整健康检查时——结构 lint、产物验证、全量一致性检查、批量文件体检、任务提交前整体检查。
+
+**负面例子（不要触发）**：单文件/单卡检查（用 kdo pre-submit）；代码 lint（语言级）；日常任务不涉及全量体检。

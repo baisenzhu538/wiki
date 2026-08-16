@@ -4,7 +4,7 @@ description: 需求评估——判断真伪/大小/紧迫，评估三角形+四�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [需求评估, 真需求, 评估三角形, 四种力量, 刚性]

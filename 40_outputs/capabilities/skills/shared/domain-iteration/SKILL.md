@@ -4,7 +4,7 @@ description: KDO域迭代五阶段法总入口——将原始素材转化为可�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [KDO, 域迭代, 新域上线, 素材验收, 知识工程]

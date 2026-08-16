@@ -10,7 +10,9 @@
       "purpose": "根据任务选择最优模型",
       "scenario": "所有AI任务",
       "case_ref": "口述下 L666（招商日报：换巨米模型成本降10倍）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F002",
@@ -20,7 +22,9 @@
       "purpose": "多模型优势互补协同工作",
       "scenario": "复杂任务",
       "case_ref": "口述下 L510-552（模型组合+抽卡+Skill+Agent）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F003",
@@ -30,7 +34,9 @@
       "purpose": "调整模型参数优化输出",
       "scenario": "质量优化",
       "case_ref": "口述下 L802-860（温度参数：成本2万→1-2千）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F004",
@@ -120,7 +126,9 @@
       "purpose": "控制输出随机性——低温确定高温创造",
       "scenario": "所有生成任务",
       "case_ref": "口述上 L812-872（调温度参数，准确率95%）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F013",
@@ -160,7 +168,9 @@
       "purpose": "多个模型并行测试对比效果",
       "scenario": "选型评估",
       "case_ref": "口述下 L510（抽卡测试：模型组合时测试Feature）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F017",
@@ -180,7 +190,9 @@
       "purpose": "给AI指定角色身份——'你是一个年薪百万的设计师'",
       "scenario": "所有对话",
       "case_ref": "口述上 L330+L388（赋予角色+背景信息）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F019",
@@ -210,7 +222,9 @@
       "purpose": "让AI反过来问你——'你需要我了解什么才能更好地帮你？'",
       "scenario": "信息不足时",
       "case_ref": "口述上 L338（反向确认：你跟我确认对吧）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F022",
@@ -221,7 +235,9 @@
       "scenario": "新工具上手",
       "case_ref": "case-252-quality-gate-pilot",
       "verified": true,
-      "verify_note": "试点#252: HINT_MAP即\"反向教我\"的雏形——lint报错附场景化修复提示，从编译器风格升级为教练风格"
+      "verify_note": "试点#252: HINT_MAP即\"反向教我\"的雏形——lint报错附场景化修复提示，从编译器风格升级为教练风格",
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F023",
@@ -261,7 +277,9 @@
       "purpose": "给AI 2-5个输入输出范例",
       "scenario": "格式固定任务",
       "case_ref": "口述下 L206（Few-shot+DataPack+最终意图）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F027",
@@ -291,7 +309,9 @@
       "purpose": "打包结构化数据作为上下文",
       "scenario": "需要领域知识",
       "case_ref": "口述下 L206（给DataPack+最终意图+负面限制）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F030",
@@ -311,7 +331,9 @@
       "purpose": "在提示词末尾声明最终目标——防AI跑偏的核心锚点",
       "scenario": "所有任务",
       "case_ref": "口述上 L676-750（最终意图+银行品牌案例）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F032",
@@ -321,7 +343,9 @@
       "purpose": "明确告诉AI不要做什么",
       "scenario": "防AI自由发挥",
       "case_ref": "口述下 L206（负面限制+最终意图+DataPack）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F033",
@@ -351,7 +375,9 @@
       "purpose": "不让AI做整个任务——先做第一步",
       "scenario": "复杂任务入口",
       "case_ref": "口述上 L778-780（剥离：Feature最难部分）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F036",
@@ -361,7 +387,9 @@
       "purpose": "AI先确认理解再开始——'我理解你要做的是...'",
       "scenario": "模糊需求",
       "case_ref": "口述下 L510（先澄清再执行：定义策略列）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F037",
@@ -392,7 +420,9 @@
       "scenario": "图表/设计",
       "case_ref": "case-252-quality-gate-pilot",
       "verified": true,
-      "verify_note": "试点#252: 边界验证——CoV视觉链式思考对门禁体系不适用(门禁是确定性lint非视觉推理)，标记为跨域无效"
+      "verify_note": "试点#252: 边界验证——CoV视觉链式思考对门禁体系不适用(门禁是确定性lint非视觉推理)，标记为跨域无效",
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F040",
@@ -402,7 +432,9 @@
       "purpose": "定义任务状态流转——待确认→执行中→完成",
       "scenario": "多步骤任务",
       "case_ref": "口述上 L992-1024（状态机+科学角色教练模块）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F041",
@@ -452,7 +484,9 @@
       "purpose": "标注日期+改动+效果——管理提示词进化",
       "scenario": "长期使用",
       "case_ref": "口述下 L472-474（版本管理：V1/V2/V3/V4 叠加测试迭代）+ L206（能做版本管理）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F046",
@@ -592,7 +626,9 @@
       "purpose": "用自然语言定义Skill而非代码",
       "scenario": "快速封装",
       "case_ref": "口述下 L510（封装3个Skill：品位/设计宪法/复盘）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F060",
@@ -782,7 +818,9 @@
       "purpose": "Agent自检输出质量后再交付",
       "scenario": "质量保障",
       "case_ref": "KDO #256: card_review_checklist.py 8项自检——YAML/TITLE/TYPE/DS/RELATED/RELATED_DEAD/POSITION/REVIEW_DATE。提报前强制跑，不跑不交",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-09",
+      "reverify_by": "2027-02-05"
     },
     {
       "id": "F079",
@@ -792,7 +830,9 @@
       "purpose": "任务失败后自动重试或降级",
       "scenario": "容错",
       "case_ref": "KDO #230: card_review_checklist RELATED_DEAD 自动定位断链——欧阳锋退回后黄药师修→跑 checklist→确认全绿→重提。失败恢复闭环",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-09",
+      "reverify_by": "2027-02-05"
     },
     {
       "id": "F080",
@@ -803,7 +843,9 @@
       "scenario": "目标导向任务",
       "case_ref": "case-252-quality-gate-pilot",
       "verified": true,
-      "verify_note": "试点#252: 门禁体系即\"持续推Goal\"的机制化——CARD_CHECKLIST强制逐项自检、REVIEW_MARK终审标记，让Agent不偏离\"卡片合格\"目标"
+      "verify_note": "试点#252: 门禁体系即\"持续推Goal\"的机制化——CARD_CHECKLIST强制逐项自检、REVIEW_MARK终审标记，让Agent不偏离\"卡片合格\"目标",
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F081",
@@ -814,7 +856,9 @@
       "scenario": "协作",
       "case_ref": "case-252-quality-gate-pilot",
       "verified": true,
-      "verify_note": "试点#252: 门禁的lint报告+REVIEW_MARK即\"主动汇报\"——PASS/FAIL自动通知，审查结果写回卡片"
+      "verify_note": "试点#252: 门禁的lint报告+REVIEW_MARK即\"主动汇报\"——PASS/FAIL自动通知，审查结果写回卡片",
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F082",
@@ -855,7 +899,9 @@
       "scenario": "大团队",
       "case_ref": "case-252-quality-gate-pilot",
       "verified": true,
-      "verify_note": "试点#252: 双轨体系即\"能力分工\"——quality-gate轨(生产者/审查者)与capability轨(AI使用者)按角色分工，互不混编"
+      "verify_note": "试点#252: 双轨体系即\"能力分工\"——quality-gate轨(生产者/审查者)与capability轨(AI使用者)按角色分工，互不混编",
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F086",
@@ -985,7 +1031,9 @@
       "purpose": "给任务设定里程碑编号，不是无限优化而是分阶段达标",
       "scenario": "长期项目",
       "case_ref": "口述下 L518（8个设计里程碑）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     },
     {
       "id": "F099",
@@ -1005,7 +1053,9 @@
       "purpose": "AI在关键节点主动向用户确认理解是否正确",
       "scenario": "高风险决策",
       "case_ref": "口述上 L338（反向确认：你跟我确认对吧）",
-      "verified": true
+      "verified": true,
+      "verify_date": "2026-08-08",
+      "reverify_by": "2027-02-04"
     }
   ],
   "total_target": 100,

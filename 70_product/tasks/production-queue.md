@@ -1,455 +1,212 @@
 ---
-
-
-
 id: production-queue
-
-
-
 type: queue
-
-
-
 status: active
-
-
-
 updated_at: 2026-08-06T00:00:00+00:00
-
-
-
 reviewed_by: 欧阳锋
-
-
-
 owner: 王语嫣
-
-
-
 audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
-
-
-
 ---
-
-
-
 # 生产队列：老顽童领取 / 欧阳锋审核
-
-
-
 > 本文件是 KDO 知识工厂的**统一生产队列**。
-
-
-
 > 老顽童按队列顺序领取，一次只做一件；欧阳锋按队列顺序审核。
-
-
-
 > 任务来源：历史批量工单、新域诊断任务、跨域桥接任务。
-
-
-
 |:---:|:---|:---|:---:|:---:|---:|:---|:---|:---|
-
 | 1 | `laowantong-batch-2026-06-20-wave1` | 鑰侀〗绔ユ壒閲忓伐鍗曠 1 娉細闂ㄧ蹇€熸竻鐞?| reviewed | 鑰侀〗绔?WorkBuddy) | 18 | 鏃?| `review_20260628_ouyangfeng-wave1.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?8/18 寮犲崱 status 鏇存柊涓?reviewed锛宺eviewed_by: 娆ч槼閿嬶紝review_date: 2026-06-28 |
-
 | 2 | `task_20260627_laowantong-deliberate-practice-cards` | 鍏冭兘鍔?鍒绘剰缁冧範鍩熷崱鐗囧寲锛堝惈 AI 鍗忎綔妗ユ帴鍗★級 | reviewed | - | 11 | 鏃狅紙鍙笌 wave1 骞惰锛?| `60_feedback/tasks/task_20260627_laowantong-deliberate-practice-cards.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?1 寮犲崱 status 鏇存柊涓?reviewed锛宖rontmatter 宸茶ˉ review_date |
-
 | 3 | `task_20260627_laowantong-channel-growth-cards` | 娓犻亾澧為暱鍩熷崱鐗囧寲锛堝惈 2 寮犺法鍩熸ˉ鎺ュ崱锛?| reviewed | - | 25 | 鏃狅紙鍙笌 wave1 骞惰锛?| `review_20260628_ouyangfeng-channel-growth.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?5/25 寮犲崱 status 鏇存柊涓?reviewed锛宺eviewed_by: 娆ч槼閿嬶紝review_date: 2026-06-28锛涘凡鐭ラ仐鐣欙細13 寮?case 鍗＄己 lint 鏍囧噯 section锛堝叏灞€ case section 鍊哄姟锛夈€? 寮?dk 鐩綍鏈榻愩€? 寮?concept 鐩綍鏈榻愶紝宸茶褰曚负鍚庣画娓呯悊浠诲姟 |
-
 | 4 | `task_20260627_laowantong-lanyi-panproduct-organization` | 鍏版瘏娉涗骇鍝佺粍缁囧寲 + 娉涗骇鍝佽璁″煙鍗囩骇 | reviewed | - | 12 | 鏃?| `task_20260627_laowantong-lanyi-panproduct-organization.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?2/12 寮犲崱 status 鏇存柊涓?reviewed锛宺eviewed_by: 娆ч槼閿嬶紝review_date: 2026-06-28锛涘鏌ヤ腑淇 3 寮?case section + 5 涓洰褰曠Щ鍔?|
-
 | 5 | `laowantong-batch-2026-06-20-wave2` | 鑰侀〗绔ユ壒閲忓伐鍗曠 2 娉細P0 杩斿伐 | reviewed | 鑰侀〗绔?WorkBuddy) | 16 | 鏃?| `laowantong-batch-2026-06-20.md` | 娆ч槼閿嬪瓙浠ｇ悊缁堝閫氳繃锛?6/16 寮犲崱 `kdo pre-submit` 閫氳繃锛宻tatus 鏇存柊涓?reviewed锛宍reviewed_by: 娆ч槼閿媊锛宍review_date: 2026-06-28`锛涗粛鏈?frontmatter domain/related/tags/query_triggers `src_unknown` 鍗犱綅鍙婂皯閲忓唴瀹瑰尯鍗犱綅锛屽凡璁板綍涓?wave2 娈嬬暀椤癸紝寤鸿鐢辩帇璇/鑰侀〗绔ュ湪鍚庣画娓呯悊浠诲姟涓ˉ榻?|
-
 | 6 | `laowantong-batch-2026-06-20-wave3` | 鑰侀〗绔ユ壒閲忓伐鍗曠 3 娉細P1 娣卞害琛ュ叏 | reviewed | 娆ч槼閿?| 14 | 渚濊禆 wave2 瀹屾垚锛堝凡 reviewed锛岃В閿侊級 | `review_20260628_ouyangfeng-wave3.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?4/14 寮犲崱 status 鏇存柊涓?reviewed锛涘鏌ヤ腑娓呯悊 14 寮犲崱 frontmatter 涓?domain/related/tags 鐨?src_unknown 鍗犱綅锛涘叏搴?lint ERROR 闄嶈嚦 533锛涘凡瑙ｉ攣 wave4 鍜岀鍏壒 dk 娓呴浂 |
-
 | 7 | `task_20260628_laowantong-dark-knowledges-batch8` | dark-knowledges 绗叓鎵规竻闆讹細琛ラ綈 10 寮犻棶棰?dk 鍗?| reviewed | 娆ч槼閿?| 10 | 渚濊禆 wave3 瀹屾垚锛堝凡 reviewed锛岃В閿侊級 | `task_20260628_laowantong-dark-knowledges-batch8.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?0/10 寮?dk 鍗?status 鏇存柊涓?reviewed锛沗dark-knowledges/` 鐩綍 lint ERROR 褰掗浂锛涘鏌ヤ腑淇 4 寮犲崱鏍煎紡闂锛泈ave4 宸插畬鍏ㄨВ閿?|
-
 | 8 | `laowantong-batch-2026-06-20-wave4` | 鑰侀〗绔ユ壒閲忓伐鍗曠 4 娉細鏂板煙寤鸿 | reviewed | Hermes 鑰侀〗绔?| 15 | 宸茶В閿侊紙wave3 + 绗叓鎵瑰潎 reviewed锛?| `review_20260628_ouyangfeng-wave4.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?5/15 寮犲崱 status 鏇存柊涓?reviewed锛宺eviewed_by: 娆ч槼閿嬶紝review_date: 2026-06-28锛涘鏌ヤ腑淇 4.1 source_refs 18 澶勩€?.2 domain 鍗犱綅 7 澶勫強姝ｆ枃 src_unknown 鍗犱綅 30+ 澶勶紱wave4 宸茶В閿?wave5 |
-
 | 9 | `laowantong-batch-2026-06-20-wave5` | 鑰侀〗绔ユ壒閲忓伐鍗曠 5 娉細澶栭儴鎺㈢储涓変釜鏂扮洸鍖?| reviewed | WorkBuddy 鑰侀〗绔?| 12 | 渚濊禆 wave4 瀹屾垚锛堝凡 reviewed锛岃В閿侊級 | `review_20260628_ouyangfeng-wave5.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?2/12 寮犲崱 `kdo pre-submit` 閫氳繃锛涘鏌ヤ腑淇 12 寮犲崱 frontmatter锛堣ˉ `status: reviewed`銆佺粺涓€ `reviewed_by: 娆ч槼閿媊銆佹洿鏂?`updated_at`锛夛紱wave5 宸茶В閿?|
-
 | 10 | `task_20260628_hermes-lint-baseline-cleanup-batch1` | Hermes lint 鍩虹嚎娓呯悊 Batch 1锛氭満姊版€?frontmatter 淇 | reviewed | Hermes 鑰侀〗绔?| 784锛堝畨鍏ㄦ満姊颁慨澶嶏紝鍚鏌ヨ拷鍔?125锛?| 鏃?| `60_feedback/tasks/task_20260628_hermes-lint-baseline-cleanup-batch1.md` | Hermes 宸插畬鎴愶細frontmatter parse 绫?ERROR 娓呴浂锛沗kdo lint` 浠?690鈫?90 鏄洜涓?frontmatter 淇ソ鍚庡師琚帇鍒剁殑鍗＄墖鏆撮湶鏇村 section/source_refs 閿欒锛?90 涓唴瀹圭骇閿欒鐢?Batch 2-A/B/C 鎵挎帴锛汬ermes 鑰侀〗绔ュ緟鍛?|
-
 | 11 | `task_20260628_wangyuyan-cleanup-channel-growth-residuals` | 娓犻亾澧為暱鍩熺粓瀹￠仐鐣欓棶棰樻竻鐞嗭紙P2+P3 宸插畬鎴愶紝P1 宸叉媶鍒嗭級 | done | 榛勮嵂甯?| 0锛堟竻鐞嗕换鍔★級 | 鏃?| `task_20260628_wangyuyan-cleanup-channel-growth-residuals.md` | 榛勮嵂甯堝凡瀹屾垚 dk/concept 鐩綍绉诲姩 + 鍏ㄥ簱 related 閾炬帴鏇存柊 + 椤烘墜淇 3 寮?case 鍗★紱P1 鍓╀綑 10 寮?case + 1 寮?dk section 璋冩暣宸叉媶鍒嗕负鐙珛浠诲姟 #12 |
-
 | 12 | `task_20260628_laowantong-case-section-standardization` | 娓犻亾澧為暱鍩?10 寮?case + 1 寮?dk section 鏍囧噯鍖?| reviewed | 娆ч槼閿?| 11 | 鏃?| `task_20260628_laowantong-case-section-standardization.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?1/11 鏂囦欢 `kdo lint` 0 ERROR锛? 澶勬爣棰樺簭鍙烽棶棰樺凡鐜板満淇 |
-
 | 13 | `task_20260628_laowantong-lint-batch2-case-sections` | lint Batch 2-A锛歝ase section 鏍囧噯鍖栬ˉ鍏紙130 鏂囦欢锛?| reviewed | WorkBuddy 鑰侀〗绔?| 130 | 鏃?| `60_feedback/tasks/task_20260628_laowantong-lint-batch2-case-sections.md` | 娆ч槼閿嬪鏍搁€氳繃锛氱敵璇夋垚绔嬶紝130/130 case 鏂囦欢宸茬湡瀹炰慨鏀瑰苟 commit锛宍kdo lint` Case section ERROR 娓呴浂锛涗箣鍓?`git diff HEAD` 妫€鏌ュけ鏁堟牴鍥犳槸 vault backup 鑷姩 commit |
-
 | 14 | `task_20260628_laowantong-lint-batch2-dk-sections` | lint Batch 2-B锛歞k section 鏍囧噯鍖栬ˉ鍏紙43+14 鏂囦欢锛?| reviewed | WorkBuddy 鑰侀〗绔?| 57 | 鏃?| `60_feedback/tasks/task_20260628_laowantong-lint-batch2-dk-sections.md` | 娆ч槼閿嬪鏍搁€氳繃锛氱敵璇夋垚绔嬶紝57/57 dk 鏂囦欢宸茬湡瀹炰慨鏀瑰苟 commit锛宍kdo lint` DK section ERROR 娓呴浂锛涘師 43 娓呭崟 + 14 涓?extra 鏂囦欢鍧囧鐞?|
-
 | 15 | `task_20260628_huangyaoshi-lint-batch2-source-refs` | lint Batch 2-C锛歴ource_refs 鐪熷疄瀛樺湪鎬ф竻鐞嗭紙175 ERROR / 90 鏂囦欢锛?| reviewed | WorkBuddy 鑰侀〗绔?| 90 | 鏃?| `60_feedback/tasks/task_20260628_huangyaoshi-lint-batch2-source-refs.md` | 鐢ㄦ埛澶嶆牳鍙戠幇瑙勫垯灞傝ˉ涓佸凡涓婄嚎浣嗘暟鎹眰娓呯悊鏈畬鎴愶紱浠诲姟杞氦鑰侀〗绔ワ紱宸茬湡瀹炰慨鏀?90 涓枃浠讹紝涓?175 涓?bare source_refs 娣诲姞 `10_raw/sources/` 鍓嶇紑锛宍kdo lint` source_refs ERROR 娓呴浂锛宍kdo pre-submit` 90/90 閫氳繃锛涘緟娆ч槼閿嬬粓瀹?|
-
 | 16 | `task_20260628_wangyuyan-wave6-blindspot-diagnosis` | Wave 6 鏂扮洸鍖烘帰绱㈣瘖鏂?| reviewed | 鐜嬭瀚?| 0 | 鏃?| `60_feedback/tasks/task_20260628_wangyuyan-wave6-blindspot-diagnosis.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛氬喅绛栫瀛﹀煙 14 reviewed + 闇€姹傚垎鏋愬煙 10-20 reviewed锛屼袱涓洸鍖鸿瘑鍒悎鐞嗭紱寤鸿鍗＄墖 ID 鏃犲啿绐侊紱#21/#22 鍙叆闃熺敓浜?|
-
 | 17 | `task_20260628_wangyuyan-next-phase-orchestration` | 涓嬩竴闃舵浠诲姟缂栨帓寤鸿锛歐ave 6 + 琛ラ摼骞惰 | confirmed | 鐜嬭瀚?| 0 | 鏃?| `60_feedback/tasks/task_20260628_wangyuyan-next-phase-orchestration.md` | 鐜嬭瀚ｅ凡鎷嶆澘锛歐ave 6 缁х画 #16锛岃ˉ閾炬媶涓?B1/B2/B3 浣滀负 #18/#19/#20 鍏ラ槦锛汢1 鑷姩鍐欏叆+鎶芥锛孊2 蹇呴』浜哄伐瀹℃牳锛孊3 鍗婅嚜鍔紱related 鍒嗗眰鏍囧噯涓嶆寜 鈮? 涓€鍒€鍒?|
-
 | 18 | `task_20260628_laowantong-link-repair-b1-frontmatter-related` | B1锛歠rontmatter `related` 瀛楁 src_unknown 鍗犱綅娓呯悊 | reviewed | 鑰侀〗绔?WorkBuddy) | 256 | 鏃?| `60_feedback/tasks/task_20260628_laowantong-link-repair-b1-frontmatter-related.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?56 鏂囦欢鐪熷疄淇敼锛宺elated src_unknown 娓呴浂锛?190 pending_unknown 琛ュ叆绗﹀悎鍒嗗眰鏍囧噯锛沗kdo lint` 0 ERROR锛涙娊妫€ 4 寮犲崱 OK |
-
 | 19 | `task_20260628_laowantong-link-repair-b2-synthesis-section` | B2锛歋ynthesis section 姝婚摼/鍗犱綅娓呯悊 | reviewed | 鑰侀〗绔?WorkBuddy) | 235 + 66 琛ュ厖 | 鏃?| `60_feedback/tasks/task_20260628_laowantong-link-repair-b2-synthesis-section.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?35 寮犲垵澶勭悊 + 66 寮犺ˉ鍏呮竻鐞嗭紝66 鏂囦欢 body src_unknown 鍏ㄩ儴娓呴浂锛沰do lint 140 ERROR 鍏ㄤ负鍘嗗彶閬楃暀锛屾棤鏂板锛沠rontmatter src_unknown 鍙﹀紑浠诲姟澶勭悊 |
-
 | 20 | `task_20260628_laowantong-link-repair-b3-island-cards` | B3锛氬宀涘崱鐗?`kdo link-suggest` 鎵归噺鎺ㄨ崘 | reviewed | 鑰侀〗绔?WorkBuddy) | 1042 | 鏃?| `60_feedback/tasks/task_20260628_laowantong-link-repair-b3-island-cards.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?014 YAML寮曞彿淇 + 163 bare id鍖呰９ + 119鍙ュ瓙鍒犻櫎 + 33寮犲宀涜ˉ鐪熷疄wikilink + pending_unknown.md绉诲埌system/锛涘宀涘崱鐗囨竻闆讹紱lint 140 ERROR鍏ㄤ负鍘嗗彶閬楃暀鏃犳柊澧烇紱pre-submit 鎶芥5/5 PASS锛?5寮犱粛鍏╬ending涓哄凡鐭ラ檺鍒?|
-
 | 21 | `task_20260628_laowantong-wave6-decision-science-systematization` | Wave 6-A锛氬喅绛栫瀛﹀煙绯荤粺鍖?| reviewed | 鑰侀〗绔?Hermes) | 5 | 渚濊禆 Wave 6 璇婃柇 reviewed | `60_feedback/tasks/task_20260628_laowantong-wave6-decision-science-systematization.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?/5 鍗＄墖缁撴瀯瀹屾暣锛宭int 148 ERROR 鍏ㄤ负鍘嗗彶閬楃暀鏃犳柊澧烇紱鍒犻櫎 framework-decision-quality-checklist 涓噸澶?related锛涘喅绛栫瀛﹀煙 reviewed 浠?14鈫?8 |
-
 | 22 | `task_20260628_laowantong-wave6-demand-analysis-deepening` | Wave 6-B锛氶渶姹傚垎鏋愬煙娣卞寲 | reviewed | 鑰侀〗绔?Hermes) | 5 | 渚濊禆 Wave 6 璇婃柇 reviewed | `60_feedback/tasks/task_20260628_laowantong-wave6-demand-analysis-deepening.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?/5 鍗＄墖缁撴瀯瀹屾暣锛宑ase section 鑻辨枃鏍囬鏀逛负涓枃锛沴int 140 ERROR 鍏ㄤ负鍘嗗彶閬楃暀鏃犳柊澧烇紝涓斾慨澶?8 涓巻鍙?case section 閿欒锛? 寮犲崱鍏ㄩ儴鍔犲叆 index.md锛沺re-submit 5/5 PASS |
-
 | 23 | `task_20260629_huangyaoshi-lint-a1-empty-source-refs` | A1锛氱┖ source_refs 娓呯悊 | reviewed | 榛勮嵂甯?| 8 | 鏃?| `60_feedback/tasks/task_20260629_huangyaoshi-lint-a1-empty-source-refs.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛?/8 鏂囦欢 source_refs 琛ヤ负 pending_archive锛沗kdo lint` empty source_refs ERROR 娓呴浂锛沺re-submit 8/8 PASS |
-
 | 24 | `task_20260629_laowantong-lint-a2-case-section-completion` | A2锛歝ase section 缂哄け琛ュ叏 | done | 鑰侀〗绔?Hermes) | 83 | 渚濊禆 A1 鏃犲啿绐?| `60_feedback/tasks/task_20260629_laowantong-lint-a2-case-section-completion.md` | frontmatter 淇鐩爣宸插畬鎴愶紙鏃ユ湡瀛楁/parse error/title/type锛夛紱娆ч槼閿嬬粓瀹￠€氳繃锛?32 涓?`Case card missing section` 鍘嗗彶閬楃暀宸叉媶鍒嗕负鐙珛鍊哄姟浠诲姟 #24-debt |
-
 | 25 | `task_20260629_laowantong-expand-ai-learning-concept-cards` | 鎵╁睍 AI 宸ュ叿瀛︿範鏂规硶璁哄師瀛愭蹇靛崱 | reviewed | 鑰侀〗绔?Hermes) | 7 | 鏃?| `60_feedback/tasks/task_20260629_laowantong-expand-ai-learning-concept-cards.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛? 寮犳柊鍗＄粨鏋勫畬鏁达紱淇 3 寮?tool 鍗℃爣鍑?section锛涜ˉ鍏?4 寮犳牳蹇冨崱 related 鍙屽悜閾炬帴锛沬ndex.md 宸叉敹褰曪紱lint 0 鏂板 ERROR锛沺re-submit 鏈浜у嚭鏃?ERROR锛堝叏閲?FAIL 涓哄巻鍙查仐鐣欙級 |
-
 | 26 | `task_20260629_kimi-full-frontmatter-compliance-cleanup` | 鍏ㄥ簱 frontmatter 鍚堣淇锛堝惊鐜鐞嗙洿鍒板綊闆讹級 | reviewed | 鑰侀〗绔?Hermes) | ~88 鏂囦欢 + 22 鐩綍 | 鏃?| `60_feedback/tasks/task_20260629_kimi-full-frontmatter-compliance-cleanup.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛歠rontmatter 绫汇€佺洰褰曠粨鏋勭被 ERROR 鍏ㄩ儴娓呴浂锛沗kdo pre-submit` 448/0 PASS锛沗kdo lint` 0 ERROR / 7507 WARNING锛涘墿浣?WARNING 涓哄唴瀹硅川閲忕被锛岄渶鍗曠嫭浠诲姟澶勭悊 |
-
 | 27 | `task_20260629_kimi-lint-mechanical-noise-reduction` | lint 鏈烘绫?WARNING 鐩存帴闄嶅櫔 | reviewed | 鑰侀〗绔?Hermes) | ~2700 WARNING | 鏃?| `60_feedback/tasks/task_20260629_kimi-lint-mechanical-noise-reduction.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛歭int 闃堝€艰皟鏁村凡纭锛?35 鏂囦欢 source_refs 瑙勮寖鍖栵紱1637 椤甸潰琛ュ綍 index锛?51 涓?tool 鍗¤ˉ section 楠ㄦ灦锛沗kdo lint` 浠?7507 闄嶅埌 3286 WARNING锛沗kdo lint` 0 ERROR锛沗kdo pre-submit` PASS |
-
 | 28 | `task_20260629_kimi-lint-content-debt-by-domain` | lint 鍐呭鍊烘寜 domain 鍒嗘壒娓呯悊 | reviewed | workbuddy | ~2656 WARNING / 14 涓瓙浠诲姟 | 渚濊禆 #27 reviewed | `60_feedback/tasks/task_20260629_kimi-lint-content-debt-by-domain.md` | 娆ч槼閿嬬粓瀹￠€氳繃銆?4 鍗曞叏 PASS銆俉ARNING 鈫?2%锛屽叚澶у唴瀹圭被鍒叏娓呴浂 |
-
 | 29 | `task_20260629_wangyuyan-goat-milk-channel-partnership-bridge` | 缇婂ザ銆屽崠鍦板浘銆嶈法鍩熸ˉ鎺ュ崱鐢熶骇 | reviewed | 鑰侀〗绔?Hermes鍒嗚韩-Claude) | 3 寮犲崱 | 鏃?| `60_feedback/tasks/task_20260629_wangyuyan-goat-milk-channel-partnership-bridge.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛? 寮犲崱宸茶ˉ褰?index銆佷慨姝?section 鏍囬銆佽ˉ鍏?Critique 澶栭儴鍙嶅鑰呬笌鍏抽敭鏈銆佽ˉ鐩搁偦鍩?related 鍥為摼锛? 寮犵洰鏍囧崱 lint 鏃?ERROR/WARNING锛沺re-submit 鐩爣鍗℃棤 ERROR锛堝叏閲?FAIL 涓?raw/ocr 涓?_dogfood 鍘嗗彶閬楃暀锛?|
-
 | 30 | `task_20260629_vikki-info-emotion-skill-upgrade` | Vikki + 澶чΘ锛歝ontent-production-polish skill 2.0 鍗囩骇 | reviewed | 鑰侀〗绔?Kimi) | 1 涓?skill | 鏃?| `60_feedback/tasks/task_20260629_vikki-info-emotion-skill-upgrade.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛歋KILL.md Core Standard 鎵╁睍涓?6 鏉?+ Step 5.5 6 椤归獙璇?+ Platform Notes 5 骞冲彴妯℃澘 + Mini Scoring Rubric 6 缁达紱human-speech-rules.md 鏂板 #13-#15 鏂规硶锛?-part 缁撴瀯 + 5 璺ㄥ煙绀轰緥锛夛紱`kdo pre-submit` 2/2 PASS锛泂hared 涓?`.claude/skills/` 妗ユ帴涓€鑷达紱瀹℃煡涓慨姝?2 澶勬枃鏈笉涓€鑷达紙4鈫? 鏍囧噯銆丮ini Scoring Rubric 6 缁达級锛沗agent澶嶇洏/Kimi/2026-06-30.md` 缂哄け璁颁负鍚庣画寰€哄姟 |
-
 | 31 | `task_20260629_vikki-five-tag-quality-labels` | Vikki 浜旀爣绛?+ 澶чΘ鍝佺墝涓夊害 鈫?KDO 鍗＄墖璐ㄩ噺鏍囩浣撶郴 | reviewed | 鑰侀〗绔?Kimi) | 1 涓?schema + 50 寮犺瘯鐐瑰崱鐗?+ 1 寮?framework | 鍘?assignee 榛勮嵂甯堬紱schema/鑴氭湰灞傚凡鐢遍粍鑽笀瀹屾垚锛坙abel-quality-migrate.py锛夛紱鑰侀〗绔?Kimi)瀹屾垚鍐呭灞?| `60_feedback/tasks/task_20260629_vikki-five-tag-quality-labels.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛歠ramework-brand-three-degree 姒傚康鍗?+ system-kdo-quality-labels 鎸囧崡閫氳繃 pre-submit锛?0 寮犺瘯鐐瑰崱鐗囨爣绛捐縼绉诲畬鎴愶紱瀹℃煡涓彂鐜板苟淇 48 寮犲崱鐗囧瓨鍦ㄩ噸澶?`quality_labels` 瀛楁鐨勯棶棰橈紱杩佺Щ鑴氭湰宸插鍔犻槻寰℃€ц烦杩囬€昏緫锛沗kdo pre-submit` 鏂板崱 2/2 PASS + 鎶芥煡 4/4 PASS锛沗.agent/laowantong-context.md` 宸叉洿鏂?quality_labels 妫€鏌ラ」 |
-
 | 32 | `task_20260629_vikki-open-source-knowledge-boundary` | 娌夋穩銆屽紑婧愮煡璇嗕娇鐢ㄨ竟鐣屻€嶆蹇靛崱 | reviewed | 鑰侀〗绔?Kimi) | 1 寮?concept 鍗?| 鏃?| `60_feedback/tasks/task_20260629_vikki-open-source-knowledge-boundary.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛歝oncept-open-source-knowledge-usage-boundary 姒傚康鍗℃鏂?300 琛岋紝鍥涘眰绾э紙瀛︿範/寮曠敤/鏀圭紪/钂搁锛? 涓夋潯杈圭晫绾?+ KDO 榛樿鍗忚寤鸿锛圕C BY-NC-SA/CC BY-NC-ND/CC BY锛? 娓镐緺浜嬩欢/Anthropic-DeepSeek 鍙屾渚?+ Critique 鍐呴儴灞€闄?+ 2 涓閮ㄦ敾鍑昏€咃紱`kdo pre-submit` 1/1 PASS锛? 涓?related 閾炬帴鍏ㄩ儴鏈夋晥锛沇ebSearch 鏉ユ簮寤鸿鍚庣画琛ュ叆 source_refs |
-
 | 33 | `task_20260630_daxin-methodology-cards-production` | 澶чΘ鎴橀槦鏍稿績鏂规硶璁哄崱鐗囧寲 | reviewed | 鑰侀〗绔?Kimi) | 5 寮犲崱锛?30 skill 宸茶鐩栬剼鏈ā鏉匡紝鐪佺暐 tool-shortvideo-script-templates锛?| 鏃?| `60_feedback/tasks/task_20260630_daxin-methodology-cards-production.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛? 寮犵洰鏍囧崱鍏ㄩ儴 `kdo pre-submit` PASS锛沠ramework-brand-three-degree 浠?concept 鍗囩骇涓?framework 骞惰ˉ鍏?6 姝ユ搷浣滄硶锛沜ase-daxin-team-content-training-camp 璇佹嵁閾撅紙615 鏉＄兢鑱婏級+ 6 涓け璐ユā寮忓畬鏁达紱瀹℃煡涓慨姝?1 澶?`quality_labels: observed` 涓哄彈鎺ф爣绛?`cited`锛涢槦鍒楁姠璺戝紓甯稿凡鎸夎ˉ瀹℃祦绋嬪鐞?|
-
 | 34 | `task_20260630_community-knowledge-failure-modes` | 绀剧兢鐭ヨ瘑鐢熶骇澶辫触妯″紡搴擄紙Vikki + 澶чΘ铻嶅悎锛?| reviewed | 鑰侀〗绔?Hermes) | 1 寮?framework + 1 寮犲彲閫?case | 鏃?| `60_feedback/tasks/task_20260630_community-knowledge-failure-modes.md` | 鏉ユ簮锛歏ikki缇?+ 澶чΘ鎴橀槦锛涜瀺鍚?0涓け璐ユā寮忥紝寤虹珛KDO澶欰gent鍗忎綔/绀剧兢杩愯惀鐨勫け璐ユā寮忓簱涓庢棭鏈熼璀︽寚鏍?|
-
 | 35 | `task_20260630_kdo-state-json-sqlite-migration-mvp` | KDO state.json 鈫?SQLite MVP 杩佺Щ锛坰ources 闆嗗悎锛?| reviewed | **榛勮嵂甯?* | 1 涓泦鍚?/ 689 鏉¤褰?| 鏃狅紱鐢ㄦ埛鎸囧畾鏈懆楂樹紭鍏堢骇鍩虹璁炬柦浠诲姟 | `60_feedback/tasks/task_20260630_kdo-state-json-sqlite-migration-mvp.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛圔+锛夛細`.kdo/state.sqlite` 鐢熸垚锛宍state.json` 宸查噸鍛藉悕涓?`.migrated`锛?89 鏉?sources 涓€鑷达紱`kdo lint --summary` 0 鏂板 ERROR锛宍kdo status` 姝ｅ父锛涙柊澧?11 涓?SQLite state 鍗曞厓娴嬭瘯锛涘鏌ヤ腑淇 append 涓嶆彁浜ゃ€乺eload 涓㈠け sources銆佽法绾跨▼ finalizer銆佸鍛戒护鏈叧闂繛鎺ャ€乴int 鍩虹嚎鏈鍒?SQLite 绛?5 澶勯棶棰橈紱`kdo enrich --all --dry-run` 褰撳墠鏃?TODO 椤甸潰寰呰ˉ娴嬶紱鍏ㄩ噺 pytest 538 passed / 1 skipped / 1 failed锛坒ailed 涓洪瀛樺湪 Windows GBK 缂栫爜闂锛?|
-
 | 36 | `task_20260630_kdo-query-label-filter` | 瀹炵幇 kdo query --label 璐ㄩ噺鏍囩杩囨护鍛戒护 | reviewed | 榛勮嵂甯?| 1 涓?CLI 鍙傛暟 | 渚濊禆 #31 reviewed锛?8 寮犻噸澶嶆爣绛鹃棶棰樺凡鐢辨闃抽攱鐜板満淇 | `60_feedback/tasks/task_20260630_kdo-query-label-filter.md` | #31 閬楃暀锛氶獙鏀舵爣鍑嗚姹?`kdo query --label actionable` 鍙繃婊わ紱褰撳墠鐢?rg 涓存椂鏇夸唬锛涢粍鑽笀瀹炵幇鍚庢洿鏂?system-kdo-quality-labels 鎸囧崡 |
-
 | 37 | `task_20260630_kdo-cli-syntaxerror-fix` | 淇 kdo CLI SyntaxError锛坘do/commands/delivery.py:686锛?| reviewed | 榛勮嵂甯?| 1 涓?bugfix | 鏃狅紱鑰侀〗绔ュ湪 #34 鐢熶骇涓彂鐜?| `60_feedback/tasks/task_20260630_kdo-cli-syntaxerror-fix.md` | `python -m kdo pre-submit` 绛夊懡浠よЕ鍙?SyntaxError锛岄渶榛勮嵂甯堜慨澶?delivery.py 璇硶閿欒锛涗慨澶嶅悗鑰侀〗绔ュ彲鎭㈠鐩存帴浣跨敤 CLI |
-
 | 38 | `task_20260701_kdo-index-lint-wikilink-format-alignment` | KDO index/lint wikilink 鏍煎紡瀵归綈 | reviewed | 榛勮嵂甯?| 1 涓?KDO 浠ｇ爜淇 + 1 涓祴璇?| 鏃狅紱闃诲 #28 strategy 鍩熺湡瀹炴竻闆?| `60_feedback/tasks/task_20260701_kdo-index-lint-wikilink-format-alignment.md` | 娆ч槼閿嬪缓璁彃闃燂紱鏍瑰洜锛歚kdo index --rebuild` 鐢熸垚 bare wikilink锛宍kdo lint` 鏈熸湜甯﹁矾寰?wikilink锛屽鑷?strategy 148 涓?/ 鍏ㄥ簱绾?700+ WARNING 璇姤锛涗慨澶嶅悗 strategy 鍩熷彲鐪熷疄娓呴浂锛涢璁?0.5-1 澶?|
-
 | 39 | `task_20260701_design-domain-encoding-diagnosis` | design domain 缂栫爜鎹熷潖璇婃柇 | reviewed | 鑰侀〗绔?Kimi) | 1 浠借瘖鏂姤鍛?| 鏃狅紱闃诲 #28 design 鍩熸竻鐞?| `60_feedback/tasks/task_20260701_design-domain-encoding-diagnosis.md` | 娆ч槼閿嬪缓璁彃闃燂紱鐩爣锛氬彧璇昏瘖鏂?design 鍩熸枃浠剁紪鐮佹崯鍧忔牴鍥狅紝缁欏嚭 healthy/display-only/recoverable/corrupted 鍒嗙被鍙婂悗缁鐞嗗缓璁紱璇婃柇瀹屾垚鍓嶇姝㈡壒閲忎慨鏀?design 鏂囦欢锛涢璁?0.5-1 澶?|
-
 | 40 | `task_20260701_wangyuyan-wobeirushen-pilot-orchestration` | 銆婂惥杈堝绁炪€嬫潯浠舵€х撼鍏?+ 3 寮犲崱 | reviewed | 鑰侀〗绔?Kimi) | 3 寮犲崱锛? concept + 1 tool + 1 concept锛?| 鏃狅紱楠岃瘉鎶ュ憡宸插畬鎴?| `60_feedback/tasks/task_20260701_wangyuyan-wobeirushen-pilot-orchestration.md` | 鐜嬭瀚ｄ环鍊煎垽鏂細B 绾х礌鏉愶紝涓嶅仛璇曠偣锛岀洿鎺ヤ骇鍑?3 寮犲崱鈥斺€擿concept-cognitive-offloading-in-ai-era`锛堝凡鏈夊垵绋匡紝闇€缁堝锛夈€乣tool-ai-use-barbell-strategy`锛堟柊寤猴級銆乣concept-abundance-paradox`锛堟柊寤猴級锛涚籂姝?BMW 85%/AGI 2029/AI 鏃犳硶鍒涢€犵瓑璇锛涘叾浣欐蹇垫湰娆′笉绾冲叆锛屽皝璐?|
-
 | 41 | `task_20260701_wangyuyan-time-management-domain-orchestration` | 鏃堕棿绠＄悊鍩熷崌绾э細3 寮犻珮瀵嗗害妗ユ帴鍗?| reviewed | 鑰侀〗绔?Kimi) | 3 寮狅紙1 framework 妗ユ帴 + 1 tool 瀹¤寰幆 + 1 dk 鍙嶆ā寮忥級 | 鏃狅紱娲竷鍏?OCR+VLM 棰勫鐞嗗凡瀹屾垚 | `70_product/tasks/task_20260701_wangyuyan-time-management-domain-orchestration.md` | 鐜嬭瀚ｇ粡涔濆眰娣辨寲杩斿伐锛氭椂闂寸鐞?= 涓€鍫備簲姝ユ硶/IPO/鍗曞厓妯″瀷/鍐崇瓥鍗敓鍦ㄨ嚜绠＄悊鍦烘櫙鐨勫疄渚嬪寲锛? 寮犻珮瀵嗗害鍗?+ 鍙嶅悜鏇存柊 鈮?0 寮犲凡鏈夋鏋跺崱 related锛涜瑙?`diag_20260701_time-management-nine-layer-isomorphism.md` |
-
 | 42 | `task_20260702_laowantong-vikki-daxin-dark-knowledge-pilot-production` | 鏆楃煡璇嗚ˉ鎸栬瘯鐐圭敓浜э細Vikki + 澶чΘ鎴橀槦 | reviewed | 鑰侀〗绔?Kimi) | 4 寮犳柊 dk + 7-9 寮犲凡鏈夊崱琛ュ厖 | 渚濊禆鐜嬭瀚ｈ瘖鏂?`diag_20260702_vikki-daxin-dark-knowledge-extraction.md` | `60_feedback/tasks/task_20260702_laowantong-vikki-daxin-dark-knowledge-pilot-production.md` | 榛勮嵂甯堣瘯鐐瑰缓璁功锛氶獙璇併€屼竴鍙ヨ瘽閲戠熆鎵弿銆嶆祦绋嬶紱鐜嬭瀚ｅ凡鎵弿 22 鏉℃殫鐭ヨ瘑锛屽缓璁?4 寮犳柊 dk锛堣倢鑲夎蹇?鍒涘浜?IP 淇′换>娴侀噺/闅愭€т环鍊间紶閫?璁插笀 vs 缇や紬绀剧兢锛夛紝鍏朵綑 18 鏉¤ˉ鍏呭埌宸叉湁鍗★紱娆ч槼閿嬫娊妫€ 鈮? 寮?|
-
 | 43 | `task_20260702_laowantong-live81-ai-trademark-design-production` | Live81 AI 璧嬭兘鍟嗘爣璁捐锛? case + 2 tool + 1 dk | reviewed | 鑰侀〗绔?Kimi) | 4 寮狅紙1 case + 2 tool + 1 dk锛?| 鏃狅紱鐜嬭瀚ｄ節灞傛繁鎸栬瘖鏂凡瀹屾垚 | `60_feedback/tasks/task_20260702_laowantong-live81-ai-trademark-design-production.md` | 娆ч槼閿嬪鏌ラ€氳繃锛? 寮犳柊鍗?pre-submit PASS銆乴int 0 鏂板 ERROR锛涘鏌ヤ腑淇 case/dk 鍗?section 鏍囬浠ョ鍚?lint schema锛岃ˉ鍏?dk 鍗＄己澶辩殑 5 涓爣鍑?section锛涘弽鍚戞洿鏂扮害 20 寮犲凡鏈夊崱 related锛涜嚜鏀诲嚮鎶ュ憡 0 鑷村懡锛涘悓鎰忓皝璐?|
-
 | 44 | `task_20260702_laowantong-yitang-scientific-sales-methodology-production` | 涓€鍫傜瀛﹂攢鍞柟娉曡锛? framework + 5 tool + 1 framework + 3 case + 1 dk + 1 tool锛圤PC 鏅鸿兘浣擄級 | reviewed | - | 12 寮?| 鏃狅紱鐜嬭瀚ｄ節灞傛繁鎸栬瘖鏂凡瀹屾垚锛?44 宸叉寜榛勮嵂甯堝缓璁?鐜嬭瀚ｇ嫭绔嬪垽鏂粠 6->10->12 寮犳墿灞?| `60_feedback/tasks/task_20260702_laowantong-yitang-scientific-sales-methodology-production.md` | 鐜嬭瀚ｇ嫭绔嬪垽鏂細10 寮犲凡瑕嗙洊閿€鍞柟娉曡锛屼絾缂?OPC 鍙珛鍗虫墽琛岀殑鏅鸿兘浣撹鏍煎崱鍜屽甫鏁版嵁鐨勫伐涓氬垎閿€妗堜緥锛涙墿灞曚负 12 寮狅細鏂板 `case-yitang-sales-transformation-tuliaogongsi`锛堟秱鏂欏叕鍙?10 涓?>20 S 绾э級+ `tool-opc-sales-dialogue-assistant`锛堣瀵硅瘽->鎯崇瓥鐣?>缁欒瘽鏈紝鍙洿鎺ュ綋 system prompt锛夛紱鏅鸿兘浣撳眰涓嶄竴娆℃€ч摵寮€ 8-10 寮狅紝鍏堝仛 MVP 瀵硅瘽鍔╂墜锛涘弽鍚戞洿鏂?>=28 寮犲凡鏈夊崱 related锛汷PC 鏅鸿兘浣撳啗鍥㈢敱 `opc-ai-sales-agent-architecture.md` 鎵挎帴骞惰ˉ鍏?MVP 鍚姩璺緞 |
-
 | 45 | `task_20260702_huangyaoshi-kdo-inbox-grade` | kdo inbox --grade 鑷姩鍒嗙骇鍛戒护 | reviewed | 榛勮嵂甯?| 1 涓?CLI 鍛戒护 | 鏃狅紱Sprint 6 lake transparency 鍩哄缓 | `60_feedback/tasks/task_20260702_huangyaoshi-kdo-inbox-grade.md` | 娆ч槼閿嬪鏌ラ€氳繃锛氭柊澧?`kdo inbox --grade`锛屾寜 S/A/B/C 鑷姩缁?00_inbox/ 绱犳潗鎵撳垎锛?0104 鏂囦欢鍒嗙骇 S 2832 / A 40 / B 6559 / C 673锛沺ytest 548 passed锛涘缓璁笅涓€姝ュ姞 `--grade --ready` 杩囨护鍜?C 绾ф竻鐞嗕换鍔★紱缂?inbox grade 鍗曞厓娴嬭瘯锛岃涓哄井鍊哄姟 |
-
 | 46 | `task_20260702_huangyaoshi-kdo-pipeline-dashboard` | kdo pipeline 绠＄嚎鍙鍖?Dashboard | reviewed | 榛勮嵂甯?| 1 涓?CLI 鍛戒护 | 鏃狅紱Sprint 6 lake transparency 鍩哄缓 | `60_feedback/tasks/task_20260702_huangyaoshi-kdo-pipeline-dashboard.md` | 娆ч槼閿嬪鏌ラ€氳繃锛氭柊澧?`kdo pipeline`锛屾寜 CAPTURE鈫扞NGEST鈫扨RODUCE鈫扴HIP鈫扺IKI 浜旀灞曠ず KDO 绠＄嚎鍋ュ悍搴︼紱鑷姩妫€娴?inbox/enrich/review 鐡堕骞剁粰寤鸿锛涗慨澶?state SQLite 杩炴帴鏈叧闂棶棰橈紱pytest 548 passed锛涚己 pipeline 鍗曞厓娴嬭瘯锛岃涓哄井鍊哄姟 |
-
 |47|`task_20260702_laowantong-opc-sales-agent-specs-production`|OPC 閿€鍞櫤鑳戒綋鍐涘洟棣栨壒瑙勬牸鍗★細浠?#44 鏂规硶璁哄崱鐗囩紪璇?4 寮?agent-spec| reviewed | 鑰侀〗绔?Kimi) |4 寮爘渚濊禆 #44 缁堝閫氳繃|`60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-specs-production.md`|KDO Agent 鍖栧璁＄粨璁猴細涓嶇己鏂规硶璁哄崱锛岀己鏅鸿兘浣撹鏍煎崱锛涙湰浠诲姟鎶?#44 涓?4 寮犳牳蹇?tool 鍗＄紪璇戞垚鍙洿鎺ュ綋 system prompt 浣跨敤鐨?agent-spec锛氬鎴峰垎绾у姪鎵?/ 鍗栫偣鐢熸垚鍔╂墜 / 閿€鍞樁娈佃拷韪姪鎵?/ 涓氱哗鐩戞帶鍔╂墜锛汚gent 鍋氬甫瀹姐€佷汉鍋氬垽鏂紱涓嶆敼鍙橀攢鍞姩浣滐紝鍙緭鍑哄缓璁紱鍙嶅悜鏇存柊 `opc-ai-sales-agent-architecture.md` 鍜?`tool-opc-sales-dialogue-assistant` related|
-
 |49|`task_20260702_laowantong-opc-sales-agent-incremental-specs`|OPC 閿€鍞櫤鑳戒綋鍐涘洟澧為噺锛氬紑鍦?寮傝/鑷垜椹卞姩 3 寮?agent-spec| reviewed | 鑰侀〗绔?Kimi) |3 寮爘渚濊禆 #44 缁堝閫氳繃锛涘缓璁?#47 瀹屾垚鑷冲皯 2 寮犲悗鍐嶅惎鍔▅`60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-incremental-specs.md`|鐢ㄦ埛鎻愬嚭銆岃竟鍋氳竟鐜┿€嶈ˉ鍏呴攢鍞櫤鑳戒綋鍐涘洟缂哄彛锛氬紑鍦?3 鍒嗛挓鍔╂墜 / 寮傝澶勭悊鍔╂墜 / 鑷垜椹卞姩鍔╂墜锛涗紭鍏堢骇 P2锛汚gent 鍋氬甫瀹姐€佷汉鍋氬垽鏂紱鍙嶅悜鏇存柊 OPC 鏋舵瀯涓庡璇濆姪鎵?related|
-
 | 50 | `task_20260702_laowantong-opc-sales-agent-testing-wave1` | OPC 閿€鍞櫤鑳戒綋瀹炴祴 Wave 1锛? 寮?agent-spec 鐪熷疄妯″瀷楠岃瘉 | reviewed | 鑰侀〗绔?Kimi) | 7 寮?agent-spec 瀹炴祴 | 渚濊禆 #47/#49 缁堝閫氳繃 | `60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-testing-wave1.md` | 娆ч槼閿?#47/#49 棣栬鏀硅繘鐐癸紱鎶?7 寮?agent-spec 鐨?System Prompt 鏀惧埌 Claude/GPT 鐪熷疄鐜璺戜竴閬嶏紱瑕嗙洊鍖昏嵂闆跺敭 B2B / SaaS / 闂ㄥ簵闆跺敭 / 浼犵粺鍒嗛攢鍥涗釜鍦烘櫙锛涙瘡寮犲崱鑷冲皯 2 涓湡瀹炲満鏅紱浜у嚭杩唬鏃ュ織 + KDO 鍥炴祦娓呭崟 + case 褰掓。锛汚gent 鍋氬甫瀹姐€佷汉鍋氬垽鏂?|
-
 | 51 | `task_20260703_laowantong-yitang-Y-model-foundation-production` | 涓€鍫傚簳灞傞€昏緫鍩燂細Y妯″瀷 + 瀹炰簨姹傛槸 + 瑙ｆ斁鎬濇兂锛? 閲嶅啓 + 2 鏂板缓 framework + 1 tool + 1 dk + 2 case锛?| reviewed | 鑰侀〗绔?Kimi) | 7 寮?| 鏃狅紱鐜嬭瀚ｄ節灞傛繁鎸栬瘖鏂凡瀹屾垚 | `60_feedback/tasks/task_20260703_laowantong-yitang-Y-model-foundation-production.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛? 寮犲畬鏁村崱 + 3 寮犳棫鍗¤縼绉伙紱17 寮犲凡鏈夊崱鍙嶅悜琛ラ摼锛涘叏搴?lint 0 ERROR锛泍t-decision-y-model degree 100 / top 0.24%锛涘疄浜嬫眰鏄?瑙ｆ斁鎬濇兂涓ゅ紶 framework 鍗?degree 14 / top 5.3% |
-
 | 52 | `task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure` | Y妯″瀷鏍硅妭鐐瑰寲锛欸raphRAG rebuild + 绱㈠紩缁存姢 + pipeline 鐩戞帶 | reviewed | 榛勮嵂甯?| GraphRAG rebuild + 鐩戞帶 | 渚濊禆 #51 绾?A 瀹屾垚锛坹t-decision-y-model 閲嶅啓 + 鎵归噺 related锛?| `60_feedback/tasks/task_20260703_huangyaoshi-yitang-Y-model-root-infrastructure.md` | 娆ч槼閿嬪鏌ラ€氳繃锛歩ndex/graph rebuild 鎴愬姛锛泍t-decision-y-model degree 100 / top 0.24%锛? 鏉″吀鍨嬭矾寰?2 hops锛沺ipeline 鍩虹嚎鏃?lint/閾炬帴/鏍煎紡寮傚父锛況elated 鏀逛负 bare id 鍚?GraphRAG 杈圭敓鏁堬紱7 澶╄繛缁洃鎺ф湭鍦ㄤ細璇濆唴瀹屾垚锛屽凡璁板綍涓哄悗缁瘡鏃ュ姩浣?|
-
 | 53 | `task_20260703_laowantong-case-backfill-wobeirushen-time-management` | 妗堜緥鍗¤ˉ鎸栵細鍚捐緢濡傜 + 鏃堕棿绠＄悊鍩熺己澶?companion case锛?-6 寮狅級 | reviewed | 鑰侀〗绔?Kimi) | 4 寮?case | 渚濊禆 #40/#41 reviewed | `60_feedback/tasks/task_20260703_laowantong-case-backfill-wobeirushen-time-management.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛? 寮?companion case 鍗?+ 8 寮犻敋瀹氬崱鍙嶅悜鍥為摼锛汢MW 85% 宸茬籂鍋忎负 idle time 鈫?5%锛涘叏搴?lint 0 ERROR锛沇ARNING 浠?2581 闄嶈嚦 2542 |
-
 | 54 | `task_20260703_wangyuyan-retroactive-case-scan-pilot` | 宸叉秷鍖栫礌鏉愭渚嬪崱琛ユ壂璇曠偣锛氱瀛﹀喅绛?/ 娉涗骇鍝佽璁?/ 鎴樼暐 | reviewed | 鑰侀〗绔?Kimi) | 3 涓煙鍊欓€夋竻鍗曪紙绉戝鍐崇瓥鈮?0 / 娉涗骇鍝佽璁♀墺30 / 鎴樼暐鈮?0锛?| 涓嶉樆濉?#42/#51/#53 | `60_feedback/tasks/task_20260703_wangyuyan-retroactive-case-scan-pilot.md` | 鐜嬭瀚ｇ嫭绔嬪垽鏂細鍋氫絾涓嶅叏閲忥紱鍏堣瘯鐐?3 涓珮浼樺厛绾у煙锛涗笉涓?#42 鍚堝苟锛涙帓闄ゅ凡鐢?#53 瑕嗙洊鐨勬椂闂寸鐞?鍚捐緢濡傜锛涘彧鎵弿鏍囪鍊欓€夛紝涓嶇洿鎺ヤ骇瀹屾暣 case 鍗?|
-
 | 55 | `task_20260703_laowantong-yitang-Y-model-os` | Y妯″瀷 OS锛氭墍鏈?Agent 鐨勫叡浜簳灞?prompt + 鍙€?Coach 妯″紡 | reviewed | 鑰侀〗绔?Kimi) | 1 寮?system OS 鍗?+ agent-native-card-design 鏇存柊 + 1 寮犲彲閫?Coach 妯″紡 agent-spec + 1 涓煙 Agent 闆嗘垚绀轰緥 | 渚濊禆 #51 reviewed | `60_feedback/tasks/task_20260703_laowantong-agent-spec-yitang-Y-model-coach.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛欰gent 鍒嗗眰娓呮櫚锛汷S/鍩?鐢ㄦ埛涓夊眰缁撴瀯钀藉湴锛汣oach 妯″紡闈炶皟搴﹀櫒锛汷PC 閿€鍞璇濆姪鎵嬪凡鍔犺浇 OS 灞傦紱2 涓湡瀹炴ā鍨嬫祴璇曢€氳繃锛涘叏搴?lint 0 ERROR锛涙敞鎰?queue_transition.py review 浠嶆棤娉曟寜 frontmatter id 瀹氫綅鏈换鍔″崟锛岄渶榛勮嵂甯堝悓姝ヤ慨澶?|
-
 | 56 | `task_20260703_laowantong-yitang-Y-model-stub-completion` | #51 鏀跺熬锛氬疄浜嬫眰鏄?/ 瑙ｆ斁鎬濇兂 framework 鍗¤ˉ鍏?| closed_cancelled | 鈥?| 鈥?| #51 宸插叏閮ㄥ畬鎴愶紝鏈换鍔″彇娑?| `60_feedback/tasks/task_20260703_laowantong-yitang-Y-model-stub-completion.md` | 鍙栨秷鍘熷洜锛?51 缁堝鍓嶈€侀〗绔ュ凡琛ュ叏 2 涓?framework stub锛屾棤闇€鍗曠嫭鏀跺熬浠诲姟 |
-
 | 57 | `task_20260703_laowantong-graphrag-orphan-reduction` | GraphRAG 鍋ュ悍搴︽彁鍗囷細璺ㄥ煙 related 琛ラ摼闄嶄綆 orphan 姣斾緥 | reviewed | 鑰侀〗绔?Kimi) | 578 寮?orphan 鍗¤ˉ閾?/ 847 鏉℃柊澧?related | 渚濊禆 #52 reviewed | `60_feedback/tasks/task_20260703_laowantong-graphrag-orphan-reduction.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛歰rphan 18% (621/3468)銆乧omponents 669銆乭ealth 90/100锛屼笁椤规寚鏍囧潎杈炬爣锛?78 寮犲崱 pre-submit 鍏ㄩ儴 PASS锛涙棩蹇?`60_feedback/diagnosis/diag_20260704_graphrag-orphan-linking-log.json`锛涢儴鍒?hub 閾炬帴锛堝 tool-ai-prd-for-ai锛夐珮棰戜娇鐢紝鍚庣画鍙簿绛?|
-
 | 58 | `task_20260703_huangyaoshi-agent-tcpr-role-layer` | Agent 鑳藉姏鍒嗗眰寮曞叆 TCPR 瑙掕壊妯″瀷锛氭墍鏈?Agent 鍗忎綔鍓嶅繀椤婚€夊畾 T/C/P/R 韬唤 | reviewed | 鑰侀〗绔?Kimi) | 1 system + 2 framework鏇存柊 + 7 agent-spec retrofit + 璁捐瑙勮寖鏇存柊 + lint 澧炲己 + retrofit 鎸囧崡 | 渚濊禆 #50 reviewed锛涘彲涓?#55 骞惰璁捐锛屾渶缁堜笌 Y妯″瀷 OS 瀵归綈锛涢粍鑽笀浠?co_architect | `60_feedback/tasks/task_20260703_huangyaoshi-agent-tcpr-role-layer.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛歛gent-os.md 宸插崌绾т负杩愯鏃?OS锛沘gent-native-card-design.md 鏂板 TCPR 绔犺妭锛? 寮?OPC agent-spec 宸茶ˉ TCPR 瀛楁涓?System Prompt 韬唤澹版槑锛沋妯″瀷 OS 绗?0 姝ュ凡瀵归綈锛沰do_lint.py 鏂板 WARNING 绾?TCPR 鏍￠獙锛況etrofit 鎸囧崡宸蹭骇鍑猴紱13 涓敼鍔ㄦ枃浠?pre-submit 鍏ㄩ儴 PASS |
-
 | 59 | `task_20260703_huangyaoshi-agent-prompt-compiler` | Agent Prompt 缂栬瘧鍣細鎶?agent-os.md + 鍩熷崱缂栬瘧涓哄彲娉ㄥ叆鐨?system prompt | reviewed | 榛勮嵂甯?| 1 涓?CLI/skill + 1 璁捐瑙勮寖鏇存柊 + 3 涓瘯鐐圭紪璇?prompt + 1 浠戒娇鐢ㄨ鏄?| 渚濊禆 #55/#58 宸叉弧瓒?| `60_feedback/tasks/task_20260703_huangyaoshi-agent-prompt-compiler.md` | 娆ч槼閿嬬粓瀹￠€氳繃 |
-
 | 60 | `task_20260703_huangyaoshi-fix-queue-transition-review-lookup` | 淇 queue_transition.py review 鎸?frontmatter id 鏌ユ壘浠诲姟鍗?| done | 榛勮嵂甯?| 1 涓?bugfix + 1 涓洖褰掓祴璇?| 鏃?| `60_feedback/tasks/task_20260703_huangyaoshi-fix-queue-transition-review-lookup.md` | 宸插畬鎴?|
-
 | 61 | `task_20260704_laowantong-case-production-54-pilot-A-candidates` | #54 璇曠偣 A 绾у€欓€夋姇浜э細7 寮?companion case 鍗?| reviewed | 鑰侀〗绔?Kimi) | 7 寮?case 鍗?| 渚濊禆 #54 reviewed锛堝凡婊¤冻锛?| `60_feedback/tasks/task_20260704_laowantong-case-production-54-pilot-A-candidates.md` | 鐜嬭瀚ｈ拷鍔狅細鎶?#54 璇婃柇鎶ュ憡涓闃抽攱鍦堝畾鐨?7 鏉?A 绾у€欓€夎浆鍖栦负瀹屾暣 case 鍗★紱楠岃瘉鎵弿娴佺▼鐨勫€欓€夎川閲忥紱P2锛屾帓鍦?#58 涔嬪悗 |
-
 | 62 | `task_20260704_huangyaoshi-agent-prompt-compiler-micro-debt` | #59 寰€哄姟锛欰gent Prompt 璁捐瑙勮寖琛ュ叏涓?source 瀛楁鏍囧噯鍖?| done | 榛勮嵂甯?| 1 涓璁¤鑼冩洿鏂?+ 3+ agent-spec 鍗?frontmatter 琛ュ叏 + lint 瑙勫垯澧炲己 | 渚濊禆 #59 reviewed | `60_feedback/tasks/task_20260704_huangyaoshi-agent-prompt-compiler-micro-debt.md` | 宸插畬鎴?|
-
 | 63 | `task_20260704_laowantong-yihang-dual-triangle-batch2-supplement` | 涓€琛屽弻涓夎绗簩鎵规渚嬭ˉ浜э細澶╂湯/闃胯豹/鑺辨€?闄堝ぉ 4 寮?case 鍗?| done | 鑰侀〗绔?Kimi) | 4 寮犲畬鏁?case 鍗?+ 绗竴鎵?14 寮犲崱浜ゅ弶妫€鏌?| 渚濊禆鐜嬭瀚ｇ涓€鎵?14 寮犲崱 pre-submit PASS | `60_feedback/tasks/task_20260704_laowantong-yihang-dual-triangle-batch2-supplement.md` | 娆ч槼閿嬪凡缁堝閫氳繃锛涜€侀〗绔ュ彲閲婃斁璧勬簮 |
-
 | 64 | `task_20260704_laowantong-truman-feishu-to-slide-case` | Truman銆岄涔?To slide銆峆PT 杩唬妗堜緥鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?S+ 鏍稿績 case 鍗?| 鏃狅紱鐜嬭瀚ｅ叆鍙ｆ爣娉ㄥ凡瀹屾垚 | `60_feedback/tasks/task_20260704_laowantong-truman-feishu-to-slide-case.md` | P0锛氫换鍔″崟缂栧彿宸蹭慨姝ｄ负 #64锛涘睍绀?Y妯″瀷 **杩唬鍙戝姩鏈?* 鑰岄潪闈欐€佸垎鏋愶紱蹇呴』鍚汉鐗?鍔ㄤ綔/鏃堕棿绾匡紱蹇呴』鏄犲皠鍏绱狅紱蹇呴』鍐欐竻鏈疆杩唬瀵瑰弻涓夎妗嗘灦鐨勮础鐚?|
-
 | 65 | `task_20260704_laowantong-y-model-dual-triangle-bridge-framework` | Y妯″瀷 脳 鍙屼笁瑙掑崗鍚屽伐浣滄硶妗嗘灦鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?framework/method 鍗?| 渚濊禆 #64 妗堜緥鍗★紙鍙苟琛岋紝浣嗙粓瀹″墠闇€浜掔浉瀵圭収锛?| `60_feedback/tasks/task_20260704_laowantong-y-model-dual-triangle-bridge-framework.md` | P0锛氫换鍔″崟缂栧彿宸蹭慨姝ｄ负 #65锛涙柊澧炲绋胯姹傗€斺€斿垱閫犲姏瀹氫箟銆佺伒鎰熷尯鍒嗐€佷綋绯?妯″瀷杈圭晫鎰忚瘑锛涙妸銆屽弻涓夎鏄?Y妯″瀷 **涓€杞竴杞窇鍑烘潵鐨勬鏋舵€ц璇?*銆嶅彉鎴愬彲璋冪敤璧勪骇 |
-
 | 66 | `task_20260704_laowantong-human-in-the-loop-dual-triangle-relation` | 浜哄湪鐜?脳 鍙屼笁瑙掑叧绯诲崱 | reviewed | 鑰侀〗绔?Kimi) | 1 寮?concept/framework 鍗?| 渚濊禆 #65 reviewed 鍚庡惎鍔?| `60_feedback/tasks/task_20260704_laowantong-human-in-the-loop-dual-triangle-relation.md` | P1锛氫换鍔″崟缂栧彿宸蹭慨姝ｄ负 #66锛涙緞娓呫€屽師鍒?鈫?鑳藉姏銆嶅叧绯伙紱浜哄湪鐜槸娌荤悊璧风偣锛屽弻涓夎鏄兘鍔涘湴鍥撅紱鐢?Truman PPT 妗堜緥灞曠ず浠庛€屼汉鍦ㄧ粏鑺傘€嶅埌銆屼汉鍦ㄦ鏋躲€嶇殑杩涘寲 |
-
 | 67 | `task_20260704_laowantong-y-model-engine-layer-method` | Y妯″瀷 寮曟搸灞傛搷浣滄硶鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?method 鍗?| 渚濊禆 #65 reviewed 鍚庡惎鍔?| `60_feedback/tasks/task_20260704_laowantong-y-model-engine-layer-method.md` | P1锛氫换鍔″崟缂栧彿宸蹭慨姝ｄ负 #67锛涙柊澧?ROI 婊ョ敤/浠ュ亸姒傚叏闄烽槺锛涙妸 Y妯″瀷 浠庡垎鏋愭鏋堕噸瀹氫綅涓鸿凯浠ｅ彂鍔ㄦ満锛汿ruman PPT 妗堜緥鏄渶浣虫紨绀?|
-
 | 68 | `task_20260704_laowantong-cross-domain-framework-iteration-audit` | 璺ㄥ煙瀹¤锛氭鏋舵槸鍚﹁闈欐€佸寲 | reviewed | 鑰侀〗绔?Kimi) | 1 浠藉璁℃姤鍛?+ 楂橀闄╀慨澶嶄换鍔″崟 | 渚濊禆 #64/#65 reviewed 鍚庡惎鍔?| `60_feedback/tasks/task_20260704_laowantong-cross-domain-framework-iteration-audit.md` | P2锛氫换鍔″崟缂栧彿宸蹭慨姝ｄ负 #68锛涙帓鏌?KDO 鍏朵粬鍩熸槸鍚︿篃鐘€屾妸 Y妯″瀷/妗嗘灦褰撻潤鎬佸伐鍏枫€嶇殑閿欒锛涘彲鍦?#64/#65 涔嬪悗鍚庡彴鎵ц |
-
 | 69 | `task_20260704_wangyuyan-dual-triangle-canvas-agent-cli` | 鍙屼笁瑙掔敾甯?Agent CLI 浜や粯 | reviewed | 榛勮嵂甯?| 1 涓?CLI 宸ュ叿 + 1 涓?agent-spec v2 + 5 涓祴璇曞満鏅?| 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-dual-triangle-canvas-agent-cli.md` | 娆ч槼閿嬬粓瀹￠€氳繃 |
-
 | 70 | `task_20260704_laowantong-dual-triangle-afterclass-chat-cards` | 鍙屼笁瑙掕鍚庨棽鑱婃礊瀵熷崱鐗囧寲 | reviewed | 鑰侀〗绔?Kimi) | 11 寮犲崱 | 鏃?| `60_feedback/tasks/task_20260704_laowantong-dual-triangle-afterclass-chat-cards.md` | P1锛氬凡瑙ｉ攣銆傚惈鍒绘剰缁冧範娉?瀹＄編涓夋娉?鐭ヨ瘑鏁版嵁瑙ｈ€?鏁欒偛闈炴爣/瑙勬ā缁忔祹瀵规姉/鐮斿彂鎯呮劅浠ｄ环/鏁版嵁鍖呬俊浠昏竟鐣?鍦烘櫙鏃堕棿绾?浜旀娉曡矾绾垮浘 |
-
 | 71 | `task_20260704_laowantong-yitang-underlying-logic-case-method-cards` | 搴曞眰閫昏緫涓夎绋嬭ˉ浜э細妗堜緥 + 鏂规硶 + 宸ュ叿鍗?| reviewed | 鑰侀〗绔?Kimi) | 33 寮狅紙13 P0 + 13 P1 + 6 P2锛?| 鏃?| `60_feedback/tasks/task_20260704_laowantong-yitang-underlying-logic-case-method-cards.md` | 娆ч槼閿嬬粓瀹￠€氳繃銆俢oncept/principle 鍗″亸钖勶紝宸茶褰曚负 P2 鍊哄姟 鈫?#95 |
-
 | 72 | `task_20260704_laowantong-aesthetic-library-method-tool-cards` | 瀹＄編蹇€熷缓绔嬪伐浣滄硶 + 瀹＄編搴撻噰闆嗗伐鍏峰崱 | reviewed | 鑰侀〗绔?Kimi) | 3 寮狅紙1 method + 1 tool + 1 case锛?| 鏃?| `60_feedback/tasks/task_20260704_laowantong-aesthetic-library-method-tool-cards.md` | 娆ч槼閿嬬粓瀹￠€氳繃 |
-
 | 73 | `task_20260704_wangyuyan-agent-card-skill-execution-pattern` | Agent 鍩轰簬 KDO 鍗＄墖/Skill 瑙ｅ喅瀹為檯闂鐨勬墽琛屾ā寮忚璁?| reviewed | 榛勮嵂甯?| 1 浠借璁℃枃妗?+ 1 寮犳鏋跺崱 + 1 涓彲杩愯鍘熷瀷 | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-agent-card-skill-execution-pattern.md` | 娆ч槼閿嬬粓瀹￠€氳繃 |
-
 | 74 | `task_20260704_laowantong-ai-feature-thinking-concept` | AI 鍩烘湰鍔?Feature 鎬濈淮姒傚康鍗?+ 閲嶅埗涓ゅ紶鑽夌鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?concept + 2 寮?tool | 鏃?| `60_feedback/tasks/task_20260704_laowantong-ai-feature-thinking-concept.md` | 娆ч槼閿嬬粓瀹￠€氳繃 |
-
 | 75 | `task_20260704_wangyuyan-ai-feature-inventory-research` | AI 宸ュ叿鐗规€ф竻鍗曞叏缃戣皟鐮斾笌寤鸿 | reviewed | 鐜嬭瀚?| 1 寮?tool + 2 寮犻鍩熺壒鎬у崱 | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-ai-feature-inventory-research.md` | 鎶婁笂涓嬫枃宸ョ▼/鎻愮ず璇?Codex/Hermes/榫欒櫨鎸夋渶灏忔妧鏈壒鎬у師瀛愬寲鎷嗚В |
-
 | 76 | `task_20260704_wangyuyan-dual-triangle-degradation-spiral` | 鍙屼笁瑙掓浜￠杞?dk 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?dk | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-dual-triangle-degradation-spiral.md` | P1 |
-
 | 77 | `task_20260704_wangyuyan-hITL-dual-triangle-supplement` | #66 杩借ˉ锛氫汉鍦ㄧ幆鍘嗗彶瀹氫綅 | reviewed | 鑰侀〗绔?Kimi) | 1 寮犲崱鍗曠偣淇敼 | #66 reviewed 鉁?| `60_feedback/tasks/task_20260704_wangyuyan-hITL-dual-triangle-supplement.md` | P2 |
-
 | 78 | `task_20260704_wangyuyan-ai-native-dual-triangle-kernel` | AI 鍘熺敓鏄粨鏋滐紝鍙屼笁瑙掓槸寮曟搸 framework | reviewed | 鑰侀〗绔?Kimi) | 1 寮?framework | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-ai-native-dual-triangle-kernel.md` | P1 |
-
 | 79 | `task_20260704_wangyuyan-framework-staticization-repair` | #68 瀹¤淇锛? 寮犳鏋跺崱寮曟搸鍖栬竟鐣屽０鏄?| reviewed | 鑰侀〗绔?Kimi) | 5 寮犲崱杩藉姞杈圭晫娈佃惤 | #68 reviewed | `60_feedback/tasks/task_20260704_wangyuyan-framework-staticization-repair.md` | 娆ч槼閿嬬粓瀹￠€氳繃 |
-
 | 80 | `task_20260704_wangyuyan-report-book-learner-dk` | 鎶ュ憡涔﹀瀷瀛︿範鑰?dk 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?dk | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-report-book-learner-dk.md` | P2 |
-
 | 81 | `task_20260704_wangyuyan-patch-canvas-risk-judgment` | #69 淇ˉ锛氱敾甯?Agent 鍔犻闄╁垽鏂緭鍑?| done | 榛勮嵂甯?| agent-spec 鏇存柊 + CLI 鍔熻兘杩藉姞 | #69 瀹屾垚 | `60_feedback/tasks/task_20260704_wangyuyan-patch-canvas-risk-judgment.md` | 榛勮嵂甯堝凡瀹屾垚銆傜敾甯?Agent 姣忔牸鏍囨敞 [纭]/[鍋囪]/[绌虹櫧]锛岀粨鏉熻緭鍑洪闄╂憳瑕?|
-
 | 82 | `task_20260704_wangyuyan-patch-aesthetic-boundary` | #72 淇ˉ锛氬缇庝笁绾︽潫 | reviewed | 鑰侀〗绔?Kimi) | method + tool 鍗℃洿鏂?| #72 reviewed 鉁?宸茶В閿?| `60_feedback/tasks/task_20260704_wangyuyan-patch-aesthetic-boundary.md` | P2 |
-
 | 83 | `task_20260704_wangyuyan-patch-feature-thinking-supplement` | #74 淇ˉ锛欶eature 鎬濈淮瀹屾暣鎿嶄綔瀹氫箟 + 閬楁紡妗堜緥 | reviewed | 鑰侀〗绔?Kimi) | concept 鍗℃洿鏂?| 渚濊禆 #74 瀹屾垚 | `60_feedback/tasks/task_20260704_wangyuyan-patch-feature-thinking-supplement.md` | P2锛氬彛杩扮 L1402-1451 Feature 鎿嶄綔瀹氫箟锛堝師瀛愬寲/鍙祴/璺ㄥ伐鍏凤級+ Feature vs Skill 鍖哄垎 + 璞嗗寘绉冨ご/榫欒櫨鐖遍┈浠曟渚?|
-
 | 84 | `task_20260704_wangyuyan-knowledge-data-decoupling-framework` | 鐭ヨ瘑灞備笌鏁版嵁灞傝В鑰?framework 鍗★紙YAI 鏋舵瀯娲炲療锛?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?framework | 鏃狅紱绱犳潗宸插氨浣嶏紙鍙ｈ堪绋?L5025-5078锛?| `60_feedback/tasks/task_20260704_wangyuyan-knowledge-data-decoupling-framework.md` | P1锛歒AI 鏍稿績鏋舵瀯鍐崇瓥鈥斺€旂郴缁熸牳蹇冭瘝锛堝缇?浣撶郴锛変笌 data pack 鍒嗗紑鐢熶骇銆佹彃浠跺紡缁勫悎銆傜洿鎺ュ鎺?#59 Prompt 缂栬瘧鍣ㄥ拰 #73 Agent 鎵ц妯″紡銆備笉绛?#70 瑙ｉ攣 |
-
 | 85 | `task_20260704_wangyuyan-dual-triangle-ai-review-method` | 鍙屼笁瑙?AI 杈呭姪澶嶇洏娉?method 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?method | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-dual-triangle-ai-review-method.md` | 娆ч槼閿嬬粓瀹￠€氳繃 |
-
 | 86 | `task_20260704_wangyuyan-methodology-production-pipeline` | 鏂规硶璁虹敓浜ф祦姘寸嚎 concept 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?concept | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-methodology-production-pipeline.md` | P2 |
-
 | 87 | `task_20260704_wangyuyan-dual-triangle-oral-spray-skill` | 鍙ｅ柗 Skill锛氬弻涓夎鍐呭姛 + 涔濆瓧璇€澶栧姛 | reviewed | 鑰侀〗绔?Kimi) | 1 涓?Skill + 1 寮?tool | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-dual-triangle-oral-spray-skill.md` | P1锛氬彛杩扮 L2330-2610銆備箣鍓嶆紡鍏ラ槦 |
-
 | 88 | `task_20260704_wangyuyan-dual-triangle-xray-deconstruct-skill` | X鍏夋媶瑙?Skill锛氬弻涓夎妗堜緥閫嗗悜宸ョ▼ | reviewed | 鑰侀〗绔?Kimi) | 1 涓?Skill + 1 寮?tool | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-dual-triangle-xray-deconstruct-skill.md` | P1锛氬彛杩扮 L2016-2218銆備箣鍓嶆紡鍏ラ槦 |
-
 | 89 | `task_20260704_wangyuyan-knowledge-battle-station-workflow` | 鐭ヨ瘑绔欏満寤鸿 Workflow | reviewed | 鑰侀〗绔?Kimi) | 1 寮?method + 1 涓?Workflow | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-knowledge-battle-station-workflow.md` | P1锛氬彛杩扮 L462-600銆備箣鍓嶆紡鍏ラ槦 |
-
 | 91 | `task_20260704_wangyuyan-marathon-case-batch-production` | 鍙屼笁瑙掗┈鎷夋澗鏈叆搴撴渚嬫壒閲忕敓浜?| reviewed | 鑰侀〗绔?Kimi) | 10+ 寮?case | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-marathon-case-batch-production.md` | P0锛氭闃抽攱缁堝閫氳繃 |
-
 | 92 | `task_20260704_wangyuyan-vlm-cases-batch-ingest` | ~~VLM 宸插鐞嗘渚嬫壒閲忓叆搴搤~ | closed_merged | 鈥?| 鈥?| 宸茶 #91/#93 鏇夸唬 | 鈥?| 鈥?|
-
 | 93 | `task_20260704_laowantong-dual-triangle-vlm-case-enrichment` | 鍙屼笁瑙?VLM 妗堜緥鎵归噺 enrichment | reviewed | 鑰侀〗绔?Kimi) | 46 寮?draft鈫掗儴鍒?enriched | 鏃?| `60_feedback/tasks/task_20260704_laowantong-dual-triangle-vlm-case-enrichment.md` | P1锛氫粠 draft 涓寫璐ㄩ噺鏈€楂樼殑 enrich |
-
 | 94 | `task_20260704_wangyuyan-jumi-canvas-demo-case` | 宸ㄧ背鎺ㄥ箍鍙屼笁瑙掔敾甯冧節灞傚～鍏呮紨绀?case 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?case | 鏃狅紱绱犳潗宸插氨浣?| `60_feedback/tasks/task_20260704_wangyuyan-jumi-canvas-demo-case.md` | P1锛歩nbox 涓敮涓€璧板畬涔濆眰娣辨寲鍏ㄦ祦绋嬬殑鐪熷疄婕旂ず |
-
 | 95 | `task_20260704_wangyuyan-patch-71-concept-thin-cards` | #71 鍊哄姟锛歝oncept/principle 鍗″姞鍘?| reviewed | 鑰侀〗绔?Kimi) | 鑻ュ共寮犱慨琛?| #71 reviewed | `60_feedback/tasks/task_20260704_wangyuyan-patch-71-concept-thin-cards.md` | P2锛氭闃抽攱鍙戠幇 concept/principle 鍗″亸钖勩€傝ˉ榻愯揪鏍囧嵆鍙?|
-
 | 96 | `task_20260704_laowantong-case-section-linter-error-cleanup` | linter 瑙勫垯鍗囩骇锛?6 寮?case 鍗℃爣鍑?section 琛ュ叏 | reviewed | 鑰侀〗绔?Kimi) | 56 寮犺ˉ section | 鏃狅紱P2 鎺掍富绾垮悗 | `60_feedback/tasks/task_20260704_laowantong-case-section-linter-error-cleanup.md` | P2锛歭inter 瑙勫垯鍙樻洿鏆撮湶鐨勫瓨閲忓€?|
-
 | 97 | `task_20260704_wangyuyan-ai-self-xray-decomposition` | AI 鑷垜 X 鍏夋媶瑙ｄ笌杩唬 method 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?method | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-ai-self-xray-decomposition.md` | P1锛氬彛杩扮 L2118-2136鈥斺€擜I 涓诲姩瀛﹀弻涓夎鈫掓媶鑷繁銆備笌 #85 琚姩澶嶇洏涓嶅悓锛屾槸涓诲姩鑷垎瑙?|
-
 | 98 | `task_20260704_wangyuyan-agent-self-flywheel-review` | Agent 鑷鐩橈細椋炶疆寮曟搸浠庢墜鍔ㄥ埌鑷姩鍖?| reviewed | 榛勮嵂甯?| flywheel.py --auto + 1 Agent 璇曠偣 | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-agent-self-flywheel-review.md` | 宸插畬鎴愶細Truman YAI 澶嶇洏娉曞凡鍐欏叆 agent-os.md 搂10 |
-
 | 99 | `task_20260704_wangyuyan-agent-config-human-portrait-template` | Agent 閰嶇疆锛氫汉绫荤敾鍍?瑙勫垯鍖归厤 7 姝ユ硶 tool 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?tool | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-agent-config-human-portrait-template.md` | P1锛氬彛杩扮 L2460-2610鈥斺€旈緳铏惧姪鐞?7 姝ラ厤缃粨鏋?|
-
 | 100 | `task_20260704_wangyuyan-canvas-preparation-method-dk` | 鍙屼笁瑙掔敾甯冪澶囦笁鍘熷垯 dk 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?dk | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-canvas-preparation-method-dk.md` | P1锛氳姳鎬昏浆鎶?鍏堝姞娉曞悗鍑忔硶/15鍒嗛挓鍑虹杞?|
-
 | 101 | `task_20260704_wangyuyan-dual-triangle-team-assembly-method` | 鍙屼笁瑙掑垎宸ユ嫾鍥?method 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?method | 鏃?| `60_feedback/tasks/task_20260704_wangyuyan-dual-triangle-team-assembly-method.md` | P1锛氭帹缈?浜у搧+涓氬姟+绋嬪簭鍛?鍏紡銆傞」鐩鐞喢椾汉绫讳笁瑙捗桝I涓夎銆傞」鐩粡鐞嗚京璇佸績鎬?绮惧噯绱㈠彇 |
-
 | 102 | `task_20260705_wangyuyan-fde-ai-native-org-framework` | FDE 宸ョ▼ 脳 AI 鍘熺敓缁勭粐 framework 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?framework | 鏃?| `60_feedback/tasks/task_20260705_wangyuyan-fde-ai-native-org-framework.md` | P1锛欶DE鎰挎櫙+缁勭粐鏂囧寲銆傚叏缃戣皟鐮斾氦鍙夐獙璇?|
-
 | 103 | `task_20260705_wangyuyan-enrich-weapon-library` | 姝﹀櫒搴撳崱 enrichment锛氳ˉ VLM 娣卞害鍒嗘瀽 5 娲炲療 | reviewed | 鑰侀〗绔?Kimi) | 1 寮?enrich | 鏃?| `60_feedback/tasks/task_20260705_wangyuyan-enrich-weapon-library.md` | P1锛氱幇鏈?draft 鍗″凡鏈?6脳4 鐭╅樀銆傝ˉ 5 娲炲療 + 5 瀹炶返鍦烘櫙 |
-
 | 104 | `task_20260705_wangyuyan-agent-distillation-method` | Agent 钂搁鏂规硶锛氬璇濃啋绯荤粺鎻愮ず璇?5 姝ユ鏋?| reviewed | 鐜嬭瀚?| 1 浠借璁℃枃妗?| 鏄庡ぉ鎵ц | `60_feedback/tasks/task_20260705_wangyuyan-agent-distillation-method.md` | 缂濆悎璇剧▼+澶栭儴璋冪爺銆傝緭鍑哄彲鎸傝浇 system prompt |
-
 | 105 | `task_20260705_wangyuyan-kdo-agent-design-meta-method` | KDO Agent 璁捐鍏冩柟娉曪細鐢ㄥ弻涓夎鍔犻€?Agent 寤鸿 | reviewed | 鐜嬭瀚?| 1 寮?method + 1 涓ā鏉?| 渚濊禆 #69 #97 #98 | `60_feedback/tasks/task_20260705_wangyuyan-kdo-agent-design-meta-method.md` | 鎶?Truman 鍋?partner 鐨勬柟娉曪紙鐢诲竷鈫掕凯浠ｂ啋鑷鐩橈級鍥哄寲涓?KDO Agent 寤鸿鏍囧噯 |
-
 | 106 | `task_20260705_wangyuyan-ymodel-case-batch` | Y妯″瀷 鍙ｈ堪绋挎渚嬫壒閲忕敓浜э紙5 寮?case 鍗★級 | reviewed | 鑰侀〗绔?Kimi) | 5 寮?case | 鏃?| `60_feedback/tasks/task_20260705_wangyuyan-ymodel-case-batch.md` | 鑰侀〗绔ュ凡鎻愪氦銆傚緟娆ч槼閿嬪 |
-
 | 107 | `task_20260705_laowantong-fix-source-refs-paths` | 淇 4 涓?source_refs 璺緞 | reviewed | 鑰侀〗绔?Kimi) | 4 涓枃浠朵慨澶?| 鏃?| `60_feedback/tasks/task_20260705_laowantong-fix-source-refs-paths.md` | P2锛? 涓崱鐗?source_refs 鎸囧悜涓嶅瓨鍦ㄧ殑鏂囦欢 |
-
 | 108 | `task_20260705_huangyaoshi-lint-warning-infra` | lint WARNING 鍩虹璁炬柦杩唬 | reviewed | 榛勮嵂甯?| 1 浠藉垎鏋愭姤鍛?| 鏃?| `60_feedback/tasks/task_20260705_huangyaoshi-lint-warning-infra.md` | 娆ч槼閿嬬粓瀹￠€氳繃 |
-
 | 109 | `task_20260705_wangyuyan-shishi-qiushi-case-batch` | 瀹炰簨姹傛槸鍗佸潙妗堜緥鍗℃壒閲忕敓浜э紙10 寮?case 鍗★級 | reviewed | 鑰侀〗绔?Kimi) | 10 寮?case | 鏃?| `60_feedback/tasks/task_20260705_wangyuyan-shishi-qiushi-case-batch.md` | P1锛氭闃抽攱缁堝閫氳繃 |
-
 | 111 | `task_20260705_wangyuyan-canvas-agent-spec-v3-upgrade` | 鐢诲竷 Agent agent-spec v3 鍗囩骇鈥斺€旀敞鍏?YAI 钂搁鏂规硶璁?| done | 鐜嬭瀚?| 1 涓?agent-spec 鍗囩骇 | 鏃?| `60_feedback/tasks/task_20260705_wangyuyan-canvas-agent-spec-v3-upgrade.md` | 宸插畬鎴愶細agent-spec v2鈫抳3锛屾敞鍏?10 椤硅兘鍔涙ā寮?|
-
 | 110 | `task_20260705_laowantong-fix-3-content-quality` | 淇 3 鏉″唴瀹硅川閲忛棶棰?| reviewed | 鑰侀〗绔?Kimi) | 3 涓枃浠朵慨澶?| 鏃?| `60_feedback/tasks/task_20260705_laowantong-fix-3-content-quality.md` | P2锛氭鍣ㄥ簱鍗ody/鍥涜绱犲崱鏍囬/寮€婧愮煡璇嗗崱鏍囩 |
-
 | 112 | `task_20260705_wangyuyan-multi-ai-cross-validation-dk` | 澶?AI 浜ゅ弶姣斿楠岃瘉娉?dk 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?dk | 鏃?| `60_feedback/tasks/task_20260705_wangyuyan-multi-ai-cross-validation-dk.md` | 娆ч槼閿嬬粓瀹￠€氳繃 |
-
 | 113 | `task_20260705_wangyuyan-register-xiaohongshu-skill` | 灏忕孩涔﹀畾浣?Skill 娉ㄥ唽鍏ュ簱 | reviewed | 鑰侀〗绔?Kimi) | 1 涓?Skill 娉ㄥ唽 | 鏃?| `60_feedback/tasks/task_20260705_wangyuyan-register-xiaohongshu-skill.md` | 娆ч槼閿嬬粓瀹￠€氳繃 |
-
 | 114 | `task_20260706_wangyuyan-non-expert-judgment-dk` | 闈炰笓瀹跺垽鏂浛浠ｆ硶 dk 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?dk | 鏃?| `60_feedback/tasks/task_20260706_wangyuyan-non-expert-judgment-dk.md` | P1锛氶潪涓撲笟鍩熷浣曢€氳繃澶欰I浜ゅ弶姣斿+瀹炶瘉楠岃瘉寤虹珛鍙敤鍒ゆ柇鍔涖€傜粨鏋勫伐绋嬪浘绾?浠ｇ爜搴撴⒊鐞嗗弻妗堜緥 |
-
 | 115 | `task_20260706_wangyuyan-ai-false-certainty-dk` | AI 閿欒绗冨畾妯″紡 dk 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?dk | 鏃?| `60_feedback/tasks/task_20260706_wangyuyan-ai-false-certainty-dk.md` | P1锛欳laude鏂╅拤鎴搧璇?Windows 10鏃犺В"鈫掕拷闂皟鐮斺啋瑙ｅ喅浜嗐€侫I琚璁℃潵鍥炵瓟闂锛屾湭琚憡鐭?鎰忚瘑鍒拌嚜宸变笉鐭ラ亾" |
-
 | 116 | `task_20260706_wangyuyan-agent-hr-role-method` | Agent HR 瑙掕壊锛堝厓 Agent锛塵ethod 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?method | 鏃?| `60_feedback/tasks/task_20260706_wangyuyan-agent-hr-role-method.md` | P1锛氫笓闂ㄥ叧娉ㄥ叾浠?Agent 琛屼负琛ㄧ幇骞惰瘎浼扮殑鍏傾gent銆傝€佹湵宸插疄璺碉紝鍙戠幇寰堟湁鏁?|
-
 | 117 | `task_20260706_wangyuyan-technical-domain-aesthetic-dk` | 涓ユ牸鎶€鏈煙瀹＄編寤虹珛 dk 鍗?| reviewed | 鑰侀〗绔?Kimi) | 1 寮?dk | 鏃?| `60_feedback/tasks/task_20260706_wangyuyan-technical-domain-aesthetic-dk.md` | P2锛氱數瀛愬伐绋?SaaS/鏈烘缁撴瀯鍩熲€斺€斿灏辨槸瀵归敊灏辨槸閿欍€傛鍣ㄥ簱瀹＄編鍏冪骇琛ㄤ笉閫傜敤 |
-
 | 118 | `task_20260706_huangyaoshi-session-context-pipeline` | 浼氳瘽涓婁笅鏂囪嚜鍔ㄥ帇缂╀笌鏃堕棿搴忓垪瀛樺偍绠＄嚎 | reviewed | 榛勮嵂甯?| 1 鏉¤嚜鍔ㄥ寲绠＄嚎 | 鏃?| `60_feedback/tasks/task_20260706_huangyaoshi-session-context-pipeline.md` | 娆ч槼閿嬬粓瀹￠€氳繃 |
-
 | 119 | `task_20260707_wangyuyan-human-self-distillation-method` | 浜轰晶钂搁鏂规硶鈥斺€旀妸闅愭€у垽鏂樉鎬у寲 method 鍗?| reviewed | 鑰侀〗绔?| 1 寮?method | 鏃?| `60_feedback/tasks/task_20260707_wangyuyan-human-self-distillation-method.md` | P1锛氱啓鐔?钂搁鎴戣嚜宸?鈥斺€旀壘閫夐/鎷嗙垎娆?鍐欑/鏀圭鍥涙鏄炬€у寲銆備笌 #104 AI渚ц捀棣忎簰琛?|
-
 | 120 | `task_20260707_wangyuyan-agent-workstation-design-method` | ~~Agent 宸ヤ綅璁捐~~ | closed_merged | 鈥?| 鈥?| 宸插苟鍏?#122 | 鈥?| 璺ㄥ煙铻嶅悎锛氱啓鐔欏伐浣?= #105 鍦烘櫙瑙掑叿璞″寲锛屽悎骞惰繘 method-kdo-agent-design-meta |
-
 | 121 | `task_20260707_wangyuyan-tool-upgrade-not-system-dk` | ~~宸ュ叿鍗囩骇鈮犵郴缁熷崌绾~ | closed_merged | 鈥?| 鈥?| 宸插苟鍏?#123 | 鈥?| 璺ㄥ煙铻嶅悎锛氬伐鍏峰崌绾ч櫡闃?= #76 姝讳骸椋炶疆鍙樹綋锛屽悎骞惰繘 dk-ai-collaboration-degradation-spiral |
-
 | 122 | `task_20260707_wangyuyan-patch-105-agent-workstation` | #105 琛ュ厖鈥斺€擜gent 宸ヤ綅璁捐 | reviewed | 鑰侀〗绔?Kimi) | 1 涓皬鑺傝拷鍔?| 鏃?| `60_feedback/tasks/task_20260707_wangyuyan-patch-105-agent-workstation.md` | P2锛氬伐浣嶆蹇?鐔欑啓4宸ヤ綅妗堜緥鍐欏叆 method-kdo-agent-design-meta |
-
 | 123 | `task_20260707_wangyuyan-patch-76-tool-upgrade-trap` | #76 琛ュ厖鈥斺€斿伐鍏峰崌绾ч櫡闃?| reviewed | 鑰侀〗绔?Kimi) | 1 涓€€鍖栨ā寮忚拷鍔?| 鏃?| `60_feedback/tasks/task_20260707_wangyuyan-patch-76-tool-upgrade-trap.md` | P2锛氭柊閫€鍖栨ā寮?鐔欑啓妗堜緥鍐欏叆 dk-ai-collaboration-degradation-spiral |
-
 | 124 | `task_20260707_wangyuyan-oscar-enrichment` | ~~OSCAR 妗嗘灦鍗¤ˉ榻悀~ | closed_merged | 鈥?| 鈥?| 骞跺叆 #127 | 鈥?| 琚涔gent铻嶅悎鏂规鏇夸唬 |
-
 | 125 | `task_20260707_wangyuyan-write-external-exploration-sop` | ~~external-exploration-sop~~ | closed_merged | 鈥?| 鈥?| 骞跺叆 #127 | 鈥?| 琚?SOP v2 鏇夸唬 |
-
 | 126 | `task_20260707_huangyaoshi-review-check-retrieval` | review-check.py 澧炲姞妫€绱㈣涓烘鏌?| reviewed | 榛勮嵂甯?| 1 涓姛鑳借拷鍔?| 鏃?| `60_feedback/tasks/task_20260707_huangyaoshi-review-check-retrieval.md` | P1锛歝heck_retrieval鍑芥暟+A/B/C涓夌骇闂ㄦ銆傛闃抽攱缁堝閫氳繃 |
-
 | 127 | `task_20260707_wangyuyan-oscar-kdo-fusion` | OSCAR-KDO 铻嶅悎鈥斺€旀鏋跺崱琛ラ綈+妗ユ帴鍗?SOP v2 | reviewed | 鑰侀〗绔?| 2 寮犲崱琛ラ綈 + 1 寮犳ˉ鎺ュ崱 + SOP v2 | 鏃?| `60_feedback/tasks/task_20260707_wangyuyan-oscar-kdo-fusion.md` | P0锛歄SCAR鍓嶈交鍚庨噸琛DO鍓嶄笁姝?|
-
 | 128 | `task_20260707_wangyuyan-judge-skill-meta-evaluation` | Judge Skill鈥斺€擪DO Agent/Skill 鍏冭瘎浼?method 鍗?| reviewed | 鑰侀〗绔?| 1 寮?method | 鏃?| `60_feedback/tasks/task_20260707_wangyuyan-judge-skill-meta-evaluation.md` | P1锛氳摑楸糐udge Skill鏂规硶璁衡€斺€斾簲缁村害鎵撳垎锛堟爣鍑?杈圭晫/鍧?绾︽潫/闂ㄦ帶锛夛紝30鍒嗏啋95鍒?杞凯浠?|
-
 | 129 | `task_20260707_wangyuyan-skill-seven-elements-upgrade` | Skill/Agent-spec 涓冭绱犲崌绾?dk 鍗?| reviewed | 鑰侀〗绔?| 1 寮?dk | 鏃?| `60_feedback/tasks/task_20260707_wangyuyan-skill-seven-elements-upgrade.md` | P2锛氳摑楸糞kill涓冭绱犮€侹DO agent-spec缂虹籂閿欏拰灏忓惊鐜?|
-
 | 130 | `task_20260707_wangyuyan-canvas-agent-v4-upgrade` | 鐢诲竷 Agent v4鈥斺€旀敞鍏?Judge Skill + 涓冭绱?+ 闆疯揪鍥?| reviewed | 鑰侀〗绔?| 1 涓?agent-spec 鍗囩骇 | 渚濊禆 #128 #129 | `60_feedback/tasks/task_20260707_wangyuyan-canvas-agent-v4-upgrade.md` | P1锛氫笁璧勪骇娉ㄥ叆鈥斺€擩udge Skill浜旂淮鑷瘎+Skill涓冭绱犲畬鏁?钃濋奔闆疯揪鍥惧彲瑙嗗寲銆倂3鈫抳4 |
-
 | 131 | `task_20260707_wangyuyan-project-management-domain-production` | 绠￠」鐩煙 P1 鏍稿績锛?3 寮犲崱 + 椤圭洰绠＄悊鍔╂墜 agent-spec | reviewed | 鈥?| 13 | 鏃?| `70_product/tasks/task_20260707_wangyuyan-project-management-domain-production.md` | 娆ч槼閿嬬粓瀹?A-锛? concept 閲嶅啓 + 5 framework锛堝惈 ABCD锛? 4 tool + 1 skill + 1 workflow + 1 agent-spec锛涘弽鍚戞洿鏂?鈮?4 寮犲凡鏈夊崱 related |
-
 | 132 | `task_20260707_wangyuyan-project-management-domain-phase2` | 绠￠」鐩煙 P2 琛ヤ骇涓庢繁鎸栵細绾?30 寮犲崱 | reviewed | 鈥?| 30 | 渚濊禆 #131 reviewed | `70_product/tasks/task_20260707_wangyuyan-project-management-domain-phase2.md` | 娆ч槼閿嬬粓瀹?B+锛屽凡閫氳繃 queue_transition.py 鍏抽棴锛? case + 姝﹀櫒搴撳叆鍙?+ L5/L6 dk + 69 寮犲浘鎵归噺 tool |
-
 | 133 | `task_20260708_wangyuyan-ai-outpost-episode2-production` | AI鍓嶅摠绔欑2闆嗗崱鐗囧寲锛? 寮犲崱锛? P0 + 4 P1锛?| reviewed | 鈥?| 8 | 鏃?| `70_product/tasks/task_20260708_wangyuyan-ai-outpost-episode2-production.md` | 娆ч槼閿嬬粓瀹?A-锛汸0锛欰I鎺у埗鍙?Agent骞冲彴鍙屽舰鎬併€乀oken Capital銆佸搧鍛崇郴缁熴€丅uilder骞昏锛汸1锛氭澃鏂囨柉鎮栬銆佸紑鏀?灏侀棴鍒嗙被鍣ㄣ€佸钩鍙版渚嬨€丆odex闃熷弸agent-spec |
-
 | 134 | `task_20260708_wangyuyan-claude-retrospective-p0-fix` | Claude 鐜嬭瀚ｅ洖婧璁?P0 淇锛氬厓鏁版嵁涓€鑷存€т笌鍏抽敭鍐呭鏍″噯 | reviewed | 鈥?| 10 涓枃浠?| 鏃?| `70_product/tasks/task_20260708_wangyuyan-claude-retrospective-p0-fix.md` | 娆ч槼閿嬬粓瀹?A锛涗慨姝?frontmatter 鏃ユ湡/鐘舵€?YAML/鍗＄墖 ID 瀵归綈/浠诲姟鍗曞幓閲?retroactive scan 缁熻璇勭骇 |
-
 | 135 | `task_20260708_wangyuyan-claude-retrospective-p1-supplement` | Claude 鐜嬭瀚ｅ洖婧璁?P1 琛ュ叏锛歴ource_refs 琛屽彿銆佸閮ㄩ獙璇佷笌璇婃柇娣卞害 | reviewed | 鈥?| 16 涓枃浠?| 渚濊禆 #134 reviewed | `70_product/tasks/task_20260708_wangyuyan-claude-retrospective-p1-supplement.md` | 娆ч槼閿嬬粓瀹?A锛涜ˉ鍏呯簿纭?source_refs銆佸閮?URL銆佽嚜鏀诲嚮/澶辫触妯″紡銆佷氦鍙夋瘮瀵硅〃 |
-
 | 136 | `task_20260708_wangyuyan-sales-domain-deep-dive-supplement` | 閿€鍞煙鍙ｈ堪绋夸簩娆℃繁鎸栬ˉ浜э細鎿嶄綔灞傚伐鍏峰崱 + Agent 瑙勬牸 | reviewed | 鈥?| 6 鏂板崱 + 4 鍗囩骇 + 6 agent-spec | 鏃?| `70_product/tasks/task_20260708_wangyuyan-sales-domain-deep-dive-supplement.md` | 鐜嬭瀚ｄ簩娆℃繁鎸栵細琛ラ綈鍓嶄笁绉掕瘽鏈€佽亞鍚笁涓冩硶鍒欍€佸洖娆?灞ョ害 playbook 绛?P0 缂哄彛锛屽苟閰嶅 6 涓攢鍞?Agent 瑙勬牸 |
-
 | 137 | `task_20260708_wangyuyan-pan-product-domain-supplement` | 娉涗骇鍝佽璁″煙 P0-P2 琛ヤ骇锛氭鏋跺～鑲?+ 鍙跺瓙鍗囩骇 + Agent 瑙勬牸 | reviewed | 鈥?| 12 鍗?+ 7 agent-spec | 鏃?| `70_product/tasks/task_20260708_wangyuyan-pan-product-domain-supplement.md` | 鐜嬭瀚ｄ簩娆℃繁鎸栵細4 寮犱腑灞傛鏋跺崱濉倝 + 6 寮犲彾瀛愬崱鍗囩骇 + 2 寮犳柊宸ュ叿鍗?+ 7 涓硾浜у搧 Agent 瑙勬牸锛涜В鍐?30/36 寮犵墝鍙ｅ緞鍐茬獊 |
-
 | 138 | `task_20260708_wangyuyan-product-kernel-domain-supplement` | 浜у搧鍐呮牳鍩?P0-P2 琛ヤ骇锛氭牳蹇冩蹇靛崌绾?+ 妗堜緥鍗?+ 楠岃瘉宸ュ叿 + Agent 瑙勬牸 | reviewed | 鈥?| 12 鍗?+ 7 agent-spec | 鏃?| `70_product/tasks/task_20260708_wangyuyan-product-kernel-domain-supplement.md` | 鐜嬭瀚ｄ簩娆℃繁鎸栵細3 寮?concept 鍗囩骇 + 1 寮犲叚绛栫暐楠岃瘉宸ュ叿鍗?+ 4 case + 2 DK + 7 涓唴鏍?Agent 瑙勬牸锛涚粺涓€楠岃瘉/杩唬妗嗘灦鍛藉悕 |
-
 | 139 | `task_20260708_wangyuyan-time-management-agent-supplement` | 鏃堕棿绠＄悊鍩?P1 琛ヤ骇锛氬洓寮犳ā鍨嬪浘 + 鎿嶄綔宸ュ叿 + 妗堜緥 + 涓撳睘 Agent Spec | reviewed | 鈥?| 18 鍗?+ 1 agent-spec | 鏃?| `70_product/tasks/task_20260708_wangyuyan-time-management-agent-supplement.md` | 鐜嬭瀚ｄ簩娆℃繁鎸栵細1 寮?concept 鍗囩骇 + 4 寮?framework + 8 寮?tool + 5 寮?case + 1 涓椂闂寸鐞嗕笓灞?Agent Spec锛涚敤鎴锋槑纭姹傗€滄椂闂寸鐞嗕笓闂ㄧ殑 agent鈥?|
-
 | 140 | `task_20260708_wangyuyan-demand-analysis-agent-supplement` | 闇€姹傚垎鏋愬煙 P0-P2 琛ヤ骇锛氬啺灞卞伐鍏峰崱琛ュ叏 + 澶╄姳鏉挎鏋?+ 涓撳睘 Agent Spec | reviewed | 鈥?| 17 鍗?+ 1 agent-spec | 渚濊禆 #143/#144 | `70_product/tasks/task_20260708_wangyuyan-demand-analysis-agent-supplement.md` | 鐜嬭瀚ｄ簩娆℃繁鎸栵細鐭ヨ瘑宸查獙璇侊紝缂?Agent 灏佽锛? Agent Spec + 6 L1-L6 宸ュ叿鍗¤ˉ鍏?+ 澶╄姳鏉垮洓灞傛鏋?+ RAT/璇勪及/寰浣撴劅宸ュ叿锛涚敤鎴锋槑纭€滈渶姹傛槸鏋佸叾閲嶈鐨勫煙鈥?|
-
 | 141 | `task_20260708_wangyuyan-five-step-method-orchestrator-supplement` | 涓€鍫備簲姝ユ硶鍩?P0-P2 琛ヤ骇锛氭€绘鏋跺崱 + 瀛愭鏋跺崱 + orchestrator Agent Spec | reviewed | 鈥?| 10 鍗?+ 1 agent-spec | #143 宸?reviewed | `70_product/tasks/task_20260708_wangyuyan-five-step-method-orchestrator-supplement.md` | 鐜嬭瀚ｄ簩娆℃繁鎸栵細浜旀娉曟槸鏂规硶璁轰腑鏋紝缂烘€绘鏋跺崱銆佸闀垮懆鏈?澹佸瀿妗嗘灦鍗°€乷rchestrator Agent Spec锛涢渶鎶?#136-#140 瀛愬煙浠诲姟涓叉垚鍙鑸摼璺紱**Hermes 瀹炰緥宸插畬鎴愶紝娆ч槼閿嬬粓瀹?A-** |
-
 | 142 | `task_20260708_wangyuyan-y-model-cross-domain-fusion-and-coach-agent` | Y妯″瀷 / 瀹炰簨姹傛槸 / 瑙ｆ斁鎬濇兂 璺ㄥ煙铻嶅悎锛氭€绘鏋跺崱 + 璺ㄥ煙 Coach Agent Spec | reviewed | 鈥?| 9 鍗?+ 1 agent-spec + 5 璇婃柇鏇存柊 | #143 宸?reviewed | `70_product/tasks/task_20260708_wangyuyan-y-model-cross-domain-fusion-and-coach-agent.md` | 鐜嬭瀚ｈ法鍩熸繁鎸栵細Y妯″瀷 鏄竴鍫傝绋嬫渶搴曞眰鏈川锛岄渶鎶婇渶姹?浜у搧/浜旀娉?閿€鍞?鏃堕棿绠＄悊/AI钀藉湴绛夊煙鏄犲皠璐€氾紝褰㈡垚璺ㄥ煙鎬绘鏋朵笌璺ㄥ煙 Coach Agent锛?*Kimi Code CLI 瀹炰緥宸插畬鎴愶紝娆ч槼閿嬬粓瀹?A-** |
-
 | 143 | `task_20260708_wangyuyan-dual-triangle-cross-domain-agent` | 璺ㄥ煙鍙屼笁瑙掕瘖鏂?Agent锛欰gent 鍐涘洟鍏ュ彛鍒嗚瘖涓庡厓妗嗘灦鏍″噯 | reviewed | 鈥?| 6 鍗?+ 1 agent-spec | #144 reviewed | `70_product/tasks/task_20260708_wangyuyan-dual-triangle-cross-domain-agent.md` | 娆ч槼閿嬬粓瀹￠€氳繃锛涘弻涓夎鏍稿績鍗℃棌宸插畬澶囷紝缂?Agent 鍐涘洟鍏ュ彛鍏冭瘖鏂?Agent锛? Agent Spec + 3 宸ュ叿鍗★紙鍚煙娉ㄥ唽鎵╁睍鍗忚锛? 2 鐜版湁鍗?related 鍗囩骇 + 1 閮ㄧ讲璺緞 runbook锛涙敮鎸佹湭鏉ョ煡璇嗗煙鍙彃鎷旀帴鍏ワ紱**宸茶В闄?#141/#142 闃诲** |
-
 | 144 | `task_20260708_huangyaoshi-capability-hub-phase1` | P-23 鑳藉姏涓彴 Phase 1锛歏LM 鑳藉姏涓婄嚎 + Agent 鍏变韩宸ュ叿搴曞骇 | reviewed | 鈥?| 1 浠ｇ爜妯″潡 + CLI + 鍚姩搴忓垪鏇存柊 | 鏃?| `70_product/tasks/task_20260708_huangyaoshi-capability-hub-phase1.md` | 榛勮嵂甯堝仠杞﹀満 P-23锛涙墍鏈?Agent 璋冪敤 VLM/OCR/鎼滅储鐨勫叡浜簳搴э紱0.5-1 澶╃‖鍓嶇疆锛汚gent 鍚姩搴忓垪鍔犲叆 `python -m capability_hub list` |
-
 | 145 | `task_20260709_wangyuyan-key-assumptions-business-formula-agent` | 鍏抽敭鍋囪 + 涓氬姟鍏紡鎷嗚В鍩?P0-P2 琛ヤ骇锛氫富绾挎€绘鏋跺崱 + ABCD/涓夋澘鏂?涓氬姟鍏紡璐€氬崱 + orchestrator Agent Spec | reviewed | 鑰侀〗绔ワ紙kimi) | 12 鍗★紙6 鏂?+ 6-8 鍗囩骇锛? 1 agent-spec | #141/#143/#144 reviewed | `70_product/tasks/task_20260709_wangyuyan-key-assumptions-business-formula-agent.md` | 鐜嬭瀚ｆ繁鎸栵細鍏抽敭鍋囪涓荤嚎 + ABCD 妯″瀷 + 涓夋澘鏂?+ 瀛旀簮涓氬姟鍏紡鎷嗚В鏈疮閫氾紱浣嶄簬浜旀娉曘€岄渶姹傗啋浜у搧鍐呮牳銆嶄箣闂达紝琛旀帴 #140/#138锛涘彛杩扮 2 浠?+ OCR 14 寮犲彇璇佸埌琛屽彿锛?*Kimi 瀹炰緥路鑰侀〗绔ュ凡瀹屾垚锛屾闃抽攱缁堝 A-** |
-
 | 146 | `task_20260709_wangyuyan-personal-learning-method-agent` | 涓汉淇偧路瀛︿範鏂规硶鍩燂紙IPO + 绉戝鎻愰棶 + 鎬濈淮妯″瀷 + 鐭ヨ瘑钀冨彇锛夛細鎬绘鏋跺崱 + 4 瀛愭鏋跺崱 + orchestrator Agent Spec | reviewed | 鑰侀〗绔ワ紙hermes) | 7 鍗?+ 1 agent-spec | #142/#143/#144 reviewed | `70_product/tasks/task_20260709_wangyuyan-personal-learning-method-agent.md` | 鐜嬭瀚ｆ繁鎸栵細鏈€濂戝悎銆屾湁鍙ｈ堪绋夸絾 wiki 缂哄け銆嶏紱4 涓畬鏁村彛杩扮 + 5 OCR锛屽悇瀛愬煙浠?1-4 寮犻浂鏁ｅ崱銆佹棤鎬绘鏋讹紱鍚?IPO脳Y妯″瀷 杈圭晫锛?*Hermes 瀹炰緥路鑰侀〗绔ュ凡瀹屾垚锛屾闃抽攱缁堝 A-** |
-
 | 147 | `task_20260709_wangyuyan-opportunity-foresight-agent` | 涓€鍫傛満浼氶鍒?/ 缁堝眬鍏夎氨鍩?P0-P2 琛ヤ骇锛氭€绘鏋跺崱 + 缁堝眬鍏夎氨鍥捐В璇?妗堜緥棰勫垽鏂规硶鍗?+ 鏁欑粌 Agent Spec | reviewed | 鑰侀〗绔ワ紙kimi) | 4 鏂板崱 + 1 agent-spec + 6-8 鍗囩骇 + OCR 鏍￠獙 | #141/#143/#144 reviewed | `70_product/tasks/task_20260709_wangyuyan-opportunity-foresight-agent.md` | 鐜嬭瀚ｆ繁鎸栵細绱犳潗鏈€涓板瘜锛? 鍙ｈ堪绋?+ 18 寮?OCR锛夛紱`yt-foresight` 宸叉垚浣撶郴锛屼絾缁堝眬鍏夎氨瑙ｈ/妗堜緥棰勫垽/鎬绘鏋舵壙閲嶅眰缂哄け锛涗笉鍏ㄩ噺琛ュ浘锛屽彧琛ヨВ璇?鏂规硶/鎬荤翰锛?*Kimi 瀹炰緥路鑰侀〗绔ュ凡瀹屾垚锛屾闃抽攱缁堝 A-** |
-
 | 148 | `task_20260709_wangyuyan-expression-pitch-agent` | 涓汉淇偧路琛ㄨ揪鍔涗笌璁查鍗佹寚锛堝閲忥級P0-P2锛氭€绘鏋跺崱 + 鏁欑粌 Agent Spec + 鐏妯″瀷/鎵ц姝﹀櫒搴撳崱 + 鐜版湁鍗″崌绾?| reviewed | 鑰侀〗绔ワ紙hermes) | 5 鍗?+ 1 agent-spec + ~12 鍗囩骇 | #136/#143/#144 reviewed | `70_product/tasks/task_20260709_wangyuyan-expression-pitch-agent.md` | 鐜嬭瀚ｆ繁鎸栵細璁查鏈綋 5 鏈堝凡鏃╂湡鎸栬繃锛涘墠缃璁″彂鐜拌棣欏崄鎸囧彛杩扮増鍙悆鍙栥€屾湳銆嶆紡銆岄亾銆嶃€佺翰鍗℃潵婧愰敊浣嶃€佽〃杈惧姏鐏妯″瀷/姝﹀櫒搴?OCR 鏈崌姝ｅ紡鍗★紱涓嶉噸鍐?`yt-pitch-*`锛?*Hermes 瀹炰緥路鑰侀〗绔ュ凡瀹屾垚锛屾闃抽攱缁堝 A-** |
-
 | 149 | `task_20260710_wangyuyan-business-formula-conversion-case-round` | 涓氬姟鍏紡 脳 杞寲鐜?妗堜緥杞紙杞婚噺锛夛細3 寮犺惤鍦?case + L5/L6 鍗犱綅鍥炲～锛堝皠绠/鑸炶箞/鏈嶈搴椾笁妗堜緥锛?| reviewed | 鑰侀〗绔?kimi-code) | 3 case + 1 concept 鍥炲～ | #145 reviewed | `70_product/tasks/task_20260710_wangyuyan-business-formula-conversion-case-round.md` | 鐢ㄦ埛鎻愪緵钀藉湴涔嬪绗叚鍦洪€愬瓧绋匡紱鍒ゆ柇鍏堝仛杞婚噺妗堜緥杞€佷笉绔嬪ぇ鍩燂紱pre-submit 4/4 PASS锛?*寰呮闃抽攱缁堝**锛汥 鍩燂紙杞寲鐜囬粦瀹級鏆備笉绔嬮」锛岀瓑绯荤粺璇惧埌浣嶅啀寮€ #150 |
-
 | 150 | `task_20260711_wangyuyan-fundamentals-domain-production` | 鑻︾粌鍩烘湰鍔熷煙锛堢鐞?鍥㈤槦瀛愬煙锛塒0-P2锛氭€荤翰/鍥涘瓧璇€鎷嗗缓鎺ㄧ粌/涓夌幆鍏淮/40 宸ュ叿鍗¤惤鍦?+ 鏄ヨ悕妗堜緥 + 绠＄悊鍩?digest + 鏁欑粌 Agent Spec | reviewed | 鑰侀〗绔?kimi) | ~18 鍗?+ 1 agent-spec + 1 digest + 2 鍗囩骇 | #149 缁堝鍚?claim锛?143/#144 鍗忚 | `70_product/tasks/task_20260711_wangyuyan-fundamentals-domain-production.md` | 鐜嬭瀚ｇ紪鎺掞細4 鍙ｈ堪绋?76 鍥?OCR+VLM锛涘洓瀛楄瘈鍙栥€屾媶寤烘帹缁冦€嶃€佸崱鏁板彇瀹炵墿 6/7/7/20銆佹暟瀛楅檷绾э紱鍏堣ˉ management-domain-digest 璋冨拰鍐茬獊 |
-
 | 151 | `task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout` | 鍩烘湰鍔熋楀弻涓夎/cap_hub 宸ュ巶鏀归€狅紙寤哄伐鍘傜嚎锛夛細AI-鍩烘湰鍔熼《鐐规墿灞?+ cap_hub涓夌幆杩囨护鍣?+ 娈典綅鍚堝苟 + 椋炶疆琛ュ叏 | reviewed | 榛勮嵂甯?| 1 鏂板伐鍘傜粍浠跺崱 + 4 鏃㈡湁宸ュ巶鍗″崌绾?| #150 鍐呭鍗?reviewed锛堣剼鎵嬫灦鍙厛鎼紝濉厖绛?#150锛?| `70_product/tasks/task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout.md` | 鐜嬭瀚ｅ叏灞€瑁佸畾锛氶粍鑽笀寤鸿涔︿綔璇夋眰閲囩撼銆佹暣浣撹縼绉绘柟妗堝惁鍐筹紱寤哄伐鍘?vs 浜у唴瀹瑰垎绾匡紱寮曠敤涓嶈縼绉伙紱鏈綋鐙珛+澶氬叆鍙ｇ储寮?|
-
 | 152 | `task_20260711_wangyuyan-agent-fundamentals-cultivation` | 鍩烘湰鍔熷煙琛ュ崱锛歝oncept-涓€鍫?Agent鍩烘湰鍔熶慨鐐硷紙Agent 鍐涘洟缁冨熀鏈姛瑙嗚锛氫笁鐜瓫閫壝桲DO鎷嗗缓鎺ㄧ粌鏄犲皠 + 鑺辨€?鐜嬭瀚ｄ袱妗堜緥锛?| reviewed | 鑰侀〗绔?| 1 concept 鍗?+ #15鍗?related 鍙嶅悜 link | #150 reviewed锛堥渶 #15 鍗″瓨鍦ㄥ仛鍙屽悜 link锛?| `70_product/tasks/task_20260711_wangyuyan-agent-fundamentals-cultivation.md` | 鑰佹湵鎸囦护锛?150 宸?claimed-kimi 涓嶆敼鍔紝鍙︾珛鏈换鍔★紱KDO 宸ュ巶=agent 缁冨熀鏈姛绯荤粺锛涗笌 #151 B-1/B-2 浜掗摼 |
-
 | 153 | `task_20260711_wangyuyan-decision-coach-agent-supplement` | 鍐崇瓥鍩熻ˉ浜э細绉戝鍐崇瓥鏁欑粌 agent-spec锛坥rchestrator锛屾寕涓夎褰?ABCD/ROI/娣卞害L1-L4/鍏辫瘑鏇茬嚎锛? 涓夎褰㈠崱鑴忔暟鎹竻鐞?| reviewed | 鑰侀〗绔?| 1 agent-spec + 1 鍗¤剰鏁版嵁娓呯悊 + digest 鍥為摼 | 鏃狅紙鍐崇瓥鍩熷崱宸?reviewed锛?| `70_product/tasks/task_20260711_wangyuyan-decision-coach-agent-supplement.md` | 鍐崇瓥鍩熸垚鐔熷害 A- 涓嶇珛澶т换鍔★紱鍞竴缂?agent-spec 鐨勫ぇ鍩燂紱棰嗗彇鑺傚鐢辫€佹湵瀹?|
-
 | 154 | `task_20260712_wangyuyan-long-material-reading-protocol-dk` | dk 鍗★細闀跨礌鏉愬垎灞傝鍙栧崗璁紙瀵嗗害脳闀垮害閫夌瓥鐣?/ 瀛愪唬鐞嗗瀛?琛屽彿閿氱偣 / 涓夐亾闃茬嚎 + 鏆楃煡璇嗘崟鎹炴竻鍗曪級 | reviewed | 鑰侀〗绔?| 1 dk | 鏃?| `70_product/tasks/task_20260712_wangyuyan-long-material-reading-protocol-dk.md` | 鐜嬭瀚ｅ伐浣滃崗璁啗鍥㈠叡浜寲锛涙槑澶?C/D 鍩熺敓浜у嵆鐢紝寤鸿 hermes 绌烘。浼樺厛棰?|
-
 | 155 | `task_20260712_wangyuyan-business-formula-domain-p0-skeleton` | C鍩熉蜂笟鍔″叕寮?P0 楠ㄦ灦娣卞寲锛氭€荤翰鍗囩骇 + 鍙傛暟鍐板北/閫昏緫鍏崇郴鍐板北/鍗佸ぇ鑼冨紡涓夊崱娣卞寲 + 钀藉湴绛栫暐闆?+ 鍙傛暟姝﹀櫒搴撳叏閲?+ digest + ABC鍗囩骇 | reviewed | 鑰侀〗绔?| 4 鍗囩骇 + 3 鏂板缓 + 1 digest | 鏃狅紙C鍩熺涓€娈碉紝闃诲#156-158锛?| `70_product/tasks/task_20260712_wangyuyan-business-formula-domain-p0-skeleton.md` | 鐜嬭瀚ｆ繁鎸栵細5鍙ｈ堪96涓囧瓧+5绗旇+101鍥綱LM鍏ㄩ噺澶勭悊锛涗袱浠藉畾浣嶇储寮曡惤鐩榑vlm_output锛涙棦鏈?5寮犲簳绋垮崱鍗囩骇涓嶅簾寮冿紱PEAHD/C=瀹忚鏁堢巼绛夊啿绐佸凡瑁佸畾锛涙暟瀛楅檷绾ц绋嬫渚嬪彛寰?|
-
 | 156 | `task_20260712_wangyuyan-business-formula-domain-p1-workflow-tools` | C鍩熉蜂笟鍔″叕寮?P1 宸ヤ綔娴佷笌宸ュ叿鏃忥細涓夋宸ヤ綔娴?鏍煎紡瑙勮寖/闄嶉緳鍗佸叓鎺?PEAHD/鍋囪姹?鏀诲潥浼?鍙岀洰鏍?涓夌被鐩爣/鍏抽敭璺緞/鐩稿叧鈮犲洜鏋?鍥犳灉涓変欢濂?瀹氶噺涓夌淮搴?鍙傛暟鑰﹀悎/榄旀硶鏁板瓧/鑴辩鎴愭湰/閫掑綊鍙傛暟/榛戠洅鐧界洅/鍋囪椋炶疆/涓撳璁胯皥/鐏垫劅浜斿瓧璇€ | reviewed | 鑰侀〗绔?| ~20 鏂板缓鍗?| #155 reviewed锛堝彲涓?157骞惰锛?| `70_product/tasks/task_20260712_wangyuyan-business-formula-domain-p1-workflow-tools.md` | 鐜嬭瀚ｇ紪鎺掞細姒傚康鍗″鍙嶅父璇嗙偣锛堣劚绂绘垚鏈?瓒婂皬瓒婂叧閿?榛樿涓簡3-5鍊嶈浆鍖栫巼锛夛紝姣廲oncept鑷冲皯涓€涓弽甯歌瘑鏍囨敞锛?8鎷涢€愭嫑鏃犵己婕忓鐓у浘001759 |
-
 | 157 | `task_20260712_wangyuyan-business-formula-domain-p2-cases` | C鍩熉蜂笟鍔″叕寮?P2 妗堜緥鏃忥細鏃楄埌8鍗★紙澶嶇洏钀ヤ簲骞?鎴戣瀹?椹媺鏉?浼氶攢鍗佸€?婕睍/鎵泲鏈?鍏礋璐ｄ汉/瑙嗛鍙凤級+ 瀛﹀憳7鍗?+ 鍚堥泦4鍗★紙浼洜鏋?榄旀硶鏁板瓧/鍒涙柊鍙傛暟/涓夎涓氾級 | reviewed | 鑰侀〗绔?| 19 妗堜緥鍗?| #155 reviewed锛堝彲涓?156骞惰锛?| `70_product/tasks/task_20260712_wangyuyan-business-formula-domain-p2-cases.md` | 鑰佹湵鍘熻瘽銆屼笉瑕侀仐婕忛噸瑕佺煡璇嗗拰妗堜緥銆嶏紱姣忓崱蹇呭惈澶辫触鍋囪锛涙壄铔嬫満浠樿垂鐜囦袱婧愬啿绐侀渶璋冨師鍥惧鏍告垨鏍噋ending_unknown |
-
 | 158 | `task_20260712_wangyuyan-business-formula-domain-agent-spec` | C鍩熉蜂笟鍔″叕寮?agent-spec + 鍏ㄥ煙鏀跺彛锛歛gent-涓€鍫?涓氬姟鍏紡鏁欑粌锛坥rchestrator锛屽弻杞存浣嶈瘖鏂級+ digest鍥為摼 + 瀛ゅ効鍗?杈圭晫妫€鏌?| reviewed | 鑰侀〗绔?| 1 agent-spec + 鍥為摼 + 瀹屾垚鎶ュ憡 | #155/#156/#157 鍏ㄩ儴 reviewed | `70_product/tasks/task_20260712_wangyuyan-business-formula-domain-agent-spec.md` | 瑙勬牸瀵归綈#150鍩烘湰鍔熸暀缁?#153鍐崇瓥鏁欑粌锛涘弽鍚戣捀棣忥紙鑷湁涓氬姟鍏紡agent锛変笉鍦ㄦ湰浠诲姟锛屽彟绔嬬浜岄樁娈?|
-
 | 159 | `task_20260712_wangyuyan-lint-baseline-rollback` | 鍥為摼鍊鸿涔夊垎娴?lint鍩虹嚎鍥炲嵎锛圱5瀹屾暣鏂规锛夛細闃舵0杈瑰垎绫绘爣鍑?gate)鈫掍緥澶栬惤琛?涓夐搧寰?鈫掔湡鍊哄垎鎵逛慨(鎶芥牱>90%鏀鹃噺)鈫掑熀绾块噸寤轰笁杩炲楠?| reviewed | 榛勮嵂甯?| 鏍囧噯鑽夋+渚嬪琛?manifest+澶嶉獙鎶ュ憡 | 鏃狅紙鍙嶅悜钂搁寮€浜у墠蹇呴』瀹屾垚锛涢樁娈?闇€娆ч槼閿嬪绛撅級 |
-
 | 160 | `task_20260712_wangyuyan-y-model-fusion-backlink` | Y妯″瀷fusion鍗74琛鍩熸€荤翰閾撅紙T4锛夛細涓€琛宺elated杩藉姞+pre-submit锛岀敵鎶ュ埗 | reviewed | 鑰侀〗绔?| 琛ラ摼+闂ㄧ杈撳嚭 | 鏃狅紙椤烘墜浠朵笉鍗犵绾匡級 |
-
 | 161 | `task_20260712_wangyuyan-c-domain-outbound-bridges` | C鍩熷煙澶栨ˉ鎺ュ寮猴細鍥捐氨瀛ょ珛淇锛堝煙澶栧嚭閾?0.3%鈫掆墺20%锛岄浂鍩熷閾惧崱鍑忓崐锛夛紝璇箟鐪熷疄浼樺厛涓嶈閫犻摼 | reviewed | 鑰侀〗绔?| related琛ラ摼+澶嶆祴鎶ュ憡 | 鏃狅紙P1涓嶉樆濉炲弽鍚戣捀棣忥級 |
-
 | 162 | `task_20260712_wangyuyan-c-domain-backbone-direct-links` | C鍩熼骞茬洿杩烇紙娆ч槼閿嬪缓璁功浠诲姟A锛夛細6澶栭儴hub鈫擟鍩熸€荤翰鍙屽悜~12-18杈癸紝閫愯竟grep鍙ˉ缂烘柟鍚?| reviewed | 鑰侀〗绔?| 鍙屽悜杈?grep杈撳嚭 | #161浜ゅ嵎鍚庨锛堣竟娓呭崟鍘婚噸锛?|
-
 | 163 | `task_20260712_wangyuyan-ocr-deadlink-cleanup` | ocr-*姝婚摼澶勭疆锛堜换鍔锛夛細澶勭疆娓呭崟宸茬杩囷紙6鏉′欢锛夛紝dry-run鈫抎iff鎶介獙鈮?0%鈫抋pply鈫掑閲忛浂鏂板 | reviewed | 榛勮嵂甯?| 澶嶆壂闆舵閾?manifest褰掓。 | **鏃跺簭鍗℃锛?159闃舵3鍩虹嚎閲嶅缓鍓嶅畬鎴愶紝鎴栧畬鎴愬悗绔嬪嵆閲嶅缓**锛圥2锛?|
-
 | 164 | `task_20260712_wangyuyan-c-domain-cleanup` | C鍩熸敹灏炬竻鐞嗭細A娈礶xpert-interview鍙屽崱鍘婚噸锛堣€侀〗绔ワ級+B娈甸粍鑽笀4浠禿raft鈫抏nriched | reviewed | 鑰侀〗绔?榛勮嵂甯?| 鍙屽崱鍒嗗伐鏍囨敞+4浠秙tatus鍗囩骇 | 鏃狅紙P2浣撴閬楃暀锛?|
-
 | 165 | `task_20260712_wangyuyan-c-domain-feedback-cards` | C鍩熷疄鎴樺弽鍝虹煡璇嗗崱6寮狅紙A缂哄け骞跺彂鐥?L1鍋囪閫夊潃鍏嶈垂/L5鎸栨硶涓夋柟鍚?楠屽洜鏋?閫昏緫L5L6姝ｅ悕/CD寰幆鎾ら攢閿?浼洜鏋滀袱浼锛?閫昏緫鍐板北鍗5/L6瀵归綈淇涓€澶?| reviewed | 鑰侀〗绔?| 6鏂板崱+1澶勪慨璁?闂ㄧ杈撳嚭 | 鏃狅紙P1锛屽彲涓?166骞惰锛涙彁妗堣60_feedback/analysis/c-domain-mastery-review-and-agent-design-2026-07-12.md 搂浜岋級 |
-
 | 166 | `task_20260712_wangyuyan-business-formula-coach-iteration` | 涓氬姟鍏紡鏁欑粌agent杩唬鍏拤锛歅0娈典綅璇婃柇绮惧害锛圠5瀹氶噺/L6鍔ㄦ€佺閿欎綅锛?L5鎸栨帢鏈猴紙涓夋柟鍚?寮哄埗鍥犳灉妫€楠岋級+A鐩爣璇婃柇鍓嶇疆锛汸1 L1閫夊潃妫€鏌ュ櫒+CD寰幆涓诲姩鍙洖锛汸2鍏紡鐗堟湰鎰忚瘑 | reviewed | 鑰侀〗绔?| agent prompt杩唬鐗?閫愮偣钀藉疄鎶ュ憡 | 鏃狅紙P1锛屽彲涓?165骞惰锛?165鏂板崱鎸傝浇涓鸿蒋渚濊禆鍙暀TODO锛?|
-
 | 167 | `task_20260712_wangyuyan-c-domain-audit-rework` | C鍩熻川閲忓璁¤繑宸ワ紙娆ч槼閿嬪璁÷у叚钀藉湴锛夛細P0 154鏉ource_refs姝绘枃浠朵慨澶?19鍗ection琛ラ綈+閼腐婀惧宀涘崱鏀筪omain绉诲嚭C鍩燂紙鐜嬭瀚ｅ凡瑁佸畾锛夛紱P1 Tool鍗ection+L1L6鑷鍗″叆index锛汸2 kdo姝婚摼娓呯悊 | reviewed | 鑰侀〗绔?| lint涓夊綊闆?瀛ゅ矝褰掗浂+index鍛戒腑 | **闃诲#159鍩虹嚎閲嶅缓**锛圥0瀹屾垚鍓嶄笉寰楅噸寤猴紝闃茬湡鍊哄啀琚熀绾垮惛鏀讹級锛涘彲涓?166骞惰 |
-
 | 168 | `task_20260712_wangyuyan-graph-island-governance` | 鍥捐氨瀛ょ珛鍥㈡不鐞嗭細A娈甸粍鑽笀锛圤CR椋炲湴184鍗＄Щ鍑?0_raw[鍏堟柟妗堢瀹+ai-saas鍛藉悕涓夊彉浣撳悎骞?pending_unknown鍗犱綅199鏉″缃級锛汢娈佃€侀〗绔ワ紙浜旀娉曗啍涓氬姟鍏紡妗ユ帴[浜掗摼0鈫掆墺6锛屽崟鍏冩ā鍨嬫帴缂漖+AI绨囬骞插hub鍒嗘暎鐩磋繛+闇€姹傜皣閿氬畾浜旀娉曪級 | reviewed | 榛勮嵂甯?鑰侀〗绔?| 绛惧鏂规+dry-run+apply+澶嶆壂闂幆 / 鍙屽悜杈?閫愯竟璇箟鐞嗙敱 | A/B娈靛彲骞惰锛汢娈电瓑#167瀹屾垚鍚庨『棰嗭紱涓嶉€犻摼锛岃涔夌湡瀹炰紭鍏?|
-
 | 169 | `task_20260712_wangyuyan-d-domain-p0-skeleton` | D鍩烶0楠ㄦ灦13鍗★紙v2鎸夎瘖鏂功搂9.3锛氭€荤翰/鐖北鍦板浘+涓夋璺ㄨ秺/涓冧慨鍏?涓夋洸绾?浣跨敤涓夊師鍒?36璁?瀵归綈鍘熷垯/12闃诲姏+搴曞眰涓夊弬鏁?闃诲姏鏂规硶璁洪鏋?12瑙︾偣+50瀛愬垎绫?瑙︾偣鏈川璁?鍏娉?鍙屾ā寮?鍏ぇ浼樺寲鍘熷垯/鍗佹寚妯″瀷/digest锛?| reviewed | 鑰侀〗绔?| 13鍗￠綈鍏?棰勬PASS+鎵獥=瀹炲姩 | #167/#168B reviewed鍚庨『棰嗭紱鏈浠ヨ瘖鏂功搂鍥?搂9.2瑁佸畾涓哄噯锛涘紩鐢ㄥ墠鏌ヂ?.1 ASR鍒悕娓呭崟 |
-
 | 170 | `task_20260712_wangyuyan-d-domain-p1-tools` | D鍩烶1宸ュ叿鏃忕涓€鎵癸紙鍔ㄥ姏+闃诲姏渚?2鍗★細FAB+鏈川閲嶅畾涔?鍚嶅埄鏉冩儏/鍏師鍒?寮哄急瑙勫緥/蹇冪悊婵€鍔变紭鍏?12绛?闃诲姏鎸栨帢/涓夊彞璇濆績娉?椹瘏鍥涢儴鏇?浼忕瑪寮忔秷闄?涓嶇潃鎬ヤ袱绫?鍔ㄥ槾鍔ㄦ墜鍔ㄩ挶/涓冨ぇ鍦烘櫙锛?2鏃㈡湁鍗″崌绾?| reviewed | 鑰侀〗绔?| 14鍗?Tool鍥涜妭榻愬叏+棰勬PASS | #169 reviewed锛汿ool鍗″繀澶囧洓鑺傦紙#165鏁欒锛夛紱寮曠敤鍓嶆煡搂9.1 |
-
 | 171 | `task_20260712_wangyuyan-d-domain-p2-cases-batch1` | D鍩熸渚嬫棌绗竴鎵?6鍗★紙v2.1锛氫笁澶ф棗鑸拌ˉ缁嗚妭+缁勫悎绡囦笁璐┛妗堜緥+鏅撹帀+璺嗘嫵閬撳洓鐗?鍏澂濂惰尪+瑙嗛鍙?4鈫?5%涓ょ嫭绔嬪崱+鍥涚瘒鍙ｈ堪妗堜緥搴撶储寮?涓€鍫傝嚜韬疄璺碉級 | reviewed | 鑰侀〗绔?| 16鍗?棰勬PASS+鎵獥=瀹炲姩 | #169 reviewed锛堝彲涓?170/#174骞惰锛夛紱妗堜緥涓夊眰澶勭疆鎸壜?.5 |
-
 | 172 | `task_20260712_wangyuyan-d-domain-agent-and-closure` | D鍩焌gent-spec锛堜慨璁細瀵归綈寮曟搸鏈哄埗涓壜锋ā鍧楀埗锛岃瘽鏈寖鏈?YAI杞寲鐜囧疄褰昪ase鍗★細绮惧害浜旀。/鐩爣浠峰€奸噺鍖?閫愬彞闃诲姏鏄犲皠/娑堥櫎鏂瑰悜鍔ㄤ綔绀轰緥/鍑忔硶鎺掑簭/杈圭晫澹版槑锛?鍏ㄥ煙鏀跺彛锛坉igest鍥為摼/瀛ゅ効褰掗浂/index瀹屾暣/C鍩熶簰閾?lint鏃犳柊澧烇級 | reviewed | 鑰侀〗绔?| agent鍗″彲鐢?瀛ゅ効0+lint鏃犳柊澧?| #169-171 reviewed + #177 寮曟搸鍗忚鍗★紱缁撴瀯瀵归綈#166涓氬姟鍏紡鏁欑粌 |
-
 | 173 | `task_20260712_wangyuyan-d-domain-p3-cases-batch2` | D鍩熸渚嬫棌绗簩鎵圭害8鍗★細瑙︾偣妗堜緥鍚堥泦3妗堜緥锛坢d閫愬瓧绋夸竴绛夌礌鏉愶細鍙舵枃褰皠绠?鏉庡垰榛勯噾涓夌増杩唬/鑼冩笣鐑樼剻锛?灏忕背鍙戝竷浼氭媶瑙?澶嶇洏鍚堥泦 | reviewed | 鑰侀〗绔?| 妗堜緥鏃忓畬鏁达紙10+8锛?| #172 reviewed锛?-13闃诲瑙ｉ櫎锛歮d閫愬瓧绋胯鐩栧叏閮ㄦ渚嬶紝鍥炴簮闄嶇骇鍙€?|
-
 | 174 | `task_20260712_wangyuyan-d-domain-p1-tools-batch2` | D鍩烶1宸ュ叿鏃忕浜屾壒锛堣Е鐐?缁勫悎渚?3鍗★細鍥涘眰绾?浜旂淮/浜旂鎸?12鏄撴氮璐?鍑忔硶鎺掑簭/浜斿ぇ鑼冨紡/鍑嗗绯绘暟/鎻愬亣璁惧洓绛栫暐/鎺掑簭鍥涙嫑/ABACC/妗嗘灦搴?浠跨湡涓夎鐐?璁查鍙岀瓥鐣ワ級 | reviewed | 鑰侀〗绔?| 13鍗?Tool鍥涜妭榻愬叏+棰勬PASS | #169 reviewed锛堜笌#170骞跺垪鍙苟琛岋級锛泇2鏂板琛ヨ瘖鏂功閬楁紡 |
-
 | 175 | `task_20260712_wangyuyan-c-domain-scan-fix-structure` | C鍩熸煡婕忎慨澶嶇涓€鎵癸紙缁撴瀯灞傦級锛?瀛ゅ効鍗℃帴鍏igest+digest褰掑睘淇+5瑁佸畾钀藉湴锛堥┈鎷夋澗鍙屽彛寰?浼洜鏋滄湳璇槧灏?鍥犳灉鍙ｅ緞澹版槑锛?鍘熷浘澶嶆牳3椤?6鑰佸崱鏁板瓧澶嶆牳+鍕樿琛ㄨˉ褰?Y妯″瀷琛ㄨ堪淇锛堣€佹湵瑁佸畾6锛歒=姣嶆ā鍨嬶紝ROI=鎺ㄥ浜х墿锛屽叏搴揜OI/Y鏂滄潬娓呴浂锛?| reviewed | 榛勮嵂甯?| 6鍗″彲杈?5瑁佸畾钀藉湴+3澶嶆牳鏈夌粨璁?| #168A瀹屾垚鍚庨『棰嗭紱渚濇嵁c-domain-scan-supplement璇婃柇涔︼紝瑁佸畾宸茶惤 |
-
 | 183 | `task_20260713_wangyuyan-c-domain-evidence-recheck` | C鍩熻瘉鎹鏍告敹灏撅紙#175鎷嗗嚭锛?鍘熷浘澶嶆牳涓夋爮璇佹嵁[2瀛﹀垎/FB涓冨ぉ/鍐板北灞傛暟]+6鑰佸崱鏁板瓧澶嶆牳涓€绛夊帇浜岀瓑+鍗?绌簊ource_refs琛ラ綈锛?| reviewed | 鑰侀〗绔?| 涓夋爮璇佹嵁鍏ヨ瘖鏂功+6鍗″鏍?lint鏃犳柊澧?| 鏃狅紱鍏堜簬#169椤洪锛堝崐澶╅噺绾э級锛屽畬鎴愬悗#175鏁翠綋close |
-
 | 184 | `task_20260713_wangyuyan-full-vault-yaml-audit` | 鍏ㄥ簱yaml.safe_load浣撴锛氳В鏋愬け璐?缁撴瀯寮傚父/鏃爁rontmatter涓夌被娓呭崟锛屼慨澶嶁憼鈶＄被锛岄殣韬崱褰掗浂 | reviewed | 榛勮嵂甯?| 鎵弿鎶ュ憡+淇+lint鏃犳柊澧?| 鏃狅紱#181鍚庨『棰?|
-
 | 185 | `task_20260713_wangyuyan-template-placeholder-hygiene` | 妯℃澘鍗犱綅绗﹀崼鐢燂細xxx/.../wikilink绛墌130鏉＄ず渚媤ikilink鏀逛唬鐮佸潡鍖呰９锛屽浘璋辩伆鐧界偣褰掗浂锛涘巻鍙叉枃妗ｇ湡瀹炲紩鐢ㄤ笉鍔?| reviewed | 榛勮嵂甯?| 鍗犱綅绗﹀綊闆?妯℃澘鎶芥煡+lint鏃犳柊澧?| 鏃狅紱#184鍚庨『棰?|
-
 | 186 | `task_20260713_wangyuyan-agent-spec-prompts-ingestion` | agent-spec鍗″叆鐭ヨ瘑灞傦細20寮?prompts 鍗″叆 30_wiki/tools锛堥攢鍞煙6寮犳寜#182鏄犲皠琛ㄥ姞D鍩熷洖閾?kernel绯诲垪7寮?浜у搧椤圭洰绠＄悊7寮犳寜鎵€灞炲煙鎺ワ級 | reviewed | 鑰侀〗绔?| 20姝ｅ紡鍗?lint鏃犳柊澧?| #182 reviewed鍚庨『棰?|
-
 | 187 | `task_20260714_wangyuyan-material-gaps-tracking` | 绱犳潗缂哄彛杩借釜涓庡洖婧愮櫥璁帮紙4绫荤己鍙ｏ細澶嶇洏鍚堥泦7妗堜緥/寰佹枃鍗佺瘒+閭辨芳妗堜緥闆?鍙屼笁瑙?鍒绘剰缁冧範锛沚locked绛夎€佹湵锛?| suspended | 鑰侀〗绔?| 缂哄彛鐧昏鍗?绱犳潗鍒颁綅鍚?4h鍐呰瘎浼板叆闃?| 鑰佹湵鎻愪緵绱犳潗 |
-
 | 188 | `task_20260714_wangyuyan-badcase-feedback-loop` | bad case反馈机制与首条记录：模板+存储路径+缺陷分类+闭环流程；首条等老朱真实使用 | reviewed | 鑰侀〗绔?| 鏈哄埗鍗?寮?棣栨潯璁板綍+context琛ヤ竵 | 鏃?|
-
 | 176 | `task_20260712_wangyuyan-c-domain-scan-fix-assets` | C鍩熸煡婕忎慨澶嶇浜屾壒锛堣祫浜у眰锛夛細8鐙珛妗堜緥鍗★紙姹夊牎搴?缇庡洟灏忕孩鐐?鑺墖寮€鍙戞澘/鍑忔硶涓変緥/鍏紬鍙峰崟鏈堜环鍊?鍐滄満鎾悎/鍦ㄧ嚎鏁欒偛/濂宠搴椾笁鐗堬級+5鏂癲k/tool鍗★紙鍒嗗瀷閫掑綊/璺崇骇璧锋墜/杈归檯ROI/浜旀潯鏇夸唬璺緞/涓嶅彲缁熻蹇呭啓锛?鏃㈡湁鍗¤ˉ鑺傜害15椤?鍚堥泦閫熷啓琛ュ叏 | reviewed | 鑰侀〗绔?| 13鍗?琛ヨ妭鍏ㄨ惤鍦?棰勬PASS | #175 reviewed+D鍩?169鍚庨『棰嗭紙C鍩熶慨澶嶄紭鍏圖鍩烶1锛?|
-
 | 177 | `task_20260713_wangyuyan-coach-dialogue-engine-protocol` | 鏁欑粌瀵硅瘽寮曟搸鍗忚鍗★紙鍏变韩浠?2鏉?鎺у埗鏈哄埗涓夐€変竴+韬唤杞碩CPR[鐞嗚搴曞骇=涓€鍫俆CPR鐨囧啝妯″瀷鍘熺敓锛孻AI鍥涘垎绫?鍏朵骇鍝佸寲]+闄勫姞浜у嚭TCPR妯″瀷姝ｅ紡鍗★級+YAI瀹炲綍妗堜緥鍗∶? | reviewed | 榛勮嵂甯?| 3鍗★紙鍗忚鍗?TCPR鍗?鍙屽疄褰曪級 | 鏃狅紙#168A/#175鍚庨『棰嗭級锛涢』鏃╀簬鑰侀〗绔?172/#179/#180 |
-
 | 178 | `task_20260713_wangyuyan-decision-coach-engine-upgrade` | B鍩?153绉戝鍐崇瓥鏁欑粌spec鍗囩骇锛氬伐鍏锋竻鍗曗啋瀵硅瘽寮曟搸锛堝紩鐢ㄥ紩鎿庡崱+鐩插尯搴撹仛鍚?涓塸attern娉ㄥ叆+鍩熼棿杞粙锛夛紝鎸夐粍鑽笀寤鸿涔﹁惤鍦?| reviewed | 榛勮嵂甯?| spec鍙窇瀹孧0-M8+棰勬PASS | #177 reviewed |
-
 | 179 | `task_20260713_wangyuyan-c-domain-coach-engine-align` | C鍩熶笟鍔″叕寮忔暀缁冧簩娆¤凯浠ｏ紙淇锛氬榻愬紩鎿庢満鍒朵簩路S0-S8闃舵鍒惰€岄潪M0-M8锛氭瘡杞笁鏍囨敞R?/S?/鏈疆鍙В鍐?鍏紡鏍戠増鏈凯浠0.x+涓嶄笅缁撹鏄庣ず锛?C鍩熷洓浠跺+#166鍏拤鍥炲綊涓嶇牬鍧?| reviewed | 鑰侀〗绔?| 寮曟搸寮曠敤+鍥涗欢濂?鍏拤鍥炲綊 | #177+#176 reviewed鍚庨『棰嗭紙杞婚噺锛?|
-
 | 180 | `task_20260713_wangyuyan-five-step-coach-agent` | A鍩熶簲姝ユ硶鏁欑粌agent-spec鏂板缓锛坥rchestrator锛氫簲姝ユ浣嶈瘖鏂?鍋囪杞扮偢+浜旀娉曠洸鍖哄簱鍥炴寚鍩熷崱+Y妯″瀷姣嶆ā鍨嬫寕杞?鐢熸涓嶇鏁堢巼杈圭晫/鍥涘煙杞粙锛?| reviewed | 鑰侀〗绔?| 鍥涘煙鏁欑粌榻愬+杞粙涓や袱瀵归綈 | #177 reviewed+#179鍚庨『棰嗭紙闃熷垪灏鹃儴锛?|
-
 | 181 | `task_20260713_wangyuyan-opc-sales-assistant-engine-adapt` | OPC閿€鍞璇濆姪鎵嬪紩鎿庨€傞厤锛堝弬璋嬪瀷瑁佸壀鐗堬級锛氫笁浠跺娉ㄥ叆=12闃诲姏鐩插尯杩囩瓫+纭害鏉熸樉寮忓鍛?娣卞害鍒嗙骇锛涘姞鎸侱鍩熷崱锛涗笉鎼琈0-M8涓嶆敼鍥涙缁撴瀯 | reviewed | 榛勮嵂甯?| 閫傞厤spec+瀹炴祴鏍蜂緥+棰勬PASS | #177+#169 reviewed鍚庨『棰嗭紱鐜嬭瀚ｈ瀹氾細鍙傝皨鍨嬩笉鍏ㄦ惉鏁欑粌鍨嬮噷绋嬬 |
-
 | 182 | `task_20260713_wangyuyan-opc-sales-d-domain-linking` | OPC閿€鍞煙脳D鍩熷洖閾撅紙33鍗¤ˉ鏂规硶璁哄簳搴у紩鐢細寮€鍦虹櫧鈫掑崄鎸囨ā鍨?寮傝鈫掗樆鍔涙柟娉曡/閿€鍐犳浣嶁啋涓夋洸绾垮垎鏁扮嚎锛涙槧灏勮〃鍏堣鐜嬭瀚ｈ繃鐩悗鎵归噺锛?| reviewed | 鑰侀〗绔?| 33鍗″洖閾?lint鏃犳柊澧?| #169-171+#174 reviewed+#177锛堟槧灏勮〃鍙厛鍔級 |
-
 | 189 | `task_20260719_wangyuyan-profit-pricing-domain` | 鍒╂鼎涓虹帇鍩熷崱鐗囧寲锛氬埄娑︿紭鍏堢粡钀ユ鏋朵笌瀹氫环鏂规硶璁?| reviewed | - | 8寮爓iki鍗?鍙€塧gent-spec | 鏃狅紱鏂板煙寮€鑽掞紝鏉ユ簮璧皵鏇悸疯タ钂欍€婄湡姝ｇ殑鍒╂鼎銆?姘存按鎷嗕功/缁忚惀璇?|
-
 | 190 | `task_20260719_laowantong-zhu-ai-capability-roadmap` | 老朱 AI 能力建设刻意练习路线图（tool + agent-spec） | reviewed | 老顽童(kimi) | 2 张卡 | 无 | `70_product/tasks/task_20260719_laowantong-zhu-ai-capability-roadmap.md` | 基于 personal-os 已确认的「鑫港湾打工+借假修真+学习AI」策略，输出可执行路线图与个人 AI 教练智能体规格 |
-
 | 192 | `task_20260719_laowantong-fix-touchpoint-case-library-191` | 触点篇案例库返工：跨案例规律溯源/补 related 回链/新增规律节 | reviewed | 老顽童 | 1 张 case 卡修复 | #191 欧阳锋终审 B+ 有条件通过 | `task_20260719_laowantong-fix-touchpoint-case-library-191.md` | 修复后直接 pass，不需再审 |
-
 | 193 | `task_20260719_wangyuyan-target-goal-zhouzijing` | 目标管理域补充——周子敬《目标管理的底层逻辑与实践》卡片化 | reviewed | - | 7张新卡+5项已有卡补充 | 无 | `60_feedback/tasks/task_20260719_wangyuyan-target-goal-zhouzijing.md` | 非一堂体系，独立方法论补管理域L4管业务；周子敬=以太资本CEO/字节美团天使投资人 |
-
 | 194 | `task_20260719_wangyuyan-advanced-modeling-course2` | 高阶建模第二课（修订版）——流程建模实践：18组件·关系探索·三案例 | reviewed | - | 4新卡+2dk+6已有卡enrich | 无 | `60_feedback/tasks/task_20260719_wangyuyan-advanced-modeling-course2.md` | 高阶建模域实践层补充；取消与framework-kdo-modeling-methodology/concept-kdo-component-library重复项；Truman口述4096行+57张VLM |
-
 | 195 | `task_20260719_wangyuyan-banfeimao-agent-production` | 半肥猫实战——Agent批量生产方法提取 | reviewed | - | 3新卡+2已有卡补充 | 无 | `60_feedback/tasks/task_20260719_wangyuyan-banfeimao-agent-production.md` | Agent建设域；提取Skill封装五步法+承诺核对表+AI记忆分层；不建新域 |
-
-
-
-
-
-
-
-
-
 | 196 | `task_20260720_wangyuyan-case-crafting-methodology` | 案例打磨四步法卡片化：12张卡（8原卡 + 4深挖增量），归入content-production域 | reviewed | hermes | 12张（8原+4增量） | 无；新域补白 | `60_feedback/tasks/task_20260720_wangyuyan-case-crafting-methodology.md` | 李頔口述+笔记；四步法=实事求是+9层深挖+内容生产在案例体裁的专项化；诊断见 `60_feedback/diagnosis/diag_20260720_wangyuyan-case-crafting-methodology.md`；2026-07-20王语嫣深挖追加4增量卡 |
-
 | 197 | `task_20260720_wangyuyan-ai-video-tool-dev` | AI口播工具开发经验卡片化：8张卡（2 P0 + 6 P1，含2张深挖增量dk），归入ai-collaboration域，与#196同源四步法结构 | reviewed | 欧阳锋 | 8张（2 P0 + 6 P1） | 无 | `60_feedback/tasks/task_20260720_wangyuyan-ai-video-tool-dev.md` | ✅欧阳锋终审PASS(2026-07-21三审)：合并修复全部通过——ds 8/8真实、Critique 8/8齐全、related 6-9、ai-collaboration/已清、厚内容(三层账本/Synthesis/Action Triggers)已合并。审核轮次：初审FAIL→二审误判→三审PASS。 |
-
 | 198 | `task_20260721_wangyuyan-infinite-canvas` | 无限画布Prezi方法论卡片化+Skill部署：4张卡（1 P0 + 3 P1）+ 3项Skill部署任务(S1-S3)，归入content-production域。核心方法论=空间即逻辑+双防线质量控制，七维终审与欧阳锋审查方法论完全同构。Feature级原子能力拆解见诊断报告。洪七公已完成VLM预处理 | reviewed | 欧阳锋 | 4张 + 3项Skill部署 | 无 | `60_feedback/tasks/task_20260721_wangyuyan-infinite-canvas.md` | ✅欧阳锋终审PASS(2026-07-21) A-：4张卡source_refs带行号、pre-submit通过、溯源验证一致；concept A-/tool B+/dk B+/case A-/skill B+；前置审计5条异议全部为误报（行号已存在/Skill包三者齐全/Critique有命名攻击者/真嵌套有对照表/ds为标准三元组）。S2-S4由黄药师/段王爷后续承接。 |
-
 | 199 | `task_20260724_wangyuyan-blind-test-three-layer-fix` | 盲人测试失败三修复：Agent溯源+卡片定位+失忆锚点。P0：B6规则写入王语嫣/欧阳锋/老顽童context；tool子卡强制声明框架定位。P1：补建4个Agent失忆锚点文件。最小验证：再问"销售过程分几个环节"应答出"科学销售五步法B步" | reviewed | hermes | 3层修复+4个amnesia文件 | 无 | `60_feedback/tasks/task_20260724_wangyuyan-blind-test-three-layer-fix.md` | 欧阳锋终审A(2026-07-24)：4项交付全部核实——tool卡L53定位声明✅/O8写入ouyangfeng context L420✅/4个amnesia文件✅/盲测复测第一句给出框架定位✅
 | 199 | `task_20260726_wangyuyan-positioning-statement-lint` | 牌L8机械执行层：kdo pre-submit新增定位声明lint规则（WARNING级）。新卡缺定位声明→pre-submit报WARNING→欧阳锋退回→老顽童补上。存量卡不触发不返工 | reviewed | hermes | 1项lint规则(黄药师) + 生产流程(老顽童) | 黄药师先完成lint规则 | `60_feedback/tasks/task_20260726_wangyuyan-positioning-statement-lint.md` | 牌L8已立规；格式：属于framework的Y步 |
 | 200 | `task_20260726_wangyuyan-agent-evolution-lightning` | Agent闪电进化：从后知后觉到先知先觉。7张卡（3 P0 + 4 P1）。闪电模型→Agent进化四阶+三层自洽诊断+四层觉察路线图+自我进化协议。KDO Agent从执行者升级为生产+进化者 | reviewed | 飞书老顽童 | 7张（3 P0 + 4 P1） | 无 | `60_feedback/tasks/task_20260726_wangyuyan-agent-evolution-lightning.md` | 先目标再方案·先框架后细节·先定性再定量；KDO建模方法论在Agent层的应用 |
@@ -465,56 +222,137 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 210 | `task_20260726_wangyuyan-private-board` | 私董会卡片化：3张 | reviewed | laowantong | 3张 | 无 | `60_feedback/tasks/task_20260726_wangyuyan-private-board.md` | 欧阳锋终审B+ |
 | 211 | `task_20260727_wangyuyan-phase2-tag-enrich` | Phase 2高价值卡人工精标：前50张framework/digest/agent-spec卡 | reviewed | laowantong | 前50张 | 无 | `60_feedback/tasks/task_20260727_wangyuyan-phase2-tag-enrich.md` | 欧阳锋终审PASS(第一批8张) |
 | 212 | task_20260727_wangyuyan-rrf-tag-mcp | RRF tag维度匹配+MCP标签暴露 | reviewed | huangyaoshi | 2项infra | 无 | 60_feedback/tasks/task_20260727_wangyuyan-rrf-tag-mcp.md | 欧阳锋终审PASS |
+| 232 | `task_20260804_wangyuyan-how-to-know-a-person-cards` | 人域首批：《如何了解一个人》卡片化（水水老师，10张）——认识他人域 | reviewed | hermes | 10张 | 无 | `60_feedback/tasks/task_20260804_wangyuyan-how-to-know-a-person-cards.md` | 补登记：任务单 status=pending_review 但队列行缺失（E019家族）；人域三件套之一（认识他人）<!-- 2026-08-09 王语嫣补登记 -->
 | 233 | `task_20260806_wangyuyan-deep-review-core` | 个人深度复盘核心框架卡组（6张：复盘本质/四象限/四阶段12策略/九宗罪/bridge/dk） | reviewed | 老顽童(kimi) | P0 | 依赖无 | 素材：口述稿+批注图 | ✅欧阳锋复审PASS(2026-08-06)：6张卡结构补齐+溯源4/4；已标reviewed——队列编码修复后补标 <!-- 手动终审：queue_transition被拦+O-3 --> |  |
 | 234 | `task_20260806_wangyuyan-deep-review-cases` | 个人深度复盘案例卡组（4张：A+社/迷你访谈/品控事故/莹莹before-after） | reviewed | 老顽童(hermes) | P0 | 依赖#233 |  | ✅欧阳锋复审PASS(2026-08-06)：4张补定位声明+教材品控补可迁移场景；深度案例4张入库；已同步卡片frontmatter<!-- 手动终审：queue_transition被拦+O-3 --> |  |  |
 | 235 | `task_20260806_wangyuyan-deep-review-backlinks` | 已有卡补链（4张：冰山图/IPO/16字诀/复盘推演 - 只改related不动正文） | reviewed | 老顽童(kimi) | P1 | 依赖#233 #234 | E010约束 | ✅欧阳锋审查PASS(2026-08-06)：4张已有卡related补链正确(iceberg+7=3fw+4case/个人深度+1/项目复盘+2/推演法+2)+全部无死链+正文未动；复盘域网状连通<!-- 手动终审：queue_transition被拦+O-3 --> |  |
 | 236 | `task_20260806_huangyaoshi-retrospective-moc` | 复盘主题域MOC索引卡（横向能力主题导航修复）：12节点关系图+使用导航 | reviewed | huangyaoshi | 1 张MOC | #235 可并行 | `60_feedback/tasks/task_20260806_huangyaoshi-retrospective-moc.md` | ✅欧阳锋审查PASS(2026-08-06)：MOC本体达标(16/16无死链/导航表/层级网络/建设模板)；原条件项(案例层4张draft)已由#234过审满足——4张全部reviewed，导航目标全可用，无需黄药师再改；MOC状态标注维护建议记为习惯<!-- 手动终审：queue_transition被拦+O-3 --> |  |  |
-
 | 237 | `task_20260806_huangyaoshi-domain-standardization` | 域名标准化迁移：6脏域294张（design- design/yitang- yitang/ai_collaboration/learning-methodology- product/critical_thinking/business_judgment） | reviewed | huangyaoshi | 294 张 | #228已上线 | \`60_feedback/tasks/task_20260806_huangyaoshi-domain-standardization.md\` | ✅欧阳锋审查PASS(2026-08-06)：6脏域domain字段全归零(254迁移)+迁移卡YAML 0失败(264张抽查)+基线0新增；41非标准域名(learning-methodology-等粘连)建议#238前补任务——认可黄药师建议，转王语嫣编排<!-- 手动终审：queue_transition被拦+O-3 --> |  |
 | 238 | `task_20260806_huangyaoshi-design-moc` | design主题域MOC索引卡（横向MOC序列第一个，259张） | reviewed | huangyaoshi | 1 张MOC | #236 reviewed + #237 reviewed | \`60_feedback/tasks/task_20260806_huangyaoshi-design-moc.md\` | ✅欧阳锋复审PASS(2026-08-06)：11张related全部精确匹配全库id，死链0；design MOC入库；横向MOC序列：复盘✅design✅master(104)→product(75)→kdo(51)后续加速<!-- 手动终审：queue_transition被拦+O-3 --> |  |  |  |
-
 | 239 | `task_20260806_huangyaoshi-domain-cleanup-2nd` | 域名清理补充：第二批非标准域（粘连/重复/大小写/测试值，约40个值） | reviewed | huangyaoshi | ~40 个值 | #237 reviewed 后；#238 前置 | \`60_feedback/tasks/task_20260806_huangyaoshi-domain-cleanup-2nd.md\` | ✅欧阳锋复审PASS(2026-08-06)：102张粘连拆分后0残留(61+79覆盖)；拆分正确(yitang-ai-saas→yitang+ai-saas)；1张YAML失败=_archive历史遗留plan_20260531非本次；增量0+索引刷新；#238 MOC前置条件满足<!-- 手动终审：queue_transition被拦+O-3 --> |  |  |
-
 | 240 | `task_20260806_huangyaoshi-domain-cleanup-final` | 域名收尾：23中文域语义查重（重叠合并/独立白名单）+粘连残留1张+src_unknown下划线9张统一 | reviewed | huangyaoshi | ~35 张 | #239 reviewed 后；不阻塞 #238 | \`60_feedback/tasks/task_20260806_huangyaoshi-domain-cleanup-final.md\` | ✅欧阳锋审查PASS(条件)(2026-08-06)：粘连0/src_unknown 0/YAML健康(1归档遗留)；语义合并有效；🟠确认"15个中文域白名单"位置(domain-routes.yaml是10个，如有新增请指路)；域名治理#237/239/240全闭环<!-- 手动终审：queue_transition被拦+O-3 --> |  |
-
 | 241 | `task_20260806_huangyaoshi-master-moc` | master主题域MOC索引卡（横向序列②，104张） | reviewed | huangyaoshi | 1 张MOC | #238 reviewed + #240 后 | \`60_feedback/tasks/task_20260806_huangyaoshi-master-moc.md\` | ✅欧阳锋确认审PASS(2026-08-09)：master-moc.md 127行/type index/related 16+正文引用27全无死链(F4门禁0强制通过)/KDO自身运营知识定位清晰。注：卡早已建成，仅队列状态未流转——补流转闭环<!-- 手动终审：queue_transition被拦+O-3 --> |
-
 | 242 | `task_20260806_huangyaoshi-deadlink-lint-gate` | 死链检测纳入lint门禁：F2全库模式修正+MOC/索引类卡死链0强制（防增量） | reviewed | huangyaoshi | 1 项lint规则 | 无（可与#238修复并行） | \`60_feedback/tasks/task_20260806_huangyaoshi-deadlink-lint-gate.md\` | ✅欧阳锋审查PASS(2026-08-06)：F4 MOC死链门禁落地——MOC_TYPES{index/digest/moc}死链→ERROR阻断；普通卡维持WARNING；5张MOC零死链验证；#238事故防复发门禁就位<!-- 手动终审：queue_transition被拦+O-3 --> |  |
-
 | 243 | `task_20260806_huangyaoshi-product-moc` | product主题域MOC（后补登记，已完成） | reviewed | huangyaoshi | 1 张MOC | 无 | \`60_feedback/tasks/task_20260806_huangyaoshi-product-moc.md\` | 欧阳锋PASS：related 15/死链0/定位/ds2；横向序列5/5闭环 |
 | 244 | `task_20260806_huangyaoshi-kdo-moc` | kdo主题域MOC（后补登记，已完成） | reviewed | huangyaoshi | 1 张MOC | 无 | \`60_feedback/tasks/task_20260806_huangyaoshi-kdo-moc.md\` | 欧阳锋PASS：related 14/死链0/定位/ds2；横向序列5/5闭环 |
-
 | 245 | `task_20260807_wangyuyan-team-review-guide-tool` | 团队复盘引导清单 tool 卡（复盘 workflow 补缺，千惠实战验证过） | reviewed | laowantong | 1 张 tool | 无 | \`60_feedback/tasks/task_20260807_wangyuyan-team-review-guide-tool.md\` | 复盘域16节点缺workflow类；素材=桌面千惠清单（实战版） |【编排提审：规格待欧阳锋生产前审】；欧阳锋终审PASS(条件) 2026-08-07：结构八段齐全；source_refs已搬运修复
 | 246 | `task_20260807_wangyuyan-review-coach-agent` | 复盘教练 agent-spec（复盘域 agent 补缺，TCPR Coach 身份） | reviewed | laowantong | 1 张 agent-spec | #245 生产后 | \`60_feedback/tasks/task_20260807_wangyuyan-review-coach-agent.md\` | #233 暂缓条件已解除（核心卡全入库）；千惠案例实测验收 |【编排提审：规格待欧阳锋生产前审】；欧阳锋终审PASS(条件) 2026-08-07：TCPR/门/边界齐全；source_refs已搬运修复
 | 247 | `task_20260807_wangyuyan-qianhui-supply-chain-case` | 千惠供应链复盘案例卡（S级：真实数据+15踩坑+70/30拆解） | reviewed | laowantong | 1 张 case | 无 | \`60_feedback/tasks/task_20260807_wangyuyan-qianhui-supply-chain-case.md\` | 复盘域第一个自己实战案例；供应商管理办法不入库（待验证草案） |【编排提审：规格待欧阳锋生产前审】；欧阳锋终审PASS 2026-08-07：情报→知识转化正面样板；70/30拆解+15踩坑溯源命中
-
 | 248 | `task_20260808_laowantong-feature-thinking-w0` | Feature思维W0前置：OCR收尾（洪七公34/34图）+周期表V0.8结构化（100 Feature JSON最小字段集） | reviewed | laowantong | JSON+OCR | 无（阻塞W1-4） | \`60_feedback/tasks/task_20260808_laowantong-feature-thinking-w0.md\` | ✅欧阳锋终审PASS B+(2026-08-08)+条件项收尾(2026-08-08#255)：C1 100/100✅(F098里程碑/F100反向确认行号命中)+C2缺位标注✅+C3对账5候选闭环✅+C4 16/17(F044留尾巴:口述无独立讲解行,待选截图源或verified改False)+顺手3/4(agent-spec L107漏改)。不阻塞#256/#252<!-- 手动终审：queue_transition被拦+O-3 --> |
 | 249 | `task_20260808_laowantong-feature-thinking-w1` | Feature思维W1框架层：4张新卡+已有5张卡处置（升级tool-Truman-Feature/concept-yihang-ai-feature-thinking，补链dk-demand-feature-stacking） | reviewed | laowantong | 4张+5处置 | #248 reviewed | \`60_feedback/tasks/task_20260808_laowantong-feature-thinking-w1.md\` | ✅欧阳锋复审PASS A-(2026-08-08 R2)：6项修复全独立核验——yihang related+3✅/死链改concept-刻意练习四要素×3✅/L81行号L330-334+诚实标注✅/concept×2补Constraints+Critique(内容真实)✅/L110演绎标注✅/core第二攻击者(教程模板派)✅。依赖链#248→#249→#250全通，#251补链依赖满足<!-- 手动终审：queue_transition被拦+O-3 --> |
 | 250 | `task_20260808_laowantong-feature-thinking-w2` | Feature思维W2案例+dk：case×3（作图/日报/温度参数，数字可溯源）+dk×2 | reviewed | laowantong | 5张 | #249 reviewed | \`60_feedback/tasks/task_20260808_laowantong-feature-thinking-w2.md\` | ✅欧阳锋终审PASS B+(2026-08-08 R2)：5项修复4.5完成——L54残留旧行号(🟡不阻塞)，其余全部修复。详见任务单补审记录<!-- 手动终审：queue_transition被拦+O-3 --> |
 | 251 | `task_20260808_wangyuyan-feature-thinking-w3w4` | Feature思维W3补链+W4 Agent：双轨Feature bridge（cap_hub协调）+回链+对账merge+agent-basic-skills-coach | reviewed | laowantong | 3项+1agent | #249+#250 reviewed | \`60_feedback/tasks/task_20260808_wangyuyan-feature-thinking-w3w4.md\` | ✅欧阳锋先行审PASS(条件)(2026-08-08)→老顽童修复完成(2026-08-08)：bridge A-/agent-spec A-；条件全满足（#249 reviewed✅/"96"→100✅/aliases+定位声明✅）；pre-submit 2/2 PASS<!-- 手动终审：queue_transition被拦+O-3 --> |
 | 252 | \`task_20260808_wangyuyan-feature-consumption-pilot\` | 消费端协议试点（防死清单机制）：真实任务点菜5-10Feature→测试→复盘→回填周期表JSON→协议v0.1 | reviewed | wangyuyan | 协议v0.1+回填 | #248 reviewed | \`60_feedback/tasks/task_20260808_wangyuyan-feature-consumption-pilot.md\` | ✅欧阳锋终审PASS(条件)B+(2026-08-09)：五步闭环真实执行(F080/F022/F085/F039/F081)+回填25/100+verify_note诚实(F039边界无效注明)+协议v0.1三步三原则。条件：①verified语义漂移需声明(无效也标true)②消费端不读verify_note(F039会被当有效点菜)③E018违规第4次实证(agent自建卡自标reviewed)——E018必升级全角色铁律<!-- 手动终审：queue_transition被拦+O-3 --> |
-
 | 253 | `task_20260808_huangyaoshi-ai-basic-domain-onboarding` | AI基本功域onboarding注册：index登记/目录/digest预留/双三角回链+顺手清#240两尾巴+#242状态 | reviewed | huangyaoshi | 域注册+清理 | 无（与#248并行） | \`60_feedback/tasks/task_20260808_huangyaoshi-ai-basic-domain-onboarding.md\` | ✅欧阳锋复审PASS B(2026-08-08)：4项修复全核验——index L1439登记/白名单routing-rules L111/domain字段src_unknown下划线0残留/#242任务单reviewed一致。🟢观察：digest登记行source列显示src_unknown(疑似index生成逻辑,P2)。#254依赖全满足可启动<!-- 手动终审：queue_transition被拦+O-3 --> |
 | 254 | `task_20260808_huangyaoshi-feature-menu-tool` | 周期表点菜查询工具：kdo feature list/query/pick/info，双轨防混编（cap_hub lint vs capability） | reviewed | huangyaoshi | 1个CLI命令 | #248 reviewed + #253 | \`60_feedback/tasks/task_20260808_huangyaoshi-feature-menu-tool.md\` | ✅欧阳锋终审PASS A(2026-08-08)：四命令实测全通+双轨隔离+cap_hub登记。T1 9测试过✅ T2 --seed复现✅ T3 README L115-126登记✅——三条件全齐升级A<!-- 手动终审：queue_transition被拦+O-3 --> |
-
 | 255 | `task_20260808_laowantong-feature-periodic-table-finalize` | 周期表收尾（欧阳锋#248条件项C1-C4）：补4个遮蔽Feature+missing标注+口述对账5候选+C4行号 | reviewed | laowantong | JSON收尾 | 与#249并行 | \`60_feedback/tasks/task_20260808_laowantong-feature-periodic-table-finalize.md\` | ✅欧阳锋终审PASS(条件)A-(2026-08-09 R2)：C1行号补齐✅/C3对账编号修正✅/队列26行反斜杠修复✅/顺手✅。条件：①C4"无行号=0"不实——F045/F057/F087被改KDO实践引用替代口述行号(F045有口述证据L472-474未用)，三选一处理②missing字段语义矛盾(F097-F100已存在却标missing)<!-- 手动终审：queue_transition被拦+O-3 --> |
-
 | 256 | `task_20260808_huangyaoshi-basic-skills-coach-deploy` | agent-basic-skills-coach部署（层次2/3，黄药师独立）：agents/目录+cap_hub注册+kdo feature接入+冒烟测试 | reviewed | huangyaoshi | 部署+冒烟 | #251规格层 reviewed | \`60_feedback/tasks/task_20260808_huangyaoshi-basic-skills-coach-deploy.md\` | ✅欧阳锋终审PASS A(2026-08-09升级)：条件全清——①cap_hub注册经#258裁定(试点期不注册,试点后统一)②96残留×3经#258清零。部署/数据源100/测试8/8不变<!-- 手动终审：queue_transition被拦+O-3 --> |
-
 | 257 | \`task_20260808_laowantong-96-to-100-cards-cleanup\` | 卡文件96→100清扫：framework-layered L58 + dk-key-hypothesis L46（统一改"周期表JSON"不带数字） | reviewed | laowantong | 2处修改 | 无 | \`60_feedback/tasks/task_20260808_laowantong-96-to-100-cards-cleanup.md\` | ✅老顽童完成(2026-08-08)：L58/L46 96→100，grep 无残留；pre-submit 2/2 PASS<!-- 手动终审：queue_transition被拦+O-3 --> |
 | 258 | `task_20260808_huangyaoshi-96-to-100-tools-cleanup` | 工具/agent侧96→100清扫（agent×2+FEATURE_MENU+README）+cap_hub agent注册裁定（试点期先不注册，试点后统一） | reviewed | huangyaoshi | 4处+裁定 | 无（与#257并行） | \`60_feedback/tasks/task_20260808_huangyaoshi-96-to-100-tools-cleanup.md\` | ✅欧阳锋终审PASS A(2026-08-09)：4处96清零实测0/冒烟8/8/本批6处全清。裁定落盘：cap_hub试点期不注册、试点通过后统一注册。关联：#256条件全清→#256升A<!-- 手动终审：queue_transition被拦+O-3 --> |
-
 | 259 | `task_20260808_laowantong-feature-patches` | Feature卡5项增量patch（飞书王语嫣审计4项+预测属性1项）：融入5张已过审卡，patch后欧阳锋复审 | reviewed | laowantong | 5处追加段 | 无 | \`60_feedback/tasks/task_20260808_laowantong-feature-patches.md\` | ✅欧阳锋复审PASS(条件)A-(2026-08-08)：5追加段引用逐字命中(P1 L324-364/P2 L1664-1676/P3 L1650/P5 L1812-1814)。修正项🟡：①P5"8格留白"无源数字(口述仅空位类比)②P4"调低温度"未标推测③P1插入位置。不阻塞<!-- 手动终审：queue_transition被拦+O-3 --> |
-
 | 260 | `task_20260808_huangyaoshi-agent-knowledge-access` | KDO Agent知识接入规范（agent用知识库基建缺口）：系统提示知识地图段+检索工具接入+coach试点 | reviewed | huangyaoshi | 规范+coach接入 | 无 | \`60_feedback/tasks/task_20260808_huangyaoshi-agent-knowledge-access.md\` | ✅欧阳锋终审PASS A(2026-08-09)：system-prompt KDO接入段完整(5 MOC+检索规则3条"先查MOC不凭记忆/不编造")+CLAUDE.md点菜命令修正(python全路径)+coach实测命中MOC<!-- 手动终审：queue_transition被拦+O-3 --> |
-
 | 261 | `task_20260808_huangyaoshi-agent-global-awareness` | KDO全局认知标准化（所有角色agent）：context同步MOC清单+段王爷部署确认+飞书端MCP桥推广 | reviewed | huangyaoshi | 认知/路径/检索三件套 | #260（复用coach桥） | \`60_feedback/tasks/task_20260808_huangyaoshi-agent-global-awareness.md\` | ✅欧阳锋复审PASS(条件)B+(2026-08-09 R2)：domain-mapping.md落盘✅(两视图映射+三处登记规则+ai-basic入列+白名单引用routing-rules不重复)。条件：①飞书端抽查7 Agent指向(本地不可验证)②🟢教练system-prompt建议补domain-mapping引用(现仍指MOC导航——需确认设计意图:导航vs域清单双轨)③🟢卡片数标统计日期<!-- 手动终审：queue_transition被拦+O-3 --> |
-
 | 262 | `task_20260808_huangyaoshi-permission-standardization` | 命令权限标准化（agent被拦治理）：settings.json补cd/node等+template对齐+飞书Hermes执行层确认+被拦清单 | reviewed | huangyaoshi | 权限三处+清单 | 与#261配套 | \`60_feedback/tasks/task_20260808_huangyaoshi-permission-standardization.md\` | ✅欧阳锋终审PASS(条件)B+(2026-08-09)：教练manual→smart实测代码执行auto-approved(被拦根因=manual 60s超时)+5角色config.yaml确认smart。条件：config.yaml飞书端本地不可验证——飞书端抽查后关闭<!-- 手动终审：queue_transition被拦+O-3 --> |
-
 | 263 | \`task_20260809_laowantong-agent-production-pipeline\` | Agent生产流水线workflow卡（模式固化）：spec→三件套注入→Agent自举三步+生产纪律E018+复盘格式约束 | reviewed | laowantong | 1张workflow | 无 | \`60_feedback/tasks/task_20260809_laowantong-agent-production-pipeline.md\` | ✅欧阳锋终审PASS(条件)A-(2026-08-09)：19段/related8/8无死链/source可达/E018纪律+失败模式+Critique达标。⚠️E018自我违规：本卡自标reviewed违反其正文E018第3条(第三次同模式)——欧阳锋补确认，建议E018升级为全角色统一铁律<!-- 手动终审：queue_transition被拦+O-3 --> |
-
 | 264 | \`task_20260809_huangyaoshi-e018-and-protocol-fixes\` | E018铁律升级（全角色context+prompt）+协议v0.1三修正（verified语义/verify_note/schema）+cap_hub注册 | reviewed | huangyaoshi | 3项 | #252 reviewed | \`60_feedback/tasks/task_20260809_huangyaoshi-e018-and-protocol-fixes.md\` | ✅欧阳锋终审PASS A-(2026-08-09)：E018注入6 SOUL(四提四证闭环)✅+feature_menu fmt() verify_note实测(list F039显示"边界无效")✅+cap_hub登记basic-skills-coach(active 08-09)✅。🟢info命令未显示note(仅list/query/pick走fmt)——v0.2补<!-- 手动终审：queue_transition被拦+O-3 --> |
 | 265 | \`task_20260809_wangyuyan-external-agent-feedback-loop\` | 外部Agent反馈→生产深化闭环机制（四回路：知识/数据/流程/模式）+教练反馈dogfooding | reviewed | wangyuyan | 机制文档 | #264（流程回路依赖） | \`60_feedback/tasks/task_20260809_wangyuyan-external-agent-feedback-loop.md\` | ✅欧阳锋终审PASS(条件)A-(2026-08-09)：四回路MECE✅/防噪音两级过滤✅/与corrections+agent-os§13+#261衔接无冲突✅/dogfooding四回路全走通✅/E018首个合规实证(王语嫣自建draft未自标)。条件：①dk-agent-access-kdo-pitfalls送审入队②通道4每周扫描频率落盘<!-- 手动终审：queue_transition被拦+O-3 --> |
-
 | 266 | \`task_20260809_huangyaoshi-moc-index-register\` | 4张MOC卡补登记index.md（检索可达性：design/product/master/retrospective）+新域登记规则含index裁定 | reviewed | huangyaoshi | 登记+裁定 | 无 | \`60_feedback/tasks/task_20260809_huangyaoshi-moc-index-register.md\` | ✅欧阳锋终审PASS A(2026-08-09)：5 MOC(retrospective/design/master/product/kdo)全在index.md✅+登记规则升级四处(路由/卡/映射/检索侧index——#219教训固化)✅+域结构100%健康(19张域卡无未登记)✅<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 267 | `task_20260809_huangyaoshi-skill-bridge-sync` | 双轨Skill同步机制（B1）：桥接脚本/同步工具+17个缺失skill补齐（含agent-self-iteration） | reviewed | huangyaoshi | 同步脚本+补齐 | 无 | `60_feedback/tasks/task_20260809_huangyaoshi-skill-bridge-sync.md` | ✅欧阳锋终审PASS A(2026-08-09)：status 70=70缺失0漂移0+幂等待同步0+body逐字节3/3一致+references一致+17补齐抽查6/6+登记齐。内容hash漂移检测根治版本漂移<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 268 | `task_20260809_wangyuyan-hermes-spec-orchestration` | 王语嫣Hermes spec编排（B2）：#263流水线第一使用场景——spec→三件套→自举 | reviewed | wangyuyan | spec+部署+自举 | 无 | `60_feedback/tasks/task_20260809_wangyuyan-hermes-spec-orchestration.md` | ✅欧阳锋终审PASS(条件)A-(2026-08-09)：溯源4/4+工具全真+三件套+E018合规。条件C1死链agent-spec-review-coach/C2 workflow表格更新/C3飞书端冒烟+踩坑(同#261条件①)<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 269 | `task_20260809_huangyaoshi-dashboard-first-submit-rate` | dashboard首交通过率指标（B3）：first-submission pass rate区块+近3月趋势 | reviewed | huangyaoshi | 展示层 | 无 | `60_feedback/tasks/task_20260809_huangyaoshi-dashboard-first-submit-rate.md` | ✅黄药师| ✅欧阳锋终审PASS A-(2026-08-09)：重跑生成263任务统计不变+首交率区块降级正确+逻辑读码全对(不计分母/阈值分级/归因)。🟢GBK print崩溃TODO并入停车场<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 270 | `task_20260809_huangyaoshi-skill-progressive-disclosure-audit` | Skill渐进披露合规审计（B4）：52+69 skill结构对标Anthropic官方规范 | closed_merged | huangyaoshi | 审计报告+改造清单 | 无 | `60_feedback/tasks/task_20260809_huangyaoshi-skill-progressive-disclosure-audit.md` | 标杆=task-orchestration（新建已合规）；只审计不改造 |
+| 271 | `task_20260809_huangyaoshi-lint-review-infra` | kdo lint审查基建扩充（欧阳锋建议书R1）：E012缺同步校验/E009重复节名/source_refs仓库内存在性/行号超界四类规则+基线报告 | reviewed | huangyaoshi | 4规则+测试+基线 | 无（黄药师当前空闲，立即） | `60_feedback/tasks/task_20260809_huangyaoshi-lint-review-infra.md` | ✅欧阳锋终审PASS A(2026-08-09)：数字独立复现461/37/10/0逐字一致+测试11 passed+命中抽查非误报+登记全齐+清扫清单。E012机器化防线上线：reviewed无终审记录=lint ERROR<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 272 | `task_20260809_huangyaoshi-auth-freshness-sla` | 认证层+新鲜度SLA（欧阳锋建议书R2）：reverify_by字段（P0框架卡6个月复审）+周期表verified过期降级stale+kdo feature stale命令 | reviewed | huangyaoshi | schema+命令+迁移25张 | #271-c/d前置（可先做schema协商） | `60_feedback/tasks/task_20260809_huangyaoshi-auth-freshness-sla.md` | ✅欧阳锋终审PASS A(2026-08-09)：schema 8文件+stale实跑无超期+JSON对账F001/F039/F078逐字一致+info verify_note闭环(#264遗留)+测试13+47 passed+登记齐。新鲜度SLA代码落地<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 273 | `task_20260809_huangyaoshi-skill-lifecycle` | Skill生命周期化（黄药师建议书#267s）：cap_hub加status/version/owner+dependencies+kdo skill eval（能力+回归+baseline）+publish/deprecate | reviewed | huangyaoshi | schema+2命令+文档 | #271（eval确定性检查器）+ #267（双轨统一） | `60_feedback/tasks/task_20260809_huangyaoshi-skill-lifecycle.md` | ✅欧阳锋终审PASS(条件)B+(2026-08-09)：list实跑39 skill分布逐字一致+set落地image-ocr真实+eval-log生成+cap_hub/README登记。条件C1 baseline/回归0(依赖#271) C2双轨一致(依赖#267) |
+| 274 | `task_20260809_huangyaoshi-reflection-diversity` | 反思多样性（黄药师建议书#268s，王语嫣协同）：复盘模板差异栏+成功模式库（与错误库对称）+错误复发计数升级行为牌 | reviewed | huangyaoshi | 模板+成功模式库+计数 | 无（可并行） | `60_feedback/tasks/task_20260809_huangyaoshi-reflection-diversity.md` | ✅欧阳锋终审PASS(条件)B+(2026-08-09)：差异栏/成功模式库3条/复发计数/模板同步/dogfood全实测命中。条件C1连续5次差异栏 C2清理引号污染垃圾文件×2+用户反馈档案补同步 |
+| 275 | `task_20260809_huangyaoshi-decision-classification` | 决策分类+claim-state（黄药师建议书#270s）：decisions.md加D1-D4分类+D4自我修改必须人批（E018机制化） | reviewed | huangyaoshi | 模板+门禁+AGENTS.md | 无（可并行） | `60_feedback/tasks/task_20260809_huangyaoshi-decision-classification.md` | ✅黄药师交付(2026-08-09)：decisions.md模板(D1-D4+claim-state)+AGENTS.md第15条D4门禁+decision_add.py命令+黄药师/老顽童context注入；狗粮全过(D4拦截/写入回读/清理0残留)；其他角色context待王语嫣统一注入；提审待欧阳锋终审<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |
+| 276 | `task_20260809_huangyaoshi-friction-log` | 摩擦触发式retrospective（黄药师建议书#271s，王语嫣协同）：.agent/friction-log.md遇摩擦当下记录+周报合成#265通道4 | reviewed | huangyaoshi | 文件+规则+周报流程 | 无（0.25天小体量） | `60_feedback/tasks/task_20260809_huangyaoshi-friction-log.md` | ✅王语嫣侧(文件+规则+周报)+黄药师侧(黄药师/老顽童context会话结束清单注入+dogfood补记3条)完成；friction-log 6条真实记录(≥3达标)；其他角色context待王语嫣统一；提审待欧阳锋终审<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |
+| 277 | `task_20260809_huangyaoshi-model-routing-research` | 模型路由成本杠杆调研（黄药师建议书#272s）：任务分级→模型匹配，只出建议稿不改配置 | reviewed | huangyaoshi | 调研报告+方案文档 | 无 | `60_feedback/tasks/task_20260809_huangyaoshi-model-routing-research.md` | ✅黄药师交付(2026-08-09)：role-model-routing.md（现状盘点+任务分级T1/T2/T3+成本测算全Flash$600/混合$750/全Pro$1900+三阶段落地+风险护栏）；核心洞察=老顽童Flash做深挖倒挂；不做网关(YAGNI)；提审待欧阳锋终审<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |
+| 278 | `task_20260809_huangyaoshi-skill-cleanup` | Skill盘点+渐进披露审计+大扫除（黄药师建议书#273s+王语嫣#270合并）：52+skill盘点→deprecated+结构合规审计报告 | reviewed | huangyaoshi | 盘点清单+审计报告 | #273（deprecated机制） | `60_feedback/tasks/task_20260809_huangyaoshi-skill-cleanup.md` | ✅欧阳锋终审B+(条件)：C1数字修正(16→3→0)+C2已执行(P0 3个frontmatter修复,unknown实测归零,round-trip通过)+C3触发词补全待老顽童/洪七公；审计4维度+分级清单 ✅ <!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |
+| 279 | `task_20260809_huangyaoshi-skill-crystallize` | 经验→技能自动结晶（黄药师建议书#269s）：kdo skill crystallize扫描复盘/错误库→draft skill候选→人审publish | reviewed | huangyaoshi | 1命令+候选 | #273（draft status机制） | `60_feedback/tasks/task_20260809_huangyaoshi-skill-crystallize.md` | ✅欧阳锋终审PASS A(2026-08-09)：8候选8/8 draft+lifecycle集成(draft 4→12)+证据追溯真实+不自动publish纪律。jarvis模式落地，人审发布路径待走<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 280 | `task_20260809_laowantong-coaching-leadership-p0` | 教练式领导力P0卡组（10张）：framework×3（核心/五阶梯/硬币模型）+tool×6（倾听/提问/反馈/三类下属/共识跨越）+case×1（一堂实践） | reviewed | hermes | 10张 | 无 | `60_feedback/tasks/task_20260809_laowantong-coaching-leadership-p0.md` | 两课口述| ✅欧阳锋终审PASS A(2026-08-09)：13处行号原文全命中+定位声明10/10+回链5域+Crtique每卡3攻击者+pre-submit全批PASS。教练式领导力卡组10卡全A批<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 281 | `task_20260809_laowantong-coaching-leadership-p1` | 教练式领导力P1增量（4张）：bridge×1（×Feature分层L5）+tool×1（出口式咨询）+dk×2（硬币敏感性/反馈冰山） | reviewed | hermes | 4张 | #280 reviewed | `60_feedback/tasks/task_20260809_laowantong-coaching-leadership-p1.md` | 用户确认跨课桥接；桥接卡含五阶梯↔Feature同构映射表 | <!--| ✅欧阳锋终审PASS A(2026-08-09)：3卡锚点全命中(L2650/L2250)+合并判断真实(避免无源推断)+bridge映射完整+pre-submit全过<!-- 手动终审：queue_transition被拦+O-3 --> |
+| 282 | `task_20260809_wangyuyan-coaching-leadership-agent` | 教练式领导力Agent（#263流水线第二次实战）：spec编排→三件套→自举→cap_hub注册→飞书链接可用（用户明确要求） | reviewed | wangyuyan | spec+部署+自举 | #280+281+288 reviewed（素材精做传导：完整卡组） | `60_feedback/tasks/task_20260809_wangyuyan-coaching-leadership-agent.md` | 参照AI基本功教练全链路；教练边界：领导力/带团队 vs Feature点菜 |
+| 283 | `task_20260809_huangyaoshi-human-domain-onboarding` | 人域整体规划（human-insights三件套）：认识他人(#232)+影响他人(#280/281)+自我认知(拆书#213/复盘域)互链+导航登记 | reviewed | huangyaoshi | 域登记+补链 | #232终审 + #280 reviewed | `60_feedback/tasks/task_20260809_huangyaoshi-human-domain-onboarding.md` | ✅黄药师交付(2026-08-09)：人域digest卡(认知弧线+22链接无死链)+四处登记(domain-mapping/index/digest/路由裁定)+三块核心卡回链(round-trip过)；教练MOC待#288后评估；提审待欧阳锋终审<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |
+| 284 | `task_20260809_wangyuyan-queue-health-sweep` | 队列健康专项清理（E021系统性修复）：全量对账脚本化+27缺失文件核查+80状态不一致分类处置+文件名不一致修复+健康报告 | reviewed | wangyuyan | 脚本+清理+报告 | 无（立即） | `60_feedback/tasks/task_20260809_wangyuyan-queue-health-sweep.md` | 对账审计触发：27队列行文件缺失+80任务单状态不一致（含#265/#264/#252 E019复发已现场修复5个） |
+| 285 | `task_20260809_laowantong-scientific-meeting-p0` | 科学开会P0认知+武器库+案例（9项）：concept升级（补source_refs）+framework×2（冰山画布/十大原则）+case×1（ROI觉醒）+tool×3（基础/执行/结果原则话术级小抄） | reviewed | kimi | 9项 | 无 | `60_feedback/tasks/task_20260809_laowantong-scientific-meeting-p0.md` | 3篇口述稿6990行逐字深挖；已有卡对照防重复（启动会/例会/复盘/会议设计均已有，只补链）；三方法完整 | <!-- kimi老顽童实例：科学开会域（2026-08-09 用户启动，§13生产型多实例） -->|
+| 286 | `task_20260809_laowantong-scientific-meeting-p1` | 科学开会P0深化（bridge×1+dk×6+已有卡补链，暗知识升级P0）：×教练式领导力桥接+ROI先行/原则>流程/重新推导/借假修真/会议资产/压力激发 | reviewed | kimi | 7项+补链 | #285 reviewed | `60_feedback/tasks/task_20260809_laowantong-scientific-meeting-p1.md` | 十大原则↔五阶梯映射（点燃↔L5/民主↔L3/学习↔L4/良性↔L1/责任↔L2）；dk可裁剪6→4 | <!-- kimi老顽童实例：科学开会域（2026-08-09 用户启动，§13生产型多实例） -->|
+| 287 | `task_20260809_wangyuyan-scientific-meeting-agent` | 科学开会助理Agent（#263流水线第三次实战）：spec→三件套→cap_hub注册→飞书链接可用。输入会议问题→输出ROI评估+冰山画布+原则匹配+可照抄话术 | reviewed | wangyuyan | spec+部署+自举 | #285+286 reviewed（素材精做传导：完整卡组） | `60_feedback/tasks/task_20260809_wangyuyan-scientific-meeting-agent.md` | 与例会主持人agent-spec（设计层上游）/教练agent（一群人vs一个人）边界声明；用户明确要求飞书可用 |
+| 288 | `task_20260809_laowantong-coaching-leadership-deep-dive-increment` | 教练式领导力逐字深挖增量（7项，另开不改#280/281）：case×2（莫非半导体/三版本对话）+tool×2（四层级21卡牌矩阵/段位清单9格）+dk×3（边界三情况/猴子理论/Y模型沟通版） | reviewed | hermes | 7项 | 无（#3/#4建议#280后） | `60_feedback/tasks/task_20260809_laowantong-coaching-leadership-deep-dive-increment.md` | 6998行逐字深挖增量；莫非半导体证据已足（原#280边界排除项）；四层级矩阵与#280武器库双维互补 | <!--| ✅欧阳锋终审PASS A(2026-08-09)：莫非故事证据补足(L152-408)+段位双锚标注+四层级双维互补+定位7/7+pre-submit全过。#282 C1 依赖全就位<!-- 手动终审：queue_transition被拦+O-3 --> |
+
+
+| 289 | `task_20260703_huangyaoshi-fix-queue-transition-review-lookup-report` | "#60 完成报告：修复 queue_transition.py review 查找逻辑"（#284补登记）pending_review/黄药师 | reviewed | 黄药师 | 补登记 | 无 | `60_feedback/tasks/task_20260703_huangyaoshi-fix-queue-transition-review-lookup-report.md` | 任务单已存在但队列无行（E019 家族变体）——#284 补入队
+| 290 | `task_20260711_wangyuyan-fundamentals-to-dual-triangle-migration` | task_20260711_wangyuyan-fundamentals-to-dual-（#284补登记）queued/? | closed_superseded | ? | 补登记 | 无 | `60_feedback/tasks/task_20260711_wangyuyan-fundamentals-to-dual-triangle-migration.md` | 任务单已存在但队列无行（E019 家族变体）——#284 补入队
+| 291 | `task_20260802_huangyaoshi-infra-jiangxiang-upgrade` | #220 KDO基础设施"讲香"升级：CLI触点 + MCP外部Agent体验（8项：P0-3门禁/P1-5情绪化本次补齐，其余08-03已实现） | reviewed | huangyaoshi | 8项 | 无 | `60_feedback/tasks/task_20260802_huangyaoshi-infra-jiangxiang-upgrade.md` | ✅黄药师交付(2026-08-09)：P0-3 title/aliases/tags门禁(ERROR/WARN×3)+P1-5情绪化输出补齐；狗粮4场景+双路径+回归78过+真实卡0新增；7项已实现确认；提审待欧阳锋终审<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |
+| 292 | `task_20260802_huangyaoshi-kdo-section-lint-hardening` | KDO 结构门禁强化：dk 七段完整性（补 Critique）+ section 拼写白名单 + 标准节重复检测 | reviewed | huangyaoshi | 3规则 | 无 | `60_feedback/tasks/task_20260802_huangyaoshi-kdo-section-lint-hardening.md` | ✅黄药师交付(2026-08-09)：R1 dk七段补Critique(原6段漏Critique=#213/#214根因)+R2拼写白名单(6错误拼写)+R3重复节检测(11标准节)，全部进pre-submit事前门禁；狗粮4场景+回归78过+存量5卡0误报；提审待欧阳锋终审<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |
+| 293 | `task_20260802_wangyuyan-213-related-supplement` | #213 补链任务：9张卡 related 补到 ≥5（#284补登记）queued/laowantong | reviewed | laowantong | 补登记 | 无 | `60_feedback/tasks/task_20260802_wangyuyan-213-related-supplement.md` | 任务单已存在但队列无行（E019 家族变体）——#284 补入队|
+| 294 | `task_20260802_wangyuyan-christensen-related-backfill` | #216 Christensen卡组 related补链（验收#7 TODO清零）（#284补登记）queued/laowantong | reviewed | laowantong | 补登记 | 无 | `60_feedback/tasks/task_20260802_wangyuyan-christensen-related-backfill.md` | 任务单已存在但队列无行（E019 家族变体）——#284 补入队|
+| 295 | `task_20260802_wangyuyan-global-metadata-p2` | #224 全局元数据回填P2：长程渐进（长程任务）（#284补登记）pending_review/hermes | reviewed | hermes | 补登记 | 无 | `60_feedback/tasks/task_20260802_wangyuyan-global-metadata-p2.md` | 任务单已存在但队列无行（E019 家族变体）——#284 补入队
+| 296 | `task_20260803_wangyuyan-zhu-personal-os-update` | #225 老朱个人OS洞察补全（小昭对话提取 + 3份作业）（#284补登记）pending_review/hermes | reviewed | hermes | 补登记 | 无 | `60_feedback/tasks/task_20260803_wangyuyan-zhu-personal-os-update.md` | 任务单已存在但队列无行（E019 家族变体）——#284 补入队
+| 297 | `task_20260804_wangyuyan-corrupted-card-rebuild` | #229 预制损坏卡frontmatter重建（17张：14张#223范围 + 3张#222范围） | reviewed | huangyaoshi | 重建17张 | 无 | `60_feedback/tasks/task_20260804_wangyuyan-corrupted-card-rebuild.md` | ✅黄药师确认已完成(2026-08-09)：17张YAML全部健康+git实证修复时间(08-03~08-09,#224批次顺带完成)+正文未劣化+改名映射1张；P-15反向应用(先诊断未盲目重建)；提审待欧阳锋终审<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |
+| 298 | `task_20260804_wangyuyan-dk-lu-gui-lv-review` | #231 dk卡审查：按规律办事不被欲望左右（多藏而厚亡）（#284补登记）queued/ouyangfeng | reviewed | ouyangfeng | 补登记 | 无 | `60_feedback/tasks/task_20260804_wangyuyan-dk-lu-gui-lv-review.md` | 任务单已存在但队列无行（E019 家族变体）——#284 补入队
+| 299 | `task_20260804_wangyuyan-huangyaoshi-7cards-register` | #230 黄药师基建经验资产化7张卡：补结构+复审登记 | reviewed | huangyaoshi | 7张卡 | 无 | `60_feedback/tasks/task_20260804_wangyuyan-huangyaoshi-7cards-register.md` | ✅黄药师确认已完成(2026-08-09)：7张全闭环——重复卡已删(08-04)+6张reviewed(欧阳锋08-04复审)+王语嫣2缺口(6标准段/review_date)已补+ds3/related6；任务单侧缺复审登记已补齐(E019变体)；提审待欧阳锋终审<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |
+
+| 300 | `task_20260809_wangyuyan-coaching-leadership-assistant-norm` | 教练式领导力助理Agent（TCPR角色可切换规范版，E025另开）：承接#282命名调整——spec已就位（assistant版）送审+部署 | reviewed | wangyuyan | spec送审+部署协调 | #288 reviewed（C1前置）+ #280/281 | `60_feedback/tasks/task_20260809_wangyuyan-coaching-leadership-assistant-norm.md` | 用户命名规范：统一XX助理+TCPR可切换（写成教练就锁死角色）；#282原审查链冻结不动 |
+
+| 301 | `task_20260809_laowantong-skill-trigger-phrases-c3` | #278 C3拆分：13个skill触发词补全（E026单角色铁律）——从#278拆出，老顽童内容生产职责 | reviewed | laowantong | 13个触发词节 | #278 reviewed（审计报告） | `60_feedback/tasks/task_20260809_laowantong-skill-trigger-phrases-c3.md` | 审计报告P1表13明细；洪七公归属多模态skill如含则另拆 |
+
+| 302 | `task_20260809_huangyaoshi-dashboard-grade-badges` | dashboard终审等级标注（用户要求看板一目了然）：解析队列行PASS A/A-/B+/条件等级→每任务徽章+分布统计+着色 | reviewed | huangyaoshi | 展示层+解析 | 无（#269脚本扩展） | `60_feedback/tasks/task_20260809_huangyaoshi-dashboard-grade-badges.md` | A绿/A-浅绿/B+黄/B橙/C红；无等级任务不误标 |
+
+
+
+| 303 | `task_20260809_huangyaoshi-coaching-assistant-deploy` | 教练式领导力助理三件套部署（#300 spec审后执行，E026拆角色）：SOUL.md+config.yaml+agents目录+Hermes profile+cap_hub注册+飞书链接+自举 | reviewed | huangyaoshi | 部署+冒烟+自举 | #300 reviewed ✅ + #280/281/288 ✅ | `60_feedback/tasks/task_20260809_huangyaoshi-coaching-assistant-deploy.md` | ✅黄药师交付(2026-08-09)：三件套(SOUL 78行含五阶梯内嵌+config+agents目录+Hermes profile+cap_hub发现)+逻辑冒烟8项全过+顺手修cap_hub WIKI_ROOT bug(07-21遗留,修复后19 Feature全恢复)；✅C1已闭环(2026-08-09自我介绍版)+场景级验证通过(2026-08-15真实教练问题：五阶梯定位/硬币诊断/话术/莫非案例/引用卡4/4真实，详见任务单)；提审待欧阳锋终审<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |<!-- 2026-08-15 欧阳锋：C1 真机冒烟闭环（08-09 自我介绍 + 08-15 场景级），等级升级 PASS（条件）A-→A-，飞书正式可用 -->
+
+| 304 | `task_20260809_huangyaoshi-meeting-assistant-deploy` | 科学开会助理三件套部署（#287 spec审后执行，E026拆角色）：SOUL.md（冰山画布/十大原则/话术内嵌）+config.yaml+agents目录+Hermes profile+cap_hub注册+飞书链接+自举 | reviewed | huangyaoshi | 部署+冒烟+自举 | #287 reviewed ✅ + #285/286 ✅ | `60_feedback/tasks/task_20260809_huangyaoshi-meeting-assistant-deploy.md` | ✅黄药师交付(2026-08-09)：三件套(SOUL 90行含ROI/冰山画布/原则匹配/话术内嵌+config+agents目录+Hermes profile+cap_hub发现)+逻辑冒烟8项全过+引用卡名14/14真实；✅C1真机冒烟闭环(2026-08-15用户实测：ROI/冰山画布/原则匹配/话术全返回+引用卡5/5真实，详见任务单)——待欧阳锋确认关闭<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |<!-- 2026-08-15 欧阳锋：C1 真机冒烟闭环（五段式实测），等级升级 PASS（条件）A-→A-，飞书正式可用 -->
+
+| 305 | `task_20260809_huangyaoshi-kdo-index-rebuild` | KDO索引重建（state.sqlite 7-19过期）：8-09生产的85张卡未入检索索引——kdo query命中0、统计读旧基线 | closed_no_action | huangyaoshi | 重建+验证 | 无 | `60_feedback/tasks/task_20260809_huangyaoshi-kdo-index-rebuild.md` | 小昭报告tools/cases无增长的根因；重建后query命中今天新卡 |
+
+| 306 | `task_20260809_huangyaoshi-feishu-doc-mcp` | 飞书文档MCP server（WorkBuddy借鉴·操作层基建）：lark-cli能力封装为MCP——读写飞书文档/表格/云文档，生成模板/写纪要 | reviewed | huangyaoshi | MCP+冒烟+登记 | 无（lark-cli已在） | `60_feedback/tasks/task_20260809_huangyaoshi-feishu-doc-mcp.md` | ✅C1闭环(2026-08-10)：cap_hub FEISHU_DOC_MCP(20)含权限模型+config.yaml deployments节(4客户端)+toolkit.md MCP表；欧阳锋观察项(权限标注)已覆盖y(4工具create/fetch/update/search)+全链路冒烟过(创建→写入→回读→搜索)+lark-cli定位(v1.0.81认证ready)+flag修正(--doc非--doc-token)；测试文档保留待确认清理；提审待欧阳锋终审<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |
+| 307 | `task_20260809_wangyuyan-assistant-deliverable-upgrade` | 双助理输出物升级spec（交付物型执行，E025另开）：输出格式加交付物节——教练（复盘模板/1v1纪要/硬币清单）+会议（纪要模板/议程文档/决策单） | reviewed | wangyuyan | spec升级+基线用例 | #306后定写入格式 | `60_feedback/tasks/task_20260809_wangyuyan-assistant-deliverable-upgrade.md` | 交付物限定模板/文档/清单三类（用户对齐）；不改已终审spec |
+| 308 | `task_20260809_huangyaoshi-agent-retrieval-mcp-integration` | Agent检索引用验证+MCP接入（E028教训）：kdo_search进路径件+回答强制检索引用卡名+飞书文档MCP挂载 | reviewed | huangyaoshi | 接入+验证 | #306+#307 | `60_feedback/tasks/task_20260809_huangyaoshi-agent-retrieval-mcp-integration.md` | ✅黄药师交付(2026-08-10)：3 agent全覆盖——config.yaml mcp_servers(kdo+feishu_doc) + SOUL检索规则升级(kdo_search优先→grep兜底→feishu_doc写交付) + 引用来源行(内嵌/检索标注) + 自检节(主域/资产卡/三步)；引用卡13/13真实；内嵌保留兜底；提审待欧阳锋终审<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |
+| 309 | `task_20260809_huangyaoshi-agent-auto-model` | Agent Auto模型选择（复用#277）：简单问答Flash/深度诊断Pro，落地前复核价格 | reviewed | huangyaoshi | 路由规则+验证 | #277已reviewed ✅ | `60_feedback/tasks/task_20260809_huangyaoshi-agent-auto-model.md` | ✅黄药师调研结论(2026-08-10)：Hermes无原生对话级模型路由+用户实测修正(Flash强于Pro预览版→路由前提不成立,保持Flash主力正确)+识图走MiniMax VLM(cap_hub已备)；三方案评估建议回退或降级文档；价格已复核(新价未公布)；提审待欧阳锋终审<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |
+
+| 310 | `task_20260810_wangyuyan-agent-task-mode` | Agent任务模式编排（WorkBuddy借鉴·spec任务上下文模板化）：五节任务模板（背景/素材收集/检索/交付/待确认）+出口式咨询多轮深挖协议+第一人称交付 | reviewed | wangyuyan | spec升级+协议 | #306/307/308（组装层，spec可先行） | `60_feedback/tasks/task_20260810_wangyuyan-agent-task-mode.md` | ✅C2 SOUL实现(2026-08-10黄药师)：任务模式节落地(五节模板+出口式咨询协议+案例沉淀回路+对比表)+10项逻辑冒烟过+引用卡3/3真实+profile已同步；C1卡名修正完成；真机验证待WSL重启gateway(老朱拆书任务) |
+
+| 311 | `task_20260810_huangyaoshi-task-mode-soul` | 任务模式SOUL实现（#310 C2拆分）：五节模板运行时化+素材收集协议+飞书文档MCP接入+真机验证拆书任务 | reviewed | huangyaoshi | SOUL节+接入+真机 | #310 ✅ + #306 ✅ | `60_feedback/tasks/task_20260810_huangyaoshi-task-mode-soul.md` | ✅SOUL任务模式节(#310 C2已落地)+MCP接入(2026-08-10黄药师)：config.yaml mcp_servers双server(kdo检索+feishu_doc操作)+SOUL检索规则升级(kdo_search优先→grep兜底→feishu_doc写交付)+双server initialize实测正常；真机验证待WSL重启gateway<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |
+
+| 312 | `task_20260813_laowantong-live258-case-cards` | Live258优秀作业case卡（P1，4张）：知乎获客/18桥事实扩散/直播复盘V1-V5/东欧开发信——砍雍博（行业推演非实测），可信度分级+实测/推演标注 | reviewed | laowantong | 4张 | 无（可立即领，领取前置=素材精做） | `60_feedback/tasks/task_20260813_laowantong-live258-case-cards.md` | 黄药师建议书迭代；详见 diag_20260813_live258-excellent-homework.md §九|
+| 313 | `task_20260813_laowantong-live258-dk-cards` | Live258优秀作业dk卡（P1，2张+1修补）：AI不质疑口误/散牌没意识是牌 + dk-demand-feature-stacking补4案例数值证据+链式结构节 | reviewed | laowantong | 2+1 | 无（与#312并行） | `60_feedback/tasks/task_20260813_laowantong-live258-dk-cards.md` | 黄药师建议书迭代；dk七段门禁|
+| 314 | `task_20260813_laowantong-feature-review-tool` | Feature复盘五步法tool卡（P1，1张）：用/缺/叠加/改进/沉淀——吸收验收清单步骤 | reviewed | laowantong | 1张 | #313 reviewed后领取（补链） | `60_feedback/tasks/task_20260813_laowantong-feature-review-tool.md` | 含效果追踪表+验收清单+每版一假设模板|
+
+| 315 | `task_20260813_huangyaoshi-periodic-table-aliases` | 周期表aliases增强v0.9（P1，0.25-0.5d）：20-30别名族+feature_menu检索命中——阻塞#312/#313溯源链；并入#255 C4遗留 | reviewed | huangyaoshi | JSON+CLI | #D精做种子（黄药师已通读可自行提取） | 黄药师基建洞察P1-1采纳；验收 kdo query 反向教学 命中<!-- 已提审待欧阳锋 2026-08-13：v0.9生成(47卡253别名)+feature_menu检索命中+回归全过+C4三选一落盘(changelog) -->|
+| 316 | `task_20260813_huangyaoshi-feature-combo-query` | Feature组合查询--combo（P1，0.5d）：场景→推荐组合+证据来源——叠加效应从卡变机制；并入#264 info verify_note v0.2 | reviewed | huangyaoshi | CLI+种子 | 与#315并行（别名映射衔接） | 黄药师基建洞察P1-2采纳；消费端点菜下一需求<!-- 已提审待欧阳锋 2026-08-13：combo命令+4实测种子(feature_combos.json)+证据标注实测+cap_hub登记；#264 info verify_note确认已实现 -->|
+| 317 | `task_20260813_huangyaoshi-feature-verified-grading` | verified证据分级（P2，0.5d）：bool→{实测/引用/推演,source,metric}+首批10+条回填+#272衔接评估 | reviewed | huangyaoshi | schema+回填 | #272 reviewed（衔接自查） | 黄药师基建洞察P2-1采纳；修正#252语义漂移<!-- 已提审待欧阳锋 2026-08-13：v1.0生成(13条证据：实测7/引用2/推演4)+25条verified全保留+#272衔接评估兼容+语义边界落盘(changelog)。狗粮：pytest 28/28(新增15断言，测试抓出F022语义漂移→修正为#252试点实测)+12学员命名全命中+combo端到端+by-layer对账一致 -->|
+| 318 | `task_20260813_huangyaoshi-feature-layer-report` | 分层水位报告--by-layer（P2，0.25d）：L0-L5 verified覆盖率——教练agent"学哪层"数据依据 | reviewed | huangyaoshi | 命令+报告 | 无 | 黄药师基建洞察P2-2采纳；10案例全在L0-L3实证<!-- 已提审待欧阳锋 2026-08-13：by-layer命令+解读行(水位L0/空白L3)+evidence分布；数字与JSON一致 -->|
+| 319 | `task_20260815_wangyuyan-agent-spec-domain-cleanup` | O-14 agent-spec类卡domain系统性清扫（欧阳锋拍板）：9张卡 domain补列表+目录归属方案评估——只改frontmatter不动正文，建议先行 | reviewed | laowantong | 清扫9张+迁移方案 | 无 | `60_feedback/tasks/task_20260815_wangyuyan-agent-spec-domain-cleanup.md` | 来源：欧阳锋停车场O-14（2026-08-15拍板）；边界：只改frontmatter不动正文；生产交老顽童/黄药师；欧阳锋终审；2026-08-16 已派老顽童生产（王语嫣编排完成） |<!-- 2026-08-16 欧阳锋终审 PASS A-：domain 9/9 达标；目录迁移裁定不迁移（方案A前提不成立：重复文件 tools/ 版更新），TODO 另立项 -->
+| 320 | `task_20260815_laowantong-spin-ai-sales-cards` | SPIN实践篇+AI销售协同卡组（P1）：framework-AI销售协同（确定性方法+可判断/形容词禁忌/正负样本特征值，销售+决策域双向归集）+销售漏斗全貌（复购裂变倒梯形）+异议处理转化（承认→稀释→调动）+dk×2-3（需求挖掘是公司任务/大单小单/客户讨厌AI） | reviewed | laowantong | 4-5张卡 | 无（素材精做前置：口述2400行逐字读） | `60_feedback/tasks/task_20260815_laowantong-spin-ai-sales-cards.md` | 王语嫣编排（用户拍板：增量必做+双向归集）；理论篇已有卡不重复；欧阳锋终审 |<!-- 2026-08-16 欧阳锋终审 PASS A-：O0 溯源 7/7 锚点命中零编造 + related 0 死链 + 双向归集成立 + dk 七段完整 + 二手标注合规；全网调研替代裁定接受 -->
+| 321 | `task_20260815_huangyaoshi-sales-domain-digest` | 销售管理域digest补建（P2）：23卡无digest结构缺口（E015同构）——digest卡+domain-mapping挂接+域外桥接（销售↔决策/AI、需求、增长） | reviewed | huangyaoshi | digest卡+挂接 | #320 reviewed（digest需含新卡） | `60_feedback/tasks/task_20260815_huangyaoshi-sales-domain-digest.md` | 王语嫣编排（用户拍板：补结构缺口）；欧阳锋终审；2026-08-16 已派黄药师（依赖#320✅已满足，与#328顺序执行） |<!-- 已提审待欧阳锋 2026-08-16：sales-domain-digest卡落盘(核心框架/五步工具链/暗知识/12案例/OPC体系/5条域外桥接)+domain-mapping挂接+wikilink 16+正文45零死链+覆盖50卡(含#320新卡6)+lint 0新增+可检索 --><!-- 2026-08-16 欧阳锋终审 PASS A-：digest 20链0死链+mapping挂接+可检索实证 -->
+| 322 | `task_20260815_laowantong-candy-sales-recruiting` | Candy销售招聘方法入库（P2）：能力模型+定量定性结合+星巴克/Cosmos客观验证——加传播限制标注（素材"不要外传"，内部库可用） | reviewed | laowantong | 1张卡 | 无（与#320并行） | `60_feedback/tasks/task_20260815_laowantong-candy-sales-recruiting.md` | 王语嫣编排（用户拍板：必须入库）；欧阳锋终审 |<!-- 2026-08-16 欧阳锋终审 PASS A-：related 9 死链 0 + 传播限制标注合规 -->
+| 324 | `task_20260815_wangyuyan-agent-knowledge-conduit-diagnosis` | 知识库→Agent传导机制盘点诊断（P0，系统性工程）：全agent盘点现状矩阵（快照型/内嵌检索型/无接入型）+全网调研RAG→Agent传导最佳实践+三层传导管线架构（检索层/导航层/刷新层）+P1-P3迁移路径 | reviewed | wangyuyan | 诊断报告+方案 | 无（与#320/321/322并行，纳入其产出） | `60_feedback/tasks/task_20260815_wangyuyan-agent-knowledge-conduit-diagnosis.md` | 用户拍板立项（2026-08-15）；调研先行；只出诊断不执行改造；欧阳锋审查；✅诊断报告已落盘(60_feedback/diagnosis/diag_20260815_agent-knowledge-conduit.md)——已提审待欧阳锋终审<!-- 手动流转：queue_transition被拦+O-3；铁律0提审即流转 --> |<!-- 2026-08-16 欧阳锋终审 PASS A-：3/8 MCP挂载实测确认/索引机制确认/四缺陷成立；TODO 双位置部署未入矩阵+编译产物38个非33 -->
+
+| 323 | `task_20260815_huangyaoshi-gbk-output-fix` | GBK终端崩溃族统一修复（P-30，P2，0.5d）：print含emoji/中文脚本入口统一 sys.stdout.reconfigure(utf-8)——generate-dashboard(#269扣分点)/其他待扫；GBK实测+回归 | reviewed | huangyaoshi | 修复+实测 | 无 | `60_feedback/tasks/task_20260815_huangyaoshi-gbk-output-fix.md` | 来源：停车场P-30（欧阳锋#269终审2026-08-09）；先例skill_bridge_sync/feature_menu已做<!-- 已提审待欧阳锋 2026-08-15：52脚本统一加GBK输出保护(import后+6行reconfigure块)，137文件编译0失败，PYTHONIOENCODING=gbk崩溃对照实测exit0(裸print✅崩exit1)，test_feature_menu 28/28，generate-dashboard重跑302统计不变 --> |<!-- 2026-08-15 欧阳锋终审 PASS A-：52脚本GBK保护实测复现+修复验证，137编译0失败，28/28回归；报告302→实测303为队列演进非回归 -->
+| 325 | `task_20260816_huangyaoshi-kdo-mcp-rollout` | P1统一检索层（#324终审PASS后立项）：Windows侧5个Hermes profile补挂kdo MCP（duanwangye/hongqigong/laowantong/wangyuyan/note-coach）+WSL侧duan/kimi-test确认+快照型agent（销售对话助理/AI基本功教练）加kdo query指令+索引事件驱动化（E028机制化入#263流水线） | reviewed | huangyaoshi | MCP挂载+检索指令+流水线环节 | #324 reviewed ✅ | `60_feedback/tasks/task_20260816_huangyaoshi-kdo-mcp-rollout.md` | 按终审TODO修正口径（WSL侧实测6/8已挂kdo，beikai双挂保留）；欧阳锋终审<!-- 已提审待欧阳锋 2026-08-16：Windows5 profile挂kdo MCP(备份+yaml验证5/5)+MCP协议级验收(initialize v1.28.0/tools4/SPIN命中)+WSL duan/kimi-test豁免(废弃/测试)+快照2 agent检索指令落盘(kdo query实证命中)+E028 Step4入#263卡+回归0修改 --> |<!-- 2026-08-16 欧阳锋终审 PASS A：5挂载+2豁免+快照指令+事件驱动全验证，协议级 kdo_search 独立重跑命中，回归0修改 -->
+| 326 | `task_20260816_huangyaoshi-agent-mechanism-institutionalization` | P2机制制度化（#325终审PASS后立项，P2-DYN-01出池）：agent出生模板固化（#263部署步骤加挂kdo MCP固定动作+spec验收检查项）+health-check升级巡检（MCP挂载+新卡可检索）+digest门禁入流水线（终审闭环查digest+可检索，domain-mapping挂接） | reviewed | huangyaoshi | 流水线文档+巡检脚本+门禁 | #325 reviewed ✅（#321 并行不阻塞） | `60_feedback/tasks/task_20260816_huangyaoshi-agent-mechanism-institutionalization.md` | 吸收两变量（新agent产出/知识库增长）机制化；P3快照迁移为本任务完成后立项输入；欧阳锋终审；补充任务2：MCP配置单一真相源（hermes-mcp-template+sync脚本渲染16 profile，用户批准2026-08-16，双位置漂移根治）<!-- 2026-08-16 欧阳锋立项核查：并入 #325 遗留修正（WSL 侧 5 运行中 gateway 补挂 kdo）——巡检按 WorkingDirectory 验证 --><!-- 已提审待欧阳锋 2026-08-16：机制制度化3件套落盘(#263 Step2 MCP固定动作+Step4 digest门禁+check-mcp-roaming挂入health-check 17/17)+WSL 5 gateway补挂(systemd实证,备份)+MCP单一真相源(hermes-mcp-template+sync-hermes-mcp.py渲染16 profile,幂等SAME,双侧kdo_search HIT)+狗粮抓修2真bug(WSL跨平台路径patch/check-agent-config GBK)+friction-log 4行 --><!-- 2026-08-16 欧阳锋终审 PASS A：WSL 5补挂确认（#325 空挂闭环）+ 单一真相源 16/16 + 巡检 17/17 + 双侧 kdo_search HIT；狗粮3问题2修1遗留 -->
+| 327 | `task_20260816_wangyuyan-snapshot-migration-pilot` | P3快照迁移试点（销售对话助理，#326终审后立项）：重编译prompts工作手册（纳入#320新卡+销售域digest导航）+CLAUDE.md路径表升级digest导航+试点验证（真实销售问题检索命中新卡）+迁移模式沉淀 | reviewed | wangyuyan | 重编译+导航升级+迁移模式 | #320/#321 reviewed（#326 ✅） | `60_feedback/tasks/task_20260816_wangyuyan-snapshot-migration-pilot.md` | 消灭最后一个静态依赖；推广阶段另立项；✅已交付(2026-08-16王语嫣)：重编译+导航升级+试点验证3问全命中新卡（含E028复发修复：kdo index --rebuild跳过search_index的源码bug已friction-log）——已提审待欧阳锋终审 |<!-- 2026-08-16 欧阳锋终审 PASS A-：试点 3/3 命中 + KDO 源码 bug 确认（--rebuild 不重建 search_index 已批准 P0 修正）+ #263 命令修正批准 -->
+| 328 | `task_20260816_huangyaoshi-gateway-crash-loop-fix` | Hermes gateway崩溃循环修复（P0，方案B全归user级，用户拍板2026-08-16）：禁boot脚本pkill+system级3个退役+user级对齐+NRestarts归零+linger实证+巡检闭环（#326复用） | reviewed | huangyaoshi | 单一user级机制+验证 | #326 reviewed ✅ | `60_feedback/tasks/task_20260816_huangyaoshi-gateway-crash-loop-fix.md` | 诊断diag_20260816_hermes-gateway-lock-conflict.md；O-12解耦；欧阳锋终审；2026-08-16 已派黄药师 P0 优先 |<!-- 已提审待欧阳锋 2026-08-16：boot disabled+system级3退役+user级8/8 running，NRestarts观察10min归零(86/89/86不变)，linger=yes实证，boot脚本理由确认零丢失，飞书3/3 connected，巡检17/17；并入#327遗留：kdo index --rebuild源码bug已修(3904 docs全重建) --><!-- 2026-08-16 欧阳锋终审 PASS A：boot退役+system退役+user 8/8+NRestarts归零+飞书3/3+源码bug修复实证（Candy/SPIN双HIT）-->
+| 329 | `closed_no_action` | KDO源码cmd_index修正（欧阳锋建议书 #329） | reviewed | huangyaoshi | 源码修复 | 无 | （已并入 #328 交付：--rebuild 现含 search_index.json 全重建，实测 3905 docs 新卡命中 2026-08-16 03:37） | 建议书已核：源码已修无需新建任务，本行登记验证结果 |
+| 330 | `task_20260816_huangyaoshi-index-doc-fix` | 索引命令文档修正（P1，#327遗留②）：全库grep kdo index --rebuild 误用点，文档与源码语义对齐（源码#329已修） | reviewed | huangyaoshi | 文档修正+复核 | #329 ✅（源码已修） | `60_feedback/tasks/task_20260816_huangyaoshi-index-doc-fix.md` | 欧阳锋建议书#330；欧阳锋终审 |<!-- 已提审待欧阳锋 2026-08-16：全库grep盘点20处(行为指导9+历史11)，修正4处(#263 Step4语义标注+全量重建表述+失败模式+欧阳锋context升级全重建)，狗粮4项过(--rebuild三重建3905docs/Candy命中/index.md含digest/裸index对照) --><!-- 2026-08-16 欧阳锋终审 PASS A-：4处修正全验证（L154/161/263/296）+ 历史类未动；🟡 L138 仍1处'索引增量更新'残留记 TODO -->
+| 331 | `task_20260816_wangyuyan-snapshot-migration-rollout` | P3快照迁移推广（P1，#327 PASS A- 推广就绪）：AI基本功教练三步走迁移+38编译产物盘点（部署中vs规格卡）+迁移顺序建议 | reviewed | wangyuyan | 迁移+盘点 | #327 ✅ #330 ✅ | `60_feedback/tasks/task_20260816_wangyuyan-snapshot-migration-rollout.md` | 欧阳锋建议书#331；王语嫣重编译+老顽童协助；✅已交付(2026-08-16王语嫣)：基本功教练三步走迁移+38盘点（10部署中/4spec/22规格卡）+迁移顺序——已提审待欧阳锋终审 |<!-- 2026-08-16 欧阳锋终审 PASS A-：基本功教练迁移+38盘点验证通过，检索三关键词全IN -->
+| 332 | `task_20260816_laowantong-baozhashidiaochan-wave1` | 爆炸式调研Wave1 P0框架主线5卡（Live259，用户确认2026-08-16）：五步法framework+饱和覆盖concept+R型Partner五状态机+九字诀14策略tool+开一篇文档concept——含系列课补链（four-research-types/radar/oscar互链+选课口令） | reviewed | laowantong | 5张卡+补链 | 无（素材精做前置：口述6718行已通读） | `60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave1.md` | 诊断diag_20260816_baozhashidiaochan.md；三方法证据就绪；欧阳锋终审 |<!-- 2026-08-16 欧阳锋终审 PASS A-：五卡 O0 溯源命中 + 外部对标 3 条 + related 0 死链；Wave2/3 可入队 -->
+| 333 | `task_20260816_laowantong-baozhashidiaochan-wave2` | 爆炸式调研Wave2 案例与AI demo 7卡（#332终审后入队）：Leo润滑油case+4000标题case+AI学习系列case+设计原则90条case+OPC128方向case+L1-L6价值层级+70-30分工 | reviewed | laowantong | 7张卡 | #332 reviewed ✅ | `60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave2.md` | 素材锚点见生产任务清单；精做笔记含ASR对照表（#332亮点固化）；欧阳锋终审 |<!-- 2026-08-16 欧阳锋终审 PASS A-：7卡 O0 零编造 + L6 冲突以图为准 + OCR 人工核验标注 -->
+| 334 | `task_20260816_laowantong-baozhashidiaochan-wave3` | 爆炸式调研Wave3 dk暗知识8卡：饱和自证话术/MECE手术台/打样纠偏三轮/私有库总量锚定/排行榜替代/拾荒者vs建筑师/应做必做/AI没时间观念 | reviewed | laowantong | 8张dk卡 | 与#333并行（锚点独立） | `60_feedback/tasks/task_20260816_laowantong-baozhashidiaochan-wave3.md` | dk七段门禁含Critique；欧阳锋终审 |<!-- 2026-08-16 欧阳锋终审 PASS A-：8 dk 七段+Critique+定位全达标 -->
+| 335 | `task_20260816_wangyuyan-research-r-partner-spec` | R型爆炸式调研Partner agent spec（用户预期产agent，#332终审后窗口）：五状态机+五步法+九字诀内嵌，TCPR可切换，调研系列第三个agent | reviewed | wangyuyan | spec文件+基线用例 | #332 reviewed ✅（#333/334卡名终审核对） | `60_feedback/tasks/task_20260816_wangyuyan-research-r-partner-spec.md` | #263流水线spec环节；✅已交付(2026-08-16王语嫣)：SPEC.md 五状态机+基线用例3个——已提审待欧阳锋终审；部署另立项 |<!-- 2026-08-16 欧阳锋终审 PASS A-：引用卡 5/5 真实 + 五状态机与 W1-3 逐字一致 + 基线用例 3 个有卡背书；部署可立项 -->
+| 336 | `task_20260816_laowantong-ai-km-wave-a` | AI×知识管理Wave A P0框架6卡（楚门vault拆解，KDO照镜子，综合codex/黄药师裁决）：火箭六要素+五次飞跃+多Agent协作链+Session分层+双中心+Agent团队架构——含模型祛魅↔kdo-context-design互链 | reviewed | laowantong | 6张卡 | #333/334在产（队列顺序执行不插队） | `60_feedback/tasks/task_20260816_laowantong-ai-km-wave-a.md` | 2处待核矛盾写卡标注；欧阳锋终审；2026-08-16 #333/334 收官后已派老顽童可领 |<!-- 2026-08-16 欧阳锋终审 PASS A-（条件已清：3处回链双向闭环）：O0 锚点 6/6 零编造 + 21卡结构全绿；条件=3组旧卡回链待老顽童补 -->
+| 337 | `task_20260816_codex-kdo-mirror-audit` | KDO照镜子对照审计文档（codex外部观察员起草）：KDO现状vs课程模型vs缺口vs优先级——三大缺口（PatrolKit/顶层文档/负责人制形态） | queued | codex | 审计文档 | 无（独立于迁移会审） | `60_feedback/tasks/task_20260816_codex-kdo-mirror-audit.md` | 王语嫣/欧阳锋会审；2026-08-16 已派 codex 可领 |
+| 338 | `task_20260816_huangyaoshi-patrolkit-session-recovery` | K1 PatrolKit KDO Session资产自动回收（⏸挂起待迁移会审）：#326巡检升级设计（配置巡检→知识资产巡检，Session精华自动回收→沉淀dk/技能）——先出设计文档不改造 | reviewed | huangyaoshi | 设计文档 | #326 ✅（挂起：待Hermes迁移会审结论） | `60_feedback/tasks/task_20260816_huangyaoshi-patrolkit-session-recovery.md` | 最大缺口立项；欧阳锋终审；2026-08-16 已派黄药师可领（设计文档先行，改造待迁移会审） |<!-- 已提审待欧阳锋 2026-08-16：PatrolKit设计文档落盘(60_feedback/designs/design_20260816_patrolkit-session-recovery.md)——巡查目标三层/抽离规则4类资产+3触发器/沉淀路径候选池+人审确认/与#326同框架升级/实施P0-P3；改造挂起待迁移会审 --><!-- 2026-08-16 欧阳锋终审 PASS A-：三决策成立 + codex 4 接口要求全吸收 + #337 会审确认（审计文档可定稿）；P1 改造待迁移会审 -->
+| 339 | `task_20260816_wangyuyan-top-level-doc-pilot` | K2顶层文档制度试点（楚门顶层文档→KDO项目级）：试点1-2项目顶层文档（四字开头/必知必会前置/链接后置）+制度草案（销售域digest为域级雏形） | reviewed | wangyuyan | 试点+草案 | 无 | `60_feedback/tasks/task_20260816_wangyuyan-top-level-doc-pilot.md` | ✅已交付(2026-08-16王语嫣)：爆炸式调研顶层文档+制度草案——已提审待欧阳锋终审 |<!-- 2026-08-16 欧阳锋终审 PASS A-：试点索引 4/4 真实 + 制度锚点命中 + 制度设计完整；🟡 top-doc 内 #335 状态待更新 -->
+| 340 | `task_20260816_laowantong-ai-km-wave-b` | AI×知识管理Wave B 工具与案例9卡：小抄SAB/顶层文档制度/Skill八步流水线/文档资源化10-11种/VibeCoding case/四棒接力case/偶遇五通道/自动分类脚本/PatrolKit雷达 | reviewed | laowantong | 9张卡 | #336后（队列顺序） | `60_feedback/tasks/task_20260816_laowantong-ai-km-wave-b.md` | 互链#339顶层文档试点/#338设计文档；欧阳锋终审 |<!-- 2026-08-16 欧阳锋终审 PASS A-（条件已清：3处回链双向闭环）：O0 锚点 6/6 零编造 + 21卡结构全绿；条件=3组旧卡回链待老顽童补 -->
+| 341 | `task_20260816_laowantong-ai-km-wave-c` | AI×知识管理Wave C dk暗知识6卡：调研饱和话术/先萃取再合并/一句话交接/工具硬推/模型祛魅/三上下文公式——C1↔爆炸式W3-1、C5↔kdo-context-design互链 | reviewed | laowantong | 6张dk卡 | #340后（队列顺序） | `60_feedback/tasks/task_20260816_laowantong-ai-km-wave-c.md` | C4优先（黄药师建议，与#328机制强制同构）；欧阳锋终审 |<!-- 2026-08-16 欧阳锋终审 PASS A-（条件已清：3处回链双向闭环）：O0 锚点 6/6 零编造 + 21卡结构全绿；条件=3组旧卡回链待老顽童补 -->
+| 342 | `task_20260816_codex-migration-t0` | T0 冲突止血验收确认（canonical=user 级裁定通过）：正式10分钟观察记录+ps进程级唯一性+XDG前置+linger常驻项——#328 实证不重跑 | queued | codex | 验收记录 | #328 ✅ | `60_feedback/tasks/task_20260816_codex-migration-t0.md` | ⏸挂起：等老顽童CLI工作完成+用户命令；欧阳锋验收；验收项5已更新：PID 1624=老顽童CLI在用实例（默认根）不关闭，随记忆继承处理（codex核实2026-08-16） |
+| 343 | `task_20260816_codex-migration-t1` | T1 三慢组合迁Windows（basic-skills/coaching/meeting）：NSSM服务化（不用Task Scheduler）+冒烟+15分钟观察——每profile独立不并行 | queued | codex | 3 profile迁移 | #342 | `60_feedback/tasks/task_20260816_codex-migration-t1.md` | ⏸挂起：等老顽童CLI工作完成+用户命令；黄药师验证；欧阳锋验收 |
+| 344 | `task_20260816_codex-migration-t2` | T2 纯wiki核心角色迁Windows（wangyuyan/ouyangfeng/laowantong）：ouyangfeng含记忆连续性验收（迁移后先失忆恢复再审查）+profile补全黄药师 | queued | codex | 3 profile迁移 | #342/#343稳定 | `60_feedback/tasks/task_20260816_codex-migration-t2.md` | ⏸挂起：等老顽童CLI工作完成+用户命令；欧阳锋验收；+老顽童记忆继承子项（默认根MEMORY/USER diff合并+SOUL不搬+state.db可选+失忆验证） |
+| 345 | `task_20260816_huangyaoshi-migration-t3` | T3 duanwangye飞书Windows就绪测试（Bitable聚焦，lark-cli前置已满足）：通过则迁/不通过留WSL+专项；beikai（=飞书洪七公）整体留WSL明确 | queued | huangyaoshi | 就绪测试+方案 | #342/#343稳定 | `60_feedback/tasks/task_20260816_huangyaoshi-migration-t3.md` | ⏸挂起：等老顽童CLI工作完成+用户命令；欧阳锋验收 |
+| 346 | `task_20260816_codex-migration-t4` | T4 过渡profile归档（P2停车场）：duan/kimi-test归档停用（note-coach保留——用户确认要用） | queued | codex | 归档 | T0-T3稳定+用户确认 | `60_feedback/tasks/task_20260816_codex-migration-t4.md` | ⏸挂起：T0-T3稳定+用户确认+老顽童CLI完成；欧阳锋验收 |
+| 347 | `task_20260816_codex-hongqigong-migration` | 洪七公（beikai）迁Windows（P0生产事故）：WSL服务活着但飞书disconnected→用户拍板全量Windows；现状快照+已知坑（E030 external_dirs/凭据搬运/WinError 87/双开冲突/openmontage Linux工具链评估）+飞书真机冒烟 | pending_review | codex | 迁移+冒烟 | #342/#344先例 | `60_feedback/tasks/task_20260816_codex-hongqigong-migration.md` | ✅迁移完成（用户确认+王语嫣核验：feishu connected/WSL已停/skills 243全加载/kdo MCP✅）；已提审欧阳锋；openmontage工具链评估遗留 |
+| 348 | `task_20260816_huangyaoshi-research-partner-deploy` | R型爆炸式调研Partner部署（#335 spec终审PASS A-后立项，#263流水线Step 2/3）：三件套（SOUL默认R+五状态机内嵌+饱和话术/检索规则；config含external_dirs+ kdo MCP消费层验证；agents目录+cap_hub副本）+飞书+真机冒烟（基线用例3个+TCPR切换实测）+调研系列互链 | pending_review | codex | 部署+冒烟 | #335 reviewed ✅ | `60_feedback/tasks/task_20260816_huangyaoshi-research-partner-deploy.md` | ✅部署完成+飞书真机冒烟PASS（21:29 首条消息全链路：入站→gateway→agent→出站1150chars；默认R声明/五状态机/边界/TCPR/引用卡全对）；kdo_search实际调用已通（mcp降级1.28.1修复isError）；⏳基线2/3多轮交互验收待补；欧阳锋验收 |
+| 349 | `task_20260816_laowantong-wechat-transcript-tool-card` | 视频号→逐字稿自动化工作流tool卡（R型首战资产报告转卡：四环节×双路线矩阵+12工具全景+反爬情报+DataPack；verified分级保留+时效标注2027-02；素材已资产化跳过诊断） | reviewed | laowantong | 1张tool卡 | 素材=00_inbox/视频号逐字稿调研/（欧阳锋O0抽查A级零编造） | `60_feedback/tasks/task_20260816_laowantong-wechat-transcript-tool-card.md` | ✅已授权（欧阳锋建议+用户方向）；欧阳锋终审；collect_wechat.py验证后如需case卡另立 |<!-- 2026-08-17 欧阳锋终审 PASS A-：转卡保真+related 8死链0+覆盖事故裁定认可 -->

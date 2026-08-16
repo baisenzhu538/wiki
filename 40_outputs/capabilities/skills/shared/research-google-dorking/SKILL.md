@@ -4,7 +4,7 @@ description: Google Dorking高级搜索+DNS/SSL域名情报——零成本挖出
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [Google Dorking, 高级搜索, WHOIS, DNS, SSL, crt.sh]

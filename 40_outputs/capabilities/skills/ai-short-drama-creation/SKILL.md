@@ -1,20 +1,9 @@
-# AI 短剧创作技能包：从 0 到 1 的罗盘 + 三板斧工作法
-
-skill_name: ai-short-drama-creation  
-status: stable  
-scope: Content Producer / 老顽童  
-last_verified: 2026-06-14  
-source_wiki:
-  - "[[concepts/ai-short-drama-ice-fire-scripting-compass]]"
-  - "[[frameworks/ai-short-drama-ice-fire-dissection-compass]]"
-  - "[[tools/ai-short-drama-plot-three-axes]]"
-  - "[[tools/ai-short-drama-script-planning-three-axes]]"
-  - "[[tools/ai-short-drama-framework-three-axes]]"
-  - "[[tools/ai-short-drama-conflict-three-axes]]"
-  - "[[concepts/ai-short-drama-platform-policy-comparison]]"
-
 ---
-
+name: ai-short-drama-creation
+type: capability/skill
+status: published
+description: AI 短剧创作技能包：从 0 到 1 的罗盘 + 三板斧工作法——脚本创作、拆解罗盘、三轴法。触发词：短剧创作、AI 短剧、剧本、三板斧、罗盘。
+---
 ## 技能定位
 
 本技能包将代俊隆的 AI 短剧创作方法论转化为可直接执行的**提示词模板、检查清单和工作流**，帮助创作者用 AI 辅助完成从选题、策划、结构、冲突到平台适配的全流程。

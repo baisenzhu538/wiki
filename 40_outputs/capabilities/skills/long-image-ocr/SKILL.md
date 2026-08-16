@@ -8,6 +8,8 @@ scope: "洪七公 / Multimodal Arbiter，可被全角色调用"
 origin: "洪七公 2026-08-08 创建，2026-08-09 迭代 v2.0（对照 AI 基本功教练自举案例固化流程纪律）"
 last_verified: "2026-08-09"
 kdo_skill_ref: "~/.hermes/profiles/beikai/skills/creative/long-image-ocr/SKILL.md"
+owner: hongqigong
+version: 2.1.0
 ---
 
 # 长图 OCR+VLM 识别流水线（KDO 注册版）
@@ -72,6 +74,10 @@ kdo_skill_ref: "~/.hermes/profiles/beikai/skills/creative/long-image-ocr/SKILL.m
 4. **脚本运行前自查**：import 依赖完整、变量名一致、输出路径可写。
 5. **断点续跑**：批量脚本跳过已有输出，中断可重跑。
 6. **密钥备份放家目录**：`/home/dministrator/.mmkey_b64`（`/tmp` 会被系统清理）。
+7. **识别不等消化（2026-08-16）**：OCR 的真依赖只是术语表（笔记/标题骨架即够）——OCR 与口述消化**两路并行开跑**；深度理解只需领先于映射与建议书。子代理挂了立即 resume + 解开被它阻塞的旁路，不空等。
+8. **大口述稿先查拼接点（2026-08-16）**：ASR 转写可能两遍拼接（头尾/中间行号抽查内容重复度），确认拼接结构后再决定消化策略；尾部常藏新内容。
+9. **prompt 变更级重跑要清旧版（2026-08-16）**：断点续跑按"文件存在"判定，不区分 prompt 版本——改 prompt 后先声明作废旧版范围再续跑。
+10. **小字密集框架图用局部放大核验（2026-08-16）**：人名/术语小字整图缩略不可靠，用 region crop 放大核对；重点三处：标题/箭头标注/颜色归属。
 
 ---
 
@@ -84,6 +90,8 @@ kdo_skill_ref: "~/.hermes/profiles/beikai/skills/creative/long-image-ocr/SKILL.m
 | `NameError: json not defined` | 运行前自查 import，别用别名绕弯 |
 | 批量中断 | 脚本跳过已有 `OCR_*.md`，断点续跑 |
 | 视觉隐喻陷阱（化学元素皮肤） | 换英文 prompt 强调忽略装饰元素 + 交叉验证 |
+| 上下文注入术语渗入编造（E025，2026-08-16） | 注入词表必须配禁令"词表仅供辨词，禁止替换图中标题/标注原文"；框架图类产出后人工对照原图抽核三处：标题/箭头标注/颜色归属；纠偏以追加记录落原文件尾部，不改原始识别文本 |
+| Windows 场无 ffmpeg/WSL 密钥 | 用 `40_outputs/code/scripts/batch-ocr-long-image-windows.py`（PIL 切分 + `cap_hub.vlm`，密钥走 `wiki/.env`→`cap_hub/config.py`，支持 `--context-file` 注入术语表）；实战样本在 `00_inbox/爆炸式调研/`、`00_inbox/AI知识库/` |
 
 ---
 
@@ -100,3 +108,9 @@ kdo_skill_ref: "~/.hermes/profiles/beikai/skills/creative/long-image-ocr/SKILL.m
 - `image-understanding-pipeline`（图像理解选型总览）
 - `image-ocr`（本地 PaddleOCR 管线）
 - `kdo-ocr-enrich-executor`（OCR → Enrich 结构化入库）
+
+## 触发词
+
+**触发场景**：长图（长截图/长海报/超长图片）需要 OCR+VLM 识别时——单张图超长无法直接 OCR、长图分段识别、长图内容结构化提取。
+
+**负面例子（不要触发）**：普通尺寸图片（用标准 OCR 即可）；视频长内容（不是图片）。

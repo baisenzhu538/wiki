@@ -4,7 +4,7 @@ description: KDO知识自攻击——用对抗Agent主动找出知识卡片的�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [自攻击, 对抗审查, 质量, 自我迭代, GAN, SATs]

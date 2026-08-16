@@ -113,9 +113,72 @@
       "id": "FEATURE_MENU",
       "name": "Feature 点菜工具",
       "category": "cli",
-      "description": "从周期表 100 个 AI 基本功 Feature 中按 layer/dimension/scenario 过滤点菜——消费端协议技术底座",
-      "test": "python kdo-tools/feature_menu.py pick --n 3 → 随机点菜 3 个 Feature",
-      "source": "kdo-tools/feature_menu.py",
+      "description": "从周期表 100 个 AI 基本功 Feature 中按 layer/dimension/scenario/keyword 过滤点菜——消费端协议技术底座。含 #272 stale 检查 + #315 aliases 别名命中 + #316 combo 场景组合查询",
+      "test": "python kdo-tools/feature_menu.py pick --n 3 → 随机点菜；query --keyword 反向教学 → 命中 F022；combo --scene 内容创作 → 推荐组合；stale → 超期检查",
+      "source": "kdo-tools/feature_menu.py + kdo-tools/feature_combos.json",
+      "status": "active"
+    },
+    "AUTH_FRESHNESS_SLA": {
+      "id": "AUTH_FRESHNESS_SLA",
+      "name": "认证层+新鲜度 SLA",
+      "category": "lint",
+      "description": "#272：reverify_by 字段（8 schema）+ verified 过期语义（verify_date + 6 个月 → stale 降级不删除）+ kdo feature stale 命令",
+      "test": "python kdo-tools/feature_menu.py stale → 超期清单；info F001 → 显示认证日期/复审期限",
+      "source": "90_control/schemas/*.yaml + kdo-tools/feature_menu.py",
+      "status": "active"
+    },
+    "DECISION_CLASSIFY": {
+      "id": "DECISION_CLASSIFY",
+      "name": "决策分类+claim-state",
+      "category": "cli",
+      "description": "#275：decisions.md 模板（D1-D4 + claim-state）+ D4 门禁（自我修改必须王语嫣/欧阳锋批准）+ kdo decision add 命令",
+      "test": "python kdo-tools/decision_add.py add \"X\" --type D4 --claim observed 无批准人 → 报错拦截",
+      "source": "kdo-tools/decision_add.py + .agent/decisions.md 模板",
+      "status": "active"
+    },
+    "SKILL_CRYSTALLIZE": {
+      "id": "SKILL_CRYSTALLIZE",
+      "name": "经验→技能自动结晶",
+      "category": "cli",
+      "description": "#279 jarvis 模式：扫描错误模式库+技能进化日志+复盘 → 同主题≥2次 → draft skill 候选（人审后 publish，不自动）",
+      "test": "python kdo-tools/skill_crystallize.py scan → 8 个候选；crystallized-* 进入 skill_lifecycle draft status",
+      "source": "kdo-tools/skill_crystallize.py",
+      "status": "active"
+    },
+    "SKILL_LIFECYCLE": {
+      "id": "SKILL_LIFECYCLE",
+      "name": "Skill 生命周期管理",
+      "category": "cli",
+      "description": "Skill draft→published→deprecated 三态管理 + eval 门禁（能力 eval/回归 eval/baseline 对比）。frontmatter 是唯一真相，set 带 round-trip 校验",
+      "test": "python kdo-tools/skill_lifecycle.py list → 39 个 skill 状态一览；eval image-ocr --apply → eval-log 追加",
+      "source": "kdo-tools/skill_lifecycle.py",
+      "status": "active"
+    },
+    "R1_REVIEW_INFRA": {
+      "id": "R1_REVIEW_INFRA",
+      "name": "lint 审查基建四类规则",
+      "category": "lint",
+      "description": "欧阳锋人工 grep 问题固化：#271 四类——R1-a reviewed缺字段 ERROR / R1-b 重复节名 ERROR / R1-c 仓库外路径 WARNING / R1-d 行号超界 WARNING",
+      "test": "status:reviewed 缺 reviewed_by 卡 → R1-a ERROR；双 ## Critique → R1-b ERROR",
+      "source": "kdo/workspace.py:_lint_status_review_fields 等 4 函数",
+      "status": "active"
+    },
+    "SKILL_BRIDGE_SYNC": {
+      "id": "SKILL_BRIDGE_SYNC",
+      "name": "双轨 Skill 同步",
+      "category": "cli",
+      "description": "shared(Hermes)→.claude(Claude Code) 单向同步：#267——格式转换（frontmatter 替换+触发词提取）+ 内容 hash 漂移检测 + references 同步。幂等",
+      "test": "python kdo-tools/skill_bridge_sync.py status → 缺失 0/漂移 0；sync --apply → 幂等",
+      "source": "kdo-tools/skill_bridge_sync.py",
+      "status": "active"
+    },
+    "FEISHU_DOC_MCP": {
+      "id": "FEISHU_DOC_MCP",
+      "name": "飞书文档操作 MCP",
+      "category": "cli",
+      "description": "#306 操作型 MCP：lark-cli 封装——create/fetch/update/search 飞书文档。权限模型：create/update 为写操作，仅限已授权文档空间；无 delete（high-risk 不暴露）",
+      "test": "python kdo-tools/mcp/feishu_doc_server.py --sse --port 8766 启动；冒烟：创建→写入→回读",
+      "source": "kdo-tools/mcp/feishu_doc_server.py",
       "status": "active"
     }
   }

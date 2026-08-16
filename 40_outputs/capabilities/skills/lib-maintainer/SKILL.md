@@ -10,6 +10,8 @@ description: |
   支持 PDF/Excel/Word/PPT/图片/音频。Agent自动完成，人只需说"把这个文件夹做成库"。
   触发词：建库、做成库、索引这个文件夹、文档入库、资产库、整理文档、
   做个知识库、文档太多找不到、帮我建个库、把文件整理一下。
+status: draft
+owner: huangyaoshi
 ---
 
 # LibMaintainer 通用文档库引擎

@@ -1,8 +1,10 @@
 ---
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 id: task_20260726_wangyuyan-debt-cleanup
 task_id: 207
 assignee: laowantong
-status: pending_review
+status: reviewed
 created_at: 2026-07-26
 updated_at: '2026-08-02T23:59:00+00:00'
 domain: system

@@ -13,6 +13,8 @@ triggers:
   - 需要解释提示词长短/精确度之间的关系时
 prerequisites:
   - ai-design-fundamentals（建议先了解模型选型）
+status: published
+owner: huangyaoshi
 ---
 
 # AI设计Prompt工程

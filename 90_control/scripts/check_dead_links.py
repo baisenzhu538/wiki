@@ -2,6 +2,11 @@
 # -*- coding: utf-8 -*-
 """全库死链扫描脚本"""
 import re
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 import os
 import glob
 import sys

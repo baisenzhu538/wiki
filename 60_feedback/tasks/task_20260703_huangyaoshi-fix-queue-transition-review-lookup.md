@@ -2,7 +2,7 @@
 id: task_20260703_huangyaoshi-fix-queue-transition-review-lookup
 title: 修复 queue_transition.py review 按 frontmatter id 查找任务单
 type: task
-status: queued
+status: done
 priority: P2
 assignee: 黄药师
 reviewer: 欧阳锋

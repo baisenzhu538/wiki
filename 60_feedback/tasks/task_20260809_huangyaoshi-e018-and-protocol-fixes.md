@@ -2,7 +2,7 @@
 id: task_20260809_huangyaoshi-e018-and-protocol-fixes
 task_id: 264
 assignee: huangyaoshi
-status: queued
+status: reviewed
 updated_at: 2026-08-09
 domain: system
 priority: P0

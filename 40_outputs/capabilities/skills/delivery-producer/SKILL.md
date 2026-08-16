@@ -177,3 +177,9 @@ Expected:
 - `60_feedback/corrections/` — factual errors found post-delivery
 - `60_feedback/issues/` — production procedure failures
 - `60_feedback/eval-results/` — failed eval cases recorded by `kdo eval`
+
+## 触发词
+
+**触发场景**：把编译后的 wiki 知识转化为可交付产物时——生成内容包、代码、文档、报告、PPT、教学材料；知识库内容落地为可分发资产。
+
+**负面例子（不要触发）**：知识库内部卡片生产（那是内容生产）；纯知识检索查询。

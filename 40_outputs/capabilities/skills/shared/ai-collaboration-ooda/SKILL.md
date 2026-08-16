@@ -4,7 +4,7 @@ description: OODA人机协作决策闭环——Observe/Orient/Decide/Act迭代�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [OODA, 迭代, 决策闭环, 反馈循环]

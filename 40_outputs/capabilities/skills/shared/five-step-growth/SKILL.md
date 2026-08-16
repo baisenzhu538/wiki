@@ -4,7 +4,7 @@ description: 五步法第四步：增长——增长引擎是什么？怎么规�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [增长, 获客, 留存, 增长飞轮, growth]

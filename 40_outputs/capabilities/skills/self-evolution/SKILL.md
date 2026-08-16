@@ -7,6 +7,8 @@ tags: [self-management, memory, skills, auto-improvement]
 source_domain: kimi-test (黄药师)
 bridged_by: 段智兴 (南帝)
 bridged_at: 2026-06-21
+status: published
+owner: huangyaoshi
 ---
 
 # Self-Evolution Skill

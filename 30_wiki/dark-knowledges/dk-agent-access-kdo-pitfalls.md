@@ -40,8 +40,9 @@ related:
   - '[[tool-kdo-help]]'
   - '[[tool-mcp-reachability-check]]'
   - '[[dk-c8-format-complete-mind-empty]]'
+  - '[[dk-feature-registry-count-drift]]'
 created_at: 2026-08-09
-updated_at: 2026-08-09
+updated_at: 2026-08-16
 tags:
   - audience:builder
   - scene:reference

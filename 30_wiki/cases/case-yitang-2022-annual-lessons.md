@@ -40,6 +40,8 @@ related:
   - "[[framework-yitang-project-execution]]"
   - "[[workflow-yitang-project-four-step-loop]]"
   - "[[yt-management-project-management]]"
+  - "[[case-meeting-roi-awakening]]"
+  - "[[dk-meeting-asset-harvest]]"
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

@@ -2,7 +2,7 @@
 id: task_20260808_wangyuyan-feature-consumption-pilot
 task_id: 252
 assignee: wangyuyan
-status: queued
+status: reviewed
 updated_at: 2026-08-08
 domain: ai-basic
 priority: P0

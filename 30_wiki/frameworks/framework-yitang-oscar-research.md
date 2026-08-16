@@ -6,45 +6,32 @@ status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-07
-quality_labels:
+quality_labels: null
 created_at: 2026-06-20
 updated_at: 2026-07-07
 confidence: 0.9
 trust_level: high
 language: zh-CN
-domain:
+domain: null
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 related:
+- framework-baozhashidiaochan-five-step
+- concept-research-saturation-coverage
+- framework-r-type-research-partner-five-state
+- tool-nine-character-mantra-14-strategies
+- concept-open-a-document
 discoverable_by:
-  - "OSCAR调研模型"
-  - "目标锁定到正确归因"
-  - "五步法调研"
+- OSCAR调研模型
+- 目标锁定到正确归因
+- 五步法调研
 diagnostic_signals:
-  lens: O步骤缺失——目标未锁定
-  follow-up: 强制用四种类型（选择题/解答题/设计题/竞争题）分类后重试
-  lens: S步骤失控——范围未缩小
-  follow-up: 写剥离清单，明确"本次不搜什么"
   lens: C步骤僵化——清单套模板
   follow-up: 根据本次目标重新设计关键词和来源类型
-tags:
-aliases:
-  - OSCAR调研模型：从目标锁定到正确归因的五步法
-  - OSCAR调研模型
-  - 从目标锁定到正确归因的五步法
-  - 定到正确归因
-  - 标锁定到正确归因的五步法
-  - 步法调研
-aliases:
-  - OSCAR调研模型：从目标锁定到正确归因的五步法
-  - OSCAR调研模型
-  - 从目标锁定到正确归因的五步法
-  - 调研模型
-  - 标锁定到正确归因
-  - 步法调研
+tags: null
 aliases: []
 ---
 # OSCAR调研模型：从目标锁定到正确归因的五步法

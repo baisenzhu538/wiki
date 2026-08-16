@@ -4,7 +4,7 @@ description: 域诊断——素材验收+置信度标记+盲区识别+任务清�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [KDO, 诊断, 素材验收, 把关, 王语嫣]

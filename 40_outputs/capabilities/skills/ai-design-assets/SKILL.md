@@ -12,6 +12,8 @@ triggers:
   - 需要搭建设计风格库/Moodboard时
 prerequisites:
   - ai-design-fundamentals（建议先了解模型选型）
+status: published
+owner: huangyaoshi
 ---
 
 # 设计资产管理规范

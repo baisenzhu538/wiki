@@ -2,15 +2,49 @@
 id: task_20260802_huangyaoshi-infra-jiangxiang-upgrade
 task_id: 220
 assignee: huangyaoshi
-status: queued
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 created_at: 2026-08-02
 domain: kdo
 priority: P0
 source:
   - 60_feedback/diagnosis/diag_20260802_huangyaoshi-kdo-infra-communication-upgrade.md
   - 60_feedback/diagnosis/diag_20260802_huangyaoshi-mcp-external-agent-experience.md
-updated_at: '2026-08-02T23:59:00+00:00'
+updated_at: '2026-08-09T00:00:00+00:00'
+claimed_at: 2026-08-09
 ---
+
+## 执行报告（2026-08-09 黄药师补交）
+
+### 状态盘点：8 项中 7 项已实现（08-03 完成），本次补齐剩余 2 项
+
+| 项 | 状态 | 说明 |
+|:--|:--:|:--|
+| P0-1 HINT_MAP 场景化 | ✅ 已实现 | kdo_lint.py ERROR_HINT_MAP（08-03） |
+| P0-2 cap_hub one_liner | ✅ 已实现 | registry.py 读 frontmatter one_liner（08-03） |
+| **P0-3 title/aliases/tags 门禁** | ✅ **本次补齐** | 新增 `_check_frontmatter_metadata`（见下） |
+| P0-4 MCP description 场景化 | ✅ 已实现 | tools.py（08-03） |
+| **P1-5 输出情绪化+路径感** | ✅ **本次补齐** | format_report PASS/FAIL 文案（见下） |
+| P1-6 query scene 分组 | ✅ 已实现 | delivery.py RRF scene boost（08-03，#208） |
+| P1-7 kdo_search 诊断字段 | ✅ 已实现 | tools.py score_label/diagnosis（08-03） |
+| P1-8 MCP 互引路由网 | ✅ 已实现 | tools.py Related tools 段（08-03） |
+
+### 本次实现明细
+1. **P0-3** `_check_frontmatter_metadata`（pre_submit.py）：title 空 → ERROR / aliases 无中文 → WARN / tags 缺 audience/scene → WARN。注册到主流程（run_pre_submit 追加调用）
+2. **P1-5** format_report 尾部：PASS 给成就感+下一步（"一次通过！欧阳锋这轮会很省心"）/ FAIL 给路径感（"先修 YAML 结构错误→再修内容错误→重跑看到 ✅ PASS 再提交"）
+
+### 狗粮测试（全过）
+| 场景 | 结果 |
+|:---|:---|
+| P0-3 正常卡 | ✅ 0 issue |
+| P0-3 缺 title | ✅ ERROR 阻断 |
+| P0-3 aliases 无中文 | ✅ WARN |
+| P0-3 tags 缺维度 | ✅ WARN |
+| P1-5 FAIL 文案 | ✅ 路径感 + 修法指引 |
+| P1-5 PASS 文案 | ✅ 成就感 + 下一步 |
+| 回归（validate_deep/ship_gate/workspace） | ✅ 78 passed |
+| 真实卡验证（3 张 framework） | ✅ 0 新增 P0-3 报 |
 
 # #220 KDO基础设施"讲香"升级：CLI触点 + MCP外部Agent体验（合并两份建议书）
 
@@ -62,3 +96,18 @@ updated_at: '2026-08-02T23:59:00+00:00'
 - 讲香口述稿：`00_inbox/讲香基本功-李頔-260731/讲香基本功-李頔-260731-口述.txt`
 - 搜索诊断：`60_feedback/diagnosis/2026-08-02-search-reachability-diagnosis.md`
 - 依赖文件：`90_control/scripts/kdo_lint.py` / `pre_submit.py` / `cap_hub/registry.py` / `kdo-tools/mcp/tools.py`
+
+## 终审记录（2026-08-09 欧阳锋·孤儿补审）
+
+**verdict: PASS A- · blocking: 无 · methodology v2.2**
+
+O3 独立验证：
+1. P0-3 实现确认：_check_frontmatter_metadata（kdo/pre_submit.py L177）三条件（title 空 ERROR/aliases 无中文 WARN/tags 缺 audience/scene WARN）
+2. P1-5 文案确认（L964 PASS"一次通过！修得干净，欧阳锋这轮会很省心"/L969 FAIL 路径感"先修 YAML 结构错误再修内容错误"）
+3. **缺 title 实测阻断**：kdo pre-submit 对无 title 测试卡输出 3 处 🔴 ERROR
+4. P0-1/P0-2/P0-4/P1-6/P1-7/P1-8 已实现（08-03）——8/8 全齐
+5. 边界遵守：纯输出/提示文本改动，CLI 行为逻辑未动；回归 78 passed
+
+🟢 观察：90_control/scripts/pre_submit.py 为旧版（无 P0-3）——`kdo pre-submit`（CLI 主命令）才是生效入口，建议旧脚本标注 deprecated 避免双入口混淆
+
+五维：溯源 90/逻辑 90/暗知识 80/可操作 90/表达 85 → 总分 88（A-）

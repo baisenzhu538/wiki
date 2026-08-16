@@ -32,6 +32,11 @@ related:
   - tool-qinpeng-ai-intelligent-service
   - framework-christensen-disruptive-innovation
   - concept-christensen-rpv-model
+  - dk-ai-builder-illusion
+  - yt-panproduct-execution-low-cost-mvp
+  - tool-遵循规模前倾原则设计组织架构
+  - yt-demand-quantitative-estimation
+  - dk-ai-as-last-step-not-first
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

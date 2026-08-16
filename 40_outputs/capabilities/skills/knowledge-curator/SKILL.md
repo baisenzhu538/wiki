@@ -161,3 +161,9 @@ Expected:
 - `60_feedback/corrections/` — factual errors in wiki enrichment
 - `60_feedback/issues/` — procedure failures or unexpected ingest behavior
 - `60_feedback/eval-results/` — eval case failures recorded by `kdo eval`
+
+## 触发词
+
+**触发场景**：把原始输入转化为持久、可溯源的 KDO 知识时——inbox 素材整理、原始资料提炼为知识卡、知识入库前的清洗与结构化、source-traceable 知识沉淀。
+
+**负面例子（不要触发）**：已有成型卡片做修改（那是卡片精修）；纯检索查询；知识内容创作（那是生产）。

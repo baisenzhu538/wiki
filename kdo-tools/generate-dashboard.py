@@ -7,12 +7,17 @@
 
 import re
 import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 from pathlib import Path
 from datetime import datetime
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_INPUT = ROOT / "70_product/tasks/production-queue.md"
 DEFAULT_OUTPUT = ROOT / "70_product/tasks/dashboard.html"
+TASKS_DIR = ROOT / "60_feedback" / "tasks"
 
 STATUS_LABELS = {
     "queued": ("待领取", "queued"),
@@ -69,6 +74,17 @@ def parse_queue(path: Path) -> list[dict]:
 
             priority = _extract_priority(name, notes)
 
+            # #284+ 终审等级提取：从注释列 "PASS(条件) A-/B+/C" 解析评定等级
+            grade = ""
+            conditional = False
+            if "PASS" in notes:
+                conditional = "条件" in notes
+                m = re.search(r"PASS(?:[（(]\s*条件\s*[）)])?\s*(A-|A|B\+|B-|B|C)", notes)
+                if m:
+                    grade = m.group(1)
+                elif "FAIL" in notes or "退回" in notes:
+                    grade = "FAIL"
+
             tasks.append({
                 "seq": seq,
                 "id": task_id,
@@ -81,6 +97,8 @@ def parse_queue(path: Path) -> list[dict]:
                 "source": source,
                 "notes": _truncate(notes, 120),
                 "priority": priority,
+                "grade": grade,
+                "conditional": conditional,
             })
     return tasks
 
@@ -159,6 +177,75 @@ def _status_group(status: str) -> str:
     return "done"
 
 
+def parse_rework_rounds() -> dict[str, dict]:
+    """#269: 从任务单 frontmatter 提取首交率数据（#267+ 起记录 rework 字段）。
+
+    约定（task-orchestration 硬规则 3 + #267 起）：
+      rework: 0   # 一次通过
+      rework: N   # 返工 N 次
+    无 rework 字段的任务单不计入分母（不拉低首交率），显示"记录中"。
+
+    返回 { "2026-08": {"pass": int, "total": int}, ... }
+    """
+    if not TASKS_DIR.is_dir():
+        return {}
+    months: dict[str, dict] = {}
+    for f in sorted(TASKS_DIR.glob("task_*.md")):
+        try:
+            text = f.read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            continue
+        fm = {}
+        m = re.match(r"^---\n(.*?)\n---", text, re.S)
+        if not m:
+            continue
+        for line in m.group(1).splitlines():
+            if ":" in line:
+                k, v = line.split(":", 1)
+                fm[k.strip()] = v.strip()
+        if "rework" not in fm:
+            continue
+        try:
+            rework = int(fm["rework"])
+        except ValueError:
+            continue
+        # 月份取 review_date（终审月）→ updated_at → 文件 mtime 兜底
+        date_src = fm.get("review_date") or fm.get("updated_at") or ""
+        month = date_src[:7] if re.match(r"^\d{4}-\d{2}", date_src) else datetime.fromtimestamp(f.stat().st_mtime).strftime("%Y-%m")
+        months.setdefault(month, {"pass": 0, "total": 0})
+        months[month]["total"] += 1
+        if rework == 0:
+            months[month]["pass"] += 1
+    return months
+
+
+def first_submit_rate_html(months: dict[str, dict]) -> str:
+    """#269: 首交率区块——本月首交率 + 近 3 月趋势。无数据优雅降级。"""
+    if not months:
+        return """<div class="fsr-block">
+<div class="fsr-title">首交通过率 First-Submit Rate</div>
+<div class="fsr-empty">记录中 — 任务单补 `rework: 0/N` 字段后自动统计（#267+ 起）</div>
+</div>"""
+    cur = sorted(months.keys())[-1]
+    cur_data = months[cur]
+    rate = cur_data["pass"] / cur_data["total"] * 100 if cur_data["total"] else 0
+    trend_months = sorted(months.keys())[-3:]
+    trend_html = ""
+    for mm in trend_months:
+        d = months[mm]
+        r = d["pass"] / d["total"] * 100 if d["total"] else 0
+        bar = "█" * max(1, int(r / 10)) + "░" * (10 - max(1, int(r / 10)))
+        trend_html += f'<div class="fsr-trend"><span class="fsr-month">{mm}</span> <span class="fsr-bar">{bar}</span> <span class="fsr-pct">{r:.0f}%</span> <span class="fsr-count">({d["pass"]}/{d["total"]})</span></div>'
+    cls = "fsr-good" if rate >= 80 else ("fsr-mid" if rate >= 50 else "fsr-bad")
+    note = "编排侧：规格质量" if rate < 50 else "编排侧：执行质量"
+    return f"""<div class="fsr-block {cls}">
+<div class="fsr-title">首交通过率 First-Submit Rate · {cur}</div>
+<div class="fsr-big">{rate:.0f}%</div>
+<div class="fsr-sub">一次通过 {cur_data['pass']} / 共 {cur_data['total']} 个任务 · {note}</div>
+<div class="fsr-trends">{trend_html}</div>
+</div>"""
+
+
 def _task_card_html(task: dict, show_group: str) -> str:
     p = task["priority"].lower()
     status_groups = {
@@ -166,10 +253,14 @@ def _task_card_html(task: dict, show_group: str) -> str:
         "queued": ("待领取", "queued"),
         "active": ("进行中", "active"),
     }
+    grade_badge = ""
+    if task.get("grade"):
+        cond_mark = "⚠" if task.get("conditional") else ""
+        grade_badge = f'<span class="task-grade g-{task["grade"].replace("+", "p")}">{task["grade"]}{cond_mark}</span>'
     return f"""<div class="task-card">
 <div class="task-prio {p}">{task['priority']}</div>
 <div class="task-info">
-<div class="task-id">#{task['seq']}</div>
+<div class="task-id">#{task['seq']}{grade_badge}</div>
 <div class="task-title">{task['name']}</div>
 <div class="task-detail">{task['notes'] or task['cards'] + ' 张卡' if task['cards'] and task['cards'] != '0' else ''}</div>
 </div>
@@ -209,18 +300,22 @@ def generate_html(tasks: list[dict], output: Path) -> None:
         "pending": ("审查中 · 等待欧阳锋", "pending"),
         "queued": ("待领取", "queued"),
         "active": ("进行中", "active"),
+        "done": ("已完成 · 终审评级", "done"),
     }
 
     sections_html = ""
     for key, (label, cls) in section_labels.items():
-        if not grouped[key]:
+        items = grouped[key] if key != "done" else [t for t in grouped["done"] if t.get("grade")]
+        if not items:
             continue
-        cards = "\n".join(_task_card_html(t, key) for t in grouped[key])
+        cards = "\n".join(_task_card_html(t, key) for t in items)
         sections_html += f"""
 <div class="task-group">
 <div class="group-header {cls}">{label}</div>
 {cards}
 </div>"""
+
+    fsr_html = first_submit_rate_html(parse_rework_rounds())
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     html = f"""<!DOCTYPE html>
@@ -249,6 +344,7 @@ h1{{font-size:20px;font-weight:700;margin-bottom:4px;letter-spacing:-0.3px}}
 .group-header.queued{{background:rgba(240,173,78,.12);color:var(--queued)}}
 .group-header.pending{{background:rgba(92,184,92,.12);color:var(--review)}}
 .group-header.active{{background:rgba(26,115,232,.12);color:var(--ai)}}
+.group-header.done{{background:rgba(107,112,128,.12);color:var(--muted)}}
 .task-card{{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin-bottom:8px;display:flex;align-items:center;gap:14px;transition:border-color .15s}}
 .task-card:hover{{border-color:#4a4d57}}
 .task-prio{{width:28px;height:28px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;flex-shrink:0}}
@@ -256,7 +352,13 @@ h1{{font-size:20px;font-weight:700;margin-bottom:4px;letter-spacing:-0.3px}}
 .task-prio.p1{{background:rgba(240,173,78,.2);color:var(--queued)}}
 .task-prio.p2{{background:rgba(107,112,128,.2);color:var(--muted)}}
 .task-info{{flex:1;min-width:0}}
-.task-id{{font-size:11px;color:var(--muted);margin-bottom:2px}}
+.task-id{{font-size:11px;color:var(--muted);margin-bottom:2px;display:flex;align-items:center;gap:6px}}
+.task-grade{{font-size:10px;font-weight:800;padding:1px 5px;border-radius:4px}}
+.task-grade.g-A{{background:rgba(60,179,113,.25);color:#2e9e66}}
+.task-grade.g-Ap{{background:rgba(60,179,113,.25);color:#2e9e66}}
+.task-grade.g-Bp{{background:rgba(240,173,78,.3);color:#d99a2b}}
+.task-grade.g-B{{background:rgba(240,173,78,.2);color:#c98a1e}}
+.task-grade.g-C{{background:rgba(217,83,79,.25);color:var(--blocked)}}
 .task-title{{font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
 .task-detail{{font-size:12px;color:var(--muted);margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
 .task-meta{{display:flex;gap:12px;align-items:center;flex-shrink:0}}
@@ -266,6 +368,16 @@ h1{{font-size:20px;font-weight:700;margin-bottom:4px;letter-spacing:-0.3px}}
 .task-assignee.wangyuyan{{background:rgba(92,184,92,.12);color:var(--review)}}
 .task-assignee.ouyangfeng{{background:rgba(240,173,78,.12);color:var(--queued)}}
 .task-eta{{font-size:12px;color:var(--muted)}}
+.fsr-block{{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;margin-bottom:24px}}
+.fsr-block.fsr-good{{border-color:#2a4a3a}}.fsr-block.fsr-mid{{border-color:#4a3a10}}.fsr-block.fsr-bad{{border-color:#4a2a2a}}
+.fsr-title{{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-bottom:8px}}
+.fsr-big{{font-size:32px;font-weight:800;color:var(--review)}}
+.fsr-sub{{font-size:12px;color:var(--muted);margin-bottom:12px}}
+.fsr-trend{{font-size:12px;color:var(--muted);margin-top:4px;font-family:monospace}}
+.fsr-bar{{color:var(--review)}}
+.fsr-pct{{color:var(--text);font-weight:600}}
+.fsr-count{{color:var(--muted)}}
+.fsr-empty{{font-size:13px;color:var(--muted)}}
 footer{{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;padding-top:16px;border-top:1px solid var(--border)}}
 </style>
 </head>
@@ -276,6 +388,8 @@ footer{{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;padd
 <div class="stats">
 {stats_html}
 </div>
+
+{fsr_html}
 
 {sections_html}
 

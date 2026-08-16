@@ -27,12 +27,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
-aliases:
-  - 四象限能力诊断与六种缺失识别
-  - 调研雷达图
-  - 调研雷达图：四象限能力诊断与六种缺失识别
-  - 限能力诊断与六种缺失识别
-  - 雷达图
+aliases: []
 source_refs:
 - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 - 00_inbox/调研专题/调研雷达图_vlm_desc.md
@@ -46,11 +41,15 @@ related:
 - '[[framework-yitang-high-level-execution]]'
 - '[[framework-yitang-high-level-plan]]'
 - '[[framework-yitang-oscar-research]]'
+- framework-baozhashidiaochan-five-step
+- concept-research-saturation-coverage
+- framework-r-type-research-partner-five-state
+- tool-nine-character-mantra-14-strategies
+- concept-open-a-document
 tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases: []
 discoverable_by:
 - 调研能力诊断
 - 调研雷达图

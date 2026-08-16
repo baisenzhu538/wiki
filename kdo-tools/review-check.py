@@ -25,8 +25,9 @@ AGENTS = {
     "sales-dialogue-assistant": ("销售对话参谋", True),
 }
 
-# Truman 10章必须标题（用于格式完整性检查）
+# Truman 11章必须标题（用于格式完整性检查）——2026-08-09 #268 新增差异栏
 TEN_CHAPTERS = [
+    "差异栏",
     "概要",
     "关键决策",
     "思维盲点",
@@ -66,9 +67,23 @@ def check_retrieval(content: str) -> dict:
 
 def check_content_depth(content: str, size: int) -> dict:
     """检查复盘内容深度，返回等级和详情。"""
-    chapters_found = [ch for ch in TEN_CHAPTERS if ch in content]
+    # 兼容数字标题格式（## 1. 做了什么 → 概要）：历史复盘用数字标题，标准标题也认
+    import re as _re
+    ALIASES = {
+        "做了什么": "概要", "关键决策": "关键决策", "新资产": "过程资产",
+        "新问题/阻塞": "思维盲点", "踩坑": "思维盲点", "顿悟": "顿悟",
+        "下次启动最需要记住": "元反思", "五步法反思": "思维盲点",
+        "角色定位": "概要", "黄牌/表扬": "飞轮效应", "必做": "下次改进",
+        "对照实验": "对照实验", "下次改进": "下次改进",
+    }
+    normalized = _re.sub(r"^## \d+\. ", "## ", content, flags=_re.M)
+    for alias, canon in ALIASES.items():
+        normalized = normalized.replace(f"## {alias}", f"## {canon}")
+    chapters_found = [ch for ch in TEN_CHAPTERS if ch in normalized]
     chapter_count = len(chapters_found)
-    missing = [ch for ch in TEN_CHAPTERS if ch not in content]
+    missing = [ch for ch in TEN_CHAPTERS if ch not in normalized]
+    # 差异栏/盲点/检索均基于 normalized 计算
+    content = normalized
 
     # 检查盲点是否追问了"为什么"
     blindspot_has_why = False
@@ -82,12 +97,25 @@ def check_content_depth(content: str, size: int) -> dict:
 
     retrieval = check_retrieval(content)
 
-    # A 级：≥3000B + 10章 + 盲点≥2且有追问 + 检索有发现（§10.4.1 A级要求）
-    if (size >= 3000 and chapter_count == 10
-            and blindspot_count >= 2 and blindspot_has_why
+    # 差异栏非空校验（#268：空白 = 重复自审，降级 C）
+    diff_blank = False
+    if "差异栏" in content:
+        diff_start = content.find("差异栏")
+        diff_end = content.find("##", diff_start + 1)
+        diff_section = content[diff_start:diff_end] if diff_end > 0 else content[diff_start:]
+        diff_body = diff_section.split("\n", 1)[1] if "\n" in diff_section else ""
+        diff_blank = len(diff_body.strip()) == 0
+
+    # A 级：≥3000B + 11章 + 差异栏非空 + 盲点≥2且有追问 + 检索有发现（§10.4.1 A级要求）
+    if (size >= 3000 and chapter_count == 11
+            and not diff_blank and blindspot_count >= 2 and blindspot_has_why
             and retrieval["has_discovery"]):
         grade = "A"
         emoji = "🟢"
+    # C 级：差异栏空白（#268 重复自审红线）
+    elif diff_blank:
+        grade = "C"
+        emoji = "🔴"
     # B 级：≥1500B + 8章以上 + 盲点≥1 + 至少提及检索（§10.4.1 B级要求）
     elif size >= 1500 and chapter_count >= 8 and retrieval["has_retrieval"]:
         grade = "B"
@@ -104,6 +132,7 @@ def check_content_depth(content: str, size: int) -> dict:
         "missing": missing,
         "blindspot_count": blindspot_count,
         "blindspot_has_why": blindspot_has_why,
+        "diff_blank": diff_blank,
         "retrieval": retrieval,
     }
 
@@ -173,17 +202,17 @@ def print_report(results: list, today: str):
             print(f"  {label:<32} ⏸️ 非活跃")
         elif r["grade"] == "A":
             retrieval_note = " 📚检索有发现" if r.get("retrieval", {}).get("has_discovery") else ""
-            print(f"  {label:<32} 🟢 A级 ({r['size']}B) — {r['chapter_count']}/10章，盲点≥2且有追问{retrieval_note}")
+            print(f"  {label:<32} 🟢 A级 ({r['size']}B) — {r['chapter_count']}/11章，盲点≥2且有追问{retrieval_note}")
         elif r["grade"] == "B":
             missing_str = f"，缺{'、'.join(r['missing'][:3])}" if r['missing'] else ""
             retrieval_note = " ✅已检索" if r.get("retrieval", {}).get("has_retrieval") else ""
-            print(f"  {label:<32} 🟡 B级 ({r['size']}B) — {r['chapter_count']}/10章{missing_str}{retrieval_note}")
+            print(f"  {label:<32} 🟡 B级 ({r['size']}B) — {r['chapter_count']}/11章{missing_str}{retrieval_note}")
         else:
             reasons = []
             if r.get('size', 0) < 1500:
                 reasons.append(f"仅{r['size']}B")
             if r.get('chapter_count', 0) < 8:
-                reasons.append(f"仅{r.get('chapter_count', 0)}/10章")
+                reasons.append(f"仅{r.get('chapter_count', 0)}/11章")
             if r.get('blindspot_count', 0) > 0 and not r.get('blindspot_has_why'):
                 reasons.append("盲点未追问")
             if not r.get("retrieval", {}).get("has_retrieval"):

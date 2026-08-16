@@ -4,7 +4,7 @@ description: CI竞争情报系统——Define→Gather→Analyze→Implement持�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [CI, 竞争情报, KITs, KIQs, battlecard, 持续监控]

@@ -4,7 +4,7 @@ description: 上市公司财报/招股书深度解读——基于一堂方法论
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [research, 财报, 招股书, 上市公司, 年报, 财务分析]

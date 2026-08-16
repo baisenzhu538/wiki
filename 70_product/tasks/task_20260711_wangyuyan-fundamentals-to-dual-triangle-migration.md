@@ -2,7 +2,7 @@
 id: task_20260711_wangyuyan-fundamentals-to-dual-triangle-migration
 title: 基本功课程 → 双三角体系迁移：命名对齐、三环验证、40卡六要素归类、武器库段位合并
 type: task
-status: queued
+status: closed_superseded
 domain:
   - yitang
   - ai-collaboration
@@ -329,3 +329,11 @@ estimated_hours: 8-12
 ---
 
 *黄药师 · 2026-07-11*
+
+
+## ⚠️ CLOSE 处置（2026-08-09 #284 队列健康扫描——机制 4 首次实战）
+
+- **被取代**：执行部分已由 task_20260711_wangyuyan-fundamentals-dual-triangle-factory-buildout（#151 工厂线，reviewed）+ #150（产内容线）完成——buildout 任务单明确"原始建议书保留归档"
+- 40 卡六要素归类：已在 #150 40 卡导航辅列完成（多入口索引）
+- 命名对齐/术语桥接：并入 #150 总纲卡术语边界节
+- 本任务作为诉求来源保留（§2 四字诀→六要素映射仍有检索价值），不再执行

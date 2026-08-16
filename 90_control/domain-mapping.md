@@ -15,7 +15,7 @@
 | 发布 | （无对应 digest） | — | — |
 | 多模态 | （无对应 digest） | — | — |
 | 战略 | strategy-domain-digest | — | 139 |
-| 销售管理 | （无对应 digest） | 销售 | 23 |
+| 销售管理 | sales-domain-digest | 销售 | 30+ |
 | 调研 | yitang-research-domain-digest | — | 192 |
 | 需求分析 | domain-demand-analysis-index | — | 25 |
 
@@ -28,6 +28,7 @@
 | decision-science-domain-digest | 科学决策域 |
 | design-moc | 设计域 MOC |
 | human-ai-collaboration-double-triangle | 人机协作双三角 |
+| human-insights-domain-digest | **人域（认识他人→影响他人→自我认知）** 2026-08-09 #283 |
 | innovation-domain-digest | 创新域 |
 | lean-startup-domain-digest | 精益创业域 |
 | management-domain-digest | 管理域 |

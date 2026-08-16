@@ -4,7 +4,7 @@ description: GAN三角色架构——生成器/判别器/合成器，多模型�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [GAN, 三角色, 对抗验证, 多Agent, 自检]

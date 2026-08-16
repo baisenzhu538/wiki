@@ -543,7 +543,7 @@ related:
 id: <严格匹配文件名>
 type: <framework/tool/concept/case/dk>
 title: <一句话标题>
-status: enriched
+status: reviewed
 domain:
   - yitang
   - growth

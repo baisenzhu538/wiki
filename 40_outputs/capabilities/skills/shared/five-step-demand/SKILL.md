@@ -4,7 +4,7 @@ description: 五步法第一步：需求分析——需求是否真实？市场�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [需求分析, 真需求, 市场规模, 用户画像]

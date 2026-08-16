@@ -4,7 +4,7 @@ description: 行业报告调研——Doris四步法+搜索七技，7天快速建
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [research, 行业报告, 市场研究, 市场规模, 赛道分析, 产业链]

@@ -1,5 +1,10 @@
 """将 index.md 从 1846 链超级枢纽重建成域级 MOC。"""
 from pathlib import Path
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 import re
 from datetime import datetime, timezone
 

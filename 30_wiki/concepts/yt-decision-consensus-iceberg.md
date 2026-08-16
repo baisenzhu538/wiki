@@ -79,6 +79,9 @@ related:
 - '[[yt-decision-review]]'
 - '[[yt-decision-height-toolkit]]'
 - '[[yt-management-scientific-decision]]'
+- '[[framework-meeting-ten-principles]]'
+- '[[dk-meeting-rederive]]'
+- '[[yt-management-scientific-meetings]]'
 author: 老顽童
 tags:
 - audience:executor

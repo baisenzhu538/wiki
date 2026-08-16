@@ -34,6 +34,9 @@ related:
   - yt-panproduct-demand-need-discovery
   - yt-panproduct-execution-low-cost-mvp
   - tool-需求挖掘
+  - yt-demand-quantitative-estimation
+  - yt-demand-level-assessment
+  - tool-马易-风口痛点识别法
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

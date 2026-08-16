@@ -31,7 +31,7 @@ discoverable_by:
   - KDO工具
   - 工厂基建
 diagnostic_signals:
-  - signal: 'KDO 域 52 张卡——基建知识、事故教训、工具脚本分散在各目录'
+  - signal: 'KDO 域 53 张卡——基建知识、事故教训、工具脚本分散在各目录'
     severity: medium
     implication: '新黄药师会话启动时不知道有什么工具/教训可用——需要 MOC 做失忆恢复导航'
   - signal: 'KDO 域是唯一"工厂建设者"视角的域——其他域是方法论使用者视角'
@@ -57,7 +57,7 @@ related:
 
 # KDO 主题域 MOC
 
-> **定位**：KDO 域是黄药师的专属域——KDO 自身的基建知识、事故教训、工具脚本。52 张卡。此 MOC 是黄药师失忆恢复和新 Agent 入职的首选导航。
+> **定位**：KDO 域是黄药师的专属域——KDO 自身的基建知识、事故教训、工具脚本。53 张卡。此 MOC 是黄药师失忆恢复和新 Agent 入职的首选导航。
 
 ## 一句话
 
@@ -96,7 +96,8 @@ KDO 主题域 MOC（本卡）
 │   ├── dk-tool-chain-naming-is-infrastructure ← 工具命名就是基础设施
 │   ├── dk-state-residue-is-the-silent-killer ← 状态残留是隐形杀手
 │   ├── dk-kdo-leaky-pipe-pressure            ← 管道漏水：堵了就硬塞
-│   └── dk-agent-access-kdo-pitfalls          ← 外部Agent接入三连坑：审批门禁/cwd格式/检索规则过时
+│   ├── dk-agent-access-kdo-pitfalls          ← 外部Agent接入三连坑：审批门禁/cwd格式/检索规则过时
+│   ├── dk-feature-registry-count-drift        ← Feature注册表数量漂移：引用数字的文档系统性滞后（2026-08-16）
 │
 ├── 工具与流程层
 │   ├── tool-mcp-reachability-check           ← 可发现性自查
@@ -118,6 +119,6 @@ KDO 主题域 MOC（本卡）
 
 ## KDO 域特色
 
-- **黄药师专属**：52 张卡中大部分是 Builder 职责——基建、教训、工具。其他角色偶尔查阅
+- **黄药师专属**：53 张卡中大部分是 Builder 职责——基建、教训、工具。其他角色偶尔查阅
 - **事故教训密集**：E010/P-42/delivery path bug 全部来自 8/3-8/4 事故窗口——KDO 域是"事故驱动进化"的活记录
 - **与 master 域互补**：master 是跨域通用方法论，kdo 是 KDO 自身基建。两者有重叠但视角不同——master 看全局，kdo 看工厂

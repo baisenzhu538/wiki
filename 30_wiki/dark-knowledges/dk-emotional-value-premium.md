@@ -4,7 +4,7 @@ title: 「暗知识：情绪价值溢价——功能1.5倍上限，情绪10-100�
 type: dk
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: '2026-08-05'
+review_date: 2026-08-09
 confidence: 0.85
 trust_level: medium-high
 domain:

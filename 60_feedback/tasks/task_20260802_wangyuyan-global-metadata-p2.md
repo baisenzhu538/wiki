@@ -2,7 +2,9 @@
 id: task_20260802_wangyuyan-global-metadata-p2
 task_id: 224
 assignee: hermes
-status: pending_review
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-08-04
 created_at: 2026-08-02
 domain: kdo
 priority: P2
@@ -374,3 +376,7 @@ methodology v2.1；verdict pass（主任务完成）；blocking [🔴0, 🟡0]�
 1. ✅ 欧阳锋判断成立——3张均hermes引入，模板缺陷属实（同类第3次）
 2. dk-yi-tang **不归#229**（#229清单已撤回18→17张），归hermes修复
 3. 熔断维持50张/批 + hermes修1张+定位模板bug
+
+## E019 状态对齐（2026-08-09 欧阳锋·孤儿补登记）
+
+正文已含 2026-08-04 终审记录（见上"终审"节），frontmatter 状态滞后为 pending_review——本次对齐为 reviewed（#224 主任务终审 PASS（2026-08-04 正文记录：条件 PASS → 最终验收 PASS 主任务完成）；本次为 E019 状态对齐，非重新终审）。

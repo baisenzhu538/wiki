@@ -9,7 +9,9 @@ confidence: 0.86
 trust_level: high
 language: zh-CN
 created_at: 2026-07-11
-updated_at: 2026-07-11
+updated_at: 2026-08-16
+deploy_status: seed
+deploy_note: 未部署（agents/ 无对应目录）——管理域"通用基本功教练"为将来建设项，本产物为素材种子（2026-08-16 用户校准：通用基本功教练非当下急需，当下重点是 AI 基本功教练 basic-skills-coach）。建设时以此为基础走 #263 流水线。
 domain:
 - management
 - yitang
@@ -65,6 +67,20 @@ quality_labels:
 # 一堂基本功教练 Agent
 
 > **一句话**：不是替你管团队，是帮你"把基本功练出来"——诊断卡在哪一环（拆/建/推/练）→ 调对应工具卡 → 给训练计划与标尺 → 盯反馈闭环。
+
+---
+
+## 〇、检索优先（2026-08-16 #327/#331 快照迁移机制化）
+
+**先 kdo query 再查路径表**：任何基本功/管理方法问题，先语义检索找新知识（2026-08 后新卡不在下方固定卡表里），路径表兜底：
+
+```bash
+cd C:\Users\Administrator\Desktop\wiki && kdo query "<问题>" --limit 5
+```
+
+- 引用卡名必须检索实证（E020 教训：凭记忆写卡名=全错）
+- 检索无结果时才按本文件固定 related 卡表深读
+- 管理域 digest（management-domain-digest）为域导航入口，新卡先查 digest
 
 ---
 

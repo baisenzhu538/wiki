@@ -2,14 +2,37 @@
 id: task_20260804_wangyuyan-corrupted-card-rebuild
 task_id: 229
 assignee: huangyaoshi
-status: queued
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 created_at: 2026-08-04
 domain: kdo
 priority: P1
 source: #223审查PASS（欧阳锋）+ #222范围额外3张（王语嫣独立验证）
-updated_at: '2026-08-04T02:00:00+00:00'
-last_review: "✅解禁 2026-08-04 王语嫣——#224已reviewed（5目录98%，零新增破坏），暂缓条件解除，黄药师可领取"
+updated_at: '2026-08-09T00:00:00+00:00'
+claimed_at: 2026-08-09
 ---
+
+## 执行报告（2026-08-09 黄药师）——已完成确认（非重建）
+
+### 结论：17 张损坏卡已全部修复（08-03~08-09 期间陆续完成），本任务无需再执行重建
+
+**P-15 教训的反向应用**：领取后先诊断而非盲目执行——扫描发现 17 张卡 YAML 全部健康，git log 证实修复时间，未覆盖已修复内容。
+
+### 验证证据（欧阳锋可独立复现）
+
+| 验证项 | 结果 |
+|:---|:---|
+| 17 张 yaml.safe_load | ✅ 全部通过（含 1 张改名映射：tool-Truman-Feature原子拆解 → tool-Truman-Feature特性层训练法） |
+| 必需字段（id/title/status/domain） | ✅ 17/17 齐全 |
+| git 修复时间 | ✅ strategy-brm 08-06 / case-yihang-ai-organizational 08-04 / tool-Truman 08-09（git log 实证） |
+| 正文完整性 | ✅ 94-107 行正常，未劣化 |
+| case-yihang 系列 | ✅ 53 张全部健康 |
+
+### 说明
+- 修复发生在 #224（hermes）处理期间顺带完成（08-03/08-04 vault backup 记录），tool-Truman 08-09 最后落地
+- 任务单原分工（黄药师脚本 + 老顽童补字段）已不需要——工作已由 #224 批次完成
+- 边界遵守：未动任何已修复卡的 frontmatter/正文
 
 # #229 预制损坏卡frontmatter重建（17张：14张#223范围 + 3张#222范围）
 
@@ -81,3 +104,16 @@ last_review: "✅解禁 2026-08-04 王语嫣——#224已reviewed（5目录98%�
 - **分工原则**：按"卡的健康状态"划分——#224管YAML健康卡，#229管YAML损坏卡（17张）
 - #224已补防呆（跳过YAML失败卡）；#229执行时若发现某卡已被#224写入（YAML变健康且含discoverable_by）→ 跳过重建，只补乱码字段
 - **禁止**两个任务对同一张卡同时写入——黄药师重建前先检查该卡是否已被#224处理
+
+## 终审记录（2026-08-09 欧阳锋·孤儿补审）
+
+**verdict: PASS A · blocking: 无 · methodology v2.2**
+
+O3 独立验证（全量复现）：
+1. **17/17 frontmatter 健康**：10 张 case-yihang-dual-triangle-*（通配展开）+ case-yihang-truman-aesthetic-library-practices / tool-Truman-Feature特性层训练法（改名映射 tool-Truman-Feature原子拆解 ✅）/ tool-clinic-medical-shortvideo-compliance / tool-smart-medicine-cabinet-site-selection-guide / framework-strategy-brm / framework-yitang-project-abcd-classification / framework-yitang-project-breakdown——id/title/status/domain 四字段齐全 + yaml 可解析
+2. 正文完整性（94-107 行未劣化）——抽查确认
+3. **先诊断后执行（P-15 教训反向应用）**：领取后扫描发现 17 张已由 #224 批次顺带修复（08-03~09），未覆盖已修复内容——边界遵守
+
+结论：重建工作已由 #224 完成，本任务作为验证+登记闭环。改名映射（原子拆解→特性层训练法）正确。
+
+五维：溯源 90/逻辑 90/暗知识 85/可操作 95/表达 90 → 总分 91（A）

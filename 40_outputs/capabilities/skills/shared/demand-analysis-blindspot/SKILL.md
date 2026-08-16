@@ -4,7 +4,7 @@ description: 需求盲区扫描——2B/2C全量维度检查，MECE穷举
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [盲区, 穷举, MECE, 2B, 2C, 全量字典]

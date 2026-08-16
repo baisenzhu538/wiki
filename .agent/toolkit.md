@@ -121,6 +121,15 @@ with QueueLock("production-queue"):
 
 > **Graph RAG 是纯本地**：sklearn HashingVectorizer，查询时零 API 调用。索引在 `.kdo/graph_index/`。
 
+### MCP 服务（#306 #C 登记，2026-08-10）
+
+| MCP | 类型 | server | 工具 | 挂载点 |
+|:--|:--|:--|:--|:--|
+| **kdo** | 检索型 | `kdo-tools/mcp/server.py` | kdo_search/onboard/read/capabilities | WorkBuddy（.workbuddy/mcp.json）✅ / Claude Code ✅ / 飞书 agent 待 #308 |
+| **feishu-doc** | 操作型 | `kdo-tools/mcp/feishu_doc_server.py` | feishu_doc_create/fetch/update/search | 任意 MCP 客户端（stdio/SSE 模板见 config.yaml）——**写操作仅限授权文档空间，无 delete** |
+
+> 完整部署记录（谁配在哪、客户端清单）见 `kdo-tools/mcp/config.yaml` 的 `deployments:` 节——接 MCP 前先查这里，别搜错地方（E020 教训）。
+
 ---
 
 ## 三、Git 命令速查

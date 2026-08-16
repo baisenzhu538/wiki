@@ -4,7 +4,7 @@ description: 内容生产总入口——Candy九步法：从素材到可交付�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [内容生产, 逐字稿, 写作, Candy, 九步法]

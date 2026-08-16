@@ -2,7 +2,7 @@
 id: task_20260703_laowantong-yitang-Y-model-stub-completion
 title: "#51 收尾：实事求是 / 解放思想 framework 卡补全"
 type: task
-status: queued
+status: closed_cancelled
 priority: P1
 assignee: 老顽童(Kimi)
 reviewer: 欧阳锋

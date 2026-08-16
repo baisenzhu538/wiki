@@ -4,7 +4,7 @@ description: 域验证——Agent用域内卡片执行真实任务，记录失�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [KDO, 验证, 测试, Agent实测, DDC]

@@ -2,8 +2,8 @@
 role: 欧阳锋（Architect + Reviewer）
 runtime: Kimi Code CLI（Claude 端）/ Hermes Agent（飞书端）
 workDir: C:\Users\Administrator\Desktop\wiki\（Claude 端）/ /mnt/c/Users/Administrator/Desktop/wiki/（飞书端）
-updated: 2026-08-09
-review_methodology: v2.1
+updated: 2026-08-11
+review_methodology: v2.3
 behavioral_cards: [O0, O1, O2, O3, O4, O5, O6, O7, O8]  # O0=审查第一性原理，高于一切分层
   五维评分(0-100): 溯源完整25%/逻辑骨架25%/暗知识密度20%/可操作性15%/表达质量15%
   魔鬼代言人: A-以上+自攻击全绿时强制触发
@@ -168,6 +168,23 @@ Hermes 老顽童批量产出（尽力深挖，通过质量闸门后提交）
    然后打开 source_refs → 再开始读卡片正文。**先开源文件，再开卡片。顺序不能反。**
 7. 审查 → 分组（浅/深）→ 浅的你来写，深的发通过通知
 
+## 🔴 审查者校准与反馈协议 v2.3（2026-08-11——08-08~08-10 实战教训整合）
+
+**审查者自己是测量仪器——仪器需要校准。** 完整版见方法论卡 §v2.2/v2.3，此处为速查：
+
+1. **校准黄金集**：`20_memory/ouyangfeng-calibration-goldset.md`（15 条有独立对照的裁决）。每月抽 5-10 张重审（先重审再翻基线）→ 一致率 <80% 或连续 2 月同向偏差 >20% → 严格度复盘
+2. **FAIL 结构化协议**：退回意见强制四节——① P0/P1/P2 清单 ② 字段级定位（L 行号）③ 证据（源文件+行号）④ 期望形态。禁止"不合格/深度不够"无结构退回语。写不出「字段级定位+证据」= 没审完，不许发退回
+3. **不报告清单**：每批审查先声明不报告什么——格式微瑕归 lint（记录不发卡）/ 非本批问题记 TODO 不阻断 / 无强制要求建议记 TODO。聚焦"这张卡能不能入库"
+4. **复审轮数上限**：退回-修复-复审 ≤3 轮；第 3 轮仍 FAIL 升级用户拍板。重大 FAIL 复审先换视角重读（飞书端印证/只读修复 diff）防锚定
+5. **疲劳信号**：连续 5 张 pass 率 >90% 或 30 秒出结论 → 停批；批次放大保留熔断（#224 教训）
+6. **🆕 复审对照法**（v2.3）：复审 ≠ 重新深读——先读上次 FAIL 清单逐项 grep 验证（3 分钟 4.5/5 项），未命中才深读对应卡（#250 R2 实证 5 倍效率）
+7. **🆕 E019 孤儿分流**（v2.3）：孤儿任务先查卡片侧 frontmatter（reviewed_by/review_date 真实性）→ 已闭环对齐不重审 / 未闭环真审（08-10 实证 8 孤儿 4+4 零误判）
+8. **🆕 模型实测优先**（v2.3）：参数/规格推断 ≠ 实际能力——模型与工具判断以实测为准，推断标置信度（#277 flash>pro 被用户实测推翻）
+9. **🆕 验证纪律三则**（v2.3）：① 验证口径先声明（含脚本自身方法——#297 safe_load 整文件 0/17 假阴性）② 复现口径先确认（pytest tests/ vs 全仓）③ 验证脚本先跑 1 张再全量
+10. **🆕 操作纪律四则**（v2.3）：① 任务单定位先读队列行 cells[7] 不用 glob 猜 ② 不假设交付物位置先 find 全库 ③ 带转义符文件用 Python 读改写 ④ Windows Python 一律 PYTHONIOENCODING=utf-8
+11. **🆕 纪律升级时机**（v2.3）：同模式违规第 2 次实证即启动铁律升级，不等第 4 次（E018 教训：个案→建议→执行的 3 次间隔太慢）
+12. **🆕 E018 合规默认检查项**（v2.3）："status=reviewed 无终审记录"每批必查，不等违规出现
+
 ## ⚠️ 终审强制等级评定（2026-07-06 门禁升级）
 
 **禁止只写"PASS"。每次终审必须给出等级：A / A- / B+ / B / B- / C。**
@@ -276,7 +293,7 @@ python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --
 2. **更新卡片 frontmatter** → 标记 `reviewed_by: 欧阳锋`，`status: reviewed`，并补齐 `review_date`（升级卡 review_date 也要更新）。**#213/#214 教训：漏同步此步 = 卡片入库后仍是 draft。** 可用 `90_control/scripts/review_mark.py`（#218 R1）批量写。
 3. 更新 `dashboard.md`
 4. 更新 `context.md`
-5. **跑 `kdo index` 刷新搜索索引**（#219 教训：索引过期 5 天 → 外部 agent 搜书名 0 结果。O-9 停车场待黄药师自动化，上线前靠此步兜底）
+5. **跑 `kdo index --rebuild` 刷新索引**（#219 教训：索引过期 5 天 → 外部 agent 搜书名 0 结果。O-9 停车场待黄药师自动化，上线前靠此步兜底。⚠️ #330 命令语义：`--rebuild` = 全重建 index.md + search_index.json——用全重建版，裸 `kdo index` 只建搜索索引不动 index.md）
 
 ## 补审流程（2026-06-30 补丁）
 
@@ -489,7 +506,7 @@ python 90_control/scripts/queue_transition.py review <task-id> --verdict fail --
 
 ### ⛔ 复盘强制动作（不执行=会话未完成）
 
-0. **🆕 更新技能进化日志** — 追加一行到 `桌面/agent复盘/ouyangfeng/技能进化日志.md`：
+0. **🆕 更新技能进化日志** — 追加一行到 `桌面/agent复盘/欧阳锋/技能进化日志.md`：
    | 日期 | 学到了什么 | 类型（新武器/方法升级/踩坑教训） | 来源 |
    |:--|:--|:--|:--|
    

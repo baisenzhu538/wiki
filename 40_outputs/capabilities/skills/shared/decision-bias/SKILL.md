@@ -4,7 +4,7 @@ description: 决策偏见速查——9种常见决策暗知识，决策前必过
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [偏见, 认知偏差, bias, 决策陷阱, 暗知识]

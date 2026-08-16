@@ -153,3 +153,9 @@ skill
 - `pitfalls.md` P-1 / P-2 / P-3 / P-4
 - `decisions.md` 2026-05-16 (DeepSeek vs Kimi —— 诊断修正)
 - [[hermes-gateway-revival|Hermes Gateway Revival Skill]]（Hermes 专项修复）
+
+## 触发词
+
+**触发场景**：诊断"我改了配置但系统行为没变"类问题——配置修改后不生效、多个配置文件优先级冲突、缓存导致配置未刷新、环境变量 vs 配置文件 vs 默认值打架。
+
+**负面例子（不要触发）**：代码逻辑 bug（不是配置问题）；依赖版本问题；首次配置而非排障。

@@ -1,8 +1,10 @@
 ---
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 id: task_20260808_huangyaoshi-basic-skills-coach-deploy
 task_id: 256
 assignee: huangyaoshi
-status: queued
+status: reviewed
 updated_at: 2026-08-08
 domain: ai-basic
 priority: P0

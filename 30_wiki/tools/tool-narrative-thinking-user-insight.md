@@ -4,7 +4,7 @@ title: 「工具：叙事型用户洞察——用户不是数字」
 type: tool
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: '2026-08-05'
+review_date: 2026-08-09
 confidence: 0.90
 trust_level: high
 domain:

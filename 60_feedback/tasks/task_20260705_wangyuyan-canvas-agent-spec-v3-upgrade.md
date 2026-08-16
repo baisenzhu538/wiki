@@ -1,7 +1,7 @@
 ---
 id: task_20260705_wangyuyan-canvas-agent-spec-v3-upgrade
 type: task
-status: queued
+status: done
 assignee: 王语嫣
 reviewer: 欧阳锋
 priority: P1

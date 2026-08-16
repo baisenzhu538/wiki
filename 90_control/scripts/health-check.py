@@ -69,6 +69,7 @@ def main():
             ("scan-vlm-parse-errors", [], "VLM 描述质量"),
             ("track-production-progress", ["--json"] if args.json else [], "生产进度"),
             ("check-agent-config", [], "Agent 配置自检"),
+            ("check-mcp-roaming", ["--json"] if args.json else [], "MCP 挂载巡检（#326）"),
         ])
 
     if args.domain:
@@ -120,6 +121,7 @@ def main():
         "VLM 描述质量": "OCR/VLM 解析是否正常——影响洪七公的图片→prompt 管线。",
         "生产进度": "老顽童的产能仪表盘——多少卡在生产/待审/入库。红灯=队列堵塞。",
         "Agent 配置自检": "各 Agent 的 context/skill/权限是否一致——配置漂移=Agent 行为不可预期。",
+        "MCP 挂载巡检（#326）": "16 个 Hermes profile 的 mcp_servers.kdo 挂载 + 新卡可检索抽查（按 WorkingDirectory 实证）——红灯=某 agent 检索断了。",
     }
 
     for r in check_results:

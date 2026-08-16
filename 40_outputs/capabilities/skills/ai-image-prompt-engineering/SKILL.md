@@ -241,3 +241,9 @@ Luxury cobalt blue glass serum bottle on white marble surface, clear water rippl
 | 负面词写 "不要 XX" | DALL-E 不理解 | 改写为正面描述 |
 | 忽视平台差异 | 同一个 prompt 在不同平台效果差很多 | 按平台调整语法和长度 |
 | 不用参考图 | 风格不可控 | 用 `--sref` / IPAdapter / 风格模板 |
+
+## 触发词
+
+**触发场景**：需要把"我要一张图"变成可重复、可调试的 prompt 生产系统时——文生图需求、图生图需求、需要稳定复现同一风格的图、多人协作用同一套 prompt 规范、提示词反复改不出效果。
+
+**负面例子（不要触发）**：已有现成图片只做简单裁剪/压缩；不需要 AI 生图只做排版；无图需求仅讨论文案时不要加载本 skill。

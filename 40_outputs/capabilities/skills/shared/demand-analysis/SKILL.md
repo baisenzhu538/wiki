@@ -4,7 +4,7 @@ description: 需求分析总入口——USP快速拆解+冰山六层深挖+JTBD�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [需求分析, USP, 冰山, JTBD, 评估三角形]

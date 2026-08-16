@@ -36,6 +36,11 @@ related:
   - concept-一堂-基本功-刻意练习四要素
   - agent-spec-复盘教练
   - yt-decision-y-model
+  - case-live258-zhihu-content-acquisition
+  - case-live258-livestream-prompt-v1-v5
+  - case-live258-fact-spread-18-bridges
+  - case-live258-europe-cold-email
+  - tool-feature-review-five-step
 tags:
   - method:feature-thinking
   - method:ai-basic

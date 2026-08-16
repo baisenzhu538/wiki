@@ -249,3 +249,9 @@ Invoked by the Architect (欧阳锋) or Builder (黄药师).
 - `60_feedback/data-quality/backups/` — Pre-write backups of card files and state.json
 - `60_feedback/corrections/` — Tag misclassifications, chunk boundary errors
 - `60_feedback/issues/` — Blocking issues (malformed cards, parse failures)
+
+## 触发词
+
+**触发场景**：对 KDO wiki 概念卡进行系统化审计/清洗/标注/分块/校验时——批量检查卡片质量、frontmatter 合规、断链修复、重复卡合并、卡片分块重组。
+
+**负面例子（不要触发）**：单张卡内容创作（那是单卡生产）；文章写作；不涉及卡片文件结构的操作。

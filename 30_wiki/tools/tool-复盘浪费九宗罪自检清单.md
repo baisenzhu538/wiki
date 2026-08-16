@@ -31,6 +31,7 @@ related:
   - framework-一堂-团队复盘四阶段12策略
   - yt-model-deep-review-iceberg
   - dk-借假修真与黑盒白盒
+  - tool-meeting-basic-principles
 tags:
   - method:review
   - method:self-diagnosis

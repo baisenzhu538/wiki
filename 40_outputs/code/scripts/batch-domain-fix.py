@@ -1,5 +1,10 @@
 """批量补 domain 标签——基于 ID 前缀推断域。dry-run 预览，不加参数执行。"""
 import re, sys
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 from pathlib import Path
 
 WIKI = Path(r"C:\Users\Administrator\Desktop\wiki\30_wiki")

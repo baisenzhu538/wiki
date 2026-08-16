@@ -2,7 +2,9 @@
 id: task_20260803_wangyuyan-zhu-personal-os-update
 task_id: 225
 assignee: hermes
-status: pending_review
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-08-04
 created_at: 2026-08-03
 domain: personal-os
 priority: P1
@@ -188,3 +190,7 @@ methodology v2.1；verdict pass（4 文件更新）+ case 卡建议建；blockin
 ### 审查可追溯性
 
 methodology v2.1；verdict 条件 PASS；blocking [🟡1：case-2 隐私边界]；residual_risks [无]
+
+## E019 状态对齐（2026-08-09 欧阳锋·孤儿补登记）
+
+正文已含 2026-08-04 终审记录（见上"终审"节），frontmatter 状态滞后为 pending_review——本次对齐为 reviewed（#225 终审条件 PASS（2026-08-04 正文记录：4 文件 + case-1 + case-2 隐私修改）；本次为 E019 状态对齐，非重新终审）。

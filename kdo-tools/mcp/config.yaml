@@ -39,3 +39,25 @@ external:
   feishu-docx:
     url: http://localhost:5679/mcp
     description: "飞书文档发布引擎 — Markdown to Feishu Docx"
+
+# ── 实际部署记录（#306 #C 登记，2026-08-10）────────────────────────
+# 谁在用什么 MCP，配在哪——防"搜错地方"（E020 教训）
+deployments:
+  - client: WorkBuddy（小昭）
+    config: C:\Users\Administrator\.workbuddy\mcp.json
+    server: kdo（检索型——kdo_search/onboard/read/capabilities）
+    since: 2026-08-02
+    status: active
+  - client: Claude Code（本终端）
+    config: kdo-tools/mcp/（直接调用 server.py）
+    server: kdo（检索型）
+    status: active
+  - client: 飞书 agent（Hermes）
+    config: 待 #308 接入（mcp_servers.kdo）
+    server: kdo（检索型）
+    status: planned
+  - client: 任意 MCP 客户端
+    config: 本文件 stdio/sse 模板
+    server: feishu-doc（操作型——#306，create/fetch/update/search）
+    status: active
+    permission: 仅写已授权文档空间；无 delete（high-risk 不暴露）

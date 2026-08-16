@@ -42,6 +42,10 @@ related:
   - '[[yt-management-toolkit-overview]]'
   - '[[yt-management-scientific-meetings]]'
   - '[[ai-collaboration-domain-digest]]'
+  - '[[framework-meeting-iceberg-canvas]]'
+  - '[[tool-meeting-execution-principles]]'
+  - '[[case-truman-meeting-leadership]]'
+  - '[[case-meeting-roi-awakening]]'
 ---
 
 # 项目启动会设计模板：两小时对齐六件事，后面不用跑断腿

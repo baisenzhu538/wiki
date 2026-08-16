@@ -28,12 +28,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
-aliases:
-  - 三层八模块十四节点
-  - 八模块十四节点
-  - 调研超级武器库
-  - 调研超级武器库：三层八模块十四节点
-  - 超级武器库
+aliases: []
 source_refs:
 - 00_inbox/调研专题/调研超级武器库_vlm_desc.md
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
@@ -47,11 +42,15 @@ related:
 - '[[framework-ci-operating-model]]'
 - '[[framework-ouyangfeng-review-methodology]]'
 - '[[framework-yitang-research-weapon-supplement-2026]]'
+- framework-baozhashidiaochan-five-step
+- concept-research-saturation-coverage
+- framework-r-type-research-partner-five-state
+- tool-nine-character-mantra-14-strategies
+- concept-open-a-document
 tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases: []
 discoverable_by:
 - 调研方法论
 - 调研武器库

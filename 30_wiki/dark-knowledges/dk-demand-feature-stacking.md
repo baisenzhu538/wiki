@@ -33,14 +33,17 @@ related:
   - '[[framework-truman-feature-thinking-core]]'
   - '[[framework-truman-feature-layered-system]]'
   - '[[concept-truman-feature-four-scenarios]]'
-- '[[yt-demand-fake-demand-detection]]'
-- '[[dk-demand-premature-solution]]'
-- '[[dk-demand-switching-cost]]'
-- '[[yt-five-step-method]]'
-- '[[dk-tool-as-phased-validator]]'
-- '[[yitang-domain-digest]]'
-- '[[case-demand-dialer]]'
-updated_at: 2026-06-28
+  - '[[yt-demand-fake-demand-detection]]'
+  - '[[dk-demand-premature-solution]]'
+  - '[[dk-demand-switching-cost]]'
+  - '[[dk-tool-as-phased-validator]]'
+  - '[[yitang-domain-digest]]'
+  - '[[case-demand-dialer]]'
+  - '[[case-live258-zhihu-content-acquisition]]'
+  - '[[case-live258-livestream-prompt-v1-v5]]'
+  - '[[case-live258-fact-spread-18-bridges]]'
+  - '[[case-live258-europe-cold-email]]'
+updated_at: 2026-08-13
 tags:
 - audience:executor
 - scene:reference
@@ -124,3 +127,28 @@ tags:
 | 停留在L2 | 只实现用户说的功能，不挖掘核心任务 | 用"5个为什么"下沉到L3 |
 | 竞品对标 | "竞品有这个功能，我们也要有" | 竞品功能不一定对应你的用户核心任务 |
 | 技术驱动 | "技术能实现，就加上去" | 技术能实现≠用户需要 |
+---
+
+## 数值证据：Feature 叠加效应（2026-08-13 #313 追加，来源：Live258 优秀作业 4 案例）
+
+> 本卡原论域为"需求侧功能堆叠陷阱"（加功能≠满足需求）。以下 4 案例为 **AI Feature 侧叠加效应** 的实证回填（黄药师洞察 2.3）：Feature 不是越多越好，而是**组合的维度/结构**决定效果。
+
+| 案例 | 叠加组合 | 效果 | 来源 |
+|:--|:--|:--|:--|
+| 黄华春·知乎获客 | 设定角色（身份）+参考案例（风格）+格式设定（结构） | 3800→6500 阅读（+71%）→4200/转化率 33%——三维正交覆盖 | 素材 L239-L257（学员自述） |
+| 王鹏飞·园本课程 | 2A 设定身份 + 2B 上下文增强（园本一手材料） | 第一版质量 40→65 分——"只给身份=通用课程，喂入真实材料=爱思乐知的桥之旅" | 素材 L2871（学员自评） |
+| jeffgirl·直播复盘 | V4 Feature 链：目标锚定→策略对齐→六层漏斗→货盘分层→跨维度一致性 | 组合从并列升级为链式（上输出=下输入），诊断从"一次性分析"变"逐步走完流程" | 素材 L2025-L2029（学员自述） |
+| 张丽娜·东欧开发信 | 用户身份+经营场景+负面限制 | 开发信从"卖货推销"变"经营沟通"——定位质变 | 素材 L2671-L2675（学员自述） |
+
+**关键结论**：
+1. **叠加的价值在"维度覆盖"而非"数量堆叠"**——黄华春三维（身份/风格/结构）正交，张丽娜三要素（身份/场景/限制）正交
+2. **叠加不单调**——黄华春第三篇阅读量低于第二篇（4200 vs 6500）但转化率更高（33%）：单一指标可能下降，组合指标变化才是效果
+3. **两种组合形态**：并列维度覆盖（黄华春/张丽娜）vs 链式管道（jeffgirl V4，上输出=下输入）
+4. **负向叠加（产线放大效应）**：王鹏飞一进多出（1C 组合）放大正确也放大错误——18 座桥口误扩散进四份物料（素材 L2861），高效组合需配套高保真输入（DataPack）
+
+## Critique（2026-08-13 #313 补充）
+
+- **证据等级**：4 案例均为学员二手自述（trust_level: observed），无对照实验；"叠加起效"的归因受混淆变量（平台/时机/技能增长）污染，需独立核实
+- **外部攻击（Kahneman 式）**："叠加后效果好"是成功后选择式归因——无 A/B 数据支撑哪组叠加真正起效；"1+1+1>3"可能是叙事美化
+- **外部攻击（Taleb 式）**：样本全部来自筛选后的"优秀作业"——失败案例（叠加了但没用）不在样本；叠加效应的普适性存疑
+- **边界**：叠加不适用创意差异化任务（农夫三拳认知反差型失败——"反差很难通过系统设置制造"，素材 L923）；复杂状态机在小团队易冗余（黄谦，素材 L2947）

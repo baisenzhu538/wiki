@@ -4,7 +4,7 @@ description: 域骨架建设——从口述稿提取框架卡+概念卡+域索�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [KDO, 骨架, 框架卡, 索引入口, 老顽童]

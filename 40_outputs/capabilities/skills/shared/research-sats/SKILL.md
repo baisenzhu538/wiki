@@ -4,7 +4,7 @@ description: CIA SATs结构化分析技术——Key Assumptions Check/Devils Adv
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [SATs, 魔鬼代言人, Red Team, 关键假设, 结构化分析]

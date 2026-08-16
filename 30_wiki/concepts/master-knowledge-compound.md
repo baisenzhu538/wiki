@@ -1,5 +1,4 @@
 ---
-
 domain:
 - master
 id: master-knowledge-compound
@@ -8,10 +7,10 @@ type: concept
 status: reviewed
 source_context: 一堂知识萃取探索营——知识复利与IPO萃取框架
 aliases:
-  - IPO+萃取+原子化复用
-  - 原子化复用
-  - 知识复利
-  - 知识复利：IPO+萃取+原子化复用
+- IPO+萃取+原子化复用
+- 原子化复用
+- 知识复利
+- 知识复利：IPO+萃取+原子化复用
 source_refs:
 - pending_archive:src_20260614_239c9f4e-一堂-知识萃取探索营.md
 - pending_archive:src_20260522_0af1f6dd-learning-thinking.md
@@ -24,9 +23,9 @@ review_date: '2026-06-28'
 confidence: 0.78
 trust_level: medium
 discoverable_by:
-  - 知识复利：IPO+萃取+原子化复用
-  - 知识复利
-  - IPO+萃取+原子化复用
+- 知识复利：IPO+萃取+原子化复用
+- 知识复利
+- IPO+萃取+原子化复用
 related:
 - '[[master-ai-info-literacy]]'
 - '[[master-cognitive-bias-checklist]]'
@@ -34,6 +33,7 @@ related:
 - '[[master-first-principles]]'
 - '[[master-systems-thinking]]'
 - '[[master-antifragile-checklist]]'
+- framework-knowledge-five-leaps
 tags:
 - audience:general
 - scene:reference
@@ -296,4 +296,4 @@ vault 里有三张讲"知识管理"的卡：
 | 知识碎片化无法整合 | 连接深度不足 | 检查连接深度——能在30秒内找到至少3个相关旧知识 |
 | 读了很多但记不住 | IPO比率失衡 | 检查输出/输入比率，每读1小时产出≥100字原创输出 |
 | 感觉没有进步 | 时间维度不足 | 确认是否已坚持6个月，回顾6个月前能否说出3个具体变化 |
-
+- `framework-knowledge-five-leaps`：五次知识管理飞跃——知识复利在管理实践中的编年实证（回链）

@@ -4,13 +4,14 @@ updated_at: 2026-08-09T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "全链收官（2026-08-08/09）：#248-266 全部终审闭环，生产队列清空。Feature 域（周期表 100/100 + W0-W4）+ Agent 基建（#260-266）+ 双驱动机制（#265）固化。遗留：飞书端抽查（#261 条件①）、协议 v0.2 候选（verified 语义声明/info 显示 verify_note）、审查方法论卡 v2.2 候选。"
+active_task: "Live258 内容域三连批全闭环（2026-08-15）：#312 case 卡 4 张 A- + #313 dk 卡 2+1 B+ + #314 tool 卡 1 张 A- 全部 reviewed——9 张卡 + 1 修补入库，看板 297/297 全清，队列 queued=0/pending_review=0。O0 溯源零编造（全批行号逐条命中源文件）；老顽童 TODO（related 重复）已修复独立验证通过；补链闭环（case 正文 wikilink 回补 tool/dk）验证通过。**欧阳锋 08-15 复审确认：#304 终审有效（PASS 条件 A-，C1 飞书真机冒烟 5 天未闭环待 WSL 侧 gateway 重启）、#298 已 E019 对齐（卡侧 08-05 reviewed）——两单均无需重审，原'遗留'标注为未同步 08-10 结论**；停车场 2026-08-15 拍板结果：O-13 已执行（8GB/4核/wsl --shutdown/8 gateway 自动拉起，解锁 #303/#304 C1 真机冒烟）；O-14 已立项（任务单已写待王语嫣编排）；O-12 待扩容效果评估后另议；P-31 待拍板。**双助理 C1 已闭环终审（#303/#304 升级 PASS A-，飞书正式可用，O3 引用卡名 4/4+5/5 独立验证）；#323 GBK 修复终审 PASS A-；#324 传导诊断终审 PASS A-；**#326 机制制度化终审 PASS A（#325 空挂闭环：WSL 5 gateway 补挂确认 + MCP 单一真相源 16 profile 幂等 + 巡检 17/17 + 双侧 kdo_search HIT；狗粮抓 delivery.py 跨平台 bug）**；**#320/#322 销售卡组 7 卡终审 PASS A-（O0 溯源 7/7 零编造，老顽童批收官）；**#328 崩溃循环修复 PASS A（boot 退役+user 8/8+NRestarts 归零+源码 bug 修复）；#321 digest PASS A-；#319 domain 补齐 PASS A-（目录迁移裁定不迁移，重复文件 tools/ 版为权威，另立项）**——收尾建议书已写：diag_20260816_ouyangfeng-task-orchestration-proposal.md（#329 源码 P0/#330 文档修正/#331 P3 推广，待王语嫣编排）**；#325 终审 PASS A 但**遗留修正：#326 立项核查发现 WSL 侧 5 个运行中 gateway（beikai/duanwangye/laowantong/laowantong-feishu/ouyangfeng/wangyuyan）实际未获 kdo 检索（#325 补挂的 Windows 副本空挂）——已并入 #326 补挂**。"
 blockers:
   - "production-queue.md 全文件中文 mojibake 损坏（UTF-8-SIG 混合编码）——历史遗留，新行正常 UTF-8；提请黄药师做编码修复"
-  - "queue_transition.py review 路径被 auto mode 分类器拦截 + O-3 已知 bug——终审状态变更走手动 patch（加注释）"
+  - "queue_transition.py review 路径被 auto mode 分类器拦截 + O-3 已知 bug（complete --force 对 queued 任务锁内 re-check 必失败）——状态变更走手动 patch（加注释）"
   - "当前任务状态见 production-queue.md（唯一真相源）"
   - "旧任务文件 laowantong-next-tasks.md / laowantong-batch-*.md 已废弃——不要读。"
-next_session_hint: "① 用户重启后说'继续'→读本文件 + ouyangfeng-context.md + 20_memory/ouyangfeng-amnesia-recovery.md + 桌面/agent复盘/ouyangfeng/daily-context/2026-08-09.md；② 队列已清空——新任务从 pending_review 起审；③ E018 合规是默认检查项（status=reviewed 无终审记录 = 退回）；④ 验证口径先声明（#253 教训）；⑤ 周期表 JSON 是消费端菜单（100/100，verified 25）。"
+  - "建议书编号 ≠ 队列编号：建议书（R1-R4 / #267s-#273s）编号为建议性，正式编号以队列为准（decisions.md 2026-08-09 D2 已登记；friction-log 第 2 条实证）"
+next_session_hint: "① 用户重启后说'继续'→读本文件 + 20_memory/wangyuyan-amnesia-recovery.md + 桌面/agent复盘/wangyuyan/daily-context/ 最新；② 剩余 4 项：#304/#298（欧阳锋审）+ #308/#309（黄药师领）；③ 任务模式已上线（教练助理五节流程+交付物模板，真机验证通过）；④ 队列健康：queue_audit.py issues=0（不允许任何非表行——注释必须行内）；⑤ E025/E026 编排铁律（修改另开任务/单角色单任务）"
 ---
 ---
 

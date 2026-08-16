@@ -4,7 +4,7 @@ description: 战略会议准备包——基于冉鹏30年方法论，输出议�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [战略会议, 战略工作坊, workshop, 战略规划, 冉鹏]

@@ -4,7 +4,7 @@ title: 「案例：AI宠物"砍掉说话功能"——真正看见用户的反直
 type: case
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: '2026-08-05'
+review_date: 2026-08-09
 confidence: 0.80
 trust_level: medium
 domain:

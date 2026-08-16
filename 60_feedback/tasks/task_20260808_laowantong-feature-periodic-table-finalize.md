@@ -1,8 +1,10 @@
 ---
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 id: task_20260808_laowantong-feature-periodic-table-finalize
 task_id: 255
 assignee: hermes-cli
-status: pending_review
+status: reviewed
 updated_at: '2026-08-08T18:11:53.190809+00:00'
 domain: ai-basic
 priority: P0

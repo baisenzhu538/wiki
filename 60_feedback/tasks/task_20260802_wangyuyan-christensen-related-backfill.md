@@ -1,14 +1,16 @@
 ---
 id: task_20260802_wangyuyan-christensen-related-backfill
 task_id: 216
-assignee: laowantong
-status: queued
+assignee: hermes
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 created_at: 2026-08-02
 domain: strategy
 priority: P1
 source: 30_wiki/bridges/bridge-christensen-reverse-mapping.md
 diagnosis: 60_feedback/diagnosis/diag_20260802_创新者的窘境_秦鹏拆书.md
-updated_at: '2026-08-02T23:50:00+00:00'
+updated_at: '2026-08-09T12:23:04.318910+00:00'
 ---
 
 # #216 Christensen卡组 related补链（验收#7 TODO清零）

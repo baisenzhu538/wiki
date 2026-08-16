@@ -4,7 +4,7 @@ description: 科学决策总入口——Y模型+决策卫生+预判模型+偏见
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [决策, Y模型, 决策卫生, 预判, 偏见, 科学决策]

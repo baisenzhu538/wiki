@@ -28,9 +28,11 @@ source_refs:
 related:
   - framework-christensen-disruptive-innovation
   - framework-christensen-value-network
-  - framework-yt-oscar-research
+  - framework-yitang-oscar-research
   - dk-qinpeng-three-corrections
   - yt-tool-strategy-workshop
+  - tool-遵循规模前倾原则设计组织架构
+  - case-english-teacher-ai-agent
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

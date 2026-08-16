@@ -4,7 +4,7 @@ description: 五步法第三步：商业模式——怎么赚钱？单元模型�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [商业模式, UE, 单元模型, LTV, CAC, 盈利]

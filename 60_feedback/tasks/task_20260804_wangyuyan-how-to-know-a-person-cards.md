@@ -2,7 +2,9 @@
 id: task_20260804_wangyuyan-how-to-know-a-person-cards
 task_id: 232
 assignee: hermes
-status: pending_review
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 created_at: 2026-08-04
 domain: human-insights
 priority: P1
@@ -86,3 +88,19 @@ updated_at: '2026-08-04T16:27:04.711580+00:00'
 - 归入 human-insights 域（跨 decision-science/panproduct）
 - 优先级P1——人域首批，与教练式领导力（待输入）形成完整体系
 - **编排决定**：先欧阳锋审查本编排，再老顽童生产
+
+## 终审记录（2026-08-09 欧阳锋）
+
+**verdict: PASS A · blocking: 无 · methodology v2.2**
+
+O0 溯源验证：
+1. 覆盖率 12/12（2 framework + 3 tool + 4 dk + 2 case + 1 bridge——交付超队列行"10 张"口径，规格 12 项全在）
+2. 素材 3 文件存在（口述 145KB/笔记/拆书会逐字稿）
+3. 行号锚点 7 处原文逐条命中：L766-772 情绪价值十倍/奢侈品百倍、L940-946 AI 宠物"天然觉得能对话"、L2186-2192 神经质双刃剑、L680-684 好看是重要情绪价值、L2544-2548 污染序列（叙事选择论）、L2194-2198 宜人性高易被忽视、L566-570 缝隙需求"蜜雪冰城轮不到我们"
+4. 验收点全过：MBTI vs 大五辨析 7 处、AI 宠物"砍掉说话"核心、情绪溢价倍数标注"水水估计"（非学术数据）、top 5% 论证 ×4、治疗师=故事编辑 + 30 岁负责论、bridge 双向回答（人域 17 + 商业域 8 处）
+5. 定位声明 12/12（O8，tool-illuminator L61"看见存在支柱操作工具"）；related ≥5 跨域（抽查 tool-illuminator 6 条含跨域）
+6. pre-submit 12 卡批量 PASS；术语统一（布鲁克斯"看见"三支柱总纲）
+
+亮点：暗知识反直觉密度高（宜人性高被忽视/情绪价值是门槛极高的动作/叙事选择论）且全部带行号溯源；数字诚实标注（水水估计/品牌待核实）。**人域"看见"支柱地基入库——与 #280/#281 教练领导力（影响他人）形成人域认知弧线。**
+
+五维：溯源 95/逻辑 90/暗知识 95/可操作 90/表达 90 → 总分 93（A）

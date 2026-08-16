@@ -15,7 +15,7 @@ source_refs:
   - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
   - cap_hub/features.json
 created_at: 2026-08-08
-updated_at: 2026-08-08
+updated_at: 2026-08-16
 tags:
   - audience:huangyaoshi
   - scene:reference
@@ -59,7 +59,7 @@ Feature = KDO 的原子化最小技术单位。每个 Feature：
 
 Feature ≠ Skill。Skill 是封装逻辑，Feature 是原子特性。
 
-## 12 个已注册 Feature
+## 20 个已注册 Feature
 
 | ID | 名称 | 分类 | 独立测试 |
 |:--|:--|:--|:--|
@@ -75,6 +75,14 @@ Feature ≠ Skill。Skill 是封装逻辑，Feature 是原子特性。
 | REACH_CHECK | 可发现性自查 | CLI | reachability-check.py |
 | HINT_MAP | 错误场景化提示 | UX | 错误输出带修复建议 |
 | CARD_CHECKLIST | 复审自检 | CLI | checklist.py 全 PASS |
+| AUTH_FRESHNESS_SLA | 认证新鲜度 SLA | 门禁 | 缺 reverify_by → ERROR |
+| DECISION_CLASSIFY | 决策分类 | CLI | kdo decision add |
+| SKILL_CRYSTALLIZE | 经验→技能结晶 | CLI | 扫描复盘→draft skill |
+| SKILL_LIFECYCLE | Skill 生命周期 | CLI | draft→published→deprecated |
+| R1_REVIEW_INFRA | lint 审查四类规则 | 门禁 | R1-a~R1-d |
+| SKILL_BRIDGE_SYNC | 双轨 Skill 同步 | CLI | shared→.claude 单向同步 |
+| FEISHU_DOC_MCP | 飞书文档操作 | CLI | lark-cli create/fetch/update |
+
 
 ## 使用方式
 

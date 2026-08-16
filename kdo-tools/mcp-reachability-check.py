@@ -12,6 +12,11 @@ MCP 可发现性自查 — 新卡提交前验证外部 Agent 能否搜到。
   ❌ 未命中 → 关键词搜不到该卡 → 建议补全 aliases/title/tags
 """
 import argparse
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 import importlib.util
 import re
 import sys

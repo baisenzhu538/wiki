@@ -4,7 +4,7 @@ title: 「案例：水水缝隙需求洞察——好生意藏在缝隙里」
 type: case
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: '2026-08-05'
+review_date: 2026-08-09
 confidence: 0.90
 trust_level: high
 domain:

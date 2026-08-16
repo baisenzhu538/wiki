@@ -4,7 +4,7 @@ description: 多Agent协作调研——Supervisor/Swarm/Pipeline/Hybrid四种架
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [多智能体, multi-agent, Supervisor, Swarm, Pipeline, CrewAI]

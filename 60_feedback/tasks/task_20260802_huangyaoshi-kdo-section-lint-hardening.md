@@ -2,13 +2,50 @@
 id: task_20260802_huangyaoshi-kdo-section-lint-hardening
 task_id: 217
 assignee: huangyaoshi
-status: queued
+status: reviewed
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 created_at: 2026-08-02
 domain: kdo
 priority: P1
 source: 欧阳锋终审 #213/#214 跨批发现
-updated_at: '2026-08-02T23:55:00+00:00'
+updated_at: '2026-08-09T00:00:00+00:00'
+claimed_at: 2026-08-09
 ---
+
+## 执行报告（2026-08-09 黄药师）
+
+### 三项门禁全部落地（kdo/pre_submit.py）
+
+| 规则 | 实现 | 级别 |
+|:--|:--|:--:|
+| **R1** dk 七段完整性 | `DK_REQUIRED_SECTIONS` 补齐 **Critique**（原只有 6 段缺 Critique——#213/#214 跨批复发根因）+ 别名映射 + 缩进检查 | ERROR |
+| **R2** section 拼写白名单 | 新增 `_check_section_typos` + `SECTION_TYPO_MAP`（Critque/Crituque/Failue Modes/Failure Mode/Synthsis/Syntheis） | ERROR |
+| **R3** 标准节名重复检测 | 新增 `_check_duplicate_sections` + `DUPLICATE_CHECK_SECTIONS`（11 个标准节，自定义节不查） | ERROR |
+
+三个函数全部注册到 run_pre_submit 主流程（提交前门禁，非事后 lint）。
+
+### 狗粮测试（4 场景全过）
+| 场景 | 结果 |
+|:---|:---|
+| dk 卡缺 Critique | ✅ ERROR（Missing required section: ## Critique） |
+| ## Critque 拼写 | ✅ ERROR（should be ## Critique） |
+| 双 ## Critique | ✅ ERROR（重复节，请合并或改名） |
+| 正常卡 | ✅ 0 误报 |
+
+### 验收标准
+| 验收项 | 状态 |
+|:---|:---|
+| pre-submit 对缺 Critique 的 dk 卡报 ERROR | ✅ |
+| 对 Critque 报错并提示正确拼写 | ✅ |
+| 存量卡不误报 | ✅ 5 张存量 dk 卡 0 误报（R1 不追溯） |
+| 全部 pytest 通过 | ✅ 78 passed |
+| #213/#214 卡回归 | ✅ 修复后的卡通过 |
+
+### 说明
+- R1 补齐 Critique 是核心：原实现只查 6 段，Critique 缺失正是 #213/#214 两次退回的根因——现在提交前就拦
+- R2/R3 之前在 kdo lint（事后），本次提升到 pre-submit（事前）——门禁前移
+- 边界遵守：只加校验不改卡片内容；不追溯存量 dk 卡
 
 # KDO 结构门禁强化：dk 七段完整性 + section 名拼写校验
 
@@ -83,3 +120,18 @@ updated_at: '2026-08-02T23:55:00+00:00'
 - 错误模式：dk 七段缺 Critique 为 #213 P0-2 + #214 P0-1 同源复发
 
 *欧阳锋 · 2026-08-02*
+
+## 终审记录（2026-08-09 欧阳锋·孤儿补审）
+
+**verdict: PASS A · blocking: 无 · methodology v2.2**
+
+O3 独立验证：
+1. R1 代码确认：DK_REQUIRED_SECTIONS 七段含 Critique（kdo/pre_submit.py L353-361，注释"#213/#214 跨批复发根因"）
+2. R2 代码确认：SECTION_TYPO_MAP 6 拼写（L375-378：Critque/Crituque/Failue Modes/Failure Mode 等）
+3. R3 代码确认：_check_duplicate_sections（L459-472 标准节名重复 ERROR，自定义节不查）
+4. **狗粮实测全命中**：缺 Critique dk 卡 → `[DK_SECTION] Missing required section: ## Critique` ERROR / Critque 拼写 → `should be '## Critique'` ERROR / 双 Critique → `检测到重复的 '## Critique' 节（2 次）` ERROR
+5. 存量 5 张 dk 卡 0 误报（R1 不追溯存量，边界遵守）
+
+核心价值：**门禁前移**——R2/R3 从 kdo lint（事后全库扫描）提升到 pre-submit（提交前）——生产者在提交时撞墙而非等欧阳锋终审退回（#213/#214 两轮返工根因 = 门禁位置不对）。E009（修复回归）+ E012（dk 缺 Critique 跨批复发）的机器化防线再加一道。
+
+五维：溯源 95/逻辑 95/暗知识 85/可操作 95/表达 90 → 总分 93（A）

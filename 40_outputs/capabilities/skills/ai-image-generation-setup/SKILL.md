@@ -1,12 +1,10 @@
-# AI 图像生成工具安装调研
-
-skill_name: ai-image-generation-setup  
-status: stable  
-scope: Multimodal Arbiter / 洪七公  
-last_verified: 2026-06-19  
-
 ---
-
+name: ai-image-generation-setup
+type: capability/skill
+status: published
+description: AI 图像生成工具安装调研——本地/云端图像生成环境的搭建、模型选择与依赖安装。触发词：图像生成安装、AI 绘画环境、模型部署、comfyui、stable
+  diffusion 安装。
+---
 ## 调研目标
 
 回答两个核心问题：

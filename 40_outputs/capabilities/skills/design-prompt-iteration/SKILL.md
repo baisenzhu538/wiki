@@ -1,3 +1,10 @@
+---
+name: design-prompt-iteration
+type: capability/skill
+status: published
+description: 人（审美判断）+ Agent（prompt 翻译）的协作协议。设计师描述视觉问题，agent 翻译为 AI 图像工具的 prompt 修改——agent
+  不看图不改图，只做自然语言→prompt token 的精确转换。触发词：prompt 迭代、改 prompt、设计不满意、光影/构图/色彩/质感调整。
+---
 # Design Prompt Iteration
 
 ## Purpose

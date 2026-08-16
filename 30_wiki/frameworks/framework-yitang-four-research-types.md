@@ -6,35 +6,30 @@ status: enriched
 author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
-quality_labels:
+quality_labels: null
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: null
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
-query_triggers:
-aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 四类调研模型
-  - 四类调研模型：挖掘式系统式爆炸式自动式
-  - 挖掘式
-  - 爆炸式
-  - 系统式
-  - 自动式
-source_refs:
-related:
-discoverable_by:
-  - "四类调研模型"
-  - "挖掘式系统式爆炸式"
-  - "调研方法分类"
-tags:
+query_triggers: null
 aliases: []
+source_refs: null
+related:
+- framework-baozhashidiaochan-five-step
+- concept-research-saturation-coverage
+- framework-r-type-research-partner-five-state
+- tool-nine-character-mantra-14-strategies
+- concept-open-a-document
+discoverable_by:
+- 四类调研模型
+- 挖掘式系统式爆炸式
+- 调研方法分类
+tags: null
 ---
 # 四类调研模型：挖掘式·系统式·爆炸式·自动式
 

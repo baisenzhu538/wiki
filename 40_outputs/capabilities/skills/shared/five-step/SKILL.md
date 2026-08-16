@@ -4,7 +4,7 @@ description: 一堂五步法总入口——需求→产品内核→商业模式�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [五步法, 创业, 商业分析, 商业模式, 增长, 壁垒]

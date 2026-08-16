@@ -4,7 +4,7 @@ description: 调研交叉验证——六层验证框架+多重身份验证，每
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [research, 验证, 核实, fact-check, 信源可信度]

@@ -181,3 +181,9 @@ journalctl --user -u hermes-gateway-laowantong.service --no-pager -n 20 | grep -
 - 踩坑记录：`20_memory/pitfalls.md` § P-4
 - 五绝状态：`laowantong/five-heroes-status.md`
 - 历史排障记录：`laowantong/hermes-gateway-troubleshooting-20260516.md`
+
+## 触发词
+
+**触发场景**：Hermes Gateway 管辖的 bot（老顽童/洪七公/段王爷）离线或无响应时——bot 不回复、API Key 认证失败、gateway 进程挂了、消息队列阻塞。
+
+**负面例子（不要触发）**：单 bot 的普通会话问题（先看是否 gateway 级故障）；Windows 桌面应用问题（不是 gateway 管辖范围）；其他实例的配置问题。

@@ -2,7 +2,7 @@
 id: task_20260806_wangyuyan-deep-review-backlink
 task_id: 235
 assignee: laowantong
-status: queued
+status: reviewed
 updated_at: 2026-08-06
 domain: personal
 priority: P1

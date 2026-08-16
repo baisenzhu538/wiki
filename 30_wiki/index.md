@@ -1,10 +1,9 @@
 # Wiki Index
 
 
-_Last updated: 2026-08-15T16:15:35+00:00_
+_Last updated: 2026-08-16T15:30:47+00:00_
 
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
-- [[_archive/README|卡片归档说明]] — source `src_unknown`
 - [[_archive/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
 - [[_archive/obsidian-kdo-内容产出工作流-产品设计大纲|Obsidian + KDO 内容产出工作流 — 产品设计大纲]] — source `10_raw/sources/src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲.md`
 - [[_archive/panproduct/yt-panproduct-demand-five-step-method|泛产品设计·用户卡片：一堂五步法]] — source `10_raw/sources/src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法.md`
@@ -28,6 +27,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[_archive/panproduct/yt-panproduct-execution-war-room|泛产品设计·落地卡片：攻坚会]] — source `10_raw/sources/src_20260522_cbb3b77d-ocr-泛产品设计-落地卡片-攻坚会.md`
 - [[_archive/plan_20260531_data-curator-v1.1|plan_20260531_data-curator-v1.1]] — source no source
 - [[_archive/plan_20260531_data-curator-v1|Data Curator Skill — 数据清洗+原子切分+多维标签 实施方案 v1.0]] — source `10_raw/sources/src_20260606_050f35d5-hx-smj-01_v1.0-pcba加工要求_12.md`
+- [[_archive/README|卡片归档说明]] — source `src_unknown`
 - [[_archive/research_methodology|Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — source `10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md`
 - [[_archive/紫鲸ai_智能体工作流平台_深度分析与产品设计|紫鲸AI_智能体工作流平台_深度分析与产品设计]] — source `10_raw/sources/src_20260501_4eee4e95-紫鲸ai_智能体工作流平台_深度分析与产品设计.md`
 - [[_dogfood_dk| dogfood dk]] — source `{'pending_archive': 'src_unknown'}`
@@ -47,11 +47,13 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[bridges/bridge-yitang-seek-truth-liberate-thought|桥接：解放思想×实事求是 — 硬币的两面]] — source `00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt L14`
 - [[bridges/bridge-个人复盘×知识管理W-Z-K-P|「桥接：个人复盘×知识管理——W-Z-K-P四阶段」]] — source `00_inbox/个人-深度复盘/_processed/批注_2026-08-05_230938_*.md`
 - [[cases/case-252-quality-gate-pilot|#252 消费端协议试点：用Feature思维分析卡片质量门禁体系]] — source `10_raw/sources/feature-periodic-table-v0.8.json`
+- [[cases/case-4000-titles-ten-strategies|4000 标题→十大策略：长期资产的一次性建模]] — source `00_inbox/爆炸式调研/爆炸式调研-上-口述.txt`
 - [[cases/case-agent-self-evolution-pilot|Agent自我进化试点：#200任务的完整过程记录]] — source `60_feedback/tasks/task_20260726_wangyuyan-agent-evolution-lightning.md`
 - [[cases/case-ai-agent-milestone-design|AI Agent 里程碑设计：42 轮口授反馈实战]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[cases/case-ai-assisted-review|案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己]] — source `src_unknown`
 - [[cases/case-ai-companion-emotional|AI 情感陪伴的市场与伦理]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[cases/case-ai-job-displacement-wef|WEF 对 AI 就业影响的预测]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
+- [[cases/case-ai-learning-series-modeling|AI 学习系列：Coze/编程四级/龙虾五级/文生图分类/Top10 排行榜]] — source `00_inbox/爆炸式调研/爆炸式调研-上-口述.txt`
 - [[cases/case-ai-pet-emotional-product|「案例：AI宠物"砍掉说话功能"——真正看见用户的反直觉决策」]] — source `00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt`
 - [[cases/case-ai-search-commerce-platform-hedge|AI 搜索导流品牌官网，但不会取代电商平台]] — source `00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md`
 - [[cases/case-ai-time-management-tiered-growth|案例：AI时间管理App七级演进]] — source `10_raw/sources/src_20260430_59a3d224-街顺app全面调研报告.md`
@@ -97,6 +99,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[cases/case-demand-tier4-housekeeping|案例：四线家政创业——天花板误判]] — source `00_inbox/五步法之需求分析/需求评估避坑合集.md`
 - [[cases/case-demand-travel-agent|案例：旅行攻略Agent——隐性需求被忽略]] — source `00_inbox/五步法之需求分析/需求评估避坑合集.md`
 - [[cases/case-dental-clinic-formula|ToC 连锁口腔诊所：成交率 30% 背后的"危机感知"公式]] — source `10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md`
+- [[cases/case-design-principles-90|设计原则 90 条：AI demo 最完整的饱和建模样本]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
 - [[cases/case-doris-2014-music-streaming-prediction|案例：2014年预判音乐流媒体趋势]] — source `00_inbox/调研专题/Doris-行业报告调研-口述.txt`
 - [[cases/case-doris-beauty-ecommerce-channel|案例：美妆行业渠道效率发现]] — source `00_inbox/调研专题/Doris-行业报告调研-笔记.txt`
 - [[cases/case-doris-catering-chain-benchmark|案例：餐饮连锁对标调研]] — source `00_inbox/调研专题/Doris-行业报告调研-口述.txt`
@@ -112,6 +115,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[cases/case-essence-humanity-trap|案例：招聘/股权/激励专家都把本质归为'人性'——解释性本质的陷阱]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[cases/case-ether-online-acquisition|案例：以太利用全网调研能力快速获客]] — source `src_unknown`
 - [[cases/case-feishu-disruptive-innovation|飞书：绕开WPS/Office开辟联网协作新赛道]] — source `10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt`
+- [[cases/case-feishu-live259-l3-extraction|「案例：Live259逐字稿提取——SSO破墙+逐节点击，四连拒后的L3正解」]] — source `capability/duanwangye/feishu-doc-l3-extraction`
 - [[cases/case-five-step-fake-vs-real-barriers|案例：五步法中识别真壁垒和假壁垒]] — source `10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md`
 - [[cases/case-five-step-growth-first-lever|案例：五步法中从产品内核到增长的第一次跨越]] — source `10_raw/sources/src_20260610_8865798f-一堂-一堂五步法-增长-口述.md`
 - [[cases/case-fuzeyu-ai-koubo-tool-dev|付则宇AI口播工具：从16小时到零门槛的完整开发历程]] — source `00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-笔记.txt`
@@ -148,13 +152,13 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[cases/case-lean-zhanglei-failure-counterfactual|张磊 AMA：判断力训练产品的验证陷阱与反事实推演]] — source `00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md`
 - [[cases/case-lean-zhanglei-hypothesis-validation|张磊 AMA：假设验证实操案例]] — source `00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md`
 - [[cases/case-lean-zhanglei-pivot-decision|张磊 AMA：创业者 pivot 决策案例]] — source `00_inbox/精益创业/张磊教练《精益测试关键问题》AMA精华 副本.md`
+- [[cases/case-leo-lubricant-dealer-research|Leo×润滑油经销商：三轮 60 家调研找到因果模型]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
 - [[cases/case-liutao-douyin-team-leader-9m|案例：刘涛——从信息碎片拼出抖音团长赛道真相]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
 - [[cases/case-liutao-electric-bike-localization|案例：电动车出海本地化——从0调研目标市场]] — source `00_inbox/调研专题/一堂-高阶情报调研课-口述.txt`
 - [[cases/case-live258-europe-cold-email|「案例：东欧健身房开发信——负面限制与上下文分层的B2B冷邮件实践」]] — source `00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md`
 - [[cases/case-live258-fact-spread-18-bridges|「案例：18座桥口误扩散翻车——AI不质疑输入错误，只会工整扩散」]] — source `00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md`
 - [[cases/case-live258-livestream-prompt-v1-v5|「案例：直播复盘提示词五轮迭代——Feature链从4个到25+个」]] — source `00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md`
 - [[cases/case-live258-zhihu-content-acquisition|「案例：知乎内容获客——无意识用对4个Feature到0成本获客」]] — source `00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md`
-- [[cases/case-feishu-live259-l3-extraction|「案例：Live259逐字稿提取——SSO破墙+逐节点击，四连拒后的L3正解」]] — source `capability/duanwangye/feishu-doc-l3-extraction`
 - [[cases/case-live81-ai-trademark-design|案例：Live81 AI 赋能喵善养商标设计]] — source `00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-口述.txt`
 - [[cases/case-livestream-sop-modeling|案例：直播前热身 SOP 建模]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[cases/case-meeting-roi-awakening|三次觉醒案例包：从抄流程到算 ROI（A 同学启动会 / B 同学复盘会 / Truman 砍周会）]] — source `00_inbox/科学开会/科学开会方法-认知篇-口述.txt`
@@ -171,9 +175,11 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[cases/case-modeling-process-sop-evolution|流程建模案例：一堂 2021-2024 年 SOP 清单演进史]] — source `10_raw/sources/src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01.md`
 - [[cases/case-modeling-process-sop-examples|流程建模案例：10 个学员企业的 SOP 实践样本]] — source `10_raw/sources/src_20260614_1e814b94-Truman-高阶建模-流程建模-图-02.md`
 - [[cases/case-morfei-semiconductor|莫非半导体公司案例（从背猴子到教人养猴子）]] — source `00_inbox/教练式领导力/教练式领导力课程-02-口述.txt`
+- [[cases/case-new-year-insight-relay|新年洞察一封信四棒接力：每次交接只说一句话]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[cases/case-neworiental-prospectus-marketing|案例：新东方招股书——营销渠道全览]] — source `00_inbox/调研专题/一堂-上市公司报告解读-口述.txt`
 - [[cases/case-nine-pm-livestream-survey|案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[cases/case-offline-catering-formula|线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定]] — source `10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md`
+- [[cases/case-opc-128-directions|OPC 一人公司 128 方向：4 杠杆×16 类×128 方向]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
 - [[cases/case-opc-agent-wave1-real-model-testing|案例：OPC 销售智能体 Wave 1 真实模型测试]] — source `60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-testing-wave1.md`
 - [[cases/case-panproduct-lanyi-dahanghui-team|案例：兰毅——大航海战队如何被设计成组织产品]] — source `00_inbox/泛产品设计/兰毅-用泛产品思维做组织-逐字稿.md`
 - [[cases/case-panproduct-lanyi-intern-flywheel|兰毅：实习生成长飞轮的产品化设计]] — source `00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt`
@@ -252,16 +258,21 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[cases/case-truman-time-management-commute-experiment|Truman 通勤实验：用时间审计把「废时间」变成产能杠杆]] — source `00_inbox/时间管理/truman-时间管理课程-口述.txt`
 - [[cases/case-truman-yitang-foresight|Truman一堂：市场扫描→六方向→Plan ABC试错]] — source `pending_archive:src_20260606_f6cb0868-一堂-机会预判课-Truman-口述`
 - [[cases/case-unit-model-gashapon|扭蛋机案例：玩具店规模化扩张三阶段决策]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-扭蛋机案例_vlm_desc.md`
+- [[cases/case-vibecoding-one-week-delivery|VibeCoding 训战营：一周交付 900 页 PPT 的全上下文协作]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[cases/case-wangfei-newyear-event-diagnosis|王非跨年活动：500→1000人增长诊断]] — source `00_inbox/私董会/第6期 55班 王非私董会 v2.0 【高强版】.md`
 - [[cases/case-wanghuan-education-sales-capability-extraction|王欢案例：教育机构销冠能力萃取系统]] — source `src_unknown`
 - [[cases/case-wanghuan-education-sales-paced|王欢案例：教育机构用 PACED 还原销冠决策链]] — source `src_unknown`
 - [[cases/case-wanghuan-shenyang-software-3x-efficiency|王欢案例：沈阳软件公司三层架构实现3倍效率]] — source `src_unknown`
 - [[cases/case-wanghuan-yiyu-qingji-medical-notes|王欢案例：医语轻记用语音录入缩短病历时间]] — source `src_unknown`
+- [[cases/case-wechat-d9742461f4f9c2d296427c55b8b734|d9742461f4f9c2d296427c55b8b734]] — source `10_raw/sources/src_wechat_d9742461f4f9c2d296427c55b8b734.md`
+- [[cases/case-wechat-test_audio|test audio]] — source `10_raw/sources/src_wechat_test_audio.md`
 - [[cases/case-wenxiaobao-campus-bilateral-network|温小宝·校园双边网络：从驾校到学生网络平台]] — source `00_inbox/解放思想探索营/案例分享-口述.txt L1-890`
 - [[cases/case-wudi-innovation-contest-value|吴迪·创业赛重构：从编造数据到价值塑造]] — source `00_inbox/解放思想探索营/案例分享-口述.txt L1014-1290`
 - [[cases/case-xian-franchise-location-decision|案例：西安加盟选址——系统调研vs拍脑袋]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
 - [[cases/case-xiaolong-ecommerce-foresight|小龙电商：四层剥离——从服装到正装裤]] — source `pending_archive:src_20260606_f6cb0868-一堂-机会预判课-Truman-口述`
 - [[cases/case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch|案例：AI高考志愿填报产品因内核错位而失敗]] — source `10_raw/sources/src_20260606_6fa04636-一堂-产品内核实操课-truman-笔记.md`
+- [[cases/case-yihang-dual-triangle-ahao-product-selection|一行双三角案例：阿豪电商选品函数替代模型]] — source `00_inbox/人机协作双三角/_processed/阿豪案例的口述_page001_vlm.md`
+- [[cases/case-yihang-dual-triangle-ai-organizational-behavior|双三角案例：Truman 一夜深挖 AI 组织行为学——四个模型交叉验证]] — source `00_inbox/人机协作双三角/_processed/AI组织行为学的口述_text.md`
 - [[cases/case-yihang-dual-triangle-AI三角-场景|AI三角-场景 — 双三角案例]] — source no source
 - [[cases/case-yihang-dual-triangle-AI三角-基本功|AI三角-基本功 — 双三角案例]] — source no source
 - [[cases/case-yihang-dual-triangle-AI三角-数据|AI三角-数据 — 双三角案例]] — source no source
@@ -269,13 +280,11 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[cases/case-yihang-dual-triangle-AI场景|AI场景 — 双三角案例]] — source no source
 - [[cases/case-yihang-dual-triangle-AI基本功|AI基本功 — 双三角案例]] — source no source
 - [[cases/case-yihang-dual-triangle-AI数据|AI数据 — 双三角案例]] — source no source
-- [[cases/case-yihang-dual-triangle-D-engineer-upward-communication|一行双三角案例：D同学用红蓝军破解向上沟通]] — source `00_inbox/人机协作双三角/D同学的案例口述.pdf`
-- [[cases/case-yihang-dual-triangle-ahao-product-selection|一行双三角案例：阿豪电商选品函数替代模型]] — source `00_inbox/人机协作双三角/_processed/阿豪案例的口述_page001_vlm.md`
-- [[cases/case-yihang-dual-triangle-ai-organizational-behavior|双三角案例：Truman 一夜深挖 AI 组织行为学——四个模型交叉验证]] — source `00_inbox/人机协作双三角/_processed/AI组织行为学的口述_text.md`
 - [[cases/case-yihang-dual-triangle-beike-ai-outbound|一行双三角案例：贝壳找房110个场景的AI外呼]] — source `00_inbox/人机协作双三角/[【组织】贝壳找房案例口述.pdf`
 - [[cases/case-yihang-dual-triangle-canvas-thesis-review|双三角画布案例：AI 论文初审——五维评分+三色灯阻断]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-画布案例1_vlm.md`
 - [[cases/case-yihang-dual-triangle-canvas-trademark-design|双三角画布案例：商标设计——两天内产出 60 分可用版本]] — source `00_inbox/人机协作双三角/_processed/一堂双三角-画布案例2_vlm.md`
 - [[cases/case-yihang-dual-triangle-chentian-knowledge-agent|一行双三角案例：陈天从知识管理到多Agent系统]] — source `00_inbox/人机协作双三角/_processed/陈天同学案例口述_page001_vlm.md`
+- [[cases/case-yihang-dual-triangle-D-engineer-upward-communication|一行双三角案例：D同学用红蓝军破解向上沟通]] — source `00_inbox/人机协作双三角/D同学的案例口述.pdf`
 - [[cases/case-yihang-dual-triangle-guoshuai-ai-editorial|双三角案例：郭帅 AI 编辑部——智能体拉微信群协作内容生产]] — source `pending_archive`
 - [[cases/case-yihang-dual-triangle-hardware-patent-rule-explicit|一行双三角案例：硬件公司专利落地的规则显性化与一号位决心]] — source `00_inbox/人机协作双三角/【组织】硬件公司专利案例口述.pdf`
 - [[cases/case-yihang-dual-triangle-hotel-tag-sandbox|一行双三角案例：酒店AI标签审核的边缘切入与沙盒练兵]] — source `00_inbox/人机协作双三角/【组织】酒店行业-AI标签审核案例.png`
@@ -319,8 +328,6 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[cases/case-yitang-200th-launch-depth-split|案例：一堂第200期发布会——"先把任务按深度拆开，圆的配圆的时间，方的配方的时间"]] — source `00_inbox/时间管理/truman-时间管理课程-口述.txt`
 - [[cases/case-yitang-2022-annual-lessons|案例：一堂2022初五大课复盘——用四步闭环管理一堂自己的D级战略项目]] — source `00_inbox/管项目/项目管理-案例-一堂初五大课分析_vlm_desc.md`
 - [[cases/case-yitang-4-leaps-innovation-evolution|一堂4次创新跃迁：从10%成功率到体系化]] — source `00_inbox/解放思想探索营/解放思想创新体系-探索营-口述.txt`
-- [[cases/case-yitang-Y-model-advertising-turnaround|一堂抖音 AD 投放扭亏：Y模型科学投放实战]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
-- [[cases/case-yitang-Y-model-seven-applications|Y模型七人跨域应用案例集]] — source `00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md`
 - [[cases/case-yitang-ai-outbound-roi-model|案例：AI 外呼——ROI模型统一"真人 vs. AI"矛盾经验]] — source `00_inbox/解放思想/解放思想-truman-口述.txt`
 - [[cases/case-yitang-ai-painting-commercialization|案例：崔磊如何通过 AI 绘画练习实现商业化交付]] — source `00_inbox/元能力-刻意练习/盈盈-刻意练习行动营-科学成长-口述.txt`
 - [[cases/case-yitang-ai-time-management-coach|案例：AI辅助调研——时间管理教练产品验证]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
@@ -432,6 +439,8 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[cases/case-yitang-xiezefeng-clothing-innovation-param|服装店：找到"二次试穿"创新参数（L5）与"音量80"魔法数字（L6），用业务公式定优先级、转化率找抓手]] — source `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L2006-L2040`
 - [[cases/case-yitang-xingangwan-chess-room|鑫港湾自助棋牌室：把"流量×转化×客单×复购"四参数公式拆到几十个参数，一年半回本、西安全国第一]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L654-L718`
 - [[cases/case-yitang-xujian-invoice-saas-channel|案例：徐建发票 SaaS 如何通过渠道探索找到支付推手]] — source `00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt`
+- [[cases/case-yitang-Y-model-advertising-turnaround|一堂抖音 AD 投放扭亏：Y模型科学投放实战]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
+- [[cases/case-yitang-Y-model-seven-applications|Y模型七人跨域应用案例集]] — source `00_inbox/底层逻辑之一-Y模型/Y模型实操作业合集-七人逐步骤对标分析-段王爷.md`
 - [[cases/case-yitang-yai-conversion-rate-visit-rate|YAI实录：转化率agent——智慧药柜电话到访率10%→30%五阻力拆解]] — source `C:/Users/Administrator/Desktop/YAI/转化率agent-我们是专门做软硬件一体化的公司，我们有智....md`
 - [[cases/case-yitang-yai-scientific-decision-life-direction|YAI实录：关键决策agent——50岁创业者的"留vs走"与赛道选择]] — source `C:/Users/Administrator/Desktop/YAI/关键决策agent-我现在面临重大的人生方向选择的 (1).md`
 - [[cases/case-yitang-yewenbin-archery-business-formula|射箭馆：用业务公式四参数串起动力阻力触点，把"等客流"变成"经营转化率"]] — source `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L73-L135`
@@ -516,9 +525,6 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[cases/yt-product-kernel-shampoo-case|洗发水案例：产品内核实战——从"去屑"到"专业形象"]] — source `10_raw/sources/src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例.md`
 - [[concept-card-index-latest|concept-card-index-latest]] — source no source
 - [[concepts/2026-05-17-深夜感想|2026-05-17 深夜感想]] — source `10_raw/sources/src_20260522_390d75a8-2026-05-17-深夜感想.md`
-- [[concepts/EC工业化规范手册|EC工业化规范手册]] — source `10_raw/sources/src_20260503_dadc7838-EC工业化规范手册.md`
-- [[concepts/HIS系统开发实现方案-架构师指南|HIS系统开发实现方案-架构师指南]] — source `10_raw/sources/src_20260503_1a1f0312-HIS系统开发实现方案-架构师指南.md`
-- [[concepts/HIS系统深度调研|HIS系统深度调研]] — source `10_raw/sources/src_20260503_968e0210-HIS系统深度调研.md`
 - [[concepts/ai-collaboration-mindset-shift|AI协作思维转变：从新手到管理者]] — source `10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md`
 - [[concepts/ai-hackathon-pitches|AI 大航海项目路演：主题综合索引卡]] — source `10_raw/sources/src_20260614_3b46ff78-一堂武智院-项目介绍.md`
 - [[concepts/ai-landing-scene-selection|AI落地场景识别：从找老的干小的开始]] — source `10_raw/sources/src_20260606_ef4877d0-所以90的核心问题.md`
@@ -547,8 +553,6 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[concepts/challenge-point-design|挑战点设计]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
 - [[concepts/comfort-zone-expansion|舒适区扩展]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
 - [[concepts/completion-criteria-design|完成标准设定]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
-- [[concepts/concept-AI时代双三角竞争力|AI时代的双三角竞争力：人+AI协作决策]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-人机协作决策_vlm_desc.md`
-- [[concepts/concept-X型Y型决策习惯|X型 vs Y型：两种决策习惯对比]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-X型Y型决策习惯对比_vlm_desc.md`
 - [[concepts/concept-abundance-paradox|富足悖论：为什么技术越富足，新问题越多]] — source `60_feedback/audit/20260701-wobeirushen-validation-report.md`
 - [[concepts/concept-ai-amara-law-business-judgment|阿马拉定律与商业判断校准]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[concepts/concept-ai-chair-determines-view|椅子决定视角]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
@@ -556,7 +560,9 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[concepts/concept-ai-information-quality-ladder|信息质量阶梯]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[concepts/concept-ai-native-organization-five-steps|concept ai native organization five steps]] — source `10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md`
 - [[concepts/concept-ai-neutrality-bias|中立的暴政]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
+- [[concepts/concept-ai-style-knowledge-docs|AI Style 新型知识文档 10-11 种]] — source `00_inbox/AI知识库/OCR_一堂DOC-20260816015515.md`
 - [[concepts/concept-ai-video-wanggan-componentization|网感组件化：9类视频分类 + 四要素可量化体系]] — source `00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-笔记.txt`
+- [[concepts/concept-AI时代双三角竞争力|AI时代的双三角竞争力：人+AI协作决策]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-人机协作决策_vlm_desc.md`
 - [[concepts/concept-candy-ai-as-collaborator|Candy：AI是协作者而非代写工具]] — source `10_raw/sources/src_20260621_candy-transcript-workflow.md`
 - [[concepts/concept-ceo-must-do-user-research|CEO必须亲自做用户调研]] — source `00_inbox/调研专题/一堂-用户调研实操课-口述_ocr.md`
 - [[concepts/concept-christensen-jtbd-link|从破坏性创新到JTBD：Christensen理论演化]] — source `Christensen & Raynor 2003, The Innovator's Solution, Ch.3`
@@ -577,12 +583,15 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[concepts/concept-mckinsey-issue-tree|Issue Tree：问题树拆解]] — source `pending_archive:source material not yet ingested`
 - [[concepts/concept-mckinsey-mece|MECE 原则：相互独立、完全穷尽]] — source `pending_archive:source material not yet ingested`
 - [[concepts/concept-mcp-protocol|MCP协议：Agent调用外部工具的统一标准]] — source no source
+- [[concepts/concept-open-a-document|开一篇文档：调研的第一个最重要动作]] — source `00_inbox/爆炸式调研/爆炸式调研-上-口述.txt`
 - [[concepts/concept-open-source-knowledge-usage-boundary|开源知识使用边界：学习与蒸馏的分界线]] — source `00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md`
 - [[concepts/concept-pan-product-vs-traditional-management|泛产品组织 vs 传统管理：从控制范式到设计范式]] — source `00_inbox/泛产品设计/兰毅-用泛产品思维做组织-口述.txt`
 - [[concepts/concept-qinpeng-ai-as-amplifier|AI是能力放大器：不创造能力，只放大已有积累]] — source `10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt`
 - [[concepts/concept-qinpeng-knowledge-base-conversion|头脑经验→显性知识库：AI赋能的前提条件]] — source `10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt`
 - [[concepts/concept-research-delegation-in-scaling|规模化中的调研委派：从"自己做"到"建机制"]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[concepts/concept-research-responsibility-boundary|调研责任边界：道德、法律与生存的平衡]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
+- [[concepts/concept-research-saturation-coverage|饱和覆盖：不以数量决定，以规律稳定为目标]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
+- [[concepts/concept-session-vs-memory-vs-document|Session << AI 记忆 << 文档知识库：降 Session 依赖]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[concepts/concept-smart-medicine-cabinet-consumer-acceptance|消费者购药行为与智能药柜接受度]] — source `pending_archive:src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness`
 - [[concepts/concept-smart-medicine-cabinet-digital-pharmacy-diagnosis|智能药柜/数字药房项目诊断：大院处方、小院续方模式]] — source `pending_archive:src_20260613_98aa19d4-itingnao-deep-dive-digital-pharmacy`
 - [[concepts/concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet|巨头为何不做诊所+智能药柜：竞争格局与壁垒分析]] — source `pending_archive:src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape`
@@ -607,6 +616,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[concepts/concept-wanghuan-flywheel-first-loop|王欢：AI 飞轮第一圈]] — source `src_unknown`
 - [[concepts/concept-wanghuan-power-of-standards|王欢：标准的力量——质量乘数]] — source `src_unknown`
 - [[concepts/concept-wanghuan-tacit-knowledge-examples|王欢：行业暗规则实例库（招聘/招投标/销售/培训）]] — source `10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md`
+- [[concepts/concept-X型Y型决策习惯|X型 vs Y型：两种决策习惯对比]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-X型Y型决策习惯对比_vlm_desc.md`
 - [[concepts/concept-yihang-ai-feature-thinking|concept-yihang-ai-feature-thinking]] — source no source
 - [[concepts/concept-yihang-data-pack-ethics|数据包使用伦理——个人学习可用，禁止规模化批量抓取流通]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[concepts/concept-yihang-dual-triangle-core|一行双三角：人机协作的元模型]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-逐字稿.md`
@@ -628,8 +638,8 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[concepts/concept-yitang-research-mindset|调研心态：从"找答案"到"拆假设"]] — source `00_inbox/调研专题/一堂-调研武器库培训-口述.txt`
 - [[concepts/concept-yitang-research-objective|调研目标锁定：从"了解"到"决策"的认知跃迁]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
 - [[concepts/concept-yitang-research-scope|调研范围缩小：专注·专业·剥离三原则]] — source `00_inbox/调研专题/一堂-系统式调研-口述.txt`
-- [[concepts/concept-一堂-AI时代基本功变与不变|AI 时代基本功的变与不变：拆建不变，推练变形，AI 是外骨骼肌肉靠苦练]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt L1810-L2117`
 - [[concepts/concept-一堂-Agent基本功修炼|Agent 基本功修炼：KDO 工厂就是 Agent 军团练基本功的系统]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt L654-L866`
+- [[concepts/concept-一堂-AI时代基本功变与不变|AI 时代基本功的变与不变：拆建不变，推练变形，AI 是外骨骼肌肉靠苦练]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功落地案例篇-春萍-口述.txt L1810-L2117`
 - [[concepts/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `00_inbox/一堂-商业预判课-Truman-口述.txt`
 - [[concepts/concept-一堂-hypothesis-driven-business-methodology|一堂假设驱动型创业分析方法论]] — source `10_raw/sources/src_20260606_22c4a291-一堂-关键假设课-truman-笔记.md`
 - [[concepts/concept-一堂-kernel-iteration|产品内核迭代：从静态到动态的五方向演化]] — source `pending_archive:src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述`
@@ -680,12 +690,15 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[concepts/deliberate-repetition|刻意重复]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
 - [[concepts/design-ai-image-generation|Design / Ai Image Generation]] — source `10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md`
 - [[concepts/ec工业化规范手册-v2.8.0|ec工业化规范手册 v2.8.0]] — source `{'pending_archive': 'src_unknown'}`
+- [[concepts/EC工业化规范手册|EC工业化规范手册]] — source `10_raw/sources/src_20260503_dadc7838-EC工业化规范手册.md`
 - [[concepts/fd-forward-deployment|Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式]] — source `pending_archive:src_20260614_ab09af1c-多人-FD模式解析`
 - [[concepts/finance-legal-business-operations|企业财务-法务-商务运营实务：主题综合索引卡]] — source `10_raw/sources/src_20260614_ccba327a-多人-系统费用沟通.md`
 - [[concepts/find-old-do-small|找老的干小的：AI落地场景评估框架]] — source `10_raw/sources/src_20260606_ef4877d0-所以90的核心问题.md`
 - [[concepts/fixed-routine-design|固定套路设计]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
 - [[concepts/four-questions-feedback|四问法自我反馈]] — source `00_inbox/元能力-刻意练习/YAI的C角色给我的诊断.md`
 - [[concepts/graph-rag|Graph RAG — Knowledge-Graph-Powered Retrieval]] — source `pending_archive:src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm`
+- [[concepts/HIS系统开发实现方案-架构师指南|HIS系统开发实现方案-架构师指南]] — source `10_raw/sources/src_20260503_1a1f0312-HIS系统开发实现方案-架构师指南.md`
+- [[concepts/HIS系统深度调研|HIS系统深度调研]] — source `10_raw/sources/src_20260503_968e0210-HIS系统深度调研.md`
 - [[concepts/industry-ai-cases|产业 AI 落地案例集（非药柜）：主题综合索引卡]] — source no source
 - [[concepts/kdo-flywheel|KDO 飞轮 — 建造→使用→反思→实验]] — source `pending_archive: src_unknown`
 - [[concepts/kdo-yaml-frontmatter-safety|KDO YAML Frontmatter 安全操作指南]] — source `src_unknown`
@@ -1019,12 +1032,10 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[concepts/轻量级诊所HIS调研全清单|轻量级诊所HIS调研全清单]] — source `10_raw/sources/src_20260503_5c91e867-轻量级诊所HIS调研全清单.md`
 - [[concepts/那今天不会|那今天不会。]] — source `10_raw/sources/src_20260522_642ab512-那今天不会.md`
 - [[concepts/鑫港湾his系统分阶段整改报告|鑫港湾HIS系统分阶段整改报告]] — source `{'pending_archive': 'src_unknown'}`
-- [[cross-domain-patterns/README|跨域模式层索引]] — source no source
 - [[cross-domain-patterns/pattern-hypothesis-validation|跨域模式：假设+验证]] — source no source
 - [[cross-domain-patterns/pattern-layered-matching|跨域模式：分层+匹配]] — source no source
 - [[cross-domain-patterns/pattern-tool-vs-model|跨域模式：工具→建模]] — source no source
-- [[dark-knowledges/dk-E010-duplicate-key-detection|E010：frontmatter重复键——一次批量写入摧毁2350张卡的根因]] — source `60_feedback/tasks/task_20260803_huangyaoshi-duplicate-key-lint.md`
-- [[dark-knowledges/dk-P42-agent-fact-check-gap|P-42：Agent 凭错误核查挑战审查结论——git 字节验证缺位]] — source `60_feedback/diagnosis/diag_20260804_huangyaoshi-cross-agent-fact-dispute-lessons.md`
+- [[cross-domain-patterns/README|跨域模式层索引]] — source no source
 - [[dark-knowledges/dk-agent-access-kdo-pitfalls|外部Agent接入KDO：审批门禁/路径格式/检索规则三连坑]] — source `30_wiki/agent-specs/agent-spec-basic-skills-coach.md`
 - [[dark-knowledges/dk-agent-evolution-pitfalls|Agent进化常见失败模式]] — source `.agent/pitfalls.md`
 - [[dark-knowledges/dk-agent-promise-verification|承诺核对表：Agent 能承诺什么、不能承诺什么]] — source `00_inbox/半肥猫/【半肥猫】用 AI 把脑子里的经验，推进成一个最小可验证的数字交付 副本.md §第五步`
@@ -1062,6 +1073,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[dark-knowledges/dk-community-lecturer-vs-crowd-model|讲师中心 vs 群众中心：社群知识生产的两种模式]] — source `00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md`
 - [[dark-knowledges/dk-content-implicit-value-without-price|全文不提价格，但处处暗示价值]] — source `00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md`
 - [[dark-knowledges/dk-content-muscle-memory-vs-knowledge|内容创作中的肌肉记忆：很多能力不是知识]] — source `00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md`
+- [[dark-knowledges/dk-customers-hate-ai|客户讨厌 AI：AI 生成的销售内容没人情味]] — source `00_inbox/spin销售巨人/马易-SPIN销售方法与AI-口述.txt`
 - [[dark-knowledges/dk-decision-value-overrides-roi|Y 模型失效场景：当价值观权重超过经济理性时，广义 ROI 公式不再适用]] — source `src_unknown`
 - [[dark-knowledges/dk-decision-when-to-defer|何时应该推迟决策]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[dark-knowledges/dk-delivery-path-type-bug|delivery.py Path类型bug：字符串root→TypeError被吞→搜索永远0结果]] — source `C:/Users/Administrator/Knowledge Delivery OS 0.0.1/kdo/commands/delivery.py`
@@ -1078,12 +1090,14 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[dark-knowledges/dk-demand-premature-solution|过早进入解决方案空间——冰山模型的根本价值]] — source `00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_ocr_text.md`
 - [[dark-knowledges/dk-demand-signal-vs-noise|需求信号与噪音的区分]] — source `10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md`
 - [[dark-knowledges/dk-demand-switching-cost|新体验-旧体验-切换成本=产品价值]] — source `00_inbox/五步法之需求分析/一堂-需求分析-方法论-笔记.txt`
+- [[dark-knowledges/dk-E010-duplicate-key-detection|E010：frontmatter重复键——一次批量写入摧毁2350张卡的根因]] — source `60_feedback/tasks/task_20260803_huangyaoshi-duplicate-key-lint.md`
 - [[dark-knowledges/dk-ef-001-sn74lvc2g07-open-drain|开漏输出的陷阱：上拉电阻太大导致信号边沿变缓]] — source `90_control/electronics-practice/failure-modes-electronics.md`
 - [[dark-knowledges/dk-ef-002-bom-version-async|BOM 多版本不同步：你手里的文件和产线手里的不是同一份]] — source `90_control/electronics-practice/failure-modes-electronics.md`
 - [[dark-knowledges/dk-ef-003-hand-soldering-bom-divergence|手焊板的隐性修改：原型调通了但量产就是不行]] — source `90_control/electronics-practice/failure-modes-electronics.md`
 - [[dark-knowledges/dk-ef-004-missing-diagnostic-firmware|没有诊断固件就是盲调：你不知道信号卡在哪一级]] — source `90_control/electronics-practice/failure-modes-electronics.md`
 - [[dark-knowledges/dk-emotional-value-high-bar|「暗知识：情绪价值是门槛极高的动作——top 5%才有效」]] — source `00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt`
 - [[dark-knowledges/dk-emotional-value-premium|「暗知识：情绪价值溢价——功能1.5倍上限，情绪10-100倍」]] — source `00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt`
+- [[dark-knowledges/dk-extract-then-merge|先萃取再二次合并萃取：优于基于原始案例直接建模]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[dark-knowledges/dk-f1-regex-on-cjk|F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched]] — source `src_unknown`
 - [[dark-knowledges/dk-f10-broken-source-refs|F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料]] — source `src_unknown`
 - [[dark-knowledges/dk-f11-encyclopedia-style|F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景]] — source `src_unknown`
@@ -1100,6 +1114,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[dark-knowledges/dk-f9-generic-critique|F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上]] — source `src_unknown`
 - [[dark-knowledges/dk-feature-not-learned-but-used|「暗知识：Feature不是学会的，是用会的」]] — source `00_inbox/AI基本功/AI学习-Feature思维解析（下）-口述.txt`
 - [[dark-knowledges/dk-feature-pieces-not-recognized-as-cards|「暗知识：一堆散牌却不知道那是牌——无意识经验与Feature库的鸿沟」]] — source `00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md`
+- [[dark-knowledges/dk-feature-registry-count-drift|Feature 注册表数量漂移：引用数字的文档系统性滞后]] — source `cap_hub/features.json`
 - [[dark-knowledges/dk-five-step-framework-legitimizes-bias|暗知识：框架不会自动降噪，反而可能「合法化」偏见——用了五步法不代表科学分析]] — source `10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md`
 - [[dark-knowledges/dk-foresight-source-material-blindness|暗知识：素材命名不一致导致完整口述稿被遗漏]] — source `10_raw/sources/src_20260619_833c79d5_60_feedback_corrections_corr_20260611_laowantong_机会预判域_OCR遗漏_旧卡未清理.md`
 - [[dark-knowledges/dk-foresight-tier-skip-illusion|暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快]] — source `10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md`
@@ -1125,6 +1140,8 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[dark-knowledges/dk-lz-code-is-disposable|代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产]] — source `10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md`
 - [[dark-knowledges/dk-market-info-gap-to-product-strategy|市场信息差→产品策略决策链——从"怎么还有人不知道"到"零门槛+80分"]] — source `00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-口述.txt`
 - [[dark-knowledges/dk-mckinsey-hypothesis-driven-pitfalls|暗知：假设驱动方法论的三个反直觉陷阱]] — source `src_unknown`
+- [[dark-knowledges/dk-mcp-pythonpath-pollution|PYTHONPATH 跨版本污染：cp313 venv 注入 Python312 子进程导致 MCP 崩溃]] — source `capability/hermes/hermes-mcp-server-ops`
+- [[dark-knowledges/dk-model-demystification|模型祛魅：上下文完备度 >> 模型差距]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[dark-knowledges/dk-modeling-ai-compound-leverage|AI 加杠杆最大的场景是建模，因为好模型会被反复调用]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[dark-knowledges/dk-modeling-ai-cross-validation|拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[dark-knowledges/dk-modeling-ai-iterative-prompting|AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
@@ -1152,6 +1169,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[dark-knowledges/dk-note-maximum-common-divisor|清单体是人与AI的'最大公约数'：结构降级即认知升级]] — source `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md`
 - [[dark-knowledges/dk-note-rookie-disaster-veteran-heaven|“新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机]] — source `10_raw/sources/src_20260617_c5e5fb8e-一堂-ai时代请单体笔记-truman-口述-02.txt`
 - [[dark-knowledges/dk-note-surplus-brainpower|“剩余脑力”：高阶笔记的唯一货币与分水岭]] — source `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md`
+- [[dark-knowledges/dk-one-sentence-handover|四棒接力"每次交接只说一句话"：无文档交接、无提示词传递]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[dark-knowledges/dk-p1-model-switch-env|P-1：切模型改环境变量无效——Claude Code 走全局设置]] — source `src_unknown`
 - [[dark-knowledges/dk-p10-oral-ban|P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件]] — source `src_unknown`
 - [[dark-knowledges/dk-p11-regex-cutoff|P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效]] — source `src_unknown`
@@ -1166,6 +1184,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[dark-knowledges/dk-p20-bigram-fail|P-20：pre-screen bigram 匹配对中文文本完全失效]] — source `src_unknown`
 - [[dark-knowledges/dk-p3-auth-cache|P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env]] — source `src_unknown`
 - [[dark-knowledges/dk-p4-batch-format-empty|P-4：批量格式升级产生"格式完整但思维空洞"卡片 (C-8)]] — source `src_unknown`
+- [[dark-knowledges/dk-P42-agent-fact-check-gap|P-42：Agent 凭错误核查挑战审查结论——git 字节验证缺位]] — source `60_feedback/diagnosis/diag_20260804_huangyaoshi-cross-agent-fact-dispute-lessons.md`
 - [[dark-knowledges/dk-p5-cc-connect-config|P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹]] — source `src_unknown`
 - [[dark-knowledges/dk-p6-session-resume-fail|P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID]] — source `src_unknown`
 - [[dark-knowledges/dk-p7-ocr-skip|P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片]] — source `src_unknown`
@@ -1177,6 +1196,17 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[dark-knowledges/dk-process-is-scar-tissue|流程是业务的疤痕：每个节点都曾是流血后的痂]] — source `00_inbox/Advanced modeling/ 口述 L2617-L2624`
 - [[dark-knowledges/dk-pseudo-demand-trap|暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地]] — source `10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md`
 - [[dark-knowledges/dk-publish-collapse-to-iterate|发布不是终点——发布执行是知识迭代的入口]] — source `60_feedback/corrections/corr_20260809_duanwangye-self-iteration-gap.md`
+- [[dark-knowledges/dk-research-ai-no-time-concept|AI 没时间观念：调研必须时间锚定]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
+- [[dark-knowledges/dk-research-classification-mece-table|分类方案 MECE 手术台：3-5 套方案 + 归位判据 + 人拍板]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
+- [[dark-knowledges/dk-research-important-things-must-do|重要的事应做必做：饱和式输出探索]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
+- [[dark-knowledges/dk-research-ranklist-replaces-model|建不了模型就建排行榜：Top10 审美锚点]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
+- [[dark-knowledges/dk-research-sampling-correction-three-rounds|打样纠偏三轮法：5-10 个样本定颗粒度]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
+- [[dark-knowledges/dk-research-saturation-quota-ai-km|调研饱和话术："不要给我省任何投入，至少调研 30-50 篇"]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
+- [[dark-knowledges/dk-research-saturation-self-proof|饱和自证话术：让 AI 记数就不太会骗人]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
+- [[dark-knowledges/dk-research-scavenger-vs-architect|信息拾荒者 vs 规律建筑师]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
+- [[dark-knowledges/dk-research-total-anchor-private-library|私有库调研总量锚定法：缺口清单逼近 vs 边际递减]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
+- [[dark-knowledges/dk-sales-big-deal-vs-small-deal|销售本质是大单与小单之分，不是 ToB 与 ToC 之分]] — source `00_inbox/spin销售巨人/马易-SPIN销售方法与AI-口述.txt`
+- [[dark-knowledges/dk-sales-demand-mining-is-company-task|需求挖掘是公司的任务，销售只做传递与匹配]] — source `00_inbox/spin销售巨人/马易-SPIN销售方法与AI-口述.txt`
 - [[dark-knowledges/dk-signal-cluster-illusion|暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕]] — source `10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md`
 - [[dark-knowledges/dk-skill-market-agent-self-install|暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述]] — source `pending_archive:src_20260606_6ea91aa8-纪浩-AI协作方法论-口述`
 - [[dark-knowledges/dk-skill-seven-elements-upgrade|Skill ≠ Prompt——蓝鱼七要素告诉你完整 Skill 缺了什么]] — source `C:/Users/Administrator/Desktop/从知识库到agent.txt`
@@ -1196,6 +1226,8 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[dark-knowledges/dk-strategy-essence-four-elements|战略内核检测：细分市场+竞争优势+资源配置+范围经济]] — source `pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown - src_unknown`
 - [[dark-knowledges/dk-strategy-longzhong-four-failures|隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了]] — source `pending_archive:`
 - [[dark-knowledges/dk-strategy-three-must-do-moments|三种必做战略的时刻：快速扩张/业务平台期/行业下行期]] — source `pending_archive:`
+- [[dark-knowledges/dk-three-context-formula|15 秒做图三上下文公式：知道我是谁+检索项目文档+读取设计宪法]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
+- [[dark-knowledges/dk-tool-adoption-by-force|工具落地靠硬推不靠倡议："你不用 Obsidian 我没法跟你协作"]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[dark-knowledges/dk-tool-as-answer-trap|把工具/框架当成答案，而不是提问的脚手架]] — source `10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md`
 - [[dark-knowledges/dk-tool-as-phased-validator|把 AI/工具当成分阶段校验器，而不是一次性生成器]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[dark-knowledges/dk-tool-chain-naming-is-infrastructure|命名不规范会让整条工具链"失明"]] — source `src_unknown`
@@ -1257,7 +1289,6 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[dark-knowledges/dk-yihang-report-book-learner|报告书型学习者：不听课直接读卡也能学会的极简路径]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[dark-knowledges/dk-yihang-scientific-community-moat|科学共同体作为一堂核心资产——冲向最大难题，解不掉就交给下一个人]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[dark-knowledges/dk-yihang-technical-domain-aesthetic|严格技术域审美——"对就是对错就是错"域不需要品位，需要验证机制]] — source `对话记录：2026-07-05 老朱论电子工程/SaaS/机械结构域审美`
-- [[dark-knowledges/dk-yitang-Y-model-pitfalls|Y模型常见六大陷阱与反打]] — source no source
 - [[dark-knowledges/dk-yitang-business-formula-a-missing-syndrome|A 缺失的并发症：没有锚定目标的公式无法排优先级]] — source `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L429-L619`
 - [[dark-knowledges/dk-yitang-business-formula-cd-loop-undo-key|公式是经营的撤销键：C-D 循环的真实形态是「打不动就退，找到就回」]] — source `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L1874-L1928`
 - [[dark-knowledges/dk-yitang-business-formula-l1-site-blindness|L1 不进公式=假装选址免费：选择型参数是线下业务最大的隐藏变量]] — source `00_inbox/Case study/🎯直播Live第255场：落地之夜第六场 — 逐字稿 副本.md L217-L291`
@@ -1274,6 +1305,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[dark-knowledges/dk-yitang-over-prediction-danger|早期项目长期精确财务预测是过度预测]] — source `00_inbox/实事求是/实事求是-周子敬-口述.txt`
 - [[dark-knowledges/dk-yitang-project-overmanagement-vs-bare-run|过度管理 vs 裸跑的平衡暗知识：匹配工具复杂度与项目复杂度]] — source `00_inbox/管项目/项目管理-入门篇-口述.txt`
 - [[dark-knowledges/dk-yitang-sales-common-pitfalls|一堂科学销售常见陷阱：六大反模式与修复动作]] — source no source
+- [[dark-knowledges/dk-yitang-Y-model-pitfalls|Y模型常见六大陷阱与反打]] — source no source
 - [[dark-knowledges/dk-借假修真与黑盒白盒|「暗知识：借假修真与黑盒白盒——高阶复盘的核心」]] — source `00_inbox/个人-深度复盘/_processed/批注_2026-08-05_225330_*.md`
 - [[dark-knowledges/dk-利润-创始人利润耻感|创始人利润耻感：不敢拿利润不是贪婪问题，是认知问题]] — source `00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L800-L816`
 - [[dark-knowledges/dk-利润-利润敏感度非对称性|利润敏感度的非对称性：为什么老板对降价不敏感但对现金流极度敏感]] — source `00_inbox/利润为王/经营课：利润认知与企业生存-口述.txt L1342-L1376`
@@ -1366,6 +1398,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[domains/master-moc|Master 主题域 MOC：KDO 知识工厂的自身运营知识]] — source `30_wiki/domains/retrospective-moc.md`
 - [[domains/product-moc|Product 主题域 MOC：产品方法论与精益验证]] — source `30_wiki/domains/retrospective-moc.md`
 - [[domains/retrospective-moc|复盘主题域 MOC：知识库的复盘知识网络]] — source `60_feedback/tasks/task_20260806_huangyaoshi-retrospective-moc.md`
+- [[domains/sales-domain-digest|域摘要：销售管理（30+张卡）]] — source `90_control/domain-mapping.md`
 - [[domains/strategy-domain-digest|域摘要：企业战略（冉鹏 · 30年经验）]] — source `00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md`
 - [[domains/yitang-domain-digest|域摘要：一堂知识体系总目]] — source `{'pending_archive': 'src_unknown'}`
 - [[domains/yitang-research-domain-digest|域摘要：调研方法论（90+张卡）]] — source `60_feedback/diagnosis/diag_20260620_调研专题素材验收.md`
@@ -1386,15 +1419,17 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[frameworks/concept-mckinsey-7s|7-S Framework：组织诊断的七维模型]] — source `src_unknown`
 - [[frameworks/concept-mckinsey-hypothesis-driven|Hypothesis-Driven Approach：假设驱动工作法]] — source `{'pending_archive': 'src_unknown'}`
 - [[frameworks/concept-minto-pyramid-principle|金字塔原理：结论先行的结构化沟通框架]] — source no source
-- [[frameworks/framework-TCPR底层网络协议|TCP-R 模型：商业管理世界的底层网络协议]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md`
-- [[frameworks/framework-TCPR皇冠模型|TCP-R皇冠模型：教学·咨询·实践·研究的统一框架]] — source `00_inbox/_vlm_reprocess/其他/一堂-TCPR模型-皇冠模型_vlm_desc.md`
 - [[frameworks/framework-agent-card-execution-pattern|Agent 执行模式：从卡片到可执行动作]] — source `30_wiki/tools/agent-spec-dual-triangle-canvas-filler.md`
 - [[frameworks/framework-ai-accelerated-strategy-cycle|AI 加速的战略-验证闭环]] — source no source
 - [[frameworks/framework-ai-deconstruction-methodology|王欢三层拆书法]] — source no source
 - [[frameworks/framework-ai-deliberate-practice-loop|AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴]] — source `u`
+- [[frameworks/framework-ai-human-70-30-division|70% AI / 30% 人：爆炸式调研的分工地图]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
 - [[frameworks/framework-ai-native-organization-two-modes|AI 原生组织的两种形态：AI 控制台 vs Agent 平台]] — source no source
+- [[frameworks/framework-ai-report-value-ladder-l1-l6|AI 报告价值层级 L1-L6：每级价值×10]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
+- [[frameworks/framework-ai-sales-collaboration|AI 销售协同：确定性方法 + 可判断标准的双条件框架]] — source `00_inbox/spin销售巨人/马易-SPIN销售方法与AI-口述.txt`
 - [[frameworks/framework-ai-video-production-aesthetics-first|AI产品开发·审美与体系的分工：审美定义结果，体系让结果重复发生]] — source no source
 - [[frameworks/framework-ai2041-critical-reading-os|AI 2041 批判性认知操作系统]] — source no source
+- [[frameworks/framework-baozhashidiaochan-five-step|爆炸式调研五步法：目标→范围→搜索⇄建模→交付]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
 - [[frameworks/framework-big-five-personality|「框架：大五人格——只有开放性和尽责性越高越好」]] — source `00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt`
 - [[frameworks/framework-bimodal-time-philosophy|双峰时间哲学模型]] — source no source
 - [[frameworks/framework-brand-three-degree|品牌三度]] — source no source
@@ -1419,6 +1454,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[frameworks/framework-demand-usp-model|USP需求洞察模型：Demand = User × Situation × Problem]] — source no source
 - [[frameworks/framework-demand-validation-pipeline|需求验证流水线]] — source no source
 - [[frameworks/framework-doris-industry-report-4step|行业报告调研四步法：7天快速建立行业认知]] — source no source
+- [[frameworks/framework-dual-center-feishu-obsidian|双中心原则：飞书给人、Obsidian 给 AI]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[frameworks/framework-five-step-lean-interface|五步法与精益验证的接口]] — source no source
 - [[frameworks/framework-founder-ip-three-positioning|创始人 IP 三定位模型]] — source no source
 - [[frameworks/framework-how-to-know-a-person|「框架：布鲁克斯"看见"三支柱——了解一个人的完整方法论」]] — source `00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt`
@@ -1426,6 +1462,8 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[frameworks/framework-kdo-mcp-server|KDO MCP Server — 知识库能力的外部协议暴露层]] — source no source
 - [[frameworks/framework-kdo-modeling-methodology|KDO 建模方法论——从踩坑打补丁到组件化建模]] — source no source
 - [[frameworks/framework-kdo-self-attack|KDO 知识自攻击框架：用对抗 Agent 在交付前主动找出弱点]] — source no source
+- [[frameworks/framework-knowledge-compound-rocket-six|知识复利火箭六要素：周期×数量质量×自动化协作化×可掌控]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
+- [[frameworks/framework-knowledge-five-leaps|五次知识管理飞跃：2013→2026 编年与 AI 周期变短]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[frameworks/framework-leadership-coin-model|领导力硬币模型（信任加减币）]] — source `00_inbox/教练式领导力/教练式领导力课程-01-口述.txt`
 - [[frameworks/framework-leadership-five-ladders|领导力五阶梯（L0认同→L5希望）]] — source `00_inbox/教练式领导力/教练式领导力课程-01-口述.txt`
 - [[frameworks/framework-lean-abcd-model|关键假设 ABCD 模型]] — source no source
@@ -1441,9 +1479,14 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[frameworks/framework-meeting-iceberg-canvas|会议冰山模型 × 科学开会思考画布]] — source `00_inbox/科学开会/科学开会方法-认知篇-口述.txt`
 - [[frameworks/framework-meeting-ten-principles|科学开会十大原则（人×事花瓣图）]] — source `00_inbox/科学开会/科学开会方法-认知篇-口述.txt`
 - [[frameworks/framework-modeling-relation-exploration|流程建模的关系探索：关系vs规律，从并列到因果]] — source no source
+- [[frameworks/framework-multi-agent-collab-chain-six|多 Agent 协作链六环节：管理读写关系，让上下文一轮轮变厚]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[frameworks/framework-multi-agent-research-architecture|多智能体研究架构模式（Multi-Agent Research Architecture）]] — source no source
 - [[frameworks/framework-ouyangfeng-review-methodology|欧阳锋审查方法论：三阶段架构评审框架]] — source no source
 - [[frameworks/framework-pan-product-organization|泛产品组织设计：把团队当成产品来打磨]] — source no source
+- [[frameworks/framework-patrolkit-radar|PatrolKit 知识资产雷达：自动巡查与资产回收系统]] — source `00_inbox/AI知识库/OCR_一堂DOC-20260816015759.md`
+- [[frameworks/framework-r-type-research-partner-five-state|R 型研究 Partner 五状态机：从课题到知识资产]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
+- [[frameworks/framework-sales-funnel-full|销售漏斗全貌：正梯形复购裂变 + 每层配套动作]] — source `00_inbox/spin销售巨人/马易-SPIN销售方法与AI-口述.txt`
+- [[frameworks/framework-serendipity-five-channels|偶遇自动采集五通道：让偶遇成为资产]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[frameworks/framework-strategy-ansoff|安索夫矩阵：产品-市场增长战略]] — source no source
 - [[frameworks/framework-strategy-basics-01-core|定式（Core Foundation）：BRM框架为核心，战略肌肉记忆]] — source no source
 - [[frameworks/framework-strategy-basics-02-insight|洞察（Critical Insight）：模型+图表+假设验证，战略视野需登高望远]] — source no source
@@ -1463,8 +1506,11 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[frameworks/framework-strategy-three-horizons|三个地平线：短中长期业务组合管理]] — source no source
 - [[frameworks/framework-structured-analytic-techniques|结构化分析技术（SATs）总览]] — source no source
 - [[frameworks/framework-taste-as-judgment-system|品味系统：判断力 × 审美 × 系统思维]] — source no source
+- [[frameworks/framework-TCPR底层网络协议|TCP-R 模型：商业管理世界的底层网络协议]] — source `00_inbox/_vlm_reprocess/单元模型/一堂-单元模型-TCPR底层网络协议_vlm_desc.md`
+- [[frameworks/framework-TCPR皇冠模型|TCP-R皇冠模型：教学·咨询·实践·研究的统一框架]] — source `00_inbox/_vlm_reprocess/其他/一堂-TCPR模型-皇冠模型_vlm_desc.md`
 - [[frameworks/framework-time-management-dual-loop-matrix|时间管理双循环矩阵：独立/协作 × 重点/效率]] — source no source
 - [[frameworks/framework-time-management-matrix|重要/紧急四象限（艾森豪威尔矩阵）]] — source no source
+- [[frameworks/framework-truman-agent-team-architecture|Truman Agent 团队系统架构：缓冲站→Library→三团队→四库]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[frameworks/framework-truman-feature-layered-system|「框架：Feature分层体系——L0-L5六层+分层自洽」]] — source `00_inbox/AI基本功/AI学习-Feature思维解析（上）-口述.txt`
 - [[frameworks/framework-truman-feature-thinking-core|「框架：Feature思维——提升AI解题水平的最小实践单位」]] — source `00_inbox/AI基本功/AI学习-Feature思维解析（上）-口述.txt`
 - [[frameworks/framework-visual-analysis-four-dimensions|VA 四维法——从图片到结构化视觉分析的通用方法论]] — source no source
@@ -1478,9 +1524,9 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[frameworks/framework-wanghuan-say-think-do-toolchain|王欢说→想→做工具链框架]] — source no source
 - [[frameworks/framework-wanghuan-task-product-system|王欢任务→产品→系统演进框架]] — source no source
 - [[frameworks/framework-wanghuan-three-tier-dev-architecture|王欢三层开发架构：需求拆解→AI开发→哨兵质检]] — source no source
-- [[frameworks/framework-yihang-AI-native-dual-triangle-kernel|AI 原生是结果，双三角是引擎]] — source no source
 - [[frameworks/framework-yihang-aesthetic-judgment-training|AI 时代审美判断力训练系统——未来教育的核心转向]] — source no source
 - [[frameworks/framework-yihang-ai-implementation-consultant|AI 落地顾问培养体系——双三角笃定 + 技术产品背景 + 学习能力 + 价值观]] — source no source
+- [[frameworks/framework-yihang-AI-native-dual-triangle-kernel|AI 原生是结果，双三角是引擎]] — source no source
 - [[frameworks/framework-yihang-dual-triangle-ai-landing-five-steps|一行双三角AI落地五部曲]] — source no source
 - [[frameworks/framework-yihang-dual-triangle-ten-year-map|一行双三角十年爬山地图]] — source no source
 - [[frameworks/framework-yihang-dual-triangle-three-stages-six-changes|一行双三角三阶六变]] — source no source
@@ -1658,8 +1704,8 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[methods/method-yitang-y-model-structured-form|Y模型 解决真实难题的结构化填表法]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
 - [[methods/method-一堂-教练对话引擎协议|一堂教练对话引擎协议：共享件×三控制机制×TCPR身份轴]] — source `C:/Users/Administrator/Desktop/YAI/关键决策agent-我现在面临重大的人生方向选择的 (1).md`
 - [[operations/runbook-agent-spec-to-runtime|Agent Spec → 可运行 Agent 部署路径 Runbook]] — source `70_product/tasks/task_20260708_wangyuyan-dual-triangle-cross-domain-agent.md`
-- [[personal-os/README|README]] — source no source
 - [[personal-os/opc-ai-sales-agent-architecture|OPC AI 销售智能体架构]] — source `00_inbox/销售专题/_processed/销售专题_整合笔记.md`
+- [[personal-os/README|README]] — source no source
 - [[personal-os/wangyuyan-working-protocols|王语嫣工作协议集]] — source no source
 - [[personal-os/zhu-codebase-ai-orchestration|老朱代码库AI编排项目]] — source `00_inbox/人机协作双三角/YAI双三角agent对话记录.md`
 - [[personal-os/zhu-domain-index|老朱个人域索引]] — source no source
@@ -1702,8 +1748,8 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[systems/sprint-2-gate-enrich-evidence|Sprint 2 门禁系统 + Enrich 举证 — 设计规格]] — source `10_raw/sources/src_20260510_9e98a292-sprint-2-门禁举证验收.md`
 - [[systems/system-kdo-quality-framework|KDO 质量体系：双三角模型在知识工厂的落地]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[systems/system-kdo-quality-labels|KDO 卡片质量标签体系使用指南]] — source `00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md`
-- [[systems/system-yitang-Y-model-os|Y模型 OS：所有 Agent 的共享底层 prompt]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
 - [[systems/system-yitang-research-workflow|调研工作流：从问题到报告的端到端执行路径]] — source `30_wiki/frameworks/framework-yitang-oscar-research.md`
+- [[systems/system-yitang-Y-model-os|Y模型 OS：所有 Agent 的共享底层 prompt]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
 - [[systems/workflow-knowledge-collision|知识碰撞工作流：产出前先碰撞知识库]] — source `pending_archive: src_unknown`
 - [[systems/一堂方法论体系总图|一堂方法论体系总图]] — source `10_raw/sources/src_20260503_9bfe6913-一堂-调研行动营启动_原文润色.md`
 - [[tools/agent-spec-basic-skills-coach|「Agent Spec：AI基本功教练——Feature点菜+路径建议+证据链」]] — source `10_raw/sources/feature-periodic-table-v0.8.json`
@@ -1714,6 +1760,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[tools/agent-spec-hongqigong-multimodal|洪七公 Multimodal Agent — KDO 多模态渲染与视觉资产生产引擎]] — source `.agent/hongqigong-context.md`
 - [[tools/agent-spec-meeting-assistant|「Agent Spec：科学开会助理——该不该开+冰山画布+原则匹配+可照抄话术」]] — source `30_wiki/workflows/workflow-kdo-agent-production-pipeline.md`
 - [[tools/agent-spec-project-management-assistant|项目管理助手 Agent（对话教练版）]] — source `00_inbox/管项目/项目管理-入门篇-口述.txt`
+- [[tools/agent-spec-research-explosion-partner|「Agent Spec：R 型爆炸式调研 Partner——五状态机饱和建模产出知识资产」]] — source `agents/research-explosion-partner/SPEC.md`
 - [[tools/agent-spec-复盘教练|「Agent Spec：复盘教练——TCPR Coach 身份，引导团队深度复盘」]] — source `00_inbox/供应商/千惠供应链复盘-引导问题清单-20260806.md`
 - [[tools/ai-short-drama-conflict-three-axes|矛盾冲突三板斧：短剧冲突分层设计工具]] — source `10_raw/sources/src_20260613_37933c99-conflict-three-axes.md`
 - [[tools/ai-short-drama-framework-three-axes|框架三板斧：短剧英雄之旅结构工具]] — source `10_raw/sources/src_20260613_1ade007d-framework-three-axes.md`
@@ -1739,41 +1786,6 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[tools/smart-medicine-cabinet-financial-model|智能药柜单点财务模型与回本测算表]] — source `pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive`
 - [[tools/smart-medicine-cabinet-fraud-detection|智能药柜/智慧药房招商骗局识别清单]] — source `pending_archive:src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive`
 - [[tools/tool-1视角升级思考法|技能：+1视角升级思考法]] — source `10_raw/sources/src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要.md`
-- [[tools/tool-IPO学习-输入处理输出工具箱导航|IPO工具箱导航：I/P/O三段工具索引]] — source `00_inbox/一堂-个人修炼-科学学习IPO-全景策略_paddle_ocr.txt`
-- [[tools/tool-OGSM目标管理工具|OGSM 目标管理工具：Objective-Goals-Strategies-Measures]] — source `00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §4.1`
-- [[tools/tool-ROI决策评估画布|ROI决策评估画布：三维度投资回报评估模板]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md`
-- [[tools/tool-Truman-AI场景探索STAR模型|技能：AI场景探索STAR模型]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
-- [[tools/tool-Truman-AI工具选型决策|技能：AI工具选型决策]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
-- [[tools/tool-Truman-AI时代IPO模型重构|技能：AI时代IPO模型重构]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
-- [[tools/tool-Truman-AI时代提示词优化法|技能：AI时代提示词优化法]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
-- [[tools/tool-Truman-AI能力分层学习路径|AI 能力分层学习路径：从零基础?Feature 专家的五层进?]] — source `00_inbox/AI-study/一?AI学习-AI工具应用AMA口述.txt`
-- [[tools/tool-Truman-AI辅助思考伙伴养成|技能：AI辅助思考伙伴养成]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
-- [[tools/tool-Truman-AI输出审慎判断与交付确认|技能：AI输出审慎判断与交付确认]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
-- [[tools/tool-Truman-Feature特性层训练法|Feature 特性层训练法：把 AI 基本功拆成可测试的最小单元]] — source `00_inbox/AI基本功/AI学习-Feature思维解析（上）-口述.txt`
-- [[tools/tool-Truman-Skill全生命周期管理|技能：Skill全生命周期管理]] — source no source
-- [[tools/tool-Truman-XY-Problem识别与真实问题定位|技能：XY Problem识别与真实问题定位]] — source no source
-- [[tools/tool-Truman-上下文质量管理（AI协作）|技能：上下文质量管理（AI协作）]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
-- [[tools/tool-Truman-个人判断力系统建设（达克效应应对）|技能：个人判断力系统建设（达克效应应对）]] — source no source
-- [[tools/tool-Truman-人在环渐进自动化策略|技能：人在环渐进自动化策略]] — source no source
-- [[tools/tool-Truman-低质量动作识别与拒绝|技能：低质量动作识别与拒绝]] — source no source
-- [[tools/tool-Truman-信息输入持续补全（防AI错误累积）|技能：信息输入持续补全（防AI错误累积）]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
-- [[tools/tool-Truman-判断力产品化与系统赋能|技能：判断力产品化与系统赋能]] — source no source
-- [[tools/tool-Truman-双三角模型应用|技能：双三角模型应用]] — source no source
-- [[tools/tool-Truman-复杂项目AI落地稳定性保障|技能：复杂项目AI落地稳定性保障]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
-- [[tools/tool-Truman-多Agent通信协作方案|技能：多Agent通信协作方案]] — source no source
-- [[tools/tool-Truman-开源模型与商业模型融合方案|技能：开源模型与商业模型融合方案]] — source no source
-- [[tools/tool-Truman-技术社区严肃提问法|技能：技术社区严肃提问法]] — source no source
-- [[tools/tool-Truman-提示词优化底层方法|技能：提示词优化底层方法]] — source no source
-- [[tools/tool-Truman-数学题与语文题区分法|技能：数学题与语文题区分法]] — source no source
-- [[tools/tool-Truman-本地记忆与云端记忆管理|技能：本地记忆与云端记忆管理]] — source no source
-- [[tools/tool-Truman-知识库最佳实践构建|技能：知识库最佳实践构建]] — source no source
-- [[tools/tool-Truman-短视频自动化上传工作流|技能：短视频自动化上传工作流]] — source no source
-- [[tools/tool-Truman-科学提问法|技能：科学提问法]] — source no source
-- [[tools/tool-Truman-职场异步协作提问法|技能：职场异步协作提问法]] — source no source
-- [[tools/tool-Truman-语义对齐沟通法|技能：语义对齐沟通法]] — source no source
-- [[tools/tool-Truman-问题定义澄清法|技能：问题定义澄清法]] — source no source
-- [[tools/tool-Y模型STEPS策略集|Y模型STEPS策略集：五步策略框架]] — source `30_wiki/methods/method-yitang-y-model-engine-cycle.md`
-- [[tools/tool-Y模型实操工作流|Y模型实操工作流：从分析到决策的完整路径]] — source `30_wiki/methods/method-yitang-y-model-engine-cycle.md`
 - [[tools/tool-aesthetic-library-builder|审美库采集工具：批量抓取→打分→筛选→生成 DataPack]] — source `00_inbox/人机协作双三?一堂双三角-人机协作模型-口述.txt`
 - [[tools/tool-agent-context-derivation-audit|Agent context推导链审计：从经验堆叠到原则推导]] — source `.agent/laowantong-context.md`
 - [[tools/tool-agent-crawl4ai|Crawl4AI：开源AI爬虫——自然语言描述即可提取]] — source no source
@@ -1784,7 +1796,6 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[tools/tool-agent-research-swarm|Agent 调研 Swarm 模式工具]] — source no source
 - [[tools/tool-agent-self-evolution-protocol|Agent自我进化协议：每次复盘四问]] — source `60_feedback/diagnosis/diag_20260726_wangyuyan-thought-liberation.md`
 - [[tools/tool-agent-spec-business-formula-parameter-miner|业务公式参数挖掘 Agent Spec]] — source `00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L954-L960`
-- [[tools/tool-agent-spec-yitang-Y-model-coach|Y模型 Coach 模式 Agent Spec]] — source `30_wiki/systems/system-yitang-Y-model-os.md`
 - [[tools/tool-agent-spec-yitang-ability-migration-diagnosis|能力迁移诊断 Agent Spec]] — source `.agent/prompts/tool-agent-spec-yitang-ability-migration-diagnosis.md`
 - [[tools/tool-agent-spec-yitang-aesthetic-radar-modeling|审美雷达建模 Agent Spec]] — source `.agent/prompts/tool-agent-spec-yitang-aesthetic-radar-modeling.md`
 - [[tools/tool-agent-spec-yitang-beautiful-work-imagination|漂亮工作想象 Agent Spec]] — source `.agent/prompts/tool-agent-spec-yitang-beautiful-work-imagination.md`
@@ -1812,6 +1823,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[tools/tool-agent-spec-yitang-three-second-opening-scripts|前三秒话术优化 Agent Spec]] — source `00_inbox/销售专题/李蕊-科学销售方法论-口述.txt L800-L814`
 - [[tools/tool-agent-spec-yitang-user-perspective-training|用户视角训练 Agent Spec]] — source `.agent/prompts/tool-agent-spec-yitang-user-perspective-training.md`
 - [[tools/tool-agent-spec-yitang-value-proposition|OPC 卖点提炼助手 Agent Spec]] — source `60_feedback/tasks/task_20260702_laowantong-opc-sales-agent-specs-production.md`
+- [[tools/tool-agent-spec-yitang-Y-model-coach|Y模型 Coach 模式 Agent Spec]] — source `30_wiki/systems/system-yitang-Y-model-os.md`
 - [[tools/tool-ai-agent-feature-comparison|「AI Agent 工具对比：Claude Code / Hermes / Codex / CodeBuddy 的 Feature 差异」]] — source `00_inbox/AI基本功/给王语嫣的任务编排建议书-深度使用版.md`
 - [[tools/tool-ai-ai-workspace-setup|技能：结构化AI工作空间搭建]] — source no source
 - [[tools/tool-ai-critical-reading-three-layers|三层拆书批判法]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
@@ -1845,6 +1857,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[tools/tool-alt-data-free|免费替代数据：小团队的Hedge Fund武器]] — source `src_unknown`
 - [[tools/tool-alt-data-overview|替代数据总览：Hedge Fund级别的调研武器]] — source `src_unknown`
 - [[tools/tool-asset-file-naming-convention|素材文件七要素命名法]] — source `30_wiki/tools/tool-月白-设计文件八要素命名法.md`
+- [[tools/tool-autoclassify-seven-steps|自动分类脚本 7 步：inbox 到目录的自动化流水线]] — source `00_inbox/AI知识库/OCR_一堂DOC-20260816015732.md`
 - [[tools/tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua|技能：按语义切分文档做向量化]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
 - [[tools/tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi|技能：动态读取 + 向量化管理迭代知识]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
 - [[tools/tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong|技能：飞书多维表格 + 自建机器人做团队数据协同]] — source `10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md`
@@ -1862,6 +1875,7 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[tools/tool-binary-quadrant-modeling|二分法/象限图建模法：用正交维度做分类与取舍]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
 - [[tools/tool-candy-oral-polish|Candy口语化润色：七条原则让文字"读出声来"]] — source `10_raw/sources/src_20260621_candy-transcript-workflow.md`
 - [[tools/tool-candy-positioning-canvas|Candy差异化定位画布：回答"这篇东西凭什么存在"]] — source `10_raw/sources/src_20260621_candy-transcript-workflow.md`
+- [[tools/tool-candy-sales-recruiting|销售招聘的客观验证方法：能力模型 + 定量定性结合]] — source `00_inbox/spin销售巨人/马易-SPIN销售方法与AI-口述.txt`
 - [[tools/tool-canvas-weapon-library-modeling|画布/武器库建模法：把工具箱变成可快速调用的系统]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
 - [[tools/tool-checklist-cheatsheet-modeling|清单/小抄建模法：把经验变成可执行的检查点]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
 - [[tools/tool-ci-define-phase|CI Define 阶段工具：决策驱动的问题定义]] — source no source
@@ -1915,12 +1929,14 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[tools/tool-illuminator-vs-diminisher|「工具：照亮者vs贬低者——辨识与练习」]] — source `00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt`
 - [[tools/tool-incentive-28-principle|奖励设计28原则]] — source `00_inbox/解放思想探索营/案例分享-口述.txt`
 - [[tools/tool-indicators-signposts|Indicators & Signposts（指标与信号）]] — source no source
+- [[tools/tool-IPO学习-输入处理输出工具箱导航|IPO工具箱导航：I/P/O三段工具索引]] — source `00_inbox/一堂-个人修炼-科学学习IPO-全景策略_paddle_ocr.txt`
 - [[tools/tool-iterative-recursive-deep-dig|迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
 - [[tools/tool-jargon-to-value-translator|不明觉厉表：技术语言→用户价值翻译]] — source `00_inbox/解放思想探索营/案例分享-口述.txt`
 - [[tools/tool-jiangxiang-ai-four-levels|讲香AI协作四层级：抄/改/改+定制创/创]] — source `10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt`
 - [[tools/tool-kdo-agent-production-checklist|KDO Agent 生产 SOP 清单：从业务任务到可运行 Agent 的五步法]] — source `00_inbox/半肥猫/【半肥猫】我的商业突破实践指南：如何封装一个可复用的业务 Skill_MCP 副本.md`
 - [[tools/tool-kdo-help|kdo_help MCP 工具——外部 Agent 首次接入 KDO 的结构化引导]] — source `kdo-tools/mcp/tools.py`
 - [[tools/tool-key-assumptions-check|Key Assumptions Check（隐藏假设检验）]] — source no source
+- [[tools/tool-knowledge-cheatsheet-sab|知识小抄 S/A/B 三级收录清单]] — source `00_inbox/AI知识库/OCR_一堂DOC-20260816015204.md`
 - [[tools/tool-leadership-consensus-goal-escalation|共识目标三次跨越卡（60→80→自主设定 + 猴子理论）]] — source `00_inbox/教练式领导力/教练式领导力课程-02-口述.txt`
 - [[tools/tool-leadership-exit-consulting|出口式咨询卡（找出口→换视角→探究解法）]] — source `00_inbox/教练式领导力/教练式领导力课程-01-口述.txt`
 - [[tools/tool-leadership-feedback-cards|教练反馈卡（6原则：及时/复述/积极/确认/BASIC/刻意练习 + BE FASTER对比反馈）]] — source `00_inbox/教练式领导力/VLM_武器库_完整迭代版.md`
@@ -1954,9 +1970,11 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[tools/tool-metadata-extraction|元数据提取：从文件中提取隐藏信息]] — source `src_unknown`
 - [[tools/tool-mot-research-method|MOT调研法：关键时刻用户触点分析]] — source `00_inbox/解放思想探索营/案例分享-口述.txt`
 - [[tools/tool-narrative-thinking-user-insight|「工具：叙事型用户洞察——用户不是数字」]] — source `00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt`
+- [[tools/tool-nine-character-mantra-14-strategies|九字诀 14 策略小抄：明确目标控过程的节奏做纠偏]] — source `00_inbox/爆炸式调研/爆炸式调研-下-口述.txt`
 - [[tools/tool-note-keyword-bolding|关键词加粗三重结构：视觉重心即认知重心的标记法则]] — source `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md`
 - [[tools/tool-note-layer-constraint|清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准]] — source `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md`
 - [[tools/tool-note-one-line-one-point|一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作]] — source `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md`
+- [[tools/tool-OGSM目标管理工具|OGSM 目标管理工具：Objective-Goals-Strategies-Measures]] — source `00_inbox/Handle the business/Target goal/目标管理-底层逻辑与实践-周子敬-笔记.txt §4.1`
 - [[tools/tool-opc-sales-dialogue-assistant|OPC 销售对话助手智能体]] — source `00_inbox/销售专题/_processed/销售专题_整合笔记.md`
 - [[tools/tool-open-closed-problem-classifier|开放/封闭问题分类器：判断任务该交给 AI 控制台还是 Agent 平台]] — source `00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md`
 - [[tools/tool-openmontage-video-factory|OpenMontage 中文 MCP 版：AI 视频工厂]] — source `00_inbox/AI-study/openmontage/【观察团专享】Noah（OPT版）：Github上最火的AI视频项目OpenMontage，我改了个中文MCP版 副本.md`
@@ -1984,10 +2002,13 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[tools/tool-react行动推理循环|技能：ReACT行动推理循环]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
 - [[tools/tool-red-team-analysis|Red Team Analysis（红队分析/竞对视角模拟）]] — source no source
 - [[tools/tool-reverse-image-search|反向图片搜索：追踪图片来源和真实性]] — source `src_unknown`
+- [[tools/tool-ROI决策评估画布|ROI决策评估画布：三维度投资回报评估模板]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布_vlm_desc.md`
 - [[tools/tool-sabc-tier-modeling|SABC分级/段位图建模法：给事物排优先级与成长路径]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
+- [[tools/tool-sales-objection-dilution|异议处理：承认→稀释→调动，转化而非消除]] — source `00_inbox/spin销售巨人/马易-SPIN销售方法与AI-口述.txt`
 - [[tools/tool-scenario-selector-modeling|场景→工具选择器：根据需求快速匹配合适的建模工具]] — source `10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`
 - [[tools/tool-scene-design-language-translation|场景设计语言转译：把场景需求变成可执行设计约束]] — source `00_inbox/yitang-AI club/live81/AI直播live81-陈舒妍-喵善养商标设计-口述.txt`
 - [[tools/tool-shortvideo-six-dimension-deconstruction|短视频 6 维度拆解工具]] — source `00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md`
+- [[tools/tool-skill-packaging-eight-steps|Skill 封装八步流水线：从官方最佳实践到可调用 Skill]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[tools/tool-smart-medicine-cabinet-compliance-checklist|智能药柜/医药项目合规快速校验清单]] — source `pending_archive:src_20260613_2286ccfb-itingnao-deep-dive-compliance`
 - [[tools/tool-smart-medicine-cabinet-site-selection-guide|智能药柜选址深度指南：场景、指标与验证方法]] — source `src_unknown`
 - [[tools/tool-sop-template-modeling|SOP/模板建模法：把关键动作固化成标准工作流]] — source `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
@@ -2027,11 +2048,43 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[tools/tool-team-task-pool|团队任务池 (Team Task Pool)]] — source `00_inbox/时间管理/truman-时间管理课程-口述.txt`
 - [[tools/tool-tech-probability-80-filter|李开复 80% 概率过滤器]] — source `00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md`
 - [[tools/tool-three-ring-capability-filter|cap_hub 三环过滤器——能力注册准入 checklist]] — source `00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-笔记.txt`
+- [[tools/tool-top-level-document|顶层文档制度：每个项目有且只有一个入口]] — source `00_inbox/AI知识库/楚门-AI知识管理探索营-口述.txt`
 - [[tools/tool-trr-maturity-scale|TRR技术成熟度量表]] — source `00_inbox/解放思想探索营/案例分享-口述.txt`
+- [[tools/tool-Truman-AI场景探索STAR模型|技能：AI场景探索STAR模型]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
+- [[tools/tool-Truman-AI工具选型决策|技能：AI工具选型决策]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
+- [[tools/tool-Truman-AI时代IPO模型重构|技能：AI时代IPO模型重构]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
+- [[tools/tool-Truman-AI时代提示词优化法|技能：AI时代提示词优化法]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
+- [[tools/tool-Truman-AI能力分层学习路径|AI 能力分层学习路径：从零基础?Feature 专家的五层进?]] — source `00_inbox/AI-study/一?AI学习-AI工具应用AMA口述.txt`
+- [[tools/tool-Truman-AI辅助思考伙伴养成|技能：AI辅助思考伙伴养成]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
+- [[tools/tool-Truman-AI输出审慎判断与交付确认|技能：AI输出审慎判断与交付确认]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
+- [[tools/tool-Truman-Feature特性层训练法|Feature 特性层训练法：把 AI 基本功拆成可测试的最小单元]] — source `00_inbox/AI基本功/AI学习-Feature思维解析（上）-口述.txt`
+- [[tools/tool-Truman-Skill全生命周期管理|技能：Skill全生命周期管理]] — source no source
+- [[tools/tool-Truman-XY-Problem识别与真实问题定位|技能：XY Problem识别与真实问题定位]] — source no source
+- [[tools/tool-Truman-上下文质量管理（AI协作）|技能：上下文质量管理（AI协作）]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
+- [[tools/tool-Truman-个人判断力系统建设（达克效应应对）|技能：个人判断力系统建设（达克效应应对）]] — source no source
+- [[tools/tool-Truman-人在环渐进自动化策略|技能：人在环渐进自动化策略]] — source no source
+- [[tools/tool-Truman-低质量动作识别与拒绝|技能：低质量动作识别与拒绝]] — source no source
+- [[tools/tool-Truman-信息输入持续补全（防AI错误累积）|技能：信息输入持续补全（防AI错误累积）]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
+- [[tools/tool-Truman-判断力产品化与系统赋能|技能：判断力产品化与系统赋能]] — source no source
+- [[tools/tool-Truman-双三角模型应用|技能：双三角模型应用]] — source no source
+- [[tools/tool-Truman-复杂项目AI落地稳定性保障|技能：复杂项目AI落地稳定性保障]] — source `10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md`
+- [[tools/tool-Truman-多Agent通信协作方案|技能：多Agent通信协作方案]] — source no source
+- [[tools/tool-Truman-开源模型与商业模型融合方案|技能：开源模型与商业模型融合方案]] — source no source
+- [[tools/tool-Truman-技术社区严肃提问法|技能：技术社区严肃提问法]] — source no source
+- [[tools/tool-Truman-提示词优化底层方法|技能：提示词优化底层方法]] — source no source
+- [[tools/tool-Truman-数学题与语文题区分法|技能：数学题与语文题区分法]] — source no source
+- [[tools/tool-Truman-本地记忆与云端记忆管理|技能：本地记忆与云端记忆管理]] — source no source
+- [[tools/tool-Truman-知识库最佳实践构建|技能：知识库最佳实践构建]] — source no source
+- [[tools/tool-Truman-短视频自动化上传工作流|技能：短视频自动化上传工作流]] — source no source
+- [[tools/tool-Truman-科学提问法|技能：科学提问法]] — source no source
+- [[tools/tool-Truman-职场异步协作提问法|技能：职场异步协作提问法]] — source no source
+- [[tools/tool-Truman-语义对齐沟通法|技能：语义对齐沟通法]] — source no source
+- [[tools/tool-Truman-问题定义澄清法|技能：问题定义澄清法]] — source no source
 - [[tools/tool-value-teaching-three-stage|价值教学三阶模型]] — source `00_inbox/解放思想探索营/案例分享-口述.txt`
 - [[tools/tool-versioned-iteration|版本迭代法：0.5→0.9逐版验证]] — source `00_inbox/解放思想探索营/案例分享-口述.txt`
 - [[tools/tool-wanghuan-ai-business-profile|王欢AI业务档案5字段工具]] — source `src_unknown`
 - [[tools/tool-wanghuan-ai-dual-role-coach|王欢：AI 双角色教练对练工具]] — source `src_unknown`
+- [[tools/tool-wechat-transcript-automation-workflow|视频号→逐字稿自动化工作流：四环节×双路线矩阵与 12 工具全景]] — source `00_inbox/视频号逐字稿调研/视频号逐字稿自动化工作流-爆炸式建模.md`
 - [[tools/tool-weekly-hypothesis-experiment|每周假设实验 (Weekly Hypothesis Experiment)]] — source `00_inbox/时间管理/truman-时间管理课程-口述.txt`
 - [[tools/tool-yb-cross-quadrant-prompt-framework|十字象限提示词结构化框架]] — source `00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L782-884`
 - [[tools/tool-yihang-agent-config-7steps|Agent 配置 7 步法：人类画像 + 规则匹配]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
@@ -2039,7 +2092,6 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[tools/tool-yihang-dual-triangle-oral-spray|口喷：双三角内功 + 九字诀外功——语音驱动 AI 协作]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[tools/tool-yihang-dual-triangle-xray-deconstruct|X光拆解：双三角案例逆向工程——从"用了什么工具"到"背后的双三角怎么支撑"]] — source `00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt`
 - [[tools/tool-yitang-18-strategy-tool-mapping|降龙十八掌→工具映射表：每掌对应的执行工具和 Skill]] — source `30_wiki/frameworks/framework-yitang-18-strategy-cards.md`
-- [[tools/tool-yitang-Y-model-application|Y模型应用工作流：把科学做事框架变成具体问题上的操作清单]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
 - [[tools/tool-yitang-ai-assisted-analysis|AI辅助分析：用AI做数据分析和模式识别]] — source `pending_archive:src_unknown`
 - [[tools/tool-yitang-ai-assisted-organize|AI辅助整理：把访谈录音/会议记录结构化]] — source `00_inbox/调研专题/调研超级武器库_ocr_text.md`
 - [[tools/tool-yitang-ai-monitoring-alert|AI监控/预警：自动化竞争情报跟踪]] — source `00_inbox/调研专题/调研超级武器库_ocr_text.md`
@@ -2201,11 +2253,14 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[tools/tool-yitang-wechat-index|微信指数：公众号内容热度追踪]] — source `00_inbox/调研专题/调研超级武器库_ocr_text.md`
 - [[tools/tool-yitang-weibo-index|微博指数：公共话题热度追踪]] — source `00_inbox/调研专题/调研超级武器库_ocr_text.md`
 - [[tools/tool-yitang-xiaohongshu-data|小红书数据：种草热度和用户口碑追踪]] — source `00_inbox/调研专题/调研超级武器库_ocr_text.md`
+- [[tools/tool-yitang-Y-model-application|Y模型应用工作流：把科学做事框架变成具体问题上的操作清单]] — source `00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt`
+- [[tools/tool-Y模型STEPS策略集|Y模型STEPS策略集：五步策略框架]] — source `30_wiki/methods/method-yitang-y-model-engine-cycle.md`
+- [[tools/tool-Y模型实操工作流|Y模型实操工作流：从分析到决策的完整路径]] — source `30_wiki/methods/method-yitang-y-model-engine-cycle.md`
 - [[tools/tool-zhu-ai-deliberate-practice-roadmap|老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周]] — source no source
 - [[tools/tool-一堂-12大易浪费触点|一堂12大易浪费触点：SABC四级触点清单与小抄卡牌法]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力助力触点-触点篇-口述.txt L1182-L1504`
 - [[tools/tool-一堂-ABACC叙事法|一堂ABACC叙事法：非标品与非高科技讲香的开头捕获框架]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-组合篇-口述.txt L3234-L3270`
-- [[tools/tool-一堂-FAB说服法|一堂 FAB 说服法：事实起点 → 逻辑节点 → 价值终点的以理服人结构]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L858-L1601`
 - [[tools/tool-一堂-business-prediction-15-char|技能：商业预判15字诀]] — source no source
+- [[tools/tool-一堂-FAB说服法|一堂 FAB 说服法：事实起点 → 逻辑节点 → 价值终点的以理服人结构]] — source `00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-动力篇-口述.txt L858-L1601`
 - [[tools/tool-一堂-five-step-validation|技能：聊问查测盘五步验证法]] — source no source
 - [[tools/tool-一堂-hypothesis-validation-three-axe|技能：假设验证三板斧]] — source `00_inbox/一堂-关键假设课-truman-口述.txt L1064-L1074,L2460-L2482`
 - [[tools/tool-一堂-kernel-six-verification-strategies|聊问查测盘赌 — 产品内核六策略完整操作手册]] — source `00_inbox/一堂-产品内核验证课-Truman-口述.txt`
@@ -2586,15 +2641,15 @@ _Last updated: 2026-08-15T16:15:35+00:00_
 - [[tools/tool-稀缺资源机会成本比对法|技能：稀缺资源机会成本比对法]] — source `10_raw/sources/src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要.md`
 - [[tools/tool-稀缺资源清单|稀缺资源清单：识别和配置决策中的关键约束]] — source `00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-稀缺资源清单_vlm_desc.md`
 - [[tools/tool-立即实践转化法|技能：立即实践转化法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
+- [[tools/tool-纪浩-Agent开工检查单制作法|技能：Agent开工检查单制作法]] — source `10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md`
+- [[tools/tool-纪浩-Agent技能市场设计法|技能：Agent技能市场设计法]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md`
 - [[tools/tool-纪浩-AI使用边界管理法|技能：AI使用边界管理法]] — source `10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md`
 - [[tools/tool-纪浩-AI对话上下文隔离|tool 纪浩 AI对话上下文隔离]] — source no source
 - [[tools/tool-纪浩-AI工作空间与导诊台设计法|技能：AI工作空间与导诊台设计法]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md`
 - [[tools/tool-纪浩-AI工具脚本化约束|技能：AI工具脚本化约束]] — source `10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md`
-- [[tools/tool-纪浩-Agent开工检查单制作法|技能：Agent开工检查单制作法]] — source `10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md`
-- [[tools/tool-纪浩-Agent技能市场设计法|技能：Agent技能市场设计法]] — source `10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md`
 - [[tools/tool-纪浩-Do-first-PDCA渐进迭代法|技能：Do-first PDCA渐进迭代法]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
-- [[tools/tool-纪浩-Problem与Question区分法|技能：Problem与Question区分法（纪浩版）]] — source `10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md`
 - [[tools/tool-纪浩-problem-validation-four-checks|技能：四问验证法 —— 判断需求是真实Problem还是伪需求]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
+- [[tools/tool-纪浩-Problem与Question区分法|技能：Problem与Question区分法（纪浩版）]] — source `10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md`
 - [[tools/tool-纪浩-任务交付物标准化|技能：任务交付物标准化]] — source `10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md`
 - [[tools/tool-纪浩-低成本输出验证法|技能：低成本输出验证法]] — source `10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md`
 - [[tools/tool-纪浩-处理AI生成代码运行异常|技能：处理AI生成代码运行异常]] — source `10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md`

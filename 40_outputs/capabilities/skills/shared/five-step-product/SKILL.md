@@ -4,7 +4,7 @@ description: 五步法第二步：产品内核——用户为什么选你？
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [产品内核, 价值主张, 差异化, MVP]

@@ -4,7 +4,7 @@ description: BRM战略框架——差距分析→战略规划→执行，冉鹏�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [BRM, 差距分析, 战略规划, 战略执行, 鱼骨图]

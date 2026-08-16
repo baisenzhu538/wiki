@@ -2,7 +2,7 @@
 id: task_20260701_wangyuyan-time-management-domain-orchestration
 title: 王语嫣任务编排：时间管理域卡片化与升级
 type: task
-status: closed_merged
+status: reviewed
 merged_to: 70_product/tasks/task_20260701_wangyuyan-time-management-domain-orchestration.md
 priority: P2
 assignee: kimi

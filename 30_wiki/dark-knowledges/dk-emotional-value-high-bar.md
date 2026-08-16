@@ -4,7 +4,7 @@ title: 「暗知识：情绪价值是门槛极高的动作——top 5%才有效�
 type: dk
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: '2026-08-05'
+review_date: 2026-08-09
 confidence: 0.90
 trust_level: high
 domain:

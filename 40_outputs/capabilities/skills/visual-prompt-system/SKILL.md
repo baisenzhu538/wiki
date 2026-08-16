@@ -9,6 +9,8 @@ description: >
   支持一次立法、多次组装、跨平台适配。
   触发词：视觉模板、Prompt、海报设计、视角转换、美学宪章、拼贴、
   品牌视觉、生图、AI绘画、封面设计、视觉规范、机位、排版。
+status: published
+owner: huangyaoshi
 ---
 
 # 视觉Prompt三层操作系统 (SROM Visual OS)

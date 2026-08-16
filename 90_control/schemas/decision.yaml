@@ -116,6 +116,14 @@ properties:
     pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
 
 dependencies:
+  reverify_by:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    description: >
+      Optional. 认证到期日（#272 新鲜度 SLA）——review_date + 6 个月。
+      P0 framework 卡 + 新域首卡终审 PASS 时写入；过期未复验 → 降级 stale（不删除，消费端标记"证据待复验"）。
+
   reviewed_by: [review_date]
 
 additionalProperties: false

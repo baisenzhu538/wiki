@@ -13,6 +13,8 @@ triggers:
   - 需要解释"去油腻"概念时
 prerequisites:
   - 无（入门级）
+status: published
+owner: huangyaoshi
 ---
 
 # AI设计基础认知

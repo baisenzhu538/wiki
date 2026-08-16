@@ -4,7 +4,7 @@ description: 冰山六层需求深挖——L1→L6 Pipeline，从表层标签到
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [冰山模型, L1-L6, 任务地图, 四种力量, 需求假设]

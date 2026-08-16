@@ -78,6 +78,26 @@ BIN=~/.hermes/hermes-agent/node_modules/agent-browser/bin/agent-browser-linux-x6
 "$BIN" --cdp 9222 open "https://yitang.top/fs-doc/{ns}/{doc_id}"
 ```
 
+### ⚠️ 跨平台适配（2026-08-16：WSL ↔ Windows 双轨）
+
+**技能知识在 KDO 共享，执行层按平台适配：**
+
+| 项 | WSL（Linux） | Windows |
+|----|------------|---------|
+| 浏览器 | `google-chrome`（系统已装） | **Edge** `"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"`（Windows 无 Chrome） |
+| agent-browser | `agent-browser-linux-x64` | `agent-browser-win32-x64.exe`（已复制到 `C:\Users\Administrator\AppData\Local\hermes\agent-browser\bin\`） |
+| 临时目录 | `/tmp/` | `%TEMP%` 或自建 `C:\Users\Administrator\.hermes\tmp\` |
+| 脚本 | bash | Git Bash（`C:\Program Files\Git\bin\bash.exe`）或 PowerShell |
+
+Windows 启动 Edge CDP：
+```powershell
+# PowerShell
+$Edge = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+& $Edge --headless=new --disable-gpu --remote-debugging-port=9222 --no-sandbox --user-data-dir="$env:TEMP\chrome-yitang" about:blank
+# Git Bash 版
+"/mnt/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe" --headless=new --disable-gpu --remote-debugging-port=9222 --no-sandbox --user-data-dir=/tmp/chrome-yitang about:blank &
+```
+
 ### Step 2: 微信扫码破 SSO
 
 1. 登录页含微信 iframe（`open.weixin.qq.com/connect/qrconnect`）

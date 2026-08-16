@@ -4,7 +4,7 @@ description: Harness七阶段AI构建流程——从想法到AI产品的完整�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [Harness, AI产品, AI开发, 七阶段, Agent开发]

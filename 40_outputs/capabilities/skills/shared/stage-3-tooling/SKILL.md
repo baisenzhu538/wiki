@@ -4,7 +4,7 @@ description: 域工具化——Tool卡+Claude Code Skill+AI提示词（老顽童
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [KDO, 工具化, Skill, 提示词, tooling]
@@ -34,7 +34,7 @@ metadata:
 name: skill-name
 description: 一句话
 version: 1.0.0
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [...]

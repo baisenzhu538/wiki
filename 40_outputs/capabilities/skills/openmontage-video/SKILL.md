@@ -9,6 +9,8 @@ description: |
   AI视频工厂——一句话需求→完整MP4视频。12条专业管道、85+工具、7阶段自动化。
   触发词：做视频、生成视频、制作视频、产品宣传片、科普视频、口播、数字人、
   视频剪辑、AI视频、视频制作、宣传片、字幕视频。
+status: published
+owner: huangyaoshi
 ---
 
 # OpenMontage 视频工厂

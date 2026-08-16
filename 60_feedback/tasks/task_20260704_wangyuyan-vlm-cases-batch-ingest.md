@@ -1,7 +1,7 @@
 ---
 id: task_20260704_wangyuyan-vlm-cases-batch-ingest
 type: task
-status: queued
+status: closed_merged
 assignee: 老顽童
 reviewer: 欧阳锋
 priority: P0

@@ -2,7 +2,7 @@
 id: task_20260804_wangyuyan-dk-lu-gui-lv-review
 task_id: 231
 assignee: ouyangfeng
-status: queued
+status: reviewed
 created_at: 2026-08-04
 domain: decision-science
 priority: P2
@@ -56,3 +56,11 @@ updated_at: '2026-08-04T04:00:00+00:00'
 3. ✅ **补定位声明（O8）**：正文开头"属于决策域'判断为什么会失效'层——Y模型欲望侧警告"
 
 **验证**：YAML通过 / source_refs匹配 / 置信度0.7 / 定位声明OK——已可复审。
+
+## E019 状态对齐（2026-08-10 欧阳锋·孤儿补登记确认）
+
+**verdict: PASS（E019 对齐）· methodology v2.2**
+
+验证：dk-lu-gui-lv-bu-bei-yu-wang.md 已终审——frontmatter status: reviewed + reviewed_by: 欧阳锋 + review_date: 2026-08-05（写审分离合规：author 王语嫣/审查者欧阳锋）。
+
+结论：dk 卡 08-05 已被欧阳锋终审，任务单侧状态滞后——E019 家族对齐，无需重新终审。

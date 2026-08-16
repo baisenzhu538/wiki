@@ -4,7 +4,7 @@ description: 全网爬虫调研——10大工具+合规红线，对应一堂武�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [research, 爬虫, 数据采集, scraping, crawl, 公开信息]

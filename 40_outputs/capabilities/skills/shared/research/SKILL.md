@@ -4,7 +4,7 @@ description: 商业调研总入口——基于一堂OSCAR方法论+武器库，�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 tools:
   search: kdo-tools/web_search.py
   adapter: kdo-tools/research_adapter.py

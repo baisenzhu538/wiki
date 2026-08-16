@@ -4,7 +4,7 @@ description: 专家访谈调研——黄金十步法，2小时内获取行业共
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [research, 专家访谈, 访谈, 采访, expert-interview]

@@ -4,7 +4,7 @@ description: Y模型实操——知行合一+矛盾论+实践论，科学成事�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [Y模型, 知行合一, 矛盾论, 实践论, 科学决策]

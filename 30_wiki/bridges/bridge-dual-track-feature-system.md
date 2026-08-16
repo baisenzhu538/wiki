@@ -37,7 +37,7 @@ tags:
   - audience:developers
   - content-format:bridge
 created_at: 2026-08-08
-updated_at: 2026-08-08
+updated_at: 2026-08-16
 quality_labels:
   - insight
   - principle
@@ -48,7 +48,7 @@ quality_labels:
 
 # 双轨Feature体系：quality-gate vs capability
 
-> 一句话：KDO有两个Feature注册表——cap_hub的12个quality-gate Feature管"卡片本身不坏"，课程周期表的100个capability Feature管"AI解题更强"。同源（都源自Truman Feature思维），不同用——混编=拿lint规则当解题武器。
+> 一句话：KDO有两个Feature注册表——cap_hub的20个quality-gate/CLI Feature管"卡片本身不坏、工具能用"，课程周期表的100个capability Feature管"AI解题更强"。同源（都源自Truman Feature思维），不同用——混编=拿lint规则当解题武器。
 
 ---
 
@@ -57,7 +57,7 @@ quality_labels:
 | | quality-gate轨 | capability轨 |
 |:---|:---|:---|
 | **来源** | cap_hub/features.json | 课程周期表 V0.8 |
-| **数量** | 12 | 100 |
+| **数量** | 20 | 100 |
 | **定义** | KDO基础设施的质量门禁 | 提升AI解题水平的最小实践单位 |
 | **回答的问题** | "这张卡合格吗？" | "怎么用AI解决这个问题？" |
 | **使用者** | KDO生产者/审查者 | AI使用者 |

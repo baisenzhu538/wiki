@@ -31,6 +31,8 @@ related:
 - '[[yt-management-toolkit-overview]]'
 - '[[yt-management-goal-management]]'
 - '[[yt-management-project-management]]'
+- '[[framework-meeting-iceberg-canvas]]'
+- '[[framework-meeting-ten-principles]]'
 contradicts: null
 query_triggers:
 - src_unknown

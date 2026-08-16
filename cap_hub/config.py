@@ -19,8 +19,8 @@ def _detect_wiki_root() -> Path:
             return p
 
     candidates = [
-        Path("/mnt/c/Users/Administrator/Desktop/wiki"),          # WSL
-        Path(r"C:\Users\Administrator\Desktop\wiki"),              # Windows
+        Path(r"C:\Users\Administrator\Desktop\wiki"),              # Windows（原生 Python Path 语义正确）
+        Path("/mnt/c/Users/Administrator/Desktop/wiki"),          # WSL（原生 Windows Python 下 /mnt/c 会变 \mnt\c 相对路径，exists=False）
         Path.home() / "Desktop" / "wiki",
     ]
     for c in candidates:

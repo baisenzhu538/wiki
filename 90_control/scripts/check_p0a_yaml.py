@@ -2,6 +2,11 @@
 # -*- coding: utf-8 -*-
 """P0-A 单元模型域 YAML 与 broken link 复核脚本"""
 import yaml
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 import glob
 import re
 import os

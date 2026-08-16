@@ -24,6 +24,7 @@ h1{font-size:20px;font-weight:700;margin-bottom:4px;letter-spacing:-0.3px}
 .group-header.queued{background:rgba(240,173,78,.12);color:var(--queued)}
 .group-header.pending{background:rgba(92,184,92,.12);color:var(--review)}
 .group-header.active{background:rgba(26,115,232,.12);color:var(--ai)}
+.group-header.done{background:rgba(107,112,128,.12);color:var(--muted)}
 .task-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin-bottom:8px;display:flex;align-items:center;gap:14px;transition:border-color .15s}
 .task-card:hover{border-color:#4a4d57}
 .task-prio{width:28px;height:28px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;flex-shrink:0}
@@ -31,7 +32,13 @@ h1{font-size:20px;font-weight:700;margin-bottom:4px;letter-spacing:-0.3px}
 .task-prio.p1{background:rgba(240,173,78,.2);color:var(--queued)}
 .task-prio.p2{background:rgba(107,112,128,.2);color:var(--muted)}
 .task-info{flex:1;min-width:0}
-.task-id{font-size:11px;color:var(--muted);margin-bottom:2px}
+.task-id{font-size:11px;color:var(--muted);margin-bottom:2px;display:flex;align-items:center;gap:6px}
+.task-grade{font-size:10px;font-weight:800;padding:1px 5px;border-radius:4px}
+.task-grade.g-A{background:rgba(60,179,113,.25);color:#2e9e66}
+.task-grade.g-Ap{background:rgba(60,179,113,.25);color:#2e9e66}
+.task-grade.g-Bp{background:rgba(240,173,78,.3);color:#d99a2b}
+.task-grade.g-B{background:rgba(240,173,78,.2);color:#c98a1e}
+.task-grade.g-C{background:rgba(217,83,79,.25);color:var(--blocked)}
 .task-title{font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .task-detail{font-size:12px;color:var(--muted);margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .task-meta{display:flex;gap:12px;align-items:center;flex-shrink:0}
@@ -41,19 +48,34 @@ h1{font-size:20px;font-weight:700;margin-bottom:4px;letter-spacing:-0.3px}
 .task-assignee.wangyuyan{background:rgba(92,184,92,.12);color:var(--review)}
 .task-assignee.ouyangfeng{background:rgba(240,173,78,.12);color:var(--queued)}
 .task-eta{font-size:12px;color:var(--muted)}
+.fsr-block{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;margin-bottom:24px}
+.fsr-block.fsr-good{border-color:#2a4a3a}.fsr-block.fsr-mid{border-color:#4a3a10}.fsr-block.fsr-bad{border-color:#4a2a2a}
+.fsr-title{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-bottom:8px}
+.fsr-big{font-size:32px;font-weight:800;color:var(--review)}
+.fsr-sub{font-size:12px;color:var(--muted);margin-bottom:12px}
+.fsr-trend{font-size:12px;color:var(--muted);margin-top:4px;font-family:monospace}
+.fsr-bar{color:var(--review)}
+.fsr-pct{color:var(--text);font-weight:600}
+.fsr-count{color:var(--muted)}
+.fsr-empty{font-size:13px;color:var(--muted)}
 footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;padding-top:16px;border-top:1px solid var(--border)}
 </style>
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-09 02:11</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-16 23:07</p>
 
 <div class="stats">
-<div class="stat queued"><div class="stat-num">7</div><div class="stat-label">待领取 Queued</div></div>
-<div class="stat pending"><div class="stat-num">1</div><div class="stat-label">审查中 Review</div></div>
-<div class="stat active"><div class="stat-num">1</div><div class="stat-label">进行中 Active</div></div>
-<div class="stat done"><div class="stat-num">232</div><div class="stat-label">已完成 Done</div></div>
-<div class="stat owner"><div class="stat-num">19</div><div class="stat-label">活跃角色</div></div>
+<div class="stat queued"><div class="stat-num">6</div><div class="stat-label">待领取 Queued</div></div>
+<div class="stat pending"><div class="stat-num">3</div><div class="stat-label">审查中 Review</div></div>
+<div class="stat active"><div class="stat-num">0</div><div class="stat-label">进行中 Active</div></div>
+<div class="stat done"><div class="stat-num">319</div><div class="stat-label">已完成 Done</div></div>
+<div class="stat owner"><div class="stat-num">21</div><div class="stat-label">活跃角色</div></div>
+</div>
+
+<div class="fsr-block">
+<div class="fsr-title">首交通过率 First-Submit Rate</div>
+<div class="fsr-empty">记录中 — 任务单补 `rework: 0/N` 字段后自动统计（#267+ 起）</div>
 </div>
 
 
@@ -62,9 +84,31 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
-<div class="task-id">#255</div>
-<div class="task-title">周期表收尾（欧阳锋#248条件项C1-C4）：补4个遮蔽Feature+missing标注+口述对账5候选+C4行号</div>
-<div class="task-detail">周期表=消费端菜单/工具/agent公共数据源，完整性直接决定下游</div>
+<div class="task-id">#347</div>
+<div class="task-title">洪七公（beikai）迁Windows（P0生产事故）：WSL服务活着但飞书disconnected→用户拍板全量Windows；现状快照+已知坑（E030 external_dirs/凭据搬运/WinError 87/双开冲突/openmontage Linux工具链评估）+飞书真机冒烟</div>
+<div class="task-detail">✅迁移完成（用户确认+王语嫣核验：feishu connected/WSL已停/skills 243全加载/kdo MCP✅）；已提审欧阳锋；openmontage工具链评估遗留</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">codex</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#348</div>
+<div class="task-title">R型爆炸式调研Partner部署（#335 spec终审PASS A-后立项，#263流水线Step 2/3）：三件套（SOUL默认R+五状态机内嵌+饱和话术/检索规则；config含external_dirs+ kdo MCP消费层验证；agents目录+cap_hub副本）+飞书+真机冒烟（基线用例3个+TCPR切换实测）+调研系列互链</div>
+<div class="task-detail">✅部署完成+飞书真机冒烟PASS（21:29 首条消息全链路：入站→gateway→agent→出站1150chars；默认R声明/五状态机/边界/TCPR/引用卡全对）；kdo_search实际调用已通（mcp降级1.28.1修复isEr…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">codex</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#349</div>
+<div class="task-title">视频号→逐字稿自动化工作流tool卡（R型首战资产报告转卡：四环节×双路线矩阵+12工具全景+反爬情报+DataPack；verified分级保留+时效标注2027-02；素材已资产化跳过诊断）</div>
+<div class="task-detail">✅已授权（欧阳锋建议+用户方向）；欧阳锋终审；collect_wechat.py验证后如需case卡另立</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee laowantong">老顽童</span>
@@ -76,9 +120,53 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
-<div class="task-id">#241</div>
-<div class="task-title">master主题域MOC索引卡（横向序列②，104张）</div>
-<div class="task-detail">模板复用#236/#238定稿版（含状态联动）；后续product→kdo依此类推</div>
+<div class="task-id">#337</div>
+<div class="task-title">KDO照镜子对照审计文档（codex外部观察员起草）：KDO现状vs课程模型vs缺口vs优先级——三大缺口（PatrolKit/顶层文档/负责人制形态）</div>
+<div class="task-detail">王语嫣/欧阳锋会审；2026-08-16 已派 codex 可领</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">codex</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#342</div>
+<div class="task-title">T0 冲突止血验收确认（canonical=user 级裁定通过）：正式10分钟观察记录+ps进程级唯一性+XDG前置+linger常驻项——#328 实证不重跑</div>
+<div class="task-detail">⏸挂起：等老顽童CLI工作完成+用户命令；欧阳锋验收；验收项5已更新：PID 1624=老顽童CLI在用实例（默认根）不关闭，随记忆继承处理（codex核实2026-08-16）</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">codex</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#343</div>
+<div class="task-title">T1 三慢组合迁Windows（basic-skills/coaching/meeting）：NSSM服务化（不用Task Scheduler）+冒烟+15分钟观察——每profile独立不并行</div>
+<div class="task-detail">⏸挂起：等老顽童CLI工作完成+用户命令；黄药师验证；欧阳锋验收</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">codex</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#344</div>
+<div class="task-title">T2 纯wiki核心角色迁Windows（wangyuyan/ouyangfeng/laowantong）：ouyangfeng含记忆连续性验收（迁移后先失忆恢复再审查）+profile补全黄药师</div>
+<div class="task-detail">⏸挂起：等老顽童CLI工作完成+用户命令；欧阳锋验收；+老顽童记忆继承子项（默认根MEMORY/USER diff合并+SOUL不搬+state.db可选+失忆验证）</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">codex</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#345</div>
+<div class="task-title">T3 duanwangye飞书Windows就绪测试（Bitable聚焦，lark-cli前置已满足）：通过则迁/不通过留WSL+专项；beikai（=飞书洪七公）整体留WSL明确</div>
+<div class="task-detail">⏸挂起：等老顽童CLI工作完成+用户命令；欧阳锋验收</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
@@ -87,85 +175,294 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
-<div class="task-id">#257</div>
-<div class="task-title">卡文件96→100清扫：framework-layered L58 + dk-key-hypothesis L46（统一改"周期表JSON"不带数字）</div>
-<div class="task-detail">欧阳锋清扫建议转王语嫣；根治写死问题</div>
+<div class="task-id">#346</div>
+<div class="task-title">T4 过渡profile归档（P2停车场）：duan/kimi-test归档停用（note-coach保留——用户确认要用）</div>
+<div class="task-detail">⏸挂起：T0-T3稳定+用户确认+老顽童CLI完成；欧阳锋验收</div>
 </div>
 <div class="task-meta">
-<span class="task-assignee laowantong">老顽童</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
-<div class="task-id">#258</div>
-<div class="task-title">工具/agent侧96→100清扫（agent×2+FEATURE_MENU+README）+cap_hub agent注册裁定（试点期先不注册，试点后统一）</div>
-<div class="task-detail">#256条件项①处置+全库清扫6处收尾</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
-<div class="task-id">#260</div>
-<div class="task-title">KDO Agent知识接入规范（agent用知识库基建缺口）：系统提示知识地图段+检索工具接入+coach试点</div>
-<div class="task-detail">用户实测触发：coach不知道KDO；对照Truman"去一堂学一下"原则；补"agent用知识库"缺口</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
-<div class="task-id">#261</div>
-<div class="task-title">KDO全局认知标准化（所有角色agent）：context同步MOC清单+段王爷部署确认+飞书端MCP桥推广</div>
-<div class="task-detail">用户期望"所有agent都必须知道KDO全局"固化；飞书端全体检索层缺口</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
-<div class="task-id">#262</div>
-<div class="task-title">命令权限标准化（agent被拦治理）：settings.json补cd/node等+template对齐+飞书Hermes执行层确认+被拦清单</div>
-<div class="task-detail">用户实测触发：多agent反馈命令行被拦截；模板与实际不一致=新agent天然缺权限</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
-<div class="task-id">#263</div>
-<div class="task-title">Agent生产流水线workflow卡（模式固化）：spec→三件套注入→Agent自举三步+生产纪律E018+复盘格式约束</div>
-<div class="task-detail">教练自举实证固化；实证案例00_inbox/Agent生产流水线-案例</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee laowantong">老顽童</span>
+<span class="task-assignee laowantong">codex</span>
 </div>
 </div>
 </div>
 <div class="task-group">
-<div class="group-header active">进行中</div>
+<div class="group-header done">已完成 · 终审评级</div>
+<div class="task-card">
+<div class="task-prio p0">P0</div>
+<div class="task-info">
+<div class="task-id">#197<span class="task-grade g-FAIL">FAIL</span></div>
+<div class="task-title">AI口播工具开发经验卡片化：8张卡（2 P0 + 6 P1，含2张深挖增量dk），归入ai-collaboration域，与#196同源四步法结构</div>
+<div class="task-detail">✅欧阳锋终审PASS(2026-07-21三审)：合并修复全部通过——ds 8/8真实、Critique 8/8齐全、related 6-9、ai-collaboration/已清、厚内容(三层账本/Synthesis/Action Tri…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee ouyangfeng">欧阳锋</span>
+</div>
+</div>
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
-<div class="task-id">#252</div>
+<div class="task-id">#248<span class="task-grade g-Bp">B+⚠</span></div>
+<div class="task-title">Feature思维W0前置：OCR收尾（洪七公34/34图）+周期表V0.8结构化（100 Feature JSON最小字段集）</div>
+<div class="task-detail">✅欧阳锋终审PASS B+(2026-08-08)+条件项收尾(2026-08-08#255)：C1 100/100✅(F098里程碑/F100反向确认行号命中)+C2缺位标注✅+C3对账5候选闭环✅+C4 16/17(F044留尾巴:口述…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">老顽童</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#249<span class="task-grade g-A-">A-</span></div>
+<div class="task-title">Feature思维W1框架层：4张新卡+已有5张卡处置（升级tool-Truman-Feature/concept-yihang-ai-feature-thinking，补链dk-demand-feature-stacking）</div>
+<div class="task-detail">✅欧阳锋复审PASS A-(2026-08-08 R2)：6项修复全独立核验——yihang related+3✅/死链改concept-刻意练习四要素×3✅/L81行号L330-334+诚实标注✅/concept×2补Constraint…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">老顽童</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#250<span class="task-grade g-Bp">B+</span></div>
+<div class="task-title">Feature思维W2案例+dk：case×3（作图/日报/温度参数，数字可溯源）+dk×2</div>
+<div class="task-detail">✅欧阳锋终审PASS B+(2026-08-08 R2)：5项修复4.5完成——L54残留旧行号(🟡不阻塞)，其余全部修复。详见任务单补审记录<!-- 手动终审：queue_transition被拦+O-3 --></div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">老顽童</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#252<span class="task-grade g-Bp">B+⚠</span></div>
 <div class="task-title">消费端协议试点（防死清单机制）：真实任务点菜5-10Feature→测试→复盘→回填周期表JSON→协议v0.1</div>
-<div class="task-detail">试点已执行(2026-08-08，教练Agent执行)：点菜5 Feature(F045/F057/F078/F079/F087)全PASS→回填周期表JSON(verified 18→22)→协议v0.1沉淀；诊断见 diag_20260…</div>
+<div class="task-detail">✅欧阳锋终审PASS(条件)B+(2026-08-09)：五步闭环真实执行(F080/F022/F085/F039/F081)+回填25/100+verify_note诚实(F039边界无效注明)+协议v0.1三步三原则。条件：①verif…</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee wangyuyan">王语嫣</span>
 </div>
 </div>
+<div class="task-card">
+<div class="task-prio p2">P2</div>
+<div class="task-info">
+<div class="task-id">#253<span class="task-grade g-B">B</span></div>
+<div class="task-title">AI基本功域onboarding注册：index登记/目录/digest预留/双三角回链+顺手清#240两尾巴+#242状态</div>
+<div class="task-detail">✅欧阳锋复审PASS B(2026-08-08)：4项修复全核验——index L1439登记/白名单routing-rules L111/domain字段src_unknown下划线0残留/#242任务单reviewed一致。🟢观察：di…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#254<span class="task-grade g-A">A⚠</span></div>
+<div class="task-title">周期表点菜查询工具：kdo feature list/query/pick/info，双轨防混编（cap_hub lint vs capability）</div>
+<div class="task-detail">✅欧阳锋终审PASS A(2026-08-08)：四命令实测全通+双轨隔离+cap_hub登记。T1 9测试过✅ T2 --seed复现✅ T3 README L115-126登记✅——三条件全齐升级A<!-- 手动终审：queue_tra…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#255<span class="task-grade g-A-">A-⚠</span></div>
+<div class="task-title">周期表收尾（欧阳锋#248条件项C1-C4）：补4个遮蔽Feature+missing标注+口述对账5候选+C4行号</div>
+<div class="task-detail">✅欧阳锋终审PASS(条件)A-(2026-08-09 R2)：C1行号补齐✅/C3对账编号修正✅/队列26行反斜杠修复✅/顺手✅。条件：①C4"无行号=0"不实——F045/F057/F087被改KDO实践引用替代口述行号(F045有口述…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">老顽童</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#256<span class="task-grade g-A">A⚠</span></div>
+<div class="task-title">agent-basic-skills-coach部署（层次2/3，黄药师独立）：agents/目录+cap_hub注册+kdo feature接入+冒烟测试</div>
+<div class="task-detail">✅欧阳锋终审PASS A(2026-08-09升级)：条件全清——①cap_hub注册经#258裁定(试点期不注册,试点后统一)②96残留×3经#258清零。部署/数据源100/测试8/8不变<!-- 手动终审：queue_transiti…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#258<span class="task-grade g-A">A⚠</span></div>
+<div class="task-title">工具/agent侧96→100清扫（agent×2+FEATURE_MENU+README）+cap_hub agent注册裁定（试点期先不注册，试点后统一）</div>
+<div class="task-detail">✅欧阳锋终审PASS A(2026-08-09)：4处96清零实测0/冒烟8/8/本批6处全清。裁定落盘：cap_hub试点期不注册、试点通过后统一注册。关联：#256条件全清→#256升A<!-- 手动终审：queue_transitio…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#259<span class="task-grade g-A-">A-⚠</span></div>
+<div class="task-title">Feature卡5项增量patch（飞书王语嫣审计4项+预测属性1项）：融入5张已过审卡，patch后欧阳锋复审</div>
+<div class="task-detail">✅欧阳锋复审PASS(条件)A-(2026-08-08)：5追加段引用逐字命中(P1 L324-364/P2 L1664-1676/P3 L1650/P5 L1812-1814)。修正项🟡：①P5"8格留白"无源数字(口述仅空位类比)②P4…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">老顽童</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#260<span class="task-grade g-A">A</span></div>
+<div class="task-title">KDO Agent知识接入规范（agent用知识库基建缺口）：系统提示知识地图段+检索工具接入+coach试点</div>
+<div class="task-detail">✅欧阳锋终审PASS A(2026-08-09)：system-prompt KDO接入段完整(5 MOC+检索规则3条"先查MOC不凭记忆/不编造")+CLAUDE.md点菜命令修正(python全路径)+coach实测命中MOC<!--…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#261<span class="task-grade g-Bp">B+⚠</span></div>
+<div class="task-title">KDO全局认知标准化（所有角色agent）：context同步MOC清单+段王爷部署确认+飞书端MCP桥推广</div>
+<div class="task-detail">✅欧阳锋复审PASS(条件)B+(2026-08-09 R2)：domain-mapping.md落盘✅(两视图映射+三处登记规则+ai-basic入列+白名单引用routing-rules不重复)。条件：①飞书端抽查7 Agent指向(本…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#262<span class="task-grade g-Bp">B+⚠</span></div>
+<div class="task-title">命令权限标准化（agent被拦治理）：settings.json补cd/node等+template对齐+飞书Hermes执行层确认+被拦清单</div>
+<div class="task-detail">✅欧阳锋终审PASS(条件)B+(2026-08-09)：教练manual→smart实测代码执行auto-approved(被拦根因=manual 60s超时)+5角色config.yaml确认smart。条件：config.yaml飞书…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#263<span class="task-grade g-A-">A-⚠</span></div>
+<div class="task-title">Agent生产流水线workflow卡（模式固化）：spec→三件套注入→Agent自举三步+生产纪律E018+复盘格式约束</div>
+<div class="task-detail">✅欧阳锋终审PASS(条件)A-(2026-08-09)：19段/related8/8无死链/source可达/E018纪律+失败模式+Critique达标。⚠️E018自我违规：本卡自标reviewed违反其正文E018第3条(第三次同模…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">老顽童</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#264<span class="task-grade g-A-">A-</span></div>
+<div class="task-title">E018铁律升级（全角色context+prompt）+协议v0.1三修正（verified语义/verify_note/schema）+cap_hub注册</div>
+<div class="task-detail">✅欧阳锋终审PASS A-(2026-08-09)：E018注入6 SOUL(四提四证闭环)✅+feature_menu fmt() verify_note实测(list F039显示"边界无效")✅+cap_hub登记basic-skil…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#265<span class="task-grade g-A-">A-⚠</span></div>
+<div class="task-title">外部Agent反馈→生产深化闭环机制（四回路：知识/数据/流程/模式）+教练反馈dogfooding</div>
+<div class="task-detail">✅欧阳锋终审PASS(条件)A-(2026-08-09)：四回路MECE✅/防噪音两级过滤✅/与corrections+agent-os§13+#261衔接无冲突✅/dogfooding四回路全走通✅/E018首个合规实证(王语嫣自建dra…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee wangyuyan">王语嫣</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#266<span class="task-grade g-A">A</span></div>
+<div class="task-title">4张MOC卡补登记index.md（检索可达性：design/product/master/retrospective）+新域登记规则含index裁定</div>
+<div class="task-detail">✅欧阳锋终审PASS A(2026-08-09)：5 MOC(retrospective/design/master/product/kdo)全在index.md✅+登记规则升级四处(路由/卡/映射/检索侧index——#219教训固化)✅…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#267<span class="task-grade g-A">A</span></div>
+<div class="task-title">双轨Skill同步机制（B1）：桥接脚本/同步工具+17个缺失skill补齐（含agent-self-iteration）</div>
+<div class="task-detail">✅欧阳锋终审PASS A(2026-08-09)：status 70=70缺失0漂移0+幂等待同步0+body逐字节3/3一致+references一致+17补齐抽查6/6+登记齐。内容hash漂移检测根治版本漂移<!-- 手动终审：que…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#268<span class="task-grade g-A-">A-⚠</span></div>
+<div class="task-title">王语嫣Hermes spec编排（B2）：#263流水线第一使用场景——spec→三件套→自举</div>
+<div class="task-detail">✅欧阳锋终审PASS(条件)A-(2026-08-09)：溯源4/4+工具全真+三件套+E018合规。条件C1死链agent-spec-review-coach/C2 workflow表格更新/C3飞书端冒烟+踩坑(同#261条件①)<!-…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee wangyuyan">王语嫣</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#271<span class="task-grade g-A">A</span></div>
+<div class="task-title">kdo lint审查基建扩充（欧阳锋建议书R1）：E012缺同步校验/E009重复节名/source_refs仓库内存在性/行号超界四类规则+基线报告</div>
+<div class="task-detail">✅欧阳锋终审PASS A(2026-08-09)：数字独立复现461/37/10/0逐字一致+测试11 passed+命中抽查非误报+登记全齐+清扫清单。E012机器化防线上线：reviewed无终审记录=lint ERROR<!-- 手动…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#272<span class="task-grade g-A">A</span></div>
+<div class="task-title">认证层+新鲜度SLA（欧阳锋建议书R2）：reverify_by字段（P0框架卡6个月复审）+周期表verified过期降级stale+kdo feature stale命令</div>
+<div class="task-detail">✅欧阳锋终审PASS A(2026-08-09)：schema 8文件+stale实跑无超期+JSON对账F001/F039/F078逐字一致+info verify_note闭环(#264遗留)+测试13+47 passed+登记齐。新鲜…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#273<span class="task-grade g-Bp">B+⚠</span></div>
+<div class="task-title">Skill生命周期化（黄药师建议书#267s）：cap_hub加status/version/owner+dependencies+kdo skill eval（能力+回归+baseline）+publish/deprecate</div>
+<div class="task-detail">✅欧阳锋终审PASS(条件)B+(2026-08-09)：list实跑39 skill分布逐字一致+set落地image-ocr真实+eval-log生成+cap_hub/README登记。条件C1 baseline/回归0(依赖#271)…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#274<span class="task-grade g-Bp">B+⚠</span></div>
+<div class="task-title">反思多样性（黄药师建议书#268s，王语嫣协同）：复盘模板差异栏+成功模式库（与错误库对称）+错误复发计数升级行为牌</div>
+<div class="task-detail">✅欧阳锋终审PASS(条件)B+(2026-08-09)：差异栏/成功模式库3条/复发计数/模板同步/dogfood全实测命中。条件C1连续5次差异栏 C2清理引号污染垃圾文件×2+用户反馈档案补同步</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#279<span class="task-grade g-A">A</span></div>
+<div class="task-title">经验→技能自动结晶（黄药师建议书#269s）：kdo skill crystallize扫描复盘/错误库→draft skill候选→人审publish</div>
+<div class="task-detail">✅欧阳锋终审PASS A(2026-08-09)：8候选8/8 draft+lifecycle集成(draft 4→12)+证据追溯真实+不自动publish纪律。jarvis模式落地，人审发布路径待走<!-- 手动终审：queue_tra…</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
 </div>
 
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-09 02:11</footer>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-16 23:07</footer>
 </body>
 </html>

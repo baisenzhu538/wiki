@@ -2,7 +2,7 @@
 id: task_20260806_wangyuyan-deep-review-core-frameworks
 task_id: 233
 assignee: hermes
-status: pending_review
+status: reviewed
 updated_at: '2026-08-05T16:58:24.199894+00:00'
 domain: personal
 priority: P0

@@ -11,6 +11,11 @@ Hermes Agent 配置自检器
 """
 
 import argparse
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 import json
 import sys
 from pathlib import Path
@@ -52,7 +57,7 @@ def check_global_config():
 
     try:
         import yaml
-        with open(config_path) as f:
+        with open(config_path, encoding="utf-8") as f:
             cfg = yaml.safe_load(f)
     except Exception as e:
         issues.append({"level": "P0", "file": str(config_path), "issue": f"解析失败: {e}"})
@@ -92,7 +97,7 @@ def check_profile(profile_name):
 
     try:
         import yaml
-        with open(config_path) as f:
+        with open(config_path, encoding="utf-8") as f:
             cfg = yaml.safe_load(f)
     except Exception as e:
         issues.append({"level": "P0", "profile": profile_name, "issue": f"config.yaml 解析失败: {e}"})

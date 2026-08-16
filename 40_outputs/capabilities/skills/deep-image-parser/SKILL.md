@@ -8,6 +8,8 @@ trigger: |
   当需要从图片/截图中深度提取结构化信息时触发。关键词：
   深度识图、表格识别、公式提取、图片转 Markdown、截图解构、
 domain: master
+status: published
+owner: huangyaoshi
 ---
 
 # Deep Image Parser 深度图像解析

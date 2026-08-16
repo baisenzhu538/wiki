@@ -4,7 +4,7 @@ description: 企业战略总入口——冉鹏30年经验，判断阶段+路由�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [战略, 冉鹏, BRM, 六阶段, 战略规划]

@@ -4,7 +4,7 @@ description: 差异化定位——搭参考系+四象限画布，回答凭什么
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [定位, 差异化, 参考系, 选题, 内容方向]

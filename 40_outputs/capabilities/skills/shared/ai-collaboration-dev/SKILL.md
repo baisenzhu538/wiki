@@ -4,7 +4,7 @@ description: 三层开发架构——需求拆解→AI开发→哨兵质检，AI
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [AI开发, 三层架构, 哨兵质检, AI coding, 软件工程]

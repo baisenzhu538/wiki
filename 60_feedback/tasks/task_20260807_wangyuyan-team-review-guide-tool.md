@@ -1,8 +1,10 @@
 ---
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 id: task_20260807_wangyuyan-team-review-guide-tool
 task_id: 245
 assignee: laowantong
-status: queued
+status: reviewed
 updated_at: 2026-08-07
 domain: personal
 priority: P1

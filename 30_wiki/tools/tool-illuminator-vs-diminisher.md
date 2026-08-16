@@ -4,7 +4,7 @@ title: 「工具：照亮者vs贬低者——辨识与练习」
 type: tool
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: '2026-08-05'
+review_date: 2026-08-09
 confidence: 0.90
 trust_level: high
 domain:

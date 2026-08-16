@@ -4,7 +4,7 @@ title: 「暗知识：宜人性是双刃剑——老好人≠高价值」
 type: dk
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: '2026-08-05'
+review_date: 2026-08-09
 confidence: 0.90
 trust_level: high
 domain:

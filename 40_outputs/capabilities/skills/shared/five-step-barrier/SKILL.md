@@ -4,7 +4,7 @@ description: 五步法第五步：壁垒——能守多久？护城河在哪？
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [壁垒, 护城河, 竞争优势, moat, 防守]

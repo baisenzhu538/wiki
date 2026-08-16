@@ -1,7 +1,7 @@
 ---
 title: Image OCR Pipeline
 type: capability/skill
-status: stable
+status: published
 created_at: 2026-05-07
 source_refs: []
 tags:
@@ -9,6 +9,8 @@ tags:
   - pipeline
   - paddleocr
   - chinese-ocr
+owner: huangyaoshi
+version: 1.0.0
 ---
 
 # Image OCR Pipeline
@@ -204,3 +206,9 @@ output_dir/
 ```
 
 安装：`npm install paddleocr onnxruntime-web fast-png jpeg-js`
+
+## 触发词
+
+**触发场景**：需要从图片中提取中文文本时——方法论图片、PPT、信息图、截图、扫描件的文字提取；本地 OCR（PaddleOCR，无需网络/API key）。
+
+**负面例子（不要触发）**：英文为主的图片（准确率低，考虑其他引擎）；视频文字提取（那是视频处理）；图片只有图形没有文字。

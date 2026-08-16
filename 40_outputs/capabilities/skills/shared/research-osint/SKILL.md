@@ -4,7 +4,7 @@ description: OSINT开源情报工具链——SpiderFoot/Maltego/Shodan/Sherlock/
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [research, OSINT, 开源情报, Maltego, Shodan, Sherlock, Wayback]

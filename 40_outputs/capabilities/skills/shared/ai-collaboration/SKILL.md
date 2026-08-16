@@ -4,7 +4,7 @@ description: 人机协作总入口——从演员到导演，从任务到系统
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [AI协作, 王欢, 导演模式, Harness, BITCOE, OODA, GAN]

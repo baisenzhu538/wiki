@@ -12,6 +12,8 @@ description: |
   这个赛道怎么样、项目靠谱吗、加盟调研、投资调研、摸底、情报收集。
   区分规则：有明确的「商业主体」（公司/品牌/产品/市场）→ 本 Skill；
   纯技术/概念/学术调研 → deep-research。
+status: published
+owner: huangyaoshi
 ---
 
 # Business Research（商业调研 OSCAR 武器库）

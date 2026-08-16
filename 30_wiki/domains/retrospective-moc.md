@@ -61,6 +61,7 @@ related:
   - '[[case-duanwangye-self-iteration-closed-loop]]'
   - '[[bridge-个人复盘×知识管理W-Z-K-P]]'
   - '[[yt-personal-deep-review]]'
+  - human-insights-domain-digest
 ---
 
 # 复盘主题域 MOC

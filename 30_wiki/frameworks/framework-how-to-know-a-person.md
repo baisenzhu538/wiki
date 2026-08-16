@@ -4,7 +4,7 @@ title: 「框架：布鲁克斯"看见"三支柱——了解一个人的完整�
 type: framework
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: '2026-08-05'
+review_date: 2026-08-09
 confidence: 0.95
 trust_level: high
 domain:
@@ -37,6 +37,7 @@ related:
   - bridge-how-to-know-person-to-business
   - framework-一堂-个人表达力
   - framework-ouyangfeng-review-methodology
+  - human-insights-domain-digest
 tags:
   - method:human-insight
   - method:psychology

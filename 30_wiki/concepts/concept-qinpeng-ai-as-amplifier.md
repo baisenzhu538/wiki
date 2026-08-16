@@ -29,6 +29,8 @@ related:
   - concept-qinpeng-knowledge-base-conversion
   - ai-landing-scene-selection
   - tool-马易-AI落地场景识别与拆分
+  - tool-马易-风口痛点识别法
+  - dk-ai-as-last-step-not-first
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

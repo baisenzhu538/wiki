@@ -12,6 +12,11 @@
     python repair-vlm-parse-errors.py -i "00_inbox/战略专题/冉鹏PPT截图"
 """
 import re
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 import json
 import argparse
 from pathlib import Path

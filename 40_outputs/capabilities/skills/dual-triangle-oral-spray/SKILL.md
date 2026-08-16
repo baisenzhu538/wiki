@@ -1,6 +1,8 @@
 ---
 name: dual-triangle-oral-spray
 description: 口喷——双三角内功 + 九字诀外功，语音驱动 AI 协作。触发词：口喷、语音输入、喷满、九字诀、口语协作、快速出计划。
+status: published
+owner: huangyaoshi
 ---
 
 # 口喷：双三角内功 + 九字诀外功——语音驱动 AI 协作

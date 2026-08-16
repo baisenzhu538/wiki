@@ -4,7 +4,7 @@ description: BITCOE提示词框架——六要素写出高质量AI提示词
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [提示词, prompt, BITCOE, prompt engineering]

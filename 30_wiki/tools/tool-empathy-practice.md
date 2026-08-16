@@ -4,7 +4,7 @@ title: 「工具：共情三法——接触·阅读·体验 + 陪伴不陷入」
 type: tool
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: '2026-08-05'
+review_date: 2026-08-09
 confidence: 0.90
 trust_level: high
 domain:

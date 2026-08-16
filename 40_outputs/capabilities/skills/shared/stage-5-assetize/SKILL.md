@@ -4,7 +4,7 @@ description: 域资产化——Workflow串联+模板固化+域索引更新+发�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [KDO, 资产化, 发布, Workflow, 模板, Ship]

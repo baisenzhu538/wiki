@@ -1,8 +1,10 @@
 ---
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 id: task_20260807_wangyuyan-qianhui-supply-chain-case
 task_id: 247
 assignee: laowantong
-status: queued
+status: reviewed
 updated_at: 2026-08-07
 domain: management
 priority: P1

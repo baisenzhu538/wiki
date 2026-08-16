@@ -38,6 +38,9 @@ owner: 黄药师
 | P-27 | **Hermes terminal.cwd 固定为 wiki**：`config.yaml` L33 `cwd: .` → `/mnt/c/Users/Administrator/Desktop/wiki`。根治 search_files 搜 30_wiki 跨 /mnt/c 全树超时（老顽童+王语嫣都踩）+ 免每次 cd | 老顽童 2026-08-08（教练Agent闭环诊断） | P1 | 5min | 待排期 | 无 |
 | P-28 | **飞书网关 approvals.mode 评估**：✅ **已落地(2026-08-08)**——laowantong-feishu 已切 `smart`（教练 Agent 实测验证生效，低风险自动批准、高危仍标记；网关审批走 /approve /deny）。Agent 不能直接 patch config.yaml（安全护栏防自改开关），走 `hermes config set approvals.mode smart --profile <name>`。**遗留**：① 网关需 /restart 生效 ② 其他 profile（laowantong/ouyangfeng/wangyuyan）仍是 manual——如需统一由黄药师批量评估 ③ `subagent_auto_approve: false` 子代理审批待评估 | 老顽童 2026-08-08（教练Agent闭环诊断）→ 2026-08-08 已落地 | P1 | 30min | ✅ 已落地 | 无 |
 | P-29 | **queue_transition.py 编码修复**：production-queue.md GBK/UTF-8 混排乱码 → 脚本定位任务失败（O-3 已知，多任务已手动 patch + 标注）。方案：队列文件统一 UTF-8 或脚本加编码检测 | 老顽童 2026-08-08（O-3 复现） | P2 | 1d | 待排期 | #218 已知 O-3 |
+| P-30 | **脚本输出 GBK 终端崩溃族统一修复**：print 含 emoji/中文在 Windows GBK 终端 exit 1——#269 generate-dashboard.py 终审 A- 扣分点（HTML 已生成不影响功能）+ #272 语境识别同源问题族。方案：脚本入口统一 `sys.stdout.reconfigure(encoding="utf-8")`（skill_bridge_sync/feature_menu 已做，generate-dashboard/其他待补）或 run 时 `PYTHONIOENCODING=utf-8` | 欧阳锋 #269 终审 2026-08-09 | P2 | 0.5d | ✅ 已提审 #323（2026-08-15） | 与 P-29 编码族归并一次清——P-29 仍待排期 |
+| P-31 | **WSL Hermes 性能优化**：本机 .wslconfig 锁 memory=4GB/processors=2——多 Hermes gateway 挤爆开始 swap（540Mi/1Gi），反应慢；另一台 Hermes 跑 Windows 原生无此限制所以快。方案：① 停闲置 gateway（basic-skills-coach pid 340 常驻）② 改 .wslconfig（memory=6GB+processors=4，需 wsl --shutdown 全量重启，影响所有 WSL 服务）③ 迁 Windows 原生（大工程）。**✅ 已解决（2026-08-15）**：用户物理内存 16→32GB（实测 31.87GB，可用 18.17GB），.wslconfig 已 4GB→6GB，老顽童 CLI 已于 08-11 迁 Windows 原生；实测 WSL swap 0B 使用（原 540Mi）、8 个 gateway 正常 running、WSL 内存 2.9/6GB——无 swap 压力 | 用户 2026-08-10 提问 + 黄药师诊断 + Codex 观察者 08-15 复验 | P1 | 0.5-1d | ✅ 已解决 | 物理内存 15.9GB→31.87GB，可用 2.3GB→18.17GB；WSL 内存 4→6GB；swap 540Mi→0B |
+| P-32 | **skill 双轨"同版本号内容不同"周检**：#267 bridge status 目前靠版本号发现漂移——同版本号但内容单侧更新（不改版本号）检测不到（task-orchestration 实证：1.0.0 双侧内容不同，靠洪七公手动 status + 内容比对才抓到）。方案：①skill_bridge_sync.py status 加**内容 hash 比对**（同版本号下 hash 不同 = 告警"同版本内容漂移"）②或并入"frontmatter round-trip 校验"结晶候选（8 个之一）③周检/CI 化。洪七公建议 2026-08-16（corr_20260816_hongqigong-task-orchestration-drift.md）；王语嫣核验采纳 | 洪七公纠偏 2026-08-16 → 王语嫣采纳 | P2 | 0.5d | 待排期 | #267 桥接脚本；与 frontmatter round-trip 校验可合并 |
 
 ---
 
@@ -80,3 +83,7 @@ owner: 黄药师
 ---
 
 *维护人：黄药师 | 最后更新：2026-06-28（欧阳锋：P-6 已完成并移入本表）*
+| R3 | **审查统计脚本**：`kdo review-stats --month`——pass率/等级分布/平均复审轮数/leniency信号。来源：欧阳锋建议书 R3（2026-08-09）。欧阳锋先手动 grep 统计，脚本上线后替换。**联动**：与 #269 dashboard 首交率同数据源，R3 入队后 #269 可复用其数据 | 欧阳锋建议书 2026-08-09 | P2 | 1d | 待排期 | 无 |
+| P3 | **事实核对门（DataPack 模式）**：素材精做时产出"事实清单"（数字/名称/关系+行号），生产卡时 pre-submit 软门核对。素材证据：王鹏飞 18 桥翻车（AI 不质疑口误只扩散错误）。现状：语义核对 lint 做不了硬门禁，设计需想清楚（范围/成本/误报率）再出池 | Live258 优秀作业 2026-08-13（王语嫣裁定采纳黄药师洞察） | P3 | 待设计 | 待排期 | 王语嫣+欧阳锋裁定设计后出池 |
+| P2-DYN-01 | **知识传导动态化（agent 出生模板固化 + 持续校验）**：①#263 流水线部署步骤加"挂 kdo MCP"为模板固定动作（新 agent 出生即带检索能力）②08-14 健康检查升级为例行巡检（新 agent 必检 MCP 挂载、新卡必检可检索）③P3 快照迁移定位为"消灭最后一个静态依赖"（快照淘汰后传导=索引更新即传导） | 王语嫣编排 2026-08-16（#324 终审后用户质询：两变量=持续产出 agent + 知识库增长） | P2 | ✅ 已执行 #326（2026-08-16） | ①✅ 已落盘 ②✅ check-mcp-roaming 挂入 health-check ③P3 快照迁移为本任务完成后的立项输入 |
+| P2-DYN-02 | **双轨 skill 同版本号漂移周检**：task-orchestration 双轨漂移实证（8-09 shared 加 E028 节未同步 .claude+未升版本号——版本机制发现不了内容差异）。防复发：周检 diff 双轨（或 #267 桥接脚本补内容 hash 校验）；与"frontmatter round-trip 校验"（8 个结晶候选）可合并 | 王语嫣裁定 2026-08-16（黄药师问排停车场或留 friction-log） | P2 | 待设计 | 待排期 | 洪七公发现+黄药师修复+欧阳锋裁定；周检制度化防 52 skill 普遍漂移 |

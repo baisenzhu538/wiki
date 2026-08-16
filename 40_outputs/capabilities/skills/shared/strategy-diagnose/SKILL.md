@@ -4,7 +4,7 @@ description: 战略九问题诊断——方向/目标/定位/路径/共识/组�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [战略诊断, 战略问题, 九问题, 战略失败]

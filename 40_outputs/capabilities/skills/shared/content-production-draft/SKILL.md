@@ -4,7 +4,7 @@ description: 草稿生产——框架先成立+案例激活+结构归位+主语�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [草稿, 框架, 案例, 大纲, 结构]

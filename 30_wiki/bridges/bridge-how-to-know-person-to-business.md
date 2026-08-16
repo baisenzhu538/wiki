@@ -4,7 +4,7 @@ title: 「桥接：人域"看见"↔商业域——从理解人到创造商业�
 type: bridge
 status: reviewed
 reviewed_by: 欧阳锋
-review_date: '2026-08-05'
+review_date: 2026-08-09
 confidence: 0.90
 trust_level: high
 domain:

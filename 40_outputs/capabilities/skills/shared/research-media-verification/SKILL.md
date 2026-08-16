@@ -4,7 +4,7 @@ description: OSINT媒体验证链——反向图片搜索→元数据提取→�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [媒体验证, 反向搜索, ExifTool, GPS, 照片真伪]

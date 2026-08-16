@@ -30,6 +30,9 @@ related:
   - concept-qinpeng-knowledge-base-conversion
   - framework-christensen-disruptive-innovation
   - case-live81-ai-trademark-design
+  - dk-ai-builder-illusion
+  - yt-product-kernel-mvp-design
+  - dk-ai-as-last-step-not-first
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

@@ -4,7 +4,7 @@ description: 决策卫生五步法——团队判断降噪，减少噪声而非�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [决策卫生, 噪声, 团队决策, 独立判断, Kahneman]

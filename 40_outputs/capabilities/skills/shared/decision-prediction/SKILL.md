@@ -4,7 +4,7 @@ description: 预判模型——从最糙版到复杂版的三种预判范式
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [预判, 预测, 趋势, 15字诀, 情景分析]

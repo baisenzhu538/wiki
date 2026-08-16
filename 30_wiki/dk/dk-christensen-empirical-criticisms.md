@@ -31,8 +31,11 @@ related:
   - framework-christensen-disruptive-innovation
   - dk-qinpeng-three-corrections
   - dk-disruptive-innovation-insight-vs-survey
-  - framework-decision-science-triangle
   - concept-christensen-jtbd-link
+  - framework-科学决策三角形
+  - tool-科学决策关键训练清单
+  - framework-christensen-value-network
+  - case-demand-milkshake-jtbd
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

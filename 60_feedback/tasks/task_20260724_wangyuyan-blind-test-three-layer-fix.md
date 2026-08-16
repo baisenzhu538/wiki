@@ -1,8 +1,10 @@
 ---
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 id: task_20260724_wangyuyan-blind-test-three-layer-fix
 task_id: 199
 assignee: hermes
-status: pending_review
+status: reviewed
 created_at: 2026-07-24
 updated_at: '2026-07-23T19:17:23.206620+00:00'
 domain: master

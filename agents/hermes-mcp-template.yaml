@@ -1,0 +1,16 @@
+# ── KDO MCP 单一真相源模板（#326）─────────────────────────────────
+# mcp_servers.kdo 定义一次，sync-hermes-mcp.py 按平台渲染分发到 16 个 profile。
+# 改此模板 → 重跑 `python kdo-tools/sync-hermes-mcp.py` → 全量更新。
+# 平台占位符：{{PYTHON}}（command 解释器）/ {{WIKI_ROOT}}（vault 路径）
+# 只挂 kdo 检索 server（#325 范围纪律）；feishu_doc 操作型 MCP 另行决策，不在此模板。
+# ──────────────────────────────────────────────────────────────────
+mcp_servers:
+  kdo:
+    command: {{PYTHON}}
+    args:
+    - {{SERVER_PY}}
+    cwd: {{WIKI_ROOT}}
+    env:
+      WIKI_ROOT: {{WIKI_ROOT}}
+      KDO_SRC: {{KDO_SRC}}
+    enabled: true

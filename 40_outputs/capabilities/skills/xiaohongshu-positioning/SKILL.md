@@ -2,6 +2,8 @@
 name: xiaohongshu-positioning
 description: 小红书账号定位方法论。基于《5小时吃透小红书》（厦九九）拆解萃取，提供四大定位模型（SPRM优势能力定位、人设定位公式五要素、号设一体原则、人设洋葱模型）和差异化定位案例。当用户需要做小红书账号定位、重新梳理已有账号定位、定位诊断、人设构建、差异化定位时使用。触发词：小红书定位、账号定位、人设定、定位诊断、小红书人设、差异化定位、SPRM、人设定位公式、号设一体。
 agent_created: true
+status: published
+owner: huangyaoshi
 ---
 
 # 小红书定位方法论

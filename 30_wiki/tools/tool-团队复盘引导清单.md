@@ -31,6 +31,8 @@ related:
   - yt-model-deep-review-iceberg
   - tool-复盘浪费九宗罪自检清单
   - dk-借假修真与黑盒白盒
+  - tool-meeting-basic-principles
+  - tool-meeting-result-principles
 tags:
   - method:review
   - method:team-facilitation

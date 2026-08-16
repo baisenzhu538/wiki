@@ -21,7 +21,12 @@ WIKI = Path(__file__).resolve().parent.parent
 REVIEW_DIR = Path.home() / "Desktop" / "agent复盘"
 ARCHIVE_DIR = WIKI / "60_feedback" / "session-archives"
 
-TRUMAN_TEMPLATE = """## 概要
+TRUMAN_TEMPLATE = """## 差异栏
+> #268：本次 vs 上次复盘哪里不同——新的视角/复发的模式/被打破的假设。空白 = 重复自审 = C 级。
+
+1.
+
+## 概要
 > 一句话：今天做了什么？
 
 

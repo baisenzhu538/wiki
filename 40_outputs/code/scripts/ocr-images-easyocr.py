@@ -4,6 +4,11 @@
 适用于 00_inbox/AI短剧创作 等图片素材的 OCR 处理。
 """
 import os
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 import json
 import argparse
 from pathlib import Path

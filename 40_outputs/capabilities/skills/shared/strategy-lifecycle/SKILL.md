@@ -4,7 +4,7 @@ description: 战略六阶段模型——初创→吃饱→吃好→吃撑→吃�
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [六阶段, 生命周期, 初创, 成长, 转型, 退出]

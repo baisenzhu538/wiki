@@ -4,7 +4,7 @@ description: 合成用户调研——多Agent角色扮演+案例检索+全网数
 version: 1.0.0
 author: 黄药师
 license: MIT
-platforms: [cli, feishu]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [用户调研, synthetic research, 角色扮演, Agent调研, 需求验证]

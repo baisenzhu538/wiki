@@ -1,8 +1,10 @@
 ---
+reviewed_by: 欧阳锋
+review_date: 2026-08-09
 id: task_20260806_wangyuyan-deep-review-cases
 task_id: 234
 assignee: hermes
-status: pending_review
+status: reviewed
 updated_at: '2026-08-05T18:32:07.112899+00:00'
 domain: personal
 priority: P0

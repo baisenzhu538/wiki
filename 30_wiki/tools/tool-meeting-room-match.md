@@ -3,10 +3,10 @@
 id: tool-meeting-room-match
 title: 会议场域匹配 (Meeting Room Match)
 type: tool
-status: enriched
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: 2026-07-08
+review_date: 2026-08-09
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -28,6 +28,8 @@ discoverable_by:
 related:
 - '[[yt-personal-time-management]]'
 - '[[framework-yitang-five-step-to-time-management]]'
+- '[[framework-meeting-ten-principles]]'
+- '[[yt-management-scientific-meetings]]'
 diagnostic_signals:
 - signal: placeholder
   lens: placeholder

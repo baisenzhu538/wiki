@@ -26,8 +26,8 @@ type: memory/role-recovery
 | 优先级 | 文件 | 作用 |
 |:---|:---|:---|
 | **P0** | `.agent/wangyuyan-context.md` | 身份、启动步骤、**行为牌组 W1-W8**、任务单规范、诊断第 0.5 步（MOC 先行） |
-| **P0** | `桌面/agent复盘/wangyuyan/daily-context/` 最新文件 | **上次会话 Truman 10 章复盘（组织记忆第一锚）** |
-| **P0** | `桌面/agent复盘/王语嫣/错误模式库.md` | E001-E020（含 E018 自建卡纪律/E019 状态流转/E020 双实例） |
+| **P0** | `桌面/agent复盘/wangyuyan/daily-context/2026-08-10-claude.md` | **上次会话 Truman 10 章复盘（组织记忆第一锚——看板全清/WorkBuddy 借鉴链/铁律 E021-E028）** |
+| **P0** | `桌面/agent复盘/wangyuyan/错误模式库.md` | E001-E020（含 E018 自建卡纪律/E019 状态流转/E020 双实例） |
 | **P0** | `70_product/tasks/production-queue.md` | 队列真相源 |
 | **P1** | `.agent/kb-evolution-direction.md` | 当前进化方向（含供应商管理验证期/双驱动） |
 | **P1** | `60_feedback/methods/method-external-agent-feedback-production-loop.md` | #265 双驱动机制（四回路+四通道，每周一例行） |
@@ -46,12 +46,14 @@ type: memory/role-recovery
 | W7 | 先确认 frontmatter 再入队 | "入队" |
 | W8 | **先找 MOC 再回答** | "XX 是第几步" |
 
-## 4. 当前状态（2026-08-09 看板全清）
+## 4. 当前状态（2026-08-15 更新）
 
-- **全部 P0/P1 已 closed**：#248-266 全链终态（Feature 域 11 + Agent 基建 4 + 固化 2 + 收尾 2）
-- **运行态**：#265 通道 4 每周一例行（进化信号周报+反馈闭环）
-- **待验证**：供应商管理办法 v1.1（四阶段 27 条+15 踩坑库——实际使用验证后入库）
-- **待确认**：千惠复盘三件套产出落地（钣金厂选型/新供应商对接时应用）
+- **队列 290 行看板全清（2026-08-10）**：非终态 0，issues=0——WorkBuddy 借鉴链 #306-311 完整闭环
+- **Live258 内容域三连批收官（2026-08-15）**：#312 case 4 张（A-）+ #313 dk 2+1（B+）+ #314 tool（A-）= 9 新卡+1 修补入库；基建 #315-318 全 reviewed（aliases v0.9/combo/verified 分级/分层水位）。**看板 297/297 全清，queued=0/pending_review=0**。诊断：`60_feedback/diagnosis/diag_20260813_live258-excellent-homework.md`。剩余：欧阳锋侧 #304/#298；停车场 O-12/O-13/P-31 待用户拍板；老顽童可接新派单
+- **WorkBuddy 借鉴链全链闭环**：#306 飞书文档 MCP ✅ → #307 交付物模板 ✅（6 模板 A）→ #310 任务模式 spec ✅ → #311 SOUL 实现 ✅（真机验证：老朱拆书任务产出《从客户到用户》成稿——任务模式五节+出口式素材收集+交付物规范全达标）
+- **双助理能力**：教练/会议助理 = 任务式生成（五节模板 + 6 交付物模板 + MCP 写入 + 出口式咨询素材收集 + 案例沉淀回路）
+- **编排铁律**：E025（修改另开任务）/ E026（单角色单任务）/ E028（索引随卡更新）/ 先 MOC 再 grep / 口述稿第一手（E024）
+- **运行态**：#265 通道 4 每周一例行（queue_audit + friction-log + 队列健康 CLOSE/ADJUST/KEEP/MERGE）
 
 ## 5. 双驱动机制（2026-08-09 核心认知）
 
@@ -74,3 +76,6 @@ KDO 进化 = 内部驱动（诊断/审查/用户探针）+ **外部驱动（Herm
 - 复盘 MOC：`30_wiki/domains/retrospective-moc.md`
 - 千惠素材：`00_inbox/供应商/`（30 问/口述/对齐记录/管理办法 v1.1）
 - Agent 生产流水线：#263 workflow 卡
+- **编排 skill**：`40_outputs/capabilities/skills/shared/task-orchestration/`（+ .claude/skills/ 双写；references/research-sources.md 完整溯源）
+- **编排进化诊断**：`60_feedback/diagnosis/diag_20260809_wangyuyan-orchestrator-evolution.md`
+- **编排新任务**：`60_feedback/tasks/task_20260809_{huangyaoshi-skill-bridge-sync,wangyuyan-hermes-spec-orchestration,huangyaoshi-dashboard-first-submit-rate,huangyaoshi-skill-progressive-disclosure-audit}.md`（#267-270）
