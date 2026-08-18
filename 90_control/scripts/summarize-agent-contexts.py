@@ -125,7 +125,7 @@ def main():
             hashes = json.loads(hash_file.read_text(encoding="utf-8"))
         except Exception:
             pass
-    hashes[str(OUTPUT)] = hashlib.sha256(OUTPUT.read_bytes()).hexdigest()
+    hashes[str(OUTPUT.resolve())] = hashlib.sha256(OUTPUT.read_bytes()).hexdigest()
     hash_file.write_text(json.dumps(hashes, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"Summary written to {OUTPUT}")
 
