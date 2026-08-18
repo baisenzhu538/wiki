@@ -254,6 +254,15 @@
 - Skill：`.claude/skills/wechat-serendipity-collect/`（触发词：偶遇采集/视频号/手机转发）
 - 顶层文档：`70_product/projects/proj_20260816_wechat-collect-顶层文档.md`
 
+#### MCP 工具链（指针引用，禁副本）
+
+| 脚本 | 活代码位置（单一真相源） | 用途 |
+|:--|:--|:--|
+| `tools.py` / `server.py` / `feishu_doc_server.py` / `openmontage_compact_server.py` / `config.yaml` | `kdo-tools/mcp/`（启动入口 `run_kdo_mcp.cmd`） | kdo 检索 / feishu_doc 操作 / openmontage MCP 服务器 |
+| `sync-hermes-mcp.py` | `kdo-tools/sync-hermes-mcp.py` | Hermes MCP 配置单一真相源同步（WINDOWS_PROFILES/WSL_PROFILES） |
+
+> 2026-08-18 #359 处置：`40_outputs/code/scripts/` 下的 `tools.py`/`server.py`/`sync-hermes-mcp.py` 副本已删除——此前与活代码漂移 70 行导致两次 stale-copy 误诊（E034 家族）。
+
 #### 更新（2026-08-18 黄药师）
 - **主链路定稿**：手机"复制链接"转发 → 全自动（parse_sph 直链非加密版，无代理下载，转写稳定）；卡片转发需播放拦截（兜底）
 - **wechat_link_monitor.py v2**：①全库链接提取（sph/卡片XML直链/公众号两种格式）②下载无代理直连+重试 ③成功才记 seen（失败可重试）④扫描下载器产物目录（`D:\Backup\Downloads` 新 mp4 自动转写入库）⑤parse_sph 调用绕过系统代理
