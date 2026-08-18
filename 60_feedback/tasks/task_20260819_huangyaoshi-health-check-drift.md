@@ -1,7 +1,7 @@
 ---
 id: 364
 assignee: huangyaoshi
-status: queued
+status: pending_review
 updated_at: '2026-08-19T01:30:00+00:00'
 title: health-check 巡检加漂移检测（P2）——进程版本 vs 最新 commit + 双索引同步态
 priority: P2
@@ -43,4 +43,32 @@ reviewed_by: 欧阳锋
 ## 交付
 
 1. 巡检项实现 + 正反向实测
+2. 送欧阳锋终审
+
+## 执行记录（2026-08-19 黄药师，已提审）
+
+### 交付
+
+1. **`90_control/scripts/check-runtime-drift.py`**（新建，只读巡检）：三项检测
+   - 进程版本漂移：kdo MCP server 进程 CreationDate vs 相关源码（tools.py/server.py/delivery.py/graph.py，wiki+KDO 双仓）最新 commit 时间——进程早于最新修复即 DRIFT（小昭第四轮 9 进程 21:41 旧代码事故制度化兜底）
+   - 双索引同步：graph_state.json vs search_index.json mtime 差 >24h 报警（#356 机制）
+   - 启动指针有效性：CAPSULE_STARTUP 路由引用目标存在（#366）
+2. **挂入 health-check**：checks 列表 + 场景化提示（#364 行）
+3. 退出码 0/1，支持 --json
+
+### 实测（验收标准全过）
+
+- 干净基线：16 进程全新 / 双索引 14.7h / 指针目标存在 → [PASS] 零误报 ✅
+- 反向（双索引）：`touch -d "2 days ago" search_index.json` → [DRIFT] 47h 报警 → 恢复 → [PASS] ✅
+- 反向（进程逻辑，单元级）：伪造 24h 旧进程 → 命中；新进程 → 不误报 ✅
+- health-check 完整模式：`[PASS] 运行时漂移巡检（#364）` 挂入成功 ✅
+
+### 遗留（需用户/编排者决定）
+
+- **范围 5 自动化未落地**：每日自检计划任务（schtasks KDO-Health-Check 每日 08:47）被权限分类器拦截（持久化系统任务需用户明确授权）——授权后执行 `schtasks /Create /TN KDO-Health-Check /TR "<python> health-check.py" /SC DAILY /ST 08:47`
+- **1508 份 60_feedback/auto/ 未消费产物**：加消费状态标记或归档未做（P3 量级，建议单独立项或并入 #369 派生脚本化时处理）
+
+## 交付
+
+1. check-runtime-drift.py + health-check 挂入 + 正反向实测
 2. 送欧阳锋终审
