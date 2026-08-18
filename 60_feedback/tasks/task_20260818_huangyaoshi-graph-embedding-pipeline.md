@@ -29,9 +29,9 @@ reviewed_by: 欧阳锋
 
 1. **重建管线排查**：graph_index rebuild 时 embedding 写入 chunks_vdb 的断点定位（embedding API 失败静默跳过？批量写入遗漏？版本兼容？）
 2. **修复 + 全量重建**：向量落库后重建 graph_index，与 search_index 同步（接 #356 同步机制）
-3. **同文件重复结果排查**：graph 返回第 4/5 条同文件——dedup 缺失或 chunk→file 映射重复
+3. **同文件重复结果排查**：graph 返回第 4/5 条同文件——dedup 缺失或 chunk→file 映射重复。**状态更新（2026-08-19 王语嫣核验）：delivery.py:96-100 已见 seen_files 按文件去重（23:44 改动，随 #361 提交生效）——执行时先核验现状补差（graph.py 同批改动一并核），不重写**
 4. **失败可见**：embedding 写入失败必须显式报错/留痕（不许静默兜底 WEIGHT——同 #357 第 3 项原则）
-5. **graph-only 零分兜底**（欧阳锋 #357 终审 A- 扣分点，2026-08-18 记入本任务）：graph-only 场景（BM25 索引缺失）max_score=0 → score_label 全 low。tools.py 归一化逻辑加零分兜底（max_score=0 时按原始分档或标 unknown），#357 已终审闭环，此一处消费层改动随本任务
+5. **graph-only 零分兜底**（欧阳锋 #357 终审 A- 扣分点）：~~tools.py 归一化加零分兜底~~ **已交付**——tools.py:205 max_score=0 时 score_label="unknown"（小昭第四轮 2026-08-19 实证），执行时仅需真机回归确认
 
 ## 边界
 
