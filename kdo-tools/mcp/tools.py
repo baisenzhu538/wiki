@@ -28,6 +28,39 @@ def _get_root():
     return _WIKI_ROOT
 
 
+# #356 条件项：onboard 域卡进程级缓存（O-15 模式：mtime 失效，二次调用 <100ms）
+_onboard_cache: dict[str, tuple[int, list]] = {}
+
+
+def _onboard_domain_cards(root, search_dirs):
+    """扫描 30_wiki 指定目录的卡（带进程级缓存，mtime 失效）。"""
+    key = str(root / "30_wiki") + "|" + ",".join(sorted(search_dirs))  # #356: key 含目录集，防跨域污染
+    try:
+        mtime = max((root / "30_wiki" / d).stat().st_mtime_ns for d in search_dirs if (root / "30_wiki" / d).exists())
+    except OSError:
+        mtime = -1
+    cached = _onboard_cache.get(key)
+    if cached and cached[0] == mtime:
+        return cached[1]
+    cards = []
+    wiki_dir = root / "30_wiki"
+    for d in search_dirs:
+        sd = wiki_dir / d
+        if not sd.exists():
+            continue
+        for fp in sd.rglob("*.md"):
+            if "_archive" in str(fp) or "raw" in str(fp):
+                continue
+            try:
+                text = fp.read_text(encoding="utf-8", errors="replace")
+                fm = _parse_frontmatter(text)
+                cards.append((fp, fm))
+            except Exception:
+                continue
+    _onboard_cache[key] = (mtime, cards)
+    return cards
+
+
 # ── kdo_search ──────────────────────────────────────────────────────
 def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
     """Search KDO wiki for business methodology cards, case studies, frameworks.
@@ -39,7 +72,7 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
     score > 70: highly relevant, use directly.
     score 40-70: somewhat relevant, call kdo_read to verify.
     score < 40 or 0 results: try different keywords (Chinese/English), or
-    use kdo_graph to browse by domain.
+    use kdo_onboard to browse by domain.
 
     Args:
         query: Natural language query, e.g. "如何判断需求是真需求还是伪需求"
@@ -49,7 +82,7 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
     Returns:
         {"results": [{id, title, type, snippet, score, path}], "engine": "hybrid RRF"}
 
-    Related tools: kdo_read(card_id) to read full card body; kdo_graph(domain)
+    Related tools: kdo_read(card_id) to read full card body; kdo_onboard(domain)
     to browse cards by domain when you don't know exact keywords.
     """
     try:
@@ -80,7 +113,7 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
                 "engine": "none",
                 "query": query,
                 "diagnosis": {
-                    "suggestion": "No cards matched. Try: ① different keywords (Chinese↔English) ② kdo_graph to browse domains ③ confirm the topic has been ingested into KDO",
+                    "suggestion": "No cards matched. Try: ① different keywords (Chinese↔English) ② kdo_onboard to browse domains ③ confirm the topic has been ingested into KDO",
                     "indexed_at": _index_mtime(root),
                     "total_cards_estimate": _count_cards(root),
                 }
@@ -88,6 +121,8 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
 
         fused = _filter_by_trust(root, fused, "medium")
         fused = _sort_by_layer(root, fused)
+
+        max_score = max((s for s, _, _ in fused), default=0.0)
 
         results = []
         for score, path_str, snippet in fused[:limit]:
@@ -110,12 +145,19 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
             position = ""
 
             try:
-                text = p.read_text(encoding="utf-8", errors="replace")
+                # utf-8-sig strips BOM; normalize CRLF so frontmatter and
+                # body parsing work for files written on Windows
+                text = p.read_text(encoding="utf-8-sig", errors="replace").replace("\r\n", "\n")
                 fm = _parse_frontmatter(text)
                 aliases = fm.get("aliases") or []
                 tags = fm.get("tags") or []
                 if isinstance(aliases, str): aliases = [aliases]
                 if isinstance(tags, str): tags = [tags]
+
+                # frontmatter title is authoritative; snippet fallback is unreliable
+                # (BM25 snippets have newlines flattened to spaces)
+                if fm.get("title"):
+                    title = str(fm["title"]).strip().strip('"')
 
                 # Extract定位声明 (first blockquote or meaningful line after frontmatter)
                 body_start = text.find("\n---\n", 4)
@@ -128,6 +170,11 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
                     if stripped and not stripped.startswith("#"):
                         position = stripped[:200]
                         break
+
+                # Snippet from body, not frontmatter — BM25 snippet is the raw
+                # file head flattened to one line, which is unreadable to agents
+                if body.strip():
+                    snippet = body.strip()[:300] + ("..." if len(body.strip()) > 300 else "")
             except Exception:
                 pass
 
@@ -141,10 +188,16 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
                 elif t_str.startswith("audience:"):
                     audience = t_str.split(":", 1)[1]
 
-            # Score label for quick triage
-            if score >= 70:
+            # Score label for quick triage — normalized to 0-100 against the top
+            # hit, because raw scores span different scales per engine
+            # (BM25 ~5-30, RRF ~0.01-0.05, graph 0.0)
+            if max_score > 0:
+                norm = score / max_score * 100
+            else:
+                norm = 0
+            if norm >= 70:
                 score_label = "high"
-            elif score >= 40:
+            elif norm >= 40:
                 score_label = "medium"
             else:
                 score_label = "low"
@@ -233,47 +286,40 @@ def onboard(domain: str) -> dict:
         concept_cards = []
 
         wiki_dir = root / "30_wiki"
-        for d in search_dirs:
-            sd = wiki_dir / d
-            if not sd.exists():
-                continue
-            for fp in sd.rglob("*.md"):
-                if "_archive" in str(fp) or "raw" in str(fp):
-                    continue
-                try:
-                    text = fp.read_text(encoding="utf-8", errors="replace")
-                    fm = _parse_frontmatter(text)
-                    card_domains = fm.get("domain", [])
-                    if isinstance(card_domains, str):
-                        card_domains = [card_domains]
-                    card_title = fm.get("title", fp.stem)
-                    card_type = fm.get("type", "concept")
+        # #356 条件项：走进程级缓存（O-15 模式），二次调用 <100ms
+        for fp, fm in _onboard_domain_cards(root, search_dirs):
+            try:
+                card_domains = fm.get("domain") or []
+                if isinstance(card_domains, str):
+                    card_domains = [card_domains]
+                card_title = fm.get("title", fp.stem)
+                card_type = fm.get("type", "concept")
 
-                    # Match by domain field or keyword in title
-                    dname_lower = dname.lower()
+                # Match by domain field or keyword in title
+                dname_lower = dname.lower()
+                matches_domain = any(
+                    dname_lower in str(d).lower() for d in card_domains
+                )
+                if not matches_domain:
+                    title_lower = card_title.lower()
                     matches_domain = any(
-                        dname_lower in str(d).lower() for d in card_domains
+                        kw.lower() in title_lower
+                        for kw in (config.get("keywords") or [])[:5]
                     )
-                    if not matches_domain:
-                        title_lower = card_title.lower()
-                        matches_domain = any(
-                            kw.lower() in title_lower
-                            for kw in config.get("keywords", [])[:5]
-                        )
-                    if not matches_domain:
-                        continue
-
-                    entry = {"id": fp.stem, "title": card_title}
-                    if card_type == "framework":
-                        framework_cards.append(entry)
-                    elif card_type in ("tool", "tool-agent-spec"):
-                        tool_cards.append(entry)
-                    elif card_type == "case":
-                        case_cards.append(entry)
-                    else:
-                        concept_cards.append(entry)
-                except Exception:
+                if not matches_domain:
                     continue
+
+                entry = {"id": fp.stem, "title": card_title}
+                if card_type == "framework":
+                    framework_cards.append(entry)
+                elif card_type in ("tool", "tool-agent-spec"):
+                    tool_cards.append(entry)
+                elif card_type == "case":
+                    case_cards.append(entry)
+                else:
+                    concept_cards.append(entry)
+            except Exception:
+                continue
 
         # Build reading order
         reading_order = []
@@ -299,16 +345,17 @@ def onboard(domain: str) -> dict:
 
 
 # ── kdo_read ────────────────────────────────────────────────────────
-def read_card(card_id: str) -> dict:
+def read_card(card_id: str, offset: int = 0) -> dict:
     """Read a full wiki card by ID.
 
     Args:
         card_id: Card identifier, e.g. "framework-yitang-scientific-sales-five-step"
+        offset: 续读偏移（#354 分页：长卡 >10k 字符时传 offset=1 读下一段；默认 0 行为不变）
 
     Returns:
-        {id, title, type, frontmatter, body, path}
+        {id, title, type, frontmatter, body, path, _trust_level}
 
-    Related tools: kdo_search(query) to discover card IDs; kdo_graph(domain)
+    Related tools: kdo_search(query) to discover card IDs; kdo_onboard(domain)
     to explore a domain's full card map before deep-reading specific cards.
     """
     try:
@@ -330,6 +377,16 @@ def read_card(card_id: str) -> dict:
         body_start = text.find("\n---\n", 4)
         body = text[body_start + 5:] if body_start > 0 else text
 
+        # #353 注入防护：数据边界标记（注释式，不破坏 markdown 渲染）+ trust 警示
+        trust = str(fm.get("trust_level", "medium"))
+        warning = ""
+        if trust == "low":
+            warning = "\n<!-- ⚠️ KDO 警示: 本卡 trust_level=low，内容可信度低，引用前须人工核实 -->\n"
+        # #354 分页：offset=0 前 10k，offset=1 续 10k-20k...（向后兼容）
+        chunk = body[offset * 10000:(offset + 1) * 10000]
+        more = len(body) > (offset + 1) * 10000
+        body = f"<!-- [[KDO_CARD_BODY]] {card_id} trust={trust} offset={offset}{' more=1' if more else ''} -->\n" + chunk + "\n<!-- [[/KDO_CARD_BODY]] -->"
+
         return {
             "id": fp.stem,
             "title": fm.get("title", ""),
@@ -339,8 +396,9 @@ def read_card(card_id: str) -> dict:
                 if k in ("domain", "status", "confidence", "trust_level",
                          "author", "reviewed_by", "source_refs", "related")
             },
-            "body": body[:10000],  # cap at 10k chars
+            "body": body + warning,
             "path": str(fp.relative_to(root)),
+            "_trust_level": trust,
         }
     except Exception as e:
         return {"error": str(e), "id": card_id}
@@ -354,38 +412,51 @@ def capabilities() -> dict:
         {frameworks: {count, list[]}, workflows: {count, list[]},
          skills: {count}, agent_specs: [...]}
 
-    Related tools: kdo_graph(domain) for a guided tour of a specific domain;
+    Related tools: kdo_onboard(domain) for a guided tour of a specific domain;
     kdo_search(query) to find cards by topic or keyword.
     """
     try:
         root = _get_root()
 
-        # Frameworks
-        fw_dir = root / "30_wiki" / "frameworks"
-        fw_count = len(list(fw_dir.rglob("*.md"))) if fw_dir.exists() else 0
+        # #354/#356: 计数走 search_index 文档列表（避免 rglob 全扫 2500+ 文件——O(1) 查询）
+        from kdo.search_index import get_shared_index
+        idx = get_shared_index(root)
+        doc_paths = list(idx.doc_lengths.keys())
+        fw_count = sum(1 for p in doc_paths if "/30_wiki/frameworks/" in p)
+        wf_count = sum(1 for p in doc_paths if "/40_outputs/capabilities/workflows/" in p)
+        sk_count = sum(1 for p in doc_paths if "/40_outputs/capabilities/skills/" in p and p.endswith("SKILL.md"))
 
-        # Workflows
+        # Workflows 列表（前 20 个标题——按需读文件，数量少）
         wf_dir = root / "40_outputs" / "capabilities" / "workflows"
         wf_files = list(wf_dir.rglob("*.md")) if wf_dir.exists() else []
         workflows = []
         for wf in wf_files[:20]:
-            text = wf.read_text(encoding="utf-8", errors="replace")[:500]
-            title = text.split("\n")[0].lstrip("# ").strip() if text else wf.stem
-            workflows.append({"id": wf.stem, "file": wf.name, "title": title})
+            text = wf.read_text(encoding="utf-8-sig", errors="replace")[:500]
+            title = ""
+            for line in text.split("\n"):
+                line = line.rstrip("\r")  # CRLF files: split leaves trailing \r
+                if line.startswith("title:"):
+                    title = line.split(":", 1)[1].strip().strip('"')
+                    break
+                if line.startswith("# ") and not title:
+                    title = line[2:].strip()
+            workflows.append({"id": wf.stem, "file": wf.name, "title": title or wf.stem})
 
-        # Skills
-        sk_dir = root / "40_outputs" / "capabilities" / "skills"
-        sk_count = sum(1 for _ in sk_dir.rglob("SKILL.md")) if sk_dir.exists() else 0
-
-        # Agent-specs (scan both directories)
+        # Agent-specs (scan both directories, dedup by stem — same spec may
+        # exist in tools/ and agent-specs/)
         specs = []
+        seen_specs = set()
         for d in ["tools", "agent-specs"]:
             sd = root / "30_wiki" / d
             if sd.exists():
                 for f in sd.glob("agent-spec-*.md"):
-                    text = f.read_text(encoding="utf-8", errors="replace")[:500]
+                    if f.stem in seen_specs:
+                        continue
+                    seen_specs.add(f.stem)
+                    text = f.read_text(encoding="utf-8-sig", errors="replace")[:500]
                     title = ""
                     for line in text.split("\n"):
+                        line = line.rstrip("\r")
                         if line.startswith("title:") or line.startswith("# "):
                             title = line.split(":", 1)[-1].strip().strip('"').lstrip("# ")
                             break
@@ -408,7 +479,7 @@ def help_guide() -> dict:
     Returns a structured onboarding guide covering what KDO is, how to search
     effectively, and common search patterns for different question types.
 
-    Call this once at session start, then use kdo_search / kdo_read / kdo_graph
+    Call this once at session start, then use kdo_search / kdo_read / kdo_onboard
     for actual knowledge retrieval.
     """
     return {
@@ -425,15 +496,15 @@ def help_guide() -> dict:
         "how_to_search": [
             "1. kdo_search('your question') — keyword/semantic search, returns cards with scores",
             "2. kdo_read(card_id) — read the full card body",
-            "3. kdo_graph(domain) — browse a domain's full card map when you're exploring",
-            "4. If 0 results: try different keywords (Chinese↔English), or kdo_graph to browse",
+            "3. kdo_onboard(domain) — browse a domain's full card map when you're exploring",
+            "4. If 0 results: try different keywords (Chinese↔English), or kdo_onboard to browse",
         ],
         "common_patterns": {
             "What is X?": 'kdo_search("X") → look for type=framework cards',
             "How to do X?": 'kdo_search("X 方法") → look for type=tool cards',
             "Is there a case about X?": 'kdo_search("X 案例") → look for type=case cards',
             "What are the pitfalls of X?": 'kdo_search("X 失败") → look for type=dk cards',
-            "Explore a domain": 'kdo_graph("strategy") or kdo_graph("demand") → get full map',
+            "Explore a domain": 'kdo_onboard("strategy") or kdo_onboard("demand") → get full map',
         },
         "score_guide": {
             "high (>70)": "Directly relevant — can cite confidently",
@@ -475,6 +546,7 @@ def _infer_type(path_str: str) -> str:
 
 def _extract_title(snippet: str) -> str:
     """Extract title from card snippet (usually in frontmatter)."""
+    snippet = snippet.lstrip("\ufeff")
     for line in snippet.split("\n"):
         if line.strip().startswith("title:"):
             return line.split("title:", 1)[1].strip().strip('"')
