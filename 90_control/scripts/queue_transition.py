@@ -206,6 +206,44 @@ def apply_updates(task_id: str, new_queue_status: str, task_file: Path, **task_u
         raise RuntimeError(f"状态更新失败，已自动回滚：{e}") from e
 
 
+# 处置类任务 claim 门禁（#375）：任务单含处置关键词时强制内容价值判断节。
+# 背景：08-19 英文壳目录事件——"删除"选项进入执行链差点毁核心资产（PARA 库）。
+# PROTOCOL §7 素材删除禁令是文案，这里落地为 claim 门禁。
+DISPOSAL_KEYWORDS = ("删除", "清理", "归档", "废弃", "处置", "移除", "删除类")
+
+
+def _check_disposal_gate(task_file: Path, fm: dict[str, Any], task_id: str) -> tuple[bool, str]:
+    """处置类任务 claim 检查：必须有内容价值判断节，输出确认清单。"""
+    body = task_file.read_text(encoding="utf-8", errors="replace")
+    title = str(fm.get("title") or task_file.stem)
+
+    # 豁免声明：frontmatter claim_gate_exempt 写明理由
+    if fm.get("claim_gate_exempt"):
+        return True, f"（claim_gate_exempt 豁免：{fm['claim_gate_exempt']}）"
+
+    is_disposal = any(k in title for k in DISPOSAL_KEYWORDS) or any(k in body for k in DISPOSAL_KEYWORDS)
+    if not is_disposal:
+        return True, ""
+
+    has_value_judgement = "内容价值判断" in body
+    if not has_value_judgement:
+        return False, (
+            f"处置类任务 {task_id} 缺「内容价值判断」节——禁止领取。\n"
+            f"背景：PROTOCOL §7 素材删除禁令（08-19 英文壳事件）。\n"
+            f"请在任务单补充节：该任务涉及素材的内容价值判断（读过内容再定去向），"
+            f"并声明删除须逐件老朱亲批。"
+        )
+
+    checklist = (
+        f"✅ {task_id} 已领取（处置类，已含内容价值判断节）。\n"
+        f"执行前确认清单：\n"
+        f"  ① 素材处置默认只有消化/归档原位保留，删除须逐件老朱亲批（PROTOCOL §7）\n"
+        f"  ② 批量三问：dry-run 预览 / 变更范围声明 / 非空值不覆盖\n"
+        f"  ③ 处置前通读内容（B5 牌：先读完整内容再下结论）"
+    )
+    return True, checklist
+
+
 def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool, str]:
     """Claim a queued task for an instance.
 
@@ -221,6 +259,12 @@ def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool
     if task_file is None:
         return False, f"找不到任务单文件: {task_id}（已按文件名和 frontmatter id 双重查找）"
 
+    # #375 处置类门禁：缺内容价值判断节拒绝领取
+    fm, _ = parse_frontmatter(task_file)
+    gate_ok, gate_msg = _check_disposal_gate(task_file, fm, task_id)
+    if not gate_ok:
+        return False, gate_msg
+
     with QueueLock("production-queue"):
         # Re-check gate inside lock
         rows = parse_queue()
@@ -232,7 +276,7 @@ def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool
         new_status = f"claimed-{instance}"
         apply_updates(task_id, new_status, task_file, assignee=instance, status="in_progress")
 
-    return True, f"✅ {task_id} 已领取为 {new_status}"
+    return True, f"✅ {task_id} 已领取为 {new_status}\n{gate_msg}"
 
 
 # 代码类任务提审门禁：任务单 frontmatter 声明 code_files（相对仓库根的路径列表，
