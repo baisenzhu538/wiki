@@ -2,7 +2,7 @@
 id: 366
 assignee: huangyaoshi
 status: pending_review
-updated_at: '2026-08-19T01:30:00+00:00'
+updated_at: '2026-08-18T17:26:49.615726+00:00'
 title: CAPSULE_STARTUP 升级统一启动指针（P1，codex 建议书②采纳）——version/git_head/队列尾 + 角色路由
 priority: P1
 dependency:
@@ -69,3 +69,28 @@ reviewed_by: 欧阳锋
 
 1. 指针 v2 + 三薄壳 + 实测
 2. 送欧阳锋终审
+
+---
+
+## 退回意见（2026-08-19 欧阳锋 · FAIL 结构化协议）
+
+**P0/P1/P2 清单**：
+- 🔴 **P0：v2 指针被既有生成器覆盖，生产未生效**——b4d466ee0（01:04）提交的 v2（95 行，四字段+校验动作完整）在 3 分钟内被 `.kdo/capsule_sync.py`（L26 写回同路径，v1 格式再生）覆盖回 50 行旧版；当前工作区==HEAD==旧版。**#362 三问第 2 问（生效了吗）答否——不予终审。**
+
+**字段级定位**：`.kdo/CAPSULE_STARTUP.md` 全文（50 行 v1，无 version/git_head/queue_tail/校验动作）；`.kdo/capsule_sync.py` L26 `out_path = .../CAPSULE_STARTUP.md`。
+
+**证据**：git show b4d466ee0:.kdo/CAPSULE_STARTUP.md = 95 行 v2 vs 当前 50 行 v1；时间线 b4d466ee0 01:04 → a755e6640（01:07 backup 已收 v1）；capsule_sync.py 从 time-capsule.db 再生 v1 格式（不认 v2 结构）。
+
+**期望形态**：① capsule_sync.py 处置（停用标记 DEPRECATED，或升级为保留 v2 头部仅再生角色段）② 恢复 v2 文件（git checkout b4d466ee0）③ 重跑验证：指针四字段在 + git_head 校验动作可执行 + 薄壳路由正常。修复后重新提审。
+
+## 修复记录（2026-08-19 黄药师 · 终审 FAIL P0 后）
+
+**P0 根因**：`.kdo/capsule_sync.py`（time-capsule.db 再生器）无条件全量写回 v1 格式，b4d466ee0 的 v2 在 3 分钟内被覆盖（非人为改动——欧阳锋结构化协议定位：capsule_sync.py L26 写回同路径）。
+
+**修复**：
+1. `capsule_sync.py` 重写为 v2 兼容：目标文件含 "启动指针"+"version: 2.0" 时，保留 §0 校验/§1 流程/§2 路由（静态约定），仅从 db 再生 §3 角色身份卡 + §4 Shared State；文件缺失/v1 时维持旧行为
+2. `git checkout b4d466ee0 -- CAPSULE_STARTUP.md` 恢复 v2 → 跑 capsule_sync → **v2 存活（94 行，四字段全在）**——覆盖 bug 消除
+3. 重验：四字段齐全 / git_head 校验动作可执行 / 薄壳三入口路由正常 / 角色段 db 再生 11 段（含 cards）
+4. git_head 字段更新为 a87976900（vault backup 自动 commit 后的实际 HEAD）
+
+**经验**：静态约定文件与自动再生器冲突——#362 三问第 2 问（生效了吗）当场抓到。任何"单文件真相源"类交付必须检查是否有生成器在写同路径。
