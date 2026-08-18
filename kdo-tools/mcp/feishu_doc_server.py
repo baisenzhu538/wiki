@@ -20,6 +20,12 @@ import json
 import logging
 import subprocess
 import sys
+
+# #350 UTF-8 修复：stdin/stderr reconfigure utf-8（Windows 中文管道默认 cp936）
+# 注意：不能动 sys.stdout——MCP 传输通道由 FastMCP 管理缓冲
+sys.stdin.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
+
 from pathlib import Path
 
 # Log to stderr — stdout is the MCP transport channel

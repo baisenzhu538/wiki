@@ -70,3 +70,9 @@ wangyuyan / ouyangfeng / laowantong（Windows profile：ouyangfeng 缺失需补�
 **验证**：laowantong CLI（AppData\Local 侧）98 local 全 enabled（28 本地+70 shared 全覆盖）；T1 3 profile（.hermes 侧）143 local 全 enabled（48 顶层+70 shared+25 本地）；kdo-self-attack/stage-1-diagnose/strategy 全家/任务编排均在列。注册表按进程启动扫描——**重启 gateway / 新会话生效**。
 
 **教训**：E030 已入错误模式库（skill frontmatter `platforms` 字段语义误用；写 skill 前查 hermes 字段语义文档）。
+
+
+## 挂起条件解除（2026-08-18 王语嫣编排更新）
+
+- 老顽童 CLI 已确认空闲（2026-08-18 老顽童本尊：活跃待命、无在产任务、失忆恢复完成）
+- 用户已下令起链（2026-08-18）——本任务可领取执行

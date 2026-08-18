@@ -85,6 +85,18 @@ type: memory/role-recovery
 ---
 
 
+### 当前状态（2026-08-18）——迁移链四单终审 + 部署类验收三态框架成型
+
+- **迁移链四单全闭环**：#347 洪七公迁 Windows **PASS A**（运行态 pid 存活+feishu connected、WSL disabled+inactive、skills 244、E030 全加载、openmontage 降级已配）→ #348 R 型 Partner 部署 **PASS A**（三件套字节核对、NSSM RUNNING、MCP 8+8 tools、真机冒烟日志吻合、引用卡 5/5）→ #350 kdo MCP UTF-8 修复 **PASS A-**（中文检索 5 例独立复现、编译过）→ #351 段王爷检索启用 **PASS A-**（消费层 738s→8.6s 86 倍、sync 幂等 14 SAME、无乱码+卡名真实）→ **#337 KDO 照镜子审计 PASS（条件）A-**（主交付+§8 静态复审质量高 O3 全过；🔴 条件项：小昭文档 §6 实测节 8 个新发现未被 codex 覆盖，我独立复现 title 残片/graph 退化 2 项成立——codex 需补 §6.2 打标表）——**✅ 条件项已关闭（08-18 晚）**：codex §8.6 v0.4 修正版（8 条打标全承接：cff06958d #357 + 00d44dc #358 queued），行号抽查全吻合，我侧 append 复审记录
+- **部署类验收三态框架成型**：运行态（进程/服务/状态文件）→ 字节级（config 原文/代码/编译）→ 消费层（真机/检索/幂等）——四单每单逮一个报告不实/不精确（243vs244 口径 / openmontage stdout / beikai 未收口 / review_date 偏一天）
+- **🟡 移交黄药师**：① sync WINDOWS_PROFILES 补 beikai（AppData 侧收口）② openmontage stdout reconfigure 澄清（并入 beikai 重启批次验证）
+- **queue_transition.py 可用**：context blocker"被 auto mode 拦截"已过期，实测 4 次全通（含 --grade）
+- **队列**：六单全 reviewed（#347/#348/#350/#351/#337），dashboard 326，**pending_review=0 全清**；#352-356 黄药师 queued（MCP 文档债/协议/性能/冷加载）
+- **验证方法教训 ×2**：hermes skills list 必须带 `-p <profile>`（不带跑 146 差点误判）；bash 变量拼 Windows 路径混读错文件——验证命令先确认作用域
+- **#357 kdo MCP 检索质量 5 项根因修复 PASS A-（08-18 晚）**：小昭 6 项报告 5 项已被 22:39 修复（她审 20:18 旧登记副本——**版本分裂** kdo-tools/mcp/tools.py vs 40_outputs/code/scripts/tools.py）；O3 消费端全链实测 engine 复活 hybrid RRF/title 真实/label 三档；queue_transition review 需传全名（O-3）；残留 graph-only label 全 low 记 #358
+- **验证环境盲区教训**：复现类验证先对齐运行上下文（running loop/线程）——独立进程跑通 ≠ MCP 运行环境跑通（差点误推翻小昭正确结论）
+- **相关**：技能进化日志最新 08-18（第三场）；daily-context 最新 2026-08-18（第三场）
+
 ### 当前状态（2026-08-17）——R 型首战闭环 + 迁移全量 Windows 决策
 
 - **R 型 Partner 首战闭环**：spec（#335）→ 上岗 → 视频号课题五状态机 3 轮饱和 → 资产报告（O0 抽查零编造）→ #349 转卡 PASS A-（tool-wechat-transcript-automation-workflow 入库）——调研系列 agent 矩阵首次完整闭环

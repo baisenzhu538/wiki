@@ -17,10 +17,16 @@ Design: Truman 建模四步法 → 解压展开 → MCP = framework-kdo-modeling
 """
 
 import argparse
+import asyncio
 import json
 import logging
 import sys
 from pathlib import Path
+
+# #350 UTF-8 修复：stdin/stderr reconfigure utf-8（Windows 中文管道默认 cp936）
+# 注意：不能动 sys.stdout——它是 MCP 传输通道，FastMCP 管理其缓冲，reconfigure 会破坏响应 flush
+sys.stdin.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
 
 # Log to stderr — stdout is the MCP transport channel
 logging.basicConfig(
@@ -31,15 +37,41 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 from mcp.server.fastmcp import FastMCP
+from mcp.types import CallToolResult, TextContent, ToolAnnotations
 
-from tools import search, onboard, read_card, capabilities
+# #353 协议合规：只读工具声明 + 错误契约（isError）+ 输出安全
+_READONLY = ToolAnnotations(readOnlyHint=True)
+
+from tools import search, onboard, read_card, capabilities, help_guide
+
+
+def _wrap(result):
+    """#353: 工具返回含 error 键（内部兜底返回）→ 统一为协议级 isError。"""
+    if isinstance(result, dict) and "error" in result:
+        return CallToolResult(content=[TextContent(type="text", text=str(result["error"]))], isError=True)
+    return result
+
+# #351: 检索在主事件循环线程同步执行（LightRAG 内部 worker 依赖主线程
+# get_event_loop；任何子线程/后台 loop 方案都会崩或静默卡死）。
+# 阻塞问题用 warmup 解决：启动预热后调用走进程缓存 0s，事件循环占用可忽略，
+# keepalive 正常。FastMCP 逐条处理消息天然串行，无需锁。
 
 # ── Server definition ────────────────────────────────────────────────
+# #354/#356: instructions 统计动态化（不写死数字——capabilities 走索引后统计廉价）
+try:
+    _caps = capabilities()
+    _fw = _caps.get("frameworks", {}).get("count", "?")
+    _sk = _caps.get("skills", {}).get("count", "?")
+    _wf = _caps.get("workflows", {}).get("count", "?")
+    _sp = len(_caps.get("agent_specs", []))
+except Exception:
+    _fw = _sk = _wf = _sp = "?"
+
 mcp = FastMCP(
     "kdo",
     instructions=(
-        "KDO is a business knowledge factory with 244 frameworks, 106 skills, "
-        "10 workflows, and 8 agent specs covering sales, strategy, decision-making, "
+        f"KDO is a business knowledge factory with {_fw} frameworks, {_sk} skills, "
+        f"{_wf} workflows, and {_sp} agent specs covering sales, strategy, decision-making, "
         "multimodal production, and more.\n\n"
         "WORKFLOW for every new topic:\n"
         "1. kdo_onboard — get the domain map (frameworks + tools + cases + reading order)\n"
@@ -53,7 +85,7 @@ mcp = FastMCP(
 
 
 # ── Tool: kdo_search ─────────────────────────────────────────────────
-@mcp.tool()
+@mcp.tool(annotations=_READONLY)
 async def kdo_search(
     query: str,
     domain: str | None = None,
@@ -79,12 +111,16 @@ async def kdo_search(
         limit: Max results (1-20, default 10)
     """
     logger.info(f"kdo_search: query={query!r}, domain={domain!r}, limit={limit}")
-    result = search(query=query, domain=domain, limit=limit)
-    return result
+    try:
+        result = search(query=query, domain=domain, limit=limit)
+        return _wrap(result)
+    except Exception as e:
+        logger.exception("kdo_search failed")  # 栈保留到 stderr
+        return CallToolResult(content=[TextContent(type="text", text=f"kdo_search error: {e}")], isError=True)
 
 
 # ── Tool: kdo_onboard ────────────────────────────────────────────────
-@mcp.tool()
+@mcp.tool(annotations=_READONLY)
 async def kdo_onboard(domain: str) -> dict:
     """Get a 3-minute overview of everything KDO knows about a topic.
 
@@ -100,12 +136,16 @@ async def kdo_onboard(domain: str) -> dict:
         domain: Domain name. E.g. "销售管理", "多模态", "AI协作"
     """
     logger.info(f"kdo_onboard: domain={domain!r}")
-    result = onboard(domain=domain)
-    return result
+    try:
+        result = onboard(domain=domain)
+        return _wrap(result)
+    except Exception as e:
+        logger.exception("kdo_onboard failed")
+        return CallToolResult(content=[TextContent(type="text", text=f"kdo_onboard error: {e}")], isError=True)
 
 
 # ── Tool: kdo_read ───────────────────────────────────────────────────
-@mcp.tool()
+@mcp.tool(annotations=_READONLY)
 async def kdo_read(card_id: str) -> dict:
     """Read a knowledge card in full — frontmatter metadata + complete body text.
 
@@ -119,12 +159,33 @@ async def kdo_read(card_id: str) -> dict:
                  E.g. "framework-yitang-scientific-sales-five-step"
     """
     logger.info(f"kdo_read: card_id={card_id!r}")
-    result = read_card(card_id=card_id)
-    return result
+    try:
+        result = read_card(card_id=card_id)
+        return _wrap(result)
+    except Exception as e:
+        logger.exception("kdo_read failed")
+        return CallToolResult(content=[TextContent(type="text", text=f"kdo_read error: {e}")], isError=True)
+
+
+# ── Tool: kdo_help（#352 裁决：help_guide 死代码 → 注册为工具，首连引导有价值）───
+@mcp.tool(annotations=_READONLY)
+async def kdo_help() -> dict:
+    """First-time onboarding guide — call this once when connecting.
+
+    Returns what KDO is, how to search effectively, and common patterns
+    for different question types. Then use kdo_search / kdo_onboard / kdo_read.
+    """
+    logger.info("kdo_help called")
+    try:
+        result = help_guide()
+        return _wrap(result)
+    except Exception as e:
+        logger.exception("kdo_help failed")
+        return CallToolResult(content=[TextContent(type="text", text=f"kdo_help error: {e}")], isError=True)
 
 
 # ── Tool: kdo_capabilities ───────────────────────────────────────────
-@mcp.tool()
+@mcp.tool(annotations=_READONLY)
 async def kdo_capabilities() -> dict:
     """See what KDO has — total counts of frameworks, skills, workflows, and agents.
 
@@ -132,14 +193,29 @@ async def kdo_capabilities() -> dict:
     Then use kdo_onboard to dive into specific domains.
     """
     logger.info("kdo_capabilities called")
-    result = capabilities()
-    return result
+    try:
+        result = capabilities()
+        return _wrap(result)
+    except Exception as e:
+        logger.exception("kdo_capabilities failed")
+        return CallToolResult(content=[TextContent(type="text", text=f"kdo_capabilities error: {e}")], isError=True)
 
 
 # ── Main ─────────────────────────────────────────────────────────────
+def _warmup() -> None:
+    """启动预热：主线程同步加载索引/LightRAG 缓存（LightRAG worker 依赖主线程
+    get_event_loop；此时无客户端连接无 keepalive 压力）。预热后调用走缓存 0s。"""
+    try:
+        logger.info("[warmup] 预加载检索缓存...")
+        search(query="预热", limit=1)
+        logger.info("[warmup] 完成")
+    except Exception as e:
+        logger.warning(f"[warmup] 失败（不阻塞，首次调用会慢）: {e}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="KDO MCP Server")
-    parser.add_argument("--sse", action="store_true", help="Use SSE transport instead of stdio")
+    parser.add_argument("--sse", action="store_true", help="[DEPRECATED] Use SSE transport (MCP 2025-06-18 规范：SSE→Streamable HTTP；当前无客户端在用，迁移见 P3)")
     parser.add_argument("--port", type=int, default=8765, help="Port for SSE transport (default: 8765)")
     parser.add_argument("--host", default="127.0.0.1", help="Host for SSE transport")
     args = parser.parse_args()
@@ -149,6 +225,8 @@ def main():
     if args.sse:
         mcp.run(transport="sse", host=args.host, port=args.port)
     else:
+        # 启动预热（主线程同步 10s，无客户端连接；之后调用 0s）
+        _warmup()
         mcp.run(transport="stdio")
 
 

@@ -1,11 +1,14 @@
 ---
 id: 357
 assignee: huangyaoshi
-status: pending_review
-updated_at: 2026-08-18
-title: "kdo MCP 检索质量 5 项根因修复（search/capabilities）——第三轮核查穿透"
+status: reviewed
+updated_at: '2026-08-18T15:20:52.207524+00:00'
+title: kdo MCP 检索质量 5 项根因修复（search/capabilities）——第三轮核查穿透
 priority: P1
 dependency: []
+reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A-
 ---
 
 # #357 kdo MCP 检索质量 5 项根因修复

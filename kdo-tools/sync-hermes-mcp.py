@@ -36,6 +36,7 @@ WSL_HOME = subprocess.run(["wsl", "-e", "bash", "-c", "echo $HOME"], capture_out
 WINDOWS_PROFILES = [
     "basic-skills-coach", "coaching-leadership-assistant", "duanwangye",
     "hongqigong", "laowantong", "meeting-assistant", "note-coach", "wangyuyan",
+    "beikai",  # #351 遗留③：洪七公迁 Windows 后收口（欧阳锋 2026-08-18）
 ]
 WSL_PROFILES = [
     "beikai", "duan", "duanwangye", "kimi-test",
@@ -62,6 +63,7 @@ def render_kdo(platform: str) -> str:
         "    env:\n"
         f"      WIKI_ROOT: {wiki}\n"
         f"      KDO_SRC: {kdo_src}\n"
+        "      PYTHONPATH: ''\n"  # #351: 清 Hermes venv cp313 污染（原 run_kdo_mcp.cmd 能力收口）
         "    enabled: true\n"
     )
 
@@ -79,6 +81,11 @@ def write_wsl(path: str, content: str):
 
 def profile_path(platform: str, name: str) -> str:
     if platform == "windows":
+        # #351: 4.x 迁移后新 profile 在 AppData\Local\hermes\profiles（E029 数据目录统一），旧的在 .hermes
+        new = os.path.join(os.environ.get("LOCALAPPDATA", r"C:\Users\Administrator\AppData\Local"),
+                           "hermes", "profiles", name, "config.yaml")
+        if os.path.exists(new):
+            return new
         return os.path.join(r"C:\Users\Administrator\.hermes\profiles", name, "config.yaml")
     return f"{WSL_HOME}/.hermes/profiles/{name}/config.yaml"
 

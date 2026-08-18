@@ -1,13 +1,17 @@
 ---
 id: task_20260816_huangyaoshi-research-partner-deploy
 assignee: codex
-status: pending_review
+status: reviewed
 priority: P0
 wsjf: 4.0
 created_at: 2026-08-16
-updated_at: 2026-08-16
-source: 用户指令（2026-08-16"你的爆炸式建模助理可以开始建设了"）——#335 spec 终审 PASS A- 后的部署授权；迁移验证约束解除（T1 三 profile 已验证）；改派：黄药师→codex（用户拍板 2026-08-16）
-related: #335
+updated_at: '2026-08-17T17:38:12.545292+00:00'
+source: 用户指令（2026-08-16"你的爆炸式建模助理可以开始建设了"）——#335 spec 终审 PASS A- 后的部署授权；迁移验证约束解除（T1
+  三 profile 已验证）；改派：黄药师→codex（用户拍板 2026-08-16）
+related: null
+reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # R 型爆炸式调研 Partner 部署（#348）

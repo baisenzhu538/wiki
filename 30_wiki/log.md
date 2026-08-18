@@ -1940,3 +1940,4 @@ Chronological record of knowledge operations.
 - src_unknown
 
 - src_unknown
+- 2026-08-18 黄药师: 新增 tool-kdo-wechat-serendipity-collect（偶遇采集管线工具卡）

@@ -180,6 +180,17 @@
       "test": "python kdo-tools/mcp/feishu_doc_server.py --sse --port 8766 启动；冒烟：创建→写入→回读",
       "source": "kdo-tools/mcp/feishu_doc_server.py",
       "status": "active"
+    },
+    "F_SERENDIPITY_COLLECT": {
+      "id": "F_SERENDIPITY_COLLECT",
+      "name": "微信视频号偶遇采集全自动（复制链接转发）",
+      "category": "collection",
+      "description": "手机复制视频号链接转发→PC微信数据库解密提取→parse_sph直链解析（元宝Cookie）→无代理下载→GPU转写→LLM三层次知识化→00_inbox/wechat-collect/，计划任务每10分钟无人值守",
+      "test": "复制链接转发→10分钟内00_inbox出现逐字稿+研究文档（2026-08-17/18两次实测：WorkBuddy 146s/99s）",
+      "source": "proj_20260816_wechat-collect 顶层文档 + wechat_link_monitor.py",
+      "skill": ".claude/skills/wechat-serendipity-collect/",
+      "created_at": "2026-08-17",
+      "updated_at": "2026-08-18"
     }
   }
 }

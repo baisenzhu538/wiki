@@ -198,3 +198,10 @@ audience: 欧阳锋 / 黄药师 / 老顽童 / 洪七公 / 段王爷
 
 ---
 *维护人：王语嫣 | 最后更新：2026-07-01*
+
+## 2026-08-18：检索层质量收口（段王爷诊断驱动）
+
+- **事实**：段王爷已迁 Windows 但 kdo MCP 零调用（738s/11 API 硬搜）+ 中文查询 GBK 乱码（server.py 无 UTF-8 reconfigure，#323 漏网）+ MCP 配置未纳入 #326 单一真相源（duanwangye/beikai 用旧 launcher）。
+- **方向**：检索质量是 agent 生产力的地基——#350（server.py UTF-8 修复，全厂 MCP）+ #351（段王爷检索启用：单一真相源收口 + SOUL 检索指令 + 消费层验证）。
+- **纪律**：GBK 类修复清单需含 MCP/CLI 管道入口扫描；部署状态以运行态（gateway_state.json/进程）为准，队列状态需及时对齐。
+- **关联**：诊断 diag_20260818_duanwangye-mcp-retrieval.md；#324 传导诊断（快照型 agent 检索指令）执行链。

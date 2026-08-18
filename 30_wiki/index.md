@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-08-16T15:30:47+00:00_
+_Last updated: 2026-08-17T19:55:46+00:00_
 
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction|对话记录：鑫港湾业务公式与商业模型计算拆分重构（2026-06-19）]] — source `src_unknown`
 - [[_archive/concept-一堂-business-prediction|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `src_unknown`
@@ -116,6 +116,7 @@ _Last updated: 2026-08-16T15:30:47+00:00_
 - [[cases/case-ether-online-acquisition|案例：以太利用全网调研能力快速获客]] — source `src_unknown`
 - [[cases/case-feishu-disruptive-innovation|飞书：绕开WPS/Office开辟联网协作新赛道]] — source `10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt`
 - [[cases/case-feishu-live259-l3-extraction|「案例：Live259逐字稿提取——SSO破墙+逐节点击，四连拒后的L3正解」]] — source `capability/duanwangye/feishu-doc-l3-extraction`
+- [[cases/case-feishu-minutes-extraction-attempt|「案例：飞书妙记逐字稿提取尝试——二维码过期未成，但定位了 Windows 侧浏览器正解」]] — source `capability/duanwangye/feishu-doc-l3-extraction`
 - [[cases/case-five-step-fake-vs-real-barriers|案例：五步法中识别真壁垒和假壁垒]] — source `10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md`
 - [[cases/case-five-step-growth-first-lever|案例：五步法中从产品内核到增长的第一次跨越]] — source `10_raw/sources/src_20260610_8865798f-一堂-一堂五步法-增长-口述.md`
 - [[cases/case-fuzeyu-ai-koubo-tool-dev|付则宇AI口播工具：从16小时到零门槛的完整开发历程]] — source `00_inbox/AI口播工具开发经验/AI口播工具开发经验分享-付则宇-笔记.txt`
@@ -264,8 +265,10 @@ _Last updated: 2026-08-16T15:30:47+00:00_
 - [[cases/case-wanghuan-education-sales-paced|王欢案例：教育机构用 PACED 还原销冠决策链]] — source `src_unknown`
 - [[cases/case-wanghuan-shenyang-software-3x-efficiency|王欢案例：沈阳软件公司三层架构实现3倍效率]] — source `src_unknown`
 - [[cases/case-wanghuan-yiyu-qingji-medical-notes|王欢案例：医语轻记用语音录入缩短病历时间]] — source `src_unknown`
-- [[cases/case-wechat-d9742461f4f9c2d296427c55b8b734|d9742461f4f9c2d296427c55b8b734]] — source `10_raw/sources/src_wechat_d9742461f4f9c2d296427c55b8b734.md`
-- [[cases/case-wechat-test_audio|test audio]] — source `10_raw/sources/src_wechat_test_audio.md`
+- [[cases/case-wechat-6725b942182f6277|6725b942182f6277]] — source `00_inbox/wechat-collect/src_wechat_6725b942182f6277.md`
+- [[cases/case-wechat-AWyGiJIRgc|AWyGiJIRgc]] — source `00_inbox/wechat-collect/src_wechat_AWyGiJIRgc.md`
+- [[cases/case-wechat-f4faadff37c0b43b|f4faadff37c0b43b]] — source `00_inbox/wechat-collect/src_wechat_f4faadff37c0b43b.md`
+- [[cases/case-wechat-tt_7666646931699367986|tt 7666646931699367986]] — source `00_inbox/wechat-collect/src_wechat_tt_7666646931699367986.md`
 - [[cases/case-wenxiaobao-campus-bilateral-network|温小宝·校园双边网络：从驾校到学生网络平台]] — source `00_inbox/解放思想探索营/案例分享-口述.txt L1-890`
 - [[cases/case-wudi-innovation-contest-value|吴迪·创业赛重构：从编造数据到价值塑造]] — source `00_inbox/解放思想探索营/案例分享-口述.txt L1014-1290`
 - [[cases/case-xian-franchise-location-decision|案例：西安加盟选址——系统调研vs拍脑袋]] — source `00_inbox/调研专题/高阶调研行动营01.txt`
@@ -1395,7 +1398,7 @@ _Last updated: 2026-08-16T15:30:47+00:00_
 - [[domains/kdo-moc|KDO 主题域 MOC：KDO 自身的基建知识]] — source `30_wiki/domains/retrospective-moc.md`
 - [[domains/lean-startup-domain-digest|域摘要：精益创业方法论]] — source `60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`
 - [[domains/management-domain-digest|域摘要：一堂管理方法论（五阶管理地图 + 苦练基本功子域）]] — source no source
-- [[domains/master-moc|Master 主题域 MOC：KDO 知识工厂的自身运营知识]] — source `30_wiki/domains/retrospective-moc.md`
+- [[domains/master-moc|master-moc]] — source no source
 - [[domains/product-moc|Product 主题域 MOC：产品方法论与精益验证]] — source `30_wiki/domains/retrospective-moc.md`
 - [[domains/retrospective-moc|复盘主题域 MOC：知识库的复盘知识网络]] — source `60_feedback/tasks/task_20260806_huangyaoshi-retrospective-moc.md`
 - [[domains/sales-domain-digest|域摘要：销售管理（30+张卡）]] — source `90_control/domain-mapping.md`
@@ -1935,6 +1938,7 @@ _Last updated: 2026-08-16T15:30:47+00:00_
 - [[tools/tool-jiangxiang-ai-four-levels|讲香AI协作四层级：抄/改/改+定制创/创]] — source `10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt`
 - [[tools/tool-kdo-agent-production-checklist|KDO Agent 生产 SOP 清单：从业务任务到可运行 Agent 的五步法]] — source `00_inbox/半肥猫/【半肥猫】我的商业突破实践指南：如何封装一个可复用的业务 Skill_MCP 副本.md`
 - [[tools/tool-kdo-help|kdo_help MCP 工具——外部 Agent 首次接入 KDO 的结构化引导]] — source `kdo-tools/mcp/tools.py`
+- [[tools/tool-kdo-wechat-serendipity-collect|KDO 偶遇采集管线：手机转发链接 → 全自动入库（视频号/今日头条/公众号）]] — source `70_product/projects/proj_20260816_wechat-collect-顶层文档.md`
 - [[tools/tool-key-assumptions-check|Key Assumptions Check（隐藏假设检验）]] — source no source
 - [[tools/tool-knowledge-cheatsheet-sab|知识小抄 S/A/B 三级收录清单]] — source `00_inbox/AI知识库/OCR_一堂DOC-20260816015204.md`
 - [[tools/tool-leadership-consensus-goal-escalation|共识目标三次跨越卡（60→80→自主设定 + 猴子理论）]] — source `00_inbox/教练式领导力/教练式领导力课程-02-口述.txt`

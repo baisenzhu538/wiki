@@ -133,10 +133,22 @@ related: "#338 PatrolKit 设计（L3 采集层）"
 
 ## 八、变更记录
 
+### 2026-08-18（主链路定稿：复制链接转发全自动）
+- **用户操作定稿**：手机"复制链接"转发（`weixin.qq.com/sph/xxx`）→ 全自动。直接转发卡片（无链接）微信不给解析入口，仅兜底（电脑播放拦截）
+- **二次实测通过**：AWyGiJIRgc（WorkBuddy 海报批量生成，99s）复制链接转发 → 自动解析下载转写知识化 → 00_inbox，零人工
+- **技术文档重写**：`40_outputs/code/scripts/wechat-serendipity-collect-guide.md`（看懂版：用户操作/系统链路/部署/运维/边界）
+- **Skill v1.1.0**：主链路 + 边界 + 故障速查更新
+- **cap_hub**：F_SERENDIPITY_COLLECT 描述更新（主链路：复制链接转发）
+
 ### 2026-08-17（黄药师恢复会话）
 - **楚门两种方式对齐**：§零 新增——方式一偶遇（L2602/L2612/L2648-2652）+ 方式二博主定向（L2622-2630）+ 替代通道（L2668 元器）
-- **下载环节定稿**：主力 = res-downloader MITM 嗅探（播放即下载，绕开反爬解析），定向 = API 解析+Referer，TikHub 降级备选
-- **断链修复**：collect_wechat.py ①补 import shutil ②下载带 Referer ③链接文件扫描增强（记录+提示播放嗅探）④processed.log 成功才记录 ⑤新增 res-downloader 目录扫描 ⑥一键串联（scan→转写→知识化）
+- **下载环节定稿（v2）**：主力 = **元宝登录态解析（ltaoo/wx_channels_download parse_sph）——链接→直链，无人值守全自动**；res-downloader MITM 降级为播放兜底；TikHub 备选
+- **断链修复**：collect_wechat.py ①补 import shutil ②下载带 Referer ③链接文件扫描增强 ④processed.log 成功才记录 ⑤res-downloader 目录扫描 ⑥一键串联
+- **🆕 全自动偶遇链路打通（方式一终态）**：
+  1. `wechat_link_monitor.py`——解密微信 4.x 数据库（SQLCipher 4，密钥复用段王爷 build_keys.py）→ 读文件传输助手消息（ZSTD 解压）→ 提取视频号链接 → 调 parse_sph（元宝 Cookie）→ 下载直链 → WSL GPU 转写 → LLM 三层次知识化 → 全部落 `00_inbox/wechat-collect/`
+  2. **实测通过（2026-08-17）**：WorkBuddy 视频（"WorkBuddy 省钱实操｜DeepSeek + GPT 双模型接入教程"，146s）全链自动完成
+  3. **自动化固化**：计划任务 `wx-channels-download`（登录自启解析服务）+ `wechat-link-monitor`（每 10 分钟跑监控）
+  4. 元宝 Cookie 有效期约 1 个月，失效后重新登录 yuanbao.tencent.com 提取（CDP 脚本 `kdo-tools/_tmp_get_cookie.py`）
 
 ---
 *黄药师 · 2026-08-16 · 顶层文档制度（楚门课程）首次实践*

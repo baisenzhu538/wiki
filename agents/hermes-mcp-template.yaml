@@ -13,4 +13,5 @@ mcp_servers:
     env:
       WIKI_ROOT: {{WIKI_ROOT}}
       KDO_SRC: {{KDO_SRC}}
+      PYTHONPATH: ''   # #351: 清 Hermes venv cp313 污染（原 run_kdo_mcp.cmd 能力收口进模板）
     enabled: true

@@ -23,10 +23,14 @@ updated_at: 2026-08-16
 
 ### 视频号采集管线（proj_20260816_wechat-collect）状态
 - **楚门两种方式已对齐顶层文档**（§零）：方式一偶遇（口述稿 L2612/L2648-2652 AI 超级入口）+ 方式二博主定向（L2622-2630）——`--scan-wechat` 对应方式一、`--author` 对应方式二
-- **断链已修复**：collect_wechat.py 补 import shutil / 下载带 Referer / processed.log normcase 去重 / 成功才记录 / 链接类文件提示播放嗅探；wechat_knowledge.py 覆盖保护+跳过已知识化
-- **一键链路可用**：`python kdo-tools/collect_wechat.py --scan-wechat --auto-knowledge`——扫描→WSL GPU 转写→LLM 三层次→16 case 落库→kdo query 可检索（已端到端验证）
-- **res-downloader 待接入**：桌面 res-downloader.exe（MITM 嗅探 127.0.0.1:8899）；用户配置下载目录后管线 `--resdownloader-dir` 扫描——偶遇全链最后一块（用户播放即采集）
-- **待办**：small/large-v3 模型升级（tiny 短视频够用）；视频标题语义化（下载文件名是 hash）
+- **断链已修复**：collect_wechat.py 补 import shutil / 下载带 Referer / processed.log normcase 去重 / 成功才记录；wechat_knowledge.py 覆盖保护+跳过已知识化+NO_PROXY
+- **🆕 全自动偶遇链路打通（方式一终态，2026-08-17 实测）**：
+  - `wechat_link_monitor.py`：微信 4.x 数据库解密（密钥=段王爷 build_keys.py passphrase，19/19）→ 文件传输助手 ZSTD 解压 → 链接提取 → **ltaoo wx_channels_download parse_sph**（元宝 Cookie）→ 直链下载 → WSL GPU 转写 → LLM 三层次 → 全部落 `00_inbox/wechat-collect/`
+  - 服务：`wx_video_download.exe`（API 127.0.0.1:2022，config.yaml `cloudflare.sphCookie` 已配全量 Cookie）
+  - 计划任务：`wx-channels-download`（登录自启）+ `wechat-link-monitor`（每 10 分钟）
+  - 元宝 Cookie 有效期约 1 个月，失效后：Edge 调试端口 9222 → `kdo-tools/_tmp_get_cookie.py` 重新提取（需用户在元宝页面扫码）
+- **res-downloader**（MITM 嗅探）降级为播放兜底
+- **待办**：small/large-v3 模型升级（tiny 够用但质量一般）；视频标题语义化（文件名是 hash）；KDO 侧接入 30_wiki 前的 ingest/validate 流程
 
 
 

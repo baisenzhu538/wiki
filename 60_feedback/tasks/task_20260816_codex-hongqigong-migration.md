@@ -1,13 +1,16 @@
 ---
 id: task_20260816_codex-hongqigong-migration
 assignee: codex
-status: pending_review
+status: reviewed
 priority: P0
 wsjf: 4.0
 created_at: 2026-08-16
-updated_at: 2026-08-16
+updated_at: '2026-08-17T17:35:51.546218+00:00'
 source: 用户指令（2026-08-16"洪七公启动不起来，现在也准备迁移到Windows侧，以后全量都是Windows，codex已经在操作了"）
-related: #342 #343 #344 #345
+related: null
+reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # 洪七公（beikai）迁移 Windows（#347）

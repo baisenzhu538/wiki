@@ -1,17 +1,17 @@
 ---
-updated: 2026-08-09
-updated_at: 2026-08-09T00:00:00+00:00
+updated: 2026-08-18
+updated_at: 2026-08-18T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "Live258 内容域三连批全闭环（2026-08-15）：#312 case 卡 4 张 A- + #313 dk 卡 2+1 B+ + #314 tool 卡 1 张 A- 全部 reviewed——9 张卡 + 1 修补入库，看板 297/297 全清，队列 queued=0/pending_review=0。O0 溯源零编造（全批行号逐条命中源文件）；老顽童 TODO（related 重复）已修复独立验证通过；补链闭环（case 正文 wikilink 回补 tool/dk）验证通过。**欧阳锋 08-15 复审确认：#304 终审有效（PASS 条件 A-，C1 飞书真机冒烟 5 天未闭环待 WSL 侧 gateway 重启）、#298 已 E019 对齐（卡侧 08-05 reviewed）——两单均无需重审，原'遗留'标注为未同步 08-10 结论**；停车场 2026-08-15 拍板结果：O-13 已执行（8GB/4核/wsl --shutdown/8 gateway 自动拉起，解锁 #303/#304 C1 真机冒烟）；O-14 已立项（任务单已写待王语嫣编排）；O-12 待扩容效果评估后另议；P-31 待拍板。**双助理 C1 已闭环终审（#303/#304 升级 PASS A-，飞书正式可用，O3 引用卡名 4/4+5/5 独立验证）；#323 GBK 修复终审 PASS A-；#324 传导诊断终审 PASS A-；**#326 机制制度化终审 PASS A（#325 空挂闭环：WSL 5 gateway 补挂确认 + MCP 单一真相源 16 profile 幂等 + 巡检 17/17 + 双侧 kdo_search HIT；狗粮抓 delivery.py 跨平台 bug）**；**#320/#322 销售卡组 7 卡终审 PASS A-（O0 溯源 7/7 零编造，老顽童批收官）；**#328 崩溃循环修复 PASS A（boot 退役+user 8/8+NRestarts 归零+源码 bug 修复）；#321 digest PASS A-；#319 domain 补齐 PASS A-（目录迁移裁定不迁移，重复文件 tools/ 版为权威，另立项）**——收尾建议书已写：diag_20260816_ouyangfeng-task-orchestration-proposal.md（#329 源码 P0/#330 文档修正/#331 P3 推广，待王语嫣编排）**；#325 终审 PASS A 但**遗留修正：#326 立项核查发现 WSL 侧 5 个运行中 gateway（beikai/duanwangye/laowantong/laowantong-feishu/ouyangfeng/wangyuyan）实际未获 kdo 检索（#325 补挂的 Windows 副本空挂）——已并入 #326 补挂**。"
+active_task: "#357/#337 终审闭环（2026-08-18 晚）：**#357 kdo MCP 检索质量 5 项根因修复 PASS A-**（title 双坏/score_label 量纲/engine 退化/去重/CRLF——O3 消费端全链实测：engine 复活 hybrid RRF、title 真实、label 三档；queue_transition review 全名可过）→ **#337 条件项关闭**（codex §8.6 v0.4 修正版，8 条打标全承接，行号抽查全吻合，我侧 append 复审记录）——pending_review=0，dashboard 337/330 完成。**🟢 队列**：#358 queued（graph 向量库空引擎层，黄药师）+ #352-356 已 reviewed。**版本分裂教训**：kdo-tools/mcp/tools.py（活）vs 40_outputs/code/scripts/tools.py（登记副本）不同步——修复需同步登记副本，否则误导审计（E034 家族）。**残留观察**：graph-only 场景 max_score=0 → label 全 low，记 #358。"
 blockers:
   - "production-queue.md 全文件中文 mojibake 损坏（UTF-8-SIG 混合编码）——历史遗留，新行正常 UTF-8；提请黄药师做编码修复"
-  - "queue_transition.py review 路径被 auto mode 分类器拦截 + O-3 已知 bug（complete --force 对 queued 任务锁内 re-check 必失败）——状态变更走手动 patch（加注释）"
+  - "O-3 已知 bug：queue_transition.py complete --force 对 queued 任务锁内 re-check 必失败——review 路径实测可用（2026-08-18 四单全通，含 --grade）"
   - "当前任务状态见 production-queue.md（唯一真相源）"
   - "旧任务文件 laowantong-next-tasks.md / laowantong-batch-*.md 已废弃——不要读。"
   - "建议书编号 ≠ 队列编号：建议书（R1-R4 / #267s-#273s）编号为建议性，正式编号以队列为准（decisions.md 2026-08-09 D2 已登记；friction-log 第 2 条实证）"
-next_session_hint: "① 用户重启后说'继续'→读本文件 + 20_memory/wangyuyan-amnesia-recovery.md + 桌面/agent复盘/wangyuyan/daily-context/ 最新；② 剩余 4 项：#304/#298（欧阳锋审）+ #308/#309（黄药师领）；③ 任务模式已上线（教练助理五节流程+交付物模板，真机验证通过）；④ 队列健康：queue_audit.py issues=0（不允许任何非表行——注释必须行内）；⑤ E025/E026 编排铁律（修改另开任务/单角色单任务）"
+next_session_hint: "① 用户重启后说'继续'→读 .agent/ouyangfeng-context.md + context.md + amnesia-recovery + 桌面/agent复盘/ouyangfeng/daily-context/ 最新（按目录内最新，不写死日期）；② 队列 #337 codex-kdo-mirror-audit 待用户派单终审；③ 验证纪律：hermes skills list 必须带 -p <profile>、Windows 路径 grep 用裸关键词/绝对路径、'同款/已收口/全量'声明逐文件 grep；④ 部署类验收三态框架（运行态/字节/消费层）；⑤ E025/E026 编排铁律（修改另开任务/单角色单任务）"
 ---
 ---
 

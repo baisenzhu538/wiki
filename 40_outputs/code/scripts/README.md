@@ -4,6 +4,12 @@
 > 处理多媒体任务前，先查本索引，避免重复造轮子。  
 > 详细选型指南见：`40_outputs/capabilities/skills/image-understanding-pipeline/SKILL.md`
 
+## 登记规则（2026-08-18 #359 裁定）
+
+- **本目录只放"真身"**：只在本目录存在、无其他活代码的脚本。
+- **有活代码的脚本禁放副本**（如 kdo-tools/ 管理的 MCP 工具链）——副本必然漂移（08-18 已两次 stale-copy 误诊），登记改为**指针引用**：README 记活代码路径，不拷文件。
+- 登记四步法：① 脚本入活代码目录 ② 本 README 登记（真身记路径/副本记指针）③ 复杂逻辑写 skill ④ skill 之间互引。
+
 ---
 
 ## 图像识别与理解
@@ -221,3 +227,38 @@
 - **功能**：生产看板 dashboard.html 生成——待领取/审查中/进行中/已完成四组
 - **2026-08-09 增量**：① 已完成组渲染有终审等级的任务卡片（此前只显示统计数字不渲染卡片）② 等级徽章：从队列注释列解析 `PASS A/A-/B+/C`（含条件 PASS ⚠ 标记），A 绿 / B+ 黄 / C·FAIL 红
 - **命令**：`PYTHONIOENCODING=utf-8 python kdo-tools/generate-dashboard.py`（GBK 终端需 UTF-8 前缀，否则 print ✅ 崩溃）
+
+## 微信视频号偶遇采集全自动链路（2026-08-17 黄药师）
+
+### `wechat_link_monitor.py`
+- **功能**：全自动偶遇采集主控——解密微信 4.x 数据库 → 读文件传输助手新消息（ZSTD 解压）→ 提取视频号链接 → parse_sph 直链解析（元宝 Cookie）→ 下载 mp4 → WSL GPU 转写 → LLM 三层次知识化 → `00_inbox/wechat-collect/`
+- **运行**：`python kdo-tools/wechat_link_monitor.py`（计划任务 `wechat-link-monitor` 每 10 分钟自动跑）
+- **依赖**：wx_video_download 服务（127.0.0.1:2022）+ 微信 4.x 登录 + WSL faster-whisper
+
+### `wechat_knowledge.py`
+- **功能**：逐字稿 → LLM 三层次知识化（事实/规律/洞察，楚门框架），覆盖保护（失败不覆盖旧文件）+ 跳过已知识化（幂等）
+- **运行**：`python kdo-tools/wechat_knowledge.py <逐字稿.md>` 或 `--all`
+- **注意**：已内置 `NO_PROXY=api.deepseek.com,api.minimaxi.com` 绕过 MITM 系统代理
+
+### `collect_wechat.py`
+- **功能**：方式二博主定向（`--author "博主名"`，需 TikHub token）+ 本地导入（`--import-local`）+ 偶遇扫描（`--scan-wechat`）
+- **运行**：见 `--help`
+
+### `yuanbao_cookie_extract.py`
+- **功能**：CDP 从已登录元宝页面（Edge 调试端口 9222）提取全量 Cookie（含 hy_token），写入 wx_channels_download config.yaml
+- **使用场景**：元宝 Cookie 约 1 个月过期，重建登录态
+- **运行**：`python 40_outputs/code/scripts/yuanbao_cookie_extract.py`
+
+### 完整文档
+- `40_outputs/code/scripts/wechat-serendipity-collect-guide.md`——链路架构/部署清单/运维手册/故障排查
+- Skill：`.claude/skills/wechat-serendipity-collect/`（触发词：偶遇采集/视频号/手机转发）
+- 顶层文档：`70_product/projects/proj_20260816_wechat-collect-顶层文档.md`
+
+#### 更新（2026-08-18 黄药师）
+- **主链路定稿**：手机"复制链接"转发 → 全自动（parse_sph 直链非加密版，无代理下载，转写稳定）；卡片转发需播放拦截（兜底）
+- **wechat_link_monitor.py v2**：①全库链接提取（sph/卡片XML直链/公众号两种格式）②下载无代理直连+重试 ③成功才记 seen（失败可重试）④扫描下载器产物目录（`D:\Backup\Downloads` 新 mp4 自动转写入库）⑤parse_sph 调用绕过系统代理
+- **实测**：两次全自动闭环（WorkBuddy 146s/99s 复制链接转发 → 逐字稿+三层次研究文档 → 00_inbox）
+
+#### 更新（2026-08-18 黄药师 · 头条通道）
+- **今日头条视频支持已打通**：`m.toutiao.com/video/xxx` 链接 → info 接口拿 play_auth_token_v2（Base64→GetPlayInfoToken）→ vod.bytedanceapi.com 拿 PlayInfoList 直链 → 下载（带头条 Referer，否则 403）→ 转写 → 知识化
+- 实测：用户转发"Clean Code鼻祖"头条视频（143s）全自动入库

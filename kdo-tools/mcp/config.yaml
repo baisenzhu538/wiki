@@ -18,7 +18,8 @@ stdio:
       KDO_SRC: C:\Users\Administrator\Knowledge Delivery OS 0.0.1
 
 # ── SSE transport (remote / multi-client) ────────────────────────────
-sse:
+# sse: [DEPRECATED] MCP 2025-06-18 规范已弃用 SSE（→Streamable HTTP，P3 另议）；当前无客户端在用
+# sse:
   kdo:
     command: python
     args:

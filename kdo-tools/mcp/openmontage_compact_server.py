@@ -21,6 +21,12 @@ import asyncio
 import json
 import os
 import sys
+
+# #350 UTF-8 修复（#323 同款）：Windows 中文环境管道默认 cp936，UTF-8 JSON 必乱码
+sys.stdin.reconfigure(encoding="utf-8")
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
+
 from pathlib import Path
 from typing import Any
 

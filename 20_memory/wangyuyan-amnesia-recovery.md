@@ -69,6 +69,15 @@ KDO 进化 = 内部驱动（诊断/审查/用户探针）+ **外部驱动（Herm
 - 生产型（老顽童）：多实例+队列约束
 - 基建型（黄药师）：**单一实例**
 
+- **段王爷检索诊断（08-18）**：（kdo MCP 零调用/GBK 乱码/单一真相源脱轨三层根因）
+- **检索质量任务**：#350（server.py UTF-8 修复，P1 黄药师）+ #351（段王爷检索启用，P1 黄药师，依赖#350）
+- **部署事实修正**：段王爷/beikai/ouyangfeng/wangyuyan 等已在 Windows 侧（AppData\Local\hermes\profiles，10 profile）；WSL 侧 gateway 系统级/user 级服务 inactive（旧部署待清理）
+- **错误模式库**：E033 新增（GBK 修复族漏 MCP 管道入口）；E029 复发（判定部署位置查错目录——第 0 步看进程命令行）
+
+- **MCP 检索链（08-18 第二轮）**：#350 PASS A-（UTF-8 修复）/ #351 提审（段王爷 738s→8.6s，SOUL 检索指令+单一真相源）/ #355 实质交付并入 #351（warmup 10s 止血）/ #356 治本 queued（跨进程共享）/ #352-#353 queued（文档债+协议合规）
+- **小昭审查+codex 复审**：KDO-MCP-审查与改进建议.md（16 条）+ codex 照镜子审计 v0.2 §8（精度修正+冷加载发现）；friction-log 已上浮
+- **E034 新增**：执行状态以任务单/运行态为准，队列只是计划态
+
 ## 7. 当前关键资产位置
 
 - 周期表 JSON：`10_raw/sources/feature-periodic-table-v0.8.json`（100 Feature，verified 25）
