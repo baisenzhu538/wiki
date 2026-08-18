@@ -20,7 +20,9 @@ Exit codes:
 
 from __future__ import annotations
 
+import os
 import re
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -61,8 +63,15 @@ def _refresh_dashboard():
     except Exception:
         pass  # 看板刷新失败不阻塞队列操作
 
-TASK_DIR = Path(__file__).resolve().parent.parent.parent / "60_feedback" / "tasks"
-BATCH_DIR = Path(__file__).resolve().parent.parent.parent / "70_product" / "tasks"
+# KDO_TASK_DIR / KDO_BATCH_DIR 环境变量允许测试/多环境指向替代目录
+TASK_DIR = Path(
+    os.environ.get("KDO_TASK_DIR")
+    or (Path(__file__).resolve().parent.parent.parent / "60_feedback" / "tasks")
+)
+BATCH_DIR = Path(
+    os.environ.get("KDO_BATCH_DIR")
+    or (Path(__file__).resolve().parent.parent.parent / "70_product" / "tasks")
+)
 
 # Valid transitions. Format: (current_status, action) -> new_status
 # instance/reviewer checks are performed separately.
@@ -226,6 +235,61 @@ def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool
     return True, f"✅ {task_id} 已领取为 {new_status}"
 
 
+# 代码类任务提审门禁：任务单 frontmatter 声明 code_files（相对仓库根的路径列表，
+# 支持跨仓：含 "Knowledge Delivery OS" 的路径归 KDO 源码仓，其余归 wiki 仓）。
+# 未声明 code_files 的任务视为制卡/文档类，豁免（pre-submit 门禁已管）。
+KDO_REPO_ROOT = Path(r"C:\Users\Administrator\Knowledge Delivery OS 0.0.1")
+
+
+def _git_uncommitted(repo_root: Path, paths: list[str]) -> list[str]:
+    """Return paths with uncommitted changes in the given repo.
+
+    Empty on git errors (fail-open: 门禁不因 git 环境异常阻塞流转，但会提示）。
+    """
+    if not repo_root.exists() or not (repo_root / ".git").exists():
+        return []
+    try:
+        out = subprocess.run(
+            ["git", "-C", str(repo_root), "status", "--porcelain", "--", *paths],
+            capture_output=True, text=True, timeout=15,
+        ).stdout
+    except Exception:
+        return []
+    dirty = []
+    for line in out.splitlines():
+        # porcelain line: "XY path" — strip the 2-char status column
+        if len(line) >= 3 and line[2] == " ":
+            dirty.append(line[3:])
+        elif line.startswith("??"):
+            dirty.append(line[3:])
+    return dirty
+
+
+def _check_code_gate(task_file: Path, fm: dict[str, Any]) -> tuple[bool, str]:
+    """Reject complete when declared code files have uncommitted changes."""
+    code_files = fm.get("code_files") or []
+    if isinstance(code_files, str):
+        code_files = [code_files]
+    if not code_files:
+        return True, ""
+
+    wiki_root = Path(__file__).resolve().parents[2]
+    dirty_all: list[str] = []
+    for cf in code_files:
+        cf = str(cf)
+        repo = KDO_REPO_ROOT if "Knowledge Delivery OS" in cf else wiki_root
+        dirty = _git_uncommitted(repo, [cf])
+        for d in dirty:
+            dirty_all.append(f"{'KDO' if repo == KDO_REPO_ROOT else 'wiki'}: {d}")
+
+    if dirty_all:
+        return False, (
+            "代码类任务提审门禁：以下改动文件尚未 commit，请先提交再流转\n"
+            + "\n".join(f"  - {d}" for d in dirty_all)
+        )
+    return True, ""
+
+
 def action_complete(task_id: str, instance: str, evidence: str | None, force: bool = False) -> tuple[bool, str]:
     """Mark a claimed task as pending_review.
 
@@ -254,10 +318,18 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
         if not has_evidence:
             return False, "任务单中缺少生产完成证据（pre-submit / 执行报告 / 验收）。老顽童不能标 pending_review。"
 
+    # 代码类提审门禁（#363）：code_files 未 commit → 拒绝流转
+    gate_ok, gate_msg = _check_code_gate(task_file, fm)
+    if not gate_ok:
+        return False, gate_msg
+
     with QueueLock("production-queue"):
         rows = parse_queue()
         task = find_task(task_id, rows)
-        if task is None or task["status"] != expected:
+        # --force 允许从 queued 直跳：锁内重检必须同样接受该场景
+        if task is None or not (
+            (force and task["status"] == "queued") or task["status"] == expected
+        ):
             return False, "队列状态在加锁期间发生变化，请重试"
 
         apply_updates(task_id, "pending_review", task_file, status="pending_review")

@@ -23,11 +23,17 @@ if hasattr(sys.stdout, "reconfigure"):
 if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
+import os
 import re
 import sys
 from pathlib import Path
 
-QUEUE_PATH = Path(__file__).resolve().parent.parent.parent / "70_product" / "tasks" / "production-queue.md"
+# KDO_QUEUE_PATH 环境变量允许测试/多环境指向替代队列（默认参数在函数定义
+# 时绑定，monkeypatch 无效，只能在这里解耦）
+QUEUE_PATH = Path(
+    os.environ.get("KDO_QUEUE_PATH")
+    or (Path(__file__).resolve().parent.parent.parent / "70_product" / "tasks" / "production-queue.md")
+)
 
 
 def parse_queue(path: Path = QUEUE_PATH) -> list[dict]:
