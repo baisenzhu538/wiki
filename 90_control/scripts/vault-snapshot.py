@@ -216,8 +216,26 @@ def main(days: int = 2):
     cards = scan_cards(wiki)
     snapshot = build_snapshot(cards, days=days)
 
+    import hashlib, json, subprocess as _sp
+    try:
+        head = _sp.run(["git", "-C", str(root), "rev-parse", "--short", "HEAD"],
+                       capture_output=True, text=True, timeout=10).stdout.strip()
+    except Exception:
+        head = "unknown"
+    from datetime import datetime as _dt
+    stamp = f"> generated-by: vault-snapshot.py · updated_at: {_dt.now():%Y-%m-%d %H:%M} · git_head: {head}"
     out = root / OUTPUT_PATH
-    out.write_text(snapshot, encoding="utf-8")
+    out.write_text(stamp + "
+" + snapshot, encoding="utf-8")
+    hash_file = Path(__file__).resolve().parent / ".derived-hashes.json"
+    hashes = {}
+    if hash_file.exists():
+        try:
+            hashes = json.loads(hash_file.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    hashes[str(out)] = hashlib.sha256(out.read_bytes()).hexdigest()
+    hash_file.write_text(json.dumps(hashes, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"已写入: {out}")
     dc = set()
     for c in cards:

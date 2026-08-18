@@ -270,6 +270,29 @@ def _task_card_html(task: dict, show_group: str) -> str:
 </div>"""
 
 
+def _git_head() -> str:
+    import subprocess
+    try:
+        return subprocess.run(["git", "-C", str(ROOT), "rev-parse", "--short", "HEAD"],
+                              capture_output=True, text=True, timeout=10).stdout.strip()
+    except Exception:
+        return "unknown"
+
+
+def _record_derived_hash(output: Path) -> None:
+    """#369: 生成后记录输出 hash 到基线文件，供 check-derivatives.py 手改检测。"""
+    import hashlib, json
+    hash_file = ROOT / "90_control" / "scripts" / ".derived-hashes.json"
+    hashes = {}
+    if hash_file.exists():
+        try:
+            hashes = json.loads(hash_file.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    hashes[str(output)] = hashlib.sha256(output.read_bytes()).hexdigest()
+    hash_file.write_text(json.dumps(hashes, indent=1, ensure_ascii=False), encoding="utf-8")
+
+
 def generate_html(tasks: list[dict], output: Path) -> None:
     grouped = {"pending": [], "queued": [], "active": [], "done": []}
     for t in tasks:
@@ -393,10 +416,12 @@ footer{{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;padd
 
 {sections_html}
 
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: {now} · git_head: {_git_head()} --></header>
 <footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · {now}</footer>
 </body>
 </html>"""
     output.write_text(html, encoding="utf-8")
+    _record_derived_hash(output)
     print(f"✅ dashboard.html 已生成 ({len(tasks)} 个任务)")
     print(f"   待领取: {counts['queued']}  |  审查中: {counts['pending']}  |  进行中: {counts['active']}  |  已完成: {counts['done']}")
 

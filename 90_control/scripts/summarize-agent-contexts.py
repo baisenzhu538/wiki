@@ -109,7 +109,24 @@ def main():
                 summary_lines.append(f"- {line}")
             summary_lines.append("")
 
-    OUTPUT.write_text("\n".join(summary_lines), encoding="utf-8")
+    import hashlib, json, subprocess as _sp
+    try:
+        head = _sp.run(["git", "-C", str(AGENT_DIR.parent), "rev-parse", "--short", "HEAD"],
+                       capture_output=True, text=True, timeout=10).stdout.strip()
+    except Exception:
+        head = "unknown"
+    from datetime import datetime as _dt
+    stamp = f"> generated-by: summarize-agent-contexts.py · updated_at: {_dt.now():%Y-%m-%d %H:%M} · git_head: {head}"
+    OUTPUT.write_text("\n".join([stamp] + summary_lines), encoding="utf-8")
+    hash_file = Path(__file__).resolve().parent / ".derived-hashes.json"
+    hashes = {}
+    if hash_file.exists():
+        try:
+            hashes = json.loads(hash_file.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    hashes[str(OUTPUT)] = hashlib.sha256(OUTPUT.read_bytes()).hexdigest()
+    hash_file.write_text(json.dumps(hashes, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"Summary written to {OUTPUT}")
 
 if __name__ == "__main__":
