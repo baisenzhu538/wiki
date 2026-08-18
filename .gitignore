@@ -33,3 +33,4 @@ temp_design.pdf
 temp_sch_*.pdf
 temp_*_paddle_ocr.txt
 %TEMP%upgrade_plan.json
+!.kdo/CAPSULE_STARTUP.md
