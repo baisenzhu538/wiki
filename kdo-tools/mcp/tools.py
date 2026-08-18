@@ -62,7 +62,7 @@ def _onboard_domain_cards(root, search_dirs):
 
 
 # ── kdo_search ──────────────────────────────────────────────────────
-def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
+async def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
     """Search KDO wiki for business methodology cards, case studies, frameworks.
 
     Use this when you need to find knowledge cards about business strategy,
@@ -87,7 +87,7 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
     """
     try:
         from kdo.commands.delivery import (
-            _try_graph_query, _try_bm25_query, _rrf_fuse,
+            _aquery_graph, _try_bm25_query, _rrf_fuse,
             _filter_by_trust, _sort_by_layer,
         )
         from kdo.workspace import safe_read
@@ -95,7 +95,9 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
         root = _get_root()
         limit = max(1, min(limit, 20))
 
-        graph = _try_graph_query(root, query, limit * 2) or []
+        # LightRAG must run on the process's own event loop — awaiting it here
+        # keeps graph retrieval on the MCP server's main loop (async search).
+        graph = (await _aquery_graph(root, query, limit * 2)) or []
         bm25 = _try_bm25_query(root, query, limit * 2) or []
 
         if graph and bm25:

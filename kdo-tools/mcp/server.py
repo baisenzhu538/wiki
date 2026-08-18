@@ -112,7 +112,7 @@ async def kdo_search(
     """
     logger.info(f"kdo_search: query={query!r}, domain={domain!r}, limit={limit}")
     try:
-        result = search(query=query, domain=domain, limit=limit)
+        result = await search(query=query, domain=domain, limit=limit)
         return _wrap(result)
     except Exception as e:
         logger.exception("kdo_search failed")  # 栈保留到 stderr
@@ -202,12 +202,13 @@ async def kdo_capabilities() -> dict:
 
 
 # ── Main ─────────────────────────────────────────────────────────────
-def _warmup() -> None:
-    """启动预热：主线程同步加载索引/LightRAG 缓存（LightRAG worker 依赖主线程
-    get_event_loop；此时无客户端连接无 keepalive 压力）。预热后调用走缓存 0s。"""
+async def _warmup() -> None:
+    """启动预热：主 loop 内预加载索引/LightRAG 缓存（LightRAG worker 依赖
+    主线程 get_event_loop，且 initialize_storages 绑定查询 loop——必须在
+    mcp.run_async 之前、同一事件循环内执行）。预热后调用走缓存 0s。"""
     try:
         logger.info("[warmup] 预加载检索缓存...")
-        search(query="预热", limit=1)
+        await search(query="预热", limit=1)
         logger.info("[warmup] 完成")
     except Exception as e:
         logger.warning(f"[warmup] 失败（不阻塞，首次调用会慢）: {e}")
@@ -225,9 +226,17 @@ def main():
     if args.sse:
         mcp.run(transport="sse", host=args.host, port=args.port)
     else:
-        # 启动预热（主线程同步 10s，无客户端连接；之后调用 0s）
-        _warmup()
-        mcp.run(transport="stdio")
+        # 启动预热：与主 loop 同一事件循环内执行，避免 LightRAG 跨 loop
+        # 绑定（initialize_storages 绑定的 loop 必须与查询 loop 相同）。
+        # mcp.run 内部是 anyio.run(self.run_stdio_async)——外层同样用
+        # anyio.run 包 warmup + run_stdio_async，保证同一循环。
+        import anyio
+
+        async def _main_with_warmup():
+            await _warmup()
+            await mcp.run_stdio_async()
+
+        anyio.run(_main_with_warmup)
 
 
 if __name__ == "__main__":

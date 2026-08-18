@@ -138,8 +138,8 @@ def extract_links(cutoff_ts: int) -> list:
             # 2) 纯文本 sph 分享链接
             for m in LINK_PATTERN.findall(text):
                 links.append((ct, m))
-            # 3) 公众号文章（纯文本或卡片 XML）
-            mp_links = list(MP_LINK.findall(text)) + list(XML_MP_URL.findall(text))
+            # 3) 公众号文章（纯文本或卡片 XML）——注意 XML 里 &amp; 需转义为 &，否则抓取 404
+            mp_links = [u.replace("&amp;", "&") for u in list(MP_LINK.findall(text)) + list(XML_MP_URL.findall(text))]
             for m in dict.fromkeys(mp_links):
                 links.append((ct, m))
             # 4) 今日头条视频
