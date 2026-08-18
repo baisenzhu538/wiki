@@ -1,13 +1,16 @@
 ---
 id: task_20260816_huangyaoshi-migration-t3
 assignee: huangyaoshi
-status: queued
+status: reviewed
 priority: P1
 wsjf: 3.0
 created_at: 2026-08-16
-updated_at: 2026-08-16
+updated_at: '2026-08-18T16:50:07.507831+00:00'
 source: 迁移建议书会审裁定（2026-08-16）
-related: #343
+related: null
+reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # T3 duanwangye 飞书 Windows 就绪测试（#345）
@@ -40,3 +43,17 @@ duanwangye 迁移失败回滚 WSL；beikai 本轮不改无需回滚
 
 - 原任务写「beikai 整体留 WSL」——与 #347（beikai 迁 Windows，用户拍板全量 Windows）冲突，已划线标注过时
 - 实际状态：duanwangye 已迁 Windows（codex 08-18 只读核实）；本任务转为就绪测试收尾/状态对齐
+
+---
+
+## 欧阳锋验收（2026-08-19 · 挂起条件解除后转收尾）
+
+**挂起条件解除**：老顽童 CLI 空闲（08-18 确认）+ 用户下令（2026-08-19）。
+
+**验收证据（O3 独立复核）**：
+- duanwangye Windows 服务：state=4 RUNNING + AUTO_START ✓
+- WSL 侧无残留 gateway 进程 ✓
+- 消费层：#351 终审 PASS A-（kdo MCP 检索 738s→8.6s 86 倍提速 + sync 幂等 14 SAME + 无乱码 + 卡名真实）
+- beikai：由 #347 迁 Windows（本任务不再涉及，过时文本已划线）✓
+
+**裁定：PASS A**——就绪测试转收尾成立，duanwangye 飞书 Windows 链路已闭环（服务态 + 消费层双证），无回滚需求。
