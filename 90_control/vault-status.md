@@ -1,7 +1,7 @@
-> generated-by: vault-snapshot.py · updated_at: 2026-08-19 01:15 · git_head: cf9e5651f
+> generated-by: vault-snapshot.py · updated_at: 2026-08-19 01:16 · git_head: 76f2fb662
 # KDO Vault 状态快照
 
-> 自动生成：2026-08-19 01:15 UTC
+> 自动生成：2026-08-19 01:16 UTC
 > 卡片总数：**2772** | draft: 650 | needs-review: 46 | 低置信度(<0.7): 370 | 缺 source: 2486
 
 ## 域 × 类型 矩阵

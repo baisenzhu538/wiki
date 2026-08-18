@@ -1,8 +1,8 @@
-> generated-by: summarize-agent-contexts.py · updated_at: 2026-08-19 01:15 · git_head: cf9e5651f
+> generated-by: summarize-agent-contexts.py · updated_at: 2026-08-19 01:16 · git_head: 76f2fb662
 ---
 id: agent-contexts-summary
 type: agent_briefing
-updated_at: 2026-08-18T17:15:28
+updated_at: 2026-08-18T17:16:38
 ---
 
 # Agent 启动摘要（一页纸）
