@@ -18,6 +18,7 @@ Design: Truman 建模四步法 → 解压展开 → MCP = framework-kdo-modeling
 
 import argparse
 import asyncio
+import importlib
 import json
 import logging
 import sys
@@ -42,7 +43,35 @@ from mcp.types import CallToolResult, TextContent, ToolAnnotations
 # #353 协议合规：只读工具声明 + 错误契约（isError）+ 输出安全
 _READONLY = ToolAnnotations(readOnlyHint=True)
 
-from tools import search, onboard, read_card, capabilities, help_guide
+import tools
+
+# ── 热重载（#体检后续修）：工具调用前 stat tools.py mtime，变更即 reload ──
+# 背景：server 是宿主拉起的长驻进程，tools.py 修完后进程仍跑旧代码，
+# 无法从会话内部重启。此机制让 tools.py 的修复在下一次调用自动生效，
+# 无需重启。安全性：tools.py 模块级状态仅 env 路径 + mtime 失效缓存，
+# reload 丢弃缓存后自动重建；FastMCP 逐条串行处理，无并发重载风险。
+_TOOLS_FILE = Path(__file__).parent / "tools.py"
+_tools_mtime: int | None = None
+
+
+def _maybe_reload_tools() -> None:
+    """tools.py 变更检测 + 热重载。失败时保留旧模块并下次重试（不更新 mtime）。"""
+    global _tools_mtime
+    try:
+        mtime = _TOOLS_FILE.stat().st_mtime_ns
+    except OSError:
+        return  # 文件暂时不可访问（如编辑器原子替换窗口），下次再查
+    if _tools_mtime is None:
+        _tools_mtime = mtime
+        return
+    if mtime == _tools_mtime:
+        return
+    try:
+        importlib.reload(tools)
+        _tools_mtime = mtime
+        logger.info("[hot-reload] tools.py 已变更，热重载完成")
+    except Exception as e:
+        logger.warning(f"[hot-reload] 重载失败，继续用旧代码（下次调用重试）: {e}")
 
 
 def _wrap(result):
@@ -59,7 +88,7 @@ def _wrap(result):
 # ── Server definition ────────────────────────────────────────────────
 # #354/#356: instructions 统计动态化（不写死数字——capabilities 走索引后统计廉价）
 try:
-    _caps = capabilities()
+    _caps = tools.capabilities()
     _fw = _caps.get("frameworks", {}).get("count", "?")
     _sk = _caps.get("skills", {}).get("count", "?")
     _wf = _caps.get("workflows", {}).get("count", "?")
@@ -112,7 +141,8 @@ async def kdo_search(
     """
     logger.info(f"kdo_search: query={query!r}, domain={domain!r}, limit={limit}")
     try:
-        result = await search(query=query, domain=domain, limit=limit)
+        _maybe_reload_tools()
+        result = await tools.search(query=query, domain=domain, limit=limit)
         return _wrap(result)
     except Exception as e:
         logger.exception("kdo_search failed")  # 栈保留到 stderr
@@ -137,7 +167,8 @@ async def kdo_onboard(domain: str) -> dict:
     """
     logger.info(f"kdo_onboard: domain={domain!r}")
     try:
-        result = onboard(domain=domain)
+        _maybe_reload_tools()
+        result = tools.onboard(domain=domain)
         return _wrap(result)
     except Exception as e:
         logger.exception("kdo_onboard failed")
@@ -160,7 +191,8 @@ async def kdo_read(card_id: str) -> dict:
     """
     logger.info(f"kdo_read: card_id={card_id!r}")
     try:
-        result = read_card(card_id=card_id)
+        _maybe_reload_tools()
+        result = tools.read_card(card_id=card_id)
         return _wrap(result)
     except Exception as e:
         logger.exception("kdo_read failed")
@@ -177,7 +209,8 @@ async def kdo_help() -> dict:
     """
     logger.info("kdo_help called")
     try:
-        result = help_guide()
+        _maybe_reload_tools()
+        result = tools.help_guide()
         return _wrap(result)
     except Exception as e:
         logger.exception("kdo_help failed")
@@ -194,7 +227,8 @@ async def kdo_capabilities() -> dict:
     """
     logger.info("kdo_capabilities called")
     try:
-        result = capabilities()
+        _maybe_reload_tools()
+        result = tools.capabilities()
         return _wrap(result)
     except Exception as e:
         logger.exception("kdo_capabilities failed")
@@ -208,7 +242,7 @@ async def _warmup() -> None:
     mcp.run_async 之前、同一事件循环内执行）。预热后调用走缓存 0s。"""
     try:
         logger.info("[warmup] 预加载检索缓存...")
-        await search(query="预热", limit=1)
+        await tools.search(query="预热", limit=1)
         logger.info("[warmup] 完成")
     except Exception as e:
         logger.warning(f"[warmup] 失败（不阻塞，首次调用会慢）: {e}")

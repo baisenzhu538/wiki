@@ -18,7 +18,7 @@ audience: 全体 agent
 |:--|:--|:--|
 | 当前任务/队列状态 | `70_product/tasks/production-queue.md` | 队列尾为最新；dashboard 是派生物 |
 | 任务单 | `60_feedback/tasks/task_*.md` | 队列行引用为准 |
-| 组织记忆（会话复盘） | `agent复盘/<pinyin>/daily-context/` 内最新日期文件 | Truman 10 章唯一格式（agent-os.md §10） |
+| 组织记忆（会话复盘） | `agent复盘/<pinyin>/daily-context/` 内最新日期文件 | Truman 10 章唯一格式（agent-os.md §10）；中文旧轨已冻结（#367，归档于拼音轨 `cn-track-archive-20260819/`） |
 | 错误模式 | `agent复盘/<agent>/错误模式库.md` | 复盘时同步更新 |
 | 用户反馈/红线 | `agent复盘/<agent>/用户反馈档案.md` | 同上 |
 | 技能进化 | `agent复盘/<agent>/技能进化日志.md` | 同上 |
