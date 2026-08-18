@@ -1,12 +1,14 @@
 ---
 id: 359
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-18T23:45:00+00:00'
-title: 登记副本与 commit 收口（P1）——40_outputs/code/scripts 版本分裂根治 + #350-353 实体文件入 git
+status: reviewed
+updated_at: '2026-08-18T16:32:41.461909+00:00'
+title: 登记副本与 commit 收口（P1）——40_outputs/code/scripts 版本分裂根治 +
 priority: P1
 dependency: []
 reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # #359 登记副本与 commit 收口（P1）

@@ -1,12 +1,14 @@
 ---
 id: 358
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-19T00:30:00+00:00'
+status: reviewed
+updated_at: '2026-08-18T16:32:41.655232+00:00'
 title: graph 向量库空（chunks_vdb 无向量）引擎层排查（P1）——graph score 全 0.00 + 同文件重复结果
 priority: P1
 dependency: []
 reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # #358 graph 向量库空（chunks_vdb 无向量）引擎层排查（P1）

@@ -2,11 +2,13 @@
 id: 363
 assignee: huangyaoshi
 status: pending_review
-updated_at: '2026-08-19T01:30:00+00:00'
+updated_at: '2026-08-18T16:40:03.156547+00:00'
 title: queue_transition 提审门禁（P1）——代码类任务提审强制 git 收净 + 修 complete --force 锁内重检 bug
 priority: P1
 dependency: []
-code_files: ["90_control/scripts/queue_transition.py", "90_control/scripts/queue_gate.py"]
+code_files:
+- 90_control/scripts/queue_transition.py
+- 90_control/scripts/queue_gate.py
 reviewed_by: 欧阳锋
 ---
 
