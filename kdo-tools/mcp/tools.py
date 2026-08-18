@@ -193,14 +193,16 @@ def search(query: str, domain: str | None = None, limit: int = 10) -> dict:
             # (BM25 ~5-30, RRF ~0.01-0.05, graph 0.0)
             if max_score > 0:
                 norm = score / max_score * 100
+                if norm >= 70:
+                    score_label = "high"
+                elif norm >= 40:
+                    score_label = "medium"
+                else:
+                    score_label = "low"
             else:
-                norm = 0
-            if norm >= 70:
-                score_label = "high"
-            elif norm >= 40:
-                score_label = "medium"
-            else:
-                score_label = "low"
+                # All scores are 0 (e.g. graph-only with an empty vector store) —
+                # there is no similarity signal, so don't mislabel as "low"
+                score_label = "unknown"
 
             results.append({
                 "id": card_id,

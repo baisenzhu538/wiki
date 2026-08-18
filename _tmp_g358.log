@@ -1,0 +1,39 @@
+import kdo: 0.1s
+<string>:57: UserWarning: WARNING: log_level parameter is deprecated, use setup_logger in utils.py instead
+INFO: [] Loaded graph from C:\Users\Administrator\Desktop\wiki\.kdo\graph_index\graph_chunk_entity_relation.graphml with 4442 nodes, 10831 edges
+INFO:nano-vectordb:Load (3302, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_entities.json'} 3302 data
+INFO:nano-vectordb:Load (10831, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_relationships.json'} 10831 data
+INFO:nano-vectordb:Load (10776, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_chunks.json'} 10776 data
+INFO: [] Process 11384 KV load full_docs with 0 records
+INFO: [] Process 11384 KV load text_chunks with 10776 records
+INFO: [] Process 11384 KV load full_entities with 0 records
+INFO: [] Process 11384 KV load full_relations with 0 records
+INFO: [] Process 11384 KV load entity_chunks with 0 records
+INFO: [] Process 11384 KV load relation_chunks with 0 records
+INFO: [] Process 11384 KV load llm_response_cache with 0 records
+INFO: [] Process 11384 doc status load doc_status with 0 records
+INFO: Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+INFO: Query nodes: 如何判断需求真伪 (top_k:5, cosine:0.2)
+INFO: Local query: 5 entites, 40 relations
+INFO: Query edges: 如何判断需求真伪 (top_k:5, cosine:0.2)
+INFO: Global query: 9 entites, 5 relations
+INFO: Naive query: 5 chunks (chunk_top_k:5 cosine:0.2)
+INFO: Raw search results: 13 entities, 43 relations, 5 vector chunks
+INFO: After truncation: 13 entities, 43 relations
+WARNING: Vector similarity chunk selection: found 7 but expecting 8
+WARNING: No entity-related chunks selected by vector similarity, falling back to WEIGHT method
+INFO: Selecting 8 from 8 entity-related chunks by weighted polling
+INFO: Find 5 additional chunks in 5 relations (deduplicated 5)
+WARNING: Vector similarity chunk selection: found 4 but expecting 5
+WARNING: No relation-related chunks selected by vector similarity, falling back to WEIGHT method
+INFO: Selecting 5 from 5 relation-related chunks by weighted polling
+INFO: Round-robin merged chunks: 16 -> 16 (deduplicated 0)
+INFO: Final context: 13 entities, 43 relations, 5 chunks
+INFO: Final chunks S+F/O: C1/1 E1/1 R1/2 C1/2 E1/3
+graph query: 4.3s
+graph: OK n=4
+scores: [0.0, 0.0, 0.0, 0.0]
+dup paths: 0

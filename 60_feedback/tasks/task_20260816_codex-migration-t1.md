@@ -1,13 +1,16 @@
 ---
 id: task_20260816_codex-migration-t1
 assignee: codex
-status: queued
+status: pending_review
 priority: P0
 wsjf: 4.0
 created_at: 2026-08-16
-updated_at: 2026-08-16
+updated_at: '2026-08-18T15:50:24.612484+00:00'
 source: 迁移建议书会审裁定（2026-08-16）
-related: #342
+related: null
+reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # T1 三个最慢组合迁 Windows 原生（#343）
@@ -34,3 +37,21 @@ basic-skills-coach / coaching-leadership-assistant / meeting-assistant（WSL 运
 
 - 老顽童 CLI 已确认空闲（2026-08-18 老顽童本尊：活跃待命、无在产任务、失忆恢复完成）
 - 用户已下令起链（2026-08-18）——本任务可领取执行
+
+---
+
+## 执行报告（2026-08-18 codex 收尾 · 解冻后）
+
+**物理交付已核验（刚 re-check，非过时快照）**：
+- Windows NSSM 服务三 profile 全部 Running/Automatic：`hermes-gateway-basic-skills-coach` / `hermes-gateway-coaching-leadership-assistant` / `hermes-gateway-meeting-assistant`
+- `AppData\Local\hermes\profiles\` 对应三目录齐全
+- WSL 侧此三 profile 无残留
+
+**冒烟证据（详见 `agent复盘/codex/迁移链核销记录-2026-08-18.md`）**：
+- 08-17 01:03 飞书“在吗？” → 12.2s / 13.6s / 14.3s 应答（43 / 54 / 224 chars）
+- gateway.log：Active profile + feishu connected
+- kdo MCP：registered 8 tools；session cwd = Desktop\wiki
+- 约 19.6h 未重启
+
+**状态**：可提审欧阳锋。
+

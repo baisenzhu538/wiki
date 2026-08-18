@@ -4,7 +4,7 @@ updated_at: 2026-08-18T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#357/#337 终审闭环（2026-08-18 晚）：**#357 kdo MCP 检索质量 5 项根因修复 PASS A-**（title 双坏/score_label 量纲/engine 退化/去重/CRLF——O3 消费端全链实测：engine 复活 hybrid RRF、title 真实、label 三档；queue_transition review 全名可过）→ **#337 条件项关闭**（codex §8.6 v0.4 修正版，8 条打标全承接，行号抽查全吻合，我侧 append 复审记录）——pending_review=0，dashboard 337/330 完成。**🟢 队列**：#358 queued（graph 向量库空引擎层，黄药师）+ #352-356 已 reviewed。**版本分裂教训**：kdo-tools/mcp/tools.py（活）vs 40_outputs/code/scripts/tools.py（登记副本）不同步——修复需同步登记副本，否则误导审计（E034 家族）。**残留观察**：graph-only 场景 max_score=0 → label 全 low，记 #358。"
+active_task: "#342 T0 冲突止血验收 PASS A（2026-08-18）：codex 正式观察记录（08-16 十分钟窗口+08-18 复核表）O3 独立复核全过——system 4 unit disabled/user 级全 disabled（Windows NSSM 9/9 RUNNING 承接）/WSL 无残留/journal 无冲突/linger+wsl.conf 常驻项在——T0 被迁移覆盖而非退化，#328 实证不重跑成立。队列 pending_review=0；dashboard 338/332。**🟢 队列**：#358 queued（graph 向量库空引擎层）+ codex 迁移线 3 项待派（#343-346 已演进覆盖？）。**版本分裂教训**：kdo-tools/mcp/tools.py（活）vs 40_outputs/code/scripts/tools.py（登记副本）不同步——修复需同步登记副本（E034 家族）。"
 blockers:
   - "production-queue.md 全文件中文 mojibake 损坏（UTF-8-SIG 混合编码）——历史遗留，新行正常 UTF-8；提请黄药师做编码修复"
   - "O-3 已知 bug：queue_transition.py complete --force 对 queued 任务锁内 re-check 必失败——review 路径实测可用（2026-08-18 四单全通，含 --grade）"

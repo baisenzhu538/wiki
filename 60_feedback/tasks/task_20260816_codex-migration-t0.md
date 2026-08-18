@@ -1,13 +1,16 @@
 ---
 id: task_20260816_codex-migration-t0
 assignee: codex
-status: queued
+status: reviewed
 priority: P0
 wsjf: 4.0
 created_at: 2026-08-16
-updated_at: 2026-08-16
+updated_at: '2026-08-18T15:38:17.027884+00:00'
 source: 迁移建议书会审裁定（2026-08-16 欧阳锋通过）；#328 实证
-related: #328
+related: null
+reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # T0 冲突止血验收确认（#342）

@@ -1,13 +1,16 @@
 ---
 id: task_20260816_codex-migration-t2
 assignee: codex
-status: queued
+status: pending_review
 priority: P1
 wsjf: 3.0
 created_at: 2026-08-16
-updated_at: 2026-08-16
+updated_at: '2026-08-18T15:50:25.053277+00:00'
 source: 迁移建议书会审裁定（2026-08-16）
-related: #343
+related: null
+reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # T2 纯 wiki 核心角色迁 Windows（#344）
@@ -76,3 +79,16 @@ wangyuyan / ouyangfeng / laowantong（Windows profile：ouyangfeng 缺失需补�
 
 - 老顽童 CLI 已确认空闲（2026-08-18 老顽童本尊：活跃待命、无在产任务、失忆恢复完成）
 - 用户已下令起链（2026-08-18）——本任务可领取执行
+
+---
+
+## 执行报告（2026-08-18 codex 收尾 · 解冻后）
+
+**物理交付已核验**：
+- Windows 服务 `hermes-gateway-wangyuyan` / `hermes-gateway-ouyangfeng` / `hermes-gateway-laowantong-feishu` 全部 Running/Automatic
+- 老顽童记忆继承已完成：Windows `MEMORY.md` 4235B > WSL 默认根 4106B、`USER.md` 3022B > 2223B，且 `.bak-20260816` 保留
+
+**Q&A 冒烟证据**：08-16 18:05 CLI 提问 → agent 直接作答（api_calls=1、tool_turns=0、response_len=967 chars）——行为签名正确（从继承记忆作答，非重读文件）。
+
+**状态**：物理已交付 + 冒烟已执行且行为正确；日志只记 metadata 未记正文，“答对”最终判定归欧阳锋（可抽 state.db 会话原文，或认可 967 字直接作答为通过）。
+

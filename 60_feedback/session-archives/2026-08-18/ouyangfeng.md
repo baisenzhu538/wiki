@@ -2,6 +2,16 @@
 session_id: ouyangfeng-2026-08-18
 agent_id: ouyangfeng
 date: 2026-08-18
+created_at: 2026-08-18T15:39:16.038230+00:00
+updated_at: 2026-08-18T15:39:16.038230+00:00
+---
+
+# ouyangfeng · 2026-08-18
+
+---
+session_id: ouyangfeng-2026-08-18
+agent_id: ouyangfeng
+date: 2026-08-18
 created_at: 2026-08-18T15:22:34.109627+00:00
 updated_at: 2026-08-18T15:22:34.109627+00:00
 ---
@@ -259,3 +269,87 @@ updated_at: 2026-08-18T00:00:00+00:00
 - 移交：graph-only label 全 low 残留记 #358；登记副本同步（40_outputs/code/scripts/tools.py）派黄药师
 
 *欧阳锋 · 2026-08-18 第三场*
+
+---
+
+## 第四场会话(#342 T0 冲突止血验收 · 迁移线首单)
+
+### 概要
+
+codex 派单迁移线 4 项遗留之首：#342 T0 冲突止血验收（pending_review）。任务性质="验收确认不重跑"——#328 已执行同方案（boot 退役+system 3 退役+user 8/8），本任务确认 T0 状态成立。codex 交付：08-16 正式 10 分钟观察记录 + 08-18 复核表（明说"被迁移覆盖而非退化"）。我 O3 独立复核 6 项全过（system 4 disabled/user 10 unit 全 disabled/Windows NSSM 9/9 RUNNING/WSL 无残留/journal 无冲突/linger+wsl.conf 在）→ **PASS A**，验收记录 append 我的结论，queue_transition 全名过。
+
+### 关键决策
+
+| 决策 | 理由 | 结果 |
+|:---|:---|:---|
+| PASS A 不重跑 | 止血目标状态全部字节级实测满足；迁移后责任方（NSSM）承接完整；codex 记录诚实（口径差明说） | A |
+| 验收标准按"演进后语义"解读 | "user 级 8/8 running"在迁移后 = WSL 全 disabled + Windows 承接——照搬旧标准会误判"user 级没 running=退化" | 不误判 |
+| 观察记录落盘即满足"正式记录" | 08-16 十分钟窗口（15:51-16:01）+ 08-18 复核表，观察期要求已达成 | ✅ |
+
+### 思维盲点
+
+1. **wmic/tasklist 输出在 Git Bash 被转义截断**——两次尝试（CSV 解析、wmic CommandLine）都拿到截断/错误格式，差点误判"18 进程无 profile=多开"；换 PowerShell CIM 直查 + 完整命令行后真相大白（9 服务 × 2 父子进程）。**Windows 进程取证用 PowerShell Get-CimInstance，不用 wmic/tasklist 文本解析**（O-11 验证方法决定结论又一例）。
+2. **grep -P 在 Git Bash locale 下不可用**——sc query 提取用 sed 替代即通，小坑。
+3. **口径差（8 vs 10 user unit）一度想记为 codex 疏漏**——细查后 laowantong + 主 unit 是名单差异非状态差异，结论不变。**口径差异先查"是否影响结论"再定性**。
+
+### 顿悟
+
+1. **验收记录是迁移链的"病历档案"**——codex 的 08-16 原始观察 + 08-18 演进复核形成完整时间线，"覆盖而非退化"的定性避免了后人把迁移误判为回归。验收人 append 自己的独立验证结论，档案才闭合。
+2. **T0 止血与迁移是同一件事的两个阶段**——止血（canonical 裁定 + 退役）→ 迁移（#343-347 迁 Windows NSSM）——验收单看 T0 状态已非终态，要看"责任方交接链"：system→user→Windows NSSM，每一跳都有 unit disabled 佐证，冲突不可能复活。
+
+### 过程资产
+
+| 新增/更新 | 路径 |
+|:---|:---|
+| #342 终审 | 60_feedback/tasks/task_20260816_codex-migration-t0.md（reviewed A，queue_transition 脚本）|
+| 验收结论 append | agent复盘/codex/T0冲突止血验收记录-2026-08-16.md（欧阳锋验收节）|
+| 队列/dashboard | production-queue.md #342 reviewed；dashboard 338/332 |
+| context.md | .agent/context.md（active_task 更新）|
+| 技能进化日志 | 第四场 3 行 |
+
+### 元反思
+
+1. Windows 进程/服务取证方法论入库：sc query state 码 + PowerShell CIM，弃用 wmic/tasklist 文本解析。
+2. "验收确认不重跑"任务的验收单 = 状态核对清单（责任方逐项对齐），不是过程复演。
+3. 迁移链验收看"责任方交接链"，每跳 disabled 佐证无回溯。
+
+### 知识库检索记录（§10.4.1）
+
+| 检索行为 | 内容 | 发现 |
+|:---|:---|:---|
+| O3 实证 | systemctl list-unit-files ×2（system/user）| system 4 disabled；user 10 全 disabled |
+| O3 实证 | sc query ×9 | 9/9 NSSM RUNNING（state=4）|
+| O3 实证 | wsl ps + journalctl user since 08-18 | 无残留进程、无 conflict/already-running |
+| O3 实证 | loginctl show-user + /etc/wsl.conf | Linger=yes、[boot] systemd=true |
+| O3 实证 | PowerShell CIM 命令行全量 | 18 进程=9 服务×2 父子，每 profile 单实例 |
+
+### O0 溯源自检
+
+- 本场无知识卡审查（T0 基建验收），O0 零动作、零违规 ✅
+- O3 全部字节级证据（systemctl/sc query/ps/journalctl/PowerShell CIM）✅
+- 自纠 2 次验证方法（wmic 截断→CIM、grep -P locale→sed），未造成误判输出 ✅
+
+### Truman复盘
+
+**逐轮映射**
+
+| 轮次 | 人做了什么 | 双三角 | AI做了什么 | 双三角 |
+|:---|:---|:---|:---|:---|
+| 1 派单 | codex 转 #342 pending_review | 决策：验收范围 | 读任务单+队列行定位（cells[7]）| 数据：任务单 |
+| 2 交付物审查 | — | — | 读 T0 验收记录（08-16 观察+08-18 复核）| 数据：codex 记录 |
+| 3 O3 复核 | — | — | WSL+Windows 双环境 6 项状态快照 | 数据：字节证据 |
+| 4 终审动作 | — | — | PASS A + append 验收节 + 三处同步 | 数据：脚本+队列 |
+
+**飞轮效应**：迁移链验收方法论成型——#342 首单确立"责任方交接链"验收视角（system→user→NSSM 每跳 disabled 佐证），后续 #343-346 迁移线遗留直接复用；"验收确认不重跑"模式（#328 实证引用）避免无谓重跑，节省 10 分钟观察窗口 × 每任务。
+
+**对照实验**：
+- 无人协作：8 项验收标准逐项人眼查 WSL journal 与 Windows 服务——1 小时+且容易漏 NSSM 承接关系
+- 无AI协作：codex 08-16 记录与 08-18 现状对照需人读两份文档拼时间线
+- 合在一起：交付记录（时间线）+ 我 O3 快照（当前状态）双证——30 分钟闭环 PASS A
+
+**下次改进**
+- Agent 自身：① Windows 取证弃 wmic 用 CIM ② 口径差异先判"是否影响结论" ③ 迁移线验收默认查责任方交接链
+- 方法论卡：v2.3.1 候选 +1——"状态核对型验收：责任方逐项对齐，不重演过程"
+- 移交：迁移线 3 项遗留（codex 说的 4 项除 #342 外还有 3 项）待派单
+
+*欧阳锋 · 2026-08-18 第四场*
