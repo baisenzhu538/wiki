@@ -11,6 +11,7 @@
 import argparse
 import json
 import os
+import re
 import sys
 import urllib.request
 from datetime import date
@@ -94,7 +95,35 @@ def knowledge_ize(transcript_md: Path, output_path: Path | None = None) -> bool:
         return False
 
     transcript = transcript_md.read_text(encoding="utf-8")
-    title = transcript_md.stem.replace("src_wechat_", "").replace("_", " ")
+    # 友好标题：tt_ → 头条视频、article_ → 文章；hash 段太丑，尝试从逐字稿内容提取第一句做标题
+    stem = transcript_md.stem.replace("src_wechat_", "")
+    src_kind = "wechat-video"
+    if stem.startswith("tt_"):
+        src_kind = "toutiao-video"
+    elif stem.startswith("article_tt_"):
+        src_kind = "toutiao-article"
+    elif stem.startswith("article_"):
+        src_kind = "wechat-article"
+    title = stem
+    # 从逐字稿/文章正文提取真实标题：
+    #   1) 优先取 markdown 一级标题（文章通常 # 真标题；视频的 # 逐字稿太泛，跳过）
+    #   2) 文章取第一个 # 标题
+    #   3) 视频取第一个 [MM:SS] 时间戳行的口播内容
+    md_title = ""
+    for line in transcript.splitlines():
+        s = line.strip()
+        if s.startswith("# ") and "逐字稿" not in s[:20]:
+            md_title = s.lstrip("# ").strip()
+            break
+    if md_title:
+        title = md_title[:50]
+    else:
+        for line in transcript.splitlines():
+            s = line.strip()
+            m = re.match(r"^\[\d+:\d+\]\s*(.+)$", s)
+            if m:
+                title = m.group(1).strip()[:50]
+                break
 
     api_key = get_api_key()
     if not api_key:
@@ -124,7 +153,7 @@ def knowledge_ize(transcript_md: Path, output_path: Path | None = None) -> bool:
 title: "{title}"
 type: case
 status: draft
-domain: wechat-video
+domain: {src_kind}
 source_refs:
 - 00_inbox/wechat-collect/{transcript_md.name}
 created_at: {date.today().isoformat()}
@@ -132,7 +161,7 @@ created_at: {date.today().isoformat()}
 
 # {title}
 
-> 视频号逐字稿知识化 · 楚门三层次框架
+> 偶遇采集内容知识化 · 楚门三层次框架
 
 ## 事实（客观信息）
 

@@ -30,6 +30,7 @@ import time
 import urllib.parse
 import urllib.request
 import zstandard
+from html import unescape as html_unescape
 from pathlib import Path
 
 # 系统代理(MITM 工具)会拦 API 直连——LLM/解析调用必须绕过代理
@@ -101,8 +102,9 @@ XML_MEDIA_URL = re.compile(r"<url>(https?://wxapp\.tc\.qq\.com/[^<]*stodownload\
 # 公众号文章链接（纯文本 + 卡片 XML url；路径式 /s/xxx 和查询式 /s?__biz= 都要匹配）
 MP_LINK = re.compile(r"https?://mp\.weixin\.qq\.com/s[/?][^\s\"'<>]+")
 XML_MP_URL = re.compile(r"<url>(https?://mp\.weixin\.qq\.com/s[/?][^<]*)</url>")
-# 今日头条视频链接（m.toutiao.com/video/xxx 或 www.toutiao.com/video/xxx）
-TTOUTIAO_LINK = re.compile(r"https?://(?:m|www)\.toutiao\.com/video/\d+")
+# 今日头条链接（视频 + 图文文章）：m.toutiao.com/video/xxx（视频）、m.toutiao.com/group/xxx（文章旧格式）、
+# m.toutiao.com/isXXX/（微信分享短链，重定向到 /group/ 或 /article/）、m.toutiao.com/article/xxx（文章新格式）
+TTOUTIAO_LINK = re.compile(r"https?://(?:m|www)\.toutiao\.com/(?:video|group|article|is)[^\s\"'<>]+")
 
 
 def extract_links(cutoff_ts: int) -> list:
@@ -243,6 +245,59 @@ def parse_toutiao(url: str) -> dict | None:
     return None
 
 
+def fetch_toutiao_article(url: str) -> tuple:
+    """抓头条图文文章 → (标题, 正文纯文本)。
+
+    支持链接形态：
+      - m.toutiao.com/group/<gid>/ （旧格式文章）
+      - m.toutiao.com/article/<gid>/（新格式文章）
+      - m.toutiao.com/isXXX/        （微信分享短链 → 跟随 302 拿到 gid）
+    链路：提取 gid → m.toutiao.com/i<gid>/info/ → data.content(HTML) → 清洗为纯文本。
+    与 parse_toutiao（视频）共用 info 接口，靠 content 字段区分文章/视频。
+    """
+    import re as _re
+    # 1) 短链 isXXX → 跟随重定向拿最终 URL（含 gid）
+    m = _re.search(r"m\.toutiao\.com/is([A-Za-z0-9]+)", url)
+    if m:
+        try:
+            opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)"})
+            with opener.open(req, timeout=30) as resp:
+                url = resp.geturl()
+        except Exception as e:
+            print(f"  ⚠️ 头条短链跟随失败: {str(e)[:100]}")
+            return "", ""
+    # 2) 提取 gid（/group/<gid>/ 或 /article/<gid>/）
+    m = _re.search(r"/(?:group|article)/(\d+)", url)
+    if not m:
+        print(f"  ⚠️ 无法从头条链接提取文章 gid: {url[:80]}")
+        return "", ""
+    gid = m.group(1)
+    # 3) info 接口
+    try:
+        opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+        hdr = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)"}
+        req = urllib.request.Request(f"https://m.toutiao.com/i{gid}/info/", headers=hdr)
+        with opener.open(req, timeout=30) as resp:
+            info = json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        print(f"  ⚠️ 头条文章 info 调用失败: {str(e)[:100]}")
+        return "", ""
+    data = info.get("data") or {}
+    if not data.get("content"):
+        print(f"  ⚠️ 头条文章无正文（可能为视频或已删）: {url[:80]}")
+        return "", ""
+    title = data.get("title", "")
+    body = _re.sub(r"<[^>]+>", "\n", data["content"])
+    body = _re.sub(r"\n{3,}", "\n\n", body).strip()
+    # HTML 实体（&amp; &quot; &#34; 等）转回纯文本
+    try:
+        body = html_unescape(body)
+    except Exception:
+        pass
+    return title, body
+
+
 def fetch_mp_article(url: str) -> tuple:
     """抓公众号文章 → (标题, 正文文本)（无代理直连，MITM 代理会拦 https）。"""
     opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
@@ -344,8 +399,24 @@ def main():
                 f.write(url + "\n")
             continue
 
-        # 今日头条视频：解析成功 → info 复用下方下载流程
+        # 今日头条：区分图文文章 vs 视频
+        #   文章形态：/group/<gid>/、/article/<gid>/、/isXXX/（短链）→ 直接抓正文入库
+        #   视频形态：/video/<gid>/ → parse_toutiao 解析直链走视频管线
         if "toutiao.com" in url:
+            if "/video/" not in url:
+                title, body = fetch_toutiao_article(url)
+                if not body:
+                    print("  ⚠️ 头条文章抓取失败——已记录，不再重试")
+                    with open(SEEN_FILE, "a", encoding="utf-8") as f:
+                        f.write(url + "\n")
+                    continue
+                stem = hashlib.md5(url.encode()).hexdigest()[:16]
+                out_md = INBOX_DIR / f"src_wechat_article_tt_{stem}.md"
+                out_md.write_text(f"# {title or url}\n\n> 来源: {url}（今日头条·偶遇转发）\n\n{body[:30000]}\n", encoding="utf-8")
+                print(f"  ✅ 头条文章入库: {out_md}（{len(body)} 字）")
+                with open(SEEN_FILE, "a", encoding="utf-8") as f:
+                    f.write(url + "\n")
+                continue
             info = parse_toutiao(url)
             if not info:
                 print("  ⚠️ 头条解析失败——已记录，不再重试")

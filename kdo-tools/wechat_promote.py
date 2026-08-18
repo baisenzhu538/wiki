@@ -29,9 +29,10 @@ CASES_DIR = WIKI / "30_wiki" / "cases"
 def promote_transcript(f: Path, dry_run: bool) -> bool:
     """逐字稿 → 10_raw/sources/（文件名带 source_id：src_<date>_wechat_<hash>）。
 
-    支持前缀：src_wechat_<hash> / src_wechat_tt_<hash>（头条视频）/ src_wechat_article_<hash>（公众号）。
+    支持前缀：src_wechat_<hash> / src_wechat_tt_<hash>（头条视频）/ src_wechat_article_<hash>（公众号）
+    / src_wechat_article_tt_<hash>（头条文章）。任意小写前缀均可，取最后一段字母数字为 hash。
     """
-    m = re.search(r"src_wechat_(?:(?:tt|article|text|link)_)?([A-Za-z0-9]{8,20})", f.name)
+    m = re.search(r"src_wechat_(?:[A-Za-z]+_)*([A-Za-z0-9]{8,20})", f.name)
     if not m:
         return False
     hash_id = m.group(1)

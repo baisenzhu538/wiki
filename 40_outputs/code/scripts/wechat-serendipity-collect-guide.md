@@ -57,6 +57,16 @@
 | WSL 转写 | `/home/dministrator/wechat-collect/transcribe.py` | faster-whisper（tiny，GPU CUDA，CPU fallback） |
 | 计划任务 | `wx-channels-download`（登录自启）+ `wechat-link-monitor`（每 10 分钟） | 无人值守固化 |
 
+## 支持通道（2026-08-19 扩展：视频号/公众号/头条视频/头条文章四通道）
+
+| 通道 | 链接形态 | 解析方式 | 产物命名 |
+|:--|:--|:--|:--|
+| 视频号 | `weixin.qq.com/sph/xxx` | parse_sph（元宝 Cookie） | `src_wechat_<hash>.md` |
+| 视频号卡片直链 | XML 自带直链 | 播放拦截兜底（加密视频） | `src_wechat_<hash>.md` |
+| 公众号文章 | `mp.weixin.qq.com/s/...`（纯文本/卡片） | 抓 HTML 正文（`&amp;` 已转义） | `src_wechat_article_<hash>.md` |
+| 头条视频 | `m.toutiao.com/video/xxx` | info API → vod 直链 | `src_wechat_tt_<hash>.md` |
+| 头条文章 | `m.toutiao.com/group/xxx`、`/article/xxx`、`/isXXX/` 短链 | info API → content 纯文本 | `src_wechat_article_tt_<hash>.md` |
+
 ---
 
 ## 四、部署清单（从零到可用，约 30 分钟）

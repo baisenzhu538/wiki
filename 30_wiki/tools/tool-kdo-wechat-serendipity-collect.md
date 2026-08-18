@@ -86,8 +86,9 @@ diagnostic_signals:
 | 通道 | 链接格式 | 解析方式 |
 |:--|:--|:--|
 | 视频号 | `weixin.qq.com/sph/xxx`（复制链接） | parse_sph（元宝 Cookie）→ finder.video.qq.com 直链 |
-| 今日头条 | `m.toutiao.com/video/xxx` | info API → token → vod.bytedanceapi.com 直链 |
-| 公众号 | `mp.weixin.qq.com/s/...` | 抓文章正文入库 |
+| 今日头条视频 | `m.toutiao.com/video/xxx` | info API → token → vod.bytedanceapi.com 直链 |
+| 今日头条文章 | `m.toutiao.com/group/xxx`、`/article/xxx`、`/isXXX/` 短链 | info API → content HTML → 纯文本入库 |
+| 公众号文章 | `mp.weixin.qq.com/s/...` | 抓 HTML 正文入库 |
 
 > ⚠️ 视频号"直接转发卡片"无解析入口（微信设计），需电脑播放拦截（兜底）。
 
