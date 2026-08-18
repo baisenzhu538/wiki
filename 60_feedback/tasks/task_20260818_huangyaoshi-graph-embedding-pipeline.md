@@ -1,8 +1,8 @@
 ---
 id: 358
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-18T15:30:00+00:00'
+status: pending_review
+updated_at: '2026-08-19T00:30:00+00:00'
 title: graph 向量库空（chunks_vdb 无向量）引擎层排查（P1）——graph score 全 0.00 + 同文件重复结果
 priority: P1
 dependency: []
@@ -52,3 +52,35 @@ reviewed_by: 欧阳锋
 
 1. 断点定位 + 修复 + 重建证据
 2. 送欧阳锋终审
+
+## 执行记录（2026-08-19 黄药师，已提审）
+
+### 断点定位（三视角全部实锤）
+
+1. **向量数据其实在**：vdb_chunks.json 10776 条 + embedding_dim=384 + matrix base64 解码 4137984 = 10776×384 float32 非零——NanoVectorDB 直接加载成功（`Load (10776, 384) data`）。"向量库空"是**读取路径问题**不是写入问题。
+2. **根因 A（chunk 关联断链）**：KDO `_build_custom_kg` entity/relation 的 `source_id = "entity:<title>"`，LightRAG `insert_custom_kg` 用 `chunk_to_source_map.get(source_chunk_id)`（map key 只有 `chunk:` 前缀）→ 全部落 `"UNKNOWN"` → 查询 `get_vectors_by_ids(["UNKNOWN"])` 匹配 0 → WEIGHT 兜底。graphml 实证 2105/4442 entity 的 source_id=UNKNOWN。
+3. **根因 B（重建残留）**：`insert_custom_kg` 不清旧存储——重建是"追加"不是"替换"（旧 4442 nodes = 旧 entity 残留 + 新）。且 LightRAG 向量选择**严格等长检查**（found 7 but expecting 8 → 整体回退）——1 个 UNKNOWN 拖垮全部。修复：`--full` 前先删 graph_index（已改 rebuild 流程文档，删除后重建 3439 nodes 干净）。
+4. **根因 C（score 字段缺失）**：LightRAG 新版 chunk 返回字段 `[reference_id, content, file_path, chunk_id]`——无 `score`！`c.get("score", 0)` 永远 0。所有"score 全 0"观察 = 字段过时（叠加 A/B）。修复：无 score 时用返回序 rank 降序作 score 代理（RRF 只需序）。
+5. **根因 D（循环内崩溃）**：`_get_rag` 初始化 `new_event_loop+run_until_complete` 在 running loop 内崩（`Cannot run the event loop while another loop is running`）；且线程隔离方案在连续查询时卡死（embedding worker 跨 loop 绑定）。修复：`_aget_rag` async 初始化（查询 loop 内 await）+ tools.search 全面 async 化 + warmup 并入 anyio 主 loop。
+
+### 修复清单
+
+| 文件 | 改动 |
+|:--|:--|
+| `kdo/commands/graph.py` | entity/relation source_id → `chunk:<title>:0`；新增 `_aget_rag`（async 初始化，查询 loop 内 await） |
+| `kdo/commands/delivery.py` | `_aquery_graph` async（rank 代理 score + 按文件去重 + except 打 stderr）；同步入口 asyncio.run |
+| `kdo-tools/mcp/tools.py` | `search` 改 async（await `_aquery_graph`）；max_score=0 → label "unknown" |
+| `kdo-tools/mcp/server.py` | handler `await search`；warmup 与 `run_stdio_async` 同一 anyio loop |
+
+### 验证（全过）
+
+- graph 独立查询：scores [5,4,3,2,1]（rank 代理）无 "no vectors retrieved" warning、dup=0
+- MCP 同构（anyio 同 loop + warmup）：5 例中文查询全部 engine=hybrid RRF、0.1s/查询、n=3 全命中（偶遇采集/需求真伪/To B 五步法/单元模型/增长渠道）
+- CLI 同步路径回归：graph n=5、bm25 n=5 不受影响
+- 已重建 graph_index（2349 页/5080 chunks，先删后建，备份 `graph_index.bak_20260818` 保留待终审后清）
+- commit：KDO `7d4fb3e`；wiki 侧 tools.py/server.py 由 vault backup `543011deb` 收净（自动备份机制，message 非主题化）
+
+### 遗留
+
+- `master-moc.md` 单文件非 UTF-8（其余 2824 个 .md 全部干净 UTF-8）——建议单独转码任务
+- graphml/vdb 内已有索引含 GBK 乱码 content（历史重建残留）——本次重建后新索引正常，旧乱码随下次重建自然清除
