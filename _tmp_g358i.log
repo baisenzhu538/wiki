@@ -1,0 +1,53 @@
+<string>:57: UserWarning: WARNING: log_level parameter is deprecated, use setup_logger in utils.py instead
+INFO: [] Loaded graph from C:\Users\Administrator\Desktop\wiki\.kdo\graph_index\graph_chunk_entity_relation.graphml with 3439 nodes, 5825 edges
+INFO:nano-vectordb:Load (2337, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_entities.json'} 2337 data
+INFO:nano-vectordb:Load (5825, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_relationships.json'} 5825 data
+INFO:nano-vectordb:Load (5055, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_chunks.json'} 5055 data
+C:\Users\Administrator\Desktop\wiki\kdo-tools\mcp\tools.py:227: RuntimeWarning: coroutine 'LightRAG.initialize_storages' was never awaited
+  return {"results": [], "engine": "error", "error": str(e), "query": query}
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+warmup: 4.3s engine=error
+<string>:57: UserWarning: WARNING: log_level parameter is deprecated, use setup_logger in utils.py instead
+INFO: [] Loaded graph from C:\Users\Administrator\Desktop\wiki\.kdo\graph_index\graph_chunk_entity_relation.graphml with 3439 nodes, 5825 edges
+INFO:nano-vectordb:Load (2337, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_entities.json'} 2337 data
+INFO:nano-vectordb:Load (5825, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_relationships.json'} 5825 data
+INFO:nano-vectordb:Load (5055, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_chunks.json'} 5055 data
+偶遇采集方法论: engine=error n=0 dt=0.8s
+INFO: [] Loaded graph from C:\Users\Administrator\Desktop\wiki\.kdo\graph_index\graph_chunk_entity_relation.graphml with 3439 nodes, 5825 edges
+INFO:nano-vectordb:Load (2337, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_entities.json'} 2337 data
+INFO:nano-vectordb:Load (5825, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_relationships.json'} 5825 data
+INFO:nano-vectordb:Load (5055, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_chunks.json'} 5055 data
+如何判断需求真伪: engine=error n=0 dt=0.9s
+INFO: [] Loaded graph from C:\Users\Administrator\Desktop\wiki\.kdo\graph_index\graph_chunk_entity_relation.graphml with 3439 nodes, 5825 edges
+INFO:nano-vectordb:Load (2337, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_entities.json'} 2337 data
+INFO:nano-vectordb:Load (5825, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_relationships.json'} 5825 data
+INFO:nano-vectordb:Load (5055, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_chunks.json'} 5055 data
+To B 销售五步法: engine=error n=0 dt=0.9s
+INFO: [] Loaded graph from C:\Users\Administrator\Desktop\wiki\.kdo\graph_index\graph_chunk_entity_relation.graphml with 3439 nodes, 5825 edges
+INFO:nano-vectordb:Load (2337, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_entities.json'} 2337 data
+INFO:nano-vectordb:Load (5825, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_relationships.json'} 5825 data
+INFO:nano-vectordb:Load (5055, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_chunks.json'} 5055 data
+单元模型是什么: engine=error n=0 dt=1.0s
+INFO: [] Loaded graph from C:\Users\Administrator\Desktop\wiki\.kdo\graph_index\graph_chunk_entity_relation.graphml with 3439 nodes, 5825 edges
+INFO:nano-vectordb:Load (2337, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_entities.json'} 2337 data
+INFO:nano-vectordb:Load (5825, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_relationships.json'} 5825 data
+INFO:nano-vectordb:Load (5055, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_chunks.json'} 5055 data
+增长渠道有哪些: engine=error n=0 dt=0.9s

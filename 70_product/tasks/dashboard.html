@@ -63,10 +63,10 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-19 00:02</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-19 00:19</p>
 
 <div class="stats">
-<div class="stat queued"><div class="stat-num">4</div><div class="stat-label">待领取 Queued</div></div>
+<div class="stat queued"><div class="stat-num">12</div><div class="stat-label">待领取 Queued</div></div>
 <div class="stat pending"><div class="stat-num">3</div><div class="stat-label">审查中 Review</div></div>
 <div class="stat active"><div class="stat-num">0</div><div class="stat-label">进行中 Active</div></div>
 <div class="stat done"><div class="stat-num">333</div><div class="stat-label">已完成 Done</div></div>
@@ -156,6 +156,94 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-id">#361</div>
 <div class="task-title">kdo MCP 修复生效收口（P1，小昭第四轮发现）：KDO 仓 23:44 改动 commit（delivery 去重+graph 待说明）+ 9 gateway 滚动重启（现跑 21:41 旧代码）+ 真机消费层回归</div>
 <div class="task-detail">终审通过≠生产生效；重启安全性有 #356 0.9s 冷加载+#355 warmup 兜底；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#362</div>
+<div class="task-title">终审协议加"版本对齐核验"硬项（P1）：代码类任务终审三问（git含commit/生产跑这版/真相源一致）——治 08-18 三连快照事故+#357 终审通过但生产未生效</div>
+<div class="task-detail">王语嫣起草+欧阳锋确认生效（跨角色四要素写死）；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee wangyuyan">王语嫣</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#363</div>
+<div class="task-title">queue_transition 提审门禁（P1）：代码类任务提审强制 git 收净（双仓）+ 修 complete --force 锁内重检 bug</div>
+<div class="task-detail">治"修复不 commit"复发；friction-log 2026-08-19 已记 bug；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p2">P2</div>
+<div class="task-info">
+<div class="task-id">#364</div>
+<div class="task-title">health-check 巡检加漂移检测（P2）：进程版本 vs 最新 commit + 双索引同步态——治小昭第四轮发现的长驻进程跑旧码</div>
+<div class="task-detail">依赖 #361 拉齐基线；只读报警不自动修；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p0">P0</div>
+<div class="task-info">
+<div class="task-id">#365</div>
+<div class="task-title">记忆注册表 memory-registry.md（P0→P1，codex 建议书①采纳）：唯一真相源/派生副本/命名规范/废弃清单四张表——回答"该读哪份、哪份是最新"</div>
+<div class="task-detail">codex 记忆一致性审计 P0；王语嫣起草+黄药师会审；纯文件零代码；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee wangyuyan">王语嫣</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#366</div>
+<div class="task-title">CAPSULE_STARTUP 升级统一启动指针（P1，codex②采纳）：version/git_head/队列尾四字段+角色路由——治入口多+角色识别脆弱</div>
+<div class="task-detail">各入口收敛为薄壳不删文件；git_head 不一致=停下；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p2">P2</div>
+<div class="task-info">
+<div class="task-id">#367</div>
+<div class="task-title">双轨目录冻结+归档（P2，codex③采纳·assignee 修正黄药师）：拼音/中文目录收敛拼音唯一轨，旧轨 DEPRECATED 观察 7 天再归档</div>
+<div class="task-detail">基建单一实例纪律；dry-run+git diff 留痕零误删；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p2">P2</div>
+<div class="task-info">
+<div class="task-id">#368</div>
+<div class="task-title">复盘范式合并定标（P2，codex④采纳）：Truman 10 章唯一直写+认知档案派生关系全厂化——消灭"两套都叫复盘无定义"</div>
+<div class="task-detail">王语嫣已验证规则全厂化；不动历史文件；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee wangyuyan">王语嫣</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p3">P3</div>
+<div class="task-info">
+<div class="task-id">#369</div>
+<div class="task-title">派生脚本化+写入唯一入口（P3，codex⑤采纳）：daily-context-save 收口+派生物全脚本生成带版本标记+手改检测</div>
+<div class="task-detail">MCP memory get/set 为可选评估项不实施；欧阳锋终审</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
@@ -441,6 +529,6 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-19 00:02</footer>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-19 00:19</footer>
 </body>
 </html>
