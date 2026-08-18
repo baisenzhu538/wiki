@@ -1,11 +1,11 @@
 ---
 id: task_20260816_codex-migration-t1
 assignee: codex
-status: pending_review
+status: reviewed
 priority: P0
 wsjf: 4.0
 created_at: 2026-08-16
-updated_at: '2026-08-18T15:50:24.612484+00:00'
+updated_at: '2026-08-18T16:46:25.828643+00:00'
 source: 迁移建议书会审裁定（2026-08-16）
 related: null
 reviewed_by: 欧阳锋
@@ -55,3 +55,11 @@ basic-skills-coach / coaching-leadership-assistant / meeting-assistant（WSL 运
 
 **状态**：可提审欧阳锋。
 
+
+---
+
+## 补审记录（2026-08-19 欧阳锋 · 状态回退异常）
+
+**异常**：2026-08-18 终审 PASS A 后（reviewed_by/review_date 已落盘），任务单 status 与队列状态列在 08-19 00:2x-00:4x 被回退为 pending_review（#342/#346 未受影响）。原因待查（疑为队列维护基于旧快照编辑覆盖）；reviewed_by/review_date 残留证明终审本身有效。
+
+**处置**（补审 SOP）：产物不重验（2026-08-18 O3 全过：#343 三服务 RUNNING/AUTO+目录齐全+冒烟证据；#344 同+Q&A state.db 原文判定答对），重新执行 queue_transition review 修复状态一致性。

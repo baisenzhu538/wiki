@@ -1,12 +1,14 @@
 ---
 id: 365
 assignee: wangyuyan
-status: pending_review
-updated_at: '2026-08-18T16:35:00.788110+00:00'
+status: reviewed
+updated_at: '2026-08-18T16:47:13.271119+00:00'
 title: 记忆注册表 memory-registry.md（P0，codex 建议书①采纳）——唯一真相源/派生副本/命名规范/废弃清单四张表
 priority: P1
 dependency: []
 reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # #365 记忆注册表 memory-registry.md（P0）

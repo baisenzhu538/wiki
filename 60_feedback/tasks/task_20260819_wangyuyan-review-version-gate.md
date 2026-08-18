@@ -1,12 +1,14 @@
 ---
 id: 362
 assignee: wangyuyan
-status: pending_review
-updated_at: '2026-08-18T16:33:23.459852+00:00'
+status: reviewed
+updated_at: '2026-08-18T16:47:13.062502+00:00'
 title: 终审协议加"版本对齐核验"硬项（P1）——代码类任务终审必查 git commit + 生产生效 + 真相源一致
 priority: P1
 dependency: []
 reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # #362 终审协议加"版本对齐核验"硬项（P1）

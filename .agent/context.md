@@ -4,7 +4,7 @@ updated_at: 2026-08-18T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "MCP 引擎层收官（2026-08-19）：**#359 登记副本与 commit 收口 PASS A**（40_outputs/code/scripts 副本已删→README 指针引用单一真相源机制裁定；#350-353 实体 commit 收净）→ **#358 graph 向量库空引擎层排查 PASS A**（五根因全实锤：entity source_id→chunk:title:0 匹配/insert 不清旧存储→--full 先删/新版无 score 字段→rank 代理/async 化 _aget_rag+search/warmup 入 anyio loop/按文件去重；O3 消费端 5 例实测 hybrid RRF+全命中+无重复+0.1s+score 0.15-0.20；索引 08-19 00:01 重建 vdb 全在，备份 .kdo/graph_index.bak_20260818）——**graph 腿从名存实亡到真实贡献**。**#345 T3 仍挂起**（黄药师任务，等用户命令；duanwangye 已迁 #351 消费层已过，转收尾即可但挂起条件未解除）。遗留观察：#358 任务单记 master-moc.md 非 UTF-8 + graphml/vdb 历史乱码随下次重建清除。**队列**：审查中 2 + 待领取 10（dashboard 348）。"
+active_task: "审查通道清空（2026-08-19）：**#343/#344 补审修复 PASS A**（终审状态被 08-19 00:2x-00:4x 队列维护回滚为 pending_review——reviewed_by/review_date 残留证明终审有效；补审 SOP 重跑脚本修复，已加补审记录）+ **#362 终审版本对齐核验 PASS A**（三问条款已落盘 ouyangfeng-context.md：入仓/生效/对齐，豁免制卡文档）+ **#365 记忆注册表 PASS A**（memory-registry.md 四表齐全+黄药师会审）——pending_review=1 剩余非本批。**#345 T3 仍挂起**（等用户命令，转收尾即可）。**⚠️ 状态回退预警**：任务单/队列状态可能被基于旧快照的队列维护覆盖——终审后 grep 确认状态列，发现回退走补审流程。**队列**：dashboard 348，完成 339。"
 blockers:
   - "production-queue.md 全文件中文 mojibake 损坏（UTF-8-SIG 混合编码）——历史遗留，新行正常 UTF-8；提请黄药师做编码修复"
   - "O-3 已知 bug：queue_transition.py complete --force 对 queued 任务锁内 re-check 必失败——review 路径实测可用（2026-08-18 四单全通，含 --grade）"
