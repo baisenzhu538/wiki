@@ -1,13 +1,16 @@
 ---
 id: task_20260816_codex-migration-t4
 assignee: codex
-status: pending_review
+status: reviewed
 priority: P2
 wsjf: 1.5
 created_at: 2026-08-16
-updated_at: '2026-08-18T15:50:46.166996+00:00'
+updated_at: '2026-08-18T16:02:19.887787+00:00'
 source: 迁移建议书会审裁定（2026-08-16）
 related: null
+reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # T4 过渡 profile 归档/停用（#346 · P2 停车场）
@@ -41,3 +44,17 @@ duan（废弃，#325 确认）/ kimi-test（测试 profile）——**note-coach 
 
 **状态**：duan/kimi-test 归档完成，可提审；**note-coach 位置/激活状态待明确**（迁 AppData\Local 并激活，还是“保留即归档旧目录”）——需用户/王语嫣拍板。
 
+
+---
+
+## note-coach 拍板与归档（2026-08-19 欧阳锋执行 · 用户拍板）
+
+**身份确认**：note-coach = 「清单体笔记教练」（P 角色实践者，编译自一堂《AI时代清单体笔记》方法论，SOUL v1.0.0 2026-06-07）。非会议助理（meeting-assistant 是独立 profile，已在 #343 迁 Windows NSSM）。
+
+**用户拍板（2026-08-19）**：归档（推荐项）——40 天零活跃、未服务化、仅 config 残留。
+
+**执行（欧阳锋代执行，codex 不在场，用户授权最小机械操作）**：
+- `mv C:\Users\Administrator\.hermes\profiles\note-coach → C:\Users\Administrator\.hermes\profiles_archive\note-coach`（未删，回滚 = mv 回去）
+- 原位已无、归档目录存在 ✓
+
+**三处 profile 去向全部闭环**：duan ✅ / kimi-test ✅（codex 已归档 WSL 侧）/ note-coach ✅（用户拍板归档）——均可回滚（未真删）。

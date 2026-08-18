@@ -4,7 +4,7 @@ updated_at: 2026-08-18T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "#342 T0 冲突止血验收 PASS A（2026-08-18）：codex 正式观察记录（08-16 十分钟窗口+08-18 复核表）O3 独立复核全过——system 4 unit disabled/user 级全 disabled（Windows NSSM 9/9 RUNNING 承接）/WSL 无残留/journal 无冲突/linger+wsl.conf 常驻项在——T0 被迁移覆盖而非退化，#328 实证不重跑成立。队列 pending_review=0；dashboard 338/332。**🟢 队列**：#358 queued（graph 向量库空引擎层）+ codex 迁移线 3 项待派（#343-346 已演进覆盖？）。**版本分裂教训**：kdo-tools/mcp/tools.py（活）vs 40_outputs/code/scripts/tools.py（登记副本）不同步——修复需同步登记副本（E034 家族）。"
+active_task: "迁移线收官（2026-08-19）：#342 T0 验收 PASS A + #343 T1 三慢组合 PASS A + #344 T2 核心角色 PASS A（Q&A 抽 state.db 原文判定答对：身份/任务/纪律 8 条全真实）+ #346 T4 过渡归档 PASS A（duan/kimi-test 已归档，note-coach 用户拍板归档→我代执行 mv 到 profiles_archive）——迁移链 4 单全闭环，Windows NSSM 9 服务承接。队列：#359 pending_review（黄药师 registry-copy-closure）+ #358 queued（graph 引擎层）。**流转路径实证**：claim --force → complete → review 三连可用（complete --force 直接跳有 O-3 锁 bug 用 claim 绕）。**验证纪律新增**：Windows 进程取证用 PowerShell CIM（wmic/tasklist 转义截断坑）；迁移验收查责任方交接链（system→user→NSSM）。"
 blockers:
   - "production-queue.md 全文件中文 mojibake 损坏（UTF-8-SIG 混合编码）——历史遗留，新行正常 UTF-8；提请黄药师做编码修复"
   - "O-3 已知 bug：queue_transition.py complete --force 对 queued 任务锁内 re-check 必失败——review 路径实测可用（2026-08-18 四单全通，含 --grade）"

@@ -1,0 +1,37 @@
+<string>:57: UserWarning: WARNING: log_level parameter is deprecated, use setup_logger in utils.py instead
+INFO: [] Loaded graph from C:\Users\Administrator\Desktop\wiki\.kdo\graph_index\graph_chunk_entity_relation.graphml with 3439 nodes, 5825 edges
+INFO:nano-vectordb:Load (2337, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_entities.json'} 2337 data
+INFO:nano-vectordb:Load (5825, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_relationships.json'} 5825 data
+INFO:nano-vectordb:Load (5055, 384) data
+INFO:nano-vectordb:Init {'embedding_dim': 384, 'metric': 'cosine', 'storage_file': 'C:\\Users\\Administrator\\Desktop\\wiki\\.kdo\\graph_index\\vdb_chunks.json'} 5055 data
+INFO: [] Process 4476 KV load full_docs with 0 records
+INFO: [] Process 4476 KV load text_chunks with 5055 records
+INFO: [] Process 4476 KV load full_entities with 0 records
+INFO: [] Process 4476 KV load full_relations with 0 records
+INFO: [] Process 4476 KV load entity_chunks with 0 records
+INFO: [] Process 4476 KV load relation_chunks with 0 records
+INFO: [] Process 4476 KV load llm_response_cache with 0 records
+INFO: [] Process 4476 doc status load doc_status with 0 records
+INFO: Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+INFO: Query nodes: 如何判断需求真伪 (top_k:5, cosine:0.2)
+INFO: Local query: 5 entites, 18 relations
+INFO: Query edges: 如何判断需求真伪 (top_k:5, cosine:0.2)
+INFO: Global query: 8 entites, 5 relations
+INFO: Naive query: 20 chunks (chunk_top_k:20 cosine:0.2)
+INFO: Raw search results: 12 entities, 20 relations, 20 vector chunks
+INFO: After truncation: 12 entities, 20 relations
+INFO: Selecting 12 from 12 entity-related chunks by vector similarity
+INFO: Find no additional relations-related chunks from 20 relations
+INFO: Round-robin merged chunks: 32 -> 32 (deduplicated 0)
+WARNING: Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+INFO: Final context: 12 entities, 20 relations, 20 chunks
+INFO: Final chunks S+F/O: C1/1 E1/1 C1/2 E1/2 C1/3 E1/3 C1/4 E1/4 C1/5 E1/5 C1/6 E1/6 C1/7 E1/7 C1/8 E1/8 C1/9 E1/9 C1/10 E1/10
+n chunks: 20
+chunk keys: ['reference_id', 'content', 'file_path', 'chunk_id']
+  score= None | file= l-yitang-research-validate-assumption.md
+  score= None | file= iki\concepts\yt-decision-full-process.md
+  score= None | file= op\wiki\30_wiki\tools\tool-泛产品落地-假设拆解.md
+  score= None | file= i\concepts\course-to-skill-conversion.md
+  score= None | file= \30_wiki\concepts\yt-unit-model-build.md
