@@ -1,9 +1,8 @@
 ---
-
 domain:
 - personal-growth
 id: yt-personal-y-model-practice
-title: "Y模型实操：科学成事的底层操作系统"
+title: Y模型实操：科学成事的底层操作系统
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
@@ -20,22 +19,24 @@ query_triggers:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - Y模型实操
-  - Y模型实操：科学成事的底层操作系统
-  - 型实操
-  - 成事的底层操作系统
-  - 科学成事的底层操作系统
+- Y模型实操
+- Y模型实操：科学成事的底层操作系统
+- 型实操
+- 成事的底层操作系统
+- 科学成事的底层操作系统
 source_refs:
 - pending_archive:src_20260614_842be4c9-一堂-Y模型实操探索营
 discoverable_by:
-  - Y模型实操：科学成事的底层操作系统
-  - Y模型实操
-  - 科学成事的底层操作系统
+- Y模型实操：科学成事的底层操作系统
+- Y模型实操
+- 科学成事的底层操作系统
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 模型实操探索营
+type: concept
+status: draft
 ---
 # Y模型实操：科学成事的底层操作系统
 

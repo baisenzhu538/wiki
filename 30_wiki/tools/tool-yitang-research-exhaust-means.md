@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-exhaust-means
 title: 穷尽手段：底线之上，努力拉满
 type: tool
@@ -12,26 +11,26 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: advanced
 estimated_tokens: 3000
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 努力拉满
-  - 底线之上
-  - 穷尽手段
-  - 穷尽手段：底线之上，努力拉满
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 努力拉满
+- 底线之上
+- 穷尽手段
+- 穷尽手段：底线之上，努力拉满
 discoverable_by:
-  - 穷尽手段：底线之上，努力拉满
-  - 穷尽手段
-  - 底线之上，努力拉满
-related:
-tags:
+- 穷尽手段：底线之上，努力拉满
+- 穷尽手段
+- 底线之上，努力拉满
+related: null
+tags: null
 ---
 # 穷尽手段：底线之上，努力拉满
 

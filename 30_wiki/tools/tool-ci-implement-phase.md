@@ -1,31 +1,30 @@
 ---
-
 id: tool-ci-implement-phase
 title: CI Implement 阶段工具：洞见嵌入运营节奏
 type: tool
-domain:
+domain: strategy
 discoverable_by:
-  - CI Implement 阶段工具：洞见嵌入运营节奏
-  - 阶段工具
-  - 洞见嵌入运营节奏
-tags:
+- CI Implement 阶段工具：洞见嵌入运营节奏
+- 阶段工具
+- 洞见嵌入运营节奏
+tags: null
 source_person: Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
 source_context: CI Operating Model Implement 阶段工具化实现
 aliases:
-  - CIImplement阶段工具：洞见嵌入运营节奏
-  - Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
-  - [[framework-yitang-18-strategy-cards]]
-  - [[kdo-protocol-implementation-roadmap]]
-  - [[tool-ci-define-phase]]
-  - [[tool-yitang-research-continuous-tracking]]
-  - [[yt-five-step-implementation]]
-  - 三个新盲区
-  - 外部知识探索
-  - 嵌入运营节奏
-  - 洞见嵌入运营节奏
-  - 阶段工具
-source_refs:
-related:
+- CIImplement阶段工具：洞见嵌入运营节奏
+- Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
+- - - framework-yitang-18-strategy-cards
+- - - kdo-protocol-implementation-roadmap
+- - - tool-ci-define-phase
+- - - tool-yitang-research-continuous-tracking
+- - - yt-five-step-implementation
+- 三个新盲区
+- 外部知识探索
+- 嵌入运营节奏
+- 洞见嵌入运营节奏
+- 阶段工具
+source_refs: null
+related: null
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

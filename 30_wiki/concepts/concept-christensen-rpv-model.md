@@ -7,60 +7,60 @@ domain: strategy
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
-confidence: 0.90
-trust_level: observed
+confidence: 0.9
+trust_level: medium
 aliases:
-  - Christensen
-  - RPP模型
-  - RPV framework
-  - RPV模型
-  - RPV模型：资源/流程/价值观三层组织诊断
-  - Resources Processes Values
-  - src_20260802_创新者的窘境_秦鹏拆书
-  - 一号位
-  - 为优先级标准
-  - 价值观三层组织诊断
-  - 创新者的窘境
-  - 原意为优先级标准
-  - 能力评估
-  - 资源/流程/价值观三层组织诊断
-  - 资源流程价值观
-  - 遵循规模前倾原则设计组织架构
+- Christensen
+- RPP模型
+- RPV framework
+- RPV模型
+- RPV模型：资源/流程/价值观三层组织诊断
+- Resources Processes Values
+- src_20260802_创新者的窘境_秦鹏拆书
+- 一号位
+- 为优先级标准
+- 价值观三层组织诊断
+- 创新者的窘境
+- 原意为优先级标准
+- 能力评估
+- 资源/流程/价值观三层组织诊断
+- 资源流程价值观
+- 遵循规模前倾原则设计组织架构
 source_refs:
-  - 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
-  - Christensen & Overdorf 2000, HBR: Meeting the Challenge of Disruptive Change
-  - Christensen & Raynor 2003, The Innovator's Solution, Ch.7-8
+- 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
+- Christensen & Overdorf 2000, HBR: Meeting the Challenge of Disruptive Change
+- Christensen & Raynor 2003, The Innovator's Solution, Ch.7-8
 related:
-  - framework-christensen-disruptive-innovation
-  - framework-christensen-value-network
-  - framework-decision-science-triangle
-  - tool-遵循规模前倾原则设计组织架构
-  - yt-tool-strategy-workshop
+- framework-christensen-disruptive-innovation
+- framework-christensen-value-network
+- framework-decision-science-triangle
+- tool-遵循规模前倾原则设计组织架构
+- yt-tool-strategy-workshop
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:RPV
-  - scene:组织诊断
-  - scene:能力评估
-  - audience:一号位
-  - audience:组织负责人
-  - content-format:concept
-  - source-person:Christensen
-  - source-person:秦鹏
+- method:RPV
+- scene:组织诊断
+- scene:能力评估
+- audience:一号位
+- audience:组织负责人
+- content-format:concept
+- source-person:Christensen
+- source-person:秦鹏
 discoverable_by:
-  - "RPV模型是什么"
-  - "资源流程价值观分析"
-  - "大公司为什么不能创新"
-  - "组织能力诊断框架"
-  - "Christensen RPV"
+- RPV模型是什么
+- 资源流程价值观分析
+- 大公司为什么不能创新
+- 组织能力诊断框架
+- Christensen RPV
 diagnostic_signals:
-  - signal: "RPV的V存在术语歧义——秦鹏讲'价值观'但Christensen原意为优先级标准"
-    severity: high
-    implication: "必须在卡内显式标注歧义，防止误导"
-  - signal: "RPV是Christensen最被低估的贡献——知名度远低于破坏性创新但组织诊断价值更高"
-    severity: moderate
-    implication: "需要更充分地展示RPV的独立价值"
+- signal: RPV的V存在术语歧义——秦鹏讲'价值观'但Christensen原意为优先级标准
+  severity: high
+  implication: 必须在卡内显式标注歧义，防止误导
+- signal: RPV是Christensen最被低估的贡献——知名度远低于破坏性创新但组织诊断价值更高
+  severity: moderate
+  implication: 需要更充分地展示RPV的独立价值
 ---
 
 > **定位**：属于 Christensen 原书三大框架的**第 3 步**——理解了创新类型（破坏/延续）和价值网络之后，用 RPV 模型诊断组织的实际能力与缺陷。位于 `framework-christensen-disruptive-innovation` 和 `framework-christensen-value-network` 之后。

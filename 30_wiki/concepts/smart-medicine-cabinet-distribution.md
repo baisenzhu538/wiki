@@ -1,11 +1,10 @@
 ---
-
 domain:
 - healthcare
 id: smart-medicine-cabinet-distribution
 title: 智能药柜分销业态洞察
 type: concept
-status: stable
+status: reviewed
 trust_level: medium
 diagnostic_signals:
 - signal: 目标省份是否属于允许智慧药房售处方药的积极探索型政策区
@@ -18,8 +17,8 @@ diagnostic_signals:
   framework_lens: 单元经济 / 从政策到利润
   follow_up_question: 冷链、追溯、药师成本是否纳入模型？
 aliases:
-  - 智能药柜分销业态洞察
-  - 药柜分销业态洞察
+- 智能药柜分销业态洞察
+- 药柜分销业态洞察
 source_refs:
 - 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
 - 10_raw/sources/src_20260619_d919434b_00_inbox_广冷电子_pharma_policy.agent.final.md
@@ -32,7 +31,7 @@ source_refs:
 - src_unknown
 created_at: 2026-06-13
 discoverable_by:
-  - 智能药柜分销业态洞察
+- 智能药柜分销业态洞察
 quality_labels:
 - cited
 - principle

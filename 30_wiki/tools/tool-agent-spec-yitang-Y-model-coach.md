@@ -1,5 +1,4 @@
 ---
-
 id: tool-agent-spec-yitang-Y-model-coach
 title: Y模型 Coach 模式 Agent Spec
 type: tool-agent-spec
@@ -8,7 +7,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 reviewed_at: '2026-07-04'
 confidence: 0.86
-trust_level: medium-high
+trust_level: high
 language: zh-CN
 domain:
 - epistemic-foundations
@@ -18,9 +17,9 @@ domain:
 source_context: 一堂底层逻辑域·Y模型课程（2026-07-03），黄药师提出 Agent 分层：Y模型 OS 是所有 Agent 共享底座，Coach
   模式只作为可选入口
 aliases:
-  - Y模型
-  - Y模型Coach模式AgentSpec
-  - 模式
+- Y模型
+- Y模型Coach模式AgentSpec
+- 模式
 source_refs:
 - 30_wiki/systems/system-yitang-Y-model-os.md
 - 30_wiki/concepts/yt-decision-y-model.md
@@ -29,7 +28,7 @@ source_refs:
 - 30_wiki/tools/tool-yitang-Y-model-application.md
 - 30_wiki/dark-knowledges/dk-yitang-Y-model-pitfalls.md
 discoverable_by:
-  - Y模型 Coach 模式 Agent Spec
+- Y模型 Coach 模式 Agent Spec
 related:
 - system-yitang-Y-model-os
 - yt-decision-y-model

@@ -1,6 +1,6 @@
 ---
 id: dk-ai-cross-domain-inference
-title: "AI跨域自发推导：碎片中拼出完整框架"
+title: AI跨域自发推导：碎片中拼出完整框架
 type: dk
 domain: ai-collaboration
 status: draft
@@ -8,44 +8,44 @@ created_at: 2026-07-26
 updated_at: 2026-07-26
 author: 老顽童
 reviewed_by: 待审
-confidence: 0.80
-trust_level: observed
+confidence: 0.8
+trust_level: medium
 version: 1.0.0
 aliases:
-  - AI跨域自发推导
-  - AI跨域自发推导：碎片中拼出完整框架
-  - 中拼出完整框架
-  - 关键是底层逻辑是否自洽
-  - 域推导与原始课程内容有偏差
-  - 推导出
-  - 的误解
-  - 碎片中拼出完整框架
-  - 课程推导出
-  - 跨域推导
+- AI跨域自发推导
+- AI跨域自发推导：碎片中拼出完整框架
+- 中拼出完整框架
+- 关键是底层逻辑是否自洽
+- 域推导与原始课程内容有偏差
+- 推导出
+- 的误解
+- 碎片中拼出完整框架
+- 课程推导出
+- 跨域推导
 source_refs:
-  - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6820-6842
-  - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6820-6824
+- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6820-6842
+- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6820-6824
 tags:
-  - 跨域
-  - 推导
-  - 涌现
-  - 底层自洽
-  - AI推理
+- 跨域
+- 推导
+- 涌现
+- 底层自洽
+- AI推理
 related:
-  - framework-kdo-modeling-methodology
-  - concept-kdo-agent-four-level-awareness
-  - dk-bfm-compression-path
-  - concept-ai-co-learning
-  - concept-collaboration-philosophy-foundation
-  - framework-yitang-shishi-qiushi
+- framework-kdo-modeling-methodology
+- concept-kdo-agent-four-level-awareness
+- dk-bfm-compression-path
+- concept-ai-co-learning
+- concept-collaboration-philosophy-foundation
+- framework-yitang-shishi-qiushi
 quality_labels:
-  - cited
-  - actionable
+- cited
+- actionable
 diagnostic_signals:
-  - "AI从A课程推导出B课程的核心概念 → 不是bug，是feature——AI在做底层自洽"
-  - "跨域推导与原始课程内容有偏差 → 需要验证：偏差是AI的误解，还是课程之间的真实张力？"
-  - "知识库碎片化但AI能串起来 → 知识库碎片化不一定是问题，关键是底层逻辑是否自洽"
-discoverable_by: "AI跨域推导、AI自发推理、跨课程推导、AI涌现、汗毛竖起"
+- AI从A课程推导出B课程的核心概念 → 不是bug，是feature——AI在做底层自洽
+- 跨域推导与原始课程内容有偏差 → 需要验证：偏差是AI的误解，还是课程之间的真实张力？
+- 知识库碎片化但AI能串起来 → 知识库碎片化不一定是问题，关键是底层逻辑是否自洽
+discoverable_by: AI跨域推导、AI自发推理、跨课程推导、AI涌现、汗毛竖起
 ---
 # AI跨域自发推导：碎片中拼出完整框架
 

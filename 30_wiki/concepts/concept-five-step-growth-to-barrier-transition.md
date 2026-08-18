@@ -4,12 +4,12 @@ title: 五步法衔接：什么时候从增长切换到壁垒建设
 type: concept
 domain: src-unknown
 aliases:
-  - Truman
-  - 五步法衔接
-  - 五步法衔接：什么时候从增长切换到壁垒建设
-  - 什么时候从增长切换到壁垒建设
-  - 时候从增长切换到壁垒建设
-  - 法衔接
+- Truman
+- 五步法衔接
+- 五步法衔接：什么时候从增长切换到壁垒建设
+- 什么时候从增长切换到壁垒建设
+- 时候从增长切换到壁垒建设
+- 法衔接
 source_refs:
 - 10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md
 - 10_raw/sources/src_20260610_8865798f-一堂-一堂五步法-增长-口述.md
@@ -31,9 +31,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - 五步法衔接：什么时候从增长切换到壁垒建设
-  - 五步法衔接
-  - 什么时候从增长切换到壁垒建设
+- 五步法衔接：什么时候从增长切换到壁垒建设
+- 五步法衔接
+- 什么时候从增长切换到壁垒建设
 tags:
 - audience:general
 - scene:reference
@@ -56,7 +56,7 @@ wiki_refs:
 - src_unknown
 - src_unknown
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 updated_at: '2026-06-16'
 related:
 - '[[yt-five-step-method]]'

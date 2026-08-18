@@ -6,38 +6,26 @@ status: enriched
 author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
-quality_labels:
+quality_labels: null
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: unknown
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
-query_triggers:
-aliases:
-  - 7天快速建立行业认知
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 业报告调研
-  - 报告调研四步法
-  - 步法行业认知
-  - 行业报告调研四步法
-  - 行业报告调研四步法：7天快速建立行业认知
-  - 行业认知
-  - 行业调研法
-source_refs:
-related:
-discoverable_by:
-  - "行业报告调研"
-  - "四步法行业认知"
-  - "7天建立行业认知"
-  - "Doris行业调研法"
-tags:
+query_triggers: null
 aliases: []
+source_refs: null
+related: null
+discoverable_by:
+- 行业报告调研
+- 四步法行业认知
+- 7天建立行业认知
+- Doris行业调研法
+tags: null
 ---
 # 行业报告调研四步法：7天快速建立行业认知
 

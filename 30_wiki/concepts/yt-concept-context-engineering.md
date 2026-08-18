@@ -1,16 +1,15 @@
 ---
-
 domain:
 - yitang
 id: yt-concept-context-engineering
 title: 上下文工程：充分≠越多越好
 type: concept
 aliases:
-  - 上下文工程
-  - 上下文工程：充分≠越多越好
-  - 充分≠越多越好
-  - 文工程
-  - 越多越好
+- 上下文工程
+- 上下文工程：充分≠越多越好
+- 充分≠越多越好
+- 文工程
+- 越多越好
 source_refs:
 - src_unknown
 - src_unknown
@@ -43,11 +42,11 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: 老顽童
 reviewed_by: 欧阳锋
-trust_level: medium-high
+trust_level: high
 discoverable_by:
-  - 上下文工程：充分≠越多越好
-  - 上下文工程
-  - 充分≠越多越好
+- 上下文工程：充分≠越多越好
+- 上下文工程
+- 充分≠越多越好
 related:
 - '[[yt-model-prompt-engineering]]'
 - '[[yt-prompt-iterative-prompting]]'

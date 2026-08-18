@@ -2,17 +2,17 @@
 id: zhu-lessons-learned
 title: 老朱经验教训案例库
 type: system
-status: active
+status: enriched
 created_at: 2026-07-19
 updated_at: 2026-08-04
 reviewed_by: pending
 domain:
-  - personal-os
+- personal-os
 related:
-  - "[[zhu-network-resources]]"
-  - "[[zhu-strategic-conclusions]]"
-  - "[[zhu-project-board]]"
-  - "[[user-insight-profile]]"
+- '[[zhu-network-resources]]'
+- '[[zhu-strategic-conclusions]]'
+- '[[zhu-project-board]]'
+- '[[user-insight-profile]]'
 tags:
 - audience:manager
 - scene:reference

@@ -4,7 +4,7 @@ author: 审查者欧阳锋
 role: 知识架构师 (Knowledge Architect)
 created_at: '2026-05-04'
 updated_at: '2026-06-29'
-status: stable
+status: reviewed
 domain:
 - kdo
 implementor: 黄药师 (Builder)

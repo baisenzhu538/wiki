@@ -10,23 +10,23 @@ trust_level: medium
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain:
+domain: unknown
 aliases:
-  - AI 原生组织双形态
-  - AI 控制台
-  - AI原生组织的两种形态：AI控制台vsAgent平台
-  - Agent 平台
-  - 原生组织
-  - 原生组织的两种形态
-  - 平台
-  - 控制台
-  - 组织的两种形态
-source_refs:
-quality_labels:
-related:
+- AI 原生组织双形态
+- AI 控制台
+- AI原生组织的两种形态：AI控制台vsAgent平台
+- Agent 平台
+- 原生组织
+- 原生组织的两种形态
+- 平台
+- 控制台
+- 组织的两种形态
+source_refs: null
+quality_labels: null
+related: null
 discoverable_by:
-  - "AI原生组织"
-  - "AI控制台vs Agent平台"
+- AI原生组织
+- AI控制台vs Agent平台
 ---
 # AI 原生组织的两种形态：AI 控制台 vs Agent 平台
 

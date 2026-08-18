@@ -1,8 +1,7 @@
 ---
-
 id: yt-model-pan-product-36-strategies
 component_of:
-- "[[yt-composite-pan-product-methodology]]"
+- '[[yt-composite-pan-product-methodology]]'
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
@@ -12,8 +11,8 @@ domain:
 estimated_tokens: 2200
 language: zh-CN
 prerequisites:
-- "[[yt-model-pan-product-three-virtues]]"
-- "[[yt-model-pan-product-climbing-map]]"
+- '[[yt-model-pan-product-three-virtues]]'
+- '[[yt-model-pan-product-climbing-map]]'
 query_triggers:
 - 泛产品设计工具箱
 - 36计卡牌
@@ -22,27 +21,27 @@ query_triggers:
 - 泛产品设计工具有哪些
 - 36计怎么用
 discoverable_by:
-  - 泛产品设计36计·全套官方工具箱
-  - 泛产品设计36计
-  - 全套官方工具箱
+- 泛产品设计36计·全套官方工具箱
+- 泛产品设计36计
+- 全套官方工具箱
 related:
-- "[[yt-composite-pan-product-methodology]]"
-- "[[yt-model-pan-product-demand-toolkit]]"
-- "[[yt-model-pan-product-aesthetic-toolkit]]"
-- "[[yt-model-pan-product-execution-toolkit]]"
-- "[[yt-model-pan-product-three-virtues]]"
-- "[[yt-model-pan-product-climbing-map]]"
-- "[[yt-model-ipo-learning-strategy]]"
+- '[[yt-composite-pan-product-methodology]]'
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-pan-product-execution-toolkit]]'
+- '[[yt-model-pan-product-three-virtues]]'
+- '[[yt-model-pan-product-climbing-map]]'
+- '[[yt-model-ipo-learning-strategy]]'
 review_by: 2026-11-11
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 全套官方工具箱
-  - 品设计
-  - 官方工具箱
-  - 泛产品设计36计
-  - 泛产品设计36计全套官方工具箱
-  - 计全套官方工具箱
+- 全套官方工具箱
+- 品设计
+- 官方工具箱
+- 泛产品设计36计
+- 泛产品设计36计全套官方工具箱
+- 计全套官方工具箱
 source_refs:
 - 10_raw/sources/src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图.md
 - 00_inbox/一堂-个人修炼-泛产品设计概念口述版.md
@@ -52,8 +51,8 @@ title: 泛产品设计36计·全套官方工具箱
 type: framework
 version: 1
 pipeline:
-- "[[yt-model-pan-product-three-virtues]]"
-- "[[yt-model-pan-product-climbing-map]]"
+- '[[yt-model-pan-product-three-virtues]]'
+- '[[yt-model-pan-product-climbing-map]]'
 diagnostic_signals:
 - framework_lens: 工具没有内化
   follow_up_question: 你最近一次做设计时主动调用了36计中的哪一张？如果从来没有，只是收藏
@@ -61,7 +60,7 @@ diagnostic_signals:
   follow_up_question: 这个设计问题真的需要用到那么多工具吗？工具服务于问题
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 ---
 
 > **术语说明**：课程口语中常称"30张牌"（早期版本），但完整矩阵按**36张工具卡**展开——黄13张（需求）+ 绿4张（审美）+ 蓝19张（落地）= 36张。两者指向同一套框架，本卡以36张为准。

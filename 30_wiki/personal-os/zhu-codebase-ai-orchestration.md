@@ -2,7 +2,7 @@
 id: zhu-codebase-ai-orchestration
 title: 老朱代码库AI编排项目
 type: system
-status: active
+status: enriched
 created_at: 2026-07-05
 updated_at: 2026-07-05
 domain:

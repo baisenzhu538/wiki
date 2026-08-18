@@ -1,12 +1,12 @@
 ---
 id: zhu-feedback-patterns
-title: "老朱反馈模式库"
+title: 老朱反馈模式库
 type: system
-status: active
-created_at: 2026-07-01T17:19:35+00:00
+status: enriched
+created_at: 2026-07-01 17:19:35+00:00
 updated_at: 2026-07-19
 domain:
-  - personal-os
+- personal-os
 tags:
 - audience:manager
 - scene:reference

@@ -1,35 +1,34 @@
 ---
-
 id: tool-strategy-risk-management
 title: 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
 type: tool
 status: reviewed
 confidence: 0.92
 trust_level: high
-domain:
+domain: management
 aliases:
-  - audience:manager
-  - scene:execution
-  - skill-level:advanced
-  - 业务设计风险管理工具
-  - 业务设计风险管理工具：ISO31000四步闭环×GraceLaConte矩阵
-  - 冉鹏PPT截图
-  - 四步闭环
-  - 引擎点火
-  - 矩阵
-  - 设计风险管理工具
-source_refs:
+- audience:manager
+- scene:execution
+- skill-level:advanced
+- 业务设计风险管理工具
+- 业务设计风险管理工具：ISO31000四步闭环×GraceLaConte矩阵
+- 冉鹏PPT截图
+- 四步闭环
+- 引擎点火
+- 矩阵
+- 设计风险管理工具
+source_refs: null
 discoverable_by:
-  - 业务设计风险管理工具：ISO31000 四步闭环 × Gra
-  - 业务设计风险管理工具
-  - 四步闭环
-quality_labels:
+- 业务设计风险管理工具：ISO31000 四步闭环 × Gra
+- 业务设计风险管理工具
+- 四步闭环
+quality_labels: null
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
-related:
-tags:
+related: null
+tags: null
 ---
 # 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
 

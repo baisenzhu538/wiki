@@ -16,7 +16,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - 超级武器库元概念
+- 超级武器库元概念
 related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-personal-scientific-expression]]'
@@ -26,8 +26,8 @@ related:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 武器库元概念
-  - 超级武器库元概念
+- 武器库元概念
+- 超级武器库元概念
 source_refs:
 - 10_raw/sources/src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库.md
 status: enriched
@@ -44,7 +44,7 @@ diagnostic_signals:
   follow_up_question: 你现在是想系统学习这个方法，还是想在具体场景中快速调用？如果是前者，不要从武器库开始
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:general
 - scene:reference

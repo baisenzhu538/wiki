@@ -7,7 +7,7 @@ domain:
 - yitang
 - personal-growth
 confidence: 0.82
-trust_level: medium-high
+trust_level: high
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
@@ -20,12 +20,12 @@ quality_labels:
 created_at: 2026-06-27
 updated_at: 2026-06-27
 aliases:
-  - 三环能力聚焦法
-  - 三环能力聚焦法：从30个能力中锁定3个重点
-  - 个能力中锁定
-  - 个重点
-  - 力中锁定
-  - 能力聚焦法
+- 三环能力聚焦法
+- 三环能力聚焦法：从30个能力中锁定3个重点
+- 个能力中锁定
+- 个重点
+- 力中锁定
+- 能力聚焦法
 source_refs:
 - 00_inbox/元能力-刻意练习/truman-刻意练习-口述.txt
 - 00_inbox/元能力-刻意练习/truman-刻意练习-笔记.txt

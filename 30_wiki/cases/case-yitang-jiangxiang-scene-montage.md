@@ -8,49 +8,49 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 aliases:
-  - 产品发布
-  - 十指模型
-  - 场景化从单场景到画面组的升级
-  - 场景化蒙太奇
-  - 场景化蒙太奇：王牌书12.0/探月夏令营/复盘营200期
-  - 复盘营200期
-  - 夏令营
-  - 探月夏令营
-  - 景化进阶
-  - 王牌书12.0
-  - 王牌书12.0/探月夏令营/复盘营200期
-  - 讲香案例
+- 产品发布
+- 十指模型
+- 场景化从单场景到画面组的升级
+- 场景化蒙太奇
+- 场景化蒙太奇：王牌书12.0/探月夏令营/复盘营200期
+- 复盘营200期
+- 夏令营
+- 探月夏令营
+- 景化进阶
+- 王牌书12.0
+- 王牌书12.0/探月夏令营/复盘营200期
+- 讲香案例
 source_refs:
-  - 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
+- 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
 related:
-  - tool-讲香基本功-十指模型
-  - yt-pitch-scenarization
-  - framework-yitang-jiangxiang-strategy-selection
-  - yt-pitch-sublimation
-  - yt-pitch-emotionalization
+- tool-讲香基本功-十指模型
+- yt-pitch-scenarization
+- framework-yitang-jiangxiang-strategy-selection
+- yt-pitch-sublimation
+- yt-pitch-emotionalization
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:讲香案例
-  - scene:产品发布
-  - scene:教育营销
-  - audience:产品负责人
-  - audience:市场
-  - content-format:case
-  - source-person:李頔
+- method:讲香案例
+- scene:产品发布
+- scene:教育营销
+- audience:产品负责人
+- audience:市场
+- content-format:case
+- source-person:李頔
 discoverable_by:
-  - "蒙太奇讲香"
-  - "王牌书"
-  - "探月夏令营"
-  - "如何讲长期价值"
-  - "场景化进阶"
+- 蒙太奇讲香
+- 王牌书
+- 探月夏令营
+- 如何讲长期价值
+- 场景化进阶
 diagnostic_signals:
-  - signal: "场景化从单场景到画面组的升级"
-    severity: low
-    implication: "蒙太奇法是场景化的自然延伸——三个案例演示了三次跳跃"
+- signal: 场景化从单场景到画面组的升级
+  severity: low
+  implication: 蒙太奇法是场景化的自然延伸——三个案例演示了三次跳跃
 ---
 
 > **定位**：属于 `yt-pitch-scenarization`（场景化策略）的**进阶 companion case**——展示场景化从"单场景"到"画面组（蒙太奇）"的升级路径。

@@ -10,26 +10,26 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - conversion
-  - handle
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂转化基本功七个自我修养
-  - 一堂转化基本功七个自我修养：从固定拿结果到大量迁移的团队纪律
-  - 从固定拿结果到大量迁移的团队纪律
-  - 化基本功七个自我修养
-  - 化率团队纪律
-  - 本功七个自我修养
-source_refs:
-related:
+- audience:ceo
+- conversion
+- handle
+- scene:diagnosis
+- skill-level:advanced
+- 一堂转化基本功七个自我修养
+- 一堂转化基本功七个自我修养：从固定拿结果到大量迁移的团队纪律
+- 从固定拿结果到大量迁移的团队纪律
+- 化基本功七个自我修养
+- 化率团队纪律
+- 本功七个自我修养
+source_refs: null
+related: null
 discoverable_by:
-  - "转化基本功七个自我修养"
-  - "转化率团队纪律"
-quality_labels:
-tags:
+- 转化基本功七个自我修养
+- 转化率团队纪律
+quality_labels: null
+tags: null
 ---
 # 一堂转化基本功七个自我修养
 

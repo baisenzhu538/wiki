@@ -1,13 +1,12 @@
 ---
-
 domain:
 - yitang
 id: yt-prompt-iterative-prompting
 title: 迭代式提示词工作流（5步法）
 type: tool
 aliases:
-  - 式提示词工作流
-  - 迭代式提示词工作流5步法
+- 式提示词工作流
+- 迭代式提示词工作流5步法
 source_refs:
 - src_unknown
 - src_unknown
@@ -44,9 +43,9 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: 老顽童
 reviewed_by: 欧阳锋
-trust_level: medium-high
+trust_level: high
 discoverable_by:
-  - 迭代式提示词工作流5步法
+- 迭代式提示词工作流5步法
 related:
 - '[[yt-model-prompt-engineering]]'
 - '[[yt-prompt-anti-flattery]]'

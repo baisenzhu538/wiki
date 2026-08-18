@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-competitor-tracking
 title: 竞对跟踪：持续监控竞争对手的动态与策略
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 持续监控竞争对手的动态与策略
-  - 竞对跟踪
-  - 竞对跟踪：持续监控竞争对手的动态与策略
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 持续监控竞争对手的动态与策略
+- 竞对跟踪
+- 竞对跟踪：持续监控竞争对手的动态与策略
 discoverable_by:
-  - 竞对跟踪：持续监控竞争对手的动态与策略
-  - 竞对跟踪
-  - 持续监控竞争对手的动态与策略
-related:
-tags:
+- 竞对跟踪：持续监控竞争对手的动态与策略
+- 竞对跟踪
+- 持续监控竞争对手的动态与策略
+related: null
+tags: null
 ---
 # 竞对跟踪：持续监控竞争对手的动态与策略
 

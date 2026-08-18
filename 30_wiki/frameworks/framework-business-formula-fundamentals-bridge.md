@@ -10,31 +10,17 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-12
 updated_at: 2026-07-12
-domain:
-source_refs:
-related:
+domain: business-formula
+source_refs: null
+related: null
 discoverable_by:
-  - "业务公式基本功桥接"
+- 业务公式基本功桥接
 diagnostic_signals:
-  lens: 两个域割裂——基本功域在练"人的动作"，业务公式域在拆"业务的参数"，但没接起来
-  follow-up: 用本卡§三的映射表，把每个基本功对应到它优化的业务参数上
   lens: 反向割裂——有参数无动作，有公式无肌肉
   follow-up: 用本卡§四的"参数→基本功"反向映射，每个关键参数配一个对应的基本功训练项
-quality_labels:
-tags:
-aliases:
-  - 业务公式×基本功域桥接：同一套操作系统的两个对象
-  - 业务公式×基本功域桥接
-  - 同一套操作系统的两个对象
-  - 套操作系统的两个对象
-  - 基本功域桥接
-  - 务公式基本功桥接
-aliases:
-  - 业务公式×基本功域桥接：同一套操作系统的两个对象
-  - 业务公式×基本功域桥接
-  - 同一套操作系统的两个对象
-  - 务公式基本功桥接
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 <!--
   桥接卡骨架 — 这是三张桥接卡中最重要的一张。

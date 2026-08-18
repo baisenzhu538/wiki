@@ -6,7 +6,7 @@ source_refs:
 - src_unknown
 role: 知识架构师 (Knowledge Architect)
 created_at: '2026-05-04'
-status: proposed
+status: draft
 domain: kdo
 implementor: 黄药师 (Builder)
 dependency: 已有 kdo watch（inbox 监听 + 自动 ingest → enrich → 重建索引）

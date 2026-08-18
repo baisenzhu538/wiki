@@ -11,32 +11,18 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "增长周期三阶段"
-  - "获客驱动系统驱动对抗驱动"
+- 增长周期三阶段
+- 获客驱动系统驱动对抗驱动
 diagnostic_signals:
   lens: 系统驱动缺位——获客驱动到极限后需要系统驱动
   follow-up: 判断当前是获客驱动还是需要切换到系统驱动
-quality_labels:
-tags:
-aliases:
-  - 一堂五步法增长周期：获客驱动/系统驱动/对抗驱动三阶段
-  - 一堂五步法
-  - 增长周期
-  - 获客驱动/系统驱动/对抗驱动三阶段
-  - 获客驱动
-  - 客驱动系统驱动对抗驱动
-aliases:
-  - 一堂五步法增长周期：获客驱动/系统驱动/对抗驱动三阶段
-  - 一堂五步法
-  - 增长周期
-  - 获客驱动/系统驱动/对抗驱动三阶段
-  - 长周期三阶段
-  - 客驱动系统驱动对抗驱动
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 一堂五步法·增长周期：获客驱动/系统驱动/对抗驱动三阶段
 

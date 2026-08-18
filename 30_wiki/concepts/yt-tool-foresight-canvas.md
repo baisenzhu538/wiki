@@ -4,10 +4,10 @@ title: 预判画布：从加法到减法的标准化工作台
 type: tool
 domain: src-unknown
 aliases:
-  - 从加法到减法的标准化工作台
-  - 法到减法的标准化工作台
-  - 预判画布
-  - 预判画布：从加法到减法的标准化工作台
+- 从加法到减法的标准化工作台
+- 法到减法的标准化工作台
+- 预判画布
+- 预判画布：从加法到减法的标准化工作台
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
@@ -31,9 +31,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - 预判画布：从加法到减法的标准化工作台
-  - 预判画布
-  - 从加法到减法的标准化工作台
+- 预判画布：从加法到减法的标准化工作台
+- 预判画布
+- 从加法到减法的标准化工作台
 related:
 - '[[yt-tool-best-practice-learning]]'
 - '[[yt-tool-fab-persuasion]]'
@@ -52,7 +52,7 @@ diagnostic_signals:
   follow_up_question: 如果没有预判画布，你会不会选同一个选项？如果会，说明画布没有真正影响决策
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:executor
 - scene:execution

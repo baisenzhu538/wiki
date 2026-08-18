@@ -3,51 +3,50 @@ id: dk-emotional-value-high-bar
 title: 「暗知识：情绪价值是门槛极高的动作——top 5%才有效」
 type: dk
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-09
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - human-insights
-  - panproduct
+- human-insights
+- panproduct
 author: 老顽童
 source_refs:
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
 source_person: 水水
 source_context: 水水一堂拆书会（L680-724）
-reviewed_by: 待审
 aliases:
-  - 情绪价值高门槛
-  - top 5%
-  - 好看能换钱
+- 情绪价值高门槛
+- top 5%
+- 好看能换钱
 discoverable_by:
-  - 情绪价值门槛
-  - top 5%
-  - 好看能换钱
-  - 功能内卷
+- 情绪价值门槛
+- top 5%
+- 好看能换钱
+- 功能内卷
 related:
-  - dk-emotional-value-premium
-  - framework-how-to-know-a-person
-  - case-ai-pet-emotional-product
+- dk-emotional-value-premium
+- framework-how-to-know-a-person
+- case-ai-pet-emotional-product
 tags:
-  - method:product-design
-  - scene:branding
-  - audience:product-managers
-  - content-format:dk
-  - source-person:水水
+- method:product-design
+- scene:branding
+- audience:product-managers
+- content-format:dk
+- source-person:水水
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels:
-  - insight
-  - counterintuitive
-  - cited
+- insight
+- counterintuitive
+- cited
 diagnostic_signals:
-  - signal: "做了好看的包装但消费者不买账"
-    lens: '有点好看没用——必须好看到top 5%才能产生溢价'
-    follow_up: 不自评——找10个目标用户盲测，你的包装和竞品放一起，能排前5%吗？
-  - signal: "产品功能一直在优化但定价上不去"
-    lens: 在功能维度内卷——市场平均已70分，你想做到90分极其困难
-    follow_up: 停止功能军备竞赛，转向情绪维度——前提是你真的能做到top 5%
+- signal: 做了好看的包装但消费者不买账
+  lens: 有点好看没用——必须好看到top 5%才能产生溢价
+  follow_up: 不自评——找10个目标用户盲测，你的包装和竞品放一起，能排前5%吗？
+- signal: 产品功能一直在优化但定价上不去
+  lens: 在功能维度内卷——市场平均已70分，你想做到90分极其困难
+  follow_up: 停止功能军备竞赛，转向情绪维度——前提是你真的能做到top 5%
 ---
 
 > 定位：本卡属于 `[[dk-emotional-value-premium]]` 的前置条件——情绪价值没有天花板，但入门门槛极高。

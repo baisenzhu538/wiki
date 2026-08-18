@@ -1,13 +1,13 @@
 ---
 id: zhu-strategic-conclusions
-title: "老朱战略结论存档"
+title: 老朱战略结论存档
 type: system
-status: active
+status: enriched
 created_at: 2026-07-02
 updated_at: 2026-08-04
 reviewed_by: pending
 domain:
-  - personal-os
+- personal-os
 tags:
 - audience:manager
 - scene:reference

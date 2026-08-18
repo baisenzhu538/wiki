@@ -4,58 +4,58 @@ title: 「暗知识：一堆散牌却不知道那是牌——无意识经验与F
 type: dk
 status: reviewed
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 domain:
-  - ai-basic
+- ai-basic
 author: 老顽童
 source_refs:
-  - 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
+- 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
 source_person: 王鹏飞/黄华春（Live258 学员）
 source_context: Live258 AI基本功第一课优秀作业·王鹏飞散牌反思（L2891-L2905）+ 黄华春无意识使用与"知道自己不知道什么"（L23/L313-L319），学员二手自述
 reviewed_by: 欧阳锋
 aliases:
-  - 散牌
-  - 无意识经验
-  - 不登记不存在
-  - 不知道那是牌
-  - AI基本功
-  - Live258
+- 散牌
+- 无意识经验
+- 不登记不存在
+- 不知道那是牌
+- AI基本功
+- Live258
 discoverable_by:
-  - 散牌
-  - 无意识用Feature
-  - Feature库
-  - 经验显性化
-  - 不知道那是牌
+- 散牌
+- 无意识用Feature
+- Feature库
+- 经验显性化
+- 不知道那是牌
 related:
-  - framework-truman-feature-thinking-core
-  - framework-truman-feature-layered-system
-  - dk-feature-not-learned-but-used
-  - dk-ai-does-not-question-your-mistake
-  - ai-basic-domain-digest
-  - case-live258-fact-spread-18-bridges
-  - case-live258-zhihu-content-acquisition
-  - case-live258-livestream-prompt-v1-v5
+- framework-truman-feature-thinking-core
+- framework-truman-feature-layered-system
+- dk-feature-not-learned-but-used
+- dk-ai-does-not-question-your-mistake
+- ai-basic-domain-digest
+- case-live258-fact-spread-18-bridges
+- case-live258-zhihu-content-acquisition
+- case-live258-livestream-prompt-v1-v5
 tags:
-  - method:feature-thinking
-  - method:knowledge-management
-  - scene:ai-usage
-  - audience:practitioner
-  - content-format:dk
-  - source-person:student
-  - evidence:observed
+- method:feature-thinking
+- method:knowledge-management
+- scene:ai-usage
+- audience:practitioner
+- content-format:dk
+- source-person:student
+- evidence:observed
 created_at: 2026-08-12
 updated_at: 2026-08-12
 quality_labels:
-  - insight
-  - quotable
-  - actionable
+- insight
+- quotable
+- actionable
 diagnostic_signals:
-  - signal: "备忘录/收藏夹里存了一堆AI技巧但换工具就重踩"
-    lens: 把散经验当"某个工具的偶然经验"——没识别为可迁移的Feature
-    follow_up: 把每条散经验重命名/编号/归层（L0-L5），建个人Feature库并标注用过几次
-  - signal: "做对了不知道为什么，做错了也不知道为什么"
-    lens: 无意识使用状态——Feature在手上但不认识
-    follow_up: 复盘一次实践：列全"实际用了什么"再对照周期表命名
+- signal: 备忘录/收藏夹里存了一堆AI技巧但换工具就重踩
+  lens: 把散经验当"某个工具的偶然经验"——没识别为可迁移的Feature
+  follow_up: 把每条散经验重命名/编号/归层（L0-L5），建个人Feature库并标注用过几次
+- signal: 做对了不知道为什么，做错了也不知道为什么
+  lens: 无意识使用状态——Feature在手上但不认识
+  follow_up: 复盘一次实践：列全"实际用了什么"再对照周期表命名
 review_date: 2026-08-13
 ---
 > 本卡属于 [[framework-truman-feature-thinking-core]] 的暗知识——"无意识→有意识"转变的机制层（T 型→F 型思维分界的实证）。与 KDO 基建铁律"不登记 = 不存在"（工具登记四步法）同构：个人侧的"不命名 = 不复用"。

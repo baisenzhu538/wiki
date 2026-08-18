@@ -1,8 +1,7 @@
 ---
-
 id: web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 created_at: 2026-05-04
-domain:
+domain: research
 review_date: 2026-05-04
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
@@ -14,18 +13,18 @@ updated_at: '2026-06-16'
 author: unknown
 confidence: 0.7
 aliases:
-  - - - plan_20260621_crawl4ai-firecrawl-evaluation
-  - - - tinyfish-agentic-web-infrastructure
-  - - - tool-agent-crawl4ai
-  - - - tool-agent-native-overview
-  - - - tool-yitang-web-scraping-research
-  - 三剑客
-  - 深度调研集群方法论
-source_refs:
+- - - plan_20260621_crawl4ai-firecrawl-evaluation
+- - - tinyfish-agentic-web-infrastructure
+- - - tool-agent-crawl4ai
+- - - tool-agent-native-overview
+- - - tool-yitang-web-scraping-research
+- 三剑客
+- 深度调研集群方法论
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 discoverable_by:
-  - 三剑客
-related:
+- 三剑客
+related: null
 ---
 # Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
 

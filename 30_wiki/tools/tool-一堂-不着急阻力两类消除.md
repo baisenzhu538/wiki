@@ -1,5 +1,4 @@
 ---
-
 id: tool-一堂-不着急阻力两类消除
 title: 一堂不着急阻力两类消除：天然需求不急 vs 还没比价
 type: tool
@@ -7,7 +6,7 @@ status: pending_review
 author: 老顽童
 reviewed_by: pending
 confidence: 0.83
-trust_level: medium-high
+trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
@@ -15,18 +14,18 @@ domain:
 - yitang
 - conversion-rate
 aliases:
-  - 一堂不着急阻力两类消除
-  - 一堂不着急阻力两类消除：天然需求不急vs还没比价
-  - 天然需求不急
-  - 还没比价
+- 一堂不着急阻力两类消除
+- 一堂不着急阻力两类消除：天然需求不急vs还没比价
+- 天然需求不急
+- 还没比价
 source_refs:
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-入门篇-口述.txt L4266-L4284
 - 00_inbox/Handle the business/conversion rate/转化率黑客-动力阻力触点-阻力篇-口述.txt L4992-L5072
 discoverable_by:
-  - 一堂不着急阻力两类消除：天然需求不急 vs 还没比价
-  - 一堂不着急阻力两类消除
-  - 天然需求不急
-  - 还没比价
+- 一堂不着急阻力两类消除：天然需求不急 vs 还没比价
+- 一堂不着急阻力两类消除
+- 天然需求不急
+- 还没比价
 related:
 - '[[framework-一堂-转化率黑客-总纲]]'
 - '[[framework-一堂-12种阻力总表]]'

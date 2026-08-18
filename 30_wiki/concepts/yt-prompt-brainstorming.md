@@ -1,13 +1,12 @@
 ---
-
 domain:
 - yitang
 id: yt-prompt-brainstorming
 title: AI头脑风暴工作流
 type: tool
 aliases:
-  - AI头脑风暴工作流
-  - 头脑风暴工作流
+- AI头脑风暴工作流
+- 头脑风暴工作流
 source_refs:
 - src_unknown
 - src_unknown
@@ -44,9 +43,9 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: 老顽童
 reviewed_by: 欧阳锋
-trust_level: medium-high
+trust_level: high
 discoverable_by:
-  - AI头脑风暴工作流
+- AI头脑风暴工作流
 related:
 - '[[yt-model-prompt-engineering]]'
 - '[[yt-prompt-iterative-prompting]]'

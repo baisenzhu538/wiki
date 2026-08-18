@@ -16,14 +16,14 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
-trust_level: medium-low
+trust_level: low
 aliases:
-  - 新人落地
+- 新人落地
 source_refs:
 - 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 discoverable_by:
-  - 新人落地
+- 新人落地
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'

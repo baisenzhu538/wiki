@@ -3,57 +3,56 @@ id: tool-empathy-practice
 title: 「工具：共情三法——接触·阅读·体验 + 陪伴不陷入」
 type: tool
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-09
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - human-insights
-  - leadership
+- human-insights
+- leadership
 author: 老顽童
 source_refs:
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-笔记.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-笔记.txt
 source_person: 布鲁克斯 / 水水
-reviewed_by: 待审
 aliases:
-  - 共情练习
-  - 陪伴不陷入
-  - 共情耗竭
-  - empathy
+- 共情练习
+- 陪伴不陷入
+- 共情耗竭
+- empathy
 discoverable_by:
-  - 共情
-  - 共情练习
-  - 陪伴
-  - 共情耗竭
-  - 以他者为中心
+- 共情
+- 共情练习
+- 陪伴
+- 共情耗竭
+- 以他者为中心
 related:
-  - framework-how-to-know-a-person
-  - tool-illuminator-vs-diminisher
-  - bridge-how-to-know-person-to-business
-  - framework-一堂五步法-泛产品设计
-  - dk-narrative-choice-theory
+- framework-how-to-know-a-person
+- tool-illuminator-vs-diminisher
+- bridge-how-to-know-person-to-business
+- framework-一堂五步法-泛产品设计
+- dk-narrative-choice-theory
 tags:
-  - method:empathy
-  - method:listening
-  - scene:1on1
-  - scene:coaching
-  - audience:managers
-  - content-format:tool
-  - source-person:布鲁克斯
+- method:empathy
+- method:listening
+- scene:1on1
+- scene:coaching
+- audience:managers
+- content-format:tool
+- source-person:布鲁克斯
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels:
-  - actionable
-  - insight
-  - cited
+- actionable
+- insight
+- cited
 diagnostic_signals:
-  - signal: "听朋友/同事倾诉后自己精疲力竭"
-    lens: 共情耗竭——你把对方的情绪当成了自己的
-    follow_up: 练习"参与但不陷入"——理解痛苦≠承担痛苦
-  - signal: "对方说'你不懂我'"
-    lens: 你可能在解决问题而非共情——"拉你起来"vs"陪你躺在地上"
-    follow_up: 检查：你说了多少"你应该..."？把这些句子改成"我听到你..."
+- signal: 听朋友/同事倾诉后自己精疲力竭
+  lens: 共情耗竭——你把对方的情绪当成了自己的
+  follow_up: 练习"参与但不陷入"——理解痛苦≠承担痛苦
+- signal: 对方说'你不懂我'
+  lens: 你可能在解决问题而非共情——"拉你起来"vs"陪你躺在地上"
+  follow_up: 检查：你说了多少"你应该..."？把这些句子改成"我听到你..."
 ---
 
 > 定位：本卡属于 `[[framework-how-to-know-a-person]]` 的"看见挣扎"支柱操作工具。

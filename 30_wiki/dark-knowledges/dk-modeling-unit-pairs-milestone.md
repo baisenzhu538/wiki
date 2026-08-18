@@ -1,31 +1,30 @@
 ---
-
 id: dk-modeling-unit-pairs-milestone
 title: 里程碑不是任务清单，是"成对单元模型"拼出来的
 type: dk
 dark_knowledge_type: workflow
 status: reviewed
-domain:
+domain: modeling
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 aliases:
-  - Truman
-  - audience:executor
-  - scene:reference
-  - skill-level:intermediate
-  - 对单元模型拼出来的
-  - 建模能力培训
-  - 是成对单元模型拼出来的
-  - 碑不是任务清单
-  - 里程碑不是任务清单
-  - 里程碑不是任务清单，是成对单元模型拼出来的
-source_refs:
+- Truman
+- audience:executor
+- scene:reference
+- skill-level:intermediate
+- 对单元模型拼出来的
+- 建模能力培训
+- 是成对单元模型拼出来的
+- 碑不是任务清单
+- 里程碑不是任务清单
+- 里程碑不是任务清单，是成对单元模型拼出来的
+source_refs: null
 confidence: 0.89
 trust_level: medium
 discoverable_by:
-  - 里程碑不是任务清单，是成对单元模型拼出来的
-related:
-tags:
+- 里程碑不是任务清单，是成对单元模型拼出来的
+related: null
+tags: null
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'

@@ -10,28 +10,28 @@ created_at: 2026-06-21
 confidence: 0.9
 trust_level: high
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - USP需求洞察模型
-  - USP需求洞察模型：Demand=User×Situation×Problem
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 五步法之需求分析
-  - 户场景问题模型
-  - 求洞察
-  - 需求分析
-  - 需求模型
-  - 需求洞察模型
-source_refs:
-related:
+- USP需求洞察模型
+- USP需求洞察模型：Demand=User×Situation×Problem
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 五步法之需求分析
+- 户场景问题模型
+- 求洞察
+- 需求分析
+- 需求模型
+- 需求洞察模型
+source_refs: null
+related: null
 discoverable_by:
-  - "USP需求模型"
-  - "需求洞察USP"
-  - "用户场景问题模型"
-  - "Demand = User × Situation × Problem"
+- USP需求模型
+- 需求洞察USP
+- 用户场景问题模型
+- Demand = User × Situation × Problem
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # USP需求洞察模型
 

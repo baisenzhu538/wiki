@@ -7,51 +7,51 @@ domain: strategy
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
-confidence: 0.90
-trust_level: observed
+confidence: 0.9
+trust_level: medium
 aliases:
-  - AI赋能的前提条件
-  - Christensen
-  - src_20260802_创新者的窘境_秦鹏拆书
-  - 一号位
-  - 么把经验变成
-  - 创新者的窘境
-  - 头脑经验→显性知识库
-  - 头脑经验→显性知识库：AI赋能的前提条件
-  - 头脑经验显性化
-  - 库转化
-  - 的知识库
-  - 知识库转化
-  - 者的窘境
-  - 能用的知识库
+- AI赋能的前提条件
+- Christensen
+- src_20260802_创新者的窘境_秦鹏拆书
+- 一号位
+- 么把经验变成
+- 创新者的窘境
+- 头脑经验→显性知识库
+- 头脑经验→显性知识库：AI赋能的前提条件
+- 头脑经验显性化
+- 库转化
+- 的知识库
+- 知识库转化
+- 者的窘境
+- 能用的知识库
 source_refs:
-  - 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
+- 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
 related:
-  - concept-qinpeng-ai-as-amplifier
-  - tool-qinpeng-ai-intelligent-service
-  - framework-christensen-disruptive-innovation
-  - case-qinpeng-hardware-ai-amplification
-  - concept-cognitive-offloading-in-ai-era
-  - dk-ai-builder-illusion
-  - tool-马易-风口痛点识别法
-  - tool-遵循规模前倾原则设计组织架构
+- concept-qinpeng-ai-as-amplifier
+- tool-qinpeng-ai-intelligent-service
+- framework-christensen-disruptive-innovation
+- case-qinpeng-hardware-ai-amplification
+- concept-cognitive-offloading-in-ai-era
+- dk-ai-builder-illusion
+- tool-马易-风口痛点识别法
+- tool-遵循规模前倾原则设计组织架构
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:知识库转化
-  - scene:AI落地
-  - audience:一号位
-  - content-format:concept
-  - source-person:秦鹏
+- method:知识库转化
+- scene:AI落地
+- audience:一号位
+- content-format:concept
+- source-person:秦鹏
 discoverable_by:
-  - "怎么把经验变成AI能用的知识库"
-  - "知识库转化方法"
-  - "专家经验AI化"
+- 怎么把经验变成AI能用的知识库
+- 知识库转化方法
+- 专家经验AI化
 diagnostic_signals:
-  - signal: "知识库构建成本被低估（20年2000万字才'勉强能用'）"
-    severity: moderate
-    implication: "冷启动路径缺失——没有20年的企业怎么办"
+- signal: 知识库构建成本被低估（20年2000万字才'勉强能用'）
+  severity: moderate
+  implication: 冷启动路径缺失——没有20年的企业怎么办
 ---
 
 > **定位**：属于 `concept-qinpeng-ai-as-amplifier` 的**落地前提**——AI 能放大的不是"脑子里的经验"，而是"显性化、结构化后的知识库"。

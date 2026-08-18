@@ -3,7 +3,7 @@ id: framework-yitang-channel-unit-economics
 type: framework
 title: 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
 status: reviewed
-domain:
+domain: yitang
 confidence: 0.8
 trust_level: medium
 author: 老顽童
@@ -11,28 +11,28 @@ reviewed_by: 欧阳锋
 created_at: 2026-06-27
 updated_at: '2026-06-29'
 aliases:
-  - Truman
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 一堂五步法之增长
-  - 云电脑
-  - 单元经济模型
-  - 客渠道核算
-  - 把每个获客渠道当作独立经济单元核算
-  - 渠道单元经济模型
-  - 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
-  - 道单元经济模型
-source_refs:
+- Truman
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 一堂五步法之增长
+- 云电脑
+- 单元经济模型
+- 客渠道核算
+- 把每个获客渠道当作独立经济单元核算
+- 渠道单元经济模型
+- 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
+- 道单元经济模型
+source_refs: null
 source_person: Truman
 note: 本框架核心公式与案例来自 Truman 口述/笔记及一堂内部案例（L5 单源），单元经济概念跨域引自 yt-unit-model-concept/overview；外部基准阈值未找到独立验证来源，已删除或改为业务自定口径。
-related:
+related: null
 discoverable_by:
-  - "渠道单元经济模型"
-  - "获客渠道核算"
-  - "渠道ROI计算"
+- 渠道单元经济模型
+- 获客渠道核算
+- 渠道ROI计算
 review_date: '2026-06-28'
-tags:
+tags: null
 ---
 # 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
 

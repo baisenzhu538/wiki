@@ -1,41 +1,41 @@
 ---
 id: human-insights-domain-digest
-title: "域摘要：human-insights（人域——认识他人和自己）"
+title: 域摘要：human-insights（人域——认识他人和自己）
 type: index
 domain:
-  - human-insights
-  - system
+- human-insights
+- system
 status: draft
 author: 黄药师
 reviewed_by: 待审
 review_date: 2026-08-09
-confidence: 0.80
-trust_level: observed
+confidence: 0.8
+trust_level: medium
 source_refs:
-  - 60_feedback/tasks/task_20260809_huangyaoshi-human-domain-onboarding.md
-  - 60_feedback/tasks/task_20260804_wangyuyan-how-to-know-a-person-cards.md
+- 60_feedback/tasks/task_20260809_huangyaoshi-human-domain-onboarding.md
+- 60_feedback/tasks/task_20260804_wangyuyan-how-to-know-a-person-cards.md
 created_at: 2026-08-09
 updated_at: 2026-08-09
 tags:
-  - audience:all
-  - scene:reference
-  - skill-level:intermediate
+- audience:all
+- scene:reference
+- skill-level:intermediate
 aliases:
-  - 人域
-  - human-insights
-  - 认识他人
-  - 教练式领导力
+- 人域
+- human-insights
+- 认识他人
+- 教练式领导力
 discoverable_by:
-  - 人域
-  - human-insights
-  - 认识他人
-  - 教练式领导力
+- 人域
+- human-insights
+- 认识他人
+- 教练式领导力
 related:
-  - retrospective-moc
-  - framework-how-to-know-a-person
-  - framework-coaching-leadership-core
-  - framework-big-five-personality
-  - ai-basic-domain-digest
+- retrospective-moc
+- framework-how-to-know-a-person
+- framework-coaching-leadership-core
+- framework-big-five-personality
+- ai-basic-domain-digest
 ---
 
 # 人域 digest：认识他人 → 影响他人 → 自我认知

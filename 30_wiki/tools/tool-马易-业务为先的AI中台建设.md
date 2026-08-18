@@ -1,20 +1,22 @@
 ---
-
 id: tool-马易-业务为先的AI中台建设
-title: "tool 马易 业务为先的AI中台建设"
+title: tool 马易 业务为先的AI中台建设
 discoverable_by:
-  - tool 马易 业务为先的AI中台建设
-  - 业务为先的AI中台建设
-related:
+- tool 马易 业务为先的AI中台建设
+- 业务为先的AI中台建设
+related: null
 aliases:
-  - audience:general
-  - scene:reference
-  - skill-level:intermediate
-  - tool马易业务为先的AI中台建设
-  - 业务为先的AI中台建设
-  - 马易
-source_refs:
-tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
+- tool马易业务为先的AI中台建设
+- 业务为先的AI中台建设
+- 马易
+source_refs: null
+tags: null
+type: tool
+status: draft
+domain: unknown
 ---
 > 马易在 AI 落地场景识别中提出的核心实操方法。解决"先建平台还是先找场景"这个 AI 落地中最常见的路径错误。
 

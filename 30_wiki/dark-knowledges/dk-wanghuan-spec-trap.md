@@ -1,17 +1,16 @@
 ---
-
 id: dk-wanghuan-spec-trap
 title: 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
 type: dk
 dark_knowledge_type: insight
 status: reviewed
-domain:
+domain: wanghuan
 created_at: '2026-06-19'
 discoverable_by:
-  - 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
-  - 王欢暗知识
-  - 过度拆解会锁死
-quality_labels:
+- 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
+- 王欢暗知识
+- 过度拆解会锁死
+quality_labels: null
 updated_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -20,27 +19,23 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）中的 harness 流程与销售策略案例
 aliases:
-  - audience:executor
-  - scene:reference
-  - skill-level:intermediate
-  - 上限
-  - 王欢
-  - 王欢暗知识
-  - 王欢暗知识：Spec陷阱过度拆解会锁死AI上限
-  - 的七个阶段
-  - 示意图
-  - 过度拆解会锁死
-  - 陷阱
-source_refs:
-diagnostic_signals:
-lens: over-specification
-follow_up: 把 spec 拆成"方向 + 约束 + 验收"，删掉具体执行步骤
-lens: implicit-freeze
-follow_up: 在文档里显式标注"哪些不能改"，而不是"哪些必须按我说的做"
+- audience:executor
+- scene:reference
+- skill-level:intermediate
+- 上限
+- 王欢
+- 王欢暗知识
+- 王欢暗知识：Spec陷阱过度拆解会锁死AI上限
+- 的七个阶段
+- 示意图
+- 过度拆解会锁死
+- 陷阱
+source_refs: null
+diagnostic_signals: null
 lens: means-ends-confusion
 follow_up: 把验收标准前置，执行路径交给 AI 探索
-related:
-tags:
+related: null
+tags: null
 review_date: '2026-06-28'
 ---
 # 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限

@@ -1,9 +1,8 @@
 ---
-
 domain:
 - yitang
 id: yt-ai-startup-20-risky-hypotheses
-title: "AI创业20个高风险假设清单"
+title: AI创业20个高风险假设清单
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: intermediate
@@ -19,17 +18,19 @@ review_date: 2026-06-10
 reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - AI创业20个高风险假设清单
-  - 个高风险假设清单
+- AI创业20个高风险假设清单
+- 个高风险假设清单
 source_refs:
 - pending_archive:src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a
 discoverable_by:
-  - AI创业20个高风险假设清单
+- AI创业20个高风险假设清单
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 刘长胜
+type: concept
+status: draft
 ---
 # AI创业20个高风险假设清单
 

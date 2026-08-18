@@ -1,58 +1,58 @@
 ---
 id: design-moc
-title: "Design 主题域 MOC：知识库的 AI 设计知识网络"
+title: Design 主题域 MOC：知识库的 AI 设计知识网络
 type: index
 domain:
-  - system
-  - design
+- system
+- design
 status: draft
 author: 黄药师
 reviewed_by: 待审
 review_date: 2026-08-06
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 source_refs:
-  - 60_feedback/tasks/task_20260806_huangyaoshi-design-moc.md
+- 60_feedback/tasks/task_20260806_huangyaoshi-design-moc.md
 created_at: 2026-08-06
 updated_at: 2026-08-06
 tags:
-  - audience:hongqigong
-  - audience:laowantong
-  - audience:ouyangfeng
-  - scene:reference
-  - skill-level:intermediate
+- audience:hongqigong
+- audience:laowantong
+- audience:ouyangfeng
+- scene:reference
+- skill-level:intermediate
 aliases:
-  - design MOC
-  - 设计索引
-  - 设计知识网络
-  - AI设计导航
+- design MOC
+- 设计索引
+- 设计知识网络
+- AI设计导航
 discoverable_by:
-  - design MOC
-  - 设计索引
-  - AI设计导航
-  - 设计域有哪些
+- design MOC
+- 设计索引
+- AI设计导航
+- 设计域有哪些
 diagnostic_signals:
-  - signal: 'Design 是 276 张的大域——228 张 tool 卡散落 tools/ 目录，无 MOC 时找卡靠运气'
-    severity: high
-    implication: '洪七公生产视觉资产时不知道有哪些 AI 设计工具卡可用——B6/W8 两张牌退化为碰运气'
-  - signal: 'Design 子主题跨度大——AIGC基础/口喷电商/泛产品/视觉/审美，无索引无法导航'
-    severity: high
-    implication: '按 domain 字段聚合只能列出卡名——不知道各卡的关系和分工'
-  - signal: 'Design 域以 tool 卡为主(228/276)——MOC 的导航价值比 framework 域更大'
-    severity: medium
-    implication: 'Tool 卡天然碎片化——更需要 MOC 做聚合导航'
+- signal: Design 是 276 张的大域——228 张 tool 卡散落 tools/ 目录，无 MOC 时找卡靠运气
+  severity: high
+  implication: 洪七公生产视觉资产时不知道有哪些 AI 设计工具卡可用——B6/W8 两张牌退化为碰运气
+- signal: Design 子主题跨度大——AIGC基础/口喷电商/泛产品/视觉/审美，无索引无法导航
+  severity: high
+  implication: 按 domain 字段聚合只能列出卡名——不知道各卡的关系和分工
+- signal: Design 域以 tool 卡为主(228/276)——MOC 的导航价值比 framework 域更大
+  severity: medium
+  implication: Tool 卡天然碎片化——更需要 MOC 做聚合导航
 related:
-  - '[[aigc设计基础01ai生图原理与提示词基本功]]'
-  - '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
-  - '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
-  - '[[视觉prompt三层操作系统-srom-visual-os]]'
-  - '[[数据标注维度最佳实践调研报告]]'
-  - '[[case-live81-ai-trademark-design]]'
-  - '[[case-panproduct-top135-selection-polish]]'
-  - '[[case-panproduct-yitao-project-background]]'
-  - '[[case-yihang-dual-triangle-tianmo-design-delivery]]'
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[framework-一堂-表达力火箭模型]]'
+- '[[aigc设计基础01ai生图原理与提示词基本功]]'
+- '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
+- '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
+- '[[视觉prompt三层操作系统-srom-visual-os]]'
+- '[[数据标注维度最佳实践调研报告]]'
+- '[[case-live81-ai-trademark-design]]'
+- '[[case-panproduct-top135-selection-polish]]'
+- '[[case-panproduct-yitao-project-background]]'
+- '[[case-yihang-dual-triangle-tianmo-design-delivery]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[framework-一堂-表达力火箭模型]]'
 ---
 
 # Design 主题域 MOC

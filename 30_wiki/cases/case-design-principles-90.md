@@ -3,10 +3,9 @@ id: case-design-principles-90
 title: 设计原则 90 条：AI demo 最完整的饱和建模样本
 type: case
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-16
 author: 老顽童
-reviewed_by: 待审
 confidence: 0.85
 trust_level: medium
 language: zh-CN

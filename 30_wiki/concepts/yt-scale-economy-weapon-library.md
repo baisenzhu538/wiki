@@ -1,9 +1,8 @@
 ---
-
 domain:
 - yitang
 id: yt-scale-economy-weapon-library
-title: "规模经济分析武器库"
+title: 规模经济分析武器库
 confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
@@ -19,18 +18,20 @@ review_date: 2026-06-10
 reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 经济分析武器库
-  - 规模经济分析武器库
+- 经济分析武器库
+- 规模经济分析武器库
 source_refs:
 - pending_archive:src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
 discoverable_by:
-  - 规模经济分析武器库
+- 规模经济分析武器库
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 一堂五步法
 - 规模经济分析武器库
+type: concept
+status: draft
 ---
 # 规模经济分析武器库
 

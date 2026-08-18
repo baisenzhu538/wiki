@@ -14,10 +14,10 @@ query_triggers:
 - src_unknown（三栏结构）
 - src_unknown
 discoverable_by:
-  - 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
-  - 五步法画布
-  - 产品内核画布
-  - 从假设到壁垒的实操工具
+- 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
+- 五步法画布
+- 产品内核画布
+- 从假设到壁垒的实操工具
 related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-product-core]]'
@@ -28,12 +28,12 @@ related:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 五步法画布
-  - 五步法画布×产品内核画布：从假设到壁垒的实操工具
-  - 产品内核画布
-  - 从假设到壁垒的实操工具
-  - 法画布
-  - 设到壁垒的实操工具
+- 五步法画布
+- 五步法画布×产品内核画布：从假设到壁垒的实操工具
+- 产品内核画布
+- 从假设到壁垒的实操工具
+- 法画布
+- 设到壁垒的实操工具
 source_refs:
 - 10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md
 status: enriched
@@ -53,7 +53,7 @@ diagnostic_signals:
 - framework_lens: 两张画布的 zoom-in 关系没被激活——产品内核画布是解决方案模块的展开，但团队把它当成独立工具
   follow_up_question: 产品内核画布上的3-5条内核假设，对应五步法画布上哪个模块的哪条假设？如果对应不上，说明两张画布没有打通
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:ceo
 - scene:diagnosis

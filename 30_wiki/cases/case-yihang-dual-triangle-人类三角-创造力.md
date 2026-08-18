@@ -1,5 +1,4 @@
 ---
-
 id: case-yihang-dual-triangle-人类三角-创造力
 title: 人类三角-创造力 — 双三角案例
 type: case
@@ -9,27 +8,27 @@ created_at: 2026-07-04
 updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
-domain:
+domain: yihang
 aliases:
-  - #domain/ai-collaboration
-  - #method/dual-triangle
-  - audience:general
-  - scene:reference
-  - skill-level:intermediate
-  - 三角创造力双三角案例
-  - 人机协作双三角
-  - 人类三角
-  - 人类三角创造力双三角案例
-  - 创造力
-  - 双三角案例
-  - 角案例
-source_refs:
+- null
+- null
+- audience:general
+- scene:reference
+- skill-level:intermediate
+- 三角创造力双三角案例
+- 人机协作双三角
+- 人类三角
+- 人类三角创造力双三角案例
+- 创造力
+- 双三角案例
+- 角案例
+source_refs: null
 discoverable_by:
-  - 人类三角-创造力 — 双三角案例
-  - 人类三角
-  - 创造力
-  - 双三角案例
-tags:
+- 人类三角-创造力 — 双三角案例
+- 人类三角
+- 创造力
+- 双三角案例
+tags: null
 reviewed_by: pending
 ---
 # 人类三角-创造力

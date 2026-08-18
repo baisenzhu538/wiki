@@ -3,10 +3,9 @@ id: dk-research-important-things-must-do
 title: 重要的事应做必做：饱和式输出探索
 type: dk
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-16
 author: 老顽童
-reviewed_by: 待审
 confidence: 0.85
 trust_level: medium
 language: zh-CN

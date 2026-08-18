@@ -3,61 +3,61 @@ id: case-live258-fact-spread-18-bridges
 title: 「案例：18座桥口误扩散翻车——AI不质疑输入错误，只会工整扩散」
 type: case
 status: reviewed
-confidence: 0.80
-trust_level: observed
+confidence: 0.8
+trust_level: medium
 domain:
-  - ai-basic
-  - education
+- ai-basic
+- education
 author: 老顽童
 source_refs:
-  - 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
+- 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
 source_person: 王鹏飞（Live258 学员）
 source_context: Live258 AI基本功第一课优秀作业·王鹏飞「桥之旅」园本课程一进多出复盘（L2795-L2905），学员二手自述
 reviewed_by: 欧阳锋
 aliases:
-  - 18座桥
-  - 桥之旅
-  - 事实扩散
-  - 王鹏飞
-  - DataPack
-  - AI基本功
-  - Live258
+- 18座桥
+- 桥之旅
+- 事实扩散
+- 王鹏飞
+- DataPack
+- AI基本功
+- Live258
 discoverable_by:
-  - 事实扩散
-  - 口误扩散
-  - DataPack
-  - 事实约束
-  - 一进多出
-  - 园本课程
+- 事实扩散
+- 口误扩散
+- DataPack
+- 事实约束
+- 一进多出
+- 园本课程
 related:
-  - framework-truman-feature-thinking-core
-  - framework-truman-feature-layered-system
-  - dk-demand-feature-stacking
-  - ai-basic-domain-digest
-  - case-live258-zhihu-content-acquisition
-  - case-live258-livestream-prompt-v1-v5
-  - dk-ai-does-not-question-your-mistake
+- framework-truman-feature-thinking-core
+- framework-truman-feature-layered-system
+- dk-demand-feature-stacking
+- ai-basic-domain-digest
+- case-live258-zhihu-content-acquisition
+- case-live258-livestream-prompt-v1-v5
+- dk-ai-does-not-question-your-mistake
 tags:
-  - method:feature-thinking
-  - method:fact-control
-  - scene:education
-  - audience:practitioner
-  - content-format:case
-  - source-person:student
-  - evidence:observed
+- method:feature-thinking
+- method:fact-control
+- scene:education
+- audience:practitioner
+- content-format:case
+- source-person:student
+- evidence:observed
 created_at: 2026-08-12
 updated_at: 2026-08-12
 quality_labels:
-  - insight
-  - quotable
-  - actionable
+- insight
+- quotable
+- actionable
 diagnostic_signals:
-  - signal: "AI输出的数字/事实有错但一直没发现"
-    lens: 缺事实约束/DataPack Feature——AI不质疑输入错误，只工整扩散
-    follow_up: 把关键事实建成只读事实包，生成前强制引用、禁止推断
-  - signal: "一份内容要出多种交付物，结果四不像"
-    lens: 缺最终意图拆分——不同交付物混在同一句prompt里
-    follow_up: 每个交付物各写一句最终意图，一次只出一种
+- signal: AI输出的数字/事实有错但一直没发现
+  lens: 缺事实约束/DataPack Feature——AI不质疑输入错误，只工整扩散
+  follow_up: 把关键事实建成只读事实包，生成前强制引用、禁止推断
+- signal: 一份内容要出多种交付物，结果四不像
+  lens: 缺最终意图拆分——不同交付物混在同一句prompt里
+  follow_up: 每个交付物各写一句最终意图，一次只出一种
 review_date: 2026-08-13
 ---
 > 本卡属于 [[framework-truman-feature-thinking-core]] 的应用实证——事实约束缺口（DataPack/负面约束类 Feature 缺失）的真实代价案例。与 [[framework-truman-feature-layered-system]] 的 2B（上下文/生成标准）、2C（节奏控制）、1C（组合）坐标对应（学员自标坐标 L2811-L2857）；机制层见 [[dk-ai-does-not-question-your-mistake]]（AI 不质疑口误）。

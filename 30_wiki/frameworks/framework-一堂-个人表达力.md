@@ -7,12 +7,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 tags:
-  - method:表达力总框架
-  - scene:个人修炼
-  - audience:general
-  - content-format:framework
-  - source-person:李頔
-confidence: 0.90
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+confidence: 0.9
 trust_level: high
 language: zh-CN
 created_at: 2026-07-10
@@ -24,13 +22,13 @@ domain:
 - 火箭模型×十指讲香
 - 表达力总框架
 aliases:
-  - 一堂个人表达力总框架
-  - 一堂个人表达力总框架：火箭模型×十指讲香×逐字稿
-  - 个人修炼
-  - 个人表达力总框架
-  - 火箭模型
-  - 火箭模型×十指讲香×逐字稿
-  - 表达力总框架
+- 一堂个人表达力总框架
+- 一堂个人表达力总框架：火箭模型×十指讲香×逐字稿
+- 个人修炼
+- 个人表达力总框架
+- 火箭模型
+- 火箭模型×十指讲香×逐字稿
+- 表达力总框架
 source_refs:
 - 00_inbox/一堂-个人修炼-讲香十指模型口述版.txt L36-L80
 - 00_inbox/一堂-个人修炼-讲香基本功_paddle_ocr.txt
@@ -60,15 +58,11 @@ diagnostic_signals:
 quality_labels:
 - principle
 - actionable
-tags:
-- audience:ceo
-- scene:diagnosis
-- skill-level:advanced
 discoverable_by:
-- "一堂表达力框架"
-- "个人表达力总纲"
-- "讲香怎么学"
-- "表达力训练路径"
+- 一堂表达力框架
+- 个人表达力总纲
+- 讲香怎么学
+- 表达力训练路径
 - 个人修炼
 - 执行武器库
 ---

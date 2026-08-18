@@ -1,34 +1,33 @@
 ---
-
 id: dk-modeling-model-arsenal-paradigms
 title: 99% 的模型跑不出二三十个范式：先装武器库再创新
 type: dk
 dark_knowledge_type: insight
 status: reviewed
-domain:
+domain: modeling
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 aliases:
-  - 99%的模型跑不出二三十个范式：先装武器库再创新
-  - Truman
-  - audience:executor
-  - scene:reference
-  - skill-level:intermediate
-  - 先装武器库再创新
-  - 型跑不出二三十个范式
-  - 建模能力培训
-  - 武器库再创新
-  - 的模型跑不出二三十个范式
-source_refs:
+- 99%的模型跑不出二三十个范式：先装武器库再创新
+- Truman
+- audience:executor
+- scene:reference
+- skill-level:intermediate
+- 先装武器库再创新
+- 型跑不出二三十个范式
+- 建模能力培训
+- 武器库再创新
+- 的模型跑不出二三十个范式
+source_refs: null
 confidence: 0.89
 trust_level: medium
 diagnostic_signals: null
 discoverable_by:
-  - 99% 的模型跑不出二三十个范式：先装武器库再创新
-  - 的模型跑不出二三十个范式
-  - 先装武器库再创新
-related:
-tags:
+- 99% 的模型跑不出二三十个范式：先装武器库再创新
+- 的模型跑不出二三十个范式
+- 先装武器库再创新
+related: null
+tags: null
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'

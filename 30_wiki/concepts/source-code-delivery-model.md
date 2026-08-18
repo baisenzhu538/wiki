@@ -2,11 +2,11 @@
 id: source-code-delivery-model
 title: 源码交付模式
 type: concept
-status: stable
+status: reviewed
 domain:
-  - saas
-  - business-formula
-  - 软件交付
+- saas
+- business-formula
+- 软件交付
 confidence: 0.85
 trust_level: high
 diagnostic_signals:
@@ -25,10 +25,10 @@ source_refs:
 - src_unknown
 - src_unknown
 aliases:
-  - 交付模式
-  - 源码交付模式
+- 交付模式
+- 源码交付模式
 discoverable_by:
-  - 源码交付模式
+- 源码交付模式
 quality_labels:
 - cited
 - principle

@@ -1,15 +1,14 @@
 ---
-
 id: tool-泛产品设计-需求可行性四字诀
 title: 泛产品设计·需求可行性四字诀（拆推评算）
 type: tool
 status: reviewed
 confidence: 0.85
-trust_level: medium-high
+trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - pan-product
+- yitang
+- pan-product
 priority: P1
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -17,28 +16,28 @@ review_date: 2026-07-08
 created_at: 2026-07-08
 updated_at: 2026-07-08
 source_refs:
-  - 30_wiki/concepts/yt-model-pan-product-demand-toolkit.md
-  - 30_wiki/concepts/yt-entrepreneur-needs-analysis.md
-  - 30_wiki/concepts/yt-personal-pan-product-practice.md
-  - 30_wiki/frameworks/yt-unit-model-ladder.md
+- 30_wiki/concepts/yt-model-pan-product-demand-toolkit.md
+- 30_wiki/concepts/yt-entrepreneur-needs-analysis.md
+- 30_wiki/concepts/yt-personal-pan-product-practice.md
+- 30_wiki/frameworks/yt-unit-model-ladder.md
 discoverable_by:
-  - 泛产品设计·需求可行性四字诀拆推评算
-  - 泛产品设计
-  - 需求可行性四字诀拆推评算
+- 泛产品设计·需求可行性四字诀拆推评算
+- 泛产品设计
+- 需求可行性四字诀拆推评算
 related:
-  - "[[yt-model-pan-product-demand-toolkit]]"
-  - "[[yt-entrepreneur-needs-analysis]]"
-  - "[[yt-entrepreneur-five-step-method]]"
-  - "[[tool-泛产品设计-出牌指南]]"
-  - "[[yt-model-pan-product-product-core]]"
-  - "[[yt-model-pan-product-unit-model]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-entrepreneur-needs-analysis]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[tool-泛产品设计-出牌指南]]'
+- '[[yt-model-pan-product-product-core]]'
+- '[[yt-model-pan-product-unit-model]]'
+- '[[framework-一堂五步法-泛产品设计]]'
 aliases:
-  - 泛产品设计需求可行性四字诀拆推评算
-  - 泛产品设计
-  - 需求可行性四字诀拆推评算
-  - 一堂五步法
-  - 出牌指南
+- 泛产品设计需求可行性四字诀拆推评算
+- 泛产品设计
+- 需求可行性四字诀拆推评算
+- 一堂五步法
+- 出牌指南
 ---
 
 # 泛产品设计·需求可行性四字诀（拆推评算）

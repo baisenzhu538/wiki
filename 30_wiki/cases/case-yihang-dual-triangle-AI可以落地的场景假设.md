@@ -1,5 +1,4 @@
 ---
-
 id: case-yihang-dual-triangle-AI可以落地的场景假设
 title: AI可以落地的场景假设 — 双三角案例
 type: case
@@ -9,26 +8,26 @@ created_at: 2026-07-04
 updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
-domain:
+domain: yihang
 aliases:
-  - #domain/ai-collaboration
-  - #method/dual-triangle
-  - AI可以落地的场景假设
-  - AI可以落地的场景假设双三角案例
-  - audience:executor
-  - scene:reference
-  - skill-level:intermediate
-  - 人机协作双三角
-  - 双三角案例
-  - 可以落地的场景假设
-  - 可以落地的场景假设双三角案例
-  - 角案例
-source_refs:
+- null
+- null
+- AI可以落地的场景假设
+- AI可以落地的场景假设双三角案例
+- audience:executor
+- scene:reference
+- skill-level:intermediate
+- 人机协作双三角
+- 双三角案例
+- 可以落地的场景假设
+- 可以落地的场景假设双三角案例
+- 角案例
+source_refs: null
 discoverable_by:
-  - AI可以落地的场景假设 — 双三角案例
-  - AI可以落地的场景假设
-  - 双三角案例
-tags:
+- AI可以落地的场景假设 — 双三角案例
+- AI可以落地的场景假设
+- 双三角案例
+tags: null
 reviewed_by: pending
 ---
 # AI可以落地的场景假设

@@ -1,9 +1,8 @@
 ---
-
 domain:
 - modeling
 id: yt-model-prediction-model
-title: "预判模型：从最糙版到复杂版的三种预判范式"
+title: 预判模型：从最糙版到复杂版的三种预判范式
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
@@ -20,21 +19,23 @@ superseded_by:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 从最糙版到复杂版的三种预判范式
-  - 糙版到复杂版的三种预判范式
-  - 预判模型
-  - 预判模型：从最糙版到复杂版的三种预判范式
+- 从最糙版到复杂版的三种预判范式
+- 糙版到复杂版的三种预判范式
+- 预判模型
+- 预判模型：从最糙版到复杂版的三种预判范式
 source_refs:
 - pending_archive:src_20260522_e71d89ff-ocr-预判模型
 discoverable_by:
-  - 预判模型：从最糙版到复杂版的三种预判范式
-  - 预判模型
-  - 从最糙版到复杂版的三种预判范式
+- 预判模型：从最糙版到复杂版的三种预判范式
+- 预判模型
+- 从最糙版到复杂版的三种预判范式
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 预判模型
+type: concept
+status: draft
 ---
 # 预判模型：从最糙版到复杂版的三种预判范式
 

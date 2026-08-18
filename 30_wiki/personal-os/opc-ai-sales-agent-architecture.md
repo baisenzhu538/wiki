@@ -2,7 +2,7 @@
 id: opc-ai-sales-agent-architecture
 title: OPC AI 销售智能体架构
 type: system
-status: active
+status: enriched
 author: 王语嫣
 reviewed_by: 欧阳锋
 created_at: 2026-07-02

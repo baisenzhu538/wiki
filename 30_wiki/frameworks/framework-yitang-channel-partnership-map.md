@@ -8,34 +8,34 @@ reviewed_by: 欧阳锋
 review_date: 2026-06-29
 confidence: 0.82
 trust_level: medium
-domain:
+domain: yitang
 created_at: '2026-06-29'
-quality_labels:
+quality_labels: null
 updated_at: '2026-06-29'
 aliases:
-  - audience:ceo
-  - details
-  - itingnao
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 众品类渠道
-  - 品类渠道合伙人
-  - 地图模式
-  - 域包干决策
-  - 小众品类渠道合伙人/区域包干决策框架卖地图模式
-  - 干决策
-  - 战略培训案例
-  - 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）/ Truman（渠道方法论）
-  - 道合伙人
-source_refs:
+- audience:ceo
+- details
+- itingnao
+- scene:diagnosis
+- skill-level:intermediate
+- 众品类渠道
+- 品类渠道合伙人
+- 地图模式
+- 域包干决策
+- 小众品类渠道合伙人/区域包干决策框架卖地图模式
+- 干决策
+- 战略培训案例
+- 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）/ Truman（渠道方法论）
+- 道合伙人
+source_refs: null
 source_person: 王语嫣（九层深挖诊断）/ 冉鹏（战略培训案例）/ Truman（渠道方法论）
-related:
+related: null
 discoverable_by:
-  - "渠道合伙人"
-  - "卖地图模式"
-  - "区域包干决策"
-  - "小众品类渠道"
-tags:
+- 渠道合伙人
+- 卖地图模式
+- 区域包干决策
+- 小众品类渠道
+tags: null
 ---
 # 小众品类渠道合伙人/区域包干决策框架（「卖地图」模式）
 

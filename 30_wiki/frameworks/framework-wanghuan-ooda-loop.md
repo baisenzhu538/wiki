@@ -3,7 +3,7 @@ id: framework-wanghuan-ooda-loop
 title: 王欢OODA闭环：人机协作的决策迭代框架
 type: framework
 status: reviewed
-domain:
+domain: wanghuan
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -13,21 +13,18 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 aliases:
-  - lens: 观察瘫痪
-  - 人机协作的决策迭代框架
-  - 协作的决策迭代框架
-  - 王欢
-  - 王欢OODA闭环
-  - 王欢OODA闭环：人机协作的决策迭代框架
-source_refs:
-related:
+- lens: 观察瘫痪
+- 人机协作的决策迭代框架
+- 协作的决策迭代框架
+- 王欢
+- 王欢OODA闭环
+- 王欢OODA闭环：人机协作的决策迭代框架
+source_refs: null
+related: null
 discoverable_by:
-  - "王欢OODA闭环"
-tags:
-diagnostic_signals:
-follow_up: 当前卡在哪个 OODA 环节？能否定义最小观察集，先转完一圈再迭代？
-follow_up: 是否在行动前先把观察到的事实放入固定上下文？约束和红线条是否显式化？
-follow_up: 能否把决策拆成一个可验证的小实验，用下一轮观察来降低不确定性？
+- 王欢OODA闭环
+tags: null
+diagnostic_signals: null
 follow_up: 每次行动是否设计了明确的反馈信号，并写入了下一轮观察清单？
 ---
 # 王欢OODA闭环：人机协作的决策迭代框架

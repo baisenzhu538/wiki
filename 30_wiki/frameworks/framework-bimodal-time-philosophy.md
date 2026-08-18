@@ -11,29 +11,18 @@ trust_level: medium
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "双峰时间哲学"
-  - "时间管理双峰模型"
+- 双峰时间哲学
+- 时间管理双峰模型
 diagnostic_signals:
   lens: placeholder
   follow-up: 后续补全
-quality_labels:
-tags:
-aliases:
-  - 双峰时间哲学模型
-  - 间哲学
-  - 间管理双峰模型
-  - 理双峰模型
-  - 峰时间哲学
-  - 时间哲学模型
-aliases:
-  - 双峰时间哲学模型
-  - 峰时间哲学
-  - 间管理双峰模型
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 双峰时间哲学模型
 

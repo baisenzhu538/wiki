@@ -6,28 +6,28 @@ status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-23
-quality_labels:
+quality_labels: null
 created_at: 2026-06-23
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 型决策
-  - 张磊教练
-  - 益转型决策
-  - 精益验证结果如何触发战略/产品
-  - 精益验证结果如何触发战略/产品pivot
-  - 验证结果如何触发战略
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 型决策
+- 张磊教练
+- 益转型决策
+- 精益验证结果如何触发战略/产品
+- 精益验证结果如何触发战略/产品pivot
+- 验证结果如何触发战略
+source_refs: null
+related: null
 discoverable_by:
-  - "精益转型决策"
+- 精益转型决策
 updated_at: 2026-07-02
-tags:
+tags: null
 ---
 # 精益验证结果如何触发战略/产品 pivot
 

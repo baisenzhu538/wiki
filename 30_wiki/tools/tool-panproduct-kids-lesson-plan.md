@@ -4,76 +4,70 @@ title: 「工具：K12泛产品设计完整教案 — 四步法+四级作业+提
 type: tool
 status: reviewed
 confidence: 0.85
-trust_level: medium-high
+trust_level: high
 domain:
-  - panproduct
-  - education
+- panproduct
+- education
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 tags:
-  - method:教案设计
-  - scene:K12教育
-  - audience:教师
-  - content-format:tool
-  - source-person:崔磊
+- tool
+- method:panproduct-design
+- method:lesson-plan
+- method:design-thinking
+- scene:k12-education
+- scene:classroom
+- audience:parents-teachers
+- audience:kids
+- content-format:tool
+- source-person:崔磊
 aliases:
-  - K12四步法教学
-  - K12泛产品教案
-  - K12泛产品设计完整教案
-  - 儿童泛产品课程
-  - 儿童版泛产品设计教案
-  - 四步法+四级作业
-  - 四步法+四级作业+提示词模板
-  - 四级作业
-  - 孩子做完班徽就停了
-  - 崔磊
-  - 崔磊教案
-  - 工具
-  - 工具：K12泛产品设计完整教案四步法+四级作业+提示词模板
-  - 班徽设计课
+- K12四步法教学
+- K12泛产品教案
+- K12泛产品设计完整教案
+- 儿童泛产品课程
+- 儿童版泛产品设计教案
+- 四步法+四级作业
+- 四步法+四级作业+提示词模板
+- 四级作业
+- 孩子做完班徽就停了
+- 崔磊
+- 崔磊教案
+- 工具
+- 工具：K12泛产品设计完整教案四步法+四级作业+提示词模板
+- 班徽设计课
 source_refs:
-  - 00_inbox/yitang-AI club/live84/🎯AI落地Live第84场·一堂✖️探月特别篇 逐字稿.md
-  - 60_feedback/diagnosis/diag_20260802_wangyuyan-live84-kids-panproduct.md
+- 00_inbox/yitang-AI club/live84/🎯AI落地Live第84场·一堂✖️探月特别篇 逐字稿.md
+- 60_feedback/diagnosis/diag_20260802_wangyuyan-live84-kids-panproduct.md
 source_person: 崔磊
 related:
-  - bridge-panproduct-kids-translation
-  - tool-panproduct-kids-card-naming
-  - framework-一堂五步法-泛产品设计
-  - case-cui-lei-kids-ai-design-class
-  - dk-ai-as-last-step-not-first
-  - concept-一堂-product-kernel
-  - yt-panproduct-demand-scenario-walkthrough
-  - yt-panproduct-aesthetic-collection
-  - yt-panproduct-aesthetic-modeling
+- bridge-panproduct-kids-translation
+- tool-panproduct-kids-card-naming
+- framework-一堂五步法-泛产品设计
+- case-cui-lei-kids-ai-design-class
+- dk-ai-as-last-step-not-first
+- concept-一堂-product-kernel
+- yt-panproduct-demand-scenario-walkthrough
+- yt-panproduct-aesthetic-collection
+- yt-panproduct-aesthetic-modeling
 diagnostic_signals:
-  - signal: 「家长/老师想带孩子做泛产品设计但不知道具体怎么操作」
-    lens: 有方法论框架但缺少可直接执行的教案
-    follow_up: 用本卡的「四步法每步动作+技能卡用法」直接执行
-  - signal: 「孩子做完班徽就停了，不知道怎么迁移到其他场景」
-    lens: 只做了基础作业，没有做迁移作业
-    follow_up: 用四级作业体系的设计（必做→选做→挑战→作品集）引导迁移
-  - signal: 「学生投完票就停了，没有打磨」
-    lens: 跳过了打磨通关这一步
-    follow_up: 引导学生做加法-减法-验证的完整循环（见本卡第四步）
+- signal: 「家长/老师想带孩子做泛产品设计但不知道具体怎么操作」
+  lens: 有方法论框架但缺少可直接执行的教案
+  follow_up: 用本卡的「四步法每步动作+技能卡用法」直接执行
+- signal: 「孩子做完班徽就停了，不知道怎么迁移到其他场景」
+  lens: 只做了基础作业，没有做迁移作业
+  follow_up: 用四级作业体系的设计（必做→选做→挑战→作品集）引导迁移
+- signal: 「学生投完票就停了，没有打磨」
+  lens: 跳过了打磨通关这一步
+  follow_up: 引导学生做加法-减法-验证的完整循环（见本卡第四步）
 quality_labels:
-  - actionable
-  - cited
+- actionable
+- cited
 discoverable_by:
-  - 「怎么教孩子泛产品设计」
-  - 「班徽设计活动教案」
-  - 「K12产品设计课程」
-tags:
-  - tool
-  - method:panproduct-design
-  - method:lesson-plan
-  - method:design-thinking
-  - scene:k12-education
-  - scene:classroom
-  - audience:parents-teachers
-  - audience:kids
-  - content-format:tool
-  - source-person:崔磊
+- 「怎么教孩子泛产品设计」
+- 「班徽设计活动教案」
+- 「K12产品设计课程」
 created_at: 2026-08-02
 updated_at: 2026-08-02
 ---

@@ -10,35 +10,19 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "关键假设三板斧"
-  - "加法减法验证迭代"
-  - "假设驱动收敛"
+- 关键假设三板斧
+- 加法减法验证迭代
+- 假设驱动收敛
 diagnostic_signals:
-  lens: 跳过减法和验证——加法做完就开工
-  follow-up: 强制走减法拉到2-3条，每条配最便宜验证，验证通过前不大投
   lens: 缺迭代——把验证当终点而非贝叶斯更新
   follow-up: 用贝叶斯思维：新证据出现后验概率要更新，定期重估关键假设
-quality_labels:
-tags:
-aliases:
-  - 一堂关键假设三板斧骨架：加法→减法→验证→迭代的收敛逻辑
-  - 一堂关键假设三板斧骨架
-  - 加法→减法→验证→迭代的收敛逻辑
-  - 法验证迭代
-  - 关键假设三板斧骨架
-  - 设驱动收敛
-aliases:
-  - 一堂关键假设三板斧骨架：加法→减法→验证→迭代的收敛逻辑
-  - 一堂关键假设三板斧骨架
-  - 加法→减法→验证→迭代的收敛逻辑
-  - 法减法验证迭代
-  - 设驱动收敛
-  - 键假设三板斧
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 一堂关键假设三板斧（骨架）
 

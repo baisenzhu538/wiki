@@ -3,54 +3,53 @@ id: dk-emotional-value-premium
 title: 「暗知识：情绪价值溢价——功能1.5倍上限，情绪10-100倍」
 type: dk
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-09
 confidence: 0.85
-trust_level: medium-high
+trust_level: high
 domain:
-  - human-insights
-  - panproduct
+- human-insights
+- panproduct
 author: 老顽童
 source_refs:
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
 source_person: 水水
 source_context: 水水一堂拆书会，商业应用部分
-reviewed_by: 待审
 aliases:
-  - 情绪价值溢价
-  - 功能价值上限
-  - 情绪价值10倍
+- 情绪价值溢价
+- 功能价值上限
+- 情绪价值10倍
 discoverable_by:
-  - 情绪价值
-  - 功能价值
-  - 溢价
-  - 产品定价
+- 情绪价值
+- 功能价值
+- 溢价
+- 产品定价
 related:
-  - framework-how-to-know-a-person
-  - dk-emotional-value-high-bar
-  - bridge-how-to-know-person-to-business
-  - case-ai-pet-emotional-product
-  - framework-christensen-disruptive-innovation
-  - dk-agreeableness-double-edged
+- framework-how-to-know-a-person
+- dk-emotional-value-high-bar
+- bridge-how-to-know-person-to-business
+- case-ai-pet-emotional-product
+- framework-christensen-disruptive-innovation
+- dk-agreeableness-double-edged
 tags:
-  - method:pricing
-  - method:product-design
-  - scene:product-strategy
-  - audience:product-managers
-  - content-format:dk
-  - source-person:水水
+- method:pricing
+- method:product-design
+- scene:product-strategy
+- audience:product-managers
+- content-format:dk
+- source-person:水水
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels:
-  - insight
-  - cited
+- insight
+- cited
 diagnostic_signals:
-  - signal: "产品功能做到90分但定价上不去"
-    lens: 在功能维度内卷——功能溢价的尽头是1.5倍
-    follow_up: 不是在功能上加更多，是在情绪上加价值
-  - signal: "竞品卖50我只能卖50，降价才能竞争"
-    lens: 你没有情绪价值层——用户选你只是因为便宜
-    follow_up: 问：如果用户不是因为便宜选我，还会因为什么？
+- signal: 产品功能做到90分但定价上不去
+  lens: 在功能维度内卷——功能溢价的尽头是1.5倍
+  follow_up: 不是在功能上加更多，是在情绪上加价值
+- signal: 竞品卖50我只能卖50，降价才能竞争
+  lens: 你没有情绪价值层——用户选你只是因为便宜
+  follow_up: 问：如果用户不是因为便宜选我，还会因为什么？
 ---
 
 > ⚠️ 数据标注：功能1.5倍和情绪10-100倍为水水估计值，非学术研究数据。本卡保留推理逻辑，标注置信度0.85。

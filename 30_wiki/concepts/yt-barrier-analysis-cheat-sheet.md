@@ -1,9 +1,8 @@
 ---
-
 id: yt-barrier-analysis-cheat-sheet
-title: "壁垒分析完整cheatsheet"
+title: 壁垒分析完整cheatsheet
 discoverable_by:
-  - 壁垒分析完整cheatsheet
+- 壁垒分析完整cheatsheet
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-scale-economy-weapon-library]]'
@@ -11,14 +10,17 @@ related:
 - '[[case-toy-cabinet-business-model]]'
 - '[[pending_unknown]]'
 aliases:
-  - 分析完整
-  - 壁垒分析完整cheatsheet
+- 分析完整
+- 壁垒分析完整cheatsheet
 source_refs:
 - pending_archive: src_unknown
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+type: concept
+status: draft
+domain: yitang
 ---
 # 壁垒分析完整cheatsheet
 

@@ -1,41 +1,41 @@
 ---
 id: case-252-quality-gate-pilot
-title: "#252 消费端协议试点：用Feature思维分析卡片质量门禁体系"
+title: '#252 消费端协议试点：用Feature思维分析卡片质量门禁体系'
 type: case
 status: draft
 domain:
-  - ai-basic
-  - kdo
+- ai-basic
+- kdo
 author: AI基本功教练
 reviewed_by: 欧阳锋
 review_date: 2026-08-09
 confidence: 0.9
-trust_level: observed
+trust_level: medium
 source_refs:
-  - 10_raw/sources/feature-periodic-table-v0.8.json
-  - cap_hub/features.json
-  - 30_wiki/bridges/bridge-dual-track-feature-system.md
-  - 30_wiki/dark-knowledges/dk-c8-format-complete-mind-empty.md
+- 10_raw/sources/feature-periodic-table-v0.8.json
+- cap_hub/features.json
+- 30_wiki/bridges/bridge-dual-track-feature-system.md
+- 30_wiki/dark-knowledges/dk-c8-format-complete-mind-empty.md
 related:
-  - '[[bridge-dual-track-feature-system]]'
-  - '[[dk-agent-access-kdo-pitfalls]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
-  - '[[agent-spec-basic-skills-coach]]'
+- '[[bridge-dual-track-feature-system]]'
+- '[[dk-agent-access-kdo-pitfalls]]'
+- '[[dk-c8-format-complete-mind-empty]]'
+- '[[agent-spec-basic-skills-coach]]'
 created_at: 2026-08-09
 updated_at: 2026-08-09
 tags:
-  - audience:general
-  - scene:reference
-  - skill-level:intermediate
-  - method:feature-thinking
+- audience:general
+- scene:reference
+- skill-level:intermediate
+- method:feature-thinking
 aliases:
-  - #252
-  - 消费端试点
-  - quality-gate-pilot
+- null
+- 消费端试点
+- quality-gate-pilot
 discoverable_by:
-  - #252
-  - 消费端试点
-  - quality-gate-pilot
+- null
+- 消费端试点
+- quality-gate-pilot
 ---
 
 # #252 消费端协议试点：Feature思维 × 质量门禁体系

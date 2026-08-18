@@ -1,15 +1,14 @@
 ---
-
 id: pending_unknown
 title: 待补充链接（占位符）
 type: system
 domain:
-  - meta
-status: placeholder
+- meta
+status: draft
 author: system
 reviewed_by: 欧阳锋
 confidence: 0
-trust_level: placeholder
+trust_level: medium
 created_at: 2026-06-28
 updated_at: 2026-06-28
 related: []

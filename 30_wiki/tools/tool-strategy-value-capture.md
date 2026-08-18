@@ -1,35 +1,34 @@
 ---
-
 id: tool-strategy-value-capture
 title: 价值获取设计工具：8 问盈利模型
 type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
-domain:
+domain: strategy
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:advanced
-  - 价值获取设计工具
-  - 价值获取设计工具：8问盈利模型
-  - 冉鹏PPT截图
-  - 利模型
-  - 引擎点火
-  - 获取设计工具
-  - 问盈利模型
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:advanced
+- 价值获取设计工具
+- 价值获取设计工具：8问盈利模型
+- 冉鹏PPT截图
+- 利模型
+- 引擎点火
+- 获取设计工具
+- 问盈利模型
+source_refs: null
 discoverable_by:
-  - 价值获取设计工具：8 问盈利模型
-  - 价值获取设计工具
-  - 问盈利模型
-quality_labels:
+- 价值获取设计工具：8 问盈利模型
+- 价值获取设计工具
+- 问盈利模型
+quality_labels: null
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 老顽童
 reviewed_by: pending
-related:
-tags:
+related: null
+tags: null
 ---
 # 价值获取设计工具：8 问盈利模型
 

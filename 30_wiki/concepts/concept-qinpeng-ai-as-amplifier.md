@@ -8,46 +8,46 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.99
-trust_level: observed
+trust_level: medium
 aliases:
-  - AI放大器论
-  - AI是能力放大器
-  - AI是能力放大器：不创造能力，只放大已有积累
-  - Christensen
-  - src_20260802_创新者的窘境_秦鹏拆书
-  - 不创造能力
-  - 创新者的窘境
-  - 只放大已有积累
-  - 放大器
-  - 放大器论
-  - 能力放大器
+- AI放大器论
+- AI是能力放大器
+- AI是能力放大器：不创造能力，只放大已有积累
+- Christensen
+- src_20260802_创新者的窘境_秦鹏拆书
+- 不创造能力
+- 创新者的窘境
+- 只放大已有积累
+- 放大器
+- 放大器论
+- 能力放大器
 source_refs:
-  - 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
+- 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
 related:
-  - framework-christensen-disruptive-innovation
-  - tool-qinpeng-ai-intelligent-service
-  - concept-qinpeng-knowledge-base-conversion
-  - ai-landing-scene-selection
-  - tool-马易-AI落地场景识别与拆分
-  - tool-马易-风口痛点识别法
-  - dk-ai-as-last-step-not-first
+- framework-christensen-disruptive-innovation
+- tool-qinpeng-ai-intelligent-service
+- concept-qinpeng-knowledge-base-conversion
+- ai-landing-scene-selection
+- tool-马易-AI落地场景识别与拆分
+- tool-马易-风口痛点识别法
+- dk-ai-as-last-step-not-first
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:AI能力放大器
-  - scene:AI落地判断
-  - audience:一号位
-  - content-format:concept
-  - source-person:秦鹏
+- method:AI能力放大器
+- scene:AI落地判断
+- audience:一号位
+- content-format:concept
+- source-person:秦鹏
 discoverable_by:
-  - "AI能创造新能力吗"
-  - "AI放大已有能力"
-  - "AI的本质是什么"
+- AI能创造新能力吗
+- AI放大已有能力
+- AI的本质是什么
 diagnostic_signals:
-  - signal: "六层交叉验证置信度0.99——为本次生产最高置信度陈述"
-    severity: low
-    implication: "可作为AI领域的基础认知锚点"
+- signal: 六层交叉验证置信度0.99——为本次生产最高置信度陈述
+  severity: low
+  implication: 可作为AI领域的基础认知锚点
 ---
 
 > **定位**：属于 `tool-qinpeng-ai-intelligent-service` 的**前提概念**——AI是放大器不是创造器。你必须先有可被放大的积累。

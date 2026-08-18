@@ -3,35 +3,35 @@ id: framework-yitang-growth-flywheel
 type: framework
 title: 增长飞轮：把单点增长变成自我强化的增强回路
 status: reviewed
-domain:
+domain: growth
 confidence: 0.8
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
-quality_labels:
+quality_labels: null
 updated_at: '2026-06-28'
 aliases:
-  - Truman
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 一堂五步法之增长
-  - 亚马逊增长飞轮
-  - 增长飞轮
-  - 增长飞轮：把单点增长变成自我强化的增强回路
-  - 强回路
-  - 把单点增长变成自我强化的增强回路
-  - 长飞轮
-source_refs:
+- Truman
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 一堂五步法之增长
+- 亚马逊增长飞轮
+- 增长飞轮
+- 增长飞轮：把单点增长变成自我强化的增强回路
+- 强回路
+- 把单点增长变成自我强化的增强回路
+- 长飞轮
+source_refs: null
 source_person: Truman
-related:
+related: null
 discoverable_by:
-  - "增长飞轮"
-  - "增强回路"
-  - "单点增长系统化"
+- 增长飞轮
+- 增强回路
+- 单点增长系统化
 review_date: '2026-06-28'
-tags:
+tags: null
 ---
 # 增长飞轮：把单点增长变成自我强化的增强回路
 

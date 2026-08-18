@@ -8,24 +8,24 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 十年修炼
-  - 手十年修炼地图
-  - 益高手十年修炼地图
-  - 精益创业
-  - 精益高手十年修炼地图
-  - 高手十年修炼地图
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 十年修炼
+- 手十年修炼地图
+- 益高手十年修炼地图
+- 精益创业
+- 精益高手十年修炼地图
+- 高手十年修炼地图
+source_refs: null
+related: null
 discoverable_by:
-  - "精益高手十年修炼地图"
+- 精益高手十年修炼地图
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 精益高手十年修炼地图
 

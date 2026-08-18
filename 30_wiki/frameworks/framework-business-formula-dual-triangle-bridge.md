@@ -10,31 +10,17 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-12
 updated_at: 2026-07-12
-domain:
-source_refs:
-related:
+domain: business-formula
+source_refs: null
+related: null
 discoverable_by:
-  - "业务公式双三角桥接"
+- 业务公式双三角桥接
 diagnostic_signals:
-  lens: C域桥接缺失——双三角给了六顶点框架，但没有告诉你怎么从业务里挖出参数给AI吃
-  follow-up: 用本卡的六顶点映射表，每个顶点找到对应的C域能力入口
   lens: 飞轮只定义了"人/AI/能力"三回路，缺少"业务指标→参数→验证→飞轮转速"的对接点
   follow-up: 见§三飞轮对接：参数变化率=飞轮转速的量化代理
-quality_labels:
-tags:
-aliases:
-  - 业务公式×双三角桥接：C域在六顶点中的定位与映射
-  - 业务公式×双三角桥接
-  - C域在六顶点中的定位与映射
-  - 在六顶点中的定位与映射
-  - 双三角桥接
-  - 式双三角桥接
-aliases:
-  - 业务公式×双三角桥接：C域在六顶点中的定位与映射
-  - 业务公式×双三角桥接
-  - C域在六顶点中的定位与映射
-  - 务公式双三角桥接
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 <!--
   桥接卡骨架 — C域本体卡产出后补充 wikilink。

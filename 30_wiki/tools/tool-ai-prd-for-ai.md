@@ -1,5 +1,4 @@
 ---
-
 id: tool-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
 type: tool
@@ -12,18 +11,18 @@ author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
-trust_level: medium-low
+trust_level: low
 aliases:
-  - 技能
-  - 技能：把PRD写成AI能执行的指令
-  - 把PRD写成AI能执行的指令
-  - 能执行的指令
+- 技能
+- 技能：把PRD写成AI能执行的指令
+- 把PRD写成AI能执行的指令
+- 能执行的指令
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 discoverable_by:
-  - 技能：把PRD写成AI能执行的指令
-  - 把PRD写成AI能执行的指令
+- 技能：把PRD写成AI能执行的指令
+- 把PRD写成AI能执行的指令
 related:
 - '[[tool-ai-evidence-check]]'
 - '[[tool-ai-ai-workspace-setup]]'

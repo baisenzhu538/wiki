@@ -4,12 +4,12 @@ title: 加法减法实操：从100个选项到3个高概率方向
 type: concept
 domain: src-unknown
 aliases:
-  - 个选项到
-  - 个高概率方向
-  - 从100个选项到3个高概率方向
-  - 减法实操
-  - 加法减法实操
-  - 加法减法实操：从100个选项到3个高概率方向
+- 个选项到
+- 个高概率方向
+- 从100个选项到3个高概率方向
+- 减法实操
+- 加法减法实操
+- 加法减法实操：从100个选项到3个高概率方向
 source_refs:
 - src_unknown
 status: draft
@@ -42,11 +42,11 @@ diagnostic_signals:
   follow_up_question: 你的减法是分了几层进行的？如果只有一层，会漏掉潜在好选项
 updated_at: '2026-06-28'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 discoverable_by:
-  - 加法减法实操：从100个选项到3个高概率方向
-  - 加法减法实操
-  - 从100个选项到3个高概率方向
+- 加法减法实操：从100个选项到3个高概率方向
+- 加法减法实操
+- 从100个选项到3个高概率方向
 related:
 - '[[yt-foresight-15-char-mantra]]'
 - '[[yt-foresight-probability-engineering]]'

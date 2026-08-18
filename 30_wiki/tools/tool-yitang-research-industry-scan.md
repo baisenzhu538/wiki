@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-industry-scan
 title: 行业扫描：快速建立行业全貌认知
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: beginner
 estimated_tokens: 3000
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 快速建立行业全貌认知
-  - 行业扫描
-  - 行业扫描：快速建立行业全貌认知
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 快速建立行业全貌认知
+- 行业扫描
+- 行业扫描：快速建立行业全貌认知
 discoverable_by:
-  - 行业扫描：快速建立行业全貌认知
-  - 行业扫描
-  - 快速建立行业全貌认知
-related:
-tags:
+- 行业扫描：快速建立行业全貌认知
+- 行业扫描
+- 快速建立行业全貌认知
+related: null
+tags: null
 ---
 # 行业扫描：快速建立行业全貌认知
 

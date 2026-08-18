@@ -1,67 +1,67 @@
 ---
 id: retrospective-moc
-title: "复盘主题域 MOC：知识库的复盘知识网络"
+title: 复盘主题域 MOC：知识库的复盘知识网络
 type: index
 domain:
-  - system
-  - management
-  - personal-growth
+- system
+- management
+- personal-growth
 status: draft
 author: 黄药师
 reviewed_by: 待审
 review_date: 2026-08-06
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 source_refs:
-  - 60_feedback/tasks/task_20260806_huangyaoshi-retrospective-moc.md
-  - 60_feedback/diagnosis/diag_20260806_wangyuyan-deep-review.md
+- 60_feedback/tasks/task_20260806_huangyaoshi-retrospective-moc.md
+- 60_feedback/diagnosis/diag_20260806_wangyuyan-deep-review.md
 created_at: 2026-08-06
 updated_at: 2026-08-06
 tags:
-  - audience:ouyangfeng
-  - audience:wangyuyan
-  - audience:laowantong
-  - scene:reference
-  - skill-level:intermediate
+- audience:ouyangfeng
+- audience:wangyuyan
+- audience:laowantong
+- scene:reference
+- skill-level:intermediate
 aliases:
-  - 复盘MOC
-  - 复盘索引
-  - 复盘知识网络
-  - 复盘主题域
+- 复盘MOC
+- 复盘索引
+- 复盘知识网络
+- 复盘主题域
 discoverable_by:
-  - 复盘MOC
-  - 复盘索引
-  - 复盘知识
-  - 复盘有哪些
+- 复盘MOC
+- 复盘索引
+- 复盘知识
+- 复盘有哪些
 diagnostic_signals:
-  - signal: '复盘卡散落四个目录——无MOC时导航靠grep碰运气'
-    severity: high
-    implication: '王语嫣诊断时靠grep才发现项目复盘卡——没命中就漏。B6/W8两张牌全部退化为碰运气'
-  - signal: '横向主题无域归属——复盘跨管理/个人成长/项目管理三个域'
-    severity: high
-    implication: '按domain字段归类时复盘卡散落在不同域下——结构必然'
-  - signal: 'MOC节点中有#233/#234新建卡——状态标注避免导航到未完成卡'
-    severity: medium
-    implication: 'MOC标注了queued/reviewed状态——用户知道哪些卡已可用哪些待生产'
+- signal: 复盘卡散落四个目录——无MOC时导航靠grep碰运气
+  severity: high
+  implication: 王语嫣诊断时靠grep才发现项目复盘卡——没命中就漏。B6/W8两张牌全部退化为碰运气
+- signal: 横向主题无域归属——复盘跨管理/个人成长/项目管理三个域
+  severity: high
+  implication: 按domain字段归类时复盘卡散落在不同域下——结构必然
+- signal: MOC节点中有#233/#234新建卡——状态标注避免导航到未完成卡
+  severity: medium
+  implication: MOC标注了queued/reviewed状态——用户知道哪些卡已可用哪些待生产
 related:
-  - '[[framework-一堂-复盘本质与三要素]]'
-  - '[[framework-一堂-四象限复盘法]]'
-  - '[[framework-一堂-团队复盘四阶段12策略]]'
-  - '[[tool-复盘浪费九宗罪自检清单]]'
-  - '[[dk-借假修真与黑盒白盒]]'
-  - '[[yt-model-deep-review-iceberg]]'
-  - '[[framework-yitang-project-retrospective]]'
-  - '[[tool-复盘推演法]]'
-  - '[[tool-复盘推演练习]]'
-  - '[[case-一堂-优秀转化率复盘合集]]'
-  - '[[case-一堂-A加社失败归因→一堂诞生]]'
-  - '[[case-一堂-迷你访谈五周迭代]]'
-  - '[[case-一堂-教材品控事故]]'
-  - '[[case-莹莹-before-after复盘]]'
-  - '[[case-duanwangye-self-iteration-closed-loop]]'
-  - '[[bridge-个人复盘×知识管理W-Z-K-P]]'
-  - '[[yt-personal-deep-review]]'
-  - human-insights-domain-digest
+- '[[framework-一堂-复盘本质与三要素]]'
+- '[[framework-一堂-四象限复盘法]]'
+- '[[framework-一堂-团队复盘四阶段12策略]]'
+- '[[tool-复盘浪费九宗罪自检清单]]'
+- '[[dk-借假修真与黑盒白盒]]'
+- '[[yt-model-deep-review-iceberg]]'
+- '[[framework-yitang-project-retrospective]]'
+- '[[tool-复盘推演法]]'
+- '[[tool-复盘推演练习]]'
+- '[[case-一堂-优秀转化率复盘合集]]'
+- '[[case-一堂-A加社失败归因→一堂诞生]]'
+- '[[case-一堂-迷你访谈五周迭代]]'
+- '[[case-一堂-教材品控事故]]'
+- '[[case-莹莹-before-after复盘]]'
+- '[[case-duanwangye-self-iteration-closed-loop]]'
+- '[[bridge-个人复盘×知识管理W-Z-K-P]]'
+- '[[yt-personal-deep-review]]'
+- human-insights-domain-digest
 ---
 
 # 复盘主题域 MOC

@@ -1,5 +1,4 @@
 ---
-
 id: tool-agent-firecrawl
 title: Firecrawl：专为LLM设计的Web抓取API
 type: tool
@@ -11,21 +10,19 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain:
+domain: ai-collaboration
 aliases:
-  - Firecrawl：专为LLM设计的Web抓取API
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[yitang-research-domain-digest]]
-  - 专为LLM设计的Web抓取API
-  - 设计的
-source_refs:
+- Firecrawl：专为LLM设计的Web抓取API
+- - - ai-collaboration-domain-digest
+- - - yitang-domain-digest
+- - - yitang-research-domain-digest
+- 专为LLM设计的Web抓取API
+- 设计的
+source_refs: null
 discoverable_by:
-  - Firecrawl：专为LLM设计的Web抓取API
-  - 专为LLM设计的Web抓取API
-related:
-
-
+- Firecrawl：专为LLM设计的Web抓取API
+- 专为LLM设计的Web抓取API
+related: null
 updated_at: '2026-06-29'
 ---
 # Firecrawl

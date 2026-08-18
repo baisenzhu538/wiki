@@ -1,9 +1,8 @@
 ---
-
 domain:
 - modeling
 id: yt-model-deep-review-iceberg
-title: "深度复盘冰山图：从主观感受到能力建设的五层穿透"
+title: 深度复盘冰山图：从主观感受到能力建设的五层穿透
 status: reviewed
 confidence: 0.85
 created_at: 2026-05-11
@@ -20,18 +19,18 @@ query_triggers:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 从主观感受到能力建设的五层穿透
-  - 复盘冰山图
-  - 深度复盘冰山图
-  - 深度复盘冰山图：从主观感受到能力建设的五层穿透
-  - 观感受到能力建设的五层穿透
+- 从主观感受到能力建设的五层穿透
+- 复盘冰山图
+- 深度复盘冰山图
+- 深度复盘冰山图：从主观感受到能力建设的五层穿透
+- 观感受到能力建设的五层穿透
 source_refs:
 - pending_archive:src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 discoverable_by:
-  - 深度复盘冰山图：从主观感受到能力建设的五层穿透
-  - 深度复盘冰山图
-  - 从主观感受到能力建设的五层穿透
+- 深度复盘冰山图：从主观感受到能力建设的五层穿透
+- 深度复盘冰山图
+- 从主观感受到能力建设的五层穿透
 related:
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-business-formula-parameter-iceberg]]'
@@ -47,6 +46,7 @@ tags:
 - scene:reference
 - skill-level:intermediate
 - 一堂深度复盘冰山图
+type: concept
 ---
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透
 

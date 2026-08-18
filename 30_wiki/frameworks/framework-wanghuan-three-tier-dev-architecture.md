@@ -3,8 +3,8 @@ id: framework-wanghuan-three-tier-dev-architecture
 title: 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 type: framework
 status: reviewed
-domain:
-quality_labels:
+domain: wanghuan
+quality_labels: null
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -14,28 +14,25 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 三层开发架构
-  - 开发哨兵质检
-  - 欢三层开发架构
-  - 求拆解
-  - 王欢
-  - 王欢三层开发架构
-  - 王欢三层开发架构：需求拆解→AI开发→哨兵质检
-  - 需求拆解→AI开发→哨兵质检
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 三层开发架构
+- 开发哨兵质检
+- 欢三层开发架构
+- 求拆解
+- 王欢
+- 王欢三层开发架构
+- 王欢三层开发架构：需求拆解→AI开发→哨兵质检
+- 需求拆解→AI开发→哨兵质检
+source_refs: null
+related: null
 discoverable_by:
-  - "王欢三层开发架构"
-  - "需求拆解AI开发哨兵质检"
-diagnostic_signals:
-follow_up: 检查当前流程是否只是给马车换发动机，还是已重新设计工作系统
-follow_up: 将角色重新定义为让 AI 把代码写好的人，强调判断力而非执行量
-follow_up: 回到需求拆解层，用 BTICOE 补全原子任务和约束条件
+- 王欢三层开发架构
+- 需求拆解AI开发哨兵质检
+diagnostic_signals: null
 follow_up: 检查哨兵质检层是否有清晰的人工复核 checklist 和红线约束
-tags:
+tags: null
 ---
 # 王欢三层开发架构：需求拆解→AI开发→哨兵质检
 

@@ -3,35 +3,34 @@ id: framework-ai-deliberate-practice-loop
 type: framework
 title: AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
 status: reviewed
-domain:
+domain: unknown
 confidence: 0.78
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
-quality_labels:
+quality_labels: null
 created_at: 2026-06-27
 updated_at: '2026-06-29'
 aliases:
-  - AI刻意练习闭环：把AI当作按需生成的练习伙伴
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 元能力-刻意练习
-  - 刻意练习行动营
-  - 刻意练习闭环
-  - 当作按需生成的练习伙伴
-  - 按需生成的练习伙伴
-  - 练习伙伴
-  - 练习闭环
-source_refs:
-  use and views of generative AI tools for STEM education," arXiv:2412.02653, 2024
-  automatic feedback," arXiv:2411.07407, 2024
-related:
+- AI刻意练习闭环：把AI当作按需生成的练习伙伴
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 元能力-刻意练习
+- 刻意练习行动营
+- 刻意练习闭环
+- 当作按需生成的练习伙伴
+- 按需生成的练习伙伴
+- 练习伙伴
+- 练习闭环
+source_refs: use and views of generative AI tools for STEM education," arXiv:2412.02653,
+  2024 automatic feedback," arXiv:2411.07407, 2024
+related: null
 discoverable_by:
-  - "AI刻意练习闭环"
-  - "AI练习伙伴"
-tags:
+- AI刻意练习闭环
+- AI练习伙伴
+tags: null
 ---
 # AI 刻意练习闭环：把 AI 当作按需生成的练习伙伴
 

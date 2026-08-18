@@ -1,5 +1,4 @@
 ---
-
 id: tool-agent-spec-business-formula-parameter-miner
 title: 业务公式参数挖掘 Agent Spec
 type: tool-agent-spec
@@ -7,7 +6,7 @@ status: enriched
 author: 黄药师
 reviewed_by: pending
 confidence: 0.82
-trust_level: medium-high
+trust_level: high
 language: zh-CN
 created_at: 2026-07-12
 updated_at: 2026-07-12
@@ -16,9 +15,9 @@ domain:
 - methodology
 - ai-collaboration
 aliases:
-  - 业务公式参数挖掘
-  - 业务公式参数挖掘AgentSpec
-  - 公式参数挖掘
+- 业务公式参数挖掘
+- 业务公式参数挖掘AgentSpec
+- 公式参数挖掘
 source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L954-L960
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L1200-L1250
@@ -37,8 +36,8 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式-落地策略集_vlm.md
 - 30_wiki/systems/system-yitang-Y-model-os.md
 discoverable_by:
-  - 业务公式参数挖掘 Agent Spec
-  - 业务公式参数挖掘
+- 业务公式参数挖掘 Agent Spec
+- 业务公式参数挖掘
 related:
 - '[[framework-business-formula-dual-triangle-bridge]]'
 - '[[framework-business-formula-y-model-bridge]]'

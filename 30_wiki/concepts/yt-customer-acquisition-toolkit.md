@@ -1,9 +1,8 @@
 ---
-
 id: yt-customer-acquisition-toolkit
-title: "获客工具合集"
+title: 获客工具合集
 discoverable_by:
-  - 获客工具合集
+- 获客工具合集
 related:
 - '[[yt-growth-cycle-model]]'
 - '[[yt-unit-model-three-tools]]'
@@ -11,14 +10,17 @@ related:
 - '[[yt-five-step-method]]'
 - '[[pending_unknown]]'
 aliases:
-  - 工具合集
-  - 获客工具合集
+- 工具合集
+- 获客工具合集
 source_refs:
 - pending_archive: src_unknown
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+type: concept
+status: draft
+domain: yitang
 ---
 # 获客工具合集
 

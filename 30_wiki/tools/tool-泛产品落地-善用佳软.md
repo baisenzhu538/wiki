@@ -1,5 +1,4 @@
 ---
-
 id: tool-泛产品落地-善用佳软
 title: 落地卡片：善用佳软
 type: tool
@@ -10,22 +9,22 @@ review_date: 2026-06-29
 confidence: 0.75
 trust_level: medium
 language: zh-CN
-domain:
+domain: decision-science
 aliases:
-  - [[decision-science-domain-digest]]
-  - [[pending_unknown]]
-  - [[yitang-domain-digest]]
-  - concept-X型Y型决策习惯
-  - concept-发现决策
-  - 善用佳软
-  - 落地卡片
-  - 落地卡片：善用佳软
-source_refs:
+- - - decision-science-domain-digest
+- - - pending_unknown
+- - - yitang-domain-digest
+- concept-X型Y型决策习惯
+- concept-发现决策
+- 善用佳软
+- 落地卡片
+- 落地卡片：善用佳软
+source_refs: null
 discoverable_by:
-  - 落地卡片：善用佳软
-  - 落地卡片
-  - 善用佳软
-related:
+- 落地卡片：善用佳软
+- 落地卡片
+- 善用佳软
+related: null
 updated_at: '2026-06-29'
 ---
 # 落地卡片：善用佳软

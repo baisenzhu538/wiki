@@ -1,29 +1,28 @@
 ---
-
 id: tool-ci-define-phase
 title: CI Define 阶段工具：决策驱动的问题定义
 type: tool
-domain:
+domain: strategy
 discoverable_by:
-  - CI Define 阶段工具：决策驱动的问题定义
-  - 阶段工具
-  - 决策驱动的问题定义
-tags:
+- CI Define 阶段工具：决策驱动的问题定义
+- 阶段工具
+- 决策驱动的问题定义
+tags: null
 source_person: Truman（一堂）+ Competitive Intelligence Alliance
 source_context: CI Operating Model Define 阶段工具化实现
 aliases:
-  - CIDefine阶段工具：决策驱动的问题定义
-  - Truman（一堂）+ Competitive Intelligence Alliance
-  - [[framework-yitang-18-strategy-cards]]
-  - [[framework-yitang-research-weapon-system]]
-  - [[tool-ci-implement-phase]]
-  - 三个新盲区
-  - 决策驱动的问题定义
-  - 外部知识探索
-  - 阶段工具
-  - 驱动的问题定义
-source_refs:
-related:
+- CIDefine阶段工具：决策驱动的问题定义
+- Truman（一堂）+ Competitive Intelligence Alliance
+- - - framework-yitang-18-strategy-cards
+- - - framework-yitang-research-weapon-system
+- - - tool-ci-implement-phase
+- 三个新盲区
+- 决策驱动的问题定义
+- 外部知识探索
+- 阶段工具
+- 驱动的问题定义
+source_refs: null
+related: null
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

@@ -1,33 +1,32 @@
 ---
-
 id: tool-strategy-activity-scope
 title: 活动范围设计工具：What × How × Where 三问
 type: tool
 status: reviewed
 confidence: 0.92
 trust_level: high
-domain:
+domain: strategy
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:advanced
-  - 三问
-  - 冉鹏PPT截图
-  - 引擎点火
-  - 活动范围设计工具
-  - 活动范围设计工具：What×How×Where三问
-  - 范围设计工具
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:advanced
+- 三问
+- 冉鹏PPT截图
+- 引擎点火
+- 活动范围设计工具
+- 活动范围设计工具：What×How×Where三问
+- 范围设计工具
+source_refs: null
 discoverable_by:
-  - 活动范围设计工具：What × How × Where 三问
-  - 活动范围设计工具
-quality_labels:
+- 活动范围设计工具：What × How × Where 三问
+- 活动范围设计工具
+quality_labels: null
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
-related:
-tags:
+related: null
+tags: null
 ---
 # 活动范围设计工具：What × How × Where 三问
 

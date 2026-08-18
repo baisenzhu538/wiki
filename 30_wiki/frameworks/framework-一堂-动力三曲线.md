@@ -10,28 +10,28 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - conversion
-  - handle
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂动力三曲线
-  - 一堂动力三曲线：FAB60分/名利权情70分/影响力法则85分与使用三原则
-  - 分与使用三原则
-  - 力三曲线
-  - 名利权情70
-  - 名利权情影响力
-  - 影响力法则85
-source_refs:
-related:
+- audience:ceo
+- conversion
+- handle
+- scene:diagnosis
+- skill-level:advanced
+- 一堂动力三曲线
+- 一堂动力三曲线：FAB60分/名利权情70分/影响力法则85分与使用三原则
+- 分与使用三原则
+- 力三曲线
+- 名利权情70
+- 名利权情影响力
+- 影响力法则85
+source_refs: null
+related: null
 discoverable_by:
-  - "动力三曲线"
-  - "FAB名利权情影响力"
-  - "动力层级模型"
-quality_labels:
-tags:
+- 动力三曲线
+- FAB名利权情影响力
+- 动力层级模型
+quality_labels: null
+tags: null
 ---
 # 一堂动力三曲线：FAB / 名利权情 / 影响力法则
 

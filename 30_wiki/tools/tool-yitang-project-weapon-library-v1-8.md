@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-project-weapon-library-v1-8
 title: 项目管理武器库V1.8入口索引卡
 type: tool
@@ -10,30 +9,30 @@ review_date: 2026-07-07
 confidence: 0.95
 trust_level: high
 language: zh-CN
-domain:
+domain: yitang
 aliases:
-  - [[framework-yitang-project-abcd-classification]]
-  - [[framework-yitang-project-breakdown]]
-  - [[framework-yitang-project-execution]]
-  - [[framework-yitang-project-plan-design]]
-  - [[framework-yitang-project-retrospective]]
-  - [[skill-yitang-project-spiral-thinking]]
-  - [[tool-yitang-project-breakdown-cheatsheet]]
-  - [[tool-yitang-project-kickoff-meeting]]
-  - [[tool-yitang-project-plan-canvas]]
-  - [[tool-yitang-retrospective-canvas]]
-  - [[workflow-yitang-project-four-step-loop]]
-  - [[yt-management-basic-skills]]
-  - [[yt-management-goal-management]]
-  - [[yt-management-project-management]]
-  - [[yt-management-scientific-meetings]]
-  - [[yt-management-toolkit-overview]]
-  - [[yt-tool-project-health-radar]]
-  - 项目管理武器库V1.8入口索引卡
-source_refs:
+- - - framework-yitang-project-abcd-classification
+- - - framework-yitang-project-breakdown
+- - - framework-yitang-project-execution
+- - - framework-yitang-project-plan-design
+- - - framework-yitang-project-retrospective
+- - - skill-yitang-project-spiral-thinking
+- - - tool-yitang-project-breakdown-cheatsheet
+- - - tool-yitang-project-kickoff-meeting
+- - - tool-yitang-project-plan-canvas
+- - - tool-yitang-retrospective-canvas
+- - - workflow-yitang-project-four-step-loop
+- - - yt-management-basic-skills
+- - - yt-management-goal-management
+- - - yt-management-project-management
+- - - yt-management-scientific-meetings
+- - - yt-management-toolkit-overview
+- - - yt-tool-project-health-radar
+- 项目管理武器库V1.8入口索引卡
+source_refs: null
 discoverable_by:
-  - 项目管理武器库V1.8入口索引卡
-related:
+- 项目管理武器库V1.8入口索引卡
+related: null
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

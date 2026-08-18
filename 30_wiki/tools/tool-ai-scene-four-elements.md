@@ -1,34 +1,33 @@
 ---
-
 id: tool-ai-scene-four-elements
 title: 技能：AI落地场景四要素评估法
 type: tool
 status: draft
-domain:
+domain: unknown
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别-口述，2026-06-06
 aliases:
-  - AI落地场景四要素评估法
-  - audience:executor
-  - scene:execution
-  - skill-level:beginner
-  - 技能
-  - 技能：AI落地场景四要素评估法
-  - 的核心问题
-  - 落地场景四要素评估法
-  - 马易
-source_refs:
+- AI落地场景四要素评估法
+- audience:executor
+- scene:execution
+- skill-level:beginner
+- 技能
+- 技能：AI落地场景四要素评估法
+- 的核心问题
+- 落地场景四要素评估法
+- 马易
+source_refs: null
 wiki_refs: null
 definition_of_done: null
 tools_required: null
 prerequisite_skills: null
 discoverable_by:
-  - 技能：AI落地场景四要素评估法
-  - AI落地场景四要素评估法
-related:
+- 技能：AI落地场景四要素评估法
+- AI落地场景四要素评估法
+related: null
 created_at: 2026-06-11
 updated_at: 2026-07-02
-tags:
+tags: null
 pipeline: null
 reviewed_by: laowantong
 author: unknown

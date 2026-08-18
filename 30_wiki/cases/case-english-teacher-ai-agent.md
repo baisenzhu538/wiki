@@ -7,49 +7,49 @@ domain: strategy
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
-confidence: 0.80
-trust_level: observed
+confidence: 0.8
+trust_level: medium
 aliases:
-  - Christensen
-  - src_20260802_创新者的窘境_秦鹏拆书
-  - 人怎么做
-  - 创新者的窘境
-  - 十年经验
-  - 十年经验→知识库→AI批改作文
-  - 智能服务的完整路径
-  - 秦鹏拆书
-  - 者的窘境
-  - 英语老师AI
-  - 英语老师AIagent：十年经验→知识库→AI批改作文
-  - 英语老师AI批改
+- Christensen
+- src_20260802_创新者的窘境_秦鹏拆书
+- 人怎么做
+- 创新者的窘境
+- 十年经验
+- 十年经验→知识库→AI批改作文
+- 智能服务的完整路径
+- 秦鹏拆书
+- 者的窘境
+- 英语老师AI
+- 英语老师AIagent：十年经验→知识库→AI批改作文
+- 英语老师AI批改
 source_refs:
-  - 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
+- 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
 related:
-  - tool-qinpeng-ai-intelligent-service
-  - concept-qinpeng-ai-as-amplifier
-  - concept-qinpeng-knowledge-base-conversion
-  - framework-christensen-disruptive-innovation
-  - case-live81-ai-trademark-design
-  - dk-ai-builder-illusion
-  - yt-product-kernel-mvp-design
-  - dk-ai-as-last-step-not-first
+- tool-qinpeng-ai-intelligent-service
+- concept-qinpeng-ai-as-amplifier
+- concept-qinpeng-knowledge-base-conversion
+- framework-christensen-disruptive-innovation
+- case-live81-ai-trademark-design
+- dk-ai-builder-illusion
+- yt-product-kernel-mvp-design
+- dk-ai-as-last-step-not-first
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:英语老师AI
-  - scene:教育AI落地
-  - audience:个体创业者
-  - content-format:case
-  - source-person:秦鹏
+- method:英语老师AI
+- scene:教育AI落地
+- audience:个体创业者
+- content-format:case
+- source-person:秦鹏
 discoverable_by:
-  - "AI教师案例"
-  - "英语老师用AI"
-  - "个人怎么做AI智能服务"
+- AI教师案例
+- 英语老师用AI
+- 个人怎么做AI智能服务
 diagnostic_signals:
-  - signal: "案例展示个人→AI智能服务的完整路径"
-    severity: low
-    implication: "可作为tool-qinpeng-ai-intelligent-service的companion case"
+- signal: 案例展示个人→AI智能服务的完整路径
+  severity: low
+  implication: 可作为tool-qinpeng-ai-intelligent-service的companion case
 ---
 
 > **定位**：属于 `tool-qinpeng-ai-intelligent-service` 的 **companion case**——最干净的"个人→智能服务"完整展示。

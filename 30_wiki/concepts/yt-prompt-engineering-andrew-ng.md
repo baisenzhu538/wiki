@@ -17,9 +17,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - 吴恩达提示词课程·一堂拆书精华
-  - 吴恩达提示词课程
-  - 一堂拆书精华
+- 吴恩达提示词课程·一堂拆书精华
+- 吴恩达提示词课程
+- 一堂拆书精华
 related:
 - '[[yt-model-prompt-engineering]]'
 - '[[dk-modeling-ai-judgment-limit]]'
@@ -32,12 +32,12 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 source_of:
 - src_unknown
 aliases:
-  - 一堂拆书精华
-  - 吴恩达提示词课程
-  - 吴恩达提示词课程一堂拆书精华
-  - 拆书精华
-  - 达提示词课程
-  - 达提示词课程一堂拆书精华
+- 一堂拆书精华
+- 吴恩达提示词课程
+- 吴恩达提示词课程一堂拆书精华
+- 拆书精华
+- 达提示词课程
+- 达提示词课程一堂拆书精华
 source_refs:
 - 10_raw/sources/src_20260522_a89ab860-meta-prompt-eng.md
 status: enriched
@@ -56,7 +56,7 @@ diagnostic_signals:
   follow_up_question: 这个任务更适合用哪个子工具？
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:general
 - scene:reference

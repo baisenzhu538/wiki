@@ -1,33 +1,32 @@
 ---
-
 id: tool-zhu-ai-deliberate-practice-roadmap
 title: 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周
 type: tool
 status: draft
 confidence: 0.88
 trust_level: high
-domain:
+domain: unknown
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:advanced
-  - 从工具使用到智能体搭建的
-  - 老朱
-  - 老朱AI能力刻意练习路线图：从工具使用到智能体搭建的24周
-  - 能力刻意练习路线图
+- audience:executor
+- scene:execution
+- skill-level:advanced
+- 从工具使用到智能体搭建的
+- 老朱
+- 老朱AI能力刻意练习路线图：从工具使用到智能体搭建的24周
+- 能力刻意练习路线图
 discoverable_by:
-  - 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 2
-  - 能力刻意练习路线图
-  - 从工具使用到智能体搭建的
-quality_labels:
-source_refs:
-related:
-tags:
+- 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 2
+- 能力刻意练习路线图
+- 从工具使用到智能体搭建的
+quality_labels: null
+source_refs: null
+related: null
+tags: null
 ---
 # 老朱 AI 能力刻意练习路线图：从工具使用到智能体搭建的 24 周
 

@@ -1,12 +1,12 @@
 ---
 id: zhu-domain-index
-title: "老朱个人域索引"
+title: 老朱个人域索引
 type: system
-status: active
-created_at: 2026-07-01T17:19:35+00:00
-updated_at: 2026-07-19T02:15:00+00:00
+status: enriched
+created_at: 2026-07-01 17:19:35+00:00
+updated_at: 2026-07-19 02:15:00+00:00
 domain:
-  - personal-os
+- personal-os
 tags:
 - audience:manager
 - scene:reference

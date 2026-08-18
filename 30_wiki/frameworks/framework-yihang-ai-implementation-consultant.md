@@ -10,24 +10,24 @@ trust_level: medium
 language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
-domain:
+domain: yihang
 aliases:
-  - AI落地顾问培养体系双三角笃定+技术产品背景+学习能力+价值观
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 一堂双三角
-  - 人机协作双三角
-  - 价值观
-  - 双三角笃定
-  - 学习能力
-  - 技术产品背景
-  - 落地顾问培养体系
-source_refs:
-related:
+- AI落地顾问培养体系双三角笃定+技术产品背景+学习能力+价值观
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 一堂双三角
+- 人机协作双三角
+- 价值观
+- 双三角笃定
+- 学习能力
+- 技术产品背景
+- 落地顾问培养体系
+source_refs: null
+related: null
 discoverable_by:
-  - "AI落地顾问培养"
-tags:
+- AI落地顾问培养
+tags: null
 ---
 # AI 落地顾问培养体系——双三角笃定 + 技术产品背景 + 学习能力 + 价值观
 

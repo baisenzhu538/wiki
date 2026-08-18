@@ -11,31 +11,18 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "知识萃取"
-  - "碎片经验变成模型"
+- 知识萃取
+- 碎片经验变成模型
 diagnostic_signals:
   lens: 缺萃取能力——经验停留在脑子里没变成资产
   follow-up: 刚做完的项目，用"如果换一个人来做，我要给他什么SOP"倒逼萃取
-quality_labels:
-tags:
-aliases:
-  - 知识萃取：碎片经验→可落地模型
-  - 知识萃取
-  - 碎片经验→可落地模型
-  - 可落地模型
-  - 识萃取
-  - 片经验变成模型
-aliases:
-  - 知识萃取：碎片经验→可落地模型
-  - 知识萃取
-  - 碎片经验→可落地模型
-  - 片经验变成模型
-  - 识萃取
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 知识萃取：碎片经验→可落地模型
 

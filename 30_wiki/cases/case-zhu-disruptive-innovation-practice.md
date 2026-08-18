@@ -7,53 +7,53 @@ domain: personal-os
 author: 老顽童
 reviewed_by: pending
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 aliases:
-  - src_20260804_laozhu_homework
-  - 作业1-创新者的窘境-分析题
-  - laozhu-insights-202608
-  - 老朱的个人域
-  - 老朱破坏性创新作业
-  - 药店即时零售破坏性创新
-  - Christensen实战应用
-  - 四条业务线战略分类
-  - 作业1创新者的窘境
+- src_20260804_laozhu_homework
+- 作业1-创新者的窘境-分析题
+- laozhu-insights-202608
+- 老朱的个人域
+- 老朱破坏性创新作业
+- 药店即时零售破坏性创新
+- Christensen实战应用
+- 四条业务线战略分类
+- 作业1创新者的窘境
 source_refs:
-  - 10_raw/sources/laozhu-insights-202608/作业1-创新者的窘境-分析题.md
-  - 10_raw/sources/laozhu-insights-202608/insight-20260802-xiaozhao-session.md
-  - 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
+- 10_raw/sources/laozhu-insights-202608/作业1-创新者的窘境-分析题.md
+- 10_raw/sources/laozhu-insights-202608/insight-20260802-xiaozhao-session.md
+- 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
 related:
-  - framework-christensen-disruptive-innovation
-  - framework-christensen-value-network
-  - concept-christensen-rpv-model
-  - bridge-christensen-reverse-mapping
-  - zhu-strategic-conclusions
-  - user-insight-profile
-  - yt-decision-y-model
+- framework-christensen-disruptive-innovation
+- framework-christensen-value-network
+- concept-christensen-rpv-model
+- bridge-christensen-reverse-mapping
+- zhu-strategic-conclusions
+- user-insight-profile
+- yt-decision-y-model
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels: cited
 tags:
-  - scene:破坏性创新判断
-  - audience:一号位
-  - content-format:case
-  - source-person:老朱
+- scene:破坏性创新判断
+- audience:一号位
+- content-format:case
+- source-person:老朱
 discoverable_by:
-  - "破坏性创新实战案例"
-  - "药店即时零售"
-  - "老朱作业分析"
-  - "Christensen四条业务线"
-  - "延续vs破坏判断"
+- 破坏性创新实战案例
+- 药店即时零售
+- 老朱作业分析
+- Christensen四条业务线
+- 延续vs破坏判断
 diagnostic_signals:
-  - signal: "老朱对④号线的破坏性创新判断有欧阳锋#226校准——对药店是延续/对在位者(美团京东)才是破坏"
-    severity: high
-    implication: "破坏性创新的'对谁破坏'必须明确，不能只说'大公司做不了'"
-  - signal: "Christensen理论实证支持度仅9%——不是预测器是诊断视角"
-    severity: medium
-    implication: "案例展示的是框架的使用方法而非对框架的验证"
-  - signal: "老朱自报的产品内核数字(1.5人年成本省3-4人)为讲师/创业者自述"
-    severity: medium
-    implication: "待独立核实"
+- signal: 老朱对④号线的破坏性创新判断有欧阳锋#226校准——对药店是延续/对在位者(美团京东)才是破坏
+  severity: high
+  implication: 破坏性创新的'对谁破坏'必须明确，不能只说'大公司做不了'
+- signal: Christensen理论实证支持度仅9%——不是预测器是诊断视角
+  severity: medium
+  implication: 案例展示的是框架的使用方法而非对框架的验证
+- signal: 老朱自报的产品内核数字(1.5人年成本省3-4人)为讲师/创业者自述
+  severity: medium
+  implication: 待独立核实
 ---
 
 > **定位**：属于 `framework-christensen-disruptive-innovation` 的**一号位实战应用案例**——一个真实的创业者（14年+医药流通经验）用 Christensen 框架系统性分析自己的四条业务线，并从中找到破坏性创新方向。**与飞书案例（争议性训练案例）互补——本案例展示框架的"自我诊断"用途。**

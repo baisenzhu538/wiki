@@ -7,56 +7,56 @@ domain: strategy
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
-confidence: 0.70
-trust_level: observed
+confidence: 0.7
+trust_level: medium
 aliases:
-  - 20年积累→2000万字知识库→AI放大交付
-  - Christensen
-  - src_20260802_创新者的窘境_秦鹏拆书
-  - 万字知识库
-  - 上海合宙AI
-  - 上海合宙硬件
-  - 上海合宙硬件：20年积累→2000万字知识库→AI放大交付
-  - 倍为内部数据
-  - 创新者的窘境
-  - 待独立核实
-  - 放大案例
-  - 效率提升
-  - 案例为秦鹏自身实践
-  - 秦鹏自身实践
+- 20年积累→2000万字知识库→AI放大交付
+- Christensen
+- src_20260802_创新者的窘境_秦鹏拆书
+- 万字知识库
+- 上海合宙AI
+- 上海合宙硬件
+- 上海合宙硬件：20年积累→2000万字知识库→AI放大交付
+- 倍为内部数据
+- 创新者的窘境
+- 待独立核实
+- 放大案例
+- 效率提升
+- 案例为秦鹏自身实践
+- 秦鹏自身实践
 source_refs:
-  - 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
+- 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
 related:
-  - concept-qinpeng-ai-as-amplifier
-  - concept-qinpeng-knowledge-base-conversion
-  - tool-qinpeng-ai-intelligent-service
-  - framework-christensen-disruptive-innovation
-  - concept-christensen-rpv-model
-  - dk-ai-builder-illusion
-  - yt-panproduct-execution-low-cost-mvp
-  - tool-遵循规模前倾原则设计组织架构
-  - yt-demand-quantitative-estimation
-  - dk-ai-as-last-step-not-first
+- concept-qinpeng-ai-as-amplifier
+- concept-qinpeng-knowledge-base-conversion
+- tool-qinpeng-ai-intelligent-service
+- framework-christensen-disruptive-innovation
+- concept-christensen-rpv-model
+- dk-ai-builder-illusion
+- yt-panproduct-execution-low-cost-mvp
+- tool-遵循规模前倾原则设计组织架构
+- yt-demand-quantitative-estimation
+- dk-ai-as-last-step-not-first
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:秦鹏合宙
-  - scene:硬件AI落地
-  - audience:一号位
-  - content-format:case
-  - source-person:秦鹏
+- method:秦鹏合宙
+- scene:硬件AI落地
+- audience:一号位
+- content-format:case
+- source-person:秦鹏
 discoverable_by:
-  - "秦鹏合宙AI"
-  - "硬件公司AI转型"
-  - "知识库AI放大案例"
+- 秦鹏合宙AI
+- 硬件公司AI转型
+- 知识库AI放大案例
 diagnostic_signals:
-  - signal: "案例为秦鹏自身实践——缺乏独立第三方验证"
-    severity: high
-    implication: "L3多源验证弱，需标注为单源"
-  - signal: "效率提升10倍为内部数据，待独立核实"
-    severity: moderate
-    implication: "数字引用需加待验证标注"
+- signal: 案例为秦鹏自身实践——缺乏独立第三方验证
+  severity: high
+  implication: L3多源验证弱，需标注为单源
+- signal: 效率提升10倍为内部数据，待独立核实
+  severity: moderate
+  implication: 数字引用需加待验证标注
 ---
 
 > **定位**：属于 `concept-qinpeng-ai-as-amplifier` 的**创始人companion case**——展示AI放大器论在硬件行业的实践。

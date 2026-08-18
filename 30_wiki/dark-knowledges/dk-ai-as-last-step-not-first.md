@@ -6,66 +6,60 @@ status: reviewed
 confidence: 0.99
 trust_level: high
 domain:
-  - ai-collaboration
-  - panproduct
+- ai-collaboration
+- panproduct
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 tags:
-  - method:AI最后一步
-  - scene:AI协作
-  - audience:general
-  - content-format:dk
-  - source-person:崔磊
+- dk
+- method:ai-workflow
+- method:panproduct-design
+- method:user-first
+- scene:k12-education
+- scene:ai-collaboration
+- audience:practitioner
+- audience:kids
+- audience:parents-teachers
+- content-format:dk
+- source-person:崔磊
 aliases:
-  - AI是最后一步
-  - AI登场时机
-  - 不是第一步
-  - 先碰人不碰AI
-  - 崔磊
-  - 暗知识
-  - 暗知识：AI是最后一步，不是第一步先碰人不碰AI
+- AI是最后一步
+- AI登场时机
+- 不是第一步
+- 先碰人不碰AI
+- 崔磊
+- 暗知识
+- 暗知识：AI是最后一步，不是第一步先碰人不碰AI
 source_refs:
-  - 00_inbox/yitang-AI club/live84/🎯AI落地Live第84场·一堂✖️探月特别篇 逐字稿.md
-  - 60_feedback/diagnosis/diag_20260802_wangyuyan-live84-kids-panproduct.md
+- 00_inbox/yitang-AI club/live84/🎯AI落地Live第84场·一堂✖️探月特别篇 逐字稿.md
+- 60_feedback/diagnosis/diag_20260802_wangyuyan-live84-kids-panproduct.md
 source_person: 崔磊
 related:
-  - bridge-panproduct-kids-translation
-  - tool-马易-工作流优先于AIGC的决策方法
-  - case-cui-lei-kids-ai-design-class
-  - framework-一堂五步法-泛产品设计
-  - concept-一堂-product-kernel
-  - dk-ai-collaboration-degradation-spiral
+- bridge-panproduct-kids-translation
+- tool-马易-工作流优先于AIGC的决策方法
+- case-cui-lei-kids-ai-design-class
+- framework-一堂五步法-泛产品设计
+- concept-一堂-product-kernel
+- dk-ai-collaboration-degradation-spiral
 diagnostic_signals:
-  - signal: 「打开AI工具就开始生成，生成完凭感觉判断好不好」
-    lens: 跳过了前三步——没有用户洞察、没有标准、没有标杆
-    follow_up: 先回答三个问题再碰AI：①这是给谁的 ②在哪用 ③「好」的标准是什么
-  - signal: 「孩子用AI生成的东西很精美但同学不买账」
-    lens: 「AI是最后一步」原则被违反——先用AI按按钮的快感替代了前面的思考
-    follow_up: 用LEO翻车故事做开场案例（见[[case-cui-lei-kids-ai-design-class]]）
-  - signal: 「团队在AI项目上花了大量时间但产出质量不稳定」
-    lens: 可能把AI放在了「探索」阶段而非「执行」阶段
-    follow_up: 审计团队工作流：AI登场是在第几步？如果在第1步→调整
+- signal: 「打开AI工具就开始生成，生成完凭感觉判断好不好」
+  lens: 跳过了前三步——没有用户洞察、没有标准、没有标杆
+  follow_up: 先回答三个问题再碰AI：①这是给谁的 ②在哪用 ③「好」的标准是什么
+- signal: 「孩子用AI生成的东西很精美但同学不买账」
+  lens: 「AI是最后一步」原则被违反——先用AI按按钮的快感替代了前面的思考
+  follow_up: 用LEO翻车故事做开场案例（见[[case-cui-lei-kids-ai-design-class]]）
+- signal: 「团队在AI项目上花了大量时间但产出质量不稳定」
+  lens: 可能把AI放在了「探索」阶段而非「执行」阶段
+  follow_up: 审计团队工作流：AI登场是在第几步？如果在第1步→调整
 quality_labels:
-  - insight
-  - principle
-  - actionable
+- insight
+- principle
+- actionable
 discoverable_by:
-  - 「AI什么时候用」
-  - 「先用AI还是先想清楚」
-  - 「AI最后一步」
-tags:
-  - dk
-  - method:ai-workflow
-  - method:panproduct-design
-  - method:user-first
-  - scene:k12-education
-  - scene:ai-collaboration
-  - audience:practitioner
-  - audience:kids
-  - audience:parents-teachers
-  - content-format:dk
-  - source-person:崔磊
+- 「AI什么时候用」
+- 「先用AI还是先想清楚」
+- 「AI最后一步」
 created_at: 2026-08-02
 updated_at: 2026-08-02
 ---

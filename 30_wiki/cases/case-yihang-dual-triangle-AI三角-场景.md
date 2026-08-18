@@ -1,5 +1,4 @@
 ---
-
 id: case-yihang-dual-triangle-AI三角-场景
 title: AI三角-场景 — 双三角案例
 type: case
@@ -9,25 +8,25 @@ created_at: 2026-07-04
 updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
-domain:
+domain: yihang
 aliases:
-  - #domain/ai-collaboration
-  - #method/dual-triangle
-  - AI三角
-  - AI三角场景双三角案例
-  - audience:general
-  - scene:reference
-  - skill-level:intermediate
-  - 三角场景双三角案例
-  - 人机协作双三角
-  - 双三角案例
-  - 场景
-  - 角案例
-source_refs:
+- null
+- null
+- AI三角
+- AI三角场景双三角案例
+- audience:general
+- scene:reference
+- skill-level:intermediate
+- 三角场景双三角案例
+- 人机协作双三角
+- 双三角案例
+- 场景
+- 角案例
+source_refs: null
 discoverable_by:
-  - AI三角-场景 — 双三角案例
-  - 双三角案例
-tags:
+- AI三角-场景 — 双三角案例
+- 双三角案例
+tags: null
 reviewed_by: pending
 ---
 # AI三角-场景

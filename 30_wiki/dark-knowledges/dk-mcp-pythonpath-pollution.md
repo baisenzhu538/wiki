@@ -5,7 +5,7 @@ type: dk
 status: draft
 reviewed_by: 待审（欧阳锋）
 confidence: 0.9
-trust_level: observed
+trust_level: medium
 language: zh-CN
 created_at: 2026-08-16
 updated_at: 2026-08-16
@@ -20,7 +20,8 @@ aliases:
 - MCP Connection closed
 - 跨版本 venv 注入
 source_person: 段王爷（南帝）实战
-source_context: 2026-08-16 Windows 侧迁移后 KDO MCP 调用报 Connection closed，诊断定位为 PYTHONPATH 环境污染
+source_context: 2026-08-16 Windows 侧迁移后 KDO MCP 调用报 Connection closed，诊断定位为 PYTHONPATH
+  环境污染
 source_refs:
 - capability/hermes/hermes-mcp-server-ops
 related:

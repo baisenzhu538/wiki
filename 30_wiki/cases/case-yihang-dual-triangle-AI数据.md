@@ -1,5 +1,4 @@
 ---
-
 id: case-yihang-dual-triangle-AI数据
 title: AI数据 — 双三角案例
 type: case
@@ -9,24 +8,24 @@ created_at: 2026-07-04
 updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
-domain:
+domain: yihang
 aliases:
-  - #domain/ai-collaboration
-  - #method/dual-triangle
-  - AI数据
-  - AI数据双三角案例
-  - audience:general
-  - scene:reference
-  - skill-level:intermediate
-  - 人机协作双三角
-  - 双三角案例
-  - 数据双三角案例
-  - 角案例
-source_refs:
+- null
+- null
+- AI数据
+- AI数据双三角案例
+- audience:general
+- scene:reference
+- skill-level:intermediate
+- 人机协作双三角
+- 双三角案例
+- 数据双三角案例
+- 角案例
+source_refs: null
 discoverable_by:
-  - AI数据 — 双三角案例
-  - 双三角案例
-tags:
+- AI数据 — 双三角案例
+- 双三角案例
+tags: null
 reviewed_by: pending
 ---
 # AI数据

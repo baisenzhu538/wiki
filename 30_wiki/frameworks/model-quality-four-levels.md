@@ -3,13 +3,7 @@ id: model-quality-four-levels
 title: 模型可信度四层标准 + 千人广场模型：Truman 如何定义一个好模型
 type: framework
 aliases:
-  - framework_lens: 四层可信度标准
-  - 千人广场模型
-  - 如何定义一个好模型
-  - 定义一个好模型
-  - 广场模型
-  - 模型可信度四层标准
-  - 模型可信度四层标准+千人广场模型：Truman如何定义一个好模型
+- 建模能力培训
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 status: enriched
@@ -49,8 +43,6 @@ diagnostic_signals:
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
 updated_at: '2026-06-29'
-aliases:
-- 建模能力培训
 discoverable_by:
 - 模型可信度
 - 建模四层标准

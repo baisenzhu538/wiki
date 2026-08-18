@@ -3,35 +3,35 @@ id: framework-pan-product-organization
 type: framework
 title: 泛产品组织设计：把团队当成产品来打磨
 status: reviewed
-domain:
+domain: product
 confidence: 0.72
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
-quality_labels:
+quality_labels: null
 updated_at: '2026-06-28'
 note: 本卡核心案例与数字主要来自兰毅对世董会/NPC 实践的单源口述，数字已按任务单要求标注「待独立核实」；关键主张需结合传统管理、雇佣关系与组织成本视角审慎使用。
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 产品组织
-  - 兰毅 / 一堂
-  - 品组织设计
-  - 把团队当成产品来打磨
-  - 泛产品组织设计
-  - 泛产品组织设计：把团队当成产品来打磨
-  - 泛产品设计
-  - 泛产品设计实操
-  - 队当成产品来打磨
-source_refs:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 产品组织
+- 兰毅 / 一堂
+- 品组织设计
+- 把团队当成产品来打磨
+- 泛产品组织设计
+- 泛产品组织设计：把团队当成产品来打磨
+- 泛产品设计
+- 泛产品设计实操
+- 队当成产品来打磨
+source_refs: null
 source_person: 兰毅 / 一堂
-related:
+related: null
 discoverable_by:
-  - "泛产品组织"
+- 泛产品组织
 review_date: '2026-06-28'
 created_at: '2026-06-30'
-tags:
+tags: null
 ---
 # 泛产品组织设计：把团队当成产品来打磨
 

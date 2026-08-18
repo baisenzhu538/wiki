@@ -3,10 +3,9 @@ id: case-leo-lubricant-dealer-research
 title: Leo×润滑油经销商：三轮 60 家调研找到因果模型
 type: case
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-16
 author: 老顽童
-reviewed_by: 待审
 confidence: 0.82
 trust_level: medium
 language: zh-CN

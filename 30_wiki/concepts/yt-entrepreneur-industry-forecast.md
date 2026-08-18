@@ -1,9 +1,8 @@
 ---
-
 domain:
 - entrepreneurship
 id: yt-entrepreneur-industry-forecast
-title: "商业预判15字诀"
+title: 商业预判15字诀
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
@@ -23,15 +22,17 @@ query_triggers:
 - src_unknown
 review_date: 2026-06-11
 aliases:
-  - 商业预判15字诀
+- 商业预判15字诀
 source_refs:
 - pending_archive:src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
 discoverable_by:
-  - 商业预判15字诀
+- 商业预判15字诀
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+type: concept
+status: draft
 ---
 # 商业预判15字诀
 

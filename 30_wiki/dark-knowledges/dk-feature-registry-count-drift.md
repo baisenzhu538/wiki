@@ -1,47 +1,47 @@
 ---
 id: dk-feature-registry-count-drift
-title: "Feature 注册表数量漂移：引用数字的文档系统性滞后"
+title: Feature 注册表数量漂移：引用数字的文档系统性滞后
 type: dk
 status: draft
 domain:
-  - kdo
-  - ai-collaboration
+- kdo
+- ai-collaboration
 author: agent-basic-skills-coach
 reviewed_by: 待审
 confidence: 0.88
-trust_level: observed
+trust_level: medium
 aliases:
-  - Feature数量漂移
-  - 注册表漂移
-  - 数字文档滞后
-  - features.json漂移
+- Feature数量漂移
+- 注册表漂移
+- 数字文档滞后
+- features.json漂移
 discoverable_by:
-  - Feature数量漂移
-  - 注册表漂移
-  - 文档滞后
-  - features.json
+- Feature数量漂移
+- 注册表漂移
+- 文档滞后
+- features.json
 source_refs:
-  - cap_hub/features.json
-  - 30_wiki/bridges/bridge-dual-track-feature-system.md
-  - 30_wiki/concepts/concept-kdo-feature-registry.md
+- cap_hub/features.json
+- 30_wiki/bridges/bridge-dual-track-feature-system.md
+- 30_wiki/concepts/concept-kdo-feature-registry.md
 diagnostic_signals:
-  - signal: "引用 features.json 数量的文档（bridge 卡/concept 卡/skill）写 12/13 条，实际已是 20 条"
-    severity: medium
-    implication: "KDO 基建在增长（13→20 只用了约一周），所有引用具体数字的文档都会周期性过时——查证必须先读 features.json，不凭任何中间文档"
-  - signal: "修 skill 时只改了主 SKILL.md 和 memory，漏掉 skill 的 references/ 子文件（E004 二次残留）"
-    severity: medium
-    implication: "技能内化体检必须 grep 整个 skill 目录（主文件+子文件），不能只 patch 主文件——'同步三处'要扩成'同步四处'"
+- signal: 引用 features.json 数量的文档（bridge 卡/concept 卡/skill）写 12/13 条，实际已是 20 条
+  severity: medium
+  implication: KDO 基建在增长（13→20 只用了约一周），所有引用具体数字的文档都会周期性过时——查证必须先读 features.json，不凭任何中间文档
+- signal: 修 skill 时只改了主 SKILL.md 和 memory，漏掉 skill 的 references/ 子文件（E004 二次残留）
+  severity: medium
+  implication: 技能内化体检必须 grep 整个 skill 目录（主文件+子文件），不能只 patch 主文件——'同步三处'要扩成'同步四处'
 related:
-  - '[[dk-agent-access-kdo-pitfalls]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
-  - '[[bridge-dual-track-feature-system]]'
+- '[[dk-agent-access-kdo-pitfalls]]'
+- '[[dk-c8-format-complete-mind-empty]]'
+- '[[bridge-dual-track-feature-system]]'
 created_at: 2026-08-16
 updated_at: 2026-08-16
 tags:
-  - audience:builder
-  - scene:reference
-  - skill-level:advanced
-  - agent:hermes
+- audience:builder
+- scene:reference
+- skill-level:advanced
+- agent:hermes
 ---
 
 # Feature 注册表数量漂移：引用数字的文档系统性滞后

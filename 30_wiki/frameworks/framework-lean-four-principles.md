@@ -8,25 +8,25 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
-quality_labels:
+quality_labels: null
 created_at: 2026-06-23
 updated_at: 2026-06-23
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 低成本验证
-  - 创业低成本验证四大原则
-  - 创业全景图
-  - 益验证四大原则
-  - 精益创业低成本验证四大原则
-  - 证四大原则
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 低成本验证
+- 创业低成本验证四大原则
+- 创业全景图
+- 益验证四大原则
+- 精益创业低成本验证四大原则
+- 证四大原则
+source_refs: null
+related: null
 discoverable_by:
-  - "精益验证四大原则"
-tags:
+- 精益验证四大原则
+tags: null
 ---
 # 精益创业低成本验证四大原则
 

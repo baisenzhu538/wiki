@@ -6,29 +6,29 @@ status: reviewed
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
-domain:
+domain: unknown
 author: 欧阳锋
 created_at: '2026-06-21'
 updated_at: '2026-08-11'
 version: v2.3
 aliases:
-  - audience:ceo
-  - daily
-  - review
-  - scene:diagnosis
-  - skill-level:advanced
-  - 三阶段架构评审框架
-  - 审查方法论
-  - 欧阳锋审查方法论
-  - 欧阳锋审查方法论：三阶段架构评审框架
-  - 锋审查方法论
-  - 错误模式库
-  - 阳锋审查方法论
-source_refs:
-related:
+- audience:ceo
+- daily
+- review
+- scene:diagnosis
+- skill-level:advanced
+- 三阶段架构评审框架
+- 审查方法论
+- 欧阳锋审查方法论
+- 欧阳锋审查方法论：三阶段架构评审框架
+- 锋审查方法论
+- 错误模式库
+- 阳锋审查方法论
+source_refs: null
+related: null
 discoverable_by:
-  - "欧阳锋审查方法论"
-tags:
+- 欧阳锋审查方法论
+tags: null
 ---
 # 欧阳锋审查方法论
 

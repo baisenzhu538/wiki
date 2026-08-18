@@ -5,44 +5,40 @@ type: framework
 status: draft
 confidence: 0.88
 trust_level: high
-domain:
+domain: product
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-07-20'
 created_at: '2026-07-20'
 updated_at: '2026-07-20'
-quality_labels:
-diagnostic_signals:
-lens: 开发团队先追 Hyper Friends / 数字人，做了一个月才发现方向错误
-follow_up: 先拆解 300+ 条视频建立审美标准，再选技术路线
-lens: 方法论呈现为线性四步法，第一步就卡住
-follow_up: 标注 §A 为复盘结构、§B 为真实过程，预期第一圈是乱的
+quality_labels: null
+diagnostic_signals: null
 lens: 组件化不彻底或审美标准未量化
 follow_up: 回到拆解层补组件库，人工验证"愿不愿发出去"
 aliases:
-  - AI产品开发
-  - AI产品开发审美与体系的分工：审美定义结果，体系让结果重复发生
-  - AI口播工具开发经验
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 产品审美体系
-  - 产品开发
-  - 付则宇
-  - 体系化
-  - 体系让结果重复发生
-  - 口播工具
-  - 审美与体系的分工
-  - 审美定义
-  - 审美定义结果
-  - 短视频自动化
-source_refs:
-related:
+- AI产品开发
+- AI产品开发审美与体系的分工：审美定义结果，体系让结果重复发生
+- AI口播工具开发经验
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 产品审美体系
+- 产品开发
+- 付则宇
+- 体系化
+- 体系让结果重复发生
+- 口播工具
+- 审美与体系的分工
+- 审美定义
+- 审美定义结果
+- 短视频自动化
+source_refs: null
+related: null
 discoverable_by:
-  - "AI产品审美体系"
-  - "审美定义结果体系重复"
-tags:
-query_triggers:
+- AI产品审美体系
+- 审美定义结果体系重复
+tags: null
+query_triggers: null
 ---
 # AI产品开发·审美与体系的分工
 

@@ -1,9 +1,8 @@
 ---
-
 domain:
 - personal-growth
 id: yt-personal-verbatim-script
-title: "逐字稿"
+title: 逐字稿
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
@@ -23,15 +22,17 @@ review_date: 2026-05-08
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 逐字稿
+- 逐字稿
 source_refs:
 - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
 discoverable_by:
-  - 逐字稿
+- 逐字稿
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+type: concept
+status: draft
 ---
 # 逐字稿
 

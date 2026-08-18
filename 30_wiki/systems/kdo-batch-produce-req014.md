@@ -7,7 +7,7 @@ source_refs:
 - 'pending_archive: src_unknown'
 role: Knowledge Builder
 created_at: '2026-05-04'
-status: proposed
+status: draft
 domain:
 - kdo
 reviewer: 欧阳锋 (Architect)

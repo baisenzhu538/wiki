@@ -1,8 +1,7 @@
 ---
-
 id: yt-model-pan-product-demand-toolkit
 component_of:
-- "[[yt-composite-pan-product-methodology]]"
+- '[[yt-composite-pan-product-methodology]]'
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
@@ -12,8 +11,8 @@ domain:
 estimated_tokens: 1800
 language: zh-CN
 prerequisites:
-- "[[yt-model-pan-product-demand-user-perspective]]"
-- "[[yt-model-pan-product-three-virtues]]"
+- '[[yt-model-pan-product-demand-user-perspective]]'
+- '[[yt-model-pan-product-three-virtues]]'
 query_triggers:
 - 泛产品设计需求分析用什么卡
 - 需求工具箱13张牌怎么选
@@ -22,25 +21,25 @@ query_triggers:
 - 动力阻力触点怎么分析
 - 泛产品设计从哪张牌开始出
 discoverable_by:
-  - 泛产品设计·需求工具箱13张卡牌
-  - 泛产品设计
-  - 需求工具箱13张卡牌
+- 泛产品设计·需求工具箱13张卡牌
+- 泛产品设计
+- 需求工具箱13张卡牌
 related:
-- "[[yt-composite-pan-product-methodology]]"
-- "[[yt-model-pan-product-36-strategies]]"
-- "[[yt-model-pan-product-aesthetic-toolkit]]"
-- "[[yt-model-pan-product-execution-toolkit]]"
-- "[[yt-entrepreneur-five-step-method]]"
+- '[[yt-composite-pan-product-methodology]]'
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-pan-product-execution-toolkit]]'
+- '[[yt-entrepreneur-five-step-method]]'
 review_by: 2026-11-11
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 品设计
-  - 工具箱
-  - 张卡牌
-  - 泛产品设计
-  - 泛产品设计需求工具箱13张卡牌
-  - 需求工具箱13张卡牌
+- 品设计
+- 工具箱
+- 张卡牌
+- 泛产品设计
+- 泛产品设计需求工具箱13张卡牌
+- 需求工具箱13张卡牌
 source_refs:
 - 10_raw/sources/src_20260522_726a6a3b-ocr-泛产品设计-需求工具箱指南.md
 - 00_inbox/一堂-个人修身-泛产品设计实操口述版.md L1796,L1808-L1870,L1936-L2096,L2370-L2417,L4350-L4450,L5070-L5170,L5420-L5460
@@ -49,19 +48,19 @@ title: 泛产品设计·需求工具箱（13张卡牌）
 type: framework
 version: 1
 pipeline:
-- "[[yt-model-pan-product-demand-user-perspective]]"
-- "[[yt-model-pan-product-demand-user-segmentation]]"
-- "[[yt-model-pan-product-demand-scenario-walkthrough]]"
-- "[[yt-model-pan-product-demand-problem-insight]]"
-- "[[yt-model-pan-product-demand-project-background]]"
-- "[[yt-model-pan-product-demand-multi-perspective]]"
-- "[[yt-model-pan-product-demand-motivation-resistance]]"
-- "[[yt-model-pan-product-demand-fine-formula]]"
-- "[[yt-model-pan-product-demand-peak-end]]"
-- "[[yt-model-pan-product-demand-feasibility-assessment]]"
-- "[[yt-model-pan-product-product-core]]"
-- "[[yt-model-pan-product-unit-model]]"
-- "[[yt-model-pan-product-business-formula]]"
+- '[[yt-model-pan-product-demand-user-perspective]]'
+- '[[yt-model-pan-product-demand-user-segmentation]]'
+- '[[yt-model-pan-product-demand-scenario-walkthrough]]'
+- '[[yt-model-pan-product-demand-problem-insight]]'
+- '[[yt-model-pan-product-demand-project-background]]'
+- '[[yt-model-pan-product-demand-multi-perspective]]'
+- '[[yt-model-pan-product-demand-motivation-resistance]]'
+- '[[yt-model-pan-product-demand-fine-formula]]'
+- '[[yt-model-pan-product-demand-peak-end]]'
+- '[[yt-model-pan-product-demand-feasibility-assessment]]'
+- '[[yt-model-pan-product-product-core]]'
+- '[[yt-model-pan-product-unit-model]]'
+- '[[yt-model-pan-product-business-formula]]'
 diagnostic_signals:
 - framework_lens: 工具选择困难
   follow_up_question: 你的项目复杂度是小产品、复杂产品还是商业产品？不同复杂度对应不同卡牌
@@ -69,7 +68,7 @@ diagnostic_signals:
   follow_up_question: 你做过多少个小产品的需求分析？如果<5个，先练初阶卡牌
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 ---
 
 ## Constraints & Boundaries

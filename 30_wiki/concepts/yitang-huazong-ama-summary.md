@@ -1,15 +1,14 @@
 ---
-
 id: yitang-huazong-ama-summary
 created_at: 2026-05-29
 domain:
 - healthcare
 aliases:
-  - 精华摘要商业突破大航海
-  - 花总AMA精华摘要商业突破大航海
+- 精华摘要商业突破大航海
+- 花总AMA精华摘要商业突破大航海
 source_refs:
 - 'pending_archive: src_unknown'
-status: stable
+status: reviewed
 title: 花总AMA精华摘要（商业突破大航海）
 type: concept
 updated_at: '2026-06-17'
@@ -20,7 +19,7 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
 discoverable_by:
-  - 花总AMA精华摘要商业突破大航海
+- 花总AMA精华摘要商业突破大航海
 related:
 - '[[yt-model-dual-triangle-competitiveness]]'
 - '[[case-yitang-double-triangle-confidence]]'

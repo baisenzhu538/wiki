@@ -2,9 +2,9 @@
 id: framework-decision-quality-checklist
 title: 决策质量六问检查表
 type: framework
-domain:
+domain: unknown
 status: reviewed
-quality_labels:
+quality_labels: null
 created_at: 2026-06-28
 updated_at: '2026-06-29'
 author: 老顽童
@@ -13,26 +13,26 @@ review_date: 2026-06-28
 confidence: 0.8
 trust_level: high
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 么检查决策质量
-  - 决策质量六问检查表
-  - 决策高度实操课口述
-  - 科学决策
-  - 策六问
-  - 策质量检查
-  - 策质量清单
-  - 质量六问检查表
-  - 量检查
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 么检查决策质量
+- 决策质量六问检查表
+- 决策高度实操课口述
+- 科学决策
+- 策六问
+- 策质量检查
+- 策质量清单
+- 质量六问检查表
+- 量检查
+source_refs: null
+related: null
 discoverable_by:
-  - "决策质量检查"
-  - "决策六问"
-  - "决策质量清单"
-  - "怎么检查决策质量"
-tags:
+- 决策质量检查
+- 决策六问
+- 决策质量清单
+- 怎么检查决策质量
+tags: null
 ---
 # 决策质量六问检查表
 

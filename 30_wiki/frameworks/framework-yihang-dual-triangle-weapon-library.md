@@ -10,24 +10,24 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-11
-domain:
+domain: yihang
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂双三角
-  - 一行双三角六要素武器库
-  - 三角武器库
-  - 人机协作双三角
-  - 双三角六要素武器库
-  - 双三角武器库
-  - 双三角能力矩阵 - framework-yitang-thought-liberation-lightning
-  - 武器库
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 一堂双三角
+- 一行双三角六要素武器库
+- 三角武器库
+- 人机协作双三角
+- 双三角六要素武器库
+- 双三角武器库
+- 双三角能力矩阵 - framework-yitang-thought-liberation-lightning
+- 武器库
+source_refs: null
+related: null
 discoverable_by:
-  - "双三角武器库"
-tags:
+- 双三角武器库
+tags: null
 ---
 # 一行双三角六要素武器库
 

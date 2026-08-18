@@ -1,20 +1,21 @@
 ---
-
 id: yt-tool-business-formula-metrics-checklist
-title: "业务公式数据埋点设计清单"
+title: 业务公式数据埋点设计清单
 status: enriched
 reviewed_by: pending
 updated_at: '2026-07-12'
 discoverable_by:
-  - 业务公式数据埋点设计清单
-related:
+- 业务公式数据埋点设计清单
+related: null
 aliases:
-  - audience:general
-  - scene:reference
-  - skill-level:intermediate
-  - 业务公式数据埋点设计清单
-source_refs:
-tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
+- 业务公式数据埋点设计清单
+source_refs: null
+tags: null
+type: tool
+domain: business-formula
 ---
 # 业务公式数据埋点设计清单
 

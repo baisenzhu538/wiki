@@ -3,18 +3,18 @@ id: framework-logic-cleanliness-five-levels
 title: 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
 type: framework
 aliases:
-  - Truman
-  - framework_lens: 逻辑洁癖五段位
-  - 从散点堆到逻辑链的建模审美标准
-  - 建模能力培训
-  - 洁度五级
-  - 洁癖五段位
-  - 辑整洁度五级
-  - 逻辑洁癖五段位
-  - 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
-source_refs:
+- Truman
+- framework_lens: 逻辑洁癖五段位
+- 从散点堆到逻辑链的建模审美标准
+- 建模能力培训
+- 洁度五级
+- 洁癖五段位
+- 辑整洁度五级
+- 逻辑洁癖五段位
+- 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
+source_refs: null
 status: reviewed
-domain:
+domain: unknown
 source_person: Truman
 source_context: 一堂高阶建模能力培训（逻辑洁癖与建模审美）
 created_at: '2026-06-14'
@@ -24,15 +24,13 @@ reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.89
-related:
+related: null
 discoverable_by:
-  - "逻辑整洁度五级"
-tags:
+- 逻辑整洁度五级
+tags: null
 diagnostic_signals:
 - framework_lens: 逻辑洁癖五段位
 - framework_lens: 逻辑洁癖五段位
-follow_up_question: 这些点是 L1 散点堆，还是已经拆成 L2 清单？是否还能分出优先级？
-follow_up_question: 是否达到了 L4 MECE？概念之间是否彼此独立、完全穷尽？
 follow_up_question: 模块之间是否有推理关系，还是只是分类？是否达到了 L5 逻辑链？
 ---
 # 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准

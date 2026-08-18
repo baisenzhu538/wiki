@@ -8,52 +8,52 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.88
-trust_level: observed
+trust_level: medium
 aliases:
-  - Christensen
-  - src_20260802_创新者的窘境_秦鹏拆书
-  - 不能被调研
-  - 么洞察用户需求
-  - 产品负责人
-  - 什么颠覆创新不能调研
-  - 创新者的窘境
-  - 洞察不能被调研
-  - 破坏性创新只能被洞察不能被调研
-  - 秦鹏拆书
-  - 者的窘境
-  - 被调研
-  - 需求分析
-  - 需求挖掘
-  - 需求洞察vs需求调研
-  - 需求调研
+- Christensen
+- src_20260802_创新者的窘境_秦鹏拆书
+- 不能被调研
+- 么洞察用户需求
+- 产品负责人
+- 什么颠覆创新不能调研
+- 创新者的窘境
+- 洞察不能被调研
+- 破坏性创新只能被洞察不能被调研
+- 秦鹏拆书
+- 者的窘境
+- 被调研
+- 需求分析
+- 需求挖掘
+- 需求洞察vs需求调研
+- 需求调研
 source_refs:
-  - 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
+- 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
 related:
-  - framework-christensen-disruptive-innovation
-  - dk-qinpeng-three-corrections
-  - yt-panproduct-demand-need-discovery
-  - yt-panproduct-execution-low-cost-mvp
-  - tool-需求挖掘
-  - yt-demand-quantitative-estimation
-  - yt-demand-level-assessment
-  - tool-马易-风口痛点识别法
+- framework-christensen-disruptive-innovation
+- dk-qinpeng-three-corrections
+- yt-panproduct-demand-need-discovery
+- yt-panproduct-execution-low-cost-mvp
+- tool-需求挖掘
+- yt-demand-quantitative-estimation
+- yt-demand-level-assessment
+- tool-马易-风口痛点识别法
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:洞察vs调研
-  - scene:需求分析
-  - audience:产品负责人
-  - content-format:dk
-  - source-person:秦鹏
+- method:洞察vs调研
+- scene:需求分析
+- audience:产品负责人
+- content-format:dk
+- source-person:秦鹏
 discoverable_by:
-  - "需求洞察和需求调研的区别"
-  - "为什么颠覆创新不能调研"
-  - "怎么洞察用户需求"
+- 需求洞察和需求调研的区别
+- 为什么颠覆创新不能调研
+- 怎么洞察用户需求
 diagnostic_signals:
-  - signal: "秦鹏与一堂关老师需求洞察课高度共鸣"
-    severity: low
-    implication: "可桥接一堂需求洞察课程相关卡片"
+- signal: 秦鹏与一堂关老师需求洞察课高度共鸣
+  severity: low
+  implication: 可桥接一堂需求洞察课程相关卡片
 ---
 
 > **定位**：属于 `dk-qinpeng-three-corrections` 纠正①的**深层展开**——"需求不明显"的根本原因不是没需求，是传统调研工具失效。

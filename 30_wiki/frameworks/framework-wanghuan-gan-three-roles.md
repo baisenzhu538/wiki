@@ -3,8 +3,8 @@ id: framework-wanghuan-gan-three-roles
 title: 王欢GAN三角色架构：生成器/判别器/合成器
 type: framework
 status: reviewed
-domain:
-quality_labels:
+domain: wanghuan
+quality_labels: null
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -14,25 +14,23 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 aliases:
-  - lens: 生成器能力到达瓶颈，需要引入异构评审视角
-  - 三角色
-  - 三角色架构
-  - 启发的三角色架构
-  - 成器判别器合成器
-  - 王欢
-  - 王欢GAN三角色架构
-  - 王欢GAN三角色架构：生成器/判别器/合成器
-  - 生成器/判别器/合成器
-  - 示意图
-source_refs:
-related:
+- lens: 生成器能力到达瓶颈，需要引入异构评审视角
+- 三角色
+- 三角色架构
+- 启发的三角色架构
+- 成器判别器合成器
+- 王欢
+- 王欢GAN三角色架构
+- 王欢GAN三角色架构：生成器/判别器/合成器
+- 生成器/判别器/合成器
+- 示意图
+source_refs: null
+related: null
 discoverable_by:
-  - "王欢GAN三角色"
-  - "生成器判别器合成器"
-tags:
-diagnostic_signals:
-follow_up: 检查是否已配置至少一个来自不同模型族/不同利益相关方的判别器
-follow_up: 引入更强的合成器模型或人工裁决，输出按优先级排序的修改清单
+- 王欢GAN三角色
+- 生成器判别器合成器
+tags: null
+diagnostic_signals: null
 follow_up: 加入人工终审红线，要求内容必须写给人看而非写给AI看
 ---
 # 王欢GAN三角色架构：生成器/判别器/合成器

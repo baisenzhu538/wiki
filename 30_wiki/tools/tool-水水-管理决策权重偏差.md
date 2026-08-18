@@ -7,13 +7,13 @@ domain: src-unknown
 source_person: 水水
 source_context: 拆书会-偶然
 aliases:
-  - audience:manager
-  - scene:execution
-  - skill-level:intermediate
-  - 技能
-  - 技能：管理决策权重偏差
-  - 水水
-  - 管理决策权重偏差
+- audience:manager
+- scene:execution
+- skill-level:intermediate
+- 技能
+- 技能：管理决策权重偏差
+- 水水
+- 管理决策权重偏差
 source_refs:
 - src_unknown
 wiki_refs:
@@ -21,8 +21,8 @@ wiki_refs:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - 技能：管理决策权重偏差
-  - 管理决策权重偏差
+- 技能：管理决策权重偏差
+- 管理决策权重偏差
 related:
 - '[[master-decision-hygiene]]'
 - '[[master-cognitive-bias-checklist]]'
@@ -43,8 +43,8 @@ confidence: 0.85
 pipeline:
 - src_unknown
 author: 老顽童
-trust_level: medium-high
-diagnostic_signals:
+trust_level: high
+diagnostic_signals: null
 ---
 # 技能：管理决策权重偏差
 

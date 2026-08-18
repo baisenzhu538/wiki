@@ -10,24 +10,24 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-08
-domain:
+domain: yihang
 aliases:
-  - AI落地五部曲
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂双三角
-  - 一行双三角AI落地五部曲
-  - 五部曲
-  - 人机协作双三角
-  - 双三角
-  - 双三角AI落地五部曲
-  - 落地五部曲
-source_refs:
-related:
+- AI落地五部曲
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 一堂双三角
+- 一行双三角AI落地五部曲
+- 五部曲
+- 人机协作双三角
+- 双三角
+- 双三角AI落地五部曲
+- 落地五部曲
+source_refs: null
+related: null
 discoverable_by:
-  - "双三角AI落地五部曲"
-tags:
+- 双三角AI落地五部曲
+tags: null
 ---
 # 一行双三角AI落地五部曲
 

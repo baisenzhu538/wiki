@@ -1,6 +1,6 @@
 ---
 id: tool-private-board-facilitation-sop
-title: "私董会主持SOP：七步结构化流程"
+title: 私董会主持SOP：七步结构化流程
 type: tool
 domain: management
 status: draft
@@ -9,46 +9,46 @@ updated_at: 2026-07-27
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 aliases:
-  - 一堂私董会流程
-  - 七步结构化会议
-  - 七步结构化流程
-  - 主持人未在第一轮喊停
-  - 人未在第一轮喊停
-  - 会主持
-  - 检查是否跳过了
-  - 王非私董会
-  - 私董会主持SOP
-  - 私董会主持SOP：七步结构化流程
-  - 第6期 55班 王非私董会 v2.0 【高强版】
-  - 第6期私董会总结
-  - 结构化会议
+- 一堂私董会流程
+- 七步结构化会议
+- 七步结构化流程
+- 主持人未在第一轮喊停
+- 人未在第一轮喊停
+- 会主持
+- 检查是否跳过了
+- 王非私董会
+- 私董会主持SOP
+- 私董会主持SOP：七步结构化流程
+- 第6期 55班 王非私董会 v2.0 【高强版】
+- 第6期私董会总结
+- 结构化会议
 source_refs:
-  - 00_inbox/私董会/第6期 55班 王非私董会 v2.0 【高强版】.md
-  - 00_inbox/私董会/_processed/第6期私董会总结.md
+- 00_inbox/私董会/第6期 55班 王非私董会 v2.0 【高强版】.md
+- 00_inbox/私董会/_processed/第6期私董会总结.md
 tags:
-  - method:peer-advisory
-  - method:meeting-facilitation
-  - method:structured-meeting
-  - scene:run-meeting
-  - audience:meeting-host
-  - content-format:checklist
-  - source-person:徐里
+- method:peer-advisory
+- method:meeting-facilitation
+- method:structured-meeting
+- scene:run-meeting
+- audience:meeting-host
+- content-format:checklist
+- source-person:徐里
 related:
-  - framework-yitang-shishi-qiushi
-  - framework-kdo-modeling-methodology
-  - concept-collaboration-philosophy-foundation
-  - tool-position-switching-test
-  - dk-sponsor-three-tier-pricing
+- framework-yitang-shishi-qiushi
+- framework-kdo-modeling-methodology
+- concept-collaboration-philosophy-foundation
+- tool-position-switching-test
+- dk-sponsor-three-tier-pricing
 quality_labels:
-  - cited
-  - actionable
+- cited
+- actionable
 diagnostic_signals:
-  - "会议超时且没产出→检查是否跳过了'收敛'环节"
-  - "案主听了很多建议但不行动→AI笔记官复盘未产出可执行作业"
-  - "幕僚提问变成了给建议→主持人未在第一轮喊停"
-discoverable_by: "私董会主持、七步法、会议SOP、主持人流程、结构化会议"
+- 会议超时且没产出→检查是否跳过了'收敛'环节
+- 案主听了很多建议但不行动→AI笔记官复盘未产出可执行作业
+- 幕僚提问变成了给建议→主持人未在第一轮喊停
+discoverable_by: 私董会主持、七步法、会议SOP、主持人流程、结构化会议
 ---
 # 私董会主持SOP：七步结构化流程
 

@@ -32,6 +32,7 @@ discoverable_by:
 - 经验提炼
 - 模式提取
 - Agent学习
+domain: kdo
 ---
 
 # Agent 蒸馏方法：对话→系统提示词 5 步框架

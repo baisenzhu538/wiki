@@ -8,50 +8,50 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 aliases:
-  - AI时代中小企业颠覆路径
-  - AI智能服务
-  - Christensen
-  - src_20260802_创新者的窘境_秦鹏拆书
-  - 中小企业战略
-  - 中小企业机会
-  - 创新者的窘境
-  - 商业化
-  - 时代小公司怎么颠覆
-  - 智能服务四特征
-  - 智能服务四特征：AI时代中小企业颠覆路径
-  - 秦鹏拆书
-  - 秦鹏智能服务
-  - 落地场景识别与拆分
+- AI时代中小企业颠覆路径
+- AI智能服务
+- Christensen
+- src_20260802_创新者的窘境_秦鹏拆书
+- 中小企业战略
+- 中小企业机会
+- 创新者的窘境
+- 商业化
+- 时代小公司怎么颠覆
+- 智能服务四特征
+- 智能服务四特征：AI时代中小企业颠覆路径
+- 秦鹏拆书
+- 秦鹏智能服务
+- 落地场景识别与拆分
 source_refs:
-  - 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
+- 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
 related:
-  - framework-christensen-disruptive-innovation
-  - concept-qinpeng-ai-as-amplifier
-  - concept-qinpeng-knowledge-base-conversion
-  - tool-马易-AI落地场景识别与拆分
-  - ai-landing-scene-selection
+- framework-christensen-disruptive-innovation
+- concept-qinpeng-ai-as-amplifier
+- concept-qinpeng-knowledge-base-conversion
+- tool-马易-AI落地场景识别与拆分
+- ai-landing-scene-selection
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:智能服务四特征
-  - scene:AI商业化
-  - scene:中小企业战略
-  - audience:一号位
-  - audience:产品负责人
-  - content-format:tool
-  - source-person:秦鹏
+- method:智能服务四特征
+- scene:AI商业化
+- scene:中小企业战略
+- audience:一号位
+- audience:产品负责人
+- content-format:tool
+- source-person:秦鹏
 discoverable_by:
-  - "AI时代小公司怎么颠覆"
-  - "智能服务是什么"
-  - "AI中小企业机会"
-  - "怎么用AI做个性化服务"
+- AI时代小公司怎么颠覆
+- 智能服务是什么
+- AI中小企业机会
+- 怎么用AI做个性化服务
 diagnostic_signals:
-  - signal: "智能服务四特征为秦鹏原创概念，无国际通识对应"
-    severity: moderate
-    implication: "需标注为秦鹏概念，不可当作通用框架使用"
+- signal: 智能服务四特征为秦鹏原创概念，无国际通识对应
+  severity: moderate
+  implication: 需标注为秦鹏概念，不可当作通用框架使用
 ---
 
 > **定位**：属于 `framework-christensen-disruptive-innovation` 的 **AI 时代操作化工具**——将破坏性创新理论转化为 AI 时代中小企业可以执行的 go/no-go checklist。

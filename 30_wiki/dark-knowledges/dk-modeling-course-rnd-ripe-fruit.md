@@ -1,33 +1,32 @@
 ---
-
 id: dk-modeling-course-rnd-ripe-fruit
 title: 研究型课程无法提前排课表：只能等菜熟了再摘
 type: dk
 dark_knowledge_type: workflow
 status: reviewed
-domain:
+domain: modeling
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 aliases:
-  - Truman
-  - audience:executor
-  - scene:reference
-  - skill-level:intermediate
-  - 只能等菜熟了再摘
-  - 型课程无法提前排课表
-  - 建模能力培训
-  - 研究型课程无法提前排课表
-  - 研究型课程无法提前排课表：只能等菜熟了再摘
-  - 等菜熟了再摘
-source_refs:
+- Truman
+- audience:executor
+- scene:reference
+- skill-level:intermediate
+- 只能等菜熟了再摘
+- 型课程无法提前排课表
+- 建模能力培训
+- 研究型课程无法提前排课表
+- 研究型课程无法提前排课表：只能等菜熟了再摘
+- 等菜熟了再摘
+source_refs: null
 confidence: 0.8
 trust_level: medium
 discoverable_by:
-  - 研究型课程无法提前排课表：只能等菜熟了再摘
-  - 研究型课程无法提前排课表
-  - 只能等菜熟了再摘
-related:
-tags:
+- 研究型课程无法提前排课表：只能等菜熟了再摘
+- 研究型课程无法提前排课表
+- 只能等菜熟了再摘
+related: null
+tags: null
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'

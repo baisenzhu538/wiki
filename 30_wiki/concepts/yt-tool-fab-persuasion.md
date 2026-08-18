@@ -20,9 +20,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - FAB核心说服：从产品特性到用户利益的转化法
-  - FAB核心说服
-  - 从产品特性到用户利益的转化法
+- FAB核心说服：从产品特性到用户利益的转化法
+- FAB核心说服
+- 从产品特性到用户利益的转化法
 related:
 - '[[tool-月白-封面情绪转化法]]'
 - '[[tool-Truman-AI时代提示词优化法]]'
@@ -58,7 +58,7 @@ diagnostic_signals:
   follow_up_question: 高客单价/低认知场景是否仍在用功能列表开场？
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 aliases:
 - 课程地图精华串讲
 ---

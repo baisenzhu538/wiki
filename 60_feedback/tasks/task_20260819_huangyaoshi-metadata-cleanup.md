@@ -1,8 +1,8 @@
 ---
 id: 371
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-19T02:30:00+00:00'
+status: in_progress
+updated_at: '2026-08-18T17:49:52.780194+00:00'
 title: 正库元数据规范清洗（P1，小昭体检修正版）——真 domain 空值 307 + trust_level/status/type 枚举收敛
 priority: P1
 dependency: []
@@ -47,4 +47,36 @@ reviewed_by: 欧阳锋
 ## 交付
 
 1. 清洗脚本 + dry-run 记录 + 抽查证据
+2. 送欧阳锋终审
+
+## 执行记录（2026-08-19 黄药师，已提审）
+
+### 扫描摸底（2823 文件，真实规模）
+
+domain 空 307 / trust 非标 265（observed 65+medium-high 99+medium-low 89+带#尾巴 10+placeholder 1）/ dark-knowledge 8 / status 14 种 / 缺 type 59 / 重复键 95 / 测试文件 4（_test_pa/_test_dead_link/_dogfood ×2，no_title 的唯一一张就是 _test_pa）
+
+### 清洗执行（脚本 `90_control/scripts/clean-metadata-371.py`，635 文件）
+
+| 字段 | 处置 |
+|:--|:--|
+| trust_level | 257 映射：observed→medium、medium-high→high、medium-low→low、带#取前缀、placeholder→medium；剩余全部 ∈ {high,medium,low} |
+| type | 67：dark-knowledge→dk（8）+ 缺 type 按目录映射（59） |
+| status | 97 归并：superseded→deprecated、revised/stable/approved→reviewed、active→enriched、proposed→draft、pending→pending_review、缺省→draft；needs-review 保留（正式中间态） |
+| domain | 307 全补：文件名/关键词规则（yt-前缀=yitang、medicine/医疗→healthcare、人机协作→ai-collaboration、ec→ecommerce 等）+ related 卡 domain 众数 → 161 推断；**146 标 unknown 备案**（`_tmp_m371_domain_unknown.txt`，真实边界：外部框架/域不明卡无法可靠推断——"个位数"目标不现实，建议老顽童抽查 10% 时人工补） |
+| 重复键 | 95 修复（yaml round-trip 去重保留最后值） |
+| 测试文件 | `_test_pa.md`/`_test_dead_link.md`/`_dogfood_dk.md`/`_dogfood_dk2.md` 移出正库 → 00_inbox |
+
+### 验证
+
+- 抽查 5 张卡 frontmatter 映射全部正确（observed→medium、yt-→yitang、strategy 命中等）
+- **lint 回归：清洗后 8270 ERROR vs 清洗前基线 8393（stash 对比）——-123 不增反减**（type 规范化修复部分 link 类）✅
+- 只改 frontmatter 不动正文；_archive 排除
+
+### 待办
+
+- domain unknown 146 张人工抽查补全（老顽童协助 10%，备案文件在 _tmp_m371_domain_unknown.txt）
+
+## 交付
+
+1. 清洗脚本 + dry-run/apply 记录 + 抽查证据 + lint 对比
 2. 送欧阳锋终审

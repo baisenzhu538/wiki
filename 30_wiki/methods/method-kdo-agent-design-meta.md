@@ -30,6 +30,7 @@ discoverable_by:
 - KDO Agent
 - Agent架构
 - 设计原则
+domain: design
 ---
 
 # KDO Agent 设计元方法：用双三角加速 Agent 建设

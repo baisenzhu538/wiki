@@ -1,14 +1,13 @@
 ---
-
 id: yt-unit-model-three-tools
-title: "单元模型三工具：斧子尺子梯子"
+title: 单元模型三工具：斧子尺子梯子
 status: enriched
 reviewed_by: pending
 updated_at: '2026-07-12'
 discoverable_by:
-  - 单元模型三工具：斧子尺子梯子
-  - 单元模型三工具
-  - 斧子尺子梯子
+- 单元模型三工具：斧子尺子梯子
+- 单元模型三工具
+- 斧子尺子梯子
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-growth-cycle-model]]'
@@ -17,17 +16,19 @@ related:
 - '[[yt-business-formula-abc-model]]'
 - '[[pending_unknown]]'
 aliases:
-  - 单元模型三工具
-  - 单元模型三工具：斧子尺子梯子
-  - 尺子梯子
-  - 斧子尺子梯子
-  - 模型三工具
+- 单元模型三工具
+- 单元模型三工具：斧子尺子梯子
+- 尺子梯子
+- 斧子尺子梯子
+- 模型三工具
 source_refs:
 - pending_archive: src_unknown
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+type: concept
+domain: yitang
 ---
 # 单元模型三工具：斧子尺子梯子
 

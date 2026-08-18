@@ -1,5 +1,4 @@
 ---
-
 title: 基本功认知
 type: concept
 domain:
@@ -7,7 +6,7 @@ domain:
 - yitang
 status: reviewed
 discoverable_by:
-  - 基本功认知
+- 基本功认知
 quality_labels:
 - principle
 - actionable
@@ -29,10 +28,10 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.88
-trust_level: medium-high
+trust_level: high
 aliases:
-  - 功认知
-  - 基本功认知
+- 功认知
+- 基本功认知
 source_refs:
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功方法论入门-口述.txt:L104-360（认知篇）
 - 00_inbox/Manage the team/Fundamentals Seminar/一堂-基本功拆解-口述.txt:L268-686（拆解篇）

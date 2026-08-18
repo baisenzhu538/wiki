@@ -3,68 +3,67 @@ id: framework-how-to-know-a-person
 title: 「框架：布鲁克斯"看见"三支柱——了解一个人的完整方法论」
 type: framework
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-09
 confidence: 0.95
 trust_level: high
 domain:
-  - human-insights
-  - methodology
+- human-insights
+- methodology
 author: 老顽童
 source_refs:
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-笔记.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-笔记.txt
 source_person: 戴维·布鲁克斯 / 水水
 source_context: 2026-08-04 一堂拆书会，水水拆解布鲁克斯《如何了解一个人》（How to Know a Person）
-reviewed_by: 待审
 aliases:
-  - 看见三支柱
-  - 布鲁克斯看见框架
-  - 如何了解一个人
-  - 人域方法论
-  - How to Know a Person
+- 看见三支柱
+- 布鲁克斯看见框架
+- 如何了解一个人
+- 人域方法论
+- How to Know a Person
 discoverable_by:
-  - 看见三支柱
-  - 布鲁克斯
-  - 如何了解一个人
-  - 人域框架
-  - 了解人方法论
+- 看见三支柱
+- 布鲁克斯
+- 如何了解一个人
+- 人域框架
+- 了解人方法论
 related:
-  - framework-big-five-personality
-  - tool-illuminator-vs-diminisher
-  - tool-narrative-thinking-user-insight
-  - tool-empathy-practice
-  - bridge-how-to-know-person-to-business
-  - framework-一堂-个人表达力
-  - framework-ouyangfeng-review-methodology
-  - human-insights-domain-digest
+- framework-big-five-personality
+- tool-illuminator-vs-diminisher
+- tool-narrative-thinking-user-insight
+- tool-empathy-practice
+- bridge-how-to-know-person-to-business
+- framework-一堂-个人表达力
+- framework-ouyangfeng-review-methodology
+- human-insights-domain-digest
 tags:
-  - method:human-insight
-  - method:psychology
-  - method:empathy
-  - scene:team-building
-  - scene:user-research
-  - scene:leadership
-  - audience:general
-  - content-format:framework
-  - source-person:布鲁克斯
-  - source-person:水水
+- method:human-insight
+- method:psychology
+- method:empathy
+- scene:team-building
+- scene:user-research
+- scene:leadership
+- audience:general
+- content-format:framework
+- source-person:布鲁克斯
+- source-person:水水
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels:
-  - insight
-  - principle
-  - cited
+- insight
+- principle
+- cited
 diagnostic_signals:
-  - signal: "团队协作摩擦不断，总觉得'这个人不可理喻'"
-    lens: 可能困在"看到"而非"看见"——看到行为，没看见这个人的存在/挣扎/力量
-    follow_up: 用三支柱逐一排查：你了解这个人的性格特质吗（力量）？你知道他正在经历什么困难吗（挣扎）？你让他感受到被关注了吗（存在）？
-  - signal: "做了用户画像（年龄/城市/收入）但产品还是失败"
-    lens: 数据里没有人——你看到的是数字，不是真实用户的人生故事
-    follow_up: 用叙事型洞察（tool-narrative-thinking）替换统计型画像
-  - signal: "给员工反馈后对方抵触而不是改进"
-    lens: 可能踩了"抽象建议"的坑——"不够落地"这种话让对方觉得你根本没认真看
-    follow_up: 改用"认可努力+具体建议"模式（tool-illuminator 反馈法）
+- signal: 团队协作摩擦不断，总觉得'这个人不可理喻'
+  lens: 可能困在"看到"而非"看见"——看到行为，没看见这个人的存在/挣扎/力量
+  follow_up: 用三支柱逐一排查：你了解这个人的性格特质吗（力量）？你知道他正在经历什么困难吗（挣扎）？你让他感受到被关注了吗（存在）？
+- signal: 做了用户画像（年龄/城市/收入）但产品还是失败
+  lens: 数据里没有人——你看到的是数字，不是真实用户的人生故事
+  follow_up: 用叙事型洞察（tool-narrative-thinking）替换统计型画像
+- signal: 给员工反馈后对方抵触而不是改进
+  lens: 可能踩了"抽象建议"的坑——"不够落地"这种话让对方觉得你根本没认真看
+  follow_up: 改用"认可努力+具体建议"模式（tool-illuminator 反馈法）
 ---
 
 > 定位：本卡属于人域（Human Insights）"看见"支柱总纲——布鲁克斯《如何了解一个人》的三支柱框架。与 `[[framework-一堂-个人表达力]]` 形成输入/输出闭环：讲香=表达自己，本卡=理解他人。

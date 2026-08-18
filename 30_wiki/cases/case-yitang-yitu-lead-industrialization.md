@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-yitu-lead-industrialization
 type: case
 title: 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索
@@ -9,14 +8,14 @@ domain:
 - growth
 - b2b
 confidence: 0.82
-trust_level: medium-high
+trust_level: high
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 discoverable_by:
-  - 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索
-  - 益涂如何用漏斗模型工业化筛选
-  - 销售线索
+- 案例：益涂如何用漏斗模型工业化筛选 To B 销售线索
+- 益涂如何用漏斗模型工业化筛选
+- 销售线索
 quality_labels:
 - actionable
 - cited
@@ -24,12 +23,12 @@ quality_labels:
 - validated
 updated_at: '2026-07-08'
 aliases:
-  - Truman
-  - 如何用漏斗模型工业化筛选
-  - 案例
-  - 案例：益涂如何用漏斗模型工业化筛选ToB销售线索
-  - 益涂如何用漏斗模型工业化筛选
-  - 销售线索
+- Truman
+- 如何用漏斗模型工业化筛选
+- 案例
+- 案例：益涂如何用漏斗模型工业化筛选ToB销售线索
+- 益涂如何用漏斗模型工业化筛选
+- 销售线索
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道工业化生产-案例-益涂-线索模型.png

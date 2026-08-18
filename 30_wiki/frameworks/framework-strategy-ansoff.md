@@ -5,33 +5,33 @@ type: framework
 status: reviewed
 confidence: 0.92
 trust_level: high
-domain:
+domain: strategy
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 产品
-  - 冉鹏PPT截图
-  - 品市场增长战略
-  - 品扩张
-  - 场产品扩张
-  - 夫矩阵
-  - 安索夫矩阵
-  - 安索夫矩阵：产品市场增长战略
-  - 市场增长战略
-  - 引擎点火
-source_refs:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 产品
+- 冉鹏PPT截图
+- 品市场增长战略
+- 品扩张
+- 场产品扩张
+- 夫矩阵
+- 安索夫矩阵
+- 安索夫矩阵：产品市场增长战略
+- 市场增长战略
+- 引擎点火
+source_refs: null
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
-related:
+related: null
 discoverable_by:
-  - "安索夫矩阵"
-  - "产品市场增长战略"
-  - "安索夫增长矩阵"
-  - "市场产品扩张"
-tags:
+- 安索夫矩阵
+- 产品市场增长战略
+- 安索夫增长矩阵
+- 市场产品扩张
+tags: null
 ---
 # 安索夫矩阵：产品-市场增长战略
 

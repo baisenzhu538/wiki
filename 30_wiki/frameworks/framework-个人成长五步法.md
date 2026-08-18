@@ -8,27 +8,27 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - Truman的个人版本
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 个人成长五步法
-  - 个人成长五步法：Truman的个人版本
-  - 个人版本
-  - 人成长五步法
-  - 的个人成长五步法
-  - 的个人版本
-  - 长五步法
-source_refs:
-related:
+- Truman的个人版本
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 个人成长五步法
+- 个人成长五步法：Truman的个人版本
+- 个人版本
+- 人成长五步法
+- 的个人成长五步法
+- 的个人版本
+- 长五步法
+source_refs: null
+related: null
 discoverable_by:
-  - "个人成长五步法"
-  - "Truman个人版本"
+- 个人成长五步法
+- Truman个人版本
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 个人成长五步法
 

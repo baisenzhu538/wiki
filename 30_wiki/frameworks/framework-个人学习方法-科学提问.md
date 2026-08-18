@@ -11,31 +11,18 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "科学提问"
-  - "AI时代提问生产力"
+- 科学提问
+- AI时代提问生产力
 diagnostic_signals:
   lens: 提问段位低——问题本身决定了答案质量
   follow-up: 用四段位画布精炼问题
-quality_labels:
-tags:
-aliases:
-  - 科学提问：AI时代提问=生产力入口
-  - 科学提问
-  - AI时代提问=生产力入口
-  - 时代提问
-  - 提问生产力
-  - 生产力入口
-aliases:
-  - 科学提问：AI时代提问=生产力入口
-  - 科学提问
-  - AI时代提问=生产力入口
-  - 学提问
-  - 时代提问生产力
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 科学提问：AI时代提问=生产力入口
 

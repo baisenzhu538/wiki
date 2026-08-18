@@ -7,28 +7,28 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: high
-quality_labels:
+quality_labels: null
 updated_at: '2026-06-29'
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂
-  - 一堂FALSE/FLESAI低成本验证模型
-  - 低成本验证
-  - 低成本验证模型
-  - 创业全景图
-  - 本验证模型
-  - 验证模型
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 一堂
+- 一堂FALSE/FLESAI低成本验证模型
+- 低成本验证
+- 低成本验证模型
+- 创业全景图
+- 本验证模型
+- 验证模型
+source_refs: null
+related: null
 discoverable_by:
-  - "FALSE低成本验证"
-  - "FLESAI验证模型"
+- FALSE低成本验证
+- FLESAI验证模型
 created_at: '2026-06-30'
-tags:
+tags: null
 ---
 # 一堂 FALSE/FLESAI 低成本验证模型
 

@@ -1,5 +1,4 @@
 ---
-
 id: tool-用户分层
 title: 用户分层：按价值和行为细分用户群
 type: tool
@@ -9,22 +8,22 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 按价值和行为细分用户群
-  - 用户分层
-  - 用户分层：按价值和行为细分用户群
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 按价值和行为细分用户群
+- 用户分层
+- 用户分层：按价值和行为细分用户群
+source_refs: null
 discoverable_by:
-  - 用户分层：按价值和行为细分用户群
-  - 用户分层
-  - 按价值和行为细分用户群
-related:
+- 用户分层：按价值和行为细分用户群
+- 用户分层
+- 按价值和行为细分用户群
+related: null
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 用户分层：按价值和行为细分用户群
 

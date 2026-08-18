@@ -6,37 +6,25 @@ status: enriched
 author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
-quality_labels:
+quality_labels: null
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: yitang
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
-query_triggers:
-aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 取情报正确归因
-  - 平执行
-  - 执行方法
-  - 正确归因
-  - 水平执行方法
-  - 获取情报
-  - 高水平执行
-  - 高水平执行AR：获取情报正确归因
-source_refs:
-related:
-discoverable_by:
-  - "高水平执行AR"
-  - "获取情报正确归因"
-  - "高水平执行方法"
-tags:
+query_triggers: null
 aliases: []
+source_refs: null
+related: null
+discoverable_by:
+- 高水平执行AR
+- 获取情报正确归因
+- 高水平执行方法
+tags: null
 ---
 # 高水平执行 AR：获取情报·正确归因
 

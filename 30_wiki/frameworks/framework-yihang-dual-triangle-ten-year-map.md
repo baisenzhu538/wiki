@@ -10,24 +10,24 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-03
-domain:
+domain: yihang
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂双三角
-  - 一行双三角十年爬山地图
-  - 三角十年爬山地图
-  - 人机协作双三角
-  - 十年爬山地图
-  - 双三角十年地图
-  - 双三角十年爬山地图
-  - 双三角段位图
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 一堂双三角
+- 一行双三角十年爬山地图
+- 三角十年爬山地图
+- 人机协作双三角
+- 十年爬山地图
+- 双三角十年地图
+- 双三角十年爬山地图
+- 双三角段位图
+source_refs: null
+related: null
 discoverable_by:
-  - "双三角十年爬山地图"
-tags:
+- 双三角十年爬山地图
+tags: null
 ---
 # 一行双三角十年爬山地图
 

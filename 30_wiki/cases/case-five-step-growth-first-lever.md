@@ -4,10 +4,10 @@ title: 案例：五步法中从产品内核到增长的第一次跨越
 type: case
 domain: src-unknown
 aliases:
-  - Truman
-  - 五步法中从产品内核到增长的第一次跨越
-  - 案例
-  - 案例：五步法中从产品内核到增长的第一次跨越
+- Truman
+- 五步法中从产品内核到增长的第一次跨越
+- 案例
+- 案例：五步法中从产品内核到增长的第一次跨越
 source_refs:
 - 10_raw/sources/src_20260610_8865798f-一堂-一堂五步法-增长-口述.md
 - 10_raw/sources/src_20260610_92cd2b4e-一堂-一堂五步法-增长-笔记.md
@@ -29,8 +29,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - 案例：五步法中从产品内核到增长的第一次跨越
-  - 五步法中从产品内核到增长的第一次跨越
+- 案例：五步法中从产品内核到增长的第一次跨越
+- 五步法中从产品内核到增长的第一次跨越
 tags:
 - audience:general
 - scene:reference
@@ -54,7 +54,7 @@ wiki_refs:
 - src_unknown
 - src_unknown
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 updated_at: '2026-06-29'
 related:
 - '[[yt-five-step-method]]'

@@ -1,9 +1,8 @@
 ---
-
 domain:
 - entrepreneurship
 id: yt-entrepreneur-spin-selling
-title: "SPIN销售法：顾问式销售的奠基之作"
+title: SPIN销售法：顾问式销售的奠基之作
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
@@ -20,23 +19,25 @@ query_triggers:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - SPIN销售法
-  - SPIN销售法：顾问式销售的奠基之作
-  - 式销售的奠基之作
-  - 销售法
-  - 顾问式销售的奠基之作
+- SPIN销售法
+- SPIN销售法：顾问式销售的奠基之作
+- 式销售的奠基之作
+- 销售法
+- 顾问式销售的奠基之作
 source_refs:
 - pending_archive:src_20260510_349a66fd-读书会-spin销售法
 discoverable_by:
-  - SPIN销售法：顾问式销售的奠基之作
-  - SPIN销售法
-  - 顾问式销售的奠基之作
+- SPIN销售法：顾问式销售的奠基之作
+- SPIN销售法
+- 顾问式销售的奠基之作
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 读书会
 - 销售法
+type: concept
+status: draft
 ---
 # SPIN销售法：顾问式销售的奠基之作
 

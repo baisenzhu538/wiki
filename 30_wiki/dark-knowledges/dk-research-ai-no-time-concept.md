@@ -3,10 +3,9 @@ id: dk-research-ai-no-time-concept
 title: AI 没时间观念：调研必须时间锚定
 type: dk
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-16
 author: 老顽童
-reviewed_by: 待审
 confidence: 0.9
 trust_level: medium
 language: zh-CN

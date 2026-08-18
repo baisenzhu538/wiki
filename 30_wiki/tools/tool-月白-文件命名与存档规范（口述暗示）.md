@@ -7,15 +7,15 @@ domain: design
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 aliases:
-  - 命名与存档规范
-  - 技能
-  - 技能：文件命名与存档规范口述暗示
-  - 提示词武器库
-  - 文件命名与存档规范
-  - 文件命名与存档规范口述暗示
-  - 月白
-  - 月白存档规范
-  - 词武器库
+- 命名与存档规范
+- 技能
+- 技能：文件命名与存档规范口述暗示
+- 提示词武器库
+- 文件命名与存档规范
+- 文件命名与存档规范口述暗示
+- 月白
+- 月白存档规范
+- 词武器库
 source_refs:
 - 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
@@ -31,8 +31,8 @@ pipeline:
 - src_unknown
 author: 月白
 reviewed_by: 老顽童
-confidence: 0.80
-trust_level: observed
+confidence: 0.8
+trust_level: medium
 related:
 - '[[tool-月白-课程问题预埋法]]'
 - '[[tool-月白-提示词长度控制法]]'
@@ -46,9 +46,9 @@ tags:
 quality_labels:
 - cited
 diagnostic_signals:
-- "存档文件夹越堆越多无法检索→未按日期+项目分层"
-- "旧版本覆盖新版本→存档命名缺时间戳"
-discoverable_by: "月白存档规范、设计文件存档、版本管理、文件命名存档"
+- 存档文件夹越堆越多无法检索→未按日期+项目分层
+- 旧版本覆盖新版本→存档命名缺时间戳
+discoverable_by: 月白存档规范、设计文件存档、版本管理、文件命名存档
 ---
 
 # 技能：文件命名与存档规范（口述暗示）

@@ -4,23 +4,23 @@ title: AI 原生 IM：让 Agent 成为一等公民的协作基础设施
 type: concept
 status: enriched
 confidence: 0.85
-trust_level: medium-high
+trust_level: high
 domain:
-  - ai-saas
-  - ai
-  - product
-  - ai-collaboration
+- ai-saas
+- ai
+- product
+- ai-collaboration
 aliases:
-  - AI原生IM：让Agent成为一等公民的协作基础设施
-  - 一等公民的协作基础设施
-  - 原生
-  - 成为一等公民的协作基础设施
+- AI原生IM：让Agent成为一等公民的协作基础设施
+- 一等公民的协作基础设施
+- 原生
+- 成为一等公民的协作基础设施
 source_refs:
 - pending_archive:src_20260614_c5115d2c-龙虾-AI原生IM工具演示
 - src_20260614_c5115d2c-龙虾-AI原生IM工具演示
 discoverable_by:
-  - AI 原生 IM：让 Agent 成为一等公民的协作基础设施
-  - 成为一等公民的协作基础设施
+- AI 原生 IM：让 Agent 成为一等公民的协作基础设施
+- 成为一等公民的协作基础设施
 related:
 - - - case-ji-hao-skills-market
 - - - dk-skill-market-agent-self-install

@@ -1,10 +1,12 @@
----status: enriched
-
+---
+tatus: enriched
 id: test-pa
 type: concept
-domain: [test]
+domain:
+- test
 source_refs:
-  - pending_archive:00_inbox/does-not-exist.md
+- pending_archive:00_inbox/does-not-exist.md
+status: draft
 ---
 # Test
 

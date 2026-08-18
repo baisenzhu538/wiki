@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-two-dimensional-positioning
 title: 二维定位：找到差异化竞争的坐标
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 二维定位
-  - 二维定位：找到差异化竞争的坐标
-  - 找到差异化竞争的坐标
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 二维定位
+- 二维定位：找到差异化竞争的坐标
+- 找到差异化竞争的坐标
 discoverable_by:
-  - 二维定位：找到差异化竞争的坐标
-  - 二维定位
-  - 找到差异化竞争的坐标
-related:
-tags:
+- 二维定位：找到差异化竞争的坐标
+- 二维定位
+- 找到差异化竞争的坐标
+related: null
+tags: null
 ---
 # 二维定位：找到差异化竞争的坐标
 

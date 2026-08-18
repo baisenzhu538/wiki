@@ -2,28 +2,28 @@
 id: framework-ci-operating-model
 title: 竞争情报操作系统（CI Operating Model）
 type: framework
-domain:
-tags:
+domain: unknown
+tags: null
 source_person: Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
 source_context: 一堂调研武器库盲区诊断 + 外部CI专业框架比对
 aliases:
-  - Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
-  - 三个新盲区
-  - 争情报
-  - 外部知识探索
-  - 情报操作系统
-  - 竞争情报操作系统CI
-  - 竞争情报操作系统CIOperatingModel
-source_refs:
-related:
+- Truman（一堂）+ Competitive Intelligence Alliance + BestBootcamps
+- 三个新盲区
+- 争情报
+- 外部知识探索
+- 情报操作系统
+- 竞争情报操作系统CI
+- 竞争情报操作系统CIOperatingModel
+source_refs: null
+related: null
 discoverable_by:
-  - "竞争情报OS"
-  - "CI Operating Model"
+- 竞争情报OS
+- CI Operating Model
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 created_at: '2026-06-28'
-quality_labels:
+quality_labels: null
 updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: medium

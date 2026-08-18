@@ -1,5 +1,4 @@
 ---
-
 id: case-yihang-dual-triangle-一堂双三角-解释版画布
 title: 一堂双三角-解释版画布 — 双三角案例
 type: case
@@ -9,27 +8,27 @@ created_at: 2026-07-04
 updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
-domain:
+domain: yihang
 aliases:
-  - #domain/ai-collaboration
-  - #method/dual-triangle
-  - audience:general
-  - scene:reference
-  - skill-level:intermediate
-  - 一堂双三角
-  - 一堂双三角解释版画布双三角案例
-  - 人机协作双三角
-  - 双三角案例
-  - 版画布
-  - 角案例
-  - 解释版画布
-source_refs:
+- null
+- null
+- audience:general
+- scene:reference
+- skill-level:intermediate
+- 一堂双三角
+- 一堂双三角解释版画布双三角案例
+- 人机协作双三角
+- 双三角案例
+- 版画布
+- 角案例
+- 解释版画布
+source_refs: null
 discoverable_by:
-  - 一堂双三角-解释版画布 — 双三角案例
-  - 一堂双三角
-  - 解释版画布
-  - 双三角案例
-tags:
+- 一堂双三角-解释版画布 — 双三角案例
+- 一堂双三角
+- 解释版画布
+- 双三角案例
+tags: null
 reviewed_by: pending
 ---
 # 一堂双三角-解释版画布

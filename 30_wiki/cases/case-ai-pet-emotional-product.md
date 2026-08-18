@@ -3,52 +3,51 @@ id: case-ai-pet-emotional-product
 title: 「案例：AI宠物"砍掉说话功能"——真正看见用户的反直觉决策」
 type: case
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-09
-confidence: 0.80
+confidence: 0.8
 trust_level: medium
 domain:
-  - human-insights
-  - panproduct
-  - ai-collaboration
+- human-insights
+- panproduct
+- ai-collaboration
 author: 老顽童
 source_refs:
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
 source_person: 水水
 source_context: 水水一堂拆书会 AI宠物案例（L940-990）
-reviewed_by: 待审
 aliases:
-  - AI宠物砍功能
-  - 宠物不会说话
-  - 产品反直觉决策
+- AI宠物砍功能
+- 宠物不会说话
+- 产品反直觉决策
 discoverable_by:
-  - AI宠物
-  - 砍功能
-  - 宠物不会说话
-  - 反直觉决策
+- AI宠物
+- 砍功能
+- 宠物不会说话
+- 反直觉决策
 related:
-  - dk-emotional-value-premium
-  - dk-emotional-value-high-bar
-  - tool-narrative-thinking-user-insight
-  - framework-how-to-know-a-person
-  - framework-christensen-disruptive-innovation
+- dk-emotional-value-premium
+- dk-emotional-value-high-bar
+- tool-narrative-thinking-user-insight
+- framework-how-to-know-a-person
+- framework-christensen-disruptive-innovation
 tags:
-  - method:product-design
-  - method:user-insight
-  - scene:ai-product
-  - audience:product-managers
-  - content-format:case
-  - source-person:水水
+- method:product-design
+- method:user-insight
+- scene:ai-product
+- audience:product-managers
+- content-format:case
+- source-person:水水
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels:
-  - insight
-  - counterintuitive
-  - cited
+- insight
+- counterintuitive
+- cited
 diagnostic_signals:
-  - signal: "做AI产品时总想着'能加什么功能'而非'该砍什么功能'"
-    lens: AI能力膨胀——因为能做就做，不是用户需要才做
-    follow_up: 问：如果我的产品只能做一件事，那一件事应该是什么？
+- signal: 做AI产品时总想着'能加什么功能'而非'该砍什么功能'
+  lens: AI能力膨胀——因为能做就做，不是用户需要才做
+  follow_up: 问：如果我的产品只能做一件事，那一件事应该是什么？
 ---
 
 > ⚠️ 来源标注：AI宠物品牌名称水水未提及，待独立核实。本卡保留案例教学价值，标注待核实。

@@ -10,28 +10,28 @@ created_at: 2026-06-21
 confidence: 0.92
 trust_level: high
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - L6六层深度推演框架
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 五步法之需求分析
-  - 任务洞察冰山图
-  - 求冰山模型
-  - 求洞察冰山
-  - 需求分析
-  - 需求洞察冰山模型
-  - 需求洞察冰山模型：L1L6六层深度推演框架
-source_refs:
-related:
+- L6六层深度推演框架
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 五步法之需求分析
+- 任务洞察冰山图
+- 求冰山模型
+- 求洞察冰山
+- 需求分析
+- 需求洞察冰山模型
+- 需求洞察冰山模型：L1L6六层深度推演框架
+source_refs: null
+related: null
 discoverable_by:
-  - "需求冰山模型"
-  - "需求洞察冰山"
-  - "L1-L6需求分析"
-  - "需求深度推演"
+- 需求冰山模型
+- 需求洞察冰山
+- L1-L6需求分析
+- 需求深度推演
 updated_at: '2026-07-04'
-tags:
+tags: null
 ---
 # 需求洞察冰山模型
 

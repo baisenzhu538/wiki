@@ -10,29 +10,29 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - conversion
-  - handle
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂十指模型
-  - 五化比喻
-  - 化右手五化
-  - 右手五化比喻/金句/情绪/冲突/升华+
-  - 宝书演示
-  - 左手五化场景/口语/数字/故事/素材+
-  - 手五化右手五化
-  - 黄宝书完整演示
-source_refs:
-related:
+- audience:ceo
+- conversion
+- handle
+- scene:diagnosis
+- skill-level:advanced
+- 一堂十指模型
+- 五化比喻
+- 化右手五化
+- 右手五化比喻/金句/情绪/冲突/升华+
+- 宝书演示
+- 左手五化场景/口语/数字/故事/素材+
+- 手五化右手五化
+- 黄宝书完整演示
+source_refs: null
+related: null
 discoverable_by:
-  - "十指模型"
-  - "左手五化右手五化"
-  - "黄宝书演示"
-quality_labels:
-tags:
+- 十指模型
+- 左手五化右手五化
+- 黄宝书演示
+quality_labels: null
+tags: null
 ---
 # 一堂十指模型：左手具象五化 + 右手抽象五化
 

@@ -1,5 +1,4 @@
 ---
-
 id: dk-p11-regex-cutoff
 title: P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
 type: dk
@@ -10,18 +9,18 @@ domain:
 source_person: system
 source_context: pitfalls.md P-11
 aliases:
-  - system
-  - 处截断
-  - 失效
-  - 所有文章
+- system
+- 处截断
+- 失效
+- 所有文章
 source_refs:
 - src_unknown
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 discoverable_by:
-  - P-11：validator `section_conten
-  - 处截断
-  - 所有文章
+- P-11：validator `section_conten
+- 处截断
+- 所有文章
 related:
 - '[[ai-short-drama-ice-fire-dissection-compass]]'
 - '[[writing-content]]'
@@ -43,8 +42,7 @@ pipeline:
 author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
-trust_level: medium# P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word
-  count 失效
+trust_level: medium
 tags:
 - audience:executor
 - scene:reference

@@ -8,36 +8,36 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 language: zh-CN
-domain:
+domain: strategy
 aliases:
-  - AI加速的战略验证闭环
-  - [[ai-collaboration-domain-digest]]
-  - [[framework-lean-false-model]]
-  - [[framework-lean-systematic-test-curve]]
-  - [[framework-multi-agent-research-architecture]]
-  - [[framework-pan-product-organization]]
-  - [[framework-strategy-brm]]
-  - [[framework-wanghuan-harness-seven-stages]]
-  - [[framework-一堂五步法-泛产品设计]]
-  - [[lean-startup-domain-digest]]
-  - [[strategy-domain-digest]]
-  - 加速的战略
-  - 加速的战略验证闭环
-  - 张磊教练
-  - 的战略
-  - 验证闭环
-source_refs:
-discoverable_by:
+- AI加速的战略验证闭环
+- - - ai-collaboration-domain-digest
+- - - framework-lean-false-model
+- - - framework-lean-systematic-test-curve
+- - - framework-multi-agent-research-architecture
+- - - framework-pan-product-organization
+- - - framework-strategy-brm
+- - - framework-wanghuan-harness-seven-stages
+- - - framework-一堂五步法-泛产品设计
+- - - lean-startup-domain-digest
+- - - strategy-domain-digest
+- 加速的战略
+- 加速的战略验证闭环
+- 张磊教练
+- 的战略
+- 验证闭环
+source_refs: null
+discoverable_by: null
 tags:
-  - method:ai-strategy
-  - method:acceleration
-  - method:strategic-analysis
-  - scene:plan-cycle
-  - audience:decision-maker
-  - content-format:framework
-  - source-person:Truman
-related:
-quality_labels:
+- method:ai-strategy
+- method:acceleration
+- method:strategic-analysis
+- scene:plan-cycle
+- audience:decision-maker
+- content-format:framework
+- source-person:Truman
+related: null
+quality_labels: null
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
 ---

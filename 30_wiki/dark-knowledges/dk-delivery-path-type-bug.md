@@ -1,49 +1,49 @@
 ---
 id: dk-delivery-path-type-bug
-title: "delivery.py Path类型bug：字符串root→TypeError被吞→搜索永远0结果"
+title: delivery.py Path类型bug：字符串root→TypeError被吞→搜索永远0结果
 type: dk
 status: reviewed
 domain: kdo
 author: 黄药师
 reviewed_by: 欧阳锋
-confidence: 0.90
-trust_level: observed
+confidence: 0.9
+trust_level: medium
 aliases:
-  - delivery bug
-  - Path类型bug
-  - 搜索0结果
-  - _try_bm25_query
+- delivery bug
+- Path类型bug
+- 搜索0结果
+- _try_bm25_query
 source_refs:
-  - C:/Users/Administrator/Knowledge Delivery OS 0.0.1/kdo/commands/delivery.py
+- C:/Users/Administrator/Knowledge Delivery OS 0.0.1/kdo/commands/delivery.py
 diagnostic_signals:
-  - signal: 'kdo_search对所有人返回0结果——BM25+Graph双路径沉默失败'
-    severity: critical
-    implication: '小昭搜创新者的窘境永远0结果——不只是索引过期，是入口坏了'
-  - signal: '_try_bm25_query中except Exception吞TypeError——bug隐蔽数周'
-    severity: high
-    implication: '单元测试全部通过但端到端搜索失败——异常被静默吞掉'
-  - signal: 'SearchIndex.__init__未做Path类型校验'
-    severity: medium
-    implication: '防御性修复已应用——调用方做Path强转，SearchIndex自身未修'
+- signal: kdo_search对所有人返回0结果——BM25+Graph双路径沉默失败
+  severity: critical
+  implication: 小昭搜创新者的窘境永远0结果——不只是索引过期，是入口坏了
+- signal: _try_bm25_query中except Exception吞TypeError——bug隐蔽数周
+  severity: high
+  implication: 单元测试全部通过但端到端搜索失败——异常被静默吞掉
+- signal: SearchIndex.__init__未做Path类型校验
+  severity: medium
+  implication: 防御性修复已应用——调用方做Path强转，SearchIndex自身未修
 related:
-  - '[[dk-E010-duplicate-key-detection]]'
-  - '[[framework-kdo-self-attack]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
-  - '[[dk-P42-agent-fact-check-gap]]'
-  - '[[dk-c5-todo-false-positive]]'
-  - '[[dk-modeling-essence-predictive]]'
+- '[[dk-E010-duplicate-key-detection]]'
+- '[[framework-kdo-self-attack]]'
+- '[[dk-c8-format-complete-mind-empty]]'
+- '[[dk-P42-agent-fact-check-gap]]'
+- '[[dk-c5-todo-false-positive]]'
+- '[[dk-modeling-essence-predictive]]'
 created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04
 tags:
-  - audience:builder
-  - scene:debugging
-  - skill-level:advanced
+- audience:builder
+- scene:debugging
+- skill-level:advanced
 discoverable_by:
-  - delivery bug
-  - Path类型
-  - 搜索0结果
-  - TypeError被吞
+- delivery bug
+- Path类型
+- 搜索0结果
+- TypeError被吞
 ---
 # delivery.py Path 类型 bug
 

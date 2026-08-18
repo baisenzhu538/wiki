@@ -1,9 +1,8 @@
 ---
-
 domain:
 - personal-growth
 id: yt-personal-thinking-models
-title: "思维模型：从碎片经验到稳定模型"
+title: 思维模型：从碎片经验到稳定模型
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
@@ -21,21 +20,23 @@ query_triggers:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 从碎片经验到稳定模型
-  - 思维模型
-  - 思维模型：从碎片经验到稳定模型
-  - 片经验到稳定模型
+- 从碎片经验到稳定模型
+- 思维模型
+- 思维模型：从碎片经验到稳定模型
+- 片经验到稳定模型
 source_refs:
 - pending_archive:src_20260614_1be3d76f-一堂-思维模型案例分享
 discoverable_by:
-  - 思维模型：从碎片经验到稳定模型
-  - 思维模型
-  - 从碎片经验到稳定模型
+- 思维模型：从碎片经验到稳定模型
+- 思维模型
+- 从碎片经验到稳定模型
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 思维模型案例分享
+type: concept
+status: draft
 ---
 # 思维模型：从碎片经验到稳定模型
 

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-deep-attribution
 title: 深度归因：找到问题根因的5Why法
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 找到问题根因的5Why法
-  - 深度归因
-  - 深度归因：找到问题根因的5Why法
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 找到问题根因的5Why法
+- 深度归因
+- 深度归因：找到问题根因的5Why法
 discoverable_by:
-  - 深度归因：找到问题根因的5Why法
-  - 深度归因
-  - 找到问题根因的5Why法
-related:
-tags:
+- 深度归因：找到问题根因的5Why法
+- 深度归因
+- 找到问题根因的5Why法
+related: null
+tags: null
 ---
 # 深度归因：找到问题根因的5Why法
 

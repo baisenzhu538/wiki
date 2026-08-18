@@ -4,60 +4,60 @@ title: 「暗知识：AI不质疑你的口误——它只会工整地扩散出�
 type: dk
 status: reviewed
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 domain:
-  - ai-basic
+- ai-basic
 author: 老顽童
 source_refs:
-  - 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
+- 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
 source_person: 王鹏飞（Live258 学员）
 source_context: Live258 AI基本功第一课优秀作业·王鹏飞「桥之旅」一进多出复盘（L2859-L2887），学员二手自述
 reviewed_by: 欧阳锋
 aliases:
-  - AI不质疑口误
-  - 事实扩散
-  - DataPack
-  - 错误输入放大
-  - AI基本功
-  - Live258
+- AI不质疑口误
+- 事实扩散
+- DataPack
+- 错误输入放大
+- AI基本功
+- Live258
 discoverable_by:
-  - 事实扩散
-  - 口误扩散
-  - DataPack
-  - 事实约束
-  - AI不质疑
-  - 错误放大
+- 事实扩散
+- 口误扩散
+- DataPack
+- 事实约束
+- AI不质疑
+- 错误放大
 related:
-  - framework-truman-feature-thinking-core
-  - framework-truman-feature-layered-system
-  - dk-demand-feature-stacking
-  - dk-feature-not-learned-but-used
-  - ai-basic-domain-digest
-  - case-live258-fact-spread-18-bridges
-  - case-live258-zhihu-content-acquisition
-  - case-live258-livestream-prompt-v1-v5
-  - case-live258-europe-cold-email
+- framework-truman-feature-thinking-core
+- framework-truman-feature-layered-system
+- dk-demand-feature-stacking
+- dk-feature-not-learned-but-used
+- ai-basic-domain-digest
+- case-live258-fact-spread-18-bridges
+- case-live258-zhihu-content-acquisition
+- case-live258-livestream-prompt-v1-v5
+- case-live258-europe-cold-email
 tags:
-  - method:feature-thinking
-  - method:fact-control
-  - scene:ai-usage
-  - audience:practitioner
-  - content-format:dk
-  - source-person:student
-  - evidence:observed
+- method:feature-thinking
+- method:fact-control
+- scene:ai-usage
+- audience:practitioner
+- content-format:dk
+- source-person:student
+- evidence:observed
 created_at: 2026-08-12
 updated_at: 2026-08-12
 quality_labels:
-  - insight
-  - quotable
-  - actionable
+- insight
+- quotable
+- actionable
 diagnostic_signals:
-  - signal: "AI输出的数字/事实错了但自己没发现"
-    lens: 输入错误被AI无差别放大——人喂的错，AI工整扩散
-    follow_up: 关键事实建只读DataPack+负面约束+强制核对，生成前引用、禁止推断
-  - signal: "一进多出类任务（1份内容N种交付物）出错后返工量巨大"
-    lens: 产线越高效，错误扩散越广——输入保真没跟上
-    follow_up: 放量前先做一次事实核对演练，确认输入无错再进产线
+- signal: AI输出的数字/事实错了但自己没发现
+  lens: 输入错误被AI无差别放大——人喂的错，AI工整扩散
+  follow_up: 关键事实建只读DataPack+负面约束+强制核对，生成前引用、禁止推断
+- signal: 一进多出类任务（1份内容N种交付物）出错后返工量巨大
+  lens: 产线越高效，错误扩散越广——输入保真没跟上
+  follow_up: 放量前先做一次事实核对演练，确认输入无错再进产线
 review_date: 2026-08-13
 ---
 > 本卡属于 [[framework-truman-feature-thinking-core]] 的暗知识——"事实约束/DataPack"类 Feature 缺失的真实代价（Feature 周期表 2B 格）。实证见 `[[case-live258-fact-spread-18-bridges]]`；与 E020（回答前先检索验证）同构：KDO 铁律"不检索=瞎说"的 AI 侧对应物。

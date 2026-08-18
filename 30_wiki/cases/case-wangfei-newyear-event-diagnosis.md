@@ -1,6 +1,6 @@
 ---
 id: case-wangfei-newyear-event-diagnosis
-title: "王非跨年活动：500→1000人增长诊断"
+title: 王非跨年活动：500→1000人增长诊断
 type: case
 domain: management
 status: draft
@@ -9,46 +9,46 @@ updated_at: 2026-07-27
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 aliases:
-  - 500→1000人增长诊断
-  - 500到1000人增长案例
-  - 人增长案例
-  - 存量运营优先于拉新
-  - 数还是要利润
-  - 王非跨年活动
-  - 王非跨年活动诊断
-  - 王非跨年活动：500→1000人增长诊断
-  - 私域基本盘但转化率极低
-  - 第6期 55班 王非私董会 v2.0 【高强版】
-  - 第6期私董会总结
-  - 西安跨年演讲分会场
-  - 要人数还是要利润
-  - 跨年活动诊断
+- 500→1000人增长诊断
+- 500到1000人增长案例
+- 人增长案例
+- 存量运营优先于拉新
+- 数还是要利润
+- 王非跨年活动
+- 王非跨年活动诊断
+- 王非跨年活动：500→1000人增长诊断
+- 私域基本盘但转化率极低
+- 第6期 55班 王非私董会 v2.0 【高强版】
+- 第6期私董会总结
+- 西安跨年演讲分会场
+- 要人数还是要利润
+- 跨年活动诊断
 source_refs:
-  - 00_inbox/私董会/第6期 55班 王非私董会 v2.0 【高强版】.md
-  - 00_inbox/私董会/_processed/第6期私董会总结.md
+- 00_inbox/私董会/第6期 55班 王非私董会 v2.0 【高强版】.md
+- 00_inbox/私董会/_processed/第6期私董会总结.md
 tags:
-  - method:five-step-diagnosis
-  - scene:business-review
-  - audience:business-owner
-  - content-format:case-study
-  - source-person:王非
+- method:five-step-diagnosis
+- scene:business-review
+- audience:business-owner
+- content-format:case-study
+- source-person:王非
 related:
-  - five-step-domain-digest
-  - tool-private-board-facilitation-sop
-  - dk-sponsor-three-tier-pricing
-  - concept-collaboration-philosophy-foundation
-  - framework-yitang-shishi-qiushi
-  - tool-position-switching-test
+- five-step-domain-digest
+- tool-private-board-facilitation-sop
+- dk-sponsor-three-tier-pricing
+- concept-collaboration-philosophy-foundation
+- framework-yitang-shishi-qiushi
+- tool-position-switching-test
 quality_labels:
-  - cited
-  - actionable
+- cited
+- actionable
 diagnostic_signals:
-  - "业务目标翻倍但没有增长逻辑→先问'底层逻辑是什么'，再拆渠道"
-  - "有私域基本盘但转化率极低→存量运营优先于拉新"
-  - "案主自己分不清'要人数还是要利润'→帮案主做优先级排序"
-discoverable_by: "王非跨年、私董会案例、500到1000人、赞助商定价、增长诊断"
+- 业务目标翻倍但没有增长逻辑→先问'底层逻辑是什么'，再拆渠道
+- 有私域基本盘但转化率极低→存量运营优先于拉新
+- 案主自己分不清'要人数还是要利润'→帮案主做优先级排序
+discoverable_by: 王非跨年、私董会案例、500到1000人、赞助商定价、增长诊断
 ---
 # 王非跨年活动：500→1000人增长诊断
 

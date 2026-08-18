@@ -12,7 +12,7 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain: null
+domain: research
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1

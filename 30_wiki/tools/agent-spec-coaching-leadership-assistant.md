@@ -4,7 +4,7 @@ title: 「Agent Spec：教练式领导力助理——五阶梯定位+硬币诊�
 type: agent-spec
 status: draft
 confidence: 0.8
-trust_level: medium-high
+trust_level: high
 author: 王语嫣（#263 流水线第二次实战，2026-08-09）
 source_refs:
 - 30_wiki/workflows/workflow-kdo-agent-production-pipeline.md

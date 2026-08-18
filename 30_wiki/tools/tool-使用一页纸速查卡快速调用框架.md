@@ -1,19 +1,21 @@
 ---
-
 id: tool-使用一页纸速查卡快速调用框架
-title: "tool 使用一页纸速查卡快速调用框架"
+title: tool 使用一页纸速查卡快速调用框架
 discoverable_by:
-  - tool 使用一页纸速查卡快速调用框架
-  - 使用一页纸速查卡快速调用框架
-related:
+- tool 使用一页纸速查卡快速调用框架
+- 使用一页纸速查卡快速调用框架
+related: null
 aliases:
-  - audience:general
-  - scene:reference
-  - skill-level:intermediate
-  - tool使用一页纸速查卡快速调用框架
-  - 使用一页纸速查卡快速调用框架
-source_refs:
-tags:
+- audience:general
+- scene:reference
+- skill-level:intermediate
+- tool使用一页纸速查卡快速调用框架
+- 使用一页纸速查卡快速调用框架
+source_refs: null
+tags: null
+type: tool
+status: draft
+domain: unknown
 ---
 > 将复杂的决策/分析框架浓缩为一张 A4 速查图，分析时置于案头快速查阅——把"需要记忆"的认知负担转移为"需要看到"的外部辅助。
 

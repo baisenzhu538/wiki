@@ -1,37 +1,36 @@
 ---
-
 id: dk-ai-design-pitfalls
 title: AI 设计交付物的五个常见陷阱与反打
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: reviewed
 source_person: 陈舒妍
 source_context: 一堂 AI 俱乐部落地 Live81 分享（2026-07-02），喵善养商标设计中的真实踩坑与纠偏经验
 aliases:
-  - AI设计交付物的五个常见陷阱与反打
-  - [[case-live81-ai-trademark-design]]
-  - [[concept-cognitive-offloading-in-ai-era]]
-  - [[master-decision-hygiene]]
-  - [[tool-ai-deliverable-polish-loop]]
-  - [[tool-ai-use-barbell-strategy]]
-  - [[tool-scene-design-language-translation]]
-  - [[tool-多模型对比抽卡]]
-  - [[tool-月白-AI模型选择策略]]
-  - [[yt-panproduct-aesthetic-modeling]]
-  - [[yt-panproduct-aesthetic-pool]]
-  - yitang
-  - 交付物的五个常见陷阱与反打
-  - 设计交付物的五个常见陷阱与反打
-  - 陈舒妍
-source_refs:
-domain:
+- AI设计交付物的五个常见陷阱与反打
+- - - case-live81-ai-trademark-design
+- - - concept-cognitive-offloading-in-ai-era
+- - - master-decision-hygiene
+- - - tool-ai-deliverable-polish-loop
+- - - tool-ai-use-barbell-strategy
+- - - tool-scene-design-language-translation
+- - - tool-多模型对比抽卡
+- - - tool-月白-AI模型选择策略
+- - - yt-panproduct-aesthetic-modeling
+- - - yt-panproduct-aesthetic-pool
+- yitang
+- 交付物的五个常见陷阱与反打
+- 设计交付物的五个常见陷阱与反打
+- 陈舒妍
+source_refs: null
+domain: design
 discoverable_by:
-  - AI 设计交付物的五个常见陷阱与反打
-  - 设计交付物的五个常见陷阱与反打
-tags:
+- AI 设计交付物的五个常见陷阱与反打
+- 设计交付物的五个常见陷阱与反打
+tags: null
 trust_level: medium
 reviewed_by: 欧阳锋
-related:
+related: null
 created_at: 2026-07-02
 updated_at: '2026-07-02'
 ---

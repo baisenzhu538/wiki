@@ -1,34 +1,33 @@
 ---
-
 id: tool-strategy-control-points
 title: 战略控制点设计工具：价值定位模型
 type: tool
 status: reviewed
 confidence: 0.92
 trust_level: high
-domain:
+domain: strategy
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:advanced
-  - 价值定位模型
-  - 冉鹏PPT截图
-  - 定位模型
-  - 引擎点火
-  - 战略控制点设计工具
-  - 战略控制点设计工具：价值定位模型
-  - 控制点设计工具
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:advanced
+- 价值定位模型
+- 冉鹏PPT截图
+- 定位模型
+- 引擎点火
+- 战略控制点设计工具
+- 战略控制点设计工具：价值定位模型
+- 控制点设计工具
+source_refs: null
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 discoverable_by:
-  - 战略控制点设计工具：价值定位模型
-  - 战略控制点设计工具
-  - 价值定位模型
-related:
-tags:
+- 战略控制点设计工具：价值定位模型
+- 战略控制点设计工具
+- 价值定位模型
+related: null
+tags: null
 ---
 # 战略控制点设计工具：价值定位模型
 

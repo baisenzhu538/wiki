@@ -10,26 +10,23 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 七阶段
-  - 构建流程
-  - 王欢
-  - 王欢：Harness七阶段AI构建流程
-source_refs:
-domain:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 七阶段
+- 构建流程
+- 王欢
+- 王欢：Harness七阶段AI构建流程
+source_refs: null
+domain: wanghuan
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
-diagnostic_signals:
-follow_up: 引入独立评估者角色，按用户视角逐功能测试并回传问题清单
-follow_up: 在动手生成前，先用最强推理模型输出 product-spec.md 与 tech-stack.md
-follow_up: 在 Ship 前固定插入一轮 Polish Sprint，切换评分权重到审美维度
+diagnostic_signals: null
 follow_up: 增加 FreshCloneTester 与 AuditTrail，把"从零克隆能跑"作为硬性 Ship 条件
-related:
+related: null
 discoverable_by:
-  - "王欢Harness七阶段"
-tags:
+- 王欢Harness七阶段
+tags: null
 ---
 # 王欢：Harness 七阶段 AI 构建流程
 

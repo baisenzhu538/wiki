@@ -10,24 +10,24 @@ created_at: 2026-06-21
 confidence: 0.9
 trust_level: high
 language: zh-CN
-domain:
+domain: workflow
 aliases:
-  - Candy逐字稿九步法
-  - Candy逐字稿九步法：从素材到可交付内容的生产流程
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 从素材到可交付内容的生产流程
-  - 字稿生产流程
-  - 材到可交付内容的生产流程
-  - 生产流程
-  - 逐字稿九步法
-source_refs:
-related:
+- Candy逐字稿九步法
+- Candy逐字稿九步法：从素材到可交付内容的生产流程
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 从素材到可交付内容的生产流程
+- 字稿生产流程
+- 材到可交付内容的生产流程
+- 生产流程
+- 逐字稿九步法
+source_refs: null
+related: null
 discoverable_by:
-  - "Candy逐字稿九步法"
-  - "逐字稿生产流程"
-tags:
+- Candy逐字稿九步法
+- 逐字稿生产流程
+tags: null
 ---
 # Candy逐字稿九步法
 

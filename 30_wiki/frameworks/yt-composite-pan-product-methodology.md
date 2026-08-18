@@ -4,13 +4,13 @@ type: framework
 title: 泛产品设计方法论（升级版）
 status: reviewed
 domain:
-  - panproduct
-  - product
-  - design
-  - organization
-  - yitang
+- panproduct
+- product
+- design
+- organization
+- yitang
 confidence: 0.84
-trust_level: medium-high
+trust_level: high
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-05-11
@@ -22,9 +22,9 @@ quality_labels:
 - validated
 updated_at: '2026-06-28'
 aliases:
-  - 一堂 / 兰毅
-  - 品设计方法论升级版
-  - 泛产品设计方法论升级版
+- 一堂 / 兰毅
+- 品设计方法论升级版
+- 泛产品设计方法论升级版
 source_refs:
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-口述.txt
 - 00_inbox/泛产品设计/一堂-泛产品设计课程-笔记.txt

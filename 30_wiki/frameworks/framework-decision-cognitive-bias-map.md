@@ -2,9 +2,9 @@
 id: framework-decision-cognitive-bias-map
 title: 商业决策常见认知偏差地图
 type: framework
-domain:
+domain: unknown
 status: reviewed
-quality_labels:
+quality_labels: null
 created_at: 2026-06-28
 updated_at: 2026-06-28
 author: 老顽童
@@ -13,26 +13,26 @@ review_date: 2026-06-28
 confidence: 0.75
 trust_level: high
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 业决策偏差
-  - 决策常见认知偏差地图
-  - 决策高度实操课口述
-  - 商业决策常见认知偏差地图
-  - 理偏差清单
-  - 知偏差地图
-  - 科学决策
-  - 策心理偏差清单
-  - 策认知偏差
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 业决策偏差
+- 决策常见认知偏差地图
+- 决策高度实操课口述
+- 商业决策常见认知偏差地图
+- 理偏差清单
+- 知偏差地图
+- 科学决策
+- 策心理偏差清单
+- 策认知偏差
+source_refs: null
+related: null
 discoverable_by:
-  - "认知偏差地图"
-  - "商业决策偏差"
-  - "决策认知偏差"
-  - "决策心理偏差清单"
-tags:
+- 认知偏差地图
+- 商业决策偏差
+- 决策认知偏差
+- 决策心理偏差清单
+tags: null
 ---
 # 商业决策常见认知偏差地图
 

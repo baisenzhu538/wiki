@@ -5,32 +5,32 @@ type: framework
 status: reviewed
 confidence: 0.92
 trust_level: high
-domain:
+domain: strategy
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 冉鹏PPT截图
-  - 变革管理
-  - 引擎点火
-  - 模型
-  - 组织诊断与变革管理
-  - 织诊断变革
-  - 麦肯锡
-  - 麦肯锡7S模型：组织诊断与变革管理
-source_refs:
-quality_labels:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 冉鹏PPT截图
+- 变革管理
+- 引擎点火
+- 模型
+- 组织诊断与变革管理
+- 织诊断变革
+- 麦肯锡
+- 麦肯锡7S模型：组织诊断与变革管理
+source_refs: null
+quality_labels: null
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
-related:
+related: null
 discoverable_by:
-  - "麦肯锡7S模型"
-  - "组织诊断变革"
-  - "麦肯锡组织模型"
-  - "7S变革管理"
-tags:
+- 麦肯锡7S模型
+- 组织诊断变革
+- 麦肯锡组织模型
+- 7S变革管理
+tags: null
 ---
 # 麦肯锡 7S 模型：组织诊断与变革管理
 

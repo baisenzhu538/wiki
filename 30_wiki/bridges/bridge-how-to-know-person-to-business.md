@@ -3,56 +3,55 @@ id: bridge-how-to-know-person-to-business
 title: 「桥接：人域"看见"↔商业域——从理解人到创造商业价值」
 type: bridge
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-09
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - human-insights
-  - panproduct
-  - business-strategy
+- human-insights
+- panproduct
+- business-strategy
 author: 老顽童
 source_refs:
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
 source_person: 布鲁克斯 / 水水
-reviewed_by: 待审
 aliases:
-  - 人域桥接商业
-  - 看见创造商业价值
+- 人域桥接商业
+- 看见创造商业价值
 discoverable_by:
-  - 人域
-  - 桥接
-  - 商业
-  - 看见
-  - 情绪价值
+- 人域
+- 桥接
+- 商业
+- 看见
+- 情绪价值
 related:
-  - framework-how-to-know-a-person
-  - tool-narrative-thinking-user-insight
-  - dk-emotional-value-premium
-  - tool-illuminator-vs-diminisher
-  - framework-一堂五步法-泛产品设计
-  - framework-christensen-disruptive-innovation
-  - agent-spec-yitang-Y-model-cross-domain-coach
+- framework-how-to-know-a-person
+- tool-narrative-thinking-user-insight
+- dk-emotional-value-premium
+- tool-illuminator-vs-diminisher
+- framework-一堂五步法-泛产品设计
+- framework-christensen-disruptive-innovation
+- agent-spec-yitang-Y-model-cross-domain-coach
 tags:
-  - method:cross-domain
-  - method:business-strategy
-  - scene:product-strategy
-  - audience:product-managers
-  - audience:founders
-  - content-format:bridge
-  - source-person:水水
+- method:cross-domain
+- method:business-strategy
+- scene:product-strategy
+- audience:product-managers
+- audience:founders
+- content-format:bridge
+- source-person:水水
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels:
-  - insight
-  - principle
+- insight
+- principle
 diagnostic_signals:
-  - signal: "产品团队有用户数据但做不出打动人心的产品"
-    lens: 只有数据没有"看见"——数据告诉你what，不告诉你why
-    follow_up: 从叙事型洞察入手（tool-narrative-thinking），找到3个真实用户的人生故事
-  - signal: "销售团队觉得'产品的卖点客户不买账'"
-    lens: 卖点在功能维度，客户在情绪维度做决策
-    follow_up: 重新定位卖点——不是"比竞品好在哪里"，是"客户用了之后会成为什么样的人"
+- signal: 产品团队有用户数据但做不出打动人心的产品
+  lens: 只有数据没有"看见"——数据告诉你what，不告诉你why
+  follow_up: 从叙事型洞察入手（tool-narrative-thinking），找到3个真实用户的人生故事
+- signal: 销售团队觉得'产品的卖点客户不买账'
+  lens: 卖点在功能维度，客户在情绪维度做决策
+  follow_up: 重新定位卖点——不是"比竞品好在哪里"，是"客户用了之后会成为什么样的人"
 ---
 
 > 定位：桥接人域（Human Insights）"看见"方法论与商业域（panproduct/business-strategy/OPC销售）。

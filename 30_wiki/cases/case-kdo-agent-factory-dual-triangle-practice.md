@@ -1,5 +1,4 @@
 ---
-
 id: case-kdo-agent-factory-dual-triangle-practice
 title: KDO 多 Agent 工厂：人机协作双三角的组织化实践
 type: case
@@ -8,7 +7,7 @@ author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: 2026-07-04
 confidence: 0.75
-trust_level: medium-low
+trust_level: low
 language: zh-CN
 created_at: 2026-07-04
 updated_at: 2026-07-04
@@ -17,10 +16,10 @@ domain:
 - ai-saas
 - personal-os
 aliases:
-  - KDO多Agent工厂：人机协作双三角的组织化实践
-  - 人机协作双三角的组织化实践
-  - 协作双三角的组织化实践
-  - 工厂
+- KDO多Agent工厂：人机协作双三角的组织化实践
+- 人机协作双三角的组织化实践
+- 协作双三角的组织化实践
+- 工厂
 source_refs:
 - .agent/context.md
 - 70_product/tasks/production-queue.md
@@ -28,8 +27,8 @@ source_refs:
 - 60_feedback/tasks/task_20260703_huangyaoshi-agent-tcpr-role-layer.md
 - 60_feedback/tasks/task_20260703_laowantong-graphrag-orphan-reduction.md
 discoverable_by:
-  - KDO 多 Agent 工厂：人机协作双三角的组织化实践
-  - 人机协作双三角的组织化实践
+- KDO 多 Agent 工厂：人机协作双三角的组织化实践
+- 人机协作双三角的组织化实践
 related:
 - '[[人机协作决策-双三角模型]]'
 - '[[concept-AI时代双三角竞争力]]'

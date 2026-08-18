@@ -5,32 +5,32 @@ type: framework
 status: reviewed
 confidence: 0.88
 trust_level: high
-domain:
+domain: strategy
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 冉鹏PPT截图
-  - 凯纳创新方向分类框架
-  - 创新方向分类框架
-  - 向分类
-  - 引擎点火
-  - 径框架
-  - 新方向
-  - 新方向分类
-  - 新路径框架
-  - 纳创新方向
-source_refs:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 冉鹏PPT截图
+- 凯纳创新方向分类框架
+- 创新方向分类框架
+- 向分类
+- 引擎点火
+- 径框架
+- 新方向
+- 新方向分类
+- 新路径框架
+- 纳创新方向
+source_refs: null
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
-related:
+related: null
 discoverable_by:
-  - "凯纳创新方向"
-  - "创新方向分类"
-  - "创新路径框架"
-tags:
+- 凯纳创新方向
+- 创新方向分类
+- 创新路径框架
+tags: null
 ---
 # 凯纳创新方向分类框架
 

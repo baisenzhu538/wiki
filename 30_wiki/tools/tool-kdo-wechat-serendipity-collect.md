@@ -2,7 +2,7 @@
 id: tool-kdo-wechat-serendipity-collect
 title: KDO 偶遇采集管线：手机转发链接 → 全自动入库（视频号/今日头条/公众号）
 type: tool
-status: stable
+status: reviewed
 confidence: 0.9
 trust_level: high
 language: zh-CN

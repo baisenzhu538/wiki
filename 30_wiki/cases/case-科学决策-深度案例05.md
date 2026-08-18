@@ -1,5 +1,4 @@
 ---
-
 id: case-科学决策-深度案例05
 title: 案例：一堂租办公室的ROI分析
 type: case
@@ -8,23 +7,23 @@ created_at: 2026-06-28
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.72
-trust_level: medium-low
+trust_level: low
 language: zh-CN
 domain:
 - yitang
 - decision-science
 aliases:
-  - 一堂租办公室的
-  - 一堂租办公室的ROI分析
-  - 案例
-  - 案例：一堂租办公室的ROI分析
-  - 租办公室的
+- 一堂租办公室的
+- 一堂租办公室的ROI分析
+- 案例
+- 案例：一堂租办公室的ROI分析
+- 租办公室的
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-深度-案例05_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-深度-案例05.md
 discoverable_by:
-  - 案例：一堂租办公室的ROI分析
-  - 一堂租办公室的ROI分析
+- 案例：一堂租办公室的ROI分析
+- 一堂租办公室的ROI分析
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

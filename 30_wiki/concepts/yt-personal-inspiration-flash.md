@@ -1,9 +1,8 @@
 ---
-
 domain:
 - personal-growth
 id: yt-personal-inspiration-flash
-title: "灵感闪现（认知篇）"
+title: 灵感闪现（认知篇）
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
@@ -23,12 +22,12 @@ review_date: 2026-05-08
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 灵感闪现认知篇
-  - 闪现认知篇
+- 灵感闪现认知篇
+- 闪现认知篇
 source_refs:
 - pending_archive:src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
 discoverable_by:
-  - 灵感闪现认知篇
+- 灵感闪现认知篇
 tags:
 - audience:general
 - scene:reference
@@ -36,6 +35,8 @@ tags:
 - 泛产品设计
 - 灵感闪现
 - 落地卡片
+type: concept
+status: draft
 ---
 # 灵感闪现（认知篇）
 

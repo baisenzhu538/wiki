@@ -20,7 +20,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - 十指讲香模型框架
+- 十指讲香模型框架
 related:
 - '[[yt-pitch-scenarization]]'
 - '[[yt-pitch-colloquialization]]'
@@ -33,8 +33,8 @@ related:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 十指讲香模型框架
-  - 讲香模型框架
+- 十指讲香模型框架
+- 讲香模型框架
 source_refs:
 - 10_raw/sources/src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary.md
 status: enriched
@@ -50,7 +50,7 @@ diagnostic_signals:
   follow_up_question: 你的表达中具象细节和抽象升华各占多少？如果一边倒，十指没打开
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:ceo
 - scene:diagnosis

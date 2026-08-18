@@ -5,33 +5,33 @@ type: framework
 status: reviewed
 confidence: 0.92
 trust_level: high
-domain:
+domain: strategy
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 三个地平线
-  - 三个地平线：短中长期业务组合管理
-  - 中长期业务
-  - 冉鹏PPT截图
-  - 务组合管理
-  - 地平线
-  - 引擎点火
-  - 新地平线框架
-  - 短中长期业务组合管理
-  - 长期业务组合管理
-source_refs:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 三个地平线
+- 三个地平线：短中长期业务组合管理
+- 中长期业务
+- 冉鹏PPT截图
+- 务组合管理
+- 地平线
+- 引擎点火
+- 新地平线框架
+- 短中长期业务组合管理
+- 长期业务组合管理
+source_refs: null
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
-related:
+related: null
 discoverable_by:
-  - "三个地平线"
-  - "短中长期业务"
-  - "业务组合管理"
-  - "创新地平线框架"
-tags:
+- 三个地平线
+- 短中长期业务
+- 业务组合管理
+- 创新地平线框架
+tags: null
 ---
 # 三个地平线：短中长期业务组合管理
 

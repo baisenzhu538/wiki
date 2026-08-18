@@ -1,16 +1,15 @@
 ---
-
 domain:
 - yitang
 id: yt-prompt-anti-flattery
 title: 反谄媚机制：让AI说真话
 type: tool
 aliases:
-  - 反谄媚机制
-  - 反谄媚机制：让AI说真话
-  - 媚机制
-  - 让AI说真话
-  - 说真话
+- 反谄媚机制
+- 反谄媚机制：让AI说真话
+- 媚机制
+- 让AI说真话
+- 说真话
 source_refs:
 - src_unknown
 - src_unknown
@@ -50,11 +49,11 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: 老顽童
 reviewed_by: 欧阳锋
-trust_level: medium-high
+trust_level: high
 discoverable_by:
-  - 反谄媚机制：让AI说真话
-  - 反谄媚机制
-  - 让AI说真话
+- 反谄媚机制：让AI说真话
+- 反谄媚机制
+- 让AI说真话
 related:
 - '[[yt-model-prompt-engineering]]'
 - '[[yt-prompt-iterative-prompting]]'

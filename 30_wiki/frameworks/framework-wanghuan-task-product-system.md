@@ -3,7 +3,7 @@ id: framework-wanghuan-task-product-system
 title: 王欢任务→产品→系统演进框架
 type: framework
 status: reviewed
-domain:
+domain: wanghuan
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -13,24 +13,21 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 务产品系统演进
-  - 欢任务产品系统演进
-  - 王欢
-  - 王欢任务→产品→系统演进框架
-  - 系统演进框架
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 务产品系统演进
+- 欢任务产品系统演进
+- 王欢
+- 王欢任务→产品→系统演进框架
+- 系统演进框架
+source_refs: null
+related: null
 discoverable_by:
-  - "王欢任务产品系统演进"
-diagnostic_signals:
-follow_up: 立即拆解输入字段与输出格式，做成可复用模板，下周验证是否仍在使用
-follow_up: 用导演视角重画流程：哪些环节由 AI 执行、哪些由人验收、标准是否书面化
-follow_up: 回到任务层重新验证：这件事我每周都做吗？不做我会开心吗？
+- 王欢任务产品系统演进
+diagnostic_signals: null
 follow_up: 绘制数据流图，识别自动触发点与人工验收点，设计最小闭环
-tags:
+tags: null
 ---
 # 王欢任务→产品→系统演进框架
 

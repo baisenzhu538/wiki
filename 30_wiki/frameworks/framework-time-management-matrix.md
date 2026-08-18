@@ -11,29 +11,18 @@ trust_level: medium
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain:
-source_refs:
-related:
+domain: management
+source_refs: null
+related: null
 discoverable_by:
-  - "时间管理四象限"
-  - "艾森豪威尔矩阵"
+- 时间管理四象限
+- 艾森豪威尔矩阵
 diagnostic_signals:
   lens: placeholder
   follow-up: 后续补全
-quality_labels:
-tags:
-aliases:
-  - 重要/紧急四象限艾森豪威尔矩阵
-  - 理四象限
-  - 紧急四象限艾森豪威尔矩阵
-  - 间管理四象限
-  - 森豪威尔矩阵
-  - 威尔矩阵
-aliases:
-  - 重要/紧急四象限艾森豪威尔矩阵
-  - 森豪威尔矩阵
-  - 间管理四象限
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 重要/紧急四象限（艾森豪威尔矩阵）
 

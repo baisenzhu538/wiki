@@ -1,49 +1,49 @@
 ---
 id: workflow-cross-agent-fact-dispute
-title: "跨 Agent 事实争议裁决协议"
+title: 跨 Agent 事实争议裁决协议
 type: workflow
 status: reviewed
 domain: kdo
 author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 aliases:
-  - 争议裁决
-  - git字节验证
-  - 跨Agent争议
-  - 事实核查
+- 争议裁决
+- git字节验证
+- 跨Agent争议
+- 事实核查
 source_refs:
-  - 20_memory/operating-principles.md
-  - 60_feedback/diagnosis/diag_20260804_huangyaoshi-cross-agent-fact-dispute-lessons.md
+- 20_memory/operating-principles.md
+- 60_feedback/diagnosis/diag_20260804_huangyaoshi-cross-agent-fact-dispute-lessons.md
 diagnostic_signals:
-  - signal: '跨Agent事实争议靠谁说的有道理裁决——无git字节验证'
-    severity: high
-    implication: '#224王语嫣vs欧阳锋争论30分钟→git show 1秒终结'
-  - signal: 'Agent凭记忆/错误核查挑战审查结论——无标准流程'
-    severity: high
-    implication: '王语嫣初判错误→差点误导处置方向→欧阳锋git验证才纠正'
-  - signal: '争议本身有价值——暴露了核查方法论的缺口'
-    severity: low
-    implication: '不是因为有人错了才需要协议——是因为正确的人也会错'
+- signal: 跨Agent事实争议靠谁说的有道理裁决——无git字节验证
+  severity: high
+  implication: '#224王语嫣vs欧阳锋争论30分钟→git show 1秒终结'
+- signal: Agent凭记忆/错误核查挑战审查结论——无标准流程
+  severity: high
+  implication: 王语嫣初判错误→差点误导处置方向→欧阳锋git验证才纠正
+- signal: 争议本身有价值——暴露了核查方法论的缺口
+  severity: low
+  implication: 不是因为有人错了才需要协议——是因为正确的人也会错
 related:
-  - '[[dk-P42-agent-fact-check-gap]]'
-  - '[[framework-kdo-self-attack]]'
-  - '[[dk-E010-duplicate-key-detection]]'
-  - '[[dk-P15-false-completion-report]]'
-  - '[[framework-kdo-modeling-methodology]]'
-  - '[[dk-c5-todo-false-positive]]'
+- '[[dk-P42-agent-fact-check-gap]]'
+- '[[framework-kdo-self-attack]]'
+- '[[dk-E010-duplicate-key-detection]]'
+- '[[dk-P15-false-completion-report]]'
+- '[[framework-kdo-modeling-methodology]]'
+- '[[dk-c5-todo-false-positive]]'
 created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04
 tags:
-  - audience:ouyangfeng
-  - scene:review
-  - skill-level:intermediate
+- audience:ouyangfeng
+- scene:review
+- skill-level:intermediate
 discoverable_by:
-  - 争议裁决
-  - git字节验证
-  - 跨Agent争议
+- 争议裁决
+- git字节验证
+- 跨Agent争议
 ---
 # 跨 Agent 事实争议裁决协议
 

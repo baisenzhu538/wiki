@@ -10,27 +10,27 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - conversion
-  - handle
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂影响力
-  - 一堂影响力36计：6原则×6强度A1F6全名+两大对齐原则+强弱规律+段位元规则
-  - 两大对齐原则
-  - 全名+
-  - 原则
-  - 强度A1
-source_refs:
-related:
+- audience:ceo
+- conversion
+- handle
+- scene:diagnosis
+- skill-level:advanced
+- 一堂影响力
+- 一堂影响力36计：6原则×6强度A1F6全名+两大对齐原则+强弱规律+段位元规则
+- 两大对齐原则
+- 全名+
+- 原则
+- 强度A1
+source_refs: null
+related: null
 discoverable_by:
-  - "影响力36计"
-  - "6原则6强度"
-  - "影响力段位"
-quality_labels:
-tags:
+- 影响力36计
+- 6原则6强度
+- 影响力段位
+quality_labels: null
+tags: null
 ---
 # 一堂影响力 36 计：6 原则 × 6 强度
 

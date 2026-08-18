@@ -1,36 +1,35 @@
 ---
-
 id: tool-strategy-value-proposition
 title: 价值主张设计工具：三问 + 六维排序法
 type: tool
 status: reviewed
 confidence: 0.92
 trust_level: high
-domain:
+domain: strategy
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:advanced
-  - 三问
-  - 主张设计工具
-  - 价值主张设计工具
-  - 价值主张设计工具：三问+六维排序法
-  - 六维排序法
-  - 冉鹏PPT截图
-  - 引擎点火
-  - 排序法
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:advanced
+- 三问
+- 主张设计工具
+- 价值主张设计工具
+- 价值主张设计工具：三问+六维排序法
+- 六维排序法
+- 冉鹏PPT截图
+- 引擎点火
+- 排序法
+source_refs: null
 discoverable_by:
-  - 价值主张设计工具：三问 + 六维排序法
-  - 价值主张设计工具
-  - 六维排序法
-quality_labels:
+- 价值主张设计工具：三问 + 六维排序法
+- 价值主张设计工具
+- 六维排序法
+quality_labels: null
 created_at: '2026-06-22'
 updated_at: '2026-06-29'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
-related:
-tags:
+related: null
+tags: null
 ---
 # 价值主张设计工具：三问 + 六维排序法
 

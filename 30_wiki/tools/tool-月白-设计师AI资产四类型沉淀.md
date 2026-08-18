@@ -7,14 +7,14 @@ domain: design
 source_person: 月白
 source_context: AI设计基础 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 aliases:
-  - AI资产四类型
-  - 四类型
-  - 技能
-  - 技能：设计师AI资产四类型沉淀
-  - 月白
-  - 月白四类型
-  - 设计师AI资产四类型沉淀
-  - 资产四类型
+- AI资产四类型
+- 四类型
+- 技能
+- 技能：设计师AI资产四类型沉淀
+- 月白
+- 月白四类型
+- 设计师AI资产四类型沉淀
+- 资产四类型
 source_refs:
 - 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
@@ -30,8 +30,8 @@ pipeline:
 - src_unknown
 author: 月白
 reviewed_by: 老顽童
-confidence: 0.80
-trust_level: observed
+confidence: 0.8
+trust_level: medium
 related:
 - '[[tool-月白-课程问题预埋法]]'
 - '[[tool-月白-左手Cubox右手里程碑学习法]]'
@@ -45,9 +45,9 @@ tags:
 quality_labels:
 - cited
 diagnostic_signals:
-- "设计师离职后AI资产无法交接→四类型未建、交接缺维度"
-- "提示词/参考图/模板混在一起无法检索→未按四类型分仓"
-discoverable_by: "月白AI资产、设计师资产沉淀、AI四类型、设计资产分类"
+- 设计师离职后AI资产无法交接→四类型未建、交接缺维度
+- 提示词/参考图/模板混在一起无法检索→未按四类型分仓
+discoverable_by: 月白AI资产、设计师资产沉淀、AI四类型、设计资产分类
 ---
 
 # 技能：设计师AI资产四类型沉淀

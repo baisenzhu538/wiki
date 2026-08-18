@@ -1,17 +1,16 @@
 ---
-
 id: case-truman-yitang-foresight
 title: Truman一堂：市场扫描→六方向→Plan ABC试错
 type: case
 domain:
 - yitang
 aliases:
-  - ABC试错
-  - Truman一堂
-  - Truman一堂：市场扫描→六方向→PlanABC试错
-  - Truman（一堂创始人）
-  - 六方向
-  - 市场扫描→六方向→Plan
+- ABC试错
+- Truman一堂
+- Truman一堂：市场扫描→六方向→PlanABC试错
+- Truman（一堂创始人）
+- 六方向
+- 市场扫描→六方向→Plan
 source_refs:
 - pending_archive:src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
 - pending_archive:src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
@@ -40,8 +39,8 @@ wiki_refs:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - Truman一堂：市场扫描→六方向→Plan ABC试错
-  - 市场扫描→六方向→Plan
+- Truman一堂：市场扫描→六方向→Plan ABC试错
+- 市场扫描→六方向→Plan
 related:
 - '[[yt-foresight-15-char-mantra]]'
 - '[[case-gudong-tea-shop-foresight]]'
@@ -54,7 +53,7 @@ pipeline:
 - src_unknown
 - src_unknown
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 updated_at: 2026-06-28
 tags:
 - audience:general

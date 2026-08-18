@@ -1,9 +1,8 @@
 ---
-
 domain:
 - modeling
 id: yt-model-deliberate-practice-growth
-title: "刻意练习十年成长指数：为什么有人一年顶十年"
+title: 刻意练习十年成长指数：为什么有人一年顶十年
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: foundational
@@ -18,22 +17,24 @@ query_triggers:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 为什么有人一年顶十年
-  - 么有人一年顶十年
-  - 刻意练习十年成长指数
-  - 刻意练习十年成长指数：为什么有人一年顶十年
-  - 练习十年成长指数
+- 为什么有人一年顶十年
+- 么有人一年顶十年
+- 刻意练习十年成长指数
+- 刻意练习十年成长指数：为什么有人一年顶十年
+- 练习十年成长指数
 source_refs:
 - pending_archive:src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
 discoverable_by:
-  - 刻意练习十年成长指数：为什么有人一年顶十年
-  - 刻意练习十年成长指数
-  - 为什么有人一年顶十年
+- 刻意练习十年成长指数：为什么有人一年顶十年
+- 刻意练习十年成长指数
+- 为什么有人一年顶十年
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 一堂刻意练习十年成长指数
+type: concept
+status: draft
 ---
 # 刻意练习十年成长指数：为什么有人一年顶十年
 

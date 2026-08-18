@@ -1,36 +1,35 @@
 ---
-
 id: tool-key-assumptions-check
 title: Key Assumptions Check（隐藏假设检验）
 type: tool
-domain:
+domain: yitang
 discoverable_by:
-  - Key Assumptions Check隐藏假设检验
-  - Check隐藏假设检验
-tags:
+- Key Assumptions Check隐藏假设检验
+- Check隐藏假设检验
+tags: null
 source_person: Richars J. Heuer Jr. + Truman（一堂）
 source_context: SATs 诊断类技术工具化实现
 aliases:
-  - Check隐藏假设检验
-  - KeyAssumptionsCheck隐藏假设检验
-  - Richars J. Heuer Jr. + Truman（一堂）
-  - [[framework-yitang-nine-layer-deep-dig]]
-  - [[framework-一堂-关键假设-三板斧]]
-  - [[framework-一堂-关键假设]]
-  - [[tool-first-principles-assumption-classify]]
-  - [[tool-半肥猫-ai-research-validation]]
-  - [[yt-entrepreneur-key-hypotheses]]
-  - [[yt-product-kernel-key-conversion]]
-  - [[yt-skill-storyline-key-elements]]
-  - 三个新盲区
-  - 外部知识探索
-  - 隐藏假设检验
-source_refs:
-related:
+- Check隐藏假设检验
+- KeyAssumptionsCheck隐藏假设检验
+- Richars J. Heuer Jr. + Truman（一堂）
+- - - framework-yitang-nine-layer-deep-dig
+- - - framework-一堂-关键假设-三板斧
+- - - framework-一堂-关键假设
+- - - tool-first-principles-assumption-classify
+- - - tool-半肥猫-ai-research-validation
+- - - yt-entrepreneur-key-hypotheses
+- - - yt-product-kernel-key-conversion
+- - - yt-skill-storyline-key-elements
+- 三个新盲区
+- 外部知识探索
+- 隐藏假设检验
+source_refs: null
+related: null
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
-quality_labels:
+quality_labels: null
 created_at: '2026-06-28'
 updated_at: '2026-06-28'
 confidence: 0.78

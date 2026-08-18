@@ -1,24 +1,25 @@
 ---
-
 id: tool-一堂-five-step-validation
-title: "技能：聊问查测盘五步验证法"
+title: 技能：聊问查测盘五步验证法
 discoverable_by:
-  - 技能：聊问查测盘五步验证法
-  - 聊问查测盘五步验证法
-related:
+- 技能：聊问查测盘五步验证法
+- 聊问查测盘五步验证法
+related: null
 aliases:
-  - audience:general
-  - scene:reference
-  - skill-level:intermediate
-  - 技能
-  - 技能：聊问查测盘五步验证法
-  - 聊问查测盘五步验证法
-source_refs:
+- audience:general
+- scene:reference
+- skill-level:intermediate
+- 技能
+- 技能：聊问查测盘五步验证法
+- 聊问查测盘五步验证法
+source_refs: null
 updated_at: '2026-06-29'
 status: enriched
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
-tags:
+tags: null
+type: tool
+domain: unknown
 ---
 # 技能：聊问查测盘五步验证法
 

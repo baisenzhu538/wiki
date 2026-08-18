@@ -1,9 +1,8 @@
 ---
-
 domain:
 - modeling
 id: yt-model-scientific-questioning-map
-title: "科学提问刻意练习地图"
+title: 科学提问刻意练习地图
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
@@ -18,18 +17,20 @@ query_triggers:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 提问刻意练习地图
-  - 科学提问刻意练习地图
+- 提问刻意练习地图
+- 科学提问刻意练习地图
 source_refs:
 - pending_archive:src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 discoverable_by:
-  - 科学提问刻意练习地图
+- 科学提问刻意练习地图
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 个人修炼
 - 科学提问刻意练习
+type: concept
+status: draft
 ---
 # 科学提问刻意练习地图
 

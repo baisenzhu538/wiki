@@ -2,7 +2,7 @@
 id: framework-brand-three-degree
 title: 品牌三度
 type: framework
-domain:
+domain: unknown
 status: reviewed
 confidence: 0.85
 difficulty: intermediate
@@ -13,24 +13,24 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-30'
 aliases:
-  - brand-three-degree
-  - study
-  - 名度美誉度忠诚度
-  - 品牌三度
-  - 品牌三度模型
-  - 大馨战队
-  - 牌三度
-  - 牌知名度美誉度忠诚度
-  - 知名度美誉度信任度
-source_refs:
-query_triggers:
-tags:
-quality_labels:
-related:
+- brand-three-degree
+- study
+- 名度美誉度忠诚度
+- 品牌三度
+- 品牌三度模型
+- 大馨战队
+- 牌三度
+- 牌知名度美誉度忠诚度
+- 知名度美誉度信任度
+source_refs: null
+query_triggers: null
+tags: null
+quality_labels: null
+related: null
 discoverable_by:
-  - "品牌三度"
-  - "品牌知名度美誉度忠诚度"
-pipeline:
+- 品牌三度
+- 品牌知名度美誉度忠诚度
+pipeline: null
 ---
 # 品牌三度
 

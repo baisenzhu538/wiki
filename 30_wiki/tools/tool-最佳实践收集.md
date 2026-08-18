@@ -1,5 +1,4 @@
 ---
-
 id: tool-最佳实践收集
 title: 最佳实践收集：系统性收集团队/行业的最佳做法
 type: tool
@@ -10,22 +9,22 @@ reviewed_at: 2026-07-04
 confidence: 0.75
 trust_level: medium
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:manager
-  - scene:execution
-  - skill-level:intermediate
-  - 最佳实践收集
-  - 最佳实践收集：系统性收集团队/行业的最佳做法
-  - 系统性收集团队/行业的最佳做法
-source_refs:
+- audience:manager
+- scene:execution
+- skill-level:intermediate
+- 最佳实践收集
+- 最佳实践收集：系统性收集团队/行业的最佳做法
+- 系统性收集团队/行业的最佳做法
+source_refs: null
 discoverable_by:
-  - 最佳实践收集：系统性收集团队/行业的最佳做法
-  - 最佳实践收集
-  - 系统性收集团队/行业的最佳做法
-related:
+- 最佳实践收集：系统性收集团队/行业的最佳做法
+- 最佳实践收集
+- 系统性收集团队/行业的最佳做法
+related: null
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 最佳实践收集：系统性收集团队/行业的最佳做法
 

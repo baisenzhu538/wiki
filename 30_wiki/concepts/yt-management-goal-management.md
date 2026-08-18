@@ -19,9 +19,9 @@ diagnostic_signals:
 - framework_lens: 指标专政 / 目标与激励错位
   follow_up_question: 如果OKR完成率直接决定奖金，团队会怎么设目标？如果他们倾向设低目标，说明激励机制已经腐蚀了目标管理。
 aliases:
-  - 目标管理
+- 目标管理
 discoverable_by:
-  - 目标管理
+- 目标管理
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'
@@ -43,7 +43,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.88
-trust_level: medium-high
+trust_level: high
 source_refs:
 - 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
 source_context: （原始 source 无法追溯，source_refs 已清空，待后续补充） - dk-目标管理四大病 - tool-OGSM目标管理工具

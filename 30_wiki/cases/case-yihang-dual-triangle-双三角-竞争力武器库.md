@@ -1,5 +1,4 @@
 ---
-
 id: case-yihang-dual-triangle-双三角-竞争力武器库
 title: 双三角-竞争力武器库 — 双三角案例
 type: case
@@ -9,27 +8,27 @@ created_at: 2026-07-04
 updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
-domain:
+domain: yihang
 aliases:
-  - #domain/ai-collaboration
-  - #method/dual-triangle
-  - audience:general
-  - scene:reference
-  - skill-level:intermediate
-  - 人机协作双三角
-  - 双三角
-  - 双三角案例
-  - 双三角竞争力武器库双三角案例
-  - 竞争力武器库
-  - 角案例
-  - 角竞争力武器库双三角案例
-source_refs:
+- null
+- null
+- audience:general
+- scene:reference
+- skill-level:intermediate
+- 人机协作双三角
+- 双三角
+- 双三角案例
+- 双三角竞争力武器库双三角案例
+- 竞争力武器库
+- 角案例
+- 角竞争力武器库双三角案例
+source_refs: null
 discoverable_by:
-  - 双三角-竞争力武器库 — 双三角案例
-  - 双三角
-  - 竞争力武器库
-  - 双三角案例
-tags:
+- 双三角-竞争力武器库 — 双三角案例
+- 双三角
+- 竞争力武器库
+- 双三角案例
+tags: null
 reviewed_by: pending
 ---
 # 双三角-竞争力武器库

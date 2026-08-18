@@ -3,64 +3,63 @@ id: framework-big-five-personality
 title: 「框架：大五人格——只有开放性和尽责性越高越好」
 type: framework
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-09
 confidence: 0.95
 trust_level: high
 domain:
-  - human-insights
-  - psychology
+- human-insights
+- psychology
 author: 老顽童
 source_refs:
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-笔记.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-笔记.txt
 source_person: 布鲁克斯 / 水水
 source_context: 布鲁克斯《如何了解一个人》+ 水水一堂拆书会；学术锚点 Barrick & Mount (1991) 元分析
-reviewed_by: 待审
 aliases:
-  - Big Five
-  - OCEAN模型
-  - 五因素模型
-  - 人格心理学
-  - 大五模型
+- Big Five
+- OCEAN模型
+- 五因素模型
+- 人格心理学
+- 大五模型
 discoverable_by:
-  - 大五人格
-  - Big Five
-  - OCEAN
-  - 人格测试
-  - 职场人格
+- 大五人格
+- Big Five
+- OCEAN
+- 人格测试
+- 职场人格
 related:
-  - framework-how-to-know-a-person
-  - tool-illuminator-vs-diminisher
-  - dk-agreeableness-double-edged
-  - bridge-how-to-know-person-to-business
-  - framework-ouyangfeng-review-methodology
+- framework-how-to-know-a-person
+- tool-illuminator-vs-diminisher
+- dk-agreeableness-double-edged
+- bridge-how-to-know-person-to-business
+- framework-ouyangfeng-review-methodology
 tags:
-  - method:psychology
-  - method:personality
-  - scene:team-building
-  - scene:leadership
-  - scene:hiring
-  - audience:general
-  - content-format:framework
-  - source-person:布鲁克斯
-  - source-person:水水
+- method:psychology
+- method:personality
+- scene:team-building
+- scene:leadership
+- scene:hiring
+- audience:general
+- content-format:framework
+- source-person:布鲁克斯
+- source-person:水水
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels:
-  - insight
-  - cited
-  - validated
+- insight
+- cited
+- validated
 diagnostic_signals:
-  - signal: "用MBTI来判断团队成员适配性"
-    lens: MBTI重测信度低、二分类扭曲、无预测效度——学术界不认可
-    follow_up: 改用大五人格（心理学界公认模型），特别关注尽责性（最强职场绩效预测因子）
-  - signal: "团队里'老好人'被忽视，反而'难搞的人'获得更多照顾"
-    lens: 宜人性双刃剑——高宜人性的人更容易被忽视（因为好说话）
-    follow_up: 检查是否无意中惩罚了宜人性高的成员
-  - signal: "招聘时看重'聪明'但新员工表现不如预期"
-    lens: 可能用错了预测指标——尽责性比智力更能预测职场表现
-    follow_up: 面试中加入尽责性评估（过往任务完成度/承诺兑现记录）
+- signal: 用MBTI来判断团队成员适配性
+  lens: MBTI重测信度低、二分类扭曲、无预测效度——学术界不认可
+  follow_up: 改用大五人格（心理学界公认模型），特别关注尽责性（最强职场绩效预测因子）
+- signal: 团队里'老好人'被忽视，反而'难搞的人'获得更多照顾
+  lens: 宜人性双刃剑——高宜人性的人更容易被忽视（因为好说话）
+  follow_up: 检查是否无意中惩罚了宜人性高的成员
+- signal: 招聘时看重'聪明'但新员工表现不如预期
+  lens: 可能用错了预测指标——尽责性比智力更能预测职场表现
+  follow_up: 面试中加入尽责性评估（过往任务完成度/承诺兑现记录）
 ---
 
 > 定位：本卡属于人域"看见力量"支柱的核心框架——布鲁克斯《如何了解一个人》中大五人格章节。与 `[[dk-agreeableness-double-edged]]`（宜人性双刃剑）配套。

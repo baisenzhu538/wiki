@@ -1,9 +1,8 @@
 ---
-
 id: yt-growth-cycle-model
-title: "增长周期模型"
+title: 增长周期模型
 discoverable_by:
-  - 增长周期模型
+- 增长周期模型
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-unit-model-three-tools]]'
@@ -12,8 +11,8 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[pending_unknown]]'
 aliases:
-  - 周期模型
-  - 增长周期模型
+- 周期模型
+- 增长周期模型
 source_refs:
 - pending_archive: src_unknown
 status: enriched
@@ -24,6 +23,8 @@ tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+type: concept
+domain: growth
 ---
 # 增长周期模型
 

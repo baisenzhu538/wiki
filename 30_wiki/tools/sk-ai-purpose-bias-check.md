@@ -1,37 +1,36 @@
 ---
-
 id: sk-ai-purpose-bias-check
 title: 技能：目的论偏差快速识别法
 type: tool
 status: draft
-domain:
+domain: unknown
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
 aliases:
-  - [[tool-ai-purpose-bias-check]]
-  - [[tool-ai-system-redundancy]]
-  - [[tool-水水-接受发散性世界观]]
-  - [[tool-水水-识别自证预言陷阱]]
-  - [[tool-水水-识别超级传播者风险]]
-  - 差快速识别法
-  - 技能
-  - 技能：目的论偏差快速识别法
-  - 拆书会
-  - 水水
-  - 目的论偏差快速识别法
-  - 论偏差快速识别法
-source_refs:
+- - - tool-ai-purpose-bias-check
+- - - tool-ai-system-redundancy
+- - - tool-水水-接受发散性世界观
+- - - tool-水水-识别自证预言陷阱
+- - - tool-水水-识别超级传播者风险
+- 差快速识别法
+- 技能
+- 技能：目的论偏差快速识别法
+- 拆书会
+- 水水
+- 目的论偏差快速识别法
+- 论偏差快速识别法
+source_refs: null
 wiki_refs: []
 definition_of_done: null
 discoverable_by:
-  - 技能：目的论偏差快速识别法
-  - 目的论偏差快速识别法
-tags:
+- 技能：目的论偏差快速识别法
+- 目的论偏差快速识别法
+tags: null
 created_at: '2026-06-06'
 updated_at: '2026-06-16'
 tools_required: null
 prerequisite_skills: null
-related:
+related: null
 author: unknown
 reviewed_by: pending
 confidence: 0.7

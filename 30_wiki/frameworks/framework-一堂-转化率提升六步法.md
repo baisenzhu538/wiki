@@ -10,27 +10,27 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - conversion
-  - handle
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂转化率提升六步法
-  - 一堂转化率提升六步法：拆解/加法/减法/讲香/组合/制作+双模式立论+四阶段映射
-  - 化率提升六步法
-  - 双模式立论
-  - 四阶段映射
-  - 拆解/加法/减法/讲香/组合/制作
-  - 提升六步法
-source_refs:
-related:
+- audience:ceo
+- conversion
+- handle
+- scene:diagnosis
+- skill-level:advanced
+- 一堂转化率提升六步法
+- 一堂转化率提升六步法：拆解/加法/减法/讲香/组合/制作+双模式立论+四阶段映射
+- 化率提升六步法
+- 双模式立论
+- 四阶段映射
+- 拆解/加法/减法/讲香/组合/制作
+- 提升六步法
+source_refs: null
+related: null
 discoverable_by:
-  - "转化率提升六步法"
-  - "拆解加法减法讲香"
-quality_labels:
-tags:
+- 转化率提升六步法
+- 拆解加法减法讲香
+quality_labels: null
+tags: null
 ---
 # 一堂转化率提升六步法
 

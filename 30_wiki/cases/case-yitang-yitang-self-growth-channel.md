@@ -1,5 +1,4 @@
 ---
-
 id: case-yitang-yitang-self-growth-channel
 type: case
 title: 案例：一堂自身如何三年增长十倍
@@ -8,13 +7,13 @@ domain:
 - yitang
 - growth
 confidence: 0.8
-trust_level: medium-high
+trust_level: high
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 discoverable_by:
-  - 案例：一堂自身如何三年增长十倍
-  - 一堂自身如何三年增长十倍
+- 案例：一堂自身如何三年增长十倍
+- 一堂自身如何三年增长十倍
 quality_labels:
 - actionable
 - cited
@@ -22,11 +21,11 @@ quality_labels:
 - validated
 updated_at: '2026-06-28'
 aliases:
-  - Truman
-  - 一堂自身如何三年增长十倍
-  - 案例
-  - 案例：一堂自身如何三年增长十倍
-  - 自身如何三年增长十倍
+- Truman
+- 一堂自身如何三年增长十倍
+- 案例
+- 案例：一堂自身如何三年增长十倍
+- 自身如何三年增长十倍
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-案例-一堂-渠道探索分析图.png

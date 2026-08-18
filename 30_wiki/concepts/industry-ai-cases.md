@@ -1,37 +1,36 @@
 ---
-
 id: industry-ai-cases
 title: 产业 AI 落地案例集（非药柜）：主题综合索引卡
 type: concept
 status: reviewed
-domain:
+domain: unknown
 source_person: 王语嫣
 source_context: 听脑产业 AI 案例主题摘要综合（8 条录音 meetingSummary）
 aliases:
-  - [[pending_unknown]]
-  - [[tool-月白-实物包装产业链实践]]
-  - 主题综合索引卡
-  - 云管家
-  - 产业
-  - 产业AI落地案例集非药柜：主题综合索引卡
-  - 优行业分享
-  - 剧本创作分享
-  - 案例集非药柜
-  - 王语嫣
-  - 落地案例集非药柜
-source_refs:
+- - - pending_unknown
+- - - tool-月白-实物包装产业链实践
+- 主题综合索引卡
+- 云管家
+- 产业
+- 产业AI落地案例集非药柜：主题综合索引卡
+- 优行业分享
+- 剧本创作分享
+- 案例集非药柜
+- 王语嫣
+- 落地案例集非药柜
+source_refs: null
 discoverable_by:
-  - 产业 AI 落地案例集非药柜：主题综合索引卡
-  - 落地案例集非药柜
-  - 主题综合索引卡
-tags:
+- 产业 AI 落地案例集非药柜：主题综合索引卡
+- 落地案例集非药柜
+- 主题综合索引卡
+tags: null
 created_at: '2026-06-14'
-quality_labels:
+quality_labels: null
 updated_at: '2026-06-28'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
-related:
+related: null
 confidence: 0.65
 trust_level: medium
 ---

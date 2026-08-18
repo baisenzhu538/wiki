@@ -2,31 +2,31 @@
 id: framework-structured-analytic-techniques
 title: 结构化分析技术（SATs）总览
 type: framework
-domain:
-tags:
+domain: unknown
+tags: null
 source_person: Richards J. Heuer Jr. + Randolph H. Pherson + Truman（一堂）
 source_context: SATs 文献综述 + 一堂九层深挖/交叉验证的 SATs 同构映射
 aliases:
-  - Richards J. Heuer Jr. + Randolph H. Pherson + Truman（一堂）
-  - 三个新盲区
-  - 分析技术
-  - 外部知识探索
-  - 构化分析技术
-  - 构化思维方法
-  - 析技术
-  - 策分析技术
-  - 结构化分析技术SATs总览
-source_refs:
-related:
+- Richards J. Heuer Jr. + Randolph H. Pherson + Truman（一堂）
+- 三个新盲区
+- 分析技术
+- 外部知识探索
+- 构化分析技术
+- 构化思维方法
+- 析技术
+- 策分析技术
+- 结构化分析技术SATs总览
+source_refs: null
+related: null
 discoverable_by:
-  - "结构化分析技术"
-  - "SATs"
-  - "决策分析技术"
-  - "结构化思维方法"
+- 结构化分析技术
+- SATs
+- 决策分析技术
+- 结构化思维方法
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
-quality_labels:
+quality_labels: null
 created_at: '2026-06-28'
 updated_at: '2026-06-28'
 confidence: 0.78

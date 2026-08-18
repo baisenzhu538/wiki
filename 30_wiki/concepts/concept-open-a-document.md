@@ -3,10 +3,9 @@ id: concept-open-a-document
 title: 开一篇文档：调研的第一个最重要动作
 type: concept
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-16
 author: 老顽童
-reviewed_by: 待审
 confidence: 0.85
 trust_level: medium
 language: zh-CN

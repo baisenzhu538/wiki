@@ -1,9 +1,8 @@
 ---
-
 title: 高密度素材编译策略（修订）
 type: decision
 domain: kdo
-status: revised
+status: reviewed
 version: '2.0'
 supersedes: v1.0（复合编译方案，已废弃）
 id: high-density-composite-compilation-strategy
@@ -17,7 +16,7 @@ confidence: 0.75
 trust_level: medium
 updated_at: '2026-06-16'
 related:
-  - "[[tool-osint-maltego]]"
+- '[[tool-osint-maltego]]'
 ---
 # 高密度素材编译策略 v2.0
 

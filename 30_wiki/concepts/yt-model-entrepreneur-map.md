@@ -17,7 +17,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - 创业修炼地图
+- 创业修炼地图
 related:
 - '[[一堂]]'
 - '[[yt-model-progress-map]]'
@@ -29,8 +29,8 @@ related:
 - '[[yt-personal-ipo-learning]]'
 reviewed_by: 王语嫣
 aliases:
-  - 修炼地图
-  - 创业修炼地图
+- 修炼地图
+- 创业修炼地图
 source_refs:
 - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 status: enriched
@@ -55,7 +55,7 @@ diagnostic_signals:
 - framework_lens: 概率追求缺少度量——地图的核心追求是概率，没有指标就无法验证修炼效果
   follow_up_question: 你最近一次更新关键假设的成立概率是什么时候？有没有一个机制让团队看到概率随时间的变化？
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:ceo
 - scene:diagnosis

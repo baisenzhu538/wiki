@@ -10,36 +10,18 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "转化率黑客总纲"
-  - "动力阻力触点转化率"
+- 转化率黑客总纲
+- 动力阻力触点转化率
 diagnostic_signals:
-  lens: 只在触点层用力——转化率是靠关键假设驱动的，动力阻力要素绝大部分不呈现在页面上
-  follow-up: 按本卡公式把该转化率拆成动力/阻力/触点三列假设，先用[[framework-一堂-转化率提升六步法]]的加法步展开
-  lens: 阻力有一票否决权——动力可以被阻力抵消，箱子粘在地上推不动
-  follow-up: 接[[framework-一堂-12种阻力总表]]逐项过筛，按[[framework-一堂-阻力方法论骨架]]选降低/消除/逆转
   lens: 缺共同语言——D 域是四象限中频率最高的场景，必须沉淀为团队能力而非个人灵感
   follow-up: 按[[framework-一堂-转化率黑客爬山地图]]自评段位，用[[framework-一堂-转化基本功七个自我修养]]立团队纪律
-quality_labels:
-tags:
-aliases:
-  - 一堂转化率黑客总纲：转化率=动力−阻力+触点关键假设ABCD之D域微观效率
-  - 一堂转化率黑客总纲
-  - 转化率
-  - 动力
-  - 阻力
-  - 触点关键假设
-aliases:
-  - 一堂转化率黑客总纲：转化率=动力−阻力+触点关键假设ABCD之D域微观效率
-  - 一堂转化率黑客总纲
-  - 转化率
-  - 动力
-  - 阻力
-  - 触点关键假设
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 一堂转化率黑客总纲：转化率 = 动力 − 阻力 + 触点
 

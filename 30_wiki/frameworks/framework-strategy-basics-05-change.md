@@ -9,27 +9,27 @@ confidence: 0.85
 trust_level: high
 updated_at: '2026-06-29'
 language: zh-CN
-domain:
+domain: strategy
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 业变革路径
-  - 加外挂
-  - 加外挂/换路/换轮子
-  - 变革Change
-  - 变革Change：加外挂/换路/换轮子
-  - 外挂换路换轮子
-  - 略变革
-  - 略转型框架
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 业变革路径
+- 加外挂
+- 加外挂/换路/换轮子
+- 变革Change
+- 变革Change：加外挂/换路/换轮子
+- 外挂换路换轮子
+- 略变革
+- 略转型框架
+source_refs: null
+related: null
 discoverable_by:
-  - "战略变革"
-  - "加外挂换路换轮子"
-  - "企业变革路径"
-  - "战略转型框架"
-tags:
+- 战略变革
+- 加外挂换路换轮子
+- 企业变革路径
+- 战略转型框架
+tags: null
 ---
 **三种变革方式**（对应不同阶段）：
 1. **加外挂**：在现有业务和能力基础上，叠加新能力或新渠道，提升效率和规模。

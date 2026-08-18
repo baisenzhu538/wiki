@@ -3,10 +3,9 @@ id: dk-research-ranklist-replaces-model
 title: 建不了模型就建排行榜：Top10 审美锚点
 type: dk
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-16
 author: 老顽童
-reviewed_by: 待审
 confidence: 0.88
 trust_level: medium
 language: zh-CN

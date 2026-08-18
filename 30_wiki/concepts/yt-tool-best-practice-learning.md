@@ -21,9 +21,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - 最佳实践学习四步法：从收集到超越
-  - 最佳实践学习四步法
-  - 从收集到超越
+- 最佳实践学习四步法：从收集到超越
+- 最佳实践学习四步法
+- 从收集到超越
 related:
 - '[[concept-最佳实践建模]]'
 - '[[数据标注维度最佳实践调研报告]]'
@@ -37,11 +37,11 @@ review_by: 2026-12-06
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 从收集到超越
-  - 实践学习四步法
-  - 最佳实践学习四步法
-  - 最佳实践学习四步法：从收集到超越
-  - 集到超越
+- 从收集到超越
+- 实践学习四步法
+- 最佳实践学习四步法
+- 最佳实践学习四步法：从收集到超越
+- 集到超越
 source_refs:
 - 10_raw/sources/src_20260522_0af1f6dd-learning-thinking.md
 status: enriched
@@ -63,7 +63,7 @@ diagnostic_signals:
   follow_up_question: 是否把'不比竞品差'当成设计目标？
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:executor
 - scene:execution

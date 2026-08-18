@@ -5,37 +5,37 @@ type: framework
 status: reviewed
 confidence: 0.86
 trust_level: high
-domain:
+domain: kdo
 author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: '2026-06-27'
 created_at: '2026-06-27'
-quality_labels:
+quality_labels: null
 tags:
-  - method:adversarial-testing
-  - method:red-team
-  - method:pre-mortem
-  - scene:pre-ship-review
-  - audience:knowledge-engineer
-  - content-format:framework
-  - source-person:王语嫣
-updated_at:
+- method:adversarial-testing
+- method:red-team
+- method:pre-mortem
+- scene:pre-ship-review
+- audience:knowledge-engineer
+- content-format:framework
+- source-person:王语嫣
+updated_at: null
 aliases:
-  - KDO知识自攻击框架：用对抗Agent在交付前主动找出弱点
-  - attack
-  - capabilities
-  - outputs
-  - 在交付前主动找出弱点
-  - 弱点检测
-  - 王语嫣
-  - 用对抗
-  - 知识自攻击框架
-  - 自攻击框架
-source_refs:
-related:
+- KDO知识自攻击框架：用对抗Agent在交付前主动找出弱点
+- attack
+- capabilities
+- outputs
+- 在交付前主动找出弱点
+- 弱点检测
+- 王语嫣
+- 用对抗
+- 知识自攻击框架
+- 自攻击框架
+source_refs: null
+related: null
 discoverable_by:
-  - "KDO自攻击框架"
-  - "对抗Agent弱点检测"
+- KDO自攻击框架
+- 对抗Agent弱点检测
 ---
 # KDO 知识自攻击框架：用对抗 Agent 在交付前主动找出弱点
 

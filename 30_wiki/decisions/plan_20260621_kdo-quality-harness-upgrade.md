@@ -2,7 +2,7 @@
 id: plan_20260621_kdo-quality-harness-upgrade
 title: KDO 质量体系升级——Harness Engineering 三原则落地
 type: improvement-plan
-status: active
+status: enriched
 domain:
 - master
 - kdo

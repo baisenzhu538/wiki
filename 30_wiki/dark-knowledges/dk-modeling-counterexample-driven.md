@@ -1,33 +1,32 @@
 ---
-
 id: dk-modeling-counterexample-driven
 title: 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
 type: dk
 dark_knowledge_type: insight
 status: enriched
-domain:
+domain: modeling
 source_person: Truman
 source_context: 一堂建模能力培训（抽象建模与本质建模方法论），2026-06-12
 aliases:
-  - Truman
-  - audience:executor
-  - scene:reference
-  - skill-level:advanced
-  - 不是找证据证明自己是对的
-  - 建模不是找证据证明自己是对的
-  - 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
-  - 建模能力培训
-  - 用反例把自己逼到没漏洞为止
-  - 而是用反例把自己逼到没漏洞为止
-source_refs:
+- Truman
+- audience:executor
+- scene:reference
+- skill-level:advanced
+- 不是找证据证明自己是对的
+- 建模不是找证据证明自己是对的
+- 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
+- 建模能力培训
+- 用反例把自己逼到没漏洞为止
+- 而是用反例把自己逼到没漏洞为止
+source_refs: null
 created_at: '2026-06-14'
 updated_at: 2026-06-28
 confidence: 0.8
 trust_level: high
 discoverable_by:
-  - 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
-related:
-tags:
+- 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
+related: null
+tags: null
 reviewed_by: 王语嫣
 review_date: '2026-06-16'
 author: 老顽童

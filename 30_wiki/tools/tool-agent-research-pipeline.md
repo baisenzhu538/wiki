@@ -1,34 +1,33 @@
 ---
-
 id: tool-agent-research-pipeline
 title: Agent 调研 Pipeline 模式工具
 type: tool
-domain:
+domain: research
 discoverable_by:
-  - Agent 调研 Pipeline 模式工具
-  - 模式工具
-tags:
+- Agent 调研 Pipeline 模式工具
+- 模式工具
+tags: null
 source_person: Truman（一堂）+ LangChain Team
 source_context: OSCAR 五步法的 Agent 自动化版本
 aliases:
-  - Agent调研Pipeline模式工具
-  - Truman（一堂）+ LangChain Team
-  - [[case-ban-fei-mao-from-assignment-to-tool]]
-  - [[case-demand-travel-agent]]
-  - [[case-ji-hao-skills-market]]
-  - [[case-truman-ai-partner]]
-  - [[framework-yitang-oscar-research]]
-  - [[tool-纪浩-Agent开工检查单制作法]]
-  - 三个新盲区
-  - 外部知识探索
-  - 模式工具
-  - 调研
-source_refs:
-related:
+- Agent调研Pipeline模式工具
+- Truman（一堂）+ LangChain Team
+- - - case-ban-fei-mao-from-assignment-to-tool
+- - - case-demand-travel-agent
+- - - case-ji-hao-skills-market
+- - - case-truman-ai-partner
+- - - framework-yitang-oscar-research
+- - - tool-纪浩-Agent开工检查单制作法
+- 三个新盲区
+- 外部知识探索
+- 模式工具
+- 调研
+source_refs: null
+related: null
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
-quality_labels:
+quality_labels: null
 created_at: '2026-06-28'
 updated_at: '2026-06-28'
 confidence: 0.78

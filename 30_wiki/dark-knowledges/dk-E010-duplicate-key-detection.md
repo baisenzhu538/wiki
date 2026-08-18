@@ -1,52 +1,52 @@
 ---
 id: dk-E010-duplicate-key-detection
-title: "E010：frontmatter重复键——一次批量写入摧毁2350张卡的根因"
+title: E010：frontmatter重复键——一次批量写入摧毁2350张卡的根因
 type: dk
 status: reviewed
 domain: kdo
 author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.95
-trust_level: observed
+trust_level: medium
 aliases:
-  - E010
-  - 重复键检测
-  - 双aliases事故
-  - 并行写入事故
-  - DUPLICATE KEY
+- E010
+- 重复键检测
+- 双aliases事故
+- 并行写入事故
+- DUPLICATE KEY
 source_refs:
-  - 60_feedback/tasks/task_20260803_huangyaoshi-duplicate-key-lint.md
-  - 90_control/scripts/kdo_lint.py
+- 60_feedback/tasks/task_20260803_huangyaoshi-duplicate-key-lint.md
+- 90_control/scripts/kdo_lint.py
 diagnostic_signals:
-  - signal: '#222/#223事故后lint仍无重复键检测——DUPLICATE_KEY门禁缺失'
-    severity: critical
-    implication: '任何老顽童提交的双aliases卡片都不会被拦截——事故会重演'
-  - signal: '存量131张卡含重复键——现在提交都不会被拦'
-    severity: high
-    implication: '王语嫣验证：lint确实无同文件重复键检测'
-  - signal: '欧阳锋洞察：一行正则即可永久封堵事故根因模式'
-    severity: low
-    implication: '实现成本极低——与F3同模式'
+- signal: '#222/#223事故后lint仍无重复键检测——DUPLICATE_KEY门禁缺失'
+  severity: critical
+  implication: 任何老顽童提交的双aliases卡片都不会被拦截——事故会重演
+- signal: 存量131张卡含重复键——现在提交都不会被拦
+  severity: high
+  implication: 王语嫣验证：lint确实无同文件重复键检测
+- signal: 欧阳锋洞察：一行正则即可永久封堵事故根因模式
+  severity: low
+  implication: 实现成本极低——与F3同模式
 related:
-  - '[[concept-kdo-component-library]]'
-  - '[[framework-kdo-self-attack]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
-  - '[[dk-P42-agent-fact-check-gap]]'
-  - '[[dk-delivery-path-type-bug]]'
-  - '[[dk-c5-todo-false-positive]]'
+- '[[concept-kdo-component-library]]'
+- '[[framework-kdo-self-attack]]'
+- '[[dk-c8-format-complete-mind-empty]]'
+- '[[dk-P42-agent-fact-check-gap]]'
+- '[[dk-delivery-path-type-bug]]'
+- '[[dk-c5-todo-false-positive]]'
 created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04
 tags:
-  - audience:builder
-  - scene:reference
-  - skill-level:advanced
+- audience:builder
+- scene:reference
+- skill-level:advanced
 discoverable_by:
-  - E010
-  - 重复键检测
-  - 双aliases
-  - 并行写入事故
-  - frontmatter破坏
+- E010
+- 重复键检测
+- 双aliases
+- 并行写入事故
+- frontmatter破坏
 ---
 # E010：frontmatter重复键——一次批量写入摧毁2350张卡
 

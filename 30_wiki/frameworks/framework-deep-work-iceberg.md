@@ -11,34 +11,20 @@ trust_level: medium
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "深度工作冰山"
-  - "L1-L5深度工作"
-  - "冰山模型工作法"
-  - "深度工作怎么分层"
+- 深度工作冰山
+- L1-L5深度工作
+- 冰山模型工作法
+- 深度工作怎么分层
 diagnostic_signals:
   lens: placeholder
   follow-up: 后续补全
-quality_labels:
-tags:
-aliases:
-  - L1L5深度工作冰山模型
-  - 深度工作冰山模型
-  - 山模型工作法
-  - 型工作法
-  - 度工作冰山
-  - 度工作怎么分层
-aliases:
-  - L1L5深度工作冰山模型
-  - 深度工作冰山模型
-  - 山模型工作法
-  - 深度工作
-  - 度工作怎么分层
-  - 度工作冰山
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # L1-L5 深度工作冰山模型
 

@@ -5,16 +5,16 @@ type: index
 status: enriched
 confidence: 0.9
 trust_level: high
-domain:
+domain: management
 source_context: 一堂管理必修课体系——管理地图 L1-L5 五阶路径 + 管项目四步闭环 + 管团队苦练基本功（四字诀 + 40 工具卡）
-source_refs:
-quality_labels:
+source_refs: null
+quality_labels: null
 created_at: '2026-07-11'
 updated_at: '2026-07-11'
 author: 老顽童
 reviewed_by: pending
 related:
-  - framework-目标三层拆解
+- framework-目标三层拆解
 tags:
 - audience:manager
 - scene:reference

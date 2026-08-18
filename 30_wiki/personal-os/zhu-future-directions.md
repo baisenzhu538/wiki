@@ -1,17 +1,17 @@
 ---
 id: zhu-future-directions
-title: "老朱未来10年方向清单"
+title: 老朱未来10年方向清单
 type: system
-status: active
+status: enriched
 created_at: 2026-07-19
 updated_at: 2026-07-19
 domain:
-  - personal-os
+- personal-os
 related:
-  - "[[zhu-strategic-conclusions]]"
-  - "[[zhu-project-board]]"
-  - "[[zhu-lessons-learned]]"
-  - "[[user-insight-profile]]"
+- '[[zhu-strategic-conclusions]]'
+- '[[zhu-project-board]]'
+- '[[zhu-lessons-learned]]'
+- '[[user-insight-profile]]'
 tags:
 - audience:manager
 - scene:reference

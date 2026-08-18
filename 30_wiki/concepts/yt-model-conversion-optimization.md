@@ -17,10 +17,10 @@ query_triggers:
 - src_unknown
 - src_unknown：动力三曲线 × 十大浪费触点
 discoverable_by:
-  - 转化率优化：动力三曲线 × 十大浪费触点
-  - 转化率优化
-  - 动力三曲线
-  - 十大浪费触点
+- 转化率优化：动力三曲线 × 十大浪费触点
+- 转化率优化
+- 动力三曲线
+- 十大浪费触点
 related:
 - '[[yt-management-conversion-hacking]]'
 - '[[yt-entrepreneur-growth-flywheel]]'
@@ -30,12 +30,12 @@ related:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 三曲线
-  - 动力三曲线
-  - 十大浪费触点
-  - 率优化
-  - 转化率优化
-  - 转化率优化：动力三曲线×十大浪费触点
+- 三曲线
+- 动力三曲线
+- 十大浪费触点
+- 率优化
+- 转化率优化
+- 转化率优化：动力三曲线×十大浪费触点
 source_refs:
 - 10_raw/sources/src_20260510_d5e71a5e-一堂最佳转化率动力三曲线-堂.md
 status: enriched
@@ -56,7 +56,7 @@ diagnostic_signals:
   follow_up_question: 用户旅程中哪些环节在消耗信任或增加成本？这些阻力点有没有被优化？
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:ceo
 - scene:diagnosis

@@ -3,8 +3,8 @@ id: framework-wanghuan-ai-five-level-ladder
 title: 王欢AI能力五层跃迁模型
 type: framework
 status: reviewed
-domain:
-quality_labels:
+domain: wanghuan
+quality_labels: null
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -14,25 +14,22 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 五层跃迁
-  - 王欢
-  - 王欢AI能力五层跃迁模型
-  - 示意图
-  - 能力五层跃迁
-  - 能力五层跃迁模型
-source_refs:
-diagnostic_signals:
-follow_up: 检查是否已建立可复用 prompt 模板与知识库（工作流层）
-follow_up: 从作品层跃迁至产品/应用层，需找到第一位真实用户并收集反馈
-follow_up: 设计统一编排底座，把分散作品串成自动运转的操作台
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 五层跃迁
+- 王欢
+- 王欢AI能力五层跃迁模型
+- 示意图
+- 能力五层跃迁
+- 能力五层跃迁模型
+source_refs: null
+diagnostic_signals: null
 follow_up: 检查是否仍在演员模式执行单点任务，而非导演模式重设系统
-related:
+related: null
 discoverable_by:
-  - "王欢AI五层跃迁"
-tags:
+- 王欢AI五层跃迁
+tags: null
 ---
 # 王欢AI能力五层跃迁模型
 

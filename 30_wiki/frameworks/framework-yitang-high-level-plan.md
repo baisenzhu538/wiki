@@ -6,36 +6,25 @@ status: enriched
 author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
-quality_labels:
+quality_labels: null
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: yitang
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
-query_triggers:
-aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 水平计划
-  - 缩小范围
-  - 罗列清单
-  - 锁定目标
-  - 锁定目标缩小范围罗列清单
-  - 高水平计划
-  - 高水平计划OSC：锁定目标缩小范围罗列清单
-source_refs:
-related:
-discoverable_by:
-  - "高水平计划OSC"
-  - "锁定目标缩小范围"
-  - "罗列清单方法"
-tags:
+query_triggers: null
 aliases: []
+source_refs: null
+related: null
+discoverable_by:
+- 高水平计划OSC
+- 锁定目标缩小范围
+- 罗列清单方法
+tags: null
 ---
 # 高水平计划 OSC：锁定目标·缩小范围·罗列清单
 

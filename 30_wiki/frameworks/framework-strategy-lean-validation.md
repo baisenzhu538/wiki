@@ -10,27 +10,27 @@ created_at: 2026-06-23
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain:
+domain: strategy
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 低成本验证认知篇
-  - 假设的精益验证流程
-  - 战略假设的精益验证流程
-  - 略假设验证
-  - 略流程
-  - 略精益验证
-  - 益战略流程
-  - 益验证
-  - 设验证
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 低成本验证认知篇
+- 假设的精益验证流程
+- 战略假设的精益验证流程
+- 略假设验证
+- 略流程
+- 略精益验证
+- 益战略流程
+- 益验证
+- 设验证
+source_refs: null
+related: null
 discoverable_by:
-  - "战略精益验证"
-  - "战略假设验证"
-  - "精益战略流程"
-tags:
+- 战略精益验证
+- 战略假设验证
+- 精益战略流程
+tags: null
 ---
 # 战略假设的精益验证流程
 

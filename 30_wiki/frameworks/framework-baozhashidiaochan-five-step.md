@@ -3,10 +3,9 @@ id: framework-baozhashidiaochan-five-step
 title: 爆炸式调研五步法：目标→范围→搜索⇄建模→交付
 type: framework
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-16
 author: 老顽童
-reviewed_by: 待审
 confidence: 0.85
 trust_level: medium
 language: zh-CN

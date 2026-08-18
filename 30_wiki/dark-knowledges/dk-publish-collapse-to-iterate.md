@@ -1,50 +1,50 @@
 ---
 id: dk-publish-collapse-to-iterate
-title: "发布不是终点——发布执行是知识迭代的入口"
+title: 发布不是终点——发布执行是知识迭代的入口
 type: dk
 status: draft
 domain:
-  - publishing
-  - ai-collaboration
-  - knowledge-management
+- publishing
+- ai-collaboration
+- knowledge-management
 author: 段王爷
 reviewed_by: 待审
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 aliases:
-  - 发布即迭代
-  - 发布闭环
-  - 反馈回流
-  - 发布执行知识迭代
-  - publish-collapse
+- 发布即迭代
+- 发布闭环
+- 反馈回流
+- 发布执行知识迭代
+- publish-collapse
 discoverable_by:
-  - 发布即迭代
-  - 发布闭环
-  - 反馈回流
-  - 发布后做什么
-  - 发布执行
+- 发布即迭代
+- 发布闭环
+- 反馈回流
+- 发布后做什么
+- 发布执行
 source_refs:
-  - 60_feedback/corrections/corr_20260809_duanwangye-self-iteration-gap.md
-  - 30_wiki/dark-knowledges/dk-agent-access-kdo-pitfalls.md
-  - 30_wiki/domains/kdo-moc.md
+- 60_feedback/corrections/corr_20260809_duanwangye-self-iteration-gap.md
+- 30_wiki/dark-knowledges/dk-agent-access-kdo-pitfalls.md
+- 30_wiki/domains/kdo-moc.md
 diagnostic_signals:
-  - signal: "发布完成后任务关闭，但没沉淀任何坑/反馈/新知识——下次发布同样的问题重新踩"
-    severity: high
-    implication: "发布只是执行动作，没有变成知识资产——KDO 的飞轮断在最后一环"
-  - signal: "60_feedback/corrections/ 里某角色自己的沉淀为零，但 skill 文档写着'自我进化引擎'"
-    severity: medium
-    implication: "纸面闭环 ≠ 实际闭环——机制必须绑定到任务完成动作上，否则永远是空文档"
+- signal: 发布完成后任务关闭，但没沉淀任何坑/反馈/新知识——下次发布同样的问题重新踩
+  severity: high
+  implication: 发布只是执行动作，没有变成知识资产——KDO 的飞轮断在最后一环
+- signal: 60_feedback/corrections/ 里某角色自己的沉淀为零，但 skill 文档写着'自我进化引擎'
+  severity: medium
+  implication: 纸面闭环 ≠ 实际闭环——机制必须绑定到任务完成动作上，否则永远是空文档
 related:
-  - '[[dk-agent-access-kdo-pitfalls]]'
-  - '[[framework-kdo-self-attack]]'
-  - '[[agent-spec-duanwangye-publisher]]'
+- '[[dk-agent-access-kdo-pitfalls]]'
+- '[[framework-kdo-self-attack]]'
+- '[[agent-spec-duanwangye-publisher]]'
 created_at: 2026-08-09
 updated_at: 2026-08-09
 tags:
-  - audience:duanwangye
-  - audience:ouyangfeng
-  - scene:reference
-  - skill-level:intermediate
+- audience:duanwangye
+- audience:ouyangfeng
+- scene:reference
+- skill-level:intermediate
 ---
 
 # 发布不是终点——发布执行是知识迭代的入口

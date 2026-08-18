@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-company-disassembly
 title: 公司拆解：深度分析竞争对手的六维框架
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: intermediate
 estimated_tokens: 3500
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 公司拆解
-  - 公司拆解：深度分析竞争对手的六维框架
-  - 深度分析竞争对手的六维框架
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 公司拆解
+- 公司拆解：深度分析竞争对手的六维框架
+- 深度分析竞争对手的六维框架
 discoverable_by:
-  - 公司拆解：深度分析竞争对手的六维框架
-  - 公司拆解
-  - 深度分析竞争对手的六维框架
-related:
-tags:
+- 公司拆解：深度分析竞争对手的六维框架
+- 公司拆解
+- 深度分析竞争对手的六维框架
+related: null
+tags: null
 ---
 # 公司拆解：深度分析竞争对手的六维框架
 

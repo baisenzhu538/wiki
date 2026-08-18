@@ -1,9 +1,8 @@
 ---
-
 id: yt-demand-analysis-hiking-map
-title: "需求分析爬山地图"
+title: 需求分析爬山地图
 discoverable_by:
-  - 需求分析爬山地图
+- 需求分析爬山地图
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-market-size-estimation]]'
@@ -11,14 +10,17 @@ related:
 - '[[yt-foresight-business-spectrum]]'
 - '[[pending_unknown]]'
 aliases:
-  - 分析爬山地图
-  - 需求分析爬山地图
+- 分析爬山地图
+- 需求分析爬山地图
 source_refs:
 - pending_archive: src_unknown
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+type: concept
+status: draft
+domain: demand-analysis
 ---
 # 需求分析爬山地图
 

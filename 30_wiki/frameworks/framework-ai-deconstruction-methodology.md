@@ -8,26 +8,17 @@ reviewed_by: 待审
 confidence: 0.8
 trust_level: medium
 language: zh-CN
-domain:
-aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 三层拆书法
-  - 书方法
-  - 层拆书法
-  - 欢拆书方法
-  - 王欢三层拆书法
-source_refs:
-related:
+domain: unknown
+aliases: []
+source_refs: null
+related: null
 discoverable_by:
-  - "三层拆书法"
-  - "王欢拆书方法"
-tags:
-quality_labels:
+- 三层拆书法
+- 王欢拆书方法
+tags: null
+quality_labels: null
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
-aliases: []
 ---
 # 王欢三层拆书法
 

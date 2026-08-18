@@ -1,12 +1,12 @@
 ---
 id: wangyuyan-working-protocols
-title: "王语嫣工作协议集"
+title: 王语嫣工作协议集
 type: system
-status: active
-created_at: 2026-07-12T01:40:00+00:00
-updated_at: 2026-07-19T02:15:00+00:00
+status: enriched
+created_at: 2026-07-12 01:40:00+00:00
+updated_at: 2026-07-19 02:15:00+00:00
 domain:
-  - personal-os
+- personal-os
 tags:
 - audience:manager
 - scene:reference

@@ -1,32 +1,31 @@
 ---
-
 id: tool-马易-AI项目上线-先平行再独行
 title: 技能：AI项目上线-先平行再独行
 type: tool
-domain:
+domain: unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
-trust_level: medium-low
+trust_level: low
 aliases:
-  - AI项目上线
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 先平行再独行
-  - 技能
-  - 技能：AI项目上线先平行再独行
+- AI项目上线
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 先平行再独行
+- 技能
+- 技能：AI项目上线先平行再独行
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
 discoverable_by:
-  - 技能：AI项目上线-先平行再独行
-  - AI项目上线
-  - 先平行再独行
-related:
-tags:
+- 技能：AI项目上线-先平行再独行
+- AI项目上线
+- 先平行再独行
+related: null
+tags: null
 ---
 # 技能：AI项目上线-先平行再独行
 

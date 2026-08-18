@@ -11,33 +11,18 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "一堂五步法"
-  - "机会预判到规模化五步"
+- 一堂五步法
+- 机会预判到规模化五步
 diagnostic_signals:
-  lens: 缺五步法全局视图——卡在单步里
-  follow-up: 用本卡的换档检查清单判断当前在哪一步、下一步是什么
   lens: 缺两次跃迁意识——价值假设和增长假设混淆
   follow-up: 判断是价值假设错了（回退到需求分析）还是增长假设错了（回退到单元模型）
-quality_labels:
-tags:
-aliases:
-  - 一堂五步法：从机会预判到规模化的五步闭环
-  - 一堂五步法
-  - 从机会预判到规模化的五步闭环
-  - 判到规模化五步
-  - 会预判到规模化的五步闭环
-  - 堂五步法
-aliases:
-  - 一堂五步法：从机会预判到规模化的五步闭环
-  - 一堂五步法
-  - 从机会预判到规模化的五步闭环
-  - 会预判到规模化五步
-  - 堂五步法
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 一堂五步法：从机会预判到规模化的五步闭环
 

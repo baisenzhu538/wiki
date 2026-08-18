@@ -4,56 +4,56 @@ title: 「AI Agent 工具对比：Claude Code / Hermes / Codex / CodeBuddy 的 F
 type: tool
 status: draft
 domain:
-  - ai-basic
-  - ai-collaboration
+- ai-basic
+- ai-collaboration
 author: 老朱（一手体感）/ CodeBuddy（整理）
 source_person: 老朱
 source_context: 2026-08-08 对话——老朱一手使用体感 + Claude Code 交叉自评 + CodeBuddy 整理
 source_refs:
-  - 00_inbox/AI基本功/给王语嫣的任务编排建议书-深度使用版.md
-  - 30_wiki/tools/agent-spec-basic-skills-coach.md
-  - 30_wiki/tools/tool-ai-feature-inventory.md
-  - 30_wiki/tools/agent-spec-codex-teammate.md
+- 00_inbox/AI基本功/给王语嫣的任务编排建议书-深度使用版.md
+- 30_wiki/tools/agent-spec-basic-skills-coach.md
+- 30_wiki/tools/tool-ai-feature-inventory.md
+- 30_wiki/tools/agent-spec-codex-teammate.md
 confidence: 0.85
-trust_level: medium-high
+trust_level: high
 reviewed_by: 待审
 aliases:
-  - Agent工具对比
-  - Claude Code对比
-  - Codex对比
-  - Hermes对比
-  - CodeBuddy对比
-  - 四工具Feature
+- Agent工具对比
+- Claude Code对比
+- Codex对比
+- Hermes对比
+- CodeBuddy对比
+- 四工具Feature
 discoverable_by:
-  - Agent工具对比
-  - Claude Code
-  - Codex
-  - Hermes
-  - CodeBuddy
-  - 瑞士军刀
-  - 马拉松选手
+- Agent工具对比
+- Claude Code
+- Codex
+- Hermes
+- CodeBuddy
+- 瑞士军刀
+- 马拉松选手
 related:
-  - agent-spec-basic-skills-coach
-  - tool-ai-feature-inventory
-  - agent-spec-codex-teammate
-  - framework-truman-feature-thinking-core
-  - bridge-dual-track-feature-system
+- agent-spec-basic-skills-coach
+- tool-ai-feature-inventory
+- agent-spec-codex-teammate
+- framework-truman-feature-thinking-core
+- bridge-dual-track-feature-system
 tags:
-  - method:tool-comparison
-  - scene:tool-selection
-  - audience:general
-  - skill-level:intermediate
+- method:tool-comparison
+- scene:tool-selection
+- audience:general
+- skill-level:intermediate
 created_at: 2026-08-08
 updated_at: 2026-08-08
 quality_labels:
-  - actionable
+- actionable
 diagnostic_signals:
-  - signal: "用户问'用哪个 AI 工具 / Claude 还是 Codex？'"
-    severity: medium
-    implication: "工具思维征兆——先对齐 Feature 差异，再选工具（课程：工具背后是 Feature）"
-  - signal: "用户困惑'为什么这个工具在某类任务上表现不好'"
-    severity: low
-    implication: "每个工具各有 Feature 强项和边界——匹配任务类型比换工具更重要"
+- signal: 用户问'用哪个 AI 工具 / Claude 还是 Codex？'
+  severity: medium
+  implication: 工具思维征兆——先对齐 Feature 差异，再选工具（课程：工具背后是 Feature）
+- signal: 用户困惑'为什么这个工具在某类任务上表现不好'
+  severity: low
+  implication: 每个工具各有 Feature 强项和边界——匹配任务类型比换工具更重要
 ---
 
 > **定位**：属于 [[framework-truman-feature-thinking-core]] 的应用层——用 Feature 四要素拆解四个主流 AI Agent 工具的能力边界，供工具选型时"点菜式"匹配。完整框架是"先问 Feature 需求，再选工具"，本卡是选型对照表。

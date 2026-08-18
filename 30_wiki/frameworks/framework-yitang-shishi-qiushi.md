@@ -3,7 +3,7 @@ id: framework-yitang-shishi-qiushi
 title: 实事求是：把「我希望是真的」和「事实是什么」分开
 type: framework
 status: reviewed
-domain:
+domain: yitang
 confidence: 0.88
 trust_level: high
 language: zh-CN
@@ -11,39 +11,39 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-07-05'
 aliases:
-  - "[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]"
-  - "[[framework-yitang-y-model-dual-triangle-synergy]]"
-  - [[framework-TCPR底层网络协议]]
-  - [[framework-kdo-self-attack]]
-  - [[framework-yitang-channel-exploration-4step]]
-  - [[framework-yitang-y-model-cross-domain-fusion]]
-  - concept-X型Y型决策习惯
-  - dk-yitang-Y-model-pitfalls
-  - framework-yitang-jiefang-sixiang
-  - master-decision-hygiene
-  - tool-yitang-Y-model-application
-  - yt-business-formula-six-level-logic
-  - yt-decision-y-model
-  - yt-entrepreneur-truth-seeking
-  - yt-five-step-method-complete
-  - yt-unit-model-overview
-  - 实事求是
-  - 实事求是：把我希望是真的和事实是什么分开
-  - 希望是真的和事实是什么分开
-  - 把我希望是真的和事实是什么分开
-source_refs:
+- '[[case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]'
+- '[[framework-yitang-y-model-dual-triangle-synergy]]'
+- - - framework-TCPR底层网络协议
+- - - framework-kdo-self-attack
+- - - framework-yitang-channel-exploration-4step
+- - - framework-yitang-y-model-cross-domain-fusion
+- concept-X型Y型决策习惯
+- dk-yitang-Y-model-pitfalls
+- framework-yitang-jiefang-sixiang
+- master-decision-hygiene
+- tool-yitang-Y-model-application
+- yt-business-formula-six-level-logic
+- yt-decision-y-model
+- yt-entrepreneur-truth-seeking
+- yt-five-step-method-complete
+- yt-unit-model-overview
+- 实事求是
+- 实事求是：把我希望是真的和事实是什么分开
+- 希望是真的和事实是什么分开
+- 把我希望是真的和事实是什么分开
+source_refs: null
 tags:
-  - method:evidence-based-decision
-  - method:reality-check
-  - method:assumption-validation
-  - scene:decision-check
-  - audience:decision-maker
-  - content-format:framework
-  - source-person:Truman
-related:
+- method:evidence-based-decision
+- method:reality-check
+- method:assumption-validation
+- scene:decision-check
+- audience:decision-maker
+- content-format:framework
+- source-person:Truman
+related: null
 created_at: 2026-07-03
 updated_at: '2026-07-04'
-discoverable_by:
+discoverable_by: null
 ---
 # 实事求是：把「我希望是真的」和「事实是什么」分开
 

@@ -17,8 +17,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - IPO 科学学习
-  - 科学学习
+- IPO 科学学习
+- 科学学习
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'
@@ -31,8 +31,8 @@ review_date: 2026-05-07
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - IPO科学学习
-  - 科学学习
+- IPO科学学习
+- 科学学习
 source_refs:
 - 10_raw/sources/src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型.md
 status: enriched
@@ -57,7 +57,7 @@ diagnostic_signals:
   follow_up_question: 上一次输出后，你根据反馈调整了哪些学习方法？
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:executor
 - scene:execution

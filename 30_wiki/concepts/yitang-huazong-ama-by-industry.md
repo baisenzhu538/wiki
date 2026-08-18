@@ -1,15 +1,14 @@
 ---
-
 id: yitang-huazong-ama-by-industry
 created_at: 2026-05-29
 domain:
 - healthcare
 aliases:
-  - 按行业分类整理商业突破大航海
-  - 花总AMA按行业分类整理商业突破大航海
+- 按行业分类整理商业突破大航海
+- 花总AMA按行业分类整理商业突破大航海
 source_refs:
 - 'pending_archive: src_unknown'
-status: stable
+status: reviewed
 title: 花总AMA按行业分类整理（商业突破大航海）
 type: concept
 updated_at: '2026-06-17'
@@ -21,7 +20,7 @@ reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
 discoverable_by:
-  - 花总AMA按行业分类整理商业突破大航海
+- 花总AMA按行业分类整理商业突破大航海
 related:
 - '[[yitang-huazong-ama-summary]]'
 tags:

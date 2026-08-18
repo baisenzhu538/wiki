@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-competitive-quadrant
 title: 竞争象限：用二维矩阵可视化竞争格局
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 用二维矩阵可视化竞争格局
-  - 竞争象限
-  - 竞争象限：用二维矩阵可视化竞争格局
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 用二维矩阵可视化竞争格局
+- 竞争象限
+- 竞争象限：用二维矩阵可视化竞争格局
 discoverable_by:
-  - 竞争象限：用二维矩阵可视化竞争格局
-  - 竞争象限
-  - 用二维矩阵可视化竞争格局
-related:
-tags:
+- 竞争象限：用二维矩阵可视化竞争格局
+- 竞争象限
+- 用二维矩阵可视化竞争格局
+related: null
+tags: null
 ---
 # 竞争象限：用二维矩阵可视化竞争格局
 

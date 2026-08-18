@@ -1,9 +1,8 @@
 ---
-
 id: yt-product-kernel-cultivation
-title: "产品内核修炼段位图"
+title: 产品内核修炼段位图
 discoverable_by:
-  - 产品内核修炼段位图
+- 产品内核修炼段位图
 related:
 - '[[yt-five-step-method]]'
 - '[[yt-product-ten-metrics]]'
@@ -11,14 +10,17 @@ related:
 - '[[case-treadmill-demand-analysis]]'
 - '[[pending_unknown]]'
 aliases:
-  - 产品内核修炼段位图
-  - 内核修炼段位图
+- 产品内核修炼段位图
+- 内核修炼段位图
 source_refs:
 - pending_archive: src_unknown
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+type: concept
+status: draft
+domain: product
 ---
 # 产品内核修炼段位图
 

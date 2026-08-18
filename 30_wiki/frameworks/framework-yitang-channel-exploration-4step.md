@@ -3,35 +3,35 @@ id: framework-yitang-channel-exploration-4step
 type: framework
 title: 渠道探索四步法：科学找到可持续获客渠道
 status: reviewed
-domain:
+domain: yitang
 confidence: 0.85
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
-quality_labels:
+quality_labels: null
 updated_at: '2026-07-03'
 aliases:
-  - Truman
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 一堂五步法之增长
-  - 云电脑
-  - 学获客渠道
-  - 渠道探索四步法
-  - 渠道探索四步法：科学找到可持续获客渠道
-  - 科学找到可持续获客渠道
-  - 道探索方法
-source_refs:
+- Truman
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 一堂五步法之增长
+- 云电脑
+- 学获客渠道
+- 渠道探索四步法
+- 渠道探索四步法：科学找到可持续获客渠道
+- 科学找到可持续获客渠道
+- 道探索方法
+source_refs: null
 source_person: Truman
-related:
+related: null
 discoverable_by:
-  - "渠道探索四步法"
-  - "科学获客渠道"
-  - "渠道探索方法"
+- 渠道探索四步法
+- 科学获客渠道
+- 渠道探索方法
 review_date: '2026-06-28'
-tags:
+tags: null
 ---
 # 渠道探索四步法：科学找到可持续获客渠道
 

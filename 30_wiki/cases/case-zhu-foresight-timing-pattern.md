@@ -7,56 +7,56 @@ domain: personal-os
 author: 老顽童
 reviewed_by: pending
 confidence: 0.82
-trust_level: observed
+trust_level: medium
 aliases:
-  - src_20260804_xiaozhao_feishu
-  - insight-20260803-feishu-docs
-  - 作业2-解放思想-开放心得题
-  - 深度对话过程分析与洞察记录-20260804
-  - laozhu-insights-202608
-  - 老朱的个人域
-  - 前瞻性预判时机错位
-  - 老朱失败模式
-  - 四季说凉茶机女人茶
-  - 预判正确时机过早
-  - 闪电模型实战
-  - 老朱性格诊断报告
+- src_20260804_xiaozhao_feishu
+- insight-20260803-feishu-docs
+- 作业2-解放思想-开放心得题
+- 深度对话过程分析与洞察记录-20260804
+- laozhu-insights-202608
+- 老朱的个人域
+- 前瞻性预判时机错位
+- 老朱失败模式
+- 四季说凉茶机女人茶
+- 预判正确时机过早
+- 闪电模型实战
+- 老朱性格诊断报告
 source_refs:
-  - 10_raw/sources/laozhu-insights-202608/insight-20260803-feishu-docs.md
-  - 10_raw/sources/laozhu-insights-202608/作业2-解放思想-开放心得题.md
-  - 10_raw/sources/laozhu-insights-202608/深度对话过程分析与洞察记录-20260804.md
-  - 00_inbox/老朱的个人域/老朱性格诊断报告.md
+- 10_raw/sources/laozhu-insights-202608/insight-20260803-feishu-docs.md
+- 10_raw/sources/laozhu-insights-202608/作业2-解放思想-开放心得题.md
+- 10_raw/sources/laozhu-insights-202608/深度对话过程分析与洞察记录-20260804.md
+- 00_inbox/老朱的个人域/老朱性格诊断报告.md
 related:
-  - framework-yitang-thought-liberation-lightning
-  - framework-christensen-disruptive-innovation
-  - zhu-lessons-learned
-  - zhu-strategic-conclusions
-  - user-insight-profile
-  - case-zhu-disruptive-innovation-practice
+- framework-yitang-thought-liberation-lightning
+- framework-christensen-disruptive-innovation
+- zhu-lessons-learned
+- zhu-strategic-conclusions
+- user-insight-profile
+- case-zhu-disruptive-innovation-practice
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels: cited
 tags:
-  - scene:失败模式识别
-  - audience:一号位
-  - content-format:case
-  - source-person:老朱
+- scene:失败模式识别
+- audience:一号位
+- content-format:case
+- source-person:老朱
 discoverable_by:
-  - "前瞻性预判时机错位"
-  - "老朱失败案例"
-  - "四季说凉茶机"
-  - "闪电模型实战诊断"
-  - "预判正确但失败"
+- 前瞻性预判时机错位
+- 老朱失败案例
+- 四季说凉茶机
+- 闪电模型实战诊断
+- 预判正确但失败
 diagnostic_signals:
-  - signal: "三次失败案例的共同模式——前瞻正确+时机过早+完美主义延迟=失败"
-    severity: high
-    implication: "这不仅是老朱的个人模式，也是一号位的普遍陷阱——预判能力越强越容易过早行动"
-  - signal: "药店O2O可能是'预判+时机'首次重合——市场已成熟（1467区县/夜间近100万单）"
-    severity: high
-    implication: "这次与前三年的关键差异在于市场成熟度，但结构性死结（法律+财务约束）状态可能构成新的时机错位"
-  - signal: "闪电模型四步闭环给出方法论归因——缺底层自洽+假设试错而非缺勇气"
-    severity: medium
-    implication: "老朱的失败不是因为不敢想，而是因为想了之后没有能力验证——这个归因比'完美主义'更精确"
+- signal: 三次失败案例的共同模式——前瞻正确+时机过早+完美主义延迟=失败
+  severity: high
+  implication: 这不仅是老朱的个人模式，也是一号位的普遍陷阱——预判能力越强越容易过早行动
+- signal: 药店O2O可能是'预判+时机'首次重合——市场已成熟（1467区县/夜间近100万单）
+  severity: high
+  implication: 这次与前三年的关键差异在于市场成熟度，但结构性死结（法律+财务约束）状态可能构成新的时机错位
+- signal: 闪电模型四步闭环给出方法论归因——缺底层自洽+假设试错而非缺勇气
+  severity: medium
+  implication: 老朱的失败不是因为不敢想，而是因为想了之后没有能力验证——这个归因比'完美主义'更精确
 ---
 
 > **定位**：属于 `framework-yitang-thought-liberation-lightning`（闪电模型）的**一号位自我诊断案例**——展示一个创业者如何用闪电模型四步闭环归因自己的三次失败，并判断第四次是否"预判+时机"首次重合。

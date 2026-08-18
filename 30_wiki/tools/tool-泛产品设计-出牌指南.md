@@ -1,15 +1,14 @@
 ---
-
 id: tool-泛产品设计-出牌指南
 title: 泛产品设计·出牌指南
 type: tool
 status: reviewed
 confidence: 0.82
-trust_level: medium-high
+trust_level: high
 language: zh-CN
 domain:
-  - yitang
-  - pan-product
+- yitang
+- pan-product
 priority: P1
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -17,28 +16,28 @@ review_date: 2026-07-08
 created_at: 2026-07-08
 updated_at: 2026-07-08
 source_refs:
-  - 30_wiki/concepts/yt-model-pan-product-demand-toolkit.md
-  - 10_raw/ocr-cards/ocr-一堂泛产品设计-多出牌多练习.md
-  - 30_wiki/concepts/yt-personal-pan-product-practice.md
-  - 00_inbox/一堂-个人修身-泛产品设计实操口述版.md
+- 30_wiki/concepts/yt-model-pan-product-demand-toolkit.md
+- 10_raw/ocr-cards/ocr-一堂泛产品设计-多出牌多练习.md
+- 30_wiki/concepts/yt-personal-pan-product-practice.md
+- 00_inbox/一堂-个人修身-泛产品设计实操口述版.md
 discoverable_by:
-  - 泛产品设计·出牌指南
-  - 泛产品设计
-  - 出牌指南
+- 泛产品设计·出牌指南
+- 泛产品设计
+- 出牌指南
 related:
-  - "[[yt-model-pan-product-demand-toolkit]]"
-  - "[[yt-model-pan-product-36-strategies]]"
-  - "[[yt-model-pan-product-climbing-map]]"
-  - "[[tool-泛产品设计-需求工具箱指南]]"
-  - "[[tool-泛产品设计-需求可行性四字诀]]"
-  - "[[framework-一堂五步法-泛产品设计]]"
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[yt-model-pan-product-climbing-map]]'
+- '[[tool-泛产品设计-需求工具箱指南]]'
+- '[[tool-泛产品设计-需求可行性四字诀]]'
+- '[[framework-一堂五步法-泛产品设计]]'
 aliases:
-  - 泛产品设计出牌指南
-  - 泛产品设计
-  - 出牌指南
-  - 多出牌多练习
-  - 泛产品设计实操口述版
-  - 一堂泛产品设计
+- 泛产品设计出牌指南
+- 泛产品设计
+- 出牌指南
+- 多出牌多练习
+- 泛产品设计实操口述版
+- 一堂泛产品设计
 ---
 
 # 泛产品设计·出牌指南

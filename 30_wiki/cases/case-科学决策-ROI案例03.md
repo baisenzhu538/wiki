@@ -1,5 +1,4 @@
 ---
-
 id: case-科学决策-ROI案例03
 title: 案例：自建招商体系的低成本启动
 type: case
@@ -9,22 +8,22 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 confidence: 0.7
-trust_level: medium-low
+trust_level: low
 language: zh-CN
 domain:
 - yitang
 - decision-science
 aliases:
-  - 招商体系的低成本启动
-  - 案例
-  - 案例：自建招商体系的低成本启动
-  - 自建招商体系的低成本启动
+- 招商体系的低成本启动
+- 案例
+- 案例：自建招商体系的低成本启动
+- 自建招商体系的低成本启动
 source_refs:
 - 00_inbox/_vlm_reprocess/科学决策/一堂-科学决策-ROI决策评估画布-案例03_vlm_desc.md
 - 10_raw/ocr-cards/ocr-一堂-科学决策-roi决策评估画布-案例03.md
 discoverable_by:
-  - 案例：自建招商体系的低成本启动
-  - 自建招商体系的低成本启动
+- 案例：自建招商体系的低成本启动
+- 自建招商体系的低成本启动
 related:
 - '[[yitang-domain-digest]]'
 - '[[decision-science-domain-digest]]'

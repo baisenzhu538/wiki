@@ -2,7 +2,7 @@
 id: framework-community-knowledge-production-failure-modes
 title: 社群知识生产失败模式库
 type: framework
-domain:
+domain: product
 status: reviewed
 confidence: 0.82
 difficulty: intermediate
@@ -13,23 +13,23 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-30'
 aliases:
-  - community-knowledge-failure-modes
-  - study
-  - 大馨战队
-  - 知识生产失败模式
-  - 知识生产失败模式库
-  - 社群失败模式库
-  - 社群知识生产失败模式库
-  - 群知识生产失败模式
-  - 识生产失败模式
-source_refs:
-query_triggers:
-tags:
-quality_labels:
-related:
+- community-knowledge-failure-modes
+- study
+- 大馨战队
+- 知识生产失败模式
+- 知识生产失败模式库
+- 社群失败模式库
+- 社群知识生产失败模式库
+- 群知识生产失败模式
+- 识生产失败模式
+source_refs: null
+query_triggers: null
+tags: null
+quality_labels: null
+related: null
 discoverable_by:
-  - "社群知识生产失败模式"
-pipeline:
+- 社群知识生产失败模式
+pipeline: null
 ---
 # 社群知识生产失败模式库
 

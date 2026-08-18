@@ -10,24 +10,24 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-06
 updated_at: 2026-07-06
-domain:
+domain: yihang
 aliases:
-  - FDE工程×AI原生组织用双三角建中国风格FD工程师培养体系
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂双三角
-  - 人机协作双三角
-  - 原生组织
-  - 原生组织用双三角建中国风格
-  - 工程
-  - 工程师培养体系
-  - 用双三角建中国风格
-source_refs:
-related:
+- FDE工程×AI原生组织用双三角建中国风格FD工程师培养体系
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 一堂双三角
+- 人机协作双三角
+- 原生组织
+- 原生组织用双三角建中国风格
+- 工程
+- 工程师培养体系
+- 用双三角建中国风格
+source_refs: null
+related: null
 discoverable_by:
-  - "FDE AI原生组织"
-tags:
+- FDE AI原生组织
+tags: null
 ---
 # FDE 工程 × AI 原生组织——用双三角建中国风格 FD 工程师培养体系
 

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-single-point-sniper
 title: 单点狙击：聚焦关键问题的深度验证
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 单点狙击
-  - 单点狙击：聚焦关键问题的深度验证
-  - 聚焦关键问题的深度验证
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 单点狙击
+- 单点狙击：聚焦关键问题的深度验证
+- 聚焦关键问题的深度验证
 discoverable_by:
-  - 单点狙击：聚焦关键问题的深度验证
-  - 单点狙击
-  - 聚焦关键问题的深度验证
-related:
-tags:
+- 单点狙击：聚焦关键问题的深度验证
+- 单点狙击
+- 聚焦关键问题的深度验证
+related: null
+tags: null
 ---
 # 单点狙击：聚焦关键问题的深度验证
 

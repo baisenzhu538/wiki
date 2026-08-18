@@ -1,35 +1,34 @@
 ---
-
 id: tool-agent-research-swarm
 title: Agent 调研 Swarm 模式工具
 type: tool
-domain:
+domain: research
 discoverable_by:
-  - Agent 调研 Swarm 模式工具
-  - 模式工具
-tags:
+- Agent 调研 Swarm 模式工具
+- 模式工具
+tags: null
 source_person: LangChain Team（Will Fu-Hinthorn）+ Kimi Team + Truman（一堂）
 source_context: LangChain 官方 Swarm 架构 benchmark + Kimi Deep Research Swarm 生产案例
 aliases:
-  - Agent调研Swarm模式工具
-  - LangChain Team（Will Fu-Hinthorn）+ Kimi Team + Truman（一堂）
-  - [[case-ban-fei-mao-from-assignment-to-tool]]
-  - [[case-demand-travel-agent]]
-  - [[case-ji-hao-skills-market]]
-  - [[case-truman-ai-partner]]
-  - [[kimi-深度调研集群方法论-deep-research-swarm]]
-  - [[tool-yitang-sales-toolkit-radar]]
-  - 三个新盲区
-  - 外部知识探索
-  - 模式工具
-  - 调研
-source_refs:
-related:
+- Agent调研Swarm模式工具
+- LangChain Team（Will Fu-Hinthorn）+ Kimi Team + Truman（一堂）
+- - - case-ban-fei-mao-from-assignment-to-tool
+- - - case-demand-travel-agent
+- - - case-ji-hao-skills-market
+- - - case-truman-ai-partner
+- - - kimi-深度调研集群方法论-deep-research-swarm
+- - - tool-yitang-sales-toolkit-radar
+- 三个新盲区
+- 外部知识探索
+- 模式工具
+- 调研
+source_refs: null
+related: null
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 created_at: '2026-06-28'
-quality_labels:
+quality_labels: null
 updated_at: 2026-07-02
 confidence: 0.78
 trust_level: medium

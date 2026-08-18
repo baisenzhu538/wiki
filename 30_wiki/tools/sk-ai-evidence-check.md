@@ -1,33 +1,32 @@
 ---
-
 id: sk-ai-evidence-check
 title: 技能：AI输出证据核查三问法
 type: tool
 status: reviewed
-domain:
+domain: unknown
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 aliases:
-  - AI输出证据核查三问法
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 半肥猫
-  - 技能
-  - 技能：AI输出证据核查三问法
-  - 没有人呀现在
-  - 证据核查三问法
-  - 输出证据核查三问法
-source_refs:
+- AI输出证据核查三问法
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 半肥猫
+- 技能
+- 技能：AI输出证据核查三问法
+- 没有人呀现在
+- 证据核查三问法
+- 输出证据核查三问法
+source_refs: null
 wiki_refs: null
 discoverable_by:
-  - 技能：AI输出证据核查三问法
-  - AI输出证据核查三问法
-related:
-tags:
+- 技能：AI输出证据核查三问法
+- AI输出证据核查三问法
+related: null
+tags: null
 created_at: '2026-06-06'
 updated_at: '2026-06-18'
 tools_required: null

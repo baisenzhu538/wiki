@@ -2,7 +2,7 @@
 id: plan_20260621_crawl4ai-firecrawl-evaluation
 title: Crawl4AI vs Firecrawl 选型评估——KDO 检索架构 Phase 2 爬虫引擎决策
 type: decision
-status: proposed
+status: draft
 domain:
 - master
 - kdo

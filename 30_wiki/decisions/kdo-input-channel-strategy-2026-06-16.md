@@ -2,7 +2,7 @@
 id: kdo-input-channel-strategy-2026-06-16
 title: KDO 输入渠道策略：飞书、微信、听脑如何接入
 type: decision
-status: proposed
+status: draft
 domain: kdo-infrastructure
 author: kimi
 reviewed_by: pending

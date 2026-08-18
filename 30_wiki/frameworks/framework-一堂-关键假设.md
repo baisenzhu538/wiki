@@ -10,37 +10,19 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-13
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "关键假设"
-  - "假设驱动业务"
-  - "一堂关键假设方法"
+- 关键假设
+- 假设驱动业务
+- 一堂关键假设方法
 diagnostic_signals:
-  lens: 缺假设驱动意识——把创业当执行计划，不是当一组待验证假设
-  follow-up: 先问"你这个业务/渠道/产品的关键假设是什么？"，答不上来就从本卡 Step 1 开始
-  lens: 在争结论，没在争假设——结论背后是不同前提
-  follow-up: 让双方各自写出观点背后的关键假设，先验证最前置、风险最高的那一条
   lens: 乘法关系没守住——关键假设是乘项，任一为零整体为零
   follow-up: 回退到关键假设清单，定位是哪一条被证伪，决定调整/转型/放弃
-quality_labels:
-tags:
-aliases:
-  - 一堂关键假设：用假设驱动业务的方法论入口总框架
-  - 一堂关键假设
-  - 用假设驱动业务的方法论入口总框架
-  - 堂关键假设方法
-  - 键假设方法
-  - 关键假设
-aliases:
-  - 一堂关键假设：用假设驱动业务的方法论入口总框架
-  - 一堂关键假设
-  - 用假设驱动业务的方法论入口总框架
-  - 设驱动业务
-  - 键假设
-  - 堂关键假设方法
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 一堂关键假设：用假设驱动业务的方法论入口总框架
 

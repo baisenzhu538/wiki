@@ -21,9 +21,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - 思维模型提炼：从体感经验到可复用武器库
-  - 思维模型提炼
-  - 从体感经验到可复用武器库
+- 思维模型提炼：从体感经验到可复用武器库
+- 思维模型提炼
+- 从体感经验到可复用武器库
 related:
 - '[[tool-动手建模提炼]]'
 - '[[tool-月白-社群直播海报利益点提炼法]]'
@@ -37,11 +37,11 @@ review_grade: B-
 review_notes: 补审（原reviewed_by黄药师违反写审分离L0铁律#4）。六步提炼法骨相好，Claims结构+External Attackers+失败模式均达标。但Claims
   body全src_unknown，frontmatter大面积占位符（domain/component_of/prerequisites/query_triggers）。通过但标记为需后续补evidence。
 aliases:
-  - 从体感经验到可复用武器库
-  - 思维模型提炼
-  - 思维模型提炼：从体感经验到可复用武器库
-  - 感经验到可复用武器库
-  - 模型提炼
+- 从体感经验到可复用武器库
+- 思维模型提炼
+- 思维模型提炼：从体感经验到可复用武器库
+- 感经验到可复用武器库
+- 模型提炼
 source_refs:
 - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 status: reviewed
@@ -62,7 +62,7 @@ diagnostic_signals:
   follow_up_question: 没有体感的抽象模型是否导致战略误判？
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:executor
 - scene:execution

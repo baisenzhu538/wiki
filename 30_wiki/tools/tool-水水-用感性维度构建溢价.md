@@ -1,30 +1,29 @@
 ---
-
 id: tool-水水-用感性维度构建溢价
 title: 技能：用感性维度构建溢价
 type: tool
-domain:
+domain: unknown
 status: needs-review
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
-trust_level: medium-low
+trust_level: low
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 技能
-  - 技能：用感性维度构建溢价
-  - 用感性维度构建溢价
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 技能
+- 技能：用感性维度构建溢价
+- 用感性维度构建溢价
+source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-16'
 discoverable_by:
-  - 技能：用感性维度构建溢价
-  - 用感性维度构建溢价
-related:
-tags:
+- 技能：用感性维度构建溢价
+- 用感性维度构建溢价
+related: null
+tags: null
 ---
 # 技能：用感性维度构建溢价
 

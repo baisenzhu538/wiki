@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-best-practice
 title: 最佳实践调研：找到行业标杆，复制成功因素
 type: tool
@@ -12,26 +11,26 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: beginner
 estimated_tokens: 3000
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 复制成功因素
-  - 找到行业标杆
-  - 最佳实践调研
-  - 最佳实践调研：找到行业标杆，复制成功因素
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 复制成功因素
+- 找到行业标杆
+- 最佳实践调研
+- 最佳实践调研：找到行业标杆，复制成功因素
 discoverable_by:
-  - 最佳实践调研：找到行业标杆，复制成功因素
-  - 最佳实践调研
-  - 找到行业标杆，复制成功因素
-related:
-tags:
+- 最佳实践调研：找到行业标杆，复制成功因素
+- 最佳实践调研
+- 找到行业标杆，复制成功因素
+related: null
+tags: null
 ---
 # 最佳实践调研：找到行业标杆，复制成功因素
 

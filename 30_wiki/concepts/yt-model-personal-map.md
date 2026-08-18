@@ -15,7 +15,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - 个人修炼地图
+- 个人修炼地图
 related:
 - '[[一堂]]'
 - '[[yt-model-progress-map]]'
@@ -25,8 +25,8 @@ related:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 个人修炼地图
-  - 修炼地图
+- 个人修炼地图
+- 修炼地图
 source_refs:
 - 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md
 status: enriched
@@ -47,7 +47,7 @@ diagnostic_signals:
 - framework_lens: 跨层跳跃——个人地图的金字塔需要逐层建设
   follow_up_question: 你每天有多少时间是被自己主动规划的？如果<50%，先别谈人生红点，先死磕基础层
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:ceo
 - scene:diagnosis

@@ -1,6 +1,6 @@
 ---
 id: yt-entrepreneur-259-milestone
-title: "259里程碑"
+title: 259里程碑
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -23,8 +23,8 @@ reviewed_by: pending
 status: enriched
 updated_at: '2026-06-29'
 aliases:
-  - 259里程碑
-  - 里程碑
+- 259里程碑
+- 里程碑
 source_refs:
 - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 - pending_archive:src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解
@@ -35,7 +35,7 @@ source_refs:
 - pending_archive:src_20260611_4266769b-一堂-一堂五步法-单元模型-尺子和梯子区别_paddle_ocr
 - pending_archive:src_20260611_d913eb1d-一堂-一堂五步法-序言-口述
 discoverable_by:
-  - 259里程碑
+- 259里程碑
 tags:
 - audience:general
 - scene:reference
@@ -43,6 +43,7 @@ tags:
 - 一堂五步法
 - 单元模型
 - 尺子和梯子区别
+type: concept
 ---
 # 259里程碑
 

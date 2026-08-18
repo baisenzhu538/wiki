@@ -1,39 +1,38 @@
 ---
-
 id: yt-pitch-storytelling
 title: 讲香·故事化
 type: tool
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 个人修炼
-  - 故事化
-  - 讲香
-  - 讲香十指模型口述版
-  - 讲香故事化
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 个人修炼
+- 故事化
+- 讲香
+- 讲香十指模型口述版
+- 讲香故事化
+source_refs: null
 status: enriched
-domain:
+domain: yitang
 language: zh-CN
 version: 1
 difficulty: advanced
 confidence: 0.85
-prerequisites:
-component_of:
+prerequisites: null
+component_of: null
 discoverable_by:
-  - 讲香·故事化
-  - 故事化
-related:
+- 讲香·故事化
+- 故事化
+related: null
 contradicts: null
-query_triggers:
-tags:
+query_triggers: null
+tags: null
 created_at: 2026-05-13
 updated_at: '2026-06-16'
 estimated_tokens: 2500
 reviewed_by: null
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 ---
 # 讲香·故事化
 

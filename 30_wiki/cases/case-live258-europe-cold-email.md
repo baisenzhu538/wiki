@@ -4,60 +4,60 @@ title: 「案例：东欧健身房开发信——负面限制与上下文分层�
 type: case
 status: reviewed
 confidence: 0.78
-trust_level: observed
+trust_level: medium
 domain:
-  - ai-basic
-  - sales
+- ai-basic
+- sales
 author: 老顽童
 source_refs:
-  - 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
+- 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
 source_person: 张丽娜（Esther，Live258 学员）
 source_context: Live258 AI基本功第一课优秀作业·张丽娜 东欧健身房客户开发信 AI 实践复盘（L2423-L2791），学员二手自述
 reviewed_by: 欧阳锋
 aliases:
-  - 东欧开发信
-  - 张丽娜
-  - 冷邮件
-  - 负面限制
-  - 上下文七分类
-  - AI基本功
-  - Live258
+- 东欧开发信
+- 张丽娜
+- 冷邮件
+- 负面限制
+- 上下文七分类
+- AI基本功
+- Live258
 discoverable_by:
-  - 开发信
-  - 冷邮件
-  - 负面限制
-  - 上下文分层
-  - B2B邮件
-  - 版本管理
+- 开发信
+- 冷邮件
+- 负面限制
+- 上下文分层
+- B2B邮件
+- 版本管理
 related:
-  - framework-truman-feature-thinking-core
-  - framework-truman-feature-layered-system
-  - dk-demand-feature-stacking
-  - ai-basic-domain-digest
-  - case-live258-zhihu-content-acquisition
-  - case-live258-livestream-prompt-v1-v5
-  - tool-feature-review-five-step
+- framework-truman-feature-thinking-core
+- framework-truman-feature-layered-system
+- dk-demand-feature-stacking
+- ai-basic-domain-digest
+- case-live258-zhihu-content-acquisition
+- case-live258-livestream-prompt-v1-v5
+- tool-feature-review-five-step
 tags:
-  - method:feature-thinking
-  - method:copywriting
-  - scene:email-outreach
-  - audience:practitioner
-  - content-format:case
-  - source-person:student
-  - evidence:observed
+- method:feature-thinking
+- method:copywriting
+- scene:email-outreach
+- audience:practitioner
+- content-format:case
+- source-person:student
+- evidence:observed
 created_at: 2026-08-12
 updated_at: 2026-08-12
 quality_labels:
-  - insight
-  - actionable
-  - principle
+- insight
+- actionable
+- principle
 diagnostic_signals:
-  - signal: "AI写的开发信/营销内容被系统识别为广告或群发"
-    lens: 负面限制使用不系统——冷邮件里"不能写什么"比"要写什么"更关键
-    follow_up: 建禁用词库（cheap/low price/promotional gifts等），首封冷启动严格限制
-  - signal: "给了AI很多背景但输出还是没重点"
-    lens: 背景堆得多≠结构好——上下文没分层
-    follow_up: 按七分类整理上下文：业务定位/目标客户/核心场景/服务能力/信任背书/禁止表达/本次邮件目标
+- signal: AI写的开发信/营销内容被系统识别为广告或群发
+  lens: 负面限制使用不系统——冷邮件里"不能写什么"比"要写什么"更关键
+  follow_up: 建禁用词库（cheap/low price/promotional gifts等），首封冷启动严格限制
+- signal: 给了AI很多背景但输出还是没重点
+  lens: 背景堆得多≠结构好——上下文没分层
+  follow_up: 按七分类整理上下文：业务定位/目标客户/核心场景/服务能力/信任背书/禁止表达/本次邮件目标
 review_date: 2026-08-13
 ---
 > 本卡属于 [[framework-truman-feature-thinking-core]] 的应用实证——B2B 冷邮件场景中"负面限制"与"上下文分层"两类 Feature 的组合价值。与 [[framework-truman-feature-layered-system]] 的 L2 提示词层对应；"每版对应一个假设"的版本管理实践与 [[tool-feature-review-five-step]] 第四步（改进）互补。

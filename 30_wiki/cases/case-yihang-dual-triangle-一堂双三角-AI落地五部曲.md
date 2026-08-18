@@ -1,5 +1,4 @@
 ---
-
 id: case-yihang-dual-triangle-一堂双三角-AI落地五部曲
 title: 一堂双三角-AI落地五部曲 — 双三角案例
 type: case
@@ -9,27 +8,27 @@ created_at: 2026-07-04
 updated_at: 2026-07-04
 confidence: 0.7
 trust_level: medium
-domain:
+domain: yihang
 aliases:
-  - #domain/ai-collaboration
-  - #method/dual-triangle
-  - AI落地五部曲
-  - audience:executor
-  - scene:reference
-  - skill-level:intermediate
-  - 一堂双三角
-  - 一堂双三角AI落地五部曲双三角案例
-  - 人机协作双三角
-  - 双三角案例
-  - 落地五部曲双三角案例
-  - 角案例
-source_refs:
+- null
+- null
+- AI落地五部曲
+- audience:executor
+- scene:reference
+- skill-level:intermediate
+- 一堂双三角
+- 一堂双三角AI落地五部曲双三角案例
+- 人机协作双三角
+- 双三角案例
+- 落地五部曲双三角案例
+- 角案例
+source_refs: null
 discoverable_by:
-  - 一堂双三角-AI落地五部曲 — 双三角案例
-  - 一堂双三角
-  - AI落地五部曲
-  - 双三角案例
-tags:
+- 一堂双三角-AI落地五部曲 — 双三角案例
+- 一堂双三角
+- AI落地五部曲
+- 双三角案例
+tags: null
 reviewed_by: pending
 ---
 # 一堂双三角-AI落地五部曲

@@ -1,9 +1,8 @@
 ---
-
 domain:
 - entrepreneurship
 id: yt-entrepreneur-business-growth
-title: "业务增长"
+title: 业务增长
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -23,15 +22,17 @@ review_date: 2026-05-08
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 业务增长
+- 业务增长
 source_refs:
 - pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
 discoverable_by:
-  - 业务增长
+- 业务增长
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+type: concept
+status: draft
 ---
 # 业务增长
 

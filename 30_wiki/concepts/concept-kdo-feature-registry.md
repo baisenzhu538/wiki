@@ -1,47 +1,47 @@
 ---
 id: concept-kdo-feature-registry
-title: "KDO Feature 注册表：原子化最小技术单位"
+title: KDO Feature 注册表：原子化最小技术单位
 type: concept
 status: draft
 domain:
-  - kdo
-  - master
+- kdo
+- master
 author: 黄药师
 reviewed_by: 待审
 review_date: 2026-08-08
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 source_refs:
-  - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
-  - cap_hub/features.json
+- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+- cap_hub/features.json
 created_at: 2026-08-08
 updated_at: 2026-08-16
 tags:
-  - audience:huangyaoshi
-  - scene:reference
-  - skill-level:advanced
+- audience:huangyaoshi
+- scene:reference
+- skill-level:advanced
 aliases:
-  - Feature注册表
-  - KDO Feature
-  - 原子能力清单
+- Feature注册表
+- KDO Feature
+- 原子能力清单
 discoverable_by:
-  - Feature注册表
-  - KDO Feature
-  - 原子能力
+- Feature注册表
+- KDO Feature
+- 原子能力
 diagnostic_signals:
-  - signal: 'KDO 能力以"任务单"为粒度——#217 一次加了三个 Feature，独立性和可测试性差'
-    severity: medium
-    implication: '新 Feature 加入时没有原子化注册——不知道当前有哪些 Feature、各自什么状态'
-  - signal: 'cap_hub 以工具为单位而非 Feature——Agent 看到的是一堆脚本而不是原子能力'
-    severity: medium
-    implication: 'Agent 启动时无法快速了解 KDO 到底能做什么'
+- signal: KDO 能力以"任务单"为粒度——#217 一次加了三个 Feature，独立性和可测试性差
+  severity: medium
+  implication: 新 Feature 加入时没有原子化注册——不知道当前有哪些 Feature、各自什么状态
+- signal: cap_hub 以工具为单位而非 Feature——Agent 看到的是一堆脚本而不是原子能力
+  severity: medium
+  implication: Agent 启动时无法快速了解 KDO 到底能做什么
 related:
-  - '[[concept-kdo-component-library]]'
-  - '[[framework-kdo-modeling-methodology]]'
-  - '[[kdo-moc]]'
-  - '[[master-moc]]'
-  - '[[framework-kdo-self-attack]]'
-  - '[[dk-tool-chain-naming-is-infrastructure]]'
+- '[[concept-kdo-component-library]]'
+- '[[framework-kdo-modeling-methodology]]'
+- '[[kdo-moc]]'
+- '[[master-moc]]'
+- '[[framework-kdo-self-attack]]'
+- '[[dk-tool-chain-naming-is-infrastructure]]'
 ---
 
 # KDO Feature 注册表

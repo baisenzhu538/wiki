@@ -6,68 +6,62 @@ status: reviewed
 confidence: 0.85
 trust_level: medium
 domain:
-  - panproduct
-  - ai-collaboration
-  - education
+- panproduct
+- ai-collaboration
+- education
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 tags:
-  - method:K12案例
-  - scene:AI教育
-  - audience:教师
-  - content-format:case
-  - source-person:崔磊
+- case
+- method:panproduct-design
+- method:ai-workflow
+- scene:k12-education
+- scene:classroom-teaching
+- audience:kids
+- audience:parents-teachers
+- content-format:case
+- source-person:崔磊
 aliases:
-  - K12泛产品设计案例
-  - LEO班徽
-  - LEO班徽翻车到四步法
-  - 崔磊
-  - 崔磊儿童AI设计课
-  - 崔磊儿童AI课
-  - 案例
-  - 案例：崔磊儿童AI设计课LEO班徽翻车到四步法
-  - 班徽翻车
-  - 老师不买账
-  - 设计案例
+- K12泛产品设计案例
+- LEO班徽
+- LEO班徽翻车到四步法
+- 崔磊
+- 崔磊儿童AI设计课
+- 崔磊儿童AI课
+- 案例
+- 案例：崔磊儿童AI设计课LEO班徽翻车到四步法
+- 班徽翻车
+- 老师不买账
+- 设计案例
 source_refs:
-  - 00_inbox/yitang-AI club/live84/🎯AI落地Live第84场·一堂✖️探月特别篇 逐字稿.md
-  - 60_feedback/diagnosis/diag_20260802_wangyuyan-live84-kids-panproduct.md
+- 00_inbox/yitang-AI club/live84/🎯AI落地Live第84场·一堂✖️探月特别篇 逐字稿.md
+- 60_feedback/diagnosis/diag_20260802_wangyuyan-live84-kids-panproduct.md
 source_person: 崔磊
 related:
-  - bridge-panproduct-kids-translation
-  - tool-panproduct-kids-card-naming
-  - tool-panproduct-kids-lesson-plan
-  - dk-ai-as-last-step-not-first
-  - case-live81-ai-trademark-design
-  - framework-一堂五步法-泛产品设计
-  - concept-一堂-product-kernel
-  - yt-panproduct-demand-user-perspective
+- bridge-panproduct-kids-translation
+- tool-panproduct-kids-card-naming
+- tool-panproduct-kids-lesson-plan
+- dk-ai-as-last-step-not-first
+- case-live81-ai-trademark-design
+- framework-一堂五步法-泛产品设计
+- concept-一堂-product-kernel
+- yt-panproduct-demand-user-perspective
 diagnostic_signals:
-  - signal: 「孩子用AI生成的东西很精美但同学/老师不买账」
-    lens: 和LEO一样——只站在「我觉得帅」的视角，没回答「这代表我们吗」
-    follow_up: 用LEO翻车故事做开场案例，让孩子自己说出翻车原因
-  - signal: 「不知道给孩子讲泛产品设计怎么开场」
-    lens: 缺乏一个孩子能立刻共情的真实故事
-    follow_up: 5分钟讲完LEO故事→问一个问题：「如果你是LEO，你会怎么做？」
+- signal: 「孩子用AI生成的东西很精美但同学/老师不买账」
+  lens: 和LEO一样——只站在「我觉得帅」的视角，没回答「这代表我们吗」
+  follow_up: 用LEO翻车故事做开场案例，让孩子自己说出翻车原因
+- signal: 「不知道给孩子讲泛产品设计怎么开场」
+  lens: 缺乏一个孩子能立刻共情的真实故事
+  follow_up: 5分钟讲完LEO故事→问一个问题：「如果你是LEO，你会怎么做？」
 quality_labels:
-  - cited
-  - insight
-  - quotable
+- cited
+- insight
+- quotable
 discoverable_by:
-  - 「LEO 班徽」
-  - 「儿童AI设计案例」
-  - 「泛产品设计 K12 案例」
-tags:
-  - case
-  - method:panproduct-design
-  - method:ai-workflow
-  - scene:k12-education
-  - scene:classroom-teaching
-  - audience:kids
-  - audience:parents-teachers
-  - content-format:case
-  - source-person:崔磊
+- 「LEO 班徽」
+- 「儿童AI设计案例」
+- 「泛产品设计 K12 案例」
 created_at: 2026-08-02
 updated_at: 2026-08-02
 ---

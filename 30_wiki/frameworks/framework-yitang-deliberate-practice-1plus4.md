@@ -3,38 +3,37 @@ id: framework-yitang-deliberate-practice-1plus4
 type: framework
 title: 刻意练习 1+4 模型：科学成长的操作系统
 status: reviewed
-domain:
+domain: yitang
 confidence: 0.85
-trust_level: medium-high
+trust_level: high
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-28
-quality_labels:
+quality_labels: null
 created_at: 2026-06-27
 updated_at: 2026-07-02
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 习方法
-  - 元能力-刻意练习
-  - 刻意练习
-  - 刻意练习1+4模型：科学成长的操作系统
-  - 意练习方法
-  - 成长模型
-  - 成长的操作系统
-  - 模型
-  - 科学成长的操作系统
-source_refs:
-  Acquisition of Expert Performance," Psychological Review, 1993
-  to Rapidity of Habit-Formation," 1908
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 习方法
+- 元能力-刻意练习
+- 刻意练习
+- 刻意练习1+4模型：科学成长的操作系统
+- 意练习方法
+- 成长模型
+- 成长的操作系统
+- 模型
+- 科学成长的操作系统
+source_refs: Acquisition of Expert Performance," Psychological Review, 1993 to Rapidity
+  of Habit-Formation," 1908
+related: null
 discoverable_by:
-  - "刻意练习1+4"
-  - "科学成长操作系统"
-  - "刻意练习方法"
-  - "1+4成长模型"
-tags:
+- 刻意练习1+4
+- 科学成长操作系统
+- 刻意练习方法
+- 1+4成长模型
+tags: null
 ---
 # 刻意练习 1+4 模型：科学成长的操作系统
 

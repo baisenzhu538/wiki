@@ -7,16 +7,16 @@ domain: design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 aliases:
-  - 台命名规范
-  - 命名与平台适配规范
-  - 多平台命名规范
-  - 技能
-  - 技能：文件命名与平台适配规范
-  - 文件命名与平台适配规范
-  - 月白
-  - 月白平台适配
+- 台命名规范
+- 命名与平台适配规范
+- 多平台命名规范
+- 技能
+- 技能：文件命名与平台适配规范
+- 文件命名与平台适配规范
+- 月白
+- 月白平台适配
 source_refs:
-  - 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
 - src_unknown
@@ -30,8 +30,8 @@ pipeline:
 - src_unknown
 author: 月白
 reviewed_by: 老顽童
-confidence: 0.80
-trust_level: observed
+confidence: 0.8
+trust_level: medium
 related:
 - '[[tool-月白-小红书双重搜索法]]'
 - '[[tool-月白-AIGC设计作业复盘法]]'
@@ -45,9 +45,9 @@ tags:
 quality_labels:
 - cited
 diagnostic_signals:
-- "小红书版和电商版尺寸混淆→平台适配维度遗漏"
-- "同一设计稿在多个平台效果不一致→未做平台级尺寸适配"
-discoverable_by: "月白平台适配、多平台设计规范、设计文件平台命名、跨平台规范"
+- 小红书版和电商版尺寸混淆→平台适配维度遗漏
+- 同一设计稿在多个平台效果不一致→未做平台级尺寸适配
+discoverable_by: 月白平台适配、多平台设计规范、设计文件平台命名、跨平台规范
 ---
 # 技能：文件命名与平台适配规范
 

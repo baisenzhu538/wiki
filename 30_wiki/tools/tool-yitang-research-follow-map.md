@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-follow-map
 title: 按图索骥：根据定位寻找对标案例
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 按图索骥
-  - 按图索骥：根据定位寻找对标案例
-  - 根据定位寻找对标案例
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 按图索骥
+- 按图索骥：根据定位寻找对标案例
+- 根据定位寻找对标案例
 discoverable_by:
-  - 按图索骥：根据定位寻找对标案例
-  - 按图索骥
-  - 根据定位寻找对标案例
-related:
-tags:
+- 按图索骥：根据定位寻找对标案例
+- 按图索骥
+- 根据定位寻找对标案例
+related: null
+tags: null
 ---
 # 按图索骥：根据定位寻找对标案例
 

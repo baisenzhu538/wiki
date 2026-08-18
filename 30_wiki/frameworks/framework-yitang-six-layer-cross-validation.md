@@ -24,12 +24,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 - src_unknown
-aliases:
-  - 交叉验证
-  - 从单源到多源的信息可信度提升
-  - 六层交叉验证
-  - 六层交叉验证：从单源到多源的信息可信度提升
-  - 源到多源的信息可信度提升
+aliases: []
 source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
@@ -54,7 +49,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:intermediate
-aliases: []
 discoverable_by:
 - 交叉验证方法
 - 信息可信度

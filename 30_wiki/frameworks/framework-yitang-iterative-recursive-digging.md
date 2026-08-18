@@ -11,30 +11,19 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: yitang
 difficulty: advanced
 estimated_tokens: 3500
 version: 1
-query_triggers:
-aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 从表层到内核的认知穿透
-  - 代递归深挖
-  - 知穿透
-  - 表层到内核
-  - 迭代递归深挖法
-  - 迭代递归深挖法：从表层到内核的认知穿透
-  - 递归深挖法
-source_refs:
-related:
-discoverable_by:
-  - "迭代递归深挖"
-  - "认知穿透"
-  - "从表层到内核"
-tags:
+query_triggers: null
 aliases: []
+source_refs: null
+related: null
+discoverable_by:
+- 迭代递归深挖
+- 认知穿透
+- 从表层到内核
+tags: null
 ---
 # 迭代递归深挖法：从表层到内核的认知穿透
 

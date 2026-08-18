@@ -1,19 +1,18 @@
 ---
-
 id: dk-content-implicit-value-without-price
 title: 全文不提价格，但处处暗示价值
-type: dark-knowledge
+type: dk
 dark_knowledge_type: workflow
 status: reviewed
 source_person: 升华 / 大馨战队
 source_context: 大馨战队拆解高客单/知识付费短视频时，升华提出：好的转化内容全文不提课程价格，但处处暗示“我有学员、有方法、有结果”。
 aliases:
-  - 不提价格
-  - 但处处暗示价值
-  - 全文不提价格
-  - 全文不提价格，但处处暗示价值
-  - 升华 / 大馨战队
-  - 处暗示价值
+- 不提价格
+- 但处处暗示价值
+- 全文不提价格
+- 全文不提价格，但处处暗示价值
+- 升华 / 大馨战队
+- 处暗示价值
 source_refs:
 - 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 domain:
@@ -28,7 +27,7 @@ review_date: '2026-07-02'
 trust_level: medium
 confidence: 0.85
 discoverable_by:
-  - 全文不提价格，但处处暗示价值
+- 全文不提价格，但处处暗示价值
 related:
 - '[[framework-brand-three-degree]]'
 - '[[tool-shortvideo-six-dimension-deconstruction]]'

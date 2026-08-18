@@ -11,35 +11,20 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "需求天花板"
-  - "TAM SAM SOM"
-  - "需求天花板四层线"
-  - "市场规模估算方法"
+- 需求天花板
+- TAM SAM SOM
+- 需求天花板四层线
+- 市场规模估算方法
 diagnostic_signals:
-  lens: 天花板估算跳跃——从TAM直接跳到"我们能做到XX%"
-  follow-up: 用四层线逐层收紧，从TAM→SAM→SOM→CR1→BEL
   lens: 融资版vs经营版未区分——两套算法混用
   follow-up: 明确当前场景是融资版还是经营版，用对应算法
-quality_labels:
-tags:
-aliases:
-  - 需求天花板四层线：TAM/SAM/SOM/CR1/BEL
-  - 需求天花板四层线
-  - 场规模估算方法
-  - 求天花板四层线
-  - 求天花板
-  - 花板四层线
-aliases:
-  - 需求天花板四层线：TAM/SAM/SOM/CR1/BEL
-  - 需求天花板四层线
-  - 求天花板四层线
-  - 求天花板
-  - 场规模估算方法
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 需求天花板四层线：TAM/SAM/SOM/CR1/BEL
 

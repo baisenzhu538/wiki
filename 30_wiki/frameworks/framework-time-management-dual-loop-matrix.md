@@ -11,34 +11,20 @@ trust_level: medium
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain:
-source_refs:
-related:
+domain: management
+source_refs: null
+related: null
 discoverable_by:
-  - "时间管理矩阵"
-  - "双循环矩阵"
-  - "独立协作时间管理"
-  - "重点效率矩阵"
+- 时间管理矩阵
+- 双循环矩阵
+- 独立协作时间管理
+- 重点效率矩阵
 diagnostic_signals:
   lens: placeholder
   follow-up: 后续补全
-quality_labels:
-tags:
-aliases:
-  - 时间管理双循环矩阵：独立/协作×重点/效率
-  - 时间管理双循环矩阵
-  - 独立/协作
-  - 重点/效率
-  - 间管理矩阵
-  - 循环矩阵
-aliases:
-  - 时间管理双循环矩阵：独立/协作×重点/效率
-  - 时间管理双循环矩阵
-  - 独立/协作
-  - 重点/效率
-  - 点效率矩阵
-  - 循环矩阵
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 时间管理双循环矩阵：独立/协作 × 重点/效率
 

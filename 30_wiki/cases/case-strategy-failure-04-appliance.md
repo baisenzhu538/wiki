@@ -1,5 +1,4 @@
 ---
-
 id: case-strategy-failure-04-appliance
 title: 案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败
 type: case
@@ -13,25 +12,24 @@ language: zh-CN
 domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
-reviewed_by: pending
 updated_at: 2026-06-29
 discoverable_by:
-  - 案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败
-  - 家电公司G
-  - 路径错误。重渠道轻研发导致非核心品类失败
+- 案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败
+- 家电公司G
+- 路径错误。重渠道轻研发导致非核心品类失败
 related:
-  - '[[case-strategy-failure-01-cosmetics]]'
-  - '[[case-strategy-failure-02-supermarket]]'
-  - '[[case-strategy-failure-03-cleaning]]'
-  - '[[case-strategy-failure-07-phone-l]]'
-  - '[[case-strategy-failure-08-video]]'
-  - strategy-domain-digest
-  - tool-从案例中学习
-  - case-科学决策-深度案例06
-  - case-科学决策-深度案例02
-  - tool-纪浩-案例池构建法
-  - case-科学决策-ROI案例03
-  - tool-马易-业务问题AI化拆解-餐饮设计案例法
+- '[[case-strategy-failure-01-cosmetics]]'
+- '[[case-strategy-failure-02-supermarket]]'
+- '[[case-strategy-failure-03-cleaning]]'
+- '[[case-strategy-failure-07-phone-l]]'
+- '[[case-strategy-failure-08-video]]'
+- strategy-domain-digest
+- tool-从案例中学习
+- case-科学决策-深度案例06
+- case-科学决策-深度案例02
+- tool-纪浩-案例池构建法
+- case-科学决策-ROI案例03
+- tool-马易-业务问题AI化拆解-餐饮设计案例法
 ---
 **表面问题**：空调之外的新品类全部失败。
 

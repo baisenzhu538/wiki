@@ -9,27 +9,27 @@ confidence: 0.85
 trust_level: high
 updated_at: '2026-06-29'
 language: zh-CN
-domain:
+domain: strategy
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 丰田供应链生态
-  - 丰田供应链生态+苹果iOS生态
-  - 体系Creation
-  - 体系CreationSystem：丰田供应链生态+苹果iOS生态
-  - 田供应链生态
-  - 略体系
-  - 略系统建设
-  - 统建设
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 丰田供应链生态
+- 丰田供应链生态+苹果iOS生态
+- 体系Creation
+- 体系CreationSystem：丰田供应链生态+苹果iOS生态
+- 田供应链生态
+- 略体系
+- 略系统建设
+- 统建设
+source_refs: null
+related: null
 discoverable_by:
-  - "战略体系"
-  - "丰田供应链生态"
-  - "苹果iOS生态"
-  - "战略系统建设"
-tags:
+- 战略体系
+- 丰田供应链生态
+- 苹果iOS生态
+- 战略系统建设
+tags: null
 ---
 **不是做产品，是建生态**：丰田不只造车——供应链伙伴形成深度绑定，对手难以复制
 **竞争优势三层**：

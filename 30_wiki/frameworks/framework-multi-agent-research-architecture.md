@@ -2,27 +2,27 @@
 id: framework-multi-agent-research-architecture
 title: 多智能体研究架构模式（Multi-Agent Research Architecture）
 type: framework
-domain:
-tags:
+domain: research
+tags: null
 source_person: LangChain Team（Will Fu-Hinthorn）+ Truman（一堂）
 source_context: LangChain 官方多智能体架构 benchmark + 一堂调研武器库 Agent 化对接
 aliases:
-  - LangChain Team（Will Fu-Hinthorn）+ Truman（一堂）
-  - 三个新盲区
-  - 外部知识探索
-  - 多智能体研究架构模式Multi
-  - 多智能体研究架构模式MultiAgentResearchArchitecture
-  - 能体研究架构模式
-  - 调研架构
-source_refs:
-related:
+- LangChain Team（Will Fu-Hinthorn）+ Truman（一堂）
+- 三个新盲区
+- 外部知识探索
+- 多智能体研究架构模式Multi
+- 多智能体研究架构模式MultiAgentResearchArchitecture
+- 能体研究架构模式
+- 调研架构
+source_refs: null
+related: null
 discoverable_by:
-  - "多Agent调研架构"
+- 多Agent调研架构
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 created_at: '2026-06-28'
-quality_labels:
+quality_labels: null
 updated_at: '2026-06-28'
 confidence: 0.78
 trust_level: medium

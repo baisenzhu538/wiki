@@ -3,10 +3,9 @@ id: concept-research-saturation-coverage
 title: 饱和覆盖：不以数量决定，以规律稳定为目标
 type: concept
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-16
 author: 老顽童
-reviewed_by: 待审
 confidence: 0.85
 trust_level: medium
 language: zh-CN

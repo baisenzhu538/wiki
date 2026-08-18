@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-reverse-data-analysis
 title: 逆向数据分析：从公开数据反推商业真相
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: yitang
 difficulty: advanced
 estimated_tokens: 3000
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 从公开数据反推商业真相
-  - 逆向数据分析
-  - 逆向数据分析：从公开数据反推商业真相
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 从公开数据反推商业真相
+- 逆向数据分析
+- 逆向数据分析：从公开数据反推商业真相
 discoverable_by:
-  - 逆向数据分析：从公开数据反推商业真相
-  - 逆向数据分析
-  - 从公开数据反推商业真相
-related:
-tags:
+- 逆向数据分析：从公开数据反推商业真相
+- 逆向数据分析
+- 从公开数据反推商业真相
+related: null
+tags: null
 ---
 # 逆向数据分析：从公开数据反推商业真相
 

@@ -8,44 +8,44 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 aliases:
-  - 三对组合
-  - 两规律+三对组合+决策树
-  - 决策树
-  - 十指决策树
-  - 双重融入
-  - 暗知识
-  - 莫非云盘组合案例
-  - 讲香策略选择
-  - 讲香策略选择：两规律+三对组合+决策树
-  - 香怎么选策略
+- 三对组合
+- 两规律+三对组合+决策树
+- 决策树
+- 十指决策树
+- 双重融入
+- 暗知识
+- 莫非云盘组合案例
+- 讲香策略选择
+- 讲香策略选择：两规律+三对组合+决策树
+- 香怎么选策略
 source_refs:
-  - 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
+- 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
 related:
-  - tool-讲香基本功-十指模型
-  - concept-讲香-卖点直给到价值感
-  - framework-一堂-个人表达力
-  - yt-pitch-scenarization
-  - yt-pitch-emotionalization
-  - case-yitang-jiangxiang-tianmu-balcony
+- tool-讲香基本功-十指模型
+- concept-讲香-卖点直给到价值感
+- framework-一堂-个人表达力
+- yt-pitch-scenarization
+- yt-pitch-emotionalization
+- case-yitang-jiangxiang-tianmu-balcony
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:策略选择
-  - scene:讲香
-  - audience:讲香初学者
-  - content-format:framework
-  - source-person:李頔
+- method:策略选择
+- scene:讲香
+- audience:讲香初学者
+- content-format:framework
+- source-person:李頔
 discoverable_by:
-  - "讲香怎么选策略"
-  - "十指怎么组合"
-  - "策略选择决策树"
+- 讲香怎么选策略
+- 十指怎么组合
+- 策略选择决策树
 diagnostic_signals:
-  - signal: "暗知识A+D双重融入——两规律+三对组合+决策树+莫非云盘组合案例"
-    severity: low
-    implication: "从'单一决策树'升级为'规律+组合+决策树'完整框架"
+- signal: 暗知识A+D双重融入——两规律+三对组合+决策树+莫非云盘组合案例
+  severity: low
+  implication: 从'单一决策树'升级为'规律+组合+决策树'完整框架
 ---
 
 > **定位**：属于 `tool-讲香基本功-十指模型` 的**操作选择层**——有了40策略之后，这个框架告诉你"这一次该用哪几个"。

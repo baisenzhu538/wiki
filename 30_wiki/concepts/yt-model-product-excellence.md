@@ -1,9 +1,8 @@
 ---
-
 domain:
 - modeling
 id: yt-model-product-excellence
-title: "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"
+title: 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: advanced
@@ -20,24 +19,26 @@ query_triggers:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 产品追求
-  - 品味
-  - 实践与乔布斯的审美哲学
-  - 最佳实践与乔布斯的审美哲学
-  - 顶级产品追求
-  - 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
+- 产品追求
+- 品味
+- 实践与乔布斯的审美哲学
+- 最佳实践与乔布斯的审美哲学
+- 顶级产品追求
+- 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 source_refs:
 - pending_archive:src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
 discoverable_by:
-  - 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
-  - 顶级产品追求
-  - 品味、最佳实践与乔布斯的审美哲学
+- 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
+- 顶级产品追求
+- 品味、最佳实践与乔布斯的审美哲学
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 乔布斯
 - 顶级产品追求的方向
+type: concept
+status: draft
 ---
 # 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 

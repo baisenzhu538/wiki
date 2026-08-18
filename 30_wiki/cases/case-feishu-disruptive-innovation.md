@@ -8,48 +8,48 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.78
-trust_level: observed
+trust_level: medium
 aliases:
-  - Christensen
-  - src_20260802_创新者的窘境_秦鹏拆书
-  - 书是破坏性创新还是延续创新
-  - 创新者的窘境
-  - 档协作软件颠覆案例
-  - 破坏性创新还是延续创新
-  - 破坏的争议
-  - 秦鹏拆书
-  - 绕开WPS/Office开辟联网协作新赛道
-  - 者的窘境
-  - 飞书
-  - 飞书破坏性创新
-  - 飞书：绕开WPS/Office开辟联网协作新赛道
+- Christensen
+- src_20260802_创新者的窘境_秦鹏拆书
+- 书是破坏性创新还是延续创新
+- 创新者的窘境
+- 档协作软件颠覆案例
+- 破坏性创新还是延续创新
+- 破坏的争议
+- 秦鹏拆书
+- 绕开WPS/Office开辟联网协作新赛道
+- 者的窘境
+- 飞书
+- 飞书破坏性创新
+- 飞书：绕开WPS/Office开辟联网协作新赛道
 source_refs:
-  - 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
+- 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
 related:
-  - framework-christensen-disruptive-innovation
-  - framework-christensen-value-network
-  - framework-yitang-oscar-research
-  - dk-qinpeng-three-corrections
-  - yt-tool-strategy-workshop
-  - tool-遵循规模前倾原则设计组织架构
-  - case-english-teacher-ai-agent
+- framework-christensen-disruptive-innovation
+- framework-christensen-value-network
+- framework-yitang-oscar-research
+- dk-qinpeng-three-corrections
+- yt-tool-strategy-workshop
+- tool-遵循规模前倾原则设计组织架构
+- case-english-teacher-ai-agent
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:飞书案例
-  - scene:破坏性创新判断
-  - audience:产品负责人
-  - content-format:case
-  - source-person:秦鹏
+- method:飞书案例
+- scene:破坏性创新判断
+- audience:产品负责人
+- content-format:case
+- source-person:秦鹏
 discoverable_by:
-  - "飞书是破坏性创新还是延续创新"
-  - "飞书案例"
-  - "文档协作软件颠覆案例"
+- 飞书是破坏性创新还是延续创新
+- 飞书案例
+- 文档协作软件颠覆案例
 diagnostic_signals:
-  - signal: "飞书案例存在延续vs破坏的争议——评论区有人主张延续创新"
-    severity: high
-    implication: "必须纳入正反双方观点"
+- signal: 飞书案例存在延续vs破坏的争议——评论区有人主张延续创新
+  severity: high
+  implication: 必须纳入正反双方观点
 ---
 
 > **定位**：属于 `framework-christensen-disruptive-innovation` 的**争议性案例**——用于训练"延续vs破坏"的判断能力。

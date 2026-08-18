@@ -1,6 +1,6 @@
 ---
 id: dk-bfm-compression-path
-title: "压缩路径：从万字规范到40条铁规"
+title: 压缩路径：从万字规范到40条铁规
 type: dk
 domain: system
 status: draft
@@ -9,47 +9,47 @@ updated_at: 2026-07-26
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 version: 1.0.0
 aliases:
-  - 40条铁规法
-  - 三步压缩法
-  - 事后笔记
-  - 从万字规范到40条铁规
-  - 半肥猫压缩路径
-  - 压缩路径
-  - 压缩路径：从万字规范到40条铁规
-  - 条铁规法
-  - 猫压缩路径
-  - 规范数量
-  - 需要压缩
-  - 需要进一步提炼
+- 40条铁规法
+- 三步压缩法
+- 事后笔记
+- 从万字规范到40条铁规
+- 半肥猫压缩路径
+- 压缩路径
+- 压缩路径：从万字规范到40条铁规
+- 条铁规法
+- 猫压缩路径
+- 规范数量
+- 需要压缩
+- 需要进一步提炼
 source_refs:
-  - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L954-974
-  - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6476-6484
-  - 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-事后笔记.txt#L43
+- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L954-974
+- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-交流录音.txt#L6476-6484
+- 00_inbox/半肥猫月白老朱线下聚会/AI应用研讨-半肥猫月白老朱-事后笔记.txt#L43
 tags:
-  - 压缩
-  - 建模
-  - 知识固化
-  - 幻觉
-  - 铁规
-  - AI协作
+- 压缩
+- 建模
+- 知识固化
+- 幻觉
+- 铁规
+- AI协作
 related:
-  - framework-kdo-modeling-methodology
-  - concept-kdo-component-library
-  - concept-structured-naming-as-infrastructure
-  - tool-yb-cross-quadrant-prompt-framework
-  - dk-ai-cross-domain-inference
-  - concept-ai-co-learning
+- framework-kdo-modeling-methodology
+- concept-kdo-component-library
+- concept-structured-naming-as-infrastructure
+- tool-yb-cross-quadrant-prompt-framework
+- dk-ai-cross-domain-inference
+- concept-ai-co-learning
 quality_labels:
-  - cited
-  - actionable
+- cited
+- actionable
 diagnostic_signals:
-  - "AI规范/约束写了很多但幻觉依旧 → 没走完压缩路径：还在穷举阶段没到提炼阶段"
-  - "知识库膨胀但检索变慢 → 需要压缩：穷举→合并→提炼"
-  - "团队成员记不住规范 → 规范数量 > 40条，需要进一步提炼"
-discoverable_by: "压缩路径、半肥猫铁规、知识压缩、规范提炼、去幻觉"
+- AI规范/约束写了很多但幻觉依旧 → 没走完压缩路径：还在穷举阶段没到提炼阶段
+- 知识库膨胀但检索变慢 → 需要压缩：穷举→合并→提炼
+- 团队成员记不住规范 → 规范数量 > 40条，需要进一步提炼
+discoverable_by: 压缩路径、半肥猫铁规、知识压缩、规范提炼、去幻觉
 ---
 # 压缩路径：从万字规范到40条铁规
 

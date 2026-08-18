@@ -1,19 +1,18 @@
 ---
-
 id: dk-founding-ip-trust-over-traffic
 title: 创始人 IP 追求信任，网红追求流量
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: reviewed
 source_person: 魏千洛 / 大馨战队
 source_context: 大馨战队短视频拆解训练营中，魏千洛在讨论创始人 IP 战略时提出：网红追求流量，创始人 IP 追求信任。
 aliases:
-  - 创始人
-  - 创始人IP追求信任，网红追求流量
-  - 网红追求流量
-  - 追求信任
-  - 追求流量
-  - 魏千洛 / 大馨战队
+- 创始人
+- 创始人IP追求信任，网红追求流量
+- 网红追求流量
+- 追求信任
+- 追求流量
+- 魏千洛 / 大馨战队
 source_refs:
 - 00_inbox/AI-study/0017大馨战队 · 短视频内容拆解方法论精华提炼.md
 domain:
@@ -28,9 +27,9 @@ review_date: '2026-07-02'
 trust_level: medium
 confidence: 0.86
 discoverable_by:
-  - 创始人 IP 追求信任，网红追求流量
-  - 创始人
-  - 追求信任，网红追求流量
+- 创始人 IP 追求信任，网红追求流量
+- 创始人
+- 追求信任，网红追求流量
 related:
 - '[[framework-brand-three-degree]]'
 - '[[case-daxin-team-content-training-camp]]'

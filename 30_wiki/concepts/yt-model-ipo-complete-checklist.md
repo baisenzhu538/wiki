@@ -1,9 +1,8 @@
 ---
-
 domain:
 - modeling
 id: yt-model-ipo-complete-checklist
-title: "IPO 科学学习完整清单 (Complete List)"
+title: IPO 科学学习完整清单 (Complete List)
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
@@ -20,20 +19,22 @@ query_triggers:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - IPO科学学习完整清单CompleteList
-  - 学习完整清单
-  - 科学学习完整清单
+- IPO科学学习完整清单CompleteList
+- 学习完整清单
+- 科学学习完整清单
 source_refs:
 - pending_archive:src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
 discoverable_by:
-  - IPO 科学学习完整清单 Complete List
-  - 科学学习完整清单
+- IPO 科学学习完整清单 Complete List
+- 科学学习完整清单
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 个人修炼
 - 科学学习
+type: concept
+status: draft
 ---
 # IPO 科学学习完整清单 (Complete List)
 

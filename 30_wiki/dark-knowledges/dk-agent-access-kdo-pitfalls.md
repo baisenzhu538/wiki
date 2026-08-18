@@ -1,53 +1,54 @@
 ---
 id: dk-agent-access-kdo-pitfalls
-title: "外部Agent接入KDO：审批门禁/路径格式/检索规则三连坑"
+title: 外部Agent接入KDO：审批门禁/路径格式/检索规则三连坑
 type: dk
 status: draft
 domain:
-  - kdo
-  - ai-collaboration
+- kdo
+- ai-collaboration
 author: agent-basic-skills-coach
 reviewed_by: 待审
 confidence: 0.9
-trust_level: observed
+trust_level: medium
 aliases:
-  - Agent接入KDO
-  - 审批门禁坑
-  - Hermes接入KDO
-  - 外部Agent踩坑
-  - smart审批
+- Agent接入KDO
+- 审批门禁坑
+- Hermes接入KDO
+- 外部Agent踩坑
+- smart审批
 discoverable_by:
-  - Agent接入KDO
-  - 审批门禁
-  - Hermes接入KDO
-  - 外部Agent踩坑
-  - smart审批
+- Agent接入KDO
+- 审批门禁
+- Hermes接入KDO
+- 外部Agent踩坑
+- smart审批
 source_refs:
-  - 30_wiki/agent-specs/agent-spec-basic-skills-coach.md
-  - cap_hub/features.json
+- 30_wiki/agent-specs/agent-spec-basic-skills-coach.md
+- cap_hub/features.json
 diagnostic_signals:
-  - signal: "外部Agent(如Hermes教练)在网关里跑python3 -c / execute_code 被 BLOCKED：'timed out without user response'"
-    severity: high
-    implication: "approvals.mode=manual 时，代码执行类命令在无人工确认的网关环境必然超时被杀——不是命令坏了，是没人点'同意'"
-  - signal: "terminal.cwd 写成 Windows 路径 C:\\Users\\... 在 WSL 里报 'No such file or directory'"
-    severity: medium
-    implication: "WSL 环境下 cwd 必须用 /mnt/c/... 格式，否则所有 cd 失败"
-  - signal: "SOUL.md 检索规则写 'kdo feature 点菜'，但 kdo CLI 无 feature 子命令"
-    severity: medium
-    implication: "检索规则文档会过时——真实入口 kdo-tools/feature_menu.py 才是准的"
+- signal: 外部Agent(如Hermes教练)在网关里跑python3 -c / execute_code 被 BLOCKED：'timed out without
+    user response'
+  severity: high
+  implication: approvals.mode=manual 时，代码执行类命令在无人工确认的网关环境必然超时被杀——不是命令坏了，是没人点'同意'
+- signal: terminal.cwd 写成 Windows 路径 C:\Users\... 在 WSL 里报 'No such file or directory'
+  severity: medium
+  implication: WSL 环境下 cwd 必须用 /mnt/c/... 格式，否则所有 cd 失败
+- signal: SOUL.md 检索规则写 'kdo feature 点菜'，但 kdo CLI 无 feature 子命令
+  severity: medium
+  implication: 检索规则文档会过时——真实入口 kdo-tools/feature_menu.py 才是准的
 related:
-  - '[[agent-spec-basic-skills-coach]]'
-  - '[[tool-kdo-help]]'
-  - '[[tool-mcp-reachability-check]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
-  - '[[dk-feature-registry-count-drift]]'
+- '[[agent-spec-basic-skills-coach]]'
+- '[[tool-kdo-help]]'
+- '[[tool-mcp-reachability-check]]'
+- '[[dk-c8-format-complete-mind-empty]]'
+- '[[dk-feature-registry-count-drift]]'
 created_at: 2026-08-09
 updated_at: 2026-08-16
 tags:
-  - audience:builder
-  - scene:reference
-  - skill-level:advanced
-  - agent:hermes
+- audience:builder
+- scene:reference
+- skill-level:advanced
+- agent:hermes
 ---
 
 # 外部Agent接入KDO：审批门禁/路径格式/检索规则三连坑

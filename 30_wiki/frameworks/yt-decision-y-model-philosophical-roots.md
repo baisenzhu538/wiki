@@ -5,7 +5,7 @@ title: Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论�
 type: framework
 status: enriched
 confidence: 0.82
-trust_level: medium-high
+trust_level: high
 academic_refs:
 - src_unknown
 - src_unknown
@@ -27,12 +27,12 @@ diagnostic_signals:
 - framework_lens: 矛盾的特殊性——不同质的矛盾用不同方法
   follow_up_question: 这个业务的核心矛盾是什么？ToB、ToC、平台型的"宽度"清单本来就不该一样，你是在套用模板还是在识别特殊矛盾？
 aliases:
-  - Y模型的哲学根基：王阳明知行合一、矛盾论、实践论的三重映射
-  - 实践论的三重映射
-  - 模型的哲学根基
-  - 王阳明知行合一
-  - 的哲学根基
-  - 矛盾论
+- Y模型的哲学根基：王阳明知行合一、矛盾论、实践论的三重映射
+- 实践论的三重映射
+- 模型的哲学根基
+- 王阳明知行合一
+- 的哲学根基
+- 矛盾论
 source_refs:
 - pending_archive: src_unknown
 tags:

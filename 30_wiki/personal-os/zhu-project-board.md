@@ -1,13 +1,13 @@
 ---
 id: zhu-project-board
-title: "老朱项目线看板"
+title: 老朱项目线看板
 type: system
-status: active
-created_at: 2026-07-09T22:35:00+00:00
+status: enriched
+created_at: 2026-07-09 22:35:00+00:00
 updated_at: 2026-08-04
 reviewed_by: pending
 domain:
-  - personal-os
+- personal-os
 tags:
 - audience:manager
 - scene:reference

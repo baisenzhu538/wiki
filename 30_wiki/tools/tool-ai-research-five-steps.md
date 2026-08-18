@@ -1,34 +1,33 @@
 ---
-
 id: tool-ai-research-five-steps
 title: 技能：AI调研五步法
 type: tool
 status: draft
-domain:
+domain: research
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地-口述，2026-06-06
 aliases:
-  - AI调研五步法
-  - audience:executor
-  - scene:execution
-  - skill-level:beginner
-  - 半肥猫
-  - 技能
-  - 技能：AI调研五步法
-  - 没有人呀现在
-  - 调研五步法
-source_refs:
+- AI调研五步法
+- audience:executor
+- scene:execution
+- skill-level:beginner
+- 半肥猫
+- 技能
+- 技能：AI调研五步法
+- 没有人呀现在
+- 调研五步法
+source_refs: null
 wiki_refs: null
 definition_of_done: null
 tools_required: null
 prerequisite_skills: null
 discoverable_by:
-  - 技能：AI调研五步法
-  - AI调研五步法
-related:
+- 技能：AI调研五步法
+- AI调研五步法
+related: null
 created_at: 2026-06-11
 updated_at: 2026-07-02
-tags:
+tags: null
 pipeline: null
 reviewed_by: laowantong
 author: 半肥猫

@@ -6,31 +6,31 @@ status: draft
 author: 黄药师
 confidence: 0.9
 trust_level: high
-domain:
+domain: modeling
 aliases:
-  - KDO建模方法论从踩坑打补丁到组件化建模
-  - advanced
-  - control
-  - 从踩坑打补丁到组件化建模
-  - 件化建模
-  - 坑打补丁到组件化建模
-  - 坑打补丁建模
-  - 建模方法论
-  - 黄药师
-source_refs:
+- KDO建模方法论从踩坑打补丁到组件化建模
+- advanced
+- control
+- 从踩坑打补丁到组件化建模
+- 件化建模
+- 坑打补丁到组件化建模
+- 坑打补丁建模
+- 建模方法论
+- 黄药师
+source_refs: null
 tags:
-  - method:kdo-modeling
-  - method:knowledge-engineering
-  - method:component-extraction
-  - scene:build-knowledge-system
-  - audience:knowledge-engineer
-  - content-format:framework
-  - source-person:黄药师
-related:
+- method:kdo-modeling
+- method:knowledge-engineering
+- method:component-extraction
+- scene:build-knowledge-system
+- audience:knowledge-engineer
+- content-format:framework
+- source-person:黄药师
+related: null
 discoverable_by:
-  - "KDO建模方法论"
-  - "组件化建模"
-  - "踩坑打补丁建模"
+- KDO建模方法论
+- 组件化建模
+- 踩坑打补丁建模
 created_at: 2026-07-19
 updated_at: 2026-07-19 - tool-yitang-dialectical-modeling - framework-yitang-thought-liberation-lightning
 ---

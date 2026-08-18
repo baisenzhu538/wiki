@@ -4,7 +4,7 @@ title: 「Agent Spec：科学开会助理——该不该开+冰山画布+原则�
 type: agent-spec
 status: draft
 confidence: 0.8
-trust_level: medium-high
+trust_level: high
 author: 王语嫣（#263 流水线第三次实战，2026-08-09）
 source_refs:
 - 30_wiki/workflows/workflow-kdo-agent-production-pipeline.md

@@ -3,56 +3,55 @@ id: dk-narrative-choice-theory
 title: 「暗知识：叙事选择论——治疗师是故事的编辑」
 type: dk
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-09
 confidence: 0.88
 trust_level: high
 domain:
-  - human-insights
-  - psychology
+- human-insights
+- psychology
 author: 老顽童
 source_refs:
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
 source_person: 布鲁克斯 / 水水
 source_context: 水水一堂拆书会（L2544-2562 + L1618-1642）
-reviewed_by: 待审
 aliases:
-  - 叙事选择论
-  - 治疗师故事编辑
-  - 30岁为自己负责
+- 叙事选择论
+- 治疗师故事编辑
+- 30岁为自己负责
 discoverable_by:
-  - 叙事选择
-  - 治疗师
-  - 故事编辑
-  - 30岁负责
-  - 原生家庭
+- 叙事选择
+- 治疗师
+- 故事编辑
+- 30岁负责
+- 原生家庭
 related:
-  - framework-how-to-know-a-person
-  - framework-big-five-personality
-  - dk-agreeableness-double-edged
-  - tool-empathy-practice
-  - case-shuishui-business-insight
-  - framework-一堂-个人表达力
+- framework-how-to-know-a-person
+- framework-big-five-personality
+- dk-agreeableness-double-edged
+- tool-empathy-practice
+- case-shuishui-business-insight
+- framework-一堂-个人表达力
 tags:
-  - method:narrative
-  - method:psychology
-  - scene:coaching
-  - audience:general
-  - content-format:dk
-  - source-person:布鲁克斯
+- method:narrative
+- method:psychology
+- scene:coaching
+- audience:general
+- content-format:dk
+- source-person:布鲁克斯
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels:
-  - insight
-  - quotable
-  - cited
+- insight
+- quotable
+- cited
 diagnostic_signals:
-  - signal: "一直用'原生家庭'解释自己的行为模式"
-    lens: 叙事选择论——30岁前原生家庭塑造你，30岁后你选择自己的叙事
-    follow_up: 问自己：同样的过去，能不能讲一个不同的故事？
-  - signal: "同事总是把自己说成受害者"
-    lens: 他选择了"污染序列"叙事——所有事件都被解释为"别人/环境伤害了我"
-    follow_up: 不是指责他的叙事——是帮他看到"同样的经历，还有另一种讲法"
+- signal: 一直用'原生家庭'解释自己的行为模式
+  lens: 叙事选择论——30岁前原生家庭塑造你，30岁后你选择自己的叙事
+  follow_up: 问自己：同样的过去，能不能讲一个不同的故事？
+- signal: 同事总是把自己说成受害者
+  lens: 他选择了"污染序列"叙事——所有事件都被解释为"别人/环境伤害了我"
+  follow_up: 不是指责他的叙事——是帮他看到"同样的经历，还有另一种讲法"
 ---
 
 > 定位：本卡属于 `[[framework-how-to-know-a-person]]` 的"看见力量"支柱暗知识——叙事思维的核心洞察。

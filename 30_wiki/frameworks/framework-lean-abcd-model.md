@@ -8,25 +8,25 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 低成本验证实操
-  - 关键假设
-  - 关键假设ABCD模型
-  - 模型
-  - 键假设
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 低成本验证实操
+- 关键假设
+- 关键假设ABCD模型
+- 模型
+- 键假设
+source_refs: null
+related: null
 discoverable_by:
-  - "关键假设ABCD模型"
-  - "精益ABCD"
-quality_labels:
+- 关键假设ABCD模型
+- 精益ABCD
+quality_labels: null
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
-tags:
+tags: null
 ---
 # 关键假设 ABCD 模型
 

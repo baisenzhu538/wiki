@@ -4,32 +4,32 @@ title: 域摘要：销售管理（30+张卡）
 type: index
 status: draft
 confidence: 0.9
-trust_level: observed
+trust_level: medium
 domain:
-  - sales
-  - business-strategy
+- sales
+- business-strategy
 source_refs:
-  - 90_control/domain-mapping.md
-  - 60_feedback/tasks/task_20260815_huangyaoshi-sales-domain-digest.md
+- 90_control/domain-mapping.md
+- 60_feedback/tasks/task_20260815_huangyaoshi-sales-domain-digest.md
 created_at: 2026-08-16
 updated_at: 2026-08-16
 author: 黄药师
 related:
-  - '[[framework-yitang-scientific-sales-five-step]]'
-  - '[[framework-ai-sales-collaboration]]'
-  - '[[framework-sales-funnel-full]]'
-  - '[[tool-yitang-customer-segmentation-4step]]'
-  - '[[tool-yitang-sales-process-decomposition]]'
-  - '[[tool-yitang-value-proposition-4step]]'
-  - '[[tool-yitang-sales-performance-management]]'
-  - '[[tool-sales-objection-dilution]]'
-  - '[[dk-sales-demand-mining-is-company-task]]'
-  - '[[dk-sales-big-deal-vs-small-deal]]'
-  - '[[dk-customers-hate-ai]]'
-  - '[[decision-science-domain-digest]]'
-  - '[[five-step-domain-digest]]'
-  - '[[conversion-rate-domain-digest]]'
-  - '[[human-ai-collaboration-double-triangle]]'
+- '[[framework-yitang-scientific-sales-five-step]]'
+- '[[framework-ai-sales-collaboration]]'
+- '[[framework-sales-funnel-full]]'
+- '[[tool-yitang-customer-segmentation-4step]]'
+- '[[tool-yitang-sales-process-decomposition]]'
+- '[[tool-yitang-value-proposition-4step]]'
+- '[[tool-yitang-sales-performance-management]]'
+- '[[tool-sales-objection-dilution]]'
+- '[[dk-sales-demand-mining-is-company-task]]'
+- '[[dk-sales-big-deal-vs-small-deal]]'
+- '[[dk-customers-hate-ai]]'
+- '[[decision-science-domain-digest]]'
+- '[[five-step-domain-digest]]'
+- '[[conversion-rate-domain-digest]]'
+- '[[human-ai-collaboration-double-triangle]]'
 diagnostic_signals:
 - framework_lens: 科学销售五步法
   follow_up_question: 你现在卡在销售过程的哪一步？先定位再选工具。

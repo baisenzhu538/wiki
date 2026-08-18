@@ -7,53 +7,53 @@ domain: strategy
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
-confidence: 0.90
-trust_level: observed
+confidence: 0.9
+trust_level: medium
 aliases:
-  - Christensen
-  - King Baatartogtokh
-  - Lepore批判
-  - 创新者的窘境
-  - 卡重叠
-  - 坏性创新理论的批评
-  - 实证批判
-  - 生产前需检查与现有
-  - 破坏性创新实证批判
-  - 破坏性创新理论的实证批判King
-  - 破坏性创新理论的实证批判King2015/Lepore2014
-  - 者的窘境
-  - 覆创新实证研究
+- Christensen
+- King Baatartogtokh
+- Lepore批判
+- 创新者的窘境
+- 卡重叠
+- 坏性创新理论的批评
+- 实证批判
+- 生产前需检查与现有
+- 破坏性创新实证批判
+- 破坏性创新理论的实证批判King
+- 破坏性创新理论的实证批判King2015/Lepore2014
+- 者的窘境
+- 覆创新实证研究
 source_refs:
-  - King & Baatartogtokh 2015, MIT Sloan: How Useful Is the Theory of Disruptive Innovation?
-  - Lepore 2014, The New Yorker: The Disruption Machine
-  - Lile, Ansari & Urmetzer 2025, Innovation: Rethinking Disruptive Innovation
+- King & Baatartogtokh 2015, MIT Sloan: How Useful Is the Theory of Disruptive Innovation?
+- Lepore 2014, The New Yorker: The Disruption Machine
+- Lile, Ansari & Urmetzer 2025, Innovation: Rethinking Disruptive Innovation
 related:
-  - framework-christensen-disruptive-innovation
-  - dk-qinpeng-three-corrections
-  - dk-disruptive-innovation-insight-vs-survey
-  - concept-christensen-jtbd-link
-  - framework-科学决策三角形
-  - tool-科学决策关键训练清单
-  - framework-christensen-value-network
-  - case-demand-milkshake-jtbd
+- framework-christensen-disruptive-innovation
+- dk-qinpeng-three-corrections
+- dk-disruptive-innovation-insight-vs-survey
+- concept-christensen-jtbd-link
+- framework-科学决策三角形
+- tool-科学决策关键训练清单
+- framework-christensen-value-network
+- case-demand-milkshake-jtbd
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:实证批判
-  - scene:理论验证
-  - audience:方法
-  - content-format:dk
-  - source-person:King
-  - source-person:Lepore
+- method:实证批判
+- scene:理论验证
+- audience:方法
+- content-format:dk
+- source-person:King
+- source-person:Lepore
 discoverable_by:
-  - "破坏性创新理论的批评"
-  - "Christensen理论不成立"
-  - "颠覆创新实证研究"
+- 破坏性创新理论的批评
+- Christensen理论不成立
+- 颠覆创新实证研究
 diagnostic_signals:
-  - signal: "生产前需检查与现有Critique卡重叠"
-    severity: moderate
-    implication: "wiki已有大量Christensen引用——需确认本卡不重复"
+- signal: 生产前需检查与现有Critique卡重叠
+  severity: moderate
+  implication: wiki已有大量Christensen引用——需确认本卡不重复
 ---
 
 > **定位**：属于 `framework-christensen-disruptive-innovation` 的**外部批判汇编**——该框架最有力的学术反对声音。

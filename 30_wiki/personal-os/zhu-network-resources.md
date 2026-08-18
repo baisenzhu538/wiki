@@ -2,15 +2,15 @@
 id: zhu-network-resources
 title: 老朱关键关系与资源档案
 type: system
-status: active
+status: enriched
 created_at: 2026-07-19
 updated_at: 2026-07-19
 domain:
-  - personal-os
+- personal-os
 related:
-  - "[[zhu-project-board]]"
-  - "[[zhu-strategic-conclusions]]"
-  - "[[user-insight-profile]]"
+- '[[zhu-project-board]]'
+- '[[zhu-strategic-conclusions]]'
+- '[[user-insight-profile]]'
 tags:
 - audience:manager
 - scene:reference

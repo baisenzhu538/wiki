@@ -1,27 +1,26 @@
 ---
-
 id: fd-forward-deployment
 title: Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式
 type: concept
 status: enriched
 confidence: 0.85
-trust_level: medium-high
+trust_level: high
 domain:
 - business-strategy
 - ai-saas
 aliases:
-  - DeploymentFD模式
-  - ForwardDeploymentFD模式：企业级AI落地的高接触服务范式
-  - 企业级
-  - 的高接触服务范式
-  - 落地的高接触服务范式
+- DeploymentFD模式
+- ForwardDeploymentFD模式：企业级AI落地的高接触服务范式
+- 企业级
+- 的高接触服务范式
+- 落地的高接触服务范式
 source_refs:
 - pending_archive:src_20260614_ab09af1c-多人-FD模式解析
 - src_20260614_ab09af1c-多人-FD模式解析
 discoverable_by:
-  - Forward DeploymentFD模式：企业级 AI
-  - 企业级
-  - 落地的高接触服务范式
+- Forward DeploymentFD模式：企业级 AI
+- 企业级
+- 落地的高接触服务范式
 related:
 - - - tool-media-verification-overview
 - - - business-validation-models-collaboration

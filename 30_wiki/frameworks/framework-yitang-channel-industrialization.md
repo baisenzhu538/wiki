@@ -3,36 +3,36 @@ id: framework-yitang-channel-industrialization
 type: framework
 title: 渠道工业化生产：让高不确定工作持续高质量交付
 status: reviewed
-domain:
+domain: yitang
 confidence: 0.8
 trust_level: medium
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
-quality_labels:
+quality_labels: null
 updated_at: '2026-06-28'
 aliases:
-  - Truman
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 一堂五步法之增长
-  - 不确定工作交付
-  - 全策略集
-  - 定工作交付
-  - 渠道工业化生产
-  - 渠道工业化生产：让高不确定工作持续高质量交付
-  - 让高不确定工作持续高质量交付
-  - 道标准化生产
-source_refs:
+- Truman
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 一堂五步法之增长
+- 不确定工作交付
+- 全策略集
+- 定工作交付
+- 渠道工业化生产
+- 渠道工业化生产：让高不确定工作持续高质量交付
+- 让高不确定工作持续高质量交付
+- 道标准化生产
+source_refs: null
 source_person: Truman
-related:
+related: null
 discoverable_by:
-  - "渠道工业化"
-  - "高不确定工作交付"
-  - "渠道标准化生产"
+- 渠道工业化
+- 高不确定工作交付
+- 渠道标准化生产
 review_date: '2026-06-28'
-tags:
+tags: null
 ---
 # 渠道工业化生产：让高不确定工作持续高质量交付
 

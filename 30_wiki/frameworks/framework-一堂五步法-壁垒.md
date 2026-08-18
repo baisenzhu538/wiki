@@ -11,32 +11,18 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "壁垒六大护城河"
-  - "真假壁垒判断"
+- 壁垒六大护城河
+- 真假壁垒判断
 diagnostic_signals:
   lens: 假壁垒——品牌是结果不是壁垒
   follow-up: 六大护城河逐一检查——品牌不在六条里
-quality_labels:
-tags:
-aliases:
-  - 一堂五步法壁垒：六大护城河+真假壁垒判断
-  - 一堂五步法
-  - 壁垒
-  - 六大护城河+真假壁垒判断
-  - 护城河
-  - 假壁垒判断
-aliases:
-  - 一堂五步法壁垒：六大护城河+真假壁垒判断
-  - 一堂五步法
-  - 壁垒
-  - 六大护城河+真假壁垒判断
-  - 假壁垒判断
-  - 垒六大护城河
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 一堂五步法·壁垒：六大护城河+真假壁垒判断
 

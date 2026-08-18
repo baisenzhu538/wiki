@@ -1,5 +1,4 @@
 ---
-
 id: tool-审美工具箱
 title: 审美工具箱：产品审美的诊断和提升工具集合
 type: tool
@@ -9,22 +8,22 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 产品审美的诊断和提升工具集合
-  - 审美工具箱
-  - 审美工具箱：产品审美的诊断和提升工具集合
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 产品审美的诊断和提升工具集合
+- 审美工具箱
+- 审美工具箱：产品审美的诊断和提升工具集合
+source_refs: null
 discoverable_by:
-  - 审美工具箱：产品审美的诊断和提升工具集合
-  - 审美工具箱
-  - 产品审美的诊断和提升工具集合
-related:
+- 审美工具箱：产品审美的诊断和提升工具集合
+- 审美工具箱
+- 产品审美的诊断和提升工具集合
+related: null
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 审美工具箱：产品审美的诊断和提升工具集合
 

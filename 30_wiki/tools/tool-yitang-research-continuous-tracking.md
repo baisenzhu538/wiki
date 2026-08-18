@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-continuous-tracking
 title: 持续跟踪：建立动态信息监控机制
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 建立动态信息监控机制
-  - 持续跟踪
-  - 持续跟踪：建立动态信息监控机制
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 建立动态信息监控机制
+- 持续跟踪
+- 持续跟踪：建立动态信息监控机制
 discoverable_by:
-  - 持续跟踪：建立动态信息监控机制
-  - 持续跟踪
-  - 建立动态信息监控机制
-related:
-tags:
+- 持续跟踪：建立动态信息监控机制
+- 持续跟踪
+- 建立动态信息监控机制
+related: null
+tags: null
 ---
 # 持续跟踪：建立动态信息监控机制
 

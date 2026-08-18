@@ -13,7 +13,7 @@ source_refs:
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
-trust_level: medium-low
+trust_level: low
 updated_at: '2026-06-29'
 related:
 - - - dk-state-residue-is-the-silent-killer

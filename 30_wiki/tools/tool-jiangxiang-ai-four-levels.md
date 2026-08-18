@@ -8,45 +8,45 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 aliases:
-  - AI四层级
-  - 个人表达力
-  - 你会什么
-  - 四层级
-  - 定制创
-  - 才更容易替你调用什么
-  - 抄/改/改+定制创/创
-  - 讲香AI协作
-  - 讲香AI协作四层级
-  - 讲香AI协作四层级：抄/改/改+定制创/创
-  - 讲香初学者
+- AI四层级
+- 个人表达力
+- 你会什么
+- 四层级
+- 定制创
+- 才更容易替你调用什么
+- 抄/改/改+定制创/创
+- 讲香AI协作
+- 讲香AI协作四层级
+- 讲香AI协作四层级：抄/改/改+定制创/创
+- 讲香初学者
 source_refs:
-  - 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
+- 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
 related:
-  - framework-一堂-个人表达力
-  - tool-讲香基本功-十指模型
-  - dk-ai-as-last-step-not-first
-  - tool-qinpeng-ai-intelligent-service
-  - concept-qinpeng-ai-as-amplifier
+- framework-一堂-个人表达力
+- tool-讲香基本功-十指模型
+- dk-ai-as-last-step-not-first
+- tool-qinpeng-ai-intelligent-service
+- concept-qinpeng-ai-as-amplifier
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:AI协作
-  - scene:讲香
-  - scene:AI辅助
-  - audience:讲香初学者
-  - content-format:tool
-  - source-person:李頔
+- method:AI协作
+- scene:讲香
+- scene:AI辅助
+- audience:讲香初学者
+- content-format:tool
+- source-person:李頔
 discoverable_by:
-  - "AI写讲香"
-  - "AI辅助讲香"
-  - "怎么用AI讲香"
+- AI写讲香
+- AI辅助讲香
+- 怎么用AI讲香
 diagnostic_signals:
-  - signal: "暗知识E金句——'你会什么AI才更容易替你调用什么'"
-    severity: low
-    implication: "与#214 dk-ai-as-last-step-not-first 互为表里"
+- signal: 暗知识E金句——'你会什么AI才更容易替你调用什么'
+  severity: low
+  implication: 与#214 dk-ai-as-last-step-not-first 互为表里
 ---
 
 > **定位**：属于 `framework-一堂-个人表达力` 的**AI辅助层**——用AI加速讲香训练，但你必须先知道自己要什么。

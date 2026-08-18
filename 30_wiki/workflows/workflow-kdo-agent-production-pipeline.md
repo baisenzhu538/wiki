@@ -1,56 +1,56 @@
 ---
 id: workflow-kdo-agent-production-pipeline
-title: "KDO Agent 生产流水线：spec → 三件套注入 → Agent 自举"
+title: KDO Agent 生产流水线：spec → 三件套注入 → Agent 自举
 type: workflow
 status: reviewed
 domain:
-  - kdo
-  - ai-basic
+- kdo
+- ai-basic
 author: 老顽童（黄药师初稿）
 reviewed_by: 待审
 review_date: 2026-08-09
-confidence: 0.90
-trust_level: observed
+confidence: 0.9
+trust_level: medium
 source_refs:
-  - 00_inbox/Agent生产流水线-案例-AI基本功教练自举-20260809.md
-  - agents/agent-os.md
-  - agents/agent-basic-skills-coach/CLAUDE.md
-  - 30_wiki/tools/agent-spec-basic-skills-coach.md
-  - 30_wiki/dark-knowledges/dk-agent-access-kdo-pitfalls.md
+- 00_inbox/Agent生产流水线-案例-AI基本功教练自举-20260809.md
+- agents/agent-os.md
+- agents/agent-basic-skills-coach/CLAUDE.md
+- 30_wiki/tools/agent-spec-basic-skills-coach.md
+- 30_wiki/dark-knowledges/dk-agent-access-kdo-pitfalls.md
 created_at: 2026-08-09
 updated_at: 2026-08-09
 tags:
-  - audience:huangyaoshi
-  - audience:laowantong
-  - audience:wangyuyan
-  - scene:reference
-  - skill-level:advanced
+- audience:huangyaoshi
+- audience:laowantong
+- audience:wangyuyan
+- scene:reference
+- skill-level:advanced
 aliases:
-  - Agent生产流水线
-  - Agent自举
-  - Agent三件套
-  - AI基本功教练
-  - agent-basic-skills-coach
+- Agent生产流水线
+- Agent自举
+- Agent三件套
+- AI基本功教练
+- agent-basic-skills-coach
 discoverable_by:
-  - Agent生产流水线
-  - Agent自举
-  - 三件套
+- Agent生产流水线
+- Agent自举
+- 三件套
 diagnostic_signals:
-  - signal: '新 Agent 上线没有标准化流程——每次都是黄药师手配，配置质量参差不齐'
-    severity: high
-    implication: '王语嫣/洪七公/段王爷的 SOUL.md 缺 KDO 知识地图——教练试出来的缺口，全厂都有'
-  - signal: 'Agent 能力边界 = spec + 三件套——缺任一件则 Agent 无法自举'
-    severity: high
-    implication: 'spec 定义"做什么"，三件套定义"怎么在 KDO 里做"——两件不缺才能自举'
+- signal: 新 Agent 上线没有标准化流程——每次都是黄药师手配，配置质量参差不齐
+  severity: high
+  implication: 王语嫣/洪七公/段王爷的 SOUL.md 缺 KDO 知识地图——教练试出来的缺口，全厂都有
+- signal: Agent 能力边界 = spec + 三件套——缺任一件则 Agent 无法自举
+  severity: high
+  implication: spec 定义"做什么"，三件套定义"怎么在 KDO 里做"——两件不缺才能自举
 related:
-  - '[[agent-spec-basic-skills-coach]]'
-  - '[[dk-agent-access-kdo-pitfalls]]'
-  - '[[concept-kdo-feature-registry]]'
-  - '[[system-kdo-quality-framework]]'
-  - '[[kdo-moc]]'
-  - '[[workflow-cross-agent-fact-dispute]]'
-  - '[[agent-spec-zhu-ai-coach]]'
-  - '[[agent-spec-复盘教练]]'
+- '[[agent-spec-basic-skills-coach]]'
+- '[[dk-agent-access-kdo-pitfalls]]'
+- '[[concept-kdo-feature-registry]]'
+- '[[system-kdo-quality-framework]]'
+- '[[kdo-moc]]'
+- '[[workflow-cross-agent-fact-dispute]]'
+- '[[agent-spec-zhu-ai-coach]]'
+- '[[agent-spec-复盘教练]]'
 ---
 
 # KDO Agent 生产流水线

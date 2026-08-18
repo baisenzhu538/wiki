@@ -4,58 +4,58 @@ title: 「案例：直播复盘提示词五轮迭代——Feature链从4个到25
 type: case
 status: reviewed
 confidence: 0.82
-trust_level: observed
+trust_level: medium
 domain:
-  - ai-basic
-  - ecommerce
+- ai-basic
+- ecommerce
 author: 老顽童
 source_refs:
-  - 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
+- 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
 source_person: jeffgirl（Live258 学员）
 source_context: Live258 AI基本功第一课优秀作业·jeffgirl 直播复盘提示词 1.0→5.0 迭代实录（L1825-L2421），学员二手自述
 reviewed_by: 欧阳锋
 aliases:
-  - 直播复盘提示词
-  - jeffgirl
-  - Feature链
-  - V1到V5
-  - AI基本功
-  - Live258
+- 直播复盘提示词
+- jeffgirl
+- Feature链
+- V1到V5
+- AI基本功
+- Live258
 discoverable_by:
-  - 直播复盘
-  - Feature链
-  - 提示词迭代
-  - 叠加链式
-  - 粉丝非粉丝错配
+- 直播复盘
+- Feature链
+- 提示词迭代
+- 叠加链式
+- 粉丝非粉丝错配
 related:
-  - framework-truman-feature-thinking-core
-  - framework-truman-feature-layered-system
-  - dk-demand-feature-stacking
-  - ai-basic-domain-digest
-  - case-live258-zhihu-content-acquisition
-  - case-live258-fact-spread-18-bridges
-  - tool-feature-review-five-step
+- framework-truman-feature-thinking-core
+- framework-truman-feature-layered-system
+- dk-demand-feature-stacking
+- ai-basic-domain-digest
+- case-live258-zhihu-content-acquisition
+- case-live258-fact-spread-18-bridges
+- tool-feature-review-five-step
 tags:
-  - method:feature-thinking
-  - method:prompt-engineering
-  - scene:livestream
-  - audience:practitioner
-  - content-format:case
-  - source-person:student
-  - evidence:observed
+- method:feature-thinking
+- method:prompt-engineering
+- scene:livestream
+- audience:practitioner
+- content-format:case
+- source-person:student
+- evidence:observed
 created_at: 2026-08-12
 updated_at: 2026-08-12
 quality_labels:
-  - insight
-  - actionable
-  - principle
+- insight
+- actionable
+- principle
 diagnostic_signals:
-  - signal: "迭代提示词靠'感觉不太对'，说不清差在哪"
-    lens: 缺Feature识别的词汇表——模糊焦虑没有变成精准假设
-    follow_up: 对照Feature周期表逐项排查——"感觉不够深入"=缺CoT、"没对比意识"=缺多轮对话
-  - signal: "复盘报告能分析但发现不了系统性错配"
-    lens: 数据混在一起分析——缺人群/渠道分层Feature
-    follow_up: 按粉丝/非粉丝、渠道、单品三个维度分层拆数据
+- signal: 迭代提示词靠'感觉不太对'，说不清差在哪
+  lens: 缺Feature识别的词汇表——模糊焦虑没有变成精准假设
+  follow_up: 对照Feature周期表逐项排查——"感觉不够深入"=缺CoT、"没对比意识"=缺多轮对话
+- signal: 复盘报告能分析但发现不了系统性错配
+  lens: 数据混在一起分析——缺人群/渠道分层Feature
+  follow_up: 按粉丝/非粉丝、渠道、单品三个维度分层拆数据
 review_date: 2026-08-13
 ---
 > 本卡属于 [[framework-truman-feature-thinking-core]] 的应用实证——Feature 思维"识别缺失→补上→验证"迭代循环的完整实录（V1 4 个 → V5 25+ 个 Feature）。与 [[framework-truman-feature-layered-system]] 的 L2 提示词层、L4 协作层对应；是 `[[dk-demand-feature-stacking]]` 链式组合机制（上输出=下输入）的核心实证。

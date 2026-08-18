@@ -1,32 +1,31 @@
 ---
-
 id: tool-red-team-analysis
 title: Red Team Analysis（红队分析/竞对视角模拟）
 type: tool
-domain:
+domain: management
 discoverable_by:
-  - Red Team Analysis红队分析/竞对视角模拟
-  - Analysis红队分析/竞对视角模拟
-tags:
+- Red Team Analysis红队分析/竞对视角模拟
+- Analysis红队分析/竞对视角模拟
+tags: null
 source_person: Richards J. Heuer Jr. + Truman（一堂）
 source_context: SATs 反向类技术工具化实现
 aliases:
-  - Analysis红队分析/竞对视角模拟
-  - RedTeamAnalysis红队分析/竞对视角模拟
-  - Richards J. Heuer Jr. + Truman（一堂）
-  - [[case-ai-time-management-tiered-growth]]
-  - [[case-doris-2014-music-streaming-prediction]]
-  - [[case-escort-service-tiered-growth]]
-  - [[case-liutao-douyin-team-leader-9m]]
-  - [[framework-yitang-18-strategy-cards]]
-  - [[tool-harness-adversarial-tester]]
-  - [[tool-strategy-activity-scope]]
-  - 三个新盲区
-  - 外部知识探索
-  - 竞对视角模拟
-  - 红队分析
-source_refs:
-related:
+- Analysis红队分析/竞对视角模拟
+- RedTeamAnalysis红队分析/竞对视角模拟
+- Richards J. Heuer Jr. + Truman（一堂）
+- - - case-ai-time-management-tiered-growth
+- - - case-doris-2014-music-streaming-prediction
+- - - case-escort-service-tiered-growth
+- - - case-liutao-douyin-team-leader-9m
+- - - framework-yitang-18-strategy-cards
+- - - tool-harness-adversarial-tester
+- - - tool-strategy-activity-scope
+- 三个新盲区
+- 外部知识探索
+- 竞对视角模拟
+- 红队分析
+source_refs: null
+related: null
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

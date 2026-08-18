@@ -11,33 +11,18 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "个人学习方法总框架"
-  - "IPO×四环闭环"
+- 个人学习方法总框架
+- IPO×四环闭环
 diagnostic_signals:
-  lens: 缺总框架——四环孤立，没有闭环意识
-  follow-up: 用本卡的四环链路定位当前在哪个环节，补相邻环
   lens: 概念打架——两个框架都有Input/Process/Output
   follow-up: 读本卡§四的IPO×Y边界表——IPO管学习，Y管创业
-quality_labels:
-tags:
-aliases:
-  - 个人学习方法总框架：IPO×四环闭环
-  - 个人学习方法总框架
-  - IPO×四环闭环
-  - 四环闭环
-  - 人学习方法总框架
-  - 习方法总框架
-aliases:
-  - 个人学习方法总框架：IPO×四环闭环
-  - 个人学习方法总框架
-  - IPO×四环闭环
-  - 人学习方法总框架
-  - 四环闭环
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 个人学习方法总框架：IPO×四环闭环
 

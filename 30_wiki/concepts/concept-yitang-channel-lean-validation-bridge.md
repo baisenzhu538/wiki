@@ -1,5 +1,4 @@
 ---
-
 id: concept-yitang-channel-lean-validation-bridge
 type: concept
 title: 渠道精益验证：把渠道 0→1 测试当作一种 MVP
@@ -9,18 +8,18 @@ domain:
 - growth
 - lean-startup
 confidence: 0.8
-trust_level: medium-high
+trust_level: high
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-27
 updated_at: '2026-06-29'
 aliases:
-  - Truman
-  - 把渠道
-  - 测试当作一种
-  - 渠道精益验证
-  - 渠道精益验证：把渠道0→1测试当作一种MVP
-  - 精益验证
+- Truman
+- 把渠道
+- 测试当作一种
+- 渠道精益验证
+- 渠道精益验证：把渠道0→1测试当作一种MVP
+- 精益验证
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - pending_archive:lean-startup-domain-digest
@@ -30,10 +29,10 @@ source_refs:
 - diag_20260627_wangyuyan-cross-domain-bridge-supplement
 source_person: Truman
 discoverable_by:
-  - 渠道精益验证：把渠道 0→1 测试当作一种 MVP
-  - 渠道精益验证
-  - 把渠道
-  - 测试当作一种
+- 渠道精益验证：把渠道 0→1 测试当作一种 MVP
+- 渠道精益验证
+- 把渠道
+- 测试当作一种
 related:
 - - - framework-yitang-channel-exploration-4step
 - - - framework-yitang-channel-industrialization

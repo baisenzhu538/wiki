@@ -1,5 +1,4 @@
 ---
-
 id: tool-用户视角
 title: 用户视角：跳出产品思维看用户
 type: tool
@@ -9,22 +8,22 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 用户视角
-  - 用户视角：跳出产品思维看用户
-  - 跳出产品思维看用户
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 用户视角
+- 用户视角：跳出产品思维看用户
+- 跳出产品思维看用户
+source_refs: null
 discoverable_by:
-  - 用户视角：跳出产品思维看用户
-  - 用户视角
-  - 跳出产品思维看用户
-related:
+- 用户视角：跳出产品思维看用户
+- 用户视角
+- 跳出产品思维看用户
+related: null
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 用户视角：跳出产品思维看用户
 

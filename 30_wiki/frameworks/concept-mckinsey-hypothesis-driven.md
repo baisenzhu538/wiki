@@ -3,13 +3,13 @@ id: concept-mckinsey-hypothesis-driven
 title: Hypothesis-Driven Approach：假设驱动工作法
 type: framework
 aliases:
-  - HypothesisDrivenApproach：假设驱动工作法
-  - 假设驱动工作法
-  - 假设验证
-  - 动方法论
-  - 肯锡假设驱动
-  - 设驱动工作法
-  - 设驱动方法论
+- HypothesisDrivenApproach：假设驱动工作法
+- 假设驱动工作法
+- 假设验证
+- 动方法论
+- 肯锡假设驱动
+- 设驱动工作法
+- 设驱动方法论
 source_refs:
 - pending_archive: src_unknown
 status: enriched
@@ -22,10 +22,10 @@ bridges_to:
   description: 麦肯锡版本聚焦商业分析问题诊断，一堂版本聚焦创业假设验证
   context: 两套假设驱动方法论同源但场景不同：麦肯锡在解决'已知问题的最优解'，一堂在验证'未知市场的可行性'
 discoverable_by:
-  - "假设驱动工作法"
-  - "麦肯锡假设驱动"
-  - "MECE假设验证"
-  - "假设驱动方法论"
+- 假设驱动工作法
+- 麦肯锡假设驱动
+- MECE假设验证
+- 假设驱动方法论
 diagnostic_signals:
 - framework_lens: Hypothesis-Driven 检查：是否已形成可验证的初始假设
   follow_up_question: 如果让你用一句话说出'最可能导致这个问题的3个原因'，你会说什么？这就是你的初始假设
@@ -57,7 +57,7 @@ updated_at: '2026-06-16'
 reviewed_by: laowantong
 author: 老顽童
 confidence: 0.85
-trust_level: medium-high
+trust_level: high
 ---
 # Hypothesis-Driven Approach：假设驱动工作法
 

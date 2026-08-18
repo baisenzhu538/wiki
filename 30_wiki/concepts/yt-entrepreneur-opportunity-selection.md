@@ -1,9 +1,8 @@
 ---
-
 domain:
 - entrepreneurship
 id: yt-entrepreneur-opportunity-selection
-title: "机会选择"
+title: 机会选择
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -23,16 +22,18 @@ review_date: 2026-05-08
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 机会选择
+- 机会选择
 source_refs:
 - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 discoverable_by:
-  - 机会选择
+- 机会选择
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 课程地图精华串讲
+type: concept
+status: draft
 ---
 # 机会选择
 

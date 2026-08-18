@@ -6,37 +6,25 @@ status: enriched
 author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
-quality_labels:
+quality_labels: null
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: yitang
 difficulty: intermediate
 estimated_tokens: 4000
 version: 1
-query_triggers:
-aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 专家访谈黄金十步法
-  - 专家访谈黄金十步法：从盲区梳理到专家匹配
-  - 从盲区梳理到专家匹配
-  - 区梳理到专家匹配
-  - 家访谈十步法
-  - 家访谈方法
-  - 访谈黄金十步法
-  - 谈十步法
-source_refs:
-related:
-discoverable_by:
-  - "专家访谈十步法"
-  - "盲区梳理到专家匹配"
-  - "专家访谈方法"
-tags:
+query_triggers: null
 aliases: []
+source_refs: null
+related: null
+discoverable_by:
+- 专家访谈十步法
+- 盲区梳理到专家匹配
+- 专家访谈方法
+tags: null
 ---
 # 专家访谈黄金十步法：从盲区梳理到专家匹配
 

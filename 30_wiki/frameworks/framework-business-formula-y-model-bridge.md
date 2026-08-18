@@ -10,32 +10,17 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-12
 updated_at: 2026-07-12
-domain:
-source_refs:
-related:
+domain: business-formula
+source_refs: null
+related: null
 discoverable_by:
-  - "业务公式Y模型桥接"
+- 业务公式Y模型桥接
 diagnostic_signals:
-  lens: Y模型给了"提出关键假设"这个动作但没给"怎么提出好假设"的方法——C域补的就是这个缺口
-  follow-up: 把当前假设池的每个假设用参数冰山L1-L6打分：能落到L3以下（分层/转化/创新/魔法）的才是好假设
   lens: Y模型的迭代是"假设→验证→新假设"的循环，但如果没有参数认知的积累，新假设不会比旧假设更好
   follow-up: 在Y模型每轮迭代后补一步"参数认知升级"：这轮验证让我们对哪个参数的理解深了一层？
-quality_labels:
-tags:
-aliases:
-  - 业务公式×Y模型桥接：关键假设层的全面操作化
-  - 业务公式×Y模型桥接
-  - 关键假设层的全面操作化
-  - 假设层的全面操作化
-  - 务公式
-  - 模型桥接
-aliases:
-  - 业务公式×Y模型桥接：关键假设层的全面操作化
-  - 业务公式×Y模型桥接
-  - 关键假设层的全面操作化
-  - 模型桥接
-  - 务公式
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 <!--
   桥接卡骨架 — C域本体卡产出后补充 wikilink。

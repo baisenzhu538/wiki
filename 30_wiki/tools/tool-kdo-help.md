@@ -1,48 +1,48 @@
 ---
 id: tool-kdo-help
-title: "kdo_help MCP 工具——外部 Agent 首次接入 KDO 的结构化引导"
+title: kdo_help MCP 工具——外部 Agent 首次接入 KDO 的结构化引导
 type: tool
 status: reviewed
 domain: kdo
 author: 黄药师
 reviewed_by: 欧阳锋
-confidence: 0.80
-trust_level: observed
+confidence: 0.8
+trust_level: medium
 aliases:
-  - kdo_help
-  - 新人引导
-  - MCP引导
-  - KDO接入引导
+- kdo_help
+- 新人引导
+- MCP引导
+- KDO接入引导
 source_refs:
-  - kdo-tools/mcp/tools.py
+- kdo-tools/mcp/tools.py
 diagnostic_signals:
-  - signal: '外部Agent首次接入KDO不知如何检索——工具描述是技术参数非操作手册'
-    severity: high
-    implication: '小昭接到任务后反复尝试才找到正确检索路径——kdo_help一次调用即可消除摸索成本'
-  - signal: 'MCP tool description无路由信息——Agent不知道搜不到时换什么工具'
-    severity: medium
-    implication: 'kdo_help补上了搜索模式+评分指引+工具路由网'
-  - signal: '新Agent接入无标准化onboarding——每次都是重新摸索'
-    severity: medium
-    implication: 'kdo_help=可复用的新人引导——一次调用理解KDO完整检索模型'
+- signal: 外部Agent首次接入KDO不知如何检索——工具描述是技术参数非操作手册
+  severity: high
+  implication: 小昭接到任务后反复尝试才找到正确检索路径——kdo_help一次调用即可消除摸索成本
+- signal: MCP tool description无路由信息——Agent不知道搜不到时换什么工具
+  severity: medium
+  implication: kdo_help补上了搜索模式+评分指引+工具路由网
+- signal: 新Agent接入无标准化onboarding——每次都是重新摸索
+  severity: medium
+  implication: kdo_help=可复用的新人引导——一次调用理解KDO完整检索模型
 related:
-  - '[[tool-mcp-reachability-check]]'
-  - '[[framework-kdo-self-attack]]'
-  - '[[dk-delivery-path-type-bug]]'
-  - '[[dk-E010-duplicate-key-detection]]'
-  - '[[dk-P42-agent-fact-check-gap]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
+- '[[tool-mcp-reachability-check]]'
+- '[[framework-kdo-self-attack]]'
+- '[[dk-delivery-path-type-bug]]'
+- '[[dk-E010-duplicate-key-detection]]'
+- '[[dk-P42-agent-fact-check-gap]]'
+- '[[dk-c8-format-complete-mind-empty]]'
 created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04
 tags:
-  - audience:external-agent
-  - scene:onboarding
-  - skill-level:beginner
+- audience:external-agent
+- scene:onboarding
+- skill-level:beginner
 discoverable_by:
-  - kdo_help
-  - 新人引导
-  - MCP引导
+- kdo_help
+- 新人引导
+- MCP引导
 ---
 # kdo_help MCP 工具
 

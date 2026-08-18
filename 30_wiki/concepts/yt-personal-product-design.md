@@ -1,9 +1,8 @@
 ---
-
 domain:
 - personal-growth
 id: yt-personal-product-design
-title: "泛产品设计"
+title: 泛产品设计
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
@@ -23,18 +22,20 @@ review_date: 2026-05-08
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 品设计
-  - 泛产品设计
+- 品设计
+- 泛产品设计
 source_refs:
 - 10_raw/sources/src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece.md
 discoverable_by:
-  - 泛产品设计
+- 泛产品设计
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 泛产品设计
 - 落地卡片
+type: concept
+status: draft
 ---
 # 泛产品设计
 

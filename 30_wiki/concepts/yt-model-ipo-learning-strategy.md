@@ -16,8 +16,8 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - IPO 科学学习全景策略
-  - 科学学习全景策略
+- IPO 科学学习全景策略
+- 科学学习全景策略
 related:
 - '[[一堂]]'
 - '[[yt-personal-ipo-learning]]'
@@ -29,9 +29,9 @@ related:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - IPO科学学习全景策略
-  - 学习全景策略
-  - 科学学习全景策略
+- IPO科学学习全景策略
+- 学习全景策略
+- 科学学习全景策略
 source_refs:
 - 10_raw/sources/src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型.md
 status: enriched
@@ -53,7 +53,7 @@ diagnostic_signals:
   follow_up_question: 你的输出有没有人看、有人评、有人用？如果没有，你在 closed loop 里练习
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:ceo
 - scene:diagnosis

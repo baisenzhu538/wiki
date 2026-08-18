@@ -16,15 +16,15 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
-trust_level: medium-low
+trust_level: low
 aliases:
-  - Y模型/科学决策
-  - 科学决策
+- Y模型/科学决策
+- 科学决策
 source_refs:
 - 10_raw/sources/src_20260522_0bb1cb6e-ocr-一堂y模型steps策略集.md
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_0bb1cb6e）
 discoverable_by:
-  - Y模型/科学决策
+- Y模型/科学决策
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'

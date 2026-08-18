@@ -3,55 +3,54 @@ id: case-shuishui-business-insight
 title: 「案例：水水缝隙需求洞察——好生意藏在缝隙里」
 type: case
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-09
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - human-insights
-  - business-strategy
+- human-insights
+- business-strategy
 author: 老顽童
 source_refs:
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
 source_person: 水水
 source_context: 水水一堂拆书会（L566-640）
-reviewed_by: 待审
 aliases:
-  - 水水缝隙需求
-  - 好生意藏在缝隙
-  - 缝隙需求
+- 水水缝隙需求
+- 好生意藏在缝隙
+- 缝隙需求
 discoverable_by:
-  - 水水
-  - 缝隙需求
-  - 好生意
-  - 蜜雪冰城
+- 水水
+- 缝隙需求
+- 好生意
+- 蜜雪冰城
 related:
-  - tool-narrative-thinking-user-insight
-  - framework-how-to-know-a-person
-  - framework-christensen-disruptive-innovation
-  - bridge-how-to-know-person-to-business
-  - case-ai-pet-emotional-product
-  - framework-一堂五步法-泛产品设计
+- tool-narrative-thinking-user-insight
+- framework-how-to-know-a-person
+- framework-christensen-disruptive-innovation
+- bridge-how-to-know-person-to-business
+- case-ai-pet-emotional-product
+- framework-一堂五步法-泛产品设计
 tags:
-  - method:business-strategy
-  - method:user-insight
-  - scene:entrepreneurship
-  - audience:founders
-  - content-format:case
-  - source-person:水水
+- method:business-strategy
+- method:user-insight
+- scene:entrepreneurship
+- audience:founders
+- content-format:case
+- source-person:水水
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels:
-  - insight
-  - cited
-  - actionable
+- insight
+- cited
+- actionable
 diagnostic_signals:
-  - signal: "你的创业idea瞄准了一个'大市场'"
-    lens: 大市场=大公司的主场——小企业在大市场里没有竞争优势
-    follow_up: 问：这个大市场里有什么缝隙是大公司看不上、但你正好熟悉的？
-  - signal: "看了很多行业报告，找不到可以切入的点"
-    lens: 行业报告覆盖的是"大场景"——缝隙藏在报告覆盖不到的地方
-    follow_up: 不看报告——去和你熟悉的人群聊：他们最近有什么"如果有这个东西就好了"的瞬间？
+- signal: 你的创业idea瞄准了一个'大市场'
+  lens: 大市场=大公司的主场——小企业在大市场里没有竞争优势
+  follow_up: 问：这个大市场里有什么缝隙是大公司看不上、但你正好熟悉的？
+- signal: 看了很多行业报告，找不到可以切入的点
+  lens: 行业报告覆盖的是"大场景"——缝隙藏在报告覆盖不到的地方
+  follow_up: 不看报告——去和你熟悉的人群聊：他们最近有什么"如果有这个东西就好了"的瞬间？
 ---
 
 > 定位：本卡属于人域"看见"支柱在商业中的实证——水水本人的缝隙需求洞察方法论，与 `[[framework-christensen-disruptive-innovation]]` 同构。

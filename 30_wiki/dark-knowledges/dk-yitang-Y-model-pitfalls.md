@@ -1,34 +1,33 @@
 ---
-
 id: dk-yitang-Y-model-pitfalls
 title: Y模型常见六大陷阱与反打
-type: dark-knowledge
+type: dk
 dark_knowledge_type: failure
 status: reviewed
 source_person: 李善友 / 一堂课程设计
 source_context: 一堂底层逻辑域·Y模型课程（2026-07-03）
 aliases:
-  - Y模型常见六大陷阱与反打
-  - case-yitang-Y-model-advertising-turnaround
-  - case-yitang-Y-model-seven-applications
-  - concept-X型Y型决策习惯
-  - framework-kdo-self-attack
-  - master-decision-hygiene
-  - tool-yitang-Y-model-application
-  - yt-decision-y-model
-  - 一堂课程设计
-  - 七人逐步骤对标分析
-  - 型常见六大陷阱与反打
-  - 李善友 / 一堂课程设计
-source_refs:
-domain:
+- Y模型常见六大陷阱与反打
+- case-yitang-Y-model-advertising-turnaround
+- case-yitang-Y-model-seven-applications
+- concept-X型Y型决策习惯
+- framework-kdo-self-attack
+- master-decision-hygiene
+- tool-yitang-Y-model-application
+- yt-decision-y-model
+- 一堂课程设计
+- 七人逐步骤对标分析
+- 型常见六大陷阱与反打
+- 李善友 / 一堂课程设计
+source_refs: null
+domain: yitang
 discoverable_by:
-  - Y模型常见六大陷阱与反打
-tags:
+- Y模型常见六大陷阱与反打
+tags: null
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋
-related:
+related: null
 created_at: 2026-07-03
 updated_at: '2026-07-03'
 author: 老顽童

@@ -8,26 +8,26 @@ reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain:
+domain: product
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 不要过早细化未经思考的产品内核
-  - 不要过早细化未经思考的内核
-  - 产品内核
-  - 产品内核：不要过早细化未经思考的内核
-  - 品内核
-  - 益产品内核
-  - 精益创业
-  - 过早细化未经思考的内核
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 不要过早细化未经思考的产品内核
+- 不要过早细化未经思考的内核
+- 产品内核
+- 产品内核：不要过早细化未经思考的内核
+- 品内核
+- 益产品内核
+- 精益创业
+- 过早细化未经思考的内核
+source_refs: null
+related: null
 discoverable_by:
-  - "精益产品内核"
+- 精益产品内核
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 产品内核：不要过早细化未经思考的内核
 

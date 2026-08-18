@@ -10,35 +10,18 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-11
 updated_at: 2026-07-11
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "四类工作四化"
-  - "基本功进攻方向"
+- 四类工作四化
+- 基本功进攻方向
 diagnostic_signals:
-  lens: 创造类工作被按标准类管理——4 化错位，把探索当执行管
-  follow-up: 创造类只追到「专业化」为止（建池子/多轮减法），SOP 要求立即撤掉
-  lens: 领先类工作没标准化——能力长在人身上没长在组织上
-  follow-up: 启动「建模型+持续复盘升级」，三个月内把该能力的套路落到文档和小抄
   lens: 把类别当标签不当坐标——类别允许重合、允许随阶段迁移
   follow-up: 按「成功率是否开放」和「是否依赖特定个人」两问快速定位，定完就走
-quality_labels:
-tags:
-aliases:
-  - 五类工作×4化：基本功的进攻方向诊断图
-  - 五类工作
-  - 基本功的进攻方向诊断图
-  - 作四化
-  - 进攻方向
-  - 本功进攻方向
-aliases:
-  - 五类工作×4化：基本功的进攻方向诊断图
-  - 五类工作
-  - 基本功的进攻方向诊断图
-  - 本功进攻方向
-  - 类工作四化
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 五类工作 × 4化：基本功的进攻方向诊断图
 

@@ -1,31 +1,30 @@
 ---
-
 id: tool-马易-减少输入噪音法
 title: 技能：减少输入噪音法
 type: tool
-domain:
+domain: unknown
 status: reviewed
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 created_at: '2026-06-15'
 confidence: 0.7
-trust_level: medium-low
+trust_level: low
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 减少输入噪音法
-  - 技能
-  - 技能：减少输入噪音法
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 减少输入噪音法
+- 技能
+- 技能：减少输入噪音法
 source_refs: null
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 updated_at: '2026-06-29'
 discoverable_by:
-  - 技能：减少输入噪音法
-  - 减少输入噪音法
-related:
-tags:
+- 技能：减少输入噪音法
+- 减少输入噪音法
+related: null
+tags: null
 ---
 # 技能：减少输入噪音法
 

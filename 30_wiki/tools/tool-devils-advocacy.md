@@ -1,27 +1,26 @@
 ---
-
 id: tool-devils-advocacy
 title: Devil's Advocacy（魔鬼代言人）
 type: tool
-domain:
+domain: strategy
 discoverable_by:
-  - Devil's Advocacy魔鬼代言人
-  - Advocacy魔鬼代言人
-tags:
+- Devil's Advocacy魔鬼代言人
+- Advocacy魔鬼代言人
+tags: null
 source_person: Richars J. Heuer Jr. + Truman（一堂）
 source_context: SATs 反向类技术工具化实现
 aliases:
-  - Advocacy魔鬼代言人
-  - Devil'sAdvocacy魔鬼代言人
-  - Richars J. Heuer Jr. + Truman（一堂）
-  - [[framework-yitang-18-strategy-cards]]
-  - [[pending_unknown]]
-  - [[tool-半肥猫-ai-research-validation]]
-  - 三个新盲区
-  - 外部知识探索
-  - 魔鬼代言人
-source_refs:
-related:
+- Advocacy魔鬼代言人
+- Devil'sAdvocacy魔鬼代言人
+- Richars J. Heuer Jr. + Truman（一堂）
+- - - framework-yitang-18-strategy-cards
+- - - pending_unknown
+- - - tool-半肥猫-ai-research-validation
+- 三个新盲区
+- 外部知识探索
+- 魔鬼代言人
+source_refs: null
+related: null
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

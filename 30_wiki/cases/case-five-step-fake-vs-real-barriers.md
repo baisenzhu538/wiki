@@ -4,11 +4,11 @@ title: 案例：五步法中识别真壁垒和假壁垒
 type: case
 domain: src-unknown
 aliases:
-  - Truman
-  - 五步法中识别真壁垒和假壁垒
-  - 案例
-  - 案例：五步法中识别真壁垒和假壁垒
-  - 法中识别真壁垒和假壁垒
+- Truman
+- 五步法中识别真壁垒和假壁垒
+- 案例
+- 案例：五步法中识别真壁垒和假壁垒
+- 法中识别真壁垒和假壁垒
 source_refs:
 - 10_raw/sources/src_20260610_426daf30-一堂-一堂五步法-壁垒-口述.md
 - 10_raw/sources/src_20260610_8ac68c66-一堂-一堂五步法-壁垒-笔记.md
@@ -19,8 +19,8 @@ difficulty: intermediate
 estimated_tokens: 2400
 language: zh-CN
 discoverable_by:
-  - 案例：五步法中识别真壁垒和假壁垒
-  - 五步法中识别真壁垒和假壁垒
+- 案例：五步法中识别真壁垒和假壁垒
+- 五步法中识别真壁垒和假壁垒
 quality_labels:
 - actionable
 - cited
@@ -58,7 +58,7 @@ wiki_refs:
 - src_unknown
 - src_unknown
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 updated_at: '2026-06-29'
 related:
 - '[[yt-five-step-method]]'

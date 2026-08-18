@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-validate-assumption
 title: 调研先行验证假设：在行动前杀死错误想法
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: beginner
 estimated_tokens: 3000
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 在行动前杀死错误想法
-  - 调研先行验证假设
-  - 调研先行验证假设：在行动前杀死错误想法
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 在行动前杀死错误想法
+- 调研先行验证假设
+- 调研先行验证假设：在行动前杀死错误想法
 discoverable_by:
-  - 调研先行验证假设：在行动前杀死错误想法
-  - 调研先行验证假设
-  - 在行动前杀死错误想法
-related:
-tags:
+- 调研先行验证假设：在行动前杀死错误想法
+- 调研先行验证假设
+- 在行动前杀死错误想法
+related: null
+tags: null
 ---
 # 调研先行验证假设：在行动前杀死错误想法
 

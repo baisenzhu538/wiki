@@ -5,30 +5,30 @@ type: framework
 status: draft
 confidence: 0.9
 trust_level: high
-domain:
+domain: unknown
 author: 黄药师
 reviewed_by: 待审
 created_at: '2026-07-21'
 updated_at: '2026-07-21'
-quality_labels:
+quality_labels: null
 aliases:
-  - VA四维法从图片到结构化视觉分析的通用方法论
-  - audience:ceo
-  - capabilities
-  - outputs
-  - scene:diagnosis
-  - skill-level:advanced
-  - 从图片到结构化视觉分析的通用方法论
-  - 四维法
-  - 析通用方法
-  - 片到结构化视觉分析的通用方法论
-  - 觉分析通用方法
-source_refs:
-related:
+- VA四维法从图片到结构化视觉分析的通用方法论
+- audience:ceo
+- capabilities
+- outputs
+- scene:diagnosis
+- skill-level:advanced
+- 从图片到结构化视觉分析的通用方法论
+- 四维法
+- 析通用方法
+- 片到结构化视觉分析的通用方法论
+- 觉分析通用方法
+source_refs: null
+related: null
 discoverable_by:
-  - "VA四维法"
-  - "视觉分析通用方法"
-tags:
+- VA四维法
+- 视觉分析通用方法
+tags: null
 ---
 # VA 四维法——从图片到结构化视觉分析的通用方法论
 

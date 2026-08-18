@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-cross-validation
 title: 交叉验证：多源印证的信息可信度提升
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: beginner
 estimated_tokens: 2500
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 交叉验证
-  - 交叉验证：多源印证的信息可信度提升
-  - 多源印证的信息可信度提升
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 交叉验证
+- 交叉验证：多源印证的信息可信度提升
+- 多源印证的信息可信度提升
 discoverable_by:
-  - 交叉验证：多源印证的信息可信度提升
-  - 交叉验证
-  - 多源印证的信息可信度提升
-related:
-tags:
+- 交叉验证：多源印证的信息可信度提升
+- 交叉验证
+- 多源印证的信息可信度提升
+related: null
+tags: null
 ---
 # 交叉验证：多源印证的信息可信度提升
 

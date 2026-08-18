@@ -1,58 +1,58 @@
 ---
 id: kdo-moc
-title: "KDO 主题域 MOC：KDO 自身的基建知识"
+title: KDO 主题域 MOC：KDO 自身的基建知识
 type: index
 domain:
-  - system
-  - kdo
+- system
+- kdo
 status: draft
 author: 黄药师
 reviewed_by: 待审
 review_date: 2026-08-06
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 source_refs:
-  - 30_wiki/domains/retrospective-moc.md
+- 30_wiki/domains/retrospective-moc.md
 created_at: 2026-08-06
 updated_at: 2026-08-06
 tags:
-  - audience:huangyaoshi
-  - audience:wangyuyan
-  - scene:reference
-  - skill-level:intermediate
+- audience:huangyaoshi
+- audience:wangyuyan
+- scene:reference
+- skill-level:intermediate
 aliases:
-  - kdo MOC
-  - KDO基建
-  - KDO工具索引
-  - 工厂基建
+- kdo MOC
+- KDO基建
+- KDO工具索引
+- 工厂基建
 discoverable_by:
-  - kdo MOC
-  - KDO基建
-  - KDO工具
-  - 工厂基建
+- kdo MOC
+- KDO基建
+- KDO工具
+- 工厂基建
 diagnostic_signals:
-  - signal: 'KDO 域 53 张卡——基建知识、事故教训、工具脚本分散在各目录'
-    severity: medium
-    implication: '新黄药师会话启动时不知道有什么工具/教训可用——需要 MOC 做失忆恢复导航'
-  - signal: 'KDO 域是唯一"工厂建设者"视角的域——其他域是方法论使用者视角'
-    severity: low
-    implication: '黄药师的专属域——其他角色偶尔查阅'
+- signal: KDO 域 53 张卡——基建知识、事故教训、工具脚本分散在各目录
+  severity: medium
+  implication: 新黄药师会话启动时不知道有什么工具/教训可用——需要 MOC 做失忆恢复导航
+- signal: KDO 域是唯一"工厂建设者"视角的域——其他域是方法论使用者视角
+  severity: low
+  implication: 黄药师的专属域——其他角色偶尔查阅
 related:
-  - '[[framework-kdo-modeling-methodology]]'
-  - '[[framework-kdo-self-attack]]'
-  - '[[concept-kdo-component-library]]'
-  - '[[dk-E010-duplicate-key-detection]]'
-  - '[[dk-P42-agent-fact-check-gap]]'
-  - '[[dk-delivery-path-type-bug]]'
-  - '[[dk-infrastructure-guardrails-over-checklist]]'
-  - '[[dk-tool-chain-naming-is-infrastructure]]'
-  - '[[dk-state-residue-is-the-silent-killer]]'
-  - '[[dk-kdo-leaky-pipe-pressure]]'
-  - '[[dk-publish-collapse-to-iterate]]'
-  - '[[workflow-cross-agent-fact-dispute]]'
-  - '[[tool-mcp-reachability-check]]'
-  - '[[tool-kdo-help]]'
-  - '[[graph-rag]]'
+- '[[framework-kdo-modeling-methodology]]'
+- '[[framework-kdo-self-attack]]'
+- '[[concept-kdo-component-library]]'
+- '[[dk-E010-duplicate-key-detection]]'
+- '[[dk-P42-agent-fact-check-gap]]'
+- '[[dk-delivery-path-type-bug]]'
+- '[[dk-infrastructure-guardrails-over-checklist]]'
+- '[[dk-tool-chain-naming-is-infrastructure]]'
+- '[[dk-state-residue-is-the-silent-killer]]'
+- '[[dk-kdo-leaky-pipe-pressure]]'
+- '[[dk-publish-collapse-to-iterate]]'
+- '[[workflow-cross-agent-fact-dispute]]'
+- '[[tool-mcp-reachability-check]]'
+- '[[tool-kdo-help]]'
+- '[[graph-rag]]'
 ---
 
 # KDO 主题域 MOC

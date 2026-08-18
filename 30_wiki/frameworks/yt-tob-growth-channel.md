@@ -4,16 +4,16 @@ title: To B 增长模式取舍：直销 vs 渠道
 type: framework
 status: enriched
 domain:
-  - yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+- yitang
+- entrepreneurship
+- b2b
+- business-strategy
 aliases:
-  - ToB增长模式取舍：直销vs渠道
-  - 增长模式取舍
-  - 模式取舍
-  - 渠道
-  - 直销
+- ToB增长模式取舍：直销vs渠道
+- 增长模式取舍
+- 模式取舍
+- 渠道
+- 直销
 source_refs:
 - pending_archive: src_unknown
 tags:
@@ -33,7 +33,7 @@ reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 review_date: '2026-06-16'
 confidence: 0.78
-trust_level: medium-high
+trust_level: high
 related:
 - '[[yt-tob-unit-model]]'
 - '[[tool-区分获客渠道计算单元roi]]'

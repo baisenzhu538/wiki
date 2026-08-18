@@ -1,9 +1,8 @@
 ---
-
 domain:
 - yitang
 id: yt-ai-trend-12-signals
-title: "AI趋势12大变化模型"
+title: AI趋势12大变化模型
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: intermediate
@@ -21,12 +20,12 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 status: enriched
 updated_at: '2026-07-09'
 aliases:
-  - AI趋势12大变化模型
-  - 大变化模型
+- AI趋势12大变化模型
+- 大变化模型
 source_refs:
 - pending_archive:src_20260614_82a4fdb9-凯文凯利-必然趋势分享
 discoverable_by:
-  - AI趋势12大变化模型
+- AI趋势12大变化模型
 related:
 - '[[framework-一堂-机会预判]]'
 - '[[yt-foresight-business-spectrum]]'
@@ -38,6 +37,7 @@ tags:
 - skill-level:intermediate
 - 凯文凯利
 - 必然趋势分享
+type: concept
 ---
 # AI趋势12大变化模型
 

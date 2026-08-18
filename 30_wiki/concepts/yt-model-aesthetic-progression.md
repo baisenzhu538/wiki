@@ -14,9 +14,9 @@ query_triggers:
 - src_unknown：从看不见到大胆想象的进化路径
 - src_unknown
 discoverable_by:
-  - 审美提升的层级：从看不见到大胆想象的进化路径
-  - 审美提升的层级
-  - 从看不见到大胆想象的进化路径
+- 审美提升的层级：从看不见到大胆想象的进化路径
+- 审美提升的层级
+- 从看不见到大胆想象的进化路径
 related:
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-product-excellence]]'
@@ -26,11 +26,11 @@ related:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 不见到大胆想象的进化路径
-  - 从看不见到大胆想象的进化路径
-  - 审美提升的层级
-  - 审美提升的层级：从看不见到大胆想象的进化路径
-  - 提升的层级
+- 不见到大胆想象的进化路径
+- 从看不见到大胆想象的进化路径
+- 审美提升的层级
+- 审美提升的层级：从看不见到大胆想象的进化路径
+- 提升的层级
 source_refs:
 - 10_raw/sources/src_20260522_7d2a79f8-ocr-审美提升的层级.md
 status: enriched
@@ -50,7 +50,7 @@ diagnostic_signals:
   follow_up_question: 你能说出你所在领域里3个被广泛认可的最佳实践吗？如果不能，先回到L1-L2
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:ceo
 - scene:diagnosis

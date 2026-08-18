@@ -1,48 +1,48 @@
 ---
 id: tool-mcp-reachability-check
-title: "MCP 可发现性自查——新卡提交前验证外部 Agent 能否搜到"
+title: MCP 可发现性自查——新卡提交前验证外部 Agent 能否搜到
 type: tool
 status: reviewed
 domain: kdo
 author: 黄药师
 reviewed_by: 欧阳锋
-confidence: 0.80
-trust_level: observed
+confidence: 0.8
+trust_level: medium
 aliases:
-  - 可发现性自查
-  - reachability check
-  - mcp搜索验证
-  - 搜索可达性自查
+- 可发现性自查
+- reachability check
+- mcp搜索验证
+- 搜索可达性自查
 source_refs:
-  - kdo-tools/mcp-reachability-check.py
+- kdo-tools/mcp-reachability-check.py
 diagnostic_signals:
-  - signal: '老顽童提交新卡前不自检搜索可达性——外部Agent搜不到但pre-submit不报错'
-    severity: high
-    implication: '创新者的窘境案例：卡已入库但小昭搜不到——空title+缺aliases'
-  - signal: 'pre-submit只查结构不查搜索——#219补了title/aliases但未验证搜索生效'
-    severity: medium
-    implication: '门禁和实际搜索之间有gap——此工具补上'
-  - signal: 'import被site-packages MCP SDK劫持——脚本无法运行'
-    severity: medium
-    implication: '已用importlib.util绝对路径加载修复'
+- signal: 老顽童提交新卡前不自检搜索可达性——外部Agent搜不到但pre-submit不报错
+  severity: high
+  implication: 创新者的窘境案例：卡已入库但小昭搜不到——空title+缺aliases
+- signal: pre-submit只查结构不查搜索——#219补了title/aliases但未验证搜索生效
+  severity: medium
+  implication: 门禁和实际搜索之间有gap——此工具补上
+- signal: import被site-packages MCP SDK劫持——脚本无法运行
+  severity: medium
+  implication: 已用importlib.util绝对路径加载修复
 related:
-  - '[[tool-kdo-help]]'
-  - '[[dk-delivery-path-type-bug]]'
-  - '[[dk-E010-duplicate-key-detection]]'
-  - '[[framework-kdo-self-attack]]'
-  - '[[dk-P42-agent-fact-check-gap]]'
-  - '[[dk-c8-format-complete-mind-empty]]'
+- '[[tool-kdo-help]]'
+- '[[dk-delivery-path-type-bug]]'
+- '[[dk-E010-duplicate-key-detection]]'
+- '[[framework-kdo-self-attack]]'
+- '[[dk-P42-agent-fact-check-gap]]'
+- '[[dk-c8-format-complete-mind-empty]]'
 created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04
 tags:
-  - audience:producer
-  - scene:pre-submit
-  - skill-level:beginner
+- audience:producer
+- scene:pre-submit
+- skill-level:beginner
 discoverable_by:
-  - 可发现性自查
-  - reachability
-  - MCP搜索测试
+- 可发现性自查
+- reachability
+- MCP搜索测试
 ---
 # MCP 可发现性自查
 

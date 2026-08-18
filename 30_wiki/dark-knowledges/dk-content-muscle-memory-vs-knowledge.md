@@ -1,19 +1,18 @@
 ---
-
 id: dk-content-muscle-memory-vs-knowledge
 title: 内容创作中的肌肉记忆：很多能力不是知识
-type: dark-knowledge
+type: dk
 dark_knowledge_type: insight
 status: reviewed
 source_person: wayofmusic / Vikki 战队
 source_context: Vikki 战队 2 群讨论「AI 味 vs 人味」和「信息 × 情绪」时提出：内容创作里很多能力不是知识，是肌肉记忆，很难抽象出来。
 aliases:
-  - wayofmusic / Vikki 战队
-  - 内容创作中的肌肉记忆
-  - 内容创作中的肌肉记忆：很多能力不是知识
-  - 创作中的肌肉记忆
-  - 很多能力不是知识
-  - 能力不是知识
+- wayofmusic / Vikki 战队
+- 内容创作中的肌肉记忆
+- 内容创作中的肌肉记忆：很多能力不是知识
+- 创作中的肌肉记忆
+- 很多能力不是知识
+- 能力不是知识
 source_refs:
 - 00_inbox/AI-study/0071Vikki战队-2群 · 认知精华提炼.md
 domain:
@@ -28,9 +27,9 @@ review_date: '2026-07-02'
 trust_level: medium
 confidence: 0.84
 discoverable_by:
-  - 内容创作中的肌肉记忆：很多能力不是知识
-  - 内容创作中的肌肉记忆
-  - 很多能力不是知识
+- 内容创作中的肌肉记忆：很多能力不是知识
+- 内容创作中的肌肉记忆
+- 很多能力不是知识
 related:
 - '[[yt-personal-deliberate-practice]]'
 - '[[tool-ai-skill-engineering-method]]'

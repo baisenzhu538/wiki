@@ -1,50 +1,50 @@
 ---
 id: dk-P42-agent-fact-check-gap
-title: "P-42：Agent 凭错误核查挑战审查结论——git 字节验证缺位"
+title: P-42：Agent 凭错误核查挑战审查结论——git 字节验证缺位
 type: dk
 status: reviewed
 domain: kdo
 author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 aliases:
-  - P-42
-  - 事实争议
-  - git字节验证
-  - Agent记忆不可靠
+- P-42
+- 事实争议
+- git字节验证
+- Agent记忆不可靠
 source_refs:
-  - 60_feedback/diagnosis/diag_20260804_huangyaoshi-cross-agent-fact-dispute-lessons.md
-  - 20_memory/operating-principles.md
+- 60_feedback/diagnosis/diag_20260804_huangyaoshi-cross-agent-fact-dispute-lessons.md
+- 20_memory/operating-principles.md
 diagnostic_signals:
-  - signal: 'Agent凭记忆断言文件历史状态——无git命令附证'
-    severity: high
-    implication: '王语嫣初判dk-yi-tang为历史遗留→欧阳锋git字节验证推翻→错误处置差点被采纳'
-  - signal: '跨Agent事实争议无标准裁决流程——靠谁说的有道理'
-    severity: high
-    implication: '王语嫣vs欧阳锋各执一词→无git字节证据→争论升级'
-  - signal: '审查者收到异议后倾向辩论而非验证——1秒能终结的问题争论了30分钟'
-    severity: medium
-    implication: '浪费审查轮次，延误处置决策'
+- signal: Agent凭记忆断言文件历史状态——无git命令附证
+  severity: high
+  implication: 王语嫣初判dk-yi-tang为历史遗留→欧阳锋git字节验证推翻→错误处置差点被采纳
+- signal: 跨Agent事实争议无标准裁决流程——靠谁说的有道理
+  severity: high
+  implication: 王语嫣vs欧阳锋各执一词→无git字节证据→争论升级
+- signal: 审查者收到异议后倾向辩论而非验证——1秒能终结的问题争论了30分钟
+  severity: medium
+  implication: 浪费审查轮次，延误处置决策
 related:
-  - '[[dk-E010-duplicate-key-detection]]'
-  - '[[framework-kdo-self-attack]]'
-  - '[[workflow-cross-agent-fact-dispute]]'
-  - '[[dk-P15-false-completion-report]]'
-  - '[[framework-kdo-modeling-methodology]]'
-  - '[[dk-c5-todo-false-positive]]'
+- '[[dk-E010-duplicate-key-detection]]'
+- '[[framework-kdo-self-attack]]'
+- '[[workflow-cross-agent-fact-dispute]]'
+- '[[dk-P15-false-completion-report]]'
+- '[[framework-kdo-modeling-methodology]]'
+- '[[dk-c5-todo-false-positive]]'
 created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04
 tags:
-  - audience:builder
-  - scene:reference
-  - skill-level:advanced
+- audience:builder
+- scene:reference
+- skill-level:advanced
 discoverable_by:
-  - P-42
-  - 事实争议
-  - git字节验证
-  - Agent记忆
+- P-42
+- 事实争议
+- git字节验证
+- Agent记忆
 ---
 # P-42：Agent 凭错误核查挑战审查结论
 

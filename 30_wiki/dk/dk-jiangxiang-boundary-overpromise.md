@@ -8,42 +8,42 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 aliases:
-  - 价值感化不是造假
-  - 夸大宣传红线
-  - 宣传红线
-  - 提出边界问题
-  - 讲香初学者
-  - 讲香边界
-  - 讲香边界：价值感化不是造假
-  - 香和夸大宣传的区别
+- 价值感化不是造假
+- 夸大宣传红线
+- 宣传红线
+- 提出边界问题
+- 讲香初学者
+- 讲香边界
+- 讲香边界：价值感化不是造假
+- 香和夸大宣传的区别
 source_refs:
-  - 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
-  - 10_raw/sources/src_20260802_讲香基本功-李頔-笔记.txt
+- 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
+- 10_raw/sources/src_20260802_讲香基本功-李頔-笔记.txt
 related:
-  - concept-讲香-卖点直给到价值感
-  - tool-讲香基本功-十指模型
-  - framework-一堂-个人表达力
-  - framework-yitang-jiangxiang-strategy-selection
-  - dk-ai-as-last-step-not-first
+- concept-讲香-卖点直给到价值感
+- tool-讲香基本功-十指模型
+- framework-一堂-个人表达力
+- framework-yitang-jiangxiang-strategy-selection
+- dk-ai-as-last-step-not-first
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:边界
-  - scene:讲香
-  - audience:讲香初学者
-  - content-format:dk
-  - source-person:李頔
+- method:边界
+- scene:讲香
+- audience:讲香初学者
+- content-format:dk
+- source-person:李頔
 discoverable_by:
-  - "讲香是不是欺骗"
-  - "讲香和夸大宣传的区别"
-  - "讲香的边界在哪"
+- 讲香是不是欺骗
+- 讲香和夸大宣传的区别
+- 讲香的边界在哪
 diagnostic_signals:
-  - signal: "笔记§3.1提出边界问题——讲香vs虚假宣传的区分"
-    severity: moderate
-    implication: "必须显式标注法律和道德边界"
+- signal: 笔记§3.1提出边界问题——讲香vs虚假宣传的区分
+  severity: moderate
+  implication: 必须显式标注法律和道德边界
 ---
 
 > **定位**：属于 `concept-讲香-卖点直给到价值感` 的**安全边界补丁**——讲香是"价值感化"不是"造假"。本分到位是本事有效的前提。

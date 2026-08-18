@@ -1,5 +1,4 @@
 ---
-
 id: tool-项目背景分析
 title: 项目背景分析：启动前的环境扫描
 type: tool
@@ -9,23 +8,23 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 启动前的环境扫描
-  - 项目背景分析
-  - 项目背景分析：启动前的环境扫描
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 启动前的环境扫描
+- 项目背景分析
+- 项目背景分析：启动前的环境扫描
+source_refs: null
 discoverable_by:
-  - 项目背景分析：启动前的环境扫描
-  - 项目背景分析
-  - 启动前的环境扫描
-related:
+- 项目背景分析：启动前的环境扫描
+- 项目背景分析
+- 启动前的环境扫描
+related: null
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 项目背景分析：启动前的环境扫描
 

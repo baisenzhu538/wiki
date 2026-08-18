@@ -11,33 +11,33 @@ updated_at: '2026-06-29'
 confidence: 0.92
 trust_level: high
 language: zh-CN
-domain:
+domain: yitang
 difficulty: advanced
 estimated_tokens: 4000
 version: 1
-query_triggers:
+query_triggers: null
 aliases:
-  - audience:ceo
-  - capabilities
-  - layer
-  - scene:diagnosis
-  - skill-level:advanced
-  - 业分析深挖
-  - 九层深挖法
-  - 九层深挖法：商业分析的自我纠错式迭代框架
-  - 商业分析的自我纠错式迭代框架
-  - 层深挖法
-  - 我纠错迭代分析
-  - 析深挖
-  - 深挖框架
-source_refs:
-related:
+- audience:ceo
+- capabilities
+- layer
+- scene:diagnosis
+- skill-level:advanced
+- 业分析深挖
+- 九层深挖法
+- 九层深挖法：商业分析的自我纠错式迭代框架
+- 商业分析的自我纠错式迭代框架
+- 层深挖法
+- 我纠错迭代分析
+- 析深挖
+- 深挖框架
+source_refs: null
+related: null
 discoverable_by:
-  - "九层深挖法"
-  - "自我纠错迭代分析"
-  - "商业分析深挖"
-  - "L1-L9深挖框架"
-tags:
+- 九层深挖法
+- 自我纠错迭代分析
+- 商业分析深挖
+- L1-L9深挖框架
+tags: null
 ---
 # 九层深挖法：商业分析的自我纠错式迭代框架
 

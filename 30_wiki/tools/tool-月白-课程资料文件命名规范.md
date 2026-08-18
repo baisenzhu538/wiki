@@ -7,16 +7,16 @@ domain: design
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 aliases:
-  - 学习资料归档规范
-  - 技能
-  - 技能：课程资料文件命名规范
-  - 月白
-  - 月白课程命名
-  - 课程命名
-  - 课程资料文件命名规范
-  - 资料归档规范
+- 学习资料归档规范
+- 技能
+- 技能：课程资料文件命名规范
+- 月白
+- 月白课程命名
+- 课程命名
+- 课程资料文件命名规范
+- 资料归档规范
 source_refs:
-  - 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
+- 10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md
 wiki_refs: null
 definition_of_done:
 - src_unknown
@@ -30,8 +30,8 @@ pipeline:
 - src_unknown
 author: 月白
 reviewed_by: 老顽童
-confidence: 0.80
-trust_level: observed
+confidence: 0.8
+trust_level: medium
 related:
 - '[[tool-月白-左手Cubox右手里程碑学习法]]'
 - '[[tool-月白-设计师AI资产四类型沉淀]]'
@@ -45,9 +45,9 @@ tags:
 quality_labels:
 - cited
 diagnostic_signals:
-- "课程资料散落在不同文件夹无法复现→未按课程+时间归档"
-- "作业素材和课程笔记混淆→命名未区分资料类型"
-discoverable_by: "月白课程命名、课程资料归档、学习资料命名、课程文件管理"
+- 课程资料散落在不同文件夹无法复现→未按课程+时间归档
+- 作业素材和课程笔记混淆→命名未区分资料类型
+discoverable_by: 月白课程命名、课程资料归档、学习资料命名、课程文件管理
 ---
 # 技能：课程资料文件命名规范
 

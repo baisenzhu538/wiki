@@ -2,16 +2,16 @@
 id: zhu-weekly-reflections
 title: 老朱周度思考汇编
 type: system
-status: active
+status: enriched
 created_at: 2026-07-19
 updated_at: 2026-07-19
 domain:
-  - personal-os
+- personal-os
 related:
-  - "[[zhu-lessons-learned]]"
-  - "[[zhu-strategic-conclusions]]"
-  - "[[zhu-network-resources]]"
-  - "[[zhu-project-board]]"
+- '[[zhu-lessons-learned]]'
+- '[[zhu-strategic-conclusions]]'
+- '[[zhu-network-resources]]'
+- '[[zhu-project-board]]'
 tags:
 - audience:manager
 - scene:reference

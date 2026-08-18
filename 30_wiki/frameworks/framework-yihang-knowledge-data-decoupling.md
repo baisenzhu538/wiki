@@ -11,26 +11,26 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
-domain:
+domain: yihang
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂双三角
-  - 人机协作双三角
-  - 件式知识组合
-  - 插件式组合
-  - 核心词
-  - 知识层与数据层解耦
-  - 知识层与数据层解耦：核心词+datapack插件式组合
-  - 识数据解耦
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 一堂双三角
+- 人机协作双三角
+- 件式知识组合
+- 插件式组合
+- 核心词
+- 知识层与数据层解耦
+- 知识层与数据层解耦：核心词+datapack插件式组合
+- 识数据解耦
+source_refs: null
+related: null
 discoverable_by:
-  - "知识数据解耦"
-  - "核心词data pack"
-  - "插件式知识组合"
-tags:
+- 知识数据解耦
+- 核心词data pack
+- 插件式知识组合
+tags: null
 ---
 # 知识层与数据层解耦：核心词 + data pack 插件式组合
 

@@ -6,46 +6,39 @@ status: reviewed
 confidence: 0.88
 trust_level: high
 domain:
-  - kdo
-  - quality
-  - meta-methodology
+- kdo
+- quality
+- meta-methodology
 author: 鑰侀〗绔?
 reviewed_by: 寰呭
-review_date: "2026-07-19"
+review_date: '2026-07-19'
 review_grade: A-
-created_at: "2026-07-19"
-updated_at: "2026-07-19"
+created_at: '2026-07-19'
+updated_at: '2026-07-19'
 quality_labels:
-  - insight
-  - principle
-  - actionable
+- insight
+- principle
+- actionable
 source_refs:
-  - 30_wiki/frameworks/framework-kdo-self-attack.md
-  - 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md
-  - 60_feedback/audit/kcard-issues-board-2026-06-15.md
-  - 60_feedback/tasks/task_20260714_wangyuyan-badcase-feedback-loop.md
-  - .agent/laowantong-context.md
-related:
+- 30_wiki/frameworks/framework-kdo-self-attack.md
+- 30_wiki/frameworks/framework-ouyangfeng-review-methodology.md
+- 60_feedback/audit/kcard-issues-board-2026-06-15.md
+- 60_feedback/tasks/task_20260714_wangyuyan-badcase-feedback-loop.md
+- .agent/laowantong-context.md
+related: null
 aliases:
-  - KDOBadCase鍥炴祦鏈哄埗锛氫粠鐢ㄦ埛绾犻敊鍒扮煡璇嗚繘鍖栫殑闂幆
-  - 反馈机制
-  - 鍥炴祦鏈哄埗锛氫粠鐢
-  - 埛绾犻敊鍒扮煡璇嗚繘鍖栫殑闂
-  - 错知识进化
-  - 户纠错知识进化
-aliases:
-  - KDOBadCase鍥炴祦鏈哄埗锛氫粠鐢ㄦ埛绾犻敊鍒扮煡璇嗚繘鍖栫殑闂幆
-  - 户纠错知识进化
-  - 反馈机制
+- KDOBadCase鍥炴祦鏈哄埗锛氫粠鐢ㄦ埛绾犻敊鍒扮煡璇嗚繘鍖栫殑闂幆
+- 户纠错知识进化
+- 反馈机制
 discoverable_by:
-  - "KDO Bad Case"
-  - "Bad Case反馈机制"
-  - "用户纠错知识进化"
-  - framework-kdo-self-attack
-  - framework-ouyangfeng-review-methodology
-  - system-kdo-quality-labels
-  - kdo-flywheel
-  - yt-decision-y-model
+- KDO Bad Case
+- Bad Case反馈机制
+- 用户纠错知识进化
+- framework-kdo-self-attack
+- framework-ouyangfeng-review-methodology
+- system-kdo-quality-labels
+- kdo-flywheel
+- yt-decision-y-model
 ---
 # KDO Bad Case 鍥炴祦鏈哄埗锛氫粠鐢ㄦ埛绾犻敊鍒扮煡璇嗚繘鍖栫殑闂幆
 

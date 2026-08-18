@@ -10,28 +10,25 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 一个产品五条标准
-  - 一个产品场景的五条标准
-  - 欢第一个产品五条标准
-  - 王欢
-  - 王欢：选第一个产品场景的五条标准
-  - 选第一个产品场景的五条标准
-source_refs:
-domain:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 一个产品五条标准
+- 一个产品场景的五条标准
+- 欢第一个产品五条标准
+- 王欢
+- 王欢：选第一个产品场景的五条标准
+- 选第一个产品场景的五条标准
+source_refs: null
+domain: wanghuan
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
-diagnostic_signals:
-follow_up: 用“我自己每周都头疼吗”重验，要求提出者提供自己的使用场景
-follow_up: 把大任务拆细，找其中每周都在发生的子任务
-follow_up: 用“我做了一个__，它帮__在__场景下，把__变成__”句式强制压缩
+diagnostic_signals: null
 follow_up: 设定一周后的使用复盘，若无人使用则回任务层重验
-related:
+related: null
 discoverable_by:
-  - "王欢第一个产品五条标准"
-tags:
+- 王欢第一个产品五条标准
+tags: null
 ---
 # 王欢：选第一个产品场景的五条标准
 

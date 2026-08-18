@@ -4,10 +4,10 @@ title: 概率工程：把小概率变成大概率的方法论
 type: concept
 domain: src-unknown
 aliases:
-  - 把小概率变成大概率的方法论
-  - 概率变成大概率的方法论
-  - 概率工程
-  - 概率工程：把小概率变成大概率的方法论
+- 把小概率变成大概率的方法论
+- 概率变成大概率的方法论
+- 概率工程
+- 概率工程：把小概率变成大概率的方法论
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
@@ -42,11 +42,11 @@ diagnostic_signals:
   follow_up_question: 你的试错方向是从多少个选项中筛选出来的？如果只有1个，试错是赌博
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 discoverable_by:
-  - 概率工程：把小概率变成大概率的方法论
-  - 概率工程
-  - 把小概率变成大概率的方法论
+- 概率工程：把小概率变成大概率的方法论
+- 概率工程
+- 把小概率变成大概率的方法论
 related:
 - '[[yt-foresight-15-char-mantra]]'
 - '[[yt-foresight-ab-steady-state]]'

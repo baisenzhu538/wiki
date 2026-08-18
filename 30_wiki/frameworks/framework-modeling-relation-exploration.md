@@ -5,33 +5,33 @@ type: framework
 status: draft
 confidence: 0.88
 trust_level: high
-domain:
+domain: modeling
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
-quality_labels:
+quality_labels: null
 aliases:
-  - advanced
-  - audience:ceo
-  - modeling
-  - scene:diagnosis
-  - skill-level:advanced
-  - 从并列到因果
-  - 关系vs规律
-  - 建模的关系探索
-  - 模关系探索
-  - 模底层连接
-  - 流程建模的关系探索
-  - 流程建模的关系探索：关系vs规律，从并列到因果
-  - 系探索
-source_refs:
-related:
+- advanced
+- audience:ceo
+- modeling
+- scene:diagnosis
+- skill-level:advanced
+- 从并列到因果
+- 关系vs规律
+- 建模的关系探索
+- 模关系探索
+- 模底层连接
+- 流程建模的关系探索
+- 流程建模的关系探索：关系vs规律，从并列到因果
+- 系探索
+source_refs: null
+related: null
 discoverable_by:
-  - "建模关系探索"
-  - "建模底层连接"
-tags:
+- 建模关系探索
+- 建模底层连接
+tags: null
 ---
 # 流程建模的关系探索：关系 vs 规律，从并列到因果
 

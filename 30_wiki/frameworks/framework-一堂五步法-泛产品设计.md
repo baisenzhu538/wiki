@@ -7,26 +7,26 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 created_at: 2026-06-26
-quality_labels:
+quality_labels: null
 updated_at: '2026-07-08'
 confidence: 0.82
-trust_level: medium-high
+trust_level: high
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - 一堂 / 兰毅
-  - 一堂五步法在泛产品设计中的应用
-  - 五步法在泛产品设计中的应用
-  - 步法产品应用
-  - 步法泛产品设计
-  - 泛产品设计
-source_refs:
+- 一堂 / 兰毅
+- 一堂五步法在泛产品设计中的应用
+- 五步法在泛产品设计中的应用
+- 步法产品应用
+- 步法泛产品设计
+- 泛产品设计
+source_refs: null
 source_person: 一堂 / 兰毅
-related:
+related: null
 discoverable_by:
-  - "五步法泛产品设计"
-  - "五步法产品应用"
-  - framework-yitang-thought-liberation-lightning
+- 五步法泛产品设计
+- 五步法产品应用
+- framework-yitang-thought-liberation-lightning
 ---
 # 一堂五步法在泛产品设计中的应用
 

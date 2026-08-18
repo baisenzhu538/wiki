@@ -1,5 +1,4 @@
 ---
-
 id: tool-场景推演
 title: 场景推演：还原用户真实使用场景
 type: tool
@@ -10,22 +9,22 @@ reviewed_at: 2026-07-04
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 场景推演
-  - 场景推演：还原用户真实使用场景
-  - 还原用户真实使用场景
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 场景推演
+- 场景推演：还原用户真实使用场景
+- 还原用户真实使用场景
+source_refs: null
 discoverable_by:
-  - 场景推演：还原用户真实使用场景
-  - 场景推演
-  - 还原用户真实使用场景
-related:
+- 场景推演：还原用户真实使用场景
+- 场景推演
+- 还原用户真实使用场景
+related: null
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 场景推演：还原用户真实使用场景
 

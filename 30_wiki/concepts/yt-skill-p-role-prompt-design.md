@@ -19,22 +19,23 @@ confidence: 0.75
 trust_level: medium
 type: concept
 aliases:
-  - P角色Prompt设计执行者型AI的交付规范
-  - 执行者型
-  - 的交付规范
-  - 角色
-  - 设计
-  - 设计执行者型
+- P角色Prompt设计执行者型AI的交付规范
+- 执行者型
+- 的交付规范
+- 角色
+- 设计
+- 设计执行者型
 source_refs:
 - pending_archive:src_20260522_38173b48-design-ai-image-generation
 discoverable_by:
-  - P 角色 Prompt 设计——执行者型 AI 的交付规范
-  - 执行者型
-  - 的交付规范
+- P 角色 Prompt 设计——执行者型 AI 的交付规范
+- 执行者型
+- 的交付规范
 tags:
 - audience:executor
 - scene:reference
 - skill-level:intermediate
+status: draft
 ---
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
 

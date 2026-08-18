@@ -5,7 +5,7 @@ type: case
 status: draft
 reviewed_by: 待审（欧阳锋）
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 language: zh-CN
 created_at: 2026-08-16
 updated_at: 2026-08-16
@@ -22,7 +22,8 @@ aliases:
 - Windows CDP
 - playwright chromium
 source_person: 段王爷（南帝）实战
-source_context: 2026-08-16 尝试提取 yitanger.feishu.cn 妙记逐字稿 obcnetutt68o4r42697igyye，登录二维码过期未完成，但完整验证了 Windows 侧浏览器方案
+source_context: 2026-08-16 尝试提取 yitanger.feishu.cn 妙记逐字稿 obcnetutt68o4r42697igyye，登录二维码过期未完成，但完整验证了
+  Windows 侧浏览器方案
 source_refs:
 - capability/duanwangye/feishu-doc-l3-extraction
 related:

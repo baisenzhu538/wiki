@@ -46,6 +46,7 @@ discoverable_by:
 - 信息搜集
 - 探索流程
 - KDO调研
+domain: kdo
 ---
 
 # KDO 外部探索标准操作流程 v2（OSCAR 注入版）

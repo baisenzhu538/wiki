@@ -4,52 +4,52 @@ title: 「桥接：个人复盘×知识管理——W-Z-K-P四阶段」
 type: bridge
 status: reviewed
 confidence: 0.85
-trust_level: medium-high
+trust_level: high
 domain:
-  - personal
-  - kdo
+- personal
+- kdo
 author: 老顽童
 source_refs:
-  - 00_inbox/个人-深度复盘/_processed/批注_2026-08-05_230938_*.md
+- 00_inbox/个人-深度复盘/_processed/批注_2026-08-05_230938_*.md
 source_person: Truman
 source_context: Truman复盘课批注图230938（W-Z-K-P模型）
 reviewed_by: 欧阳锋
 review_date: 2026-08-06
 aliases:
-  - W-Z-K-P
-  - 复盘知识管理
-  - 知识萃取起点
+- W-Z-K-P
+- 复盘知识管理
+- 知识萃取起点
 discoverable_by:
-  - W-Z-K-P
-  - 复盘知识管理
-  - 知识萃取
+- W-Z-K-P
+- 复盘知识管理
+- 知识萃取
 related:
-  - framework-一堂-复盘本质与三要素
-  - framework-一堂-四象限复盘法
-  - yt-personal-deep-review
-  - yt-model-deep-review-iceberg
-  - dk-借假修真与黑盒白盒
-  - concept-kdo-component-library
-  - framework-kdo-modeling-methodology
+- framework-一堂-复盘本质与三要素
+- framework-一堂-四象限复盘法
+- yt-personal-deep-review
+- yt-model-deep-review-iceberg
+- dk-借假修真与黑盒白盒
+- concept-kdo-component-library
+- framework-kdo-modeling-methodology
 tags:
-  - method:knowledge-management
-  - method:review
-  - scene:personal-growth
-  - audience:knowledge-workers
-  - content-format:bridge
-  - source-person:Truman
+- method:knowledge-management
+- method:review
+- scene:personal-growth
+- audience:knowledge-workers
+- content-format:bridge
+- source-person:Truman
 created_at: 2026-08-06
 updated_at: 2026-08-06
 quality_labels:
-  - insight
-  - principle
+- insight
+- principle
 diagnostic_signals:
-  - signal: "复盘做了很多但知识没有积累下来"
-    lens: 复盘→知识→知识库→实践四阶段中，可能断在了'知识→知识库'——总结完没沉淀
-    follow_up: 每次复盘后强制输出一张卡片或一条知识条目
-  - signal: "知识库建了但从来不用"
-    lens: W-Z-K-P断了最后一步——'知识库→实践'的回路没闭合
-    follow_up: 下次做类似事情前，先去知识库搜索"上次这件事的复盘结论是什么"
+- signal: 复盘做了很多但知识没有积累下来
+  lens: 复盘→知识→知识库→实践四阶段中，可能断在了'知识→知识库'——总结完没沉淀
+  follow_up: 每次复盘后强制输出一张卡片或一条知识条目
+- signal: 知识库建了但从来不用
+  lens: W-Z-K-P断了最后一步——'知识库→实践'的回路没闭合
+  follow_up: 下次做类似事情前，先去知识库搜索"上次这件事的复盘结论是什么"
 ---
 
 > 定位：桥接复盘方法论（#233）与KDO知识管理体系——Truman批注图230938的W-Z-K-P模型。

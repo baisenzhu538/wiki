@@ -1,9 +1,8 @@
 ---
-
 domain:
 - entrepreneurship
 id: yt-entrepreneur-research-camp
-title: "调研行动营：从调研认知到AI调研武器库"
+title: 调研行动营：从调研认知到AI调研武器库
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
@@ -19,23 +18,25 @@ query_triggers:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 从调研认知到AI调研武器库
-  - 研认知到
-  - 行动营
-  - 调研武器库
-  - 调研行动营
-  - 调研行动营：从调研认知到AI调研武器库
+- 从调研认知到AI调研武器库
+- 研认知到
+- 行动营
+- 调研武器库
+- 调研行动营
+- 调研行动营：从调研认知到AI调研武器库
 source_refs:
 - pending_archive:src_20260510_2ba8671c-创业-调研行动营口述01
 discoverable_by:
-  - 调研行动营：从调研认知到AI调研武器库
-  - 调研行动营
-  - 从调研认知到AI调研武器库
+- 调研行动营：从调研认知到AI调研武器库
+- 调研行动营
+- 从调研认知到AI调研武器库
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 调研行动营口述
+type: concept
+status: draft
 ---
 # 调研行动营：从调研认知到AI调研武器库
 

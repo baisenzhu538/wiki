@@ -1,58 +1,58 @@
 ---
 id: product-moc
-title: "Product 主题域 MOC：产品方法论与精益验证"
+title: Product 主题域 MOC：产品方法论与精益验证
 type: index
 domain:
-  - system
-  - product
+- system
+- product
 status: draft
 author: 黄药师
 reviewed_by: 待审
 review_date: 2026-08-06
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 source_refs:
-  - 30_wiki/domains/retrospective-moc.md
+- 30_wiki/domains/retrospective-moc.md
 created_at: 2026-08-06
 updated_at: 2026-08-06
 tags:
-  - audience:laowantong
-  - audience:ouyangfeng
-  - scene:reference
-  - skill-level:intermediate
+- audience:laowantong
+- audience:ouyangfeng
+- scene:reference
+- skill-level:intermediate
 aliases:
-  - product MOC
-  - 产品索引
-  - 产品方法论
-  - 精益验证
+- product MOC
+- 产品索引
+- 产品方法论
+- 精益验证
 discoverable_by:
-  - product MOC
-  - 产品索引
-  - 产品方法论
-  - 精益验证
+- product MOC
+- 产品索引
+- 产品方法论
+- 精益验证
 diagnostic_signals:
-  - signal: 'Product 域 89 张卡——产品内核/精益验证/泛产品设计三个子主题无导航'
-    severity: high
-    implication: '老顽童查产品方法论时需要逐个 grep ——MOC 缺位意味着导航靠碰运气'
-  - signal: 'Product 域以 tool(40)和 case(15)为主——实操卡碎片化程度高'
-    severity: medium
-    implication: '没有 MOC 聚合时，用户不知道"产品内核"和"精益验证"的关系'
+- signal: Product 域 89 张卡——产品内核/精益验证/泛产品设计三个子主题无导航
+  severity: high
+  implication: 老顽童查产品方法论时需要逐个 grep ——MOC 缺位意味着导航靠碰运气
+- signal: Product 域以 tool(40)和 case(15)为主——实操卡碎片化程度高
+  severity: medium
+  implication: 没有 MOC 聚合时，用户不知道"产品内核"和"精益验证"的关系
 related:
-  - '[[concept-一堂-product-kernel]]'
-  - '[[concept-一堂-kernel-iteration]]'
-  - '[[concept-一堂-kernel-validation]]'
-  - '[[yt-product-kernel-iteration]]'
-  - '[[yt-product-kernel-validation]]'
-  - '[[yt-product-kernel-aesthetic]]'
-  - '[[yt-product-kernel-failure-modes]]'
-  - '[[yt-product-kernel-cost-sensitive-default-no]]'
-  - '[[yt-product-kernel-do-without-belief]]'
-  - '[[yt-product-kernel-overpromise-trap]]'
-  - '[[yt-composite-pan-product-methodology]]'
-  - '[[case-lean-genki-forest-toolkit]]'
-  - '[[case-milktea-five-step]]'
-  - '[[concept-一堂-product-kernel]]'
-  - '[[concept-一堂-business-prediction]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[concept-一堂-kernel-iteration]]'
+- '[[concept-一堂-kernel-validation]]'
+- '[[yt-product-kernel-iteration]]'
+- '[[yt-product-kernel-validation]]'
+- '[[yt-product-kernel-aesthetic]]'
+- '[[yt-product-kernel-failure-modes]]'
+- '[[yt-product-kernel-cost-sensitive-default-no]]'
+- '[[yt-product-kernel-do-without-belief]]'
+- '[[yt-product-kernel-overpromise-trap]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[case-lean-genki-forest-toolkit]]'
+- '[[case-milktea-five-step]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[concept-一堂-business-prediction]]'
 ---
 
 # Product 主题域 MOC

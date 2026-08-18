@@ -5,12 +5,12 @@ type: framework
 status: enriched
 domain: src-unknown
 aliases:
-  - ToB需求测算双指标：成本占有率+业务天花板
-  - 业务天花板
-  - 占有率
-  - 成本占有率
-  - 测算双指标
-  - 需求测算双指标
+- ToB需求测算双指标：成本占有率+业务天花板
+- 业务天花板
+- 占有率
+- 成本占有率
+- 测算双指标
+- 需求测算双指标
 source_refs:
 - 'pending_archive: src_unknown'
 tags:
@@ -30,7 +30,7 @@ reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 review_date: '2026-06-16'
 confidence: 0.78
-trust_level: medium-high
+trust_level: high
 related:
 - '[[yt-tob-revenue-is-customer-cost]]'
 - '[[yt-tob-demand-scenarios]]'

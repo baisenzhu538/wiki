@@ -11,24 +11,24 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
-domain:
+domain: yihang
 aliases:
-  - AI原生是结果，双三角是引擎
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂双三角
-  - 三角是引擎
-  - 人机协作双三角
-  - 原生是结果
-  - 双三角是引擎
-  - 是引擎
-  - 角是引擎
-source_refs:
-related:
+- AI原生是结果，双三角是引擎
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 一堂双三角
+- 三角是引擎
+- 人机协作双三角
+- 原生是结果
+- 双三角是引擎
+- 是引擎
+- 角是引擎
+source_refs: null
+related: null
 discoverable_by:
-  - "双三角是引擎"
-tags:
+- 双三角是引擎
+tags: null
 ---
 # AI 原生是结果，双三角是引擎
 

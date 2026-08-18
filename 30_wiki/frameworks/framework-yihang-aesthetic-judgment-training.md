@@ -10,24 +10,24 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-05
 updated_at: 2026-07-05
-domain:
+domain: yihang
 aliases:
-  - AI时代审美判断力训练系统未来教育的核心转向
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂双三角
-  - 人机协作双三角
-  - 教育的核心转向
-  - 断力训练
-  - 时代审美判断力训练系统
-  - 未来教育的核心转向
-  - 美判断力训练
-source_refs:
-related:
+- AI时代审美判断力训练系统未来教育的核心转向
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 一堂双三角
+- 人机协作双三角
+- 教育的核心转向
+- 断力训练
+- 时代审美判断力训练系统
+- 未来教育的核心转向
+- 美判断力训练
+source_refs: null
+related: null
 discoverable_by:
-  - "审美判断力训练"
-tags:
+- 审美判断力训练
+tags: null
 ---
 # AI 时代审美判断力训练系统——未来教育的核心转向
 

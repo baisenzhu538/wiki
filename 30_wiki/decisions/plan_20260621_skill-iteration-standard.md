@@ -2,7 +2,7 @@
 id: plan_20260621_skill-iteration-standard
 title: 知识卡片 → Claude Code Skill 迭代标准与全库扫描方案
 type: improvement-plan
-status: approved
+status: reviewed
 domain:
 - master
 - kdo

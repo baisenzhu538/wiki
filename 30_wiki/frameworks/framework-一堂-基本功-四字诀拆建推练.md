@@ -10,37 +10,19 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-11
 updated_at: 2026-07-11
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "拆建推练"
-  - "基本功四字诀"
-  - "动作练成组织能力"
+- 拆建推练
+- 基本功四字诀
+- 动作练成组织能力
 diagnostic_signals:
-  lens: 四字诀顺序断了——多数团队只做了"拆"，没"建"就催"练"
-  follow-up: 按本卡四步自查定位断点，缺哪步补哪步，不许跳步
-  lens: 「拆」只做加法没做减法——缺三环六维筛选
-  follow-up: 用六维分析给每个候选打分，砍到 Top1-5，其余挂起
   lens: 「建」停在了抽象层，没走到清单/小抄/SOP 的具体层
   follow-up: 把方法论压缩成一页小抄 + 一张自查清单，贴到手边再谈推广
-quality_labels:
-tags:
-aliases:
-  - 基本功四字诀拆建推练：把一个动作练成组织能力
-  - 基本功四字诀拆建推练
-  - 把一个动作练成组织能力
-  - 本功四字诀
-  - 四字诀
-  - 作练成组织能力
-aliases:
-  - 基本功四字诀拆建推练：把一个动作练成组织能力
-  - 基本功四字诀拆建推练
-  - 把一个动作练成组织能力
-  - 作练成组织能力
-  - 本功四字诀
-  - 建推练
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 基本功四字诀「拆建推练」：把一个动作练成组织能力
 

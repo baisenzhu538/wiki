@@ -10,27 +10,27 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - conversion
-  - handle
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂转化率黑客爬山地图
-  - 一堂转化率黑客爬山地图：六段L1L6能力段位与三次跨越
-  - 六段
-  - 化率黑客爬山地图
-  - 能力段位
-  - 能力段位与三次跨越
-  - 转化能力段位
-source_refs:
-related:
+- audience:ceo
+- conversion
+- handle
+- scene:diagnosis
+- skill-level:advanced
+- 一堂转化率黑客爬山地图
+- 一堂转化率黑客爬山地图：六段L1L6能力段位与三次跨越
+- 六段
+- 化率黑客爬山地图
+- 能力段位
+- 能力段位与三次跨越
+- 转化能力段位
+source_refs: null
+related: null
 discoverable_by:
-  - "转化率黑客爬山地图"
-  - "L1-L6转化能力段位"
-quality_labels:
-tags:
+- 转化率黑客爬山地图
+- L1-L6转化能力段位
+quality_labels: null
+tags: null
 ---
 # 一堂转化率黑客爬山地图：六段 L1-L6 与三次跨越
 

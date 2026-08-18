@@ -10,30 +10,30 @@ created_at: 2026-06-21
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 业机会光谱
-  - 业机会怎么判断
-  - 五步法之需求分析
-  - 会光谱
-  - 商业机会预判
-  - 商业机会预判终局光谱图
-  - 商业终局光谱图
-  - 局光谱图
-  - 求机会预判
-  - 终局光谱图
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 业机会光谱
+- 业机会怎么判断
+- 五步法之需求分析
+- 会光谱
+- 商业机会预判
+- 商业机会预判终局光谱图
+- 商业终局光谱图
+- 局光谱图
+- 求机会预判
+- 终局光谱图
+source_refs: null
+related: null
 discoverable_by:
-  - "商业机会光谱"
-  - "终局光谱图"
-  - "需求机会预判"
-  - "创业机会怎么判断"
+- 商业机会光谱
+- 终局光谱图
+- 需求机会预判
+- 创业机会怎么判断
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 商业机会预判·终局光谱图
 

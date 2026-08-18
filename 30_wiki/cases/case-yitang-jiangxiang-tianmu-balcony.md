@@ -8,46 +8,46 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.92
-trust_level: observed
+trust_level: medium
 aliases:
-  - A/B版对照
-  - 产品同一卖点
-  - 同一产品40分vs90分A/B对照
-  - 同一产品同一卖点
-  - 天幕阳台
-  - 天幕阳台：同一产品40分vs90分A/B对照
-  - 教科书级案例
-  - 版对照
-  - 讲香案例对照
-  - 销话术
+- A/B版对照
+- 产品同一卖点
+- 同一产品40分vs90分A/B对照
+- 同一产品同一卖点
+- 天幕阳台
+- 天幕阳台：同一产品40分vs90分A/B对照
+- 教科书级案例
+- 版对照
+- 讲香案例对照
+- 销话术
 source_refs:
-  - 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
+- 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
 related:
-  - tool-讲香基本功-十指模型
-  - concept-讲香-卖点直给到价值感
-  - yt-pitch-scenarization
-  - yt-pitch-emotionalization
-  - yt-pitch-materialization
+- tool-讲香基本功-十指模型
+- concept-讲香-卖点直给到价值感
+- yt-pitch-scenarization
+- yt-pitch-emotionalization
+- yt-pitch-materialization
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:讲香案例
-  - scene:会销
-  - scene:产品演示
-  - audience:销售
-  - audience:产品负责人
-  - content-format:case
-  - source-person:李頔
+- method:讲香案例
+- scene:会销
+- scene:产品演示
+- audience:销售
+- audience:产品负责人
+- content-format:case
+- source-person:李頔
 discoverable_by:
-  - "讲香案例"
-  - "天幕阳台"
-  - "会销话术"
-  - "产品演示对比"
+- 讲香案例
+- 天幕阳台
+- 会销话术
+- 产品演示对比
 diagnostic_signals:
-  - signal: "教科书级案例：同一产品同一卖点A/B对照"
-    severity: low
-    implication: "可作为讲香训练的标杆案例"
+- signal: 教科书级案例：同一产品同一卖点A/B对照
+  severity: low
+  implication: 可作为讲香训练的标杆案例
 ---
 
 > **定位**：属于 `tool-讲香基本功-十指模型` 的**标杆 companion case**——同一产品、同一卖点、同一场景下，40分念配置表 vs 90分现场实验的完整对照。

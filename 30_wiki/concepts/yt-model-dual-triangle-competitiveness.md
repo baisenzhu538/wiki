@@ -14,7 +14,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - 双三角竞争力模型
+- 双三角竞争力模型
 related:
 - '[[一堂]]'
 - '[[一堂方法论体系总图]]'
@@ -24,8 +24,8 @@ related:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 双三角竞争力模型
-  - 角竞争力模型
+- 双三角竞争力模型
+- 角竞争力模型
 source_refs:
 - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 status: enriched
@@ -46,7 +46,7 @@ diagnostic_signals:
   follow_up_question: 你处理一个常规业务任务，AI能帮你省多少时间？如果<20%，AI基本功需要补
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:ceo
 - scene:diagnosis

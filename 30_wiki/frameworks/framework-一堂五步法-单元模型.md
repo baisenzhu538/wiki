@@ -11,32 +11,18 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "五步法单元模型"
-  - "斧子尺子梯子"
+- 五步法单元模型
+- 斧子尺子梯子
 diagnostic_signals:
   lens: 单元模型自欺——LTV用乐观假设估算
   follow-up: 用实测留存率重算LTV，不要用"假设"
-quality_labels:
-tags:
-aliases:
-  - 一堂五步法单元模型：斧子/尺子/梯子三角色
-  - 一堂五步法
-  - 单元模型
-  - 斧子/尺子/梯子三角色
-  - 梯子三角色
-  - 子尺子梯子
-aliases:
-  - 一堂五步法单元模型：斧子/尺子/梯子三角色
-  - 一堂五步法
-  - 单元模型
-  - 斧子/尺子/梯子三角色
-  - 子尺子梯子
-  - 步法单元模型
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 一堂五步法·单元模型：斧子/尺子/梯子三角色
 

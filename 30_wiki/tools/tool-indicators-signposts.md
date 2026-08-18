@@ -1,26 +1,25 @@
 ---
-
 id: tool-indicators-signposts
 title: Indicators & Signposts（指标与信号）
 type: tool
-domain:
+domain: research
 discoverable_by:
-  - Indicators & Signposts指标与信号
-  - Signposts指标与信号
-tags:
+- Indicators & Signposts指标与信号
+- Signposts指标与信号
+tags: null
 source_person: Richars J. Heuer Jr. + Trumen（一堂）
 source_context: SATs 指标类技术工具化实现
 aliases:
-  - Indicators&Signposts指标与信号
-  - Richars J. Heuer Jr. + Trumen（一堂）
-  - Signposts指标与信号
-  - [[yt-decision-y-model]]
-  - [[yt-research-intelligence-map]]
-  - 三个新盲区
-  - 外部知识探索
-  - 指标与信号
-source_refs:
-related:
+- Indicators&Signposts指标与信号
+- Richars J. Heuer Jr. + Trumen（一堂）
+- Signposts指标与信号
+- - - yt-decision-y-model
+- - - yt-research-intelligence-map
+- 三个新盲区
+- 外部知识探索
+- 指标与信号
+source_refs: null
+related: null
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

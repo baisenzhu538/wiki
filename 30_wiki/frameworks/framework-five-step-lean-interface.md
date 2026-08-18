@@ -6,31 +6,31 @@ status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-23
-quality_labels:
+quality_labels: null
 created_at: 2026-06-23
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 与精益验证
-  - 五步法与精益验证的接口
-  - 低成本验证认知篇
-  - 步法与精益验证
-  - 步法精益接口
-  - 法与精益验证的接口
-  - 精益接口
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 与精益验证
+- 五步法与精益验证的接口
+- 低成本验证认知篇
+- 步法与精益验证
+- 步法精益接口
+- 法与精益验证的接口
+- 精益接口
+source_refs: null
+related: null
 discoverable_by:
-  - "五步法精益接口"
-  - "五步法与精益验证"
-  - "需求到MVP衔接"
+- 五步法精益接口
+- 五步法与精益验证
+- 需求到MVP衔接
 updated_at: '2026-06-30'
-tags:
+tags: null
 ---
 # 五步法与精益验证的接口
 

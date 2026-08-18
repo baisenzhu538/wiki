@@ -3,10 +3,10 @@ id: yt-concept-ai-guard-brain
 title: 守脑如玉：AI时代保持大脑锋利
 type: concept
 aliases:
-  - AI时代保持大脑锋利
-  - 守脑如玉
-  - 守脑如玉：AI时代保持大脑锋利
-  - 时代保持大脑锋利
+- AI时代保持大脑锋利
+- 守脑如玉
+- 守脑如玉：AI时代保持大脑锋利
+- 时代保持大脑锋利
 source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
 status: reviewed
@@ -16,9 +16,9 @@ version: 1
 difficulty: intermediate
 confidence: 0.85
 discoverable_by:
-  - 守脑如玉：AI时代保持大脑锋利
-  - 守脑如玉
-  - AI时代保持大脑锋利
+- 守脑如玉：AI时代保持大脑锋利
+- 守脑如玉
+- AI时代保持大脑锋利
 related:
 - '[[yt-model-prompt-engineering]]'
 - '[[yt-model-ipo-learning-strategy]]'
@@ -49,7 +49,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 欧阳锋
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:general
 - scene:reference

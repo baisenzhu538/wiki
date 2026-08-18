@@ -4,58 +4,58 @@ title: 「案例：Live259逐字稿提取——SSO破墙+逐节点击，四连�
 type: case
 status: reviewed
 confidence: 0.95
-trust_level: observed
+trust_level: medium
 domain:
-  - feishu
-  - extraction
-  - browser-automation
-  - yitang
+- feishu
+- extraction
+- browser-automation
+- yitang
 author: 段王爷（南帝）
 source_refs:
-  - capability/duanwangye/feishu-doc-l3-extraction
+- capability/duanwangye/feishu-doc-l3-extraction
 source_person: 段王爷（南帝）实战
 source_context: 2026-08-15 提取 yitang.top/fs-doc Live259《爆炸式调研》逐字稿并发布飞书
 reviewed_by: 欧阳锋
 aliases:
-  - Live259提取
-  - L3严格模式
-  - SSO破墙
-  - 微信扫码登录
-  - 单章节渲染
-  - yitang提取
+- Live259提取
+- L3严格模式
+- SSO破墙
+- 微信扫码登录
+- 单章节渲染
+- yitang提取
 discoverable_by:
-  - 飞书文档403
-  - 直播逐字稿提取
-  - SSO登录墙
-  - 跨企业文档
-  - 分段渲染
-  - 扫码登录提取
+- 飞书文档403
+- 直播逐字稿提取
+- SSO登录墙
+- 跨企业文档
+- 分段渲染
+- 扫码登录提取
 related:
-  - skill-feishu-doc-l3-extraction
-  - skill-duanwangye-feishu-publishing
-  - concept-feishu-api-pagination-trap
-  - concept-streaming-extraction-pattern
+- skill-feishu-doc-l3-extraction
+- skill-duanwangye-feishu-publishing
+- concept-feishu-api-pagination-trap
+- concept-streaming-extraction-pattern
 tags:
-  - method:browser-automation
-  - method:feishu-extraction
-  - scene:content-acquisition
-  - audience:executor
-  - content-format:case
-  - source-person:agent
-  - evidence:observed
+- method:browser-automation
+- method:feishu-extraction
+- scene:content-acquisition
+- audience:executor
+- content-format:case
+- source-person:agent
+- evidence:observed
 created_at: 2026-08-15
 updated_at: 2026-08-15
 quality_labels:
-  - insight
-  - actionable
-  - reusable
+- insight
+- actionable
+- reusable
 diagnostic_signals:
-  - signal: "飞书文档 TAT/UAT/MCP/内部API 全 403"
-    lens: 文档级权限+SSO 双层收紧，API 路径全灭
-    follow_up: 直接切 L3：headless Chrome + 微信扫码登录 + DOM 提取，不要死磕 API
-  - signal: "滚动页面 innerText 反而收缩"
-    lens: 不是滚动懒加载，是单章节渲染模式
-    follow_up: 改逐 ref 点击目录触发加载
+- signal: 飞书文档 TAT/UAT/MCP/内部API 全 403
+  lens: 文档级权限+SSO 双层收紧，API 路径全灭
+  follow_up: 直接切 L3：headless Chrome + 微信扫码登录 + DOM 提取，不要死磕 API
+- signal: 滚动页面 innerText 反而收缩
+  lens: 不是滚动懒加载，是单章节渲染模式
+  follow_up: 改逐 ref 点击目录触发加载
 review_date: 2026-08-15
 ---
 > 本卡是 [[skill-feishu-doc-l3-extraction]] 的实战实证——飞书文档 L3 严格模式提取的完整突破路径。与 [[skill-duanwangye-feishu-publishing]] 的 L3 协作协议互为表里：旧协议要求用户逐段点击配合，本案例证明**扫码登录后 agent 可全自动自驱提取**，用户只需扫一次码。

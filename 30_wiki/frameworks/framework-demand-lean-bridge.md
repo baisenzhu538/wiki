@@ -6,33 +6,21 @@ status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-23
-quality_labels:
+quality_labels: null
 created_at: 2026-06-23
 confidence: 0.82
 trust_level: medium
 language: zh-CN
-domain:
-aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 判断与精益验证的衔接
-  - 断精益验证
-  - 求判断精益验证
-  - 求到精益衔接
-  - 求验证桥接
-  - 益需求验证桥接
-  - 精益衔接
-  - 需求判断与精益验证的衔接
-source_refs:
-related:
-discoverable_by:
-  - "需求判断精益验证"
-  - "需求到精益衔接"
-  - "精益需求验证桥接"
-updated_at: '2026-06-30'
-tags:
+domain: unknown
 aliases: []
+source_refs: null
+related: null
+discoverable_by:
+- 需求判断精益验证
+- 需求到精益衔接
+- 精益需求验证桥接
+updated_at: '2026-06-30'
+tags: null
 ---
 # 需求判断与精益验证的衔接
 

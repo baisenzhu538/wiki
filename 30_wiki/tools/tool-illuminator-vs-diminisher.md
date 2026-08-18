@@ -3,59 +3,58 @@ id: tool-illuminator-vs-diminisher
 title: 「工具：照亮者vs贬低者——辨识与练习」
 type: tool
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-09
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - human-insights
-  - leadership
+- human-insights
+- leadership
 author: 老顽童
 source_refs:
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-笔记.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-笔记.txt
 source_person: 布鲁克斯 / 水水
-reviewed_by: 待审
 aliases:
-  - 照亮者
-  - 贬低者
-  - 认可努力具体建议
-  - 关注练习
+- 照亮者
+- 贬低者
+- 认可努力具体建议
+- 关注练习
 discoverable_by:
-  - 照亮者
-  - 贬低者
-  - 认可努力
-  - 具体建议
-  - 领导反馈
+- 照亮者
+- 贬低者
+- 认可努力
+- 具体建议
+- 领导反馈
 related:
-  - framework-how-to-know-a-person
-  - framework-big-five-personality
-  - tool-empathy-practice
-  - bridge-how-to-know-person-to-business
-  - framework-一堂五步法-泛产品设计
-  - framework-christensen-disruptive-innovation
+- framework-how-to-know-a-person
+- framework-big-five-personality
+- tool-empathy-practice
+- bridge-how-to-know-person-to-business
+- framework-一堂五步法-泛产品设计
+- framework-christensen-disruptive-innovation
 tags:
-  - method:feedback
-  - method:leadership
-  - method:attention
-  - scene:1on1
-  - scene:team-building
-  - audience:managers
-  - content-format:tool
-  - source-person:布鲁克斯
+- method:feedback
+- method:leadership
+- method:attention
+- scene:1on1
+- scene:team-building
+- audience:managers
+- content-format:tool
+- source-person:布鲁克斯
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels:
-  - actionable
-  - insight
-  - cited
+- actionable
+- insight
+- cited
 diagnostic_signals:
-  - signal: "给员工反馈只说'不够落地''再改改'，对方没有改善"
-    lens: 抽象建议=领导权威掉地——员工觉得你根本没认真看
-    follow_up: 改用"认可努力+具体建议"两步法
-  - signal: "自己被某个人的评价打击后一直耿耿于怀"
-    lens: 你可能遇到了贬低者——把别人当工具而非平等对待
-    follow_up: 检查：这个人对其他人的评价是否也是一贯贬低？如果是→他的问题，不是你的问题
+- signal: 给员工反馈只说'不够落地''再改改'，对方没有改善
+  lens: 抽象建议=领导权威掉地——员工觉得你根本没认真看
+  follow_up: 改用"认可努力+具体建议"两步法
+- signal: 自己被某个人的评价打击后一直耿耿于怀
+  lens: 你可能遇到了贬低者——把别人当工具而非平等对待
+  follow_up: 检查：这个人对其他人的评价是否也是一贯贬低？如果是→他的问题，不是你的问题
 ---
 
 > 定位：本卡属于 `[[framework-how-to-know-a-person]]` 的"看见存在"支柱操作工具。

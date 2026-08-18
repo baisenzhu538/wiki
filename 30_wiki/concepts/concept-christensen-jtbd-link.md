@@ -8,47 +8,47 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 aliases:
-  - Christensen
-  - Christensen理论演化
-  - JTBD
-  - Jobs to be Done
-  - 中已有
-  - 产品负责人
-  - 从破坏性创新到JTBD
-  - 从破坏性创新到JTBD：Christensen理论演化
-  - 创新者的窘境
-  - 坏性创新到
-  - 概念层缺失
-  - 理论怎么演化的
+- Christensen
+- Christensen理论演化
+- JTBD
+- Jobs to be Done
+- 中已有
+- 产品负责人
+- 从破坏性创新到JTBD
+- 从破坏性创新到JTBD：Christensen理论演化
+- 创新者的窘境
+- 坏性创新到
+- 概念层缺失
+- 理论怎么演化的
 source_refs:
-  - Christensen & Raynor 2003, The Innovator's Solution, Ch.3
-  - Christensen et al. 2016, HBR: Know Your Customers' Jobs to Be Done
+- Christensen & Raynor 2003, The Innovator's Solution, Ch.3
+- Christensen et al. 2016, HBR: Know Your Customers' Jobs to Be Done
 related:
-  - framework-christensen-disruptive-innovation
-  - dk-christensen-empirical-criticisms
-  - case-demand-milkshake-jtbd
-  - yt-panproduct-execution-low-cost-mvp
-  - concept-christensen-rpv-model
-  - tool-马易-风口痛点识别法
+- framework-christensen-disruptive-innovation
+- dk-christensen-empirical-criticisms
+- case-demand-milkshake-jtbd
+- yt-panproduct-execution-low-cost-mvp
+- concept-christensen-rpv-model
+- tool-马易-风口痛点识别法
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:JTBD
-  - scene:需求分析
-  - audience:产品负责人
-  - content-format:concept
-  - source-person:Christensen
+- method:JTBD
+- scene:需求分析
+- audience:产品负责人
+- content-format:concept
+- source-person:Christensen
 discoverable_by:
-  - "JTBD和破坏性创新的关系"
-  - "Christensen理论怎么演化的"
-  - "Jobs to be Done是什么"
+- JTBD和破坏性创新的关系
+- Christensen理论怎么演化的
+- Jobs to be Done是什么
 diagnostic_signals:
-  - signal: "wiki中已有case-demand-milkshake-jtbd——概念层缺失"
-    severity: moderate
-    implication: "本卡补全概念层，桥接案例卡"
+- signal: wiki中已有case-demand-milkshake-jtbd——概念层缺失
+  severity: moderate
+  implication: 本卡补全概念层，桥接案例卡
 ---
 
 > **定位**：属于 `framework-christensen-disruptive-innovation` 的**理论演化补丁**——Christensen 从"技术分类"到"用户任务"的视角转换。

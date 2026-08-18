@@ -6,72 +6,66 @@ status: reviewed
 confidence: 0.99
 trust_level: high
 domain:
-  - panproduct
-  - education
-  - methodology
+- panproduct
+- education
+- methodology
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 tags:
-  - method:方法论翻译
-  - scene:K12教育
-  - audience:教师
-  - content-format:bridge
-  - source-person:崔磊
+- bridge
+- method:methodology-translation
+- method:panproduct-design
+- method:design-thinking
+- scene:k12-education
+- audience:kids
+- audience:parents-teachers
+- content-format:bridge
+- source-person:崔磊
 aliases:
-  - K12方法论翻译
-  - 儿童方法论翻译
-  - 儿童版五步法
-  - 崔磊四步法
-  - 崔磊翻译机制
-  - 方法论降维
-  - 泛产品K12教学
+- K12方法论翻译
+- 儿童方法论翻译
+- 儿童版五步法
+- 崔磊四步法
+- 崔磊翻译机制
+- 方法论降维
+- 泛产品K12教学
 source_refs:
-  - 00_inbox/yitang-AI club/live84/🎯AI落地Live第84场·一堂✖️探月特别篇 逐字稿.md
-  - 60_feedback/diagnosis/diag_20260802_wangyuyan-live84-kids-panproduct.md
+- 00_inbox/yitang-AI club/live84/🎯AI落地Live第84场·一堂✖️探月特别篇 逐字稿.md
+- 60_feedback/diagnosis/diag_20260802_wangyuyan-live84-kids-panproduct.md
 source_person: 崔磊
 related:
-  - framework-一堂五步法-泛产品设计
-  - case-live81-ai-trademark-design
-  - tool-panproduct-kids-card-naming
-  - concept-一堂-product-kernel
-  - yt-panproduct-demand-user-perspective
-  - yt-panproduct-demand-scenario-walkthrough
-  - yt-panproduct-demand-user-segmentation
-  - yt-product-kernel-add-subtract
-  - yt-panproduct-aesthetic-collection
-  - yt-panproduct-aesthetic-modeling
-  - yt-panproduct-aesthetic-imagination
-  - tool-月白-AI模型选择策略
-  - framework-kdo-modeling-methodology
+- framework-一堂五步法-泛产品设计
+- case-live81-ai-trademark-design
+- tool-panproduct-kids-card-naming
+- concept-一堂-product-kernel
+- yt-panproduct-demand-user-perspective
+- yt-panproduct-demand-scenario-walkthrough
+- yt-panproduct-demand-user-segmentation
+- yt-product-kernel-add-subtract
+- yt-panproduct-aesthetic-collection
+- yt-panproduct-aesthetic-modeling
+- yt-panproduct-aesthetic-imagination
+- tool-月白-AI模型选择策略
+- framework-kdo-modeling-methodology
 diagnostic_signals:
-  - signal: 「想给孩子讲产品设计方法论，但不知道从哪开始」
-    lens: 检查是否使用了成人术语直接灌输
-    follow_up: 用本卡的翻译机制四件套（RPG比喻/技能卡命名/金句模板/行动化）降维
-  - signal: 「成人方法论卡片在K12场景下无人使用」
-    lens: 缺失了命名翻译层和场景适配
-    follow_up: 用九张技能卡命名对照表（tool-panproduct-kids-card-naming）做翻译
-  - signal: 「学生能复述方法但不会用」
-    lens: 每步缺少可执行动作和金句
-    follow_up: 检查四步法每步是否对应了一个孩子可做的动作（见本卡§翻译机制·行动化）
+- signal: 「想给孩子讲产品设计方法论，但不知道从哪开始」
+  lens: 检查是否使用了成人术语直接灌输
+  follow_up: 用本卡的翻译机制四件套（RPG比喻/技能卡命名/金句模板/行动化）降维
+- signal: 「成人方法论卡片在K12场景下无人使用」
+  lens: 缺失了命名翻译层和场景适配
+  follow_up: 用九张技能卡命名对照表（tool-panproduct-kids-card-naming）做翻译
+- signal: 「学生能复述方法但不会用」
+  lens: 每步缺少可执行动作和金句
+  follow_up: 检查四步法每步是否对应了一个孩子可做的动作（见本卡§翻译机制·行动化）
 quality_labels:
-  - insight
-  - principle
-  - cited
+- insight
+- principle
+- cited
 discoverable_by:
-  - 「怎么把成人方法论讲给孩子听」
-  - 「K12产品设计教学」
-  - 「桥接 泛产品 儿童」
-tags:
-  - bridge
-  - method:methodology-translation
-  - method:panproduct-design
-  - method:design-thinking
-  - scene:k12-education
-  - audience:kids
-  - audience:parents-teachers
-  - content-format:bridge
-  - source-person:崔磊
+- 「怎么把成人方法论讲给孩子听」
+- 「K12产品设计教学」
+- 「桥接 泛产品 儿童」
 created_at: 2026-08-02
 updated_at: 2026-08-02
 ---

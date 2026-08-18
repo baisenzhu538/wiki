@@ -6,7 +6,7 @@ status: reviewed
 reviewed_by: 欧阳锋
 review_date: 2026-08-16
 confidence: 0.85
-trust_level: medium-high
+trust_level: high
 domain:
 - research
 - yitang

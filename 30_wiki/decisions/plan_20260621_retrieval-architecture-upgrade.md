@@ -2,7 +2,7 @@
 id: plan_20260621_retrieval-architecture-upgrade
 title: 检索架构升级 —— 从向量匹配到域路由 + 混合检索 + 工作流组装
 type: improvement-plan
-status: active
+status: enriched
 domain:
 - master
 - kdo

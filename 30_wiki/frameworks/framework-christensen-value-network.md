@@ -8,56 +8,56 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.88
-trust_level: observed
+trust_level: medium
 aliases:
-  - Christensen
-  - Christensen价值网络理论
-  - src_20260802_创新者的窘境_秦鹏拆书
-  - value network
-  - 什么大公司被自己的价值网络锁死
-  - 价值网络
-  - 价值网络：定义+企业生命周期+为何大公司无法跳出
-  - 值网络和壁垒的关系
-  - 值网络是什么
-  - 创新者的窘境
-  - 定义+企业生命周期+为何大公司无法跳出
-  - 战略负责人
-  - 遵循规模前倾原则设计组织架构
+- Christensen
+- Christensen价值网络理论
+- src_20260802_创新者的窘境_秦鹏拆书
+- value network
+- 什么大公司被自己的价值网络锁死
+- 价值网络
+- 价值网络：定义+企业生命周期+为何大公司无法跳出
+- 值网络和壁垒的关系
+- 值网络是什么
+- 创新者的窘境
+- 定义+企业生命周期+为何大公司无法跳出
+- 战略负责人
+- 遵循规模前倾原则设计组织架构
 source_refs:
-  - 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
-  - Christensen 1997, The Innovator's Dilemma, Ch.2
-  - Christensen & Rosenbloom 1995, Research Policy: Explaining the attacker's advantage
+- 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
+- Christensen 1997, The Innovator's Dilemma, Ch.2
+- Christensen & Rosenbloom 1995, Research Policy: Explaining the attacker's advantage
 related:
-  - framework-christensen-disruptive-innovation
-  - concept-christensen-rpv-model
-  - framework-yitang-five-step-barrier
-  - yt-tool-strategy-workshop
-  - yt-demand-level-assessment
-  - tool-遵循规模前倾原则设计组织架构
+- framework-christensen-disruptive-innovation
+- concept-christensen-rpv-model
+- framework-yitang-five-step-barrier
+- yt-tool-strategy-workshop
+- yt-demand-level-assessment
+- tool-遵循规模前倾原则设计组织架构
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:价值网络
-  - scene:竞争格局判断
-  - scene:组织战略诊断
-  - audience:一号位
-  - audience:战略负责人
-  - content-format:framework
-  - source-person:Christensen
-  - source-person:秦鹏
+- method:价值网络
+- scene:竞争格局判断
+- scene:组织战略诊断
+- audience:一号位
+- audience:战略负责人
+- content-format:framework
+- source-person:Christensen
+- source-person:秦鹏
 discoverable_by:
-  - "价值网络是什么"
-  - "为什么大公司被自己的价值网络锁死"
-  - "华为为什么不卖麒麟芯片"
-  - "价值网络和壁垒的关系"
+- 价值网络是什么
+- 为什么大公司被自己的价值网络锁死
+- 华为为什么不卖麒麟芯片
+- 价值网络和壁垒的关系
 diagnostic_signals:
-  - signal: "价值网络与一堂'壁垒'概念高度同构但缺卡片化桥接"
-    severity: high
-    implication: "本卡必须桥接到 five-step-barrier 相关卡"
-  - signal: "秦鹏的公司生命周期视角是原著补充"
-    severity: moderate
-    implication: "价值网络随企业生命周期演化的视角非Christensen原书重点"
+- signal: 价值网络与一堂'壁垒'概念高度同构但缺卡片化桥接
+  severity: high
+  implication: 本卡必须桥接到 five-step-barrier 相关卡
+- signal: 秦鹏的公司生命周期视角是原著补充
+  severity: moderate
+  implication: 价值网络随企业生命周期演化的视角非Christensen原书重点
 ---
 
 > **定位**：属于 Christensen 原书三大框架的**第 2 步**——在明确了创新类型（破坏/延续）之后，分析组织所处的价值网络。位于 `framework-christensen-disruptive-innovation` 之后、`concept-christensen-rpv-model` 之前。

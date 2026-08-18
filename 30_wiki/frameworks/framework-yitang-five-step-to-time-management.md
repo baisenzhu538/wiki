@@ -3,7 +3,7 @@ id: framework-yitang-five-step-to-time-management
 title: 一堂五步法在时间管理中的应用：自管理场景的完整实例化
 type: framework
 status: reviewed
-domain:
+domain: management
 confidence: 0.88
 trust_level: medium
 author: 老顽童
@@ -12,27 +12,27 @@ review_date: '2026-07-01'
 created_at: '2026-07-01'
 updated_at: '2026-07-08'
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 一堂五步法在时间管理中的应用
-  - 一堂五步法在时间管理中的应用：自管理场景的完整实例化
-  - 五步法在时间管理中的应用
-  - 修炼进阶图
-  - 双峰哲学模型
-  - 场景实例化
-  - 应用到时间管理
-  - 步法应用到时间管理
-  - 步法时间管理
-  - 管理场景实例化
-  - 自管理场景的完整实例化
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:intermediate
+- 一堂五步法在时间管理中的应用
+- 一堂五步法在时间管理中的应用：自管理场景的完整实例化
+- 五步法在时间管理中的应用
+- 修炼进阶图
+- 双峰哲学模型
+- 场景实例化
+- 应用到时间管理
+- 步法应用到时间管理
+- 步法时间管理
+- 管理场景实例化
+- 自管理场景的完整实例化
+source_refs: null
+related: null
 discoverable_by:
-  - "五步法时间管理"
-  - "自管理场景实例化"
-  - "五步法应用到时间管理"
-tags:
+- 五步法时间管理
+- 自管理场景实例化
+- 五步法应用到时间管理
+tags: null
 ---
 # 一堂五步法在时间管理中的应用：自管理场景的完整实例化
 

@@ -3,7 +3,7 @@ id: framework-wanghuan-actor-director-mode
 title: 王欢人机协作框架：从演员到导演
 type: framework
 status: reviewed
-domain:
+domain: wanghuan
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -13,25 +13,22 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 aliases:
-  - lens: 演员模式锁定
-  - 从演员到导演
-  - 作框架
-  - 员到导演
-  - 机协作框架
-  - 欢演员到导演
-  - 王欢
-  - 王欢人机协作框架
-  - 王欢人机协作框架：从演员到导演
-source_refs:
-related:
+- lens: 演员模式锁定
+- 从演员到导演
+- 作框架
+- 员到导演
+- 机协作框架
+- 欢演员到导演
+- 王欢
+- 王欢人机协作框架
+- 王欢人机协作框架：从演员到导演
+source_refs: null
+related: null
 discoverable_by:
-  - "王欢演员到导演"
-  - "人机协作框架"
-tags:
-diagnostic_signals:
-follow_up: 当前流程中，哪些环节是“人亲自执行、AI 仅加速”？能否把其中一段改成“人定义、AI 执行、人验收”？
-follow_up: 是否把“好结果”的标准写成了可检查的验收清单？约束和红线条是否显式化？
-follow_up: 能否把专家的判断逻辑拆成“策略骨架 + 话术血肉”双轨存储，让 AI 承载执行？
+- 王欢演员到导演
+- 人机协作框架
+tags: null
+diagnostic_signals: null
 follow_up: 是否重新定义了角色——从“执行者”变成“让 AI 把事做好的质量守门人”？
 ---
 # 王欢人机协作框架：从演员到导演

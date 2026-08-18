@@ -11,38 +11,18 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-09
 updated_at: 2026-07-09
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "机会预判"
-  - "CEO预判操作系统"
+- 机会预判
+- CEO预判操作系统
 diagnostic_signals:
-  lens: 缺预判——三失败模式之"人云亦云"
-  follow-up: 先列同行主流模式≥5个，再谈自己想做什么
-  lens: 缺加法减法——P型创业者单点下注
-  follow-up: 强制先拆出≥10个选项，再做硬伤排除
-  lens: 预判段位差——L1 热情段硬扛 L4-L6 才该识别的硬伤
-  follow-up: 用段位阶梯定位自己，缺哪段补哪段，不越级烧钱
   lens: 区间错配——把"评价现在"当成"预判终局"
   follow-up: 用保A争B选一个区间，而不是赌一个点
-quality_labels:
-tags:
-aliases:
-  - 一堂机会预判：CEO的预判操作系统总框架
-  - 一堂
-  - 机会预判
-  - 的预判操作系统总框架
-  - 预判操作系统
-  - 会预判
-aliases:
-  - 一堂机会预判：CEO的预判操作系统总框架
-  - 一堂
-  - 机会预判
-  - 的预判操作系统总框架
-  - 会预判
-  - 预判操作系统
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 一堂·机会预判：CEO 的预判操作系统（总框架）
 

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-unit-model
 title: 单元模型：找到业务最小单元的经济密码
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 单元模型
-  - 单元模型：找到业务最小单元的经济密码
-  - 找到业务最小单元的经济密码
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 单元模型
+- 单元模型：找到业务最小单元的经济密码
+- 找到业务最小单元的经济密码
 discoverable_by:
-  - 单元模型：找到业务最小单元的经济密码
-  - 单元模型
-  - 找到业务最小单元的经济密码
-related:
-tags:
+- 单元模型：找到业务最小单元的经济密码
+- 单元模型
+- 找到业务最小单元的经济密码
+related: null
+tags: null
 ---
 # 单元模型：找到业务最小单元的经济密码
 

@@ -5,35 +5,35 @@ type: framework
 status: draft
 confidence: 0.9
 trust_level: high
-domain:
+domain: yitang
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-07-20'
 created_at: '2026-07-20'
 updated_at: '2026-07-20'
-quality_labels:
+quality_labels: null
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 事实复盘→选定魂儿→挖专业度→打磨表达
-  - 作方法
-  - 例写作方法
-  - 例打磨四步法
-  - 例打磨流程
-  - 实复盘选定魂儿
-  - 案例打磨四步法
-  - 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
-  - 案例打磨方法
-  - 案例打造法-李頔
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 事实复盘→选定魂儿→挖专业度→打磨表达
+- 作方法
+- 例写作方法
+- 例打磨四步法
+- 例打磨流程
+- 实复盘选定魂儿
+- 案例打磨四步法
+- 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
+- 案例打磨方法
+- 案例打造法-李頔
+source_refs: null
+related: null
 discoverable_by:
-  - "案例打磨四步法"
-  - "事实复盘选定魂儿"
-  - "案例写作方法"
-  - "案例打磨流程"
-tags:
+- 案例打磨四步法
+- 事实复盘选定魂儿
+- 案例写作方法
+- 案例打磨流程
+tags: null
 ---
 # 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
 

@@ -6,78 +6,72 @@ status: reviewed
 confidence: 0.99
 trust_level: high
 domain:
-  - panproduct
-  - education
+- panproduct
+- education
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 tags:
-  - method:卡片命名
-  - scene:K12教育
-  - audience:教师
-  - content-format:tool
-  - source-person:崔磊
+- tool
+- method:naming-system
+- method:panproduct-design
+- scene:k12-education
+- scene:methodology-translation
+- audience:kids
+- audience:parents-teachers
+- audience:methodology-translator
+- content-format:tool
+- source-person:崔磊
 aliases:
-  - K12命名对照表
-  - K12技能卡命名
-  - 九张技能卡
-  - 九张技能卡的K12命名体系
-  - 儿童方法论卡片命名
-  - 儿童版卡片翻译
-  - 孩子记不住卡片名字
-  - 崔磊
-  - 崔磊9张牌
-  - 工具
-  - 工具：九张技能卡的K12命名体系成人术语→儿童名的翻译表
-  - 成人术语→儿童名
-  - 成人术语→儿童名的翻译表
-  - 泛产品
+- K12命名对照表
+- K12技能卡命名
+- 九张技能卡
+- 九张技能卡的K12命名体系
+- 儿童方法论卡片命名
+- 儿童版卡片翻译
+- 孩子记不住卡片名字
+- 崔磊
+- 崔磊9张牌
+- 工具
+- 工具：九张技能卡的K12命名体系成人术语→儿童名的翻译表
+- 成人术语→儿童名
+- 成人术语→儿童名的翻译表
+- 泛产品
 source_refs:
-  - 00_inbox/yitang-AI club/live84/🎯AI落地Live第84场·一堂✖️探月特别篇 逐字稿.md
-  - 60_feedback/diagnosis/diag_20260802_wangyuyan-live84-kids-panproduct.md
+- 00_inbox/yitang-AI club/live84/🎯AI落地Live第84场·一堂✖️探月特别篇 逐字稿.md
+- 60_feedback/diagnosis/diag_20260802_wangyuyan-live84-kids-panproduct.md
 source_person: 崔磊
 related:
-  - bridge-panproduct-kids-translation
-  - framework-一堂五步法-泛产品设计
-  - yt-panproduct-demand-user-perspective
-  - yt-panproduct-demand-scenario-walkthrough
-  - yt-panproduct-demand-user-segmentation
-  - yt-product-kernel-add-subtract
-  - yt-panproduct-aesthetic-collection
-  - yt-panproduct-aesthetic-modeling
-  - yt-panproduct-aesthetic-imagination
-  - tool-月白-AI模型选择策略
-  - concept-一堂-product-kernel
-  - concept-kdo-component-library
+- bridge-panproduct-kids-translation
+- framework-一堂五步法-泛产品设计
+- yt-panproduct-demand-user-perspective
+- yt-panproduct-demand-scenario-walkthrough
+- yt-panproduct-demand-user-segmentation
+- yt-product-kernel-add-subtract
+- yt-panproduct-aesthetic-collection
+- yt-panproduct-aesthetic-modeling
+- yt-panproduct-aesthetic-imagination
+- tool-月白-AI模型选择策略
+- concept-一堂-product-kernel
+- concept-kdo-component-library
 diagnostic_signals:
-  - signal: 「给孩子讲方法论，孩子记不住卡片名字」
-    lens: 使用的可能是成人概念名而非儿童动作名
-    follow_up: 用本卡对照表把每张卡片的成人术语翻译成儿童名
-  - signal: 「成人方法论卡片在K12场景下无人引用」
-    lens: 卡片命名层缺失——K12教师搜不到、找不到
-    follow_up: 在现有成人卡片的aliases中加入儿童名
-  - signal: 「新设计的K12课程需要给方法论卡片取名但不知道规律」
-    lens: 缺乏K12命名的方法论指导
-    follow_up: 使用本卡「命名规律」节的公式自检
+- signal: 「给孩子讲方法论，孩子记不住卡片名字」
+  lens: 使用的可能是成人概念名而非儿童动作名
+  follow_up: 用本卡对照表把每张卡片的成人术语翻译成儿童名
+- signal: 「成人方法论卡片在K12场景下无人引用」
+  lens: 卡片命名层缺失——K12教师搜不到、找不到
+  follow_up: 在现有成人卡片的aliases中加入儿童名
+- signal: 「新设计的K12课程需要给方法论卡片取名但不知道规律」
+  lens: 缺乏K12命名的方法论指导
+  follow_up: 使用本卡「命名规律」节的公式自检
 quality_labels:
-  - actionable
-  - cited
-  - insight
+- actionable
+- cited
+- insight
 discoverable_by:
-  - 「技能卡命名 K12」
-  - 「换位读心 魔法沙盘」
-  - 「儿童 泛产品 工具」
-tags:
-  - tool
-  - method:naming-system
-  - method:panproduct-design
-  - scene:k12-education
-  - scene:methodology-translation
-  - audience:kids
-  - audience:parents-teachers
-  - audience:methodology-translator
-  - content-format:tool
-  - source-person:崔磊
+- 「技能卡命名 K12」
+- 「换位读心 魔法沙盘」
+- 「儿童 泛产品 工具」
 created_at: 2026-08-02
 updated_at: 2026-08-02
 ---

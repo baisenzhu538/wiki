@@ -2,9 +2,9 @@
 id: framework-demand-validation-pipeline
 title: 需求验证流水线
 type: framework
-domain:
+domain: unknown
 status: reviewed
-quality_labels:
+quality_labels: null
 created_at: 2026-06-28
 updated_at: 2026-07-02
 author: 老顽童
@@ -13,24 +13,24 @@ review_date: 2026-06-28
 confidence: 0.8
 trust_level: high
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 决策高度实操课口述
-  - 求假设验证方法
-  - 求验证流水线
-  - 求验证流程
-  - 科学决策
-  - 证流水线
-  - 证流程
-  - 需求验证流水线
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 决策高度实操课口述
+- 求假设验证方法
+- 求验证流水线
+- 求验证流程
+- 科学决策
+- 证流水线
+- 证流程
+- 需求验证流水线
+source_refs: null
+related: null
 discoverable_by:
-  - "需求验证流水线"
-  - "需求验证流程"
-  - "需求假设验证方法"
-tags:
+- 需求验证流水线
+- 需求验证流程
+- 需求假设验证方法
+tags: null
 ---
 # 需求验证流水线
 

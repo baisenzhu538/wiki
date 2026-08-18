@@ -8,26 +8,26 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 低成本验证
-  - 倍公式
-  - 十倍数公式
-  - 十倍速公式
-  - 十倍速公式：避免系统性失败
-  - 益十倍公式
-  - 速公式
-  - 避免系统性失败
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 低成本验证
+- 倍公式
+- 十倍数公式
+- 十倍速公式
+- 十倍速公式：避免系统性失败
+- 益十倍公式
+- 速公式
+- 避免系统性失败
+source_refs: null
+related: null
 discoverable_by:
-  - "精益十倍公式"
+- 精益十倍公式
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 十倍速公式：避免系统性失败
 

@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-intelligence-map-in-hand
 title: 地图在手：建立全局信息获取体系
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 地图在手
-  - 地图在手：建立全局信息获取体系
-  - 建立全局信息获取体系
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 地图在手
+- 地图在手：建立全局信息获取体系
+- 建立全局信息获取体系
 discoverable_by:
-  - 地图在手：建立全局信息获取体系
-  - 地图在手
-  - 建立全局信息获取体系
-related:
-tags:
+- 地图在手：建立全局信息获取体系
+- 地图在手
+- 建立全局信息获取体系
+related: null
+tags: null
 ---
 # 地图在手：建立全局信息获取体系
 

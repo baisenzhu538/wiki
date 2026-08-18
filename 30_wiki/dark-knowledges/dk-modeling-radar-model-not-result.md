@@ -1,34 +1,33 @@
 ---
-
 id: dk-modeling-radar-model-not-result
 title: 复杂评选别让 CEO 拍结果，只让 CEO 审模型
 type: dk
 dark_knowledge_type: workflow
 status: reviewed
-domain:
+domain: modeling
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 aliases:
-  - Truman
-  - audience:executor
-  - scene:reference
-  - skill-level:intermediate
-  - 只让
-  - 复杂评选别让
-  - 复杂评选别让CEO拍结果，只让CEO审模型
-  - 审模型
-  - 建模能力培训
-  - 拍结果
-source_refs:
+- Truman
+- audience:executor
+- scene:reference
+- skill-level:intermediate
+- 只让
+- 复杂评选别让
+- 复杂评选别让CEO拍结果，只让CEO审模型
+- 审模型
+- 建模能力培训
+- 拍结果
+source_refs: null
 confidence: 0.88
 trust_level: medium
 discoverable_by:
-  - 复杂评选别让 CEO 拍结果，只让 CEO 审模型
-  - 复杂评选别让
-  - 拍结果，只让
-  - 审模型
-related:
-tags:
+- 复杂评选别让 CEO 拍结果，只让 CEO 审模型
+- 复杂评选别让
+- 拍结果，只让
+- 审模型
+related: null
+tags: null
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

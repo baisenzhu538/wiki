@@ -5,32 +5,32 @@ type: framework
 status: draft
 confidence: 0.85
 trust_level: high
-domain:
+domain: unknown
 author: 老顽童
 reviewed_by: 待审
 review_date: '2026-07-19'
 created_at: '2026-07-19'
 updated_at: '2026-07-19'
-quality_labels:
+quality_labels: null
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 从利润是剩余到利润是生存成本
-  - 企业利润经营分析
-  - 优先经营框架
-  - 先经营框架
-  - 利润优先经营框架
-  - 利润优先经营框架：从利润是剩余到利润是生存成本
-  - 润优先经营框架
-  - 润是剩余到利润是生存成本
-  - 润是生存成本
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 从利润是剩余到利润是生存成本
+- 企业利润经营分析
+- 优先经营框架
+- 先经营框架
+- 利润优先经营框架
+- 利润优先经营框架：从利润是剩余到利润是生存成本
+- 润优先经营框架
+- 润是剩余到利润是生存成本
+- 润是生存成本
+source_refs: null
+related: null
 discoverable_by:
-  - "利润优先经营框架"
-  - "利润是生存成本"
-tags:
+- 利润优先经营框架
+- 利润是生存成本
+tags: null
 ---
 # 利润优先经营框架：从「利润是剩余」到「利润是生存成本」
 

@@ -1,6 +1,6 @@
 ---
 id: dk-sponsor-three-tier-pricing
-title: "赞助商三层定价法：Logo→精准对接→内容资产"
+title: 赞助商三层定价法：Logo→精准对接→内容资产
 type: dk
 domain: management
 status: draft
@@ -9,45 +9,45 @@ updated_at: 2026-07-27
 author: 老顽童
 reviewed_by: 待审
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 aliases:
-  - Logo→精准对接→内容资产
-  - Logo精准对接内容资产
-  - 三层赞助
-  - 内容资产
-  - 助商说
-  - 王非私董会
-  - 私董会
-  - 第6期 55班 王非私董会 v2.0 【高强版】
-  - 第6期私董会总结
-  - 罗意三层赞助
-  - 赞助商三层定价法
-  - 赞助商三层定价法：Logo→精准对接→内容资产
+- Logo→精准对接→内容资产
+- Logo精准对接内容资产
+- 三层赞助
+- 内容资产
+- 助商说
+- 王非私董会
+- 私董会
+- 第6期 55班 王非私董会 v2.0 【高强版】
+- 第6期私董会总结
+- 罗意三层赞助
+- 赞助商三层定价法
+- 赞助商三层定价法：Logo→精准对接→内容资产
 source_refs:
-  - 00_inbox/私董会/第6期 55班 王非私董会 v2.0 【高强版】.md
-  - 00_inbox/私董会/_processed/第6期私董会总结.md
+- 00_inbox/私董会/第6期 55班 王非私董会 v2.0 【高强版】.md
+- 00_inbox/私董会/_processed/第6期私董会总结.md
 tags:
-  - method:sponsorship-pricing
-  - method:event-monetization
-  - method:pricing-strategy
-  - scene:monetize-event
-  - audience:business-owner
-  - content-format:playbook
-  - source-person:罗意
+- method:sponsorship-pricing
+- method:event-monetization
+- method:pricing-strategy
+- scene:monetize-event
+- audience:business-owner
+- content-format:playbook
+- source-person:罗意
 related:
-  - case-wangfei-newyear-event-diagnosis
-  - tool-private-board-facilitation-sop
-  - five-step-domain-digest
-  - business-formula-domain-digest
-  - concept-collaboration-philosophy-foundation
+- case-wangfei-newyear-event-diagnosis
+- tool-private-board-facilitation-sop
+- five-step-domain-digest
+- business-formula-domain-digest
+- concept-collaboration-philosophy-foundation
 quality_labels:
-  - cited
-  - actionable
+- cited
+- actionable
 diagnostic_signals:
-  - "赞助商只愿意出5000块→你的赞助方案只有第一层（Logo曝光）"
-  - "赞助商说'不值'→你没帮他算投了这笔钱能赚回多少"
-  - "赞助费多年不涨→没有升级产品，一直在卖同一层"
-discoverable_by: "赞助商定价、三层定价法、罗意赞助、活动变现、赞助方案"
+- 赞助商只愿意出5000块→你的赞助方案只有第一层（Logo曝光）
+- 赞助商说'不值'→你没帮他算投了这笔钱能赚回多少
+- 赞助费多年不涨→没有升级产品，一直在卖同一层
+discoverable_by: 赞助商定价、三层定价法、罗意赞助、活动变现、赞助方案
 ---
 # 赞助商三层定价法：Logo→精准对接→内容资产
 

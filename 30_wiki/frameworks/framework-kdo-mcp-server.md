@@ -5,29 +5,29 @@ type: framework
 status: draft
 confidence: 0.88
 trust_level: high
-domain:
+domain: kdo
 author: 黄药师
 created_at: '2026-07-26'
 updated_at: '2026-07-26'
-quality_labels:
+quality_labels: null
 aliases:
-  - KDOMCPServer知识库能力的外部协议暴露层
-  - audience:ceo
-  - control
-  - scene:diagnosis
-  - skill-level:advanced
-  - 外部协议
-  - 库能力的外部协议暴露层
-  - 知识库
-  - 知识库能力的外部协议暴露层
-  - 识库外部协议
-source_refs:
-related:
+- KDOMCPServer知识库能力的外部协议暴露层
+- audience:ceo
+- control
+- scene:diagnosis
+- skill-level:advanced
+- 外部协议
+- 库能力的外部协议暴露层
+- 知识库
+- 知识库能力的外部协议暴露层
+- 识库外部协议
+source_refs: null
+related: null
 discoverable_by:
-  - "KDO MCP Server"
-  - "知识库外部协议"
-  - "MCP Server知识库"
-tags:
+- KDO MCP Server
+- 知识库外部协议
+- MCP Server知识库
+tags: null
 ---
 # KDO MCP Server — 知识库能力的外部协议暴露层
 

@@ -1,5 +1,4 @@
 ---
-
 id: tool-agent-crawl4ai
 title: Crawl4AI：开源AI爬虫——自然语言描述即可提取
 type: tool
@@ -11,24 +10,22 @@ created_at: 2026-06-21
 confidence: 0.85
 trust_level: high
 language: zh-CN
-domain:
+domain: ai-collaboration
 aliases:
-  - Crawl4AI：开源AI爬虫自然语言描述即可提取
-  - [[ai-collaboration-domain-digest]]
-  - [[yitang-domain-digest]]
-  - [[yitang-research-domain-digest]]
-  - 开源AI爬虫
-  - 爬虫自然语言描述即可提取
-  - 自然语言描述即可提取
-  - 语言描述即可提取
-source_refs:
+- Crawl4AI：开源AI爬虫自然语言描述即可提取
+- - - ai-collaboration-domain-digest
+- - - yitang-domain-digest
+- - - yitang-research-domain-digest
+- 开源AI爬虫
+- 爬虫自然语言描述即可提取
+- 自然语言描述即可提取
+- 语言描述即可提取
+source_refs: null
 discoverable_by:
-  - Crawl4AI：开源AI爬虫——自然语言描述即可提取
-  - 开源AI爬虫
-  - 自然语言描述即可提取
-related:
-
-
+- Crawl4AI：开源AI爬虫——自然语言描述即可提取
+- 开源AI爬虫
+- 自然语言描述即可提取
+related: null
 updated_at: '2026-06-29'
 ---
 # Crawl4AI

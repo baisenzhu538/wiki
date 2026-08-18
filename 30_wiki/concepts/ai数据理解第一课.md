@@ -1,9 +1,8 @@
 ---
-
 id: ai数据理解第一课
-title: "ai数据理解第一课"
+title: ai数据理解第一课
 discoverable_by:
-  - ai数据理解第一课
+- ai数据理解第一课
 related:
 - '[[人机协作决策-双三角模型]]'
 - '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
@@ -11,14 +10,17 @@ related:
 - '[[yt-unit-model-ai-assisted]]'
 - '[[pending_unknown]]'
 aliases:
-  - ai数据理解第一课
-  - 数据理解第一课
+- ai数据理解第一课
+- 数据理解第一课
 source_refs:
 - pending_archive: src_unknown
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+type: concept
+status: draft
+domain: unknown
 ---
 > **核心定位**：AI时代普通人唯一能建立护城河的方向是数据。数据不是堆料，是按层次和类型管理的复利资产。
 

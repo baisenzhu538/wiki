@@ -4,49 +4,49 @@ title: 「Agent Spec：AI基本功教练——Feature点菜+路径建议+证据�
 type: agent-spec
 status: reviewed
 confidence: 0.85
-trust_level: medium-high
+trust_level: high
 domain:
-  - ai-basic
+- ai-basic
 author: 老顽童
 source_refs:
-  - 10_raw/sources/feature-periodic-table-v0.8.json
-  - 00_inbox/AI基本功/AI学习-Feature思维解析（上）-口述.txt
-  - 00_inbox/AI基本功/AI学习-Feature思维解析（下）-口述.txt
+- 10_raw/sources/feature-periodic-table-v0.8.json
+- 00_inbox/AI基本功/AI学习-Feature思维解析（上）-口述.txt
+- 00_inbox/AI基本功/AI学习-Feature思维解析（下）-口述.txt
 source_person: 王语嫣编排/Truman课程
 reviewed_by: 欧阳锋
 aliases:
-  - AI基本功教练
-  - basic-skills-coach
-  - feature-periodic-table-v0.8
-  - AI学习-Feature思维解析（上）-口述
-  - AI学习-Feature思维解析（下）-口述
+- AI基本功教练
+- basic-skills-coach
+- feature-periodic-table-v0.8
+- AI学习-Feature思维解析（上）-口述
+- AI学习-Feature思维解析（下）-口述
 discoverable_by:
-  - AI基本功教练
-  - basic skills coach
-  - Feature点菜
+- AI基本功教练
+- basic skills coach
+- Feature点菜
 related:
-  - framework-truman-feature-thinking-core
-  - framework-truman-feature-layered-system
-  - concept-truman-feature-four-scenarios
-  - concept-truman-feature-six-stages
-  - bridge-dual-track-feature-system
-  - agent-spec-复盘教练
-  - dk-agent-access-kdo-pitfalls
-  - case-252-quality-gate-pilot
+- framework-truman-feature-thinking-core
+- framework-truman-feature-layered-system
+- concept-truman-feature-four-scenarios
+- concept-truman-feature-six-stages
+- bridge-dual-track-feature-system
+- agent-spec-复盘教练
+- dk-agent-access-kdo-pitfalls
+- case-252-quality-gate-pilot
 tags:
-  - method:agent-spec
-  - method:coaching
-  - scene:ai-learning
-  - audience:general
-  - content-format:agent-spec
+- method:agent-spec
+- method:coaching
+- scene:ai-learning
+- audience:general
+- content-format:agent-spec
 created_at: 2026-08-08
 updated_at: 2026-08-08
 quality_labels:
-  - actionable
+- actionable
 diagnostic_signals:
-  - signal: "用户问'用AI做XX怎么提升质量？'"
-    lens: 用户可能在用工具思维——需要切换到Feature思维：不是换工具，是叠Feature
-    follow_up: Agent输出Feature路径：从哪个Feature开始→叠什么→预期效果
+- signal: 用户问'用AI做XX怎么提升质量？'
+  lens: 用户可能在用工具思维——需要切换到Feature思维：不是换工具，是叠Feature
+  follow_up: Agent输出Feature路径：从哪个Feature开始→叠什么→预期效果
 ---
 
 > 本卡属于AI基本功域Agent——输入AI任务问题，输出Feature路径建议+证据链。数据源：周期表JSON + 框架/案例卡组。

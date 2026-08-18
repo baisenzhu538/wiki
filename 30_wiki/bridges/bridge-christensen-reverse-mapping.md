@@ -7,43 +7,43 @@ domain: strategy
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
-confidence: 0.90
-trust_level: observed
+confidence: 0.9
+trust_level: medium
 aliases:
-  - src_20260802_创新者的窘境_秦鹏拆书
-  - diag_20260802_创新者的窘境_秦鹏拆书
-  - 创新者的窘境
-  - Christensen
+- src_20260802_创新者的窘境_秦鹏拆书
+- diag_20260802_创新者的窘境_秦鹏拆书
+- 创新者的窘境
+- Christensen
 source_refs:
-  - 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
-  - 60_feedback/diagnosis/diag_20260802_创新者的窘境_秦鹏拆书.md
+- 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
+- 60_feedback/diagnosis/diag_20260802_创新者的窘境_秦鹏拆书.md
 related:
-  - framework-christensen-disruptive-innovation
-  - framework-christensen-value-network
-  - concept-christensen-rpv-model
-  - yt-panproduct-execution-roi-analysis
-  - yt-panproduct-execution-low-cost-mvp
-  - tool-马易-风口痛点识别法
+- framework-christensen-disruptive-innovation
+- framework-christensen-value-network
+- concept-christensen-rpv-model
+- yt-panproduct-execution-roi-analysis
+- yt-panproduct-execution-low-cost-mvp
+- tool-马易-风口痛点识别法
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:反向映射
-  - scene:跨域溯源
-  - audience:方法
-  - content-format:bridge
-  - source-person:秦鹏
+- method:反向映射
+- scene:跨域溯源
+- audience:方法
+- content-format:bridge
+- source-person:秦鹏
 discoverable_by:
-  - "Christensen引用都有哪些"
-  - "破坏性创新在wiki里怎么用的"
-  - "创新者的窘境哪张卡引了"
+- Christensen引用都有哪些
+- 破坏性创新在wiki里怎么用的
+- 创新者的窘境哪张卡引了
 diagnostic_signals:
-  - signal: "60+ 文件引用Christensen但0张原著卡"
-    severity: critical
-    implication: "所有引用都是二手引用，缺原著框架作为理论锚点"
-  - signal: "Christensen多为Critique节的攻击武器"
-    severity: moderate
-    implication: "正反两面都引用，但正面理论从未被系统拆解"
+- signal: 60+ 文件引用Christensen但0张原著卡
+  severity: critical
+  implication: 所有引用都是二手引用，缺原著框架作为理论锚点
+- signal: Christensen多为Critique节的攻击武器
+  severity: moderate
+  implication: 正反两面都引用，但正面理论从未被系统拆解
 ---
 
 > **定位**：属于 `framework-christensen-disruptive-innovation` 的 Wave 0 前置桥接卡，连接 wiki 存量 60+ Christensen 引用到即将产出的原著框架卡。

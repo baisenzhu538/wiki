@@ -1,9 +1,8 @@
 ---
-
 domain:
 - modeling
 id: yt-model-truman-five-step-growth
-title: "Truman的个人成长五步法：用一页纸解释全部人生规划"
+title: Truman的个人成长五步法：用一页纸解释全部人生规划
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: advanced
@@ -19,22 +18,24 @@ query_triggers:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - Truman的个人成长五步法
-  - Truman的个人成长五步法：用一页纸解释全部人生规划
-  - 用一页纸解释全部人生规划
-  - 的个人成长五步法
-  - 页纸解释全部人生规划
+- Truman的个人成长五步法
+- Truman的个人成长五步法：用一页纸解释全部人生规划
+- 用一页纸解释全部人生规划
+- 的个人成长五步法
+- 页纸解释全部人生规划
 source_refs:
 - pending_archive:src_20260522_074c72ae-ocr-truman的个人成长五步法
 discoverable_by:
-  - Truman的个人成长五步法：用一页纸解释全部人生规划
-  - Truman的个人成长五步法
-  - 用一页纸解释全部人生规划
+- Truman的个人成长五步法：用一页纸解释全部人生规划
+- Truman的个人成长五步法
+- 用一页纸解释全部人生规划
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 的个人成长五步法
+type: concept
+status: draft
 ---
 # Truman的个人成长五步法：用一页纸解释全部人生规划
 

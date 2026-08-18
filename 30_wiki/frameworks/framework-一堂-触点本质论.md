@@ -10,27 +10,27 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - conversion
-  - handle
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂触点本质论
-  - 一堂触点本质论：接触机会点+资产隐喻+火车货物剥离法+假设挖掘三特性
-  - 假设挖掘三特性
-  - 接触机会点
-  - 火车货物剥离法
-  - 资产隐喻
-source_refs:
-related:
+- audience:ceo
+- conversion
+- handle
+- scene:diagnosis
+- skill-level:advanced
+- 一堂触点本质论
+- 一堂触点本质论：接触机会点+资产隐喻+火车货物剥离法+假设挖掘三特性
+- 假设挖掘三特性
+- 接触机会点
+- 火车货物剥离法
+- 资产隐喻
+source_refs: null
+related: null
 discoverable_by:
-  - "触点本质论"
-  - "火车货物剥离法"
-  - "假设挖掘三特性"
-quality_labels:
-tags:
+- 触点本质论
+- 火车货物剥离法
+- 假设挖掘三特性
+quality_labels: null
+tags: null
 ---
 # 一堂触点本质论
 

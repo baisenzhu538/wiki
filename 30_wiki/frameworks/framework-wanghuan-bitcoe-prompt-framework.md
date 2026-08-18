@@ -3,7 +3,7 @@ id: framework-wanghuan-bitcoe-prompt-framework
 title: 王欢BITCOE提示词框架
 type: framework
 status: reviewed
-domain:
+domain: wanghuan
 created_at: '2026-06-19'
 updated_at: '2026-06-28'
 author: 王语嫣
@@ -13,20 +13,17 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 aliases:
-  - lens: 意图模糊
-  - 提示词
-  - 提示词框架
-  - 王欢
-  - 王欢BITCOE提示词框架
-source_refs:
-related:
+- lens: 意图模糊
+- 提示词
+- 提示词框架
+- 王欢
+- 王欢BITCOE提示词框架
+source_refs: null
+related: null
 discoverable_by:
-  - "王欢BITCOE提示词"
-tags:
-diagnostic_signals:
-follow_up: 用 BITCOE 六槽位逐条检查：背景、指令、任务、约束、输出、示例是否都已显式写出？
-follow_up: Constraint 槽位是否写明了"不要做什么、不能碰什么、避免什么风格"？
-follow_up: Output 和 Example 槽位是否给出了可对照的格式样例和风格参考？
+- 王欢BITCOE提示词
+tags: null
+diagnostic_signals: null
 follow_up: 高频任务是否已把稳定背景写进 [[tool-wanghuan-ai-business-profile]]，而非每次用 BITCOE 重复？
 ---
 # 王欢BITCOE提示词框架

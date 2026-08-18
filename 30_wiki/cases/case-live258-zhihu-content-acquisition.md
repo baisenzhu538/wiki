@@ -3,59 +3,59 @@ id: case-live258-zhihu-content-acquisition
 title: 「案例：知乎内容获客——无意识用对4个Feature到0成本获客」
 type: case
 status: reviewed
-confidence: 0.80
-trust_level: observed
+confidence: 0.8
+trust_level: medium
 domain:
-  - ai-basic
-  - marketing
+- ai-basic
+- marketing
 author: 老顽童
 source_refs:
-  - 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
+- 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
 source_person: 黄华春（Live258 学员）
 source_context: Live258 AI基本功第一课优秀作业·黄华春（Andy Huang）知乎内容获客复盘（L11-L351），学员二手自述
 reviewed_by: 欧阳锋
 aliases:
-  - 知乎内容获客
-  - 黄华春
-  - 无意识Feature
-  - 1+1+1>3
-  - AI基本功
-  - Live258
+- 知乎内容获客
+- 黄华春
+- 无意识Feature
+- 1+1+1>3
+- AI基本功
+- Live258
 discoverable_by:
-  - 知乎获客
-  - 内容获客
-  - 无意识用Feature
-  - Feature叠加
-  - 0成本获客
+- 知乎获客
+- 内容获客
+- 无意识用Feature
+- Feature叠加
+- 0成本获客
 related:
-  - framework-truman-feature-thinking-core
-  - framework-truman-feature-layered-system
-  - dk-demand-feature-stacking
-  - dk-feature-pieces-not-recognized-as-cards
-  - ai-basic-domain-digest
-  - case-truman-temperature-parameter
-  - tool-feature-review-five-step
+- framework-truman-feature-thinking-core
+- framework-truman-feature-layered-system
+- dk-demand-feature-stacking
+- dk-feature-pieces-not-recognized-as-cards
+- ai-basic-domain-digest
+- case-truman-temperature-parameter
+- tool-feature-review-five-step
 tags:
-  - method:feature-thinking
-  - method:content-marketing
-  - scene:content-creation
-  - audience:practitioner
-  - content-format:case
-  - source-person:student
-  - evidence:observed
+- method:feature-thinking
+- method:content-marketing
+- scene:content-creation
+- audience:practitioner
+- content-format:case
+- source-person:student
+- evidence:observed
 created_at: 2026-08-12
 updated_at: 2026-08-12
 quality_labels:
-  - insight
-  - actionable
-  - quotable
+- insight
+- actionable
+- quotable
 diagnostic_signals:
-  - signal: "用AI做内容但不知道效果好坏的原因"
-    lens: 可能处于无意识用Feature状态——做对不知道为什么，做错也不知道为什么
-    follow_up: 用Feature思维复盘一次实践——列全用了哪些Feature、缺了哪些Feature
-  - signal: "觉得AI输出质量是玄学/运气"
-    lens: 可能没意识到输出质量=Feature组合的结果
-    follow_up: 拆解一次成功案例的Feature组合，建立自己的组合模板
+- signal: 用AI做内容但不知道效果好坏的原因
+  lens: 可能处于无意识用Feature状态——做对不知道为什么，做错也不知道为什么
+  follow_up: 用Feature思维复盘一次实践——列全用了哪些Feature、缺了哪些Feature
+- signal: 觉得AI输出质量是玄学/运气
+  lens: 可能没意识到输出质量=Feature组合的结果
+  follow_up: 拆解一次成功案例的Feature组合，建立自己的组合模板
 review_date: 2026-08-13
 ---
 > 本卡属于 [[framework-truman-feature-thinking-core]] 的应用实证——Feature 思维在真实内容获客业务中的落地案例（黄华春的"无意识→有意识"转变正是 T 型→F 型思维分界的实证）。与 [[framework-truman-feature-layered-system]] 的 L2 提示词层（设定角色/参考案例/格式设定）和 L4 协作层（反向确认/多轮迭代）对应。

@@ -8,66 +8,66 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.92
-trust_level: observed
+trust_level: medium
 aliases:
-  - Christensen
-  - Christensen破坏性创新理论
-  - The Innovator's Dilemma
-  - disruptive innovation
-  - src_20260802_创新者的窘境_秦鹏拆书
-  - 与产品内核概念嫁接
-  - 五大原则
-  - 创新者的窘境
-  - 初创战略选择
-  - 张原著框架卡
-  - 性创新
-  - 案例仅
-  - 破坏性创新
-  - 破坏性创新：延续vs破坏+S曲线+五大原则Christensen《创新者的窘境》
-  - 秦鹏拆书
-  - 符合四项标准
-  - 颠覆创新
-  - 颠覆性创新
+- Christensen
+- Christensen破坏性创新理论
+- The Innovator's Dilemma
+- disruptive innovation
+- src_20260802_创新者的窘境_秦鹏拆书
+- 与产品内核概念嫁接
+- 五大原则
+- 创新者的窘境
+- 初创战略选择
+- 张原著框架卡
+- 性创新
+- 案例仅
+- 破坏性创新
+- 破坏性创新：延续vs破坏+S曲线+五大原则Christensen《创新者的窘境》
+- 秦鹏拆书
+- 符合四项标准
+- 颠覆创新
+- 颠覆性创新
 source_refs:
-  - 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
-  - Christensen 1997, The Innovator's Dilemma, Ch.1-4
-  - Christensen & Raynor 2003, The Innovator's Solution, Ch.2-3
+- 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
+- Christensen 1997, The Innovator's Dilemma, Ch.1-4
+- Christensen & Raynor 2003, The Innovator's Solution, Ch.2-3
 related:
-  - bridge-christensen-reverse-mapping
-  - framework-christensen-value-network
-  - concept-christensen-rpv-model
-  - yt-panproduct-execution-roi-analysis
-  - yt-panproduct-execution-low-cost-mvp
-  - tool-马易-风口痛点识别法
-  - concept-qinpeng-ai-as-amplifier
+- bridge-christensen-reverse-mapping
+- framework-christensen-value-network
+- concept-christensen-rpv-model
+- yt-panproduct-execution-roi-analysis
+- yt-panproduct-execution-low-cost-mvp
+- tool-马易-风口痛点识别法
+- concept-qinpeng-ai-as-amplifier
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:破坏性创新
-  - scene:竞争格局判断
-  - scene:初创战略选择
-  - audience:一号位
-  - audience:产品负责人
-  - content-format:framework
-  - source-person:Christensen
-  - source-person:秦鹏
+- method:破坏性创新
+- scene:竞争格局判断
+- scene:初创战略选择
+- audience:一号位
+- audience:产品负责人
+- content-format:framework
+- source-person:Christensen
+- source-person:秦鹏
 discoverable_by:
-  - "破坏性创新是什么"
-  - "颠覆性创新和延续创新的区别"
-  - "小公司如何颠覆大公司"
-  - "Christensen创新者窘境核心理论"
-  - "为什么大公司不做颠覆创新"
+- 破坏性创新是什么
+- 颠覆性创新和延续创新的区别
+- 小公司如何颠覆大公司
+- Christensen创新者窘境核心理论
+- 为什么大公司不做颠覆创新
 diagnostic_signals:
-  - signal: "wiki 190文件引用Christensen但0张原著框架卡"
-    severity: critical
-    implication: "所有引用都是二手——本卡为理论锚点"
-  - signal: "秦鹏将disruptive innovation与产品内核概念嫁接"
-    severity: moderate
-    implication: "一堂特有框架映射，需阐明连续性而非替代关系"
-  - signal: "King & Baatartogtokh 2015: 77案例仅9%符合四项标准"
-    severity: high
-    implication: "理论预测效度有限，需在Critique中标注"
+- signal: wiki 190文件引用Christensen但0张原著框架卡
+  severity: critical
+  implication: 所有引用都是二手——本卡为理论锚点
+- signal: 秦鹏将disruptive innovation与产品内核概念嫁接
+  severity: moderate
+  implication: 一堂特有框架映射，需阐明连续性而非替代关系
+- signal: 'King & Baatartogtokh 2015: 77案例仅9%符合四项标准'
+  severity: high
+  implication: 理论预测效度有限，需在Critique中标注
 ---
 
 > **定位**：属于 Christensen 原书三大框架的**第 1 步**——判断创新类型（延续 vs 破坏），是价值网络分析和 RPV 模型分析的前提。`framework-christensen-value-network` 和 `concept-christensen-rpv-model` 是本框架的后续步骤。

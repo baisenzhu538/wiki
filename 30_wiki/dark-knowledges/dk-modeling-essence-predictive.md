@@ -4,7 +4,7 @@ title: '''解释性本质''是高级鸡汤：真正值钱的本质必须能指�
 type: dk
 dark_knowledge_type: insight
 status: reviewed
-domain: []
+domain: modeling
 source_person: Truman
 source_context: 一堂建模能力培训（本质建模案例），2026-06-12
 aliases:

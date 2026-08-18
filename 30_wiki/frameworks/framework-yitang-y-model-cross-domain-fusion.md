@@ -14,9 +14,7 @@ domain:
 - decision-science
 - methodology
 - ai-collaboration
-aliases:
-  - Y模型跨域融合框架
-  - 型跨域融合框架
+aliases: []
 source_refs:
 - 30_wiki/concepts/yt-decision-y-model.md
 - 30_wiki/methods/method-yitang-y-model-engine-cycle.md
@@ -50,7 +48,6 @@ tags:
 - audience:ceo
 - scene:diagnosis
 - skill-level:advanced
-aliases: []
 discoverable_by:
 - Y模型应用
 - 跨域融合

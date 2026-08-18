@@ -3,13 +3,9 @@ id: modeling-to-kdo-toolchain
 title: 建模三段论 → KDO 工具链映射：从 SOP 到本质的知识管理落地
 type: framework
 aliases:
-  - framework_lens: 三段论门禁映射
-  - 三段论
-  - 到本质的知识管理落地
-  - 工具链映射
-  - 建模三段论
-  - 建模三段论→KDO工具链映射：从SOP到本质的知识管理落地
-  - 链映射
+- 建模能力培训
+- 流程建模
+- 高阶建模
 source_refs:
 - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
@@ -51,10 +47,6 @@ diagnostic_signals:
 - framework_lens: 阶段不可跳级
   follow_up_question: 当前是否有执行稳定的SOP/清单？执行率达到90%以上再进入抽象建模。
 updated_at: '2026-06-17'
-aliases:
-- 建模能力培训
-- 流程建模
-- 高阶建模
 discoverable_by:
 - 建模KDO映射
 - 三段论工具链

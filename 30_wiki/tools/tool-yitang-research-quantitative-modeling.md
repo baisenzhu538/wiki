@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-quantitative-modeling
 title: 定量建模：用数字说话的分析框架
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: modeling
 difficulty: intermediate
 estimated_tokens: 3000
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 定量建模
-  - 定量建模：用数字说话的分析框架
-  - 用数字说话的分析框架
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 定量建模
+- 定量建模：用数字说话的分析框架
+- 用数字说话的分析框架
 discoverable_by:
-  - 定量建模：用数字说话的分析框架
-  - 定量建模
-  - 用数字说话的分析框架
-related:
-tags:
+- 定量建模：用数字说话的分析框架
+- 定量建模
+- 用数字说话的分析框架
+related: null
+tags: null
 ---
 # 定量建模：用数字说话的分析框架
 

@@ -1,10 +1,10 @@
 ---
 id: yt-model-pan-product-aesthetic-toolkit
 component_of:
-- "[[yt-panproduct-best-practice-collection]]"
-- "[[yt-panproduct-aesthetic-pool]]"
-- "[[yt-panproduct-aesthetic-modeling]]"
-- "[[yt-panproduct-aesthetic-imagination]]"
+- '[[yt-panproduct-best-practice-collection]]'
+- '[[yt-panproduct-aesthetic-pool]]'
+- '[[yt-panproduct-aesthetic-modeling]]'
+- '[[yt-panproduct-aesthetic-imagination]]'
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
@@ -23,25 +23,25 @@ query_triggers:
 - 拿到一个全新品类没参照怎么办？
 - 怎么从"这个好"进阶到"知道为什么好"？
 discoverable_by:
-  - 泛产品设计·审美工具箱4张卡牌
-  - 泛产品设计
-  - 审美工具箱4张卡牌
+- 泛产品设计·审美工具箱4张卡牌
+- 泛产品设计
+- 审美工具箱4张卡牌
 related:
-- "[[yt-composite-pan-product-methodology]]"
-- "[[yt-model-pan-product-36-strategies]]"
-- "[[yt-model-pan-product-demand-toolkit]]"
-- "[[yt-model-pan-product-execution-toolkit]]"
-- "[[yt-model-ipo-learning-strategy]]"
+- '[[yt-composite-pan-product-methodology]]'
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-execution-toolkit]]'
+- '[[yt-model-ipo-learning-strategy]]'
 review_by: 2026-11-11
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 品设计审美工具箱
-  - 审美工具箱4张卡牌
-  - 工具箱
-  - 张卡牌
-  - 泛产品设计
-  - 泛产品设计审美工具箱4张卡牌
+- 品设计审美工具箱
+- 审美工具箱4张卡牌
+- 工具箱
+- 张卡牌
+- 泛产品设计
+- 泛产品设计审美工具箱4张卡牌
 source_refs:
 - 10_raw/sources/src_20260522_65a78106-ocr-泛产品设计-审美工具箱指南.md
 status: reviewed
@@ -49,10 +49,10 @@ title: 泛产品设计·审美工具箱（4张卡牌）
 type: framework
 version: 1
 pipeline:
-- "收集（最佳实践收集）→ 建立参照系"
-- "池子（最佳实践池子）→ 筛选入围标准"
-- "建模（最佳实践建模）→ 提炼可复现模型"
-- "想象（美好作品想象）→ 超越最佳实践"
+- 收集（最佳实践收集）→ 建立参照系
+- 池子（最佳实践池子）→ 筛选入围标准
+- 建模（最佳实践建模）→ 提炼可复现模型
+- 想象（美好作品想象）→ 超越最佳实践
 diagnostic_signals:
 - framework_lens: 只看不练
   follow_up_question: 你最近一个月认真分析了多少个最佳实践案例？又模仿/改造了几个？
@@ -60,7 +60,7 @@ diagnostic_signals:
   follow_up_question: 你这个设计领域的最佳实践案例在哪里？如果没有，模型只是空壳
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 ---
 ## Constraints & Boundaries
 

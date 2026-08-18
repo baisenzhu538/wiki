@@ -1,5 +1,4 @@
 ---
-
 id: tool-yitang-research-normalize-summary
 title: 归一总结：整合信息形成统一结论
 type: tool
@@ -12,25 +11,25 @@ updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: research
 difficulty: intermediate
 estimated_tokens: 2500
 version: 1
-query_triggers:
-source_refs:
+query_triggers: null
+source_refs: null
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 归一总结
-  - 归一总结：整合信息形成统一结论
-  - 整合信息形成统一结论
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 归一总结
+- 归一总结：整合信息形成统一结论
+- 整合信息形成统一结论
 discoverable_by:
-  - 归一总结：整合信息形成统一结论
-  - 归一总结
-  - 整合信息形成统一结论
-related:
-tags:
+- 归一总结：整合信息形成统一结论
+- 归一总结
+- 整合信息形成统一结论
+related: null
+tags: null
 ---
 # 归一总结：整合信息形成统一结论
 

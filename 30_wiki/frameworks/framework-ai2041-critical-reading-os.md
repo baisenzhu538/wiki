@@ -8,25 +8,17 @@ reviewed_by: 待审
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain:
-aliases:
-  - AI2041批判性认知操作系统
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 判性认知
-  - 性认知操作系统
-  - 批判性认知操作系统
-source_refs:
-related:
+domain: unknown
+aliases: []
+source_refs: null
+related: null
 discoverable_by:
-  - "AI2041阅读"
-  - "批判性认知OS"
-quality_labels:
+- AI2041阅读
+- 批判性认知OS
+quality_labels: null
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
-tags:
-aliases: []
+tags: null
 ---
 # AI 2041 批判性认知操作系统
 

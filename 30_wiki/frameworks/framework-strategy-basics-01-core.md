@@ -9,26 +9,26 @@ confidence: 0.85
 trust_level: high
 updated_at: '2026-06-29'
 language: zh-CN
-domain:
+domain: strategy
 aliases:
-  - BRM框架为核心
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 定式Core
-  - 定式CoreFoundation：BRM框架为核心，战略肌肉记忆
-  - 战略肌肉记忆
-  - 核心框架
-  - 框架为核心
-  - 略基本功定式
-source_refs:
-related:
+- BRM框架为核心
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 定式Core
+- 定式CoreFoundation：BRM框架为核心，战略肌肉记忆
+- 战略肌肉记忆
+- 核心框架
+- 框架为核心
+- 略基本功定式
+source_refs: null
+related: null
 discoverable_by:
-  - "BRM定式"
-  - "战略基本功定式"
-  - "战略肌肉记忆"
-  - "BRM核心框架"
-tags:
+- BRM定式
+- 战略基本功定式
+- 战略肌肉记忆
+- BRM核心框架
+tags: null
 ---
 **核心**：BRM（差距→规划→执行）不是一次性的项目，是需要形成肌肉记忆的日常习惯
 **战略洞察两大要素**：速度（多快发现机会和威胁）+ 视野（看多宽——行业/跨行业/全球）

@@ -8,46 +8,46 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.88
-trust_level: observed
+trust_level: medium
 aliases:
-  - CLI三版话术
-  - CLI三版话术：技术产品从读天书到万能插座
-  - 万能插座
-  - 三版话术
-  - 喻化案例
-  - 技术产品从读天书到万能插座
-  - 技术产品讲香
-  - 技术团队
-  - 术产品怎么讲
-  - 版话术对比
-  - 讲香案例
+- CLI三版话术
+- CLI三版话术：技术产品从读天书到万能插座
+- 万能插座
+- 三版话术
+- 喻化案例
+- 技术产品从读天书到万能插座
+- 技术产品讲香
+- 技术团队
+- 术产品怎么讲
+- 版话术对比
+- 讲香案例
 source_refs:
-  - 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
+- 10_raw/sources/src_20260802_讲香基本功-李頔-口述.txt
 related:
-  - tool-讲香基本功-十指模型
-  - yt-pitch-metaphor
-  - yt-pitch-scenarization
-  - yt-pitch-conflict
-  - yt-pitch-aphorism
+- tool-讲香基本功-十指模型
+- yt-pitch-metaphor
+- yt-pitch-scenarization
+- yt-pitch-conflict
+- yt-pitch-aphorism
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:讲香案例
-  - scene:技术产品发布
-  - audience:产品负责人
-  - audience:技术团队
-  - content-format:case
-  - source-person:李頔
+- method:讲香案例
+- scene:技术产品发布
+- audience:产品负责人
+- audience:技术团队
+- content-format:case
+- source-person:李頔
 discoverable_by:
-  - "CLI案例"
-  - "技术产品怎么讲"
-  - "三版话术对比"
-  - "比喻化案例"
+- CLI案例
+- 技术产品怎么讲
+- 三版话术对比
+- 比喻化案例
 diagnostic_signals:
-  - signal: "读天书→听懂→万能插座的三阶跃迁"
-    severity: low
-    implication: "技术产品讲香的标准教材"
+- signal: 读天书→听懂→万能插座的三阶跃迁
+  severity: low
+  implication: 技术产品讲香的标准教材
 ---
 
 > **定位**：属于 `tool-讲香基本功-十指模型` 的技术产品 **companion case**——展示比喻化+场景化+冲突化如何让晦涩的技术概念变得秒懂。

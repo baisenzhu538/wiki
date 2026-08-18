@@ -3,29 +3,29 @@ id: framework-yitang-jiefang-sixiang
 title: 解放思想：不被行业常识和既有框架绑架
 type: framework
 status: reviewed
-domain:
+domain: yitang
 confidence: 0.86
 trust_level: high
 language: zh-CN
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: "2026-07-05"
+review_date: '2026-07-05'
 aliases:
-  - 不被行业常识和既有框架绑架
-  - 业常识绑架
-  - 放思想
-  - 有框架
-  - 破既有框架
-  - 行业常识和既有框架绑架
-  - 被行业常识绑架
-  - 解放思想
-  - 解放思想：不被行业常识和既有框架绑架
-source_refs:
-related:
+- 不被行业常识和既有框架绑架
+- 业常识绑架
+- 放思想
+- 有框架
+- 破既有框架
+- 行业常识和既有框架绑架
+- 被行业常识绑架
+- 解放思想
+- 解放思想：不被行业常识和既有框架绑架
+source_refs: null
+related: null
 discoverable_by:
-  - "解放思想"
-  - "不被行业常识绑架"
-  - "打破既有框架"
+- 解放思想
+- 不被行业常识绑架
+- 打破既有框架
 created_at: 2026-07-03
 updated_at: '2026-07-04'
 ---

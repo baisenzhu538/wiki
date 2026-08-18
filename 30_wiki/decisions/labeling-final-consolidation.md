@@ -1,7 +1,4 @@
 ---
-
-
-
 id: labeling-final-consolidation
 title: 数据标注方案最终汇总 — 三方调研 + 独立判断
 type: decision
@@ -15,23 +12,23 @@ target_roles:
 - src_unknown
 reviewer: 用户 + 欧阳锋
 related:
-- "[[huangyaoshi-tagging-and-scope-proposal]]"
-- "[[kdo-15-dimension-label-spec]]"
-- "[[ouyangfeng-labeling-research-review]]"
-- "[[labeling-research-alignment]]"
-- "[[data-labeling-best-practices-report]]"
-- "[[data-labeling-best-practices-report]]"
-- "[[kdo-15-dimension-label-spec]]"
-- "[[labeling-research-alignment]]"
-- "[[ouyangfeng-labeling-research-review]]"
+- '[[huangyaoshi-tagging-and-scope-proposal]]'
+- '[[kdo-15-dimension-label-spec]]'
+- '[[ouyangfeng-labeling-research-review]]'
+- '[[labeling-research-alignment]]'
+- '[[data-labeling-best-practices-report]]'
+- '[[data-labeling-best-practices-report]]'
+- '[[kdo-15-dimension-label-spec]]'
+- '[[labeling-research-alignment]]'
+- '[[ouyangfeng-labeling-research-review]]'
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260503_52ae08ba）
 source_refs:
-  - src_unknown []
+- src_unknown []
 reviewed_by: pending
 confidence: 0.6
-trust_level: low# 数据标注方案最终汇总 — 三方调研 + 黄药师独立判断
+trust_level: low
 ---
 > 汇总人：黄药师
 > 审查人：用户（决策者）、欧阳锋（Architect）

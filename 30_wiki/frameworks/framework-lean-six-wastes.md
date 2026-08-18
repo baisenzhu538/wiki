@@ -8,27 +8,27 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: high
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 低成本验证
-  - 六大浪费
-  - 六宗罪
-  - 创业六宗罪
-  - 创业六宗罪/六大浪费
-  - 大浪费
-  - 方案做错
-  - 益六大浪费
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 低成本验证
+- 六大浪费
+- 六宗罪
+- 创业六宗罪
+- 创业六宗罪/六大浪费
+- 大浪费
+- 方案做错
+- 益六大浪费
+source_refs: null
+related: null
 discoverable_by:
-  - "精益六大浪费"
-quality_labels:
+- 精益六大浪费
+quality_labels: null
 updated_at: '2026-06-29'
 created_at: '2026-06-30'
-tags:
+tags: null
 ---
 # 创业六宗罪 / 六大浪费
 

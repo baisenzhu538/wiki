@@ -1,9 +1,8 @@
 ---
-
 domain:
 - entrepreneurship
 id: yt-entrepreneur-product-core
-title: "产品内核定义、迭代与验证方法论"
+title: 产品内核定义、迭代与验证方法论
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
@@ -24,19 +23,21 @@ query_triggers:
 - src_unknown
 review_date: 2026-06-06
 aliases:
-  - 与验证方法论
-  - 产品内核定义
-  - 产品内核定义、迭代与验证方法论
-  - 内核定义
-  - 迭代与验证方法论
+- 与验证方法论
+- 产品内核定义
+- 产品内核定义、迭代与验证方法论
+- 内核定义
+- 迭代与验证方法论
 source_refs:
 - pending_archive:src_20260614_0e6fd2e7-theme-product-business-summary
 discoverable_by:
-  - 产品内核定义、迭代与验证方法论
+- 产品内核定义、迭代与验证方法论
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
+type: concept
+status: draft
 ---
 # 产品内核定义、迭代与验证方法论
 

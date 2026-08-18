@@ -11,31 +11,18 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-10
 updated_at: 2026-07-10
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "表达力火箭模型"
-  - "四要素递进表达"
+- 表达力火箭模型
+- 四要素递进表达
 diagnostic_signals:
   lens: 火箭模型只到第一层——有卖点但缺专业度和打动人
   follow-up: 火箭四要素逐层检查，补缺层
-quality_labels:
-tags:
-aliases:
-  - 表达力火箭模型：四要素递进
-  - 表达力火箭模型
-  - 四要素递进
-  - 要素递进表达
-  - 递进表达
-  - 力火箭模型
-aliases:
-  - 表达力火箭模型：四要素递进
-  - 表达力火箭模型
-  - 四要素递进
-  - 要素递进表达
-  - 达力火箭模型
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 表达力火箭模型：四要素递进
 

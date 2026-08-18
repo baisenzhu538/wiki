@@ -1,5 +1,4 @@
 ---
-
 id: tool-需求挖掘
 title: 需求挖掘：从用户身上挖出真实需求
 type: tool
@@ -9,22 +8,22 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 从用户身上挖出真实需求
-  - 需求挖掘
-  - 需求挖掘：从用户身上挖出真实需求
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 从用户身上挖出真实需求
+- 需求挖掘
+- 需求挖掘：从用户身上挖出真实需求
+source_refs: null
 discoverable_by:
-  - 需求挖掘：从用户身上挖出真实需求
-  - 需求挖掘
-  - 从用户身上挖出真实需求
-related:
+- 需求挖掘：从用户身上挖出真实需求
+- 需求挖掘
+- 从用户身上挖出真实需求
+related: null
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 需求挖掘：从用户身上挖出真实需求
 

@@ -1,5 +1,4 @@
 ---
-
 id: tool-最佳实践池子
 title: 最佳实践池子：建立你的最佳实践知识库
 type: tool
@@ -10,22 +9,22 @@ reviewed_at: 2026-07-04
 confidence: 0.75
 trust_level: medium
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 建立你的最佳实践知识库
-  - 最佳实践池子
-  - 最佳实践池子：建立你的最佳实践知识库
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 建立你的最佳实践知识库
+- 最佳实践池子
+- 最佳实践池子：建立你的最佳实践知识库
+source_refs: null
 discoverable_by:
-  - 最佳实践池子：建立你的最佳实践知识库
-  - 最佳实践池子
-  - 建立你的最佳实践知识库
-related:
+- 最佳实践池子：建立你的最佳实践知识库
+- 最佳实践池子
+- 建立你的最佳实践知识库
+related: null
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 最佳实践池子：建立你的最佳实践知识库
 

@@ -2,7 +2,7 @@
 id: framework-content-business-six-step
 title: 内容经营 6 步闭环
 type: framework
-domain:
+domain: unknown
 status: reviewed
 confidence: 0.85
 difficulty: intermediate
@@ -13,24 +13,24 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-30'
 aliases:
-  - content-business-six-step
-  - study
-  - 内容经营
-  - 内容经营6步闭环
-  - 内容经营六步闭环
-  - 大馨战队
-  - 容经营六步闭环
-  - 步闭环
-  - 短视频内容经营
-  - 营六步闭环
-source_refs:
-query_triggers:
-tags:
-quality_labels:
-related:
+- content-business-six-step
+- study
+- 内容经营
+- 内容经营6步闭环
+- 内容经营六步闭环
+- 大馨战队
+- 容经营六步闭环
+- 步闭环
+- 短视频内容经营
+- 营六步闭环
+source_refs: null
+query_triggers: null
+tags: null
+quality_labels: null
+related: null
 discoverable_by:
-  - "内容经营六步闭环"
-pipeline:
+- 内容经营六步闭环
+pipeline: null
 ---
 # 内容经营 6 步闭环
 

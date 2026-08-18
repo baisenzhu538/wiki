@@ -2,7 +2,7 @@
 id: framework-founder-ip-three-positioning
 title: 创始人 IP 三定位模型
 type: framework
-domain:
+domain: unknown
 status: reviewed
 confidence: 0.85
 difficulty: intermediate
@@ -13,30 +13,30 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-30'
 aliases:
-  - IP 三定位模型
-  - founder-ip-three-positioning
-  - study
-  - 三定位模型
-  - 位模型
-  - 创始人
-  - 创始人 IP 三定位
-  - 创始人IP三定位模型
-  - 品牌定位
-  - 大馨战队
-  - 始人品牌定位
-  - 定位模型
-  - 怎么定位
-source_refs:
-query_triggers:
-tags:
-quality_labels:
-related:
+- IP 三定位模型
+- founder-ip-three-positioning
+- study
+- 三定位模型
+- 位模型
+- 创始人
+- 创始人 IP 三定位
+- 创始人IP三定位模型
+- 品牌定位
+- 大馨战队
+- 始人品牌定位
+- 定位模型
+- 怎么定位
+source_refs: null
+query_triggers: null
+tags: null
+quality_labels: null
+related: null
 discoverable_by:
-  - "创始人IP定位"
-  - "三定位模型"
-  - "个人IP怎么定位"
-  - "创始人品牌定位"
-pipeline:
+- 创始人IP定位
+- 三定位模型
+- 个人IP怎么定位
+- 创始人品牌定位
+pipeline: null
 ---
 # 创始人 IP 三定位模型
 

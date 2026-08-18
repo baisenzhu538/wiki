@@ -10,35 +10,18 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-11
 updated_at: 2026-07-11
-domain:
-source_refs:
-related:
+domain: unknown
+source_refs: null
+related: null
 discoverable_by:
-  - "基本功九层金字塔"
-  - "底层信念到基本功化"
+- 基本功九层金字塔
+- 底层信念到基本功化
 diagnostic_signals:
-  lens: 只爬到金字塔第一层（理念）就停了——下面八层（对象/目标/路径/策略/工具）一层没碰
-  follow-up: 拿本卡九层表逐层自查，定位团队目前站在第几层，下一层的入口动作是什么
-  lens: 跨层操作——第四层（四字诀路径）没走通，直接跳到第八层找工具
-  follow-up: 回到第四层按 拆→建→推→练 顺序补齐，工具只在路径通了之后取用
   lens: 停在第五层之前——拆出的不是"独立动作"，练的不是"固定套路"，无法检查
   follow-up: 用第五层四个目标逐一验收：动作是否独立可练、套路是否固定、共识是否形成、反馈是否大量
-quality_labels:
-tags:
-aliases:
-  - 基本功九层金字塔：从底层信念到基本功化的完整地图
-  - 基本功九层金字塔
-  - 从底层信念到基本功化的完整地图
-  - 功九层金字塔
-  - 本功九层金字塔
-  - 念到基本功化
-aliases:
-  - 基本功九层金字塔：从底层信念到基本功化的完整地图
-  - 基本功九层金字塔
-  - 从底层信念到基本功化的完整地图
-  - 本功九层金字塔
-  - 层信念到基本功化
-aliases:
+quality_labels: null
+tags: null
+aliases: null
 ---
 # 基本功九层金字塔：从底层信念到基本功化的完整地图
 

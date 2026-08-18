@@ -1,9 +1,8 @@
 ---
-
 domain:
 - entrepreneurship
 id: yt-entrepreneur-industrial-production
-title: "工业化生产"
+title: 工业化生产
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -23,17 +22,19 @@ review_date: 2026-05-08
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 化生产
-  - 工业化生产
+- 化生产
+- 工业化生产
 source_refs:
 - pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
 discoverable_by:
-  - 工业化生产
+- 工业化生产
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 课程地图精华串讲
+type: concept
+status: draft
 ---
 # 工业化生产
 

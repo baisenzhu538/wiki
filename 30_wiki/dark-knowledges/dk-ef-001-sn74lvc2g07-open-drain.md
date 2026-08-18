@@ -1,5 +1,4 @@
 ---
-
 id: dk-ef-001-sn74lvc2g07-open-drain
 title: 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
 type: dk
@@ -10,20 +9,20 @@ dark_knowledge_type: hardware-failure
 source_person: 黄药师
 source_context: 广冷红外板 V2.2 调试——SN74LVC2G07 驱动 595 移位寄存器时数据不稳定
 aliases:
-  - 上拉电阻太大导致信号边沿变缓
-  - 开漏输出的陷阱
-  - 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
-  - 电阻太大导致信号边沿变缓
-  - 输出的陷阱
-  - 黄药师
+- 上拉电阻太大导致信号边沿变缓
+- 开漏输出的陷阱
+- 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
+- 电阻太大导致信号边沿变缓
+- 输出的陷阱
+- 黄药师
 source_refs:
 - 90_control/electronics-practice/failure-modes-electronics.md
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 discoverable_by:
-  - 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
-  - 开漏输出的陷阱
-  - 上拉电阻太大导致信号边沿变缓
+- 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
+- 开漏输出的陷阱
+- 上拉电阻太大导致信号边沿变缓
 related:
 - '[[dk-ef-004-missing-diagnostic-firmware]]'
 - '[[dk-ef-002-bom-version-async]]'
@@ -41,6 +40,7 @@ tags:
 - control
 - electronics
 - practice
+status: draft
 ---
 # 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
 

@@ -4,11 +4,11 @@ title: 十五字黄金法诀：机会预判的核心框架
 type: concept
 domain: src-unknown
 aliases:
-  - 十五字黄金法诀
-  - 十五字黄金法诀：机会预判的核心框架
-  - 字黄金法诀
-  - 机会预判的核心框架
-  - 预判的核心框架
+- 十五字黄金法诀
+- 十五字黄金法诀：机会预判的核心框架
+- 字黄金法诀
+- 机会预判的核心框架
+- 预判的核心框架
 source_refs:
 - 10_raw/sources/src_20260610_b3e09bdf-一堂-机会预判-终局光谱图-truman-图01.md
 - 10_raw/sources/src_20260610_d9fca55f-一堂-机会预判-终局光谱图-truman-图02.md
@@ -46,11 +46,11 @@ diagnostic_signals:
   follow_up_question: 你排除每个选项时，能说出具体的硬伤类型吗？
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 discoverable_by:
-  - 十五字黄金法诀：机会预判的核心框架
-  - 十五字黄金法诀
-  - 机会预判的核心框架
+- 十五字黄金法诀：机会预判的核心框架
+- 十五字黄金法诀
+- 机会预判的核心框架
 related:
 - '[[yt-foresight-ab-steady-state]]'
 - '[[yt-foresight-addition-subtraction]]'

@@ -10,24 +10,24 @@ trust_level: medium
 language: zh-CN
 created_at: 2026-07-08
 updated_at: 2026-07-08
-domain:
+domain: unknown
 aliases:
-  - AI 时代品味五维
-  - taste-as-judgment-system
-  - 判断力
-  - 味系统
-  - 品味系统
-  - 品味系统：判断力×审美×系统思维
-  - 审美
-  - 断力审美系统
-  - 系统思维
-source_refs:
-quality_labels:
-related:
+- AI 时代品味五维
+- taste-as-judgment-system
+- 判断力
+- 味系统
+- 品味系统
+- 品味系统：判断力×审美×系统思维
+- 审美
+- 断力审美系统
+- 系统思维
+source_refs: null
+quality_labels: null
+related: null
 discoverable_by:
-  - "品味系统"
-  - "判断力审美系统"
-  - "审美系统思维"
+- 品味系统
+- 判断力审美系统
+- 审美系统思维
 ---
 # 品味系统：判断力 × 审美 × 系统思维
 

@@ -1,9 +1,8 @@
 ---
-
 id: fix-data-curator-parse-bug
 title: Data Curator Phase 2 Clean — parse_frontmatter 修复方案
 type: improvement-plan
-status: pending
+status: pending_review
 domain: master
 created_at: 2026-05-31
 updated_at: '2026-06-16'
@@ -11,12 +10,12 @@ target_roles:
 - src_unknown
 reviewer: 欧阳锋（Architect）
 related:
-  - "[[kdo-yaml-frontmatter-safety]]"
-  - "[[dk-p18-yaml-parser]]"
-  - "[[dk-p19-quote-yaml]]"
-  - "[[dk-f13-handwritten-yaml-parser]]"
-  - "[[gold-standard-manual-labels]]"
-  - "[[kdo-15-dimension-label-spec]]"
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[dk-p18-yaml-parser]]'
+- '[[dk-p19-quote-yaml]]'
+- '[[dk-f13-handwritten-yaml-parser]]'
+- '[[gold-standard-manual-labels]]'
+- '[[kdo-15-dimension-label-spec]]'
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:

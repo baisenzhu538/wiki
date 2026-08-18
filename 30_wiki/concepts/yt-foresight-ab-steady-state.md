@@ -4,11 +4,11 @@ title: AB点稳态模型：行业预判的核心框架
 type: concept
 domain: src-unknown
 aliases:
-  - AB点稳态模型
-  - AB点稳态模型：行业预判的核心框架
-  - 点稳态模型
-  - 行业预判的核心框架
-  - 预判的核心框架
+- AB点稳态模型
+- AB点稳态模型：行业预判的核心框架
+- 点稳态模型
+- 行业预判的核心框架
+- 预判的核心框架
 source_refs:
 - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 - 10_raw/sources/src_20260606_c996cb6a-一堂-机会预判课-truman-笔记.md
@@ -44,11 +44,11 @@ diagnostic_signals:
   follow_up_question: 变化后的行业新格局（稳态B）可能长什么样？
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 discoverable_by:
-  - AB点稳态模型：行业预判的核心框架
-  - AB点稳态模型
-  - 行业预判的核心框架
+- AB点稳态模型：行业预判的核心框架
+- AB点稳态模型
+- 行业预判的核心框架
 related:
 - '[[yt-foresight-15-char-mantra]]'
 - '[[yt-foresight-addition-subtraction]]'

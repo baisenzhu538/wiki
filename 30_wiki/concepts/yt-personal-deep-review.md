@@ -20,7 +20,7 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - 深度复盘
+- 深度复盘
 related:
 - '[[一堂方法论体系总图]]'
 - '[[yitang-course-map]]'
@@ -60,7 +60,7 @@ diagnostic_signals:
   follow_up_question: 上次深度复盘的行动项，现在完成了多少？
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 aliases:
 - 一堂深度复盘冰山图
 ---

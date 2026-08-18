@@ -1,9 +1,8 @@
 ---
-
 domain:
 - modeling
 id: yt-model-questioning-practice-canvas
-title: "提问刻意练习提升画布 (By YITANG)"
+title: 提问刻意练习提升画布 (By YITANG)
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
@@ -18,19 +17,21 @@ query_triggers:
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - 刻意练习提升画布
-  - 提问刻意练习提升画布
-  - 提问刻意练习提升画布ByYITANG
+- 刻意练习提升画布
+- 提问刻意练习提升画布
+- 提问刻意练习提升画布ByYITANG
 source_refs:
 - pending_archive:src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
 discoverable_by:
-  - 提问刻意练习提升画布 By YITANG
-  - 提问刻意练习提升画布
+- 提问刻意练习提升画布 By YITANG
+- 提问刻意练习提升画布
 tags:
 - audience:general
 - scene:reference
 - skill-level:intermediate
 - 提问刻意练习提升画布
+type: concept
+status: draft
 ---
 # 提问刻意练习提升画布 (By YITANG)
 

@@ -8,51 +8,51 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-08-02
 confidence: 0.82
-trust_level: observed
+trust_level: medium
 aliases:
-  - Christensen
-  - src_20260802_创新者的窘境_秦鹏拆书
-  - 一号位
-  - 三处纠正
-  - 公司死亡不是失败
-  - 创业判断
-  - 创新者的窘境
-  - 坏性创新的误解
-  - 性创新纠正
-  - 死亡不是失败
-  - 破坏性创新纠正
-  - 秦鹏三处纠正
-  - 秦鹏对《创新者的窘境》三处纠正
-  - 秦鹏拆书
-  - 者的窘境
-  - 鹏对创新者的窘境的纠正
+- Christensen
+- src_20260802_创新者的窘境_秦鹏拆书
+- 一号位
+- 三处纠正
+- 公司死亡不是失败
+- 创业判断
+- 创新者的窘境
+- 坏性创新的误解
+- 性创新纠正
+- 死亡不是失败
+- 破坏性创新纠正
+- 秦鹏三处纠正
+- 秦鹏对《创新者的窘境》三处纠正
+- 秦鹏拆书
+- 者的窘境
+- 鹏对创新者的窘境的纠正
 source_refs:
-  - 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
+- 10_raw/sources/src_20260802_创新者的窘境_秦鹏拆书.txt
 related:
-  - framework-christensen-disruptive-innovation
-  - dk-disruptive-innovation-insight-vs-survey
-  - yt-panproduct-execution-low-cost-mvp
-  - yt-panproduct-execution-roi-analysis
-  - dk-christensen-empirical-criticisms
-  - tool-马易-风口痛点识别法
-  - tool-遵循规模前倾原则设计组织架构
+- framework-christensen-disruptive-innovation
+- dk-disruptive-innovation-insight-vs-survey
+- yt-panproduct-execution-low-cost-mvp
+- yt-panproduct-execution-roi-analysis
+- dk-christensen-empirical-criticisms
+- tool-马易-风口痛点识别法
+- tool-遵循规模前倾原则设计组织架构
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited
 tags:
-  - method:纠正型暗知识
-  - scene:创业判断
-  - audience:一号位
-  - content-format:dk
-  - source-person:秦鹏
+- method:纠正型暗知识
+- scene:创业判断
+- audience:一号位
+- content-format:dk
+- source-person:秦鹏
 discoverable_by:
-  - "破坏性创新的误解"
-  - "颠覆创新常见的误读"
-  - "秦鹏对创新者的窘境的纠正"
+- 破坏性创新的误解
+- 颠覆创新常见的误读
+- 秦鹏对创新者的窘境的纠正
 diagnostic_signals:
-  - signal: "纠正③'公司死亡不是失败'置信度仅0.45"
-    severity: high
-    implication: "价值判断非商业事实，必须标注反方视角"
+- signal: 纠正③'公司死亡不是失败'置信度仅0.45
+  severity: high
+  implication: 价值判断非商业事实，必须标注反方视角
 ---
 
 > **定位**：属于 `framework-christensen-disruptive-innovation` 的**暗知识补丁**——秦鹏基于 20 年实战对原书的三个关键纠正。

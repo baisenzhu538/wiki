@@ -3,57 +3,56 @@ id: tool-narrative-thinking-user-insight
 title: 「工具：叙事型用户洞察——用户不是数字」
 type: tool
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-09
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - human-insights
-  - panproduct
+- human-insights
+- panproduct
 author: 老顽童
 source_refs:
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-笔记.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-笔记.txt
 source_person: 布鲁克斯 / 水水
-reviewed_by: 待审
 aliases:
-  - 叙事型用户洞察
-  - 用户不是数字
-  - 缝隙需求
-  - 用户画像过时论
+- 叙事型用户洞察
+- 用户不是数字
+- 缝隙需求
+- 用户画像过时论
 discoverable_by:
-  - 用户不是数字
-  - 叙事型洞察
-  - 缝隙需求
-  - 用户画像
-  - 用户调研
+- 用户不是数字
+- 叙事型洞察
+- 缝隙需求
+- 用户画像
+- 用户调研
 related:
-  - framework-how-to-know-a-person
-  - tool-empathy-practice
-  - bridge-how-to-know-person-to-business
-  - case-shuishui-business-insight
-  - framework-一堂五步法-泛产品设计
+- framework-how-to-know-a-person
+- tool-empathy-practice
+- bridge-how-to-know-person-to-business
+- case-shuishui-business-insight
+- framework-一堂五步法-泛产品设计
 tags:
-  - method:user-research
-  - method:narrative
-  - method:product-design
-  - scene:product-discovery
-  - audience:product-managers
-  - content-format:tool
-  - source-person:水水
+- method:user-research
+- method:narrative
+- method:product-design
+- scene:product-discovery
+- audience:product-managers
+- content-format:tool
+- source-person:水水
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels:
-  - actionable
-  - insight
-  - cited
+- actionable
+- insight
+- cited
 diagnostic_signals:
-  - signal: "做了用户画像但产品还是失败"
-    lens: 画像里只有数字（年龄/城市/收入），没有"人"——90%产品失败是用户洞察失败
-    follow_up: 用本卡的三步法替换统计画像：找到真实用户→记录人生故事→从故事中找缝隙
-  - signal: "竞品分析做了很多但找不到差异化切入点"
-    lens: 在看'别人做了什么'而不是'用户真正缺什么'
-    follow_up: 问自己：我熟悉的这群人中，有什么需求是现成大厂看不上的？
+- signal: 做了用户画像但产品还是失败
+  lens: 画像里只有数字（年龄/城市/收入），没有"人"——90%产品失败是用户洞察失败
+  follow_up: 用本卡的三步法替换统计画像：找到真实用户→记录人生故事→从故事中找缝隙
+- signal: 竞品分析做了很多但找不到差异化切入点
+  lens: 在看'别人做了什么'而不是'用户真正缺什么'
+  follow_up: 问自己：我熟悉的这群人中，有什么需求是现成大厂看不上的？
 ---
 
 > 定位：本卡属于人域"看见"支柱在商业中的操作工具——布鲁克斯"看见存在"概念 + 水水"缝隙需求"商业洞察。

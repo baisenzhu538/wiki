@@ -6,37 +6,25 @@ status: enriched
 author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-20
-quality_labels:
+quality_labels: null
 created_at: 2026-06-20
 updated_at: 2026-06-20
 confidence: 0.85
 trust_level: medium
 language: zh-CN
-domain:
+domain: strategy
 difficulty: intermediate
 estimated_tokens: 4000
 version: 1
-query_triggers:
-aliases:
-  - 18张调研策略卡全景图
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:intermediate
-  - 十八掌
-  - 张调研策略卡
-  - 研策略全景图
-  - 研策略卡
-  - 降龙十八掌
-  - 降龙十八掌：18张调研策略卡全景图
-  - 龙十八掌
-source_refs:
-related:
-discoverable_by:
-  - "降龙十八掌"
-  - "18张调研策略卡"
-  - "调研策略全景图"
-tags:
+query_triggers: null
 aliases: []
+source_refs: null
+related: null
+discoverable_by:
+- 降龙十八掌
+- 18张调研策略卡
+- 调研策略全景图
+tags: null
 ---
 # 降龙十八掌：18张调研策略卡全景图
 

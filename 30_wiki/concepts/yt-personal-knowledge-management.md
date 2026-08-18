@@ -37,6 +37,7 @@ related:
 status: reviewed
 updated_at: '2026-08-16'
 author: 黄药师
+type: concept
 ---
 # 知识管理
 

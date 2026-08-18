@@ -10,23 +10,23 @@ trust_level: high
 language: zh-CN
 created_at: 2026-07-03
 updated_at: 2026-07-03
-domain:
+domain: yihang
 aliases:
-  - audience:ceo
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一个引擎
-  - 一堂双三角
-  - 一行双三角三阶六变
-  - 三角三阶六变
-  - 三阶六变
-  - 双三角三阶六变
-  - 双三角六种落地场景
-source_refs:
-related:
+- audience:ceo
+- scene:diagnosis
+- skill-level:advanced
+- 一个引擎
+- 一堂双三角
+- 一行双三角三阶六变
+- 三角三阶六变
+- 三阶六变
+- 双三角三阶六变
+- 双三角六种落地场景
+source_refs: null
+related: null
 discoverable_by:
-  - "双三角三阶六变"
-tags:
+- 双三角三阶六变
+tags: null
 ---
 # 一行双三角三阶六变
 

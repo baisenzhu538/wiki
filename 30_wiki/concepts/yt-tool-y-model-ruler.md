@@ -23,9 +23,9 @@ query_triggers:
 - src_unknown
 - src_unknown
 discoverable_by:
-  - Y模型尺子刻度法：从模糊经验到可复用评估模型
-  - Y模型尺子刻度法
-  - 从模糊经验到可复用评估模型
+- Y模型尺子刻度法：从模糊经验到可复用评估模型
+- Y模型尺子刻度法
+- 从模糊经验到可复用评估模型
 related:
 - '[[yt-tool-best-practice-learning]]'
 - '[[yt-tool-fab-persuasion]]'
@@ -34,11 +34,11 @@ review_by: 2026-12-06
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:
-  - Y模型尺子刻度法
-  - Y模型尺子刻度法：从模糊经验到可复用评估模型
-  - 从模糊经验到可复用评估模型
-  - 型尺子刻度法
-  - 糊经验到可复用评估模型
+- Y模型尺子刻度法
+- Y模型尺子刻度法：从模糊经验到可复用评估模型
+- 从模糊经验到可复用评估模型
+- 型尺子刻度法
+- 糊经验到可复用评估模型
 source_refs:
 - 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
 status: enriched
@@ -60,7 +60,7 @@ diagnostic_signals:
   follow_up_question: 均衡型与偏科型选项是否被差异化决策？
 updated_at: '2026-06-16'
 author: 老顽童
-trust_level: medium-high
+trust_level: high
 tags:
 - audience:executor
 - scene:execution

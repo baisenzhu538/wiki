@@ -10,28 +10,28 @@ trust_level: high
 language: zh-CN
 created_at: '2026-07-13'
 updated_at: '2026-07-13'
-domain:
+domain: unknown
 aliases:
-  - audience:ceo
-  - conversion
-  - handle
-  - scene:diagnosis
-  - skill-level:advanced
-  - 一堂阻力方法论骨架
-  - 两大误区
-  - 伏笔式
-  - 低消除逆转阻力
-  - 力方法论骨架
-  - 时机三种被动
-  - 消除时机三种被动/主动/伏笔式
-  - 消除深度三层降低/消除/逆转+
-source_refs:
-related:
+- audience:ceo
+- conversion
+- handle
+- scene:diagnosis
+- skill-level:advanced
+- 一堂阻力方法论骨架
+- 两大误区
+- 伏笔式
+- 低消除逆转阻力
+- 力方法论骨架
+- 时机三种被动
+- 消除时机三种被动/主动/伏笔式
+- 消除深度三层降低/消除/逆转+
+source_refs: null
+related: null
 discoverable_by:
-  - "阻力方法论骨架"
-  - "降低消除逆转阻力"
-quality_labels:
-tags:
+- 阻力方法论骨架
+- 降低消除逆转阻力
+quality_labels: null
+tags: null
 ---
 # 一堂阻力方法论骨架
 

@@ -3,54 +3,53 @@ id: dk-agreeableness-double-edged
 title: 「暗知识：宜人性是双刃剑——老好人≠高价值」
 type: dk
 status: reviewed
-reviewed_by: 欧阳锋
+reviewed_by: 待审
 review_date: 2026-08-09
-confidence: 0.90
+confidence: 0.9
 trust_level: high
 domain:
-  - human-insights
-  - leadership
+- human-insights
+- leadership
 author: 老顽童
 source_refs:
-  - 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
+- 00_inbox/如何了解一个人/水水-《如何了解一个人》读书分享-口述.txt
 source_person: 水水
 source_context: 水水一堂拆书会，大五人格部分（L2194-2214）
-reviewed_by: 待审
 aliases:
-  - 宜人性双刃剑
-  - 老好人陷阱
-  - agreeableness
+- 宜人性双刃剑
+- 老好人陷阱
+- agreeableness
 discoverable_by:
-  - 宜人性
-  - 老好人
-  - 双刃剑
-  - 大五人格
+- 宜人性
+- 老好人
+- 双刃剑
+- 大五人格
 related:
-  - framework-big-five-personality
-  - framework-how-to-know-a-person
-  - bridge-how-to-know-person-to-business
-  - tool-illuminator-vs-diminisher
-  - framework-一堂-个人表达力
+- framework-big-five-personality
+- framework-how-to-know-a-person
+- bridge-how-to-know-person-to-business
+- tool-illuminator-vs-diminisher
+- framework-一堂-个人表达力
 tags:
-  - method:personality
-  - method:leadership
-  - scene:team-building
-  - audience:managers
-  - content-format:dk
-  - source-person:水水
+- method:personality
+- method:leadership
+- scene:team-building
+- audience:managers
+- content-format:dk
+- source-person:水水
 created_at: 2026-08-04
 updated_at: 2026-08-04
 quality_labels:
-  - insight
-  - counterintuitive
-  - cited
+- insight
+- counterintuitive
+- cited
 diagnostic_signals:
-  - signal: "团队里'好说话的人'总是被分配更多烂活"
-    lens: 宜人性高的成员正在被"好说话"惩罚
-    follow_up: 检查任务分配——是否宜人性高的成员总是被塞进没人想做的项目？
-  - signal: "明明你才是最配合的那个人，升职的却是'难搞'的同事"
-    lens: 宜人性高=容易被忽视——"好说话"≠"被重视"
-    follow_up: 练习说"不"——不是变刻薄，是保护自己的精力边界
+- signal: 团队里'好说话的人'总是被分配更多烂活
+  lens: 宜人性高的成员正在被"好说话"惩罚
+  follow_up: 检查任务分配——是否宜人性高的成员总是被塞进没人想做的项目？
+- signal: 明明你才是最配合的那个人，升职的却是'难搞'的同事
+  lens: 宜人性高=容易被忽视——"好说话"≠"被重视"
+  follow_up: 练习说"不"——不是变刻薄，是保护自己的精力边界
 ---
 
 > 定位：本卡属于 `[[framework-big-five-personality]]` 的配套暗知识——大五人格中最反直觉的洞察。

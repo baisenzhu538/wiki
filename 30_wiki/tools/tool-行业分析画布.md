@@ -1,5 +1,4 @@
 ---
-
 id: tool-行业分析画布
 title: 行业分析画布：系统性理解行业结构
 type: tool
@@ -9,22 +8,22 @@ reviewed_by: 欧阳锋
 confidence: 0.78
 trust_level: medium
 language: zh-CN
-domain:
+domain: unknown
 aliases:
-  - audience:executor
-  - scene:execution
-  - skill-level:intermediate
-  - 系统性理解行业结构
-  - 行业分析画布
-  - 行业分析画布：系统性理解行业结构
-source_refs:
+- audience:executor
+- scene:execution
+- skill-level:intermediate
+- 系统性理解行业结构
+- 行业分析画布
+- 行业分析画布：系统性理解行业结构
+source_refs: null
 discoverable_by:
-  - 行业分析画布：系统性理解行业结构
-  - 行业分析画布
-  - 系统性理解行业结构
-related:
+- 行业分析画布：系统性理解行业结构
+- 行业分析画布
+- 系统性理解行业结构
+related: null
 updated_at: '2026-06-29'
-tags:
+tags: null
 ---
 # 行业分析画布：系统性理解行业结构
 

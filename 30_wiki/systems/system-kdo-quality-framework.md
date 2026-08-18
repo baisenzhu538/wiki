@@ -1,48 +1,48 @@
 ---
 id: system-kdo-quality-framework
-title: "KDO 质量体系：双三角模型在知识工厂的落地"
+title: KDO 质量体系：双三角模型在知识工厂的落地
 type: system
 status: draft
 domain:
-  - kdo
-  - master
+- kdo
+- master
 author: 黄药师
 reviewed_by: 待审
 review_date: 2026-08-08
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 source_refs:
-  - 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
-  - cap_hub/features.json
+- 00_inbox/人机协作双三角/一堂双三角-人机协作模型-口述.txt
+- cap_hub/features.json
 created_at: 2026-08-08
 updated_at: 2026-08-08
 tags:
-  - audience:huangyaoshi
-  - audience:ouyangfeng
-  - scene:reference
-  - skill-level:advanced
+- audience:huangyaoshi
+- audience:ouyangfeng
+- scene:reference
+- skill-level:advanced
 aliases:
-  - KDO质量体系
-  - KDO双三角
-  - 知识工厂质量
+- KDO质量体系
+- KDO双三角
+- 知识工厂质量
 discoverable_by:
-  - KDO质量体系
-  - KDO双三角
-  - 知识工厂质量
+- KDO质量体系
+- KDO双三角
+- 知识工厂质量
 diagnostic_signals:
-  - signal: 'KDO 有 8 道门禁 + 12 个 Feature，但没有一张卡描述整体质量框架'
-    severity: high
-    implication: '新 Agent 入职或黄药师失忆恢复时，无法快速理解 KDO 的质量体系全貌'
-  - signal: '人类三角中的"体系"角最弱——KDO 的方法论框架分散在多个文件中'
-    severity: medium
-    implication: '没有单一入口回答"KDO 的质量是怎么保证的"'
+- signal: KDO 有 8 道门禁 + 12 个 Feature，但没有一张卡描述整体质量框架
+  severity: high
+  implication: 新 Agent 入职或黄药师失忆恢复时，无法快速理解 KDO 的质量体系全貌
+- signal: 人类三角中的"体系"角最弱——KDO 的方法论框架分散在多个文件中
+  severity: medium
+  implication: 没有单一入口回答"KDO 的质量是怎么保证的"
 related:
-  - '[[concept-kdo-feature-registry]]'
-  - '[[concept-kdo-component-library]]'
-  - '[[framework-kdo-modeling-methodology]]'
-  - '[[kdo-moc]]'
-  - '[[master-moc]]'
-  - '[[framework-kdo-self-attack]]'
+- '[[concept-kdo-feature-registry]]'
+- '[[concept-kdo-component-library]]'
+- '[[framework-kdo-modeling-methodology]]'
+- '[[kdo-moc]]'
+- '[[master-moc]]'
+- '[[framework-kdo-self-attack]]'
 ---
 
 # KDO 质量体系：双三角落地

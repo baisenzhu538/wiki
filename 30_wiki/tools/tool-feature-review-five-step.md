@@ -4,66 +4,67 @@ title: 「工具：Feature复盘五步法——用/缺/叠加/改进/沉淀」
 type: tool
 status: reviewed
 confidence: 0.85
-trust_level: observed
+trust_level: medium
 domain:
-  - ai-basic
+- ai-basic
 author: 老顽童
 source_refs:
-  - 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
+- 00_inbox/AI基本功/Live258：AI基本功第一课优秀作业.md
 source_person: Live258 十位学员（黄华春/jeffgirl/张丽娜/王鹏飞/田力/行知/农夫三拳/雍博/Simon Peng/黄谦）
-source_context: Live258 AI基本功第一课优秀作业 10 案例共性结构提炼（L237-L351 黄华春/L1825-L2421 jeffgirl/L2423-L2791 张丽娜/L2795-L2905 王鹏飞），学员二手自述
+source_context: Live258 AI基本功第一课优秀作业 10 案例共性结构提炼（L237-L351 黄华春/L1825-L2421 jeffgirl/L2423-L2791
+  张丽娜/L2795-L2905 王鹏飞），学员二手自述
 reviewed_by: 欧阳锋
 aliases:
-  - Feature复盘五步法
-  - 用缺叠加改进沉淀
-  - 复盘五步
-  - 效果追踪表
-  - 每版一个假设
-  - AI基本功
-  - Live258
+- Feature复盘五步法
+- 用缺叠加改进沉淀
+- 复盘五步
+- 效果追踪表
+- 每版一个假设
+- AI基本功
+- Live258
 discoverable_by:
-  - Feature复盘
-  - 复盘五步法
-  - 用缺叠加改进沉淀
-  - 效果追踪表
-  - 每版一个假设
-  - 验收清单
+- Feature复盘
+- 复盘五步法
+- 用缺叠加改进沉淀
+- 效果追踪表
+- 每版一个假设
+- 验收清单
 related:
-  - framework-truman-feature-thinking-core
-  - framework-truman-feature-layered-system
-  - dk-demand-feature-stacking
-  - dk-feature-pieces-not-recognized-as-cards
-  - dk-ai-does-not-question-your-mistake
-  - dk-feature-not-learned-but-used
-  - ai-basic-domain-digest
-  - case-live258-zhihu-content-acquisition
-  - case-live258-livestream-prompt-v1-v5
-  - case-live258-fact-spread-18-bridges
-  - case-live258-europe-cold-email
+- framework-truman-feature-thinking-core
+- framework-truman-feature-layered-system
+- dk-demand-feature-stacking
+- dk-feature-pieces-not-recognized-as-cards
+- dk-ai-does-not-question-your-mistake
+- dk-feature-not-learned-but-used
+- ai-basic-domain-digest
+- case-live258-zhihu-content-acquisition
+- case-live258-livestream-prompt-v1-v5
+- case-live258-fact-spread-18-bridges
+- case-live258-europe-cold-email
 tags:
-  - method:feature-thinking
-  - method:retrospective
-  - scene:ai-learning
-  - audience:practitioner
-  - content-format:tool
-  - source-person:student
-  - evidence:observed
+- method:feature-thinking
+- method:retrospective
+- scene:ai-learning
+- audience:practitioner
+- content-format:tool
+- source-person:student
+- evidence:observed
 created_at: 2026-08-12
 updated_at: 2026-08-12
 quality_labels:
-  - actionable
-  - principle
-  - insight
+- actionable
+- principle
+- insight
 diagnostic_signals:
-  - signal: "用AI做完了事，从不复盘"
-    lens: 缺复盘机制——成功失败都归零
-    follow_up: 每次实践后用五步法过一遍：用/缺/叠加/改进/沉淀（10分钟）
-  - signal: "复盘停留在'感觉不太对'"
-    lens: 缺Feature词汇表——模糊焦虑没变成精准假设
-    follow_up: 对照周期表逐项过"缺"步，把感觉翻译成Feature缺口
-  - signal: "存了很多Feature但从不用"
-    lens: 收藏癖——库建了不消化
-    follow_up: 第5步沉淀强制带使用记录：每个Feature标"用过几次/分数变化"
+- signal: 用AI做完了事，从不复盘
+  lens: 缺复盘机制——成功失败都归零
+  follow_up: 每次实践后用五步法过一遍：用/缺/叠加/改进/沉淀（10分钟）
+- signal: 复盘停留在'感觉不太对'
+  lens: 缺Feature词汇表——模糊焦虑没变成精准假设
+  follow_up: 对照周期表逐项过"缺"步，把感觉翻译成Feature缺口
+- signal: 存了很多Feature但从不用
+  lens: 收藏癖——库建了不消化
+  follow_up: 第5步沉淀强制带使用记录：每个Feature标"用过几次/分数变化"
 review_date: 2026-08-15
 ---
 > 本卡属于 [[framework-truman-feature-thinking-core]] 的应用方法——Feature 思维"识别→补全→验证"循环的落地模板（10 份优秀作业共性结构提炼：每案例均为"用了什么 Feature + 缺了什么 Feature + 叠加效应 + 改进方案"四段式，天然符合三步编译法）。与 `[[dk-feature-pieces-not-recognized-as-cards]]`（#313）互补：那张讲"散牌为什么没被识别"，本卡讲"用什么流程把散牌变成资产"。
