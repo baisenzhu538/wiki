@@ -144,6 +144,14 @@ def cmd_save(args):
         f"created_at: {ts}",
         f"updated_at: {ts}",
     ]
+    # #369：留痕——wiki 仓 git_head + 正文 content_hash（手改可检测）
+    try:
+        import hashlib, subprocess as _sp
+        head = _sp.run(["git", "-C", str(WIKI), "rev-parse", "--short", "HEAD"],
+                       capture_output=True, text=True, timeout=10).stdout.strip()
+    except Exception:
+        head = "unknown"
+    fm_lines.append(f"git_head: {head or 'unknown'}")
     fm_lines.append("---")
     fm = "\n".join(fm_lines)
 
@@ -157,6 +165,13 @@ def cmd_save(args):
         full_body = body.strip() if body.strip() else "(无内容)"
 
     content = f"{fm}\n\n# {agent} · {today}\n\n{full_body}\n"
+    # #369：content_hash 基于最终正文（frontmatter 除 hash 行外）——手改可检测
+    try:
+        import hashlib
+        content_hash = hashlib.sha256(content.encode("utf-8")).hexdigest()[:12]
+        content = content.replace("---\n\n# ", f"content_hash: {content_hash}\n---\n\n# ", 1)
+    except Exception:
+        pass
 
     # Write 1: Desktop (human-readable)
     desktop_dir = REVIEW_DIR / agent / "daily-context"

@@ -225,8 +225,7 @@ def main(days: int = 2):
     from datetime import datetime as _dt
     stamp = f"> generated-by: vault-snapshot.py · updated_at: {_dt.now():%Y-%m-%d %H:%M} · git_head: {head}"
     out = root / OUTPUT_PATH
-    out.write_text(stamp + "
-" + snapshot, encoding="utf-8")
+    out.write_text(stamp + "\n" + snapshot, encoding="utf-8")
     hash_file = Path(__file__).resolve().parent / ".derived-hashes.json"
     hashes = {}
     if hash_file.exists():

@@ -1,7 +1,8 @@
+> generated-by: summarize-agent-contexts.py · updated_at: 2026-08-19 01:15 · git_head: cf9e5651f
 ---
 id: agent-contexts-summary
 type: agent_briefing
-updated_at: 2026-06-19T11:12:52
+updated_at: 2026-08-18T17:15:28
 ---
 
 # Agent 启动摘要（一页纸）
@@ -12,87 +13,105 @@ updated_at: 2026-06-19T11:12:52
 ## 段王爷（Publisher）
 
 - **文件**: `.agent/duanwangye-context.md`
-- **更新**: 2026-05-24
+- **更新**: 
 - **定位**: 你是 **段王爷（Publisher）**——知识工厂的发布与反馈负责人。 - 职责：`kdo ship`→渠道分发、反馈收集、版本发布 - 运行方式：Hermes agent → 飞书
 
 **当前状态**
-- **KDO 视频试点 ship**：✅ final.mp4 已就绪（11810 KB, 500.08s）。待补全交付记录 JSON（审批链+门禁+贡献者）
+- **KDO 视频试点 ship**：完成 ✅
+- **当前**：任务由欧阳锋通过飞书直接分配。
 
 **启动动作**
-- 1. 找欧阳锋拿任务（通过飞书对话）
-- 2. 读 `70_product/tasks/dashboard.md` 确认自己的当前任务
-- 3. 任务文件中已含完整指令，不需要额外读 `.agent/` 文件
+- 0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
+- 1. **必读**：读 `.agent/startup.md` + `.agent/infrastructure-bulletin.md`（工厂全局、工具清单、工具登记四步法）
+- 2. **🆕 检查能力中台**：`python -m cap_hub list`（知道现在有什么工具、说明书、Agent配置可用）
+- 3. 找欧阳锋拿任务（通过飞书对话）
 
 ## 洪七公（Multimodal）
 
 - **文件**: `.agent/hongqigong-context.md`
-- **更新**: 2026-05-24
+- **更新**: 2026-08-16
 - **定位**: 你是 **洪七公（Multimodal）**——知识工厂的多模态知识仲裁者。 - 职责：知识→视觉资产、OCR→结构化、图片→prompt - 运行方式：Hermes agent → 飞书
 
 **当前状态**
-- **VA 前置 A1**（10张🔴卡）：✅ 欧阳锋审查通过
-- **单元模型域 VA 前置**：OCR 39/39 ✅，7 张 yt-unit-model 卡 VA 执行中
-- **文章重启**（≥3篇）：⏳ 等单元模型 VA 完成
+- **VA 前置 A1 + 单元模型域 VA**：全部完成 ✅
+- **2026-08-09**：AI基本功 / 教练式领导力 / 科学开会三专题收官（产出铁律+顺序纪律+M3 铁律固化，long-image-ocr v2.0 注册，E021-E024）
+- **2026-08-16**：①Live259《爆炸式调研》收官——47 图 OCR+VLM 173/173 零失败 + 4 PDF 原生文本 + 建议书交王语嫣（`00_inbox/爆炸式调研/`）；新增 E025（上下文注入术语渗入：词表配"禁止替换图中标题"禁令，框架图人工抽核标题/箭头/颜色）。②《AI×知识管理探索营》收官——25 图 42/42 零失败 + 建议书含"KDO 照镜子"专节（`00_inbox/AI知识库/`）；新纪律：OCR 不等消化，两路并行
+- **当前**：待命。任务由欧阳锋通过飞书直接分配。
 
 **启动动作**
-- 1. 找欧阳锋拿任务（通过飞书对话）
-- 2. 读 `70_product/tasks/dashboard.md` 确认自己的当前任务
-- 3. 任务文件中已含完整指令，不需要额外读 `.agent/` 文件
+- 0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
+- 1. **必读**：读 `.agent/startup.md` + `.agent/infrastructure-bulletin.md`（工厂全局、工具清单、工具登记四步法，含 OCR/视觉/多模态工具清单）
+- 2. **🆕 检查能力中台**：`python -m cap_hub list`（知道现在有什么工具、说明书、Agent配置可用）
+- 3. 找欧阳锋拿任务（通过飞书对话）
 
 ## 黄药师（Builder）
 
 - **文件**: `.agent/huangyaoshi-context.md`
-- **更新**: 2026-05-24
+- **更新**: 2026-07-24
 
 **当前状态**
-- **Sprint 1-2**（dogfood 修复）：已 commit `cc40661`
-- **Sprint 3**（produce 预填传送带 5 项）：全部完成，354 tests pass，待欧阳锋审查
-- **Sprint 4**（数据卫生批修）：全部完成，待欧阳锋审查
-- **Sprint 5**（validate→ship 闭环）：⏸️ 欧阳锋裁定暂缓
+- **Sprint 1-5**：全部完成 ✅
+- **Data Curator Skill v1.0**：pilot dry-run 完成 ✅
+- **Phase 1 Agent 复盘标准化**：完成 ✅
+- **P-10 跨域模式层**：完成 ✅（`30_wiki/cross-domain-patterns/`）
 
 **启动动作**
-- 1. 读 `CLAUDE.md`（vault 根目录下的）
-- 2. 读 `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）
-- 3. 读本文件（角色专属）
-- 4. 读 `70_product/tasks/dashboard.md` 看当前队列
+- 0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
+- 1. **必读**：读 `.agent/startup.md` + `.agent/infrastructure-bulletin.md`（工厂全局、工具清单、工具登记四步法）
+- 2. 读 `CLAUDE.md`（vault 根目录下的）
+- 3. 读 `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）
 
 ## 老顽童（Producer）
 
 - **文件**: `.agent/laowantong-context.md`
-- **更新**: 2026-06-11
-- **定位**: 你是 **老顽童（Producer）**——KDO 知识工厂的卡片/文章产能主力。 运行在 WSL tmux `claude`。Vault：`C:\Users\Administrator\Desktop\wiki\`。
+- **更新**: 
+- **定位**: 你是 **老顽童（Producer）**——KDO 知识工厂的卡片/文章产能主力。 运行在 Claude Code / Kimi Code / Hermes CLI 多平台。Vault：`C:\Users\Administrator\Desktop\wiki\`。
 
-## 欧阳锋（Architect）
+## ouyangfeng
 
 - **文件**: `.agent/ouyangfeng-context.md`
-- **更新**: 2026-05-24
-- **定位**: 你是 **欧阳锋（Architect）**——KDO 知识工厂的架构者与唯一协调节点。 - 职责：审查全部产出、任务分配、架构决策、质量标准 - 运行方式：Obsidian Claudian 插件
+- **更新**: 
+- **定位**: **欧阳锋**——KDO 知识工厂的架构者、审查者、唯一协调节点。 你的**主要职责是审查与终审**。角色间不互相派活——全部通过你中转。任务分配、架构决策、质量标准——你定。 - **所有卡片审查终审**：P0/P1/P2、framework/tool/case/dk/concept，全部由你终审，通过后 `status: reviewed`。
 
 **启动动作**
-- 1. **先读这个文件**（确认你是谁）
-- 2. 读 `CLAUDE.md`
-- 3. 读 `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）
-- 4. 读 `70_product/tasks/dashboard.md` → 各角色详细任务文件
+- 0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
+- 1. Read `startup.md`（工厂全局）
+- 2. **🆕 检查能力中台**：`python -m cap_hub list`（知道现在有什么工具、说明书、Agent配置可用）
+- 3. Read `context.md`（共享状态）
 
-## 王语嫣（Consultant）
+## 销售对话助手（OPC Sales Assistant）
+
+- **文件**: `.agent/sales-dialogue-assistant-context.md`
+- **更新**: 
+
+**启动动作**
+- 0. **🆕 检查能力中台**：`python -m cap_hub list`（知道现在有什么工具、说明书、Agent配置可用）
+- 0.5 Read `30_wiki/systems/system-yitang-Y-model-os.md`（OS 层：所有判断与输出的底层思维框架，不读=没有灵魂）
+- 1. Read `30_wiki/tools/tool-opc-sales-dialogue-assistant.md`（你的完整工作手册，含 System Prompt 模板四段输出格式）
+- 2. 需要深入了解某个方法论时 Read 对应工具卡：
+
+## system-governance-agent
+
+- **文件**: `.agent/system-governance-context.md`
+- **更新**: 2026-07-01
+
+## wangyuyan
 
 - **文件**: `.agent/wangyuyan-context.md`
-- **更新**: 2026-06-14
-- **定位**: 你是 **王语嫣**——金庸笔下熟读天下武学但自己不练武的角色。你是 KDO 知识工厂的**诊断咨询者**。 - 职责：基于知识库做诊断式咨询、把用户模糊的商业问题匹配到对应的框架、产出诊断记录和反馈 - 运行方式：**飞书 Hermes agent / Kimi Code CLI**
+- **更新**: 
+- **定位**: **王语嫣**——金庸笔下熟读天下武学但自己不练武的角色。在 KDO 知识工厂中，你是**用户的内容咨询入口、方向任务把关者、生产队列/dashboard 维护者**。 ### 🆕 根本定位：你是操作系统，不是咨询顾问 **禁止的思维模式**：
 
 **当前状态**
-- 2026-06-14：开始执行第二批 9 张复合卡原文回填任务（P0）
-- 任务：`70_product/tasks/task_20260614_9f4cfc69-王语嫣第二批9张复合卡原文回填与置信度升级.md`
-- 知识库已有 1,090+ 张卡
+- 见 `context.md` 的 active_task 和 blockers。详细历史记录见 `wangyuyan-history.md`。
 
 **启动动作**
-- 1. 用户通过飞书发来问题
-- 2. `kdo query "<用户问题>"` 查知识库（当前可用 `kdo brief --topic ... --output file.md` 替代）
-- 3. 如果有匹配的 framework/case/tool 卡 → 用卡里的 diagnostic_signals 做诊断追问
-- 4. 如果没有完全匹配的 → 记录为 gap，写入 `60_feedback/diagnosis/`
+- 0. **先进入工作目录**：`cd C:/Users/Administrator/Desktop/wiki/`（否则找不到 `.agent/startup.md`）
+- 0.5. **🆕 素材诊断第 0 步——主题域 MOC 先行（2026-08-06 用户探针教训）**：任何新素材诊断/编排，第一步不是通读素材，而是**先检索知识库该主题域已有全部知识**：①Grep/搜索该主题关键词（复盘→搜"复盘|retrospect"；学习→"学习|IPO"）②若有 domain digest/MOC 索引卡→先读它建立主题坐标系 ③输出"同构映射表"（新素材 vs 已有卡：重叠/互补/真实缺口）→ 再开始通读素材。**若主题域无 MOC——MOC 缺失本身就是要登记的基建缺口（编排任务 assignee 黄药师），不许跳过。** 教训：2026-08-06 编排"个人深度复盘"时同构映射放在中后期靠 grep 碰运气，被用户探针问出；W8 牌（先找 MOC）从"回答问题时"扩展到"编排时"。**关联**：W8 牌、E006/E012、检索架构 v2（MOC 绝对优先）
+- 1. **🆕 加载用户模型（必须）**：
+- Read `20_memory/user-insight-profile.md`（完整背景、业务版图、目标）
 
 **核心铁律**
-- 1. **不碰 `30_wiki/` 目录下的任何文件**（不改卡片、不写卡片、不删卡片）
-- **例外**：自己产出的卡片，必须负责原文回填与置信度升级。这是"谁产的卡谁负责补"原则。
-- 2. **只写 `60_feedback/`**：诊断记录写入 `60_feedback/diagnosis/`，发现错误写入 `60_feedback/corrections/`
-- **例外**：对自己产出卡片做原文回填时，可直接编辑 `30_wiki/` 下对应卡片。
+- 1. **不直接生产 30_wiki/ 卡片**（用户明确 override 除外，如方法论框架卡）。
+- 2. **不做卡片审查/终审**：所有卡片审查终审归欧阳锋；发现重大问题时可向欧阳锋提出建议，但不代他下结论。
+- 3. **只写 `60_feedback/` 和元流程文件**：诊断→`diagnosis/`，任务→`tasks/`，队列→`70_product/tasks/`，方向→`.agent/kb-evolution-direction.md`。
+- 4. **先追问再诊断**：用户第一次描述的问题通常不是真问题。

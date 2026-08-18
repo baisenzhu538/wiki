@@ -71,6 +71,7 @@ def main():
             ("check-agent-config", [], "Agent 配置自检"),
             ("check-mcp-roaming", ["--json"] if args.json else [], "MCP 挂载巡检（#326）"),
             ("check-runtime-drift", [], "运行时漂移巡检（#364）"),
+            ("check-derivatives", [], "派生副本手改检测（#369）"),
         ])
 
     if args.domain:
@@ -124,6 +125,7 @@ def main():
         "Agent 配置自检": "各 Agent 的 context/skill/权限是否一致——配置漂移=Agent 行为不可预期。",
         "MCP 挂载巡检（#326）": "16 个 Hermes profile 的 mcp_servers.kdo 挂载 + 新卡可检索抽查（按 WorkingDirectory 实证）——红灯=某 agent 检索断了。",
         "运行时漂移巡检（#364）": "MCP server 进程 vs 源码 commit 时间 + 双索引同步 + 启动指针有效——红灯=生产跑旧代码/索引不同步，先处置再作业。",
+        "派生副本手改检测（#369）": "dashboard/vault-status/agent-contexts-summary 与生成基线 hash 比对——红灯=派生物被手改，重新生成而非手改。",
     }
 
     for r in check_results:
