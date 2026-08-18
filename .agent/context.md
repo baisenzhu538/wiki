@@ -4,7 +4,7 @@ updated_at: 2026-08-18T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "审查通道清空（2026-08-19）：**#343/#344 补审修复 PASS A**（终审状态被 08-19 00:2x-00:4x 队列维护回滚为 pending_review——reviewed_by/review_date 残留证明终审有效；补审 SOP 重跑脚本修复，已加补审记录）+ **#362 终审版本对齐核验 PASS A**（三问条款已落盘 ouyangfeng-context.md：入仓/生效/对齐，豁免制卡文档）+ **#365 记忆注册表 PASS A**（memory-registry.md 四表齐全+黄药师会审）——pending_review=1 剩余非本批。**#345 T3 PASS A（用户下令转收尾）**——duanwangye 服务 RUNNING/AUTO + WSL 无残留 + 消费层 #351 86 倍提速双证；**迁移链 T0-T4 五单（#342-346）全部收官**。**⚠️ 状态回退预警**：任务单/队列状态可能被基于旧快照的队列维护覆盖——终审后 grep 确认状态列，发现回退走补审流程。**队列**：dashboard 348，完成 339。"
+active_task: "审查通道清空（2026-08-19）：**#343/#344 补审修复 PASS A**（终审状态被 08-19 00:2x-00:4x 队列维护回滚为 pending_review——reviewed_by/review_date 残留证明终审有效；补审 SOP 重跑脚本修复，已加补审记录）+ **#362 终审版本对齐核验 PASS A**（三问条款已落盘 ouyangfeng-context.md：入仓/生效/对齐，豁免制卡文档）+ **#365 记忆注册表 PASS A**（memory-registry.md 四表齐全+黄药师会审）——pending_review=1 剩余非本批。**#345 T3 PASS A（用户下令转收尾）**——duanwangye 服务 RUNNING/AUTO + WSL 无残留 + 消费层 #351 86 倍提速双证；**迁移链 T0-T4 五单（#342-346）全部收官**。**⚠️ 状态回退预警**：任务单/队列状态可能被基于旧快照的队列维护覆盖——终审后 grep 确认状态列，发现回退走补审流程。**#363 queue_transition 提审门禁 PASS A**（code_files 显式声明+git 收净门禁+force 锁内重检修复+环境解耦；单元实测 3 项全过+自证"先 commit 再提审"）——**审查通道清零（审查中 0）**，dashboard 352/341 完成。"
 blockers:
   - "production-queue.md 全文件中文 mojibake 损坏（UTF-8-SIG 混合编码）——历史遗留，新行正常 UTF-8；提请黄药师做编码修复"
   - "O-3 已知 bug：queue_transition.py complete --force 对 queued 任务锁内 re-check 必失败——review 路径实测可用（2026-08-18 四单全通，含 --grade）"

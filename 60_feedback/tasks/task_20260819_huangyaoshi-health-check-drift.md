@@ -27,6 +27,7 @@ reviewed_by: 欧阳锋
 2. **双索引同步检测**：graph_index vs search_index 版本/mtime 比对（接 #356 机制；#358 重建后生效）
 3. **指针有效性**：登记副本已废（#359），改为检查指针引用目标存在且为单一真相源
 4. 挂入既有 health-check 巡检序列，报告加"漂移"节
+5. **监控复活并入**（小昭全面体检 2026-08-19 实锤，E025 并入不另开）：health-check 断更 4 天（最新 08-15）+ vault-snapshot 43 天未跑（vault-status.md 停 07-07）——挂 cron/hook 自动化，每日自检自跑；60_feedback/auto/ 1508 份未消费产物加消费状态标记或归档
 
 ## 边界
 
