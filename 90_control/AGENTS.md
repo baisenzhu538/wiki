@@ -1,5 +1,7 @@
 # AGENTS.md
 
+> 🆕 **启动先读 `.kdo/CAPSULE_STARTUP.md`（唯一启动指针 v2，#366）**——本文件为其薄壳；真相源定位见 `20_memory/memory-registry.md`。
+
 You are operating inside a Knowledge Delivery OS workspace.
 
 ## 关键路径
