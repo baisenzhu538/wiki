@@ -63,12 +63,12 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-20 03:18</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-20 03:20</p>
 
 <div class="stats">
 <div class="stat queued"><div class="stat-num">1</div><div class="stat-label">待领取 Queued</div></div>
-<div class="stat pending"><div class="stat-num">1</div><div class="stat-label">审查中 Review</div></div>
-<div class="stat active"><div class="stat-num">1</div><div class="stat-label">进行中 Active</div></div>
+<div class="stat pending"><div class="stat-num">2</div><div class="stat-label">审查中 Review</div></div>
+<div class="stat active"><div class="stat-num">0</div><div class="stat-label">进行中 Active</div></div>
 <div class="stat done"><div class="stat-num">358</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">21</div><div class="stat-label">活跃角色</div></div>
 </div>
@@ -92,6 +92,17 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <span class="task-assignee laowantong">老顽童</span>
 </div>
 </div>
+<div class="task-card">
+<div class="task-prio p2">P2</div>
+<div class="task-info">
+<div class="task-id">#382</div>
+<div class="task-title">delivery.py trust 过滤失效修复（P2，#380 测试挖出的预存在 bug）：缺 import os 致 _filter_by_trust 静默失效——BM25 检索从未执行 trust≥medium 过滤</div>
+<div class="task-detail">⚠️修复改变检索行为（low-trust 卡消失），须前后对比实测供终审评估；生效需重启 MCP server（杀进程前请示老朱，沿用 #361 模式）；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
 </div>
 <div class="task-group">
 <div class="group-header queued">待领取</div>
@@ -104,20 +115,6 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 <div class="task-meta">
 <span class="task-assignee laowantong">老顽童</span>
-</div>
-</div>
-</div>
-<div class="task-group">
-<div class="group-header active">进行中</div>
-<div class="task-card">
-<div class="task-prio p2">P2</div>
-<div class="task-info">
-<div class="task-id">#382</div>
-<div class="task-title">delivery.py trust 过滤失效修复（P2，#380 测试挖出的预存在 bug）：缺 import os 致 _filter_by_trust 静默失效——BM25 检索从未执行 trust≥medium 过滤</div>
-<div class="task-detail">⚠️修复改变检索行为（low-trust 卡消失），须前后对比实测供终审评估；生效需重启 MCP server（杀进程前请示老朱，沿用 #361 模式）；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
 </div>
 </div>
 </div>
@@ -411,7 +408,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-20 03:18 · git_head: a99f38e35 --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-20 03:18</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-20 03:20 · git_head: 60ee35bb9 --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-20 03:20</footer>
 </body>
 </html>

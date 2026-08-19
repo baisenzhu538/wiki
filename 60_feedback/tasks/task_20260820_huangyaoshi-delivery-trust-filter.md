@@ -1,8 +1,8 @@
 ---
 id: 382
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-19T19:14:22.571958+00:00'
+status: pending_review
+updated_at: '2026-08-19T19:20:58.700750+00:00'
 title: delivery.py trust 过滤失效修复（P2，#380 测试挖出的预存在 bug）——缺 import os 致 _filter_by_trust
   静默失效
 priority: P2
