@@ -40,6 +40,21 @@ updated_at: 2026-08-16
 - **res-downloader**（MITM 嗅探）降级为播放兜底
 - **待办**：small/large-v3 模型升级（tiny 够用但质量一般）；视频标题语义化（文件名是 hash）；KDO 侧接入 30_wiki 前的 ingest/validate 流程
 
+### 2026-08-19 修复批次（偶遇采集 + inbox 监工）
+- **链接规范化键去重**：公众号 `__biz+mid+idx`、头条 gid——修掉同一文章多分享链接重复采集（《重构协同》曾 3 份，已合并归档 duplicates-archive/）
+- **文章知识化**：公众号/头条文章入库后自动走 LLM 三层次（洪七公 §五-1 闭环）
+- **inbox 监工（watch_inbox.py）迁 Windows**：原 WSL cron 因 WSL 不常驻静默失效（08-17 23:50 后停了 2 天，洪七公交付汇总无人派发）→ 计划任务 `kdo-inbox-watch` 每 10 分钟；P2 项落 dispatch 文件（原只 print 无人消费）；排除 wechat-collect/
+- **WSL cron 清仓（用户确认 WSL 无 agent 后）**：`kdo watch --health` → `kdo-health-daily`（每日 02:07，`run-kdo-health.cmd` 实测 PASS）；老顽童 state.db 备份 → `hermes-laowantong-backup`（每小时，`backup-hermes-state.ps1` 背 Windows 侧 profile，实测 PASS）；WSL crontab 已清空只留注释；`hermes-capsule-sync.timer` 已 disable（#366 FAIL 裁定方向——它曾在 3 分钟内把 CAPSULE_STARTUP v2 覆盖回 v1）
+- **教训**：①Windows 迁移后任何"挂 WSL cron 的自动化"都要当作已失效排查——WSL 只在被调用时启动 ②.ps1 带中文必须存 UTF-8 BOM（PS 5.1 无 BOM 按 GBK 解析会吞字符，变量变空静默 skip）；.cmd 保持纯 ASCII ③**查清后续 commit 再定性**——我曾凭 #366 终审 FAIL 旧记录把 capsule_sync 当"v2 覆盖元凶"停用了它的 WSL 定时器，实际 08-19 01:33 commit 131815020 已做 v2 兼容改造并复审 PASS A；发现误判后立即 re-enable 恢复。FAIL 意见的"停用或升级"是二选一，升级已完成=风险已消除
+
+### 2026-08-19 晚：检索索引门禁（L2+L3，用户拍板）
+- **问题**：新卡入库不跑 `kdo index` = 检索不到（一盏神灯卡实证；graph 与 search_index 是两套分离索引，`graph rebuild` 不管后者）
+- **L2 提审门禁**：`kdo pre-submit` 新增 `_check_index_freshness`——卡片 mtime > `.kdo/search_index.json` → ERROR 拦下。只检测不重建（毫秒级；全量重建分钟级，慢门禁会催生绕行）
+- **L3 巡检**：`kdo watch --health` 新增第 7 项"检索索引滞后"（每日 02:07 kdo-health-daily 自动跑）——上线首日就抓到 13 张真实滞后卡
+- **坑**：`_is_card()` 用 safe_read(limit=500) 截断长 frontmatter，规范卡反而误判非卡——门禁里改用"30_wiki/ 路径 + frontmatter 起始"判定（狗粮实测抓到）
+- **KDO 源码改动未 commit**：`pre_submit.py` + `health_check.py`（pytest 15/15 过）——待用户/欧阳锋确认后提交
+- **L1（治本，未做）**：SearchIndex 增量更新 + 入库路径自动挂索引——立项候选
+
 
 
 > 08-16 晚重大事件：**全量 Windows 迁移启动**（洪七公断连生产事故 → 用户拍板"以后全量 Windows"）——codex 主导 T0-T4（#342-346）+ #347 洪七公迁移（已完成，用户确认成功）+ #348 R 型调研 Partner 部署（原黄药师→改派 codex，飞书真机冒烟 PASS）。我的日常复盘只覆盖 08-16 凌晨两次会话，迁移大事件由 codex/王语嫣推进，未参与。

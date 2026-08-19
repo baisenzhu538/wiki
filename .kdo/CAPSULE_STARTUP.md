@@ -8,8 +8,8 @@
 ```
 version: 2.0
 updated_at: 2026-08-19
-git_head: a87976900   ← 启动时核对：git -C <wiki> rev-parse --short HEAD
-queue_tail: 373       ← 启动时核对：grep 队列尾任务号
+git_head: 9e8ea4ddb   ← 启动时核对：git -C <wiki> rev-parse --short HEAD（2026-08-19 黄药师恢复会话更新）
+queue_tail: 375       ← 启动时核对：grep 队列尾任务号（2026-08-19 黄药师恢复会话更新）
 ```
 
 **校验动作**（各 5 秒内）：
