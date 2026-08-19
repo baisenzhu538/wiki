@@ -264,6 +264,12 @@
 - Skill：`.claude/skills/wechat-serendipity-collect/`（触发词：偶遇采集/视频号/手机转发）
 - 顶层文档：`70_product/projects/proj_20260816_wechat-collect-顶层文档.md`
 
+### `douyin_user_videos.py` + `douyin_cookie_extract.py`（2026-08-19 抖音侧反向采集）
+- **功能**：方式二博主定向的抖音腿——`douyin_user_videos.py <sec_uid>` 用 CDP 无头 Edge 渲染作者主页，抓全量视频列表（标题/点赞/aweme_id/链接，滚动加载）；`douyin_cookie_extract.py` 提取匿名新鲜 cookie（Netscape 格式）供 yt-dlp 过 fresh-cookie 墙
+- **实测**：大李书房一盏灯 27 条视频 + 点赞数全抓到；Top3 yt-dlp 下载 → WSL 转写 → 三层次知识化 → 转正入仓全通
+- **sec_uid 来源**：蝉妈妈 open authorRank 页 HTML 内嵌
+- **注意**：端口 9223（避开元宝 9222）；profile 用 `edge-debug-profile-dy` 独立目录
+
 #### MCP 工具链（指针引用，禁副本）
 
 | 脚本 | 活代码位置（单一真相源） | 用途 |

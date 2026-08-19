@@ -139,6 +139,7 @@ related: "#338 PatrolKit 设计（L3 采集层）"
 - **inbox 监工迁移 Windows**：`watch_inbox.py` 原依赖 WSL cron，WSL 不常驻 → cron 静默失效（08-17 23:50 后停止）——已建计划任务 `kdo-inbox-watch`（每 10 分钟）；P2 项从"只 print 无人消费"改为落 dispatch 文件；排除 `wechat-collect/` 目录（自有管线）
 - 文件命名改用规范化键 hash（同一内容重采 = 覆盖同一文件，幂等）
 - **抓取健壮性（狗粮实测抓到）**：公众号全文 3.5MB，微信限流断流（IncompleteRead）是常态——`fetch_mp_article` 重试 3 次 + 部分响应含正文标记即降级使用；文章抓取失败不再记 seen（与视频同语义：成功才记录，失败下轮自动重试）——修复"瞬时断网 = 文章永久丢失"缺陷
+- **方式二·抖音侧打通（用户反向需求实证）**：视频号无"作者视频列表"公开接口（下载服务仅解析单链接）——绕路抖音：蝉妈妈 open 页拿 sec_uid → CDP 无头 Edge 渲染主页抓全量列表+点赞（`douyin_user_videos.py`）→ CDP 提匿名新鲜 cookie 过 yt-dlp 的 fresh-cookie 墙（`douyin_cookie_extract.py`）→ yt-dlp 下载 → WSL 转写 → 知识化 → 转正（L1 增量索引自动挂上）。实测：大李书房一盏灯 27 条全抓，Top3（AI Agent 3.6万/什么是Skill 2.9万/蒸馏书单 1.2万）全链入仓
 
 ### 2026-08-18（主链路定稿：复制链接转发全自动）
 - **用户操作定稿**：手机"复制链接"转发（`weixin.qq.com/sph/xxx`）→ 全自动。直接转发卡片（无链接）微信不给解析入口，仅兜底（电脑播放拦截）

@@ -26,6 +26,9 @@ node_modules/
 
 .env
 
+# 抖音采集 cookie（凭证类，永不入库）
+60_feedback/wechat-collect/douyin-dali/cookies.txt
+
 # Temporary PCB / PDF / OCR outputs at vault root (B类：一次性临时文件)
 temp_pcb_*.json
 pcba_v22_*.json
