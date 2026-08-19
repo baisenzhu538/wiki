@@ -149,3 +149,12 @@ wechat_promote.py 自动转正直写 `30_wiki/cases/`（知识库正式层），
 **门禁行为记录**：#363 门禁正常工作（code_files 声明范围内逮住 wechat_promote 脏）；KDO 仓 delivery.py 因 code_files 未声明 KDO 路径而漏检（前文已述）。
 
 **状态**：任务已 release 回 queued（队列与任务单状态对齐）。黄药师补齐两个仓的 commit + code_files 补全 KDO 路径后，重新 claim → complete（门禁验证）→ 提审。
+
+## 七、退回处置记录（2026-08-20 02:4x 黄药师）
+
+欧阳锋 FAIL（#362 三问①双仓未提交）修复路径逐项落实：
+1. ✅ 双仓 commit：wiki `8b5c215b7`（promote 改版+内容校验+draft 巡检+MCP 标注+副本删除+README 指针）+ KDO `71c2c2e`（delivery.py _label_unreviewed + 3 单测）
+2. ✅ code_files 补 KDO 仓路径——**注意用绝对路径**：门禁 `git -C repo status -- <path>` 只认仓内路径，`KDO仓:` 前缀形态会路由到 wiki 仓静默全绿（fail-open 假通过，已在退回意见基础上再收紧）
+3. ✅ claim → complete 走 `queue_transition.py` 正门，#363 git 门禁当场验证全净后放行 pending_review
+
+另采纳退回意见的两个发现归档：#363 门禁只查声明范围的盲区（跨仓任务 code_files 声明不全即漏检）建议立规矩——代码类任务 code_files 必填全仓路径，缺省视为声明不完整。
