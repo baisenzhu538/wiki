@@ -40,7 +40,7 @@
   └─ knowledge/case-wechat-*.md   # 三层次研究文档（inbox 待转正）
 ```
 
-**铁律**：产物第一站必须是 `00_inbox/`，未经 ingest/validate 不得入 `10_raw/` 和 `30_wiki/`（用户纠偏）。
+**铁律**：产物第一站必须是 `00_inbox/`，未经 ingest/validate 不得入 `10_raw/` 和 `30_wiki/`（用户纠偏）。**`00_inbox/` 只增不删**（2026-08-19 用户铁律：inbox 不能删除，方便用户去找——去重靠规范化键防新采，存量重复原地保留）。
 
 ---
 

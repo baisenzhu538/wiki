@@ -45,7 +45,7 @@ updated_at: 2026-08-16
 - **文章知识化**：公众号/头条文章入库后自动走 LLM 三层次（洪七公 §五-1 闭环）
 - **inbox 监工（watch_inbox.py）迁 Windows**：原 WSL cron 因 WSL 不常驻静默失效（08-17 23:50 后停了 2 天，洪七公交付汇总无人派发）→ 计划任务 `kdo-inbox-watch` 每 10 分钟；P2 项落 dispatch 文件（原只 print 无人消费）；排除 wechat-collect/
 - **WSL cron 清仓（用户确认 WSL 无 agent 后）**：`kdo watch --health` → `kdo-health-daily`（每日 02:07，`run-kdo-health.cmd` 实测 PASS）；老顽童 state.db 备份 → `hermes-laowantong-backup`（每小时，`backup-hermes-state.ps1` 背 Windows 侧 profile，实测 PASS）；WSL crontab 已清空只留注释；`hermes-capsule-sync.timer` 已 disable（#366 FAIL 裁定方向——它曾在 3 分钟内把 CAPSULE_STARTUP v2 覆盖回 v1）
-- **教训**：①Windows 迁移后任何"挂 WSL cron 的自动化"都要当作已失效排查——WSL 只在被调用时启动 ②.ps1 带中文必须存 UTF-8 BOM（PS 5.1 无 BOM 按 GBK 解析会吞字符，变量变空静默 skip）；.cmd 保持纯 ASCII ③**查清后续 commit 再定性**——我曾凭 #366 终审 FAIL 旧记录把 capsule_sync 当"v2 覆盖元凶"停用了它的 WSL 定时器，实际 08-19 01:33 commit 131815020 已做 v2 兼容改造并复审 PASS A；发现误判后立即 re-enable 恢复。FAIL 意见的"停用或升级"是二选一，升级已完成=风险已消除
+- **教训**：①Windows 迁移后任何"挂 WSL cron 的自动化"都要当作已失效排查——WSL 只在被调用时启动 ②.ps1 带中文必须存 UTF-8 BOM（PS 5.1 无 BOM 按 GBK 解析会吞字符，变量变空静默 skip）；.cmd 保持纯 ASCII ③**查清后续 commit 再定性**——我曾凭 #366 终审 FAIL 旧记录把 capsule_sync 当"v2 覆盖元凶"停用了它的 WSL 定时器，实际 08-19 01:33 commit 131815020 已做 v2 兼容改造并复审 PASS A；发现误判后立即 re-enable 恢复。FAIL 意见的"停用或升级"是二选一，升级已完成=风险已消除 ④**00_inbox 只增不删**（用户铁律 08-19 晚：方便用户去找）——我给重复文章做"合并归档"时把 2 个文件移出 inbox，被规则纠正后当场恢复；去重只能靠规范化键防新采，存量一律原地保留
 
 ### 2026-08-19 晚：检索索引门禁（L2+L3，用户拍板）
 - **问题**：新卡入库不跑 `kdo index` = 检索不到（一盏神灯卡实证；graph 与 search_index 是两套分离索引，`graph rebuild` 不管后者）
