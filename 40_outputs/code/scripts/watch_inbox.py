@@ -25,6 +25,9 @@ ROOT = Path(__file__).resolve().parent.parent
 INBOX = ROOT / "00_inbox"
 STATE_FILE = ROOT / ".kdo" / "inbox_state.json"
 QUEUE_DIR = ROOT / "60_feedback" / "inbox-queue"
+PROD_QUEUE = ROOT / "70_product" / "tasks" / "production-queue.md"
+BOARD_BEGIN = "<!-- INBOX-PENDING-BEGIN（watch_inbox 自动维护，勿手改） -->"
+BOARD_END = "<!-- INBOX-PENDING-END -->"
 
 # P0 keywords: 新域开荒、付费课程、客户录音、诊断访谈
 P0_KEYWORDS = ["Truman", "月白", "纪浩", "半肥猫", "马易", "水水", "录音",
@@ -124,6 +127,61 @@ def dispatch(discoveries: list[dict]):
         lines.append("")
     dispatch_file.write_text("\n".join(lines), encoding="utf-8")
     print(f"dispatched: {dispatch_file.name}（P0={len(p0_items)} P2={len(p2_items)}）")
+    update_orchestration_board(p0_items + p2_items)
+
+
+def update_orchestration_board(discoveries: list[dict]):
+    """把待编排素材写入 production-queue.md 的专管 section（2026-08-19 机制补丁）。
+
+    断链实证：dispatch 写进 60_feedback/inbox-queue/ 抽屉目录，王语嫣启动步骤不含
+    检查该目录 → 素材"转了存、存了忘"（Live86 逐字稿事件）。她维护看板必读
+    production-queue.md，所以把待编排清单写进该文件的标记 section。
+
+    设计约束：
+    - 条目用列表（非表格行），queue_transition 的 parse_queue 不会误读
+    - 整块标记 section 重写（幂等），不碰任务表——状态机零干扰
+    - 路径级去重；她编排完一个就划掉一行（或清空 section）
+    """
+    if not PROD_QUEUE.exists() or not discoveries:
+        return
+    text = PROD_QUEUE.read_text(encoding="utf-8")
+
+    # 读现有条目（路径级去重）
+    items: list[str] = []
+    known: set[str] = set()
+    if BOARD_BEGIN in text and BOARD_END in text:
+        block = text.split(BOARD_BEGIN)[1].split(BOARD_END)[0]
+        for line in block.splitlines():
+            if line.startswith("- "):
+                items.append(line)
+                # 条目格式：- path｜P0/P2｜size｜检测到 ……（首段即路径）
+                known.add(line[2:].split("｜")[0].strip())
+
+    now = datetime.now(timezone.utc).strftime("%m-%d %H:%M")
+    added = 0
+    for d in discoveries:
+        fpath = d["file"].replace("\\", "/")
+        if fpath in known:
+            continue
+        items.append(f"- {fpath}｜{d['priority']}｜{d['size']}B｜检测到 {now}｜待王语嫣编排")
+        known.add(fpath)
+        added += 1
+    if not added and BOARD_BEGIN in text:
+        return  # 无新增且 section 已存在——不重写
+
+    board = [
+        BOARD_BEGIN, "",
+        "## 📥 待编排（inbox 新素材，watch_inbox 自动登记）", "",
+        "> 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。",
+        "",
+    ] + items + ["", BOARD_END]
+
+    if BOARD_BEGIN in text:
+        new_text = text.split(BOARD_BEGIN)[0] + "\n".join(board) + text.split(BOARD_END)[1]
+    else:
+        new_text = text.rstrip() + "\n\n" + "\n".join(board) + "\n"
+    PROD_QUEUE.write_text(new_text, encoding="utf-8")
+    print(f"📥 待编排看板更新: +{added}（累计 {len(items)} 条）→ production-queue.md")
 
 
 if __name__ == "__main__":
