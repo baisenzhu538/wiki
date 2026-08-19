@@ -83,4 +83,4 @@ code_files:
 | ② 前后对比报告含消失卡清单 | ✅ §二 |
 | ③ pytest 无新增失败 | ✅ 567 passed + 1 failed（test_cli_smoke 预存在失败，stash 验证干净树同样失败，与基线一致） |
 | ④ 与 #380【未审】标注兼容 | ✅ 修复后实测：trust 过滤生效同时 draft 卡【未审 draft】标注正常（tool-yizhan-shendeng / tool-cangjie-skill 双命中） |
-| MCP 重启 | ⚠️ 需老朱授权杀 PID（沿用 #361 模式）——代码已入仓，重启后消费端生效 |
+| MCP 重启 | ✅ 老朱 08-20 授权：杀掉全部 15 个 stale server 进程（含 PID 7752），Hermes gateway 按需自动重生新码进程——check-runtime-drift 由 14 条 DRIFT 转 CLEAN（全绿） |
