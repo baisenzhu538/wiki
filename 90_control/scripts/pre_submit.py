@@ -1,5 +1,16 @@
 #!/usr/bin/env python3
 """
+⛔ DEPRECATED（2026-08-19，#377 收敛决议）——请用 `kdo pre-submit`（KDO CLI，L4 法定门禁）。
+
+本脚本与 CLI 门禁规则引擎不一致已造成实测分叉：同一批卡本脚本 FAIL 而
+`kdo pre-submit` PASS（kdo_lint.py 把 "source_refs→00_inbox" 这条文本为 WARN 的
+规则以 ERROR 级拦截，CLI 无此规则）。双门禁并存 = 迟早误杀好卡或放过坏卡。
+
+保留原因：历史任务单引用追溯。新工作一律：
+  python -m kdo pre-submit --files <files...>     # 或 --batch <任务单>
+
+诊断报告与规则差异全表：60_feedback/tasks/task_20260819_huangyaoshi-presubmit-gate-convergence.md
+---
 Pre-submit 门禁 — 交卷前自检，增量错误清零才放行。
 
 用法:
@@ -82,8 +93,10 @@ def extract_file_errors(lint_output: list[str], target_files: set[str]) -> list[
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    print("⛔ DEPRECATED：本门禁已废弃（#377，2026-08-19）——与法定门禁 `kdo pre-submit` 规则不一致。"
+          "请改用：python -m kdo pre-submit --files <files...>。本脚本结果不作为交卷依据。", file=sys.stderr)
 
-    parser = argparse.ArgumentParser(description="Pre-submit 门禁")
+    parser = argparse.ArgumentParser(description="Pre-submit 门禁（已废弃，见 stderr）")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--manifest", help="申报清单文件")
     group.add_argument("--files", nargs="*", help="直接指定文件列表")
