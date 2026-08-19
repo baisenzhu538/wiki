@@ -1,8 +1,8 @@
 ---
 id: 380
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-19T18:42:06.830194+00:00'
+status: pending_review
+updated_at: '2026-08-19T18:58:27.246805+00:00'
 title: 偶遇管线收口质量门（P1，A 方案）——自动转正只到素材层，卡片一律过王语嫣编排门禁
 priority: P1
 dependency: []

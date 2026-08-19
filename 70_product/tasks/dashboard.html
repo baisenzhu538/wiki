@@ -63,13 +63,13 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-19 01:15</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-20 02:58</p>
 
 <div class="stats">
-<div class="stat queued"><div class="stat-num">7</div><div class="stat-label">待领取 Queued</div></div>
-<div class="stat pending"><div class="stat-num">4</div><div class="stat-label">审查中 Review</div></div>
+<div class="stat queued"><div class="stat-num">3</div><div class="stat-label">待领取 Queued</div></div>
+<div class="stat pending"><div class="stat-num">1</div><div class="stat-label">审查中 Review</div></div>
 <div class="stat active"><div class="stat-num">0</div><div class="stat-label">进行中 Active</div></div>
-<div class="stat done"><div class="stat-num">341</div><div class="stat-label">已完成 Done</div></div>
+<div class="stat done"><div class="stat-num">357</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">21</div><div class="stat-label">活跃角色</div></div>
 </div>
 
@@ -84,42 +84,9 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
-<div class="task-id">#361</div>
-<div class="task-title">kdo MCP 修复生效收口（P1）：~~commit+重启~~ 已被 #358 覆盖（commit 7d4fb3e 含 23:44 改动；进程 00:14 已重启）——**剩余=真机 gateway 链路回归**（欧阳锋实测为独立进程，真机未验）</div>
-<div class="task-detail">范围已收缩（2026-08-19 王语嫣核验）：真机验证 title/score_label/hybrid RRF/specs 11 条即关单；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p2">P2</div>
-<div class="task-info">
-<div class="task-id">#364</div>
-<div class="task-title">health-check 巡检加漂移检测（P2）：进程版本 vs 最新 commit + 双索引同步态——治小昭第四轮发现的长驻进程跑旧码</div>
-<div class="task-detail">依赖 #361 拉齐基线；只读报警不自动修；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
-<div class="task-id">#366</div>
-<div class="task-title">CAPSULE_STARTUP 升级统一启动指针（P1，codex②采纳）：version/git_head/队列尾四字段+角色路由——治入口多+角色识别脆弱</div>
-<div class="task-detail">各入口收敛为薄壳不删文件；git_head 不一致=停下；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p2">P2</div>
-<div class="task-info">
-<div class="task-id">#367</div>
-<div class="task-title">双轨目录冻结+归档（P2，codex③采纳·assignee 修正黄药师）：拼音/中文目录收敛拼音唯一轨，旧轨 DEPRECATED 观察 7 天再归档</div>
-<div class="task-detail">基建单一实例纪律；dry-run+git diff 留痕零误删；欧阳锋终审</div>
+<div class="task-id">#380</div>
+<div class="task-title">偶遇管线收口质量门（P1，A 方案）：promote 自动转正只到 10_raw 素材层，case 卡落待编排区+INBOX-PENDING 登记——一律过王语嫣编排门禁再入库</div>
+<div class="task-detail">⚠️裁定变更：08-19 初裁 B+ → 08-20 老朱纠正"编排门禁=王语嫣，终审=欧阳锋"改判 A；B 错因=门禁成本误估+75% 污染实证+规则一致性；顺手收 watch_inbox 双拷贝（违 #359）；存量 646 draft…</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
@@ -129,80 +96,36 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-group">
 <div class="group-header queued">待领取</div>
 <div class="task-card">
-<div class="task-prio p2">P2</div>
-<div class="task-info">
-<div class="task-id">#360</div>
-<div class="task-title">note-coach 迁 AppData\Local + 服务化激活（P2，#346 拆分）：用户确认要用但停旧目录瘫痪态——按 #344 迁移 5 项清单迁正+NSSM+冒烟；旧目录归档不删</div>
-<div class="task-detail">codex #346 收尾发现+王语嫣抽查实证；若核实无人用则回报老朱改判归档；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee laowantong">codex</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p2">P2</div>
-<div class="task-info">
-<div class="task-id">#368</div>
-<div class="task-title">复盘范式合并定标（P2，codex④采纳）：Truman 10 章唯一直写+认知档案派生关系全厂化——消灭"两套都叫复盘无定义"</div>
-<div class="task-detail">王语嫣已验证规则全厂化；不动历史文件；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee wangyuyan">王语嫣</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p3">P3</div>
-<div class="task-info">
-<div class="task-id">#369</div>
-<div class="task-title">派生脚本化+写入唯一入口（P3，codex⑤采纳）：daily-context-save 收口+派生物全脚本生成带版本标记+手改检测</div>
-<div class="task-detail">MCP memory get/set 为可选评估项不实施；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-<div class="task-card">
 <div class="task-prio p1">P1</div>
 <div class="task-info">
-<div class="task-id">#370</div>
-<div class="task-title">治理收敛（P1，小昭体检采纳）：PROTOCOL 写队列真相源+版本/角色数矛盾修正+双队列合并+agent-spec 补 4 份（含欧阳锋）——治文档信任危机</div>
-<div class="task-detail">小昭洞察 3 全采纳；spec 走写审分离；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee wangyuyan">王语嫣</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p1">P1</div>
-<div class="task-info">
-<div class="task-id">#371</div>
-<div class="task-title">正库元数据规范清洗（P1，小昭体检修正版）：真 domain 空值 307+trust_level 235 枚举收敛+dk 双轨+status 终态枚举+重复键 95——批量三问+dry-run</div>
-<div class="task-detail">⚠️小昭口径已修正（1967 空值/193 污染=扫描器不解析 list 式 domain 的伪影）；王语嫣全库扫描为准；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p2">P2</div>
-<div class="task-info">
-<div class="task-id">#372</div>
-<div class="task-title">卫生债大扫除（P2，小昭体检采纳）：_tmp 29286+嵌套 git+C:/ 路径 bug 目录+inbox PARA 库处置建议+dispatch 单状态收敛</div>
-<div class="task-detail">删除类先清单后执行老朱过目；PARA 入库决策归老朱；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p2">P2</div>
-<div class="task-info">
-<div class="task-id">#373</div>
-<div class="task-title">785 张非终态卡处置（P2 持续，小昭体检采纳）：draft 646/pending_review 88/needs-review 45 逐批判定 reviewed/回炉/废弃——配 #371 枚举定标后启动</div>
-<div class="task-detail">给老顽童的长线活；每批走正常终审；规模以王语嫣 08-19 扫描为准</div>
+<div class="task-id">#379</div>
+<div class="task-title">Live86 kinda 龙虾员工实践卡片化（P1，老朱 08-19 直令素材）：670 行逐字稿产 10 卡——数字员工全景 case+让 AI 代学/规则封装/数据源下限/传话层负资产/AI 人效/能力错觉 6 dk+防忽悠三招/AI 适配化/白皮书五要素 3 tool</div>
+<div class="task-detail">已解冻（08-20 老朱确认口述稿无补充）；王语嫣已六层比对+九层深挖，诊断文件必读；欧阳锋终审</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee laowantong">老顽童</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#381</div>
+<div class="task-title">元技能分层卡（P1，老朱 08-20 对齐"这个很重要"）：楚门"Skill 创业专家"的战略层提炼——先封装"生产 skill 的能力"再量产（单 Skill→元 Partner→Partner 生态三级演化）</div>
+<div class="task-detail">AI 知识库域三刷补挖第一张；八步卡战术层已够不动它，互链；含 KDO 照镜子（五绝=人封装 Agent vs 楚门=Agent 封装 Agent）；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">老顽童</span>
+</div>
+</div>
+<div class="task-card">
+<div class="task-prio p2">P2</div>
+<div class="task-info">
+<div class="task-id">#382</div>
+<div class="task-title">delivery.py trust 过滤失效修复（P2，#380 测试挖出的预存在 bug）：缺 import os 致 _filter_by_trust 静默失效——BM25 检索从未执行 trust≥medium 过滤</div>
+<div class="task-detail">⚠️修复改变检索行为（low-trust 卡消失），须前后对比实测供终审评估；生效需重启 MCP server（杀进程前请示老朱，沿用 #361 模式）；欧阳锋终审</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
 </div>
 </div>
 </div>
@@ -483,9 +406,20 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <span class="task-assignee huangyaoshi">黄药师</span>
 </div>
 </div>
+<div class="task-card">
+<div class="task-prio p1">P1</div>
+<div class="task-info">
+<div class="task-id">#376<span class="task-grade g-A">A</span></div>
+<div class="task-title">AI知识管理探索营口述二刷逐字深挖（P1，老朱 08-19 直令）：3510 行口述逐字扫暗知识——一刷按骨架产 21 卡（dk 仅 6 张全部来自洪七公预列清单），本刷专攻操作细节/失败故事/数字口径/问答互动/隐性逻辑</div>
+<div class="task-detail">老朱原话"口述里有不少暗知识，逐字去挖"；L7 对 21 卡基线去重先行；逐字稿核数字+ASR 对照表必读；欧阳锋终审 PASS A（13 新卡+6 补强建议→#378）</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">老顽童</span>
+</div>
+</div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-19 01:15 · git_head: cf9e5651f --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-19 01:15</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-20 02:58 · git_head: 8b5c215b7 --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-20 02:58</footer>
 </body>
 </html>
