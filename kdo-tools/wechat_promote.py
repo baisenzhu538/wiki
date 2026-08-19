@@ -93,6 +93,16 @@ def main():
     if not args.dry_run and (t_ok or c_ok):
         # 转正完成提示（质量门 lint 全库太慢，改由定期巡检/欧阳锋审查覆盖）
         print("✅ 转正完成——产物已入 10_raw/sources + 30_wiki/cases（待定期 lint 巡检）")
+        # L1（2026-08-19）：入库即增量更新检索索引——不写"记得跑 kdo index"，
+        # 让"要记得"这件事不存在（pre-submit 的 L2 新鲜度门禁仍兜底）
+        r = subprocess.run(
+            [sys.executable, "-m", "kdo", "index", "--incremental"],
+            cwd=str(WIKI), capture_output=True, timeout=600,
+        )
+        if r.returncode == 0:
+            print(f"🔍 检索索引已增量更新: {r.stdout.decode('utf-8', errors='replace').strip().splitlines()[-1] if r.stdout else 'ok'}")
+        else:
+            print(f"⚠️ 索引增量更新失败（不阻断转正，L3 巡检会抓到）: {r.stderr.decode('utf-8', errors='replace')[-150:]}")
 
 
 if __name__ == "__main__":
