@@ -385,6 +385,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 376 | `task_20260819_laowantong-ai-km-deep-mining` | AI知识管理探索营口述二刷逐字深挖（P1，老朱 08-19 直令）：3510 行口述逐字扫暗知识——一刷按骨架产 21 卡（dk 仅 6 张全部来自洪七公预列清单），本刷专攻操作细节/失败故事/数字口径/问答互动/隐性逻辑 | reviewed | laowantong | 精读笔记+gap表+新卡 | 无 | `60_feedback/tasks/task_20260819_laowantong-ai-km-deep-mining.md` | 老朱原话"口述里有不少暗知识，逐字去挖"；L7 对 21 卡基线去重先行；逐字稿核数字+ASR 对照表必读；欧阳锋终审 PASS A（13 新卡+6 补强建议→#378） |
 | 377 | `task_20260819_huangyaoshi-presubmit-gate-convergence` | 双 pre-submit 门禁收敛（P2，王语嫣 #376 质检发现）：kdo CLI（L4 法定）PASS vs 90_control/scripts/pre_submit.py FAIL——同 13+21 卡结论相反（source_refs→00_inbox 规则） | reviewed | huangyaoshi | 诊断+收敛 | 无 | `60_feedback/tasks/task_20260819_huangyaoshi-presubmit-gate-convergence.md` | 差异表全量非仅 source_refs；wiki 侧对齐或 deprecated；素材存放结构判断先报裁决；不动卡片不动 CLI 仓；欧阳锋终审 |
 | 378 | `task_20260819_laowantong-first-pass-card-reinforcement` | 一刷卡补强 6 项+双向回链（P2，老朱 08-19 拍板）：#376 补强清单落地——顶层文档倒逼/ToDo-NoToDo/三上下文指向/巡查话术/全量复盘终态/刻意练习笔记 | reviewed | laowantong | 6 卡补强+回链 | 无 | `60_feedback/tasks/task_20260819_laowantong-first-pass-card-reinforcement.md` | 只补不删不改原意+行号溯源；6 张是终审过旧卡需欧阳锋复终审；批量三问+每卡 pre-submit；欧阳锋终审 |
+| 379 | `task_20260819_laowantong-live86-kinda-cards` | Live86 kinda 龙虾员工实践卡片化（P1，老朱 08-19 直令素材）：670 行逐字稿产 10 卡——数字员工全景 case+让 AI 代学/规则封装/数据源下限/传话层负资产/AI 人效/能力错觉 6 dk+防忽悠三招/AI 适配化/白皮书五要素 3 tool | queued | laowantong | 10 卡 | 无 | `60_feedback/tasks/task_20260819_laowantong-live86-kinda-cards.md` | 王语嫣已六层比对（9 断言 5 实锤）+九层深挖，诊断文件必读；存疑三处标"口述待独立核实"；旧卡回链需求列清单同 #378 批处理；欧阳锋终审 |
 
 <!-- INBOX-PENDING-BEGIN（watch_inbox 自动维护，勿手改） -->
 
@@ -392,6 +393,6 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 > 王语嫣维护看板时处理：诊断 → 写任务单 → 入队后把对应行划掉。编排规则不变，这里只解决「没人被通知」。
 
-- 00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md｜P2｜36415B｜检测到 08-19 15:32｜待王语嫣编排
+- ~~00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md｜P2｜36415B｜检测到 08-19 15:32｜待王语嫣编排~~ → 已编排：诊断 diag_20260819_wangyuyan-live86-lobster-employees.md + 入队 #379（2026-08-19 王语嫣）
 
 <!-- INBOX-PENDING-END -->

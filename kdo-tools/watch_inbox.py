@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Inbox watcher: detects new files in 00_inbox/ and dispatches to 王语嫣/老顽童.
+"""Inbox watcher: detects new files in 00_inbox/ and dispatches to 王语嫣（质量门）.
 
 调度（2026-08-19 迁移，原 WSL cron 因 WSL 不常驻失效）：
   Windows 计划任务 kdo-inbox-watch，每 10 分钟：
   "C:\\Program Files\\Python312\\python.exe" C:\\Users\\Administrator\\Desktop\\wiki\\kdo-tools\\watch_inbox.py
 
-When new files are found:
-  1. Classify as P0/P2
-  2. Write dispatch file to 60_feedback/inbox-queue/（P0 王语嫣处理；P2 老顽童处理——
-     P2 也落盘，原先只 print 到 stdout 无人消费 = 静默丢失）
-  3. 排除目录：wechat-collect（偶遇采集自有管线 wechat_promote.py 处理，避免重复派发）
+规则（2026-08-19 用户拍板）：**所有进入知识库的必须走质量门**——
+  不再区分 P0/P2 路由（P2 曾直达老顽童 = 绕过质量门的旁路，已取消）。
+  一律：dispatch → 王语嫣质量门/编排 → 任务单入队 → 老顽童生产 → 欧阳锋终审。
+  _classify 的 P0/P2 标签仅作信息参考保留。
+
+排除目录：wechat-collect（偶遇采集自有管线 wechat_promote.py 处理，避免重复派发）
 """
 
 import os, json, hashlib
@@ -56,7 +57,7 @@ def _classify(name: str) -> str:
     for kw in P0_KEYWORDS:
         if kw.lower() in combined:
             return "P0"
-    return "P2"  # default to P2 (老顽童直接处理)
+    return "P2"  # default P2——仅信息标签；2026-08-19 起所有素材一律走王语嫣质量门，无直达旁路
 
 
 def scan() -> list[dict]:
@@ -93,41 +94,28 @@ def scan() -> list[dict]:
 
 
 def dispatch(discoveries: list[dict]):
-    """写 dispatch 文件：P0 → 王语嫣（质量门），P2 → 老顽童（直接处理）。两级都落盘。"""
+    """写 dispatch 文件——2026-08-19 用户拍板：所有进入知识库的必须走质量门，
+    取消 P2 直达老顽童的旁路。一律派给王语嫣（质量门+编排）；P0/P2 标签仅作信息参考。"""
     QUEUE_DIR.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
 
-    p0_items = [d for d in discoveries if d["priority"] == "P0"]
-    p2_items = [d for d in discoveries if d["priority"] == "P2"]
-    if not (p0_items or p2_items):
+    if not discoveries:
         return
 
     dispatch_file = QUEUE_DIR / f"dispatch_{now}.md"
     lines = [
         "# Inbox Dispatch\n",
         f"检测时间：{now}\n",
+        "## 新素材（一律走王语嫣质量门——2026-08-19 起无例外）\n",
+        "| 文件 | 参考优先级 | 大小 | 类型 |",
+        "|------|------|------|------|",
     ]
-    if p0_items:
-        lines += [
-            "## P0 文件（王语嫣处理·需要质量门）\n",
-            "| 文件 | 大小 | 类型 |",
-            "|------|------|------|",
-        ]
-        for d in p0_items:
-            lines.append(f"| {d['file']} | {d['size']}B | {d['ext']} |")
-        lines.append(f"\n**动作**：执行六层交叉比对 → 高价值段落索引 → 标注 confidence → 输出到 60_feedback/diagnosis/\n")
-    if p2_items:
-        lines += [
-            "## P2 文件（老顽童处理·直接消化）\n",
-            "| 文件 | 大小 | 类型 |",
-            "|------|------|------|",
-        ]
-        for d in p2_items:
-            lines.append(f"| {d['file']} | {d['size']}B | {d['ext']} |")
-        lines.append("")
+    for d in discoveries:
+        lines.append(f"| {d['file']} | {d['priority']} | {d['size']}B | {d['ext']} |")
+    lines.append(f"\n**动作**：王语嫣诊断编排（六层交叉比对/质量门）→ 任务单入队 → 老顽童生产。任何素材不得绕过质量门直接产卡。\n")
     dispatch_file.write_text("\n".join(lines), encoding="utf-8")
-    print(f"dispatched: {dispatch_file.name}（P0={len(p0_items)} P2={len(p2_items)}）")
-    update_orchestration_board(p0_items + p2_items)
+    print(f"dispatched: {dispatch_file.name}（{len(discoveries)} 项 → 王语嫣质量门）")
+    update_orchestration_board(discoveries)
 
 
 def update_orchestration_board(discoveries: list[dict]):
