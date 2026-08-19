@@ -52,6 +52,46 @@ PARSE_API = "http://127.0.0.1:2022/api/channels/parse_sph"
 LINK_PATTERN = re.compile(r"https?://(?:weixin\.qq\.com/sph/|channels\.weixin\.qq\.com)[^\s\"'<>]+")
 
 
+def canonical_key(url: str) -> str:
+    """链接身份规范化——剥离追踪参数，同一内容多次转发只采一次（2026-08-19 去重修复）。
+
+    - 公众号文章：__biz+mid+idx 定文章身份（chksm/scene/pass_ticket 等追踪参数全剥，
+      同一文章每次分享的追踪参数都不同，用完整 URL 去重必然重复采集）
+    - 头条：gid（/video/ /group/ /article/ 后的数字）
+    - 其他（视频号 sph / 卡片直链 / 头条 isXXX 短链）：原样
+    """
+    u = url.replace("&amp;", "&")
+    if "mp.weixin.qq.com" in u:
+        q = urllib.parse.parse_qs(urllib.parse.urlparse(u).query)
+        biz, mid, idx = q.get("__biz", [""])[0], q.get("mid", [""])[0], q.get("idx", [""])[0]
+        if mid:
+            return f"mp:{biz}:{mid}:{idx}"
+        return f"mp:{urllib.parse.urlparse(u).path}"
+    if "toutiao.com" in u:
+        m = re.search(r"/(?:video|group|article)/(\d+)", u)
+        if m:
+            return f"tt:{m.group(1)}"
+        return u
+    return u
+
+
+def mark_seen(url: str):
+    """记录已处理：原链接 + 规范化键都写入 seen（兼容旧格式的纯 URL 行）。"""
+    with open(SEEN_FILE, "a", encoding="utf-8") as f:
+        f.write(url + "\n")
+        ck = canonical_key(url)
+        if ck != url:
+            f.write(ck + "\n")
+
+
+def knowledge_ize(src_md: Path):
+    """调用知识化脚本（LLM 三层次）——视频逐字稿和文章正文通用。"""
+    kscript = WIKI / "kdo-tools" / "wechat_knowledge.py"
+    r = subprocess.run([sys.executable, str(kscript), str(src_md)], capture_output=True, timeout=300)
+    if r.returncode != 0:
+        print(f"  ⚠️ 知识化失败: {r.stderr.decode('utf-8', errors='replace')[-120:]}")
+
+
 def ensure_dirs():
     INBOX_DIR.mkdir(parents=True, exist_ok=True)
     WORK_DIR.mkdir(parents=True, exist_ok=True)
@@ -299,14 +339,33 @@ def fetch_toutiao_article(url: str) -> tuple:
 
 
 def fetch_mp_article(url: str) -> tuple:
-    """抓公众号文章 → (标题, 正文文本)（无代理直连，MITM 代理会拦 https）。"""
+    """抓公众号文章 → (标题, 正文文本)（无代理直连，MITM 代理会拦 https）。
+
+    网络瞬时失败重试 3 次（2026-08-19 狗粮实测：微信对重复抓取限流断流是常态）。
+    IncompleteRead 降级：部分响应已含 js_content 正文标记就直接用（全文 3.5MB 大半是
+    内联资源，正文在前段），不含才重试。
+    """
+    import http.client
     opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
-    try:
-        with opener.open(req, timeout=60) as resp:
-            html = resp.read().decode("utf-8", errors="replace")
-    except Exception as e:
-        print(f"  ⚠️ 公众号抓取失败: {e}")
+    html = ""
+    for attempt in range(3):
+        try:
+            with opener.open(req, timeout=60) as resp:
+                html = resp.read().decode("utf-8", errors="replace")
+            break
+        except http.client.IncompleteRead as e:
+            partial = e.partial.decode("utf-8", errors="replace") if isinstance(e.partial, bytes) else ""
+            if 'id="js_content"' in partial:
+                html = partial
+                print(f"  ⚠️ 服务端断流，但部分响应已含正文（{len(partial)//1024}KB），降级使用")
+                break
+            print(f"  ⚠️ 公众号抓取断流(第{attempt+1}次): 仅 {len(partial)//1024}KB 且无正文标记")
+            time.sleep(2)
+        except Exception as e:
+            print(f"  ⚠️ 公众号抓取失败(第{attempt+1}次): {str(e)[:80]}")
+            time.sleep(2)
+    if not html:
         return "", ""
     import re as _re
     m = _re.search(r"<h1[^>]*>(.*?)</h1>", html, _re.S)
@@ -316,6 +375,12 @@ def fetch_mp_article(url: str) -> tuple:
     if m2:
         body = _re.sub(r"<[^>]+>", "\n", m2.group(1))
         body = _re.sub(r"\n{3,}", "\n\n", body).strip()
+    if not body:
+        # 断流降级场景：js_content 的闭合 </div> 在被截断的后段——贪婪匹配到文末
+        m2b = _re.search(r'id="js_content"[^>]*>(.*)', html, _re.S)
+        if m2b:
+            body = _re.sub(r"<[^>]+>", "\n", m2b.group(1))
+            body = _re.sub(r"\n{3,}", "\n\n", body).strip()
     if not body:
         m3 = _re.search(r"<div class=\"rich_media_content[^>]*>(.*?)</div>", html, _re.S)
         if m3:
@@ -377,26 +442,24 @@ def main():
     seen = set()
     if SEEN_FILE.exists():
         seen = set(SEEN_FILE.read_text(encoding="utf-8").splitlines())
-    fresh = [(ct, u) for ct, u in links if u not in seen]
+    fresh = [(ct, u) for ct, u in links if u not in seen and canonical_key(u) not in seen]
     print(f"🔗 新链接 {len(fresh)} 个（共扫 {len(links)}）")
     for ct, url in fresh:
         ts = time.strftime("%m-%d %H:%M", time.localtime(ct))
         print(f"  [{ts}] {url[:80]}")
 
-        # 公众号文章：抓 HTML → 入库（不走视频管线）
+        # 公众号文章：抓 HTML → 入库 → 知识化（不走视频管线）
         if "mp.weixin.qq.com" in url:
             title, body = fetch_mp_article(url)
             if not body:
-                print("  ⚠️ 公众号抓取失败（可能需登录态）——已记录，不再重试")
-                with open(SEEN_FILE, "a", encoding="utf-8") as f:
-                    f.write(url + "\n")
+                print("  ⚠️ 公众号抓取失败——不记录，下轮重试（与视频同语义：成功才记 seen）")
                 continue
-            stem = hashlib.md5(url.encode()).hexdigest()[:16]
+            stem = hashlib.md5(canonical_key(url).encode()).hexdigest()[:16]
             out_md = INBOX_DIR / f"src_wechat_article_{stem}.md"
             out_md.write_text(f"# {title or url}\n\n> 来源: {url}（公众号·偶遇转发）\n\n{body[:30000]}\n", encoding="utf-8")
             print(f"  ✅ 公众号文章入库: {out_md}（{len(body)} 字）")
-            with open(SEEN_FILE, "a", encoding="utf-8") as f:
-                f.write(url + "\n")
+            knowledge_ize(out_md)
+            mark_seen(url)
             continue
 
         # 今日头条：区分图文文章 vs 视频
@@ -406,29 +469,25 @@ def main():
             if "/video/" not in url:
                 title, body = fetch_toutiao_article(url)
                 if not body:
-                    print("  ⚠️ 头条文章抓取失败——已记录，不再重试")
-                    with open(SEEN_FILE, "a", encoding="utf-8") as f:
-                        f.write(url + "\n")
+                    print("  ⚠️ 头条文章抓取失败——不记录，下轮重试（与视频同语义：成功才记 seen）")
                     continue
-                stem = hashlib.md5(url.encode()).hexdigest()[:16]
+                stem = hashlib.md5(canonical_key(url).encode()).hexdigest()[:16]
                 out_md = INBOX_DIR / f"src_wechat_article_tt_{stem}.md"
                 out_md.write_text(f"# {title or url}\n\n> 来源: {url}（今日头条·偶遇转发）\n\n{body[:30000]}\n", encoding="utf-8")
                 print(f"  ✅ 头条文章入库: {out_md}（{len(body)} 字）")
-                with open(SEEN_FILE, "a", encoding="utf-8") as f:
-                    f.write(url + "\n")
+                knowledge_ize(out_md)
+                mark_seen(url)
                 continue
             info = parse_toutiao(url)
             if not info:
                 print("  ⚠️ 头条解析失败——已记录，不再重试")
-                with open(SEEN_FILE, "a", encoding="utf-8") as f:
-                    f.write(url + "\n")
+                mark_seen(url)
                 continue
         elif url.startswith(("http://wxapp.tc.qq.com", "https://wxapp.tc.qq.com")):
             # 卡片直链是加密视频（前 131072 字节 ISAAC），无解密密钥（仅播放时暴露）——
             # 标记 seen 跳过，提示走播放兜底，避免每次重试下载大文件
             print("  ⚠️ 卡片直链（加密视频）——需电脑播放拦截兜底，跳过（已记录）")
-            with open(SEEN_FILE, "a", encoding="utf-8") as f:
-                f.write(url + "\n")
+            mark_seen(url)
             continue
         else:
             info = parse_link(url)
@@ -453,12 +512,10 @@ def main():
         if r.returncode == 0 and out_md.exists():
             print(f"  ✅ 转写完成: {out_md}")
             # 知识化
-            kscript = WIKI / "kdo-tools" / "wechat_knowledge.py"
-            subprocess.run([sys.executable, str(kscript), str(out_md)], capture_output=True, timeout=300)
+            knowledge_ize(out_md)
             print(f"  ✅ 知识化完成 -> {INBOX_DIR / 'knowledge'}")
             # 成功才记录（失败下次重试）
-            with open(SEEN_FILE, "a", encoding="utf-8") as f:
-                f.write(url + "\n")
+            mark_seen(url)
         else:
             print(f"  ⚠️ 转写失败（不记录，下次重试）: {r.stderr.decode('utf-8', errors='replace')[-150:]}")
     # 自动转正：已知识化产物入仓（10_raw/sources + 30_wiki/cases）

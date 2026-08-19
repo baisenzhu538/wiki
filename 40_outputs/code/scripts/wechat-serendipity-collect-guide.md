@@ -1,7 +1,7 @@
 # 微信视频号偶遇采集全自动链路 · 技术文档
 
-> 一句话：**手机复制视频号链接 → 粘贴发送 → 10 分钟内电脑自动完成 解析→下载→转写→知识化 → 进 `00_inbox/wechat-collect/`**，全程零人工、零电脑操作。
-> 状态：🟢 生产可用（2026-08-17/18 两次实测闭环）
+> 一句话：**手机复制链接（视频号/公众号/头条） → 粘贴发送 → 10 分钟内电脑自动完成 解析→下载/抓取→转写/清洗→知识化 → 进 `00_inbox/wechat-collect/`**，全程零人工、零电脑操作。
+> 状态：🟢 生产可用（2026-08-17/18 视频实测闭环；2026-08-19 四通道+去重+文章知识化）
 > 顶层文档：`70_product/projects/proj_20260816_wechat-collect-顶层文档.md`
 > 方法论：楚门「偶遇自动采集五通道」通道②（`framework-serendipity-five-channels`）
 
@@ -149,6 +149,8 @@ ls 00_inbox/wechat-collect/ 00_inbox/wechat-collect/knowledge/
 | LLM 知识化失败 | 系统代理拦 DeepSeek / 瞬时抖动 | 脚本已 NO_PROXY；重跑 `wechat_knowledge.py <文件>` 即可 |
 | 数据库解密失败 | 微信未运行 / 重装微信密钥变 | 微信登录后重跑 `_build_and_decrypt.py` |
 | 监控无新链接 | seen_links.txt 已记 / PC 微信未同步 | 查 seen；确认 PC 微信在线（消息实时同步）；微信重启触发 WAL 落盘 |
+| 同一内容采了多份 | 旧版按完整 URL 去重，分享追踪参数绕过（2026-08-19 已修为规范化键） | 存量重复归档 `60_feedback/wechat-collect/duplicates-archive/`；新版自动幂等 |
+| 公众号抓取 IncompleteRead 断流 | 微信对重复抓取限流（全文 3.5MB，断流是常态） | 已内置：重试 3 次 + 部分响应含 js_content 即降级使用；抓取失败不记 seen，下轮自动重试 |
 | WAL 未合并读不到新消息 | 微信运行中 WAL 未 checkpoint | 重启微信（退出→打开）立即合并；或等空闲自动落盘 |
 
 ### 6.3 恢复流程（重装/换机）
@@ -169,4 +171,4 @@ ls 00_inbox/wechat-collect/ 00_inbox/wechat-collect/knowledge/
 | Skill | `.claude/skills/wechat-serendipity-collect/` |
 | 复盘 | `桌面/agent复盘/huangyaoshi/daily-context/2026-08-17.md` |
 
-*黄药师 · 2026-08-18 更新（主链路：复制链接转发全自动）*
+*黄药师 · 2026-08-18 更新（主链路：复制链接转发全自动）；2026-08-19 更新（四通道去重 + 文章知识化 + inbox 监工迁 Windows）*

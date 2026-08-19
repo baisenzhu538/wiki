@@ -7,7 +7,7 @@ confidence: 0.9
 trust_level: high
 language: zh-CN
 created_at: 2026-08-18
-updated_at: 2026-08-18
+updated_at: 2026-08-19
 domain:
 - knowledge-management
 - ai-collaboration
@@ -91,6 +91,7 @@ diagnostic_signals:
 | 公众号文章 | `mp.weixin.qq.com/s/...` | 抓 HTML 正文入库 |
 
 > ⚠️ 视频号"直接转发卡片"无解析入口（微信设计），需电脑播放拦截（兜底）。
+> 🆕 2026-08-19：文章（公众号/头条）同样自动走 LLM 三层次知识化；链接按规范化键去重（公众号 `__biz+mid+idx`、头条 gid），同一内容多次转发只采一次。
 
 ## 组件与路径
 

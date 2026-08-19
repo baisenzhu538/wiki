@@ -133,6 +133,13 @@ related: "#338 PatrolKit 设计（L3 采集层）"
 
 ## 八、变更记录
 
+### 2026-08-19（黄药师：去重修复 + 文章知识化 + inbox 监工迁移）
+- **链接规范化键去重**：公众号按 `__biz+mid+idx`、头条按 gid 定内容身份，追踪参数（chksm/scene/pass_ticket 等）全剥——修复同一文章多次分享被重复采集（《重构协同》一文曾采 3 份，已合并归档至 `60_feedback/wechat-collect/duplicates-archive/`）
+- **文章接入知识化**：公众号/头条文章入库后自动走 LLM 三层次（此前只入库无研究文档，洪七公 §五-1 闭环）；`wechat_knowledge.py` prompt 泛化为"逐字稿或文章正文"
+- **inbox 监工迁移 Windows**：`watch_inbox.py` 原依赖 WSL cron，WSL 不常驻 → cron 静默失效（08-17 23:50 后停止）——已建计划任务 `kdo-inbox-watch`（每 10 分钟）；P2 项从"只 print 无人消费"改为落 dispatch 文件；排除 `wechat-collect/` 目录（自有管线）
+- 文件命名改用规范化键 hash（同一内容重采 = 覆盖同一文件，幂等）
+- **抓取健壮性（狗粮实测抓到）**：公众号全文 3.5MB，微信限流断流（IncompleteRead）是常态——`fetch_mp_article` 重试 3 次 + 部分响应含正文标记即降级使用；文章抓取失败不再记 seen（与视频同语义：成功才记录，失败下轮自动重试）——修复"瞬时断网 = 文章永久丢失"缺陷
+
 ### 2026-08-18（主链路定稿：复制链接转发全自动）
 - **用户操作定稿**：手机"复制链接"转发（`weixin.qq.com/sph/xxx`）→ 全自动。直接转发卡片（无链接）微信不给解析入口，仅兜底（电脑播放拦截）
 - **二次实测通过**：AWyGiJIRgc（WorkBuddy 海报批量生成，99s）复制链接转发 → 自动解析下载转写知识化 → 00_inbox，零人工

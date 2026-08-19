@@ -231,12 +231,22 @@
 ## 微信视频号偶遇采集全自动链路（2026-08-17 黄药师）
 
 ### `wechat_link_monitor.py`
-- **功能**：全自动偶遇采集主控——解密微信 4.x 数据库 → 读文件传输助手新消息（ZSTD 解压）→ 提取视频号链接 → parse_sph 直链解析（元宝 Cookie）→ 下载 mp4 → WSL GPU 转写 → LLM 三层次知识化 → `00_inbox/wechat-collect/`
+- **功能**：全自动偶遇采集主控（四通道：视频号/公众号文章/头条视频/头条文章）——解密微信 4.x 数据库 → 读文件传输助手新消息（ZSTD 解压）→ 提取链接 → 分通道解析（parse_sph 元宝 Cookie / 头条 info API / 公众号抓正文）→ 下载 mp4 → WSL GPU 转写 → LLM 三层次知识化（视频+文章通用）→ `00_inbox/wechat-collect/`
+- **去重（2026-08-19）**：链接规范化键——公众号 `__biz+mid+idx`、头条 gid，追踪参数全剥，同一内容多次转发只采一次（seen_links.txt 同时存原链接+规范键，兼容旧行）
 - **运行**：`python kdo-tools/wechat_link_monitor.py`（计划任务 `wechat-link-monitor` 每 10 分钟自动跑）
 - **依赖**：wx_video_download 服务（127.0.0.1:2022）+ 微信 4.x 登录 + WSL faster-whisper
 
+### `watch_inbox.py`
+- **功能**：00_inbox 监工——扫描新/变更文件 → 分类 P0（王语嫣质量门）/P2（老顽童消化）→ 写 dispatch 到 `60_feedback/inbox-queue/`；排除 `wechat-collect/`（自有管线处理）
+- **运行**：计划任务 `kdo-inbox-watch` 每 10 分钟（2026-08-19 从 WSL cron 迁移——WSL 不常驻导致 cron 静默失效的教训）
+
+### `run-kdo-health.cmd` + `backup-hermes-state.ps1`（2026-08-19 WSL cron 清仓迁移）
+- **功能**：① KDO 每日健康检查（`kdo watch --health` → `60_feedback/eval-results/health_YYYY-MM-DD.md`，日志 `logs/kdo-health-cron.log`）② 老顽童 Hermes `state.db` 每小时备份（Windows 侧 profile，保留 10 份）
+- **运行**：计划任务 `kdo-health-daily`（每日 02:07）+ `hermes-laowantong-backup`（每小时）
+- **注意**：.ps1 必须带 BOM 保存（PS 5.1 无 BOM 按 GBK 解析会吞字符）；.cmd 保持纯 ASCII（cmd 按 ANSI 读）
+
 ### `wechat_knowledge.py`
-- **功能**：逐字稿 → LLM 三层次知识化（事实/规律/洞察，楚门框架），覆盖保护（失败不覆盖旧文件）+ 跳过已知识化（幂等）
+- **功能**：逐字稿/文章正文 → LLM 三层次知识化（事实/规律/洞察，楚门框架，视频+文章通用），覆盖保护（失败不覆盖旧文件）+ 跳过已知识化（幂等）
 - **运行**：`python kdo-tools/wechat_knowledge.py <逐字稿.md>` 或 `--all`
 - **注意**：已内置 `NO_PROXY=api.deepseek.com,api.minimaxi.com` 绕过 MITM 系统代理
 

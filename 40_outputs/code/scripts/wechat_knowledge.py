@@ -31,7 +31,7 @@ OUTPUTS_DIR = INBOX_DIR / "knowledge"  # 研究文档先落 inbox，validate 后
 API_URL = "https://api.deepseek.com/v1/chat/completions"
 MODEL = "deepseek-v4-flash"
 
-TRIPLE_FRAMEWORK_PROMPT = """你是知识萃取专家。把下面的视频逐字稿按"事实 / 规律 / 洞察"三层次总结（楚门框架）：
+TRIPLE_FRAMEWORK_PROMPT = """你是知识萃取专家。把下面的内容（视频逐字稿或文章正文）按"事实 / 规律 / 洞察"三层次总结（楚门框架）：
 
 1. **事实**：客观信息——说了什么、数据、事件、人名（只列原文有的事实，不推断）
 2. **规律**：共性/模式——从事实中归纳的可复用规律、方法、步骤
@@ -43,7 +43,7 @@ TRIPLE_FRAMEWORK_PROMPT = """你是知识萃取专家。把下面的视频逐字
 - 洞察要有"为什么"和"对我们有什么用"
 - 输出格式：三个小节，每节用 - 列表
 
-逐字稿内容：
+内容：
 {transcript}"""
 
 
