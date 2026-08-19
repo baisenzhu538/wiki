@@ -145,6 +145,7 @@ async def search(query: str, domain: str | None = None, limit: int = 10) -> dict
             aliases = []
             tags = []
             position = ""
+            card_status = ""
 
             try:
                 # utf-8-sig strips BOM; normalize CRLF so frontmatter and
@@ -153,6 +154,7 @@ async def search(query: str, domain: str | None = None, limit: int = 10) -> dict
                 fm = _parse_frontmatter(text)
                 aliases = fm.get("aliases") or []
                 tags = fm.get("tags") or []
+                card_status = str(fm.get("status", "") or "")
                 if isinstance(aliases, str): aliases = [aliases]
                 if isinstance(tags, str): tags = [tags]
 
@@ -208,8 +210,11 @@ async def search(query: str, domain: str | None = None, limit: int = 10) -> dict
 
             results.append({
                 "id": card_id,
-                "title": title,
+                # #380 检索层未审标注：draft 卡标题带【未审】标记 + status 字段外露，
+                # 只标注不降权（护存量 draft 可用性），消费方自行判断是否采信
+                "title": ("【未审】 " + title) if card_status == "draft" else title,
                 "type": card_type,
+                "status": card_status,
                 "aliases": aliases[:8],
                 "tags": tags,
                 "scene": scene,

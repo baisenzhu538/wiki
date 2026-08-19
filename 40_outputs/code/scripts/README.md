@@ -236,9 +236,19 @@
 - **运行**：`python kdo-tools/wechat_link_monitor.py`（计划任务 `wechat-link-monitor` 每 10 分钟自动跑）
 - **依赖**：wx_video_download 服务（127.0.0.1:2022）+ 微信 4.x 登录 + WSL faster-whisper
 
-### `watch_inbox.py`
-- **功能**：00_inbox 监工——扫描新/变更文件 → 分类 P0（王语嫣质量门）/P2（老顽童消化）→ 写 dispatch 到 `60_feedback/inbox-queue/`；排除 `wechat-collect/`（自有管线处理）
+### `watch_inbox.py`（指针引用——活代码 `kdo-tools/watch_inbox.py`，禁副本）
+- **功能**：00_inbox 监工——扫描新/变更文件 → 一律派王语嫣质量门/编排（2026-08-19 起取消 P2 直达旁路）→ 写 dispatch 到 `60_feedback/inbox-queue/` + 登记 production-queue.md 的 INBOX-PENDING 看板段；排除 `wechat-collect/`（自有管线处理）
 - **运行**：计划任务 `kdo-inbox-watch` 每 10 分钟（2026-08-19 从 WSL cron 迁移——WSL 不常驻导致 cron 静默失效的教训）
+- **注意**：2026-08-20 #380 删除本目录下的 stale 副本（违 #359 副本禁放裁定），只留本指针
+
+### `wechat_promote.py`（指针引用——活代码 `kdo-tools/wechat_promote.py`）
+- **功能**：偶遇采集产物转正——逐字稿 → `10_raw/sources/`（零摩擦）；case 卡 → **`00_inbox/pending-cards/` 待编排区**（#380 A 方案，王语嫣 2026-08-20 改判：不再直入 `30_wiki/cases/`，一律过编排门禁；watch_inbox 自动登记 INBOX-PENDING 看板段）
+- **内容校验前置**：标题乱码（U+FFFD/拉丁区堆叠）/LLM 总结失败占位/正文 <200 字 → 落 `00_inbox/wechat-collect/_needs_rerun/` + `.reason.txt` 原因文件
+- **运行**：`python kdo-tools/wechat_promote.py [--dry-run]`；逐字稿入仓后自动 `kdo index --incremental`（L1 索引钩子）
+
+### `check-draft-aging.py`（指针引用——活代码 `90_control/scripts/check-draft-aging.py`）
+- **功能**：#380 配套——扫描 `30_wiki/` 内 status=draft 且创建超 24h 未审的卡，输出报警清单（接收方=王语嫣编排门禁，只报警不自动改；advisory 恒 exit 0）
+- **运行**：`python 90_control/scripts/check-draft-aging.py [--all|--json]`；已挂入 `health-check.py` 每日巡检
 
 ### `run-kdo-health.cmd` + `backup-hermes-state.ps1`（2026-08-19 WSL cron 清仓迁移）
 - **功能**：① KDO 每日健康检查（`kdo watch --health` → `60_feedback/eval-results/health_YYYY-MM-DD.md`，日志 `logs/kdo-health-cron.log`）② 老顽童 Hermes `state.db` 每小时备份（Windows 侧 profile，保留 10 份）
