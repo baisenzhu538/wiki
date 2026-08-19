@@ -183,14 +183,47 @@
     },
     "F_SERENDIPITY_COLLECT": {
       "id": "F_SERENDIPITY_COLLECT",
-      "name": "微信视频号偶遇采集全自动（复制链接转发）",
+      "name": "偶遇采集全自动四通道（视频号/公众号/头条，复制链接转发）",
       "category": "collection",
-      "description": "手机复制视频号链接转发→PC微信数据库解密提取→parse_sph直链解析（元宝Cookie）→无代理下载→GPU转写→LLM三层次知识化→00_inbox/wechat-collect/，计划任务每10分钟无人值守",
-      "test": "复制链接转发→10分钟内00_inbox出现逐字稿+研究文档（2026-08-17/18两次实测：WorkBuddy 146s/99s）",
+      "description": "手机复制链接转发→PC微信数据库解密提取→四通道解析（视频号parse_sph元宝Cookie/头条info API/公众号抓正文）→无代理下载→GPU转写→LLM三层次知识化（文章同样知识化）→00_inbox/wechat-collect/，计划任务每10分钟无人值守；2026-08-19起规范化键去重（公众号__biz+mid+idx/头条gid），同一内容多次转发只采一次",
+      "test": "复制链接转发→10分钟内00_inbox出现逐字稿/文章+研究文档（2026-08-17/18视频实测：WorkBuddy 146s/99s；2026-08-19文章知识化实测：重构协同 23.8K字）",
       "source": "proj_20260816_wechat-collect 顶层文档 + wechat_link_monitor.py",
       "skill": ".claude/skills/wechat-serendipity-collect/",
       "created_at": "2026-08-17",
-      "updated_at": "2026-08-18"
+      "updated_at": "2026-08-19"
+    },
+    "F_CANGJIE_SKILL": {
+      "id": "F_CANGJIE_SKILL",
+      "name": "仓颉 cangjie-skill（开源原版·书/长视频蒸馏成 Skills）",
+      "category": "knowledge-distill",
+      "description": "袋鼠帝开源（AGPL，6.8K star）：RIA-TV++ 七阶段流水线——Adler整书理解→5路并行提取（框架/原则/案例/反例/术语）→三重验证→RIA++构造→Zettelkasten链接→压力测试→交付DIGEST+安装。适合已读懂原书的深度蒸馏",
+      "test": "给一本书/长视频转写 → 产出一组原子化 skills（INDEX/DIGEST/GLOSSARY+独立 SKILL.md）",
+      "source": "40_outputs/capabilities/skills/cangjie-skill/（GitHub kangarooking/cangjie-skill，2026-08-19 gh-proxy 克隆）",
+      "skill": "40_outputs/capabilities/skills/cangjie-skill/（WorkBuddy: ~/.workbuddy/skills/cangjie-skill/）",
+      "created_at": "2026-08-19",
+      "updated_at": "2026-08-19"
+    },
+    "F_YIZHAN_SHENDENG": {
+      "id": "F_YIZHAN_SHENDENG",
+      "name": "一盏神灯（仓颉新手适配版·复刻——AI 带读+小白友好蒸馏）",
+      "category": "knowledge-distill",
+      "description": "按袋鼠帝视频《蒸馏就是AI时代的合法抢劫》复刻：仓颉前置'AI 带读'（结构地图/概念表/章节要点）+ 分型（工具书蒸方法论/非工具书蒸思维框架）+ 轻验证 + 安装交付'什么时候用哪个'指南。没读懂原书也能蒸",
+      "test": "WorkBuddy 里说'用一盏神灯帮我蒸馏这本书'+上传原材料 → 带读三件套 → 技能包落 ~/.workbuddy/skills/",
+      "source": "40_outputs/capabilities/skills/yizhan-shendeng/（复刻；原版在作者知识星球）",
+      "skill": "40_outputs/capabilities/skills/yizhan-shendeng/（WorkBuddy: ~/.workbuddy/skills/yizhan-shendeng/）",
+      "created_at": "2026-08-19",
+      "updated_at": "2026-08-19"
+    },
+    "F_DARWIN_SKILL": {
+      "id": "F_DARWIN_SKILL",
+      "name": "darwin-skill（Skill 自我进化器——评估→改进→实测→棘轮保留/回滚）",
+      "category": "knowledge-distill",
+      "description": "花叔开源（MIT，v2.1）：9维rubric评分（SkillLens+SkillOpt 论文背书）+ paired 同judge比较防换尺 + 独立judge盲评 + git棘轮只留改进 + 人在回路确认。生态咬合：仓颉蒸书→darwin 压力测试与进化；蒸出来的技能包用它持续调优",
+      "test": "对一个 SKILL.md 跑优化循环 → 评分报告 + 改进 commit + 实测对比 + 人审确认",
+      "source": "40_outputs/capabilities/skills/darwin-skill/（GitHub alchaincyf/darwin-skill，2026-08-19 gh-proxy 克隆）",
+      "skill": "40_outputs/capabilities/skills/darwin-skill/（WorkBuddy: ~/.workbuddy/skills/darwin-skill/）",
+      "created_at": "2026-08-19",
+      "updated_at": "2026-08-19"
     }
   }
 }
