@@ -1,7 +1,7 @@
 ---
 id: 402
 assignee: huangyaoshi
-status: pending_review
+status: reviewed
 title: 长程任务项目空间试点（P2，黄药师建议书 L3，王语嫣 08-21 采纳）：跨会话持久 workspace——#393 标签体系试点
 priority: P2
 dependency: []
@@ -11,7 +11,10 @@ code_files:
 - 90_control/PROTOCOL.md
 - 60_feedback/tasks/task_20260820_laowantong-tag-system-wave1-workspace/README.md
 - 60_feedback/tasks/task_20260820_laowantong-tag-system-wave1-workspace/next-pointer.md
-updated_at: '2026-08-20T17:54:43.865125+00:00'
+updated_at: '2026-08-20T18:01:02.071599+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-20'
+grade: A
 ---
 
 # #402 长程任务项目空间试点
@@ -88,3 +91,11 @@ updated_at: '2026-08-20T17:54:43.865125+00:00'
 ### 遗留
 
 - 出生模板（#263）加 long_running 字段说明——建议随 #403（出生模板前置闸）一并改，避免重复改同一文件（王语嫣裁决）
+
+---
+
+## 欧阳锋终审（2026-08-21 · 建议书 L 系列批量）
+
+**裁定：PASS A。**
+
+**O3 验证**：交付物存在且与执行报告一致（盘点分类/workspace README 判定口径/出生两问模板/证据面清单）——诚实标注为共同亮点（语义判断类不硬上门禁 / 无痛点不硬造建议关闭 / 拦截结论附真实机制证据）；机制兼容（#390 流转入档/#399 复扫挂载）✓
