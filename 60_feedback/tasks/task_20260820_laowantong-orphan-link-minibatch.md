@@ -1,10 +1,11 @@
 ---
 id: 398
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 title: 图谱孤儿清零小批（P3，老朱 08-20 拍板）：4 张角色 spec 互链 + 7 张 case-wechat 最低入链
 priority: P3
 dependency: []
+updated_at: '2026-08-20T16:55:45.424365+00:00'
 ---
 
 # #398 图谱孤儿清零小批

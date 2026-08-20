@@ -415,7 +415,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 396 | `task_20260820_laowantong-research-pack-cards` | 调研包①②③成卡与补强（P2，王语嫣 08-20 门禁判定）：3 新卡+8 补强——framework 只写实测体系，JSON Canvas 卡缓议待补实测 | reviewed | laowantong | 3 卡+8 补强 | 无 | `60_feedback/tasks/task_20260820_laowantong-research-pack-cards.md` | 门禁判定明细在任务单（过 3 缓 1）；framework 卡禁写无一手源体系；补强只增不改；pre-submit+commit 入档；欧阳锋终审 |
 
 | 397 | `task_20260820_laowantong-yuebai-link-campaign` | 月白批次链接补强专项（P2，老朱 08-20 拍板"重要需要做"单独立项）：193 张 AI 做图卡——MOC 汇聚+60 孤儿灭失+跨域桥接 | reviewed | laowantong | MOC+补链 | 无 | `60_feedback/tasks/task_20260820_laowantong-yuebai-link-campaign.md` | 图谱实测最大散点团（孤儿率 31%）；关联读卡判断禁凑数；双向回链只增不改（#384/E017 模式）；分子主题分波；欧阳锋终审抽"链得对"+图谱复测 |
-| 398 | `task_20260820_laowantong-orphan-link-minibatch` | 图谱孤儿清零小批（P3，老朱 08-20 拍板）：4-6 张角色 spec 互链（含自家 wangyuyan/laowantong/huangyaoshi/hongqigong）+ 7 张 case-wechat 最低入链 | queued | laowantong | 补链 | 无 | `60_feedback/tasks/task_20260820_laowantong-orphan-link-minibatch.md` | 按真实分工关系链不环形凑数；wechat 卡只最低入链精做另议；双向回链；欧阳锋随下批复审 |
+| 398 | `task_20260820_laowantong-orphan-link-minibatch` | 图谱孤儿清零小批（P3，老朱 08-20 拍板）：4-6 张角色 spec 互链（含自家 wangyuyan/laowantong/huangyaoshi/hongqigong）+ 7 张 case-wechat 最低入链 | claimed-hermes | laowantong | 补链 | 无 | `60_feedback/tasks/task_20260820_laowantong-orphan-link-minibatch.md` | 按真实分工关系链不环形凑数；wechat 卡只最低入链精做另议；双向回链；欧阳锋随下批复审 |
 
 | 399 | `task_20260821_huangyaoshi-full-library-rescan` | 全库复扫标准工具（P2，老朱 08-21 直令）：消灭"清单口径归零冒充全库归零"（#391/#393 连续复发）——5 检查项可插拔+退出码+"归零声明须附本工具输出"纪律固化 | queued | huangyaoshi | 工具+实测 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-full-library-rescan.md` | 阳性对照现成：missing-tags-dim --domain yitang 必须逮到 #393 漏网 12 张；yaml 级解析禁正则；与 #393 修复跨任务联动验证；欧阳锋终审 |
 
