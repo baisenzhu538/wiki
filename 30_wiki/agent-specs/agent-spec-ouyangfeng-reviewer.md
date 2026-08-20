@@ -20,6 +20,10 @@ related:
 - agent-spec-duanwangye-publisher
 - agent-spec-hongqigong-multimodal
 - '[[tool-agent-white-paper-five-elements]]'
+- 'agent-spec-wangyuyan-orchestrator'
+- 'agent-spec-laowantong-producer'
+- 'agent-spec-huangyaoshi-builder'
+- 'framework-truman-agent-team-architecture'
 tags:
 - audience:executor
 - scene:review

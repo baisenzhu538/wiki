@@ -36,6 +36,13 @@ related:
 - '[[case-kinda-digital-employees-fullview]]'
 - '[[dk-rule-not-system-capability]]'
 - '[[dk-ai-capability-illusion]]'
+- 'case-wechat-5291b61bc722d90d'
+- 'case-wechat-6725b942182f6277'
+- 'case-wechat-article_4dd7be7cd82f7e80'
+- 'case-wechat-AWyGiJIRgc'
+- 'case-wechat-dy_7666832665312982138'
+- 'case-wechat-f4faadff37c0b43b'
+- 'case-wechat-tt_7666646931699367986'
 ---
 # 最佳数据源=AI 产出下限：搜索引擎给注水文章，垂直源+本地克隆才保质
 

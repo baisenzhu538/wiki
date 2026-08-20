@@ -18,6 +18,9 @@ source_refs:
 related:
 - agent-spec-wangyuyan-orchestrator
 - agent-spec-ouyangfeng-reviewer
+- 'agent-spec-laowantong-producer'
+- 'agent-spec-hongqigong-multimodal'
+- 'framework-truman-agent-team-architecture'
 tags:
 - audience:executor
 - scene:execution

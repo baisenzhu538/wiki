@@ -7,6 +7,9 @@ source_refs:
 - 00_inbox/wechat-collect/src_wechat_article_4dd7be7cd82f7e80.md
 created_at: 2026-08-19
 updated_at: '2026-08-20'
+related:
+- 'dk-best-datasource-is-floor'
+- 'framework-truman-agent-team-architecture'
 ---
 
 # 重构协同：关于AI Native团队的思考

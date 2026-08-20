@@ -42,6 +42,11 @@ related:
 - '[[dk-ai-builder-illusion]]'
 - '[[tool-agent-white-paper-five-elements]]'
 - case-cross-xingangwan-pharma
+- 'agent-spec-wangyuyan-orchestrator'
+- 'agent-spec-laowantong-producer'
+- 'agent-spec-huangyaoshi-builder'
+- 'agent-spec-hongqigong-multimodal'
+- 'agent-spec-ouyangfeng-reviewer'
 review_date: 2026-08-16
 ---
 

@@ -32,6 +32,11 @@ related:
 - skill-duanwangye-feishu-publishing
 - content-production-polish
 - framework-visual-analysis-four-dimensions
+- 'agent-spec-wangyuyan-orchestrator'
+- 'agent-spec-laowantong-producer'
+- 'agent-spec-huangyaoshi-builder'
+- 'agent-spec-ouyangfeng-reviewer'
+- 'framework-truman-agent-team-architecture'
 tags:
 - audience:executor
 - scene:execution
