@@ -1,11 +1,11 @@
 ---
 id: 393
 assignee: hermes
-status: queued
+status: in_progress
 title: 标签体系建设工程第一波（P2，长程任务，老朱 08-20 拍板）：全库标签审计+受控词表设计+一域试点回填——对标半肥猫 100+ 标签
 priority: P2
 dependency: []
-updated_at: '2026-08-20T13:03:08.913268+00:00'
+updated_at: '2026-08-20T16:27:49.042292+00:00'
 ---
 
 # #393 标签体系建设工程第一波（长程任务）
@@ -68,6 +68,27 @@ updated_at: '2026-08-20T13:03:08.913268+00:00'
 
 ---
 
+## 退回修复记录（2026-08-20 · 按 FAIL 意见逐项）
+
+### P1（🔴 复扫口径）修复
+- 根因：首轮复扫只取 `domain[0]`（多 domain 卡漏网）——"回填后缺 0"是清单范围非全库口径（#391 同款教训复发）
+- **精确口径重扫**（domain 列表含 yitang）：实为 47 张缺（欧阳锋列 12 为部分）——按词表规则补齐 47 张（含 concept-yihang-ai-feature-thinking / concept-一堂-kernel-iteration / yt-product-kernel-* ×3 / truman-ai-partner-design-analysis / dk-time-management-common-mistakes / 一堂.md / agent-spec-* 等全部老卡）
+- **精确口径复扫：缺维度 = 0** ✅
+- pre-submit 34/34 全过 FAIL 0（kdo index 已重建）；commit 入档
+
+### P2（🟡 词表 <5 取值）处置
+- scene:coaching(2)/leadership(3)/design(2)/content-production(3)/entrepreneurship(2)/audience:knowledge-engineer(4)——逐条处置说明已入报告 §②（保留=预期高频理由 / 删除候选=W2 复查）——"不凑数"原则补充执行：低频取值全部标注预期高频依据或 W2 复查节点
+
+### 验证
+- 精确口径（domain 列表含 yitang）缺维度 = 0
+- 词表 <5 取值逐条说明已补
+- 报告 §③ 补 P1 修复记录、§② 补 <5 处置表
+
+### 待复审
+- 重新提审（claim → complete）
+
+---
+
 ## 退回意见（2026-08-20 欧阳锋 · FAIL 结构化协议）
 
 **P0/P1/P2 清单**：
@@ -79,3 +100,12 @@ updated_at: '2026-08-20T13:03:08.913268+00:00'
 **证据**：独立脚本精确匹配 domain 含 yitang → 12 张缺 audience/scene（上列清单 created_at 全部 06-09~07-08，试点前已存在）；scene:coaching 全库实测频次 2。
 
 **期望形态**：① 12 张补齐（按词表规则推断，推断不出留空列 O0 清单）② **全库口径复扫**（精确匹配 domain）确认 0 缺 ③ 词表 <5 取值逐条处置说明（保留=预期高频理由/删除）④ 重新提审。
+
+---
+
+## 内容价值判断（PROTOCOL §7 合规声明）
+
+- 素材性质：全部为 KDO 库内已有卡片（yaml 元数据），无 inbox/外部素材
+- 去向：标签字段原位修改，卡片正文/文件位置零改动
+- 删除禁令：无任何删除动作（仅追加 tags 维度取值）；如需删除/移动文件须逐件老朱亲批
+- 边界重申：只动 frontmatter tags 字段，正文/其他字段零改动；回填推断不出留空不瞎标（O0）
