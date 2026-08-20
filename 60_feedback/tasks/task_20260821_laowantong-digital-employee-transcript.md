@@ -1,11 +1,11 @@
 ---
 id: 400
 assignee: hermes
-status: in_progress
+status: pending_review
 title: 数字员工搭建口述补强+新卡（P1，老朱 08-21 拍板）：龙虾员工本人一手口述——#379 六卡跨案例实证补强 + 新卡 3 张
 priority: P1
 dependency: []
-updated_at: '2026-08-20T17:07:31.886329+00:00'
+updated_at: '2026-08-20T17:10:27.237634+00:00'
 ---
 
 # #400 数字员工搭建口述补强+新卡
@@ -66,3 +66,41 @@ updated_at: '2026-08-20T17:07:31.886329+00:00'
 
 1. 3 新卡 + 7 补强 diff + pre-submit 输出
 2. 送欧阳锋终审
+
+---
+
+## 执行报告（2026-08-21 老顽童 hermes 实例）
+
+### 完成概要
+数字员工搭建口述补强+新卡完成（老朱 08-21 拍板直接立）：**7 补强 + 3 新卡**，pre-submit **✅ PASS 10/10（0 ERROR）**，commit 入档（E040）。
+
+### 补强 7 项（只增不改+行号+跨案例实证标注）
+| 已有卡 | 补强（跨案例实证：不同人/不同工具 OpenClaw/同一规律） | 口述锚点 |
+|:--|:--|:--|
+| dk-project-manager-agent-failure | A2A 互发消息后撤项目经理——"医生之间能直接沟通，为什么需要项目经理传话，他还不能 100% 懂我" | L244-266 |
+| dk-rule-not-system-capability | 建模专家不守自定规则→靠提醒=规则没变成系统能力→Skill/MCP/Workflow 封装根治 | L348-370, L636-650 |
+| tool-anti-ai-bs-three-moves | 防忽悠三层递进（解释→找同类→最低成本验证）第二案例 | L654-660 |
+| dk-best-datasource-is-floor | 本地搜索引擎+仓库卡片克隆成知识库（<1G）工程化 | L662-682, L894-928 |
+| dk-ai-efficiency-and-management-radius | 管理半径 5-10 同理 AI；项目空间隔离上下文污染 | L684-732 |
+| dk-ai-capability-illusion | "AI 给人能力变强效率起飞的错觉…没用对方法在不必要处耗费精力" | L754-766 |
+| tool-agent-white-paper-five-elements | 白皮书 7 要素变体对照（多"介绍"+"资料库"拆分） | L160-168 |
+
+### 新卡 3 张
+| 卡 | 类型 | 核心内容 | 依据 |
+|:--|:--|:--|:--|
+| case-openclaw-selfbuilt-agent-platform | case 四段 | 自建协作平台决策链：排飞书微信（信息过载）→Matrix 失败→A2A 撤项目经理→项目空间隔离上下文→聊天记录本地持久化 | L202-216, L244-266, L278-318 |
+| tool-local-search-repo-datasource-engineering | tool | 数据源工程：本地搜索引擎部署+仓库卡片克隆（只克隆文字<1G+原链接） | L894-928, L662-682 |
+| tool-platform-requirement-eight-sections | tool | 平台需求梳理 8 节模板（解决什么/用户场景/界面/成功标准/边界/依赖/不做/优先级） | PNG③ + L218-220 |
+
+### ASR 合规（O0）
+- OpenClaw（"open cloud/OpenCloud"变体）/Matrix/A2A/Skill/MCP 等产品名与术语——已按语义还原，**全部标"口述待独立核实"**（卡内 source_person/背景注明）
+- 数字"70K 技术文档"（L224）/“<1G 克隆”（L916）——引用原文行号，未做数值推断
+- 无 ASR 猜测写成事实（L178"阿蕊老师"等无关词未入卡）
+
+### 互链
+- 3 新卡 related 已链 #379 批次（case-kinda 等 6 张）；#379 旧卡→新卡反向清单交编排裁决（同 #383 模式）
+- pre-submit WIKILINK 0 死链
+
+### 待欧阳锋
+- 终审 3 新卡 + 7 补强（被补强卡为终审过旧卡，复终审）
+- 旧卡反向回链清单待编排
