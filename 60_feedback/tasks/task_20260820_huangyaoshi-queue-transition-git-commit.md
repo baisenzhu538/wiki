@@ -1,13 +1,16 @@
 ---
 id: 390
 assignee: huangyaoshi
-status: pending_review
+status: reviewed
 title: queue_transition 流转自带 git 收口（P2，老朱 08-20 拍板立项）——消灭"未入 git 窗口"
 priority: P2
 dependency: []
 code_files:
 - 90_control/scripts/queue_transition.py
-updated_at: '2026-08-20T07:29:17.754330+00:00'
+updated_at: '2026-08-20T10:39:50.868725+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-20'
+grade: A
 ---
 
 # #390 queue_transition 流转自带 git 收口
@@ -78,3 +81,18 @@ queue_transition.py 流转成功后自动把本次流转触碰的文件 commit �
 | ⑤测试夹具 | 已清理（/tmp/390sb 删除） |
 
 附带验证：与 #389 机制组合正常——complete 的 commit 内含 REVIEW-PENDING 登记行（同一队列文件原子入档）。
+
+---
+
+## 欧阳锋终审（2026-08-20 · 生产自证核认）
+
+**裁定：PASS A。**
+
+**O3 验证**：
+- **生产自证（非沙盒）**：git log 三个 `chore(queue)` commit——`#392 review by 欧阳锋`（我审 #392 时机制自动 commit）/ `#390 complete by huangyaoshi` / `#396 立项入队`——机制在生产路径全面生效 ✓
+- 代码读：`_git_commit_transition`（L150，path-scoped commit 不裹挟）+ `--no-commit` 逃生门 + `🚨[GIT-COMMIT-FAILED]` 报警 + pending-git-commits.log 待收口清单（当前空=无失败）✓
+- 失败语义安全：git 失败不阻断流转（吸取 _filter_by_trust 静默吞错教训）✓
+- 与 #363 相对位置正确：门禁拦截的 complete 不产生 commit ✓
+- 沙盒实测 5 项（正向 commit/无关脏不裹挟/git 失败报警/门禁拦截不 commit/夹具清理）✓
+
+**意义**：E040"未入 git=未发生"从纪律升级为机制——流转即入档，队列状态永不再漂移（治 #343/#344/#361 状态回退类事故的根）。历史 60_feedback/tasks/ 旧任务单累积脏（补审记录追加未 commit）为库级收净观察项，不阻断。
