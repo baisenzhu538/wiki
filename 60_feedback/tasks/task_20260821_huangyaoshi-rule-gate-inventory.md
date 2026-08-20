@@ -1,10 +1,11 @@
 ---
 id: 401
 assignee: huangyaoshi
-status: queued
+status: in_progress
 title: 残余文案规则门禁化盘点（P2，黄药师建议书 L1，王语嫣 08-21 采纳）：全库"靠自觉"规则清单+门禁化排序
 priority: P2
 dependency: []
+updated_at: '2026-08-20T17:46:12.272607+00:00'
 ---
 
 # #401 残余文案规则门禁化盘点
@@ -30,6 +31,12 @@ dependency: []
 - 只产清单+建议，不动任何机制（改造另立项）
 - 语义判断类规则不得为凑门禁化率强行脚本化
 - 完成后 commit（E040）
+
+## 内容价值判断（#375 claim 门禁合规声明）
+
+- 素材性质：纯读分析——扫描 PROTOCOL / AGENTS.md / SOUL 模板 / agent context / 错误模式库等**现有规则文案**，无任何外部素材或 inbox 文件
+- 去向：全部素材**原位保留零改动**；产出为新增诊断报告（diag_*.md），不修改被扫描文件
+- 删除禁令：本任务无任何删除/移动动作；如需删除须逐件老朱亲批（PROTOCOL §7）
 
 ## 验收标准
 
