@@ -178,7 +178,13 @@ beginner / intermediate / advanced
 ### 退回 P1 修复（#393 复审，精确口径）
 - **口径教训**：首次复扫只取 `domain[0]`（多 domain 卡如 [ai-collaboration, yitang] 被漏）——"回填后缺 0"是 100 张清单范围，非全库口径（#391 同款教训复发）
 - **精确口径重扫**（domain 列表含 yitang）实为 **47 张缺**（欧阳锋列 12 为部分清单）——按词表规则补齐 47 张（含 concept-yihang-ai-feature-thinking / concept-一堂-kernel-iteration / yt-product-kernel-* / agent-spec-* 等全部老卡）
-- **精确口径复扫：yitang 域缺维度 = 0** ✅
+- **精确口径复扫：yitang 域缺维度 = 0** ✅（PASS A- 复审独立复扫确认）
+
+### 解析异常另议清单（#393 复审 A- 期望补充）
+| 卡 | 状态 | 处置 |
+|:--|:--|:--|
+| concept-yihang-ai-feature-thinking | **YAML 结构损坏**（yaml.safe_load ParserError，历史已知 #373 编码损坏 `?` 替换字符）——解析器扫描自动跳过，非 tags 缺失 | **YAML 修复单独立项**（不伪装归零；修 YAML 超本单"只动 tags"边界） |
+| 一堂.md（entity 卡） | type=entity 非常规卡型，词表规则未覆盖（entity 是实体卡非知识卡） | **合理排除**——实体卡不进知识卡 tags 体系，说明留痕 |
 
 ---
 
