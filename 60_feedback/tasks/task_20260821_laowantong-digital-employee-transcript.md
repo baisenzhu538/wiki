@@ -1,10 +1,11 @@
 ---
 id: 400
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 title: 数字员工搭建口述补强+新卡（P1，老朱 08-21 拍板）：龙虾员工本人一手口述——#379 六卡跨案例实证补强 + 新卡 3 张
 priority: P1
 dependency: []
+updated_at: '2026-08-20T17:07:31.886329+00:00'
 ---
 
 # #400 数字员工搭建口述补强+新卡
