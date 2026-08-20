@@ -395,9 +395,11 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 385 | `task_20260820_laowantong-legacy-structure-errors` | 2 张历史遗留结构 ERROR 卡补齐（P3，#384 终审另立项）：dk-decision-value-overrides-roi 补 updated_at+Critique、dk-ai-builder-illusion 补 Critique | reviewed | laowantong | 2 卡补齐 | 无 | `60_feedback/tasks/task_20260820_laowantong-legacy-structure-errors.md` | Critique 为补写须标溯源不伪装原素材；只追加不改原段落；逐卡 pre-submit；欧阳锋随下批复审 |
 | 386 | `task_20260820_laowantong-legacy-body-link-format` | 全库 10 处历史遗留 body 关联节格式清理（P3，#384 R2 全库复扫另立项）：yt-* 系列等 body `- '[[` 前缀行转法定反引号格式 | reviewed | laowantong | 清单+清理 | 无 | `60_feedback/tasks/task_20260820_laowantong-legacy-body-link-format.md` | 批量三问；只转格式不删关联；修复后全量复扫归零（#384 三轮教训）；欧阳锋随下批复审 |
 
-| 387 | `task_20260820_laowantong-lemon-market-trust-card` | 微信偶遇"柠檬市场×新品牌信任公式"精做成卡（P3，王语嫣 08-20 门禁判定入库）：信任=（能力+善意+可预测性）×触点一致性，对照逐字稿修 ASR 错字精做 | pending_review | laowantong | 1 卡 | 无 | `60_feedback/tasks/task_20260820_laowantong-lemon-market-trust-card.md` | 逐字稿为准草稿仅线索；ASR 错字修正清单已列；建议 framework 型；人名品牌标待核实；欧阳锋终审 |
+| 387 | `task_20260820_laowantong-lemon-market-trust-card` | 微信偶遇"柠檬市场×新品牌信任公式"精做成卡（P3，王语嫣 08-20 门禁判定入库）：信任=（能力+善意+可预测性）×触点一致性，对照逐字稿修 ASR 错字精做 | reviewed | laowantong | 1 卡 | 无 | `60_feedback/tasks/task_20260820_laowantong-lemon-market-trust-card.md` | 逐字稿为准草稿仅线索；ASR 错字修正清单已列；建议 framework 型；人名品牌标待核实；欧阳锋终审 |
 
 | 388 | `task_20260820_laowantong-builder-illusion-metadata` | 元数据遗留 warning 清理（P3，#385/#386 终审另立项合并）：builder-illusion tags 缺 audience/scene + source_refs 死路径；2 张 yt-* 卡补 updated_at | queued | laowantong | 元数据修正 | 无 | `60_feedback/tasks/task_20260820_laowantong-builder-illusion-metadata.md` | 只动 frontmatter；顺手全库扫同类 warning 量小并修量大列单；欧阳锋随下批复审 |
+
+| 389 | `task_20260820_huangyaoshi-review-pending-dispatch` | REVIEW-PENDING 待终审自动登记段（P2，老朱 08-20 拍板）：complete 自动登记+review 自动划掉，与 INBOX-PENDING 对称——#387 事件结构缺口补强 | queued | huangyaoshi | 机制+实测 | 无 | `60_feedback/tasks/task_20260820_huangyaoshi-review-pending-dispatch.md` | 建议书 diag_20260820_wangyuyan-review-pending-dispatch.md 必读；只加登记段不动状态机；兼容 #363 门禁；不回填历史；不碰在飞任务 #387/#388；dashboard 展示执行者评估；欧阳锋终审 |
 
 <!-- INBOX-PENDING-BEGIN（watch_inbox 自动维护，勿手改） -->
 
