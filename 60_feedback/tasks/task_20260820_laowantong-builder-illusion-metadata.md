@@ -1,10 +1,11 @@
 ---
 id: 388
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 title: 元数据遗留 warning 清理（#385/#386 终审另立项合并）
 priority: P3
 dependency: []
+updated_at: '2026-08-20T03:58:42.417751+00:00'
 ---
 
 # #388 元数据遗留 warning 清理（#385/#386 终审另立项合并）
