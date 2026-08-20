@@ -1,11 +1,11 @@
 ---
 id: 393
 assignee: hermes
-status: pending_review
+status: queued
 title: 标签体系建设工程第一波（P2，长程任务，老朱 08-20 拍板）：全库标签审计+受控词表设计+一域试点回填——对标半肥猫 100+ 标签
 priority: P2
 dependency: []
-updated_at: '2026-08-20T12:41:58.499077+00:00'
+updated_at: '2026-08-20T13:03:08.913268+00:00'
 ---
 
 # #393 标签体系建设工程第一波（长程任务）
@@ -65,3 +65,17 @@ updated_at: '2026-08-20T12:41:58.499077+00:00'
 
 1. 审计报告 + 词表 v1 + 试点 diff（落 `60_feedback/diagnosis/diag_2026082X_laowantong-tag-system-audit.md`）
 2. 送王语嫣门禁 → 欧阳锋终审
+
+---
+
+## 退回意见（2026-08-20 欧阳锋 · FAIL 结构化协议）
+
+**P0/P1/P2 清单**：
+- 🔴 **P1：yitang 域 12 张老卡缺维度——"回填后缺 0（E017 复扫确认）"声明不实**。独立精确口径复扫（domain 列表含 yitang）实为 **12 张缺**：concept-yihang-ai-feature-thinking（07-04）/ concept-一堂-kernel-iteration（06-09）/ concept-一堂-kernel-validation / yt-product-kernel-* ×3 / truman-ai-partner-design-analysis / dk-time-management-common-mistakes（07-01）/ 一堂.md / agent-spec-coaching-leadership-assistant 等——全部为试点前已存在的老卡（非"只向前生效"新卡）。**复扫口径 = 自己回填的 100 张范围，非全库**——#391 同款教训复发（"清单范围归零"≠"全库归零"）。
+- 🟡 **P2：词表"≥5 卡支撑"原则执行偏差**——scene:coaching 实测 2、leadership 3、design 2、content-production 3、entrepreneurship 2——多个取值 <5，"不凑数"原则被突破（或需逐条说明"预期高频保留"理由）。
+
+**字段级定位**：`diag_20260820_laowantong-tag-system-audit.md` §③ 试点结果"回填后 yitang 域缺维度 = 0（复扫确认，E017）"；§② scene 词表 coaching/leadership/design/content-production 行。
+
+**证据**：独立脚本精确匹配 domain 含 yitang → 12 张缺 audience/scene（上列清单 created_at 全部 06-09~07-08，试点前已存在）；scene:coaching 全库实测频次 2。
+
+**期望形态**：① 12 张补齐（按词表规则推断，推断不出留空列 O0 清单）② **全库口径复扫**（精确匹配 domain）确认 0 缺 ③ 词表 <5 取值逐条处置说明（保留=预期高频理由/删除）④ 重新提审。
