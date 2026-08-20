@@ -417,7 +417,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 397 | `task_20260820_laowantong-yuebai-link-campaign` | 月白批次链接补强专项（P2，老朱 08-20 拍板"重要需要做"单独立项）：193 张 AI 做图卡——MOC 汇聚+60 孤儿灭失+跨域桥接 | reviewed | laowantong | MOC+补链 | 无 | `60_feedback/tasks/task_20260820_laowantong-yuebai-link-campaign.md` | 图谱实测最大散点团（孤儿率 31%）；关联读卡判断禁凑数；双向回链只增不改（#384/E017 模式）；分子主题分波；欧阳锋终审抽"链得对"+图谱复测 |
 | 398 | `task_20260820_laowantong-orphan-link-minibatch` | 图谱孤儿清零小批（P3，老朱 08-20 拍板）：4-6 张角色 spec 互链（含自家 wangyuyan/laowantong/huangyaoshi/hongqigong）+ 7 张 case-wechat 最低入链 | reviewed | laowantong | 补链 | 无 | `60_feedback/tasks/task_20260820_laowantong-orphan-link-minibatch.md` | 按真实分工关系链不环形凑数；wechat 卡只最低入链精做另议；双向回链；欧阳锋随下批复审 |
 
-| 399 | `task_20260821_huangyaoshi-full-library-rescan` | 全库复扫标准工具（P2，老朱 08-21 直令）：消灭"清单口径归零冒充全库归零"（#391/#393 连续复发）——5 检查项可插拔+退出码+"归零声明须附本工具输出"纪律固化 | queued | huangyaoshi | 工具+实测 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-full-library-rescan.md` | 阳性对照现成：missing-tags-dim --domain yitang 必须逮到 #393 漏网 12 张；yaml 级解析禁正则；与 #393 修复跨任务联动验证；欧阳锋终审 |
+| 399 | `task_20260821_huangyaoshi-full-library-rescan` | 全库复扫标准工具（P2，老朱 08-21 直令）：消灭"清单口径归零冒充全库归零"（#391/#393 连续复发）——5 检查项可插拔+退出码+"归零声明须附本工具输出"纪律固化 | claimed-huangyaoshi | huangyaoshi | 工具+实测 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-full-library-rescan.md` | 阳性对照现成：missing-tags-dim --domain yitang 必须逮到 #393 漏网 12 张；yaml 级解析禁正则；与 #393 修复跨任务联动验证；欧阳锋终审 |
 
 | 400 | `task_20260821_laowantong-digital-employee-transcript` | 数字员工搭建口述补强+新卡（P1，老朱 08-21 拍板直接立）：龙虾员工本人一手口述——#379 七卡跨案例实证补强 + 新卡 3 张（自建协作平台/数据源工程/需求八节模板） | reviewed | laowantong | 3 卡+7 补强 | 无 | `60_feedback/tasks/task_20260821_laowantong-digital-employee-transcript.md` | ASR 错字密度高所有人名模型名标待核实；Live86 逐字稿先 diff 防重复产卡；与 #379 批次互链双向；登记为知行合一纲领第三方对标案例；欧阳锋终审 |
 

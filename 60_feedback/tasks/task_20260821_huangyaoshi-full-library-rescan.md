@@ -1,12 +1,13 @@
 ---
 id: 399
 assignee: huangyaoshi
-status: queued
+status: in_progress
 title: 全库复扫标准工具（P2，老朱 08-21 直令立项）：消灭"清单口径归零冒充全库归零"——人肉纪律升级为工具
 priority: P2
 dependency: []
 code_files:
 - 90_control/scripts/full-library-rescan.py
+updated_at: '2026-08-20T17:30:59.004665+00:00'
 ---
 
 # #399 全库复扫标准工具
