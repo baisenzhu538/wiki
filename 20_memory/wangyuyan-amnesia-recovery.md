@@ -46,14 +46,18 @@ type: memory/role-recovery
 | W7 | 先确认 frontmatter 再入队 | "入队" |
 | W8 | **先找 MOC 再回答** | "XX 是第几步" |
 
-## 4. 当前状态（2026-08-15 更新）
+## 4. 当前状态（2026-08-20 更新）
 
-- **队列 290 行看板全清（2026-08-10）**：非终态 0，issues=0——WorkBuddy 借鉴链 #306-311 完整闭环
-- **Live258 内容域三连批收官（2026-08-15）**：#312 case 4 张（A-）+ #313 dk 2+1（B+）+ #314 tool（A-）= 9 新卡+1 修补入库；基建 #315-318 全 reviewed（aliases v0.9/combo/verified 分级/分层水位）。**看板 297/297 全清，queued=0/pending_review=0**。诊断：`60_feedback/diagnosis/diag_20260813_live258-excellent-homework.md`。剩余：欧阳锋侧 #304/#298；停车场 O-12/O-13/P-31 待用户拍板；老顽童可接新派单
-- **WorkBuddy 借鉴链全链闭环**：#306 飞书文档 MCP ✅ → #307 交付物模板 ✅（6 模板 A）→ #310 任务模式 spec ✅ → #311 SOUL 实现 ✅（真机验证：老朱拆书任务产出《从客户到用户》成稿——任务模式五节+出口式素材收集+交付物规范全达标）
-- **双助理能力**：教练/会议助理 = 任务式生成（五节模板 + 6 交付物模板 + MCP 写入 + 出口式咨询素材收集 + 案例沉淀回路）
-- **编排铁律**：E025（修改另开任务）/ E026（单角色单任务）/ E028（索引随卡更新）/ 先 MOC 再 grep / 口述稿第一手（E024）
-- **运行态**：#265 通道 4 每周一例行（queue_audit + friction-log + 队列健康 CLOSE/ADJUST/KEEP/MERGE）
+- **AI 知识库域三刷线收官（2026-08-20）**：#376 二刷 13 卡 PASS A → #378 补强 6 项 PASS A → #379 Live86 十卡 PASS A → #381 元技能分层 PASS A → #383/#384 回链链。素材：`00_inbox/AI知识库/`（楚门课）+ `00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md`；诊断：`60_feedback/diagnosis/diag_20260819_wangyuyan-live86-lobster-employees.md`
+- **偶遇管线 A 方案落地（#380 PASS A）**：promote 只到 10_raw 素材层，case 卡落 `00_inbox/pending-cards/` 待编排区一律过王语嫣门禁；draft>24h 巡检接收方=王语嫣分流；检索层 draft 带【未审】标注。**编排门禁=王语嫣，终审=欧阳锋（老朱 08-20 定界）**
+- **门禁判定三步走**（E037）：判定→隔离→**git 固化**（mv tracked 文件可被 restore 复活，不固化=未执行）
+- **队列 363**：全部闭环，仅 #384（Live86 回链扫描）进行中
+- **错误模式库至 E040**：E036 裁定被建议方带偏 / E037 判定不固化 / E038 改任务单前未核队列实时状态 / E039 外部概念凭字面脑补（YAI=一堂知识库上的 agent 体系，非单一工具）/ E040 编排产物未 commit=不进协作通道（#387 事件：欧阳锋读独立 git 同步 checkout，工作区文件对其不存在）
+- **编排产物即写即 commit（08-20 老朱常设授权）**：任务单+队列行+看板落盘后必 commit，范围限 `60_feedback/tasks/`、`70_product/tasks/`、`00_inbox/pending-cards/`——无 commit 不算提审完成（同律三面：#363 修复未提交=不存在 / E037 删除未固化=未执行 / E040 提审未提交=不在审查通道）；acf868b3d 首刀收口
+- **REVIEW-PENDING 立项（#389 queued，黄药师）**：提审自动登记段与 INBOX-PENDING 对称；建议书 `60_feedback/diagnosis/diag_20260820_wangyuyan-review-pending-dispatch.md`
+- **新铁律（08-19）**：00_inbox 只增不删；外部 agent（小昭）只观察审查不动手
+- **遗留时间锚**：#367 双轨目录观察期 2026-08-26 到期；`_tmp/` 29286 文件删除清单待老朱过目
+- **历史锚**：看板 297/297 全清（08-15）；编排铁律 E025/E026/E028/先 MOC 再 grep/口述稿第一手（E024）
 
 ## 5. 双驱动机制（2026-08-09 核心认知）
 
