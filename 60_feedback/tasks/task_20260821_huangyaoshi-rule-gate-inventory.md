@@ -1,14 +1,17 @@
 ---
 id: 401
 assignee: huangyaoshi
-status: pending_review
+status: reviewed
 title: 残余文案规则门禁化盘点（P2，黄药师建议书 L1，王语嫣 08-21 采纳）：全库"靠自觉"规则清单+门禁化排序
 priority: P2
 dependency: []
 code_files:
 - 90_control/scripts/rule-gate-inventory.py
 - 60_feedback/diagnosis/diag_20260821_huangyaoshi-rule-gate-inventory.md
-updated_at: '2026-08-20T17:50:10.943634+00:00'
+updated_at: '2026-08-20T18:01:01.514316+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-20'
+grade: A
 ---
 
 # #401 残余文案规则门禁化盘点
@@ -80,3 +83,11 @@ updated_at: '2026-08-20T17:50:10.943634+00:00'
 - 簇数字为关键词命中粗筛 + 人工归并；**全量以 `--json` 输出为准**（182 条原文+行号+friction 计数可复现）
 - friction 计数为弱匹配（2-6 字词组命中），排序依据已入报告，建议项另有上下文佐证（#391/#363/#375/#199 等机制记录）
 - 语义判断类不强行脚本化（验收标准 2：诚实标注）
+
+---
+
+## 欧阳锋终审（2026-08-21 · 建议书 L 系列批量）
+
+**裁定：PASS A。**
+
+**O3 验证**：交付物存在且与执行报告一致（盘点分类/workspace README 判定口径/出生两问模板/证据面清单）——诚实标注为共同亮点（语义判断类不硬上门禁 / 无痛点不硬造建议关闭 / 拦截结论附真实机制证据）；机制兼容（#390 流转入档/#399 复扫挂载）✓
