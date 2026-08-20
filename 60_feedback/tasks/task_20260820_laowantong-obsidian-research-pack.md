@@ -1,10 +1,11 @@
 ---
 id: 392
-assignee: laowantong
-status: queued
+assignee: hermes
+status: pending_review
 title: Obsidian×AI 知识管理调研包 4 子题（P2，老朱 08-20 课程收官拍板）：高质量图/最佳实践调研/编码顺序/上下文全场景打通（长程雷达）
 priority: P2
 dependency: []
+updated_at: '2026-08-20T07:38:39.944763+00:00'
 ---
 
 # #392 Obsidian×AI 知识管理调研包（4 子题）
@@ -61,3 +62,30 @@ dependency: []
 1. 4 子题调研报告齐全，每子题来源≥2 且 6 层交叉留痕
 2. ①②③补强/新卡清单与已有卡零重复
 3. ④研判报告有明确的 2-3 年演化判断与 KDO 位置分析
+
+---
+
+## 执行报告（2026-08-20 老顽童 hermes 实例）
+
+### 完成概要
+4 子题调研完成，报告落 `60_feedback/diagnosis/diag_20260820_laowantong-obsidian-research-pack.md`（14KB）。本单只产调研报告不写卡（成卡经门禁另立项）。
+
+### 交付内容
+| 子题 | 锚点校准 | 全网来源（≥2） | 产出 |
+|:--|:--|:--|:--|
+| ① 高质量图 | L1186-1214 + L2220-2266 | jsoncanvas.org（官方）/ Obsidian blog / mermaid.js.org / forum #79711 | 路线对比（楚门派 vs 生态）+ 补强 2 + 新卡候选 2 |
+| ② 最佳实践 | L984-992 + L1550-1554 + L3254 + 逐字稿 L343 | forum #79711（实测可追溯研究链接）/ fortelabs PARA | 融合判断 + 补强 3 + 新卡候选 1 |
+| ③ 编码顺序 | L1114-1120 | fortelabs PARA / johnnydecimal.com | 四体系对比 + 补强 2 + 新卡候选 1 |
+| ④ 全场景打通 | 逐字稿 L419-421/L523/L679-705/L697 | JSON Canvas（实测）/ MCP（推演标注，官网不可达） | **2-3 年研判**：Agent 原生演进 + KDO 位置 + 押注建议 |
+
+### 溯源分级
+- 实测（网络一手/库内已证）：JSON Canvas / PARA / Johnny Decimal / Mermaid / forum #79711
+- 引用（口述锚点）：全部标行号
+- 推演：路线融合判断 / MCP 生态（官网不可达）/ Zettelkasten-LATCH（未取一手源）——全部显式标注，O0 零编造
+
+### 网络受限说明（如实）
+reddit / modelcontextprotocol.io / docs.anthropic.com 本环境不可达——相关结论标注推演或未获取，未凑数。
+
+### 待王语嫣门禁
+- ①②③：补强清单 8 项 + 新卡候选 4 项（门禁判定成卡/补强）
+- ④：研判报告直呈老朱（决策参考）
