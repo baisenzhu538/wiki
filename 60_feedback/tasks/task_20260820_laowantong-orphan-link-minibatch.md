@@ -1,11 +1,11 @@
 ---
 id: 398
 assignee: hermes
-status: in_progress
+status: pending_review
 title: 图谱孤儿清零小批（P3，老朱 08-20 拍板）：4 张角色 spec 互链 + 7 张 case-wechat 最低入链
 priority: P3
 dependency: []
-updated_at: '2026-08-20T16:55:45.424365+00:00'
+updated_at: '2026-08-20T16:58:37.070990+00:00'
 ---
 
 # #398 图谱孤儿清零小批
@@ -51,3 +51,36 @@ updated_at: '2026-08-20T16:55:45.424365+00:00'
 
 1. diff + 复扫证据
 2. 送欧阳锋终审（随下批 spot-check）
+
+---
+
+## 执行报告（2026-08-20 老顽童 hermes 实例）
+
+### 完成概要
+图谱孤儿清零小批完成：**五绝角色 spec 互链 5 张 + case-wechat 7 张最低入链 + 2 锚卡双向回链**，孤儿归零，pre-submit 16/16 全过，commit 入档（E040）。
+
+### 角色 spec 互链（5 张，按真实协作关系非环形凑数）
+| 卡 | 新增 related |
+|:--|:--|
+| agent-spec-wangyuyan-orchestrator（编排） | +laowantong（生产下游）+hongqigong（多模态）+team-architecture |
+| agent-spec-laowantong-producer（生产） | +huangyaoshi（基建）+hongqigong（多模态）+team-architecture |
+| agent-spec-huangyaoshi-builder（基建） | +laowantong（生产）+hongqigong（多模态）+team-architecture |
+| agent-spec-hongqigong-multimodal（多模态） | +wangyuyan+laowantong+huangyaoshi+ouyangfeng+team-architecture（此前仅链发布域） |
+| agent-spec-ouyangfeng-reviewer（审查，锚） | +wangyuyan+laowantong+huangyaoshi+team-architecture |
+
+### case-wechat 7 张最低入链
+- 每张 + `dk-best-datasource-is-floor`（偶遇采集脉络卡）
+- 主题可推断的 + 主题卡：article（AI Native 团队→team-architecture）/ dy（Skill→tool-skill-packaging-eight-steps）/ tt（代码审查→tool-open-closed-problem-classifier）
+- 3 张 title 空（5291b/6725b/AWyG）只加脉络卡——主题待精做时补（#387 模式）
+
+### 双向回链（只增不改）
+- framework-truman-agent-team-architecture +5 张 spec
+- dk-best-datasource-is-floor +7 张 case-wechat
+
+### 验证
+- **复扫：agent-spec + case-wechat related=0 = 0**（E017）
+- pre-submit 16/16 全过 FAIL 0（kdo index 已重建）
+- frontmatter 插入 yaml 结构感知（E016）；关联按 spec 真实分工（编排↔生产↔基建↔多模态↔审查）
+
+### 待欧阳锋
+- 随下批 spot-check 复终审（抽查"链得对"）
