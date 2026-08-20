@@ -1,12 +1,13 @@
 ---
 id: 390
 assignee: huangyaoshi
-status: queued
+status: pending_review
 title: queue_transition 流转自带 git 收口（P2，老朱 08-20 拍板立项）——消灭"未入 git 窗口"
 priority: P2
 dependency: []
 code_files:
 - 90_control/scripts/queue_transition.py
+updated_at: '2026-08-20T07:29:17.754330+00:00'
 ---
 
 # #390 queue_transition 流转自带 git 收口
@@ -53,3 +54,27 @@ queue_transition.py 流转成功后自动把本次流转触碰的文件 commit �
 1. 代码 + 正反向实测记录（diff 贴执行报告）
 2. 与 #389 的串行/合并实施方案说明
 3. 送欧阳锋终审
+
+---
+
+## 执行报告（2026-08-20 黄药师）
+
+### 与 #389 的串行说明
+#389（REVIEW-PENDING 登记段）已于 08-20 12:46 提审、欧阳锋终审 PASS A 后，本单才 claim 动手——同文件串行实施，分别提审，符合任务单冻结条款。
+
+### 实现（90_control/scripts/queue_transition.py，+88/-4）
+1. `_git_commit_transition(task_id, action, actor)`：流转成功+dashboard 刷新后，自动 `git add -- <触碰文件>` + `git commit -m "chore(queue): #NNN <action> by <actor>" -- <paths>`。触碰集=任务单+production-queue.md+dashboard.html。`commit -- <paths>` 部分提交语义：别人已 staged 的在制品不被裹挟；仓外文件（沙盒）自动跳过；无变更静默返回
+2. 失败语义：git 任何失败不阻断流转——stderr 🚨[GIT-COMMIT-FAILED] 醒目报警 + 追加 `90_control/pending-git-commits.log` 待收口清单（时间/动作/任务/原因四列）
+3. `--no-commit` 逃生门：四动作均支持，默认自动 commit
+4. 与 #363 相对位置：门禁拦截在 action_complete 内、返回 ok=False → main 不触达 commit 钩子（拦截的 complete 不产生 commit）
+
+### 沙盒实测（独立 git 仓夹具，已清理）
+| 验收项 | 结果 |
+|:---|:---|
+| ①正向：claim → git log 出现 `chore(queue): #900 claim by huangyaoshi`，show --stat 仅任务单+队列+dashboard 3 文件 | ✅ |
+| ②反向①：预置无关脏文件 other.md（未 staged）+ staged-other.md（已 staged）→ complete commit 不裹挟，二者原样保留 | ✅ |
+| ③反向②：抽掉 git 身份模拟失败 → review 流转成功（状态 reviewed）+ stderr 🚨 报警 + pending-git-commits.log 有记录 | ✅ |
+| ④#363 拦截场景：code_files 脏 → complete 被拒，HEAD 无 complete commit（仅 claim 那笔正常收口） | ✅ |
+| ⑤测试夹具 | 已清理（/tmp/390sb 删除） |
+
+附带验证：与 #389 机制组合正常——complete 的 commit 内含 REVIEW-PENDING 登记行（同一队列文件原子入档）。
