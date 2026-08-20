@@ -1,10 +1,11 @@
 ---
 id: 393
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 title: 标签体系建设工程第一波（P2，长程任务，老朱 08-20 拍板）：全库标签审计+受控词表设计+一域试点回填——对标半肥猫 100+ 标签
 priority: P2
 dependency: []
+updated_at: '2026-08-20T12:35:59.568588+00:00'
 ---
 
 # #393 标签体系建设工程第一波（长程任务）
