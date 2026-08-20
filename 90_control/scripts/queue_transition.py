@@ -63,6 +63,65 @@ def _refresh_dashboard():
     except Exception:
         pass  # 看板刷新失败不阻塞队列操作
 
+# #389 REVIEW-PENDING 待终审自动登记段（与 INBOX-PENDING 对称；纯日志视图，不动状态机语义）
+REVIEW_BEGIN = "<!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->"
+REVIEW_END = "<!-- REVIEW-PENDING-END -->"
+_WIKI_ROOT = Path(__file__).resolve().parent.parent.parent
+
+
+def _review_board_update(register: dict | None = None, strike: str | None = None,
+                         strike_note: str = "") -> None:
+    """维护 production-queue.md 的 REVIEW-PENDING 段（#389）。
+
+    - register: {"seq","task_id","assignee","task_file"} → 追加登记行（task_id 级幂等；
+      行被手删时下次 complete 会重新登记 = 自纠正）
+    - strike: task_id → 对应行划掉并附终审注记
+    段不存在则创建（插到 INBOX-PENDING 段前，无则追加文件尾）。
+    列表行（非表格行），parse_queue 不会误读。失败不阻断流转，但打印警告让异常可见。
+    """
+    try:
+        if not QUEUE_PATH.exists():
+            return
+        text = QUEUE_PATH.read_text(encoding="utf-8")
+        now = datetime.now().strftime("%m-%d %H:%M")
+
+        items: list[str] = []
+        if REVIEW_BEGIN in text and REVIEW_END in text:
+            block = text.split(REVIEW_BEGIN)[1].split(REVIEW_END)[0]
+            items = [l for l in block.splitlines() if l.startswith("- ")]
+
+        if register:
+            tid = register["task_id"]
+            if not any(tid in l for l in items):
+                items.append(
+                    f"- #{register['seq']} {tid}｜{register['assignee']}｜提审 {now}｜{register['task_file']}"
+                )
+        if strike:
+            for i, line in enumerate(items):
+                if strike in line and not line.startswith("- ~~"):
+                    items[i] = f"- ~~{line[2:]}~~{strike_note}"
+        if not register and not strike:
+            return
+
+        board = [
+            REVIEW_BEGIN, "",
+            "## ⚖️ 待终审（提审任务，queue_transition 自动登记）", "",
+            "> 欧阳锋开工只看这段：有行就审，终审后自动划掉。历史任务不回填（#389，只向前生效）。",
+            "",
+        ] + items + ["", REVIEW_END]
+
+        if REVIEW_BEGIN in text:
+            new_text = text.split(REVIEW_BEGIN)[0] + "\n".join(board) + text.split(REVIEW_END)[1]
+        else:
+            inbox_marker = "<!-- INBOX-PENDING-BEGIN"
+            if inbox_marker in text:
+                new_text = text.replace(inbox_marker, "\n".join(board) + "\n\n" + inbox_marker, 1)
+            else:
+                new_text = text.rstrip() + "\n\n" + "\n".join(board) + "\n"
+        QUEUE_PATH.write_text(new_text, encoding="utf-8")
+    except Exception as e:
+        print(f"⚠️ REVIEW-PENDING 登记失败（不阻断流转）: {e}", file=sys.stderr)
+
 # KDO_TASK_DIR / KDO_BATCH_DIR 环境变量允许测试/多环境指向替代目录
 TASK_DIR = Path(
     os.environ.get("KDO_TASK_DIR")
@@ -378,6 +437,17 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
 
         apply_updates(task_id, "pending_review", task_file, status="pending_review")
 
+    # #389：门禁通过后登记 REVIEW-PENDING 段（被门禁拦截的 complete 到不了这里）
+    try:
+        rel_path = str(task_file.relative_to(_WIKI_ROOT)).replace("\\", "/")
+    except ValueError:
+        rel_path = str(task_file)
+    _review_board_update(register={
+        "seq": task["seq"], "task_id": task_id,
+        "assignee": fm.get("assignee", task.get("assignee", "")),
+        "task_file": rel_path,
+    })
+
     return True, f"✅ {task_id} 已提交为 pending_review，等待欧阳锋终审"
 
 
@@ -429,9 +499,19 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
                 updates["grade"] = grade
             apply_updates(task_id, "reviewed", task_file, **updates)
             grade_note = f"，等级 {grade}" if grade else ""
+            # #389：终审通过 → REVIEW-PENDING 段对应行自动划掉
+            _review_board_update(
+                strike=task_id,
+                strike_note=f" → 已终审 PASS {grade or ''}（{current_utc_date()} 欧阳锋）",
+            )
             return True, f"✅ {task_id} 终审通过，状态更新为 reviewed{grade_note}"
         else:
             apply_updates(task_id, "queued", task_file, status="queued")
+            # #389：终审退回 → 同样划掉登记行（任务回 queued，不再待终审）
+            _review_board_update(
+                strike=task_id,
+                strike_note=f" → 终审退回 queued（{current_utc_date()} 欧阳锋）",
+            )
             return True, f"⚠️ {task_id} 终审不通过，状态退回 queued"
 
 

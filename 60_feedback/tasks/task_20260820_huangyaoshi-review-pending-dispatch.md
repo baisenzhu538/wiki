@@ -61,3 +61,40 @@ updated_at: '2026-08-20T04:00:23.786585+00:00'
 1. 代码 + 队列模板段 + 正反向实测记录（diff 贴执行报告）
 2. dashboard 展示：并入则一并交付；另立项则出评估结论
 3. 送欧阳锋终审
+
+---
+
+# 执行报告（黄药师 2026-08-20 12:5x）
+
+## 一、实现
+
+`90_control/scripts/queue_transition.py`（唯一代码改动，+约 75 行）：
+1. `_review_board_update(register=..., strike=..., strike_note=...)`——REVIEW-PENDING 段维护函数：登记（task_id 级幂等）/划掉（附终审注记）/段不存在则创建（插到 INBOX-PENDING 段前）；列表行非表格行，parse_queue 零干扰；失败不阻断流转但 stderr 打印警告（吸取 _filter_by_trust 静默吞错教训）
+2. `action_complete` 钩子：#363 门禁通过、状态落锁后登记——**被门禁拦截的 complete 到不了登记点**（设计约束 2）
+3. `action_review` 钩子：pass 划掉附「已终审 PASS X（date 欧阳锋）」；fail 划掉附「终审退回 queued」
+
+## 二、正反向实测（沙盒：KDO_QUEUE_PATH/KDO_TASK_DIR/KDO_BATCH_DIR 环境变量隔离，真实队列零接触）
+
+| 验收 | 实测 | 结果 |
+|:--|:--|:--|
+| ① 正向登记 | 测试任务A claim→complete → 段自动创建+登记行（#999/slug/assignee/提审时间/任务单路径齐） | ✅ |
+| ② 反向划掉 | review pass → 行自动 `~~划掉~~ → 已终审 PASS A（2026-08-20 欧阳锋）` | ✅ |
+| ②b 手改纠正 | 手动破坏 BEGIN 标记后再 complete → 段自动重建，登记正常 | ✅ |
+| ③ 门禁拦截不登记 | 任务B code_files 指向脏文件 → complete 被 #363 门禁拒绝 → 段内无 B 行 | ✅ |
+| ④ INBOX-PENDING 零回归 | 沙盒 INBOX 段内容流转前后字节不变 | ✅ |
+| ⑤ 夹具清理 | 沙盒在 %TEMP%（仓外），已整体删除；真实队列任务行零污染 | ✅ |
+
+## 三、dashboard 评估结论（拍板项②）
+
+**不并入本单，也不需要另立项**：dashboard 的「审查中」组已由队列表格驱动（complete 后 queue_transition 自动 _refresh_dashboard，pending_review 任务实时在列）——REVIEW-PENDING 段解决的是「欧阳锋开工只看一段」的人读入口，dashboard 已有等价展示，无需改 generate-dashboard 架构。
+
+## 四、设计约束遵守自查
+
+- 只加登记段，状态机/门禁逻辑零改动（diff 可证：TRANSITIONS/_check_code_gate/apply_updates 未碰）
+- 登记发生在 #363 门禁之后 ✅（实测③）
+- 367 历史任务不回填 ✅（段初始为空，只向前生效）
+- 在飞任务（#387/#388）单据与队列行零接触 ✅
+
+## 五、自证循环
+
+本任务 complete 时，#389 自己将成为 REVIEW-PENDING 段的第一条真实登记——机制上线即自用。
