@@ -1,10 +1,11 @@
 ---
 id: 403
 assignee: huangyaoshi
-status: queued
+status: in_progress
 title: agent 出生模板前置闸两问（P3，黄药师建议书 L2+L6 合并，王语嫣 08-21 采纳）：传话反模式检查+AI 人效第 0 问
 priority: P3
 dependency: []
+updated_at: '2026-08-20T17:54:58.459457+00:00'
 ---
 
 # #403 agent 出生模板前置闸两问
