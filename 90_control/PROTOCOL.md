@@ -257,6 +257,18 @@ attention_required:
 
 ---
 
+## 9.5 长程任务 workspace（#402）
+
+> 长程任务（预计跨 ≥3 会话）配持久项目空间，隔离上下文污染、跨会话接续。
+
+- **结构**：`60_feedback/tasks/<task_id>-workspace/`——`next-pointer.md`（上次停在哪+下一步）+ `in-progress/`（中间产物）+ `excluded/`（已排除方向，附原因）
+- **机制**：任务单 frontmatter 声明 `long_running: true` → claim 时 queue_transition 自动建三件套（#402）；workspace 文件随 #390 流转自动 commit
+- **续作纪律**：换会话续作只读 workspace 即接续，不依赖失忆恢复锚点重建
+- **只向前**：不强制存量任务补建；试点 #393（标签体系）
+- 结构规范详见 `60_feedback/tasks/task_20260820_laowantong-tag-system-wave1-workspace/README.md`
+
+---
+
 ## 10. Changelog
 
 | Date | Version | Change | Author |

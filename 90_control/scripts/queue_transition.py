@@ -162,6 +162,10 @@ def _git_commit_transition(task_id: str, action: str, actor: str) -> None:
         task_file = _find_task_file_dual(task_id)
         if task_file is not None:
             files.append(task_file)
+            # #402：workspace 目录随流转 commit 入档（与 #390 收口兼容）
+            ws = task_file.parent / f"{task_file.stem}-workspace"
+            if ws.exists():
+                files.extend(p for p in ws.rglob("*") if p.is_file())
         rels: list[str] = []
         for f in files:
             try:
@@ -341,6 +345,33 @@ def apply_updates(task_id: str, new_queue_status: str, task_file: Path, **task_u
         raise RuntimeError(f"状态更新失败，已自动回滚：{e}") from e
 
 
+def ensure_task_workspace(task_id: str, task_file: Path) -> str | None:
+    """#402：claim 长程任务（frontmatter `long_running: true`）时检查 workspace。
+
+    不存在则创建最小三件套 `60_feedback/tasks/<task_id>-workspace/`：
+    `in-progress/`（中间产物）、`excluded/`（已排除方向）、`next-pointer.md`（上次停在哪）。
+    非长程任务返回 None。文件随 #390 自动 commit 触碰集入档。
+    """
+    import time
+    fm, _ = parse_frontmatter(task_file)
+    if not (fm and fm.get("long_running")):
+        return None
+    ws = task_file.parent / f"{task_file.stem}-workspace"
+    rel = ws.relative_to(_WIKI_ROOT).as_posix() if ws.is_relative_to(_WIKI_ROOT) else str(ws)
+    if ws.exists():
+        return f"workspace 已存在: {rel}"
+    (ws / "in-progress").mkdir(parents=True)
+    (ws / "excluded").mkdir()
+    (ws / "next-pointer.md").write_text(
+        f"# {task_id} workspace\n\n"
+        f"- 创建: {time.strftime('%Y-%m-%d %H:%M')}（claim 联动自动生成）\n"
+        f"- 上次停在哪: 任务刚被领取\n"
+        f"- 下一步: 读任务单 `{task_file.name}` 执行范围\n",
+        encoding="utf-8",
+    )
+    return f"长程任务 workspace 已创建: {rel}"
+
+
 # 处置类任务 claim 门禁（#375）：任务单含处置关键词时强制内容价值判断节。
 # 背景：08-19 英文壳目录事件——"删除"选项进入执行链差点毁核心资产（PARA 库）。
 # PROTOCOL §7 素材删除禁令是文案，这里落地为 claim 门禁。
@@ -410,6 +441,10 @@ def action_claim(task_id: str, instance: str, force: bool = False) -> tuple[bool
 
         new_status = f"claimed-{instance}"
         apply_updates(task_id, new_status, task_file, assignee=instance, status="in_progress")
+
+    ws_note = ensure_task_workspace(task_id, task_file)
+    if ws_note:
+        gate_msg = f"{gate_msg}\n{ws_note}"
 
     return True, f"✅ {task_id} 已领取为 {new_status}\n{gate_msg}"
 

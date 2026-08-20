@@ -11,6 +11,7 @@ from queue_transition import (
     find_task_file,
     find_task_file_by_frontmatter_id,
     _find_task_file_dual,
+    ensure_task_workspace,
     TASK_DIR,
     BATCH_DIR,
 )
@@ -77,3 +78,49 @@ class TestFindTaskFile(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestEnsureTaskWorkspace(unittest.TestCase):
+    """#402: claim 长程任务自动建 workspace（最小三件套）。"""
+
+    def _task_file(self, tmp, long_running=True):
+        fp = tmp / "task_9999_test-long-running.md"
+        flag = "long_running: true\n" if long_running else ""
+        fp.write_text(f"---\nid: 9999\nstatus: queued\n{flag}---\n# t\n", encoding="utf-8")
+        return fp
+
+    def test_long_running_creates_workspace(self):
+        with tempfile.TemporaryDirectory() as d:
+            tmp = Path(d)
+            task_file = self._task_file(tmp)
+            note = ensure_task_workspace("task_9999_test-long-running", task_file)
+            ws = tmp / "task_9999_test-long-running-workspace"
+            self.assertIsNotNone(note)
+            self.assertTrue((ws / "in-progress").is_dir())
+            self.assertTrue((ws / "excluded").is_dir())
+            self.assertTrue((ws / "next-pointer.md").is_file())
+            self.assertIn("workspace 已创建", note)
+
+    def test_non_long_running_skips(self):
+        with tempfile.TemporaryDirectory() as d:
+            tmp = Path(d)
+            task_file = self._task_file(tmp, long_running=False)
+            note = ensure_task_workspace("task_9999_test-long-running", task_file)
+            self.assertIsNone(note)
+            self.assertFalse((tmp / "task_9999_test-long-running-workspace").exists())
+
+    def test_existing_workspace_idempotent(self):
+        with tempfile.TemporaryDirectory() as d:
+            tmp = Path(d)
+            task_file = self._task_file(tmp)
+            ensure_task_workspace("task_9999_test-long-running", task_file)
+            note2 = ensure_task_workspace("task_9999_test-long-running", task_file)
+            self.assertIn("已存在", note2)
+            # 不覆盖已有指针
+            (tmp / "task_9999_test-long-running-workspace" / "next-pointer.md").write_text(
+                "# 已有人写的内容\n", encoding="utf-8")
+            ensure_task_workspace("task_9999_test-long-running", task_file)
+            self.assertEqual(
+                (tmp / "task_9999_test-long-running-workspace" / "next-pointer.md").read_text(encoding="utf-8"),
+                "# 已有人写的内容\n",
+            )
