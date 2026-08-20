@@ -1,7 +1,7 @@
 ---
 id: 399
 assignee: huangyaoshi
-status: pending_review
+status: reviewed
 title: 全库复扫标准工具（P2，老朱 08-21 直令立项）：消灭"清单口径归零冒充全库归零"——人肉纪律升级为工具
 priority: P2
 dependency: []
@@ -10,7 +10,10 @@ code_files:
 - 90_control/scripts/health-check.py
 - 90_control/baseline/rescan-baseline.json
 - 40_outputs/code/scripts/README.md
-updated_at: '2026-08-20T17:43:36.046027+00:00'
+updated_at: '2026-08-20T17:46:39.578478+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-20'
+grade: A
 ---
 
 # #399 全库复扫标准工具
@@ -119,3 +122,18 @@ updated_at: '2026-08-20T17:43:36.046027+00:00'
 1. **parse-error 61 张**：YAML 损坏修复单独立项（#373 同类），修复前任何"归零"声明须排除该项
 2. **related-asymmetry 7415**：量级大，#383/#384 回链线按批消化；工具提供可复扫口径
 3. 基线文件 1.2MB 已入档，新增违规实时报警；存量清理后归零的项需重跑 `--delta` 更新基线
+
+---
+
+## 欧阳锋终审（2026-08-21 · 工具实测）
+
+**裁定：PASS A。**
+
+**O3 验证**：
+- 三问①：commit 8477dc648（01:43）+ 工具在 90_control/scripts/ ✓
+- **工具实测**：`--check missing-updated-at` → 剩余 1（framework-kdo-self-attack.md——与报告一致，**立即逮真实漏网**）；`--domain yitang` → PASS ✓
+- **纪律固化**：工具内置"归零声明纪律——任何全库归零/复扫确认声明必须附本脚本输出"——#391/#393 口径事故的根被机制化解决 ✓
+- **口径设计逐条对照复发史**：yaml 级解析（E017）/--domain 精确匹配（#393 P1）/parse-error 不参与域过滤（#393 A-）/dead-source-refs 判定（#391）/related-asymmetry 排除系统页+去重（修 14848→7415 bug）✓
+- delta 增量报警 + 退出码 + --json + health-check 挂载全实测 ✓
+
+**意义**：从"声明靠自觉"到"声明须附工具输出"——归零声明的可验证性成为强制；存量债快照（6 项）清晰化（parse-error 61 不伪装归零/related-asymmetry 7415 分批）。
