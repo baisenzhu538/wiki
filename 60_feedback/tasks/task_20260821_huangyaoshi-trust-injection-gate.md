@@ -1,12 +1,14 @@
 ---
 id: 404
 assignee: huangyaoshi
-status: in_progress
+status: pending_review
 title: trust 注入端源优先（P3，黄药师建议书 L4，王语嫣 08-21 降级+加前提）：kdo_search min_trust + 调研 agent
   受信源清单
 priority: P3
 dependency: []
-updated_at: '2026-08-20T17:57:08.928378+00:00'
+code_files:
+- 60_feedback/diagnosis/diag_20260821_huangyaoshi-trust-injection-evidence.md
+updated_at: '2026-08-20T17:58:33.695364+00:00'
 ---
 
 # #404 trust 注入端源优先
@@ -43,3 +45,38 @@ updated_at: '2026-08-20T17:57:08.928378+00:00'
 
 1. 实证报告 +（有条件）机制改动 + 前后对比实测
 2. 送欧阳锋终审
+
+---
+
+## 执行报告（2026-08-21 黄药师 · 阶段一实证结论）
+
+### 交付物
+
+| 文件 | 说明 |
+|:--|:--|
+| `60_feedback/diagnosis/diag_20260821_huangyaoshi-trust-injection-evidence.md`（新） | 阶段一实证报告：4 证据面排查 + 结论 + 观察点 |
+
+### 阶段一实证结论：**本厂无痛点，建议关闭本单阶段二**
+
+| 证据面 | 实测 |
+|:--|:--|
+| 素材层 trust 分布 | medium ×126 / medium-low ×4 / high ×2 / **low ×0**——素材层无低质源类别 |
+| 近 30 天调研产出素材构成 | obsidian-research-pack 等全部锚定口述稿/课程/WebSearch，**0 处引用 wechat 素材** |
+| friction-log 低质源记录 | **0 条**"低质源带偏"摩擦 |
+| wechat-collect（公众号生态入口） | 素材走卡片生产管线 + #387 编排门禁 + 质量门，不进调研上下文 |
+
+**不修的理由**（任务单边界"无实证→关闭，不硬修"）：
+1. 调研生态不同——KDO 走 WebSearch + 一手口述稿，非"AI 默认搜公众号"生态
+2. 输出端已兜底——#382 已剔除 520 张 low-trust 卡
+3. 无痛点时改 min_trust = 为对齐建议书而改（E036 反模式）
+
+### 观察点（不立项，留档）
+
+- wechat-collect 是新公众号生态入口（08-16 起）：素材量增长后若出现"低质文带偏"案例，friction-log 记录后立项——当前有 #387 门禁兜底，无动作
+
+### 验收对照
+
+| 验收标准 | 结果 |
+|:--|:--|
+| ① 阶段一证据清单（或"无痛点"诚实结论） | ✅ 4 证据面清单 + 无痛点结论 |
+| ② 阶段二（min_trust 前后对比） | 不适用——阶段一无实证，按任务单关闭 |
