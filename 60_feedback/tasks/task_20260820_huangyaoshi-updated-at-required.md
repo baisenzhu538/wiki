@@ -1,12 +1,13 @@
 ---
 id: 395
 assignee: huangyaoshi
-status: queued
+status: in_progress
 title: 卡片生产线 frontmatter updated_at 必填收口（P3，#391 终审观察立项）：promote 管线产物 7 张缺 updated_at——模板/门禁双查
 priority: P3
 dependency: []
 code_files:
 - kdo-tools/wechat_promote.py
+updated_at: '2026-08-20T12:59:03.151362+00:00'
 ---
 
 # #395 卡片生产线 updated_at 必填收口

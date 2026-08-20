@@ -410,7 +410,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 393 | `task_20260820_laowantong-tag-system-wave1` | 标签体系建设工程第一波（P2，长程任务，老朱 08-20 拍板）：全库标签审计+受控词表 v1+一域试点回填——对标半肥猫 100+ 标签 | pending_review | laowantong | 审计+词表+试点 | 无 | `60_feedback/tasks/task_20260820_laowantong-tag-system-wave1.md` | yaml 级解析禁正则；词表取值须有≥5 卡真实需求不凑数；词表未定稿禁大规模回填；试点域建议 ai-collaboration；W2+ 波次终审后另立项；欧阳锋终审 |
 
 | 394 | `task_20260820_laowantong-updated-at-supplement` | 缺 updated_at 补充清单 25 张（P3，#391 终审另立项）：5 月 yt-* 22 张+rust-* 3 张——#391 扫描口径漏网 | reviewed | laowantong | 批量修复 | 无 | `60_feedback/tasks/task_20260820_laowantong-updated-at-supplement.md` | 先自己全库重扫不照抄清单；验收用全库口径归零（非清单口径）；批量三问；完成后 commit；欧阳锋随下批复审 |
-| 395 | `task_20260820_huangyaoshi-updated-at-required` | 卡片生产线 updated_at 必填收口（P3，#391 终审观察立项）：promote 管线 7 张新卡缺 updated_at——模板/门禁双查从源头关闭欠账 | queued | huangyaoshi | 机制+实测 | 无 | `60_feedback/tasks/task_20260820_huangyaoshi-updated-at-required.md` | 只改生产线不改存量卡；pre-submit 规则改动须新卡拦截+老卡不误伤双实测；7 张存量清单交 #394 合并；MCP 重启事项入报告不擅自杀进程；欧阳锋终审 |
+| 395 | `task_20260820_huangyaoshi-updated-at-required` | 卡片生产线 updated_at 必填收口（P3，#391 终审观察立项）：promote 管线 7 张新卡缺 updated_at——模板/门禁双查从源头关闭欠账 | claimed-huangyaoshi | huangyaoshi | 机制+实测 | 无 | `60_feedback/tasks/task_20260820_huangyaoshi-updated-at-required.md` | 只改生产线不改存量卡；pre-submit 规则改动须新卡拦截+老卡不误伤双实测；7 张存量清单交 #394 合并；MCP 重启事项入报告不擅自杀进程；欧阳锋终审 |
 
 | 396 | `task_20260820_laowantong-research-pack-cards` | 调研包①②③成卡与补强（P2，王语嫣 08-20 门禁判定）：3 新卡+8 补强——framework 只写实测体系，JSON Canvas 卡缓议待补实测 | reviewed | laowantong | 3 卡+8 补强 | 无 | `60_feedback/tasks/task_20260820_laowantong-research-pack-cards.md` | 门禁判定明细在任务单（过 3 缓 1）；framework 卡禁写无一手源体系；补强只增不改；pre-submit+commit 入档；欧阳锋终审 |
 
@@ -443,5 +443,9 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/AI落地Live86-龙虾员工实践-逐字稿.md｜P2｜36415B｜检测到 08-19 15:32｜待王语嫣编排~~ → 已编排：诊断 diag_20260819_wangyuyan-live86-lobster-employees.md + 入队 #379（2026-08-19 王语嫣）
 - ~~00_inbox/pending-cards/case-wechat-2404c1658025473c.md｜P2｜3223B｜检测到 08-20 02:35｜待王语嫣编排~~ → 已编排：门禁判定入库 + 入队 #387（2026-08-20 王语嫣）
 - 00_inbox/龙虾员工实践/AI落地Live86-龙虾员工实践-逐字稿.md｜P2｜36415B｜检测到 08-20 12:01｜待王语嫣编排
+- 00_inbox/龙虾员工实践/AI经验分享-数字员工搭建-口述.txt｜P0｜50347B｜检测到 08-20 12:51｜待王语嫣编排
+- 00_inbox/龙虾员工实践/AI经验分享-数字员工搭建-笔记.txt｜P2｜0B｜检测到 08-20 12:51｜待王语嫣编排
+- 00_inbox/龙虾员工实践/一堂DOC-20260820204944.png｜P2｜455092B｜检测到 08-20 12:51｜待王语嫣编排
+- 00_inbox/龙虾员工实践/一堂DOC-20260820205043.png｜P2｜209209B｜检测到 08-20 12:51｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
