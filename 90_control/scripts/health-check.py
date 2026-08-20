@@ -73,6 +73,7 @@ def main():
             ("check-runtime-drift", [], "运行时漂移巡检（#364）"),
             ("check-derivatives", [], "派生副本手改检测（#369）"),
             ("check-draft-aging", [], "存量 draft 超龄巡检（#380）"),
+            ("full-library-rescan", ["--delta", str(SCRIPTS_DIR.parent / "baseline" / "rescan-baseline.json")], "全库复扫增量报警（#399）"),
         ])
 
     if args.domain:
@@ -128,6 +129,7 @@ def main():
         "运行时漂移巡检（#364）": "MCP server 进程 vs 源码 commit 时间 + 双索引同步 + 启动指针有效——红灯=生产跑旧代码/索引不同步，先处置再作业。",
         "派生副本手改检测（#369）": "dashboard/vault-status/agent-contexts-summary 与生成基线 hash 比对——红灯=派生物被手改，重新生成而非手改。",
         "存量 draft 超龄巡检（#380）": "30_wiki 内 status=draft 超 24h 未审卡清单——接收方=王语嫣（编排门禁逐张判定退回/留存），只报警不自动改。advisory 恒 PASS，清单才是本体。",
+        "全库复扫增量报警（#399）": "归零声明唯一口径：任何「全库归零」声明必须附 full-library-rescan 输出。delta 模式只报基线之外的新增违规——存量债封存在 baseline/rescan-baseline.json，新增实时报警。",
     }
 
     for r in check_results:

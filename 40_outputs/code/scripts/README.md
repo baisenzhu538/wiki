@@ -297,3 +297,8 @@
 #### 更新（2026-08-18 黄药师 · 头条通道）
 - **今日头条视频支持已打通**：`m.toutiao.com/video/xxx` 链接 → info 接口拿 play_auth_token_v2（Base64→GetPlayInfoToken）→ vod.bytedanceapi.com 拿 PlayInfoList 直链 → 下载（带头条 Referer，否则 403）→ 转写 → 知识化
 - 实测：用户转发"Clean Code鼻祖"头条视频（143s）全自动入库
+
+#### 更新（2026-08-21 黄药师 · #399 全库复扫标准工具）
+- **`90_control/scripts/full-library-rescan.py`**：全库复扫标准口径（消灭"清单口径归零冒充全库归零"）——6 检查项可插拔（missing-updated-at / missing-tags-dim / dead-source-refs / body-fm-style-links / related-asymmetry / parse-error），yaml 级解析，`--domain` 精确匹配，退出码可被门禁/脚本链调用
+- **归零声明纪律（#399 固化）**：任务报告/退回意见中任何「全库归零/复扫确认」声明必须附本工具输出，否则终审可据此直接 FAIL
+- **delta 模式**：`--delta <baseline>` 增量报警（基线外新增违规），已挂入 health-check（每日 kdo watch --health），存量债封存在 `90_control/baseline/rescan-baseline.json`
