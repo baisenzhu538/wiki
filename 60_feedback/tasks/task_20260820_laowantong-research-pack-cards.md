@@ -1,10 +1,11 @@
 ---
 id: 396
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 title: 调研包①②③成卡与补强（P2，王语嫣 08-20 门禁判定）：3 新卡+8 补强——framework 只写实测体系，JSON Canvas 卡缓议
 priority: P2
 dependency: []
+updated_at: '2026-08-20T11:20:38.319017+00:00'
 ---
 
 # #396 调研包①②③成卡与补强
