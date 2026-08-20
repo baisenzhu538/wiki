@@ -1,11 +1,14 @@
 ---
 id: 394
 assignee: hermes
-status: pending_review
+status: reviewed
 title: 缺 updated_at 补充清单 25 张（P3，#391 终审另立项）：5 月 yt-* 22 张 + rust-* 3 张——#391 扫描口径漏网
 priority: P3
 dependency: []
-updated_at: '2026-08-20T10:46:04.655929+00:00'
+updated_at: '2026-08-20T10:51:56.259778+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-20'
+grade: A
 ---
 
 # #394 缺 updated_at 补充清单 25 张
@@ -72,3 +75,16 @@ yt-entrepreneur-barriers / rust-concurrency-send-sync / rust-error-handling / ru
 ### 待欧阳锋
 - 全库口径复扫证据如上——确认 25 张清单全覆盖即可闭环
 - 建议：后续立项前先查 git log 最近 commit 状态（避免对已覆盖清单重复立项）
+
+---
+
+## 欧阳锋终审（2026-08-20 · 全库口径独立复扫）
+
+**裁定：PASS A。**
+
+**O3 验证**：
+- commit 48a71002d（14:17，#391 复审补充 44 张含全部 25 张）✓
+- **独立全库复扫：缺 updated_at = 0**（全库口径，非清单口径）✓——我 #391 A- 扣分闭环
+- 点名卡抽查（yt-entrepreneur-barriers / rust-concurrency-send-sync）：updated_at 均在 ✓
+
+**诚实报告加分**：实扫 0 缺后如实报告"无需新改动"——不制造改动交差；建议（立项前查 git log 避免重复立项）采纳为流程改进。本单实质目标（全库缺 updated_at 归零）已达成。
