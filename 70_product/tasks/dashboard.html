@@ -63,13 +63,13 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-20 03:20</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-20 11:10</p>
 
 <div class="stats">
 <div class="stat queued"><div class="stat-num">1</div><div class="stat-label">待领取 Queued</div></div>
-<div class="stat pending"><div class="stat-num">2</div><div class="stat-label">审查中 Review</div></div>
+<div class="stat pending"><div class="stat-num">1</div><div class="stat-label">审查中 Review</div></div>
 <div class="stat active"><div class="stat-num">0</div><div class="stat-label">进行中 Active</div></div>
-<div class="stat done"><div class="stat-num">358</div><div class="stat-label">已完成 Done</div></div>
+<div class="stat done"><div class="stat-num">365</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">21</div><div class="stat-label">活跃角色</div></div>
 </div>
 
@@ -82,36 +82,25 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-group">
 <div class="group-header pending">审查中 · 等待欧阳锋</div>
 <div class="task-card">
-<div class="task-prio p1">P1</div>
+<div class="task-prio p3">P3</div>
 <div class="task-info">
-<div class="task-id">#381</div>
-<div class="task-title">元技能分层卡（P1，老朱 08-20 对齐"这个很重要"）：楚门"Skill 创业专家"的战略层提炼——先封装"生产 skill 的能力"再量产（单 Skill→元 Partner→Partner 生态三级演化）</div>
-<div class="task-detail">AI 知识库域三刷补挖第一张；八步卡战术层已够不动它，互链；含 KDO 照镜子（五绝=人封装 Agent vs 楚门=Agent 封装 Agent）；欧阳锋终审</div>
+<div class="task-id">#387</div>
+<div class="task-title">微信偶遇"柠檬市场×新品牌信任公式"精做成卡（P3，王语嫣 08-20 门禁判定入库）：信任=（能力+善意+可预测性）×触点一致性，对照逐字稿修 ASR 错字精做</div>
+<div class="task-detail">逐字稿为准草稿仅线索；ASR 错字修正清单已列；建议 framework 型；人名品牌标待核实；欧阳锋终审</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee laowantong">老顽童</span>
-</div>
-</div>
-<div class="task-card">
-<div class="task-prio p2">P2</div>
-<div class="task-info">
-<div class="task-id">#382</div>
-<div class="task-title">delivery.py trust 过滤失效修复（P2，#380 测试挖出的预存在 bug）：缺 import os 致 _filter_by_trust 静默失效——BM25 检索从未执行 trust≥medium 过滤</div>
-<div class="task-detail">⚠️修复改变检索行为（low-trust 卡消失），须前后对比实测供终审评估；生效需重启 MCP server（杀进程前请示老朱，沿用 #361 模式）；欧阳锋终审</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee huangyaoshi">黄药师</span>
 </div>
 </div>
 </div>
 <div class="task-group">
 <div class="group-header queued">待领取</div>
 <div class="task-card">
-<div class="task-prio p1">P1</div>
+<div class="task-prio p3">P3</div>
 <div class="task-info">
-<div class="task-id">#379</div>
-<div class="task-title">Live86 kinda 龙虾员工实践卡片化（P1，老朱 08-19 直令素材）：670 行逐字稿产 10 卡——数字员工全景 case+让 AI 代学/规则封装/数据源下限/传话层负资产/AI 人效/能力错觉 6 dk+防忽悠三招/AI 适配化/白皮书五要素 3 tool</div>
-<div class="task-detail">已解冻（08-20 老朱确认口述稿无补充）；王语嫣已六层比对+九层深挖，诊断文件必读；欧阳锋终审</div>
+<div class="task-id">#388</div>
+<div class="task-title">元数据遗留 warning 清理（P3，#385/#386 终审另立项合并）：builder-illusion tags 缺 audience/scene + source_refs 死路径；2 张 yt-* 卡补 updated_at</div>
+<div class="task-detail">只动 frontmatter；顺手全库扫同类 warning 量小并修量大列单；欧阳锋随下批复审</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee laowantong">老顽童</span>
@@ -406,9 +395,20 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <span class="task-assignee laowantong">老顽童</span>
 </div>
 </div>
+<div class="task-card">
+<div class="task-prio p2">P2</div>
+<div class="task-info">
+<div class="task-id">#382<span class="task-grade g-A">A</span></div>
+<div class="task-title">delivery.py trust 过滤失效修复（P2，#380 测试挖出的预存在 bug）：缺 import os 致 _filter_by_trust 静默失效——BM25 检索从未执行 trust≥medium 过滤</div>
+<div class="task-detail">⚠️修复改变检索行为（low-trust 卡消失），须前后对比实测供终审评估；生效需重启 MCP server（杀进程前请示老朱，沿用 #361 模式）；欧阳锋终审 PASS A（commit 1e13681，语义补正防误杀素材层）</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee huangyaoshi">黄药师</span>
+</div>
+</div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-20 03:20 · git_head: 60ee35bb9 --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-20 03:20</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-20 11:10 · git_head: 46fb568d9 --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-20 11:10</footer>
 </body>
 </html>
