@@ -51,6 +51,9 @@ diagnostic_signals:
 - framework_lens: 产品内核验证——验证结果不被尊重
   follow_up_question: 如果验证结果不支持内核假设，你会调整方向吗？还是像「做而不信」一样继续投入？
 discoverable_by:
+tags:
+- audience:manager
+- scene:planning
 - 产品内核验证
 - 内核验证方法
 - 六策略验证

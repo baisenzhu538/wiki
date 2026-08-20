@@ -31,6 +31,9 @@ discoverable_by:
   - 从零基础?Feature
   - 专家的五层进?
 related:
+tags:
+- audience:executor
+- scene:ai-learning
 - "[[concept-yihang-ai-feature-thinking]]"
 - "[[tool-Truman-Feature特性层训练法]]"
 - "[[concept-yihang-dual-triangle-core]]"

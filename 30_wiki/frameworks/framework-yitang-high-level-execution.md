@@ -24,7 +24,9 @@ discoverable_by:
 - 高水平执行AR
 - 获取情报正确归因
 - 高水平执行方法
-tags: null
+tags:
+- audience:manager
+- scene:planning
 ---
 # 高水平执行 AR：获取情报·正确归因
 

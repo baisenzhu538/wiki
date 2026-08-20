@@ -24,7 +24,9 @@ discoverable_by:
 - 专家访谈十步法
 - 盲区梳理到专家匹配
 - 专家访谈方法
-tags: null
+tags:
+- audience:manager
+- scene:planning
 ---
 # 专家访谈黄金十步法：从盲区梳理到专家匹配
 

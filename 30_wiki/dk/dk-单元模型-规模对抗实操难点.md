@@ -29,6 +29,9 @@ quality_labels:
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
+tags:
+- audience:executor
+- scene:diagnosis
 ---
 # 规模对抗实操难点
 

@@ -19,6 +19,9 @@ related:
 created_at: 2026-08-09
 updated_at: 2026-08-09
 domain:
+tags:
+- audience:agent
+- scene:diagnosis
 - human
 - management
 - yitang

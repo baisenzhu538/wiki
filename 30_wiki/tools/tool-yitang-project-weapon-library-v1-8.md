@@ -35,6 +35,9 @@ discoverable_by:
 related: null
 created_at: 2026-07-08
 updated_at: 2026-07-08
+tags:
+- audience:executor
+- scene:execution
 ---
 # 项目管理武器库V1.8入口索引卡
 

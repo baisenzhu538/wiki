@@ -27,6 +27,9 @@ confidence: 0.6
 trust_level: low
 title: truman ai partner design analysis
 updated_at: '2026-06-29'
+tags:
+- audience:general
+- scene:diagnosis
 ---
 ## 摘要
 

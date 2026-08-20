@@ -20,6 +20,9 @@ source_refs:
 discoverable_by:
   - 调研中行为证据重于口头证据
 related:
+tags:
+- audience:executor
+- scene:diagnosis
   - "[[tool-yitang-user-interview-5steps]]"
   - "[[yt-research-user-jtbd]]"
   - "[[framework-demand-iceberg]]"

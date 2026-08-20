@@ -29,6 +29,8 @@ discoverable_by:
   - "单元模型外部对抗"
 created_at: '2026-06-30'
 tags:
+- audience:manager
+- scene:planning
 ---
 # 外部对抗地图
 

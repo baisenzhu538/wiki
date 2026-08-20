@@ -44,6 +44,9 @@ pipeline:
 author: 老顽童
 confidence: 0.85
 trust_level: medium
+tags:
+- audience:general
+- scene:reference
 ---
 
 # 产品内核验证：三维度评估 + 六策略验证

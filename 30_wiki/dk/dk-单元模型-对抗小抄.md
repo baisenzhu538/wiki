@@ -34,6 +34,9 @@ quality_labels:
 - validated
 updated_at: 2026-06-28
 created_at: '2026-06-30'
+tags:
+- audience:executor
+- scene:diagnosis
 ---
 # 单元模型对抗小抄
 

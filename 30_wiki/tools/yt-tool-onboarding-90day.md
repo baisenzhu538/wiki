@@ -25,6 +25,8 @@ related:
 contradicts: null
 query_triggers:
 tags:
+- audience:executor
+- scene:execution
 trust_level: medium
 yitang:
 map: management

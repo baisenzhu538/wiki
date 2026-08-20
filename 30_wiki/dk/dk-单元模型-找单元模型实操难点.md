@@ -29,6 +29,9 @@ quality_labels:
 - validated
 updated_at: '2026-06-29'
 created_at: '2026-06-30'
+tags:
+- audience:executor
+- scene:diagnosis
 ---
 # 找单元模型实操难点
 

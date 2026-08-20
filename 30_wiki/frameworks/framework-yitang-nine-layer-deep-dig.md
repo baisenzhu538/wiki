@@ -37,7 +37,9 @@ discoverable_by:
 - 自我纠错迭代分析
 - 商业分析深挖
 - L1-L9深挖框架
-tags: null
+tags:
+- audience:manager
+- scene:diagnosis
 ---
 # 九层深挖法：商业分析的自我纠错式迭代框架
 

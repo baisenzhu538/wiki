@@ -37,6 +37,9 @@ related:
   - "[[yt-product-kernel-failure-modes]]"
   - "[[yt-product-kernel-premature-optimization]]"
 diagnostic_signals:
+tags:
+- audience:executor
+- scene:diagnosis
 - signal: 成本敏感默认不——想加"高成本低信息"项
   framework_lens: 这个价值项的成本高吗？对转化率的影响你确定吗？
   follow_up_question: 如果加上去之后收入几乎不动、服务成本直接乘2-3倍，你还加吗？

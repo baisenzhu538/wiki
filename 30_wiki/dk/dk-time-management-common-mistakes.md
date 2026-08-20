@@ -32,6 +32,9 @@ discoverable_by:
 - 时间管理三大反模式
 - 工具迷信、二极管思维、边界模糊
 related:
+tags:
+- audience:executor
+- scene:diagnosis
 - '[[framework-yitang-five-step-to-time-management]]'
 - '[[tool-personal-time-audit-loop]]'
 - '[[master-cognitive-bias-checklist]]'

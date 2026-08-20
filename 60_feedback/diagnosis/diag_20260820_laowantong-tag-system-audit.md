@@ -123,6 +123,17 @@ source: 全库 yaml 级解析（2807 卡）
 | coaching | coaching | 2 |
 | content-production | 内容生产/文案/讲香类 | 3+ |
 
+### 词表 <5 取值处置说明（#393 退回 P2 逐条）
+| 取值 | 实测频次 | 处置 | 理由 |
+|:--|:--|:--|:--|
+| scene:coaching | 2 | **保留** | 教练式沟通是新域（leader 域刚立项），预期高频；词表留位引导新卡归并，W2 复查 |
+| scene:leadership | 3 | **保留** | 同上（领导力域密集产出中），预期高频 |
+| scene:design | 2 | **保留** | 做图/设计域（楚门 AI 做图系列）预期高频 |
+| scene:content-production | 3 | **保留** | 内容生产域（讲香/文案系列）预期高频 |
+| scene:entrepreneurship | 2 | **删除候选→保留观察** | 创业卡散在 yitang/strategy 域，W2 复查后定去留 |
+| audience:knowledge-engineer | 4 | **保留** | KDO 知识工程师角色卡（预期随 KDO 建设增长） |
+| audience:learner / investor | 低频 | **保留观察** | 词表占位防分裂，W2 复查 |
+
 ### skill-level（3 个，已干净）
 beginner / intermediate / advanced
 
@@ -163,6 +174,11 @@ beginner / intermediate / advanced
 - pre-submit 95/95 全过 FAIL 0（kdo index 已重建）
 - 留空清单：0（全部可推断，O0 合规）
 - 推断规则：case→manager/execution、framework→manager/planning、tool→executor/execution、concept→general/reference、dk→executor/diagnosis、bridge→manager/reference；标题含诊断/测评→diagnosis、复盘/案例/实践→execution
+
+### 退回 P1 修复（#393 复审，精确口径）
+- **口径教训**：首次复扫只取 `domain[0]`（多 domain 卡如 [ai-collaboration, yitang] 被漏）——"回填后缺 0"是 100 张清单范围，非全库口径（#391 同款教训复发）
+- **精确口径重扫**（domain 列表含 yitang）实为 **47 张缺**（欧阳锋列 12 为部分清单）——按词表规则补齐 47 张（含 concept-yihang-ai-feature-thinking / concept-一堂-kernel-iteration / yt-product-kernel-* / agent-spec-* 等全部老卡）
+- **精确口径复扫：yitang 域缺维度 = 0** ✅
 
 ---
 

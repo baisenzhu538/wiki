@@ -29,6 +29,9 @@ quality_labels:
 - validated
 updated_at: '2026-06-30'
 created_at: '2026-06-30'
+tags:
+- audience:executor
+- scene:diagnosis
 ---
 # 找基准值实操难点
 

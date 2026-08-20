@@ -31,7 +31,9 @@ discoverable_by:
 - 科学获客渠道
 - 渠道探索方法
 review_date: '2026-06-28'
-tags: null
+tags:
+- audience:manager
+- scene:planning
 ---
 # 渠道探索四步法：科学找到可持续获客渠道
 

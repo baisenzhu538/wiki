@@ -24,6 +24,8 @@ aliases:
   - 技能：内核要素三问验证法
 source_refs:
 tags:
+- audience:executor
+- scene:execution
 ---
 # 技能：内核要素三问验证法
 

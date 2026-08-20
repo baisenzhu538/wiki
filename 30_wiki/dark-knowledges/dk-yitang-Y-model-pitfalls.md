@@ -23,7 +23,9 @@ source_refs: null
 domain: yitang
 discoverable_by:
 - Y模型常见六大陷阱与反打
-tags: null
+tags:
+- audience:executor
+- scene:diagnosis
 confidence: 0.85
 trust_level: high
 reviewed_by: 欧阳锋

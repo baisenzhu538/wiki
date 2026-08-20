@@ -23,7 +23,9 @@ discoverable_by:
 - 迭代递归深挖
 - 认知穿透
 - 从表层到内核
-tags: null
+tags:
+- audience:manager
+- scene:diagnosis
 ---
 # 迭代递归深挖法：从表层到内核的认知穿透
 

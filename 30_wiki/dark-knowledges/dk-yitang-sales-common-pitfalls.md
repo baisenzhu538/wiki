@@ -40,7 +40,9 @@ discoverable_by:
 - 一堂科学销售常见陷阱：六大反模式与修复动作
 - 一堂科学销售常见陷阱
 - 六大反模式与修复动作
-tags: null
+tags:
+- audience:executor
+- scene:diagnosis
 trust_level: high
 reviewed_by: 欧阳锋
 related: null

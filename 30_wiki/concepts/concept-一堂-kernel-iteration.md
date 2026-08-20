@@ -42,6 +42,9 @@ pipeline:
 author: 老顽童
 confidence: 0.7
 trust_level: medium
+tags:
+- audience:general
+- scene:diagnosis
 ---
 
 > **产品内核迭代的本质：产品内核不是一次性定死的，而是需要随需求变化、竞争加剧、规模扩张持续动态调整的生存机制。**

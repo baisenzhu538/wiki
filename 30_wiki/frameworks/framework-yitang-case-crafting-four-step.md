@@ -33,7 +33,9 @@ discoverable_by:
 - 事实复盘选定魂儿
 - 案例写作方法
 - 案例打磨流程
-tags: null
+tags:
+- audience:manager
+- scene:execution
 ---
 # 案例打磨四步法：事实复盘→选定魂儿→挖专业度→打磨表达
 

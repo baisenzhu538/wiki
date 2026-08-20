@@ -32,7 +32,9 @@ discoverable_by:
 - 获客渠道核算
 - 渠道ROI计算
 review_date: '2026-06-28'
-tags: null
+tags:
+- audience:manager
+- scene:planning
 ---
 # 渠道单元经济模型：把每个获客渠道当作独立经济单元核算
 

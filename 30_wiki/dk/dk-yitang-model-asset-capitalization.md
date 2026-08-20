@@ -23,6 +23,9 @@ source_refs:
 discoverable_by:
   - 组织级模型资产的盘点、定价与迭代
 related:
+tags:
+- audience:executor
+- scene:diagnosis
   - "[[case-yitang-weekly-modeling-engine]]"
   - "[[case-yitang-model-valuation-flywheel]]"
   - "[[case-yitang-model-asset-inventory]]"

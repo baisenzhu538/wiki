@@ -29,7 +29,9 @@ discoverable_by:
 - 逆向数据分析
 - 从公开数据反推商业真相
 related: null
-tags: null
+tags:
+- audience:executor
+- scene:execution
 ---
 # 逆向数据分析：从公开数据反推商业真相
 

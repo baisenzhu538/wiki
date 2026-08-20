@@ -35,7 +35,9 @@ discoverable_by:
 - 卖地图模式
 - 区域包干决策
 - 小众品类渠道
-tags: null
+tags:
+- audience:manager
+- scene:planning
 ---
 # 小众品类渠道合伙人/区域包干决策框架（「卖地图」模式）
 

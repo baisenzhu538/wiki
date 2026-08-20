@@ -24,6 +24,8 @@ aliases:
   - 技能：光谱模型定位法
 source_refs:
 tags:
+- audience:executor
+- scene:execution
 ---
 # 技能：光谱模型定位法
 

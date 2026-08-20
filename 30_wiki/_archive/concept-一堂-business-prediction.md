@@ -29,6 +29,9 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
+tags:
+- audience:general
+- scene:reference
 ---
 # 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
 

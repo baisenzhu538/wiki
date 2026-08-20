@@ -6,7 +6,9 @@ domain: yitang
 discoverable_by:
 - Key Assumptions Check隐藏假设检验
 - Check隐藏假设检验
-tags: null
+tags:
+- audience:executor
+- scene:execution
 source_person: Richars J. Heuer Jr. + Truman（一堂）
 source_context: SATs 诊断类技术工具化实现
 aliases:

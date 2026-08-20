@@ -32,7 +32,9 @@ discoverable_by:
 - 高不确定工作交付
 - 渠道标准化生产
 review_date: '2026-06-28'
-tags: null
+tags:
+- audience:manager
+- scene:planning
 ---
 # 渠道工业化生产：让高不确定工作持续高质量交付
 

@@ -33,7 +33,9 @@ discoverable_by:
 - 科学成长操作系统
 - 刻意练习方法
 - 1+4成长模型
-tags: null
+tags:
+- audience:manager
+- scene:diagnosis
 ---
 # 刻意练习 1+4 模型：科学成长的操作系统
 

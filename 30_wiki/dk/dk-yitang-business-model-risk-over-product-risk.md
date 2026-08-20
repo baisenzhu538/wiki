@@ -25,6 +25,9 @@ discoverable_by:
   - 商业模式风险高于产品风险
   - 别在模式没跑通前做完美产品
 related:
+tags:
+- audience:executor
+- scene:diagnosis
   - "[[case-lean-electric-scooter-mvp]]"
   - "[[case-lean-premature-expansion]]"
   - "[[case-smart-medicine-cabinet-business-model-validation]]"

@@ -37,6 +37,9 @@ related:
   - "[[yt-product-kernel-do-without-belief]]"
   - "[[yt-product-kernel-cost-sensitive-default-no]]"
 diagnostic_signals:
+tags:
+- audience:executor
+- scene:diagnosis
 - signal: 过度承诺——产品内核无法兑现销售承诺
   framework_lens: 你的前端（销售/市场）和后端（产品/交付）对内核的理解一致吗？
   follow_up_question: 销售承诺的"卖点"是产品团队真实能做出来的，还是为了转化率临时加的？

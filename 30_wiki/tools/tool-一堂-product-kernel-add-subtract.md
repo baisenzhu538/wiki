@@ -25,6 +25,9 @@ aliases:
   - 技能
   - 产品内核加减法
 source_refs:
+tags:
+- audience:executor
+- scene:execution
 - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L2378-L2416
 - 00_inbox/一堂-产品内核实操课-Truman-口述.txt L190-L194
 ---

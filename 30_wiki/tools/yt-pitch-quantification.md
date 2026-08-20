@@ -25,7 +25,9 @@ discoverable_by:
 - 数字化
 related: null
 query_triggers: null
-tags: null
+tags:
+- audience:executor
+- scene:execution
 created_at: 2026-05-13
 updated_at: '2026-06-16'
 estimated_tokens: 2500
