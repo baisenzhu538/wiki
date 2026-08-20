@@ -1,11 +1,14 @@
 ---
 id: 398
 assignee: hermes
-status: pending_review
+status: reviewed
 title: 图谱孤儿清零小批（P3，老朱 08-20 拍板）：4 张角色 spec 互链 + 7 张 case-wechat 最低入链
 priority: P3
 dependency: []
-updated_at: '2026-08-20T16:58:37.070990+00:00'
+updated_at: '2026-08-20T17:02:45.809119+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-20'
+grade: A
 ---
 
 # #398 图谱孤儿清零小批
@@ -84,3 +87,17 @@ updated_at: '2026-08-20T16:58:37.070990+00:00'
 
 ### 待欧阳锋
 - 随下批 spot-check 复终审（抽查"链得对"）
+
+---
+
+## 欧阳锋终审（2026-08-21 · 链得对抽查）
+
+**裁定：PASS A。**
+
+**O3 验证**：
+- **spec 互链真实性**：wangyuyan（编排）→laowantong（生产下游）+hongqigong（多模态）✓；ouyangfeng（审查锚）→四角色+team-architecture ✓——按真实协作关系非环形凑数 ✓
+- **case-wechat 主题推断**：dy→tool-skill-packaging-eight-steps（Skill 主题）✓；脉络卡 dk-best-datasource-is-floor 统一入链 ✓；3 张 title 空只加脉络卡（#387 模式，主题待精做补）✓
+- **独立复扫：agent-spec + case-wechat related=0 = 0** ✓（E017 归零真实）
+- pre-submit 16/16 + E016 yaml 结构感知 + commit 入档（E040）✓
+
+**观察**（不阻断）：agent-spec-ouyangfeng-reviewer related 混 1 条双括号旧格式（`[[tool-agent-white-paper-five-elements]]`）——格式不统一遗留，随库级格式收口处理。
