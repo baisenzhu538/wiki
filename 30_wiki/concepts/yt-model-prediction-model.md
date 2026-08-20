@@ -24,7 +24,7 @@ aliases:
 - 预判模型
 - 预判模型：从最糙版到复杂版的三种预判范式
 source_refs:
-- pending_archive:src_20260522_e71d89ff-ocr-预判模型
+  - src_unknown
 discoverable_by:
 - 预判模型：从最糙版到复杂版的三种预判范式
 - 预判模型

@@ -15,8 +15,8 @@ aliases:
   - 内核与审美
   - 用到美好
 source_refs:
-- pending_archive:src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
-- pending_archive:src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述.md
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 老顽童

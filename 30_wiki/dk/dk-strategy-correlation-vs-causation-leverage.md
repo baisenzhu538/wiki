@@ -2,6 +2,7 @@
 
 
 id: dk-strategy-correlation-vs-causation-leverage
+updated_at: '2026-08-20'
 title: 相关指标 vs 因果抓手
 type: dk
 status: reviewed

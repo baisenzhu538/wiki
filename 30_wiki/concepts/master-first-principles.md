@@ -11,9 +11,9 @@ aliases:
   - 性原理
   - 第一性原理
 source_refs:
-- pending_archive:src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md
-- pending_archive:src_20260614_239c9f4e-一堂-知识萃取探索营.md
-- pending_archive:src_20260522_0af1f6dd-learning-thinking.md
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-05-18
 updated_at: '2026-06-28'
 author: 老顽童

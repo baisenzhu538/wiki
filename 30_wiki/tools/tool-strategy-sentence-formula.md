@@ -18,7 +18,7 @@ aliases:
   - 造句公式
   - 采取连贯活动
 source_refs:
-- pending_archive:src_unknown
+  - src_unknown
 reviewed_by: pending
 updated_at: '2026-06-30T16:07:51+00:00'
 discoverable_by:

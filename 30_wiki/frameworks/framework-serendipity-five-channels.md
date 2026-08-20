@@ -2,9 +2,9 @@
 id: framework-serendipity-five-channels
 title: 偶遇自动采集五通道：让偶遇成为资产
 type: framework
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 language: zh-CN
@@ -41,7 +41,9 @@ related:
 - '[[framework-patrolkit-radar]]'
 - '[[dk-research-important-things-must-do]]'
 - '[[dk-research-ai-no-time-concept]]'
+- '[[dk-best-datasource-is-floor]]'
 - '[[case-cross-xingangwan-pharma]]'
+review_date: 2026-08-16
 ---
 
 # 偶遇自动采集五通道：让偶遇成为资产

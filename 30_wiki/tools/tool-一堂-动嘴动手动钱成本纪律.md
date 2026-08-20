@@ -3,9 +3,9 @@
 id: tool-一堂-动嘴动手动钱成本纪律
 title: 一堂动嘴动手动钱成本纪律：按成本由低到高选择阻力消除手段
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.84
 trust_level: high
 language: zh-CN
@@ -55,6 +55,7 @@ tags:
 - skill-level:advanced
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂动嘴动手动钱成本纪律：按成本由低到高选择阻力消除手段

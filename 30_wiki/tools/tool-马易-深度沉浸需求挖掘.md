@@ -3,7 +3,7 @@ id: tool-马易-深度沉浸需求挖掘
 title: 技能：深度沉浸需求挖掘
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

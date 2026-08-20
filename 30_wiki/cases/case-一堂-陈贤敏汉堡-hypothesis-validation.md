@@ -12,10 +12,10 @@ aliases:
   - 案例：陈贤敏中式汉堡先开实验店验证关键假设
   - 陈贤敏中式汉堡先开实验店验证关键假设
 source_refs:
-- pending_archive:src_20260606_22c4a291-一堂-关键假设课-truman-笔记
-- pending_archive:src_20260606_9dd317aa-一堂-关键假设课-truman-口述
-- pending_archive:src_20260606_22c4a291-一堂-关键假设课-truman-笔记
-- pending_archive:src_20260606_9dd317aa-一堂-关键假设课-truman-口述
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-06-08
 updated_at: '2026-06-28'
 discoverable_by:

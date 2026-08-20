@@ -3,7 +3,7 @@ id: tool-马易-隐性知识萃取与模型化
 title: 技能：隐性知识萃取与模型化
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

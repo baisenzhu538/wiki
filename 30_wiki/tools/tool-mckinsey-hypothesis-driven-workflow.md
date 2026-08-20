@@ -9,7 +9,7 @@ aliases:
 - 驱动工作流
 source_refs:
 - src_unknown
-- 'pending_archive: src_unknown'
+- 'src_unknown'
 status: enriched
 domain: src-unknown
 bridges_to:

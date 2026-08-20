@@ -2,9 +2,9 @@
 id: concept-session-vs-memory-vs-document
 title: Session << AI 记忆 << 文档知识库：降 Session 依赖
 type: concept
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: medium
 language: zh-CN
@@ -42,7 +42,10 @@ related:
 - '[[framework-knowledge-compound-rocket-six]]'
 - '[[concept-open-a-document]]'
 - '[[dk-ai-collaboration-degradation-spiral]]'
+- '[[dk-ai-self-evolution-prompt]]'
+- '[[dk-one-sentence-handover]]'
 - '[[dk-ai-judgment-human-responsibility]]'
+review_date: 2026-08-16
 ---
 
 # Session << AI 记忆 << 文档知识库：降 Session 依赖
@@ -76,6 +79,8 @@ Session 是 AI 协作的**最不可靠载体**：碎片化+记忆丢失（L1404-
 2. **对话沉淀成文档**：每次重要对话结束把结论写进文档（"所有对话你再把它沉淀成文档"）
 3. **基于文档协作**：与 AI 协作时先加载文档，不重新口述背景
 4. **盯文档交付物**：不盯 Agent 窗口（金句 12）
+
+> **补强（二刷 2026-08-19，L1594-1616）——全量复盘文档=Session 终态**：Session 的资产化出口不是记忆（不可见/不稳定），而是"全量复盘文档"——"你们把刚才所有 session 里面所有的对话让它全给拽出来，变成一篇文档"（L1600），"全量文档，也是有五万字文档，包含了所有的对话过程"（L1610），"以后这个草稿就可以扔掉"（L1612）。操作：会话结束时让 AI 把整轮对话（说了什么/AI 做了什么/为什么）导出成文档——五万字全量可还原，之后 Session 可弃。这解决了"Session 会满/会滚动"（L1396）的固有缺陷：用文档固化终态。
 
 ## 5. 适用边界
 

@@ -2,9 +2,9 @@
 id: framework-knowledge-five-leaps
 title: 五次知识管理飞跃：2013→2026 编年与 AI 周期变短
 type: framework
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -44,6 +44,7 @@ related:
 - '[[framework-truman-agent-team-architecture]]'
 - '[[concept-open-a-document]]'
 - '[[case-cross-xingangwan-pharma]]'
+review_date: 2026-08-16
 ---
 
 # 五次知识管理飞跃：2013→2026 编年与 AI 周期变短

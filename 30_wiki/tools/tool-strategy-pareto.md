@@ -21,7 +21,7 @@ aliases:
   - 识别库存
   - 识别库存/客户/品类的关键少数
 source_refs:
-- pending_archive:src_unknown
+  - src_unknown
 discoverable_by:
   - 帕雷托图80/20法则：识别库存/客户/品类的关键少数
   - 帕雷托图80/20法则

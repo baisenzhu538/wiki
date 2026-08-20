@@ -3,7 +3,7 @@ id: tool-马易-AI落地前置条件验证
 title: 技能：AI落地前置条件验证
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

@@ -3,7 +3,7 @@
 id: tool-一堂-hypothesis-validation-three-axe
 title: 技能：假设验证三板斧
 type: tool
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: 欧阳锋
 updated_at: 2026-07-09

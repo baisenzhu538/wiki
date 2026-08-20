@@ -24,7 +24,7 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 aliases:
 - 逐字稿
 source_refs:
-- pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
+  - src_unknown
 discoverable_by:
 - 逐字稿
 tags:

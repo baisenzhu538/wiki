@@ -24,7 +24,7 @@ review_date: 2026-06-11
 aliases:
 - 商业预判15字诀
 source_refs:
-- pending_archive:src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
+  - src_unknown
 discoverable_by:
 - 商业预判15字诀
 tags:

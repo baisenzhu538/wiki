@@ -14,7 +14,7 @@ aliases:
 - 智能药柜供应链/技术交叉验证知识卡草稿
 - 药柜供应链
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:general
 - scene:reference

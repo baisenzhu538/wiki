@@ -2,9 +2,9 @@
 id: framework-一堂-12触点SABC分级
 title: 一堂 12 触点 SABC 分级：完整定义 + 12 触点清单 + 约 50 子分类（易浪费清单）
 type: framework
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.87
 trust_level: high
 language: zh-CN
@@ -90,6 +90,7 @@ discoverable_by:
 - 转化触点优化
 - 触点管理
 - 用户旅程优化
+review_date: 2026-08-19
 ---
 
 # 一堂 12 触点 SABC 分级

@@ -19,8 +19,8 @@ aliases:
   - 链突变
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
-- pending_archive: 壳牌《2024 年能源转型战略》公开报告待本地归档
-- pending_archive: 中国石化报/国际石油经济对壳牌能源转型的分析报道待本地归档
+  - src_unknown
+  - src_unknown
 reviewed_by: pending
 updated_at: 2026-06-29
 discoverable_by:

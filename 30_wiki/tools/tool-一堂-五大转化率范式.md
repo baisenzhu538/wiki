@@ -3,9 +3,9 @@
 id: tool-一堂-五大转化率范式
 title: 一堂五大转化率范式：从一句话到发布会的信息容量与复杂度分层
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -50,6 +50,7 @@ tags:
 - skill-level:advanced
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂五大转化率范式：从一句话到发布会的信息容量与复杂度分层

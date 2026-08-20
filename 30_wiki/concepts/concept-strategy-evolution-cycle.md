@@ -18,7 +18,7 @@ aliases:
   - 适者生存
   - 适者生存→绝望之谷→物种爆发→平台期
 source_refs:
-- pending_archive:src_unknown
+  - src_unknown
 reviewed_by: pending
 updated_at: '2026-06-30T16:07:51+00:00'
 discoverable_by:

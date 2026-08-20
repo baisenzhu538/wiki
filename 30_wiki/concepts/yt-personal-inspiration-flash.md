@@ -25,7 +25,7 @@ aliases:
 - 灵感闪现认知篇
 - 闪现认知篇
 source_refs:
-- pending_archive:src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
+  - src_unknown
 discoverable_by:
 - 灵感闪现认知篇
 tags:

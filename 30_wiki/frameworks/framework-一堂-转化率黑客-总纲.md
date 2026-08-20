@@ -2,7 +2,7 @@
 id: framework-一堂-转化率黑客-总纲
 title: 一堂转化率黑客总纲：转化率 = 动力 − 阻力 + 触点（关键假设 ABCD 之 D 域·微观效率）
 type: framework
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: pending
 confidence: 0.85

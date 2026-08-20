@@ -18,7 +18,7 @@ related:
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:manager
 - scene:reference

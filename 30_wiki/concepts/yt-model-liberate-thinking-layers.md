@@ -17,7 +17,7 @@ aliases:
   - 解放思想五层模型已弃用
   - 解放思想五层模型已弃用，待重写升级
 source_refs:
-- pending_archive:src_placeholder
+  - src_unknown
 discoverable_by:
   - 解放思想五层模型已弃用，待重写升级
 related:

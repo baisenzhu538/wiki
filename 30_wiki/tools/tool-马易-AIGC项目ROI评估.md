@@ -2,7 +2,7 @@
 id: tool-马易-AIGC项目ROI评估
 title: 技能：AIGC项目ROI评估
 type: tool
-status: needs-review
+status: draft
 domain:
 - design
 - business-strategy

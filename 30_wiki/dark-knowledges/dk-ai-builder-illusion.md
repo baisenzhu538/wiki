@@ -24,12 +24,17 @@ aliases:
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
-- pending_archive:Andrew Ambrosino（OpenAI Codex 产品负责人），《The New Shape of Software》，Lenny's Newsletter（2026-06-28）
-- pending_archive:Tony Fadell，Lenny's Podcast：《Father of the iPod and iPhone on...》（2026-06-07）
+- src_unknown
+- src_unknown
 discoverable_by:
   - Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到
   - 做出东西
   - 完成从
+tags:
+- audience:executor
+- audience:manager
+- scene:product-planning
+- skill-level:intermediate
 quality_labels:
 - insight
 - actionable
@@ -42,6 +47,7 @@ related:
 - "[[concept-jevons-paradox-in-ai]]"
 - "[[agent-spec-codex-teammate]]"
 - "[[concept-AI时代双三角竞争力]]"
+- '[[dk-ai-capability-illusion]]'
 - builder 幻觉
 - AI  builder 幻觉
 - 做出来不是从 0 到 1
@@ -192,6 +198,17 @@ Builder 幻觉是 AI 时代最常见、最隐蔽的认知陷阱。它值钱在�
 - 它直接针对 AI 降低实现门槛后的新风险。
 - 它把「从 0 到 1」重新定义为「市场验证」而非「产品上线」。
 - 它连接了品味系统、token capital、AI 原生组织等多个关键概念。
+
+---
+
+## Critique
+
+> 结构补齐（2026-08-20，#385）：批判性评估为补写，忠于原卡立意，非原素材内容。
+
+- **反驳**：做出来 ≠ 从 0 到 1，那是不是"做出来"就没有价值？——不是。原型/作品是验证的前提，没有"做出来"就没有后续；本卡的洞察是"做出来"是**必要不充分**条件——它检验的是"做出后有没有进入市场验证"（把「上线」重新定义为「找到 1000 个付费用户」），不是否定生产本身。
+- **反驳**："人做判断"会不会让 AI 变成纯执行器、失去协作价值？——不会。人的判断力（品味/验证/停止信号）正是 AI 无法替代的部分；AI 的价值在加速执行，人的价值在确保方向——双三角分工不是 AI 降级，是各归其位。
+- **条件**：此卡前提=用户已做出原型且目标是把产品做出来；纯学习性/探索性的原型制作（「做出来」本身就是目标）不适用本卡——此时 builder 幻觉不是陷阱而是练习。
+- **注意**：停止信号（停止做原型）需要外部反馈支撑——没有真实用户反馈时"停止"也可能过早；本卡 Action Triggers 的"找 5-10 个真实用户聊"是停止的前提，不是停止本身。
 
 ---
 

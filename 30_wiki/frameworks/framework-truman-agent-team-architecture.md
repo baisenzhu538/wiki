@@ -2,9 +2,9 @@
 id: framework-truman-agent-team-architecture
 title: Truman Agent 团队系统架构：缓冲站→Library→三团队→四库
 type: framework
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -40,7 +40,9 @@ related:
 - '[[framework-knowledge-compound-rocket-six]]'
 - '[[agent-spec-zhu-ai-coach]]'
 - '[[dk-ai-builder-illusion]]'
+- '[[tool-agent-white-paper-five-elements]]'
 - case-cross-xingangwan-pharma
+review_date: 2026-08-16
 ---
 
 # Truman Agent 团队系统架构：缓冲站→Library→三团队→四库

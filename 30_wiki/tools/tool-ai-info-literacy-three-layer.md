@@ -14,7 +14,7 @@ aliases:
   - 消化全库后提炼
   - 输出三层防护检查法
 source_refs:
-- pending_archive:source material not yet ingested
+  - src_unknown
 wiki_refs:
 - src_unknown
 - src_unknown

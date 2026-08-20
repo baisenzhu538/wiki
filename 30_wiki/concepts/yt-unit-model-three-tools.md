@@ -22,7 +22,7 @@ aliases:
 - 斧子尺子梯子
 - 模型三工具
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:general
 - scene:reference

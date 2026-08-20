@@ -2,7 +2,7 @@
 id: framework-一堂-触点本质论
 title: 一堂触点本质论：接触机会点 + 资产隐喻 + 火车货物剥离法 + 假设挖掘三特性
 type: framework
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: pending
 confidence: 0.87

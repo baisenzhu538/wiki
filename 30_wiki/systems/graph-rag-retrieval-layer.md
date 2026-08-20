@@ -11,8 +11,8 @@ implementor: 黄药师 (Builder)
 id: graph-rag-retrieval-layer
 type: concept
 source_refs:
-- pending_archive:src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
-- pending_archive:src_20260503_9bfe6913-一堂-调研行动营启动_原文润色
+  - src_unknown
+  - src_unknown
 - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 - src_20260503_9bfe6913-一堂-调研行动营启动_原文润色
 superseded_design: v0.1 keyword-based — 原计划基于 index.json 的纯标准库方案，因黄药师已完成 LightRAG

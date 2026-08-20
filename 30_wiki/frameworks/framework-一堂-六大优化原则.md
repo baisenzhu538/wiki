@@ -2,9 +2,9 @@
 id: framework-一堂-六大优化原则
 title: 一堂六大优化原则：数量 3（触点/密度/号召提升）+ 质量 3（优先/顺序/厚度匹配）
 type: framework
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.86
 trust_level: high
 language: zh-CN
@@ -59,6 +59,7 @@ discoverable_by:
 - 转化率提升方法
 - 匹配逻辑
 - 六大优化原则
+review_date: 2026-08-19
 ---
 
 # 一堂六大优化原则

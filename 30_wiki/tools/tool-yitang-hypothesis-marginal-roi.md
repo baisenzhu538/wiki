@@ -3,9 +3,9 @@
 id: tool-yitang-hypothesis-marginal-roi
 title: 工具：测试三难题 + 边际 ROI 决策框架
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -45,6 +45,7 @@ tags:
 - scene:execution
 - skill-level:intermediate
 - handle
+review_date: 2026-08-19
 ---
 
 # 工具：测试三难题 + 边际 ROI 决策框架

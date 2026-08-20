@@ -2,9 +2,9 @@
 id: framework-dual-center-feishu-obsidian
 title: 双中心原则：飞书给人、Obsidian 给 AI
 type: framework
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 language: zh-CN
@@ -43,7 +43,9 @@ related:
 - '[[framework-multi-agent-collab-chain-six]]'
 - '[[yt-personal-knowledge-management]]'
 - '[[case-cross-xingangwan-pharma]]'
+- '[[dk-project-manager-agent-failure]]'
 - '[[bridge-how-to-know-person-to-business]]'
+review_date: 2026-08-16
 ---
 
 # 双中心原则：飞书给人、Obsidian 给 AI

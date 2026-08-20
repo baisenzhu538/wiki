@@ -3,7 +3,7 @@
 id: tool-一堂-关键假设-ABCD场景分类器
 title: 工具：关键假设 ABCD 场景分类器——把问题分到商业/决策/增长/转化并标成败·效率
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.84
@@ -47,6 +47,7 @@ tags:
 - skill-level:advanced
 - 关键假设
 - 关键假设课
+review_date: 2026-08-19
 ---
 
 # 工具：关键假设 ABCD 场景分类器

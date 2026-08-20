@@ -20,7 +20,7 @@ aliases:
   - 权基础
   - 核心规则
 source_refs:
-  - pending_archive
+  - src_unknown
 created_at: 2026-06-02
 updated_at: 2026-06-02
 ---

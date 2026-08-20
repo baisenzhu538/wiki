@@ -3,7 +3,7 @@
 id: tool-yitang-dual-triangle-agent-handoff-protocol
 title: 子域 Agent 转交协议
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋
@@ -35,6 +35,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:intermediate
+review_date: 2026-08-19
 ---
 
 # 子域 Agent 转交协议

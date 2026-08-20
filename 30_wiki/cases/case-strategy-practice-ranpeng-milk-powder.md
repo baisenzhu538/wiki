@@ -19,7 +19,7 @@ aliases:
   - 冉鹏操盘：一米八八儿童奶粉从零到20亿的细分垄断
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
-- pending_archive: 合生元益生菌/奶粉市场公开报道待本地归档
+  - src_unknown
 reviewed_by: pending
 updated_at: '2026-06-29'
 discoverable_by:

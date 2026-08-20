@@ -17,7 +17,7 @@ aliases:
   - 俱乐部人和
   - 协作
 source_refs:
-- pending_archive:src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构
+  - src_unknown
 - src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构
 created_at: '2026-06-09T14:03:49+00:00'
 updated_at: '2026-06-29'

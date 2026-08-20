@@ -3,9 +3,9 @@
 id: tool-一堂-12大易浪费触点
 title: 一堂12大易浪费触点：SABC四级触点清单与小抄卡牌法
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -53,6 +53,7 @@ tags:
 - skill-level:advanced
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂12大易浪费触点：SABC四级触点清单与小抄卡牌法

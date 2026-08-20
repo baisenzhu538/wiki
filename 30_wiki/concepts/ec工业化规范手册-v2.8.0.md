@@ -15,7 +15,7 @@ aliases:
 - ec工业化规范手册v2.8.0
 - 工业化规范手册
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:general
 - scene:reference

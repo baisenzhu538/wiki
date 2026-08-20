@@ -6,7 +6,7 @@ domain:
 - ai-collaboration
 - yitang
 - ai-saas
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

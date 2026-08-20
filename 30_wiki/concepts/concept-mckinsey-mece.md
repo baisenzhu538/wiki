@@ -13,7 +13,7 @@ aliases:
   - 完全穷尽
   - 相互独立
 source_refs:
-- pending_archive:source material not yet ingested
+  - src_unknown
 discoverable_by:
   - MECE 原则：相互独立、完全穷尽
   - 相互独立、完全穷尽

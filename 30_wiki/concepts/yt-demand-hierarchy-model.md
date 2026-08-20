@@ -16,7 +16,7 @@ aliases:
   - 需求层次模型
   - 需求层次模型：真需求、伪需求与衍生需求
 source_refs:
-- pending_archive:src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
+  - src_unknown
 created_at: '2026-06-19'
 updated_at: '2026-06-20'
 author: 老顽童

@@ -2,7 +2,7 @@
 id: framework-一堂-阻力方法论骨架
 title: 一堂阻力方法论骨架：两大误区 + 消除深度三层（降低/消除/逆转）+ 消除时机三种（被动/主动/伏笔式）
 type: framework
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: pending
 confidence: 0.87

@@ -2,7 +2,7 @@
 id: framework-一堂-关键假设-ABCD模型
 title: 一堂关键假设 ABCD 模型（YitangABCDStrategyModel）：四场景 × 成败/效率定位器
 type: framework
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.85
@@ -65,6 +65,7 @@ discoverable_by:
 - 成败效率定位
 - 关键假设分类
 - 假设驱动决策
+review_date: 2026-08-19
 ---
 
 # 一堂关键假设 ABCD 模型（YitangABCDStrategyModel）

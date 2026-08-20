@@ -3,9 +3,9 @@
 id: tool-一堂-讲香双策略
 title: 一堂讲香双策略：具体化+抽象化与波峰波谷的张力表达
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -53,6 +53,7 @@ tags:
 - skill-level:advanced
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂讲香双策略：具体化+抽象化与波峰波谷的张力表达

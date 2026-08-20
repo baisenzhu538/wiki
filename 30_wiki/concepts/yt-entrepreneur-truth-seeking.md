@@ -17,7 +17,7 @@ aliases:
   - 待重写升级
   - 求是已弃用
 source_refs:
-- pending_archive:src_placeholder
+  - src_unknown
 discoverable_by:
   - 实事求是已弃用，待重写升级
 related:

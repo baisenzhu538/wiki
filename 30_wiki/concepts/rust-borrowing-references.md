@@ -13,7 +13,7 @@ aliases:
   - 借用与引用
   - 移所有权的访问
 source_refs:
-  - pending_archive
+  - src_unknown
 created_at: 2026-06-02
 updated_at: 2026-06-02
 discoverable_by:

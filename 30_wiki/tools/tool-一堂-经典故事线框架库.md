@@ -3,9 +3,9 @@
 id: tool-一堂-经典故事线框架库
 title: 一堂经典故事线框架库：N个为什么/清单体/时间线/BP模板/顾问式销售
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -49,6 +49,7 @@ tags:
 - skill-level:advanced
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂经典故事线框架库：N个为什么/清单体/时间线/BP模板/顾问式销售

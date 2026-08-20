@@ -2,9 +2,9 @@
 id: dk-model-demystification
 title: 模型祛魅：上下文完备度 >> 模型差距
 type: dk
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 language: zh-CN
@@ -37,7 +37,9 @@ related:
 - '[[tool-skill-packaging-eight-steps]]'
 - '[[framework-baozhashidiaochan-five-step]]'
 - '[[dk-ai-judgment-human-responsibility]]'
+- '[[dk-let-ai-learn-for-me]]'
 - '[[case-cross-xingangwan-pharma]]'
+review_date: 2026-08-16
 ---
 # 模型祛魅：上下文完备度 >> 模型差距
 

@@ -2,6 +2,7 @@
 
 
 id: dk-strategy-stage-leverage-mismatch
+updated_at: '2026-08-20'
 title: 战略阶段与杠杆错配
 type: dk
 status: reviewed

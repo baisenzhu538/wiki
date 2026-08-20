@@ -22,7 +22,7 @@ aliases:
   - 角案例
   - 郭帅
 source_refs:
-- pending_archive
+  - src_unknown
 discoverable_by:
   - 双三角案例：郭帅 AI 编辑部——智能体拉微信群协作内容生产
   - 双三角案例

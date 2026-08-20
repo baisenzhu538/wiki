@@ -2,9 +2,9 @@
 id: framework-patrolkit-radar
 title: PatrolKit 知识资产雷达：自动巡查与资产回收系统
 type: framework
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -42,7 +42,10 @@ related:
 - '[[concept-session-vs-memory-vs-document]]'
 - '[[dk-ai-builder-illusion]]'
 - '[[case-cross-xingangwan-pharma]]'
+- '[[dk-doc-explosion-slowdown]]'
+- '[[dk-ai-self-evolution-prompt]]'
 - bridge-how-to-know-person-to-business
+review_date: 2026-08-16
 ---
 
 # PatrolKit 知识资产雷达：自动巡查与资产回收系统
@@ -90,6 +93,8 @@ After：知识复利飞轮（0.18 原型）
 3. **四模块检查**：健康检查/记忆补全/资产回收/技能迁移
 4. **沉淀回知识库**：精华 → 技能进化日志/错误模式库/case 库
 5. **目标**：自动化替代人肉驱动（PatrolKit 0.18 原型）
+
+> **补强（二刷 2026-08-19，L2466-2480）——巡查输入话术示例**：楚门实景指令——"你帮我查询一下我本地几个核心的知识库，看看我的团队最近一个星期都干啥了"（L2466）。产出：教研（Y 模型优化推进）、内容（访谈马拉松选题推荐/作业点评推荐）、产研（音乐站/国帅项目）、个人兴趣（蚂蚁实验）——"AI 去检查别的 AI 的工作"（L2470）。迁移：巡查话术 = ①指明查询范围（本地核心知识库）②指明时间窗口（最近一周）③指明聚合视角（团队都干啥了）。
 
 ## 5. When NOT to Use
 

@@ -3,7 +3,7 @@ id: tool-水水-区分风险与不确定性
 title: 技能：区分风险与不确定性
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04

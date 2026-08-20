@@ -2,7 +2,7 @@
 id: framework-一堂-关键假设-三板斧
 title: 一堂关键假设三板斧（骨架）：加法→减法→验证→迭代的收敛逻辑
 type: framework
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.86

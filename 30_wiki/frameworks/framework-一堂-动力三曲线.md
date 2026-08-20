@@ -2,7 +2,7 @@
 id: framework-一堂-动力三曲线
 title: 一堂动力三曲线：FAB（60 分）/ 名利权情（70 分）/ 影响力法则（85 分）与使用三原则
 type: framework
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: pending
 confidence: 0.87

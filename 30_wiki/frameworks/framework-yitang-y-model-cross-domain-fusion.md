@@ -2,7 +2,7 @@
 id: framework-yitang-y-model-cross-domain-fusion
 title: Y模型跨域融合框架
 type: framework
-status: pending_review
+status: draft
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

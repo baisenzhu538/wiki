@@ -2,7 +2,7 @@
 id: principle-yitang-y-model-dual-posture
 title: Y模型双姿原则：实事求是校准事实端，解放思想突破理论端
 type: principle
-status: pending_review
+status: draft
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

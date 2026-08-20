@@ -22,7 +22,7 @@ aliases:
   - 战略的起点
   - 战略的起点业绩差距内部
 source_refs:
-- pending_archive:src_unknown
+  - src_unknown
 discoverable_by:
   - 差距分析：战略的起点——业绩差距内部+机会差距外部
   - 差距分析

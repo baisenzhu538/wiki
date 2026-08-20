@@ -18,7 +18,11 @@ aliases:
   - 细分市场+竞争优势+资源配置+范围经济
   - 资源配置
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
   - src_unknown - src_unknown
 - src_unknown
 - src_unknown

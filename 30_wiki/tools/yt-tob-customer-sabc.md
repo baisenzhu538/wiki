@@ -10,7 +10,7 @@ aliases:
   - 客户
   - 自定义切分法
 source_refs:
-- pending_archive:source material not yet ingested
+  - src_unknown
 discoverable_by:
   - To B 客户 SABC 自定义切分法
   - 自定义切分法

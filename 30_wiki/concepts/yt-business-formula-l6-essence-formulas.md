@@ -14,9 +14,9 @@ aliases:
   - 跨行业本质公式集锦
   - 魔法参数
 source_refs:
-- pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-- pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-- pending_archive:src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
+  - src_unknown
+  - src_unknown
+  - src_unknown
 - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral

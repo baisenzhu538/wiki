@@ -18,7 +18,7 @@ aliases:
   - 九个常见战略问题：方向/目标/定位/路径/共识/组织/能力/资源/机制
   - 常见战略问题
 source_refs:
-- pending_archive:src_unknown
+  - src_unknown
 updated_at: '2026-06-30T16:07:51+00:00'
 discoverable_by:
   - 九个常见战略问题：方向/目标/定位/路径/共识/组织/能力/

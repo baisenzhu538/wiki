@@ -5,6 +5,7 @@ id: yt-model-questioning-practice-canvas
 title: 提问刻意练习提升画布 (By YITANG)
 confidence: 0.85
 created_at: 2026-05-07
+updated_at: '2026-08-20'
 difficulty: foundational
 language: zh-CN
 query_triggers:
@@ -21,7 +22,7 @@ aliases:
 - 提问刻意练习提升画布
 - 提问刻意练习提升画布ByYITANG
 source_refs:
-- pending_archive:src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
+  - src_unknown
 discoverable_by:
 - 提问刻意练习提升画布 By YITANG
 - 提问刻意练习提升画布
@@ -117,7 +118,7 @@ status: draft
 | 关联工具 | [[yt-personal-deep-review]] | 深度复盘（404）：复盘中的提问应用 |
 | 关联 | [[yt-management-scientific-hiring]] | 科学招聘：面试评估中的提问应用 |
 | 关联工具 | [[yt-entrepreneur-scientific-method]] | Y 模型/科学方法：假设驱动在提问中的体现 |
-  - '[[framework-个人学习方法-科学提问]]'
+  - `framework-个人学习方法-科学提问`：科学提问方法
 
 ### 不要用的场景
 

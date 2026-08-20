@@ -11,9 +11,9 @@ aliases:
   - 反脆弱决策检查清单
   - 弱决策检查清单
 source_refs:
-- pending_archive:src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
-- pending_archive:src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
-- pending_archive:src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-05-18'
 updated_at: '2026-06-28'
 author: 老顽童

@@ -23,7 +23,7 @@ aliases:
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
-- pending_archive:Pete Koomen（YC），《Inside YC's AI Playbook》，ycombinator.com/library/Qh-inside-yc-s-ai-playbook
+  - src_unknown
 discoverable_by:
   - 杰文斯悖论在 AI 时代
   - 杰文斯悖论在

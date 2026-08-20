@@ -2,9 +2,9 @@
 id: framework-knowledge-compound-rocket-six
 title: 知识复利火箭六要素：周期×数量质量×自动化协作化×可掌控
 type: framework
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -41,6 +41,7 @@ related:
 - '[[framework-truman-agent-team-architecture]]'
 - case-4000-titles-ten-strategies
 - '[[bridge-how-to-know-person-to-business]]'
+review_date: 2026-08-16
 ---
 
 # 知识复利火箭六要素：周期×数量质量×自动化协作化×可掌控

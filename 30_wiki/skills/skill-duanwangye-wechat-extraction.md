@@ -1,5 +1,6 @@
 ---
 id: skill-duanwangye-wechat-extraction
+updated_at: '2026-08-20'
 title: 段王爷·微信消息解密与结构化提取
 type: skill
 status: reviewed

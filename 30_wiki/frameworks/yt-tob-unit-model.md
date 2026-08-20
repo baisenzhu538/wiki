@@ -9,7 +9,7 @@ aliases:
   - framework_lens: 业务单元总毛利覆盖所有成本
   - 单元模型选择与跑通
 source_refs:
-- 'pending_archive: src_unknown'
+- 'src_unknown'
 tags:
 - src_unknown
 - src_unknown

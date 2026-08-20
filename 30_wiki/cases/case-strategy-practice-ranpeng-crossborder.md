@@ -19,7 +19,11 @@ aliases:
   - 美区TikTok跨境电商
   - 跨境电商
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
   - src_unknown - src_unknown
 - src_unknown
 - src_unknown

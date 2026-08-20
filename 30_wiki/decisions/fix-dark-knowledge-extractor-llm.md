@@ -2,7 +2,7 @@
 id: fix-dark-knowledge-extractor-llm
 title: 萃取器升级：regex → LLM-based 暗知识提取
 type: improvement-plan
-status: pending_review
+status: draft
 domain: master
 created_at: 2026-05-31
 updated_at: '2026-06-16'

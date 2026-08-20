@@ -24,7 +24,7 @@ aliases:
 - 的个人成长五步法
 - 页纸解释全部人生规划
 source_refs:
-- pending_archive:src_20260522_074c72ae-ocr-truman的个人成长五步法
+  - src_unknown
 discoverable_by:
 - Truman的个人成长五步法：用一页纸解释全部人生规划
 - Truman的个人成长五步法

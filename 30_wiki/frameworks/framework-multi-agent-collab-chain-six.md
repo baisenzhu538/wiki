@@ -2,9 +2,9 @@
 id: framework-multi-agent-collab-chain-six
 title: 多 Agent 协作链六环节：管理读写关系，让上下文一轮轮变厚
 type: framework
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 language: zh-CN
@@ -41,6 +41,14 @@ related:
 - '[[tool-nine-character-mantra-14-strategies]]'
 - '[[dk-research-important-things-must-do]]'
 - '[[bridge-how-to-know-person-to-business]]'
+- '[[case-kinda-digital-employees-fullview]]'
+- '[[dk-let-ai-learn-for-me]]'
+- '[[dk-rule-not-system-capability]]'
+- '[[dk-project-manager-agent-failure]]'
+- '[[dk-ai-efficiency-and-management-radius]]'
+- '[[tool-ai-adapted-workflow-design]]'
+- '[[concept-meta-skill-layering]]'
+review_date: 2026-08-16
 ---
 
 # 多 Agent 协作链六环节：管理读写关系，让上下文一轮轮变厚

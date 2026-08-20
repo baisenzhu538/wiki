@@ -16,10 +16,10 @@ aliases:
   - 抽象建模案例：知识可靠度四阶梯从听着很香到没有反例
   - 知识可靠度四阶梯
 source_refs:
-- pending_archive:src_20260614_a024fb17-Truman-高阶建模-抽象建模-案例-图-02
-- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-- pending_archive:src_20260614_a024fb17-Truman-高阶建模-抽象建模-案例-图-02
-- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 discoverable_by:
   - 抽象建模案例：知识可靠度四阶梯——从听着很香到没有反例
   - 抽象建模案例

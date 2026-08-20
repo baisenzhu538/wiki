@@ -36,7 +36,7 @@ aliases:
 - 飞轮
 - 飞轮建造
 source_refs:
-- 'pending_archive: src_unknown'
+- 'src_unknown'
 source_context: （原始 source 无法追溯，已标记为 src_unknown，待后续补充）# KDO 飞轮 — 建造→使用→反思→实验
 tags:
 - audience:general

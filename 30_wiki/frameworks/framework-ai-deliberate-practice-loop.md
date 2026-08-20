@@ -26,7 +26,14 @@ aliases:
 - 练习闭环
 source_refs: use and views of generative AI tools for STEM education," arXiv:2412.02653,
   2024 automatic feedback," arXiv:2411.07407, 2024
-related: null
+related:
+- '[[framework-yitang-deliberate-practice-1plus4]]'
+- '[[tool-zhu-ai-deliberate-practice-roadmap]]'
+- '[[dk-collection-vs-assets]]'
+- '[[dk-context-patching-recipe]]'
+- '[[dk-ai-self-evolution-prompt]]'
+- '[[dk-decision-value-overrides-roi]]'
+- '[[dk-let-ai-learn-for-me]]'
 discoverable_by:
 - AI刻意练习闭环
 - AI练习伙伴
@@ -149,6 +156,8 @@ AI 不是替你练，而是提供无限量、可调整难度、即时反馈的�
 - 每次难度等级
 - 关键改进点
 - 与最佳实践的距离变化
+
+> **补强（二刷 2026-08-19，L526-532）——"刻意练习笔记"：练技能也记笔记，笔记成熟=能力成熟**：楚门最早练讲课时（100 小时给小 PM 讲 PM 课），"我不会讲课怎么办？我就记篇笔记——我做了啥、学了啥，我就记上去。这些笔记内容成熟，我讲课就成熟了"（L526-532）。操作：练习过程笔记化（每次练习做了什么/学了什么/哪里卡住），笔记积累=成长轨迹资产，反向推动能力（"积累越多这种高价值的笔记，它不是我收集来的笔记，而是我自己思考的、练习的、整理的笔记"，L538）。这是刻意练习循环的"记录"环节强化——记录不只是数字（次数/难度），还要有内容（做了什么/学了什么）。
 
 ## 3. 四类 AI 练习场景
 

@@ -18,7 +18,7 @@ aliases:
   - 自安装的自描述
   - 装的自描述
 source_refs:
-- pending_archive:src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
+  - src_unknown
 - src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 confidence: 0.88
 trust_level: medium

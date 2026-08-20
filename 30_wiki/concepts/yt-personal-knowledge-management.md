@@ -24,7 +24,7 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 aliases:
 - 知识管理
 source_refs:
-- pending_archive:src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
+  - src_unknown
 discoverable_by:
 - 知识管理
 tags:

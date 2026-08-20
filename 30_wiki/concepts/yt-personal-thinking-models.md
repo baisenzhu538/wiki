@@ -5,6 +5,7 @@ id: yt-personal-thinking-models
 title: 思维模型：从碎片经验到稳定模型
 confidence: 0.8
 created_at: 2026-05-11
+updated_at: '2026-08-20'
 difficulty: foundational
 language: zh-CN
 query_triggers:
@@ -25,7 +26,7 @@ aliases:
 - 思维模型：从碎片经验到稳定模型
 - 片经验到稳定模型
 source_refs:
-- pending_archive:src_20260614_1be3d76f-一堂-思维模型案例分享
+  - src_unknown
 discoverable_by:
 - 思维模型：从碎片经验到稳定模型
 - 思维模型
@@ -132,7 +133,7 @@ status: draft
 | 关联框架 | [[yt-model-ipo-learning-strategy]] | IPO学习策略（建模 = Process层的深度加工） |
 | 关联工具 | [[yt-personal-y-model-practice]] | Y模型实操（Y模型是所有模型的元模型） |
 | 实体页 | [[一堂]] | 一堂实体页 |
-  - '[[framework-个人学习方法-思维模型]]'
+  - `framework-个人学习方法-思维模型`：思维模型方法
 
 ### 不要用的场景
 

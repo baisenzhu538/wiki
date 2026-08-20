@@ -12,7 +12,7 @@ aliases:
   - 层策略
   - 错误处理
 source_refs:
-  - pending_archive
+  - src_unknown
 created_at: 2026-06-02
 discoverable_by:
   - Rust 错误处理：Result、? 与分层策略

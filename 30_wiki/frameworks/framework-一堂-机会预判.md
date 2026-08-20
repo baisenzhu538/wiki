@@ -2,7 +2,7 @@
 id: framework-一堂-机会预判
 title: 一堂·机会预判：CEO 的预判操作系统（总框架）
 type: framework
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-09

@@ -2,9 +2,9 @@
 id: dk-tool-adoption-by-force
 title: 工具落地靠硬推不靠倡议："你不用 Obsidian 我没法跟你协作"
 type: dk
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: medium
 language: zh-CN
@@ -38,6 +38,7 @@ related:
 - '[[case-cross-xingangwan-pharma]]'
 - '[[bridge-how-to-know-person-to-business]]'
 - '[[dk-ai-builder-illusion]]'
+review_date: 2026-08-16
 ---
 # 工具落地靠硬推不靠倡议："你不用 Obsidian 我没法跟你协作"
 

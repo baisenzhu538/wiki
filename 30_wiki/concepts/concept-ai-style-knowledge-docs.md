@@ -2,9 +2,9 @@
 id: concept-ai-style-knowledge-docs
 title: AI Style 新型知识文档 10-11 种
 type: concept
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -45,6 +45,7 @@ related:
 - '[[dk-research-ai-no-time-concept]]'
 - '[[bridge-how-to-know-person-to-business]]'
 - case-cross-xingangwan-pharma
+review_date: 2026-08-16
 ---
 
 # AI Style 新型知识文档 10-11 种

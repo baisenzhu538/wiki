@@ -34,8 +34,8 @@ source_refs:
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2848-L2952
 - 00_inbox/Handle the business/Business formula/关键假设-业务公式-参数探索篇-口述.txt L2982-L3034
 - 00_inbox/Handle the business/Business formula/_vlm_output/业务公式十大经典范式_vlm.md
-- pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-- pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+  - src_unknown
+  - src_unknown
 discoverable_by:
   - 一堂业务公式十大经典范式收入/竞争/运营三环完整版
 related:

@@ -19,8 +19,8 @@ aliases:
   - 案例
   - 案例：一堂内部给模型定价从5000元到10万美金的价值飞轮
 source_refs:
-- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_unknown
+  - src_unknown
 wiki_refs: []
 definition_of_done:
 - src_unknown

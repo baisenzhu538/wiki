@@ -2,9 +2,9 @@
 id: tool-autoclassify-seven-steps
 title: 自动分类脚本 7 步：inbox 到目录的自动化流水线
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -43,6 +43,7 @@ related:
 - '[[dk-ai-builder-illusion]]'
 - '[[case-cross-xingangwan-pharma]]'
 - bridge-how-to-know-person-to-business
+review_date: 2026-08-16
 ---
 
 # 自动分类脚本 7 步：inbox 到目录的自动化流水线

@@ -3,7 +3,7 @@
 id: dk-yitang-formula-unmeasurable-metrics
 title: 不可统计指标也要写：公式归公式，数字归数字
 type: dk
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: pending
 confidence: 0.85

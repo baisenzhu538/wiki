@@ -1,6 +1,7 @@
 ---
 
 id: dk-yb19-visual-strategy-price-match
+updated_at: '2026-08-20'
 title: 餐饮图片视觉策略与价格定位的匹配法则
 type: dk
 dark_knowledge_type: insight

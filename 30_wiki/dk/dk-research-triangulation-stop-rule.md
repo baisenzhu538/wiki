@@ -2,6 +2,7 @@
 
 
 id: dk-research-triangulation-stop-rule
+updated_at: '2026-08-20'
 title: 多源交叉验证的停止规则
 type: dk
 status: reviewed

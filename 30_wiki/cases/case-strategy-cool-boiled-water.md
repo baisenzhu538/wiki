@@ -19,7 +19,11 @@ aliases:
   - 细分垄断
   - 考生切入
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
   - src_unknown - src_unknown
 - src_unknown
 - src_unknown

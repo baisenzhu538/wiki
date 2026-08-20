@@ -2,9 +2,9 @@
 id: dk-three-context-formula
 title: 15 秒做图三上下文公式：知道我是谁+检索项目文档+读取设计宪法
 type: dk
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: medium
 language: zh-CN
@@ -38,6 +38,7 @@ related:
 - '[[tool-skill-packaging-eight-steps]]'
 - '[[dk-ai-judgment-human-responsibility]]'
 - '[[case-cross-xingangwan-pharma]]'
+review_date: 2026-08-16
 ---
 # 15 秒做图三上下文公式：知道我是谁+检索项目文档+读取设计宪法
 

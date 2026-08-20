@@ -3,7 +3,7 @@ id: tool-水水-利用叙事驱动决策
 title: 技能：利用叙事驱动决策
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04

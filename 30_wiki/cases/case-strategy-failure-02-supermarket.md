@@ -20,7 +20,11 @@ aliases:
   - 精品超市
   - 精品超市O
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
   - src_unknown - src_unknown
 - src_unknown
 - src_unknown

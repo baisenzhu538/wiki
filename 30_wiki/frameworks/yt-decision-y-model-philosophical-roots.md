@@ -34,7 +34,7 @@ aliases:
 - 的哲学根基
 - 矛盾论
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:ceo
 - scene:diagnosis

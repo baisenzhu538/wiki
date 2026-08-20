@@ -3,7 +3,7 @@ id: tool-水水-保持系统冗余
 title: 技能：保持系统冗余
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: 欧阳锋
 reviewed_at: 2026-07-04

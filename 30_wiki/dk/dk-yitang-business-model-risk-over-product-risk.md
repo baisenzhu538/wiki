@@ -2,6 +2,7 @@
 
 
 id: dk-yitang-business-model-risk-over-product-risk
+updated_at: '2026-08-20'
 title: 商业模式风险高于产品风险：别在模式没跑通前做完美产品
 type: dk
 status: reviewed

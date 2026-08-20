@@ -3,7 +3,7 @@ id: tool-水水-识别模型局限性
 title: 技能：识别模型局限性
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

@@ -3,7 +3,7 @@
 id: tool-yitang-dual-triangle-domain-registry
 title: 双三角域注册与扩展协议
 type: tool
-status: pending_review
+status: draft
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

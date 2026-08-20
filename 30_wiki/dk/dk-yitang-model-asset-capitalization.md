@@ -2,6 +2,7 @@
 
 
 id: dk-yitang-model-asset-capitalization
+updated_at: '2026-08-20'
 title: 组织级模型资产的盘点、定价与迭代
 type: dk
 status: reviewed

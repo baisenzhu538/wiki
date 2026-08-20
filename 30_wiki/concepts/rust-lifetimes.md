@@ -12,7 +12,7 @@ aliases:
   - 有效性的编译期保证
   - 生命周期
 source_refs:
-  - pending_archive
+  - src_unknown
 created_at: 2026-06-02
 updated_at: 2026-06-02
 discoverable_by:

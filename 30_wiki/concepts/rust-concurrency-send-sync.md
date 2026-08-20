@@ -12,7 +12,7 @@ aliases:
   - 的编译期保证
   - 译期保证
 source_refs:
-  - pending_archive
+  - src_unknown
 created_at: 2026-06-02
 discoverable_by:
   - Rust 并发安全：Send 与 Sync 的编译期保证

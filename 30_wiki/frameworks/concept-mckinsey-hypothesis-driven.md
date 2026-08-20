@@ -11,7 +11,7 @@ aliases:
 - 设驱动工作法
 - 设驱动方法论
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 status: enriched
 domain: src-unknown
 bridges_to:

@@ -3,7 +3,7 @@
 id: tool-Y模型STEPS策略集
 title: Y模型STEPS策略集：五步策略框架
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋
@@ -42,6 +42,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+review_date: 2026-08-19
 ---
 
 # Y模型STEPS策略集：五步策略框架

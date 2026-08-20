@@ -17,10 +17,10 @@ aliases:
   - 店五步法
   - 死一生到十年百店的科学创业之路
 source_refs:
-- pending_archive:src_20260508_03a07f45-一堂-案例拆解-串讲口述
-- pending_archive:src_20260510_1aea3d4b-一堂-案例拆解-课程清单
-- pending_archive:src_20260508_03a07f45-一堂-案例拆解-串讲口述
-- pending_archive:src_20260510_1aea3d4b-一堂-案例拆解-课程清单
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-06-11
 updated_at: 2026-06-28
 discoverable_by:

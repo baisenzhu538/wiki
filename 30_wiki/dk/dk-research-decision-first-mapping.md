@@ -2,6 +2,7 @@
 
 
 id: dk-research-decision-first-mapping
+updated_at: '2026-08-20'
 title: 研究活动如何服务决策
 type: dk
 status: reviewed

@@ -23,7 +23,7 @@ aliases:
 - 刻意练习十年成长指数：为什么有人一年顶十年
 - 练习十年成长指数
 source_refs:
-- pending_archive:src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
+  - src_unknown
 discoverable_by:
 - 刻意练习十年成长指数：为什么有人一年顶十年
 - 刻意练习十年成长指数

@@ -18,8 +18,8 @@ aliases:
   - 逻辑洁癖是建模之本
   - 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
 source_refs:
-- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_unknown
+  - src_unknown
 confidence: 0.8
 trust_level: medium
 discoverable_by:

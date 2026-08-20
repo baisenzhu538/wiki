@@ -3,9 +3,9 @@
 id: tool-一堂-ABACC叙事法
 title: 一堂ABACC叙事法：非标品与非高科技讲香的开头捕获框架
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -49,6 +49,7 @@ tags:
 - skill-level:advanced
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂ABACC叙事法：非标品与非高科技讲香的开头捕获框架

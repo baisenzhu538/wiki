@@ -3,7 +3,7 @@
 id: tool-一堂-机会预判-五步法预判
 title: 机会预判·五步法预判：选项池收敛为店型剧本 × 五步矩阵（出口
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-09

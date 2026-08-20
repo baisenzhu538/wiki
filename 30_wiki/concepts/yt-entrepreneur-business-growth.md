@@ -24,7 +24,7 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 aliases:
 - 业务增长
 source_refs:
-- pending_archive:src_20260614_720e62a1-theme-personal-growth-summary
+  - src_unknown
 discoverable_by:
 - 业务增长
 tags:

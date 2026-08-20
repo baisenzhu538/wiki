@@ -21,7 +21,7 @@ aliases:
 - AI创业20个高风险假设清单
 - 个高风险假设清单
 source_refs:
-- pending_archive:src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a
+  - src_unknown
 discoverable_by:
 - AI创业20个高风险假设清单
 tags:

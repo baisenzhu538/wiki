@@ -2,6 +2,7 @@
 
 
 id: dk-yitang-behavior-over-asking
+updated_at: '2026-08-20'
 title: 调研中行为证据重于口头证据
 type: dk
 status: reviewed

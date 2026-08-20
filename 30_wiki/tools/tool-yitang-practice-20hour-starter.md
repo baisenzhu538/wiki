@@ -21,7 +21,7 @@ aliases:
 - 快速达到够用水平
 - 达到够用水平
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:general
 - scene:reference

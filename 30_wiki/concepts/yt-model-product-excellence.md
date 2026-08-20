@@ -26,7 +26,7 @@ aliases:
 - 顶级产品追求
 - 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 source_refs:
-- pending_archive:src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
+  - src_unknown
 discoverable_by:
 - 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 - 顶级产品追求

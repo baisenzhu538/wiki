@@ -20,7 +20,11 @@ aliases:
   - 案例：长尾品类化妆品方向错误。天花板低+营销浪费
   - 长尾品类化妆品
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
   - src_unknown - src_unknown - src_unknown
 - src_unknown
 - src_unknown

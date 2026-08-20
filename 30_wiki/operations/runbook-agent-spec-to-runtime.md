@@ -2,7 +2,7 @@
 id: runbook-agent-spec-to-runtime
 title: Agent Spec → 可运行 Agent 部署路径 Runbook
 type: doc
-status: pending_review
+status: draft
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

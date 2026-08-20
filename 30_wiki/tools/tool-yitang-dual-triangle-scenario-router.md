@@ -3,7 +3,7 @@
 id: tool-yitang-dual-triangle-scenario-router
 title: 双三角场景路由表
 type: tool
-status: pending_review
+status: draft
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋

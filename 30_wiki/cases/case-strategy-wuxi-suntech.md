@@ -19,7 +19,7 @@ aliases:
   - 被外资阴了
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
-- pending_archive: 无锡尚德破产重组相关公开报道（新浪、第一财经、每日经济新闻等）待本地归档
+  - src_unknown
 reviewed_by: pending
 updated_at: 2026-06-29
 discoverable_by:

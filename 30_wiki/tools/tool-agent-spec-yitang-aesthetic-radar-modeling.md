@@ -3,9 +3,9 @@
 id: tool-agent-spec-yitang-aesthetic-radar-modeling
 title: 审美雷达建模 Agent Spec
 type: agent-spec
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.79
 trust_level: medium
 language: zh-CN
@@ -44,6 +44,7 @@ tags:
 - scene:execution
 - skill-level:intermediate
 - prompts
+review_date: 2026-08-19
 ---
 # 审美雷达建模 Agent Spec
 

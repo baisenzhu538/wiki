@@ -12,7 +12,7 @@ aliases:
   - 编程语言
   - 零成本抽象与内存安全的系统编程
 source_refs:
-  - pending_archive
+  - src_unknown
 created_at: 2026-06-02
 updated_at: 2026-06-02
 discoverable_by:

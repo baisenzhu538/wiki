@@ -22,7 +22,7 @@ aliases:
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
-- pending_archive:Satya Nadella，Possible.fm Podcast：《Satya Nadella on Making Human and Token Capital Compound》（2026-06）
+  - src_unknown
 discoverable_by:
   - Token Capital：AI 时代的第三种资本结构
   - 时代的第三种资本结构

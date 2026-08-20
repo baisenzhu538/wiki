@@ -13,7 +13,7 @@ aliases:
 - 系统分阶段整改报告
 - 鑫港湾HIS系统分阶段整改报告
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:general
 - scene:reference

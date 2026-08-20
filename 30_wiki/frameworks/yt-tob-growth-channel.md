@@ -15,7 +15,7 @@ aliases:
 - 渠道
 - 直销
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - src_unknown
 - src_unknown

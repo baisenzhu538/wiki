@@ -16,11 +16,11 @@ aliases:
   - 诊所
   - 诊所+智能药柜协同模式：一线观察与风险提示
 source_refs:
-- pending_archive:src_20260613_7cfd7b89corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape  -
-  pending_archive:src_20260613_59270720corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
-- pending_archive:src_20260613_ccf533f9corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance  -
-  pending_archive:src_20260613_f3aecb2dcorr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
-- pending_archive:src_20260613_9a2b289ecorr_20260613_smart-medicine-cabinet-iteration-8-synthesistags: null
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣

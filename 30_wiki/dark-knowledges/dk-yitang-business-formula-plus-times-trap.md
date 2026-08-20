@@ -18,12 +18,12 @@ aliases:
   - 写错会误导决策
   - 孔阳
 source_refs:
-- pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-- pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-- pending_archive:src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
-- pending_archive:src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-- pending_archive:src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-- pending_archive:src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-06-15
 updated_at: 2026-06-28
 reviewed_by: 欧阳锋

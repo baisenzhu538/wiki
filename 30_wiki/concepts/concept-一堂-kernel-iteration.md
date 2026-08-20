@@ -18,7 +18,7 @@ aliases:
 - 内核迭代
 - 态到动态的五方向演化
 source_refs:
-- pending_archive:src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述
+  - src_unknown
 created_at: 2026-06-09
 updated_at: '2026-07-08'
 discoverable_by:

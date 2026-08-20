@@ -18,7 +18,7 @@ aliases:
   - 隆中对失败四因
   - 隆中对失败四因：资源/联盟/执行/环境诸葛亮都栽了
 source_refs:
-- 'pending_archive:'
+- 'src_unknown'
 discoverable_by:
   - 隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了
   - 隆中对失败四因

@@ -40,7 +40,7 @@ reviewed_by: 欧阳锋
 aliases:
   - 单元模型
 source_refs:
-- pending_archive:source material not yet ingested
+  - src_unknown
 status: reviewed
 title: 单元模型
 trust_level: high

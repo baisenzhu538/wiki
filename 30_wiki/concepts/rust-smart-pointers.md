@@ -12,7 +12,7 @@ aliases:
   - 智能指针
   - 超越引用的所有权管理
 source_refs:
-  - pending_archive
+  - src_unknown
 created_at: 2026-06-02
 updated_at: 2026-06-02
 discoverable_by:

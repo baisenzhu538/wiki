@@ -7,7 +7,7 @@ aliases:
 - 按行业分类整理商业突破大航海
 - 花总AMA按行业分类整理商业突破大航海
 source_refs:
-- 'pending_archive: src_unknown'
+- 'src_unknown'
 status: reviewed
 title: 花总AMA按行业分类整理（商业突破大航海）
 type: concept

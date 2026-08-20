@@ -10,8 +10,8 @@ aliases:
   - 案例：人工骨医疗器械上市失败复盘
   - 骨医疗器械上市失败复盘
 source_refs:
-- pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection
-- pending_archive:src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+  - src_unknown
+  - src_unknown
 discoverable_by:
   - 案例：人工骨医疗器械上市失败复盘
   - 人工骨医疗器械上市失败复盘

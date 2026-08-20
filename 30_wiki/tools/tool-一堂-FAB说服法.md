@@ -3,9 +3,9 @@
 id: tool-一堂-FAB说服法
 title: 一堂 FAB 说服法：事实起点 → 逻辑节点 → 价值终点的以理服人结构
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.87
 trust_level: high
 language: zh-CN
@@ -71,6 +71,7 @@ tags:
 - skill-level:advanced
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂 FAB 说服法：事实起点 → 逻辑节点 → 价值终点

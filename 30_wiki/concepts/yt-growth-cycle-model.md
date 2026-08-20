@@ -14,7 +14,7 @@ aliases:
 - 周期模型
 - 增长周期模型
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 status: enriched
 reviewed_by: 老顽童
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

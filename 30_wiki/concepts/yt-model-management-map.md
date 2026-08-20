@@ -28,7 +28,7 @@ aliases:
 - 管理地图
 - 高潜力管理者修炼全景图
 source_refs:
-- pending_archive:src_20260613_96e45c45-qishijian-business-model
+  - src_unknown
 discoverable_by:
 - 一堂管理地图：高潜力管理者修炼全景图
 - 一堂管理地图

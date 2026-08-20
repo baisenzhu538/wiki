@@ -26,7 +26,7 @@ aliases:
   - 到作品
   - 到效率
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 status: reviewed
 title: AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
 type: framework

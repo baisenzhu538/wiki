@@ -26,7 +26,10 @@ aliases:
 - 质量六问检查表
 - 量检查
 source_refs: null
-related: null
+related:
+- '[[dk-ai-capability-illusion]]'
+- '[[tool-anti-ai-bs-three-moves]]'
+- '[[dk-decision-value-overrides-roi]]'
 discoverable_by:
 - 决策质量检查
 - 决策六问

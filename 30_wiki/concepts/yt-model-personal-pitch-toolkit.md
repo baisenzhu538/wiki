@@ -184,7 +184,7 @@ tags:
 | 关联工具 | [[tool-泛产品落地-低成本测试MVP]] | 十指模型是泛产品落地的表达工具 |
 | 关联框架 | [[yt-model-personal-map]] | 个人地图——讲香张力在迭代层 |
 | 关联工具 | [[yt-composite-pan-product-methodology]] | 泛产品设计的表达维度 |
-  - '[[framework-一堂-个人表达力]]'
+  - `framework-一堂-个人表达力`：个人表达力总框架
 
 ### 不要用的场景
 

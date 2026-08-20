@@ -24,8 +24,8 @@ aliases:
 source_refs:
 - 00_inbox/AI前哨站第2集/AI前哨站第2集-水水拆书.md
 - 00_inbox/AI前哨站第2集/水水-AI前哨-第二期-口述.txt
-- pending_archive:OpenAI，《Codex Best Practices》，developers.openai.com/codex/learn/best-practices
-- pending_archive:Andrew Ambrosino（OpenAI Codex 产品负责人），《The New Shape of Software》，Lenny's Newsletter（2026-06-28）
+  - src_unknown
+  - src_unknown
 discoverable_by:
   - Codex 队友式使用规范
   - 队友式使用规范

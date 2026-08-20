@@ -2,9 +2,9 @@
 id: framework-一堂-业务公式拆解-总纲
 title: 一堂业务公式拆解总纲：关键假设 ABCD 体系的核心骨架与灵魂（贯通定性→定量）
 type: framework
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.86
 trust_level: high
 language: zh-CN
@@ -152,6 +152,7 @@ discoverable_by:
 - 收入公式设计
 - 业务模型计算
 - 定性转定量
+review_date: 2026-08-19
 ---
 
 # 一堂业务公式拆解总纲：关键假设 ABCD 体系的核心骨架与灵魂

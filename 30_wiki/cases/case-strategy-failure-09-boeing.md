@@ -12,9 +12,9 @@ language: zh-CN
 domain: strategy
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
-- pending_archive: 美国众议院运输与基础设施委员会 737 MAX 调查报告待本地归档
-- pending_archive: 印尼 KNKT 狮航空难最终报告待本地归档
-- pending_archive: FAA 737 MAX 复飞安全评估报告待本地归档
+  - src_unknown
+  - src_unknown
+  - src_unknown
 updated_at: 2026-06-29
 discoverable_by:
 - 案例：飞机制造公司——机制背离。激励偏财务致安全事故

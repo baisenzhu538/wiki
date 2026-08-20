@@ -12,7 +12,7 @@ aliases:
   - 树拆解
   - 问题树拆解
 source_refs:
-- pending_archive:source material not yet ingested
+  - src_unknown
 discoverable_by:
   - Issue Tree：问题树拆解
   - 问题树拆解

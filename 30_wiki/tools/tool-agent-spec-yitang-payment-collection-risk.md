@@ -3,7 +3,7 @@
 id: tool-agent-spec-yitang-payment-collection-risk
 title: 回款 / 履约风险预警 Agent Spec
 type: agent-spec
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: pending
 confidence: 0.85

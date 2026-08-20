@@ -3,9 +3,9 @@
 id: dk-yitang-business-formula-recursive-levels
 title: 业务公式分型递归：每一层都是独立公式，只看一层
 type: dk
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -38,6 +38,7 @@ related:
 quality_labels:
 - cited
 - framework
+review_date: 2026-08-19
 ---
 
 # 业务公式分型递归：每一层都是独立公式，只看一层

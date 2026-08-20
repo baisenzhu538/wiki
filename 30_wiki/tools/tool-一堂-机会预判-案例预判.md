@@ -3,7 +3,7 @@
 id: tool-一堂-机会预判-案例预判
 title: 机会预判·案例预判 SOP：定位→列七段→排幻觉→保A争B→硬伤校验
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-09

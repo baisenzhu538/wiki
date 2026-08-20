@@ -3,9 +3,9 @@
 id: tool-一堂-触点挖掘四层级
 title: 一堂触点挖掘四层级：从狭义销售点到创新接触机会的冰山洞察力
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -52,6 +52,7 @@ tags:
 - skill-level:advanced
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂触点挖掘四层级：从狭义销售点到创新接触机会的冰山洞察力

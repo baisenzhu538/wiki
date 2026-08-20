@@ -40,7 +40,7 @@ aliases:
   - P型与L型创业者
   - 型创业者
 source_refs:
-- pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+  - src_unknown
 tags:
 - audience:general
 - scene:reference

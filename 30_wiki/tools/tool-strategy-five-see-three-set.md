@@ -22,7 +22,7 @@ aliases:
   - 定控制点/目标/路径
   - 看行业/市场/客户/竞争/自己
 source_refs:
-- pending_archive:src_unknown
+  - src_unknown
 discoverable_by:
   - 华为五看三定：看行业/市场/客户/竞争/自己 → 定控制点/
   - 华为五看三定

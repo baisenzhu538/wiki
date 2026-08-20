@@ -2,7 +2,7 @@
 id: framework-一堂-关键假设
 title: 一堂关键假设：用假设驱动业务的方法论入口总框架
 type: framework
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88

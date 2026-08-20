@@ -13,7 +13,7 @@ aliases:
 - 产品内核修炼段位图
 - 内核修炼段位图
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:general
 - scene:reference

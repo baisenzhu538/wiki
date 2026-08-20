@@ -2,6 +2,7 @@
 
 
 id: dk-research-identity-craft-for-closed-information
+updated_at: '2026-08-20'
 title: 为获取封闭情报设计合法身份
 type: dk
 status: reviewed

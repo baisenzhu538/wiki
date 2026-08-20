@@ -2,9 +2,9 @@
 id: tool-一堂-马毅阻力消除四部曲
 title: 一堂马毅阻力消除四部曲：赞 / 肯定 / 换角度 / 上价值
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.82
 trust_level: high
 language: zh-CN
@@ -54,6 +54,7 @@ tags:
 - skill-level:intermediate
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂马毅阻力消除四部曲：赞 / 肯定 / 换角度 / 上价值

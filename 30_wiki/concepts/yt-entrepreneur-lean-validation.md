@@ -33,7 +33,7 @@ aliases:
   - 低成本验证/MVP
   - 本验证
 source_refs:
-- pending_archive:source material not yet ingested
+  - src_unknown
 status: enriched
 title: 低成本验证/MVP
 trust_level: medium

@@ -2,9 +2,9 @@
 id: framework-一堂-12种阻力总表
 title: 一堂 12 种阻力总表：定义切分 + 四大类归类 + 底层三参数 + 动嘴/动手/动钱矩阵
 type: framework
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.87
 trust_level: high
 language: zh-CN
@@ -99,6 +99,7 @@ discoverable_by:
 - 12种阻力
 - 转化率优化
 - 购买阻力消除
+review_date: 2026-08-19
 ---
 # 一堂 12 种阻力总表
 

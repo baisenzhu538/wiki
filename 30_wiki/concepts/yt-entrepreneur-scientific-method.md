@@ -14,7 +14,7 @@ aliases:
   - Y模型/科学方法已弃用
   - 科学方法已弃用
 source_refs:
-- pending_archive:src_20260614_faa8021d-Y模型探索营-第二节课
+  - src_unknown
 - src_20260614_faa8021d-Y模型探索营-第二节课
 discoverable_by:
   - Y模型/科学方法已弃用

@@ -15,7 +15,7 @@ aliases:
 - ai时代判断力口述3
 - 时代判断力口述
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:general
 - scene:reference

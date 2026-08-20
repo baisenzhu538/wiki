@@ -13,7 +13,7 @@ aliases:
 - ai数据理解第一课
 - 数据理解第一课
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:general
 - scene:reference

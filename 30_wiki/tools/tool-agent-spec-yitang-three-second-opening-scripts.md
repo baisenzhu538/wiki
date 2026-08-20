@@ -3,9 +3,9 @@
 id: tool-agent-spec-yitang-three-second-opening-scripts
 title: 前三秒话术优化 Agent Spec
 type: agent-spec
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -52,6 +52,7 @@ tags:
 - scene:execution
 - skill-level:intermediate
 - product
+review_date: 2026-08-19
 ---
 # 前三秒话术优化 Agent Spec
 

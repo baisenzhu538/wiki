@@ -3,9 +3,9 @@
 id: tool-一堂-名利权情动力法
 title: 一堂名利权情动力法：名 / 利 / 权 / 情 四张内驱牌
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.86
 trust_level: high
 language: zh-CN
@@ -56,6 +56,7 @@ tags:
 - skill-level:advanced
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂名利权情动力法：名 / 利 / 权 / 情 四张内驱牌

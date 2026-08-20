@@ -2,9 +2,9 @@
 id: tool-knowledge-cheatsheet-sab
 title: 知识小抄 S/A/B 三级收录清单
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 language: zh-CN
@@ -37,6 +37,7 @@ related:
 - '[[case-cross-xingangwan-pharma]]'
 - '[[dk-ai-builder-illusion]]'
 - '[[bridge-how-to-know-person-to-business]]'
+review_date: 2026-08-16
 ---
 
 # 知识小抄 S/A/B 三级收录清单

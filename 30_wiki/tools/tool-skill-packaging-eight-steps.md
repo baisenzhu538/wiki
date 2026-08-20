@@ -2,9 +2,9 @@
 id: tool-skill-packaging-eight-steps
 title: Skill 封装八步流水线：从官方最佳实践到可调用 Skill
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 language: zh-CN
@@ -40,7 +40,11 @@ related:
 - '[[framework-dual-center-feishu-obsidian]]'
 - '[[agent-spec-zhu-ai-coach]]'
 - '[[dk-research-important-things-must-do]]'
+- '[[dk-aesthetic-redline-doc]]'
+- '[[dk-context-patching-recipe]]'
 - '[[dk-ai-builder-illusion]]'
+- '[[concept-meta-skill-layering]]'
+review_date: 2026-08-16
 ---
 
 # Skill 封装八步流水线：从官方最佳实践到可调用 Skill
@@ -79,6 +83,8 @@ Skill 封装 = 把专业方法/工作流固化成 AI 可读、可执行的文档
 6. 让 AI 交叉打分验证
 7. 封装进常用 AI（YAI），存知识库
 8. 让另一个 AI 现场学习并干活验证
+
+> **补强（二刷 2026-08-19，L1040-1042）**：步骤 5 后加"逼出双清单"动作——"我逼着他做了十个 To Do List，又逼着他做了十个 No To Do List"（L1042）。用途：用强制边界封住 Skill 的行为（该做什么/不该做什么），ToDo 管执行、NoToDo 管红线。案例：调研 Skill 的 NoToDo 含"不做纯通用调研、不跳过交叉验证"等。
 
 ## 4. When NOT to Use
 

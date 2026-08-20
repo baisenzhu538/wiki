@@ -3,9 +3,9 @@
 id: tool-一堂-提假设四大类策略
 title: 一堂提假设四大类策略：自己琢磨/用好小抄/借鉴外部/团队开会
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -49,6 +49,7 @@ tags:
 - skill-level:advanced
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂提假设四大类策略：自己琢磨/用好小抄/借鉴外部/团队开会

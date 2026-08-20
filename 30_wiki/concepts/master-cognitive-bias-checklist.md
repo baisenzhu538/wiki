@@ -11,9 +11,9 @@ aliases:
   - 偏差快速诊断清单
   - 认知偏差快速诊断清单
 source_refs:
-- pending_archive:src_20260522_23b5714d-ocr-一堂-科学决策-高度-两种典型的思考习惯.md
-- pending_archive:src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
-- pending_archive:src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-05-18
 updated_at: '2026-06-28'
 author: 老顽童

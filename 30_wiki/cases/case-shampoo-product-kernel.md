@@ -20,8 +20,8 @@ source_refs:
 - 00_inbox/一堂-产品内核验证课-Truman-口述.txt L1026-L1296
 - 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L1304-L1346
 - 00_inbox/一堂-产品内核迭代课-Truman-口述.txt L3018-L3400
-- pending_archive:src_20260610_d8afa585-一堂-一堂五步法-产品内核-洗发水案例
-- pending_archive:src_20260611_f3e3b027-一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr
+  - src_unknown
+  - src_unknown
 created_at: '2026-06-11'
 updated_at: '2026-07-08'
 author: 老顽童（合并升级）

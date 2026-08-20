@@ -11,7 +11,7 @@ aliases:
   - 时间闭环
   - 空间闭环
 source_refs:
-- pending_archive:source material not yet ingested
+  - src_unknown
 discoverable_by:
   - To B 单销售模型：时间闭环 + 空间闭环
   - 单销售模型

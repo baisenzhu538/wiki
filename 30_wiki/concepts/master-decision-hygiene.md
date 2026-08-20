@@ -11,9 +11,9 @@ aliases:
   - 决策卫生五步法
   - 卫生五步法
 source_refs:
-- pending_archive:src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md
-- pending_archive:src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
-- pending_archive:src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-05-18
 updated_at: '2026-07-03'
 author: 老顽童

@@ -19,6 +19,7 @@ source_refs:
 related:
 - agent-spec-duanwangye-publisher
 - agent-spec-hongqigong-multimodal
+- '[[tool-agent-white-paper-five-elements]]'
 tags:
 - audience:executor
 - scene:review

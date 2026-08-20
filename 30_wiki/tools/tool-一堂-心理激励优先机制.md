@@ -3,9 +3,9 @@
 id: tool-一堂-心理激励优先机制
 title: 一堂心理激励优先机制：先名/权/情，后利
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.84
 trust_level: high
 language: zh-CN
@@ -58,6 +58,7 @@ tags:
 - skill-level:advanced
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂心理激励优先机制：先名/权/情，后利

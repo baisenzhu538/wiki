@@ -13,9 +13,9 @@ aliases:
   - 系统思考
   - 系统思考：反馈循环与杠杆点
 source_refs:
-- pending_archive:src_20260522_d96543bb-ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md
-- pending_archive:src_20260522_f3429a35-ocr-一堂-科学决策-决策三角形.md
-- pending_archive:src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-05-18
 updated_at: '2026-06-28'
 author: 老顽童

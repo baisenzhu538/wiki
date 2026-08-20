@@ -3,7 +3,7 @@
 id: tool-Y模型实操工作流
 title: Y模型实操工作流：从分析到决策的完整路径
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewer: 欧阳锋
 reviewed_by: 欧阳锋
@@ -43,6 +43,7 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+review_date: 2026-08-19
 ---
 
 # Y模型实操工作流：从分析到决策的完整路径

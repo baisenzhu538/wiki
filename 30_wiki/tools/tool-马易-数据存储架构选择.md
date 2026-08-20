@@ -3,7 +3,7 @@ id: tool-马易-数据存储架构选择
 title: 技能：数据存储架构选择
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

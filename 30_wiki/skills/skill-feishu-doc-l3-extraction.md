@@ -1,5 +1,6 @@
 ---
 id: skill-feishu-doc-l3-extraction
+updated_at: '2026-08-20'
 title: 飞书文档 L3 严格模式提取 — SSO破墙+逐节点击+DOM提取
 type: skill
 status: reviewed

@@ -18,7 +18,7 @@ aliases:
   - 设备外卖对接
   - 饿了么的技术与商业模式
 source_refs:
-- pending_archive:src_20260614_909802bd-智能设备-外卖对接方案讨论
+  - src_unknown
 - src_20260614_909802bd-智能设备-外卖对接方案讨论
 related:
 - - - ai-native-im-multi-agent

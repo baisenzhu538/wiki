@@ -1,5 +1,6 @@
 ---
 id: skill-duanwangye-feishu-publishing
+updated_at: '2026-08-20'
 title: 段王爷·飞书文档发布引擎 — 从内容到飞书docx的全链路发布
 type: skill
 status: reviewed

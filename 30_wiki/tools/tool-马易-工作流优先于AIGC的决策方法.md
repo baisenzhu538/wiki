@@ -2,7 +2,7 @@
 id: tool-马易-工作流优先于AIGC的决策方法
 title: 技能：工作流优先于AIGC的决策方法
 type: tool
-status: needs-review
+status: draft
 domain:
 - ai-collaboration
 - yitang

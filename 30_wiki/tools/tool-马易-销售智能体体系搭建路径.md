@@ -3,7 +3,7 @@ id: tool-马易-销售智能体体系搭建路径
 title: 技能：销售智能体体系搭建路径
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

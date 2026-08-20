@@ -17,11 +17,11 @@ review_date: '2026-05-03'
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 src_unknown，待后续补充）
 source_refs:
-  - pending_archive:src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲
-  - pending_archive:src_20260501_9962715b-互联网医院模式深度调研报告
-  - pending_archive:src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
-  - pending_archive:src_20260613_12d63c1c-notes
-  - pending_archive:src_20260613_687c4ec0-transcript
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 ---
 # KDO Protocol Implementation Roadmap
 

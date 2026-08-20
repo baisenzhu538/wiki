@@ -3,7 +3,7 @@
 id: concept-一堂-终局光谱图解读
 title: 终局光谱图解读：五条读法 + 七段风险/收益量化
 type: concept
-status: pending_review
+status: reviewed
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-07-09

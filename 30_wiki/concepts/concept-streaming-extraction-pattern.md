@@ -8,6 +8,7 @@ author: 段王爷（南帝）
 reviewed_by: 欧阳锋
 review_date: 2026-06-23
 created_at: 2026-06-23
+updated_at: '2026-08-20'
 confidence: 0.9
 trust_level: high
 language: zh-CN
@@ -24,7 +25,7 @@ aliases:
   - 流式提取模式浏览器虚拟滚动到API分页的映射
   - 浏览器虚拟滚动到API分页的映射
 source_refs:
-- pending_archive:src_unknown："虚拟滚动机制——内容只有滚动到视口时才加载到内存中"
+  - src_unknown
 - src_unknown
 discoverable_by:
   - 流式提取模式——浏览器虚拟滚动到API分页的映射

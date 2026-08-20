@@ -1,5 +1,6 @@
 ---
 id: skill-duanwangye-kdo-pipeline
+updated_at: '2026-08-20'
 title: 段王爷·KDO文章生产管线 — produce→validate→ship 完整闭环
 type: skill
 status: reviewed

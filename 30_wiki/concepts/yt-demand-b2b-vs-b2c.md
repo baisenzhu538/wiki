@@ -16,8 +16,8 @@ aliases:
   - 需求分析差异
   - 频率与验证方法
 source_refs:
-- pending_archive:src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
-- pending_archive:src_20260616_18764078-yitang-tob-five-step-19-images-ocr.md
+  - src_unknown
+  - src_unknown
 - 10_raw/sources/xujian-tob-fivestep-oral.md
 created_at: '2026-06-19'
 updated_at: '2026-06-19'

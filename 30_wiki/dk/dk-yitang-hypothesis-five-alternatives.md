@@ -3,9 +3,9 @@
 id: dk-yitang-hypothesis-five-alternatives
 title: 假设思维不是唯一道路：五条替代路径与适用边界
 type: dk
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -35,6 +35,7 @@ related:
 quality_labels:
 - cited
 - boundary
+review_date: 2026-08-19
 ---
 
 # 假设思维不是唯一道路：五条替代路径与适用边界

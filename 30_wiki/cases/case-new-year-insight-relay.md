@@ -2,9 +2,9 @@
 id: case-new-year-insight-relay
 title: 新年洞察一封信四棒接力：每次交接只说一句话
 type: case
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 language: zh-CN
@@ -38,6 +38,7 @@ related:
 - '[[tool-top-level-document]]'
 - '[[dk-research-important-things-must-do]]'
 - '[[case-cross-xingangwan-pharma]]'
+review_date: 2026-08-16
 ---
 
 # 新年洞察一封信四棒接力：每次交接只说一句话

@@ -3,7 +3,7 @@ id: tool-水水-识别关键偶然因素
 title: 技能：识别关键偶然因素
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

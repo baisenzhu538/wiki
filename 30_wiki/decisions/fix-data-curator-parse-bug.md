@@ -2,7 +2,7 @@
 id: fix-data-curator-parse-bug
 title: Data Curator Phase 2 Clean — parse_frontmatter 修复方案
 type: improvement-plan
-status: pending_review
+status: draft
 domain: master
 created_at: 2026-05-31
 updated_at: '2026-06-16'

@@ -3,9 +3,9 @@
 id: dk-yitang-business-formula-skip-level-entry
 title: 业务公式跳级起手：成熟业务不必从 L1 开始
 type: dk
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -37,6 +37,7 @@ related:
 quality_labels:
 - cited
 - framework
+review_date: 2026-08-19
 ---
 
 # 业务公式跳级起手：成熟业务不必从 L1 开始

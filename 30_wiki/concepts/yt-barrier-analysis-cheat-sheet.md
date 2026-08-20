@@ -13,7 +13,7 @@ aliases:
 - 分析完整
 - 壁垒分析完整cheatsheet
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:general
 - scene:reference

@@ -11,7 +11,7 @@ tags:
 - src_unknown
 - src_unknown
 source_refs:
-  - pending_archive:src_20260531_ai-data-understanding
+  - src_unknown
 - src_20260531_ai-data-understanding
 created_at: 2026-05-31
 updated_at: '2026-06-16'

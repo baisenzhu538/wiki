@@ -28,7 +28,7 @@ domain:
 author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
-- 'pending_archive: src_unknown'
+- 'src_unknown'
 confidence: 0.6
 discoverable_by:
 - KDO协议

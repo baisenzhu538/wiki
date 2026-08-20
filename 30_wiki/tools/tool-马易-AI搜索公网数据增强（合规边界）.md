@@ -3,7 +3,7 @@ id: tool-马易-AI搜索公网数据增强（合规边界）
 title: 技能：AI搜索公网数据增强（合规边界）
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

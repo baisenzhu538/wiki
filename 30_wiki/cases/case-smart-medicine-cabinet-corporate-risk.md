@@ -15,7 +15,7 @@ aliases:
   - 药柜推广项目
   - 资金风险诊断
 source_refs:
-- pending_archive:src_20260613_fc2124d8-itingnao-deep-dive-corporate-risk
+  - src_unknown
 created_at: 2026-06-15
 updated_at: '2026-06-29'
 author: 王语嫣

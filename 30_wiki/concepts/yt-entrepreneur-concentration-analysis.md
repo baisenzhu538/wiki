@@ -25,7 +25,7 @@ aliases:
 - 度分析
 - 集中度分析
 source_refs:
-- pending_archive:src_20260522_9d98d526-business-analysis
+  - src_unknown
 discoverable_by:
 - 集中度分析
 tags:

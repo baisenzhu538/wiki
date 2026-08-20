@@ -3,7 +3,7 @@ id: tool-马易-时间序列大模型场景识别
 title: 技能：时间序列大模型场景识别
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

@@ -9,7 +9,7 @@ aliases:
   - 方案类型矩阵
   - 解决方案类型矩阵
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - src_unknown
 - src_unknown

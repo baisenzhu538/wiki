@@ -48,6 +48,7 @@ related:
 - tool-讲香基本功-十指模型
 - framework-yitang-jiangxiang-strategy-selection
 - tool-jiangxiang-ai-four-levels
+- '[[tool-ai-adapted-workflow-design]]'
 diagnostic_signals:
 - signal: 卖点找准了但讲出来没人听——"我说的都是对的但他们不感兴趣"
   lens: 缺表达力——找准卖点≠讲好卖点

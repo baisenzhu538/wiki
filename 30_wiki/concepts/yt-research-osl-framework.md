@@ -14,7 +14,7 @@ aliases:
   - 商业调研框架
   - 调研框架
 source_refs:
-- pending_archive:src_20260620_business-research-skill-v2.1.0
+  - src_unknown
 created_at: '2026-06-20'
 updated_at: '2026-06-28'
 author: 老顽童

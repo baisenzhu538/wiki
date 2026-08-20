@@ -24,7 +24,7 @@ review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效
 aliases:
 - 机会选择
 source_refs:
-- pending_archive:src_20260614_8f80cb0f-一堂-课程地图精华串讲
+  - src_unknown
 discoverable_by:
 - 机会选择
 tags:

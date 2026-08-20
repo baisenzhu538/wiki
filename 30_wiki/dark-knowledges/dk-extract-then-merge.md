@@ -2,9 +2,9 @@
 id: dk-extract-then-merge
 title: 先萃取再二次合并萃取：优于基于原始案例直接建模
 type: dk
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: medium
 language: zh-CN
@@ -38,6 +38,7 @@ related:
 - '[[dk-research-saturation-self-proof]]'
 - '[[case-cross-xingangwan-pharma]]'
 - '[[dk-ai-builder-illusion]]'
+review_date: 2026-08-16
 ---
 # 先萃取再二次合并萃取：优于基于原始案例直接建模
 

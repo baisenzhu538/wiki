@@ -29,7 +29,7 @@ aliases:
 - 内核定义
 - 迭代与验证方法论
 source_refs:
-- pending_archive:src_20260614_0e6fd2e7-theme-product-business-summary
+  - src_unknown
 discoverable_by:
 - 产品内核定义、迭代与验证方法论
 tags:

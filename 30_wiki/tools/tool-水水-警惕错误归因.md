@@ -3,7 +3,7 @@ id: tool-水水-警惕错误归因
 title: 技能：警惕错误归因
 type: tool
 domain: personal-growth
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

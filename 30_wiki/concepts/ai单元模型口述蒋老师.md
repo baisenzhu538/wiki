@@ -15,7 +15,7 @@ aliases:
 - ai单元模型口述蒋老师
 - 单元模型口述蒋老师
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:general
 - scene:reference

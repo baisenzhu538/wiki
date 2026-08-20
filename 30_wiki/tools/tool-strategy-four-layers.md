@@ -18,7 +18,7 @@ aliases:
   - 战略四层结构：集团→业务单元→职能→执行
   - 集团→业务单元→职能→执行
 source_refs:
-- pending_archive:src_unknown
+  - src_unknown
 updated_at: '2026-06-30T16:07:51+00:00'
 discoverable_by:
   - 战略四层结构：集团→业务单元→职能→执行

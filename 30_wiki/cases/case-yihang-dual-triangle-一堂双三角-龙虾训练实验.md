@@ -13,6 +13,7 @@ trust_level: low
 source_refs:
   - src_unknown
 related:
+- '[[case-kinda-digital-employees-fullview]]'
 created_at: 2026-06-30
 updated_at: 2026-08-04
 tags:

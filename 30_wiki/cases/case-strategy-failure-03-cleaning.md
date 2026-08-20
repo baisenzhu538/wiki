@@ -20,7 +20,11 @@ aliases:
   - 清洁用品L
   - 盲目高端丢低端市场
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
   - src_unknown - src_unknown
 - src_unknown
 - src_unknown

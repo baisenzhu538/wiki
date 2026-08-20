@@ -23,7 +23,7 @@ aliases:
   - 角案例
   - 鲲特虚拟艺人
 source_refs:
-- pending_archive
+  - src_unknown
 discoverable_by:
   - 双三角案例：鲲特虚拟艺人——AI 产出越多，人类筛选越值钱
   - 双三角案例

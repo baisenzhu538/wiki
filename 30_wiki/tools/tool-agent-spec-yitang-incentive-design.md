@@ -3,7 +3,7 @@
 id: tool-agent-spec-yitang-incentive-design
 title: 销售激励方案设计辅助 Agent Spec
 type: agent-spec
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: pending
 confidence: 0.83

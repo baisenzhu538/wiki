@@ -1,10 +1,11 @@
 ---
 id: 391
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 title: 历史元数据批量收口第一批（P3，#388 终审清单立项）：16 张补 updated_at + 189 张 source_refs 死路径改 src_unknown
 priority: P3
 dependency: []
+updated_at: '2026-08-20T05:53:51.987622+00:00'
 ---
 
 # #391 历史元数据批量收口第一批

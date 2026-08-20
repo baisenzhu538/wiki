@@ -2,9 +2,9 @@
 id: tool-一堂-伏笔式消除法
 title: 一堂伏笔式消除法：提前埋好答案，让阻力不发生
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.83
 trust_level: high
 language: zh-CN
@@ -54,6 +54,7 @@ tags:
 - skill-level:intermediate
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂伏笔式消除法：提前埋好答案，让阻力不发生

@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-08-19 13:37 UTC
+# Concept Card Index — 2026-08-19 18:07 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -887,6 +887,7 @@
 | tool-alt-data-free | 免费替代数据：小团队的Hedge Fund武器 | tool | yitang, research |
 | tool-alt-data-overview | 替代数据总览：Hedge Fund级别的调研武器 | tool | yitang, research |
 | tool-asset-file-naming-convention | 素材文件七要素命名法 | tool | design, master |
+| tool-author-targeted-collect | 博主定向采集（方式二·抖音侧）：作者视频列表+点赞 → 下载 → 转写 → 知识化 | tool | knowledge-management, ai-collaboration, infrastructure |
 | tool-autoclassify-seven-steps | 自动分类脚本 7 步：inbox 到目录的自动化流水线 | tool | knowledge-management, ai-collaboration |
 | tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua | 技能：按语义切分文档做向量化 | tool | src-unknown, yitang |
 | tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi | 技能：动态读取 + 向量化管理迭代知识 | tool | ai-collaboration, yitang |
@@ -2028,6 +2029,9 @@
 | case-wechat-6725b942182f6277 | 6725b942182f6277 | case |  |
 | case-wechat-article_4dd7be7cd82f7e80 | 重构协同：关于AI Native团队的思考 | case |  |
 | case-wechat-AWyGiJIRgc | AWyGiJIRgc | case |  |
+| case-wechat-dy_7654610643165120177 | 什么是AI Agent（费曼学习法第4集）· 大李书房一盏灯 | case |  |
+| case-wechat-dy_7666832665312982138 | 什么是 Skill（普通人学 AI 的第一课）· 大李书房一盏灯 | case |  |
+| case-wechat-dy_7671986884592010673 | 最值得被蒸馏的书 Top 10 · 大李书房一盏灯 | case |  |
 | case-wechat-e7536bf1d8f1a7b1 | 征留就是AI时代的合法强迹 | case |  |
 | case-wechat-f4faadff37c0b43b | f4faadff37c0b43b | case |  |
 | case-wechat-tt_7666646931699367986 | AI写的代码要不要逐行看：自动化关卡代替人眼审查 | case |  |

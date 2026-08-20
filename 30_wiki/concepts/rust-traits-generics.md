@@ -12,7 +12,7 @@ aliases:
   - 本抽象的接口设计
   - 零成本抽象的接口设计
 source_refs:
-  - pending_archive
+  - src_unknown
 created_at: 2026-06-02
 discoverable_by:
   - Rust Trait 与泛型：零成本抽象的接口设计

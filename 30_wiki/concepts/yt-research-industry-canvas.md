@@ -13,7 +13,7 @@ aliases:
   - 画布分析框架
   - 行业画布分析框架
 source_refs:
-- pending_archive:src_20260620_business-research-skill-v2.1.0
+  - src_unknown
 created_at: '2026-06-20'
 updated_at: '2026-06-28'
 author: 老顽童

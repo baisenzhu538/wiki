@@ -2,9 +2,9 @@
 id: dk-research-saturation-quota-ai-km
 title: 调研饱和话术："不要给我省任何投入，至少调研 30-50 篇"
 type: dk
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 language: zh-CN
@@ -39,7 +39,10 @@ related:
 - '[[dk-research-ai-no-time-concept]]'
 - '[[case-cross-xingangwan-pharma]]'
 - '[[dk-ai-builder-illusion]]'
+- '[[dk-let-ai-learn-for-me]]'
+- '[[dk-best-datasource-is-floor]]'
 - bridge-how-to-know-person-to-business
+review_date: 2026-08-16
 ---
 # 调研饱和话术："不要给我省任何投入，至少调研 30-50 篇"
 

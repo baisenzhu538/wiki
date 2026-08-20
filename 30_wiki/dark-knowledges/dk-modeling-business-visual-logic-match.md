@@ -16,7 +16,7 @@ aliases:
 - 是业务逻辑和视觉逻辑高度匹配
 - 设计的精髓不是好看
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:general
 - scene:reference

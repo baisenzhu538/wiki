@@ -20,12 +20,12 @@ aliases:
   - 案例：一堂数据库vsSQLHelper同域不同构的产品策略分岔
   - 纪浩
 source_refs:
-- pending_archive:src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
-- pending_archive:src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述
-- pending_archive:src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记
-- pending_archive:src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
-- pending_archive:src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述
-- pending_archive:src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 discoverable_by:
   - 案例：一堂数据库 vs SQLHelper —— 同域不同构
   - 一堂数据库

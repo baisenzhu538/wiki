@@ -16,10 +16,10 @@ aliases:
   - 跑步机需求分析
   - 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈
 source_refs:
-- pending_archive:src_20260610_c8e74781-一堂-一堂五步法-需求-跑步机案例-需求分析图
-- pending_archive:src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr
-- pending_archive:src_20260610_c8e74781-一堂-一堂五步法-需求-跑步机案例-需求分析图
-- pending_archive:src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 created_at: 2026-06-11
 updated_at: 2026-06-28
 discoverable_by:

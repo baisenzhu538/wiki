@@ -3,7 +3,7 @@ id: tool-马易-中国企业AI落地五步法
 title: 技能：中国企业AI落地五步法
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

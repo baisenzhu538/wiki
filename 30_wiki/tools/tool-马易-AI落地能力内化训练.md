@@ -3,7 +3,7 @@ id: tool-马易-AI落地能力内化训练
 title: 技能：AI落地能力内化训练
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

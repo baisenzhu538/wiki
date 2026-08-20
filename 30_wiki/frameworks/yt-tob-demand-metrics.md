@@ -12,7 +12,7 @@ aliases:
 - 测算双指标
 - 需求测算双指标
 source_refs:
-- 'pending_archive: src_unknown'
+- 'src_unknown'
 tags:
 - src_unknown
 - src_unknown

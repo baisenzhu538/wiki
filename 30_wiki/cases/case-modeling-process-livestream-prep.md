@@ -12,10 +12,10 @@ aliases:
   - 流程建模案例：Truman直播开播前2小时个人准备清单
   - 直播开播前
 source_refs:
-- pending_archive:src_20260614_9aca19bd-Truman-高阶建模-流程建模-开播准备-图-01
-- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-- pending_archive:src_20260614_9aca19bd-Truman-高阶建模-流程建模-开播准备-图-01
-- pending_archive:src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
 discoverable_by:
   - 流程建模案例：Truman 直播开播前 2 小时个人准备清单
   - 流程建模案例

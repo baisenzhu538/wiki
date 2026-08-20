@@ -3,7 +3,7 @@
 id: concept-一堂-key-assumptions
 title: 关键假设（Key Assumption）：业务成功依赖的核心前提条件
 type: concept
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: 欧阳锋
 language: zh-CN

@@ -3,7 +3,7 @@ id: tool-马易-AI答疑运营风格适配
 title: 技能：AI答疑运营风格适配
 type: tool
 domain: unknown
-status: needs-review
+status: draft
 author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'

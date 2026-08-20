@@ -11,7 +11,7 @@ aliases:
   - 强弱判断与规模不经济对抗
   - 选择
 source_refs:
-- 'pending_archive: src_unknown'
+- 'src_unknown'
 tags:
 - src_unknown
 - src_unknown

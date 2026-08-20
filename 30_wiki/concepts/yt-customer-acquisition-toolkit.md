@@ -13,7 +13,7 @@ aliases:
 - 工具合集
 - 获客工具合集
 source_refs:
-- pending_archive: src_unknown
+  - src_unknown
 tags:
 - audience:general
 - scene:reference

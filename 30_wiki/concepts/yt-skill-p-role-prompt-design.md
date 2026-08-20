@@ -26,7 +26,7 @@ aliases:
 - 设计
 - 设计执行者型
 source_refs:
-- pending_archive:src_20260522_38173b48-design-ai-image-generation
+  - src_unknown
 discoverable_by:
 - P 角色 Prompt 设计——执行者型 AI 的交付规范
 - 执行者型

@@ -2,9 +2,9 @@
 id: tool-动力阻力分析
 title: 动力阻力分析：用户行为的推拉模型
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: high
 language: zh-CN
@@ -78,6 +78,7 @@ tags:
 - skill-level:intermediate
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 动力阻力分析：用户行为的推拉模型

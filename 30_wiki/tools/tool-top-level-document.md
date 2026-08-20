@@ -2,9 +2,9 @@
 id: tool-top-level-document
 title: 顶层文档制度：每个项目有且只有一个入口
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: medium
 language: zh-CN
@@ -41,6 +41,7 @@ related:
 - '[[concept-open-a-document]]'
 - '[[case-cross-xingangwan-pharma]]'
 - '[[bridge-how-to-know-person-to-business]]'
+review_date: 2026-08-16
 ---
 
 # 顶层文档制度：每个项目有且只有一个入口
@@ -85,6 +86,14 @@ related:
 | 不更新 | 顶层文档过期 | 项目动→顶层文档跟着动（索引更新） |
 | 有文档没人搜 | 团队仍口头问 | 立规矩：先搜顶层文档再问人 |
 
+## 5.5 制度强化（二刷补强 2026-08-19，L694/L708-710）
+
+> 来源：口述二刷暗知识专项（#376）——顶层文档从"制度"变成"文化"的三个强化动作。
+
+1. **没有顶层文档就骂负责人**（L694）："如果没有就骂那个负责人，你当时连电子文档都没有，你不是合格的一堂人"——把"必须有顶层文档"从制度要求升级为文化底线，用问责倒逼。
+2. **先写顶层文档再开工**（L710）："我们所有的训练营、所有的公开课、所有的产品设计、所有的大活动，要想做先做这份文档"——立项即开文档，不是做完再补。
+3. **数量承诺**（L708）："我们现在每年每年至少有 100 个顶层的规划文档"——用年度数量锚定制度执行强度。
+
 ## 6. Action Triggers
 
 - 新项目立项 → 先开顶层文档（"立项即开"）
@@ -99,5 +108,7 @@ related:
 - `framework-dual-center-feishu-obsidian`：飞书=人侧的顶层文档载体
 - `framework-knowledge-compound-rocket-six`：协作化要素（别人能用）=顶层文档
 - `concept-open-a-document`：开一篇文档——顶层文档是团队版"开一篇文档"
+- `dk-doc-numbering-business-logic`：顶层文档统揽编号体系（二刷回链）
+- `dk-shoulu-yixia-culture`：收录一下=顶层文档的配套文化（二刷回链）
 - `case-cross-xingangwan-pharma`：知识管理的决策域应用（跨域）
 - `bridge-how-to-know-person-to-business`：从人到企业——组织知识沉淀（跨域）

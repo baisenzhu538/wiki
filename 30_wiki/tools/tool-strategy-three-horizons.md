@@ -21,7 +21,7 @@ aliases:
   - 现金流现在
   - 现金流现在/增长1
 source_refs:
-- pending_archive:src_unknown
+  - src_unknown
 updated_at: '2026-06-30T16:07:51+00:00'
 discoverable_by:
   - 三个地平线：现金流现在/增长1-3年/种子3-5年

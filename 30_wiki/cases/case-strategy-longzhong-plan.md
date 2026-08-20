@@ -19,8 +19,8 @@ aliases:
   - 隆中对：中国最著名的战略规划成功与失败四因
 source_refs:
 - 00_inbox/战略专题/冉鹏战略课逐字稿_ocr.md
-- pending_archive: 《三国志·诸葛亮传》隆中对原文待本地归档
-- pending_archive: 武都大地震与秦岭古道地理变迁公开资料待本地归档
+  - src_unknown
+  - src_unknown
 reviewed_by: pending
 updated_at: '2026-06-29'
 discoverable_by:

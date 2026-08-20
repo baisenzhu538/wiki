@@ -18,7 +18,7 @@ aliases:
   - 快速扩张
   - 快速扩张/业务平台期/行业下行期
 source_refs:
-- 'pending_archive:'
+- 'src_unknown'
 discoverable_by:
   - 三种必做战略的时刻：快速扩张/业务平台期/行业下行期
   - 三种必做战略的时刻

@@ -19,7 +19,11 @@ aliases:
   - 爱德华琼斯
   - 爱德华琼斯：每个小镇只招一人0办公位的券商模式
 source_refs:
-- pending_archive:src_unknown - src_unknown - src_unknown - src_unknown - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
+  - src_unknown
   - src_unknown - src_unknown
 - src_unknown
 - src_unknown

@@ -3,9 +3,9 @@
 id: tool-一堂-五种挖触点
 title: 一堂五种挖触点：推演/同行/用户/创造/清单的双向触点挖掘法
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -52,6 +52,7 @@ tags:
 - skill-level:advanced
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂五种挖触点：推演/同行/用户/创造/清单的双向触点挖掘法

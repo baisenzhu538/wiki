@@ -3,9 +3,9 @@
 id: tool-一堂-阻力三句话心法
 title: 一堂阻力三句话心法：至少降低它 / 争取消除它 / 挑战逆转它
 type: tool
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 language: zh-CN
@@ -58,6 +58,7 @@ tags:
 - skill-level:advanced
 - conversion
 - handle
+review_date: 2026-08-19
 ---
 
 # 一堂阻力三句话心法：至少降低它 / 争取消除它 / 挑战逆转它

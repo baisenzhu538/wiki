@@ -2,9 +2,9 @@
 id: dk-one-sentence-handover
 title: 四棒接力"每次交接只说一句话"：无文档交接、无提示词传递
 type: dk
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.9
 trust_level: medium
 language: zh-CN
@@ -37,7 +37,9 @@ related:
 - '[[framework-knowledge-five-leaps]]'
 - '[[dk-tool-adoption-by-force]]'
 - '[[case-cross-xingangwan-pharma]]'
+- '[[dk-project-manager-agent-failure]]'
 - '[[bridge-how-to-know-person-to-business]]'
+review_date: 2026-08-16
 ---
 # 四棒接力"每次交接只说一句话"：无文档交接、无提示词传递
 

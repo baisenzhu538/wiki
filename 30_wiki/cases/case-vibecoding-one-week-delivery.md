@@ -2,9 +2,9 @@
 id: case-vibecoding-one-week-delivery
 title: VibeCoding 训战营：一周交付 900 页 PPT 的全上下文协作
 type: case
-status: pending_review
+status: reviewed
 author: 老顽童
-reviewed_by: 待审
+reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 language: zh-CN
@@ -44,7 +44,10 @@ related:
 - '[[framework-dual-center-feishu-obsidian]]'
 - '[[case-new-year-insight-relay]]'
 - '[[dk-research-important-things-must-do]]'
+- '[[dk-context-patching-recipe]]'
+- '[[dk-occhams-knife-tool-migration]]'
 - '[[case-cross-xingangwan-pharma]]'
+review_date: 2026-08-16
 ---
 
 # VibeCoding 训战营：一周交付 900 页 PPT 的全上下文协作
@@ -108,6 +111,9 @@ related:
 - 任何"全新课题+高强度交付"（训练营/课程/方案）→ 五核心文档+全上下文协作
 - 团队从"传纸条"升级 → 共享知识库+管理读写关系
 - 大批量创作（PPT/图/教材）→ 分工协作+设计规范（顺序下达）
+- 新 Agent 快速上手 → 补两个上下文（项目介绍+设计规范）秒变专业（L2236-2238）
+
+> **补强（二刷 2026-08-19，L1234-1240）——"指向=上下文开关"**：15 秒做图（16 项目调研图）靠的是口喷时"指向"文档——"只要你口喷的时候指向一些东西，上下文天然给你打开了"（L1234）。操作口诀：①告诉 AI"我是谁/一堂是谁"（数据开放）②指向检索文档（各项目调研）③指向设计宪法（一致性）。AI 有三步：知道我是谁→检索到文档→学设计宪法（L1220-1230）。
 
 ## 8. 教训与预警信号
 

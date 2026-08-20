@@ -2,7 +2,7 @@
 id: framework-一堂-转化率提升六步法
 title: 一堂转化率提升六步法：拆解/加法/减法/讲香/组合/制作 + 双模式立论 + 四阶段映射
 type: framework
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: pending
 confidence: 0.86

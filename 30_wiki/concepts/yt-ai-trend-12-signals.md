@@ -23,7 +23,7 @@ aliases:
 - AI趋势12大变化模型
 - 大变化模型
 source_refs:
-- pending_archive:src_20260614_82a4fdb9-凯文凯利-必然趋势分享
+  - src_unknown
 discoverable_by:
 - AI趋势12大变化模型
 related:

@@ -2,7 +2,7 @@
 id: framework-一堂-转化率黑客爬山地图
 title: 一堂转化率黑客爬山地图：六段 L1-L6 能力段位与三次跨越
 type: framework
-status: pending_review
+status: draft
 author: 老顽童
 reviewed_by: pending
 confidence: 0.87

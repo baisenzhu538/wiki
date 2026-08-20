@@ -22,8 +22,8 @@ aliases:
 - 精益验证
 source_refs:
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
-- pending_archive:lean-startup-domain-digest
-- pending_archive:diag_20260627_wangyuyan-cross-domain-bridge-supplement
+  - src_unknown
+  - src_unknown
 - 00_inbox/一堂五步法之增长/truman-渠道探索方法论-口述.txt
 - lean-startup-domain-digest
 - diag_20260627_wangyuyan-cross-domain-bridge-supplement
