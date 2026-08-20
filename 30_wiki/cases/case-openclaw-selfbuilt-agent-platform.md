@@ -35,6 +35,8 @@ related:
 - '[[dk-rule-not-system-capability]]'
 - '[[dk-three-context-formula]]'
 - '[[dk-best-datasource-is-floor]]'
+- 'tool-local-search-repo-datasource-engineering'
+- 'tool-platform-requirement-eight-sections'
 ---
 # OpenClaw 自建协作平台：排飞书微信→Matrix 失败→A2A 直连→项目空间隔离上下文
 

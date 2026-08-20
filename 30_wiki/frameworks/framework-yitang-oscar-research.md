@@ -24,6 +24,8 @@ related:
 - framework-r-type-research-partner-five-state
 - tool-nine-character-mantra-14-strategies
 - concept-open-a-document
+- 'case-truman-ai-native-research-flow'
+- 'tool-local-search-repo-datasource-engineering'
 discoverable_by:
 - OSCAR调研模型
 - 目标锁定到正确归因

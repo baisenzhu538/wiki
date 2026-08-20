@@ -13,7 +13,9 @@ created_at: 2026-07-09
 updated_at: 2026-07-09
 domain: unknown
 source_refs: null
-related: null
+related:
+- 'framework-knowledge-naming-systems-comparison'
+- 'tool-platform-requirement-eight-sections'
 discoverable_by:
 - 机会预判
 - CEO预判操作系统

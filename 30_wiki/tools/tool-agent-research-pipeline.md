@@ -23,7 +23,8 @@ aliases:
 - 模式工具
 - 调研
 source_refs: null
-related: null
+related:
+- 'case-truman-ai-native-research-flow'
 status: reviewed
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'

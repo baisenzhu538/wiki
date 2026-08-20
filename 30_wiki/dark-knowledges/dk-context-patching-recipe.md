@@ -36,6 +36,9 @@ related:
 - '[[dk-ai-builder-illusion]]'
 - '[[framework-一堂-机会预判]]'
 - '[[tool-agent-white-paper-five-elements]]'
+- 'case-truman-ai-native-research-flow'
+- 'tool-local-search-repo-datasource-engineering'
+- 'framework-knowledge-naming-systems-comparison'
 ---
 # 上下文补齐配方：内容质量不够时先补"价值观+方法论+素材"，不换模型
 

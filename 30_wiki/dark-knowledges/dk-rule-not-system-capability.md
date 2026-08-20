@@ -36,6 +36,10 @@ related:
 - '[[case-kinda-digital-employees-fullview]]'
 - '[[dk-ai-self-evolution-prompt]]'
 - '[[framework-multi-agent-collab-chain-six]]'
+- 'dk-agent-parallel-design-system'
+- 'case-openclaw-selfbuilt-agent-platform'
+- 'tool-local-search-repo-datasource-engineering'
+- 'tool-platform-requirement-eight-sections'
 ---
 # 靠提醒=规则没变成系统能力：规范必须封装成 Skill/MCP 才生效
 

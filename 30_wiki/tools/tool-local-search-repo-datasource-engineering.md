@@ -36,6 +36,7 @@ related:
 - '[[dk-ai-capability-illusion]]'
 - '[[framework-yitang-oscar-research]]'
 - '[[dk-context-patching-recipe]]'
+- 'tool-platform-requirement-eight-sections'
 ---
 # 本地搜索+仓库克隆数据源工程
 

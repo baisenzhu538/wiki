@@ -37,6 +37,7 @@ related:
 - '[[dk-decision-value-overrides-roi]]'
 - '[[dk-rule-not-system-capability]]'
 - '[[dk-project-manager-agent-failure]]'
+- 'case-truman-ai-native-research-flow'
 ---
 # AI 自进化话术：复盘末尾补一句"下次你可以更主动"——让 AI 每次变聪明一点
 

@@ -35,6 +35,7 @@ related:
 - '[[dk-future-backward-knowledge-tree]]'
 - '[[tool-yitang-hypothesis-marginal-roi]]'
 - '[[dk-decision-value-overrides-roi]]'
+- 'framework-knowledge-naming-systems-comparison'
 ---
 # 文档编号=业务推理逻辑+里程碑依赖：编号不是 123，是谁决定谁
 

@@ -39,6 +39,7 @@ related:
 - '[[tool-ai-adapted-workflow-design]]'
 - '[[framework-multi-agent-collab-chain-six]]'
 - '[[case-yihang-dual-triangle-一堂双三角-龙虾训练实验]]'
+- 'case-openclaw-selfbuilt-agent-platform'
 ---
 # kinda 数字员工体系全景：从一个具体问题长出 7+ Agent（问题→工具失败→AI 代学→体系→闭环）
 

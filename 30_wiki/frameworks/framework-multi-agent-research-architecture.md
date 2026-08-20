@@ -15,7 +15,8 @@ aliases:
 - 能体研究架构模式
 - 调研架构
 source_refs: null
-related: null
+related:
+- 'case-truman-ai-native-research-flow'
 discoverable_by:
 - 多Agent调研架构
 status: reviewed

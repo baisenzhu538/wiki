@@ -48,6 +48,7 @@ related:
 - '[[dk-ai-efficiency-and-management-radius]]'
 - '[[tool-ai-adapted-workflow-design]]'
 - '[[concept-meta-skill-layering]]'
+- 'dk-agent-parallel-design-system'
 review_date: 2026-08-16
 ---
 

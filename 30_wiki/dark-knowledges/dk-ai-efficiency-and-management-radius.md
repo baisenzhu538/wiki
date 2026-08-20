@@ -37,6 +37,8 @@ related:
 - '[[tool-ai-adapted-workflow-design]]'
 - '[[framework-multi-agent-collab-chain-six]]'
 - '[[dk-decision-value-overrides-roi]]'
+- 'dk-agent-parallel-design-system'
+- 'case-openclaw-selfbuilt-agent-platform'
 ---
 # AI 人效与管理半径：1 个 Agent × 多项目空间 > 一事一 Agent（人效最大化）
 
