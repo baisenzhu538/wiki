@@ -1,11 +1,14 @@
 ---
 id: 401
 assignee: huangyaoshi
-status: in_progress
+status: pending_review
 title: 残余文案规则门禁化盘点（P2，黄药师建议书 L1，王语嫣 08-21 采纳）：全库"靠自觉"规则清单+门禁化排序
 priority: P2
 dependency: []
-updated_at: '2026-08-20T17:46:12.272607+00:00'
+code_files:
+- 90_control/scripts/rule-gate-inventory.py
+- 60_feedback/diagnosis/diag_20260821_huangyaoshi-rule-gate-inventory.md
+updated_at: '2026-08-20T17:50:10.943634+00:00'
 ---
 
 # #401 残余文案规则门禁化盘点
@@ -48,3 +51,32 @@ updated_at: '2026-08-20T17:46:12.272607+00:00'
 
 1. 盘点报告 + 复扫脚本
 2. 送欧阳锋终审
+
+---
+
+## 执行报告（2026-08-21 黄药师）
+
+### 交付物
+
+| 文件 | 说明 |
+|:--|:--|
+| `90_control/scripts/rule-gate-inventory.py`（新） | 复扫脚本：26 文件扫描 + 祈使句关键词族抽取 + friction-log 命中计数 + `--json` 结构化输出 |
+| `60_feedback/diagnosis/diag_20260821_huangyaoshi-rule-gate-inventory.md`（新） | 盘点报告：22 主题簇两列清单（已门禁化 7 簇 / 部分门禁化 9 簇 / 仍靠自觉 6 簇）+ 成本分档 + Top 3 门禁化建议 |
+
+### 复扫验证（验收标准 1）✅
+
+两次 `--json` 重跑 cmp 一致（182 条规则候选）。同文件集+同关键词族 → 输出确定。
+
+### 盘点结果摘要
+
+- **182 条规则候选**（26 文件：PROTOCOL/AGENTS/rules-core/工业化手册/tool-card 标准/startup/8 个 agent context/3 个 SOUL/9 个错误模式库），**81 条有 friction 命中**，归并 22 主题簇
+- **已门禁化 20 条**（queue_transition 硬状态机 ×18、pre-submit/#363 ×15、#375 处置门禁、#199 定位声明、A9 索引新鲜度 08-19 上线）——文案可精简为指针
+- **部分门禁化 18 条**（B1 口述稿 source 引用仅 WARN、B9 D4 只事后记录、B3 长度未挂 lint 等）
+- **仍靠自觉 19 条**——其中 17 条为**语义判断类**（C1-C6 口述稿全文/用户模型/凭记忆/三方法等），诚实标注门禁化伪命题不硬上；仅 C8 输出路径可脚本判定
+- **Top 3 建议**（friction 排序）：① B1 口述稿 source 引用断裂检测（×16，挂 #399 full-library-rescan，成本低）② B9 D4 事前检测（×9，复用 #364 模式）③ C1 口述稿全文半门禁化（×8，声明字段 `source_reading` + 已读行数区间，约束力如实告知）
+
+### 口径说明
+
+- 簇数字为关键词命中粗筛 + 人工归并；**全量以 `--json` 输出为准**（182 条原文+行号+friction 计数可复现）
+- friction 计数为弱匹配（2-6 字词组命中），排序依据已入报告，建议项另有上下文佐证（#391/#363/#375/#199 等机制记录）
+- 语义判断类不强行脚本化（验收标准 2：诚实标注）
