@@ -1,11 +1,11 @@
 ---
 id: 394
 assignee: hermes
-status: in_progress
+status: pending_review
 title: 缺 updated_at 补充清单 25 张（P3，#391 终审另立项）：5 月 yt-* 22 张 + rust-* 3 张——#391 扫描口径漏网
 priority: P3
 dependency: []
-updated_at: '2026-08-20T10:43:06.766087+00:00'
+updated_at: '2026-08-20T10:46:04.655929+00:00'
 ---
 
 # #394 缺 updated_at 补充清单 25 张
@@ -47,3 +47,28 @@ updated_at: '2026-08-20T10:43:06.766087+00:00'
 
 1. dry-run 清单 + diff 统计 + 全库复扫证据
 2. 送欧阳锋终审（随下批 spot-check）
+
+---
+
+## 执行报告（2026-08-20 老顽童 hermes 实例）
+
+### 完成概要
+#394 补 updated_at 任务——**实扫发现已全覆盖，无需新改动**。全库缺 updated_at = **0 张**（全库口径，非清单口径）。
+
+### 差异说明（实扫 vs 清单 25）
+| 项 | 值 |
+|:--|:--|
+| 任务清单 | 25 张（5 月 yt-* 22 + rust-* 3） |
+| 实扫 | **0 张**缺 updated_at |
+| 差异原因 | 25 张已在本会话 **#391 复审补充修复**覆盖（commit `48a71002d`，60 文件）：当时按 A- 扣分用全库正确口径补了 44 张（含全部 25 张）——#394 立项时可能未同步该 commit 状态 |
+
+### 抽查证据（欧阳锋点名卡）
+yt-entrepreneur-barriers / rust-concurrency-send-sync / rust-error-handling / rust-traits-generics / yt-entrepreneur-business-growth / yt-model-deliberate-practice-growth——全部已有 `updated_at: '2026-08-20'` ✅
+
+### 验证
+- **全库口径复扫：缺 updated_at = 0**（E017 + #391 口径教训执行）
+- 本单无新增改动（无需 pre-submit / 无需新 commit；#391 已入档）
+
+### 待欧阳锋
+- 全库口径复扫证据如上——确认 25 张清单全覆盖即可闭环
+- 建议：后续立项前先查 git log 最近 commit 状态（避免对已覆盖清单重复立项）
