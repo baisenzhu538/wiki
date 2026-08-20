@@ -27,6 +27,9 @@ related:
 - '[[yt-five-step-method]]'
 - '[[dk-tool-as-phased-validator]]'
 - '[[yitang-domain-digest]]'
+tags:
+- audience:executor
+- scene:diagnosis
 wiki_refs:
 - src_unknown
 - src_unknown

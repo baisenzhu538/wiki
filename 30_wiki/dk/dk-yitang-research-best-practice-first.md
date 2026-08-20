@@ -32,6 +32,9 @@ related:
   - "[[tool-ai-deliverable-polish-loop]]"
   - "[[yitang-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
+tags:
+- audience:executor
+- scene:diagnosis
 updated_at: 2026-07-02
 ---
 # 做重要设计前先摸行业最佳实践

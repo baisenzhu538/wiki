@@ -33,6 +33,9 @@ related:
   - tool-leadership-feedback-cards
   - framework-coaching-leadership-core
   - tool-coaching-communication-four-layers
+tags:
+- audience:manager
+- scene:execution
 quality_labels: [validated, actionable, insight]
 ---
 

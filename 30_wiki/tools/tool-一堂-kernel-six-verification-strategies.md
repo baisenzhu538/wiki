@@ -37,6 +37,9 @@ related:
   - "[[concept-一堂-hypothesis-driven-business-methodology]]"
   - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
   - "[[case-一堂-无人餐厅-hypothesis-failure]]"
+tags:
+- audience:executor
+- scene:execution
 aliases:
   - 聊问查测盘赌产品内核六策略完整操作手册
   - 聊问查测盘赌

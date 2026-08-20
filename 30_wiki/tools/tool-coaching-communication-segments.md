@@ -34,6 +34,9 @@ related:
   - tool-leadership-feedback-cards
   - framework-coaching-leadership-core
   - framework-leadership-five-ladders
+tags:
+- audience:executor
+- scene:execution
 quality_labels: [actionable, validated, quotable]
 ---
 

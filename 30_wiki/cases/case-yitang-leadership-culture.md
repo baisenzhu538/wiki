@@ -32,6 +32,9 @@ related:
   - framework-leadership-coin-model
   - management-domain-digest
   - framework-how-to-know-a-person
+tags:
+- audience:manager
+- scene:execution
 quality_labels: [validated, insight, quotable]
 ---
 

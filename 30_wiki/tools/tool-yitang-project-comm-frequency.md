@@ -26,6 +26,9 @@ related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-communication-plan]]"
 - "[[tool-yitang-project-progress-tracking]]"
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 - signal: 项目节奏混乱——该日报的时候发周报，该深度陪的时候只在群里问
   lens: 沟通频次和项目阶段不匹配

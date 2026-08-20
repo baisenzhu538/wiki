@@ -30,6 +30,9 @@ diagnostic_signals:
   lens: 缺JTBD三维度——只有功能任务没有情感/社交任务
   follow-up: 用本字典的情感任务速查表补全
 quality_labels:
+tags:
+- audience:manager
+- scene:reference
 - principle
 ---
 

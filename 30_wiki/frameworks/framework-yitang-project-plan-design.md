@@ -32,6 +32,9 @@ related:
 - '[[skill-yitang-project-spiral-thinking]]'
 - '[[yt-decision-y-model]]'
 - '[[yt-management-goal-management]]'
+tags:
+- audience:manager
+- scene:planning
 diagnostic_signals:
 - signal: 方案被反复推翻，每次评审都问"背景是什么"
   lens: 缺背景分析——直接跳到解决方案

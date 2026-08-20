@@ -26,6 +26,9 @@ related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-cost-estimation]]"
 - "[[tool-yitang-project-unblock-techniques]]"
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 - signal: 项目缺资源但不敢或不会向老板开口——总觉得"要资源=显得自己能力不够"
   lens: 把资源等同于"加钱加人"——其实老板能给的远不止这些

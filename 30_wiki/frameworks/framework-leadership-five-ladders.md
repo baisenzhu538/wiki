@@ -38,6 +38,9 @@ related:
   - framework-how-to-know-a-person
   - framework-truman-feature-layered-system
   - yt-management-leadership-levels
+tags:
+- audience:manager
+- scene:planning
 quality_labels: [principle, actionable, validated]
 ---
 

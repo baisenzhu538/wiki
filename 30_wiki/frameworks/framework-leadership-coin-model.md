@@ -32,6 +32,9 @@ related:
   - framework-how-to-know-a-person
   - management-domain-digest
   - concept-一堂-基本功-刻意练习四要素
+tags:
+- audience:manager
+- scene:planning
 quality_labels: [principle, actionable, quotable]
 ---
 

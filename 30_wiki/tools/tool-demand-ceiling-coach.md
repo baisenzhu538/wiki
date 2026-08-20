@@ -36,6 +36,9 @@ related:
 - '[[domain-demand-analysis-index]]'
 - '[[yt-entrepreneur-unit-model]]'
 - '[[yt-market-size-estimation]]'
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 quality_labels:
 - actionable

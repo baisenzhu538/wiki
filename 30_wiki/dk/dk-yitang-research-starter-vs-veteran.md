@@ -31,6 +31,9 @@ related:
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
   - "[[pending_unknown]]"
+tags:
+- audience:executor
+- scene:diagnosis
 updated_at: 2026-06-28
 ---
 

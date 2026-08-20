@@ -42,6 +42,9 @@ related:
   - "[[yt-management-project-management]]"
   - "[[case-meeting-roi-awakening]]"
   - "[[dk-meeting-asset-harvest]]"
+tags:
+- audience:manager
+- scene:execution
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

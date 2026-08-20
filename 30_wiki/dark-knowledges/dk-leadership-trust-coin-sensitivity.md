@@ -32,6 +32,9 @@ related:
   - framework-leadership-five-ladders
   - tool-leadership-feedback-cards
   - framework-how-to-know-a-person
+tags:
+- audience:executor
+- scene:diagnosis
 quality_labels: [insight, actionable, principle]
 ---
 

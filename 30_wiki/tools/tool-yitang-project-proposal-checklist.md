@@ -26,6 +26,9 @@ related:
 - "[[yt-management-project-management]]"
 - "[[framework-yitang-project-plan-design]]"
 - "[[tool-yitang-project-plan-canvas]]"
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 - signal: 方案写完了但老板说"看不懂"、同事说"没法执行"
   lens: 缺方案质量自检——只关注内容不关注呈现

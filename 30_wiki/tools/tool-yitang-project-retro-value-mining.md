@@ -26,6 +26,9 @@ related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-gap-analysis]]"
 - "[[framework-yitang-project-retrospective]]"
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 quality_labels:
 - actionable

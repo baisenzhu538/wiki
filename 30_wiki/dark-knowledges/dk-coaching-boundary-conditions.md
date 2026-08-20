@@ -32,6 +32,9 @@ related:
   - tool-coaching-communication-four-layers
   - framework-leadership-five-ladders
   - management-domain-digest
+tags:
+- audience:executor
+- scene:diagnosis
 quality_labels: [insight, principle, quotable]
 ---
 

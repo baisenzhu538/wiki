@@ -41,6 +41,9 @@ related:
 - '[[framework-ai-deliberate-practice-loop]]'
 - '[[yt-model-deliberate-practice-growth]]'
 - '[[yt-note-deliberate-practice-four-elements]]'
+tags:
+- audience:executor
+- scene:diagnosis
 ---
 
 # 刻意练习常见陷阱：老学员最容易踩的 7 个坑

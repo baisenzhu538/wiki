@@ -34,6 +34,8 @@ tags:
 - supply-chain
 - seasoning
 - chuanhe
+- audience:manager
+- scene:execution
 related:
 - "[[concept-一堂-product-kernel]]"
 - "[[concept-一堂-kernel-iteration]]"

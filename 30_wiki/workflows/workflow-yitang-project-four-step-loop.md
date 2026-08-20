@@ -1,4 +1,4 @@
-﻿---
+---
 id: workflow-yitang-project-four-step-loop
 title: 项目四步闭环工作流：定方案→拆计划→管过程→做复盘
 type: workflow
@@ -45,6 +45,9 @@ diagnostic_signals:
   lens: 工具没跟着复杂度走——ABCD分类没有和四步闭环联动
   follow-up: 对照ABCD分级表，A级项目只需走轻量版四步（口头目标→口头分工→站会跟进→口头复盘）
 quality_labels:
+tags:
+- audience:executor
+- scene:execution
 - principle
 - workflow
 - actionable

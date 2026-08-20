@@ -25,11 +25,13 @@ discoverable_by:
   - 赞美墙
   - 用积极情绪前置为深度工作预热场景质量
 tags:
-  - "#yitang"
-  - "#time-management"
-  - "#场景质量"
-  - "#情绪管理"
-  - "#心流前置"
+- #yitang
+- #time-management
+- #场景质量
+- #情绪管理
+- #心流前置
+- audience:manager
+- scene:execution
 created_at: 2026-07-08
 updated_at: 2026-07-08
 author: 黄药师

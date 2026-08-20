@@ -39,6 +39,8 @@ tags:
 - fmcg
 - shampoo
 - consumer-goods
+- audience:manager
+- scene:execution
 related:
 - "[[concept-一堂-product-kernel]]"
 - "[[concept-一堂-kernel-validation]]"

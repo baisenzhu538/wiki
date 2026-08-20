@@ -35,6 +35,9 @@ related:
 - '[[tool-一堂-业务公式-L1L6参数分层自检]]'
 - '[[business-formula-domain-digest]]'
 - '[[dk-yitang-business-formula-skip-level-entry]]'
+tags:
+- audience:executor
+- scene:diagnosis
 quality_labels:
 - cited
 - framework

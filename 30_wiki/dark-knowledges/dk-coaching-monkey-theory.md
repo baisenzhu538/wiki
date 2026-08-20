@@ -33,6 +33,9 @@ related:
   - framework-coaching-leadership-core
   - framework-leadership-five-ladders
   - management-domain-digest
+tags:
+- audience:executor
+- scene:diagnosis
 quality_labels: [insight, principle, validated]
 ---
 

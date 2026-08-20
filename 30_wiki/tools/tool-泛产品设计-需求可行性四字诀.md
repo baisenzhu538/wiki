@@ -32,6 +32,9 @@ related:
 - '[[yt-model-pan-product-product-core]]'
 - '[[yt-model-pan-product-unit-model]]'
 - '[[framework-一堂五步法-泛产品设计]]'
+tags:
+- audience:executor
+- scene:execution
 aliases:
 - 泛产品设计需求可行性四字诀拆推评算
 - 泛产品设计

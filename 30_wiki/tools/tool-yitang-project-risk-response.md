@@ -26,6 +26,9 @@ related:
 - "[[yt-management-project-management]]"
 - "[[framework-yitang-project-plan-design]]"
 - "[[tool-yitang-project-risk-discovery]]"
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 quality_labels:
 - actionable

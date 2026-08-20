@@ -33,6 +33,9 @@ related:
   - tool-leadership-feedback-cards
   - management-domain-digest
   - framework-how-to-know-a-person
+tags:
+- audience:executor
+- scene:execution
 quality_labels: [actionable, insight]
 ---
 

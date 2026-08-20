@@ -35,6 +35,8 @@ tags:
 - communication-module
 - b2b
 - qinpeng
+- audience:manager
+- scene:execution
 related:
 - "[[concept-一堂-product-kernel]]"
 - "[[concept-一堂-kernel-validation]]"

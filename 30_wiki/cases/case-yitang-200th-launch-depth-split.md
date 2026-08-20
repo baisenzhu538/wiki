@@ -23,11 +23,13 @@ discoverable_by:
   - 一堂第200期发布会
   - 先把任务按深度拆开，圆的配圆的时间，方的配方的时间
 tags:
-  - "#yitang"
-  - "#time-management"
-  - "#三门模型"
-  - "#任务拆解"
-  - "#深度分级"
+- #yitang
+- #time-management
+- #三门模型
+- #任务拆解
+- #深度分级
+- audience:manager
+- scene:execution
 created_at: 2026-07-08
 updated_at: 2026-07-08
 author: 黄药师

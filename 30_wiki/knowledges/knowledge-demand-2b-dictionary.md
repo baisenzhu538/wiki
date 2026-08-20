@@ -30,6 +30,9 @@ diagnostic_signals:
   lens: 多角色缺失——B2B决策链有4-7个角色
   follow-up: 用本字典的多角色映射，列出所有决策参与者
 quality_labels:
+tags:
+- audience:manager
+- scene:reference
 - principle
 ---
 

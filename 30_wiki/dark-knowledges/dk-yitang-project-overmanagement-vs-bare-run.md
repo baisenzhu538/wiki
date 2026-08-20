@@ -40,6 +40,9 @@ related:
 - "[[workflow-yitang-project-four-step-loop]]"
 - "[[yt-management-project-management]]"
 - "[[yt-management-basic-skills]]"
+tags:
+- audience:executor
+- scene:diagnosis
 diagnostic_signals:
 - signal: 团队流程越加越多但产出越来越慢——团队开始厌恶流程，有人私下绕过所有规则做事
   lens: 进入了"过度管理死亡螺旋"——每一轮都加流程试图堵漏洞，但流程本身变成了最大瓶颈

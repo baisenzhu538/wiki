@@ -34,6 +34,9 @@ related:
   - framework-how-to-know-a-person
   - framework-truman-feature-layered-system
   - human-insights-domain-digest
+tags:
+- audience:manager
+- scene:planning
 quality_labels: [principle, actionable, insight]
 ---
 

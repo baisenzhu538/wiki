@@ -33,6 +33,9 @@ related:
   - tool-leadership-feedback-cards
   - tool-leadership-three-stubborn-subordinates
   - framework-how-to-know-a-person
+tags:
+- audience:manager
+- scene:execution
 quality_labels: [validated, actionable, insight]
 ---
 

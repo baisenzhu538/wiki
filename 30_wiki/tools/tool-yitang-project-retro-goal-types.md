@@ -26,6 +26,9 @@ related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-retro-value-mining]]"
 - "[[tool-yitang-project-gap-analysis]]"
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 - signal: 复盘时什么都想复盘，结果什么都没深入——目标不聚焦
   lens: 复盘前没想清楚"这次主要复盘什么"

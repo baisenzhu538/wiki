@@ -26,6 +26,9 @@ related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-retro-value-mining]]"
 - "[[framework-yitang-project-retrospective]]"
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 - signal: 复盘时只会说"这次做得不好"，但说不清到底哪里不好
   lens: 缺结构化差距分析——笼统评价无法指导改进

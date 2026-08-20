@@ -16,6 +16,9 @@ source_refs:
 - 00_inbox/底层逻辑之一-Y模型/底层逻辑之一Y模型-口述.txt
 - 60_feedback/extractions/extraction-kexue-linian-y-model.md
 related:
+tags:
+- audience:general
+- scene:reference
 - "[[yt-decision-y-model]]"
 - "[[concept-yitang-model-system-boundary]]"
 - "[[method-yitang-y-model-engine-cycle]]"

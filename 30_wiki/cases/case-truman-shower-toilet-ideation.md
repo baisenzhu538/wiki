@@ -25,11 +25,13 @@ discoverable_by:
   - 洗澡/厕所灵感爆发
   - 暗时间如何在脑力CPU不饱和时产出高价值创意
 tags:
-  - "#yitang"
-  - "#time-management"
-  - "#暗时间"
-  - "#灵感闪现"
-  - "#三门模型"
+- #yitang
+- #time-management
+- #暗时间
+- #灵感闪现
+- #三门模型
+- audience:manager
+- scene:execution
 created_at: 2026-07-08
 updated_at: 2026-07-08
 author: 黄药师

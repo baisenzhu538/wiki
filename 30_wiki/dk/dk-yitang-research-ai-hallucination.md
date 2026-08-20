@@ -29,6 +29,9 @@ related:
   - "[[ai-collaboration-domain-digest]]"
   
   
+tags:
+- audience:executor
+- scene:diagnosis
 updated_at: 2026-06-28
 ---
 

@@ -32,6 +32,9 @@ related:
 - '[[yt-business-formula-abc-model]]'
 - '[[tool-yitang-hypothesis-marginal-roi]]'
 - '[[business-formula-domain-digest]]'
+tags:
+- audience:executor
+- scene:diagnosis
 quality_labels:
 - cited
 - boundary

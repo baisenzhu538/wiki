@@ -42,6 +42,9 @@ related:
   - "[[framework-meeting-ten-principles]]"
   - "[[tool-meeting-result-principles]]"
   - "[[dk-meeting-roi-first]]"
+tags:
+- audience:executor
+- scene:execution
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

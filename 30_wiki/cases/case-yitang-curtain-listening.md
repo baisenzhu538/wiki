@@ -26,11 +26,13 @@ discoverable_by:
   - 一堂帘子隔音
   - 用物理隔离在开放式办公中创造可调场景质量
 tags:
-  - "#yitang"
-  - "#time-management"
-  - "#场景质量"
-  - "#物理隔离"
-  - "#开放式办公"
+- #yitang
+- #time-management
+- #场景质量
+- #物理隔离
+- #开放式办公
+- audience:manager
+- scene:execution
 created_at: 2026-07-08
 updated_at: 2026-07-08
 author: 黄药师

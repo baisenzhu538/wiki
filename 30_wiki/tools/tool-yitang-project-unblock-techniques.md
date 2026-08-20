@@ -25,6 +25,9 @@ discoverable_by:
 related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-progress-tracking]]"
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 quality_labels:
 - actionable

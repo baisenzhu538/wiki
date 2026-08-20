@@ -40,6 +40,9 @@ related:
   - "[[dk-yitang-sales-common-pitfalls]]"
   - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[tool-yitang-sales-performance-management]]"
+tags:
+- audience:executor
+- scene:execution
 created_at: 2026-07-08
 updated_at: 2026-07-08
 ---

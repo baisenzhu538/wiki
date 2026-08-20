@@ -64,6 +64,9 @@ tcp_session_opening: 我本次以 C（Consult/咨询教练）身份与你协作�
 os_sources:
 - agents/agent-os.md
 domain_sources:
+tags:
+- audience:agent
+- scene:execution
 - 30_wiki/concepts/yt-management-project-management.md
 - 30_wiki/frameworks/framework-yitang-project-abcd-classification.md
 - 30_wiki/frameworks/framework-yitang-project-breakdown.md

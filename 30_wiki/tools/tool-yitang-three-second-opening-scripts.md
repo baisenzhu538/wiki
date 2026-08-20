@@ -32,6 +32,9 @@ related:
   - "[[tool-yitang-sales-process-decomposition]]"
   - "[[tool-yitang-sales-toolkit-radar]]"
   - "[[tool-yitang-sales-performance-management]]"
+tags:
+- audience:executor
+- scene:execution
 aliases:
   - 一通电话前三秒话术优化卡
   - 李蕊

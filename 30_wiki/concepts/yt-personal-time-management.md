@@ -66,11 +66,13 @@ related:
   - "[[case-truman-praise-wall-precondition]]"
   - "[[case-yitang-curtain-listening]]"
 tags:
-  - "#yitang"
-  - "#time-management"
-  - "#personal"
-  - "#三门模型"
-  - "#深度工作"
+- #yitang
+- #time-management
+- #personal
+- #三门模型
+- #深度工作
+- audience:general
+- scene:reference
 diagnostic_signals:
   - framework_lens: 时间管理的本质不是效率而是选择
     follow_up_question: 你最近一周的高能量时段，有多少比例花在了L3核心目标上？

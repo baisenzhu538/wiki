@@ -33,6 +33,9 @@ related:
   - tool-leadership-listening-cards
   - framework-yitang-y-model-cross-domain-fusion
   - framework-how-to-know-a-person
+tags:
+- audience:executor
+- scene:execution
 quality_labels: [actionable, insight, validated]
 ---
 

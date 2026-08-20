@@ -30,6 +30,9 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+tags:
+- audience:executor
+- scene:diagnosis
 quality_labels:
 - validated
 updated_at: 2026-06-28

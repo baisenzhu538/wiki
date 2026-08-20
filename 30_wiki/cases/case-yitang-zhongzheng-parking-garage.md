@@ -36,6 +36,8 @@ tags:
 - tob
 - hardware
 - zhongzheng
+- audience:manager
+- scene:execution
 related:
 - "[[concept-一堂-product-kernel]]"
 - "[[concept-一堂-kernel-iteration]]"

@@ -33,6 +33,9 @@ related:
   - tool-leadership-feedback-cards
   - framework-coaching-leadership-core
   - case-coaching-dialogue-three-versions
+tags:
+- audience:executor
+- scene:diagnosis
 quality_labels: [insight, actionable, validated]
 ---
 

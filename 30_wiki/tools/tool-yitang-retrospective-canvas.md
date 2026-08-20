@@ -33,6 +33,9 @@ related:
 - "[[tool-yitang-project-plan-canvas]]"
 - "[[tool-yitang-project-breakdown-cheatsheet]]"
 - "[[yt-management-basic-skills]]"
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 quality_labels:
 - actionable

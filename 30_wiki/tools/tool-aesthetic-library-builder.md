@@ -31,6 +31,9 @@ related:
 - "[[method-yihang-aesthetic-fast-build]]"
 - "[[case-yihang-truman-aesthetic-library-practices]]"
 - "[[concept-yihang-dual-triangle-core]]"
+tags:
+- audience:executor
+- scene:execution
 ---
 # 审美库采集工具：批量抓取→打分→筛选→生成 DataPack
 

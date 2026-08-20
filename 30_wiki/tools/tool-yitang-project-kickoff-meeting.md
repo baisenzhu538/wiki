@@ -46,6 +46,9 @@ related:
   - '[[tool-meeting-execution-principles]]'
   - '[[case-truman-meeting-leadership]]'
   - '[[case-meeting-roi-awakening]]'
+tags:
+- audience:executor
+- scene:execution
 ---
 
 # 项目启动会设计模板：两小时对齐六件事，后面不用跑断腿

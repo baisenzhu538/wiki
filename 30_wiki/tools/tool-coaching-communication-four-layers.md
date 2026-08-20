@@ -33,6 +33,9 @@ related:
   - framework-coaching-leadership-core
   - framework-leadership-five-ladders
   - tool-coaching-communication-segments
+tags:
+- audience:executor
+- scene:execution
 quality_labels: [actionable, insight, validated]
 ---
 

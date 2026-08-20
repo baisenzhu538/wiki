@@ -33,6 +33,9 @@ related:
   - "[[case-yitang-sales-transformation-jubensha-saas]]"
   - "[[framework-yitang-deliberate-practice-1plus4]]"
   - "[[tool-opc-sales-dialogue-assistant]]"
+tags:
+- audience:executor
+- scene:execution
 aliases:
   - 销售工具武器库成熟度盘点
   - 李蕊

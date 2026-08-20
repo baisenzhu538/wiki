@@ -36,6 +36,9 @@ related:
   - tool-leadership-listening-cards
   - tool-leadership-questioning-cards
   - tool-leadership-feedback-cards
+tags:
+- audience:manager
+- scene:reference
 quality_labels: [insight, actionable]
 ---
 

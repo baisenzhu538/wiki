@@ -35,6 +35,9 @@ related:
   - tool-leadership-feedback-cards
   - tool-一堂-kernel-three-questions
   - framework-how-to-know-a-person
+tags:
+- audience:executor
+- scene:execution
 quality_labels: [actionable, insight, quotable]
 ---
 

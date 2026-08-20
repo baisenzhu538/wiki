@@ -38,6 +38,9 @@ related:
   - "[[yt-management-goal-management]]"
   - "[[yt-unit-model-overview]]"
   - "[[opc-ai-sales-agent-architecture]]"
+tags:
+- audience:manager
+- scene:planning
 created_at: 2026-07-08
 updated_at: 2026-07-08
 discoverable_by:

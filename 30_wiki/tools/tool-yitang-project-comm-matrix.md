@@ -26,6 +26,9 @@ related:
 - "[[yt-management-project-management]]"
 - "[[tool-yitang-project-comm-frequency]]"
 - "[[tool-yitang-project-communication-plan]]"
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 - signal: 沟通方式选错——简单事开了大会，重要决策只在群里说了一句
   lens: 缺沟通方式选择框架——凭习惯而不是凭场景

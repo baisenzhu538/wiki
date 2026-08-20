@@ -25,11 +25,13 @@ discoverable_by:
   - 一堂会议室场景匹配
   - 同一个屋子不同布置，产出效率差一倍
 tags:
-  - "#yitang"
-  - "#time-management"
-  - "#三门模型"
-  - "#场景质量"
-  - "#物理环境"
+- #yitang
+- #time-management
+- #三门模型
+- #场景质量
+- #物理环境
+- audience:manager
+- scene:execution
 created_at: 2026-07-08
 updated_at: 2026-07-08
 author: 黄药师

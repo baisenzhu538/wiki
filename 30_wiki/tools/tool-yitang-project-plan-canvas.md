@@ -33,6 +33,9 @@ related:
 - '[[yt-management-goal-management]]'
 - '[[yt-management-scientific-meetings]]'
 - '[[yt-tool-meeting-designer]]'
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 - signal: 方案写了一堆但没人能在一页纸上看清楚
   lens: 缺画布——信息散落各处

@@ -34,6 +34,9 @@ related:
   - management-domain-digest
   - framework-how-to-know-a-person
   - framework-truman-feature-layered-system
+tags:
+- audience:executor
+- scene:execution
 quality_labels: [actionable, insight, validated]
 ---
 

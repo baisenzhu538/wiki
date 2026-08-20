@@ -34,6 +34,9 @@ related:
   - tool-leadership-feedback-cards
   - tool-yitang-listening-37-rule
   - framework-how-to-know-a-person
+tags:
+- audience:executor
+- scene:execution
 quality_labels: [actionable, insight, quotable]
 ---
 

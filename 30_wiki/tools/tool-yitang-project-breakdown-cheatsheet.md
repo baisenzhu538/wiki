@@ -35,6 +35,9 @@ related:
 - "[[yt-management-basic-skills]]"
 - "[[yt-management-goal-management]]"
 - "[[workflow-yitang-project-four-step-loop]]"
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 - signal: 做项目计划每次都要重新翻课程笔记，找不到关键检查点
   lens: 缺速查工具——方法论记住了但操作时遗忘细节

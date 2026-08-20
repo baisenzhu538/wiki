@@ -26,6 +26,9 @@ related:
 - "[[yt-management-project-management]]"
 - "[[framework-yitang-project-plan-design]]"
 - "[[tool-yitang-project-plan-canvas]]"
+tags:
+- audience:executor
+- scene:execution
 diagnostic_signals:
 - signal: 预算只算了"花多少钱"，没算人力和负收益，实际成本远超预期
   lens: 成本估算维度不全——只看到显性成本
