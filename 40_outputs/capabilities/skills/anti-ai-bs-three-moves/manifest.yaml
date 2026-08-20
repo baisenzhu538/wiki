@@ -1,0 +1,50 @@
+name: anti-ai-bs-three-moves
+version: "0.1.0"
+description: "甄别 AI 输出可靠性的三层阶梯——①看不懂→让 AI 解释 ②仍困惑→找同类事件 ③再不行→最低成本验证。第三层仍未过→标记存疑而非采信。源自龙虾员工数字员工实践，tool-anti-ai-bs-three-moves 卡行为化。"
+author: 老顽童
+adapted_by: 老顽童
+adapted_from: tool-anti-ai-bs-three-moves（30_wiki/tools/tool-anti-ai-bs-three-moves.md）
+source_refs:
+- 00_inbox/龙虾员工实践/AI经验分享-数字员工搭建-口述.txt（L654-660）
+entrypoint: SKILL.md
+trigger:
+  natural_language:
+    - "AI 给的方案靠不靠谱"
+    - "这个回答我看不懂"
+    - "AI 是不是在忽悠"
+    - "要不要采信 AI 输出"
+    - "防忽悠"
+    - "三层验证 AI 输出"
+dependencies: {}
+outputs: {}
+platforms:
+- windows
+eval:
+  cases:
+    - id: eval-001
+      tests: layer-1-explain
+      input: "AI 给了个方案说能解决我的问题，但我完全没看懂它在讲什么，靠不靠谱？"
+      expected_output_contains:
+        - 第一层
+        - 详细解释
+        - 用具体例子
+      expected_output_not_contain:
+        - 直接采信
+    - id: eval-002
+      tests: layer-2-same-kind-matrix
+      input: "架构师推荐用 Matrix 做我的 AI 协作平台，说开源支持群聊，靠谱吗？"
+      expected_output_contains:
+        - 第二层
+        - 同类型
+        - 消息分发
+      expected_output_not_contain:
+        - 直接采信
+    - id: eval-003
+      tests: terminate-doubt
+      input: "我让 AI 跑了最低成本验证，失败了但它说没事不影响，我该信吗？"
+      expected_output_contains:
+        - 第三层
+        - 标记存疑
+        - 独立核实
+      expected_output_not_contain:
+        - 采信继续

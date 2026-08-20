@@ -87,6 +87,12 @@ AI 会夸大、前后矛盾、逻辑有问题（L298"AI 老师是这个风格"�
 - 高成本决策依赖 AI 信息 → 启动第三招（最低成本验证）
 - 豆包/GPT 说"可以用的工作流"但你没验证 → 第三招直接验证
 
+## 行为化（#405 skill 结晶）
+
+- **skill**：`40_outputs/capabilities/skills/anti-ai-bs-three-moves/SKILL.md`（+ manifest.yaml + .claude/skills 双写）——三层阶梯行为化（解释→找同类→最低成本验证），含话术模板+终止条件（第三层仍未过→标记存疑而非采信）+ Matrix 回放实测（第二层拦下）
+- **kdo skill validate**：3 eval cases 全 PASS（能力+回归）
+- 本卡为"知"，skill 为"行"——知行合一纲领第一个示范项（parking-lot-wangyuyan #1）
+
 ## 7. 与其他知识的关联
 
 - `case-investment-claim-fact-check`：AI 揪出博主五错误（验证阶梯的实战案例）
