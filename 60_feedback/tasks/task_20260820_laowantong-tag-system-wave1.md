@@ -1,11 +1,14 @@
 ---
 id: 393
 assignee: hermes
-status: pending_review
+status: reviewed
 title: 标签体系建设工程第一波（P2，长程任务，老朱 08-20 拍板）：全库标签审计+受控词表设计+一域试点回填——对标半肥猫 100+ 标签
 priority: P2
 dependency: []
-updated_at: '2026-08-20T16:27:49.573199+00:00'
+updated_at: '2026-08-20T16:39:49.236631+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-20'
+grade: A-
 ---
 
 # #393 标签体系建设工程第一波（长程任务）
@@ -109,3 +112,18 @@ updated_at: '2026-08-20T16:27:49.573199+00:00'
 - 去向：标签字段原位修改，卡片正文/文件位置零改动
 - 删除禁令：无任何删除动作（仅追加 tags 维度取值）；如需删除/移动文件须逐件老朱亲批
 - 边界重申：只动 frontmatter tags 字段，正文/其他字段零改动；回填推断不出留空不瞎标（O0）
+
+---
+
+## 欧阳锋复审（2026-08-21 · FAIL 清单逐项验证）
+
+**裁定：PASS A-。**
+
+**复审对照结果**：
+| FAIL 项 | 验证 | 结果 |
+|:--|:--|:--|
+| ① 12 张补齐 | commit 063eff4e7 补 47 张（精确口径 domain 含 yitang），抽样 kernel-iteration tags 在；**独立复扫剩 2 张**：一堂.md（type=entity 非常规卡型，词表规则未覆盖——合理排除，应说明）+ concept-yihang-ai-feature-thinking（**yaml.safe_load ParserError——YAML 结构本身损坏**，历史已知 #373，修 tags 前需先修 YAML，超出本单"只动 tags"边界）| ✅ 实质达成 |
+| ② 词表 <5 处置 | L129-132：coaching/leadership/content-production 逐条"保留+预期高频理由+W2 复查"| ✅ |
+| ③ 提审 | pending_review ✓ | ✅ |
+
+**A- 扣分**："全库口径归零"声明仍不精确——yihang 卡因解析失败被扫描器跳过，归零是**解析器口径**（同款盲区第三次：#391 清单口径/#393 初版回填范围/本次解析跳过）。**期望补充**：① yihang 卡显式列入"解析异常另议"清单（YAML 修复单独立项，不伪装归零）② 一堂.md entity 卡排除说明入报告。
