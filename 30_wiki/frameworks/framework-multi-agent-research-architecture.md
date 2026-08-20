@@ -178,6 +178,8 @@ LangChain 2025 年 benchmark：**Swarm 比 Supervisor 少用 token，性能略�
 
 ← Pipeline 模式和 OSCAR 五步法天然对接
 
+- **Canvas 可追溯研究链接（#396 补强，forum 79711）**：调研产出去向=Obsidian Canvas 可追溯网络——"Pages are added into a canvas and then linked together to illustrate the exact thought process that leads to a research takeaway. Metadata Menu converts the canvas links into frontmatter 'links' that are then traceable with a few scripts"（证据源→逻辑步骤→结论全链路可溯源，插件栈 Dataview/DB Folder/Metadata Menu/Simple CanvaSearch/Templater）——多 Agent 调研架构的产出层可对接此模式
+
 ---
 
 ## 失败模式（补充）
