@@ -1,10 +1,11 @@
 ---
 id: 394
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 title: 缺 updated_at 补充清单 25 张（P3，#391 终审另立项）：5 月 yt-* 22 张 + rust-* 3 张——#391 扫描口径漏网
 priority: P3
 dependency: []
+updated_at: '2026-08-20T10:43:06.766087+00:00'
 ---
 
 # #394 缺 updated_at 补充清单 25 张
