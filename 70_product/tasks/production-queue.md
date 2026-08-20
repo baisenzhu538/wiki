@@ -425,7 +425,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 402 | `task_20260821_huangyaoshi-task-workspace` | 长程任务项目空间试点（P2，黄药师建议书 L3，王语嫣采纳）：跨会话持久 workspace（中间态/已排除方向/上次停在哪）——#393 标签体系试点 | queued | huangyaoshi | 机制+试点 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-task-workspace.md` | claim 门禁联动建 workspace；与 #390/#399 共存零冲突；换会话续作实测为验收动作；欧阳锋终审 |
 | 403 | `task_20260821_huangyaoshi-agent-birth-gate` | agent 出生模板前置闸两问（P3，L2+L6 合并）：传话反模式检查+AI 人效第 0 问（现有角色+workflow 能覆盖就不新造） | queued | huangyaoshi | 模板+实测 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-agent-birth-gate.md` | 只改出生模板不改现有 agent；假想调度 agent 提案被拦实测；欧阳锋终审 |
 | 404 | `task_20260821_huangyaoshi-trust-injection-gate` | trust 注入端源优先（P3，L4，王语嫣降级+加前提）：先出 KDO 侧低质源污染实证（无则关单），有实证才做 min_trust 参数+受信源清单 | queued | huangyaoshi | 实证+条件机制 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-trust-injection-gate.md` | ⚠️建议书证据全来自龙虾员工非本厂痛点——先证后修，无实证即关闭；行为改变须前后对比实测；不动默认检索行为；欧阳锋终审 |
-| 405 | `task_20260821_laowantong-anti-bs-skill` | 防忽悠三层法 skill 结晶（P3，L5，王语嫣采纳+纠偏）：tool-anti-ai-bs-three-moves 卡的行为化——知行合一纲领第一个示范项 | pending_review | laowantong | skill+实测 | 无 | `60_feedback/tasks/task_20260821_laowantong-anti-bs-skill.md` | ⚠️L7 纠偏：#379 已有同名卡，本单是行为化非新内容；platforms 用 OS 值（E030）；Matrix 场景回放第二层拦截实测；欧阳锋终审 |
+| 405 | `task_20260821_laowantong-anti-bs-skill` | 防忽悠三层法 skill 结晶（P3，L5，王语嫣采纳+纠偏）：tool-anti-ai-bs-three-moves 卡的行为化——知行合一纲领第一个示范项 | reviewed | laowantong | skill+实测 | 无 | `60_feedback/tasks/task_20260821_laowantong-anti-bs-skill.md` | ⚠️L7 纠偏：#379 已有同名卡，本单是行为化非新内容；platforms 用 OS 值（E030）；Matrix 场景回放第二层拦截实测；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -445,7 +445,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#397 task_20260820_laowantong-yuebai-link-campaign｜hermes｜提审 08-21 00:47｜60_feedback/tasks/task_20260820_laowantong-yuebai-link-campaign.md~~ → 已终审 PASS A-（2026-08-20 欧阳锋）
 - ~~#398 task_20260820_laowantong-orphan-link-minibatch｜hermes｜提审 08-21 00:58｜60_feedback/tasks/task_20260820_laowantong-orphan-link-minibatch.md~~ → 已终审 PASS A（2026-08-20 欧阳锋）
 - ~~#400 task_20260821_laowantong-digital-employee-transcript｜hermes｜提审 08-21 01:10｜60_feedback/tasks/task_20260821_laowantong-digital-employee-transcript.md~~ → 已终审 PASS A（2026-08-20 欧阳锋）
-- #405 task_20260821_laowantong-anti-bs-skill｜hermes｜提审 08-21 01:35｜60_feedback/tasks/task_20260821_laowantong-anti-bs-skill.md
+- ~~#405 task_20260821_laowantong-anti-bs-skill｜hermes｜提审 08-21 01:35｜60_feedback/tasks/task_20260821_laowantong-anti-bs-skill.md~~ → 已终审 PASS A（2026-08-20 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
