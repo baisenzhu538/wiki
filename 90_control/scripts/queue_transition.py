@@ -4,10 +4,10 @@ All queue status changes MUST go through this script. Manual edits to
 `production-queue.md` or task file `status` fields are forbidden.
 
 Usage:
-    python queue_transition.py claim <task-id> --instance <name> [--force]
-    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force]
-    python queue_transition.py release <task-id> --instance <name>
-    python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C]
+    python queue_transition.py claim <task-id> --instance <name> [--force] [--no-commit]
+    python queue_transition.py complete <task-id> --instance <name> [--evidence <path>] [--force] [--no-commit]
+    python queue_transition.py release <task-id> --instance <name> [--no-commit]
+    python queue_transition.py review <task-id> --verdict pass|fail --reviewer 欧阳锋 [--grade A|A-|B+|B|B-|C] [--no-commit]
 
 Exit codes:
     0 = transition applied
@@ -16,6 +16,12 @@ Exit codes:
 --force claim: 跳过队列前方 pending_review 阻塞（用于不同 assignee 的并行任务）
 --force complete: 允许从 queued 直接跳到 pending_review
         （用于生产已完成但未通过脚本领取的场景）
+--no-commit: 跳过流转后的自动 git 收口（#390 逃生门，特殊场景手工控制）
+
+#390：流转成功后自动 commit 本次触碰的文件（任务单+队列+dashboard），
+让"状态变更"与"入档"原子化——跨 checkout 协作者任何时候读到的都是最新状态。
+红线：path-scoped add，严禁 add -A/.（工作区永远有其他 agent 的在制品）。
+git 失败不阻断流转：stderr 醒目报警 + 写 90_control/pending-git-commits.log 待收口。
 """
 
 from __future__ import annotations
@@ -121,6 +127,76 @@ def _review_board_update(register: dict | None = None, strike: str | None = None
         QUEUE_PATH.write_text(new_text, encoding="utf-8")
     except Exception as e:
         print(f"⚠️ REVIEW-PENDING 登记失败（不阻断流转）: {e}", file=sys.stderr)
+
+
+# #390 流转自带 git 收口：流转成功后自动 commit 本次触碰的文件
+DASHBOARD_PATH = _WIKI_ROOT / "70_product" / "tasks" / "dashboard.html"
+PENDING_COMMIT_LOG = _WIKI_ROOT / "90_control" / "pending-git-commits.log"
+
+
+def _record_commit_failure(task_id: str, action: str, reason: str) -> None:
+    """git 收口失败 → 追加待收口清单（90_control/pending-git-commits.log）。
+
+    巡检/下轮可据此兜住"流转成功但未入 git"的窗口。清单写入本身失败不再上抛。
+    """
+    try:
+        ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        with PENDING_COMMIT_LOG.open("a", encoding="utf-8") as f:
+            f.write(f"{ts}\t{action}\t{task_id}\t{reason}\n")
+    except Exception:
+        pass
+
+
+def _git_commit_transition(task_id: str, action: str, actor: str) -> None:
+    """#390：流转成功后把本次触碰的文件 commit 入 git（path-scoped，禁 add -A）。
+
+    触碰集 = 任务单 + production-queue.md + dashboard.html。
+    - 仓外文件（KDO_* 环境变量沙盒测试）自动跳过；无未提交变更时静默返回
+    - git 任何失败：stderr 醒目报警 + 待收口清单记录，不阻断已成功的流转
+    - `git commit -- <paths>` 部分提交语义：别人已 staged 的在制品不被裹挟
+    """
+    try:
+        if not (_WIKI_ROOT / ".git").exists():
+            return
+        files = [QUEUE_PATH, DASHBOARD_PATH]
+        task_file = _find_task_file_dual(task_id)
+        if task_file is not None:
+            files.append(task_file)
+        rels: list[str] = []
+        for f in files:
+            try:
+                rel = str(Path(f).resolve().relative_to(_WIKI_ROOT)).replace("\\", "/")
+            except (ValueError, OSError):
+                continue  # 沙盒/多环境指向仓外 → 不属于本仓提交范围
+            if rel not in rels:
+                rels.append(rel)
+        if not rels:
+            return
+        status = subprocess.run(
+            ["git", "-C", str(_WIKI_ROOT), "status", "--porcelain", "--", *rels],
+            capture_output=True, text=True, timeout=15,
+        ).stdout
+        if not status.strip():
+            return  # 触碰文件均无未提交变更（如重复流转/手工已收口）
+        subprocess.run(
+            ["git", "-C", str(_WIKI_ROOT), "add", "--", *rels],
+            check=True, capture_output=True, text=True, timeout=15,
+        )
+        rows = parse_queue()
+        task = find_task(task_id, rows)
+        ref = f"#{task['seq']}" if task else task_id
+        subprocess.run(
+            ["git", "-C", str(_WIKI_ROOT), "commit", "-m",
+             f"chore(queue): {ref} {action} by {actor}", "--", *rels],
+            check=True, capture_output=True, text=True, timeout=15,
+        )
+    except Exception as e:
+        print(
+            f"🚨 [GIT-COMMIT-FAILED] {task_id} {action} 流转已成功但自动 commit 失败: {e}"
+            f" —— 已记入 {PENDING_COMMIT_LOG.name} 待收口清单，请手工收口",
+            file=sys.stderr,
+        )
+        _record_commit_failure(task_id, action, str(e))
 
 # KDO_TASK_DIR / KDO_BATCH_DIR 环境变量允许测试/多环境指向替代目录
 TASK_DIR = Path(
@@ -552,6 +628,7 @@ def main() -> int:
     reviewer = None
     grade = None
     force = False
+    no_commit = False
 
     i = 2
     while i < len(args):
@@ -560,6 +637,9 @@ def main() -> int:
             i += 2
         elif args[i] == "--force":
             force = True
+            i += 1
+        elif args[i] == "--no-commit":
+            no_commit = True
             i += 1
         elif args[i] == "--evidence" and i + 1 < len(args):
             evidence = args[i + 1]
@@ -609,6 +689,10 @@ def main() -> int:
     print(msg)
     if ok:
         _refresh_dashboard()
+        # #390：流转成功（含 dashboard 刷新）后自动 git 收口；门禁拦截的流转到不了这里
+        if not no_commit and action in ("claim", "complete", "release", "review"):
+            actor = reviewer if action == "review" else instance
+            _git_commit_transition(task_id, action, actor or "")
     return 0 if ok else 1
 
 
