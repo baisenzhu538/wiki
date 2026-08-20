@@ -21,7 +21,7 @@ behavioral_cards: [D1, D2, D3, D4, D5]
 1. **必读**：读 `.agent/startup.md` + `.agent/infrastructure-bulletin.md`（工厂全局、工具清单、工具登记四步法）
 2. **🆕 检查能力中台**：`python -m cap_hub list`（知道现在有什么工具、说明书、Agent配置可用）
 3. 找欧阳锋拿任务（通过飞书对话）
-4. 读 `70_product/tasks/dashboard.md` 确认自己的当前任务
+4. 读 `70_product/tasks/production-queue.md` 队列尾确认自己的当前任务（队列=唯一真相源；dashboard.md 是派生展示，非领取源——#370 治理收敛）
 5. **🆕 领取武器**：根据任务类型，查下方「武器路由」表，Read 对应 Skill/Workflow 文件。任务文件有指令 ≠ 不需要查武器——任务文件告诉你做什么，武器告诉你最优化怎么做。
 6. 执行任务 → 跑 pre-ship-check（门禁）→ 发布 → 更新 delivery-registry → 反馈回流
 

@@ -85,6 +85,14 @@ type: memory/role-recovery
 ---
 
 
+### 当前状态（2026-08-20）——审查 7 单 + codex 修复 + 三问 3 退 3 闭环
+
+- **#380 复审 PASS A**（双仓入仓纪律：KDO 仓未提交退回→commit 71c2c2e→code_files 补跨仓路径→复审闭环）+ **#381 元技能分层 PASS A** + **#382 trust 过滤 PASS A**（#380 留裁决项落地，O3 消费端实测）+ **#379 kinda 卡组 PASS A** + **#383 回链 PASS A-** + **#384 回链扫描退回 queued**（🔴 body 污染修复不彻底 2 卡 3 行——"0 ERROR≠无污染"，待老顽童全量复扫后复审）
+- **codex 故障修复（外部工具链）**：正确架构=codex-relay:4444→DeepSeek（黄药师配，start-relay.bat 守护，启动文件夹 lnk）；故障=relay 03:16 停止后守护随窗口死；修复=relay 拉起 + **schtasks Codex-Relay 开机自启（进程独立）**；教训=修复前先查真相源，kimi-proxy.py 是劣化陷阱
+- **方法论新增**：修复前真相源优先 / 事故修复验收=全量复扫+特征归零 / 0 ERROR≠无污染 / 跨仓 code_files 门禁盲区（声明必须含跨仓路径）
+- **库级观察**：30_wiki 工作区 ~160 文件累积脏（#376 遗留 frontmatter 同步 + CRLF + 历史）待批量收净
+- **相关**：技能进化日志最新 08-20 正式行；daily-context 最新 2026-08-20（正式 10 章 A 级）
+
 ### 当前状态（2026-08-18）——迁移链四单终审 + 部署类验收三态框架成型
 
 - **迁移链四单全闭环**：#347 洪七公迁 Windows **PASS A**（运行态 pid 存活+feishu connected、WSL disabled+inactive、skills 244、E030 全加载、openmontage 降级已配）→ #348 R 型 Partner 部署 **PASS A**（三件套字节核对、NSSM RUNNING、MCP 8+8 tools、真机冒烟日志吻合、引用卡 5/5）→ #350 kdo MCP UTF-8 修复 **PASS A-**（中文检索 5 例独立复现、编译过）→ #351 段王爷检索启用 **PASS A-**（消费层 738s→8.6s 86 倍、sync 幂等 14 SAME、无乱码+卡名真实）→ **#337 KDO 照镜子审计 PASS（条件）A-**（主交付+§8 静态复审质量高 O3 全过；🔴 条件项：小昭文档 §6 实测节 8 个新发现未被 codex 覆盖，我独立复现 title 残片/graph 退化 2 项成立——codex 需补 §6.2 打标表）——**✅ 条件项已关闭（08-18 晚）**：codex §8.6 v0.4 修正版（8 条打标全承接：cff06958d #357 + 00d44dc #358 queued），行号抽查全吻合，我侧 append 复审记录

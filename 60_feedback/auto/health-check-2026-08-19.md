@@ -1,22 +1,22 @@
-KDO 健康巡检 — 2026-08-19 13:36
+KDO 健康巡检 — 2026-08-19 18:07
 ┌────────────────────────────────────────────────┐
 │ ✅  TODO 残留: 0                                      │
-│ ⚠️  孤立页面: 1395                                   │
+│ ⚠️  孤立页面: 1399                                   │
 │ ✅  矛盾未解决: 0                                      │
 │ ⚠️  重复页面: 17                                     │
 │ ⚠️  记忆文件过期: 5                                      │
-│ ⚠️  检索索引滞后: 13                                     │
+│ ✅  检索索引滞后: 0                                      │
 │ ℹ️  超期未更新: 2366                                   │
 │ ✅  低信任源: 0                                      │
 ├────────────────────────────────────────────────┤
 │ Task M — 自迭代检测器 Phase 1                    │
-│ ⚠️  新卡健康度: 1905 issues (409F/1496W)      │
-│ ⚠️  Domain 审计: 1368 issues                         │
+│ ⚠️  新卡健康度: 453 issues (62F/391W)      │
+│ ⚠️  Domain 审计: 1371 issues                         │
 │ ✅  索引更新: 1/1 ok                         │
-│ ⚠️  链接密度: 3527 findings                         │
-│ ⛔  入库门禁: 1377 issues (9F/1368W)        │
+│ ⚠️  链接密度: 3534 findings                         │
+│ ⛔  入库门禁: 1383 issues (12F/1371W)        │
 └────────────────────────────────────────────────┘
-综合评分: 5/8 项异常，建议关注。
+综合评分: 4/8 项异常，建议关注。
 
 --- 孤立页面 ---
   • 30_wiki/60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction.md  (session-20260619-xingangwan-business-formula-reconstruction)
@@ -164,6 +164,9 @@ KDO 健康巡检 — 2026-08-19 13:36
   • 30_wiki/cases/case-wechat-6725b942182f6277.md  (case-wechat-6725b942182f6277)
   • 30_wiki/cases/case-wechat-AWyGiJIRgc.md  (case-wechat-AWyGiJIRgc)
   • 30_wiki/cases/case-wechat-article_4dd7be7cd82f7e80.md  (case-wechat-article_4dd7be7cd82f7e80)
+  • 30_wiki/cases/case-wechat-dy_7654610643165120177.md  (case-wechat-dy_7654610643165120177)
+  • 30_wiki/cases/case-wechat-dy_7666832665312982138.md  (case-wechat-dy_7666832665312982138)
+  • 30_wiki/cases/case-wechat-dy_7671986884592010673.md  (case-wechat-dy_7671986884592010673)
   • 30_wiki/cases/case-wechat-e7536bf1d8f1a7b1.md  (case-wechat-e7536bf1d8f1a7b1)
   • 30_wiki/cases/case-wechat-f4faadff37c0b43b.md  (case-wechat-f4faadff37c0b43b)
   • 30_wiki/cases/case-wechat-tt_7666646931699367986.md  (case-wechat-tt_7666646931699367986)
@@ -836,6 +839,7 @@ KDO 健康巡检 — 2026-08-19 13:36
   • 30_wiki/tools/tool-alt-data-free.md  (tool-alt-data-free)
   • 30_wiki/tools/tool-alt-data-overview.md  (tool-alt-data-overview)
   • 30_wiki/tools/tool-asset-file-naming-convention.md  (tool-asset-file-naming-convention)
+  • 30_wiki/tools/tool-author-targeted-collect.md  (tool-author-targeted-collect)
   • 30_wiki/tools/tool-autoclassify-seven-steps.md  (tool-autoclassify-seven-steps)
   • 30_wiki/tools/tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua.md  (tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua)
   • 30_wiki/tools/tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong.md  (tool-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong)
@@ -1440,7 +1444,7 @@ KDO 健康巡检 — 2026-08-19 13:36
   • 30_wiki/cases/case-cross-xingangwan-pharma.md  (52d since 2026-06-28)
   • 30_wiki/cases/case-cross-yuanqi-forest.md  (52d since 2026-06-28)
   • 30_wiki/cases/case-daxin-team-content-training-camp.md  (50d since 2026-06-30)
-  • 30_wiki/cases/case-daxin-vikki-community-contrast.md  (49d since 2026-06-30)
+  • 30_wiki/cases/case-daxin-vikki-community-contrast.md  (50d since 2026-06-30)
   • 30_wiki/cases/case-decision-ai-assisted-vs-human.md  (52d since 2026-06-28)
   • 30_wiki/cases/case-decision-science-lunch-break-compression.md  (51d since 2026-06-29)
   • 30_wiki/cases/case-decision-science-topcity-negative-revenue-rank.md  (51d since 2026-06-29)
@@ -1847,7 +1851,7 @@ KDO 健康巡检 — 2026-08-19 13:36
   • 30_wiki/concepts/ai-tool-learning-workbook.md  (51d since 2026-06-29)
   • 30_wiki/concepts/ai-virtual-coach-prompt.md  (51d since 2026-06-29)
   • 30_wiki/concepts/ai-俱乐部人和-ai-协作-五层结构.md  (51d since 2026-06-29)
-  • 30_wiki/concepts/ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md  (70d since 2026-06-09)
+  • 30_wiki/concepts/ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md  (71d since 2026-06-09)
   • 30_wiki/concepts/aigc文创案例设计课leo文创ip从0到1全流程.md  (64d since 2026-06-16)
   • 30_wiki/concepts/aigc设计基础01ai生图原理与提示词基本功.md  (64d since 2026-06-16)
   • 30_wiki/concepts/aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md  (64d since 2026-06-16)
@@ -1892,7 +1896,7 @@ KDO 健康巡检 — 2026-08-19 13:36
   • 30_wiki/concepts/concept-smart-medicine-cabinet-platform-cooperation-validation.md  (51d since 2026-06-29)
   • 30_wiki/concepts/concept-strategy-2024-2026-supplement.md  (51d since 2026-06-29)
   • 30_wiki/concepts/concept-strategy-capability-pyramid.md  (51d since 2026-06-29)
-  • 30_wiki/concepts/concept-strategy-evolution-cycle.md  (49d since 2026-06-30)
+  • 30_wiki/concepts/concept-strategy-evolution-cycle.md  (50d since 2026-06-30)
   • 30_wiki/concepts/concept-strategy-framework-landscape.md  (51d since 2026-06-29)
   • 30_wiki/concepts/concept-strategy-market-segmentation-yashili.md  (51d since 2026-06-29)
   • 30_wiki/concepts/concept-thousand-people-square.md  (51d since 2026-06-29)
@@ -2587,8 +2591,8 @@ KDO 健康巡检 — 2026-08-19 13:36
   • 30_wiki/frameworks/framework-business-formula-fundamentals-bridge.md  (38d since 2026-07-12)
   • 30_wiki/frameworks/framework-business-formula-y-model-bridge.md  (38d since 2026-07-12)
   • 30_wiki/frameworks/framework-ci-operating-model.md  (52d since 2026-06-28)
-  • 30_wiki/frameworks/framework-community-knowledge-production-failure-modes.md  (49d since 2026-06-30)
-  • 30_wiki/frameworks/framework-content-business-six-step.md  (49d since 2026-06-30)
+  • 30_wiki/frameworks/framework-community-knowledge-production-failure-modes.md  (50d since 2026-06-30)
+  • 30_wiki/frameworks/framework-content-business-six-step.md  (50d since 2026-06-30)
   • 30_wiki/frameworks/framework-course-milestone-model.md  (52d since 2026-06-28)
   • 30_wiki/frameworks/framework-decision-cognitive-bias-map.md  (52d since 2026-06-28)
   • 30_wiki/frameworks/framework-decision-quality-checklist.md  (51d since 2026-06-29)
@@ -2601,7 +2605,7 @@ KDO 健康巡检 — 2026-08-19 13:36
   • 30_wiki/frameworks/framework-demand-validation-pipeline.md  (48d since 2026-07-02)
   • 30_wiki/frameworks/framework-doris-industry-report-4step.md  (60d since 2026-06-20)
   • 30_wiki/frameworks/framework-five-step-lean-interface.md  (50d since 2026-06-30)
-  • 30_wiki/frameworks/framework-founder-ip-three-positioning.md  (49d since 2026-06-30)
+  • 30_wiki/frameworks/framework-founder-ip-three-positioning.md  (50d since 2026-06-30)
   • 30_wiki/frameworks/framework-kdo-badcase-feedback-loop.md  (31d since 2026-07-19)
   • 30_wiki/frameworks/framework-kdo-modeling-methodology.md  (31d since 2026-07-19)
   • 30_wiki/frameworks/framework-lean-abcd-model.md  (50d since 2026-06-30)
@@ -3048,39 +3052,39 @@ KDO 健康巡检 — 2026-08-19 13:36
   • 30_wiki/tools/tool-sabc-tier-modeling.md  (52d since 2026-06-28)
   • 30_wiki/tools/tool-scenario-selector-modeling.md  (52d since 2026-06-28)
   • 30_wiki/tools/tool-scene-design-language-translation.md  (48d since 2026-07-02)
-  • 30_wiki/tools/tool-shortvideo-six-dimension-deconstruction.md  (49d since 2026-06-30)
+  • 30_wiki/tools/tool-shortvideo-six-dimension-deconstruction.md  (50d since 2026-06-30)
   • 30_wiki/tools/tool-smart-medicine-cabinet-compliance-checklist.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-sop-template-modeling.md  (52d since 2026-06-28)
-  • 30_wiki/tools/tool-strategy-12-word-test.md  (49d since 2026-06-30)
+  • 30_wiki/tools/tool-strategy-12-word-test.md  (50d since 2026-06-30)
   • 30_wiki/tools/tool-strategy-activity-scope.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-blue-ocean-canvas.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-business-design-template.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-business-summary.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-capability-matrix.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-category-role-matrix.md  (51d since 2026-06-29)
-  • 30_wiki/tools/tool-strategy-competition-traps.md  (49d since 2026-06-30)
+  • 30_wiki/tools/tool-strategy-competition-traps.md  (50d since 2026-06-30)
   • 30_wiki/tools/tool-strategy-control-points.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-core-competence-matrix.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-customer-selection.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-fishbone.md  (51d since 2026-06-29)
-  • 30_wiki/tools/tool-strategy-five-see-three-set.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-strategy-four-layers.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-strategy-four-moves.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-strategy-gap-analysis.md  (49d since 2026-06-30)
+  • 30_wiki/tools/tool-strategy-five-see-three-set.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-strategy-four-layers.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-strategy-four-moves.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-strategy-gap-analysis.md  (50d since 2026-06-30)
   • 30_wiki/tools/tool-strategy-industry-chain-analysis.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-ksf.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-lifecycle.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-logistics-cost-planning.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-map.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-market-opportunity-matrix.md  (51d since 2026-06-29)
-  • 30_wiki/tools/tool-strategy-nine-problems.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-strategy-pareto.md  (49d since 2026-06-30)
+  • 30_wiki/tools/tool-strategy-nine-problems.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-strategy-pareto.md  (50d since 2026-06-30)
   • 30_wiki/tools/tool-strategy-platform-business-map.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-profit-model-comparison.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-risk-management.md  (51d since 2026-06-29)
-  • 30_wiki/tools/tool-strategy-sentence-formula.md  (49d since 2026-06-30)
+  • 30_wiki/tools/tool-strategy-sentence-formula.md  (50d since 2026-06-30)
   • 30_wiki/tools/tool-strategy-swot.md  (51d since 2026-06-29)
-  • 30_wiki/tools/tool-strategy-three-horizons.md  (49d since 2026-06-30)
+  • 30_wiki/tools/tool-strategy-three-horizons.md  (50d since 2026-06-30)
   • 30_wiki/tools/tool-strategy-value-capture.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-strategy-value-proposition.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-task-depth-decomposition.md  (42d since 2026-07-08)
@@ -3124,29 +3128,29 @@ KDO 健康巡检 — 2026-08-19 13:36
   • 30_wiki/tools/tool-yihang-dual-triangle-oral-spray.md  (45d since 2026-07-05)
   • 30_wiki/tools/tool-yihang-dual-triangle-xray-deconstruct.md  (45d since 2026-07-05)
   • 30_wiki/tools/tool-yitang-18-strategy-tool-mapping.md  (51d since 2026-06-29)
-  • 30_wiki/tools/tool-yitang-ai-assisted-analysis.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-ai-assisted-organize.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-ai-monitoring-alert.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-ai-report-drafting.md  (49d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-ai-assisted-analysis.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-ai-assisted-organize.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-ai-monitoring-alert.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-ai-report-drafting.md  (50d since 2026-06-30)
   • 30_wiki/tools/tool-yitang-ai-research-workflow.md  (51d since 2026-06-29)
-  • 30_wiki/tools/tool-yitang-amazon-bestseller.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-anonymous-product-testing.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-anonymous-roundtable.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-app-store-data.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-app-store-review.md  (49d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-amazon-bestseller.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-anonymous-product-testing.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-anonymous-roundtable.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-app-store-data.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-app-store-review.md  (50d since 2026-06-30)
   • 30_wiki/tools/tool-yitang-b2b-gov-research.md  (51d since 2026-06-29)
-  • 30_wiki/tools/tool-yitang-baidu-index.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-behavioral-observation.md  (49d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-baidu-index.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-behavioral-observation.md  (50d since 2026-06-30)
   • 30_wiki/tools/tool-yitang-best-practice-as-golden-finger.md  (48d since 2026-07-02)
-  • 30_wiki/tools/tool-yitang-bidding-analysis.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-bp-analysis.md  (49d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-bidding-analysis.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-bp-analysis.md  (50d since 2026-06-30)
   • 30_wiki/tools/tool-yitang-business-formula-l5-mining-and-verification.md  (38d since 2026-07-12)
-  • 30_wiki/tools/tool-yitang-business-registration-check.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-channel-agent-interview.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-channel-industrialization-node-design.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-channel-partnership-design.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-channel-scan-cheat-sheet.md  (49d since 2026-06-30)
-  • 30_wiki/tools/tool-yitang-channel-scoring-matrix.md  (49d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-business-registration-check.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-channel-agent-interview.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-channel-industrialization-node-design.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-channel-partnership-design.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-channel-scan-cheat-sheet.md  (50d since 2026-06-30)
+  • 30_wiki/tools/tool-yitang-channel-scoring-matrix.md  (50d since 2026-06-30)
   • 30_wiki/tools/tool-yitang-comparable-company-selection.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-yitang-competitor-financial-analysis.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-yitang-conference-networking.md  (51d since 2026-06-29)
@@ -3158,9 +3162,9 @@ KDO 健康巡检 — 2026-08-19 13:36
   • 30_wiki/tools/tool-yitang-daily-weekly-meeting-hosting.md  (42d since 2026-07-08)
   • 30_wiki/tools/tool-yitang-database-index.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-yitang-douyin-data.md  (51d since 2026-06-29)
-  • 30_wiki/tools/tool-yitang-dual-triangle-agent-handoff-protocol.md  (41d since 2026-07-08)
-  • 30_wiki/tools/tool-yitang-dual-triangle-domain-registry.md  (41d since 2026-07-08)
-  • 30_wiki/tools/tool-yitang-dual-triangle-scenario-router.md  (41d since 2026-07-08)
+  • 30_wiki/tools/tool-yitang-dual-triangle-agent-handoff-protocol.md  (42d since 2026-07-08)
+  • 30_wiki/tools/tool-yitang-dual-triangle-domain-registry.md  (42d since 2026-07-08)
+  • 30_wiki/tools/tool-yitang-dual-triangle-scenario-router.md  (42d since 2026-07-08)
   • 30_wiki/tools/tool-yitang-employee-directory.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-yitang-executive-speech-analysis.md  (51d since 2026-06-29)
   • 30_wiki/tools/tool-yitang-expert-network-platform.md  (51d since 2026-06-29)
@@ -3837,690 +3841,47 @@ KDO 健康巡检 — 2026-08-19 13:36
     30_wiki/concepts/yt-panproduct-demand-user-segmentation.md
 
 --- 记忆文件过期 ---
-  • cli-preferences.json  (68d old, max 30d)
+  • cli-preferences.json  (69d old, max 30d)
     建议: 审查 CLI 默认值：是否需要更新 target_user 或 channel
-  • corrections.md  (60d old, max 14d)
+  • corrections.md  (61d old, max 14d)
     建议: 审查纠正记录：是否有已修复的 bug 可以标记为已解决
   • LATEST_SESSION.md  (57d old, max 2d)
     建议: 更新最近会话摘要（上次任务、待办清单、关键决策）
   • project-continuity.md  (66d old, max 7d)
     建议: 追加本次会话摘要：关键决策、待办事项、用户偏好变化
-  • user-preferences.md  (51d old, max 30d)
+  • user-preferences.md  (52d old, max 30d)
     建议: 审查用户偏好：是否有新偏好、新工具、新工作流需要记录
 
---- 检索索引滞后（跑 `kdo index` 修复） ---
-  • 30_wiki/frameworks/framework-fact-rule-insight.md  (滞后 16 分钟)
-  • 30_wiki/cases/case-friend-circle-aigc-transformation.md  (滞后 16 分钟)
-  • 30_wiki/cases/case-investment-claim-fact-check.md  (滞后 16 分钟)
-  • 30_wiki/dark-knowledges/dk-aesthetic-redline-doc.md  (滞后 16 分钟)
-  • 30_wiki/dark-knowledges/dk-ai-self-evolution-prompt.md  (滞后 16 分钟)
-  • 30_wiki/dark-knowledges/dk-anti-human-ux-is-feature.md  (滞后 16 分钟)
-  • 30_wiki/dark-knowledges/dk-collection-vs-assets.md  (滞后 16 分钟)
-  • 30_wiki/dark-knowledges/dk-context-patching-recipe.md  (滞后 16 分钟)
-  • 30_wiki/dark-knowledges/dk-doc-explosion-slowdown.md  (滞后 16 分钟)
-  • 30_wiki/dark-knowledges/dk-doc-numbering-business-logic.md  (滞后 16 分钟)
-  • 30_wiki/dark-knowledges/dk-future-backward-knowledge-tree.md  (滞后 16 分钟)
-  • 30_wiki/dark-knowledges/dk-occhams-knife-tool-migration.md  (滞后 16 分钟)
-  • 30_wiki/dark-knowledges/dk-shoulu-yixia-culture.md  (滞后 16 分钟)
-
 ## Detector A: 新卡健康度
-  [WARN] ai-native-im-multi-agent.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ai单元模型口述蒋老师.md: domain not a list: str
-  [WARN] ai单元模型口述蒋老师.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ai数据理解第一课.md: domain not a list: str
-  [WARN] ai数据理解第一课.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ai时代判断力口述-3.md: domain not a list: str
-  [WARN] ai时代判断力口述-3.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] concept-ai-co-learning.md: domain not a list: str
-  [WARN] concept-ai-co-learning.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] concept-ai-style-knowledge-docs.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] concept-christensen-jtbd-link.md: domain not a list: str
-  [WARN] concept-christensen-jtbd-link.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] concept-christensen-rpv-model.md: domain not a list: str
-  [WARN] concept-christensen-rpv-model.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] concept-five-step-growth-to-barrier-transition.md: domain not a list: str
-  [WARN] concept-kdo-feature-registry.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] concept-open-a-document.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] concept-qinpeng-ai-as-amplifier.md: domain not a list: str
-  [WARN] concept-qinpeng-ai-as-amplifier.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] concept-qinpeng-knowledge-base-conversion.md: domain not a list: str
-  [WARN] concept-qinpeng-knowledge-base-conversion.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] concept-research-saturation-coverage.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] concept-session-vs-memory-vs-document.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] concept-smart-medicine-cabinet-supply-chain-validation.md: domain not a list: str
-  [WARN] concept-smart-medicine-cabinet-supply-chain-validation.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] concept-yitang-channel-lean-validation-bridge.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] concept-一堂-终局光谱图解读.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] concept-一堂-终局光谱图解读.md: all outbound links stay in same domain {'yitang', 'opportunity-foresight'}
-  [FAIL] ec工业化规范手册-v2.8.0.md: domain not a list: str
-  [WARN] ec工业化规范手册-v2.8.0.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] fd-forward-deployment.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] industry-ai-cases.md: domain not a list: str
-  [WARN] industry-ai-cases.md: source_refs is empty
-  [WARN] industry-ai-cases.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] kdo-flywheel.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] personal-growth-complex-systems.md: domain not a list: str
-  [WARN] personal-growth-complex-systems.md: source_refs is empty
-  [WARN] personal-growth-complex-systems.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] smart-medicine-cabinet-distribution.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] source-code-delivery-model.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] supply-chain-beverage.md: domain not a list: str
-  [WARN] supply-chain-beverage.md: source_refs is empty
-  [WARN] supply-chain-beverage.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md: domain not a list: str
-  [WARN] web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md: source_refs is empty
-  [WARN] web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yitang-course-map.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yitang-huazong-ama-by-industry.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yitang-huazong-ama-by-industry.md: all outbound links stay in same domain {'healthcare'}
-  [WARN] yitang-huazong-ama-summary.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yt-ai-startup-20-risky-hypotheses.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-barrier-analysis-cheat-sheet.md: domain not a list: str
-  [FAIL] yt-concept-ai-guard-brain.md: domain not a list: str
-  [WARN] yt-concept-context-engineering.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-concept-weapon-arsenal.md: domain not a list: str
-  [FAIL] yt-customer-acquisition-toolkit.md: domain not a list: str
-  [FAIL] yt-demand-analysis-hiking-map.md: domain not a list: str
-  [FAIL] yt-entrepreneur-259-milestone.md: domain not a list: str
-  [FAIL] yt-foresight-15-char-mantra.md: domain not a list: str
-  [WARN] yt-foresight-15-char-mantra.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-foresight-ab-steady-state.md: domain not a list: str
-  [WARN] yt-foresight-ab-steady-state.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-foresight-addition-subtraction.md: domain not a list: str
-  [WARN] yt-foresight-addition-subtraction.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-foresight-deliverables-four-levels.md: domain not a list: str
-  [WARN] yt-foresight-deliverables-four-levels.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-foresight-probability-engineering.md: domain not a list: str
-  [WARN] yt-foresight-probability-engineering.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-foresight-ten-fatal-flaws.md: domain not a list: str
-  [WARN] yt-foresight-ten-fatal-flaws.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-growth-cycle-model.md: domain not a list: str
-  [WARN] yt-management-basic-skills.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-company-culture.md: domain not a list: str
-  [WARN] yt-management-company-culture.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-conversion-hacking.md: domain not a list: str
-  [WARN] yt-management-conversion-hacking.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-finance-basics.md: domain not a list: str
-  [WARN] yt-management-finance-basics.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-founder-role.md: domain not a list: str
-  [WARN] yt-management-founder-role.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-goal-management.md: domain not a list: str
-  [WARN] yt-management-goal-management.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-leadership-levels.md: domain not a list: str
-  [WARN] yt-management-leadership-levels.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-onboarding.md: domain not a list: str
-  [WARN] yt-management-onboarding.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-scientific-decision.md: domain not a list: str
-  [WARN] yt-management-scientific-decision.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-scientific-hiring.md: domain not a list: str
-  [WARN] yt-management-scientific-hiring.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-strategy-meeting.md: domain not a list: str
-  [WARN] yt-management-strategy-meeting.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-team-knowledge.md: domain not a list: str
-  [WARN] yt-management-team-knowledge.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-model-aesthetic-progression.md: domain not a list: str
-  [WARN] yt-model-aesthetic-progression.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-model-conversion-optimization.md: domain not a list: str
-  [WARN] yt-model-conversion-optimization.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yt-model-deliberate-practice-growth.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-model-dual-triangle-competitiveness.md: domain not a list: str
-  [FAIL] yt-model-entrepreneur-map.md: domain not a list: str
-  [WARN] yt-model-entrepreneur-map.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-model-five-step-canvas.md: domain not a list: str
-  [FAIL] yt-model-ipo-learning-strategy.md: domain not a list: str
-  [FAIL] yt-model-pan-product-aesthetic-toolkit.md: domain not a list: str
-  [FAIL] yt-model-personal-map.md: domain not a list: str
-  [FAIL] yt-model-personal-pitch-toolkit.md: domain not a list: str
-  [FAIL] yt-model-progress-map.md: domain not a list: str
-  [FAIL] yt-model-prompt-engineering.md: domain not a list: str
-  [FAIL] yt-personal-deep-review.md: domain not a list: str
-  [WARN] yt-personal-deep-review.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-personal-ipo-learning.md: domain not a list: str
-  [FAIL] yt-pitch-aphorism.md: domain not a list: str
-  [FAIL] yt-pitch-colloquialization.md: domain not a list: str
-  [FAIL] yt-pitch-conflict.md: domain not a list: str
-  [FAIL] yt-pitch-emotionalization.md: domain not a list: str
-  [FAIL] yt-pitch-materialization.md: domain not a list: str
-  [FAIL] yt-pitch-scenarization.md: domain not a list: str
-  [FAIL] yt-pitch-sublimation.md: domain not a list: str
-  [FAIL] yt-product-kernel-cultivation.md: domain not a list: str
-  [WARN] yt-prompt-anti-flattery.md: all outbound links stay in same domain {'yitang'}
-  [WARN] yt-prompt-brainstorming.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-prompt-engineering-andrew-ng.md: domain not a list: str
-  [WARN] yt-prompt-engineering-andrew-ng.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yt-prompt-iterative-prompting.md: all outbound links stay in same domain {'yitang'}
-  [WARN] yt-prompt-writing-workflow.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-skill-p-role-prompt-design.md: domain not a list: str
-  [WARN] yt-skill-p-role-prompt-design.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-tool-best-practice-learning.md: domain not a list: str
-  [WARN] yt-tool-best-practice-learning.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-tool-fab-persuasion.md: domain not a list: str
-  [WARN] yt-tool-fab-persuasion.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-tool-foresight-canvas.md: domain not a list: str
-  [WARN] yt-tool-foresight-canvas.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-tool-mental-model-refinement.md: domain not a list: str
-  [WARN] yt-tool-mental-model-refinement.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-tool-y-model-ruler.md: domain not a list: str
-  [WARN] yt-tool-y-model-ruler.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-unit-model-three-tools.md: domain not a list: str
-  [FAIL] 人机协作决策-双三角模型.md: domain not a list: str
-  [WARN] 人机协作决策-双三角模型.md: source_refs is empty
-  [WARN] 人机协作决策-双三角模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] 诊所o2o外卖平台业务深度调研报告.md: domain not a list: str
-  [WARN] 诊所o2o外卖平台业务深度调研报告.md: source_refs is empty
-  [WARN] 诊所o2o外卖平台业务深度调研报告.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] 鑫港湾his系统分阶段整改报告.md: domain not a list: str
-  [WARN] 鑫港湾his系统分阶段整改报告.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] ai-complex-communication.md: diagnostic_signals missing (type=framework)
-  [WARN] ai-complex-communication.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] concept-mckinsey-hypothesis-driven.md: domain not a list: str
-  [FAIL] concept-minto-pyramid-principle.md: domain not a list: str
-  [WARN] concept-minto-pyramid-principle.md: source_refs is empty
-  [WARN] concept-minto-pyramid-principle.md: related is empty (type=framework)
-  [FAIL] framework-ai-accelerated-strategy-cycle.md: domain not a list: str
-  [WARN] framework-ai-accelerated-strategy-cycle.md: source_refs is empty
-  [WARN] framework-ai-accelerated-strategy-cycle.md: related is empty (type=framework)
-  [WARN] framework-ai-accelerated-strategy-cycle.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-ai-accelerated-strategy-cycle.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-ai-deconstruction-methodology.md: domain not a list: str
-  [WARN] framework-ai-deconstruction-methodology.md: source_refs is empty
-  [WARN] framework-ai-deconstruction-methodology.md: related is empty (type=framework)
-  [WARN] framework-ai-deconstruction-methodology.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-ai-deconstruction-methodology.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] framework-ai-deliberate-practice-loop.md: domain not a list: str
-  [WARN] framework-ai-deliberate-practice-loop.md: related is empty (type=framework)
   [WARN] framework-ai-deliberate-practice-loop.md: diagnostic_signals missing (type=framework)
   [WARN] framework-ai-deliberate-practice-loop.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] framework-ai-human-70-30-division.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-ai-human-70-30-division.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-ai-native-organization-two-modes.md: domain not a list: str
-  [WARN] framework-ai-native-organization-two-modes.md: source_refs is empty
-  [WARN] framework-ai-native-organization-two-modes.md: related is empty (type=framework)
-  [WARN] framework-ai-native-organization-two-modes.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-ai-native-organization-two-modes.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] framework-ai-report-value-ladder-l1-l6.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-ai-report-value-ladder-l1-l6.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-ai-video-production-aesthetics-first.md: domain not a list: str
-  [WARN] framework-ai-video-production-aesthetics-first.md: source_refs is empty
-  [WARN] framework-ai-video-production-aesthetics-first.md: related is empty (type=framework)
-  [WARN] framework-ai-video-production-aesthetics-first.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-ai2041-critical-reading-os.md: domain not a list: str
-  [WARN] framework-ai2041-critical-reading-os.md: source_refs is empty
-  [WARN] framework-ai2041-critical-reading-os.md: related is empty (type=framework)
-  [WARN] framework-ai2041-critical-reading-os.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-ai2041-critical-reading-os.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] framework-baozhashidiaochan-five-step.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-baozhashidiaochan-five-step.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] framework-big-five-personality.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-bimodal-time-philosophy.md: domain not a list: str
-  [WARN] framework-bimodal-time-philosophy.md: source_refs is empty
-  [WARN] framework-bimodal-time-philosophy.md: related is empty (type=framework)
-  [WARN] framework-bimodal-time-philosophy.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-brand-three-degree.md: domain not a list: str
-  [WARN] framework-brand-three-degree.md: source_refs is empty
-  [WARN] framework-brand-three-degree.md: related is empty (type=framework)
-  [WARN] framework-brand-three-degree.md: diagnostic_signals missing (type=framework)
-  [FAIL] framework-business-formula-dual-triangle-bridge.md: domain not a list: str
-  [WARN] framework-business-formula-dual-triangle-bridge.md: source_refs is empty
-  [WARN] framework-business-formula-dual-triangle-bridge.md: related is empty (type=framework)
-  [WARN] framework-business-formula-dual-triangle-bridge.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-business-formula-fundamentals-bridge.md: domain not a list: str
-  [WARN] framework-business-formula-fundamentals-bridge.md: source_refs is empty
-  [WARN] framework-business-formula-fundamentals-bridge.md: related is empty (type=framework)
-  [WARN] framework-business-formula-fundamentals-bridge.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-business-formula-y-model-bridge.md: domain not a list: str
-  [WARN] framework-business-formula-y-model-bridge.md: source_refs is empty
-  [WARN] framework-business-formula-y-model-bridge.md: related is empty (type=framework)
-  [WARN] framework-business-formula-y-model-bridge.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-candy-transcript-workflow.md: domain not a list: str
-  [WARN] framework-candy-transcript-workflow.md: source_refs is empty
-  [WARN] framework-candy-transcript-workflow.md: related is empty (type=framework)
-  [WARN] framework-candy-transcript-workflow.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-candy-transcript-workflow.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-christensen-disruptive-innovation.md: domain not a list: str
-  [WARN] framework-christensen-disruptive-innovation.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-christensen-value-network.md: domain not a list: str
-  [WARN] framework-christensen-value-network.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-ci-operating-model.md: domain not a list: str
-  [WARN] framework-ci-operating-model.md: source_refs is empty
-  [WARN] framework-ci-operating-model.md: related is empty (type=framework)
-  [WARN] framework-ci-operating-model.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-ci-operating-model.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-community-knowledge-production-failure-modes.md: domain not a list: str
-  [WARN] framework-community-knowledge-production-failure-modes.md: source_refs is empty
-  [WARN] framework-community-knowledge-production-failure-modes.md: related is empty (type=framework)
-  [WARN] framework-community-knowledge-production-failure-modes.md: diagnostic_signals missing (type=framework)
-  [FAIL] framework-content-business-six-step.md: domain not a list: str
-  [WARN] framework-content-business-six-step.md: source_refs is empty
-  [WARN] framework-content-business-six-step.md: related is empty (type=framework)
-  [WARN] framework-content-business-six-step.md: diagnostic_signals missing (type=framework)
-  [FAIL] framework-course-milestone-model.md: domain not a list: str
-  [WARN] framework-course-milestone-model.md: source_refs is empty
-  [WARN] framework-course-milestone-model.md: related is empty (type=framework)
-  [WARN] framework-course-milestone-model.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-decision-cognitive-bias-map.md: domain not a list: str
-  [WARN] framework-decision-cognitive-bias-map.md: source_refs is empty
-  [WARN] framework-decision-cognitive-bias-map.md: related is empty (type=framework)
-  [WARN] framework-decision-cognitive-bias-map.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-decision-cognitive-bias-map.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-decision-quality-checklist.md: domain not a list: str
-  [WARN] framework-decision-quality-checklist.md: source_refs is empty
-  [WARN] framework-decision-quality-checklist.md: related is empty (type=framework)
-  [WARN] framework-decision-quality-checklist.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-decision-quality-checklist.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-deep-work-iceberg.md: domain not a list: str
-  [WARN] framework-deep-work-iceberg.md: source_refs is empty
-  [WARN] framework-deep-work-iceberg.md: related is empty (type=framework)
-  [WARN] framework-deep-work-iceberg.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-demand-ceiling-four-lines.md: domain not a list: str
-  [WARN] framework-demand-ceiling-four-lines.md: source_refs is empty
-  [WARN] framework-demand-ceiling-four-lines.md: related is empty (type=framework)
-  [WARN] framework-demand-ceiling-four-lines.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-demand-iceberg.md: domain not a list: str
-  [WARN] framework-demand-iceberg.md: source_refs is empty
-  [WARN] framework-demand-iceberg.md: related is empty (type=framework)
-  [WARN] framework-demand-iceberg.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-demand-iceberg.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-demand-lean-bridge.md: domain not a list: str
-  [WARN] framework-demand-lean-bridge.md: source_refs is empty
-  [WARN] framework-demand-lean-bridge.md: related is empty (type=framework)
-  [WARN] framework-demand-lean-bridge.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-demand-lean-bridge.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-demand-opportunity-spectrum.md: domain not a list: str
-  [WARN] framework-demand-opportunity-spectrum.md: source_refs is empty
-  [WARN] framework-demand-opportunity-spectrum.md: related is empty (type=framework)
-  [WARN] framework-demand-opportunity-spectrum.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-demand-opportunity-spectrum.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-demand-usp-model.md: domain not a list: str
-  [WARN] framework-demand-usp-model.md: source_refs is empty
-  [WARN] framework-demand-usp-model.md: related is empty (type=framework)
-  [WARN] framework-demand-usp-model.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-demand-usp-model.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-demand-validation-pipeline.md: domain not a list: str
-  [WARN] framework-demand-validation-pipeline.md: source_refs is empty
-  [WARN] framework-demand-validation-pipeline.md: related is empty (type=framework)
-  [WARN] framework-demand-validation-pipeline.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-demand-validation-pipeline.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-doris-industry-report-4step.md: domain not a list: str
-  [WARN] framework-doris-industry-report-4step.md: source_refs is empty
-  [WARN] framework-doris-industry-report-4step.md: related is empty (type=framework)
-  [WARN] framework-doris-industry-report-4step.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-doris-industry-report-4step.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] framework-dual-center-feishu-obsidian.md: diagnostic_signals missing (type=framework)
   [WARN] framework-dual-center-feishu-obsidian.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] framework-fact-rule-insight.md: diagnostic_signals missing (type=framework)
   [WARN] framework-fact-rule-insight.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-five-step-lean-interface.md: domain not a list: str
-  [WARN] framework-five-step-lean-interface.md: source_refs is empty
-  [WARN] framework-five-step-lean-interface.md: related is empty (type=framework)
-  [WARN] framework-five-step-lean-interface.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-five-step-lean-interface.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-founder-ip-three-positioning.md: domain not a list: str
-  [WARN] framework-founder-ip-three-positioning.md: source_refs is empty
-  [WARN] framework-founder-ip-three-positioning.md: related is empty (type=framework)
-  [WARN] framework-founder-ip-three-positioning.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-how-to-know-a-person.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] framework-kdo-badcase-feedback-loop.md: related is empty (type=framework)
-  [WARN] framework-kdo-badcase-feedback-loop.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-kdo-badcase-feedback-loop.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-kdo-mcp-server.md: domain not a list: str
-  [WARN] framework-kdo-mcp-server.md: source_refs is empty
-  [WARN] framework-kdo-mcp-server.md: related is empty (type=framework)
-  [WARN] framework-kdo-mcp-server.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-kdo-mcp-server.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-kdo-modeling-methodology.md: domain not a list: str
-  [WARN] framework-kdo-modeling-methodology.md: source_refs is empty
-  [WARN] framework-kdo-modeling-methodology.md: related is empty (type=framework)
-  [WARN] framework-kdo-modeling-methodology.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-kdo-modeling-methodology.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-kdo-self-attack.md: domain not a list: str
-  [WARN] framework-kdo-self-attack.md: source_refs is empty
-  [WARN] framework-kdo-self-attack.md: related is empty (type=framework)
-  [WARN] framework-kdo-self-attack.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-kdo-self-attack.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] framework-knowledge-compound-rocket-six.md: diagnostic_signals missing (type=framework)
   [WARN] framework-knowledge-compound-rocket-six.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] framework-knowledge-five-leaps.md: diagnostic_signals missing (type=framework)
   [WARN] framework-knowledge-five-leaps.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-lean-abcd-model.md: domain not a list: str
-  [WARN] framework-lean-abcd-model.md: source_refs is empty
-  [WARN] framework-lean-abcd-model.md: related is empty (type=framework)
-  [WARN] framework-lean-abcd-model.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-lean-abcd-model.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-lean-expert-roadmap.md: domain not a list: str
-  [WARN] framework-lean-expert-roadmap.md: source_refs is empty
-  [WARN] framework-lean-expert-roadmap.md: related is empty (type=framework)
-  [WARN] framework-lean-expert-roadmap.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-lean-expert-roadmap.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-lean-false-model.md: domain not a list: str
-  [WARN] framework-lean-false-model.md: source_refs is empty
-  [WARN] framework-lean-false-model.md: related is empty (type=framework)
-  [WARN] framework-lean-false-model.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-lean-false-model.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-lean-four-principles.md: domain not a list: str
-  [WARN] framework-lean-four-principles.md: source_refs is empty
-  [WARN] framework-lean-four-principles.md: related is empty (type=framework)
-  [WARN] framework-lean-four-principles.md: diagnostic_signals missing (type=framework)
-  [FAIL] framework-lean-pivot-decision.md: domain not a list: str
-  [WARN] framework-lean-pivot-decision.md: source_refs is empty
-  [WARN] framework-lean-pivot-decision.md: related is empty (type=framework)
-  [WARN] framework-lean-pivot-decision.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-lean-pivot-decision.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-lean-product-kernel.md: domain not a list: str
-  [WARN] framework-lean-product-kernel.md: source_refs is empty
-  [WARN] framework-lean-product-kernel.md: related is empty (type=framework)
-  [WARN] framework-lean-product-kernel.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-lean-product-kernel.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-lean-six-wastes.md: domain not a list: str
-  [WARN] framework-lean-six-wastes.md: source_refs is empty
-  [WARN] framework-lean-six-wastes.md: related is empty (type=framework)
-  [WARN] framework-lean-six-wastes.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-lean-six-wastes.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-lean-systematic-test-curve.md: domain not a list: str
-  [WARN] framework-lean-systematic-test-curve.md: source_refs is empty
-  [WARN] framework-lean-systematic-test-curve.md: related is empty (type=framework)
-  [WARN] framework-lean-systematic-test-curve.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-lean-systematic-test-curve.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-lean-tenx-formula.md: domain not a list: str
-  [WARN] framework-lean-tenx-formula.md: source_refs is empty
-  [WARN] framework-lean-tenx-formula.md: related is empty (type=framework)
-  [WARN] framework-lean-tenx-formula.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-lean-tenx-formula.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-logic-cleanliness-five-levels.md: domain not a list: str
-  [WARN] framework-logic-cleanliness-five-levels.md: source_refs is empty
-  [WARN] framework-logic-cleanliness-five-levels.md: related is empty (type=framework)
-  [WARN] framework-logic-cleanliness-five-levels.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-modeling-relation-exploration.md: domain not a list: str
-  [WARN] framework-modeling-relation-exploration.md: source_refs is empty
-  [WARN] framework-modeling-relation-exploration.md: related is empty (type=framework)
-  [WARN] framework-modeling-relation-exploration.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-modeling-relation-exploration.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] framework-multi-agent-collab-chain-six.md: diagnostic_signals missing (type=framework)
   [WARN] framework-multi-agent-collab-chain-six.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-multi-agent-research-architecture.md: domain not a list: str
-  [WARN] framework-multi-agent-research-architecture.md: source_refs is empty
-  [WARN] framework-multi-agent-research-architecture.md: related is empty (type=framework)
-  [WARN] framework-multi-agent-research-architecture.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-multi-agent-research-architecture.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-ouyangfeng-review-methodology.md: domain not a list: str
-  [WARN] framework-ouyangfeng-review-methodology.md: source_refs is empty
-  [WARN] framework-ouyangfeng-review-methodology.md: related is empty (type=framework)
-  [WARN] framework-ouyangfeng-review-methodology.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-ouyangfeng-review-methodology.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-pan-product-organization.md: domain not a list: str
-  [WARN] framework-pan-product-organization.md: source_refs is empty
-  [WARN] framework-pan-product-organization.md: related is empty (type=framework)
-  [WARN] framework-pan-product-organization.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-pan-product-organization.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] framework-patrolkit-radar.md: diagnostic_signals missing (type=framework)
   [WARN] framework-patrolkit-radar.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] framework-r-type-research-partner-five-state.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-r-type-research-partner-five-state.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] framework-serendipity-five-channels.md: diagnostic_signals missing (type=framework)
   [WARN] framework-serendipity-five-channels.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-strategy-ansoff.md: domain not a list: str
-  [WARN] framework-strategy-ansoff.md: source_refs is empty
-  [WARN] framework-strategy-ansoff.md: related is empty (type=framework)
-  [WARN] framework-strategy-ansoff.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-strategy-ansoff.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-strategy-basics-01-core.md: domain not a list: str
-  [WARN] framework-strategy-basics-01-core.md: source_refs is empty
-  [WARN] framework-strategy-basics-01-core.md: related is empty (type=framework)
-  [WARN] framework-strategy-basics-01-core.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-strategy-basics-01-core.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-strategy-basics-02-insight.md: domain not a list: str
-  [WARN] framework-strategy-basics-02-insight.md: source_refs is empty
-  [WARN] framework-strategy-basics-02-insight.md: related is empty (type=framework)
-  [WARN] framework-strategy-basics-02-insight.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-strategy-basics-02-insight.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-strategy-basics-03-layout.md: domain not a list: str
-  [WARN] framework-strategy-basics-03-layout.md: source_refs is empty
-  [WARN] framework-strategy-basics-03-layout.md: related is empty (type=framework)
-  [WARN] framework-strategy-basics-03-layout.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-strategy-basics-03-layout.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-strategy-basics-04-system.md: domain not a list: str
-  [WARN] framework-strategy-basics-04-system.md: source_refs is empty
-  [WARN] framework-strategy-basics-04-system.md: related is empty (type=framework)
-  [WARN] framework-strategy-basics-04-system.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-strategy-basics-04-system.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-strategy-basics-05-change.md: domain not a list: str
-  [WARN] framework-strategy-basics-05-change.md: source_refs is empty
-  [WARN] framework-strategy-basics-05-change.md: related is empty (type=framework)
-  [WARN] framework-strategy-basics-05-change.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-strategy-basics-05-change.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-strategy-five-forces.md: domain not a list: str
-  [WARN] framework-strategy-five-forces.md: source_refs is empty
-  [WARN] framework-strategy-five-forces.md: related is empty (type=framework)
-  [WARN] framework-strategy-five-forces.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-strategy-five-forces.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-strategy-kai-innovation-directions.md: domain not a list: str
-  [WARN] framework-strategy-kai-innovation-directions.md: source_refs is empty
-  [WARN] framework-strategy-kai-innovation-directions.md: related is empty (type=framework)
-  [WARN] framework-strategy-kai-innovation-directions.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-strategy-kai-innovation-directions.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-strategy-lean-validation.md: domain not a list: str
-  [WARN] framework-strategy-lean-validation.md: source_refs is empty
-  [WARN] framework-strategy-lean-validation.md: related is empty (type=framework)
-  [WARN] framework-strategy-lean-validation.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-strategy-lean-validation.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-strategy-mckinsey-7s.md: domain not a list: str
-  [WARN] framework-strategy-mckinsey-7s.md: source_refs is empty
-  [WARN] framework-strategy-mckinsey-7s.md: related is empty (type=framework)
-  [WARN] framework-strategy-mckinsey-7s.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-strategy-mckinsey-7s.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-strategy-three-horizons.md: domain not a list: str
-  [WARN] framework-strategy-three-horizons.md: source_refs is empty
-  [WARN] framework-strategy-three-horizons.md: related is empty (type=framework)
-  [WARN] framework-strategy-three-horizons.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-strategy-three-horizons.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-structured-analytic-techniques.md: domain not a list: str
-  [WARN] framework-structured-analytic-techniques.md: source_refs is empty
-  [WARN] framework-structured-analytic-techniques.md: related is empty (type=framework)
-  [WARN] framework-structured-analytic-techniques.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-structured-analytic-techniques.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-taste-as-judgment-system.md: domain not a list: str
-  [WARN] framework-taste-as-judgment-system.md: source_refs is empty
-  [WARN] framework-taste-as-judgment-system.md: related is empty (type=framework)
-  [WARN] framework-taste-as-judgment-system.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-taste-as-judgment-system.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-time-management-dual-loop-matrix.md: domain not a list: str
-  [WARN] framework-time-management-dual-loop-matrix.md: source_refs is empty
-  [WARN] framework-time-management-dual-loop-matrix.md: related is empty (type=framework)
-  [WARN] framework-time-management-dual-loop-matrix.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-time-management-matrix.md: domain not a list: str
-  [WARN] framework-time-management-matrix.md: source_refs is empty
-  [WARN] framework-time-management-matrix.md: related is empty (type=framework)
-  [WARN] framework-time-management-matrix.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] framework-truman-agent-team-architecture.md: diagnostic_signals missing (type=framework)
   [WARN] framework-truman-agent-team-architecture.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-visual-analysis-four-dimensions.md: domain not a list: str
-  [WARN] framework-visual-analysis-four-dimensions.md: source_refs is empty
-  [WARN] framework-visual-analysis-four-dimensions.md: related is empty (type=framework)
-  [WARN] framework-visual-analysis-four-dimensions.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-visual-analysis-four-dimensions.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-wanghuan-actor-director-mode.md: domain not a list: str
-  [WARN] framework-wanghuan-actor-director-mode.md: source_refs is empty
-  [WARN] framework-wanghuan-actor-director-mode.md: related is empty (type=framework)
-  [WARN] framework-wanghuan-actor-director-mode.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-wanghuan-ai-five-level-ladder.md: domain not a list: str
-  [WARN] framework-wanghuan-ai-five-level-ladder.md: source_refs is empty
-  [WARN] framework-wanghuan-ai-five-level-ladder.md: related is empty (type=framework)
-  [WARN] framework-wanghuan-ai-five-level-ladder.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-wanghuan-bitcoe-prompt-framework.md: domain not a list: str
-  [WARN] framework-wanghuan-bitcoe-prompt-framework.md: source_refs is empty
-  [WARN] framework-wanghuan-bitcoe-prompt-framework.md: related is empty (type=framework)
-  [FAIL] framework-wanghuan-five-criteria-first-product.md: domain not a list: str
-  [WARN] framework-wanghuan-five-criteria-first-product.md: source_refs is empty
-  [WARN] framework-wanghuan-five-criteria-first-product.md: related is empty (type=framework)
-  [WARN] framework-wanghuan-five-criteria-first-product.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-wanghuan-gan-three-roles.md: domain not a list: str
-  [WARN] framework-wanghuan-gan-three-roles.md: source_refs is empty
-  [WARN] framework-wanghuan-gan-three-roles.md: related is empty (type=framework)
-  [WARN] framework-wanghuan-gan-three-roles.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-wanghuan-harness-seven-stages.md: domain not a list: str
-  [WARN] framework-wanghuan-harness-seven-stages.md: source_refs is empty
-  [WARN] framework-wanghuan-harness-seven-stages.md: related is empty (type=framework)
-  [WARN] framework-wanghuan-harness-seven-stages.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-wanghuan-ooda-loop.md: domain not a list: str
-  [WARN] framework-wanghuan-ooda-loop.md: source_refs is empty
-  [WARN] framework-wanghuan-ooda-loop.md: related is empty (type=framework)
-  [FAIL] framework-wanghuan-say-think-do-toolchain.md: domain not a list: str
-  [WARN] framework-wanghuan-say-think-do-toolchain.md: source_refs is empty
-  [WARN] framework-wanghuan-say-think-do-toolchain.md: related is empty (type=framework)
-  [WARN] framework-wanghuan-say-think-do-toolchain.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-wanghuan-task-product-system.md: domain not a list: str
-  [WARN] framework-wanghuan-task-product-system.md: source_refs is empty
-  [WARN] framework-wanghuan-task-product-system.md: related is empty (type=framework)
-  [WARN] framework-wanghuan-task-product-system.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-wanghuan-three-tier-dev-architecture.md: domain not a list: str
-  [WARN] framework-wanghuan-three-tier-dev-architecture.md: source_refs is empty
-  [WARN] framework-wanghuan-three-tier-dev-architecture.md: related is empty (type=framework)
-  [WARN] framework-wanghuan-three-tier-dev-architecture.md: Synthesis has 1 wikilinks (threshold: 2)
-  [FAIL] framework-yihang-aesthetic-judgment-training.md: domain not a list: str
-  [WARN] framework-yihang-aesthetic-judgment-training.md: source_refs is empty
-  [WARN] framework-yihang-aesthetic-judgment-training.md: related is empty (type=framework)
-  [WARN] framework-yihang-aesthetic-judgment-training.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yihang-aesthetic-judgment-training.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yihang-ai-implementation-consultant.md: domain not a list: str
-  [WARN] framework-yihang-ai-implementation-consultant.md: source_refs is empty
-  [WARN] framework-yihang-ai-implementation-consultant.md: related is empty (type=framework)
-  [WARN] framework-yihang-ai-implementation-consultant.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yihang-ai-implementation-consultant.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yihang-AI-native-dual-triangle-kernel.md: domain not a list: str
-  [WARN] framework-yihang-AI-native-dual-triangle-kernel.md: source_refs is empty
-  [WARN] framework-yihang-AI-native-dual-triangle-kernel.md: related is empty (type=framework)
-  [WARN] framework-yihang-AI-native-dual-triangle-kernel.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yihang-AI-native-dual-triangle-kernel.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yihang-dual-triangle-ai-landing-five-steps.md: domain not a list: str
-  [WARN] framework-yihang-dual-triangle-ai-landing-five-steps.md: source_refs is empty
-  [WARN] framework-yihang-dual-triangle-ai-landing-five-steps.md: related is empty (type=framework)
-  [WARN] framework-yihang-dual-triangle-ai-landing-five-steps.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yihang-dual-triangle-ai-landing-five-steps.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yihang-dual-triangle-ten-year-map.md: domain not a list: str
-  [WARN] framework-yihang-dual-triangle-ten-year-map.md: source_refs is empty
-  [WARN] framework-yihang-dual-triangle-ten-year-map.md: related is empty (type=framework)
-  [WARN] framework-yihang-dual-triangle-ten-year-map.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yihang-dual-triangle-ten-year-map.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yihang-dual-triangle-three-stages-six-changes.md: domain not a list: str
-  [WARN] framework-yihang-dual-triangle-three-stages-six-changes.md: source_refs is empty
-  [WARN] framework-yihang-dual-triangle-three-stages-six-changes.md: related is empty (type=framework)
-  [WARN] framework-yihang-dual-triangle-three-stages-six-changes.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yihang-dual-triangle-three-stages-six-changes.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yihang-dual-triangle-weapon-library.md: domain not a list: str
-  [WARN] framework-yihang-dual-triangle-weapon-library.md: source_refs is empty
-  [WARN] framework-yihang-dual-triangle-weapon-library.md: related is empty (type=framework)
-  [WARN] framework-yihang-dual-triangle-weapon-library.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yihang-dual-triangle-weapon-library.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yihang-fde-ai-native-org.md: domain not a list: str
-  [WARN] framework-yihang-fde-ai-native-org.md: source_refs is empty
-  [WARN] framework-yihang-fde-ai-native-org.md: related is empty (type=framework)
-  [WARN] framework-yihang-fde-ai-native-org.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yihang-fde-ai-native-org.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yihang-knowledge-data-decoupling.md: domain not a list: str
-  [WARN] framework-yihang-knowledge-data-decoupling.md: source_refs is empty
-  [WARN] framework-yihang-knowledge-data-decoupling.md: related is empty (type=framework)
-  [WARN] framework-yihang-knowledge-data-decoupling.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yihang-knowledge-data-decoupling.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-18-strategy-cards.md: domain not a list: str
-  [WARN] framework-yitang-18-strategy-cards.md: source_refs is empty
-  [WARN] framework-yitang-18-strategy-cards.md: related is empty (type=framework)
-  [WARN] framework-yitang-18-strategy-cards.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-18-strategy-cards.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-case-crafting-four-step.md: domain not a list: str
-  [WARN] framework-yitang-case-crafting-four-step.md: source_refs is empty
-  [WARN] framework-yitang-case-crafting-four-step.md: related is empty (type=framework)
-  [WARN] framework-yitang-case-crafting-four-step.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-case-crafting-four-step.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-channel-exploration-4step.md: domain not a list: str
-  [WARN] framework-yitang-channel-exploration-4step.md: source_refs is empty
-  [WARN] framework-yitang-channel-exploration-4step.md: related is empty (type=framework)
-  [WARN] framework-yitang-channel-exploration-4step.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-channel-exploration-4step.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-channel-industrialization.md: domain not a list: str
-  [WARN] framework-yitang-channel-industrialization.md: source_refs is empty
-  [WARN] framework-yitang-channel-industrialization.md: related is empty (type=framework)
-  [WARN] framework-yitang-channel-industrialization.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-channel-industrialization.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-channel-partnership-map.md: domain not a list: str
-  [WARN] framework-yitang-channel-partnership-map.md: source_refs is empty
-  [WARN] framework-yitang-channel-partnership-map.md: related is empty (type=framework)
-  [WARN] framework-yitang-channel-partnership-map.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-channel-partnership-map.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-channel-unit-economics.md: domain not a list: str
-  [WARN] framework-yitang-channel-unit-economics.md: source_refs is empty
-  [WARN] framework-yitang-channel-unit-economics.md: related is empty (type=framework)
-  [WARN] framework-yitang-channel-unit-economics.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-channel-unit-economics.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-deliberate-practice-1plus4.md: domain not a list: str
-  [WARN] framework-yitang-deliberate-practice-1plus4.md: related is empty (type=framework)
-  [WARN] framework-yitang-deliberate-practice-1plus4.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-deliberate-practice-1plus4.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-expert-interview-10steps.md: domain not a list: str
-  [WARN] framework-yitang-expert-interview-10steps.md: source_refs is empty
-  [WARN] framework-yitang-expert-interview-10steps.md: related is empty (type=framework)
-  [WARN] framework-yitang-expert-interview-10steps.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-expert-interview-10steps.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-five-step-to-time-management.md: domain not a list: str
-  [WARN] framework-yitang-five-step-to-time-management.md: source_refs is empty
-  [WARN] framework-yitang-five-step-to-time-management.md: related is empty (type=framework)
-  [WARN] framework-yitang-five-step-to-time-management.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-five-step-to-time-management.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-four-research-types.md: domain not a list: str
-  [WARN] framework-yitang-four-research-types.md: source_refs is empty
-  [WARN] framework-yitang-four-research-types.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-four-research-types.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-growth-flywheel.md: domain not a list: str
-  [WARN] framework-yitang-growth-flywheel.md: source_refs is empty
-  [WARN] framework-yitang-growth-flywheel.md: related is empty (type=framework)
-  [WARN] framework-yitang-growth-flywheel.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-growth-flywheel.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-high-level-execution.md: domain not a list: str
-  [WARN] framework-yitang-high-level-execution.md: source_refs is empty
-  [WARN] framework-yitang-high-level-execution.md: related is empty (type=framework)
-  [WARN] framework-yitang-high-level-execution.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-high-level-execution.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-high-level-plan.md: domain not a list: str
-  [WARN] framework-yitang-high-level-plan.md: source_refs is empty
-  [WARN] framework-yitang-high-level-plan.md: related is empty (type=framework)
-  [WARN] framework-yitang-high-level-plan.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-high-level-plan.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-iterative-recursive-digging.md: domain not a list: str
-  [WARN] framework-yitang-iterative-recursive-digging.md: source_refs is empty
-  [WARN] framework-yitang-iterative-recursive-digging.md: related is empty (type=framework)
-  [WARN] framework-yitang-iterative-recursive-digging.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-iterative-recursive-digging.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-jiangxiang-strategy-selection.md: domain not a list: str
-  [WARN] framework-yitang-jiangxiang-strategy-selection.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-jiefang-sixiang.md: domain not a list: str
-  [WARN] framework-yitang-jiefang-sixiang.md: source_refs is empty
-  [WARN] framework-yitang-jiefang-sixiang.md: related is empty (type=framework)
-  [WARN] framework-yitang-jiefang-sixiang.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-jiefang-sixiang.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-nine-layer-deep-dig.md: domain not a list: str
-  [WARN] framework-yitang-nine-layer-deep-dig.md: source_refs is empty
-  [WARN] framework-yitang-nine-layer-deep-dig.md: related is empty (type=framework)
-  [WARN] framework-yitang-nine-layer-deep-dig.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-nine-layer-deep-dig.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-oscar-research.md: domain not a list: str
-  [WARN] framework-yitang-oscar-research.md: source_refs is empty
-  [WARN] framework-yitang-oscar-research.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-yitang-shishi-qiushi.md: domain not a list: str
-  [WARN] framework-yitang-shishi-qiushi.md: source_refs is empty
-  [WARN] framework-yitang-shishi-qiushi.md: related is empty (type=framework)
-  [WARN] framework-yitang-shishi-qiushi.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-shishi-qiushi.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] framework-yitang-six-layer-cross-validation.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-six-layer-cross-validation.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] framework-yitang-three-ring-ability-focus.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-yitang-three-ring-ability-focus.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] framework-yitang-three-ring-ability-focus.md: all outbound links stay in same domain {'yitang', 'personal-growth'}
   [WARN] framework-yitang-y-model-cross-domain-fusion.md: diagnostic_signals missing (type=framework)
   [WARN] framework-yitang-y-model-cross-domain-fusion.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] framework-一堂-12种阻力总表.md: diagnostic_signals missing (type=framework)
   [WARN] framework-一堂-12种阻力总表.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] framework-一堂-12触点SABC分级.md: diagnostic_signals missing (type=framework)
   [WARN] framework-一堂-12触点SABC分级.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] framework-一堂-个人表达力.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] framework-一堂-六大优化原则.md: diagnostic_signals missing (type=framework)
   [WARN] framework-一堂-六大优化原则.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] framework-一堂-关键假设-三板斧.md: domain not a list: str
@@ -4539,17 +3900,6 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] framework-一堂-十指模型.md: related is empty (type=framework)
   [WARN] framework-一堂-十指模型.md: diagnostic_signals missing (type=framework)
   [WARN] framework-一堂-十指模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-一堂-基本功-九层金字塔.md: domain not a list: str
-  [WARN] framework-一堂-基本功-九层金字塔.md: source_refs is empty
-  [WARN] framework-一堂-基本功-九层金字塔.md: related is empty (type=framework)
-  [FAIL] framework-一堂-基本功-四字诀拆建推练.md: domain not a list: str
-  [WARN] framework-一堂-基本功-四字诀拆建推练.md: source_refs is empty
-  [WARN] framework-一堂-基本功-四字诀拆建推练.md: related is empty (type=framework)
-  [WARN] framework-一堂-基本功-四字诀拆建推练.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-一堂-基本功-四类工作四化.md: domain not a list: str
-  [WARN] framework-一堂-基本功-四类工作四化.md: source_refs is empty
-  [WARN] framework-一堂-基本功-四类工作四化.md: related is empty (type=framework)
-  [WARN] framework-一堂-基本功-四类工作四化.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] framework-一堂-影响力36计.md: domain not a list: str
   [WARN] framework-一堂-影响力36计.md: source_refs is empty
   [WARN] framework-一堂-影响力36计.md: related is empty (type=framework)
@@ -4559,14 +3909,6 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] framework-一堂-机会预判.md: source_refs is empty
   [WARN] framework-一堂-机会预判.md: related is empty (type=framework)
   [WARN] framework-一堂-机会预判.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-一堂-苦练基本功-总纲.md: domain not a list: str
-  [WARN] framework-一堂-苦练基本功-总纲.md: source_refs is empty
-  [WARN] framework-一堂-苦练基本功-总纲.md: related is empty (type=framework)
-  [WARN] framework-一堂-苦练基本功-总纲.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-一堂-表达力火箭模型.md: domain not a list: str
-  [WARN] framework-一堂-表达力火箭模型.md: source_refs is empty
-  [WARN] framework-一堂-表达力火箭模型.md: related is empty (type=framework)
-  [WARN] framework-一堂-表达力火箭模型.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] framework-一堂-触点本质论.md: domain not a list: str
   [WARN] framework-一堂-触点本质论.md: source_refs is empty
   [WARN] framework-一堂-触点本质论.md: related is empty (type=framework)
@@ -4596,113 +3938,6 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] framework-一堂-阻力方法论骨架.md: related is empty (type=framework)
   [WARN] framework-一堂-阻力方法论骨架.md: diagnostic_signals missing (type=framework)
   [WARN] framework-一堂-阻力方法论骨架.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-一堂五步法-单元模型.md: domain not a list: str
-  [WARN] framework-一堂五步法-单元模型.md: source_refs is empty
-  [WARN] framework-一堂五步法-单元模型.md: related is empty (type=framework)
-  [WARN] framework-一堂五步法-单元模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-一堂五步法-增长周期.md: domain not a list: str
-  [WARN] framework-一堂五步法-增长周期.md: source_refs is empty
-  [WARN] framework-一堂五步法-增长周期.md: related is empty (type=framework)
-  [WARN] framework-一堂五步法-增长周期.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-一堂五步法-壁垒.md: domain not a list: str
-  [WARN] framework-一堂五步法-壁垒.md: source_refs is empty
-  [WARN] framework-一堂五步法-壁垒.md: related is empty (type=framework)
-  [WARN] framework-一堂五步法-壁垒.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-一堂五步法-泛产品设计.md: domain not a list: str
-  [WARN] framework-一堂五步法-泛产品设计.md: source_refs is empty
-  [WARN] framework-一堂五步法-泛产品设计.md: related is empty (type=framework)
-  [WARN] framework-一堂五步法-泛产品设计.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-一堂五步法-泛产品设计.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-一堂五步法.md: domain not a list: str
-  [WARN] framework-一堂五步法.md: source_refs is empty
-  [WARN] framework-一堂五步法.md: related is empty (type=framework)
-  [WARN] framework-一堂五步法.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-个人学习方法-IPO学习闭环.md: domain not a list: str
-  [WARN] framework-个人学习方法-IPO学习闭环.md: source_refs is empty
-  [WARN] framework-个人学习方法-IPO学习闭环.md: related is empty (type=framework)
-  [WARN] framework-个人学习方法-IPO学习闭环.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-个人学习方法-思维模型.md: domain not a list: str
-  [WARN] framework-个人学习方法-思维模型.md: source_refs is empty
-  [WARN] framework-个人学习方法-思维模型.md: related is empty (type=framework)
-  [WARN] framework-个人学习方法-思维模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-个人学习方法-知识萃取.md: domain not a list: str
-  [WARN] framework-个人学习方法-知识萃取.md: source_refs is empty
-  [WARN] framework-个人学习方法-知识萃取.md: related is empty (type=framework)
-  [WARN] framework-个人学习方法-知识萃取.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-个人学习方法-科学提问.md: domain not a list: str
-  [WARN] framework-个人学习方法-科学提问.md: source_refs is empty
-  [WARN] framework-个人学习方法-科学提问.md: related is empty (type=framework)
-  [WARN] framework-个人学习方法-科学提问.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-个人学习方法总框架.md: domain not a list: str
-  [WARN] framework-个人学习方法总框架.md: source_refs is empty
-  [WARN] framework-个人学习方法总框架.md: related is empty (type=framework)
-  [WARN] framework-个人学习方法总框架.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-个人成长五步法.md: domain not a list: str
-  [WARN] framework-个人成长五步法.md: source_refs is empty
-  [WARN] framework-个人成长五步法.md: related is empty (type=framework)
-  [WARN] framework-个人成长五步法.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-个人成长五步法.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] framework-利润-利润优先经营框架.md: domain not a list: str
-  [WARN] framework-利润-利润优先经营框架.md: source_refs is empty
-  [WARN] framework-利润-利润优先经营框架.md: related is empty (type=framework)
-  [WARN] framework-利润-利润优先经营框架.md: diagnostic_signals missing (type=framework)
-  [WARN] framework-利润-利润优先经营框架.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] model-quality-four-levels.md: domain not a list: str
-  [WARN] model-quality-four-levels.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] modeling-to-kdo-toolchain.md: domain not a list: str
-  [WARN] modeling-to-kdo-toolchain.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] private-domain-saas-sales-funnel.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yt-composite-pan-product-methodology.md: diagnostic_signals missing (type=framework)
-  [WARN] yt-composite-pan-product-methodology.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yt-decision-abcd-model.md: diagnostic_signals missing (type=framework)
-  [WARN] yt-decision-abcd-model.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-decision-y-model-philosophical-roots.md: domain not a list: str
-  [WARN] yt-decision-y-model-philosophical-roots.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yt-model-pan-product-climbing-map.md: diagnostic_signals missing (type=framework)
-  [WARN] yt-model-pan-product-climbing-map.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yt-model-pan-product-three-virtues.md: diagnostic_signals missing (type=framework)
-  [WARN] yt-model-pan-product-three-virtues.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-tob-demand-metrics.md: domain not a list: str
-  [WARN] yt-tob-demand-metrics.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yt-tob-growth-channel.md: diagnostic_signals missing (type=framework)
-  [WARN] yt-tob-growth-channel.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yt-unit-model-ladder.md: diagnostic_signals missing (type=framework)
-  [WARN] yt-unit-model-ladder.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] agent-spec-basic-skills-coach.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] agent-spec-coaching-leadership-assistant.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] agent-spec-meeting-assistant.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] agent-spec-research-explosion-partner.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] concept-toyota-5-whys.md: domain not a list: str
-  [FAIL] sk-ai-evidence-check.md: domain not a list: str
-  [WARN] sk-ai-evidence-check.md: source_refs is empty
-  [WARN] sk-ai-evidence-check.md: related is empty (type=tool)
-  [WARN] sk-ai-evidence-check.md: diagnostic_signals missing (type=tool)
-  [WARN] sk-ai-evidence-check.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] sk-ai-purpose-bias-check.md: domain not a list: str
-  [WARN] sk-ai-purpose-bias-check.md: source_refs is empty
-  [WARN] sk-ai-purpose-bias-check.md: related is empty (type=tool)
-  [WARN] sk-ai-purpose-bias-check.md: diagnostic_signals missing (type=tool)
-  [WARN] sk-ai-purpose-bias-check.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-agent-crawl4ai.md: domain not a list: str
-  [WARN] tool-agent-crawl4ai.md: source_refs is empty
-  [WARN] tool-agent-crawl4ai.md: related is empty (type=tool)
-  [WARN] tool-agent-crawl4ai.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-agent-crawl4ai.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-agent-firecrawl.md: domain not a list: str
-  [WARN] tool-agent-firecrawl.md: source_refs is empty
-  [WARN] tool-agent-firecrawl.md: related is empty (type=tool)
-  [WARN] tool-agent-firecrawl.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-agent-firecrawl.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-agent-research-pipeline.md: domain not a list: str
-  [WARN] tool-agent-research-pipeline.md: source_refs is empty
-  [WARN] tool-agent-research-pipeline.md: related is empty (type=tool)
-  [WARN] tool-agent-research-pipeline.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-agent-research-pipeline.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-agent-research-swarm.md: domain not a list: str
-  [WARN] tool-agent-research-swarm.md: source_refs is empty
-  [WARN] tool-agent-research-swarm.md: related is empty (type=tool)
-  [WARN] tool-agent-research-swarm.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-agent-research-swarm.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-agent-spec-yitang-kernel-add-subtract-diagnosis.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-agent-spec-yitang-kernel-canvas-autofill.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-agent-spec-yitang-kernel-case-matching.md: Synthesis has 0 wikilinks (threshold: 2)
@@ -4710,254 +3945,46 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] tool-agent-spec-yitang-kernel-iteration-direction.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-agent-spec-yitang-kernel-three-questions.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-agent-spec-yitang-kernel-verification-ladder.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] tool-ai-agent-feature-comparison.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-ai-ai-workspace-setup.md: source_refs is empty
   [WARN] tool-ai-ai-workspace-setup.md: diagnostic_signals missing (type=tool)
   [WARN] tool-ai-ai-workspace-setup.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-ai-feature-inventory.md: domain not a list: str
-  [WARN] tool-ai-feature-inventory.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-ai-feature-inventory.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-ai-landing-five-steps.md: domain not a list: str
-  [WARN] tool-ai-landing-five-steps.md: source_refs is empty
-  [WARN] tool-ai-landing-five-steps.md: related is empty (type=tool)
-  [WARN] tool-ai-landing-five-steps.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-ai-landing-five-steps.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-ai-prd-for-ai.md: source_refs is empty
   [WARN] tool-ai-prd-for-ai.md: diagnostic_signals missing (type=tool)
   [WARN] tool-ai-prd-for-ai.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-ai-problem-validation.md: source_refs is empty
   [WARN] tool-ai-problem-validation.md: diagnostic_signals missing (type=tool)
   [WARN] tool-ai-problem-validation.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-ai-research-five-steps.md: domain not a list: str
-  [WARN] tool-ai-research-five-steps.md: source_refs is empty
-  [WARN] tool-ai-research-five-steps.md: related is empty (type=tool)
-  [WARN] tool-ai-research-five-steps.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-ai-research-five-steps.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-ai-scene-four-elements.md: domain not a list: str
-  [WARN] tool-ai-scene-four-elements.md: source_refs is empty
-  [WARN] tool-ai-scene-four-elements.md: related is empty (type=tool)
-  [WARN] tool-ai-scene-four-elements.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-ai-scene-four-elements.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-ai-voice-input-doubao.md: source_refs is empty
   [WARN] tool-ai-voice-input-doubao.md: diagnostic_signals missing (type=tool)
   [WARN] tool-ai-voice-input-doubao.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-author-targeted-collect.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-autoclassify-seven-steps.md: diagnostic_signals missing (type=tool)
   [WARN] tool-autoclassify-seven-steps.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-cangjie-skill.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-ci-define-phase.md: domain not a list: str
-  [WARN] tool-ci-define-phase.md: source_refs is empty
-  [WARN] tool-ci-define-phase.md: related is empty (type=tool)
-  [WARN] tool-ci-define-phase.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-ci-define-phase.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-ci-implement-phase.md: domain not a list: str
-  [WARN] tool-ci-implement-phase.md: source_refs is empty
-  [WARN] tool-ci-implement-phase.md: related is empty (type=tool)
-  [WARN] tool-ci-implement-phase.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-ci-implement-phase.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-darwin-skill.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-devils-advocacy.md: domain not a list: str
-  [WARN] tool-devils-advocacy.md: source_refs is empty
-  [WARN] tool-devils-advocacy.md: related is empty (type=tool)
-  [WARN] tool-devils-advocacy.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-devils-advocacy.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] tool-empathy-practice.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] tool-feature-review-five-step.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] tool-illuminator-vs-diminisher.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-indicators-signposts.md: domain not a list: str
-  [WARN] tool-indicators-signposts.md: source_refs is empty
-  [WARN] tool-indicators-signposts.md: related is empty (type=tool)
-  [WARN] tool-indicators-signposts.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-indicators-signposts.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-jiangxiang-ai-four-levels.md: domain not a list: str
-  [WARN] tool-jiangxiang-ai-four-levels.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-kdo-help.md: domain not a list: str
-  [WARN] tool-kdo-help.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-kdo-wechat-serendipity-collect.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-key-assumptions-check.md: domain not a list: str
-  [WARN] tool-key-assumptions-check.md: source_refs is empty
-  [WARN] tool-key-assumptions-check.md: related is empty (type=tool)
-  [WARN] tool-key-assumptions-check.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-key-assumptions-check.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-knowledge-cheatsheet-sab.md: diagnostic_signals missing (type=tool)
   [WARN] tool-knowledge-cheatsheet-sab.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-mckinsey-hypothesis-driven-workflow.md: domain not a list: str
-  [FAIL] tool-mcp-reachability-check.md: domain not a list: str
-  [WARN] tool-mcp-reachability-check.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] tool-narrative-thinking-user-insight.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] tool-nine-character-mantra-14-strategies.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-nine-character-mantra-14-strategies.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] tool-panproduct-kids-card-naming.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] tool-panproduct-kids-lesson-plan.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] tool-panproduct-org-five-step.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-panproduct-org-five-step.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] tool-panproduct-org-five-step.md: all outbound links stay in same domain {'organization', 'yitang', 'panproduct'}
-  [FAIL] tool-private-board-facilitation-sop.md: domain not a list: str
-  [WARN] tool-private-board-facilitation-sop.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-qinpeng-ai-intelligent-service.md: domain not a list: str
-  [WARN] tool-qinpeng-ai-intelligent-service.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-red-team-analysis.md: domain not a list: str
-  [WARN] tool-red-team-analysis.md: source_refs is empty
-  [WARN] tool-red-team-analysis.md: related is empty (type=tool)
-  [WARN] tool-red-team-analysis.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-red-team-analysis.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-skill-packaging-eight-steps.md: diagnostic_signals missing (type=tool)
   [WARN] tool-skill-packaging-eight-steps.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-strategy-activity-scope.md: domain not a list: str
-  [WARN] tool-strategy-activity-scope.md: source_refs is empty
-  [WARN] tool-strategy-activity-scope.md: related is empty (type=tool)
-  [WARN] tool-strategy-activity-scope.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-strategy-activity-scope.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-strategy-control-points.md: domain not a list: str
-  [WARN] tool-strategy-control-points.md: source_refs is empty
-  [WARN] tool-strategy-control-points.md: related is empty (type=tool)
-  [WARN] tool-strategy-control-points.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-strategy-control-points.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-strategy-risk-management.md: domain not a list: str
-  [WARN] tool-strategy-risk-management.md: source_refs is empty
-  [WARN] tool-strategy-risk-management.md: related is empty (type=tool)
-  [WARN] tool-strategy-risk-management.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-strategy-risk-management.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-strategy-value-capture.md: domain not a list: str
-  [WARN] tool-strategy-value-capture.md: source_refs is empty
-  [WARN] tool-strategy-value-capture.md: related is empty (type=tool)
-  [WARN] tool-strategy-value-capture.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-strategy-value-capture.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-strategy-value-proposition.md: domain not a list: str
-  [WARN] tool-strategy-value-proposition.md: source_refs is empty
-  [WARN] tool-strategy-value-proposition.md: related is empty (type=tool)
-  [WARN] tool-strategy-value-proposition.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-strategy-value-proposition.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-top-level-document.md: diagnostic_signals missing (type=tool)
   [WARN] tool-top-level-document.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yb-cross-quadrant-prompt-framework.md: domain not a list: str
   [WARN] tool-yitang-dual-triangle-agent-handoff-protocol.md: diagnostic_signals missing (type=tool)
   [WARN] tool-yitang-dual-triangle-domain-registry.md: diagnostic_signals missing (type=tool)
   [WARN] tool-yitang-dual-triangle-scenario-router.md: diagnostic_signals missing (type=tool)
   [WARN] tool-yitang-hypothesis-marginal-roi.md: diagnostic_signals missing (type=tool)
-  [FAIL] tool-yitang-practice-20hour-starter.md: domain not a list: str
-  [WARN] tool-yitang-practice-20hour-starter.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-practice-20hour-starter.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-project-weapon-library-v1-8.md: domain not a list: str
-  [WARN] tool-yitang-project-weapon-library-v1-8.md: source_refs is empty
-  [WARN] tool-yitang-project-weapon-library-v1-8.md: related is empty (type=tool)
-  [WARN] tool-yitang-project-weapon-library-v1-8.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-project-weapon-library-v1-8.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-best-practice.md: domain not a list: str
-  [WARN] tool-yitang-research-best-practice.md: source_refs is empty
-  [WARN] tool-yitang-research-best-practice.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-best-practice.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-best-practice.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-company-disassembly.md: domain not a list: str
-  [WARN] tool-yitang-research-company-disassembly.md: source_refs is empty
-  [WARN] tool-yitang-research-company-disassembly.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-company-disassembly.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-company-disassembly.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-competitive-quadrant.md: domain not a list: str
-  [WARN] tool-yitang-research-competitive-quadrant.md: source_refs is empty
-  [WARN] tool-yitang-research-competitive-quadrant.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-competitive-quadrant.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-competitive-quadrant.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-competitor-tracking.md: domain not a list: str
-  [WARN] tool-yitang-research-competitor-tracking.md: source_refs is empty
-  [WARN] tool-yitang-research-competitor-tracking.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-competitor-tracking.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-competitor-tracking.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-continuous-tracking.md: domain not a list: str
-  [WARN] tool-yitang-research-continuous-tracking.md: source_refs is empty
-  [WARN] tool-yitang-research-continuous-tracking.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-continuous-tracking.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-continuous-tracking.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-cross-validation.md: domain not a list: str
-  [WARN] tool-yitang-research-cross-validation.md: source_refs is empty
-  [WARN] tool-yitang-research-cross-validation.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-cross-validation.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-cross-validation.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-deep-attribution.md: domain not a list: str
-  [WARN] tool-yitang-research-deep-attribution.md: source_refs is empty
-  [WARN] tool-yitang-research-deep-attribution.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-deep-attribution.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-deep-attribution.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-exhaust-means.md: domain not a list: str
-  [WARN] tool-yitang-research-exhaust-means.md: source_refs is empty
-  [WARN] tool-yitang-research-exhaust-means.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-exhaust-means.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-exhaust-means.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-follow-map.md: domain not a list: str
-  [WARN] tool-yitang-research-follow-map.md: source_refs is empty
-  [WARN] tool-yitang-research-follow-map.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-follow-map.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-follow-map.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-industry-scan.md: domain not a list: str
-  [WARN] tool-yitang-research-industry-scan.md: source_refs is empty
-  [WARN] tool-yitang-research-industry-scan.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-industry-scan.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-industry-scan.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-intelligence-map-in-hand.md: domain not a list: str
-  [WARN] tool-yitang-research-intelligence-map-in-hand.md: source_refs is empty
-  [WARN] tool-yitang-research-intelligence-map-in-hand.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-intelligence-map-in-hand.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-intelligence-map-in-hand.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-normalize-summary.md: domain not a list: str
-  [WARN] tool-yitang-research-normalize-summary.md: source_refs is empty
-  [WARN] tool-yitang-research-normalize-summary.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-normalize-summary.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-normalize-summary.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-quantitative-modeling.md: domain not a list: str
-  [WARN] tool-yitang-research-quantitative-modeling.md: source_refs is empty
-  [WARN] tool-yitang-research-quantitative-modeling.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-quantitative-modeling.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-quantitative-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-single-point-sniper.md: domain not a list: str
-  [WARN] tool-yitang-research-single-point-sniper.md: source_refs is empty
-  [WARN] tool-yitang-research-single-point-sniper.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-single-point-sniper.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-single-point-sniper.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-two-dimensional-positioning.md: domain not a list: str
-  [WARN] tool-yitang-research-two-dimensional-positioning.md: source_refs is empty
-  [WARN] tool-yitang-research-two-dimensional-positioning.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-two-dimensional-positioning.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-two-dimensional-positioning.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-unit-model.md: domain not a list: str
-  [WARN] tool-yitang-research-unit-model.md: source_refs is empty
-  [WARN] tool-yitang-research-unit-model.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-unit-model.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-unit-model.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-research-validate-assumption.md: domain not a list: str
-  [WARN] tool-yitang-research-validate-assumption.md: source_refs is empty
-  [WARN] tool-yitang-research-validate-assumption.md: related is empty (type=tool)
-  [WARN] tool-yitang-research-validate-assumption.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-research-validate-assumption.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-yitang-reverse-data-analysis.md: domain not a list: str
-  [WARN] tool-yitang-reverse-data-analysis.md: source_refs is empty
-  [WARN] tool-yitang-reverse-data-analysis.md: related is empty (type=tool)
-  [WARN] tool-yitang-reverse-data-analysis.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-yitang-reverse-data-analysis.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-yizhan-shendeng.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-Y模型STEPS策略集.md: diagnostic_signals missing (type=tool)
   [WARN] tool-Y模型实操工作流.md: diagnostic_signals missing (type=tool)
-  [FAIL] tool-zhu-ai-deliberate-practice-roadmap.md: domain not a list: str
-  [WARN] tool-zhu-ai-deliberate-practice-roadmap.md: source_refs is empty
-  [WARN] tool-zhu-ai-deliberate-practice-roadmap.md: related is empty (type=tool)
-  [WARN] tool-zhu-ai-deliberate-practice-roadmap.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-zhu-ai-deliberate-practice-roadmap.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-一堂-12大易浪费触点.md: diagnostic_signals missing (type=tool)
   [WARN] tool-一堂-12大易浪费触点.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-一堂-12大易浪费触点.md: all outbound links stay in same domain {'yitang', 'conversion-rate'}
   [WARN] tool-一堂-ABACC叙事法.md: diagnostic_signals missing (type=tool)
   [WARN] tool-一堂-ABACC叙事法.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-一堂-ABACC叙事法.md: all outbound links stay in same domain {'yitang', 'conversion-rate'}
-  [FAIL] tool-一堂-business-prediction-15-char.md: domain not a list: str
-  [WARN] tool-一堂-business-prediction-15-char.md: source_refs is empty
-  [WARN] tool-一堂-business-prediction-15-char.md: related is empty (type=tool)
-  [WARN] tool-一堂-business-prediction-15-char.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-一堂-business-prediction-15-char.md: Synthesis has 1 wikilinks (threshold: 2)
   [WARN] tool-一堂-FAB说服法.md: diagnostic_signals missing (type=tool)
   [WARN] tool-一堂-FAB说服法.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-一堂-FAB说服法.md: all outbound links stay in same domain {'yitang', 'conversion-rate'}
-  [FAIL] tool-一堂-five-step-validation.md: domain not a list: str
-  [WARN] tool-一堂-five-step-validation.md: source_refs is empty
-  [WARN] tool-一堂-five-step-validation.md: related is empty (type=tool)
-  [WARN] tool-一堂-five-step-validation.md: diagnostic_signals missing (type=tool)
   [FAIL] tool-一堂-hypothesis-validation-three-axe.md: domain not a list: str
   [WARN] tool-一堂-hypothesis-validation-three-axe.md: diagnostic_signals missing (type=tool)
   [WARN] tool-一堂-七大转化场景自检.md: diagnostic_signals missing (type=tool)
@@ -5001,7 +4028,7 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] tool-一堂-提假设四大类策略.md: diagnostic_signals missing (type=tool)
   [WARN] tool-一堂-提假设四大类策略.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-一堂-机会预判-五步法预判.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] tool-一堂-机会预判-五步法预判.md: all outbound links stay in same domain {'yitang', 'opportunity-foresight', 'five-step-method'}
+  [WARN] tool-一堂-机会预判-五步法预判.md: all outbound links stay in same domain {'yitang', 'five-step-method', 'opportunity-foresight'}
   [WARN] tool-一堂-机会预判-案例预判.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-一堂-经典故事线框架库.md: diagnostic_signals missing (type=tool)
   [WARN] tool-一堂-经典故事线框架库.md: Synthesis has 0 wikilinks (threshold: 2)
@@ -5030,54 +4057,8 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] tool-一堂-马毅阻力消除四部曲.md: diagnostic_signals missing (type=tool)
   [WARN] tool-一堂-马毅阻力消除四部曲.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-一堂-马毅阻力消除四部曲.md: all outbound links stay in same domain {'yitang', 'conversion-rate'}
-  [FAIL] tool-使用一页纸速查卡快速调用框架.md: domain not a list: str
-  [WARN] tool-使用一页纸速查卡快速调用框架.md: source_refs is empty
-  [WARN] tool-使用一页纸速查卡快速调用框架.md: related is empty (type=tool)
-  [WARN] tool-使用一页纸速查卡快速调用框架.md: diagnostic_signals missing (type=tool)
   [WARN] tool-动力阻力分析.md: diagnostic_signals missing (type=tool)
   [WARN] tool-动力阻力分析.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-场景推演.md: domain not a list: str
-  [WARN] tool-场景推演.md: source_refs is empty
-  [WARN] tool-场景推演.md: related is empty (type=tool)
-  [WARN] tool-场景推演.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-场景推演.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-审美工具箱.md: domain not a list: str
-  [WARN] tool-审美工具箱.md: source_refs is empty
-  [WARN] tool-审美工具箱.md: related is empty (type=tool)
-  [WARN] tool-审美工具箱.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-审美工具箱.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-最佳实践收集.md: domain not a list: str
-  [WARN] tool-最佳实践收集.md: source_refs is empty
-  [WARN] tool-最佳实践收集.md: related is empty (type=tool)
-  [WARN] tool-最佳实践收集.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-最佳实践收集.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-最佳实践池子.md: domain not a list: str
-  [WARN] tool-最佳实践池子.md: source_refs is empty
-  [WARN] tool-最佳实践池子.md: related is empty (type=tool)
-  [WARN] tool-最佳实践池子.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-最佳实践池子.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-月白-文件命名与图层命名规范.md: domain not a list: str
-  [WARN] tool-月白-文件命名与图层命名规范.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-月白-文件命名与存档规范（口述暗示）.md: domain not a list: str
-  [WARN] tool-月白-文件命名与存档规范（口述暗示）.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-月白-文件命名与平台适配规范.md: domain not a list: str
-  [WARN] tool-月白-文件命名与平台适配规范.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-月白-设计师AI资产四类型沉淀.md: domain not a list: str
-  [WARN] tool-月白-设计师AI资产四类型沉淀.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-月白-设计文件八要素命名法.md: domain not a list: str
-  [WARN] tool-月白-设计文件八要素命名法.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-月白-课程资料文件命名规范.md: domain not a list: str
-  [WARN] tool-月白-课程资料文件命名规范.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-李诞-判断工作价值的交易成本视角.md: domain not a list: str
-  [WARN] tool-李诞-判断工作价值的交易成本视角.md: source_refs is empty
-  [WARN] tool-李诞-判断工作价值的交易成本视角.md: related is empty (type=tool)
-  [WARN] tool-李诞-判断工作价值的交易成本视角.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-李诞-判断工作价值的交易成本视角.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-李诞-面对过去错误的平静心法.md: domain not a list: str
-  [WARN] tool-李诞-面对过去错误的平静心法.md: source_refs is empty
-  [WARN] tool-李诞-面对过去错误的平静心法.md: related is empty (type=tool)
-  [WARN] tool-李诞-面对过去错误的平静心法.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-李诞-面对过去错误的平静心法.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] tool-水水-保持系统冗余.md: domain not a list: str
   [WARN] tool-水水-保持系统冗余.md: source_refs is empty
   [WARN] tool-水水-保持系统冗余.md: related is empty (type=tool)
@@ -5113,7 +4094,6 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] tool-水水-用感性维度构建溢价.md: related is empty (type=tool)
   [WARN] tool-水水-用感性维度构建溢价.md: diagnostic_signals missing (type=tool)
   [WARN] tool-水水-用感性维度构建溢价.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-水水-管理决策权重偏差.md: domain not a list: str
   [FAIL] tool-水水-练习坦然说不知道.md: domain not a list: str
   [WARN] tool-水水-练习坦然说不知道.md: source_refs is empty
   [WARN] tool-水水-练习坦然说不知道.md: related is empty (type=tool)
@@ -5159,70 +4139,8 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] tool-水水-识别饥饿效应.md: related is empty (type=tool)
   [WARN] tool-水水-识别饥饿效应.md: diagnostic_signals missing (type=tool)
   [WARN] tool-水水-识别饥饿效应.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-水水-避免原生家庭万能归因.md: domain not a list: str
-  [WARN] tool-水水-避免原生家庭万能归因.md: source_refs is empty
-  [WARN] tool-水水-避免原生家庭万能归因.md: related is empty (type=tool)
-  [WARN] tool-水水-避免原生家庭万能归因.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-水水-避免原生家庭万能归因.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-水水-降低故事逻辑要求.md: domain not a list: str
-  [WARN] tool-水水-降低故事逻辑要求.md: source_refs is empty
-  [WARN] tool-水水-降低故事逻辑要求.md: related is empty (type=tool)
-  [WARN] tool-水水-降低故事逻辑要求.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-水水-降低故事逻辑要求.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-泛产品落地-内核和边界.md: domain not a list: str
-  [WARN] tool-泛产品落地-内核和边界.md: source_refs is empty
-  [WARN] tool-泛产品落地-内核和边界.md: related is empty (type=tool)
-  [WARN] tool-泛产品落地-内核和边界.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-泛产品落地-内核和边界.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-泛产品落地-善用佳软.md: domain not a list: str
-  [WARN] tool-泛产品落地-善用佳软.md: source_refs is empty
-  [WARN] tool-泛产品落地-善用佳软.md: related is empty (type=tool)
-  [WARN] tool-泛产品落地-善用佳软.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-泛产品落地-善用佳软.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-泛产品落地-灵感闪现.md: domain not a list: str
-  [WARN] tool-泛产品落地-灵感闪现.md: source_refs is empty
-  [WARN] tool-泛产品落地-灵感闪现.md: related is empty (type=tool)
-  [WARN] tool-泛产品落地-灵感闪现.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-泛产品落地-灵感闪现.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] tool-泛产品设计-出牌指南.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-泛产品设计-需求可行性四字诀.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-泛产品设计-需求可行性四字诀.md: all outbound links stay in same domain {'pan-product', 'yitang'}
-  [FAIL] tool-用户分层.md: domain not a list: str
-  [WARN] tool-用户分层.md: source_refs is empty
-  [WARN] tool-用户分层.md: related is empty (type=tool)
-  [WARN] tool-用户分层.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-用户分层.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-用户视角.md: domain not a list: str
-  [WARN] tool-用户视角.md: source_refs is empty
-  [WARN] tool-用户视角.md: related is empty (type=tool)
-  [WARN] tool-用户视角.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-用户视角.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-纪浩-AI对话上下文隔离.md: domain not a list: str
-  [WARN] tool-纪浩-AI对话上下文隔离.md: source_refs is empty
-  [WARN] tool-纪浩-AI对话上下文隔离.md: related is empty (type=tool)
-  [WARN] tool-纪浩-AI对话上下文隔离.md: diagnostic_signals missing (type=tool)
-  [FAIL] tool-行业分析画布.md: domain not a list: str
-  [WARN] tool-行业分析画布.md: source_refs is empty
-  [WARN] tool-行业分析画布.md: related is empty (type=tool)
-  [WARN] tool-行业分析画布.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-行业分析画布.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-需求挖掘.md: domain not a list: str
-  [WARN] tool-需求挖掘.md: source_refs is empty
-  [WARN] tool-需求挖掘.md: related is empty (type=tool)
-  [WARN] tool-需求挖掘.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-需求挖掘.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-项目背景分析.md: domain not a list: str
-  [WARN] tool-项目背景分析.md: source_refs is empty
-  [WARN] tool-项目背景分析.md: related is empty (type=tool)
-  [WARN] tool-项目背景分析.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-项目背景分析.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-马易-AIGC项目ROI评估.md: diagnostic_signals missing (type=tool)
   [WARN] tool-马易-AIGC项目ROI评估.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-AI任务拆解提升控制度.md: domain not a list: str
-  [WARN] tool-马易-AI任务拆解提升控制度.md: source_refs is empty
-  [WARN] tool-马易-AI任务拆解提升控制度.md: related is empty (type=tool)
-  [WARN] tool-马易-AI任务拆解提升控制度.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-AI任务拆解提升控制度.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] tool-马易-AI搜索公网数据增强（合规边界）.md: domain not a list: str
   [WARN] tool-马易-AI搜索公网数据增强（合规边界）.md: source_refs is empty
   [WARN] tool-马易-AI搜索公网数据增强（合规边界）.md: related is empty (type=tool)
@@ -5280,15 +4198,6 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] tool-马易-AI项目需求拆解筛选.md: related is empty (type=tool)
   [WARN] tool-马易-AI项目需求拆解筛选.md: diagnostic_signals missing (type=tool)
   [WARN] tool-马易-AI项目需求拆解筛选.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-RPA数据整合法.md: domain not a list: str
-  [WARN] tool-马易-RPA数据整合法.md: source_refs is empty
-  [WARN] tool-马易-RPA数据整合法.md: related is empty (type=tool)
-  [WARN] tool-马易-RPA数据整合法.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-RPA数据整合法.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-业务为先的AI中台建设.md: domain not a list: str
-  [WARN] tool-马易-业务为先的AI中台建设.md: source_refs is empty
-  [WARN] tool-马易-业务为先的AI中台建设.md: related is empty (type=tool)
-  [WARN] tool-马易-业务为先的AI中台建设.md: diagnostic_signals missing (type=tool)
   [WARN] tool-马易-业务问题AI化拆解-餐饮设计案例法.md: diagnostic_signals missing (type=tool)
   [WARN] tool-马易-业务问题AI化拆解-餐饮设计案例法.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] tool-马易-中国企业AI落地五步法.md: domain not a list: str
@@ -5301,21 +4210,11 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] tool-马易-低置信度样本黄金漏斗处理.md: related is empty (type=tool)
   [WARN] tool-马易-低置信度样本黄金漏斗处理.md: diagnostic_signals missing (type=tool)
   [WARN] tool-马易-低置信度样本黄金漏斗处理.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-公寓获客自跑通原则.md: domain not a list: str
-  [WARN] tool-马易-公寓获客自跑通原则.md: source_refs is empty
-  [WARN] tool-马易-公寓获客自跑通原则.md: related is empty (type=tool)
-  [WARN] tool-马易-公寓获客自跑通原则.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-公寓获客自跑通原则.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] tool-马易-关键假设识别与验证.md: domain not a list: str
   [WARN] tool-马易-关键假设识别与验证.md: source_refs is empty
   [WARN] tool-马易-关键假设识别与验证.md: related is empty (type=tool)
   [WARN] tool-马易-关键假设识别与验证.md: diagnostic_signals missing (type=tool)
   [WARN] tool-马易-关键假设识别与验证.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-减少输入噪音法.md: domain not a list: str
-  [WARN] tool-马易-减少输入噪音法.md: source_refs is empty
-  [WARN] tool-马易-减少输入噪音法.md: related is empty (type=tool)
-  [WARN] tool-马易-减少输入噪音法.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-减少输入噪音法.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] tool-马易-判断标准快速产出法.md: domain not a list: str
   [WARN] tool-马易-判断标准快速产出法.md: source_refs is empty
   [WARN] tool-马易-判断标准快速产出法.md: related is empty (type=tool)
@@ -5323,21 +4222,6 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] tool-马易-判断标准快速产出法.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] tool-马易-工作流优先于AIGC的决策方法.md: diagnostic_signals missing (type=tool)
   [WARN] tool-马易-工作流优先于AIGC的决策方法.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-工作流拆解找场景.md: domain not a list: str
-  [WARN] tool-马易-工作流拆解找场景.md: source_refs is empty
-  [WARN] tool-马易-工作流拆解找场景.md: related is empty (type=tool)
-  [WARN] tool-马易-工作流拆解找场景.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-工作流拆解找场景.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-平台模式验证法.md: domain not a list: str
-  [WARN] tool-马易-平台模式验证法.md: source_refs is empty
-  [WARN] tool-马易-平台模式验证法.md: related is empty (type=tool)
-  [WARN] tool-马易-平台模式验证法.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-平台模式验证法.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-成为首位F工程师.md: domain not a list: str
-  [WARN] tool-马易-成为首位F工程师.md: source_refs is empty
-  [WARN] tool-马易-成为首位F工程师.md: related is empty (type=tool)
-  [WARN] tool-马易-成为首位F工程师.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-成为首位F工程师.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] tool-马易-数字员工FD拆解落地.md: domain not a list: str
   [WARN] tool-马易-数字员工FD拆解落地.md: source_refs is empty
   [WARN] tool-马易-数字员工FD拆解落地.md: related is empty (type=tool)
@@ -5348,36 +4232,16 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] tool-马易-数据存储架构选择.md: related is empty (type=tool)
   [WARN] tool-马易-数据存储架构选择.md: diagnostic_signals missing (type=tool)
   [WARN] tool-马易-数据存储架构选择.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-数据标注正确法.md: domain not a list: str
-  [WARN] tool-马易-数据标注正确法.md: source_refs is empty
-  [WARN] tool-马易-数据标注正确法.md: related is empty (type=tool)
-  [WARN] tool-马易-数据标注正确法.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-数据标注正确法.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] tool-马易-时间序列大模型场景识别.md: domain not a list: str
   [WARN] tool-马易-时间序列大模型场景识别.md: source_refs is empty
   [WARN] tool-马易-时间序列大模型场景识别.md: related is empty (type=tool)
   [WARN] tool-马易-时间序列大模型场景识别.md: diagnostic_signals missing (type=tool)
   [WARN] tool-马易-时间序列大模型场景识别.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-最小场景优先落地法.md: domain not a list: str
-  [WARN] tool-马易-最小场景优先落地法.md: source_refs is empty
-  [WARN] tool-马易-最小场景优先落地法.md: related is empty (type=tool)
-  [WARN] tool-马易-最小场景优先落地法.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-最小场景优先落地法.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] tool-马易-深度沉浸需求挖掘.md: domain not a list: str
   [WARN] tool-马易-深度沉浸需求挖掘.md: source_refs is empty
   [WARN] tool-马易-深度沉浸需求挖掘.md: related is empty (type=tool)
   [WARN] tool-马易-深度沉浸需求挖掘.md: diagnostic_signals missing (type=tool)
   [WARN] tool-马易-深度沉浸需求挖掘.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-痛点驱动的数字化.md: domain not a list: str
-  [WARN] tool-马易-痛点驱动的数字化.md: source_refs is empty
-  [WARN] tool-马易-痛点驱动的数字化.md: related is empty (type=tool)
-  [WARN] tool-马易-痛点驱动的数字化.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-痛点驱动的数字化.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-知识库-回答技巧双建设.md: domain not a list: str
-  [WARN] tool-马易-知识库-回答技巧双建设.md: source_refs is empty
-  [WARN] tool-马易-知识库-回答技巧双建设.md: related is empty (type=tool)
-  [WARN] tool-马易-知识库-回答技巧双建设.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-知识库-回答技巧双建设.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] tool-马易-视频转化关键要素标注校验.md: domain not a list: str
   [WARN] tool-马易-视频转化关键要素标注校验.md: source_refs is empty
   [WARN] tool-马易-视频转化关键要素标注校验.md: related is empty (type=tool)
@@ -5393,382 +4257,55 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] tool-马易-隐性知识萃取与模型化.md: related is empty (type=tool)
   [WARN] tool-马易-隐性知识萃取与模型化.md: diagnostic_signals missing (type=tool)
   [WARN] tool-马易-隐性知识萃取与模型化.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-隐私安全分层解决.md: domain not a list: str
-  [WARN] tool-马易-隐私安全分层解决.md: source_refs is empty
-  [WARN] tool-马易-隐私安全分层解决.md: related is empty (type=tool)
-  [WARN] tool-马易-隐私安全分层解决.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-隐私安全分层解决.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-需求创造验证法.md: domain not a list: str
-  [WARN] tool-马易-需求创造验证法.md: source_refs is empty
-  [WARN] tool-马易-需求创造验证法.md: related is empty (type=tool)
-  [WARN] tool-马易-需求创造验证法.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-需求创造验证法.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] tool-马易-风口痛点识别法.md: domain not a list: str
-  [WARN] tool-马易-风口痛点识别法.md: source_refs is empty
-  [WARN] tool-马易-风口痛点识别法.md: related is empty (type=tool)
-  [WARN] tool-马易-风口痛点识别法.md: diagnostic_signals missing (type=tool)
-  [WARN] tool-马易-风口痛点识别法.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-pitch-metaphor.md: domain not a list: str
-  [WARN] yt-pitch-metaphor.md: source_refs is empty
-  [WARN] yt-pitch-metaphor.md: related is empty (type=tool)
-  [WARN] yt-pitch-metaphor.md: diagnostic_signals missing (type=tool)
-  [WARN] yt-pitch-metaphor.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-pitch-quantification.md: domain not a list: str
-  [WARN] yt-pitch-quantification.md: source_refs is empty
-  [WARN] yt-pitch-quantification.md: related is empty (type=tool)
-  [WARN] yt-pitch-quantification.md: diagnostic_signals missing (type=tool)
-  [WARN] yt-pitch-quantification.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-pitch-storytelling.md: domain not a list: str
-  [WARN] yt-pitch-storytelling.md: source_refs is empty
-  [WARN] yt-pitch-storytelling.md: related is empty (type=tool)
-  [WARN] yt-pitch-storytelling.md: diagnostic_signals missing (type=tool)
-  [WARN] yt-pitch-storytelling.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-tool-business-formula-metrics-checklist.md: domain not a list: str
-  [WARN] yt-tool-business-formula-metrics-checklist.md: source_refs is empty
-  [WARN] yt-tool-business-formula-metrics-checklist.md: related is empty (type=tool)
-  [WARN] yt-tool-business-formula-metrics-checklist.md: diagnostic_signals missing (type=tool)
-  [WARN] yt-tool-business-formula-metrics-checklist.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-252-quality-gate-pilot.md: diagnostic_signals missing (type=case)
-  [WARN] case-252-quality-gate-pilot.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-4000-titles-ten-strategies.md: diagnostic_signals missing (type=case)
-  [WARN] case-4000-titles-ten-strategies.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-ai-learning-series-modeling.md: diagnostic_signals missing (type=case)
-  [WARN] case-ai-learning-series-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-ai-pet-emotional-product.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-cui-lei-kids-ai-design-class.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-design-principles-90.md: diagnostic_signals missing (type=case)
-  [WARN] case-design-principles-90.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-english-teacher-ai-agent.md: domain not a list: str
-  [WARN] case-english-teacher-ai-agent.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-feishu-disruptive-innovation.md: domain not a list: str
-  [WARN] case-feishu-disruptive-innovation.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-feishu-minutes-extraction-attempt.md: diagnostic_signals missing (type=case)
-  [WARN] case-feishu-minutes-extraction-attempt.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-five-step-fake-vs-real-barriers.md: domain not a list: str
-  [FAIL] case-five-step-growth-first-lever.md: domain not a list: str
   [WARN] case-friend-circle-aigc-transformation.md: diagnostic_signals missing (type=case)
   [WARN] case-friend-circle-aigc-transformation.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-gudong-tea-shop-foresight.md: diagnostic_signals missing (type=case)
-  [WARN] case-gudong-tea-shop-foresight.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] case-investment-claim-fact-check.md: diagnostic_signals missing (type=case)
   [WARN] case-investment-claim-fact-check.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-kdo-agent-factory-dual-triangle-practice.md: diagnostic_signals missing (type=case)
-  [WARN] case-kdo-agent-factory-dual-triangle-practice.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-leo-lubricant-dealer-research.md: diagnostic_signals missing (type=case)
-  [WARN] case-leo-lubricant-dealer-research.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] case-new-year-insight-relay.md: diagnostic_signals missing (type=case)
   [WARN] case-new-year-insight-relay.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-opc-128-directions.md: diagnostic_signals missing (type=case)
-  [WARN] case-opc-128-directions.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-panproduct-lanyi-dahanghui-team.md: diagnostic_signals missing (type=case)
-  [WARN] case-panproduct-lanyi-dahanghui-team.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-qinpeng-hardware-ai-amplification.md: domain not a list: str
-  [WARN] case-qinpeng-hardware-ai-amplification.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-shuishui-business-insight.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-strategy-failure-04-appliance.md: domain not a list: str
-  [WARN] case-strategy-failure-04-appliance.md: diagnostic_signals missing (type=case)
-  [WARN] case-strategy-failure-04-appliance.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-strategy-failure-09-boeing.md: domain not a list: str
-  [WARN] case-strategy-failure-09-boeing.md: diagnostic_signals missing (type=case)
-  [WARN] case-strategy-failure-09-boeing.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-truman-yitang-foresight.md: diagnostic_signals missing (type=case)
-  [WARN] case-truman-yitang-foresight.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] case-vibecoding-one-week-delivery.md: diagnostic_signals missing (type=case)
   [WARN] case-vibecoding-one-week-delivery.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-wangfei-newyear-event-diagnosis.md: domain not a list: str
-  [FAIL] case-wechat-5291b61bc722d90d.md: id is empty
-  [FAIL] case-wechat-5291b61bc722d90d.md: domain not a list: str
-  [WARN] case-wechat-5291b61bc722d90d.md: related is empty (type=case)
-  [WARN] case-wechat-5291b61bc722d90d.md: diagnostic_signals missing (type=case)
-  [WARN] case-wechat-5291b61bc722d90d.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] case-wechat-article_4dd7be7cd82f7e80.md: id is empty
   [FAIL] case-wechat-article_4dd7be7cd82f7e80.md: domain not a list: str
   [WARN] case-wechat-article_4dd7be7cd82f7e80.md: related is empty (type=case)
   [WARN] case-wechat-article_4dd7be7cd82f7e80.md: diagnostic_signals missing (type=case)
   [WARN] case-wechat-article_4dd7be7cd82f7e80.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] case-wechat-dy_7654610643165120177.md: id is empty
+  [FAIL] case-wechat-dy_7654610643165120177.md: domain not a list: str
+  [WARN] case-wechat-dy_7654610643165120177.md: related is empty (type=case)
+  [WARN] case-wechat-dy_7654610643165120177.md: diagnostic_signals missing (type=case)
+  [WARN] case-wechat-dy_7654610643165120177.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] case-wechat-dy_7666832665312982138.md: id is empty
+  [FAIL] case-wechat-dy_7666832665312982138.md: domain not a list: str
+  [WARN] case-wechat-dy_7666832665312982138.md: related is empty (type=case)
+  [WARN] case-wechat-dy_7666832665312982138.md: diagnostic_signals missing (type=case)
+  [WARN] case-wechat-dy_7666832665312982138.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] case-wechat-dy_7671986884592010673.md: id is empty
+  [FAIL] case-wechat-dy_7671986884592010673.md: domain not a list: str
+  [WARN] case-wechat-dy_7671986884592010673.md: related is empty (type=case)
+  [WARN] case-wechat-dy_7671986884592010673.md: diagnostic_signals missing (type=case)
+  [WARN] case-wechat-dy_7671986884592010673.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] case-wechat-e7536bf1d8f1a7b1.md: id is empty
   [FAIL] case-wechat-e7536bf1d8f1a7b1.md: domain not a list: str
   [WARN] case-wechat-e7536bf1d8f1a7b1.md: related is empty (type=case)
   [WARN] case-wechat-e7536bf1d8f1a7b1.md: diagnostic_signals missing (type=case)
   [WARN] case-wechat-e7536bf1d8f1a7b1.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-wechat-tt_7666646931699367986.md: id is empty
-  [FAIL] case-wechat-tt_7666646931699367986.md: domain not a list: str
-  [WARN] case-wechat-tt_7666646931699367986.md: related is empty (type=case)
-  [WARN] case-wechat-tt_7666646931699367986.md: diagnostic_signals missing (type=case)
-  [WARN] case-wechat-tt_7666646931699367986.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-xiaolong-ecommerce-foresight.md: diagnostic_signals missing (type=case)
-  [WARN] case-xiaolong-ecommerce-foresight.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-AI三角-场景.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-AI三角-场景.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-AI三角-场景.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-AI三角-场景.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-AI三角-场景.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-AI三角-基本功.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-AI三角-基本功.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-AI三角-基本功.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-AI三角-基本功.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-AI三角-基本功.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-AI三角-数据.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-AI三角-数据.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-AI三角-数据.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-AI三角-数据.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-AI三角-数据.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-AI可以落地的场景假设.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-AI可以落地的场景假设.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-AI可以落地的场景假设.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-AI可以落地的场景假设.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-AI可以落地的场景假设.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-AI场景.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-AI场景.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-AI场景.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-AI场景.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-AI场景.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-AI基本功.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-AI基本功.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-AI基本功.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-AI基本功.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-AI基本功.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-AI数据.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-AI数据.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-AI数据.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-AI数据.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-AI数据.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-一堂DOC-20260704025752.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-一堂DOC-20260704025752.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-一堂DOC-20260704025752.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-一堂DOC-20260704025752.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-一堂DOC-20260704025752.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-一堂双三角-AI企业经营数据分析.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-一堂双三角-AI企业经营数据分析.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-一堂双三角-AI企业经营数据分析.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-AI企业经营数据分析.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-AI企业经营数据分析.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-一堂双三角-AI时代的竞争力武器库.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-一堂双三角-AI时代的竞争力武器库.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-一堂双三角-AI时代的竞争力武器库.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-AI时代的竞争力武器库.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-AI时代的竞争力武器库.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-一堂双三角-AI落地五部曲.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-一堂双三角-AI落地五部曲.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-一堂双三角-AI落地五部曲.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-AI落地五部曲.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-AI落地五部曲.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-一堂双三角-一个引擎-三阶六变.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-一堂双三角-一个引擎-三阶六变.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-一堂双三角-一个引擎-三阶六变.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-一个引擎-三阶六变.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-一个引擎-三阶六变.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-一堂双三角-人生红点教练parther探索.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-一堂双三角-人生红点教练parther探索.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-一堂双三角-人生红点教练parther探索.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-人生红点教练parther探索.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-人生红点教练parther探索.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-一堂双三角-作业洞察和特别表白.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-一堂双三角-作业洞察和特别表白.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-一堂双三角-作业洞察和特别表白.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-作业洞察和特别表白.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-作业洞察和特别表白.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-一堂双三角-十年爬山地图.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-一堂双三角-十年爬山地图.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-一堂双三角-十年爬山地图.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-十年爬山地图.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-十年爬山地图.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-一堂双三角-双三角预判画布.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-一堂双三角-双三角预判画布.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-一堂双三角-双三角预判画布.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-双三角预判画布.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-双三角预判画布.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-一堂双三角-清单版画布.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-一堂双三角-清单版画布.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-一堂双三角-清单版画布.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-清单版画布.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-清单版画布.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-一堂双三角-画布案例1.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-一堂双三角-画布案例1.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-一堂双三角-画布案例1.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-画布案例1.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-画布案例1.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-一堂双三角-画布案例2.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-一堂双三角-画布案例2.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-一堂双三角-画布案例2.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-画布案例2.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-画布案例2.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-一堂双三角-解释版画布.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-一堂双三角-解释版画布.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-一堂双三角-解释版画布.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-解释版画布.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-一堂双三角-解释版画布.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-人创造力.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-人创造力.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-人创造力.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-人创造力.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-人创造力.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-人审美.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-人审美.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-人审美.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-人审美.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-人审美.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-人类三角-创造力.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-人类三角-创造力.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-人类三角-创造力.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-人类三角-创造力.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-人类三角-创造力.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-人类三角-审美.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-人类三角-审美.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-人类三角-审美.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-人类三角-审美.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-人类三角-审美.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-人类三角-练体系.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-人类三角-练体系.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-人类三角-练体系.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-人类三角-练体系.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-人类三角-练体系.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-人练体系.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-人练体系.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-人练体系.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-人练体系.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-人练体系.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yihang-dual-triangle-双三角-竞争力武器库.md: domain not a list: str
-  [WARN] case-yihang-dual-triangle-双三角-竞争力武器库.md: source_refs is empty
-  [WARN] case-yihang-dual-triangle-双三角-竞争力武器库.md: related is empty (type=case)
-  [WARN] case-yihang-dual-triangle-双三角-竞争力武器库.md: diagnostic_signals missing (type=case)
-  [WARN] case-yihang-dual-triangle-双三角-竞争力武器库.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yitang-jiangxiang-cli-three-versions.md: domain not a list: str
-  [WARN] case-yitang-jiangxiang-cli-three-versions.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yitang-jiangxiang-scene-montage.md: domain not a list: str
-  [WARN] case-yitang-jiangxiang-scene-montage.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-yitang-jiangxiang-tianmu-balcony.md: domain not a list: str
-  [WARN] case-yitang-jiangxiang-tianmu-balcony.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-yitang-lianjia-site-selection-industrialization.md: diagnostic_signals missing (type=case)
-  [WARN] case-yitang-lianjia-site-selection-industrialization.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-yitang-sales-routine-deconstruction.md: diagnostic_signals missing (type=case)
-  [WARN] case-yitang-sales-routine-deconstruction.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-yitang-yitang-course-industrialization.md: diagnostic_signals missing (type=case)
-  [WARN] case-yitang-yitang-course-industrialization.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-yitang-yitang-self-growth-channel.md: diagnostic_signals missing (type=case)
-  [WARN] case-yitang-yitang-self-growth-channel.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-yitang-yitu-lead-industrialization.md: diagnostic_signals missing (type=case)
-  [WARN] case-yitang-yitu-lead-industrialization.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-zhu-disruptive-innovation-practice.md: domain not a list: str
-  [WARN] case-zhu-disruptive-innovation-practice.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] case-zhu-foresight-timing-pattern.md: domain not a list: str
-  [WARN] case-科学决策-L4案例01.md: diagnostic_signals missing (type=case)
-  [WARN] case-科学决策-L4案例01.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-科学决策-ROI案例01.md: diagnostic_signals missing (type=case)
-  [WARN] case-科学决策-ROI案例01.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-科学决策-ROI案例02.md: diagnostic_signals missing (type=case)
-  [WARN] case-科学决策-ROI案例02.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-科学决策-ROI案例03.md: diagnostic_signals missing (type=case)
-  [WARN] case-科学决策-ROI案例03.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-科学决策-ROI案例04.md: diagnostic_signals missing (type=case)
-  [WARN] case-科学决策-ROI案例04.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-科学决策-深度案例03.md: diagnostic_signals missing (type=case)
-  [WARN] case-科学决策-深度案例03.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-科学决策-深度案例04.md: diagnostic_signals missing (type=case)
-  [WARN] case-科学决策-深度案例04.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-科学决策-深度案例05.md: diagnostic_signals missing (type=case)
-  [WARN] case-科学决策-深度案例05.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] case-科学决策-深度案例06.md: diagnostic_signals missing (type=case)
-  [WARN] case-科学决策-深度案例06.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] industrial-ai-ops-cases.md: diagnostic_signals missing (type=case)
-  [WARN] industrial-ai-ops-cases.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-aesthetic-redline-doc.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-agent-access-kdo-pitfalls.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-agreeableness-double-edged.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-ai-as-last-step-not-first.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-ai-cross-domain-inference.md: domain not a list: str
-  [WARN] dk-ai-cross-domain-inference.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-ai-design-pitfalls.md: domain not a list: str
-  [WARN] dk-ai-design-pitfalls.md: source_refs is empty
-  [WARN] dk-ai-design-pitfalls.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-ai-does-not-question-your-mistake.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-ai-self-evolution-prompt.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-anti-human-ux-is-feature.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-bfm-compression-path.md: domain not a list: str
-  [WARN] dk-bfm-compression-path.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-collection-vs-assets.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-community-lecturer-vs-crowd-model.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-community-lecturer-vs-crowd-model.md: all outbound links stay in same domain {'content-production', 'entrepreneur', 'knowledge-management'}
-  [WARN] dk-content-implicit-value-without-price.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-content-muscle-memory-vs-knowledge.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-content-muscle-memory-vs-knowledge.md: all outbound links stay in same domain {'content-production', 'ai-collaboration', 'personal-growth'}
   [WARN] dk-context-patching-recipe.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-delivery-path-type-bug.md: domain not a list: str
-  [WARN] dk-delivery-path-type-bug.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-doc-explosion-slowdown.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-doc-numbering-business-logic.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-E010-duplicate-key-detection.md: domain not a list: str
-  [WARN] dk-E010-duplicate-key-detection.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-ef-001-sn74lvc2g07-open-drain.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-ef-002-bom-version-async.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-ef-003-hand-soldering-bom-divergence.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-ef-004-missing-diagnostic-firmware.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-emotional-value-high-bar.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-emotional-value-premium.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-extract-then-merge.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-feature-pieces-not-recognized-as-cards.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-feature-registry-count-drift.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-foresight-source-material-blindness.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-founding-ip-trust-over-traffic.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-future-backward-knowledge-tree.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-mckinsey-hypothesis-driven-pitfalls.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-mcp-pythonpath-pollution.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-model-demystification.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-modeling-ai-without-judgment.md: domain not a list: str
-  [WARN] dk-modeling-ai-without-judgment.md: source_refs is empty
-  [WARN] dk-modeling-ai-without-judgment.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-modeling-business-visual-logic-match.md: domain not a list: str
-  [WARN] dk-modeling-business-visual-logic-match.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-modeling-counterexample-driven.md: domain not a list: str
-  [WARN] dk-modeling-counterexample-driven.md: source_refs is empty
-  [WARN] dk-modeling-counterexample-driven.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-modeling-course-rnd-ripe-fruit.md: domain not a list: str
-  [WARN] dk-modeling-course-rnd-ripe-fruit.md: source_refs is empty
-  [WARN] dk-modeling-course-rnd-ripe-fruit.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-modeling-essence-predictive.md: domain not a list: str
-  [WARN] dk-modeling-essence-predictive.md: source_refs is empty
-  [WARN] dk-modeling-essence-predictive.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-modeling-model-arsenal-paradigms.md: domain not a list: str
-  [WARN] dk-modeling-model-arsenal-paradigms.md: source_refs is empty
-  [WARN] dk-modeling-model-arsenal-paradigms.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-modeling-question-scaffold-not-answer.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-modeling-radar-model-not-result.md: domain not a list: str
-  [WARN] dk-modeling-radar-model-not-result.md: source_refs is empty
-  [WARN] dk-modeling-radar-model-not-result.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-modeling-unit-pairs-milestone.md: domain not a list: str
-  [WARN] dk-modeling-unit-pairs-milestone.md: source_refs is empty
-  [WARN] dk-modeling-unit-pairs-milestone.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-narrative-choice-theory.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-occhams-knife-tool-migration.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-one-sentence-handover.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-p11-regex-cutoff.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-P42-agent-fact-check-gap.md: domain not a list: str
-  [WARN] dk-P42-agent-fact-check-gap.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-publish-collapse-to-iterate.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-research-ai-no-time-concept.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-research-classification-mece-table.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-research-important-things-must-do.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-research-ranklist-replaces-model.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-research-sampling-correction-three-rounds.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-research-saturation-quota-ai-km.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-research-scavenger-vs-architect.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-research-total-anchor-private-library.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-shoulu-yixia-culture.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-sponsor-three-tier-pricing.md: domain not a list: str
-  [WARN] dk-sponsor-three-tier-pricing.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-three-context-formula.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] dk-tool-adoption-by-force.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] dk-tool-as-phased-validator.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-wanghuan-spec-trap.md: domain not a list: str
-  [WARN] dk-wanghuan-spec-trap.md: source_refs is empty
-  [WARN] dk-wanghuan-spec-trap.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] dk-yitang-sales-common-pitfalls.md: domain not a list: str
-  [WARN] dk-yitang-sales-common-pitfalls.md: source_refs is empty
-  [FAIL] dk-yitang-Y-model-pitfalls.md: domain not a list: str
-  [WARN] dk-yitang-Y-model-pitfalls.md: source_refs is empty
-  [WARN] 一堂.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] 七件事集团.md: domain not a list: str
-  [WARN] 七件事集团.md: Synthesis has 0 wikilinks (threshold: 2)
 
 ## Detector E: Domain 标签一致性
   [FAIL] 2026-05-17-深夜感想.md: non-list domain: ai-saas
@@ -6757,6 +5294,9 @@ KDO 健康巡检 — 2026-08-19 13:36
   [FAIL] case-wechat-6725b942182f6277.md: non-list domain: wechat-video
   [FAIL] case-wechat-article_4dd7be7cd82f7e80.md: non-list domain: wechat-article
   [FAIL] case-wechat-AWyGiJIRgc.md: non-list domain: wechat-video
+  [FAIL] case-wechat-dy_7654610643165120177.md: non-list domain: wechat-video
+  [FAIL] case-wechat-dy_7666832665312982138.md: non-list domain: wechat-video
+  [FAIL] case-wechat-dy_7671986884592010673.md: non-list domain: wechat-video
   [FAIL] case-wechat-e7536bf1d8f1a7b1.md: non-list domain: wechat-video
   [FAIL] case-wechat-f4faadff37c0b43b.md: non-list domain: wechat-video
   [FAIL] case-wechat-tt_7666646931699367986.md: non-list domain: toutiao-video
@@ -7141,11 +5681,11 @@ KDO 健康巡检 — 2026-08-19 13:36
   [FAIL] 七件事集团.md: non-list domain: src-unknown
 
 ## Detector D: 索引更新
-  • Card index file: updated (2595 cards)
+  • Card index file: updated (2599 cards)
 
 ## Detector S: 入库置信度门禁
 
-### ⛔ BLOCKED (9 cards)
+### ⛔ BLOCKED (12 cards)
   [FAIL] case-wechat-5291b61bc722d90d.md: missing confidence field (created=2026-08-19)
        → BLOCKED — add confidence: <0.0-1.0> with documented basis
   [FAIL] case-wechat-6725b942182f6277.md: missing confidence field (created=2026-08-18)
@@ -7153,6 +5693,12 @@ KDO 健康巡检 — 2026-08-19 13:36
   [FAIL] case-wechat-article_4dd7be7cd82f7e80.md: missing confidence field (created=2026-08-19)
        → BLOCKED — add confidence: <0.0-1.0> with documented basis
   [FAIL] case-wechat-AWyGiJIRgc.md: missing confidence field (created=2026-08-18)
+       → BLOCKED — add confidence: <0.0-1.0> with documented basis
+  [FAIL] case-wechat-dy_7654610643165120177.md: missing confidence field (created=2026-08-19)
+       → BLOCKED — add confidence: <0.0-1.0> with documented basis
+  [FAIL] case-wechat-dy_7666832665312982138.md: missing confidence field (created=2026-08-19)
+       → BLOCKED — add confidence: <0.0-1.0> with documented basis
+  [FAIL] case-wechat-dy_7671986884592010673.md: missing confidence field (created=2026-08-19)
        → BLOCKED — add confidence: <0.0-1.0> with documented basis
   [FAIL] case-wechat-e7536bf1d8f1a7b1.md: missing confidence field (created=2026-08-19)
        → BLOCKED — add confidence: <0.0-1.0> with documented basis
@@ -7165,7 +5711,7 @@ KDO 健康巡检 — 2026-08-19 13:36
   [FAIL] dk-yitang-sales-common-pitfalls.md: missing confidence field (created=2026-07-02)
        → BLOCKED — add confidence: <0.0-1.0> with documented basis
 
-### ⚠️ WARNING (1368 cards)
+### ⚠️ WARNING (1371 cards)
   [WARN] 2026-05-17-深夜感想.md: single source (10_raw/sources/src_20260522_390d75a8-2026-05-17-深夜感想.md) — needs second independent source
        → cross-validate with at least one other independent source
   [WARN] ai-collaboration-mindset-shift.md: single source (10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md) — needs second independent source
@@ -7186,11 +5732,11 @@ KDO 健康巡检 — 2026-08-19 13:36
        → cross-validate with at least one other independent source
   [WARN] aigc设计基础01ai生图原理与提示词基本功.md: single source (10_raw/sources/src_20260528_2ba8539f-aigc设计基础01ai生图原理与提示词基本功) — needs second independent source
        → cross-validate with at least one other independent source
-  ... and 1358 more
+  ... and 1361 more
 
 ## Detector N: 链接密度扫描
 
-### bridges_to 缺失 (多域卡) (1258 cards)
+### bridges_to 缺失 (多域卡) (1259 cards)
   [WARN] ai-hackathon-pitches.md: bridges_to empty (multi-domain: ['ai', 'entrepreneurship'])
   [WARN] ai-native-im-multi-agent.md: bridges_to empty (multi-domain: ['ai-saas', 'ai', 'product', 'ai-collaboration'])
   [WARN] ai-tool-learning-curve.md: bridges_to empty (multi-domain: ['ai', 'learning-methodology', 'yitang'])
@@ -7201,7 +5747,7 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] aigc文创案例设计课leo文创ip从0到1全流程.md: bridges_to empty (multi-domain: ['ai-saas', 'design'])
   [WARN] aigc设计基础01ai生图原理与提示词基本功.md: bridges_to empty (multi-domain: ['ai-saas', 'design'])
   [WARN] aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md: bridges_to empty (multi-domain: ['ai-saas', 'design', 'business-strategy'])
-  ... and 1248 more
+  ... and 1249 more
 
 ### Hub-spoke 失衡 (25 cards)
   [INFO] concept-一堂-product-kernel.md: hub node: 16 inbound links but only 0 outbound (ratio 16.0:1)
@@ -7216,20 +5762,20 @@ KDO 健康巡检 — 2026-08-19 13:36
   [INFO] framework-yitang-channel-unit-economics.md: hub node: 16 inbound links but only 0 outbound (ratio 16.0:1)
   ... and 15 more
 
-### related 字段为空 (512 cards)
+### related 字段为空 (514 cards)
   [WARN] rust-domain-overview.md: related field is empty
   [WARN] concept-minto-pyramid-principle.md: related field is empty
   [WARN] framework-ai-accelerated-strategy-cycle.md: related field is empty
   [WARN] framework-ai-deconstruction-methodology.md: related field is empty
-  [WARN] framework-ai-deliberate-practice-loop.md: related field is empty
   [WARN] framework-ai-native-organization-two-modes.md: related field is empty
   [WARN] framework-ai-video-production-aesthetics-first.md: related field is empty
   [WARN] framework-ai2041-critical-reading-os.md: related field is empty
   [WARN] framework-bimodal-time-philosophy.md: related field is empty
   [WARN] framework-brand-three-degree.md: related field is empty
-  ... and 502 more
+  [WARN] framework-business-formula-dual-triangle-bridge.md: related field is empty
+  ... and 504 more
 
-### Synthesis 链接不足 (<5) (1732 cards)
+### Synthesis 链接不足 (<5) (1736 cards)
   [WARN] ai-native-五层进阶从答案到效率到作品到产品到系统.md: Synthesis has 0 wikilinks (threshold: 5)
   [WARN] ai-tool-learning-workbook.md: Synthesis has 0 wikilinks (threshold: 5)
   [WARN] ai-virtual-coach-prompt.md: Synthesis has 0 wikilinks (threshold: 5)
@@ -7240,4 +5786,4 @@ KDO 健康巡检 — 2026-08-19 13:36
   [WARN] four-questions-feedback.md: Synthesis has 3 wikilinks (threshold: 5)
   [WARN] master-ai-info-literacy.md: Synthesis has 0 wikilinks (threshold: 5)
   [WARN] master-antifragile-checklist.md: Synthesis has 0 wikilinks (threshold: 5)
-  ... and 1722 more
+  ... and 1726 more

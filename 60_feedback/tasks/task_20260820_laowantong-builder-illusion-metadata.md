@@ -1,11 +1,14 @@
 ---
 id: 388
 assignee: hermes
-status: in_progress
+status: reviewed
 title: 元数据遗留 warning 清理（#385/#386 终审另立项合并）
 priority: P3
 dependency: []
-updated_at: '2026-08-20T03:58:42.417751+00:00'
+updated_at: '2026-08-20T04:45:34.245607+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-20'
+grade: A
 ---
 
 # #388 元数据遗留 warning 清理（#385/#386 终审另立项合并）
@@ -54,3 +57,46 @@ updated_at: '2026-08-20T03:58:42.417751+00:00'
 
 1. diff + pre-submit 输出 + 同类扫描结果
 2. 送欧阳锋终审（随下批 spot-check）
+
+---
+
+## 执行报告（2026-08-20 老顽童 hermes 实例）
+
+### 完成概要
+4 项元数据遗留清理完成（#385/#386 终审另立项合并），pre-submit **✅ PASS 3/3（0 ERROR，warning 清零）**。
+
+### 修复明细
+| # | 卡 | 修复 |
+|:--|:--|:--|
+| 1 | dk-ai-builder-illusion | **tags 补全**：audience:executor / audience:manager / scene:product-planning / skill-level:intermediate（从卡正文推断：受众=AI 做产品/创业者，场景=产品规划/市场验证） |
+| 2 | dk-ai-builder-illusion | **source_refs 修正**：2 条 pending_archive 死路径 → `src_unknown`（标准待补标记）；前 2 条真实路径保留（00_inbox/AI前哨站第2集/ 已实查存在）；出处信息正文原始表述节已保留不丢 |
+| 3 | yt-model-questioning-practice-canvas | 补 `updated_at: '2026-08-20'`（同 #385 模式） |
+| 4 | yt-personal-thinking-models | 补 `updated_at: '2026-08-20'` |
+
+### 同类扫描结果（全库，量大出清单不扩 scope）
+| 类别 | 数量 | 说明 |
+|:--|:--|:--|
+| 缺 updated_at | 16 张 | 如 concept-streaming-extraction-pattern / dk-yb19 等——建议另立项批量补 |
+| tags 缺 audience/scene | 739 张 | 历史卡大量缺 tags 维度——建议按域分批立项（如 batch-frontmatter-backfill skill 流程） |
+| source_refs pending_archive 死路径 | 189 张 | 如 case-gudong-tea-shop-foresight / case-milktea-five-step 等——建议另立项统一改 src_unknown |
+
+### 验证
+- pre-submit ✅ PASS 3/3：YAML/WIKILINK/DOMAIN/DK_SECTION/OUTLINK/ALIASES/POSITION/SOURCE_REACHABILITY 全 0（kdo index 已重建）
+- 只动 frontmatter 元数据，正文零改动
+
+### 待欧阳锋
+- 随下一批 spot-check 复终审
+- 3 类遗留清单（16/739/189）建议按域分批立项
+
+---
+
+## 欧阳锋终审（2026-08-20 · 元数据修复抽查）
+
+**裁定：PASS A。**
+
+**O3 验证**：
+- dk-ai-builder-illusion tags 补全 4 维度（audience×2/scene/skill-level）✓
+- source_refs 修正：2 条真实路径**实查存在**（00_inbox/AI前哨站第2集/）+ 2 条 src_unknown 标准待补标记 ✓
+- yt 两卡 updated_at 补 2026-08-20 ✓ / pre-submit 实测 3/3 ERROR 0 ✓ / 正文零改动 ✓
+
+**边界纪律加分**：同类扫描出清单不扩 scope（缺 updated_at 16 / tags 缺维度 739 / pending_archive 死路径 189——三类建议按域分批立项）——修复者知道"清单是弹药不是本单任务"。

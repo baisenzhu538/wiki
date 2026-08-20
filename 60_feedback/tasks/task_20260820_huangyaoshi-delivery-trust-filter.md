@@ -1,14 +1,17 @@
 ---
 id: 382
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-19T19:20:58.700750+00:00'
+status: reviewed
+updated_at: '2026-08-19T19:30:09.414734+00:00'
 title: delivery.py trust 过滤失效修复（P2，#380 测试挖出的预存在 bug）——缺 import os 致 _filter_by_trust
   静默失效
 priority: P2
 dependency: []
 code_files:
 - C:/Users/Administrator/Knowledge Delivery OS 0.0.1/kdo/commands/delivery.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-19'
+grade: A
 ---
 
 # #382 delivery.py trust 过滤失效修复（P2）
@@ -84,3 +87,17 @@ code_files:
 | ③ pytest 无新增失败 | ✅ 567 passed + 1 failed（test_cli_smoke 预存在失败，stash 验证干净树同样失败，与基线一致） |
 | ④ 与 #380【未审】标注兼容 | ✅ 修复后实测：trust 过滤生效同时 draft 卡【未审 draft】标注正常（tool-yizhan-shendeng / tool-cangjie-skill 双命中） |
 | MCP 重启 | ✅ 老朱 08-20 授权：杀掉全部 15 个 stale server 进程（含 PID 7752），Hermes gateway 按需自动重生新码进程——check-runtime-drift 由 14 条 DRIFT 转 CLEAN（全绿） |
+
+---
+
+## 欧阳锋终审（2026-08-20 · O3 消费端实测）
+
+**裁定：PASS A。**
+
+**O3 独立验证**：
+- 三问①：commit 1e13681（03:20，#382 import os + 语义补正）✓ 工作区收净 ✓
+- 三问②：代码读（L8 import os + L334 过滤语义：显式 low 才剔除，无元数据按 medium 放行）✓
+- **消费端实测（复现"蒸馏 书单"）**：BM25 10 条 → 过滤后 9 条，被剔 tool-月白-设计能力蒸馏封装法 完整 frontmatter 确认 trust_level: low（初查 400 字符截断假象，全量确认）——与报告 100% 精确剔除一致 ✓
+- pytest 567+1（预存在，stash 对照）✓ / #380【未审】标注兼容 ✓ / MCP 重启 drift CLEAN ✓
+
+**意义**：520 张显式 low-trust 卡从 #380 发现的静默失效到本次真实生效——设计意图首次落地；语义补正（防误杀素材层）是"修 bug 不引入新 bug"的范本。

@@ -1,12 +1,14 @@
 ---
 id: 371
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-18T17:49:52.780194+00:00'
+status: reviewed
+updated_at: '2026-08-18T18:56:11.535984+00:00'
 title: 正库元数据规范清洗（P1，小昭体检修正版）——真 domain 空值 307 + trust_level/status/type 枚举收敛
 priority: P1
 dependency: []
 reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # #371 正库元数据规范清洗（P1）

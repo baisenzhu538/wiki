@@ -1,13 +1,16 @@
 ---
 id: 377
 assignee: kimi-huangyaoshi
-status: in_progress
-updated_at: '2026-08-19T14:09:45.807219+00:00'
+status: reviewed
+updated_at: '2026-08-19T14:36:26.112452+00:00'
 title: 双 pre-submit 门禁收敛（P2，王语嫣
 priority: P2
 dependency: []
 code_files:
 - 90_control/scripts/pre_submit.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-19'
+grade: A
 ---
 
 # #377 双 pre-submit 门禁收敛（P2）

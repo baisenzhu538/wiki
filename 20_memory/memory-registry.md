@@ -23,6 +23,7 @@ audience: 全体 agent
 | 用户反馈/红线 | `agent复盘/<agent>/用户反馈档案.md` | 同上 |
 | 技能进化 | `agent复盘/<agent>/技能进化日志.md` | 同上 |
 | 角色协议 | `agents/agent-os.md` + `.agent/<role>-context.md` | 改动走任务制 |
+| 角色定义 | spec 真相源=`30_wiki/agent-specs/agent-spec-<role>.md`；运行时指令=`.agent/<role>-context.md` | 分工 #370 定：spec 管"是什么/边界"，context 管"怎么跑" |
 | 启动入口 | 现多入口，#366 收敛为 `.kdo/CAPSULE_STARTUP.md` 唯一指针 | 过渡期中 |
 | 工具/脚本真相源 | `kdo-tools/`（登记处 `40_outputs/code/scripts/README.md` 只放指针） | #359 裁定：禁止副本 |
 | MCP 配置 | `agents/hermes-mcp-template.yaml` + `sync-hermes-mcp.py` 渲染 | #326 单一真相源 |

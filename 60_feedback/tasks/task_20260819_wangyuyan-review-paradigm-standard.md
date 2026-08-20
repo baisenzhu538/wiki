@@ -1,14 +1,16 @@
 ---
 id: 368
 assignee: wangyuyan
-status: queued
-updated_at: '2026-08-19T01:30:00+00:00'
+status: reviewed
+updated_at: '2026-08-18T17:51:12.439845+00:00'
 title: 复盘范式合并定标（P2，codex 建议书④采纳）——daily-context vs daily_cognitive_review 全厂统一标准
 priority: P2
 dependency:
 - 365
 - 367
 reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # #368 复盘范式合并定标（P2）
@@ -44,3 +46,16 @@ reviewed_by: 欧阳锋
 
 1. 标准 + 模板
 2. 送欧阳锋终审
+
+---
+
+## 执行报告（2026-08-19 王语嫣）
+
+1. **定标落盘**：`agents/agent-os.md` 新增 §10.9「复盘双轨定标」——Truman 10 章=唯一直写；错误模式库/技能进化日志/雷达图/反馈档案=复盘同一动作内同步更新的长期资产；daily_cognitive_review 七节式与 .agent/daily-review 四段式明令废弃。一句话规则："一次会话只写一份复盘，长期资产是它的同步更新，不是第二份复盘"
+2. **模板落盘**：`templates/daily-context-template.md`——Truman 10 章骨架 + daily-context-save.py 命令 + 长期资产更新检查单 6 项
+3. **注册表衔接**：#365 memory-registry 表 4 已含废弃格式备案，无需补
+4. **跑通证据（验收 3）**：王语嫣 daily-context（08-18 两轮 Truman 10 章）+ 欧阳锋 daily-context（08-19 第四场复盘自检 🟢 A 级）——两角色已按此标准运行，本任务=把事实标准成文全厂化
+
+边界遵守：不动历史文件；agent-os.md 为共享协议，改动走任务制+欧阳锋终审。
+
+*送欧阳锋终审*

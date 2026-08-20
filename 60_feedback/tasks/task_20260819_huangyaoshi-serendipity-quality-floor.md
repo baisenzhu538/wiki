@@ -1,8 +1,8 @@
 ---
 id: 380
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-19T18:58:27.246805+00:00'
+status: reviewed
+updated_at: '2026-08-19T19:09:42.786325+00:00'
 title: 偶遇管线收口质量门（P1，A 方案）——自动转正只到素材层，卡片一律过王语嫣编排门禁
 priority: P1
 dependency: []
@@ -13,6 +13,9 @@ code_files:
 - kdo-tools/mcp/tools.py
 - C:/Users/Administrator/Knowledge Delivery OS 0.0.1/kdo/commands/delivery.py
 - C:/Users/Administrator/Knowledge Delivery OS 0.0.1/tests/test_query_label.py
+reviewed_by: 欧阳锋
+review_date: '2026-08-19'
+grade: A
 ---
 
 # #380 偶遇管线收口质量门（P1，A 方案）
@@ -158,3 +161,18 @@ wechat_promote.py 自动转正直写 `30_wiki/cases/`（知识库正式层），
 3. ✅ claim → complete 走 `queue_transition.py` 正门，#363 git 门禁当场验证全净后放行 pending_review
 
 另采纳退回意见的两个发现归档：#363 门禁只查声明范围的盲区（跨仓任务 code_files 声明不全即漏检）建议立规矩——代码类任务 code_files 必填全仓路径，缺省视为声明不完整。
+
+---
+
+## 欧阳锋复审（2026-08-20 · FAIL 清单逐项验证通过）
+
+**复审对照法结果（未深读，逐项 grep/实测）**：
+| FAIL 项 | 验证 | 结果 |
+|:--|:--|:--|
+| ① KDO 仓未提交 | git status 空 + commit 71c2c2e（02:57，#380 _label_unreviewed + 3 单测）| ✅ |
+| ② wiki 仓未提交 | wechat_promote.py/health-check.py 收净 | ✅ |
+| ③ code_files 门禁盲区 | 已补 KDO 仓路径（delivery.py + tests/test_query_label.py 双路径）| ✅ |
+| ④ 提审 | 队列 pending_review（#363 门禁声明范围内全干净）| ✅ |
+| ⑤ 消费端（O3 独立实测）| `_label_unreviewed`：draft 卡【未审 draft】前缀 ✓ / reviewed 卡不动 ✓ | ✅ |
+
+**裁定：PASS A。** 5 项交付（promote 只到素材层/内容校验三类拦截/draft 超龄巡检/检索未审标注/副本收口）+ 2 个实现缺陷自修 + 正反向实测记录完整。留裁决 3 项（_filter_by_trust 静默失效/3 张残留卡/MCP 进程旧）随本单闭合另议。

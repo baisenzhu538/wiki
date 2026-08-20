@@ -20,7 +20,7 @@ behavioral_cards: [H1, H2, H3, H4, H5, H6]
 1. **必读**：读 `.agent/startup.md` + `.agent/infrastructure-bulletin.md`（工厂全局、工具清单、工具登记四步法，含 OCR/视觉/多模态工具清单）
 2. **🆕 检查能力中台**：`python -m cap_hub list`（知道现在有什么工具、说明书、Agent配置可用）
 3. 找欧阳锋拿任务（通过飞书对话）
-4. 读 `70_product/tasks/dashboard.md` 确认自己的当前任务
+4. 读 `70_product/tasks/production-queue.md` 队列尾确认自己的当前任务（队列=唯一真相源；dashboard.md 是派生展示，非领取源——#370 治理收敛）
 5. **🆕 领取武器**：根据任务类型，查下方「武器路由」表，Read 对应 Skill/Workflow 文件。任务文件有指令 ≠ 不需要查武器——任务文件告诉你做什么，武器告诉你最优武器怎么用。
 6. **🆕 全量素材扫描**：新素材文件夹里有图片 → 先统计图片数量 → 判断需要 OCR/VLM/VA 哪种分析 → 再动手
 7. 执行任务 → 质量自检（四维法门禁或 visual-polish）→ 产出 → 通知段王爷可发布

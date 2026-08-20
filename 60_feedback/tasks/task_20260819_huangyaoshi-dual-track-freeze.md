@@ -1,13 +1,15 @@
 ---
 id: 367
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-19T01:30:00+00:00'
+status: reviewed
+updated_at: '2026-08-18T17:27:12.239035+00:00'
 title: 双轨目录冻结 + 归档（P2，codex 建议书③采纳·assignee 修正为黄药师）——拼音/中文目录收敛
 priority: P2
 dependency:
 - 365
 reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # #367 双轨目录冻结 + 归档（P2）

@@ -301,6 +301,22 @@ Agent 复盘审计 — YYYY-MM-DD
 python kdo-tools/flywheel.py pattern --days 21 --agent <agent-id>
 ```
 
+### 10.9 复盘双轨定标（2026-08-19 #368 门禁）
+
+**问题**：历史上存在两套"复盘"并行——daily-context（Truman 10 章会话复盘）与 daily_cognitive_review（七节式认知复盘），结构不同、无派生关系定义，各 agent 各写各的。
+
+**定标（全厂强制）**：
+
+| 资产 | 性质 | 谁写 | 何时 |
+|:--|:--|:--|:--|
+| `agent复盘/<agent>/daily-context/YYYY-MM-DD.md` | **唯一直写**的复盘文件（Truman 10 章，§10.2 格式） | agent 本人，经 `daily-context-save.py` 落盘 | 每次会话收尾 |
+| 错误模式库 / 技能进化日志 / 能力雷达图 / 用户反馈档案 | **长期资产**——从当次复盘**同步更新**（非独立写一套） | agent 本人，复盘同一动作内 | 复盘时（有新错误/新反馈/技能变化才更新，无则不强行） |
+| `daily_cognitive_review` 七节式、`.agent/daily-review` 四段式 | **已废弃**——禁止新增写入 | — | — |
+
+一句话规则：**一次会话只写一份复盘（Truman 10 章），长期资产是它的同步更新，不是第二份复盘。**
+
+模板：`templates/daily-context-template.md`（含长期资产更新检查单）。
+
 ---
 
 ## 11. KDO Agent 建设标准（三步闭环）

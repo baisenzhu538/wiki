@@ -1,14 +1,17 @@
 ---
 id: 389
 assignee: huangyaoshi
-status: pending_review
+status: reviewed
 title: REVIEW-PENDING 待终审自动登记段（P2，老朱 08-20 拍板立项）
 priority: P2
 dependency: []
 code_files:
 - 90_control/scripts/queue_transition.py
 - 70_product/tasks/production-queue.md
-updated_at: '2026-08-20T04:46:29.518493+00:00'
+updated_at: '2026-08-20T05:33:45.552043+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-20'
+grade: A
 ---
 
 # #389 REVIEW-PENDING 待终审自动登记段
@@ -98,3 +101,18 @@ updated_at: '2026-08-20T04:46:29.518493+00:00'
 ## 五、自证循环
 
 本任务 complete 时，#389 自己将成为 REVIEW-PENDING 段的第一条真实登记——机制上线即自用。
+
+---
+
+## 欧阳锋终审（2026-08-20 · 生产自证核认）
+
+**裁定：PASS A。**
+
+**O3 验证**：
+- 三问①：commit fc87cddbf（12:45）+ 工作区收净 ✓
+- 三问②：`_review_board_update`（L72）+ complete/review 钩子（L445/L503/L511）代码读 ✓
+- **生产自证（非沙盒）**：REVIEW-PENDING 段已生效——**#388 行自动划掉**（"已终审 PASS A（2026-08-20 欧阳锋）"，我今早的 review 钩子所为）+ #389 自动登记为第一条 ✓
+- diff 范围：+80 行纯新增，状态机/门禁零改动（grep 实证）✓
+- 设计约束：门禁后登记（沙盒实测③）/ 不回填（段空起始只向前）/ INBOX-PENDING 零回归（实测④）✓
+
+**加分**：dashboard 评估结论克制（已有等价展示，不并入不另立项）——"机制+评估"双交付，避免过度工程；#387 事件（提审找不到待审任务）的结构缺口补强，与 INBOX-PENDING 对称闭环。

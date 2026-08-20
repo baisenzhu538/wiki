@@ -1,13 +1,15 @@
 ---
 id: 366
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-18T17:26:49.615726+00:00'
+status: reviewed
+updated_at: '2026-08-18T17:48:08.085827+00:00'
 title: CAPSULE_STARTUP 升级统一启动指针（P1，codex 建议书②采纳）——version/git_head/队列尾 + 角色路由
 priority: P1
 dependency:
 - 365
 reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # #366 CAPSULE_STARTUP 升级统一启动指针（P1）

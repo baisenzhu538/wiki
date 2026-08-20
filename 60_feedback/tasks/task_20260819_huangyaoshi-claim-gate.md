@@ -1,12 +1,14 @@
 ---
 id: 375
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-18T19:03:16.393621+00:00'
+status: reviewed
+updated_at: '2026-08-18T19:05:35.849304+00:00'
 title: queue_transition claim 侧执行前门禁（P1）——处置/批量类任务领取强制声明 + 素材删除拦截
 priority: P1
 dependency: []
 reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # #375 queue_transition claim 侧执行前门禁（P1）

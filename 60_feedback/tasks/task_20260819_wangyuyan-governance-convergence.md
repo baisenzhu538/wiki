@@ -1,13 +1,15 @@
 ---
 id: 370
 assignee: wangyuyan
-status: queued
-updated_at: '2026-08-19T02:30:00+00:00'
+status: reviewed
+updated_at: '2026-08-18T17:53:18.952617+00:00'
 title: 治理收敛（P1，小昭体检采纳）——PROTOCOL 写入队列真相源 + 双队列合并 + agent-spec 补齐（含欧阳锋）
 priority: P1
 dependency:
 - 365
 reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # #370 治理收敛（P1）
@@ -46,3 +48,16 @@ reviewed_by: 欧阳锋
 
 1. 修正 + 4 份 spec
 2. 送欧阳锋终审
+
+---
+
+## 执行报告（2026-08-19 王语嫣）
+
+1. **PROTOCOL.md 修正**：头部 v0.3→v0.5（与 changelog 对齐）；"5 角色"→6 角色（补王语嫣 Orchestrator）；§2 拓扑写入队列唯一真相源（production-queue.md，dashboard 降为派生只读）；changelog 补 v0.5 记录
+2. **双队列合并**：`.agent/hongqigong-context.md:23` 与 `.agent/duanwangye-context.md:24` 领任务指向从 dashboard.md 改为 production-queue.md 队列尾
+3. **agent-spec 补齐 4 份**（30_wiki/agent-specs/，均 draft 待审）：ouyangfeng-reviewer / wangyuyan-orchestrator / huangyaoshi-builder / laowantong-producer——spec 6/6 齐备（含既有 duanwangye/hongqigong/zhu-ai-coach）
+4. **角色定义归一**：memory-registry.md 表 1 加行——spec 真相源=agent-specs/，运行时指令=.agent/*-context.md
+
+边界遵守：90_control 改动走任务制+欧阳锋终审（本任务单即提案载体）；spec 起草基于各角色 context 文件与今日实证，未虚构职责。
+
+*送欧阳锋终审*

@@ -1,0 +1,1095 @@
+{
+ "files": 2823,
+ "domain_empty": [
+  "30_wiki\\_test_dead_link.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-AI三角-场景.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-AI三角-基本功.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-AI三角-数据.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-AI可以落地的场景假设.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-AI场景.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-AI基本功.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-AI数据.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-一堂DOC-20260704025752.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-一堂双三角-AI企业经营数据分析.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-一堂双三角-AI时代的竞争力武器库.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-一堂双三角-AI落地五部曲.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-一堂双三角-一个引擎-三阶六变.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-一堂双三角-人生红点教练parther探索.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-一堂双三角-作业洞察和特别表白.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-一堂双三角-十年爬山地图.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-一堂双三角-双三角预判画布.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-一堂双三角-清单版画布.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-一堂双三角-画布案例1.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-一堂双三角-画布案例2.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-一堂双三角-解释版画布.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-人创造力.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-人审美.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-人类三角-创造力.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-人类三角-审美.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-人类三角-练体系.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-人练体系.md",
+  "30_wiki\\cases\\case-yihang-dual-triangle-双三角-竞争力武器库.md",
+  "30_wiki\\concepts\\ai单元模型口述蒋老师.md",
+  "30_wiki\\concepts\\ai数据理解第一课.md",
+  "30_wiki\\concepts\\ai时代判断力口述-3.md",
+  "30_wiki\\concepts\\concept-smart-medicine-cabinet-supply-chain-validation.md",
+  "30_wiki\\concepts\\ec工业化规范手册-v2.8.0.md",
+  "30_wiki\\concepts\\industry-ai-cases.md",
+  "30_wiki\\concepts\\personal-growth-complex-systems.md",
+  "30_wiki\\concepts\\supply-chain-beverage.md",
+  "30_wiki\\concepts\\web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md",
+  "30_wiki\\concepts\\yt-barrier-analysis-cheat-sheet.md",
+  "30_wiki\\concepts\\yt-customer-acquisition-toolkit.md",
+  "30_wiki\\concepts\\yt-demand-analysis-hiking-map.md",
+  "30_wiki\\concepts\\yt-growth-cycle-model.md",
+  "30_wiki\\concepts\\yt-product-kernel-cultivation.md",
+  "30_wiki\\concepts\\yt-unit-model-three-tools.md",
+  "30_wiki\\concepts\\人机协作决策-双三角模型.md",
+  "30_wiki\\concepts\\诊所o2o外卖平台业务深度调研报告.md",
+  "30_wiki\\concepts\\鑫港湾his系统分阶段整改报告.md",
+  "30_wiki\\dark-knowledges\\dk-ai-design-pitfalls.md",
+  "30_wiki\\dark-knowledges\\dk-modeling-ai-without-judgment.md",
+  "30_wiki\\dark-knowledges\\dk-modeling-business-visual-logic-match.md",
+  "30_wiki\\dark-knowledges\\dk-modeling-counterexample-driven.md",
+  "30_wiki\\dark-knowledges\\dk-modeling-course-rnd-ripe-fruit.md",
+  "30_wiki\\dark-knowledges\\dk-modeling-essence-predictive.md",
+  "30_wiki\\dark-knowledges\\dk-modeling-model-arsenal-paradigms.md",
+  "30_wiki\\dark-knowledges\\dk-modeling-radar-model-not-result.md",
+  "30_wiki\\dark-knowledges\\dk-modeling-unit-pairs-milestone.md",
+  "30_wiki\\dark-knowledges\\dk-wanghuan-spec-trap.md",
+  "30_wiki\\dark-knowledges\\dk-yitang-sales-common-pitfalls.md",
+  "30_wiki\\dark-knowledges\\dk-yitang-Y-model-pitfalls.md",
+  "30_wiki\\domains\\management-domain-digest.md",
+  "30_wiki\\frameworks\\concept-minto-pyramid-principle.md",
+  "30_wiki\\frameworks\\framework-ai-accelerated-strategy-cycle.md",
+  "30_wiki\\frameworks\\framework-ai-deconstruction-methodology.md",
+  "30_wiki\\frameworks\\framework-ai-deliberate-practice-loop.md",
+  "30_wiki\\frameworks\\framework-ai-native-organization-two-modes.md",
+  "30_wiki\\frameworks\\framework-ai-video-production-aesthetics-first.md",
+  "30_wiki\\frameworks\\framework-ai2041-critical-reading-os.md",
+  "30_wiki\\frameworks\\framework-bimodal-time-philosophy.md",
+  "30_wiki\\frameworks\\framework-brand-three-degree.md",
+  "30_wiki\\frameworks\\framework-business-formula-dual-triangle-bridge.md",
+  "30_wiki\\frameworks\\framework-business-formula-fundamentals-bridge.md",
+  "30_wiki\\frameworks\\framework-business-formula-y-model-bridge.md",
+  "30_wiki\\frameworks\\framework-candy-transcript-workflow.md",
+  "30_wiki\\frameworks\\framework-ci-operating-model.md",
+  "30_wiki\\frameworks\\framework-community-knowledge-production-failure-modes.md",
+  "30_wiki\\frameworks\\framework-content-business-six-step.md",
+  "30_wiki\\frameworks\\framework-course-milestone-model.md",
+  "30_wiki\\frameworks\\framework-decision-cognitive-bias-map.md",
+  "30_wiki\\frameworks\\framework-decision-quality-checklist.md",
+  "30_wiki\\frameworks\\framework-deep-work-iceberg.md",
+  "30_wiki\\frameworks\\framework-demand-ceiling-four-lines.md",
+  "30_wiki\\frameworks\\framework-demand-iceberg.md",
+  "30_wiki\\frameworks\\framework-demand-lean-bridge.md",
+  "30_wiki\\frameworks\\framework-demand-opportunity-spectrum.md",
+  "30_wiki\\frameworks\\framework-demand-usp-model.md",
+  "30_wiki\\frameworks\\framework-demand-validation-pipeline.md",
+  "30_wiki\\frameworks\\framework-doris-industry-report-4step.md",
+  "30_wiki\\frameworks\\framework-five-step-lean-interface.md",
+  "30_wiki\\frameworks\\framework-founder-ip-three-positioning.md",
+  "30_wiki\\frameworks\\framework-kdo-mcp-server.md",
+  "30_wiki\\frameworks\\framework-kdo-modeling-methodology.md",
+  "30_wiki\\frameworks\\framework-kdo-self-attack.md",
+  "30_wiki\\frameworks\\framework-lean-abcd-model.md",
+  "30_wiki\\frameworks\\framework-lean-expert-roadmap.md",
+  "30_wiki\\frameworks\\framework-lean-false-model.md",
+  "30_wiki\\frameworks\\framework-lean-four-principles.md",
+  "30_wiki\\frameworks\\framework-lean-pivot-decision.md",
+  "30_wiki\\frameworks\\framework-lean-product-kernel.md",
+  "30_wiki\\frameworks\\framework-lean-six-wastes.md",
+  "30_wiki\\frameworks\\framework-lean-systematic-test-curve.md",
+  "30_wiki\\frameworks\\framework-lean-tenx-formula.md",
+  "30_wiki\\frameworks\\framework-logic-cleanliness-five-levels.md",
+  "30_wiki\\frameworks\\framework-modeling-relation-exploration.md",
+  "30_wiki\\frameworks\\framework-multi-agent-research-architecture.md",
+  "30_wiki\\frameworks\\framework-ouyangfeng-review-methodology.md",
+  "30_wiki\\frameworks\\framework-pan-product-organization.md",
+  "30_wiki\\frameworks\\framework-strategy-ansoff.md",
+  "30_wiki\\frameworks\\framework-strategy-basics-01-core.md",
+  "30_wiki\\frameworks\\framework-strategy-basics-02-insight.md",
+  "30_wiki\\frameworks\\framework-strategy-basics-03-layout.md",
+  "30_wiki\\frameworks\\framework-strategy-basics-04-system.md",
+  "30_wiki\\frameworks\\framework-strategy-basics-05-change.md",
+  "30_wiki\\frameworks\\framework-strategy-five-forces.md",
+  "30_wiki\\frameworks\\framework-strategy-kai-innovation-directions.md",
+  "30_wiki\\frameworks\\framework-strategy-lean-validation.md",
+  "30_wiki\\frameworks\\framework-strategy-mckinsey-7s.md",
+  "30_wiki\\frameworks\\framework-strategy-three-horizons.md",
+  "30_wiki\\frameworks\\framework-structured-analytic-techniques.md",
+  "30_wiki\\frameworks\\framework-taste-as-judgment-system.md",
+  "30_wiki\\frameworks\\framework-time-management-dual-loop-matrix.md",
+  "30_wiki\\frameworks\\framework-time-management-matrix.md",
+  "30_wiki\\frameworks\\framework-visual-analysis-four-dimensions.md",
+  "30_wiki\\frameworks\\framework-wanghuan-actor-director-mode.md",
+  "30_wiki\\frameworks\\framework-wanghuan-ai-five-level-ladder.md",
+  "30_wiki\\frameworks\\framework-wanghuan-bitcoe-prompt-framework.md",
+  "30_wiki\\frameworks\\framework-wanghuan-five-criteria-first-product.md",
+  "30_wiki\\frameworks\\framework-wanghuan-gan-three-roles.md",
+  "30_wiki\\frameworks\\framework-wanghuan-harness-seven-stages.md",
+  "30_wiki\\frameworks\\framework-wanghuan-ooda-loop.md",
+  "30_wiki\\frameworks\\framework-wanghuan-say-think-do-toolchain.md",
+  "30_wiki\\frameworks\\framework-wanghuan-task-product-system.md",
+  "30_wiki\\frameworks\\framework-wanghuan-three-tier-dev-architecture.md",
+  "30_wiki\\frameworks\\framework-yihang-aesthetic-judgment-training.md",
+  "30_wiki\\frameworks\\framework-yihang-ai-implementation-consultant.md",
+  "30_wiki\\frameworks\\framework-yihang-AI-native-dual-triangle-kernel.md",
+  "30_wiki\\frameworks\\framework-yihang-dual-triangle-ai-landing-five-steps.md",
+  "30_wiki\\frameworks\\framework-yihang-dual-triangle-ten-year-map.md",
+  "30_wiki\\frameworks\\framework-yihang-dual-triangle-three-stages-six-changes.md",
+  "30_wiki\\frameworks\\framework-yihang-dual-triangle-weapon-library.md",
+  "30_wiki\\frameworks\\framework-yihang-fde-ai-native-org.md",
+  "30_wiki\\frameworks\\framework-yihang-knowledge-data-decoupling.md",
+  "30_wiki\\frameworks\\framework-yitang-18-strategy-cards.md",
+  "30_wiki\\frameworks\\framework-yitang-case-crafting-four-step.md",
+  "30_wiki\\frameworks\\framework-yitang-channel-exploration-4step.md",
+  "30_wiki\\frameworks\\framework-yitang-channel-industrialization.md",
+  "30_wiki\\frameworks\\framework-yitang-channel-partnership-map.md",
+  "30_wiki\\frameworks\\framework-yitang-channel-unit-economics.md",
+  "30_wiki\\frameworks\\framework-yitang-deliberate-practice-1plus4.md",
+  "30_wiki\\frameworks\\framework-yitang-expert-interview-10steps.md",
+  "30_wiki\\frameworks\\framework-yitang-five-step-to-time-management.md",
+  "30_wiki\\frameworks\\framework-yitang-four-research-types.md",
+  "30_wiki\\frameworks\\framework-yitang-growth-flywheel.md",
+  "30_wiki\\frameworks\\framework-yitang-high-level-execution.md",
+  "30_wiki\\frameworks\\framework-yitang-high-level-plan.md",
+  "30_wiki\\frameworks\\framework-yitang-iterative-recursive-digging.md",
+  "30_wiki\\frameworks\\framework-yitang-jiefang-sixiang.md",
+  "30_wiki\\frameworks\\framework-yitang-nine-layer-deep-dig.md",
+  "30_wiki\\frameworks\\framework-yitang-oscar-research.md",
+  "30_wiki\\frameworks\\framework-yitang-shishi-qiushi.md",
+  "30_wiki\\frameworks\\framework-一堂-关键假设-三板斧.md",
+  "30_wiki\\frameworks\\framework-一堂-关键假设.md",
+  "30_wiki\\frameworks\\framework-一堂-动力三曲线.md",
+  "30_wiki\\frameworks\\framework-一堂-十指模型.md",
+  "30_wiki\\frameworks\\framework-一堂-基本功-九层金字塔.md",
+  "30_wiki\\frameworks\\framework-一堂-基本功-四字诀拆建推练.md",
+  "30_wiki\\frameworks\\framework-一堂-基本功-四类工作四化.md",
+  "30_wiki\\frameworks\\framework-一堂-影响力36计.md",
+  "30_wiki\\frameworks\\framework-一堂-机会预判.md",
+  "30_wiki\\frameworks\\framework-一堂-苦练基本功-总纲.md",
+  "30_wiki\\frameworks\\framework-一堂-表达力火箭模型.md",
+  "30_wiki\\frameworks\\framework-一堂-触点本质论.md",
+  "30_wiki\\frameworks\\framework-一堂-转化基本功七个自我修养.md",
+  "30_wiki\\frameworks\\framework-一堂-转化率提升六步法.md",
+  "30_wiki\\frameworks\\framework-一堂-转化率黑客-总纲.md",
+  "30_wiki\\frameworks\\framework-一堂-转化率黑客爬山地图.md",
+  "30_wiki\\frameworks\\framework-一堂-阻力方法论骨架.md",
+  "30_wiki\\frameworks\\framework-一堂五步法-单元模型.md",
+  "30_wiki\\frameworks\\framework-一堂五步法-增长周期.md",
+  "30_wiki\\frameworks\\framework-一堂五步法-壁垒.md",
+  "30_wiki\\frameworks\\framework-一堂五步法-泛产品设计.md",
+  "30_wiki\\frameworks\\framework-一堂五步法.md",
+  "30_wiki\\frameworks\\framework-个人学习方法-IPO学习闭环.md",
+  "30_wiki\\frameworks\\framework-个人学习方法-思维模型.md",
+  "30_wiki\\frameworks\\framework-个人学习方法-知识萃取.md",
+  "30_wiki\\frameworks\\framework-个人学习方法-科学提问.md",
+  "30_wiki\\frameworks\\framework-个人学习方法总框架.md",
+  "30_wiki\\frameworks\\framework-个人成长五步法.md",
+  "30_wiki\\frameworks\\framework-利润-利润优先经营框架.md",
+  "30_wiki\\methods\\method-kdo-agent-design-meta.md",
+  "30_wiki\\methods\\method-kdo-agent-distillation.md",
+  "30_wiki\\methods\\method-kdo-external-exploration-sop.md",
+  "30_wiki\\tools\\sk-ai-evidence-check.md",
+  "30_wiki\\tools\\sk-ai-purpose-bias-check.md",
+  "30_wiki\\tools\\tool-agent-crawl4ai.md",
+  "30_wiki\\tools\\tool-agent-firecrawl.md",
+  "30_wiki\\tools\\tool-agent-research-pipeline.md",
+  "30_wiki\\tools\\tool-agent-research-swarm.md",
+  "30_wiki\\tools\\tool-ai-feature-inventory.md",
+  "30_wiki\\tools\\tool-ai-landing-five-steps.md",
+  "30_wiki\\tools\\tool-ai-research-five-steps.md",
+  "30_wiki\\tools\\tool-ai-scene-four-elements.md",
+  "30_wiki\\tools\\tool-ci-define-phase.md",
+  "30_wiki\\tools\\tool-ci-implement-phase.md",
+  "30_wiki\\tools\\tool-devils-advocacy.md",
+  "30_wiki\\tools\\tool-indicators-signposts.md",
+  "30_wiki\\tools\\tool-key-assumptions-check.md",
+  "30_wiki\\tools\\tool-red-team-analysis.md",
+  "30_wiki\\tools\\tool-strategy-activity-scope.md",
+  "30_wiki\\tools\\tool-strategy-control-points.md",
+  "30_wiki\\tools\\tool-strategy-risk-management.md",
+  "30_wiki\\tools\\tool-strategy-value-capture.md",
+  "30_wiki\\tools\\tool-strategy-value-proposition.md",
+  "30_wiki\\tools\\tool-yitang-practice-20hour-starter.md",
+  "30_wiki\\tools\\tool-yitang-project-weapon-library-v1-8.md",
+  "30_wiki\\tools\\tool-yitang-research-best-practice.md",
+  "30_wiki\\tools\\tool-yitang-research-company-disassembly.md",
+  "30_wiki\\tools\\tool-yitang-research-competitive-quadrant.md",
+  "30_wiki\\tools\\tool-yitang-research-competitor-tracking.md",
+  "30_wiki\\tools\\tool-yitang-research-continuous-tracking.md",
+  "30_wiki\\tools\\tool-yitang-research-cross-validation.md",
+  "30_wiki\\tools\\tool-yitang-research-deep-attribution.md",
+  "30_wiki\\tools\\tool-yitang-research-exhaust-means.md",
+  "30_wiki\\tools\\tool-yitang-research-follow-map.md",
+  "30_wiki\\tools\\tool-yitang-research-industry-scan.md",
+  "30_wiki\\tools\\tool-yitang-research-intelligence-map-in-hand.md",
+  "30_wiki\\tools\\tool-yitang-research-normalize-summary.md",
+  "30_wiki\\tools\\tool-yitang-research-quantitative-modeling.md",
+  "30_wiki\\tools\\tool-yitang-research-single-point-sniper.md",
+  "30_wiki\\tools\\tool-yitang-research-two-dimensional-positioning.md",
+  "30_wiki\\tools\\tool-yitang-research-unit-model.md",
+  "30_wiki\\tools\\tool-yitang-research-validate-assumption.md",
+  "30_wiki\\tools\\tool-yitang-reverse-data-analysis.md",
+  "30_wiki\\tools\\tool-zhu-ai-deliberate-practice-roadmap.md",
+  "30_wiki\\tools\\tool-一堂-business-prediction-15-char.md",
+  "30_wiki\\tools\\tool-一堂-five-step-validation.md",
+  "30_wiki\\tools\\tool-使用一页纸速查卡快速调用框架.md",
+  "30_wiki\\tools\\tool-场景推演.md",
+  "30_wiki\\tools\\tool-审美工具箱.md",
+  "30_wiki\\tools\\tool-最佳实践收集.md",
+  "30_wiki\\tools\\tool-最佳实践池子.md",
+  "30_wiki\\tools\\tool-李诞-判断工作价值的交易成本视角.md",
+  "30_wiki\\tools\\tool-李诞-面对过去错误的平静心法.md",
+  "30_wiki\\tools\\tool-水水-保持系统冗余.md",
+  "30_wiki\\tools\\tool-水水-利用叙事驱动决策.md",
+  "30_wiki\\tools\\tool-水水-利用基因漂变视角.md",
+  "30_wiki\\tools\\tool-水水-区分风险与不确定性.md",
+  "30_wiki\\tools\\tool-水水-接受发散性世界观.md",
+  "30_wiki\\tools\\tool-水水-构建自利叙事.md",
+  "30_wiki\\tools\\tool-水水-用感性维度构建溢价.md",
+  "30_wiki\\tools\\tool-水水-练习坦然说不知道.md",
+  "30_wiki\\tools\\tool-水水-警惕概率虚妄安全感.md",
+  "30_wiki\\tools\\tool-水水-识别关键偶然因素.md",
+  "30_wiki\\tools\\tool-水水-识别数据折磨陷阱.md",
+  "30_wiki\\tools\\tool-水水-识别模型局限性.md",
+  "30_wiki\\tools\\tool-水水-识别自证预言陷阱.md",
+  "30_wiki\\tools\\tool-水水-识别超级传播者风险.md",
+  "30_wiki\\tools\\tool-水水-识别饥饿效应.md",
+  "30_wiki\\tools\\tool-水水-降低故事逻辑要求.md",
+  "30_wiki\\tools\\tool-泛产品落地-内核和边界.md",
+  "30_wiki\\tools\\tool-泛产品落地-善用佳软.md",
+  "30_wiki\\tools\\tool-泛产品落地-灵感闪现.md",
+  "30_wiki\\tools\\tool-用户分层.md",
+  "30_wiki\\tools\\tool-用户视角.md",
+  "30_wiki\\tools\\tool-纪浩-AI对话上下文隔离.md",
+  "30_wiki\\tools\\tool-行业分析画布.md",
+  "30_wiki\\tools\\tool-需求挖掘.md",
+  "30_wiki\\tools\\tool-项目背景分析.md",
+  "30_wiki\\tools\\tool-马易-AI任务拆解提升控制度.md",
+  "30_wiki\\tools\\tool-马易-AI搜索公网数据增强（合规边界）.md",
+  "30_wiki\\tools\\tool-马易-AI答疑运营风格适配.md",
+  "30_wiki\\tools\\tool-马易-AI能力团队复制.md",
+  "30_wiki\\tools\\tool-马易-AI落地前置条件验证.md",
+  "30_wiki\\tools\\tool-马易-AI落地四阶段验证法.md",
+  "30_wiki\\tools\\tool-马易-AI落地场景识别-拆工作流找场景.md",
+  "30_wiki\\tools\\tool-马易-AI落地场景识别与拆分.md",
+  "30_wiki\\tools\\tool-马易-AI落地能力内化训练.md",
+  "30_wiki\\tools\\tool-马易-AI落地认知速成-最佳实践学习法.md",
+  "30_wiki\\tools\\tool-马易-AI项目上线-先平行再独行.md",
+  "30_wiki\\tools\\tool-马易-AI项目需求拆解筛选.md",
+  "30_wiki\\tools\\tool-马易-RPA数据整合法.md",
+  "30_wiki\\tools\\tool-马易-业务为先的AI中台建设.md",
+  "30_wiki\\tools\\tool-马易-中国企业AI落地五步法.md",
+  "30_wiki\\tools\\tool-马易-低置信度样本黄金漏斗处理.md",
+  "30_wiki\\tools\\tool-马易-公寓获客自跑通原则.md",
+  "30_wiki\\tools\\tool-马易-关键假设识别与验证.md",
+  "30_wiki\\tools\\tool-马易-减少输入噪音法.md",
+  "30_wiki\\tools\\tool-马易-判断标准快速产出法.md",
+  "30_wiki\\tools\\tool-马易-工作流拆解找场景.md",
+  "30_wiki\\tools\\tool-马易-平台模式验证法.md",
+  "30_wiki\\tools\\tool-马易-成为首位F工程师.md",
+  "30_wiki\\tools\\tool-马易-数字员工FD拆解落地.md",
+  "30_wiki\\tools\\tool-马易-数据存储架构选择.md",
+  "30_wiki\\tools\\tool-马易-数据标注正确法.md",
+  "30_wiki\\tools\\tool-马易-时间序列大模型场景识别.md",
+  "30_wiki\\tools\\tool-马易-最小场景优先落地法.md",
+  "30_wiki\\tools\\tool-马易-深度沉浸需求挖掘.md",
+  "30_wiki\\tools\\tool-马易-痛点驱动的数字化.md",
+  "30_wiki\\tools\\tool-马易-知识库-回答技巧双建设.md",
+  "30_wiki\\tools\\tool-马易-视频转化关键要素标注校验.md",
+  "30_wiki\\tools\\tool-马易-销售智能体体系搭建路径.md",
+  "30_wiki\\tools\\tool-马易-隐性知识萃取与模型化.md",
+  "30_wiki\\tools\\tool-马易-隐私安全分层解决.md",
+  "30_wiki\\tools\\tool-马易-需求创造验证法.md",
+  "30_wiki\\tools\\tool-马易-风口痛点识别法.md",
+  "30_wiki\\tools\\yt-pitch-metaphor.md",
+  "30_wiki\\tools\\yt-pitch-quantification.md",
+  "30_wiki\\tools\\yt-pitch-storytelling.md",
+  "30_wiki\\tools\\yt-tool-business-formula-metrics-checklist.md"
+ ],
+ "trust_bad": {
+  "medium-low": 89,
+  "observed": 65,
+  "medium-high": 99,
+  "medium# 产品内核迭代：从静态到动态的五方向演化": 1,
+  "medium# P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效": 1,
+  "low# 黄药师对齐回应：对欧阳锋补充的意见 + 4 个分歧": 1,
+  "low# 数据标注方案最终汇总 — 三方调研 + 黄药师独立判断": 1,
+  "low# Sprint 6 CLI 缺口修复提案": 1,
+  "medium# 互联网医院项目": 1,
+  "medium# 诊所O2O项目": 1,
+  "medium# 鑫港湾HIS项目": 1,
+  "placeholder": 1
+ },
+ "type_dk": 341,
+ "type_dark": [
+  "30_wiki\\dark-knowledges\\dk-ai-design-pitfalls.md",
+  "30_wiki\\dark-knowledges\\dk-community-lecturer-vs-crowd-model.md",
+  "30_wiki\\dark-knowledges\\dk-content-implicit-value-without-price.md",
+  "30_wiki\\dark-knowledges\\dk-content-muscle-memory-vs-knowledge.md",
+  "30_wiki\\dark-knowledges\\dk-founding-ip-trust-over-traffic.md",
+  "30_wiki\\dark-knowledges\\dk-yitang-sales-common-pitfalls.md",
+  "30_wiki\\dark-knowledges\\dk-yitang-Y-model-pitfalls.md",
+  "30_wiki\\dk\\dk-time-management-common-mistakes.md"
+ ],
+ "status_counts": {
+  "draft": 661,
+  "deprecated": 4,
+  "superseded": 23,
+  "enriched": 627,
+  "None": 57,
+  "reviewed": 1261,
+  "pending_review": 104,
+  "stable": 11,
+  "pending": 2,
+  "revised": 1,
+  "proposed": 5,
+  "approved": 2,
+  "active": 18,
+  "placeholder": 1,
+  "needs-review": 46
+ },
+ "no_title": [
+  "30_wiki\\_test_pa.md"
+ ],
+ "no_type": [
+  "30_wiki\\concepts\\ai单元模型口述蒋老师.md",
+  "30_wiki\\concepts\\ai数据理解第一课.md",
+  "30_wiki\\concepts\\ai时代判断力口述-3.md",
+  "30_wiki\\concepts\\concept-smart-medicine-cabinet-supply-chain-validation.md",
+  "30_wiki\\concepts\\ec工业化规范手册-v2.8.0.md",
+  "30_wiki\\concepts\\yt-ai-startup-20-risky-hypotheses.md",
+  "30_wiki\\concepts\\yt-ai-trend-12-signals.md",
+  "30_wiki\\concepts\\yt-barrier-analysis-cheat-sheet.md",
+  "30_wiki\\concepts\\yt-customer-acquisition-toolkit.md",
+  "30_wiki\\concepts\\yt-demand-analysis-hiking-map.md",
+  "30_wiki\\concepts\\yt-entrepreneur-259-milestone.md",
+  "30_wiki\\concepts\\yt-entrepreneur-barriers.md",
+  "30_wiki\\concepts\\yt-entrepreneur-business-growth.md",
+  "30_wiki\\concepts\\yt-entrepreneur-channel-exploration.md",
+  "30_wiki\\concepts\\yt-entrepreneur-concentration-analysis.md",
+  "30_wiki\\concepts\\yt-entrepreneur-fundraising.md",
+  "30_wiki\\concepts\\yt-entrepreneur-industrial-production.md",
+  "30_wiki\\concepts\\yt-entrepreneur-industry-forecast.md",
+  "30_wiki\\concepts\\yt-entrepreneur-opportunity-selection.md",
+  "30_wiki\\concepts\\yt-entrepreneur-pragmatic-startup.md",
+  "30_wiki\\concepts\\yt-entrepreneur-product-core.md",
+  "30_wiki\\concepts\\yt-entrepreneur-research-camp.md",
+  "30_wiki\\concepts\\yt-entrepreneur-spin-selling.md",
+  "30_wiki\\concepts\\yt-foresight-model-taxonomy.md",
+  "30_wiki\\concepts\\yt-growth-cycle-model.md",
+  "30_wiki\\concepts\\yt-model-deep-review-iceberg.md",
+  "30_wiki\\concepts\\yt-model-deliberate-practice-growth.md",
+  "30_wiki\\concepts\\yt-model-ipo-complete-checklist.md",
+  "30_wiki\\concepts\\yt-model-management-map.md",
+  "30_wiki\\concepts\\yt-model-muse-ai-framework.md",
+  "30_wiki\\concepts\\yt-model-prediction-model.md",
+  "30_wiki\\concepts\\yt-model-product-core-metrics.md",
+  "30_wiki\\concepts\\yt-model-product-excellence.md",
+  "30_wiki\\concepts\\yt-model-questioning-practice-canvas.md",
+  "30_wiki\\concepts\\yt-model-scientific-questioning-map.md",
+  "30_wiki\\concepts\\yt-model-truman-career-routes.md",
+  "30_wiki\\concepts\\yt-model-truman-five-step-growth.md",
+  "30_wiki\\concepts\\yt-model-y-organization.md",
+  "30_wiki\\concepts\\yt-personal-checklist-notes.md",
+  "30_wiki\\concepts\\yt-personal-inspiration-flash.md",
+  "30_wiki\\concepts\\yt-personal-knowledge-management.md",
+  "30_wiki\\concepts\\yt-personal-product-design.md",
+  "30_wiki\\concepts\\yt-personal-thinking-models.md",
+  "30_wiki\\concepts\\yt-personal-verbatim-script.md",
+  "30_wiki\\concepts\\yt-personal-y-model-practice.md",
+  "30_wiki\\concepts\\yt-product-kernel-cultivation.md",
+  "30_wiki\\concepts\\yt-scale-economy-weapon-library.md",
+  "30_wiki\\concepts\\yt-unit-model-three-tools.md",
+  "30_wiki\\concepts\\人机协作决策-双三角模型.md",
+  "30_wiki\\concepts\\诊所o2o外卖平台业务深度调研报告.md",
+  "30_wiki\\concepts\\鑫港湾his系统分阶段整改报告.md",
+  "30_wiki\\dark-knowledges\\dk-modeling-business-visual-logic-match.md",
+  "30_wiki\\tools\\tool-yitang-practice-20hour-starter.md",
+  "30_wiki\\tools\\tool-一堂-business-prediction-15-char.md",
+  "30_wiki\\tools\\tool-一堂-five-step-validation.md",
+  "30_wiki\\tools\\tool-使用一页纸速查卡快速调用框架.md",
+  "30_wiki\\tools\\tool-纪浩-AI对话上下文隔离.md",
+  "30_wiki\\tools\\tool-马易-业务为先的AI中台建设.md",
+  "30_wiki\\tools\\yt-tool-business-formula-metrics-checklist.md"
+ ],
+ "dup_keys": [
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "tags"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "tags"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "tags"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow_up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "follow_up_question",
+    "description",
+    "context"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow_up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "follow_up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "follow_up_question"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "follow_up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "follow_up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "follow_up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "follow_up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "follow_up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "follow_up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "follow_up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "follow_up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "follow_up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "follow_up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "tags"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "lens",
+    "follow-up"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "aliases"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "reviewed_by"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "tags"
+   ]
+  ],
+  [
+   "<unicode string>",
+   [
+    "tags"
+   ]
+  ]
+ ],
+ "test_pa": [
+  "30_wiki\\_test_pa.md"
+ ]
+}

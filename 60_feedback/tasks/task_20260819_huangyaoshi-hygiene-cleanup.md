@@ -1,12 +1,14 @@
 ---
 id: 372
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-18T17:58:58.279663+00:00'
+status: reviewed
+updated_at: '2026-08-18T18:56:11.925535+00:00'
 title: 卫生债大扫除（P2，小昭体检采纳）——_tmp 29286 文件 + 嵌套 git 仓库 + C:/ 路径 bug 目录 + inbox PARA 库决策
 priority: P2
 dependency: []
 reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # #372 卫生债大扫除（P2）

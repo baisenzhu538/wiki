@@ -1,12 +1,14 @@
 ---
 id: 361
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-19T00:50:00+00:00'
+status: reviewed
+updated_at: '2026-08-18T17:27:11.856100+00:00'
 title: kdo MCP 修复生效收口（P1）——KDO 仓 23:44 改动 commit + 9 gateway 滚动重启 + 真机消费层回归
 priority: P1
 dependency: []
 reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # #361 kdo MCP 修复生效收口（P1）

@@ -1,12 +1,14 @@
 ---
 id: 374
 assignee: huangyaoshi
-status: pending_review
-updated_at: '2026-08-18T18:57:43.177725+00:00'
+status: reviewed
+updated_at: '2026-08-18T19:04:08.957892+00:00'
 title: agent-activity-check.py 停滞诊断工具（P2，E035 工具化）——进程 CPU 增量 + 全库文件活动 + claim 时长三问一脚本
 priority: P2
 dependency: []
 reviewed_by: 欧阳锋
+review_date: '2026-08-18'
+grade: A
 ---
 
 # #374 agent-activity-check.py 停滞诊断工具（P2）

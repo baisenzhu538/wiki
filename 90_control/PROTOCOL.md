@@ -1,7 +1,7 @@
-# KDO Protocol v0.3
+# KDO Protocol v0.5
 
-> **状态**：活跃。最后审查 2026-05-31。
-> **定位**：v0.1 基于旧 3 角色体系（Researcher/Librarian/Arbiter），v0.3 已同步到当前 5 角色体系（欧阳锋/黄药师/老顽童/洪七公/段王爷）。
+> **状态**：活跃。最后审查 2026-08-19。
+> **定位**：v0.1 基于旧 3 角色体系（Researcher/Librarian/Arbiter）；v0.5 同步到当前 6 角色体系（王语嫣编排 / 欧阳锋终审 / 黄药师基建 / 老顽童生产 / 洪七公多模态 / 段王爷发布）。
 > **阅读顺序**：先读 `AGENTS.md`（角色分工+禁止清单）→ 本文件（目录拓扑+访问控制）→ `kdo-industrialization-manual.md`（操作标准）。
 > **AI 必须在执行任何 create/update/delete 操作前读取本文件**。
 
@@ -15,7 +15,7 @@
 | **Purpose** | Compile raw inputs into reusable knowledge assets and shipped outputs |
 | **Storage** | Markdown + YAML frontmatter + JSON state |
 | **Runtime** | Zero external dependencies (std-lib only) |
-| **Primary AI Roles** | 欧阳锋（Architect）, 黄药师（Builder）, 老顽童（Producer）, 洪七公（Multimodal）, 段王爷（Publisher）——定义在 `AGENTS.md` |
+| **Primary AI Roles** | 王语嫣（Orchestrator）, 欧阳锋（Reviewer）, 黄药师（Builder）, 老顽童（Producer）, 洪七公（Multimodal）, 段王爷（Publisher）——定义在 `AGENTS.md` + `30_wiki/agent-specs/` |
 
 ---
 
@@ -29,7 +29,7 @@
 40_outputs/        → DELIVERABLES: content, code, capabilities
 50_delivery/       → SHIP RECORDS
 60_feedback/       → SIGNALS for improvement loop
-70_product/        → PRODUCT EXECUTION
+70_product/        → PRODUCT EXECUTION（任务队列唯一真相源 = 70_product/tasks/production-queue.md；dashboard.md/html 是派生只读展示，禁作领任务依据）
 90_control/        → PROTOCOLS, schemas, agent rules (this file)
 .kdo/              → MACHINE STATE (ignored by git)
 ```
@@ -175,6 +175,7 @@ capture → ingest → enrich → produce → validate → ship → feedback →
 - ❌ **Never** create wiki pages without frontmatter
 - ❌ **Never** overwrite `90_control/` files without human approval
 - ❌ **Never** commit `00_inbox/` items without processing
+- ❌ **Never** delete source materials (`00_inbox/`/`10_raw/`) by default —— 素材处置选项只允许"消化/归档"；删除必须逐件经老朱本人批准（2026-08-19 英文壳目录事件：中文口述素材被误定性为导入库，"删除"选项差点进执行链）
 - ❌ **Never** leave TODO placeholders in `30_wiki/` pages (use `kdo enrich` or resolve manually)
 - ❌ **Never** create orphan pages (no incoming links from index or other pages)
 
@@ -262,6 +263,8 @@ attention_required:
 |------|---------|--------|--------|
 | 2026-05-02 | 0.1 | Initial protocol draft | AI (Claude) + Human |
 | 2026-07-07 | 0.4 | Add §8 任务启动自检规则（OSCAR融合事件驱动） | 王语嫣 |
+| 2026-08-19 | 0.5 | 6 角色体系统一（补王语嫣，头部版本号对齐）+ §2 拓扑写入队列唯一真相源 + 双队列合并（dashboard 降为派生只读）——#370 治理收敛 | 王语嫣 |
+| 2026-08-19 | 0.5.1 | §7 禁令加素材删除禁令（默认禁删，逐件老朱亲批）——英文壳目录事件驱动 | 王语嫣（老朱红线落盘） |
 
 ---
 
