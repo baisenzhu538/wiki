@@ -426,7 +426,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 403 | `task_20260821_huangyaoshi-agent-birth-gate` | agent 出生模板前置闸两问（P3，L2+L6 合并）：传话反模式检查+AI 人效第 0 问（现有角色+workflow 能覆盖就不新造） | reviewed | huangyaoshi | 模板+实测 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-agent-birth-gate.md` | 只改出生模板不改现有 agent；假想调度 agent 提案被拦实测；欧阳锋终审 |
 | 404 | `task_20260821_huangyaoshi-trust-injection-gate` | trust 注入端源优先（P3，L4，王语嫣降级+加前提）：先出 KDO 侧低质源污染实证（无则关单），有实证才做 min_trust 参数+受信源清单 | reviewed | huangyaoshi | 实证+条件机制 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-trust-injection-gate.md` | ⚠️建议书证据全来自龙虾员工非本厂痛点——先证后修，无实证即关闭；行为改变须前后对比实测；不动默认检索行为；欧阳锋终审 |
 | 405 | `task_20260821_laowantong-anti-bs-skill` | 防忽悠三层法 skill 结晶（P3，L5，王语嫣采纳+纠偏）：tool-anti-ai-bs-three-moves 卡的行为化——知行合一纲领第一个示范项 | reviewed | laowantong | skill+实测 | 无 | `60_feedback/tasks/task_20260821_laowantong-anti-bs-skill.md` | ⚠️L7 纠偏：#379 已有同名卡，本单是行为化非新内容；platforms 用 OS 值（E030）；Matrix 场景回放第二层拦截实测；欧阳锋终审 |
-| 406 | `task_20260821_laowantong-reverse-backlink-sweep` | 旧卡反向回链收口（P2，王语嫣编排裁决）：#383/#396/#400 三批"旧卡→新卡"反向链一次性清零 + 常设规则（批次验收默认含回链，不再留尾巴） | claimed-hermes | laowantong | 链接收口 | 无 | `60_feedback/tasks/task_20260821_laowantong-reverse-backlink-sweep.md` | 只动 related 链接区不动正文；三批清单以各任务单执行报告为准；pre-submit 0 死链；欧阳锋终审 |
+| 406 | `task_20260821_laowantong-reverse-backlink-sweep` | 旧卡反向回链收口（P2，王语嫣编排裁决）：#383/#396/#400 三批"旧卡→新卡"反向链一次性清零 + 常设规则（批次验收默认含回链，不再留尾巴） | pending_review | laowantong | 链接收口 | 无 | `60_feedback/tasks/task_20260821_laowantong-reverse-backlink-sweep.md` | 只动 related 链接区不动正文；三批清单以各任务单执行报告为准；pre-submit 0 死链；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -452,6 +452,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#402 task_20260821_huangyaoshi-task-workspace｜huangyaoshi｜提审 08-21 01:54｜60_feedback/tasks/task_20260821_huangyaoshi-task-workspace.md~~ → 已终审 PASS A（2026-08-20 欧阳锋）
 - ~~#403 task_20260821_huangyaoshi-agent-birth-gate｜huangyaoshi｜提审 08-21 01:56｜60_feedback/tasks/task_20260821_huangyaoshi-agent-birth-gate.md~~ → 已终审 PASS A（2026-08-20 欧阳锋）
 - ~~#404 task_20260821_huangyaoshi-trust-injection-gate｜huangyaoshi｜提审 08-21 01:58｜60_feedback/tasks/task_20260821_huangyaoshi-trust-injection-gate.md~~ → 已终审 PASS A（2026-08-20 欧阳锋）
+- #406 task_20260821_laowantong-reverse-backlink-sweep｜hermes｜提审 08-21 02:21｜60_feedback/tasks/task_20260821_laowantong-reverse-backlink-sweep.md
 
 <!-- REVIEW-PENDING-END -->
 
