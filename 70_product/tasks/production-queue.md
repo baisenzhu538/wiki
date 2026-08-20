@@ -401,13 +401,16 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 389 | `task_20260820_huangyaoshi-review-pending-dispatch` | REVIEW-PENDING 待终审自动登记段（P2，老朱 08-20 拍板）：complete 自动登记+review 自动划掉，与 INBOX-PENDING 对称——#387 事件结构缺口补强 | reviewed | huangyaoshi | 机制+实测 | 无 | `60_feedback/tasks/task_20260820_huangyaoshi-review-pending-dispatch.md` | 建议书 diag_20260820_wangyuyan-review-pending-dispatch.md 必读；只加登记段不动状态机；兼容 #363 门禁；不回填历史；不碰在飞任务 #387/#388；dashboard 展示执行者评估；欧阳锋终审 |
 
-| 390 | `task_20260820_huangyaoshi-queue-transition-git-commit` | queue_transition 流转自带 git 收口（P2，老朱 08-20 拍板）：流转成功后自动 commit 本次触碰文件——消灭每次流转的"未入 git 窗口"（E040 根治） | queued | huangyaoshi | 机制+实测 | 无 | `60_feedback/tasks/task_20260820_huangyaoshi-queue-transition-git-commit.md` | path-scoped add 是红线（禁 add -A 误带他人在制品）；git 失败不阻断流转但要报警+待收口清单；与 #389 同文件须串行或合并实施分别提审；欧阳锋终审 |
+| 390 | `task_20260820_huangyaoshi-queue-transition-git-commit` | queue_transition 流转自带 git 收口（P2，老朱 08-20 拍板）：流转成功后自动 commit 本次触碰文件——消灭每次流转的"未入 git 窗口"（E040 根治） | claimed-huangyaoshi | huangyaoshi | 机制+实测 | 无 | `60_feedback/tasks/task_20260820_huangyaoshi-queue-transition-git-commit.md` | path-scoped add 是红线（禁 add -A 误带他人在制品）；git 失败不阻断流转但要报警+待收口清单；与 #389 同文件须串行或合并实施分别提审；欧阳锋终审 |
 
 | 391 | `task_20260820_laowantong-metadata-batch-wave1` | 历史元数据批量收口第一批（P3，#388 终审清单立项）：16 张补 updated_at + 189 张 source_refs 死路径改 src_unknown——机械类先行 | reviewed | laowantong | 批量修复 | 无 | `60_feedback/tasks/task_20260820_laowantong-metadata-batch-wave1.md` | 批量三问 dry-run 清单贴报告；只动指定字段；修复后全量复扫归零；739 张 tags 判断类不在本单（待老朱拍板）；完成后 commit 入档；欧阳锋随下批复审 |
 
-| 392 | `task_20260820_laowantong-obsidian-research-pack` | Obsidian×AI 知识管理调研包 4 子题（P2，老朱 08-20 课程收官拍板）：①高质量图 ②最佳实践调研 ③编码顺序 ④上下文+全场景打通（长程雷达 2-3 年，产研判报告非卡片） | queued | laowantong | 调研报告 | 无 | `60_feedback/tasks/task_20260820_laowantong-obsidian-research-pack.md` | 三方法全量（来源≥2+6层交叉+9层深挖）；子题锚点已定位（口述 L984-992/L1114-1120/L1186-1214/L2220-2266/逐字稿 L419-421/L679-705）；L7 已查不得重复造卡；①②③报告送王语嫣门禁 ④直呈老朱；本单不直接写卡 |
+| 392 | `task_20260820_laowantong-obsidian-research-pack` | Obsidian×AI 知识管理调研包 4 子题（P2，老朱 08-20 课程收官拍板）：①高质量图 ②最佳实践调研 ③编码顺序 ④上下文+全场景打通（长程雷达 2-3 年，产研判报告非卡片） | claimed-hermes | laowantong | 调研报告 | 无 | `60_feedback/tasks/task_20260820_laowantong-obsidian-research-pack.md` | 三方法全量（来源≥2+6层交叉+9层深挖）；子题锚点已定位（口述 L984-992/L1114-1120/L1186-1214/L2220-2266/逐字稿 L419-421/L679-705）；L7 已查不得重复造卡；①②③报告送王语嫣门禁 ④直呈老朱；本单不直接写卡 |
 
 | 393 | `task_20260820_laowantong-tag-system-wave1` | 标签体系建设工程第一波（P2，长程任务，老朱 08-20 拍板）：全库标签审计+受控词表 v1+一域试点回填——对标半肥猫 100+ 标签 | queued | laowantong | 审计+词表+试点 | 无 | `60_feedback/tasks/task_20260820_laowantong-tag-system-wave1.md` | yaml 级解析禁正则；词表取值须有≥5 卡真实需求不凑数；词表未定稿禁大规模回填；试点域建议 ai-collaboration；W2+ 波次终审后另立项；欧阳锋终审 |
+
+| 394 | `task_20260820_laowantong-updated-at-supplement` | 缺 updated_at 补充清单 25 张（P3，#391 终审另立项）：5 月 yt-* 22 张+rust-* 3 张——#391 扫描口径漏网 | queued | laowantong | 批量修复 | 无 | `60_feedback/tasks/task_20260820_laowantong-updated-at-supplement.md` | 先自己全库重扫不照抄清单；验收用全库口径归零（非清单口径）；批量三问；完成后 commit；欧阳锋随下批复审 |
+| 395 | `task_20260820_huangyaoshi-updated-at-required` | 卡片生产线 updated_at 必填收口（P3，#391 终审观察立项）：promote 管线 7 张新卡缺 updated_at——模板/门禁双查从源头关闭欠账 | queued | huangyaoshi | 机制+实测 | 无 | `60_feedback/tasks/task_20260820_huangyaoshi-updated-at-required.md` | 只改生产线不改存量卡；pre-submit 规则改动须新卡拦截+老卡不误伤双实测；7 张存量清单交 #394 合并；MCP 重启事项入报告不擅自杀进程；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
