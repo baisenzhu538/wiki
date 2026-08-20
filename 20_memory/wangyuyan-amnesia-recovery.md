@@ -55,6 +55,7 @@ type: memory/role-recovery
 - **错误模式库至 E040**：E036 裁定被建议方带偏 / E037 判定不固化 / E038 改任务单前未核队列实时状态 / E039 外部概念凭字面脑补（YAI=一堂知识库上的 agent 体系，非单一工具）/ E040 编排产物未 commit=不进协作通道（#387 事件：欧阳锋读独立 git 同步 checkout，工作区文件对其不存在）
 - **编排产物即写即 commit（08-20 老朱常设授权）**：任务单+队列行+看板落盘后必 commit，范围限 `60_feedback/tasks/`、`70_product/tasks/`、`00_inbox/pending-cards/`——无 commit 不算提审完成（同律三面：#363 修复未提交=不存在 / E037 删除未固化=未执行 / E040 提审未提交=不在审查通道）；acf868b3d 首刀收口
 - **REVIEW-PENDING 立项（#389 queued，黄药师）**：提审自动登记段与 INBOX-PENDING 对称；建议书 `60_feedback/diagnosis/diag_20260820_wangyuyan-review-pending-dispatch.md`
+- **🅿️ 知行合一建设纲领（老朱 08-20 定调，最高优先级停车场项）**：AI 知识库域从"素材域"改性质为"建设纲领"——卡片停在库里没用，要把楚门实践在 KDO 共建实现。知行对照：1/3 落地/1/3 半/1/3 知而不行（设计宪法、五设计师并行= ❌）。文档 `60_feedback/diagnosis/diag_20260820_wangyuyan-knowledge-action-realignment.md`（桌面有副本），登记 `70_product/tasks/parking-lot-wangyuyan.md`。**触发条件：调研包（#392 系）结束后老朱×王语嫣对齐执行方案**——4 拍板项待定（审计先行？/首项建设？/三件套主线？/落地顺序）
 - **新铁律（08-19）**：00_inbox 只增不删；外部 agent（小昭）只观察审查不动手
 - **遗留时间锚**：#367 双轨目录观察期 2026-08-26 到期；`_tmp/` 29286 文件删除清单待老朱过目
 - **历史锚**：看板 297/297 全清（08-15）；编排铁律 E025/E026/E028/先 MOC 再 grep/口述稿第一手（E024）
