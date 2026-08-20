@@ -419,7 +419,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 399 | `task_20260821_huangyaoshi-full-library-rescan` | 全库复扫标准工具（P2，老朱 08-21 直令）：消灭"清单口径归零冒充全库归零"（#391/#393 连续复发）——5 检查项可插拔+退出码+"归零声明须附本工具输出"纪律固化 | queued | huangyaoshi | 工具+实测 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-full-library-rescan.md` | 阳性对照现成：missing-tags-dim --domain yitang 必须逮到 #393 漏网 12 张；yaml 级解析禁正则；与 #393 修复跨任务联动验证；欧阳锋终审 |
 
-| 400 | `task_20260821_laowantong-digital-employee-transcript` | 数字员工搭建口述补强+新卡（P1，老朱 08-21 拍板直接立）：龙虾员工本人一手口述——#379 七卡跨案例实证补强 + 新卡 3 张（自建协作平台/数据源工程/需求八节模板） | pending_review | laowantong | 3 卡+7 补强 | 无 | `60_feedback/tasks/task_20260821_laowantong-digital-employee-transcript.md` | ASR 错字密度高所有人名模型名标待核实；Live86 逐字稿先 diff 防重复产卡；与 #379 批次互链双向；登记为知行合一纲领第三方对标案例；欧阳锋终审 |
+| 400 | `task_20260821_laowantong-digital-employee-transcript` | 数字员工搭建口述补强+新卡（P1，老朱 08-21 拍板直接立）：龙虾员工本人一手口述——#379 七卡跨案例实证补强 + 新卡 3 张（自建协作平台/数据源工程/需求八节模板） | reviewed | laowantong | 3 卡+7 补强 | 无 | `60_feedback/tasks/task_20260821_laowantong-digital-employee-transcript.md` | ASR 错字密度高所有人名模型名标待核实；Live86 逐字稿先 diff 防重复产卡；与 #379 批次互链双向；登记为知行合一纲领第三方对标案例；欧阳锋终审 |
 
 | 401 | `task_20260821_huangyaoshi-rule-gate-inventory` | 残余文案规则门禁化盘点（P2，黄药师建议书 L1，王语嫣采纳）：全库"靠自觉"规则两列清单+friction 排序 Top3 建议——"靠提醒=没变成系统能力"厂内镜像 | queued | huangyaoshi | 清单+脚本 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-rule-gate-inventory.md` | 只产清单不动机制；脚本可复扫；语义判断类诚实标注不硬门禁化；欧阳锋终审 |
 | 402 | `task_20260821_huangyaoshi-task-workspace` | 长程任务项目空间试点（P2，黄药师建议书 L3，王语嫣采纳）：跨会话持久 workspace（中间态/已排除方向/上次停在哪）——#393 标签体系试点 | queued | huangyaoshi | 机制+试点 | 无 | `60_feedback/tasks/task_20260821_huangyaoshi-task-workspace.md` | claim 门禁联动建 workspace；与 #390/#399 共存零冲突；换会话续作实测为验收动作；欧阳锋终审 |
@@ -444,7 +444,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#395 task_20260820_huangyaoshi-updated-at-required｜huangyaoshi｜提审 08-20 21:11｜60_feedback/tasks/task_20260820_huangyaoshi-updated-at-required.md~~ → 已终审 PASS A（2026-08-20 欧阳锋）
 - ~~#397 task_20260820_laowantong-yuebai-link-campaign｜hermes｜提审 08-21 00:47｜60_feedback/tasks/task_20260820_laowantong-yuebai-link-campaign.md~~ → 已终审 PASS A-（2026-08-20 欧阳锋）
 - ~~#398 task_20260820_laowantong-orphan-link-minibatch｜hermes｜提审 08-21 00:58｜60_feedback/tasks/task_20260820_laowantong-orphan-link-minibatch.md~~ → 已终审 PASS A（2026-08-20 欧阳锋）
-- #400 task_20260821_laowantong-digital-employee-transcript｜hermes｜提审 08-21 01:10｜60_feedback/tasks/task_20260821_laowantong-digital-employee-transcript.md
+- ~~#400 task_20260821_laowantong-digital-employee-transcript｜hermes｜提审 08-21 01:10｜60_feedback/tasks/task_20260821_laowantong-digital-employee-transcript.md~~ → 已终审 PASS A（2026-08-20 欧阳锋）
 
 <!-- REVIEW-PENDING-END -->
 
