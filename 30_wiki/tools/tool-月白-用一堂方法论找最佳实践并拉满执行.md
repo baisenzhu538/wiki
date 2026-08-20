@@ -31,6 +31,10 @@ discoverable_by:
   - 技能：用一堂方法论找最佳实践并拉满执行
   - 用一堂方法论找最佳实践并拉满执行
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AI图片印刷落地预处理'
+- 'tool-月白-AI对话情绪管理法'
+- 'dk-three-context-formula'
 tags:
 ---
 # 技能：用一堂方法论找最佳实践并拉满执行

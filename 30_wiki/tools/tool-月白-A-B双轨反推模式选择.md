@@ -31,6 +31,10 @@ discoverable_by:
   - 技能：A/B双轨反推模式选择
   - A/B双轨反推模式选择
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AIGC反向拆解法'
+- 'tool-月白-AIGC橱窗陈列设计流程'
+- 'case-truman-ai-image-workflow-evolution'
 tags:
 ---
 # 技能：A/B双轨反推模式选择

@@ -31,6 +31,9 @@ discoverable_by:
   - 技能：AIGC生成人物证件照
   - AIGC生成人物证件照
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AI人物特征精准描述法'
+- 'dk-three-context-formula'
 tags:
 ---
 # 技能：AIGC生成人物证件照

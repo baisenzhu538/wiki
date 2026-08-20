@@ -30,6 +30,9 @@ discoverable_by:
   - 技能：电商详情页起承转合架构法
   - 电商详情页起承转合架构法
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AIGC人群画像驱动详情页规划'
+- 'tool-yitang-research-best-practice'
 tags:
 ---
 # 技能：电商详情页起承转合架构法

@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：AI一句话改图尺寸
   - AI一句话改图尺寸
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AI图生图尺寸快速转换'
+- 'tool-月白-AI改图指令精细化'
+- 'dk-three-context-formula'
 tags:
 ---
 # 技能：AI一句话改图尺寸

@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：AI海报快速生成法15分钟无PS
   - AI海报快速生成法15分钟无PS
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AIGC海报信息优先级排序法'
+- 'tool-月白-AIGC餐饮海报优化一抽流'
+- 'dk-aesthetic-redline-doc'
 tags:
 ---
 # 技能：AI海报快速生成法（15分钟无PS）

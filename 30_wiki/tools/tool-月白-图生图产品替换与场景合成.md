@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：图生图产品替换与场景合成
   - 图生图产品替换与场景合成
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AI图片印刷落地预处理'
+- 'tool-月白-AI对话情绪管理法'
+- 'dk-three-context-formula'
 tags:
 ---
 # 技能：图生图产品替换与场景合成

@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：AIGC产品白底图制作
   - AIGC产品白底图制作
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AI生成电商白底图'
+- 'tool-月白-产品白底图标准化制作'
+- 'dk-aesthetic-redline-doc'
 tags:
 ---
 # 技能：AIGC产品白底图制作

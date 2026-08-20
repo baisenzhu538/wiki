@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：AIGC餐饮海报优化一抽流
   - AIGC餐饮海报优化一抽流
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AIGC海报信息优先级排序法'
+- 'tool-月白-AI对话式海报修改（免PS）'
+- 'dk-aesthetic-redline-doc'
 tags:
 ---
 # 技能：AIGC餐饮海报优化一抽流

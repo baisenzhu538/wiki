@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：AI自动生成多语种专业名词提示词
   - AI自动生成多语种专业名词提示词
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AI图片印刷落地预处理'
+- 'tool-月白-AI对话情绪管理法'
+- 'dk-three-context-formula'
 tags:
 ---
 # 技能：AI自动生成多语种专业名词提示词

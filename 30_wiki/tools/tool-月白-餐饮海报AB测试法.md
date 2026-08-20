@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：餐饮海报AB测试法
   - 餐饮海报AB测试法
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AIGC海报信息优先级排序法'
+- 'tool-月白-AIGC餐饮海报优化一抽流'
+- 'dk-aesthetic-redline-doc'
 tags:
 ---
 # 技能：餐饮海报AB测试法

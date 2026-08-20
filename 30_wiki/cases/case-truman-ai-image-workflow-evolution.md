@@ -29,6 +29,7 @@ related:
   - concept-truman-feature-four-scenarios
   - 10_raw/sources/feature-periodic-table-v0.8.json
   - case-truman-investment-daily-report
+- 'tool-月白-MOC'
 tags:
   - method:feature-thinking
   - method:workflow

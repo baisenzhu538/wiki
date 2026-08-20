@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：电商场景图三类分类法
   - 电商场景图三类分类法
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AI电商图人工过审处理'
+- 'tool-月白-电商场景图三类构建法'
+- 'case-truman-ai-image-workflow-evolution'
 tags:
 ---
 # 技能：电商场景图三类分类法

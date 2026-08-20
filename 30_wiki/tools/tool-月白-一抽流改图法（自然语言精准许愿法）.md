@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：一抽流改图法自然语言精准许愿法
   - 一抽流改图法自然语言精准许愿法
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AI一句话改图尺寸'
+- 'tool-月白-AI图生图尺寸快速转换'
+- 'dk-three-context-formula'
 tags:
 ---
 # 技能：一抽流改图法（自然语言精准许愿法）

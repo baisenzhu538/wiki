@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：口述作图法口喷设计
   - 口述作图法口喷设计
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AI图片印刷落地预处理'
+- 'tool-月白-AI对话情绪管理法'
+- 'dk-three-context-formula'
 tags:
 ---
 # 技能：口述作图法（口喷设计）

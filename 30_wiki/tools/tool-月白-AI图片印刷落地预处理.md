@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：AI图片印刷落地预处理
   - AI图片印刷落地预处理
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AI对话情绪管理法'
+- 'tool-月白-AI工艺图人工复核法'
+- 'dk-three-context-formula'
 tags:
 ---
 # 技能：AI图片印刷落地预处理

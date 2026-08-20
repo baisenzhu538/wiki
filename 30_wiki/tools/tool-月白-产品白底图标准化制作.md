@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：产品白底图标准化制作
   - 产品白底图标准化制作
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AIGC产品白底图制作'
+- 'tool-月白-AI生成电商白底图'
+- 'dk-aesthetic-redline-doc'
 tags:
 ---
 # 技能：产品白底图标准化制作

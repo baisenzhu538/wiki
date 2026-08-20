@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：AI图片风格逆向提取抄图法
   - AI图片风格逆向提取抄图法
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-RGB转CMYK色彩校准法'
+- 'tool-月白-产品风格选择：测而非定'
+- 'dk-aesthetic-redline-doc'
 tags:
 ---
 # 技能：AI图片风格逆向提取（抄图法）

@@ -32,6 +32,10 @@ discoverable_by:
   - 里程碑思维
   - 找对标优先于做设计
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AI图片印刷落地预处理'
+- 'tool-月白-AI对话情绪管理法'
+- 'dk-three-context-formula'
 tags:
 ---
 # 技能：里程碑思维-找对标优先于做设计

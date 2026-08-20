@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：AI设计里程碑拆解法
   - AI设计里程碑拆解法
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-A-B双轨反推模式选择'
+- 'tool-月白-AIGC反向拆解法'
+- 'case-truman-ai-image-workflow-evolution'
 tags:
 ---
 # 技能：AI设计里程碑拆解法

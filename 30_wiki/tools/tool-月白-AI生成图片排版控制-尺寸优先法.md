@@ -32,6 +32,10 @@ discoverable_by:
   - AI生成图片排版控制
   - 尺寸优先法
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AIGC文字大小精确控制'
+- 'tool-月白-AI去字-稿定设计加字工作流'
+- 'dk-three-context-formula'
 tags:
 ---
 # 技能：AI生成图片排版控制-尺寸优先法

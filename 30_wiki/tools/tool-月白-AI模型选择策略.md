@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：AI模型选择策略
   - AI模型选择策略
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AIGC模型选型决策法'
+- 'tool-月白-AI模型选择决策法'
+- 'dk-three-context-formula'
 tags:
 ---
 # 技能：AI模型选择策略

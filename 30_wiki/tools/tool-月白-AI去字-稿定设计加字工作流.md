@@ -30,6 +30,10 @@ discoverable_by:
   - 技能：AI去字+稿定设计加字工作流
   - AI去字+稿定设计加字工作流
 related:
+- 'tool-月白-MOC'
+- 'tool-月白-AIGC文字大小精确控制'
+- 'tool-月白-AI去文字-稿定设计快速出图法'
+- 'dk-three-context-formula'
 tags:
 ---
 # 技能：AI去字+稿定设计加字工作流
