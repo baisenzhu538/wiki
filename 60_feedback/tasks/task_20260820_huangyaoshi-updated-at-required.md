@@ -1,13 +1,17 @@
 ---
 id: 395
 assignee: huangyaoshi
-status: in_progress
+status: pending_review
 title: 卡片生产线 frontmatter updated_at 必填收口（P3，#391 终审观察立项）：promote 管线产物 7 张缺 updated_at——模板/门禁双查
 priority: P3
 dependency: []
 code_files:
 - kdo-tools/wechat_promote.py
-updated_at: '2026-08-20T12:59:03.151362+00:00'
+- kdo-tools/wechat_knowledge.py
+- kdo-tools/skill_crystallize.py
+- C:/Users/Administrator/Knowledge Delivery OS 0.0.1/kdo/commands/curation.py
+- C:/Users/Administrator/Knowledge Delivery OS 0.0.1/kdo/commands/delivery.py
+updated_at: '2026-08-20T13:11:51.751226+00:00'
 ---
 
 # #395 卡片生产线 updated_at 必填收口
@@ -48,3 +52,47 @@ updated_at: '2026-08-20T12:59:03.151362+00:00'
 
 1. 代码 diff + 正反向实测 + 缺口清单
 2. 送欧阳锋终审
+
+---
+
+## 执行报告（2026-08-20 黄药师）
+
+### 根因定位
+wechat_promote.py 只做搬运+校验，**产卡模板真源在上游 `wechat_knowledge.py`**（LLM 三层次卡生成器，frontmatter 只有 created_at）。7 张欠账卡全部出自该模板。
+
+### 改动清单（模板 4 处 + 兜底 1 处）
+| 文件 | 改动 |
+|:---|:---|
+| `kdo-tools/wechat_knowledge.py` | 产卡模板补 `updated_at`（=生成日） |
+| `kdo-tools/wechat_promote.py` | promote_case 加归一化兜底：缺 updated_at 的卡落待编排区前自动补（值=created_at，次选今日）；写入改 write_text（归一化内容落待编排区，**inbox 原件不动**）；顺序在"已流转跳过"检测之后，避免噪声 |
+| `kdo-tools/skill_crystallize.py` | 补 updated_at + 顺手修硬编码 `created_at: 2026-08-09`（同族出生字段欠账，所有结晶卡生日都是错的） |
+| KDO仓 `kdo/commands/curation.py:592` | 产卡模板补 `updated_at: {now}` |
+| KDO仓 `kdo/commands/delivery.py:449` | query 卡模板补 `updated_at` |
+
+### 同类产卡入口普查（执行范围②）
+| 入口 | updated_at |
+|:---|:---|
+| kdo templates.py（3 模板）/ digest.py / encapsulate.py / quality.py(scaffold) / ingestion.py / curation.py:878 | ✅ 已有 |
+| kdo curation.py:592 / delivery.py:449 | ❌→已修 |
+| wechat_knowledge.py / skill_crystallize.py | ❌→已修 |
+| aesthetic-library-builder.py:149 | N/A（写的是 config.json 不是卡） |
+| daily-context-save.py | ✅ 已有 |
+
+量小（4 处），按任务单一并修完，无遗留清单。
+
+### pre-submit 门禁评估（执行范围③）——结论：**无需改动**
+任务单前提"缺 updated_at 是 warning"不成立：kdo pre-submit Gate 1（pre_submit.py:161）对缺 updated_at **已是 ERROR**（`Missing required field: updated_at`）。
+- 实测 A：缺 updated_at 新卡 → 🔴 ERROR 拦下 ✓
+- 实测 B：新模板产物（带 updated_at）→ 该字段不再报错（存量经 #391 已归零，ERROR 级不误伤老卡）✓
+- **真正的缺口不是门禁级别，是 promote 管线产物从未经过 pre-submit**——已从源头（模板）+ 入口（归一化）双侧关闭，门禁维持现状即可
+
+### 正向实测
+- 生成器：fixture 逐字稿 → 骨架卡 frontmatter 自带 `updated_at: 2026-08-20` ✓
+- 归一化：无 updated_at 的旧式 case 卡 → promote 后待编排区副本自动补上，inbox 原件保持 0 命中 ✓
+- 夹具全部清理（knowledge/pending-cards/_needs_rerun/90_control/_tmp_test395 无残留）✓
+
+### 7 张缺卡清单 → #394
+已后补登记到 `task_20260820_laowantong-updated-at-supplement.md`：生产线内 1 张（pending-cards/case-wechat-2404c1658025473c）建议并入 #394 批量；inbox 原件 11 张不动（归一化兜底未来自动补）；_needs_rerun 3 张重跑自愈。本单未改任何存量卡。
+
+### MCP 长驻进程
+本次改动不涉及 MCP server 代码，无需重启事项。
