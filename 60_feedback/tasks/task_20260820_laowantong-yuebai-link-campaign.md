@@ -1,10 +1,11 @@
 ---
 id: 397
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 title: 月白批次链接补强专项（P2，老朱 08-20 拍板"重要需要做"）：193 张 AI 做图卡——MOC 汇聚+孤儿灭失+跨域桥接
 priority: P2
 dependency: []
+updated_at: '2026-08-20T16:44:53.075403+00:00'
 ---
 
 # #397 月白批次链接补强专项
