@@ -1,14 +1,14 @@
 ---
 id: 389
 assignee: huangyaoshi
-status: in_progress
+status: pending_review
 title: REVIEW-PENDING 待终审自动登记段（P2，老朱 08-20 拍板立项）
 priority: P2
 dependency: []
 code_files:
 - 90_control/scripts/queue_transition.py
 - 70_product/tasks/production-queue.md
-updated_at: '2026-08-20T04:00:23.786585+00:00'
+updated_at: '2026-08-20T04:46:29.518493+00:00'
 ---
 
 # #389 REVIEW-PENDING 待终审自动登记段
