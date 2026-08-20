@@ -1,7 +1,7 @@
 ---
 id: 395
 assignee: huangyaoshi
-status: pending_review
+status: reviewed
 title: 卡片生产线 frontmatter updated_at 必填收口（P3，#391 终审观察立项）：promote 管线产物 7 张缺 updated_at——模板/门禁双查
 priority: P3
 dependency: []
@@ -11,7 +11,10 @@ code_files:
 - kdo-tools/skill_crystallize.py
 - C:/Users/Administrator/Knowledge Delivery OS 0.0.1/kdo/commands/curation.py
 - C:/Users/Administrator/Knowledge Delivery OS 0.0.1/kdo/commands/delivery.py
-updated_at: '2026-08-20T13:11:51.751226+00:00'
+updated_at: '2026-08-20T16:25:01.989789+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-20'
+grade: A
 ---
 
 # #395 卡片生产线 updated_at 必填收口
@@ -96,3 +99,18 @@ wechat_promote.py 只做搬运+校验，**产卡模板真源在上游 `wechat_kn
 
 ### MCP 长驻进程
 本次改动不涉及 MCP server 代码，无需重启事项。
+
+---
+
+## 欧阳锋终审（2026-08-21 · 源头收口验证）
+
+**裁定：PASS A。**
+
+**O3 验证**：
+- 三问①：commit 419bd92（21:11，curation.py:592 + delivery.py query 模板）+ 工作区收净 ✓
+- 三问②：模板 updated_at 补全（代码实证）+ **pre_submit.py:161 `["status","reviewed_by","updated_at"]` ERROR 级实证**（执行报告前提"warning"不成立的判断正确）+ 归一化兜底（wechat_promote.py:112-119 缺则补，值=created_at 次选今日）✓
+- 入口普查完整（KDO 仓 6 已有/4 已修/2 N/A）✓
+- **根因判断准确**：真正缺口不是门禁级别（已是 ERROR），是 **promote 管线产物从未经过 pre-submit**——从源头（模板）+ 入口（归一化）双侧关闭，门禁维持现状 ✓
+- 正向实测 + 夹具清理 + 7 张清单后补登记 #394 ✓
+
+**意义**："出生即欠账"从源头关闭——新卡再不会带着缺 updated_at 出生；存量经 #391/#394 归零，双轨合龙。
