@@ -1,5 +1,6 @@
 ---
 id: yt-customer-acquisition-toolkit
+updated_at: '2026-08-20'
 title: 获客工具合集
 discoverable_by:
 - 获客工具合集

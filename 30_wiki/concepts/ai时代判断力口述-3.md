@@ -1,5 +1,6 @@
 ---
 id: ai时代判断力口述-3
+updated_at: '2026-08-20'
 title: ai时代判断力口述 3
 discoverable_by:
 - ai时代判断力口述 3

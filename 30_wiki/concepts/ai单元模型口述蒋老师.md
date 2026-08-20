@@ -1,5 +1,6 @@
 ---
 id: ai单元模型口述蒋老师
+updated_at: '2026-08-20'
 title: ai单元模型口述蒋老师
 discoverable_by:
 - ai单元模型口述蒋老师

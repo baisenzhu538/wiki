@@ -1,5 +1,6 @@
 ---
 id: ec工业化规范手册-v2.8.0
+updated_at: '2026-08-20'
 title: ec工业化规范手册 v2.8.0
 discoverable_by:
 - ec工业化规范手册 v2.8.0

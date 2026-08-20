@@ -12,6 +12,7 @@ source_context: 王欢 AI 实践方法论——从"用好 AI"到"建 AI 系统"
 source_refs:
 - 00_inbox/拆书会第208期：《AI 2041：预见未来二十年》逐字稿（完整版）.md
 created_at: '2026-06-23'
+updated_at: '2026-08-20'
 author: 黄药师
 reviewed_by: pending
 related:

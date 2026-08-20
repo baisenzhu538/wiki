@@ -5,6 +5,7 @@ id: yt-model-y-organization
 title: Y 型创业模型 (Y Model for Startups)
 confidence: 0.85
 created_at: 2026-05-07
+updated_at: '2026-08-20'
 difficulty: foundational
 language: zh-CN
 query_triggers:

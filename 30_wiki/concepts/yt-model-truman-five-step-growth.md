@@ -5,6 +5,7 @@ id: yt-model-truman-five-step-growth
 title: Truman的个人成长五步法：用一页纸解释全部人生规划
 confidence: 0.85
 created_at: 2026-05-11
+updated_at: '2026-08-20'
 difficulty: advanced
 language: zh-CN
 query_triggers:

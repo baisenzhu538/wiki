@@ -5,6 +5,7 @@ id: yt-entrepreneur-spin-selling
 title: SPIN销售法：顾问式销售的奠基之作
 confidence: 0.8
 created_at: 2026-05-11
+updated_at: '2026-08-20'
 difficulty: intermediate
 language: zh-CN
 query_triggers:

@@ -1,5 +1,6 @@
 ---
 id: yt-demand-analysis-hiking-map
+updated_at: '2026-08-20'
 title: 需求分析爬山地图
 discoverable_by:
 - 需求分析爬山地图

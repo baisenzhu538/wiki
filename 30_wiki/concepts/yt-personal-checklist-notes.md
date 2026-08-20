@@ -5,6 +5,7 @@ id: yt-personal-checklist-notes
 title: 清单体笔记（一堂笔记法）
 confidence: 0.85
 created_at: 2026-05-06
+updated_at: '2026-08-20'
 difficulty: foundational
 language: zh-CN
 query_triggers:

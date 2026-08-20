@@ -1,5 +1,6 @@
 ---
 id: tool-ai-critical-reading-three-layers
+updated_at: '2026-08-20'
 title: 三层拆书批判法
 type: tool
 status: enriched

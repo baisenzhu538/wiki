@@ -8,6 +8,7 @@ domain:
 - capability-hub
 author: 黄药师
 created_at: 2026-07-07
+updated_at: '2026-08-20'
 confidence: 0.85
 trust_level: high
 related:

@@ -1,5 +1,6 @@
 ---
 id: tool-马易-业务为先的AI中台建设
+updated_at: '2026-08-20'
 title: tool 马易 业务为先的AI中台建设
 discoverable_by:
 - tool 马易 业务为先的AI中台建设

@@ -5,6 +5,7 @@ id: yt-entrepreneur-research-camp
 title: 调研行动营：从调研认知到AI调研武器库
 confidence: 0.8
 created_at: 2026-05-11
+updated_at: '2026-08-20'
 difficulty: intermediate
 language: zh-CN
 query_triggers:

@@ -5,6 +5,7 @@ id: yt-model-product-core-metrics
 title: 产品内核十大典型指标：从获客到推荐的度量框架
 confidence: 0.85
 created_at: 2026-05-11
+updated_at: '2026-08-20'
 difficulty: intermediate
 language: zh-CN
 query_triggers:

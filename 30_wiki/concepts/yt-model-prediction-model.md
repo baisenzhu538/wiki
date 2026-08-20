@@ -5,6 +5,7 @@ id: yt-model-prediction-model
 title: 预判模型：从最糙版到复杂版的三种预判范式
 confidence: 0.85
 created_at: 2026-05-11
+updated_at: '2026-08-20'
 difficulty: intermediate
 language: zh-CN
 query_triggers:

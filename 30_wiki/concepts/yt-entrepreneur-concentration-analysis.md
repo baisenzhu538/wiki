@@ -5,6 +5,7 @@ id: yt-entrepreneur-concentration-analysis
 title: 集中度分析
 confidence: 0.8
 created_at: 2026-05-06
+updated_at: '2026-08-20'
 difficulty: intermediate
 language: zh-CN
 query_triggers:

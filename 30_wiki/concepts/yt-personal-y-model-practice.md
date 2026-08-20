@@ -5,6 +5,7 @@ id: yt-personal-y-model-practice
 title: Y模型实操：科学成事的底层操作系统
 confidence: 0.8
 created_at: 2026-05-11
+updated_at: '2026-08-20'
 difficulty: foundational
 language: zh-CN
 query_triggers:

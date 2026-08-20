@@ -5,6 +5,7 @@ id: yt-entrepreneur-industry-forecast
 title: 商业预判15字诀
 confidence: 0.85
 created_at: 2026-05-06
+updated_at: '2026-08-20'
 difficulty: intermediate
 language: zh-CN
 prerequisites:

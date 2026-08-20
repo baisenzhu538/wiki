@@ -14,6 +14,7 @@ aliases:
 source_refs:
   - src_unknown
 created_at: 2026-06-02
+updated_at: '2026-08-20'
 discoverable_by:
   - Rust Trait 与泛型：零成本抽象的接口设计
   - 与泛型

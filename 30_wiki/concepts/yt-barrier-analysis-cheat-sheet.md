@@ -1,5 +1,6 @@
 ---
 id: yt-barrier-analysis-cheat-sheet
+updated_at: '2026-08-20'
 title: 壁垒分析完整cheatsheet
 discoverable_by:
 - 壁垒分析完整cheatsheet

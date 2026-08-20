@@ -5,6 +5,7 @@ id: yt-model-product-excellence
 title: 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 confidence: 0.85
 created_at: 2026-05-11
+updated_at: '2026-08-20'
 difficulty: advanced
 language: zh-CN
 query_triggers:

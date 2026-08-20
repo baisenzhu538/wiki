@@ -1,5 +1,6 @@
 ---
 id: skill-duanwangye-prezi
+updated_at: '2026-08-20'
 title: 段王爷·Prezi无限画布演示发布 — 空间叙事HTML演示生成
 type: skill
 status: draft

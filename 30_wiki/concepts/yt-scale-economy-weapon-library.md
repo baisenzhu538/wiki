@@ -5,6 +5,7 @@ id: yt-scale-economy-weapon-library
 title: 规模经济分析武器库
 confidence: 0.8
 created_at: 2026-06-10
+updated_at: '2026-08-20'
 difficulty: intermediate
 language: zh-CN
 query_triggers:

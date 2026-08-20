@@ -1,5 +1,6 @@
 ---
 id: ai数据理解第一课
+updated_at: '2026-08-20'
 title: ai数据理解第一课
 discoverable_by:
 - ai数据理解第一课

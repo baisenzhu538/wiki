@@ -1,5 +1,6 @@
 ---
 id: tool-使用一页纸速查卡快速调用框架
+updated_at: '2026-08-20'
 title: tool 使用一页纸速查卡快速调用框架
 discoverable_by:
 - tool 使用一页纸速查卡快速调用框架

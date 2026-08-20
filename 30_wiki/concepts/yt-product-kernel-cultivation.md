@@ -1,5 +1,6 @@
 ---
 id: yt-product-kernel-cultivation
+updated_at: '2026-08-20'
 title: 产品内核修炼段位图
 discoverable_by:
 - 产品内核修炼段位图

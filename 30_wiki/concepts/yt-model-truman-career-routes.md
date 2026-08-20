@@ -5,6 +5,7 @@ id: yt-model-truman-career-routes
 title: 楚门的选择：两条职业成长路线 X vs Y
 confidence: 0.85
 created_at: 2026-05-11
+updated_at: '2026-08-20'
 difficulty: advanced
 language: zh-CN
 query_triggers:

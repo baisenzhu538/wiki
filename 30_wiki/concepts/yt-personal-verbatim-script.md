@@ -5,6 +5,7 @@ id: yt-personal-verbatim-script
 title: 逐字稿
 confidence: 0.8
 created_at: 2026-05-06
+updated_at: '2026-08-20'
 difficulty: foundational
 language: zh-CN
 query_triggers:

@@ -5,6 +5,7 @@ id: yt-model-muse-ai-framework
 title: MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
 confidence: 0.85
 created_at: 2026-05-07
+updated_at: '2026-08-20'
 difficulty: foundational
 language: zh-CN
 query_triggers:

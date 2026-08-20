@@ -1,5 +1,6 @@
 ---
 id: 鑫港湾his系统分阶段整改报告
+updated_at: '2026-08-20'
 title: 鑫港湾HIS系统分阶段整改报告
 discoverable_by:
 - 鑫港湾HIS系统分阶段整改报告

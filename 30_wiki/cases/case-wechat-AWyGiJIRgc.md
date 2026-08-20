@@ -6,6 +6,7 @@ domain: wechat-video
 source_refs:
 - 00_inbox/wechat-collect/src_wechat_AWyGiJIRgc.md
 created_at: 2026-08-18
+updated_at: '2026-08-20'
 ---
 
 # AWyGiJIRgc

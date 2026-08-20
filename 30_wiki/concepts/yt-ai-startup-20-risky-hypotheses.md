@@ -5,6 +5,7 @@ id: yt-ai-startup-20-risky-hypotheses
 title: AI创业20个高风险假设清单
 confidence: 0.85
 created_at: 2026-06-10
+updated_at: '2026-08-20'
 difficulty: intermediate
 language: zh-CN
 query_triggers:
