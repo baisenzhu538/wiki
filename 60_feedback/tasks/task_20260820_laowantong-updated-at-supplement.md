@@ -88,3 +88,13 @@ yt-entrepreneur-barriers / rust-concurrency-send-sync / rust-error-handling / ru
 - 点名卡抽查（yt-entrepreneur-barriers / rust-concurrency-send-sync）：updated_at 均在 ✓
 
 **诚实报告加分**：实扫 0 缺后如实报告"无需新改动"——不制造改动交差；建议（立项前查 git log 避免重复立项）采纳为流程改进。本单实质目标（全库缺 updated_at 归零）已达成。
+
+---
+
+## #395 后补登记（2026-08-20 黄药师）：inbox 范围缺 updated_at 清单
+
+#394 终审复扫口径为全库正库（30_wiki 等），inbox 范围未覆盖。#395 实测补扫：
+
+- **生产线内 1 张（要紧）**：`00_inbox/pending-cards/case-wechat-2404c1658025473c.md` —— 已入待编排区但缺 updated_at，走王语嫣门禁→老顽童生产时会被 pre-submit ERROR 拦。建议并入本单批量补
+- inbox 素材原件 11 张（`00_inbox/wechat-collect/knowledge/case-wechat-*`）：素材层非生产线，#395 已在 promote 加归一化兜底——未来流转时自动补，原件按 inbox 保留原则不动
+- `_needs_rerun/` 3 张：重跑时自动生成器新模板自带 updated_at，无需手工补

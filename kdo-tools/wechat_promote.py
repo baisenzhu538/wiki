@@ -109,6 +109,18 @@ def promote_case(f: Path, dry_run: bool) -> str:
         print(f"⏭️  已流转: {f.name}")
         return "skip"
 
+    # #395 生产线归一化：缺 updated_at 的卡落待编排区前补上（值=created_at，次选今日）——
+    # 上游生成器漏字段时门禁不背锅，新卡不再一出生就欠账
+    if "updated_at:" not in content:
+        m_created = re.search(r"^created_at:\s*(.+)$", content, re.M)
+        fallback = (m_created.group(1).strip() if m_created else "") or date.today().isoformat()
+        content = re.sub(
+            r"^(created_at:.*)$",
+            f"\\1\nupdated_at: {fallback}",
+            content, count=1, flags=re.M,
+        )
+        print(f"🔧 归一化：{f.name} 补 updated_at={fallback}")
+
     issues = _content_issues(content)
     if issues:
         reason = "; ".join(issues)
@@ -128,7 +140,8 @@ def promote_case(f: Path, dry_run: bool) -> str:
         print(f"  [dry-run] {f.name} → 00_inbox/pending-cards/（待王语嫣编排门禁）")
         return "pending"
     PENDING_DIR.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(f, PENDING_DIR / f.name)
+    # 写归一化后的内容（非 copy2）：updated_at 兜底修补随卡入待编排区，inbox 原件不动
+    (PENDING_DIR / f.name).write_text(content, encoding="utf-8")
     print(f"📥 case 卡落待编排区: {f.name}（等王语嫣门禁，watch_inbox 10 分钟内登记看板）")
     return "pending"
 

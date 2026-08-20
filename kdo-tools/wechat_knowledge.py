@@ -157,6 +157,7 @@ domain: {src_kind}
 source_refs:
 - 00_inbox/wechat-collect/{transcript_md.name}
 created_at: {date.today().isoformat()}
+updated_at: {date.today().isoformat()}
 ---
 
 # {title}

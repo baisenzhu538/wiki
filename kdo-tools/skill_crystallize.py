@@ -12,6 +12,7 @@ kdo skill crystallize — 经验→技能自动结晶（#279 jarvis 模式）
 """
 import argparse
 import re
+from datetime import date
 import sys
 from pathlib import Path
 
@@ -130,7 +131,8 @@ def render_skill(cand: dict) -> str:
 name: {cand['title']}
 type: capability/skill
 status: draft
-created_at: 2026-08-09
+created_at: {date.today().isoformat()}
+updated_at: {date.today().isoformat()}
 author: 黄药师（skill_crystallize 自动结晶）
 source_refs: []
 related: []
