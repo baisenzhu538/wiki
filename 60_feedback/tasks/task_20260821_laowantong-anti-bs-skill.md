@@ -1,10 +1,11 @@
 ---
 id: 405
-assignee: laowantong
-status: queued
+assignee: hermes
+status: in_progress
 title: 防忽悠三层法 skill 结晶（P3，黄药师建议书 L5，王语嫣 08-21 采纳+纠偏）：tool-anti-ai-bs-three-moves 卡的行为化——知行合一示范
 priority: P3
 dependency: []
+updated_at: '2026-08-20T17:32:11.793613+00:00'
 ---
 
 # #405 防忽悠三层法 skill 结晶
