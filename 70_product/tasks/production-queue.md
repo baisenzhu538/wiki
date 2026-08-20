@@ -403,6 +403,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 
 | 390 | `task_20260820_huangyaoshi-queue-transition-git-commit` | queue_transition 流转自带 git 收口（P2，老朱 08-20 拍板）：流转成功后自动 commit 本次触碰文件——消灭每次流转的"未入 git 窗口"（E040 根治） | queued | huangyaoshi | 机制+实测 | 无 | `60_feedback/tasks/task_20260820_huangyaoshi-queue-transition-git-commit.md` | path-scoped add 是红线（禁 add -A 误带他人在制品）；git 失败不阻断流转但要报警+待收口清单；与 #389 同文件须串行或合并实施分别提审；欧阳锋终审 |
 
+| 391 | `task_20260820_laowantong-metadata-batch-wave1` | 历史元数据批量收口第一批（P3，#388 终审清单立项）：16 张补 updated_at + 189 张 source_refs 死路径改 src_unknown——机械类先行 | queued | laowantong | 批量修复 | 无 | `60_feedback/tasks/task_20260820_laowantong-metadata-batch-wave1.md` | 批量三问 dry-run 清单贴报告；只动指定字段；修复后全量复扫归零；739 张 tags 判断类不在本单（待老朱拍板）；完成后 commit 入档；欧阳锋随下批复审 |
+
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
 ## ⚖️ 待终审（提审任务，queue_transition 自动登记）
