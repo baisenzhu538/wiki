@@ -70,3 +70,7 @@ updated_at: 2026-08-09
 | 2026-08-19 | 黄药师 | #366 启动指针 v2 | b4d466ee0 提交 v2 指针 3 分钟内被 .kdo/capsule_sync.py（time-capsule.db 再生器）覆盖回 v1——欧阳锋终审 FAIL P0（#362 三问第 2 问"生效了吗"答否） | 静态约定文件与自动再生器冲突：任何"单文件真相源"交付前必须 grep 同路径生成器。已修 capsule_sync v2 兼容（保留头部仅再生角色段）+ 复审 PASS |
 | 2026-08-19 | 黄药师 | #371 元数据扫描脚本 | ①_no_dup 构造器 node.value 是 (key,value) 元组——`k.value` 崩，files=0 假象两轮 ②heredoc `\n` 转义破坏 vault-snapshot 字符串（SyntaxError）③bash cut -c9-12 取到 "_202" 而非月份（135 单归档错位修两次） | 长脚本先 5 文件小样本验证再全量；mv 前 echo 验证目标路径；heredoc 复杂字符串用 Edit 工具而非 shell 拼接 |
 2026-08-19 03:5x / 黄药师 / 排查 inbox 自动化为何不工作 / watch_inbox.py 挂 WSL cron，WSL 不常驻导致 cron 静默失效 2 天无人察觉 / 根因初判：全量 Windows 迁移只迁了前台服务，WSL 侧定时任务无健康监控，静默死亡无告警
+| 2026-08-21 | 黄药师 | #399 claim | claim 传序号 "399" 报"任务不在队列"——queue_transition 的 task_id 参数是完整任务文件名，非序号（find_task 按 task_id 字段匹配） | CLI 用法与直觉不符：`claim <task-id>` 应写完整文件名。建议：main() 支持按 seq 前缀匹配（量小，低优先） |
+| 2026-08-21 | 黄药师 | #401/#402 claim | 连续两单被 #375 处置门禁拦截（"盘点/试点"命中处置关键词族），各需补「内容价值判断」节才能领——门禁关键词族偏宽，盘点/试点类分析任务也被要求处置声明 | 门禁语义是"素材处置"，关键词族命中面比语义宽；补节成本低（合规声明），但后续可评估关键词族收窄（如仅"删除/清理/归档"族触发） |
+| 2026-08-21 | 黄药师 | #401 JSON 输出 | rule-gate-inventory --json 因规则文本含不可见字符 → JSONDecodeError（两次修复） | 教训复现：涉及不可见字符的代码必须 ensure_ascii/转义写法+读回验证（08-20 U+FFFD 教训同族） |
+| 2026-08-21 | 黄药师 | 提审命令 | bash cd 到 KDO 仓后 queue_transition 相对路径找不到脚本，提审命令报错 2 次（工作目录漂移） | queue_transition 应用绝对路径调用或脚本内 resolve 自身路径（脚本已有 __file__ resolve，问题是调用方 cwd）——记习惯：提审前 pwd 确认在 wiki 根 |
