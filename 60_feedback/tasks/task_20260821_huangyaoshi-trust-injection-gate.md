@@ -1,10 +1,12 @@
 ---
 id: 404
 assignee: huangyaoshi
-status: queued
-title: trust 注入端源优先（P3，黄药师建议书 L4，王语嫣 08-21 降级+加前提）：kdo_search min_trust + 调研 agent 受信源清单
+status: in_progress
+title: trust 注入端源优先（P3，黄药师建议书 L4，王语嫣 08-21 降级+加前提）：kdo_search min_trust + 调研 agent
+  受信源清单
 priority: P3
 dependency: []
+updated_at: '2026-08-20T17:57:08.928378+00:00'
 ---
 
 # #404 trust 注入端源优先
