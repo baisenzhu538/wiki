@@ -1,12 +1,13 @@
 ---
 id: 402
 assignee: huangyaoshi
-status: queued
+status: in_progress
 title: 长程任务项目空间试点（P2，黄药师建议书 L3，王语嫣 08-21 采纳）：跨会话持久 workspace——#393 标签体系试点
 priority: P2
 dependency: []
 code_files:
 - 90_control/scripts/queue_transition.py
+updated_at: '2026-08-20T17:51:06.874320+00:00'
 ---
 
 # #402 长程任务项目空间试点
@@ -33,6 +34,12 @@ code_files:
 - 与 #390 自动收口、#399 复扫工具共存零冲突（workspace 目录纳入流转 commit 范围）
 - 不强制存量任务补建（只向前 + #393 试点）
 - 完成后 commit（E040）
+
+## 内容价值判断（#375 claim 门禁合规声明）
+
+- 素材性质：机制建设——新增 workspace 目录结构 + claim 门禁联动逻辑；#393 试点回填的是**任务状态快照**（中间态文本），非素材文件
+- 去向：全部现有文件原位保留零改动；workspace 为新增目录（`60_feedback/tasks/<task_id>-workspace/`）
+- 删除禁令：本任务无任何删除/移动动作；如需删除须逐件老朱亲批（PROTOCOL §7）
 
 ## 验收标准
 
