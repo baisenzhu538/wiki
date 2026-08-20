@@ -267,6 +267,15 @@ attention_required:
 - **只向前**：不强制存量任务补建；试点 #393（标签体系）
 - 结构规范详见 `60_feedback/tasks/task_20260820_laowantong-tag-system-wave1-workspace/README.md`
 
+### 9.6 agent 出生两问（#403）
+
+> 创建新 agent 前的前置闸（龙虾员工砍项目经理 agent 实证：传话层转述失真+管理半径）。
+
+- **第 0 问（AI 人效闸）**：现有角色 + workflow/skill 组合能否覆盖？能 → 不新造
+- **传话反模式检查**：新 agent 是否实质承担传话/转发职责（A→新 agent→B 中间层）？是 → 拒，改直连或文件协作
+- 落地位置：`90_control/templates/agent-context.md`「出生两问」节（新 agent 必答）；两问通过才允许写 context/skill/SOUL
+- 传话类职责一律用 git/看板异步协作替代（文件即真相源，无需中间 agent）
+
 ---
 
 ## 10. Changelog
