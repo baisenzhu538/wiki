@@ -1,8 +1,11 @@
 ---
 id: 407
 assignee: hermes
-status: pending_review
-updated_at: '2026-08-21T15:46:59.985084+00:00'
+status: reviewed
+updated_at: '2026-08-21T20:15:22.560430+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-21'
+grade: A-
 ---
 # #407 PDF-Inspector 外部建议稿核验入库（tool 卡精做）
 
