@@ -1,17 +1,17 @@
 ---
-updated: 2026-08-18
-updated_at: 2026-08-18T00:00:00+00:00
+updated: 2026-08-22
+updated_at: 2026-08-22T00:00:00+00:00
 status: active
 reviewed_by: 欧阳锋
 active_branch: main
-active_task: "**#380 偶遇管线收口质量门 PASS A（08-20 复审：退回→双仓 commit 71c2c2e→code_files 补 KDO 路径→消费端实测 draft 打标过；#362 三问①第二次实战逮双仓未提交；#363 门禁盲区=code_files 跨仓声明，已补全）**。审查通道清空（2026-08-19）：**#343/#344 补审修复 PASS A**（终审状态被 08-19 00:2x-00:4x 队列维护回滚为 pending_review——reviewed_by/review_date 残留证明终审有效；补审 SOP 重跑脚本修复，已加补审记录）+ **#362 终审版本对齐核验 PASS A**（三问条款已落盘 ouyangfeng-context.md：入仓/生效/对齐，豁免制卡文档）+ **#365 记忆注册表 PASS A**（memory-registry.md 四表齐全+黄药师会审）——pending_review=1 剩余非本批。**#345 T3 PASS A（用户下令转收尾）**——duanwangye 服务 RUNNING/AUTO + WSL 无残留 + 消费层 #351 86 倍提速双证；**迁移链 T0-T4 五单（#342-346）全部收官**。**⚠️ 状态回退预警**：任务单/队列状态可能被基于旧快照的队列维护覆盖——终审后 grep 确认状态列，发现回退走补审流程。**黄药师批 5 单终审（2026-08-19）**：#361 MCP 修复生效收口 PASS A（真机飞书回归 mcp-stderr L2442 `Selecting 36 from 36 by vector similarity`=graph 腿真实工作+进程 00:47>00:18）+ #364 漂移检测 PASS A（check-runtime-drift 实测逮到真实漂移：server.py 被其他会话 01:13 热重载改动未重启——TODO 并入重启批次）+ #367 双轨冻结 PASS A（DEPRECATED+archive+观察期 08-26）+ #369 派生脚本化 PASS A（check-derivatives 基线 PASS）。**#366 CAPSULE_STARTUP v2 复审 PASS A**——v2（b4d466ee0 95 行）被 .kdo/capsule_sync.py 3 分钟内覆盖回 v1（50 行），生产未生效（#362 三问第 2 问答否）；FAIL 结构化意见已落盘（capsule_sync 停用/兼容 + 恢复 v2 + 重验）。**#368 复盘范式定标 PASS A**（agent-os.md §10.9：Truman 10 章唯一直写+长期资产同步更新+旧格式废弃）+ **#370 治理收敛 PASS A**（PROTOCOL v0.5 六角色+队列唯一真相源+双队列合并+agent-spec 6/6 齐备——欧阳锋自己的 spec 已审过 reviewed）。**#373 老顽童 Wave1 非终态卡处置 PASS A-**（152 张全判定：reviewed 81=已终审同步 21 三证一致+预审达标 60 抽查 10% 确认；回炉 71 理由成立；pending_review/needs-review 归零）→ **#371 元数据清洗 PASS A**（635 文件/抽查 200 张非标 0/lint -123；146 domain unknown 备案待人工）+ **#372 垃圾清理 PASS A**（C:/ 树清除+PARA 原位保留用户纠正+dispatch 135 归档；_tmp 23M 删除待老朱）——**#374 agent-activity-check 停滞诊断 PASS A**（E035 工具化：三问一脚本，实测 huangyaoshi 活跃判定；任务单/队列状态不一致走 complete→review 修复）——**#375 claim 处置门禁 PASS A**（处置关键词双扫+缺内容价值判断节拒领+确认清单三问+豁免+零摩擦；4 项单元实测全过；PROTOCOL §7 落地工具化，与 #363 提审门禁互补）——**#376 AI 知识库二刷挖掘 PASS A**（3510 行全读+13 张新卡 pre-submit 13/13+O0 溯源 3 引文逐字全过+gap 三态判定留痕+reviewed_by: pending E018 合规）——**#377 双 pre-submit 门禁收敛 PASS A**（wiki 侧包装器 DEPRECATED 双标记+14 项差异表+只改 1 文件；source_refs→00_inbox 规则报裁决：建议删/降真 WARN——惩罚合规行为的 ERROR）+ **#378 一刷卡补强 PASS A**（6 卡+51/-11 带行号+双向回链+pre-submit 0 ERROR；遗留 deliberate-practice-loop arXiv 5/5 unreachable 建议另立项）——**队列 357/357 全完成**，dashboard 357。"
+active_task: "2026-08-22 欧阳锋会话：① #407 PDF-Inspector 终审 PASS A-（官方源核验 5 数字全 VERIFIED + 200 PDFs 确认 + 视频 2.8s 以官方 0.47s 为准修正，核验真实性正证据；'单依赖 lopdf' 表述 TODO）② 库级编码债务清理：master-moc.md UTF-16 双重 BOM→UTF-8（kdo index 阻塞根因，commit 13613b8de）+ queue_integrity_audit/failure-modes-electronics GBK→UTF-8；kdo index --rebuild 恢复 4069 docs ③ 新立项：parse-error 58（#409 黄药师）/ production-queue mojibake（#410 黄药师）/ related-asymmetry 7472 分批（#411 老顽童，挂 #408 后）④ 素材层 3 文件（__MACOSX×2+广冷电子 GBK）遵只读纪律未动记 TODO。队列：待领取 4（#408-411）/审查中 0。"
 blockers:
-  - "production-queue.md 全文件中文 mojibake 损坏（UTF-8-SIG 混合编码）——历史遗留，新行正常 UTF-8；提请黄药师做编码修复"
+  - "production-queue.md 全文件中文 mojibake 损坏（UTF-8-SIG 混合编码）——已立项 #410（黄药师，强制备份+样本校准+diff 结构零变化）"
   - "O-3 已知 bug：queue_transition.py complete --force 对 queued 任务锁内 re-check 必失败——review 路径实测可用（2026-08-18 四单全通，含 --grade）"
   - "当前任务状态见 production-queue.md（唯一真相源）"
   - "旧任务文件 laowantong-next-tasks.md / laowantong-batch-*.md 已废弃——不要读。"
   - "建议书编号 ≠ 队列编号：建议书（R1-R4 / #267s-#273s）编号为建议性，正式编号以队列为准（decisions.md 2026-08-09 D2 已登记；friction-log 第 2 条实证）"
-next_session_hint: "① 用户重启后说'继续'→读 .agent/ouyangfeng-context.md + context.md + amnesia-recovery + 桌面/agent复盘/ouyangfeng/daily-context/ 最新（按目录内最新，不写死日期）；② 队列 #337 codex-kdo-mirror-audit 待用户派单终审；③ 验证纪律：hermes skills list 必须带 -p <profile>、Windows 路径 grep 用裸关键词/绝对路径、'同款/已收口/全量'声明逐文件 grep；④ 部署类验收三态框架（运行态/字节/消费层）；⑤ E025/E026 编排铁律（修改另开任务/单角色单任务）"
+next_session_hint: "① 用户重启后说'继续'→读 .agent/ouyangfeng-context.md + context.md + amnesia-recovery + 桌面/agent复盘/ouyangfeng/daily-context/ 最新（按目录内最新，不写死日期）；② 队列 #408-411 待领取（#408 老顽童空壳卡补强/#409 黄药师 parse-error 58/#410 黄药师队列 mojibake/#411 老顽童 related-asymmetry 分批）；③ 验证纪律：hermes skills list 必须带 -p <profile>、Windows 路径 grep 用裸关键词/绝对路径、'同款/已收口/全量'声明逐文件 grep；④ 部署类验收三态框架（运行态/字节/消费层）；⑤ E025/E026 编排铁律（修改另开任务/单角色单任务）"
 ---
 ---
 

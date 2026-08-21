@@ -2,9 +2,9 @@
 id: tool-pdf-inspector
 title: PDF-Inspector (Firecrawl)：先分类再提取的极速 PDF→Markdown 解析器
 type: tool
-status: pending_review
+status: reviewed
 author: 小昭（外部建议稿），老顽童核验入库
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: 2026-08-21
 updated_at: 2026-08-22
 confidence: 0.9
@@ -37,8 +37,8 @@ tags:
 diagnostic_signals:
   - framework_lens: PDF 进料检查
     follow_up_question: 这份 PDF 是原生文本还是扫描件？先 `detect-pdf` 分类再决定走本地直提还是送 OCR。
+review_date: 2026-08-22
 ---
-
 # PDF-Inspector (Firecrawl)
 
 > 本卡是 KDO PDF 进料 classify-then-route 路由的"快速通道"工具卡：先用 `detect-pdf` 判断 PDF 类型（原生文本/扫描/图片/混合），原生文本型本地直提（官方口径 under 200ms），扫描/混合页才路由去 OCR/MinerU。与 [[mineru-pdf-parsing-setup]] 互补不替代（MinerU 管扫描件/复杂版面）。
