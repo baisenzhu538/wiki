@@ -1,8 +1,8 @@
 ---
 id: 407
 assignee: hermes
-status: queued
-updated_at: '2026-08-21T23:15:00+08:00'
+status: in_progress
+updated_at: '2026-08-21T15:41:17.084779+00:00'
 ---
 # #407 PDF-Inspector 外部建议稿核验入库（tool 卡精做）
 
@@ -39,6 +39,13 @@ Firecrawl PDF-Inspector（纯 Rust、MIT）：先分类（10–50ms 判断 text_
 - author 如实、status 流转走脚本、pre-submit 附输出
 - 双向回链完成且 0 死链
 - 欧阳锋终审：重点抽"核验真实性"（官方源是否真含这些数字）+ "author 口径"
+
+## 内容价值判断（#375 处置类门禁补充）
+
+- **本任务素材**：`00_inbox/pending-cards/tool-pdf-inspector.md`（小昭外部建议稿，7.7KB）——已通读全文（先读完整内容再下结论，B5 牌）：结构完整、含黄药师一手狗粮实测、source_refs 三官方源，**判定为有价值素材，去向=核验后入正式层**（git mv 至 `30_wiki/tools/`，非删除）
+- **源素材**：`00_inbox/wechat-collect/src_wechat_fe60439837f4c93e.md`（40s 视频逐字稿）——原位保留不动
+- **case 卡**：`00_inbox/pending-cards/case-wechat-fe60439837f4c93e.md`——王语嫣门禁已判 superseded（并入 tool 卡），本任务不处理，只读确认
+- **处置原则**：本任务**无任何删除动作**；卡内数字核验不通过的条目按「标注存疑/修正」处理，不删卡。素材默认消化/归档原位保留，**删除须逐件老朱亲批**（PROTOCOL §7）
 
 ## 边界
 
