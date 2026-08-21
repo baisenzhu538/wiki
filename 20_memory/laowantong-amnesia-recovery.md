@@ -58,12 +58,12 @@ type: memory/role-recovery
 
 ## 4. 当前状态（截至 2026-08-21 晚 · 重启快照）
 
-- **2026-08-21 生产批次 #400→#406（hermes 实例）→ 全部闭环（#406 待终审）**：
+- **2026-08-21 生产批次 #400→#406（hermes 实例）→ 全部闭环（#406 已终审 PASS A，2026-08-20 欧阳锋）**：
   - #400 数字员工口述补强+新卡（PASS A）：7 补强跨案例实证 + 3 新卡（case-openclaw-selfbuilt-agent-platform / tool-local-search-repo-datasource-engineering / tool-platform-requirement-eight-sections），ASR 合规全标"口述待独立核实"
   - #405 防忽悠三层法 skill 结晶（PASS A）：`40_outputs/capabilities/skills/anti-ai-bs-three-moves/`（SKILL.md + manifest.yaml 3 eval cases，kdo skill validate 3/3 PASS，.claude/skills 双写不入 git）——知行合一纲领第一个示范项，Matrix 回放实测第二层拦下
-  - **#406 旧卡反向回链收口（2026-08-21 晚刚送审，pending_review 等欧阳锋）**：23 张旧卡补 36 处反向链 + 顺带修复 6 卡 YAML 结构问题（`related: null`/缩进混乱）——**重启后第一件事=查 #406 终审结果**（预期 PASS A；有退回则按期望修复后 claim→complete 重提）
+  - **#406 旧卡反向回链收口（已终审 PASS A，2026-08-20 欧阳锋）**：23 张旧卡补 36 处反向链 + 顺带修复 6 卡 YAML 结构问题（`related: null`/缩进混乱）——重启后实测：队列行已划掉、任务单 reviewed，无需返工
   - 常设规则（王语嫣 08-21 裁定）：产卡批次验收默认含"旧卡→新卡反向回链"，不再留尾巴
-- **队列实况（2026-08-21 晚）**：总 385 / queued=0 / claimed=0 / pending_review=1（#406）——重启后紧邻重跑 `queue_transition.py status` 核实（E013）
+- **队列实况（2026-08-22 重启实测）**：总 385 / queued=0 / claimed=0 / pending_review=0（#406 已终审划掉）——**全队列清空，老顽童名下无活待命**（E013 已重跑核实）；#393 标签体系曾"终审退回 queued"但任务单已 reviewed（后续波次另立项，W2 待编排）
 - **错误模式库至 E018**（复扫口径三连：清单/回填范围/解析器——归零声明必带口径；工厂级根治=#399 黄药师全库复扫标准工具，黄药师进行中）
 - **新卡全清单**：#381 concept-meta-skill-layering / #379 case-kinda+6dk+3tool / #387 framework-lemon-market-new-brand-trust / #396 case-truman-ai-native-research-flow + dk-agent-parallel-design-system + framework-knowledge-naming-systems-comparison / #400 case-openclaw + tool-local-search-repo-datasource-engineering + tool-platform-requirement-eight-sections / #397 tool-月白-MOC / #405 skill anti-ai-bs-three-moves
 

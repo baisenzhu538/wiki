@@ -28,6 +28,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua
+- '[[tool-pdf-inspector]]'
 tags:
 - src_unknown
 - src_unknown

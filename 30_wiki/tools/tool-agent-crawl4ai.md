@@ -25,7 +25,8 @@ discoverable_by:
 - Crawl4AI：开源AI爬虫——自然语言描述即可提取
 - 开源AI爬虫
 - 自然语言描述即可提取
-related: null
+related:
+- '[[tool-pdf-inspector]]'
 updated_at: '2026-06-29'
 ---
 # Crawl4AI
