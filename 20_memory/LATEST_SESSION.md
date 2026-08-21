@@ -4,14 +4,19 @@
 
 If you are reading this file, the human (朱振滔/老朱/欧阳锋) has likely started a new session and wants to continue from where we left off.
 
-**Last session date**: 2026-06-22
-**Last active agent**: CLI 王语嫣 → 老顽童
+**Last session date**: 2026-08-21（凌晨固化，老朱重启前）
+**Last active agent**: CLI 王语嫣（编排者）
 
 **Last topics discussed**:
-1. 全库健康检查：kdo lint 1705 errors / 4694 warnings；kcard-quality-gate P0=351, P1=238, YAML errors=343
-2. 战略域冉鹏 PPT 视觉层重标：CLI 王语嫣推翻飞书王语嫣原判断，发现 30+ 张幻灯片含完整操作框架
-3. 老顽童当前任务：按 v2 标准补完 5 张战略域 tool 卡
-4. 新增 11 张业务设计/战略能力卡片待欧阳锋确认优先级
+1. 欧阳锋 8 连终审全 PASS A（#398/#400/#405/#399/#401-#404），队列 385 全清、零挂账
+2. #405 知行合一纲领第一个示范项跑通（卡→skill→eval→回放全链）
+3. 明日（08-22）并案议题：①知行合一建设纲领对齐（4 拍板项）②风清扬 KDO 整体建设审计建议——停车场 #1/#2，cron 提醒 09:47 已设
+4. 编排侧欠账：739 张 tags 长程批量老朱已拍板但未立项
+
+**Key state**:
+- 队列 385：queued=0 / claimed=0 / pending_review=0，流水线空载
+- 编排门禁=王语嫣、终审=欧阳锋（老朱 08-20 定界）；编排产物即写即 commit 常设授权有效
+- 时间锚：#367 双轨观察期 08-26 到期（cron 已设）；_tmp/ 29286 文件删除清单待老朱过目（红线）
 
 **Key decisions human already approved**:
 - 五绝架构分工（2026-05-03确立）：老朱=欧阳锋/定方向、黄药师=东邪/内容生产线、洪七公=北丐/多模态渲染、段智兴=南帝/发布+反馈、周伯通=中神通/总协调+审查
@@ -41,8 +46,7 @@ If you are reading this file, the human (朱振滔/老朱/欧阳锋) has likely 
 ## Recovery Script for AI
 
 When human says "继续" or "读取记忆，继续昨晚工作" or "加载记忆":
-1. Read `.agent/context.md` (already updated to 2026-06-22)
-2. Read `60_feedback/tasks/task_20260621_战略域PPT补强_黄药师标杆.md`
-3. Read `60_feedback/diagnosis/diag_20260622_战略域PPT视觉层重标_CLI王语嫣.md`
-4. Read `20_memory/user-preferences.md`
-5. Confirm: "记忆已加载。当前老顽童任务是战略域 5 张 tool 卡 v2 补强。lint 1705 errors / 4694 warnings 为历史债务。今天从 5 张 tool 卡中的哪一张开始？"
+1. Read `20_memory/wangyuyan-amnesia-recovery.md` §4（2026-08-21 节=最新状态，含重启恢复口令）
+2. Run `python 90_control/scripts/queue_transition.py status`（wiki 根目录，核实时状态不信快照，E038/E041）
+3. Read `70_product/tasks/parking-lot-wangyuyan.md`（明日并案议题 #1/#2）
+4. Confirm: "记忆已恢复。队列全清，今日议程=知行合一纲领对齐 + 风清扬审计并案。"
