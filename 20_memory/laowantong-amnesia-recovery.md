@@ -1,7 +1,7 @@
 ---
 title: 老顽童失忆恢复记录
 created_at: 2026-07-24
-updated_at: 2026-08-20
+updated_at: 2026-08-21
 type: memory/role-recovery
 ---
 
@@ -56,9 +56,16 @@ type: memory/role-recovery
 
 ---
 
-## 4. 当前状态（截至 2026-08-20）
+## 4. 当前状态（截至 2026-08-21 晚 · 重启快照）
 
-- **2026-08-20 生产批次 #381/#379/#383/#384（hermes 实例）→ 全部闭环 PASS**：①#381 元技能分层 1 卡（PASS A，老朱点名"很重要"）②#379 Live86 龙虾员工 10 卡（PASS A，王语嫣诊断六层交叉+九层深挖，卡组 1 case+6 dk+3 tool）③#383 元技能回链 2 处（PASS A-）④#384 Live86 回链 30 处（**三轮闭环 PASS A-**：R1 退回=body 污染修复不彻底 2 卡 3 行残留 → R2 退回=复扫漏 #376 新卡逮 3 文件 4 行 → R3 PASS，30 文件污染 0）。共产 14 卡+32 回链。新教训 **E015**（隐性索引门禁：pre-submit 实有 11 gate 显示 9，新卡/改卡提审前先 `kdo index`）+ **E016**（frontmatter 插入必须 yaml 结构感知，related 块=related: 到下一个顶层键，永不用 review_date 行锚点）+ **E017**（"修复了"≠"清干净了"——修复后必须全量复扫受影响文件集，复扫范围要含未追踪新卡）。
+- **2026-08-21 生产批次 #400→#406（hermes 实例）→ 全部闭环（#406 待终审）**：
+  - #400 数字员工口述补强+新卡（PASS A）：7 补强跨案例实证 + 3 新卡（case-openclaw-selfbuilt-agent-platform / tool-local-search-repo-datasource-engineering / tool-platform-requirement-eight-sections），ASR 合规全标"口述待独立核实"
+  - #405 防忽悠三层法 skill 结晶（PASS A）：`40_outputs/capabilities/skills/anti-ai-bs-three-moves/`（SKILL.md + manifest.yaml 3 eval cases，kdo skill validate 3/3 PASS，.claude/skills 双写不入 git）——知行合一纲领第一个示范项，Matrix 回放实测第二层拦下
+  - **#406 旧卡反向回链收口（2026-08-21 晚刚送审，pending_review 等欧阳锋）**：23 张旧卡补 36 处反向链 + 顺带修复 6 卡 YAML 结构问题（`related: null`/缩进混乱）——**重启后第一件事=查 #406 终审结果**（预期 PASS A；有退回则按期望修复后 claim→complete 重提）
+  - 常设规则（王语嫣 08-21 裁定）：产卡批次验收默认含"旧卡→新卡反向回链"，不再留尾巴
+- **队列实况（2026-08-21 晚）**：总 385 / queued=0 / claimed=0 / pending_review=1（#406）——重启后紧邻重跑 `queue_transition.py status` 核实（E013）
+- **错误模式库至 E018**（复扫口径三连：清单/回填范围/解析器——归零声明必带口径；工厂级根治=#399 黄药师全库复扫标准工具，黄药师进行中）
+- **新卡全清单**：#381 concept-meta-skill-layering / #379 case-kinda+6dk+3tool / #387 framework-lemon-market-new-brand-trust / #396 case-truman-ai-native-research-flow + dk-agent-parallel-design-system + framework-knowledge-naming-systems-comparison / #400 case-openclaw + tool-local-search-repo-datasource-engineering + tool-platform-requirement-eight-sections / #397 tool-月白-MOC / #405 skill anti-ai-bs-three-moves
 
 - **2026-08-19 生产批次 #373（hermes 实例，非终态卡处置 Wave 1）→ 终审 PASS A-**：152 张全收敛（pending_review/needs-review 归零）——21 已终审同步 + 60 预审达标 + 71 回炉 draft。欧阳锋终审 PASS A-（O3 抽 10 张无误判，验收 4 项全过）；**A- 扣分点=60 张预审达标卡 reviewed_by 预填先于终审（E018 字面风险）**——本批抽查闭环，下批（Wave 2）预填改"待审"占位，判定与终审分离。实测 152（任务单口径 133，差异 19=08-19 新入队已终审批次）；已终审未同步模式（队列 review 不改卡 frontmatter 机制缺口）；批量判定四步法成型（扫→校准→预筛→处置）；E014 入错误模式库；claim 需完整 task-id。判定清单 `60_feedback/tasks/task_20260819_laowantong-nonterminal-cards-wave1/判定清单152.md`；Wave 2（draft 792 含回炉 71）拆分方案待黄药师批后另行编排。
 
