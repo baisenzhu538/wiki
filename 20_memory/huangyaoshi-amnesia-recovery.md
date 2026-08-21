@@ -1,9 +1,17 @@
 ---
 title: 黄药师失忆恢复记录
-updated_at: 2026-08-16
+updated_at: 2026-08-21
 ---
 
 # 黄药师失忆恢复（重启后 3 分钟加载）
+## 2026-08-21 状态（建议书 L 系列五连发 · 全 PASS A）
+
+- **我名下任务全清**：#399-#404 五单全闭环——#399 全库复扫工具（**PASS A**，6 检查项+delta 增量报警挂 health-check，归零声明唯一口径）/ #401 规则门禁化盘点（PASS A，182 条→22 簇清单）/ #402 长程 workspace（PASS A，claim 联动自动建三件套+#393 试点）/ #403 出生两问（PASS A，模板前置闸）/ #404 trust 实证（PASS A，无痛点诚实关阶段二）
+- **🆕 新机制三件**：#399 `full-library-rescan.py`（全库复扫标准口径——任何"归零"声明须附其输出，否则终审 FAIL）；#402 `long_running: true` workspace（claim 自动建 + 随流转 commit）；#403 出生两问（新 agent 前置闸，agent-context.md 模板）
+- **记忆恢复路径修正**：认知复盘 6 件套在拼音轨 `agent复盘/huangyaoshi/`（中文旧轨 DEPRECATED）；daily-context 最新=2026-08-21.md；技能进化日志最上方追加
+- **下次启动快速通道**：读 `.kdo/CAPSULE_STARTUP.md`（git_head 以实际为准）+ `.agent/huangyaoshi-context.md`（行为牌 B1-B6）+ 本文件 08-21 节 + `agent复盘/huangyaoshi/daily-context/` 最新
+- **待办**：_tmp 23M 测试产物删除（等老朱过目）；PARA 未消化素材交王语嫣；#401 Top 3 门禁化建议待王语嫣立项（口述稿 source 引用检测 ×16 / D4 事前检测 ×9 / 口述稿全文半门禁化 ×8）；处置门禁关键词族收窄评估（friction-log 08-21 记）
+
 ## 2026-08-19 状态（治理批次后）
 
 - **我名下任务全清**（#357-375 十二任务交付完毕：#357/#361/#363/#364/#366/#367/#369/#371/#372/#374/#375 全部终审或提审）
