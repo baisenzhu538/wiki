@@ -1,44 +1,44 @@
-Éó¼Æ·¶Î§: C:\Users\Administrator\Desktop\wiki\60_feedback\tasks
-reviewed ÈÎÎñµ¥×ÜÊı: 18
-Òì³£Êı: 27
+å®¡è®¡èŒƒå›´: C:\Users\Administrator\Desktop\wiki\60_feedback\tasks
+reviewed ä»»åŠ¡å•æ€»æ•°: 18
+å¼‚å¸¸æ•°: 27
 
-Òì³£ÁĞ±í:
-  - task_20260627_laowantong-deliberate-practice-cards: reviewed µ«È±ÉÙ review_date
-  - task_20260627_laowantong-deliberate-practice-cards: reviewed µ«È±ÉÙ reviewer/reviewed_by
-  - task_20260627_laowantong-deliberate-practice-cards: reviewed µ«ÎŞ¶ÔÓ¦ review/audit ÎÄ¼şÇÒÎŞ review_date
-  - task_20260627_laowantong-lanyi-panproduct-organization: reviewed µ«È±ÉÙ review_date
-  - task_20260627_laowantong-lanyi-panproduct-organization: reviewed µ«È±ÉÙ reviewer/reviewed_by
-  - task_20260627_laowantong-lanyi-panproduct-organization: reviewed µ«ÎŞ¶ÔÓ¦ review/audit ÎÄ¼şÇÒÎŞ review_date
-  - task_20260628_laowantong-case-section-standardization: reviewed µ«È±ÉÙ review_date
-  - task_20260628_laowantong-case-section-standardization: reviewed µ«È±ÉÙ reviewer/reviewed_by
-  - task_20260628_laowantong-case-section-standardization: reviewed µ«ÎŞ¶ÔÓ¦ review/audit ÎÄ¼şÇÒÎŞ review_date
-  - task_20260628_laowantong-dark-knowledges-batch8: reviewed µ«È±ÉÙ review_date
-  - task_20260628_laowantong-dark-knowledges-batch8: reviewed µ«È±ÉÙ reviewer/reviewed_by
-  - task_20260628_laowantong-dark-knowledges-batch8: reviewed µ«ÎŞ¶ÔÓ¦ review/audit ÎÄ¼şÇÒÎŞ review_date
-  - task_20260628_laowantong-link-repair-b1-frontmatter-related: reviewed µ«È±ÉÙ review_date
-  - task_20260628_laowantong-link-repair-b1-frontmatter-related: reviewed µ«ÎŞ¶ÔÓ¦ review/audit ÎÄ¼şÇÒÎŞ review_date
-  - task_20260628_laowantong-link-repair-b2-synthesis-section: reviewed µ«È±ÉÙ review_date
-  - task_20260628_laowantong-link-repair-b2-synthesis-section: reviewed µ«ÎŞ¶ÔÓ¦ review/audit ÎÄ¼şÇÒÎŞ review_date
-  - task_20260628_laowantong-link-repair-b3-island-cards: reviewed µ«È±ÉÙ review_date
-  - task_20260628_laowantong-link-repair-b3-island-cards: reviewed µ«ÎŞ¶ÔÓ¦ review/audit ÎÄ¼şÇÒÎŞ review_date
-  - task_20260628_wangyuyan-wave6-blindspot-diagnosis: reviewed µ«È±ÉÙ review_date
-  - task_20260628_wangyuyan-wave6-blindspot-diagnosis: reviewed µ«ÎŞ¶ÔÓ¦ review/audit ÎÄ¼şÇÒÎŞ review_date
-  - task_20260629_kimi-lint-mechanical-noise-reduction: reviewed µ«È±ÉÙ review_date
-  - task_20260629_kimi-lint-mechanical-noise-reduction: reviewed µ«ÎŞ¶ÔÓ¦ review/audit ÎÄ¼şÇÒÎŞ review_date
-  - task_20260629_laowantong-expand-ai-learning-concept-cards: reviewed µ«È±ÉÙ review_date
-  - task_20260629_laowantong-expand-ai-learning-concept-cards: reviewed µ«È±ÉÙ reviewer/reviewed_by
-  - task_20260629_laowantong-expand-ai-learning-concept-cards: reviewed µ«ÎŞ¶ÔÓ¦ review/audit ÎÄ¼şÇÒÎŞ review_date
-  - task_20260629_wangyuyan-goat-milk-channel-partnership-bridge: reviewed µ«È±ÉÙ review_date
-  - task_20260629_wangyuyan-goat-milk-channel-partnership-bridge: reviewed µ«ÎŞ¶ÔÓ¦ review/audit ÎÄ¼şÇÒÎŞ review_date
+å¼‚å¸¸åˆ—è¡¨:
+  - task_20260627_laowantong-deliberate-practice-cards: reviewed ä½†ç¼ºå°‘ review_date
+  - task_20260627_laowantong-deliberate-practice-cards: reviewed ä½†ç¼ºå°‘ reviewer/reviewed_by
+  - task_20260627_laowantong-deliberate-practice-cards: reviewed ä½†æ— å¯¹åº” review/audit æ–‡ä»¶ä¸”æ—  review_date
+  - task_20260627_laowantong-lanyi-panproduct-organization: reviewed ä½†ç¼ºå°‘ review_date
+  - task_20260627_laowantong-lanyi-panproduct-organization: reviewed ä½†ç¼ºå°‘ reviewer/reviewed_by
+  - task_20260627_laowantong-lanyi-panproduct-organization: reviewed ä½†æ— å¯¹åº” review/audit æ–‡ä»¶ä¸”æ—  review_date
+  - task_20260628_laowantong-case-section-standardization: reviewed ä½†ç¼ºå°‘ review_date
+  - task_20260628_laowantong-case-section-standardization: reviewed ä½†ç¼ºå°‘ reviewer/reviewed_by
+  - task_20260628_laowantong-case-section-standardization: reviewed ä½†æ— å¯¹åº” review/audit æ–‡ä»¶ä¸”æ—  review_date
+  - task_20260628_laowantong-dark-knowledges-batch8: reviewed ä½†ç¼ºå°‘ review_date
+  - task_20260628_laowantong-dark-knowledges-batch8: reviewed ä½†ç¼ºå°‘ reviewer/reviewed_by
+  - task_20260628_laowantong-dark-knowledges-batch8: reviewed ä½†æ— å¯¹åº” review/audit æ–‡ä»¶ä¸”æ—  review_date
+  - task_20260628_laowantong-link-repair-b1-frontmatter-related: reviewed ä½†ç¼ºå°‘ review_date
+  - task_20260628_laowantong-link-repair-b1-frontmatter-related: reviewed ä½†æ— å¯¹åº” review/audit æ–‡ä»¶ä¸”æ—  review_date
+  - task_20260628_laowantong-link-repair-b2-synthesis-section: reviewed ä½†ç¼ºå°‘ review_date
+  - task_20260628_laowantong-link-repair-b2-synthesis-section: reviewed ä½†æ— å¯¹åº” review/audit æ–‡ä»¶ä¸”æ—  review_date
+  - task_20260628_laowantong-link-repair-b3-island-cards: reviewed ä½†ç¼ºå°‘ review_date
+  - task_20260628_laowantong-link-repair-b3-island-cards: reviewed ä½†æ— å¯¹åº” review/audit æ–‡ä»¶ä¸”æ—  review_date
+  - task_20260628_wangyuyan-wave6-blindspot-diagnosis: reviewed ä½†ç¼ºå°‘ review_date
+  - task_20260628_wangyuyan-wave6-blindspot-diagnosis: reviewed ä½†æ— å¯¹åº” review/audit æ–‡ä»¶ä¸”æ—  review_date
+  - task_20260629_kimi-lint-mechanical-noise-reduction: reviewed ä½†ç¼ºå°‘ review_date
+  - task_20260629_kimi-lint-mechanical-noise-reduction: reviewed ä½†æ— å¯¹åº” review/audit æ–‡ä»¶ä¸”æ—  review_date
+  - task_20260629_laowantong-expand-ai-learning-concept-cards: reviewed ä½†ç¼ºå°‘ review_date
+  - task_20260629_laowantong-expand-ai-learning-concept-cards: reviewed ä½†ç¼ºå°‘ reviewer/reviewed_by
+  - task_20260629_laowantong-expand-ai-learning-concept-cards: reviewed ä½†æ— å¯¹åº” review/audit æ–‡ä»¶ä¸”æ—  review_date
+  - task_20260629_wangyuyan-goat-milk-channel-partnership-bridge: reviewed ä½†ç¼ºå°‘ review_date
+  - task_20260629_wangyuyan-goat-milk-channel-partnership-bridge: reviewed ä½†æ— å¯¹åº” review/audit æ–‡ä»¶ä¸”æ—  review_date
 
-¶ÓÁĞ/ÈÎÎñµ¥×´Ì¬²»Ò»ÖÂ:
-  - laowantong-batch-2026-06-20-wave1: ¶ÓÁĞ marked reviewed µ«ÈÎÎñµ¥ÎÄ¼ş²»´æÔÚ
-  - task_20260627_laowantong-channel-growth-cards: ¶ÓÁĞ status=reviewed µ«ÈÎÎñµ¥ status=unknown
-  - laowantong-batch-2026-06-20-wave2: ¶ÓÁĞ marked reviewed µ«ÈÎÎñµ¥ÎÄ¼ş²»´æÔÚ
-  - laowantong-batch-2026-06-20-wave3: ¶ÓÁĞ marked reviewed µ«ÈÎÎñµ¥ÎÄ¼ş²»´æÔÚ
-  - laowantong-batch-2026-06-20-wave4: ¶ÓÁĞ marked reviewed µ«ÈÎÎñµ¥ÎÄ¼ş²»´æÔÚ
-  - laowantong-batch-2026-06-20-wave5: ¶ÓÁĞ marked reviewed µ«ÈÎÎñµ¥ÎÄ¼ş²»´æÔÚ
-  - review_20260627_ouyangfeng-self-attack-framework: ¶ÓÁĞ marked reviewed µ«ÈÎÎñµ¥ÎÄ¼ş²»´æÔÚ
-  - task_20260628_laowantong-lint-batch2-case-sections: ¶ÓÁĞ status=reviewed µ«ÈÎÎñµ¥ status=pending_review
-  - task_20260628_laowantong-lint-batch2-dk-sections: ¶ÓÁĞ status=reviewed µ«ÈÎÎñµ¥ status=pending_review
-  - task_20260629_historical-debt-case-section-132: ¶ÓÁĞ status=reviewed µ«ÈÎÎñµ¥ status=pending_review
+é˜Ÿåˆ—/ä»»åŠ¡å•çŠ¶æ€ä¸ä¸€è‡´:
+  - laowantong-batch-2026-06-20-wave1: é˜Ÿåˆ— marked reviewed ä½†ä»»åŠ¡å•æ–‡ä»¶ä¸å­˜åœ¨
+  - task_20260627_laowantong-channel-growth-cards: é˜Ÿåˆ— status=reviewed ä½†ä»»åŠ¡å• status=unknown
+  - laowantong-batch-2026-06-20-wave2: é˜Ÿåˆ— marked reviewed ä½†ä»»åŠ¡å•æ–‡ä»¶ä¸å­˜åœ¨
+  - laowantong-batch-2026-06-20-wave3: é˜Ÿåˆ— marked reviewed ä½†ä»»åŠ¡å•æ–‡ä»¶ä¸å­˜åœ¨
+  - laowantong-batch-2026-06-20-wave4: é˜Ÿåˆ— marked reviewed ä½†ä»»åŠ¡å•æ–‡ä»¶ä¸å­˜åœ¨
+  - laowantong-batch-2026-06-20-wave5: é˜Ÿåˆ— marked reviewed ä½†ä»»åŠ¡å•æ–‡ä»¶ä¸å­˜åœ¨
+  - review_20260627_ouyangfeng-self-attack-framework: é˜Ÿåˆ— marked reviewed ä½†ä»»åŠ¡å•æ–‡ä»¶ä¸å­˜åœ¨
+  - task_20260628_laowantong-lint-batch2-case-sections: é˜Ÿåˆ— status=reviewed ä½†ä»»åŠ¡å• status=pending_review
+  - task_20260628_laowantong-lint-batch2-dk-sections: é˜Ÿåˆ— status=reviewed ä½†ä»»åŠ¡å• status=pending_review
+  - task_20260629_historical-debt-case-section-132: é˜Ÿåˆ— status=reviewed ä½†ä»»åŠ¡å• status=pending_review
