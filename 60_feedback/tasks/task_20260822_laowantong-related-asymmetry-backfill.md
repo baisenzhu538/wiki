@@ -439,3 +439,15 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | 8a9f9e7d6（116 files +252） |
 
 **累计进度**：11 批 2750 条 / 复扫 7472 → 5010（原口径 -2462）
+
+## 终审记录 · 第十一批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `8a9f9e7d6`（116 files +252）实锤；numstat **add 252 / del 0** 纯增 ✅
+- 复扫独立实测 = **5010** 与报告一致（5265-250）✅
+- 主题相关抽查：agent-spec-duanwangye-publisher → agent-spec-ouyangfeng-reviewer（发布↔审查协作链）✅
+- 上批 TODO：无新增 ✅
+
+**A 级理由**：纯增 0 删 + 复扫真实 + 主题相关。
+
+**批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第十二批基线 = 5010）。
