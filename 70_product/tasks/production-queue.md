@@ -453,6 +453,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 430 | `task_20260823_huangyaoshi-agent-review-gitify` | agent复盘 目录 git 化 / E040 适用范围裁定（P1，F-036 提升）：组织记忆可追踪或口径兜底 | reviewed | huangyaoshi | 裁定+实施/口径+实测 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-agent-review-gitify.md` | #423 条件项第 2 次实证升级；方案 A 独立 git 化为主，B 仅兜底；不迁目录不改复盘内容；08-26 归档前定；欧阳锋终审 |
 | 431 | `task_20260823_laowantong-role-special-laowantong` | 角色专场第一场：老顽童岗位说明书定稿（P1，F-028 开场） | queued | laowantong | 五要素 spec 升级 | 无 | `60_feedback/tasks/task_20260823_laowantong-role-special-laowantong.md` | 底本=风清扬五角色建议书；必含 B2-3 两条血泪+老顽童两条补充+G1/G2；一角色一张过，老朱拍板后才开欧阳锋场；欧阳锋终审 |
 | 432 | `task_20260823_huangyaoshi-memory-capsule-l0-minimal` | 记忆胶囊 L0 最小实现（P1，F-027 第一阶段）：A 本机主库 + B 第二盘镜像 + verify 恢复演练 | pending_review | huangyaoshi | L0 库+镜像+verify | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-memory-capsule-l0-minimal.md` | #427 拍板 A+B/C 缓议；只做 L0，不做 L1-L3；不注册常驻计划任务（需老朱确认命令）；狗粮=写入→镜像→恢复→verify；欧阳锋终审 |
+| 433 | `task_20260823_huangyaoshi-negative-claim-gate` | 负向判词证据层门禁（P1，审查端 F-035 对称补全）：无 `**存在性核查**` 锚点的「无/缺/未」判词不闭环 | queued | huangyaoshi | 门禁+复现用例 | 无 | `60_feedback/tasks/task_20260823_huangyaoshi-negative-claim-gate.md` | 风清扬建议书采纳；不改已审 #419/#429；只拦锚点不判核查质量；复现用例=#430 坚果云/FQ-E04/FQ-E01；欧阳锋终审 |
 
 <!-- REVIEW-PENDING-BEGIN（queue_transition 自动维护，勿手改） -->
 
@@ -550,6 +551,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~00_inbox/龙虾员工实践/一堂DOC-20260820205119.png｜P2｜65195B｜检测到 08-20 13:01｜待王语嫣编排~~ → 已编排：PNG 已看（白皮书目录/平台界面/需求模板），入 #400 证据链（2026-08-21 王语嫣）
 - ~~00_inbox/pending-cards/case-wechat-fe60439837f4c93e.md｜P2｜2361B｜检测到 08-21 14:41｜待王语嫣编排~~ → 已编排：门禁判定合并（superseded_by tool-pdf-inspector，诊断 diag_20260821_wangyuyan-pdf-inspector-gate.md）+ tool 卡核验入库入队 #407（2026-08-21 王语嫣）
 - ~~00_inbox/pending-cards/tool-pdf-inspector.md｜P2｜7716B｜检测到 08-21 15:08｜待王语嫣编排~~ → 已编排：门禁判定入库精做入队 #407（2026-08-21 王语嫣），已终审 PASS A-（2026-08-22 欧阳锋）
+- 00_inbox/半肥猫开放麦-AI知识库文件夹/AI×知识管理-开放麦-逐字稿.md｜P2｜59975B｜检测到 08-22 16:41｜待王语嫣编排
 
 <!-- INBOX-PENDING-END -->
 
@@ -567,7 +569,8 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - diag_20260822_fengqingyang-proposal-board-dedup.md｜08-22 22:03｜待王语嫣复核裁定
 - diag_20260822_probe-test-1-proposal.md｜08-22 22:03｜待王语嫣复核裁定
 - diag_20260822_probe-test-3-notify.md｜08-22 22:26｜待王语嫣复核裁定
-- diag_20260822_fengqingyang-l0-backup-path.md｜08-22 23:11｜待王语嫣复核裁定
-- diag_20260823_fengqingyang-negative-claim-evidence-gate.md｜08-23 00:38｜待王语嫣复核裁定
+- ~~diag_20260822_fengqingyang-l0-backup-path.md｜08-22 23:11｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-22 王语嫣，2026-08-23 老朱拍板）：采纳收敛 A+B 先行/C 缓议；见 `diag_20260822_wangyuyan-427-l0-backup-ruling.md`，已入队 #427 并 reviewed
+- ~~diag_20260823_fengqingyang-negative-claim-evidence-gate.md｜08-23 00:38｜待王语嫣复核裁定~~ → 已复核裁定（2026-08-23 王语嫣）：采纳，另开 #433 负向判词证据层门禁（不改已审 #419/#429）；停车场 F-037 已立项
+- diag_20260823_huangyaoshi-capsule-l0-automation-proposal.md｜08-23 00:47｜待王语嫣复核裁定
 
 <!-- PROPOSAL-PENDING-END -->
