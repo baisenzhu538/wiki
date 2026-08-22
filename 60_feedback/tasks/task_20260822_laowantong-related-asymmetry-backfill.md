@@ -473,3 +473,16 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 
 **累计进度**：12 批 3000 条 / 复扫 7472 → 4760（原口径 -2712；另有 455 条 pending_unknown 占位条目按纪律排除不处理）
 **域进展**：concept 已清完；本批 tools 案例锚点 + dk + domains 域摘要卡；剩余 tools 1875→1625 / dk 781→700 / cases 486→380 等
+
+## 终审记录 · 第十二批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `4ca684c54`（86 files +251）实锤；numstat **add 251 / del 0** 纯增 ✅
+- 复扫独立实测 = **4760** 与报告一致（5010-250，排除 pending_unknown 后口径）✅
+- **pending_unknown 排除纪律**：455 条占位符按 #384 不动；脚本双排除逻辑（pending_unknown + /system/）；**本批新增链污染 0**（首次 apply 污染在 commit 前已回滚，未入 git 历史）——执行者自查+回滚为加分项 ✅
+- 主题相关抽查：agent-spec-duanwangye-publisher → case-duanwangye-self-iteration-closed-loop（直接相关）✅
+- 上批 TODO：无新增 ✅
+
+**A 级理由**：纯增 0 删 + 复扫真实 + 纪律边界主动发现并机制化（pending_unknown 排除是 #384 纪律的批次执行落地）+ 污染零入 git。
+
+**批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第十三批基线 = 4760）。
