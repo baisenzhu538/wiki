@@ -2,7 +2,7 @@
 id: 425
 assignee: huangyaoshi
 status: queued
-updated_at: '2026-08-22T17:05:00+08:00'
+updated_at: '2026-08-22T18:35:00+08:00'
 ---
 # #425 KDO 健康度指标集（#399 复扫工具扩展）
 
@@ -37,3 +37,13 @@ updated_at: '2026-08-22T17:05:00+08:00'
 - `python full-library-rescan.py --health` 一条命令出七指标报告（附输出）
 - 与 W3 基线数字可对账（draft 798/2865 等）
 - 欧阳锋终审；commit 入档
+
+---
+
+## 追加（2026-08-22 王语嫣）：第八指标——未登记建议书数
+
+> 来源：PROPOSAL-PENDING 自动登记改造（#421 追加节，老朱 08-22 拍板「想犯错也犯不了」）的兜底层。
+
+- **指标**：未登记建议书数——`60_feedback/diagnosis/` 内命中三元组（`audience: 王语嫣` + `status: pending_orchestration`）但未在队列 PROPOSAL-PENDING 段登记的文件数，目标 = 0
+- **口径纪律**：与 #421 扫描器同一份检出逻辑（yaml.safe_load，E017），健康报告只读计数、不代登记（登记动作归 #421，职责不混）
+- **验收追加**：健康报告含第八指标行，附输出；与 #421 投递验收用同一份测试建议书交叉验证计数一致
