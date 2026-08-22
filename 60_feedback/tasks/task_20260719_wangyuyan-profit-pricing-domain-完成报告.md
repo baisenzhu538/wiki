@@ -78,3 +78,20 @@ Failed:        0
 
 - 待欧阳锋终审：15 张卡 + 回链正确性
 - 可选 agent-spec（定价决策教练）：最小任务单明确"仅在 8 张卡终审通过后另评，不捆绑本单闭环"——未做
+
+---
+
+## 执行报告
+
+**文件清单**：21 个文件（15 张利润域卡 + 5 张回链旧卡 + 本报告），commit 96a1eb99d：
+- 升级 14 张：framework-利润-利润优先经营框架 / bridge-利润-单元模型-定价闭环 / bridge-利润-需求冰山-价值定价 / concept-利润-真正利润定义 / concept-定价-价格杠杆 / concept-利润-风险报偿本质 / dk-利润-定价恐惧三段式反问 / dk-利润-利润敏感度非对称性 / dk-利润-资本游戏与真实商业分界线 / dk-利润-创始人利润耻感 / dk-利润-平台驱动本质是现金流驱动 / case-利润-白牌珠宝流量上瘾症 / case-利润-通用汽车份额追逐失败 / case-利润-苹果智能手机利润垄断
+- 新建 1 张：case-利润-巨米OPC利润前置对照（老朱对照，脱敏）
+- 回链 5 张：framework-一堂五步法-单元模型 / framework-demand-iceberg / framework-yitang-high-level-execution / framework-一堂-12触点SABC分级 / framework-yitang-project-abcd-classification
+
+**完成内容**：利润为王域 15 张卡（14 升级 + 1 新建老朱对照 case）全部达标并双向回链，20/20 kdo pre-submit PASS，提审欧阳锋终审。
+
+**验证**：`kdo pre-submit -f <15卡+5回链卡>` → Passed 20 / Failed 0 / ✅ Result: PASS（YAML/WIKILINK/DOMAIN/DK_SECTION/OUTLINK/ALIASES/POSITION 0 errors；SOURCE_REACHABILITY 16 warnings 为 #L 格式检查器局限，诊断性不阻塞）。`kdo index` → Indexed 4086 document(s)。
+
+**未做项**：① SOURCE_REACHABILITY #L 格式 warning 保留（补充诊断 §4.2 强制格式，检查器不识别，建议黄药师优化）；② 5 张回链旧卡存量问题未动（tags 缺维度/domain unknown/source_refs null，属 #207/#426 范围）；③ 可选 agent-spec 定价决策教练未做（任务单明确终审后另评）；④ 不碰 #426（tags 挂起）。
+
+**需要谁动作**：欧阳锋终审 15 张卡 + 回链正确性；王语嫣知悉（#189 队列行状态 pending_review）。
