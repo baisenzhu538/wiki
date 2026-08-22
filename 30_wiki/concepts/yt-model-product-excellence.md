@@ -40,6 +40,8 @@ tags:
 - 顶级产品追求的方向
 type: concept
 status: draft
+related:
+  - '[[yt-model-aesthetic-progression]]'
 ---
 # 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 

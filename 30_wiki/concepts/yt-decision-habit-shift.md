@@ -29,6 +29,10 @@ related:
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-decision-ai-partner]]'
 - '[[yt-management-team-knowledge]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[yt-decision-full-process]]'
+- '[[yt-decision-height-toolkit]]'
+- '[[yt-decision-review]]'
 aliases:
   - X型→Y型决策者习惯诊断与转换
   - 型决策者习惯诊断与转换

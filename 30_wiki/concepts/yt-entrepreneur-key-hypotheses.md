@@ -31,6 +31,14 @@ related:
 - '[[yt-model-cognitive-upgrade-framework]]'
 - '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
 - '[[yitang-strategy-canvas]]'
+- '[[yt-concept-p-type-l-type]]'
+- '[[yt-decision-ai-partner]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-entrepreneur-growth-flywheel]]'
+- '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-entrepreneur-liberate-thinking]]'
+- '[[yt-entrepreneur-needs-analysis]]'
+- '[[yt-entrepreneur-research-cognition]]'
 review_date: 2026-06-06
 aliases:
   - 关键假设259工具与假设验证三板斧

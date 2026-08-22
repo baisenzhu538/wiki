@@ -31,6 +31,8 @@ related:
 - '[[tool-马易-平台模式验证法]]'
 - '[[tool-现场建模式萃取笔记]]'
 - '[[互联网医院模式深度调研报告]]'
+- '[[yt-growth-activation-rate]]'
+- '[[yt-growth-growth-hacking]]'
 diagnostic_signals:
 - framework_lens: 市场驱动增长——品牌知名度需要市场活动建立
   follow_up_question: 你的市场活动有哪些？品牌定位是什么？目标受众是谁？

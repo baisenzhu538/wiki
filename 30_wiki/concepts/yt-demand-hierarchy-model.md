@@ -34,6 +34,7 @@ related:
 - '[[yt-five-step-method]]'
 - '[[yt-demand-ai-knowledge-base-case]]'
 - '[[yt-demand-treadmill-case]]'
+- '[[yt-demand-user-segmentation]]'
 diagnostic_signals:
 - framework_lens: 需求层次模型——停留在假设层，未验证真需求
   follow_up_question: 你能描述一个具体用户，在什么具体场景下，会为了解决什么问题而付费吗？

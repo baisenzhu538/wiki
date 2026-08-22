@@ -55,6 +55,8 @@ related:
 - '[[yt-foresight-business-spectrum]]'
 - '[[framework-一堂-机会预判]]'
 - '[[concept-一堂-终局光谱图解读]]'
+- '[[yt-foresight-probability-engineering]]'
+- '[[yt-foresight-ten-fatal-flaws]]'
 tags:
 - audience:general
 - scene:reference

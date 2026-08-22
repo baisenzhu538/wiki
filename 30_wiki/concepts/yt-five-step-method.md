@@ -40,6 +40,15 @@ related:
 - '[[case-zhihu-vs-degetao-network-effect]]'
 - '[[concept-five-step-growth-to-barrier-transition]]'
 - '[[yt-barrier-identification-skill]]'
+- '[[yt-business-analysis-cognitive-biases]]'
+- '[[yt-customer-acquisition-toolkit]]'
+- '[[yt-demand-b2b-vs-b2c]]'
+- '[[yt-demand-hierarchy-model]]'
+- '[[yt-demand-user-segmentation]]'
+- '[[yt-five-step-common-pitfalls]]'
+- '[[yt-five-step-implementation]]'
+- '[[yt-five-step-level-blindspots]]'
+- '[[yt-market-size-estimation]]'
 review_date: 2026-06-10
 reviewed_by: 洪七公
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

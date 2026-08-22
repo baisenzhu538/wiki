@@ -111,6 +111,12 @@ related:
 - '[[case-toc-ecommerce-formula-misjudgment]]'
 - '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[yt-business-formula-l6-essence-formulas]]'
+- '[[yt-business-model-asset-light]]'
+- '[[yt-business-model-b2b-pricing]]'
+- '[[yt-business-model-margin-structure]]'
+- '[[yt-business-model-pricing-psychology]]'
+- '[[yt-business-model-revenue-types]]'
 tags:
 - audience:general
 - scene:reference

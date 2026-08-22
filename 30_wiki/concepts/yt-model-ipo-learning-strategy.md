@@ -27,6 +27,8 @@ related:
 - '[[yt-personal-checklist-notes]]'
 - '[[yt-personal-knowledge-management]]'
 - '[[learning-thinking]]'
+- '[[yt-concept-ai-guard-brain]]'
+- '[[yt-model-cognitive-upgrade-framework]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:

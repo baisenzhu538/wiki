@@ -61,6 +61,8 @@ related:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[concept-一堂-key-assumptions]]'
 - '[[concept-一堂-终局光谱图解读]]'
+- '[[yt-foresight-probability-engineering]]'
+- '[[yt-foresight-ten-fatal-flaws]]'
 tags:
 - audience:general
 - scene:reference

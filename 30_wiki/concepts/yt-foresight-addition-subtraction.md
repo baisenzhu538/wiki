@@ -53,6 +53,8 @@ related:
 - '[[case-gudong-tea-shop-foresight]]'
 - '[[framework-一堂-机会预判]]'
 - '[[concept-一堂-终局光谱图解读]]'
+- '[[yt-foresight-ab-steady-state]]'
+- '[[yt-foresight-ten-fatal-flaws]]'
 tags:
 - audience:executor
 - scene:reference

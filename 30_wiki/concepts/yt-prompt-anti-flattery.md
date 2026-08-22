@@ -60,6 +60,7 @@ related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yitang-domain-digest]]'
 - '[[pending_unknown]]'
+- '[[yt-decision-ai-partner]]'
 tags:
 - audience:executor
 - scene:execution

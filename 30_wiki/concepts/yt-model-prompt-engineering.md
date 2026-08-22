@@ -29,6 +29,7 @@ related:
 - '[[yt-prompt-brainstorming]]'
 - '[[yt-prompt-writing-workflow]]'
 - '[[yt-concept-ai-guard-brain]]'
+- '[[yt-concept-context-engineering]]'
 query_triggers:
 - src_unknown
 - src_unknown

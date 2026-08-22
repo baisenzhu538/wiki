@@ -36,6 +36,8 @@ tags:
 - 一堂产品内核十大典型指标
 type: concept
 status: draft
+related:
+  - '[[yt-model-conversion-optimization]]'
 ---
 # 产品内核十大典型指标：从获客到推荐的度量框架
 

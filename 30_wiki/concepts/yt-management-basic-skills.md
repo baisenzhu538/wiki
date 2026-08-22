@@ -45,6 +45,10 @@ related:
 - '[[framework-一堂-基本功-四字诀拆建推练]]'
 - '[[management-domain-digest]]'
 - '[[concept-一堂-基本功定义]]'
+- '[[yt-management-leadership-levels]]'
+- '[[yt-management-project-management]]'
+- '[[yt-management-scientific-meetings]]'
+- '[[yt-management-strategy-meeting]]'
 tags:
 - audience:general
 - scene:reference

@@ -34,6 +34,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
+- '[[yt-decision-habit-shift]]'
+- '[[yt-management-project-management]]'
 tags:
 - audience:general
 - scene:reference

@@ -29,6 +29,8 @@ related:
 - '[[yt-demand-ai-knowledge-base-case]]'
 - '[[yt-demand-treadmill-case]]'
 - '[[yt-demand-b2b-vs-b2c]]'
+- '[[yt-demand-hierarchy-model]]'
+- '[[yt-demand-user-segmentation]]'
 diagnostic_signals:
 - framework_lens: 定性分析缺失——跳过拆推评，直接算
   follow_up_question: 你的市场规模数字背后，具体是哪些用户在什么场景下付费？先定性，再定量。

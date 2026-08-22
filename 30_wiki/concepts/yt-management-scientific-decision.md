@@ -31,6 +31,8 @@ related:
 - '[[yt-system-course-catalog]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[yt-decision-review]]'
 tags:
 - audience:general
 - scene:reference

@@ -31,6 +31,7 @@ related:
 - '[[yt-decision-canvas]]'
 - '[[yt-decision-habit-shift]]'
 - '[[yt-management-scientific-decision]]'
+- '[[yt-decision-full-process]]'
 aliases:
   - L4深度复盘法
   - 假设验证闭环

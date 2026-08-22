@@ -41,6 +41,8 @@ related:
 - '[[yt-unit-model-concept]]'
 - '[[yt-growth-cycle-model]]'
 - '[[yt-barrier-analysis-cheat-sheet]]'
+- '[[yt-business-analysis-cognitive-biases]]'
+- '[[yt-five-step-level-blindspots]]'
 title: 暗知识：五步法常见误区与认知陷阱
 trust_level: medium
 type: dk

@@ -30,6 +30,7 @@ related:
 - '[[开源HIS系统代码深度分析报告]]'
 - '[[HIS系统深度调研]]'
 - '[[鑫港湾HIS项目]]'
+- '[[yt-decision-width-method]]'
 tags:
 - audience:executor
 - scene:reference

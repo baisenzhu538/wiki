@@ -65,6 +65,7 @@ related:
   - "[[case-truman-shower-toilet-ideation]]"
   - "[[case-truman-praise-wall-precondition]]"
   - "[[case-yitang-curtain-listening]]"
+  - '[[yt-management-project-management]]'
 tags:
 - #yitang
 - #time-management

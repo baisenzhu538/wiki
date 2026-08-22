@@ -93,6 +93,15 @@ related:
 - '[[concept-利润-真正利润定义]]'
 - '[[concept-利润-风险报偿本质]]'
 - '[[concept-发现决策]]'
+- '[[yt-decision-ai-partner]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[yt-decision-full-process]]'
+- '[[yt-decision-habit-shift]]'
+- '[[yt-decision-review]]'
+- '[[yt-entrepreneur-scientific-method]]'
+- '[[yt-entrepreneur-truth-seeking]]'
+- '[[yt-management-project-management]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

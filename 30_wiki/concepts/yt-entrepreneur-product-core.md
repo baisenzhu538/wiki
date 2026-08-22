@@ -39,6 +39,8 @@ tags:
 - skill-level:intermediate
 type: concept
 status: draft
+related:
+  - '[[yt-entrepreneur-key-hypotheses]]'
 ---
 # 产品内核定义、迭代与验证方法论
 

@@ -31,6 +31,7 @@ related:
 - '[[case-thousand-people-square]]'
 - '[[concept-ai-native-organization-five-steps]]'
 - '[[concept-thousand-people-square]]'
+- '[[yt-model-agent-architecture]]'
 quality_labels:
 - cited
 - principle

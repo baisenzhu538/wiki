@@ -1,6 +1,6 @@
 ---
 id: index
-title: index.md
+title: Backlinks Index
 type: index
 status: stable
 ---
@@ -105,6 +105,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-decision-y-model]]
 - [[frameworks/framework-TCPR底层网络协议]]
 - [[frameworks/framework-TCPR皇冠模型]]
+- [[frameworks/yt-composite-pan-product-methodology]]
 - [[projects/互联网医院项目]]
 - [[systems/system-yitang-Y-model-os]]
 - [[tools/agent-spec-codex-teammate]]
@@ -118,6 +119,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-252-quality-gate-pilot]]
 - [[dark-knowledges/dk-agent-access-kdo-pitfalls]]
 - [[frameworks/framework-r-type-research-partner-five-state]]
+- [[frameworks/framework-truman-feature-layered-system]]
+- [[frameworks/framework-truman-feature-thinking-core]]
 - [[workflows/workflow-kdo-agent-production-pipeline]]
 
 ## [[agent-spec-codex-teammate]]
@@ -164,8 +167,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[agent-spec-project-management-assistant]]
 - [[concepts/yt-management-project-management]]
 - [[domains/management-domain-digest]]
+- [[frameworks/framework-yitang-project-execution]]
+- [[frameworks/framework-yitang-project-retrospective]]
 
 ## [[agent-spec-research-explosion-partner]]
+- [[frameworks/framework-yitang-four-research-types]]
+- [[frameworks/framework-yitang-oscar-research]]
+- [[frameworks/framework-yitang-research-radar]]
+- [[frameworks/framework-yitang-research-weapon-system]]
 - [[tools/tool-wechat-transcript-automation-workflow]]
 
 ## [[agent-spec-yitang-Y-model-cross-domain-coach]]
@@ -200,6 +209,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[workflows/workflow-kdo-agent-production-pipeline]]
 
 ## [[agent-spec-复盘教练]]
+- [[frameworks/framework-一堂-四象限复盘法]]
+- [[frameworks/framework-一堂-团队复盘四阶段12策略]]
+- [[frameworks/framework-一堂-复盘本质与三要素]]
 - [[workflows/workflow-kdo-agent-production-pipeline]]
 
 ## [[agent-一堂-业务公式教练]]
@@ -378,6 +390,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
 - [[dark-knowledges/dk-p10-oral-ban]]
 - [[entities/紫鲸AI]]
+- [[frameworks/ai-methodology-tools]]
 
 ## [[ai-native-五层进阶从答案到效率到作品到产品到系统]]
 - [[concepts/ai数据理解第一课]]
@@ -402,7 +415,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/ai-short-drama-script-planning-three-axes]]
 
 ## [[ai-short-drama-ice-fire-dissection-compass]]
-- [[cases/case-compas-racial-bias]]
 - [[concepts/ai-short-drama-ice-fire-scripting-compass]]
 - [[dark-knowledges/dk-p11-regex-cutoff]]
 - [[tools/ai-short-drama-framework-three-axes]]
@@ -410,7 +422,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/ai-short-drama-script-planning-three-axes]]
 
 ## [[ai-short-drama-ice-fire-scripting-compass]]
-- [[cases/case-compas-racial-bias]]
 - [[concepts/ai-short-drama-platform-policy-comparison]]
 - [[frameworks/ai-short-drama-ice-fire-dissection-compass]]
 - [[tools/ai-short-drama-conflict-three-axes]]
@@ -499,6 +510,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/concept-最简单元模型]]
 - [[dk/dk-单元模型-对抗小抄]]
 - [[frameworks/yt-tob-unit-model]]
+- [[frameworks/yt-unit-model-ladder]]
 - [[tools/tool-单元模型-单商圈]]
 - [[tools/tool-单元模型-单城市]]
 - [[tools/tool-单元模型-壁垒预判]]
@@ -524,15 +536,29 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[beverage-foodservice-channel]]
 - [[entities/鑫港湾]]
 
+## [[bridge-christensen-reverse-mapping]]
+- [[concepts/concept-christensen-rpv-model]]
+- [[frameworks/framework-christensen-value-network]]
+
+## [[bridge-coaching-leadership-feature-layered]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-leadership-coin-model]]
+- [[frameworks/framework-leadership-five-ladders]]
+- [[frameworks/framework-truman-feature-layered-system]]
+
 ## [[bridge-dual-track-feature-system]]
 - [[cases/case-252-quality-gate-pilot]]
+- [[concepts/concept-kdo-feature-registry]]
 - [[dark-knowledges/dk-feature-registry-count-drift]]
+- [[frameworks/framework-truman-feature-layered-system]]
+- [[frameworks/framework-truman-feature-thinking-core]]
 - [[tools/tool-ai-feature-inventory]]
 
 ## [[bridge-how-to-know-person-to-business]]
 - [[concepts/concept-ai-style-knowledge-docs]]
 - [[dark-knowledges/dk-one-sentence-handover]]
 - [[dark-knowledges/dk-tool-adoption-by-force]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
 - [[frameworks/framework-dual-center-feishu-obsidian]]
 - [[frameworks/framework-knowledge-compound-rocket-six]]
 - [[frameworks/framework-multi-agent-collab-chain-six]]
@@ -540,11 +566,27 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-top-level-document]]
 - [[tools/tool-wechat-transcript-automation-workflow]]
 
+## [[bridge-lightning-agent-evolution]]
+- [[concepts/concept-一堂-Agent基本功修炼]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
+
 ## [[bridge-meeting-leadership-coaching]]
 - [[cases/case-truman-meeting-leadership]]
+- [[concepts/concept-一堂-基本功-刻意练习四要素]]
+- [[concepts/yt-management-scientific-meetings]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-leadership-five-ladders]]
 - [[frameworks/framework-meeting-ten-principles]]
 
 ## [[bridge-panproduct-kids-translation]]
+- [[concepts/concept-一堂-product-kernel]]
+- [[concepts/yt-panproduct-aesthetic-collection]]
+- [[concepts/yt-panproduct-aesthetic-imagination]]
+- [[concepts/yt-panproduct-aesthetic-modeling]]
+- [[concepts/yt-panproduct-demand-scenario-walkthrough]]
+- [[concepts/yt-panproduct-demand-user-perspective]]
+- [[concepts/yt-panproduct-demand-user-segmentation]]
+- [[concepts/yt-product-kernel-add-subtract]]
 - [[dark-knowledges/dk-ai-as-last-step-not-first]]
 - [[tools/tool-panproduct-kids-card-naming]]
 - [[tools/tool-panproduct-kids-lesson-plan]]
@@ -556,6 +598,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-wudi-innovation-contest-value]]
 - [[cases/case-yitang-4-leaps-innovation-evolution]]
 - [[concepts/concept-yitang-layered-self-consistency]]
+- [[concepts/yt-decision-y-model]]
 - [[dark-knowledges/dk-yitang-innovation-failure-modes]]
 - [[domains/innovation-domain-digest]]
 - [[frameworks/framework-yitang-thought-liberation-lightning]]
@@ -565,7 +608,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-ten-layer-interpretation]]
 
 ## [[bridge-个人复盘×知识管理W-Z-K-P]]
+- [[concepts/concept-kdo-component-library]]
+- [[concepts/yt-model-deep-review-iceberg]]
+- [[concepts/yt-personal-deep-review]]
 - [[domains/retrospective-moc]]
+- [[frameworks/framework-一堂-四象限复盘法]]
+
+## [[bridge-利润-需求冰山-价值定价]]
+- [[frameworks/bridge-利润-单元模型-定价闭环]]
 
 ## [[business-analysis]]
 - [[concepts/meta-prompt-eng]]
@@ -666,6 +716,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-apple-card-gender-bias]]
 - [[concepts/concept-open-source-knowledge-usage-boundary]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 - [[systems/system-kdo-quality-labels]]
 
 ## [[business-research-skill-oscar-13-weapon-system]]
@@ -679,12 +730,20 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-4000-titles-ten-strategies]]
 - [[cases/case-ai-learning-series-modeling]]
+- [[concepts/concept-open-a-document]]
+- [[concepts/concept-research-saturation-coverage]]
+- [[concepts/concept-yitang-research-aesthetic]]
 - [[dark-knowledges/dk-extract-then-merge]]
 - [[dark-knowledges/dk-research-ranklist-replaces-model]]
 - [[dark-knowledges/dk-research-total-anchor-private-library]]
+- [[frameworks/framework-ai-sales-collaboration]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-yitang-research-weapon-system]]
 
 ## [[case-agent-self-evolution-pilot]]
 - [[cases/case-duanwangye-self-iteration-closed-loop]]
+- [[concepts/concept-kdo-agent-design-principles]]
+- [[concepts/concept-kdo-agent-four-level-awareness]]
 
 ## [[case-ai-agent-milestone-design]]
 - [[cases/case-demand-travel-agent]]
@@ -705,29 +764,41 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-cambridge-novelists-survey]]
 - [[cases/case-chen-qiufan-ai-writing]]
 - [[cases/case-dutch-childcare-scandal]]
+- [[concepts/concept-ai-amara-law-business-judgment]]
 
 ## [[case-ai-job-displacement-wef]]
 - [[cases/case-ai-companion-emotional]]
 - [[cases/case-chen-qiufan-ai-writing]]
 - [[cases/case-deepfake-market-misuse]]
 - [[cases/case-dutch-childcare-scandal]]
+- [[concepts/concept-ai-amara-law-business-judgment]]
 - [[dk/dk-ai-social-progress-not-automatic]]
 
 ## [[case-ai-learning-series-modeling]]
+- [[concepts/concept-open-a-document]]
+- [[concepts/concept-research-saturation-coverage]]
+- [[concepts/concept-yitang-research-aesthetic]]
 - [[dark-knowledges/dk-research-ranklist-replaces-model]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-yitang-research-weapon-system]]
 
 ## [[case-ai-pet-emotional-product]]
 - [[dark-knowledges/dk-emotional-value-premium]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
+- [[frameworks/framework-how-to-know-a-person]]
 
 ## [[case-ai-search-commerce-platform-hedge]]
+- [[concepts/concept-AI时代双三角竞争力]]
 - [[concepts/concept-jevons-paradox-in-ai]]
+- [[concepts/concept-token-capital]]
 - [[tools/agent-spec-codex-teammate]]
 
 ## [[case-ai-time-management-tiered-growth]]
 - [[cases/case-coffee-shop-foresight]]
 - [[cases/case-escort-service-tiered-growth]]
 - [[concepts/concept-一堂-终局光谱图解读]]
+- [[concepts/yt-ai-trend-12-signals]]
 - [[concepts/yt-foresight-business-spectrum]]
 - [[frameworks/framework-一堂-机会预判]]
 - [[tools/tool-一堂-机会预判-案例预判]]
@@ -737,11 +808,17 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-live81-ai-trademark-design]]
 - [[concepts/concept-abundance-paradox]]
 - [[concepts/concept-cognitive-offloading-in-ai-era]]
+- [[concepts/master-decision-hygiene]]
 - [[tools/tool-ai-deliverable-polish-loop]]
 - [[tools/tool-ai-use-barbell-strategy]]
 
+## [[case-aodaye-archery-reinvention]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
+
 ## [[case-apple-card-gender-bias]]
+- [[concepts/yt-personal-ai-thinking-card]]
 - [[concepts/街顺app全面调研报告]]
+- [[frameworks/business-formula-to-kdo-card-quality]]
 
 ## [[case-ban-fei-mao-conversion-hacker-skill]]
 - [[concepts/concept-半肥猫-ai-learning-toolification-methodology]]
@@ -769,12 +846,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-live81-ai-trademark-design]]
 - [[concepts/concept-abundance-paradox]]
 - [[concepts/concept-cognitive-offloading-in-ai-era]]
+- [[concepts/master-decision-hygiene]]
 - [[tools/tool-ai-deliverable-polish-loop]]
 - [[tools/tool-ai-use-barbell-strategy]]
 
 ## [[case-cambridge-novelists-survey]]
 - [[cases/case-ai-companion-emotional]]
 - [[cases/case-chen-qiufan-ai-writing]]
+- [[concepts/concept-ai-amara-law-business-judgment]]
 
 ## [[case-candy-problem-os-vpn]]
 - [[cases/case-opc-agent-wave1-real-model-testing]]
@@ -788,6 +867,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-ai-job-displacement-wef]]
 - [[cases/case-cambridge-novelists-survey]]
 - [[cases/case-dutch-childcare-scandal]]
+- [[concepts/concept-ai-amara-law-business-judgment]]
 - [[concepts/writing-content]]
 
 ## [[case-child-drawing-rhyme]]
@@ -796,10 +876,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-科学决策-深度案例06]]
 - [[dark-knowledges/dk-weekly-modeling-iteration-growth-engine]]
 
+## [[case-coaching-dialogue-three-versions]]
+- [[frameworks/framework-coaching-leadership-core]]
+
 ## [[case-coffee-shop-foresight]]
 - [[cases/case-ai-time-management-tiered-growth]]
 - [[cases/case-escort-service-tiered-growth]]
 - [[concepts/concept-一堂-终局光谱图解读]]
+- [[concepts/yt-entrepreneur-five-step-method]]
 - [[concepts/yt-foresight-business-spectrum]]
 - [[frameworks/framework-一堂-机会预判]]
 - [[tools/tool-一堂-机会预判-五步法预判]]
@@ -814,6 +898,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
 - [[cases/case-new-year-insight-relay]]
 - [[cases/case-vibecoding-one-week-delivery]]
+- [[concepts/yt-decision-y-model]]
 - [[dark-knowledges/dk-collection-vs-assets]]
 - [[dark-knowledges/dk-extract-then-merge]]
 - [[dark-knowledges/dk-model-demystification]]
@@ -827,20 +912,30 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-lemon-market-new-brand-trust]]
 - [[frameworks/framework-patrolkit-radar]]
 - [[frameworks/framework-serendipity-five-channels]]
+- [[frameworks/framework-strategy-brm]]
+- [[frameworks/yt-business-model-unit-economics]]
+- [[frameworks/yt-lean-assumption-prioritization]]
 - [[tools/tool-autoclassify-seven-steps]]
 - [[tools/tool-knowledge-cheatsheet-sab]]
 - [[tools/tool-top-level-document]]
 - [[tools/tool-wechat-transcript-automation-workflow]]
 
+## [[case-cross-yuanqi-forest]]
+- [[concepts/yt-decision-y-model]]
+- [[frameworks/framework-strategy-brm]]
+
 ## [[case-cui-lei-kids-ai-design-class]]
 - [[bridges/bridge-panproduct-kids-translation]]
 - [[cases/case-live81-ai-trademark-design]]
+- [[concepts/concept-一堂-product-kernel]]
+- [[concepts/yt-panproduct-demand-user-perspective]]
 - [[dark-knowledges/dk-ai-as-last-step-not-first]]
 - [[tools/tool-panproduct-kids-lesson-plan]]
 
 ## [[case-daxin-team-content-training-camp]]
 - [[cases/case-daxin-vikki-community-contrast]]
 - [[cases/case-yitang-yitang-shortvideo-industrialization]]
+- [[concepts/concept-open-source-knowledge-usage-boundary]]
 - [[dark-knowledges/dk-community-lecturer-vs-crowd-model]]
 - [[dark-knowledges/dk-content-implicit-value-without-price]]
 - [[dark-knowledges/dk-content-muscle-memory-vs-knowledge]]
@@ -852,18 +947,24 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-daxin-vikki-community-contrast]]
 - [[cases/case-daxin-team-content-training-camp]]
+- [[concepts/concept-open-source-knowledge-usage-boundary]]
 - [[frameworks/framework-community-knowledge-production-failure-modes]]
 
 ## [[case-decision-ai-assisted-vs-human]]
 - [[cases/case-truman-ai-skill-engineering-guide]]
 - [[cases/case-科学决策-深度案例01]]
+- [[concepts/concept-AI时代双三角竞争力]]
 - [[domains/decision-science-domain-digest]]
+- [[frameworks/framework-decision-quality-checklist]]
 
 ## [[case-decision-ai-assisted-vs-human|AI 辅助决策 vs 人工决策]]
 - [[domains/domain-demand-analysis-index]]
 
 ## [[case-decision-ai-assisted-vs-human|AI 辅助决策 vs 人工决策的边界案例]]
 - [[domains/decision-science-domain-digest]]
+
+## [[case-decision-science-universal-salary-raise-roi]]
+- [[frameworks/framework-decision-quality-checklist]]
 
 ## [[case-deepfake-market-misuse]]
 - [[cases/case-ai-job-displacement-wef]]
@@ -879,8 +980,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-demand-b2b-enterprise-erp]]
 - [[cases/case-demand-b2c-consumer-insight]]
 - [[cases/case-treadmill-demand-analysis]]
+- [[concepts/yt-demand-b2b-vs-b2c]]
 - [[dark-knowledges/dk-demand-signal-vs-noise]]
 - [[domains/domain-demand-analysis-index]]
+- [[frameworks/yt-demand-decision-chain]]
+- [[frameworks/yt-tob-demand-metrics]]
 
 ## [[case-demand-b2b-enterprise-erp|ToB 企业 ERP 需求分析案例]]
 - [[domains/domain-demand-analysis-index]]
@@ -888,6 +992,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-demand-b2c-consumer-insight]]
 - [[cases/case-demand-b2b-enterprise-erp]]
 - [[cases/case-demand-milkshake-jtbd]]
+- [[concepts/yt-demand-motivation-resistance]]
+- [[concepts/yt-demand-peak-end-rule]]
+- [[concepts/yt-demand-user-segmentation]]
 - [[dark-knowledges/dk-demand-misjudgment-rate]]
 - [[dark-knowledges/dk-demand-signal-vs-noise]]
 - [[domains/domain-demand-analysis-index]]
@@ -1000,27 +1107,34 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-opc-agent-wave1-real-model-testing]]
 - [[cases/case-科学决策-ROI案例03]]
 - [[cases/case-科学决策-深度案例06]]
+- [[concepts/yt-tool-peas-agent-analysis]]
 - [[dark-knowledges/dk-demand-pitfall-travel-agent]]
 - [[tools/tool-agent-research-supervisor]]
 - [[tools/tool-demand-agent-l4-case-match]]
 - [[tools/tool-纪浩-Agent技能市场设计法]]
 
 ## [[case-dental-clinic-formula]]
+- [[concepts/yt-business-formula-parameter-iceberg]]
 - [[concepts/yt-business-formula-ten-paradigms]]
+- [[concepts/yt-entrepreneur-unit-model]]
 - [[dark-knowledges/dk-c1-cjk-regex-silent-fail]]
 - [[dark-knowledges/dk-p5-cc-connect-config]]
 - [[dk/dk-strategy-correlation-vs-causation-leverage]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/yt-business-formula-abc-model]]
 - [[frameworks/yt-business-formula-qualitative-metrics-library]]
 - [[frameworks/yt-lean-b2b-b2c-hardware-content-testing]]
 
 ## [[case-design-principles-90]]
 - [[cases/case-opc-128-directions]]
+- [[concepts/concept-research-saturation-coverage]]
 - [[dark-knowledges/dk-research-classification-mece-table]]
 - [[dark-knowledges/dk-research-sampling-correction-three-rounds]]
 - [[dark-knowledges/dk-research-saturation-self-proof]]
 - [[frameworks/framework-ai-human-70-30-division]]
 - [[frameworks/framework-ai-report-value-ladder-l1-l6]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-r-type-research-partner-five-state]]
 
 ## [[case-doris-2014-music-streaming-prediction]]
 - [[cases/case-opc-agent-wave1-real-model-testing]]
@@ -1049,6 +1163,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-ai-job-displacement-wef]]
 - [[cases/case-chen-qiufan-ai-writing]]
 - [[cases/case-lean-genki-forest-toolkit]]
+- [[concepts/concept-ai-amara-law-business-judgment]]
+
+## [[case-english-teacher-ai-agent]]
+- [[concepts/concept-qinpeng-knowledge-base-conversion]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
 
 ## [[case-escort-service-tiered-growth]]
 - [[cases/case-ai-time-management-tiered-growth]]
@@ -1080,6 +1199,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-科学决策-深度案例02]]
 - [[cases/case-科学决策-深度案例06]]
 
+## [[case-feishu-disruptive-innovation]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
+- [[frameworks/framework-christensen-value-network]]
+- [[frameworks/framework-yitang-oscar-research]]
+
 ## [[case-feishu-live259-l3-extraction]]
 - [[cases/case-feishu-minutes-extraction-attempt]]
 - [[dark-knowledges/dk-mcp-pythonpath-pollution]]
@@ -1101,6 +1225,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/xingangwan-pharma-business-model-formulas]]
 - [[tools/tool-纪浩-Do-first-PDCA渐进迭代法]]
 
+## [[case-friend-circle-aigc-transformation]]
+- [[frameworks/framework-fact-rule-insight]]
+- [[frameworks/framework-serendipity-five-channels]]
+- [[frameworks/framework-yitang-oscar-research]]
+- [[frameworks/framework-一堂-机会预判]]
+
 ## [[case-guang-leng-dian-zi-hx-smj]]
 - [[cases/case-科学决策-ROI案例03]]
 - [[cases/case-科学决策-深度案例06]]
@@ -1119,14 +1249,19 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-yewenbin-archery-business-formula]]
 - [[dk/dk-strategy-correlation-vs-causation-leverage]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/yt-business-formula-abc-model]]
 - [[frameworks/yt-business-formula-qualitative-metrics-library]]
 
 ## [[case-hr-saas-feature-usage-trap]]
 - [[cases/case-saas-renewal-formula]]
 - [[cases/case-truman-ai-skill-self-packaging]]
 - [[cases/case-yitang-xujian-invoice-saas-channel]]
+- [[frameworks/private-domain-saas-sales-funnel]]
 
 ## [[case-investment-claim-fact-check]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-fact-rule-insight]]
+- [[frameworks/framework-yitang-oscar-research]]
 - [[tools/tool-anti-ai-bs-three-moves]]
 
 ## [[case-jh-yitang-vs-sqlhelper]]
@@ -1188,6 +1323,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-leadership-communication-failures]]
 - [[cases/case-coaching-dialogue-three-versions]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-how-to-know-a-person]]
 
 ## [[case-lean-2b-gray-test]]
 - [[cases/case-lean-building-in-vacuum]]
@@ -1265,6 +1402,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-leo-lubricant-dealer-research]]
 - [[cases/case-4000-titles-ten-strategies]]
+- [[frameworks/framework-ai-sales-collaboration]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-r-type-research-partner-five-state]]
+- [[frameworks/framework-yitang-oscar-research]]
+- [[frameworks/framework-yitang-research-weapon-system]]
 
 ## [[case-liutao-douyin-team-leader-9m]]
 - [[cases/case-opc-agent-wave1-real-model-testing]]
@@ -1276,6 +1418,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-live258-europe-cold-email]]
 - [[dark-knowledges/dk-demand-feature-stacking]]
 - [[domains/ai-basic-domain-digest]]
+- [[frameworks/framework-truman-feature-layered-system]]
 
 ## [[case-live258-fact-spread-18-bridges]]
 - [[cases/case-live258-fact-spread-18-bridges]]
@@ -1285,6 +1428,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-demand-feature-stacking]]
 - [[dark-knowledges/dk-feature-pieces-not-recognized-as-cards]]
 - [[domains/ai-basic-domain-digest]]
+- [[frameworks/framework-truman-feature-layered-system]]
 
 ## [[case-live258-livestream-prompt-v1-v5]]
 - [[cases/case-live258-europe-cold-email]]
@@ -1293,6 +1437,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-live258-zhihu-content-acquisition]]
 - [[dark-knowledges/dk-demand-feature-stacking]]
 - [[domains/ai-basic-domain-digest]]
+- [[frameworks/framework-truman-feature-layered-system]]
 
 ## [[case-live258-zhihu-content-acquisition]]
 - [[cases/case-feishu-live259-l3-extraction]]
@@ -1303,6 +1448,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-demand-feature-stacking]]
 - [[dark-knowledges/dk-feature-pieces-not-recognized-as-cards]]
 - [[domains/ai-basic-domain-digest]]
+- [[frameworks/framework-truman-feature-layered-system]]
 
 ## [[case-live81-ai-trademark-design]]
 - [[cases/case-ai-writing-homogenization]]
@@ -1337,6 +1483,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-management-scientific-meetings]]
 - [[dk/dk-meeting-principle-over-process]]
 - [[dk/dk-meeting-roi-first]]
+- [[frameworks/framework-leadership-five-ladders]]
 - [[frameworks/framework-meeting-iceberg-canvas]]
 - [[frameworks/framework-meeting-ten-principles]]
 - [[frameworks/framework-yitang-project-retrospective]]
@@ -1344,6 +1491,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-meeting-scene-mastery]]
 - [[concepts/yt-management-scientific-meetings]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-meeting-ten-principles]]
+- [[frameworks/framework-yitang-project-retrospective]]
 
 ## [[case-milktea-five-step]]
 - [[cases/case-treadmill-demand-analysis]]
@@ -1408,12 +1558,18 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-morfei-semiconductor]]
 - [[dark-knowledges/dk-coaching-monkey-theory]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-how-to-know-a-person]]
+- [[frameworks/framework-leadership-five-ladders]]
 
 ## [[case-new-year-insight-relay]]
 - [[cases/case-vibecoding-one-week-delivery]]
 - [[dark-knowledges/dk-context-patching-recipe]]
 - [[dark-knowledges/dk-one-sentence-handover]]
 - [[dark-knowledges/dk-tool-adoption-by-force]]
+- [[frameworks/framework-dual-center-feishu-obsidian]]
+- [[frameworks/framework-knowledge-five-leaps]]
+- [[frameworks/framework-multi-agent-collab-chain-six]]
 
 ## [[case-neworiental-prospectus-marketing]]
 - [[cases/case-opc-agent-wave1-real-model-testing]]
@@ -1427,6 +1583,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-toc-ecommerce-formula-misjudgment]]
 - [[dk/dk-strategy-correlation-vs-causation-leverage]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/yt-business-formula-abc-model]]
 - [[frameworks/yt-business-formula-qualitative-metrics-library]]
 
 ## [[case-opc-128-directions]]
@@ -1435,6 +1592,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-research-classification-mece-table]]
 - [[dark-knowledges/dk-research-saturation-self-proof]]
 - [[frameworks/framework-ai-report-value-ladder-l1-l6]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-r-type-research-partner-five-state]]
 
 ## [[case-opc-agent-wave1-real-model-testing]]
 - [[domains/lean-startup-domain-digest]]
@@ -1446,6 +1605,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-panproduct-lanyi-dahanghui-team]]
 - [[cases/case-panproduct-lanyi-intern-flywheel]]
 - [[cases/case-panproduct-lanyi-shidonghui-npc]]
+- [[frameworks/yt-composite-pan-product-methodology]]
 
 ## [[case-panproduct-lanyi-intern-flywheel]]
 - [[cases/case-panproduct-lanyi-dahanghui-team]]
@@ -1458,6 +1618,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-topcity-growth-flywheel]]
 - [[dark-knowledges/dk-panproduct-org-linear-to-circular]]
 - [[dark-knowledges/dk-panproduct-org-serve-the-lowest]]
+- [[frameworks/yt-composite-pan-product-methodology]]
 - [[tools/tool-panproduct-org-five-step]]
 
 ## [[case-panproduct-top135-selection-polish]]
@@ -1481,11 +1642,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-business-formula-ten-paradigms]]
 - [[dk/dk-strategy-correlation-vs-causation-leverage]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/yt-business-formula-abc-model]]
 - [[frameworks/yt-business-formula-qualitative-metrics-library]]
 - [[tools/tool-funnel-formula-modeling]]
 
 ## [[case-proya-betaine-skincare-benchmark]]
 - [[cases/case-opc-agent-wave1-real-model-testing]]
+
+## [[case-qinpeng-hardware-ai-amplification]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
 
 ## [[case-qinpeng-iot-module-tiering]]
 - [[cases/case-yitang-chuanhe-seasoning-kernel]]
@@ -1499,6 +1664,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-business-formula-ten-paradigms]]
 - [[dk/dk-strategy-correlation-vs-causation-leverage]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/yt-business-formula-abc-model]]
 - [[frameworks/yt-business-formula-qualitative-metrics-library]]
 - [[frameworks/yt-lean-b2b-b2c-hardware-content-testing]]
 
@@ -1509,6 +1675,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-shuishui-business-insight]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
+- [[frameworks/framework-how-to-know-a-person]]
 
 ## [[case-smart-medicine-cabinet-business-model-validation]]
 - [[cases/case-smart-medicine-cabinet-corporate-risk]]
@@ -1518,6 +1686,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-smart-medicine-cabinet-corporate-risk]]
 - [[cases/case-smart-medicine-cabinet-business-model-validation]]
 - [[cases/case-smart-medicine-cabinet-failure-patterns-library]]
+- [[frameworks/yt-tob-customer-tiering]]
 
 ## [[case-smart-medicine-cabinet-failure-patterns-library]]
 - [[cases/case-course-milestone-model]]
@@ -1552,6 +1721,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-strategy-pareto]]
 - [[tools/tool-strategy-sentence-formula]]
 - [[tools/tool-strategy-three-horizons]]
+
+## [[case-strategy-exit-remove]]
+- [[frameworks/framework-strategy-brm]]
 
 ## [[case-strategy-failure-01-cosmetics]]
 - [[cases/case-strategy-failure-04-appliance]]
@@ -1733,12 +1905,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-shipinhao-ads-l1-l6]]
 - [[concepts/yt-business-formula-ten-paradigms]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/yt-business-formula-abc-model]]
 
 ## [[case-toc-online-education-trust-metrics]]
 - [[cases/case-private-domain-ecommerce-formula]]
 - [[concepts/yt-business-formula-parameter-iceberg]]
 - [[concepts/yt-business-formula-six-level-logic]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[frameworks/yt-business-formula-abc-model]]
 
 ## [[case-toy-cabinet-barrier]]
@@ -1769,6 +1943,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-truman-ai-image-workflow-evolution]]
 - [[dark-knowledges/dk-agent-parallel-design-system]]
+- [[frameworks/framework-truman-feature-layered-system]]
+- [[frameworks/framework-truman-feature-thinking-core]]
 - [[tools/tool-月白-MOC]]
 
 ## [[case-truman-ai-native-research-flow]]
@@ -1818,12 +1994,18 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-纪浩-Agent技能市场设计法]]
 - [[tools/tool-纪浩-日志驱动排查法]]
 
+## [[case-truman-investment-daily-report]]
+- [[frameworks/framework-truman-feature-layered-system]]
+- [[frameworks/framework-truman-feature-thinking-core]]
+
 ## [[case-truman-livestream-sop-iteration]]
 - [[cases/case-livestream-sop-modeling]]
 - [[cases/case-modeling-process-sop-evolution]]
 - [[cases/case-modeling-process-sop-examples]]
 - [[cases/case-zhangyang-anchor-sop-three-locks]]
 - [[dark-knowledges/dk-modeling-sop-execution-locks]]
+- [[frameworks/modeling-three-stages]]
+- [[frameworks/yt-decision-y-model-philosophical-roots]]
 - [[tools/tool-iterative-recursive-deep-dig]]
 - [[tools/tool-sop-template-modeling]]
 
@@ -1833,6 +2015,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dk/dk-meeting-borrow-false-repair-true]]
 - [[dk/dk-meeting-pressure-ignition]]
 - [[dk/dk-meeting-rederive]]
+- [[frameworks/framework-leadership-five-ladders]]
+- [[frameworks/framework-meeting-ten-principles]]
 - [[tools/tool-yitang-project-kickoff-meeting]]
 
 ## [[case-truman-motivation-map-12-versions]]
@@ -1874,6 +2058,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-truman-praise-wall-precondition]]
 - [[concepts/yt-personal-time-management]]
 
+## [[case-truman-temperature-parameter]]
+- [[frameworks/framework-truman-feature-layered-system]]
+- [[frameworks/framework-truman-feature-thinking-core]]
+
 ## [[case-truman-time-management-commute-experiment]]
 - [[cases/case-yitang-copywriting-time-decomposition]]
 - [[dk/dk-time-management-common-mistakes]]
@@ -1892,6 +2080,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-vibecoding-one-week-delivery]]
 - [[cases/case-new-year-insight-relay]]
 - [[dark-knowledges/dk-context-patching-recipe]]
+- [[frameworks/framework-dual-center-feishu-obsidian]]
+- [[frameworks/framework-knowledge-five-leaps]]
+- [[frameworks/framework-multi-agent-collab-chain-six]]
 
 ## [[case-wangfei-newyear-event-diagnosis]]
 - [[dark-knowledges/dk-sponsor-three-tier-pricing]]
@@ -1929,6 +2120,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-wanghuan-shenyang-software-3x-efficiency]]
 - [[frameworks/framework-wanghuan-five-criteria-first-product]]
 
+## [[case-wechat-article_4dd7be7cd82f7e80]]
+- [[frameworks/framework-truman-agent-team-architecture]]
+
+## [[case-wenxiaobao-campus-bilateral-network]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
+
+## [[case-wudi-innovation-contest-value]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
+
 ## [[case-xian-franchise-location-decision]]
 - [[cases/case-opc-agent-wave1-real-model-testing]]
 - [[concepts/HIS系统开发实现方案-架构师指南]]
@@ -1958,6 +2158,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yihang-dual-triangle-hotel-tag-sandbox]]
 - [[cases/case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]
 - [[concepts/concept-yihang-dual-triangle-core]]
+- [[frameworks/framework-yitang-y-model-dual-triangle-synergy]]
 - [[methods/method-dual-triangle-flywheel-engine]]
 - [[methods/method-dual-triangle-human-ai-division]]
 - [[tools/tool-yihang-dual-triangle-canvas]]
@@ -1972,6 +2173,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yihang-dual-triangle-huazao-synthetic-data]]
 - [[cases/case-yihang-dual-triangle-tianmo-design-delivery]]
 - [[cases/case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]
+- [[frameworks/framework-yitang-y-model-dual-triangle-synergy]]
 - [[tools/agent-spec-dual-triangle-canvas-filler]]
 
 ## [[case-yihang-dual-triangle-chentian-knowledge-agent]]
@@ -1982,6 +2184,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yihang-dual-triangle-hotel-tag-sandbox]]
 - [[cases/case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]
 - [[concepts/concept-yihang-dual-triangle-core]]
+- [[frameworks/framework-yitang-y-model-dual-triangle-synergy]]
 - [[methods/method-dual-triangle-flywheel-engine]]
 - [[methods/method-dual-triangle-human-ai-division]]
 - [[tools/tool-yihang-dual-triangle-canvas]]
@@ -2010,6 +2213,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yihang-dual-triangle-hotel-tag-sandbox]]
 - [[cases/case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]
 - [[concepts/concept-yihang-dual-triangle-core]]
+- [[frameworks/framework-yitang-y-model-dual-triangle-synergy]]
 - [[methods/method-dual-triangle-flywheel-engine]]
 - [[methods/method-dual-triangle-human-ai-division]]
 - [[tools/tool-yihang-dual-triangle-canvas]]
@@ -2029,6 +2233,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yihang-dual-triangle-truman-feishu-to-slide-ppt-evolution]]
 - [[concepts/concept-yihang-dual-triangle-core]]
 - [[domains/design-moc]]
+- [[frameworks/framework-yitang-y-model-dual-triangle-synergy]]
 - [[methods/method-dual-triangle-flywheel-engine]]
 - [[methods/method-dual-triangle-human-ai-division]]
 - [[tools/agent-spec-dual-triangle-canvas-filler]]
@@ -2071,6 +2276,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-yitang-2022-annual-lessons]]
 - [[cases/case-meeting-roi-awakening]]
+- [[frameworks/framework-yitang-project-execution]]
+- [[frameworks/framework-yitang-project-plan-design]]
+- [[frameworks/framework-yitang-project-retrospective]]
+
+## [[case-yitang-4-leaps-innovation-evolution]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[case-yitang-Y-model-advertising-turnaround]]
 - [[cases/case-yitang-Y-model-seven-applications]]
@@ -2089,6 +2300,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-yitang-ai-painting-commercialization]]
 - [[cases/case-yitang-poker-parameterized-practice]]
 - [[cases/case-yitang-sales-routine-deconstruction]]
+- [[frameworks/framework-ai-deliberate-practice-loop]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
+- [[frameworks/modeling-personal-practice-loop]]
 - [[tools/tool-yitang-best-practice-as-golden-finger]]
 
 ## [[case-yitang-ai-time-management-coach]]
@@ -2109,6 +2323,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-business-formula-six-level-logic]]
 - [[dark-knowledges/dk-yitang-business-formula-plus-times-trap]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[frameworks/yt-business-formula-abc-model]]
 
 ## [[case-yitang-chuanhe-seasoning-kernel]]
@@ -2151,6 +2366,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-yitang-business-formula-logic-l5-l6]]
 - [[dark-knowledges/dk-yitang-business-formula-pseudo-causality-two-masks]]
 - [[domains/conversion-rate-domain-digest]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
+- [[frameworks/framework-一堂-关键假设-ABCD模型]]
+- [[frameworks/yt-business-formula-abc-model]]
 - [[tools/tool-yitang-business-formula-l5-mining-and-verification]]
 - [[tools/tool-动力阻力分析]]
 
@@ -2200,6 +2418,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-business-formula-parameter-iceberg]]
 - [[concepts/yt-business-formula-six-level-logic]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[frameworks/yt-business-formula-abc-model]]
 
 ## [[case-yitang-fupanying-five-years-1000-hypotheses]]
@@ -2269,6 +2488,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-动力阻力分析]]
 - [[tools/yt-tool-business-formula-parameter-arsenal]]
 
+## [[case-yitang-jiangxiang-scene-montage]]
+- [[frameworks/framework-yitang-jiangxiang-strategy-selection]]
+
 ## [[case-yitang-jtbd-story-formula]]
 - [[cases/case-opc-agent-wave1-real-model-testing]]
 - [[dk/dk-yitang-behavior-over-asking]]
@@ -2291,6 +2513,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-yitang-leadership-culture]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-how-to-know-a-person]]
+- [[frameworks/framework-leadership-coin-model]]
+- [[frameworks/framework-leadership-five-ladders]]
+
+## [[case-yitang-leo-website-redesign]]
+- [[frameworks/framework-yitang-project-execution]]
+- [[frameworks/framework-yitang-project-plan-design]]
+- [[frameworks/framework-yitang-project-retrospective]]
 
 ## [[case-yitang-lianjia-site-selection-industrialization]]
 - [[cases/case-yitang-redburger-selection-industrialization]]
@@ -2329,6 +2560,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-solid-redbull-channel]]
 - [[cases/case-yitang-xujian-invoice-saas-channel]]
 - [[cases/case-yitang-yitu-lead-industrialization]]
+- [[frameworks/yt-unit-model-overview]]
 - [[tools/tool-yitang-channel-scoring-matrix]]
 
 ## [[case-yitang-mao-scientific-culture]]
@@ -2368,6 +2600,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-business-formula-parameter-iceberg]]
 - [[concepts/yt-business-formula-six-level-logic]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[frameworks/yt-business-formula-abc-model]]
 
 ## [[case-yitang-model-asset-inventory]]
@@ -2417,6 +2650,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-yitang-poker-parameterized-practice]]
 - [[cases/case-yitang-ai-painting-commercialization]]
 - [[cases/case-yitang-sales-routine-deconstruction]]
+- [[frameworks/framework-ai-deliberate-practice-loop]]
 - [[tools/tool-yitang-practice-20hour-starter]]
 
 ## [[case-yitang-radar-chart-selection]]
@@ -2438,11 +2672,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-yitang-sales-routine-deconstruction]]
 - [[cases/case-yitang-ai-painting-commercialization]]
 - [[cases/case-yitang-poker-parameterized-practice]]
+- [[frameworks/framework-ai-deliberate-practice-loop]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
+- [[frameworks/framework-yitang-three-ring-ability-focus]]
 
 ## [[case-yitang-sales-transformation-jubensha-saas]]
 - [[cases/case-yitang-sales-transformation-tuliaogongsi]]
 - [[cases/case-一堂-阻力篇案例库]]
 - [[dark-knowledges/dk-yitang-sales-common-pitfalls]]
+- [[frameworks/framework-yitang-sales-incentive-6d]]
 - [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[personal-os/opc-ai-sales-agent-architecture]]
 - [[tools/tool-opc-sales-dialogue-assistant]]
@@ -2540,6 +2778,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-business-formula-parameter-iceberg]]
 - [[concepts/yt-business-formula-six-level-logic]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[frameworks/yt-business-formula-abc-model]]
 
 ## [[case-yitang-supplier-security-guard]]
@@ -2560,12 +2799,18 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-yitang-tob-artificial-bone]]
 - [[frameworks/yt-tob-barriers]]
+- [[frameworks/yt-tob-growth-channel]]
+- [[frameworks/yt-tob-unit-model]]
+
+## [[case-yitang-tob-career-planning]]
+- [[frameworks/yt-tob-product-kernel]]
 
 ## [[case-yitang-tob-devboard-price-coupling]]
 - [[concepts/yt-business-formula-parameter-iceberg]]
 - [[concepts/yt-business-formula-six-level-logic]]
 - [[dark-knowledges/dk-yitang-business-formula-plus-times-trap]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[frameworks/yt-business-formula-abc-model]]
 
 ## [[case-yitang-tob-grinding-machine]]
@@ -2625,6 +2870,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-business-formula-parameter-iceberg]]
 - [[concepts/yt-business-formula-six-level-logic]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[frameworks/yt-business-formula-abc-model]]
 
 ## [[case-yitang-weekly-modeling-engine]]
@@ -2649,6 +2895,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-business-formula-six-level-logic]]
 - [[dark-knowledges/dk-yitang-business-formula-a-missing-syndrome]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[frameworks/yt-business-formula-abc-model]]
 
 ## [[case-yitang-woqingke-referral-15-to-40]]
@@ -2682,6 +2929,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-yitang-business-formula-logic-l5-l6]]
 - [[dark-knowledges/dk-yitang-business-formula-pseudo-causality-two-masks]]
 - [[domains/business-formula-domain-digest]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
+- [[frameworks/yt-business-formula-abc-model]]
 - [[tools/tool-yitang-business-formula-l5-mining-and-verification]]
 
 ## [[case-yitang-xingangwan-chess-room]]
@@ -2703,7 +2952,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/voice-input-doubao]]
 
 ## [[case-yitang-yai-conversion-rate-visit-rate]]
+- [[frameworks/framework-一堂-关键假设-ABCD模型]]
 - [[tools/tool-opc-sales-dialogue-assistant]]
+
+## [[case-yitang-yai-scientific-decision-life-direction]]
+- [[frameworks/framework-科学决策三角形]]
 
 ## [[case-yitang-yewenbin-archery-business-formula]]
 - [[cases/case-gym-membership-formula]]
@@ -2726,6 +2979,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-yitang-business-formula-l1-site-blindness]]
 - [[domains/business-formula-domain-digest]]
 - [[domains/conversion-rate-domain-digest]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
+- [[frameworks/yt-business-formula-abc-model]]
 - [[tools/tool-动力阻力分析]]
 
 ## [[case-yitang-yitang-course-industrialization]]
@@ -2821,9 +3076,19 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-zhihu-vs-degetao-network-effect]]
 - [[concepts/yt-barrier-identification-skill]]
 
+## [[case-zhu-disruptive-innovation-practice]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
+- [[frameworks/framework-christensen-value-network]]
+
+## [[case-zhu-foresight-timing-pattern]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
+
 ## [[case-一堂-A加社失败归因→一堂诞生]]
 - [[concepts/yt-model-deep-review-iceberg]]
 - [[domains/retrospective-moc]]
+- [[frameworks/framework-一堂-四象限复盘法]]
+- [[frameworks/framework-一堂-复盘本质与三要素]]
 
 ## [[case-一堂-一堂自身转化实践]]
 - [[domains/conversion-rate-domain-digest]]
@@ -2877,11 +3142,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-一堂-优秀触点案例合集]]
 - [[domains/conversion-rate-domain-digest]]
+- [[frameworks/framework-一堂-12种阻力总表]]
+- [[frameworks/framework-一堂-12触点SABC分级]]
 
 ## [[case-一堂-优秀转化率复盘合集]]
 - [[cases/case-一堂-邹韵涛-中小企业高级管理辅导班专题培训会]]
 - [[domains/conversion-rate-domain-digest]]
 - [[domains/retrospective-moc]]
+- [[frameworks/framework-一堂-12种阻力总表]]
+- [[frameworks/framework-一堂-12触点SABC分级]]
 
 ## [[case-一堂-作业率20到50]]
 - [[cases/case-一堂-一堂自身转化实践]]
@@ -2950,6 +3219,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-一堂-小米发布会拆解]]
 - [[domains/conversion-rate-domain-digest]]
+- [[frameworks/framework-一堂-12种阻力总表]]
+- [[frameworks/framework-一堂-12触点SABC分级]]
 
 ## [[case-一堂-我请客推荐率5到40]]
 - [[cases/case-一堂-一堂自身转化实践]]
@@ -2970,6 +3241,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-一堂-教材品控事故]]
 - [[concepts/yt-model-deep-review-iceberg]]
 - [[domains/retrospective-moc]]
+- [[frameworks/framework-一堂-复盘本质与三要素]]
 
 ## [[case-一堂-教研加微信率40到100]]
 - [[cases/case-一堂-一堂自身转化实践]]
@@ -2993,6 +3265,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/concept-一堂-kernel-validation]]
 - [[concepts/concept-一堂-key-assumptions]]
 - [[frameworks/concept-mckinsey-hypothesis-driven]]
+- [[frameworks/yt-lean-assumption-verification-3means]]
 - [[tools/tool-一堂-hypothesis-validation-three-axe]]
 - [[tools/tool-一堂-kernel-six-verification-strategies]]
 
@@ -3024,6 +3297,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[domains/conversion-rate-domain-digest]]
 - [[frameworks/framework-一堂-12种阻力总表]]
 - [[frameworks/framework-一堂-12触点SABC分级]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[frameworks/framework-一堂-六大优化原则]]
 - [[tools/tool-一堂-FAB说服法]]
 - [[tools/tool-一堂-伏笔式消除法]]
@@ -3051,6 +3325,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[domains/conversion-rate-domain-digest]]
 - [[frameworks/framework-一堂-12种阻力总表]]
 - [[frameworks/framework-一堂-12触点SABC分级]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[tools/tool-一堂-12大易浪费触点]]
 - [[tools/tool-一堂-ABACC叙事法]]
 - [[tools/tool-一堂-FAB说服法]]
@@ -3077,6 +3352,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[domains/conversion-rate-domain-digest]]
 - [[frameworks/framework-一堂-12触点SABC分级]]
 - [[frameworks/framework-一堂-六大优化原则]]
+- [[frameworks/framework-一堂-关键假设-ABCD模型]]
 - [[tools/tool-一堂-阻力挖掘方式]]
 - [[tools/tool-一堂-阻力消除12策小抄]]
 
@@ -3129,10 +3405,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-一堂-迷你访谈五周迭代]]
 - [[concepts/yt-model-deep-review-iceberg]]
 - [[domains/retrospective-moc]]
+- [[frameworks/framework-一堂-四象限复盘法]]
+- [[frameworks/framework-一堂-复盘本质与三要素]]
 
 ## [[case-一堂-邹韵涛-中小企业高级管理辅导班专题培训会]]
 - [[cases/case-一堂-优秀转化率复盘合集]]
 - [[domains/conversion-rate-domain-digest]]
+- [[frameworks/framework-一堂-12种阻力总表]]
+- [[frameworks/framework-一堂-12触点SABC分级]]
 
 ## [[case-一堂-阻力篇案例库]]
 - [[cases/case-yitang-sales-transformation-jubensha-saas]]
@@ -3166,6 +3446,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-一堂Live81-AI设计马拉松全流程拆解]]
 - [[domains/design-moc]]
+
+## [[case-利润-苹果智能手机利润垄断]]
+- [[frameworks/bridge-利润-需求冰山-价值定价]]
+
+## [[case-千惠供应链复盘]]
+- [[frameworks/framework-yitang-project-retrospective]]
+- [[frameworks/framework-一堂-四象限复盘法]]
+- [[frameworks/framework-一堂-团队复盘四阶段12策略]]
+- [[frameworks/framework-一堂-复盘本质与三要素]]
 
 ## [[case-半肥猫-course-to-skill]]
 - [[cases/case-truman-ai-skill-engineering-guide]]
@@ -3424,6 +3713,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-莹莹-before-after复盘]]
 - [[concepts/yt-model-deep-review-iceberg]]
 - [[domains/retrospective-moc]]
+- [[frameworks/framework-一堂-四象限复盘法]]
+- [[frameworks/framework-一堂-复盘本质与三要素]]
 
 ## [[challenge-point-design]]
 - [[concepts/ai-tool-learning-curve]]
@@ -3572,6 +3863,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-aesthetic-redline-doc]]
 - [[dark-knowledges/dk-anti-human-ux-is-feature]]
 - [[dark-knowledges/dk-three-context-formula]]
+- [[frameworks/framework-dual-center-feishu-obsidian]]
+- [[frameworks/framework-knowledge-compound-rocket-six]]
+- [[frameworks/framework-knowledge-five-leaps]]
 
 ## [[concept-candy-ai-as-collaborator]]
 - [[tools/tool-ai-critical-reading-three-layers]]
@@ -3582,6 +3876,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-apple-card-gender-bias]]
 - [[concepts/concept-ai-native-organization-five-steps]]
 
+## [[concept-christensen-jtbd-link]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
+
 ## [[concept-cognitive-offloading-in-ai-era]]
 - [[cases/case-ai-writing-homogenization]]
 - [[cases/case-bmw-human-ai-collaboration-idle-time]]
@@ -3590,6 +3887,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/concept-abundance-paradox]]
 - [[concepts/concept-ji-hao-ai-collaboration-methodology]]
 - [[dark-knowledges/dk-ai-design-pitfalls]]
+- [[frameworks/framework-ai-deliberate-practice-loop]]
 - [[tools/tool-ai-deliverable-polish-loop]]
 - [[tools/tool-ai-use-barbell-strategy]]
 - [[tools/tool-scene-design-language-translation]]
@@ -3699,9 +3997,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[concept-mcp-protocol]]
 - [[cases/case-toc-content-platform-correlation-trap]]
 - [[entities/紫鲸AI]]
+- [[frameworks/framework-multi-agent-research-architecture]]
 
 ## [[concept-meta-skill-layering]]
+- [[frameworks/framework-fact-rule-insight]]
 - [[frameworks/framework-multi-agent-collab-chain-six]]
+- [[frameworks/framework-yitang-y-model-cross-domain-fusion]]
 - [[tools/tool-skill-packaging-eight-steps]]
 
 ## [[concept-minto-pyramid-principle]]
@@ -3728,7 +4029,16 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-daxin-team-content-training-camp]]
 - [[cases/case-daxin-vikki-community-contrast]]
 - [[dark-knowledges/dk-community-lecturer-vs-crowd-model]]
+- [[frameworks/business-formula-to-kdo-card-quality]]
 - [[frameworks/framework-community-knowledge-production-failure-modes]]
+- [[frameworks/framework-yitang-research-quality-gate]]
+
+## [[concept-pan-product-vs-traditional-management]]
+- [[frameworks/yt-composite-pan-product-methodology]]
+- [[frameworks/yt-model-pan-product-three-virtues]]
+
+## [[concept-qinpeng-knowledge-base-conversion]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
 
 ## [[concept-research-saturation-coverage]]
 - [[cases/case-4000-titles-ten-strategies]]
@@ -3796,6 +4106,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[concept-strategy-capability-pyramid]]
 - [[domains/sales-domain-digest]]
+- [[frameworks/framework-yitang-sales-incentive-6d]]
 
 ## [[concept-strategy-evolution-cycle]]
 - [[tools/tool-strategy-12-word-test]]
@@ -3844,6 +4155,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/concept-mckinsey-issue-tree]]
 - [[frameworks/concept-mckinsey-hypothesis-driven]]
 
+## [[concept-truman-18-component-cards]]
+- [[frameworks/modeling-three-stages]]
+
 ## [[concept-truman-feature-four-scenarios]]
 - [[concepts/concept-truman-feature-six-stages]]
 - [[concepts/concept-yihang-ai-feature-thinking]]
@@ -3878,6 +4192,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[concept-yihang-ai-feature-thinking]]
 - [[dark-knowledges/dk-anti-human-ux-is-feature]]
 - [[dark-knowledges/dk-future-backward-knowledge-tree]]
+- [[frameworks/framework-truman-feature-layered-system]]
+- [[frameworks/framework-truman-feature-thinking-core]]
 - [[tools/tool-Truman-AI能力分层学习路径]]
 - [[tools/tool-ai-feature-inventory]]
 
@@ -3924,6 +4240,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[domains/lean-startup-domain-digest]]
 - [[frameworks/framework-agent-card-execution-pattern]]
 - [[frameworks/framework-business-formula-dual-triangle-bridge]]
+- [[frameworks/framework-truman-feature-layered-system]]
+- [[frameworks/framework-truman-feature-thinking-core]]
 - [[frameworks/framework-yihang-AI-native-dual-triangle-kernel]]
 - [[frameworks/framework-yitang-y-model-dual-triangle-synergy]]
 - [[frameworks/framework-一堂-业务公式拆解-总纲]]
@@ -3960,6 +4278,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/concept-yitang-ai-research-human-loop]]
 - [[concepts/yt-decision-y-model]]
 - [[dark-knowledges/dk-ai-collaboration-degradation-spiral]]
+- [[frameworks/framework-yitang-y-model-dual-triangle-synergy]]
 - [[methods/method-yitang-y-model-engine-cycle]]
 - [[tools/tool-open-closed-problem-classifier]]
 
@@ -4001,7 +4320,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-ai-painting-commercialization]]
 - [[cases/case-yitang-sales-routine-deconstruction]]
 - [[dk/dk-yitang-deliberate-practice-common-traps]]
+- [[frameworks/framework-ai-deliberate-practice-loop]]
 - [[frameworks/framework-yitang-three-ring-ability-focus]]
+- [[frameworks/modeling-personal-practice-loop]]
 - [[tools/tool-yitang-best-practice-as-golden-finger]]
 - [[tools/tool-yitang-feedback-self-check]]
 - [[tools/tool-yitang-practice-20hour-starter]]
@@ -4067,6 +4388,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/business-research-skill-oscar-13-weapon-system]]
 - [[concepts/concept-yitang-research-mindset]]
 - [[concepts/concept-yitang-research-scope]]
+- [[frameworks/framework-yitang-oscar-research]]
 - [[methods/method-kdo-external-exploration-sop]]
 - [[tools/tool-oscar-kdo-external-exploration]]
 - [[tools/tool-yitang-research-validate-assumption]]
@@ -4077,6 +4399,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/concept-yitang-research-objective]]
 - [[concepts/kimi-深度调研集群方法论-deep-research-swarm]]
 - [[frameworks/framework-yitang-five-step-to-time-management]]
+- [[frameworks/framework-yitang-oscar-research]]
 - [[methods/method-kdo-external-exploration-sop]]
 - [[tools/tool-oscar-kdo-external-exploration]]
 
@@ -4115,6 +4438,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/concept-一堂-key-assumptions]]
 - [[cross-domain-patterns/pattern-hypothesis-validation]]
 - [[frameworks/concept-mckinsey-hypothesis-driven]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[frameworks/framework-一堂-关键假设]]
 - [[tools/tool-yitang-customer-segmentation-4step]]
 - [[tools/tool-一堂-kernel-six-verification-strategies]]
@@ -4498,6 +4822,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-单元模型-壁垒预判]]
 - [[tools/tool-单元模型-象限分析法]]
 
+## [[concept-目标管理组织四阶段]]
+- [[frameworks/framework-目标三层拆解]]
+
 ## [[concept-科学决策宽度]]
 - [[concepts/concept-X型Y型决策习惯]]
 - [[concepts/concept-发现决策]]
@@ -4562,6 +4889,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[domains/sales-domain-digest]]
 - [[frameworks/framework-一堂-12种阻力总表]]
 - [[frameworks/framework-一堂-12触点SABC分级]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[frameworks/framework-一堂-六大优化原则]]
 - [[frameworks/framework-一堂-关键假设-ABCD模型]]
 - [[frameworks/framework-一堂-转化率黑客-总纲]]
@@ -4641,11 +4969,13 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[domains/conversion-rate-domain-digest]]
 - [[domains/sales-domain-digest]]
 - [[frameworks/framework-TCPR皇冠模型]]
+- [[frameworks/framework-decision-quality-checklist]]
 - [[frameworks/framework-一堂-12种阻力总表]]
 - [[frameworks/framework-科学决策三角形]]
 - [[frameworks/framework-问题边界与Problem澄清五层结构]]
 - [[frameworks/framework-高水平共识曲线]]
 - [[frameworks/yt-decision-abcd-model]]
+- [[frameworks/yt-growth-data-driven-decision]]
 - [[frameworks/yt-unit-model-ladder]]
 - [[tools/tool-ROI决策评估画布]]
 - [[tools/tool-决策深度-L1优先级定性]]
@@ -4733,6 +5063,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/meta-prompt-eng]]
 - [[concepts/product-ux]]
 
+## [[design-moc]]
+- [[frameworks/yt-composite-pan-product-methodology]]
+
 ## [[dk-AI时代设计师转型还是转行]]
 - [[domains/design-moc]]
 
@@ -4760,6 +5093,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-aesthetic-redline-doc]]
 - [[dark-knowledges/dk-rule-not-system-capability]]
+- [[frameworks/framework-serendipity-five-channels]]
 - [[tools/tool-skill-packaging-eight-steps]]
 - [[tools/tool-月白-MOC]]
 
@@ -4776,6 +5110,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[dk-agreeableness-double-edged]]
 - [[domains/human-insights-domain-digest]]
 - [[frameworks/framework-big-five-personality]]
+- [[frameworks/framework-how-to-know-a-person]]
+- [[frameworks/framework-一堂-个人表达力]]
 
 ## [[dk-ai-builder-illusion]]
 - [[cases/case-ai-search-commerce-platform-hedge]]
@@ -4868,6 +5204,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-feature-pieces-not-recognized-as-cards]]
 - [[dark-knowledges/dk-research-ai-no-time-concept]]
 - [[dark-knowledges/dk-research-saturation-self-proof]]
+- [[frameworks/framework-truman-feature-layered-system]]
+- [[frameworks/framework-truman-feature-thinking-core]]
 
 ## [[dk-ai-efficiency-and-management-radius]]
 - [[cases/case-kinda-digital-employees-fullview]]
@@ -4948,7 +5286,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-project-manager-agent-failure]]
 - [[dark-knowledges/dk-rule-not-system-capability]]
 - [[frameworks/framework-ai-deliberate-practice-loop]]
+- [[frameworks/framework-multi-agent-collab-chain-six]]
 - [[frameworks/framework-patrolkit-radar]]
+- [[frameworks/framework-yitang-y-model-cross-domain-fusion]]
+- [[frameworks/framework-一堂-复盘本质与三要素]]
 
 ## [[dk-ai-social-progress-not-automatic]]
 - [[cases/case-ai-companion-emotional]]
@@ -4959,6 +5300,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-anti-human-ux-is-feature]]
 - [[dark-knowledges/dk-occhams-knife-tool-migration]]
+- [[frameworks/framework-dual-center-feishu-obsidian]]
+- [[frameworks/framework-multi-agent-collab-chain-six]]
 
 ## [[dk-ban-fei-mao-atomic-no-standard]]
 - [[concepts/concept-半肥猫-ai-learning-toolification-methodology]]
@@ -5005,15 +5348,18 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-f13-handwritten-yaml-parser]]
 - [[dark-knowledges/dk-f2-txt-ingest-skip]]
 - [[dark-knowledges/dk-p11-regex-cutoff]]
+- [[frameworks/yt-model-pan-product-climbing-map]]
 
 ## [[dk-c10-batch-tool-no-dry-run]]
 - [[dark-knowledges/dk-c11-hongqigong-skip-review]]
 - [[dark-knowledges/dk-c2-dual-status-machine]]
 - [[dark-knowledges/dk-c8-format-complete-mind-empty]]
 - [[domains/master-moc]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 
 ## [[dk-c3-txt-ingest-skip]]
 - [[concepts/存储策略]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 
 ## [[dk-c4-selfcheck-superseded]]
 - [[dark-knowledges/dk-c2-dual-status-machine]]
@@ -5034,6 +5380,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-p14-zombie]]
 - [[dark-knowledges/dk-p15-unverified]]
 - [[dark-knowledges/dk-p17-accuracy-gap]]
+- [[frameworks/smart-device-foodservice-automation]]
 
 ## [[dk-c8-format-complete-mind-empty]]
 - [[cases/case-252-quality-gate-pilot]]
@@ -5046,17 +5393,32 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-feature-registry-count-drift]]
 - [[dark-knowledges/dk-kdo-leaky-pipe-pressure]]
 - [[domains/master-moc]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 - [[tools/tool-kdo-help]]
 - [[tools/tool-mcp-reachability-check]]
 
+## [[dk-christensen-empirical-criticisms]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
+- [[frameworks/framework-christensen-value-network]]
+- [[frameworks/framework-科学决策三角形]]
+
+## [[dk-coaching-boundary-conditions]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-leadership-coin-model]]
+- [[frameworks/framework-leadership-five-ladders]]
+
 ## [[dk-coaching-monkey-theory]]
 - [[cases/case-morfei-semiconductor]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-leadership-five-ladders]]
 
 ## [[dk-collection-vs-assets]]
 - [[dark-knowledges/dk-doc-explosion-slowdown]]
 - [[dark-knowledges/dk-future-backward-knowledge-tree]]
 - [[dark-knowledges/dk-shoulu-yixia-culture]]
 - [[frameworks/framework-ai-deliberate-practice-loop]]
+- [[frameworks/framework-knowledge-compound-rocket-six]]
+- [[frameworks/framework-serendipity-five-channels]]
 
 ## [[dk-community-lecturer-vs-crowd-model]]
 - [[cases/case-daxin-team-content-training-camp]]
@@ -5080,6 +5442,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-ai-deliberate-practice-loop]]
 - [[frameworks/framework-fact-rule-insight]]
 - [[frameworks/framework-knowledge-naming-systems-comparison]]
+- [[frameworks/framework-multi-agent-collab-chain-six]]
+- [[frameworks/framework-一堂-机会预判]]
 - [[tools/tool-agent-white-paper-five-elements]]
 - [[tools/tool-local-search-repo-datasource-engineering]]
 - [[tools/tool-skill-packaging-eight-steps]]
@@ -5112,6 +5476,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-research-important-things-must-do]]
 - [[dark-knowledges/dk-sales-demand-mining-is-company-task]]
 - [[domains/decision-science-domain-digest]]
+- [[frameworks/framework-decision-quality-checklist]]
 
 ## [[dk-decision-when-to-defer|何时应该推迟决策]]
 - [[cases/case-decision-ai-assisted-vs-human]]
@@ -5138,6 +5503,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-demand-pitfall-tier4-housekeeping]]
 - [[dark-knowledges/dk-demand-pitfall-travel-agent]]
 - [[dark-knowledges/dk-feature-not-learned-but-used]]
+- [[frameworks/framework-truman-feature-layered-system]]
+- [[frameworks/framework-truman-feature-thinking-core]]
 
 ## [[dk-demand-hidden-need]]
 - [[dark-knowledges/dk-demand-pitfall-dialer]]
@@ -5160,6 +5527,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-demand-indonesia-insurance]]
 - [[dark-knowledges/dk-jh-llm-time-blindness]]
 - [[dark-knowledges/dk-strategy-02-three-paradoxes]]
+- [[frameworks/yt-five-step-cross-step-1]]
 
 ## [[dk-demand-pitfall-restaurant-hiring]]
 - [[cases/case-demand-restaurant-hiring]]
@@ -5207,11 +5575,18 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[dk-demand-switching-cost|新体验-旧体验-切换成本=产品价值]]
 - [[domains/domain-demand-analysis-index]]
 
+## [[dk-disruptive-innovation-insight-vs-survey]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
+
 ## [[dk-doc-explosion-slowdown]]
+- [[frameworks/framework-knowledge-five-leaps]]
 - [[frameworks/framework-patrolkit-radar]]
+- [[frameworks/framework-serendipity-five-channels]]
 
 ## [[dk-doc-numbering-business-logic]]
+- [[frameworks/framework-knowledge-five-leaps]]
 - [[frameworks/framework-knowledge-naming-systems-comparison]]
+- [[frameworks/framework-multi-agent-collab-chain-six]]
 
 ## [[dk-ef-001-sn74lvc2g07-open-drain]]
 - [[dark-knowledges/dk-ef-001-sn74lvc2g07-open-drain]]
@@ -5237,22 +5612,32 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[dk-emotional-value-high-bar]]
 - [[dark-knowledges/dk-emotional-value-premium]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-how-to-know-a-person]]
 
 ## [[dk-emotional-value-premium]]
 - [[dark-knowledges/dk-emotional-value-high-bar]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
+- [[frameworks/framework-how-to-know-a-person]]
 
 ## [[dk-extract-then-merge]]
 - [[concepts/concept-meta-skill-layering]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-multi-agent-collab-chain-six]]
 
 ## [[dk-f1-regex-on-cjk]]
 - [[dark-knowledges/dk-f6-cjk-skeleton-corruption]]
 - [[dark-knowledges/dk-p11-regex-cutoff]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 - [[systems/sprint-2-gate-enrich-evidence]]
 
 ## [[dk-f10-broken-source-refs]]
 - [[dark-knowledges/dk-c2-dual-status-machine]]
 - [[dark-knowledges/dk-kdo-leaky-pipe-pressure]]
+- [[frameworks/modeling-to-kdo-toolchain]]
+
+## [[dk-f11-encyclopedia-style]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 
 ## [[dk-f12-builder-context-deadlock]]
 - [[dark-knowledges/dk-c11-hongqigong-skip-review]]
@@ -5264,34 +5649,52 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-p19-quote-yaml]]
 - [[tools/tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
 
+## [[dk-f14-accuracy-measurement-mismatch]]
+- [[frameworks/modeling-to-kdo-toolchain]]
+
 ## [[dk-f2-txt-ingest-skip]]
 - [[concepts/存储策略]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 
 ## [[dk-f3-state-json-race-condition]]
 - [[dark-knowledges/dk-p16-validate-reads-state-json]]
 - [[dark-knowledges/dk-p3-auth-cache]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 
 ## [[dk-f4-wrong-workdir]]
 - [[dark-knowledges/dk-c10-batch-tool-no-dry-run]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 - [[systems/workflow-knowledge-collision]]
+
+## [[dk-f5-stale-feedback-ref]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 
 ## [[dk-f6-cjk-skeleton-corruption]]
 - [[dark-knowledges/dk-c1-cjk-regex-silent-fail]]
 - [[dark-knowledges/dk-f1-regex-on-cjk]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 
 ## [[dk-f7-surface-translation]]
 - [[dark-knowledges/dk-jh-llm-time-blindness]]
 - [[dark-knowledges/dk-kdo-leaky-pipe-pressure]]
+- [[frameworks/modeling-to-kdo-toolchain]]
+
+## [[dk-f8-phony-wikilink]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 
 ## [[dk-f9-generic-critique]]
 - [[dark-knowledges/dk-p10-oral-ban]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 
 ## [[dk-feature-not-learned-but-used]]
 - [[dark-knowledges/dk-ai-does-not-question-your-mistake]]
 - [[dark-knowledges/dk-feature-pieces-not-recognized-as-cards]]
 - [[dark-knowledges/dk-key-hypothesis-still-hope]]
+- [[frameworks/framework-truman-feature-thinking-core]]
 
 ## [[dk-feature-pieces-not-recognized-as-cards]]
+- [[frameworks/framework-truman-feature-layered-system]]
+- [[frameworks/framework-truman-feature-thinking-core]]
 - [[tools/tool-feature-review-five-step]]
 
 ## [[dk-feature-registry-count-drift]]
@@ -5312,6 +5715,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-future-backward-knowledge-tree]]
 - [[dark-knowledges/dk-doc-numbering-business-logic]]
+- [[frameworks/framework-knowledge-compound-rocket-six]]
+- [[frameworks/framework-knowledge-five-leaps]]
+- [[frameworks/framework-一堂-机会预判]]
 
 ## [[dk-infrastructure-guardrails-over-checklist]]
 - [[dark-knowledges/dk-c10-batch-tool-no-dry-run]]
@@ -5367,9 +5773,22 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-ji-hao-ai-cant-design-structure]]
 - [[dark-knowledges/dk-ji-hao-logs-fastest-ignored]]
 
+## [[dk-jiangxiang-boundary-overpromise]]
+- [[frameworks/framework-yitang-jiangxiang-strategy-selection]]
+- [[frameworks/framework-一堂-个人表达力]]
+
 ## [[dk-kdo-leaky-pipe-pressure]]
 - [[domains/kdo-moc]]
 - [[domains/master-moc]]
+
+## [[dk-key-hypothesis-still-hope]]
+- [[frameworks/framework-truman-feature-thinking-core]]
+
+## [[dk-leadership-trust-coin-sensitivity]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-how-to-know-a-person]]
+- [[frameworks/framework-leadership-coin-model]]
+- [[frameworks/framework-leadership-five-ladders]]
 
 ## [[dk-let-ai-learn-for-me]]
 - [[cases/case-kinda-digital-employees-fullview]]
@@ -5381,6 +5800,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-level-blindspot-external-feedback]]
 - [[dark-knowledges/dk-f5-stale-feedback-ref]]
+
+## [[dk-lu-gui-lv-bu-bei-yu-wang]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[dk-lz-ai-native-organization]]
 - [[concepts/concept-wanghuan-ai-native-definition]]
@@ -5403,6 +5825,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-meeting-asset-harvest]]
 - [[cases/case-yitang-2022-annual-lessons]]
+- [[frameworks/framework-meeting-ten-principles]]
 - [[frameworks/framework-yitang-project-retrospective]]
 - [[tools/tool-meeting-result-principles]]
 - [[tools/tool-项目复盘基本功]]
@@ -5413,21 +5836,32 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-meeting-pressure-ignition]]
 - [[cases/case-truman-meeting-leadership]]
+- [[frameworks/framework-leadership-five-ladders]]
+- [[frameworks/framework-meeting-iceberg-canvas]]
+- [[frameworks/framework-meeting-ten-principles]]
+- [[frameworks/framework-yitang-project-retrospective]]
 
 ## [[dk-meeting-principle-over-process]]
 - [[cases/case-meeting-roi-awakening]]
 - [[concepts/yt-management-scientific-meetings]]
+- [[frameworks/framework-leadership-five-ladders]]
+- [[frameworks/framework-meeting-iceberg-canvas]]
 - [[frameworks/framework-meeting-ten-principles]]
+- [[frameworks/framework-yitang-project-retrospective]]
 
 ## [[dk-meeting-rederive]]
 - [[cases/case-truman-meeting-leadership]]
 - [[concepts/yt-decision-consensus-iceberg]]
+- [[frameworks/framework-leadership-five-ladders]]
+- [[frameworks/framework-meeting-ten-principles]]
 
 ## [[dk-meeting-roi-first]]
 - [[cases/case-meeting-roi-awakening]]
 - [[concepts/yt-management-scientific-meetings]]
 - [[dk/dk-meeting-pressure-ignition]]
 - [[dk/dk-meeting-principle-over-process]]
+- [[frameworks/framework-meeting-iceberg-canvas]]
+- [[frameworks/framework-yitang-project-retrospective]]
 - [[tools/tool-yitang-daily-weekly-meeting-hosting]]
 
 ## [[dk-model-demystification]]
@@ -5435,6 +5869,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-context-patching-recipe]]
 - [[dark-knowledges/dk-let-ai-learn-for-me]]
 - [[dark-knowledges/dk-three-context-formula]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-dual-center-feishu-obsidian]]
+- [[frameworks/framework-multi-agent-collab-chain-six]]
 
 ## [[dk-modeling-ai-compound-leverage]]
 - [[cases/industrial-ai-ops-cases]]
@@ -5480,6 +5917,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-delivery-path-type-bug]]
 - [[dark-knowledges/dk-借假修真与黑盒白盒]]
 
+## [[dk-modeling-expert-consensus-five-percent]]
+- [[frameworks/framework-高水平共识曲线]]
+
 ## [[dk-modeling-explanatory-vs-predictive-essence]]
 - [[concepts/yt-foresight-deliverables-four-levels]]
 - [[concepts/yt-model-cognitive-upgrade-framework]]
@@ -5491,6 +5931,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-modeling-question-scaffold-not-answer]]
 - [[dark-knowledges/dk-tool-as-phased-validator]]
+- [[frameworks/modeling-three-stages]]
+- [[frameworks/yt-lean-assumption-prioritization]]
 
 ## [[dk-modeling-radar-model-not-result]]
 - [[dark-knowledges/dk-modeling-question-scaffold-not-answer]]
@@ -5500,6 +5942,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-modeling-process-sop-examples]]
 - [[cases/case-truman-livestream-sop-iteration]]
 - [[cases/case-zhangyang-anchor-sop-three-locks]]
+- [[frameworks/yt-decision-y-model-philosophical-roots]]
 - [[tools/tool-checklist-cheatsheet-modeling]]
 - [[tools/tool-sop-template-modeling]]
 
@@ -5520,6 +5963,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-narrative-choice-theory]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-big-five-personality]]
+- [[frameworks/framework-how-to-know-a-person]]
+- [[frameworks/framework-一堂-个人表达力]]
 
 ## [[dk-note-maximum-common-divisor]]
 - [[dark-knowledges/dk-modeling-timely-review-session-window]]
@@ -5541,6 +5987,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[dk-occhams-knife-tool-migration]]
 - [[cases/case-vibecoding-one-week-delivery]]
 - [[dark-knowledges/dk-anti-human-ux-is-feature]]
+- [[frameworks/framework-dual-center-feishu-obsidian]]
+- [[frameworks/framework-knowledge-five-leaps]]
 
 ## [[dk-one-sentence-handover]]
 - [[concepts/concept-session-vs-memory-vs-document]]
@@ -5549,12 +5997,17 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-model-demystification]]
 - [[dark-knowledges/dk-project-manager-agent-failure]]
 - [[dark-knowledges/dk-shoulu-yixia-culture]]
+- [[frameworks/framework-dual-center-feishu-obsidian]]
+- [[frameworks/framework-knowledge-five-leaps]]
+- [[frameworks/framework-multi-agent-collab-chain-six]]
 
 ## [[dk-p10-oral-ban]]
 - [[dark-knowledges/dk-p15-unverified]]
 
 ## [[dk-p11-regex-cutoff]]
 - [[dark-knowledges/dk-c1-cjk-regex-silent-fail]]
+- [[frameworks/ai-short-drama-ice-fire-dissection-compass]]
+- [[frameworks/yt-lean-b2b-b2c-hardware-content-testing]]
 
 ## [[dk-p15-unverified]]
 - [[dark-knowledges/dk-p10-oral-ban]]
@@ -5591,10 +6044,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/yt-business-model-unit-economics]]
 - [[tools/yt-business-model-cac-ltv]]
 
+## [[dk-p5-cc-connect-config]]
+- [[frameworks/yt-model-pan-product-climbing-map]]
+
 ## [[dk-p6-session-resume-fail]]
 - [[dark-knowledges/dk-c11-hongqigong-skip-review]]
 - [[dark-knowledges/dk-c6-large-source-overflow]]
 - [[dark-knowledges/dk-p2-tmux-cache]]
+- [[frameworks/framework-yitang-research-radar]]
 
 ## [[dk-p8-toolkit-forget]]
 - [[dark-knowledges/dk-p9-glob-miss]]
@@ -5606,6 +6063,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[dk-panproduct-org-serve-the-lowest]]
 - [[cases/case-panproduct-lanyi-intern-flywheel]]
 - [[dark-knowledges/dk-panproduct-org-linear-to-circular]]
+- [[frameworks/yt-composite-pan-product-methodology]]
+- [[frameworks/yt-model-pan-product-three-virtues]]
 
 ## [[dk-project-manager-agent-failure]]
 - [[cases/case-kinda-digital-employees-fullview]]
@@ -5627,17 +6086,22 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-qinpeng-three-corrections]]
 - [[dark-knowledges/dk-lu-gui-lv-bu-bei-yu-wang]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
 
 ## [[dk-research-ai-no-time-concept]]
 - [[cases/case-opc-128-directions]]
 - [[concepts/concept-ai-style-knowledge-docs]]
 - [[dark-knowledges/dk-research-saturation-quota-ai-km]]
+- [[frameworks/framework-ai-sales-collaboration]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
 - [[frameworks/framework-serendipity-five-channels]]
 
 ## [[dk-research-classification-mece-table]]
 - [[cases/case-design-principles-90]]
 - [[cases/case-opc-128-directions]]
 - [[dark-knowledges/dk-research-sampling-correction-three-rounds]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-r-type-research-partner-five-state]]
 
 ## [[dk-research-decision-first-mapping]]
 - [[concepts/街顺app全面调研报告]]
@@ -5649,21 +6113,30 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-new-year-insight-relay]]
 - [[cases/case-vibecoding-one-week-delivery]]
 - [[dark-knowledges/dk-research-saturation-quota-ai-km]]
+- [[frameworks/framework-ai-human-70-30-division]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
 - [[frameworks/framework-multi-agent-collab-chain-six]]
 - [[frameworks/framework-serendipity-five-channels]]
+- [[frameworks/framework-yitang-oscar-research]]
 - [[tools/tool-skill-packaging-eight-steps]]
 
 ## [[dk-research-ranklist-replaces-model]]
 - [[cases/case-ai-learning-series-modeling]]
 - [[dark-knowledges/dk-research-scavenger-vs-architect]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-yitang-research-weapon-system]]
 
 ## [[dk-research-sampling-correction-three-rounds]]
 - [[dark-knowledges/dk-research-total-anchor-private-library]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-r-type-research-partner-five-state]]
 
 ## [[dk-research-saturation-quota-ai-km]]
 - [[dark-knowledges/dk-best-datasource-is-floor]]
 - [[dark-knowledges/dk-collection-vs-assets]]
 - [[dark-knowledges/dk-let-ai-learn-for-me]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-serendipity-five-channels]]
 
 ## [[dk-research-saturation-self-proof]]
 - [[cases/case-design-principles-90]]
@@ -5672,14 +6145,21 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-research-important-things-must-do]]
 - [[dark-knowledges/dk-research-saturation-quota-ai-km]]
 - [[dark-knowledges/dk-research-total-anchor-private-library]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-r-type-research-partner-five-state]]
 
 ## [[dk-research-scavenger-vs-architect]]
 - [[dark-knowledges/dk-research-important-things-must-do]]
 - [[dark-knowledges/dk-research-ranklist-replaces-model]]
 - [[frameworks/framework-ai-human-70-30-division]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-yitang-four-research-types]]
+- [[frameworks/framework-yitang-research-radar]]
 
 ## [[dk-research-total-anchor-private-library]]
 - [[dark-knowledges/dk-research-sampling-correction-three-rounds]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-r-type-research-partner-five-state]]
 
 ## [[dk-research-triangulation-stop-rule]]
 - [[concepts/kimi-深度调研集群方法论-deep-research-swarm]]
@@ -5702,6 +6182,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[dk-sales-big-deal-vs-small-deal]]
 - [[dark-knowledges/dk-sales-demand-mining-is-company-task]]
 - [[domains/sales-domain-digest]]
+- [[frameworks/framework-ai-sales-collaboration]]
+- [[frameworks/framework-sales-funnel-full]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[tools/tool-candy-sales-recruiting]]
 
 ## [[dk-sales-demand-mining-is-company-task]]
@@ -5709,10 +6192,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-leo-lubricant-dealer-research]]
 - [[dark-knowledges/dk-sales-big-deal-vs-small-deal]]
 - [[domains/sales-domain-digest]]
+- [[frameworks/framework-ai-sales-collaboration]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
+- [[frameworks/yt-demand-decision-chain]]
 - [[tools/tool-candy-sales-recruiting]]
 
 ## [[dk-shoulu-yixia-culture]]
 - [[dark-knowledges/dk-aesthetic-redline-doc]]
+- [[frameworks/framework-dual-center-feishu-obsidian]]
 
 ## [[dk-skill-market-agent-self-install]]
 - [[concepts/tinyfish-agentic-web-infrastructure]]
@@ -5770,6 +6257,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-strategy-longzhong-four-failures]]
 - [[dark-knowledges/dk-strategy-three-must-do-moments]]
 
+## [[dk-strategy-correlation-vs-causation-leverage]]
+- [[frameworks/framework-strategy-brm]]
+- [[frameworks/yt-business-formula-abc-model]]
+
 ## [[dk-strategy-essence-four-elements]]
 - [[dark-knowledges/dk-strategy-01-not-goal-setting]]
 - [[dark-knowledges/dk-strategy-03-advantage-temporary]]
@@ -5789,6 +6280,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-strategy-three-must-do-moments]]
 
 ## [[dk-strategy-stage-leverage-mismatch]]
+- [[frameworks/framework-strategy-brm]]
 - [[tools/tool-demand-iceberg-l6-hypothesis]]
 
 ## [[dk-strategy-three-must-do-moments]]
@@ -5807,6 +6299,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-truman-ai-skill-engineering-guide]]
 - [[cases/case-truman-ai-skill-self-packaging]]
 - [[dark-knowledges/dk-agent-parallel-design-system]]
+- [[frameworks/framework-dual-center-feishu-obsidian]]
+- [[frameworks/framework-multi-agent-collab-chain-six]]
 - [[tools/tool-月白-MOC]]
 
 ## [[dk-time-management-common-mistakes]]
@@ -5821,6 +6315,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[dk-tool-adoption-by-force]]
 - [[dark-knowledges/dk-occhams-knife-tool-migration]]
 - [[dark-knowledges/dk-one-sentence-handover]]
+- [[frameworks/framework-dual-center-feishu-obsidian]]
+- [[frameworks/framework-knowledge-compound-rocket-six]]
+- [[frameworks/framework-knowledge-five-leaps]]
 
 ## [[dk-tool-as-answer-trap]]
 - [[dark-knowledges/dk-modeling-question-scaffold-not-answer]]
@@ -5886,6 +6383,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/yt-product-kernel-do-without-belief]]
 - [[dark-knowledges/yt-product-kernel-failure-modes]]
 - [[dark-knowledges/yt-product-kernel-premature-optimization]]
+- [[frameworks/yt-lean-false-model-ai]]
+- [[frameworks/yt-tob-barriers]]
 
 ## [[dk-tool-chain-naming-is-infrastructure]]
 - [[concepts/concept-kdo-feature-registry]]
@@ -5900,6 +6399,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-ai-judgment-programmer-paradox]]
 - [[dark-knowledges/dk-jh-llm-time-blindness]]
 - [[dark-knowledges/dk-lz-code-is-disposable]]
+
+## [[dk-unit-model-reverse-calc]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[dk-wanghuan-agent-platform-director-mode]]
 - [[dark-knowledges/dk-ban-fei-mao-skill-rejection-value]]
@@ -5997,6 +6499,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/yt-note-ai-p-role-not-c-role]]
 - [[dark-knowledges/yt-note-p-c-role-boundary-realworld]]
 - [[domains/human-ai-collaboration-double-triangle]]
+- [[frameworks/private-domain-saas-sales-funnel]]
+
+## [[dk-weekly-modeling-iteration-growth-engine]]
+- [[frameworks/modeling-scientific-milestones]]
+
+## [[dk-y-model-communication]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-yitang-y-model-cross-domain-fusion]]
 
 ## [[dk-yb1-aigc-mvp-before-ps]]
 - [[dark-knowledges/dk-yb10-theory-moat-designer]]
@@ -6124,6 +6634,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-yihang-dual-triangle-strategic-bet]]
 - [[dark-knowledges/dk-yihang-scientific-community-moat]]
+- [[frameworks/framework-yitang-y-model-dual-triangle-synergy]]
 
 ## [[dk-yihang-multi-ai-cross-validation]]
 - [[cross-domain-patterns/pattern-hypothesis-validation]]
@@ -6253,6 +6764,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-shuzu-channel-scan-test]]
 - [[cases/case-yitang-yitu-lead-industrialization]]
 - [[dark-knowledges/dk-yitang-sales-common-pitfalls]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[tools/tool-yitang-industry-channel-arsenal-index]]
 
 ## [[dk-yitang-cross-case-pattern-failure-premium]]
@@ -6260,6 +6772,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-yitang-deliberate-practice-common-traps]]
 - [[cases/case-yitang-sales-routine-deconstruction]]
+- [[frameworks/framework-ai-deliberate-practice-loop]]
 - [[frameworks/framework-yitang-three-ring-ability-focus]]
 - [[tools/tool-yitang-feedback-self-check]]
 
@@ -6301,6 +6814,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[dk-yitang-over-prediction-danger]]
 - [[cases/case-yitang-shishi-qiushi-pitfall-5-over-prediction]]
 - [[cross-domain-patterns/pattern-hypothesis-validation]]
+
+## [[dk-yitang-project-overmanagement-vs-bare-run]]
+- [[frameworks/framework-yitang-project-execution]]
+- [[frameworks/framework-yitang-project-plan-design]]
+- [[frameworks/framework-yitang-project-retrospective]]
 
 ## [[dk-yitang-research-ai-hallucination]]
 - [[concepts/concept-yitang-research-objective]]
@@ -6382,6 +6900,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-借假修真与黑盒白盒]]
 - [[domains/retrospective-moc]]
+- [[frameworks/framework-一堂-四象限复盘法]]
 
 ## [[dk-决策经验值]]
 - [[dark-knowledges/dk-decision-when-to-defer]]
@@ -6393,6 +6912,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-决策经验值|决策经验值——老手和新手的隐性差距]]
 - [[domains/decision-science-domain-digest]]
+
+## [[dk-利润-定价恐惧三段式反问]]
+- [[frameworks/bridge-利润-需求冰山-价值定价]]
 
 ## [[dk-单元模型-找全成本实操难点]]
 - [[dk/dk-单元模型-找基准值实操难点]]
@@ -6426,11 +6948,23 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[dk-泛产品设计落地工具篇]]
 - [[domains/design-moc]]
 
+## [[dk-目标管理四大病]]
+- [[frameworks/framework-目标三层拆解]]
+
+## [[dk-管控vs协同执行策略]]
+- [[frameworks/framework-目标三层拆解]]
+
 ## [[dk-设计师AIGC练习方式-MVP快速上手]]
 - [[domains/design-moc]]
 
 ## [[domain-demand-analysis-index]]
 - [[cases/case-demand-iceberg-few-shot]]
+- [[frameworks/yt-demand-decision-chain]]
+- [[frameworks/yt-demand-early-validation]]
+- [[frameworks/yt-demand-jtbd-application]]
+- [[frameworks/yt-demand-scenario-reconstruction]]
+- [[frameworks/yt-five-step-method-complete]]
+- [[frameworks/yt-tob-demand-metrics]]
 - [[knowledges/knowledge-demand-2b-dictionary]]
 - [[knowledges/knowledge-demand-2c-dictionary]]
 - [[skills/skill-demand-analysis]]
@@ -6568,6 +7102,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[framework-ai-human-70-30-division]]
 - [[dark-knowledges/dk-research-important-things-must-do]]
 - [[dark-knowledges/dk-research-scavenger-vs-architect]]
+- [[frameworks/framework-ai-report-value-ladder-l1-l6]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-r-type-research-partner-five-state]]
 
 ## [[framework-ai-native-organization-two-modes]]
 - [[cases/case-ai-search-commerce-platform-hedge]]
@@ -6584,6 +7121,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[framework-ai-report-value-ladder-l1-l6]]
 - [[frameworks/framework-ai-human-70-30-division]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-r-type-research-partner-five-state]]
 
 ## [[framework-ai-sales-collaboration]]
 - [[cases/case-4000-titles-ten-strategies]]
@@ -6594,6 +7133,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-sales-demand-mining-is-company-task]]
 - [[domains/sales-domain-digest]]
 - [[frameworks/framework-sales-funnel-full]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
+- [[frameworks/framework-科学决策三角形]]
 - [[tools/tool-candy-sales-recruiting]]
 - [[tools/tool-nine-character-mantra-14-strategies]]
 - [[tools/tool-sales-objection-dilution]]
@@ -6728,8 +7269,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-leadership-trust-coin-sensitivity]]
 - [[dark-knowledges/dk-y-model-communication]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-how-to-know-a-person]]
 - [[frameworks/framework-leadership-coin-model]]
 - [[frameworks/framework-leadership-five-ladders]]
+- [[frameworks/framework-truman-feature-layered-system]]
+- [[frameworks/framework-yitang-y-model-cross-domain-fusion]]
 - [[tools/tool-coaching-communication-segments]]
 - [[tools/tool-leadership-consensus-goal-escalation]]
 - [[tools/tool-leadership-exit-consulting]]
@@ -6886,6 +7430,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-investment-claim-fact-check]]
 - [[concepts/concept-meta-skill-layering]]
 - [[dark-knowledges/dk-best-datasource-is-floor]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-serendipity-five-channels]]
+- [[frameworks/framework-yitang-oscar-research]]
+- [[frameworks/framework-科学决策三角形]]
 - [[tools/tool-anti-ai-bs-three-moves]]
 
 ## [[framework-five-step-lean-interface]]
@@ -6914,6 +7462,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[domains/human-insights-domain-digest]]
 - [[frameworks/framework-leadership-coin-model]]
 - [[frameworks/framework-leadership-five-ladders]]
+- [[frameworks/framework-一堂-个人表达力]]
 - [[tools/tool-empathy-practice]]
 - [[tools/tool-illuminator-vs-diminisher]]
 - [[tools/tool-leadership-exit-consulting]]
@@ -7043,6 +7592,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-leadership-trust-coin-sensitivity]]
 - [[domains/human-insights-domain-digest]]
 - [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-how-to-know-a-person]]
 - [[frameworks/framework-leadership-five-ladders]]
 - [[tools/tool-leadership-feedback-cards]]
 - [[tools/tool-leadership-listening-cards]]
@@ -7060,8 +7610,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dk/dk-meeting-rederive]]
 - [[domains/human-insights-domain-digest]]
 - [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-how-to-know-a-person]]
 - [[frameworks/framework-leadership-coin-model]]
 - [[frameworks/framework-meeting-ten-principles]]
+- [[frameworks/framework-truman-feature-layered-system]]
+- [[frameworks/framework-yitang-y-model-cross-domain-fusion]]
 - [[tools/tool-coaching-communication-four-layers]]
 - [[tools/tool-leadership-consensus-goal-escalation]]
 - [[tools/tool-leadership-feedback-cards]]
@@ -7159,6 +7712,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[framework-lean-tenx-formula]]
 - [[cases/case-cross-yuanqi-forest]]
 
+## [[framework-lemon-market-new-brand-trust]]
+- [[frameworks/framework-knowledge-compound-rocket-six]]
+- [[frameworks/framework-yitang-oscar-research]]
+
 ## [[framework-logic-cleanliness-five-levels]]
 - [[dark-knowledges/dk-p6-session-resume-fail]]
 
@@ -7169,6 +7726,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dk/dk-meeting-principle-over-process]]
 - [[dk/dk-meeting-roi-first]]
 - [[frameworks/framework-meeting-ten-principles]]
+- [[frameworks/framework-yitang-project-retrospective]]
 - [[tools/tool-meeting-basic-principles]]
 - [[tools/tool-meeting-execution-principles]]
 - [[tools/tool-yitang-project-kickoff-meeting]]
@@ -7184,6 +7742,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dk/dk-meeting-pressure-ignition]]
 - [[dk/dk-meeting-principle-over-process]]
 - [[dk/dk-meeting-rederive]]
+- [[frameworks/framework-leadership-five-ladders]]
 - [[frameworks/framework-meeting-iceberg-canvas]]
 - [[tools/tool-meeting-basic-principles]]
 - [[tools/tool-meeting-execution-principles]]
@@ -7212,6 +7771,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-rule-not-system-capability]]
 - [[dark-knowledges/dk-three-context-formula]]
 - [[frameworks/framework-dual-center-feishu-obsidian]]
+- [[frameworks/framework-knowledge-compound-rocket-six]]
+- [[frameworks/framework-knowledge-five-leaps]]
 - [[frameworks/framework-truman-agent-team-architecture]]
 - [[tools/tool-ai-adapted-workflow-design]]
 - [[tools/tool-skill-packaging-eight-steps]]
@@ -7243,7 +7804,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[framework-patrolkit-radar]]
 - [[dark-knowledges/dk-doc-explosion-slowdown]]
+- [[frameworks/framework-knowledge-compound-rocket-six]]
+- [[frameworks/framework-knowledge-five-leaps]]
 - [[frameworks/framework-serendipity-five-channels]]
+- [[frameworks/framework-truman-agent-team-architecture]]
 - [[tools/tool-autoclassify-seven-steps]]
 
 ## [[framework-r-type-research-partner-five-state]]
@@ -7265,6 +7829,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[framework-sales-funnel-full]]
 - [[dark-knowledges/dk-sales-big-deal-vs-small-deal]]
 - [[domains/sales-domain-digest]]
+- [[frameworks/framework-ai-sales-collaboration]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
+- [[frameworks/private-domain-saas-sales-funnel]]
+- [[frameworks/yt-growth-funnel-optimization]]
 - [[tools/tool-candy-sales-recruiting]]
 - [[tools/tool-sales-objection-dilution]]
 
@@ -7276,7 +7844,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-doc-explosion-slowdown]]
 - [[dark-knowledges/dk-research-saturation-quota-ai-km]]
 - [[frameworks/framework-fact-rule-insight]]
+- [[frameworks/framework-knowledge-five-leaps]]
 - [[frameworks/framework-patrolkit-radar]]
+- [[frameworks/framework-truman-agent-team-architecture]]
 - [[tools/tool-autoclassify-seven-steps]]
 
 ## [[framework-strategy-brm]]
@@ -7819,6 +8389,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-fact-rule-insight]]
 - [[frameworks/framework-lemon-market-new-brand-trust]]
 - [[frameworks/framework-multi-agent-research-architecture]]
+- [[frameworks/framework-r-type-research-partner-five-state]]
 - [[frameworks/framework-yitang-research-radar]]
 - [[frameworks/framework-yitang-six-layer-cross-validation]]
 - [[methods/method-kdo-external-exploration-sop]]
@@ -7890,6 +8461,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-leo-website-redesign]]
 - [[concepts/yt-management-project-management]]
 - [[dark-knowledges/dk-yitang-project-overmanagement-vs-bare-run]]
+- [[frameworks/framework-yitang-project-plan-design]]
 - [[frameworks/framework-yitang-project-retrospective]]
 - [[skills/skill-yitang-project-spiral-thinking]]
 - [[tools/agent-spec-project-management-assistant]]
@@ -7944,6 +8516,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-meeting-iceberg-canvas]]
 - [[frameworks/framework-meeting-ten-principles]]
 - [[frameworks/framework-yitang-project-execution]]
+- [[frameworks/framework-yitang-project-plan-design]]
+- [[frameworks/framework-一堂-复盘本质与三要素]]
 - [[skills/skill-yitang-project-spiral-thinking]]
 - [[tools/agent-spec-project-management-assistant]]
 - [[tools/tool-Truman-AI时代IPO模型重构]]
@@ -7964,6 +8538,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[framework-yitang-research-quality-gate]]
 - [[concepts/concept-open-source-knowledge-usage-boundary]]
+- [[frameworks/framework-yitang-oscar-research]]
 - [[systems/system-kdo-quality-labels]]
 - [[tools/tool-yitang-ai-assisted-analysis]]
 - [[tools/tool-yitang-ai-assisted-organize]]
@@ -7976,6 +8551,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-p6-session-resume-fail]]
 - [[dark-knowledges/dk-research-scavenger-vs-architect]]
 - [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-r-type-research-partner-five-state]]
 - [[frameworks/framework-yitang-oscar-research]]
 - [[tools/tool-yitang-app-store-data]]
 - [[tools/tool-yitang-bidding-analysis]]
@@ -8032,6 +8608,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[framework-yitang-sales-target-tradeoffs]]
 - [[frameworks/framework-yitang-sales-incentive-6d]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
+- [[frameworks/yt-unit-model-overview]]
 
 ## [[framework-yitang-scenario-walkthrough]]
 - [[tools/tool-agent-spec-yitang-scenario-walkthrough]]
@@ -8152,6 +8730,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[framework-yitang-six-layer-cross-validation]]
 - [[frameworks/framework-yitang-growth-flywheel]]
+- [[frameworks/framework-yitang-oscar-research]]
 - [[methods/method-kdo-inbox-annotation]]
 - [[tools/tool-yitang-anonymous-product-testing]]
 - [[tools/tool-yitang-business-registration-check]]
@@ -8188,6 +8767,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-sales-routine-deconstruction]]
 - [[concepts/concept-yitang-comfort-stretch-panic-zones]]
 - [[dk/dk-yitang-deliberate-practice-common-traps]]
+- [[frameworks/framework-ai-deliberate-practice-loop]]
 - [[tools/tool-yitang-best-practice-as-golden-finger]]
 - [[tools/tool-yitang-practice-20hour-starter]]
 
@@ -8518,6 +9098,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-一堂-关键假设]]
 - [[frameworks/yt-business-formula-abc-model]]
 - [[frameworks/yt-business-formula-hypothesis-management-playbook]]
+- [[frameworks/yt-decision-abcd-model]]
 - [[methods/method-一堂-教练对话引擎协议]]
 - [[tools/tool-一堂-关键假设-ABCD场景分类器]]
 - [[tools/tool-一堂-提假设四大类策略]]
@@ -8611,6 +9192,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[framework-一堂-团队复盘四阶段12策略]]
 - [[concepts/yt-model-deep-review-iceberg]]
 - [[domains/retrospective-moc]]
+- [[frameworks/framework-yitang-project-retrospective]]
+- [[frameworks/framework-一堂-个人表达力]]
+- [[frameworks/framework-一堂-四象限复盘法]]
 - [[frameworks/framework-一堂-复盘本质与三要素]]
 - [[tools/agent-spec-复盘教练]]
 - [[tools/tool-团队复盘引导清单]]
@@ -9131,6 +9715,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[graph-rag-retrieval-layer]]
 - [[systems/kdo-watch-health-check-layer]]
 
+## [[huangyaoshi-extractor-upgrade-report]]
+- [[frameworks/beverage-foodservice-channel]]
+- [[frameworks/smart-device-foodservice-automation]]
+
 ## [[human-ai-collaboration-double-triangle]]
 - [[cases/case-bmw-human-ai-collaboration-idle-time]]
 - [[cases/case-live81-ai-trademark-design]]
@@ -9153,11 +9741,17 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-opc-sales-dialogue-assistant]]
 - [[tools/tool-yitang-sales-toolkit-radar]]
 
+## [[human-insights-domain-digest]]
+- [[frameworks/framework-big-five-personality]]
+
 ## [[index]]
 - [[systems/kdo-protocol]]
 
 ## [[industry-ai-cases]]
 - [[concepts/finance-legal-business-operations]]
+
+## [[innovation-domain-digest]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[kdo-15-dimension-label-spec]]
 - [[concepts/kdo-yaml-frontmatter-safety]]
@@ -9199,6 +9793,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-半肥猫-course-to-skill]]
 - [[dark-knowledges/dk-c2-dual-status-machine]]
 - [[dark-knowledges/dk-kdo-leaky-pipe-pressure]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 - [[systems/sprint-2-gate-enrich-evidence]]
 
 ## [[kdo-flywheel]]
@@ -9289,6 +9884,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-f7-surface-translation]]
 - [[dark-knowledges/dk-f8-phony-wikilink]]
 - [[dark-knowledges/dk-f9-generic-critique]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 
 ## [[kdo-yaml-frontmatter-safety]]
 - [[concepts/business-research-skill-oscar-13-weapon-system]]
@@ -9341,6 +9937,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/business-research-skill-oscar-13-weapon-system]]
 - [[domains/lean-startup-domain-digest]]
 - [[frameworks/framework-multi-agent-research-architecture]]
+- [[frameworks/framework-yitang-research-radar]]
 - [[tools/tool-agent-research-swarm]]
 - [[tools/yt-demand-quantitative-estimation]]
 
@@ -9708,11 +10305,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-oscar-kdo-external-exploration]]
 
 ## [[method-kdo-inbox-annotation]]
+- [[frameworks/framework-yitang-oscar-research]]
+- [[frameworks/framework-yitang-six-layer-cross-validation]]
 - [[methods/method-kdo-agent-distillation]]
 - [[methods/method-kdo-external-exploration-sop]]
 
 ## [[method-obsidian-ai-collaboration]]
 - [[concepts/concept-ai-co-learning]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[method-yihang-aesthetic-fast-build]]
 - [[methods/method-yihang-knowledge-battle-station]]
@@ -9773,6 +10373,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-jiefang-sixiang]]
 - [[frameworks/framework-yitang-shishi-qiushi]]
 - [[frameworks/framework-yitang-y-model-cross-domain-fusion]]
+- [[frameworks/framework-yitang-y-model-dual-triangle-synergy]]
 - [[methods/method-dual-triangle-flywheel-engine]]
 - [[methods/method-yihang-aesthetic-fast-build]]
 - [[methods/method-yihang-dual-triangle-ai-review]]
@@ -9796,6 +10397,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[method-一堂-教练对话引擎协议]]
 - [[cases/case-yitang-yai-conversion-rate-visit-rate]]
 - [[cases/case-yitang-yai-scientific-decision-life-direction]]
+- [[frameworks/framework-TCPR皇冠模型]]
+- [[frameworks/framework-一堂-关键假设-ABCD模型]]
 - [[tools/tool-opc-sales-dialogue-assistant]]
 
 ## [[mineru-pdf-parsing-setup]]
@@ -9807,6 +10410,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[modeling-capability-for-kdo]]
 - [[cases/case-半肥猫-course-to-skill]]
 - [[dark-knowledges/dk-kdo-leaky-pipe-pressure]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 - [[systems/workflow-knowledge-collision]]
 
 ## [[modeling-capability-system]]
@@ -9836,6 +10440,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/process-modeling]]
 
 ## [[modeling-three-values]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 - [[tools/tool-sabc-tier-modeling]]
 
 ## [[modeling-to-kdo-toolchain]]
@@ -9942,6 +10547,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[parking-lot]]
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
+- [[frameworks/xingangwan-pharma-business-formulas]]
+- [[frameworks/xingangwan-pharma-business-model-calc]]
 - [[projects/shanxi-field-research-checklist-20260701]]
 
 ## [[pattern-hypothesis-validation]]
@@ -10463,15 +11070,21 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[plan_20260531_data-curator-v1.3]]
 - [[concepts/yt-foresight-deliverables-four-levels]]
 
+## [[plan_20260621_crawl4ai-firecrawl-evaluation]]
+- [[frameworks/framework-yitang-research-quality-gate]]
+
 ## [[plan_20260621_kdo-quality-harness-upgrade]]
 - [[concepts/yt-foresight-deliverables-four-levels]]
+- [[frameworks/framework-yitang-research-quality-gate]]
 
 ## [[plan_20260621_retrieval-architecture-upgrade]]
 - [[concepts/yitang-course-map]]
+- [[frameworks/framework-yitang-research-quality-gate]]
 
 ## [[plan_20260621_skill-iteration-standard]]
 - [[concepts/tinyfish-agentic-web-infrastructure]]
 - [[concepts/yt-foresight-deliverables-four-levels]]
+- [[frameworks/framework-yitang-oscar-research]]
 - [[tools/tool-ai-skill-engineering-method]]
 - [[tools/tool-yitang-18-strategy-tool-mapping]]
 
@@ -10514,6 +11127,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/modeling-three-stages]]
 - [[tools/modeling-weapon-library]]
 
+## [[product-moc]]
+- [[frameworks/yt-composite-pan-product-methodology]]
+- [[frameworks/yt-product-kernel-iteration]]
+- [[frameworks/yt-product-kernel-validation]]
+
 ## [[product-ux]]
 - [[concepts/business-analysis]]
 - [[concepts/meta-prompt-eng]]
@@ -10540,6 +11158,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[proposal-graph-rag-star-fix]]
 - [[concepts/graph-rag]]
+- [[frameworks/modeling-to-kdo-toolchain]]
 
 ## [[proposal-kdo-flywheel-infrastructure]]
 - [[concepts/kdo-flywheel]]
@@ -10572,6 +11191,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[retrospective-moc]]
 - [[cases/case-duanwangye-self-iteration-closed-loop]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-yitang-project-retrospective]]
+- [[frameworks/framework-一堂-四象限复盘法]]
+- [[frameworks/framework-一堂-团队复盘四阶段12策略]]
+- [[frameworks/framework-一堂-复盘本质与三要素]]
+
+## [[sales-domain-digest]]
+- [[frameworks/framework-ai-sales-collaboration]]
+- [[frameworks/framework-sales-funnel-full]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 
 ## [[session-20260619-xingangwan-business-formula-reconstruction]]
 - [[dark-knowledges/dk-c6-large-source-overflow]]
@@ -10579,6 +11207,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[projects/parking-lot]]
 
 ## [[shanxi-field-research-checklist-20260701]]
+- [[frameworks/xingangwan-pharma-business-formulas]]
+- [[frameworks/xingangwan-pharma-business-model-calc]]
 - [[frameworks/xingangwan-pharma-business-model-formulas]]
 - [[projects/parking-lot]]
 
@@ -10646,7 +11276,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-leo-website-redesign]]
 - [[concepts/yt-decision-y-model]]
 - [[concepts/yt-management-project-management]]
+- [[frameworks/framework-yitang-project-execution]]
 - [[frameworks/framework-yitang-project-plan-design]]
+- [[frameworks/framework-yitang-project-retrospective]]
 - [[frameworks/yt-decision-y-model-philosophical-roots]]
 - [[tools/agent-spec-project-management-assistant]]
 - [[tools/tool-yitang-project-weapon-library-v1-8]]
@@ -10819,9 +11451,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[system-kdo-quality-labels]]
 - [[cases/case-daxin-vikki-community-contrast]]
 - [[concepts/concept-open-source-knowledge-usage-boundary]]
+- [[frameworks/business-formula-to-kdo-card-quality]]
 - [[frameworks/framework-community-knowledge-production-failure-modes]]
 - [[frameworks/framework-content-business-six-step]]
 - [[frameworks/framework-founder-ip-three-positioning]]
+- [[frameworks/framework-yitang-research-quality-gate]]
+- [[frameworks/model-quality-four-levels]]
 
 ## [[system-yitang-Y-model-os]]
 - [[cases/case-kdo-agent-factory-dual-triangle-practice]]
@@ -10831,6 +11466,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-TCPR皇冠模型]]
 - [[frameworks/framework-agent-card-execution-pattern]]
 - [[frameworks/framework-business-formula-y-model-bridge]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 - [[frameworks/framework-yitang-y-model-cross-domain-fusion]]
 - [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[methods/method-一堂-教练对话引擎协议]]
@@ -10927,6 +11563,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/yt-product-kernel-canvas]]
 
 ## [[tool-Truman-AI时代IPO模型重构]]
+- [[frameworks/framework-yitang-project-retrospective]]
 - [[tools/tool-IPO学习-输入处理输出工具箱导航]]
 
 ## [[tool-Truman-AI时代提示词优化法]]
@@ -11237,6 +11874,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-Y模型STEPS策略集]]
 - [[concepts/yt-business-model-partnership]]
 - [[domains/decision-science-domain-digest]]
+- [[frameworks/framework-yitang-y-model-cross-domain-fusion]]
 - [[tools/tool-Y模型实操工作流]]
 - [[tools/tool-yitang-Y-model-application]]
 
@@ -11245,6 +11883,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-Y模型实操工作流]]
 - [[domains/decision-science-domain-digest]]
+- [[frameworks/framework-yitang-y-model-cross-domain-fusion]]
 - [[tools/tool-Y模型STEPS策略集]]
 - [[tools/tool-yitang-Y-model-application]]
 
@@ -11272,6 +11911,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-agent-native-overview]]
 - [[concepts/concept-wanghuan-ai-native-definition]]
 - [[concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
+- [[frameworks/framework-multi-agent-research-architecture]]
 - [[frameworks/framework-yitang-research-weapon-supplement-2026]]
 
 ## [[tool-agent-research-pipeline]]
@@ -11289,6 +11929,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-agent-research-supervisor]]
 - [[frameworks/framework-multi-agent-research-architecture]]
+- [[frameworks/framework-yitang-oscar-research]]
 - [[tools/tool-agent-research-pipeline]]
 - [[tools/tool-agent-research-swarm]]
 
@@ -11298,6 +11939,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-agent-research-supervisor]]
 - [[tools/tool-red-team-analysis]]
 - [[tools/tool-yitang-sales-toolkit-radar]]
+
+## [[tool-agent-self-evolution-protocol]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[tool-agent-spec-yitang-Y-model-coach]]
 - [[frameworks/framework-TCPR皇冠模型]]
@@ -11332,6 +11976,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-opc-agent-wave1-real-model-testing]]
 - [[frameworks/framework-TCPR底层网络协议]]
 - [[frameworks/framework-TCPR皇冠模型]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[frameworks/framework-一堂-12触点SABC分级]]
 - [[personal-os/opc-ai-sales-agent-architecture]]
 - [[tools/tool-agent-spec-yitang-objection-handler]]
@@ -11441,6 +12086,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-opc-agent-wave1-real-model-testing]]
 - [[frameworks/framework-TCPR底层网络协议]]
 - [[frameworks/framework-TCPR皇冠模型]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[frameworks/framework-一堂-12种阻力总表]]
 - [[personal-os/opc-ai-sales-agent-architecture]]
 - [[tools/tool-agent-spec-yitang-customer-segmentation]]
@@ -11460,6 +12106,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-opc-agent-wave1-real-model-testing]]
 - [[frameworks/framework-TCPR底层网络协议]]
 - [[frameworks/framework-TCPR皇冠模型]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[personal-os/opc-ai-sales-agent-architecture]]
 - [[tools/tool-agent-spec-yitang-customer-segmentation]]
 - [[tools/tool-agent-spec-yitang-objection-handler]]
@@ -11491,6 +12138,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-opc-agent-wave1-real-model-testing]]
 - [[frameworks/framework-TCPR底层网络协议]]
 - [[frameworks/framework-TCPR皇冠模型]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[personal-os/opc-ai-sales-agent-architecture]]
 - [[tools/tool-agent-spec-yitang-customer-segmentation]]
 - [[tools/tool-agent-spec-yitang-objection-handler]]
@@ -11506,6 +12154,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cross-domain-patterns/pattern-layered-matching]]
 - [[frameworks/framework-TCPR底层网络协议]]
 - [[frameworks/framework-TCPR皇冠模型]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[frameworks/framework-一堂-12种阻力总表]]
 - [[personal-os/opc-ai-sales-agent-architecture]]
 - [[tools/tool-agent-spec-yitang-customer-segmentation]]
@@ -11540,6 +12189,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-opc-agent-wave1-real-model-testing]]
 - [[frameworks/framework-TCPR底层网络协议]]
 - [[frameworks/framework-TCPR皇冠模型]]
+- [[frameworks/framework-yitang-sales-incentive-6d]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[personal-os/opc-ai-sales-agent-architecture]]
 - [[tools/tool-agent-spec-yitang-customer-segmentation]]
 - [[tools/tool-agent-spec-yitang-objection-handler]]
@@ -11569,6 +12220,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-opc-agent-wave1-real-model-testing]]
 - [[frameworks/framework-TCPR底层网络协议]]
 - [[frameworks/framework-TCPR皇冠模型]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[personal-os/opc-ai-sales-agent-architecture]]
 - [[tools/tool-agent-spec-yitang-customer-segmentation]]
 - [[tools/tool-agent-spec-yitang-objection-handler]]
@@ -11596,6 +12248,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-一堂-个人表达力]]
 - [[tools/tool-platform-requirement-eight-sections]]
 
+## [[tool-ai-agent-feature-comparison]]
+- [[frameworks/framework-truman-feature-thinking-core]]
+
 ## [[tool-ai-ai-workspace-setup]]
 - [[tools/tool-ai-evidence-check]]
 - [[tools/tool-ai-old-small-checklist]]
@@ -11621,6 +12276,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dk/dk-ai-scarcest-resource-is-self]]
 - [[tools/tool-ai-critical-reading-three-layers]]
 - [[tools/tool-tech-probability-80-filter]]
+
+## [[tool-ai-customer-quality-audit]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[tool-ai-deliverable-polish-loop]]
 - [[cases/case-ji-hao-ui-design-constraint-evolution]]
@@ -11650,6 +12308,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-ai-feature-inventory]]
 - [[bridges/bridge-dual-track-feature-system]]
+- [[frameworks/framework-truman-feature-layered-system]]
 
 ## [[tool-ai-four-elements-validation]]
 - [[tools/tool-ai-problem-question-check]]
@@ -11699,6 +12358,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-动力阻力分析]]
 
 ## [[tool-ai-problem-question-check]]
+- [[frameworks/framework-问题边界与Problem澄清五层结构]]
 - [[tools/tool-ai-problem-validation]]
 - [[tools/tool-nine-character-mantra-14-strategies]]
 - [[tools/tool-纪浩-Agent技能市场设计法]]
@@ -11756,8 +12416,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/concept-abundance-paradox]]
 - [[concepts/concept-cognitive-offloading-in-ai-era]]
 - [[dark-knowledges/dk-ai-design-pitfalls]]
+- [[frameworks/framework-ai-deliberate-practice-loop]]
 - [[tools/tool-ai-deliverable-polish-loop]]
 - [[tools/tool-scene-design-language-translation]]
+
+## [[tool-ai-video-market-gap-assessment]]
+- [[frameworks/framework-yitang-research-weapon-system]]
 
 ## [[tool-ai-voice-input-doubao]]
 - [[concepts/voice-input-doubao]]
@@ -11826,8 +12490,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-autoclassify-seven-steps]]
 - [[dark-knowledges/dk-doc-explosion-slowdown]]
+- [[frameworks/framework-knowledge-five-leaps]]
 - [[frameworks/framework-patrolkit-radar]]
 - [[frameworks/framework-serendipity-five-channels]]
+- [[frameworks/framework-truman-agent-team-architecture]]
 
 ## [[tool-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]
 - [[tools/tool-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]
@@ -11937,6 +12603,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-candy-sales-recruiting]]
 - [[cases/case-leo-lubricant-dealer-research]]
+- [[frameworks/framework-ai-sales-collaboration]]
+- [[frameworks/framework-sales-funnel-full]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 
 ## [[tool-canvas-weapon-library-modeling]]
 - [[tools/tool-ROI决策评估画布]]
@@ -11984,18 +12653,28 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-coaching-dialogue-three-versions]]
 - [[dark-knowledges/dk-coaching-boundary-conditions]]
 - [[dark-knowledges/dk-y-model-communication]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-leadership-five-ladders]]
 - [[tools/tool-coaching-communication-segments]]
 
 ## [[tool-coaching-communication-segments]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-leadership-five-ladders]]
 - [[tools/tool-coaching-communication-four-layers]]
 
 ## [[tool-cognitive-bias-12-check]]
 - [[concepts/学会提问在信息洪流中锻造批判性思维的利刃]]
 - [[tools/tool-decision-outside-view]]
 
+## [[tool-cross-city-replication-test]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
+
 ## [[tool-decision-delay-intuition]]
 - [[concepts/pilot-atomic-chunk-comparison]]
 - [[tools/tool-decision-outside-view]]
+
+## [[tool-decision-narrative-method]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[tool-decision-outside-view]]
 - [[concepts/pilot-atomic-chunk-comparison]]
@@ -12024,6 +12703,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-demand-silver-parenting]]
 - [[cases/case-demand-tier4-housekeeping]]
 - [[cases/case-demand-travel-agent]]
+- [[frameworks/framework-multi-agent-research-architecture]]
 - [[tools/tool-demand-iceberg-l4-job-map]]
 
 ## [[tool-demand-agent-multi-hypothesis]]
@@ -12041,6 +12721,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-demand-assessment-triangle]]
 - [[cases/case-demand-iceberg-few-shot]]
+- [[frameworks/framework-科学决策三角形]]
 - [[knowledges/knowledge-demand-2c-dictionary]]
 - [[skills/skill-demand-analysis]]
 - [[tools/tool-demand-ceiling-coach]]
@@ -12056,6 +12737,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-demand-assessment-triangle|需求评估三角形]]
 - [[domains/domain-demand-analysis-index]]
+
+## [[tool-demand-blindspot-checklist]]
+- [[frameworks/yt-demand-decision-chain]]
 
 ## [[tool-demand-ceiling-coach]]
 - [[tools/tool-demand-report-template]]
@@ -12122,6 +12806,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/yt-tool-unit-model-selection]]
 
 ## [[tool-demand-iceberg-l2-scenario]]
+- [[frameworks/framework-问题边界与Problem澄清五层结构]]
 - [[knowledges/knowledge-demand-2c-dictionary]]
 - [[tools/tool-demand-iceberg-l1-user]]
 - [[tools/tool-泛产品设计-需求工具箱指南]]
@@ -12220,6 +12905,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-doris-industry-report-source-evaluation]]
 - [[dark-knowledges/dk-f10-broken-source-refs]]
+- [[frameworks/framework-yitang-six-layer-cross-validation]]
 
 ## [[tool-empathy-practice]]
 - [[domains/human-insights-domain-digest]]
@@ -12230,16 +12916,21 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-feature-review-five-step]]
 - [[cases/case-live258-europe-cold-email]]
 - [[domains/ai-basic-domain-digest]]
+- [[frameworks/framework-truman-feature-layered-system]]
 
 ## [[tool-first-principles-assumption-classify]]
 - [[tools/tool-decision-outside-view]]
 - [[tools/tool-纪浩-Do-first-PDCA渐进迭代法]]
+
+## [[tool-four-line-review]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[tool-funnel-formula-modeling]]
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
 - [[tools/tool-scenario-selector-modeling]]
 
 ## [[tool-google-dorking]]
+- [[frameworks/modeling-scientific-milestones]]
 - [[tools/tool-纪浩-problem-validation-four-checks]]
 
 ## [[tool-harness-adversarial-tester]]
@@ -12258,6 +12949,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-illuminator-vs-diminisher]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
+
+## [[tool-incentive-28-principle]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[tool-indicators-signposts]]
 - [[frameworks/framework-structured-analytic-techniques]]
@@ -12265,10 +12960,18 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-iterative-recursive-deep-dig]]
 - [[cases/case-ai-agent-milestone-design]]
 
+## [[tool-jargon-to-value-translator]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
+
 ## [[tool-kdo-help]]
 - [[dark-knowledges/dk-agent-access-kdo-pitfalls]]
 - [[domains/kdo-moc]]
 - [[tools/tool-mcp-reachability-check]]
+
+## [[tool-kdo-wechat-serendipity-collect]]
+- [[frameworks/framework-knowledge-five-leaps]]
+- [[frameworks/framework-patrolkit-radar]]
+- [[frameworks/framework-serendipity-five-channels]]
 
 ## [[tool-key-assumptions-check]]
 - [[frameworks/framework-structured-analytic-techniques]]
@@ -12283,18 +12986,33 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-knowledge-cheatsheet-sab]]
 - [[concepts/concept-ai-style-knowledge-docs]]
 - [[dark-knowledges/dk-aesthetic-redline-doc]]
+- [[frameworks/framework-dual-center-feishu-obsidian]]
+- [[frameworks/framework-knowledge-compound-rocket-six]]
+- [[frameworks/framework-knowledge-five-leaps]]
 - [[tools/tool-autoclassify-seven-steps]]
 - [[tools/tool-top-level-document]]
 
 ## [[tool-leadership-consensus-goal-escalation]]
 - [[dark-knowledges/dk-coaching-monkey-theory]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-how-to-know-a-person]]
+- [[frameworks/framework-leadership-five-ladders]]
+- [[frameworks/framework-truman-feature-layered-system]]
+
+## [[tool-leadership-exit-consulting]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-how-to-know-a-person]]
+- [[frameworks/framework-leadership-five-ladders]]
+- [[frameworks/framework-yitang-y-model-cross-domain-fusion]]
 
 ## [[tool-leadership-feedback-cards]]
 - [[cases/case-leadership-communication-failures]]
 - [[dark-knowledges/dk-leadership-trust-coin-sensitivity]]
 - [[dark-knowledges/dk-y-model-communication]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-how-to-know-a-person]]
 - [[frameworks/framework-leadership-coin-model]]
 - [[frameworks/framework-leadership-five-ladders]]
 - [[tools/tool-coaching-communication-four-layers]]
@@ -12309,6 +13027,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-leadership-communication-failures]]
 - [[domains/human-insights-domain-digest]]
 - [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-how-to-know-a-person]]
 - [[frameworks/framework-leadership-five-ladders]]
 - [[tools/tool-coaching-communication-four-layers]]
 - [[tools/tool-coaching-communication-segments]]
@@ -12325,6 +13044,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-y-model-communication]]
 - [[dk/dk-meeting-asset-harvest]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-how-to-know-a-person]]
+- [[frameworks/framework-leadership-five-ladders]]
 - [[tools/tool-coaching-communication-four-layers]]
 - [[tools/tool-coaching-communication-segments]]
 - [[tools/tool-leadership-consensus-goal-escalation]]
@@ -12339,6 +13061,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-coaching-boundary-conditions]]
 - [[dark-knowledges/dk-coaching-monkey-theory]]
 - [[domains/human-insights-domain-digest]]
+- [[frameworks/framework-coaching-leadership-core]]
+- [[frameworks/framework-how-to-know-a-person]]
+- [[frameworks/framework-leadership-five-ladders]]
 - [[tools/tool-leadership-consensus-goal-escalation]]
 
 ## [[tool-lean-ai-accelerated-validation]]
@@ -12381,6 +13106,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-lean-stealth-service]]
 - [[cases/case-dutch-childcare-scandal]]
+- [[frameworks/yt-composite-pan-product-methodology]]
+- [[frameworks/yt-demand-early-validation]]
 
 ## [[tool-lean-stealth-service|偷偷服务]]
 - [[tools/tool-lean-premium-service]]
@@ -12390,6 +13117,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-mckinsey-hypothesis-driven-workflow]]
 - [[dark-knowledges/dk-p6-session-resume-fail]]
+- [[frameworks/concept-mckinsey-hypothesis-driven]]
 - [[tools/tool-一堂-hypothesis-validation-three-axe]]
 
 ## [[tool-mcp-reachability-check]]
@@ -12418,8 +13146,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-management-scientific-meetings]]
 - [[dk/dk-meeting-pressure-ignition]]
 - [[dk/dk-meeting-rederive]]
+- [[frameworks/framework-leadership-five-ladders]]
 - [[frameworks/framework-meeting-iceberg-canvas]]
 - [[frameworks/framework-meeting-ten-principles]]
+- [[frameworks/framework-yitang-project-retrospective]]
 - [[tools/tool-yitang-project-kickoff-meeting]]
 
 ## [[tool-meeting-result-principles]]
@@ -12431,6 +13161,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-project-retrospective]]
 - [[tools/tool-yitang-daily-weekly-meeting-hosting]]
 - [[tools/tool-项目复盘基本功]]
+
+## [[tool-meeting-room-match]]
+- [[frameworks/framework-meeting-ten-principles]]
+
+## [[tool-mot-research-method]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[tool-narrative-thinking-user-insight]]
 - [[domains/human-insights-domain-digest]]
@@ -12445,6 +13181,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-research-saturation-self-proof]]
 - [[frameworks/framework-ai-human-70-30-division]]
 - [[frameworks/framework-ai-report-value-ladder-l1-l6]]
+- [[frameworks/framework-ai-sales-collaboration]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
 - [[frameworks/framework-multi-agent-collab-chain-six]]
 - [[frameworks/framework-r-type-research-partner-five-state]]
 
@@ -12477,6 +13215,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-agent-card-execution-pattern]]
 - [[frameworks/framework-yitang-sales-incentive-6d]]
 - [[frameworks/framework-yitang-scientific-sales-five-step]]
+- [[frameworks/framework-一堂-12种阻力总表]]
 - [[personal-os/opc-ai-sales-agent-architecture]]
 - [[systems/system-yitang-Y-model-os]]
 - [[tools/tool-agent-spec-yitang-Y-model-coach]]
@@ -12568,6 +13307,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-prompt-usp-demand-analysis]]
 - [[tools/tool-yitang-ai-assisted-organize]]
 
+## [[tool-qinpeng-ai-intelligent-service]]
+- [[frameworks/framework-christensen-disruptive-innovation]]
+
 ## [[tool-radar-chart-modeling]]
 - [[tools/tool-scenario-selector-modeling]]
 - [[tools/tool-动手建模法]]
@@ -12602,6 +13344,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-customers-hate-ai]]
 - [[domains/sales-domain-digest]]
 - [[frameworks/framework-ai-sales-collaboration]]
+- [[frameworks/framework-sales-funnel-full]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 
 ## [[tool-scenario-selector-modeling]]
 - [[dark-knowledges/dk-modeling-question-scaffold-not-answer]]
@@ -12638,6 +13382,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-extract-then-merge]]
 - [[dark-knowledges/dk-model-demystification]]
 - [[dark-knowledges/dk-three-context-formula]]
+- [[frameworks/framework-dual-center-feishu-obsidian]]
+- [[frameworks/framework-knowledge-five-leaps]]
+- [[frameworks/framework-multi-agent-collab-chain-six]]
 
 ## [[tool-smart-medicine-cabinet-compliance-checklist]]
 - [[tools/tool-ai-use-barbell-strategy]]
@@ -12653,6 +13400,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-truman-livestream-sop-iteration]]
 - [[cases/case-zhangyang-anchor-sop-three-locks]]
 - [[dark-knowledges/dk-modeling-sop-execution-locks]]
+- [[frameworks/yt-decision-y-model-philosophical-roots]]
 - [[tools/tool-scenario-selector-modeling]]
 
 ## [[tool-strategy-12-word-test]]
@@ -12756,8 +13504,20 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-doc-numbering-business-logic]]
 - [[dark-knowledges/dk-future-backward-knowledge-tree]]
 - [[dark-knowledges/dk-shoulu-yixia-culture]]
+- [[frameworks/framework-dual-center-feishu-obsidian]]
+- [[frameworks/framework-knowledge-compound-rocket-six]]
+- [[frameworks/framework-knowledge-five-leaps]]
 - [[tools/tool-knowledge-cheatsheet-sab]]
 - [[tools/tool-skill-packaging-eight-steps]]
+
+## [[tool-trr-maturity-scale]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
+
+## [[tool-value-teaching-three-stage]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
+
+## [[tool-versioned-iteration]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[tool-wanghuan-ai-business-profile]]
 - [[dark-knowledges/dk-wanghuan-creativity-in-description-and-taste]]
@@ -12769,6 +13529,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-wanghuan-standard-by-iteration]]
 - [[dark-knowledges/dk-wanghuan-tacit-decision-extraction-cross-domain]]
 - [[dark-knowledges/yt-note-p-c-role-boundary-realworld]]
+
+## [[tool-wechat-transcript-automation-workflow]]
+- [[frameworks/framework-baozhashidiaochan-five-step]]
+- [[frameworks/framework-knowledge-five-leaps]]
+- [[frameworks/framework-r-type-research-partner-five-state]]
 
 ## [[tool-yb-cross-quadrant-prompt-framework]]
 - [[dark-knowledges/dk-bfm-compression-path]]
@@ -12851,6 +13616,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-ai-assisted-organize]]
 
 ## [[tool-yitang-ai-assisted-organize]]
+- [[frameworks/framework-yitang-research-quality-gate]]
 - [[tools/tool-yitang-ai-assisted-analysis]]
 
 ## [[tool-yitang-ai-research-workflow]]
@@ -12864,6 +13630,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-yitang-app-store-data]]
 - [[concepts/街顺app全面调研报告]]
+- [[frameworks/framework-yitang-research-radar]]
 - [[tools/tool-yitang-app-store-review]]
 - [[tools/tool-yitang-bidding-analysis]]
 
@@ -12874,6 +13641,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-yitang-b2b-gov-research]]
 - [[concepts/yt-tob-cash-flow]]
 - [[concepts/yt-tob-revenue-is-customer-cost]]
+- [[frameworks/framework-yitang-six-layer-cross-validation]]
 - [[frameworks/yt-tob-core-characteristics]]
 - [[frameworks/yt-tob-customer-tiering]]
 - [[frameworks/yt-tob-demand-scenarios]]
@@ -12893,6 +13661,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-ai-painting-commercialization]]
 - [[cases/case-yitang-poker-parameterized-practice]]
 - [[cases/case-yitang-sales-routine-deconstruction]]
+- [[frameworks/framework-ai-deliberate-practice-loop]]
+- [[frameworks/framework-yitang-three-ring-ability-focus]]
 - [[tools/tool-yitang-feedback-self-check]]
 - [[tools/tool-yitang-practice-20hour-starter]]
 - [[tools/tool-yitang-sales-toolkit-radar]]
@@ -12926,6 +13696,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-yitang-course-industrialization]]
 - [[cases/case-yitang-yitang-shortvideo-industrialization]]
 - [[concepts/design-ai-image-generation]]
+- [[frameworks/yt-unit-model-overview]]
 - [[tools/tool-yitang-channel-scoring-matrix]]
 - [[tools/tool-区分获客渠道计算单元roi]]
 
@@ -12938,6 +13709,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-yitang-channel-scan-cheat-sheet]]
 - [[dark-knowledges/dk-yitang-channel-exploration-traps]]
+- [[frameworks/yt-unit-model-overview]]
 - [[tools/tool-yitang-channel-scoring-matrix]]
 - [[tools/tool-yitang-industry-channel-arsenal-index]]
 - [[tools/tool-yitang-referral-channel-optimization]]
@@ -12967,6 +13739,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-ai-prd-for-ai]]
 
 ## [[tool-yitang-consulting-business-research]]
+- [[frameworks/framework-yitang-research-weapon-system]]
+- [[frameworks/framework-yitang-six-layer-cross-validation]]
 - [[tools/tool-yitang-b2b-gov-research]]
 - [[tools/tool-yitang-consumer-goods-research]]
 - [[tools/tool-yitang-job-intelligence-research]]
@@ -12977,6 +13751,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-tech-project-research]]
 
 ## [[tool-yitang-consumer-goods-research]]
+- [[frameworks/framework-yitang-research-weapon-system]]
+- [[frameworks/framework-yitang-six-layer-cross-validation]]
 - [[tools/tool-yitang-amazon-bestseller]]
 - [[tools/tool-yitang-consulting-business-research]]
 - [[tools/tool-yitang-field-research]]
@@ -12988,6 +13764,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-yitang-content-ip-research]]
 - [[concepts/writing-content]]
 - [[dark-knowledges/dk-p11-regex-cutoff]]
+- [[frameworks/framework-yitang-six-layer-cross-validation]]
 - [[tools/tool-yitang-tech-project-research]]
 
 ## [[tool-yitang-court-record-search]]
@@ -13005,6 +13782,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-sales-incentive-6d]]
 - [[frameworks/framework-yitang-sales-target-tradeoffs]]
 - [[frameworks/framework-yitang-scientific-sales-five-step]]
+- [[frameworks/yt-five-step-method-complete]]
 - [[personal-os/opc-ai-sales-agent-architecture]]
 - [[tools/tool-agent-spec-yitang-customer-segmentation]]
 - [[tools/tool-agent-spec-yitang-incentive-design]]
@@ -13032,6 +13810,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-yitang-daily-weekly-meeting-hosting]]
 - [[dk/dk-meeting-roi-first]]
+- [[frameworks/framework-meeting-ten-principles]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[personal-os/opc-ai-sales-agent-architecture]]
 - [[tools/tool-agent-spec-yitang-daily-weekly-meeting-host]]
 - [[tools/tool-meeting-execution-principles]]
@@ -13042,10 +13822,17 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-yitang-research-weapon-supplement-2026]]
 - [[tools/tool-yitang-business-registration-check]]
 
+## [[tool-yitang-dialectical-modeling]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
+
 ## [[tool-yitang-douyin-data]]
 - [[tools/tool-ai-prd-for-ai]]
 
+## [[tool-yitang-dual-guardrail-system]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
+
 ## [[tool-yitang-dual-triangle-agent-handoff-protocol]]
+- [[frameworks/framework-yitang-y-model-dual-triangle-synergy]]
 - [[tools/tool-yihang-dual-triangle-canvas]]
 - [[tools/tool-yitang-dual-triangle-domain-registry]]
 - [[tools/tool-yitang-dual-triangle-scenario-router]]
@@ -13058,6 +13845,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-dual-triangle-scenario-router]]
 
 ## [[tool-yitang-dual-triangle-scenario-router]]
+- [[frameworks/framework-yitang-y-model-dual-triangle-synergy]]
 - [[tools/tool-yihang-dual-triangle-canvas]]
 - [[tools/tool-yitang-dual-triangle-agent-handoff-protocol]]
 - [[tools/tool-yitang-dual-triangle-domain-registry]]
@@ -13080,6 +13868,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/concept-yitang-comfort-stretch-panic-zones]]
 - [[dark-knowledges/dk-f5-stale-feedback-ref]]
 - [[dk/dk-yitang-deliberate-practice-common-traps]]
+- [[frameworks/framework-ai-deliberate-practice-loop]]
 - [[tools/tool-yitang-best-practice-as-golden-finger]]
 - [[tools/tool-yitang-practice-20hour-starter]]
 
@@ -13091,6 +13880,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-behavioral-observation]]
 
 ## [[tool-yitang-financial-report-intelligence]]
+- [[frameworks/yt-business-model-unit-economics]]
 - [[tools/tool-yitang-bp-analysis]]
 - [[tools/tool-yitang-business-registration-check]]
 
@@ -13149,6 +13939,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-consulting-business-research]]
 
 ## [[tool-yitang-listening-37-rule]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[tools/tool-leadership-listening-cards]]
 
 ## [[tool-yitang-method-ab-sides-checklist]]
@@ -13167,11 +13958,13 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-product-full-experience]]
 
 ## [[tool-yitang-organization-research]]
+- [[frameworks/framework-yitang-six-layer-cross-validation]]
 - [[tools/tool-yitang-consulting-business-research]]
 - [[tools/tool-yitang-consumer-goods-research]]
 - [[tools/tool-yitang-tech-project-research]]
 
 ## [[tool-yitang-overseas-research]]
+- [[frameworks/framework-yitang-six-layer-cross-validation]]
 - [[tools/tool-yitang-amazon-bestseller]]
 - [[tools/tool-yitang-consulting-business-research]]
 - [[tools/tool-yitang-consumer-goods-research]]
@@ -13207,11 +14000,13 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-sales-routine-deconstruction]]
 - [[concepts/concept-yitang-comfort-stretch-panic-zones]]
 - [[dk/dk-yitang-deliberate-practice-common-traps]]
+- [[frameworks/framework-ai-deliberate-practice-loop]]
 - [[frameworks/framework-yitang-three-ring-ability-focus]]
 - [[tools/tool-yitang-best-practice-as-golden-finger]]
 - [[tools/tool-yitang-feedback-self-check]]
 
 ## [[tool-yitang-product-full-experience]]
+- [[frameworks/framework-yitang-research-weapon-system]]
 - [[tools/tool-yitang-anonymous-product-testing]]
 - [[tools/tool-yitang-bp-analysis]]
 - [[tools/tool-yitang-hardware-product-disassembly]]
@@ -13221,6 +14016,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-agent-spec-yitang-ability-migration-diagnosis]]
 
 ## [[tool-yitang-project-breakdown-cheatsheet]]
+- [[frameworks/framework-yitang-project-plan-design]]
 - [[tools/agent-spec-project-management-assistant]]
 - [[tools/tool-yitang-project-weapon-library-v1-8]]
 - [[tools/tool-yitang-retrospective-canvas]]
@@ -13251,9 +14047,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-project-comm-matrix]]
 
 ## [[tool-yitang-project-cost-estimation]]
+- [[frameworks/framework-yitang-project-plan-design]]
 - [[tools/tool-yitang-project-resource-escalation]]
 
 ## [[tool-yitang-project-gap-analysis]]
+- [[frameworks/framework-yitang-project-retrospective]]
 - [[tools/tool-yitang-project-retro-goal-types]]
 - [[tools/tool-yitang-project-retro-value-mining]]
 
@@ -13282,15 +14080,21 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-yitang-project-comm-frequency]]
 - [[tools/tool-yitang-project-unblock-techniques]]
 
+## [[tool-yitang-project-proposal-checklist]]
+- [[frameworks/framework-yitang-project-plan-design]]
+
 ## [[tool-yitang-project-retro-value-mining]]
+- [[frameworks/framework-yitang-project-retrospective]]
 - [[tools/tool-yitang-dual-triangle-scenario-router]]
 - [[tools/tool-yitang-project-gap-analysis]]
 - [[tools/tool-yitang-project-retro-goal-types]]
 
 ## [[tool-yitang-project-risk-discovery]]
+- [[frameworks/framework-yitang-project-plan-design]]
 - [[tools/tool-yitang-project-risk-response]]
 
 ## [[tool-yitang-project-risk-response]]
+- [[frameworks/framework-yitang-project-plan-design]]
 - [[tools/tool-yitang-project-risk-discovery]]
 
 ## [[tool-yitang-project-unblock-techniques]]
@@ -13307,6 +14111,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-shishi-qiushi-pitfall-4-no-quantification]]
 - [[dark-knowledges/dk-yitang-over-prediction-danger]]
 - [[tools/tool-yitang-shishi-qiushi-cheat-sheet]]
+
+## [[tool-yitang-quantity-bold-matrix]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[tool-yitang-recruit-user-interview]]
 - [[tools/tool-ai-prd-for-ai]]
@@ -13442,6 +14249,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-yitang-retrospective-canvas]]
 - [[dk/dk-meeting-asset-harvest]]
+- [[frameworks/framework-yitang-project-execution]]
+- [[frameworks/framework-yitang-project-plan-design]]
 - [[frameworks/framework-yitang-project-retrospective]]
 - [[tools/agent-spec-project-management-assistant]]
 - [[tools/tool-yitang-project-weapon-library-v1-8]]
@@ -13545,6 +14354,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-yitang-sales-toolkit-maturity-60-75-85]]
 - [[cases/case-yitang-yitu-lead-industrialization]]
+- [[frameworks/framework-yitang-sales-incentive-6d]]
+- [[frameworks/framework-yitang-scientific-sales-five-step]]
 - [[tools/tool-agent-spec-yitang-sales-toolkit-gap]]
 
 ## [[tool-yitang-sales-toolkit-radar]]
@@ -13628,6 +14439,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/HIS系统深度调研]]
 - [[concepts/开源HIS系统代码深度分析报告]]
 - [[concepts/轻量级诊所HIS调研全清单]]
+- [[frameworks/framework-yitang-six-layer-cross-validation]]
 - [[tools/tool-yitang-consulting-business-research]]
 - [[tools/tool-yitang-consumer-goods-research]]
 
@@ -13638,12 +14450,17 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-foresight-source-material-blindness]]
 
 ## [[tool-yitang-tech-project-research]]
+- [[frameworks/framework-yitang-research-weapon-system]]
+- [[frameworks/framework-yitang-six-layer-cross-validation]]
 - [[tools/tool-yitang-b2b-gov-research]]
 - [[tools/tool-yitang-consulting-business-research]]
 - [[tools/tool-yitang-consumer-goods-research]]
 - [[tools/tool-yitang-content-ip-research]]
 - [[tools/tool-yitang-organization-research]]
 - [[tools/tool-yitang-overseas-research]]
+
+## [[tool-yitang-ten-layer-interpretation]]
+- [[frameworks/framework-yitang-thought-liberation-lightning]]
 
 ## [[tool-yitang-three-second-opening-scripts]]
 - [[frameworks/framework-yitang-scientific-sales-five-step]]
@@ -13751,6 +14568,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/tinyfish-agentic-web-infrastructure]]
 - [[dark-knowledges/dk-p3-auth-cache]]
 - [[dark-knowledges/dk-p6-session-resume-fail]]
+- [[frameworks/framework-multi-agent-research-architecture]]
 - [[frameworks/framework-yitang-research-weapon-supplement-2026]]
 - [[skills/feishu-docx-pagination-extraction]]
 - [[tools/tool-yitang-weapon-media-search]]
@@ -13766,6 +14584,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-yitang-xiaohongshu-data]]
 - [[tools/tool-ai-prd-for-ai]]
+
+## [[tool-yizhan-shendeng]]
+- [[frameworks/framework-serendipity-five-channels]]
 
 ## [[tool-zhu-ai-deliberate-practice-roadmap]]
 - [[frameworks/framework-ai-deliberate-practice-loop]]
@@ -13965,8 +14786,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-动力阻力分析]]
 
 ## [[tool-一堂-关键假设-ABCD场景分类器]]
+- [[frameworks/framework-一堂-业务公式拆解-总纲]]
 - [[frameworks/framework-一堂-关键假设-ABCD模型]]
 - [[frameworks/framework-一堂-关键假设]]
+- [[frameworks/yt-decision-abcd-model]]
 - [[tools/tool-一堂-hypothesis-validation-three-axe]]
 
 ## [[tool-一堂-准备系数法则]]
@@ -14170,6 +14993,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[frameworks/framework-一堂-12触点SABC分级]]
 - [[tools/tool-一堂-ABACC叙事法]]
 - [[tools/tool-一堂-讲香双策略]]
+
+## [[tool-一堂-表达力火箭模型-执行武器库]]
+- [[frameworks/framework-一堂-个人表达力]]
 
 ## [[tool-一堂-触点减法与排序]]
 - [[cases/case-一堂-一堂自身转化实践]]
@@ -14820,6 +15646,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[tools/tool-纪浩-Agent技能市场设计法]]
 
 ## [[tool-团队复盘引导清单]]
+- [[frameworks/framework-一堂-四象限复盘法]]
+- [[frameworks/framework-一堂-团队复盘四阶段12策略]]
+- [[frameworks/framework-一堂-复盘本质与三要素]]
 - [[tools/agent-spec-复盘教练]]
 
 ## [[tool-场景推演]]
@@ -14857,6 +15686,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-复盘推演法]]
 - [[domains/retrospective-moc]]
+- [[frameworks/framework-一堂-复盘本质与三要素]]
 - [[tools/tool-纪浩-Agent技能市场设计法]]
 
 ## [[tool-复盘推演练习]]
@@ -14872,6 +15702,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-复盘浪费九宗罪自检清单]]
 - [[dark-knowledges/dk-借假修真与黑盒白盒]]
 - [[domains/retrospective-moc]]
+- [[frameworks/framework-一堂-四象限复盘法]]
 - [[tools/tool-meeting-basic-principles]]
 
 ## [[tool-多模型对比抽卡]]
@@ -15309,6 +16140,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-yitang-business-formula-plus-times-trap]]
 - [[tools/tool-demand-iceberg-l2-scenario]]
 - [[tools/tool-月白-设计文件八要素命名法]]
+
+## [[tool-月白-MOC]]
+- [[frameworks/framework-一堂-个人表达力]]
 
 ## [[tool-月白-PPT全AI生成工作流]]
 - [[concepts/kdo_product_design_agent_final]]
@@ -15884,6 +16718,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-deepfake-market-misuse]]
 
 ## [[tool-泛产品设计-出牌指南]]
+- [[frameworks/yt-model-pan-product-climbing-map]]
 - [[tools/tool-泛产品设计-需求可行性四字诀]]
 
 ## [[tool-泛产品设计-出牌指南|L1 出牌序列]]
@@ -16055,6 +16890,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-科学学习IPO完整清单]]
 - [[domains/decision-science-domain-digest]]
+- [[frameworks/framework-yitang-project-retrospective]]
 - [[tools/tool-IPO学习-输入处理输出工具箱导航]]
 
 ## [[tool-科学学习IPO完整清单|科学学习IPO完整清单]]
@@ -16172,6 +17008,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-纪浩-Problem与Question区分法]]
 - [[cases/case-纪浩-from-zip-to-five-layers]]
+- [[frameworks/framework-问题边界与Problem澄清五层结构]]
 - [[tools/tool-ai-problem-question-check]]
 - [[tools/tool-纪浩-Agent开工检查单制作法]]
 - [[tools/tool-纪浩-Agent技能市场设计法]]
@@ -16181,6 +17018,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-纪浩-problem-validation-four-checks]]
 - [[cases/case-纪浩-from-zip-to-five-layers]]
+- [[frameworks/framework-问题边界与Problem澄清五层结构]]
 - [[tools/tool-ai-problem-question-check]]
 - [[tools/tool-ai-problem-validation]]
 - [[tools/tool-纪浩-Agent技能市场设计法]]
@@ -16485,6 +17323,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[tool-通过综合案例沙盘走通全流程]]
 - [[frameworks/modeling-scientific-milestones]]
+- [[frameworks/yt-five-step-method-complete]]
 - [[tools/tool-demand-iceberg-l4-job-map]]
 - [[tools/tool-使用优先级快筛卡锁定核心矛盾]]
 - [[tools/tool-使用概念辨析卡区分易混淆概念]]
@@ -16779,6 +17618,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tool-马易-风口痛点识别法]]
 - [[tools/tool-yitang-bp-analysis]]
 
+## [[tools-workflows]]
+- [[frameworks/ai-methodology-tools]]
+
 ## [[truman-ai-partner-design-analysis]]
 - [[dark-knowledges/yt-note-ai-p-role-not-c-role]]
 
@@ -16826,6 +17668,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-management-project-management]]
 - [[dark-knowledges/dk-yitang-project-overmanagement-vs-bare-run]]
 - [[frameworks/framework-yitang-project-execution]]
+- [[frameworks/framework-yitang-project-plan-design]]
+- [[frameworks/framework-yitang-project-retrospective]]
 - [[skills/skill-yitang-project-spiral-thinking]]
 - [[tools/agent-spec-project-management-assistant]]
 - [[tools/tool-yitang-project-breakdown-cheatsheet]]
@@ -16841,6 +17685,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/老朱的水感-2026年5月]]
 - [[dark-knowledges/dk-p11-regex-cutoff]]
 - [[frameworks/framework-brand-three-degree]]
+- [[frameworks/yt-lean-b2b-b2c-hardware-content-testing]]
 
 ## [[xingangwan-pharma-business-formulas]]
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
@@ -16857,11 +17702,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[projects/shanxi-field-research-checklist-20260701]]
 
 ## [[xingangwan-pharma-business-model-formulas]]
+- [[frameworks/xingangwan-pharma-business-formulas]]
+- [[frameworks/xingangwan-pharma-business-model-calc]]
 - [[projects/shanxi-field-research-checklist-20260701]]
 
 ## [[xingangwan-pharma-mall-cabinet-internet-hospital-model]]
 - [[60_feedback/usage-logs/session-20260619-xingangwan-business-formula-reconstruction]]
 - [[concepts/smart-medicine-cabinet-distribution]]
+- [[frameworks/xingangwan-pharma-business-formulas]]
+- [[frameworks/xingangwan-pharma-business-model-calc]]
 - [[frameworks/xingangwan-pharma-business-model-formulas]]
 - [[projects/parking-lot]]
 - [[projects/shanxi-field-research-checklist-20260701]]
@@ -17776,6 +18625,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-business-model-revenue-types]]
 - [[domains/business-formula-domain-digest]]
 - [[frameworks/framework-一堂-业务公式拆解-总纲]]
+- [[frameworks/yt-business-formula-abc-model]]
+- [[frameworks/yt-business-formula-business-pattern-selector]]
+- [[frameworks/yt-business-formula-qualitative-metrics-library]]
 - [[frameworks/yt-business-model-platform-strategy]]
 
 ## [[yt-business-formula-parameter-iceberg]]
@@ -18006,9 +18858,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-business-model-pivot-signals]]
 - [[dark-knowledges/yt-growth-scaling-pitfalls]]
+- [[frameworks/yt-business-model-unit-economics]]
 
 ## [[yt-business-model-scalability]]
 - [[dark-knowledges/yt-growth-scaling-pitfalls]]
+
+## [[yt-business-model-to-growth]]
+- [[frameworks/yt-growth-strategy-overview]]
+- [[frameworks/yt-growth-to-barrier]]
+- [[frameworks/yt-product-kernel-to-business-model]]
 
 ## [[yt-business-model-unit-economics]]
 - [[cases/case-cross-xingangwan-pharma]]
@@ -18071,6 +18929,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-pitch-scenarization]]
 - [[concepts/yt-pitch-sublimation]]
 - [[concepts/yt-tool-knowledge-extraction]]
+- [[frameworks/yt-composite-pan-product-methodology]]
 - [[tools/yt-pitch-metaphor]]
 - [[tools/yt-pitch-quantification]]
 - [[tools/yt-pitch-storytelling]]
@@ -18131,6 +18990,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cross-domain-patterns/pattern-layered-matching]]
 - [[dk/dk-meeting-rederive]]
 - [[frameworks/framework-meeting-iceberg-canvas]]
+- [[frameworks/framework-meeting-ten-principles]]
 - [[frameworks/yt-decision-abcd-model]]
 - [[frameworks/yt-decision-y-model-philosophical-roots]]
 
@@ -18315,6 +19175,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-wanghuan-tacit-decision-extraction-cross-domain]]
 - [[domains/domain-demand-analysis-index]]
 - [[frameworks/yt-demand-decision-chain]]
+- [[frameworks/yt-demand-scenario-reconstruction]]
 - [[frameworks/yt-lean-b2b-b2c-hardware-content-testing]]
 - [[skills/yt-demand-insight-extraction]]
 - [[tools/yt-demand-level-assessment]]
@@ -18324,6 +19185,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-demand-competitive-displacement]]
 - [[domains/domain-demand-analysis-index]]
+- [[frameworks/yt-demand-jtbd-application]]
 
 ## [[yt-demand-competitive-displacement|需求替代陷阱]]
 - [[domains/domain-demand-analysis-index]]
@@ -18333,6 +19195,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-demand-b2b-vs-b2c]]
 - [[dark-knowledges/dk-sales-demand-mining-is-company-task]]
 - [[domains/domain-demand-analysis-index]]
+- [[frameworks/yt-demand-scenario-reconstruction]]
 
 ## [[yt-demand-decision-chain|ToB决策链需求分析]]
 - [[cases/case-demand-b2b-enterprise-erp]]
@@ -18371,6 +19234,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/yt-product-kernel-failure-modes]]
 - [[domains/domain-demand-analysis-index]]
 - [[frameworks/yt-demand-early-validation]]
+- [[frameworks/yt-demand-jtbd-application]]
 
 ## [[yt-demand-fake-demand-detection|伪需求识别：7个危险信号]]
 - [[dark-knowledges/dk-demand-signal-vs-noise]]
@@ -18459,9 +19323,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-demand-user-segmentation]]
 - [[domains/domain-demand-analysis-index]]
 - [[frameworks/yt-demand-decision-chain]]
+- [[frameworks/yt-demand-jtbd-application]]
 
 ## [[yt-demand-scope-creep]]
 - [[domains/domain-demand-analysis-index]]
+- [[frameworks/yt-demand-early-validation]]
 
 ## [[yt-demand-scope-creep|需求蔓延]]
 - [[domains/domain-demand-analysis-index]]
@@ -18478,6 +19344,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-demand-user-segmentation]]
 - [[cases/case-demand-b2c-consumer-insight]]
 - [[domains/domain-demand-analysis-index]]
+- [[frameworks/yt-demand-scenario-reconstruction]]
 
 ## [[yt-demand-user-segmentation|用户分层与需求差异]]
 - [[domains/domain-demand-analysis-index]]
@@ -18948,12 +19815,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-foresight-deliverables-four-levels]]
 - [[cases/case-truman-yitang-foresight]]
 - [[concepts/yt-foresight-business-spectrum]]
+- [[frameworks/framework-一堂-机会预判]]
+- [[frameworks/yt-business-formula-abc-model]]
 
 ## [[yt-foresight-model-taxonomy]]
 - [[_archive/concept-一堂-business-prediction]]
 - [[concepts/concept-mckinsey-mece]]
 - [[concepts/yt-foresight-business-spectrum]]
 - [[concepts/yt-model-prediction-model]]
+- [[frameworks/framework-一堂-机会预判]]
 
 ## [[yt-foresight-probability-engineering]]
 - [[cases/case-truman-yitang-foresight]]
@@ -19044,6 +19914,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-growth-scaling-pitfalls]]
 - [[concepts/source-code-delivery-model]]
 - [[frameworks/private-domain-saas-sales-funnel]]
+- [[frameworks/yt-business-model-scalability]]
+- [[frameworks/yt-growth-data-driven-decision]]
+- [[frameworks/yt-growth-funnel-optimization]]
+- [[frameworks/yt-growth-strategy-overview]]
 
 ## [[yt-growth-strategy-overview]]
 - [[dark-knowledges/yt-growth-scaling-pitfalls]]
@@ -19098,8 +19972,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/yt-lean-daily-chemical-mvp]]
 - [[cases/yt-lean-flower-mom-group-leader]]
 
+## [[yt-lean-essence]]
+- [[frameworks/yt-lean-assumption-prioritization]]
+
 ## [[yt-lean-false-model-ai]]
 - [[dark-knowledges/dk-tool-as-phased-validator]]
+- [[frameworks/yt-lean-assumption-verification-3means]]
 
 ## [[yt-lean-flower-mom-group-leader]]
 - [[cases/yt-lean-beauty-store-conversion]]
@@ -19355,6 +20233,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-panproduct-aesthetic-pool]]
 - [[concepts/yt-panproduct-demand-user-perspective]]
 - [[concepts/yt-product-kernel-aesthetic]]
+- [[frameworks/yt-model-pan-product-three-virtues]]
 
 ## [[yt-model-cognitive-upgrade-framework]]
 - [[concepts/yt-concept-p-type-l-type]]
@@ -19536,6 +20415,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-personal-pan-product-aesthetics]]
 - [[concepts/yt-personal-pan-product-concepts]]
 - [[concepts/yt-product-kernel-aesthetic]]
+- [[frameworks/yt-composite-pan-product-methodology]]
 - [[frameworks/yt-model-pan-product-climbing-map]]
 - [[frameworks/yt-model-pan-product-three-virtues]]
 - [[systems/agent-native-card-design]]
@@ -19601,6 +20481,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-panproduct-demand-user-segmentation]]
 - [[concepts/yt-personal-pan-product-concepts]]
 - [[concepts/yt-personal-pan-product-practice]]
+- [[frameworks/yt-composite-pan-product-methodology]]
 - [[frameworks/yt-model-pan-product-climbing-map]]
 - [[frameworks/yt-model-pan-product-three-virtues]]
 - [[systems/agent-native-card-design]]
@@ -19643,6 +20524,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-model-pan-product-demand-toolkit]]
 - [[concepts/yt-personal-pan-product-02]]
 - [[concepts/yt-personal-pan-product-concepts]]
+- [[frameworks/yt-composite-pan-product-methodology]]
 - [[frameworks/yt-model-pan-product-climbing-map]]
 - [[frameworks/yt-model-pan-product-three-virtues]]
 - [[systems/agent-native-card-design]]
@@ -19798,6 +20680,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-note-l4-internalization]]
 - [[concepts/yt-note-l6-extraction]]
 - [[concepts/yt-skill-storyline-timeline]]
+- [[frameworks/yt-composite-pan-product-methodology]]
 - [[tools/tool-note-layer-constraint]]
 - [[tools/yt-note-five-levels-training]]
 - [[tools/yt-note-live-field-skill]]
@@ -20229,6 +21112,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-product-kernel-iteration]]
 - [[dark-knowledges/yt-product-kernel-premature-optimization]]
 - [[domains/product-moc]]
+- [[frameworks/yt-product-kernel-six-levels]]
+- [[frameworks/yt-product-kernel-to-business-model]]
 - [[frameworks/yt-product-kernel-validation]]
 
 ## [[yt-product-kernel-key-conversion]]
@@ -20242,6 +21127,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/yt-growth-scaling-pitfalls]]
 - [[dark-knowledges/yt-product-kernel-cost-sensitive-default-no]]
 - [[dark-knowledges/yt-product-kernel-failure-modes]]
+- [[frameworks/yt-demand-early-validation]]
+- [[frameworks/yt-product-kernel-iteration]]
+- [[frameworks/yt-product-kernel-validation]]
 
 ## [[yt-product-kernel-shampoo-case]]
 - [[cases/case-truman-ai-skill-self-packaging]]
@@ -20266,6 +21154,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/yt-product-kernel-premature-optimization]]
 - [[domains/product-moc]]
 - [[frameworks/yt-product-kernel-iteration]]
+- [[frameworks/yt-product-kernel-six-levels]]
+- [[frameworks/yt-product-kernel-to-business-model]]
 
 ## [[yt-product-ten-metrics]]
 - [[concepts/yt-product-kernel-cultivation]]
@@ -20420,6 +21310,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-skill-checklist-as-ai-protocol]]
 - [[cases/case-toc-content-platform-correlation-trap]]
 - [[concepts/yt-note-checklist-concept]]
+- [[frameworks/framework-TCPR底层网络协议]]
 - [[tools/tool-ai-skill-engineering-guide]]
 - [[tools/tool-ai-skill-engineering-method]]
 - [[tools/tool-yitang-18-strategy-tool-mapping]]
@@ -20536,6 +21427,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-tob-revenue-is-customer-cost]]
 - [[frameworks/yt-tob-core-characteristics]]
 - [[frameworks/yt-tob-customer-tiering]]
+- [[frameworks/yt-tob-demand-metrics]]
 - [[frameworks/yt-tob-demand-scenarios]]
 - [[frameworks/yt-tob-product-kernel]]
 
@@ -20545,6 +21437,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-tob-sales-unit-model]]
 - [[dark-knowledges/dk-wanghuan-tacit-decision-extraction-cross-domain]]
 - [[frameworks/business-formula-to-kdo-card-quality]]
+- [[frameworks/yt-product-kernel-to-business-model]]
 
 ## [[yt-tob-customer-tiering]]
 - [[cases/case-smart-medicine-cabinet-corporate-risk]]
@@ -20556,6 +21449,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[cases/case-yitang-tob-career-planning]]
 - [[concepts/yt-tob-sales-unit-model]]
 - [[domains/domain-demand-analysis-index]]
+- [[frameworks/yt-tob-demand-scenarios]]
 
 ## [[yt-tob-demand-metrics|To B 需求测算双指标]]
 - [[cases/case-demand-b2b-enterprise-erp]]
@@ -20566,9 +21460,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-tob-growth-channel]]
 - [[cases/case-yitang-tob-artificial-bone]]
+- [[frameworks/yt-tob-unit-model]]
 
 ## [[yt-tob-product-kernel]]
 - [[cases/case-yitang-tob-career-planning]]
+- [[frameworks/yt-tob-demand-metrics]]
 
 ## [[yt-tob-revenue-is-customer-cost]]
 - [[cases/case-yitang-tob-career-planning]]
@@ -20581,10 +21477,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[dark-knowledges/dk-sales-big-deal-vs-small-deal]]
 - [[frameworks/framework-sales-funnel-full]]
 - [[frameworks/sales-pitch-bias-patterns]]
+- [[frameworks/yt-tob-demand-metrics]]
 - [[tools/tool-candy-sales-recruiting]]
 
 ## [[yt-tob-solution-model]]
 - [[cross-domain-patterns/pattern-layered-matching]]
+- [[frameworks/yt-tob-customer-tiering]]
 
 ## [[yt-tob-unit-model]]
 - [[cases/case-cross-xingangwan-pharma]]
@@ -20796,6 +21694,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-tool-product-core-canvas]]
 - [[frameworks/concept-maister-trusted-advisor]]
 - [[frameworks/framework-meeting-iceberg-canvas]]
+- [[frameworks/framework-meeting-ten-principles]]
 - [[tools/tool-note-layer-constraint]]
 - [[tools/tool-yitang-project-kickoff-meeting]]
 - [[tools/tool-yitang-project-plan-canvas]]
@@ -20840,6 +21739,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-unit-model-ai-assisted]]
 - [[concepts/ai数据理解第一课]]
 - [[concepts/yt-unit-model-dynamic]]
+- [[frameworks/yt-unit-model-ladder]]
 
 ## [[yt-unit-model-benchmark]]
 - [[concepts/yt-unit-model-construction]]
@@ -20850,6 +21750,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-business-formula-parameter-iceberg]]
 - [[concepts/yt-unit-model-concept]]
 - [[concepts/yt-unit-model-selection]]
+- [[frameworks/yt-unit-model-ladder]]
 
 ## [[yt-unit-model-concept]]
 - [[cases/case-yitang-solid-redbull-channel]]
@@ -20870,12 +21771,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-unit-model-benchmark]]
 - [[concepts/yt-unit-model-dynamic]]
 - [[concepts/yt-unit-model-selection]]
+- [[frameworks/yt-unit-model-ladder]]
 
 ## [[yt-unit-model-dynamic]]
 - [[concepts/ai单元模型口述蒋老师]]
 - [[concepts/yt-unit-model-ai-assisted]]
 - [[concepts/yt-unit-model-benchmark]]
 - [[concepts/yt-unit-model-construction]]
+- [[frameworks/yt-unit-model-ladder]]
 
 ## [[yt-unit-model-ladder]]
 - [[concepts/ai单元模型口述蒋老师]]
@@ -20910,6 +21813,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[concepts/yt-unit-model-build]]
 - [[concepts/yt-unit-model-concept]]
 - [[concepts/yt-unit-model-construction]]
+- [[frameworks/yt-unit-model-ladder]]
 
 ## [[yt-unit-model-three-tools]]
 - [[cases/case-five-step-growth-first-lever]]

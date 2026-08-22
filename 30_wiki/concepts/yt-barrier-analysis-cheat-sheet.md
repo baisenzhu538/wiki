@@ -14,6 +14,10 @@ related:
 - '[[case-toy-cabinet-barrier]]'
 - '[[case-zhihu-vs-degetao-network-effect]]'
 - '[[yt-barrier-identification-skill]]'
+- '[[yt-five-step-common-pitfalls]]'
+- '[[yt-five-step-implementation]]'
+- '[[yt-five-step-level-blindspots]]'
+- '[[yt-growth-cycle-model]]'
 aliases:
 - 分析完整
 - 壁垒分析完整cheatsheet

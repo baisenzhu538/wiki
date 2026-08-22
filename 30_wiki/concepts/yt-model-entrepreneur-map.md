@@ -27,6 +27,13 @@ related:
 - '[[yt-personal-deep-review]]'
 - '[[yt-personal-knowledge-extraction]]'
 - '[[yt-personal-ipo-learning]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-entrepreneur-growth-flywheel]]'
+- '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-entrepreneur-liberate-thinking]]'
+- '[[yt-entrepreneur-research-cognition]]'
+- '[[yt-entrepreneur-unit-model]]'
+- '[[yt-foresight-business-spectrum]]'
 reviewed_by: 王语嫣
 aliases:
 - 修炼地图

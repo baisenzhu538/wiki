@@ -35,6 +35,9 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[concept-collaboration-philosophy-foundation]]'
+- '[[yt-management-leadership-levels]]'
+- '[[yt-management-scientific-meetings]]'
+- '[[yt-management-strategy-meeting]]'
 tags:
 - audience:general
 - scene:reference

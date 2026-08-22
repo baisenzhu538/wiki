@@ -42,6 +42,7 @@ type: concept
 status: draft
 related:
   - '[[case-truman-ai-partner]]'
+  - '[[yt-model-cognitive-upgrade-framework]]'
 ---
 # 清单体笔记（一堂笔记法）
 

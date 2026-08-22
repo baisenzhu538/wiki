@@ -31,6 +31,9 @@ related:
 - '[[yt-pitch-aphorism]]'
 - '[[yt-pitch-emotionalization]]'
 - '[[concept-讲香-卖点直给到价值感]]'
+- '[[yt-concept-ai-guard-brain]]'
+- '[[yt-concept-context-engineering]]'
+- '[[yt-concept-weapon-arsenal]]'
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。
 aliases:

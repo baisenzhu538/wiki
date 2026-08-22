@@ -32,6 +32,10 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-growth-activation-rate]]'
+- '[[yt-growth-growth-hacking]]'
+- '[[yt-growth-monetization-optimization]]'
+- '[[yt-growth-viral-mechanism]]'
 diagnostic_signals:
 - framework_lens: 获客渠道——流量不够需要分析渠道结构
   follow_up_question: 你的流量来自哪些渠道？每个渠道的CAC和ROI是多少？

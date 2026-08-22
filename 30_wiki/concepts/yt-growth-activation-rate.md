@@ -28,6 +28,8 @@ related:
 - '[[yt-growth-acquisition-channels]]'
 - '[[yt-growth-growth-hacking]]'
 - '[[yt-growth-market-led-growth]]'
+- '[[yt-growth-monetization-optimization]]'
+- '[[yt-growth-viral-mechanism]]'
 diagnostic_signals:
 - framework_lens: 激活率——注册用户多但活跃少，说明激活环节断了
   follow_up_question: 你的激活率是多少？用户注册后第一次体验到价值的路径是什么？

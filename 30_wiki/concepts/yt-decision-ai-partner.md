@@ -31,6 +31,8 @@ related:
 - '[[yt-prompt-anti-flattery]]'
 - '[[case-yitang-double-triangle-confidence]]'
 - '[[concept-AI时代双三角竞争力]]'
+- '[[yt-decision-habit-shift]]'
+- '[[yt-decision-height-toolkit]]'
 reviewed_by: 周伯通
 aliases:
   - AI决策Partner对话法

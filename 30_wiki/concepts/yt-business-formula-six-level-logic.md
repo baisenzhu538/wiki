@@ -120,6 +120,7 @@ related:
 - '[[case-yitang-dongyuan-dance-retention-c-vs-d]]'
 - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
+- '[[yt-business-formula-l6-essence-formulas]]'
 tags:
 - audience:general
 - scene:reference

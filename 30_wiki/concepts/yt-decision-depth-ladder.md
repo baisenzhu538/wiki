@@ -49,6 +49,12 @@ related:
 - '[[tool-审美工具箱]]'
 - '[[yt-business-formula-six-level-logic]]'
 - '[[case-yitang-yai-scientific-decision-life-direction]]'
+- '[[yt-decision-ai-partner]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[yt-decision-full-process]]'
+- '[[yt-decision-habit-shift]]'
+- '[[yt-decision-height-toolkit]]'
 query_triggers:
 - src_unknown
 - src_unknown

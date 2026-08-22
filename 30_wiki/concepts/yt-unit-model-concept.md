@@ -40,6 +40,10 @@ related:
 - '[[case-yitang-solid-redbull-channel]]'
 - '[[case-yitang-yitang-self-growth-channel]]'
 - '[[concept-ai-native-organization-five-steps]]'
+- '[[yt-business-analysis-cognitive-biases]]'
+- '[[yt-five-step-common-pitfalls]]'
+- '[[yt-five-step-implementation]]'
+- '[[yt-five-step-level-blindspots]]'
 status: enriched
 updated_at: '2026-06-17'
 title: 单元模型：商业模式评估的核心工具

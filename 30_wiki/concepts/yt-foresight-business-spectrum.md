@@ -31,6 +31,10 @@ related:
 - '[[concept-一堂-终局光谱图解读]]'
 - '[[framework-一堂五步法]]'
 - '[[yt-ai-trend-12-signals]]'
+- '[[yt-demand-analysis-hiking-map]]'
+- '[[yt-five-step-method]]'
+- '[[yt-foresight-15-char-mantra]]'
+- '[[yt-foresight-ab-steady-state]]'
 review_date: 2026-06-16
 reviewed_by:
 - src_unknown

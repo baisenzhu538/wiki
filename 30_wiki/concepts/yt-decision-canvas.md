@@ -29,6 +29,11 @@ related:
 - '[[yt-decision-ai-partner]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yitang-strategy-canvas]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[yt-decision-full-process]]'
+- '[[yt-decision-habit-shift]]'
+- '[[yt-decision-height-toolkit]]'
+- '[[yt-decision-review]]'
 reviewed_by: 周伯通
 aliases:
   - Y模型决策画布一页纸工具

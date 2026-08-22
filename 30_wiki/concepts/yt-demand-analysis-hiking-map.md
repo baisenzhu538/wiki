@@ -10,6 +10,11 @@ related:
 - '[[case-treadmill-demand-analysis]]'
 - '[[yt-foresight-business-spectrum]]'
 - '[[pending_unknown]]'
+- '[[yt-business-analysis-cognitive-biases]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-five-step-common-pitfalls]]'
+- '[[yt-five-step-implementation]]'
+- '[[yt-five-step-level-blindspots]]'
 aliases:
 - 分析爬山地图
 - 需求分析爬山地图

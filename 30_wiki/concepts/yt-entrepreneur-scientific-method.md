@@ -22,6 +22,12 @@ related:
 - yt-decision-y-model
 - tool-yitang-Y-model-application
 - dk-yitang-Y-model-pitfalls
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-entrepreneur-growth-flywheel]]'
+- '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-entrepreneur-liberate-thinking]]'
+- '[[yt-entrepreneur-research-cognition]]'
+- '[[yt-entrepreneur-unit-model]]'
 created_at: 2026-05-06
 updated_at: '2026-07-03'
 tags:

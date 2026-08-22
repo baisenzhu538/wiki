@@ -38,6 +38,7 @@ status: draft
 related:
   - '[[case-escort-service-tiered-growth]]'
   - '[[yitang-strategy-canvas]]'
+  - '[[yt-foresight-business-spectrum]]'
 ---
 # 机会选择
 

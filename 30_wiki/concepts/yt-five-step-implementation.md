@@ -31,6 +31,8 @@ related:
 - '[[yt-growth-cycle-model]]'
 - '[[yt-barrier-analysis-cheat-sheet]]'
 - '[[yt-five-step-common-pitfalls]]'
+- '[[yt-business-analysis-cognitive-biases]]'
+- '[[yt-five-step-level-blindspots]]'
 review_date: 2026-06-11
 reviewed_by: 老顷童
 aliases:

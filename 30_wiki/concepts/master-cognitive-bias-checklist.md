@@ -31,6 +31,7 @@ related:
 - '[[master-antifragile-checklist]]'
 - '[[master-knowledge-compound]]'
 - '[[smart-medicine-cabinet-clinic-risk-observation]]'
+- '[[yt-business-analysis-cognitive-biases]]'
 tags:
 - audience:executor
 - scene:execution

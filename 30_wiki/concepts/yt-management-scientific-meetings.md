@@ -60,6 +60,7 @@ related:
 - '[[case-meeting-scene-mastery]]'
 - '[[case-truman-meeting-leadership]]'
 - '[[case-yitang-goat-milk-channel-partnership]]'
+- '[[yt-decision-consensus-iceberg]]'
 quality_labels: [principle, actionable, quotable, validated]
 tags:
 - audience:general

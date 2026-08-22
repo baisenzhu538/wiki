@@ -66,6 +66,7 @@ related:
 - '[[framework-business-formula-y-model-bridge]]'
 - '[[case-gym-membership-formula]]'
 - '[[case-offline-catering-formula]]'
+- '[[yt-business-formula-l6-essence-formulas]]'
 quality_labels:
 - framework
 - reference

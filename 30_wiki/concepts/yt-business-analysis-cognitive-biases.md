@@ -60,6 +60,12 @@ related:
 - '[[yt-unit-model-concept]]'
 - '[[yt-growth-cycle-model]]'
 - '[[case-半肥猫-course-to-skill]]'
+- '[[yt-business-model-asset-light]]'
+- '[[yt-business-model-b2b-pricing]]'
+- '[[yt-business-model-margin-structure]]'
+- '[[yt-business-model-pricing-psychology]]'
+- '[[yt-business-model-revenue-types]]'
+- '[[yt-five-step-level-blindspots]]'
 tags:
 - audience:executor
 - scene:reference

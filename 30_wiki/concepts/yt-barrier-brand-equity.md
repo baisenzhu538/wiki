@@ -29,6 +29,10 @@ related:
 - '[[yt-barrier-data-assets]]'
 - '[[yt-barrier-defensive-strategy]]'
 - '[[yt-barrier-regulatory]]'
+- '[[yt-barrier-supply-chain]]'
+- '[[yt-barrier-switching-costs]]'
+- '[[yt-barrier-talent-density]]'
+- '[[yt-barrier-technology-moat]]'
 diagnostic_signals:
 - framework_lens: 品牌资产——品牌知名度需要持续投入和时间积累
   follow_up_question: 你的品牌投入占收入多少？品牌定位是否清晰？目标受众是谁？

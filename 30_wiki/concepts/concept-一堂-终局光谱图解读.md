@@ -42,6 +42,7 @@ related:
 - '[[case-escort-service-tiered-growth]]'
 - '[[case-ai-time-management-tiered-growth]]'
 - '[[concept-一堂-business-prediction]]'
+- '[[yt-foresight-addition-subtraction]]'
 diagnostic_signals:
 - signal: 把光谱图当"好坏排行榜"，觉得做到上市才高级
   lens: 违反解读1——光谱无关优劣，只是偏好

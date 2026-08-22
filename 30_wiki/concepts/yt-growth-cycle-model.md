@@ -12,6 +12,9 @@ related:
 - '[[pending_unknown]]'
 - '[[case-five-step-growth-first-lever]]'
 - '[[concept-five-step-growth-to-barrier-transition]]'
+- '[[yt-business-analysis-cognitive-biases]]'
+- '[[yt-five-step-common-pitfalls]]'
+- '[[yt-five-step-implementation]]'
 aliases:
 - 周期模型
 - 增长周期模型

@@ -28,6 +28,8 @@ related:
 - '[[yt-growth-acquisition-channels]]'
 - '[[yt-growth-activation-rate]]'
 - '[[yt-growth-market-led-growth]]'
+- '[[yt-growth-monetization-optimization]]'
+- '[[yt-growth-viral-mechanism]]'
 diagnostic_signals:
 - framework_lens: 增长黑客——低成本快速实验，不需要大预算
   follow_up_question: 你能用A/B测试验证假设吗？最小化实验成本，快速迭代。

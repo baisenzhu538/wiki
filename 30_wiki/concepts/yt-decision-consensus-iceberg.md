@@ -82,6 +82,7 @@ related:
 - '[[framework-meeting-ten-principles]]'
 - '[[dk-meeting-rederive]]'
 - '[[yt-management-scientific-meetings]]'
+- '[[yt-decision-full-process]]'
 author: 老顽童
 tags:
 - audience:executor

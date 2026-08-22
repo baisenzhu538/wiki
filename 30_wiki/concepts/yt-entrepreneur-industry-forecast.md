@@ -34,6 +34,9 @@ tags:
 - skill-level:intermediate
 type: concept
 status: draft
+related:
+  - '[[yt-concept-p-type-l-type]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
 ---
 # 商业预判15字诀
 

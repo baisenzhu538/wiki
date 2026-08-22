@@ -12,6 +12,8 @@ related:
 - '[[pending_unknown]]'
 - '[[case-five-step-growth-first-lever]]'
 - '[[concept-一堂-kernel-iteration]]'
+- '[[yt-five-step-common-pitfalls]]'
+- '[[yt-five-step-implementation]]'
 aliases:
 - 产品内核修炼段位图
 - 内核修炼段位图
