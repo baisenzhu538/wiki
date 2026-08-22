@@ -1,8 +1,8 @@
 ---
 id: 425
 assignee: huangyaoshi
-status: queued
-updated_at: '2026-08-22T18:35:00+08:00'
+status: in_progress
+updated_at: '2026-08-22T12:57:50.709820+00:00'
 ---
 # #425 KDO 健康度指标集（#399 复扫工具扩展）
 
