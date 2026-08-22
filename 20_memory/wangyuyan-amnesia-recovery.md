@@ -46,9 +46,23 @@ type: memory/role-recovery
 | W7 | 先确认 frontmatter 再入队 | "入队" |
 | W8 | **先找 MOC 再回答** | "XX 是第几步" |
 
-## 4. 当前状态（2026-08-22 下午更新 · 会诊拍板完成）
+## 4. 当前状态（2026-08-22 晚场终态 · 双线送审+事故裁定完成）
 
-**重启恢复口令：老朱说"继续"→ 读本节 + 停车场 + `queue_transition.py status` 核实时状态（E038/E041）。**
+**重启恢复口令：老朱说"继续"→ 读本节 + `90_control/parking-lot.md`（F-xxx 唯一工厂停车场，旧 6 份已 DEPRECATED）+ `queue_transition.py status` 核实时队列（E038/E041）。**
+
+- **在审两件（等欧阳锋终审）**：#416《KDO 基本法》框架稿 v0.1（`90_control/kdo-charter-v0.1-draft.md`，三章 13 原则全部溯源拍板编号）+ #420 停车场收口（`90_control/parking-lot.md`，F-001~F-032，78 条盘点清账）
+- **待老朱**：① 两送审件终审后终稿拍板 ② F-028 角色专场点名排期 ③ personal-os 即写即 commit 授权扩围（今晚改动搭 #411 批次车入 git，provenance 不干净）④ #188 首条 bad case 真实使用（它挂着 pending_review 会阻塞领取，--force 边缘已登记 F-029）
+- **队列基线（08-22 晚）**：407 任务 / queued 12（新立 #426 tags 词表长程 / #427 L0 备份方案 / #428 风清扬 spec 卡）/ #418 黄药师治理在产 / pending_review 4（#188/#411 批次/#416/#420）
+- **#418 事故裁定「幻影丢失」**（`diag_20260822_wangyuyan-418-sales-loss-review.md`）：文件从未存在（风清扬 16:45 审计三处枚举先于事故），不重建；T2/T3 带三条件继续（中文路径用 Python/禁 2>/dev/null/before-after 枚举）
+- **今晚新机制**：#421 追加一/二（建议书自动登记+到达即时通知，登记通知同源）/ 协议 5A（双层文档裁定抽 2 条回查数据层）/ F-029 队列等待外部输入态 / F-030 save 脚本 stdin GBK / F-031 补漏 R4 / F-032 文档矛盾 lint
+- **错误模式库至 E044**（E042 对话孤儿 / E043 幻影丢失 / E044 Edit 大块替换未读回）；复盘双写完成（daily-context 2026-08-22 下午篇+晚间篇，均 A 级）
+- **我欠的交付**：#419 三张 A/B/C 复盘样本（黄药师门禁校准用，下次会话开工即交付）
+- **主线不变（G4）**：基本法（在审）→ P0 止血（#414/#415 queued）→ 健康度度量（#425）→ 机制层（F-027 记忆胶囊等）→ 迁移专案（08-26 后，F-026）
+- **常设授权有效**：即写即 commit（60_feedback/tasks + 70_product/tasks + 00_inbox/pending-cards + 20_memory；diagnosis/consultation/90_control 治理文档比照已实战）
+
+### 08-22 下午状态（历史，已被上条覆盖）
+
+**旧口令（已被上方取代）：老朱说"继续"→ 读本节 + 停车场 + `queue_transition.py status` 核实时状态（E038/E041）。**
 
 - **KDO 系统性升级会诊已拍板定稿（08-22，30 条零待定）**：`60_feedback/consultation/2026-08-22-kdo-systemic-upgrade/`（README/checklist/decisions/positions×5/w3-verification/audit-opinion/review-differences 全入 git）。**主线（G4）：0.《KDO 基本法》先行 → 1.P0 止血 → 2.健康度度量 → 3.机制层 → 4.迁移专案（08-26 后）→ 5.共建域缓议（设计域含设计宪法师 G2a 调研/G2b 建设，往后排）**
 - **老朱入宪强化**：B2-1 三方法门禁升至基本法级（建议只是建议，王语嫣独立判断+对齐老朱；入口资产防污染）/"想犯错也犯不了"自动化原则（B2-4 看板+B3-3 复盘门禁）/执行前三问机制（B2-3，超三问=任务单不合格退回编排层）/B1-4 工具不指定（制度只定义接口与角色，不绑定可变供应商）/W7 从简（公开课素材可用，唯一边界=不得以一堂名义商业活动）
