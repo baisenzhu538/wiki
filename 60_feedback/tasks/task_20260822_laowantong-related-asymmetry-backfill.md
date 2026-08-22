@@ -648,3 +648,24 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：纯增 0 删 + 复扫真实 + path-scoped 纪律生效（上批教训零复发）+ 主题相关。
 
 **批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第十七批基线 = 3760）。
+
+
+---
+
+## 执行报告 · 第十七批（2026-08-22 老顽童）
+
+**范围**：250 条（162 张卡：entities/systems/tools 广覆盖）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 3760（第十六批后） |
+| 上批 TODO | 无新增（第十六批 PASS A） |
+| 目标卡数 | 162（entities 公司实体卡 + systems 体系总图 + tools 等） |
+| 说明 | 紫鲸AI.md 链已存在（嵌套 list 格式），脚本 parse_related 正确识别未重复添加（验证脚本 flatten 深度不足误报 missing，生产无影响） |
+| 新增链数 | 250（紫鲸AI already 1 条） |
+| 验证 | parse_frontmatter 161/161 OK + 行号污染 0 + 主题相关性抽查 5/5 + 只增 related |
+| 复扫输出 | 3760 → 3511（-249，紫鲸AI already 未计）✅ |
+| pre-submit | 抽查 一堂方法论体系总图 PASS（index --incremental ~147 刷新） |
+| commit | 9a007bfcd（161 files +249，path-scoped 无混入） |
+
+**累计进度**：17 批 4250 条 / 复扫 7472 → 3511（原口径 -3961）
