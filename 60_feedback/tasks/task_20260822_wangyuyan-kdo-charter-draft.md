@@ -1,8 +1,8 @@
 ---
 id: 416
 assignee: wangyuyan
-status: in_progress
-updated_at: '2026-08-22T11:55:48.830035+00:00'
+status: pending_review
+updated_at: '2026-08-22T12:03:43.201151+00:00'
 ---
 # #416 《KDO 基本法》框架稿（王语嫣主笔）
 
