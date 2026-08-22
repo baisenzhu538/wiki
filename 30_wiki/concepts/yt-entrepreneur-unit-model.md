@@ -45,6 +45,8 @@ related:
 - '[[yt-tool-product-core-canvas]]'
 - '[[yt-business-model-pivot-signals]]'
 - '[[bridge-利润-单元模型-定价闭环]]'
+- '[[tool-demand-ceiling-coach]]'
+- '[[tool-demand-chai-tui-ping-suan-guide]]'
 review_date: 2026-06-15
 updated_at: '2026-06-18'
 reviewed_by: 欧阳锋

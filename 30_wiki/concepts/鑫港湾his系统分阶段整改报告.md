@@ -18,6 +18,8 @@ related:
 - '[[街顺app全面调研报告]]'
 - '[[视觉prompt三层操作系统-srom-visual-os]]'
 - '[[轻量级诊所HIS调研全清单]]'
+- '[[鑫港湾HIS项目]]'
+- '[[tool-canvas-weapon-library-modeling]]'
 aliases:
 - 系统分阶段整改报告
 - 鑫港湾HIS系统分阶段整改报告

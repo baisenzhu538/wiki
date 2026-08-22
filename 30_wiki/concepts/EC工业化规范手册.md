@@ -27,6 +27,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[kdo-ec-industrialization-migration-proposal]]'
+- '[[鑫港湾HIS项目]]'
 tags:
 - audience:general
 - scene:reference

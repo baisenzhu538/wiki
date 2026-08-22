@@ -25,6 +25,9 @@ discoverable_by:
 related:
 - '[[tinyfish-agentic-web-infrastructure]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
+- '[[tool-ai-skill-engineering-guide]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[tool-yitang-18-strategy-tool-mapping]]'
 tags:
 - audience:general
 - scene:reference

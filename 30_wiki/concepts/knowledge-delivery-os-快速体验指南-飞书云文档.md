@@ -44,6 +44,8 @@ related:
 - '[[plan_20260531_data-curator-v1.3]]'
 - '[[proposal-kdo-flywheel-infrastructure]]'
 - '[[sprint-6-cli-gap-proposal]]'
+- '[[kdo-batch-produce-req014]]'
+- '[[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]'
 tags:
 - audience:general
 - scene:reference

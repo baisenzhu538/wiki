@@ -34,6 +34,8 @@ related:
 - '[[pending_unknown]]'
 - '[[yt-unit-model-build]]'
 - '[[yt-unit-model-concept]]'
+- '[[tool-demand-assessment-triangle]]'
+- '[[tool-demand-ceiling-coach]]'
 title: 市场规模估算方法
 trust_level: medium
 type: tool

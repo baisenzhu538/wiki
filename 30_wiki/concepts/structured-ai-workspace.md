@@ -20,6 +20,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[dk-lz-code-is-disposable]]'
+- '[[tool-ai-ai-workspace-setup]]'
 query_triggers:
 - src_unknown
 - src_unknown

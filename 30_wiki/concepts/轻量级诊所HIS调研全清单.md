@@ -33,6 +33,9 @@ related:
 - '[[yt-decision-width-method]]'
 - '[[dk-infrastructure-guardrails-over-checklist]]'
 - '[[dk-modeling-ai-self-retrospection]]'
+- '[[互联网医院项目]]'
+- '[[sk-ai-old-small-checklist]]'
+- '[[tool-checklist-cheatsheet-modeling]]'
 tags:
 - audience:executor
 - scene:reference

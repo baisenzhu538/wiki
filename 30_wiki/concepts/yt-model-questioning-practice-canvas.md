@@ -33,6 +33,8 @@ tags:
 - 提问刻意练习提升画布
 type: concept
 status: draft
+related:
+  - '[[tool-ai-problem-question-check]]'
 ---
 # 提问刻意练习提升画布 (By YITANG)
 

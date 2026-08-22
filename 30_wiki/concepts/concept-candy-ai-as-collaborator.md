@@ -29,6 +29,9 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - tool-yitang-amazon-bestseller
 - tool-yitang-ai-monitoring-alert
+- '[[tool-ai-critical-reading-three-layers]]'
+- '[[tool-candy-oral-polish]]'
+- '[[tool-candy-positioning-canvas]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

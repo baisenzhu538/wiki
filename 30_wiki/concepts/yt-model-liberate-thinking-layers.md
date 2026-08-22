@@ -28,6 +28,7 @@ related:
 - '[[case-yitang-education-supply-chain]]'
 - '[[learning-thinking]]'
 - '[[yt-decision-height-toolkit]]'
+- '[[tool-demand-iceberg-l6-hypothesis]]'
 created_at: 2026-05-06
 updated_at: '2026-07-03'
 tags:

@@ -45,6 +45,7 @@ related:
 - '[[case-yitang-ai-painting-commercialization]]'
 - '[[case-yitang-sales-routine-deconstruction]]'
 - '[[dk-yitang-deliberate-practice-common-traps]]'
+- '[[tool-yitang-best-practice-as-golden-finger]]'
 tags:
 - audience:general
 - scene:reference

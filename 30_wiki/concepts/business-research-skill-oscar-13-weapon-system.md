@@ -34,6 +34,16 @@ related:
 - '[[yt-research-hypothesis-test]]'
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 - '[[concept-harness-cattle-not-pets]]'
+- '[[kdo-protocol]]'
+- '[[system-yitang-research-workflow]]'
+- '[[workflow-knowledge-collision]]'
+- '[[tool-alt-data-free]]'
+- '[[tool-demand-agent-l4-case-match]]'
+- '[[tool-demand-iceberg-l1-user]]'
+- '[[tool-demand-iceberg-l3-core-job]]'
+- '[[tool-demand-iceberg-l4-job-map]]'
+- '[[tool-dns-intelligence]]'
+- '[[tool-osint-sherlock]]'
 tags:
 - audience:general
 - scene:reference

@@ -37,6 +37,7 @@ related:
 - '[[dk-ji-hao-simple-complex-routing]]'
 - '[[dk-ji-hao-pdca-starts-from-do]]'
 - '[[concept-cognitive-offloading-in-ai-era]]'
+- '[[tool-ai-use-barbell-strategy]]'
 pipeline:
 - src_unknown
 - src_unknown

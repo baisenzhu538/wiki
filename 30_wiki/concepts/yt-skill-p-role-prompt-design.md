@@ -40,6 +40,9 @@ related:
   - '[[design-ai-image-generation]]'
   - '[[yt-skill-checklist-as-ai-protocol]]'
   - '[[视觉prompt三层操作系统-srom-visual-os]]'
+  - '[[tool-ai-skill-engineering-guide]]'
+  - '[[tool-ai-skill-engineering-method]]'
+  - '[[tool-yitang-18-strategy-tool-mapping]]'
 ---
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
 

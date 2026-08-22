@@ -39,6 +39,7 @@ related:
 - '[[yt-product-kernel-definition]]'
 - '[[yt-tool-peas-agent-analysis]]'
 - '[[视觉prompt三层操作系统-srom-visual-os]]'
+- '[[tool-canvas-weapon-library-modeling]]'
 tags:
 - audience:general
 - scene:reference

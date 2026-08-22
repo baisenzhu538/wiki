@@ -63,6 +63,8 @@ related:
 - '[[dk-p10-oral-ban]]'
 - '[[decision-science-domain-digest]]'
 - '[[master-moc]]'
+- '[[system-yitang-Y-model-os]]'
+- '[[tool-decision-outside-view]]'
 tags:
 - audience:ceo
 - scene:diagnosis

@@ -38,6 +38,7 @@ related:
 - '[[yt-management-leadership-levels]]'
 - '[[yt-management-scientific-meetings]]'
 - '[[yt-management-strategy-meeting]]'
+- '[[tool-game-environment-checklist]]'
 tags:
 - audience:general
 - scene:reference

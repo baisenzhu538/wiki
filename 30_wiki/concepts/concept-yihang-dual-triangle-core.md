@@ -100,6 +100,23 @@ related:
 - '[[dk-yihang-report-book-learner]]'
 - '[[dk-yihang-scientific-community-moat]]'
 - '[[framework-agent-card-execution-pattern]]'
+- '[[method-dual-triangle-human-ai-division]]'
+- '[[method-yihang-aesthetic-fast-build]]'
+- '[[method-yihang-agent-hr-role]]'
+- '[[method-yihang-ai-self-xray-iteration]]'
+- '[[method-yihang-dual-triangle-ai-review]]'
+- '[[method-yihang-dual-triangle-deliberate-practice]]'
+- '[[method-yihang-dual-triangle-team-assembly]]'
+- '[[method-yihang-human-self-distillation]]'
+- '[[method-yihang-knowledge-battle-station]]'
+- '[[method-yihang-knowledge-versioning]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+- '[[tool-aesthetic-library-builder]]'
+- '[[tool-ai-feature-inventory]]'
+- '[[tool-three-ring-capability-filter]]'
+- '[[tool-yihang-agent-config-7steps]]'
+- '[[tool-yihang-dual-triangle-oral-spray]]'
+- '[[tool-yihang-dual-triangle-xray-deconstruct]]'
 tags:
 - audience:general
 - scene:reference

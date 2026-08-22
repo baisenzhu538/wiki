@@ -45,6 +45,7 @@ related:
 - '[[case-千惠供应链复盘]]'
 - '[[dk-借假修真与黑盒白盒]]'
 - '[[retrospective-moc]]'
+- '[[agent-spec-复盘教练]]'
 tags:
 - audience:general
 - scene:reference

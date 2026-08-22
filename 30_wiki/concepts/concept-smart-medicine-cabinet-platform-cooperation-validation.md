@@ -31,6 +31,8 @@ related:
 - - - tool-smart-medicine-cabinet-compliance-checklist
 - - - smart-medicine-cabinet-o2o-cost-structure
 - 诊所O2O项目
+- '[[tool-demand-iceberg-l6-hypothesis]]'
+- '[[tool-smart-medicine-cabinet-compliance-checklist]]'
 tags:
 - audience:general
 - scene:reference

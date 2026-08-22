@@ -65,6 +65,8 @@ related:
 - '[[dk-meeting-borrow-false-repair-true]]'
 - '[[dk-meeting-pressure-ignition]]'
 - '[[dk-meeting-rederive]]'
+- '[[tool-meeting-room-match]]'
+- '[[tool-note-layer-constraint]]'
 quality_labels: [principle, actionable, quotable, validated]
 tags:
 - audience:general

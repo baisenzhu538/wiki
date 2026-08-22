@@ -53,6 +53,8 @@ related:
 - '[[dk-f9-generic-critique]]'
 - '[[lean-startup-domain-digest]]'
 - '[[YC-Y-Combinator]]'
+- '[[tool-canvas-weapon-library-modeling]]'
+- '[[tool-strategy-map]]'
 tags:
 - audience:executor
 - scene:reference

@@ -44,6 +44,7 @@ related:
 - '[[case-shampoo-product-kernel]]'
 - '[[concept-一堂-kernel-iteration]]'
 - '[[yt-product-kernel-overpromise-trap]]'
+- '[[yt-product-kernel-validation]]'
 tags:
 - audience:general
 - scene:reference

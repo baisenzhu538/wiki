@@ -52,6 +52,8 @@ related:
 - '[[dk-research-saturation-self-proof]]'
 - '[[dk-research-scavenger-vs-architect]]'
 - '[[dk-research-total-anchor-private-library]]'
+- '[[tool-nine-character-mantra-14-strategies]]'
+- '[[tool-wechat-transcript-automation-workflow]]'
 tags:
 - audience:manager
 - scene:planning

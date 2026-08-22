@@ -51,6 +51,8 @@ related:
 - framework-yitang-shishi-qiushi
 - framework-yitang-nine-layer-deep-dig
 - concept-yihang-dual-triangle-core
+- '[[tool-ai-video-cost-optimization]]'
+- '[[tool-ai-video-market-gap-assessment]]'
 tags:
 - 网感
 - 组件化

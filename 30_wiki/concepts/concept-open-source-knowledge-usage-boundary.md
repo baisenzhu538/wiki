@@ -57,6 +57,7 @@ related:
 - '[[case-daxin-team-content-training-camp]]'
 - '[[case-daxin-vikki-community-contrast]]'
 - '[[dk-community-lecturer-vs-crowd-model]]'
+- '[[tool-yb-cross-quadrant-prompt-framework]]'
 pipeline:
 - confidence-draft
 ---

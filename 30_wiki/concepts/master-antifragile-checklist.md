@@ -31,6 +31,8 @@ related:
 - '[[master-systems-thinking]]'
 - '[[master-knowledge-compound]]'
 - '[[concept-abundance-paradox]]'
+- '[[graph-rag]]'
+- '[[tool-ai-use-barbell-strategy]]'
 tags:
 - audience:executor
 - scene:execution

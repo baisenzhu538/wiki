@@ -39,6 +39,7 @@ related:
 - '[[dk-customers-hate-ai]]'
 - '[[framework-ai-sales-collaboration]]'
 - '[[yt-decision-y-model-philosophical-roots]]'
+- '[[workflow-knowledge-collision]]'
 reviewed_by: 周伯通
 aliases:
   - AI决策Partner对话法

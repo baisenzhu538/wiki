@@ -34,6 +34,7 @@ related:
 - concept-发现决策
 - '[[yt-tool-best-practice-learning]]'
 - '[[dk-panproduct-org-linear-to-circular]]'
+- '[[tool-demand-four-forces]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

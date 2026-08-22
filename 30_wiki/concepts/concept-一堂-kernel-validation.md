@@ -42,6 +42,7 @@ related:
   - '[[yt-product-kernel-overpromise-trap]]'
   - '[[product-moc]]'
   - '[[yt-product-kernel-iteration]]'
+  - '[[yt-product-kernel-validation]]'
 wiki_refs:
 - src_unknown
 - src_unknown

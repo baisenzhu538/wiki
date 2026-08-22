@@ -17,6 +17,7 @@ related:
 - '[[保达云诊所深度调研报告]]'
 - '[[街顺app全面调研报告]]'
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
+- '[[诊所O2O项目]]'
 tags:
 - audience:general
 - scene:reference

@@ -66,6 +66,14 @@ related:
   - "[[case-truman-praise-wall-precondition]]"
   - "[[case-yitang-curtain-listening]]"
   - '[[yt-management-project-management]]'
+  - '[[tool-bimodal-time-blocking]]'
+  - '[[tool-dark-time-harvesting]]'
+  - '[[tool-focus-environment-sop]]'
+  - '[[tool-meeting-room-match]]'
+  - '[[tool-public-scheduling]]'
+  - '[[tool-task-depth-decomposition]]'
+  - '[[tool-team-task-pool]]'
+  - '[[tool-weekly-hypothesis-experiment]]'
 tags:
 - #yitang
 - #time-management

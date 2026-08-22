@@ -43,6 +43,10 @@ related:
 - '[[互联网医院模式深度调研报告]]'
 - '[[tool-现场建模式萃取笔记]]'
 - '[[case-feishu-live259-l3-extraction]]'
+- '[[skill-duanwangye-feishu-publishing]]'
+- '[[skill-duanwangye-kdo-pipeline]]'
+- '[[skill-duanwangye-wechat-extraction]]'
+- '[[skill-feishu-doc-l3-extraction]]'
 tags:
 - audience:general
 - scene:reference

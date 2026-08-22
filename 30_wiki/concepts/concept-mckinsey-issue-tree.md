@@ -27,6 +27,7 @@ related:
 - '[[concept-minto-pyramid-principle]]'
 - '[[concept-mckinsey-7s]]'
 - '[[concept-toyota-5-whys]]'
+- '[[tool-mckinsey-hypothesis-driven-workflow]]'
 wiki_refs:
 - src_unknown
 - src_unknown

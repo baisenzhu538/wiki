@@ -38,6 +38,7 @@ related:
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
 - '[[design-moc]]'
 - '[[modeling-scientific-milestones]]'
+- '[[tool-demand-iceberg-l4-job-map]]'
 tags:
 - audience:executor
 - scene:reference

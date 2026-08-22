@@ -32,6 +32,7 @@ related:
 - '[[bridge-panproduct-kids-translation]]'
 - '[[yt-product-kernel-boundary]]'
 - '[[yt-product-kernel-evolution]]'
+- '[[tool-panproduct-kids-card-naming]]'
 diagnostic_signals:
 - framework_lens: 产品内核加减法——只加不减，内核被稀释
   follow_up_question: 过去6个月，你们砍掉了哪些功能？为什么？

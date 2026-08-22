@@ -38,6 +38,8 @@ related:
 - '[[ai-basic-domain-digest]]'
 - '[[kdo-moc]]'
 - '[[master-moc]]'
+- '[[system-kdo-quality-framework]]'
+- '[[tool-panproduct-kids-card-naming]]'
 created_at: 2026-07-19
 updated_at: 2026-07-19
 tags:

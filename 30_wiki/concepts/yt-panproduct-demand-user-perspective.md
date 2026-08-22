@@ -35,6 +35,7 @@ related:
 - '[[source-code-delivery-model]]'
 - '[[yt-panproduct-demand-need-discovery]]'
 - '[[yt-panproduct-demand-project-background]]'
+- '[[tool-panproduct-kids-card-naming]]'
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_11d721ac-ocr-泛产品设计-用户卡片-用户视角.md

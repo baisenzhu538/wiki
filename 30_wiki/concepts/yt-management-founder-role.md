@@ -38,6 +38,7 @@ related:
 - '[[case-smart-medicine-cabinet-corporate-risk]]'
 - '[[case-truman-yitang-foresight]]'
 - '[[concept-collaboration-philosophy-foundation]]'
+- '[[tool-position-switching-test]]'
 tags:
 - audience:general
 - scene:reference

@@ -33,6 +33,8 @@ related:
 - '[[yt-research-action-camp-launch]]'
 - '[[yt-research-competitor-toolkit]]'
 - '[[yt-research-expert-interview]]'
+- '[[method-kdo-external-exploration-sop]]'
+- '[[tool-oscar-kdo-external-exploration]]'
 pipeline:
 - src_unknown
 diagnostic_signals:

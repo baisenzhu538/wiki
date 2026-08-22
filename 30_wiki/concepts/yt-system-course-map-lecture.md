@@ -71,6 +71,7 @@ related:
 - '[[老朱的水感-2026年5月]]'
 - '[[视觉prompt三层操作系统-srom-visual-os]]'
 - '[[那今天不会]]'
+- '[[tool-prompt-jtbd-scenario-coach]]'
 tags:
 - audience:general
 - scene:reference

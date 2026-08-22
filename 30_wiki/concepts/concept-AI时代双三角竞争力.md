@@ -43,6 +43,7 @@ related:
 - '[[concept-jevons-paradox-in-ai]]'
 - '[[concept-token-capital]]'
 - '[[dk-decision-when-to-defer]]'
+- '[[tool-open-closed-problem-classifier]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

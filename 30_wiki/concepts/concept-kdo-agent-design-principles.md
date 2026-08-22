@@ -38,6 +38,9 @@ related:
 - yt-decision-y-model
 - '[[case-agent-self-evolution-pilot]]'
 - '[[dk-agent-evolution-pitfalls]]'
+- '[[tool-agent-context-derivation-audit]]'
+- '[[tool-agent-self-evolution-protocol]]'
+- '[[tool-yb-cross-quadrant-prompt-framework]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 欧阳锋

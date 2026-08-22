@@ -44,6 +44,8 @@ related:
 - '[[framework-leadership-coin-model]]'
 - '[[framework-leadership-five-ladders]]'
 - '[[framework-truman-feature-thinking-core]]'
+- '[[tool-leadership-feedback-cards]]'
+- '[[tool-meeting-result-principles]]'
 diagnostic_signals:
 - signal: 员工说"这事我做三年了"，一做还是 60 分
   lens: 经验≠练习——三年重复但没有套路升级、没有反馈，是原地踏步不是刻意练习

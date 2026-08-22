@@ -48,6 +48,7 @@ related:
 - HITL双三角
 - annotations
 - '[[dk-ai-collaboration-degradation-spiral]]'
+- '[[method-yitang-y-model-engine-cycle]]'
 tags:
 - audience:general
 - scene:reference

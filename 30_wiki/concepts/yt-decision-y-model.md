@@ -119,6 +119,17 @@ related:
 - '[[framework-yitang-project-plan-design]]'
 - '[[framework-yitang-thought-liberation-lightning]]'
 - '[[yt-decision-abcd-model]]'
+- '[[method-yihang-dual-triangle-team-assembly]]'
+- '[[method-yitang-y-model-structured-form]]'
+- '[[opc-ai-sales-agent-architecture]]'
+- '[[skill-yitang-project-spiral-thinking]]'
+- '[[system-yitang-Y-model-os]]'
+- '[[agent-spec-project-management-assistant]]'
+- '[[tool-agent-spec-yitang-Y-model-coach]]'
+- '[[tool-demand-option-explorer]]'
+- '[[tool-demand-rat-generator]]'
+- '[[tool-iceberg-triangle-modeling]]'
+- '[[tool-opc-sales-dialogue-assistant]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

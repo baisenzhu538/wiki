@@ -28,6 +28,7 @@ related:
 - '[[ai-hackathon-pitches]]'
 - '[[business-validation-models-collaboration]]'
 - '[[contingency-decision-making]]'
+- '[[tool-ai-problem-validation]]'
 query_triggers:
 - src_unknown
 - src_unknown

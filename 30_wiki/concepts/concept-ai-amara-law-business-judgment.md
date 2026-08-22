@@ -37,6 +37,8 @@ related:
 - '[[case-cambridge-novelists-survey]]'
 - '[[case-chen-qiufan-ai-writing]]'
 - '[[case-dutch-childcare-scandal]]'
+- '[[tool-ai-cross-reading-method]]'
+- '[[tool-tech-probability-80-filter]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

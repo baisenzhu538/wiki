@@ -28,6 +28,7 @@ related:
 - '[[concept-mckinsey-hypothesis-driven]]'
 - '[[concept-maister-trusted-advisor]]'
 - '[[concept-mckinsey-7s]]'
+- '[[tool-mckinsey-hypothesis-driven-workflow]]'
 wiki_refs:
 - src_unknown
 - src_unknown

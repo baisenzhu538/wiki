@@ -37,6 +37,7 @@ type: concept
 status: draft
 related:
   - '[[dk-p20-bigram-fail]]'
+  - '[[graph-rag]]'
 ---
 # 务实创业
 

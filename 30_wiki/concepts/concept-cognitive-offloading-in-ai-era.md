@@ -66,6 +66,7 @@ related:
 - '[[tool-ai-deliverable-polish-loop]]'
 - '[[case-truman-time-management-commute-experiment]]'
 - '[[concept-qinpeng-knowledge-base-conversion]]'
+- '[[tool-scene-design-language-translation]]'
 pipeline:
 - confidence-draft
 ---

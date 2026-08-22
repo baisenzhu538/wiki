@@ -49,6 +49,8 @@ related:
 - '[[fix-data-curator-parse-bug]]'
 - '[[modeling-capability-for-kdo]]'
 - '[[proposal-ai-domain-mastery-pipeline]]'
+- '[[tool-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
+- '[[tool-strategy-customer-selection]]'
 pipeline:
 - src_unknown
 author: 老顽童

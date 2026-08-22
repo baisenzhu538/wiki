@@ -27,6 +27,7 @@ related:
 - '[[tool-马易-AI落地能力内化训练]]'
 - '[[tool-城市合伙人模式复制能力]]'
 - '[[tool-Truman-AI能力分层学习路径]]'
+- '[[tool-ai-problem-question-check]]'
 query_triggers:
 - src_unknown
 - src_unknown

@@ -26,6 +26,8 @@ related:
 - '[[case-modeling-process-livestream-prep]]'
 - '[[case-truman-sales-report-structure]]'
 - '[[case-yitang-radar-chart-selection]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[tool-yitang-18-strategy-tool-mapping]]'
 tags:
 - audience:executor
 - scene:reference

@@ -45,6 +45,7 @@ related:
 - '[[dk-sales-big-deal-vs-small-deal]]'
 - '[[framework-sales-funnel-full]]'
 - '[[sales-pitch-bias-patterns]]'
+- '[[tool-candy-sales-recruiting]]'
 diagnostic_signals:
 - framework_lens: 缺少单销售模型视角，无法判断“招一个销售是否划算”。
   follow_up_question: 我能否算出：一名销售入职后第 3/6/12 个月，分别需要创造多少毛利才能覆盖他的全周期成本？

@@ -36,6 +36,7 @@ related:
 - '[[yt-panproduct-demand-peak-end-rule]]'
 - '[[domain-demand-analysis-index]]'
 - '[[yt-demand-jtbd-application]]'
+- '[[tool-prompt-iceberg-demand-analysis]]'
 tags:
 - audience:executor
 - scene:execution

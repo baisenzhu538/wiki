@@ -45,6 +45,8 @@ related:
 - '[[dk-research-total-anchor-private-library]]'
 - '[[framework-knowledge-five-leaps]]'
 - '[[framework-yitang-oscar-research]]'
+- '[[tool-top-level-document]]'
+- '[[tool-wechat-transcript-automation-workflow]]'
 tags:
 - audience:manager
 - audience:executor

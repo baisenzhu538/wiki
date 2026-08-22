@@ -35,6 +35,8 @@ related:
 - '[[dk-单元模型-对抗小抄]]'
 - '[[framework-TCPR底层网络协议]]'
 - '[[model-quality-four-levels]]'
+- '[[yt-tob-unit-model]]'
+- '[[yt-unit-model-overview]]'
 quality_labels:
 - cited
 - principle

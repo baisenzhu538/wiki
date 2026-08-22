@@ -34,6 +34,7 @@ related:
 - - - smart-medicine-cabinet-national-policy-redlines
 - smart-medicine-cabinet-clinic-risk-observation
 - 互联网医院模式深度调研报告
+- '[[tool-clinic-cabinet-legal-contract-guide]]'
 tags:
 - audience:general
 - scene:reference

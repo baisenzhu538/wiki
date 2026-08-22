@@ -15,6 +15,7 @@ related:
 - '[[yt-five-step-common-pitfalls]]'
 - '[[yt-five-step-implementation]]'
 - '[[yt-five-step-level-blindspots]]'
+- '[[tool-prompt-jtbd-scenario-coach]]'
 aliases:
 - 分析爬山地图
 - 需求分析爬山地图

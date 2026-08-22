@@ -41,6 +41,7 @@ related:
 - 诊所O2O项目
 - '[[dk-c1-cjk-regex-silent-fail]]'
 - '[[dk-p5-cc-connect-config]]'
+- '[[tool-clinic-cabinet-legal-contract-guide]]'
 tags:
 - audience:general
 - scene:reference

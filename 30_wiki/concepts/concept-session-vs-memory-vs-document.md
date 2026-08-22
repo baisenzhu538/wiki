@@ -54,6 +54,10 @@ related:
 - '[[framework-patrolkit-radar]]'
 - '[[framework-serendipity-five-channels]]'
 - '[[framework-truman-agent-team-architecture]]'
+- '[[tool-autoclassify-seven-steps]]'
+- '[[tool-knowledge-cheatsheet-sab]]'
+- '[[tool-skill-packaging-eight-steps]]'
+- '[[tool-top-level-document]]'
 review_date: 2026-08-16
 ---
 

@@ -43,6 +43,7 @@ related:
 - '[[ec工业化规范手册-v2.8.0]]'
 - '[[HIS系统深度调研]]'
 - '[[保达云诊所深度调研报告]]'
+- '[[诊所O2O项目]]'
 tags:
 - audience:general
 - scene:reference

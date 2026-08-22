@@ -26,6 +26,9 @@ related:
 - '[[ai-landing-scene-selection]]'
 - '[[pending_unknown]]'
 - '[[find-old-do-small]]'
+- '[[tool-ai-skill-engineering-guide]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[tool-yitang-18-strategy-tool-mapping]]'
 query_triggers:
 - src_unknown
 - src_unknown

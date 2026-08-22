@@ -44,6 +44,7 @@ related:
 - '[[dk-tool-chain-naming-is-infrastructure]]'
 - '[[bridge-dual-track-feature-system]]'
 - '[[ai-basic-domain-digest]]'
+- '[[system-kdo-quality-framework]]'
 ---
 
 # KDO Feature 注册表

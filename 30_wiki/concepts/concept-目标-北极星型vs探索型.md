@@ -40,6 +40,7 @@ related:
 - '[[concept-目标管理组织四阶段]]'
 - '[[dk-实事求是目标管理双原则]]'
 - '[[dk-管控vs协同执行策略]]'
+- '[[tool-OGSM目标管理工具]]'
 tags:
 - audience:general
 - scene:reference

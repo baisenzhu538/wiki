@@ -49,6 +49,8 @@ related:
 - '[[yt-unit-model-selection]]'
 - '[[concept-maister-trusted-advisor]]'
 - '[[concept-mckinsey-hypothesis-driven]]'
+- '[[concept-toyota-5-whys]]'
+- '[[tool-mckinsey-hypothesis-driven-workflow]]'
 reviewed_by: 王语嫣
 aliases:
   - 一堂五步法

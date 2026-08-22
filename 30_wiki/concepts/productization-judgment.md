@@ -24,6 +24,7 @@ related:
 - 元能力-刻意练习
 - 角色给我的诊断
 - '[[yai-counsel-role]]'
+- '[[tool-Truman-AI工具选型决策]]'
 author: 老顽童
 created_at: '2026-06-28'
 updated_at: '2026-06-28'

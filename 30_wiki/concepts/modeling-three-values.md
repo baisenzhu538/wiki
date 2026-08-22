@@ -30,6 +30,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - modeling-to-kdo-toolchain
+- '[[tool-sabc-tier-modeling]]'
 tags:
 - src_unknown
 - src_unknown

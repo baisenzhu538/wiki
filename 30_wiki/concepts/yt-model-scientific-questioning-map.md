@@ -34,6 +34,7 @@ type: concept
 status: draft
 related:
   - '[[yt-personal-y-model-exploration-2]]'
+  - '[[tool-ai-problem-question-check]]'
 ---
 # 科学提问刻意练习地图
 

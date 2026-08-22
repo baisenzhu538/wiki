@@ -32,6 +32,7 @@ related:
 - '[[framework-ai-native-organization-two-modes]]'
 - '[[agent-spec-codex-teammate]]'
 - '[[concept-yihang-human-in-the-loop-dual-triangle]]'
+- '[[tool-yitang-ai-assisted-organize]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

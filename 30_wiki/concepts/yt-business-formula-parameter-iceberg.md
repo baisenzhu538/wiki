@@ -119,6 +119,7 @@ related:
 - '[[yt-business-model-revenue-types]]'
 - '[[dk-strategy-correlation-vs-causation-leverage]]'
 - '[[yt-business-model-platform-strategy]]'
+- '[[tool-prompt-iceberg-demand-analysis]]'
 tags:
 - audience:general
 - scene:reference

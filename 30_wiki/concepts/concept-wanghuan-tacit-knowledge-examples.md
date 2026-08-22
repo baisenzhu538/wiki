@@ -41,6 +41,7 @@ related:
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 - '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
 - '[[human-ai-collaboration-double-triangle]]'
+- '[[tool-wanghuan-ai-business-profile]]'
 tags:
 - src_unknown
 - src_unknown

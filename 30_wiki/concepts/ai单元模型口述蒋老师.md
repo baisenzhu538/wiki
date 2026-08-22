@@ -14,6 +14,7 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[concept-最简单元模型]]'
 - '[[dk-单元模型-对抗小抄]]'
+- '[[yt-tob-unit-model]]'
 aliases:
 - ai单元模型口述蒋老师
 - 单元模型口述蒋老师

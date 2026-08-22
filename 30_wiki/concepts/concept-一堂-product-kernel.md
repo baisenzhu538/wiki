@@ -58,6 +58,9 @@ related:
 - '[[yt-product-kernel-overpromise-trap]]'
 - '[[product-moc]]'
 - '[[yt-product-kernel-iteration]]'
+- '[[yt-product-kernel-validation]]'
+- '[[tool-panproduct-kids-card-naming]]'
+- '[[tool-panproduct-kids-lesson-plan]]'
 ---
 
 # 产品内核 — 用户愿意选择你的最小解决方案

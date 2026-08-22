@@ -28,6 +28,7 @@ related:
 - '[[business-validation-models-collaboration]]'
 - '[[concept-qinpeng-ai-as-amplifier]]'
 - '[[contingency-decision-making]]'
+- '[[tool-qinpeng-ai-intelligent-service]]'
 query_triggers:
 - src_unknown
 - src_unknown

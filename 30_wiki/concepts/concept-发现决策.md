@@ -63,6 +63,7 @@ related:
 - '[[framework-TCPR皇冠模型]]'
 - '[[framework-问题边界与Problem澄清五层结构]]'
 - '[[framework-高水平共识曲线]]'
+- '[[tool-ROI决策评估画布]]'
 review_date: '2026-06-29'
 updated_at: '2026-07-03'
 tags:

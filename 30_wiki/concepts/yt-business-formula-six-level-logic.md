@@ -121,6 +121,7 @@ related:
 - '[[case-yitang-xiezefeng-clothing-innovation-param]]'
 - '[[case-yitang-yewenbin-archery-business-formula]]'
 - '[[yt-business-formula-l6-essence-formulas]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
 tags:
 - audience:general
 - scene:reference

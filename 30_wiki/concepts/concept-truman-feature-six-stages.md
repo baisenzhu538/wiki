@@ -29,6 +29,7 @@ related:
   - tool-Truman-Feature特性层训练法
   - '[[dk-feature-not-learned-but-used]]'
   - '[[framework-truman-feature-layered-system]]'
+  - '[[agent-spec-basic-skills-coach]]'
 tags:
   - method:learning
   - method:feature-thinking

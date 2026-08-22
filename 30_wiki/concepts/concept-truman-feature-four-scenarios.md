@@ -35,6 +35,8 @@ related:
   - '[[concept-yihang-ai-feature-thinking]]'
   - '[[dk-demand-feature-stacking]]'
   - '[[dk-key-hypothesis-still-hope]]'
+  - '[[agent-spec-basic-skills-coach]]'
+  - '[[tool-Truman-Feature特性层训练法]]'
 tags:
   - method:feature-thinking
   - method:application

@@ -53,6 +53,10 @@ related:
 - '[[concept-yitang-research-mindset]]'
 - '[[case-yitang-senior-university-product-design]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'
+- '[[method-kdo-external-exploration-sop]]'
+- '[[tool-oscar-kdo-external-exploration]]'
+- '[[tool-yitang-b2b-gov-research]]'
+- '[[tool-yitang-consulting-business-research]]'
 tags:
 - audience:general
 - scene:reference

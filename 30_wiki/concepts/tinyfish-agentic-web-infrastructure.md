@@ -31,6 +31,12 @@ related:
 - '[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]'
 - '[[case-roblox-ai-npc-education]]'
 - '[[kdo-input-channel-strategy-2026-06-16]]'
+- '[[agent-external-brain-design]]'
+- '[[tool-osint-shodan]]'
+- '[[tool-osint-spiderfoot]]'
+- '[[tool-osint-wayback]]'
+- '[[tool-reverse-image-search]]'
+- '[[tool-Truman-复杂项目AI落地稳定性保障]]'
 tags:
 - audience:general
 - scene:reference

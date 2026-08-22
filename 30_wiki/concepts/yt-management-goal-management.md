@@ -48,6 +48,8 @@ related:
 - '[[framework-yitang-project-plan-design]]'
 - '[[framework-yitang-sales-target-tradeoffs]]'
 - '[[framework-目标三层拆解]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+- '[[tool-OGSM目标管理工具]]'
 updated_at: 2026-07-02
 id: yt-management-goal-management
 author: 老顽童

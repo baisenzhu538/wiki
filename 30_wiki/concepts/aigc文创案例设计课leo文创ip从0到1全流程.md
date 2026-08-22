@@ -33,6 +33,7 @@ related:
 - '[[tool-月白-设计项目MVP拆解法]]'
 - '[[design-moc]]'
 - '[[modeling-scientific-milestones]]'
+- '[[tool-demand-iceberg-l4-job-map]]'
 tags:
 - audience:general
 - scene:reference

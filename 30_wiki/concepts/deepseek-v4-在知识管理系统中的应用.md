@@ -29,6 +29,7 @@ related:
 - '[[pending_unknown]]'
 - yt-concept-context-engineering
 - '[[yt-tool-peas-agent-analysis]]'
+- '[[tool-canvas-weapon-library-modeling]]'
 tags:
 - audience:general
 - scene:reference

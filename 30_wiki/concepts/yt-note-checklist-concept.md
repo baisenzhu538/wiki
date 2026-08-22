@@ -26,6 +26,8 @@ related:
 - '[[yt-note-l4-internalization]]'
 - '[[yt-note-l6-extraction]]'
 - '[[truman-ai-partner-design-analysis]]'
+- '[[tool-note-layer-constraint]]'
+- '[[tool-Truman-知识库最佳实践构建]]'
 prerequisites:
 - src_unknown
 aliases:

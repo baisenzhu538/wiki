@@ -42,6 +42,8 @@ related:
 - '[[concept-structured-naming-as-infrastructure]]'
 - '[[dk-ai-cross-domain-inference]]'
 - '[[dk-sponsor-three-tier-pricing]]'
+- '[[method-obsidian-ai-collaboration]]'
+- '[[tool-private-board-facilitation-sop]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 待审

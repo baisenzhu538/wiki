@@ -42,6 +42,7 @@ related:
 - '[[yt-skill-checklist-as-ai-protocol]]'
 - '[[yt-tool-peas-agent-analysis]]'
 - '[[design-moc]]'
+- '[[tool-canvas-weapon-library-modeling]]'
 tags:
 - audience:executor
 - scene:reference

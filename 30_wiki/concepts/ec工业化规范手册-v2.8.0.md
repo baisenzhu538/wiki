@@ -13,6 +13,7 @@ related:
 - '[[pending_unknown]]'
 - '[[concept-kdo-review-workflow]]'
 - '[[EC工业化规范手册]]'
+- '[[鑫港湾HIS项目]]'
 aliases:
 - ec工业化规范手册
 - ec工业化规范手册v2.8.0

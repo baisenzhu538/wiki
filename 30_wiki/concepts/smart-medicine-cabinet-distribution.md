@@ -46,6 +46,7 @@ related:
 - '[[smart-medicine-cabinet-regional-policy-map]]'
 - '[[smart-medicine-cabinet-national-policy-redlines]]'
 - '[[smart-medicine-cabinet-clinic-risk-observation]]'
+- '[[shanxi-field-research-checklist-20260701]]'
 tags:
 - audience:general
 - scene:reference

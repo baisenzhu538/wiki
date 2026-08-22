@@ -46,6 +46,7 @@ related:
 - '[[yt-product-kernel-premature-optimization]]'
 - '[[concept-maister-trusted-advisor]]'
 - '[[concept-mckinsey-hypothesis-driven]]'
+- '[[tool-mckinsey-hypothesis-driven-workflow]]'
 review_date: 2026-06-06
 aliases:
   - 关键假设259工具与假设验证三板斧

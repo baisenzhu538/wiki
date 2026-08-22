@@ -37,6 +37,9 @@ related:
 - '[[yt-skill-p-role-prompt-design]]'
 - '[[case-toc-content-platform-correlation-trap]]'
 - '[[yt-note-checklist-concept]]'
+- '[[tool-ai-skill-engineering-guide]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[tool-yitang-18-strategy-tool-mapping]]'
 query_triggers:
 - src_unknown
 - src_unknown

@@ -66,6 +66,8 @@ related:
 - '[[framework-科学决策三角形]]'
 - '[[framework-问题边界与Problem澄清五层结构]]'
 - '[[framework-高水平共识曲线]]'
+- '[[system-yitang-Y-model-os]]'
+- '[[tool-ROI决策评估画布]]'
 review_date: '2026-06-29'
 updated_at: '2026-07-03'
 tags:

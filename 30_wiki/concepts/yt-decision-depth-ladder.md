@@ -57,6 +57,7 @@ related:
 - '[[yt-decision-height-toolkit]]'
 - '[[framework-科学决策三角形]]'
 - '[[yt-decision-abcd-model]]'
+- '[[skill-yitang-project-spiral-thinking]]'
 query_triggers:
 - src_unknown
 - src_unknown

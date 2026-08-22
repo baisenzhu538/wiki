@@ -23,6 +23,8 @@ related:
 - '[[dk-ai-builder-illusion]]'
 - '[[agent-spec-codex-teammate]]'
 - '[[case-truman-prd-checklist-evolution]]'
+- '[[sk-ai-prd-for-ai]]'
+- '[[tool-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]'
 query_triggers:
 - src_unknown
 - src_unknown

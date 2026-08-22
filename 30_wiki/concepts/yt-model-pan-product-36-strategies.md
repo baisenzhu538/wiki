@@ -46,6 +46,7 @@ related:
 - '[[yt-personal-pan-product-concepts]]'
 - '[[yt-personal-pan-product-exploration]]'
 - '[[yt-personal-pan-product-tools]]'
+- '[[agent-native-card-design]]'
 tags:
 - audience:manager
 - scene:planning
