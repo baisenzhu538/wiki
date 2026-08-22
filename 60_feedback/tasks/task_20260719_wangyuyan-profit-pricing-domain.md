@@ -1,8 +1,8 @@
 ---
 id: 189
 assignee: hermes
-status: in_progress
-updated_at: '2026-08-22T16:59:01.845621+00:00'
+status: pending_review
+updated_at: '2026-08-22T17:02:54.933394+00:00'
 ---
 # #189 利润为王域卡片化：利润优先经营框架与定价方法论（最小任务单）
 
