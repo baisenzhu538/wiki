@@ -33,6 +33,8 @@ related:
 - '[[smart-medicine-cabinet-clinic-risk-observation]]'
 - '[[yt-business-analysis-cognitive-biases]]'
 - '[[yt-research-mindset]]'
+- '[[学会提问在信息洪流中锻造批判性思维的利刃]]'
+- '[[dk-c5-todo-false-positive]]'
 tags:
 - audience:executor
 - scene:execution

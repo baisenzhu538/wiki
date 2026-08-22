@@ -31,6 +31,8 @@ related:
 - '[[HIS系统深度调研]]'
 - '[[鑫港湾HIS项目]]'
 - '[[yt-decision-width-method]]'
+- '[[dk-infrastructure-guardrails-over-checklist]]'
+- '[[dk-modeling-ai-self-retrospection]]'
 tags:
 - audience:executor
 - scene:reference

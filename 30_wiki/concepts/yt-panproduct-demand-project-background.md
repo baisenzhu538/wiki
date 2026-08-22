@@ -30,6 +30,7 @@ related:
 - "[[yt-panproduct-demand-user-perspective]]"
 - "[[yt-panproduct-demand-multi-perspective]]"
 - "[[yt-panproduct-demand-industry-canvas]]"
+- '[[诊所o2o外卖平台业务深度调研报告]]'
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_115e8827-ocr-泛产品设计-用户卡片-项目背景分析.md

@@ -40,6 +40,17 @@ related:
 - '[[management-domain-digest]]'
 - '[[data-labeling-best-practices-report]]'
 - '[[yt-tool-peas-agent-analysis]]'
+- '[[dk-c3-txt-ingest-skip]]'
+- '[[dk-f1-regex-on-cjk]]'
+- '[[dk-f11-encyclopedia-style]]'
+- '[[dk-f14-accuracy-measurement-mismatch]]'
+- '[[dk-f3-state-json-race-condition]]'
+- '[[dk-f4-wrong-workdir]]'
+- '[[dk-f5-stale-feedback-ref]]'
+- '[[dk-f6-cjk-skeleton-corruption]]'
+- '[[dk-f7-surface-translation]]'
+- '[[dk-f8-phony-wikilink]]'
+- '[[dk-f9-generic-critique]]'
 tags:
 - audience:executor
 - scene:reference

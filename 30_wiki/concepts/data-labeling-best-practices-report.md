@@ -31,6 +31,7 @@ related:
 - '[[ouyangfeng-labeling-research-review]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - kdo-15-dimension-label-spec
+- '[[dk-p17-accuracy-gap]]'
 tags:
 - audience:general
 - scene:reference

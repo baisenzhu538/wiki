@@ -47,6 +47,7 @@ related:
 - 人在环双三角关系
 - HITL双三角
 - annotations
+- '[[dk-ai-collaboration-degradation-spiral]]'
 tags:
 - audience:general
 - scene:reference

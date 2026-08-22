@@ -42,6 +42,8 @@ related:
 - '[[concept-目标-北极星型vs探索型]]'
 - '[[concept-目标管理组织四阶段]]'
 - '[[yt-management-project-management]]'
+- '[[dk-实事求是目标管理双原则]]'
+- '[[dk-目标管理四大病]]'
 updated_at: 2026-07-02
 id: yt-management-goal-management
 author: 老顽童

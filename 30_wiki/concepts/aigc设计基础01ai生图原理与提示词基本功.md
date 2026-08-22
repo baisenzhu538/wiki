@@ -32,6 +32,8 @@ related:
 - '[[tool-月白-AIGC模型选型决策法]]'
 - '[[tool-月白-AI模型选择策略]]'
 - '[[tool-月白-精准提示词消除模型幻觉]]'
+- '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
+- '[[dk-yb6-midjourney-chinese-text-fix]]'
 tags:
 - audience:general
 - scene:reference

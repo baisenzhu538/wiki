@@ -30,6 +30,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[dk-p6-session-resume-fail]]'
 diagnostic_signals:
 - framework_lens: 网络效应——平台需要明确的网络效应类型
   follow_up_question: 你的平台是哪种类型的网络效应？同边、跨边、还是数据网络效应？

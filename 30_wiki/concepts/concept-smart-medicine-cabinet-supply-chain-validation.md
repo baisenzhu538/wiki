@@ -10,6 +10,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[dk-ef-002-bom-version-async]]'
+- '[[dk-ef-003-hand-soldering-bom-divergence]]'
 aliases:
 - 技术交叉验证知识卡草稿
 - 智能药柜供应链/技术交叉验证知识卡草稿

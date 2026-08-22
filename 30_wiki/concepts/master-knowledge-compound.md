@@ -38,6 +38,8 @@ related:
 - '[[concept-问题驱动式深度思考笔记]]'
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 - '[[yt-tool-knowledge-extraction]]'
+- '[[dk-p8-toolkit-forget]]'
+- '[[dk-yb2-llm-muddy-clear-muddy]]'
 tags:
 - audience:general
 - scene:reference

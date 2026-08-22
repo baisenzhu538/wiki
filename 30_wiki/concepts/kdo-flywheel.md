@@ -17,6 +17,7 @@ related:
 - '[[proposal-kdo-flywheel-infrastructure]]'
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[proposal-kdo-flywheel-infrastructure]]'
+- '[[dk-p8-toolkit-forget]]'
 query_triggers:
 - src_unknown
 - src_unknown

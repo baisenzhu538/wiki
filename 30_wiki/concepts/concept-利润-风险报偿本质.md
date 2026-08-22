@@ -38,6 +38,7 @@ related:
 - framework-yitang-high-level-execution
 - dk-利润-创始人利润耻感
 - dk-利润-资本游戏与真实商业分界线
+- '[[dk-利润-定价恐惧三段式反问]]'
 tags:
 - audience:general
 - scene:reference

@@ -52,6 +52,15 @@ related:
 - '[[concept-cognitive-offloading-in-ai-era]]'
 - '[[pilot-atomic-chunk-comparison]]'
 - '[[yt-research-mindset]]'
+- '[[学会提问在信息洪流中锻造批判性思维的利刃]]'
+- '[[dk-c10-batch-tool-no-dry-run]]'
+- '[[dk-c11-hongqigong-skip-review]]'
+- '[[dk-c8-format-complete-mind-empty]]'
+- '[[dk-c9-batch-trigger-garbage]]'
+- '[[dk-decision-value-overrides-roi]]'
+- '[[dk-decision-when-to-defer]]'
+- '[[dk-lu-gui-lv-bu-bei-yu-wang]]'
+- '[[dk-p10-oral-ban]]'
 tags:
 - audience:ceo
 - scene:diagnosis

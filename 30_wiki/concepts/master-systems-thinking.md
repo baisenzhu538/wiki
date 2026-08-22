@@ -36,6 +36,7 @@ related:
 - '[[master-knowledge-compound]]'
 - '[[learning-thinking]]'
 - '[[yt-unit-model-ai-assisted]]'
+- '[[dk-c2-dual-status-machine]]'
 tags:
 - audience:general
 - scene:reference

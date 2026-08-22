@@ -56,6 +56,7 @@ related:
 - '[[business-formula-to-kdo-card-quality]]'
 - '[[case-daxin-team-content-training-camp]]'
 - '[[case-daxin-vikki-community-contrast]]'
+- '[[dk-community-lecturer-vs-crowd-model]]'
 pipeline:
 - confidence-draft
 ---

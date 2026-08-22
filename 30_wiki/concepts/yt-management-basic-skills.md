@@ -49,6 +49,7 @@ related:
 - '[[yt-management-project-management]]'
 - '[[yt-management-scientific-meetings]]'
 - '[[yt-management-strategy-meeting]]'
+- '[[dk-yitang-project-overmanagement-vs-bare-run]]'
 tags:
 - audience:general
 - scene:reference

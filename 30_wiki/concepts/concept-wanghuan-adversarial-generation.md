@@ -31,6 +31,7 @@ related:
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[dk-wanghuan-standard-by-iteration]]'
 diagnostic_signals:
 - lens: 生成与评审视角未分离，模型在用同一套偏见自我确认
   follow_up: 引入第二个不同基座的模型专门扮演评审者，逐条输出问题清单

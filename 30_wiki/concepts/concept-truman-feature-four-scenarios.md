@@ -33,6 +33,8 @@ related:
   - concept-一堂-基本功-刻意练习四要素
   - '[[case-truman-ai-image-workflow-evolution]]'
   - '[[concept-yihang-ai-feature-thinking]]'
+  - '[[dk-demand-feature-stacking]]'
+  - '[[dk-key-hypothesis-still-hope]]'
 tags:
   - method:feature-thinking
   - method:application

@@ -48,6 +48,9 @@ related:
 - '[[case-new-year-insight-relay]]'
 - '[[case-vibecoding-one-week-delivery]]'
 - '[[concept-ai-style-knowledge-docs]]'
+- '[[dk-model-demystification]]'
+- '[[dk-three-context-formula]]'
+- '[[dk-tool-adoption-by-force]]'
 review_date: 2026-08-16
 ---
 

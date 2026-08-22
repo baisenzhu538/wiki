@@ -53,6 +53,7 @@ related:
 - '[[concept-一堂-kernel-validation]]'
 - '[[concept-一堂-key-assumptions]]'
 - '[[yitang-strategy-canvas]]'
+- '[[dk-ai-as-last-step-not-first]]'
 ---
 
 # 产品内核 — 用户愿意选择你的最小解决方案

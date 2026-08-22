@@ -37,6 +37,7 @@ related:
 - concept-collaboration-philosophy-foundation
 - 'framework-knowledge-naming-systems-comparison'
 - '[[concept-ai-co-learning]]'
+- '[[dk-bfm-compression-path]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 待审

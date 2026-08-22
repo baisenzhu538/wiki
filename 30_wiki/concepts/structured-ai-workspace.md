@@ -19,6 +19,7 @@ related:
 - '[[ai-learning-closed-loop]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[dk-lz-code-is-disposable]]'
 query_triggers:
 - src_unknown
 - src_unknown

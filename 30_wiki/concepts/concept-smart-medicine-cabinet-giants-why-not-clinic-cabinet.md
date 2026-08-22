@@ -39,6 +39,8 @@ related:
 - - - smart-medicine-cabinet-o2o-cost-structure
 - smart-medicine-cabinet-clinic-risk-observation
 - 诊所O2O项目
+- '[[dk-c1-cjk-regex-silent-fail]]'
+- '[[dk-p5-cc-connect-config]]'
 tags:
 - audience:general
 - scene:reference

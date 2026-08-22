@@ -37,6 +37,7 @@ related:
 - '[[case-4000-titles-ten-strategies]]'
 - '[[case-ai-learning-series-modeling]]'
 - '[[concept-open-a-document]]'
+- '[[dk-research-ranklist-replaces-model]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

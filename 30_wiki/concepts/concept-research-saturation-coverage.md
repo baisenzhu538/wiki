@@ -42,6 +42,16 @@ related:
 - '[[case-design-principles-90]]'
 - '[[case-leo-lubricant-dealer-research]]'
 - '[[case-opc-128-directions]]'
+- '[[dk-extract-then-merge]]'
+- '[[dk-research-ai-no-time-concept]]'
+- '[[dk-research-classification-mece-table]]'
+- '[[dk-research-important-things-must-do]]'
+- '[[dk-research-ranklist-replaces-model]]'
+- '[[dk-research-sampling-correction-three-rounds]]'
+- '[[dk-research-saturation-quota-ai-km]]'
+- '[[dk-research-saturation-self-proof]]'
+- '[[dk-research-scavenger-vs-architect]]'
+- '[[dk-research-total-anchor-private-library]]'
 tags:
 - audience:manager
 - scene:planning

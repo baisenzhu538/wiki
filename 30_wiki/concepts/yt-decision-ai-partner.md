@@ -36,6 +36,7 @@ related:
 - '[[yt-note-ai-human-division]]'
 - '[[yt-unit-model-ai-assisted]]'
 - '[[人机协作决策-双三角模型]]'
+- '[[dk-customers-hate-ai]]'
 reviewed_by: 周伯通
 aliases:
   - AI决策Partner对话法

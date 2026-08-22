@@ -39,6 +39,7 @@ status: draft
 related:
   - '[[design-ai-image-generation]]'
   - '[[yt-skill-checklist-as-ai-protocol]]'
+  - '[[视觉prompt三层操作系统-srom-visual-os]]'
 ---
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
 

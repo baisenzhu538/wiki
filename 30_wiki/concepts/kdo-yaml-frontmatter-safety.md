@@ -29,6 +29,23 @@ related:
 - '[[proposal-kdo-flywheel-infrastructure]]'
 - '[[concept-feishu-api-pagination-trap]]'
 - '[[kdo-flywheel]]'
+- '[[dk-c2-dual-status-machine]]'
+- '[[dk-c3-txt-ingest-skip]]'
+- '[[dk-f1-regex-on-cjk]]'
+- '[[dk-f10-broken-source-refs]]'
+- '[[dk-f11-encyclopedia-style]]'
+- '[[dk-f12-builder-context-deadlock]]'
+- '[[dk-f13-handwritten-yaml-parser]]'
+- '[[dk-f14-accuracy-measurement-mismatch]]'
+- '[[dk-f3-state-json-race-condition]]'
+- '[[dk-f4-wrong-workdir]]'
+- '[[dk-f5-stale-feedback-ref]]'
+- '[[dk-f6-cjk-skeleton-corruption]]'
+- '[[dk-f7-surface-translation]]'
+- '[[dk-f8-phony-wikilink]]'
+- '[[dk-f9-generic-critique]]'
+- '[[dk-p16-validate-reads-state-json]]'
+- '[[dk-p18-yaml-parser]]'
 pipeline:
 - src_unknown
 author: 老顽童

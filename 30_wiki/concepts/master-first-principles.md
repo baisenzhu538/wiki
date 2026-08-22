@@ -30,6 +30,9 @@ related:
 - '[[master-systems-thinking]]'
 - '[[master-antifragile-checklist]]'
 - '[[master-knowledge-compound]]'
+- '[[dk-f13-handwritten-yaml-parser]]'
+- '[[dk-p8-toolkit-forget]]'
+- '[[dk-p9-glob-miss]]'
 tags:
 - audience:executor
 - scene:execution

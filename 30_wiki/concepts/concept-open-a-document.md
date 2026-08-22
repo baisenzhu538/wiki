@@ -40,6 +40,9 @@ related:
 - '[[case-4000-titles-ten-strategies]]'
 - '[[case-ai-learning-series-modeling]]'
 - '[[concept-session-vs-memory-vs-document]]'
+- '[[dk-research-ranklist-replaces-model]]'
+- '[[dk-research-scavenger-vs-architect]]'
+- '[[dk-research-total-anchor-private-library]]'
 tags:
 - audience:manager
 - audience:executor

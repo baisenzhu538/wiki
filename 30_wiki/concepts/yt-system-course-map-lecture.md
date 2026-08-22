@@ -67,6 +67,10 @@ related:
 - '[[yt-personal-ipo-learning]]'
 - '[[yt-system-course-catalog]]'
 - '[[在设计小伙伴的反馈还挺好的]]'
+- '[[存储策略]]'
+- '[[老朱的水感-2026年5月]]'
+- '[[视觉prompt三层操作系统-srom-visual-os]]'
+- '[[那今天不会]]'
 tags:
 - audience:general
 - scene:reference

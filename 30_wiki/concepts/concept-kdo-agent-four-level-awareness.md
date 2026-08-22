@@ -32,6 +32,8 @@ related:
 - concept-一堂-Agent基本功修炼
 - '[[case-agent-self-evolution-pilot]]'
 - '[[concept-ai-co-learning]]'
+- '[[dk-agent-evolution-pitfalls]]'
+- '[[dk-ai-cross-domain-inference]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 欧阳锋

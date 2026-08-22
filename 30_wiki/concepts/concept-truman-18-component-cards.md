@@ -36,6 +36,8 @@ related:
 - modeling-three-stages
 - '[[case-modeling-ai-image-workflow]]'
 - '[[case-modeling-gongjianhui-facilitation]]'
+- '[[dk-modeling-jump-step-cost]]'
+- '[[dk-process-is-scar-tissue]]'
 tags:
 - audience:general
 - scene:reference

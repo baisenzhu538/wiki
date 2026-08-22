@@ -39,6 +39,7 @@ related:
 - '[[yt-skill-storyline-problem-solving]]'
 - '[[yt-skill-storyline-target-tradeoff]]'
 - '[[yt-skill-storyline-timeline]]'
+- '[[dk-p3-auth-cache]]'
 tags:
 - audience:executor
 - scene:execution

@@ -24,6 +24,7 @@ discoverable_by:
 related:
 - '[[紫鲸AI]]'
 - '[[紫鲸ai_智能体工作流平台_深度分析与产品设计]]'
+- '[[鑫港湾his系统分阶段整改报告]]'
 tags:
 - audience:general
 - scene:reference

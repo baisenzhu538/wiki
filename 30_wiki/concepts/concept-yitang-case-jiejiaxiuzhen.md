@@ -37,6 +37,7 @@ related:
 - framework-kdo-modeling-methodology
 - dk-yitang-case-crafting-pitfalls
 - framework-yitang-content-polish
+- '[[dk-yitang-case-before-after]]'
 tags:
 - audience:general
 - scene:reference

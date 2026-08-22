@@ -15,6 +15,7 @@ related:
 - '[[pending_unknown]]'
 - '[[ec工业化规范手册-v2.8.0]]'
 - '[[保达云诊所深度调研报告]]'
+- '[[街顺app全面调研报告]]'
 tags:
 - audience:general
 - scene:reference

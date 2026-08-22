@@ -35,6 +35,7 @@ related:
 - '[[互联网医院模式深度调研报告]]'
 - '[[yt-barrier-network-effects-deep]]'
 - '[[yt-tool-peas-agent-analysis]]'
+- '[[视觉prompt三层操作系统-srom-visual-os]]'
 tags:
 - audience:general
 - scene:reference

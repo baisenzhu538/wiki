@@ -33,6 +33,8 @@ related:
 - concept-truman-18-component-cards
 - '[[bridge-个人复盘×知识管理W-Z-K-P]]'
 - '[[concept-kdo-feature-registry]]'
+- '[[dk-bfm-compression-path]]'
+- '[[dk-E010-duplicate-key-detection]]'
 created_at: 2026-07-19
 updated_at: 2026-07-19
 tags:

@@ -32,6 +32,11 @@ related:
 - '[[master-knowledge-compound]]'
 - '[[industrial-ai-ops-cases]]'
 - '[[knowledge-error-self-exposure]]'
+- '[[学会提问在信息洪流中锻造批判性思维的利刃]]'
+- '[[dk-p9-glob-miss]]'
+- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+- '[[dk-wanghuan-creativity-in-description-and-taste]]'
+- '[[dk-wanghuan-standard-by-iteration]]'
 tags:
 - audience:ceo
 - scene:diagnosis

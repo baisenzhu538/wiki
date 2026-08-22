@@ -38,6 +38,7 @@ related:
 - '[[knowledge-delivery-os-快速体验指南-飞书云文档]]'
 - '[[yt-product-kernel-definition]]'
 - '[[yt-tool-peas-agent-analysis]]'
+- '[[视觉prompt三层操作系统-srom-visual-os]]'
 tags:
 - audience:general
 - scene:reference

@@ -41,6 +41,7 @@ related:
 - '[[concept-mckinsey-mece]]'
 - '[[case-milktea-five-step]]'
 - '[[concept-一堂-kernel-iteration]]'
+- '[[pattern-hypothesis-validation]]'
 wiki_refs:
 - src_unknown
 - src_unknown

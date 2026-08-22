@@ -36,6 +36,8 @@ related:
 - dk-利润-利润敏感度非对称性
 - yt-decision-y-model
 - '[[case-利润-白牌珠宝流量上瘾症]]'
+- '[[dk-利润-平台驱动本质是现金流驱动]]'
+- '[[dk-利润-资本游戏与真实商业分界线]]'
 tags:
 - audience:general
 - scene:reference

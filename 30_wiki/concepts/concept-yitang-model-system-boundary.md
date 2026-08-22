@@ -37,6 +37,10 @@ related:
 - '[[framework-yitang-shishi-qiushi]]'
 - '[[method-yitang-y-model-engine-cycle]]'
 - '[[tool-yitang-method-ab-sides-checklist]]'
+- '[[pattern-layered-matching]]'
+- '[[pattern-tool-vs-model]]'
+- '[[dk-yitang-methodology-stack-fallacy]]'
+- '[[dk-yitang-over-abstraction]]'
 tags:
 - audience:general
 - scene:reference

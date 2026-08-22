@@ -14,6 +14,10 @@ related:
 - '[[HIS系统开发实现方案-架构师指南]]'
 - '[[HIS系统深度调研]]'
 - '[[yt-tool-peas-agent-analysis]]'
+- '[[开源HIS系统代码深度分析报告]]'
+- '[[街顺app全面调研报告]]'
+- '[[视觉prompt三层操作系统-srom-visual-os]]'
+- '[[轻量级诊所HIS调研全清单]]'
 aliases:
 - 系统分阶段整改报告
 - 鑫港湾HIS系统分阶段整改报告

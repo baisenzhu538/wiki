@@ -41,6 +41,7 @@ related:
 - '[[yt-entrepreneur-research-cognition]]'
 - '[[yt-model-five-step-canvas]]'
 - '[[yt-tool-product-core-canvas]]'
+- '[[dk-p3-auth-cache]]'
 review_date: 2026-06-06
 aliases:
   - 关键假设259工具与假设验证三板斧

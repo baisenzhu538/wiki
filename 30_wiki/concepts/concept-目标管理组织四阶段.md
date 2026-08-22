@@ -34,6 +34,7 @@ related:
 - dk-目标管理四大病
 - concept-目标-北极星型vs探索型
 - management-domain-digest
+- '[[dk-实事求是目标管理双原则]]'
 tags:
 - audience:general
 - scene:reference

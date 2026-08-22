@@ -43,6 +43,7 @@ related:
   - '[[yt-entrepreneur-key-hypotheses]]'
   - '[[yt-model-five-step-canvas]]'
   - '[[yt-tool-product-core-canvas]]'
+  - '[[dk-p20-bigram-fail]]'
 ---
 # 产品内核定义、迭代与验证方法论
 

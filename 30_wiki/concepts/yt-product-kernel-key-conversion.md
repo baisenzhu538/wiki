@@ -29,6 +29,7 @@ related:
 - '[[tool-设定管理杠杆率指标评估效率]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[dk-p3-auth-cache]]'
 diagnostic_signals:
 - framework_lens: 关键转化率——总用户数是虚荣指标，转化率才是核心
   follow_up_question: 从了解产品到选择产品的转化率是多少？这个数值健康吗？

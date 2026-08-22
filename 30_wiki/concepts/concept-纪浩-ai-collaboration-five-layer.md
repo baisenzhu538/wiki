@@ -30,6 +30,7 @@ related:
 - - - case-纪浩-focus-prompt-design
 - - - case-纪浩-from-zip-to-five-layers
 - '[[case-纪浩-from-zip-to-five-layers]]'
+- '[[dk-lz-code-is-disposable]]'
 wiki_refs:
 - src_unknown
 - src_unknown

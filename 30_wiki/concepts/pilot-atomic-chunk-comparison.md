@@ -30,6 +30,7 @@ related:
 - '[[master-decision-hygiene]]'
 - '[[gold-standard-manual-labels]]'
 - data-curator-role-division
+- '[[学会提问在信息洪流中锻造批判性思维的利刃]]'
 tags:
 - audience:general
 - scene:reference

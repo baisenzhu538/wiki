@@ -27,6 +27,7 @@ related:
 - yt-system-course-map-lecture
 - yt-case-mandatory-cases
 - '[[yt-skill-checklist-as-ai-protocol]]'
+- '[[视觉prompt三层操作系统-srom-visual-os]]'
 tags:
 - audience:general
 - scene:reference

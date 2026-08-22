@@ -40,6 +40,8 @@ related:
 - '[[case-wangfei-newyear-event-diagnosis]]'
 - '[[concept-ai-co-learning]]'
 - '[[concept-structured-naming-as-infrastructure]]'
+- '[[dk-ai-cross-domain-inference]]'
+- '[[dk-sponsor-three-tier-pricing]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 待审

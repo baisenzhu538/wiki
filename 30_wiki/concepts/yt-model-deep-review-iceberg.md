@@ -43,6 +43,7 @@ related:
 - '[[case-莹莹-before-after复盘]]'
 - '[[bridge-个人复盘×知识管理W-Z-K-P]]'
 - '[[case-千惠供应链复盘]]'
+- '[[dk-借假修真与黑盒白盒]]'
 tags:
 - audience:general
 - scene:reference

@@ -32,6 +32,9 @@ tags:
 - 刘长胜
 type: concept
 status: draft
+related:
+  - '[[dk-ai-entrepreneur-technical-blindspot]]'
+  - '[[dk-demand-feature-stacking]]'
 ---
 # AI创业20个高风险假设清单
 

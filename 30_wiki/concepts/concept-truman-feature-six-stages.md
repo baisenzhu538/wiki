@@ -27,6 +27,7 @@ related:
   - concept-truman-feature-four-scenarios
   - concept-一堂-基本功-刻意练习四要素
   - tool-Truman-Feature特性层训练法
+  - '[[dk-feature-not-learned-but-used]]'
 tags:
   - method:learning
   - method:feature-thinking

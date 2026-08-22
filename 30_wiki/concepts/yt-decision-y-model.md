@@ -107,6 +107,11 @@ related:
 - '[[yt-unit-model-construction]]'
 - '[[yt-unit-model-selection]]'
 - '[[人机协作决策-双三角模型]]'
+- '[[pattern-hypothesis-validation]]'
+- '[[pattern-layered-matching]]'
+- '[[dk-decision-value-overrides-roi]]'
+- '[[dk-lu-gui-lv-bu-bei-yu-wang]]'
+- '[[dk-利润-创始人利润耻感]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

@@ -44,6 +44,8 @@ tags:
 - 单元模型
 - 尺子和梯子区别
 type: concept
+related:
+  - '[[dk-p20-bigram-fail]]'
 ---
 # 259里程碑
 

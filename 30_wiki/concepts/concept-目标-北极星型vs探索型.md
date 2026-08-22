@@ -38,6 +38,7 @@ related:
 - yt-tool-okr-cycle
 - yt-management-goal-management
 - '[[concept-目标管理组织四阶段]]'
+- '[[dk-实事求是目标管理双原则]]'
 tags:
 - audience:general
 - scene:reference

@@ -89,6 +89,16 @@ related:
 - '[[case-yihang-dual-triangle-tanzhaichao-ai-growth]]'
 - '[[concept-ai-video-wanggan-componentization]]'
 - '[[concept-yihang-ai-feature-thinking]]'
+- '[[dk-ai-collaboration-degradation-spiral]]'
+- '[[dk-post-hoc-framework-vs-messy-reality]]'
+- '[[dk-yihang-ai-false-certainty]]'
+- '[[dk-yihang-canvas-preparation-three-principles]]'
+- '[[dk-yihang-dual-triangle-commitment-confidence]]'
+- '[[dk-yihang-dual-triangle-strategic-bet]]'
+- '[[dk-yihang-multi-ai-cross-validation]]'
+- '[[dk-yihang-non-expert-judgment]]'
+- '[[dk-yihang-report-book-learner]]'
+- '[[dk-yihang-scientific-community-moat]]'
 tags:
 - audience:general
 - scene:reference

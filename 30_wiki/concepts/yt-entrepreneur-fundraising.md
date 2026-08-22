@@ -34,6 +34,8 @@ tags:
 - 课程地图精华串讲
 type: concept
 status: draft
+related:
+  - '[[dk-p20-bigram-fail]]'
 ---
 # 融资认知
 

@@ -35,6 +35,7 @@ related:
 - '[[method-yihang-knowledge-battle-station]]'
 - '[[case-yihang-dual-triangle-ai-organizational-behavior]]'
 - '[[concept-yihang-research-driven-company]]'
+- '[[dk-yihang-scientific-community-moat]]'
 tags:
 - audience:general
 - scene:reference
