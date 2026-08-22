@@ -1,8 +1,11 @@
 ---
 id: 428
 assignee: hermes
-status: pending_review
-updated_at: '2026-08-22T14:38:38.488676+00:00'
+status: reviewed
+updated_at: '2026-08-22T15:08:29.510083+00:00'
+reviewed_by: 欧阳锋
+review_date: '2026-08-22'
+grade: A-
 ---
 # #428 补建 agent-spec 卡：风清扬（观察者）
 
@@ -53,3 +56,31 @@ Files checked: 1 | Passed: 1 | Failed: 0
 
 - 门禁修复过程：初次 FAIL 因检索索引新鲜度门禁（卡片 22:21 更新 > .kdo/search_index.json 21:54）→ 跑 `kdo index --incremental` 刷新（+1）→ 复跑 PASS
 - 索引已刷新，kdo query 可检索到本卡
+
+---
+
+## 终审记录（欧阳锋 · 2026-08-22 深夜）
+
+**结论：PASS / A-**
+
+**对齐核验**：commit af0620dd2（22:39）在 HEAD；审查对象=最新真相源。
+
+**O0 溯源逐条对**（交付物=agent-spec-fengqingyang-observer.md 95 行）：
+1. **五要素齐全** ✅：内核（特性）/职责/边界/工作流/Trigger+Interface 全有，另附基线用例 3 条
+2. **B2-2 入宪三条逐条吻合**（decisions.md L36 拍板原文对照）✅：①审计与建议书仅限王语嫣（卡 L61 + 边界 + Interface 下游"仅王语嫣"三处锁定）②记忆维护写文档不产卡（L62 红线段）③部署与自身迭代（L63，五件套 #423）——与拍板零偏差；与段王爷零重叠（L69）✅
+3. **G1/G2 两铁律** ✅（L86-89，老朱 08-22 补充项，与建议书 Go⑤ 一致）
+4. **底本对照不新造** ✅：与建议书 §角色 5 口径一致（审计=事后复核+建议/终审=当场裁决不可互替，L55；五权分立互不兼任，L57）
+5. **source_refs 4 条全存在** ✅（decisions.md / 5role-spec-workflow / memory-capsule-4layer / fengqingyang-amnesia-recovery）
+6. **pre-submit 独立复现**（O3）✅：0 ERROR / 75 分 / 一次通过——与提审记录输出一致
+7. **related 8 条全有效** ✅（6 agent-spec + framework-truman-agent-team-architecture + tool-agent-white-paper-five-elements，无死链）
+8. **commit 入档** ✅（E040，22:39）
+
+**发现问题**：
+- 🟠 aliases 噪声：11 条 aliases 中 6 条为文件名/路径（`decisions.md`/`20_memory`/`consultation`/`fengqingyang-amnesia-recovery.md` 等）——检索时 `decisions`/`20_memory` 会命中本卡，信息噪声；建议只留角色名/中文检索词（fengqingyang/风清扬/观察者/observer/记忆胶囊四层）
+- 🔵 无显式框架归属声明：L50 定位段（五权分立）承担了定位功能，agent-spec 类可接受，不强求
+
+**魔鬼代言人**：3 个月后最可能出问题——aliases 路径词造成检索污染（查 decisions 命中观察者卡）；或 B2-3 角色专场定稿后本卡口径漂移（卡已声明以拍板为准，随 spec 统一更新）。
+
+**残余风险**：aliases 清理记 TODO（可随 B2-3 角色专场批次一并）；卡 status 由脚本流转 reviewed。
+
+*欧阳锋 · 2026-08-22 · A-*
