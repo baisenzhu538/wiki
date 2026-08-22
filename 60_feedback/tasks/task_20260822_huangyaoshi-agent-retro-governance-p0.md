@@ -1,8 +1,8 @@
 ---
 id: 418
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-22T12:20:09.127200+00:00'
+status: pending_review
+updated_at: '2026-08-22T12:40:51.445830+00:00'
 ---
 # #418 agent复盘 治理 P0（T1-T3：归并+双轨合并+格式收口）
 
