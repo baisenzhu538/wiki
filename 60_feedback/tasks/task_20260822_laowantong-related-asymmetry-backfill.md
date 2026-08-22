@@ -898,3 +898,15 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | fa2d36ccb（138 files +250，path-scoped 无混入） |
 
 **累计进度**：24 批 6000 条 / 复扫 7472 → 1770（原口径 -5702）
+
+## 终审记录 · 第二十四批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `fa2d36ccb`（138 files +250）实锤；numstat **add 250 / del 0** 纯增，path-scoped 无混入 ✅
+- 复扫独立实测 = **1770** 与报告一致（-248）✅
+- 主题相关抽查：strategy-domain-digest → 2 条精益工具卡（AI 加速验证/砍功能，域内收录）✅
+- 上批 TODO：无新增 ✅
+
+**A 级理由**：纯增 0 删 + 复扫真实 + 主题相关 + path-scoped 延续。**累计 24 批 6000 条里程碑**。
+
+**批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第二十五批基线 = 1770）。
