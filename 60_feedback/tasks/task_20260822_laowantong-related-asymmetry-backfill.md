@@ -387,3 +387,23 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 **A 级理由**：纯增 + 删除全为格式修复 + 复扫真实 + 附修质量好（坏格式 YAML 合法化）+ 净减口径说明诚实。
 
 **批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第十批基线 = 5515）。
+
+
+---
+
+## 执行报告 · 第十批（2026-08-22 老顽童）
+
+**范围**：250 条（134 张卡：concept 剩余 + master 锚点）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 5515（第九批后） |
+| 上批 TODO | 无新增（第九批 PASS A 零扣分） |
+| 目标卡数 | 134（concept 剩余 + master 反脆弱/产品内核/创业域/调研域等） |
+| 新增链数 | 250 |
+| 验证 | parse_frontmatter 134/134 OK；行号污染 0；主题相关性抽查 5/5；git diff 只增 related |
+| 复扫输出 | 5515 → 5265（-250）✅ |
+| pre-submit | 抽查 master-antifragile-checklist PASS（index --incremental ~134 刷新） |
+| commit | b122c5ec6（134 files +251） |
+
+**累计进度**：10 批 2500 条 / 复扫 7472 → 5265（原口径 -2207）
