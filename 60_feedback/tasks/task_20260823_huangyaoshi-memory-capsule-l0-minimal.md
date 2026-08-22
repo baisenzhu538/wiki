@@ -1,8 +1,8 @@
 ---
 id: 432
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-22T16:34:08.369998+00:00'
+status: pending_review
+updated_at: '2026-08-22T16:36:04.835784+00:00'
 ---
 # #432 记忆胶囊 L0 最小实现（A 本机主库 + B 第二盘镜像）
 
