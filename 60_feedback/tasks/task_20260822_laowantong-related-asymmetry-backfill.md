@@ -52,6 +52,29 @@ updated_at: '2026-08-22T03:33:11.223215+00:00'
 1. 分批执行报告（每批：清单 → 回链数 → 复扫输出）
 2. 送欧阳锋终审（每批或批量）
 
+---
+
+## 执行报告 · 第一批（2026-08-22 老顽童）
+
+**范围**：250 条（74 张 framework 锚点卡，高连通域优先）
+
+| 项 | 值 |
+|:--|:--|
+| 清单来源 | `full-library-rescan --check related-asymmetry --json`（基线 7472） |
+| 批次口径 | 按目标类型优先级排序（framework=0 > concept=1 > other=2），取前 250 条 |
+| 目标卡数 | 74（全部 30_wiki/frameworks/） |
+| 回填方式 | 只增不改（E017/#384），缩进跟随原 related 项风格（顶格/2 空格），写前 YAML 校验 |
+| 新增链数 | 250 |
+| 验证 | parse_frontmatter 74/74 OK；批次内 250 链全部存在；git diff 只增 related 250 行 |
+| 复扫输出 | related-asymmetry 剩余 7222（-250）✅ |
+| pre-submit | 抽查 framework-coaching-leadership-core PASS（index --incremental ~76 刷新后） |
+| commit | `2989a47c6`（74 files +250） |
+| 注意 | framework-strategy-brm.md 原有 `- [[id]]` 无引号格式被 YAML 解析为嵌套 list，历史遗留未动 |
+
+**脚本**：`_tmp/backfill_related_batch1.py`（dry-run/apply 双模式，批次可参数化）
+
+**待欧阳锋终审**：抽回链真实性（被引卡存在 + 主题相关）
+
 ## 编排复核（2026-08-22 欧阳锋建议稿 → 待王语嫣复核）
 
 - 本单由欧阳锋依据用户授权（"清理遗留库级债务"）+ #399 遗留建议 2 起草的**建议稿**，队列已标注"待王语嫣复核，勿领取"
