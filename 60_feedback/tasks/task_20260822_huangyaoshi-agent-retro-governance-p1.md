@@ -31,3 +31,40 @@ updated_at: '2026-08-22T15:05:38.092708+00:00'
 - 每个散落文件在移动前通读内容判断归属（B5 牌），归类映射表附执行报告（王语嫣裁定大类已定，具体角色归属判断后登记）
 - 删除动作仅限：空目录 + `_test_mv_probe.txt`（#418 事故遗留测试探针，13B 无内容价值）——如涉及，逐件登记
 - 无素材删除，PROTOCOL §7 不触发；如有超出空目录的删除需求，停下来逐件老朱亲批
+
+## 执行报告（2026-08-22 黄药师 · 归类映射表）
+
+### T5 退役实例归并（4 文件）
+| 源 | → | 依据 |
+|:--|:--|:--|
+| codebuddy/技能进化日志.md | huangyaoshi/codebuddy-技能进化日志.md | CodeBuddy 实例，基建/配置教训主导（models.json 白名单） |
+| codebuddy/daily-context/2026-08-08.md | huangyaoshi/daily-context/2026-08-08-codebuddy.md | 同上（DeepSeek 配置/ECONNRESET 诊断） |
+| kimi-code/daily-context/2026-07-09.md | wangyuyan/daily-context/2026-07-09-kimi-code.md | 内容自述「以王语嫣角色完成队列收尾」 |
+| Kimi/2026-06-30.md | wangyuyan/daily-context/2026-06-30-kimi.md | 自述「王语嫣/老顽童多角色实例」，编排主导（#30-3 任务扩展） |
+
+### T6 顶层散落归类（12 文件 + 1 删除）
+| 文件 | → | 类别 |
+|:--|:--|:--|
+| 2026-06-02-飞轮日全记录.md | wiki/60_feedback/session-archives/2026-06-02/ | 全厂事件复盘（按日期归档） |
+| 2026-06-30-队列抢跑事件与状态一致性治理复盘.md | wiki/60_feedback/session-archives/2026-06-30/ | retrospective（frontmatter type 明确） |
+| AI时代判断力-双三角-单元模型_会话总结_20260525.md | wiki/60_feedback/session-archives/2026-05-25/ | 会话总结（跨角色内容，按日期） |
+| Sprint6-三项不做决策逻辑.md | huangyaoshi/ | 黄药师署名备查 |
+| 单元模型五句金句.md | wangyuyan/ | 内容域（一堂单元模型口述课） |
+| Codex-Kimi-配置复盘.md | huangyaoshi/ | 基建配置复盘 |
+| KDO端到端测试发现的问题.md | huangyaoshi/ | 测试报告（基建） |
+| 广冷电子_HX-SMJ_红外光栅故障分析报告.md | wiki/30_wiki/projects/ | 业务报告→项目目录 |
+| 欧阳锋对电子资料归档整理及学习迭代的建议书.md | wiki/60_feedback/diagnosis/ | 建议书 |
+| 电子工程系统提示词建议书.md | wiki/60_feedback/diagnosis/ | 建议书 |
+| 电子工程顶层设计建议书.md | wiki/60_feedback/diagnosis/ | 建议书 |
+| sch_mcu_paddle_ocr.txt | agent复盘/_archive/ | OCR 产物归档 |
+| _test_mv_probe.txt | **删除**（用户 08-22 确认） | #418 事故遗留 13B 测试探针 |
+
+### T8 垃圾清理
+- 新建文件夹/、新建文件夹 (2)/：空目录已删
+- codebuddy/、kimi-code/、Kimi/：移空后 DEPRECATED.md 占位
+
+### 验证
+- agent复盘 顶层散落文件 **清零**（枚举确认）；16 移动/1 删除/2 空目录清理，全部 Python 执行（幻影丢失纪律），before/after 全记录
+- 11 处目标落地逐项 exists 验证 ✅
+- 无内容删除（仅 _test_mv_probe.txt 探针 + 空目录）；PROTOCOL §7 素材零触碰
+- wiki 侧 7 文件（session-archives×3/diagnosis×3/projects×1）commit 入档；agent复盘 侧移动清单见本表（目录非 git）
