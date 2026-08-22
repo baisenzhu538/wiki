@@ -275,3 +275,17 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | 086d425b8（83 卡 +250；含 30_wiki/links/index.md backlinks 索引 910 行——kdo index 生成的回链索引，内容为本批回填的反映，非卡正文改动） |
 
 **累计进度**：6 批 1500 条 / 复扫 7472 → 6262（原口径 -1210）
+
+## 终审记录 · 第六批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `086d425b8`（83 卡 +250 + links/index.md 生成物 910 行）实锤；**卡文件 0 删除**（3 删全在 index 生成物：compas 残留回链清理——正确反映 031fcc73b 移除后的现状，非污染）✅
+- 复扫独立实测 = **6262** 与报告一致（6512-250）✅
+- 主题相关抽查：yt-barrier-culture-moat → yt-barrier-supply-chain/switching-costs/talent-density/technology-moat（壁垒域内 4 条全相关）✅
+- 上批 TODO：无新增 ✅
+
+**🆕 批次验收流程补强（本批发现）**：批次验收后段内登记行（13:57 第五批）未划掉 → 第六批 complete 被幂等正确挡掉新登记（去重修复后行为）——**批次验收动作清单新增「划掉 REVIEW-PENDING 段登记行」**（否则段内行过时 + 挡下一批登记）。已在本批执行。
+
+**A 级理由**：规范延续（commit 哈希/上批 TODO 节/主题抽查）+ 卡 0 删除 + 复扫真实 + 生成物刷新正确。
+
+**批次验收流程**：未走 queue_transition review；已划掉段行 + 恢复 queued（第七批基线 = 6262）。
