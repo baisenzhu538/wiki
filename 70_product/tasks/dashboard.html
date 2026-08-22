@@ -63,12 +63,12 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </head>
 <body>
 <h1>KDO 生产看板</h1>
-<p class="subtitle">production-queue.md · 自动生成于 2026-08-22 11:20</p>
+<p class="subtitle">production-queue.md · 自动生成于 2026-08-22 11:25</p>
 
 <div class="stats">
 <div class="stat queued"><div class="stat-num">3</div><div class="stat-label">待领取 Queued</div></div>
-<div class="stat pending"><div class="stat-num">0</div><div class="stat-label">审查中 Review</div></div>
-<div class="stat active"><div class="stat-num">1</div><div class="stat-label">进行中 Active</div></div>
+<div class="stat pending"><div class="stat-num">1</div><div class="stat-label">审查中 Review</div></div>
+<div class="stat active"><div class="stat-num">0</div><div class="stat-label">进行中 Active</div></div>
 <div class="stat done"><div class="stat-num">386</div><div class="stat-label">已完成 Done</div></div>
 <div class="stat owner"><div class="stat-num">21</div><div class="stat-label">活跃角色</div></div>
 </div>
@@ -80,13 +80,27 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 
 
 <div class="task-group">
+<div class="group-header pending">审查中 · 等待欧阳锋</div>
+<div class="task-card">
+<div class="task-prio p2">P2</div>
+<div class="task-info">
+<div class="task-id">#408</div>
+<div class="task-title">两张空壳 skill 案例卡补强修复（P2，老朱 08-21 深夜拍板）：case-truman-ai-skill-engineering-guide + case-truman-ai-skill-self-packaging——src_unknown 清零 + 8-15 口述 L994-1066 新细节回填</div>
+<div class="task-detail">"知而不行"活化石修复（6-14 建卡空至今）；一等素材双口述逐字读；回填带行号防脑补（E039）；定位声明+双向回链+frontmatter 修复；pre-submit+commit 入档；欧阳锋终审抽"回填是否真出自口述"</div>
+</div>
+<div class="task-meta">
+<span class="task-assignee laowantong">老顽童</span>
+</div>
+</div>
+</div>
+<div class="task-group">
 <div class="group-header queued">待领取</div>
 <div class="task-card">
 <div class="task-prio p2">P2</div>
 <div class="task-info">
 <div class="task-id">#409</div>
 <div class="task-title">库级 YAML 修复（P2，欧阳锋 08-22 立项）：parse-error 58 张 YAML 结构损坏修复（#373 同类）——yaml 级逐张修，不伪装归零</div>
-<div class="task-detail">验收=full-library-rescan parse-error 归零附输出（#399 纪律）；不动 00_inbox 素材层；内容语义不变</div>
+<div class="task-detail">验收=full-library-rescan parse-error 归零附输出（#399 纪律）；不动 00_inbox 素材层；内容语义不变  ⚠️待王语嫣复核（欧阳锋建议稿）——复核通过前勿领取</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
@@ -97,7 +111,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-info">
 <div class="task-id">#410</div>
 <div class="task-title">production-queue.md 中文 mojibake 逆向修复（P2，欧阳锋 08-22 立项）：UTF-8-SIG 混合编码历史遗留——队列唯一真相源，风险管控</div>
-<div class="task-detail">强制备份+样本校准先行+diff 结构零变化；乱码→中文逐行复核；修复后 commit</div>
+<div class="task-detail">强制备份+样本校准先行+diff 结构零变化；乱码→中文逐行复核；修复后 commit  ⚠️待王语嫣复核（欧阳锋建议稿）——复核通过前勿领取</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee huangyaoshi">黄药师</span>
@@ -108,21 +122,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 <div class="task-info">
 <div class="task-id">#411</div>
 <div class="task-title">related-asymmetry 存量分批回填（P2，欧阳锋 08-22 立项）：7472 条单向链按域分批消化——#383/#384/#406 回链线延续</div>
-<div class="task-detail">只增 related 不动正文（E017/#384）；每批附 full-library-rescan 输出递减；依赖 #408 完成后领取</div>
-</div>
-<div class="task-meta">
-<span class="task-assignee laowantong">老顽童</span>
-</div>
-</div>
-</div>
-<div class="task-group">
-<div class="group-header active">进行中</div>
-<div class="task-card">
-<div class="task-prio p2">P2</div>
-<div class="task-info">
-<div class="task-id">#408</div>
-<div class="task-title">两张空壳 skill 案例卡补强修复（P2，老朱 08-21 深夜拍板）：case-truman-ai-skill-engineering-guide + case-truman-ai-skill-self-packaging——src_unknown 清零 + 8-15 口述 L994-1066 新细节回填</div>
-<div class="task-detail">"知而不行"活化石修复（6-14 建卡空至今）；一等素材双口述逐字读；回填带行号防脑补（E039）；定位声明+双向回链+frontmatter 修复；pre-submit+commit 入档；欧阳锋终审抽"回填是否真出自口述"</div>
+<div class="task-detail">只增 related 不动正文（E017/#384）；每批附 full-library-rescan 输出递减；依赖 #408 完成后领取  ⚠️待王语嫣复核（欧阳锋建议稿）——复核通过前勿领取</div>
 </div>
 <div class="task-meta">
 <span class="task-assignee laowantong">老顽童</span>
@@ -430,7 +430,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;margin-top:32px;paddi
 </div>
 </div>
 
-<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-22 11:20 · git_head: 45b21c687 --></header>
-<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-22 11:20</footer>
+<header style="display:none"><!-- generated-by: generate-dashboard.py · updated_at: 2026-08-22 11:25 · git_head: 7f2e0e201 --></header>
+<footer>KDO 知识工厂 · 由 generate-dashboard.py 自动生成 · 2026-08-22 11:25</footer>
 </body>
 </html>
