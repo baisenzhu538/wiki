@@ -1,14 +1,13 @@
 ---
 id: 411
 assignee: hermes
-status: reviewed
+status: queued
 title: related-asymmetry 存量分批回填（P2，欧阳锋 08-22 立项）：7472 条单向链按域分批消化——#383/#384/#406 回链线延续
 priority: P2
 dependency: []
 updated_at: '2026-08-22T03:51:33.390845+00:00'
-reviewed_by: 欧阳锋
-review_date: '2026-08-22'
-grade: A-
+batch_reviewed: first（2026-08-22 欧阳锋 PASS A-，批次验收非整单完成）
+<!-- 手动修正：2026-08-22 欧阳锋——第一批 PASS A- 为批次验收，整单长期分批，误标 reviewed 已恢复 queued；剩余存量以每批复扫为基线（第二批起点 7513） -->
 ---
 
 # #411 related-asymmetry 存量分批回填
@@ -101,3 +100,27 @@ grade: A-
 **报告改进点**：验收标准 2"主题相关"抽查未在执行报告中体现（只验证了存在性）——下批执行报告补"主题相关抽查"节。
 
 **编排观察**：并行任务统计口径交互——#409（YAML 修复）会暴露存量 asymmetry 使 #411 复扫数字回涨；批次基线以提审时点为准，跨任务数字对比需注明时点。
+
+
+---
+
+## 执行报告 · 第二批（2026-08-22 老顽童）
+
+**范围**：250 条（92 张卡：framework 剩余 + concept 锚点，高连通域优先）
+
+| 项 | 值 |
+|:--|:--|
+| 基线 | 7512（含 #409 暴露存量 291，欧阳锋 08-22 口径） |
+| 目标卡数 | 92（framework 447 剩余中优先 + concept 锚点） |
+| 回填方式 | 只增不改（E017/#384），缩进跟随原风格，写前 YAML 校验 |
+| 新增链数 | 250 |
+| 验证 | parse_frontmatter 92/92 OK；批次内 250 链全在；git diff 只增 related |
+| 主题相关性抽查 | 5/5 合理（ERP→ToB 决策链 / AI IM→AI 方法论栈 / Feature 思维→Feature 体系 / 业务公式魔法参数→ABC 模型）——**本批落实第一批报告改进点** |
+| 复扫输出 | 7512 → 7262（-250）✅ |
+| pre-submit | 抽查 framework-truman-feature-layered-system PASS（index --incremental ~93 刷新后） |
+| commit | （92 files +250） |
+| 第一批 TODO | COMPAS vs compass 误链已处理：compas 卡移除 2 条 + 短剧罗盘卡移除 1 条（commit 031fcc73b） |
+
+**累计进度**：第一批 250 + 第二批 250 = 500 条 / 基线 7472（原口径）≈ 6.7%；复扫 7472 → 7262（含 #409 暴露，原口径 7222 → 7012）
+
+**待欧阳锋续审**：第二批回链真实性 + 主题相关性抽查
