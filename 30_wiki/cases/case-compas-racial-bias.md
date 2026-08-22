@@ -26,8 +26,6 @@ discoverable_by:
   - COMPAS 再犯算法种族偏见
   - 再犯算法种族偏见
 related:
-- '[[ai-short-drama-ice-fire-dissection-compass]]'
-- '[[ai-short-drama-ice-fire-scripting-compass]]'
 - '[[pending_unknown]]'
 - tool-ai-cross-reading-method
 - tool-ai-critical-reading-three-layers
