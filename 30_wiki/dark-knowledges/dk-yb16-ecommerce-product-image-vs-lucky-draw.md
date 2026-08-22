@@ -32,6 +32,9 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[dk-yb22-visual-presentation-scene-match]]'
+- '[[dk-yb27-pseudo-layer-evasion]]'
+- '[[dk-yb30-ecommerce-channel-version]]'
 pipeline:
 - src_unknown
 - src_unknown

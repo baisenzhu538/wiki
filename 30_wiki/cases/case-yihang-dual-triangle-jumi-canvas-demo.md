@@ -33,6 +33,7 @@ related:
 - '[[tool-yihang-dual-triangle-canvas]]'
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[tool-yihang-dual-triangle-xray-deconstruct]]'
+- '[[dk-yihang-canvas-preparation-three-principles]]'
 tags:
 - audience:executor
 - scene:reference

@@ -30,6 +30,7 @@ related:
 - '[[dk-wanghuan-spec-trap]]'
 - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[yitang-domain-digest]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 tags:
 - audience:executor
 - scene:reference

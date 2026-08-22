@@ -36,6 +36,8 @@ related:
 - '[[tool-月白-工厂对接信息清单制作]]'
 - '[[轻量级诊所HIS调研全清单]]'
 - '[[tool-清单小抄工具箱法]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[huangyaoshi-data-alignment-response]]'
 tags:
 - audience:executor
 - scene:reference

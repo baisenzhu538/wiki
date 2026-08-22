@@ -35,6 +35,7 @@ related:
 - '[[tool-月白-表情包风格筛选与确定]]'
 - '[[tool-月白-AI图片风格逆向提取（抄图法）]]'
 - '[[dk-p20-bigram-fail]]'
+- '[[dk-yb27-pseudo-layer-evasion]]'
 pipeline:
 - src_unknown
 - src_unknown

@@ -31,6 +31,7 @@ discoverable_by:
 related:
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[dk-yitang-over-abstraction]]'
+- '[[dk-yihang-non-expert-judgment]]'
 tags:
 - audience:executor
 - scene:reference

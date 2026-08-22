@@ -54,6 +54,7 @@ related:
 - '[[case-yitang-sales-routine-deconstruction]]'
 - '[[dk-sales-big-deal-vs-small-deal]]'
 - '[[dk-sales-demand-mining-is-company-task]]'
+- '[[dk-yitang-channel-exploration-traps]]'
 created_at: 2026-07-02
 updated_at: 2026-07-24
 tags:

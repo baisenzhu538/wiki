@@ -39,6 +39,7 @@ related:
 - '[[yt-unit-model-concept]]'
 - '[[framework-lean-abcd-model]]'
 - '[[concept-yitang-channel-lean-validation-bridge]]'
+- '[[dk-yitang-channel-exploration-traps]]'
 review_date: '2026-06-28'
 tags:
 - audience:general

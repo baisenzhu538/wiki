@@ -32,6 +32,8 @@ related:
 - '[[tool-马易-AI答疑运营风格适配]]'
 - '[[tool-马易-减少输入噪音法]]'
 - tool-ai-deliverable-polish-loop
+- '[[dk-yb19-visual-strategy-price-match]]'
+- '[[dk-yb23-ai-pre-screen-three-minutes]]'
 tags:
 - audience:executor
 - scene:execution

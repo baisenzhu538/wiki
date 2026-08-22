@@ -31,6 +31,7 @@ related:
 - '[[tool-Truman-问题定义澄清法]]'
 - '[[tool-Truman-职场异步协作提问法]]'
 - '[[yt-tool-fab-persuasion]]'
+- '[[dk-yb6-midjourney-chinese-text-fix]]'
 tags:
 - audience:executor
 - scene:execution

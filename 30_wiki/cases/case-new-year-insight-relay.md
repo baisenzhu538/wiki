@@ -40,6 +40,7 @@ related:
 - '[[case-cross-xingangwan-pharma]]'
 - '[[dk-context-patching-recipe]]'
 - '[[dk-one-sentence-handover]]'
+- '[[dk-tool-adoption-by-force]]'
 review_date: 2026-08-16
 ---
 

@@ -56,6 +56,10 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[concept-wanghuan-power-of-standards]]'
 - '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
+- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+- '[[dk-wanghuan-creativity-in-description-and-taste]]'
+- '[[dk-wanghuan-standard-by-iteration]]'
+- '[[yt-note-p-c-role-boundary-realworld]]'
 tags:
 - audience:executor
 - scene:reference

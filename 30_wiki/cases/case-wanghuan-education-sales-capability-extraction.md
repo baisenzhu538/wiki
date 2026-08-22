@@ -42,6 +42,7 @@ related:
 - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
 - '[[case-wanghuan-yiyu-qingji-medical-notes]]'
 - '[[concept-wanghuan-flywheel-first-loop]]'
+- '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
 tags:
 - src_unknown
 - src_unknown

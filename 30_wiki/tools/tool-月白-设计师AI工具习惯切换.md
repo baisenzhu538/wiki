@@ -37,6 +37,7 @@ related:
 - '[[concept-wanghuan-ai-native-definition]]'
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-decision-width-method]]'
+- '[[dk-yb1-aigc-mvp-before-ps]]'
 tags:
 ---
 # 技能：设计师AI工具习惯切换

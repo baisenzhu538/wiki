@@ -39,6 +39,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[yt-note-ai-p-role-not-c-role]]'
 pipeline:
 - src_unknown
 - src_unknown

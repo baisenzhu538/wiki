@@ -32,6 +32,7 @@ discoverable_by:
 related:
 - '[[framework-yitang-jiefang-sixiang]]'
 - '[[yt-decision-y-model]]'
+- '[[dk-yitang-camel-dung-process-inertia]]'
 tags:
 - audience:general
 - scene:reference

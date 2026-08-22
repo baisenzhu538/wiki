@@ -47,6 +47,10 @@ related:
 - '[[strategy-domain-digest]]'
 - '[[dk-strategy-01-not-goal-setting]]'
 - '[[dk-strategy-03-advantage-temporary]]'
+- '[[dk-strategy-05-positioning-trap]]'
+- '[[dk-strategy-06-dividend-to-strategy]]'
+- '[[dk-strategy-07-strategy-vs-dividend]]'
+- '[[dk-strategy-08-not-local-optimum]]'
 tags:
 - audience:executor
 - scene:reference

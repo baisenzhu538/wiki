@@ -34,6 +34,7 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[concept-yitang-model-system-boundary]]'
 - '[[tool-yitang-shishi-qiushi-cheat-sheet]]'
+- '[[dk-yitang-methodology-stack-fallacy]]'
 tags:
 - audience:executor
 - scene:execution

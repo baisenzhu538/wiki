@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI一句话改图尺寸'
 - 'tool-月白-AI改图指令精细化'
 - 'dk-three-context-formula'
+- '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
 tags:
 ---
 # 技能：AI图生图尺寸快速转换

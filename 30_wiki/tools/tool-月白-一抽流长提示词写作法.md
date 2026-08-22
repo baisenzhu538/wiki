@@ -34,6 +34,8 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[dk-yb11-visual-book-reverse]]'
+- '[[dk-yb6-midjourney-chinese-text-fix]]'
 tags:
 ---
 # 技能：一抽流长提示词写作法

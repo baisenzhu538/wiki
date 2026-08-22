@@ -31,6 +31,7 @@ related:
 - '[[concept-yitang-model-system-boundary]]'
 - '[[case-yitang-shishi-qiushi-pitfall-10-over-abstraction]]'
 - '[[pattern-tool-vs-model]]'
+- '[[dk-yihang-multi-ai-cross-validation]]'
 tags:
 - audience:executor
 - scene:reference

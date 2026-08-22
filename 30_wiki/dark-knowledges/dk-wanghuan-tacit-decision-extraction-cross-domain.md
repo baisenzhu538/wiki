@@ -59,6 +59,7 @@ related:
 - '[[private-domain-saas-sales-funnel]]'
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
 - '[[concept-open-a-document]]'
+- '[[dk-wanghuan-agent-platform-director-mode]]'
 tags:
 - audience:executor
 - scene:reference

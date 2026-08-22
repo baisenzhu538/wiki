@@ -40,6 +40,7 @@ related:
 - '[[tool-月白-三步作业反馈法]]'
 - '[[tool-asset-file-naming-convention]]'
 - '[[case-yitang-model-asset-inventory]]'
+- '[[dk-yb1-aigc-mvp-before-ps]]'
 tags:
 - audience:executor
 - scene:execution

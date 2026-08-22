@@ -39,6 +39,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[tool-ai-critical-reading-three-layers]]'
+- '[[dk-wanghuan-creativity-in-description-and-taste]]'
 tags:
 - src_unknown
 - src_unknown

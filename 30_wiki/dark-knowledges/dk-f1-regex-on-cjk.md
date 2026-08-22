@@ -40,6 +40,7 @@ related:
 - '[[proposal-kdo-flywheel-infrastructure]]'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - '[[dk-p11-regex-cutoff]]'
+- '[[fix-dark-knowledge-extractor-llm]]'
 pipeline:
 - src_unknown
 - src_unknown

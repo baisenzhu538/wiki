@@ -35,6 +35,7 @@ related:
 - '[[pending_unknown]]'
 - proposal-prompt-injection-infrastructure
 - tool-agent-spec-yitang-objection-handler
+- '[[high-density-composite-compilation-strategy]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

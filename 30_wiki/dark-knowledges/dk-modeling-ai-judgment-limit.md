@@ -34,6 +34,13 @@ related:
 - '[[industrial-ai-ops-cases]]'
 - '[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]'
 - '[[yt-prompt-engineering-andrew-ng]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+- '[[dk-wanghuan-creativity-in-description-and-taste]]'
+- '[[dk-wanghuan-output-equals-standard-times-iteration]]'
+- '[[dk-wanghuan-standard-by-iteration]]'
+- '[[yt-note-p-c-role-boundary-realworld]]'
+- '[[huangyaoshi-data-alignment-response]]'
 tags:
 - audience:executor
 - scene:reference

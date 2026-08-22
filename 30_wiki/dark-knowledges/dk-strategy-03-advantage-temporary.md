@@ -30,6 +30,9 @@ related:
 - '[[yt-five-step-method]]'
 - '[[dk-tool-as-phased-validator]]'
 - '[[strategy-domain-digest]]'
+- '[[dk-strategy-05-positioning-trap]]'
+- '[[dk-strategy-06-dividend-to-strategy]]'
+- '[[dk-strategy-07-strategy-vs-dividend]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'

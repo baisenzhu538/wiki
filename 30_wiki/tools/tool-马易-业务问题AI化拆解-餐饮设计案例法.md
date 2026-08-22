@@ -87,6 +87,7 @@ related:
 - '[[case-zhangyang-anchor-sop-three-locks]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[yt-growth-user-onboarding]]'
+- '[[dk-yitang-business-formula-plus-times-trap]]'
 tags:
 - audience:executor
 - scene:execution

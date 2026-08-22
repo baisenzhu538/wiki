@@ -34,6 +34,7 @@ related:
 - 'tool-月白-A-B双轨反推模式选择'
 - 'tool-月白-AIGC反向拆解法'
 - 'case-truman-ai-image-workflow-evolution'
+- '[[dk-yb1-aigc-mvp-before-ps]]'
 tags:
 ---
 # 技能：用AIGC做设计专家批评复盘

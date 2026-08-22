@@ -36,6 +36,7 @@ related:
 - 'dk-three-context-formula'
 - '[[concept-token-capital]]'
 - '[[dk-p13-token-burn]]'
+- '[[dk-truman-iteration-to-aesthetic-ceiling]]'
 tags:
 ---
 # 技能：Token智甲比控制法

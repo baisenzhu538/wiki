@@ -40,6 +40,8 @@ related:
 - '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
 - '[[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]'
 - '[[yt-growth-user-onboarding]]'
+- '[[dk-yb1-aigc-mvp-before-ps]]'
+- '[[dk-yitang-business-formula-plus-times-trap]]'
 tags:
 ---
 # 技能：设计项目MVP拆解法

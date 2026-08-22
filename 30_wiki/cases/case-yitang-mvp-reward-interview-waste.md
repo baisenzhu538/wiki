@@ -30,6 +30,7 @@ related:
 - '[[yitang-research-domain-digest]]'
 - '[[pending_unknown]]'
 - case-opc-agent-wave1-real-model-testing
+- '[[dk-yb1-aigc-mvp-before-ps]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

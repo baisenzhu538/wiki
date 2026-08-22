@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
 tags:
 ---
 # 技能：AI生图与图生图决策法

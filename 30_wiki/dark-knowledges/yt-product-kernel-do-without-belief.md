@@ -34,6 +34,9 @@ related:
 - "[[yt-product-kernel-validation]]"
 - "[[yt-demand-fake-demand-detection]]"
 - "[[yt-five-step-method]]"
+- '[[yt-product-kernel-cost-sensitive-default-no]]'
+- '[[yt-product-kernel-failure-modes]]'
+- '[[yt-product-kernel-overpromise-trap]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 做而不信——访谈了，但不相信负面结果

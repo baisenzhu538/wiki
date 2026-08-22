@@ -26,6 +26,8 @@ discoverable_by:
   - 风格资产工程化归档
 related:
 - '[[ai-collaboration-domain-digest]]'
+- '[[dk-yb10-theory-moat-designer]]'
+- '[[dk-yb27-pseudo-layer-evasion]]'
 pipeline: null
 author: 月白
 reviewed_by: 欧阳锋

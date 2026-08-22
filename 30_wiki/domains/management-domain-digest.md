@@ -36,6 +36,9 @@ related:
 - '[[yt-model-management-map]]'
 - '[[dk-coaching-boundary-conditions]]'
 - '[[dk-coaching-monkey-theory]]'
+- '[[dk-实事求是目标管理双原则]]'
+- '[[dk-目标管理四大病]]'
+- '[[dk-管控vs协同执行策略]]'
 tags:
 - audience:manager
 - scene:reference

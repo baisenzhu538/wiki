@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[dk-yb19-visual-strategy-price-match]]'
 tags:
 ---
 # 技能：普通人AI设计80分法则

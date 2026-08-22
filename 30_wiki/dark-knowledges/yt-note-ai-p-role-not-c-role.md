@@ -32,6 +32,7 @@ related:
 - '[[dk-note-rookie-disaster-veteran-heaven]]'
 - '[[yt-note-five-levels-training]]'
 - '[[truman-ai-partner-design-analysis]]'
+- '[[yt-note-three-level-evolution]]'
 tags:
 - audience:executor
 - scene:reference

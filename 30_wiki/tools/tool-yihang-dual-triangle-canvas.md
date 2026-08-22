@@ -50,6 +50,9 @@ related:
 - '[[case-yihang-dual-triangle-D-engineer-upward-communication]]'
 - '[[case-yihang-dual-triangle-jumi-canvas-demo]]'
 - '[[concept-yihang-human-in-the-loop-dual-triangle]]'
+- '[[dk-yihang-canvas-preparation-three-principles]]'
+- '[[dk-yihang-dual-triangle-commitment-confidence]]'
+- '[[dk-yihang-report-book-learner]]'
 tags:
 - audience:executor
 - scene:execution

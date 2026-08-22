@@ -35,6 +35,7 @@ related:
   - tool-coaching-communication-segments
   - '[[case-coaching-dialogue-three-versions]]'
   - '[[dk-coaching-boundary-conditions]]'
+  - '[[dk-y-model-communication]]'
 tags:
 - audience:executor
 - scene:execution

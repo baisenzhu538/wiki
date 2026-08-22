@@ -30,6 +30,7 @@ related:
 - agent-native-card-design
 - high-density-composite-compilation-strategy
 - '[[contradictions]]'
+- '[[agent-ecosystem-design]]'
 tags:
 - audience:general
 - scene:reference

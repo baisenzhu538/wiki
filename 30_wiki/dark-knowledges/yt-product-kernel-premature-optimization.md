@@ -35,6 +35,7 @@ related:
 - '[[yt-demand-early-validation]]'
 - '[[yt-five-step-method]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-product-kernel-cost-sensitive-default-no]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 过早细化——在验证前投入大量资源完善产品

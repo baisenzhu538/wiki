@@ -35,6 +35,7 @@ related:
 - 'tool-月白-价格带视觉策略匹配'
 - 'tool-yitang-research-best-practice'
 - '[[yt-business-model-partnership]]'
+- '[[dk-yb6-midjourney-chinese-text-fix]]'
 tags:
 ---
 # 技能：多语种专业名词提示词策略

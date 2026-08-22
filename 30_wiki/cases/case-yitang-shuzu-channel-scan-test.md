@@ -44,6 +44,7 @@ related:
 - '[[framework-yitang-channel-unit-economics]]'
 - '[[concept-yitang-channel-lean-validation-bridge]]'
 - '[[framework-yitang-growth-flywheel]]'
+- '[[dk-yitang-channel-exploration-traps]]'
 review_date: '2026-06-28'
 tags:
 - audience:general

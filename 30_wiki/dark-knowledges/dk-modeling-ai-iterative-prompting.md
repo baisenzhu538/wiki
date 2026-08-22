@@ -40,6 +40,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
 - '[[dk-modeling-question-scaffold-not-answer]]'
+- '[[dk-tool-as-phased-validator]]'
 tags:
 - audience:executor
 - scene:reference

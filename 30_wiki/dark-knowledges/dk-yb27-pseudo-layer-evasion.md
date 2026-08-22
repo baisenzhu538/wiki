@@ -27,6 +27,7 @@ related:
 - '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
 - '[[dk-yb1-aigc-mvp-before-ps]]'
 - '[[dk-yb13-zero-shot-style-transfer]]'
+- '[[dk-yb11-visual-book-reverse]]'
 pipeline:
 - src_unknown
 - src_unknown

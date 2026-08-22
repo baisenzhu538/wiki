@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[yt-tool-best-practice-learning]]'
+- '[[dk-yb6-midjourney-chinese-text-fix]]'
 tags:
 ---
 # 技能：官方提示词最佳实践迁移

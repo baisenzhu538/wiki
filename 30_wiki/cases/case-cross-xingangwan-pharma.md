@@ -72,6 +72,8 @@ related:
 - '[[dk-research-scavenger-vs-architect]]'
 - '[[dk-research-total-anchor-private-library]]'
 - '[[dk-shoulu-yixia-culture]]'
+- '[[dk-three-context-formula]]'
+- '[[dk-tool-adoption-by-force]]'
 tags:
 - audience:general
 - scene:reference

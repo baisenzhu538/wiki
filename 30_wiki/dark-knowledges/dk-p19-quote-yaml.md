@@ -28,6 +28,7 @@ related:
 - '[[dk-p18-yaml-parser]]'
 - '[[proposal-yaml-frontmatter-standardization]]'
 - '[[dk-f13-handwritten-yaml-parser]]'
+- '[[fix-data-curator-parse-bug]]'
 pipeline:
 - src_unknown
 - src_unknown

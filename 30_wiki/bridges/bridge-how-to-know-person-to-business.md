@@ -49,6 +49,7 @@ related:
 - '[[dk-research-saturation-self-proof]]'
 - '[[dk-research-scavenger-vs-architect]]'
 - '[[dk-research-total-anchor-private-library]]'
+- '[[dk-tool-adoption-by-force]]'
 tags:
 - method:cross-domain
 - method:business-strategy

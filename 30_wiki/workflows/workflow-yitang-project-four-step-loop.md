@@ -32,6 +32,7 @@ related:
 - "[[tool-yitang-project-plan-canvas]]"
 - "[[tool-yitang-retrospective-canvas]]"
 - '[[case-yitang-2022-annual-lessons]]'
+- '[[dk-yitang-project-overmanagement-vs-bare-run]]'
 diagnostic_signals:
 - signal: 项目启动后，方案还在反复修改、需求一变再变——说明定方案这一步根本没完成就进入了拆计划
   lens: 缺四步闭环意识——没等一个环节真正结束就跳入下一个，导致层层回退

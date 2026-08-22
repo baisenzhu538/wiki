@@ -38,6 +38,9 @@ related:
 - '[[tool-月白-PPT全AI生成工作流]]'
 - '[[yt-lean-daily-chemical-mvp]]'
 - '[[case-yitang-mvp-reward-interview-waste]]'
+- '[[dk-yb10-theory-moat-designer]]'
+- '[[dk-yb27-pseudo-layer-evasion]]'
+- '[[dk-yb4-nano-banana-style-reproduction]]'
 pipeline: null
 author: 月白
 reviewed_by: 欧阳锋

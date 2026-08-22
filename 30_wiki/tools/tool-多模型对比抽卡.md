@@ -39,6 +39,7 @@ related:
 - '[[dk-ai-design-pitfalls]]'
 - '[[tool-ai-deliverable-polish-loop]]'
 - tool-ai-prd-for-ai
+- '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
 tags:
 - audience:executor
 - scene:execution

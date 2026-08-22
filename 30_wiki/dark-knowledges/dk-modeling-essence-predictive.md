@@ -34,6 +34,7 @@ diagnostic_signals:
   follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
 related:
   - '[[dk-delivery-path-type-bug]]'
+  - '[[dk-借假修真与黑盒白盒]]'
 tags: []
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'

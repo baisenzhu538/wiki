@@ -28,6 +28,8 @@ related:
 - '[[yt-product-kernel-do-without-belief]]'
 - '[[yt-demand-fake-demand-detection]]'
 - '[[yt-five-step-method]]'
+- '[[yt-product-kernel-cost-sensitive-default-no]]'
+- '[[yt-product-kernel-overpromise-trap]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 产品内核失败模式——需求假设错误

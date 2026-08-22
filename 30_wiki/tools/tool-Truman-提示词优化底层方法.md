@@ -46,6 +46,7 @@ related:
 - '[[case-truman-prd-checklist-evolution]]'
 - '[[case-truman-sales-report-structure]]'
 - '[[case-yitang-radar-chart-selection]]'
+- '[[dk-yb6-midjourney-chinese-text-fix]]'
 tags:
 - audience:executor
 - scene:execution

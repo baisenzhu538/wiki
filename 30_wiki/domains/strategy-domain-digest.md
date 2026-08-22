@@ -69,6 +69,12 @@ related:
 - '[[dk-strategy-02-three-paradoxes]]'
 - '[[dk-strategy-03-advantage-temporary]]'
 - '[[dk-strategy-04-consulting-trap]]'
+- '[[dk-strategy-05-positioning-trap]]'
+- '[[dk-strategy-06-dividend-to-strategy]]'
+- '[[dk-strategy-07-strategy-vs-dividend]]'
+- '[[dk-strategy-08-not-local-optimum]]'
+- '[[dk-strategy-consulting-jokes]]'
+- '[[dk-strategy-essence-four-elements]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

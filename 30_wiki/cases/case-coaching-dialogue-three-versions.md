@@ -33,6 +33,7 @@ related:
   - tool-leadership-feedback-cards
   - framework-coaching-leadership-core
   - tool-coaching-communication-four-layers
+  - '[[dk-y-model-communication]]'
 tags:
 - audience:manager
 - scene:execution

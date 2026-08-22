@@ -20,6 +20,7 @@ related:
 - '[[yt-note-checklist-concept]]'
 - case-ai-agent-milestone-design
 - agent-ecosystem-design
+- '[[yt-note-ai-p-role-not-c-role]]'
 id: truman-ai-partner-design-analysis
 reviewed_by: pending
 created_at: '2026-06-15'

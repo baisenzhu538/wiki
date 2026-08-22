@@ -33,6 +33,7 @@ related:
   - "[[kdo-yaml-frontmatter-safety]]"
   - "[[master-first-principles]]"
   - "[[dk-c1-cjk-regex-silent-fail]]"
+  - '[[fix-data-curator-parse-bug]]'
 pipeline:
   - confidence-draft
   - confidence-source-cited

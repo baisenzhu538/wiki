@@ -35,6 +35,7 @@ related:
 - 'tool-月白-电商场景图三类分类法'
 - 'case-truman-ai-image-workflow-evolution'
 - '[[aigc文创案例设计课leo文创ip从0到1全流程]]'
+- '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
 tags:
 ---
 # 技能：跨境电商产品图替换法

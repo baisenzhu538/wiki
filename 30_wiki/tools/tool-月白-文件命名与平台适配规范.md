@@ -38,6 +38,7 @@ related:
 - '[[tool-月白-AI自动生成多语种专业名词提示词]]'
 - '[[tool-月白-实物包装落地训练法]]'
 - '[[tool-月白-AI工艺图人工复核法]]'
+- '[[dk-yb8-file-naming-eight-elements]]'
 tags:
 - audience:executor
 - scene:execution

@@ -33,6 +33,7 @@ related:
 - '[[case-dental-clinic-formula]]'
 - '[[dk-f13-handwritten-yaml-parser]]'
 - '[[dk-f2-txt-ingest-skip]]'
+- '[[fix-dark-knowledge-extractor-llm]]'
 pipeline:
 - src_unknown
 - src_unknown

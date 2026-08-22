@@ -28,6 +28,8 @@ related:
 - '[[tool-月白-价格带视觉策略匹配]]'
 - '[[tool-马易-AI落地场景筛选-四有新人法则]]'
 - '[[pending_unknown]]'
+- '[[dk-yb22-visual-presentation-scene-match]]'
+- '[[dk-yb30-ecommerce-channel-version]]'
 pipeline:
 - src_unknown
 - src_unknown

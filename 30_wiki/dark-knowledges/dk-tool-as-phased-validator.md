@@ -64,6 +64,17 @@ related:
 - '[[dk-strategy-01-not-goal-setting]]'
 - '[[dk-strategy-03-advantage-temporary]]'
 - '[[dk-strategy-04-consulting-trap]]'
+- '[[dk-strategy-05-positioning-trap]]'
+- '[[dk-strategy-06-dividend-to-strategy]]'
+- '[[dk-strategy-07-strategy-vs-dividend]]'
+- '[[dk-strategy-08-not-local-optimum]]'
+- '[[dk-strategy-consulting-jokes]]'
+- '[[dk-strategy-essence-four-elements]]'
+- '[[dk-tool-as-answer-trap]]'
+- '[[dk-wanghuan-agent-platform-director-mode]]'
+- '[[dk-wanghuan-magic-defeats-magic]]'
+- '[[dk-wanghuan-paced-sales-decision]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 bridges_to:
 - target: src_unknown
   relation: applies_when

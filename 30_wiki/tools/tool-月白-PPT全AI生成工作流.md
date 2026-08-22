@@ -35,6 +35,8 @@ related:
 - 'tool-月白-AIGC反向拆解法'
 - 'case-truman-ai-image-workflow-evolution'
 - '[[kdo_product_design_agent_final]]'
+- '[[dk-yb1-aigc-mvp-before-ps]]'
+- '[[dk-yb4-nano-banana-style-reproduction]]'
 tags:
 ---
 # 技能：PPT全AI生成工作流

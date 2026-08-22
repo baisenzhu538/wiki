@@ -39,6 +39,7 @@ related:
 - '[[tool-月白-AI对话式海报修改（免PS）]]'
 - '[[tool-月白-AI课程内容深度梳理法]]'
 - '[[dk-f2-txt-ingest-skip]]'
+- '[[dk-yb8-file-naming-eight-elements]]'
 tags:
 - audience:executor
 - scene:execution

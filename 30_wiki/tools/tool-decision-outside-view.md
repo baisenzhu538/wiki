@@ -46,6 +46,7 @@ related:
 - '[[tool-first-principles-assumption-classify]]'
 - '[[tool-cognitive-bias-12-check]]'
 - '[[学会提问在信息洪流中锻造批判性思维的利刃]]'
+- '[[gold-standard-manual-labels]]'
 tags:
 - audience:manager
 - scene:execution

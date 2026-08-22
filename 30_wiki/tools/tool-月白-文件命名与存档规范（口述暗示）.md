@@ -40,6 +40,7 @@ related:
 - '[[tool-月白-用一堂方法论找最佳实践并拉满执行]]'
 - '[[tool-月白-三步作业反馈法]]'
 - '[[tool-Truman-本地记忆与云端记忆管理]]'
+- '[[dk-yb8-file-naming-eight-elements]]'
 tags:
 - audience:executor
 - scene:execution

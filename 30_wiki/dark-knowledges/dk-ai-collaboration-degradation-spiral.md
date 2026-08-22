@@ -44,6 +44,8 @@ related:
 - '[[dk-research-saturation-self-proof]]'
 - '[[dk-research-scavenger-vs-architect]]'
 - '[[dk-skill-seven-elements-upgrade]]'
+- '[[dk-yihang-ai-false-certainty]]'
+- '[[dk-yihang-technical-domain-aesthetic]]'
 tags:
 - audience:executor
 - scene:reference

@@ -54,6 +54,7 @@ related:
 - '[[tool-yitang-referral-channel-optimization]]'
 - '[[case-yitang-solid-redbull-channel]]'
 - '[[case-yitang-xujian-invoice-saas-channel]]'
+- '[[dk-yitang-channel-exploration-traps]]'
 review_date: '2026-06-28'
 tags:
 - audience:executor

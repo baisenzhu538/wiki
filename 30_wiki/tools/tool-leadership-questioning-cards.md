@@ -39,6 +39,7 @@ related:
   - '[[bridge-meeting-leadership-coaching]]'
   - '[[case-coaching-dialogue-three-versions]]'
   - '[[case-leadership-communication-failures]]'
+  - '[[dk-y-model-communication]]'
 tags:
 - audience:executor
 - scene:execution

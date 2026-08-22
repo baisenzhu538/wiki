@@ -34,6 +34,9 @@ related:
 - '[[aigc设计基础01ai生图原理与提示词基本功]]'
 - '[[tool-月白-官方提示词最佳实践迁移]]'
 - '[[dk-lz-code-is-disposable]]'
+- '[[dk-yb10-theory-moat-designer]]'
+- '[[dk-yb2-llm-muddy-clear-muddy]]'
+- '[[dk-yb4-nano-banana-style-reproduction]]'
 pipeline:
 - src_unknown
 author: 月白

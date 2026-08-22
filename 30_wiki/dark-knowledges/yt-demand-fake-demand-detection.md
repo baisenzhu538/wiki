@@ -48,6 +48,11 @@ related:
 - '[[dk-demand-switching-cost]]'
 - '[[dk-ji-hao-newbie-can-validate]]'
 - '[[dk-ji-hao-problem-vs-question]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
+- '[[yt-demand-competitive-displacement]]'
+- '[[yt-demand-scope-creep]]'
+- '[[yt-product-kernel-do-without-belief]]'
+- '[[yt-product-kernel-failure-modes]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 伪需求信号1——兴趣≠需求

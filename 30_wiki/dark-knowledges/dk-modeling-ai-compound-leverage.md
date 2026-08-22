@@ -27,6 +27,8 @@ discoverable_by:
 related:
 - '[[yitang-domain-digest]]'
 - '[[industrial-ai-ops-cases]]'
+- '[[dk-tool-as-phased-validator]]'
+- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
 tags:
 - audience:executor
 - scene:reference

@@ -43,6 +43,8 @@ related:
 - '[[dk-model-demystification]]'
 - '[[dk-research-ai-no-time-concept]]'
 - '[[dk-research-classification-mece-table]]'
+- '[[dk-three-context-formula]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 tags:
 - audience:executor
 - scene:reference

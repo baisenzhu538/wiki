@@ -27,6 +27,9 @@ discoverable_by:
 related:
 - '[[dk-strategy-three-must-do-moments]]'
 - '[[dk-strategy-03-advantage-temporary]]'
+- '[[dk-strategy-04-consulting-trap]]'
+- '[[dk-strategy-consulting-jokes]]'
+- '[[dk-strategy-essence-four-elements]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 updated_at: '2026-06-28'

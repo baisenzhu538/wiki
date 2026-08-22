@@ -30,6 +30,7 @@ related:
 - '[[视觉prompt三层操作系统-srom-visual-os]]'
 - '[[dk-modeling-business-visual-logic-match]]'
 - '[[dk-p20-bigram-fail]]'
+- '[[dk-yb10-theory-moat-designer]]'
 pipeline:
 - src_unknown
 - src_unknown

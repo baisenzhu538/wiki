@@ -49,6 +49,9 @@ related:
 - '[[dk-ban-fei-mao-real-business-is-the-engine]]'
 - '[[dk-ji-hao-newbie-can-validate]]'
 - '[[dk-ji-hao-novice-mindset-advantage]]'
+- '[[dk-wanghuan-creativity-in-description-and-taste]]'
+- '[[dk-wanghuan-output-equals-standard-times-iteration]]'
+- '[[yt-note-p-c-role-boundary-realworld]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: AI拉升个人上限——不会≠做不了，关键是导演思维

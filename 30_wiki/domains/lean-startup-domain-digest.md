@@ -37,6 +37,7 @@ related:
 - '[[case-lean-zhanglei-failure-counterfactual]]'
 - '[[case-lean-zhanglei-hypothesis-validation]]'
 - '[[case-lean-zhanglei-pivot-decision]]'
+- '[[dk-tool-as-answer-trap]]'
 updated_at: '2026-06-30'
 tags:
 - audience:manager

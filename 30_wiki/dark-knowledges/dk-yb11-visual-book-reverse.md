@@ -27,6 +27,7 @@ related:
 - '[[dk-yb27-pseudo-layer-evasion]]'
 - '[[dk-yb13-zero-shot-style-transfer]]'
 - '[[dk-yb12-ai-image-analysis-replace-training]]'
+- '[[dk-yb4-nano-banana-style-reproduction]]'
 pipeline:
 - src_unknown
 - src_unknown

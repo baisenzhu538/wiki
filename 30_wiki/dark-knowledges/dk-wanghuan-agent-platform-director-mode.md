@@ -50,6 +50,7 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[dk-ban-fei-mao-skill-rejection-value]]'
+- '[[dk-wanghuan-magic-defeats-magic]]'
 tags:
 - audience:executor
 - scene:reference

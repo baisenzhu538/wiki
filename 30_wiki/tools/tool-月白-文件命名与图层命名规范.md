@@ -39,6 +39,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-眼高手低训练法'
 - 'tool-月白-PS图层规范管理'
+- '[[dk-yb8-file-naming-eight-elements]]'
 tags:
 - audience:executor
 - scene:execution

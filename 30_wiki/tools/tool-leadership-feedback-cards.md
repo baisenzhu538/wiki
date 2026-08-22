@@ -39,6 +39,7 @@ related:
   - '[[case-coaching-dialogue-three-versions]]'
   - '[[case-leadership-communication-failures]]'
   - '[[dk-leadership-trust-coin-sensitivity]]'
+  - '[[dk-y-model-communication]]'
 tags:
 - audience:executor
 - scene:execution

@@ -34,6 +34,7 @@ related:
 - tool-yitang-case-fact-review-checklist
 - concept-yitang-case-jiejiaxiuzhen
 - dk-yitang-case-before-after
+- '[[dk-yitang-innovation-failure-modes]]'
 tags:
 - audience:executor
 - scene:reference

@@ -27,6 +27,12 @@ related:
 - '[[dk-strategy-longzhong-four-failures]]'
 - '[[dk-strategy-01-not-goal-setting]]'
 - '[[dk-strategy-03-advantage-temporary]]'
+- '[[dk-strategy-04-consulting-trap]]'
+- '[[dk-strategy-05-positioning-trap]]'
+- '[[dk-strategy-06-dividend-to-strategy]]'
+- '[[dk-strategy-08-not-local-optimum]]'
+- '[[dk-strategy-consulting-jokes]]'
+- '[[dk-strategy-essence-four-elements]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 updated_at: '2026-06-28'
@@ -111,3 +117,9 @@ tags:
   | 下行期恐慌 | 行业下行，不知道凭什么活 | 提前评估核心竞争力 |
   | 上行期自满 | "行业上行，我不需要战略" | 提前准备，红利消失时才有战略储备 |
   | 战略时机错配 | 在不需要战略的时候做战略 | 识别三种必做战略的时刻 |
+
+## Critique
+
+- **「三种必做战略时刻」是归纳不是定律**：三时刻（快速扩张/平台期/下行期）来自典型企业样本，不覆盖「稳定行业长期无战略却活得好的小企业」反例——该场景下战略可能不是必做而是负担。
+- **时机判定本身有模糊地带**：扩张/平台/下行是连续光谱，卡上未给出量化判定阈值（如增长率、现金流信号），执行者可能误判当前所处阶段。
+- **单一价值主张**：卡默认战略带来增量价值，未讨论战略误用成本（错误战略的转换成本与试错代价），对资源有限的小团队可能不适用。

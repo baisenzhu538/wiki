@@ -33,6 +33,7 @@ related:
 - '[[dk-yihang-multi-ai-cross-validation]]'
 - '[[concept-yihang-dual-triangle-core]]'
 - '[[dk-long-material-layered-reading-protocol]]'
+- '[[dk-yihang-technical-domain-aesthetic]]'
 tags:
 - audience:executor
 - scene:reference

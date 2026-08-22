@@ -42,6 +42,7 @@ related:
 - '[[tool-马易-业务问题AI化拆解-餐饮设计案例法]]'
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[case-yitang-radar-chart-selection]]'
+- '[[dk-weekly-modeling-iteration-growth-engine]]'
 tags:
 - src_unknown
 - src_unknown

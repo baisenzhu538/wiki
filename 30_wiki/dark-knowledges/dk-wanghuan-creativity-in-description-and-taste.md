@@ -46,6 +46,7 @@ related:
 - '[[tool-wanghuan-ai-business-profile]]'
 - '[[framework-taste-as-judgment-system]]'
 - '[[agent-spec-codex-teammate]]'
+- '[[dk-wanghuan-output-equals-standard-times-iteration]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 创造力重新分配——问题描述是核心创造力

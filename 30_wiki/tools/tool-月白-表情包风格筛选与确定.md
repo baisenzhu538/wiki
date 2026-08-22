@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片风格逆向提取（抄图法）'
 - 'tool-月白-RGB转CMYK色彩校准法'
 - 'dk-aesthetic-redline-doc'
+- '[[dk-yb23-ai-pre-screen-three-minutes]]'
 tags:
 ---
 # 技能：表情包风格筛选与确定

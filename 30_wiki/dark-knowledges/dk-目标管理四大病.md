@@ -37,6 +37,8 @@ related:
 - yt-tool-okr-cycle
 - management-domain-digest
 - '[[concept-目标管理组织四阶段]]'
+- '[[dk-实事求是目标管理双原则]]'
+- '[[dk-管控vs协同执行策略]]'
 tags:
 - audience:manager
 - scene:reference

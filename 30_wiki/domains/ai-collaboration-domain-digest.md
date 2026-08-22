@@ -62,6 +62,12 @@ related:
 - '[[dk-modeling-ai-judgment-limit]]'
 - '[[dk-small-format-error-cascades-to-system-failure]]'
 - '[[dk-state-residue-is-the-silent-killer]]'
+- '[[dk-wanghuan-agent-platform-director-mode]]'
+- '[[dk-wanghuan-magic-defeats-magic]]'
+- '[[dk-wanghuan-paced-sales-decision]]'
+- '[[dk-yb1-aigc-mvp-before-ps]]'
+- '[[dk-yb5-style-asset-archive]]'
+- '[[dk-yb9-cubox-deployment-failure]]'
 tags:
 - audience:manager
 - scene:reference

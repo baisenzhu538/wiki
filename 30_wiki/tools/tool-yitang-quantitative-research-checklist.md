@@ -35,6 +35,7 @@ related:
 - '[[tool-yitang-shishi-qiushi-cheat-sheet]]'
 - '[[case-yitang-online-education-expansion]]'
 - '[[case-yitang-shishi-qiushi-pitfall-4-no-quantification]]'
+- '[[dk-yitang-over-prediction-danger]]'
 tags:
 - audience:executor
 - scene:execution

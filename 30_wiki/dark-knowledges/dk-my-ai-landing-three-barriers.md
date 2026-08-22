@@ -30,6 +30,7 @@ related:
 - '[[dk-ai-judgment-human-responsibility]]'
 - '[[dk-ai-judgment-programmer-paradox]]'
 - '[[dk-lz-code-is-disposable]]'
+- '[[dk-truman-iteration-to-aesthetic-ceiling]]'
 tags:
 - audience:executor
 - scene:reference

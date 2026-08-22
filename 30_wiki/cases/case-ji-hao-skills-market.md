@@ -56,6 +56,7 @@ related:
 - '[[case-纪浩-from-zip-to-five-layers]]'
 - '[[tool-demand-agent-signal-substitute]]'
 - '[[case-truman-ai-partner]]'
+- '[[agent-ecosystem-design]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88

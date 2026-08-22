@@ -20,6 +20,7 @@ related:
 - '[[yt-decision-ai-partner]]'
 - '[[yt-note-deliberate-practice-four-elements]]'
 - '[[yt-note-l4-internalization]]'
+- '[[yt-note-ai-p-role-not-c-role]]'
 prerequisites:
 - src_unknown
 - src_unknown

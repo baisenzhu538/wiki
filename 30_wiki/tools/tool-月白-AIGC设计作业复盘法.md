@@ -36,6 +36,7 @@ related:
 - 'case-truman-ai-image-workflow-evolution'
 - '[[case-纪浩-focus-prompt-design]]'
 - '[[yt-growth-user-onboarding]]'
+- '[[dk-yb1-aigc-mvp-before-ps]]'
 tags:
 ---
 # 技能：AIGC设计作业复盘法
