@@ -57,6 +57,8 @@ related:
 - '[[framework-ai-human-70-30-division]]'
 - '[[framework-ai-report-value-ladder-l1-l6]]'
 - '[[framework-fact-rule-insight]]'
+- '[[tool-nine-character-mantra-14-strategies]]'
+- '[[tool-wechat-transcript-automation-workflow]]'
 tags:
 - audience:manager
 - scene:planning

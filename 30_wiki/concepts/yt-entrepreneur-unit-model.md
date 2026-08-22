@@ -34,6 +34,7 @@ related:
 - '[[tool-单元模型-单城市]]'
 - '[[tool-单元模型-壁垒预判]]'
 - '[[tool-单元模型-象限分析法]]'
+- '[[case-dental-clinic-formula]]'
 review_date: 2026-06-15
 updated_at: '2026-06-18'
 reviewed_by: 欧阳锋

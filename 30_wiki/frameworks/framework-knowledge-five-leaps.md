@@ -56,6 +56,12 @@ related:
 - '[[framework-multi-agent-collab-chain-six]]'
 - '[[framework-patrolkit-radar]]'
 - '[[framework-serendipity-five-channels]]'
+- '[[tool-autoclassify-seven-steps]]'
+- '[[tool-kdo-wechat-serendipity-collect]]'
+- '[[tool-knowledge-cheatsheet-sab]]'
+- '[[tool-skill-packaging-eight-steps]]'
+- '[[tool-top-level-document]]'
+- '[[tool-wechat-transcript-automation-workflow]]'
 review_date: 2026-08-16
 ---
 

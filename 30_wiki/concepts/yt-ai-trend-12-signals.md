@@ -31,6 +31,7 @@ related:
 - '[[yt-foresight-business-spectrum]]'
 - '[[tool-一堂-机会预判-五步法预判]]'
 - '[[framework-一堂五步法]]'
+- '[[case-ai-time-management-tiered-growth]]'
 tags:
 - audience:general
 - scene:reference

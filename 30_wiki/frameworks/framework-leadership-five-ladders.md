@@ -51,6 +51,15 @@ related:
   - '[[dk-meeting-principle-over-process]]'
   - '[[dk-meeting-rederive]]'
   - '[[framework-meeting-ten-principles]]'
+  - '[[tool-coaching-communication-four-layers]]'
+  - '[[tool-coaching-communication-segments]]'
+  - '[[tool-leadership-consensus-goal-escalation]]'
+  - '[[tool-leadership-exit-consulting]]'
+  - '[[tool-leadership-feedback-cards]]'
+  - '[[tool-leadership-listening-cards]]'
+  - '[[tool-leadership-questioning-cards]]'
+  - '[[tool-leadership-three-stubborn-subordinates]]'
+  - '[[tool-meeting-execution-principles]]'
 tags:
 - audience:manager
 - scene:planning

@@ -42,6 +42,7 @@ related:
 - '[[master-moc]]'
 - '[[framework-kdo-self-attack]]'
 - '[[dk-tool-chain-naming-is-infrastructure]]'
+- '[[bridge-dual-track-feature-system]]'
 ---
 
 # KDO Feature 注册表

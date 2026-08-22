@@ -39,6 +39,11 @@ related:
 - '[[framework-yitang-research-quality-gate]]'
 - '[[framework-yitang-research-radar]]'
 - '[[framework-yitang-six-layer-cross-validation]]'
+- '[[method-kdo-external-exploration-sop]]'
+- '[[method-kdo-inbox-annotation]]'
+- '[[agent-spec-research-explosion-partner]]'
+- '[[tool-agent-research-supervisor]]'
+- '[[tool-oscar-kdo-external-exploration]]'
 discoverable_by:
 - OSCAR调研模型
 - 目标锁定到正确归因

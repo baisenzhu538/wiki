@@ -54,6 +54,8 @@ related:
 - '[[dk-panproduct-org-serve-the-lowest]]'
 - '[[design-moc]]'
 - '[[product-moc]]'
+- '[[agent-native-card-design]]'
+- '[[tool-lean-stealth-service]]'
 review_date: '2026-06-28'
 tags:
 - audience:ceo

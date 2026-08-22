@@ -32,6 +32,11 @@ related:
 - '[[framework-wanghuan-gan-three-roles]]'
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - concept-ai-neutrality-bias
+- '[[case-ai-companion-emotional]]'
+- '[[case-ai-job-displacement-wef]]'
+- '[[case-cambridge-novelists-survey]]'
+- '[[case-chen-qiufan-ai-writing]]'
+- '[[case-dutch-childcare-scandal]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

@@ -37,6 +37,8 @@ related:
 - '[[dk-ai-collaboration-degradation-spiral]]'
 - '[[dk-sales-big-deal-vs-small-deal]]'
 - '[[sales-domain-digest]]'
+- '[[tool-candy-sales-recruiting]]'
+- '[[tool-sales-objection-dilution]]'
 tags:
 - audience:manager
 - scene:diagnosis

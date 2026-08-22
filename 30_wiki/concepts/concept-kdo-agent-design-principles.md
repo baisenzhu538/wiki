@@ -36,6 +36,7 @@ related:
 - concept-一堂-Agent基本功修炼
 - framework-一堂-TCPR皇冠模型
 - yt-decision-y-model
+- '[[case-agent-self-evolution-pilot]]'
 created_at: 2026-07-26
 updated_at: 2026-07-26
 reviewed_by: 欧阳锋

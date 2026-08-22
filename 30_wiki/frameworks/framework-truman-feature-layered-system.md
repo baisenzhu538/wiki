@@ -49,6 +49,10 @@ related:
   - '[[dk-feature-pieces-not-recognized-as-cards]]'
   - '[[framework-coaching-leadership-core]]'
   - '[[framework-leadership-five-ladders]]'
+  - '[[agent-spec-basic-skills-coach]]'
+  - '[[tool-ai-feature-inventory]]'
+  - '[[tool-feature-review-five-step]]'
+  - '[[tool-leadership-consensus-goal-escalation]]'
 tags:
   - method:feature-thinking
   - method:architecture

@@ -33,6 +33,7 @@ related:
 - '[[tool-yitang-b2b-gov-research]]'
 - '[[case-yitang-yitu-lead-industrialization]]'
 - '[[yt-tob-cash-flow]]'
+- '[[yt-tob-demand-metrics]]'
 diagnostic_signals:
 - framework_lens: 四象限定位缺失
   follow_up_question: 目标客户当前最紧迫的经营目标是复购、加购、获客还是创新？这个需求落在老客老品、老客新品、新客老品、新客新品哪个象限？

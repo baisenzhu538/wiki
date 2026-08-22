@@ -50,6 +50,8 @@ related:
 - framework-yitang-jiefang-sixiang
 - '[[case-yitang-maiyi-cloud-computer-channel]]'
 - '[[framework-yitang-sales-target-tradeoffs]]'
+- '[[tool-yitang-channel-industrialization-node-design]]'
+- '[[tool-yitang-channel-scan-cheat-sheet]]'
 diagnostic_signals:
 - framework_lens: 缺少最小经济单元视角——总账会掩盖单元的真实盈利能力
   follow_up_question: 如果把这个业务拆成最小可复制单元，哪个单元的盈亏会最先让公司崩盘？

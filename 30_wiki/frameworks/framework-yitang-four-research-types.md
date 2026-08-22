@@ -26,6 +26,7 @@ related:
 - tool-nine-character-mantra-14-strategies
 - concept-open-a-document
 - '[[dk-research-scavenger-vs-architect]]'
+- '[[agent-spec-research-explosion-partner]]'
 discoverable_by:
 - 四类调研模型
 - 挖掘式系统式爆炸式

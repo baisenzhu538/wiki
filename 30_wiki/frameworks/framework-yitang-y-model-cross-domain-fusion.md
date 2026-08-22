@@ -47,6 +47,9 @@ related:
 - '[[dk-y-model-communication]]'
 - '[[framework-coaching-leadership-core]]'
 - '[[framework-leadership-five-ladders]]'
+- '[[tool-leadership-exit-consulting]]'
+- '[[tool-Y模型STEPS策略集]]'
+- '[[tool-Y模型实操工作流]]'
 created_at: 2026-07-08
 updated_at: 2026-07-08 17:28:16+00:00
 tags:

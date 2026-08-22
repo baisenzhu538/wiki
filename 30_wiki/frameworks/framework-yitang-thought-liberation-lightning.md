@@ -56,6 +56,23 @@ related:
 - '[[dk-lu-gui-lv-bu-bei-yu-wang]]'
 - '[[dk-unit-model-reverse-calc]]'
 - '[[innovation-domain-digest]]'
+- '[[method-obsidian-ai-collaboration]]'
+- '[[system-yitang-Y-model-os]]'
+- '[[tool-agent-self-evolution-protocol]]'
+- '[[tool-ai-customer-quality-audit]]'
+- '[[tool-cross-city-replication-test]]'
+- '[[tool-decision-narrative-method]]'
+- '[[tool-four-line-review]]'
+- '[[tool-incentive-28-principle]]'
+- '[[tool-jargon-to-value-translator]]'
+- '[[tool-mot-research-method]]'
+- '[[tool-trr-maturity-scale]]'
+- '[[tool-value-teaching-three-stage]]'
+- '[[tool-versioned-iteration]]'
+- '[[tool-yitang-dialectical-modeling]]'
+- '[[tool-yitang-dual-guardrail-system]]'
+- '[[tool-yitang-quantity-bold-matrix]]'
+- '[[tool-yitang-ten-layer-interpretation]]'
 diagnostic_signals:
 - signal: 创新方案执行后效果不如预期
   lens: 检查是否跳过了闪电模型的某个步骤

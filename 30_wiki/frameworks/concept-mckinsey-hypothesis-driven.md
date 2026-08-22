@@ -47,6 +47,7 @@ related:
 - '[[concept-mckinsey-7s]]'
 - '[[concept-minto-pyramid-principle]]'
 - '[[concept-toyota-5-whys]]'
+- '[[tool-mckinsey-hypothesis-driven-workflow]]'
 tags:
 - audience:ceo
 - scene:diagnosis

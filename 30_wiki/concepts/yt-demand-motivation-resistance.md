@@ -31,6 +31,7 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[case-demand-b2c-consumer-insight]]'
 diagnostic_signals:
 - framework_lens: 动机阻力分析——有动机但有阻力
   follow_up_question: 用户说'需要'，但什么阻碍了他们立即行动？是价格、时间、信任，还是习惯？

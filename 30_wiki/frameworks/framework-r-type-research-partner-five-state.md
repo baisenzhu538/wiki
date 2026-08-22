@@ -50,6 +50,7 @@ related:
 - '[[framework-ai-report-value-ladder-l1-l6]]'
 - '[[framework-yitang-oscar-research]]'
 - '[[framework-yitang-research-radar]]'
+- '[[tool-wechat-transcript-automation-workflow]]'
 tags:
 - audience:manager
 - audience:executor

@@ -37,6 +37,7 @@ related:
   - "[[tool-scene-design-language-translation]]"
   - "[[tool-yitang-value-proposition-4step]]"
   - "[[tool-yitang-sales-toolkit-radar]]"
+  - '[[bridge-panproduct-kids-translation]]'
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_89529426-ocr-泛产品设计-审美卡片-最佳实践建模.md

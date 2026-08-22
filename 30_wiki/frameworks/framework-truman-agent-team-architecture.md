@@ -50,6 +50,7 @@ related:
 - '[[case-wechat-article_4dd7be7cd82f7e80]]'
 - '[[framework-patrolkit-radar]]'
 - '[[framework-serendipity-five-channels]]'
+- '[[tool-autoclassify-seven-steps]]'
 review_date: 2026-08-16
 ---
 

@@ -36,6 +36,7 @@ related:
 - '[[decision-science-domain-digest]]'
 - '[[case-yitang-panhonghai-entertainment]]'
 - '[[framework-一堂-关键假设-ABCD模型]]'
+- '[[tool-一堂-关键假设-ABCD场景分类器]]'
 tags:
 - audience:ceo
 - scene:diagnosis

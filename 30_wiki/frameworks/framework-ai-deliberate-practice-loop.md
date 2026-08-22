@@ -41,6 +41,10 @@ related:
 - '[[concept-yitang-comfort-stretch-panic-zones]]'
 - '[[dk-yitang-deliberate-practice-common-traps]]'
 - '[[framework-yitang-three-ring-ability-focus]]'
+- '[[tool-ai-use-barbell-strategy]]'
+- '[[tool-yitang-best-practice-as-golden-finger]]'
+- '[[tool-yitang-feedback-self-check]]'
+- '[[tool-yitang-practice-20hour-starter]]'
 discoverable_by:
 - AI刻意练习闭环
 - AI练习伙伴

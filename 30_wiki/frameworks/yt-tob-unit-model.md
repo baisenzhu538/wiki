@@ -34,6 +34,7 @@ related:
 - yt-tool-unit-model-selection
 - yt-tob-solution-model
 - '[[case-yitang-tob-artificial-bone]]'
+- '[[yt-tob-growth-channel]]'
 diagnostic_signals:
 - framework_lens: 五种常用单元模型匹配业务类型 + 现金流口径
   follow_up_question: 当前业务应选用单订单、单 SKU、单客户、单销售、单履约中的哪几种模型？规模化后各成本项与回款周期如何变化？

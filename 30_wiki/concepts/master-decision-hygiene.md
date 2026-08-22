@@ -40,6 +40,8 @@ related:
 - framework-yitang-shishi-qiushi
 - framework-yitang-jiefang-sixiang
 - '[[concept-yihang-dual-triangle-core]]'
+- '[[case-ai-writing-homogenization]]'
+- '[[case-bmw-human-ai-collaboration-idle-time]]'
 tags:
 - audience:ceo
 - scene:diagnosis

@@ -63,6 +63,8 @@ related:
 - '[[tool-agent-spec-yitang-incentive-design]]'
 - '[[case-yitang-sales-transformation-jubensha-saas]]'
 - '[[concept-strategy-capability-pyramid]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
+- '[[tool-yitang-sales-toolkit-maturity-60-75-85]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
 discoverable_by:

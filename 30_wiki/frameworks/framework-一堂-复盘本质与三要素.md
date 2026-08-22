@@ -43,6 +43,9 @@ related:
   - '[[dk-ai-self-evolution-prompt]]'
   - '[[retrospective-moc]]'
   - '[[framework-yitang-project-retrospective]]'
+  - '[[agent-spec-复盘教练]]'
+  - '[[tool-团队复盘引导清单]]'
+  - '[[tool-复盘推演法]]'
 tags:
   - method:review
   - method:learning

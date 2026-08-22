@@ -56,6 +56,7 @@ related:
 - '[[dk-meeting-roi-first]]'
 - '[[dk-meeting-principle-over-process]]'
 - '[[management-domain-digest]]'
+- '[[bridge-meeting-leadership-coaching]]'
 quality_labels: [principle, actionable, quotable, validated]
 tags:
 - audience:general

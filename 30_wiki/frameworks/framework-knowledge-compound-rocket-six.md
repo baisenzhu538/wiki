@@ -49,6 +49,8 @@ related:
 - '[[framework-lemon-market-new-brand-trust]]'
 - '[[framework-multi-agent-collab-chain-six]]'
 - '[[framework-patrolkit-radar]]'
+- '[[tool-knowledge-cheatsheet-sab]]'
+- '[[tool-top-level-document]]'
 review_date: 2026-08-16
 ---
 

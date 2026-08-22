@@ -59,6 +59,7 @@ related:
 - '[[dk-model-demystification]]'
 - '[[dk-one-sentence-handover]]'
 - '[[dk-three-context-formula]]'
+- '[[tool-skill-packaging-eight-steps]]'
 review_date: 2026-08-16
 ---
 

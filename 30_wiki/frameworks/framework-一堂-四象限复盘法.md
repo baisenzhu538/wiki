@@ -41,6 +41,9 @@ related:
   - '[[dk-借假修真与黑盒白盒]]'
   - '[[retrospective-moc]]'
   - '[[framework-一堂-团队复盘四阶段12策略]]'
+  - '[[agent-spec-复盘教练]]'
+  - '[[tool-团队复盘引导清单]]'
+  - '[[tool-复盘浪费九宗罪自检清单]]'
 tags:
   - method:review
   - method:decision

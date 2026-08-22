@@ -33,6 +33,8 @@ related:
 - '[[yt-three-dimension-opportunity-matrix]]'
 - '[[dk-context-patching-recipe]]'
 - '[[dk-future-backward-knowledge-tree]]'
+- '[[tool-一堂-机会预判-五步法预判]]'
+- '[[tool-一堂-机会预判-案例预判]]'
 discoverable_by:
 - 机会预判
 - CEO预判操作系统

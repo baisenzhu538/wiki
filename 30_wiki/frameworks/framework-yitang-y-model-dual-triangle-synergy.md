@@ -53,6 +53,9 @@ related:
 - '[[case-yihang-dual-triangle-tianmo-design-delivery]]'
 - '[[concept-yihang-human-in-the-loop-dual-triangle]]'
 - '[[dk-yihang-dual-triangle-strategic-bet]]'
+- '[[method-yitang-y-model-engine-cycle]]'
+- '[[tool-yitang-dual-triangle-agent-handoff-protocol]]'
+- '[[tool-yitang-dual-triangle-scenario-router]]'
 discoverable_by:
 - Y模型双三角
 - 人机协作框架

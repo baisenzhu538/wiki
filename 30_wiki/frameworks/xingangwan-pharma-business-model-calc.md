@@ -19,6 +19,8 @@ related:
 - '[[pending_unknown]]'
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 - '[[xingangwan-pharma-business-model-formulas]]'
+- '[[parking-lot]]'
+- '[[shanxi-field-research-checklist-20260701]]'
 aliases:
   - 湾医药零售商业模型计算框架
   - 鑫港湾医药零售商业模型计算框架

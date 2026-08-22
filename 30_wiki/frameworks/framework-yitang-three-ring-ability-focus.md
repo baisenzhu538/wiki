@@ -38,6 +38,7 @@ related:
 - '[[framework-ai-deliberate-practice-loop]]'
 - '[[yitang-domain-digest]]'
 - '[[case-yitang-sales-routine-deconstruction]]'
+- '[[tool-yitang-best-practice-as-golden-finger]]'
 tags:
 - audience:ceo
 - scene:diagnosis

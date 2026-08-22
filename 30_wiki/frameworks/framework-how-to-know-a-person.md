@@ -50,6 +50,12 @@ related:
 - '[[framework-coaching-leadership-core]]'
 - '[[framework-leadership-coin-model]]'
 - '[[framework-leadership-five-ladders]]'
+- '[[tool-leadership-consensus-goal-escalation]]'
+- '[[tool-leadership-exit-consulting]]'
+- '[[tool-leadership-feedback-cards]]'
+- '[[tool-leadership-listening-cards]]'
+- '[[tool-leadership-questioning-cards]]'
+- '[[tool-leadership-three-stubborn-subordinates]]'
 tags:
 - method:human-insight
 - method:psychology

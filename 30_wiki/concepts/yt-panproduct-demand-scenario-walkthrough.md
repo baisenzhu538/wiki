@@ -30,6 +30,7 @@ related:
 - "[[yt-panproduct-demand-user-perspective]]"
 - "[[yt-panproduct-demand-user-segmentation]]"
 - "[[yt-panproduct-demand-need-discovery]]"
+- '[[bridge-panproduct-kids-translation]]'
 reviewed_by: 欧阳锋
 source_refs:
 - 10_raw/sources/src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演.md

@@ -29,6 +29,7 @@ related:
 - '[[yt-demand-scope-creep]]'
 - '[[yt-product-kernel-premature-optimization]]'
 - '[[domain-demand-analysis-index]]'
+- '[[tool-lean-stealth-service]]'
 diagnostic_signals:
 - framework_lens: 需求早期验证——未验证就投入开发
   follow_up_question: 在产品开发前，你用什么方法验证了需求？访谈？原型测试？预售？

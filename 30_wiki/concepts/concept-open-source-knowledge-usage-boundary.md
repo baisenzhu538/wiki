@@ -54,6 +54,8 @@ related:
 - '[[case-yitang-goat-milk-channel-partnership]]'
 - '[[framework-yitang-research-quality-gate]]'
 - '[[business-formula-to-kdo-card-quality]]'
+- '[[case-daxin-team-content-training-camp]]'
+- '[[case-daxin-vikki-community-contrast]]'
 pipeline:
 - confidence-draft
 ---

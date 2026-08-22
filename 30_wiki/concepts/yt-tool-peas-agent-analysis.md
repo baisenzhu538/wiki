@@ -36,6 +36,7 @@ related:
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - '[[yt-concept-peas-insight]]'
 - '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
+- '[[case-demand-travel-agent]]'
 review_date: 2026-05-15
 reviewed_by: 黄药师
 review_notes: 历史遗留，写审分离规则确立前的早期卡片。有效性由月度抽检覆盖。

@@ -37,6 +37,9 @@ related:
 - '[[framework-yitang-oscar-research]]'
 - dk-ai-cross-domain-inference
 - dk-ai-builder-illusion
+- '[[case-4000-titles-ten-strategies]]'
+- '[[case-ai-learning-series-modeling]]'
+- '[[case-design-principles-90]]'
 tags:
 - audience:manager
 - scene:planning

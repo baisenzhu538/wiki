@@ -55,6 +55,9 @@ related:
 - '[[dk-shoulu-yixia-culture]]'
 - '[[dk-three-context-formula]]'
 - '[[dk-tool-adoption-by-force]]'
+- '[[tool-knowledge-cheatsheet-sab]]'
+- '[[tool-skill-packaging-eight-steps]]'
+- '[[tool-top-level-document]]'
 review_date: 2026-08-16
 ---
 

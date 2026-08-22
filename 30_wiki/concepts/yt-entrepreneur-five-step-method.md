@@ -32,6 +32,7 @@ related:
 - '[[yt-model-entrepreneur-map]]'
 - '[[yt-demand-analysis-hiking-map]]'
 - '[[yt-entrepreneur-needs-analysis]]'
+- '[[case-coffee-shop-foresight]]'
 reviewed_by: 王语嫣
 aliases:
   - 一堂五步法

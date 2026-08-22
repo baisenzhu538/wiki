@@ -49,6 +49,8 @@ related:
 - '[[dk-doc-explosion-slowdown]]'
 - '[[dk-research-saturation-quota-ai-km]]'
 - '[[framework-fact-rule-insight]]'
+- '[[tool-kdo-wechat-serendipity-collect]]'
+- '[[tool-yizhan-shendeng]]'
 review_date: 2026-08-16
 ---
 

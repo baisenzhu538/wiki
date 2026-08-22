@@ -45,6 +45,16 @@ related:
 - '[[framework-kdo-self-attack]]'
 - '[[framework-ouyangfeng-review-methodology]]'
 - '[[framework-yitang-growth-flywheel]]'
+- '[[method-kdo-inbox-annotation]]'
+- '[[tool-doris-industry-report-source-evaluation]]'
+- '[[tool-yitang-b2b-gov-research]]'
+- '[[tool-yitang-consulting-business-research]]'
+- '[[tool-yitang-consumer-goods-research]]'
+- '[[tool-yitang-content-ip-research]]'
+- '[[tool-yitang-organization-research]]'
+- '[[tool-yitang-overseas-research]]'
+- '[[tool-yitang-store-franchise-research]]'
+- '[[tool-yitang-tech-project-research]]'
 tags:
 - audience:ceo
 - scene:diagnosis

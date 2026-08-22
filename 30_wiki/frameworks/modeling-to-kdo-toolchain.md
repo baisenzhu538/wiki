@@ -55,6 +55,7 @@ related:
 - '[[modeling-capability-for-kdo]]'
 - '[[proposal-graph-rag-star-fix]]'
 - '[[business-formula-to-kdo-card-quality]]'
+- '[[kdo-watch-health-check-layer]]'
 tags:
 - src_unknown
 - src_unknown

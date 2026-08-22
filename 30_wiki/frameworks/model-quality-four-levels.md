@@ -28,6 +28,7 @@ related:
 - '[[tool-Truman-判断力产品化与系统赋能]]'
 - case-thousand-people-square
 - case-course-milestone-model
+- '[[system-kdo-quality-labels]]'
 tags:
 - src_unknown
 - src_unknown

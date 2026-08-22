@@ -37,6 +37,8 @@ related:
 - '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
 - dk-ai-cross-domain-inference
 - dk-ai-builder-illusion
+- '[[case-4000-titles-ten-strategies]]'
+- '[[case-ai-learning-series-modeling]]'
 tags:
 - audience:manager
 - audience:executor

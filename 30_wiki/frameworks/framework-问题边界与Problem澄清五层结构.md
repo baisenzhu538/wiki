@@ -25,6 +25,10 @@ related:
 - '[[pending_unknown]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- '[[tool-ai-problem-question-check]]'
+- '[[tool-demand-iceberg-l2-scenario]]'
+- '[[tool-纪浩-problem-validation-four-checks]]'
+- '[[tool-纪浩-Problem与Question区分法]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

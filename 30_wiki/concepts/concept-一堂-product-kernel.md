@@ -41,6 +41,8 @@ related:
 - product kernel
 - 产品内核
 - 最小解决方案
+- '[[bridge-panproduct-kids-translation]]'
+- '[[case-cui-lei-kids-ai-design-class]]'
 ---
 
 # 产品内核 — 用户愿意选择你的最小解决方案

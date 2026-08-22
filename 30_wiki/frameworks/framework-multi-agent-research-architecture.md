@@ -18,6 +18,9 @@ source_refs: null
 related:
 - 'case-truman-ai-native-research-flow'
 - '[[concept-mcp-protocol]]'
+- '[[tool-agent-native-overview]]'
+- '[[tool-demand-agent-l4-case-match]]'
+- '[[tool-yitang-web-scraping-research]]'
 discoverable_by:
 - 多Agent调研架构
 status: reviewed

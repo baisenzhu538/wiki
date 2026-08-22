@@ -59,6 +59,9 @@ related:
 - '[[agent-spec-yitang-Y-model-cross-domain-coach]]'
 - '[[principle-yitang-y-model-dual-posture]]'
 - '[[framework-一堂-业务公式拆解-总纲]]'
+- '[[bridge-yitang-seek-truth-liberate-thought]]'
+- '[[case-cross-xingangwan-pharma]]'
+- '[[case-cross-yuanqi-forest]]'
 created_at: 2026-07-03
 updated_at: '2026-07-08'
 tags:

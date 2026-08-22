@@ -43,6 +43,7 @@ related:
 - token capital
 - 第三种资本结构
 - AI 时代资本结构
+- '[[case-ai-search-commerce-platform-hedge]]'
 ---
 
 # Token Capital：AI 时代的第三种资本结构

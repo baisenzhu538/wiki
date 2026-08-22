@@ -51,6 +51,12 @@ related:
 - '[[case-ai-learning-series-modeling]]'
 - '[[case-leo-lubricant-dealer-research]]'
 - '[[dk-research-ranklist-replaces-model]]'
+- '[[agent-spec-research-explosion-partner]]'
+- '[[tool-ai-video-market-gap-assessment]]'
+- '[[tool-yitang-consulting-business-research]]'
+- '[[tool-yitang-consumer-goods-research]]'
+- '[[tool-yitang-product-full-experience]]'
+- '[[tool-yitang-tech-project-research]]'
 tags:
 - audience:ceo
 - scene:diagnosis

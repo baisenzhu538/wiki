@@ -37,6 +37,7 @@ related:
 - '[[tool-agent-spec-yitang-Y-model-coach]]'
 - concept-X型Y型决策习惯
 - concept-发现决策
+- '[[method-一堂-教练对话引擎协议]]'
 discoverable_by:
   - "TCPR皇冠模型"
   - "教学咨询实践研究框架"

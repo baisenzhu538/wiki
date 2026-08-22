@@ -41,6 +41,7 @@ related:
 - '[[case-一堂-迷你访谈五周迭代]]'
 - '[[case-一堂-教材品控事故]]'
 - '[[case-莹莹-before-after复盘]]'
+- '[[bridge-个人复盘×知识管理W-Z-K-P]]'
 tags:
 - audience:general
 - scene:reference

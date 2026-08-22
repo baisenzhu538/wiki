@@ -54,6 +54,8 @@ related:
 - '[[dk-christensen-empirical-criticisms]]'
 - '[[dk-disruptive-innovation-insight-vs-survey]]'
 - '[[dk-qinpeng-three-corrections]]'
+- '[[tool-illuminator-vs-diminisher]]'
+- '[[tool-qinpeng-ai-intelligent-service]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

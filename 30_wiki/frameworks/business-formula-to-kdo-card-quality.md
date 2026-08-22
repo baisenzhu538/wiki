@@ -35,6 +35,7 @@ related:
 - '[[case-apple-card-gender-bias]]'
 - '[[concept-open-source-knowledge-usage-boundary]]'
 - '[[business-formula-domain-digest]]'
+- '[[system-kdo-quality-labels]]'
 discoverable_by:
 - "业务公式卡片质量"
 - "用公式诊断知识卡"

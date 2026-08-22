@@ -41,6 +41,7 @@ related:
 - '[[case-truman-livestream-sop-iteration]]'
 - '[[concept-truman-18-component-cards]]'
 - '[[dk-modeling-question-scaffold-not-answer]]'
+- '[[process-modeling]]'
 diagnostic_signals:
 - framework_lens: 流程类建模
   follow_up_question: 这个任务重复发生吗？失败成本高吗？

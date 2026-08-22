@@ -50,6 +50,14 @@ related:
 - '[[retrospective-moc]]'
 - '[[framework-meeting-iceberg-canvas]]'
 - '[[framework-一堂-团队复盘四阶段12策略]]'
+- '[[skill-yitang-project-spiral-thinking]]'
+- '[[agent-spec-project-management-assistant]]'
+- '[[tool-meeting-execution-principles]]'
+- '[[tool-Truman-AI时代IPO模型重构]]'
+- '[[tool-yitang-project-gap-analysis]]'
+- '[[tool-yitang-project-retro-value-mining]]'
+- '[[tool-科学学习IPO完整清单]]'
+- '[[workflow-yitang-project-four-step-loop]]'
 tags:
 - audience:manager
 - scene:planning

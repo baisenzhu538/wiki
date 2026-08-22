@@ -41,6 +41,7 @@ related:
 - '[[framework-yitang-deliberate-practice-1plus4]]'
 - '[[dk-c1-cjk-regex-silent-fail]]'
 - '[[dk-p5-cc-connect-config]]'
+- '[[tool-泛产品设计-出牌指南]]'
 review_date: '2026-06-28'
 tags:
 - audience:ceo

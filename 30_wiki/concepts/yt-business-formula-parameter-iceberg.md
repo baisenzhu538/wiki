@@ -103,6 +103,7 @@ related:
 - '[[dk-yitang-business-formula-recursive-levels]]'
 - '[[dk-yitang-business-formula-skip-level-entry]]'
 - '[[dk-yitang-formula-unmeasurable-metrics]]'
+- '[[case-dental-clinic-formula]]'
 tags:
 - audience:general
 - scene:reference

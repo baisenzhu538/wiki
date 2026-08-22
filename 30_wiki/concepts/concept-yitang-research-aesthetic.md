@@ -34,6 +34,8 @@ related:
 - '[[pending_unknown]]'
 - tool-yitang-amazon-bestseller
 - tool-yitang-ai-monitoring-alert
+- '[[case-4000-titles-ten-strategies]]'
+- '[[case-ai-learning-series-modeling]]'
 updated_at: '2026-06-29'
 tags:
 - audience:general

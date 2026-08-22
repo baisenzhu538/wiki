@@ -34,6 +34,8 @@ related:
 - '[[plan_20260621_crawl4ai-firecrawl-evaluation]]'
 - '[[plan_20260621_kdo-quality-harness-upgrade]]'
 - '[[plan_20260621_retrieval-architecture-upgrade]]'
+- '[[system-kdo-quality-labels]]'
+- '[[tool-yitang-ai-assisted-organize]]'
 diagnostic_signals:
 - framework_lens: 六维门禁——逐项自检
   follow_up_question: 六维中哪一维最薄弱？薄弱项回补后再提交

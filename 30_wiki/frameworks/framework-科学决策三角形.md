@@ -41,6 +41,7 @@ related:
 - '[[dk-christensen-empirical-criticisms]]'
 - '[[framework-ai-sales-collaboration]]'
 - '[[framework-fact-rule-insight]]'
+- '[[tool-demand-assessment-triangle]]'
 review_date: '2026-07-12'
 updated_at: '2026-07-12'
 tags:

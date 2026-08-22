@@ -37,6 +37,13 @@ related:
 - '[[dk-yitang-project-overmanagement-vs-bare-run]]'
 - '[[framework-yitang-project-execution]]'
 - '[[framework-yitang-project-retrospective]]'
+- '[[tool-yitang-project-breakdown-cheatsheet]]'
+- '[[tool-yitang-project-cost-estimation]]'
+- '[[tool-yitang-project-proposal-checklist]]'
+- '[[tool-yitang-project-risk-discovery]]'
+- '[[tool-yitang-project-risk-response]]'
+- '[[tool-yitang-retrospective-canvas]]'
+- '[[workflow-yitang-project-four-step-loop]]'
 tags:
 - audience:manager
 - scene:planning

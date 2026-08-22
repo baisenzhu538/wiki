@@ -45,6 +45,7 @@ related:
 - '[[dk-doc-explosion-slowdown]]'
 - '[[dk-ai-self-evolution-prompt]]'
 - bridge-how-to-know-person-to-business
+- '[[tool-kdo-wechat-serendipity-collect]]'
 review_date: 2026-08-16
 ---
 

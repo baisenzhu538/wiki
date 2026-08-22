@@ -52,6 +52,8 @@ related:
   - '[[dk-feature-not-learned-but-used]]'
   - '[[dk-feature-pieces-not-recognized-as-cards]]'
   - '[[dk-key-hypothesis-still-hope]]'
+  - '[[agent-spec-basic-skills-coach]]'
+  - '[[tool-ai-agent-feature-comparison]]'
 tags:
   - method:feature-thinking
   - method:ai-basic

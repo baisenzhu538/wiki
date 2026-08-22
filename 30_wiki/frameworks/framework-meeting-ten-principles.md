@@ -47,6 +47,9 @@ related:
   - '[[dk-meeting-asset-harvest]]'
   - '[[dk-meeting-pressure-ignition]]'
   - '[[dk-meeting-rederive]]'
+  - '[[tool-meeting-room-match]]'
+  - '[[tool-yitang-daily-weekly-meeting-hosting]]'
+  - '[[yt-tool-meeting-designer]]'
 quality_labels: [principle, actionable, quotable, insight]
 tags:
   - audience:general

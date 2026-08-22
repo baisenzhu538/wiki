@@ -49,6 +49,8 @@ related:
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 - '[[dk-p6-session-resume-fail]]'
 - '[[dk-research-scavenger-vs-architect]]'
+- '[[agent-spec-research-explosion-partner]]'
+- '[[tool-yitang-app-store-data]]'
 tags:
 - audience:ceo
 - scene:diagnosis

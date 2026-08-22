@@ -69,6 +69,18 @@ related:
 - '[[framework-ai-sales-collaboration]]'
 - '[[framework-sales-funnel-full]]'
 - '[[framework-yitang-sales-target-tradeoffs]]'
+- '[[tool-agent-spec-yitang-customer-segmentation]]'
+- '[[tool-agent-spec-yitang-objection-handler]]'
+- '[[tool-agent-spec-yitang-opening-3min]]'
+- '[[tool-agent-spec-yitang-sales-performance-monitor]]'
+- '[[tool-agent-spec-yitang-sales-process-tracker]]'
+- '[[tool-agent-spec-yitang-self-motivation]]'
+- '[[tool-agent-spec-yitang-value-proposition]]'
+- '[[tool-candy-sales-recruiting]]'
+- '[[tool-sales-objection-dilution]]'
+- '[[tool-yitang-daily-weekly-meeting-hosting]]'
+- '[[tool-yitang-listening-37-rule]]'
+- '[[tool-yitang-sales-toolkit-maturity-60-75-85]]'
 created_at: 2026-07-02
 updated_at: 2026-07-08
 tags:

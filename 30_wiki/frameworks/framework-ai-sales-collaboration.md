@@ -42,6 +42,8 @@ related:
 - '[[dk-sales-demand-mining-is-company-task]]'
 - '[[sales-domain-digest]]'
 - '[[framework-sales-funnel-full]]'
+- '[[tool-candy-sales-recruiting]]'
+- '[[tool-nine-character-mantra-14-strategies]]'
 tags:
 - audience:ceo
 - audience:manager
