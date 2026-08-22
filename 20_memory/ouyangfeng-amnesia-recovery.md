@@ -214,3 +214,12 @@ type: memory/role-recovery
 - `70_product/tasks/production-queue.md` — 生产队列
 - `70_product/tasks/dashboard.md` — 任务仪表盘
 - `framework-ouyangfeng-review-methodology` — 审查方法论卡
+
+### 当前状态（2026-08-22 · 超长会话收官）——#411 30 批收官 + 治理批 + 会诊表态
+
+- **#411 整单收官 PASS A**：30 批 7325 条回填（7472→457 可处理归零，剩余=455 pending_unknown 纪律排除+2 already）——图谱连通性工程收官；批次验收流程（禁 queue_transition review/划段行/恢复 queued）经 30 批实战固化，#426 tags 批引用该模式
+- **今日终审 20+ 单**：#407 PDF-Inspector A- / #408 空壳卡 A- / #409 parse-error A（FAIL→复审，index 生成物跨仓根治 f7a78a0）/ #410 mojibake A / #412 W3 口径 A / #413 O-3 修复 A-（段登记幂等 bug 实证——非 complete 锁内 re-check，R4 行号偏移 TODO）/ #414 副本清理 A（FAIL→复审）/ #415 工具名清单 A / #416 基本法框架稿 A / #418 复盘治理 A（幻影丢失裁定）/ #419 复盘门禁 A（六角色触发话术）/ #420 停车场收口 A / #425 健康指标 A
+- **会诊表态**：positions/ouyangfeng.md 落盘（B2-1 分界/B2-3 补批次验收语义/B3-4 同族词/X-1 两类信号）；建议书 proposal-batch-todo-closure-gate（R1-R4 王语嫣全承接，R1 先行落地）
+- **运维**：codex-relay 502 修复（自启任务丢失重建）+ agent-fix-records 目录（README 规范）
+- **审查方法升级**：diff 删除行先查文件归属（第十五批误判教训）；异常驱动审查（规范批快过/异常批深挖）；批次验收动作清单（终审记录+划段行+恢复 queued）
+- **队列**：待领取 7（#417/#421-424/#426-428）+ #188 历史遗留 pending_review；审查中 0
