@@ -1,4 +1,8 @@
 ---
+status: pending_review
+updated_at: '2026-08-22T14:38:38.488676+00:00'
+---
+﻿---
 id: 428
 assignee: hermes
 status: in_progress
@@ -27,3 +31,29 @@ updated_at: '2026-08-22T14:13:26.095496+00:00'
 - 五要素齐全（内核/职责/边界/工作流/Trigger+Interface）+ G1/G2 两铁律
 - pre-submit 0 ERROR；双向回链（链 B2-2 拍板所在 decisions.md 与记忆胶囊四层方案）
 - 欧阳锋终审；commit 入档（E040）
+
+---
+
+## 提审记录（2026-08-22 老顽童）
+
+产出物：`30_wiki/agent-specs/agent-spec-fengqingyang-observer.md`（95 行，五要素 + G1/G2 + 双向回链 source_refs 4 条）
+
+**pre-submit 输出（kdo pre-submit -f 30_wiki/agent-specs/agent-spec-fengqingyang-observer.md）：**
+
+```
+Files checked: 1 | Passed: 1 | Failed: 0
+[YAML]: 0 issues
+[WIKILINK]: 0 issues
+[DOMAIN]: 0 issues
+[DK_SECTION]: 0 issues
+[OUTLINK]: 0 issues
+[ALIASES]: 0 issues
+[POSITION_DECLARATION]: 0 issues
+[SOURCE_REACHABILITY]: 0 issues
+[QUALITY_SCORE]: 1 info
+  Quality pre-score: 75/100 | pos:25 | tacit:0 (no section) | src:25 (4) | decomp:25 (7)
+✅ Result: PASS — 一次通过！
+```
+
+- 门禁修复过程：初次 FAIL 因检索索引新鲜度门禁（卡片 22:21 更新 > .kdo/search_index.json 21:54）→ 跑 `kdo index --incremental` 刷新（+1）→ 复跑 PASS
+- 索引已刷新，kdo query 可检索到本卡
