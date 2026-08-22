@@ -160,13 +160,19 @@ def _load_hooks() -> dict:
 
 
 def _feishu_sign(ts: str, key: str) -> str:
-    """飞书群机器人加签：HMAC-SHA256(key, f'{ts}\\n{key}') → base64。"""
+    """飞书群机器人加签（官方算法）：string_to_sign = f'{ts}\\n{key}'，整体作为 HMAC 密钥、消息为空 → base64。
+
+    2026-08-23 实测修正：原实现（key=密钥, msg=ts\\n密钥）被飞书拒（code 19021 sign match fail）。
+    官方示例：hmac.new(string_to_sign.encode(), digestmod=sha256)——即 key=string_to_sign。
+    """
     string_to_sign = f"{ts}\n{key}"
-    digest = hmac.new(key.encode("utf-8"), string_to_sign.encode("utf-8"), hashlib.sha256).digest()
+    digest = hmac.new(string_to_sign.encode("utf-8"), digestmod=hashlib.sha256).digest()
     return base64.b64encode(digest).decode("utf-8")
 
 
 def _send_hook(url: str, text: str, key: str | None = None) -> bool:
+    """发送飞书消息。**必须校验响应 body 的 code**——飞书业务失败也返回 HTTP 200（2026-08-23 实证：
+    签名错误 code 19021 曾被当成功，全部消息假发送）。"""
     payload = {"msg_type": "text", "content": {"text": text}}
     if key:  # 加签模式（机器人安全设置开了签名校验）
         ts = str(int(time.time()))
@@ -176,7 +182,15 @@ def _send_hook(url: str, text: str, key: str | None = None) -> bool:
     req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
-            return resp.status == 200
+            body = resp.read().decode("utf-8", errors="replace")
+            try:
+                code = json.loads(body).get("code")
+            except Exception:
+                code = None
+            if code not in (0, None):  # None=无业务码（非飞书标准响应）保守视为失败？—— 0 才成功
+                FAIL_LOG.write_text(f"{datetime.now().isoformat()} 飞书业务失败 code={code}: {body[:200]}\n", encoding="utf-8")
+                return False
+            return resp.status == 200 and code == 0
     except Exception as e:
         FAIL_LOG.write_text(f"{datetime.now().isoformat()} {url[:40]}… {e}\n", encoding="utf-8")
         return False
