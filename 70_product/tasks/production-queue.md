@@ -439,7 +439,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 | 416 | `task_20260822_wangyuyan-kdo-charter-draft` | 《KDO 基本法》框架稿（P0，G4 第 0 步）：定位与战略+六方角色职责+工作流原则 | reviewed | wangyuyan | 框架稿 v0.1 | 无 | `60_feedback/tasks/task_20260822_wangyuyan-kdo-charter-draft.md` | 全部条文溯源拍板编号；角色专场后定稿；欧阳锋终审+老朱终稿 |
 | 417 | `task_20260822_wangyuyan-industrialization-manual-revamp` | 工业化手册整改（P0）：版本号归一+角色表对齐基本法+手册 vs 现实对账 | queued | wangyuyan | 整改手册 | 依赖 #416 | `60_feedback/tasks/task_20260822_wangyuyan-industrialization-manual-revamp.md` | 版本号脚本校验（防复发）；风清扬定期审计手册差距；欧阳锋终审 |
 | 418 | `task_20260822_huangyaoshi-agent-retro-governance-p0` | agent复盘 治理 P0（T1-T3）：codex→fengqingyang 归并+中英双轨合并+复盘三轨收口 | reviewed | huangyaoshi | 归并+收口 | 无 | `60_feedback/tasks/task_20260822_huangyaoshi-agent-retro-governance-p0.md` | 硬前置=先出引用清单（E014，各 context 写死桌面路径）；先治理再迁移；欧阳锋终审抽归并完整性 |
-| 419 | `task_20260822_huangyaoshi-review-gate-depth-upgrade` | 复盘门禁双查升级（P1）：review-check 形式+深度四条硬指标——想犯错也犯不了 | claimed-huangyaoshi | huangyaoshi | 门禁升级 | 样本王语嫣提供 | `60_feedback/tasks/task_20260822_huangyaoshi-review-gate-depth-upgrade.md` | 3 张样本校准先行防误伤；存量复盘不回改；欧阳锋终审 |
+| 419 | `task_20260822_huangyaoshi-review-gate-depth-upgrade` | 复盘门禁双查升级（P1）：review-check 形式+深度四条硬指标——想犯错也犯不了 | pending_review | huangyaoshi | 门禁升级 | 样本王语嫣提供 | `60_feedback/tasks/task_20260822_huangyaoshi-review-gate-depth-upgrade.md` | 3 张样本校准先行防误伤；存量复盘不回改；欧阳锋终审 |
 | 420 | `task_20260822_wangyuyan-parking-lot-consolidation` | 工厂停车场收口（P1，B4-4）：6 份旧停车场→单一 parking-lot（F-xxx+生命周期+清账） | reviewed | wangyuyan | 单一停车场 | 无 | `60_feedback/tasks/task_20260822_wangyuyan-parking-lot-consolidation.md` | 风清扬 §14.5 方案；清账明细附报告；欧阳锋终审抽去重正确性 |
 | 421 | `task_20260822_huangyaoshi-conveyor-probes` | 传送带探针（P1，X-1）：通知契约先定（低打扰/三类信号/幂等/不打扰）+三探针实现+PROPOSAL-PENDING 自动登记与建议书到达即时通知（追加一/二，登记+通知同源） | queued | huangyaoshi | 契约+探针 | O-3 已交付（#413） | `60_feedback/tasks/task_20260822_huangyaoshi-conveyor-probes.md` | 边界硬编码只通知不领取不裁决不流转；检出逻辑单份禁第二套扫描器；欧阳锋终审抽边界真实性 |
 | 422 | `task_20260822_huangyaoshi-agent-retro-governance-p1` | agent复盘 治理 P1（T5 裁剪版+T6 散落 12 文件归类+T8 垃圾清理） | queued | huangyaoshi | 归类清零 | 依赖 #418 | `60_feedback/tasks/task_20260822_huangyaoshi-agent-retro-governance-p1.md` | 停更实例只归并不恢复复盘（王语嫣裁剪）；归类映射表附报告；欧阳锋终审 |
@@ -512,6 +512,7 @@ audience: 老顽童 / 欧阳锋 / 黄药师 / 用户
 - ~~#411 task_20260822_laowantong-related-asymmetry-backfill｜hermes｜提审 08-22 21:05｜60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md~~ → 第二十六批 PASS A（2026-08-22 欧阳锋，批次验收）
 - ~~#425 task_20260822_huangyaoshi-health-metrics-set｜huangyaoshi｜提审 08-22 21:08｜60_feedback/tasks/task_20260822_huangyaoshi-health-metrics-set.md~~ → 已终审 PASS A（2026-08-22 欧阳锋）
 - #411 task_20260822_laowantong-related-asymmetry-backfill｜hermes｜提审 08-22 21:27｜60_feedback/tasks/task_20260822_laowantong-related-asymmetry-backfill.md
+- #419 task_20260822_huangyaoshi-review-gate-depth-upgrade｜huangyaoshi｜提审 08-22 21:27｜60_feedback/tasks/task_20260822_huangyaoshi-review-gate-depth-upgrade.md
 
 <!-- REVIEW-PENDING-END -->
 

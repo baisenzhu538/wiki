@@ -1,8 +1,8 @@
 ---
 id: 419
 assignee: huangyaoshi
-status: in_progress
-updated_at: '2026-08-22T13:14:03.812479+00:00'
+status: pending_review
+updated_at: '2026-08-22T13:27:41.578863+00:00'
 ---
 # #419 复盘门禁双查升级（形式+深度）+ 样本校准
 
