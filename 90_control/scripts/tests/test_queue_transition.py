@@ -257,3 +257,42 @@ class TestWaitingExternal(unittest.TestCase):
     def test_transitions_registered(self):
         self.assertEqual(qt.TRANSITIONS[("pending_review", "mark_waiting")], "waiting-external")
         self.assertEqual(qt.TRANSITIONS[("waiting-external", "resume")], "pending_review")
+
+
+# ── #433 负向判词证据层门禁回归（风清扬建议书采纳，三复现用例）──
+
+class TestNegativeClaimGate(unittest.TestCase):
+    """#433：意见书负向断言词必须带 `**存在性核查**` 锚点。"""
+
+    # 复现用例 1：#430 坚果云——"无远程备份"（未查云同步形态）
+    def test_430_nutcloud_repro_blocked(self):
+        text = "**结论**：PASS / A-。发现：无远程备份（本地单点容灾缺口）。"
+        ok, msg = qt._check_negative_claims(text)
+        self.assertFalse(ok)
+        self.assertIn("存在性核查", msg)
+
+    # 复现用例 2：FQ-E04——"卡住"（未标注证据层）
+    def test_fqe04_blocked(self):
+        text = "**结论**：欧阳锋卡住。"
+        ok, _ = qt._check_negative_claims(text)
+        self.assertFalse(ok)
+
+    # 复现用例 3：FQ-E01——"待终审"（状态未拉最新=相邻型，非负向断言，门禁不误拦）
+    def test_fqe01_not_blocked(self):
+        text = "**结论**：#427 待终审。"
+        ok, msg = qt._check_negative_claims(text)
+        self.assertTrue(ok)
+        self.assertEqual(msg, "")  # 相邻型不在负向门禁范围——证明不误拦
+
+    def test_anchor_present_pass(self):
+        text = ("**结论**：PASS / A-。无远程备份。\n\n**存在性核查**：\n"
+                "- 查过形态：本地 git/坚果云/进程/配置——坚果云已同步（进程+配置+用户确认）\n"
+                "- 结论等级：未发现（默认）")
+        ok, _ = qt._check_negative_claims(text)
+        self.assertTrue(ok)
+
+    def test_common_phrase_no_block(self):
+        """合法常见短语（无阻断项）不触发强词硬拦，仅宽词提示。"""
+        text = "**结论**：PASS / A。无阻断项。"
+        ok, msg = qt._check_negative_claims(text)
+        self.assertTrue(ok)

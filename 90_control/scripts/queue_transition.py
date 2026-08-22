@@ -605,6 +605,38 @@ def action_complete(task_id: str, instance: str, evidence: str | None, force: bo
     return True, f"✅ {task_id} 已提交为 pending_review，等待欧阳锋终审"
 
 
+# #433 负向判词证据层门禁（风清扬建议书 diag_20260823_fengqingyang-negative-claim-evidence-gate.md 采纳）
+# 治标层：意见书含负向断言词必须带 `**存在性核查**` 锚点（只验锚点存在，不判核查质量——F-034 同款原则）。
+# 强词=明确断言缺失（硬拦，缺锚点不闭环）；宽词=无/缺/没有（标需人工不硬杀——"无阻断项"等合法短语不误伤）。
+EVIDENCE_ANCHOR = "**存在性核查**"
+# 强词：明确断言缺失（硬拦）
+NEGATIVE_CLAIM_STRONG = ["不存在", "未备份", "未同步", "确认缺失", "缺失", "卡住", "丢失", "死锁"]
+# 模式：无/缺/没有/未 + 0-6 字 + 敏感名词（备份/同步/镜像/副本…）——"无远程备份"类强断言（#430 复现用例）
+NEGATIVE_CLAIM_PATTERN = re.compile(r"(?:无|缺|没有|未)(?:任何|远程|本地|有效|可用的|同步|备份的)?.{0,6}(?:备份|同步|镜像|副本|记录|存档|归档|历史|日志|留痕)")
+# 宽词：单字级（无阻断项等合法短语只给需人工提示，不硬杀）
+NEGATIVE_CLAIM_SOFT = ["无", "缺", "没有", "未发现"]
+
+
+def _check_negative_claims(text: str) -> tuple[bool, str]:
+    """#433：意见书文本含负向断言词时必须含 `**存在性核查**` 锚点。
+
+    返回 (block, msg)：block=True=review 不闭环；False=放行（宽词命中给 warn 提示）。
+    """
+    if EVIDENCE_ANCHOR in text:
+        return True, ""
+    hits = [w for w in NEGATIVE_CLAIM_STRONG if w in text]
+    m = NEGATIVE_CLAIM_PATTERN.search(text)
+    if m:
+        hits.append(f"「{m.group(0)}」")
+    if hits:
+        return False, (f"意见书含负向断言（{'/'.join(hits[:4])}）但无 `**存在性核查**` 锚点"
+                       f"（#433：'我没看到'≠'不存在'，负向判词必须附核查节，否则不闭环）")
+    soft = [w for w in NEGATIVE_CLAIM_SOFT if w in text]
+    if soft:
+        return True, f"⚠️ 意见书含宽负向词（{'/'.join(soft[:3])}）无核查锚点——按需人工确认（#433 不硬杀）"
+    return True, ""
+
+
 def _check_review_record(task_file: Path, review_file: str | None) -> tuple[bool, str]:
     """#429 F-035：审查意见书强制落盘——任务单「## 终审记录」节（≥50 字）或 --review-file 路径，二者必有其一。"""
     if review_file is not None:
@@ -720,6 +752,20 @@ def action_review(task_id: str, verdict: str, reviewer: str, grade: str | None =
     ok, msg = _check_review_record(task_file, review_file)
     if not ok:
         return False, msg
+
+    # #433：负向判词证据层门禁——意见书含负向断言词必须带 `**存在性核查**` 锚点
+    opinion_text = ""
+    if review_file is not None:
+        opinion_text = Path(review_file).read_text(encoding="utf-8", errors="ignore")
+    else:
+        body = task_file.read_text(encoding="utf-8", errors="ignore")
+        idx = body.find("## 终审记录")
+        if idx != -1:
+            nxt = body.find("\n## ", idx + 1)
+            opinion_text = body[idx:nxt] if nxt > 0 else body[idx:]
+    gate_ok, gate_msg = _check_negative_claims(opinion_text)
+    if not gate_ok:
+        return False, gate_msg
 
     with QueueLock("production-queue"):
         if verdict == "pass":
