@@ -51,6 +51,8 @@ related:
 - '[[pending_unknown]]'
 - '[[yt-foresight-deliverables-four-levels]]'
 - '[[yt-model-cognitive-upgrade-framework]]'
+- '[[dk-modeling-question-scaffold-not-answer]]'
+- '[[dk-p20-bigram-fail]]'
 tags:
 - src_unknown
 - src_unknown

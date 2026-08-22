@@ -21,6 +21,8 @@ related:
 - '[[dk-p19-quote-yaml]]'
 - huangyaoshi-tagging-and-scope-proposal
 - tool-ai-voice-input-doubao
+- '[[dk-p16-validate-reads-state-json]]'
+- '[[dk-p18-yaml-parser]]'
 ---
 # YAML 标注对 KDO 知识库的启发
 

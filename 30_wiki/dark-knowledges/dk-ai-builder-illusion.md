@@ -65,6 +65,8 @@ related:
 - '[[dk-collection-vs-assets]]'
 - '[[dk-context-patching-recipe]]'
 - '[[dk-extract-then-merge]]'
+- '[[dk-research-important-things-must-do]]'
+- '[[dk-research-saturation-quota-ai-km]]'
 ---
 # Builder 幻觉：用 AI 做出东西 ≠ 完成从 0 到 1
 

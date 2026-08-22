@@ -32,6 +32,7 @@ related:
 - content-production-polish
 - '[[agent-spec-ouyangfeng-reviewer]]'
 - '[[case-duanwangye-self-iteration-closed-loop]]'
+- '[[dk-publish-collapse-to-iterate]]'
 tags:
 - audience:executor
 - scene:execution

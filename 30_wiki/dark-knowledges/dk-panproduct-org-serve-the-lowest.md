@@ -45,6 +45,7 @@ related:
 - '[[framework-ai-accelerated-strategy-cycle]]'
 - '[[framework-yitang-growth-flywheel]]'
 - '[[case-panproduct-lanyi-intern-flywheel]]'
+- '[[dk-panproduct-org-linear-to-circular]]'
 review_date: '2026-06-28'
 tags:
 - audience:manager

@@ -36,6 +36,7 @@ related:
 - '[[concept-mckinsey-mece]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[yt-entrepreneur-lean-validation]]'
+- '[[dk-p6-session-resume-fail]]'
 tags:
 - audience:executor
 - scene:execution

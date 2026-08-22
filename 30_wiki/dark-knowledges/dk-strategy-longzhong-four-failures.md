@@ -26,6 +26,7 @@ discoverable_by:
   - 诸葛亮都栽了
 related:
 - '[[dk-strategy-three-must-do-moments]]'
+- '[[dk-strategy-03-advantage-temporary]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 updated_at: '2026-06-28'

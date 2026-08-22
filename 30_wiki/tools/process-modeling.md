@@ -46,6 +46,7 @@ related:
 - '[[framework-kdo-self-attack]]'
 - '[[yitang-domain-digest]]'
 - '[[case-livestream-sop-modeling]]'
+- '[[dk-process-is-scar-tissue]]'
 tags:
 - audience:executor
 - scene:execution

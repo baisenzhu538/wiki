@@ -41,6 +41,7 @@ related:
 - '[[tool-用topdown方式整理内化笔记]]'
 - '[[tool-checklist-cheatsheet-modeling]]'
 - '[[dk-infrastructure-guardrails-over-checklist]]'
+- '[[dk-modeling-ai-self-retrospection]]'
 tags:
 - audience:executor
 - scene:execution

@@ -45,6 +45,7 @@ related:
 - '[[case-vibecoding-one-week-delivery]]'
 - '[[dk-doc-numbering-business-logic]]'
 - '[[dk-future-backward-knowledge-tree]]'
+- '[[dk-shoulu-yixia-culture]]'
 review_date: 2026-08-16
 ---
 

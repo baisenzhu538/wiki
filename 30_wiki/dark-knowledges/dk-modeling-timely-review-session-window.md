@@ -34,6 +34,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[dk-c6-large-source-overflow]]'
+- '[[dk-p2-tmux-cache]]'
+- '[[dk-p6-session-resume-fail]]'
 tags:
 - src_unknown
 - src_unknown

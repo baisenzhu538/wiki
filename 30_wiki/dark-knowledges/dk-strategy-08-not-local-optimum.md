@@ -28,6 +28,7 @@ related:
 - '[[yt-five-step-method]]'
 - '[[dk-tool-as-phased-validator]]'
 - '[[strategy-domain-digest]]'
+- '[[dk-strategy-01-not-goal-setting]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-29'
 updated_at: '2026-06-29'

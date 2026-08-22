@@ -46,6 +46,7 @@ related:
 - '[[tool-采用滚动预测机制]]'
 - tool-ai-prd-for-ai
 - '[[yt-business-model-network-effects]]'
+- '[[dk-modeling-checklist-formatting-rules]]'
 tags:
 - audience:executor
 - scene:execution

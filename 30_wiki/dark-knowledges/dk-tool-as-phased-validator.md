@@ -55,6 +55,15 @@ related:
 - '[[dk-ji-hao-ai-cant-design-structure]]'
 - '[[dk-ji-hao-constraint-beats-talent]]'
 - '[[dk-ji-hao-logs-fastest-ignored]]'
+- '[[dk-ji-hao-novice-mindset-advantage]]'
+- '[[dk-ji-hao-pdca-starts-from-do]]'
+- '[[dk-ji-hao-problem-vs-question]]'
+- '[[dk-ji-hao-simple-complex-routing]]'
+- '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
+- '[[dk-p11-regex-cutoff]]'
+- '[[dk-strategy-01-not-goal-setting]]'
+- '[[dk-strategy-03-advantage-temporary]]'
+- '[[dk-strategy-04-consulting-trap]]'
 bridges_to:
 - target: src_unknown
   relation: applies_when

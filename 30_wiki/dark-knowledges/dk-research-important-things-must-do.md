@@ -41,6 +41,7 @@ related:
 - dk-ai-builder-illusion
 - '[[case-new-year-insight-relay]]'
 - '[[case-vibecoding-one-week-delivery]]'
+- '[[dk-research-saturation-quota-ai-km]]'
 tags:
 - audience:manager
 - scene:planning

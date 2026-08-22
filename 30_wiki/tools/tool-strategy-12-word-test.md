@@ -28,6 +28,8 @@ tags:
 - audience:executor
 - scene:execution
 - skill-level:advanced
+related:
+  - '[[dk-p11-regex-cutoff]]'
 ---
 
 # 12 词战略测试

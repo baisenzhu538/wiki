@@ -21,6 +21,7 @@ related:
 - '[[dk-f1-regex-on-cjk]]'
 - '[[dk-c1-cjk-regex-silent-fail]]'
 - '[[dk-c4-selfcheck-superseded]]'
+- '[[dk-kdo-leaky-pipe-pressure]]'
 tags:
 - audience:manager
 - scene:reference

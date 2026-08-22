@@ -40,6 +40,15 @@ related:
 - '[[case-shuishui-business-insight]]'
 - '[[concept-ai-style-knowledge-docs]]'
 - '[[dk-agreeableness-double-edged]]'
+- '[[dk-one-sentence-handover]]'
+- '[[dk-research-classification-mece-table]]'
+- '[[dk-research-important-things-must-do]]'
+- '[[dk-research-ranklist-replaces-model]]'
+- '[[dk-research-sampling-correction-three-rounds]]'
+- '[[dk-research-saturation-quota-ai-km]]'
+- '[[dk-research-saturation-self-proof]]'
+- '[[dk-research-scavenger-vs-architect]]'
+- '[[dk-research-total-anchor-private-library]]'
 tags:
 - method:cross-domain
 - method:business-strategy

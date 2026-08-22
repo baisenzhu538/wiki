@@ -38,6 +38,7 @@ related:
 - '[[tool-checklist-cheatsheet-modeling]]'
 - '[[modeling-level-map]]'
 - '[[tool-iceberg-triangle-modeling]]'
+- '[[dk-modeling-question-scaffold-not-answer]]'
 tags:
 - src_unknown
 - src_unknown

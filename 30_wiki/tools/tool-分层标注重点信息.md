@@ -41,6 +41,7 @@ related:
 - '[[tool-渐进式披露上下文]]'
 - '[[tool-提示词结构化迭代]]'
 - tool-ai-prd-for-ai
+- '[[dk-modeling-checklist-formatting-rules]]'
 tags:
 - audience:executor
 - scene:execution

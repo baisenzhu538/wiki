@@ -33,6 +33,7 @@ related:
 - '[[concept-ji-hao-ai-collaboration-methodology]]'
 - '[[dk-foresight-source-material-blindness]]'
 - '[[dk-ji-hao-constraint-beats-talent]]'
+- '[[dk-modeling-business-visual-logic-match]]'
 created_at: 2026-06-08
 updated_at: 2026-06-28
 pipeline: null

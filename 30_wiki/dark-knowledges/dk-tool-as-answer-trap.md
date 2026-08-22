@@ -31,6 +31,7 @@ related:
 - '[[lean-startup-domain-digest]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[dk-modeling-question-scaffold-not-answer]]'
 bridges_to:
 - src_unknown
 - src_unknown

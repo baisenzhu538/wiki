@@ -35,6 +35,7 @@ related:
 - modeling-level-map
 - framework-modeling-relation-exploration
 - '[[concept-kdo-component-library]]'
+- '[[dk-post-hoc-framework-vs-messy-reality]]'
 tags:
 - audience:executor
 - scene:reference

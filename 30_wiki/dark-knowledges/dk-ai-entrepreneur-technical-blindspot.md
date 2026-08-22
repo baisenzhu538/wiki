@@ -39,6 +39,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[yt-demand-motivation-resistance]]'
 - '[[dk-demand-pitfall-indonesia-insurance]]'
+- '[[dk-strategy-02-three-paradoxes]]'
 author: unknown
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'

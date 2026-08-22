@@ -42,6 +42,7 @@ related:
 - '[[tool-从案例中学习正反案例法]]'
 - framework-wanghuan-ai-five-level-ladder
 - framework-yitang-18-strategy-cards
+- '[[dk-modeling-checklist-formatting-rules]]'
 tags:
 - audience:executor
 - scene:execution

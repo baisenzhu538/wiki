@@ -17,6 +17,8 @@ discoverable_by:
 - Agent规范
 - 标注协议
 - 工作约定
+related:
+  - '[[dk-long-material-layered-reading-protocol]]'
 ---
 
 # 王语嫣工作协议集

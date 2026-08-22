@@ -54,6 +54,14 @@ related:
 - '[[dk-ji-hao-logs-fastest-ignored]]'
 - '[[dk-ji-hao-newbie-can-validate]]'
 - '[[dk-ji-hao-novice-mindset-advantage]]'
+- '[[dk-ji-hao-pdca-starts-from-do]]'
+- '[[dk-ji-hao-problem-vs-question]]'
+- '[[dk-ji-hao-simple-complex-routing]]'
+- '[[dk-modeling-ai-cross-validation]]'
+- '[[dk-modeling-ai-iterative-prompting]]'
+- '[[dk-modeling-ai-judgment-limit]]'
+- '[[dk-small-format-error-cascades-to-system-failure]]'
+- '[[dk-state-residue-is-the-silent-killer]]'
 tags:
 - audience:manager
 - scene:reference

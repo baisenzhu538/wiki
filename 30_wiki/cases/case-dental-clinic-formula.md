@@ -46,6 +46,7 @@ related:
 - '[[yt-business-formula-qualitative-metrics-library]]'
 - '[[industrial-ai-ops-cases]]'
 - '[[dk-c1-cjk-regex-silent-fail]]'
+- '[[dk-p5-cc-connect-config]]'
 tags:
 - audience:general
 - scene:reference

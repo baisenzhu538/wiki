@@ -36,6 +36,7 @@ related:
 - 'dk-three-context-formula'
 - '[[yt-decision-width-method]]'
 - '[[dk-infrastructure-guardrails-over-checklist]]'
+- '[[dk-modeling-ai-self-retrospection]]'
 tags:
 ---
 # 技能：工厂对接信息清单制作

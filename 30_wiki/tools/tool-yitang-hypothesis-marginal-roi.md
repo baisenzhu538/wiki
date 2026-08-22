@@ -38,6 +38,7 @@ related:
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'
 - '[[dk-doc-numbering-business-logic]]'
+- '[[dk-occhams-knife-tool-migration]]'
 quality_labels:
 - actionable
 - framework

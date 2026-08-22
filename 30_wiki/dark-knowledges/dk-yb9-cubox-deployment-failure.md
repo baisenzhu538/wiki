@@ -23,6 +23,7 @@ discoverable_by:
 related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[tool-月白-左手Cubox右手里程碑学习法]]'
+- '[[dk-lz-code-is-disposable]]'
 pipeline: null
 author: 月白
 reviewed_by: 欧阳锋

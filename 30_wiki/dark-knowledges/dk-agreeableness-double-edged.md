@@ -31,6 +31,7 @@ related:
 - tool-illuminator-vs-diminisher
 - framework-一堂-个人表达力
 - '[[dk-emotional-value-premium]]'
+- '[[dk-narrative-choice-theory]]'
 tags:
 - method:personality
 - method:leadership

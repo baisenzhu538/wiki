@@ -41,6 +41,7 @@ related:
 - tool-ai-prd-for-ai
 - '[[yt-decision-width-method]]'
 - '[[dk-infrastructure-guardrails-over-checklist]]'
+- '[[dk-modeling-ai-self-retrospection]]'
 tags:
 - audience:executor
 - scene:execution

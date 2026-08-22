@@ -34,6 +34,8 @@ related:
 - '[[yt-five-step-method]]'
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
+- '[[dk-ji-hao-pdca-starts-from-do]]'
+- '[[dk-p16-validate-reads-state-json]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'

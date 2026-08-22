@@ -52,6 +52,8 @@ related:
 - '[[tool-agent-spec-yitang-sales-toolkit-gap]]'
 - '[[tool-agent-spec-yitang-three-second-opening-scripts]]'
 - '[[case-yitang-sales-routine-deconstruction]]'
+- '[[dk-sales-big-deal-vs-small-deal]]'
+- '[[dk-sales-demand-mining-is-company-task]]'
 created_at: 2026-07-02
 updated_at: 2026-07-24
 tags:

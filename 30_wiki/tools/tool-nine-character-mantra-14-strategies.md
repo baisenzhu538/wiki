@@ -46,6 +46,10 @@ related:
 - dk-ai-builder-illusion
 - '[[case-design-principles-90]]'
 - '[[case-opc-128-directions]]'
+- '[[dk-research-ai-no-time-concept]]'
+- '[[dk-research-classification-mece-table]]'
+- '[[dk-research-sampling-correction-three-rounds]]'
+- '[[dk-research-saturation-self-proof]]'
 tags:
 - audience:executor
 - scene:execution

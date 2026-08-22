@@ -28,6 +28,8 @@ related:
 - '[[dk-yb18-small-shop-image-mismatch]]'
 - '[[dk-yb19-visual-strategy-price-match]]'
 - '[[视觉prompt三层操作系统-srom-visual-os]]'
+- '[[dk-modeling-business-visual-logic-match]]'
+- '[[dk-p20-bigram-fail]]'
 pipeline:
 - src_unknown
 - src_unknown

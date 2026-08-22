@@ -45,6 +45,8 @@ related:
 - '[[yt-five-step-method]]'
 - '[[dk-tool-as-phased-validator]]'
 - '[[strategy-domain-digest]]'
+- '[[dk-strategy-01-not-goal-setting]]'
+- '[[dk-strategy-03-advantage-temporary]]'
 tags:
 - audience:executor
 - scene:reference

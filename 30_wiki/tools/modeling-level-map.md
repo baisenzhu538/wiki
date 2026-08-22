@@ -41,6 +41,8 @@ related:
 - '[[modeling-weapon-library]]'
 - '[[case-modeling-ai-image-workflow]]'
 - '[[yt-business-formula-l6-essence-formulas]]'
+- '[[dk-modeling-jump-step-cost]]'
+- '[[dk-process-is-scar-tissue]]'
 tags:
 - audience:executor
 - scene:execution

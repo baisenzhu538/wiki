@@ -36,6 +36,7 @@ related:
 - '[[tool-agent-spec-yitang-scenario-walkthrough]]'
 - '[[tool-agent-spec-yitang-user-perspective-training]]'
 - '[[case-wangfei-newyear-event-diagnosis]]'
+- '[[dk-sponsor-three-tier-pricing]]'
 diagnostic_signals:
 - framework_lens: 五步法总纲
   follow_up_question: 你的项目在五步（需求/产品内核/商业模式/增长/壁垒）中卡在哪一步？先定位再深挖。

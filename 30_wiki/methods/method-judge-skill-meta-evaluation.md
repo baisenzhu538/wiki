@@ -22,6 +22,7 @@ related:
 - '[[framework-yihang-dual-triangle-weapon-library]]'
 - '[[method-kdo-agent-distillation]]'
 - '[[dk-ai-collaboration-degradation-spiral]]'
+- '[[dk-skill-seven-elements-upgrade]]'
 diagnostic_signals:
 - signal: Skill/Agent-spec 上线后效果不稳定，有时好有时差
   lens: 缺质量门控——Skill 没有内置自检机制

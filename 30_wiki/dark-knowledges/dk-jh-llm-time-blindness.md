@@ -32,6 +32,7 @@ related:
 - '[[dk-ai-judgment-human-responsibility]]'
 - '[[dk-ai-judgment-programmer-paradox]]'
 - '[[yt-research-action-camp-launch]]'
+- '[[dk-lz-code-is-disposable]]'
 tags:
 - audience:executor
 - scene:reference

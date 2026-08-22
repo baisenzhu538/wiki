@@ -48,6 +48,8 @@ related:
 - '[[dk-ai-self-evolution-prompt]]'
 - '[[dk-doc-explosion-slowdown]]'
 - '[[dk-doc-numbering-business-logic]]'
+- '[[dk-occhams-knife-tool-migration]]'
+- '[[dk-shoulu-yixia-culture]]'
 tags:
 - src_unknown
 - src_unknown

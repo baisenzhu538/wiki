@@ -49,6 +49,7 @@ related:
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[yt-skill-checklist-as-ai-protocol]]'
 - '[[yt-skill-p-role-prompt-design]]'
+- '[[dk-my-ai-landing-three-barriers]]'
 diagnostic_signals:
 - framework_lens: 缺少工程化标准和自我审计
   follow_up_question: 你的 skill 是否有 P0/P1/P2 分级检查清单？是否用十条 To Do / Not To Do 自评过？

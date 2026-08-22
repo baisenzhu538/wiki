@@ -37,6 +37,7 @@ related:
 - '[[dk-ai-collaboration-degradation-spiral]]'
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
+- '[[dk-research-important-things-must-do]]'
 tags:
 - audience:manager
 - scene:planning

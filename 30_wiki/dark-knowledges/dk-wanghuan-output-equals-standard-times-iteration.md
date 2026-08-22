@@ -49,6 +49,7 @@ related:
 - '[[dk-ji-hao-constraint-beats-talent]]'
 - '[[dk-ji-hao-logs-fastest-ignored]]'
 - '[[dk-ji-hao-novice-mindset-advantage]]'
+- '[[dk-ji-hao-pdca-starts-from-do]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 输出=标准×迭代——标准高但迭代少，输出质量不高

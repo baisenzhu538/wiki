@@ -44,6 +44,7 @@ related:
 - '[[framework-yitang-deliberate-practice-1plus4]]'
 - '[[dk-c11-hongqigong-skip-review]]'
 - '[[dk-c6-large-source-overflow]]'
+- '[[dk-p2-tmux-cache]]'
 pipeline:
 - src_unknown
 - src_unknown

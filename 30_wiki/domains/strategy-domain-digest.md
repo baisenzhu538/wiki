@@ -65,6 +65,10 @@ related:
 - '[[concept-strategy-capability-pyramid]]'
 - '[[concept-strategy-framework-landscape]]'
 - '[[concept-strategy-market-segmentation-yashili]]'
+- '[[dk-strategy-01-not-goal-setting]]'
+- '[[dk-strategy-02-three-paradoxes]]'
+- '[[dk-strategy-03-advantage-temporary]]'
+- '[[dk-strategy-04-consulting-trap]]'
 review_date: '2026-06-29'
 updated_at: '2026-06-29'
 tags:

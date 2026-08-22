@@ -31,6 +31,7 @@ related:
 - bridge-how-to-know-person-to-business
 - case-ai-pet-emotional-product
 - framework-一堂五步法-泛产品设计
+- '[[dk-narrative-choice-theory]]'
 tags:
 - method:business-strategy
 - method:user-insight

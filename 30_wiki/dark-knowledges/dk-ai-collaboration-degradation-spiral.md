@@ -38,6 +38,12 @@ related:
 - '[[concept-session-vs-memory-vs-document]]'
 - '[[dk-ai-as-last-step-not-first]]'
 - '[[dk-customers-hate-ai]]'
+- '[[dk-research-ai-no-time-concept]]'
+- '[[dk-research-important-things-must-do]]'
+- '[[dk-research-sampling-correction-three-rounds]]'
+- '[[dk-research-saturation-self-proof]]'
+- '[[dk-research-scavenger-vs-architect]]'
+- '[[dk-skill-seven-elements-upgrade]]'
 tags:
 - audience:executor
 - scene:reference

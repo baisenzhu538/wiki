@@ -32,6 +32,7 @@ discoverable_by:
 related:
 - '[[dk-yihang-multi-ai-cross-validation]]'
 - '[[concept-yihang-dual-triangle-core]]'
+- '[[dk-long-material-layered-reading-protocol]]'
 tags:
 - audience:executor
 - scene:reference

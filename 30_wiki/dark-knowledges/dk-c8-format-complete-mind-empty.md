@@ -34,6 +34,7 @@ related:
 - '[[dk-delivery-path-type-bug]]'
 - '[[dk-E010-duplicate-key-detection]]'
 - '[[dk-feature-registry-count-drift]]'
+- '[[dk-kdo-leaky-pipe-pressure]]'
 pipeline:
 - src_unknown
 - src_unknown

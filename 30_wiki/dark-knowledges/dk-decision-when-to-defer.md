@@ -35,6 +35,8 @@ related:
 - '[[concept-AI时代双三角竞争力]]'
 - '[[master-decision-hygiene]]'
 - '[[case-decision-ai-assisted-vs-human]]'
+- '[[dk-research-important-things-must-do]]'
+- '[[dk-sales-demand-mining-is-company-task]]'
 tags:
 - audience:executor
 - scene:reference

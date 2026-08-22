@@ -116,6 +116,7 @@ related:
 - '[[conversion-rate-domain-digest]]'
 - '[[case-一堂-我请客推荐率5到40]]'
 - '[[case-一堂-组合篇案例库]]'
+- '[[dk-sponsor-three-tier-pricing]]'
 tags:
 - audience:manager
 - scene:reference

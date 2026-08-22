@@ -39,6 +39,9 @@ related:
 - case-cross-xingangwan-pharma
 - dk-research-saturation-quota-ai-km
 - '[[dk-extract-then-merge]]'
+- '[[dk-research-classification-mece-table]]'
+- '[[dk-research-important-things-must-do]]'
+- '[[dk-research-total-anchor-private-library]]'
 tags:
 - audience:executor
 - scene:execution

@@ -38,6 +38,7 @@ related:
   - '[[bridge-coaching-leadership-feature-layered]]'
   - '[[case-coaching-dialogue-three-versions]]'
   - '[[case-leadership-communication-failures]]'
+  - '[[dk-leadership-trust-coin-sensitivity]]'
 tags:
 - audience:executor
 - scene:execution

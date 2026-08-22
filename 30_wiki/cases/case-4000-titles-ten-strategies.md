@@ -40,6 +40,8 @@ related:
 - case-cross-xingangwan-pharma
 - '[[case-ai-learning-series-modeling]]'
 - '[[dk-extract-then-merge]]'
+- '[[dk-research-ranklist-replaces-model]]'
+- '[[dk-research-total-anchor-private-library]]'
 tags:
 - audience:manager
 - audience:executor

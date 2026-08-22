@@ -52,6 +52,7 @@ related:
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[tool-skill-packaging-eight-steps]]'
 - '[[dk-three-context-formula]]'
+- '[[dk-modeling-logical-cleanliness-root]]'
 tags:
 - audience:general
 - scene:reference

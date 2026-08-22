@@ -61,6 +61,7 @@ related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
 - '[[case-wanghuan-education-sales-paced]]'
+- '[[dk-sales-big-deal-vs-small-deal]]'
 ---
 
 # 暗知识：复制销冠不是复制话术——是还原决策链

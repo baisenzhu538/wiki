@@ -32,6 +32,7 @@ related:
 - '[[互联网医院项目]]'
 - tool-strategy-gap-analysis
 - tool-ai-use-barbell-strategy
+- '[[dk-p5-cc-connect-config]]'
 tags:
 - audience:executor
 - scene:execution

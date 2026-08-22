@@ -49,6 +49,7 @@ related:
 - '[[smart-medicine-cabinet-regional-policy-map]]'
 - '[[concept-smart-medicine-cabinet-digital-pharmacy-diagnosis]]'
 - '[[concept-smart-medicine-cabinet-international-models]]'
+- '[[dk-p5-cc-connect-config]]'
 query_triggers: null
 difficulty: advanced
 prerequisites: smart-medicine-cabinet-national-policy-redlines

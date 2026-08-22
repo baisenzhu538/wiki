@@ -28,6 +28,7 @@ related:
 - "[[kdo-ec-industrialization-migration-proposal]]"
 - "[[kdo-batch-produce-req014]]"
 - "[[dk-c2-dual-status-machine]]"
+- '[[dk-kdo-leaky-pipe-pressure]]'
 ---
 - "[[dk-kdo-leaky-pipe-pressure]]"
 

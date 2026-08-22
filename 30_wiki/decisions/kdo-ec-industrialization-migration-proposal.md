@@ -30,6 +30,7 @@ related:
   - "[[modeling-capability-for-kdo]]"
   - "[[modeling-to-kdo-toolchain]]"
   - '[[dk-c2-dual-status-machine]]'
+  - '[[dk-kdo-leaky-pipe-pressure]]'
 ---
 # EC工业化规范 → KDO管线迁移方案（征求意见稿）
 

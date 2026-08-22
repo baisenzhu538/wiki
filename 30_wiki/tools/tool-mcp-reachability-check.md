@@ -33,6 +33,7 @@ related:
 - '[[dk-P42-agent-fact-check-gap]]'
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[dk-agent-access-kdo-pitfalls]]'
+- '[[dk-mcp-pythonpath-pollution]]'
 created_at: 2026-08-04
 updated_at: 2026-08-04
 review_date: 2026-08-04

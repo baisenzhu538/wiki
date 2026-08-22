@@ -34,6 +34,7 @@ related:
 - '[[tool-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱]]'
 - '[[tool-月白-表情包风格筛选与确定]]'
 - '[[tool-月白-AI图片风格逆向提取（抄图法）]]'
+- '[[dk-p20-bigram-fail]]'
 pipeline:
 - src_unknown
 - src_unknown

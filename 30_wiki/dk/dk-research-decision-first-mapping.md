@@ -34,6 +34,7 @@ related:
   - "[[tool-水水-管理决策权重偏差]]"
   - "[[case-科学决策-深度案例06]]"
   - '[[街顺app全面调研报告]]'
+  - '[[dk-long-material-layered-reading-protocol]]'
 ---
 
 # 研究活动如何服务决策

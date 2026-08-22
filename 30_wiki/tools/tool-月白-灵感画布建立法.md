@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[dk-modeling-expert-consensus-five-percent]]'
 tags:
 ---
 # 技能：灵感画布建立法

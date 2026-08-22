@@ -32,6 +32,7 @@ related:
 - '[[dk-jh-llm-time-blindness]]'
 - '[[dk-ai-judgment-human-responsibility]]'
 - '[[dk-ai-judgment-programmer-paradox]]'
+- '[[dk-lz-code-is-disposable]]'
 tags:
 - audience:executor
 - scene:reference

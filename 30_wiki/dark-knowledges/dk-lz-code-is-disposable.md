@@ -35,6 +35,7 @@ related:
 - '[[dk-jh-llm-time-blindness]]'
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
 - '[[dk-my-ai-landing-three-barriers]]'
+- '[[dk-p1-model-switch-env]]'
 created_at: '2026-06-09'
 updated_at: '2026-06-18'
 author: unknown

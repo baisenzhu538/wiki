@@ -20,6 +20,7 @@ related:
 - '[[method-kdo-agent-distillation]]'
 - '[[method-judge-skill-meta-evaluation]]'
 - '[[method-yihang-human-self-distillation]]'
+- '[[dk-skill-seven-elements-upgrade]]'
 tags:
 - audience:general
 - scene:diagnosis

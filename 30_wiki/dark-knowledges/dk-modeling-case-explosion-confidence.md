@@ -46,6 +46,8 @@ related:
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
 - '[[case-truman-ai-skill-self-packaging]]'
+- '[[dk-lz-code-is-disposable]]'
+- '[[dk-modeling-question-scaffold-not-answer]]'
 tags:
 - src_unknown
 - src_unknown

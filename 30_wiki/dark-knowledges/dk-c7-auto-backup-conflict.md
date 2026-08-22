@@ -29,6 +29,9 @@ related:
 - '[[tool-马易-AI落地场景识别与拆分]]'
 - '[[smart-device-foodservice-automation]]'
 - '[[obsidian-git-sync-protocol]]'
+- '[[dk-p14-zombie]]'
+- '[[dk-p15-unverified]]'
+- '[[dk-p17-accuracy-gap]]'
 pipeline:
 - src_unknown
 - src_unknown

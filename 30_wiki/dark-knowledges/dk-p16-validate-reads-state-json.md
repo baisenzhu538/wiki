@@ -28,6 +28,7 @@ related:
 - '[[proposal-yaml-frontmatter-standardization]]'
 - '[[dk-ji-hao-newbie-can-validate]]'
 - '[[tool-yitang-research-validate-assumption]]'
+- '[[dk-p3-auth-cache]]'
 pipeline:
 - src_unknown
 - src_unknown

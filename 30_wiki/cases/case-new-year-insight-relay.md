@@ -39,6 +39,7 @@ related:
 - '[[dk-research-important-things-must-do]]'
 - '[[case-cross-xingangwan-pharma]]'
 - '[[dk-context-patching-recipe]]'
+- '[[dk-one-sentence-handover]]'
 review_date: 2026-08-16
 ---
 

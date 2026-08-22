@@ -36,6 +36,7 @@ related:
 - '[[concept-research-saturation-coverage]]'
 - '[[dk-ai-judgment-human-responsibility]]'
 - '[[concept-ai-style-knowledge-docs]]'
+- '[[dk-research-saturation-quota-ai-km]]'
 tags:
 - audience:executor
 - scene:execution

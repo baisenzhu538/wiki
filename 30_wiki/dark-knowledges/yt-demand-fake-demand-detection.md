@@ -47,6 +47,7 @@ related:
 - '[[dk-demand-signal-vs-noise]]'
 - '[[dk-demand-switching-cost]]'
 - '[[dk-ji-hao-newbie-can-validate]]'
+- '[[dk-ji-hao-problem-vs-question]]'
 diagnostic_signals:
 - signal: src_unknown
   framework_lens: 伪需求信号1——兴趣≠需求

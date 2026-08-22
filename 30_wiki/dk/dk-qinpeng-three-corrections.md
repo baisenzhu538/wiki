@@ -37,6 +37,7 @@ related:
 - tool-马易-风口痛点识别法
 - tool-遵循规模前倾原则设计组织架构
 - '[[case-feishu-disruptive-innovation]]'
+- '[[dk-lu-gui-lv-bu-bei-yu-wang]]'
 created_at: 2026-08-02
 updated_at: 2026-08-02
 quality_labels: cited

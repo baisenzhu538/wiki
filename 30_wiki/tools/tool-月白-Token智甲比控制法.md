@@ -35,6 +35,7 @@ related:
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
 - '[[concept-token-capital]]'
+- '[[dk-p13-token-burn]]'
 tags:
 ---
 # 技能：Token智甲比控制法

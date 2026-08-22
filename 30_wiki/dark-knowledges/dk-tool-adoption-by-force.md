@@ -38,6 +38,8 @@ related:
 - '[[case-cross-xingangwan-pharma]]'
 - '[[bridge-how-to-know-person-to-business]]'
 - '[[dk-ai-builder-illusion]]'
+- '[[dk-occhams-knife-tool-migration]]'
+- '[[dk-one-sentence-handover]]'
 review_date: 2026-08-16
 ---
 # 工具落地靠硬推不靠倡议："你不用 Obsidian 我没法跟你协作"

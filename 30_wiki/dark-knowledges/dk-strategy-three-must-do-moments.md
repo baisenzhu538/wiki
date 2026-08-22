@@ -25,6 +25,8 @@ discoverable_by:
   - 快速扩张/业务平台期/行业下行期
 related:
 - '[[dk-strategy-longzhong-four-failures]]'
+- '[[dk-strategy-01-not-goal-setting]]'
+- '[[dk-strategy-03-advantage-temporary]]'
 reviewed_by: 欧阳锋
 review_date: '2026-06-28'
 updated_at: '2026-06-28'

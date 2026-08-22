@@ -55,6 +55,7 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - '[[yitang-domain-digest]]'
 - '[[concept-wanghuan-power-of-standards]]'
+- '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
 tags:
 - audience:executor
 - scene:reference

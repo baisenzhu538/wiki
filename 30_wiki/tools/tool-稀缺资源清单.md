@@ -33,6 +33,7 @@ related:
 - concept-X型Y型决策习惯
 - '[[yt-decision-width-method]]'
 - '[[dk-infrastructure-guardrails-over-checklist]]'
+- '[[dk-modeling-ai-self-retrospection]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

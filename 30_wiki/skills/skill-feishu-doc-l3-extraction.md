@@ -23,6 +23,7 @@ related:
 - '[[concept-streaming-extraction-pattern]]'
 - '[[case-feishu-live259-l3-extraction]]'
 - '[[case-feishu-minutes-extraction-attempt]]'
+- '[[dk-mcp-pythonpath-pollution]]'
 tags:
 - audience:executor
 - scene:execution

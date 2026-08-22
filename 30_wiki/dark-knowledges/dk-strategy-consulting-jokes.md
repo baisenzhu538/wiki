@@ -46,6 +46,7 @@ related:
 - '[[yt-five-step-method]]'
 - '[[dk-tool-as-phased-validator]]'
 - '[[strategy-domain-digest]]'
+- '[[dk-strategy-04-consulting-trap]]'
 tags:
 - audience:executor
 - scene:reference

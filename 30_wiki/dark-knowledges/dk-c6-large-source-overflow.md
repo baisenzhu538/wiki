@@ -32,6 +32,7 @@ related:
 - '[[dk-p6-session-resume-fail]]'
 - '[[pending_unknown]]'
 - '[[dk-c11-hongqigong-skip-review]]'
+- '[[dk-p8-toolkit-forget]]'
 pipeline:
 - src_unknown
 - src_unknown

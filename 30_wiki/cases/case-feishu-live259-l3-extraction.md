@@ -36,6 +36,7 @@ related:
 - concept-feishu-api-pagination-trap
 - concept-streaming-extraction-pattern
 - '[[case-feishu-minutes-extraction-attempt]]'
+- '[[dk-mcp-pythonpath-pollution]]'
 tags:
 - method:browser-automation
 - method:feishu-extraction

@@ -30,6 +30,7 @@ related:
 - '[[master-cognitive-bias-checklist]]'
 - '[[dk-delivery-path-type-bug]]'
 - '[[dk-E010-duplicate-key-detection]]'
+- '[[dk-P42-agent-fact-check-gap]]'
 pipeline:
 - src_unknown
 - src_unknown

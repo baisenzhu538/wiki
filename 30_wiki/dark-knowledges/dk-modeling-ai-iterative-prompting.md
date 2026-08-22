@@ -39,6 +39,7 @@ confidence: 0.88
 related:
 - '[[yitang-domain-digest]]'
 - '[[ai-collaboration-domain-digest]]'
+- '[[dk-modeling-question-scaffold-not-answer]]'
 tags:
 - audience:executor
 - scene:reference

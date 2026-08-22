@@ -48,6 +48,7 @@ related:
 - '[[case-panproduct-lanyi-intern-flywheel]]'
 - '[[case-roblox-ai-npc-education]]'
 - '[[concept-pan-product-vs-traditional-management]]'
+- '[[dk-panproduct-org-linear-to-circular]]'
 review_date: '2026-06-28'
 tags:
 - audience:general

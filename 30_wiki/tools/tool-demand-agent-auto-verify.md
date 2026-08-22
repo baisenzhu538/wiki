@@ -32,6 +32,7 @@ related:
 - '[[ai-collaboration-domain-digest]]'
 - kdo-protocol-implementation-roadmap
 - '[[dk-c7-auto-backup-conflict]]'
+- '[[dk-p17-accuracy-gap]]'
 updated_at: '2026-06-29'
 tags:
 - audience:executor

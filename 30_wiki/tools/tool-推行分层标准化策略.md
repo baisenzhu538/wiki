@@ -41,6 +41,7 @@ related:
 - '[[tool-设计对抗效果追踪看板]]'
 - tool-ai-prd-for-ai
 - '[[yt-business-model-partnership]]'
+- '[[dk-modeling-checklist-formatting-rules]]'
 tags:
 - audience:executor
 - scene:execution

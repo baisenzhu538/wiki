@@ -21,6 +21,8 @@ related:
 - '[[dk-note-surplus-brainpower]]'
 - '[[pending_unknown]]'
 - '[[pending_unknown]]'
+- '[[dk-p11-regex-cutoff]]'
+- '[[dk-p3-auth-cache]]'
 aliases:
   - 关键词加粗三重结构
   - 关键词加粗三重结构：视觉重心即认知重心的标记法则

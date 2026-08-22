@@ -34,6 +34,7 @@ related:
 - 'tool-月白-AI图片印刷落地预处理'
 - 'tool-月白-AI对话情绪管理法'
 - 'dk-three-context-formula'
+- '[[dk-p13-token-burn]]'
 tags:
 ---
 # 技能：Token效价比决策公式

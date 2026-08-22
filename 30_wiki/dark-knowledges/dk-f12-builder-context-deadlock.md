@@ -42,6 +42,8 @@ related:
 - '[[tool-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
 - '[[kdo_product_design_agent_final]]'
 - '[[dk-c11-hongqigong-skip-review]]'
+- '[[dk-p10-oral-ban]]'
+- '[[dk-p8-toolkit-forget]]'
 pipeline:
 - src_unknown
 - src_unknown

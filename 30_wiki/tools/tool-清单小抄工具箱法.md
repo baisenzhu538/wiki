@@ -34,6 +34,7 @@ related:
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-decision-width-method]]'
 - '[[dk-infrastructure-guardrails-over-checklist]]'
+- '[[dk-modeling-ai-self-retrospection]]'
 definition_of_done:
 - src_unknown
 - src_unknown

@@ -38,6 +38,11 @@ related:
 - '[[dk-ban-fei-mao-silky-answers-are-dangerous]]'
 - '[[dk-ban-fei-mao-skill-rejection-value]]'
 - '[[dk-customers-hate-ai]]'
+- '[[dk-ji-hao-problem-vs-question]]'
+- '[[dk-mckinsey-hypothesis-driven-pitfalls]]'
+- '[[dk-model-demystification]]'
+- '[[dk-research-ai-no-time-concept]]'
+- '[[dk-research-classification-mece-table]]'
 tags:
 - audience:executor
 - scene:reference

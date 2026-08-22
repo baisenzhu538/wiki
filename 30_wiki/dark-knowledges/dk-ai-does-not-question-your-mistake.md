@@ -39,6 +39,8 @@ related:
 - case-live258-europe-cold-email
 - '[[dk-customers-hate-ai]]'
 - '[[dk-feature-pieces-not-recognized-as-cards]]'
+- '[[dk-research-ai-no-time-concept]]'
+- '[[dk-research-saturation-self-proof]]'
 tags:
 - method:feature-thinking
 - method:fact-control

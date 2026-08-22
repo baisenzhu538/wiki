@@ -22,6 +22,7 @@ related:
 - '[[method-kdo-agent-design-meta]]'
 - '[[method-kdo-inbox-annotation]]'
 - '[[method-yihang-human-self-distillation]]'
+- '[[dk-skill-seven-elements-upgrade]]'
 tags:
 - audience:general
 - scene:diagnosis

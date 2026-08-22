@@ -43,6 +43,7 @@ related:
 - '[[yt-note-expert-interview-modeling]]'
 - '[[yt-note-extensive-research-input]]'
 - '[[dk-infrastructure-guardrails-over-checklist]]'
+- '[[dk-modeling-ai-self-retrospection]]'
 tags:
 - audience:executor
 - scene:execution

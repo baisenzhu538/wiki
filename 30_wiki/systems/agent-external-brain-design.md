@@ -26,6 +26,7 @@ related:
 - '[[case-ji-hao-skills-market]]'
 - '[[design-ai-image-generation]]'
 - '[[dk-f12-builder-context-deadlock]]'
+- '[[dk-p8-toolkit-forget]]'
 tags:
 - audience:manager
 - scene:reference

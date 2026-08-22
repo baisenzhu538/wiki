@@ -41,6 +41,7 @@ related:
 - '[[dk-ai-judgment-human-responsibility]]'
 - bridge-how-to-know-person-to-business
 - case-cross-xingangwan-pharma
+- '[[dk-research-saturation-self-proof]]'
 tags:
 - audience:executor
 - audience:manager
