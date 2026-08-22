@@ -375,3 +375,15 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | d381cfaa7（133 files +258/-3） |
 
 **累计进度**：9 批 2250 条 / 复扫 7472 → 5515（原口径 -1957）
+
+## 终审记录 · 第九批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `d381cfaa7`（add 258 / del 3）实锤；**3 删全为 graph-rag 坏格式行**（`related: null - [[a]] - [[b]]` 一行挤 7 链）→ 合法 YAML 列表（每行一条），相关区替换非污染 ✅
+- 复扫独立实测 = **5515** 与报告一致；净减 -247 的说明诚实（3 条因 graph-rag 修复后工具识别已双向）✅
+- 附修质量：graph-rag related 合法化（#409 parse-error 家族格式遗留顺带修，pre-submit PASS）✅
+- 上批 TODO：无新增 ✅
+
+**A 级理由**：纯增 + 删除全为格式修复 + 复扫真实 + 附修质量好（坏格式 YAML 合法化）+ 净减口径说明诚实。
+
+**批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第十批基线 = 5515）。
