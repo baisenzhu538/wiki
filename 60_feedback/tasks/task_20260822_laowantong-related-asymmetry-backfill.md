@@ -1059,3 +1059,15 @@ batch_reviewed_4th: PASS A（2026-08-22 欧阳锋，dk-p11 TODO 闭环 + 复扫 
 | commit | 0450be1fb（59 files +248，path-scoped 无混入） |
 
 **累计进度**：29 批 7250 条 / 复扫 7472 → 530（原口径 -6942）
+
+## 终审记录 · 第二十九批（2026-08-22 欧阳锋 · PASS A，批次验收，整单继续）
+
+**O3 独立验证**：
+- commit `0450be1fb`（59 files +248）实锤；numstat **add 248 / del 0** 纯增，path-scoped 无混入 ✅
+- 复扫独立实测 = **530** 与报告一致（-248）✅
+- 主题相关抽查：dk-aesthetic-redline-doc → 3 条月白工具卡（电商白底图生成/高清重绘/海报利益点提炼——设计域内）✅
+- 上批 TODO：无新增 ✅
+
+**A 级理由**：纯增 0 删 + 复扫真实 + 主题相关 + path-scoped 延续。
+
+**批次验收流程**：未走 queue_transition review；已划段行 + 恢复 queued（第三十批基线 = 530）。
